@@ -5079,7 +5079,7 @@
 - [GGyao/weblogic_2019_2725_wls_batch](https://github.com/GGyao/weblogic_2019_2725_wls_batch)
 
 ### CVE-2019-2729.json
-- [waffl3ss/SerialLogic](https://github.com/waffl3ss/SerialLogic)
+- [waffl3ss/CVE-2019-2729](https://github.com/waffl3ss/CVE-2019-2729)
 
 ### CVE-2019-2888.json
 - [21superman/weblogic_cve-2019-2888](https://github.com/21superman/weblogic_cve-2019-2888)
