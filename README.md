@@ -4427,6 +4427,9 @@
 ### CVE-2019-11076.json
 - [livehybrid/poc-cribl-rce](https://github.com/livehybrid/poc-cribl-rce)
 
+### CVE-2019-1108.json
+- [Lanph3re/CVE-2019-1108](https://github.com/Lanph3re/CVE-2019-1108)
+
 ### CVE-2019-11157.json
 - [zkenjar/v0ltpwn](https://github.com/zkenjar/v0ltpwn)
 
