@@ -5023,6 +5023,7 @@
 - [MalwareTech/CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot)
 - [mekhalleh/citrix_dir_trasversal_rce](https://github.com/mekhalleh/citrix_dir_trasversal_rce)
 - [zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web)
+- [zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker)
 
 ### CVE-2019-19844.json
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
