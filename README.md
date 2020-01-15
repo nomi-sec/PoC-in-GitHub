@@ -5021,6 +5021,7 @@
 - [aqhmal/CVE-2019-19781](https://github.com/aqhmal/CVE-2019-19781)
 - [MalwareTech/CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot)
 - [mekhalleh/citrix_dir_trasversal_rce](https://github.com/mekhalleh/citrix_dir_trasversal_rce)
+- [zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web)
 
 ### CVE-2019-19844.json
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
@@ -5406,6 +5407,10 @@
 
 
 ## 2020
+### CVE-2020-0601.json
+- [nissan-sudo/CVE-2020-0601](https://github.com/nissan-sudo/CVE-2020-0601)
+- [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
+
 ### CVE-2020-5509.json
 - [FULLSHADE/CVE-2020-5509-POC](https://github.com/FULLSHADE/CVE-2020-5509-POC)
 
