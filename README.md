@@ -679,6 +679,7 @@
 - [cheese-hub/heartbleed](https://github.com/cheese-hub/heartbleed)
 - [artofscripting/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS)
 - [cldme/heartbleed-bug](https://github.com/cldme/heartbleed-bug)
+- [hack3r-0m/heartbleed_fix_updated](https://github.com/hack3r-0m/heartbleed_fix_updated)
 
 ### CVE-2014-0166.json
 - [Ettack/POC-CVE-2014-0166](https://github.com/Ettack/POC-CVE-2014-0166)
