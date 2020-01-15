@@ -1365,6 +1365,7 @@
 - [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
+- [slunart/Zabbix-Templates](https://github.com/slunart/Zabbix-Templates)
 
 ### CVE-2016-0752.json
 - [forced-request/rails-rce-cve-2016-0752](https://github.com/forced-request/rails-rce-cve-2016-0752)
@@ -5024,6 +5025,8 @@
 - [mekhalleh/citrix_dir_trasversal_rce](https://github.com/mekhalleh/citrix_dir_trasversal_rce)
 - [zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web)
 - [zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker)
+- [digitalshadows/CVE-2019-19781_IOCs](https://github.com/digitalshadows/CVE-2019-19781_IOCs)
+- [onSec-fr/CVE-2019-19781-Forensic](https://github.com/onSec-fr/CVE-2019-19781-Forensic)
 
 ### CVE-2019-19844.json
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
@@ -5412,6 +5415,8 @@
 ### CVE-2020-0601.json
 - [nissan-sudo/CVE-2020-0601](https://github.com/nissan-sudo/CVE-2020-0601)
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
+- [SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601)
+- [JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601)
 
 ### CVE-2020-5509.json
 - [FULLSHADE/CVE-2020-5509-POC](https://github.com/FULLSHADE/CVE-2020-5509-POC)
