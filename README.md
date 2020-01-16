@@ -5028,6 +5028,8 @@
 - [digitalshadows/CVE-2019-19781_IOCs](https://github.com/digitalshadows/CVE-2019-19781_IOCs)
 - [onSec-fr/CVE-2019-19781-Forensic](https://github.com/onSec-fr/CVE-2019-19781-Forensic)
 - [DanielWep/CVE-NetScalerFileSystemCheck](https://github.com/DanielWep/CVE-NetScalerFileSystemCheck)
+- [Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781)
+- [j81blog/ADC-19781](https://github.com/j81blog/ADC-19781)
 
 ### CVE-2019-19844.json
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
@@ -5419,9 +5421,10 @@
 - [SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601)
 - [JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
-- [ollypwn/cve-2020-0601](https://github.com/ollypwn/cve-2020-0601)
+- [ollypwn/CVE-2020-0601](https://github.com/ollypwn/CVE-2020-0601)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [plawin/Awesome-CVE-2020-0601](https://github.com/plawin/Awesome-CVE-2020-0601)
+- [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
 
 ### CVE-2020-5509.json
 - [FULLSHADE/CVE-2020-5509-POC](https://github.com/FULLSHADE/CVE-2020-5509-POC)
