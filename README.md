@@ -4884,6 +4884,9 @@
 ### CVE-2019-17124.json
 - [hessandrew/CVE-2019-17124](https://github.com/hessandrew/CVE-2019-17124)
 
+### CVE-2019-17221.json
+- [h4ckologic/CVE-2019-17221](https://github.com/h4ckologic/CVE-2019-17221)
+
 ### CVE-2019-17234.json
 - [administra1tor/CVE-2019-17234-Wordpress-DirStroyer](https://github.com/administra1tor/CVE-2019-17234-Wordpress-DirStroyer)
 
@@ -5048,6 +5051,12 @@
 ### CVE-2019-2107.json
 - [marcinguy/CVE-2019-2107](https://github.com/marcinguy/CVE-2019-2107)
 - [infiniteLoopers/CVE-2019-2107](https://github.com/infiniteLoopers/CVE-2019-2107)
+
+### CVE-2019-2196.json
+- [IOActive/AOSP-DownloadProviderDbDumperSQLiLimit](https://github.com/IOActive/AOSP-DownloadProviderDbDumperSQLiLimit)
+
+### CVE-2019-2198.json
+- [IOActive/AOSP-DownloadProviderDbDumperSQLiWhere](https://github.com/IOActive/AOSP-DownloadProviderDbDumperSQLiWhere)
 
 ### CVE-2019-2215.json
 - [timwr/CVE-2019-2215](https://github.com/timwr/CVE-2019-2215)
@@ -5425,6 +5434,7 @@
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [plawin/Awesome-CVE-2020-0601](https://github.com/plawin/Awesome-CVE-2020-0601)
 - [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
+- [apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601)
 
 ### CVE-2020-5509.json
 - [FULLSHADE/CVE-2020-5509-POC](https://github.com/FULLSHADE/CVE-2020-5509-POC)
