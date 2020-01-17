@@ -5435,6 +5435,8 @@
 - [plawin/Awesome-CVE-2020-0601](https://github.com/plawin/Awesome-CVE-2020-0601)
 - [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
 - [apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601)
+- [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
+- [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 
 ### CVE-2020-5509.json
 - [FULLSHADE/CVE-2020-5509-POC](https://github.com/FULLSHADE/CVE-2020-5509-POC)
