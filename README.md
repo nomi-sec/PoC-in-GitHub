@@ -1365,7 +1365,6 @@
 - [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
-- [slunart/Zabbix-Templates](https://github.com/slunart/Zabbix-Templates)
 
 ### CVE-2016-0752.json
 - [forced-request/rails-rce-cve-2016-0752](https://github.com/forced-request/rails-rce-cve-2016-0752)
@@ -5442,6 +5441,7 @@
 - [apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
+- [Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell)
 
 ### CVE-2020-5398.json
 - [motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398)
