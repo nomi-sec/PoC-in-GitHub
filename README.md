@@ -5033,6 +5033,8 @@
 - [DanielWep/CVE-NetScalerFileSystemCheck](https://github.com/DanielWep/CVE-NetScalerFileSystemCheck)
 - [Castaldio86/Detect-CVE-2019-19781](https://github.com/Castaldio86/Detect-CVE-2019-19781)
 - [j81blog/ADC-19781](https://github.com/j81blog/ADC-19781)
+- [clm123321/Citrix_CVE-2019-19781](https://github.com/clm123321/Citrix_CVE-2019-19781)
+- [b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781)
 
 ### CVE-2019-19844.json
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
@@ -5047,6 +5049,9 @@
 
 ### CVE-2019-20224.json
 - [mhaskar/CVE-2019-20224](https://github.com/mhaskar/CVE-2019-20224)
+
+### CVE-2019-20327.json
+- [Diefunction/CVE-2019-20327](https://github.com/Diefunction/CVE-2019-20327)
 
 ### CVE-2019-2107.json
 - [marcinguy/CVE-2019-2107](https://github.com/marcinguy/CVE-2019-2107)
@@ -5437,6 +5442,9 @@
 - [apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
+
+### CVE-2020-5398.json
+- [motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398)
 
 ### CVE-2020-5509.json
 - [FULLSHADE/CVE-2020-5509-POC](https://github.com/FULLSHADE/CVE-2020-5509-POC)
