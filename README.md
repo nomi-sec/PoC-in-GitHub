@@ -138,6 +138,7 @@
 - [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
+- [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 
 ### CVE-2007-3830
 - [alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830)
@@ -263,6 +264,9 @@
 
 ### CVE-2010-1205
 - [mk219533/CVE-2010-1205](https://github.com/mk219533/CVE-2010-1205)
+
+### CVE-2010-1411
+- [MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller)
 
 ### CVE-2010-2075
 - [M4LV0/UnrealIRCd-3.2.8.1-RCE](https://github.com/M4LV0/UnrealIRCd-3.2.8.1-RCE)
@@ -951,7 +955,6 @@
 
 ### CVE-2014-9016
 - [c0r3dump3d/wp_drupal_timing_attack](https://github.com/c0r3dump3d/wp_drupal_timing_attack)
-- [Primus27/WordPress-Long-Password-Denial-of-Service](https://github.com/Primus27/WordPress-Long-Password-Denial-of-Service)
 
 ### CVE-2014-9222
 - [BenChaliah/MIPS-CVE-2014-9222](https://github.com/BenChaliah/MIPS-CVE-2014-9222)
@@ -2293,6 +2296,9 @@
 
 ### CVE-2017-2671
 - [homjxi0e/CVE-2017-2671](https://github.com/homjxi0e/CVE-2017-2671)
+
+### CVE-2017-2751
+- [BaderSZ/CVE-2017-2751](https://github.com/BaderSZ/CVE-2017-2751)
 
 ### CVE-2017-2793
 - [r0otshell/Detection-for-CVE-2017-2793](https://github.com/r0otshell/Detection-for-CVE-2017-2793)
@@ -3847,6 +3853,7 @@
 - [frozenkp/CVE-2018-6574](https://github.com/frozenkp/CVE-2018-6574)
 - [kev-ho/cve-2018-6574-payload](https://github.com/kev-ho/cve-2018-6574-payload)
 - [sdosis/cve-2018-6574](https://github.com/sdosis/cve-2018-6574)
+- [No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC)
 
 ### CVE-2018-6622
 - [kkamagui/napper-for-tpm](https://github.com/kkamagui/napper-for-tpm)
@@ -4429,7 +4436,7 @@
 - [livehybrid/poc-cribl-rce](https://github.com/livehybrid/poc-cribl-rce)
 
 ### CVE-2019-1108
-- [Lanph3re/CVE-2019-1108](https://github.com/Lanph3re/CVE-2019-1108)
+- [Lanph3re/cve-2019-1108](https://github.com/Lanph3re/cve-2019-1108)
 
 ### CVE-2019-11157
 - [zkenjar/v0ltpwn](https://github.com/zkenjar/v0ltpwn)
@@ -4752,6 +4759,9 @@
 ### CVE-2019-14540
 - [LeadroyaL/cve-2019-14540-exploit](https://github.com/LeadroyaL/cve-2019-14540-exploit)
 
+### CVE-2019-14615
+- [HE-Wenjian/iGPU-Leak](https://github.com/HE-Wenjian/iGPU-Leak)
+
 ### CVE-2019-14745
 - [xooxo/CVE-2019-14745](https://github.com/xooxo/CVE-2019-14745)
 
@@ -4901,6 +4911,9 @@
 ### CVE-2019-17558
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 
+### CVE-2019-17570
+- [r00t4dm/CVE-2019-17570](https://github.com/r00t4dm/CVE-2019-17570)
+
 ### CVE-2019-17571
 - [shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571)
 
@@ -5021,10 +5034,11 @@
 - [bufsnake/CVE-2019-19781](https://github.com/bufsnake/CVE-2019-19781)
 - [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
 - [Jabo-SCO/Shitrix-CVE-2019-19781](https://github.com/Jabo-SCO/Shitrix-CVE-2019-19781)
+- [x1sec/CVE-2019-19781](https://github.com/x1sec/CVE-2019-19781)
 - [hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781)
 - [aqhmal/CVE-2019-19781](https://github.com/aqhmal/CVE-2019-19781)
 - [MalwareTech/CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot)
-- [mekhalleh/citrix_dir_trasversal_rce](https://github.com/mekhalleh/citrix_dir_trasversal_rce)
+- [mekhalleh/citrix_dir_traversal_rce](https://github.com/mekhalleh/citrix_dir_traversal_rce)
 - [zenturacp/cve-2019-19781-web](https://github.com/zenturacp/cve-2019-19781-web)
 - [zgelici/CVE-2019-19781-Checker](https://github.com/zgelici/CVE-2019-19781-Checker)
 - [digitalshadows/CVE-2019-19781_IOCs](https://github.com/digitalshadows/CVE-2019-19781_IOCs)
@@ -5034,10 +5048,14 @@
 - [j81blog/ADC-19781](https://github.com/j81blog/ADC-19781)
 - [clm123321/Citrix_CVE-2019-19781](https://github.com/clm123321/Citrix_CVE-2019-19781)
 - [b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781)
+- [redscan/CVE-2019-19781](https://github.com/redscan/CVE-2019-19781)
+- [cookiemonster/CVE-2019-19781](https://github.com/cookiemonster/CVE-2019-19781)
+- [DIVD-NL/Citrix-CVE-2019-19781](https://github.com/DIVD-NL/Citrix-CVE-2019-19781)
 
 ### CVE-2019-19844
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
 - [andripwn/django_cve201919844](https://github.com/andripwn/django_cve201919844)
+- [0xsha/CVE_2019_19844](https://github.com/0xsha/CVE_2019_19844)
 
 ### CVE-2019-1987
 - [marcinguy/android-7-9-png-bug](https://github.com/marcinguy/android-7-9-png-bug)
@@ -5442,6 +5460,16 @@
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell)
+- [MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601)
+- [YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601)
+- [thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl)
+- [dlee35/curveball_lua](https://github.com/dlee35/curveball_lua)
+- [IIICTECH/-CVE-2020-0601-ECC---EXPLOIT](https://github.com/IIICTECH/-CVE-2020-0601-ECC---EXPLOIT)
+- [cosmicifint/CVE-2020-0601](https://github.com/cosmicifint/CVE-2020-0601)
+
+### CVE-2020-2551
+- [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
+- [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 
 ### CVE-2020-5398
 - [motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398)
