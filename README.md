@@ -5052,6 +5052,7 @@
 - [redscan/CVE-2019-19781](https://github.com/redscan/CVE-2019-19781)
 - [cookiemonster/CVE-2019-19781](https://github.com/cookiemonster/CVE-2019-19781)
 - [DIVD-NL/Citrix-CVE-2019-19781](https://github.com/DIVD-NL/Citrix-CVE-2019-19781)
+- [ynsmroztas/citrix.sh](https://github.com/ynsmroztas/citrix.sh)
 
 ### CVE-2019-19844
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
@@ -5060,6 +5061,9 @@
 
 ### CVE-2019-1987
 - [marcinguy/android-7-9-png-bug](https://github.com/marcinguy/android-7-9-png-bug)
+
+### CVE-2019-19871
+- [VDISEC/CVE-2019-19871-AuditGuide](https://github.com/VDISEC/CVE-2019-19871-AuditGuide)
 
 ### CVE-2019-20197
 - [lp008/CVE-2019-20197](https://github.com/lp008/CVE-2019-20197)
@@ -5467,6 +5471,7 @@
 - [dlee35/curveball_lua](https://github.com/dlee35/curveball_lua)
 - [IIICTECH/-CVE-2020-0601-ECC---EXPLOIT](https://github.com/IIICTECH/-CVE-2020-0601-ECC---EXPLOIT)
 - [cosmicifint/CVE-2020-0601](https://github.com/cosmicifint/CVE-2020-0601)
+- [gentilkiwi/curveball](https://github.com/gentilkiwi/curveball)
 
 ### CVE-2020-2551
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
