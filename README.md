@@ -4978,6 +4978,9 @@
 ### CVE-2019-19368
 - [harshit-shukla/CVE-2019-19368](https://github.com/harshit-shukla/CVE-2019-19368)
 
+### CVE-2019-19369
+- [TheCyberGeek/CVE-2019-19369](https://github.com/TheCyberGeek/CVE-2019-19369)
+
 ### CVE-2019-19383
 - [m0rph-1/CVE-2019-19383](https://github.com/m0rph-1/CVE-2019-19383)
 
@@ -5055,6 +5058,7 @@
 - [cookiemonster/CVE-2019-19781](https://github.com/cookiemonster/CVE-2019-19781)
 - [DIVD-NL/Citrix-CVE-2019-19781](https://github.com/DIVD-NL/Citrix-CVE-2019-19781)
 - [ynsmroztas/citrix.sh](https://github.com/ynsmroztas/citrix.sh)
+- [c4pt41nnn/massCitrix](https://github.com/c4pt41nnn/massCitrix)
 
 ### CVE-2019-19844
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
