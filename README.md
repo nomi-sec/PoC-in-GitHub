@@ -2695,6 +2695,7 @@
 - [bao7uo/dp_crypto](https://github.com/bao7uo/dp_crypto)
 - [capt-meelo/Telewreck](https://github.com/capt-meelo/Telewreck)
 - [ictnamanh/CVE-2017-9248](https://github.com/ictnamanh/CVE-2017-9248)
+- [shacojx/dp](https://github.com/shacojx/dp)
 
 ### CVE-2017-9417
 - [mailinneberg/Broadpwn](https://github.com/mailinneberg/Broadpwn)
