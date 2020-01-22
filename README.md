@@ -5480,6 +5480,9 @@
 - [cosmicifint/CVE-2020-0601](https://github.com/cosmicifint/CVE-2020-0601)
 - [gentilkiwi/curveball](https://github.com/gentilkiwi/curveball)
 
+### CVE-2020-0609
+- [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
+
 ### CVE-2020-2551
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
