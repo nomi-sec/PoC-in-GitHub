@@ -2675,6 +2675,9 @@
 ### CVE-2017-8802
 - [ozzi-/Zimbra-CVE-2017-8802-Hotifx](https://github.com/ozzi-/Zimbra-CVE-2017-8802-Hotifx)
 
+### CVE-2017-8809
+- [motikan2010/CVE-2017-8809_MediaWiki_RFD](https://github.com/motikan2010/CVE-2017-8809_MediaWiki_RFD)
+
 ### CVE-2017-8890
 - [beraphin/CVE-2017-8890](https://github.com/beraphin/CVE-2017-8890)
 - [thinkycx/CVE-2017-8890](https://github.com/thinkycx/CVE-2017-8890)
@@ -4882,6 +4885,9 @@
 - [FarjaalAhmad/CVE-2019-16759](https://github.com/FarjaalAhmad/CVE-2019-16759)
 - [andripwn/pwn-vbulletin](https://github.com/andripwn/pwn-vbulletin)
 
+### CVE-2019-16784
+- [AlterSolutions/PyInstallerPrivEsc](https://github.com/AlterSolutions/PyInstallerPrivEsc)
+
 ### CVE-2019-16889
 - [grampae/meep](https://github.com/grampae/meep)
 
@@ -5060,6 +5066,9 @@
 - [DIVD-NL/Citrix-CVE-2019-19781](https://github.com/DIVD-NL/Citrix-CVE-2019-19781)
 - [ynsmroztas/citrix.sh](https://github.com/ynsmroztas/citrix.sh)
 - [c4pt41nnn/massCitrix](https://github.com/c4pt41nnn/massCitrix)
+- [fireeye/ioc-scanner-CVE-2019-19781](https://github.com/fireeye/ioc-scanner-CVE-2019-19781)
+- [citrix/ioc-scanner-CVE-2019-19781](https://github.com/citrix/ioc-scanner-CVE-2019-19781)
+- [x1sec/citrix-honeypot](https://github.com/x1sec/citrix-honeypot)
 
 ### CVE-2019-19844
 - [ryu22e/django_cve_2019_19844_poc](https://github.com/ryu22e/django_cve_2019_19844_poc)
@@ -5482,6 +5491,9 @@
 
 ### CVE-2020-0609
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
+
+### CVE-2020-1611
+- [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
 
 ### CVE-2020-2551
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
