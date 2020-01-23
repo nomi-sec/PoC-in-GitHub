@@ -5494,6 +5494,9 @@
 ### CVE-2020-0609
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
 
+### CVE-2020-0674
+- [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
+
 ### CVE-2020-1611
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
 
