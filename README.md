@@ -5494,6 +5494,7 @@
 
 ### CVE-2020-0609
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
+- [ollypwn/BlueGate](https://github.com/ollypwn/BlueGate)
 
 ### CVE-2020-0674
 - [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
