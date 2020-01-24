@@ -5062,7 +5062,6 @@
 - [clm123321/Citrix_CVE-2019-19781](https://github.com/clm123321/Citrix_CVE-2019-19781)
 - [b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781)
 - [redscan/CVE-2019-19781](https://github.com/redscan/CVE-2019-19781)
-- [cookiemonster/CVE-2019-19781](https://github.com/cookiemonster/CVE-2019-19781)
 - [DIVD-NL/Citrix-CVE-2019-19781](https://github.com/DIVD-NL/Citrix-CVE-2019-19781)
 - [ynsmroztas/citrix.sh](https://github.com/ynsmroztas/citrix.sh)
 - [c4pt41nnn/massCitrix](https://github.com/c4pt41nnn/massCitrix)
@@ -5495,6 +5494,7 @@
 ### CVE-2020-0609
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
 - [ollypwn/BlueGate](https://github.com/ollypwn/BlueGate)
+- [MalwareTech/RDGScanner](https://github.com/MalwareTech/RDGScanner)
 
 ### CVE-2020-0674
 - [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
