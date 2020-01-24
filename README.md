@@ -4923,6 +4923,7 @@
 
 ### CVE-2019-17570
 - [r00t4dm/CVE-2019-17570](https://github.com/r00t4dm/CVE-2019-17570)
+- [orangecertcc/xmlrpc-common-deserialization](https://github.com/orangecertcc/xmlrpc-common-deserialization)
 
 ### CVE-2019-17571
 - [shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571)
@@ -5514,6 +5515,9 @@
 
 ### CVE-2020-5509
 - [FULLSHADE/CVE-2020-5509-POC](https://github.com/FULLSHADE/CVE-2020-5509-POC)
+
+### CVE-2020-609
+- [Bechsen/CVE-2020-609-POC](https://github.com/Bechsen/CVE-2020-609-POC)
 
 ### CVE-2020-6172
 - [Jeff-Rowell/CVE-2020-6172](https://github.com/Jeff-Rowell/CVE-2020-6172)
