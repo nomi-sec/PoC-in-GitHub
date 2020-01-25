@@ -3841,7 +3841,6 @@
 - [ahmetmanga/cve-2018-6574](https://github.com/ahmetmanga/cve-2018-6574)
 - [michiiii/go-get-exploit](https://github.com/michiiii/go-get-exploit)
 - [kenprice/cve-2018-6574](https://github.com/kenprice/cve-2018-6574)
-- [niro095/testCVE-2018-6574](https://github.com/niro095/testCVE-2018-6574)
 - [redirected/cve-2018-6574](https://github.com/redirected/cve-2018-6574)
 - [20matan/CVE-2018-6574-POC](https://github.com/20matan/CVE-2018-6574-POC)
 - [zur250/Zur-Go-GET-RCE-Solution](https://github.com/zur250/Zur-Go-GET-RCE-Solution)
@@ -5494,6 +5493,7 @@
 - [IIICTECH/-CVE-2020-0601-ECC---EXPLOIT](https://github.com/IIICTECH/-CVE-2020-0601-ECC---EXPLOIT)
 - [cosmicifint/CVE-2020-0601](https://github.com/cosmicifint/CVE-2020-0601)
 - [gentilkiwi/curveball](https://github.com/gentilkiwi/curveball)
+- [Hans-MartinHannibalLauridsen/CurveBall](https://github.com/Hans-MartinHannibalLauridsen/CurveBall)
 
 ### CVE-2020-0609
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
