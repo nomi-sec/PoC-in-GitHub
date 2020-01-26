@@ -5527,4 +5527,7 @@
 ### CVE-2020-6172
 - [Jeff-Rowell/CVE-2020-6172](https://github.com/Jeff-Rowell/CVE-2020-6172)
 
+### CVE-2020-72381
+- [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
+
 
