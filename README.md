@@ -2952,7 +2952,6 @@
 - [knqyf263/CVE-2018-11235](https://github.com/knqyf263/CVE-2018-11235)
 - [excfergodst/git-RCE](https://github.com/excfergodst/git-RCE)
 - [ygouzerh/CVE-2018-11235](https://github.com/ygouzerh/CVE-2018-11235)
-- [bokanrb/CVE-2018-11235](https://github.com/bokanrb/CVE-2018-11235)
 - [qweraqq/CVE-2018-11235-Git-Submodule-CE](https://github.com/qweraqq/CVE-2018-11235-Git-Submodule-CE)
 - [jhswartz/CVE-2018-11235](https://github.com/jhswartz/CVE-2018-11235)
 - [AnonymKing/CVE-2018-11235](https://github.com/AnonymKing/CVE-2018-11235)
