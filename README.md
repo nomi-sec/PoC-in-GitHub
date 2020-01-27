@@ -4453,6 +4453,9 @@
 ### CVE-2019-11223
 - [AngelCtulhu/CVE-2019-11223](https://github.com/AngelCtulhu/CVE-2019-11223)
 
+### CVE-2019-1125
+- [bitdefender/swapgs-attack-poc](https://github.com/bitdefender/swapgs-attack-poc)
+
 ### CVE-2019-1132
 - [Vlad-tri/CVE-2019-1132](https://github.com/Vlad-tri/CVE-2019-1132)
 - [petercc/CVE-2019-1132](https://github.com/petercc/CVE-2019-1132)
