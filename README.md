@@ -899,6 +899,7 @@
 - [wenyu1999/bash-shellshock](https://github.com/wenyu1999/bash-shellshock)
 - [Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271)
 - [Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271)
+- [somhm-solutions/Shell-Shock](https://github.com/somhm-solutions/Shell-Shock)
 
 ### CVE-2014-6287
 - [roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py)
