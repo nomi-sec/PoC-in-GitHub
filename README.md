@@ -1739,6 +1739,9 @@
 - [agkunkle/chocobo](https://github.com/agkunkle/chocobo)
 - [m-mullins/CVE-2016-8655_Android](https://github.com/m-mullins/CVE-2016-8655_Android)
 
+### CVE-2016-8735
+- [ianxtianxt/CVE-2016-8735](https://github.com/ianxtianxt/CVE-2016-8735)
+
 ### CVE-2016-8740
 - [lcfpadilha/mac0352-ep4](https://github.com/lcfpadilha/mac0352-ep4)
 
@@ -5023,6 +5026,9 @@
 ### CVE-2019-19658
 - [jra89/CVE-2019-19658](https://github.com/jra89/CVE-2019-19658)
 
+### CVE-2019-19699
+- [SpengeSec/CVE-2019-19699](https://github.com/SpengeSec/CVE-2019-19699)
+
 ### CVE-2019-19732
 - [jra89/CVE-2019-19732](https://github.com/jra89/CVE-2019-19732)
 
@@ -5522,6 +5528,9 @@
 
 ### CVE-2020-3833
 - [c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-](https://github.com/c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-)
+
+### CVE-2020-5179
+- [CesarSilence/RCE-CVE-2020-5179](https://github.com/CesarSilence/RCE-CVE-2020-5179)
 
 ### CVE-2020-5398
 - [motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398)
