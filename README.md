@@ -5002,6 +5002,9 @@
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
 
+### CVE-2019-19550
+- [underprotection/CVE-2019-19550](https://github.com/underprotection/CVE-2019-19550)
+
 ### CVE-2019-19576
 - [jra89/CVE-2019-19576](https://github.com/jra89/CVE-2019-19576)
 
@@ -5104,6 +5107,9 @@
 
 ### CVE-2019-20327
 - [Diefunction/CVE-2019-20327](https://github.com/Diefunction/CVE-2019-20327)
+
+### CVE-2019-20335
+- [TheCyberGeek/CVE-2019-20335](https://github.com/TheCyberGeek/CVE-2019-20335)
 
 ### CVE-2019-2107
 - [marcinguy/CVE-2019-2107](https://github.com/marcinguy/CVE-2019-2107)
@@ -5537,6 +5543,9 @@
 
 ### CVE-2020-5509
 - [FULLSHADE/CVE-2020-5509-POC](https://github.com/FULLSHADE/CVE-2020-5509-POC)
+
+### CVE-2020-5844
+- [TheCyberGeek/CVE-2020-5844](https://github.com/TheCyberGeek/CVE-2020-5844)
 
 ### CVE-2020-609
 - [Bechsen/CVE-2020-609-POC](https://github.com/Bechsen/CVE-2020-609-POC)
