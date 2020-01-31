@@ -1553,7 +1553,6 @@
 
 ### CVE-2016-4622
 - [saelo/jscpwn](https://github.com/saelo/jscpwn)
-- [pr0cf5/webkit-poc](https://github.com/pr0cf5/webkit-poc)
 
 ### CVE-2016-4631
 - [hansnielsen/tiffdisabler](https://github.com/hansnielsen/tiffdisabler)
@@ -3234,7 +3233,7 @@
 - [sharmasandeepkr/cve-2018-15968](https://github.com/sharmasandeepkr/cve-2018-15968)
 
 ### CVE-2018-15982
-- [prsecurity/CVE-2018-15982](https://github.com/prsecurity/CVE-2018-15982)
+- [FlatL1neAPT/CVE-2018-15982](https://github.com/FlatL1neAPT/CVE-2018-15982)
 - [AirEvan/CVE-2018-15982_PoC](https://github.com/AirEvan/CVE-2018-15982_PoC)
 - [Ridter/CVE-2018-15982_EXP](https://github.com/Ridter/CVE-2018-15982_EXP)
 - [kphongagsorn/adobe-flash-cve2018-15982](https://github.com/kphongagsorn/adobe-flash-cve2018-15982)
