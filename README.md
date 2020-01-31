@@ -4102,7 +4102,7 @@
 
 ### CVE-2018-9206
 - [Den1al/CVE-2018-9206](https://github.com/Den1al/CVE-2018-9206)
-- [gunnerstahl/JQShell](https://github.com/gunnerstahl/JQShell)
+- [Stahlz/JQShell](https://github.com/Stahlz/JQShell)
 - [cved-sources/cve-2018-9206](https://github.com/cved-sources/cve-2018-9206)
 
 ### CVE-2018-9207
