@@ -87,7 +87,6 @@
 
 ### CVE-2004-2271
 - [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
-- [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
 - [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
 
 ### CVE-2004-2549
@@ -5464,7 +5463,7 @@
 - [KPN-CISO/CVE-2019-9745](https://github.com/KPN-CISO/CVE-2019-9745)
 
 ### CVE-2019-9766
-- [moonheadobj/cve](https://github.com/moonheadobj/cve)
+- [moonheadobj/cve-2019](https://github.com/moonheadobj/cve-2019)
 
 ### CVE-2019-9787
 - [rkatogit/cve-2019-9787_csrf_poc](https://github.com/rkatogit/cve-2019-9787_csrf_poc)
