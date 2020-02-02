@@ -5507,6 +5507,7 @@
 - [cosmicifint/CVE-2020-0601](https://github.com/cosmicifint/CVE-2020-0601)
 - [gentilkiwi/curveball](https://github.com/gentilkiwi/curveball)
 - [Hans-MartinHannibalLauridsen/CurveBall](https://github.com/Hans-MartinHannibalLauridsen/CurveBall)
+- [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
 - [ioncodes/Curveball](https://github.com/ioncodes/Curveball)
 - [amlweems/gringotts](https://github.com/amlweems/gringotts)
 
