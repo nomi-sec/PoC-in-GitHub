@@ -89,6 +89,7 @@
 - [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
 - [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
 - [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
+- [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
 
 ### CVE-2004-2549
 - [alt3kx/CVE-2004-2549](https://github.com/alt3kx/CVE-2004-2549)
@@ -2818,6 +2819,9 @@
 
 ### CVE-2018-1000006
 - [CHYbeta/CVE-2018-1000006-DEMO](https://github.com/CHYbeta/CVE-2018-1000006-DEMO)
+
+### CVE-2018-1000007
+- [0xThiebaut/CVE-2018-1000007](https://github.com/0xThiebaut/CVE-2018-1000007)
 
 ### CVE-2018-1000082
 - [SECFORCE/CVE-2018-1000082-exploit](https://github.com/SECFORCE/CVE-2018-1000082-exploit)
