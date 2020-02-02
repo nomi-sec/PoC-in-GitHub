@@ -75,7 +75,6 @@
 ### CVE-2003-0264
 - [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
-- [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 
 
 ## 2004
@@ -5379,6 +5378,9 @@
 
 ### CVE-2019-8389
 - [shawarkhanethicalhacker/CVE-2019-8389](https://github.com/shawarkhanethicalhacker/CVE-2019-8389)
+
+### CVE-2019-8449
+- [mufeedvh/CVE-2019-8449](https://github.com/mufeedvh/CVE-2019-8449)
 
 ### CVE-2019-8451
 - [0xbug/CVE-2019-8451](https://github.com/0xbug/CVE-2019-8451)
