@@ -4755,6 +4755,9 @@
 - [Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271)
 - [Unam3dd/sudo-vulnerability-CVE-2019-14287](https://github.com/Unam3dd/sudo-vulnerability-CVE-2019-14287)
 
+### CVE-2019-14314
+- [imthoe/CVE-2019-14314](https://github.com/imthoe/CVE-2019-14314)
+
 ### CVE-2019-14319
 - [MelroyB/CVE-2019-14319](https://github.com/MelroyB/CVE-2019-14319)
 
@@ -5518,6 +5521,7 @@
 - [ioncodes/Curveball](https://github.com/ioncodes/Curveball)
 - [amlweems/gringotts](https://github.com/amlweems/gringotts)
 - [aloswoya/CVE-2020-0601](https://github.com/aloswoya/CVE-2020-0601)
+- [talbeerysec/CurveBallDetection](https://github.com/talbeerysec/CurveBallDetection)
 
 ### CVE-2020-0609
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
