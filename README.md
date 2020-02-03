@@ -75,6 +75,7 @@
 ### CVE-2003-0264
 - [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
+- [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 
 
 ## 2004
