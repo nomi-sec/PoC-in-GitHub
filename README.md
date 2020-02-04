@@ -751,6 +751,9 @@
 ### CVE-2014-2324
 - [sp4c30x1/uc_httpd_exploit](https://github.com/sp4c30x1/uc_httpd_exploit)
 
+### CVE-2014-2630
+- [redtimmy/perf-exploiter](https://github.com/redtimmy/perf-exploiter)
+
 ### CVE-2014-2734
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
 - [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
