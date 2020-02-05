@@ -4547,6 +4547,9 @@
 ### CVE-2019-1218
 - [dgknkrcgr/CVE-2019-1218](https://github.com/dgknkrcgr/CVE-2019-1218)
 
+### CVE-2019-12180
+- [0x-nope/CVE-2019-12180](https://github.com/0x-nope/CVE-2019-12180)
+
 ### CVE-2019-12181
 - [guywhataguy/CVE-2019-12181](https://github.com/guywhataguy/CVE-2019-12181)
 
