@@ -378,6 +378,7 @@
 ### CVE-2011-4862
 - [hdbreaker/GO-CVE-2011-4862](https://github.com/hdbreaker/GO-CVE-2011-4862)
 - [lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862)
+- [kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862)
 
 ### CVE-2011-4872
 - [Chiggins/CVE-2011-4872](https://github.com/Chiggins/CVE-2011-4872)
@@ -5409,6 +5410,9 @@
 
 ### CVE-2019-8565
 - [Gentle-Knife/cve-2019-8565](https://github.com/Gentle-Knife/cve-2019-8565)
+
+### CVE-2019-8591
+- [jsherman212/used_sock](https://github.com/jsherman212/used_sock)
 
 ### CVE-2019-8601
 - [BadAccess11/CVE-2019-8601](https://github.com/BadAccess11/CVE-2019-8601)
