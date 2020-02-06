@@ -4773,6 +4773,9 @@
 ### CVE-2019-14439
 - [jas502n/CVE-2019-14439](https://github.com/jas502n/CVE-2019-14439)
 
+### CVE-2019-14514
+- [seqred-s-a/cve-2019-14514](https://github.com/seqred-s-a/cve-2019-14514)
+
 ### CVE-2019-14529
 - [Wezery/CVE-2019-14529](https://github.com/Wezery/CVE-2019-14529)
 
@@ -5554,6 +5557,9 @@
 
 ### CVE-2020-5179
 - [CesarSilence/RCE-CVE-2020-5179](https://github.com/CesarSilence/RCE-CVE-2020-5179)
+
+### CVE-2020-5236
+- [motikan2010/CVE-2020-5236](https://github.com/motikan2010/CVE-2020-5236)
 
 ### CVE-2020-5398
 - [motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398)
