@@ -5243,7 +5243,7 @@
 - [brompwnie/CVE-2019-5418-Scanner](https://github.com/brompwnie/CVE-2019-5418-Scanner)
 - [mpgn/Rails-doubletap-RCE](https://github.com/mpgn/Rails-doubletap-RCE)
 - [takeokunn/CVE-2019-5418](https://github.com/takeokunn/CVE-2019-5418)
-- [VX-3r/RailroadBandit](https://github.com/VX-3r/RailroadBandit)
+- [Bad3r/RailroadBandit](https://github.com/Bad3r/RailroadBandit)
 - [ztgrace/CVE-2019-5418-Rails3](https://github.com/ztgrace/CVE-2019-5418-Rails3)
 - [random-robbie/CVE-2019-5418](https://github.com/random-robbie/CVE-2019-5418)
 
@@ -5578,5 +5578,8 @@
 
 ### CVE-2020-7980
 - [Xh4H/Satellian-CVE-2020-7980](https://github.com/Xh4H/Satellian-CVE-2020-7980)
+
+### CVE-2020-8417
+- [VulnCrate/WP-CodeSnippets-CVE-2020-8417](https://github.com/VulnCrate/WP-CodeSnippets-CVE-2020-8417)
 
 
