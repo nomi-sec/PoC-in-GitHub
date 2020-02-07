@@ -5535,6 +5535,7 @@
 - [amlweems/gringotts](https://github.com/amlweems/gringotts)
 - [aloswoya/CVE-2020-0601](https://github.com/aloswoya/CVE-2020-0601)
 - [talbeerysec/CurveBallDetection](https://github.com/talbeerysec/CurveBallDetection)
+- [david4599/CurveballCertTool](https://github.com/david4599/CurveballCertTool)
 
 ### CVE-2020-0609
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
