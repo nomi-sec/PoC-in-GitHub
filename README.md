@@ -395,7 +395,6 @@
 - [k0keoyo/CVE-2012-0003_eXP](https://github.com/k0keoyo/CVE-2012-0003_eXP)
 
 ### CVE-2012-0056
-- [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
 - [pythonone/CVE-2012-0056](https://github.com/pythonone/CVE-2012-0056)
 
 ### CVE-2012-0152
@@ -433,7 +432,6 @@
 - [d4rkcat/killosx](https://github.com/d4rkcat/killosx)
 
 ### CVE-2012-4220
-- [hiikezoe/diaggetroot](https://github.com/hiikezoe/diaggetroot)
 - [poliva/root-zte-open](https://github.com/poliva/root-zte-open)
 
 ### CVE-2012-4431
@@ -456,7 +454,6 @@
 - [tafamace/CVE-2012-5575](https://github.com/tafamace/CVE-2012-5575)
 
 ### CVE-2012-5613
-- [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
 - [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
 
 ### CVE-2012-5664
@@ -1317,6 +1314,7 @@
 - [thejackerz/scanner-exploit-joomla-CVE-2015-8562](https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562)
 - [APT55/CVE-2015-8562](https://github.com/APT55/CVE-2015-8562)
 - [VoidSec/Joomla_CVE-2015-8562](https://github.com/VoidSec/Joomla_CVE-2015-8562)
+- [xnorkl/Joomla_Payload](https://github.com/xnorkl/Joomla_Payload)
 
 ### CVE-2015-8651
 - [Gitlabpro/The-analysis-of-the-cve-2015-8651](https://github.com/Gitlabpro/The-analysis-of-the-cve-2015-8651)
