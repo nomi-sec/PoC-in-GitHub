@@ -395,6 +395,7 @@
 - [k0keoyo/CVE-2012-0003_eXP](https://github.com/k0keoyo/CVE-2012-0003_eXP)
 
 ### CVE-2012-0056
+- [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
 - [pythonone/CVE-2012-0056](https://github.com/pythonone/CVE-2012-0056)
 
 ### CVE-2012-0152
@@ -432,6 +433,7 @@
 - [d4rkcat/killosx](https://github.com/d4rkcat/killosx)
 
 ### CVE-2012-4220
+- [hiikezoe/diaggetroot](https://github.com/hiikezoe/diaggetroot)
 - [poliva/root-zte-open](https://github.com/poliva/root-zte-open)
 
 ### CVE-2012-4431
@@ -454,6 +456,7 @@
 - [tafamace/CVE-2012-5575](https://github.com/tafamace/CVE-2012-5575)
 
 ### CVE-2012-5613
+- [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
 - [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
 
 ### CVE-2012-5664
@@ -4968,6 +4971,7 @@
 
 ### CVE-2019-18634
 - [Plazmaz/CVE-2019-18634](https://github.com/Plazmaz/CVE-2019-18634)
+- [saleemrashid/sudo-cve-2019-18634](https://github.com/saleemrashid/sudo-cve-2019-18634)
 
 ### CVE-2019-18873
 - [fuzzlove/FUDforum-XSS-RCE](https://github.com/fuzzlove/FUDforum-XSS-RCE)
@@ -5113,6 +5117,9 @@
 
 ### CVE-2019-19871
 - [VDISEC/CVE-2019-19871-AuditGuide](https://github.com/VDISEC/CVE-2019-19871-AuditGuide)
+
+### CVE-2019-20059
+- [jra89/CVE-2019-20059](https://github.com/jra89/CVE-2019-20059)
 
 ### CVE-2019-20197
 - [lp008/CVE-2019-20197](https://github.com/lp008/CVE-2019-20197)
