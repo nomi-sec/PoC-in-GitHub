@@ -4226,7 +4226,6 @@
 - [omaidf/CVE-2019-0708-PoC](https://github.com/omaidf/CVE-2019-0708-PoC)
 - [blacksunwen/CVE-2019-0708](https://github.com/blacksunwen/CVE-2019-0708)
 - [infenet/CVE-2019-0708](https://github.com/infenet/CVE-2019-0708)
-- [thatskriptkid/CVE-2019-0708](https://github.com/thatskriptkid/CVE-2019-0708)
 - [n0auth/CVE-2019-0708](https://github.com/n0auth/CVE-2019-0708)
 - [gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708)
 - [sbkcbig/CVE-2019-0708-Poc-exploit](https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit)
@@ -4251,6 +4250,7 @@
 - [ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708)
 - [biggerwing/CVE-2019-0708-poc](https://github.com/biggerwing/CVE-2019-0708-poc)
 - [n1xbyte/CVE-2019-0708](https://github.com/n1xbyte/CVE-2019-0708)
+- [freeide/CVE-2019-0708](https://github.com/freeide/CVE-2019-0708)
 - [edvacco/CVE-2019-0708-POC](https://github.com/edvacco/CVE-2019-0708-POC)
 - [pry0cc/BlueKeepTracker](https://github.com/pry0cc/BlueKeepTracker)
 - [zjw88282740/CVE-2019-0708-win7](https://github.com/zjw88282740/CVE-2019-0708-win7)
@@ -4967,6 +4967,9 @@
 
 ### CVE-2019-18418
 - [Andhrimnirr/ClonOS-WEB-control-panel-multi-vulnerability](https://github.com/Andhrimnirr/ClonOS-WEB-control-panel-multi-vulnerability)
+
+### CVE-2019-18634
+- [Plazmaz/CVE-2019-18634](https://github.com/Plazmaz/CVE-2019-18634)
 
 ### CVE-2019-18873
 - [fuzzlove/FUDforum-XSS-RCE](https://github.com/fuzzlove/FUDforum-XSS-RCE)
