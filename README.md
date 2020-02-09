@@ -136,6 +136,10 @@
 
 ### CVE-2007-2447
 - [noondi/metasploitable2](https://github.com/noondi/metasploitable2)
+- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
+- [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
+- [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
+- [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 
 ### CVE-2007-3830
 - [alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830)
@@ -4760,6 +4764,7 @@
 - [Sindadziy/cve-2019-14287](https://github.com/Sindadziy/cve-2019-14287)
 - [Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271)
 - [Unam3dd/sudo-vulnerability-CVE-2019-14287](https://github.com/Unam3dd/sudo-vulnerability-CVE-2019-14287)
+- [CMNatic/Dockerized-CVE-2019-14287](https://github.com/CMNatic/Dockerized-CVE-2019-14287)
 
 ### CVE-2019-14314
 - [imthoe/CVE-2019-14314](https://github.com/imthoe/CVE-2019-14314)
