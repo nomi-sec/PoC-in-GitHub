@@ -2643,6 +2643,7 @@
 
 ### CVE-2017-8529
 - [Lynggaard91/windows2016fixCVE-2017-8529](https://github.com/Lynggaard91/windows2016fixCVE-2017-8529)
+- [sfitpro/cve-2017-8529](https://github.com/sfitpro/cve-2017-8529)
 
 ### CVE-2017-8543
 - [americanhanko/windows-security-cve-2017-8543](https://github.com/americanhanko/windows-security-cve-2017-8543)
