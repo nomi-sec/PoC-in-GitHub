@@ -1267,6 +1267,9 @@
 ### CVE-2015-6835
 - [ockeghem/CVE-2015-6835-checker](https://github.com/ockeghem/CVE-2015-6835-checker)
 
+### CVE-2015-6967
+- [VanTekken/CVE-2015-6967](https://github.com/VanTekken/CVE-2015-6967)
+
 ### CVE-2015-7214
 - [llamakko/CVE-2015-7214](https://github.com/llamakko/CVE-2015-7214)
 
@@ -5015,6 +5018,9 @@
 
 ### CVE-2019-19315
 - [monoxgas/mailorder](https://github.com/monoxgas/mailorder)
+
+### CVE-2019-19356
+- [shadowgatt/CVE-2019-19356](https://github.com/shadowgatt/CVE-2019-19356)
 
 ### CVE-2019-19368
 - [harshit-shukla/CVE-2019-19368](https://github.com/harshit-shukla/CVE-2019-19368)
