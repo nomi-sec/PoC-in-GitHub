@@ -5598,10 +5598,16 @@
 ### CVE-2020-7247
 - [FiroSolutions/cve-2020-7247-exploit](https://github.com/FiroSolutions/cve-2020-7247-exploit)
 
+### CVE-2020-7799
+- [Pikaqi/cve-2020-7799](https://github.com/Pikaqi/cve-2020-7799)
+
 ### CVE-2020-7980
 - [Xh4H/Satellian-CVE-2020-7980](https://github.com/Xh4H/Satellian-CVE-2020-7980)
 
 ### CVE-2020-8417
 - [VulnCrate/WP-CodeSnippets-CVE-2020-8417](https://github.com/VulnCrate/WP-CodeSnippets-CVE-2020-8417)
+
+### CVE-2020-8825
+- [hacky1997/CVE-2020-8825](https://github.com/hacky1997/CVE-2020-8825)
 
 
