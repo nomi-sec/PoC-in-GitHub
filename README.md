@@ -2830,6 +2830,9 @@
 ### CVE-2018-1000007
 - [0xThiebaut/CVE-2018-1000007](https://github.com/0xThiebaut/CVE-2018-1000007)
 
+### CVE-2018-1000030
+- [tylepr96/CVE-2018-1000030](https://github.com/tylepr96/CVE-2018-1000030)
+
 ### CVE-2018-1000082
 - [SECFORCE/CVE-2018-1000082-exploit](https://github.com/SECFORCE/CVE-2018-1000082-exploit)
 
