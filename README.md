@@ -3138,6 +3138,7 @@
 
 ### CVE-2018-1335
 - [SkyBlueEternal/CVE-2018-1335-EXP-GUI](https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI)
+- [GEIGEI123/CVE-2018-1335-Python3](https://github.com/GEIGEI123/CVE-2018-1335-Python3)
 
 ### CVE-2018-13379
 - [milo2012/CVE-2018-13379](https://github.com/milo2012/CVE-2018-13379)
@@ -5607,6 +5608,9 @@
 
 ### CVE-2020-7247
 - [FiroSolutions/cve-2020-7247-exploit](https://github.com/FiroSolutions/cve-2020-7247-exploit)
+
+### CVE-2020-7471
+- [Saferman/CVE-2020-7471](https://github.com/Saferman/CVE-2020-7471)
 
 ### CVE-2020-7799
 - [Pikaqi/cve-2020-7799](https://github.com/Pikaqi/cve-2020-7799)
