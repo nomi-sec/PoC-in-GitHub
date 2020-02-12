@@ -5468,6 +5468,9 @@
 ### CVE-2019-9184
 - [cved-sources/cve-2019-9184](https://github.com/cved-sources/cve-2019-9184)
 
+### CVE-2019-9193
+- [skyship36/CVE-2019-9193](https://github.com/skyship36/CVE-2019-9193)
+
 ### CVE-2019-9194
 - [cved-sources/cve-2019-9194](https://github.com/cved-sources/cve-2019-9194)
 
@@ -5568,6 +5571,9 @@
 
 ### CVE-2020-0674
 - [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
+
+### CVE-2020-0683
+- [padovah4ck/CVE-2020-0683](https://github.com/padovah4ck/CVE-2020-0683)
 
 ### CVE-2020-1611
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
