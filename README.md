@@ -4955,6 +4955,9 @@
 ### CVE-2019-17558
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 
+### CVE-2019-17564
+- [r00t4dm/CVE-2019-17564](https://github.com/r00t4dm/CVE-2019-17564)
+
 ### CVE-2019-17570
 - [r00t4dm/CVE-2019-17570](https://github.com/r00t4dm/CVE-2019-17570)
 - [orangecertcc/xmlrpc-common-deserialization](https://github.com/orangecertcc/xmlrpc-common-deserialization)
