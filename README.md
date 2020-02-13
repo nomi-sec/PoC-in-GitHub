@@ -5627,6 +5627,7 @@
 
 ### CVE-2020-7471
 - [Saferman/CVE-2020-7471](https://github.com/Saferman/CVE-2020-7471)
+- [secoba/DjVul_StringAgg](https://github.com/secoba/DjVul_StringAgg)
 
 ### CVE-2020-7799
 - [Pikaqi/cve-2020-7799](https://github.com/Pikaqi/cve-2020-7799)
