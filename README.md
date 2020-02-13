@@ -4957,6 +4957,7 @@
 
 ### CVE-2019-17564
 - [r00t4dm/CVE-2019-17564](https://github.com/r00t4dm/CVE-2019-17564)
+- [Jaky5155/CVE-2019-17564](https://github.com/Jaky5155/CVE-2019-17564)
 
 ### CVE-2019-17570
 - [r00t4dm/CVE-2019-17570](https://github.com/r00t4dm/CVE-2019-17570)
@@ -5536,6 +5537,9 @@
 
 
 ## 2020
+### CVE-2020-0022
+- [marcinguy/CVE-2020-0022](https://github.com/marcinguy/CVE-2020-0022)
+
 ### CVE-2020-0601
 - [nissan-sudo/CVE-2020-0601](https://github.com/nissan-sudo/CVE-2020-0601)
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
@@ -5577,6 +5581,9 @@
 
 ### CVE-2020-0683
 - [padovah4ck/CVE-2020-0683](https://github.com/padovah4ck/CVE-2020-0683)
+
+### CVE-2020-0728
+- [irsl/CVE-2020-0728](https://github.com/irsl/CVE-2020-0728)
 
 ### CVE-2020-1611
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
@@ -5632,5 +5639,8 @@
 
 ### CVE-2020-8825
 - [hacky1997/CVE-2020-8825](https://github.com/hacky1997/CVE-2020-8825)
+
+### CVE-2020-8950
+- [sailay1996/amd_eop_poc](https://github.com/sailay1996/amd_eop_poc)
 
 
