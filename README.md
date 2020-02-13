@@ -4987,6 +4987,7 @@
 ### CVE-2019-18634
 - [Plazmaz/CVE-2019-18634](https://github.com/Plazmaz/CVE-2019-18634)
 - [saleemrashid/sudo-cve-2019-18634](https://github.com/saleemrashid/sudo-cve-2019-18634)
+- [N1et/CVE-2019-18634](https://github.com/N1et/CVE-2019-18634)
 
 ### CVE-2019-18873
 - [fuzzlove/FUDforum-XSS-RCE](https://github.com/fuzzlove/FUDforum-XSS-RCE)
