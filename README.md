@@ -4895,6 +4895,9 @@
 ### CVE-2019-16279
 - [ianxtianxt/CVE-2019-16279](https://github.com/ianxtianxt/CVE-2019-16279)
 
+### CVE-2019-16394
+- [SilentVoid13/Silent_CVE_2019_16394](https://github.com/SilentVoid13/Silent_CVE_2019_16394)
+
 ### CVE-2019-16405
 - [TheCyberGeek/CVE-2019-16405.rb](https://github.com/TheCyberGeek/CVE-2019-16405.rb)
 
