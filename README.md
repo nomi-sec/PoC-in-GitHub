@@ -618,6 +618,9 @@
 ### CVE-2013-6668
 - [sdneon/CveTest](https://github.com/sdneon/CveTest)
 
+### CVE-2013-6987
+- [Sciota/CVE-2013-6987](https://github.com/Sciota/CVE-2013-6987)
+
 
 ## 2014
 ### CVE-2014-0038
@@ -4830,6 +4833,7 @@
 - [HACHp1/webmin_docker_and_exp](https://github.com/HACHp1/webmin_docker_and_exp)
 - [ketlerd/CVE-2019-15107](https://github.com/ketlerd/CVE-2019-15107)
 - [AdministratorGithub/CVE-2019-15107](https://github.com/AdministratorGithub/CVE-2019-15107)
+- [taygergix/CVE-2019-15107](https://github.com/taygergix/CVE-2019-15107)
 - [Rayferrufino/Make-and-Break](https://github.com/Rayferrufino/Make-and-Break)
 - [AleWong/WebminRCE-EXP-CVE-2019-15107-](https://github.com/AleWong/WebminRCE-EXP-CVE-2019-15107-)
 - [ianxtianxt/CVE-2019-15107](https://github.com/ianxtianxt/CVE-2019-15107)
