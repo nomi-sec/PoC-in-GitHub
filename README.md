@@ -4958,6 +4958,7 @@
 ### CVE-2019-17564
 - [r00t4dm/CVE-2019-17564](https://github.com/r00t4dm/CVE-2019-17564)
 - [Jaky5155/CVE-2019-17564](https://github.com/Jaky5155/CVE-2019-17564)
+- [Hu3sky/CVE-2019-17564](https://github.com/Hu3sky/CVE-2019-17564)
 
 ### CVE-2019-17570
 - [r00t4dm/CVE-2019-17570](https://github.com/r00t4dm/CVE-2019-17570)
