@@ -1910,6 +1910,7 @@
 
 ### CVE-2017-1000112
 - [hikame/docker_escape_pwn](https://github.com/hikame/docker_escape_pwn)
+- [ol0273st-s/CVE-2017-1000112-Adpated](https://github.com/ol0273st-s/CVE-2017-1000112-Adpated)
 
 ### CVE-2017-1000117
 - [timwr/CVE-2017-1000117](https://github.com/timwr/CVE-2017-1000117)
@@ -5427,6 +5428,7 @@
 
 ### CVE-2019-8449
 - [mufeedvh/CVE-2019-8449](https://github.com/mufeedvh/CVE-2019-8449)
+- [r0lh/CVE-2019-8449](https://github.com/r0lh/CVE-2019-8449)
 
 ### CVE-2019-8451
 - [0xbug/CVE-2019-8451](https://github.com/0xbug/CVE-2019-8451)
