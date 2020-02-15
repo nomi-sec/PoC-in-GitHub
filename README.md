@@ -813,6 +813,7 @@
 
 ### CVE-2014-4210
 - [NoneNotNull/SSRFX](https://github.com/NoneNotNull/SSRFX)
+- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 
 ### CVE-2014-4321
 - [android-rooting-tools/libmsm_vfe_read_exploit](https://github.com/android-rooting-tools/libmsm_vfe_read_exploit)
@@ -1370,6 +1371,9 @@
 
 ### CVE-2016-0199
 - [LeoonZHANG/CVE-2016-0199](https://github.com/LeoonZHANG/CVE-2016-0199)
+
+### CVE-2016-0638
+- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 
 ### CVE-2016-0701
 - [luanjampa/cve-2016-0701](https://github.com/luanjampa/cve-2016-0701)
@@ -2342,6 +2346,7 @@
 
 ### CVE-2017-3248
 - [ianxtianxt/CVE-2017-3248](https://github.com/ianxtianxt/CVE-2017-3248)
+- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 
 ### CVE-2017-3506
 - [ianxtianxt/CVE-2017-3506](https://github.com/ianxtianxt/CVE-2017-3506)
@@ -3609,6 +3614,7 @@
 - [Nervous/WebLogic-RCE-exploit](https://github.com/Nervous/WebLogic-RCE-exploit)
 - [Lighird/CVE-2018-2628](https://github.com/Lighird/CVE-2018-2628)
 - [0xMJ/CVE-2018-2628](https://github.com/0xMJ/CVE-2018-2628)
+- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 
 ### CVE-2018-2636
 - [erpscanteam/CVE-2018-2636](https://github.com/erpscanteam/CVE-2018-2636)
@@ -3885,6 +3891,7 @@
 - [kev-ho/cve-2018-6574-payload](https://github.com/kev-ho/cve-2018-6574-payload)
 - [sdosis/cve-2018-6574](https://github.com/sdosis/cve-2018-6574)
 - [No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC)
+- [SeimuPVE/CVE-2018-6574_Exploit](https://github.com/SeimuPVE/CVE-2018-6574_Exploit)
 
 ### CVE-2018-6622
 - [kkamagui/napper-for-tpm](https://github.com/kkamagui/napper-for-tpm)
@@ -5193,6 +5200,7 @@
 - [dr0op/WeblogicScan](https://github.com/dr0op/WeblogicScan)
 - [he1dan/cve-2019-2618](https://github.com/he1dan/cve-2019-2618)
 - [ianxtianxt/cve-2019-2618](https://github.com/ianxtianxt/cve-2019-2618)
+- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 
 ### CVE-2019-2725
 - [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
