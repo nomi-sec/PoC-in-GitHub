@@ -3891,7 +3891,6 @@
 - [kev-ho/cve-2018-6574-payload](https://github.com/kev-ho/cve-2018-6574-payload)
 - [sdosis/cve-2018-6574](https://github.com/sdosis/cve-2018-6574)
 - [No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC)
-- [SeimuPVE/CVE-2018-6574_Exploit](https://github.com/SeimuPVE/CVE-2018-6574_Exploit)
 
 ### CVE-2018-6622
 - [kkamagui/napper-for-tpm](https://github.com/kkamagui/napper-for-tpm)
@@ -5559,6 +5558,7 @@
 ## 2020
 ### CVE-2020-0022
 - [marcinguy/CVE-2020-0022](https://github.com/marcinguy/CVE-2020-0022)
+- [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 
 ### CVE-2020-0601
 - [nissan-sudo/CVE-2020-0601](https://github.com/nissan-sudo/CVE-2020-0601)
