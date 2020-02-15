@@ -4179,6 +4179,7 @@
 - [IHA114/CVE-2018-9995_dvr_credentials](https://github.com/IHA114/CVE-2018-9995_dvr_credentials)
 - [likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool](https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool)
 - [b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC)
+- [keyw0rds/HTC](https://github.com/keyw0rds/HTC)
 
 
 ## 2019
@@ -5586,6 +5587,9 @@
 - [MalwareTech/RDGScanner](https://github.com/MalwareTech/RDGScanner)
 - [Bechsen/CVE-2020-0609](https://github.com/Bechsen/CVE-2020-0609)
 - [ioncodes/BlueGate](https://github.com/ioncodes/BlueGate)
+
+### CVE-2020-0618
+- [euphrat1ca/CVE-2020-0618](https://github.com/euphrat1ca/CVE-2020-0618)
 
 ### CVE-2020-0674
 - [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
