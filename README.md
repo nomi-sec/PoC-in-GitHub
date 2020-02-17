@@ -650,9 +650,6 @@
 - [obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner)
 - [Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker)
 - [isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic)
-- [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
-- [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
-- [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
 - [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
 - [amerine/coronary](https://github.com/amerine/coronary)
@@ -664,7 +661,6 @@
 - [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
 - [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
-- [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
 - [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
 - [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
@@ -5647,6 +5643,7 @@
 
 ### CVE-2020-7247
 - [FiroSolutions/cve-2020-7247-exploit](https://github.com/FiroSolutions/cve-2020-7247-exploit)
+- [superzerosec/cve-2020-7247](https://github.com/superzerosec/cve-2020-7247)
 
 ### CVE-2020-7471
 - [Saferman/CVE-2020-7471](https://github.com/Saferman/CVE-2020-7471)
