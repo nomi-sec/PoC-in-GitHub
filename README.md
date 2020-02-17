@@ -650,6 +650,9 @@
 - [obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner)
 - [Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker)
 - [isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic)
+- [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
+- [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
+- [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
 - [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
 - [amerine/coronary](https://github.com/amerine/coronary)
@@ -661,6 +664,7 @@
 - [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
 - [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
+- [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
 - [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
 - [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
@@ -1595,6 +1599,9 @@
 ### CVE-2016-4971
 - [BlueCocoa/CVE-2016-4971](https://github.com/BlueCocoa/CVE-2016-4971)
 - [mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971)
+
+### CVE-2016-4977
+- [GEIGEI123/CVE-2016-4977-POC](https://github.com/GEIGEI123/CVE-2016-4977-POC)
 
 ### CVE-2016-5195
 - [KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195)
@@ -4970,6 +4977,7 @@
 - [r00t4dm/CVE-2019-17564](https://github.com/r00t4dm/CVE-2019-17564)
 - [Jaky5155/CVE-2019-17564](https://github.com/Jaky5155/CVE-2019-17564)
 - [Hu3sky/CVE-2019-17564](https://github.com/Hu3sky/CVE-2019-17564)
+- [Exploit-3389/CVE-2019-17564](https://github.com/Exploit-3389/CVE-2019-17564)
 
 ### CVE-2019-17570
 - [r00t4dm/CVE-2019-17570](https://github.com/r00t4dm/CVE-2019-17570)
@@ -5180,6 +5188,7 @@
 - [addhaloka/CVE-2019-2215](https://github.com/addhaloka/CVE-2019-2215)
 - [kangtastic/cve-2019-2215](https://github.com/kangtastic/cve-2019-2215)
 - [marcinguy/CVE-2019-2215](https://github.com/marcinguy/CVE-2019-2215)
+- [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
 
 ### CVE-2019-2525
 - [Phantomn/VirtualBox_CVE-2019-2525-CVE-2019-2548](https://github.com/Phantomn/VirtualBox_CVE-2019-2525-CVE-2019-2548)
@@ -5280,6 +5289,9 @@
 
 ### CVE-2019-5010
 - [JonathanWilbur/CVE-2019-5010](https://github.com/JonathanWilbur/CVE-2019-5010)
+
+### CVE-2019-5096
+- [papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit](https://github.com/papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit)
 
 ### CVE-2019-5418
 - [mpgn/CVE-2019-5418](https://github.com/mpgn/CVE-2019-5418)
@@ -5584,6 +5596,8 @@
 - [aloswoya/CVE-2020-0601](https://github.com/aloswoya/CVE-2020-0601)
 - [talbeerysec/CurveBallDetection](https://github.com/talbeerysec/CurveBallDetection)
 - [david4599/CurveballCertTool](https://github.com/david4599/CurveballCertTool)
+- [eastmountyxz/CVE-2020-0601-EXP](https://github.com/eastmountyxz/CVE-2020-0601-EXP)
+- [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 
 ### CVE-2020-0609
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
