@@ -3578,6 +3578,7 @@
 - [DANIELVISPOBLOG/WinRar_ACE_exploit_CVE-2018-20250](https://github.com/DANIELVISPOBLOG/WinRar_ACE_exploit_CVE-2018-20250)
 - [denmilu/CVE-2018-20250](https://github.com/denmilu/CVE-2018-20250)
 - [930201676/CVE-2018-20250](https://github.com/930201676/CVE-2018-20250)
+- [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 
 ### CVE-2018-20343
 - [Alexandre-Bartel/CVE-2018-20343](https://github.com/Alexandre-Bartel/CVE-2018-20343)
