@@ -5427,6 +5427,9 @@
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 
+### CVE-2019-7482
+- [singletrackseeker/CVE-2019-7482](https://github.com/singletrackseeker/CVE-2019-7482)
+
 ### CVE-2019-7609
 - [jas502n/kibana-RCE](https://github.com/jas502n/kibana-RCE)
 - [mpgn/CVE-2019-7609](https://github.com/mpgn/CVE-2019-7609)
@@ -5598,6 +5601,7 @@
 - [david4599/CurveballCertTool](https://github.com/david4599/CurveballCertTool)
 - [eastmountyxz/CVE-2020-0601-EXP](https://github.com/eastmountyxz/CVE-2020-0601-EXP)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
+- [gremwell/cve-2020-0601_poc](https://github.com/gremwell/cve-2020-0601_poc)
 
 ### CVE-2020-0609
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
