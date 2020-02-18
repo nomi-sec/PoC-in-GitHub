@@ -3882,7 +3882,6 @@
 - [veter069/go-get-rce](https://github.com/veter069/go-get-rce)
 - [duckzsc2/CVE-2018-6574-POC](https://github.com/duckzsc2/CVE-2018-6574-POC)
 - [ivnnn1/CVE-2018-6574](https://github.com/ivnnn1/CVE-2018-6574)
-- [bokanrb/CVE-2018-6574](https://github.com/bokanrb/CVE-2018-6574)
 - [dollyptm/cve-2018-6574](https://github.com/dollyptm/cve-2018-6574)
 - [qweraqq/CVE-2018-6574](https://github.com/qweraqq/CVE-2018-6574)
 - [d4rkshell/go-get-rce](https://github.com/d4rkshell/go-get-rce)
@@ -5659,6 +5658,7 @@
 ### CVE-2020-7247
 - [FiroSolutions/cve-2020-7247-exploit](https://github.com/FiroSolutions/cve-2020-7247-exploit)
 - [superzerosec/cve-2020-7247](https://github.com/superzerosec/cve-2020-7247)
+- [r0lh/CVE-2020-7247](https://github.com/r0lh/CVE-2020-7247)
 
 ### CVE-2020-7471
 - [Saferman/CVE-2020-7471](https://github.com/Saferman/CVE-2020-7471)
