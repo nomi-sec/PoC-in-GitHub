@@ -5674,6 +5674,7 @@
 
 ### CVE-2020-7799
 - [Pikaqi/cve-2020-7799](https://github.com/Pikaqi/cve-2020-7799)
+- [ianxtianxt/CVE-2020-7799](https://github.com/ianxtianxt/CVE-2020-7799)
 
 ### CVE-2020-7980
 - [Xh4H/Satellian-CVE-2020-7980](https://github.com/Xh4H/Satellian-CVE-2020-7980)
