@@ -3100,6 +3100,7 @@
 ### CVE-2018-12613
 - [0x00-0x00/CVE-2018-12613](https://github.com/0x00-0x00/CVE-2018-12613)
 - [ivanitlearning/CVE-2018-12613](https://github.com/ivanitlearning/CVE-2018-12613)
+- [eastmountyxz/CVE-2018-12613-phpMyAdmin](https://github.com/eastmountyxz/CVE-2018-12613-phpMyAdmin)
 
 ### CVE-2018-1270
 - [CaledoniaProject/CVE-2018-1270](https://github.com/CaledoniaProject/CVE-2018-1270)
@@ -4339,6 +4340,7 @@
 - [ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708)
 - [worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708)
 - [cbwang505/CVE-2019-0708-EXP-Windows](https://github.com/cbwang505/CVE-2019-0708-EXP-Windows)
+- [eastmountyxz/CVE-2019-0708-Windows](https://github.com/eastmountyxz/CVE-2019-0708-Windows)
 
 ### CVE-2019-0709
 - [YHZX2013/CVE-2019-0709](https://github.com/YHZX2013/CVE-2019-0709)
@@ -5228,6 +5230,7 @@
 
 ### CVE-2019-2729
 - [waffl3ss/CVE-2019-2729](https://github.com/waffl3ss/CVE-2019-2729)
+- [ruthlezs/CVE-2019-2729-Exploit](https://github.com/ruthlezs/CVE-2019-2729-Exploit)
 
 ### CVE-2019-2888
 - [21superman/weblogic_cve-2019-2888](https://github.com/21superman/weblogic_cve-2019-2888)
