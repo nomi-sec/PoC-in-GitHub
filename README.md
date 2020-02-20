@@ -3118,6 +3118,9 @@
 ### CVE-2018-12798
 - [sharmasandeepkr/cve-2018-12798](https://github.com/sharmasandeepkr/cve-2018-12798)
 
+### CVE-2018-1288
+- [joegallagher4/CVE-2018-1288-](https://github.com/joegallagher4/CVE-2018-1288-)
+
 ### CVE-2018-12895
 - [bloom-ux/cve-2018-12895-hotfix](https://github.com/bloom-ux/cve-2018-12895-hotfix)
 
@@ -4980,6 +4983,7 @@
 - [Jaky5155/CVE-2019-17564](https://github.com/Jaky5155/CVE-2019-17564)
 - [Hu3sky/CVE-2019-17564](https://github.com/Hu3sky/CVE-2019-17564)
 - [Exploit-3389/CVE-2019-17564](https://github.com/Exploit-3389/CVE-2019-17564)
+- [Dor-Tumarkin/CVE-2019-17564-FastJson-Gadget](https://github.com/Dor-Tumarkin/CVE-2019-17564-FastJson-Gadget)
 
 ### CVE-2019-17570
 - [r00t4dm/CVE-2019-17570](https://github.com/r00t4dm/CVE-2019-17570)
@@ -5617,6 +5621,9 @@
 ### CVE-2020-0618
 - [euphrat1ca/CVE-2020-0618](https://github.com/euphrat1ca/CVE-2020-0618)
 - [wortell/cve-2020-0618](https://github.com/wortell/cve-2020-0618)
+
+### CVE-2020-0668
+- [RedCursorSecurityConsulting/CVE-2020-0668](https://github.com/RedCursorSecurityConsulting/CVE-2020-0668)
 
 ### CVE-2020-0674
 - [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
