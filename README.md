@@ -219,6 +219,8 @@
 
 ### CVE-2009-1330
 - [adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330)
+- [war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330)
+- [exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter)
 
 ### CVE-2009-1437
 - [HanseSecure/CVE-2009-1437](https://github.com/HanseSecure/CVE-2009-1437)
@@ -249,6 +251,7 @@
 
 ### CVE-2009-5147
 - [vpereira/CVE-2009-5147](https://github.com/vpereira/CVE-2009-5147)
+- [zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-](https://github.com/zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-)
 
 
 ## 2010
@@ -5187,6 +5190,7 @@
 - [addhaloka/CVE-2019-2215](https://github.com/addhaloka/CVE-2019-2215)
 - [kangtastic/cve-2019-2215](https://github.com/kangtastic/cve-2019-2215)
 - [marcinguy/CVE-2019-2215](https://github.com/marcinguy/CVE-2019-2215)
+- [LIznzn/CVE-2019-2215](https://github.com/LIznzn/CVE-2019-2215)
 - [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
 
 ### CVE-2019-2525
