@@ -1532,11 +1532,8 @@
 - [siberas/CVE-2016-3309_Reloaded](https://github.com/siberas/CVE-2016-3309_Reloaded)
 
 ### CVE-2016-3714
-- [jackdpeterson/imagick_secure_puppet](https://github.com/jackdpeterson/imagick_secure_puppet)
-- [tommiionfire/CVE-2016-3714](https://github.com/tommiionfire/CVE-2016-3714)
 - [chusiang/CVE-2016-3714.ansible.role](https://github.com/chusiang/CVE-2016-3714.ansible.role)
 - [jpeanut/ImageTragick-CVE-2016-3714-RShell](https://github.com/jpeanut/ImageTragick-CVE-2016-3714-RShell)
-- [Hood3dRob1n/CVE-2016-3714](https://github.com/Hood3dRob1n/CVE-2016-3714)
 - [HRSkraps/CVE-2016-3714](https://github.com/HRSkraps/CVE-2016-3714)
 
 ### CVE-2016-3749
@@ -4197,14 +4194,10 @@
 
 ## 2019
 ### CVE-2019-0192
-- [mpgn/CVE-2019-0192](https://github.com/mpgn/CVE-2019-0192)
 - [Rapidsafeguard/Solr-RCE-CVE-2019-0192](https://github.com/Rapidsafeguard/Solr-RCE-CVE-2019-0192)
 
 ### CVE-2019-0193
-- [xConsoIe/CVE-2019-0193](https://github.com/xConsoIe/CVE-2019-0193)
-- [jas502n/CVE-2019-0193](https://github.com/jas502n/CVE-2019-0193)
 - [1135/solr_exploit](https://github.com/1135/solr_exploit)
-- [jaychouzzk/CVE-2019-0193-exp](https://github.com/jaychouzzk/CVE-2019-0193-exp)
 
 ### CVE-2019-0211
 - [ozkanbilge/Apache-Exploit-2019](https://github.com/ozkanbilge/Apache-Exploit-2019)
@@ -4214,127 +4207,25 @@
 
 ### CVE-2019-0232
 - [pyn3rd/CVE-2019-0232](https://github.com/pyn3rd/CVE-2019-0232)
-- [jas502n/CVE-2019-0232](https://github.com/jas502n/CVE-2019-0232)
-- [CherishHair/CVE-2019-0232-EXP](https://github.com/CherishHair/CVE-2019-0232-EXP)
 - [setrus/CVE-2019-0232](https://github.com/setrus/CVE-2019-0232)
 
 ### CVE-2019-0539
 - [0x43434343/CVE-2019-0539](https://github.com/0x43434343/CVE-2019-0539)
 
 ### CVE-2019-0604
-- [linhlhq/CVE-2019-0604](https://github.com/linhlhq/CVE-2019-0604)
-- [denmilu/CVE-2019-0604_sharepoint_CVE](https://github.com/denmilu/CVE-2019-0604_sharepoint_CVE)
 - [k8gege/CVE-2019-0604](https://github.com/k8gege/CVE-2019-0604)
-- [m5050/CVE-2019-0604](https://github.com/m5050/CVE-2019-0604)
 - [boxhg/CVE-2019-0604](https://github.com/boxhg/CVE-2019-0604)
 
 ### CVE-2019-0678
 - [c0d3G33k/CVE-2019-0678](https://github.com/c0d3G33k/CVE-2019-0678)
 
 ### CVE-2019-0708
-- [hook-s3c/CVE-2019-0708-poc](https://github.com/hook-s3c/CVE-2019-0708-poc)
-- [SherlockSec/CVE-2019-0708](https://github.com/SherlockSec/CVE-2019-0708)
-- [yetiddbb/CVE-2019-0708-PoC](https://github.com/yetiddbb/CVE-2019-0708-PoC)
-- [p0p0p0/CVE-2019-0708-exploit](https://github.com/p0p0p0/CVE-2019-0708-exploit)
-- [rockmelodies/CVE-2019-0708-Exploit](https://github.com/rockmelodies/CVE-2019-0708-Exploit)
-- [matengfei000/CVE-2019-0708](https://github.com/matengfei000/CVE-2019-0708)
-- [xiyangzuishuai/Dark-Network-CVE-2019-0708](https://github.com/xiyangzuishuai/Dark-Network-CVE-2019-0708)
-- [temp-user-2014/CVE-2019-0708](https://github.com/temp-user-2014/CVE-2019-0708)
-- [areusecure/CVE-2019-0708](https://github.com/areusecure/CVE-2019-0708)
-- [pry0cc/cve-2019-0708-2](https://github.com/pry0cc/cve-2019-0708-2)
-- [sbkcbig/CVE-2019-0708-EXPloit](https://github.com/sbkcbig/CVE-2019-0708-EXPloit)
-- [sbkcbig/CVE-2019-0708-EXPloit-3389](https://github.com/sbkcbig/CVE-2019-0708-EXPloit-3389)
-- [YSheldon/MS_T120](https://github.com/YSheldon/MS_T120)
-- [k8gege/CVE-2019-0708](https://github.com/k8gege/CVE-2019-0708)
-- [hotdog777714/RDS_CVE-2019-0708](https://github.com/hotdog777714/RDS_CVE-2019-0708)
-- [jiansiting/CVE-2019-0708](https://github.com/jiansiting/CVE-2019-0708)
-- [NullByteSuiteDevs/CVE-2019-0708](https://github.com/NullByteSuiteDevs/CVE-2019-0708)
-- [heaphopopotamus/CVE-2019-0708](https://github.com/heaphopopotamus/CVE-2019-0708)
-- [thugcrowd/CVE-2019-0708](https://github.com/thugcrowd/CVE-2019-0708)
-- [omaidf/CVE-2019-0708-PoC](https://github.com/omaidf/CVE-2019-0708-PoC)
-- [blacksunwen/CVE-2019-0708](https://github.com/blacksunwen/CVE-2019-0708)
-- [infenet/CVE-2019-0708](https://github.com/infenet/CVE-2019-0708)
-- [n0auth/CVE-2019-0708](https://github.com/n0auth/CVE-2019-0708)
-- [gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708)
-- [sbkcbig/CVE-2019-0708-Poc-exploit](https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit)
-- [HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708)
-- [syriusbughunt/CVE-2019-0708](https://github.com/syriusbughunt/CVE-2019-0708)
-- [Barry-McCockiner/CVE-2019-0708](https://github.com/Barry-McCockiner/CVE-2019-0708)
-- [ShadowBrokers-ExploitLeak/CVE-2019-0708](https://github.com/ShadowBrokers-ExploitLeak/CVE-2019-0708)
-- [shumtheone/CVE-2019-0708](https://github.com/shumtheone/CVE-2019-0708)
-- [safly/CVE-2019-0708](https://github.com/safly/CVE-2019-0708)
-- [Jaky5155/cve-2019-0708-exp](https://github.com/Jaky5155/cve-2019-0708-exp)
-- [fourtwizzy/CVE-2019-0708-Check-Device-Patch-Status](https://github.com/fourtwizzy/CVE-2019-0708-Check-Device-Patch-Status)
-- [303sec/CVE-2019-0708](https://github.com/303sec/CVE-2019-0708)
-- [f8al/CVE-2019-0708-POC](https://github.com/f8al/CVE-2019-0708-POC)
-- [blockchainguard/CVE-2019-0708](https://github.com/blockchainguard/CVE-2019-0708)
-- [haoge8090/CVE-2019-0708](https://github.com/haoge8090/CVE-2019-0708)
-- [leezp/CVE-2019-0708](https://github.com/leezp/CVE-2019-0708)
-- [branbot1000/CVE-2019-0708](https://github.com/branbot1000/CVE-2019-0708)
-- [yushiro/CVE-2019-0708](https://github.com/yushiro/CVE-2019-0708)
-- [bilawalzardaer/CVE-2019-0708](https://github.com/bilawalzardaer/CVE-2019-0708)
-- [skyshell20082008/CVE-2019-0708-PoC-Hitting-Path](https://github.com/skyshell20082008/CVE-2019-0708-PoC-Hitting-Path)
-- [ttsite/CVE-2019-0708-](https://github.com/ttsite/CVE-2019-0708-)
-- [ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708)
-- [biggerwing/CVE-2019-0708-poc](https://github.com/biggerwing/CVE-2019-0708-poc)
-- [n1xbyte/CVE-2019-0708](https://github.com/n1xbyte/CVE-2019-0708)
-- [freeide/CVE-2019-0708](https://github.com/freeide/CVE-2019-0708)
-- [edvacco/CVE-2019-0708-POC](https://github.com/edvacco/CVE-2019-0708-POC)
-- [pry0cc/BlueKeepTracker](https://github.com/pry0cc/BlueKeepTracker)
-- [zjw88282740/CVE-2019-0708-win7](https://github.com/zjw88282740/CVE-2019-0708-win7)
 - [zerosum0x0/CVE-2019-0708](https://github.com/zerosum0x0/CVE-2019-0708)
-- [herhe/CVE-2019-0708poc](https://github.com/herhe/CVE-2019-0708poc)
-- [l9c/rdp0708scanner](https://github.com/l9c/rdp0708scanner)
-- [major203/cve-2019-0708-scan](https://github.com/major203/cve-2019-0708-scan)
-- [SugiB3o/Check-vuln-CVE-2019-0708](https://github.com/SugiB3o/Check-vuln-CVE-2019-0708)
-- [gobysec/CVE-2019-0708](https://github.com/gobysec/CVE-2019-0708)
-- [adalenv/CVE-2019-0708-Tool](https://github.com/adalenv/CVE-2019-0708-Tool)
-- [smallFunction/CVE-2019-0708-POC](https://github.com/smallFunction/CVE-2019-0708-POC)
-- [freeide/CVE-2019-0708-PoC-Exploit](https://github.com/freeide/CVE-2019-0708-PoC-Exploit)
-- [robertdavidgraham/rdpscan](https://github.com/robertdavidgraham/rdpscan)
-- [closethe/CVE-2019-0708-POC](https://github.com/closethe/CVE-2019-0708-POC)
-- [krivegasa/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/krivegasa/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
-- [Rostelecom-CERT/bluekeepscan](https://github.com/Rostelecom-CERT/bluekeepscan)
-- [Leoid/CVE-2019-0708](https://github.com/Leoid/CVE-2019-0708)
-- [ht0Ruial/CVE-2019-0708Poc-BatchScanning](https://github.com/ht0Ruial/CVE-2019-0708Poc-BatchScanning)
-- [oneoy/BlueKeep](https://github.com/oneoy/BlueKeep)
-- [infiniti-team/CVE-2019-0708](https://github.com/infiniti-team/CVE-2019-0708)
-- [haishanzheng/CVE-2019-0708-generate-hosts](https://github.com/haishanzheng/CVE-2019-0708-generate-hosts)
-- [Ekultek/BlueKeep](https://github.com/Ekultek/BlueKeep)
-- [UraSecTeam/CVE-2019-0708](https://github.com/UraSecTeam/CVE-2019-0708)
-- [Gh0st0ne/rdpscan-BlueKeep](https://github.com/Gh0st0ne/rdpscan-BlueKeep)
-- [algo7/bluekeep_CVE-2019-0708_poc_to_exploit](https://github.com/algo7/bluekeep_CVE-2019-0708_poc_to_exploit)
-- [JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708)
-- [shun-gg/CVE-2019-0708](https://github.com/shun-gg/CVE-2019-0708)
-- [AdministratorGithub/CVE-2019-0708](https://github.com/AdministratorGithub/CVE-2019-0708)
-- [umarfarook882/CVE-2019-0708](https://github.com/umarfarook882/CVE-2019-0708)
-- [HynekPetrak/detect_bluekeep.py](https://github.com/HynekPetrak/detect_bluekeep.py)
-- [Wileysec/CVE-2019-0708-Batch-Blue-Screen](https://github.com/Wileysec/CVE-2019-0708-Batch-Blue-Screen)
-- [Pa55w0rd/CVE-2019-0708](https://github.com/Pa55w0rd/CVE-2019-0708)
 - [at0mik/CVE-2019-0708-PoC](https://github.com/at0mik/CVE-2019-0708-PoC)
-- [cream492/CVE-2019-0708-Msf--](https://github.com/cream492/CVE-2019-0708-Msf--)
-- [wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708)
-- [cvencoder/cve-2019-0708](https://github.com/cvencoder/cve-2019-0708)
-- [ze0r/CVE-2019-0708-exp](https://github.com/ze0r/CVE-2019-0708-exp)
 - [mekhalleh/cve-2019-0708](https://github.com/mekhalleh/cve-2019-0708)
-- [cve-2019-0708-poc/cve-2019-0708](https://github.com/cve-2019-0708-poc/cve-2019-0708)
-- [andripwn/CVE-2019-0708](https://github.com/andripwn/CVE-2019-0708)
 - [0xeb-bp/bluekeep](https://github.com/0xeb-bp/bluekeep)
-- [ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708)
-- [dorkerdevil/Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708-](https://github.com/dorkerdevil/Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708-)
 - [turingcompl33t/bluekeep](https://github.com/turingcompl33t/bluekeep)
 - [fade-vivida/CVE-2019-0708-test](https://github.com/fade-vivida/CVE-2019-0708-test)
-- [skommando/CVE-2019-0708](https://github.com/skommando/CVE-2019-0708)
-- [RickGeex/msf-module-CVE-2019-0708](https://github.com/RickGeex/msf-module-CVE-2019-0708)
-- [wqsemc/CVE-2019-0708](https://github.com/wqsemc/CVE-2019-0708)
-- [mai-lang-chai/CVE-2019-0708-RCE](https://github.com/mai-lang-chai/CVE-2019-0708-RCE)
-- [Micr067/CVE-2019-0708RDP-MSF](https://github.com/Micr067/CVE-2019-0708RDP-MSF)
-- [upkn/CVE-2019-0708-BlueKeep](https://github.com/upkn/CVE-2019-0708-BlueKeep)
-- [FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708)
-- [qinggegeya/CVE-2019-0708-EXP-MSF-](https://github.com/qinggegeya/CVE-2019-0708-EXP-MSF-)
-- [Straight-wood/CVE-2019-0708](https://github.com/Straight-wood/CVE-2019-0708)
-- [0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test)
-- [1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708)
 - [coolboy4me/cve-2019-0708_bluekeep_rce](https://github.com/coolboy4me/cve-2019-0708_bluekeep_rce)
 - [Cyb0r9/ispy](https://github.com/Cyb0r9/ispy)
 - [shishibabyq/CVE-2019-0708](https://github.com/shishibabyq/CVE-2019-0708)
@@ -4385,9 +4276,6 @@
 
 ### CVE-2019-1003000
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
-- [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
-- [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
-- [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 
 ### CVE-2019-10086
 - [evilangelplus/CVE-2019-10086](https://github.com/evilangelplus/CVE-2019-10086)
@@ -4399,13 +4287,6 @@
 - [RKX1209/CVE-2019-1010298](https://github.com/RKX1209/CVE-2019-1010298)
 
 ### CVE-2019-10149
-- [bananaphones/exim-rce-quickfix](https://github.com/bananaphones/exim-rce-quickfix)
-- [cowbe0x004/eximrce-CVE-2019-10149](https://github.com/cowbe0x004/eximrce-CVE-2019-10149)
-- [MNEMO-CERT/PoC--CVE-2019-10149_Exim](https://github.com/MNEMO-CERT/PoC--CVE-2019-10149_Exim)
-- [aishee/CVE-2019-10149-quick](https://github.com/aishee/CVE-2019-10149-quick)
-- [AzizMea/CVE-2019-10149-privilege-escalation](https://github.com/AzizMea/CVE-2019-10149-privilege-escalation)
-- [Brets0150/StickyExim](https://github.com/Brets0150/StickyExim)
-- [ChrissHack/exim.exp](https://github.com/ChrissHack/exim.exp)
 - [darsigovrustam/CVE-2019-10149](https://github.com/darsigovrustam/CVE-2019-10149)
 - [Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149)
 
@@ -4506,12 +4387,6 @@
 
 ### CVE-2019-11510
 - [projectzeroindia/CVE-2019-11510](https://github.com/projectzeroindia/CVE-2019-11510)
-- [ladyleet1337/Pulse](https://github.com/ladyleet1337/Pulse)
-- [imjdl/CVE-2019-11510-poc](https://github.com/imjdl/CVE-2019-11510-poc)
-- [es0/CVE-2019-11510_poc](https://github.com/es0/CVE-2019-11510_poc)
-- [r00tpgp/http-pulse_ssl_vpn.nse](https://github.com/r00tpgp/http-pulse_ssl_vpn.nse)
-- [jas502n/CVE-2019-11510-1](https://github.com/jas502n/CVE-2019-11510-1)
-- [jason3e7/CVE-2019-11510](https://github.com/jason3e7/CVE-2019-11510)
 - [BishopFox/pwn-pulse](https://github.com/BishopFox/pwn-pulse)
 - [aqhmal/pulsexploit](https://github.com/aqhmal/pulsexploit)
 
@@ -4525,7 +4400,6 @@
 - [jas502n/CVE-2019-11580](https://github.com/jas502n/CVE-2019-11580)
 
 ### CVE-2019-11581
-- [jas502n/CVE-2019-11581](https://github.com/jas502n/CVE-2019-11581)
 - [kobs0N/CVE-2019-11581](https://github.com/kobs0N/CVE-2019-11581)
 
 ### CVE-2019-11687
@@ -4601,14 +4475,12 @@
 - [sud0woodo/Urgent11-Suricata-LUA-scripts](https://github.com/sud0woodo/Urgent11-Suricata-LUA-scripts)
 
 ### CVE-2019-12272
-- [HACHp1/LuCI_RCE_exp](https://github.com/HACHp1/LuCI_RCE_exp)
 - [roguedream/lede-17.01.3](https://github.com/roguedream/lede-17.01.3)
 
 ### CVE-2019-12314
 - [ras313/CVE-2019-12314](https://github.com/ras313/CVE-2019-12314)
 
 ### CVE-2019-12384
-- [jas502n/CVE-2019-12384](https://github.com/jas502n/CVE-2019-12384)
 - [MagicZer0/Jackson_RCE-CVE-2019-12384](https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384)
 
 ### CVE-2019-12409
@@ -4692,7 +4564,6 @@
 - [ACINQ/detection-tool-cve-2019-13000](https://github.com/ACINQ/detection-tool-cve-2019-13000)
 
 ### CVE-2019-13024
-- [mhaskar/CVE-2019-13024](https://github.com/mhaskar/CVE-2019-13024)
 - [get-get-get-get/Centreon-RCE](https://github.com/get-get-get-get/Centreon-RCE)
 
 ### CVE-2019-13025
@@ -4845,11 +4716,6 @@
 - [l0nax/CVE-2019-15053](https://github.com/l0nax/CVE-2019-15053)
 
 ### CVE-2019-15107
-- [jas502n/CVE-2019-15107](https://github.com/jas502n/CVE-2019-15107)
-- [HACHp1/webmin_docker_and_exp](https://github.com/HACHp1/webmin_docker_and_exp)
-- [ketlerd/CVE-2019-15107](https://github.com/ketlerd/CVE-2019-15107)
-- [AdministratorGithub/CVE-2019-15107](https://github.com/AdministratorGithub/CVE-2019-15107)
-- [taygergix/CVE-2019-15107](https://github.com/taygergix/CVE-2019-15107)
 - [Rayferrufino/Make-and-Break](https://github.com/Rayferrufino/Make-and-Break)
 - [AleWong/WebminRCE-EXP-CVE-2019-15107-](https://github.com/AleWong/WebminRCE-EXP-CVE-2019-15107-)
 - [ianxtianxt/CVE-2019-15107](https://github.com/ianxtianxt/CVE-2019-15107)
@@ -4887,9 +4753,6 @@
 - [FSecureLABS/Cisco-UCM-SQLi-Scripts](https://github.com/FSecureLABS/Cisco-UCM-SQLi-Scripts)
 
 ### CVE-2019-16097
-- [evilAdan0s/CVE-2019-16097](https://github.com/evilAdan0s/CVE-2019-16097)
-- [rockmelodies/CVE-2019-16097-batch](https://github.com/rockmelodies/CVE-2019-16097-batch)
-- [ianxtianxt/CVE-2019-16097](https://github.com/ianxtianxt/CVE-2019-16097)
 - [dacade/cve-2019-16097](https://github.com/dacade/cve-2019-16097)
 - [theLSA/harbor-give-me-admin](https://github.com/theLSA/harbor-give-me-admin)
 - [luckybool1020/CVE-2019-16097](https://github.com/luckybool1020/CVE-2019-16097)
@@ -5205,29 +5068,11 @@
 - [chiaifan/CVE-2019-2615](https://github.com/chiaifan/CVE-2019-2615)
 
 ### CVE-2019-2618
-- [pyn3rd/CVE-2019-2618](https://github.com/pyn3rd/CVE-2019-2618)
-- [jas502n/cve-2019-2618](https://github.com/jas502n/cve-2019-2618)
-- [wsfengfan/CVE-2019-2618-](https://github.com/wsfengfan/CVE-2019-2618-)
-- [dr0op/WeblogicScan](https://github.com/dr0op/WeblogicScan)
 - [he1dan/cve-2019-2618](https://github.com/he1dan/cve-2019-2618)
 - [ianxtianxt/cve-2019-2618](https://github.com/ianxtianxt/cve-2019-2618)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 
 ### CVE-2019-2725
-- [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
-- [SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961](https://github.com/SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961)
-- [iceMatcha/CNTA-2019-0014xCVE-2019-2725](https://github.com/iceMatcha/CNTA-2019-0014xCVE-2019-2725)
-- [lasensio/cve-2019-2725](https://github.com/lasensio/cve-2019-2725)
-- [davidmthomsen/CVE-2019-2725](https://github.com/davidmthomsen/CVE-2019-2725)
-- [leerina/CVE-2019-2725](https://github.com/leerina/CVE-2019-2725)
-- [zhusx110/cve-2019-2725](https://github.com/zhusx110/cve-2019-2725)
-- [lufeirider/CVE-2019-2725](https://github.com/lufeirider/CVE-2019-2725)
-- [CVCLabs/cve-2019-2725](https://github.com/CVCLabs/cve-2019-2725)
-- [TopScrew/CVE-2019-2725](https://github.com/TopScrew/CVE-2019-2725)
-- [welove88888/CVE-2019-2725](https://github.com/welove88888/CVE-2019-2725)
-- [jiansiting/CVE-2019-2725](https://github.com/jiansiting/CVE-2019-2725)
-- [kerlingcode/CVE-2019-2725](https://github.com/kerlingcode/CVE-2019-2725)
-- [black-mirror/Weblogic](https://github.com/black-mirror/Weblogic)
 - [pimps/CVE-2019-2725](https://github.com/pimps/CVE-2019-2725)
 - [ianxtianxt/CVE-2019-2725](https://github.com/ianxtianxt/CVE-2019-2725)
 - [GEIGEI123/CVE-2019-2725-POC](https://github.com/GEIGEI123/CVE-2019-2725-POC)
@@ -5252,17 +5097,8 @@
 - [jas502n/CVE-2019-3394](https://github.com/jas502n/CVE-2019-3394)
 
 ### CVE-2019-3396
-- [dothanthitiendiettiende/CVE-2019-3396](https://github.com/dothanthitiendiettiende/CVE-2019-3396)
 - [x-f1v3/CVE-2019-3396](https://github.com/x-f1v3/CVE-2019-3396)
-- [shadowsock5/CVE-2019-3396](https://github.com/shadowsock5/CVE-2019-3396)
-- [Yt1g3r/CVE-2019-3396_EXP](https://github.com/Yt1g3r/CVE-2019-3396_EXP)
 - [jas502n/CVE-2019-3396](https://github.com/jas502n/CVE-2019-3396)
-- [pyn3rd/CVE-2019-3396](https://github.com/pyn3rd/CVE-2019-3396)
-- [7e1/CVE-2019-3396](https://github.com/7e1/CVE-2019-3396)
-- [quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396)
-- [vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396)
-- [tanw923/test1](https://github.com/tanw923/test1)
-- [skommando/CVE-2019-3396-confluence-poc](https://github.com/skommando/CVE-2019-3396-confluence-poc)
 - [JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST)
 - [am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396)
 - [W2Ning/CVE-2019-3396](https://github.com/W2Ning/CVE-2019-3396)
@@ -5302,12 +5138,7 @@
 - [papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit](https://github.com/papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit)
 
 ### CVE-2019-5418
-- [mpgn/CVE-2019-5418](https://github.com/mpgn/CVE-2019-5418)
-- [omarkurt/CVE-2019-5418](https://github.com/omarkurt/CVE-2019-5418)
-- [brompwnie/CVE-2019-5418-Scanner](https://github.com/brompwnie/CVE-2019-5418-Scanner)
 - [mpgn/Rails-doubletap-RCE](https://github.com/mpgn/Rails-doubletap-RCE)
-- [takeokunn/CVE-2019-5418](https://github.com/takeokunn/CVE-2019-5418)
-- [Bad3r/RailroadBandit](https://github.com/Bad3r/RailroadBandit)
 - [ztgrace/CVE-2019-5418-Rails3](https://github.com/ztgrace/CVE-2019-5418-Rails3)
 - [random-robbie/CVE-2019-5418](https://github.com/random-robbie/CVE-2019-5418)
 
@@ -5331,23 +5162,7 @@
 - [oscardagrach/CVE-2019-5700](https://github.com/oscardagrach/CVE-2019-5700)
 
 ### CVE-2019-5736
-- [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
-- [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
-- [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
-- [denmilu/CVE-2019-5736](https://github.com/denmilu/CVE-2019-5736)
-- [denmilu/cve-2019-5736-poc](https://github.com/denmilu/cve-2019-5736-poc)
-- [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
-- [Matthew-Stacks/cve-2019-5736](https://github.com/Matthew-Stacks/cve-2019-5736)
-- [ebdecastro/poc-cve-2019-5736](https://github.com/ebdecastro/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
-- [k-onishi/CVE-2019-5736-PoC](https://github.com/k-onishi/CVE-2019-5736-PoC)
-- [k-onishi/CVE-2019-5736-PoC-0](https://github.com/k-onishi/CVE-2019-5736-PoC-0)
-- [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
-- [stillan00b/CVE-2019-5736](https://github.com/stillan00b/CVE-2019-5736)
-- [milloni/cve-2019-5736-exp](https://github.com/milloni/cve-2019-5736-exp)
-- [13paulmurith/Docker-Runc-Exploit](https://github.com/13paulmurith/Docker-Runc-Exploit)
-- [RyanNgWH/CVE-2019-5736-POC](https://github.com/RyanNgWH/CVE-2019-5736-POC)
-- [Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study)
 - [chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc)
 - [epsteina16/Docker-Escape-Miner](https://github.com/epsteina16/Docker-Escape-Miner)
 
@@ -5364,7 +5179,6 @@
 - [qingxp9/CVE-2019-6203-PoC](https://github.com/qingxp9/CVE-2019-6203-PoC)
 
 ### CVE-2019-6207
-- [dothanthitiendiettiende/CVE-2019-6207](https://github.com/dothanthitiendiettiende/CVE-2019-6207)
 - [maldiohead/CVE-2019-6207](https://github.com/maldiohead/CVE-2019-6207)
 
 ### CVE-2019-6225
@@ -5426,9 +5240,6 @@
 - [verifysecurity/CVE-2019-7219](https://github.com/verifysecurity/CVE-2019-7219)
 
 ### CVE-2019-7238
-- [mpgn/CVE-2019-7238](https://github.com/mpgn/CVE-2019-7238)
-- [jas502n/CVE-2019-7238](https://github.com/jas502n/CVE-2019-7238)
-- [verctor/nexus_rce_CVE-2019-7238](https://github.com/verctor/nexus_rce_CVE-2019-7238)
 - [magicming200/CVE-2019-7238_Nexus_RCE_Tool](https://github.com/magicming200/CVE-2019-7238_Nexus_RCE_Tool)
 
 ### CVE-2019-7304
@@ -5461,7 +5272,6 @@
 - [r0lh/CVE-2019-8449](https://github.com/r0lh/CVE-2019-8449)
 
 ### CVE-2019-8451
-- [0xbug/CVE-2019-8451](https://github.com/0xbug/CVE-2019-8451)
 - [ianxtianxt/CVE-2019-8451](https://github.com/ianxtianxt/CVE-2019-8451)
 - [jas502n/CVE-2019-8451](https://github.com/jas502n/CVE-2019-8451)
 - [h0ffayyy/Jira-CVE-2019-8451](https://github.com/h0ffayyy/Jira-CVE-2019-8451)
@@ -5561,7 +5371,6 @@
 - [PalmTreeForest/CodePath_Week_7-8](https://github.com/PalmTreeForest/CodePath_Week_7-8)
 
 ### CVE-2019-9810
-- [xuechiyaobai/CVE-2019-9810-PoC](https://github.com/xuechiyaobai/CVE-2019-9810-PoC)
 - [0vercl0k/CVE-2019-9810](https://github.com/0vercl0k/CVE-2019-9810)
 
 ### CVE-2019-9896
@@ -5636,6 +5445,12 @@
 
 ### CVE-2020-1611
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
+
+### CVE-2020-1938
+- [0nise/CVE-2020-1938](https://github.com/0nise/CVE-2020-1938)
+- [xindongzhuaizhuai/CVE-2020-1938](https://github.com/xindongzhuaizhuai/CVE-2020-1938)
+- [nibiwodong/CNVD-2020-10487-Tomcat-Ajp-lfi-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-Ajp-lfi-POC)
+- [Kit4y/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/Kit4y/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner)
 
 ### CVE-2020-2551
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
