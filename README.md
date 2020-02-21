@@ -1280,6 +1280,9 @@
 ### CVE-2015-7297
 - [CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory)
 
+### CVE-2015-7501
+- [ianxtianxt/CVE-2015-7501](https://github.com/ianxtianxt/CVE-2015-7501)
+
 ### CVE-2015-7545
 - [avuserow/bug-free-chainsaw](https://github.com/avuserow/bug-free-chainsaw)
 
@@ -5645,6 +5648,9 @@
 - [nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC)
 - [Kit4y/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/Kit4y/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner)
 - [laolisafe/CVE-2020-1938](https://github.com/laolisafe/CVE-2020-1938)
+- [DaemonShao/CVE-2020-1938](https://github.com/DaemonShao/CVE-2020-1938)
+- [sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read)
+- [fairyming/CVE-2020-1938](https://github.com/fairyming/CVE-2020-1938)
 
 ### CVE-2020-2551
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
