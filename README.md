@@ -5651,6 +5651,8 @@
 - [DaemonShao/CVE-2020-1938](https://github.com/DaemonShao/CVE-2020-1938)
 - [sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read)
 - [fairyming/CVE-2020-1938](https://github.com/fairyming/CVE-2020-1938)
+- [dacade/cve-2020-1938](https://github.com/dacade/cve-2020-1938)
+- [CleanBulking/CVE-2020-1938TomcatAjpScanner](https://github.com/CleanBulking/CVE-2020-1938TomcatAjpScanner)
 
 ### CVE-2020-2551
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
