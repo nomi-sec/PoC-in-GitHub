@@ -5655,6 +5655,7 @@
 - [CleanBulking/CVE-2020-1938TomcatAjpScanner](https://github.com/CleanBulking/CVE-2020-1938TomcatAjpScanner)
 - [shutingrz/CVE-2020-1938_docker_verification](https://github.com/shutingrz/CVE-2020-1938_docker_verification)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
+- [ze0r/GhostCat-LFI-exp](https://github.com/ze0r/GhostCat-LFI-exp)
 
 ### CVE-2020-2551
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
