@@ -5663,6 +5663,7 @@
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
 - [ze0r/GhostCat-LFI-exp](https://github.com/ze0r/GhostCat-LFI-exp)
 - [delsadan/CNVD-2020-10487-Bulk-verification](https://github.com/delsadan/CNVD-2020-10487-Bulk-verification)
+- [00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487)
 
 ### CVE-2020-2551
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
@@ -5717,6 +5718,9 @@
 
 ### CVE-2020-8417
 - [VulnCrate/WP-CodeSnippets-CVE-2020-8417](https://github.com/VulnCrate/WP-CodeSnippets-CVE-2020-8417)
+
+### CVE-2020-8813
+- [mhaskar/CVE-2020-8813](https://github.com/mhaskar/CVE-2020-8813)
 
 ### CVE-2020-8825
 - [hacky1997/CVE-2020-8825](https://github.com/hacky1997/CVE-2020-8825)
