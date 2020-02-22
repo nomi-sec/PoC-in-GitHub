@@ -1118,6 +1118,9 @@
 ### CVE-2015-2231
 - [rednaga/adups-get-super-serial](https://github.com/rednaga/adups-get-super-serial)
 
+### CVE-2015-2291
+- [Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291)
+
 ### CVE-2015-2315
 - [weidongl74/cve-2015-2315-report](https://github.com/weidongl74/cve-2015-2315-report)
 
@@ -4332,7 +4335,7 @@
 - [wqsemc/CVE-2019-0708](https://github.com/wqsemc/CVE-2019-0708)
 - [mai-lang-chai/CVE-2019-0708-RCE](https://github.com/mai-lang-chai/CVE-2019-0708-RCE)
 - [Micr067/CVE-2019-0708RDP-MSF](https://github.com/Micr067/CVE-2019-0708RDP-MSF)
-- [upkn/CVE-2019-0708-BlueKeep](https://github.com/upkn/CVE-2019-0708-BlueKeep)
+- [adkinguzi/CVE-2019-0708-BlueKeep](https://github.com/adkinguzi/CVE-2019-0708-BlueKeep)
 - [FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708)
 - [qinggegeya/CVE-2019-0708-EXP-MSF-](https://github.com/qinggegeya/CVE-2019-0708-EXP-MSF-)
 - [Straight-wood/CVE-2019-0708](https://github.com/Straight-wood/CVE-2019-0708)
@@ -5639,6 +5642,9 @@
 ### CVE-2020-0728
 - [irsl/CVE-2020-0728](https://github.com/irsl/CVE-2020-0728)
 
+### CVE-2020-0753
+- [afang5472/CVE-2020-0753-and-CVE-2020-0754](https://github.com/afang5472/CVE-2020-0753-and-CVE-2020-0754)
+
 ### CVE-2020-1611
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
 
@@ -5656,6 +5662,7 @@
 - [shutingrz/CVE-2020-1938_docker_verification](https://github.com/shutingrz/CVE-2020-1938_docker_verification)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
 - [ze0r/GhostCat-LFI-exp](https://github.com/ze0r/GhostCat-LFI-exp)
+- [delsadan/CNVD-2020-10487-Bulk-verification](https://github.com/delsadan/CNVD-2020-10487-Bulk-verification)
 
 ### CVE-2020-2551
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
