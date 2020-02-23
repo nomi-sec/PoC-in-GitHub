@@ -2596,7 +2596,7 @@
 - [homjxi0e/CVE-2017-7472](https://github.com/homjxi0e/CVE-2017-7472)
 
 ### CVE-2017-7494
-- [omri9741/cve-2017-7494](https://github.com/omri9741/cve-2017-7494)
+- [betab0t/cve-2017-7494](https://github.com/betab0t/cve-2017-7494)
 - [homjxi0e/CVE-2017-7494](https://github.com/homjxi0e/CVE-2017-7494)
 - [opsxcq/exploit-CVE-2017-7494](https://github.com/opsxcq/exploit-CVE-2017-7494)
 - [Waffles-2/SambaCry](https://github.com/Waffles-2/SambaCry)
