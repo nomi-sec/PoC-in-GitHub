@@ -477,7 +477,9 @@
 
 ## 2013
 ### CVE-2013-0156
+- [terracatta/name_reverser](https://github.com/terracatta/name_reverser)
 - [heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156)
+- [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
 - [R3dKn33/CVE-2013-0156](https://github.com/R3dKn33/CVE-2013-0156)
 
@@ -5659,7 +5661,7 @@
 - [sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read)
 - [fairyming/CVE-2020-1938](https://github.com/fairyming/CVE-2020-1938)
 - [dacade/cve-2020-1938](https://github.com/dacade/cve-2020-1938)
-- [CleanBulking/CVE-2020-1938TomcatAjpScanner](https://github.com/CleanBulking/CVE-2020-1938TomcatAjpScanner)
+- [woaiqiukui/CVE-2020-1938TomcatAjpScanner](https://github.com/woaiqiukui/CVE-2020-1938TomcatAjpScanner)
 - [shutingrz/CVE-2020-1938_docker_verification](https://github.com/shutingrz/CVE-2020-1938_docker_verification)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
 - [ze0r/GhostCat-LFI-exp](https://github.com/ze0r/GhostCat-LFI-exp)
@@ -5728,6 +5730,7 @@
 
 ### CVE-2020-8840
 - [jas502n/CVE-2020-8840](https://github.com/jas502n/CVE-2020-8840)
+- [Wfzsec/FastJson1.2.62-RCE](https://github.com/Wfzsec/FastJson1.2.62-RCE)
 
 ### CVE-2020-8950
 - [sailay1996/amd_eop_poc](https://github.com/sailay1996/amd_eop_poc)
