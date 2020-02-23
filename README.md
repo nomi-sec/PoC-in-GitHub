@@ -477,9 +477,7 @@
 
 ## 2013
 ### CVE-2013-0156
-- [terracatta/name_reverser](https://github.com/terracatta/name_reverser)
 - [heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156)
-- [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
 - [R3dKn33/CVE-2013-0156](https://github.com/R3dKn33/CVE-2013-0156)
 
@@ -5169,6 +5167,9 @@
 
 ### CVE-2019-19871
 - [VDISEC/CVE-2019-19871-AuditGuide](https://github.com/VDISEC/CVE-2019-19871-AuditGuide)
+
+### CVE-2019-19943
+- [m0rph-1/CVE-2019-19943](https://github.com/m0rph-1/CVE-2019-19943)
 
 ### CVE-2019-20059
 - [jra89/CVE-2019-20059](https://github.com/jra89/CVE-2019-20059)
