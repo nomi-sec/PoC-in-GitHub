@@ -1832,17 +1832,7 @@
 - [MelonSmasher/chef_tissues](https://github.com/MelonSmasher/chef_tissues)
 
 ### CVE-2017-0199
-- [ryhanson/CVE-2017-0199](https://github.com/ryhanson/CVE-2017-0199)
-- [SyFi/cve-2017-0199](https://github.com/SyFi/cve-2017-0199)
 - [bhdresh/CVE-2017-0199](https://github.com/bhdresh/CVE-2017-0199)
-- [NotAwful/CVE-2017-0199-Fix](https://github.com/NotAwful/CVE-2017-0199-Fix)
-- [haibara3839/CVE-2017-0199-master](https://github.com/haibara3839/CVE-2017-0199-master)
-- [Exploit-install/CVE-2017-0199](https://github.com/Exploit-install/CVE-2017-0199)
-- [zakybstrd21215/PoC-CVE-2017-0199](https://github.com/zakybstrd21215/PoC-CVE-2017-0199)
-- [n1shant-sinha/CVE-2017-0199](https://github.com/n1shant-sinha/CVE-2017-0199)
-- [kn0wm4d/htattack](https://github.com/kn0wm4d/htattack)
-- [joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199)
-- [joke998/Cve-2017-0199-](https://github.com/joke998/Cve-2017-0199-)
 - [r0otshell/Microsoft-Word-CVE-2017-0199-](https://github.com/r0otshell/Microsoft-Word-CVE-2017-0199-)
 - [viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199)
 - [nicpenning/RTF-Cleaner](https://github.com/nicpenning/RTF-Cleaner)
@@ -1877,11 +1867,9 @@
 - [lulusudoku/PoC](https://github.com/lulusudoku/PoC)
 
 ### CVE-2017-0478
-- [JiounDai/CVE-2017-0478](https://github.com/JiounDai/CVE-2017-0478)
 - [denmilu/CVE-2017-0478](https://github.com/denmilu/CVE-2017-0478)
 
 ### CVE-2017-0541
-- [JiounDai/CVE-2017-0541](https://github.com/JiounDai/CVE-2017-0541)
 - [denmilu/CVE-2017-0541](https://github.com/denmilu/CVE-2017-0541)
 
 ### CVE-2017-0554
@@ -1968,7 +1956,6 @@
 
 ### CVE-2017-1000367
 - [c0d3z3r0/sudo-CVE-2017-1000367](https://github.com/c0d3z3r0/sudo-CVE-2017-1000367)
-- [homjxi0e/CVE-2017-1000367](https://github.com/homjxi0e/CVE-2017-1000367)
 - [pucerpocok/sudo_exploit](https://github.com/pucerpocok/sudo_exploit)
 
 ### CVE-2017-1000405
@@ -2314,9 +2301,6 @@
 - [vincedes3/CVE-2017-2368](https://github.com/vincedes3/CVE-2017-2368)
 
 ### CVE-2017-2370
-- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
-- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
-- [Rootkitsmm/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388
@@ -2364,14 +2348,9 @@
 - [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
 
 ### CVE-2017-3730
-- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
 - [ymmah/OpenSSL-CVE-2017-3730](https://github.com/ymmah/OpenSSL-CVE-2017-3730)
 
 ### CVE-2017-3881
-- [artkond/cisco-rce](https://github.com/artkond/cisco-rce)
-- [homjxi0e/CVE-2017-3881-exploit-cisco-](https://github.com/homjxi0e/CVE-2017-3881-exploit-cisco-)
-- [homjxi0e/CVE-2017-3881-Cisco](https://github.com/homjxi0e/CVE-2017-3881-Cisco)
-- [zakybstrd21215/PoC-CVE-2017-3881](https://github.com/zakybstrd21215/PoC-CVE-2017-3881)
 - [1337g/CVE-2017-3881](https://github.com/1337g/CVE-2017-3881)
 
 ### CVE-2017-4490
@@ -2414,38 +2393,11 @@
 - [cardangi/Exploit-CVE-2017-5633](https://github.com/cardangi/Exploit-CVE-2017-5633)
 
 ### CVE-2017-5638
-- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
-- [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
-- [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
-- [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
-- [mthbernardes/strutszeiro](https://github.com/mthbernardes/strutszeiro)
-- [xsscx/cve-2017-5638](https://github.com/xsscx/cve-2017-5638)
-- [immunio/apache-struts2-CVE-2017-5638](https://github.com/immunio/apache-struts2-CVE-2017-5638)
-- [Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve)
-- [aljazceru/CVE-2017-5638-Apache-Struts2](https://github.com/aljazceru/CVE-2017-5638-Apache-Struts2)
-- [sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638)
-- [jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638)
-- [random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638)
 - [initconf/CVE-2017-5638_struts](https://github.com/initconf/CVE-2017-5638_struts)
 - [mazen160/struts-pwn](https://github.com/mazen160/struts-pwn)
-- [ret2got/Struts-Apache-ExploitPack](https://github.com/ret2got/Struts-Apache-ExploitPack)
-- [lolwaleet/ExpStruts](https://github.com/lolwaleet/ExpStruts)
-- [oktavianto/CVE-2017-5638-Apache-Struts2](https://github.com/oktavianto/CVE-2017-5638-Apache-Struts2)
-- [jrrdev/cve-2017-5638](https://github.com/jrrdev/cve-2017-5638)
-- [opt9/Strutshock](https://github.com/opt9/Strutshock)
-- [falcon-lnhg/StrutsShell](https://github.com/falcon-lnhg/StrutsShell)
-- [bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638)
 - [jas502n/st2-046-poc](https://github.com/jas502n/st2-046-poc)
-- [KarzsGHR/S2-046_S2-045_POC](https://github.com/KarzsGHR/S2-046_S2-045_POC)
-- [gsfish/S2-Reaper](https://github.com/gsfish/S2-Reaper)
-- [mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638)
-- [opt9/Strutscli](https://github.com/opt9/Strutscli)
 - [tahmed11/strutsy](https://github.com/tahmed11/strutsy)
-- [payatu/CVE-2017-5638](https://github.com/payatu/CVE-2017-5638)
-- [Aasron/Struts2-045-Exp](https://github.com/Aasron/Struts2-045-Exp)
 - [SpiderMate/Stutsfi](https://github.com/SpiderMate/Stutsfi)
-- [jpacora/Struts2Shell](https://github.com/jpacora/Struts2Shell)
-- [Reslient/Apache-Struts](https://github.com/Reslient/Apache-Struts)
 - [AndreasKl/CVE-2017-5638](https://github.com/AndreasKl/CVE-2017-5638)
 - [riyazwalikar/struts-rce-cve-2017-5638](https://github.com/riyazwalikar/struts-rce-cve-2017-5638)
 - [homjxi0e/CVE-2017-5638](https://github.com/homjxi0e/CVE-2017-5638)
@@ -2477,10 +2429,7 @@
 - [pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645)
 
 ### CVE-2017-5689
-- [CerberusSecurity/CVE-2017-5689](https://github.com/CerberusSecurity/CVE-2017-5689)
 - [x1sec/amthoneypot](https://github.com/x1sec/amthoneypot)
-- [Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass)
-- [prototux/amt-bypass-test](https://github.com/prototux/amt-bypass-test)
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 
 ### CVE-2017-5693
@@ -2543,7 +2492,6 @@
 - [gquere/CVE-2017-6913](https://github.com/gquere/CVE-2017-6913)
 
 ### CVE-2017-6971
-- [patrickfreed/nfsen-exploit](https://github.com/patrickfreed/nfsen-exploit)
 - [KeyStrOke95/nfsen_1.3.7_CVE-2017-6971](https://github.com/KeyStrOke95/nfsen_1.3.7_CVE-2017-6971)
 
 ### CVE-2017-7038
@@ -2574,18 +2522,7 @@
 - [faizzaidi/Zurmo-Stable-3.1.1-XSS-By-Provensec-LLC](https://github.com/faizzaidi/Zurmo-Stable-3.1.1-XSS-By-Provensec-LLC)
 
 ### CVE-2017-7269
-- [eliuha/webdav_exploit](https://github.com/eliuha/webdav_exploit)
 - [lcatro/CVE-2017-7269-Echo-PoC](https://github.com/lcatro/CVE-2017-7269-Echo-PoC)
-- [caicai1355/CVE-2017-7269-exploit](https://github.com/caicai1355/CVE-2017-7269-exploit)
-- [M1a0rz/CVE-2017-7269](https://github.com/M1a0rz/CVE-2017-7269)
-- [whiteHat001/cve-2017-7269picture](https://github.com/whiteHat001/cve-2017-7269picture)
-- [zcgonvh/cve-2017-7269](https://github.com/zcgonvh/cve-2017-7269)
-- [jrrombaldo/CVE-2017-7269](https://github.com/jrrombaldo/CVE-2017-7269)
-- [g0rx/iis6-exploit-2017-CVE-2017-7269](https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269)
-- [slimpagey/IIS_6.0_WebDAV_Ruby](https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby)
-- [homjxi0e/cve-2017-7269](https://github.com/homjxi0e/cve-2017-7269)
-- [xiaovpn/CVE-2017-7269](https://github.com/xiaovpn/CVE-2017-7269)
-- [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
 
@@ -2597,10 +2534,7 @@
 
 ### CVE-2017-7494
 - [betab0t/cve-2017-7494](https://github.com/betab0t/cve-2017-7494)
-- [homjxi0e/CVE-2017-7494](https://github.com/homjxi0e/CVE-2017-7494)
 - [opsxcq/exploit-CVE-2017-7494](https://github.com/opsxcq/exploit-CVE-2017-7494)
-- [Waffles-2/SambaCry](https://github.com/Waffles-2/SambaCry)
-- [brianwrf/SambaHunter](https://github.com/brianwrf/SambaHunter)
 - [joxeankoret/CVE-2017-7494](https://github.com/joxeankoret/CVE-2017-7494)
 - [Zer0d0y/Samba-CVE-2017-7494](https://github.com/Zer0d0y/Samba-CVE-2017-7494)
 - [incredible1yu/CVE-2017-7494](https://github.com/incredible1yu/CVE-2017-7494)
@@ -2645,8 +2579,6 @@
 - [jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest)
 
 ### CVE-2017-8295
-- [homjxi0e/CVE-2017-8295-WordPress-4.7.4---Unauthorized-Password-Reset](https://github.com/homjxi0e/CVE-2017-8295-WordPress-4.7.4---Unauthorized-Password-Reset)
-- [alash3al/wp-allowed-hosts](https://github.com/alash3al/wp-allowed-hosts)
 - [cyberheartmi9/CVE-2017-8295](https://github.com/cyberheartmi9/CVE-2017-8295)
 
 ### CVE-2017-8382
@@ -2719,7 +2651,6 @@
 - [7043mcgeep/cve-2017-8890-msf](https://github.com/7043mcgeep/cve-2017-8890-msf)
 
 ### CVE-2017-8917
-- [brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917)
 - [stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla)
 - [cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917)
 
