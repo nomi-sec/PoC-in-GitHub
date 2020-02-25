@@ -258,6 +258,11 @@ eap.c in pppd in ppp 2.4.2 through 2.4.8 has an rhostname buffer overflow in the
 - [marcinguy/CVE-2020-8597](https://github.com/marcinguy/CVE-2020-8597)
 
 ### CVE-2020-8809
+
+<code>
+Gurux GXDLMS Director prior to 8.5.1905.1301 downloads updates to add-ins and OBIS code over an unencrypted HTTP connection. A man-in-the-middle attacker can prompt the user to download updates by modifying the contents of gurux.fi/obis/files.xml and gurux.fi/updates/updates.xml. Then, the attacker can modify the contents of downloaded files. In the case of add-ins (if the user is using those), this will lead to code execution. In case of OBIS codes (which the user is always using as they are needed to communicate with the energy meters), this can lead to code execution when combined with CVE-2020-8810.
+</code>
+
 - [seqred-s-a/gxdlmsdirector-cve](https://github.com/seqred-s-a/gxdlmsdirector-cve)
 
 ### CVE-2020-8813
@@ -296,6 +301,11 @@ The AUEPLauncher service in Radeon AMD User Experience Program Launcher through 
 - [sailay1996/amd_eop_poc](https://github.com/sailay1996/amd_eop_poc)
 
 ### CVE-2020-9008
+
+<code>
+Stored Cross-site scripting (XSS) vulnerability in Blackboard Learn/PeopleTool v9.1 allows users to inject arbitrary web script via the Tile widget in the People Tool profile editor.
+</code>
+
 - [kyletimmermans/blackboard-xss](https://github.com/kyletimmermans/blackboard-xss)
 
 
@@ -11974,7 +11984,6 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
 </code>
 
-- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
 
@@ -12033,7 +12042,6 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 </code>
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
-- [ChinaKevinLi/VLC-CVE-2008-4654-Exploit](https://github.com/ChinaKevinLi/VLC-CVE-2008-4654-Exploit)
 
 ### CVE-2008-5416
 
