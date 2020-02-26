@@ -75,7 +75,6 @@ An elevation of privilege vulnerability exists in the way that the Windows Kerne
 </code>
 
 - [RedCursorSecurityConsulting/CVE-2020-0668](https://github.com/RedCursorSecurityConsulting/CVE-2020-0668)
-- [Nan3r/CVE-2020-0668](https://github.com/Nan3r/CVE-2020-0668)
 
 ### CVE-2020-0674
 
