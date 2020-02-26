@@ -93,6 +93,14 @@ An elevation of privilege vulnerability exists in the Windows Installer when MSI
 
 - [padovah4ck/CVE-2020-0683](https://github.com/padovah4ck/CVE-2020-0683)
 
+### CVE-2020-0688
+
+<code>
+A remote code execution vulnerability exists in Microsoft Exchange software when the software fails to properly handle objects in memory, aka 'Microsoft Exchange Memory Corruption Vulnerability'.
+</code>
+
+- [random-robbie/cve-2020-0688](https://github.com/random-robbie/cve-2020-0688)
+
 ### CVE-2020-0728
 
 <code>
@@ -11984,6 +11992,7 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
 </code>
 
+- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
 
@@ -12042,6 +12051,7 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 </code>
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
+- [ChinaKevinLi/VLC-CVE-2008-4654-Exploit](https://github.com/ChinaKevinLi/VLC-CVE-2008-4654-Exploit)
 
 ### CVE-2008-5416
 
