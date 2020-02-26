@@ -74,7 +74,9 @@ A remote code execution vulnerability exists in Microsoft SQL Server Reporting S
 An elevation of privilege vulnerability exists in the way that the Windows Kernel handles objects in memory, aka 'Windows Kernel Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0669, CVE-2020-0670, CVE-2020-0671, CVE-2020-0672.
 </code>
 
+- [itm4n/SysTracingPoc](https://github.com/itm4n/SysTracingPoc)
 - [RedCursorSecurityConsulting/CVE-2020-0668](https://github.com/RedCursorSecurityConsulting/CVE-2020-0668)
+- [Nan3r/CVE-2020-0668](https://github.com/Nan3r/CVE-2020-0668)
 
 ### CVE-2020-0674
 
@@ -99,6 +101,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 </code>
 
 - [random-robbie/cve-2020-0688](https://github.com/random-robbie/cve-2020-0688)
+- [Jumbo-WJB/CVE-2020-0688](https://github.com/Jumbo-WJB/CVE-2020-0688)
 
 ### CVE-2020-0728
 
@@ -140,11 +143,11 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [fairyming/CVE-2020-1938](https://github.com/fairyming/CVE-2020-1938)
 - [dacade/cve-2020-1938](https://github.com/dacade/cve-2020-1938)
 - [woaiqiukui/CVE-2020-1938TomcatAjpScanner](https://github.com/woaiqiukui/CVE-2020-1938TomcatAjpScanner)
-- [shutingrz/CVE-2020-1938_docker_verification](https://github.com/shutingrz/CVE-2020-1938_docker_verification)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
 - [ze0r/GhostCat-LFI-exp](https://github.com/ze0r/GhostCat-LFI-exp)
 - [delsadan/CNVD-2020-10487-Bulk-verification](https://github.com/delsadan/CNVD-2020-10487-Bulk-verification)
 - [00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487)
+- [shaunmclernon/ghostcat-verification](https://github.com/shaunmclernon/ghostcat-verification)
 
 ### CVE-2020-2551
 
@@ -2923,6 +2926,7 @@ Stack-based buffer overflow in SonicWall SMA100 allows an unauthenticated user t
 </code>
 
 - [singletrackseeker/CVE-2019-7482](https://github.com/singletrackseeker/CVE-2019-7482)
+- [b4bay/CVE-2019-7482](https://github.com/b4bay/CVE-2019-7482)
 
 ### CVE-2019-7609
 
