@@ -104,6 +104,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [random-robbie/cve-2020-0688](https://github.com/random-robbie/cve-2020-0688)
 - [Jumbo-WJB/CVE-2020-0688](https://github.com/Jumbo-WJB/CVE-2020-0688)
 - [Ridter/cve-2020-0688](https://github.com/Ridter/cve-2020-0688)
+- [Yt1g3r/CVE-2020-0688_EXP](https://github.com/Yt1g3r/CVE-2020-0688_EXP)
 
 ### CVE-2020-0728
 
@@ -150,6 +151,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [delsadan/CNVD-2020-10487-Bulk-verification](https://github.com/delsadan/CNVD-2020-10487-Bulk-verification)
 - [00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487)
 - [shaunmclernon/ghostcat-verification](https://github.com/shaunmclernon/ghostcat-verification)
+- [Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938)
 
 ### CVE-2020-2551
 
@@ -322,6 +324,14 @@ Stored Cross-site scripting (XSS) vulnerability in Blackboard Learn/PeopleTool v
 </code>
 
 - [kyletimmermans/blackboard-xss](https://github.com/kyletimmermans/blackboard-xss)
+
+### CVE-2020-9038
+
+<code>
+Joplin through 1.0.184 allows Arbitrary File Read via XSS.
+</code>
+
+- [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
 
 
 ## 2019
