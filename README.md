@@ -103,6 +103,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 
 - [random-robbie/cve-2020-0688](https://github.com/random-robbie/cve-2020-0688)
 - [Jumbo-WJB/CVE-2020-0688](https://github.com/Jumbo-WJB/CVE-2020-0688)
+- [Ridter/cve-2020-0688](https://github.com/Ridter/cve-2020-0688)
 
 ### CVE-2020-0728
 
@@ -11708,6 +11709,7 @@ sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is en
 The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
 </code>
 
+- [ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn)
 - [gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn)
 
 ### CVE-2010-1205
