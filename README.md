@@ -119,7 +119,7 @@ An information vulnerability exists when Windows Modules Installer Service impro
 An elevation of privilege vulnerability exists in Windows Error Reporting (WER) when WER handles and executes files, aka 'Windows Error Reporting Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0754.
 </code>
 
-- [afang5472/CVE-2020-0753-and-CVE-2020-0754](https://github.com/afang5472/CVE-2020-0753-and-CVE-2020-0754)
+- [VikasVarshney/CVE-2020-0753-and-CVE-2020-0754](https://github.com/VikasVarshney/CVE-2020-0753-and-CVE-2020-0754)
 
 ### CVE-2020-1611
 
@@ -212,6 +212,9 @@ PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executabl
 
 ### CVE-2020-6172
 - [Jeff-Rowell/CVE-2020-6172](https://github.com/Jeff-Rowell/CVE-2020-6172)
+
+### CVE-2020-6418
+- [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -3661,7 +3664,6 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [Kiss-sh0t/CVE-2018-11235-poc](https://github.com/Kiss-sh0t/CVE-2018-11235-poc)
 - [H0K5/clone_and_pwn](https://github.com/H0K5/clone_and_pwn)
 - [knqyf263/CVE-2018-11235](https://github.com/knqyf263/CVE-2018-11235)
-- [excfergodst/git-RCE](https://github.com/excfergodst/git-RCE)
 - [ygouzerh/CVE-2018-11235](https://github.com/ygouzerh/CVE-2018-11235)
 - [qweraqq/CVE-2018-11235-Git-Submodule-CE](https://github.com/qweraqq/CVE-2018-11235-Git-Submodule-CE)
 - [jhswartz/CVE-2018-11235](https://github.com/jhswartz/CVE-2018-11235)
