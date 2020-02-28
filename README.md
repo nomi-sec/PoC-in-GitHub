@@ -105,6 +105,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [Jumbo-WJB/CVE-2020-0688](https://github.com/Jumbo-WJB/CVE-2020-0688)
 - [Ridter/cve-2020-0688](https://github.com/Ridter/cve-2020-0688)
 - [Yt1g3r/CVE-2020-0688_EXP](https://github.com/Yt1g3r/CVE-2020-0688_EXP)
+- [righter83/CVE-2020-0688](https://github.com/righter83/CVE-2020-0688)
 
 ### CVE-2020-0728
 
@@ -221,6 +222,11 @@ PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executabl
 - [Jeff-Rowell/CVE-2020-6172](https://github.com/Jeff-Rowell/CVE-2020-6172)
 
 ### CVE-2020-6418
+
+<code>
+Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
 
 ### CVE-2020-72381
@@ -337,6 +343,9 @@ Joplin through 1.0.184 allows Arbitrary File Read via XSS.
 </code>
 
 - [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
+
+### CVE-2020-9442
+- [hessandrew/CVE-2020-9442](https://github.com/hessandrew/CVE-2020-9442)
 
 
 ## 2019
