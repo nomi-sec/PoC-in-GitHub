@@ -366,6 +366,14 @@ OpenVPN Connect 3.1.0.361 on Windows has Insecure Permissions for %PROGRAMDATA%\
 
 
 ## 2019
+### CVE-2019-0053
+
+<code>
+Insufficient validation of environment variables in the telnet client supplied in Junos OS can lead to stack-based buffer overflows, which can be exploited to bypass veriexec restrictions on Junos OS. A stack-based overflow is present in the handling of environment variables when connecting via the telnet client to remote telnet servers. This issue only affects the telnet client — accessible from the CLI or shell — in Junos OS. Inbound telnet services are not affected by this issue. This issue affects: Juniper Networks Junos OS: 12.3 versions prior to 12.3R12-S13; 12.3X48 versions prior to 12.3X48-D80; 14.1X53 versions prior to 14.1X53-D130, 14.1X53-D49; 15.1 versions prior to 15.1F6-S12, 15.1R7-S4; 15.1X49 versions prior to 15.1X49-D170; 15.1X53 versions prior to 15.1X53-D237, 15.1X53-D496, 15.1X53-D591, 15.1X53-D69; 16.1 versions prior to 16.1R3-S11, 16.1R7-S4; 16.2 versions prior to 16.2R2-S9; 17.1 versions prior to 17.1R3; 17.2 versions prior to 17.2R1-S8, 17.2R2-S7, 17.2R3-S1; 17.3 versions prior to 17.3R3-S4; 17.4 versions prior to 17.4R1-S6, 17.4R2-S3, 17.4R3; 18.1 versions prior to 18.1R2-S4, 18.1R3-S3; 18.2 versions prior to 18.2R1-S5, 18.2R2-S2, 18.2R3; 18.2X75 versions prior to 18.2X75-D40; 18.3 versions prior to 18.3R1-S3, 18.3R2; 18.4 versions prior to 18.4R1-S2, 18.4R2.
+</code>
+
+- [dreamsmasher/inetutils-CVE-2019-0053-Patched-PKGBUILD](https://github.com/dreamsmasher/inetutils-CVE-2019-0053-Patched-PKGBUILD)
+
 ### CVE-2019-0192
 
 <code>
@@ -11580,6 +11588,7 @@ Use-after-free vulnerability in win32k.sys in the kernel-mode drivers in Microso
 ** DISPUTED ** OpenSSL before 0.9.8l, and 0.9.8m through 1.x, does not properly restrict client-initiated renegotiation within the SSL and TLS protocols, which might make it easier for remote attackers to cause a denial of service (CPU consumption) by performing many renegotiations within a single connection, a different vulnerability than CVE-2011-5094.  NOTE: it can also be argued that it is the responsibility of server deployments, not a security library, to prevent or limit renegotiation when it is inappropriate within a specific environment.
 </code>
 
+- [c826/bash-tls-reneg-attack](https://github.com/c826/bash-tls-reneg-attack)
 - [zjt674449039/cve-2011-1473](https://github.com/zjt674449039/cve-2011-1473)
 
 ### CVE-2011-1475
@@ -11636,6 +11645,7 @@ NDISTAPI.sys in the NDISTAPI driver in Remote Access Service (RAS) in Microsoft 
 Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x before 4.6 allows remote attackers to inject arbitrary web script or HTML via vectors related to the loading of modules from different domains.
 </code>
 
+- [ikkisoft/ParrotNG](https://github.com/ikkisoft/ParrotNG)
 - [u-maxx/magento-swf-patched-CVE-2011-2461](https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461)
 - [edmondscommerce/CVE-2011-2461_Magento_Patch](https://github.com/edmondscommerce/CVE-2011-2461_Magento_Patch)
 
@@ -11671,6 +11681,7 @@ The mod_proxy module in the Apache HTTP Server 1.3.x through 1.3.42, 2.0.x throu
 </code>
 
 - [SECFORCE/CVE-2011-3368](https://github.com/SECFORCE/CVE-2011-3368)
+- [colorblindpentester/CVE-2011-3368](https://github.com/colorblindpentester/CVE-2011-3368)
 
 ### CVE-2011-3389
 
