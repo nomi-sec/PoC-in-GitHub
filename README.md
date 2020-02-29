@@ -281,6 +281,14 @@ Intellian Aptus Web 1.24 allows remote attackers to execute arbitrary OS command
 
 - [Xh4H/Satellian-CVE-2020-7980](https://github.com/Xh4H/Satellian-CVE-2020-7980)
 
+### CVE-2020-8012
+
+<code>
+CA Unified Infrastructure Management (Nimsoft/UIM) 9.20 and below contains a buffer overflow vulnerability in the robot (controller) component. A remote attacker can execute arbitrary code.
+</code>
+
+- [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
+
 ### CVE-2020-8417
 
 <code>
@@ -3192,6 +3200,14 @@ Nagios IM (component of Nagios XI) before 2.2.7 allows authenticated users to ex
 </code>
 
 - [polict/CVE-2019-9202](https://github.com/polict/CVE-2019-9202)
+
+### CVE-2019-9465
+
+<code>
+In the Titan M handling of cryptographic operations, there is a possible information disclosure due to an unusual root cause. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation. Product: Android Versions: Android-10 Android ID: A-133258003
+</code>
+
+- [alexbakker/CVE-2019-9465](https://github.com/alexbakker/CVE-2019-9465)
 
 ### CVE-2019-9506
 
@@ -12188,10 +12204,8 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
-- [noondi/metasploitable2](https://github.com/noondi/metasploitable2)
 - [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
-- [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 
 ### CVE-2007-3830
