@@ -109,6 +109,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [truongtn/cve-2020-0688](https://github.com/truongtn/cve-2020-0688)
 - [onSec-fr/CVE-2020-0688-Scanner](https://github.com/onSec-fr/CVE-2020-0688-Scanner)
 - [youncyb/CVE-2020-0688](https://github.com/youncyb/CVE-2020-0688)
+- [zcgonvh/CVE-2020-0688](https://github.com/zcgonvh/CVE-2020-0688)
 
 ### CVE-2020-0728
 
@@ -11615,6 +11616,7 @@ Use-after-free vulnerability in win32k.sys in the kernel-mode drivers in Microso
 </code>
 
 - [c826/bash-tls-reneg-attack](https://github.com/c826/bash-tls-reneg-attack)
+- [zjt674449039/cve-2011-1473](https://github.com/zjt674449039/cve-2011-1473)
 
 ### CVE-2011-1475
 
@@ -11746,7 +11748,9 @@ The simplexml_load_string function in the XML import plug-in (libraries/import/x
 Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MIT Kerberos Version 5 Applications (aka krb5-appl) 1.0.2 and earlier, Heimdal 1.5.1 and earlier, GNU inetutils, and possibly other products allows remote attackers to execute arbitrary code via a long encryption key, as exploited in the wild in December 2011.
 </code>
 
+- [hdbreaker/GO-CVE-2011-4862](https://github.com/hdbreaker/GO-CVE-2011-4862)
 - [lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862)
+- [kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862)
 
 ### CVE-2011-4872
 
