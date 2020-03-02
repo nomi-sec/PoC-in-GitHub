@@ -390,6 +390,7 @@ Insufficient validation of environment variables in the telnet client supplied i
 In Apache Solr versions 5.0.0 to 5.5.5 and 6.0.0 to 6.6.5, the Config API allows to configure the JMX server via an HTTP POST request. By pointing it to a malicious RMI server, an attacker could take advantage of Solr's unsafe deserialization to trigger remote code execution on the Solr side.
 </code>
 
+- [mpgn/CVE-2019-0192](https://github.com/mpgn/CVE-2019-0192)
 - [Rapidsafeguard/Solr-RCE-CVE-2019-0192](https://github.com/Rapidsafeguard/Solr-RCE-CVE-2019-0192)
 
 ### CVE-2019-0193
@@ -398,6 +399,7 @@ In Apache Solr versions 5.0.0 to 5.5.5 and 6.0.0 to 6.6.5, the Config API allows
 In Apache Solr, the DataImportHandler, an optional but popular module to pull in data from databases and other sources, has a feature in which the whole DIH configuration can come from a request's &quot;dataConfig&quot; parameter. The debug mode of the DIH admin screen uses this to allow convenient debugging / development of a DIH config. Since a DIH config can contain scripts, this parameter is a security risk. Starting with version 8.2.0 of Solr, use of this parameter requires setting the Java System property &quot;enable.dih.dataConfigParam&quot; to true.
 </code>
 
+- [xConsoIe/CVE-2019-0193](https://github.com/xConsoIe/CVE-2019-0193)
 - [jas502n/CVE-2019-0193](https://github.com/jas502n/CVE-2019-0193)
 - [1135/solr_exploit](https://github.com/1135/solr_exploit)
 - [jaychouzzk/CVE-2019-0193-exp](https://github.com/jaychouzzk/CVE-2019-0193-exp)
@@ -425,6 +427,8 @@ When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in 
 </code>
 
 - [pyn3rd/CVE-2019-0232](https://github.com/pyn3rd/CVE-2019-0232)
+- [jas502n/CVE-2019-0232](https://github.com/jas502n/CVE-2019-0232)
+- [CherishHair/CVE-2019-0232-EXP](https://github.com/CherishHair/CVE-2019-0232-EXP)
 - [setrus/CVE-2019-0232](https://github.com/setrus/CVE-2019-0232)
 
 ### CVE-2019-0539
@@ -441,6 +445,8 @@ A remote code execution vulnerability exists in the way that the Chakra scriptin
 A remote code execution vulnerability exists in Microsoft SharePoint when the software fails to check the source markup of an application package, aka 'Microsoft SharePoint Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-0594.
 </code>
 
+- [linhlhq/CVE-2019-0604](https://github.com/linhlhq/CVE-2019-0604)
+- [denmilu/CVE-2019-0604_sharepoint_CVE](https://github.com/denmilu/CVE-2019-0604_sharepoint_CVE)
 - [k8gege/CVE-2019-0604](https://github.com/k8gege/CVE-2019-0604)
 - [m5050/CVE-2019-0604](https://github.com/m5050/CVE-2019-0604)
 - [boxhg/CVE-2019-0604](https://github.com/boxhg/CVE-2019-0604)
@@ -459,15 +465,86 @@ An elevation of privilege vulnerability exists when Microsoft Edge does not prop
 A remote code execution vulnerability exists in Remote Desktop Services formerly known as Terminal Services when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'.
 </code>
 
+- [hook-s3c/CVE-2019-0708-poc](https://github.com/hook-s3c/CVE-2019-0708-poc)
+- [SherlockSec/CVE-2019-0708](https://github.com/SherlockSec/CVE-2019-0708)
+- [yetiddbb/CVE-2019-0708-PoC](https://github.com/yetiddbb/CVE-2019-0708-PoC)
+- [p0p0p0/CVE-2019-0708-exploit](https://github.com/p0p0p0/CVE-2019-0708-exploit)
+- [rockmelodies/CVE-2019-0708-Exploit](https://github.com/rockmelodies/CVE-2019-0708-Exploit)
+- [matengfei000/CVE-2019-0708](https://github.com/matengfei000/CVE-2019-0708)
+- [xiyangzuishuai/Dark-Network-CVE-2019-0708](https://github.com/xiyangzuishuai/Dark-Network-CVE-2019-0708)
+- [temp-user-2014/CVE-2019-0708](https://github.com/temp-user-2014/CVE-2019-0708)
+- [areusecure/CVE-2019-0708](https://github.com/areusecure/CVE-2019-0708)
+- [pry0cc/cve-2019-0708-2](https://github.com/pry0cc/cve-2019-0708-2)
+- [sbkcbig/CVE-2019-0708-EXPloit](https://github.com/sbkcbig/CVE-2019-0708-EXPloit)
+- [sbkcbig/CVE-2019-0708-EXPloit-3389](https://github.com/sbkcbig/CVE-2019-0708-EXPloit-3389)
+- [YSheldon/MS_T120](https://github.com/YSheldon/MS_T120)
+- [k8gege/CVE-2019-0708](https://github.com/k8gege/CVE-2019-0708)
+- [hotdog777714/RDS_CVE-2019-0708](https://github.com/hotdog777714/RDS_CVE-2019-0708)
+- [jiansiting/CVE-2019-0708](https://github.com/jiansiting/CVE-2019-0708)
+- [NullByteSuiteDevs/CVE-2019-0708](https://github.com/NullByteSuiteDevs/CVE-2019-0708)
+- [heaphopopotamus/CVE-2019-0708](https://github.com/heaphopopotamus/CVE-2019-0708)
 - [thugcrowd/CVE-2019-0708](https://github.com/thugcrowd/CVE-2019-0708)
+- [omaidf/CVE-2019-0708-PoC](https://github.com/omaidf/CVE-2019-0708-PoC)
+- [blacksunwen/CVE-2019-0708](https://github.com/blacksunwen/CVE-2019-0708)
+- [infenet/CVE-2019-0708](https://github.com/infenet/CVE-2019-0708)
+- [n0auth/CVE-2019-0708](https://github.com/n0auth/CVE-2019-0708)
+- [gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708)
+- [sbkcbig/CVE-2019-0708-Poc-exploit](https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit)
+- [HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708)
+- [syriusbughunt/CVE-2019-0708](https://github.com/syriusbughunt/CVE-2019-0708)
+- [Barry-McCockiner/CVE-2019-0708](https://github.com/Barry-McCockiner/CVE-2019-0708)
+- [ShadowBrokers-ExploitLeak/CVE-2019-0708](https://github.com/ShadowBrokers-ExploitLeak/CVE-2019-0708)
+- [shumtheone/CVE-2019-0708](https://github.com/shumtheone/CVE-2019-0708)
+- [safly/CVE-2019-0708](https://github.com/safly/CVE-2019-0708)
+- [Jaky5155/cve-2019-0708-exp](https://github.com/Jaky5155/cve-2019-0708-exp)
 - [fourtwizzy/CVE-2019-0708-Check-Device-Patch-Status](https://github.com/fourtwizzy/CVE-2019-0708-Check-Device-Patch-Status)
+- [303sec/CVE-2019-0708](https://github.com/303sec/CVE-2019-0708)
+- [f8al/CVE-2019-0708-POC](https://github.com/f8al/CVE-2019-0708-POC)
+- [blockchainguard/CVE-2019-0708](https://github.com/blockchainguard/CVE-2019-0708)
+- [haoge8090/CVE-2019-0708](https://github.com/haoge8090/CVE-2019-0708)
+- [branbot1000/CVE-2019-0708](https://github.com/branbot1000/CVE-2019-0708)
+- [yushiro/CVE-2019-0708](https://github.com/yushiro/CVE-2019-0708)
+- [bilawalzardaer/CVE-2019-0708](https://github.com/bilawalzardaer/CVE-2019-0708)
+- [skyshell20082008/CVE-2019-0708-PoC-Hitting-Path](https://github.com/skyshell20082008/CVE-2019-0708-PoC-Hitting-Path)
+- [ttsite/CVE-2019-0708-](https://github.com/ttsite/CVE-2019-0708-)
 - [ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708)
+- [biggerwing/CVE-2019-0708-poc](https://github.com/biggerwing/CVE-2019-0708-poc)
+- [n1xbyte/CVE-2019-0708](https://github.com/n1xbyte/CVE-2019-0708)
+- [freeide/CVE-2019-0708](https://github.com/freeide/CVE-2019-0708)
+- [edvacco/CVE-2019-0708-POC](https://github.com/edvacco/CVE-2019-0708-POC)
+- [pry0cc/BlueKeepTracker](https://github.com/pry0cc/BlueKeepTracker)
+- [zjw88282740/CVE-2019-0708-win7](https://github.com/zjw88282740/CVE-2019-0708-win7)
 - [zerosum0x0/CVE-2019-0708](https://github.com/zerosum0x0/CVE-2019-0708)
+- [herhe/CVE-2019-0708poc](https://github.com/herhe/CVE-2019-0708poc)
+- [l9c/rdp0708scanner](https://github.com/l9c/rdp0708scanner)
+- [major203/cve-2019-0708-scan](https://github.com/major203/cve-2019-0708-scan)
+- [SugiB3o/Check-vuln-CVE-2019-0708](https://github.com/SugiB3o/Check-vuln-CVE-2019-0708)
+- [gobysec/CVE-2019-0708](https://github.com/gobysec/CVE-2019-0708)
+- [adalenv/CVE-2019-0708-Tool](https://github.com/adalenv/CVE-2019-0708-Tool)
+- [smallFunction/CVE-2019-0708-POC](https://github.com/smallFunction/CVE-2019-0708-POC)
+- [freeide/CVE-2019-0708-PoC-Exploit](https://github.com/freeide/CVE-2019-0708-PoC-Exploit)
 - [robertdavidgraham/rdpscan](https://github.com/robertdavidgraham/rdpscan)
+- [closethe/CVE-2019-0708-POC](https://github.com/closethe/CVE-2019-0708-POC)
+- [krivegasa/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/krivegasa/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
+- [Rostelecom-CERT/bluekeepscan](https://github.com/Rostelecom-CERT/bluekeepscan)
+- [Leoid/CVE-2019-0708](https://github.com/Leoid/CVE-2019-0708)
+- [ht0Ruial/CVE-2019-0708Poc-BatchScanning](https://github.com/ht0Ruial/CVE-2019-0708Poc-BatchScanning)
+- [oneoy/BlueKeep](https://github.com/oneoy/BlueKeep)
+- [infiniti-team/CVE-2019-0708](https://github.com/infiniti-team/CVE-2019-0708)
+- [haishanzheng/CVE-2019-0708-generate-hosts](https://github.com/haishanzheng/CVE-2019-0708-generate-hosts)
 - [Ekultek/BlueKeep](https://github.com/Ekultek/BlueKeep)
+- [UraSecTeam/CVE-2019-0708](https://github.com/UraSecTeam/CVE-2019-0708)
+- [Gh0st0ne/rdpscan-BlueKeep](https://github.com/Gh0st0ne/rdpscan-BlueKeep)
 - [algo7/bluekeep_CVE-2019-0708_poc_to_exploit](https://github.com/algo7/bluekeep_CVE-2019-0708_poc_to_exploit)
+- [JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708)
+- [shun-gg/CVE-2019-0708](https://github.com/shun-gg/CVE-2019-0708)
 - [AdministratorGithub/CVE-2019-0708](https://github.com/AdministratorGithub/CVE-2019-0708)
+- [umarfarook882/CVE-2019-0708](https://github.com/umarfarook882/CVE-2019-0708)
+- [HynekPetrak/detect_bluekeep.py](https://github.com/HynekPetrak/detect_bluekeep.py)
+- [Wileysec/CVE-2019-0708-Batch-Blue-Screen](https://github.com/Wileysec/CVE-2019-0708-Batch-Blue-Screen)
+- [Pa55w0rd/CVE-2019-0708](https://github.com/Pa55w0rd/CVE-2019-0708)
 - [at0mik/CVE-2019-0708-PoC](https://github.com/at0mik/CVE-2019-0708-PoC)
+- [cream492/CVE-2019-0708-Msf--](https://github.com/cream492/CVE-2019-0708-Msf--)
 - [wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708)
 - [cvencoder/cve-2019-0708](https://github.com/cvencoder/cve-2019-0708)
 - [ze0r/CVE-2019-0708-exp](https://github.com/ze0r/CVE-2019-0708-exp)
@@ -600,6 +677,9 @@ A sandbox bypass vulnerability exists in Script Security Plugin 1.49 and earlier
 </code>
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
+- [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
+- [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
+- [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 
 ### CVE-2019-10086
 
@@ -631,6 +711,7 @@ Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Buffer Overflow. The impa
 A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation of recipient address in deliver_message() function in /src/deliver.c may lead to remote command execution.
 </code>
 
+- [bananaphones/exim-rce-quickfix](https://github.com/bananaphones/exim-rce-quickfix)
 - [cowbe0x004/eximrce-CVE-2019-10149](https://github.com/cowbe0x004/eximrce-CVE-2019-10149)
 - [MNEMO-CERT/PoC--CVE-2019-10149_Exim](https://github.com/MNEMO-CERT/PoC--CVE-2019-10149_Exim)
 - [aishee/CVE-2019-10149-quick](https://github.com/aishee/CVE-2019-10149-quick)
@@ -1215,6 +1296,7 @@ DOSBox 0.74-2 has Incorrect Access Control.
 getchar.c in Vim before 8.1.1365 and Neovim before 0.3.6 allows remote attackers to execute arbitrary OS commands via the :source! command in a modeline, as demonstrated by execute in Vim, and assert_fails or nvim_input in Neovim.
 </code>
 
+- [pcy190/ace-vim-neovim](https://github.com/pcy190/ace-vim-neovim)
 - [oldthree3/CVE-2019-12735-VIM-NEOVIM](https://github.com/oldthree3/CVE-2019-12735-VIM-NEOVIM)
 
 ### CVE-2019-12750
@@ -2446,6 +2528,8 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0 and 12.2.1.3.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data as well as unauthorized update, insert or delete access to some of Oracle WebLogic Server accessible data. CVSS 3.0 Base Score 5.5 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:N).
 </code>
 
+- [pyn3rd/CVE-2019-2618](https://github.com/pyn3rd/CVE-2019-2618)
+- [jas502n/cve-2019-2618](https://github.com/jas502n/cve-2019-2618)
 - [wsfengfan/CVE-2019-2618-](https://github.com/wsfengfan/CVE-2019-2618-)
 - [dr0op/WeblogicScan](https://github.com/dr0op/WeblogicScan)
 - [he1dan/cve-2019-2618](https://github.com/he1dan/cve-2019-2618)
@@ -2459,8 +2543,16 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 </code>
 
 - [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
+- [SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961](https://github.com/SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961)
+- [iceMatcha/CNTA-2019-0014xCVE-2019-2725](https://github.com/iceMatcha/CNTA-2019-0014xCVE-2019-2725)
+- [lasensio/cve-2019-2725](https://github.com/lasensio/cve-2019-2725)
+- [davidmthomsen/CVE-2019-2725](https://github.com/davidmthomsen/CVE-2019-2725)
+- [leerina/CVE-2019-2725](https://github.com/leerina/CVE-2019-2725)
+- [zhusx110/cve-2019-2725](https://github.com/zhusx110/cve-2019-2725)
 - [lufeirider/CVE-2019-2725](https://github.com/lufeirider/CVE-2019-2725)
+- [CVCLabs/cve-2019-2725](https://github.com/CVCLabs/cve-2019-2725)
 - [TopScrew/CVE-2019-2725](https://github.com/TopScrew/CVE-2019-2725)
+- [welove88888/CVE-2019-2725](https://github.com/welove88888/CVE-2019-2725)
 - [jiansiting/CVE-2019-2725](https://github.com/jiansiting/CVE-2019-2725)
 - [kerlingcode/CVE-2019-2725](https://github.com/kerlingcode/CVE-2019-2725)
 - [black-mirror/Weblogic](https://github.com/black-mirror/Weblogic)
@@ -2513,8 +2605,15 @@ There was a local file disclosure vulnerability in Confluence Server and Conflue
 The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 (the fixed version for 6.6.x), from version 6.7.0 before 6.12.3 (the fixed version for 6.12.x), from version 6.13.0 before 6.13.3 (the fixed version for 6.13.x), and from version 6.14.0 before 6.14.2 (the fixed version for 6.14.x), allows remote attackers to achieve path traversal and remote code execution on a Confluence Server or Data Center instance via server-side template injection.
 </code>
 
+- [dothanthitiendiettiende/CVE-2019-3396](https://github.com/dothanthitiendiettiende/CVE-2019-3396)
 - [x-f1v3/CVE-2019-3396](https://github.com/x-f1v3/CVE-2019-3396)
+- [shadowsock5/CVE-2019-3396](https://github.com/shadowsock5/CVE-2019-3396)
+- [Yt1g3r/CVE-2019-3396_EXP](https://github.com/Yt1g3r/CVE-2019-3396_EXP)
 - [jas502n/CVE-2019-3396](https://github.com/jas502n/CVE-2019-3396)
+- [pyn3rd/CVE-2019-3396](https://github.com/pyn3rd/CVE-2019-3396)
+- [7e1/CVE-2019-3396](https://github.com/7e1/CVE-2019-3396)
+- [quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396)
+- [vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396)
 - [tanw923/test1](https://github.com/tanw923/test1)
 - [skommando/CVE-2019-3396-confluence-poc](https://github.com/skommando/CVE-2019-3396-confluence-poc)
 - [JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST)
@@ -2611,7 +2710,12 @@ An exploitable code execution vulnerability exists in the processing of multi-pa
 There is a File Content Disclosure vulnerability in Action View &lt;5.2.2.1, &lt;5.1.6.2, &lt;5.0.7.2, &lt;4.2.11.1 and v3 where specially crafted accept headers can cause contents of arbitrary files on the target system's filesystem to be exposed.
 </code>
 
+- [mpgn/CVE-2019-5418](https://github.com/mpgn/CVE-2019-5418)
+- [omarkurt/CVE-2019-5418](https://github.com/omarkurt/CVE-2019-5418)
+- [brompwnie/CVE-2019-5418-Scanner](https://github.com/brompwnie/CVE-2019-5418-Scanner)
 - [mpgn/Rails-doubletap-RCE](https://github.com/mpgn/Rails-doubletap-RCE)
+- [takeokunn/CVE-2019-5418](https://github.com/takeokunn/CVE-2019-5418)
+- [Bad3r/RailroadBandit](https://github.com/Bad3r/RailroadBandit)
 - [ztgrace/CVE-2019-5418-Rails3](https://github.com/ztgrace/CVE-2019-5418-Rails3)
 - [random-robbie/CVE-2019-5418](https://github.com/random-robbie/CVE-2019-5418)
 
@@ -2670,7 +2774,21 @@ NVIDIA Shield TV Experience prior to v8.0.1, NVIDIA Tegra software contains a vu
 runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
 </code>
 
+- [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
+- [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
+- [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
+- [denmilu/CVE-2019-5736](https://github.com/denmilu/CVE-2019-5736)
+- [denmilu/cve-2019-5736-poc](https://github.com/denmilu/cve-2019-5736-poc)
+- [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
+- [Matthew-Stacks/cve-2019-5736](https://github.com/Matthew-Stacks/cve-2019-5736)
+- [ebdecastro/poc-cve-2019-5736](https://github.com/ebdecastro/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
+- [k-onishi/CVE-2019-5736-PoC](https://github.com/k-onishi/CVE-2019-5736-PoC)
+- [k-onishi/CVE-2019-5736-PoC-0](https://github.com/k-onishi/CVE-2019-5736-PoC-0)
+- [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
+- [stillan00b/CVE-2019-5736](https://github.com/stillan00b/CVE-2019-5736)
+- [milloni/cve-2019-5736-exp](https://github.com/milloni/cve-2019-5736-exp)
+- [13paulmurith/Docker-Runc-Exploit](https://github.com/13paulmurith/Docker-Runc-Exploit)
 - [RyanNgWH/CVE-2019-5736-POC](https://github.com/RyanNgWH/CVE-2019-5736-POC)
 - [Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study)
 - [chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc)
@@ -2710,6 +2828,7 @@ Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.x
 An out-of-bounds read issue existed that led to the disclosure of kernel memory. This was addressed with improved input validation. This issue is fixed in iOS 12.2, macOS Mojave 10.14.4, tvOS 12.2, watchOS 5.2. A malicious application may be able to determine kernel memory layout.
 </code>
 
+- [dothanthitiendiettiende/CVE-2019-6207](https://github.com/dothanthitiendiettiende/CVE-2019-6207)
 - [maldiohead/CVE-2019-6207](https://github.com/maldiohead/CVE-2019-6207)
 
 ### CVE-2019-6225
@@ -2718,7 +2837,9 @@ An out-of-bounds read issue existed that led to the disclosure of kernel memory.
 A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 12.1.3, macOS Mojave 10.14.3, tvOS 12.1.2. A malicious application may be able to elevate privileges.
 </code>
 
+- [fatgrass/OsirisJailbreak12](https://github.com/fatgrass/OsirisJailbreak12)
 - [TrungNguyen1909/CVE-2019-6225-macOS](https://github.com/TrungNguyen1909/CVE-2019-6225-macOS)
+- [raystyle/jailbreak-iOS12](https://github.com/raystyle/jailbreak-iOS12)
 
 ### CVE-2019-6249
 
@@ -2796,6 +2917,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 mIRC before 7.55 allows remote command execution by using argument injection through custom URI protocol handlers. The attacker can specify an irc:// URI that loads an arbitrary .ini file from a UNC share pathname. Exploitation depends on browser-specific URI handling (Chrome is not exploitable).
 </code>
 
+- [proofofcalc/cve-2019-6453-poc](https://github.com/proofofcalc/cve-2019-6453-poc)
 - [andripwn/mIRC-CVE-2019-6453](https://github.com/andripwn/mIRC-CVE-2019-6453)
 
 ### CVE-2019-6467
@@ -2821,6 +2943,7 @@ python-gnupg 0.4.3 allows context-dependent attackers to trick gnupg to decrypt 
 </code>
 
 - [stigtsp/CVE-2019-6690-python-gnupg-vulnerability](https://github.com/stigtsp/CVE-2019-6690-python-gnupg-vulnerability)
+- [brianwrf/CVE-2019-6690](https://github.com/brianwrf/CVE-2019-6690)
 
 ### CVE-2019-6715
 
@@ -2852,6 +2975,7 @@ Unauthenticated reflected cross-site scripting (XSS) exists in Zarafa Webapp 2.0
 Sonatype Nexus Repository Manager before 3.15.0 has Incorrect Access Control.
 </code>
 
+- [mpgn/CVE-2019-7238](https://github.com/mpgn/CVE-2019-7238)
 - [jas502n/CVE-2019-7238](https://github.com/jas502n/CVE-2019-7238)
 - [verctor/nexus_rce_CVE-2019-7238](https://github.com/verctor/nexus_rce_CVE-2019-7238)
 - [magicming200/CVE-2019-7238_Nexus_RCE_Tool](https://github.com/magicming200/CVE-2019-7238_Nexus_RCE_Tool)
@@ -3190,6 +3314,7 @@ Stack-based buffer overflow in Free MP3 CD Ripper 2.6, when converting a file, a
 WordPress before 5.1.1 does not properly filter comment content, leading to Remote Code Execution by unauthenticated users in a default configuration. This occurs because CSRF protection is mishandled, and because Search Engine Optimization of A elements is performed incorrectly, leading to XSS. The XSS results in administrative access, which allows arbitrary changes to .php files. This is related to wp-admin/includes/ajax-actions.php and wp-includes/comment.php.
 </code>
 
+- [rkatogit/cve-2019-9787_csrf_poc](https://github.com/rkatogit/cve-2019-9787_csrf_poc)
 - [PalmTreeForest/CodePath_Week_7-8](https://github.com/PalmTreeForest/CodePath_Week_7-8)
 
 ### CVE-2019-9810
@@ -3198,6 +3323,7 @@ WordPress before 5.1.1 does not properly filter comment content, leading to Remo
 Incorrect alias information in IonMonkey JIT compiler for Array.prototype.slice method may lead to missing bounds check and a buffer overflow. This vulnerability affects Firefox &lt; 66.0.1, Firefox ESR &lt; 60.6.1, and Thunderbird &lt; 60.6.1.
 </code>
 
+- [xuechiyaobai/CVE-2019-9810-PoC](https://github.com/xuechiyaobai/CVE-2019-9810-PoC)
 - [0vercl0k/CVE-2019-9810](https://github.com/0vercl0k/CVE-2019-9810)
 
 ### CVE-2019-9896
@@ -7960,6 +8086,7 @@ A deserialization flaw was discovered in the jackson-databind, versions before 2
 - [JavanXD/Demo-Exploit-Jackson-RCE](https://github.com/JavanXD/Demo-Exploit-Jackson-RCE)
 - [47bwy/CVE-2017-7525](https://github.com/47bwy/CVE-2017-7525)
 - [BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE)
+- [Dannners/jackson-deserialization-2017-7525](https://github.com/Dannners/jackson-deserialization-2017-7525)
 
 ### CVE-2017-7529
 
@@ -8761,6 +8888,14 @@ buffer.c in named in ISC BIND 9 before 9.9.9-P3, 9.10.x before 9.10.4-P3, and 9.
 
 - [KosukeShimofuji/CVE-2016-2776](https://github.com/KosukeShimofuji/CVE-2016-2776)
 - [infobyte/CVE-2016-2776](https://github.com/infobyte/CVE-2016-2776)
+
+### CVE-2016-3113
+
+<code>
+Cross-site scripting (XSS) vulnerability in ovirt-engine allows remote attackers to inject arbitrary web script or HTML.
+</code>
+
+- [0xEmanuel/CVE-2016-3113](https://github.com/0xEmanuel/CVE-2016-3113)
 
 ### CVE-2016-3141
 
