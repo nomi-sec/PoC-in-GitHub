@@ -366,6 +366,9 @@ Joplin through 1.0.184 allows Arbitrary File Read via XSS.
 
 - [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
 
+### CVE-2020-9380
+- [migueltarga/CVE-2020-9380](https://github.com/migueltarga/CVE-2020-9380)
+
 ### CVE-2020-9442
 
 <code>
@@ -5658,6 +5661,11 @@ Cobham Sea Tel 121 build 222701 devices allow remote attackers to obtain potenti
 - [sischkg/cve-2018-5740](https://github.com/sischkg/cve-2018-5740)
 
 ### CVE-2018-5951
+
+<code>
+An issue was discovered in Mikrotik RouterOS. Crafting a packet that has a size of 1 byte and sending it to an IPv6 address of a RouterOS box with IP Protocol 97 will cause RouterOS to reboot imminently. All versions of RouterOS that supports EoIPv6 are vulnerable to this attack.
+</code>
+
 - [Nat-Lab/CVE-2018-5951](https://github.com/Nat-Lab/CVE-2018-5951)
 
 ### CVE-2018-5955
