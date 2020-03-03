@@ -47,6 +47,7 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [gremwell/cve-2020-0601_poc](https://github.com/gremwell/cve-2020-0601_poc)
 - [bsides-rijeka/meetup-2-curveball](https://github.com/bsides-rijeka/meetup-2-curveball)
+- [TechHexagon/CVE-2020-0601-spoofkey](https://github.com/TechHexagon/CVE-2020-0601-spoofkey)
 
 ### CVE-2020-0609
 
@@ -2163,6 +2164,14 @@ clonos.php in ClonOS WEB control panel 19.09 allows remote attackers to gain ful
 </code>
 
 - [Andhrimnirr/ClonOS-WEB-control-panel-multi-vulnerability](https://github.com/Andhrimnirr/ClonOS-WEB-control-panel-multi-vulnerability)
+
+### CVE-2019-18426
+
+<code>
+A vulnerability in WhatsApp Desktop versions prior to 0.3.9309 when paired with WhatsApp for iPhone versions prior to 2.20.10 allows cross-site scripting and local file reading. Exploiting the vulnerability requires the victim to click a link preview from a specially crafted text message.
+</code>
+
+- [PerimeterX/CVE-2019-18426](https://github.com/PerimeterX/CVE-2019-18426)
 
 ### CVE-2019-18634
 
@@ -4783,6 +4792,14 @@ Git before 2.14.5, 2.15.x before 2.15.3, 2.16.x before 2.16.5, 2.17.x before 2.1
 - [matlink/CVE-2018-17456](https://github.com/matlink/CVE-2018-17456)
 - [799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456)
 - [AnonymKing/CVE-2018-17456](https://github.com/AnonymKing/CVE-2018-17456)
+
+### CVE-2018-17873
+
+<code>
+An incorrect access control vulnerability in the FTP configuration of WiFiRanger devices with firmware version 7.0.8rc3 and earlier allows an attacker with adjacent network access to read the SSH Private Key and log in to the root account.
+</code>
+
+- [Luct0r/CVE-2018-17873](https://github.com/Luct0r/CVE-2018-17873)
 
 ### CVE-2018-17961
 
