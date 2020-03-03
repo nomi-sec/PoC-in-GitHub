@@ -1717,6 +1717,14 @@ A Polymorphic Typing issue was discovered in FasterXML jackson-databind before 2
 
 - [LeadroyaL/cve-2019-14540-exploit](https://github.com/LeadroyaL/cve-2019-14540-exploit)
 
+### CVE-2019-1458
+
+<code>
+An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
+</code>
+
+- [piotrflorczyk/cve-2019-1458_POC](https://github.com/piotrflorczyk/cve-2019-1458_POC)
+
 ### CVE-2019-14615
 
 <code>
