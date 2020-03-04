@@ -163,6 +163,14 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938)
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
 
+### CVE-2020-2546
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Application Container - JavaEE). Supported versions that are affected are 10.3.6.0.0 and 12.1.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [hktalent/CVE_2020_2546](https://github.com/hktalent/CVE_2020_2546)
+
 ### CVE-2020-2551
 
 <code>
@@ -7232,7 +7240,7 @@ An issue was discovered in certain Apple products. iOS before 11.2 is affected. 
 An issue was discovered in certain Apple products. macOS High Sierra before Security Update 2017-001 is affected. The issue involves the &quot;Directory Utility&quot; component. It allows attackers to obtain administrator access without a password via certain interactions involving entry of the root user name.
 </code>
 
-- [hageok/CVE-2017-13872-Patch](https://github.com/hageok/CVE-2017-13872-Patch)
+- [giovannidispoto/CVE-2017-13872-Patch](https://github.com/giovannidispoto/CVE-2017-13872-Patch)
 
 ### CVE-2017-14105
 
