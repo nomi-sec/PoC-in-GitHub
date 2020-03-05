@@ -114,6 +114,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [onSec-fr/CVE-2020-0688-Scanner](https://github.com/onSec-fr/CVE-2020-0688-Scanner)
 - [youncyb/CVE-2020-0688](https://github.com/youncyb/CVE-2020-0688)
 - [zcgonvh/CVE-2020-0688](https://github.com/zcgonvh/CVE-2020-0688)
+- [justin-p/PSForgot2kEyXCHANGE](https://github.com/justin-p/PSForgot2kEyXCHANGE)
 
 ### CVE-2020-0728
 
