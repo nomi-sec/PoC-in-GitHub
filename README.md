@@ -380,6 +380,11 @@ Joplin through 1.0.184 allows Arbitrary File Read via XSS.
 - [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
 
 ### CVE-2020-9380
+
+<code>
+IPTV Smarters WEB TV PLAYER through 2020-02-22 allows attackers to execute OS commands by uploading a script.
+</code>
+
 - [migueltarga/CVE-2020-9380](https://github.com/migueltarga/CVE-2020-9380)
 
 ### CVE-2020-9442
@@ -1499,6 +1504,7 @@ In the Linux kernel before 5.1.17, ptrace_link in kernel/ptrace.c mishandles the
 - [bigbigliang-malwarebenchmark/cve-2019-13272](https://github.com/bigbigliang-malwarebenchmark/cve-2019-13272)
 - [oneoy/CVE-2019-13272](https://github.com/oneoy/CVE-2019-13272)
 - [Huandtx/CVE-2019-13272](https://github.com/Huandtx/CVE-2019-13272)
+- [polosec/CVE-2019-13272](https://github.com/polosec/CVE-2019-13272)
 
 ### CVE-2019-13361
 
