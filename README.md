@@ -3800,6 +3800,7 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [AnonymKing/CVE-2018-11235](https://github.com/AnonymKing/CVE-2018-11235)
 - [morhax/CVE-2018-11235](https://github.com/morhax/CVE-2018-11235)
 - [cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test)
+- [nthuong95/CVE-2018-11235](https://github.com/nthuong95/CVE-2018-11235)
 
 ### CVE-2018-11236
 
