@@ -11,6 +11,7 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 
 ### CVE-2020-0069
+- [R0rt1z2/AutomatedRoot](https://github.com/R0rt1z2/AutomatedRoot)
 - [TheRealJunior/mtk-su-reverse-cve-2020-0069](https://github.com/TheRealJunior/mtk-su-reverse-cve-2020-0069)
 
 ### CVE-2020-0601
@@ -394,6 +395,12 @@ OpenVPN Connect 3.1.0.361 on Windows has Insecure Permissions for %PROGRAMDATA%\
 </code>
 
 - [hessandrew/CVE-2020-9442](https://github.com/hessandrew/CVE-2020-9442)
+
+### CVE-2020-9460
+- [Guilherme-Rubert/CVE-2020-9460](https://github.com/Guilherme-Rubert/CVE-2020-9460)
+
+### CVE-2020-9461
+- [Guilherme-Rubert/CVE-2020-9461](https://github.com/Guilherme-Rubert/CVE-2020-9461)
 
 ### CVE-2020-9547
 
