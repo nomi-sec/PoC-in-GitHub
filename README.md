@@ -320,6 +320,7 @@ eap.c in pppd in ppp 2.4.2 through 2.4.8 has an rhostname buffer overflow in the
 </code>
 
 - [marcinguy/CVE-2020-8597](https://github.com/marcinguy/CVE-2020-8597)
+- [mentalburden/MrsEAPers](https://github.com/mentalburden/MrsEAPers)
 
 ### CVE-2020-8809
 
