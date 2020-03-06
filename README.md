@@ -184,6 +184,15 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [0nise/CVE-2020-2551](https://github.com/0nise/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
 
+### CVE-2020-2555
+
+<code>
+Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (component: Caching,CacheStore,Invocation). Supported versions that are affected are 3.7.1.17, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle Coherence. Successful attacks of this vulnerability can result in takeover of Oracle Coherence. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [Hu3sky/CVE-2020-2555](https://github.com/Hu3sky/CVE-2020-2555)
+- [wsfengfan/CVE-2020-2555](https://github.com/wsfengfan/CVE-2020-2555)
+
 ### CVE-2020-2655
 
 <code>
@@ -1020,6 +1029,7 @@ Atlassian Crowd and Crowd Data Center had the pdkinstall development plugin inco
 </code>
 
 - [jas502n/CVE-2019-11580](https://github.com/jas502n/CVE-2019-11580)
+- [hackerSMinh/CVE-2019-11580](https://github.com/hackerSMinh/CVE-2019-11580)
 
 ### CVE-2019-11581
 
@@ -5848,6 +5858,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [sdosis/cve-2018-6574](https://github.com/sdosis/cve-2018-6574)
 - [No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC)
 - [nthuong95/CVE-2018-6574](https://github.com/nthuong95/CVE-2018-6574)
+- [AdriVillaB/CVE-2018-6574](https://github.com/AdriVillaB/CVE-2018-6574)
 
 ### CVE-2018-6622
 
@@ -11560,6 +11571,14 @@ sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6
 </code>
 
 - [Avinza/CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner)
+
+### CVE-2012-2688
+
+<code>
+Unspecified vulnerability in the _php_stream_scandir function in the stream implementation in PHP before 5.3.15 and 5.4.x before 5.4.5 has unknown impact and remote attack vectors, related to an &quot;overflow.&quot;
+</code>
+
+- [hackerSMinh/CVE-2012-2688](https://github.com/hackerSMinh/CVE-2012-2688)
 
 ### CVE-2012-3137
 
