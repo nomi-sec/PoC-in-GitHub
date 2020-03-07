@@ -195,6 +195,7 @@ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (compo
 - [Hu3sky/CVE-2020-2555](https://github.com/Hu3sky/CVE-2020-2555)
 - [wsfengfan/CVE-2020-2555](https://github.com/wsfengfan/CVE-2020-2555)
 - [0nise/CVE-2020-2555](https://github.com/0nise/CVE-2020-2555)
+- [Y4er/CVE-2020-2555](https://github.com/Y4er/CVE-2020-2555)
 
 ### CVE-2020-2655
 
@@ -333,6 +334,7 @@ eap.c in pppd in ppp 2.4.2 through 2.4.8 has an rhostname buffer overflow in the
 
 - [marcinguy/CVE-2020-8597](https://github.com/marcinguy/CVE-2020-8597)
 - [mentalburden/MrsEAPers](https://github.com/mentalburden/MrsEAPers)
+- [WinMin/CVE-2020-8597](https://github.com/WinMin/CVE-2020-8597)
 
 ### CVE-2020-8809
 
@@ -2500,6 +2502,14 @@ In onSetSampleX of SkSwizzler.cpp, there is a possible out of bounds write due t
 
 ### CVE-2019-19871
 - [VDISEC/CVE-2019-19871-AuditGuide](https://github.com/VDISEC/CVE-2019-19871-AuditGuide)
+
+### CVE-2019-19905
+
+<code>
+NetHack 3.6.x before 3.6.4 is prone to a buffer overflow vulnerability when reading very long lines from configuration files. This affects systems that have NetHack installed suid/sgid, and shared systems that allow users to upload their own configuration files.
+</code>
+
+- [dpmdpm2/CVE-2019-19905](https://github.com/dpmdpm2/CVE-2019-19905)
 
 ### CVE-2019-19943
 
