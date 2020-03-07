@@ -180,6 +180,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: WLS Core Components). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [0nise/CVE-2020-2551](https://github.com/0nise/CVE-2020-2551)
@@ -193,6 +194,7 @@ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (compo
 
 - [Hu3sky/CVE-2020-2555](https://github.com/Hu3sky/CVE-2020-2555)
 - [wsfengfan/CVE-2020-2555](https://github.com/wsfengfan/CVE-2020-2555)
+- [0nise/CVE-2020-2555](https://github.com/0nise/CVE-2020-2555)
 
 ### CVE-2020-2655
 
@@ -428,6 +430,9 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 </code>
 
 - [fairyming/CVE-2020-9548](https://github.com/fairyming/CVE-2020-9548)
+
+### CVE-2020-9758
+- [ari034/CVE-2020-9758](https://github.com/ari034/CVE-2020-9758)
 
 
 ## 2019
@@ -12257,6 +12262,7 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 </code>
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
+- [ChinaKevinLi/VLC-CVE-2008-4654-Exploit](https://github.com/ChinaKevinLi/VLC-CVE-2008-4654-Exploit)
 
 ### CVE-2008-5416
 
