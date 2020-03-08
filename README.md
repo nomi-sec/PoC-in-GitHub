@@ -11726,6 +11726,14 @@ The Android API before 17 does not properly restrict the WebView.addJavascriptIn
 
 
 ## 2011
+### CVE-2011-0056
+
+<code>
+Buffer overflow in the JavaScript engine in Mozilla Firefox before 3.5.17 and 3.6.x before 3.6.14, and SeaMonkey before 2.0.12, might allow remote attackers to execute arbitrary code via vectors involving exception timing and a large number of string values, aka an &quot;atom map&quot; issue.
+</code>
+
+- [nstylo/highfructose](https://github.com/nstylo/highfructose)
+
 ### CVE-2011-0228
 
 <code>
