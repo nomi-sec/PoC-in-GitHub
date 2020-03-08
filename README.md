@@ -2481,6 +2481,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [Azeemering/CVE-2019-19781-DFIR-Notes](https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes)
 - [0xams/citrixvulncheck](https://github.com/0xams/citrixvulncheck)
 - [RaulCalvoLaorden/CVE-2019-19781](https://github.com/RaulCalvoLaorden/CVE-2019-19781)
+- [nmanzi/shitsniffer](https://github.com/nmanzi/shitsniffer)
 
 ### CVE-2019-19844
 
