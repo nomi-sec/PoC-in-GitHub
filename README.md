@@ -3394,7 +3394,7 @@ CloudCTI HIP Integrator Recognition Configuration Tool allows privilege escalati
 Stack-based buffer overflow in Free MP3 CD Ripper 2.6, when converting a file, allows user-assisted remote attackers to execute arbitrary code via a crafted .mp3 file.
 </code>
 
-- [moonheadobj/cve-2019-9766](https://github.com/moonheadobj/cve-2019-9766)
+- [moonheadobj/CVE-2019-9766](https://github.com/moonheadobj/CVE-2019-9766)
 
 ### CVE-2019-9787
 
