@@ -434,6 +434,11 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 - [fairyming/CVE-2020-9548](https://github.com/fairyming/CVE-2020-9548)
 
 ### CVE-2020-9758
+
+<code>
+An issue was discovered in chat.php in LiveZilla Live Chat 8.0.1.3 (Helpdesk). A blind JavaScript injection lies in the name parameter. Triggering this can fetch the username and passwords of the helpdesk employees in the URI. This leads to a privilege escalation, from unauthenticated to user-level access, leading to full account takeover. The attack fetches multiple credentials because they are stored in the database (stored XSS). This affects the mobile/chat URI via the lgn and psswrd parameters.
+</code>
+
 - [ari034/CVE-2020-9758](https://github.com/ari034/CVE-2020-9758)
 
 
