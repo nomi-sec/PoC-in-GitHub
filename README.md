@@ -1853,6 +1853,14 @@ The Kunena extension before 5.1.14 for Joomla! allows XSS via BBCode.
 
 - [h3llraiser/CVE-2019-15120](https://github.com/h3llraiser/CVE-2019-15120)
 
+### CVE-2019-15126
+
+<code>
+An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and handcrafted traffic can cause internal errors (related to state transitions) in a WLAN device that lead to improper layer 2 Wi-Fi encryption with a consequent possibility of information disclosure over the air for a discrete set of traffic, a different vulnerability than CVE-2019-9500, CVE-2019-9501, CVE-2019-9502, and CVE-2019-9503.
+</code>
+
+- [BennyTW/kr00k](https://github.com/BennyTW/kr00k)
+
 ### CVE-2019-15224
 
 <code>
