@@ -2234,6 +2234,7 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [Plazmaz/CVE-2019-18634](https://github.com/Plazmaz/CVE-2019-18634)
 - [saleemrashid/sudo-cve-2019-18634](https://github.com/saleemrashid/sudo-cve-2019-18634)
 - [N1et/CVE-2019-18634](https://github.com/N1et/CVE-2019-18634)
+- [jeandelboux/CVE-2019-18634](https://github.com/jeandelboux/CVE-2019-18634)
 
 ### CVE-2019-18873
 
