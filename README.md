@@ -229,6 +229,9 @@ Waitress version 1.4.2 allows a DOS attack When waitress receives a header that 
 
 - [motikan2010/CVE-2020-5236](https://github.com/motikan2010/CVE-2020-5236)
 
+### CVE-2020-5254
+- [dpmdpm2/CVE-2020-5254](https://github.com/dpmdpm2/CVE-2020-5254)
+
 ### CVE-2020-5398
 
 <code>
