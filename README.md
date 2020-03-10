@@ -11,9 +11,17 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 
 ### CVE-2020-0069
+
+<code>
+In the ioctl handlers of the Mediatek Command Queue driver, there is a possible out of bounds write due to insufficient input sanitization and missing SELinux restrictions. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-147882143References: M-ALPS04356754
+</code>
+
 - [R0rt1z2/AutomatedRoot](https://github.com/R0rt1z2/AutomatedRoot)
 - [TheRealJunior/mtk-su-reverse-cve-2020-0069](https://github.com/TheRealJunior/mtk-su-reverse-cve-2020-0069)
 - [yanglingxi1993/CVE-2020-0069](https://github.com/yanglingxi1993/CVE-2020-0069)
+
+### CVE-2020-0551
+- [bitdefender/lvi-lfb-attack-poc](https://github.com/bitdefender/lvi-lfb-attack-poc)
 
 ### CVE-2020-0601
 
@@ -234,6 +242,11 @@ Waitress version 1.4.2 allows a DOS attack When waitress receives a header that 
 - [motikan2010/CVE-2020-5236](https://github.com/motikan2010/CVE-2020-5236)
 
 ### CVE-2020-5254
+
+<code>
+In NetHack before 3.6.6, some out-of-bound values for the hilite_status option can be exploited. NetHack 3.6.6 resolves this issue.
+</code>
+
 - [dpmdpm2/CVE-2020-5254](https://github.com/dpmdpm2/CVE-2020-5254)
 
 ### CVE-2020-5398
