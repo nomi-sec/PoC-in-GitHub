@@ -196,6 +196,7 @@ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (compo
 - [wsfengfan/CVE-2020-2555](https://github.com/wsfengfan/CVE-2020-2555)
 - [0nise/CVE-2020-2555](https://github.com/0nise/CVE-2020-2555)
 - [Y4er/CVE-2020-2555](https://github.com/Y4er/CVE-2020-2555)
+- [Maskhe/cve-2020-2555](https://github.com/Maskhe/cve-2020-2555)
 
 ### CVE-2020-2655
 
@@ -917,7 +918,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 </code>
 
 - [neex/phuip-fpizdam](https://github.com/neex/phuip-fpizdam)
-- [wolf4238/CVE-2019-11043](https://github.com/wolf4238/CVE-2019-11043)
+- [B1gd0g/CVE-2019-11043](https://github.com/B1gd0g/CVE-2019-11043)
 - [tinker-li/CVE-2019-11043](https://github.com/tinker-li/CVE-2019-11043)
 - [jas502n/CVE-2019-11043](https://github.com/jas502n/CVE-2019-11043)
 - [AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-](https://github.com/AleWong/PHP-FPM-Remote-Code-Execution-Vulnerability-CVE-2019-11043-)
