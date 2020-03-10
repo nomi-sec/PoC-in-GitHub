@@ -166,6 +166,9 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938)
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
 
+### CVE-2020-1947
+- [Imanfeng/CVE-2020-1947](https://github.com/Imanfeng/CVE-2020-1947)
+
 ### CVE-2020-2546
 
 <code>
