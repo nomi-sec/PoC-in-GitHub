@@ -144,6 +144,8 @@ An elevation of privilege vulnerability exists in Windows Error Reporting (WER) 
 
 ### CVE-2020-0796
 - [Aekras1a/CVE-2020-0796-PoC](https://github.com/Aekras1a/CVE-2020-0796-PoC)
+- [technion/DisableSMBCompression](https://github.com/technion/DisableSMBCompression)
+- [cve-2020-0796/cve-2020-0796](https://github.com/cve-2020-0796/cve-2020-0796)
 
 ### CVE-2020-1611
 
@@ -179,6 +181,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 
 ### CVE-2020-1947
 - [Imanfeng/CVE-2020-1947](https://github.com/Imanfeng/CVE-2020-1947)
+- [jas502n/CVE-2020-1947](https://github.com/jas502n/CVE-2020-1947)
 
 ### CVE-2020-2546
 
@@ -1796,6 +1799,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 </code>
 
 - [piotrflorczyk/cve-2019-1458_POC](https://github.com/piotrflorczyk/cve-2019-1458_POC)
+- [unamer/CVE-2019-1458](https://github.com/unamer/CVE-2019-1458)
 
 ### CVE-2019-14615
 
