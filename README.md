@@ -147,6 +147,9 @@ An elevation of privilege vulnerability exists in Windows Error Reporting (WER) 
 - [technion/DisableSMBCompression](https://github.com/technion/DisableSMBCompression)
 - [cve-2020-0796/cve-2020-0796](https://github.com/cve-2020-0796/cve-2020-0796)
 
+### CVE-2020-0976
+- [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
+
 ### CVE-2020-1611
 
 <code>
@@ -182,6 +185,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 ### CVE-2020-1947
 - [Imanfeng/CVE-2020-1947](https://github.com/Imanfeng/CVE-2020-1947)
 - [jas502n/CVE-2020-1947](https://github.com/jas502n/CVE-2020-1947)
+- [wsfengfan/CVE-2020-1947](https://github.com/wsfengfan/CVE-2020-1947)
 
 ### CVE-2020-2546
 
@@ -327,6 +331,14 @@ An issue was discovered in FusionAuth before 1.11.0. An authenticated user, allo
 
 - [Pikaqi/cve-2020-7799](https://github.com/Pikaqi/cve-2020-7799)
 - [ianxtianxt/CVE-2020-7799](https://github.com/ianxtianxt/CVE-2020-7799)
+
+### CVE-2020-7931
+
+<code>
+In JFrog Artifactory 5.x and 6.x, insecure FreeMarker template processing leads to remote code execution, e.g., by modifying a .ssh/authorized_keys file. Patches are available for various versions between 5.11.8 and 6.16.0. The issue exists because use of the DefaultObjectWrapper class makes certain Java functions accessible to a template.
+</code>
+
+- [gquere/CVE-2020-7931](https://github.com/gquere/CVE-2020-7931)
 
 ### CVE-2020-7980
 
@@ -2232,6 +2244,9 @@ For Eclipse Che versions 6.16 to 7.3.0, with both authentication and TLS disable
 </code>
 
 - [mgrube/CVE-2019-17633](https://github.com/mgrube/CVE-2019-17633)
+
+### CVE-2019-17658
+- [Ibonok/CVE-2019-17658](https://github.com/Ibonok/CVE-2019-17658)
 
 ### CVE-2019-1821
 
