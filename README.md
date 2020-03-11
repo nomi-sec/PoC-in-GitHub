@@ -146,6 +146,10 @@ An elevation of privilege vulnerability exists in Windows Error Reporting (WER) 
 - [Aekras1a/CVE-2020-0796-PoC](https://github.com/Aekras1a/CVE-2020-0796-PoC)
 - [technion/DisableSMBCompression](https://github.com/technion/DisableSMBCompression)
 - [cve-2020-0796/cve-2020-0796](https://github.com/cve-2020-0796/cve-2020-0796)
+- [ollypwn/SMBGhost](https://github.com/ollypwn/SMBGhost)
+- [joaozietolie/CVE-2020-0796-Checker](https://github.com/joaozietolie/CVE-2020-0796-Checker)
+- [pr4jwal/CVE-2020-0796](https://github.com/pr4jwal/CVE-2020-0796)
+- [ButrintKomoni/cve-2020-0796](https://github.com/ButrintKomoni/cve-2020-0796)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
@@ -183,6 +187,11 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
 
 ### CVE-2020-1947
+
+<code>
+In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's web console uses the SnakeYAML library for parsing YAML inputs to load datasource configuration. SnakeYAML allows to unmarshal data to a Java type By using the YAML tag. Unmarshalling untrusted data can lead to security flaws of RCE.
+</code>
+
 - [Imanfeng/CVE-2020-1947](https://github.com/Imanfeng/CVE-2020-1947)
 - [jas502n/CVE-2020-1947](https://github.com/jas502n/CVE-2020-1947)
 - [wsfengfan/CVE-2020-1947](https://github.com/wsfengfan/CVE-2020-1947)
@@ -250,6 +259,14 @@ Waitress version 1.4.2 allows a DOS attack When waitress receives a header that 
 </code>
 
 - [motikan2010/CVE-2020-5236](https://github.com/motikan2010/CVE-2020-5236)
+
+### CVE-2020-5250
+
+<code>
+In PrestaShop before version 1.7.6.4, when a customer edits their address, they can freely change the id_address in the form, and thus steal someone else's address. It is the same with CustomerForm, you are able to change the id_customer and change all information of all accounts. The problem is patched in version 1.7.6.4.
+</code>
+
+- [drkbcn/lblfixer_cve2020_5250](https://github.com/drkbcn/lblfixer_cve2020_5250)
 
 ### CVE-2020-5254
 
