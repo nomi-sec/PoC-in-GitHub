@@ -142,6 +142,9 @@ An elevation of privilege vulnerability exists in Windows Error Reporting (WER) 
 
 - [VikasVarshney/CVE-2020-0753-and-CVE-2020-0754](https://github.com/VikasVarshney/CVE-2020-0753-and-CVE-2020-0754)
 
+### CVE-2020-0796
+- [Aekras1a/CVE-2020-0796-PoC](https://github.com/Aekras1a/CVE-2020-0796-PoC)
+
 ### CVE-2020-1611
 
 <code>
@@ -2507,7 +2510,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [redscan/CVE-2019-19781](https://github.com/redscan/CVE-2019-19781)
 - [DIVD-NL/Citrix-CVE-2019-19781](https://github.com/DIVD-NL/Citrix-CVE-2019-19781)
 - [ynsmroztas/citrix.sh](https://github.com/ynsmroztas/citrix.sh)
-- [c4pt41nnn/massCitrix](https://github.com/c4pt41nnn/massCitrix)
+- [digitalgangst/massCitrix](https://github.com/digitalgangst/massCitrix)
 - [fireeye/ioc-scanner-CVE-2019-19781](https://github.com/fireeye/ioc-scanner-CVE-2019-19781)
 - [citrix/ioc-scanner-CVE-2019-19781](https://github.com/citrix/ioc-scanner-CVE-2019-19781)
 - [x1sec/citrix-honeypot](https://github.com/x1sec/citrix-honeypot)
@@ -3830,6 +3833,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [nikhil1232/LibSSH-Authentication-Bypass](https://github.com/nikhil1232/LibSSH-Authentication-Bypass)
 - [Kurlee/LibSSH-exploit](https://github.com/Kurlee/LibSSH-exploit)
 - [crispy-peppers/Libssh-server-CVE-2018-10933](https://github.com/crispy-peppers/Libssh-server-CVE-2018-10933)
+- [youkergav/CVE-2018-10933](https://github.com/youkergav/CVE-2018-10933)
 
 ### CVE-2018-10936
 
