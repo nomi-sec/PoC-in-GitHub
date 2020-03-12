@@ -144,6 +144,11 @@ An elevation of privilege vulnerability exists in Windows Error Reporting (WER) 
 - [VikasVarshney/CVE-2020-0753-and-CVE-2020-0754](https://github.com/VikasVarshney/CVE-2020-0753-and-CVE-2020-0754)
 
 ### CVE-2020-0796
+
+<code>
+A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
+</code>
+
 - [Aekras1a/CVE-2020-0796-PoC](https://github.com/Aekras1a/CVE-2020-0796-PoC)
 - [technion/DisableSMBCompression](https://github.com/technion/DisableSMBCompression)
 - [cve-2020-0796/cve-2020-0796](https://github.com/cve-2020-0796/cve-2020-0796)
@@ -156,6 +161,18 @@ An elevation of privilege vulnerability exists in Windows Error Reporting (WER) 
 - [awareseven/eternalghosttest](https://github.com/awareseven/eternalghosttest)
 - [weidutech/CVE-2020-0796-PoC](https://github.com/weidutech/CVE-2020-0796-PoC)
 - [OfJAAH/CVE-2020-0796](https://github.com/OfJAAH/CVE-2020-0796)
+- [xax007/CVE-2020-0796-Scanner](https://github.com/xax007/CVE-2020-0796-Scanner)
+- [Dhoomralochana/Scanners-for-CVE-2020-0796-Testing](https://github.com/Dhoomralochana/Scanners-for-CVE-2020-0796-Testing)
+- [UraSecTeam/smbee](https://github.com/UraSecTeam/smbee)
+- [0xtobu/CVE-2020-0796](https://github.com/0xtobu/CVE-2020-0796)
+- [netscylla/SMBGhost](https://github.com/netscylla/SMBGhost)
+- [eerykitty/CVE-2020-0796-PoC](https://github.com/eerykitty/CVE-2020-0796-PoC)
+- [wneessen/SMBCompScan](https://github.com/wneessen/SMBCompScan)
+- [ioncodes/SMBGhost](https://github.com/ioncodes/SMBGhost)
+- [anelshaer/CVE-2020-0796](https://github.com/anelshaer/CVE-2020-0796)
+- [laolisafe/CVE-2020-0796](https://github.com/laolisafe/CVE-2020-0796)
+- [gabimarti/SMBScanner](https://github.com/gabimarti/SMBScanner)
+- [Almorabea/SMBGhost-WorkaroundApplier](https://github.com/Almorabea/SMBGhost-WorkaroundApplier)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
