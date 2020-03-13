@@ -21,6 +21,11 @@ In the ioctl handlers of the Mediatek Command Queue driver, there is a possible 
 - [yanglingxi1993/CVE-2020-0069](https://github.com/yanglingxi1993/CVE-2020-0069)
 
 ### CVE-2020-0551
+
+<code>
+Load value injection in some Intel(R) Processors utilizing speculative execution may allow an authenticated user to potentially enable information disclosure via a side channel with local access. The list of affected products is provided in intel-sa-00334: https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00334.html
+</code>
+
 - [bitdefender/lvi-lfb-attack-poc](https://github.com/bitdefender/lvi-lfb-attack-poc)
 
 ### CVE-2020-0601
@@ -173,6 +178,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [laolisafe/CVE-2020-0796](https://github.com/laolisafe/CVE-2020-0796)
 - [gabimarti/SMBScanner](https://github.com/gabimarti/SMBScanner)
 - [Almorabea/SMBGhost-WorkaroundApplier](https://github.com/Almorabea/SMBGhost-WorkaroundApplier)
+- [IAreKyleW00t/SMBGhosts](https://github.com/IAreKyleW00t/SMBGhosts)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
@@ -2286,6 +2292,11 @@ For Eclipse Che versions 6.16 to 7.3.0, with both authentication and TLS disable
 - [mgrube/CVE-2019-17633](https://github.com/mgrube/CVE-2019-17633)
 
 ### CVE-2019-17658
+
+<code>
+An unquoted service path vulnerability in the FortiClient FortiTray component of FortiClientWindows v6.2.2 and prior allow an attacker to gain elevated privileges via the FortiClientConsole executable service path.
+</code>
+
 - [Ibonok/CVE-2019-17658](https://github.com/Ibonok/CVE-2019-17658)
 
 ### CVE-2019-1821
