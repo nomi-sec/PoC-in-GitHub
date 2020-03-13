@@ -174,11 +174,11 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [eerykitty/CVE-2020-0796-PoC](https://github.com/eerykitty/CVE-2020-0796-PoC)
 - [wneessen/SMBCompScan](https://github.com/wneessen/SMBCompScan)
 - [ioncodes/SMBGhost](https://github.com/ioncodes/SMBGhost)
-- [anelshaer/CVE-2020-0796](https://github.com/anelshaer/CVE-2020-0796)
 - [laolisafe/CVE-2020-0796](https://github.com/laolisafe/CVE-2020-0796)
 - [gabimarti/SMBScanner](https://github.com/gabimarti/SMBScanner)
 - [Almorabea/SMBGhost-WorkaroundApplier](https://github.com/Almorabea/SMBGhost-WorkaroundApplier)
 - [IAreKyleW00t/SMBGhosts](https://github.com/IAreKyleW00t/SMBGhosts)
+- [vysecurity/CVE-2020-0796](https://github.com/vysecurity/CVE-2020-0796)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
@@ -2436,6 +2436,7 @@ Netis WF2419 is vulnerable to authenticated Remote Code Execution (RCE) as root 
 </code>
 
 - [shadowgatt/CVE-2019-19356](https://github.com/shadowgatt/CVE-2019-19356)
+- [qq1515406085/CVE-2019-19356](https://github.com/qq1515406085/CVE-2019-19356)
 
 ### CVE-2019-19368
 
