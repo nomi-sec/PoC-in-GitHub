@@ -179,9 +179,13 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Almorabea/SMBGhost-WorkaroundApplier](https://github.com/Almorabea/SMBGhost-WorkaroundApplier)
 - [IAreKyleW00t/SMBGhosts](https://github.com/IAreKyleW00t/SMBGhosts)
 - [vysecurity/CVE-2020-0796](https://github.com/vysecurity/CVE-2020-0796)
+- [marcinguy/CVE-2020-0796](https://github.com/marcinguy/CVE-2020-0796)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
+
+### CVE-2020-10238
+- [HoangKien1020/Joomla-CVE](https://github.com/HoangKien1020/Joomla-CVE)
 
 ### CVE-2020-1611
 
@@ -224,6 +228,7 @@ In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's we
 - [Imanfeng/CVE-2020-1947](https://github.com/Imanfeng/CVE-2020-1947)
 - [jas502n/CVE-2020-1947](https://github.com/jas502n/CVE-2020-1947)
 - [wsfengfan/CVE-2020-1947](https://github.com/wsfengfan/CVE-2020-1947)
+- [shadowsock5/ShardingSphere_CVE-2020-1947](https://github.com/shadowsock5/ShardingSphere_CVE-2020-1947)
 
 ### CVE-2020-2546
 
@@ -11402,6 +11407,7 @@ The DiskFileItem class in Apache Commons FileUpload, as used in Red Hat JBoss BR
 - [GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup)
 - [SPlayer1248/Payload_CVE_2013_2186](https://github.com/SPlayer1248/Payload_CVE_2013_2186)
 - [SPlayer1248/CVE_2013_2186](https://github.com/SPlayer1248/CVE_2013_2186)
+- [kiven7299/CVE-2013-2186](https://github.com/kiven7299/CVE-2013-2186)
 
 ### CVE-2013-2217
 
@@ -12627,6 +12633,7 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
+- [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
 
 
 ## 2002
