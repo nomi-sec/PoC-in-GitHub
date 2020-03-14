@@ -184,6 +184,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796](https://github.com/BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796)
 - [x1n5h3n/SMBGhost](https://github.com/x1n5h3n/SMBGhost)
 - [wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796)
+- [miraizeroday/CVE-2020-0796](https://github.com/miraizeroday/CVE-2020-0796)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
@@ -1260,7 +1261,7 @@ ATutor through 2.2.4 is vulnerable to arbitrary file uploads via the mods/_core/
 A spoofing vulnerability exists in the way Microsoft Outlook iOS software parses specifically crafted email messages, aka 'Outlook iOS Spoofing Vulnerability'.
 </code>
 
-- [dgknkrcgr/CVE-2019-1218](https://github.com/dgknkrcgr/CVE-2019-1218)
+- [d0gukank/CVE-2019-1218](https://github.com/d0gukank/CVE-2019-1218)
 
 ### CVE-2019-12180
 
@@ -3395,7 +3396,6 @@ SQL injection vulnerability in the J2Store plugin 3.x before 3.3.7 for Joomla! a
 </code>
 
 - [skyship36/CVE-2019-9193](https://github.com/skyship36/CVE-2019-9193)
-- [charlesLoiseau/CVE-2019-9193](https://github.com/charlesLoiseau/CVE-2019-9193)
 
 ### CVE-2019-9194
 
