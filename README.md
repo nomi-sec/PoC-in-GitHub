@@ -183,9 +183,11 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [plorinquer/cve-2020-0796](https://github.com/plorinquer/cve-2020-0796)
 - [BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796](https://github.com/BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796)
 - [x1n5h3n/SMBGhost](https://github.com/x1n5h3n/SMBGhost)
+- [wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
+- [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
 
 ### CVE-2020-10238
 - [HoangKien1020/Joomla-CVE](https://github.com/HoangKien1020/Joomla-CVE)
@@ -12374,7 +12376,7 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 </code>
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
-- [ChinaKevinLi/VLC-CVE-2008-4654-Exploit](https://github.com/ChinaKevinLi/VLC-CVE-2008-4654-Exploit)
+- [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
 
 ### CVE-2008-5416
 
@@ -12440,11 +12442,7 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
-- [noondi/metasploitable2](https://github.com/noondi/metasploitable2)
 - [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
-- [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
-- [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
-- [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 
 ### CVE-2007-3830
 
