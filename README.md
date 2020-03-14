@@ -182,6 +182,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [marcinguy/CVE-2020-0796](https://github.com/marcinguy/CVE-2020-0796)
 - [plorinquer/cve-2020-0796](https://github.com/plorinquer/cve-2020-0796)
 - [BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796](https://github.com/BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796)
+- [x1n5h3n/SMBGhost](https://github.com/x1n5h3n/SMBGhost)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
@@ -10585,7 +10586,6 @@ Apache Commons BeanUtils, as distributed in lib/commons-beanutils-1.8.0.jar in A
 </code>
 
 - [rgielen/struts1filter](https://github.com/rgielen/struts1filter)
-- [ricedu/struts1-patch](https://github.com/ricedu/struts1-patch)
 - [anob3it/strutt-cve-2014-0114](https://github.com/anob3it/strutt-cve-2014-0114)
 
 ### CVE-2014-0130
@@ -10603,37 +10603,14 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 </code>
 
 - [FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed)
-- [titanous/heartbleeder](https://github.com/titanous/heartbleeder)
-- [DominikTo/bleed](https://github.com/DominikTo/bleed)
-- [cyphar/heartthreader](https://github.com/cyphar/heartthreader)
 - [jdauphant/patch-openssl-CVE-2014-0160](https://github.com/jdauphant/patch-openssl-CVE-2014-0160)
 - [musalbas/heartbleed-masstest](https://github.com/musalbas/heartbleed-masstest)
-- [obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner)
 - [Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker)
-- [isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic)
-- [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
-- [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
-- [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
-- [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
-- [amerine/coronary](https://github.com/amerine/coronary)
-- [0x90/CVE-2014-0160](https://github.com/0x90/CVE-2014-0160)
-- [ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160)
-- [waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker)
-- [siddolo/knockbleed](https://github.com/siddolo/knockbleed)
-- [sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix)
-- [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
-- [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
-- [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
-- [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
-- [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
-- [einaros/heartbleed-tools](https://github.com/einaros/heartbleed-tools)
 - [mozilla-services/Heartbleed](https://github.com/mozilla-services/Heartbleed)
 - [yryz/heartbleed.js](https://github.com/yryz/heartbleed.js)
-- [DisK0nn3cT/MaltegoHeartbleed](https://github.com/DisK0nn3cT/MaltegoHeartbleed)
-- [OffensivePython/HeartLeak](https://github.com/OffensivePython/HeartLeak)
 - [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
 - [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
@@ -10683,7 +10660,6 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
-- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
 - [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
 - [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
