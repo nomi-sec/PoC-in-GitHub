@@ -185,6 +185,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [x1n5h3n/SMBGhost](https://github.com/x1n5h3n/SMBGhost)
 - [wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796)
 - [miraizeroday/CVE-2020-0796](https://github.com/miraizeroday/CVE-2020-0796)
+- [GuoKerS/aioScan_CVE-2020-0796](https://github.com/GuoKerS/aioScan_CVE-2020-0796)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
