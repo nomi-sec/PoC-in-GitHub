@@ -2824,7 +2824,7 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [Yt1g3r/CVE-2019-3396_EXP](https://github.com/Yt1g3r/CVE-2019-3396_EXP)
 - [jas502n/CVE-2019-3396](https://github.com/jas502n/CVE-2019-3396)
 - [pyn3rd/CVE-2019-3396](https://github.com/pyn3rd/CVE-2019-3396)
-- [7e1/CVE-2019-3396](https://github.com/7e1/CVE-2019-3396)
+- [s1xg0d/CVE-2019-3396](https://github.com/s1xg0d/CVE-2019-3396)
 - [quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396)
 - [vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396)
 - [tanw923/test1](https://github.com/tanw923/test1)
@@ -11098,6 +11098,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271)
 - [Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271)
 - [somhm-solutions/Shell-Shock](https://github.com/somhm-solutions/Shell-Shock)
+- [capture0x/xShock](https://github.com/capture0x/xShock)
 
 ### CVE-2014-6287
 
