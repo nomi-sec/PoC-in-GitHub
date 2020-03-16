@@ -190,12 +190,22 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [jiansiting/CVE-2020-0796-Scanner](https://github.com/jiansiting/CVE-2020-0796-Scanner)
 - [maxpl0it/Unauthenticated-CVE-2020-0796-PoC](https://github.com/maxpl0it/Unauthenticated-CVE-2020-0796-PoC)
 - [ran-sama/CVE-2020-0796-PoC-and-Scan](https://github.com/ran-sama/CVE-2020-0796-PoC-and-Scan)
+- [sujitawake/smbghost](https://github.com/sujitawake/smbghost)
+- [julixsalas/CVE-2020-0796](https://github.com/julixsalas/CVE-2020-0796)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
 
 ### CVE-2020-10238
+
+<code>
+An issue was discovered in Joomla! before 3.9.16. Various actions in com_templates lack the required ACL checks, leading to various potential attack vectors.
+</code>
+
 - [HoangKien1020/Joomla-CVE](https://github.com/HoangKien1020/Joomla-CVE)
+
+### CVE-2020-10558
+- [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
 
 ### CVE-2020-1611
 
@@ -337,6 +347,11 @@ PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executabl
 - [FULLSHADE/CVE-2020-5509](https://github.com/FULLSHADE/CVE-2020-5509)
 
 ### CVE-2020-5844
+
+<code>
+index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v7.0 NG allows authenticated administrators to upload malicious PHP scripts, and execute them via base64 decoding of the file location. This affects v7.0NG.742_FIX_PERL2020.
+</code>
+
 - [TheCyberGeek/CVE-2020-5844](https://github.com/TheCyberGeek/CVE-2020-5844)
 
 ### CVE-2020-609
@@ -1981,6 +1996,7 @@ An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and
 </code>
 
 - [BennyTW/kr00k](https://github.com/BennyTW/kr00k)
+- [hexway/r00kie-kr00kie](https://github.com/hexway/r00kie-kr00kie)
 
 ### CVE-2019-15224
 
@@ -6018,6 +6034,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [No1zy/CVE-2018-6574-PoC](https://github.com/No1zy/CVE-2018-6574-PoC)
 - [nthuong95/CVE-2018-6574](https://github.com/nthuong95/CVE-2018-6574)
 - [AdriVillaB/CVE-2018-6574](https://github.com/AdriVillaB/CVE-2018-6574)
+- [yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo)
 
 ### CVE-2018-6622
 
