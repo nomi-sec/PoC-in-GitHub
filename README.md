@@ -157,6 +157,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Aekras1a/CVE-2020-0796-PoC](https://github.com/Aekras1a/CVE-2020-0796-PoC)
 - [technion/DisableSMBCompression](https://github.com/technion/DisableSMBCompression)
 - [cve-2020-0796/cve-2020-0796](https://github.com/cve-2020-0796/cve-2020-0796)
+- [T13nn3s/CVE-2020-0796](https://github.com/T13nn3s/CVE-2020-0796)
 - [ollypwn/SMBGhost](https://github.com/ollypwn/SMBGhost)
 - [joaozietolie/CVE-2020-0796-Checker](https://github.com/joaozietolie/CVE-2020-0796-Checker)
 - [pr4jwal/CVE-2020-0796](https://github.com/pr4jwal/CVE-2020-0796)
@@ -191,7 +192,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [ran-sama/CVE-2020-0796-PoC-and-Scan](https://github.com/ran-sama/CVE-2020-0796-PoC-and-Scan)
 
 ### CVE-2020-0976
-- [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
 
 ### CVE-2020-10238
