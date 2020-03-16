@@ -187,6 +187,8 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [miraizeroday/CVE-2020-0796](https://github.com/miraizeroday/CVE-2020-0796)
 - [GuoKerS/aioScan_CVE-2020-0796](https://github.com/GuoKerS/aioScan_CVE-2020-0796)
 - [jiansiting/CVE-2020-0796-Scanner](https://github.com/jiansiting/CVE-2020-0796-Scanner)
+- [maxpl0it/Unauthenticated-CVE-2020-0796-PoC](https://github.com/maxpl0it/Unauthenticated-CVE-2020-0796-PoC)
+- [ran-sama/CVE-2020-0796-PoC-and-Scan](https://github.com/ran-sama/CVE-2020-0796-PoC-and-Scan)
 
 ### CVE-2020-0976
 - [T13nn3s/CVE-2020-0976](https://github.com/T13nn3s/CVE-2020-0976)
@@ -1731,6 +1733,14 @@ An elevation of privilege vulnerability exists in the Windows Certificate Dialog
 - [jas502n/CVE-2019-1388](https://github.com/jas502n/CVE-2019-1388)
 - [jaychouzzk/CVE-2019-1388](https://github.com/jaychouzzk/CVE-2019-1388)
 - [sv3nbeast/CVE-2019-1388](https://github.com/sv3nbeast/CVE-2019-1388)
+
+### CVE-2019-13956
+
+<code>
+Discuz!ML 3.2 through 3.4 allows remote attackers to execute arbitrary PHP code via a modified language cookie, as demonstrated by changing 4gH4_0df5_language=en to 4gH4_0df5_language=en'.phpinfo().'; (if the random prefix 4gH4_0df5_ were used).
+</code>
+
+- [rhbb/CVE-2019-13956](https://github.com/rhbb/CVE-2019-13956)
 
 ### CVE-2019-1402
 
@@ -11098,7 +11108,6 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271)
 - [Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271)
 - [somhm-solutions/Shell-Shock](https://github.com/somhm-solutions/Shell-Shock)
-- [capture0x/xShock](https://github.com/capture0x/xShock)
 
 ### CVE-2014-6287
 
