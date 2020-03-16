@@ -1591,6 +1591,14 @@ Within Sahi Pro 8.0.0, an attacker can send a specially crafted URL to include a
 
 - [0x6b7966/CVE-2019-13063-POC](https://github.com/0x6b7966/CVE-2019-13063-POC)
 
+### CVE-2019-13086
+
+<code>
+core/MY_Security.php in CSZ CMS 1.2.2 before 2019-06-20 has member/login/check SQL injection by sending a crafted HTTP User-Agent header and omitting the csrf_csz parameter.
+</code>
+
+- [lingchuL/CVE_POC_test](https://github.com/lingchuL/CVE_POC_test)
+
 ### CVE-2019-13101
 
 <code>
@@ -2612,7 +2620,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [Azeemering/CVE-2019-19781-DFIR-Notes](https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes)
 - [0xams/citrixvulncheck](https://github.com/0xams/citrixvulncheck)
 - [RaulCalvoLaorden/CVE-2019-19781](https://github.com/RaulCalvoLaorden/CVE-2019-19781)
-- [nmanzi/shitsniffer](https://github.com/nmanzi/shitsniffer)
+- [nmanzi/webcvescanner](https://github.com/nmanzi/webcvescanner)
 
 ### CVE-2019-19844
 
