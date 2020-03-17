@@ -2701,6 +2701,11 @@ netflow_get_stats in functions_netflow.php in Pandora FMS 7.0NG allows remote au
 - [mhaskar/CVE-2019-20224](https://github.com/mhaskar/CVE-2019-20224)
 
 ### CVE-2019-20326
+
+<code>
+A heap-based buffer overflow in _cairo_image_surface_create_from_jpeg() in extensions/cairo_io/cairo-image-surface-jpeg.c in GNOME gThumb before 3.8.3 and Linux Mint Pix before 2.4.5 allows attackers to cause a crash and potentially execute arbitrary code via a crafted JPEG file.
+</code>
+
 - [Fysac/CVE-2019-20326](https://github.com/Fysac/CVE-2019-20326)
 
 ### CVE-2019-20327
