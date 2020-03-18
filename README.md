@@ -1999,6 +1999,7 @@ An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and
 
 - [BennyTW/kr00k](https://github.com/BennyTW/kr00k)
 - [hexway/r00kie-kr00kie](https://github.com/hexway/r00kie-kr00kie)
+- [akabe1/kr00ker](https://github.com/akabe1/kr00ker)
 
 ### CVE-2019-15224
 
