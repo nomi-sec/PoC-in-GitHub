@@ -192,6 +192,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [ran-sama/CVE-2020-0796-PoC-and-Scan](https://github.com/ran-sama/CVE-2020-0796-PoC-and-Scan)
 - [sujitawake/smbghost](https://github.com/sujitawake/smbghost)
 - [julixsalas/CVE-2020-0796](https://github.com/julixsalas/CVE-2020-0796)
+- [insightglacier/SMBGhost_Crash_Poc](https://github.com/insightglacier/SMBGhost_Crash_Poc)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
