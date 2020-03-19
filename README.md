@@ -131,6 +131,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [youncyb/CVE-2020-0688](https://github.com/youncyb/CVE-2020-0688)
 - [zcgonvh/CVE-2020-0688](https://github.com/zcgonvh/CVE-2020-0688)
 - [justin-p/PSForgot2kEyXCHANGE](https://github.com/justin-p/PSForgot2kEyXCHANGE)
+- [cert-lv/CVE-2020-0688](https://github.com/cert-lv/CVE-2020-0688)
 
 ### CVE-2020-0728
 
@@ -458,6 +459,7 @@ eap.c in pppd in ppp 2.4.2 through 2.4.8 has an rhostname buffer overflow in the
 - [marcinguy/CVE-2020-8597](https://github.com/marcinguy/CVE-2020-8597)
 - [mentalburden/MrsEAPers](https://github.com/mentalburden/MrsEAPers)
 - [WinMin/CVE-2020-8597](https://github.com/WinMin/CVE-2020-8597)
+- [CERTCC/cve-2020-8597-pptpd](https://github.com/CERTCC/cve-2020-8597-pptpd)
 
 ### CVE-2020-8809
 
@@ -6054,6 +6056,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [nthuong95/CVE-2018-6574](https://github.com/nthuong95/CVE-2018-6574)
 - [AdriVillaB/CVE-2018-6574](https://github.com/AdriVillaB/CVE-2018-6574)
 - [yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo)
+- [mhamed366/CVE-2018-6574](https://github.com/mhamed366/CVE-2018-6574)
 
 ### CVE-2018-6622
 
@@ -12526,8 +12529,6 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
-- [noondi/metasploitable2](https://github.com/noondi/metasploitable2)
-- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
