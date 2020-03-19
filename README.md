@@ -205,6 +205,14 @@ An issue was discovered in Joomla! before 3.9.16. Various actions in com_templat
 
 - [HoangKien1020/Joomla-CVE](https://github.com/HoangKien1020/Joomla-CVE)
 
+### CVE-2020-10243
+
+<code>
+An issue was discovered in Joomla! before 3.9.16. The lack of type casting of a variable in a SQL statement leads to a SQL injection vulnerability in the Featured Articles frontend menutype.
+</code>
+
+- [HoangKien1020/CVE-2020-10243](https://github.com/HoangKien1020/CVE-2020-10243)
+
 ### CVE-2020-10558
 - [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
 
@@ -525,6 +533,9 @@ OpenVPN Connect 3.1.0.361 on Windows has Insecure Permissions for %PROGRAMDATA%\
 </code>
 
 - [hessandrew/CVE-2020-9442](https://github.com/hessandrew/CVE-2020-9442)
+
+### CVE-2020-9453
+- [FULLSHADE/CVE-2020-9453_-_CVE-2020-9014](https://github.com/FULLSHADE/CVE-2020-9453_-_CVE-2020-9014)
 
 ### CVE-2020-9460
 - [Guilherme-Rubert/CVE-2020-9460](https://github.com/Guilherme-Rubert/CVE-2020-9460)
@@ -861,7 +872,6 @@ A sandbox bypass vulnerability exists in Script Security Plugin 1.49 and earlier
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
 - [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
-- [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 
 ### CVE-2019-10086
@@ -2148,7 +2158,6 @@ A vulnerability in the web-based management interface of Cisco Small Business RV
 A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
 </code>
 
-- [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
 
 ### CVE-2019-16662
@@ -3029,17 +3038,8 @@ NVIDIA Shield TV Experience prior to v8.0.1, NVIDIA Tegra software contains a vu
 runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
 </code>
 
-- [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
-- [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
-- [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
-- [denmilu/CVE-2019-5736](https://github.com/denmilu/CVE-2019-5736)
-- [denmilu/cve-2019-5736-poc](https://github.com/denmilu/cve-2019-5736-poc)
-- [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
 - [Matthew-Stacks/cve-2019-5736](https://github.com/Matthew-Stacks/cve-2019-5736)
-- [ebdecastro/poc-cve-2019-5736](https://github.com/ebdecastro/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
-- [k-onishi/CVE-2019-5736-PoC](https://github.com/k-onishi/CVE-2019-5736-PoC)
-- [k-onishi/CVE-2019-5736-PoC-0](https://github.com/k-onishi/CVE-2019-5736-PoC-0)
 - [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
 - [stillan00b/CVE-2019-5736](https://github.com/stillan00b/CVE-2019-5736)
 - [milloni/cve-2019-5736-exp](https://github.com/milloni/cve-2019-5736-exp)
@@ -3092,7 +3092,6 @@ An out-of-bounds read issue existed that led to the disclosure of kernel memory.
 A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 12.1.3, macOS Mojave 10.14.3, tvOS 12.1.2. A malicious application may be able to elevate privileges.
 </code>
 
-- [fatgrass/OsirisJailbreak12](https://github.com/fatgrass/OsirisJailbreak12)
 - [TrungNguyen1909/CVE-2019-6225-macOS](https://github.com/TrungNguyen1909/CVE-2019-6225-macOS)
 - [raystyle/jailbreak-iOS12](https://github.com/raystyle/jailbreak-iOS12)
 
@@ -3134,8 +3133,6 @@ HP Support Assistant 8.7.50 and earlier allows a user to gain system privilege a
 Some field types do not properly sanitize data from non-form sources in Drupal 8.5.x before 8.5.11 and Drupal 8.6.x before 8.6.10. This can lead to arbitrary PHP code execution in some cases. A site is only affected by this if one of the following conditions is met: The site has the Drupal 8 core RESTful Web Services (rest) module enabled and allows PATCH or POST requests, or the site has another web services module enabled, like JSON:API in Drupal 8, or Services or RESTful Web Services in Drupal 7. (Note: The Drupal 7 Services module itself does not require an update at this time, but you should apply other contributed updates associated with this advisory if Services is in use.)
 </code>
 
-- [g0rx/Drupal-SA-CORE-2019-003](https://github.com/g0rx/Drupal-SA-CORE-2019-003)
-- [knqyf263/CVE-2019-6340](https://github.com/knqyf263/CVE-2019-6340)
 - [DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass](https://github.com/DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass)
 - [oways/CVE-2019-6340](https://github.com/oways/CVE-2019-6340)
 - [cved-sources/cve-2019-6340](https://github.com/cved-sources/cve-2019-6340)
@@ -3172,7 +3169,6 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 mIRC before 7.55 allows remote command execution by using argument injection through custom URI protocol handlers. The attacker can specify an irc:// URI that loads an arbitrary .ini file from a UNC share pathname. Exploitation depends on browser-specific URI handling (Chrome is not exploitable).
 </code>
 
-- [proofofcalc/cve-2019-6453-poc](https://github.com/proofofcalc/cve-2019-6453-poc)
 - [andripwn/mIRC-CVE-2019-6453](https://github.com/andripwn/mIRC-CVE-2019-6453)
 
 ### CVE-2019-6467
@@ -3242,7 +3238,6 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 </code>
 
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
-- [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 
 ### CVE-2019-7482
 
