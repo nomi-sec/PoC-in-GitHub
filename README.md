@@ -6057,6 +6057,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [AdriVillaB/CVE-2018-6574](https://github.com/AdriVillaB/CVE-2018-6574)
 - [yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo)
 - [mhamed366/CVE-2018-6574](https://github.com/mhamed366/CVE-2018-6574)
+- [jshwilliams26/CVE-2018-6574](https://github.com/jshwilliams26/CVE-2018-6574)
 
 ### CVE-2018-6622
 
@@ -8043,7 +8044,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638)
 - [initconf/CVE-2017-5638_struts](https://github.com/initconf/CVE-2017-5638_struts)
 - [mazen160/struts-pwn](https://github.com/mazen160/struts-pwn)
-- [ret2got/Struts-Apache-ExploitPack](https://github.com/ret2got/Struts-Apache-ExploitPack)
+- [ret2jazzy/Struts-Apache-ExploitPack](https://github.com/ret2jazzy/Struts-Apache-ExploitPack)
 - [lolwaleet/ExpStruts](https://github.com/lolwaleet/ExpStruts)
 - [oktavianto/CVE-2017-5638-Apache-Struts2](https://github.com/oktavianto/CVE-2017-5638-Apache-Struts2)
 - [jrrdev/cve-2017-5638](https://github.com/jrrdev/cve-2017-5638)
@@ -12529,6 +12530,8 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
+- [noondi/metasploitable2](https://github.com/noondi/metasploitable2)
+- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
