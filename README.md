@@ -215,6 +215,11 @@ An issue was discovered in Joomla! before 3.9.16. The lack of type casting of a 
 - [HoangKien1020/CVE-2020-10243](https://github.com/HoangKien1020/CVE-2020-10243)
 
 ### CVE-2020-10558
+
+<code>
+The driving interface of Tesla Model 3 vehicles in any release before 2020.4.10 allows Denial of Service to occur due to improper process separation, which allows attackers to disable the speedometer, web browser, climate controls, turn signal visual and sounds, navigation, autopilot notifications, along with other miscellaneous functions from the main screen.
+</code>
+
 - [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
 
 ### CVE-2020-1611
@@ -463,7 +468,6 @@ eap.c in pppd in ppp 2.4.2 through 2.4.8 has an rhostname buffer overflow in the
 - [marcinguy/CVE-2020-8597](https://github.com/marcinguy/CVE-2020-8597)
 - [mentalburden/MrsEAPers](https://github.com/mentalburden/MrsEAPers)
 - [WinMin/CVE-2020-8597](https://github.com/WinMin/CVE-2020-8597)
-- [CERTCC/cve-2020-8597-pptpd](https://github.com/CERTCC/cve-2020-8597-pptpd)
 
 ### CVE-2020-8809
 
