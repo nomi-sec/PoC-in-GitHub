@@ -248,6 +248,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [shaunmclernon/ghostcat-verification](https://github.com/shaunmclernon/ghostcat-verification)
 - [Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938)
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
+- [syncxx/CVE-2020-1938-Tool](https://github.com/syncxx/CVE-2020-1938-Tool)
 
 ### CVE-2020-1947
 
@@ -377,6 +378,9 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 </code>
 
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
+
+### CVE-2020-6650
+- [RavSS/Eaton-UPS-Companion-Exploit](https://github.com/RavSS/Eaton-UPS-Companion-Exploit)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
