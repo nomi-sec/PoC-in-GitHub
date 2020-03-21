@@ -194,6 +194,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [sujitawake/smbghost](https://github.com/sujitawake/smbghost)
 - [julixsalas/CVE-2020-0796](https://github.com/julixsalas/CVE-2020-0796)
 - [insightglacier/SMBGhost_Crash_Poc](https://github.com/insightglacier/SMBGhost_Crash_Poc)
+- [cory-zajicek/CVE-2020-0796-Scanner](https://github.com/cory-zajicek/CVE-2020-0796-Scanner)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
@@ -1769,6 +1770,7 @@ Use after free in WebAudio in Google Chrome prior to 78.0.3904.87 allowed a remo
 </code>
 
 - [cve-2019-13720/cve-2019-13720](https://github.com/cve-2019-13720/cve-2019-13720)
+- [ChoKyuWon/CVE-2019-13720](https://github.com/ChoKyuWon/CVE-2019-13720)
 
 ### CVE-2019-1385
 
