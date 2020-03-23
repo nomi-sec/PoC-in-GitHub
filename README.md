@@ -231,6 +231,14 @@ The driving interface of Tesla Model 3 vehicles in any release before 2020.4.10 
 
 - [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
 
+### CVE-2020-10673
+
+<code>
+FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.caucho.config.types.ResourceRef (aka caucho-quercus).
+</code>
+
+- [0nise/CVE-2020-10673](https://github.com/0nise/CVE-2020-10673)
+
 ### CVE-2020-1611
 
 <code>
@@ -394,6 +402,11 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
 
 ### CVE-2020-6650
+
+<code>
+UPS companion software v1.05 &amp; Prior is affected by ‘Eval Injection’ vulnerability. The software does not neutralize or incorrectly neutralizes code syntax before using the input in a dynamic evaluation call e.g.”eval” in “Update Manager” class when software attempts to see if there are updates available. This results in arbitrary code execution on the machine where software is installed.
+</code>
+
 - [RavSS/Eaton-UPS-Companion-Exploit](https://github.com/RavSS/Eaton-UPS-Companion-Exploit)
 
 ### CVE-2020-72381
@@ -7402,6 +7415,7 @@ CouchDB administrative users can configure the database server via HTTP(S). Some
 
 - [moayadalmalat/CVE-2017-12636](https://github.com/moayadalmalat/CVE-2017-12636)
 - [F1uffyGoat/F1uffyCouchDB](https://github.com/F1uffyGoat/F1uffyCouchDB)
+- [RedTeamWing/CVE-2017-12636](https://github.com/RedTeamWing/CVE-2017-12636)
 
 ### CVE-2017-12792
 
