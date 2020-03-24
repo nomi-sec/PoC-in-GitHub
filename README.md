@@ -19,6 +19,7 @@ In the ioctl handlers of the Mediatek Command Queue driver, there is a possible 
 - [R0rt1z2/AutomatedRoot](https://github.com/R0rt1z2/AutomatedRoot)
 - [TheRealJunior/mtk-su-reverse-cve-2020-0069](https://github.com/TheRealJunior/mtk-su-reverse-cve-2020-0069)
 - [yanglingxi1993/CVE-2020-0069](https://github.com/yanglingxi1993/CVE-2020-0069)
+- [quarkslab/CVE-2020-0069_poc](https://github.com/quarkslab/CVE-2020-0069_poc)
 
 ### CVE-2020-0551
 
@@ -230,6 +231,9 @@ The driving interface of Tesla Model 3 vehicles in any release before 2020.4.10 
 </code>
 
 - [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
+
+### CVE-2020-10663
+- [rails-lts/json_cve_2020_10663](https://github.com/rails-lts/json_cve_2020_10663)
 
 ### CVE-2020-10673
 
@@ -1893,6 +1897,9 @@ The TikTok (formerly Musical.ly) application 12.2.0 for Android and iOS performs
 </code>
 
 - [MelroyB/CVE-2019-14319](https://github.com/MelroyB/CVE-2019-14319)
+
+### CVE-2019-14325
+- [seqred-s-a/cve-2019-14325](https://github.com/seqred-s-a/cve-2019-14325)
 
 ### CVE-2019-14339
 
@@ -9923,6 +9930,7 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
 - [r0otshell/CVE-2015-0235](https://github.com/r0otshell/CVE-2015-0235)
+- [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0313
 
