@@ -611,6 +611,9 @@ An issue was discovered in chat.php in LiveZilla Live Chat 8.0.1.3 (Helpdesk). A
 
 - [ari034/CVE-2020-9758](https://github.com/ari034/CVE-2020-9758)
 
+### CVE-2020-9781
+- [c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781](https://github.com/c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781)
+
 
 ## 2019
 ### CVE-2019-0053
