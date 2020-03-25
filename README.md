@@ -69,6 +69,14 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [TechHexagon/CVE-2020-0601-spoofkey](https://github.com/TechHexagon/CVE-2020-0601-spoofkey)
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 
+### CVE-2020-0603
+
+<code>
+A remote code execution vulnerability exists in ASP.NET Core software when the software fails to handle objects in memory.An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user, aka 'ASP.NET Core Remote Code Execution Vulnerability'.
+</code>
+
+- [bmeehan1020/NationalVulnerabilityDatabase](https://github.com/bmeehan1020/NationalVulnerabilityDatabase)
+
 ### CVE-2020-0609
 
 <code>
@@ -12331,6 +12339,14 @@ Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.1
 </code>
 
 - [minervais/pocs](https://github.com/minervais/pocs)
+
+### CVE-2009-1185
+
+<code>
+udev before 1.4.1 does not verify whether a NETLINK message originates from kernel space, which allows local users to gain privileges by sending a NETLINK message from user space.
+</code>
+
+- [joker2a/CVE-2009-1185-UDEV](https://github.com/joker2a/CVE-2009-1185-UDEV)
 
 ### CVE-2009-1244
 
