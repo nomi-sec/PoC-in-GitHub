@@ -69,14 +69,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [TechHexagon/CVE-2020-0601-spoofkey](https://github.com/TechHexagon/CVE-2020-0601-spoofkey)
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 
-### CVE-2020-0603
-
-<code>
-A remote code execution vulnerability exists in ASP.NET Core software when the software fails to handle objects in memory.An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user, aka 'ASP.NET Core Remote Code Execution Vulnerability'.
-</code>
-
-- [bmeehan1020/NationalVulnerabilityDatabase](https://github.com/bmeehan1020/NationalVulnerabilityDatabase)
-
 ### CVE-2020-0609
 
 <code>
@@ -343,14 +335,6 @@ An inconsistent user interface issue was addressed with improved state managemen
 
 - [c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-](https://github.com/c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-)
 
-### CVE-2020-5179
-
-<code>
-Comtech Stampede FX-1010 7.4.3 devices allow remote authenticated administrators to execute arbitrary OS commands by navigating to the Diagnostics Ping page and entering shell metacharacters in the Target IP address field. (In some cases, authentication can be achieved with the comtech password for the comtech account.)
-</code>
-
-- [CesarSilence/RCE-CVE-2020-5179](https://github.com/CesarSilence/RCE-CVE-2020-5179)
-
 ### CVE-2020-5236
 
 <code>
@@ -406,12 +390,6 @@ index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v
 </code>
 
 - [TheCyberGeek/CVE-2020-5844](https://github.com/TheCyberGeek/CVE-2020-5844)
-
-### CVE-2020-609
-- [Bechsen/CVE-2020-609-POC](https://github.com/Bechsen/CVE-2020-609-POC)
-
-### CVE-2020-6172
-- [Jeff-Rowell/CVE-2020-6172](https://github.com/Jeff-Rowell/CVE-2020-6172)
 
 ### CVE-2020-6418
 
@@ -476,6 +454,14 @@ In JFrog Artifactory 5.x and 6.x, insecure FreeMarker template processing leads 
 </code>
 
 - [gquere/CVE-2020-7931](https://github.com/gquere/CVE-2020-7931)
+
+### CVE-2020-7961
+
+<code>
+Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows remote attackers to execute arbitrary code via JSON web services (JSONWS).
+</code>
+
+- [mzer0one/CVE-2020-7961-POC](https://github.com/mzer0one/CVE-2020-7961-POC)
 
 ### CVE-2020-7980
 
@@ -618,6 +604,9 @@ An issue was discovered in chat.php in LiveZilla Live Chat 8.0.1.3 (Helpdesk). A
 </code>
 
 - [ari034/CVE-2020-9758](https://github.com/ari034/CVE-2020-9758)
+
+### CVE-2020-9768
+- [MrKris99/CVE-2020-9768](https://github.com/MrKris99/CVE-2020-9768)
 
 ### CVE-2020-9781
 - [c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781](https://github.com/c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781)
@@ -1601,14 +1590,6 @@ RedwoodHQ 2.5.5 does not require any authentication for database operations, whi
 
 - [EthicalHackingCOP/CVE-2019-12890](https://github.com/EthicalHackingCOP/CVE-2019-12890)
 
-### CVE-2019-12922
-
-<code>
-A CSRF issue in phpMyAdmin 4.9.0.1 allows deletion of any server in the Setup page.
-</code>
-
-- [congtrung2k1/CVE-2019-12922](https://github.com/congtrung2k1/CVE-2019-12922)
-
 ### CVE-2019-12949
 
 <code>
@@ -2558,14 +2539,6 @@ Netis WF2419 is vulnerable to authenticated Remote Code Execution (RCE) as root 
 - [shadowgatt/CVE-2019-19356](https://github.com/shadowgatt/CVE-2019-19356)
 - [qq1515406085/CVE-2019-19356](https://github.com/qq1515406085/CVE-2019-19356)
 
-### CVE-2019-19368
-
-<code>
-A Reflected Cross Site Scripting was discovered in the Login page of Rumpus FTP Web File Manager 8.2.9.1. An attacker can exploit it by sending a crafted link to end users and can execute arbitrary Javascripts
-</code>
-
-- [harshit-shukla/CVE-2019-19368](https://github.com/harshit-shukla/CVE-2019-19368)
-
 ### CVE-2019-19369
 - [TheCyberGeek/CVE-2019-19369](https://github.com/TheCyberGeek/CVE-2019-19369)
 
@@ -2621,9 +2594,6 @@ class.upload.php in verot.net class.upload through 1.0.3 and 2.x through 2.0.4, 
 
 ### CVE-2019-19658
 - [jra89/CVE-2019-19658](https://github.com/jra89/CVE-2019-19658)
-
-### CVE-2019-19699
-- [SpengeSec/CVE-2019-19699](https://github.com/SpengeSec/CVE-2019-19699)
 
 ### CVE-2019-19732
 
@@ -2780,17 +2750,6 @@ A heap-based buffer overflow in _cairo_image_surface_create_from_jpeg() in exten
 </code>
 
 - [Fysac/CVE-2019-20326](https://github.com/Fysac/CVE-2019-20326)
-
-### CVE-2019-20327
-
-<code>
-Insecure permissions in cwrapper_perl in Centreon Infrastructure Monitoring Software through 19.10 allow local attackers to gain privileges. (cwrapper_perl is a setuid executable allowing execution of Perl scripts with root privileges.)
-</code>
-
-- [Diefunction/CVE-2019-20327](https://github.com/Diefunction/CVE-2019-20327)
-
-### CVE-2019-20335
-- [TheCyberGeek/CVE-2019-20335](https://github.com/TheCyberGeek/CVE-2019-20335)
 
 ### CVE-2019-2107
 
@@ -3479,14 +3438,6 @@ An XML External Entity Injection (XXE) vulnerability in the Management System (c
 
 - [nxkennedy/CVE-2019-8997](https://github.com/nxkennedy/CVE-2019-8997)
 
-### CVE-2019-9126
-
-<code>
-An issue was discovered on D-Link DIR-825 Rev.B 2.10 devices. There is an information disclosure vulnerability via requests for the router_info.xml document. This will reveal the PIN code, MAC address, routing table, firmware version, update time, QOS information, LAN information, and WLAN information of the device.
-</code>
-
-- [0days/CVE-2019-9126](https://github.com/0days/CVE-2019-9126)
-
 ### CVE-2019-9153
 
 <code>
@@ -3774,14 +3725,6 @@ GitHub Electron versions 1.8.2-beta.3 and earlier, 1.7.10 and earlier, 1.6.15 an
 </code>
 
 - [CHYbeta/CVE-2018-1000006-DEMO](https://github.com/CHYbeta/CVE-2018-1000006-DEMO)
-
-### CVE-2018-1000007
-
-<code>
-libcurl 7.1 through 7.57.0 might accidentally leak authentication data to third parties. When asked to send custom headers in its HTTP requests, libcurl will send that set of headers first to the host in the initial URL but also, if asked to follow redirects and a 30X HTTP response code is returned, to the host mentioned in URL in the `Location:` response header value. Sending the same set of headers to subsequent hosts is in particular a problem for applications that pass on custom `Authorization:` headers, as this header often contains privacy sensitive information or data that could allow others to impersonate the libcurl-using client's request.
-</code>
-
-- [0xThiebaut/CVE-2018-1000007](https://github.com/0xThiebaut/CVE-2018-1000007)
 
 ### CVE-2018-1000030
 
@@ -6231,14 +6174,6 @@ An issue was discovered in secdrv.sys as shipped in Microsoft Windows Vista, Win
 </code>
 
 - [Elvin9/SecDrvPoolLeak](https://github.com/Elvin9/SecDrvPoolLeak)
-
-### CVE-2018-7260
-
-<code>
-Cross-site scripting (XSS) vulnerability in db_central_columns.php in phpMyAdmin before 4.7.8 allows remote authenticated users to inject arbitrary web script or HTML via a crafted URL.
-</code>
-
-- [g44m33r/ITS-CVE-2018-7260](https://github.com/g44m33r/ITS-CVE-2018-7260)
 
 ### CVE-2018-7284
 
@@ -9406,14 +9341,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 </code>
 
 - [i-o-s/CVE-2016-4669](https://github.com/i-o-s/CVE-2016-4669)
-
-### CVE-2016-4825
-
-<code>
-The Collne Welcart e-Commerce plugin before 1.8.3 for WordPress allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via crafted serialized data.
-</code>
-
-- [kaito834/cve-2016-4845_csrf](https://github.com/kaito834/cve-2016-4845_csrf)
 
 ### CVE-2016-4845
 
