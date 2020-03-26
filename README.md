@@ -556,6 +556,14 @@ Joplin through 1.0.184 allows Arbitrary File Read via XSS.
 
 - [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
 
+### CVE-2020-9375
+
+<code>
+TP-Link Archer C50 V3 devices before Build 200318 Rel. 62209 allows remote attackers to cause a denial of service via a crafted HTTP Header containing an unexpected Referer field.
+</code>
+
+- [thewhiteh4t/cve-2020-9375](https://github.com/thewhiteh4t/cve-2020-9375)
+
 ### CVE-2020-9380
 
 <code>
