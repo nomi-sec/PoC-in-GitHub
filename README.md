@@ -4907,6 +4907,14 @@ IObit Advanced SystemCare, which includes Monitor_win10_x64.sys or Monitor_win7_
 
 - [DownWithUp/CVE-2018-16713](https://github.com/DownWithUp/CVE-2018-16713)
 
+### CVE-2018-16763
+
+<code>
+FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter or the preview/ data parameter. This can lead to Pre-Auth Remote Code Execution.
+</code>
+
+- [dinhbaouit/CVE-2018-16763](https://github.com/dinhbaouit/CVE-2018-16763)
+
 ### CVE-2018-16854
 
 <code>
