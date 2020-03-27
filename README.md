@@ -275,6 +275,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938)
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
 - [syncxx/CVE-2020-1938-Tool](https://github.com/syncxx/CVE-2020-1938-Tool)
+- [ZhengHaoCHeng/CNVD-2020-10487](https://github.com/ZhengHaoCHeng/CNVD-2020-10487)
 
 ### CVE-2020-1947
 
@@ -9714,7 +9715,7 @@ Race condition in net/packet/af_packet.c in the Linux kernel through 4.8.12 allo
 - [LakshmiDesai/CVE-2016-8655](https://github.com/LakshmiDesai/CVE-2016-8655)
 - [KosukeShimofuji/CVE-2016-8655](https://github.com/KosukeShimofuji/CVE-2016-8655)
 - [agkunkle/chocobo](https://github.com/agkunkle/chocobo)
-- [m-mullins/CVE-2016-8655_Android](https://github.com/m-mullins/CVE-2016-8655_Android)
+- [martinmullins/CVE-2016-8655_Android](https://github.com/martinmullins/CVE-2016-8655_Android)
 
 ### CVE-2016-8735
 
@@ -11917,6 +11918,14 @@ Buffer overflow in the JavaScript engine in Mozilla Firefox before 3.5.17 and 3.
 </code>
 
 - [nstylo/highfructose](https://github.com/nstylo/highfructose)
+
+### CVE-2011-0228
+
+<code>
+The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
+</code>
+
+- [jan0/isslfix](https://github.com/jan0/isslfix)
 
 ### CVE-2011-1237
 
