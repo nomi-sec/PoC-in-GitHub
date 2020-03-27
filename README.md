@@ -12542,9 +12542,6 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 
 - [noondi/metasploitable2](https://github.com/noondi/metasploitable2)
 - [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
-- [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
-- [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
-- [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 
 ### CVE-2007-3830
 
