@@ -11918,14 +11918,6 @@ Buffer overflow in the JavaScript engine in Mozilla Firefox before 3.5.17 and 3.
 
 - [nstylo/highfructose](https://github.com/nstylo/highfructose)
 
-### CVE-2011-0228
-
-<code>
-The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
-</code>
-
-- [jan0/isslfix](https://github.com/jan0/isslfix)
-
 ### CVE-2011-1237
 
 <code>
