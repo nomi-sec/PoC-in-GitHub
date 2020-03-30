@@ -196,8 +196,9 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [julixsalas/CVE-2020-0796](https://github.com/julixsalas/CVE-2020-0796)
 - [insightglacier/SMBGhost_Crash_Poc](https://github.com/insightglacier/SMBGhost_Crash_Poc)
 - [cory-zajicek/CVE-2020-0796-DoS](https://github.com/cory-zajicek/CVE-2020-0796-DoS)
-- [wurmx86/CVE-2020-0796](https://github.com/wurmx86/CVE-2020-0796)
 - [tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln)
+- [danigargu/CVE-2020-0796](https://github.com/danigargu/CVE-2020-0796)
+- [wurmx86/CVE-2020-0796](https://github.com/wurmx86/CVE-2020-0796)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
@@ -235,6 +236,11 @@ The driving interface of Tesla Model 3 vehicles in any release before 2020.4.10 
 - [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
 
 ### CVE-2020-10560
+
+<code>
+An issue was discovered in Open Source Social Network (OSSN) through 5.3. A user-controlled file path with a weak cryptographic rand() can be used to read any file with the permissions of the webserver. This can lead to further compromise. The attacker must conduct a brute-force attack against the SiteKey to insert into a crafted URL for components/OssnComments/ossn_com.php and/or libraries/ossn.lib.upgrade.php.
+</code>
+
 - [LucidUnicorn/CVE-2020-10560-Key-Recovery](https://github.com/LucidUnicorn/CVE-2020-10560-Key-Recovery)
 - [kevthehermit/CVE-2020-10560](https://github.com/kevthehermit/CVE-2020-10560)
 
@@ -313,6 +319,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [0nise/CVE-2020-2551](https://github.com/0nise/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
+- [wdahlenburg/cve-2020-2551](https://github.com/wdahlenburg/cve-2020-2551)
 
 ### CVE-2020-2555
 
@@ -2183,7 +2190,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [Unam3dd/nostromo_1_9_6_rce](https://github.com/Unam3dd/nostromo_1_9_6_rce)
-- [keshiba/CVE-2019-16278](https://github.com/keshiba/CVE-2019-16278)
+- [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
 
 ### CVE-2019-16279
 
