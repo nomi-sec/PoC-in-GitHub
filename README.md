@@ -197,6 +197,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [insightglacier/SMBGhost_Crash_Poc](https://github.com/insightglacier/SMBGhost_Crash_Poc)
 - [cory-zajicek/CVE-2020-0796-DoS](https://github.com/cory-zajicek/CVE-2020-0796-DoS)
 - [wurmx86/CVE-2020-0796](https://github.com/wurmx86/CVE-2020-0796)
+- [tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
@@ -492,6 +493,14 @@ The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the 
 </code>
 
 - [VulnCrate/WP-CodeSnippets-CVE-2020-8417](https://github.com/VulnCrate/WP-CodeSnippets-CVE-2020-8417)
+
+### CVE-2020-8515
+
+<code>
+DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.4.2.1_Beta, and 1.4.4_Beta devices allow remote code execution as root (without authentication) via shell metacharacters to the cgi-bin/mainfunction.cgi URI. This issue has been fixed in Vigor3900/2960/300B v1.5.1.
+</code>
+
+- [imjdl/CVE-2020-8515-PoC](https://github.com/imjdl/CVE-2020-8515-PoC)
 
 ### CVE-2020-8597
 
@@ -2174,6 +2183,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [Unam3dd/nostromo_1_9_6_rce](https://github.com/Unam3dd/nostromo_1_9_6_rce)
+- [keshiba/CVE-2019-16278](https://github.com/keshiba/CVE-2019-16278)
 
 ### CVE-2019-16279
 
@@ -6305,6 +6315,14 @@ Versions of Superset prior to 0.23 used an unsafe load method from the pickle li
 </code>
 
 - [r3dxpl0it/Apache-Superset-Remote-Code-Execution-PoC-CVE-2018-8021](https://github.com/r3dxpl0it/Apache-Superset-Remote-Code-Execution-PoC-CVE-2018-8021)
+
+### CVE-2018-8032
+
+<code>
+Apache Axis 1.x up to and including 1.4 is vulnerable to a cross-site scripting (XSS) attack in the default servlet/services.
+</code>
+
+- [cairuojin/CVE-2018-8032](https://github.com/cairuojin/CVE-2018-8032)
 
 ### CVE-2018-8038
 
