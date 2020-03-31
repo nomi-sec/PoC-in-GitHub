@@ -10,6 +10,14 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 - [marcinguy/CVE-2020-0022](https://github.com/marcinguy/CVE-2020-0022)
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 
+### CVE-2020-0041
+
+<code>
+In binder_transaction of binder.c, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-145988638References: Upstream kernel
+</code>
+
+- [bluefrostsecurity/CVE-2020-0041](https://github.com/bluefrostsecurity/CVE-2020-0041)
+
 ### CVE-2020-0069
 
 <code>
@@ -133,6 +141,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [zcgonvh/CVE-2020-0688](https://github.com/zcgonvh/CVE-2020-0688)
 - [justin-p/PSForgot2kEyXCHANGE](https://github.com/justin-p/PSForgot2kEyXCHANGE)
 - [cert-lv/CVE-2020-0688](https://github.com/cert-lv/CVE-2020-0688)
+- [ravinacademy/CVE-2020-0688](https://github.com/ravinacademy/CVE-2020-0688)
 
 ### CVE-2020-0728
 
@@ -202,6 +211,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [ZecOps/CVE-2020-0796-LPE-POC](https://github.com/ZecOps/CVE-2020-0796-LPE-POC)
 - [TinToSer/CVE-2020-0796-LPE](https://github.com/TinToSer/CVE-2020-0796-LPE)
 - [f1tz/CVE-2020-0796-LPE-EXP](https://github.com/f1tz/CVE-2020-0796-LPE-EXP)
+- [tango-j/CVE-2020-0796](https://github.com/tango-j/CVE-2020-0796)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
