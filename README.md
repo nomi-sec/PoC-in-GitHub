@@ -320,6 +320,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [0nise/CVE-2020-2551](https://github.com/0nise/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
+- [Gspider7/rmi-iiop](https://github.com/Gspider7/rmi-iiop)
 
 ### CVE-2020-2555
 
@@ -11742,6 +11743,7 @@ Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows 
 The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, does not properly check permissions when writing to /proc/&lt;pid&gt;/mem, which allows local users to gain privileges by modifying process memory, as demonstrated by Mempodipper.
 </code>
 
+- [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
 - [pythonone/CVE-2012-0056](https://github.com/pythonone/CVE-2012-0056)
 
 ### CVE-2012-0152
@@ -11842,6 +11844,7 @@ CoreText in Apple Mac OS X 10.7.x before 10.7.5 allows remote attackers to execu
 diagchar_core.c in the Qualcomm Innovation Center (QuIC) Diagnostics (aka DIAG) kernel-mode driver for Android 2.3 through 4.2 allows attackers to execute arbitrary code or cause a denial of service (incorrect pointer dereference) via an application that uses crafted arguments in a local diagchar_ioctl call.
 </code>
 
+- [hiikezoe/diaggetroot](https://github.com/hiikezoe/diaggetroot)
 - [poliva/root-zte-open](https://github.com/poliva/root-zte-open)
 
 ### CVE-2012-4431
@@ -11899,7 +11902,19 @@ Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7
 ** DISPUTED **  MySQL 5.5.19 and possibly other versions, and MariaDB 5.5.28a and possibly other versions, when configured to assign the FILE privilege to users who should not have administrative privileges, allows remote authenticated users to gain privileges by leveraging the FILE privilege to create files as the MySQL administrator.  NOTE: the vendor disputes this issue, stating that this is only a vulnerability when the administrator does not follow recommendations in the product's installation documentation.  NOTE: it could be argued that this should not be included in CVE because it is a configuration issue.
 </code>
 
+- [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
 - [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
+
+### CVE-2012-5664
+- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
+
+### CVE-2012-5958
+
+<code>
+Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.
+</code>
+
+- [lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp)
 
 ### CVE-2012-5960
 
