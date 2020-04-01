@@ -200,7 +200,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [GuoKerS/aioScan_CVE-2020-0796](https://github.com/GuoKerS/aioScan_CVE-2020-0796)
 - [jiansiting/CVE-2020-0796-Scanner](https://github.com/jiansiting/CVE-2020-0796-Scanner)
 - [maxpl0it/Unauthenticated-CVE-2020-0796-PoC](https://github.com/maxpl0it/Unauthenticated-CVE-2020-0796-PoC)
-- [ran-sama/CVE-2020-0796-PoC-and-Scan](https://github.com/ran-sama/CVE-2020-0796-PoC-and-Scan)
+- [ran-sama/CVE-2020-0796](https://github.com/ran-sama/CVE-2020-0796)
 - [sujitawake/smbghost](https://github.com/sujitawake/smbghost)
 - [julixsalas/CVE-2020-0796](https://github.com/julixsalas/CVE-2020-0796)
 - [insightglacier/SMBGhost_Crash_Poc](https://github.com/insightglacier/SMBGhost_Crash_Poc)
@@ -354,6 +354,14 @@ Vulnerability in the Java SE product of Oracle Java SE (component: JSSE). Suppor
 </code>
 
 - [RUB-NDS/CVE-2020-2655-DemoServer](https://github.com/RUB-NDS/CVE-2020-2655-DemoServer)
+
+### CVE-2020-3766
+
+<code>
+Adobe Genuine Integrity Service versions Version 6.4 and earlier have an insecure file permissions vulnerability. Successful exploitation could lead to privilege escalation.
+</code>
+
+- [hessandrew/CVE-2020-3766_APSB20-12](https://github.com/hessandrew/CVE-2020-3766_APSB20-12)
 
 ### CVE-2020-3833
 
@@ -9508,7 +9516,7 @@ net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine 
 - [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
 - [violentshell/rover](https://github.com/violentshell/rover)
 - [jduck/challack](https://github.com/jduck/challack)
-- [bpukallus/chackd](https://github.com/bpukallus/chackd)
+- [bplinux/chackd](https://github.com/bplinux/chackd)
 - [nogoegst/grill](https://github.com/nogoegst/grill)
 
 ### CVE-2016-5699
