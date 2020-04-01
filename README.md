@@ -204,15 +204,16 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [sujitawake/smbghost](https://github.com/sujitawake/smbghost)
 - [julixsalas/CVE-2020-0796](https://github.com/julixsalas/CVE-2020-0796)
 - [insightglacier/SMBGhost_Crash_Poc](https://github.com/insightglacier/SMBGhost_Crash_Poc)
+- [5l1v3r1/CVE-2020-0796-PoC-and-Scan](https://github.com/5l1v3r1/CVE-2020-0796-PoC-and-Scan)
 - [cory-zajicek/CVE-2020-0796-DoS](https://github.com/cory-zajicek/CVE-2020-0796-DoS)
 - [tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln)
 - [danigargu/CVE-2020-0796](https://github.com/danigargu/CVE-2020-0796)
-- [wurmx86/CVE-2020-0796](https://github.com/wurmx86/CVE-2020-0796)
 - [ZecOps/CVE-2020-0796-LPE-POC](https://github.com/ZecOps/CVE-2020-0796-LPE-POC)
 - [TinToSer/CVE-2020-0796-LPE](https://github.com/TinToSer/CVE-2020-0796-LPE)
 - [f1tz/CVE-2020-0796-LPE-EXP](https://github.com/f1tz/CVE-2020-0796-LPE-EXP)
 - [tango-j/CVE-2020-0796](https://github.com/tango-j/CVE-2020-0796)
 - [jiansiting/CVE-2020-0796](https://github.com/jiansiting/CVE-2020-0796)
+- [wurmx64/CVE-2020-0796](https://github.com/wurmx64/CVE-2020-0796)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
@@ -659,9 +660,19 @@ An issue was discovered in chat.php in LiveZilla Live Chat 8.0.1.3 (Helpdesk). A
 - [ari034/CVE-2020-9758](https://github.com/ari034/CVE-2020-9758)
 
 ### CVE-2020-9768
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
+</code>
+
 - [MrKris99/CVE-2020-9768](https://github.com/MrKris99/CVE-2020-9768)
 
 ### CVE-2020-9781
+
+<code>
+The issue was addressed by clearing website permission prompts after navigation. This issue is fixed in iOS 13.4 and iPadOS 13.4. A user may grant website permissions to a site they didn't intend to.
+</code>
+
 - [c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781](https://github.com/c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781)
 
 
