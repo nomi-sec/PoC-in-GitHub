@@ -4541,7 +4541,7 @@ A flaw was found in xorg-x11-server before 1.20.3. An incorrect permission check
 The RichFaces Framework 3.X through 3.3.4 is vulnerable to Expression Language (EL) injection via the UserResource resource. A remote, unauthenticated attacker could exploit this to execute arbitrary code using a chain of java serialized objects via org.ajax4jsf.resource.UserResource$UriData.
 </code>
 
-- [greekn/cve-2018-14667](https://github.com/greekn/cve-2018-14667)
+- [nareshmail/cve-2018-14667](https://github.com/nareshmail/cve-2018-14667)
 - [zeroto01/CVE-2018-14667](https://github.com/zeroto01/CVE-2018-14667)
 - [r00t4dm/CVE-2018-14667](https://github.com/r00t4dm/CVE-2018-14667)
 - [syriusbughunt/CVE-2018-14667](https://github.com/syriusbughunt/CVE-2018-14667)
