@@ -215,6 +215,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [jiansiting/CVE-2020-0796](https://github.com/jiansiting/CVE-2020-0796)
 - [wurmx64/CVE-2020-0796](https://github.com/wurmx64/CVE-2020-0796)
 - [eastmountyxz/CVE-2020-0796-SMB](https://github.com/eastmountyxz/CVE-2020-0796-SMB)
+- [LabDookhtegan/CVE-2020-0796-EXP](https://github.com/LabDookhtegan/CVE-2020-0796-EXP)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
@@ -12882,14 +12883,6 @@ Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 al
 </code>
 
 - [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
-
-### CVE-2001-0758
-
-<code>
-Directory traversal vulnerability in Shambala 4.5 allows remote attackers to escape the FTP root directory via &quot;CWD ...&quot;  command.
-</code>
-
-- [alt3kx/CVE-2001-0758](https://github.com/alt3kx/CVE-2001-0758)
 
 ### CVE-2001-0931
 
