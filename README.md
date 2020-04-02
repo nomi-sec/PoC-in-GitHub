@@ -214,6 +214,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [tango-j/CVE-2020-0796](https://github.com/tango-j/CVE-2020-0796)
 - [jiansiting/CVE-2020-0796](https://github.com/jiansiting/CVE-2020-0796)
 - [wurmx64/CVE-2020-0796](https://github.com/wurmx64/CVE-2020-0796)
+- [eastmountyxz/CVE-2020-0796-SMB](https://github.com/eastmountyxz/CVE-2020-0796-SMB)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
@@ -314,9 +315,6 @@ In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's we
 - [jas502n/CVE-2020-1947](https://github.com/jas502n/CVE-2020-1947)
 - [wsfengfan/CVE-2020-1947](https://github.com/wsfengfan/CVE-2020-1947)
 - [shadowsock5/ShardingSphere_CVE-2020-1947](https://github.com/shadowsock5/ShardingSphere_CVE-2020-1947)
-
-### CVE-2020-19999
-- [asc0t6e/CVE-2020-19999-TEST](https://github.com/asc0t6e/CVE-2020-19999-TEST)
 
 ### CVE-2020-2546
 
