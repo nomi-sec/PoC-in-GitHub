@@ -2409,6 +2409,11 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 
 ### CVE-2019-17564
+
+<code>
+Unsafe deserialization occurs within a Dubbo application which has HTTP remoting enabled. An attacker may submit a POST request with a Java object in it to completely compromise a Provider instance of Apache Dubbo, if this instance enables HTTP. This issue affected Apache Dubbo 2.7.0 to 2.7.4, 2.6.0 to 2.6.7, and all 2.5.x versions.
+</code>
+
 - [r00t4dm/CVE-2019-17564](https://github.com/r00t4dm/CVE-2019-17564)
 - [Jaky5155/CVE-2019-17564](https://github.com/Jaky5155/CVE-2019-17564)
 - [Hu3sky/CVE-2019-17564](https://github.com/Hu3sky/CVE-2019-17564)
