@@ -315,6 +315,9 @@ In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's we
 - [wsfengfan/CVE-2020-1947](https://github.com/wsfengfan/CVE-2020-1947)
 - [shadowsock5/ShardingSphere_CVE-2020-1947](https://github.com/shadowsock5/ShardingSphere_CVE-2020-1947)
 
+### CVE-2020-19999
+- [asc0t6e/CVE-2020-19999-TEST](https://github.com/asc0t6e/CVE-2020-19999-TEST)
+
 ### CVE-2020-2546
 
 <code>
