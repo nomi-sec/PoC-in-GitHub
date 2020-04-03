@@ -305,6 +305,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
 - [syncxx/CVE-2020-1938-Tool](https://github.com/syncxx/CVE-2020-1938-Tool)
 - [ZhengHaoCHeng/CNVD-2020-10487](https://github.com/ZhengHaoCHeng/CNVD-2020-10487)
+- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 
 ### CVE-2020-1947
 
@@ -2471,6 +2472,14 @@ An unquoted service path vulnerability in the FortiClient FortiTray component of
 </code>
 
 - [Ibonok/CVE-2019-17658](https://github.com/Ibonok/CVE-2019-17658)
+
+### CVE-2019-17671
+
+<code>
+In WordPress before 5.2.4, unauthenticated viewing of certain content is possible because the static query property is mishandled.
+</code>
+
+- [rhbb/CVE-2019-17671](https://github.com/rhbb/CVE-2019-17671)
 
 ### CVE-2019-1821
 
@@ -12667,6 +12676,14 @@ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 all
 
 - [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
 
+### CVE-2006-3592
+
+<code>
+Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
+</code>
+
+- [adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592)
+
 ### CVE-2006-3747
 
 <code>
@@ -12697,6 +12714,7 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
+- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
