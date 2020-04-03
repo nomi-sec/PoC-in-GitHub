@@ -272,6 +272,14 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 
 - [0nise/CVE-2020-10673](https://github.com/0nise/CVE-2020-10673)
 
+### CVE-2020-11107
+
+<code>
+An issue was discovered in XAMPP before 7.2.29, 7.3.x before 7.3.16 , and 7.4.x before 7.4.4 on Windows. An unprivileged user can change a .exe configuration in xampp-contol.ini for all users (including admins) to enable arbitrary command execution.
+</code>
+
+- [S1lkys/CVE-2020-11107](https://github.com/S1lkys/CVE-2020-11107)
+
 ### CVE-2020-1611
 
 <code>
@@ -3373,6 +3381,7 @@ Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw
 - [mpgn/CVE-2019-7609](https://github.com/mpgn/CVE-2019-7609)
 - [LandGrey/CVE-2019-7609](https://github.com/LandGrey/CVE-2019-7609)
 - [hekadan/CVE-2019-7609](https://github.com/hekadan/CVE-2019-7609)
+- [rhbb/CVE-2019-7609](https://github.com/rhbb/CVE-2019-7609)
 
 ### CVE-2019-7610
 
