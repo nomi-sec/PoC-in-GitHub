@@ -9287,6 +9287,14 @@ buffer.c in named in ISC BIND 9 before 9.9.9-P3, 9.10.x before 9.10.4-P3, and 9.
 - [KosukeShimofuji/CVE-2016-2776](https://github.com/KosukeShimofuji/CVE-2016-2776)
 - [infobyte/CVE-2016-2776](https://github.com/infobyte/CVE-2016-2776)
 
+### CVE-2016-3088
+
+<code>
+The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remote attackers to upload and execute arbitrary files via an HTTP PUT followed by an HTTP MOVE request.
+</code>
+
+- [VVzv/CVE-2016-3088](https://github.com/VVzv/CVE-2016-3088)
+
 ### CVE-2016-3113
 
 <code>
