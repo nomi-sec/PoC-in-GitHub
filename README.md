@@ -2137,6 +2137,7 @@ An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and
 - [BennyTW/kr00k](https://github.com/BennyTW/kr00k)
 - [hexway/r00kie-kr00kie](https://github.com/hexway/r00kie-kr00kie)
 - [akabe1/kr00ker](https://github.com/akabe1/kr00ker)
+- [mustafasevim/kr00k-vulnerability](https://github.com/mustafasevim/kr00k-vulnerability)
 
 ### CVE-2019-15224
 
@@ -8856,6 +8857,7 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [chrisjd20/cve-2017-9805.py](https://github.com/chrisjd20/cve-2017-9805.py)
 - [UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-](https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-)
 - [UbuntuStrike/CVE-2017-9805_Struts_Fuzz_N_Sploit](https://github.com/UbuntuStrike/CVE-2017-9805_Struts_Fuzz_N_Sploit)
+- [thevivekkryadav/CVE-2017-9805-Exploit](https://github.com/thevivekkryadav/CVE-2017-9805-Exploit)
 
 ### CVE-2017-9830
 
@@ -12521,40 +12523,6 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 
 - [ngyanch/4062-1](https://github.com/ngyanch/4062-1)
 
-### CVE-2008-0166
-
-<code>
-OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
-</code>
-
-- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
-- [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
-- [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
-
-### CVE-2008-0228
-
-<code>
-Cross-site request forgery (CSRF) vulnerability in apply.cgi in the Linksys WRT54GL Wireless-G Broadband Router with firmware 4.30.9 allows remote attackers to perform actions as administrators.
-</code>
-
-- [SpiderLabs/TWSL2011-007_iOS_code_workaround](https://github.com/SpiderLabs/TWSL2011-007_iOS_code_workaround)
-
-### CVE-2008-1611
-
-<code>
-Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote attackers to cause a denial of service or execute arbitrary code via a long filename in a read or write request.
-</code>
-
-- [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
-
-### CVE-2008-1613
-
-<code>
-SQL injection vulnerability in ioRD.asp in RedDot CMS 7.5 Build 7.5.0.48, and possibly other versions including 6.5 and 7.0, allows remote attackers to execute arbitrary SQL commands via the LngId parameter.
-</code>
-
-- [SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613)
-
 ### CVE-2008-2938
 
 <code>
@@ -12571,14 +12539,6 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
 
-### CVE-2008-4609
-
-<code>
-The TCP implementation in (1) Linux, (2) platforms based on BSD Unix, (3) Microsoft Windows, (4) Cisco products, and probably other operating systems allows remote attackers to cause a denial of service (connection queue exhaustion) via multiple vectors that manipulate information in the TCP state table, as demonstrated by sockstress.
-</code>
-
-- [marcelki/sockstress](https://github.com/marcelki/sockstress)
-
 ### CVE-2008-4654
 
 <code>
@@ -12586,7 +12546,6 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 </code>
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
-- [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
 
 ### CVE-2008-5416
 
@@ -12622,6 +12581,14 @@ Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before
 
 
 ## 2007
+### CVE-2007-0038
+
+<code>
+Stack-based buffer overflow in the animated cursor code in Microsoft Windows 2000 SP4 through Vista allows remote attackers to execute arbitrary code or cause a denial of service (persistent reboot) via a large length value in the second (or later) anih block of a RIFF .ANI, cur, or .ico file, which results in memory corruption when processing cursors, animated cursors, and icons, a variant of CVE-2005-0416, as originally demonstrated using Internet Explorer 6 and 7. NOTE: this might be a duplicate of CVE-2007-1765; if so, then CVE-2007-0038 should be preferred.
+</code>
+
+- [Axua/CVE-2007-0038](https://github.com/Axua/CVE-2007-0038)
+
 ### CVE-2007-0843
 
 <code>
@@ -12630,6 +12597,26 @@ The ReadDirectoryChangesW API function on Microsoft Windows 2000, XP, Server 200
 
 - [z3APA3A/spydir](https://github.com/z3APA3A/spydir)
 
+### CVE-2007-1567
+
+<code>
+Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows remote attackers to cause a denial of service or execute arbitrary code via unspecified vectors, as demonstrated by warftp_165.tar by Immunity.  NOTE: this might be the same issue as CVE-1999-0256, CVE-2000-0131, or CVE-2006-2171, but due to Immunity's lack of details, this cannot be certain.
+</code>
+
+- [war4uthor/CVE-2007-1567](https://github.com/war4uthor/CVE-2007-1567)
+
+### CVE-2007-2447
+
+<code>
+The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
+</code>
+
+- [noondi/metasploitable2](https://github.com/noondi/metasploitable2)
+- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
+- [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
+- [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
+- [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
+
 ### CVE-2007-3830
 
 <code>
@@ -12637,6 +12624,14 @@ Cross-site scripting (XSS) vulnerability in alert.php in ISS Proventia Network I
 </code>
 
 - [alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830)
+
+### CVE-2007-3831
+
+<code>
+PHP remote file inclusion in main.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to execute arbitrary PHP code via a URL in the page parameter.
+</code>
+
+- [alt3kx/CVE-2007-3831](https://github.com/alt3kx/CVE-2007-3831)
 
 ### CVE-2007-4607
 
