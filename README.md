@@ -217,6 +217,8 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [wurmx64/CVE-2020-0796](https://github.com/wurmx64/CVE-2020-0796)
 - [eastmountyxz/CVE-2020-0796-SMB](https://github.com/eastmountyxz/CVE-2020-0796-SMB)
 - [LabDookhtegan/CVE-2020-0796-EXP](https://github.com/LabDookhtegan/CVE-2020-0796-EXP)
+- [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
+- [sivak1rl/CVE-2020-0796-scanner](https://github.com/sivak1rl/CVE-2020-0796-scanner)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
@@ -2698,6 +2700,11 @@ class.upload.php in verot.net class.upload through 1.0.3 and 2.x through 2.0.4, 
 - [jra89/CVE-2019-19658](https://github.com/jra89/CVE-2019-19658)
 
 ### CVE-2019-19699
+
+<code>
+There is Authenticated remote code execution in Centreon Infrastructure Monitoring Software through 19.10 via Pollers misconfiguration, leading to system compromise via apache crontab misconfiguration, This allows the apache user to modify an executable file executed by root at 22:30 every day. To exploit the vulnerability, someone must have Admin access to the Centreon Web Interface and create a custom main.php?p=60803&amp;type=3 command. The user must then set the Pollers Post-Restart Command to this previously created command via the main.php?p=60901&amp;o=c&amp;server_id=1 URI. This is triggered via an export of the Poller Configuration.
+</code>
+
 - [SpengeSec/CVE-2019-19699](https://github.com/SpengeSec/CVE-2019-19699)
 
 ### CVE-2019-19732
