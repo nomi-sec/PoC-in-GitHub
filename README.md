@@ -348,6 +348,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [0nise/CVE-2020-2551](https://github.com/0nise/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
 - [Gspider7/rmi-iiop](https://github.com/Gspider7/rmi-iiop)
+- [cnsimo/CVE-2020-2551](https://github.com/cnsimo/CVE-2020-2551)
 
 ### CVE-2020-2555
 
