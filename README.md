@@ -5012,6 +5012,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 </code>
 
 - [dinhbaouit/CVE-2018-16763](https://github.com/dinhbaouit/CVE-2018-16763)
+- [SalimAlk/CVE-2018-16763-](https://github.com/SalimAlk/CVE-2018-16763-)
 
 ### CVE-2018-16854
 
@@ -7238,6 +7239,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [Yuusuke4/WebLogic_CNVD_C_2019_48814](https://github.com/Yuusuke4/WebLogic_CNVD_C_2019_48814)
 - [7kbstorm/WebLogic_CNVD_C2019_48814](https://github.com/7kbstorm/WebLogic_CNVD_C2019_48814)
 - [ianxtianxt/-CVE-2017-10271-](https://github.com/ianxtianxt/-CVE-2017-10271-)
+- [testwc/CVE-2017-10271](https://github.com/testwc/CVE-2017-10271)
 
 ### CVE-2017-10352
 
@@ -12523,6 +12525,40 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 
 - [ngyanch/4062-1](https://github.com/ngyanch/4062-1)
 
+### CVE-2008-0166
+
+<code>
+OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
+</code>
+
+- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
+- [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
+- [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
+
+### CVE-2008-0228
+
+<code>
+Cross-site request forgery (CSRF) vulnerability in apply.cgi in the Linksys WRT54GL Wireless-G Broadband Router with firmware 4.30.9 allows remote attackers to perform actions as administrators.
+</code>
+
+- [SpiderLabs/TWSL2011-007_iOS_code_workaround](https://github.com/SpiderLabs/TWSL2011-007_iOS_code_workaround)
+
+### CVE-2008-1611
+
+<code>
+Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote attackers to cause a denial of service or execute arbitrary code via a long filename in a read or write request.
+</code>
+
+- [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
+
+### CVE-2008-1613
+
+<code>
+SQL injection vulnerability in ioRD.asp in RedDot CMS 7.5 Build 7.5.0.48, and possibly other versions including 6.5 and 7.0, allows remote attackers to execute arbitrary SQL commands via the LngId parameter.
+</code>
+
+- [SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613)
+
 ### CVE-2008-2938
 
 <code>
@@ -12539,6 +12575,14 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
 
+### CVE-2008-4609
+
+<code>
+The TCP implementation in (1) Linux, (2) platforms based on BSD Unix, (3) Microsoft Windows, (4) Cisco products, and probably other operating systems allows remote attackers to cause a denial of service (connection queue exhaustion) via multiple vectors that manipulate information in the TCP state table, as demonstrated by sockstress.
+</code>
+
+- [marcelki/sockstress](https://github.com/marcelki/sockstress)
+
 ### CVE-2008-4654
 
 <code>
@@ -12546,6 +12590,7 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 </code>
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
+- [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
 
 ### CVE-2008-5416
 
