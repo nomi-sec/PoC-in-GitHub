@@ -220,6 +220,14 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
 - [sivak1rl/CVE-2020-0796-scanner](https://github.com/sivak1rl/CVE-2020-0796-scanner)
 
+### CVE-2020-0814
+
+<code>
+An elevation of privilege vulnerability exists in Windows Installer because of the way Windows Installer handles certain filesystem operations.To exploit the vulnerability, an attacker would require unprivileged execution on the victim system, aka 'Windows Installer Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0779, CVE-2020-0798, CVE-2020-0842, CVE-2020-0843.
+</code>
+
+- [klinix5/CVE-2020-0814](https://github.com/klinix5/CVE-2020-0814)
+
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
 
@@ -9447,6 +9455,7 @@ WebKit in Apple iOS before 9.3.3, Safari before 9.1.2, and tvOS before 9.2.2 all
 </code>
 
 - [saelo/jscpwn](https://github.com/saelo/jscpwn)
+- [hdbreaker/WebKit-CVE-2016-4622](https://github.com/hdbreaker/WebKit-CVE-2016-4622)
 
 ### CVE-2016-4631
 
