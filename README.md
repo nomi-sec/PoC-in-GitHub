@@ -2339,7 +2339,7 @@ phpIPAM 1.4 allows SQL injection via the app/admin/custom-fields/filter-result.p
 File Sharing Wizard 1.5.0 allows a remote attacker to obtain arbitrary code execution by exploiting a Structured Exception Handler (SEH) based buffer overflow in an HTTP POST parameter, a similar issue to CVE-2010-2330 and CVE-2010-2331.
 </code>
 
-- [FULLSHADE/Windows-Exploit-Development-Practice](https://github.com/FULLSHADE/Windows-Exploit-Development-Practice)
+- [FULLSHADE/OSCE](https://github.com/FULLSHADE/OSCE)
 
 ### CVE-2019-16759
 
@@ -9329,6 +9329,14 @@ buffer.c in named in ISC BIND 9 before 9.9.9-P3, 9.10.x before 9.10.4-P3, and 9.
 
 - [KosukeShimofuji/CVE-2016-2776](https://github.com/KosukeShimofuji/CVE-2016-2776)
 - [infobyte/CVE-2016-2776](https://github.com/infobyte/CVE-2016-2776)
+
+### CVE-2016-2783
+
+<code>
+Avaya Fabric Connect Virtual Services Platform (VSP) Operating System Software (VOSS) before 4.2.3.0 and 5.x before 5.0.1.0 does not properly handle VLAN and I-SIS indexes, which allows remote attackers to obtain unauthorized access via crafted Ethernet frames.
+</code>
+
+- [iknowjason/spb](https://github.com/iknowjason/spb)
 
 ### CVE-2016-3088
 
