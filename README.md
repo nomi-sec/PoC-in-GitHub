@@ -231,6 +231,14 @@ An elevation of privilege vulnerability exists in Windows Installer because of t
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
 
+### CVE-2020-10199
+
+<code>
+Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
+</code>
+
+- [fairyming/CVE-2020-10199](https://github.com/fairyming/CVE-2020-10199)
+
 ### CVE-2020-10238
 
 <code>
@@ -6361,6 +6369,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [neal1991/drupalgeddon2](https://github.com/neal1991/drupalgeddon2)
 - [drugeddon/drupal-exploit](https://github.com/drugeddon/drupal-exploit)
 - [shellord/Drupalgeddon-Mass-Exploiter](https://github.com/shellord/Drupalgeddon-Mass-Exploiter)
+- [zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP)
 
 ### CVE-2018-7602
 
