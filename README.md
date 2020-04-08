@@ -238,9 +238,9 @@ An elevation of privilege vulnerability exists in Windows Installer because of t
 Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
 </code>
 
-- [fairyming/CVE-2020-10199](https://github.com/fairyming/CVE-2020-10199)
 - [wsfengfan/CVE-2020-10199-10204](https://github.com/wsfengfan/CVE-2020-10199-10204)
 - [jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199)
+- [magicming200/CVE-2020-10199-Nexus-RCE](https://github.com/magicming200/CVE-2020-10199-Nexus-RCE)
 
 ### CVE-2020-10238
 
@@ -265,6 +265,9 @@ An issue was discovered in Joomla! before 3.9.16. The lack of type casting of a 
 </code>
 
 - [HoangKien1020/CVE-2020-10243](https://github.com/HoangKien1020/CVE-2020-10243)
+
+### CVE-2020-10551
+- [seqred-s-a/CVE-2020-10551](https://github.com/seqred-s-a/CVE-2020-10551)
 
 ### CVE-2020-10558
 
@@ -6200,6 +6203,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [AdriVillaB/CVE-2018-6574](https://github.com/AdriVillaB/CVE-2018-6574)
 - [yitingfan/CVE-2018-6574_demo](https://github.com/yitingfan/CVE-2018-6574_demo)
 - [mhamed366/CVE-2018-6574](https://github.com/mhamed366/CVE-2018-6574)
+- [Eugene24/CVE-2018-6574](https://github.com/Eugene24/CVE-2018-6574)
 
 ### CVE-2018-6622
 
