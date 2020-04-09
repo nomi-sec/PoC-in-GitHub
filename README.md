@@ -240,7 +240,7 @@ Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
 
 - [wsfengfan/CVE-2020-10199-10204](https://github.com/wsfengfan/CVE-2020-10199-10204)
 - [jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199)
-- [magicming200/CVE-2020-10199-Nexus-RCE](https://github.com/magicming200/CVE-2020-10199-Nexus-RCE)
+- [magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204)
 
 ### CVE-2020-10238
 
@@ -12184,6 +12184,7 @@ The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 
 
 - [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
 - [limkokhole/CVE-2011-3192](https://github.com/limkokhole/CVE-2011-3192)
+- [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
 
 ### CVE-2011-3368
 
