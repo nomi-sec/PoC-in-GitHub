@@ -306,6 +306,14 @@ An issue was discovered in XAMPP before 7.2.29, 7.3.x before 7.3.16 , and 7.4.x 
 - [S1lkys/CVE-2020-11107](https://github.com/S1lkys/CVE-2020-11107)
 - [andripwn/CVE-2020-11107](https://github.com/andripwn/CVE-2020-11107)
 
+### CVE-2020-11650
+
+<code>
+An issue was discovered in iXsystems FreeNAS 11.2 and 11.3 before 11.3-U1. It allows a denial of service.
+</code>
+
+- [weinull/CVE-2020-11650](https://github.com/weinull/CVE-2020-11650)
+
 ### CVE-2020-1611
 
 <code>
@@ -12327,7 +12335,7 @@ Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 
 Integer signedness error in the pkt_find_dev_from_minor function in drivers/block/pktcdvd.c in the Linux kernel before 2.6.36-rc6 allows local users to obtain sensitive information from kernel memory or cause a denial of service (invalid pointer dereference and system crash) via a crafted index value in a PKT_CTRL_CMD_STATUS ioctl call.
 </code>
 
-- [ehuan015/CVE-2010-3437](https://github.com/ehuan015/CVE-2010-3437)
+- [huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437)
 
 ### CVE-2010-3490
 
