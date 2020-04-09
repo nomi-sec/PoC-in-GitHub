@@ -267,6 +267,11 @@ An issue was discovered in Joomla! before 3.9.16. The lack of type casting of a 
 - [HoangKien1020/CVE-2020-10243](https://github.com/HoangKien1020/CVE-2020-10243)
 
 ### CVE-2020-10551
+
+<code>
+QQBrowser before 10.5.3870.400 installs a Windows service TsService.exe. This file is writable by anyone belonging to the NT AUTHORITY\Authenticated Users group, which includes all local and remote users. This can be abused by local attackers to escalate privileges to NT AUTHORITY\SYSTEM by writing a malicious executable to the location of TsService.
+</code>
+
 - [seqred-s-a/CVE-2020-10551](https://github.com/seqred-s-a/CVE-2020-10551)
 
 ### CVE-2020-10558
@@ -1324,7 +1329,7 @@ Atlassian Crowd and Crowd Data Center had the pdkinstall development plugin inco
 </code>
 
 - [jas502n/CVE-2019-11580](https://github.com/jas502n/CVE-2019-11580)
-- [hackerSMinh/CVE-2019-11580](https://github.com/hackerSMinh/CVE-2019-11580)
+- [shelld3v/CVE-2019-11580](https://github.com/shelld3v/CVE-2019-11580)
 
 ### CVE-2019-11581
 
@@ -11946,7 +11951,7 @@ sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6
 Unspecified vulnerability in the _php_stream_scandir function in the stream implementation in PHP before 5.3.15 and 5.4.x before 5.4.5 has unknown impact and remote attack vectors, related to an &quot;overflow.&quot;
 </code>
 
-- [hackerSMinh/CVE-2012-2688](https://github.com/hackerSMinh/CVE-2012-2688)
+- [shelld3v/CVE-2012-2688](https://github.com/shelld3v/CVE-2012-2688)
 
 ### CVE-2012-3137
 
