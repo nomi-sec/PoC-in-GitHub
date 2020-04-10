@@ -314,7 +314,7 @@ An issue was discovered in XAMPP before 7.2.29, 7.3.x before 7.3.16 , and 7.4.x 
 ### CVE-2020-11650
 
 <code>
-An issue was discovered in iXsystems FreeNAS 11.2 and 11.3 before 11.3-U1. It allows a denial of service.
+An issue was discovered in iXsystems FreeNAS (and TrueNAS) 11.2 before 11.2-u8 and 11.3 before 11.3-U1. It allows a denial of service. The login authentication component has no limits on the length of an authentication message or the rate at which such messages are sent.
 </code>
 
 - [weinull/CVE-2020-11650](https://github.com/weinull/CVE-2020-11650)
@@ -3262,6 +3262,7 @@ An out-of-bounds read issue existed that led to the disclosure of kernel memory.
 
 - [dothanthitiendiettiende/CVE-2019-6207](https://github.com/dothanthitiendiettiende/CVE-2019-6207)
 - [maldiohead/CVE-2019-6207](https://github.com/maldiohead/CVE-2019-6207)
+- [DimitriFourny/cve-2019-6207](https://github.com/DimitriFourny/cve-2019-6207)
 
 ### CVE-2019-6225
 
@@ -4355,6 +4356,7 @@ A vulnerability in register allocation in JavaScript can lead to type confusion,
 </code>
 
 - [asri3l/cve-2018-12386](https://github.com/asri3l/cve-2018-12386)
+- [0xLyte/cve-2018-12386](https://github.com/0xLyte/cve-2018-12386)
 
 ### CVE-2018-12418
 
@@ -7339,6 +7341,7 @@ The mq_notify function in the Linux kernel through 4.11.9 does not set the sock 
 - [DoubleMice/cve-2017-11176](https://github.com/DoubleMice/cve-2017-11176)
 - [HckEX/CVE-2017-11176](https://github.com/HckEX/CVE-2017-11176)
 - [leonardo1101/cve-2017-11176](https://github.com/leonardo1101/cve-2017-11176)
+- [c3r34lk1ll3r/CVE-2017-11176](https://github.com/c3r34lk1ll3r/CVE-2017-11176)
 
 ### CVE-2017-11317
 
