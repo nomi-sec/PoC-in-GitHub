@@ -219,7 +219,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
 - [sivak1rl/CVE-2020-0796-scanner](https://github.com/sivak1rl/CVE-2020-0796-scanner)
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
-- [wurmx96/CVE-2020-0796](https://github.com/wurmx96/CVE-2020-0796)
+- [wurmx32/CVE-2020-0796](https://github.com/wurmx32/CVE-2020-0796)
 
 ### CVE-2020-0814
 
@@ -7955,7 +7955,7 @@ Jitbit Helpdesk before 9.0.3 allows remote attackers to escalate privileges beca
 An XSS vulnerability was discovered in noVNC before 0.6.2 in which the remote VNC server could inject arbitrary HTML into the noVNC web page via the messages propagated to the status field, such as the VNC server name.
 </code>
 
-- [ShielderSec/cve-2017-18635](https://github.com/ShielderSec/cve-2017-18635)
+- [ShielderSec/CVE-2017-18635](https://github.com/ShielderSec/CVE-2017-18635)
 
 ### CVE-2017-2368
 
