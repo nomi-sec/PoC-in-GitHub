@@ -3175,6 +3175,7 @@ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution whe
 </code>
 
 - [jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-](https://github.com/jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-)
+- [rabbitmask/CVE-2019-5475-EXP](https://github.com/rabbitmask/CVE-2019-5475-EXP)
 
 ### CVE-2019-5489
 
@@ -5308,6 +5309,14 @@ OpenMRS before 2.24.0 is affected by an Insecure Object Deserialization vulnerab
 </code>
 
 - [mpgn/CVE-2018-19276](https://github.com/mpgn/CVE-2018-19276)
+
+### CVE-2018-19320
+
+<code>
+The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRAPHICS ENGINE before 1.57, XTREME GAMING ENGINE before 1.26, and OC GURU II v2.08 exposes ring0 memcpy-like functionality that could allow a local attacker to take complete control of the affected system.
+</code>
+
+- [fdiskyou/CVE-2018-19320](https://github.com/fdiskyou/CVE-2018-19320)
 
 ### CVE-2018-19466
 
@@ -12970,6 +12979,14 @@ Xerver Free Web Server 2.10 and earlier allows remote attackers to cause a denia
 </code>
 
 - [alt3kx/CVE-2002-0448](https://github.com/alt3kx/CVE-2002-0448)
+
+### CVE-2002-0740
+
+<code>
+Buffer overflow in slrnpull for the SLRN package, when installed setuid or setgid, allows local users to gain privileges via a long -d (SPOOLDIR) argument.
+</code>
+
+- [alt3kx/CVE-2002-0740](https://github.com/alt3kx/CVE-2002-0740)
 
 ### CVE-2002-0991
 
