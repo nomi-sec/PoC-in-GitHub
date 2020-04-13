@@ -931,7 +931,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [coolboy4me/cve-2019-0708_bluekeep_rce](https://github.com/coolboy4me/cve-2019-0708_bluekeep_rce)
 - [Cyb0r9/ispy](https://github.com/Cyb0r9/ispy)
 - [shishibabyq/CVE-2019-0708](https://github.com/shishibabyq/CVE-2019-0708)
-- [NotEth1calHack3r/Wincrash](https://github.com/NotEth1calHack3r/Wincrash)
+- [pwnhacker0x18/Wincrash](https://github.com/pwnhacker0x18/Wincrash)
 - [R4v3nG/CVE-2019-0708-DOS](https://github.com/R4v3nG/CVE-2019-0708-DOS)
 - [ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708)
 - [worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708)
@@ -1058,6 +1058,14 @@ In Apache HTTP Server 2.4.0-2.4.39, a limited cross-site scripting issue was rep
 </code>
 
 - [motikan2010/CVE-2019-10092_Docker](https://github.com/motikan2010/CVE-2019-10092_Docker)
+
+### CVE-2019-1010054
+
+<code>
+Dolibarr 7.0.0 is affected by: Cross Site Request Forgery (CSRF). The impact is: allow malitious html to change user password, disable users and disable password encryptation. The component is: Function User password change, user disable and password encryptation. The attack vector is: admin access malitious urls.
+</code>
+
+- [chaizeg/CSRF-breach](https://github.com/chaizeg/CSRF-breach)
 
 ### CVE-2019-1010298
 
@@ -1224,6 +1232,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [0th3rs-Security-Team/CVE-2019-11043](https://github.com/0th3rs-Security-Team/CVE-2019-11043)
 - [k8gege/CVE-2019-11043](https://github.com/k8gege/CVE-2019-11043)
 - [moniik/CVE-2019-11043_env](https://github.com/moniik/CVE-2019-11043_env)
+- [scgs66/CVE-2019-11043](https://github.com/scgs66/CVE-2019-11043)
 
 ### CVE-2019-11061
 
@@ -1363,6 +1372,7 @@ A type confusion vulnerability can occur when manipulating JavaScript objects du
 </code>
 
 - [vigneshsrao/CVE-2019-11707](https://github.com/vigneshsrao/CVE-2019-11707)
+- [tunnelshade/cve-2019-11707](https://github.com/tunnelshade/cve-2019-11707)
 
 ### CVE-2019-11708
 
@@ -2403,7 +2413,7 @@ Ubiquiti EdgeMAX devices before 2.0.3 allow remote attackers to cause a denial o
 Unauthenticated remote code execution occurs in D-Link products such as DIR-655C, DIR-866L, DIR-652, and DHP-1565. The issue occurs when the attacker sends an arbitrary input to a &quot;PingTest&quot; device common gateway interface that could lead to common injection. An attacker who successfully triggers the command injection could achieve full system compromise. Later, it was independently found that these are also affected: DIR-855L, DAP-1533, DIR-862L, DIR-615, DIR-835, and DIR-825.
 </code>
 
-- [NotEth1calHack3r/CVE-2019-16920-MassPwn3r](https://github.com/NotEth1calHack3r/CVE-2019-16920-MassPwn3r)
+- [pwnhacker0x18/CVE-2019-16920-MassPwn3r](https://github.com/pwnhacker0x18/CVE-2019-16920-MassPwn3r)
 
 ### CVE-2019-16941
 
@@ -3030,6 +3040,14 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [SukaraLin/CVE-2019-2890](https://github.com/SukaraLin/CVE-2019-2890)
 - [jas502n/CVE-2019-2890](https://github.com/jas502n/CVE-2019-2890)
 - [ianxtianxt/CVE-2019-2890](https://github.com/ianxtianxt/CVE-2019-2890)
+
+### CVE-2019-3010
+
+<code>
+Vulnerability in the Oracle Solaris product of Oracle Systems (component: XScreenSaver). The supported version that is affected is 11. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Solaris executes to compromise Oracle Solaris. While the vulnerability is in Oracle Solaris, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Oracle Solaris. CVSS 3.0 Base Score 8.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).
+</code>
+
+- [chaizeg/privilege-escalation-breach](https://github.com/chaizeg/privilege-escalation-breach)
 
 ### CVE-2019-3394
 
@@ -5463,7 +5481,7 @@ There is Stored XSS in GetSimple CMS 3.3.12 via the admin/edit.php &quot;post-me
 NUUO NVRmini2 Network Video Recorder firmware through 3.9.1 allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow), resulting in ability to read camera feeds or reconfigure the device.
 </code>
 
-- [NotEth1calHack3r/CVE-2018-19864](https://github.com/NotEth1calHack3r/CVE-2018-19864)
+- [pwnhacker0x18/CVE-2018-19864](https://github.com/pwnhacker0x18/CVE-2018-19864)
 
 ### CVE-2018-19901
 
@@ -5995,7 +6013,7 @@ A memory corruption issue was addressed with improved validation. This issue aff
 - [soccercab/wifi](https://github.com/soccercab/wifi)
 - [zeng9t/CVE-2018-4407-iOS-exploit](https://github.com/zeng9t/CVE-2018-4407-iOS-exploit)
 - [5431/CVE-2018-4407](https://github.com/5431/CVE-2018-4407)
-- [NotEth1calHack3r/iOS-Kernel-Crash](https://github.com/NotEth1calHack3r/iOS-Kernel-Crash)
+- [pwnhacker0x18/iOS-Kernel-Crash](https://github.com/pwnhacker0x18/iOS-Kernel-Crash)
 
 ### CVE-2018-4411
 
@@ -12781,14 +12799,6 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
-### CVE-2006-1236
-
-<code>
-Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
-</code>
-
-- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
-
 ### CVE-2006-3592
 
 <code>
