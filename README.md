@@ -2032,8 +2032,8 @@ The TikTok (formerly Musical.ly) application 12.2.0 for Android and iOS performs
 
 - [MelroyB/CVE-2019-14319](https://github.com/MelroyB/CVE-2019-14319)
 
-### CVE-2019-14325
-- [seqred-s-a/cve-2019-14325](https://github.com/seqred-s-a/cve-2019-14325)
+### CVE-2019-14326
+- [seqred-s-a/cve-2019-14326](https://github.com/seqred-s-a/cve-2019-14326)
 
 ### CVE-2019-14339
 
