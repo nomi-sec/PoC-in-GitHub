@@ -219,7 +219,8 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
 - [sivak1rl/CVE-2020-0796-scanner](https://github.com/sivak1rl/CVE-2020-0796-scanner)
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
-- [wurmx32/CVE-2020-0796](https://github.com/wurmx32/CVE-2020-0796)
+- [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
+- [wurmx16/CVE-2020-0796](https://github.com/wurmx16/CVE-2020-0796)
 
 ### CVE-2020-0814
 
@@ -690,9 +691,19 @@ OpenVPN Connect 3.1.0.361 on Windows has Insecure Permissions for %PROGRAMDATA%\
 - [FULLSHADE/CVE-2020-9453_-_CVE-2020-9014](https://github.com/FULLSHADE/CVE-2020-9453_-_CVE-2020-9014)
 
 ### CVE-2020-9460
+
+<code>
+Octech Oempro 4.7 through 4.11 allow XSS by an authenticated user. The parameter CampaignName in Campaign.Create is vulnerable.
+</code>
+
 - [Guilherme-Rubert/CVE-2020-9460](https://github.com/Guilherme-Rubert/CVE-2020-9460)
 
 ### CVE-2020-9461
+
+<code>
+Octech Oempro 4.7 through 4.11 allow stored XSS by an authenticated user. The FolderName parameter of the Media.CreateFolder command is vulnerable.
+</code>
+
 - [Guilherme-Rubert/CVE-2020-9461](https://github.com/Guilherme-Rubert/CVE-2020-9461)
 
 ### CVE-2020-9547
