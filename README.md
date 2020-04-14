@@ -143,6 +143,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [cert-lv/CVE-2020-0688](https://github.com/cert-lv/CVE-2020-0688)
 - [ravinacademy/CVE-2020-0688](https://github.com/ravinacademy/CVE-2020-0688)
 - [mahyarx/Exploit_CVE-2020-0688](https://github.com/mahyarx/Exploit_CVE-2020-0688)
+- [curtbraz/CVE-2020-0688](https://github.com/curtbraz/CVE-2020-0688)
 
 ### CVE-2020-0728
 
@@ -221,6 +222,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
 - [wurmx16/CVE-2020-0796](https://github.com/wurmx16/CVE-2020-0796)
+- [curtbraz/CVE-2020-0796](https://github.com/curtbraz/CVE-2020-0796)
 
 ### CVE-2020-0814
 
@@ -229,6 +231,22 @@ An elevation of privilege vulnerability exists in Windows Installer because of t
 </code>
 
 - [klinix5/CVE-2020-0814](https://github.com/klinix5/CVE-2020-0814)
+
+### CVE-2020-0883
+
+<code>
+A remote code execution vulnerability exists in the way that the Windows Graphics Device Interface (GDI) handles objects in the memory, aka 'GDI+ Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0881.
+</code>
+
+- [curtbraz/CVE-2020-0883](https://github.com/curtbraz/CVE-2020-0883)
+
+### CVE-2020-0905
+
+<code>
+An remote code execution vulnerability exists in Microsoft Dynamics Business Central, aka 'Dynamics Business Central Remote Code Execution Vulnerability'.
+</code>
+
+- [curtbraz/CVE-2020-0905](https://github.com/curtbraz/CVE-2020-0905)
 
 ### CVE-2020-0976
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
@@ -2044,6 +2062,11 @@ The TikTok (formerly Musical.ly) application 12.2.0 for Android and iOS performs
 - [MelroyB/CVE-2019-14319](https://github.com/MelroyB/CVE-2019-14319)
 
 ### CVE-2019-14326
+
+<code>
+An issue was discovered in AndyOS Andy versions up to 46.11.113. By default, it starts telnet and ssh (ports 22 and 23) with root privileges in the emulated Android system. This can be exploited by remote attackers to gain full access to the device, or by malicious apps installed inside the emulator to perform privilege escalation from a normal user to root (unlike with standard methods of getting root privileges on Android - e.g., the SuperSu program - the user is not asked for consent). There is no authentication performed - access to a root shell is given upon a successful connection. NOTE: although this was originally published with a slightly different CVE ID number, the correct ID for this Andy vulnerability has always been CVE-2019-14326.
+</code>
+
 - [seqred-s-a/cve-2019-14326](https://github.com/seqred-s-a/cve-2019-14326)
 
 ### CVE-2019-14339
