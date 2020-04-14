@@ -6021,7 +6021,7 @@ A memory corruption issue was addressed with improved validation. This issue aff
 A memory corruption issue was addressed with improved input validation. This issue affected versions prior to macOS Mojave 10.14.
 </code>
 
-- [dongyangwu/POC-CVE-2018-4411](https://github.com/dongyangwu/POC-CVE-2018-4411)
+- [lilang-wu/POC-CVE-2018-4411](https://github.com/lilang-wu/POC-CVE-2018-4411)
 
 ### CVE-2018-4415
 
@@ -10734,7 +10734,6 @@ Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functio
 - [eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public)
 - [bluebluelan/CVE-2015-7547-proj-master](https://github.com/bluebluelan/CVE-2015-7547-proj-master)
 - [miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master)
-- [Stick-U235/glibc-exploit---CVE-2015-7547](https://github.com/Stick-U235/glibc-exploit---CVE-2015-7547)
 
 ### CVE-2015-7755
 
@@ -12799,6 +12798,14 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
+### CVE-2006-1236
+
+<code>
+Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
+</code>
+
+- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
+
 ### CVE-2006-3592
 
 <code>
