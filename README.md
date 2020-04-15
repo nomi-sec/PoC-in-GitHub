@@ -498,6 +498,15 @@ In NetHack before 3.6.6, some out-of-bound values for the hilite_status option c
 
 - [dpmdpm2/CVE-2020-5254](https://github.com/dpmdpm2/CVE-2020-5254)
 
+### CVE-2020-5260
+
+<code>
+Affected versions of Git have a vulnerability whereby Git can be tricked into sending private credentials to a host controlled by an attacker. Git uses external &quot;credential helper&quot; programs to store and retrieve passwords or other credentials from secure storage provided by the operating system. Specially-crafted URLs that contain an encoded newline can inject unintended values into the credential helper protocol stream, causing the credential helper to retrieve the password for one server (e.g., good.example.com) for an HTTP request being made to another server (e.g., evil.example.com), resulting in credentials for the former being sent to the latter. There are no restrictions on the relationship between the two, meaning that an attacker can craft a URL that will present stored credentials for any host to a host of their choosing. The vulnerability can be triggered by feeding a malicious URL to git clone. However, the affected URLs look rather suspicious; the likely vector would be through systems which automatically clone URLs not visible to the user, such as Git submodules, or package systems built around Git. The problem has been patched in the versions published on April 14th, 2020, going back to v2.17.x. Anyone wishing to backport the change further can do so by applying commit 9a6bbee (the full release includes extra checks for git fsck, but that commit is sufficient to protect clients against the vulnerability). The patched versions are: 2.17.4, 2.18.3, 2.19.4, 2.20.3, 2.21.2, 2.22.3, 2.23.2, 2.24.2, 2.25.3, 2.26.1.
+</code>
+
+- [brompwnie/cve-2020-5260](https://github.com/brompwnie/cve-2020-5260)
+- [Asgavar/CVE-2020-5260](https://github.com/Asgavar/CVE-2020-5260)
+
 ### CVE-2020-5267
 
 <code>
@@ -2010,6 +2019,22 @@ An information disclosure vulnerability exists in Microsoft Office software when
 
 - [lauxjpn/CorruptQueryAccessWorkaround](https://github.com/lauxjpn/CorruptQueryAccessWorkaround)
 
+### CVE-2019-14040
+
+<code>
+Using memory after being freed in qsee due to wrong implementation can lead to unexpected behavior such as execution of unknown code in Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables in APQ8009, APQ8017, APQ8053, APQ8096AU, APQ8098, MDM9150, MDM9206, MDM9207C, MDM9607, MDM9640, MDM9650, MSM8905, MSM8909W, MSM8917, MSM8920, MSM8937, MSM8940, MSM8953, MSM8996AU, MSM8998, QCS605, QM215, SDA660, SDA845, SDM429, SDM429W, SDM439, SDM450, SDM630, SDM632, SDM636, SDM660, SDM845, SDX20, SDX24, SM8150, SXR1130
+</code>
+
+- [tamirzb/CVE-2019-14040](https://github.com/tamirzb/CVE-2019-14040)
+
+### CVE-2019-14041
+
+<code>
+During listener modified response processing, a buffer overrun occurs due to lack of buffer size verification when updating message buffer with physical address information in Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables in APQ8009, APQ8017, APQ8053, APQ8096AU, APQ8098, MDM9206, MDM9207C, MDM9607, MDM9640, MDM9650, MSM8905, MSM8909W, MSM8917, MSM8953, MSM8996AU, Nicobar, QCM2150, QCS405, QCS605, QM215, Rennell, SA6155P, Saipan, SC8180X, SDA660, SDA845, SDM429, SDM429W, SDM439, SDM450, SDM632, SDM670, SDM710, SDM845, SDX20, SDX24, SDX55, SM6150, SM7150, SM8150, SM8250, SXR1130, SXR2130
+</code>
+
+- [tamirzb/CVE-2019-14041](https://github.com/tamirzb/CVE-2019-14041)
+
 ### CVE-2019-1405
 
 <code>
@@ -2948,6 +2973,14 @@ payment_manage.ajax.php and various *_manage.ajax.php in MFScripts YetiShare 3.5
 </code>
 
 - [jra89/CVE-2019-20059](https://github.com/jra89/CVE-2019-20059)
+
+### CVE-2019-20085
+
+<code>
+TVT NVMS-1000 devices allow GET /.. Directory Traversal
+</code>
+
+- [AleDiBen/NVMS1000-Exploit](https://github.com/AleDiBen/NVMS1000-Exploit)
 
 ### CVE-2019-20197
 
