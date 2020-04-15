@@ -37,6 +37,12 @@ Load value injection in some Intel(R) Processors utilizing speculative execution
 
 - [bitdefender/lvi-lfb-attack-poc](https://github.com/bitdefender/lvi-lfb-attack-poc)
 
+### CVE-2020-0557
+- [hessandrew/CVE-2020-0557_INTEL-SA-00338](https://github.com/hessandrew/CVE-2020-0557_INTEL-SA-00338)
+
+### CVE-2020-0568
+- [hessandrew/CVE-2020-0568_INTEL-SA-00344](https://github.com/hessandrew/CVE-2020-0568_INTEL-SA-00344)
+
 ### CVE-2020-0601
 
 <code>
@@ -159,6 +165,7 @@ An information vulnerability exists when Windows Modules Installer Service impro
 An elevation of privilege vulnerability exists in Windows Error Reporting (WER) when WER handles and executes files, aka 'Windows Error Reporting Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0754.
 </code>
 
+- [afang5472/CVE-2020-0753-and-CVE-2020-0754](https://github.com/afang5472/CVE-2020-0753-and-CVE-2020-0754)
 - [VikasVarshney/CVE-2020-0753-and-CVE-2020-0754](https://github.com/VikasVarshney/CVE-2020-0753-and-CVE-2020-0754)
 
 ### CVE-2020-0796
@@ -449,6 +456,23 @@ An inconsistent user interface issue was addressed with improved state managemen
 </code>
 
 - [c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-](https://github.com/c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-)
+
+### CVE-2020-3952
+
+<code>
+Under certain conditions, vmdir that ships with VMware vCenter Server, as part of an embedded or external Platform Services Controller (PSC), does not correctly implement access controls.
+</code>
+
+- [curtbraz/CVE-2020-3952](https://github.com/curtbraz/CVE-2020-3952)
+- [commandermoon/CVE-2020-3952](https://github.com/commandermoon/CVE-2020-3952)
+
+### CVE-2020-4276
+
+<code>
+IBM WebSphere Application Server 7.0, 8.0, 8.5, and 9.0 traditional is vulnerable to a privilege escalation vulnerability when using token-based authentication in an admin request over the SOAP connector. X-Force ID: 175984.
+</code>
+
+- [mekoko/CVE-2020-4276](https://github.com/mekoko/CVE-2020-4276)
 
 ### CVE-2020-5236
 
