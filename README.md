@@ -278,9 +278,11 @@ A spoofing vulnerability exists when Microsoft SharePoint Server does not proper
 Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
 </code>
 
+- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [wsfengfan/CVE-2020-10199-10204](https://github.com/wsfengfan/CVE-2020-10199-10204)
 - [jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199)
 - [magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204)
+- [zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP)
 
 ### CVE-2020-10238
 
@@ -392,7 +394,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
 - [syncxx/CVE-2020-1938-Tool](https://github.com/syncxx/CVE-2020-1938-Tool)
 - [ZhengHaoCHeng/CNVD-2020-10487](https://github.com/ZhengHaoCHeng/CNVD-2020-10487)
-- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 
 ### CVE-2020-1947
 
