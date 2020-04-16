@@ -479,6 +479,7 @@ Under certain conditions, vmdir that ships with VMware vCenter Server, as part o
 
 - [curtbraz/CVE-2020-3952](https://github.com/curtbraz/CVE-2020-3952)
 - [commandermoon/CVE-2020-3952](https://github.com/commandermoon/CVE-2020-3952)
+- [guardicore/vmware_vcenter_cve_2020_3952](https://github.com/guardicore/vmware_vcenter_cve_2020_3952)
 
 ### CVE-2020-4276
 
