@@ -235,7 +235,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [eastmountyxz/CVE-2020-0796-SMB](https://github.com/eastmountyxz/CVE-2020-0796-SMB)
 - [LabDookhtegan/CVE-2020-0796-EXP](https://github.com/LabDookhtegan/CVE-2020-0796-EXP)
 - [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
-- [sivak1rl/CVE-2020-0796-scanner](https://github.com/sivak1rl/CVE-2020-0796-scanner)
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
 - [curtbraz/CVE-2020-0796](https://github.com/curtbraz/CVE-2020-0796)
@@ -522,6 +521,7 @@ Affected versions of Git have a vulnerability whereby Git can be tricked into se
 
 - [brompwnie/cve-2020-5260](https://github.com/brompwnie/cve-2020-5260)
 - [Asgavar/CVE-2020-5260](https://github.com/Asgavar/CVE-2020-5260)
+- [sv3nbeast/CVE-2020-5260](https://github.com/sv3nbeast/CVE-2020-5260)
 
 ### CVE-2020-5267
 
@@ -1400,6 +1400,7 @@ In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7
 - [jason3e7/CVE-2019-11510](https://github.com/jason3e7/CVE-2019-11510)
 - [BishopFox/pwn-pulse](https://github.com/BishopFox/pwn-pulse)
 - [aqhmal/pulsexploit](https://github.com/aqhmal/pulsexploit)
+- [cisagov/check-your-pulse](https://github.com/cisagov/check-your-pulse)
 
 ### CVE-2019-11523
 
@@ -2487,6 +2488,7 @@ vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig
 - [M0sterHxck/CVE-2019-16759-Vbulletin-rce-exploit](https://github.com/M0sterHxck/CVE-2019-16759-Vbulletin-rce-exploit)
 - [r00tpgp/http-vuln-CVE-2019-16759](https://github.com/r00tpgp/http-vuln-CVE-2019-16759)
 - [jas502n/CVE-2019-16759](https://github.com/jas502n/CVE-2019-16759)
+- [FarjaalAhmad/CVE-2019-16759](https://github.com/FarjaalAhmad/CVE-2019-16759)
 - [andripwn/pwn-vbulletin](https://github.com/andripwn/pwn-vbulletin)
 - [psychoxploit/vbull](https://github.com/psychoxploit/vbull)
 
