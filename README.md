@@ -283,6 +283,14 @@ Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
 - [magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204)
 - [zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP)
 
+### CVE-2020-10204
+
+<code>
+Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
+</code>
+
+- [duolaoa333/CVE-2020-10204](https://github.com/duolaoa333/CVE-2020-10204)
+
 ### CVE-2020-10238
 
 <code>
