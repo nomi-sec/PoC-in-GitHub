@@ -488,6 +488,7 @@ Under certain conditions, vmdir that ships with VMware vCenter Server, as part o
 - [curtbraz/CVE-2020-3952](https://github.com/curtbraz/CVE-2020-3952)
 - [commandermoon/CVE-2020-3952](https://github.com/commandermoon/CVE-2020-3952)
 - [guardicore/vmware_vcenter_cve_2020_3952](https://github.com/guardicore/vmware_vcenter_cve_2020_3952)
+- [gelim/CVE-2020-3952](https://github.com/gelim/CVE-2020-3952)
 
 ### CVE-2020-4276
 
@@ -12610,14 +12611,6 @@ Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.1
 </code>
 
 - [minervais/pocs](https://github.com/minervais/pocs)
-
-### CVE-2009-1185
-
-<code>
-udev before 1.4.1 does not verify whether a NETLINK message originates from kernel space, which allows local users to gain privileges by sending a NETLINK message from user space.
-</code>
-
-- [joker2a/CVE-2009-1185-UDEV](https://github.com/joker2a/CVE-2009-1185-UDEV)
 
 ### CVE-2009-1244
 
