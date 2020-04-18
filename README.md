@@ -159,7 +159,15 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [cert-lv/CVE-2020-0688](https://github.com/cert-lv/CVE-2020-0688)
 - [ravinacademy/CVE-2020-0688](https://github.com/ravinacademy/CVE-2020-0688)
 - [mahyarx/Exploit_CVE-2020-0688](https://github.com/mahyarx/Exploit_CVE-2020-0688)
-- [curtbraz/CVE-2020-0688](https://github.com/curtbraz/CVE-2020-0688)
+- [l33terman6000/CVE-2020-0688](https://github.com/l33terman6000/CVE-2020-0688)
+
+### CVE-2020-0692
+
+<code>
+An elevation of privilege vulnerability exists in Microsoft Exchange Server, aka 'Microsoft Exchange Server Elevation of Privilege Vulnerability'.
+</code>
+
+- [githubassets/CVE-2020-0692](https://github.com/githubassets/CVE-2020-0692)
 
 ### CVE-2020-0728
 
@@ -237,8 +245,16 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
-- [curtbraz/CVE-2020-0796](https://github.com/curtbraz/CVE-2020-0796)
 - [wurmx56/CVE-2020-0796](https://github.com/wurmx56/CVE-2020-0796)
+- [l33terman6000/CVE-2020-0796](https://github.com/l33terman6000/CVE-2020-0796)
+
+### CVE-2020-0798
+
+<code>
+An elevation of privilege vulnerability exists in the Windows Installer when the Windows Installer fails to properly sanitize input leading to an insecure library loading behavior.A locally authenticated attacker could run arbitrary code with elevated system privileges, aka 'Windows Installer Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0779, CVE-2020-0814, CVE-2020-0842, CVE-2020-0843.
+</code>
+
+- [githubassets/CVE-2020-0798](https://github.com/githubassets/CVE-2020-0798)
 
 ### CVE-2020-0814
 
@@ -254,7 +270,8 @@ An elevation of privilege vulnerability exists in Windows Installer because of t
 A remote code execution vulnerability exists in the way that the Windows Graphics Device Interface (GDI) handles objects in the memory, aka 'GDI+ Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0881.
 </code>
 
-- [curtbraz/CVE-2020-0883](https://github.com/curtbraz/CVE-2020-0883)
+- [githubassets/CVE-2020-0883](https://github.com/githubassets/CVE-2020-0883)
+- [l33terman6000/CVE-2020-0883](https://github.com/l33terman6000/CVE-2020-0883)
 
 ### CVE-2020-0905
 
@@ -262,7 +279,8 @@ A remote code execution vulnerability exists in the way that the Windows Graphic
 An remote code execution vulnerability exists in Microsoft Dynamics Business Central, aka 'Dynamics Business Central Remote Code Execution Vulnerability'.
 </code>
 
-- [curtbraz/CVE-2020-0905](https://github.com/curtbraz/CVE-2020-0905)
+- [githubassets/CVE-2020-0905](https://github.com/githubassets/CVE-2020-0905)
+- [l33terman6000/CVE-2020-0905](https://github.com/l33terman6000/CVE-2020-0905)
 
 ### CVE-2020-0976
 
@@ -486,10 +504,11 @@ An inconsistent user interface issue was addressed with improved state managemen
 Under certain conditions, vmdir that ships with VMware vCenter Server, as part of an embedded or external Platform Services Controller (PSC), does not correctly implement access controls.
 </code>
 
-- [curtbraz/CVE-2020-3952](https://github.com/curtbraz/CVE-2020-3952)
 - [commandermoon/CVE-2020-3952](https://github.com/commandermoon/CVE-2020-3952)
+- [frustreated/CVE-2020-3952](https://github.com/frustreated/CVE-2020-3952)
 - [guardicore/vmware_vcenter_cve_2020_3952](https://github.com/guardicore/vmware_vcenter_cve_2020_3952)
 - [gelim/CVE-2020-3952](https://github.com/gelim/CVE-2020-3952)
+- [l33terman6000/CVE-2020-3952](https://github.com/l33terman6000/CVE-2020-3952)
 
 ### CVE-2020-4276
 
@@ -13048,7 +13067,6 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
-- [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
 
 
 ## 2002
