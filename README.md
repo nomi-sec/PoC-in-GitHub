@@ -2589,6 +2589,9 @@ A Cascading Style Sheets (CSS) injection vulnerability in Swagger UI before 3.23
 
 - [SecT0uch/CVE-2019-17495-test](https://github.com/SecT0uch/CVE-2019-17495-test)
 
+### CVE-2019-17525
+- [huzaifahussain98/CVE-2019-17525](https://github.com/huzaifahussain98/CVE-2019-17525)
+
 ### CVE-2019-17558
 
 <code>
