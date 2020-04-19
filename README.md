@@ -510,6 +510,7 @@ Under certain conditions, vmdir that ships with VMware vCenter Server, as part o
 - [guardicore/vmware_vcenter_cve_2020_3952](https://github.com/guardicore/vmware_vcenter_cve_2020_3952)
 - [gelim/CVE-2020-3952](https://github.com/gelim/CVE-2020-3952)
 - [l33terman6000/CVE-2020-3952](https://github.com/l33terman6000/CVE-2020-3952)
+- [Fa1c0n35/vmware_vcenter_cve_2020_3952](https://github.com/Fa1c0n35/vmware_vcenter_cve_2020_3952)
 
 ### CVE-2020-4276
 
@@ -4299,6 +4300,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [Kurlee/LibSSH-exploit](https://github.com/Kurlee/LibSSH-exploit)
 - [crispy-peppers/Libssh-server-CVE-2018-10933](https://github.com/crispy-peppers/Libssh-server-CVE-2018-10933)
 - [youkergav/CVE-2018-10933](https://github.com/youkergav/CVE-2018-10933)
+- [kristyna-mlcakova/CVE-2018-10933](https://github.com/kristyna-mlcakova/CVE-2018-10933)
 
 ### CVE-2018-10936
 
