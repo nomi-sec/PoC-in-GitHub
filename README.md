@@ -245,7 +245,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
-- [wurmx56/CVE-2020-0796](https://github.com/wurmx56/CVE-2020-0796)
 - [l33terman6000/CVE-2020-0796](https://github.com/l33terman6000/CVE-2020-0796)
 - [jastexpl0iter/CVE-2020-0796_RCE](https://github.com/jastexpl0iter/CVE-2020-0796_RCE)
 
