@@ -283,6 +283,22 @@ An remote code execution vulnerability exists in Microsoft Dynamics Business Cen
 - [githubassets/CVE-2020-0905](https://github.com/githubassets/CVE-2020-0905)
 - [l33terman6000/CVE-2020-0905](https://github.com/l33terman6000/CVE-2020-0905)
 
+### CVE-2020-0910
+
+<code>
+A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
+</code>
+
+- [l33terman6000/CVE-2020-0910](https://github.com/l33terman6000/CVE-2020-0910)
+
+### CVE-2020-0929
+
+<code>
+A remote code execution vulnerability exists in Microsoft SharePoint when the software fails to check the source markup of an application package, aka 'Microsoft SharePoint Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0920, CVE-2020-0931, CVE-2020-0932, CVE-2020-0971, CVE-2020-0974.
+</code>
+
+- [l33terman6000/CVE-2020-0929](https://github.com/l33terman6000/CVE-2020-0929)
+
 ### CVE-2020-0976
 
 <code>
@@ -2980,6 +2996,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [0xams/citrixvulncheck](https://github.com/0xams/citrixvulncheck)
 - [RaulCalvoLaorden/CVE-2019-19781](https://github.com/RaulCalvoLaorden/CVE-2019-19781)
 - [nmanzi/webcvescanner](https://github.com/nmanzi/webcvescanner)
+- [darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC)
 
 ### CVE-2019-19844
 
