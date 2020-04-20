@@ -681,7 +681,7 @@ CA Unified Infrastructure Management (Nimsoft/UIM) 9.20 and below contains a buf
 The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the lack of a Referer check on the import menu.
 </code>
 
-- [VulnCrate/WP-CodeSnippets-CVE-2020-8417](https://github.com/VulnCrate/WP-CodeSnippets-CVE-2020-8417)
+- [vulncrate/wp-codesnippets-cve-2020-8417](https://github.com/vulncrate/wp-codesnippets-cve-2020-8417)
 
 ### CVE-2020-8515
 
