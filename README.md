@@ -246,7 +246,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
 - [l33terman6000/CVE-2020-0796](https://github.com/l33terman6000/CVE-2020-0796)
-- [jastexpl0iter/CVE-2020-0796_RCE](https://github.com/jastexpl0iter/CVE-2020-0796_RCE)
 - [wurmx/CVE-2020-0796](https://github.com/wurmx/CVE-2020-0796)
 
 ### CVE-2020-0798
@@ -2628,6 +2627,11 @@ A Cascading Style Sheets (CSS) injection vulnerability in Swagger UI before 3.23
 - [SecT0uch/CVE-2019-17495-test](https://github.com/SecT0uch/CVE-2019-17495-test)
 
 ### CVE-2019-17525
+
+<code>
+The login page on D-Link DIR-615 T1 20.10 devices allows remote attackers to bypass the CAPTCHA protection mechanism and conduct brute-force attacks.
+</code>
+
 - [huzaifahussain98/CVE-2019-17525](https://github.com/huzaifahussain98/CVE-2019-17525)
 
 ### CVE-2019-17558
