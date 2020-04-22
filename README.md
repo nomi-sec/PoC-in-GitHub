@@ -403,6 +403,14 @@ An issue was discovered in iXsystems FreeNAS (and TrueNAS) 11.2 before 11.2-u8 a
 
 - [weinull/CVE-2020-11650](https://github.com/weinull/CVE-2020-11650)
 
+### CVE-2020-11890
+
+<code>
+An issue was discovered in Joomla! before 3.9.17. Improper input validations in the usergroup table class could lead to a broken ACL configuration.
+</code>
+
+- [HoangKien1020/CVE-2020-11890](https://github.com/HoangKien1020/CVE-2020-11890)
+
 ### CVE-2020-1611
 
 <code>
