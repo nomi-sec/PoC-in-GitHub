@@ -202,7 +202,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 
 - [Aekras1a/CVE-2020-0796-PoC](https://github.com/Aekras1a/CVE-2020-0796-PoC)
 - [technion/DisableSMBCompression](https://github.com/technion/DisableSMBCompression)
-- [cve-2020-0796/cve-2020-0796](https://github.com/cve-2020-0796/cve-2020-0796)
 - [T13nn3s/CVE-2020-0796](https://github.com/T13nn3s/CVE-2020-0796)
 - [ollypwn/SMBGhost](https://github.com/ollypwn/SMBGhost)
 - [joaozietolie/CVE-2020-0796-Checker](https://github.com/joaozietolie/CVE-2020-0796-Checker)
@@ -255,6 +254,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
 - [l33terman6000/CVE-2020-0796](https://github.com/l33terman6000/CVE-2020-0796)
 - [syadg123/CVE-2020-0796](https://github.com/syadg123/CVE-2020-0796)
+- [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
 
 ### CVE-2020-0798
 
@@ -509,7 +509,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 ### CVE-2020-2555
 
 <code>
-Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (component: Caching,CacheStore,Invocation). Supported versions that are affected are 3.7.1.17, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle Coherence. Successful attacks of this vulnerability can result in takeover of Oracle Coherence. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (component: Caching,CacheStore,Invocation). Supported versions that are affected are 3.7.1.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle Coherence. Successful attacks of this vulnerability can result in takeover of Oracle Coherence. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
 - [Hu3sky/CVE-2020-2555](https://github.com/Hu3sky/CVE-2020-2555)
@@ -644,6 +644,9 @@ UPS companion software v1.05 &amp; Prior is affected by ‘Eval Injection’ vul
 </code>
 
 - [RavSS/Eaton-UPS-Companion-Exploit](https://github.com/RavSS/Eaton-UPS-Companion-Exploit)
+
+### CVE-2020-6888
+- [section-c/CVE-2020-6888](https://github.com/section-c/CVE-2020-6888)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
