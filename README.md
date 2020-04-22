@@ -114,6 +114,14 @@ A remote code execution vulnerability exists in Microsoft SQL Server Reporting S
 - [euphrat1ca/CVE-2020-0618](https://github.com/euphrat1ca/CVE-2020-0618)
 - [wortell/cve-2020-0618](https://github.com/wortell/cve-2020-0618)
 
+### CVE-2020-0624
+
+<code>
+An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0642.
+</code>
+
+- [james0x40/CVE-2020-0624](https://github.com/james0x40/CVE-2020-0624)
+
 ### CVE-2020-0668
 
 <code>
@@ -246,7 +254,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
 - [l33terman6000/CVE-2020-0796](https://github.com/l33terman6000/CVE-2020-0796)
-- [wurmx/CVE-2020-0796](https://github.com/wurmx/CVE-2020-0796)
+- [syadg123/CVE-2020-0796](https://github.com/syadg123/CVE-2020-0796)
 
 ### CVE-2020-0798
 
@@ -272,6 +280,7 @@ A remote code execution vulnerability exists in the way that the Windows Graphic
 
 - [githubassets/CVE-2020-0883](https://github.com/githubassets/CVE-2020-0883)
 - [l33terman6000/CVE-2020-0883](https://github.com/l33terman6000/CVE-2020-0883)
+- [syadg123/CVE-2020-0883](https://github.com/syadg123/CVE-2020-0883)
 
 ### CVE-2020-0905
 
@@ -395,6 +404,14 @@ An issue was discovered in XAMPP before 7.2.29, 7.3.x before 7.3.16 , and 7.4.x 
 - [S1lkys/CVE-2020-11107](https://github.com/S1lkys/CVE-2020-11107)
 - [andripwn/CVE-2020-11107](https://github.com/andripwn/CVE-2020-11107)
 
+### CVE-2020-11539
+
+<code>
+An issue was discovered on Tata Sonata Smart SF Rush 1.12 devices. It has been identified that the smart band has no pairing (mode 0 Bluetooth LE security level) The data being transmitted over the air is not encrypted. Adding to this, the data being sent to the smart band doesn't have any authentication or signature verification. Thus, any attacker can control a parameter of the device.
+</code>
+
+- [the-girl-who-lived/CVE-2020-11539](https://github.com/the-girl-who-lived/CVE-2020-11539)
+
 ### CVE-2020-11650
 
 <code>
@@ -463,6 +480,9 @@ When LDAP authentication is enabled in Apache Druid 0.17.0, callers of Druid API
 </code>
 
 - [ggolawski/CVE-2020-1958](https://github.com/ggolawski/CVE-2020-1958)
+
+### CVE-2020-2333
+- [section-c/CVE-2020-2333](https://github.com/section-c/CVE-2020-2333)
 
 ### CVE-2020-2546
 
@@ -7273,14 +7293,6 @@ An elevation of privilege vulnerability in the kernel ION subsystem could enable
 
 - [guoygang/CVE-2017-0564-ION-PoC](https://github.com/guoygang/CVE-2017-0564-ION-PoC)
 
-### CVE-2017-0780
-
-<code>
-A denial of service vulnerability in the Android runtime (android messenger). Product: Android. Versions: 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-37742976.
-</code>
-
-- [EggUncle/CVE-2017-0780](https://github.com/EggUncle/CVE-2017-0780)
-
 ### CVE-2017-0781
 
 <code>
@@ -12925,6 +12937,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
+- [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
 
 ### CVE-2007-3830
 
