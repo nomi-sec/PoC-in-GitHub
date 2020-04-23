@@ -428,6 +428,17 @@ An issue was discovered in Joomla! before 3.9.17. Improper input validations in 
 
 - [HoangKien1020/CVE-2020-11890](https://github.com/HoangKien1020/CVE-2020-11890)
 
+### CVE-2020-12065
+- [educationnull/CVE-2020-12065](https://github.com/educationnull/CVE-2020-12065)
+
+### CVE-2020-12112
+
+<code>
+BigBlueButton before 2.2.5 allows remote attackers to obtain sensitive files via Local File Inclusion.
+</code>
+
+- [tchenu/CVE-2020-12112](https://github.com/tchenu/CVE-2020-12112)
+
 ### CVE-2020-1611
 
 <code>
