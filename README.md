@@ -1588,6 +1588,7 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [mRanonyMousTZ/CVE-2019-11932-whatsApp-exploit](https://github.com/mRanonyMousTZ/CVE-2019-11932-whatsApp-exploit)
 - [SmoZy92/CVE-2019-11932](https://github.com/SmoZy92/CVE-2019-11932)
 - [dashtic172/https-github.com-awakened171](https://github.com/dashtic172/https-github.com-awakened171)
+- [Err0r-ICA/WhatsPayloadRCE](https://github.com/Err0r-ICA/WhatsPayloadRCE)
 
 ### CVE-2019-12086
 
