@@ -2187,6 +2187,14 @@ An issue was discovered in BlueStacks 4.110 and below on macOS and on 4.120 and 
 
 - [seqred-s-a/cve-2019-14220](https://github.com/seqred-s-a/cve-2019-14220)
 
+### CVE-2019-14267
+
+<code>
+PDFResurrect 0.15 has a buffer overflow via a crafted PDF file because data associated with startxref and %%EOF is mishandled.
+</code>
+
+- [snappyJack/pdfresurrect_CVE-2019-14267](https://github.com/snappyJack/pdfresurrect_CVE-2019-14267)
+
 ### CVE-2019-14287
 
 <code>
@@ -4757,6 +4765,14 @@ Security constraints defined by annotations of Servlets in Apache Tomcat 9.0.0.M
 
 - [RealBearcat/CVE-2018-1305](https://github.com/RealBearcat/CVE-2018-1305)
 
+### CVE-2018-1306
+
+<code>
+The PortletV3AnnotatedDemo Multipart Portlet war file code provided in Apache Pluto version 3.0.0 could allow a remote attacker to obtain sensitive information, caused by the failure to restrict path information provided during a file upload. An attacker could exploit this vulnerability to obtain configuration data and other sensitive information.
+</code>
+
+- [JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306](https://github.com/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306)
+
 ### CVE-2018-1313
 
 <code>
@@ -7127,6 +7143,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool](https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool)
 - [b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC)
 - [keyw0rds/HTC](https://github.com/keyw0rds/HTC)
+- [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
 
 
 ## 2017
@@ -8806,6 +8823,7 @@ A deserialization flaw was discovered in the jackson-databind, versions before 2
 - [47bwy/CVE-2017-7525](https://github.com/47bwy/CVE-2017-7525)
 - [BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE)
 - [Dannners/jackson-deserialization-2017-7525](https://github.com/Dannners/jackson-deserialization-2017-7525)
+- [Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab](https://github.com/Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab)
 
 ### CVE-2017-7529
 
