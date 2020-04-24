@@ -428,6 +428,9 @@ An issue was discovered in Joomla! before 3.9.17. Improper input validations in 
 
 - [HoangKien1020/CVE-2020-11890](https://github.com/HoangKien1020/CVE-2020-11890)
 
+### CVE-2020-12064
+- [educationnull/CVE-2020-12064](https://github.com/educationnull/CVE-2020-12064)
+
 ### CVE-2020-12065
 - [educationnull/CVE-2020-12065](https://github.com/educationnull/CVE-2020-12065)
 
@@ -438,6 +441,9 @@ BigBlueButton before 2.2.5 allows remote attackers to obtain sensitive files via
 </code>
 
 - [tchenu/CVE-2020-12112](https://github.com/tchenu/CVE-2020-12112)
+
+### CVE-2020-12122
+- [FULLSHADE/CVE-2020-12122](https://github.com/FULLSHADE/CVE-2020-12122)
 
 ### CVE-2020-1611
 
@@ -8514,7 +8520,6 @@ An unprivileged network attacker could gain system privileges to provisioned Int
 - [CerberusSecurity/CVE-2017-5689](https://github.com/CerberusSecurity/CVE-2017-5689)
 - [x1sec/amthoneypot](https://github.com/x1sec/amthoneypot)
 - [Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass)
-- [prototux/amt-bypass-test](https://github.com/prototux/amt-bypass-test)
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 
 ### CVE-2017-5693
