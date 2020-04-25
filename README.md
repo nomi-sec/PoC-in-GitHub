@@ -1097,7 +1097,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [adkinguzi/CVE-2019-0708-BlueKeep](https://github.com/adkinguzi/CVE-2019-0708-BlueKeep)
 - [FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708)
 - [qinggegeya/CVE-2019-0708-EXP-MSF-](https://github.com/qinggegeya/CVE-2019-0708-EXP-MSF-)
-- [Straight-wood/CVE-2019-0708](https://github.com/Straight-wood/CVE-2019-0708)
+- [distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708)
 - [0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test)
 - [1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708)
 - [coolboy4me/cve-2019-0708_bluekeep_rce](https://github.com/coolboy4me/cve-2019-0708_bluekeep_rce)
@@ -3174,6 +3174,7 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 - [marcinguy/CVE-2019-2215](https://github.com/marcinguy/CVE-2019-2215)
 - [LIznzn/CVE-2019-2215](https://github.com/LIznzn/CVE-2019-2215)
 - [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
+- [c0n71nu3/android-kernel-exploitation-ashfaq-CVE-2019-2215](https://github.com/c0n71nu3/android-kernel-exploitation-ashfaq-CVE-2019-2215)
 
 ### CVE-2019-2525
 
@@ -4915,6 +4916,14 @@ The RichFaces Framework 3.X through 3.3.4 is vulnerable to Expression Language (
 - [syriusbughunt/CVE-2018-14667](https://github.com/syriusbughunt/CVE-2018-14667)
 - [quandqn/cve-2018-14667](https://github.com/quandqn/cve-2018-14667)
 - [Venscor/CVE-2018-14667-poc](https://github.com/Venscor/CVE-2018-14667-poc)
+
+### CVE-2018-14714
+
+<code>
+System command injection in appGet.cgi on ASUS RT-AC3200 version 3.0.0.4.382.50010 allows attackers to execute system commands via the &quot;load_script&quot; URL parameter.
+</code>
+
+- [tin-z/CVE-2018-14714-POC](https://github.com/tin-z/CVE-2018-14714-POC)
 
 ### CVE-2018-14729
 
@@ -11069,6 +11078,14 @@ jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a c
 
 
 ## 2014
+### CVE-2014-0038
+
+<code>
+The compat_sys_recvmmsg function in net/compat.c in the Linux kernel before 3.13.2, when CONFIG_X86_X32 is enabled, allows local users to gain privileges via a recvmmsg system call with a crafted timeout pointer parameter.
+</code>
+
+- [saelo/cve-2014-0038](https://github.com/saelo/cve-2014-0038)
+
 ### CVE-2014-0050
 
 <code>
@@ -11092,6 +11109,7 @@ Apache Commons BeanUtils, as distributed in lib/commons-beanutils-1.8.0.jar in A
 </code>
 
 - [rgielen/struts1filter](https://github.com/rgielen/struts1filter)
+- [ricedu/struts1-patch](https://github.com/ricedu/struts1-patch)
 - [anob3it/strutt-cve-2014-0114](https://github.com/anob3it/strutt-cve-2014-0114)
 
 ### CVE-2014-0130
@@ -11109,14 +11127,37 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 </code>
 
 - [FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed)
+- [titanous/heartbleeder](https://github.com/titanous/heartbleeder)
+- [DominikTo/bleed](https://github.com/DominikTo/bleed)
+- [cyphar/heartthreader](https://github.com/cyphar/heartthreader)
 - [jdauphant/patch-openssl-CVE-2014-0160](https://github.com/jdauphant/patch-openssl-CVE-2014-0160)
 - [musalbas/heartbleed-masstest](https://github.com/musalbas/heartbleed-masstest)
+- [obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner)
 - [Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker)
+- [isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic)
+- [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
+- [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
+- [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
+- [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
+- [amerine/coronary](https://github.com/amerine/coronary)
+- [0x90/CVE-2014-0160](https://github.com/0x90/CVE-2014-0160)
+- [ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160)
+- [waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker)
+- [siddolo/knockbleed](https://github.com/siddolo/knockbleed)
+- [sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix)
+- [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
+- [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
+- [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
+- [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
+- [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
+- [einaros/heartbleed-tools](https://github.com/einaros/heartbleed-tools)
 - [mozilla-services/Heartbleed](https://github.com/mozilla-services/Heartbleed)
 - [yryz/heartbleed.js](https://github.com/yryz/heartbleed.js)
+- [DisK0nn3cT/MaltegoHeartbleed](https://github.com/DisK0nn3cT/MaltegoHeartbleed)
+- [OffensivePython/HeartLeak](https://github.com/OffensivePython/HeartLeak)
 - [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
 - [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
@@ -11134,6 +11175,31 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [cldme/heartbleed-bug](https://github.com/cldme/heartbleed-bug)
 - [hack3r-0m/heartbleed_fix_updated](https://github.com/hack3r-0m/heartbleed_fix_updated)
 
+### CVE-2014-0166
+
+<code>
+The wp_validate_auth_cookie function in wp-includes/pluggable.php in WordPress before 3.7.2 and 3.8.x before 3.8.2 does not properly determine the validity of authentication cookies, which makes it easier for remote attackers to obtain access via a forged cookie.
+</code>
+
+- [Ettack/POC-CVE-2014-0166](https://github.com/Ettack/POC-CVE-2014-0166)
+
+### CVE-2014-0195
+
+<code>
+The dtls1_reassemble_fragment function in d1_both.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not properly validate fragment lengths in DTLS ClientHello messages, which allows remote attackers to execute arbitrary code or cause a denial of service (buffer overflow and application crash) via a long non-initial fragment.
+</code>
+
+- [ricedu/CVE-2014-0195](https://github.com/ricedu/CVE-2014-0195)
+
+### CVE-2014-0196
+
+<code>
+The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14.3 does not properly manage tty driver access in the &quot;LECHO &amp; !OPOST&quot; case, which allows local users to cause a denial of service (memory corruption and system crash) or gain privileges by triggering a race condition involving read and write operations with long strings.
+</code>
+
+- [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
+- [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
+
 ### CVE-2014-0224
 
 <code>
@@ -11141,6 +11207,7 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
+- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
 - [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
 - [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
@@ -11180,6 +11247,16 @@ Hitron CVE-30360 devices use a 578A958E3DD933FC DES key that is shared across di
 
 - [Manouchehri/hitron-cfg-decrypter](https://github.com/Manouchehri/hitron-cfg-decrypter)
 
+### CVE-2014-1266
+
+<code>
+The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExchange.c in the Secure Transport feature in the Data Security component in Apple iOS 6.x before 6.1.6 and 7.x before 7.0.6, Apple TV 6.x before 6.0.2, and Apple OS X 10.9.x before 10.9.2 does not check the signature in a TLS Server Key Exchange message, which allows man-in-the-middle attackers to spoof SSL servers by (1) using an arbitrary private key for the signing step or (2) omitting the signing step.
+</code>
+
+- [landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266)
+- [linusyang/SSLPatch](https://github.com/linusyang/SSLPatch)
+- [gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc)
+
 ### CVE-2014-1303
 
 <code>
@@ -11203,6 +11280,10 @@ Race condition in the virNetServerClientStartKeepAlive function in libvirt befor
 </code>
 
 - [tagatac/libvirt-CVE-2014-1447](https://github.com/tagatac/libvirt-CVE-2014-1447)
+
+### CVE-2014-160
+- [menrcom/CVE-2014-160](https://github.com/menrcom/CVE-2014-160)
+- [GitMirar/heartbleed_exploit](https://github.com/GitMirar/heartbleed_exploit)
 
 ### CVE-2014-1677
 
@@ -11251,6 +11332,24 @@ Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, all
 </code>
 
 - [redtimmy/perf-exploiter](https://github.com/redtimmy/perf-exploiter)
+
+### CVE-2014-2734
+
+<code>
+** DISPUTED ** The openssl extension in Ruby 2.x does not properly maintain the state of process memory after a file is reopened, which allows remote attackers to spoof signatures within the context of a Ruby script that attempts signature verification after performing a certain sequence of filesystem operations.  NOTE: this issue has been disputed by the Ruby OpenSSL team and third parties, who state that the original demonstration PoC contains errors and redundant or unnecessarily-complex code that does not appear to be related to a demonstration of the issue. As of 20140502, CVE is not aware of any public comment by the original researcher.
+</code>
+
+- [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
+- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
+
+### CVE-2014-3120
+
+<code>
+The default configuration in Elasticsearch before 1.2 enables dynamic scripting, which allows remote attackers to execute arbitrary MVEL expressions and Java code via the source parameter to _search.  NOTE: this only violates the vendor's intended security policy if the user does not run Elasticsearch in its own independent virtual machine.
+</code>
+
+- [jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject)
+- [echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120)
 
 ### CVE-2014-3153
 
@@ -12758,6 +12857,7 @@ OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating system
 
 - [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
+- [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
 
 ### CVE-2008-0228
 
@@ -12814,6 +12914,7 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 </code>
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
+- [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
 
 ### CVE-2008-5416
 
