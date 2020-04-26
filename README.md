@@ -6479,7 +6479,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [d4rkshell/go-get-rce](https://github.com/d4rkshell/go-get-rce)
 - [chaosura/CVE-2018-6574](https://github.com/chaosura/CVE-2018-6574)
 - [french560/ptl6574](https://github.com/french560/ptl6574)
-- [jack-the-r1pper/CVE-2018-6574](https://github.com/jack-the-r1pper/CVE-2018-6574)
+- [InfoSecJack/CVE-2018-6574](https://github.com/InfoSecJack/CVE-2018-6574)
 - [asavior2/CVE-2018-6574](https://github.com/asavior2/CVE-2018-6574)
 - [drset/golang](https://github.com/drset/golang)
 - [frozenkp/CVE-2018-6574](https://github.com/frozenkp/CVE-2018-6574)
