@@ -167,7 +167,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [cert-lv/CVE-2020-0688](https://github.com/cert-lv/CVE-2020-0688)
 - [ravinacademy/CVE-2020-0688](https://github.com/ravinacademy/CVE-2020-0688)
 - [mahyarx/Exploit_CVE-2020-0688](https://github.com/mahyarx/Exploit_CVE-2020-0688)
-- [l33terman6000/CVE-2020-0688](https://github.com/l33terman6000/CVE-2020-0688)
+- [ktpdpro/CVE-2020-0688](https://github.com/ktpdpro/CVE-2020-0688)
 
 ### CVE-2020-0692
 
@@ -252,7 +252,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
-- [l33terman6000/CVE-2020-0796](https://github.com/l33terman6000/CVE-2020-0796)
+- [thelostworldFree/CVE-2020-0796](https://github.com/thelostworldFree/CVE-2020-0796)
 - [syadg123/CVE-2020-0796](https://github.com/syadg123/CVE-2020-0796)
 - [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
 
@@ -279,7 +279,7 @@ A remote code execution vulnerability exists in the way that the Windows Graphic
 </code>
 
 - [githubassets/CVE-2020-0883](https://github.com/githubassets/CVE-2020-0883)
-- [l33terman6000/CVE-2020-0883](https://github.com/l33terman6000/CVE-2020-0883)
+- [thelostworldFree/CVE-2020-0883](https://github.com/thelostworldFree/CVE-2020-0883)
 - [syadg123/CVE-2020-0883](https://github.com/syadg123/CVE-2020-0883)
 
 ### CVE-2020-0905
@@ -289,7 +289,6 @@ An remote code execution vulnerability exists in Microsoft Dynamics Business Cen
 </code>
 
 - [githubassets/CVE-2020-0905](https://github.com/githubassets/CVE-2020-0905)
-- [l33terman6000/CVE-2020-0905](https://github.com/l33terman6000/CVE-2020-0905)
 
 ### CVE-2020-0910
 
@@ -297,15 +296,7 @@ An remote code execution vulnerability exists in Microsoft Dynamics Business Cen
 A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
 </code>
 
-- [l33terman6000/CVE-2020-0910](https://github.com/l33terman6000/CVE-2020-0910)
-
-### CVE-2020-0929
-
-<code>
-A remote code execution vulnerability exists in Microsoft SharePoint when the software fails to check the source markup of an application package, aka 'Microsoft SharePoint Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0920, CVE-2020-0931, CVE-2020-0932, CVE-2020-0971, CVE-2020-0974.
-</code>
-
-- [l33terman6000/CVE-2020-0929](https://github.com/l33terman6000/CVE-2020-0929)
+- [inetshell/CVE-2020-0910](https://github.com/inetshell/CVE-2020-0910)
 
 ### CVE-2020-0976
 
@@ -427,12 +418,6 @@ An issue was discovered in Joomla! before 3.9.17. Improper input validations in 
 </code>
 
 - [HoangKien1020/CVE-2020-11890](https://github.com/HoangKien1020/CVE-2020-11890)
-
-### CVE-2020-12064
-- [educationnull/CVE-2020-12064](https://github.com/educationnull/CVE-2020-12064)
-
-### CVE-2020-12065
-- [educationnull/CVE-2020-12065](https://github.com/educationnull/CVE-2020-12065)
 
 ### CVE-2020-12112
 
@@ -569,7 +554,6 @@ Under certain conditions, vmdir that ships with VMware vCenter Server, as part o
 - [frustreated/CVE-2020-3952](https://github.com/frustreated/CVE-2020-3952)
 - [guardicore/vmware_vcenter_cve_2020_3952](https://github.com/guardicore/vmware_vcenter_cve_2020_3952)
 - [gelim/CVE-2020-3952](https://github.com/gelim/CVE-2020-3952)
-- [l33terman6000/CVE-2020-3952](https://github.com/l33terman6000/CVE-2020-3952)
 - [Fa1c0n35/vmware_vcenter_cve_2020_3952](https://github.com/Fa1c0n35/vmware_vcenter_cve_2020_3952)
 
 ### CVE-2020-4276
@@ -8455,6 +8439,7 @@ wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php in the REST AP
 - [teambugsbunny/wpUsersScan](https://github.com/teambugsbunny/wpUsersScan)
 - [R3K1NG/wpUsersScan](https://github.com/R3K1NG/wpUsersScan)
 - [GeunSam2/CVE-2017-5487](https://github.com/GeunSam2/CVE-2017-5487)
+- [patilkr/wp-CVE-2017-5487-exploit](https://github.com/patilkr/wp-CVE-2017-5487-exploit)
 
 ### CVE-2017-5633
 
@@ -12558,7 +12543,6 @@ mpack 1.6 has information disclosure via eavesdropping on mails sent by other us
 sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is enabled, permits a match between the name of the pseudo-command and the name of an executable file in an arbitrary directory, which allows local users to gain privileges via a crafted executable file, as demonstrated by a file named sudoedit in a user's home directory.
 </code>
 
-- [t0kx/privesc-CVE-2010-0426](https://github.com/t0kx/privesc-CVE-2010-0426)
 - [cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426)
 
 ### CVE-2010-0738
@@ -12609,22 +12593,6 @@ Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 
 </code>
 
 - [whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333)
-
-### CVE-2010-3437
-
-<code>
-Integer signedness error in the pkt_find_dev_from_minor function in drivers/block/pktcdvd.c in the Linux kernel before 2.6.36-rc6 allows local users to obtain sensitive information from kernel memory or cause a denial of service (invalid pointer dereference and system crash) via a crafted index value in a PKT_CTRL_CMD_STATUS ioctl call.
-</code>
-
-- [huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437)
-
-### CVE-2010-3490
-
-<code>
-Directory traversal vulnerability in page.recordings.php in the System Recordings component in the configuration interface in FreePBX 2.8.0 and earlier allows remote authenticated administrators to create arbitrary files via a .. (dot dot) in the usersnum parameter to admin/config.php, as demonstrated by creating a .php file under the web root.
-</code>
-
-- [moayadalmalat/CVE-2010-3490](https://github.com/moayadalmalat/CVE-2010-3490)
 
 ### CVE-2010-3600
 
