@@ -729,6 +729,7 @@ The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the 
 </code>
 
 - [vulncrate/wp-codesnippets-cve-2020-8417](https://github.com/vulncrate/wp-codesnippets-cve-2020-8417)
+- [waleweewe12/CVE-2020-8417](https://github.com/waleweewe12/CVE-2020-8417)
 
 ### CVE-2020-8515
 
@@ -1094,6 +1095,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [cbwang505/CVE-2019-0708-EXP-Windows](https://github.com/cbwang505/CVE-2019-0708-EXP-Windows)
 - [eastmountyxz/CVE-2019-0708-Windows](https://github.com/eastmountyxz/CVE-2019-0708-Windows)
 - [JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708)
+- [wanghuohuobutailao/cve-2019-0708](https://github.com/wanghuohuobutailao/cve-2019-0708)
 
 ### CVE-2019-0709
 
@@ -4894,7 +4896,7 @@ A flaw was found in xorg-x11-server before 1.20.3. An incorrect permission check
 
 - [jas502n/CVE-2018-14665](https://github.com/jas502n/CVE-2018-14665)
 - [bolonobolo/CVE-2018-14665](https://github.com/bolonobolo/CVE-2018-14665)
-- [0x1CA3/cve-2018-14665](https://github.com/0x1CA3/cve-2018-14665)
+- [samueldustin/cve-2018-14665](https://github.com/samueldustin/cve-2018-14665)
 
 ### CVE-2018-14667
 
@@ -6962,14 +6964,6 @@ An issue was discovered in Square 9 GlobalForms 6.2.x. A Time Based SQL injectio
 </code>
 
 - [hateshape/frevvomapexec](https://github.com/hateshape/frevvomapexec)
-
-### CVE-2018-8823
-
-<code>
-modules/bamegamenu/ajax_phpcode.php in the Responsive Mega Menu (Horizontal+Vertical+Dropdown) Pro module 1.0.32 for PrestaShop 1.5.5.0 through 1.7.2.5 allows remote attackers to execute arbitrary PHP code via the code parameter.
-</code>
-
-- [b3rksecurity/CVE-2018-8823](https://github.com/b3rksecurity/CVE-2018-8823)
 
 ### CVE-2018-8897
 
@@ -9199,7 +9193,6 @@ Remote Code Execution is possible in Code42 CrashPlan 5.4.x via the org.apache.c
 Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows remote attackers to execute arbitrary PHP code via HTTP POST data beginning with a &quot;&lt;?php &quot; substring, as demonstrated by an attack on a site with an exposed /vendor folder, i.e., external access to the /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php URI.
 </code>
 
-- [b3rksecurity/CVE-2017-9841](https://github.com/b3rksecurity/CVE-2017-9841)
 - [mbrasile/CVE-2017-9841](https://github.com/mbrasile/CVE-2017-9841)
 
 ### CVE-2017-98505
