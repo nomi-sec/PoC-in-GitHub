@@ -419,6 +419,14 @@ An issue was discovered in Joomla! before 3.9.17. Improper input validations in 
 
 - [HoangKien1020/CVE-2020-11890](https://github.com/HoangKien1020/CVE-2020-11890)
 
+### CVE-2020-12078
+
+<code>
+An issue was discovered in Open-AudIT 3.3.1. There is shell metacharacter injection via attributes to an open-audit/configuration/ URI. An attacker can exploit this by adding an excluded IP address to the global discovery settings (internally called exclude_ip). This exclude_ip value is passed to the exec function in the discoveries_helper.php file (inside the all_ip_list function) without being filtered, which means that the attacker can provide a payload instead of a valid IP address.
+</code>
+
+- [mhaskar/CVE-2020-12078](https://github.com/mhaskar/CVE-2020-12078)
+
 ### CVE-2020-12112
 
 <code>
@@ -5489,6 +5497,9 @@ IMFCameraProtect.sys in IObit Malware Fighter 6.2 (and possibly lower versions) 
 </code>
 
 - [DownWithUp/CVE-2018-18026](https://github.com/DownWithUp/CVE-2018-18026)
+
+### CVE-2018-18147
+- [yukar1z0e/cve-2018-18147](https://github.com/yukar1z0e/cve-2018-18147)
 
 ### CVE-2018-18368
 
