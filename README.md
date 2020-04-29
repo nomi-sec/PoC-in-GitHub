@@ -342,14 +342,6 @@ An issue was discovered in Joomla! before 3.9.16. Incorrect Access Control in th
 
 - [HoangKien1020/CVE-2020-10239](https://github.com/HoangKien1020/CVE-2020-10239)
 
-### CVE-2020-10243
-
-<code>
-An issue was discovered in Joomla! before 3.9.16. The lack of type casting of a variable in a SQL statement leads to a SQL injection vulnerability in the Featured Articles frontend menutype.
-</code>
-
-- [HoangKien1020/CVE-2020-10243](https://github.com/HoangKien1020/CVE-2020-10243)
-
 ### CVE-2020-10551
 
 <code>
