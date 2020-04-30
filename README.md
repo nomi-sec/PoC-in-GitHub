@@ -915,6 +915,9 @@ The issue was addressed by clearing website permission prompts after navigation.
 ### CVE-2020-9999
 - [tdcoming/CVE-2020-9999](https://github.com/tdcoming/CVE-2020-9999)
 
+### CVE-2020-99999999
+- [tdcoming/CVE-2020-99999999](https://github.com/tdcoming/CVE-2020-99999999)
+
 
 ## 2019
 ### CVE-2019-0053
