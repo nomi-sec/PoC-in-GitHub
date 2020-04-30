@@ -909,6 +909,12 @@ The issue was addressed by clearing website permission prompts after navigation.
 
 - [c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781](https://github.com/c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781)
 
+### CVE-2020-98989
+- [tdcoming/CVE-2020-98989](https://github.com/tdcoming/CVE-2020-98989)
+
+### CVE-2020-9999
+- [tdcoming/CVE-2020-9999](https://github.com/tdcoming/CVE-2020-9999)
+
 
 ## 2019
 ### CVE-2019-0053
