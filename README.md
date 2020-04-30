@@ -802,6 +802,9 @@ FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JN
 - [fairyming/CVE-2020-8840](https://github.com/fairyming/CVE-2020-8840)
 - [0nise/CVE-2020-8840](https://github.com/0nise/CVE-2020-8840)
 
+### CVE-2020-88888
+- [tdcoming/CVE-2020-88888](https://github.com/tdcoming/CVE-2020-88888)
+
 ### CVE-2020-8950
 
 <code>
