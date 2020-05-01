@@ -408,6 +408,14 @@ An issue was discovered in iXsystems FreeNAS (and TrueNAS) 11.2 before 11.2-u8 a
 
 - [weinull/CVE-2020-11650](https://github.com/weinull/CVE-2020-11650)
 
+### CVE-2020-11651
+
+<code>
+An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2. The salt-master process ClearFuncs class does not properly validate method calls. This allows a remote user to access some methods without authentication. These methods can be used to retrieve user tokens from the salt master and/or run arbitrary commands on salt minions.
+</code>
+
+- [chef-cft/salt-vulnerabilities](https://github.com/chef-cft/salt-vulnerabilities)
+
 ### CVE-2020-11890
 
 <code>
@@ -3490,6 +3498,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc)
 - [epsteina16/Docker-Escape-Miner](https://github.com/epsteina16/Docker-Escape-Miner)
 - [GiverOfGifts/CVE-2019-5736-Custom-Runtime](https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime)
+- [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 
 ### CVE-2019-5786
 
