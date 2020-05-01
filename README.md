@@ -12742,14 +12742,6 @@ Open redirect vulnerability in the web interface in the Rockwell Automation Cont
 
 - [akbarq/CVE-2009-0473](https://github.com/akbarq/CVE-2009-0473)
 
-### CVE-2009-0689
-
-<code>
-Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
-</code>
-
-- [Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax)
-
 ### CVE-2009-1151
 
 <code>
@@ -12758,31 +12750,13 @@ Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.1
 
 - [minervais/pocs](https://github.com/minervais/pocs)
 
-### CVE-2009-1244
-
-<code>
-Unspecified vulnerability in the virtual machine display function in VMware Workstation 6.5.1 and earlier; VMware Player 2.5.1 and earlier; VMware ACE 2.5.1 and earlier; VMware Server 1.x before 1.0.9 build 156507 and 2.x before 2.0.1 build 156745; VMware Fusion before 2.0.4 build 159196; VMware ESXi 3.5; and VMware ESX 3.0.2, 3.0.3, and 3.5 allows guest OS users to execute arbitrary code on the host OS via unknown vectors, a different vulnerability than CVE-2008-4916.
-</code>
-
-- [piotrbania/vmware_exploit_pack_CVE-2009-1244](https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244)
-
-### CVE-2009-1324
-
-<code>
-Stack-based buffer overflow in Mini-stream ASX to MP3 Converter 3.0.0.7 allows remote attackers to execute arbitrary code via a long URI in a playlist (.m3u) file.
-</code>
-
-- [war4uthor/CVE-2009-1324](https://github.com/war4uthor/CVE-2009-1324)
-
 ### CVE-2009-1330
 
 <code>
 Stack-based buffer overflow in Easy RM to MP3 Converter allows remote attackers to execute arbitrary code via a long filename in a playlist (.pls) file.
 </code>
 
-- [adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330)
 - [war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330)
-- [exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter)
 
 ### CVE-2009-1437
 
@@ -12807,14 +12781,6 @@ The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not in
 </code>
 
 - [jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692)
-
-### CVE-2009-2698
-
-<code>
-The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
-</code>
-
-- [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
 
 ### CVE-2009-3103
 
