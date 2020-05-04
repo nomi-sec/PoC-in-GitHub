@@ -811,9 +811,6 @@ FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JN
 - [fairyming/CVE-2020-8840](https://github.com/fairyming/CVE-2020-8840)
 - [0nise/CVE-2020-8840](https://github.com/0nise/CVE-2020-8840)
 
-### CVE-2020-88888
-- [tdcoming/CVE-2020-88888](https://github.com/tdcoming/CVE-2020-88888)
-
 ### CVE-2020-8950
 
 <code>
@@ -926,9 +923,6 @@ The issue was addressed by clearing website permission prompts after navigation.
 
 ### CVE-2020-9999
 - [tdcoming/CVE-2020-9999](https://github.com/tdcoming/CVE-2020-9999)
-
-### CVE-2020-99999999
-- [tdcoming/CVE-2020-99999999](https://github.com/tdcoming/CVE-2020-99999999)
 
 
 ## 2019
@@ -4343,6 +4337,14 @@ An information disclosure vulnerability occurs when LibreOffice 6.0.3 and Apache
 </code>
 
 - [TaharAmine/CVE-2018-10583](https://github.com/TaharAmine/CVE-2018-10583)
+
+### CVE-2018-10678
+
+<code>
+MyBB 1.8.15, when accessed with Microsoft Edge, mishandles 'target=&quot;_blank&quot; rel=&quot;noopener&quot;' in A elements, which makes it easier for remote attackers to conduct redirection attacks.
+</code>
+
+- [hbranco/CVE-2018-10678](https://github.com/hbranco/CVE-2018-10678)
 
 ### CVE-2018-10715
 - [alt3kx/CVE-2018-10715](https://github.com/alt3kx/CVE-2018-10715)
