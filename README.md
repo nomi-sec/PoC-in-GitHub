@@ -383,6 +383,14 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 
 - [0nise/CVE-2020-10673](https://github.com/0nise/CVE-2020-10673)
 
+### CVE-2020-11022
+
+<code>
+In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.
+</code>
+
+- [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
+
 ### CVE-2020-11107
 
 <code>
@@ -415,6 +423,7 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 </code>
 
 - [chef-cft/salt-vulnerabilities](https://github.com/chef-cft/salt-vulnerabilities)
+- [dozernz/cve-2020-11651](https://github.com/dozernz/cve-2020-11651)
 
 ### CVE-2020-11890
 
@@ -1487,6 +1496,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution. If an unsanitized source object contained an enumerable __proto__ property, it could extend the native Object.prototype.
 </code>
 
+- [DanielRuf/snyk-js-jquery-174006](https://github.com/DanielRuf/snyk-js-jquery-174006)
 - [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
 
 ### CVE-2019-11477
@@ -11173,9 +11183,6 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner)
 - [Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker)
 - [isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic)
-- [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
-- [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
-- [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
 - [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
 - [amerine/coronary](https://github.com/amerine/coronary)
@@ -11187,7 +11194,6 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
 - [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
-- [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
 - [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
 - [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
@@ -11285,16 +11291,6 @@ Hitron CVE-30360 devices use a 578A958E3DD933FC DES key that is shared across di
 
 - [Manouchehri/hitron-cfg-decrypter](https://github.com/Manouchehri/hitron-cfg-decrypter)
 
-### CVE-2014-1266
-
-<code>
-The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExchange.c in the Secure Transport feature in the Data Security component in Apple iOS 6.x before 6.1.6 and 7.x before 7.0.6, Apple TV 6.x before 6.0.2, and Apple OS X 10.9.x before 10.9.2 does not check the signature in a TLS Server Key Exchange message, which allows man-in-the-middle attackers to spoof SSL servers by (1) using an arbitrary private key for the signing step or (2) omitting the signing step.
-</code>
-
-- [landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266)
-- [linusyang/SSLPatch](https://github.com/linusyang/SSLPatch)
-- [gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc)
-
 ### CVE-2014-1303
 
 <code>
@@ -11318,10 +11314,6 @@ Race condition in the virNetServerClientStartKeepAlive function in libvirt befor
 </code>
 
 - [tagatac/libvirt-CVE-2014-1447](https://github.com/tagatac/libvirt-CVE-2014-1447)
-
-### CVE-2014-160
-- [menrcom/CVE-2014-160](https://github.com/menrcom/CVE-2014-160)
-- [GitMirar/heartbleed_exploit](https://github.com/GitMirar/heartbleed_exploit)
 
 ### CVE-2014-1677
 
