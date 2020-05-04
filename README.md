@@ -383,12 +383,7 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 
 - [0nise/CVE-2020-10673](https://github.com/0nise/CVE-2020-10673)
 
-### CVE-2020-11022
-
-<code>
-In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.
-</code>
-
+### CVE-2020-1102
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 
 ### CVE-2020-11107
@@ -428,6 +423,7 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [0xc0d/CVE-2020-11651](https://github.com/0xc0d/CVE-2020-11651)
 - [jasperla/CVE-2020-11651-poc](https://github.com/jasperla/CVE-2020-11651-poc)
 - [Imanfeng/SaltStack-Exp](https://github.com/Imanfeng/SaltStack-Exp)
+- [kevthehermit/CVE-2020-11651](https://github.com/kevthehermit/CVE-2020-11651)
 
 ### CVE-2020-11890
 
@@ -1510,6 +1506,7 @@ jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishan
 
 - [DanielRuf/snyk-js-jquery-174006](https://github.com/DanielRuf/snyk-js-jquery-174006)
 - [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
+- [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 
 ### CVE-2019-11477
 
