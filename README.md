@@ -422,7 +422,7 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [dozernz/cve-2020-11651](https://github.com/dozernz/cve-2020-11651)
 - [0xc0d/CVE-2020-11651](https://github.com/0xc0d/CVE-2020-11651)
 - [jasperla/CVE-2020-11651-poc](https://github.com/jasperla/CVE-2020-11651-poc)
-- [Imanfeng/SaltStack-Exp](https://github.com/Imanfeng/SaltStack-Exp)
+- [thelostworldFree/SaltStack-Exp](https://github.com/thelostworldFree/SaltStack-Exp)
 - [kevthehermit/CVE-2020-11651](https://github.com/kevthehermit/CVE-2020-11651)
 
 ### CVE-2020-11890
@@ -851,6 +851,12 @@ Joplin through 1.0.184 allows Arbitrary File Read via XSS.
 </code>
 
 - [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
+
+### CVE-2020-9332
+- [Sentinel-One/CVE-2020-9332](https://github.com/Sentinel-One/CVE-2020-9332)
+
+### CVE-2020-9361
+- [Sentinel-One/CVE-2020-9361](https://github.com/Sentinel-One/CVE-2020-9361)
 
 ### CVE-2020-9375
 
