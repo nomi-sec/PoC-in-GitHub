@@ -725,6 +725,9 @@ Django 1.11 before 1.11.28, 2.2 before 2.2.10, and 3.0 before 3.0.3 allows SQL I
 - [secoba/DjVul_StringAgg](https://github.com/secoba/DjVul_StringAgg)
 - [SNCKER/CVE-2020-7471](https://github.com/SNCKER/CVE-2020-7471)
 
+### CVE-2020-7473
+- [DimitriNL/CTX-CVE-2020-7473](https://github.com/DimitriNL/CTX-CVE-2020-7473)
+
 ### CVE-2020-7799
 
 <code>
@@ -13142,15 +13145,6 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 </code>
 
 - [tagatac/linux-CVE-2006-4814](https://github.com/tagatac/linux-CVE-2006-4814)
-
-### CVE-2006-6184
-
-<code>
-Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
-</code>
-
-- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
-- [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
 ## 2005
