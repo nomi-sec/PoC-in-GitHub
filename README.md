@@ -425,6 +425,9 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [thelostworldFree/SaltStack-Exp](https://github.com/thelostworldFree/SaltStack-Exp)
 - [kevthehermit/CVE-2020-11651](https://github.com/kevthehermit/CVE-2020-11651)
 
+### CVE-2020-11794
+- [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
+
 ### CVE-2020-11890
 
 <code>
