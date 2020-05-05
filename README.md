@@ -2460,6 +2460,14 @@ An exploitable local privilege escalation vulnerability exists in the GalaxyClie
 
 - [adenkiewicz/CVE-2019-15511](https://github.com/adenkiewicz/CVE-2019-15511)
 
+### CVE-2019-15605
+
+<code>
+HTTP request smuggling in Node.js 10, 12, and 13 causes malicious payload delivery when transfer-encoding is malformed
+</code>
+
+- [jlcarruda/node-poc-http-smuggling](https://github.com/jlcarruda/node-poc-http-smuggling)
+
 ### CVE-2019-15642
 
 <code>
