@@ -422,7 +422,7 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [dozernz/cve-2020-11651](https://github.com/dozernz/cve-2020-11651)
 - [0xc0d/CVE-2020-11651](https://github.com/0xc0d/CVE-2020-11651)
 - [jasperla/CVE-2020-11651-poc](https://github.com/jasperla/CVE-2020-11651-poc)
-- [thelostworldFree/SaltStack-Exp](https://github.com/thelostworldFree/SaltStack-Exp)
+- [bravery9/SaltStack-Exp](https://github.com/bravery9/SaltStack-Exp)
 - [kevthehermit/CVE-2020-11651](https://github.com/kevthehermit/CVE-2020-11651)
 
 ### CVE-2020-11794
@@ -3536,6 +3536,14 @@ Object lifetime issue in Blink in Google Chrome prior to 72.0.3626.121 allowed a
 </code>
 
 - [exodusintel/CVE-2019-5786](https://github.com/exodusintel/CVE-2019-5786)
+
+### CVE-2019-5822
+
+<code>
+Inappropriate implementation in Blink in Google Chrome prior to 74.0.3729.108 allowed a remote attacker to bypass same origin policy via a crafted HTML page.
+</code>
+
+- [Silence-Rain/14-828_Exploitation_of_CVE-2019-5822](https://github.com/Silence-Rain/14-828_Exploitation_of_CVE-2019-5822)
 
 ### CVE-2019-5825
 
