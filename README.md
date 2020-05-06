@@ -858,12 +858,6 @@ Joplin through 1.0.184 allows Arbitrary File Read via XSS.
 
 - [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
 
-### CVE-2020-9332
-- [Sentinel-One/CVE-2020-9332](https://github.com/Sentinel-One/CVE-2020-9332)
-
-### CVE-2020-9361
-- [Sentinel-One/CVE-2020-9361](https://github.com/Sentinel-One/CVE-2020-9361)
-
 ### CVE-2020-9375
 
 <code>
@@ -4814,14 +4808,6 @@ A remote code execution issue was discovered in PublicCMS V4.0.20180210. An atta
 </code>
 
 - [RealBearcat/CVE-2018-12914](https://github.com/RealBearcat/CVE-2018-12914)
-
-### CVE-2018-1297
-
-<code>
-When using Distributed Test only (RMI based), Apache JMeter 2.x and 3.x uses an unsecured RMI connection. This could allow an attacker to get Access to JMeterEngine and send unauthorized code.
-</code>
-
-- [RealBearcat/CVE-2018-1297](https://github.com/RealBearcat/CVE-2018-1297)
 
 ### CVE-2018-1304
 
@@ -13145,6 +13131,15 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 </code>
 
 - [tagatac/linux-CVE-2006-4814](https://github.com/tagatac/linux-CVE-2006-4814)
+
+### CVE-2006-6184
+
+<code>
+Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
+</code>
+
+- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
+- [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
 ## 2005
