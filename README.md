@@ -689,6 +689,11 @@ UPS companion software v1.05 &amp; Prior is affected by ‘Eval Injection’ vul
 - [RavSS/Eaton-UPS-Companion-Exploit](https://github.com/RavSS/Eaton-UPS-Companion-Exploit)
 
 ### CVE-2020-6861
+
+<code>
+A flawed protocol design in the Ledger Monero app before 1.5.1 for Ledger Nano and Ledger S devices allows a local attacker to extract the master spending key by sending crafted messages to this app selected on a PIN-entered Ledger connected to a host PC.
+</code>
+
 - [ph4r05/ledger-app-monero-1.42-vuln](https://github.com/ph4r05/ledger-app-monero-1.42-vuln)
 
 ### CVE-2020-6888
