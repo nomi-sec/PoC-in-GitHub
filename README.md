@@ -424,6 +424,7 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [jasperla/CVE-2020-11651-poc](https://github.com/jasperla/CVE-2020-11651-poc)
 - [bravery9/SaltStack-Exp](https://github.com/bravery9/SaltStack-Exp)
 - [kevthehermit/CVE-2020-11651](https://github.com/kevthehermit/CVE-2020-11651)
+- [lovelyjuice/cve-2020-11651-exp-plus](https://github.com/lovelyjuice/cve-2020-11651-exp-plus)
 
 ### CVE-2020-11794
 - [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
@@ -5588,6 +5589,14 @@ A use-after-free vulnerability can occur while parsing an HTML5 stream in concer
 </code>
 
 - [sophoslabs/CVE-2018-18500](https://github.com/sophoslabs/CVE-2018-18500)
+
+### CVE-2018-18649
+
+<code>
+An issue was discovered in the wiki API in GitLab Community and Enterprise Edition before 11.2.7, 11.3.x before 11.3.8, and 11.4.x before 11.4.3. It allows for remote code execution.
+</code>
+
+- [Snowming04/CVE-2018-18649](https://github.com/Snowming04/CVE-2018-18649)
 
 ### CVE-2018-18714
 
