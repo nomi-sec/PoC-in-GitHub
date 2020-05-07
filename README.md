@@ -468,6 +468,14 @@ include/class.sla.php in osTicket before 1.14.2 allows XSS via the SLA Name.
 
 - [mkelepce/CVE-2020-12629](https://github.com/mkelepce/CVE-2020-12629)
 
+### CVE-2020-12696
+
+<code>
+The iframe plugin before 4.5 for WordPress does not sanitize a URL.
+</code>
+
+- [Guilherme-Rubert/CVE-2020-12696](https://github.com/Guilherme-Rubert/CVE-2020-12696)
+
 ### CVE-2020-1611
 
 <code>
