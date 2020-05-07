@@ -425,6 +425,7 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [bravery9/SaltStack-Exp](https://github.com/bravery9/SaltStack-Exp)
 - [kevthehermit/CVE-2020-11651](https://github.com/kevthehermit/CVE-2020-11651)
 - [lovelyjuice/cve-2020-11651-exp-plus](https://github.com/lovelyjuice/cve-2020-11651-exp-plus)
+- [heikanet/CVE-2020-11651-CVE-2020-11652-EXP](https://github.com/heikanet/CVE-2020-11651-CVE-2020-11652-EXP)
 
 ### CVE-2020-11794
 - [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
@@ -455,6 +456,9 @@ BigBlueButton before 2.2.5 allows remote attackers to obtain sensitive files via
 
 ### CVE-2020-12122
 - [FULLSHADE/CVE-2020-12122](https://github.com/FULLSHADE/CVE-2020-12122)
+
+### CVE-2020-123456789
+- [mrknow001/CVE-2020-123456789](https://github.com/mrknow001/CVE-2020-123456789)
 
 ### CVE-2020-12629
 
@@ -732,6 +736,11 @@ Django 1.11 before 1.11.28, 2.2 before 2.2.10, and 3.0 before 3.0.3 allows SQL I
 - [SNCKER/CVE-2020-7471](https://github.com/SNCKER/CVE-2020-7471)
 
 ### CVE-2020-7473
+
+<code>
+In certain situations, all versions of Citrix ShareFile StorageZones (aka storage zones) Controller, including the most recent 5.10.x releases as of May 2020, allow unauthenticated attackers to access the documents and folders of ShareFile users. NOTE: unlike most CVEs, exploitability depends on the product version that was in use when a particular setup step was performed, NOT the product version that is in use during a current assessment of a CVE consumer's product inventory. Specifically, the vulnerability can be exploited if a storage zone was created by one of these product versions: 5.9.0, 5.8.0, 5.7.0, 5.6.0, 5.5.0, or earlier. This CVE differs from CVE-2020-8982 and CVE-2020-8983 but has essentially the same risk.
+</code>
+
 - [DimitriNL/CTX-CVE-2020-7473](https://github.com/DimitriNL/CTX-CVE-2020-7473)
 
 ### CVE-2020-7799
