@@ -139,6 +139,7 @@ A remote code execution vulnerability exists in the way that the scripting engin
 </code>
 
 - [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
+- [maxpl0it/CVE-2020-0674-Exploit](https://github.com/maxpl0it/CVE-2020-0674-Exploit)
 
 ### CVE-2020-0683
 
