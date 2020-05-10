@@ -584,6 +584,14 @@ Vulnerability in the Java SE product of Oracle Java SE (component: JSSE). Suppor
 
 - [RUB-NDS/CVE-2020-2655-DemoServer](https://github.com/RUB-NDS/CVE-2020-2655-DemoServer)
 
+### CVE-2020-2883
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [Y4er/CVE-2020-2883](https://github.com/Y4er/CVE-2020-2883)
+
 ### CVE-2020-3766
 
 <code>
@@ -3554,6 +3562,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [epsteina16/Docker-Escape-Miner](https://github.com/epsteina16/Docker-Escape-Miner)
 - [GiverOfGifts/CVE-2019-5736-Custom-Runtime](https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime)
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
+- [BBRathnayaka/RunC-CVE-2019-5736](https://github.com/BBRathnayaka/RunC-CVE-2019-5736)
 
 ### CVE-2019-5786
 
