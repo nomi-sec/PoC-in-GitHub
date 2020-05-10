@@ -441,6 +441,9 @@ An issue was discovered in Joomla! before 3.9.17. Improper input validations in 
 
 - [HoangKien1020/CVE-2020-11890](https://github.com/HoangKien1020/CVE-2020-11890)
 
+### CVE-2020-11932
+- [ProjectorBUg/CVE-2020-11932](https://github.com/ProjectorBUg/CVE-2020-11932)
+
 ### CVE-2020-12078
 
 <code>
@@ -13370,14 +13373,6 @@ Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and ea
 
 
 ## 2001
-### CVE-2001-0680
-
-<code>
-Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.
-</code>
-
-- [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
-
 ### CVE-2001-0758
 
 <code>
