@@ -397,6 +397,11 @@ An issue was discovered in XAMPP before 7.2.29, 7.3.x before 7.3.16 , and 7.4.x 
 - [andripwn/CVE-2020-11107](https://github.com/andripwn/CVE-2020-11107)
 
 ### CVE-2020-11108
+
+<code>
+The Gravity updater in Pi-hole through 4.4 allows an authenticated adversary to upload arbitrary files. This can be abused for Remote Code Execution by writing to a PHP file in the web directory. (Also, it can be used in conjunction with the sudo rule for the www-data user to escalate privileges to root.) The code error is in gravity_DownloadBlocklistFromUrl in gravity.sh.
+</code>
+
 - [Frichetten/CVE-2020-11108-PoC](https://github.com/Frichetten/CVE-2020-11108-PoC)
 
 ### CVE-2020-11539
@@ -462,6 +467,14 @@ BigBlueButton before 2.2.5 allows remote attackers to obtain sensitive files via
 </code>
 
 - [tchenu/CVE-2020-12112](https://github.com/tchenu/CVE-2020-12112)
+
+### CVE-2020-12116
+
+<code>
+Zoho ManageEngine OpManager Stable build before 124196 and Released build before 125125 allows an unauthenticated attacker to read arbitrary files on the server by sending a crafted request.
+</code>
+
+- [BeetleChunks/CVE-2020-12116](https://github.com/BeetleChunks/CVE-2020-12116)
 
 ### CVE-2020-12122
 - [FULLSHADE/CVE-2020-12122](https://github.com/FULLSHADE/CVE-2020-12122)
@@ -2101,6 +2114,7 @@ In the Linux kernel before 5.1.17, ptrace_link in kernel/ptrace.c mishandles the
 - [Huandtx/CVE-2019-13272](https://github.com/Huandtx/CVE-2019-13272)
 - [polosec/CVE-2019-13272](https://github.com/polosec/CVE-2019-13272)
 - [sumedhaDharmasena/-Kernel-ptrace-c-mishandles-vulnerability-CVE-2019-13272](https://github.com/sumedhaDharmasena/-Kernel-ptrace-c-mishandles-vulnerability-CVE-2019-13272)
+- [Tharana/Exploiting-a-Linux-kernel-vulnerability](https://github.com/Tharana/Exploiting-a-Linux-kernel-vulnerability)
 
 ### CVE-2019-13361
 
@@ -2905,6 +2919,7 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [saleemrashid/sudo-cve-2019-18634](https://github.com/saleemrashid/sudo-cve-2019-18634)
 - [N1et/CVE-2019-18634](https://github.com/N1et/CVE-2019-18634)
 - [jeandelboux/CVE-2019-18634](https://github.com/jeandelboux/CVE-2019-18634)
+- [halitAKAYDIN/sudo-cve-2019-18634](https://github.com/halitAKAYDIN/sudo-cve-2019-18634)
 
 ### CVE-2019-18873
 
@@ -3152,6 +3167,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [RaulCalvoLaorden/CVE-2019-19781](https://github.com/RaulCalvoLaorden/CVE-2019-19781)
 - [nmanzi/webcvescanner](https://github.com/nmanzi/webcvescanner)
 - [darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC)
+- [Jerry-Swift/CVE-2019-19781-scanner](https://github.com/Jerry-Swift/CVE-2019-19781-scanner)
 
 ### CVE-2019-19844
 
@@ -7562,7 +7578,6 @@ The native Bluetooth stack in the Linux Kernel (BlueZ), starting at the Linux ke
 </code>
 
 - [hayzamjs/Blueborne-CVE-2017-1000251](https://github.com/hayzamjs/Blueborne-CVE-2017-1000251)
-- [chmod750/blueborne](https://github.com/chmod750/blueborne)
 - [tlatkdgus1/blueborne-CVE-2017-1000251](https://github.com/tlatkdgus1/blueborne-CVE-2017-1000251)
 - [own2pwn/blueborne-CVE-2017-1000251-POC](https://github.com/own2pwn/blueborne-CVE-2017-1000251-POC)
 - [marcinguy/blueborne-CVE-2017-1000251](https://github.com/marcinguy/blueborne-CVE-2017-1000251)
@@ -10569,6 +10584,7 @@ Integer overflow in the SampleTable::setSampleToChunkParams function in SampleTa
 - [jduck/cve-2015-1538-1](https://github.com/jduck/cve-2015-1538-1)
 - [marZiiw/Stagefright_CVE-2015-1538-1](https://github.com/marZiiw/Stagefright_CVE-2015-1538-1)
 - [niranjanshr13/Stagefright-cve-2015-1538-1](https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1)
+- [Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation)
 
 ### CVE-2015-1560
 
