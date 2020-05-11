@@ -396,6 +396,9 @@ An issue was discovered in XAMPP before 7.2.29, 7.3.x before 7.3.16 , and 7.4.x 
 - [S1lkys/CVE-2020-11107](https://github.com/S1lkys/CVE-2020-11107)
 - [andripwn/CVE-2020-11107](https://github.com/andripwn/CVE-2020-11107)
 
+### CVE-2020-11108
+- [Frichetten/CVE-2020-11108-PoC](https://github.com/Frichetten/CVE-2020-11108-PoC)
+
 ### CVE-2020-11539
 
 <code>
@@ -8931,6 +8934,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [incredible1yu/CVE-2017-7494](https://github.com/incredible1yu/CVE-2017-7494)
 - [cved-sources/cve-2017-7494](https://github.com/cved-sources/cve-2017-7494)
 - [john-80/cve-2017-7494](https://github.com/john-80/cve-2017-7494)
+- [Optimus-hash/CVE-2017-7494_IT19115344](https://github.com/Optimus-hash/CVE-2017-7494_IT19115344)
 
 ### CVE-2017-7525
 
@@ -13373,6 +13377,14 @@ Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and ea
 
 
 ## 2001
+### CVE-2001-0680
+
+<code>
+Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.
+</code>
+
+- [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
+
 ### CVE-2001-0758
 
 <code>
