@@ -256,6 +256,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [thelostworldFree/CVE-2020-0796](https://github.com/thelostworldFree/CVE-2020-0796)
 - [syadg123/CVE-2020-0796](https://github.com/syadg123/CVE-2020-0796)
 - [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
+- [gyannx/CVE-2020-0796](https://github.com/gyannx/CVE-2020-0796)
 
 ### CVE-2020-0798
 
@@ -433,9 +434,9 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [jasperla/CVE-2020-11651-poc](https://github.com/jasperla/CVE-2020-11651-poc)
 - [Imanfeng/SaltStack-Exp](https://github.com/Imanfeng/SaltStack-Exp)
 - [bravery9/SaltStack-Exp](https://github.com/bravery9/SaltStack-Exp)
-- [kevthehermit/CVE-2020-11651](https://github.com/kevthehermit/CVE-2020-11651)
 - [lovelyjuice/cve-2020-11651-exp-plus](https://github.com/lovelyjuice/cve-2020-11651-exp-plus)
 - [heikanet/CVE-2020-11651-CVE-2020-11652-EXP](https://github.com/heikanet/CVE-2020-11651-CVE-2020-11652-EXP)
+- [RakhithJK/CVE-2020-11651](https://github.com/RakhithJK/CVE-2020-11651)
 - [gyannx/CVE-2020-11651](https://github.com/gyannx/CVE-2020-11651)
 
 ### CVE-2020-11794
@@ -2313,6 +2314,8 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271)
 - [Unam3dd/sudo-vulnerability-CVE-2019-14287](https://github.com/Unam3dd/sudo-vulnerability-CVE-2019-14287)
 - [CMNatic/Dockerized-CVE-2019-14287](https://github.com/CMNatic/Dockerized-CVE-2019-14287)
+- [SachinthaDeSilva-cmd/Exploit-CVE-2019-14287](https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287)
+- [HussyCool/CVE-2019-14287-IT18030372-](https://github.com/HussyCool/CVE-2019-14287-IT18030372-)
 
 ### CVE-2019-14314
 
@@ -10022,6 +10025,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [Brucetg/DirtyCow-EXP](https://github.com/Brucetg/DirtyCow-EXP)
 - [jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195)
 - [imust6226/dirtcow](https://github.com/imust6226/dirtcow)
+- [shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-](https://github.com/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-)
 
 ### CVE-2016-5345
 
@@ -10930,6 +10934,7 @@ named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote 
 - [knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477)
 - [ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477)
 - [denmilu/ShareDoc_cve-2015-5477](https://github.com/denmilu/ShareDoc_cve-2015-5477)
+- [xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit)
 
 ### CVE-2015-5602
 
