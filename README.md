@@ -2791,6 +2791,7 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 </code>
 
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
+- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 
 ### CVE-2019-17564
 
@@ -3299,7 +3300,6 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [he1dan/cve-2019-2618](https://github.com/he1dan/cve-2019-2618)
 - [ianxtianxt/cve-2019-2618](https://github.com/ianxtianxt/cve-2019-2618)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
-- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 
 ### CVE-2019-2725
 
