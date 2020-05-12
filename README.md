@@ -257,6 +257,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [syadg123/CVE-2020-0796](https://github.com/syadg123/CVE-2020-0796)
 - [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
 - [gyannx/CVE-2020-0796](https://github.com/gyannx/CVE-2020-0796)
+- [bacth0san96/SMBGhostScanner](https://github.com/bacth0san96/SMBGhostScanner)
 
 ### CVE-2020-0798
 
@@ -2116,6 +2117,7 @@ In the Linux kernel before 5.1.17, ptrace_link in kernel/ptrace.c mishandles the
 - [polosec/CVE-2019-13272](https://github.com/polosec/CVE-2019-13272)
 - [sumedhaDharmasena/-Kernel-ptrace-c-mishandles-vulnerability-CVE-2019-13272](https://github.com/sumedhaDharmasena/-Kernel-ptrace-c-mishandles-vulnerability-CVE-2019-13272)
 - [Tharana/Exploiting-a-Linux-kernel-vulnerability](https://github.com/Tharana/Exploiting-a-Linux-kernel-vulnerability)
+- [RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-](https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-)
 
 ### CVE-2019-13361
 
@@ -2316,6 +2318,9 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [CMNatic/Dockerized-CVE-2019-14287](https://github.com/CMNatic/Dockerized-CVE-2019-14287)
 - [SachinthaDeSilva-cmd/Exploit-CVE-2019-14287](https://github.com/SachinthaDeSilva-cmd/Exploit-CVE-2019-14287)
 - [HussyCool/CVE-2019-14287-IT18030372-](https://github.com/HussyCool/CVE-2019-14287-IT18030372-)
+- [ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287](https://github.com/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287)
+- [ejlevin99/Sudo-Security-Bypass-Vulnerability](https://github.com/ejlevin99/Sudo-Security-Bypass-Vulnerability)
+- [thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-](https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-)
 
 ### CVE-2019-14314
 
@@ -3588,6 +3593,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [GiverOfGifts/CVE-2019-5736-Custom-Runtime](https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime)
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/RunC-CVE-2019-5736](https://github.com/BBRathnayaka/RunC-CVE-2019-5736)
+- [shen54/IT19172088](https://github.com/shen54/IT19172088)
 
 ### CVE-2019-5737
 
@@ -8727,6 +8733,7 @@ Systems with microprocessors utilizing speculative execution and branch predicti
 - [xsscx/cve-2017-5753](https://github.com/xsscx/cve-2017-5753)
 - [pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo)
 - [ixtal23/spectreScope](https://github.com/ixtal23/spectreScope)
+- [sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-](https://github.com/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-)
 
 ### CVE-2017-5754
 
@@ -11131,6 +11138,7 @@ Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functio
 - [eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public)
 - [bluebluelan/CVE-2015-7547-proj-master](https://github.com/bluebluelan/CVE-2015-7547-proj-master)
 - [miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master)
+- [Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547](https://github.com/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547)
 
 ### CVE-2015-7755
 
@@ -11244,6 +11252,7 @@ The compat_sys_recvmmsg function in net/compat.c in the Linux kernel before 3.13
 </code>
 
 - [saelo/cve-2014-0038](https://github.com/saelo/cve-2014-0038)
+- [kiruthikan99/IT19115276](https://github.com/kiruthikan99/IT19115276)
 
 ### CVE-2014-0050
 
