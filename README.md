@@ -3573,7 +3573,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [denmilu/CVE-2019-5736](https://github.com/denmilu/CVE-2019-5736)
 - [denmilu/cve-2019-5736-poc](https://github.com/denmilu/cve-2019-5736-poc)
 - [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
-- [Matthew-Stacks/cve-2019-5736](https://github.com/Matthew-Stacks/cve-2019-5736)
 - [ebdecastro/poc-cve-2019-5736](https://github.com/ebdecastro/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [k-onishi/CVE-2019-5736-PoC](https://github.com/k-onishi/CVE-2019-5736-PoC)
@@ -3589,6 +3588,14 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [GiverOfGifts/CVE-2019-5736-Custom-Runtime](https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime)
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/RunC-CVE-2019-5736](https://github.com/BBRathnayaka/RunC-CVE-2019-5736)
+
+### CVE-2019-5737
+
+<code>
+In Node.js including 6.x before 6.17.0, 8.x before 8.15.1, 10.x before 10.15.2, and 11.x before 11.10.1, an attacker can cause a Denial of Service (DoS) by establishing an HTTP or HTTPS connection in keep-alive mode and by sending headers very slowly. This keeps the connection and associated resources alive for a long period of time. Potential attacks are mitigated by the use of a load balancer or other proxy layer. This vulnerability is an extension of CVE-2018-12121, addressed in November and impacts all active Node.js release lines including 6.x before 6.17.0, 8.x before 8.15.1, 10.x before 10.15.2, and 11.x before 11.10.1.
+</code>
+
+- [beelzebruh/cve-2019-5737](https://github.com/beelzebruh/cve-2019-5737)
 
 ### CVE-2019-5786
 
@@ -8741,6 +8748,14 @@ A Remote Code Execution vulnerability in HPE Intelligent Management Center (iMC)
 </code>
 
 - [RealBearcat/HPE-iMC-7.3-RMI-Java-Deserialization](https://github.com/RealBearcat/HPE-iMC-7.3-RMI-Java-Deserialization)
+
+### CVE-2017-5941
+
+<code>
+An issue was discovered in the node-serialize package 0.0.4 for Node.js. Untrusted data passed into the unserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE).
+</code>
+
+- [p1gz/CVE-2017-5941-NodeJS-RCE](https://github.com/p1gz/CVE-2017-5941-NodeJS-RCE)
 
 ### CVE-2017-6008
 
