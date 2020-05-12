@@ -533,6 +533,8 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
 - [syncxx/CVE-2020-1938-Tool](https://github.com/syncxx/CVE-2020-1938-Tool)
 - [ZhengHaoCHeng/CNVD-2020-10487](https://github.com/ZhengHaoCHeng/CNVD-2020-10487)
+- [I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938)
+- [Umesh2807/Ghostcat](https://github.com/Umesh2807/Ghostcat)
 
 ### CVE-2020-1947
 
@@ -852,6 +854,7 @@ eap.c in pppd in ppp 2.4.2 through 2.4.8 has an rhostname buffer overflow in the
 - [marcinguy/CVE-2020-8597](https://github.com/marcinguy/CVE-2020-8597)
 - [mentalburden/MrsEAPers](https://github.com/mentalburden/MrsEAPers)
 - [WinMin/CVE-2020-8597](https://github.com/WinMin/CVE-2020-8597)
+- [Dilan-Diaz/Point-to-Point-Protocol-Daemon-RCE-Vulnerability-CVE-2020-8597-](https://github.com/Dilan-Diaz/Point-to-Point-Protocol-Daemon-RCE-Vulnerability-CVE-2020-8597-)
 
 ### CVE-2020-8809
 
@@ -879,6 +882,14 @@ index.php?p=/dashboard/settings/branding in Vanilla 2.6.3 allows stored XSS.
 </code>
 
 - [hacky1997/CVE-2020-8825](https://github.com/hacky1997/CVE-2020-8825)
+
+### CVE-2020-8835
+
+<code>
+In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) did not properly restrict the register bounds for 32-bit operations, leading to out-of-bounds reads and writes in kernel memory. The vulnerability also affects the Linux 5.4 stable series, starting with v5.4.7, as the introducing commit was backported to that branch. This vulnerability was fixed in 5.6.1, 5.5.14, and 5.4.29. (issue is aka ZDI-CAN-10780)
+</code>
+
+- [Prabhashaka/IT19147192-CVE-2020-8835](https://github.com/Prabhashaka/IT19147192-CVE-2020-8835)
 
 ### CVE-2020-8840
 
@@ -1360,6 +1371,7 @@ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation 
 - [ChrissHack/exim.exp](https://github.com/ChrissHack/exim.exp)
 - [darsigovrustam/CVE-2019-10149](https://github.com/darsigovrustam/CVE-2019-10149)
 - [Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149)
+- [Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149)
 
 ### CVE-2019-10207
 
@@ -1503,6 +1515,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [k8gege/CVE-2019-11043](https://github.com/k8gege/CVE-2019-11043)
 - [moniik/CVE-2019-11043_env](https://github.com/moniik/CVE-2019-11043_env)
 - [scgs66/CVE-2019-11043](https://github.com/scgs66/CVE-2019-11043)
+- [alokaranasinghe/cve-2019-11043](https://github.com/alokaranasinghe/cve-2019-11043)
 
 ### CVE-2019-11061
 
@@ -2118,6 +2131,7 @@ In the Linux kernel before 5.1.17, ptrace_link in kernel/ptrace.c mishandles the
 - [sumedhaDharmasena/-Kernel-ptrace-c-mishandles-vulnerability-CVE-2019-13272](https://github.com/sumedhaDharmasena/-Kernel-ptrace-c-mishandles-vulnerability-CVE-2019-13272)
 - [Tharana/Exploiting-a-Linux-kernel-vulnerability](https://github.com/Tharana/Exploiting-a-Linux-kernel-vulnerability)
 - [RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-](https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-)
+- [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
 
 ### CVE-2019-13361
 
@@ -2321,6 +2335,8 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287](https://github.com/ShianTrish/sudo-Security-Bypass-vulnerability-CVE-2019-14287)
 - [ejlevin99/Sudo-Security-Bypass-Vulnerability](https://github.com/ejlevin99/Sudo-Security-Bypass-Vulnerability)
 - [thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-](https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-)
+- [janod313/-CVE-2019-14287-SUDO-bypass-vulnerability](https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability)
+- [DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287)
 
 ### CVE-2019-14314
 
@@ -2929,6 +2945,14 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [jeandelboux/CVE-2019-18634](https://github.com/jeandelboux/CVE-2019-18634)
 - [halitAKAYDIN/sudo-cve-2019-18634](https://github.com/halitAKAYDIN/sudo-cve-2019-18634)
 
+### CVE-2019-18683
+
+<code>
+An issue was discovered in drivers/media/platform/vivid in the Linux kernel through 5.3.8. It is exploitable for privilege escalation on some Linux distributions where local users have /dev/video0 access, but only if the driver happens to be loaded. There are multiple race conditions during streaming stopping in this driver (part of the V4L2 subsystem). These issues are caused by wrong mutex locking in vivid_stop_generating_vid_cap(), vivid_stop_generating_vid_out(), sdr_cap_stop_streaming(), and the corresponding kthreads. At least one of these race conditions leads to a use-after-free.
+</code>
+
+- [sanjana123-cloud/CVE-2019-18683](https://github.com/sanjana123-cloud/CVE-2019-18683)
+
 ### CVE-2019-18873
 
 <code>
@@ -3176,6 +3200,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [nmanzi/webcvescanner](https://github.com/nmanzi/webcvescanner)
 - [darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC)
 - [Jerry-Swift/CVE-2019-19781-scanner](https://github.com/Jerry-Swift/CVE-2019-19781-scanner)
+- [Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201](https://github.com/Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201)
 
 ### CVE-2019-19844
 
@@ -3634,6 +3659,14 @@ Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.x
 </code>
 
 - [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
+
+### CVE-2019-6111
+
+<code>
+An issue was discovered in OpenSSH 7.9. Due to the scp implementation being derived from 1983 rcp, the server chooses which files/directories are sent to the client. However, the scp client only performs cursory validation of the object name returned (only directory traversal attacks are prevented). A malicious scp server (or Man-in-The-Middle attacker) can overwrite arbitrary files in the scp client target directory. If recursive operation (-r) is performed, the server can manipulate subdirectories as well (for example, to overwrite the .ssh/authorized_keys file).
+</code>
+
+- [senthuHac/SNP](https://github.com/senthuHac/SNP)
 
 ### CVE-2019-6203
 
@@ -4531,6 +4564,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [crispy-peppers/Libssh-server-CVE-2018-10933](https://github.com/crispy-peppers/Libssh-server-CVE-2018-10933)
 - [youkergav/CVE-2018-10933](https://github.com/youkergav/CVE-2018-10933)
 - [kristyna-mlcakova/CVE-2018-10933](https://github.com/kristyna-mlcakova/CVE-2018-10933)
+- [lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933)
 
 ### CVE-2018-10936
 
@@ -4634,6 +4668,14 @@ Stored XSS in YOOtheme Pagekit 1.0.13 and earlier allows a user to upload malici
 </code>
 
 - [GeunSam2/CVE-2018-11564](https://github.com/GeunSam2/CVE-2018-11564)
+
+### CVE-2018-1160
+
+<code>
+Netatalk before 3.1.12 is vulnerable to an out of bounds write in dsi_opensess.c. This is due to lack of bounds checking on attacker controlled data. A remote unauthenticated attacker can leverage this vulnerability to achieve arbitrary code execution.
+</code>
+
+- [SachinThanushka/CVE-2018-1160](https://github.com/SachinThanushka/CVE-2018-1160)
 
 ### CVE-2018-11631
 
@@ -7548,6 +7590,7 @@ Linux kernel: Exploitable memory corruption due to UFO to non-UFO path switch. W
 
 - [hikame/docker_escape_pwn](https://github.com/hikame/docker_escape_pwn)
 - [ol0273st-s/CVE-2017-1000112-Adpated](https://github.com/ol0273st-s/CVE-2017-1000112-Adpated)
+- [IT19083124/SNP-Assignment](https://github.com/IT19083124/SNP-Assignment)
 
 ### CVE-2017-1000117
 
@@ -8283,6 +8326,7 @@ The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4
 - [senyuuri/cve-2017-16995](https://github.com/senyuuri/cve-2017-16995)
 - [vnik5287/CVE-2017-16995](https://github.com/vnik5287/CVE-2017-16995)
 - [littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995)
+- [Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-](https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-)
 
 ### CVE-2017-16997
 
@@ -8674,6 +8718,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [un4ckn0wl3z/CVE-2017-5638](https://github.com/un4ckn0wl3z/CVE-2017-5638)
 - [colorblindpentester/CVE-2017-5638](https://github.com/colorblindpentester/CVE-2017-5638)
 - [injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638)
+- [pasannirmana/Aspire](https://github.com/pasannirmana/Aspire)
 
 ### CVE-2017-5645
 
@@ -8779,6 +8824,7 @@ The dccp_rcv_state_process function in net/dccp/input.c in the Linux kernel thro
 </code>
 
 - [node1392/Linux-Kernel-Vulnerability](https://github.com/node1392/Linux-Kernel-Vulnerability)
+- [BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074](https://github.com/BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074)
 
 ### CVE-2017-6079
 
@@ -9164,6 +9210,8 @@ Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow
 - [smashinu/CVE-2017-8759Expoit](https://github.com/smashinu/CVE-2017-8759Expoit)
 - [adeljck/CVE-2017-8759](https://github.com/adeljck/CVE-2017-8759)
 - [zhengkook/CVE-2017-8759](https://github.com/zhengkook/CVE-2017-8759)
+- [varunsaru/SNP](https://github.com/varunsaru/SNP)
+- [GayashanM/OHTS](https://github.com/GayashanM/OHTS)
 
 ### CVE-2017-8760
 
@@ -9355,6 +9403,7 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-](https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-)
 - [UbuntuStrike/CVE-2017-9805_Struts_Fuzz_N_Sploit](https://github.com/UbuntuStrike/CVE-2017-9805_Struts_Fuzz_N_Sploit)
 - [thevivekkryadav/CVE-2017-9805-Exploit](https://github.com/thevivekkryadav/CVE-2017-9805-Exploit)
+- [AvishkaSenadheera20/CVE-2017-9805---Documentation---IT19143378](https://github.com/AvishkaSenadheera20/CVE-2017-9805---Documentation---IT19143378)
 
 ### CVE-2017-9830
 
@@ -10003,6 +10052,7 @@ GNU wget before 1.18 allows remote servers to write to arbitrary files by redire
 
 - [BlueCocoa/CVE-2016-4971](https://github.com/BlueCocoa/CVE-2016-4971)
 - [mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971)
+- [dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-)
 
 ### CVE-2016-4977
 
@@ -10048,6 +10098,8 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195)
 - [imust6226/dirtcow](https://github.com/imust6226/dirtcow)
 - [shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-](https://github.com/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-)
+- [dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-)
+- [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
 
 ### CVE-2016-5345
 
@@ -10573,6 +10625,14 @@ The crash reporting feature in Apport 2.13 through 2.17.x before 2.17.1 allows l
 
 - [ScottyBauer/CVE-2015-1318](https://github.com/ScottyBauer/CVE-2015-1318)
 
+### CVE-2015-1328
+
+<code>
+The overlayfs implementation in the linux (aka Linux kernel) package before 3.19.0-21.21 in Ubuntu through 15.04 does not properly check permissions for file creation in the upper filesystem directory, which allows local users to obtain root access by leveraging a configuration in which overlayfs is permitted in an arbitrary mount namespace.
+</code>
+
+- [SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328)
+
 ### CVE-2015-1427
 
 <code>
@@ -10611,6 +10671,7 @@ Integer overflow in the SampleTable::setSampleToChunkParams function in SampleTa
 - [marZiiw/Stagefright_CVE-2015-1538-1](https://github.com/marZiiw/Stagefright_CVE-2015-1538-1)
 - [niranjanshr13/Stagefright-cve-2015-1538-1](https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1)
 - [Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation)
+- [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
 
 ### CVE-2015-1560
 
@@ -11782,6 +11843,8 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [Sindayifu/CVE-2019-14287-CVE-2014-6271](https://github.com/Sindayifu/CVE-2019-14287-CVE-2014-6271)
 - [Any3ite/CVE-2014-6271](https://github.com/Any3ite/CVE-2014-6271)
 - [somhm-solutions/Shell-Shock](https://github.com/somhm-solutions/Shell-Shock)
+- [rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-)
+- [Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271)
 
 ### CVE-2014-6287
 
@@ -12892,14 +12955,6 @@ Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the
 
 - [Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax)
 
-### CVE-2009-1151
-
-<code>
-Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
-</code>
-
-- [minervais/pocs](https://github.com/minervais/pocs)
-
 ### CVE-2009-1244
 
 <code>
@@ -12922,7 +12977,6 @@ Stack-based buffer overflow in Mini-stream ASX to MP3 Converter 3.0.0.7 allows r
 Stack-based buffer overflow in Easy RM to MP3 Converter allows remote attackers to execute arbitrary code via a long filename in a playlist (.pls) file.
 </code>
 
-- [adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330)
 - [war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330)
 - [exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter)
 
@@ -12973,14 +13027,6 @@ Cross-site request forgery (CSRF) vulnerability in user.php in Simplog 0.9.3.2, 
 </code>
 
 - [xiaoyu-iid/Simplog-Exploit](https://github.com/xiaoyu-iid/Simplog-Exploit)
-
-### CVE-2009-4118
-
-<code>
-The StartServiceCtrlDispatcher function in the cvpnd service (cvpnd.exe) in Cisco VPN client for Windows before 5.0.06.0100 does not properly handle an ERROR_FAILED_SERVICE_CONTROLLER_CONNECT error, which allows local users to cause a denial of service (service crash and VPN connection loss) via a manual start of cvpnd.exe while the cvpnd service is running.
-</code>
-
-- [alt3kx/CVE-2009-4118](https://github.com/alt3kx/CVE-2009-4118)
 
 ### CVE-2009-4137
 
