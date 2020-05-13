@@ -621,6 +621,14 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [Y4er/CVE-2020-2883](https://github.com/Y4er/CVE-2020-2883)
 
+### CVE-2020-3153
+
+<code>
+A vulnerability in the installer component of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated local attacker to copy user-supplied files to system level directories with system level privileges. The vulnerability is due to the incorrect handling of directory paths. An attacker could exploit this vulnerability by creating a malicious file and copying the file to a system directory. An exploit could allow the attacker to copy malicious files to arbitrary locations with system level privileges. This could include DLL pre-loading, DLL hijacking, and other related attacks. To exploit this vulnerability, the attacker needs valid credentials on the Windows system.
+</code>
+
+- [shubham0d/CVE-2020-3153](https://github.com/shubham0d/CVE-2020-3153)
+
 ### CVE-2020-3766
 
 <code>
@@ -2137,6 +2145,7 @@ In the Linux kernel before 5.1.17, ptrace_link in kernel/ptrace.c mishandles the
 - [Tharana/Exploiting-a-Linux-kernel-vulnerability](https://github.com/Tharana/Exploiting-a-Linux-kernel-vulnerability)
 - [RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-](https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-)
 - [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
+- [teddy47/CVE-2019-13272---Documentation](https://github.com/teddy47/CVE-2019-13272---Documentation)
 
 ### CVE-2019-13361
 
@@ -3622,7 +3631,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [epsteina16/Docker-Escape-Miner](https://github.com/epsteina16/Docker-Escape-Miner)
 - [GiverOfGifts/CVE-2019-5736-Custom-Runtime](https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime)
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
-- [BBRathnayaka/RunC-CVE-2019-5736](https://github.com/BBRathnayaka/RunC-CVE-2019-5736)
+- [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
 
 ### CVE-2019-5737
@@ -6064,6 +6073,7 @@ In WinRAR versions prior to and including 5.61, There is path traversal vulnerab
 - [denmilu/CVE-2018-20250](https://github.com/denmilu/CVE-2018-20250)
 - [930201676/CVE-2018-20250](https://github.com/930201676/CVE-2018-20250)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
+- [lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250)
 
 ### CVE-2018-20343
 
@@ -12618,6 +12628,14 @@ Use-after-free vulnerability in win32k.sys in the kernel-mode drivers in Microso
 </code>
 
 - [BrunoPujos/CVE-2011-1237](https://github.com/BrunoPujos/CVE-2011-1237)
+
+### CVE-2011-1249
+
+<code>
+The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
+</code>
+
+- [Madusanka99/OHTS](https://github.com/Madusanka99/OHTS)
 
 ### CVE-2011-1473
 
