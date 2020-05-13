@@ -309,6 +309,14 @@ A spoofing vulnerability exists when Microsoft SharePoint Server does not proper
 
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
 
+### CVE-2020-1015
+
+<code>
+An elevation of privilege vulnerability exists in the way that the User-Mode Power Service (UMPS) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0934, CVE-2020-0983, CVE-2020-1009, CVE-2020-1011.
+</code>
+
+- [0xeb-bp/cve-2020-1015](https://github.com/0xeb-bp/cve-2020-1015)
+
 ### CVE-2020-10199
 
 <code>
@@ -1482,6 +1490,14 @@ mongo-express before 0.54.0 is vulnerable to Remote Code Execution via endpoints
 
 - [masahiro331/CVE-2019-10758](https://github.com/masahiro331/CVE-2019-10758)
 - [lp008/CVE-2019-10758](https://github.com/lp008/CVE-2019-10758)
+
+### CVE-2019-1083
+
+<code>
+A denial of service vulnerability exists when Microsoft Common Object Runtime Library improperly handles web requests, aka '.NET Denial of Service Vulnerability'.
+</code>
+
+- [stevenseeley/HowCVE-2019-1083Works](https://github.com/stevenseeley/HowCVE-2019-1083Works)
 
 ### CVE-2019-10869
 
@@ -2658,7 +2674,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [ianxtianxt/CVE-2019-16278](https://github.com/ianxtianxt/CVE-2019-16278)
 - [darkerego/Nostromo_Python3](https://github.com/darkerego/Nostromo_Python3)
 - [AnubisSec/CVE-2019-16278](https://github.com/AnubisSec/CVE-2019-16278)
-- [rptucker/CVE-2019-16278-Nostromo_1.9.6-RCE](https://github.com/rptucker/CVE-2019-16278-Nostromo_1.9.6-RCE)
+- [theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE](https://github.com/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE)
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [Unam3dd/nostromo_1_9_6_rce](https://github.com/Unam3dd/nostromo_1_9_6_rce)
