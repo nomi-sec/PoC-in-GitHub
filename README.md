@@ -452,6 +452,11 @@ An issue was discovered in Joomla! before 3.9.17. Improper input validations in 
 - [HoangKien1020/CVE-2020-11890](https://github.com/HoangKien1020/CVE-2020-11890)
 
 ### CVE-2020-11932
+
+<code>
+It was discovered that the Subiquity installer for Ubuntu Server logged the LUKS full disk encryption password if one was entered.
+</code>
+
 - [ProjectorBUg/CVE-2020-11932](https://github.com/ProjectorBUg/CVE-2020-11932)
 
 ### CVE-2020-12078
@@ -9540,6 +9545,7 @@ The join_session_keyring function in security/keys/process_keys.c in the Linux k
 - [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
+- [th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit)
 
 ### CVE-2016-0752
 
@@ -12955,6 +12961,14 @@ Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the
 
 - [Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax)
 
+### CVE-2009-1151
+
+<code>
+Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
+</code>
+
+- [minervais/pocs](https://github.com/minervais/pocs)
+
 ### CVE-2009-1244
 
 <code>
@@ -12977,6 +12991,7 @@ Stack-based buffer overflow in Mini-stream ASX to MP3 Converter 3.0.0.7 allows r
 Stack-based buffer overflow in Easy RM to MP3 Converter allows remote attackers to execute arbitrary code via a long filename in a playlist (.pls) file.
 </code>
 
+- [adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330)
 - [war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330)
 - [exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter)
 
@@ -13027,6 +13042,14 @@ Cross-site request forgery (CSRF) vulnerability in user.php in Simplog 0.9.3.2, 
 </code>
 
 - [xiaoyu-iid/Simplog-Exploit](https://github.com/xiaoyu-iid/Simplog-Exploit)
+
+### CVE-2009-4118
+
+<code>
+The StartServiceCtrlDispatcher function in the cvpnd service (cvpnd.exe) in Cisco VPN client for Windows before 5.0.06.0100 does not properly handle an ERROR_FAILED_SERVICE_CONTROLLER_CONNECT error, which allows local users to cause a denial of service (service crash and VPN connection loss) via a manual start of cvpnd.exe while the cvpnd service is running.
+</code>
+
+- [alt3kx/CVE-2009-4118](https://github.com/alt3kx/CVE-2009-4118)
 
 ### CVE-2009-4137
 
