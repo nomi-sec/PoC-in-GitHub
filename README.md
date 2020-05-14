@@ -256,7 +256,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [thelostworldFree/CVE-2020-0796](https://github.com/thelostworldFree/CVE-2020-0796)
 - [syadg123/CVE-2020-0796](https://github.com/syadg123/CVE-2020-0796)
 - [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
-- [gyannx/CVE-2020-0796](https://github.com/gyannx/CVE-2020-0796)
 - [bacth0san96/SMBGhostScanner](https://github.com/bacth0san96/SMBGhostScanner)
 
 ### CVE-2020-0798
@@ -353,6 +352,9 @@ An issue was discovered in Joomla! before 3.9.16. Incorrect Access Control in th
 
 - [HoangKien1020/CVE-2020-10239](https://github.com/HoangKien1020/CVE-2020-10239)
 
+### CVE-2020-1048
+- [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
+
 ### CVE-2020-10551
 
 <code>
@@ -447,7 +449,6 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [lovelyjuice/cve-2020-11651-exp-plus](https://github.com/lovelyjuice/cve-2020-11651-exp-plus)
 - [heikanet/CVE-2020-11651-CVE-2020-11652-EXP](https://github.com/heikanet/CVE-2020-11651-CVE-2020-11652-EXP)
 - [RakhithJK/CVE-2020-11651](https://github.com/RakhithJK/CVE-2020-11651)
-- [gyannx/CVE-2020-11651](https://github.com/gyannx/CVE-2020-11651)
 
 ### CVE-2020-11794
 - [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
@@ -467,6 +468,7 @@ It was discovered that the Subiquity installer for Ubuntu Server logged the LUKS
 </code>
 
 - [ProjectorBUg/CVE-2020-11932](https://github.com/ProjectorBUg/CVE-2020-11932)
+- [Staubgeborener/CVE-2020-11932](https://github.com/Staubgeborener/CVE-2020-11932)
 
 ### CVE-2020-12078
 
@@ -13016,6 +13018,14 @@ Liferay Portal through 6.2.10 allows remote authenticated users to execute arbit
 
 
 ## 2009
+### CVE-2009-0229
+
+<code>
+The Windows Printing Service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 SP2 allows local users to read arbitrary files via a crafted separator page, aka &quot;Print Spooler Read File Vulnerability.&quot;
+</code>
+
+- [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
+
 ### CVE-2009-0473
 
 <code>
@@ -13337,22 +13347,6 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
-### CVE-2006-1236
-
-<code>
-Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
-</code>
-
-- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
-
-### CVE-2006-3592
-
-<code>
-Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
-</code>
-
-- [adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592)
-
 ### CVE-2006-3747
 
 <code>
@@ -13383,7 +13377,6 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
-- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
