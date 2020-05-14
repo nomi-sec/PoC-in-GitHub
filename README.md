@@ -515,6 +515,11 @@ The iframe plugin before 4.5 for WordPress does not sanitize a URL.
 - [g-rubert/CVE-2020-12696](https://github.com/g-rubert/CVE-2020-12696)
 
 ### CVE-2020-12717
+
+<code>
+The COVIDSafe (Australia) app 1.0 and 1.1 for iOS allows a remote attacker to crash the app, and consequently interfere with COVID-19 contact tracing, via a Bluetooth advertisement containing manufacturer data that is too short. This occurs because of an erroneous OpenTrace manuData.subdata call. The ABTraceTogether (Alberta), ProteGO (Poland), and TraceTogether (Singapore) apps were also affected.
+</code>
+
 - [wabzqem/covidsafe-CVE-2020-12717-exploit](https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit)
 
 ### CVE-2020-1611
@@ -852,6 +857,14 @@ Intellian Aptus Web 1.24 allows remote attackers to execute arbitrary OS command
 </code>
 
 - [Xh4H/Satellian-CVE-2020-7980](https://github.com/Xh4H/Satellian-CVE-2020-7980)
+
+### CVE-2020-8004
+
+<code>
+STMicroelectronics STM32F1 devices have Incorrect Access Control.
+</code>
+
+- [wuxx/CVE-2020-8004](https://github.com/wuxx/CVE-2020-8004)
 
 ### CVE-2020-8012
 
