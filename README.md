@@ -512,7 +512,10 @@ include/class.sla.php in osTicket before 1.14.2 allows XSS via the SLA Name.
 The iframe plugin before 4.5 for WordPress does not sanitize a URL.
 </code>
 
-- [Guilherme-Rubert/CVE-2020-12696](https://github.com/Guilherme-Rubert/CVE-2020-12696)
+- [g-rubert/CVE-2020-12696](https://github.com/g-rubert/CVE-2020-12696)
+
+### CVE-2020-12717
+- [wabzqem/covidsafe-CVE-2020-12717-exploit](https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit)
 
 ### CVE-2020-1611
 
@@ -990,7 +993,7 @@ OpenVPN Connect 3.1.0.361 on Windows has Insecure Permissions for %PROGRAMDATA%\
 Octech Oempro 4.7 through 4.11 allow XSS by an authenticated user. The parameter CampaignName in Campaign.Create is vulnerable.
 </code>
 
-- [Guilherme-Rubert/CVE-2020-9460](https://github.com/Guilherme-Rubert/CVE-2020-9460)
+- [g-rubert/CVE-2020-9460](https://github.com/g-rubert/CVE-2020-9460)
 
 ### CVE-2020-9461
 
@@ -998,7 +1001,7 @@ Octech Oempro 4.7 through 4.11 allow XSS by an authenticated user. The parameter
 Octech Oempro 4.7 through 4.11 allow stored XSS by an authenticated user. The FolderName parameter of the Media.CreateFolder command is vulnerable.
 </code>
 
-- [Guilherme-Rubert/CVE-2020-9461](https://github.com/Guilherme-Rubert/CVE-2020-9461)
+- [g-rubert/CVE-2020-9461](https://github.com/g-rubert/CVE-2020-9461)
 
 ### CVE-2020-9547
 
@@ -3481,6 +3484,8 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST)
 - [am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396)
 - [W2Ning/CVE-2019-3396](https://github.com/W2Ning/CVE-2019-3396)
+- [123qwerqwer/CVE-2019-3396](https://github.com/123qwerqwer/CVE-2019-3396)
+- [Flash1201/CVE-2019-3396](https://github.com/Flash1201/CVE-2019-3396)
 
 ### CVE-2019-3398
 
