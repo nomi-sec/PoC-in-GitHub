@@ -3823,6 +3823,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 </code>
 
 - [fs0c131y/ESFileExplorerOpenPortVuln](https://github.com/fs0c131y/ESFileExplorerOpenPortVuln)
+- [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 
 ### CVE-2019-6453
 
