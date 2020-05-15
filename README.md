@@ -524,6 +524,12 @@ The COVIDSafe (Australia) app 1.0 and 1.1 for iOS allows a remote attacker to cr
 
 - [wabzqem/covidsafe-CVE-2020-12717-exploit](https://github.com/wabzqem/covidsafe-CVE-2020-12717-exploit)
 
+### CVE-2020-12800
+- [amartinsec/CVE-2020-12800](https://github.com/amartinsec/CVE-2020-12800)
+
+### CVE-2020-12856
+- [alwentiu/COVIDSafe-CVE-2020-12856](https://github.com/alwentiu/COVIDSafe-CVE-2020-12856)
+
 ### CVE-2020-1611
 
 <code>
@@ -13347,6 +13353,22 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
+### CVE-2006-1236
+
+<code>
+Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
+</code>
+
+- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
+
+### CVE-2006-3592
+
+<code>
+Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
+</code>
+
+- [adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592)
+
 ### CVE-2006-3747
 
 <code>
