@@ -90,7 +90,7 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [gremwell/cve-2020-0601_poc](https://github.com/gremwell/cve-2020-0601_poc)
 - [bsides-rijeka/meetup-2-curveball](https://github.com/bsides-rijeka/meetup-2-curveball)
-- [TechHexagon/CVE-2020-0601-spoofkey](https://github.com/TechHexagon/CVE-2020-0601-spoofkey)
+- [NishantRanjantech/CVE-2020-0601-spoofkey](https://github.com/NishantRanjantech/CVE-2020-0601-spoofkey)
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 
 ### CVE-2020-0609
@@ -327,6 +327,7 @@ Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
 - [jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199)
 - [magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204)
 - [zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP)
+- [aleenzz/CVE-2020-10199](https://github.com/aleenzz/CVE-2020-10199)
 
 ### CVE-2020-10204
 
@@ -855,7 +856,7 @@ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows
 </code>
 
 - [mzer0one/CVE-2020-7961-POC](https://github.com/mzer0one/CVE-2020-7961-POC)
-- [Thisisfarhadzadeh/CVE-2020-7961-payloads](https://github.com/Thisisfarhadzadeh/CVE-2020-7961-payloads)
+- [b33p-b0x/CVE-2020-7961-payloads](https://github.com/b33p-b0x/CVE-2020-7961-payloads)
 - [wcxxxxx/CVE-2020-7961](https://github.com/wcxxxxx/CVE-2020-7961)
 
 ### CVE-2020-7980
@@ -5092,6 +5093,7 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [jpiechowka/at-doom-fortigate](https://github.com/jpiechowka/at-doom-fortigate)
 - [0xHunter/FortiOS-Credentials-Disclosure](https://github.com/0xHunter/FortiOS-Credentials-Disclosure)
 - [Blazz3/cve2018-13379-nmap-script](https://github.com/Blazz3/cve2018-13379-nmap-script)
+- [yukar1z0e/CVE-2018-13379](https://github.com/yukar1z0e/CVE-2018-13379)
 
 ### CVE-2018-13382
 
@@ -13399,6 +13401,7 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
+- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
