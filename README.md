@@ -4633,7 +4633,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933)
 - [jas502n/CVE-2018-10933](https://github.com/jas502n/CVE-2018-10933)
 - [ninp0/cve-2018-10933_poc](https://github.com/ninp0/cve-2018-10933_poc)
-- [IDX4CKS/CVE-2018-10933_Scanner](https://github.com/IDX4CKS/CVE-2018-10933_Scanner)
+- [pghook/CVE-2018-10933_Scanner](https://github.com/pghook/CVE-2018-10933_Scanner)
 - [Virgula0/POC-CVE-2018-10933](https://github.com/Virgula0/POC-CVE-2018-10933)
 - [shifa123/pythonprojects-CVE-2018-10933](https://github.com/shifa123/pythonprojects-CVE-2018-10933)
 - [xFreed0m/CVE-2018-10933](https://github.com/xFreed0m/CVE-2018-10933)
@@ -4650,6 +4650,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [youkergav/CVE-2018-10933](https://github.com/youkergav/CVE-2018-10933)
 - [kristyna-mlcakova/CVE-2018-10933](https://github.com/kristyna-mlcakova/CVE-2018-10933)
 - [lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933)
+- [JoSecMx/CVE-2018-10933_Scanner](https://github.com/JoSecMx/CVE-2018-10933_Scanner)
 
 ### CVE-2018-10936
 
@@ -10965,6 +10966,7 @@ The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write t
 - [davidtavarez/CVE-2015-3306](https://github.com/davidtavarez/CVE-2015-3306)
 - [cved-sources/cve-2015-3306](https://github.com/cved-sources/cve-2015-3306)
 - [hackarada/cve-2015-3306](https://github.com/hackarada/cve-2015-3306)
+- [cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit)
 
 ### CVE-2015-3337
 
