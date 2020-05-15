@@ -655,6 +655,7 @@ A vulnerability in the installer component of Cisco AnyConnect Secure Mobility C
 </code>
 
 - [shubham0d/CVE-2020-3153](https://github.com/shubham0d/CVE-2020-3153)
+- [raspberry-pie/CVE-2020-3153](https://github.com/raspberry-pie/CVE-2020-3153)
 
 ### CVE-2020-3766
 
@@ -2925,6 +2926,14 @@ Included in Log4j 1.2 is a SocketServer class that is vulnerable to deserializat
 </code>
 
 - [shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571)
+
+### CVE-2019-1759
+
+<code>
+A vulnerability in access control list (ACL) functionality of the Gigabit Ethernet Management interface of Cisco IOS XE Software could allow an unauthenticated, remote attacker to reach the configured IP addresses on the Gigabit Ethernet Management interface. The vulnerability is due to a logic error that was introduced in the Cisco IOS XE Software 16.1.1 Release, which prevents the ACL from working when applied against the management interface. An attacker could exploit this issue by attempting to access the device via the management interface.
+</code>
+
+- [r3m0t3nu11/CVE-2019-1759](https://github.com/r3m0t3nu11/CVE-2019-1759)
 
 ### CVE-2019-17596
 
@@ -8383,6 +8392,14 @@ The Process function in RemoteTaskServer/WebServer/HttpServer.cs in Ulterius bef
 </code>
 
 - [rickoooooo/ulteriusExploit](https://github.com/rickoooooo/ulteriusExploit)
+
+### CVE-2017-16934
+
+<code>
+The web server on DBL DBLTek devices allows remote attackers to execute arbitrary OS commands by obtaining the admin password via a frame.html?content=/dev/mtdblock/5 request, and then using this password for the HTTP Basic Authentication needed for a change_password.csp request, which supports a &quot;&lt;%%25call system.exec:&quot; string in the passwd parameter.
+</code>
+
+- [crinny/goip](https://github.com/crinny/goip)
 
 ### CVE-2017-16943
 
