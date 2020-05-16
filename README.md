@@ -618,6 +618,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
 - [Gspider7/rmi-iiop](https://github.com/Gspider7/rmi-iiop)
 - [cnsimo/CVE-2020-2551](https://github.com/cnsimo/CVE-2020-2551)
+- [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 
 ### CVE-2020-2555
 
@@ -12136,9 +12137,7 @@ EmbedThis GoAhead 3.0.0 through 3.4.1 does not properly handle path segments sta
 active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
 </code>
 
-- [terracatta/name_reverser](https://github.com/terracatta/name_reverser)
 - [heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156)
-- [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
 - [R3dKn33/CVE-2013-0156](https://github.com/R3dKn33/CVE-2013-0156)
 
@@ -12420,14 +12419,6 @@ The monlist feature in ntp_request.c in ntpd in NTP before 4.2.7p26 allows remot
 - [dani87/ntpscanner](https://github.com/dani87/ntpscanner)
 - [suedadam/ntpscanner](https://github.com/suedadam/ntpscanner)
 - [sepehrdaddev/ntpdos](https://github.com/sepehrdaddev/ntpdos)
-
-### CVE-2013-5664
-
-<code>
-Cross-site scripting (XSS) vulnerability in the web-based device-management API browser in Palo Alto Networks PAN-OS before 4.1.13 and 5.0.x before 5.0.6 allows remote attackers to inject arbitrary web script or HTML via crafted data, aka Ref ID 50908.
-</code>
-
-- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
 
 ### CVE-2013-5842
 
@@ -13331,6 +13322,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 - [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
+- [nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer)
 
 ### CVE-2007-3830
 
