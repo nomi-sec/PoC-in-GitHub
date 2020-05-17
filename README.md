@@ -3060,6 +3060,7 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 
 - [bao7uo/RAU_crypto](https://github.com/bao7uo/RAU_crypto)
 - [noperator/CVE-2019-18935](https://github.com/noperator/CVE-2019-18935)
+- [becrevex/Telerik_CVE-2019-18935](https://github.com/becrevex/Telerik_CVE-2019-18935)
 
 ### CVE-2019-19012
 
@@ -8788,7 +8789,6 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [Aasron/Struts2-045-Exp](https://github.com/Aasron/Struts2-045-Exp)
 - [SpiderMate/Stutsfi](https://github.com/SpiderMate/Stutsfi)
 - [jpacora/Struts2Shell](https://github.com/jpacora/Struts2Shell)
-- [NyaMeeEain/Apache-Struts](https://github.com/NyaMeeEain/Apache-Struts)
 - [AndreasKl/CVE-2017-5638](https://github.com/AndreasKl/CVE-2017-5638)
 - [riyazwalikar/struts-rce-cve-2017-5638](https://github.com/riyazwalikar/struts-rce-cve-2017-5638)
 - [homjxi0e/CVE-2017-5638](https://github.com/homjxi0e/CVE-2017-5638)
@@ -8801,6 +8801,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [RealBearcat/S2-045](https://github.com/RealBearcat/S2-045)
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
+- [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
 - [donaldashdown/Common-Vulnerability-and-Exploit](https://github.com/donaldashdown/Common-Vulnerability-and-Exploit)
 - [grant100/cybersecurity-struts2](https://github.com/grant100/cybersecurity-struts2)
 - [cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638)
