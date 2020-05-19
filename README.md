@@ -6346,6 +6346,14 @@ A privilege escalation detected in flintcms versions &lt;= 1.1.9 allows account 
 
 - [nisaruj/nosqli-flintcms](https://github.com/nisaruj/nosqli-flintcms)
 
+### CVE-2018-3786
+
+<code>
+A command injection vulnerability in egg-scripts &lt;v2.8.1 allows arbitrary shell command execution through a maliciously crafted command line argument.
+</code>
+
+- [erik-krogh/egg-scripts-CVE-2018-3786](https://github.com/erik-krogh/egg-scripts-CVE-2018-3786)
+
 ### CVE-2018-3810
 
 <code>
@@ -9511,6 +9519,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 </code>
 
 - [mbrasile/CVE-2017-9841](https://github.com/mbrasile/CVE-2017-9841)
+- [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 
 ### CVE-2017-98505
 - [mike-williams/Struts2Vuln](https://github.com/mike-williams/Struts2Vuln)
