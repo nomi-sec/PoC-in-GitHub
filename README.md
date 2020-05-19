@@ -638,6 +638,7 @@ A vulnerability in the installer component of Cisco AnyConnect Secure Mobility C
 
 - [shubham0d/CVE-2020-3153](https://github.com/shubham0d/CVE-2020-3153)
 - [raspberry-pie/CVE-2020-3153](https://github.com/raspberry-pie/CVE-2020-3153)
+- [goichot/CVE-2020-3153](https://github.com/goichot/CVE-2020-3153)
 
 ### CVE-2020-3766
 
