@@ -875,6 +875,9 @@ CA Unified Infrastructure Management (Nimsoft/UIM) 9.20 and below contains a buf
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
 
+### CVE-2020-8165
+- [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
+
 ### CVE-2020-8417
 
 <code>
@@ -1776,6 +1779,14 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [SmoZy92/CVE-2019-11932](https://github.com/SmoZy92/CVE-2019-11932)
 - [dashtic172/https-github.com-awakened171](https://github.com/dashtic172/https-github.com-awakened171)
 - [Err0r-ICA/WhatsPayloadRCE](https://github.com/Err0r-ICA/WhatsPayloadRCE)
+
+### CVE-2019-11933
+
+<code>
+A heap buffer overflow bug in libpl_droidsonroids_gif before 1.2.19, as used in WhatsApp for Android before version 2.19.291 could allow remote attackers to execute arbitrary code or cause a denial of service.
+</code>
+
+- [NatleoJ/CVE-2019-11933](https://github.com/NatleoJ/CVE-2019-11933)
 
 ### CVE-2019-12086
 
@@ -3509,7 +3520,6 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST)
 - [am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396)
 - [W2Ning/CVE-2019-3396](https://github.com/W2Ning/CVE-2019-3396)
-- [123qwerqwer/CVE-2019-3396](https://github.com/123qwerqwer/CVE-2019-3396)
 - [Flash1201/CVE-2019-3396](https://github.com/Flash1201/CVE-2019-3396)
 
 ### CVE-2019-3398
@@ -4038,6 +4048,14 @@ Multiple memory corruption issues were addressed with improved memory handling. 
 
 ### CVE-2019-8627
 - [maldiohead/CVE-2019-8627](https://github.com/maldiohead/CVE-2019-8627)
+
+### CVE-2019-8641
+
+<code>
+An out-of-bounds read was addressed with improved input validation.
+</code>
+
+- [f26401004/CVE-2019-8641-reproduction](https://github.com/f26401004/CVE-2019-8641-reproduction)
 
 ### CVE-2019-8781
 
