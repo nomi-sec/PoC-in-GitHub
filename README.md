@@ -6813,6 +6813,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [mhamed366/CVE-2018-6574](https://github.com/mhamed366/CVE-2018-6574)
 - [Eugene24/CVE-2018-6574](https://github.com/Eugene24/CVE-2018-6574)
 - [coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574)
+- [darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574)
 
 ### CVE-2018-6622
 
