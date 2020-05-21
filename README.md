@@ -783,7 +783,7 @@ A flawed protocol design in the Ledger Monero app before 1.5.1 for Ledger Nano a
 LinuxKI v6.0-1 and earlier is vulnerable to an remote code execution which is resolved in release 6.0-2.
 </code>
 
-- [m0rph-1/CVE-2020-7209](https://github.com/m0rph-1/CVE-2020-7209)
+- [cwinfosec/CVE-2020-7209](https://github.com/cwinfosec/CVE-2020-7209)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -3154,7 +3154,7 @@ Netis WF2419 is vulnerable to authenticated Remote Code Execution (RCE) as root 
 freeFTPd 1.0.8 has a Post-Authentication Buffer Overflow via a crafted SIZE command (this is exploitable even if logging is disabled).
 </code>
 
-- [m0rph-1/CVE-2019-19383](https://github.com/m0rph-1/CVE-2019-19383)
+- [cwinfosec/CVE-2019-19383](https://github.com/cwinfosec/CVE-2019-19383)
 
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
@@ -3333,7 +3333,7 @@ NetHack 3.6.x before 3.6.4 is prone to a buffer overflow vulnerability when read
 The HTTP service in quickweb.exe in Pablo Quick 'n Easy Web Server 3.3.8 allows Remote Unauthenticated Heap Memory Corruption via a large host or domain parameter. It may be possible to achieve remote code execution because of a double free.
 </code>
 
-- [m0rph-1/CVE-2019-19943](https://github.com/m0rph-1/CVE-2019-19943)
+- [cwinfosec/CVE-2019-19943](https://github.com/cwinfosec/CVE-2019-19943)
 
 ### CVE-2019-20059
 
