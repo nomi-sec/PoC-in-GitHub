@@ -372,6 +372,7 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 </code>
 
 - [0nise/CVE-2020-10673](https://github.com/0nise/CVE-2020-10673)
+- [Al1ex/CVE-2020-10673](https://github.com/Al1ex/CVE-2020-10673)
 
 ### CVE-2020-1102
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
@@ -392,6 +393,14 @@ The Gravity updater in Pi-hole through 4.4 allows an authenticated adversary to 
 </code>
 
 - [Frichetten/CVE-2020-11108-PoC](https://github.com/Frichetten/CVE-2020-11108-PoC)
+
+### CVE-2020-11113
+
+<code>
+FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.openjpa.ee.WASRegistryManagedRuntime (aka openjpa).
+</code>
+
+- [Al1ex/CVE-2020-11113](https://github.com/Al1ex/CVE-2020-11113)
 
 ### CVE-2020-11539
 
@@ -1035,7 +1044,9 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 </code>
 
 - [threedr3am/tomcat-cluster-session-sync-exp](https://github.com/threedr3am/tomcat-cluster-session-sync-exp)
+- [masahiro331/CVE-2020-9484](https://github.com/masahiro331/CVE-2020-9484)
 - [FiveAourThe/CVE-2020-9484](https://github.com/FiveAourThe/CVE-2020-9484)
+- [IdealDreamLast/CVE-2020-9484](https://github.com/IdealDreamLast/CVE-2020-9484)
 
 ### CVE-2020-9547
 
@@ -1076,12 +1087,6 @@ The issue was addressed by clearing website permission prompts after navigation.
 </code>
 
 - [c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781](https://github.com/c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781)
-
-### CVE-2020-98989
-- [tdcoming/CVE-2020-98989](https://github.com/tdcoming/CVE-2020-98989)
-
-### CVE-2020-9999
-- [tdcoming/CVE-2020-9999](https://github.com/tdcoming/CVE-2020-9999)
 
 
 ## 2019
@@ -3905,6 +3910,14 @@ pub/sns.php in the W3 Total Cache plugin before 0.9.4 for WordPress allows remot
 </code>
 
 - [random-robbie/cve-2019-6715](https://github.com/random-robbie/cve-2019-6715)
+
+### CVE-2019-7192
+
+<code>
+This improper access control vulnerability allows remote attackers to gain unauthorized access to the system. To fix these vulnerabilities, QNAP recommend updating Photo Station to their latest versions.
+</code>
+
+- [cycraft-corp/cve-2019-7192-check](https://github.com/cycraft-corp/cve-2019-7192-check)
 
 ### CVE-2019-7216
 
