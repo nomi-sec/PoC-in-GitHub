@@ -7568,7 +7568,7 @@ Microsoft Office 2007 SP3, Microsoft Office 2010 SP2, Microsoft Office 2013 SP1,
 - [kn0wm4d/htattack](https://github.com/kn0wm4d/htattack)
 - [joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199)
 - [joke998/Cve-2017-0199-](https://github.com/joke998/Cve-2017-0199-)
-- [r0otshell/Microsoft-Word-CVE-2017-0199-](https://github.com/r0otshell/Microsoft-Word-CVE-2017-0199-)
+- [sUbc0ol/Microsoft-Word-CVE-2017-0199-](https://github.com/sUbc0ol/Microsoft-Word-CVE-2017-0199-)
 - [viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199)
 - [nicpenning/RTF-Cleaner](https://github.com/nicpenning/RTF-Cleaner)
 - [bloomer1016/2017-11-17-Maldoc-Using-CVE-2017-0199](https://github.com/bloomer1016/2017-11-17-Maldoc-Using-CVE-2017-0199)
@@ -8635,7 +8635,7 @@ A BIOS password extraction vulnerability has been reported on certain consumer n
 An exploitable heap corruption vulnerability exists in the UnCompressUnicode functionality of Antenna House DMC HTMLFilter used by MarkLogic 8.0-6. A specially crafted xls file can cause a heap corruption resulting in arbitrary code execution. An attacker can send/provide malicious XLS file to trigger this vulnerability.
 </code>
 
-- [r0otshell/Detection-for-CVE-2017-2793](https://github.com/r0otshell/Detection-for-CVE-2017-2793)
+- [sUbc0ol/Detection-for-CVE-2017-2793](https://github.com/sUbc0ol/Detection-for-CVE-2017-2793)
 
 ### CVE-2017-3000
 
@@ -8845,8 +8845,8 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [riyazwalikar/struts-rce-cve-2017-5638](https://github.com/riyazwalikar/struts-rce-cve-2017-5638)
 - [homjxi0e/CVE-2017-5638](https://github.com/homjxi0e/CVE-2017-5638)
 - [eeehit/CVE-2017-5638](https://github.com/eeehit/CVE-2017-5638)
-- [r0otshell/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/r0otshell/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
-- [r0otshell/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638](https://github.com/r0otshell/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638)
+- [sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
+- [sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638](https://github.com/sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638)
 - [R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-](https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-)
 - [Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638)
 - [TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
@@ -10709,7 +10709,7 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
-- [r0otshell/CVE-2015-0235](https://github.com/r0otshell/CVE-2015-0235)
+- [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0313
