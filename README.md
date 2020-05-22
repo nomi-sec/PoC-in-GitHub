@@ -1836,6 +1836,7 @@ A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x befo
 </code>
 
 - [codeplutos/CVE-2019-12086-jackson-databind-file-read](https://github.com/codeplutos/CVE-2019-12086-jackson-databind-file-read)
+- [Al1ex/CVE-2019-12086](https://github.com/Al1ex/CVE-2019-12086)
 
 ### CVE-2019-1215
 
