@@ -2090,6 +2090,14 @@ Symantec Endpoint Protection, prior to 14.2 RU1 &amp; 12.1 RU6 MP10 and Symantec
 ### CVE-2019-12796
 - [PeterUpfold/CVE-2019-12796](https://github.com/PeterUpfold/CVE-2019-12796)
 
+### CVE-2019-12814
+
+<code>
+A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x through 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has JDOM 1.x or 2.x jar in the classpath, an attacker can send a specifically crafted JSON message that allows them to read arbitrary local files on the server.
+</code>
+
+- [Al1ex/CVE-2019-12814](https://github.com/Al1ex/CVE-2019-12814)
+
 ### CVE-2019-12815
 
 <code>
