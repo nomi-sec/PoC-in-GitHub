@@ -3340,6 +3340,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC)
 - [Jerry-Swift/CVE-2019-19781-scanner](https://github.com/Jerry-Swift/CVE-2019-19781-scanner)
 - [Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201](https://github.com/Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201)
+- [yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781)
 
 ### CVE-2019-19844
 
