@@ -9612,7 +9612,7 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [chrisjd20/cve-2017-9805.py](https://github.com/chrisjd20/cve-2017-9805.py)
 - [UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-](https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-)
 - [UbuntuStrike/CVE-2017-9805_Struts_Fuzz_N_Sploit](https://github.com/UbuntuStrike/CVE-2017-9805_Struts_Fuzz_N_Sploit)
-- [thevivekkryadav/CVE-2017-9805-Exploit](https://github.com/thevivekkryadav/CVE-2017-9805-Exploit)
+- [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
 - [AvishkaSenadheera20/CVE-2017-9805---Documentation---IT19143378](https://github.com/AvishkaSenadheera20/CVE-2017-9805---Documentation---IT19143378)
 
 ### CVE-2017-9830
