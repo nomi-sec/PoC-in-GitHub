@@ -298,7 +298,6 @@ An elevation of privilege vulnerability exists in the way that the User-Mode Pow
 Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
 </code>
 
-- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [wsfengfan/CVE-2020-10199-10204](https://github.com/wsfengfan/CVE-2020-10199-10204)
 - [jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199)
 - [magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204)
@@ -312,6 +311,7 @@ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
 </code>
 
 - [duolaoa333/CVE-2020-10204](https://github.com/duolaoa333/CVE-2020-10204)
+- [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
 
 ### CVE-2020-10238
 
@@ -419,6 +419,15 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-11113](https://github.com/Al1ex/CVE-2020-11113)
+
+### CVE-2020-11444
+
+<code>
+Sonatype Nexus Repository Manager 3.x up to and including 3.21.2 has Incorrect Access Control.
+</code>
+
+- [zhzyker/exphub](https://github.com/zhzyker/exphub)
+- [zhzyker/CVE-2020-11444](https://github.com/zhzyker/CVE-2020-11444)
 
 ### CVE-2020-11539
 
@@ -10168,6 +10177,14 @@ Adobe Flash Player 21.0.0.226 and earlier allows remote attackers to execute arb
 
 - [amit-raut/CVE-2016-4117-Report](https://github.com/amit-raut/CVE-2016-4117-Report)
 - [hybridious/CVE-2016-4117](https://github.com/hybridious/CVE-2016-4117)
+
+### CVE-2016-4437
+
+<code>
+Apache Shiro before 1.2.5, when a cipher key has not been configured for the &quot;remember me&quot; feature, allows remote attackers to execute arbitrary code or bypass intended access restrictions via an unspecified request parameter.
+</code>
+
+- [Kit4y/Awesome_shiro](https://github.com/Kit4y/Awesome_shiro)
 
 ### CVE-2016-4438
 
