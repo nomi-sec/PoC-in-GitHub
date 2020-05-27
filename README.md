@@ -223,7 +223,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796](https://github.com/BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796)
 - [x1n5h3n/SMBGhost](https://github.com/x1n5h3n/SMBGhost)
 - [wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796)
-- [miraizeroday/CVE-2020-0796](https://github.com/miraizeroday/CVE-2020-0796)
 - [GuoKerS/aioScan_CVE-2020-0796](https://github.com/GuoKerS/aioScan_CVE-2020-0796)
 - [jiansiting/CVE-2020-0796-Scanner](https://github.com/jiansiting/CVE-2020-0796-Scanner)
 - [maxpl0it/Unauthenticated-CVE-2020-0796-PoC](https://github.com/maxpl0it/Unauthenticated-CVE-2020-0796-PoC)
@@ -250,6 +249,14 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
 - [bacth0san96/SMBGhostScanner](https://github.com/bacth0san96/SMBGhostScanner)
 - [DreamoneOnly/CVE-2020-0796-LPE](https://github.com/DreamoneOnly/CVE-2020-0796-LPE)
+
+### CVE-2020-0797
+
+<code>
+An elevation of privilege vulnerability exists when the Windows Work Folder Service improperly handles file operations, aka 'Windows Work Folder Service Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0777, CVE-2020-0800, CVE-2020-0864, CVE-2020-0865, CVE-2020-0866, CVE-2020-0897.
+</code>
+
+- [bonesg/CVE-2020-0797](https://github.com/bonesg/CVE-2020-0797)
 
 ### CVE-2020-0814
 
@@ -429,6 +436,9 @@ Sonatype Nexus Repository Manager 3.x up to and including 3.21.2 has Incorrect A
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [zhzyker/CVE-2020-11444](https://github.com/zhzyker/CVE-2020-11444)
 
+### CVE-2020-11492
+- [joshfinley/CVE-2020-11492](https://github.com/joshfinley/CVE-2020-11492)
+
 ### CVE-2020-11539
 
 <code>
@@ -555,6 +565,9 @@ OpenTrace, as used in COVIDSafe through v1.0.17, TraceTogether, ABTraceTogether,
 </code>
 
 - [alwentiu/COVIDSafe-CVE-2020-12856](https://github.com/alwentiu/COVIDSafe-CVE-2020-12856)
+
+### CVE-2020-13634
+- [y5s5k5/CVE-2020-13634](https://github.com/y5s5k5/CVE-2020-13634)
 
 ### CVE-2020-1611
 
