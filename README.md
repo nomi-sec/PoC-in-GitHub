@@ -249,6 +249,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
 - [bacth0san96/SMBGhostScanner](https://github.com/bacth0san96/SMBGhostScanner)
 - [DreamoneOnly/CVE-2020-0796-LPE](https://github.com/DreamoneOnly/CVE-2020-0796-LPE)
+- [halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796)
 
 ### CVE-2020-0797
 
