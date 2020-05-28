@@ -438,7 +438,7 @@ Sonatype Nexus Repository Manager 3.x up to and including 3.21.2 has Incorrect A
 - [zhzyker/CVE-2020-11444](https://github.com/zhzyker/CVE-2020-11444)
 
 ### CVE-2020-11492
-- [joshfinley/CVE-2020-11492](https://github.com/joshfinley/CVE-2020-11492)
+- [CrackerCat/CVE-2020-11492](https://github.com/CrackerCat/CVE-2020-11492)
 
 ### CVE-2020-11539
 
@@ -12609,14 +12609,6 @@ Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in 
 </code>
 
 - [sdneon/CveTest](https://github.com/sdneon/CveTest)
-
-### CVE-2013-6987
-
-<code>
-Multiple directory traversal vulnerabilities in the FileBrowser components in Synology DiskStation Manager (DSM) before 4.3-3810 Update 3 allow remote attackers to read, write, and delete arbitrary files via a .. (dot dot) in the (1) path parameter to file_delete.cgi or (2) folder_path parameter to file_share.cgi in webapi/FileStation/; (3) dlink parameter to fbdownload/; or unspecified parameters to (4) html5_upload.cgi, (5) file_download.cgi, (6) file_sharing.cgi, (7) file_MVCP.cgi, or (8) file_rename.cgi in webapi/FileStation/.
-</code>
-
-- [stoicboomer/CVE-2013-6987](https://github.com/stoicboomer/CVE-2013-6987)
 
 
 ## 2012
