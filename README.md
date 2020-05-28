@@ -1334,7 +1334,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [wqsemc/CVE-2019-0708](https://github.com/wqsemc/CVE-2019-0708)
 - [mai-lang-chai/CVE-2019-0708-RCE](https://github.com/mai-lang-chai/CVE-2019-0708-RCE)
 - [Micr067/CVE-2019-0708RDP-MSF](https://github.com/Micr067/CVE-2019-0708RDP-MSF)
-- [adkinguzi/CVE-2019-0708-BlueKeep](https://github.com/adkinguzi/CVE-2019-0708-BlueKeep)
+- [kebmam/CVE-2019-0708-BlueKeep](https://github.com/kebmam/CVE-2019-0708-BlueKeep)
 - [FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708)
 - [qinggegeya/CVE-2019-0708-EXP-MSF-](https://github.com/qinggegeya/CVE-2019-0708-EXP-MSF-)
 - [distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708)
@@ -4655,7 +4655,7 @@ An issue was discovered in PHP before 5.6.36, 7.0.x before 7.0.30, 7.1.x before 
 An out-of-bounds heap buffer read flaw was found in the way advancecomp before 2.1-2018/02 handled processing of ZIP files. An attacker could potentially use this flaw to crash the advzip utility by tricking it into processing crafted ZIP files.
 </code>
 
-- [pollonegro/Gpon-Routers](https://github.com/pollonegro/Gpon-Routers)
+- [rotemkama/Gpon-Routers](https://github.com/rotemkama/Gpon-Routers)
 
 ### CVE-2018-10561
 
