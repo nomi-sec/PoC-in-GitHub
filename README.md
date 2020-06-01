@@ -7574,6 +7574,22 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 
 
 ## 2017
+### CVE-2017-0038
+
+<code>
+gdi32.dll in Graphics Device Interface (GDI) in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold, 1511, and 1607 allows remote attackers to obtain sensitive information from process heap memory via a crafted EMF file, as demonstrated by an EMR_SETDIBITSTODEVICE record with modified Device Independent Bitmap (DIB) dimensions. NOTE: this vulnerability exists because of an incomplete fix for CVE-2016-3216, CVE-2016-3219, and/or CVE-2016-3220.
+</code>
+
+- [k0keoyo/CVE-2017-0038-EXP-C-JS](https://github.com/k0keoyo/CVE-2017-0038-EXP-C-JS)
+
+### CVE-2017-0065
+
+<code>
+Microsoft Edge allows remote attackers to obtain sensitive information from process memory via a crafted web site, aka &quot;Microsoft Browser Information Disclosure Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0009, CVE-2017-0011, CVE-2017-0017, and CVE-2017-0068.
+</code>
+
+- [Dankirk/cve-2017-0065](https://github.com/Dankirk/cve-2017-0065)
+
 ### CVE-2017-0075
 
 <code>
@@ -7581,6 +7597,30 @@ Hyper-V in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2; Windows 
 </code>
 
 - [4B5F5F4B/HyperV](https://github.com/4B5F5F4B/HyperV)
+
+### CVE-2017-0106
+
+<code>
+Microsoft Excel 2007 SP3, Microsoft Outlook 2010 SP2, Microsoft Outlook 2013 SP1, and Microsoft Outlook 2016 allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted document, aka &quot;Microsoft Office Memory Corruption Vulnerability.&quot;
+</code>
+
+- [ryhanson/CVE-2017-0106](https://github.com/ryhanson/CVE-2017-0106)
+
+### CVE-2017-0108
+
+<code>
+The Windows Graphics Component in Microsoft Office 2007 SP3; 2010 SP2; and Word Viewer; Skype for Business 2016; Lync 2013 SP1; Lync 2010; Live Meeting 2007; Silverlight 5; Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; and Windows 7 SP1 allows remote attackers to execute arbitrary code via a crafted web site, aka &quot;Graphics Component Remote Code Execution Vulnerability.&quot; This vulnerability is different from that described in CVE-2017-0014.
+</code>
+
+- [homjxi0e/CVE-2017-0108](https://github.com/homjxi0e/CVE-2017-0108)
+
+### CVE-2017-0143
+
+<code>
+The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0144, CVE-2017-0145, CVE-2017-0146, and CVE-2017-0148.
+</code>
+
+- [valarauco/wannafind](https://github.com/valarauco/wannafind)
 
 ### CVE-2017-0144
 
@@ -7591,19 +7631,45 @@ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 
 - [peterpt/eternal_scanner](https://github.com/peterpt/eternal_scanner)
 - [kimocoder/eternalblue](https://github.com/kimocoder/eternalblue)
 
+### CVE-2017-0145
+
+<code>
+The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0144, CVE-2017-0146, and CVE-2017-0148.
+</code>
+
+- [MelonSmasher/chef_tissues](https://github.com/MelonSmasher/chef_tissues)
+
 ### CVE-2017-0199
 
 <code>
 Microsoft Office 2007 SP3, Microsoft Office 2010 SP2, Microsoft Office 2013 SP1, Microsoft Office 2016, Microsoft Windows Vista SP2, Windows Server 2008 SP2, Windows 7 SP1, Windows 8.1 allow remote attackers to execute arbitrary code via a crafted document, aka &quot;Microsoft Office/WordPad Remote Code Execution Vulnerability w/Windows API.&quot;
 </code>
 
+- [ryhanson/CVE-2017-0199](https://github.com/ryhanson/CVE-2017-0199)
+- [SyFi/cve-2017-0199](https://github.com/SyFi/cve-2017-0199)
 - [bhdresh/CVE-2017-0199](https://github.com/bhdresh/CVE-2017-0199)
+- [NotAwful/CVE-2017-0199-Fix](https://github.com/NotAwful/CVE-2017-0199-Fix)
+- [haibara3839/CVE-2017-0199-master](https://github.com/haibara3839/CVE-2017-0199-master)
+- [Exploit-install/CVE-2017-0199](https://github.com/Exploit-install/CVE-2017-0199)
+- [zakybstrd21215/PoC-CVE-2017-0199](https://github.com/zakybstrd21215/PoC-CVE-2017-0199)
+- [n1shant-sinha/CVE-2017-0199](https://github.com/n1shant-sinha/CVE-2017-0199)
+- [kn0wm4d/htattack](https://github.com/kn0wm4d/htattack)
+- [joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199)
+- [joke998/Cve-2017-0199-](https://github.com/joke998/Cve-2017-0199-)
 - [sUbc0ol/Microsoft-Word-CVE-2017-0199-](https://github.com/sUbc0ol/Microsoft-Word-CVE-2017-0199-)
 - [viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199)
 - [nicpenning/RTF-Cleaner](https://github.com/nicpenning/RTF-Cleaner)
 - [bloomer1016/2017-11-17-Maldoc-Using-CVE-2017-0199](https://github.com/bloomer1016/2017-11-17-Maldoc-Using-CVE-2017-0199)
 - [jacobsoo/RTF-Cleaner](https://github.com/jacobsoo/RTF-Cleaner)
 - [denmilu/CVE-2017-0199](https://github.com/denmilu/CVE-2017-0199)
+
+### CVE-2017-0204
+
+<code>
+Microsoft Outlook 2007 SP3, Microsoft Outlook 2010 SP2, Microsoft Outlook 2013 SP1, and Microsoft Outlook 2016 allow remote attackers to bypass the Office Protected View via a specially crafted document, aka &quot;Microsoft Office Security Feature Bypass Vulnerability.&quot;
+</code>
+
+- [ryhanson/CVE-2017-0204](https://github.com/ryhanson/CVE-2017-0204)
 
 ### CVE-2017-0213
 
@@ -7643,6 +7709,14 @@ The kernel-mode drivers in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows
 
 - [R06otMD5/cve-2017-0263-poc](https://github.com/R06otMD5/cve-2017-0263-poc)
 
+### CVE-2017-0290
+
+<code>
+The Microsoft Malware Protection Engine running on Microsoft Forefront and Microsoft Defender on Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 does not properly scan a specially crafted file leading to memory corruption, aka &quot;Microsoft Malware Protection Engine Remote Code Execution Vulnerability.&quot;
+</code>
+
+- [homjxi0e/CVE-2017-0290-](https://github.com/homjxi0e/CVE-2017-0290-)
+
 ### CVE-2017-0411
 
 <code>
@@ -7657,6 +7731,7 @@ An elevation of privilege vulnerability in the Framework APIs could enable a loc
 A remote code execution vulnerability in the Framesequence library could enable an attacker using a specially crafted file to execute arbitrary code in the context of an unprivileged process. This issue is rated as High due to the possibility of remote code execution in an application that uses the Framesequence library. Product: Android. Versions: 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1. Android ID: A-33718716.
 </code>
 
+- [JiounDai/CVE-2017-0478](https://github.com/JiounDai/CVE-2017-0478)
 - [denmilu/CVE-2017-0478](https://github.com/denmilu/CVE-2017-0478)
 
 ### CVE-2017-0541
@@ -7665,6 +7740,7 @@ A remote code execution vulnerability in the Framesequence library could enable 
 A remote code execution vulnerability in sonivox in Mediaserver could enable an attacker using a specially crafted file to cause memory corruption during media file and data processing. This issue is rated as Critical due to the possibility of remote code execution within the context of the Mediaserver process. Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1. Android ID: A-34031018.
 </code>
 
+- [JiounDai/CVE-2017-0541](https://github.com/JiounDai/CVE-2017-0541)
 - [denmilu/CVE-2017-0541](https://github.com/denmilu/CVE-2017-0541)
 
 ### CVE-2017-0554
@@ -7723,6 +7799,9 @@ An elevation of privilege vulnerability in the Android framework (ui framework).
 </code>
 
 - [kpatsakis/PoC_CVE-2017-0807](https://github.com/kpatsakis/PoC_CVE-2017-0807)
+
+### CVE-2017-1000000
+- [smythtech/DWF-CVE-2017-1000000](https://github.com/smythtech/DWF-CVE-2017-1000000)
 
 ### CVE-2017-1000083
 
@@ -8595,6 +8674,9 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
+- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388
@@ -8604,6 +8686,14 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 </code>
 
 - [bazad/IOFireWireFamily-null-deref](https://github.com/bazad/IOFireWireFamily-null-deref)
+
+### CVE-2017-2636
+
+<code>
+Race condition in drivers/tty/n_hdlc.c in the Linux kernel through 4.10.1 allows local users to gain privileges or cause a denial of service (double free) by setting the HDLC line discipline.
+</code>
+
+- [alexzorin/cve-2017-2636-el](https://github.com/alexzorin/cve-2017-2636-el)
 
 ### CVE-2017-2666
 
@@ -8695,12 +8785,21 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 
 - [ianxtianxt/CVE-2017-3506](https://github.com/ianxtianxt/CVE-2017-3506)
 
+### CVE-2017-3599
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Pluggable Auth). Supported versions that are affected are 5.6.35 and earlier and 5.7.17 and earlier. Easily &quot;exploitable&quot; vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 7.5 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H). NOTE: the previous information is from the April 2017 CPU. Oracle has not commented on third-party claims that this issue is an integer overflow in sql/auth/sql_authentication.cc which allows remote attackers to cause a denial of service via a crafted authentication packet.
+</code>
+
+- [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
+
 ### CVE-2017-3730
 
 <code>
 In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
 </code>
 
+- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
 - [ymmah/OpenSSL-CVE-2017-3730](https://github.com/ymmah/OpenSSL-CVE-2017-3730)
 
 ### CVE-2017-3881
@@ -8709,6 +8808,10 @@ In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters fo
 A vulnerability in the Cisco Cluster Management Protocol (CMP) processing code in Cisco IOS and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause a reload of an affected device or remotely execute code with elevated privileges. The Cluster Management Protocol utilizes Telnet internally as a signaling and command protocol between cluster members. The vulnerability is due to the combination of two factors: (1) the failure to restrict the use of CMP-specific Telnet options only to internal, local communications between cluster members and instead accept and process such options over any Telnet connection to an affected device; and (2) the incorrect processing of malformed CMP-specific Telnet options. An attacker could exploit this vulnerability by sending malformed CMP-specific Telnet options while establishing a Telnet session with an affected Cisco device configured to accept Telnet connections. An exploit could allow an attacker to execute arbitrary code and obtain full control of the device or cause a reload of the affected device. This affects Catalyst switches, Embedded Service 2020 switches, Enhanced Layer 2 EtherSwitch Service Module, Enhanced Layer 2/3 EtherSwitch Service Module, Gigabit Ethernet Switch Module (CGESM) for HP, IE Industrial Ethernet switches, ME 4924-10GE switch, RF Gateway 10, and SM-X Layer 2/3 EtherSwitch Service Module. Cisco Bug IDs: CSCvd48893.
 </code>
 
+- [artkond/cisco-rce](https://github.com/artkond/cisco-rce)
+- [homjxi0e/CVE-2017-3881-exploit-cisco-](https://github.com/homjxi0e/CVE-2017-3881-exploit-cisco-)
+- [homjxi0e/CVE-2017-3881-Cisco](https://github.com/homjxi0e/CVE-2017-3881-Cisco)
+- [zakybstrd21215/PoC-CVE-2017-3881](https://github.com/zakybstrd21215/PoC-CVE-2017-3881)
 - [1337g/CVE-2017-3881](https://github.com/1337g/CVE-2017-3881)
 
 ### CVE-2017-4490
@@ -8725,6 +8828,14 @@ An issue was discovered in Pivotal Spring Web Flow through 2.4.4. Applications t
 </code>
 
 - [cved-sources/cve-2017-4971](https://github.com/cved-sources/cve-2017-4971)
+
+### CVE-2017-5005
+
+<code>
+Stack-based buffer overflow in Quick Heal Internet Security 10.1.0.316 and earlier, Total Security 10.1.0.316 and earlier, and AntiVirus Pro 10.1.0.316 and earlier on OS X allows remote attackers to execute arbitrary code via a crafted LC_UNIXTHREAD.cmdsize field in a Mach-O file that is mishandled during a Security Scan (aka Custom Scan) operation.
+</code>
+
+- [payatu/QuickHeal](https://github.com/payatu/QuickHeal)
 
 ### CVE-2017-5007
 
@@ -8756,6 +8867,14 @@ An issue was discovered in PHPMailer before 5.2.22. PHPMailer's msgHTML method a
 
 - [cscli/CVE-2017-5223](https://github.com/cscli/CVE-2017-5223)
 
+### CVE-2017-5415
+
+<code>
+An attack can use a blob URL and script to spoof an arbitrary addressbar URL prefaced by &quot;blob:&quot; as the protocol, leading to user confusion and further spoofing attacks. This vulnerability affects Firefox &lt; 52.
+</code>
+
+- [649/CVE-2017-5415](https://github.com/649/CVE-2017-5415)
+
 ### CVE-2017-5487
 
 <code>
@@ -8767,16 +8886,48 @@ wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php in the REST AP
 - [GeunSam2/CVE-2017-5487](https://github.com/GeunSam2/CVE-2017-5487)
 - [patilkr/wp-CVE-2017-5487-exploit](https://github.com/patilkr/wp-CVE-2017-5487-exploit)
 
+### CVE-2017-5633
+
+<code>
+Multiple cross-site request forgery (CSRF) vulnerabilities on the D-Link DI-524 Wireless Router with firmware 9.01 allow remote attackers to (1) change the admin password, (2) reboot the device, or (3) possibly have unspecified other impact via crafted requests to CGI programs.
+</code>
+
+- [cardangi/Exploit-CVE-2017-5633](https://github.com/cardangi/Exploit-CVE-2017-5633)
+
 ### CVE-2017-5638
 
 <code>
 The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
+- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
+- [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
+- [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
+- [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
+- [mthbernardes/strutszeiro](https://github.com/mthbernardes/strutszeiro)
+- [xsscx/cve-2017-5638](https://github.com/xsscx/cve-2017-5638)
+- [immunio/apache-struts2-CVE-2017-5638](https://github.com/immunio/apache-struts2-CVE-2017-5638)
+- [Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve)
+- [aljazceru/CVE-2017-5638-Apache-Struts2](https://github.com/aljazceru/CVE-2017-5638-Apache-Struts2)
+- [sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638)
+- [jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638)
+- [random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638)
 - [initconf/CVE-2017-5638_struts](https://github.com/initconf/CVE-2017-5638_struts)
 - [mazen160/struts-pwn](https://github.com/mazen160/struts-pwn)
+- [ret2jazzy/Struts-Apache-ExploitPack](https://github.com/ret2jazzy/Struts-Apache-ExploitPack)
+- [lolwaleet/ExpStruts](https://github.com/lolwaleet/ExpStruts)
+- [oktavianto/CVE-2017-5638-Apache-Struts2](https://github.com/oktavianto/CVE-2017-5638-Apache-Struts2)
+- [jrrdev/cve-2017-5638](https://github.com/jrrdev/cve-2017-5638)
+- [opt9/Strutshock](https://github.com/opt9/Strutshock)
+- [falcon-lnhg/StrutsShell](https://github.com/falcon-lnhg/StrutsShell)
+- [bhagdave/CVE-2017-5638](https://github.com/bhagdave/CVE-2017-5638)
 - [jas502n/st2-046-poc](https://github.com/jas502n/st2-046-poc)
+- [KarzsGHR/S2-046_S2-045_POC](https://github.com/KarzsGHR/S2-046_S2-045_POC)
+- [gsfish/S2-Reaper](https://github.com/gsfish/S2-Reaper)
+- [mcassano/cve-2017-5638](https://github.com/mcassano/cve-2017-5638)
+- [opt9/Strutscli](https://github.com/opt9/Strutscli)
 - [tahmed11/strutsy](https://github.com/tahmed11/strutsy)
+- [payatu/CVE-2017-5638](https://github.com/payatu/CVE-2017-5638)
 - [Aasron/Struts2-045-Exp](https://github.com/Aasron/Struts2-045-Exp)
 - [SpiderMate/Stutsfi](https://github.com/SpiderMate/Stutsfi)
 - [jpacora/Struts2Shell](https://github.com/jpacora/Struts2Shell)
@@ -8823,7 +8974,9 @@ In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket
 An unprivileged network attacker could gain system privileges to provisioned Intel manageability SKUs: Intel Active Management Technology (AMT) and Intel Standard Manageability (ISM). An unprivileged local attacker could provision manageability features gaining unprivileged network or local system privileges on Intel manageability SKUs: Intel Active Management Technology (AMT), Intel Standard Manageability (ISM), and Intel Small Business Technology (SBT).
 </code>
 
+- [CerberusSecurity/CVE-2017-5689](https://github.com/CerberusSecurity/CVE-2017-5689)
 - [x1sec/amthoneypot](https://github.com/x1sec/amthoneypot)
+- [Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass)
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 
 ### CVE-2017-5693
@@ -8937,6 +9090,14 @@ D-Link DGS-1510-28XMP, DGS-1510-28X, DGS-1510-52X, DGS-1510-52, DGS-1510-28P, DG
 
 - [varangamin/CVE-2017-6206](https://github.com/varangamin/CVE-2017-6206)
 
+### CVE-2017-6370
+
+<code>
+TYPO3 7.6.15 sends an http request to an index.php?loginProvider URI in cases with an https Referer, which allows remote attackers to obtain sensitive cleartext information by sniffing the network and reading the userident and username fields.
+</code>
+
+- [faizzaidi/TYPO3-v7.6.15-Unencrypted-Login-Request](https://github.com/faizzaidi/TYPO3-v7.6.15-Unencrypted-Login-Request)
+
 ### CVE-2017-6558
 
 <code>
@@ -8976,6 +9137,7 @@ Cross-site scripting (XSS) vulnerability in the Open-Xchange webmail before 7.6.
 AlienVault USM and OSSIM before 5.3.7 and NfSen before 1.3.8 allow remote authenticated users to execute arbitrary commands in a privileged context, or launch a reverse shell, via vectors involving the PHP session ID and the NfSen PHP code, aka AlienVault ID ENG-104862.
 </code>
 
+- [patrickfreed/nfsen-exploit](https://github.com/patrickfreed/nfsen-exploit)
 - [KeyStrOke95/nfsen_1.3.7_CVE-2017-6971](https://github.com/KeyStrOke95/nfsen_1.3.7_CVE-2017-6971)
 
 ### CVE-2017-7038
@@ -9037,13 +9199,32 @@ The xfrm_replay_verify_len function in net/xfrm/xfrm_user.c in the Linux kernel 
 - [rockl/cve-2017-7184](https://github.com/rockl/cve-2017-7184)
 - [rockl/cve-2017-7184-bak](https://github.com/rockl/cve-2017-7184-bak)
 
+### CVE-2017-7188
+
+<code>
+Zurmo 3.1.1 Stable allows a Cross-Site Scripting (XSS) attack with a base64-encoded SCRIPT element within a data: URL in the returnUrl parameter to default/toggleCollapse.
+</code>
+
+- [faizzaidi/Zurmo-Stable-3.1.1-XSS-By-Provensec-LLC](https://github.com/faizzaidi/Zurmo-Stable-3.1.1-XSS-By-Provensec-LLC)
+
 ### CVE-2017-7269
 
 <code>
 Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with &quot;If: &lt;http://&quot; in a PROPFIND request, as exploited in the wild in July or August 2016.
 </code>
 
+- [eliuha/webdav_exploit](https://github.com/eliuha/webdav_exploit)
 - [lcatro/CVE-2017-7269-Echo-PoC](https://github.com/lcatro/CVE-2017-7269-Echo-PoC)
+- [caicai1355/CVE-2017-7269-exploit](https://github.com/caicai1355/CVE-2017-7269-exploit)
+- [M1a0rz/CVE-2017-7269](https://github.com/M1a0rz/CVE-2017-7269)
+- [whiteHat001/cve-2017-7269picture](https://github.com/whiteHat001/cve-2017-7269picture)
+- [zcgonvh/cve-2017-7269](https://github.com/zcgonvh/cve-2017-7269)
+- [jrrombaldo/CVE-2017-7269](https://github.com/jrrombaldo/CVE-2017-7269)
+- [g0rx/iis6-exploit-2017-CVE-2017-7269](https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269)
+- [slimpagey/IIS_6.0_WebDAV_Ruby](https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby)
+- [homjxi0e/cve-2017-7269](https://github.com/homjxi0e/cve-2017-7269)
+- [xiaovpn/CVE-2017-7269](https://github.com/xiaovpn/CVE-2017-7269)
+- [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
 
@@ -9070,7 +9251,9 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 </code>
 
 - [betab0t/cve-2017-7494](https://github.com/betab0t/cve-2017-7494)
+- [homjxi0e/CVE-2017-7494](https://github.com/homjxi0e/CVE-2017-7494)
 - [opsxcq/exploit-CVE-2017-7494](https://github.com/opsxcq/exploit-CVE-2017-7494)
+- [Waffles-2/SambaCry](https://github.com/Waffles-2/SambaCry)
 - [brianwrf/SambaHunter](https://github.com/brianwrf/SambaHunter)
 - [joxeankoret/CVE-2017-7494](https://github.com/joxeankoret/CVE-2017-7494)
 - [Zer0d0y/Samba-CVE-2017-7494](https://github.com/Zer0d0y/Samba-CVE-2017-7494)
@@ -9104,6 +9287,14 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
 - [cved-sources/cve-2017-7529](https://github.com/cved-sources/cve-2017-7529)
 - [mpalonso/ferni](https://github.com/mpalonso/ferni)
 - [MaxSecurity/CVE-2017-7529-POC](https://github.com/MaxSecurity/CVE-2017-7529-POC)
+
+### CVE-2017-7648
+
+<code>
+Foscam networked devices use the same hardcoded SSL private key across different customers' installations, which allows remote attackers to defeat cryptographic protection mechanisms by leveraging knowledge of this key from another installation.
+</code>
+
+- [notmot/CVE-2017-7648.](https://github.com/notmot/CVE-2017-7648.)
 
 ### CVE-2017-7679
 
@@ -9159,7 +9350,17 @@ Malicious PATCH requests submitted to servers using Spring Data REST versions pr
 WordPress through 4.7.4 relies on the Host HTTP header for a password-reset e-mail message, which makes it easier for remote attackers to reset arbitrary passwords by making a crafted wp-login.php?action=lostpassword request and then arranging for this message to bounce or be resent, leading to transmission of the reset key to a mailbox on an attacker-controlled SMTP server. This is related to problematic use of the SERVER_NAME variable in wp-includes/pluggable.php in conjunction with the PHP mail function. Exploitation is not achievable in all cases because it requires at least one of the following: (1) the attacker can prevent the victim from receiving any e-mail messages for an extended period of time (such as 5 days), (2) the victim's e-mail system sends an autoresponse containing the original message, or (3) the victim manually composes a reply containing the original message.
 </code>
 
+- [homjxi0e/CVE-2017-8295-WordPress-4.7.4---Unauthorized-Password-Reset](https://github.com/homjxi0e/CVE-2017-8295-WordPress-4.7.4---Unauthorized-Password-Reset)
+- [alash3al/wp-allowed-hosts](https://github.com/alash3al/wp-allowed-hosts)
 - [cyberheartmi9/CVE-2017-8295](https://github.com/cyberheartmi9/CVE-2017-8295)
+
+### CVE-2017-8382
+
+<code>
+admidio 3.2.8 has CSRF in adm_program/modules/members/members_function.php with an impact of deleting arbitrary user accounts.
+</code>
+
+- [faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc](https://github.com/faizzaidi/Admidio-3.2.8-CSRF-POC-by-Provensec-llc)
 
 ### CVE-2017-8464
 
@@ -9260,6 +9461,14 @@ An issue was discovered on Accellion FTA devices before FTA_9_12_180. There is X
 
 - [Voraka/cve-2017-8760](https://github.com/Voraka/cve-2017-8760)
 
+### CVE-2017-8779
+
+<code>
+rpcbind through 0.2.4, LIBTIRPC through 1.0.1 and 1.0.2-rc through 1.0.2-rc3, and NTIRPC through 1.4.3 do not consider the maximum RPC data size during memory allocation for XDR strings, which allows remote attackers to cause a denial of service (memory consumption with no subsequent free) via a crafted UDP packet to port 111, aka rpcbomb.
+</code>
+
+- [drbothen/GO-RPCBOMB](https://github.com/drbothen/GO-RPCBOMB)
+
 ### CVE-2017-8802
 
 <code>
@@ -9292,6 +9501,7 @@ The inet_csk_clone_lock function in net/ipv4/inet_connection_sock.c in the Linux
 SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to execute arbitrary SQL commands via unspecified vectors.
 </code>
 
+- [brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917)
 - [stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla)
 - [cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917)
 
@@ -10533,6 +10743,14 @@ steps/mail/sendmail.inc in Roundcube before 1.1.7 and 1.2.x before 1.2.3, when n
 
 
 ## 2015
+### CVE-2015-0006
+
+<code>
+The Network Location Awareness (NLA) service in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not perform mutual authentication to determine a domain connection, which allows remote attackers to trigger an unintended permissive configuration by spoofing DNS and LDAP responses on a local network, aka &quot;NLA Security Feature Bypass Vulnerability.&quot;
+</code>
+
+- [bugch3ck/imposter](https://github.com/bugch3ck/imposter)
+
 ### CVE-2015-0057
 
 <code>
@@ -10540,6 +10758,25 @@ win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Wind
 </code>
 
 - [55-AA/CVE-2015-0057](https://github.com/55-AA/CVE-2015-0057)
+
+### CVE-2015-0072
+
+<code>
+Cross-site scripting (XSS) vulnerability in Microsoft Internet Explorer 9 through 11 allows remote attackers to bypass the Same Origin Policy and inject arbitrary web script or HTML via vectors involving an IFRAME element that triggers a redirect, a second IFRAME element that does not trigger a redirect, and an eval of a WindowProxy object, aka &quot;Universal XSS (UXSS).&quot;
+</code>
+
+- [dbellavista/uxss-poc](https://github.com/dbellavista/uxss-poc)
+
+### CVE-2015-0204
+
+<code>
+The ssl3_get_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8zd, 1.0.0 before 1.0.0p, and 1.0.1 before 1.0.1k allows remote SSL servers to conduct RSA-to-EXPORT_RSA downgrade attacks and facilitate brute-force decryption by offering a weak ephemeral RSA key in a noncompliant role, related to the &quot;FREAK&quot; issue.  NOTE: the scope of this CVE is only client code based on OpenSSL, not EXPORT_RSA issues associated with servers or other TLS implementations.
+</code>
+
+- [felmoltor/FreakVulnChecker](https://github.com/felmoltor/FreakVulnChecker)
+- [scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner)
+- [AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script](https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script)
+- [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
 
 ### CVE-2015-0231
 
@@ -10555,10 +10792,32 @@ Use-after-free vulnerability in the process_nested_data function in ext/standard
 Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
 </code>
 
+- [fser/ghost-checker](https://github.com/fser/ghost-checker)
+- [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
+- [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
+- [piyokango/ghost](https://github.com/piyokango/ghost)
+- [LyricalSecurity/GHOSTCHECK-cve-2015-0235](https://github.com/LyricalSecurity/GHOSTCHECK-cve-2015-0235)
+- [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
+- [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
+- [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
+- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
+- [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [JustDenisYT/ghosttester](https://github.com/JustDenisYT/ghosttester)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
+- [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
+- [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
+
+### CVE-2015-0313
+
+<code>
+Use-after-free vulnerability in Adobe Flash Player before 13.0.0.269 and 14.x through 16.x before 16.0.0.305 on Windows and OS X and before 11.2.202.442 on Linux allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in February 2015, a different vulnerability than CVE-2015-0315, CVE-2015-0320, and CVE-2015-0322.
+</code>
+
+- [SecurityObscurity/cve-2015-0313](https://github.com/SecurityObscurity/cve-2015-0313)
 
 ### CVE-2015-0345
 
@@ -10590,7 +10849,16 @@ Mozilla Firefox before 37.0, Firefox ESR 31.x before 31.6, and Thunderbird befor
 The XPC implementation in Admin Framework in Apple OS X before 10.10.3 allows local users to bypass authentication and obtain admin privileges via unspecified vectors.
 </code>
 
+- [Shmoopi/RootPipe-Demo](https://github.com/Shmoopi/RootPipe-Demo)
 - [sideeffect42/RootPipeTester](https://github.com/sideeffect42/RootPipeTester)
+
+### CVE-2015-1140
+
+<code>
+Buffer overflow in IOHIDFamily in Apple OS X before 10.10.3 allows local users to gain privileges via unspecified vectors.
+</code>
+
+- [kpwn/vpwn](https://github.com/kpwn/vpwn)
 
 ### CVE-2015-1157
 
@@ -10599,6 +10867,14 @@ CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial 
 </code>
 
 - [perillamint/CVE-2015-1157](https://github.com/perillamint/CVE-2015-1157)
+
+### CVE-2015-1318
+
+<code>
+The crash reporting feature in Apport 2.13 through 2.17.x before 2.17.1 allows local users to gain privileges via a crafted usr/share/apport/apport file in a namespace (container).
+</code>
+
+- [ScottyBauer/CVE-2015-1318](https://github.com/ScottyBauer/CVE-2015-1318)
 
 ### CVE-2015-1328
 
@@ -10616,6 +10892,14 @@ The Groovy scripting engine in Elasticsearch before 1.3.8 and 1.4.x before 1.4.3
 
 - [t0kx/exploit-CVE-2015-1427](https://github.com/t0kx/exploit-CVE-2015-1427)
 - [cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427)
+
+### CVE-2015-1474
+
+<code>
+Multiple integer overflows in the GraphicBuffer::unflatten function in platform/frameworks/native/libs/ui/GraphicBuffer.cpp in Android through 5.0 allow attackers to gain privileges or cause a denial of service (memory corruption) via vectors that trigger a large number of (1) file descriptors or (2) integer values.
+</code>
+
+- [p1gl3t/CVE-2015-1474_poc](https://github.com/p1gl3t/CVE-2015-1474_poc)
 
 ### CVE-2015-1528
 
@@ -10657,6 +10941,14 @@ Directory traversal vulnerability in the Elegant Themes Divi theme for WordPress
 - [paralelo14/WordPressMassExploiter](https://github.com/paralelo14/WordPressMassExploiter)
 - [paralelo14/CVE-2015-1579](https://github.com/paralelo14/CVE-2015-1579)
 
+### CVE-2015-1592
+
+<code>
+Movable Type Pro, Open Source, and Advanced before 5.2.12 and Pro and Advanced 6.0.x before 6.0.7 does not properly use the Perl Storable::thaw function, which allows remote attackers to include and execute arbitrary local Perl files and possibly execute arbitrary code via unspecified vectors.
+</code>
+
+- [lightsey/cve-2015-1592](https://github.com/lightsey/cve-2015-1592)
+
 ### CVE-2015-1635
 
 <code>
@@ -10664,6 +10956,7 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 </code>
 
 - [xPaw/HTTPsys](https://github.com/xPaw/HTTPsys)
+- [Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635)
 - [technion/erlvulnscan](https://github.com/technion/erlvulnscan)
 - [wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034)
 - [1337r00t/Remove-IIS-RIIS](https://github.com/1337r00t/Remove-IIS-RIIS)
@@ -10722,6 +11015,14 @@ The rpki_rtr_pdu_print function in print-rpki-rtr.c in the TCP printer in tcpdum
 
 - [arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153)
 
+### CVE-2015-2208
+
+<code>
+The saveObject function in moadmin.php in phpMoAdmin 1.1.2 allows remote attackers to execute arbitrary commands via shell metacharacters in the object parameter.
+</code>
+
+- [ptantiku/cve-2015-2208](https://github.com/ptantiku/cve-2015-2208)
+
 ### CVE-2015-2231
 - [rednaga/adups-get-super-serial](https://github.com/rednaga/adups-get-super-serial)
 
@@ -10774,6 +11075,14 @@ The prepend_path function in fs/dcache.c in the Linux kernel before 4.2.4 does n
 
 - [Kagami/docker_cve-2015-2925](https://github.com/Kagami/docker_cve-2015-2925)
 
+### CVE-2015-3043
+
+<code>
+Adobe Flash Player before 13.0.0.281 and 14.x through 17.x before 17.0.0.169 on Windows and OS X and before 11.2.202.457 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, as exploited in the wild in April 2015, a different vulnerability than CVE-2015-0347, CVE-2015-0350, CVE-2015-0352, CVE-2015-0353, CVE-2015-0354, CVE-2015-0355, CVE-2015-0360, CVE-2015-3038, CVE-2015-3041, and CVE-2015-3042.
+</code>
+
+- [whitehairman/Exploit](https://github.com/whitehairman/Exploit)
+
 ### CVE-2015-3073
 
 <code>
@@ -10781,6 +11090,14 @@ Adobe Reader and Acrobat 10.x before 10.1.14 and 11.x before 11.0.11 on Windows 
 </code>
 
 - [reigningshells/CVE-2015-3073](https://github.com/reigningshells/CVE-2015-3073)
+
+### CVE-2015-3152
+
+<code>
+Oracle MySQL before 5.7.3, Oracle MySQL Connector/C (aka libmysqlclient) before 6.1.3, and MariaDB before 5.5.44 use the --ssl option to mean that SSL is optional, which allows man-in-the-middle attackers to spoof servers via a cleartext-downgrade attack, aka a &quot;BACKRONYM&quot; attack.
+</code>
+
+- [duo-labs/mysslstrip](https://github.com/duo-labs/mysslstrip)
 
 ### CVE-2015-3224
 
@@ -10797,6 +11114,7 @@ request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, 
 The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
 </code>
 
+- [chcx/cpx_proftpd](https://github.com/chcx/cpx_proftpd)
 - [nootropics/propane](https://github.com/nootropics/propane)
 - [t0kx/exploit-CVE-2015-3306](https://github.com/t0kx/exploit-CVE-2015-3306)
 - [davidtavarez/CVE-2015-3306](https://github.com/davidtavarez/CVE-2015-3306)
@@ -10818,6 +11136,7 @@ Directory traversal vulnerability in Elasticsearch before 1.4.5 and 1.5.x before
 The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and KVM, allows local guest users to cause a denial of service (out-of-bounds write and guest crash) or possibly execute arbitrary code via the (1) FD_CMD_READ_ID, (2) FD_CMD_DRIVE_SPECIFICATION_COMMAND, or other unspecified commands, aka VENOM.
 </code>
 
+- [vincentbernat/cve-2015-3456](https://github.com/vincentbernat/cve-2015-3456)
 - [MauroEldritch/venom](https://github.com/MauroEldritch/venom)
 
 ### CVE-2015-3636
@@ -11971,7 +12290,6 @@ EmbedThis GoAhead 3.0.0 through 3.4.1 does not properly handle path segments sta
 active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
 </code>
 
-- [terracatta/name_reverser](https://github.com/terracatta/name_reverser)
 - [heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156)
 - [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
@@ -12255,14 +12573,6 @@ The monlist feature in ntp_request.c in ntpd in NTP before 4.2.7p26 allows remot
 - [dani87/ntpscanner](https://github.com/dani87/ntpscanner)
 - [suedadam/ntpscanner](https://github.com/suedadam/ntpscanner)
 - [sepehrdaddev/ntpdos](https://github.com/sepehrdaddev/ntpdos)
-
-### CVE-2013-5664
-
-<code>
-Cross-site scripting (XSS) vulnerability in the web-based device-management API browser in Palo Alto Networks PAN-OS before 4.1.13 and 5.0.x before 5.0.6 allows remote attackers to inject arbitrary web script or HTML via crafted data, aka Ref ID 50908.
-</code>
-
-- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
 
 ### CVE-2013-5842
 
