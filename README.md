@@ -527,6 +527,7 @@ An issue was discovered in Open-AudIT 3.3.1. There is shell metacharacter inject
 </code>
 
 - [mhaskar/CVE-2020-12078](https://github.com/mhaskar/CVE-2020-12078)
+- [84KaliPleXon3/CVE-2020-12078](https://github.com/84KaliPleXon3/CVE-2020-12078)
 
 ### CVE-2020-12112
 
