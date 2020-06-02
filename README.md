@@ -250,6 +250,8 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [bacth0san96/SMBGhostScanner](https://github.com/bacth0san96/SMBGhostScanner)
 - [DreamoneOnly/CVE-2020-0796-LPE](https://github.com/DreamoneOnly/CVE-2020-0796-LPE)
 - [halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796)
+- [ysyyrps123/CVE-2020-0796](https://github.com/ysyyrps123/CVE-2020-0796)
+- [ysyyrps123/CVE-2020-0796-exp](https://github.com/ysyyrps123/CVE-2020-0796-exp)
 
 ### CVE-2020-0797
 
@@ -593,14 +595,6 @@ OpenTrace, as used in COVIDSafe through v1.0.17, TraceTogether, ABTraceTogether,
 
 ### CVE-2020-13457
 - [alt3kx/CVE-2020-13457](https://github.com/alt3kx/CVE-2020-13457)
-
-### CVE-2020-13634
-
-<code>
-In Windows Master (aka Windows Optimization Master) 7.99.13.604, the driver file (WoptiHWDetect.SYS) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0xF1002558
-</code>
-
-- [y5s5k5/CVE-2020-13634](https://github.com/y5s5k5/CVE-2020-13634)
 
 ### CVE-2020-13646
 - [y5s5k5/CVE-2020-13646](https://github.com/y5s5k5/CVE-2020-13646)
@@ -1093,6 +1087,14 @@ Joplin through 1.0.184 allows Arbitrary File Read via XSS.
 </code>
 
 - [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
+
+### CVE-2020-9283
+
+<code>
+golang.org/x/crypto before v0.0.0-20200220183623-bac4c82f6975 for Go allows a panic during signature verification in the golang.org/x/crypto/ssh package. A client can attack an SSH server that accepts public keys. Also, a server can attack any SSH client.
+</code>
+
+- [brompwnie/CVE-2020-9283](https://github.com/brompwnie/CVE-2020-9283)
 
 ### CVE-2020-9375
 
