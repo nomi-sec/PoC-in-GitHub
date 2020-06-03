@@ -824,6 +824,14 @@ In Spring Framework, versions 5.2.x prior to 5.2.3, versions 5.1.x prior to 5.1.
 
 - [motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398)
 
+### CVE-2020-5410
+
+<code>
+Spring Cloud Config, versions 2.2.x prior to 2.2.3, versions 2.1.x prior to 2.1.9, and older unsupported versions allow applications to serve arbitrary configuration files through the spring-cloud-config-server module. A malicious user, or attacker, can send a request using a specially crafted URL that can lead to a directory traversal attack.
+</code>
+
+- [dead5nd/config-demo](https://github.com/dead5nd/config-demo)
+
 ### CVE-2020-5509
 
 <code>
@@ -1558,6 +1566,7 @@ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation 
 - [darsigovrustam/CVE-2019-10149](https://github.com/darsigovrustam/CVE-2019-10149)
 - [Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149)
 - [Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149)
+- [area1/exim-cve-2019-10149-data](https://github.com/area1/exim-cve-2019-10149-data)
 
 ### CVE-2019-10207
 
