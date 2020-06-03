@@ -587,7 +587,7 @@ The COVIDSafe (Australia) app 1.0 and 1.1 for iOS allows a remote attacker to cr
 ### CVE-2020-12753
 
 <code>
-An issue was discovered on LG mobile devices with Android OS 7.2, 8.0, 8.1, 9, and 10 software. Arbitrary code execution can occur via the bootloader. The LG ID is LVE-SMP-200006 (May 2020).
+An issue was discovered on LG mobile devices with Android OS 7.2, 8.0, 8.1, 9, and 10 software. Arbitrary code execution can occur via the bootloader because of an EL1/EL3 coldboot vulnerability involving raw_resources. The LG ID is LVE-SMP-200006 (May 2020).
 </code>
 
 - [shinyquagsire23/CVE-2020-12753-PoC](https://github.com/shinyquagsire23/CVE-2020-12753-PoC)
@@ -2853,6 +2853,14 @@ The driver in Micro-Star MSI Afterburner 4.6.2.15658 (aka RTCore64.sys and RTCor
 </code>
 
 - [Barakat/CVE-2019-16098](https://github.com/Barakat/CVE-2019-16098)
+
+### CVE-2019-16113
+
+<code>
+Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php because PHP code can be entered with a .jpg file name, and then this PHP code can write other PHP code to a ../ pathname.
+</code>
+
+- [ynots0ups/CVE-2019-16113](https://github.com/ynots0ups/CVE-2019-16113)
 
 ### CVE-2019-16278
 
@@ -6104,6 +6112,7 @@ University of Washington IMAP Toolkit 2007f on UNIX, as used in imap_open() in P
 </code>
 
 - [ensimag-security/CVE-2018-19518](https://github.com/ensimag-security/CVE-2018-19518)
+- [aliHajjiML/CVE-2018-19518](https://github.com/aliHajjiML/CVE-2018-19518)
 
 ### CVE-2018-19537
 
