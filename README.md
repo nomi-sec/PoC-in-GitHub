@@ -170,6 +170,14 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [mahyarx/Exploit_CVE-2020-0688](https://github.com/mahyarx/Exploit_CVE-2020-0688)
 - [ktpdpro/CVE-2020-0688](https://github.com/ktpdpro/CVE-2020-0688)
 
+### CVE-2020-0708
+
+<code>
+A remote code execution vulnerability exists when the Windows Imaging Library improperly handles memory.To exploit this vulnerability, an attacker would first have to coerce a victim to open a specially crafted file.The security update addresses the vulnerability by correcting how the Windows Imaging Library handles memory., aka 'Windows Imaging Library Remote Code Execution Vulnerability'.
+</code>
+
+- [asc0t6e/CVE-2020-0708](https://github.com/asc0t6e/CVE-2020-0708)
+
 ### CVE-2020-0728
 
 <code>
@@ -252,6 +260,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796)
 - [ysyyrps123/CVE-2020-0796](https://github.com/ysyyrps123/CVE-2020-0796)
 - [ysyyrps123/CVE-2020-0796-exp](https://github.com/ysyyrps123/CVE-2020-0796-exp)
+- [fdbao/SMBGhost](https://github.com/fdbao/SMBGhost)
 
 ### CVE-2020-0797
 
