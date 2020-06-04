@@ -6112,7 +6112,6 @@ University of Washington IMAP Toolkit 2007f on UNIX, as used in imap_open() in P
 </code>
 
 - [ensimag-security/CVE-2018-19518](https://github.com/ensimag-security/CVE-2018-19518)
-- [aliHajjiML/CVE-2018-19518](https://github.com/aliHajjiML/CVE-2018-19518)
 
 ### CVE-2018-19537
 
