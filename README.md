@@ -2862,6 +2862,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 </code>
 
 - [ynots0ups/CVE-2019-16113](https://github.com/ynots0ups/CVE-2019-16113)
+- [cybervaca/CVE-2019-16113](https://github.com/cybervaca/CVE-2019-16113)
 
 ### CVE-2019-16278
 
