@@ -1167,6 +1167,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [masahiro331/CVE-2020-9484](https://github.com/masahiro331/CVE-2020-9484)
 - [FiveAourThe/CVE-2020-9484](https://github.com/FiveAourThe/CVE-2020-9484)
 - [IdealDreamLast/CVE-2020-9484](https://github.com/IdealDreamLast/CVE-2020-9484)
+- [qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484)
 
 ### CVE-2020-9547
 
