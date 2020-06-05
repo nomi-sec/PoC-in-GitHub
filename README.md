@@ -1081,6 +1081,7 @@ FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JN
 - [Wfzsec/FastJson1.2.62-RCE](https://github.com/Wfzsec/FastJson1.2.62-RCE)
 - [fairyming/CVE-2020-8840](https://github.com/fairyming/CVE-2020-8840)
 - [0nise/CVE-2020-8840](https://github.com/0nise/CVE-2020-8840)
+- [Blyth0He/CVE-2020-8840](https://github.com/Blyth0He/CVE-2020-8840)
 
 ### CVE-2020-8950
 
