@@ -29,6 +29,14 @@ In the ioctl handlers of the Mediatek Command Queue driver, there is a possible 
 - [yanglingxi1993/CVE-2020-0069](https://github.com/yanglingxi1993/CVE-2020-0069)
 - [quarkslab/CVE-2020-0069_poc](https://github.com/quarkslab/CVE-2020-0069_poc)
 
+### CVE-2020-0096
+
+<code>
+In startActivities of ActivityStartController.java, there is a possible escalation of privilege due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9Android ID: A-145669109
+</code>
+
+- [wyu0hop/CVE-2020-0096](https://github.com/wyu0hop/CVE-2020-0096)
+
 ### CVE-2020-0551
 
 <code>
