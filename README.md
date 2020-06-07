@@ -627,6 +627,12 @@ In the cheetah free wifi 5.1 driver file liebaonat.sys, local users are allowed 
 
 - [y5s5k5/CVE-2020-13646](https://github.com/y5s5k5/CVE-2020-13646)
 
+### CVE-2020-13884
+- [hessandrew/CVE-2020-13884](https://github.com/hessandrew/CVE-2020-13884)
+
+### CVE-2020-13885
+- [hessandrew/CVE-2020-13885](https://github.com/hessandrew/CVE-2020-13885)
+
 ### CVE-2020-13889
 
 <code>
@@ -657,7 +663,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [DaemonShao/CVE-2020-1938](https://github.com/DaemonShao/CVE-2020-1938)
 - [sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read)
 - [fairyming/CVE-2020-1938](https://github.com/fairyming/CVE-2020-1938)
-- [dacade/cve-2020-1938](https://github.com/dacade/cve-2020-1938)
+- [dacade/CVE-2020-1938](https://github.com/dacade/CVE-2020-1938)
 - [woaiqiukui/CVE-2020-1938TomcatAjpScanner](https://github.com/woaiqiukui/CVE-2020-1938TomcatAjpScanner)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
 - [ze0r/GhostCat-LFI-exp](https://github.com/ze0r/GhostCat-LFI-exp)
@@ -3599,6 +3605,7 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 - [LIznzn/CVE-2019-2215](https://github.com/LIznzn/CVE-2019-2215)
 - [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
 - [c0n71nu3/android-kernel-exploitation-ashfaq-CVE-2019-2215](https://github.com/c0n71nu3/android-kernel-exploitation-ashfaq-CVE-2019-2215)
+- [sharif-dev/AndroidKernelVulnerability](https://github.com/sharif-dev/AndroidKernelVulnerability)
 
 ### CVE-2019-2525
 
