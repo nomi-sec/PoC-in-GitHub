@@ -3082,6 +3082,14 @@ includes/class-coming-soon-creator.php in the igniteup plugin through 3.4 for Wo
 
 - [administra1tor/CVE-2019-17234-Wordpress-DirStroyer](https://github.com/administra1tor/CVE-2019-17234-Wordpress-DirStroyer)
 
+### CVE-2019-17240
+
+<code>
+bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-force protection mechanism by using many different forged X-Forwarded-For or Client-IP HTTP headers.
+</code>
+
+- [pingport80/CVE-2019-17240.py](https://github.com/pingport80/CVE-2019-17240.py)
+
 ### CVE-2019-17424
 
 <code>
