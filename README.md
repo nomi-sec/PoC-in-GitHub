@@ -567,9 +567,6 @@ Zoho ManageEngine OpManager Stable build before 124196 and Released build before
 
 - [BeetleChunks/CVE-2020-12116](https://github.com/BeetleChunks/CVE-2020-12116)
 
-### CVE-2020-12122
-- [FULLSHADE/CVE-2020-12122](https://github.com/FULLSHADE/CVE-2020-12122)
-
 ### CVE-2020-123456789
 - [mrknow001/CVE-2020-123456789](https://github.com/mrknow001/CVE-2020-123456789)
 
@@ -580,6 +577,9 @@ include/class.sla.php in osTicket before 1.14.2 allows XSS via the SLA Name.
 </code>
 
 - [mkelepce/CVE-2020-12629](https://github.com/mkelepce/CVE-2020-12629)
+
+### CVE-2020-12695
+- [yunuscadirci/CallStranger](https://github.com/yunuscadirci/CallStranger)
 
 ### CVE-2020-12696
 
