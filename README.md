@@ -579,6 +579,11 @@ include/class.sla.php in osTicket before 1.14.2 allows XSS via the SLA Name.
 - [mkelepce/CVE-2020-12629](https://github.com/mkelepce/CVE-2020-12629)
 
 ### CVE-2020-12695
+
+<code>
+The Open Connectivity Foundation UPnP specification before 2020-04-17 does not forbid the acceptance of a subscription request with a delivery URL on a different network segment than the fully qualified event-subscription URL, aka the CallStranger issue.
+</code>
+
 - [yunuscadirci/CallStranger](https://github.com/yunuscadirci/CallStranger)
 
 ### CVE-2020-12696
@@ -606,6 +611,11 @@ An issue was discovered on LG mobile devices with Android OS 7.2, 8.0, 8.1, 9, a
 - [shinyquagsire23/CVE-2020-12753-PoC](https://github.com/shinyquagsire23/CVE-2020-12753-PoC)
 
 ### CVE-2020-12800
+
+<code>
+The drag-and-drop-multiple-file-upload-contact-form-7 plugin before 1.3.3.3 for WordPress allows Unrestricted File Upload and remote code execution by setting supported_type to php% and uploading a .php% file.
+</code>
+
 - [amartinsec/CVE-2020-12800](https://github.com/amartinsec/CVE-2020-12800)
 
 ### CVE-2020-12832
@@ -644,10 +654,23 @@ In the cheetah free wifi 5.1 driver file liebaonat.sys, local users are allowed 
 - [y5s5k5/CVE-2020-13646](https://github.com/y5s5k5/CVE-2020-13646)
 
 ### CVE-2020-13884
+
+<code>
+Citrix Workspace App before 2006.1 on Windows has Insecure Permissions for %PROGRAMDATA%\Citrix (and an unquoted UninstallString), which allows local users to gain privileges by copying a malicious citrix.exe there.
+</code>
+
 - [hessandrew/CVE-2020-13884](https://github.com/hessandrew/CVE-2020-13884)
 
 ### CVE-2020-13885
+
+<code>
+Citrix Workspace App before 2006.1 on Windows has Insecure Permissions for &quot;%PROGRAMDATA%\Citrix\Citrix Workspace ####\&quot; which allows local users to gain privileges by copying a malicious webio.dll there.
+</code>
+
 - [hessandrew/CVE-2020-13885](https://github.com/hessandrew/CVE-2020-13885)
+
+### CVE-2020-13886
+- [skullsecurity/CVE-2020-13886](https://github.com/skullsecurity/CVE-2020-13886)
 
 ### CVE-2020-13889
 
@@ -1187,9 +1210,6 @@ OpenVPN Connect 3.1.0.361 on Windows has Insecure Permissions for %PROGRAMDATA%\
 </code>
 
 - [hessandrew/CVE-2020-9442](https://github.com/hessandrew/CVE-2020-9442)
-
-### CVE-2020-9453
-- [FULLSHADE/CVE-2020-9453_-_CVE-2020-9014](https://github.com/FULLSHADE/CVE-2020-9453_-_CVE-2020-9014)
 
 ### CVE-2020-9460
 
@@ -3088,7 +3108,7 @@ includes/class-coming-soon-creator.php in the igniteup plugin through 3.4 for Wo
 bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-force protection mechanism by using many different forged X-Forwarded-For or Client-IP HTTP headers.
 </code>
 
-- [pingport80/CVE-2019-17240.py](https://github.com/pingport80/CVE-2019-17240.py)
+- [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 
 ### CVE-2019-17424
 
