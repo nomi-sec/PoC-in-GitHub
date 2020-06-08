@@ -608,6 +608,14 @@ An issue was discovered on LG mobile devices with Android OS 7.2, 8.0, 8.1, 9, a
 ### CVE-2020-12800
 - [amartinsec/CVE-2020-12800](https://github.com/amartinsec/CVE-2020-12800)
 
+### CVE-2020-12832
+
+<code>
+WordPress Plugin Simple File List before 4.2.8 is prone to a vulnerability that lets attackers delete arbitrary files because the application fails to properly verify user-supplied input.
+</code>
+
+- [0x05010705/simplefilelist1.7](https://github.com/0x05010705/simplefilelist1.7)
+
 ### CVE-2020-12856
 
 <code>
@@ -647,7 +655,7 @@ In the cheetah free wifi 5.1 driver file liebaonat.sys, local users are allowed 
 showAlert() in the administration panel in Bludit 3.12.0 allows XSS.
 </code>
 
-- [gh0st56/bludit-DOM-xss](https://github.com/gh0st56/bludit-DOM-xss)
+- [gh0st56/bludit-xss-CVE-2020-13889](https://github.com/gh0st56/bludit-xss-CVE-2020-13889)
 
 ### CVE-2020-1611
 
@@ -13705,6 +13713,14 @@ Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded app
 </code>
 
 - [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
+
+### CVE-2005-2428
+
+<code>
+Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
+</code>
+
+- [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
 
 
 ## 2004
