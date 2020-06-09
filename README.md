@@ -269,6 +269,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [ysyyrps123/CVE-2020-0796](https://github.com/ysyyrps123/CVE-2020-0796)
 - [ysyyrps123/CVE-2020-0796-exp](https://github.com/ysyyrps123/CVE-2020-0796-exp)
 - [fdbao/SMBGhost](https://github.com/fdbao/SMBGhost)
+- [exp-sky/CVE-2020-0796](https://github.com/exp-sky/CVE-2020-0796)
 
 ### CVE-2020-0797
 
@@ -689,7 +690,7 @@ Citrix Workspace App before 2006.1 on Windows has Insecure Permissions for &quot
 showAlert() in the administration panel in Bludit 3.12.0 allows XSS.
 </code>
 
-- [gh0st56/bludit-xss-CVE-2020-13889](https://github.com/gh0st56/bludit-xss-CVE-2020-13889)
+- [gh0st56/CVE-2020-13889](https://github.com/gh0st56/CVE-2020-13889)
 
 ### CVE-2020-1611
 
@@ -810,6 +811,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [Y4er/CVE-2020-2883](https://github.com/Y4er/CVE-2020-2883)
 - [MagicZer0/Weblogic_CVE-2020-2883_POC](https://github.com/MagicZer0/Weblogic_CVE-2020-2883_POC)
+- [ZZZWD/CVE-2020-2883](https://github.com/ZZZWD/CVE-2020-2883)
 
 ### CVE-2020-3153
 
@@ -1072,6 +1074,14 @@ CA Unified Infrastructure Management (Nimsoft/UIM) 9.20 and below contains a buf
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
 
+### CVE-2020-8103
+
+<code>
+A vulnerability in the improper handling of symbolic links in Bitdefender Antivirus Free can allow an unprivileged user to substitute a quarantined file, and restore it to a privileged location. This issue affects Bitdefender Antivirus Free versions prior to 1.0.17.178.
+</code>
+
+- [RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP](https://github.com/RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP)
+
 ### CVE-2020-8165
 - [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
 
@@ -1250,6 +1260,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [IdealDreamLast/CVE-2020-9484](https://github.com/IdealDreamLast/CVE-2020-9484)
 - [qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484)
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
+- [DeviantSec/CVE-2020-9484-Scanner](https://github.com/DeviantSec/CVE-2020-9484-Scanner)
 
 ### CVE-2020-9547
 
