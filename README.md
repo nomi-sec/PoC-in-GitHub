@@ -260,6 +260,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
 - [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
+- [ZecOps/CVE-2020-0796-RCE-POC](https://github.com/ZecOps/CVE-2020-0796-RCE-POC)
 - [thelostworldFree/CVE-2020-0796](https://github.com/thelostworldFree/CVE-2020-0796)
 - [syadg123/CVE-2020-0796](https://github.com/syadg123/CVE-2020-0796)
 - [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
@@ -545,6 +546,14 @@ It was discovered that the Subiquity installer for Ubuntu Server logged the LUKS
 
 - [ProjectorBUg/CVE-2020-11932](https://github.com/ProjectorBUg/CVE-2020-11932)
 - [Staubgeborener/CVE-2020-11932](https://github.com/Staubgeborener/CVE-2020-11932)
+
+### CVE-2020-1206
+
+<code>
+An information disclosure vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Information Disclosure Vulnerability'.
+</code>
+
+- [ZecOps/CVE-2020-1206-POC](https://github.com/ZecOps/CVE-2020-1206-POC)
 
 ### CVE-2020-12078
 
