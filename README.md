@@ -422,6 +422,9 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 - [0nise/CVE-2020-10673](https://github.com/0nise/CVE-2020-10673)
 - [Al1ex/CVE-2020-10673](https://github.com/Al1ex/CVE-2020-10673)
 
+### CVE-2020-10759
+- [justinsteven/CVE-2020-10759-poc](https://github.com/justinsteven/CVE-2020-10759-poc)
+
 ### CVE-2020-1102
 
 <code>
@@ -652,6 +655,14 @@ In the cheetah free wifi 5.1 driver file liebaonat.sys, local users are allowed 
 </code>
 
 - [y5s5k5/CVE-2020-13646](https://github.com/y5s5k5/CVE-2020-13646)
+
+### CVE-2020-13777
+
+<code>
+GnuTLS 3.6.x before 3.6.14 uses incorrect cryptography for encrypting a session ticket (a loss of confidentiality in TLS 1.2, and an authentication bypass in TLS 1.3). The earliest affected version is 3.6.4 (2018-09-24) because of an error in a 2018-09-18 commit. Until the first key rotation, the TLS server always uses wrong data in place of an encryption key derived from an application.
+</code>
+
+- [0xxon/cve-2020-13777](https://github.com/0xxon/cve-2020-13777)
 
 ### CVE-2020-13884
 
