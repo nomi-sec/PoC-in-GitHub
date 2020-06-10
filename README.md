@@ -647,6 +647,14 @@ OpenTrace, as used in COVIDSafe through v1.0.17, TraceTogether, ABTraceTogether,
 
 - [alwentiu/COVIDSafe-CVE-2020-12856](https://github.com/alwentiu/COVIDSafe-CVE-2020-12856)
 
+### CVE-2020-1301
+
+<code>
+A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 1.0 (SMBv1) server handles certain requests, aka 'Windows SMB Remote Code Execution Vulnerability'.
+</code>
+
+- [P1kAju/CVE-2020-1301](https://github.com/P1kAju/CVE-2020-1301)
+
 ### CVE-2020-13254
 
 <code>
