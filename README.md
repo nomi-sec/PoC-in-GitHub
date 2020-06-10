@@ -271,6 +271,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [ysyyrps123/CVE-2020-0796-exp](https://github.com/ysyyrps123/CVE-2020-0796-exp)
 - [fdbao/SMBGhost](https://github.com/fdbao/SMBGhost)
 - [exp-sky/CVE-2020-0796](https://github.com/exp-sky/CVE-2020-0796)
+- [Barriuso/SMBGhost_AutomateExploitation](https://github.com/Barriuso/SMBGhost_AutomateExploitation)
 
 ### CVE-2020-0797
 
@@ -3346,7 +3347,7 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 
 - [bao7uo/RAU_crypto](https://github.com/bao7uo/RAU_crypto)
 - [noperator/CVE-2019-18935](https://github.com/noperator/CVE-2019-18935)
-- [becrevex/Telerik_CVE-2019-18935](https://github.com/becrevex/Telerik_CVE-2019-18935)
+- [ThanHuuTuan/Telerik_CVE-2019-18935](https://github.com/ThanHuuTuan/Telerik_CVE-2019-18935)
 - [ThanHuuTuan/CVE_2019_18935](https://github.com/ThanHuuTuan/CVE_2019_18935)
 
 ### CVE-2019-19012
@@ -7111,6 +7112,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Eugene24/CVE-2018-6574](https://github.com/Eugene24/CVE-2018-6574)
 - [coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574)
 - [darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574)
+- [abhaynayar/cve-2018-6574](https://github.com/abhaynayar/cve-2018-6574)
 
 ### CVE-2018-6622
 
