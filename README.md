@@ -598,6 +598,7 @@ The Open Connectivity Foundation UPnP specification before 2020-04-17 does not f
 </code>
 
 - [yunuscadirci/CallStranger](https://github.com/yunuscadirci/CallStranger)
+- [corelight/callstranger-detector](https://github.com/corelight/callstranger-detector)
 
 ### CVE-2020-12696
 
