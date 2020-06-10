@@ -3049,14 +3049,6 @@ phpIPAM 1.4 allows SQL injection via the app/admin/custom-fields/filter-result.p
 
 - [kkirsche/CVE-2019-16692](https://github.com/kkirsche/CVE-2019-16692)
 
-### CVE-2019-16724
-
-<code>
-File Sharing Wizard 1.5.0 allows a remote attacker to obtain arbitrary code execution by exploiting a Structured Exception Handler (SEH) based buffer overflow in an HTTP POST parameter, a similar issue to CVE-2010-2330 and CVE-2010-2331.
-</code>
-
-- [FULLSHADE/OSCE](https://github.com/FULLSHADE/OSCE)
-
 ### CVE-2019-16759
 
 <code>
