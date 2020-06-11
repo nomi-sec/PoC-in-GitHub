@@ -425,6 +425,14 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 - [0nise/CVE-2020-10673](https://github.com/0nise/CVE-2020-10673)
 - [Al1ex/CVE-2020-10673](https://github.com/Al1ex/CVE-2020-10673)
 
+### CVE-2020-10749
+
+<code>
+A vulnerability was found in all versions of containernetworking/plugins before version 0.8.6, that allows malicious containers in Kubernetes clusters to perform man-in-the-middle (MitM) attacks. A malicious container can exploit this flaw by sending rogue IPv6 router advertisements to the host or other containers, to redirect traffic to the malicious container.
+</code>
+
+- [knqyf263/CVE-2020-10749](https://github.com/knqyf263/CVE-2020-10749)
+
 ### CVE-2020-10759
 - [justinsteven/CVE-2020-10759-poc](https://github.com/justinsteven/CVE-2020-10759-poc)
 
@@ -11647,6 +11655,7 @@ Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functio
 - [eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public)
 - [bluebluelan/CVE-2015-7547-proj-master](https://github.com/bluebluelan/CVE-2015-7547-proj-master)
 - [miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master)
+- [Stick-U235/CVE-2015-7547](https://github.com/Stick-U235/CVE-2015-7547)
 - [Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547](https://github.com/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547)
 
 ### CVE-2015-7755
@@ -13801,49 +13810,6 @@ The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows
 </code>
 
 - [fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558)
-
-### CVE-2004-1561
-
-<code>
-Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
-</code>
-
-- [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
-
-### CVE-2004-1769
-
-<code>
-The &quot;Allow cPanel users to reset their password via email&quot; feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
-</code>
-
-- [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
-
-### CVE-2004-2167
-
-<code>
-Multiple buffer overflows in LaTeX2rtf 1.9.15, and possibly other versions, allow remote attackers to execute arbitrary code via (1) the expandmacro function, and possibly (2) Environments and (3) TranslateCommand.
-</code>
-
-- [uzzzval/cve-2004-2167](https://github.com/uzzzval/cve-2004-2167)
-
-### CVE-2004-2271
-
-<code>
-Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.
-</code>
-
-- [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
-- [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
-- [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
-- [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
-
-### CVE-2004-2549
-
-<code>
-Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote attackers to cause a denial of service (service crash) via a TCP request with a large string, followed by 8 newline characters, to (1) the Telnet service on TCP port 23 and (2) the HTTP service on TCP port 80, possibly due to a buffer overflow.
-</code>
-
-- [alt3kx/CVE-2004-2549](https://github.com/alt3kx/CVE-2004-2549)
 
 
 ## 2003
