@@ -9425,6 +9425,14 @@ Use-after-free vulnerability in fs/crypto/ in the Linux kernel before 4.10.7 all
 
 - [ww9210/cve-2017-7374](https://github.com/ww9210/cve-2017-7374)
 
+### CVE-2017-7376
+
+<code>
+Buffer overflow in libxml2 allows remote attackers to execute arbitrary code by leveraging an incorrect limit for port values when handling redirects.
+</code>
+
+- [brahmstaedt/libxml2-exploit](https://github.com/brahmstaedt/libxml2-exploit)
+
 ### CVE-2017-7472
 
 <code>
