@@ -1203,6 +1203,9 @@ FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JN
 - [0nise/CVE-2020-8840](https://github.com/0nise/CVE-2020-8840)
 - [Blyth0He/CVE-2020-8840](https://github.com/Blyth0He/CVE-2020-8840)
 
+### CVE-2020-8888
+- [SnipJoe/CVE-2020-8888](https://github.com/SnipJoe/CVE-2020-8888)
+
 ### CVE-2020-8950
 
 <code>
@@ -7120,6 +7123,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574)
 - [darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574)
 - [abhaynayar/cve-2018-6574](https://github.com/abhaynayar/cve-2018-6574)
+- [it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574)
 
 ### CVE-2018-6622
 
@@ -13810,6 +13814,49 @@ The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows
 </code>
 
 - [fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558)
+
+### CVE-2004-1561
+
+<code>
+Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
+</code>
+
+- [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
+
+### CVE-2004-1769
+
+<code>
+The &quot;Allow cPanel users to reset their password via email&quot; feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
+</code>
+
+- [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
+
+### CVE-2004-2167
+
+<code>
+Multiple buffer overflows in LaTeX2rtf 1.9.15, and possibly other versions, allow remote attackers to execute arbitrary code via (1) the expandmacro function, and possibly (2) Environments and (3) TranslateCommand.
+</code>
+
+- [uzzzval/cve-2004-2167](https://github.com/uzzzval/cve-2004-2167)
+
+### CVE-2004-2271
+
+<code>
+Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.
+</code>
+
+- [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
+- [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
+- [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
+- [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
+
+### CVE-2004-2549
+
+<code>
+Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote attackers to cause a denial of service (service crash) via a TCP request with a large string, followed by 8 newline characters, to (1) the Telnet service on TCP port 23 and (2) the HTTP service on TCP port 80, possibly due to a buffer overflow.
+</code>
+
+- [alt3kx/CVE-2004-2549](https://github.com/alt3kx/CVE-2004-2549)
 
 
 ## 2003
