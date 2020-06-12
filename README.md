@@ -696,7 +696,7 @@ GnuTLS 3.6.x before 3.6.14 uses incorrect cryptography for encrypting a session 
 ### CVE-2020-13884
 
 <code>
-Citrix Workspace App before 2006.1 on Windows has Insecure Permissions for %PROGRAMDATA%\Citrix (and an unquoted UninstallString), which allows local users to gain privileges by copying a malicious citrix.exe there.
+Citrix Workspace App before 1912 on Windows has Insecure Permissions and an Unquoted Path vulnerability which allows local users to gain privileges during the uninstallation of the application.
 </code>
 
 - [hessandrew/CVE-2020-13884](https://github.com/hessandrew/CVE-2020-13884)
@@ -704,7 +704,7 @@ Citrix Workspace App before 2006.1 on Windows has Insecure Permissions for %PROG
 ### CVE-2020-13885
 
 <code>
-Citrix Workspace App before 2006.1 on Windows has Insecure Permissions for &quot;%PROGRAMDATA%\Citrix\Citrix Workspace ####\&quot; which allows local users to gain privileges by copying a malicious webio.dll there.
+Citrix Workspace App before 1912 on Windows has Insecure Permissions which allows local users to gain privileges during the uninstallation of the application.
 </code>
 
 - [hessandrew/CVE-2020-13885](https://github.com/hessandrew/CVE-2020-13885)
@@ -5154,6 +5154,7 @@ Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remo
 - [OzNetNerd/apche-struts-vuln-demo-cve-2018-11776](https://github.com/OzNetNerd/apche-struts-vuln-demo-cve-2018-11776)
 - [cucadili/CVE-2018-11776](https://github.com/cucadili/CVE-2018-11776)
 - [LightC0der/Apache-Struts-0Day-Exploit](https://github.com/LightC0der/Apache-Struts-0Day-Exploit)
+- [freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776)
 
 ### CVE-2018-11788
 
