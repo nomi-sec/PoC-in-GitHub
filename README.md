@@ -692,6 +692,7 @@ GnuTLS 3.6.x before 3.6.14 uses incorrect cryptography for encrypting a session 
 </code>
 
 - [0xxon/cve-2020-13777](https://github.com/0xxon/cve-2020-13777)
+- [shigeki/challenge_CVE-2020-13777](https://github.com/shigeki/challenge_CVE-2020-13777)
 
 ### CVE-2020-13884
 
@@ -13786,7 +13787,6 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
-- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
