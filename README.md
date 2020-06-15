@@ -619,6 +619,14 @@ The iframe plugin before 4.5 for WordPress does not sanitize a URL.
 
 - [g-rubert/CVE-2020-12696](https://github.com/g-rubert/CVE-2020-12696)
 
+### CVE-2020-12712
+
+<code>
+A vulnerability based on insecure user/password encryption in the JOE (job editor) component of SOS JobScheduler 1.12 and 1.13 allows attackers to decrypt the user/password that is optionally stored with a user's profile.
+</code>
+
+- [SanderUbink/CVE-2020-12712](https://github.com/SanderUbink/CVE-2020-12712)
+
 ### CVE-2020-12717
 
 <code>
@@ -8327,7 +8335,6 @@ Microsoft Office 2010, SharePoint Enterprise Server 2010, SharePoint Server 2010
 Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Microsoft Office 2013 Service Pack 1, and Microsoft Office 2016 allow an attacker to run arbitrary code in the context of the current user by failing to properly handle objects in memory, aka &quot;Microsoft Office Memory Corruption Vulnerability&quot;. This CVE ID is unique from CVE-2017-11884.
 </code>
 
-- [starnightcyber/exploits](https://github.com/starnightcyber/exploits)
 - [zhouat/cve-2017-11882](https://github.com/zhouat/cve-2017-11882)
 - [embedi/CVE-2017-11882](https://github.com/embedi/CVE-2017-11882)
 - [Ridter/CVE-2017-11882](https://github.com/Ridter/CVE-2017-11882)
