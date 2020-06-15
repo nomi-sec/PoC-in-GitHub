@@ -693,7 +693,7 @@ An issue was discovered in Django 2.2 before 2.2.13 and 3.0 before 3.0.7. In cas
 ### CVE-2020-13646
 
 <code>
-In the cheetah free wifi 5.1 driver file liebaonat.sys, local users are allowed to cause a denial of service (BSOD) or other unknown impact due to failure to verify the value of a specific IOCTL.
+In Cheetah free WiFi 5.1, the driver file (liebaonat.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x830020f8, 0x830020E0, 0x830020E4, or 0x8300210c.
 </code>
 
 - [y5s5k5/CVE-2020-13646](https://github.com/y5s5k5/CVE-2020-13646)
@@ -967,14 +967,6 @@ Spring Cloud Config, versions 2.2.x prior to 2.2.3, versions 2.1.x prior to 2.1.
 
 - [dead5nd/config-demo](https://github.com/dead5nd/config-demo)
 
-### CVE-2020-5509
-
-<code>
-PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
-</code>
-
-- [FULLSHADE/CVE-2020-5509](https://github.com/FULLSHADE/CVE-2020-5509)
-
 ### CVE-2020-5837
 
 <code>
@@ -1188,6 +1180,7 @@ Pi-hole Web v4.3.2 (aka AdminLTE) allows Remote Code Execution by privileged das
 </code>
 
 - [AndreyRainchik/CVE-2020-8816](https://github.com/AndreyRainchik/CVE-2020-8816)
+- [MartinSohn/CVE-2020-8816](https://github.com/MartinSohn/CVE-2020-8816)
 
 ### CVE-2020-8825
 
@@ -11439,7 +11432,7 @@ Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) 
 </code>
 
 - [jvazquez-r7/CVE-2015-5119](https://github.com/jvazquez-r7/CVE-2015-5119)
-- [portcullislabs/CVE-2015-5119_walkthrough](https://github.com/portcullislabs/CVE-2015-5119_walkthrough)
+- [CiscoCXSecurity/CVE-2015-5119_walkthrough](https://github.com/CiscoCXSecurity/CVE-2015-5119_walkthrough)
 - [dangokyo/CVE-2015-5119](https://github.com/dangokyo/CVE-2015-5119)
 
 ### CVE-2015-5195
