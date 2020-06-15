@@ -602,6 +602,9 @@ include/class.sla.php in osTicket before 1.14.2 allows XSS via the SLA Name.
 
 - [mkelepce/CVE-2020-12629](https://github.com/mkelepce/CVE-2020-12629)
 
+### CVE-2020-12688
+- [TheCyberGeek/Centreon-20.04](https://github.com/TheCyberGeek/Centreon-20.04)
+
 ### CVE-2020-12695
 
 <code>
