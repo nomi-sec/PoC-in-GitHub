@@ -974,6 +974,7 @@ Spring Cloud Config, versions 2.2.x prior to 2.2.3, versions 2.1.x prior to 2.1.
 </code>
 
 - [dead5nd/config-demo](https://github.com/dead5nd/config-demo)
+- [osamahamad/CVE-2020-5410-POC](https://github.com/osamahamad/CVE-2020-5410-POC)
 
 ### CVE-2020-5837
 
