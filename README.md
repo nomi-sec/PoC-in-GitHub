@@ -1271,6 +1271,14 @@ golang.org/x/crypto before v0.0.0-20200220183623-bac4c82f6975 for Go allows a pa
 
 - [brompwnie/CVE-2020-9283](https://github.com/brompwnie/CVE-2020-9283)
 
+### CVE-2020-9332
+
+<code>
+ftusbbus2.sys in FabulaTech USB for Remote Desktop through 2020-02-19 allows privilege escalation via crafted IoCtl code related to a USB HID device.
+</code>
+
+- [Sentinel-One/CVE-2020-9332](https://github.com/Sentinel-One/CVE-2020-9332)
+
 ### CVE-2020-9375
 
 <code>
