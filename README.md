@@ -384,6 +384,14 @@ An elevation of privilege vulnerability exists when the Windows Print Spooler se
 
 - [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
 
+### CVE-2020-1054
+
+<code>
+An elevation of privilege vulnerability exists in Windows when the Windows kernel-mode driver fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-1143.
+</code>
+
+- [0xeb-bp/cve-2020-1054](https://github.com/0xeb-bp/cve-2020-1054)
+
 ### CVE-2020-10551
 
 <code>
