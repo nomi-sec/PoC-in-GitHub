@@ -670,6 +670,14 @@ The drag-and-drop-multiple-file-upload-contact-form-7 plugin before 1.3.3.3 for 
 
 - [amartinsec/CVE-2020-12800](https://github.com/amartinsec/CVE-2020-12800)
 
+### CVE-2020-1283
+
+<code>
+A denial of service vulnerability exists when Windows improperly handles objects in memory, aka 'Windows Denial of Service Vulnerability'.
+</code>
+
+- [RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability](https://github.com/RedyOpsResearchLabs/CVE-2020-1283_Windows-Denial-of-Service-Vulnerability)
+
 ### CVE-2020-12832
 
 <code>
