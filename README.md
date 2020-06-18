@@ -36,6 +36,7 @@ In startActivities of ActivityStartController.java, there is a possible escalati
 </code>
 
 - [wyu0hop/CVE-2020-0096](https://github.com/wyu0hop/CVE-2020-0096)
+- [wrlu/StrandHogg2](https://github.com/wrlu/StrandHogg2)
 
 ### CVE-2020-0551
 
@@ -7341,6 +7342,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [shellord/Drupalgeddon-Mass-Exploiter](https://github.com/shellord/Drupalgeddon-Mass-Exploiter)
 - [zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP)
 - [rabbitmask/CVE-2018-7600-Drupal7](https://github.com/rabbitmask/CVE-2018-7600-Drupal7)
+- [ynsmroztas/drupalhunter](https://github.com/ynsmroztas/drupalhunter)
 
 ### CVE-2018-7602
 
