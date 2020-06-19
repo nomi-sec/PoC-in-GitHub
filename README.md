@@ -2975,6 +2975,14 @@ An issue was discovered on Zyxel GS1900 devices with firmware before 2.50(AAHH.0
 
 - [jasperla/CVE-2019-15802](https://github.com/jasperla/CVE-2019-15802)
 
+### CVE-2019-15813
+
+<code>
+Multiple file upload restriction bypass vulnerabilities in Sentrifugo 3.2 could allow authenticated users to execute arbitrary code via a webshell.
+</code>
+
+- [iamhrishikeshpadhye/CVE-2019-15813-Exploitation](https://github.com/iamhrishikeshpadhye/CVE-2019-15813-Exploitation)
+
 ### CVE-2019-15846
 
 <code>
