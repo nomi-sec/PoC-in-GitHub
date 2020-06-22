@@ -706,9 +706,19 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [shubham0d/CVE-2020-1301](https://github.com/shubham0d/CVE-2020-1301)
 
 ### CVE-2020-13158
+
+<code>
+Artica Proxy before 4.30.000000 Community Edition allows Directory Traversal via the fw.progrss.details.php popup parameter.
+</code>
+
 - [InfoSec4Fun/CVE-2020-13158](https://github.com/InfoSec4Fun/CVE-2020-13158)
 
 ### CVE-2020-13159
+
+<code>
+Artica Proxy before 4.30.000000 Community Edition allows OS command injection via the Netbios name, Server domain name, dhclient_mac, Hostname, or Alias field. NOTE: this may overlap CVE-2020-10818.
+</code>
+
 - [InfoSec4Fun/CVE-2020-13159](https://github.com/InfoSec4Fun/CVE-2020-13159)
 
 ### CVE-2020-13254
@@ -14068,6 +14078,14 @@ Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and ea
 
 
 ## 2001
+### CVE-2001-0680
+
+<code>
+Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.
+</code>
+
+- [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
+
 ### CVE-2001-0758
 
 <code>
