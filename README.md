@@ -766,6 +766,12 @@ showAlert() in the administration panel in Bludit 3.12.0 allows XSS.
 
 - [gh0st56/CVE-2020-13889](https://github.com/gh0st56/CVE-2020-13889)
 
+### CVE-2020-14955
+- [y5s5k5/CVE-2020-14955](https://github.com/y5s5k5/CVE-2020-14955)
+
+### CVE-2020-14957
+- [y5s5k5/CVE-2020-14957-CVE-2020-14956](https://github.com/y5s5k5/CVE-2020-14957-CVE-2020-14956)
+
 ### CVE-2020-1611
 
 <code>
@@ -13912,6 +13918,7 @@ Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute 
 </code>
 
 - [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
+- [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
 
 ### CVE-2004-1769
 
@@ -14061,14 +14068,6 @@ Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and ea
 
 
 ## 2001
-### CVE-2001-0680
-
-<code>
-Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.
-</code>
-
-- [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
-
 ### CVE-2001-0758
 
 <code>
