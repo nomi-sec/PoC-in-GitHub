@@ -385,6 +385,7 @@ An elevation of privilege vulnerability exists when the Windows Print Spooler se
 </code>
 
 - [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
+- [shubham0d/CVE-2020-1048](https://github.com/shubham0d/CVE-2020-1048)
 
 ### CVE-2020-1054
 
