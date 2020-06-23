@@ -783,6 +783,11 @@ showAlert() in the administration panel in Bludit 3.12.0 allows XSS.
 - [y5s5k5/CVE-2020-14957-CVE-2020-14956](https://github.com/y5s5k5/CVE-2020-14957-CVE-2020-14956)
 
 ### CVE-2020-14965
+
+<code>
+On TP-Link TL-WR740N v4 and TL-WR740ND v4 devices, an attacker with access to the admin panel can inject HTML code and change the HTML context of the target pages and stations in the access-control settings via targets_lists_name or hosts_lists_name. The vulnerability can also be exploited through a CSRF, requiring no authentication as an administrator.
+</code>
+
 - [g-rubert/CVE-2020-14965](https://github.com/g-rubert/CVE-2020-14965)
 
 ### CVE-2020-1611
