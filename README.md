@@ -782,6 +782,9 @@ showAlert() in the administration panel in Bludit 3.12.0 allows XSS.
 ### CVE-2020-14957
 - [y5s5k5/CVE-2020-14957-CVE-2020-14956](https://github.com/y5s5k5/CVE-2020-14957-CVE-2020-14956)
 
+### CVE-2020-14965
+- [g-rubert/CVE-2020-14965](https://github.com/g-rubert/CVE-2020-14965)
+
 ### CVE-2020-1611
 
 <code>
@@ -868,7 +871,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [0nise/CVE-2020-2551](https://github.com/0nise/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
-- [Gspider7/rmi-iiop](https://github.com/Gspider7/rmi-iiop)
 - [cnsimo/CVE-2020-2551](https://github.com/cnsimo/CVE-2020-2551)
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
