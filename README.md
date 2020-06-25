@@ -3252,6 +3252,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 </code>
 
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
+- [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 
 ### CVE-2019-17424
 
@@ -8517,6 +8518,7 @@ When running Apache Tomcat 7.0.0 to 7.0.79 on Windows with HTTP PUTs enabled (e.
 - [Shellkeys/CVE-2017-12615](https://github.com/Shellkeys/CVE-2017-12615)
 - [cved-sources/cve-2017-12615](https://github.com/cved-sources/cve-2017-12615)
 - [ianxtianxt/CVE-2017-12615](https://github.com/ianxtianxt/CVE-2017-12615)
+- [cyberharsh/Tomcat-Arbitrary-Write-file-Vulnerability-CVE-2017-12615-](https://github.com/cyberharsh/Tomcat-Arbitrary-Write-file-Vulnerability-CVE-2017-12615-)
 
 ### CVE-2017-12617
 
