@@ -7428,6 +7428,7 @@ A remote code execution vulnerability exists within multiple subsystems of Drupa
 - [1337g/Drupalgedon3](https://github.com/1337g/Drupalgedon3)
 - [happynote3966/CVE-2018-7602](https://github.com/happynote3966/CVE-2018-7602)
 - [kastellanos/CVE-2018-7602](https://github.com/kastellanos/CVE-2018-7602)
+- [cyberharsh/DrupalCVE-2018-7602](https://github.com/cyberharsh/DrupalCVE-2018-7602)
 
 ### CVE-2018-7690
 
@@ -13710,22 +13711,6 @@ Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote atta
 
 - [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
 
-### CVE-2008-1613
-
-<code>
-SQL injection vulnerability in ioRD.asp in RedDot CMS 7.5 Build 7.5.0.48, and possibly other versions including 6.5 and 7.0, allows remote attackers to execute arbitrary SQL commands via the LngId parameter.
-</code>
-
-- [SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613)
-
-### CVE-2008-2938
-
-<code>
-Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 through 5.5.26, and 6.0.0 through 6.0.16, when allowLinking and UTF-8 are enabled, allows remote attackers to read arbitrary files via encoded directory traversal sequences in the URI, a different vulnerability than CVE-2008-2370.  NOTE: versions earlier than 6.0.18 were reported affected, but the vendor advisory lists 6.0.16 as the last affected version.
-</code>
-
-- [Naramsim/Offensive](https://github.com/Naramsim/Offensive)
-
 ### CVE-2008-4250
 
 <code>
@@ -13733,14 +13718,6 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 </code>
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
-
-### CVE-2008-4609
-
-<code>
-The TCP implementation in (1) Linux, (2) platforms based on BSD Unix, (3) Microsoft Windows, (4) Cisco products, and probably other operating systems allows remote attackers to cause a denial of service (connection queue exhaustion) via multiple vectors that manipulate information in the TCP state table, as demonstrated by sockstress.
-</code>
-
-- [marcelki/sockstress](https://github.com/marcelki/sockstress)
 
 ### CVE-2008-4654
 
@@ -13766,22 +13743,6 @@ Heap-based buffer overflow in Microsoft SQL Server 2000 SP4, 8.00.2050, 8.00.203
 </code>
 
 - [SECFORCE/CVE-2008-5416](https://github.com/SECFORCE/CVE-2008-5416)
-
-### CVE-2008-6827
-
-<code>
-The ListView control in the Client GUI (AClient.exe) in Symantec Altiris Deployment Solution 6.x before 6.9.355 SP1 allows local users to gain SYSTEM privileges and execute arbitrary commands via a &quot;Shatter&quot; style attack on the &quot;command prompt&quot; hidden GUI button to (1) overwrite the CommandLine parameter to cmd.exe to use SYSTEM privileges and (2) modify the DLL that is loaded using the LoadLibrary API function.
-</code>
-
-- [alt3kx/CVE-2008-6827](https://github.com/alt3kx/CVE-2008-6827)
-
-### CVE-2008-6970
-
-<code>
-SQL injection vulnerability in dosearch.inc.php in UBB.threads 7.3.1 and earlier allows remote attackers to execute arbitrary SQL commands via the Forum[] array parameter.
-</code>
-
-- [KyomaHooin/CVE-2008-6970](https://github.com/KyomaHooin/CVE-2008-6970)
 
 ### CVE-2008-7220
 
