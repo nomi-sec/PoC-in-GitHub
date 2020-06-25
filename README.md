@@ -436,6 +436,14 @@ The JSON gem through 2.2.0 for Ruby, as used in Ruby 2.4 through 2.4.9, 2.5 thro
 
 - [rails-lts/json_cve_2020_10663](https://github.com/rails-lts/json_cve_2020_10663)
 
+### CVE-2020-10665
+
+<code>
+Docker Desktop allows local privilege escalation to NT AUTHORITY\SYSTEM because it mishandles the collection of diagnostics with Administrator privileges, leading to arbitrary DACL permissions overwrites and arbitrary file writes. This affects Docker Desktop Enterprise before 2.1.0.9, Docker Desktop for Windows Stable before 2.2.0.4, and Docker Desktop for Windows Edge before 2.2.2.0.
+</code>
+
+- [spaceraccoon/CVE-2020-10665](https://github.com/spaceraccoon/CVE-2020-10665)
+
 ### CVE-2020-10673
 
 <code>
@@ -833,7 +841,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's web console uses the SnakeYAML library for parsing YAML inputs to load datasource configuration. SnakeYAML allows to unmarshal data to a Java type By using the YAML tag. Unmarshalling untrusted data can lead to security flaws of RCE.
 </code>
 
-- [Imanfeng/CVE-2020-1947](https://github.com/Imanfeng/CVE-2020-1947)
 - [jas502n/CVE-2020-1947](https://github.com/jas502n/CVE-2020-1947)
 - [wsfengfan/CVE-2020-1947](https://github.com/wsfengfan/CVE-2020-1947)
 - [shadowsock5/ShardingSphere_CVE-2020-1947](https://github.com/shadowsock5/ShardingSphere_CVE-2020-1947)
@@ -8518,7 +8525,7 @@ When running Apache Tomcat 7.0.0 to 7.0.79 on Windows with HTTP PUTs enabled (e.
 - [Shellkeys/CVE-2017-12615](https://github.com/Shellkeys/CVE-2017-12615)
 - [cved-sources/cve-2017-12615](https://github.com/cved-sources/cve-2017-12615)
 - [ianxtianxt/CVE-2017-12615](https://github.com/ianxtianxt/CVE-2017-12615)
-- [cyberharsh/Tomcat-Arbitrary-Write-file-Vulnerability-CVE-2017-12615-](https://github.com/cyberharsh/Tomcat-Arbitrary-Write-file-Vulnerability-CVE-2017-12615-)
+- [cyberharsh/Tomcat-CVE-2017-12615](https://github.com/cyberharsh/Tomcat-CVE-2017-12615)
 
 ### CVE-2017-12617
 
