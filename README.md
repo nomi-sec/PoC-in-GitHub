@@ -786,6 +786,11 @@ showAlert() in the administration panel in Bludit 3.12.0 allows XSS.
 - [gh0st56/CVE-2020-13889](https://github.com/gh0st56/CVE-2020-13889)
 
 ### CVE-2020-14955
+
+<code>
+In Jiangmin Antivirus 16.0.13.129, the driver file (KVFG.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x220440.
+</code>
+
 - [y5s5k5/CVE-2020-14955](https://github.com/y5s5k5/CVE-2020-14955)
 
 ### CVE-2020-14957
@@ -1544,7 +1549,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [hotdog777714/RDS_CVE-2019-0708](https://github.com/hotdog777714/RDS_CVE-2019-0708)
 - [jiansiting/CVE-2019-0708](https://github.com/jiansiting/CVE-2019-0708)
 - [NullByteSuiteDevs/CVE-2019-0708](https://github.com/NullByteSuiteDevs/CVE-2019-0708)
-- [heaphopopotamus/CVE-2019-0708](https://github.com/heaphopopotamus/CVE-2019-0708)
 - [thugcrowd/CVE-2019-0708](https://github.com/thugcrowd/CVE-2019-0708)
 - [omaidf/CVE-2019-0708-PoC](https://github.com/omaidf/CVE-2019-0708-PoC)
 - [blacksunwen/CVE-2019-0708](https://github.com/blacksunwen/CVE-2019-0708)
@@ -14016,6 +14020,14 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
+
+### CVE-2003-0282
+
+<code>
+Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
+</code>
+
+- [lushann/cve-2003-0282](https://github.com/lushann/cve-2003-0282)
 
 
 ## 2002
