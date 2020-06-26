@@ -12433,6 +12433,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [somhm-solutions/Shell-Shock](https://github.com/somhm-solutions/Shell-Shock)
 - [rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-)
 - [Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271)
+- [cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271)
 
 ### CVE-2014-6287
 
@@ -14015,14 +14016,6 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
-
-### CVE-2003-0282
-
-<code>
-Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
-</code>
-
-- [lushann/cve-2003-0282](https://github.com/lushann/cve-2003-0282)
 
 
 ## 2002
