@@ -14002,14 +14002,6 @@ Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote a
 
 
 ## 2003
-### CVE-2003-0222
-
-<code>
-Stack-based buffer overflow in Oracle Net Services for Oracle Database Server 9i release 2 and earlier allows attackers to execute arbitrary code via a &quot;CREATE DATABASE LINK&quot; query containing a connect string with a long USING parameter.
-</code>
-
-- [phamthanhsang280477/CVE-2003-0222](https://github.com/phamthanhsang280477/CVE-2003-0222)
-
 ### CVE-2003-0264
 
 <code>
@@ -14019,15 +14011,6 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
-- [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
-
-### CVE-2003-0282
-
-<code>
-Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
-</code>
-
-- [lushann/cve-2003-0282](https://github.com/lushann/cve-2003-0282)
 
 
 ## 2002
