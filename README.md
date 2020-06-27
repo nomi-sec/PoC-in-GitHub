@@ -12729,6 +12729,7 @@ The ngx_http_parse_chunked function in http/ngx_http_parse.c in nginx 1.3.9 thro
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
 - [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
+- [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 
 ### CVE-2013-2072
 
@@ -14123,14 +14124,6 @@ Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 al
 </code>
 
 - [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
-
-### CVE-2001-0758
-
-<code>
-Directory traversal vulnerability in Shambala 4.5 allows remote attackers to escape the FTP root directory via &quot;CWD ...&quot;  command.
-</code>
-
-- [alt3kx/CVE-2001-0758](https://github.com/alt3kx/CVE-2001-0758)
 
 ### CVE-2001-0931
 
