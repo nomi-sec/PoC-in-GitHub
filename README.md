@@ -38,6 +38,14 @@ In startActivities of ActivityStartController.java, there is a possible escalati
 - [wyu0hop/CVE-2020-0096](https://github.com/wyu0hop/CVE-2020-0096)
 - [wrlu/StrandHogg2](https://github.com/wrlu/StrandHogg2)
 
+### CVE-2020-0121
+
+<code>
+In updateUidProcState of AppOpsService.java, there is a possible permission bypass due to a logic error. This could lead to local information disclosure of location data with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-148180766
+</code>
+
+- [mooneee/CVE-2020-0121](https://github.com/mooneee/CVE-2020-0121)
+
 ### CVE-2020-0551
 
 <code>
@@ -14124,6 +14132,14 @@ Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 al
 </code>
 
 - [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
+
+### CVE-2001-0758
+
+<code>
+Directory traversal vulnerability in Shambala 4.5 allows remote attackers to escape the FTP root directory via &quot;CWD ...&quot;  command.
+</code>
+
+- [alt3kx/CVE-2001-0758](https://github.com/alt3kx/CVE-2001-0758)
 
 ### CVE-2001-0931
 
