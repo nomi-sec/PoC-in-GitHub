@@ -689,6 +689,14 @@ The drag-and-drop-multiple-file-upload-contact-form-7 plugin before 1.3.3.3 for 
 
 - [amartinsec/CVE-2020-12800](https://github.com/amartinsec/CVE-2020-12800)
 
+### CVE-2020-12828
+
+<code>
+An issue was discovered in AnchorFree VPN SDK before 1.3.3.218. The VPN SDK service takes certain executable locations over a socket bound to localhost. Binding to the socket and providing a path where a malicious executable file resides leads to executing the malicious executable file with SYSTEM privileges.
+</code>
+
+- [0xsha/ZombieVPN](https://github.com/0xsha/ZombieVPN)
+
 ### CVE-2020-1283
 
 <code>
