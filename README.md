@@ -7266,6 +7266,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [abhaynayar/cve-2018-6574](https://github.com/abhaynayar/cve-2018-6574)
 - [it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574)
 - [Malone5923/CVE-2018-6574-go-get-RCE](https://github.com/Malone5923/CVE-2018-6574-go-get-RCE)
+- [tokyoneon/CVE-2018-6574](https://github.com/tokyoneon/CVE-2018-6574)
 
 ### CVE-2018-6622
 
@@ -13850,7 +13851,6 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
-- [noondi/metasploitable2](https://github.com/noondi/metasploitable2)
 - [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
