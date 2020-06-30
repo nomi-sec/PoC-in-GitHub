@@ -802,6 +802,11 @@ In Jiangmin Antivirus 16.0.13.129, the driver file (KVFG.sys) allows local users
 - [y5s5k5/CVE-2020-14955](https://github.com/y5s5k5/CVE-2020-14955)
 
 ### CVE-2020-14957
+
+<code>
+In Windows cleaning assistant 3.2, the driver file (AtpKrnl.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x223CCD.
+</code>
+
 - [y5s5k5/CVE-2020-14957-CVE-2020-14956](https://github.com/y5s5k5/CVE-2020-14957-CVE-2020-14956)
 
 ### CVE-2020-14965
@@ -13915,6 +13920,14 @@ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 all
 </code>
 
 - [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
+
+### CVE-2006-3392
+
+<code>
+Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+</code>
+
+- [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
 
 ### CVE-2006-3592
 
