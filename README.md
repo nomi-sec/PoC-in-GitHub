@@ -3505,6 +3505,14 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 - [ThanHuuTuan/Telerik_CVE-2019-18935](https://github.com/ThanHuuTuan/Telerik_CVE-2019-18935)
 - [ThanHuuTuan/CVE_2019_18935](https://github.com/ThanHuuTuan/CVE_2019_18935)
 
+### CVE-2019-18988
+
+<code>
+TeamViewer Desktop through 14.7.1965 allows a bypass of remote-login access control because the same key is used for different customers' installations. It used a shared AES key for all installations since at least as far back as v7.0.43148, and used it for at least OptionsPasswordAES in the current version of the product. If an attacker were to know this key, they could decrypt protect information stored in the registry or configuration files of TeamViewer. With versions before v9.x , this allowed for attackers to decrypt the Unattended Access password to the system (which allows for remote login to the system as well as headless file browsing). The latest version still uses the same key for OptionPasswordAES but appears to have changed how the Unattended Access password is stored. While in most cases an attacker requires an existing session on a system, if the registry/configuration keys were stored off of the machine (such as in a file share or online), an attacker could then decrypt the required password to login to the system.
+</code>
+
+- [ReverseBrain/CVE-2019-18988](https://github.com/ReverseBrain/CVE-2019-18988)
+
 ### CVE-2019-19012
 
 <code>
@@ -7280,6 +7288,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [abhaynayar/cve-2018-6574](https://github.com/abhaynayar/cve-2018-6574)
 - [it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574)
 - [Malone5923/CVE-2018-6574-go-get-RCE](https://github.com/Malone5923/CVE-2018-6574-go-get-RCE)
+- [l4rm4nd/CVE-2018-6574](https://github.com/l4rm4nd/CVE-2018-6574)
 
 ### CVE-2018-6622
 
@@ -9432,7 +9441,6 @@ A kernel pool overflow in the driver hitmanpro37.sys in Sophos SurfRight HitmanP
 The dccp_rcv_state_process function in net/dccp/input.c in the Linux kernel through 4.9.11 mishandles DCCP_PKT_REQUEST packet data structures in the LISTEN state, which allows local users to obtain root privileges or cause a denial of service (double free) via an application that makes an IPV6_RECVPKTINFO setsockopt system call.
 </code>
 
-- [node1392/Linux-Kernel-Vulnerability](https://github.com/node1392/Linux-Kernel-Vulnerability)
 - [BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074](https://github.com/BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074)
 
 ### CVE-2017-6079
