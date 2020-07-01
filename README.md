@@ -9,6 +9,7 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 
 - [marcinguy/CVE-2020-0022](https://github.com/marcinguy/CVE-2020-0022)
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
+- [k3vinlusec/Bluefrag_CVE-2020-0022](https://github.com/k3vinlusec/Bluefrag_CVE-2020-0022)
 
 ### CVE-2020-0041
 
@@ -530,6 +531,14 @@ An issue was discovered in Docker Desktop through 2.2.0.5 on Windows. If a local
 
 - [joshfinley/CVE-2020-11492](https://github.com/joshfinley/CVE-2020-11492)
 - [CrackerCat/CVE-2020-11492](https://github.com/CrackerCat/CVE-2020-11492)
+
+### CVE-2020-11519
+
+<code>
+The SDDisk2k.sys driver of WinMagic SecureDoc v8.5 and earlier allows local users to read or write to physical disc sectors via a \\.\SecureDocDevice handle. Exploiting this vulnerability results in privileged code execution.
+</code>
+
+- [patois/winmagic_sd](https://github.com/patois/winmagic_sd)
 
 ### CVE-2020-11539
 
