@@ -281,7 +281,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
 - [ZecOps/CVE-2020-0796-RCE-POC](https://github.com/ZecOps/CVE-2020-0796-RCE-POC)
 - [thelostworldFree/CVE-2020-0796](https://github.com/thelostworldFree/CVE-2020-0796)
-- [syadg123/CVE-2020-0796](https://github.com/syadg123/CVE-2020-0796)
 - [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
 - [bacth0san96/SMBGhostScanner](https://github.com/bacth0san96/SMBGhostScanner)
 - [DreamoneOnly/CVE-2020-0796-LPE](https://github.com/DreamoneOnly/CVE-2020-0796-LPE)
@@ -308,15 +307,6 @@ An elevation of privilege vulnerability exists in Windows Installer because of t
 </code>
 
 - [klinix5/CVE-2020-0814](https://github.com/klinix5/CVE-2020-0814)
-
-### CVE-2020-0883
-
-<code>
-A remote code execution vulnerability exists in the way that the Windows Graphics Device Interface (GDI) handles objects in the memory, aka 'GDI+ Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0881.
-</code>
-
-- [thelostworldFree/CVE-2020-0883](https://github.com/thelostworldFree/CVE-2020-0883)
-- [syadg123/CVE-2020-0883](https://github.com/syadg123/CVE-2020-0883)
 
 ### CVE-2020-0910
 
@@ -754,7 +744,7 @@ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows
 </code>
 
 - [mzer0one/CVE-2020-7961-POC](https://github.com/mzer0one/CVE-2020-7961-POC)
-- [b33p-b0x/CVE-2020-7961-payloads](https://github.com/b33p-b0x/CVE-2020-7961-payloads)
+- [TheSysOwner/CVE-2020-7961-payloads](https://github.com/TheSysOwner/CVE-2020-7961-payloads)
 - [wcxxxxx/CVE-2020-7961](https://github.com/wcxxxxx/CVE-2020-7961)
 
 ### CVE-2020-7980
