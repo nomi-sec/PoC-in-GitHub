@@ -780,12 +780,17 @@ A vulnerability in the improper handling of symbolic links in Bitdefender Antivi
 - [RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP](https://github.com/RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP)
 
 ### CVE-2020-8163
+
+<code>
+The is a code injection vulnerability in versions of Rails prior to 5.0.1 that wouldallow an attacker who controlled the `locals` argument of a `render` call to perform a RCE.
+</code>
+
 - [sh286/CVE-2020-8163](https://github.com/sh286/CVE-2020-8163)
 
 ### CVE-2020-8165
 
 <code>
-A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.5, rails &lt; 6.0.4 that can allow an attacker to unmarshal user-provided objects in MemCacheStore and RedisCacheStore potentially resulting in an RCE.
+A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.3, rails &lt; 6.0.3.1 that can allow an attacker to unmarshal user-provided objects in MemCacheStore and RedisCacheStore potentially resulting in an RCE.
 </code>
 
 - [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
@@ -1425,6 +1430,14 @@ showAlert() in the administration panel in Bludit 3.12.0 allows XSS.
 </code>
 
 - [gh0st56/CVE-2020-13889](https://github.com/gh0st56/CVE-2020-13889)
+
+### CVE-2020-14947
+
+<code>
+OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to require/commandLine/CommandLine.php because mib_file in plugins/main_sections/ms_config/ms_snmp_config.php is mishandled in get_mib_oid.
+</code>
+
+- [mhaskar/CVE-2020-14947](https://github.com/mhaskar/CVE-2020-14947)
 
 ### CVE-2020-14955
 
@@ -13764,6 +13777,14 @@ SQL injection vulnerability in ioRD.asp in RedDot CMS 7.5 Build 7.5.0.48, and po
 </code>
 
 - [SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613)
+
+### CVE-2008-2019
+
+<code>
+Simple Machines Forum (SMF), probably 1.1.4, relies on &quot;randomly generated static&quot; to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
+</code>
+
+- [TheRook/AudioCaptchaBypass-CVE-2008-2019](https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019)
 
 ### CVE-2008-2938
 
