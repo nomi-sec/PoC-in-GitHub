@@ -885,6 +885,7 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 
 - [Prabhashaka/IT19147192-CVE-2020-8835](https://github.com/Prabhashaka/IT19147192-CVE-2020-8835)
 - [socketcall/CVE-2020-8835](https://github.com/socketcall/CVE-2020-8835)
+- [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
 
 ### CVE-2020-8840
 
@@ -13770,8 +13771,6 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
 </code>
 
-- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
-- [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
 
 ### CVE-2008-0228
@@ -13790,22 +13789,6 @@ Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote atta
 
 - [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
 
-### CVE-2008-1613
-
-<code>
-SQL injection vulnerability in ioRD.asp in RedDot CMS 7.5 Build 7.5.0.48, and possibly other versions including 6.5 and 7.0, allows remote attackers to execute arbitrary SQL commands via the LngId parameter.
-</code>
-
-- [SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613)
-
-### CVE-2008-2019
-
-<code>
-Simple Machines Forum (SMF), probably 1.1.4, relies on &quot;randomly generated static&quot; to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
-</code>
-
-- [TheRook/AudioCaptchaBypass-CVE-2008-2019](https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019)
-
 ### CVE-2008-2938
 
 <code>
@@ -13822,14 +13805,6 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
 
-### CVE-2008-4609
-
-<code>
-The TCP implementation in (1) Linux, (2) platforms based on BSD Unix, (3) Microsoft Windows, (4) Cisco products, and probably other operating systems allows remote attackers to cause a denial of service (connection queue exhaustion) via multiple vectors that manipulate information in the TCP state table, as demonstrated by sockstress.
-</code>
-
-- [marcelki/sockstress](https://github.com/marcelki/sockstress)
-
 ### CVE-2008-4654
 
 <code>
@@ -13838,14 +13813,6 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
 - [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
-
-### CVE-2008-4687
-
-<code>
-manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
-</code>
-
-- [nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit)
 
 ### CVE-2008-5416
 
