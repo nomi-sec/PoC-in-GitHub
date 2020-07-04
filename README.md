@@ -652,6 +652,14 @@ index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v
 
 - [TheCyberGeek/CVE-2020-5844](https://github.com/TheCyberGeek/CVE-2020-5844)
 
+### CVE-2020-5902
+
+<code>
+In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.1.5.1, and 11.6.1-11.6.5.1, the Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages.
+</code>
+
+- [dwisiswant0/CVE-2020-5902](https://github.com/dwisiswant0/CVE-2020-5902)
+
 ### CVE-2020-6418
 
 <code>
@@ -1466,6 +1474,12 @@ On TP-Link TL-WR740N v4 and TL-WR740ND v4 devices, an attacker with access to th
 </code>
 
 - [g-rubert/CVE-2020-14965](https://github.com/g-rubert/CVE-2020-14965)
+
+### CVE-2020-15367
+- [inflixim4be/CVE-2020-15367](https://github.com/inflixim4be/CVE-2020-15367)
+
+### CVE-2020-15392
+- [inflixim4be/CVE-2020-15392](https://github.com/inflixim4be/CVE-2020-15392)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -12053,6 +12067,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [artofscripting/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS)
 - [cldme/heartbleed-bug](https://github.com/cldme/heartbleed-bug)
 - [hack3r-0m/heartbleed_fix_updated](https://github.com/hack3r-0m/heartbleed_fix_updated)
+- [rouze-d/heartbleed](https://github.com/rouze-d/heartbleed)
 
 ### CVE-2014-0166
 
