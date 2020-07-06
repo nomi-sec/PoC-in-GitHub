@@ -660,7 +660,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 
 - [dwisiswant0/CVE-2020-5902](https://github.com/dwisiswant0/CVE-2020-5902)
 - [aqhmal/CVE-2020-5902-Scanner](https://github.com/aqhmal/CVE-2020-5902-Scanner)
-- [xyele/CVE-2020-5902](https://github.com/xyele/CVE-2020-5902)
 - [jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902)
 - [ar0dd/CVE-2020-5902](https://github.com/ar0dd/CVE-2020-5902)
 - [yassineaboukir/CVE-2020-5902](https://github.com/yassineaboukir/CVE-2020-5902)
@@ -670,6 +669,12 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [yasserjanah/CVE-2020-5902](https://github.com/yasserjanah/CVE-2020-5902)
 - [JaneMandy/CVE-2020-5902](https://github.com/JaneMandy/CVE-2020-5902)
 - [JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902)
+- [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
+- [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
+- [sv3nbeast/CVE-2020-5902_RCE](https://github.com/sv3nbeast/CVE-2020-5902_RCE)
+- [cybersecurityworks553/scanner-CVE-2020-5902](https://github.com/cybersecurityworks553/scanner-CVE-2020-5902)
+- [tututu12138/CVE-2020-5902](https://github.com/tututu12138/CVE-2020-5902)
+- [tom0li/CVE-2020-5902](https://github.com/tom0li/CVE-2020-5902)
 
 ### CVE-2020-6418
 
