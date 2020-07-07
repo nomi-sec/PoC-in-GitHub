@@ -691,7 +691,10 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [jinnywc/CVE-2020-5902](https://github.com/jinnywc/CVE-2020-5902)
 - [GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch)
 - [jiansiting/CVE-2020-5902](https://github.com/jiansiting/CVE-2020-5902)
+- [wdlid/CVE-2020-5902-fix](https://github.com/wdlid/CVE-2020-5902-fix)
 - [Any3ite/CVE-2020-5902-F5BIG](https://github.com/Any3ite/CVE-2020-5902-F5BIG)
+- [k3nundrum/CVE-2020-5902](https://github.com/k3nundrum/CVE-2020-5902)
+- [inho28/CVE-2020-5902-F5-BIGIP](https://github.com/inho28/CVE-2020-5902-F5-BIGIP)
 
 ### CVE-2020-6418
 
@@ -1518,9 +1521,19 @@ On TP-Link TL-WR740N v4 and TL-WR740ND v4 devices, an attacker with access to th
 - [g-rubert/CVE-2020-14965](https://github.com/g-rubert/CVE-2020-14965)
 
 ### CVE-2020-15367
+
+<code>
+Venki Supravizio BPM 10.1.2 does not limit the number of authentication attempts. An unauthenticated user may exploit this vulnerability to launch a brute-force authentication attack against the Login page.
+</code>
+
 - [inflixim4be/CVE-2020-15367](https://github.com/inflixim4be/CVE-2020-15367)
 
 ### CVE-2020-15392
+
+<code>
+A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. This issue occurs during password recovery, where a difference in error messages could allow an attacker to determine if a username is valid or not, enabling a brute-force attack with valid usernames.
+</code>
+
 - [inflixim4be/CVE-2020-15392](https://github.com/inflixim4be/CVE-2020-15392)
 
 ### CVE-2020-72381
