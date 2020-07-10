@@ -702,12 +702,14 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [GovindPalakkal/EvilRip](https://github.com/GovindPalakkal/EvilRip)
 - [dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902)
 - [c130rg/checkvulnCVE2020590](https://github.com/c130rg/checkvulnCVE2020590)
+- [halencarjunior/f5scan](https://github.com/halencarjunior/f5scan)
 - [deepsecurity-pe/GoF5-CVE-2020-5902](https://github.com/deepsecurity-pe/GoF5-CVE-2020-5902)
 - [Shu1L/CVE-2020-5902-fofa-scan](https://github.com/Shu1L/CVE-2020-5902-fofa-scan)
 - [d4rk007/F5-Big-IP-CVE-2020-5902-mass-exploiter](https://github.com/d4rk007/F5-Big-IP-CVE-2020-5902-mass-exploiter)
 - [itsjeffersonli/CVE-2020-5902](https://github.com/itsjeffersonli/CVE-2020-5902)
 - [MrCl0wnLab/checker-CVE-2020-5902](https://github.com/MrCl0wnLab/checker-CVE-2020-5902)
 - [qiong-qi/CVE-2020-5902-POC](https://github.com/qiong-qi/CVE-2020-5902-POC)
+- [theLSA/f5-bigip-rce-cve-2020-5902](https://github.com/theLSA/f5-bigip-rce-cve-2020-5902)
 
 ### CVE-2020-6418
 
@@ -854,6 +856,14 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 </code>
 
 - [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
+
+### CVE-2020-8193
+
+<code>
+Improper access control in Citrix ADC and Citrix Gateway versions before 13.0-58.30, 12.1-57.18, 12.0-63.21, 11.1-64.14 and 10.5-70.18 and Citrix SDWAN WAN-OP versions before 11.1.1a, 11.0.3d and 10.2.7 allows unauthenticated access to certain URL endpoints.
+</code>
+
+- [jas502n/CVE-2020-8193](https://github.com/jas502n/CVE-2020-8193)
 
 ### CVE-2020-8417
 
