@@ -5068,6 +5068,14 @@ In Apache Kafka 0.9.0.0 to 0.9.0.1, 0.10.0.0 to 0.10.2.1, 0.11.0.0 to 0.11.0.2, 
 
 - [joegallagher4/CVE-2018-1288-](https://github.com/joegallagher4/CVE-2018-1288-)
 
+### CVE-2018-1297
+
+<code>
+When using Distributed Test only (RMI based), Apache JMeter 2.x and 3.x uses an unsecured RMI connection. This could allow an attacker to get Access to JMeterEngine and send unauthorized code.
+</code>
+
+- [xDro1d/CVE-2018-1297](https://github.com/xDro1d/CVE-2018-1297)
+
 ### CVE-2018-1304
 
 <code>
