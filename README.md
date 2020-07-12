@@ -291,6 +291,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Barriuso/SMBGhost_AutomateExploitation](https://github.com/Barriuso/SMBGhost_AutomateExploitation)
 - [Almorabea/SMBGhost-LPE-Metasploit-Module](https://github.com/Almorabea/SMBGhost-LPE-Metasploit-Module)
 - [ZecOps/SMBGhost-SMBleed-scanner](https://github.com/ZecOps/SMBGhost-SMBleed-scanner)
+- [getdrive/smbghost](https://github.com/getdrive/smbghost)
 
 ### CVE-2020-0797
 
@@ -712,6 +713,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [theLSA/f5-bigip-rce-cve-2020-5902](https://github.com/theLSA/f5-bigip-rce-cve-2020-5902)
 - [pwnhacker0x18/CVE-2020-5902-Mass](https://github.com/pwnhacker0x18/CVE-2020-5902-Mass)
 - [Al1ex/CVE-2020-5902](https://github.com/Al1ex/CVE-2020-5902)
+- [momika233/cve-2020-5902](https://github.com/momika233/cve-2020-5902)
 
 ### CVE-2020-6418
 
@@ -874,6 +876,7 @@ Improper access control in Citrix ADC and Citrix Gateway versions before 13.0-58
 </code>
 
 - [jas502n/CVE-2020-8193](https://github.com/jas502n/CVE-2020-8193)
+- [Airboi/Citrix-ADC-RCE-CVE-2020-8193](https://github.com/Airboi/Citrix-ADC-RCE-CVE-2020-8193)
 
 ### CVE-2020-8417
 
@@ -6595,6 +6598,7 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test)
 - [nthuong95/CVE-2018-11235](https://github.com/nthuong95/CVE-2018-11235)
 - [tokyoneon/lame-PTL-lab](https://github.com/tokyoneon/lame-PTL-lab)
+- [xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235)
 
 ### CVE-2018-11236
 
@@ -14136,6 +14140,14 @@ Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded app
 </code>
 
 - [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
+
+### CVE-2005-2428
+
+<code>
+Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
+</code>
+
+- [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
 
 
 ## 2004
