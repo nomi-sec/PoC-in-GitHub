@@ -1278,8 +1278,10 @@ Sonatype Nexus Repository Manager 3.x up to and including 3.21.2 has Incorrect A
 An issue was discovered in Docker Desktop through 2.2.0.5 on Windows. If a local attacker sets up their own named pipe prior to starting Docker with the same name, this attacker can intercept a connection attempt from Docker Service (which runs as SYSTEM), and then impersonate their privileges.
 </code>
 
-- [joshfinley/CVE-2020-11492](https://github.com/joshfinley/CVE-2020-11492)
 - [CrackerCat/CVE-2020-11492](https://github.com/CrackerCat/CVE-2020-11492)
+
+### CVE-2020-11493
+- [fengjixuchui/CVE-2020-11493](https://github.com/fengjixuchui/CVE-2020-11493)
 
 ### CVE-2020-11519
 
@@ -3219,6 +3221,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [k8gege/CVE-2019-11043](https://github.com/k8gege/CVE-2019-11043)
 - [moniik/CVE-2019-11043_env](https://github.com/moniik/CVE-2019-11043_env)
 - [alokaranasinghe/cve-2019-11043](https://github.com/alokaranasinghe/cve-2019-11043)
+- [corifeo/CVE-2019-11043](https://github.com/corifeo/CVE-2019-11043)
 
 ### CVE-2019-11061
 
@@ -4570,6 +4573,7 @@ TeamViewer Desktop through 14.7.1965 allows a bypass of remote-login access cont
 </code>
 
 - [ReverseBrain/CVE-2019-18988](https://github.com/ReverseBrain/CVE-2019-18988)
+- [mr-r3b00t/CVE-2019-18988](https://github.com/mr-r3b00t/CVE-2019-18988)
 
 ### CVE-2019-19012
 
@@ -6613,7 +6617,6 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [morhax/CVE-2018-11235](https://github.com/morhax/CVE-2018-11235)
 - [cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test)
 - [nthuong95/CVE-2018-11235](https://github.com/nthuong95/CVE-2018-11235)
-- [tokyoneon/lame-PTL-lab](https://github.com/tokyoneon/lame-PTL-lab)
 - [xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235)
 
 ### CVE-2018-11236
@@ -7102,6 +7105,14 @@ upc.exe in Ubisoft Uplay Desktop Client versions 63.0.5699.0 allows remote attac
 </code>
 
 - [JacksonKuo/Ubisoft-Uplay-Desktop-Client-63.0.5699.0](https://github.com/JacksonKuo/Ubisoft-Uplay-Desktop-Client-63.0.5699.0)
+
+### CVE-2018-15835
+
+<code>
+Android 1.0 through 9.0 has Insecure Permissions. The Android bug ID is 77286983.
+</code>
+
+- [Chirantar7004/Android-Passive-Location-Tracker](https://github.com/Chirantar7004/Android-Passive-Location-Tracker)
 
 ### CVE-2018-15877
 
