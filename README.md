@@ -449,6 +449,11 @@ In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's we
 - [HexChristmas/CVE-2020-1947](https://github.com/HexChristmas/CVE-2020-1947)
 
 ### CVE-2020-1948
+
+<code>
+This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An attacker can send RPC requests with unrecognized service name or method name along with some malicious parameter payloads. When the malicious parameter is deserialized, it will execute some malicious code. More details can be found below.
+</code>
+
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
 - [DSO-Lab/Dubbo-CVE-2020-1948](https://github.com/DSO-Lab/Dubbo-CVE-2020-1948)
 - [askDing/cve-2020-1948-poc](https://github.com/askDing/cve-2020-1948-poc)
@@ -878,6 +883,7 @@ Improper access control in Citrix ADC and Citrix Gateway versions before 13.0-58
 
 - [jas502n/CVE-2020-8193](https://github.com/jas502n/CVE-2020-8193)
 - [Airboi/Citrix-ADC-RCE-CVE-2020-8193](https://github.com/Airboi/Citrix-ADC-RCE-CVE-2020-8193)
+- [Zeop-CyberSec/citrix_adc_netscaler_lfi](https://github.com/Zeop-CyberSec/citrix_adc_netscaler_lfi)
 - [PR3R00T/CVE-2020-8193-Citrix-Scanner](https://github.com/PR3R00T/CVE-2020-8193-Citrix-Scanner)
 
 ### CVE-2020-8417
@@ -7022,7 +7028,7 @@ MikroTik RouterOS through 6.42 allows unauthenticated remote attackers to read a
 - [syrex1013/MikroRoot](https://github.com/syrex1013/MikroRoot)
 - [jas502n/CVE-2018-14847](https://github.com/jas502n/CVE-2018-14847)
 - [th3f3n1x87/winboxPOC](https://github.com/th3f3n1x87/winboxPOC)
-- [krnull/mikrotik-beast](https://github.com/krnull/mikrotik-beast)
+- [mahmoodsabir/mikrotik-beast](https://github.com/mahmoodsabir/mikrotik-beast)
 - [sinichi449/Python-MikrotikLoginExploit](https://github.com/sinichi449/Python-MikrotikLoginExploit)
 - [yukar1z0e/CVE-2018-14847](https://github.com/yukar1z0e/CVE-2018-14847)
 
