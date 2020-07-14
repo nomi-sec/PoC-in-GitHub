@@ -393,6 +393,11 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [P1kAju/CVE-2020-1301](https://github.com/P1kAju/CVE-2020-1301)
 - [shubham0d/CVE-2020-1301](https://github.com/shubham0d/CVE-2020-1301)
 
+### CVE-2020-1350
+- [ZephrFish/CVE-2020-1350](https://github.com/ZephrFish/CVE-2020-1350)
+- [mr-r3b00t/CVE-2020-1350](https://github.com/mr-r3b00t/CVE-2020-1350)
+- [kosmokato/poc-cve-2020-1350](https://github.com/kosmokato/poc-cve-2020-1350)
+
 ### CVE-2020-1611
 
 <code>
