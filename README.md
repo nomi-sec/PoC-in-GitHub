@@ -452,6 +452,7 @@ In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's we
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
 - [DSO-Lab/Dubbo-CVE-2020-1948](https://github.com/DSO-Lab/Dubbo-CVE-2020-1948)
 - [askDing/cve-2020-1948-poc](https://github.com/askDing/cve-2020-1948-poc)
+- [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1958
 
