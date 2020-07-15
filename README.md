@@ -904,6 +904,7 @@ Improper access control in Citrix ADC and Citrix Gateway versions before 13.0-58
 - [Airboi/Citrix-ADC-RCE-CVE-2020-8193](https://github.com/Airboi/Citrix-ADC-RCE-CVE-2020-8193)
 - [Zeop-CyberSec/citrix_adc_netscaler_lfi](https://github.com/Zeop-CyberSec/citrix_adc_netscaler_lfi)
 - [PR3R00T/CVE-2020-8193-Citrix-Scanner](https://github.com/PR3R00T/CVE-2020-8193-Citrix-Scanner)
+- [ctlyz123/CVE-2020-8193](https://github.com/ctlyz123/CVE-2020-8193)
 
 ### CVE-2020-8417
 
@@ -1561,7 +1562,7 @@ Citrix Workspace App before 1912 on Windows has Insecure Permissions which allow
 - [hessandrew/CVE-2020-13885](https://github.com/hessandrew/CVE-2020-13885)
 
 ### CVE-2020-13886
-- [skullsecurity/CVE-2020-13886](https://github.com/skullsecurity/CVE-2020-13886)
+- [lucxssouza/CVE-2020-13886](https://github.com/lucxssouza/CVE-2020-13886)
 
 ### CVE-2020-13889
 
