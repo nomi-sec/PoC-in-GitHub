@@ -394,9 +394,14 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [shubham0d/CVE-2020-1301](https://github.com/shubham0d/CVE-2020-1301)
 
 ### CVE-2020-1350
+
+<code>
+A remote code execution vulnerability exists in Windows Domain Name System servers when they fail to properly handle requests, aka 'Windows DNS Server Remote Code Execution Vulnerability'.
+</code>
+
 - [ZephrFish/CVE-2020-1350](https://github.com/ZephrFish/CVE-2020-1350)
 - [mr-r3b00t/CVE-2020-1350](https://github.com/mr-r3b00t/CVE-2020-1350)
-- [kosmokato/poc-cve-2020-1350](https://github.com/kosmokato/poc-cve-2020-1350)
+- [tinkersec/cve-2020-1350](https://github.com/tinkersec/cve-2020-1350)
 
 ### CVE-2020-1611
 
