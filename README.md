@@ -402,6 +402,7 @@ A remote code execution vulnerability exists in Windows Domain Name System serve
 - [ZephrFish/CVE-2020-1350](https://github.com/ZephrFish/CVE-2020-1350)
 - [mr-r3b00t/CVE-2020-1350](https://github.com/mr-r3b00t/CVE-2020-1350)
 - [tinkersec/cve-2020-1350](https://github.com/tinkersec/cve-2020-1350)
+- [T13nn3s/CVE-2020-1350](https://github.com/T13nn3s/CVE-2020-1350)
 
 ### CVE-2020-1611
 
@@ -784,6 +785,14 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [superzerosec/cve-2020-7247](https://github.com/superzerosec/cve-2020-7247)
 - [r0lh/CVE-2020-7247](https://github.com/r0lh/CVE-2020-7247)
 
+### CVE-2020-7283
+
+<code>
+Privilege Escalation vulnerability in McAfee Total Protection (MTP) before 16.0.R26 allows local users to create and edit files via symbolic link manipulation in a location they would otherwise not have access to. This is achieved through running a malicious script or program on the target machine.
+</code>
+
+- [RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP](https://github.com/RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP)
+
 ### CVE-2020-7471
 
 <code>
@@ -999,6 +1008,9 @@ The AUEPLauncher service in Radeon AMD User Experience Program Launcher through 
 </code>
 
 - [sailay1996/amd_eop_poc](https://github.com/sailay1996/amd_eop_poc)
+
+### CVE-2020-8958
+- [qurbat/gpon](https://github.com/qurbat/gpon)
 
 ### CVE-2020-9008
 
@@ -5802,6 +5814,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574)
 - [Malone5923/CVE-2018-6574-go-get-RCE](https://github.com/Malone5923/CVE-2018-6574-go-get-RCE)
 - [l4rm4nd/CVE-2018-6574](https://github.com/l4rm4nd/CVE-2018-6574)
+- [shivam18u/CVE-2018-6574](https://github.com/shivam18u/CVE-2018-6574)
 
 ### CVE-2018-6622
 
@@ -7444,7 +7457,7 @@ It was found that libreoffice before versions 6.0.7 and 6.1.3 was vulnerable to 
 </code>
 
 - [4nimanegra/libreofficeExploit1](https://github.com/4nimanegra/libreofficeExploit1)
-- [k0o97/detect-cve-2018-16858](https://github.com/k0o97/detect-cve-2018-16858)
+- [phongld97/detect-cve-2018-16858](https://github.com/phongld97/detect-cve-2018-16858)
 
 ### CVE-2018-16875
 
