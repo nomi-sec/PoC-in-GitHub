@@ -406,6 +406,7 @@ A remote code execution vulnerability exists in Windows Domain Name System serve
 - [corelight/SIGRed](https://github.com/corelight/SIGRed)
 - [jmaddington/dRMM-CVE-2020-1350-response](https://github.com/jmaddington/dRMM-CVE-2020-1350-response)
 - [maxpl0it/CVE-2020-1350-DoS](https://github.com/maxpl0it/CVE-2020-1350-DoS)
+- [captainGeech42/CVE-2020-1350](https://github.com/captainGeech42/CVE-2020-1350)
 
 ### CVE-2020-1611
 
