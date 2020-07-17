@@ -408,6 +408,14 @@ A remote code execution vulnerability exists in Windows Domain Name System serve
 - [maxpl0it/CVE-2020-1350-DoS](https://github.com/maxpl0it/CVE-2020-1350-DoS)
 - [captainGeech42/CVE-2020-1350](https://github.com/captainGeech42/CVE-2020-1350)
 
+### CVE-2020-1362
+
+<code>
+An elevation of privilege vulnerability exists in the way that the Windows WalletService handles objects in memory, aka 'Windows WalletService Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-1344, CVE-2020-1369.
+</code>
+
+- [Q4n/CVE-2020-1362](https://github.com/Q4n/CVE-2020-1362)
+
 ### CVE-2020-1611
 
 <code>
@@ -735,6 +743,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [pwnhacker0x18/CVE-2020-5902-Mass](https://github.com/pwnhacker0x18/CVE-2020-5902-Mass)
 - [Al1ex/CVE-2020-5902](https://github.com/Al1ex/CVE-2020-5902)
 - [momika233/cve-2020-5902](https://github.com/momika233/cve-2020-5902)
+- [rockmelodies/CVE-2020-5902-rce-gui](https://github.com/rockmelodies/CVE-2020-5902-rce-gui)
 
 ### CVE-2020-6287
 
@@ -8145,6 +8154,7 @@ In all Kubernetes versions prior to v1.10.11, v1.11.5, and v1.12.3, incorrect ha
 - [evict/poc_CVE-2018-1002105](https://github.com/evict/poc_CVE-2018-1002105)
 - [imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install)
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
+- [mdnix/cve-2018-1002105](https://github.com/mdnix/cve-2018-1002105)
 
 ### CVE-2018-1999002
 
