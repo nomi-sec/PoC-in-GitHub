@@ -232,7 +232,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [T13nn3s/CVE-2020-0796](https://github.com/T13nn3s/CVE-2020-0796)
 - [ollypwn/SMBGhost](https://github.com/ollypwn/SMBGhost)
 - [joaozietolie/CVE-2020-0796-Checker](https://github.com/joaozietolie/CVE-2020-0796-Checker)
-- [pr4jwal/CVE-2020-0796](https://github.com/pr4jwal/CVE-2020-0796)
+- [pr4jwal/NSE-scripts](https://github.com/pr4jwal/NSE-scripts)
 - [ButrintKomoni/cve-2020-0796](https://github.com/ButrintKomoni/cve-2020-0796)
 - [dickens88/cve-2020-0796-scanner](https://github.com/dickens88/cve-2020-0796-scanner)
 - [kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796)
@@ -936,9 +936,6 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 
 - [imjdl/CVE-2020-8515-PoC](https://github.com/imjdl/CVE-2020-8515-PoC)
 - [truerandom/nmap_draytek_rce](https://github.com/truerandom/nmap_draytek_rce)
-
-### CVE-2020-8558
-- [tabbysable/tst-2020-8558](https://github.com/tabbysable/tst-2020-8558)
 
 ### CVE-2020-8597
 
