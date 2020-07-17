@@ -301,14 +301,6 @@ An elevation of privilege vulnerability exists when the Windows Work Folder Serv
 
 - [bonesg/CVE-2020-0797](https://github.com/bonesg/CVE-2020-0797)
 
-### CVE-2020-0814
-
-<code>
-An elevation of privilege vulnerability exists in Windows Installer because of the way Windows Installer handles certain filesystem operations.To exploit the vulnerability, an attacker would require unprivileged execution on the victim system, aka 'Windows Installer Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0779, CVE-2020-0798, CVE-2020-0842, CVE-2020-0843.
-</code>
-
-- [klinix5/CVE-2020-0814](https://github.com/klinix5/CVE-2020-0814)
-
 ### CVE-2020-0910
 
 <code>
@@ -944,6 +936,9 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 
 - [imjdl/CVE-2020-8515-PoC](https://github.com/imjdl/CVE-2020-8515-PoC)
 - [truerandom/nmap_draytek_rce](https://github.com/truerandom/nmap_draytek_rce)
+
+### CVE-2020-8558
+- [tabbysable/tst-2020-8558](https://github.com/tabbysable/tst-2020-8558)
 
 ### CVE-2020-8597
 
@@ -1597,6 +1592,14 @@ showAlert() in the administration panel in Bludit 3.12.0 allows XSS.
 </code>
 
 - [gh0st56/CVE-2020-13889](https://github.com/gh0st56/CVE-2020-13889)
+
+### CVE-2020-14199
+
+<code>
+BIP-143 in the Bitcoin protocol specification mishandles the signing of a Segwit transaction, which allows attackers to trick a user into making two signatures in certain cases, potentially leading to a huge transaction fee. NOTE: this affects all hardware wallets. It was fixed in 1.9.1 for the Trezor One and 2.3.1 for the Trezor Model T.
+</code>
+
+- [nondejus/CVE-2020-14199](https://github.com/nondejus/CVE-2020-14199)
 
 ### CVE-2020-14947
 
@@ -4284,6 +4287,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [cybervaca/CVE-2019-16113](https://github.com/cybervaca/CVE-2019-16113)
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
+- [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 
 ### CVE-2019-16278
 
@@ -4854,6 +4858,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781)
 - [SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781)
 - [qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc)
+- [w4fz5uck5/CVE-2019-19781-CitrixRCE](https://github.com/w4fz5uck5/CVE-2019-19781-CitrixRCE)
 
 ### CVE-2019-19844
 
@@ -8039,6 +8044,14 @@ The WSDL import functionality in SmartBear ReadyAPI 2.5.0 and 2.6.0 allows remot
 
 - [gscamelo/CVE-2018-20580](https://github.com/gscamelo/CVE-2018-20580)
 
+### CVE-2018-20586
+
+<code>
+bitcoind and Bitcoin-Qt prior to 0.17.1 allow injection of arbitrary data into the debug log via an RPC call.
+</code>
+
+- [nondejus/CVE-2018-20586](https://github.com/nondejus/CVE-2018-20586)
+
 ### CVE-2018-20718
 
 <code>
@@ -9747,6 +9760,14 @@ Multiple cross-site request forgery (CSRF) vulnerabilities in NexusPHP 1.5 allow
 </code>
 
 - [ZZS2017/cve-2017-12792](https://github.com/ZZS2017/cve-2017-12792)
+
+### CVE-2017-12842
+
+<code>
+Bitcoin Core before 0.14 allows an attacker to create an ostensibly valid SPV proof for a payment to a victim who uses an SPV wallet, even if that payment did not actually occur. Completing the attack would cost more than a million dollars, and is relevant mainly only in situations where an autonomous system relies solely on an SPV proof for transactions of a greater dollar amount.
+</code>
+
+- [nondejus/CVE-2017-12842](https://github.com/nondejus/CVE-2017-12842)
 
 ### CVE-2017-12852
 
@@ -13209,6 +13230,14 @@ Cross-site scripting (XSS) vulnerability in the web-based device-management API 
 </code>
 
 - [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
+
+### CVE-2013-5700
+
+<code>
+The Bloom Filter implementation in bitcoind and Bitcoin-Qt 0.8.x before 0.8.4rc1 allows remote attackers to cause a denial of service (divide-by-zero error and daemon crash) via a crafted sequence of messages.
+</code>
+
+- [nondejus/CVE-2013-5700](https://github.com/nondejus/CVE-2013-5700)
 
 ### CVE-2013-5842
 
