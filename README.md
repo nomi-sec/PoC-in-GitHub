@@ -1656,6 +1656,9 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 
 - [inflixim4be/CVE-2020-15392](https://github.com/inflixim4be/CVE-2020-15392)
 
+### CVE-2020-15778
+- [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
+
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
 
@@ -10409,7 +10412,6 @@ The join_session_keyring function in security/keys/process_keys.c in the Linux k
 - [kennetham/cve_2016_0728](https://github.com/kennetham/cve_2016_0728)
 - [nardholio/cve-2016-0728](https://github.com/nardholio/cve-2016-0728)
 - [googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728)
-- [MagicPwn/CVE-2016-0728-Check](https://github.com/MagicPwn/CVE-2016-0728-Check)
 - [neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed)
 - [bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728)
 - [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
@@ -14353,22 +14355,6 @@ Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite ar
 
 
 ## 2002
-### CVE-2002-0200
-
-<code>
-Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.
-</code>
-
-- [alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200)
-
-### CVE-2002-0201
-
-<code>
-Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
-</code>
-
-- [alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201)
-
 ### CVE-2002-0288
 
 <code>
@@ -14401,14 +14387,6 @@ Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to rea
 
 - [alt3kx/CVE-2002-0347](https://github.com/alt3kx/CVE-2002-0347)
 
-### CVE-2002-0348
-
-<code>
-service.cgi in Cobalt RAQ 4 allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long service argument.
-</code>
-
-- [alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348)
-
 ### CVE-2002-0448
 
 <code>
@@ -14424,14 +14402,6 @@ Buffer overflow in slrnpull for the SLRN package, when installed setuid or setgi
 </code>
 
 - [alt3kx/CVE-2002-0740](https://github.com/alt3kx/CVE-2002-0740)
-
-### CVE-2002-0991
-
-<code>
-Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and earlier, based on the Sharity package, allows local users to gain root privileges via long (1) -U, (2) -D, (3) -P, (4) -S, (5) -N, or (6) -u parameters.
-</code>
-
-- [alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991)
 
 
 ## 2001
