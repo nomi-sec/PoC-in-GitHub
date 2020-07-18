@@ -232,7 +232,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [T13nn3s/CVE-2020-0796](https://github.com/T13nn3s/CVE-2020-0796)
 - [ollypwn/SMBGhost](https://github.com/ollypwn/SMBGhost)
 - [joaozietolie/CVE-2020-0796-Checker](https://github.com/joaozietolie/CVE-2020-0796-Checker)
-- [pr4jwal/NSE-scripts](https://github.com/pr4jwal/NSE-scripts)
 - [ButrintKomoni/cve-2020-0796](https://github.com/ButrintKomoni/cve-2020-0796)
 - [dickens88/cve-2020-0796-scanner](https://github.com/dickens88/cve-2020-0796-scanner)
 - [kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796)
@@ -391,8 +390,10 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 A remote code execution vulnerability exists in Windows Domain Name System servers when they fail to properly handle requests, aka 'Windows DNS Server Remote Code Execution Vulnerability'.
 </code>
 
+- [pr4jwal/NSE-scripts](https://github.com/pr4jwal/NSE-scripts)
 - [ZephrFish/CVE-2020-1350](https://github.com/ZephrFish/CVE-2020-1350)
 - [mr-r3b00t/CVE-2020-1350](https://github.com/mr-r3b00t/CVE-2020-1350)
+- [zoomerxsec/Fake_CVE-2020-1350](https://github.com/zoomerxsec/Fake_CVE-2020-1350)
 - [tinkersec/cve-2020-1350](https://github.com/tinkersec/cve-2020-1350)
 - [T13nn3s/CVE-2020-1350](https://github.com/T13nn3s/CVE-2020-1350)
 - [corelight/SIGRed](https://github.com/corelight/SIGRed)
@@ -451,6 +452,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [ZhengHaoCHeng/CNVD-2020-10487](https://github.com/ZhengHaoCHeng/CNVD-2020-10487)
 - [I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938)
 - [Umesh2807/Ghostcat](https://github.com/Umesh2807/Ghostcat)
+- [MateoSec/ghostcatch](https://github.com/MateoSec/ghostcatch)
 
 ### CVE-2020-1947
 
