@@ -744,6 +744,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [Al1ex/CVE-2020-5902](https://github.com/Al1ex/CVE-2020-5902)
 - [momika233/cve-2020-5902](https://github.com/momika233/cve-2020-5902)
 - [rockmelodies/CVE-2020-5902-rce-gui](https://github.com/rockmelodies/CVE-2020-5902-rce-gui)
+- [f5devcentral/cve-2020-5902-ioc-bigip-checker](https://github.com/f5devcentral/cve-2020-5902-ioc-bigip-checker)
 
 ### CVE-2020-6287
 
@@ -752,6 +753,7 @@ SAP NetWeaver AS JAVA (LM Configuration Wizard), versions - 7.30, 7.31, 7.40, 7.
 </code>
 
 - [chipik/SAP_RECON](https://github.com/chipik/SAP_RECON)
+- [duc-nt/CVE-2020-6287-exploit](https://github.com/duc-nt/CVE-2020-6287-exploit)
 
 ### CVE-2020-6418
 
@@ -945,6 +947,9 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 
 - [imjdl/CVE-2020-8515-PoC](https://github.com/imjdl/CVE-2020-8515-PoC)
 - [truerandom/nmap_draytek_rce](https://github.com/truerandom/nmap_draytek_rce)
+
+### CVE-2020-8558
+- [rhysemmas/martian-packets](https://github.com/rhysemmas/martian-packets)
 
 ### CVE-2020-8597
 
@@ -1665,9 +1670,19 @@ An issue was discovered in Artica Proxy before 4.30.000000. Stored XSS exists vi
 - [pratikshad19/CVE-2020-15051](https://github.com/pratikshad19/CVE-2020-15051)
 
 ### CVE-2020-15052
+
+<code>
+An issue was discovered in Artica Proxy CE before 4.28.030.418. SQL Injection exists via the Netmask, Hostname, and Alias fields.
+</code>
+
 - [pratikshad19/CVE-2020-15052](https://github.com/pratikshad19/CVE-2020-15052)
 
 ### CVE-2020-15053
+
+<code>
+An issue was discovered in Artica Proxy CE before 4.28.030.418. Reflected XSS exists via these search fields: real time request, System Events, Proxy Events, Proxy Objects, and Firewall objects.
+</code>
+
 - [pratikshad19/CVE-2020-15053](https://github.com/pratikshad19/CVE-2020-15053)
 
 ### CVE-2020-15367
@@ -5894,6 +5909,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Malone5923/CVE-2018-6574-go-get-RCE](https://github.com/Malone5923/CVE-2018-6574-go-get-RCE)
 - [l4rm4nd/CVE-2018-6574](https://github.com/l4rm4nd/CVE-2018-6574)
 - [shivam18u/CVE-2018-6574](https://github.com/shivam18u/CVE-2018-6574)
+- [illnino/CVE-2018-6574](https://github.com/illnino/CVE-2018-6574)
 
 ### CVE-2018-6622
 
