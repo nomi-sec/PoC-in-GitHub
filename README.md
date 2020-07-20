@@ -405,6 +405,7 @@ A remote code execution vulnerability exists in Windows Domain Name System serve
 - [graph-inc/CVE-2020-1350](https://github.com/graph-inc/CVE-2020-1350)
 - [CVEmaster/CVE-2020-1350](https://github.com/CVEmaster/CVE-2020-1350)
 - [Plazmaz/CVE-2020-1350-poc](https://github.com/Plazmaz/CVE-2020-1350-poc)
+- [Secuora-Org/CVE-2020-1350-checker.ps1](https://github.com/Secuora-Org/CVE-2020-1350-checker.ps1)
 
 ### CVE-2020-1362
 
@@ -1598,6 +1599,14 @@ showAlert() in the administration panel in Bludit 3.12.0 allows XSS.
 
 - [gh0st56/CVE-2020-13889](https://github.com/gh0st56/CVE-2020-13889)
 
+### CVE-2020-13925
+
+<code>
+Similar to CVE-2020-1956, Kylin has one more restful API which concatenates the API inputs into OS commands and then executes them on the server; while the reported API misses necessary input validation, which causes the hackers to have the possibility to execute OS command remotely. Users of all previous versions after 2.3 should upgrade to 3.1.0.
+</code>
+
+- [bit4woo/CVE-2020-13925](https://github.com/bit4woo/CVE-2020-13925)
+
 ### CVE-2020-14199
 
 <code>
@@ -1613,6 +1622,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 </code>
 
 - [Y4er/CVE-2020-14645](https://github.com/Y4er/CVE-2020-14645)
+- [DaBoQuan/CVE-2020-14645](https://github.com/DaBoQuan/CVE-2020-14645)
 
 ### CVE-2020-14947
 
@@ -1653,6 +1663,12 @@ An issue was discovered in Artica Proxy before 4.30.000000. Stored XSS exists vi
 </code>
 
 - [pratikshad19/CVE-2020-15051](https://github.com/pratikshad19/CVE-2020-15051)
+
+### CVE-2020-15052
+- [pratikshad19/CVE-2020-15052](https://github.com/pratikshad19/CVE-2020-15052)
+
+### CVE-2020-15053
+- [pratikshad19/CVE-2020-15053](https://github.com/pratikshad19/CVE-2020-15053)
 
 ### CVE-2020-15367
 
