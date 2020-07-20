@@ -404,6 +404,7 @@ A remote code execution vulnerability exists in Windows Domain Name System serve
 - [5ing/CVE-2020-1350-poc](https://github.com/5ing/CVE-2020-1350-poc)
 - [graph-inc/CVE-2020-1350](https://github.com/graph-inc/CVE-2020-1350)
 - [CVEmaster/CVE-2020-1350](https://github.com/CVEmaster/CVE-2020-1350)
+- [Plazmaz/CVE-2020-1350-poc](https://github.com/Plazmaz/CVE-2020-1350-poc)
 
 ### CVE-2020-1362
 
@@ -1604,6 +1605,14 @@ BIP-143 in the Bitcoin protocol specification mishandles the signing of a Segwit
 </code>
 
 - [nondejus/CVE-2020-14199](https://github.com/nondejus/CVE-2020-14199)
+
+### CVE-2020-14645
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP, T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [Y4er/CVE-2020-14645](https://github.com/Y4er/CVE-2020-14645)
 
 ### CVE-2020-14947
 
