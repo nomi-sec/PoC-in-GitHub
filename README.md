@@ -385,6 +385,9 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [P1kAju/CVE-2020-1301](https://github.com/P1kAju/CVE-2020-1301)
 - [shubham0d/CVE-2020-1301](https://github.com/shubham0d/CVE-2020-1301)
 
+### CVE-2020-1337
+- [math1as/CVE-2020-1337-exploit](https://github.com/math1as/CVE-2020-1337-exploit)
+
 ### CVE-2020-1350
 
 <code>
@@ -1045,6 +1048,14 @@ Guangzhou 1GE ONU V2801RW 1.9.1-181203 through 2.9.0-181024 and V2804RGW 1.9.1-1
 
 - [qurbat/gpon](https://github.com/qurbat/gpon)
 
+### CVE-2020-9006
+
+<code>
+The Popup Builder plugin 2.2.8 through 2.6.7.6 for WordPress is vulnerable to SQL injection (in the sgImportPopups function in sg_popup_ajax.php) via PHP Deserialization on attacker-controlled data with the attachmentUrl POST variable. This allows creation of an arbitrary WordPress Administrator account, leading to possible Remote Code Execution because Administrators can run PHP code on Wordpress instances. (This issue has been fixed in the 3.x branch of popup-builder.)
+</code>
+
+- [tz4678/cve-2020-9006](https://github.com/tz4678/cve-2020-9006)
+
 ### CVE-2020-9008
 
 <code>
@@ -1405,6 +1416,14 @@ An issue was discovered in Joomla! before 3.9.17. Improper input validations in 
 </code>
 
 - [HoangKien1020/CVE-2020-11890](https://github.com/HoangKien1020/CVE-2020-11890)
+
+### CVE-2020-11896
+
+<code>
+The Treck TCP/IP stack before 6.0.1.66 allows Remote Code Execution, related to IPv4 tunneling.
+</code>
+
+- [Fans0n-Fan/Treck20-Related](https://github.com/Fans0n-Fan/Treck20-Related)
 
 ### CVE-2020-11932
 
@@ -12627,6 +12646,7 @@ Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusi
 
 - [NoneNotNull/SSRFX](https://github.com/NoneNotNull/SSRFX)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC](https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC)
 
 ### CVE-2014-4321
 - [android-rooting-tools/libmsm_vfe_read_exploit](https://github.com/android-rooting-tools/libmsm_vfe_read_exploit)
