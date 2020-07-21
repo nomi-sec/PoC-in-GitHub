@@ -5962,6 +5962,7 @@ An issue was discovered in CloudMe before 1.11.0. An unauthenticated remote atta
 
 - [manojcode/CloudMe-Sync-1.10.9---Buffer-Overflow-SEH-DEP-Bypass](https://github.com/manojcode/CloudMe-Sync-1.10.9---Buffer-Overflow-SEH-DEP-Bypass)
 - [manojcode/-Win10-x64-CloudMe-Sync-1.10.9-Buffer-Overflow-SEH-DEP-Bypass](https://github.com/manojcode/-Win10-x64-CloudMe-Sync-1.10.9-Buffer-Overflow-SEH-DEP-Bypass)
+- [latortuga71/CVE-2018-6892-Golang](https://github.com/latortuga71/CVE-2018-6892-Golang)
 
 ### CVE-2018-6905
 
