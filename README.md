@@ -385,9 +385,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [P1kAju/CVE-2020-1301](https://github.com/P1kAju/CVE-2020-1301)
 - [shubham0d/CVE-2020-1301](https://github.com/shubham0d/CVE-2020-1301)
 
-### CVE-2020-1337
-- [math1as/CVE-2020-1337-exploit](https://github.com/math1as/CVE-2020-1337-exploit)
-
 ### CVE-2020-1350
 
 <code>
@@ -1459,6 +1456,14 @@ Zoho ManageEngine OpManager Stable build before 124196 and Released build before
 
 - [BeetleChunks/CVE-2020-12116](https://github.com/BeetleChunks/CVE-2020-12116)
 
+### CVE-2020-12432
+
+<code>
+The WOPI API integration for Vereign Collabora CODE through 4.2.2 does not properly restrict delivery of JavaScript to a victim's browser, and lacks proper MIME type access control, which could lead to XSS that steals account credentials via cookies or local storage. The attacker must first obtain an API access token, which can be accomplished if the attacker is able to upload a .docx or .odt file. The associated API endpoints for exploitation are /wopi/files and /wopi/getAccessToken.
+</code>
+
+- [d7x/CVE-2020-12432](https://github.com/d7x/CVE-2020-12432)
+
 ### CVE-2020-12629
 
 <code>
@@ -1647,6 +1652,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [Y4er/CVE-2020-14645](https://github.com/Y4er/CVE-2020-14645)
 - [DaBoQuan/CVE-2020-14645](https://github.com/DaBoQuan/CVE-2020-14645)
+- [DSO-Lab/Weblogic_CVE-2020-14645](https://github.com/DSO-Lab/Weblogic_CVE-2020-14645)
 
 ### CVE-2020-14947
 
@@ -1725,9 +1731,6 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
-
-### CVE-2020-123456789
-- [mrknow001/CVE-2020-123456789](https://github.com/mrknow001/CVE-2020-123456789)
 
 
 ## 2019
@@ -4480,7 +4483,7 @@ NSA Ghidra through 9.0.4, when experimental mode is enabled, allows arbitrary co
 mintinstall (aka Software Manager) 7.9.9 for Linux Mint allows code execution if a REVIEWS_CACHE file is controlled by an attacker, because an unpickle occurs. This is resolved in 8.0.0 and backports.
 </code>
 
-- [Andhrimnirr/Mintinstall-object-injection](https://github.com/Andhrimnirr/Mintinstall-object-injection)
+- [materaj2/Mintinstall-object-injection](https://github.com/materaj2/Mintinstall-object-injection)
 
 ### CVE-2019-17124
 
@@ -4633,14 +4636,6 @@ An issue was discovered on Xiaomi Mi WiFi R3G devices before 2.28.23-stable. The
 </code>
 
 - [UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC](https://github.com/UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC)
-
-### CVE-2019-18418
-
-<code>
-clonos.php in ClonOS WEB control panel 19.09 allows remote attackers to gain full access via change password requests because there is no session management.
-</code>
-
-- [Andhrimnirr/ClonOS-WEB-control-panel-multi-vulnerability](https://github.com/Andhrimnirr/ClonOS-WEB-control-panel-multi-vulnerability)
 
 ### CVE-2019-18426
 
