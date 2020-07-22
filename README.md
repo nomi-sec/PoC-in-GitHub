@@ -949,7 +949,11 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 - [truerandom/nmap_draytek_rce](https://github.com/truerandom/nmap_draytek_rce)
 
 ### CVE-2020-8558
+- [tabbysable/POC-2020-8558](https://github.com/tabbysable/POC-2020-8558)
 - [rhysemmas/martian-packets](https://github.com/rhysemmas/martian-packets)
+
+### CVE-2020-8559
+- [tdwyer/CVE-2020-8559](https://github.com/tdwyer/CVE-2020-8559)
 
 ### CVE-2020-8597
 
@@ -6758,6 +6762,8 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test)
 - [nthuong95/CVE-2018-11235](https://github.com/nthuong95/CVE-2018-11235)
 - [xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235)
+- [makeross/CVE-2018-11235](https://github.com/makeross/CVE-2018-11235)
+- [makeross/CVE-2018-11235_pub](https://github.com/makeross/CVE-2018-11235_pub)
 
 ### CVE-2018-11236
 
@@ -14274,6 +14280,14 @@ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 all
 
 - [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
 
+### CVE-2006-3392
+
+<code>
+Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+</code>
+
+- [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
+
 ### CVE-2006-3592
 
 <code>
@@ -14312,6 +14326,7 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
+- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
