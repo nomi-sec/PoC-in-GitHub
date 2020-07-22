@@ -406,6 +406,7 @@ A remote code execution vulnerability exists in Windows Domain Name System serve
 - [CVEmaster/CVE-2020-1350](https://github.com/CVEmaster/CVE-2020-1350)
 - [Plazmaz/CVE-2020-1350-poc](https://github.com/Plazmaz/CVE-2020-1350-poc)
 - [Secuora-Org/CVE-2020-1350-checker.ps1](https://github.com/Secuora-Org/CVE-2020-1350-checker.ps1)
+- [gdwnet/cve-2020-1350](https://github.com/gdwnet/cve-2020-1350)
 
 ### CVE-2020-1362
 
@@ -754,6 +755,7 @@ SAP NetWeaver AS JAVA (LM Configuration Wizard), versions - 7.30, 7.31, 7.40, 7.
 
 - [chipik/SAP_RECON](https://github.com/chipik/SAP_RECON)
 - [duc-nt/CVE-2020-6287-exploit](https://github.com/duc-nt/CVE-2020-6287-exploit)
+- [Onapsis/CVE-2020-6287_RECON-scanner](https://github.com/Onapsis/CVE-2020-6287_RECON-scanner)
 
 ### CVE-2020-6418
 
@@ -953,6 +955,11 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 - [rhysemmas/martian-packets](https://github.com/rhysemmas/martian-packets)
 
 ### CVE-2020-8559
+
+<code>
+The Kubernetes kube-apiserver in versions v1.6-v1.15, and versions prior to v1.16.13, v1.17.9 and v1.18.7 are vulnerable to an unvalidated redirect on proxied upgrade requests that could allow an attacker to escalate privileges from a node compromise to a full cluster compromise.
+</code>
+
 - [tdwyer/CVE-2020-8559](https://github.com/tdwyer/CVE-2020-8559)
 
 ### CVE-2020-8597
@@ -2658,7 +2665,7 @@ Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.x
 An issue was discovered in OpenSSH 7.9. Due to the scp implementation being derived from 1983 rcp, the server chooses which files/directories are sent to the client. However, the scp client only performs cursory validation of the object name returned (only directory traversal attacks are prevented). A malicious scp server (or Man-in-The-Middle attacker) can overwrite arbitrary files in the scp client target directory. If recursive operation (-r) is performed, the server can manipulate subdirectories as well (for example, to overwrite the .ssh/authorized_keys file).
 </code>
 
-- [senthuHac/SNP](https://github.com/senthuHac/SNP)
+- [53n7hu/SNP](https://github.com/53n7hu/SNP)
 
 ### CVE-2019-6203
 
