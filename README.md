@@ -2376,7 +2376,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [black-mirror/Weblogic](https://github.com/black-mirror/Weblogic)
 - [pimps/CVE-2019-2725](https://github.com/pimps/CVE-2019-2725)
 - [ianxtianxt/CVE-2019-2725](https://github.com/ianxtianxt/CVE-2019-2725)
-- [GEIGEI123/CVE-2019-2725-POC](https://github.com/GEIGEI123/CVE-2019-2725-POC)
+- [N0b1e6/CVE-2019-2725-POC](https://github.com/N0b1e6/CVE-2019-2725-POC)
 - [GGyao/weblogic_2019_2725_wls_batch](https://github.com/GGyao/weblogic_2019_2725_wls_batch)
 
 ### CVE-2019-2729
@@ -5322,7 +5322,7 @@ From Apache Tika versions 1.7 to 1.17, clients could send carefully crafted head
 </code>
 
 - [SkyBlueEternal/CVE-2018-1335-EXP-GUI](https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI)
-- [GEIGEI123/CVE-2018-1335-Python3](https://github.com/GEIGEI123/CVE-2018-1335-Python3)
+- [N0b1e6/CVE-2018-1335-Python3](https://github.com/N0b1e6/CVE-2018-1335-Python3)
 
 ### CVE-2018-2019
 
@@ -10988,7 +10988,7 @@ GNU wget before 1.18 allows remote servers to write to arbitrary files by redire
 When processing authorization requests using the whitelabel views in Spring Security OAuth 2.0.0 to 2.0.9 and 1.0.0 to 1.0.5, the response_type parameter value was executed as Spring SpEL which enabled a malicious user to trigger remote code execution via the crafting of the value for response_type.
 </code>
 
-- [GEIGEI123/CVE-2016-4977-POC](https://github.com/GEIGEI123/CVE-2016-4977-POC)
+- [N0b1e6/CVE-2016-4977-POC](https://github.com/N0b1e6/CVE-2016-4977-POC)
 
 ### CVE-2016-5195
 
