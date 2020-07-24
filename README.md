@@ -572,6 +572,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 </code>
 
 - [XDev05/CVE-2020-3452-PoC](https://github.com/XDev05/CVE-2020-3452-PoC)
+- [Loneyers/cve-2020-3452](https://github.com/Loneyers/cve-2020-3452)
 
 ### CVE-2020-3766
 
