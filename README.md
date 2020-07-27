@@ -1665,6 +1665,30 @@ Similar to CVE-2020-1956, Kylin has one more restful API which concatenates the 
 
 - [bit4woo/CVE-2020-13925](https://github.com/bit4woo/CVE-2020-13925)
 
+### CVE-2020-14064
+
+<code>
+IceWarp Email Server 12.3.0.1 has Incorrect Access Control for user accounts.
+</code>
+
+- [networksecure/CVE-2020-14064](https://github.com/networksecure/CVE-2020-14064)
+
+### CVE-2020-14065
+
+<code>
+IceWarp Email Server 12.3.0.1 allows remote attackers to upload files and consume disk space.
+</code>
+
+- [networksecure/CVE-2020-14065](https://github.com/networksecure/CVE-2020-14065)
+
+### CVE-2020-14066
+
+<code>
+IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files that are dangerous for clients to access.
+</code>
+
+- [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
+
 ### CVE-2020-14199
 
 <code>
