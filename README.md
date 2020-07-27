@@ -1460,6 +1460,14 @@ It was discovered that the Subiquity installer for Ubuntu Server logged the LUKS
 - [ProjectorBUg/CVE-2020-11932](https://github.com/ProjectorBUg/CVE-2020-11932)
 - [Staubgeborener/CVE-2020-11932](https://github.com/Staubgeborener/CVE-2020-11932)
 
+### CVE-2020-11996
+
+<code>
+A specially crafted sequence of HTTP/2 requests sent to Apache Tomcat 10.0.0-M1 to 10.0.0-M5, 9.0.0.M1 to 9.0.35 and 8.5.0 to 8.5.55 could trigger high CPU usage for several seconds. If a sufficient number of such requests were made on concurrent HTTP/2 connections, the server could become unresponsive.
+</code>
+
+- [rusakovichma/tomcat-embed-core-9.0.31-CVE-2020-11996](https://github.com/rusakovichma/tomcat-embed-core-9.0.31-CVE-2020-11996)
+
 ### CVE-2020-12078
 
 <code>
@@ -3492,6 +3500,7 @@ In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7
 - [BishopFox/pwn-pulse](https://github.com/BishopFox/pwn-pulse)
 - [aqhmal/pulsexploit](https://github.com/aqhmal/pulsexploit)
 - [cisagov/check-your-pulse](https://github.com/cisagov/check-your-pulse)
+- [andripwn/pulse-exploit](https://github.com/andripwn/pulse-exploit)
 
 ### CVE-2019-11523
 
@@ -4999,6 +5008,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781)
 - [qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc)
 - [w4fz5uck5/CVE-2019-19781-CitrixRCE](https://github.com/w4fz5uck5/CVE-2019-19781-CitrixRCE)
+- [andripwn/CVE-2019-19781](https://github.com/andripwn/CVE-2019-19781)
 
 ### CVE-2019-19844
 
@@ -6894,6 +6904,14 @@ The Publish Service in FlexPaper (later renamed FlowPaper) 2.3.6 allows remote c
 </code>
 
 - [mpgn/CVE-2018-11686](https://github.com/mpgn/CVE-2018-11686)
+
+### CVE-2018-11714
+
+<code>
+An issue was discovered on TP-Link TL-WR840N v5 00000005 0.9.1 3.16 v0001.0 Build 170608 Rel.58696n and TL-WR841N v13 00000013 0.9.1 4.16 v0001.0 Build 170622 Rel.64334n devices. This issue is caused by improper session handling on the /cgi/ folder or a /cgi file. If an attacker sends a header of &quot;Referer: http://192.168.0.1/mainFrame.htm&quot; then no authentication is required for any action.
+</code>
+
+- [pol4bear/cve-2018-11714](https://github.com/pol4bear/cve-2018-11714)
 
 ### CVE-2018-11759
 
@@ -10724,6 +10742,7 @@ Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x bef
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
+- [danielhemmati/CVE-2016-2098-my-first-exploit](https://github.com/danielhemmati/CVE-2016-2098-my-first-exploit)
 
 ### CVE-2016-2107
 
