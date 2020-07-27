@@ -968,6 +968,11 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 - [truerandom/nmap_draytek_rce](https://github.com/truerandom/nmap_draytek_rce)
 
 ### CVE-2020-8558
+
+<code>
+The Kubelet and kube-proxy components in versions 1.1.0-1.16.10, 1.17.0-1.17.6, and 1.18.0-1.18.3 were found to contain a security issue which allows adjacent hosts to reach TCP and UDP services bound to 127.0.0.1 running on the node or in the node's network namespace. Such a service is generally thought to be reachable only by other processes on the same host, but due to this defeect, could be reachable by other hosts on the same LAN as the node, or by containers running on the same node as the service.
+</code>
+
 - [tabbysable/POC-2020-8558](https://github.com/tabbysable/POC-2020-8558)
 - [rhysemmas/martian-packets](https://github.com/rhysemmas/martian-packets)
 
@@ -13889,14 +13894,6 @@ Multiple integer overflows in the Fax3SetupState function in tif_fax3.c in the F
 </code>
 
 - [MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller)
-
-### CVE-2010-2075
-
-<code>
-UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
-</code>
-
-- [M4LV0/UnrealIRCd-3.2.8.1-RCE](https://github.com/M4LV0/UnrealIRCd-3.2.8.1-RCE)
 
 ### CVE-2010-3332
 
