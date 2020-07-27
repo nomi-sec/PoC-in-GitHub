@@ -341,7 +341,7 @@ An elevation of privilege vulnerability exists in Windows when the Windows kerne
 
 - [0xeb-bp/cve-2020-1054](https://github.com/0xeb-bp/cve-2020-1054)
 - [Iamgublin/CVE-2020-1054](https://github.com/Iamgublin/CVE-2020-1054)
-- [HuaiPiqi/CVE-2020-1054](https://github.com/HuaiPiqi/CVE-2020-1054)
+- [HongYe-Code/CVE-2020-1054](https://github.com/HongYe-Code/CVE-2020-1054)
 
 ### CVE-2020-1066
 
@@ -409,6 +409,7 @@ A remote code execution vulnerability exists in Windows Domain Name System serve
 - [Plazmaz/CVE-2020-1350-poc](https://github.com/Plazmaz/CVE-2020-1350-poc)
 - [Secuora-Org/CVE-2020-1350-checker.ps1](https://github.com/Secuora-Org/CVE-2020-1350-checker.ps1)
 - [gdwnet/cve-2020-1350](https://github.com/gdwnet/cve-2020-1350)
+- [simeononsecurity/CVE-2020-1350-Fix](https://github.com/simeononsecurity/CVE-2020-1350-Fix)
 
 ### CVE-2020-1362
 
@@ -4321,6 +4322,14 @@ HTTP request smuggling in Node.js 10, 12, and 13 causes malicious payload delive
 </code>
 
 - [jlcarruda/node-poc-http-smuggling](https://github.com/jlcarruda/node-poc-http-smuggling)
+
+### CVE-2019-15606
+
+<code>
+Including trailing white space in HTTP header values in Nodejs 10, 12, and 13 causes bypass of authorization based on header value comparisons
+</code>
+
+- [Babs84/POC-CVE-2019-15606](https://github.com/Babs84/POC-CVE-2019-15606)
 
 ### CVE-2019-15642
 
@@ -13958,6 +13967,9 @@ Liferay Portal through 6.2.10 allows remote authenticated users to execute arbit
 
 - [Michael-Main/CVE-2010-5327](https://github.com/Michael-Main/CVE-2010-5327)
 
+### CVE-2010-15606
+- [Babs84/CVE-2010-15606](https://github.com/Babs84/CVE-2010-15606)
+
 
 ## 2009
 ### CVE-2009-0229
@@ -14453,6 +14465,16 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 
 - [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
+- [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
+- [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
+
+### CVE-2003-0282
+
+<code>
+Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
+</code>
+
+- [lushann/cve-2003-0282](https://github.com/lushann/cve-2003-0282)
 
 
 ## 2002
