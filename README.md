@@ -568,6 +568,14 @@ A vulnerability in the installer component of Cisco AnyConnect Secure Mobility C
 - [raspberry-pie/CVE-2020-3153](https://github.com/raspberry-pie/CVE-2020-3153)
 - [goichot/CVE-2020-3153](https://github.com/goichot/CVE-2020-3153)
 
+### CVE-2020-3187
+
+<code>
+A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and obtain read and delete access to sensitive files on a targeted system. The vulnerability is due to a lack of proper input validation of the HTTP URL. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences. An exploit could allow the attacker to view or delete arbitrary files on the targeted system. When the device is reloaded after exploitation of this vulnerability, any files that were deleted are restored. The attacker can only view and delete files within the web services file system. This file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability can not be used to obtain access to ASA or FTD system files or underlying operating system (OS) files. Reloading the affected device will restore all files within the web services file system.
+</code>
+
+- [pry0cc/CVE-2020-3187](https://github.com/pry0cc/CVE-2020-3187)
+
 ### CVE-2020-3452
 
 <code>
@@ -1228,6 +1236,9 @@ The issue was addressed by clearing website permission prompts after navigation.
 </code>
 
 - [c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781](https://github.com/c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781)
+
+### CVE-2020-9934
+- [mattshockl/CVE-2020-9934](https://github.com/mattshockl/CVE-2020-9934)
 
 ### CVE-2020-10135
 
@@ -4739,7 +4750,6 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [saleemrashid/sudo-cve-2019-18634](https://github.com/saleemrashid/sudo-cve-2019-18634)
 - [N1et/CVE-2019-18634](https://github.com/N1et/CVE-2019-18634)
 - [jeandelboux/CVE-2019-18634](https://github.com/jeandelboux/CVE-2019-18634)
-- [halitAKAYDIN/sudo-cve-2019-18634](https://github.com/halitAKAYDIN/sudo-cve-2019-18634)
 
 ### CVE-2019-18683
 
@@ -13894,6 +13904,14 @@ Multiple integer overflows in the Fax3SetupState function in tif_fax3.c in the F
 </code>
 
 - [MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller)
+
+### CVE-2010-2075
+
+<code>
+UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
+</code>
+
+- [M4LV0/UnrealIRCd-3.2.8.1-RCE](https://github.com/M4LV0/UnrealIRCd-3.2.8.1-RCE)
 
 ### CVE-2010-3332
 
