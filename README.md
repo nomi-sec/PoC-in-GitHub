@@ -2041,7 +2041,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [cbwang505/CVE-2019-0708-EXP-Windows](https://github.com/cbwang505/CVE-2019-0708-EXP-Windows)
 - [eastmountyxz/CVE-2019-0708-Windows](https://github.com/eastmountyxz/CVE-2019-0708-Windows)
 - [JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708)
-- [wanghuohuobutailao/cve-2019-0708](https://github.com/wanghuohuobutailao/cve-2019-0708)
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 
 ### CVE-2019-0709
@@ -6932,14 +6931,6 @@ The Publish Service in FlexPaper (later renamed FlowPaper) 2.3.6 allows remote c
 </code>
 
 - [mpgn/CVE-2018-11686](https://github.com/mpgn/CVE-2018-11686)
-
-### CVE-2018-11714
-
-<code>
-An issue was discovered on TP-Link TL-WR840N v5 00000005 0.9.1 3.16 v0001.0 Build 170608 Rel.58696n and TL-WR841N v13 00000013 0.9.1 4.16 v0001.0 Build 170622 Rel.64334n devices. This issue is caused by improper session handling on the /cgi/ folder or a /cgi file. If an attacker sends a header of &quot;Referer: http://192.168.0.1/mainFrame.htm&quot; then no authentication is required for any action.
-</code>
-
-- [pol4bear/cve-2018-11714](https://github.com/pol4bear/cve-2018-11714)
 
 ### CVE-2018-11759
 
