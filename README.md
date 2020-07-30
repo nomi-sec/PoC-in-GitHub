@@ -1018,7 +1018,6 @@ eap.c in pppd in ppp 2.4.2 through 2.4.8 has an rhostname buffer overflow in the
 </code>
 
 - [marcinguy/CVE-2020-8597](https://github.com/marcinguy/CVE-2020-8597)
-- [mentalburden/MrsEAPers](https://github.com/mentalburden/MrsEAPers)
 - [WinMin/CVE-2020-8597](https://github.com/WinMin/CVE-2020-8597)
 - [Dilan-Diaz/Point-to-Point-Protocol-Daemon-RCE-Vulnerability-CVE-2020-8597-](https://github.com/Dilan-Diaz/Point-to-Point-Protocol-Daemon-RCE-Vulnerability-CVE-2020-8597-)
 
@@ -5064,6 +5063,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc)
 - [w4fz5uck5/CVE-2019-19781-CitrixRCE](https://github.com/w4fz5uck5/CVE-2019-19781-CitrixRCE)
 - [andripwn/CVE-2019-19781](https://github.com/andripwn/CVE-2019-19781)
+- [VladRico/CVE-2019-19781](https://github.com/VladRico/CVE-2019-19781)
 
 ### CVE-2019-19844
 
