@@ -1362,6 +1362,11 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 - [Al1ex/CVE-2020-10673](https://github.com/Al1ex/CVE-2020-10673)
 
 ### CVE-2020-10713
+
+<code>
+A flaw was found in grub2, prior to version 2.06. An attacker may use the GRUB 2 flaw to hijack and tamper the GRUB verification process. This flaw also allows the bypass of Secure Boot protections. In order to load an untrusted or modified kernel, an attacker would first need to establish access to the system such as gaining physical access, obtain the ability to alter a pxe-boot network, or have remote access to a networked system with root access. With this access, an attacker could then craft a string to cause a buffer overflow by injecting a malicious payload that leads to arbitrary code execution within GRUB. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
+</code>
+
 - [eclypsium/BootHole](https://github.com/eclypsium/BootHole)
 
 ### CVE-2020-10749
@@ -1846,6 +1851,9 @@ scp in OpenSSH through 8.3p1 allows command injection in scp.c remote function, 
 </code>
 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
+
+### CVE-2020-15906
+- [S1lkys/CVE-2020-15906](https://github.com/S1lkys/CVE-2020-15906)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
