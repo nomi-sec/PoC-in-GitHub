@@ -10898,6 +10898,7 @@ The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remot
 </code>
 
 - [VVzv/CVE-2016-3088](https://github.com/VVzv/CVE-2016-3088)
+- [gsheller/ActiveMQ_putshell-CVE-2016-3088-](https://github.com/gsheller/ActiveMQ_putshell-CVE-2016-3088-)
 
 ### CVE-2016-3113
 
