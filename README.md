@@ -6408,6 +6408,7 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [piotrflorczyk/cve-2018-8174_analysis](https://github.com/piotrflorczyk/cve-2018-8174_analysis)
 - [denmilu/CVE-2018-8174-msf](https://github.com/denmilu/CVE-2018-8174-msf)
 - [ruthlezs/ie11_vbscript_exploit](https://github.com/ruthlezs/ie11_vbscript_exploit)
+- [ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP)
 
 ### CVE-2018-8208
 
