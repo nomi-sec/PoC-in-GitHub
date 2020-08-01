@@ -1637,6 +1637,9 @@ OpenTrace, as used in COVIDSafe through v1.0.17, TraceTogether, ABTraceTogether,
 
 - [alwentiu/COVIDSafe-CVE-2020-12856](https://github.com/alwentiu/COVIDSafe-CVE-2020-12856)
 
+### CVE-2020-13151
+- [b4ny4n/CVE-2020-13151](https://github.com/b4ny4n/CVE-2020-13151)
+
 ### CVE-2020-13158
 
 <code>
