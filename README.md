@@ -604,6 +604,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [mr-r3b00t/CVE-2020-3452](https://github.com/mr-r3b00t/CVE-2020-3452)
 - [foulenzer/cve-2020-3452](https://github.com/foulenzer/cve-2020-3452)
 - [Gh0st0ne/http-vuln-cve2020-3452.nse](https://github.com/Gh0st0ne/http-vuln-cve2020-3452.nse)
+- [tacticalDevC/CVE-2020-3452](https://github.com/tacticalDevC/CVE-2020-3452)
 
 ### CVE-2020-3766
 
@@ -1208,7 +1209,6 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 
 - [threedr3am/tomcat-cluster-session-sync-exp](https://github.com/threedr3am/tomcat-cluster-session-sync-exp)
 - [masahiro331/CVE-2020-9484](https://github.com/masahiro331/CVE-2020-9484)
-- [FiveAourThe/CVE-2020-9484](https://github.com/FiveAourThe/CVE-2020-9484)
 - [IdealDreamLast/CVE-2020-9484](https://github.com/IdealDreamLast/CVE-2020-9484)
 - [qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484)
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
@@ -9325,6 +9325,7 @@ Malicious PATCH requests submitted to servers using Spring Data REST versions pr
 - [bkhablenko/CVE-2017-8046](https://github.com/bkhablenko/CVE-2017-8046)
 - [cved-sources/cve-2017-8046](https://github.com/cved-sources/cve-2017-8046)
 - [jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest)
+- [guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046)
 
 ### CVE-2017-8295
 
@@ -14557,6 +14558,15 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
+- [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
+
+### CVE-2003-0282
+
+<code>
+Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
+</code>
+
+- [lushann/cve-2003-0282](https://github.com/lushann/cve-2003-0282)
 
 
 ## 2002
@@ -14700,6 +14710,14 @@ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local 
 
 
 ## 2000
+### CVE-2000-0170
+
+<code>
+Buffer overflow in the man program in Linux allows local users to gain privileges via the MANPAGER environmental variable.
+</code>
+
+- [mike182/exploit](https://github.com/mike182/exploit)
+
 ### CVE-2000-0979
 
 <code>
