@@ -12114,6 +12114,7 @@ Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be seri
 </code>
 
 - [jas502n/CVE-2015-5254](https://github.com/jas502n/CVE-2015-5254)
+- [gsheller/ActiveMQ_CVE-2015-5254](https://github.com/gsheller/ActiveMQ_CVE-2015-5254)
 
 ### CVE-2015-5290
 
