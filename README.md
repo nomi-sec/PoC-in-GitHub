@@ -605,6 +605,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [foulenzer/CVE-2020-3452](https://github.com/foulenzer/CVE-2020-3452)
 - [Gh0st0ne/http-vuln-cve2020-3452.nse](https://github.com/Gh0st0ne/http-vuln-cve2020-3452.nse)
 - [tacticalDevC/CVE-2020-3452](https://github.com/tacticalDevC/CVE-2020-3452)
+- [paran0id34/CVE-2020-3452](https://github.com/paran0id34/CVE-2020-3452)
 
 ### CVE-2020-3766
 
@@ -2648,6 +2649,14 @@ The Crestron AM-100 firmware 1.6.0.2, Crestron AM-101 firmware 2.7.0.1, Barco we
 </code>
 
 - [xfox64x/CVE-2019-3929](https://github.com/xfox64x/CVE-2019-3929)
+
+### CVE-2019-3980
+
+<code>
+The Solarwinds Dameware Mini Remote Client agent v12.1.0.89 supports smart card authentication which can allow a user to upload an executable to be executed on the DWRCS.exe host. An unauthenticated, remote attacker can request smart card login and upload and execute an arbitrary executable run under the Local System account.
+</code>
+
+- [warferik/CVE-2019-3980](https://github.com/warferik/CVE-2019-3980)
 
 ### CVE-2019-5010
 
