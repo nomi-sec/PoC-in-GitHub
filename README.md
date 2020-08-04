@@ -330,6 +330,7 @@ An elevation of privilege vulnerability exists in the way that the User-Mode Pow
 An elevation of privilege vulnerability exists when the Windows Print Spooler service improperly allows arbitrary writing to the file system, aka 'Windows Print Spooler Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-1070.
 </code>
 
+- [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
 - [shubham0d/CVE-2020-1048](https://github.com/shubham0d/CVE-2020-1048)
 
 ### CVE-2020-1054
@@ -8689,6 +8690,8 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
+- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
 - [Rootkitsmm/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
@@ -8812,6 +8815,7 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Serve
 In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
 </code>
 
+- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
 - [ymmah/OpenSSL-CVE-2017-3730](https://github.com/ymmah/OpenSSL-CVE-2017-3730)
 
 ### CVE-2017-3881
@@ -14105,6 +14109,14 @@ Liferay Portal through 6.2.10 allows remote authenticated users to execute arbit
 
 
 ## 2009
+### CVE-2009-0229
+
+<code>
+The Windows Printing Service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 SP2 allows local users to read arbitrary files via a crafted separator page, aka &quot;Print Spooler Read File Vulnerability.&quot;
+</code>
+
+- [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
+
 ### CVE-2009-0473
 
 <code>
@@ -14113,6 +14125,14 @@ Open redirect vulnerability in the web interface in the Rockwell Automation Cont
 
 - [akbarq/CVE-2009-0473](https://github.com/akbarq/CVE-2009-0473)
 
+### CVE-2009-0689
+
+<code>
+Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
+</code>
+
+- [Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax)
+
 ### CVE-2009-1151
 
 <code>
@@ -14120,6 +14140,14 @@ Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.1
 </code>
 
 - [minervais/pocs](https://github.com/minervais/pocs)
+
+### CVE-2009-1244
+
+<code>
+Unspecified vulnerability in the virtual machine display function in VMware Workstation 6.5.1 and earlier; VMware Player 2.5.1 and earlier; VMware ACE 2.5.1 and earlier; VMware Server 1.x before 1.0.9 build 156507 and 2.x before 2.0.1 build 156745; VMware Fusion before 2.0.4 build 159196; VMware ESXi 3.5; and VMware ESX 3.0.2, 3.0.3, and 3.5 allows guest OS users to execute arbitrary code on the host OS via unknown vectors, a different vulnerability than CVE-2008-4916.
+</code>
+
+- [piotrbania/vmware_exploit_pack_CVE-2009-1244](https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244)
 
 ### CVE-2009-1324
 
@@ -14135,7 +14163,17 @@ Stack-based buffer overflow in Mini-stream ASX to MP3 Converter 3.0.0.7 allows r
 Stack-based buffer overflow in Easy RM to MP3 Converter allows remote attackers to execute arbitrary code via a long filename in a playlist (.pls) file.
 </code>
 
+- [adenkiewicz/CVE-2009-1330](https://github.com/adenkiewicz/CVE-2009-1330)
+- [war4uthor/CVE-2009-1330](https://github.com/war4uthor/CVE-2009-1330)
 - [exploitwritter/CVE-2009-1330_EasyRMToMp3Converter](https://github.com/exploitwritter/CVE-2009-1330_EasyRMToMp3Converter)
+
+### CVE-2009-1437
+
+<code>
+Stack-based buffer overflow in PortableApps CoolPlayer Portable (aka CoolPlayer+ Portable) 2.19.6 and earlier allows remote attackers to execute arbitrary code via a long string in a malformed playlist (.m3u) file. NOTE: this may overlap CVE-2008-3408.
+</code>
+
+- [HanseSecure/CVE-2009-1437](https://github.com/HanseSecure/CVE-2009-1437)
 
 ### CVE-2009-1904
 
@@ -14152,6 +14190,14 @@ The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not in
 </code>
 
 - [jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692)
+
+### CVE-2009-2698
+
+<code>
+The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
+</code>
+
+- [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
 
 ### CVE-2009-3103
 
@@ -14177,6 +14223,14 @@ The StartServiceCtrlDispatcher function in the cvpnd service (cvpnd.exe) in Cisc
 
 - [alt3kx/CVE-2009-4118](https://github.com/alt3kx/CVE-2009-4118)
 
+### CVE-2009-4137
+
+<code>
+The loadContentFromCookie function in core/Cookie.php in Piwik before 0.5 does not validate strings obtained from cookies before calling the unserialize function, which allows remote attackers to execute arbitrary code or upload arbitrary files via vectors related to the __destruct function in the Piwik_Config class; php://filter URIs; the __destruct functions in Zend Framework, as demonstrated by the Zend_Log destructor; the shutdown functions in Zend Framework, as demonstrated by the Zend_Log_Writer_Mail class; the render function in the Piwik_View class; Smarty templates; and the _eval function in Smarty.
+</code>
+
+- [Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137)
+
 ### CVE-2009-4660
 
 <code>
@@ -14192,6 +14246,7 @@ DL::dlopen in Ruby 1.8, 1.9.0, 1.9.2, 1.9.3, 2.0.0 before patchlevel 648, and 2.
 </code>
 
 - [vpereira/CVE-2009-5147](https://github.com/vpereira/CVE-2009-5147)
+- [zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-](https://github.com/zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-)
 
 
 ## 2008
@@ -14466,6 +14521,14 @@ Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded app
 </code>
 
 - [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
+
+### CVE-2005-2428
+
+<code>
+Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
+</code>
+
+- [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
 
 
 ## 2004
