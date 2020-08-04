@@ -10,14 +10,6 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 - [marcinguy/CVE-2020-0022](https://github.com/marcinguy/CVE-2020-0022)
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 
-### CVE-2020-0041
-
-<code>
-In binder_transaction of binder.c, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-145988638References: Upstream kernel
-</code>
-
-- [bluefrostsecurity/CVE-2020-0041](https://github.com/bluefrostsecurity/CVE-2020-0041)
-
 ### CVE-2020-0069
 
 <code>
@@ -88,7 +80,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
-- [Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell)
 - [MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601)
 - [YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601)
 - [thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl)
@@ -184,7 +175,6 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [justin-p/PSForgot2kEyXCHANGE](https://github.com/justin-p/PSForgot2kEyXCHANGE)
 - [cert-lv/CVE-2020-0688](https://github.com/cert-lv/CVE-2020-0688)
 - [ravinacademy/CVE-2020-0688](https://github.com/ravinacademy/CVE-2020-0688)
-- [mahyarx/Exploit_CVE-2020-0688](https://github.com/mahyarx/Exploit_CVE-2020-0688)
 - [ktpdpro/CVE-2020-0688](https://github.com/ktpdpro/CVE-2020-0688)
 - [w4fz5uck5/cve-2020-0688-webshell-upload-technique](https://github.com/w4fz5uck5/cve-2020-0688-webshell-upload-technique)
 
@@ -259,23 +249,18 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [GuoKerS/aioScan_CVE-2020-0796](https://github.com/GuoKerS/aioScan_CVE-2020-0796)
 - [jiansiting/CVE-2020-0796-Scanner](https://github.com/jiansiting/CVE-2020-0796-Scanner)
 - [maxpl0it/Unauthenticated-CVE-2020-0796-PoC](https://github.com/maxpl0it/Unauthenticated-CVE-2020-0796-PoC)
-- [ran-sama/CVE-2020-0796](https://github.com/ran-sama/CVE-2020-0796)
 - [sujitawake/smbghost](https://github.com/sujitawake/smbghost)
 - [julixsalas/CVE-2020-0796](https://github.com/julixsalas/CVE-2020-0796)
 - [insightglacier/SMBGhost_Crash_Poc](https://github.com/insightglacier/SMBGhost_Crash_Poc)
 - [5l1v3r1/CVE-2020-0796-PoC-and-Scan](https://github.com/5l1v3r1/CVE-2020-0796-PoC-and-Scan)
 - [cory-zajicek/CVE-2020-0796-DoS](https://github.com/cory-zajicek/CVE-2020-0796-DoS)
 - [tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln)
-- [danigargu/CVE-2020-0796](https://github.com/danigargu/CVE-2020-0796)
 - [ZecOps/CVE-2020-0796-LPE-POC](https://github.com/ZecOps/CVE-2020-0796-LPE-POC)
 - [TinToSer/CVE-2020-0796-LPE](https://github.com/TinToSer/CVE-2020-0796-LPE)
 - [f1tz/CVE-2020-0796-LPE-EXP](https://github.com/f1tz/CVE-2020-0796-LPE-EXP)
 - [tango-j/CVE-2020-0796](https://github.com/tango-j/CVE-2020-0796)
 - [jiansiting/CVE-2020-0796](https://github.com/jiansiting/CVE-2020-0796)
-- [eastmountyxz/CVE-2020-0796-SMB](https://github.com/eastmountyxz/CVE-2020-0796-SMB)
 - [LabDookhtegan/CVE-2020-0796-EXP](https://github.com/LabDookhtegan/CVE-2020-0796-EXP)
-- [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
-- [0xeb-bp/cve-2020-0796](https://github.com/0xeb-bp/cve-2020-0796)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
 - [ZecOps/CVE-2020-0796-RCE-POC](https://github.com/ZecOps/CVE-2020-0796-RCE-POC)
 - [thelostworldFree/CVE-2020-0796](https://github.com/thelostworldFree/CVE-2020-0796)
@@ -502,14 +487,6 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 - [askDing/cve-2020-1948-poc](https://github.com/askDing/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
-### CVE-2020-1958
-
-<code>
-When LDAP authentication is enabled in Apache Druid 0.17.0, callers of Druid APIs with a valid set of LDAP credentials can bypass the credentialsValidator.userSearch filter barrier that determines if a valid LDAP user is allowed to authenticate with Druid. They are still subject to role-based authorization checks, if configured. Callers of Druid APIs can also retrieve any LDAP attribute values of users that exist on the LDAP server, so long as that information is visible to the Druid server. This information disclosure does not require the caller itself to be a valid LDAP user.
-</code>
-
-- [ggolawski/CVE-2020-1958](https://github.com/ggolawski/CVE-2020-1958)
-
 ### CVE-2020-1967
 
 <code>
@@ -539,8 +516,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [0nise/CVE-2020-2551](https://github.com/0nise/CVE-2020-2551)
-- [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
-- [cnsimo/CVE-2020-2551](https://github.com/cnsimo/CVE-2020-2551)
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
 
@@ -913,7 +888,6 @@ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows
 </code>
 
 - [mzer0one/CVE-2020-7961-POC](https://github.com/mzer0one/CVE-2020-7961-POC)
-- [TheSysOwner/CVE-2020-7961-payloads](https://github.com/TheSysOwner/CVE-2020-7961-payloads)
 - [wcxxxxx/CVE-2020-7961](https://github.com/wcxxxxx/CVE-2020-7961)
 
 ### CVE-2020-7980
@@ -993,7 +967,6 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 </code>
 
 - [imjdl/CVE-2020-8515-PoC](https://github.com/imjdl/CVE-2020-8515-PoC)
-- [truerandom/nmap_draytek_rce](https://github.com/truerandom/nmap_draytek_rce)
 
 ### CVE-2020-8558
 
@@ -1056,6 +1029,7 @@ Pi-hole Web v4.3.2 (aka AdminLTE) allows Remote Code Execution by privileged das
 
 - [AndreyRainchik/CVE-2020-8816](https://github.com/AndreyRainchik/CVE-2020-8816)
 - [MartinSohn/CVE-2020-8816](https://github.com/MartinSohn/CVE-2020-8816)
+- [cybervaca/CVE-2020-8816](https://github.com/cybervaca/CVE-2020-8816)
 
 ### CVE-2020-8825
 
@@ -1280,9 +1254,6 @@ Legacy pairing and secure-connections pairing authentication in Bluetooth® BR/E
 Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
 </code>
 
-- [wsfengfan/CVE-2020-10199-10204](https://github.com/wsfengfan/CVE-2020-10199-10204)
-- [jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199)
-- [magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204)
 - [zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP)
 - [aleenzz/CVE-2020-10199](https://github.com/aleenzz/CVE-2020-10199)
 
@@ -1294,38 +1265,6 @@ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
 
 - [duolaoa333/CVE-2020-10204](https://github.com/duolaoa333/CVE-2020-10204)
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
-
-### CVE-2020-10238
-
-<code>
-An issue was discovered in Joomla! before 3.9.16. Various actions in com_templates lack the required ACL checks, leading to various potential attack vectors.
-</code>
-
-- [HoangKien1020/CVE-2020-10238](https://github.com/HoangKien1020/CVE-2020-10238)
-
-### CVE-2020-10239
-
-<code>
-An issue was discovered in Joomla! before 3.9.16. Incorrect Access Control in the SQL fieldtype of com_fields allows access for non-superadmin users.
-</code>
-
-- [HoangKien1020/CVE-2020-10239](https://github.com/HoangKien1020/CVE-2020-10239)
-
-### CVE-2020-10551
-
-<code>
-QQBrowser before 10.5.3870.400 installs a Windows service TsService.exe. This file is writable by anyone belonging to the NT AUTHORITY\Authenticated Users group, which includes all local and remote users. This can be abused by local attackers to escalate privileges to NT AUTHORITY\SYSTEM by writing a malicious executable to the location of TsService.
-</code>
-
-- [seqred-s-a/CVE-2020-10551](https://github.com/seqred-s-a/CVE-2020-10551)
-
-### CVE-2020-10558
-
-<code>
-The driving interface of Tesla Model 3 vehicles in any release before 2020.4.10 allows Denial of Service to occur due to improper process separation, which allows attackers to disable the speedometer, web browser, climate controls, turn signal visual and sounds, navigation, autopilot notifications, along with other miscellaneous functions from the main screen.
-</code>
-
-- [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
 
 ### CVE-2020-10560
 
@@ -1395,7 +1334,6 @@ An issue was discovered in XAMPP before 7.2.29, 7.3.x before 7.3.16 , and 7.4.x 
 </code>
 
 - [S1lkys/CVE-2020-11107](https://github.com/S1lkys/CVE-2020-11107)
-- [andripwn/CVE-2020-11107](https://github.com/andripwn/CVE-2020-11107)
 
 ### CVE-2020-11108
 
@@ -1881,6 +1819,9 @@ scp in OpenSSH through 8.3p1 allows command injection in scp.c remote function, 
 </code>
 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
+
+### CVE-2020-15956
+- [megamagnus/cve-2020-15956](https://github.com/megamagnus/cve-2020-15956)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
