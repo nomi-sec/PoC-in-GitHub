@@ -1589,6 +1589,11 @@ Dolibarr before 11.0.4 allows XSS.
 - [mkelepce/CVE-2020-13094](https://github.com/mkelepce/CVE-2020-13094)
 
 ### CVE-2020-13151
+
+<code>
+Aerospike Community Edition 4.9.0.5 allows for unauthenticated submission and execution of user-defined functions (UDFs), written in Lua, as part of a database query. It attempts to restrict code execution by disabling os.execute() calls, but this is insufficient. Anyone with network access can use a crafted UDF to execute arbitrary OS commands on all nodes of the cluster at the permission level of the user running the Aerospike service.
+</code>
+
 - [b4ny4n/CVE-2020-13151](https://github.com/b4ny4n/CVE-2020-13151)
 
 ### CVE-2020-13158
