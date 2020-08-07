@@ -3105,6 +3105,9 @@ An out-of-bounds read was addressed with improved input validation.
 
 - [ire33164/CVE-2019-8641-reproduction](https://github.com/ire33164/CVE-2019-8641-reproduction)
 
+### CVE-2019-8656
+- [D00MFist/CVE-2019-8656](https://github.com/D00MFist/CVE-2019-8656)
+
 ### CVE-2019-8781
 
 <code>
