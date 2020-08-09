@@ -247,7 +247,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [marcinguy/CVE-2020-0796](https://github.com/marcinguy/CVE-2020-0796)
 - [plorinquer/cve-2020-0796](https://github.com/plorinquer/cve-2020-0796)
 - [BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796](https://github.com/BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796)
-- [x1n5h3n/SMBGhost_Scanner](https://github.com/x1n5h3n/SMBGhost_Scanner)
+- [w1ld3r/SMBGhost_Scanner](https://github.com/w1ld3r/SMBGhost_Scanner)
 - [wsfengfan/CVE-2020-0796](https://github.com/wsfengfan/CVE-2020-0796)
 - [GuoKerS/aioScan_CVE-2020-0796](https://github.com/GuoKerS/aioScan_CVE-2020-0796)
 - [jiansiting/CVE-2020-0796-Scanner](https://github.com/jiansiting/CVE-2020-0796-Scanner)
@@ -777,6 +777,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [rockmelodies/CVE-2020-5902-rce-gui](https://github.com/rockmelodies/CVE-2020-5902-rce-gui)
 - [f5devcentral/cve-2020-5902-ioc-bigip-checker](https://github.com/f5devcentral/cve-2020-5902-ioc-bigip-checker)
 - [corelight/CVE-2020-5902-F5BigIP](https://github.com/corelight/CVE-2020-5902-F5BigIP)
+- [Technowlogy-Pushpender/CVE-2020-5902-Scanner](https://github.com/Technowlogy-Pushpender/CVE-2020-5902-Scanner)
 
 ### CVE-2020-6287
 
@@ -13214,14 +13215,6 @@ Directory traversal vulnerability in MDM.php in Novell ZENworks Mobile Managemen
 
 - [steponequit/CVE-2013-1081](https://github.com/steponequit/CVE-2013-1081)
 
-### CVE-2013-1300
-
-<code>
-win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows Server 2012, and Windows RT does not properly handle objects in memory, which allows local users to gain privileges via a crafted application, aka &quot;Win32k Memory Allocation Vulnerability.&quot;
-</code>
-
-- [Meatballs1/cve-2013-1300](https://github.com/Meatballs1/cve-2013-1300)
-
 ### CVE-2013-1488
 
 <code>
@@ -13237,14 +13230,6 @@ The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and e
 </code>
 
 - [guhe120/CVE20131491-JIT](https://github.com/guhe120/CVE20131491-JIT)
-
-### CVE-2013-1690
-
-<code>
-Mozilla Firefox before 22.0, Firefox ESR 17.x before 17.0.7, Thunderbird before 17.0.7, and Thunderbird ESR 17.x before 17.0.7 do not properly handle onreadystatechange events in conjunction with page reloading, which allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted web site that triggers an attempt to execute data at an unmapped memory location.
-</code>
-
-- [vlad902/annotated-fbi-tbb-exploit](https://github.com/vlad902/annotated-fbi-tbb-exploit)
 
 ### CVE-2013-1775
 
@@ -13272,14 +13257,6 @@ The ngx_http_parse_chunked function in http/ngx_http_parse.c in nginx 1.3.9 thro
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
 - [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
-
-### CVE-2013-2072
-
-<code>
-Buffer overflow in the Python bindings for the xc_vcpu_setaffinity call in Xen 4.0.x, 4.1.x, and 4.2.x allows local administrators with permissions to configure VCPU affinity to cause a denial of service (memory corruption and xend toolstack crash) and possibly gain privileges via a crafted cpumap.
-</code>
-
-- [bl4ck5un/cve-2013-2072](https://github.com/bl4ck5un/cve-2013-2072)
 
 ### CVE-2013-2094
 
@@ -13328,14 +13305,6 @@ Integer overflow in the fb_mmap function in drivers/video/fbmem.c in the Linux k
 
 - [hiikezoe/libfb_mem_exploit](https://github.com/hiikezoe/libfb_mem_exploit)
 
-### CVE-2013-2597
-
-<code>
-Stack-based buffer overflow in the acdb_ioctl function in audio_acdb.c in the acdb audio driver for the Linux kernel 2.6.x and 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to gain privileges via an application that leverages /dev/msm_acdb access and provides a large size value in an ioctl argument.
-</code>
-
-- [fi01/libmsm_acdb_exploit](https://github.com/fi01/libmsm_acdb_exploit)
-
 ### CVE-2013-2729
 
 <code>
@@ -13343,14 +13312,6 @@ Integer overflow in Adobe Reader and Acrobat 9.x before 9.5.5, 10.x before 10.1.
 </code>
 
 - [feliam/CVE-2013-2729](https://github.com/feliam/CVE-2013-2729)
-
-### CVE-2013-2730
-
-<code>
-Buffer overflow in Adobe Reader and Acrobat 9.x before 9.5.5, 10.x before 10.1.7, and 11.x before 11.0.03 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2013-2733.
-</code>
-
-- [feliam/CVE-2013-2730](https://github.com/feliam/CVE-2013-2730)
 
 ### CVE-2013-2842
 
@@ -13417,14 +13378,6 @@ MySecureShell 1.31 has a Local Denial of Service Vulnerability
 
 - [hartwork/mysecureshell-issues](https://github.com/hartwork/mysecureshell-issues)
 
-### CVE-2013-4348
-
-<code>
-The skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel through 3.12 allows remote attackers to cause a denial of service (infinite loop) via a small value in the IHL field of a packet with IPIP encapsulation.
-</code>
-
-- [bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348)
-
 ### CVE-2013-4378
 
 <code>
@@ -13457,22 +13410,12 @@ The HP Integrated Lights-Out (iLO) BMC implementation allows remote attackers to
 
 - [alexoslabs/ipmitest](https://github.com/alexoslabs/ipmitest)
 
-### CVE-2013-5065
-
-<code>
-NDProxy.sys in the kernel in Microsoft Windows XP SP2 and SP3 and Server 2003 SP2 allows local users to gain privileges via a crafted application, as exploited in the wild in November 2013.
-</code>
-
-- [Friarfukd/RobbinHood](https://github.com/Friarfukd/RobbinHood)
-
 ### CVE-2013-5211
 
 <code>
 The monlist feature in ntp_request.c in ntpd in NTP before 4.2.7p26 allows remote attackers to cause a denial of service (traffic amplification) via forged (1) REQ_MON_GETLIST or (2) REQ_MON_GETLIST_1 requests, as exploited in the wild in December 2013.
 </code>
 
-- [dani87/ntpscanner](https://github.com/dani87/ntpscanner)
-- [suedadam/ntpscanner](https://github.com/suedadam/ntpscanner)
 - [sepehrdaddev/ntpdos](https://github.com/sepehrdaddev/ntpdos)
 
 ### CVE-2013-5664
@@ -13513,26 +13456,7 @@ Dahua DVR 2.608.0000.0 and 2.608.GV00.0 allows remote attackers to bypass authen
 The (1) get_user and (2) put_user API functions in the Linux kernel before 3.5.5 on the v6k and v7 ARM platforms do not validate certain addresses, which allows attackers to read or modify the contents of arbitrary kernel memory locations via a crafted application, as exploited in the wild against Android devices in October and November 2013.
 </code>
 
-- [fi01/libput_user_exploit](https://github.com/fi01/libput_user_exploit)
-- [fi01/libget_user_exploit](https://github.com/fi01/libget_user_exploit)
-- [jeboo/bypasslkm](https://github.com/jeboo/bypasslkm)
 - [timwr/CVE-2013-6282](https://github.com/timwr/CVE-2013-6282)
-
-### CVE-2013-6375
-
-<code>
-Xen 4.2.x and 4.3.x, when using Intel VT-d for PCI passthrough, does not properly flush the TLB after clearing a present translation table entry, which allows local guest administrators to cause a denial of service or gain privileges via unspecified vectors related to an &quot;inverted boolean parameter.&quot;
-</code>
-
-- [bl4ck5un/cve-2013-6375](https://github.com/bl4ck5un/cve-2013-6375)
-
-### CVE-2013-6668
-
-<code>
-Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in Google Chrome before 33.0.1750.146, allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
-</code>
-
-- [sdneon/CveTest](https://github.com/sdneon/CveTest)
 
 
 ## 2012
@@ -14193,6 +14117,14 @@ The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not in
 
 - [jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692)
 
+### CVE-2009-2698
+
+<code>
+The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
+</code>
+
+- [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
+
 ### CVE-2009-3103
 
 <code>
@@ -14258,7 +14190,7 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
 </code>
 
-- [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
+- [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
 
 ### CVE-2008-2938
 
