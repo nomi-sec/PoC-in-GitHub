@@ -1277,6 +1277,7 @@ Legacy pairing and secure-connections pairing authentication in Bluetooth® BR/E
 Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
 </code>
 
+- [jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199)
 - [zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP)
 - [aleenzz/CVE-2020-10199](https://github.com/aleenzz/CVE-2020-10199)
 
@@ -2536,6 +2537,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [SukaraLin/CVE-2019-2890](https://github.com/SukaraLin/CVE-2019-2890)
 - [jas502n/CVE-2019-2890](https://github.com/jas502n/CVE-2019-2890)
 - [ianxtianxt/CVE-2019-2890](https://github.com/ianxtianxt/CVE-2019-2890)
+- [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
 
 ### CVE-2019-3010
 
@@ -10642,6 +10644,7 @@ Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusi
 </code>
 
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
 
 ### CVE-2016-0701
 
@@ -11042,6 +11045,7 @@ Magento CE and EE before 2.0.6 allows remote attackers to conduct PHP objection 
 </code>
 
 - [brianwrf/Magento-CVE-2016-4010](https://github.com/brianwrf/Magento-CVE-2016-4010)
+- [shadofren/CVE-2016-4010](https://github.com/shadofren/CVE-2016-4010)
 
 ### CVE-2016-4117
 
@@ -12094,6 +12098,7 @@ The WLS Security component in Oracle WebLogic Server 10.3.6.0, 12.1.2.0, 12.1.3.
 
 - [roo7break/serialator](https://github.com/roo7break/serialator)
 - [AndersonSingh/serialization-vulnerability-scanner](https://github.com/AndersonSingh/serialization-vulnerability-scanner)
+- [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
 
 ### CVE-2015-4870
 
