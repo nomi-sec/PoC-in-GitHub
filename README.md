@@ -8631,6 +8631,7 @@ A remote code execution vulnerability in the Android system (bluetooth). Product
 
 - [ojasookert/CVE-2017-0781](https://github.com/ojasookert/CVE-2017-0781)
 - [marcinguy/android712-blueborne](https://github.com/marcinguy/android712-blueborne)
+- [mjancek/BlueborneDetection](https://github.com/mjancek/BlueborneDetection)
 
 ### CVE-2017-0785
 
