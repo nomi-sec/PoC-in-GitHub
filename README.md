@@ -806,6 +806,14 @@ Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 al
 
 - [cudi1999/CVE-2020-6514](https://github.com/cudi1999/CVE-2020-6514)
 
+### CVE-2020-6519
+
+<code>
+Policy bypass in CSP in Google Chrome prior to 84.0.4147.89 allowed a remote attacker to bypass content security policy via a crafted HTML page.
+</code>
+
+- [PerimeterX/CVE-2020-6519](https://github.com/PerimeterX/CVE-2020-6519)
+
 ### CVE-2020-6650
 
 <code>
@@ -6277,6 +6285,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP)
 - [rabbitmask/CVE-2018-7600-Drupal7](https://github.com/rabbitmask/CVE-2018-7600-Drupal7)
 - [ynsmroztas/drupalhunter](https://github.com/ynsmroztas/drupalhunter)
+- [ruthvikvegunta/Drupalgeddon2](https://github.com/ruthvikvegunta/Drupalgeddon2)
 
 ### CVE-2018-7602
 
