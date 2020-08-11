@@ -392,6 +392,9 @@ An elevation of privilege vulnerability exists when the Windows Update Orchestra
 
 - [irsl/CVE-2020-1313](https://github.com/irsl/CVE-2020-1313)
 
+### CVE-2020-1337
+- [VoidSec/CVE-2020-1337](https://github.com/VoidSec/CVE-2020-1337)
+
 ### CVE-2020-1349
 
 <code>
