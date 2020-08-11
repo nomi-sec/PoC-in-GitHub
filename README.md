@@ -39,6 +39,11 @@ In startActivities of ActivityStartController.java, there is a possible escalati
 - [wrlu/StrandHogg2](https://github.com/wrlu/StrandHogg2)
 
 ### CVE-2020-0108
+
+<code>
+In postNotification of ServiceRecord.java, there is a possible bypass of foreground process restrictions due to an uncaught exception. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-8.1 Android-9Android ID: A-140108616
+</code>
+
 - [wrlu/ServiceCheater](https://github.com/wrlu/ServiceCheater)
 
 ### CVE-2020-0121
@@ -393,7 +398,9 @@ An elevation of privilege vulnerability exists when the Windows Update Orchestra
 - [irsl/CVE-2020-1313](https://github.com/irsl/CVE-2020-1313)
 
 ### CVE-2020-1337
+- [math1as/CVE-2020-1337-exploit](https://github.com/math1as/CVE-2020-1337-exploit)
 - [VoidSec/CVE-2020-1337](https://github.com/VoidSec/CVE-2020-1337)
+- [neofito/CVE-2020-1337](https://github.com/neofito/CVE-2020-1337)
 
 ### CVE-2020-1349
 
@@ -4642,6 +4649,7 @@ vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig
 - [M0sterHxck/CVE-2019-16759-Vbulletin-rce-exploit](https://github.com/M0sterHxck/CVE-2019-16759-Vbulletin-rce-exploit)
 - [r00tpgp/http-vuln-CVE-2019-16759](https://github.com/r00tpgp/http-vuln-CVE-2019-16759)
 - [jas502n/CVE-2019-16759](https://github.com/jas502n/CVE-2019-16759)
+- [theLSA/vbulletin5-rce](https://github.com/theLSA/vbulletin5-rce)
 - [FarjaalAhmad/CVE-2019-16759](https://github.com/FarjaalAhmad/CVE-2019-16759)
 - [andripwn/pwn-vbulletin](https://github.com/andripwn/pwn-vbulletin)
 - [psychoxploit/vbull](https://github.com/psychoxploit/vbull)
