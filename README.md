@@ -697,6 +697,14 @@ In Spring Framework, versions 5.2.x prior to 5.2.3, versions 5.1.x prior to 5.1.
 
 - [motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398)
 
+### CVE-2020-5405
+
+<code>
+Spring Cloud Config, versions 2.2.x prior to 2.2.2, versions 2.1.x prior to 2.1.7, and older unsupported versions allow applications to serve arbitrary configuration files through the spring-cloud-config-server module. A malicious user, or attacker, can send a request using a specially crafted URL that can lead a directory traversal attack.
+</code>
+
+- [DSO-Lab/SpringCloudConfig-CVEs](https://github.com/DSO-Lab/SpringCloudConfig-CVEs)
+
 ### CVE-2020-5410
 
 <code>
@@ -1780,7 +1788,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [Y4er/CVE-2020-14645](https://github.com/Y4er/CVE-2020-14645)
 - [DaBoQuan/CVE-2020-14645](https://github.com/DaBoQuan/CVE-2020-14645)
-- [DSO-Lab/Weblogic_CVE-2020-14645](https://github.com/DSO-Lab/Weblogic_CVE-2020-14645)
 - [ChenZIDu/CVE-2020-14645](https://github.com/ChenZIDu/CVE-2020-14645)
 
 ### CVE-2020-14947
@@ -2641,6 +2648,7 @@ Spring Cloud Config, versions 2.1.x prior to 2.1.2, versions 2.0.x prior to 2.0.
 </code>
 
 - [mpgn/CVE-2019-3799](https://github.com/mpgn/CVE-2019-3799)
+- [DSO-Lab/SpringCloudConfig-CVEs](https://github.com/DSO-Lab/SpringCloudConfig-CVEs)
 
 ### CVE-2019-3847
 
@@ -5590,6 +5598,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [111ddea/cve-2018-2894](https://github.com/111ddea/cve-2018-2894)
 - [LandGrey/CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894)
 - [jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894)
+- [changpin666com/CVE-2018-2894-Weblogic-](https://github.com/changpin666com/CVE-2018-2894-Weblogic-)
 
 ### CVE-2018-3191
 
@@ -11232,6 +11241,14 @@ Buffer overflow in the Qualcomm radio driver in Android before 2017-01-05 on And
 </code>
 
 - [NickStephens/cve-2016-5345](https://github.com/NickStephens/cve-2016-5345)
+
+### CVE-2016-5636
+
+<code>
+Integer overflow in the get_data function in zipimport.c in CPython (aka Python) before 2.7.12, 3.x before 3.4.5, and 3.5.x before 3.5.2 allows remote attackers to have unspecified impact via a negative data size value, which triggers a heap-based buffer overflow.
+</code>
+
+- [jakkdu/CVE-2016-5636](https://github.com/jakkdu/CVE-2016-5636)
 
 ### CVE-2016-5639
 
