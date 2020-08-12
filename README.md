@@ -4592,6 +4592,9 @@ A memory error in the function SSL_accept in nostromo nhttpd through 1.9.6 allow
 
 - [ianxtianxt/CVE-2019-16279](https://github.com/ianxtianxt/CVE-2019-16279)
 
+### CVE-2019-16374
+- [IAG0110/CVE-2019-16374](https://github.com/IAG0110/CVE-2019-16374)
+
 ### CVE-2019-16394
 
 <code>
@@ -4645,6 +4648,7 @@ vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig
 - [FarjaalAhmad/CVE-2019-16759](https://github.com/FarjaalAhmad/CVE-2019-16759)
 - [andripwn/pwn-vbulletin](https://github.com/andripwn/pwn-vbulletin)
 - [psychoxploit/vbull](https://github.com/psychoxploit/vbull)
+- [jd-961/CVE-2019-16759-bypass](https://github.com/jd-961/CVE-2019-16759-bypass)
 
 ### CVE-2019-16784
 
@@ -14535,14 +14539,6 @@ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 all
 
 - [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
 
-### CVE-2006-3392
-
-<code>
-Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
-</code>
-
-- [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
-
 ### CVE-2006-3592
 
 <code>
@@ -14581,7 +14577,6 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
-- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
