@@ -401,6 +401,7 @@ An elevation of privilege vulnerability exists when the Windows Update Orchestra
 - [math1as/CVE-2020-1337-exploit](https://github.com/math1as/CVE-2020-1337-exploit)
 - [VoidSec/CVE-2020-1337](https://github.com/VoidSec/CVE-2020-1337)
 - [neofito/CVE-2020-1337](https://github.com/neofito/CVE-2020-1337)
+- [sailay1996/cve-2020-1337-poc](https://github.com/sailay1996/cve-2020-1337-poc)
 
 ### CVE-2020-1349
 
