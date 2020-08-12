@@ -506,8 +506,8 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
-- [DSO-Lab/Dubbo-CVE-2020-1948](https://github.com/DSO-Lab/Dubbo-CVE-2020-1948)
 - [askDing/cve-2020-1948-poc](https://github.com/askDing/cve-2020-1948-poc)
+- [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1967
@@ -706,14 +706,6 @@ In Spring Framework, versions 5.2.x prior to 5.2.3, versions 5.1.x prior to 5.1.
 </code>
 
 - [motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398)
-
-### CVE-2020-5405
-
-<code>
-Spring Cloud Config, versions 2.2.x prior to 2.2.2, versions 2.1.x prior to 2.1.7, and older unsupported versions allow applications to serve arbitrary configuration files through the spring-cloud-config-server module. A malicious user, or attacker, can send a request using a specially crafted URL that can lead a directory traversal attack.
-</code>
-
-- [DSO-Lab/SpringCloudConfig-CVEs](https://github.com/DSO-Lab/SpringCloudConfig-CVEs)
 
 ### CVE-2020-5410
 
@@ -2658,7 +2650,6 @@ Spring Cloud Config, versions 2.1.x prior to 2.1.2, versions 2.0.x prior to 2.0.
 </code>
 
 - [mpgn/CVE-2019-3799](https://github.com/mpgn/CVE-2019-3799)
-- [DSO-Lab/SpringCloudConfig-CVEs](https://github.com/DSO-Lab/SpringCloudConfig-CVEs)
 
 ### CVE-2019-3847
 
