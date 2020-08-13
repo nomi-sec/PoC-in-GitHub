@@ -4565,7 +4565,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
-- [arptables/CVE-2019-16113-PoC](https://github.com/arptables/CVE-2019-16113-PoC)
+- [bG9jYWxob3N0/CVE-2019-16113-PoC](https://github.com/bG9jYWxob3N0/CVE-2019-16113-PoC)
 
 ### CVE-2019-16278
 
@@ -12567,24 +12567,14 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [cyphar/heartthreader](https://github.com/cyphar/heartthreader)
 - [jdauphant/patch-openssl-CVE-2014-0160](https://github.com/jdauphant/patch-openssl-CVE-2014-0160)
 - [musalbas/heartbleed-masstest](https://github.com/musalbas/heartbleed-masstest)
-- [obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner)
 - [Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker)
-- [isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic)
-- [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
-- [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
-- [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
 - [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
-- [amerine/coronary](https://github.com/amerine/coronary)
 - [0x90/CVE-2014-0160](https://github.com/0x90/CVE-2014-0160)
-- [ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160)
 - [waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker)
-- [siddolo/knockbleed](https://github.com/siddolo/knockbleed)
-- [sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix)
 - [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
 - [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
-- [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
 - [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
 - [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
@@ -12675,19 +12665,13 @@ Buffer overflow in the Vcl.Graphics.TPicture.Bitmap implementation in the Visual
 
 - [helpsystems/Embarcadero-Workaround](https://github.com/helpsystems/Embarcadero-Workaround)
 
-### CVE-2014-160
-- [menrcom/CVE-2014-160](https://github.com/menrcom/CVE-2014-160)
-- [GitMirar/heartbleed_exploit](https://github.com/GitMirar/heartbleed_exploit)
-
 ### CVE-2014-1266
 
 <code>
 The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExchange.c in the Secure Transport feature in the Data Security component in Apple iOS 6.x before 6.1.6 and 7.x before 7.0.6, Apple TV 6.x before 6.0.2, and Apple OS X 10.9.x before 10.9.2 does not check the signature in a TLS Server Key Exchange message, which allows man-in-the-middle attackers to spoof SSL servers by (1) using an arbitrary private key for the signing step or (2) omitting the signing step.
 </code>
 
-- [landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266)
 - [linusyang/SSLPatch](https://github.com/linusyang/SSLPatch)
-- [gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc)
 
 ### CVE-2014-1303
 
@@ -14539,6 +14523,14 @@ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 all
 
 - [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
 
+### CVE-2006-3392
+
+<code>
+Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+</code>
+
+- [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
+
 ### CVE-2006-3592
 
 <code>
@@ -14577,6 +14569,7 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
+- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
