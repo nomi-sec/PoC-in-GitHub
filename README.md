@@ -16,6 +16,7 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 In binder_transaction of binder.c, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-145988638References: Upstream kernel
 </code>
 
+- [bluefrostsecurity/CVE-2020-0041](https://github.com/bluefrostsecurity/CVE-2020-0041)
 - [j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041)
 
 ### CVE-2020-0069
@@ -827,6 +828,7 @@ SAP NetWeaver AS JAVA (LM Configuration Wizard), versions - 7.30, 7.31, 7.40, 7.
 - [duc-nt/CVE-2020-6287-exploit](https://github.com/duc-nt/CVE-2020-6287-exploit)
 - [Onapsis/CVE-2020-6287_RECON-scanner](https://github.com/Onapsis/CVE-2020-6287_RECON-scanner)
 - [ynsmroztas/CVE-2020-6287-Sap-Add-User](https://github.com/ynsmroztas/CVE-2020-6287-Sap-Add-User)
+- [murataydemir/CVE-2020-6287](https://github.com/murataydemir/CVE-2020-6287)
 
 ### CVE-2020-6418
 
@@ -1894,6 +1896,9 @@ scp in OpenSSH through 8.3p1 allows command injection in scp.c remote function, 
 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
 
+### CVE-2020-15931
+- [optiv/CVE-2020-15931](https://github.com/optiv/CVE-2020-15931)
+
 ### CVE-2020-15956
 
 <code>
@@ -1950,6 +1955,12 @@ A Server Side Request Forgery (SSRF) vulnerability affected the Apache Axis 1.4 
 </code>
 
 - [ianxtianxt/cve-2019-0227](https://github.com/ianxtianxt/cve-2019-0227)
+
+### CVE-2019-0230
+- [gitworldhero/CVE-2019-0230](https://github.com/gitworldhero/CVE-2019-0230)
+- [xiyan123/CVE-2019-0230](https://github.com/xiyan123/CVE-2019-0230)
+- [A2gel/CVE-2019-0230](https://github.com/A2gel/CVE-2019-0230)
+- [fengziHK/CVE-2019-0230](https://github.com/fengziHK/CVE-2019-0230)
 
 ### CVE-2019-0232
 
@@ -4611,6 +4622,11 @@ A memory error in the function SSL_accept in nostromo nhttpd through 1.9.6 allow
 - [ianxtianxt/CVE-2019-16279](https://github.com/ianxtianxt/CVE-2019-16279)
 
 ### CVE-2019-16374
+
+<code>
+Pega Platform 8.2.1 allows LDAP injection because a username can contain a * character and can be of unlimited length. An attacker can specify four characters of a username, followed by the * character, to bypass access control.
+</code>
+
 - [IAG0110/CVE-2019-16374](https://github.com/IAG0110/CVE-2019-16374)
 
 ### CVE-2019-16394
@@ -10937,6 +10953,14 @@ Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile meth
 
 - [icewall/CVE-2016-2334](https://github.com/icewall/CVE-2016-2334)
 
+### CVE-2016-2386
+
+<code>
+SQL injection vulnerability in the UDDI server in SAP NetWeaver J2EE Engine 7.40 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, aka SAP Security Note 2101079.
+</code>
+
+- [murataydemir/CVE-2016-2386](https://github.com/murataydemir/CVE-2016-2386)
+
 ### CVE-2016-2402
 
 <code>
@@ -11106,6 +11130,14 @@ Magento CE and EE before 2.0.6 allows remote attackers to conduct PHP objection 
 
 - [brianwrf/Magento-CVE-2016-4010](https://github.com/brianwrf/Magento-CVE-2016-4010)
 - [shadofren/CVE-2016-4010](https://github.com/shadofren/CVE-2016-4010)
+
+### CVE-2016-4014
+
+<code>
+XML external entity (XXE) vulnerability in the UDDI component in SAP NetWeaver JAVA AS 7.4 allows remote attackers to cause a denial of service (system hang) via a crafted DTD in an XML request to uddi/api/replication, aka SAP Security Note 2254389.
+</code>
+
+- [murataydemir/CVE-2016-4014](https://github.com/murataydemir/CVE-2016-4014)
 
 ### CVE-2016-4117
 
