@@ -320,6 +320,9 @@ A spoofing vulnerability exists when Microsoft SharePoint Server does not proper
 
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
 
+### CVE-2020-1
+- [full-disclosure/FDEU-CVE-2020-1FC5](https://github.com/full-disclosure/FDEU-CVE-2020-1FC5)
+
 ### CVE-2020-1015
 
 <code>
@@ -1958,6 +1961,7 @@ A Server Side Request Forgery (SSRF) vulnerability affected the Apache Axis 1.4 
 
 ### CVE-2019-0230
 - [xiyan123/CVE-2019-0230](https://github.com/xiyan123/CVE-2019-0230)
+- [cellanu/s2-059-cve-2019-0230](https://github.com/cellanu/s2-059-cve-2019-0230)
 
 ### CVE-2019-0232
 
