@@ -1961,7 +1961,7 @@ A Server Side Request Forgery (SSRF) vulnerability affected the Apache Axis 1.4 
 
 ### CVE-2019-0230
 - [xiyan123/CVE-2019-0230](https://github.com/xiyan123/CVE-2019-0230)
-- [cellanu/s2-059-cve-2019-0230](https://github.com/cellanu/s2-059-cve-2019-0230)
+- [cellanu/cve-2019-0230](https://github.com/cellanu/cve-2019-0230)
 
 ### CVE-2019-0232
 
@@ -14591,30 +14591,6 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
-### CVE-2006-1236
-
-<code>
-Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
-</code>
-
-- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
-
-### CVE-2006-3392
-
-<code>
-Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
-</code>
-
-- [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
-
-### CVE-2006-3592
-
-<code>
-Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
-</code>
-
-- [adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592)
-
 ### CVE-2006-3747
 
 <code>
@@ -14638,15 +14614,6 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 </code>
 
 - [tagatac/linux-CVE-2006-4814](https://github.com/tagatac/linux-CVE-2006-4814)
-
-### CVE-2006-6184
-
-<code>
-Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
-</code>
-
-- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
-- [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
 ## 2005
