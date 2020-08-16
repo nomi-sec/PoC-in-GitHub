@@ -14766,14 +14766,6 @@ Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite ar
 
 
 ## 2002
-### CVE-2002-0200
-
-<code>
-Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.
-</code>
-
-- [alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200)
-
 ### CVE-2002-0201
 
 <code>
