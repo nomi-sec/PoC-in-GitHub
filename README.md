@@ -194,6 +194,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [ravinacademy/CVE-2020-0688](https://github.com/ravinacademy/CVE-2020-0688)
 - [ktpdpro/CVE-2020-0688](https://github.com/ktpdpro/CVE-2020-0688)
 - [w4fz5uck5/cve-2020-0688-webshell-upload-technique](https://github.com/w4fz5uck5/cve-2020-0688-webshell-upload-technique)
+- [murataydemir/CVE-2020-0688](https://github.com/murataydemir/CVE-2020-0688)
 
 ### CVE-2020-0708
 
@@ -2290,7 +2291,7 @@ A denial of service vulnerability exists when Microsoft Common Object Runtime Li
 An information disclosure vulnerability exists when the win32k component improperly provides kernel information, aka 'Win32k Information Disclosure Vulnerability'.
 </code>
 
-- [ze0r/cve-2019-1096-poc](https://github.com/ze0r/cve-2019-1096-poc)
+- [CrackerCat/cve-2019-1096-poc](https://github.com/CrackerCat/cve-2019-1096-poc)
 
 ### CVE-2019-1108
 
