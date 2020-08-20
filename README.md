@@ -14825,14 +14825,6 @@ Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial o
 
 - [alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201)
 
-### CVE-2002-0288
-
-<code>
-Directory traversal vulnerability in Phusion web server 1.0 allows remote attackers to read arbitrary files via a ... (triple dot dot) in the HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288)
-
 ### CVE-2002-0289
 
 <code>
@@ -14848,14 +14840,6 @@ Cross-site scripting vulnerability in Cobalt RAQ 4 allows remote attackers to ex
 </code>
 
 - [alt3kx/CVE-2002-0346](https://github.com/alt3kx/CVE-2002-0346)
-
-### CVE-2002-0347
-
-<code>
-Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to read password-protected files, and possibly files outside the web root, via a .. (dot dot) in an HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0347](https://github.com/alt3kx/CVE-2002-0347)
 
 ### CVE-2002-0348
 
