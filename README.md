@@ -2004,6 +2004,7 @@ A Server Side Request Forgery (SSRF) vulnerability affected the Apache Axis 1.4 
 
 ### CVE-2019-0230
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
+- [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 
 ### CVE-2019-0232
 
