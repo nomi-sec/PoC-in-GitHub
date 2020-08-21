@@ -438,7 +438,6 @@ A remote code execution vulnerability exists in Windows Domain Name System serve
 - [maxpl0it/CVE-2020-1350-DoS](https://github.com/maxpl0it/CVE-2020-1350-DoS)
 - [captainGeech42/CVE-2020-1350](https://github.com/captainGeech42/CVE-2020-1350)
 - [connormcgarr/CVE-2020-1350](https://github.com/connormcgarr/CVE-2020-1350)
-- [5ing/CVE-2020-1350-poc](https://github.com/5ing/CVE-2020-1350-poc)
 - [graph-inc/CVE-2020-1350](https://github.com/graph-inc/CVE-2020-1350)
 - [CVEmaster/CVE-2020-1350](https://github.com/CVEmaster/CVE-2020-1350)
 - [Secuora-Org/CVE-2020-1350-checker.ps1](https://github.com/Secuora-Org/CVE-2020-1350-checker.ps1)
