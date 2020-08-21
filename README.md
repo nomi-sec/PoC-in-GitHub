@@ -14647,14 +14647,6 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
-### CVE-2006-1236
-
-<code>
-Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
-</code>
-
-- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
-
 ### CVE-2006-3392
 
 <code>
@@ -14678,14 +14670,6 @@ Off-by-one error in the ldap scheme handling in the Rewrite module (mod_rewrite)
 </code>
 
 - [spinfoo/CVE-2006-3747](https://github.com/spinfoo/CVE-2006-3747)
-
-### CVE-2006-4777
-
-<code>
-Heap-based buffer overflow in the DirectAnimation Path Control (DirectAnimation.PathControl) COM object (daxctle.ocx) for Internet Explorer 6.0 SP1, on Chinese and possibly other Windows distributions, allows remote attackers to execute arbitrary code via unknown manipulations in arguments to the KeyFrame method, possibly related to an integer overflow, as demonstrated by daxctle2, and a different vulnerability than CVE-2006-4446.
-</code>
-
-- [Mario1234/js-driveby-download-CVE-2006-4777](https://github.com/Mario1234/js-driveby-download-CVE-2006-4777)
 
 ### CVE-2006-4814
 
