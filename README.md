@@ -1,14 +1,6 @@
 # PoC in GitHub
 
 ## 2020
-### CVE-2020-0002
-
-<code>
-In ih264d_init_decoder of ih264d_api.c, there is a possible out of bounds write due to a use after free. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation Product: Android Versions: Android-8.0, Android-8.1, Android-9, and Android-10 Android ID: A-142602711
-</code>
-
-- [Polo35/CVE-2020-0002](https://github.com/Polo35/CVE-2020-0002)
-
 ### CVE-2020-0022
 
 <code>
@@ -1961,6 +1953,14 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 
 ### CVE-2020-24033
 - [M0NsTeRRR/CVE-2020-24033](https://github.com/M0NsTeRRR/CVE-2020-24033)
+
+### CVE-2020-24572
+
+<code>
+An issue was discovered in includes/webconsole.php in RaspAP 2.5. With authenticated access, an attacker can use a misconfigured (and virtually unrestricted) web console to attack the underlying OS (Raspberry Pi) running this software, and execute commands on the system (including ones for uploading of files and execution of code).
+</code>
+
+- [lb0x/cve-2020-24572](https://github.com/lb0x/cve-2020-24572)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -4757,6 +4757,7 @@ vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig
 - [jd-961/CVE-2019-16759-bypass](https://github.com/jd-961/CVE-2019-16759-bypass)
 - [nako48/CVE-2019-16759](https://github.com/nako48/CVE-2019-16759)
 - [mas1337/CVE-2019-16759](https://github.com/mas1337/CVE-2019-16759)
+- [sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759)
 
 ### CVE-2019-16784
 
