@@ -14445,6 +14445,14 @@ DL::dlopen in Ruby 1.8, 1.9.0, 1.9.2, 1.9.3, 2.0.0 before patchlevel 648, and 2.
 
 
 ## 2008
+### CVE-2008-0128
+
+<code>
+The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apache Tomcat before 5.5.21 does not set the secure flag for the JSESSIONIDSSO cookie in an https session, which can cause the cookie to be sent in http requests and make it easier for remote attackers to capture this cookie.
+</code>
+
+- [ngyanch/4062-1](https://github.com/ngyanch/4062-1)
+
 ### CVE-2008-0166
 
 <code>
@@ -14453,6 +14461,7 @@ OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating system
 
 - [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
+- [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
 
 ### CVE-2008-0228
 
@@ -14960,7 +14969,4 @@ File and Print Sharing service in Windows 95, Windows 98, and Windows Me does no
 
 
 ## 1999
-### CVE-1999-0532
-- [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
-
 
