@@ -461,6 +461,14 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 
 - [mingchen-script/CVE-2020-1472-visualizer](https://github.com/mingchen-script/CVE-2020-1472-visualizer)
 
+### CVE-2020-1493
+
+<code>
+An information disclosure vulnerability exists when attaching files to Outlook messages, aka 'Microsoft Outlook Information Disclosure Vulnerability'.
+</code>
+
+- [0neb1n/CVE-2020-1493](https://github.com/0neb1n/CVE-2020-1493)
+
 ### CVE-2020-1611
 
 <code>
