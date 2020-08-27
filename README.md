@@ -536,6 +536,14 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 - [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
+### CVE-2020-1958
+
+<code>
+When LDAP authentication is enabled in Apache Druid 0.17.0, callers of Druid APIs with a valid set of LDAP credentials can bypass the credentialsValidator.userSearch filter barrier that determines if a valid LDAP user is allowed to authenticate with Druid. They are still subject to role-based authorization checks, if configured. Callers of Druid APIs can also retrieve any LDAP attribute values of users that exist on the LDAP server, so long as that information is visible to the Druid server. This information disclosure does not require the caller itself to be a valid LDAP user.
+</code>
+
+- [ggolawski/CVE-2020-1958](https://github.com/ggolawski/CVE-2020-1958)
+
 ### CVE-2020-1967
 
 <code>
@@ -4803,6 +4811,14 @@ NSA Ghidra through 9.0.4, when experimental mode is enabled, allows arbitrary co
 </code>
 
 - [purpleracc00n/CVE-2019-16941](https://github.com/purpleracc00n/CVE-2019-16941)
+
+### CVE-2019-17026
+
+<code>
+Incorrect alias information in IonMonkey JIT compiler for setting array elements could lead to a type confusion. We are aware of targeted attacks in the wild abusing this flaw. This vulnerability affects Firefox ESR &lt; 68.4.1, Thunderbird &lt; 68.4.1, and Firefox &lt; 72.0.1.
+</code>
+
+- [maxpl0it/CVE-2019-17026-Exploit](https://github.com/maxpl0it/CVE-2019-17026-Exploit)
 
 ### CVE-2019-17080
 
