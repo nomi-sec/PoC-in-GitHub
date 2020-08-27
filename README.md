@@ -6586,6 +6586,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [qiantu88/CVE-2018-8120](https://github.com/qiantu88/CVE-2018-8120)
 - [Y0n0Y/cve-2018-8120-exp](https://github.com/Y0n0Y/cve-2018-8120-exp)
 - [DreamoneOnly/CVE-2018-8120](https://github.com/DreamoneOnly/CVE-2018-8120)
+- [StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120)
 
 ### CVE-2018-8172
 
