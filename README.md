@@ -40,7 +40,7 @@ In startActivities of ActivityStartController.java, there is a possible escalati
 </code>
 
 - [wyu0hop/CVE-2020-0096](https://github.com/wyu0hop/CVE-2020-0096)
-- [wrlu/StrandHogg2](https://github.com/wrlu/StrandHogg2)
+- [liuyun201990/StrandHogg2](https://github.com/liuyun201990/StrandHogg2)
 
 ### CVE-2020-0108
 
@@ -48,7 +48,7 @@ In startActivities of ActivityStartController.java, there is a possible escalati
 In postNotification of ServiceRecord.java, there is a possible bypass of foreground process restrictions due to an uncaught exception. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-8.1 Android-9Android ID: A-140108616
 </code>
 
-- [wrlu/ServiceCheater](https://github.com/wrlu/ServiceCheater)
+- [CrackerCat/ServiceCheater](https://github.com/CrackerCat/ServiceCheater)
 
 ### CVE-2020-0121
 
@@ -2581,14 +2581,6 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 - [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
 - [c0n71nu3/android-kernel-exploitation-ashfaq-CVE-2019-2215](https://github.com/c0n71nu3/android-kernel-exploitation-ashfaq-CVE-2019-2215)
 - [sharif-dev/AndroidKernelVulnerability](https://github.com/sharif-dev/AndroidKernelVulnerability)
-
-### CVE-2019-2225
-
-<code>
-When pairing with a Bluetooth device, it may be possible to pair a malicious device without any confirmation from the user, and that device may be able to interact with the phone. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-110433804
-</code>
-
-- [wrlu/BadBluetooth](https://github.com/wrlu/BadBluetooth)
 
 ### CVE-2019-2525
 
