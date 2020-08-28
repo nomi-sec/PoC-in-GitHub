@@ -1965,7 +1965,7 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWidgets data in an ajax/render/widget_tabbedcontainer_tab_panel request. NOTE: this issue exists because of an incomplete fix for CVE-2019-16759.
 </code>
 
-- [noopslide/vBulletin-0Day-Auto-shell-CVE-2020-17496-](https://github.com/noopslide/vBulletin-0Day-Auto-shell-CVE-2020-17496-)
+- [0x00fy/vBulletin-0Day-Auto-shell-CVE-2020-17496-](https://github.com/0x00fy/vBulletin-0Day-Auto-shell-CVE-2020-17496-)
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 
 ### CVE-2020-24033
@@ -8574,6 +8574,7 @@ A code execution vulnerability exists in the Stapler web framework used by Jenki
 </code>
 
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
+- [xDro1d/CVE-2018-1000861](https://github.com/xDro1d/CVE-2018-1000861)
 
 ### CVE-2018-1002105
 
