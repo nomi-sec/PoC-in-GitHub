@@ -282,6 +282,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [f1tz/CVE-2020-0796-LPE-EXP](https://github.com/f1tz/CVE-2020-0796-LPE-EXP)
 - [tango-j/CVE-2020-0796](https://github.com/tango-j/CVE-2020-0796)
 - [jiansiting/CVE-2020-0796](https://github.com/jiansiting/CVE-2020-0796)
+- [eastmountyxz/CVE-2020-0796-SMB](https://github.com/eastmountyxz/CVE-2020-0796-SMB)
 - [LabDookhtegan/CVE-2020-0796-EXP](https://github.com/LabDookhtegan/CVE-2020-0796-EXP)
 - [Rvn0xsy/CVE_2020_0796_CNA](https://github.com/Rvn0xsy/CVE_2020_0796_CNA)
 - [intelliroot-tech/cve-2020-0796-Scanner](https://github.com/intelliroot-tech/cve-2020-0796-Scanner)
@@ -6266,6 +6267,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [l4rm4nd/CVE-2018-6574](https://github.com/l4rm4nd/CVE-2018-6574)
 - [shivam18u/CVE-2018-6574](https://github.com/shivam18u/CVE-2018-6574)
 - [illnino/CVE-2018-6574](https://github.com/illnino/CVE-2018-6574)
+- [TakuCoder/CVE-2018-6574](https://github.com/TakuCoder/CVE-2018-6574)
 
 ### CVE-2018-6622
 
@@ -9839,6 +9841,14 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit](https://github.com/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit)
 - [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
 - [AvishkaSenadheera20/CVE-2017-9805---Documentation---IT19143378](https://github.com/AvishkaSenadheera20/CVE-2017-9805---Documentation---IT19143378)
+
+### CVE-2017-9822
+
+<code>
+DNN (aka DotNetNuke) before 9.1.1 has Remote Code Execution via a cookie, aka &quot;2017-08 (Critical) Possible remote code execution on DNN sites.&quot;
+</code>
+
+- [murataydemir/CVE-2017-9822](https://github.com/murataydemir/CVE-2017-9822)
 
 ### CVE-2017-9830
 
@@ -14683,6 +14693,14 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
+### CVE-2006-0450
+
+<code>
+phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
+</code>
+
+- [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
+
 ### CVE-2006-1236
 
 <code>
@@ -14742,6 +14760,14 @@ Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.
 
 
 ## 2005
+### CVE-2005-0603
+
+<code>
+viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sensitive information via a highlight parameter containing invalid regular expression syntax, which reveals the path in a PHP error message.
+</code>
+
+- [Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure)
+
 ### CVE-2005-1125
 
 <code>
