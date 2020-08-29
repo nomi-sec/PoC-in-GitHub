@@ -300,6 +300,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Almorabea/SMBGhost-LPE-Metasploit-Module](https://github.com/Almorabea/SMBGhost-LPE-Metasploit-Module)
 - [ZecOps/SMBGhost-SMBleed-scanner](https://github.com/ZecOps/SMBGhost-SMBleed-scanner)
 - [getdrive/smbghost](https://github.com/getdrive/smbghost)
+- [iamramahibrah/smbghost](https://github.com/iamramahibrah/smbghost)
 
 ### CVE-2020-0797
 
@@ -14107,7 +14108,6 @@ Integer overflow in libpng, as used in Google Chrome before 17.0.963.56, allows 
 The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 </code>
 
-- [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
 - [limkokhole/CVE-2011-3192](https://github.com/limkokhole/CVE-2011-3192)
 - [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
 
