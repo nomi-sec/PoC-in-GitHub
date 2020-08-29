@@ -6493,6 +6493,14 @@ transport.py in the SSH server implementation of Paramiko before 1.17.6, 1.18.x 
 ### CVE-2018-7935
 - [lawrenceamer/CVE-2018-7935](https://github.com/lawrenceamer/CVE-2018-7935)
 
+### CVE-2018-8004
+
+<code>
+There are multiple HTTP smuggling and cache poisoning issues when clients making malicious requests interact with Apache Traffic Server (ATS). This affects versions 6.0.0 to 6.2.2 and 7.0.0 to 7.1.3. To resolve this issue users running 6.x should upgrade to 6.2.3 or later versions and 7.x users should upgrade to 7.1.4 or later versions.
+</code>
+
+- [mosesrenegade/CVE-2018-8004](https://github.com/mosesrenegade/CVE-2018-8004)
+
 ### CVE-2018-8021
 
 <code>
@@ -14108,6 +14116,7 @@ Integer overflow in libpng, as used in Google Chrome before 17.0.963.56, allows 
 The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 </code>
 
+- [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
 - [limkokhole/CVE-2011-3192](https://github.com/limkokhole/CVE-2011-3192)
 - [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
 
@@ -14693,14 +14702,6 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
-### CVE-2006-0450
-
-<code>
-phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
-</code>
-
-- [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
-
 ### CVE-2006-1236
 
 <code>
@@ -14708,14 +14709,6 @@ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 all
 </code>
 
 - [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
-
-### CVE-2006-3392
-
-<code>
-Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
-</code>
-
-- [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
 
 ### CVE-2006-3592
 
@@ -14755,7 +14748,6 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
-- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
