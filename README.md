@@ -652,6 +652,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [tacticalDevC/CVE-2020-3452](https://github.com/tacticalDevC/CVE-2020-3452)
 - [paran0id34/CVE-2020-3452](https://github.com/paran0id34/CVE-2020-3452)
 - [murataydemir/CVE-2020-3452](https://github.com/murataydemir/CVE-2020-3452)
+- [ludy-dev/Cisco-ASA-LFI](https://github.com/ludy-dev/Cisco-ASA-LFI)
 
 ### CVE-2020-3766
 
@@ -1750,6 +1751,9 @@ An issue was discovered in Django 2.2 before 2.2.13 and 3.0 before 3.0.7. In cas
 
 - [danpalmer/django-cve-2020-13254](https://github.com/danpalmer/django-cve-2020-13254)
 
+### CVE-2020-13259
+- [UrielYochpaz/CVE-2020-13259](https://github.com/UrielYochpaz/CVE-2020-13259)
+
 ### CVE-2020-13424
 
 <code>
@@ -1978,7 +1982,6 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWidgets data in an ajax/render/widget_tabbedcontainer_tab_panel request. NOTE: this issue exists because of an incomplete fix for CVE-2019-16759.
 </code>
 
-- [0x00fy/vBulletin-0Day-Auto-shell-CVE-2020-17496-](https://github.com/0x00fy/vBulletin-0Day-Auto-shell-CVE-2020-17496-)
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 
 ### CVE-2020-24033
@@ -2653,6 +2656,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [ianxtianxt/CVE-2019-2725](https://github.com/ianxtianxt/CVE-2019-2725)
 - [N0b1e6/CVE-2019-2725-POC](https://github.com/N0b1e6/CVE-2019-2725-POC)
 - [GGyao/weblogic_2019_2725_wls_batch](https://github.com/GGyao/weblogic_2019_2725_wls_batch)
+- [ludy-dev/Oracle-WLS-Weblogic-RCE](https://github.com/ludy-dev/Oracle-WLS-Weblogic-RCE)
 
 ### CVE-2019-2729
 
@@ -4787,6 +4791,7 @@ vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig
 - [nako48/CVE-2019-16759](https://github.com/nako48/CVE-2019-16759)
 - [mas1337/CVE-2019-16759](https://github.com/mas1337/CVE-2019-16759)
 - [sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759)
+- [ludy-dev/vBulletin_Routestring-RCE](https://github.com/ludy-dev/vBulletin_Routestring-RCE)
 
 ### CVE-2019-16784
 
@@ -9168,6 +9173,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [colorblindpentester/CVE-2017-5638](https://github.com/colorblindpentester/CVE-2017-5638)
 - [injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638)
 - [pasannirmana/Aspire](https://github.com/pasannirmana/Aspire)
+- [ludy-dev/XworkStruts-RCE](https://github.com/ludy-dev/XworkStruts-RCE)
 
 ### CVE-2017-5645
 
