@@ -1984,6 +1984,15 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 
+### CVE-2020-24028
+- [underprotection/CVE-2020-24028](https://github.com/underprotection/CVE-2020-24028)
+
+### CVE-2020-24029
+- [underprotection/CVE-2020-24029](https://github.com/underprotection/CVE-2020-24029)
+
+### CVE-2020-24030
+- [underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030)
+
 ### CVE-2020-24033
 - [M0NsTeRRR/CVE-2020-24033](https://github.com/M0NsTeRRR/CVE-2020-24033)
 
