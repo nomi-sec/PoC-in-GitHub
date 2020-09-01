@@ -1072,7 +1072,7 @@ Improper access control in Citrix ADC and Citrix Gateway versions before 13.0-58
 ### CVE-2020-8218
 
 <code>
-A code injection vulnerability exists in Pulse Connect Secure &lt;9.1RB that allows an attacker to crafted a URI to perform an arbitrary code execution via the admin web interface.
+A code injection vulnerability exists in Pulse Connect Secure &lt;9.1R8 that allows an attacker to crafted a URI to perform an arbitrary code execution via the admin web interface.
 </code>
 
 - [withdk/pulse-gosecure-rce-poc](https://github.com/withdk/pulse-gosecure-rce-poc)
