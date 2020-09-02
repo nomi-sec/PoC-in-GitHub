@@ -845,7 +845,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [rockmelodies/CVE-2020-5902-rce-gui](https://github.com/rockmelodies/CVE-2020-5902-rce-gui)
 - [f5devcentral/cve-2020-5902-ioc-bigip-checker](https://github.com/f5devcentral/cve-2020-5902-ioc-bigip-checker)
 - [corelight/CVE-2020-5902-F5BigIP](https://github.com/corelight/CVE-2020-5902-F5BigIP)
-- [Technowlogy-Pushpender/CVE-2020-5902-Scanner](https://github.com/Technowlogy-Pushpender/CVE-2020-5902-Scanner)
+- [PushpenderIndia/CVE-2020-5902-Scanner](https://github.com/PushpenderIndia/CVE-2020-5902-Scanner)
 - [murataydemir/CVE-2020-5902](https://github.com/murataydemir/CVE-2020-5902)
 - [superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902)
 
@@ -14676,14 +14676,6 @@ The ReadDirectoryChangesW API function on Microsoft Windows 2000, XP, Server 200
 
 - [z3APA3A/spydir](https://github.com/z3APA3A/spydir)
 
-### CVE-2007-1567
-
-<code>
-Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows remote attackers to cause a denial of service or execute arbitrary code via unspecified vectors, as demonstrated by warftp_165.tar by Immunity.  NOTE: this might be the same issue as CVE-1999-0256, CVE-2000-0131, or CVE-2006-2171, but due to Immunity's lack of details, this cannot be certain.
-</code>
-
-- [war4uthor/CVE-2007-1567](https://github.com/war4uthor/CVE-2007-1567)
-
 ### CVE-2007-2447
 
 <code>
@@ -14729,14 +14721,6 @@ Multiple buffer overflows in the AirDefense Airsensor M520 with firmware 4.3.1.1
 </code>
 
 - [alt3kx/CVE-2007-5036](https://github.com/alt3kx/CVE-2007-5036)
-
-### CVE-2007-6638
-
-<code>
-March Networks DVR 3204 stores sensitive information under the web root with insufficient access control, which allows remote attackers to obtain usernames, passwords, device names, and IP addresses via a direct request for scripts/logfiles.tar.gz.
-</code>
-
-- [alt3kx/CVE-2007-6638](https://github.com/alt3kx/CVE-2007-6638)
 
 
 ## 2006
