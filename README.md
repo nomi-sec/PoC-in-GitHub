@@ -534,8 +534,8 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
-- [askDing/cve-2020-1948-poc](https://github.com/askDing/cve-2020-1948-poc)
 - [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
+- [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1958
@@ -2017,6 +2017,9 @@ SUPERAntiSyware Professional X Trial 10.0.1206 is vulnerable to local privilege 
 </code>
 
 - [b1nary0x1/CVE-2020-24955](https://github.com/b1nary0x1/CVE-2020-24955)
+
+### CVE-2020-25068
+- [bryanroma/CVE-2020-25068](https://github.com/bryanroma/CVE-2020-25068)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -14676,6 +14679,14 @@ The ReadDirectoryChangesW API function on Microsoft Windows 2000, XP, Server 200
 
 - [z3APA3A/spydir](https://github.com/z3APA3A/spydir)
 
+### CVE-2007-1567
+
+<code>
+Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows remote attackers to cause a denial of service or execute arbitrary code via unspecified vectors, as demonstrated by warftp_165.tar by Immunity.  NOTE: this might be the same issue as CVE-1999-0256, CVE-2000-0131, or CVE-2006-2171, but due to Immunity's lack of details, this cannot be certain.
+</code>
+
+- [war4uthor/CVE-2007-1567](https://github.com/war4uthor/CVE-2007-1567)
+
 ### CVE-2007-2447
 
 <code>
@@ -14721,6 +14732,14 @@ Multiple buffer overflows in the AirDefense Airsensor M520 with firmware 4.3.1.1
 </code>
 
 - [alt3kx/CVE-2007-5036](https://github.com/alt3kx/CVE-2007-5036)
+
+### CVE-2007-6638
+
+<code>
+March Networks DVR 3204 stores sensitive information under the web root with insufficient access control, which allows remote attackers to obtain usernames, passwords, device names, and IP addresses via a direct request for scripts/logfiles.tar.gz.
+</code>
+
+- [alt3kx/CVE-2007-6638](https://github.com/alt3kx/CVE-2007-6638)
 
 
 ## 2006
