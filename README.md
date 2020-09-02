@@ -1173,7 +1173,6 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 </code>
 
 - [Prabhashaka/IT19147192-CVE-2020-8835](https://github.com/Prabhashaka/IT19147192-CVE-2020-8835)
-- [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
 
 ### CVE-2020-8840
 
@@ -1743,6 +1742,14 @@ Artica Proxy before 4.30.000000 Community Edition allows OS command injection vi
 
 - [InfoSec4Fun/CVE-2020-13159](https://github.com/InfoSec4Fun/CVE-2020-13159)
 
+### CVE-2020-13162
+
+<code>
+A time-of-check time-of-use vulnerability in PulseSecureService.exe in Pulse Secure Client versions prior to 9.1.6 down to 5.3 R70 for Windows (which runs as NT AUTHORITY/SYSTEM) allows unprivileged users to run a Microsoft Installer executable with elevated privileges.
+</code>
+
+- [redtimmy/tu-TOCTOU-kaiu-TOCMEU-CVE-2020-13162-](https://github.com/redtimmy/tu-TOCTOU-kaiu-TOCMEU-CVE-2020-13162-)
+
 ### CVE-2020-13254
 
 <code>
@@ -1985,12 +1992,27 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 
 ### CVE-2020-24028
+
+<code>
+ForLogic Qualiex v1 and v3 allows any authenticated customer to achieve privilege escalation via user creations, password changes, or user permission updates.
+</code>
+
 - [underprotection/CVE-2020-24028](https://github.com/underprotection/CVE-2020-24028)
 
 ### CVE-2020-24029
+
+<code>
+Because of unauthenticated password changes in ForLogic Qualiex v1 and v3, customer and admin permissions and data can be accessed via a simple request.
+</code>
+
 - [underprotection/CVE-2020-24029](https://github.com/underprotection/CVE-2020-24029)
 
 ### CVE-2020-24030
+
+<code>
+ForLogic Qualiex v1 and v3 has weak token expiration. This allows remote unauthenticated privilege escalation and access to sensitive data via token reuse.
+</code>
+
 - [underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030)
 
 ### CVE-2020-24033
@@ -3316,14 +3338,6 @@ A memory corruption issue was addressed with improved state management. This iss
 - [A2nkF/macOS-Kernel-Exploit](https://github.com/A2nkF/macOS-Kernel-Exploit)
 - [TrungNguyen1909/CVE-2019-8781-macOS](https://github.com/TrungNguyen1909/CVE-2019-8781-macOS)
 
-### CVE-2019-8936
-
-<code>
-NTP through 4.2.8p12 has a NULL Pointer Dereference.
-</code>
-
-- [snappyJack/CVE-2019-8936](https://github.com/snappyJack/CVE-2019-8936)
-
 ### CVE-2019-8942
 
 <code>
@@ -4388,14 +4402,6 @@ An issue was discovered in BlueStacks 4.110 and below on macOS and on 4.120 and 
 </code>
 
 - [seqred-s-a/cve-2019-14220](https://github.com/seqred-s-a/cve-2019-14220)
-
-### CVE-2019-14267
-
-<code>
-PDFResurrect 0.15 has a buffer overflow via a crafted PDF file because data associated with startxref and %%EOF is mishandled.
-</code>
-
-- [snappyJack/pdfresurrect_CVE-2019-14267](https://github.com/snappyJack/pdfresurrect_CVE-2019-14267)
 
 ### CVE-2019-14287
 
@@ -7736,22 +7742,6 @@ ReadXBMImage in coders/xbm.c in ImageMagick before 7.0.8-9 leaves data uninitial
 
 ### CVE-2018-16341
 - [mpgn/CVE-2018-16341](https://github.com/mpgn/CVE-2018-16341)
-
-### CVE-2018-16370
-
-<code>
-In PESCMS Team 2.2.1, attackers may upload and execute arbitrary PHP code through /Public/?g=Team&amp;m=Setting&amp;a=upgrade by placing a .php file in a ZIP archive.
-</code>
-
-- [snappyJack/CVE-2018-16370](https://github.com/snappyJack/CVE-2018-16370)
-
-### CVE-2018-16373
-
-<code>
-Frog CMS 0.9.5 has an Upload vulnerability that can create files via /admin/?/plugin/file_manager/save.
-</code>
-
-- [snappyJack/CVE-2018-16373](https://github.com/snappyJack/CVE-2018-16373)
 
 ### CVE-2018-16447
 
