@@ -2010,6 +2010,14 @@ An issue was discovered in includes/webconsole.php in RaspAP 2.5. With authentic
 ### CVE-2020-24765
 - [trump88/CVE-2020-24765](https://github.com/trump88/CVE-2020-24765)
 
+### CVE-2020-24955
+
+<code>
+SUPERAntiSyware Professional X Trial 10.0.1206 is vulnerable to local privilege escalation because it allows unprivileged users to restore a malicious DLL from quarantine into the system32 folder via an NTFS directory junction, as demonstrated by a crafted ualapi.dll file that is detected as malware.
+</code>
+
+- [b1nary0x1/CVE-2020-24955](https://github.com/b1nary0x1/CVE-2020-24955)
+
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
 
