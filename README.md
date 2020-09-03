@@ -1990,6 +1990,7 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 </code>
 
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
+- [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
 ### CVE-2020-24028
 
@@ -2029,6 +2030,14 @@ An issue was discovered in includes/webconsole.php in RaspAP 2.5. With authentic
 ### CVE-2020-24597
 - [HoangKien1020/CVE-2020-24597](https://github.com/HoangKien1020/CVE-2020-24597)
 
+### CVE-2020-24616
+
+<code>
+FasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPDataSource (aka Anteros-DBCP).
+</code>
+
+- [Kamimuka/cve-2020-24616-poc](https://github.com/Kamimuka/cve-2020-24616-poc)
+
 ### CVE-2020-24765
 - [trump88/CVE-2020-24765](https://github.com/trump88/CVE-2020-24765)
 
@@ -2041,6 +2050,11 @@ SUPERAntiSyware Professional X Trial 10.0.1206 is vulnerable to local privilege 
 - [b1nary0x1/CVE-2020-24955](https://github.com/b1nary0x1/CVE-2020-24955)
 
 ### CVE-2020-25068
+
+<code>
+Setelsa Conacwin v3.7.1.2 is vulnerable to a local file inclusion vulnerability. This vulnerability allows a remote unauthenticated attacker to read internal files on the server via an http:IP:PORT/../../path/file_to_disclose Directory Traversal URI.
+</code>
+
 - [bryanroma/CVE-2020-25068](https://github.com/bryanroma/CVE-2020-25068)
 
 ### CVE-2020-72381
@@ -7939,6 +7953,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 
 - [dinhbaouit/CVE-2018-16763](https://github.com/dinhbaouit/CVE-2018-16763)
 - [SalimAlk/CVE-2018-16763-](https://github.com/SalimAlk/CVE-2018-16763-)
+- [ecebotarosh/CVE-2018-16763-exploit](https://github.com/ecebotarosh/CVE-2018-16763-exploit)
 
 ### CVE-2018-16854
 
@@ -10284,6 +10299,7 @@ An elevation of privilege vulnerability in the Android system (art). Product: An
 - [xyzAsian/Janus-CVE-2017-13156](https://github.com/xyzAsian/Janus-CVE-2017-13156)
 - [caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156)
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
+- [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
 
 ### CVE-2017-13253
 
