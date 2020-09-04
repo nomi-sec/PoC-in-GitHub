@@ -664,7 +664,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [mr-r3b00t/CVE-2020-3452](https://github.com/mr-r3b00t/CVE-2020-3452)
 - [foulenzer/CVE-2020-3452](https://github.com/foulenzer/CVE-2020-3452)
 - [Gh0st0ne/http-vuln-cve2020-3452.nse](https://github.com/Gh0st0ne/http-vuln-cve2020-3452.nse)
-- [tacticalDevC/CVE-2020-3452](https://github.com/tacticalDevC/CVE-2020-3452)
+- [0x5ECF4ULT/CVE-2020-3452](https://github.com/0x5ECF4ULT/CVE-2020-3452)
 - [paran0id34/CVE-2020-3452](https://github.com/paran0id34/CVE-2020-3452)
 - [murataydemir/CVE-2020-3452](https://github.com/murataydemir/CVE-2020-3452)
 - [ludy-dev/Cisco-ASA-LFI](https://github.com/ludy-dev/Cisco-ASA-LFI)
