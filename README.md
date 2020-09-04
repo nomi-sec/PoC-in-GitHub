@@ -1,6 +1,14 @@
 # PoC in GitHub
 
 ## 2020
+### CVE-2020-0014
+
+<code>
+It is possible for a malicious application to construct a TYPE_TOAST window manually and make that window clickable. This could lead to a local escalation of privilege with no additional execution privileges needed. User action is needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-128674520
+</code>
+
+- [tea9/CVE-2020-0014-Toast](https://github.com/tea9/CVE-2020-0014-Toast)
+
 ### CVE-2020-0022
 
 <code>
@@ -248,7 +256,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796)
 - [awareseven/eternalghosttest](https://github.com/awareseven/eternalghosttest)
 - [weidutech/CVE-2020-0796-PoC](https://github.com/weidutech/CVE-2020-0796-PoC)
-- [OfJAAH/CVE-2020-0796](https://github.com/OfJAAH/CVE-2020-0796)
 - [xax007/CVE-2020-0796-Scanner](https://github.com/xax007/CVE-2020-0796-Scanner)
 - [Dhoomralochana/Scanners-for-CVE-2020-0796-Testing](https://github.com/Dhoomralochana/Scanners-for-CVE-2020-0796-Testing)
 - [UraSecTeam/smbee](https://github.com/UraSecTeam/smbee)
@@ -309,6 +316,14 @@ An elevation of privilege vulnerability exists when the Windows Work Folder Serv
 </code>
 
 - [bonesg/CVE-2020-0797](https://github.com/bonesg/CVE-2020-0797)
+
+### CVE-2020-0801
+
+<code>
+A memory corruption vulnerability exists when Windows Media Foundation improperly handles objects in memory, aka 'Media Foundation Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-0807, CVE-2020-0809, CVE-2020-0869.
+</code>
+
+- [5l1v3r1/CVE-2020-0801](https://github.com/5l1v3r1/CVE-2020-0801)
 
 ### CVE-2020-0910
 
@@ -1502,6 +1517,11 @@ An issue was discovered in Docker Desktop through 2.2.0.5 on Windows. If a local
 - [CrackerCat/CVE-2020-11492](https://github.com/CrackerCat/CVE-2020-11492)
 
 ### CVE-2020-11493
+
+<code>
+In Foxit Reader and PhantomPDF before 10.0.1, and PhantomPDF before 9.7.3, attackers can obtain sensitive information about an uninitialized object because of direct transformation from PDF Object to Stream without concern for a crafted XObject.
+</code>
+
 - [fengjixuchui/CVE-2020-11493](https://github.com/fengjixuchui/CVE-2020-11493)
 
 ### CVE-2020-11519
