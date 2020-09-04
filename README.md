@@ -3002,6 +3002,14 @@ Out of bounds write in JavaScript in Google Chrome prior to 73.0.3683.86 allowed
 
 - [timwr/CVE-2019-5825](https://github.com/timwr/CVE-2019-5825)
 
+### CVE-2019-5893
+
+<code>
+Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.xml query parameter.
+</code>
+
+- [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
+
 ### CVE-2019-6111
 
 <code>
