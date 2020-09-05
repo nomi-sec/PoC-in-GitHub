@@ -1328,6 +1328,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484)
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [DeviantSec/CVE-2020-9484-Scanner](https://github.com/DeviantSec/CVE-2020-9484-Scanner)
+- [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 
 ### CVE-2020-9495
 
@@ -14799,6 +14800,7 @@ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function be
 </code>
 
 - [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
+- [notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392)
 
 ### CVE-2006-3592
 
