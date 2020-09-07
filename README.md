@@ -49,6 +49,7 @@ In startActivities of ActivityStartController.java, there is a possible escalati
 
 - [wyu0hop/CVE-2020-0096](https://github.com/wyu0hop/CVE-2020-0096)
 - [liuyun201990/StrandHogg2](https://github.com/liuyun201990/StrandHogg2)
+- [tea9/CVE-2020-0096-StrandHogg2](https://github.com/tea9/CVE-2020-0096-StrandHogg2)
 
 ### CVE-2020-0108
 
@@ -7678,6 +7679,14 @@ GEAR Software products that include GEARAspiWDM.sys, 2.2.5.0, allow local users 
 </code>
 
 - [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
+
+### CVE-2018-15664
+
+<code>
+In Docker through 18.06.1-ce-rc2, the API endpoints behind the 'docker cp' command are vulnerable to a symlink-exchange attack with Directory Traversal, giving attackers arbitrary read-write access to the host filesystem with root privileges, because daemon/archive.go does not do archive operations on a frozen filesystem (or from within a chroot).
+</code>
+
+- [donghyunlee00/CVE-2018-15664](https://github.com/donghyunlee00/CVE-2018-15664)
 
 ### CVE-2018-15686
 
