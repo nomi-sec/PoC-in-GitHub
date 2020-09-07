@@ -3796,6 +3796,14 @@ jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishan
 - [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 
+### CVE-2019-11447
+
+<code>
+An issue was discovered in CutePHP CuteNews 2.1.2. An attacker can infiltrate the server through the avatar upload process in the profile area via the avatar_file field to index.php?mod=main&amp;opt=personal. There is no effective control of $imgsize in /core/modules/dashboard.php. The header content of a file can be changed and the control can be bypassed for code execution. (An attacker can use the GIF header for this.)
+</code>
+
+- [CRFSlick/CVE-2019-11447-POC](https://github.com/CRFSlick/CVE-2019-11447-POC)
+
 ### CVE-2019-11477
 
 <code>
@@ -6235,6 +6243,7 @@ Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer over
 - [reswitched/rcm-modchips](https://github.com/reswitched/rcm-modchips)
 - [switchjs/fusho](https://github.com/switchjs/fusho)
 - [ChrisFigura/react-tegra-payload-launcher](https://github.com/ChrisFigura/react-tegra-payload-launcher)
+- [austinhartzheim/fusee-gelee](https://github.com/austinhartzheim/fusee-gelee)
 
 ### CVE-2018-6376
 
@@ -12815,14 +12824,24 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [cyphar/heartthreader](https://github.com/cyphar/heartthreader)
 - [jdauphant/patch-openssl-CVE-2014-0160](https://github.com/jdauphant/patch-openssl-CVE-2014-0160)
 - [musalbas/heartbleed-masstest](https://github.com/musalbas/heartbleed-masstest)
+- [obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner)
 - [Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker)
+- [isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic)
+- [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
+- [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
+- [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
 - [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
+- [amerine/coronary](https://github.com/amerine/coronary)
 - [0x90/CVE-2014-0160](https://github.com/0x90/CVE-2014-0160)
+- [ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160)
 - [waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker)
+- [siddolo/knockbleed](https://github.com/siddolo/knockbleed)
+- [sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix)
 - [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
 - [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
+- [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
 - [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
 - [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
@@ -12912,6 +12931,20 @@ Buffer overflow in the Vcl.Graphics.TPicture.Bitmap implementation in the Visual
 </code>
 
 - [helpsystems/Embarcadero-Workaround](https://github.com/helpsystems/Embarcadero-Workaround)
+
+### CVE-2014-160
+- [menrcom/CVE-2014-160](https://github.com/menrcom/CVE-2014-160)
+- [GitMirar/heartbleed_exploit](https://github.com/GitMirar/heartbleed_exploit)
+
+### CVE-2014-1266
+
+<code>
+The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExchange.c in the Secure Transport feature in the Data Security component in Apple iOS 6.x before 6.1.6 and 7.x before 7.0.6, Apple TV 6.x before 6.0.2, and Apple OS X 10.9.x before 10.9.2 does not check the signature in a TLS Server Key Exchange message, which allows man-in-the-middle attackers to spoof SSL servers by (1) using an arbitrary private key for the signing step or (2) omitting the signing step.
+</code>
+
+- [landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266)
+- [linusyang/SSLPatch](https://github.com/linusyang/SSLPatch)
+- [gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc)
 
 ### CVE-2014-1303
 
