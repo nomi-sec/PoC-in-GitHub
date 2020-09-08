@@ -59,6 +59,14 @@ In postNotification of ServiceRecord.java, there is a possible bypass of foregro
 
 - [CrackerCat/ServiceCheater](https://github.com/CrackerCat/ServiceCheater)
 
+### CVE-2020-0114
+
+<code>
+In onCreateSliceProvider of KeyguardSliceProvider.java, there is a possible confused deputy due to a PendingIntent error. This could lead to local escalation of privilege that allows actions performed as the System UI, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-147606347
+</code>
+
+- [tea9/CVE-2020-0114-systemui](https://github.com/tea9/CVE-2020-0114-systemui)
+
 ### CVE-2020-0121
 
 <code>
@@ -2087,6 +2095,9 @@ Setelsa Conacwin v3.7.1.2 is vulnerable to a local file inclusion vulnerability.
 </code>
 
 - [bryanroma/CVE-2020-25068](https://github.com/bryanroma/CVE-2020-25068)
+
+### CVE-2020-25200
+- [lukaszstu/pritunl](https://github.com/lukaszstu/pritunl)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
