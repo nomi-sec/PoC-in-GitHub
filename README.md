@@ -2171,14 +2171,6 @@ When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in 
 - [CherishHair/CVE-2019-0232-EXP](https://github.com/CherishHair/CVE-2019-0232-EXP)
 - [setrus/CVE-2019-0232](https://github.com/setrus/CVE-2019-0232)
 
-### CVE-2019-0350
-
-<code>
-SAP HANA Database, versions 1.0, 2.0, allows an unauthorized attacker to send a malformed connection request, which crashes the indexserver of an SAP HANA instance, leading to Denial of Service
-</code>
-
-- [icryo/CVE-2019-0350](https://github.com/icryo/CVE-2019-0350)
-
 ### CVE-2019-0539
 
 <code>
