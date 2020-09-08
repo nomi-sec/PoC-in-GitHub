@@ -334,6 +334,9 @@ A memory corruption vulnerability exists when Windows Media Foundation improperl
 
 - [5l1v3r1/CVE-2020-0801](https://github.com/5l1v3r1/CVE-2020-0801)
 
+### CVE-2020-0890
+- [gerhart01/hyperv_local_dos_poc](https://github.com/gerhart01/hyperv_local_dos_poc)
+
 ### CVE-2020-0910
 
 <code>
@@ -12817,7 +12820,7 @@ Apache Commons BeanUtils, as distributed in lib/commons-beanutils-1.8.0.jar in A
 
 - [rgielen/struts1filter](https://github.com/rgielen/struts1filter)
 - [ricedu/struts1-patch](https://github.com/ricedu/struts1-patch)
-- [anob3it/strutt-cve-2014-0114](https://github.com/anob3it/strutt-cve-2014-0114)
+- [aenlr/strutt-cve-2014-0114](https://github.com/aenlr/strutt-cve-2014-0114)
 
 ### CVE-2014-0130
 
