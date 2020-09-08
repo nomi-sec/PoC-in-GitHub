@@ -1901,6 +1901,9 @@ BIP-143 in the Bitcoin protocol specification mishandles the signing of a Segwit
 
 - [nondejus/CVE-2020-14199](https://github.com/nondejus/CVE-2020-14199)
 
+### CVE-2020-14292
+- [alwentiu/CVE-2020-14292](https://github.com/alwentiu/CVE-2020-14292)
+
 ### CVE-2020-14321
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
 
@@ -2677,7 +2680,7 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 </code>
 
 - [timwr/CVE-2019-2215](https://github.com/timwr/CVE-2019-2215)
-- [addhaloka/CVE-2019-2215](https://github.com/addhaloka/CVE-2019-2215)
+- [raystyle/CVE-2019-2215](https://github.com/raystyle/CVE-2019-2215)
 - [kangtastic/cve-2019-2215](https://github.com/kangtastic/cve-2019-2215)
 - [marcinguy/CVE-2019-2215](https://github.com/marcinguy/CVE-2019-2215)
 - [LIznzn/CVE-2019-2215](https://github.com/LIznzn/CVE-2019-2215)
