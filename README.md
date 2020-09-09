@@ -1067,6 +1067,12 @@ A vulnerability in the improper handling of symbolic links in Bitdefender Antivi
 
 - [RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP](https://github.com/RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP)
 
+### CVE-2020-8150
+- [geffner/CVE-2020-8150](https://github.com/geffner/CVE-2020-8150)
+
+### CVE-2020-8152
+- [geffner/CVE-2020-8152](https://github.com/geffner/CVE-2020-8152)
+
 ### CVE-2020-8163
 
 <code>
@@ -1871,6 +1877,14 @@ Similar to CVE-2020-1956, Kylin has one more restful API which concatenates the 
 </code>
 
 - [bit4woo/CVE-2020-13925](https://github.com/bit4woo/CVE-2020-13925)
+
+### CVE-2020-13933
+
+<code>
+Apache Shiro before 1.6.0, when using Apache Shiro, a specially crafted HTTP request may cause an authentication bypass.
+</code>
+
+- [lyy289065406/CVE-2020-13933](https://github.com/lyy289065406/CVE-2020-13933)
 
 ### CVE-2020-13996
 
@@ -11967,6 +11981,14 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 
 
 ## 2015
+### CVE-2015-0006
+
+<code>
+The Network Location Awareness (NLA) service in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not perform mutual authentication to determine a domain connection, which allows remote attackers to trigger an unintended permissive configuration by spoofing DNS and LDAP responses on a local network, aka &quot;NLA Security Feature Bypass Vulnerability.&quot;
+</code>
+
+- [bugch3ck/imposter](https://github.com/bugch3ck/imposter)
+
 ### CVE-2015-0057
 
 <code>
@@ -12008,6 +12030,14 @@ Use-after-free vulnerability in the process_nested_data function in ext/standard
 Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
 </code>
 
+- [fser/ghost-checker](https://github.com/fser/ghost-checker)
+- [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
+- [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
+- [piyokango/ghost](https://github.com/piyokango/ghost)
+- [LyricalSecurity/GHOSTCHECK-cve-2015-0235](https://github.com/LyricalSecurity/GHOSTCHECK-cve-2015-0235)
+- [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
+- [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
+- [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
