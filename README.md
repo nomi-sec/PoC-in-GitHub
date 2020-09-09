@@ -2312,7 +2312,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [Micr067/CVE-2019-0708RDP-MSF](https://github.com/Micr067/CVE-2019-0708RDP-MSF)
 - [adkinguzi/CVE-2019-0708-BlueKeep](https://github.com/adkinguzi/CVE-2019-0708-BlueKeep)
 - [FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708)
-- [qinggegeya/CVE-2019-0708-EXP-MSF-](https://github.com/qinggegeya/CVE-2019-0708-EXP-MSF-)
+- [qing-root/CVE-2019-0708-EXP-MSF-](https://github.com/qing-root/CVE-2019-0708-EXP-MSF-)
 - [distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708)
 - [0xFlag/CVE-2019-0708-test](https://github.com/0xFlag/CVE-2019-0708-test)
 - [1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708)
@@ -11967,14 +11967,6 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 
 
 ## 2015
-### CVE-2015-0006
-
-<code>
-The Network Location Awareness (NLA) service in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not perform mutual authentication to determine a domain connection, which allows remote attackers to trigger an unintended permissive configuration by spoofing DNS and LDAP responses on a local network, aka &quot;NLA Security Feature Bypass Vulnerability.&quot;
-</code>
-
-- [bugch3ck/imposter](https://github.com/bugch3ck/imposter)
-
 ### CVE-2015-0057
 
 <code>
@@ -12016,14 +12008,6 @@ Use-after-free vulnerability in the process_nested_data function in ext/standard
 Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
 </code>
 
-- [fser/ghost-checker](https://github.com/fser/ghost-checker)
-- [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
-- [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
-- [piyokango/ghost](https://github.com/piyokango/ghost)
-- [LyricalSecurity/GHOSTCHECK-cve-2015-0235](https://github.com/LyricalSecurity/GHOSTCHECK-cve-2015-0235)
-- [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
-- [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
-- [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
