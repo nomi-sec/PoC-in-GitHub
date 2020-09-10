@@ -663,6 +663,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 </code>
 
 - [pry0cc/CVE-2020-3187](https://github.com/pry0cc/CVE-2020-3187)
+- [Basu-banakar/CVE-2020-3187](https://github.com/Basu-banakar/CVE-2020-3187)
 
 ### CVE-2020-3452
 
@@ -12041,10 +12042,12 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 
 - [fser/ghost-checker](https://github.com/fser/ghost-checker)
 - [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
+- [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
 - [piyokango/ghost](https://github.com/piyokango/ghost)
 - [LyricalSecurity/GHOSTCHECK-cve-2015-0235](https://github.com/LyricalSecurity/GHOSTCHECK-cve-2015-0235)
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
+- [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
