@@ -13798,6 +13798,14 @@ The skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel t
 
 - [bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348)
 
+### CVE-2013-4362
+
+<code>
+WEB-DAV Linux File System (davfs2) 1.4.6 and 1.4.7 allow local users to gain privileges via unknown attack vectors in (1) kernel_interface.c and (2) mount_davfs.c, related to the &quot;system&quot; function.
+</code>
+
+- [notclement/Automatic-davfs2-1.4.6-1.4.7-Local-Privilege-Escalation](https://github.com/notclement/Automatic-davfs2-1.4.6-1.4.7-Local-Privilege-Escalation)
+
 ### CVE-2013-4378
 
 <code>
