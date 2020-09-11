@@ -489,6 +489,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 </code>
 
 - [mingchen-script/CVE-2020-1472-visualizer](https://github.com/mingchen-script/CVE-2020-1472-visualizer)
+- [SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472)
 
 ### CVE-2020-1493
 
