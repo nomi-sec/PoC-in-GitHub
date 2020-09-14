@@ -911,6 +911,15 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 </code>
 
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
+- [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
+
+### CVE-2020-6468
+
+<code>
+Type confusion in V8 in Google Chrome prior to 83.0.4103.61 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [Goyotan/CVE-2020-6468-PoC](https://github.com/Goyotan/CVE-2020-6468-PoC)
 
 ### CVE-2020-6514
 
@@ -3027,7 +3036,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
 - [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
 - [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
-- [ebdecastro/poc-cve-2019-5736](https://github.com/ebdecastro/poc-cve-2019-5736)
+- [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
 - [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
@@ -10026,6 +10035,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [mbrasile/CVE-2017-9841](https://github.com/mbrasile/CVE-2017-9841)
 - [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
+- [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
 
 ### CVE-2017-9934
 
