@@ -500,6 +500,10 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [VoidSec/CVE-2020-1472](https://github.com/VoidSec/CVE-2020-1472)
 - [risksense/zerologon](https://github.com/risksense/zerologon)
 - [bb00/zer0dump](https://github.com/bb00/zer0dump)
+- [Kamimuka/CVE-2020-1472](https://github.com/Kamimuka/CVE-2020-1472)
+- [NAXG/CVE-2020-1472](https://github.com/NAXG/CVE-2020-1472)
+- [s0wr0b1ndef/CVE-2020-1472](https://github.com/s0wr0b1ndef/CVE-2020-1472)
+- [harshil-shah004/zerologon-CVE-2020-1472](https://github.com/harshil-shah004/zerologon-CVE-2020-1472)
 
 ### CVE-2020-1493
 
