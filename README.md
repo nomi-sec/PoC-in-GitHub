@@ -504,6 +504,8 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [NAXG/CVE-2020-1472](https://github.com/NAXG/CVE-2020-1472)
 - [s0wr0b1ndef/CVE-2020-1472](https://github.com/s0wr0b1ndef/CVE-2020-1472)
 - [harshil-shah004/zerologon-CVE-2020-1472](https://github.com/harshil-shah004/zerologon-CVE-2020-1472)
+- [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
+- [422926799/CVE-2020-1472](https://github.com/422926799/CVE-2020-1472)
 
 ### CVE-2020-1493
 
@@ -1513,6 +1515,11 @@ A vulnerability was found in all versions of containernetworking/plugins before 
 - [knqyf263/CVE-2020-10749](https://github.com/knqyf263/CVE-2020-10749)
 
 ### CVE-2020-10759
+
+<code>
+A PGP signature bypass flaw was found in fwupd (all versions), which could lead to the installation of unsigned firmware. As per upstream, a signature bypass is theoretically possible, but not practical because the Linux Vendor Firmware Service (LVFS) is either not implemented or enabled in versions of fwupd shipped with Red Hat Enterprise Linux 7 and 8. The highest threat from this vulnerability is to confidentiality and integrity.
+</code>
+
 - [justinsteven/CVE-2020-10759-poc](https://github.com/justinsteven/CVE-2020-10759-poc)
 
 ### CVE-2020-11076
@@ -5755,6 +5762,7 @@ Spring Framework, versions 5.0 prior to 5.0.5 and versions 4.3 prior to 4.3.15 a
 - [genxor/CVE-2018-1270_EXP](https://github.com/genxor/CVE-2018-1270_EXP)
 - [tafamace/CVE-2018-1270](https://github.com/tafamace/CVE-2018-1270)
 - [Venscor/CVE-2018-1270](https://github.com/Venscor/CVE-2018-1270)
+- [mprunet/owasp-formation-cve-2018-1270](https://github.com/mprunet/owasp-formation-cve-2018-1270)
 
 ### CVE-2018-1273
 
