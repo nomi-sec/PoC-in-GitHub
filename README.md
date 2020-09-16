@@ -506,6 +506,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [harshil-shah004/zerologon-CVE-2020-1472](https://github.com/harshil-shah004/zerologon-CVE-2020-1472)
 - [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
 - [422926799/CVE-2020-1472](https://github.com/422926799/CVE-2020-1472)
+- [scv-m/zabbix-template-CVE-2020-1472](https://github.com/scv-m/zabbix-template-CVE-2020-1472)
 
 ### CVE-2020-1493
 
@@ -1463,6 +1464,14 @@ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
 
 - [duolaoa333/CVE-2020-10204](https://github.com/duolaoa333/CVE-2020-10204)
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
+
+### CVE-2020-10558
+
+<code>
+The driving interface of Tesla Model 3 vehicles in any release before 2020.4.10 allows Denial of Service to occur due to improper process separation, which allows attackers to disable the speedometer, web browser, climate controls, turn signal visual and sounds, navigation, autopilot notifications, along with other miscellaneous functions from the main screen.
+</code>
+
+- [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
 
 ### CVE-2020-10560
 
