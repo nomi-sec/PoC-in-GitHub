@@ -512,6 +512,8 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Fa1c0n35/SecuraBV-CVE-2020-1472](https://github.com/Fa1c0n35/SecuraBV-CVE-2020-1472)
 - [CanciuCostin/CVE-2020-1472](https://github.com/CanciuCostin/CVE-2020-1472)
 - [0xcccc666/cve-2020-1472_Tool-collection](https://github.com/0xcccc666/cve-2020-1472_Tool-collection)
+- [npocmak/CVE-2020-1472](https://github.com/npocmak/CVE-2020-1472)
+- [victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472)
 
 ### CVE-2020-1493
 
@@ -6498,7 +6500,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Eugene24/CVE-2018-6574](https://github.com/Eugene24/CVE-2018-6574)
 - [coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574)
 - [darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574)
-- [abhaynayar/cve-2018-6574](https://github.com/abhaynayar/cve-2018-6574)
 - [it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574)
 - [Malone5923/CVE-2018-6574-go-get-RCE](https://github.com/Malone5923/CVE-2018-6574-go-get-RCE)
 - [l4rm4nd/CVE-2018-6574](https://github.com/l4rm4nd/CVE-2018-6574)
