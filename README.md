@@ -507,6 +507,11 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
 - [422926799/CVE-2020-1472](https://github.com/422926799/CVE-2020-1472)
 - [scv-m/zabbix-template-CVE-2020-1472](https://github.com/scv-m/zabbix-template-CVE-2020-1472)
+- [mstxq17/cve-2020-1472](https://github.com/mstxq17/cve-2020-1472)
+- [Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472)
+- [Fa1c0n35/SecuraBV-CVE-2020-1472](https://github.com/Fa1c0n35/SecuraBV-CVE-2020-1472)
+- [CanciuCostin/CVE-2020-1472](https://github.com/CanciuCostin/CVE-2020-1472)
+- [0xcccc666/cve-2020-1472_Tool-collection](https://github.com/0xcccc666/cve-2020-1472_Tool-collection)
 
 ### CVE-2020-1493
 
@@ -5340,6 +5345,22 @@ freeFTPd 1.0.8 has a Post-Authentication Buffer Overflow via a crafted SIZE comm
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
 
+### CVE-2019-19520
+
+<code>
+xlock in OpenBSD 6.6 allows local users to gain the privileges of the auth group by providing a LIBGL_DRIVERS_PATH environment variable, because xenocara/lib/mesa/src/loader/loader.c mishandles dlopen.
+</code>
+
+- [retrymp3/OpenBSD-CVE-2019-19520-CVE-2019-19522](https://github.com/retrymp3/OpenBSD-CVE-2019-19520-CVE-2019-19522)
+
+### CVE-2019-19522
+
+<code>
+OpenBSD 6.6, in a non-default configuration where S/Key or YubiKey authentication is enabled, allows local users to become root by leveraging membership in the auth group. This occurs because root's file can be written to /etc/skey or /var/db/yubikey, and need not be owned by root.
+</code>
+
+- [retrymp3/OpenBSD-CVE-2019-19522](https://github.com/retrymp3/OpenBSD-CVE-2019-19522)
+
 ### CVE-2019-19550
 
 <code>
@@ -5630,7 +5651,6 @@ A vulnerability in the web interface of the Cisco Adaptive Security Appliance (A
 - [milo2012/CVE-2018-0296](https://github.com/milo2012/CVE-2018-0296)
 - [yassineaboukir/CVE-2018-0296](https://github.com/yassineaboukir/CVE-2018-0296)
 - [bhenner1/CVE-2018-0296](https://github.com/bhenner1/CVE-2018-0296)
-- [irbishop/CVE-2018-0296](https://github.com/irbishop/CVE-2018-0296)
 - [qiantu88/CVE-2018-0296](https://github.com/qiantu88/CVE-2018-0296)
 
 ### CVE-2018-0708
