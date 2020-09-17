@@ -317,6 +317,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [ZecOps/SMBGhost-SMBleed-scanner](https://github.com/ZecOps/SMBGhost-SMBleed-scanner)
 - [getdrive/smbghost](https://github.com/getdrive/smbghost)
 - [iamramahibrah/smbghost](https://github.com/iamramahibrah/smbghost)
+- [rsmudge/CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)
 
 ### CVE-2020-0797
 
@@ -883,7 +884,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [zhzyker/CVE-2020-5902](https://github.com/zhzyker/CVE-2020-5902)
 - [GovindPalakkal/EvilRip](https://github.com/GovindPalakkal/EvilRip)
 - [dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902)
-- [c130rg/checkvulnCVE2020590](https://github.com/c130rg/checkvulnCVE2020590)
+- [renanhsilva/checkvulnCVE2020590](https://github.com/renanhsilva/checkvulnCVE2020590)
 - [halencarjunior/f5scan](https://github.com/halencarjunior/f5scan)
 - [deepsecurity-pe/GoF5-CVE-2020-5902](https://github.com/deepsecurity-pe/GoF5-CVE-2020-5902)
 - [Shu1L/CVE-2020-5902-fofa-scan](https://github.com/Shu1L/CVE-2020-5902-fofa-scan)
@@ -4907,7 +4908,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
-- [bG9jYWxob3N0/CVE-2019-16113-PoC](https://github.com/bG9jYWxob3N0/CVE-2019-16113-PoC)
+- [arptables/CVE-2019-16113-PoC](https://github.com/arptables/CVE-2019-16113-PoC)
 
 ### CVE-2019-16278
 
@@ -5631,6 +5632,7 @@ Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Buffer Overflow. The impa
 A vulnerability in the Secure Sockets Layer (SSL) VPN functionality of the Cisco Adaptive Security Appliance (ASA) Software could allow an unauthenticated, remote attacker to cause a reload of the affected system or to remotely execute code. The vulnerability is due to an attempt to double free a region of memory when the webvpn feature is enabled on the Cisco ASA device. An attacker could exploit this vulnerability by sending multiple, crafted XML packets to a webvpn-configured interface on the affected system. An exploit could allow the attacker to execute arbitrary code and obtain full control of the system, or cause a reload of the affected device. This vulnerability affects Cisco ASA Software that is running on the following Cisco products: 3000 Series Industrial Security Appliance (ISA), ASA 5500 Series Adaptive Security Appliances, ASA 5500-X Series Next-Generation Firewalls, ASA Services Module for Cisco Catalyst 6500 Series Switches and Cisco 7600 Series Routers, ASA 1000V Cloud Firewall, Adaptive Security Virtual Appliance (ASAv), Firepower 2100 Series Security Appliance, Firepower 4110 Security Appliance, Firepower 9300 ASA Security Module, Firepower Threat Defense Software (FTD). Cisco Bug IDs: CSCvg35618.
 </code>
 
+- [1337g/CVE-2018-0101-DOS-POC](https://github.com/1337g/CVE-2018-0101-DOS-POC)
 - [Cymmetria/ciscoasa_honeypot](https://github.com/Cymmetria/ciscoasa_honeypot)
 
 ### CVE-2018-0114
@@ -5668,6 +5670,17 @@ Command injection vulnerability in networking of QNAP Q'center Virtual Appliance
 </code>
 
 - [ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708)
+
+### CVE-2018-0802
+
+<code>
+Equation Editor in Microsoft Office 2007, Microsoft Office 2010, Microsoft Office 2013, and Microsoft Office 2016 allow a remote code execution vulnerability due to the way objects are handled in memory, aka &quot;Microsoft Office Memory Corruption Vulnerability&quot;. This CVE is unique from CVE-2018-0797 and CVE-2018-0812.
+</code>
+
+- [zldww2011/CVE-2018-0802_POC](https://github.com/zldww2011/CVE-2018-0802_POC)
+- [rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802)
+- [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
+- [likescam/CVE-2018-0802_CVE-2017-11882](https://github.com/likescam/CVE-2018-0802_CVE-2017-11882)
 
 ### CVE-2018-0824
 
@@ -5825,6 +5838,7 @@ When using Distributed Test only (RMI based), Apache JMeter 2.x and 3.x uses an 
 The URL pattern of &quot;&quot; (the empty string) which exactly maps to the context root was not correctly handled in Apache Tomcat 9.0.0.M1 to 9.0.4, 8.5.0 to 8.5.27, 8.0.0.RC1 to 8.0.49 and 7.0.0 to 7.0.84 when used as part of a security constraint definition. This caused the constraint to be ignored. It was, therefore, possible for unauthorised users to gain access to web application resources that should have been protected. Only security constraints with a URL pattern of the empty string were affected.
 </code>
 
+- [knqyf263/CVE-2018-1304](https://github.com/knqyf263/CVE-2018-1304)
 - [thariyarox/tomcat_CVE-2018-1304_testing](https://github.com/thariyarox/tomcat_CVE-2018-1304_testing)
 
 ### CVE-2018-1305
@@ -5926,6 +5940,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 Vulnerability in the Oracle Hospitality Simphony component of Oracle Hospitality Applications (subcomponent: Security). Supported versions that are affected are 2.7, 2.8 and 2.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hospitality Simphony. Successful attacks of this vulnerability can result in takeover of Oracle Hospitality Simphony. CVSS 3.0 Base Score 8.1 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [erpscanteam/CVE-2018-2636](https://github.com/erpscanteam/CVE-2018-2636)
 - [Cymmetria/micros_honeypot](https://github.com/Cymmetria/micros_honeypot)
 
 ### CVE-2018-2844
@@ -6014,6 +6029,14 @@ Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (su
 
 - [ndureiss/e1000_vulnerability_exploit](https://github.com/ndureiss/e1000_vulnerability_exploit)
 
+### CVE-2018-3608
+
+<code>
+A vulnerability in Trend Micro Maximum Security's (Consumer) 2018 (versions 12.0.1191 and below) User-Mode Hooking (UMH) driver could allow an attacker to create a specially crafted packet that could alter a vulnerable system in such a way that malicious code could be injected into other processes.
+</code>
+
+- [ZhiyuanWang-Chengdu-Qihoo360/Trend_Micro_POC](https://github.com/ZhiyuanWang-Chengdu-Qihoo360/Trend_Micro_POC)
+
 ### CVE-2018-3639
 
 <code>
@@ -6085,6 +6108,14 @@ An issue was discovered in certain Apple products. iOS before 11.2.5 is affected
 - [rani-i/bluetoothdPoC](https://github.com/rani-i/bluetoothdPoC)
 - [MTJailed/UnjailMe](https://github.com/MTJailed/UnjailMe)
 - [joedaguy/Exploit11.2](https://github.com/joedaguy/Exploit11.2)
+
+### CVE-2018-4110
+
+<code>
+An issue was discovered in certain Apple products. iOS before 11.3 is affected. The issue involves the &quot;Web App&quot; component. It allows remote attackers to bypass intended restrictions on cookie persistence.
+</code>
+
+- [bencompton/ios11-cookie-set-expire-issue](https://github.com/bencompton/ios11-cookie-set-expire-issue)
 
 ### CVE-2018-4121
 
@@ -6196,6 +6227,22 @@ In iOS before 11.4, a memory corruption issue exists and was addressed with impr
 
 - [omerporze/toothfairy](https://github.com/omerporze/toothfairy)
 
+### CVE-2018-4331
+
+<code>
+A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12, macOS Mojave 10.14, tvOS 12, watchOS 5.
+</code>
+
+- [bazad/gsscred-race](https://github.com/bazad/gsscred-race)
+
+### CVE-2018-4343
+
+<code>
+A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12, macOS Mojave 10.14, tvOS 12, watchOS 5.
+</code>
+
+- [bazad/gsscred-move-uaf](https://github.com/bazad/gsscred-move-uaf)
+
 ### CVE-2018-4407
 
 <code>
@@ -6257,6 +6304,10 @@ A use-after-free vulnerability was discovered in Adobe Flash Player before 28.0.
 </code>
 
 - [ydl555/CVE-2018-4878-](https://github.com/ydl555/CVE-2018-4878-)
+- [mdsecactivebreach/CVE-2018-4878](https://github.com/mdsecactivebreach/CVE-2018-4878)
+- [hybridious/CVE-2018-4878](https://github.com/hybridious/CVE-2018-4878)
+- [vysecurity/CVE-2018-4878](https://github.com/vysecurity/CVE-2018-4878)
+- [anbai-inc/CVE-2018-4878](https://github.com/anbai-inc/CVE-2018-4878)
 - [Sch01ar/CVE-2018-4878](https://github.com/Sch01ar/CVE-2018-4878)
 - [SyFi/CVE-2018-4878](https://github.com/SyFi/CVE-2018-4878)
 - [ydl555/CVE-2018-4878](https://github.com/ydl555/CVE-2018-4878)
@@ -6279,6 +6330,15 @@ The Norton Core router prior to v237 may be susceptible to a command injection e
 </code>
 
 - [embedi/ble_norton_core](https://github.com/embedi/ble_norton_core)
+
+### CVE-2018-5711
+
+<code>
+gd_gif_in.c in the GD Graphics Library (aka libgd), as used in PHP before 5.6.33, 7.0.x before 7.0.27, 7.1.x before 7.1.13, and 7.2.x before 7.2.1, has an integer signedness error that leads to an infinite loop via a crafted GIF file, as demonstrated by a call to the imagecreatefromgif or imagecreatefromstring PHP function. This is related to GetCode_ and gdImageCreateFromGifCtx.
+</code>
+
+- [huzhenghui/Test-7-2-0-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-0-PHP-CVE-2018-5711)
+- [huzhenghui/Test-7-2-1-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-1-PHP-CVE-2018-5711)
 
 ### CVE-2018-5724
 
@@ -6304,6 +6364,14 @@ Cobham Sea Tel 121 build 222701 devices allow remote attackers to obtain potenti
 
 - [sischkg/cve-2018-5740](https://github.com/sischkg/cve-2018-5740)
 
+### CVE-2018-5951
+
+<code>
+An issue was discovered in Mikrotik RouterOS. Crafting a packet that has a size of 1 byte and sending it to an IPv6 address of a RouterOS box with IP Protocol 97 will cause RouterOS to reboot imminently. All versions of RouterOS that supports EoIPv6 are vulnerable to this attack.
+</code>
+
+- [Nat-Lab/CVE-2018-5951](https://github.com/Nat-Lab/CVE-2018-5951)
+
 ### CVE-2018-5955
 
 <code>
@@ -6325,12 +6393,29 @@ Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer over
 - [ChrisFigura/react-tegra-payload-launcher](https://github.com/ChrisFigura/react-tegra-payload-launcher)
 - [austinhartzheim/fusee-gelee](https://github.com/austinhartzheim/fusee-gelee)
 
+### CVE-2018-6376
+
+<code>
+In Joomla! before 3.8.4, the lack of type casting of a variable in a SQL statement leads to a SQL injection vulnerability in the Hathor postinstall message.
+</code>
+
+- [knqyf263/CVE-2018-6376](https://github.com/knqyf263/CVE-2018-6376)
+
 ### CVE-2018-6389
 
 <code>
 In WordPress through 4.9.2, unauthenticated attackers can cause a denial of service (resource consumption) by using the large list of registered .js files (from wp-includes/script-loader.php) to construct a series of requests to load every file many times.
 </code>
 
+- [yolabingo/wordpress-fix-cve-2018-6389](https://github.com/yolabingo/wordpress-fix-cve-2018-6389)
+- [WazeHell/CVE-2018-6389](https://github.com/WazeHell/CVE-2018-6389)
+- [rastating/modsecurity-cve-2018-6389](https://github.com/rastating/modsecurity-cve-2018-6389)
+- [knqyf263/CVE-2018-6389](https://github.com/knqyf263/CVE-2018-6389)
+- [JulienGadanho/cve-2018-6389-php-patcher](https://github.com/JulienGadanho/cve-2018-6389-php-patcher)
+- [dsfau/wordpress-CVE-2018-6389](https://github.com/dsfau/wordpress-CVE-2018-6389)
+- [Jetserver/CVE-2018-6389-FIX](https://github.com/Jetserver/CVE-2018-6389-FIX)
+- [thechrono13/PoC---CVE-2018-6389](https://github.com/thechrono13/PoC---CVE-2018-6389)
+- [BlackRouter/cve-2018-6389](https://github.com/BlackRouter/cve-2018-6389)
 - [alessiogilardi/PoC---CVE-2018-6389](https://github.com/alessiogilardi/PoC---CVE-2018-6389)
 - [JavierOlmedo/wordpress-cve-2018-6389](https://github.com/JavierOlmedo/wordpress-cve-2018-6389)
 - [m3ssap0/wordpress_cve-2018-6389](https://github.com/m3ssap0/wordpress_cve-2018-6389)
@@ -6350,6 +6435,22 @@ SQL Injection exists in the Google Map Landkarten through 4.2.3 component for Jo
 </code>
 
 - [JavierOlmedo/joomla-cve-2018-6396](https://github.com/JavierOlmedo/joomla-cve-2018-6396)
+
+### CVE-2018-6407
+
+<code>
+An issue was discovered on Conceptronic CIPCAMPTIWL V3 0.61.30.21 devices. An unauthenticated attacker can crash a device by sending a POST request with a huge body size to /hy-cgi/devices.cgi?cmd=searchlandevice. The crash completely freezes the device.
+</code>
+
+- [dreadlocked/ConceptronicIPCam_MultipleVulnerabilities](https://github.com/dreadlocked/ConceptronicIPCam_MultipleVulnerabilities)
+
+### CVE-2018-6479
+
+<code>
+An issue was discovered on Netwave IP Camera devices. An unauthenticated attacker can crash a device by sending a POST request with a huge body size to the / URI.
+</code>
+
+- [dreadlocked/netwave-dosvulnerability](https://github.com/dreadlocked/netwave-dosvulnerability)
 
 ### CVE-2018-6518
 
@@ -6442,6 +6543,14 @@ An issue was discovered in the base64d function in the SMTP listener in Exim bef
 - [synacktiv/Exim-CVE-2018-6789](https://github.com/synacktiv/Exim-CVE-2018-6789)
 - [martinclauss/exim-rce-cve-2018-6789](https://github.com/martinclauss/exim-rce-cve-2018-6789)
 
+### CVE-2018-6791
+
+<code>
+An issue was discovered in soliduiserver/deviceserviceaction.cpp in KDE Plasma Workspace before 5.12.0. When a vfat thumbdrive that contains `` or $() in its volume label is plugged in and mounted through the device notifier, it's interpreted as a shell command, leading to a possibility of arbitrary command execution. An example of an offending volume label is &quot;$(touch b)&quot; -- this will create a file called b in the home folder.
+</code>
+
+- [rarar0/KDE_Vuln](https://github.com/rarar0/KDE_Vuln)
+
 ### CVE-2018-6890
 
 <code>
@@ -6492,6 +6601,38 @@ Directory traversal vulnerability in Twonky Server 7.0.11 through 8.5 allows rem
 </code>
 
 - [mechanico/sharingIsCaring](https://github.com/mechanico/sharingIsCaring)
+
+### CVE-2018-7197
+
+<code>
+An issue was discovered in Pluck through 4.7.4. A stored cross-site scripting (XSS) vulnerability allows remote unauthenticated users to inject arbitrary web script or HTML into admin/blog Reaction Comments via a crafted URL.
+</code>
+
+- [Alyssa-o-Herrera/CVE-2018-7197](https://github.com/Alyssa-o-Herrera/CVE-2018-7197)
+
+### CVE-2018-7211
+
+<code>
+An issue was discovered in iDashboards 9.6b. The SSO implementation is affected by a weak obfuscation library, allowing man-in-the-middle attackers to discover credentials.
+</code>
+
+- [c3r34lk1ll3r/CVE-2018-7211-PoC](https://github.com/c3r34lk1ll3r/CVE-2018-7211-PoC)
+
+### CVE-2018-7249
+
+<code>
+An issue was discovered in secdrv.sys as shipped in Microsoft Windows Vista, Windows 7, Windows 8, and Windows 8.1 before KB3086255, and as shipped in Macrovision SafeDisc. Two carefully timed calls to IOCTL 0xCA002813 can cause a race condition that leads to a use-after-free. When exploited, an unprivileged attacker can run arbitrary code in the kernel.
+</code>
+
+- [Elvin9/NotSecDrv](https://github.com/Elvin9/NotSecDrv)
+
+### CVE-2018-7250
+
+<code>
+An issue was discovered in secdrv.sys as shipped in Microsoft Windows Vista, Windows 7, Windows 8, and Windows 8.1 before KB3086255, and as shipped in Macrovision SafeDisc. An uninitialized kernel pool allocation in IOCTL 0xCA002813 allows a local unprivileged attacker to leak 16 bits of uninitialized kernel PagedPool data.
+</code>
+
+- [Elvin9/SecDrvPoolLeak](https://github.com/Elvin9/SecDrvPoolLeak)
 
 ### CVE-2018-7284
 
@@ -8604,6 +8745,22 @@ In Pydio before 8.2.2, an attack is possible via PHP Object Injection because a 
 </code>
 
 - [us3r777/CVE-2018-20718](https://github.com/us3r777/CVE-2018-20718)
+
+### CVE-2018-1000001
+
+<code>
+In glibc 2.26 and earlier there is confusion in the usage of getcwd() by realpath() which can be used to write before the destination buffer leading to a buffer underflow and potential code execution.
+</code>
+
+- [0x00-0x00/CVE-2018-1000001](https://github.com/0x00-0x00/CVE-2018-1000001)
+
+### CVE-2018-1000006
+
+<code>
+GitHub Electron versions 1.8.2-beta.3 and earlier, 1.7.10 and earlier, 1.6.15 and earlier has a vulnerability in the protocol handler, specifically Electron apps running on Windows 10, 7 or 2008 that register custom protocol handlers can be tricked in arbitrary command execution if the user clicks on a specially crafted URL. This has been fixed in versions 1.8.2-beta.4, 1.7.11, and 1.6.16.
+</code>
+
+- [CHYbeta/CVE-2018-1000006-DEMO](https://github.com/CHYbeta/CVE-2018-1000006-DEMO)
 
 ### CVE-2018-1000030
 
