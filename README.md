@@ -516,6 +516,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [murataydemir/CVE-2020-1472](https://github.com/murataydemir/CVE-2020-1472)
 - [npocmak/CVE-2020-1472](https://github.com/npocmak/CVE-2020-1472)
 - [victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472)
+- [zeronetworks/zerologon](https://github.com/zeronetworks/zerologon)
 
 ### CVE-2020-1493
 
@@ -3948,6 +3949,7 @@ In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7
 - [aqhmal/pulsexploit](https://github.com/aqhmal/pulsexploit)
 - [cisagov/check-your-pulse](https://github.com/cisagov/check-your-pulse)
 - [andripwn/pulse-exploit](https://github.com/andripwn/pulse-exploit)
+- [mandr4x/CVE-2019-11510-PulseVPN](https://github.com/mandr4x/CVE-2019-11510-PulseVPN)
 
 ### CVE-2019-11523
 
@@ -7648,6 +7650,7 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [0xHunter/FortiOS-Credentials-Disclosure](https://github.com/0xHunter/FortiOS-Credentials-Disclosure)
 - [Blazz3/cve2018-13379-nmap-script](https://github.com/Blazz3/cve2018-13379-nmap-script)
 - [yukar1z0e/CVE-2018-13379](https://github.com/yukar1z0e/CVE-2018-13379)
+- [mandr4x/CVE-2018-13379-FortinetVPN](https://github.com/mandr4x/CVE-2018-13379-FortinetVPN)
 
 ### CVE-2018-13382
 
