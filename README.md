@@ -655,6 +655,7 @@ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (compo
 - [0nise/CVE-2020-2555](https://github.com/0nise/CVE-2020-2555)
 - [Y4er/CVE-2020-2555](https://github.com/Y4er/CVE-2020-2555)
 - [Maskhe/cve-2020-2555](https://github.com/Maskhe/cve-2020-2555)
+- [Uvemode/CVE-2020-2555](https://github.com/Uvemode/CVE-2020-2555)
 
 ### CVE-2020-2655
 
@@ -2215,6 +2216,15 @@ SUPERAntiSyware Professional X Trial 10.0.1206 is vulnerable to local privilege 
 
 ### CVE-2020-25200
 - [lukaszstu/pritunl](https://github.com/lukaszstu/pritunl)
+
+### CVE-2020-25747
+- [jet-pentest/CVE-2020-25747](https://github.com/jet-pentest/CVE-2020-25747)
+
+### CVE-2020-25748
+- [jet-pentest/CVE-2020-25748](https://github.com/jet-pentest/CVE-2020-25748)
+
+### CVE-2020-25749
+- [jet-pentest/CVE-2020-25749](https://github.com/jet-pentest/CVE-2020-25749)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -8805,7 +8815,7 @@ Ajenti version version 2 contains a Cross ite Request Forgery (CSRF) vulnerabili
 Python Software Foundation CPython version From 3.2 until 3.6.4 on Windows contains a Buffer Overflow vulnerability in os.symlink() function on Windows that can result in Arbitrary code execution, likely escalation of privilege. This attack appears to be exploitable via a python script that creates a symlink with an attacker controlled name or location. This vulnerability appears to have been fixed in 3.7.0 and 3.6.5.
 </code>
 
-- [1337r00t/CVE-2018-1000117-Exploit](https://github.com/1337r00t/CVE-2018-1000117-Exploit)
+- [u0pattern/CVE-2018-1000117-Exploit](https://github.com/u0pattern/CVE-2018-1000117-Exploit)
 
 ### CVE-2018-1000134
 
@@ -12370,7 +12380,7 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635)
 - [technion/erlvulnscan](https://github.com/technion/erlvulnscan)
 - [wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034)
-- [1337r00t/Remove-IIS-RIIS](https://github.com/1337r00t/Remove-IIS-RIIS)
+- [u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS)
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
 - [limkokhole/CVE-2015-1635](https://github.com/limkokhole/CVE-2015-1635)
