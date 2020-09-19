@@ -3130,7 +3130,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
-- [donghyunlee00/CVE-2019-5736](https://github.com/donghyunlee00/CVE-2019-5736)
 
 ### CVE-2019-5737
 
@@ -3932,6 +3931,15 @@ HARMAN AMX MVP5150 v2.87.13 devices allow remote OS Command Injection.
 </code>
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
+
+### CVE-2019-11248
+
+<code>
+The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
+</code>
+
+- [donghyunlee00/k8s-cve-2019-11248-before](https://github.com/donghyunlee00/k8s-cve-2019-11248-before)
+- [donghyunlee00/k8s-cve-2019-11248-before-conf](https://github.com/donghyunlee00/k8s-cve-2019-11248-before-conf)
 
 ### CVE-2019-11358
 
@@ -7858,14 +7866,6 @@ GEAR Software products that include GEARAspiWDM.sys, 2.2.5.0, allow local users 
 
 - [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
 
-### CVE-2018-15664
-
-<code>
-In Docker through 18.06.1-ce-rc2, the API endpoints behind the 'docker cp' command are vulnerable to a symlink-exchange attack with Directory Traversal, giving attackers arbitrary read-write access to the host filesystem with root privileges, because daemon/archive.go does not do archive operations on a frozen filesystem (or from within a chroot).
-</code>
-
-- [donghyunlee00/CVE-2018-15664](https://github.com/donghyunlee00/CVE-2018-15664)
-
 ### CVE-2018-15686
 
 <code>
@@ -8886,6 +8886,7 @@ In all Kubernetes versions prior to v1.10.11, v1.11.5, and v1.12.3, incorrect ha
 - [imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install)
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
 - [mdnix/cve-2018-1002105](https://github.com/mdnix/cve-2018-1002105)
+- [koharin/cve-2018-1002105-after-patch](https://github.com/koharin/cve-2018-1002105-after-patch)
 
 ### CVE-2018-1999002
 
