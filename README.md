@@ -519,6 +519,8 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [zeronetworks/zerologon](https://github.com/zeronetworks/zerologon)
 - [sv3nbeast/CVE-2020-1472](https://github.com/sv3nbeast/CVE-2020-1472)
 - [midpipps/CVE-2020-1472-Easy](https://github.com/midpipps/CVE-2020-1472-Easy)
+- [batmanli61/Zerologon](https://github.com/batmanli61/Zerologon)
+- [hectorgie/CVE-2020-1472](https://github.com/hectorgie/CVE-2020-1472)
 
 ### CVE-2020-1493
 
