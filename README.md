@@ -318,6 +318,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [getdrive/smbghost](https://github.com/getdrive/smbghost)
 - [iamramahibrah/smbghost](https://github.com/iamramahibrah/smbghost)
 - [rsmudge/CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)
+- [aloswoya/CVE-2020-0796-cobaltstrike-cna](https://github.com/aloswoya/CVE-2020-0796-cobaltstrike-cna)
 
 ### CVE-2020-0797
 
@@ -378,6 +379,7 @@ An elevation of privilege vulnerability exists when the Windows Print Spooler se
 
 - [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
 - [shubham0d/CVE-2020-1048](https://github.com/shubham0d/CVE-2020-1048)
+- [Ken-Abruzzi/CVE-2020-1048](https://github.com/Ken-Abruzzi/CVE-2020-1048)
 
 ### CVE-2020-1054
 
@@ -3946,6 +3948,8 @@ The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet 
 - [donghyunlee00/k8s-cve-2019-11248-before](https://github.com/donghyunlee00/k8s-cve-2019-11248-before)
 - [donghyunlee00/k8s-cve-2019-11248-before-conf](https://github.com/donghyunlee00/k8s-cve-2019-11248-before-conf)
 - [donghyunlee00/k8s-cve-2019-11248-before-conf-without-dot](https://github.com/donghyunlee00/k8s-cve-2019-11248-before-conf-without-dot)
+- [koharin/cve-2019-11248-after](https://github.com/koharin/cve-2019-11248-after)
+- [koharin/cve-2019-11248-before](https://github.com/koharin/cve-2019-11248-before)
 
 ### CVE-2019-11358
 
@@ -14950,6 +14954,22 @@ Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before
 
 
 ## 2007
+### CVE-2007-0038
+
+<code>
+Stack-based buffer overflow in the animated cursor code in Microsoft Windows 2000 SP4 through Vista allows remote attackers to execute arbitrary code or cause a denial of service (persistent reboot) via a large length value in the second (or later) anih block of a RIFF .ANI, cur, or .ico file, which results in memory corruption when processing cursors, animated cursors, and icons, a variant of CVE-2005-0416, as originally demonstrated using Internet Explorer 6 and 7. NOTE: this might be a duplicate of CVE-2007-1765; if so, then CVE-2007-0038 should be preferred.
+</code>
+
+- [Axua/CVE-2007-0038](https://github.com/Axua/CVE-2007-0038)
+
+### CVE-2007-0843
+
+<code>
+The ReadDirectoryChangesW API function on Microsoft Windows 2000, XP, Server 2003, and Vista does not check permissions for child objects, which allows local users to bypass permissions by opening a directory with LIST (READ) access and using ReadDirectoryChangesW to monitor changes of files that do not have LIST permissions, which can be leveraged to determine filenames, access times, and other sensitive information.
+</code>
+
+- [z3APA3A/spydir](https://github.com/z3APA3A/spydir)
+
 ### CVE-2007-1567
 
 <code>
@@ -14965,9 +14985,12 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 </code>
 
 - [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
+- [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
+- [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
+- [nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer)
 
 ### CVE-2007-3830
 
