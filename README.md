@@ -524,6 +524,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [batmanli61/Zerologon](https://github.com/batmanli61/Zerologon)
 - [hectorgie/CVE-2020-1472](https://github.com/hectorgie/CVE-2020-1472)
 - [johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes)
+- [t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472)
 
 ### CVE-2020-1493
 
@@ -2102,6 +2103,14 @@ An issue was discovered in Artica Proxy CE before 4.28.030.418. Reflected XSS ex
 </code>
 
 - [pratikshad19/CVE-2020-15053](https://github.com/pratikshad19/CVE-2020-15053)
+
+### CVE-2020-15148
+
+<code>
+Yii 2 (yiisoft/yii2) before version 2.0.38 is vulnerable to remote code execution if the application calls `unserialize()` on arbitrary user input. This is fixed in version 2.0.38. A possible workaround without upgrading is available in the linked advisory.
+</code>
+
+- [Maskhe/CVE-2020-15148-bypasses](https://github.com/Maskhe/CVE-2020-15148-bypasses)
 
 ### CVE-2020-15367
 
@@ -9773,7 +9782,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [incredible1yu/CVE-2017-7494](https://github.com/incredible1yu/CVE-2017-7494)
 - [cved-sources/cve-2017-7494](https://github.com/cved-sources/cve-2017-7494)
 - [john-80/cve-2017-7494](https://github.com/john-80/cve-2017-7494)
-- [Optimus-hash/CVE-2017-7494_IT19115344](https://github.com/Optimus-hash/CVE-2017-7494_IT19115344)
+- [Hansindu-M/CVE-2017-7494_IT19115344](https://github.com/Hansindu-M/CVE-2017-7494_IT19115344)
 
 ### CVE-2017-7525
 
@@ -11013,7 +11022,7 @@ The native Bluetooth stack in the Linux Kernel (BlueZ), starting at the Linux ke
 Linux distributions that have not patched their long-term kernels with https://git.kernel.org/linus/a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (committed on April 14, 2015). This kernel vulnerability was fixed in April 2015 by commit a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (backported to Linux 3.10.77 in May 2015), but it was not recognized as a security threat. With CONFIG_ARCH_BINFMT_ELF_RANDOMIZE_PIE enabled, and a normal top-down address allocation strategy, load_elf_binary() will attempt to map a PIE binary into an address range immediately below mm-&gt;mmap_base. Unfortunately, load_elf_ binary() does not take account of the need to allocate sufficient space for the entire binary which means that, while the first PT_LOAD segment is mapped below mm-&gt;mmap_base, the subsequent PT_LOAD segment(s) end up being mapped above mm-&gt;mmap_base into the are that is supposed to be the &quot;gap&quot; between the stack and the binary.
 </code>
 
-- [sagiesec/PIE-Stack-Clash-CVE-2017-1000253](https://github.com/sagiesec/PIE-Stack-Clash-CVE-2017-1000253)
+- [RicterZ/PIE-Stack-Clash-CVE-2017-1000253](https://github.com/RicterZ/PIE-Stack-Clash-CVE-2017-1000253)
 
 ### CVE-2017-1000353
 
