@@ -2153,9 +2153,6 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 ### CVE-2020-16152
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 
-### CVE-2020-17453
-- [JHHAX/CVE-2020-17453](https://github.com/JHHAX/CVE-2020-17453)
-
 ### CVE-2020-17496
 
 <code>
@@ -3959,6 +3956,7 @@ The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet 
 - [donghyunlee00/k8s-cve-2019-11248-before-conf-without-dot](https://github.com/donghyunlee00/k8s-cve-2019-11248-before-conf-without-dot)
 - [koharin/cve-2019-11248-after](https://github.com/koharin/cve-2019-11248-after)
 - [koharin/cve-2019-11248-before](https://github.com/koharin/cve-2019-11248-before)
+- [donghyunlee00/k8s-cve-2019-11248-before-lgtm-app](https://github.com/donghyunlee00/k8s-cve-2019-11248-before-lgtm-app)
 
 ### CVE-2019-11358
 
@@ -5753,7 +5751,7 @@ A remote code execution vulnerability exists in &quot;Microsoft COM for Windows&
 The Microsoft Server Message Block 2.0 and 3.0 (SMBv2/SMBv3) client in Windows 8.1 and RT 8.1 and Windows Server 2012 R2 allows a denial of service vulnerability due to how specially crafted requests are handled, aka &quot;SMBv2/SMBv3 Null Dereference Denial of Service Vulnerability&quot;.
 </code>
 
-- [RealBearcat/CVE-2018-0833](https://github.com/RealBearcat/CVE-2018-0833)
+- [iBearcat/CVE-2018-0833](https://github.com/iBearcat/CVE-2018-0833)
 
 ### CVE-2018-0886
 
@@ -5904,7 +5902,7 @@ The URL pattern of &quot;&quot; (the empty string) which exactly maps to the con
 Security constraints defined by annotations of Servlets in Apache Tomcat 9.0.0.M1 to 9.0.4, 8.5.0 to 8.5.27, 8.0.0.RC1 to 8.0.49 and 7.0.0 to 7.0.84 were only applied once a Servlet had been loaded. Because security constraints defined in this way apply to the URL pattern and any URLs below that point, it was possible - depending on the order Servlets were loaded - for some security constraints not to be applied. This could have exposed resources to users who were not authorised to access them.
 </code>
 
-- [RealBearcat/CVE-2018-1305](https://github.com/RealBearcat/CVE-2018-1305)
+- [iBearcat/CVE-2018-1305](https://github.com/iBearcat/CVE-2018-1305)
 
 ### CVE-2018-1306
 
@@ -5936,7 +5934,7 @@ A specially crafted ZIP archive can be used to cause an infinite loop inside of 
 The Apache Struts REST Plugin is using XStream library which is vulnerable and allow perform a DoS attack when using a malicious request with specially crafted XML payload. Upgrade to the Apache Struts version 2.5.16 and switch to an optional Jackson XML handler as described here http://struts.apache.org/plugins/rest/#custom-contenttypehandlers. Another option is to implement a custom XML handler based on the Jackson XML handler from the Apache Struts 2.5.16.
 </code>
 
-- [RealBearcat/S2-056-XStream](https://github.com/RealBearcat/S2-056-XStream)
+- [iBearcat/S2-056-XStream](https://github.com/iBearcat/S2-056-XStream)
 
 ### CVE-2018-1335
 
@@ -7676,7 +7674,7 @@ WordPress through 4.9.6 allows Author users to execute arbitrary code by leverag
 A remote code execution issue was discovered in PublicCMS V4.0.20180210. An attacker can upload a ZIP archive that contains a .jsp file with a directory traversal pathname. After an unzip operation, the attacker can execute arbitrary code by visiting a .jsp URI.
 </code>
 
-- [RealBearcat/CVE-2018-12914](https://github.com/RealBearcat/CVE-2018-12914)
+- [iBearcat/CVE-2018-12914](https://github.com/iBearcat/CVE-2018-12914)
 
 ### CVE-2018-13257
 
@@ -8265,6 +8263,14 @@ admin/index.php in Monstra CMS 3.0.4 allows XSS via the page_meta_title paramete
 
 - [security-breachlock/CVE-2018-17024](https://github.com/security-breachlock/CVE-2018-17024)
 
+### CVE-2018-17081
+
+<code>
+e107 2.1.9 allows CSRF via e107_admin/wmessage.php?mode=&amp;action=inline&amp;ajax_used=1&amp;id= for changing the title of an arbitrary page.
+</code>
+
+- [himanshurahi/e107_2.1.9_CSRF_POC](https://github.com/himanshurahi/e107_2.1.9_CSRF_POC)
+
 ### CVE-2018-17144
 
 <code>
@@ -8273,6 +8279,14 @@ Bitcoin Core 0.14.x before 0.14.3, 0.15.x before 0.15.2, and 0.16.x before 0.16.
 
 - [iioch/ban-exploitable-bitcoin-nodes](https://github.com/iioch/ban-exploitable-bitcoin-nodes)
 - [hikame/CVE-2018-17144_POC](https://github.com/hikame/CVE-2018-17144_POC)
+
+### CVE-2018-17145
+
+<code>
+Bitcoin Core 0.16.x before 0.16.2 and Bitcoin Knots 0.16.x before 0.16.2 allow remote denial of service via a flood of multiple transaction inv messages with random hashes, aka INVDoS. NOTE: this can also affect other cryptocurrencies, e.g., if they were forked from Bitcoin Core after 2017-11-15.
+</code>
+
+- [eabz/invdos](https://github.com/eabz/invdos)
 
 ### CVE-2018-17182
 
@@ -9454,7 +9468,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-](https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-)
 - [Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638)
 - [TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
-- [RealBearcat/S2-045](https://github.com/RealBearcat/S2-045)
+- [iBearcat/S2-045](https://github.com/iBearcat/S2-045)
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
@@ -9791,7 +9805,7 @@ A deserialization flaw was discovered in the jackson-databind, versions before 2
 </code>
 
 - [SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095](https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095)
-- [RealBearcat/S2-055](https://github.com/RealBearcat/S2-055)
+- [iBearcat/S2-055](https://github.com/iBearcat/S2-055)
 - [JavanXD/Demo-Exploit-Jackson-RCE](https://github.com/JavanXD/Demo-Exploit-Jackson-RCE)
 - [47bwy/CVE-2017-7525](https://github.com/47bwy/CVE-2017-7525)
 - [BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE)
@@ -10164,7 +10178,7 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [hahwul/struts2-rce-cve-2017-9805-ruby](https://github.com/hahwul/struts2-rce-cve-2017-9805-ruby)
 - [mazen160/struts-pwn_CVE-2017-9805](https://github.com/mazen160/struts-pwn_CVE-2017-9805)
 - [Lone-Ranger/apache-struts-pwn_CVE-2017-9805](https://github.com/Lone-Ranger/apache-struts-pwn_CVE-2017-9805)
-- [RealBearcat/S2-052](https://github.com/RealBearcat/S2-052)
+- [iBearcat/S2-052](https://github.com/iBearcat/S2-052)
 - [0x00-0x00/-CVE-2017-9805](https://github.com/0x00-0x00/-CVE-2017-9805)
 - [chrisjd20/cve-2017-9805.py](https://github.com/chrisjd20/cve-2017-9805.py)
 - [UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-](https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-)
@@ -10234,7 +10248,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [pssss/CVE-2017-10271](https://github.com/pssss/CVE-2017-10271)
 - [SuperHacker-liuan/cve-2017-10271-poc](https://github.com/SuperHacker-liuan/cve-2017-10271-poc)
 - [bmcculley/CVE-2017-10271](https://github.com/bmcculley/CVE-2017-10271)
-- [RealBearcat/Oracle-WebLogic-CVE-2017-10271](https://github.com/RealBearcat/Oracle-WebLogic-CVE-2017-10271)
+- [iBearcat/Oracle-WebLogic-CVE-2017-10271](https://github.com/iBearcat/Oracle-WebLogic-CVE-2017-10271)
 - [Sch01ar/CVE-2017-10271](https://github.com/Sch01ar/CVE-2017-10271)
 - [Cymmetria/weblogic_honeypot](https://github.com/Cymmetria/weblogic_honeypot)
 - [JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp)
@@ -10471,7 +10485,7 @@ When running Apache Tomcat 7.0.0 to 7.0.79 on Windows with HTTP PUTs enabled (e.
 - [breaktoprotect/CVE-2017-12615](https://github.com/breaktoprotect/CVE-2017-12615)
 - [mefulton/cve-2017-12615](https://github.com/mefulton/cve-2017-12615)
 - [zi0Black/POC-CVE-2017-12615-or-CVE-2017-12717](https://github.com/zi0Black/POC-CVE-2017-12615-or-CVE-2017-12717)
-- [RealBearcat/CVE-2017-12615](https://github.com/RealBearcat/CVE-2017-12615)
+- [iBearcat/CVE-2017-12615](https://github.com/iBearcat/CVE-2017-12615)
 - [wsg00d/cve-2017-12615](https://github.com/wsg00d/cve-2017-12615)
 - [1337g/CVE-2017-12615](https://github.com/1337g/CVE-2017-12615)
 - [Shellkeys/CVE-2017-12615](https://github.com/Shellkeys/CVE-2017-12615)
@@ -10724,7 +10738,7 @@ Insufficient Policy Enforcement in Extensions in Google Chrome prior to 62.0.320
 In Apache Synapse, by default no authentication is required for Java Remote Method Invocation (RMI). So Apache Synapse 3.0.1 or all previous releases (3.0.0, 2.1.0, 2.0.0, 1.2, 1.1.2, 1.1.1) allows remote code execution attacks that can be performed by injecting specially crafted serialized objects. And the presence of Apache Commons Collections 3.2.1 (commons-collections-3.2.1.jar) or previous versions in Synapse distribution makes this exploitable. To mitigate the issue, we need to limit RMI access to trusted users only. Further upgrading to 3.0.1 version will eliminate the risk of having said Commons Collection version. In Synapse 3.0.1, Commons Collection has been updated to 3.2.2 version.
 </code>
 
-- [RealBearcat/CVE-2017-15708](https://github.com/RealBearcat/CVE-2017-15708)
+- [iBearcat/CVE-2017-15708](https://github.com/iBearcat/CVE-2017-15708)
 
 ### CVE-2017-15715
 
@@ -10833,7 +10847,7 @@ The receive_msg function in receive.c in the SMTP daemon in Exim 4.88 and 4.89 a
 The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging incorrect sign extension.
 </code>
 
-- [RealBearcat/CVE-2017-16995](https://github.com/RealBearcat/CVE-2017-16995)
+- [iBearcat/CVE-2017-16995](https://github.com/iBearcat/CVE-2017-16995)
 - [Al1ex/CVE-2017-16995](https://github.com/Al1ex/CVE-2017-16995)
 - [gugronnier/CVE-2017-16995](https://github.com/gugronnier/CVE-2017-16995)
 - [senyuuri/cve-2017-16995](https://github.com/senyuuri/cve-2017-16995)
@@ -10879,7 +10893,7 @@ Huawei HG255s-10 V100R001C163B025SP02 has a path traversal vulnerability due to 
 FasterXML jackson-databind through 2.8.10 and 2.9.x through 2.9.3 allows unauthenticated remote code execution because of an incomplete fix for the CVE-2017-7525 deserialization flaw. This is exploitable by sending maliciously crafted JSON input to the readValue method of the ObjectMapper, bypassing a blacklist that is ineffective if the Spring libraries are available in the classpath.
 </code>
 
-- [RealBearcat/Jackson-CVE-2017-17485](https://github.com/RealBearcat/Jackson-CVE-2017-17485)
+- [iBearcat/Jackson-CVE-2017-17485](https://github.com/iBearcat/Jackson-CVE-2017-17485)
 - [tafamace/CVE-2017-17485](https://github.com/tafamace/CVE-2017-17485)
 - [x7iaob/cve-2017-17485](https://github.com/x7iaob/cve-2017-17485)
 - [Al1ex/CVE-2017-17485](https://github.com/Al1ex/CVE-2017-17485)
