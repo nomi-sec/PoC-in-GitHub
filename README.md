@@ -4001,12 +4001,8 @@ HARMAN AMX MVP5150 v2.87.13 devices allow remote OS Command Injection.
 The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
 </code>
 
-- [donghyunlee00/k8s-cve-2019-11248-before](https://github.com/donghyunlee00/k8s-cve-2019-11248-before)
-- [donghyunlee00/k8s-cve-2019-11248-before-conf](https://github.com/donghyunlee00/k8s-cve-2019-11248-before-conf)
-- [donghyunlee00/k8s-cve-2019-11248-before-conf-without-dot](https://github.com/donghyunlee00/k8s-cve-2019-11248-before-conf-without-dot)
 - [koharin/cve-2019-11248-after](https://github.com/koharin/cve-2019-11248-after)
 - [koharin/cve-2019-11248-before](https://github.com/koharin/cve-2019-11248-before)
-- [donghyunlee00/k8s-cve-2019-11248-before-lgtm-app](https://github.com/donghyunlee00/k8s-cve-2019-11248-before-lgtm-app)
 
 ### CVE-2019-11358
 
