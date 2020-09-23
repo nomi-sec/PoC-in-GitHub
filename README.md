@@ -2233,6 +2233,18 @@ SUPERAntiSyware Professional X Trial 10.0.1206 is vulnerable to local privilege 
 ### CVE-2020-25200
 - [lukaszstu/pritunl](https://github.com/lukaszstu/pritunl)
 
+### CVE-2020-25270
+- [Ko-kn3t/CVE-2020-25270](https://github.com/Ko-kn3t/CVE-2020-25270)
+
+### CVE-2020-25271
+- [Ko-kn3t/CVE-2020-25271](https://github.com/Ko-kn3t/CVE-2020-25271)
+
+### CVE-2020-25272
+- [Ko-kn3t/CVE-2020-25272](https://github.com/Ko-kn3t/CVE-2020-25272)
+
+### CVE-2020-25273
+- [Ko-kn3t/CVE-2020-25273](https://github.com/Ko-kn3t/CVE-2020-25273)
+
 ### CVE-2020-25487
 
 <code>
