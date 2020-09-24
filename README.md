@@ -2027,6 +2027,9 @@ In the COVIDSafe application through 1.0.21 for Android, unsafe use of the Bluet
 
 - [alwentiu/CVE-2020-14292](https://github.com/alwentiu/CVE-2020-14292)
 
+### CVE-2020-14294
+- [patrickhener/CVE-2020-14294](https://github.com/patrickhener/CVE-2020-14294)
+
 ### CVE-2020-14321
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
 
@@ -2131,6 +2134,14 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 ### CVE-2020-15399
 - [mkelepce/CVE-2020-15399](https://github.com/mkelepce/CVE-2020-15399)
 
+### CVE-2020-15492
+
+<code>
+An issue was discovered in INNEO Startup TOOLS 2017 M021 12.0.66.3784 through 2018 M040 13.0.70.3804. The sut_srv.exe web application (served on TCP port 85) includes user input into a filesystem access without any further validation. This might allow an unauthenticated attacker to read files on the server via Directory Traversal, or possibly have unspecified other impact.
+</code>
+
+- [patrickhener/CVE-2020-15492](https://github.com/patrickhener/CVE-2020-15492)
+
 ### CVE-2020-15778
 
 <code>
@@ -2154,6 +2165,7 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 
 ### CVE-2020-17382
+- [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
 - [fdiskyou/CVE-2020-17382](https://github.com/fdiskyou/CVE-2020-17382)
 
 ### CVE-2020-17496
@@ -11336,7 +11348,6 @@ The verify function in the RSA package for Python (Python-RSA) before 3.3 allows
 </code>
 
 - [matthiasbe/secuimag3a](https://github.com/matthiasbe/secuimag3a)
-- [srk-20/Digital-Signature-Forgery-by-Exploiting-python-RSA-Vulnerability-CVE-2016-1494](https://github.com/srk-20/Digital-Signature-Forgery-by-Exploiting-python-RSA-Vulnerability-CVE-2016-1494)
 
 ### CVE-2016-1542
 
