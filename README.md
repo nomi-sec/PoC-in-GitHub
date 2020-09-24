@@ -524,6 +524,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [hectorgie/CVE-2020-1472](https://github.com/hectorgie/CVE-2020-1472)
 - [johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes)
 - [t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472)
+- [grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472)
 
 ### CVE-2020-1493
 
@@ -1464,6 +1465,9 @@ The issue was addressed by clearing website permission prompts after navigation.
 
 ### CVE-2020-9934
 - [mattshockl/CVE-2020-9934](https://github.com/mattshockl/CVE-2020-9934)
+
+### CVE-2020-9992
+- [c0ntextomy/c0ntextomy](https://github.com/c0ntextomy/c0ntextomy)
 
 ### CVE-2020-10135
 
