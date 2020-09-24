@@ -2027,6 +2027,9 @@ In the COVIDSafe application through 1.0.21 for Android, unsafe use of the Bluet
 
 - [alwentiu/CVE-2020-14292](https://github.com/alwentiu/CVE-2020-14292)
 
+### CVE-2020-14293
+- [patrickhener/CVE-2020-14293](https://github.com/patrickhener/CVE-2020-14293)
+
 ### CVE-2020-14294
 - [patrickhener/CVE-2020-14294](https://github.com/patrickhener/CVE-2020-14294)
 
@@ -2300,6 +2303,9 @@ Sourcecodester Simple Library Management System 1.0 is affected by Insecure Perm
 </code>
 
 - [t0gu/CVE-2020-25790](https://github.com/t0gu/CVE-2020-25790)
+
+### CVE-2020-25867
+- [thomasfady/CVE-2020-25867](https://github.com/thomasfady/CVE-2020-25867)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -5803,14 +5809,6 @@ A remote code execution vulnerability exists in &quot;Microsoft COM for Windows&
 
 - [codewhitesec/UnmarshalPwn](https://github.com/codewhitesec/UnmarshalPwn)
 
-### CVE-2018-0833
-
-<code>
-The Microsoft Server Message Block 2.0 and 3.0 (SMBv2/SMBv3) client in Windows 8.1 and RT 8.1 and Windows Server 2012 R2 allows a denial of service vulnerability due to how specially crafted requests are handled, aka &quot;SMBv2/SMBv3 Null Dereference Denial of Service Vulnerability&quot;.
-</code>
-
-- [iBearcat/CVE-2018-0833](https://github.com/iBearcat/CVE-2018-0833)
-
 ### CVE-2018-0886
 
 <code>
@@ -5960,7 +5958,7 @@ The URL pattern of &quot;&quot; (the empty string) which exactly maps to the con
 Security constraints defined by annotations of Servlets in Apache Tomcat 9.0.0.M1 to 9.0.4, 8.5.0 to 8.5.27, 8.0.0.RC1 to 8.0.49 and 7.0.0 to 7.0.84 were only applied once a Servlet had been loaded. Because security constraints defined in this way apply to the URL pattern and any URLs below that point, it was possible - depending on the order Servlets were loaded - for some security constraints not to be applied. This could have exposed resources to users who were not authorised to access them.
 </code>
 
-- [iBearcat/CVE-2018-1305](https://github.com/iBearcat/CVE-2018-1305)
+- [Pa55w0rd/CVE-2018-1305](https://github.com/Pa55w0rd/CVE-2018-1305)
 
 ### CVE-2018-1306
 
@@ -5985,14 +5983,6 @@ A specially crafted ZIP archive can be used to cause an infinite loop inside of 
 </code>
 
 - [tafamace/CVE-2018-1324](https://github.com/tafamace/CVE-2018-1324)
-
-### CVE-2018-1327
-
-<code>
-The Apache Struts REST Plugin is using XStream library which is vulnerable and allow perform a DoS attack when using a malicious request with specially crafted XML payload. Upgrade to the Apache Struts version 2.5.16 and switch to an optional Jackson XML handler as described here http://struts.apache.org/plugins/rest/#custom-contenttypehandlers. Another option is to implement a custom XML handler based on the Jackson XML handler from the Apache Struts 2.5.16.
-</code>
-
-- [iBearcat/S2-056-XStream](https://github.com/iBearcat/S2-056-XStream)
 
 ### CVE-2018-1335
 
@@ -7725,14 +7715,6 @@ WordPress through 4.9.6 allows Author users to execute arbitrary code by leverag
 </code>
 
 - [bloom-ux/cve-2018-12895-hotfix](https://github.com/bloom-ux/cve-2018-12895-hotfix)
-
-### CVE-2018-12914
-
-<code>
-A remote code execution issue was discovered in PublicCMS V4.0.20180210. An attacker can upload a ZIP archive that contains a .jsp file with a directory traversal pathname. After an unzip operation, the attacker can execute arbitrary code by visiting a .jsp URI.
-</code>
-
-- [iBearcat/CVE-2018-12914](https://github.com/iBearcat/CVE-2018-12914)
 
 ### CVE-2018-13257
 
@@ -9526,7 +9508,6 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-](https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-)
 - [Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638)
 - [TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
-- [iBearcat/S2-045](https://github.com/iBearcat/S2-045)
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
@@ -10236,8 +10217,8 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [hahwul/struts2-rce-cve-2017-9805-ruby](https://github.com/hahwul/struts2-rce-cve-2017-9805-ruby)
 - [mazen160/struts-pwn_CVE-2017-9805](https://github.com/mazen160/struts-pwn_CVE-2017-9805)
 - [Lone-Ranger/apache-struts-pwn_CVE-2017-9805](https://github.com/Lone-Ranger/apache-struts-pwn_CVE-2017-9805)
-- [iBearcat/S2-052](https://github.com/iBearcat/S2-052)
 - [0x00-0x00/-CVE-2017-9805](https://github.com/0x00-0x00/-CVE-2017-9805)
+- [BeyondCy/S2-052](https://github.com/BeyondCy/S2-052)
 - [chrisjd20/cve-2017-9805.py](https://github.com/chrisjd20/cve-2017-9805.py)
 - [UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-](https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-)
 - [UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit](https://github.com/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit)
@@ -10306,7 +10287,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [pssss/CVE-2017-10271](https://github.com/pssss/CVE-2017-10271)
 - [SuperHacker-liuan/cve-2017-10271-poc](https://github.com/SuperHacker-liuan/cve-2017-10271-poc)
 - [bmcculley/CVE-2017-10271](https://github.com/bmcculley/CVE-2017-10271)
-- [iBearcat/Oracle-WebLogic-CVE-2017-10271](https://github.com/iBearcat/Oracle-WebLogic-CVE-2017-10271)
+- [peterpeter228/Oracle-WebLogic-CVE-2017-10271](https://github.com/peterpeter228/Oracle-WebLogic-CVE-2017-10271)
 - [Sch01ar/CVE-2017-10271](https://github.com/Sch01ar/CVE-2017-10271)
 - [Cymmetria/weblogic_honeypot](https://github.com/Cymmetria/weblogic_honeypot)
 - [JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp)
@@ -10796,7 +10777,7 @@ Insufficient Policy Enforcement in Extensions in Google Chrome prior to 62.0.320
 In Apache Synapse, by default no authentication is required for Java Remote Method Invocation (RMI). So Apache Synapse 3.0.1 or all previous releases (3.0.0, 2.1.0, 2.0.0, 1.2, 1.1.2, 1.1.1) allows remote code execution attacks that can be performed by injecting specially crafted serialized objects. And the presence of Apache Commons Collections 3.2.1 (commons-collections-3.2.1.jar) or previous versions in Synapse distribution makes this exploitable. To mitigate the issue, we need to limit RMI access to trusted users only. Further upgrading to 3.0.1 version will eliminate the risk of having said Commons Collection version. In Synapse 3.0.1, Commons Collection has been updated to 3.2.2 version.
 </code>
 
-- [iBearcat/CVE-2017-15708](https://github.com/iBearcat/CVE-2017-15708)
+- [HuSoul/CVE-2017-15708](https://github.com/HuSoul/CVE-2017-15708)
 
 ### CVE-2017-15715
 
@@ -10905,7 +10886,7 @@ The receive_msg function in receive.c in the SMTP daemon in Exim 4.88 and 4.89 a
 The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging incorrect sign extension.
 </code>
 
-- [iBearcat/CVE-2017-16995](https://github.com/iBearcat/CVE-2017-16995)
+- [C0dak/CVE-2017-16995](https://github.com/C0dak/CVE-2017-16995)
 - [Al1ex/CVE-2017-16995](https://github.com/Al1ex/CVE-2017-16995)
 - [gugronnier/CVE-2017-16995](https://github.com/gugronnier/CVE-2017-16995)
 - [senyuuri/cve-2017-16995](https://github.com/senyuuri/cve-2017-16995)
@@ -11576,6 +11557,14 @@ Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.3
 </code>
 
 - [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
+
+### CVE-2016-3238
+
+<code>
+The Print Spooler service in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows man-in-the-middle attackers to execute arbitrary code by providing a crafted print driver during printer installation, aka &quot;Windows Print Spooler Remote Code Execution Vulnerability.&quot;
+</code>
+
+- [pyiesone/CVE-2016-3238-PoC](https://github.com/pyiesone/CVE-2016-3238-PoC)
 
 ### CVE-2016-3308
 
