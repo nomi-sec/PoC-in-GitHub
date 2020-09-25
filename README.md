@@ -702,6 +702,14 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [pry0cc/CVE-2020-3187](https://github.com/pry0cc/CVE-2020-3187)
 - [Basu-banakar/CVE-2020-3187](https://github.com/Basu-banakar/CVE-2020-3187)
 
+### CVE-2020-3433
+
+<code>
+A vulnerability in the interprocess communication (IPC) channel of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to perform a DLL hijacking attack. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system. The vulnerability is due to insufficient validation of resources that are loaded by the application at run time. An attacker could exploit this vulnerability by sending a crafted IPC message to the AnyConnect process. A successful exploit could allow the attacker to execute arbitrary code on the affected machine with SYSTEM privileges. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system.
+</code>
+
+- [goichot/CVE-2020-3433](https://github.com/goichot/CVE-2020-3433)
+
 ### CVE-2020-3452
 
 <code>
@@ -14695,14 +14703,6 @@ Integer signedness error in the pkt_find_dev_from_minor function in drivers/bloc
 </code>
 
 - [huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437)
-
-### CVE-2010-3490
-
-<code>
-Directory traversal vulnerability in page.recordings.php in the System Recordings component in the configuration interface in FreePBX 2.8.0 and earlier allows remote authenticated administrators to create arbitrary files via a .. (dot dot) in the usersnum parameter to admin/config.php, as demonstrated by creating a .php file under the web root.
-</code>
-
-- [moayadalmalat/CVE-2010-3490](https://github.com/moayadalmalat/CVE-2010-3490)
 
 ### CVE-2010-3600
 
