@@ -388,7 +388,7 @@ An elevation of privilege vulnerability exists in Windows when the Windows kerne
 
 - [0xeb-bp/cve-2020-1054](https://github.com/0xeb-bp/cve-2020-1054)
 - [Iamgublin/CVE-2020-1054](https://github.com/Iamgublin/CVE-2020-1054)
-- [HongYe-Code/CVE-2020-1054](https://github.com/HongYe-Code/CVE-2020-1054)
+- [KaLendsi/CVE-2020-1054](https://github.com/KaLendsi/CVE-2020-1054)
 
 ### CVE-2020-1066
 
@@ -14227,6 +14227,7 @@ Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows 
 The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, does not properly check permissions when writing to /proc/&lt;pid&gt;/mem, which allows local users to gain privileges by modifying process memory, as demonstrated by Mempodipper.
 </code>
 
+- [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
 - [pythonone/CVE-2012-0056](https://github.com/pythonone/CVE-2012-0056)
 
 ### CVE-2012-0152
@@ -14287,6 +14288,7 @@ Microsoft XML Core Services 3.0, 4.0, 5.0, and 6.0 accesses uninitialized memory
 sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
 </code>
 
+- [Avinza/CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner)
 - [cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122)
 
 ### CVE-2012-2688
@@ -14314,6 +14316,14 @@ The authentication protocol in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0
 - [hantwister/o5logon-fetch](https://github.com/hantwister/o5logon-fetch)
 - [r1-/cve-2012-3137](https://github.com/r1-/cve-2012-3137)
 
+### CVE-2012-3153
+
+<code>
+Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Servlet.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the PARSEQUERY function allows remote attackers to obtain database credentials via reports/rwservlet/parsequery, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3152 to execute arbitrary code by uploading a .jsp file.
+</code>
+
+- [Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion)
+
 ### CVE-2012-3716
 
 <code>
@@ -14329,6 +14339,7 @@ diagchar_core.c in the Qualcomm Innovation Center (QuIC) Diagnostics (aka DIAG) 
 </code>
 
 - [hiikezoe/diaggetroot](https://github.com/hiikezoe/diaggetroot)
+- [poliva/root-zte-open](https://github.com/poliva/root-zte-open)
 
 ### CVE-2012-4431
 
@@ -14390,6 +14401,14 @@ Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7
 
 ### CVE-2012-5664
 - [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
+
+### CVE-2012-5958
+
+<code>
+Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.
+</code>
+
+- [lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp)
 
 ### CVE-2012-5960
 
