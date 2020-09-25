@@ -2292,13 +2292,31 @@ Sourcecodester Simple Library Management System 1.0 is affected by Insecure Perm
 
 - [Ko-kn3t/CVE-2020-25515](https://github.com/Ko-kn3t/CVE-2020-25515)
 
+### CVE-2020-25518
+- [g-rubert/wordpress_DoS](https://github.com/g-rubert/wordpress_DoS)
+
 ### CVE-2020-25747
+
+<code>
+The Telnet service of Rubetek RV-3406, RV-3409, and RV-3411 cameras (firmware versions v342, v339) can allow a remote attacker to gain access to RTSP and ONFIV services without authentication. Thus, the attacker can watch live streams from the camera, rotate the camera, change some settings (brightness, clarity, time), restart the camera, or reset it to factory settings.
+</code>
+
 - [jet-pentest/CVE-2020-25747](https://github.com/jet-pentest/CVE-2020-25747)
 
 ### CVE-2020-25748
+
+<code>
+A Cleartext Transmission issue was discovered on Rubetek RV-3406, RV-3409, and RV-3411 cameras (firmware versions v342, v339). Someone in the middle can intercept and modify the video data from the camera, which is transmitted in an unencrypted form. One can also modify responses from NTP and RTSP servers and force the camera to use the changed values.
+</code>
+
 - [jet-pentest/CVE-2020-25748](https://github.com/jet-pentest/CVE-2020-25748)
 
 ### CVE-2020-25749
+
+<code>
+The Telnet service of Rubetek cameras RV-3406, RV-3409, and RV-3411 cameras (firmware versions v342, v339) could allow an remote attacker to take full control of the device with a high-privileged account. The vulnerability exists because a system account has a default and static password. The Telnet service cannot be disabled and this password cannot be changed via standard functionality.
+</code>
+
 - [jet-pentest/CVE-2020-25749](https://github.com/jet-pentest/CVE-2020-25749)
 
 ### CVE-2020-25790
@@ -14209,7 +14227,6 @@ Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows 
 The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, does not properly check permissions when writing to /proc/&lt;pid&gt;/mem, which allows local users to gain privileges by modifying process memory, as demonstrated by Mempodipper.
 </code>
 
-- [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
 - [pythonone/CVE-2012-0056](https://github.com/pythonone/CVE-2012-0056)
 
 ### CVE-2012-0152
@@ -14270,7 +14287,6 @@ Microsoft XML Core Services 3.0, 4.0, 5.0, and 6.0 accesses uninitialized memory
 sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
 </code>
 
-- [Avinza/CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner)
 - [cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122)
 
 ### CVE-2012-2688
@@ -14298,14 +14314,6 @@ The authentication protocol in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0
 - [hantwister/o5logon-fetch](https://github.com/hantwister/o5logon-fetch)
 - [r1-/cve-2012-3137](https://github.com/r1-/cve-2012-3137)
 
-### CVE-2012-3153
-
-<code>
-Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Servlet.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the PARSEQUERY function allows remote attackers to obtain database credentials via reports/rwservlet/parsequery, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3152 to execute arbitrary code by uploading a .jsp file.
-</code>
-
-- [Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion)
-
 ### CVE-2012-3716
 
 <code>
@@ -14321,7 +14329,6 @@ diagchar_core.c in the Qualcomm Innovation Center (QuIC) Diagnostics (aka DIAG) 
 </code>
 
 - [hiikezoe/diaggetroot](https://github.com/hiikezoe/diaggetroot)
-- [poliva/root-zte-open](https://github.com/poliva/root-zte-open)
 
 ### CVE-2012-4431
 
@@ -14383,14 +14390,6 @@ Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7
 
 ### CVE-2012-5664
 - [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
-
-### CVE-2012-5958
-
-<code>
-Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.
-</code>
-
-- [lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp)
 
 ### CVE-2012-5960
 
