@@ -14704,6 +14704,14 @@ Integer signedness error in the pkt_find_dev_from_minor function in drivers/bloc
 
 - [huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437)
 
+### CVE-2010-3490
+
+<code>
+Directory traversal vulnerability in page.recordings.php in the System Recordings component in the configuration interface in FreePBX 2.8.0 and earlier allows remote authenticated administrators to create arbitrary files via a .. (dot dot) in the usersnum parameter to admin/config.php, as demonstrated by creating a .php file under the web root.
+</code>
+
+- [moayadalmalat/CVE-2010-3490](https://github.com/moayadalmalat/CVE-2010-3490)
+
 ### CVE-2010-3600
 
 <code>
