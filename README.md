@@ -2183,7 +2183,6 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 
 ### CVE-2020-17382
 - [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
-- [fdiskyou/CVE-2020-17382](https://github.com/fdiskyou/CVE-2020-17382)
 
 ### CVE-2020-17496
 
@@ -15310,6 +15309,15 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
+- [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
+
+### CVE-2003-0282
+
+<code>
+Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
+</code>
+
+- [lushann/cve-2003-0282](https://github.com/lushann/cve-2003-0282)
 
 
 ## 2002
