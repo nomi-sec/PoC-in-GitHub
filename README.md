@@ -2365,6 +2365,7 @@ Memory access in virtual memory mapping for some microprocessors may allow an au
 In Apache Solr versions 5.0.0 to 5.5.5 and 6.0.0 to 6.6.5, the Config API allows to configure the JMX server via an HTTP POST request. By pointing it to a malicious RMI server, an attacker could take advantage of Solr's unsafe deserialization to trigger remote code execution on the Solr side.
 </code>
 
+- [mpgn/CVE-2019-0192](https://github.com/mpgn/CVE-2019-0192)
 - [Rapidsafeguard/Solr-RCE-CVE-2019-0192](https://github.com/Rapidsafeguard/Solr-RCE-CVE-2019-0192)
 
 ### CVE-2019-0193
@@ -2373,6 +2374,7 @@ In Apache Solr versions 5.0.0 to 5.5.5 and 6.0.0 to 6.6.5, the Config API allows
 In Apache Solr, the DataImportHandler, an optional but popular module to pull in data from databases and other sources, has a feature in which the whole DIH configuration can come from a request's &quot;dataConfig&quot; parameter. The debug mode of the DIH admin screen uses this to allow convenient debugging / development of a DIH config. Since a DIH config can contain scripts, this parameter is a security risk. Starting with version 8.2.0 of Solr, use of this parameter requires setting the Java System property &quot;enable.dih.dataConfigParam&quot; to true.
 </code>
 
+- [xConsoIe/CVE-2019-0193](https://github.com/xConsoIe/CVE-2019-0193)
 - [jas502n/CVE-2019-0193](https://github.com/jas502n/CVE-2019-0193)
 - [1135/solr_exploit](https://github.com/1135/solr_exploit)
 - [jaychouzzk/CVE-2019-0193-exp](https://github.com/jaychouzzk/CVE-2019-0193-exp)
@@ -2427,6 +2429,8 @@ A remote code execution vulnerability exists in the way that the Chakra scriptin
 A remote code execution vulnerability exists in Microsoft SharePoint when the software fails to check the source markup of an application package, aka 'Microsoft SharePoint Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-0594.
 </code>
 
+- [linhlhq/CVE-2019-0604](https://github.com/linhlhq/CVE-2019-0604)
+- [likescam/CVE-2019-0604_sharepoint_CVE](https://github.com/likescam/CVE-2019-0604_sharepoint_CVE)
 - [k8gege/CVE-2019-0604](https://github.com/k8gege/CVE-2019-0604)
 - [m5050/CVE-2019-0604](https://github.com/m5050/CVE-2019-0604)
 - [boxhg/CVE-2019-0604](https://github.com/boxhg/CVE-2019-0604)
@@ -2605,6 +2609,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0797.
 </code>
 
+- [ze0r/cve-2019-0808-poc](https://github.com/ze0r/cve-2019-0808-poc)
 - [rakesh143/CVE-2019-0808](https://github.com/rakesh143/CVE-2019-0808)
 - [exodusintel/CVE-2019-0808](https://github.com/exodusintel/CVE-2019-0808)
 - [DreamoneOnly/CVE-2019-0808-32-64-exp](https://github.com/DreamoneOnly/CVE-2019-0808-32-64-exp)
@@ -2615,6 +2620,8 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0730, CVE-2019-0731, CVE-2019-0796, CVE-2019-0805, CVE-2019-0836.
 </code>
 
+- [rogue-kdc/CVE-2019-0841](https://github.com/rogue-kdc/CVE-2019-0841)
+- [likescam/CVE-2019-0841](https://github.com/likescam/CVE-2019-0841)
 - [0x00-0x00/CVE-2019-0841-BYPASS](https://github.com/0x00-0x00/CVE-2019-0841-BYPASS)
 
 ### CVE-2019-0859
@@ -2847,6 +2854,23 @@ Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier
 
 - [securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579)
 
+### CVE-2019-1652
+
+<code>
+A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an authenticated, remote attacker with administrative privileges on an affected device to execute arbitrary commands. The vulnerability is due to improper validation of user-supplied input. An attacker could exploit this vulnerability by sending malicious HTTP POST requests to the web-based management interface of an affected device. A successful exploit could allow the attacker to execute arbitrary commands on the underlying Linux shell as root. Cisco has released firmware updates that address this vulnerability.
+</code>
+
+- [0x27/CiscoRV320Dump](https://github.com/0x27/CiscoRV320Dump)
+
+### CVE-2019-1653
+
+<code>
+A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
+</code>
+
+- [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
+- [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
+
 ### CVE-2019-1759
 
 <code>
@@ -2862,6 +2886,14 @@ A vulnerability in the web-based management interface of Cisco Prime Infrastruct
 </code>
 
 - [k8gege/CiscoExploit](https://github.com/k8gege/CiscoExploit)
+
+### CVE-2019-1987
+
+<code>
+In onSetSampleX of SkSwizzler.cpp, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation. Product: Android. Versions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9. Android ID: A-118143775.
+</code>
+
+- [marcinguy/android-7-9-png-bug](https://github.com/marcinguy/android-7-9-png-bug)
 
 ### CVE-2019-2107
 
@@ -3013,9 +3045,14 @@ There was a local file disclosure vulnerability in Confluence Server and Conflue
 The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 (the fixed version for 6.6.x), from version 6.7.0 before 6.12.3 (the fixed version for 6.12.x), from version 6.13.0 before 6.13.3 (the fixed version for 6.13.x), and from version 6.14.0 before 6.14.2 (the fixed version for 6.14.x), allows remote attackers to achieve path traversal and remote code execution on a Confluence Server or Data Center instance via server-side template injection.
 </code>
 
+- [dothanthitiendiettiende/CVE-2019-3396](https://github.com/dothanthitiendiettiende/CVE-2019-3396)
 - [x-f1v3/CVE-2019-3396](https://github.com/x-f1v3/CVE-2019-3396)
+- [xiaoshuier/CVE-2019-3396](https://github.com/xiaoshuier/CVE-2019-3396)
+- [Yt1g3r/CVE-2019-3396_EXP](https://github.com/Yt1g3r/CVE-2019-3396_EXP)
 - [jas502n/CVE-2019-3396](https://github.com/jas502n/CVE-2019-3396)
+- [pyn3rd/CVE-2019-3396](https://github.com/pyn3rd/CVE-2019-3396)
 - [s1xg0d/CVE-2019-3396](https://github.com/s1xg0d/CVE-2019-3396)
+- [quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396)
 - [vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396)
 - [tanw923/test1](https://github.com/tanw923/test1)
 - [skommando/CVE-2019-3396-confluence-poc](https://github.com/skommando/CVE-2019-3396-confluence-poc)
@@ -3030,6 +3067,15 @@ Confluence Server and Data Center had a path traversal vulnerability in the down
 </code>
 
 - [superevr/cve-2019-3398](https://github.com/superevr/cve-2019-3398)
+
+### CVE-2019-3462
+
+<code>
+Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
+</code>
+
+- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
+- [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663
 
@@ -3109,9 +3155,23 @@ An exploitable code execution vulnerability exists in the processing of multi-pa
 There is a File Content Disclosure vulnerability in Action View &lt;5.2.2.1, &lt;5.1.6.2, &lt;5.0.7.2, &lt;4.2.11.1 and v3 where specially crafted accept headers can cause contents of arbitrary files on the target system's filesystem to be exposed.
 </code>
 
+- [mpgn/CVE-2019-5418](https://github.com/mpgn/CVE-2019-5418)
+- [omarkurt/CVE-2019-5418](https://github.com/omarkurt/CVE-2019-5418)
+- [brompwnie/CVE-2019-5418-Scanner](https://github.com/brompwnie/CVE-2019-5418-Scanner)
 - [mpgn/Rails-doubletap-RCE](https://github.com/mpgn/Rails-doubletap-RCE)
+- [takeokunn/CVE-2019-5418](https://github.com/takeokunn/CVE-2019-5418)
+- [Bad3r/RailroadBandit](https://github.com/Bad3r/RailroadBandit)
 - [ztgrace/CVE-2019-5418-Rails3](https://github.com/ztgrace/CVE-2019-5418-Rails3)
 - [random-robbie/CVE-2019-5418](https://github.com/random-robbie/CVE-2019-5418)
+
+### CVE-2019-5420
+
+<code>
+A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt;6.0.0.beta3 can allow an attacker to guess the automatically generated development mode secret token. This secret token can be used in combination with other Rails internals to escalate to a remote code execution exploit.
+</code>
+
+- [knqyf263/CVE-2019-5420](https://github.com/knqyf263/CVE-2019-5420)
+- [cved-sources/cve-2019-5420](https://github.com/cved-sources/cve-2019-5420)
 
 ### CVE-2019-5475
 
@@ -3160,7 +3220,18 @@ NVIDIA Shield TV Experience prior to v8.0.1, NVIDIA Tegra software contains a vu
 runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
 </code>
 
+- [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
+- [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
+- [jakubkrawczyk/cve-2019-5736](https://github.com/jakubkrawczyk/cve-2019-5736)
+- [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
+- [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
+- [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
+- [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
+- [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
+- [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
+- [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
+- [stillan00b/CVE-2019-5736](https://github.com/stillan00b/CVE-2019-5736)
 - [milloni/cve-2019-5736-exp](https://github.com/milloni/cve-2019-5736-exp)
 - [13paulmurith/Docker-Runc-Exploit](https://github.com/13paulmurith/Docker-Runc-Exploit)
 - [RyanNgWH/CVE-2019-5736-POC](https://github.com/RyanNgWH/CVE-2019-5736-POC)
@@ -3171,6 +3242,22 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
+
+### CVE-2019-5737
+
+<code>
+In Node.js including 6.x before 6.17.0, 8.x before 8.15.1, 10.x before 10.15.2, and 11.x before 11.10.1, an attacker can cause a Denial of Service (DoS) by establishing an HTTP or HTTPS connection in keep-alive mode and by sending headers very slowly. This keeps the connection and associated resources alive for a long period of time. Potential attacks are mitigated by the use of a load balancer or other proxy layer. This vulnerability is an extension of CVE-2018-12121, addressed in November and impacts all active Node.js release lines including 6.x before 6.17.0, 8.x before 8.15.1, 10.x before 10.15.2, and 11.x before 11.10.1.
+</code>
+
+- [beelzebruh/cve-2019-5737](https://github.com/beelzebruh/cve-2019-5737)
+
+### CVE-2019-5786
+
+<code>
+Object lifetime issue in Blink in Google Chrome prior to 72.0.3626.121 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page.
+</code>
+
+- [exodusintel/CVE-2019-5786](https://github.com/exodusintel/CVE-2019-5786)
 
 ### CVE-2019-5822
 
@@ -3187,6 +3274,14 @@ Out of bounds write in JavaScript in Google Chrome prior to 73.0.3683.86 allowed
 </code>
 
 - [timwr/CVE-2019-5825](https://github.com/timwr/CVE-2019-5825)
+
+### CVE-2019-5893
+
+<code>
+Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.xml query parameter.
+</code>
+
+- [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
 
 ### CVE-2019-6111
 
@@ -3220,7 +3315,17 @@ An out-of-bounds read issue existed that led to the disclosure of kernel memory.
 A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 12.1.3, macOS Mojave 10.14.3, tvOS 12.1.2. A malicious application may be able to elevate privileges.
 </code>
 
+- [fatgrass/OsirisJailbreak12](https://github.com/fatgrass/OsirisJailbreak12)
 - [TrungNguyen1909/CVE-2019-6225-macOS](https://github.com/TrungNguyen1909/CVE-2019-6225-macOS)
+- [raystyle/jailbreak-iOS12](https://github.com/raystyle/jailbreak-iOS12)
+
+### CVE-2019-6249
+
+<code>
+An issue was discovered in HuCart v5.7.4. There is a CSRF vulnerability that can add an admin account via /adminsys/index.php?load=admins&amp;act=edit_info&amp;act_type=add.
+</code>
+
+- [NMTech0x90/CVE-2019-6249_Hucart-cms](https://github.com/NMTech0x90/CVE-2019-6249_Hucart-cms)
 
 ### CVE-2019-6260
 
@@ -3229,6 +3334,14 @@ The ASPEED ast2400 and ast2500 Baseband Management Controller (BMC) hardware and
 </code>
 
 - [amboar/cve-2019-6260](https://github.com/amboar/cve-2019-6260)
+
+### CVE-2019-6263
+
+<code>
+An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
+</code>
+
+- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
 
 ### CVE-2019-6329
 
@@ -3244,8 +3357,22 @@ HP Support Assistant 8.7.50 and earlier allows a user to gain system privilege a
 Some field types do not properly sanitize data from non-form sources in Drupal 8.5.x before 8.5.11 and Drupal 8.6.x before 8.6.10. This can lead to arbitrary PHP code execution in some cases. A site is only affected by this if one of the following conditions is met: The site has the Drupal 8 core RESTful Web Services (rest) module enabled and allows PATCH or POST requests, or the site has another web services module enabled, like JSON:API in Drupal 8, or Services or RESTful Web Services in Drupal 7. (Note: The Drupal 7 Services module itself does not require an update at this time, but you should apply other contributed updates associated with this advisory if Services is in use.)
 </code>
 
+- [g0rx/Drupal-SA-CORE-2019-003](https://github.com/g0rx/Drupal-SA-CORE-2019-003)
+- [knqyf263/CVE-2019-6340](https://github.com/knqyf263/CVE-2019-6340)
+- [DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass](https://github.com/DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass)
+- [oways/CVE-2019-6340](https://github.com/oways/CVE-2019-6340)
+- [cved-sources/cve-2019-6340](https://github.com/cved-sources/cve-2019-6340)
+- [d1vious/cve-2019-6340-bits](https://github.com/d1vious/cve-2019-6340-bits)
 - [jas502n/CVE-2019-6340](https://github.com/jas502n/CVE-2019-6340)
 - [ludy-dev/drupal8-REST-RCE](https://github.com/ludy-dev/drupal8-REST-RCE)
+
+### CVE-2019-6440
+
+<code>
+Zemana AntiMalware before 3.0.658 Beta mishandles update logic.
+</code>
+
+- [hexnone/CVE-2019-6440](https://github.com/hexnone/CVE-2019-6440)
 
 ### CVE-2019-6446
 
@@ -3261,6 +3388,7 @@ Some field types do not properly sanitize data from non-form sources in Drupal 8
 The ES File Explorer File Manager application through 4.1.9.7.4 for Android allows remote attackers to read arbitrary files or execute applications via TCP port 59777 requests on the local Wi-Fi network. This TCP port remains open after the ES application has been launched once, and responds to unauthenticated application/json data over HTTP.
 </code>
 
+- [fs0c131y/ESFileExplorerOpenPortVuln](https://github.com/fs0c131y/ESFileExplorerOpenPortVuln)
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 
 ### CVE-2019-6453
@@ -3269,6 +3397,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 mIRC before 7.55 allows remote command execution by using argument injection through custom URI protocol handlers. The attacker can specify an irc:// URI that loads an arbitrary .ini file from a UNC share pathname. Exploitation depends on browser-specific URI handling (Chrome is not exploitable).
 </code>
 
+- [proofofcalc/cve-2019-6453-poc](https://github.com/proofofcalc/cve-2019-6453-poc)
 - [andripwn/mIRC-CVE-2019-6453](https://github.com/andripwn/mIRC-CVE-2019-6453)
 
 ### CVE-2019-6467
@@ -3279,6 +3408,14 @@ A programming error in the nxdomain-redirect feature can cause an assertion fail
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
 
+### CVE-2019-6487
+
+<code>
+TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
+</code>
+
+- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
+
 ### CVE-2019-6690
 
 <code>
@@ -3286,6 +3423,7 @@ python-gnupg 0.4.3 allows context-dependent attackers to trick gnupg to decrypt 
 </code>
 
 - [stigtsp/CVE-2019-6690-python-gnupg-vulnerability](https://github.com/stigtsp/CVE-2019-6690-python-gnupg-vulnerability)
+- [brianwrf/CVE-2019-6690](https://github.com/brianwrf/CVE-2019-6690)
 
 ### CVE-2019-6715
 
@@ -3304,12 +3442,29 @@ This improper access control vulnerability allows remote attackers to gain unaut
 - [cycraft-corp/cve-2019-7192-check](https://github.com/cycraft-corp/cve-2019-7192-check)
 - [th3gundy/CVE-2019-7192_QNAP_Exploit](https://github.com/th3gundy/CVE-2019-7192_QNAP_Exploit)
 
+### CVE-2019-7216
+
+<code>
+An issue was discovered in FileChucker 4.99e-free-e02. filechucker.cgi has a filter bypass that allows a malicious user to upload any type of file by using % characters within the extension, e.g., file.%ph%p becomes file.php.
+</code>
+
+- [Ekultek/CVE-2019-7216](https://github.com/Ekultek/CVE-2019-7216)
+
+### CVE-2019-7219
+
+<code>
+Unauthenticated reflected cross-site scripting (XSS) exists in Zarafa Webapp 2.0.1.47791 and earlier. NOTE: this is a discontinued product. The issue was fixed in later Zarafa Webapp versions; however, some former Zarafa Webapp customers use the related Kopano product instead.
+</code>
+
+- [verifysecurity/CVE-2019-7219](https://github.com/verifysecurity/CVE-2019-7219)
+
 ### CVE-2019-7238
 
 <code>
 Sonatype Nexus Repository Manager before 3.15.0 has Incorrect Access Control.
 </code>
 
+- [mpgn/CVE-2019-7238](https://github.com/mpgn/CVE-2019-7238)
 - [jas502n/CVE-2019-7238](https://github.com/jas502n/CVE-2019-7238)
 - [verctor/nexus_rce_CVE-2019-7238](https://github.com/verctor/nexus_rce_CVE-2019-7238)
 - [magicming200/CVE-2019-7238_Nexus_RCE_Tool](https://github.com/magicming200/CVE-2019-7238_Nexus_RCE_Tool)
@@ -3321,6 +3476,7 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 </code>
 
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
+- [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 
 ### CVE-2019-7482
 
@@ -3359,6 +3515,14 @@ Kibana versions before 6.8.2 and 7.2.1 contain a server side request forgery (SS
 
 - [random-robbie/CVE-2019-7616](https://github.com/random-robbie/CVE-2019-7616)
 
+### CVE-2019-7642
+
+<code>
+D-Link routers with the mydlink feature have some web interfaces without authentication requirements. An attacker can remotely obtain users' DNS query logs and login logs. Vulnerable targets include but are not limited to the latest firmware versions of DIR-817LW (A1-1.04), DIR-816L (B1-2.06), DIR-816 (B1-2.06?), DIR-850L (A1-1.09), and DIR-868L (A1-1.10).
+</code>
+
+- [xw77cve/CVE-2019-7642](https://github.com/xw77cve/CVE-2019-7642)
+
 ### CVE-2019-7839
 
 <code>
@@ -3366,6 +3530,14 @@ ColdFusion versions Update 3 and earlier, Update 10 and earlier, and Update 18 a
 </code>
 
 - [securifera/CVE-2019-7839](https://github.com/securifera/CVE-2019-7839)
+
+### CVE-2019-8389
+
+<code>
+A file-read vulnerability was identified in the Wi-Fi transfer feature of Musicloud 1.6. By default, the application runs a transfer service on port 8080, accessible by everyone on the same Wi-Fi network. An attacker can send the POST parameters downfiles and cur-folder (with a crafted ../ payload) to the download.script endpoint. This will create a MusicPlayerArchive.zip archive that is publicly accessible and includes the content of any requested file (such as the /etc/passwd file).
+</code>
+
+- [shawarkhanethicalhacker/CVE-2019-8389](https://github.com/shawarkhanethicalhacker/CVE-2019-8389)
 
 ### CVE-2019-8446
 
@@ -3472,6 +3644,7 @@ NTP through 4.2.8p12 has a NULL Pointer Dereference.
 WordPress before 4.9.9 and 5.x before 5.0.1 allows remote code execution because an _wp_attached_file Post Meta entry can be changed to an arbitrary string, such as one ending with a .jpg?file.php substring. An attacker with author privileges can execute arbitrary code by uploading a crafted image containing PHP code in the Exif metadata. Exploitation can leverage CVE-2019-8943.
 </code>
 
+- [brianwrf/WordPress_4.9.8_RCE_POC](https://github.com/brianwrf/WordPress_4.9.8_RCE_POC)
 - [synacktiv/CVE-2019-8942](https://github.com/synacktiv/CVE-2019-8942)
 
 ### CVE-2019-8956
@@ -3506,6 +3679,14 @@ Improper Verification of a Cryptographic Signature in OpenPGP.js &lt;=4.1.2 allo
 
 - [ZenyWay/opgp-service-cve-2019-9153](https://github.com/ZenyWay/opgp-service-cve-2019-9153)
 
+### CVE-2019-9184
+
+<code>
+SQL injection vulnerability in the J2Store plugin 3.x before 3.3.7 for Joomla! allows remote attackers to execute arbitrary SQL commands via the product_option[] parameter.
+</code>
+
+- [cved-sources/cve-2019-9184](https://github.com/cved-sources/cve-2019-9184)
+
 ### CVE-2019-9193
 
 <code>
@@ -3513,6 +3694,14 @@ Improper Verification of a Cryptographic Signature in OpenPGP.js &lt;=4.1.2 allo
 </code>
 
 - [skyship36/CVE-2019-9193](https://github.com/skyship36/CVE-2019-9193)
+
+### CVE-2019-9194
+
+<code>
+elFinder before 2.1.48 has a command injection vulnerability in the PHP connector.
+</code>
+
+- [cved-sources/cve-2019-9194](https://github.com/cved-sources/cve-2019-9194)
 
 ### CVE-2019-9202
 
@@ -3538,6 +3727,14 @@ The Bluetooth BR/EDR specification up to and including version 5.1 permits suffi
 
 - [francozappa/knob](https://github.com/francozappa/knob)
 
+### CVE-2019-9580
+
+<code>
+In st2web in StackStorm Web UI before 2.9.3 and 2.10.x before 2.10.3, it is possible to bypass the CORS protection mechanism via a &quot;null&quot; origin value, potentially leading to XSS.
+</code>
+
+- [mpgn/CVE-2019-9580](https://github.com/mpgn/CVE-2019-9580)
+
 ### CVE-2019-9596
 
 <code>
@@ -3562,6 +3759,14 @@ Zimbra Collaboration Suite before 8.6 patch 13, 8.7.x before 8.7.11 patch 10, an
 
 - [k8gege/ZimbraExploit](https://github.com/k8gege/ZimbraExploit)
 
+### CVE-2019-9653
+
+<code>
+NUUO Network Video Recorder Firmware 1.7.x through 3.3.x allows unauthenticated attackers to execute arbitrary commands via shell metacharacters to handle_load_config.php.
+</code>
+
+- [grayoneday/CVE-2019-9653](https://github.com/grayoneday/CVE-2019-9653)
+
 ### CVE-2019-9670
 
 <code>
@@ -3570,6 +3775,22 @@ mailboxd component in Synacor Zimbra Collaboration Suite 8.7.x before 8.7.11p10 
 
 - [rek7/Zimbra-RCE](https://github.com/rek7/Zimbra-RCE)
 - [attackgithub/Zimbra-RCE](https://github.com/attackgithub/Zimbra-RCE)
+
+### CVE-2019-9673
+
+<code>
+Freenet 1483 has a MIME type bypass that allows arbitrary JavaScript execution via a crafted Freenet URI.
+</code>
+
+- [mgrube/CVE-2019-9673](https://github.com/mgrube/CVE-2019-9673)
+
+### CVE-2019-9729
+
+<code>
+In Shanda MapleStory Online V160, the SdoKeyCrypt.sys driver allows privilege escalation to NT AUTHORITY\SYSTEM because of not validating the IOCtl 0x8000c01c input value, leading to an integer signedness error and a heap-based buffer underflow.
+</code>
+
+- [HyperSine/SdoKeyCrypt-sys-local-privilege-elevation](https://github.com/HyperSine/SdoKeyCrypt-sys-local-privilege-elevation)
 
 ### CVE-2019-9730
 
@@ -3612,6 +3833,7 @@ WordPress before 5.1.1 does not properly filter comment content, leading to Remo
 Incorrect alias information in IonMonkey JIT compiler for Array.prototype.slice method may lead to missing bounds check and a buffer overflow. This vulnerability affects Firefox &lt; 66.0.1, Firefox ESR &lt; 60.6.1, and Thunderbird &lt; 60.6.1.
 </code>
 
+- [xuechiyaobai/CVE-2019-9810-PoC](https://github.com/xuechiyaobai/CVE-2019-9810-PoC)
 - [0vercl0k/CVE-2019-9810](https://github.com/0vercl0k/CVE-2019-9810)
 
 ### CVE-2019-9896
@@ -3789,6 +4011,14 @@ A broken access control vulnerability in HG100 firmware versions up to 4.00.06 a
 </code>
 
 - [tim124058/ASUS-SmartHome-Exploit](https://github.com/tim124058/ASUS-SmartHome-Exploit)
+
+### CVE-2019-11076
+
+<code>
+Cribl UI 1.5.0 allows remote attackers to run arbitrary commands via an unauthenticated web request.
+</code>
+
+- [livehybrid/poc-cribl-rce](https://github.com/livehybrid/poc-cribl-rce)
 
 ### CVE-2019-11157
 
@@ -5509,6 +5739,14 @@ A heap-based buffer overflow in _cairo_image_surface_create_from_jpeg() in exten
 ### CVE-2019-48814
 - [wucj001/cve-2019-48814](https://github.com/wucj001/cve-2019-48814)
 
+### CVE-2019-1002101
+
+<code>
+The kubectl cp command allows copying files between containers and the user machine. To copy files from a container, Kubernetes creates a tar inside the container, copies it over the network, and kubectl unpacks it on the user’s machine. If the tar binary in the container is malicious, it could run any code and output unexpected, malicious results. An attacker could use this to write files to any path on the user’s machine when kubectl cp is called, limited only by the system permissions of the local user. The untar function can both create and follow symbolic links. The issue is resolved in kubectl v1.11.9, v1.12.7, v1.13.5, and v1.14.0.
+</code>
+
+- [brompwnie/CVE-2019-1002101-Helpers](https://github.com/brompwnie/CVE-2019-1002101-Helpers)
+
 ### CVE-2019-1003000
 
 <code>
@@ -5516,6 +5754,8 @@ A sandbox bypass vulnerability exists in Script Security Plugin 1.49 and earlier
 </code>
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
+- [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
+- [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 
 ### CVE-2019-1010054
