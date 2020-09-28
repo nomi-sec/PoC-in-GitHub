@@ -6468,6 +6468,12 @@ The Norton Core router prior to v237 may be susceptible to a command injection e
 
 - [embedi/ble_norton_core](https://github.com/embedi/ble_norton_core)
 
+### CVE-2018-5353
+- [missing0x00/CVE-2018-5353](https://github.com/missing0x00/CVE-2018-5353)
+
+### CVE-2018-5354
+- [missing0x00/CVE-2018-5354](https://github.com/missing0x00/CVE-2018-5354)
+
 ### CVE-2018-5711
 
 <code>
