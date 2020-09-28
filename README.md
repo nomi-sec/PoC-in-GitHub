@@ -318,6 +318,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [getdrive/smbghost](https://github.com/getdrive/smbghost)
 - [rsmudge/CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)
 - [aloswoya/CVE-2020-0796-cobaltstrike-cna](https://github.com/aloswoya/CVE-2020-0796-cobaltstrike-cna)
+- [codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-)
 
 ### CVE-2020-0797
 
@@ -526,6 +527,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472)
 - [grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472)
 - [striveben/CVE-2020-1472](https://github.com/striveben/CVE-2020-1472)
+- [Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-)
 
 ### CVE-2020-1493
 
@@ -727,6 +729,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [paran0id34/CVE-2020-3452](https://github.com/paran0id34/CVE-2020-3452)
 - [murataydemir/CVE-2020-3452](https://github.com/murataydemir/CVE-2020-3452)
 - [ludy-dev/Cisco-ASA-LFI](https://github.com/ludy-dev/Cisco-ASA-LFI)
+- [3ndG4me/CVE-2020-3452-Scanner](https://github.com/3ndG4me/CVE-2020-3452-Scanner)
 
 ### CVE-2020-3766
 
