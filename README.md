@@ -4004,6 +4004,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [0th3rs-Security-Team/CVE-2019-11043](https://github.com/0th3rs-Security-Team/CVE-2019-11043)
 - [k8gege/CVE-2019-11043](https://github.com/k8gege/CVE-2019-11043)
 - [moniik/CVE-2019-11043_env](https://github.com/moniik/CVE-2019-11043_env)
+- [kriskhub/CVE-2019-11043](https://github.com/kriskhub/CVE-2019-11043)
 - [alokaranasinghe/cve-2019-11043](https://github.com/alokaranasinghe/cve-2019-11043)
 - [corifeo/CVE-2019-11043](https://github.com/corifeo/CVE-2019-11043)
 
@@ -5237,6 +5238,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [tripleoctopus/Bludit-CVE-2019-17240-Fork](https://github.com/tripleoctopus/Bludit-CVE-2019-17240-Fork)
+- [persian64/CVE-2019-17240](https://github.com/persian64/CVE-2019-17240)
 
 ### CVE-2019-17424
 
