@@ -310,13 +310,15 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796)
 - [ysyyrps123/CVE-2020-0796](https://github.com/ysyyrps123/CVE-2020-0796)
 - [ysyyrps123/CVE-2020-0796-exp](https://github.com/ysyyrps123/CVE-2020-0796-exp)
-- [fdbao/SMBGhost](https://github.com/fdbao/SMBGhost)
 - [exp-sky/CVE-2020-0796](https://github.com/exp-sky/CVE-2020-0796)
 - [Barriuso/SMBGhost_AutomateExploitation](https://github.com/Barriuso/SMBGhost_AutomateExploitation)
+- [1060275195/SMBGhost](https://github.com/1060275195/SMBGhost)
 - [Almorabea/SMBGhost-LPE-Metasploit-Module](https://github.com/Almorabea/SMBGhost-LPE-Metasploit-Module)
 - [ZecOps/SMBGhost-SMBleed-scanner](https://github.com/ZecOps/SMBGhost-SMBleed-scanner)
 - [getdrive/smbghost](https://github.com/getdrive/smbghost)
-- [iamramahibrah/smbghost](https://github.com/iamramahibrah/smbghost)
+- [rsmudge/CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)
+- [aloswoya/CVE-2020-0796-cobaltstrike-cna](https://github.com/aloswoya/CVE-2020-0796-cobaltstrike-cna)
+- [codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-)
 
 ### CVE-2020-0797
 
@@ -377,6 +379,7 @@ An elevation of privilege vulnerability exists when the Windows Print Spooler se
 
 - [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
 - [shubham0d/CVE-2020-1048](https://github.com/shubham0d/CVE-2020-1048)
+- [Ken-Abruzzi/CVE-2020-1048](https://github.com/Ken-Abruzzi/CVE-2020-1048)
 
 ### CVE-2020-1054
 
@@ -386,7 +389,7 @@ An elevation of privilege vulnerability exists in Windows when the Windows kerne
 
 - [0xeb-bp/cve-2020-1054](https://github.com/0xeb-bp/cve-2020-1054)
 - [Iamgublin/CVE-2020-1054](https://github.com/Iamgublin/CVE-2020-1054)
-- [HongYe-Code/CVE-2020-1054](https://github.com/HongYe-Code/CVE-2020-1054)
+- [KaLendsi/CVE-2020-1054](https://github.com/KaLendsi/CVE-2020-1054)
 
 ### CVE-2020-1066
 
@@ -495,6 +498,36 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 
 - [mingchen-script/CVE-2020-1472-visualizer](https://github.com/mingchen-script/CVE-2020-1472-visualizer)
 - [SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472)
+- [cube0x0/CVE-2020-1472](https://github.com/cube0x0/CVE-2020-1472)
+- [dirkjanm/CVE-2020-1472](https://github.com/dirkjanm/CVE-2020-1472)
+- [VoidSec/CVE-2020-1472](https://github.com/VoidSec/CVE-2020-1472)
+- [risksense/zerologon](https://github.com/risksense/zerologon)
+- [bb00/zer0dump](https://github.com/bb00/zer0dump)
+- [Kamimuka/CVE-2020-1472](https://github.com/Kamimuka/CVE-2020-1472)
+- [NAXG/CVE-2020-1472](https://github.com/NAXG/CVE-2020-1472)
+- [s0wr0b1ndef/CVE-2020-1472](https://github.com/s0wr0b1ndef/CVE-2020-1472)
+- [harshil-shah004/zerologon-CVE-2020-1472](https://github.com/harshil-shah004/zerologon-CVE-2020-1472)
+- [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
+- [422926799/CVE-2020-1472](https://github.com/422926799/CVE-2020-1472)
+- [scv-m/zabbix-template-CVE-2020-1472](https://github.com/scv-m/zabbix-template-CVE-2020-1472)
+- [mstxq17/cve-2020-1472](https://github.com/mstxq17/cve-2020-1472)
+- [Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472)
+- [Fa1c0n35/SecuraBV-CVE-2020-1472](https://github.com/Fa1c0n35/SecuraBV-CVE-2020-1472)
+- [CanciuCostin/CVE-2020-1472](https://github.com/CanciuCostin/CVE-2020-1472)
+- [0xcccc666/cve-2020-1472_Tool-collection](https://github.com/0xcccc666/cve-2020-1472_Tool-collection)
+- [murataydemir/CVE-2020-1472](https://github.com/murataydemir/CVE-2020-1472)
+- [npocmak/CVE-2020-1472](https://github.com/npocmak/CVE-2020-1472)
+- [victim10wq3/CVE-2020-1472](https://github.com/victim10wq3/CVE-2020-1472)
+- [zeronetworks/zerologon](https://github.com/zeronetworks/zerologon)
+- [sv3nbeast/CVE-2020-1472](https://github.com/sv3nbeast/CVE-2020-1472)
+- [midpipps/CVE-2020-1472-Easy](https://github.com/midpipps/CVE-2020-1472-Easy)
+- [hectorgie/CVE-2020-1472](https://github.com/hectorgie/CVE-2020-1472)
+- [johnpathe/zerologon-cve-2020-1472-notes](https://github.com/johnpathe/zerologon-cve-2020-1472-notes)
+- [t31m0/CVE-2020-1472](https://github.com/t31m0/CVE-2020-1472)
+- [grupooruss/CVE-2020-1472](https://github.com/grupooruss/CVE-2020-1472)
+- [striveben/CVE-2020-1472](https://github.com/striveben/CVE-2020-1472)
+- [Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-)
+- [Whippet0/CVE-2020-1472](https://github.com/Whippet0/CVE-2020-1472)
 
 ### CVE-2020-1493
 
@@ -632,6 +665,7 @@ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (compo
 - [0nise/CVE-2020-2555](https://github.com/0nise/CVE-2020-2555)
 - [Y4er/CVE-2020-2555](https://github.com/Y4er/CVE-2020-2555)
 - [Maskhe/cve-2020-2555](https://github.com/Maskhe/cve-2020-2555)
+- [Uvemode/CVE-2020-2555](https://github.com/Uvemode/CVE-2020-2555)
 
 ### CVE-2020-2655
 
@@ -671,6 +705,14 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [pry0cc/CVE-2020-3187](https://github.com/pry0cc/CVE-2020-3187)
 - [Basu-banakar/CVE-2020-3187](https://github.com/Basu-banakar/CVE-2020-3187)
 
+### CVE-2020-3433
+
+<code>
+A vulnerability in the interprocess communication (IPC) channel of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to perform a DLL hijacking attack. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system. The vulnerability is due to insufficient validation of resources that are loaded by the application at run time. An attacker could exploit this vulnerability by sending a crafted IPC message to the AnyConnect process. A successful exploit could allow the attacker to execute arbitrary code on the affected machine with SYSTEM privileges. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system.
+</code>
+
+- [goichot/CVE-2020-3433](https://github.com/goichot/CVE-2020-3433)
+
 ### CVE-2020-3452
 
 <code>
@@ -687,6 +729,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [paran0id34/CVE-2020-3452](https://github.com/paran0id34/CVE-2020-3452)
 - [murataydemir/CVE-2020-3452](https://github.com/murataydemir/CVE-2020-3452)
 - [ludy-dev/Cisco-ASA-LFI](https://github.com/ludy-dev/Cisco-ASA-LFI)
+- [3ndG4me/CVE-2020-3452-Scanner](https://github.com/3ndG4me/CVE-2020-3452-Scanner)
 
 ### CVE-2020-3766
 
@@ -798,6 +841,7 @@ Spring Cloud Config, versions 2.2.x prior to 2.2.3, versions 2.1.x prior to 2.1.
 
 - [dead5nd/config-demo](https://github.com/dead5nd/config-demo)
 - [osamahamad/CVE-2020-5410-POC](https://github.com/osamahamad/CVE-2020-5410-POC)
+- [mugisyahid/ki-vuln-cve-2020-5410](https://github.com/mugisyahid/ki-vuln-cve-2020-5410)
 
 ### CVE-2020-5509
 
@@ -863,7 +907,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [zhzyker/CVE-2020-5902](https://github.com/zhzyker/CVE-2020-5902)
 - [GovindPalakkal/EvilRip](https://github.com/GovindPalakkal/EvilRip)
 - [dnerzker/CVE-2020-5902](https://github.com/dnerzker/CVE-2020-5902)
-- [c130rg/checkvulnCVE2020590](https://github.com/c130rg/checkvulnCVE2020590)
+- [renanhsilva/checkvulnCVE2020590](https://github.com/renanhsilva/checkvulnCVE2020590)
 - [halencarjunior/f5scan](https://github.com/halencarjunior/f5scan)
 - [deepsecurity-pe/GoF5-CVE-2020-5902](https://github.com/deepsecurity-pe/GoF5-CVE-2020-5902)
 - [Shu1L/CVE-2020-5902-fofa-scan](https://github.com/Shu1L/CVE-2020-5902-fofa-scan)
@@ -883,6 +927,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [murataydemir/CVE-2020-5902](https://github.com/murataydemir/CVE-2020-5902)
 - [superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902)
 - [ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability](https://github.com/ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability)
+- [corelight-ricky/CVE-2020-5902-F5BigIP](https://github.com/corelight-ricky/CVE-2020-5902-F5BigIP)
 
 ### CVE-2020-6286
 
@@ -911,6 +956,15 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 </code>
 
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
+- [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
+
+### CVE-2020-6468
+
+<code>
+Type confusion in V8 in Google Chrome prior to 83.0.4103.61 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [Goyotan/CVE-2020-6468-PoC](https://github.com/Goyotan/CVE-2020-6468-PoC)
 
 ### CVE-2020-6514
 
@@ -1127,6 +1181,14 @@ The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the 
 - [vulncrate/wp-codesnippets-cve-2020-8417](https://github.com/vulncrate/wp-codesnippets-cve-2020-8417)
 - [waleweewe12/CVE-2020-8417](https://github.com/waleweewe12/CVE-2020-8417)
 
+### CVE-2020-8437
+
+<code>
+The bencoding parser in BitTorrent uTorrent through 3.5.5 (build 45505) misparses nested bencoded dictionaries, which allows a remote attacker to cause a denial of service.
+</code>
+
+- [guywhataguy/uTorrent-CVE-2020-8437](https://github.com/guywhataguy/uTorrent-CVE-2020-8437)
+
 ### CVE-2020-8515
 
 <code>
@@ -1214,6 +1276,8 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 </code>
 
 - [Prabhashaka/IT19147192-CVE-2020-8835](https://github.com/Prabhashaka/IT19147192-CVE-2020-8835)
+- [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
+- [socketcall/CVE-2020-8835](https://github.com/socketcall/CVE-2020-8835)
 
 ### CVE-2020-8840
 
@@ -1415,6 +1479,9 @@ The issue was addressed by clearing website permission prompts after navigation.
 ### CVE-2020-9934
 - [mattshockl/CVE-2020-9934](https://github.com/mattshockl/CVE-2020-9934)
 
+### CVE-2020-9992
+- [c0ntextomy/c0ntextomy](https://github.com/c0ntextomy/c0ntextomy)
+
 ### CVE-2020-10135
 
 <code>
@@ -1442,6 +1509,14 @@ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
 
 - [duolaoa333/CVE-2020-10204](https://github.com/duolaoa333/CVE-2020-10204)
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
+
+### CVE-2020-10558
+
+<code>
+The driving interface of Tesla Model 3 vehicles in any release before 2020.4.10 allows Denial of Service to occur due to improper process separation, which allows attackers to disable the speedometer, web browser, climate controls, turn signal visual and sounds, navigation, autopilot notifications, along with other miscellaneous functions from the main screen.
+</code>
+
+- [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
 
 ### CVE-2020-10560
 
@@ -1494,6 +1569,11 @@ A vulnerability was found in all versions of containernetworking/plugins before 
 - [knqyf263/CVE-2020-10749](https://github.com/knqyf263/CVE-2020-10749)
 
 ### CVE-2020-10759
+
+<code>
+A PGP signature bypass flaw was found in fwupd (all versions), which could lead to the installation of unsigned firmware. As per upstream, a signature bypass is theoretically possible, but not practical because the Linux Vendor Firmware Service (LVFS) is either not implemented or enabled in versions of fwupd shipped with Red Hat Enterprise Linux 7 and 8. The highest threat from this vulnerability is to confidentiality and integrity.
+</code>
+
 - [justinsteven/CVE-2020-10759-poc](https://github.com/justinsteven/CVE-2020-10759-poc)
 
 ### CVE-2020-11076
@@ -1614,6 +1694,11 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
 
 ### CVE-2020-11881
+
+<code>
+An array index error in MikroTik RouterOS 6.41.3 through 6.46.5, and 7.x through 7.0 Beta5, allows an unauthenticated remote attacker to crash the SMB server via modified setup-request packets, aka SUP-12964.
+</code>
+
 - [botlabsDev/CVE-2020-11881](https://github.com/botlabsDev/CVE-2020-11881)
 
 ### CVE-2020-11890
@@ -1815,6 +1900,11 @@ An issue was discovered in Django 2.2 before 2.2.13 and 3.0 before 3.0.7. In cas
 - [danpalmer/django-cve-2020-13254](https://github.com/danpalmer/django-cve-2020-13254)
 
 ### CVE-2020-13259
+
+<code>
+A vulnerability in the web-based management interface of RAD SecFlow-1v os-image SF_0290_2.3.01.26 could allow an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack on an affected system. The vulnerability is due to insufficient CSRF protections for the web UI on an affected device. An attacker could exploit this vulnerability by persuading a user of the interface to follow a malicious link. A successful exploit could allow the attacker to perform arbitrary actions with the privilege level of the affected user. This could be exploited in conjunction with CVE-2020-13260.
+</code>
+
 - [UrielYochpaz/CVE-2020-13259](https://github.com/UrielYochpaz/CVE-2020-13259)
 
 ### CVE-2020-13424
@@ -1896,6 +1986,7 @@ Apache Shiro before 1.6.0, when using Apache Shiro, a specially crafted HTTP req
 </code>
 
 - [lyy289065406/CVE-2020-13933](https://github.com/lyy289065406/CVE-2020-13933)
+- [Kamimuka/cve-2020-13933](https://github.com/Kamimuka/cve-2020-13933)
 
 ### CVE-2020-13996
 
@@ -1929,6 +2020,14 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files
 
 - [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
 
+### CVE-2020-14195
+
+<code>
+FasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction between serialization gadgets and typing, related to org.jsecurity.realm.jndi.JndiRealmFactory (aka org.jsecurity).
+</code>
+
+- [Al1ex/CVE-2020-14195](https://github.com/Al1ex/CVE-2020-14195)
+
 ### CVE-2020-14199
 
 <code>
@@ -1945,8 +2044,22 @@ In the COVIDSafe application through 1.0.21 for Android, unsafe use of the Bluet
 
 - [alwentiu/CVE-2020-14292](https://github.com/alwentiu/CVE-2020-14292)
 
+### CVE-2020-14293
+- [patrickhener/CVE-2020-14293](https://github.com/patrickhener/CVE-2020-14293)
+
+### CVE-2020-14294
+- [patrickhener/CVE-2020-14294](https://github.com/patrickhener/CVE-2020-14294)
+
 ### CVE-2020-14321
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
+
+### CVE-2020-14386
+
+<code>
+A flaw was found in the Linux kernel before 5.9-rc4. Memory corruption can be exploited to gain root privileges from unprivileged processes. The highest threat from this vulnerability is to data confidentiality and integrity.
+</code>
+
+- [cgwalters/cve-2020-14386](https://github.com/cgwalters/cve-2020-14386)
 
 ### CVE-2020-14645
 
@@ -2014,6 +2127,14 @@ An issue was discovered in Artica Proxy CE before 4.28.030.418. Reflected XSS ex
 
 - [pratikshad19/CVE-2020-15053](https://github.com/pratikshad19/CVE-2020-15053)
 
+### CVE-2020-15148
+
+<code>
+Yii 2 (yiisoft/yii2) before version 2.0.38 is vulnerable to remote code execution if the application calls `unserialize()` on arbitrary user input. This is fixed in version 2.0.38. A possible workaround without upgrading is available in the linked advisory.
+</code>
+
+- [Maskhe/CVE-2020-15148-bypasses](https://github.com/Maskhe/CVE-2020-15148-bypasses)
+
 ### CVE-2020-15367
 
 <code>
@@ -2033,13 +2154,13 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 ### CVE-2020-15399
 - [mkelepce/CVE-2020-15399](https://github.com/mkelepce/CVE-2020-15399)
 
-### CVE-2020-15505
+### CVE-2020-15492
 
 <code>
-A remote code execution vulnerability in MobileIron Core and Connector versions 10.6 and earlier, and Sentry versions 9.8 and earlier that allows remote attackers to execute arbitrary code via unspecified vectors.
+An issue was discovered in INNEO Startup TOOLS 2017 M021 12.0.66.3784 through 2018 M040 13.0.70.3804. The sut_srv.exe web application (served on TCP port 85) includes user input into a filesystem access without any further validation. This might allow an unauthenticated attacker to read files on the server via Directory Traversal, or possibly have unspecified other impact.
 </code>
 
-- [swiper/CVE-2020-15505](https://github.com/swiper/CVE-2020-15505)
+- [patrickhener/CVE-2020-15492](https://github.com/patrickhener/CVE-2020-15492)
 
 ### CVE-2020-15778
 
@@ -2063,8 +2184,8 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 ### CVE-2020-16152
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 
-### CVE-2020-17453
-- [JHHAX/CVE-2020-17453](https://github.com/JHHAX/CVE-2020-17453)
+### CVE-2020-17382
+- [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
 
 ### CVE-2020-17496
 
@@ -2143,6 +2264,83 @@ SUPERAntiSyware Professional X Trial 10.0.1206 is vulnerable to local privilege 
 ### CVE-2020-25200
 - [lukaszstu/pritunl](https://github.com/lukaszstu/pritunl)
 
+### CVE-2020-25270
+- [Ko-kn3t/CVE-2020-25270](https://github.com/Ko-kn3t/CVE-2020-25270)
+
+### CVE-2020-25271
+- [Ko-kn3t/CVE-2020-25271](https://github.com/Ko-kn3t/CVE-2020-25271)
+
+### CVE-2020-25272
+- [Ko-kn3t/CVE-2020-25272](https://github.com/Ko-kn3t/CVE-2020-25272)
+
+### CVE-2020-25273
+- [Ko-kn3t/CVE-2020-25273](https://github.com/Ko-kn3t/CVE-2020-25273)
+
+### CVE-2020-25487
+
+<code>
+PHPGURUKUL Zoo Management System Using PHP and MySQL version 1.0 is affected by: SQL Injection via zms/animal-detail.php.
+</code>
+
+- [Ko-kn3t/CVE-2020-25487](https://github.com/Ko-kn3t/CVE-2020-25487)
+
+### CVE-2020-25488
+- [Ko-kn3t/CVE-2020-25488](https://github.com/Ko-kn3t/CVE-2020-25488)
+
+### CVE-2020-25514
+
+<code>
+Sourcecodester Simple Library Management System 1.0 is affected by Incorrect Access Control via the Login Panel, http://&lt;site&gt;/lms/admin.php.
+</code>
+
+- [Ko-kn3t/CVE-2020-25514](https://github.com/Ko-kn3t/CVE-2020-25514)
+
+### CVE-2020-25515
+
+<code>
+Sourcecodester Simple Library Management System 1.0 is affected by Insecure Permissions via Books &gt; New Book , http://&lt;site&gt;/lms/index.php?page=books.
+</code>
+
+- [Ko-kn3t/CVE-2020-25515](https://github.com/Ko-kn3t/CVE-2020-25515)
+
+### CVE-2020-25518
+- [g-rubert/wordpress_DoS](https://github.com/g-rubert/wordpress_DoS)
+
+### CVE-2020-25747
+
+<code>
+The Telnet service of Rubetek RV-3406, RV-3409, and RV-3411 cameras (firmware versions v342, v339) can allow a remote attacker to gain access to RTSP and ONFIV services without authentication. Thus, the attacker can watch live streams from the camera, rotate the camera, change some settings (brightness, clarity, time), restart the camera, or reset it to factory settings.
+</code>
+
+- [jet-pentest/CVE-2020-25747](https://github.com/jet-pentest/CVE-2020-25747)
+
+### CVE-2020-25748
+
+<code>
+A Cleartext Transmission issue was discovered on Rubetek RV-3406, RV-3409, and RV-3411 cameras (firmware versions v342, v339). Someone in the middle can intercept and modify the video data from the camera, which is transmitted in an unencrypted form. One can also modify responses from NTP and RTSP servers and force the camera to use the changed values.
+</code>
+
+- [jet-pentest/CVE-2020-25748](https://github.com/jet-pentest/CVE-2020-25748)
+
+### CVE-2020-25749
+
+<code>
+The Telnet service of Rubetek cameras RV-3406, RV-3409, and RV-3411 cameras (firmware versions v342, v339) could allow an remote attacker to take full control of the device with a high-privileged account. The vulnerability exists because a system account has a default and static password. The Telnet service cannot be disabled and this password cannot be changed via standard functionality.
+</code>
+
+- [jet-pentest/CVE-2020-25749](https://github.com/jet-pentest/CVE-2020-25749)
+
+### CVE-2020-25790
+
+<code>
+** DISPUTED ** Typesetter CMS 5.x through 5.1 allows admins to upload and execute arbitrary PHP code via a .php file inside a ZIP archive. NOTE: the vendor disputes the significance of this report because &quot;admins are considered trustworthy&quot;; however, the behavior &quot;contradicts our security policy&quot; and is being fixed for 5.2.
+</code>
+
+- [t0gu/CVE-2020-25790](https://github.com/t0gu/CVE-2020-25790)
+
+### CVE-2020-25867
+- [thomasfady/CVE-2020-25867](https://github.com/thomasfady/CVE-2020-25867)
+
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
 
@@ -2201,6 +2399,11 @@ A Server Side Request Forgery (SSRF) vulnerability affected the Apache Axis 1.4 
 - [ianxtianxt/cve-2019-0227](https://github.com/ianxtianxt/cve-2019-0227)
 
 ### CVE-2019-0230
+
+<code>
+Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution.
+</code>
+
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 
@@ -2351,7 +2554,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [wqsemc/CVE-2019-0708](https://github.com/wqsemc/CVE-2019-0708)
 - [mai-lang-chai/CVE-2019-0708-RCE](https://github.com/mai-lang-chai/CVE-2019-0708-RCE)
 - [Micr067/CVE-2019-0708RDP-MSF](https://github.com/Micr067/CVE-2019-0708RDP-MSF)
-- [adkinguzi/CVE-2019-0708-BlueKeep](https://github.com/adkinguzi/CVE-2019-0708-BlueKeep)
+- [upknboy/CVE-2019-0708-BlueKeep](https://github.com/upknboy/CVE-2019-0708-BlueKeep)
 - [FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708)
 - [qing-root/CVE-2019-0708-EXP-MSF-](https://github.com/qing-root/CVE-2019-0708-EXP-MSF-)
 - [distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708)
@@ -3027,7 +3230,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
 - [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
 - [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
-- [ebdecastro/poc-cve-2019-5736](https://github.com/ebdecastro/poc-cve-2019-5736)
+- [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
 - [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
@@ -3042,7 +3245,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
-- [donghyunlee00/CVE-2019-5736](https://github.com/donghyunlee00/CVE-2019-5736)
 
 ### CVE-2019-5737
 
@@ -3431,6 +3633,14 @@ A memory corruption issue was addressed with improved state management. This iss
 - [A2nkF/macOS-Kernel-Exploit](https://github.com/A2nkF/macOS-Kernel-Exploit)
 - [TrungNguyen1909/CVE-2019-8781-macOS](https://github.com/TrungNguyen1909/CVE-2019-8781-macOS)
 
+### CVE-2019-8936
+
+<code>
+NTP through 4.2.8p12 has a NULL Pointer Dereference.
+</code>
+
+- [snappyJack/CVE-2019-8936](https://github.com/snappyJack/CVE-2019-8936)
+
 ### CVE-2019-8942
 
 <code>
@@ -3794,6 +4004,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [0th3rs-Security-Team/CVE-2019-11043](https://github.com/0th3rs-Security-Team/CVE-2019-11043)
 - [k8gege/CVE-2019-11043](https://github.com/k8gege/CVE-2019-11043)
 - [moniik/CVE-2019-11043_env](https://github.com/moniik/CVE-2019-11043_env)
+- [kriskhub/CVE-2019-11043](https://github.com/kriskhub/CVE-2019-11043)
 - [alokaranasinghe/cve-2019-11043](https://github.com/alokaranasinghe/cve-2019-11043)
 - [corifeo/CVE-2019-11043](https://github.com/corifeo/CVE-2019-11043)
 
@@ -3836,6 +4047,15 @@ HARMAN AMX MVP5150 v2.87.13 devices allow remote OS Command Injection.
 </code>
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
+
+### CVE-2019-11248
+
+<code>
+The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
+</code>
+
+- [koharin/cve-2019-11248-after](https://github.com/koharin/cve-2019-11248-after)
+- [koharin/cve-2019-11248-before](https://github.com/koharin/cve-2019-11248-before)
 
 ### CVE-2019-11358
 
@@ -3880,6 +4100,7 @@ In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7
 - [aqhmal/pulsexploit](https://github.com/aqhmal/pulsexploit)
 - [cisagov/check-your-pulse](https://github.com/cisagov/check-your-pulse)
 - [andripwn/pulse-exploit](https://github.com/andripwn/pulse-exploit)
+- [mandr4x/CVE-2019-11510-PulseVPN](https://github.com/mandr4x/CVE-2019-11510-PulseVPN)
 
 ### CVE-2019-11523
 
@@ -4508,6 +4729,14 @@ An issue was discovered in BlueStacks 4.110 and below on macOS and on 4.120 and 
 
 - [seqred-s-a/cve-2019-14220](https://github.com/seqred-s-a/cve-2019-14220)
 
+### CVE-2019-14267
+
+<code>
+PDFResurrect 0.15 has a buffer overflow via a crafted PDF file because data associated with startxref and %%EOF is mishandled.
+</code>
+
+- [snappyJack/pdfresurrect_CVE-2019-14267](https://github.com/snappyJack/pdfresurrect_CVE-2019-14267)
+
 ### CVE-2019-14287
 
 <code>
@@ -4533,6 +4762,7 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-](https://github.com/thinuri99/Sudo-Security-Bypass-Vulnerability-CVE-2019-14287-)
 - [janod313/-CVE-2019-14287-SUDO-bypass-vulnerability](https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability)
 - [DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287)
+- [M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287)
 
 ### CVE-2019-14314
 
@@ -4691,6 +4921,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [ChakoMoonFish/webmin_CVE-2019-15107](https://github.com/ChakoMoonFish/webmin_CVE-2019-15107)
 - [cdedmondson/CVE-2019-15107](https://github.com/cdedmondson/CVE-2019-15107)
 - [ruthvikvegunta/CVE-2019-15107](https://github.com/ruthvikvegunta/CVE-2019-15107)
+- [n0obit4/Webmin_1.890-POC](https://github.com/n0obit4/Webmin_1.890-POC)
 
 ### CVE-2019-15120
 
@@ -4831,7 +5062,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
-- [bG9jYWxob3N0/CVE-2019-16113-PoC](https://github.com/bG9jYWxob3N0/CVE-2019-16113-PoC)
+- [bbr-2716057/CVE-2019-16113-PoC](https://github.com/bbr-2716057/CVE-2019-16113-PoC)
 
 ### CVE-2019-16278
 
@@ -5007,6 +5238,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [tripleoctopus/Bludit-CVE-2019-17240-Fork](https://github.com/tripleoctopus/Bludit-CVE-2019-17240-Fork)
+- [persian64/CVE-2019-17240](https://github.com/persian64/CVE-2019-17240)
 
 ### CVE-2019-17424
 
@@ -5277,6 +5509,22 @@ freeFTPd 1.0.8 has a Post-Authentication Buffer Overflow via a crafted SIZE comm
 
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
+
+### CVE-2019-19520
+
+<code>
+xlock in OpenBSD 6.6 allows local users to gain the privileges of the auth group by providing a LIBGL_DRIVERS_PATH environment variable, because xenocara/lib/mesa/src/loader/loader.c mishandles dlopen.
+</code>
+
+- [retrymp3/OpenBSD-CVE-2019-19520-CVE-2019-19522](https://github.com/retrymp3/OpenBSD-CVE-2019-19520-CVE-2019-19522)
+
+### CVE-2019-19522
+
+<code>
+OpenBSD 6.6, in a non-default configuration where S/Key or YubiKey authentication is enabled, allows local users to become root by leveraging membership in the auth group. This occurs because root's file can be written to /etc/skey or /var/db/yubikey, and need not be owned by root.
+</code>
+
+- [retrymp3/OpenBSD-CVE-2019-19522](https://github.com/retrymp3/OpenBSD-CVE-2019-19522)
 
 ### CVE-2019-19550
 
@@ -5568,7 +5816,6 @@ A vulnerability in the web interface of the Cisco Adaptive Security Appliance (A
 - [milo2012/CVE-2018-0296](https://github.com/milo2012/CVE-2018-0296)
 - [yassineaboukir/CVE-2018-0296](https://github.com/yassineaboukir/CVE-2018-0296)
 - [bhenner1/CVE-2018-0296](https://github.com/bhenner1/CVE-2018-0296)
-- [irbishop/CVE-2018-0296](https://github.com/irbishop/CVE-2018-0296)
 - [qiantu88/CVE-2018-0296](https://github.com/qiantu88/CVE-2018-0296)
 
 ### CVE-2018-0708
@@ -5597,14 +5844,6 @@ A remote code execution vulnerability exists in &quot;Microsoft COM for Windows&
 </code>
 
 - [codewhitesec/UnmarshalPwn](https://github.com/codewhitesec/UnmarshalPwn)
-
-### CVE-2018-0833
-
-<code>
-The Microsoft Server Message Block 2.0 and 3.0 (SMBv2/SMBv3) client in Windows 8.1 and RT 8.1 and Windows Server 2012 R2 allows a denial of service vulnerability due to how specially crafted requests are handled, aka &quot;SMBv2/SMBv3 Null Dereference Denial of Service Vulnerability&quot;.
-</code>
-
-- [RealBearcat/CVE-2018-0833](https://github.com/RealBearcat/CVE-2018-0833)
 
 ### CVE-2018-0886
 
@@ -5709,6 +5948,7 @@ Spring Framework, versions 5.0 prior to 5.0.5 and versions 4.3 prior to 4.3.15 a
 - [genxor/CVE-2018-1270_EXP](https://github.com/genxor/CVE-2018-1270_EXP)
 - [tafamace/CVE-2018-1270](https://github.com/tafamace/CVE-2018-1270)
 - [Venscor/CVE-2018-1270](https://github.com/Venscor/CVE-2018-1270)
+- [mprunet/owasp-formation-cve-2018-1270](https://github.com/mprunet/owasp-formation-cve-2018-1270)
 
 ### CVE-2018-1273
 
@@ -5754,7 +5994,7 @@ The URL pattern of &quot;&quot; (the empty string) which exactly maps to the con
 Security constraints defined by annotations of Servlets in Apache Tomcat 9.0.0.M1 to 9.0.4, 8.5.0 to 8.5.27, 8.0.0.RC1 to 8.0.49 and 7.0.0 to 7.0.84 were only applied once a Servlet had been loaded. Because security constraints defined in this way apply to the URL pattern and any URLs below that point, it was possible - depending on the order Servlets were loaded - for some security constraints not to be applied. This could have exposed resources to users who were not authorised to access them.
 </code>
 
-- [RealBearcat/CVE-2018-1305](https://github.com/RealBearcat/CVE-2018-1305)
+- [Pa55w0rd/CVE-2018-1305](https://github.com/Pa55w0rd/CVE-2018-1305)
 
 ### CVE-2018-1306
 
@@ -5779,14 +6019,6 @@ A specially crafted ZIP archive can be used to cause an infinite loop inside of 
 </code>
 
 - [tafamace/CVE-2018-1324](https://github.com/tafamace/CVE-2018-1324)
-
-### CVE-2018-1327
-
-<code>
-The Apache Struts REST Plugin is using XStream library which is vulnerable and allow perform a DoS attack when using a malicious request with specially crafted XML payload. Upgrade to the Apache Struts version 2.5.16 and switch to an optional Jackson XML handler as described here http://struts.apache.org/plugins/rest/#custom-contenttypehandlers. Another option is to implement a custom XML handler based on the Jackson XML handler from the Apache Struts 2.5.16.
-</code>
-
-- [RealBearcat/S2-056-XStream](https://github.com/RealBearcat/S2-056-XStream)
 
 ### CVE-2018-1335
 
@@ -6238,6 +6470,12 @@ The Norton Core router prior to v237 may be susceptible to a command injection e
 
 - [embedi/ble_norton_core](https://github.com/embedi/ble_norton_core)
 
+### CVE-2018-5353
+- [missing0x00/CVE-2018-5353](https://github.com/missing0x00/CVE-2018-5353)
+
+### CVE-2018-5354
+- [missing0x00/CVE-2018-5354](https://github.com/missing0x00/CVE-2018-5354)
+
 ### CVE-2018-5711
 
 <code>
@@ -6415,7 +6653,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Eugene24/CVE-2018-6574](https://github.com/Eugene24/CVE-2018-6574)
 - [coblax/CVE-2018-6574](https://github.com/coblax/CVE-2018-6574)
 - [darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574)
-- [abhaynayar/cve-2018-6574](https://github.com/abhaynayar/cve-2018-6574)
 - [it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574)
 - [Malone5923/CVE-2018-6574-go-get-RCE](https://github.com/Malone5923/CVE-2018-6574-go-get-RCE)
 - [l4rm4nd/CVE-2018-6574](https://github.com/l4rm4nd/CVE-2018-6574)
@@ -6423,6 +6660,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [illnino/CVE-2018-6574](https://github.com/illnino/CVE-2018-6574)
 - [TakuCoder/CVE-2018-6574](https://github.com/TakuCoder/CVE-2018-6574)
 - [kawkab101/cve-2018-6574](https://github.com/kawkab101/cve-2018-6574)
+- [lsnakazone/cve-2018-6574](https://github.com/lsnakazone/cve-2018-6574)
 
 ### CVE-2018-6622
 
@@ -7521,14 +7759,6 @@ WordPress through 4.9.6 allows Author users to execute arbitrary code by leverag
 
 - [bloom-ux/cve-2018-12895-hotfix](https://github.com/bloom-ux/cve-2018-12895-hotfix)
 
-### CVE-2018-12914
-
-<code>
-A remote code execution issue was discovered in PublicCMS V4.0.20180210. An attacker can upload a ZIP archive that contains a .jsp file with a directory traversal pathname. After an unzip operation, the attacker can execute arbitrary code by visiting a .jsp URI.
-</code>
-
-- [RealBearcat/CVE-2018-12914](https://github.com/RealBearcat/CVE-2018-12914)
-
 ### CVE-2018-13257
 
 <code>
@@ -7556,6 +7786,7 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [0xHunter/FortiOS-Credentials-Disclosure](https://github.com/0xHunter/FortiOS-Credentials-Disclosure)
 - [Blazz3/cve2018-13379-nmap-script](https://github.com/Blazz3/cve2018-13379-nmap-script)
 - [yukar1z0e/CVE-2018-13379](https://github.com/yukar1z0e/CVE-2018-13379)
+- [mandr4x/CVE-2018-13379-FortinetVPN](https://github.com/mandr4x/CVE-2018-13379-FortinetVPN)
 
 ### CVE-2018-13382
 
@@ -7735,14 +7966,6 @@ GEAR Software products that include GEARAspiWDM.sys, 2.2.5.0, allow local users 
 
 - [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
 
-### CVE-2018-15664
-
-<code>
-In Docker through 18.06.1-ce-rc2, the API endpoints behind the 'docker cp' command are vulnerable to a symlink-exchange attack with Directory Traversal, giving attackers arbitrary read-write access to the host filesystem with root privileges, because daemon/archive.go does not do archive operations on a frozen filesystem (or from within a chroot).
-</code>
-
-- [donghyunlee00/CVE-2018-15664](https://github.com/donghyunlee00/CVE-2018-15664)
-
 ### CVE-2018-15686
 
 <code>
@@ -7860,6 +8083,22 @@ ReadXBMImage in coders/xbm.c in ImageMagick before 7.0.8-9 leaves data uninitial
 
 ### CVE-2018-16341
 - [mpgn/CVE-2018-16341](https://github.com/mpgn/CVE-2018-16341)
+
+### CVE-2018-16370
+
+<code>
+In PESCMS Team 2.2.1, attackers may upload and execute arbitrary PHP code through /Public/?g=Team&amp;m=Setting&amp;a=upgrade by placing a .php file in a ZIP archive.
+</code>
+
+- [snappyJack/CVE-2018-16370](https://github.com/snappyJack/CVE-2018-16370)
+
+### CVE-2018-16373
+
+<code>
+Frog CMS 0.9.5 has an Upload vulnerability that can create files via /admin/?/plugin/file_manager/save.
+</code>
+
+- [snappyJack/CVE-2018-16373](https://github.com/snappyJack/CVE-2018-16373)
 
 ### CVE-2018-16447
 
@@ -8107,6 +8346,14 @@ admin/index.php in Monstra CMS 3.0.4 allows XSS via the page_meta_title paramete
 
 - [security-breachlock/CVE-2018-17024](https://github.com/security-breachlock/CVE-2018-17024)
 
+### CVE-2018-17081
+
+<code>
+e107 2.1.9 allows CSRF via e107_admin/wmessage.php?mode=&amp;action=inline&amp;ajax_used=1&amp;id= for changing the title of an arbitrary page.
+</code>
+
+- [himanshurahi/e107_2.1.9_CSRF_POC](https://github.com/himanshurahi/e107_2.1.9_CSRF_POC)
+
 ### CVE-2018-17144
 
 <code>
@@ -8115,6 +8362,14 @@ Bitcoin Core 0.14.x before 0.14.3, 0.15.x before 0.15.2, and 0.16.x before 0.16.
 
 - [iioch/ban-exploitable-bitcoin-nodes](https://github.com/iioch/ban-exploitable-bitcoin-nodes)
 - [hikame/CVE-2018-17144_POC](https://github.com/hikame/CVE-2018-17144_POC)
+
+### CVE-2018-17145
+
+<code>
+Bitcoin Core 0.16.x before 0.16.2 and Bitcoin Knots 0.16.x before 0.16.2 allow remote denial of service via a flood of multiple transaction inv messages with random hashes, aka INVDoS. NOTE: this can also affect other cryptocurrencies, e.g., if they were forked from Bitcoin Core after 2017-11-15.
+</code>
+
+- [eabz/invdos](https://github.com/eabz/invdos)
 
 ### CVE-2018-17182
 
@@ -8676,7 +8931,7 @@ Ajenti version version 2 contains a Cross ite Request Forgery (CSRF) vulnerabili
 Python Software Foundation CPython version From 3.2 until 3.6.4 on Windows contains a Buffer Overflow vulnerability in os.symlink() function on Windows that can result in Arbitrary code execution, likely escalation of privilege. This attack appears to be exploitable via a python script that creates a symlink with an attacker controlled name or location. This vulnerability appears to have been fixed in 3.7.0 and 3.6.5.
 </code>
 
-- [1337r00t/CVE-2018-1000117-Exploit](https://github.com/1337r00t/CVE-2018-1000117-Exploit)
+- [u0pattern/CVE-2018-1000117-Exploit](https://github.com/u0pattern/CVE-2018-1000117-Exploit)
 
 ### CVE-2018-1000134
 
@@ -8736,6 +8991,14 @@ A code execution vulnerability exists in the Stapler web framework used by Jenki
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 - [xDro1d/CVE-2018-1000861](https://github.com/xDro1d/CVE-2018-1000861)
 
+### CVE-2018-1002101
+
+<code>
+In Kubernetes versions 1.9.0-1.9.9, 1.10.0-1.10.5, and 1.11.0-1.11.1, user input was handled insecurely while setting up volume mounts on Windows nodes, which could lead to command line argument injection.
+</code>
+
+- [se0g1/cve-2018-1002101](https://github.com/se0g1/cve-2018-1002101)
+
 ### CVE-2018-1002105
 
 <code>
@@ -8747,6 +9010,10 @@ In all Kubernetes versions prior to v1.10.11, v1.11.5, and v1.12.3, incorrect ha
 - [imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install)
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
 - [mdnix/cve-2018-1002105](https://github.com/mdnix/cve-2018-1002105)
+- [koharin/cve-2018-1002105-after-patch](https://github.com/koharin/cve-2018-1002105-after-patch)
+- [koharin/cve-2018-1002105-before-patch](https://github.com/koharin/cve-2018-1002105-before-patch)
+- [koharin/cve-2018-1002105-after](https://github.com/koharin/cve-2018-1002105-after)
+- [koharin/cve-2018-1002105-before](https://github.com/koharin/cve-2018-1002105-before)
 
 ### CVE-2018-1999002
 
@@ -9284,7 +9551,6 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-](https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-)
 - [Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638)
 - [TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
-- [RealBearcat/S2-045](https://github.com/RealBearcat/S2-045)
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
@@ -9612,7 +9878,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [incredible1yu/CVE-2017-7494](https://github.com/incredible1yu/CVE-2017-7494)
 - [cved-sources/cve-2017-7494](https://github.com/cved-sources/cve-2017-7494)
 - [john-80/cve-2017-7494](https://github.com/john-80/cve-2017-7494)
-- [Optimus-hash/CVE-2017-7494_IT19115344](https://github.com/Optimus-hash/CVE-2017-7494_IT19115344)
+- [Hansindu-M/CVE-2017-7494_IT19115344](https://github.com/Hansindu-M/CVE-2017-7494_IT19115344)
 
 ### CVE-2017-7525
 
@@ -9621,7 +9887,7 @@ A deserialization flaw was discovered in the jackson-databind, versions before 2
 </code>
 
 - [SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095](https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095)
-- [RealBearcat/S2-055](https://github.com/RealBearcat/S2-055)
+- [iBearcat/S2-055](https://github.com/iBearcat/S2-055)
 - [JavanXD/Demo-Exploit-Jackson-RCE](https://github.com/JavanXD/Demo-Exploit-Jackson-RCE)
 - [47bwy/CVE-2017-7525](https://github.com/47bwy/CVE-2017-7525)
 - [BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE)
@@ -9641,6 +9907,7 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
 - [MaxSecurity/CVE-2017-7529-POC](https://github.com/MaxSecurity/CVE-2017-7529-POC)
 - [cyberk1w1/CVE-2017-7529](https://github.com/cyberk1w1/CVE-2017-7529)
 - [cyberharsh/nginx-CVE-2017-7529](https://github.com/cyberharsh/nginx-CVE-2017-7529)
+- [daehee/nginx-overflow](https://github.com/daehee/nginx-overflow)
 
 ### CVE-2017-7648
 
@@ -9993,8 +10260,8 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [hahwul/struts2-rce-cve-2017-9805-ruby](https://github.com/hahwul/struts2-rce-cve-2017-9805-ruby)
 - [mazen160/struts-pwn_CVE-2017-9805](https://github.com/mazen160/struts-pwn_CVE-2017-9805)
 - [Lone-Ranger/apache-struts-pwn_CVE-2017-9805](https://github.com/Lone-Ranger/apache-struts-pwn_CVE-2017-9805)
-- [RealBearcat/S2-052](https://github.com/RealBearcat/S2-052)
 - [0x00-0x00/-CVE-2017-9805](https://github.com/0x00-0x00/-CVE-2017-9805)
+- [BeyondCy/S2-052](https://github.com/BeyondCy/S2-052)
 - [chrisjd20/cve-2017-9805.py](https://github.com/chrisjd20/cve-2017-9805.py)
 - [UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-](https://github.com/UbuntuStrike/struts_rest_rce_fuzz-CVE-2017-9805-)
 - [UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit](https://github.com/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit)
@@ -10026,6 +10293,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [mbrasile/CVE-2017-9841](https://github.com/mbrasile/CVE-2017-9841)
 - [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
+- [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
 
 ### CVE-2017-9934
 
@@ -10062,7 +10330,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [pssss/CVE-2017-10271](https://github.com/pssss/CVE-2017-10271)
 - [SuperHacker-liuan/cve-2017-10271-poc](https://github.com/SuperHacker-liuan/cve-2017-10271-poc)
 - [bmcculley/CVE-2017-10271](https://github.com/bmcculley/CVE-2017-10271)
-- [RealBearcat/Oracle-WebLogic-CVE-2017-10271](https://github.com/RealBearcat/Oracle-WebLogic-CVE-2017-10271)
+- [peterpeter228/Oracle-WebLogic-CVE-2017-10271](https://github.com/peterpeter228/Oracle-WebLogic-CVE-2017-10271)
 - [Sch01ar/CVE-2017-10271](https://github.com/Sch01ar/CVE-2017-10271)
 - [Cymmetria/weblogic_honeypot](https://github.com/Cymmetria/weblogic_honeypot)
 - [JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp)
@@ -10133,6 +10401,7 @@ The mq_notify function in the Linux kernel through 4.11.9 does not set the sock 
 - [HckEX/CVE-2017-11176](https://github.com/HckEX/CVE-2017-11176)
 - [leonardo1101/cve-2017-11176](https://github.com/leonardo1101/cve-2017-11176)
 - [c3r34lk1ll3r/CVE-2017-11176](https://github.com/c3r34lk1ll3r/CVE-2017-11176)
+- [applemasterz17/CVE-2017-11176](https://github.com/applemasterz17/CVE-2017-11176)
 
 ### CVE-2017-11317
 
@@ -10298,7 +10567,7 @@ When running Apache Tomcat 7.0.0 to 7.0.79 on Windows with HTTP PUTs enabled (e.
 - [breaktoprotect/CVE-2017-12615](https://github.com/breaktoprotect/CVE-2017-12615)
 - [mefulton/cve-2017-12615](https://github.com/mefulton/cve-2017-12615)
 - [zi0Black/POC-CVE-2017-12615-or-CVE-2017-12717](https://github.com/zi0Black/POC-CVE-2017-12615-or-CVE-2017-12717)
-- [RealBearcat/CVE-2017-12615](https://github.com/RealBearcat/CVE-2017-12615)
+- [iBearcat/CVE-2017-12615](https://github.com/iBearcat/CVE-2017-12615)
 - [wsg00d/cve-2017-12615](https://github.com/wsg00d/cve-2017-12615)
 - [1337g/CVE-2017-12615](https://github.com/1337g/CVE-2017-12615)
 - [Shellkeys/CVE-2017-12615](https://github.com/Shellkeys/CVE-2017-12615)
@@ -10551,7 +10820,7 @@ Insufficient Policy Enforcement in Extensions in Google Chrome prior to 62.0.320
 In Apache Synapse, by default no authentication is required for Java Remote Method Invocation (RMI). So Apache Synapse 3.0.1 or all previous releases (3.0.0, 2.1.0, 2.0.0, 1.2, 1.1.2, 1.1.1) allows remote code execution attacks that can be performed by injecting specially crafted serialized objects. And the presence of Apache Commons Collections 3.2.1 (commons-collections-3.2.1.jar) or previous versions in Synapse distribution makes this exploitable. To mitigate the issue, we need to limit RMI access to trusted users only. Further upgrading to 3.0.1 version will eliminate the risk of having said Commons Collection version. In Synapse 3.0.1, Commons Collection has been updated to 3.2.2 version.
 </code>
 
-- [RealBearcat/CVE-2017-15708](https://github.com/RealBearcat/CVE-2017-15708)
+- [HuSoul/CVE-2017-15708](https://github.com/HuSoul/CVE-2017-15708)
 
 ### CVE-2017-15715
 
@@ -10660,7 +10929,7 @@ The receive_msg function in receive.c in the SMTP daemon in Exim 4.88 and 4.89 a
 The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging incorrect sign extension.
 </code>
 
-- [RealBearcat/CVE-2017-16995](https://github.com/RealBearcat/CVE-2017-16995)
+- [C0dak/CVE-2017-16995](https://github.com/C0dak/CVE-2017-16995)
 - [Al1ex/CVE-2017-16995](https://github.com/Al1ex/CVE-2017-16995)
 - [gugronnier/CVE-2017-16995](https://github.com/gugronnier/CVE-2017-16995)
 - [senyuuri/cve-2017-16995](https://github.com/senyuuri/cve-2017-16995)
@@ -10706,7 +10975,7 @@ Huawei HG255s-10 V100R001C163B025SP02 has a path traversal vulnerability due to 
 FasterXML jackson-databind through 2.8.10 and 2.9.x through 2.9.3 allows unauthenticated remote code execution because of an incomplete fix for the CVE-2017-7525 deserialization flaw. This is exploitable by sending maliciously crafted JSON input to the readValue method of the ObjectMapper, bypassing a blacklist that is ineffective if the Spring libraries are available in the classpath.
 </code>
 
-- [RealBearcat/Jackson-CVE-2017-17485](https://github.com/RealBearcat/Jackson-CVE-2017-17485)
+- [iBearcat/Jackson-CVE-2017-17485](https://github.com/iBearcat/Jackson-CVE-2017-17485)
 - [tafamace/CVE-2017-17485](https://github.com/tafamace/CVE-2017-17485)
 - [x7iaob/cve-2017-17485](https://github.com/x7iaob/cve-2017-17485)
 - [Al1ex/CVE-2017-17485](https://github.com/Al1ex/CVE-2017-17485)
@@ -10849,7 +11118,7 @@ The native Bluetooth stack in the Linux Kernel (BlueZ), starting at the Linux ke
 Linux distributions that have not patched their long-term kernels with https://git.kernel.org/linus/a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (committed on April 14, 2015). This kernel vulnerability was fixed in April 2015 by commit a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (backported to Linux 3.10.77 in May 2015), but it was not recognized as a security threat. With CONFIG_ARCH_BINFMT_ELF_RANDOMIZE_PIE enabled, and a normal top-down address allocation strategy, load_elf_binary() will attempt to map a PIE binary into an address range immediately below mm-&gt;mmap_base. Unfortunately, load_elf_ binary() does not take account of the need to allocate sufficient space for the entire binary which means that, while the first PT_LOAD segment is mapped below mm-&gt;mmap_base, the subsequent PT_LOAD segment(s) end up being mapped above mm-&gt;mmap_base into the are that is supposed to be the &quot;gap&quot; between the stack and the binary.
 </code>
 
-- [sagiesec/PIE-Stack-Clash-CVE-2017-1000253](https://github.com/sagiesec/PIE-Stack-Clash-CVE-2017-1000253)
+- [RicterZ/PIE-Stack-Clash-CVE-2017-1000253](https://github.com/RicterZ/PIE-Stack-Clash-CVE-2017-1000253)
 
 ### CVE-2017-1000353
 
@@ -11331,6 +11600,14 @@ Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.3
 </code>
 
 - [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
+
+### CVE-2016-3238
+
+<code>
+The Print Spooler service in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows man-in-the-middle attackers to execute arbitrary code by providing a crafted print driver during printer installation, aka &quot;Windows Print Spooler Remote Code Execution Vulnerability.&quot;
+</code>
+
+- [pyiesone/CVE-2016-3238-PoC](https://github.com/pyiesone/CVE-2016-3238-PoC)
 
 ### CVE-2016-3308
 
@@ -12238,7 +12515,7 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635)
 - [technion/erlvulnscan](https://github.com/technion/erlvulnscan)
 - [wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034)
-- [1337r00t/Remove-IIS-RIIS](https://github.com/1337r00t/Remove-IIS-RIIS)
+- [u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS)
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
 - [limkokhole/CVE-2015-1635](https://github.com/limkokhole/CVE-2015-1635)
@@ -12980,6 +13257,14 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 
 ### CVE-2014-0291
 - [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
+
+### CVE-2014-0472
+
+<code>
+The django.core.urlresolvers.reverse function in Django before 1.4.11, 1.5.x before 1.5.6, 1.6.x before 1.6.3, and 1.7.x before 1.7 beta 2 allows remote attackers to import and execute arbitrary Python modules by leveraging a view that constructs URLs using user input and a &quot;dotted Python path.&quot;
+</code>
+
+- [christasa/CVE-2014-0472](https://github.com/christasa/CVE-2014-0472)
 
 ### CVE-2014-0521
 
