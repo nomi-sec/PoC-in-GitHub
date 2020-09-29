@@ -528,6 +528,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [striveben/CVE-2020-1472](https://github.com/striveben/CVE-2020-1472)
 - [Fa1c0n35/CVE-2020-1472-02-](https://github.com/Fa1c0n35/CVE-2020-1472-02-)
 - [Whippet0/CVE-2020-1472](https://github.com/Whippet0/CVE-2020-1472)
+- [WiIs0n/Zerologon_CVE-2020-1472](https://github.com/WiIs0n/Zerologon_CVE-2020-1472)
 
 ### CVE-2020-1493
 
