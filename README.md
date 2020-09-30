@@ -5426,6 +5426,7 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 - [ThanHuuTuan/Telerik_CVE-2019-18935](https://github.com/ThanHuuTuan/Telerik_CVE-2019-18935)
 - [ThanHuuTuan/CVE_2019_18935](https://github.com/ThanHuuTuan/CVE_2019_18935)
 - [murataydemir/CVE-2019-18935](https://github.com/murataydemir/CVE-2019-18935)
+- [random-robbie/CVE-2019-18935](https://github.com/random-robbie/CVE-2019-18935)
 
 ### CVE-2019-18988
 
