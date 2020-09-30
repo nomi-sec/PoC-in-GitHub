@@ -531,6 +531,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Whippet0/CVE-2020-1472](https://github.com/Whippet0/CVE-2020-1472)
 - [WiIs0n/Zerologon_CVE-2020-1472](https://github.com/WiIs0n/Zerologon_CVE-2020-1472)
 - [Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472)
+- [rhymeswithmogul/Set-ZerologonMitigation](https://github.com/rhymeswithmogul/Set-ZerologonMitigation)
 
 ### CVE-2020-1493
 
@@ -6475,9 +6476,19 @@ The Norton Core router prior to v237 may be susceptible to a command injection e
 - [embedi/ble_norton_core](https://github.com/embedi/ble_norton_core)
 
 ### CVE-2018-5353
+
+<code>
+The custom GINA/CP module in Zoho ManageEngine ADSelfService Plus before 5.5 build 5517 allows remote attackers to execute code and escalate privileges via spoofing. It does not authenticate the intended server before opening a browser window. An unauthenticated attacker capable of conducting a spoofing attack can redirect the browser to gain execution in the context of the WinLogon.exe process. If Network Level Authentication is not enforced, the vulnerability can be exploited via RDP. Additionally, if the web server has a misconfigured certificate then no spoofing attack is required
+</code>
+
 - [missing0x00/CVE-2018-5353](https://github.com/missing0x00/CVE-2018-5353)
 
 ### CVE-2018-5354
+
+<code>
+The custom GINA/CP module in ANIXIS Password Reset Client before version 3.22 allows remote attackers to execute code and escalate privileges via spoofing. When the client is configured to use HTTP, it does not authenticate the intended server before opening a browser window. An unauthenticated attacker capable of conducting a spoofing attack can redirect the browser to gain execution in the context of the WinLogon.exe process. If Network Level Authentication is not enforced, the vulnerability can be exploited via RDP.
+</code>
+
 - [missing0x00/CVE-2018-5354](https://github.com/missing0x00/CVE-2018-5354)
 
 ### CVE-2018-5711
@@ -7690,6 +7701,14 @@ Archive.java in Junrar before 1.0.1, as used in Apache Tika and other products, 
 </code>
 
 - [tafamace/CVE-2018-12418](https://github.com/tafamace/CVE-2018-12418)
+
+### CVE-2018-12421
+
+<code>
+LTB (aka LDAP Tool Box) Self Service Password before 1.3 allows a change to a user password (without knowing the old password) via a crafted POST request, because the ldap_bind return value is mishandled and the PHP data type is not constrained to be a string.
+</code>
+
+- [ReverseBrain/CVE-2018-12421](https://github.com/ReverseBrain/CVE-2018-12421)
 
 ### CVE-2018-12463
 
