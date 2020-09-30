@@ -14457,14 +14457,6 @@ The Android API before 17 does not properly restrict the WebView.addJavascriptIn
 
 
 ## 2011
-### CVE-2011-0228
-
-<code>
-The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
-</code>
-
-- [jan0/isslfix](https://github.com/jan0/isslfix)
-
 ### CVE-2011-1237
 
 <code>
@@ -14570,7 +14562,6 @@ Integer overflow in libpng, as used in Google Chrome before 17.0.963.56, allows 
 The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 </code>
 
-- [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
 - [limkokhole/CVE-2011-3192](https://github.com/limkokhole/CVE-2011-3192)
 - [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
 
