@@ -7315,7 +7315,7 @@ This vulnerability allows remote attackers to execute arbitrary code on vulnerab
 This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader 9.0.1.1049. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Text Annotations. When setting the point attribute, the process does not properly validate the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Was ZDI-CAN-5620.
 </code>
 
-- [t3rabyt3/CVE-2018-9958--Exploit](https://github.com/t3rabyt3/CVE-2018-9958--Exploit)
+- [t3rabyt3-zz/CVE-2018-9958--Exploit](https://github.com/t3rabyt3-zz/CVE-2018-9958--Exploit)
 
 ### CVE-2018-9995
 
