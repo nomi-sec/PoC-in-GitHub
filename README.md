@@ -5512,6 +5512,9 @@ freeFTPd 1.0.8 has a Post-Authentication Buffer Overflow via a crafted SIZE comm
 
 - [cwinfosec/CVE-2019-19383](https://github.com/cwinfosec/CVE-2019-19383)
 
+### CVE-2019-19393
+- [miguelhamal/CVE-2019-19393](https://github.com/miguelhamal/CVE-2019-19393)
+
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
 
