@@ -2266,6 +2266,11 @@ SUPERAntiSyware Professional X Trial 10.0.1206 is vulnerable to local privilege 
 - [bryanroma/CVE-2020-25068](https://github.com/bryanroma/CVE-2020-25068)
 
 ### CVE-2020-25200
+
+<code>
+Pritunl 1.29.2145.25 allows attackers to enumerate valid VPN usernames via a series of /auth/session login attempts. Initially, the server will return error 401. However, if the username is valid, then after 20 login attempts, the server will start responding with error 400. Invalid usernames will receive error 401 indefinitely.
+</code>
+
 - [lukaszstu/pritunl](https://github.com/lukaszstu/pritunl)
 
 ### CVE-2020-25270
@@ -5513,6 +5518,11 @@ freeFTPd 1.0.8 has a Post-Authentication Buffer Overflow via a crafted SIZE comm
 - [cwinfosec/CVE-2019-19383](https://github.com/cwinfosec/CVE-2019-19383)
 
 ### CVE-2019-19393
+
+<code>
+The Web application on Rittal CMC PU III 7030.000 V3.00 V3.11.00_2 to V3.15.70_4 devices fails to sanitize user input on the system configurations page. This allows an attacker to backdoor the device with HTML and browser-interpreted content (such as JavaScript or other client-side scripts) as the content is always displayed after and before login. Persistent XSS allows an attacker to modify displayed content or to change the victim's information. Successful exploitation requires access to the web management interface, either with valid credentials or a hijacked session.
+</code>
+
 - [miguelhamal/CVE-2019-19393](https://github.com/miguelhamal/CVE-2019-19393)
 
 ### CVE-2019-19511
