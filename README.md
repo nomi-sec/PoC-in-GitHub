@@ -2049,9 +2049,19 @@ In the COVIDSafe application through 1.0.21 for Android, unsafe use of the Bluet
 - [alwentiu/CVE-2020-14292](https://github.com/alwentiu/CVE-2020-14292)
 
 ### CVE-2020-14293
+
+<code>
+conf_datetime in Secudos DOMOS 5.8 allows remote attackers to execute arbitrary commands as root via shell metacharacters in the zone field (obtained from the web interface).
+</code>
+
 - [patrickhener/CVE-2020-14293](https://github.com/patrickhener/CVE-2020-14293)
 
 ### CVE-2020-14294
+
+<code>
+An issue was discovered in Secudos Qiata FTA 1.70.19. The comment feature allows persistent XSS that is executed when reading transfer comments or the global notice board.
+</code>
+
 - [patrickhener/CVE-2020-14294](https://github.com/patrickhener/CVE-2020-14294)
 
 ### CVE-2020-14321
@@ -2189,6 +2199,11 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 
 ### CVE-2020-17382
+
+<code>
+The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x80102044, 0x80102050,and 0x80102054).
+</code>
+
 - [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
 
 ### CVE-2020-17496
@@ -2271,7 +2286,7 @@ SUPERAntiSyware Professional X Trial 10.0.1206 is vulnerable to local privilege 
 Pritunl 1.29.2145.25 allows attackers to enumerate valid VPN usernames via a series of /auth/session login attempts. Initially, the server will return error 401. However, if the username is valid, then after 20 login attempts, the server will start responding with error 400. Invalid usernames will receive error 401 indefinitely.
 </code>
 
-- [lukaszstu/pritunl](https://github.com/lukaszstu/pritunl)
+- [lukaszstu/pritunl-CVE-2020-25200](https://github.com/lukaszstu/pritunl-CVE-2020-25200)
 
 ### CVE-2020-25270
 - [Ko-kn3t/CVE-2020-25270](https://github.com/Ko-kn3t/CVE-2020-25270)
@@ -2349,6 +2364,23 @@ The Telnet service of Rubetek cameras RV-3406, RV-3409, and RV-3411 cameras (fir
 
 ### CVE-2020-25867
 - [thomasfady/CVE-2020-25867](https://github.com/thomasfady/CVE-2020-25867)
+
+### CVE-2020-26524
+
+<code>
+CodeLathe FileCloud before 20.2.0.11915 allows username enumeration.
+</code>
+
+- [lukaszstu/filecloud-UE-CVE-2020-26524](https://github.com/lukaszstu/filecloud-UE-CVE-2020-26524)
+
+### CVE-2020-26525
+- [lukaszstu/SmartAsset-SQLinj-CVE-2020-26525](https://github.com/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525)
+
+### CVE-2020-26526
+- [lukaszstu/SmartAsset-UE-CVE-2020-26526](https://github.com/lukaszstu/SmartAsset-UE-CVE-2020-26526)
+
+### CVE-2020-26527
+- [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -14492,6 +14524,14 @@ The Android API before 17 does not properly restrict the WebView.addJavascriptIn
 
 
 ## 2011
+### CVE-2011-0228
+
+<code>
+The Data Security component in Apple iOS before 4.2.10 and 4.3.x before 4.3.5 does not check the basicConstraints parameter during validation of X.509 certificate chains, which allows man-in-the-middle attackers to spoof an SSL server by using a non-CA certificate to sign a certificate for an arbitrary domain.
+</code>
+
+- [jan0/isslfix](https://github.com/jan0/isslfix)
+
 ### CVE-2011-1237
 
 <code>
@@ -14597,6 +14637,7 @@ Integer overflow in libpng, as used in Google Chrome before 17.0.963.56, allows 
 The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 </code>
 
+- [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
 - [limkokhole/CVE-2011-3192](https://github.com/limkokhole/CVE-2011-3192)
 - [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
 
