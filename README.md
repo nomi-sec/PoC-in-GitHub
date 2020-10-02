@@ -2375,12 +2375,27 @@ CodeLathe FileCloud before 20.2.0.11915 allows username enumeration.
 - [lukaszstu/filecloud-UE-CVE-2020-26524](https://github.com/lukaszstu/filecloud-UE-CVE-2020-26524)
 
 ### CVE-2020-26525
+
+<code>
+Damstra Smart Asset 2020.7 has SQL injection via the API/api/Asset originator parameter. This allows forcing the database and server to initiate remote connections to third party DNS servers.
+</code>
+
 - [lukaszstu/SmartAsset-SQLinj-CVE-2020-26525](https://github.com/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525)
 
 ### CVE-2020-26526
+
+<code>
+An issue was discovered in Damstra Smart Asset 2020.7. It is possible to enumerate valid usernames on the login page. The application sends a different server response when the username is invalid than when the username is valid (&quot;Unable to find an APIDomain&quot; versus &quot;Wrong email or password&quot;).
+</code>
+
 - [lukaszstu/SmartAsset-UE-CVE-2020-26526](https://github.com/lukaszstu/SmartAsset-UE-CVE-2020-26526)
 
 ### CVE-2020-26527
+
+<code>
+An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-origin resource sharing trusts random origins by accepting the arbitrary 'Origin: example.com' header and responding with 200 OK and a wildcard 'Access-Control-Allow-Origin: *' header.
+</code>
+
 - [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
 
 ### CVE-2020-72381
@@ -6095,6 +6110,14 @@ SAP CRM, 7.01, 7.02,7.30, 7.31, 7.33, 7.54, allows an attacker to exploit insuff
 </code>
 
 - [erpscanteam/CVE-2018-2380](https://github.com/erpscanteam/CVE-2018-2380)
+
+### CVE-2018-2392
+
+<code>
+Under certain conditions SAP Internet Graphics Server (IGS) 7.20, 7.20EXT, 7.45, 7.49, 7.53, fails to validate XML External Entity appropriately causing the SAP Internet Graphics Server (IGS) to become unavailable.
+</code>
+
+- [Vladimir-Ivanov-Git/sap_igs_xxe](https://github.com/Vladimir-Ivanov-Git/sap_igs_xxe)
 
 ### CVE-2018-2628
 
@@ -14951,6 +14974,14 @@ The BigDecimal library in Ruby 1.8.6 before p369 and 1.8.7 before p173 allows co
 </code>
 
 - [NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix)
+
+### CVE-2009-2265
+
+<code>
+Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
+</code>
+
+- [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 
 ### CVE-2009-2692
 
