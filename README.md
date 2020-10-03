@@ -2008,6 +2008,7 @@ IceWarp Email Server 12.3.0.1 has Incorrect Access Control for user accounts.
 </code>
 
 - [networksecure/CVE-2020-14064](https://github.com/networksecure/CVE-2020-14064)
+- [masoud-zivari/CVE-2020-14064](https://github.com/masoud-zivari/CVE-2020-14064)
 
 ### CVE-2020-14065
 
@@ -2016,6 +2017,7 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload files and consum
 </code>
 
 - [networksecure/CVE-2020-14065](https://github.com/networksecure/CVE-2020-14065)
+- [masoud-zivari/CVE-2020-14065](https://github.com/masoud-zivari/CVE-2020-14065)
 
 ### CVE-2020-14066
 
@@ -2024,6 +2026,7 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files
 </code>
 
 - [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
+- [masoud-zivari/CVE-2020-14066](https://github.com/masoud-zivari/CVE-2020-14066)
 
 ### CVE-2020-14195
 
