@@ -14975,6 +14975,14 @@ The BigDecimal library in Ruby 1.8.6 before p369 and 1.8.7 before p173 allows co
 
 - [NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix)
 
+### CVE-2009-2265
+
+<code>
+Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
+</code>
+
+- [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
+
 ### CVE-2009-2692
 
 <code>
