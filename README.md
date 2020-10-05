@@ -2377,6 +2377,14 @@ The Telnet service of Rubetek cameras RV-3406, RV-3409, and RV-3411 cameras (fir
 ### CVE-2020-25867
 - [thomasfady/CVE-2020-25867](https://github.com/thomasfady/CVE-2020-25867)
 
+### CVE-2020-26061
+
+<code>
+ClickStudios Passwordstate Password Reset Portal prior to build 8501 is affected by an authentication bypass vulnerability. The ResetPassword function does not validate whether the user has successfully authenticated using security questions. An unauthenticated, remote attacker can send a crafted HTTP request to the /account/ResetPassword page to set a new password for any registered user.
+</code>
+
+- [missing0x00/CVE-2020-26061](https://github.com/missing0x00/CVE-2020-26061)
+
 ### CVE-2020-26525
 
 <code>
@@ -10493,6 +10501,7 @@ This vulnerability allows remote attackers to execute arbitrary code on vulnerab
 The mq_notify function in the Linux kernel through 4.11.9 does not set the sock pointer to NULL upon entry into the retry logic. During a user-space close of a Netlink socket, it allows attackers to cause a denial of service (use-after-free) or possibly have unspecified other impact.
 </code>
 
+- [lexfo/cve-2017-11176](https://github.com/lexfo/cve-2017-11176)
 - [DoubleMice/cve-2017-11176](https://github.com/DoubleMice/cve-2017-11176)
 - [HckEX/CVE-2017-11176](https://github.com/HckEX/CVE-2017-11176)
 - [leonardo1101/cve-2017-11176](https://github.com/leonardo1101/cve-2017-11176)
