@@ -2188,6 +2188,14 @@ scp in OpenSSH through 8.3p1 allows command injection in scp.c remote function, 
 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
 
+### CVE-2020-15873
+
+<code>
+In LibreNMS before 1.65.1, an authenticated attacker can achieve SQL Injection via the customoid.inc.php device_id POST parameter to ajax_form.php.
+</code>
+
+- [limerencee/cs4239-cve-2020-15873](https://github.com/limerencee/cs4239-cve-2020-15873)
+
 ### CVE-2020-15931
 - [optiv/CVE-2020-15931](https://github.com/optiv/CVE-2020-15931)
 
