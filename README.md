@@ -1092,6 +1092,14 @@ In JFrog Artifactory 5.x and 6.x, insecure FreeMarker template processing leads 
 
 - [gquere/CVE-2020-7931](https://github.com/gquere/CVE-2020-7931)
 
+### CVE-2020-7934
+
+<code>
+In LifeRay Portal CE 7.1.0 through 7.2.1, the First Name, Middle Name, and Last Name fields for user accounts in MyAccountPortlet are all vulnerable to a persistent XSS issue. Any user can modify these fields with a particular XSS payload, and it will be stored in the database. The payload will then be rendered when a user utilizes the search feature to search for other users (i.e., if a user with modified fields occurs in the search results).
+</code>
+
+- [3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934](https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934)
+
 ### CVE-2020-7961
 
 <code>
@@ -15268,6 +15276,22 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
+### CVE-2006-0450
+
+<code>
+phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
+</code>
+
+- [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
+
+### CVE-2006-1236
+
+<code>
+Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
+</code>
+
+- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
+
 ### CVE-2006-3392
 
 <code>
@@ -15275,6 +15299,7 @@ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function be
 </code>
 
 - [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
+- [notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392)
 
 ### CVE-2006-3592
 
@@ -15292,6 +15317,14 @@ Off-by-one error in the ldap scheme handling in the Rewrite module (mod_rewrite)
 
 - [spinfoo/CVE-2006-3747](https://github.com/spinfoo/CVE-2006-3747)
 
+### CVE-2006-4777
+
+<code>
+Heap-based buffer overflow in the DirectAnimation Path Control (DirectAnimation.PathControl) COM object (daxctle.ocx) for Internet Explorer 6.0 SP1, on Chinese and possibly other Windows distributions, allows remote attackers to execute arbitrary code via unknown manipulations in arguments to the KeyFrame method, possibly related to an integer overflow, as demonstrated by daxctle2, and a different vulnerability than CVE-2006-4446.
+</code>
+
+- [Mario1234/js-driveby-download-CVE-2006-4777](https://github.com/Mario1234/js-driveby-download-CVE-2006-4777)
+
 ### CVE-2006-4814
 
 <code>
@@ -15306,6 +15339,7 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
+- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
