@@ -1095,7 +1095,7 @@ In JFrog Artifactory 5.x and 6.x, insecure FreeMarker template processing leads 
 ### CVE-2020-7934
 
 <code>
-In LifeRay Portal CE 7.1.0 through 7.2.1, the First Name, Middle Name, and Last Name fields for user accounts in MyAccountPortlet are all vulnerable to a persistent XSS issue. Any user can modify these fields with a particular XSS payload, and it will be stored in the database. The payload will then be rendered when a user utilizes the search feature to search for other users (i.e., if a user with modified fields occurs in the search results).
+In LifeRay Portal CE 7.1.0 through 7.2.1 GA2, the First Name, Middle Name, and Last Name fields for user accounts in MyAccountPortlet are all vulnerable to a persistent XSS issue. Any user can modify these fields with a particular XSS payload, and it will be stored in the database. The payload will then be rendered when a user utilizes the search feature to search for other users (i.e., if a user with modified fields occurs in the search results). This issue was fixed in Liferay Portal CE version 7.3.0 GA1.
 </code>
 
 - [3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934](https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934)
