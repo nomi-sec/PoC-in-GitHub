@@ -9194,6 +9194,7 @@ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 
 </code>
 
 - [valarauco/wannafind](https://github.com/valarauco/wannafind)
+- [6A0BCD80/Etern-blue-Windows-7-Checker](https://github.com/6A0BCD80/Etern-blue-Windows-7-Checker)
 
 ### CVE-2017-0144
 
