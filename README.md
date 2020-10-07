@@ -864,14 +864,6 @@ Symantec Endpoint Protection, prior to 14.3, may not respect file permissions wh
 
 - [RedyOpsResearchLabs/SEP-14.2-Arbitrary-Write](https://github.com/RedyOpsResearchLabs/SEP-14.2-Arbitrary-Write)
 
-### CVE-2020-5844
-
-<code>
-index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v7.0 NG allows authenticated administrators to upload malicious PHP scripts, and execute them via base64 decoding of the file location. This affects v7.0NG.742_FIX_PERL2020.
-</code>
-
-- [TheCyberGeek/CVE-2020-5844](https://github.com/TheCyberGeek/CVE-2020-5844)
-
 ### CVE-2020-5902
 
 <code>
@@ -2383,6 +2375,11 @@ The Telnet service of Rubetek cameras RV-3406, RV-3409, and RV-3411 cameras (fir
 - [t0gu/CVE-2020-25790](https://github.com/t0gu/CVE-2020-25790)
 
 ### CVE-2020-25867
+
+<code>
+SoPlanning before 1.47 doesn't correctly check the security key used to publicly share plannings. It allows a bypass to get access without authentication.
+</code>
+
 - [thomasfady/CVE-2020-25867](https://github.com/thomasfady/CVE-2020-25867)
 
 ### CVE-2020-26061
