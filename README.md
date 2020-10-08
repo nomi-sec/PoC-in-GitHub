@@ -1635,6 +1635,7 @@ Sonatype Nexus Repository Manager 3.x up to and including 3.21.2 has Incorrect A
 An issue was discovered in Docker Desktop through 2.2.0.5 on Windows. If a local attacker sets up their own named pipe prior to starting Docker with the same name, this attacker can intercept a connection attempt from Docker Service (which runs as SYSTEM), and then impersonate their privileges.
 </code>
 
+- [joshfinley/CVE-2020-11492](https://github.com/joshfinley/CVE-2020-11492)
 - [CrackerCat/CVE-2020-11492](https://github.com/CrackerCat/CVE-2020-11492)
 
 ### CVE-2020-11493
@@ -2160,6 +2161,14 @@ Yii 2 (yiisoft/yii2) before version 2.0.38 is vulnerable to remote code executio
 </code>
 
 - [Maskhe/CVE-2020-15148-bypasses](https://github.com/Maskhe/CVE-2020-15148-bypasses)
+
+### CVE-2020-15169
+
+<code>
+In Action View before versions 5.2.4.4 and 6.0.3.3 there is a potential Cross-Site Scripting (XSS) vulnerability in Action View's translation helpers. Views that allow the user to control the default (not found) value of the `t` and `translate` helpers could be susceptible to XSS attacks. When an HTML-unsafe string is passed as the default for a missing translation key named html or ending in _html, the default string is incorrectly marked as HTML-safe and not escaped. This is patched in versions 6.0.3.3 and 5.2.4.4. A workaround without upgrading is proposed in the source advisory.
+</code>
+
+- [glasses618/CVE-2020-15169](https://github.com/glasses618/CVE-2020-15169)
 
 ### CVE-2020-15367
 
@@ -9658,6 +9667,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [immunio/apache-struts2-CVE-2017-5638](https://github.com/immunio/apache-struts2-CVE-2017-5638)
 - [Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve)
 - [aljazceru/CVE-2017-5638-Apache-Struts2](https://github.com/aljazceru/CVE-2017-5638-Apache-Struts2)
+- [sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638)
 - [jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638)
 - [random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638)
 - [initconf/CVE-2017-5638_struts](https://github.com/initconf/CVE-2017-5638_struts)
@@ -12875,6 +12885,14 @@ Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.c
 - [pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864)
 - [eudemonics/scaredycat](https://github.com/eudemonics/scaredycat)
 - [HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864)
+
+### CVE-2015-4335
+
+<code>
+Redis before 2.8.21 and 3.x before 3.0.2 allows remote attackers to execute arbitrary Lua bytecode via the eval command.
+</code>
+
+- [EMCELLY/CVE-2015-4335](https://github.com/EMCELLY/CVE-2015-4335)
 
 ### CVE-2015-4495
 
