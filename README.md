@@ -9684,15 +9684,12 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 </code>
 
 - [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
-- [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
 - [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
 - [mthbernardes/strutszeiro](https://github.com/mthbernardes/strutszeiro)
-- [xsscx/cve-2017-5638](https://github.com/xsscx/cve-2017-5638)
 - [immunio/apache-struts2-CVE-2017-5638](https://github.com/immunio/apache-struts2-CVE-2017-5638)
 - [Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve)
 - [aljazceru/CVE-2017-5638-Apache-Struts2](https://github.com/aljazceru/CVE-2017-5638-Apache-Struts2)
-- [sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638)
 - [jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638)
 - [random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638)
 - [initconf/CVE-2017-5638_struts](https://github.com/initconf/CVE-2017-5638_struts)
@@ -15530,14 +15527,6 @@ Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial o
 
 - [alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200)
 
-### CVE-2002-0201
-
-<code>
-Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
-</code>
-
-- [alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201)
-
 ### CVE-2002-0288
 
 <code>
@@ -15546,22 +15535,6 @@ Directory traversal vulnerability in Phusion web server 1.0 allows remote attack
 
 - [alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288)
 
-### CVE-2002-0289
-
-<code>
-Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289)
-
-### CVE-2002-0346
-
-<code>
-Cross-site scripting vulnerability in Cobalt RAQ 4 allows remote attackers to execute arbitrary script as other Cobalt users via Javascript in a URL to (1) service.cgi or (2) alert.cgi.
-</code>
-
-- [alt3kx/CVE-2002-0346](https://github.com/alt3kx/CVE-2002-0346)
-
 ### CVE-2002-0347
 
 <code>
@@ -15569,14 +15542,6 @@ Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to rea
 </code>
 
 - [alt3kx/CVE-2002-0347](https://github.com/alt3kx/CVE-2002-0347)
-
-### CVE-2002-0348
-
-<code>
-service.cgi in Cobalt RAQ 4 allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long service argument.
-</code>
-
-- [alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348)
 
 ### CVE-2002-0448
 
