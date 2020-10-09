@@ -2410,6 +2410,7 @@ The Telnet service of Rubetek cameras RV-3406, RV-3409, and RV-3411 cameras (fir
 </code>
 
 - [t0gu/CVE-2020-25790](https://github.com/t0gu/CVE-2020-25790)
+- [7Mitu/CVE-2020-25790](https://github.com/7Mitu/CVE-2020-25790)
 
 ### CVE-2020-25867
 
@@ -2958,6 +2959,14 @@ An elevation of privilege vulnerability exists when Windows AppX Deployment Serv
 </code>
 
 - [sgabe/CVE-2019-1476](https://github.com/sgabe/CVE-2019-1476)
+
+### CVE-2019-1477
+
+<code>
+An elevation of privilege vulnerability exists when the Windows Printer Service improperly validates file paths while loading printer drivers, aka 'Windows Printer Service Elevation of Privilege Vulnerability'.
+</code>
+
+- [2yong1/CVE-2019-1477](https://github.com/2yong1/CVE-2019-1477)
 
 ### CVE-2019-1579
 
@@ -15038,6 +15047,14 @@ The BigDecimal library in Ruby 1.8.6 before p369 and 1.8.7 before p173 allows co
 </code>
 
 - [NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix)
+
+### CVE-2009-2265
+
+<code>
+Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
+</code>
+
+- [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 
 ### CVE-2009-2692
 
