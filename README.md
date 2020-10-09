@@ -796,6 +796,14 @@ Waitress version 1.4.2 allows a DOS attack When waitress receives a header that 
 
 - [motikan2010/CVE-2020-5236](https://github.com/motikan2010/CVE-2020-5236)
 
+### CVE-2020-5248
+
+<code>
+GLPI before before version 9.4.6 has a vulnerability involving a default encryption key. GLPIKEY is public and is used on every instance. This means anyone can decrypt sensitive data stored using this key. It is possible to change the key before installing GLPI. But on existing instances, data must be reencrypted with the new key. Problem is we can not know which columns or rows in the database are using that; espcially from plugins. Changing the key without updating data would lend in bad password sent from glpi; but storing them again from the UI will work.
+</code>
+
+- [devious-way/CVE-2020-5248](https://github.com/devious-way/CVE-2020-5248)
+
 ### CVE-2020-5250
 
 <code>
@@ -2169,6 +2177,14 @@ In Action View before versions 5.2.4.4 and 6.0.3.3 there is a potential Cross-Si
 </code>
 
 - [glasses618/CVE-2020-15169](https://github.com/glasses618/CVE-2020-15169)
+
+### CVE-2020-15227
+
+<code>
+Nette versions before 2.0.19, 2.1.13, 2.2.10, 2.3.14, 2.4.16, 3.0.6 are vulnerable to an code injection attack by passing specially formed parameters to URL that may possibly leading to RCE. Nette is a PHP/Composer MVC Framework.
+</code>
+
+- [Langriklol/CVE-2020-15227](https://github.com/Langriklol/CVE-2020-15227)
 
 ### CVE-2020-15367
 
