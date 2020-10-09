@@ -8097,7 +8097,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [JoeBlackSecurity/SSHUsernameBruter-SSHUB](https://github.com/JoeBlackSecurity/SSHUsernameBruter-SSHUB)
 - [cved-sources/cve-2018-15473](https://github.com/cved-sources/cve-2018-15473)
 - [LINYIKAI/CVE-2018-15473-exp](https://github.com/LINYIKAI/CVE-2018-15473-exp)
-- [securemode/enumpossible](https://github.com/securemode/enumpossible)
+- [secmode/enumpossible](https://github.com/secmode/enumpossible)
 - [trickster1103/-](https://github.com/trickster1103/-)
 - [NHPT/SSH-account-enumeration-verification-script](https://github.com/NHPT/SSH-account-enumeration-verification-script)
 - [CaioCGH/EP4-redes](https://github.com/CaioCGH/EP4-redes)
@@ -15038,14 +15038,6 @@ The BigDecimal library in Ruby 1.8.6 before p369 and 1.8.7 before p173 allows co
 </code>
 
 - [NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix)
-
-### CVE-2009-2265
-
-<code>
-Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow remote attackers to create executable files in arbitrary directories via directory traversal sequences in the input to unspecified connector modules, as exploited in the wild for remote code execution in July 2009, related to the file browser and the editor/filemanager/connectors/ directory.
-</code>
-
-- [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 
 ### CVE-2009-2692
 
