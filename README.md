@@ -533,6 +533,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Privia-Security/ADZero](https://github.com/Privia-Security/ADZero)
 - [Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472)
 - [rhymeswithmogul/Set-ZerologonMitigation](https://github.com/rhymeswithmogul/Set-ZerologonMitigation)
+- [shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472)
 
 ### CVE-2020-1493
 
@@ -1948,14 +1949,6 @@ A SQL injection issue in the gVectors wpDiscuz plugin 5.3.5 and earlier for Word
 
 - [asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640)
 
-### CVE-2020-13646
-
-<code>
-In Cheetah free WiFi 5.1, the driver file (liebaonat.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x830020f8, 0x830020E0, 0x830020E4, or 0x8300210c.
-</code>
-
-- [y5s5k5/CVE-2020-13646](https://github.com/y5s5k5/CVE-2020-13646)
-
 ### CVE-2020-13777
 
 <code>
@@ -2120,15 +2113,7 @@ OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to
 In Jiangmin Antivirus 16.0.13.129, the driver file (KVFG.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x220440.
 </code>
 
-- [y5s5k5/CVE-2020-14955](https://github.com/y5s5k5/CVE-2020-14955)
-
-### CVE-2020-14957
-
-<code>
-In Windows cleaning assistant 3.2, the driver file (AtpKrnl.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x223CCD.
-</code>
-
-- [y5s5k5/CVE-2020-14957-CVE-2020-14956](https://github.com/y5s5k5/CVE-2020-14957-CVE-2020-14956)
+- [intrigus-lgtm/CVE-2020-14955](https://github.com/intrigus-lgtm/CVE-2020-14955)
 
 ### CVE-2020-14965
 
