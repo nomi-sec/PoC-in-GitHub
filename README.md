@@ -15405,14 +15405,6 @@ viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sens
 
 - [Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure)
 
-### CVE-2005-1125
-
-<code>
-Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded applications, allows attackers to bypass libsafe protection and exploit other vulnerabilities before the _libsafe_die function call is completed.
-</code>
-
-- [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
-
 ### CVE-2005-2428
 
 <code>
