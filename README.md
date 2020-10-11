@@ -5937,6 +5937,14 @@ clamscan in ClamAV before 0.99.4 contains a vulnerability that could allow an un
 
 - [jaychowjingjie/CVE-2018-0202](https://github.com/jaychowjingjie/CVE-2018-0202)
 
+### CVE-2018-0208
+
+<code>
+A vulnerability in the web-based management interface of the (cloud based) Cisco Registered Envelope Service could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the web-based management interface of the affected service. The vulnerability is due to insufficient validation of user-supplied input that is processed by the web-based management interface of the affected service. An attacker could exploit this vulnerability by persuading a user of the interface to click a malicious link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive browser-based information. Cisco Bug IDs: CSCvg74126.
+</code>
+
+- [dima5455/Cve-2018-0208](https://github.com/dima5455/Cve-2018-0208)
+
 ### CVE-2018-0296
 
 <code>
