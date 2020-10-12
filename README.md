@@ -2608,7 +2608,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [syriusbughunt/CVE-2019-0708](https://github.com/syriusbughunt/CVE-2019-0708)
 - [Barry-McCockiner/CVE-2019-0708](https://github.com/Barry-McCockiner/CVE-2019-0708)
 - [ShadowBrokers-ExploitLeak/CVE-2019-0708](https://github.com/ShadowBrokers-ExploitLeak/CVE-2019-0708)
-- [shumtheone/CVE-2019-0708](https://github.com/shumtheone/CVE-2019-0708)
 - [safly/CVE-2019-0708](https://github.com/safly/CVE-2019-0708)
 - [Jaky5155/cve-2019-0708-exp](https://github.com/Jaky5155/cve-2019-0708-exp)
 - [fourtwizzy/CVE-2019-0708-Check-Device-Patch-Status](https://github.com/fourtwizzy/CVE-2019-0708-Check-Device-Patch-Status)
@@ -3793,6 +3792,14 @@ An improper authentication vulnerability can be exploited through a race conditi
 </code>
 
 - [JoshuaMulliken/CVE-2019-8978](https://github.com/JoshuaMulliken/CVE-2019-8978)
+
+### CVE-2019-8979
+
+<code>
+Kohana through 3.3.6 has SQL Injection when the order_by() parameter can be controlled.
+</code>
+
+- [seb-elttam/ko7demo](https://github.com/seb-elttam/ko7demo)
 
 ### CVE-2019-8997
 
