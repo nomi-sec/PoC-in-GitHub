@@ -594,6 +594,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's web console uses the SnakeYAML library for parsing YAML inputs to load datasource configuration. SnakeYAML allows to unmarshal data to a Java type By using the YAML tag. Unmarshalling untrusted data can lead to security flaws of RCE.
 </code>
 
+- [5l1v3r1/CVE-2020-1947](https://github.com/5l1v3r1/CVE-2020-1947)
 - [jas502n/CVE-2020-1947](https://github.com/jas502n/CVE-2020-1947)
 - [wsfengfan/CVE-2020-1947](https://github.com/wsfengfan/CVE-2020-1947)
 - [shadowsock5/ShardingSphere_CVE-2020-1947](https://github.com/shadowsock5/ShardingSphere_CVE-2020-1947)
