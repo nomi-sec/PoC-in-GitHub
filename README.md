@@ -2231,6 +2231,8 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 
 ### CVE-2020-16898
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
+- [Maliek/CVE-2020-16898_Check](https://github.com/Maliek/CVE-2020-16898_Check)
+- [ZephrFish/CVE-2020-16898](https://github.com/ZephrFish/CVE-2020-16898)
 
 ### CVE-2020-16899
 - [advanced-threat-research/CVE-2020-16899](https://github.com/advanced-threat-research/CVE-2020-16899)
@@ -4041,6 +4043,14 @@ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation 
 - [Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149)
 - [Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149)
 - [area1/exim-cve-2019-10149-data](https://github.com/area1/exim-cve-2019-10149-data)
+
+### CVE-2019-10172
+
+<code>
+A flaw was found in org.codehaus.jackson:jackson-mapper-asl:1.9.x libraries. XML external entity vulnerabilities similar CVE-2016-3720 also affects codehaus jackson-mapper-asl libraries but in different classes.
+</code>
+
+- [rusakovichma/CVE-2019-10172](https://github.com/rusakovichma/CVE-2019-10172)
 
 ### CVE-2019-10207
 
@@ -15005,14 +15015,6 @@ The Windows Printing Service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Serv
 
 - [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
 
-### CVE-2009-0473
-
-<code>
-Open redirect vulnerability in the web interface in the Rockwell Automation ControlLogix 1756-ENBT/A EtherNet/IP Bridge Module allows remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via unspecified vectors.
-</code>
-
-- [akbarq/CVE-2009-0473](https://github.com/akbarq/CVE-2009-0473)
-
 ### CVE-2009-0689
 
 <code>
@@ -15028,14 +15030,6 @@ Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.1
 </code>
 
 - [minervais/pocs](https://github.com/minervais/pocs)
-
-### CVE-2009-1244
-
-<code>
-Unspecified vulnerability in the virtual machine display function in VMware Workstation 6.5.1 and earlier; VMware Player 2.5.1 and earlier; VMware ACE 2.5.1 and earlier; VMware Server 1.x before 1.0.9 build 156507 and 2.x before 2.0.1 build 156745; VMware Fusion before 2.0.4 build 159196; VMware ESXi 3.5; and VMware ESX 3.0.2, 3.0.3, and 3.5 allows guest OS users to execute arbitrary code on the host OS via unknown vectors, a different vulnerability than CVE-2008-4916.
-</code>
-
-- [piotrbania/vmware_exploit_pack_CVE-2009-1244](https://github.com/piotrbania/vmware_exploit_pack_CVE-2009-1244)
 
 ### CVE-2009-1324
 
