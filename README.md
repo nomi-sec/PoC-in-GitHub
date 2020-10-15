@@ -534,6 +534,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472)
 - [rhymeswithmogul/Set-ZerologonMitigation](https://github.com/rhymeswithmogul/Set-ZerologonMitigation)
 - [shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472)
+- [maikelnight/zerologon](https://github.com/maikelnight/zerologon)
 
 ### CVE-2020-1493
 
@@ -905,7 +906,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
 - [sv3nbeast/CVE-2020-5902_RCE](https://github.com/sv3nbeast/CVE-2020-5902_RCE)
 - [cybersecurityworks553/scanner-CVE-2020-5902](https://github.com/cybersecurityworks553/scanner-CVE-2020-5902)
-- [tututu12138/CVE-2020-5902](https://github.com/tututu12138/CVE-2020-5902)
 - [tom0li/CVE-2020-5902](https://github.com/tom0li/CVE-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
 - [qlkwej/poc-CVE-2020-5902](https://github.com/qlkwej/poc-CVE-2020-5902)
@@ -2230,6 +2230,9 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 ### CVE-2020-16152
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 
+### CVE-2020-16270
+- [Aleksander-Semenenko/CVE-2020-16270](https://github.com/Aleksander-Semenenko/CVE-2020-16270)
+
 ### CVE-2020-16898
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 - [corelight/CVE-2020-16898](https://github.com/corelight/CVE-2020-16898)
@@ -2242,6 +2245,9 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 
 ### CVE-2020-16899
 - [advanced-threat-research/CVE-2020-16899](https://github.com/advanced-threat-research/CVE-2020-16899)
+
+### CVE-2020-16947
+- [0neb1n/CVE-2020-16947](https://github.com/0neb1n/CVE-2020-16947)
 
 ### CVE-2020-17382
 
@@ -5080,6 +5086,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [cdedmondson/CVE-2019-15107](https://github.com/cdedmondson/CVE-2019-15107)
 - [ruthvikvegunta/CVE-2019-15107](https://github.com/ruthvikvegunta/CVE-2019-15107)
 - [n0obit4/Webmin_1.890-POC](https://github.com/n0obit4/Webmin_1.890-POC)
+- [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 
 ### CVE-2019-15120
 
