@@ -2231,7 +2231,7 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 
 ### CVE-2020-16270
-- [Aleksander-Semenenko/CVE-2020-16270](https://github.com/Aleksander-Semenenko/CVE-2020-16270)
+- [Security-AVS/CVE-2020-16270](https://github.com/Security-AVS/CVE-2020-16270)
 
 ### CVE-2020-16898
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
@@ -4835,6 +4835,9 @@ In lib/mini_magick/image.rb in MiniMagick before 4.9.4, a fetched remote image f
 
 ### CVE-2019-13600
 - [Crystalware/CVE-2019-13600](https://github.com/Crystalware/CVE-2019-13600)
+
+### CVE-2019-13633
+- [Security-AVS/CVE-2019-13633](https://github.com/Security-AVS/CVE-2019-13633)
 
 ### CVE-2019-13720
 
