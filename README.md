@@ -2231,6 +2231,11 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 
 ### CVE-2020-16270
+
+<code>
+OLIMPOKS before 5.1.0 allows Auth/Admin ErrorMessage XSS.
+</code>
+
 - [Security-AVS/CVE-2020-16270](https://github.com/Security-AVS/CVE-2020-16270)
 
 ### CVE-2020-16898
