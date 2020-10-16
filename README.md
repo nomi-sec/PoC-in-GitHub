@@ -2242,6 +2242,7 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 - [sn0x736e/CVE-2020-16898](https://github.com/sn0x736e/CVE-2020-16898)
 - [Gangana3/bad_neighbor](https://github.com/Gangana3/bad_neighbor)
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
+- [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
 
 ### CVE-2020-16899
 - [advanced-threat-research/CVE-2020-16899](https://github.com/advanced-threat-research/CVE-2020-16899)
