@@ -535,6 +535,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [rhymeswithmogul/Set-ZerologonMitigation](https://github.com/rhymeswithmogul/Set-ZerologonMitigation)
 - [shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472)
 - [maikelnight/zerologon](https://github.com/maikelnight/zerologon)
+- [CPO-EH/ZeroLogonChecker](https://github.com/CPO-EH/ZeroLogonChecker)
 
 ### CVE-2020-1493
 
@@ -2249,6 +2250,11 @@ OLIMPOKS before 5.1.0 allows Auth/Admin ErrorMessage XSS.
 - [Security-AVS/CVE-2020-16270](https://github.com/Security-AVS/CVE-2020-16270)
 
 ### CVE-2020-16898
+
+<code>
+A remote code execution vulnerability exists when the Windows TCP/IP stack improperly handles ICMPv6 Router Advertisement packets, aka 'Windows TCP/IP Remote Code Execution Vulnerability'.
+</code>
+
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 - [corelight/CVE-2020-16898](https://github.com/corelight/CVE-2020-16898)
 - [Maliek/CVE-2020-16898_Check](https://github.com/Maliek/CVE-2020-16898_Check)
@@ -2257,12 +2263,23 @@ OLIMPOKS before 5.1.0 allows Auth/Admin ErrorMessage XSS.
 - [Gangana3/bad_neighbor](https://github.com/Gangana3/bad_neighbor)
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
 - [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
+- [0xeb-bp/cve-2020-16898](https://github.com/0xeb-bp/cve-2020-16898)
 
 ### CVE-2020-16899
+
+<code>
+A denial of service vulnerability exists when the Windows TCP/IP stack improperly handles ICMPv6 Router Advertisement packets, aka 'Windows TCP/IP Denial of Service Vulnerability'.
+</code>
+
 - [advanced-threat-research/CVE-2020-16899](https://github.com/advanced-threat-research/CVE-2020-16899)
 - [bkerler/CVE-2020-16899](https://github.com/bkerler/CVE-2020-16899)
 
 ### CVE-2020-16947
+
+<code>
+A remote code execution vulnerability exists in Microsoft Outlook software when the software fails to properly handle objects in memory, aka 'Microsoft Outlook Remote Code Execution Vulnerability'.
+</code>
+
 - [0neb1n/CVE-2020-16947](https://github.com/0neb1n/CVE-2020-16947)
 
 ### CVE-2020-17382
@@ -8088,7 +8105,6 @@ The RichFaces Framework 3.X through 3.3.4 is vulnerable to Expression Language (
 - [syriusbughunt/CVE-2018-14667](https://github.com/syriusbughunt/CVE-2018-14667)
 - [quandqn/cve-2018-14667](https://github.com/quandqn/cve-2018-14667)
 - [Venscor/CVE-2018-14667-poc](https://github.com/Venscor/CVE-2018-14667-poc)
-- [MattKeeley/RichFaces-3.X-Exploit](https://github.com/MattKeeley/RichFaces-3.X-Exploit)
 
 ### CVE-2018-14714
 
@@ -14890,6 +14906,7 @@ mpack 1.6 has information disclosure via eavesdropping on mails sent by other us
 sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is enabled, permits a match between the name of the pseudo-command and the name of an executable file in an arbitrary directory, which allows local users to gain privileges via a crafted executable file, as demonstrated by a file named sudoedit in a user's home directory.
 </code>
 
+- [t0kx/privesc-CVE-2010-0426](https://github.com/t0kx/privesc-CVE-2010-0426)
 - [cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426)
 
 ### CVE-2010-0738
@@ -14898,7 +14915,40 @@ sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is en
 The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
 </code>
 
+- [ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn)
 - [gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn)
+
+### CVE-2010-1205
+
+<code>
+Buffer overflow in pngpread.c in libpng before 1.2.44 and 1.4.x before 1.4.3, as used in progressive applications, might allow remote attackers to execute arbitrary code via a PNG image that triggers an additional data row.
+</code>
+
+- [mk219533/CVE-2010-1205](https://github.com/mk219533/CVE-2010-1205)
+
+### CVE-2010-1411
+
+<code>
+Multiple integer overflows in the Fax3SetupState function in tif_fax3.c in the FAX3 decoder in LibTIFF before 3.9.3, as used in ImageIO in Apple Mac OS X 10.5.8 and Mac OS X 10.6 before 10.6.4, allow remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted TIFF file that triggers a heap-based buffer overflow.
+</code>
+
+- [MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller)
+
+### CVE-2010-2075
+
+<code>
+UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
+</code>
+
+- [M4LV0/UnrealIRCd-3.2.8.1-RCE](https://github.com/M4LV0/UnrealIRCd-3.2.8.1-RCE)
+
+### CVE-2010-3332
+
+<code>
+Microsoft .NET Framework 1.1 SP1, 2.0 SP1 and SP2, 3.5, 3.5 SP1, 3.5.1, and 4.0, as used for ASP.NET in Microsoft Internet Information Services (IIS), provides detailed error codes during decryption attempts, which allows remote attackers to decrypt and modify encrypted View State (aka __VIEWSTATE) form data, and possibly forge cookies or read application files, via a padding oracle attack, aka &quot;ASP.NET Padding Oracle Vulnerability.&quot;
+</code>
+
+- [bongbongco/MS10-070](https://github.com/bongbongco/MS10-070)
 
 ### CVE-2010-3333
 
@@ -14907,6 +14957,22 @@ Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 
 </code>
 
 - [whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333)
+
+### CVE-2010-3437
+
+<code>
+Integer signedness error in the pkt_find_dev_from_minor function in drivers/block/pktcdvd.c in the Linux kernel before 2.6.36-rc6 allows local users to obtain sensitive information from kernel memory or cause a denial of service (invalid pointer dereference and system crash) via a crafted index value in a PKT_CTRL_CMD_STATUS ioctl call.
+</code>
+
+- [huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437)
+
+### CVE-2010-3490
+
+<code>
+Directory traversal vulnerability in page.recordings.php in the System Recordings component in the configuration interface in FreePBX 2.8.0 and earlier allows remote authenticated administrators to create arbitrary files via a .. (dot dot) in the usersnum parameter to admin/config.php, as demonstrated by creating a .php file under the web root.
+</code>
+
+- [moayadalmalat/CVE-2010-3490](https://github.com/moayadalmalat/CVE-2010-3490)
 
 ### CVE-2010-3600
 
@@ -14940,6 +15006,22 @@ Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Ca
 
 - [nektra/CVE-2010-3971-hotpatch](https://github.com/nektra/CVE-2010-3971-hotpatch)
 
+### CVE-2010-4221
+
+<code>
+Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
+</code>
+
+- [M31MOTH/cve-2010-4221](https://github.com/M31MOTH/cve-2010-4221)
+
+### CVE-2010-4258
+
+<code>
+The do_exit function in kernel/exit.c in the Linux kernel before 2.6.36.2 does not properly handle a KERNEL_DS get_fs value, which allows local users to bypass intended access_ok restrictions, overwrite arbitrary kernel memory locations, and gain privileges by leveraging a (1) BUG, (2) NULL pointer dereference, or (3) page fault, as demonstrated by vectors involving the clear_child_tid feature and the splice system call.
+</code>
+
+- [johnreginald/CVE-2010-4258](https://github.com/johnreginald/CVE-2010-4258)
+
 ### CVE-2010-4476
 
 <code>
@@ -14955,6 +15037,14 @@ The Neighbor Discovery (ND) protocol implementation in the IPv6 stack in Microso
 </code>
 
 - [quinn-samuel-perry/CVE-2010-4669](https://github.com/quinn-samuel-perry/CVE-2010-4669)
+
+### CVE-2010-4804
+
+<code>
+The Android browser in Android before 2.3.4 allows remote attackers to obtain SD card contents via crafted content:// URIs, related to (1) BrowserActivity.java and (2) BrowserSettings.java in com/android/browser/.
+</code>
+
+- [thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804)
 
 ### CVE-2010-5327
 
@@ -15056,14 +15146,6 @@ The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not in
 
 - [jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692)
 
-### CVE-2009-2698
-
-<code>
-The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
-</code>
-
-- [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
-
 ### CVE-2009-3103
 
 <code>
@@ -15087,14 +15169,6 @@ The StartServiceCtrlDispatcher function in the cvpnd service (cvpnd.exe) in Cisc
 </code>
 
 - [alt3kx/CVE-2009-4118](https://github.com/alt3kx/CVE-2009-4118)
-
-### CVE-2009-4137
-
-<code>
-The loadContentFromCookie function in core/Cookie.php in Piwik before 0.5 does not validate strings obtained from cookies before calling the unserialize function, which allows remote attackers to execute arbitrary code or upload arbitrary files via vectors related to the __destruct function in the Piwik_Config class; php://filter URIs; the __destruct functions in Zend Framework, as demonstrated by the Zend_Log destructor; the shutdown functions in Zend Framework, as demonstrated by the Zend_Log_Writer_Mail class; the render function in the Piwik_View class; Smarty templates; and the _eval function in Smarty.
-</code>
-
-- [Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137)
 
 ### CVE-2009-4660
 
@@ -15123,24 +15197,6 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 
 - [ngyanch/4062-1](https://github.com/ngyanch/4062-1)
 
-### CVE-2008-0166
-
-<code>
-OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
-</code>
-
-- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
-- [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
-- [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
-
-### CVE-2008-0228
-
-<code>
-Cross-site request forgery (CSRF) vulnerability in apply.cgi in the Linksys WRT54GL Wireless-G Broadband Router with firmware 4.30.9 allows remote attackers to perform actions as administrators.
-</code>
-
-- [SpiderLabs/TWSL2011-007_iOS_code_workaround](https://github.com/SpiderLabs/TWSL2011-007_iOS_code_workaround)
-
 ### CVE-2008-1611
 
 <code>
@@ -15148,22 +15204,6 @@ Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote atta
 </code>
 
 - [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
-
-### CVE-2008-1613
-
-<code>
-SQL injection vulnerability in ioRD.asp in RedDot CMS 7.5 Build 7.5.0.48, and possibly other versions including 6.5 and 7.0, allows remote attackers to execute arbitrary SQL commands via the LngId parameter.
-</code>
-
-- [SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613)
-
-### CVE-2008-2019
-
-<code>
-Simple Machines Forum (SMF), probably 1.1.4, relies on &quot;randomly generated static&quot; to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
-</code>
-
-- [TheRook/AudioCaptchaBypass-CVE-2008-2019](https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019)
 
 ### CVE-2008-2938
 
@@ -15173,22 +15213,6 @@ Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 t
 
 - [Naramsim/Offensive](https://github.com/Naramsim/Offensive)
 
-### CVE-2008-4250
-
-<code>
-The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary code via a crafted RPC request that triggers the overflow during path canonicalization, as exploited in the wild by Gimmiv.A in October 2008, aka &quot;Server Service Vulnerability.&quot;
-</code>
-
-- [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
-
-### CVE-2008-4609
-
-<code>
-The TCP implementation in (1) Linux, (2) platforms based on BSD Unix, (3) Microsoft Windows, (4) Cisco products, and probably other operating systems allows remote attackers to cause a denial of service (connection queue exhaustion) via multiple vectors that manipulate information in the TCP state table, as demonstrated by sockstress.
-</code>
-
-- [marcelki/sockstress](https://github.com/marcelki/sockstress)
-
 ### CVE-2008-4654
 
 <code>
@@ -15196,15 +15220,6 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 </code>
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
-- [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
-
-### CVE-2008-4687
-
-<code>
-manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
-</code>
-
-- [nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit)
 
 ### CVE-2008-5416
 
@@ -15240,6 +15255,22 @@ Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before
 
 
 ## 2007
+### CVE-2007-0038
+
+<code>
+Stack-based buffer overflow in the animated cursor code in Microsoft Windows 2000 SP4 through Vista allows remote attackers to execute arbitrary code or cause a denial of service (persistent reboot) via a large length value in the second (or later) anih block of a RIFF .ANI, cur, or .ico file, which results in memory corruption when processing cursors, animated cursors, and icons, a variant of CVE-2005-0416, as originally demonstrated using Internet Explorer 6 and 7. NOTE: this might be a duplicate of CVE-2007-1765; if so, then CVE-2007-0038 should be preferred.
+</code>
+
+- [Axua/CVE-2007-0038](https://github.com/Axua/CVE-2007-0038)
+
+### CVE-2007-0843
+
+<code>
+The ReadDirectoryChangesW API function on Microsoft Windows 2000, XP, Server 2003, and Vista does not check permissions for child objects, which allows local users to bypass permissions by opening a directory with LIST (READ) access and using ReadDirectoryChangesW to monitor changes of files that do not have LIST permissions, which can be leveraged to determine filenames, access times, and other sensitive information.
+</code>
+
+- [z3APA3A/spydir](https://github.com/z3APA3A/spydir)
+
 ### CVE-2007-1567
 
 <code>
@@ -15254,10 +15285,13 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
+- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
+- [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 - [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
+- [nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer)
 
 ### CVE-2007-3830
 
@@ -15266,6 +15300,14 @@ Cross-site scripting (XSS) vulnerability in alert.php in ISS Proventia Network I
 </code>
 
 - [alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830)
+
+### CVE-2007-3831
+
+<code>
+PHP remote file inclusion in main.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to execute arbitrary PHP code via a URL in the page parameter.
+</code>
+
+- [alt3kx/CVE-2007-3831](https://github.com/alt3kx/CVE-2007-3831)
 
 ### CVE-2007-4607
 
