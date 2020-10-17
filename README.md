@@ -1121,6 +1121,7 @@ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows
 - [mzer0one/CVE-2020-7961-POC](https://github.com/mzer0one/CVE-2020-7961-POC)
 - [Thisisfarhadzadeh/CVE-2020-7961-payloads](https://github.com/Thisisfarhadzadeh/CVE-2020-7961-payloads)
 - [wcxxxxx/CVE-2020-7961](https://github.com/wcxxxxx/CVE-2020-7961)
+- [shacojx/GLiferay](https://github.com/shacojx/GLiferay)
 
 ### CVE-2020-7980
 
@@ -2264,6 +2265,8 @@ A remote code execution vulnerability exists when the Windows TCP/IP stack impro
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
 - [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
 - [0xeb-bp/cve-2020-16898](https://github.com/0xeb-bp/cve-2020-16898)
+- [jiansiting/cve-2020-16898](https://github.com/jiansiting/cve-2020-16898)
+- [CPO-EH/CVE-2020-16898](https://github.com/CPO-EH/CVE-2020-16898)
 
 ### CVE-2020-16899
 
@@ -15146,6 +15149,14 @@ The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not in
 
 - [jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692)
 
+### CVE-2009-2698
+
+<code>
+The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
+</code>
+
+- [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
+
 ### CVE-2009-3103
 
 <code>
@@ -15169,6 +15180,14 @@ The StartServiceCtrlDispatcher function in the cvpnd service (cvpnd.exe) in Cisc
 </code>
 
 - [alt3kx/CVE-2009-4118](https://github.com/alt3kx/CVE-2009-4118)
+
+### CVE-2009-4137
+
+<code>
+The loadContentFromCookie function in core/Cookie.php in Piwik before 0.5 does not validate strings obtained from cookies before calling the unserialize function, which allows remote attackers to execute arbitrary code or upload arbitrary files via vectors related to the __destruct function in the Piwik_Config class; php://filter URIs; the __destruct functions in Zend Framework, as demonstrated by the Zend_Log destructor; the shutdown functions in Zend Framework, as demonstrated by the Zend_Log_Writer_Mail class; the render function in the Piwik_View class; Smarty templates; and the _eval function in Smarty.
+</code>
+
+- [Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137)
 
 ### CVE-2009-4660
 
@@ -15197,6 +15216,24 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 
 - [ngyanch/4062-1](https://github.com/ngyanch/4062-1)
 
+### CVE-2008-0166
+
+<code>
+OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
+</code>
+
+- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
+- [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
+- [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
+
+### CVE-2008-0228
+
+<code>
+Cross-site request forgery (CSRF) vulnerability in apply.cgi in the Linksys WRT54GL Wireless-G Broadband Router with firmware 4.30.9 allows remote attackers to perform actions as administrators.
+</code>
+
+- [SpiderLabs/TWSL2011-007_iOS_code_workaround](https://github.com/SpiderLabs/TWSL2011-007_iOS_code_workaround)
+
 ### CVE-2008-1611
 
 <code>
@@ -15204,6 +15241,22 @@ Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote atta
 </code>
 
 - [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
+
+### CVE-2008-1613
+
+<code>
+SQL injection vulnerability in ioRD.asp in RedDot CMS 7.5 Build 7.5.0.48, and possibly other versions including 6.5 and 7.0, allows remote attackers to execute arbitrary SQL commands via the LngId parameter.
+</code>
+
+- [SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613)
+
+### CVE-2008-2019
+
+<code>
+Simple Machines Forum (SMF), probably 1.1.4, relies on &quot;randomly generated static&quot; to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
+</code>
+
+- [TheRook/AudioCaptchaBypass-CVE-2008-2019](https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019)
 
 ### CVE-2008-2938
 
@@ -15213,6 +15266,22 @@ Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 t
 
 - [Naramsim/Offensive](https://github.com/Naramsim/Offensive)
 
+### CVE-2008-4250
+
+<code>
+The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary code via a crafted RPC request that triggers the overflow during path canonicalization, as exploited in the wild by Gimmiv.A in October 2008, aka &quot;Server Service Vulnerability.&quot;
+</code>
+
+- [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
+
+### CVE-2008-4609
+
+<code>
+The TCP implementation in (1) Linux, (2) platforms based on BSD Unix, (3) Microsoft Windows, (4) Cisco products, and probably other operating systems allows remote attackers to cause a denial of service (connection queue exhaustion) via multiple vectors that manipulate information in the TCP state table, as demonstrated by sockstress.
+</code>
+
+- [marcelki/sockstress](https://github.com/marcelki/sockstress)
+
 ### CVE-2008-4654
 
 <code>
@@ -15220,6 +15289,15 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 </code>
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
+- [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
+
+### CVE-2008-4687
+
+<code>
+manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
+</code>
+
+- [nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit)
 
 ### CVE-2008-5416
 
