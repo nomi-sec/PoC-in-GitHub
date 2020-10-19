@@ -2365,6 +2365,9 @@ FasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction betwee
 ### CVE-2020-24765
 - [trump88/CVE-2020-24765](https://github.com/trump88/CVE-2020-24765)
 
+### CVE-2020-24771
+- [qlh831/CVE-2020-24771](https://github.com/qlh831/CVE-2020-24771)
+
 ### CVE-2020-24955
 
 <code>
