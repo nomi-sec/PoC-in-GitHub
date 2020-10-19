@@ -2462,6 +2462,14 @@ Sourcecodester Simple Library Management System 1.0 is affected by Insecure Perm
 ### CVE-2020-25518
 - [g-rubert/wordpress_DoS](https://github.com/g-rubert/wordpress_DoS)
 
+### CVE-2020-25540
+
+<code>
+ThinkAdmin v6 is affected by a directory traversal vulnerability. An unauthorized attacker can read arbitrarily file on a remote server via GET request encode parameter.
+</code>
+
+- [ChaoYangDongYongGuaiGe/CVE-2020-25540](https://github.com/ChaoYangDongYongGuaiGe/CVE-2020-25540)
+
 ### CVE-2020-25747
 
 <code>
@@ -4308,7 +4316,7 @@ In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7
 </code>
 
 - [projectzeroindia/CVE-2019-11510](https://github.com/projectzeroindia/CVE-2019-11510)
-- [ladyleet1337/Pulse](https://github.com/ladyleet1337/Pulse)
+- [nuc13us/Pulse](https://github.com/nuc13us/Pulse)
 - [imjdl/CVE-2019-11510-poc](https://github.com/imjdl/CVE-2019-11510-poc)
 - [es0/CVE-2019-11510_poc](https://github.com/es0/CVE-2019-11510_poc)
 - [r00tpgp/http-pulse_ssl_vpn.nse](https://github.com/r00tpgp/http-pulse_ssl_vpn.nse)
