@@ -2257,7 +2257,7 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 ### CVE-2020-16270
 
 <code>
-OLIMPOKS before 5.1.0 allows Auth/Admin ErrorMessage XSS.
+OLIMPOKS under 3.3.39 allows Auth/Admin ErrorMessage XSS. Remote Attacker can use discovered vulnerability to inject malicious JavaScript payload to victim’s browsers in context of vulnerable applications. Executed code can be used to steal administrator’s cookies, influence HTML content of targeted application and perform phishing-related attacks. Vulnerable application used in more than 3000 organizations in different sectors from retail to industries.
 </code>
 
 - [Security-AVS/CVE-2020-16270](https://github.com/Security-AVS/CVE-2020-16270)
@@ -2766,7 +2766,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [shishibabyq/CVE-2019-0708](https://github.com/shishibabyq/CVE-2019-0708)
 - [pwnhacker0x18/Wincrash](https://github.com/pwnhacker0x18/Wincrash)
 - [R4v3nG/CVE-2019-0708-DOS](https://github.com/R4v3nG/CVE-2019-0708-DOS)
-- [lwtz/sudoku.py](https://github.com/lwtz/sudoku.py)
+- [lwtz/CVE-2019-0708](https://github.com/lwtz/CVE-2019-0708)
 - [ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708)
 - [worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708)
 - [cbwang505/CVE-2019-0708-EXP-Windows](https://github.com/cbwang505/CVE-2019-0708-EXP-Windows)
@@ -4899,6 +4899,11 @@ In lib/mini_magick/image.rb in MiniMagick before 4.9.4, a fetched remote image f
 - [Crystalware/CVE-2019-13600](https://github.com/Crystalware/CVE-2019-13600)
 
 ### CVE-2019-13633
+
+<code>
+Blinger.io v.1.0.2519 is vulnerable to Blind/Persistent XSS. An attacker can send arbitrary JavaScript code via a built-in communication channel, such as Telegram, WhatsApp, Viber, Skype, Facebook, Vkontakte, or Odnoklassniki. This is mishandled within the administration panel for conversations/all, conversations/inbox, conversations/unassigned, and conversations/closed.
+</code>
+
 - [Security-AVS/CVE-2019-13633](https://github.com/Security-AVS/CVE-2019-13633)
 
 ### CVE-2019-13720
