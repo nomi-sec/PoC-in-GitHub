@@ -612,6 +612,7 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 - [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
 - [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
+- [askDing/cve-2020-1948-poc](https://github.com/askDing/cve-2020-1948-poc)
 
 ### CVE-2020-1958
 
