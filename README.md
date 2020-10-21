@@ -536,6 +536,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472)
 - [maikelnight/zerologon](https://github.com/maikelnight/zerologon)
 - [CPO-EH/CVE-2020-1472_ZeroLogonChecker](https://github.com/CPO-EH/CVE-2020-1472_ZeroLogonChecker)
+- [puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472)
 
 ### CVE-2020-1493
 
@@ -2130,6 +2131,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [Y4er/CVE-2020-14645](https://github.com/Y4er/CVE-2020-14645)
 - [DaBoQuan/CVE-2020-14645](https://github.com/DaBoQuan/CVE-2020-14645)
 - [ChenZIDu/CVE-2020-14645](https://github.com/ChenZIDu/CVE-2020-14645)
+- [HYWZ36/CVE-2020-14645-code](https://github.com/HYWZ36/CVE-2020-14645-code)
 
 ### CVE-2020-14947
 
@@ -3085,6 +3087,7 @@ Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier
 </code>
 
 - [securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579)
+- [Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579)
 
 ### CVE-2019-1652
 
@@ -5487,6 +5490,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [tripleoctopus/Bludit-CVE-2019-17240-Fork](https://github.com/tripleoctopus/Bludit-CVE-2019-17240-Fork)
 - [persian64/CVE-2019-17240](https://github.com/persian64/CVE-2019-17240)
+- [ColdFusionX/CVE-2019-17240-Exploit-Bludit-BF-bypass](https://github.com/ColdFusionX/CVE-2019-17240-Exploit-Bludit-BF-bypass)
 
 ### CVE-2019-17424
 
