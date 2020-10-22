@@ -9591,6 +9591,9 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
+- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388
@@ -9600,6 +9603,14 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 </code>
 
 - [bazad/IOFireWireFamily-null-deref](https://github.com/bazad/IOFireWireFamily-null-deref)
+
+### CVE-2017-2636
+
+<code>
+Race condition in drivers/tty/n_hdlc.c in the Linux kernel through 4.10.1 allows local users to gain privileges or cause a denial of service (double free) by setting the HDLC line discipline.
+</code>
+
+- [alexzorin/cve-2017-2636-el](https://github.com/alexzorin/cve-2017-2636-el)
 
 ### CVE-2017-2666
 
@@ -9705,6 +9716,7 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Serve
 In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
 </code>
 
+- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
 - [ymmah/OpenSSL-CVE-2017-3730](https://github.com/ymmah/OpenSSL-CVE-2017-3730)
 
 ### CVE-2017-3881
@@ -9806,10 +9818,22 @@ Multiple cross-site request forgery (CSRF) vulnerabilities on the D-Link DI-524 
 The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
+- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
+- [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
+- [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
+- [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
+- [mthbernardes/strutszeiro](https://github.com/mthbernardes/strutszeiro)
+- [xsscx/cve-2017-5638](https://github.com/xsscx/cve-2017-5638)
+- [immunio/apache-struts2-CVE-2017-5638](https://github.com/immunio/apache-struts2-CVE-2017-5638)
+- [Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve)
+- [aljazceru/CVE-2017-5638-Apache-Struts2](https://github.com/aljazceru/CVE-2017-5638-Apache-Struts2)
+- [sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638)
 - [jrrombaldo/CVE-2017-5638](https://github.com/jrrombaldo/CVE-2017-5638)
 - [random-robbie/CVE-2017-5638](https://github.com/random-robbie/CVE-2017-5638)
 - [initconf/CVE-2017-5638_struts](https://github.com/initconf/CVE-2017-5638_struts)
 - [mazen160/struts-pwn](https://github.com/mazen160/struts-pwn)
+- [ret2jazzy/Struts-Apache-ExploitPack](https://github.com/ret2jazzy/Struts-Apache-ExploitPack)
+- [lolwaleet/ExpStruts](https://github.com/lolwaleet/ExpStruts)
 - [oktavianto/CVE-2017-5638-Apache-Struts2](https://github.com/oktavianto/CVE-2017-5638-Apache-Struts2)
 - [jrrdev/cve-2017-5638](https://github.com/jrrdev/cve-2017-5638)
 - [opt9/Strutshock](https://github.com/opt9/Strutshock)
