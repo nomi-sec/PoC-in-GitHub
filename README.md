@@ -2254,7 +2254,12 @@ In LibreNMS before 1.65.1, an authenticated attacker can achieve SQL Injection v
 
 - [limerencee/cs4239-cve-2020-15873](https://github.com/limerencee/cs4239-cve-2020-15873)
 
-### CVE-2020-15906
+### CVE-2020-15906 (2020-10-22)
+
+<code>
+tiki-login.php in Tiki before 21.2 sets the admin password to a blank value after 50 invalid login attempts.
+</code>
+
 - [S1lkys/CVE-2020-15906](https://github.com/S1lkys/CVE-2020-15906)
 
 ### CVE-2020-15931 (2020-10-20)
@@ -2652,6 +2657,7 @@ Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on r
 
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
+- [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
 
 ### CVE-2019-0232 (2019-04-15)
 
@@ -9036,6 +9042,14 @@ There is Stored XSS in GetSimple CMS 3.3.12 via the admin/edit.php &quot;post-me
 </code>
 
 - [security-breachlock/CVE-2018-19845](https://github.com/security-breachlock/CVE-2018-19845)
+
+### CVE-2018-19859 (2018-12-05)
+
+<code>
+OpenRefine before 3.2 beta allows directory traversal via a relative pathname in a ZIP archive.
+</code>
+
+- [WhiteOakSecurity/CVE-2018-19859](https://github.com/WhiteOakSecurity/CVE-2018-19859)
 
 ### CVE-2018-19864 (2018-12-05)
 
