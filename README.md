@@ -1547,6 +1547,14 @@ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
 - [duolaoa333/CVE-2020-10204](https://github.com/duolaoa333/CVE-2020-10204)
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
 
+### CVE-2020-10238 (2020-03-16)
+
+<code>
+An issue was discovered in Joomla! before 3.9.16. Various actions in com_templates lack the required ACL checks, leading to various potential attack vectors.
+</code>
+
+- [HoangKien1020/CVE-2020-10238](https://github.com/HoangKien1020/CVE-2020-10238)
+
 ### CVE-2020-10558 (2020-03-20)
 
 <code>
@@ -2363,7 +2371,12 @@ ForLogic Qualiex v1 and v3 has weak token expiration. This allows remote unauthe
 
 - [underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030)
 
-### CVE-2020-24033
+### CVE-2020-24033 (2020-10-22)
+
+<code>
+An issue was discovered in fs.com S3900 24T4S 1.7.0 and earlier. The form does not have an authentication or token authentication mechanism that allows remote attackers to forge requests on behalf of a site administrator to change all settings including deleting users, creating new users with escalated privileges.
+</code>
+
 - [M0NsTeRRR/CVE-2020-24033](https://github.com/M0NsTeRRR/CVE-2020-24033)
 
 ### CVE-2020-24572 (2020-08-24)
