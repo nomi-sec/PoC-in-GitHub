@@ -613,7 +613,6 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 - [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
 - [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
-- [askDing/cve-2020-1948-poc](https://github.com/askDing/cve-2020-1948-poc)
 
 ### CVE-2020-1958
 
@@ -2571,6 +2570,9 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 </code>
 
 - [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
+
+### CVE-2020-27199
+- [9lyph/CVE-2020-27199](https://github.com/9lyph/CVE-2020-27199)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -6957,6 +6959,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [kawkab101/cve-2018-6574](https://github.com/kawkab101/cve-2018-6574)
 - [lsnakazone/cve-2018-6574](https://github.com/lsnakazone/cve-2018-6574)
 - [pswalia2u/CVE-2018-6574](https://github.com/pswalia2u/CVE-2018-6574)
+- [jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC)
 
 ### CVE-2018-6622
 
