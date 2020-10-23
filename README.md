@@ -5482,6 +5482,7 @@ Incorrect alias information in IonMonkey JIT compiler for setting array elements
 mintinstall (aka Software Manager) 7.9.9 for Linux Mint allows code execution if a REVIEWS_CACHE file is controlled by an attacker, because an unpickle occurs. This is resolved in 8.0.0 and backports.
 </code>
 
+- [Andhrimnirr/Mintinstall-object-injection](https://github.com/Andhrimnirr/Mintinstall-object-injection)
 - [materaj2/Mintinstall-object-injection](https://github.com/materaj2/Mintinstall-object-injection)
 
 ### CVE-2019-17124 (2019-10-09)
@@ -5639,6 +5640,14 @@ An issue was discovered on Xiaomi Mi WiFi R3G devices before 2.28.23-stable. The
 </code>
 
 - [UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC](https://github.com/UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC)
+
+### CVE-2019-18418 (2019-10-24)
+
+<code>
+clonos.php in ClonOS WEB control panel 19.09 allows remote attackers to gain full access via change password requests because there is no session management.
+</code>
+
+- [Andhrimnirr/ClonOS-WEB-control-panel-multi-vulnerability](https://github.com/Andhrimnirr/ClonOS-WEB-control-panel-multi-vulnerability)
 
 ### CVE-2019-18426 (2020-01-21)
 
