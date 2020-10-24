@@ -2317,6 +2317,7 @@ A remote code execution vulnerability exists when the Windows TCP/IP stack impro
 - [CPO-EH/CVE-2020-16898_Checker](https://github.com/CPO-EH/CVE-2020-16898_Checker)
 - [momika233/CVE-2020-16898-exp](https://github.com/momika233/CVE-2020-16898-exp)
 - [komomon/CVE-2020-16898](https://github.com/komomon/CVE-2020-16898)
+- [Passiv-e/CVE-2020-16898](https://github.com/Passiv-e/CVE-2020-16898)
 
 ### CVE-2020-16899 (2020-10-16)
 
