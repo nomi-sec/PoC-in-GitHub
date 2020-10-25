@@ -908,7 +908,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
 - [sv3nbeast/CVE-2020-5902_RCE](https://github.com/sv3nbeast/CVE-2020-5902_RCE)
 - [cybersecurityworks553/scanner-CVE-2020-5902](https://github.com/cybersecurityworks553/scanner-CVE-2020-5902)
-- [tom0li/CVE-2020-5902](https://github.com/tom0li/CVE-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
 - [qlkwej/poc-CVE-2020-5902](https://github.com/qlkwej/poc-CVE-2020-5902)
 - [Zinkuth/F5-BIG-IP-CVE-2020-5902](https://github.com/Zinkuth/F5-BIG-IP-CVE-2020-5902)
@@ -945,6 +944,14 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [murataydemir/CVE-2020-5902](https://github.com/murataydemir/CVE-2020-5902)
 - [superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902)
 - [ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability](https://github.com/ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability)
+
+### CVE-2020-5903 (2020-07-01)
+
+<code>
+In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.1.5.1, a Cross-Site Scripting (XSS) vulnerability exists in an undisclosed page of the BIG-IP Configuration utility.
+</code>
+
+- [ltvthang/CVE-2020-5903](https://github.com/ltvthang/CVE-2020-5903)
 
 ### CVE-2020-5977 (2020-10-23)
 
@@ -15446,6 +15453,22 @@ Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before
 
 
 ## 2007
+### CVE-2007-0038 (2007-03-30)
+
+<code>
+Stack-based buffer overflow in the animated cursor code in Microsoft Windows 2000 SP4 through Vista allows remote attackers to execute arbitrary code or cause a denial of service (persistent reboot) via a large length value in the second (or later) anih block of a RIFF .ANI, cur, or .ico file, which results in memory corruption when processing cursors, animated cursors, and icons, a variant of CVE-2005-0416, as originally demonstrated using Internet Explorer 6 and 7. NOTE: this might be a duplicate of CVE-2007-1765; if so, then CVE-2007-0038 should be preferred.
+</code>
+
+- [Axua/CVE-2007-0038](https://github.com/Axua/CVE-2007-0038)
+
+### CVE-2007-0843 (2007-02-22)
+
+<code>
+The ReadDirectoryChangesW API function on Microsoft Windows 2000, XP, Server 2003, and Vista does not check permissions for child objects, which allows local users to bypass permissions by opening a directory with LIST (READ) access and using ReadDirectoryChangesW to monitor changes of files that do not have LIST permissions, which can be leveraged to determine filenames, access times, and other sensitive information.
+</code>
+
+- [z3APA3A/spydir](https://github.com/z3APA3A/spydir)
+
 ### CVE-2007-1567 (2007-03-21)
 
 <code>
@@ -15460,7 +15483,13 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
+- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
+- [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
+- [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
+- [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
+- [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
+- [nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer)
 
 ### CVE-2007-3830 (2007-07-17)
 
