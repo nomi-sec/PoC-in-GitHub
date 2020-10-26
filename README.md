@@ -1214,6 +1214,9 @@ A code injection vulnerability exists in Pulse Connect Secure &lt;9.1R8 that all
 
 - [withdk/pulse-gosecure-rce-poc](https://github.com/withdk/pulse-gosecure-rce-poc)
 
+### CVE-2020-8241
+- [withdk/pulse-secure-vpn-mitm-research](https://github.com/withdk/pulse-secure-vpn-mitm-research)
+
 ### CVE-2020-8417 (2020-01-28)
 
 <code>
@@ -2085,6 +2088,14 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files
 - [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
 - [masoud-zivari/CVE-2020-14066](https://github.com/masoud-zivari/CVE-2020-14066)
 
+### CVE-2020-14181 (2020-09-16)
+
+<code>
+Affected versions of Atlassian Jira Server and Data Center allow an unauthenticated user to enumerate users via an Information Disclosure vulnerability in the /ViewUserHover.jspa endpoint. The affected versions are before version 7.13.6, from version 8.0.0 before 8.5.7, and from version 8.6.0 before 8.12.0.
+</code>
+
+- [Rival420/CVE-2020-14181](https://github.com/Rival420/CVE-2020-14181)
+
 ### CVE-2020-14195 (2020-06-16)
 
 <code>
@@ -2343,6 +2354,14 @@ An information disclosure vulnerability exists when the Windows kernel improperl
 </code>
 
 - [ioncodes/CVE-2020-16938](https://github.com/ioncodes/CVE-2020-16938)
+
+### CVE-2020-16939 (2020-10-16)
+
+<code>
+An elevation of privilege vulnerability exists when Group Policy improperly checks access, aka 'Group Policy Elevation of Privilege Vulnerability'.
+</code>
+
+- [rogue-kdc/CVE-2020-16939](https://github.com/rogue-kdc/CVE-2020-16939)
 
 ### CVE-2020-16947 (2020-10-16)
 
