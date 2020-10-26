@@ -216,6 +216,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [ktpdpro/CVE-2020-0688](https://github.com/ktpdpro/CVE-2020-0688)
 - [w4fz5uck5/cve-2020-0688-webshell-upload-technique](https://github.com/w4fz5uck5/cve-2020-0688-webshell-upload-technique)
 - [murataydemir/CVE-2020-0688](https://github.com/murataydemir/CVE-2020-0688)
+- [zyn3rgy/ecp_slap](https://github.com/zyn3rgy/ecp_slap)
 
 ### CVE-2020-0708 (2020-02-11)
 
