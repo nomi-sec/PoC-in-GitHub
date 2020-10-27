@@ -3236,6 +3236,7 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 - [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
 - [c0n71nu3/android-kernel-exploitation-ashfaq-CVE-2019-2215](https://github.com/c0n71nu3/android-kernel-exploitation-ashfaq-CVE-2019-2215)
 - [sharif-dev/AndroidKernelVulnerability](https://github.com/sharif-dev/AndroidKernelVulnerability)
+- [c3r34lk1ll3r/CVE-2019-2215](https://github.com/c3r34lk1ll3r/CVE-2019-2215)
 
 ### CVE-2019-2525 (2019-01-16)
 
@@ -3450,6 +3451,14 @@ An exploitable code execution vulnerability exists in the processing of multi-pa
 </code>
 
 - [papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit](https://github.com/papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit)
+
+### CVE-2019-5170 (2020-03-11)
+
+<code>
+An exploitable command injection vulnerability exists in the iocheckd service ‘I/O-Check’ function of the WAGO PFC 200 Firmware version 03.02.02(14). A specially crafted XML cache file written to a specific location on the device can be used to inject OS commands. An attacker can send a specially crafted packet to trigger the parsing of this cache file.At 0x1e87c the extracted hostname value from the xml file is used as an argument to /etc/config-tools/change_hostname hostname=&lt;contents of hostname node&gt; using sprintf(). This command is later executed via a call to system().
+</code>
+
+- [ClarotyICS/CVE-2019-5170](https://github.com/ClarotyICS/CVE-2019-5170)
 
 ### CVE-2019-5418 (2019-03-27)
 
