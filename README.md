@@ -392,6 +392,7 @@ An elevation of privilege vulnerability exists in Windows when the Windows kerne
 - [0xeb-bp/cve-2020-1054](https://github.com/0xeb-bp/cve-2020-1054)
 - [Iamgublin/CVE-2020-1054](https://github.com/Iamgublin/CVE-2020-1054)
 - [KaLendsi/CVE-2020-1054](https://github.com/KaLendsi/CVE-2020-1054)
+- [Graham382/CVE-2020-1054](https://github.com/Graham382/CVE-2020-1054)
 
 ### CVE-2020-1066 (2020-05-21)
 
@@ -1554,6 +1555,7 @@ Sonatype Nexus Repository before 3.21.2 allows JavaEL Injection (issue 1 of 2).
 
 - [wsfengfan/CVE-2020-10199-10204](https://github.com/wsfengfan/CVE-2020-10199-10204)
 - [jas502n/CVE-2020-10199](https://github.com/jas502n/CVE-2020-10199)
+- [magicming200/CVE-2020-10199_CVE-2020-10204](https://github.com/magicming200/CVE-2020-10199_CVE-2020-10204)
 - [zhzyker/CVE-2020-10199_POC-EXP](https://github.com/zhzyker/CVE-2020-10199_POC-EXP)
 - [aleenzz/CVE-2020-10199](https://github.com/aleenzz/CVE-2020-10199)
 
@@ -2221,6 +2223,7 @@ Yii 2 (yiisoft/yii2) before version 2.0.38 is vulnerable to remote code executio
 </code>
 
 - [Maskhe/CVE-2020-15148-bypasses](https://github.com/Maskhe/CVE-2020-15148-bypasses)
+- [Kamimuka/cve-2020-15148](https://github.com/Kamimuka/cve-2020-15148)
 
 ### CVE-2020-15169 (2020-09-11)
 
