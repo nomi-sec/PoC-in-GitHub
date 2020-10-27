@@ -3929,7 +3929,12 @@ An out-of-bounds read was addressed with improved input validation.
 
 - [ire33164/CVE-2019-8641-reproduction](https://github.com/ire33164/CVE-2019-8641-reproduction)
 
-### CVE-2019-8656
+### CVE-2019-8656 (2020-10-27)
+
+<code>
+This was addressed with additional checks by Gatekeeper on files mounted through a network share. This issue is fixed in macOS Mojave 10.14.6, Security Update 2019-004 High Sierra, Security Update 2019-004 Sierra. Extracting a zip file containing a symbolic link to an endpoint in an NFS mount that is attacker controlled may bypass Gatekeeper.
+</code>
+
 - [D00MFist/CVE-2019-8656](https://github.com/D00MFist/CVE-2019-8656)
 
 ### CVE-2019-8781 (2019-12-18)
@@ -13134,14 +13139,6 @@ Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.c
 - [pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864)
 - [eudemonics/scaredycat](https://github.com/eudemonics/scaredycat)
 - [HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864)
-
-### CVE-2015-4335 (2015-06-09)
-
-<code>
-Redis before 2.8.21 and 3.x before 3.0.2 allows remote attackers to execute arbitrary Lua bytecode via the eval command.
-</code>
-
-- [EMCELLY/CVE-2015-4335](https://github.com/EMCELLY/CVE-2015-4335)
 
 ### CVE-2015-4495 (2015-08-07)
 
