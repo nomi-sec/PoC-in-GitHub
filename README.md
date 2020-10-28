@@ -1207,7 +1207,12 @@ A code injection vulnerability exists in Pulse Connect Secure &lt;9.1R8 that all
 
 - [withdk/pulse-gosecure-rce-poc](https://github.com/withdk/pulse-gosecure-rce-poc)
 
-### CVE-2020-8241
+### CVE-2020-8241 (2020-10-28)
+
+<code>
+A vulnerability in the Pulse Secure Desktop Client &lt; 9.1R9 could allow the attacker to perform a MITM Attack if end users are convinced to connect to a malicious server.
+</code>
+
 - [withdk/pulse-secure-vpn-mitm-research](https://github.com/withdk/pulse-secure-vpn-mitm-research)
 
 ### CVE-2020-8417 (2020-01-28)
@@ -2330,8 +2335,9 @@ A remote code execution vulnerability exists when the Windows TCP/IP stack impro
 - [CPO-EH/CVE-2020-16898_Workaround](https://github.com/CPO-EH/CVE-2020-16898_Workaround)
 - [CPO-EH/CVE-2020-16898_Checker](https://github.com/CPO-EH/CVE-2020-16898_Checker)
 - [momika233/CVE-2020-16898-exp](https://github.com/momika233/CVE-2020-16898-exp)
-- [komomon/CVE-2020-16898](https://github.com/komomon/CVE-2020-16898)
+- [komomon/CVE-2020-16898-EXP-POC](https://github.com/komomon/CVE-2020-16898-EXP-POC)
 - [Passiv-e/CVE-2020-16898](https://github.com/Passiv-e/CVE-2020-16898)
+- [komomon/CVE-2020-16898--EXP-POC](https://github.com/komomon/CVE-2020-16898--EXP-POC)
 
 ### CVE-2020-16899 (2020-10-16)
 
