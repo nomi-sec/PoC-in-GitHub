@@ -955,14 +955,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 
 - [ltvthang/CVE-2020-5903](https://github.com/ltvthang/CVE-2020-5903)
 
-### CVE-2020-5977 (2020-10-23)
-
-<code>
-NVIDIA GeForce Experience, all versions prior to 3.20.5.70, contains a vulnerability in NVIDIA Web Helper NodeJS Web Server in which an uncontrolled search path is used to load a node module, which may lead to code execution, denial of service, escalation of privileges, and information disclosure.
-</code>
-
-- [CuckooEXE/CVE-2020-5977](https://github.com/CuckooEXE/CVE-2020-5977)
-
 ### CVE-2020-6286 (2020-07-14)
 
 <code>
