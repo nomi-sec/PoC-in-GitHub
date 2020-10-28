@@ -2305,6 +2305,9 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 
 - [megamagnus/cve-2020-15956](https://github.com/megamagnus/cve-2020-15956)
 
+### CVE-2020-15999
+- [marcinguy/CVE-2020-15999](https://github.com/marcinguy/CVE-2020-15999)
+
 ### CVE-2020-16152
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 
@@ -7031,7 +7034,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574)
 - [it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574)
 - [Malone5923/CVE-2018-6574-go-get-RCE](https://github.com/Malone5923/CVE-2018-6574-go-get-RCE)
-- [l4rm4nd/CVE-2018-6574](https://github.com/l4rm4nd/CVE-2018-6574)
 - [shivam18u/CVE-2018-6574](https://github.com/shivam18u/CVE-2018-6574)
 - [illnino/CVE-2018-6574](https://github.com/illnino/CVE-2018-6574)
 - [TakuCoder/CVE-2018-6574](https://github.com/TakuCoder/CVE-2018-6574)
