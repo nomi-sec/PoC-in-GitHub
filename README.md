@@ -2171,8 +2171,10 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [jas502n/CVE-2020-14882](https://github.com/jas502n/CVE-2020-14882)
 - [s1kr10s/CVE-2020-14882](https://github.com/s1kr10s/CVE-2020-14882)
 - [Umarovm/McMaster-University-0-day-Blind-Command-Injection](https://github.com/Umarovm/McMaster-University-0-day-Blind-Command-Injection)
+- [RedTeamWing/CVE-2020-14882](https://github.com/RedTeamWing/CVE-2020-14882)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -2640,6 +2642,9 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 
 ### CVE-2020-27199
 - [9lyph/CVE-2020-27199](https://github.com/9lyph/CVE-2020-27199)
+
+### CVE-2020-27747
+- [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
