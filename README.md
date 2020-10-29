@@ -2175,6 +2175,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [s1kr10s/CVE-2020-14882](https://github.com/s1kr10s/CVE-2020-14882)
 - [Umarovm/McMaster-University-0-day-Blind-Command-Injection](https://github.com/Umarovm/McMaster-University-0-day-Blind-Command-Injection)
 - [RedTeamWing/CVE-2020-14882](https://github.com/RedTeamWing/CVE-2020-14882)
+- [0thm4n3/cve-2020-14882](https://github.com/0thm4n3/cve-2020-14882)
 
 ### CVE-2020-14947 (2020-06-30)
 
