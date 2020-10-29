@@ -217,6 +217,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [w4fz5uck5/cve-2020-0688-webshell-upload-technique](https://github.com/w4fz5uck5/cve-2020-0688-webshell-upload-technique)
 - [murataydemir/CVE-2020-0688](https://github.com/murataydemir/CVE-2020-0688)
 - [zyn3rgy/ecp_slap](https://github.com/zyn3rgy/ecp_slap)
+- [SLSteff/CVE-2020-0688-Scanner](https://github.com/SLSteff/CVE-2020-0688-Scanner)
 
 ### CVE-2020-0708 (2020-02-11)
 
@@ -2176,6 +2177,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [Umarovm/McMaster-University-0-day-Blind-Command-Injection](https://github.com/Umarovm/McMaster-University-0-day-Blind-Command-Injection)
 - [RedTeamWing/CVE-2020-14882](https://github.com/RedTeamWing/CVE-2020-14882)
 - [0thm4n3/cve-2020-14882](https://github.com/0thm4n3/cve-2020-14882)
+- [wsfengfan/cve-2020-14882](https://github.com/wsfengfan/cve-2020-14882)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -2644,7 +2646,12 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 ### CVE-2020-27199
 - [9lyph/CVE-2020-27199](https://github.com/9lyph/CVE-2020-27199)
 
-### CVE-2020-27747
+### CVE-2020-27747 (2020-10-29)
+
+<code>
+An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the user of the system has assigned himself a PIN code for entering from a mobile device using the built-in generator (4 digits), a remote attacker has the opportunity to conduct a brute force attack on this PIN code. As result, remote attacker retrieves all passwords from another systems, available for affected account.
+</code>
+
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
 
 ### CVE-2020-72381
