@@ -2178,6 +2178,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [RedTeamWing/CVE-2020-14882](https://github.com/RedTeamWing/CVE-2020-14882)
 - [0thm4n3/cve-2020-14882](https://github.com/0thm4n3/cve-2020-14882)
 - [wsfengfan/cve-2020-14882](https://github.com/wsfengfan/cve-2020-14882)
+- [alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -2653,6 +2654,14 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 </code>
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
+
+### CVE-2020-27976 (2020-10-28)
+
+<code>
+osCommerce Phoenix CE before 1.0.5.4 allows OS command injection remotely. Within admin/mail.php, a from POST parameter can be passed to the application. This affects the PHP mail function, and the sendmail -f option.
+</code>
+
+- [k0rnh0li0/CVE-2020-27976](https://github.com/k0rnh0li0/CVE-2020-27976)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
