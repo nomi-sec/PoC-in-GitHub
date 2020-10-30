@@ -2179,6 +2179,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [0thm4n3/cve-2020-14882](https://github.com/0thm4n3/cve-2020-14882)
 - [wsfengfan/cve-2020-14882](https://github.com/wsfengfan/cve-2020-14882)
 - [alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882)
+- [sickwell/CVE-2020-14882](https://github.com/sickwell/CVE-2020-14882)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -5656,6 +5657,7 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [gsheller/Solr_CVE-2019-17558](https://github.com/gsheller/Solr_CVE-2019-17558)
+- [hunter-404/Solr-CVE-2019-17558](https://github.com/hunter-404/Solr-CVE-2019-17558)
 
 ### CVE-2019-17564 (2020-04-01)
 
