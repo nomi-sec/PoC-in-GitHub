@@ -4435,6 +4435,7 @@ An issue was discovered in CutePHP CuteNews 2.1.2. An attacker can infiltrate th
 
 - [CRFSlick/CVE-2019-11447-POC](https://github.com/CRFSlick/CVE-2019-11447-POC)
 - [mt-code/CVE-2019-11447](https://github.com/mt-code/CVE-2019-11447)
+- [khuntor/CVE-2019-11447-EXP](https://github.com/khuntor/CVE-2019-11447-EXP)
 
 ### CVE-2019-11477 (2019-06-18)
 
