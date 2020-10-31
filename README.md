@@ -2180,6 +2180,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [wsfengfan/cve-2020-14882](https://github.com/wsfengfan/cve-2020-14882)
 - [alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882)
 - [sickwell/CVE-2020-14882](https://github.com/sickwell/CVE-2020-14882)
+- [GGyao/CVE-2020-14882](https://github.com/GGyao/CVE-2020-14882)
 
 ### CVE-2020-14947 (2020-06-30)
 
