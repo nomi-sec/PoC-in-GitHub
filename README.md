@@ -1980,6 +1980,14 @@ A vulnerability in the web-based management interface of RAD SecFlow-1v os-image
 
 - [UrielYochpaz/CVE-2020-13259](https://github.com/UrielYochpaz/CVE-2020-13259)
 
+### CVE-2020-13277 (2020-06-19)
+
+<code>
+An authorization issue in the mirroring logic allowed read access to private repositories in GitLab CE/EE 10.6 and later through 13.0.5
+</code>
+
+- [lyy289065406/CVE-2020-13277](https://github.com/lyy289065406/CVE-2020-13277)
+
 ### CVE-2020-13424 (2020-05-23)
 
 <code>
@@ -15794,14 +15802,6 @@ Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial o
 
 - [alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200)
 
-### CVE-2002-0201 (2002-05-03)
-
-<code>
-Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
-</code>
-
-- [alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201)
-
 ### CVE-2002-0288 (2002-05-03)
 
 <code>
@@ -15833,14 +15833,6 @@ Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to rea
 </code>
 
 - [alt3kx/CVE-2002-0347](https://github.com/alt3kx/CVE-2002-0347)
-
-### CVE-2002-0348 (2002-05-03)
-
-<code>
-service.cgi in Cobalt RAQ 4 allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long service argument.
-</code>
-
-- [alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348)
 
 ### CVE-2002-0448 (2002-06-11)
 
