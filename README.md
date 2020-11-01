@@ -2189,6 +2189,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882)
 - [sickwell/CVE-2020-14882](https://github.com/sickwell/CVE-2020-14882)
 - [GGyao/CVE-2020-14882](https://github.com/GGyao/CVE-2020-14882)
+- [ludy-dev/Weblogic_Unauthorized-bypass-RCE](https://github.com/ludy-dev/Weblogic_Unauthorized-bypass-RCE)
 
 ### CVE-2020-14947 (2020-06-30)
 
