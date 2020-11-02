@@ -2061,6 +2061,14 @@ Apache Shiro before 1.6.0, when using Apache Shiro, a specially crafted HTTP req
 - [lyy289065406/CVE-2020-13933](https://github.com/lyy289065406/CVE-2020-13933)
 - [Kamimuka/cve-2020-13933](https://github.com/Kamimuka/cve-2020-13933)
 
+### CVE-2020-13935 (2020-07-14)
+
+<code>
+The payload length in a WebSocket frame was not correctly validated in Apache Tomcat 10.0.0-M1 to 10.0.0-M6, 9.0.0.M1 to 9.0.36, 8.5.0 to 8.5.56 and 7.0.27 to 7.0.104. Invalid payload lengths could trigger an infinite loop. Multiple requests with invalid payload lengths could lead to a denial of service.
+</code>
+
+- [RedTeamPentesting/CVE-2020-13935](https://github.com/RedTeamPentesting/CVE-2020-13935)
+
 ### CVE-2020-13996 (2020-06-09)
 
 <code>
