@@ -2658,6 +2658,9 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 ### CVE-2020-27199
 - [9lyph/CVE-2020-27199](https://github.com/9lyph/CVE-2020-27199)
 
+### CVE-2020-27358
+- [seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359)
+
 ### CVE-2020-27747 (2020-10-29)
 
 <code>
@@ -5624,7 +5627,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [tripleoctopus/Bludit-CVE-2019-17240-Fork](https://github.com/tripleoctopus/Bludit-CVE-2019-17240-Fork)
 - [Noroh4xy/CVE-2019-17240](https://github.com/Noroh4xy/CVE-2019-17240)
-- [ColdFusionX/CVE-2019-17240-Exploit-Bludit-BF-bypass](https://github.com/ColdFusionX/CVE-2019-17240-Exploit-Bludit-BF-bypass)
+- [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
 
 ### CVE-2019-17424 (2019-10-22)
 
