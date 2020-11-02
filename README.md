@@ -5446,7 +5446,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [west-tek/CVE-2019-16113-PoC](https://github.com/west-tek/CVE-2019-16113-PoC)
-- [persian64/CVE-2019-16113](https://github.com/persian64/CVE-2019-16113)
+- [Noroh4xy/CVE-2019-16113](https://github.com/Noroh4xy/CVE-2019-16113)
 
 ### CVE-2019-16278 (2019-10-14)
 
@@ -5623,7 +5623,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [tripleoctopus/Bludit-CVE-2019-17240-Fork](https://github.com/tripleoctopus/Bludit-CVE-2019-17240-Fork)
-- [persian64/CVE-2019-17240](https://github.com/persian64/CVE-2019-17240)
+- [Noroh4xy/CVE-2019-17240](https://github.com/Noroh4xy/CVE-2019-17240)
 - [ColdFusionX/CVE-2019-17240-Exploit-Bludit-BF-bypass](https://github.com/ColdFusionX/CVE-2019-17240-Exploit-Bludit-BF-bypass)
 
 ### CVE-2019-17424 (2019-10-22)
