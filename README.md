@@ -633,6 +633,14 @@ Server or client applications that call the SSL_check_chain() function during or
 
 - [irsl/CVE-2020-1967](https://github.com/irsl/CVE-2020-1967)
 
+### CVE-2020-1983 (2020-04-22)
+
+<code>
+A use after free vulnerability in ip_reass() in ip_input.c of libslirp 4.2.0 and prior releases allows crafted packets to cause a denial of service.
+</code>
+
+- [wuzuowei/CVE-2020-1983](https://github.com/wuzuowei/CVE-2020-1983)
+
 ### CVE-2020-2034 (2020-07-08)
 
 <code>
@@ -1540,7 +1548,7 @@ This issue was addressed by encrypting communications over the network to device
 ### CVE-2020-10135 (2020-05-19)
 
 <code>
-Legacy pairing and secure-connections pairing authentication in Bluetooth® BR/EDR Core Specification v5.2 and earlier may allow an unauthenticated user to complete authentication without pairing credentials via adjacent access. An unauthenticated, adjacent attacker could impersonate a Bluetooth BR/EDR master or slave to pair with a previously paired remote device to successfully complete the authentication procedure without knowing the link key.
+Legacy pairing and secure-connections pairing authentication in Bluetooth BR/EDR Core Specification v5.2 and earlier may allow an unauthenticated user to complete authentication without pairing credentials via adjacent access. An unauthenticated, adjacent attacker could impersonate a Bluetooth BR/EDR master or slave to pair with a previously paired remote device to successfully complete the authentication procedure without knowing the link key.
 </code>
 
 - [marcinguy/CVE-2020-10135-BIAS](https://github.com/marcinguy/CVE-2020-10135-BIAS)
@@ -2666,7 +2674,12 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 ### CVE-2020-27199
 - [9lyph/CVE-2020-27199](https://github.com/9lyph/CVE-2020-27199)
 
-### CVE-2020-27358
+### CVE-2020-27358 (2020-10-31)
+
+<code>
+An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's CSV feature (that allows users to export their conversation threads as CSV) allows non-privileged users to export one another's conversation threads by changing the thread_id parameter in the request to the endpoint Messenger/messenger_download_csv.php?title=Hey&amp;thread_id={THREAD_ID}.
+</code>
+
 - [seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359)
 
 ### CVE-2020-27747 (2020-10-29)
