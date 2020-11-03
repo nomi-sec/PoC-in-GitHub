@@ -2347,7 +2347,7 @@ ActiveMediaServer.exe in ACTi NVR3 Standard Server 3.0.12.42 allows remote unaut
 
 - [megamagnus/cve-2020-15956](https://github.com/megamagnus/cve-2020-15956)
 
-### CVE-2020-15999 (-)
+### CVE-2020-15999 (2020-11-02)
 
 <code>
 Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -3860,6 +3860,9 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
+
+### CVE-2019-7356
+- [ngpentest007/CVE-2019-7356](https://github.com/ngpentest007/CVE-2019-7356)
 
 ### CVE-2019-7482 (2019-12-18)
 
