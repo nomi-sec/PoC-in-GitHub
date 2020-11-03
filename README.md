@@ -2204,8 +2204,10 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [wsfengfan/cve-2020-14882](https://github.com/wsfengfan/cve-2020-14882)
 - [alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882)
 - [sickwell/CVE-2020-14882](https://github.com/sickwell/CVE-2020-14882)
-- [GGyao/CVE-2020-14882](https://github.com/GGyao/CVE-2020-14882)
+- [GGyao/CVE-2020-14882_POC](https://github.com/GGyao/CVE-2020-14882_POC)
 - [ludy-dev/Weblogic_Unauthorized-bypass-RCE](https://github.com/ludy-dev/Weblogic_Unauthorized-bypass-RCE)
+- [GGyao/CVE-2020-14882_ALL](https://github.com/GGyao/CVE-2020-14882_ALL)
+- [ovProphet/CVE-2020-14882-checker](https://github.com/ovProphet/CVE-2020-14882-checker)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -4459,15 +4461,6 @@ HARMAN AMX MVP5150 v2.87.13 devices allow remote OS Command Injection.
 </code>
 
 - [Insecurities/CVE-2019-11224](https://github.com/Insecurities/CVE-2019-11224)
-
-### CVE-2019-11248 (2019-08-28)
-
-<code>
-The debugging endpoint /debug/pprof is exposed over the unauthenticated Kubelet healthz port. The go pprof endpoint is exposed over the Kubelet's healthz port. This debugging endpoint can potentially leak sensitive information such as internal Kubelet memory addresses and configuration, or for limited denial of service. Versions prior to 1.15.0, 1.14.4, 1.13.8, and 1.12.10 are affected. The issue is of medium severity, but not exposed by the default configuration.
-</code>
-
-- [koharin/cve-2019-11248-after](https://github.com/koharin/cve-2019-11248-after)
-- [koharin/cve-2019-11248-before](https://github.com/koharin/cve-2019-11248-before)
 
 ### CVE-2019-11358 (2019-04-19)
 
@@ -7125,6 +7118,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [lsnakazone/cve-2018-6574](https://github.com/lsnakazone/cve-2018-6574)
 - [pswalia2u/CVE-2018-6574](https://github.com/pswalia2u/CVE-2018-6574)
 - [jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC)
+- [Yashrk078/Test_CVE-2018-6574](https://github.com/Yashrk078/Test_CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -9492,10 +9486,6 @@ In all Kubernetes versions prior to v1.10.11, v1.11.5, and v1.12.3, incorrect ha
 - [imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install)
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
 - [mdnix/cve-2018-1002105](https://github.com/mdnix/cve-2018-1002105)
-- [koharin/cve-2018-1002105-after-patch](https://github.com/koharin/cve-2018-1002105-after-patch)
-- [koharin/cve-2018-1002105-before-patch](https://github.com/koharin/cve-2018-1002105-before-patch)
-- [koharin/cve-2018-1002105-after](https://github.com/koharin/cve-2018-1002105-after)
-- [koharin/cve-2018-1002105-before](https://github.com/koharin/cve-2018-1002105-before)
 
 ### CVE-2018-1999002 (2018-07-23)
 
