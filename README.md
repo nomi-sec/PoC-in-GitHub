@@ -10696,6 +10696,14 @@ Cross-site scripting (XSS) vulnerability in Blackcat CMS 1.2 allows remote authe
 
 - [faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc](https://github.com/faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc)
 
+### CVE-2017-9769 (2017-08-02)
+
+<code>
+A specially crafted IOCTL can be issued to the rzpnk.sys driver in Razer Synapse 2.20.15.1104 that is forwarded to ZwOpenProcess allowing a handle to be opened to an arbitrary process.
+</code>
+
+- [kkent030315/CVE-2017-9769](https://github.com/kkent030315/CVE-2017-9769)
+
 ### CVE-2017-9779 (2017-09-07)
 
 <code>
