@@ -2679,6 +2679,14 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 
 - [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
 
+### CVE-2020-27194 (2020-10-16)
+
+<code>
+An issue was discovered in the Linux kernel before 5.8.15. scalar32_min_max_or in kernel/bpf/verifier.c mishandles bounds tracking during use of 64-bit values, aka CID-5b9fbeb75b6a.
+</code>
+
+- [willinin/CVE-2020-27194-exp](https://github.com/willinin/CVE-2020-27194-exp)
+
 ### CVE-2020-27199
 - [9lyph/CVE-2020-27199](https://github.com/9lyph/CVE-2020-27199)
 
