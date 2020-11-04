@@ -2698,6 +2698,9 @@ An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's 
 
 - [seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359)
 
+### CVE-2020-27688
+- [matthiasmaes/CVE-2020-27688](https://github.com/matthiasmaes/CVE-2020-27688)
+
 ### CVE-2020-27747 (2020-10-29)
 
 <code>
@@ -3872,7 +3875,12 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 
-### CVE-2019-7356
+### CVE-2019-7356 (2020-11-04)
+
+<code>
+Subrion CMS v4.2.1 allows XSS via the panel/phrases/ VALUE parameter.
+</code>
+
 - [ngpentest007/CVE-2019-7356](https://github.com/ngpentest007/CVE-2019-7356)
 
 ### CVE-2019-7482 (2019-12-18)
@@ -12442,6 +12450,14 @@ Buffer overflow in Cisco Adaptive Security Appliance (ASA) Software through 9.4.
 </code>
 
 - [RiskSense-Ops/CVE-2016-6366](https://github.com/RiskSense-Ops/CVE-2016-6366)
+
+### CVE-2016-6415 (2016-09-18)
+
+<code>
+The server IKEv1 implementation in Cisco IOS 12.2 through 12.4 and 15.0 through 15.6, IOS XE through 3.18S, IOS XR 4.3.x and 5.0.x through 5.2.x, and PIX before 7.0 allows remote attackers to obtain sensitive information from device memory via a Security Association (SA) negotiation request, aka Bug IDs CSCvb29204 and CSCvb36055 or BENIGNCERTAIN.
+</code>
+
+- [3ndG4me/CVE-2016-6415-BenignCertain-Monitor](https://github.com/3ndG4me/CVE-2016-6415-BenignCertain-Monitor)
 
 ### CVE-2016-6515 (2016-08-07)
 
