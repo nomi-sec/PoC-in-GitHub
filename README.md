@@ -1721,6 +1721,14 @@ An issue was discovered on Tata Sonata Smart SF Rush 1.12 devices. It has been i
 
 - [the-girl-who-lived/CVE-2020-11539](https://github.com/the-girl-who-lived/CVE-2020-11539)
 
+### CVE-2020-11547 (2020-04-04)
+
+<code>
+PRTG Network Monitor before 20.1.57.1745 allows remote unauthenticated attackers to obtain information about probes running or the server itself (CPU usage, memory, Windows version, and internal statistics) via an HTTP request, as demonstrated by type=probes to login.htm or index.htm.
+</code>
+
+- [ch-rigu/CVE-2020-11547--PRTG-Network-Monitor-Information-Disclosure](https://github.com/ch-rigu/CVE-2020-11547--PRTG-Network-Monitor-Information-Disclosure)
+
 ### CVE-2020-11579 (2020-09-03)
 
 <code>
@@ -2209,6 +2217,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [GGyao/CVE-2020-14882_ALL](https://github.com/GGyao/CVE-2020-14882_ALL)
 - [ovProphet/CVE-2020-14882-checker](https://github.com/ovProphet/CVE-2020-14882-checker)
 - [NS-Sp4ce/CVE-2020-14882](https://github.com/NS-Sp4ce/CVE-2020-14882)
+- [mmioimm/cve-2020-14882](https://github.com/mmioimm/cve-2020-14882)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -2568,6 +2577,12 @@ In SourceCodester Online Bus Booking System 1.0, there is Authentication bypass 
 
 - [Ko-kn3t/CVE-2020-25273](https://github.com/Ko-kn3t/CVE-2020-25273)
 
+### CVE-2020-25398
+- [h3llraiser/CVE-2020-25398](https://github.com/h3llraiser/CVE-2020-25398)
+
+### CVE-2020-25399
+- [h3llraiser/CVE-2020-25399](https://github.com/h3llraiser/CVE-2020-25399)
+
 ### CVE-2020-25487 (2020-09-22)
 
 <code>
@@ -2698,7 +2713,12 @@ An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's 
 
 - [seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359)
 
-### CVE-2020-27688
+### CVE-2020-27688 (-)
+
+<code>
+RVToolsPasswordEncryption.exe in RVTools 4.0.6 allows users to encrypt passwords to be used in the configuration files. This encryption used a static IV and key, and thus using the Decrypt() method from VISKD.cs from the RVTools.exe executable allows for decrypting the encrypted passwords. The accounts used in the configuration files have access to vSphere instances.
+</code>
+
 - [matthiasmaes/CVE-2020-27688](https://github.com/matthiasmaes/CVE-2020-27688)
 
 ### CVE-2020-27747 (2020-10-29)
@@ -2709,7 +2729,12 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
 
-### CVE-2020-27955
+### CVE-2020-27955 (-)
+
+<code>
+Git LFS 2.12.0 allows Remote Code Execution.
+</code>
+
 - [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955)
 - [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go)
 
