@@ -500,7 +500,7 @@ An elevation of privilege vulnerability exists in the way that the Windows Walle
 An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC), aka 'Netlogon Elevation of Privilege Vulnerability'.
 </code>
 
-- [mingchen-script/CVE-2020-1472-visualizer](https://github.com/mingchen-script/CVE-2020-1472-visualizer)
+- [Tobey123/CVE-2020-1472-visualizer](https://github.com/Tobey123/CVE-2020-1472-visualizer)
 - [SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472)
 - [cube0x0/CVE-2020-1472](https://github.com/cube0x0/CVE-2020-1472)
 - [dirkjanm/CVE-2020-1472](https://github.com/dirkjanm/CVE-2020-1472)
@@ -540,6 +540,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [maikelnight/zerologon](https://github.com/maikelnight/zerologon)
 - [CPO-EH/CVE-2020-1472_ZeroLogonChecker](https://github.com/CPO-EH/CVE-2020-1472_ZeroLogonChecker)
 - [puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472)
+- [mingchen-script/CVE-2020-1472-visualizer](https://github.com/mingchen-script/CVE-2020-1472-visualizer)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -1395,6 +1396,14 @@ A vulnerability exists that could allow the execution of unauthorized code or op
 
 - [norrismw/CVE-2020-9047](https://github.com/norrismw/CVE-2020-9047)
 
+### CVE-2020-9273 (2020-02-20)
+
+<code>
+In ProFTPD 1.3.7, it is possible to corrupt the memory pool by interrupting the data transfer channel. This triggers a use-after-free in alloc_pool in pool.c, and possible remote code execution.
+</code>
+
+- [ptef/CVE-2020-9273](https://github.com/ptef/CVE-2020-9273)
+
 ### CVE-2020-9283 (2020-02-20)
 
 <code>
@@ -1512,6 +1521,14 @@ An issue was discovered in chat.php in LiveZilla Live Chat 8.0.1.3 (Helpdesk). A
 </code>
 
 - [ari034/CVE-2020-9758](https://github.com/ari034/CVE-2020-9758)
+
+### CVE-2020-9767 (2020-08-14)
+
+<code>
+A vulnerability related to Dynamic-link Library (“DLL”) loading in the Zoom Sharing Service would allow an attacker who had local access to a machine on which the service was running with elevated privileges to elevate their system privileges as well through use of a malicious DLL. Zoom addressed this issue, which only applies to Windows users, in the 5.0.4 client release.
+</code>
+
+- [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
 
 ### CVE-2020-9768 (2020-04-01)
 
@@ -2290,6 +2307,7 @@ In Action View before versions 5.2.4.4 and 6.0.3.3 there is a potential Cross-Si
 Nette versions before 2.0.19, 2.1.13, 2.2.10, 2.3.14, 2.4.16, 3.0.6 are vulnerable to an code injection attack by passing specially formed parameters to URL that may possibly leading to RCE. Nette is a PHP/Composer MVC Framework.
 </code>
 
+- [Langriklol/CVE-2020-15227](https://github.com/Langriklol/CVE-2020-15227)
 - [hu4wufu/CVE-2020-15227](https://github.com/hu4wufu/CVE-2020-15227)
 
 ### CVE-2020-15367 (2020-07-07)
@@ -2577,10 +2595,20 @@ In SourceCodester Online Bus Booking System 1.0, there is Authentication bypass 
 
 - [Ko-kn3t/CVE-2020-25273](https://github.com/Ko-kn3t/CVE-2020-25273)
 
-### CVE-2020-25398
+### CVE-2020-25398 (2020-11-05)
+
+<code>
+CSV Injection exists in InterMind iMind Server through 3.13.65 via the csv export functionality.
+</code>
+
 - [h3llraiser/CVE-2020-25398](https://github.com/h3llraiser/CVE-2020-25398)
 
-### CVE-2020-25399
+### CVE-2020-25399 (2020-11-05)
+
+<code>
+Stored XSS in InterMind iMind Server through 3.13.65 allows any user to hijack another user's session by sending a malicious file in the chat.
+</code>
+
 - [h3llraiser/CVE-2020-25399](https://github.com/h3llraiser/CVE-2020-25399)
 
 ### CVE-2020-25487 (2020-09-22)
@@ -2713,7 +2741,7 @@ An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's 
 
 - [seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359)
 
-### CVE-2020-27688 (-)
+### CVE-2020-27688 (2020-11-05)
 
 <code>
 RVToolsPasswordEncryption.exe in RVTools 4.0.6 allows users to encrypt passwords to be used in the configuration files. This encryption used a static IV and key, and thus using the Decrypt() method from VISKD.cs from the RVTools.exe executable allows for decrypting the encrypted passwords. The accounts used in the configuration files have access to vSphere instances.
@@ -2729,7 +2757,7 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
 
-### CVE-2020-27955 (-)
+### CVE-2020-27955 (2020-11-05)
 
 <code>
 Git LFS 2.12.0 allows Remote Code Execution.
@@ -5843,7 +5871,7 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [Plazmaz/CVE-2019-18634](https://github.com/Plazmaz/CVE-2019-18634)
 - [saleemrashid/sudo-cve-2019-18634](https://github.com/saleemrashid/sudo-cve-2019-18634)
 - [N1et/CVE-2019-18634](https://github.com/N1et/CVE-2019-18634)
-- [jeandelboux/CVE-2019-18634](https://github.com/jeandelboux/CVE-2019-18634)
+- [ptef/CVE-2019-18634](https://github.com/ptef/CVE-2019-18634)
 
 ### CVE-2019-18683 (2019-11-04)
 
@@ -15510,25 +15538,8 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
 </code>
 
-- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
-
-### CVE-2008-0228 (2008-01-10)
-
-<code>
-Cross-site request forgery (CSRF) vulnerability in apply.cgi in the Linksys WRT54GL Wireless-G Broadband Router with firmware 4.30.9 allows remote attackers to perform actions as administrators.
-</code>
-
-- [SpiderLabs/TWSL2011-007_iOS_code_workaround](https://github.com/SpiderLabs/TWSL2011-007_iOS_code_workaround)
-
-### CVE-2008-1611 (2008-04-01)
-
-<code>
-Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote attackers to cause a denial of service or execute arbitrary code via a long filename in a read or write request.
-</code>
-
-- [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
 
 ### CVE-2008-1613 (2008-04-21)
 
@@ -15578,14 +15589,6 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
 - [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
-
-### CVE-2008-4687 (2008-10-22)
-
-<code>
-manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
-</code>
-
-- [nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit)
 
 ### CVE-2008-5416 (2008-12-10)
 
