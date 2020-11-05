@@ -2709,6 +2709,10 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
 
+### CVE-2020-27955
+- [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955)
+- [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go)
+
 ### CVE-2020-27976 (2020-10-28)
 
 <code>
