@@ -507,7 +507,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [VoidSec/CVE-2020-1472](https://github.com/VoidSec/CVE-2020-1472)
 - [risksense/zerologon](https://github.com/risksense/zerologon)
 - [bb00/zer0dump](https://github.com/bb00/zer0dump)
-- [Kamimuka/CVE-2020-1472](https://github.com/Kamimuka/CVE-2020-1472)
+- [0xkami/CVE-2020-1472](https://github.com/0xkami/CVE-2020-1472)
 - [NAXG/CVE-2020-1472](https://github.com/NAXG/CVE-2020-1472)
 - [s0wr0b1ndef/CVE-2020-1472](https://github.com/s0wr0b1ndef/CVE-2020-1472)
 - [harshil-shah004/zerologon-CVE-2020-1472](https://github.com/harshil-shah004/zerologon-CVE-2020-1472)
@@ -2092,7 +2092,7 @@ Apache Shiro before 1.6.0, when using Apache Shiro, a specially crafted HTTP req
 </code>
 
 - [lyy289065406/CVE-2020-13933](https://github.com/lyy289065406/CVE-2020-13933)
-- [Kamimuka/cve-2020-13933](https://github.com/Kamimuka/cve-2020-13933)
+- [0xkami/cve-2020-13933](https://github.com/0xkami/cve-2020-13933)
 
 ### CVE-2020-13935 (2020-07-14)
 
@@ -2202,7 +2202,7 @@ A flaw was found in the Linux kernel before 5.9-rc4. Memory corruption can be ex
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP, T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [Kamimuka/cve-2020-14644](https://github.com/Kamimuka/cve-2020-14644)
+- [0xkami/cve-2020-14644](https://github.com/0xkami/cve-2020-14644)
 
 ### CVE-2020-14645 (2020-07-15)
 
@@ -2291,7 +2291,7 @@ Yii 2 (yiisoft/yii2) before version 2.0.38 is vulnerable to remote code executio
 </code>
 
 - [Maskhe/CVE-2020-15148-bypasses](https://github.com/Maskhe/CVE-2020-15148-bypasses)
-- [Kamimuka/cve-2020-15148](https://github.com/Kamimuka/cve-2020-15148)
+- [0xkami/cve-2020-15148](https://github.com/0xkami/cve-2020-15148)
 
 ### CVE-2020-15169 (2020-09-11)
 
@@ -2518,7 +2518,7 @@ An issue was discovered in includes/webconsole.php in RaspAP 2.5. With authentic
 FasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPDataSource (aka Anteros-DBCP).
 </code>
 
-- [Kamimuka/cve-2020-24616-poc](https://github.com/Kamimuka/cve-2020-24616-poc)
+- [0xkami/cve-2020-24616-poc](https://github.com/0xkami/cve-2020-24616-poc)
 
 ### CVE-2020-24765 (2020-10-20)
 
@@ -15538,8 +15538,25 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
 </code>
 
+- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
+
+### CVE-2008-0228 (2008-01-10)
+
+<code>
+Cross-site request forgery (CSRF) vulnerability in apply.cgi in the Linksys WRT54GL Wireless-G Broadband Router with firmware 4.30.9 allows remote attackers to perform actions as administrators.
+</code>
+
+- [SpiderLabs/TWSL2011-007_iOS_code_workaround](https://github.com/SpiderLabs/TWSL2011-007_iOS_code_workaround)
+
+### CVE-2008-1611 (2008-04-01)
+
+<code>
+Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote attackers to cause a denial of service or execute arbitrary code via a long filename in a read or write request.
+</code>
+
+- [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
 
 ### CVE-2008-1613 (2008-04-21)
 
@@ -15589,6 +15606,14 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
 - [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
+
+### CVE-2008-4687 (2008-10-22)
+
+<code>
+manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
+</code>
+
+- [nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit)
 
 ### CVE-2008-5416 (2008-12-10)
 
