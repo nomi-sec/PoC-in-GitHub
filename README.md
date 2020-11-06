@@ -322,6 +322,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [rsmudge/CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)
 - [aloswoya/CVE-2020-0796-cobaltstrike-cna](https://github.com/aloswoya/CVE-2020-0796-cobaltstrike-cna)
 - [codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-)
+- [AaronWilsonGrylls/CVE-2020-0796-POC](https://github.com/AaronWilsonGrylls/CVE-2020-0796-POC)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -3005,6 +3006,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [eastmountyxz/CVE-2019-0708-Windows](https://github.com/eastmountyxz/CVE-2019-0708-Windows)
 - [JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708)
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
+- [AaronWilsonGrylls/CVE-2019-0708-POC](https://github.com/AaronWilsonGrylls/CVE-2019-0708-POC)
 
 ### CVE-2019-0709 (2019-06-12)
 
