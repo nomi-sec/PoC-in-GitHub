@@ -1115,6 +1115,9 @@ An issue was discovered in FusionAuth before 1.11.0. An authenticated user, allo
 - [Pikaqi/cve-2020-7799](https://github.com/Pikaqi/cve-2020-7799)
 - [ianxtianxt/CVE-2020-7799](https://github.com/ianxtianxt/CVE-2020-7799)
 
+### CVE-2020-7897
+- [mooneee/cve-2020-7897](https://github.com/mooneee/cve-2020-7897)
+
 ### CVE-2020-7931 (2020-01-23)
 
 <code>
