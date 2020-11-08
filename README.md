@@ -2023,7 +2023,6 @@ An authorization issue in the mirroring logic allowed read access to private rep
 </code>
 
 - [lyy289065406/CVE-2020-13277](https://github.com/lyy289065406/CVE-2020-13277)
-- [lyy289065406/CVE-2020-13277-poc](https://github.com/lyy289065406/CVE-2020-13277-poc)
 
 ### CVE-2020-13424 (2020-05-23)
 
