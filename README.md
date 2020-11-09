@@ -2795,6 +2795,9 @@ SuiteCRM before 7.11.17 is vulnerable to remote code execution via the system se
 
 - [mcorybillington/SuiteCRM-RCE](https://github.com/mcorybillington/SuiteCRM-RCE)
 
+### CVE-2020-28351
+- [dievus/CVE-2020-28351](https://github.com/dievus/CVE-2020-28351)
+
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
 
