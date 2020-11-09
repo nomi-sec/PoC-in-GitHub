@@ -1177,7 +1177,12 @@ A vulnerability in the improper handling of symbolic links in Bitdefender Antivi
 
 - [RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP](https://github.com/RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP)
 
-### CVE-2020-8150
+### CVE-2020-8150 (-)
+
+<code>
+A cryptographic issue in Nextcloud Server 19.0.1 allowed an attacker to downgrade the encryption scheme and break the integrity of encrypted files.
+</code>
+
 - [geffner/CVE-2020-8150](https://github.com/geffner/CVE-2020-8150)
 
 ### CVE-2020-8152
@@ -2249,6 +2254,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [NS-Sp4ce/CVE-2020-14882](https://github.com/NS-Sp4ce/CVE-2020-14882)
 - [mmioimm/cve-2020-14882](https://github.com/mmioimm/cve-2020-14882)
 - [QmF0c3UK/CVE-2020-14882](https://github.com/QmF0c3UK/CVE-2020-14882)
+- [murataydemir/CVE-2020-14882](https://github.com/murataydemir/CVE-2020-14882)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -2743,6 +2749,7 @@ An issue was discovered in the Linux kernel before 5.8.15. scalar32_min_max_or i
 </code>
 
 - [willinin/CVE-2020-27194-exp](https://github.com/willinin/CVE-2020-27194-exp)
+- [xmzyshypnc/CVE-2020-27194](https://github.com/xmzyshypnc/CVE-2020-27194)
 
 ### CVE-2020-27199
 - [9lyph/CVE-2020-27199](https://github.com/9lyph/CVE-2020-27199)
