@@ -2248,6 +2248,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [ovProphet/CVE-2020-14882-checker](https://github.com/ovProphet/CVE-2020-14882-checker)
 - [NS-Sp4ce/CVE-2020-14882](https://github.com/NS-Sp4ce/CVE-2020-14882)
 - [mmioimm/cve-2020-14882](https://github.com/mmioimm/cve-2020-14882)
+- [QmF0c3UK/CVE-2020-14882](https://github.com/QmF0c3UK/CVE-2020-14882)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -2795,7 +2796,12 @@ SuiteCRM before 7.11.17 is vulnerable to remote code execution via the system se
 
 - [mcorybillington/SuiteCRM-RCE](https://github.com/mcorybillington/SuiteCRM-RCE)
 
-### CVE-2020-28351
+### CVE-2020-28351 (2020-11-08)
+
+<code>
+The conferencing component on Mitel ShoreTel 19.46.1802.0 devices could allow an unauthenticated attacker to conduct a reflected cross-site scripting (XSS) attack (via the PATH_INFO to index.php) due to insufficient validation for the time_zone object in the HOME_MEETING&amp; page.
+</code>
+
 - [dievus/CVE-2020-28351](https://github.com/dievus/CVE-2020-28351)
 
 ### CVE-2020-72381
@@ -8492,6 +8498,7 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [Bilelxdz/Laravel-CVE-2018-15133](https://github.com/Bilelxdz/Laravel-CVE-2018-15133)
 - [Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader](https://github.com/Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader)
 - [iansangaji/laravel-rce-cve-2018-15133](https://github.com/iansangaji/laravel-rce-cve-2018-15133)
+- [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 
 ### CVE-2018-15365 (2018-09-28)
 
