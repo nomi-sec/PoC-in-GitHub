@@ -135,7 +135,7 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [gremwell/cve-2020-0601_poc](https://github.com/gremwell/cve-2020-0601_poc)
 - [bsides-rijeka/meetup-2-curveball](https://github.com/bsides-rijeka/meetup-2-curveball)
-- [NishantRanjantech/CVE-2020-0601-spoofkey](https://github.com/NishantRanjantech/CVE-2020-0601-spoofkey)
+- [exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey)
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 
 ### CVE-2020-0609 (2020-01-14)
@@ -1608,6 +1608,14 @@ An issue was discovered in Joomla! before 3.9.16. Various actions in com_templat
 
 - [HoangKien1020/CVE-2020-10238](https://github.com/HoangKien1020/CVE-2020-10238)
 
+### CVE-2020-10239 (2020-03-16)
+
+<code>
+An issue was discovered in Joomla! before 3.9.16. Incorrect Access Control in the SQL fieldtype of com_fields allows access for non-superadmin users.
+</code>
+
+- [HoangKien1020/CVE-2020-10239](https://github.com/HoangKien1020/CVE-2020-10239)
+
 ### CVE-2020-10558 (2020-03-20)
 
 <code>
@@ -1965,6 +1973,14 @@ OpenTrace, as used in COVIDSafe through v1.0.17, TraceTogether, ABTraceTogether,
 </code>
 
 - [alwentiu/COVIDSafe-CVE-2020-12856](https://github.com/alwentiu/COVIDSafe-CVE-2020-12856)
+
+### CVE-2020-12928 (2020-10-13)
+
+<code>
+A vulnerability in a dynamically loaded AMD driver in AMD Ryzen Master V15 may allow any authenticated user to escalate privileges to NT authority system.
+</code>
+
+- [ekknod/EC_PRO-LAN](https://github.com/ekknod/EC_PRO-LAN)
 
 ### CVE-2020-13094 (2020-05-18)
 
