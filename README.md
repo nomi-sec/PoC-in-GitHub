@@ -2515,6 +2515,14 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 - [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
+### CVE-2020-23968 (2020-11-10)
+
+<code>
+Ilex International Sign&amp;go Workstation Security Suite 7.1 allows elevation of privileges via a symlink attack on ProgramData\Ilex\S&amp;G\Logs\000-sngWSService1.log.
+</code>
+
+- [ricardojba/CVE-2020-23968-ILEX-SignGo-EoP](https://github.com/ricardojba/CVE-2020-23968-ILEX-SignGo-EoP)
+
 ### CVE-2020-24028 (2020-09-02)
 
 <code>
@@ -2787,6 +2795,14 @@ An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's 
 </code>
 
 - [seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359)
+
+### CVE-2020-27603 (2020-10-21)
+
+<code>
+BigBlueButton before 2.2.27 has an unsafe JODConverter setting in which LibreOffice document conversions can access external files.
+</code>
+
+- [hannob/CVE-2020-27603-bbb-libreoffice-poc](https://github.com/hannob/CVE-2020-27603-bbb-libreoffice-poc)
 
 ### CVE-2020-27688 (2020-11-05)
 
@@ -4004,7 +4020,12 @@ Subrion CMS v4.2.1 allows XSS via the panel/phrases/ VALUE parameter.
 
 - [ngpentest007/CVE-2019-7356](https://github.com/ngpentest007/CVE-2019-7356)
 
-### CVE-2019-7357
+### CVE-2019-7357 (2020-11-10)
+
+<code>
+Subrion CMS 4.2.1 has CSRF in panel/modules/plugins/. The attacker can remotely activate/deactivate the plugins.
+</code>
+
 - [ngpentest007/CVE-2019-7357](https://github.com/ngpentest007/CVE-2019-7357)
 
 ### CVE-2019-7482 (2019-12-18)
