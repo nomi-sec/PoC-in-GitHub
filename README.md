@@ -1352,6 +1352,7 @@ FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JN
 - [fairyming/CVE-2020-8840](https://github.com/fairyming/CVE-2020-8840)
 - [0nise/CVE-2020-8840](https://github.com/0nise/CVE-2020-8840)
 - [Blyth0He/CVE-2020-8840](https://github.com/Blyth0He/CVE-2020-8840)
+- [veraxy9821/CVE-2020-8840](https://github.com/veraxy9821/CVE-2020-8840)
 
 ### CVE-2020-8888
 - [SnipJoe/CVE-2020-8888](https://github.com/SnipJoe/CVE-2020-8888)
@@ -3986,6 +3987,9 @@ Subrion CMS v4.2.1 allows XSS via the panel/phrases/ VALUE parameter.
 </code>
 
 - [ngpentest007/CVE-2019-7356](https://github.com/ngpentest007/CVE-2019-7356)
+
+### CVE-2019-7357
+- [ngpentest007/CVE-2019-7357](https://github.com/ngpentest007/CVE-2019-7357)
 
 ### CVE-2019-7482 (2019-12-18)
 
@@ -11120,6 +11124,7 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882)
 - [littlebin404/CVE-2017-11882](https://github.com/littlebin404/CVE-2017-11882)
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
+- [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 
 ### CVE-2017-11907 (2017-12-12)
 
