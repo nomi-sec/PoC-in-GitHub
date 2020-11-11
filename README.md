@@ -1354,6 +1354,7 @@ FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JN
 - [fairyming/CVE-2020-8840](https://github.com/fairyming/CVE-2020-8840)
 - [0nise/CVE-2020-8840](https://github.com/0nise/CVE-2020-8840)
 - [Blyth0He/CVE-2020-8840](https://github.com/Blyth0He/CVE-2020-8840)
+- [veraxy9821/CVE-2020-8840](https://github.com/veraxy9821/CVE-2020-8840)
 
 ### CVE-2020-8888
 - [SnipJoe/CVE-2020-8888](https://github.com/SnipJoe/CVE-2020-8888)
@@ -2274,6 +2275,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [mmioimm/cve-2020-14882](https://github.com/mmioimm/cve-2020-14882)
 - [QmF0c3UK/CVE-2020-14882](https://github.com/QmF0c3UK/CVE-2020-14882)
 - [murataydemir/CVE-2020-14882](https://github.com/murataydemir/CVE-2020-14882)
+- [AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -2282,6 +2284,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 </code>
 
 - [murataydemir/CVE-2020-14883](https://github.com/murataydemir/CVE-2020-14883)
+- [B1anda0/CVE-2020-14883](https://github.com/B1anda0/CVE-2020-14883)
 
 ### CVE-2020-14947 (2020-06-30)
 
