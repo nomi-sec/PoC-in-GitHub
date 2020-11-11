@@ -3768,6 +3768,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
+- [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
 - [stillan00b/CVE-2019-5736](https://github.com/stillan00b/CVE-2019-5736)
 - [milloni/cve-2019-5736-exp](https://github.com/milloni/cve-2019-5736-exp)
 - [13paulmurith/Docker-Runc-Exploit](https://github.com/13paulmurith/Docker-Runc-Exploit)
