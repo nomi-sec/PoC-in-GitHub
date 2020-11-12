@@ -1581,6 +1581,14 @@ Legacy pairing and secure-connections pairing authentication in Bluetooth BR/EDR
 
 - [marcinguy/CVE-2020-10135-BIAS](https://github.com/marcinguy/CVE-2020-10135-BIAS)
 
+### CVE-2020-10189 (2020-03-06)
+
+<code>
+Zoho ManageEngine Desktop Central before 10.0.474 allows remote code execution because of deserialization of untrusted data in getChartImage in the FileStorage class. This is related to the CewolfServlet and MDMLogUploaderServlet servlets.
+</code>
+
+- [zavke/CVE-2020-10189-ManageEngine](https://github.com/zavke/CVE-2020-10189-ManageEngine)
+
 ### CVE-2020-10199 (2020-04-01)
 
 <code>
@@ -7287,7 +7295,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC)
 - [Yashrk078/Test_CVE-2018-6574](https://github.com/Yashrk078/Test_CVE-2018-6574)
 - [azzzzzzzzzzzzzzzzz/CVE-2018-6574](https://github.com/azzzzzzzzzzzzzzzzz/CVE-2018-6574)
-- [a-zara-n/CVE-2018-6574](https://github.com/a-zara-n/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
