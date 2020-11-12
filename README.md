@@ -2942,6 +2942,7 @@ When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in 
 - [jas502n/CVE-2019-0232](https://github.com/jas502n/CVE-2019-0232)
 - [CherishHair/CVE-2019-0232-EXP](https://github.com/CherishHair/CVE-2019-0232-EXP)
 - [setrus/CVE-2019-0232](https://github.com/setrus/CVE-2019-0232)
+- [j0ndoe/CVE-2019-0232](https://github.com/j0ndoe/CVE-2019-0232)
 
 ### CVE-2019-0539 (2019-01-08)
 
@@ -10592,6 +10593,7 @@ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Serie
 </code>
 
 - [JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP)
+- [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
 
 ### CVE-2017-7998 (2018-01-08)
 
@@ -14333,6 +14335,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-)
 - [Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271)
 - [cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271)
+- [MuirlandOracle/CVE-2014-6271](https://github.com/MuirlandOracle/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
@@ -14817,6 +14820,14 @@ nginx 0.8.41 through 1.4.3 and 1.5.x before 1.5.7 allows remote attackers to byp
 </code>
 
 - [cyberharsh/Nginx-CVE-2013-4547](https://github.com/cyberharsh/Nginx-CVE-2013-4547)
+
+### CVE-2013-4730 (2014-05-15)
+
+<code>
+Buffer overflow in PCMan's FTP Server 2.0.7 allows remote attackers to execute arbitrary code via a long string in a USER command.
+</code>
+
+- [t0rt3ll1n0/PCmanBoF](https://github.com/t0rt3ll1n0/PCmanBoF)
 
 ### CVE-2013-4784 (2013-07-08)
 
@@ -15833,6 +15844,14 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
+### CVE-2006-0187 (2006-01-12)
+
+<code>
+By design, Microsoft Visual Studio 2005 automatically executes code in the Load event of a user-defined control (UserControl1_Load function), which allows user-assisted attackers to execute arbitrary code by tricking the user into opening a malicious Visual Studio project file.
+</code>
+
+- [j0ndoe/CVE-2006-0187](https://github.com/j0ndoe/CVE-2006-0187)
+
 ### CVE-2006-0450 (2006-01-26)
 
 <code>
