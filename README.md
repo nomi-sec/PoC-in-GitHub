@@ -2884,10 +2884,20 @@ The conferencing component on Mitel ShoreTel 19.46.1802.0 devices could allow an
 
 - [dievus/CVE-2020-28351](https://github.com/dievus/CVE-2020-28351)
 
-### CVE-2020-28414
+### CVE-2020-28414 (2020-11-12)
+
+<code>
+A reflected cross-site scripting (XSS) vulnerability exists in the TranzWare Payment Gateway 3.1.12.3.2. A remote unauthenticated attacker is able to execute arbitrary HTML code via crafted url (different vector than CVE-2020-28415).
+</code>
+
 - [jet-pentest/CVE-2020-28414](https://github.com/jet-pentest/CVE-2020-28414)
 
-### CVE-2020-28415
+### CVE-2020-28415 (2020-11-12)
+
+<code>
+A reflected cross-site scripting (XSS) vulnerability exists in the TranzWare Payment Gateway 3.1.12.3.2. A remote unauthenticated attacker is able to execute arbitrary HTML code via crafted url (different vector than CVE-2020-28414).
+</code>
+
 - [jet-pentest/CVE-2020-28415](https://github.com/jet-pentest/CVE-2020-28415)
 
 ### CVE-2020-72381
