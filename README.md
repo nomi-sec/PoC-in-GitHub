@@ -645,6 +645,9 @@ A use after free vulnerability in ip_reass() in ip_input.c of libslirp 4.2.0 and
 
 - [wuzuowei/CVE-2020-1983](https://github.com/wuzuowei/CVE-2020-1983)
 
+### CVE-2020-2020
+- [x51/CVE-2020-2020-14882](https://github.com/x51/CVE-2020-2020-14882)
+
 ### CVE-2020-2034 (2020-07-08)
 
 <code>
@@ -2368,6 +2371,14 @@ Nette versions before 2.0.19, 2.1.13, 2.2.10, 2.3.14, 2.4.16, 3.0.6 are vulnerab
 - [Langriklol/CVE-2020-15227](https://github.com/Langriklol/CVE-2020-15227)
 - [hu4wufu/CVE-2020-15227](https://github.com/hu4wufu/CVE-2020-15227)
 
+### CVE-2020-15228 (2020-10-01)
+
+<code>
+In the `@actions/core` npm module before version 1.2.6,`addPath` and `exportVariable` functions communicate with the Actions Runner over stdout by generating a string in a specific format. Workflows that log untrusted data to stdout may invoke these commands, resulting in the path or environment variables being modified without the intention of the workflow or action author. The runner will release an update that disables the `set-env` and `add-path` workflow commands in the near future. For now, users should upgrade to `@actions/core v1.2.6` or later, and replace any instance of the `set-env` or `add-path` commands in their workflows with the new Environment File Syntax. Workflows and actions using the old commands or older versions of the toolkit will start to warn, then error out during workflow execution.
+</code>
+
+- [guettli/fix-CVE-2020-15228](https://github.com/guettli/fix-CVE-2020-15228)
+
 ### CVE-2020-15367 (2020-07-07)
 
 <code>
@@ -2442,6 +2453,14 @@ Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed
 </code>
 
 - [marcinguy/CVE-2020-15999](https://github.com/marcinguy/CVE-2020-15999)
+
+### CVE-2020-16126 (2020-11-10)
+
+<code>
+An Ubuntu-specific modification to AccountsService in versions before 0.6.55-0ubuntu13.2, among other earlier versions, improperly dropped the ruid, allowing untrusted users to send signals to AccountService, thus stopping it from handling D-Bus messages in a timely fashion.
+</code>
+
+- [zev3n/Ubuntu-Gnome-privilege-escalation](https://github.com/zev3n/Ubuntu-Gnome-privilege-escalation)
 
 ### CVE-2020-16152
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
@@ -2864,6 +2883,12 @@ The conferencing component on Mitel ShoreTel 19.46.1802.0 devices could allow an
 </code>
 
 - [dievus/CVE-2020-28351](https://github.com/dievus/CVE-2020-28351)
+
+### CVE-2020-28414
+- [jet-pentest/CVE-2020-28414](https://github.com/jet-pentest/CVE-2020-28414)
+
+### CVE-2020-28415
+- [jet-pentest/CVE-2020-28415](https://github.com/jet-pentest/CVE-2020-28415)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
