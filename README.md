@@ -2379,6 +2379,9 @@ In the `@actions/core` npm module before version 1.2.6,`addPath` and `exportVari
 
 - [guettli/fix-CVE-2020-15228](https://github.com/guettli/fix-CVE-2020-15228)
 
+### CVE-2020-15349
+- [Traxes/Forklift_LPE](https://github.com/Traxes/Forklift_LPE)
+
 ### CVE-2020-15367 (2020-07-07)
 
 <code>
@@ -2647,6 +2650,7 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 </code>
 
 - [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
+- [Dark-Grizzly/WPKiller](https://github.com/Dark-Grizzly/WPKiller)
 
 ### CVE-2020-25270 (2020-10-08)
 
@@ -10965,6 +10969,7 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit](https://github.com/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit)
 - [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
 - [AvishkaSenadheera20/CVE-2017-9805---Documentation---IT19143378](https://github.com/AvishkaSenadheera20/CVE-2017-9805---Documentation---IT19143378)
+- [rvermeulen/apache-struts-cve-2017-9805](https://github.com/rvermeulen/apache-struts-cve-2017-9805)
 
 ### CVE-2017-9822 (2017-07-20)
 
