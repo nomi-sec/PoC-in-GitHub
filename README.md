@@ -645,9 +645,6 @@ A use after free vulnerability in ip_reass() in ip_input.c of libslirp 4.2.0 and
 
 - [wuzuowei/CVE-2020-1983](https://github.com/wuzuowei/CVE-2020-1983)
 
-### CVE-2020-2020
-- [x51/CVE-2020-2020-14882](https://github.com/x51/CVE-2020-2020-14882)
-
 ### CVE-2020-2034 (2020-07-08)
 
 <code>
@@ -1209,6 +1206,7 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 </code>
 
 - [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
+- [umiterkol/CVE-2020-8165--Auto-Shell](https://github.com/umiterkol/CVE-2020-8165--Auto-Shell)
 
 ### CVE-2020-8193 (2020-07-10)
 
@@ -2288,6 +2286,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [murataydemir/CVE-2020-14882](https://github.com/murataydemir/CVE-2020-14882)
 - [AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test)
 - [corelight/CVE-2020-14882-weblogicRCE](https://github.com/corelight/CVE-2020-14882-weblogicRCE)
+- [x51/CVE-2020-14882](https://github.com/x51/CVE-2020-14882)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -10630,6 +10629,7 @@ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Serie
 
 - [JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP)
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
+- [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
 
 ### CVE-2017-7998 (2018-01-08)
 
