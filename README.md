@@ -597,6 +597,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938)
 - [Umesh2807/Ghostcat](https://github.com/Umesh2807/Ghostcat)
 - [MateoSec/ghostcatch](https://github.com/MateoSec/ghostcatch)
+- [kukudechen-chen/cve-2020-1938](https://github.com/kukudechen-chen/cve-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
