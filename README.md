@@ -2379,6 +2379,7 @@ Nette versions before 2.0.19, 2.1.13, 2.2.10, 2.3.14, 2.4.16, 3.0.6 are vulnerab
 
 - [Langriklol/CVE-2020-15227](https://github.com/Langriklol/CVE-2020-15227)
 - [hu4wufu/CVE-2020-15227](https://github.com/hu4wufu/CVE-2020-15227)
+- [filipsedivy/CVE-2020-15227](https://github.com/filipsedivy/CVE-2020-15227)
 
 ### CVE-2020-15228 (2020-10-01)
 
@@ -5513,6 +5514,14 @@ NLTK Downloader before 3.4.5 is vulnerable to a directory traversal, allowing at
 
 ### CVE-2019-14830
 - [Fr3d-/moodle-token-stealer](https://github.com/Fr3d-/moodle-token-stealer)
+
+### CVE-2019-14899 (2019-12-11)
+
+<code>
+A vulnerability was discovered in Linux, FreeBSD, OpenBSD, MacOS, iOS, and Android that allows a malicious access point, or an adjacent user, to determine if a connected user is using a VPN, make positive inferences about the websites they are visiting, and determine the correct sequence and acknowledgement numbers in use, allowing the bad actor to inject data into the TCP stream. This provides everything that is needed for an attacker to hijack active connections inside the VPN tunnel.
+</code>
+
+- [stryngs/hysteria](https://github.com/stryngs/hysteria)
 
 ### CVE-2019-14912 (2019-09-20)
 
@@ -16046,7 +16055,6 @@ Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execut
 - [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
 - [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
 - [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
-- [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
 
 ### CVE-2004-2549 (2005-11-21)
 
