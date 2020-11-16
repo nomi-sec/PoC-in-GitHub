@@ -323,6 +323,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [aloswoya/CVE-2020-0796-cobaltstrike-cna](https://github.com/aloswoya/CVE-2020-0796-cobaltstrike-cna)
 - [codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-)
 - [AaronWilsonGrylls/CVE-2020-0796-POC](https://github.com/AaronWilsonGrylls/CVE-2020-0796-POC)
+- [datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -13499,6 +13500,7 @@ The WLS Security component in Oracle WebLogic Server 10.3.6.0, 12.1.2.0, 12.1.3.
 - [roo7break/serialator](https://github.com/roo7break/serialator)
 - [AndersonSingh/serialization-vulnerability-scanner](https://github.com/AndersonSingh/serialization-vulnerability-scanner)
 - [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
+- [nex1less/CVE-2015-4852](https://github.com/nex1less/CVE-2015-4852)
 
 ### CVE-2015-4870 (2015-10-21)
 
