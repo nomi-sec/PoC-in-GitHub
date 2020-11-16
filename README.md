@@ -1196,7 +1196,12 @@ A cryptographic issue in Nextcloud Server 19.0.1 allowed an attacker to downgrad
 
 - [geffner/CVE-2020-8150](https://github.com/geffner/CVE-2020-8150)
 
-### CVE-2020-8152
+### CVE-2020-8152 (2020-11-15)
+
+<code>
+Insufficient protection of the server-side encryption keys in Nextcloud Server 19.0.1 allowed an attacker to replace the public key to decrypt them later on.
+</code>
+
 - [geffner/CVE-2020-8152](https://github.com/geffner/CVE-2020-8152)
 
 ### CVE-2020-8163 (2020-07-02)
@@ -16055,6 +16060,7 @@ Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execut
 - [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
 - [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
 - [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
+- [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
 
 ### CVE-2004-2549 (2005-11-21)
 
