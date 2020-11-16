@@ -545,6 +545,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [mingchen-script/CVE-2020-1472-visualizer](https://github.com/mingchen-script/CVE-2020-1472-visualizer)
 - [Qazeer/dirkjanm_CVE-2020-1472_static_binaries](https://github.com/Qazeer/dirkjanm_CVE-2020-1472_static_binaries)
 - [JayP232/The_big_Zero](https://github.com/JayP232/The_big_Zero)
+- [b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -15924,14 +15925,6 @@ By design, Microsoft Visual Studio 2005 automatically executes code in the Load 
 </code>
 
 - [j0ndoe/CVE-2006-0187](https://github.com/j0ndoe/CVE-2006-0187)
-
-### CVE-2006-0450 (2006-01-26)
-
-<code>
-phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
-</code>
-
-- [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
 
 ### CVE-2006-1236 (2006-03-14)
 
