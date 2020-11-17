@@ -2396,7 +2396,12 @@ In the `@actions/core` npm module before version 1.2.6,`addPath` and `exportVari
 
 - [guettli/fix-CVE-2020-15228](https://github.com/guettli/fix-CVE-2020-15228)
 
-### CVE-2020-15349
+### CVE-2020-15349 (2020-11-16)
+
+<code>
+BinaryNights ForkLift 3.x before 3.4 has a local privilege escalation vulnerability because the privileged helper tool implements an XPC interface that allows file operations to any process (copy, move, delete) as root and changing permissions.
+</code>
+
 - [Traxes/Forklift_LPE](https://github.com/Traxes/Forklift_LPE)
 
 ### CVE-2020-15367 (2020-07-07)
@@ -2753,7 +2758,12 @@ ThinkAdmin v6 is affected by a directory traversal vulnerability. An unauthorize
 
 - [Schira4396/CVE-2020-25540](https://github.com/Schira4396/CVE-2020-25540)
 
-### CVE-2020-25705
+### CVE-2020-25705 (2020-11-16)
+
+<code>
+A flaw in the way reply ICMP packets are limited in the Linux kernel functionality was found that allows to quickly scan open UDP ports. This flaw allows an off-path remote user to effectively bypassing source port UDP randomization. The highest threat from this vulnerability is to confidentiality and possibly integrity, because software that relies on UDP source port randomization are indirectly affected as well. Kernel versions before 5.10 may be vulnerable to this issue.
+</code>
+
 - [tdwyer/CVE-2020-25705](https://github.com/tdwyer/CVE-2020-25705)
 
 ### CVE-2020-25747 (2020-09-24)
@@ -3659,6 +3669,7 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST)
 - [am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396)
 - [W2Ning/CVE-2019-3396](https://github.com/W2Ning/CVE-2019-3396)
+- [yuehanked/cve-2019-3396](https://github.com/yuehanked/cve-2019-3396)
 
 ### CVE-2019-3398 (2019-04-18)
 
@@ -6518,6 +6529,7 @@ Equation Editor in Microsoft Office 2007, Microsoft Office 2010, Microsoft Offic
 - [rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802)
 - [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
 - [likescam/CVE-2018-0802_CVE-2017-11882](https://github.com/likescam/CVE-2018-0802_CVE-2017-11882)
+- [dcsync/rtfkit](https://github.com/dcsync/rtfkit)
 
 ### CVE-2018-0824 (2018-05-09)
 
@@ -11250,6 +11262,7 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [littlebin404/CVE-2017-11882](https://github.com/littlebin404/CVE-2017-11882)
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
+- [dcsync/rtfkit](https://github.com/dcsync/rtfkit)
 
 ### CVE-2017-11907 (2017-12-12)
 
@@ -15925,6 +15938,14 @@ By design, Microsoft Visual Studio 2005 automatically executes code in the Load 
 </code>
 
 - [j0ndoe/CVE-2006-0187](https://github.com/j0ndoe/CVE-2006-0187)
+
+### CVE-2006-0450 (2006-01-26)
+
+<code>
+phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
+</code>
+
+- [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
 
 ### CVE-2006-1236 (2006-03-14)
 
