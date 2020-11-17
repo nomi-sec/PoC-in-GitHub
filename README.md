@@ -1236,6 +1236,14 @@ Improper access control in Citrix ADC and Citrix Gateway versions before 13.0-58
 - [PR3R00T/CVE-2020-8193-Citrix-Scanner](https://github.com/PR3R00T/CVE-2020-8193-Citrix-Scanner)
 - [ctlyz123/CVE-2020-8193](https://github.com/ctlyz123/CVE-2020-8193)
 
+### CVE-2020-8209 (2020-08-17)
+
+<code>
+Improper access control in Citrix XenMobile Server 10.12 before RP2, Citrix XenMobile Server 10.11 before RP4, Citrix XenMobile Server 10.10 before RP6 and Citrix XenMobile Server before 10.9 RP5 and leads to the ability to read arbitrary files.
+</code>
+
+- [B1anda0/CVE-2020-8209](https://github.com/B1anda0/CVE-2020-8209)
+
 ### CVE-2020-8218 (2020-07-30)
 
 <code>
