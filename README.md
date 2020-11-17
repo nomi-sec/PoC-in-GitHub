@@ -2311,6 +2311,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test)
 - [corelight/CVE-2020-14882-weblogicRCE](https://github.com/corelight/CVE-2020-14882-weblogicRCE)
 - [x51/CVE-2020-14882](https://github.com/x51/CVE-2020-14882)
+- [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -11718,6 +11719,7 @@ Huawei HG532 with some customized versions has a remote code execution vulnerabi
 </code>
 
 - [1337g/CVE-2017-17215](https://github.com/1337g/CVE-2017-17215)
+- [wilfred-wulbou/HG532d-RCE-Exploit](https://github.com/wilfred-wulbou/HG532d-RCE-Exploit)
 
 ### CVE-2017-17309 (2018-06-14)
 
