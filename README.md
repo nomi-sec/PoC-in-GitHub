@@ -1365,7 +1365,7 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 
 - [Prabhashaka/IT19147192-CVE-2020-8835](https://github.com/Prabhashaka/IT19147192-CVE-2020-8835)
 - [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
-- [socketcall/CVE-2020-8835](https://github.com/socketcall/CVE-2020-8835)
+- [ret2hell/CVE-2020-8835](https://github.com/ret2hell/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
 
 ### CVE-2020-8840 (2020-02-10)
@@ -10138,6 +10138,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 </code>
 
 - [ianxtianxt/CVE-2017-3506](https://github.com/ianxtianxt/CVE-2017-3506)
+- [Al1ex/CVE-2017-3506](https://github.com/Al1ex/CVE-2017-3506)
 
 ### CVE-2017-3599 (2017-04-24)
 
@@ -11103,6 +11104,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [7kbstorm/WebLogic_CNVD_C2019_48814](https://github.com/7kbstorm/WebLogic_CNVD_C2019_48814)
 - [ianxtianxt/-CVE-2017-10271-](https://github.com/ianxtianxt/-CVE-2017-10271-)
 - [testwc/CVE-2017-10271](https://github.com/testwc/CVE-2017-10271)
+- [Al1ex/CVE-2017-10271](https://github.com/Al1ex/CVE-2017-10271)
 
 ### CVE-2017-10352 (2017-10-19)
 
