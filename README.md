@@ -2922,7 +2922,12 @@ osCommerce Phoenix CE before 1.0.5.4 allows OS command injection remotely. Withi
 
 - [k0rnh0li0/CVE-2020-27976](https://github.com/k0rnh0li0/CVE-2020-27976)
 
-### CVE-2020-28054
+### CVE-2020-28054 (2020-11-19)
+
+<code>
+JamoDat TSMManager Collector version up to 6.5.0.21 is vulnerable to an Authorization Bypass because the Collector component is not properly validating an authenticated session with the Viewer. If the Viewer has been modified (binary patched) and the Bypass Login functionality is being used, an attacker can request every Collector's functionality as if they were a properly logged-in user: administrating connected instances, reviewing logs, editing configurations, accessing the instances' consoles, accessing hardware configurations, etc.Exploiting this vulnerability won't grant an attacker access nor control on remote ISP servers as no credentials is sent with the request.
+</code>
+
 - [VoidSec/Tivoli-Madness](https://github.com/VoidSec/Tivoli-Madness)
 
 ### CVE-2020-28328 (2020-11-06)
@@ -6216,22 +6221,6 @@ The Web application on Rittal CMC PU III 7030.000 V3.00 V3.11.00_2 to V3.15.70_4
 
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
-
-### CVE-2019-19520 (2019-12-04)
-
-<code>
-xlock in OpenBSD 6.6 allows local users to gain the privileges of the auth group by providing a LIBGL_DRIVERS_PATH environment variable, because xenocara/lib/mesa/src/loader/loader.c mishandles dlopen.
-</code>
-
-- [retrymp3/OpenBSD-CVE-2019-19520-CVE-2019-19522](https://github.com/retrymp3/OpenBSD-CVE-2019-19520-CVE-2019-19522)
-
-### CVE-2019-19522 (2019-12-04)
-
-<code>
-OpenBSD 6.6, in a non-default configuration where S/Key or YubiKey authentication is enabled, allows local users to become root by leveraging membership in the auth group. This occurs because root's file can be written to /etc/skey or /var/db/yubikey, and need not be owned by root.
-</code>
-
-- [retrymp3/OpenBSD-CVE-2019-19522](https://github.com/retrymp3/OpenBSD-CVE-2019-19522)
 
 ### CVE-2019-19550 (2020-01-31)
 
@@ -11579,6 +11568,7 @@ The Infineon RSA library 1.02.013 in Infineon Trusted Platform Module (TPM) firm
 - [nsacyber/Detect-CVE-2017-15361-TPM](https://github.com/nsacyber/Detect-CVE-2017-15361-TPM)
 - [0xxon/zeek-plugin-roca](https://github.com/0xxon/zeek-plugin-roca)
 - [0xxon/roca](https://github.com/0xxon/roca)
+- [Elbarbons/Attacco-ROCA-sulla-vulnerabilita-CVE-2017-15361](https://github.com/Elbarbons/Attacco-ROCA-sulla-vulnerabilita-CVE-2017-15361)
 
 ### CVE-2017-15394 (2018-02-07)
 
@@ -14281,6 +14271,7 @@ Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusi
 - [NoneNotNull/SSRFX](https://github.com/NoneNotNull/SSRFX)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 - [unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC](https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC)
+- [NHPT/WebLogic-SSRF_CVE-2014-4210](https://github.com/NHPT/WebLogic-SSRF_CVE-2014-4210)
 
 ### CVE-2014-4321
 - [android-rooting-tools/libmsm_vfe_read_exploit](https://github.com/android-rooting-tools/libmsm_vfe_read_exploit)
@@ -15868,22 +15859,6 @@ Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before
 
 
 ## 2007
-### CVE-2007-0038 (2007-03-30)
-
-<code>
-Stack-based buffer overflow in the animated cursor code in Microsoft Windows 2000 SP4 through Vista allows remote attackers to execute arbitrary code or cause a denial of service (persistent reboot) via a large length value in the second (or later) anih block of a RIFF .ANI, cur, or .ico file, which results in memory corruption when processing cursors, animated cursors, and icons, a variant of CVE-2005-0416, as originally demonstrated using Internet Explorer 6 and 7. NOTE: this might be a duplicate of CVE-2007-1765; if so, then CVE-2007-0038 should be preferred.
-</code>
-
-- [Axua/CVE-2007-0038](https://github.com/Axua/CVE-2007-0038)
-
-### CVE-2007-0843 (2007-02-22)
-
-<code>
-The ReadDirectoryChangesW API function on Microsoft Windows 2000, XP, Server 2003, and Vista does not check permissions for child objects, which allows local users to bypass permissions by opening a directory with LIST (READ) access and using ReadDirectoryChangesW to monitor changes of files that do not have LIST permissions, which can be leveraged to determine filenames, access times, and other sensitive information.
-</code>
-
-- [z3APA3A/spydir](https://github.com/z3APA3A/spydir)
-
 ### CVE-2007-1567 (2007-03-21)
 
 <code>
@@ -15891,20 +15866,6 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 </code>
 
 - [war4uthor/CVE-2007-1567](https://github.com/war4uthor/CVE-2007-1567)
-
-### CVE-2007-2447 (2007-05-14)
-
-<code>
-The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
-</code>
-
-- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
-- [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
-- [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
-- [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
-- [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
-- [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
-- [nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer)
 
 ### CVE-2007-3830 (2007-07-17)
 
