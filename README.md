@@ -1261,6 +1261,14 @@ A vulnerability in the Pulse Secure Desktop Client &lt; 9.1R9 could allow the at
 
 - [withdk/pulse-secure-vpn-mitm-research](https://github.com/withdk/pulse-secure-vpn-mitm-research)
 
+### CVE-2020-8277 (2020-11-18)
+
+<code>
+A Node.js application that allows an attacker to trigger a DNS request for a host of their choice could trigger a Denial of Service in versions &lt; 15.2.1, &lt; 14.15.1, and &lt; 12.19.1 by getting the application to resolve a DNS record with a larger number of responses. This is fixed in 15.2.1, 14.15.1, and 12.19.1.
+</code>
+
+- [masahiro331/CVE-2020-8277](https://github.com/masahiro331/CVE-2020-8277)
+
 ### CVE-2020-8417 (2020-01-28)
 
 <code>
@@ -2165,6 +2173,7 @@ The payload length in a WebSocket frame was not correctly validated in Apache To
 
 ### CVE-2020-13942
 - [lp008/CVE-2020-13942](https://github.com/lp008/CVE-2020-13942)
+- [eugenebmx/CVE-2020-13942](https://github.com/eugenebmx/CVE-2020-13942)
 
 ### CVE-2020-13996 (2020-06-09)
 
