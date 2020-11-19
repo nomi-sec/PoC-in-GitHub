@@ -2659,9 +2659,6 @@ InterMind iMind Server through 3.13.65 allows remote unauthenticated attackers t
 
 - [trump88/CVE-2020-24765](https://github.com/trump88/CVE-2020-24765)
 
-### CVE-2020-24771
-- [qlh831/CVE-2020-24771](https://github.com/qlh831/CVE-2020-24771)
-
 ### CVE-2020-24955 (2020-09-01)
 
 <code>
