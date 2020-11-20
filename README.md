@@ -324,6 +324,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-)
 - [AaronWilsonGrylls/CVE-2020-0796-POC](https://github.com/AaronWilsonGrylls/CVE-2020-0796-POC)
 - [datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796)
+- [MasterSploit/LPE---CVE-2020-0796](https://github.com/MasterSploit/LPE---CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -4695,6 +4696,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [kriskhub/CVE-2019-11043](https://github.com/kriskhub/CVE-2019-11043)
 - [alokaranasinghe/cve-2019-11043](https://github.com/alokaranasinghe/cve-2019-11043)
 - [corifeo/CVE-2019-11043](https://github.com/corifeo/CVE-2019-11043)
+- [lindemer/CVE-2019-11043](https://github.com/lindemer/CVE-2019-11043)
 
 ### CVE-2019-11061 (2019-08-28)
 
