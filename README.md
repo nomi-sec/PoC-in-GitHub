@@ -1727,6 +1727,14 @@ A PGP signature bypass flaw was found in fwupd (all versions), which could lead 
 
 - [justinsteven/CVE-2020-10759-poc](https://github.com/justinsteven/CVE-2020-10759-poc)
 
+### CVE-2020-10977 (2020-04-08)
+
+<code>
+GitLab EE/CE 8.5 to 12.9 is vulnerable to a an path traversal when moving an issue between projects.
+</code>
+
+- [thewhiteh4t/cve-2020-10977](https://github.com/thewhiteh4t/cve-2020-10977)
+
 ### CVE-2020-11076 (2020-05-22)
 
 <code>
