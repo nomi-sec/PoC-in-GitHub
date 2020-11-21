@@ -2604,6 +2604,14 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 - [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
+### CVE-2020-23489 (2020-11-16)
+
+<code>
+The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion vulnerability. This allows the deletion of configuration.php, which leads to certain privilege checks not being in place, and therefore a user can escalate privileges to admin.
+</code>
+
+- [ahussam/AVideo3xploit](https://github.com/ahussam/AVideo3xploit)
+
 ### CVE-2020-23968 (2020-11-10)
 
 <code>
@@ -2643,6 +2651,9 @@ An issue was discovered in fs.com S3900 24T4S 1.7.0 and earlier. The form does n
 </code>
 
 - [M0NsTeRRR/CVE-2020-24033](https://github.com/M0NsTeRRR/CVE-2020-24033)
+
+### CVE-2020-24227
+- [nathunandwani/CVE-2020-24227](https://github.com/nathunandwani/CVE-2020-24227)
 
 ### CVE-2020-24572 (2020-08-24)
 
