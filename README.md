@@ -2183,6 +2183,7 @@ The payload length in a WebSocket frame was not correctly validated in Apache To
 ### CVE-2020-13942
 - [lp008/CVE-2020-13942](https://github.com/lp008/CVE-2020-13942)
 - [eugenebmx/CVE-2020-13942](https://github.com/eugenebmx/CVE-2020-13942)
+- [shifa123/CVE-2020-13942-POC-](https://github.com/shifa123/CVE-2020-13942-POC-)
 
 ### CVE-2020-13996 (2020-06-09)
 
@@ -16035,14 +16036,6 @@ Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.
 
 
 ## 2005
-### CVE-2005-0603 (2005-03-01)
-
-<code>
-viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sensitive information via a highlight parameter containing invalid regular expression syntax, which reveals the path in a PHP error message.
-</code>
-
-- [Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure)
-
 ### CVE-2005-1125 (2005-04-16)
 
 <code>
@@ -16050,14 +16043,6 @@ Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded app
 </code>
 
 - [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
-
-### CVE-2005-2428 (2005-08-03)
-
-<code>
-Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
-</code>
-
-- [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
 
 
 ## 2004
