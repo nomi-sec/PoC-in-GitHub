@@ -2184,6 +2184,7 @@ The payload length in a WebSocket frame was not correctly validated in Apache To
 - [lp008/CVE-2020-13942](https://github.com/lp008/CVE-2020-13942)
 - [eugenebmx/CVE-2020-13942](https://github.com/eugenebmx/CVE-2020-13942)
 - [shifa123/CVE-2020-13942-POC-](https://github.com/shifa123/CVE-2020-13942-POC-)
+- [blackmarketer/CVE-2020-13942](https://github.com/blackmarketer/CVE-2020-13942)
 
 ### CVE-2020-13996 (2020-06-09)
 
@@ -2584,6 +2585,7 @@ A remote code execution vulnerability exists in Microsoft Outlook software when 
 </code>
 
 - [0neb1n/CVE-2020-16947](https://github.com/0neb1n/CVE-2020-16947)
+- [MasterSploit/CVE-2020-16947](https://github.com/MasterSploit/CVE-2020-16947)
 
 ### CVE-2020-17382 (2020-10-02)
 
@@ -3049,7 +3051,7 @@ When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in 
 - [jas502n/CVE-2019-0232](https://github.com/jas502n/CVE-2019-0232)
 - [CherishHair/CVE-2019-0232-EXP](https://github.com/CherishHair/CVE-2019-0232-EXP)
 - [setrus/CVE-2019-0232](https://github.com/setrus/CVE-2019-0232)
-- [j0ndoe/CVE-2019-0232](https://github.com/j0ndoe/CVE-2019-0232)
+- [0xmanjoos/CVE-2019-0232](https://github.com/0xmanjoos/CVE-2019-0232)
 
 ### CVE-2019-0539 (2019-01-08)
 
@@ -6232,6 +6234,14 @@ The Web application on Rittal CMC PU III 7030.000 V3.00 V3.11.00_2 to V3.15.70_4
 
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
+
+### CVE-2019-19520 (2019-12-04)
+
+<code>
+xlock in OpenBSD 6.6 allows local users to gain the privileges of the auth group by providing a LIBGL_DRIVERS_PATH environment variable, because xenocara/lib/mesa/src/loader/loader.c mishandles dlopen.
+</code>
+
+- [retrymp3/Openbsd-Privilege-Escalation](https://github.com/retrymp3/Openbsd-Privilege-Escalation)
 
 ### CVE-2019-19550 (2020-01-31)
 
@@ -15966,7 +15976,7 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 By design, Microsoft Visual Studio 2005 automatically executes code in the Load event of a user-defined control (UserControl1_Load function), which allows user-assisted attackers to execute arbitrary code by tricking the user into opening a malicious Visual Studio project file.
 </code>
 
-- [j0ndoe/CVE-2006-0187](https://github.com/j0ndoe/CVE-2006-0187)
+- [0xmanjoos/CVE-2006-0187](https://github.com/0xmanjoos/CVE-2006-0187)
 
 ### CVE-2006-0450 (2006-01-26)
 
@@ -16036,6 +16046,14 @@ Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.
 
 
 ## 2005
+### CVE-2005-0603 (2005-03-01)
+
+<code>
+viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sensitive information via a highlight parameter containing invalid regular expression syntax, which reveals the path in a PHP error message.
+</code>
+
+- [Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure)
+
 ### CVE-2005-1125 (2005-04-16)
 
 <code>
@@ -16043,6 +16061,14 @@ Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded app
 </code>
 
 - [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
+
+### CVE-2005-2428 (2005-08-03)
+
+<code>
+Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
+</code>
+
+- [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
 
 
 ## 2004
