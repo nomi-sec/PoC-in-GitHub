@@ -377,6 +377,14 @@ An elevation of privilege vulnerability exists in the way that the User-Mode Pow
 
 - [0xeb-bp/cve-2020-1015](https://github.com/0xeb-bp/cve-2020-1015)
 
+### CVE-2020-1034 (2020-09-11)
+
+<code>
+An elevation of privilege vulnerability exists in the way that the Windows Kernel handles objects in memory, aka 'Windows Kernel Elevation of Privilege Vulnerability'.
+</code>
+
+- [yardenshafir/CVE-2020-1034](https://github.com/yardenshafir/CVE-2020-1034)
+
 ### CVE-2020-1048 (2020-05-21)
 
 <code>
@@ -8739,6 +8747,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [CaioCGH/EP4-redes](https://github.com/CaioCGH/EP4-redes)
 - [Moon1705/easy_security](https://github.com/Moon1705/easy_security)
 - [Wh1t3Fox/cve-2018-15473](https://github.com/Wh1t3Fox/cve-2018-15473)
+- [1stPeak/CVE-2018-15473](https://github.com/1stPeak/CVE-2018-15473)
 
 ### CVE-2018-15499 (2018-08-24)
 
