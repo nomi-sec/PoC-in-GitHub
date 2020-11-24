@@ -1903,6 +1903,14 @@ It was discovered that the Subiquity installer for Ubuntu Server logged the LUKS
 - [ProjectorBUg/CVE-2020-11932](https://github.com/ProjectorBUg/CVE-2020-11932)
 - [Staubgeborener/CVE-2020-11932](https://github.com/Staubgeborener/CVE-2020-11932)
 
+### CVE-2020-11975 (2020-06-05)
+
+<code>
+Apache Unomi allows conditions to use OGNL scripting which offers the possibility to call static Java classes from the JDK that could execute code with the permission level of the running Java process.
+</code>
+
+- [1135/unomi_exploit](https://github.com/1135/unomi_exploit)
+
 ### CVE-2020-11989 (2020-06-22)
 
 <code>
@@ -7807,6 +7815,8 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [likescam/CVE-2018-8174-msf](https://github.com/likescam/CVE-2018-8174-msf)
 - [ruthlezs/ie11_vbscript_exploit](https://github.com/ruthlezs/ie11_vbscript_exploit)
 - [ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP)
+- [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP)
+- [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-)
 
 ### CVE-2018-8208 (2018-06-14)
 
