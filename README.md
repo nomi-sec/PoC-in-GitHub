@@ -289,6 +289,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [GuoKerS/aioScan_CVE-2020-0796](https://github.com/GuoKerS/aioScan_CVE-2020-0796)
 - [jiansiting/CVE-2020-0796-Scanner](https://github.com/jiansiting/CVE-2020-0796-Scanner)
 - [maxpl0it/Unauthenticated-CVE-2020-0796-PoC](https://github.com/maxpl0it/Unauthenticated-CVE-2020-0796-PoC)
+- [ran-sama/CVE-2020-0796](https://github.com/ran-sama/CVE-2020-0796)
 - [sujitawake/smbghost](https://github.com/sujitawake/smbghost)
 - [julixsalas/CVE-2020-0796](https://github.com/julixsalas/CVE-2020-0796)
 - [insightglacier/SMBGhost_Crash_Poc](https://github.com/insightglacier/SMBGhost_Crash_Poc)
@@ -2668,7 +2669,12 @@ An issue was discovered in fs.com S3900 24T4S 1.7.0 and earlier. The form does n
 
 - [M0NsTeRRR/CVE-2020-24033](https://github.com/M0NsTeRRR/CVE-2020-24033)
 
-### CVE-2020-24227
+### CVE-2020-24227 (2020-11-23)
+
+<code>
+Playground Sessions v2.5.582 (and earlier) for Windows, stores the user credentials in plain text allowing anyone with access to UserProfiles.sol to extract the email and password.
+</code>
+
 - [nathunandwani/CVE-2020-24227](https://github.com/nathunandwani/CVE-2020-24227)
 
 ### CVE-2020-24572 (2020-08-24)
@@ -2953,6 +2959,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955)
 - [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go)
 - [yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc)
+- [r00t4dm/CVE-2020-27955](https://github.com/r00t4dm/CVE-2020-27955)
 
 ### CVE-2020-27976 (2020-10-28)
 
