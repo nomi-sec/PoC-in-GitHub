@@ -2197,7 +2197,12 @@ The payload length in a WebSocket frame was not correctly validated in Apache To
 
 - [RedTeamPentesting/CVE-2020-13935](https://github.com/RedTeamPentesting/CVE-2020-13935)
 
-### CVE-2020-13942
+### CVE-2020-13942 (2020-11-24)
+
+<code>
+It is possible to inject malicious OGNL or MVEL scripts into the /context.json public endpoint. This was partially fixed in 1.5.1 but a new attack vector was found. In Apache Unomi version 1.5.2 scripts are now completely filtered from the input. It is highly recommended to upgrade to the latest available version of the 1.5.x release to fix this problem.
+</code>
+
 - [lp008/CVE-2020-13942](https://github.com/lp008/CVE-2020-13942)
 - [eugenebmx/CVE-2020-13942](https://github.com/eugenebmx/CVE-2020-13942)
 - [shifa123/CVE-2020-13942-POC-](https://github.com/shifa123/CVE-2020-13942-POC-)
