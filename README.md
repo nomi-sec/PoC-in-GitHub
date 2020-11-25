@@ -1174,8 +1174,8 @@ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows
 </code>
 
 - [mzer0one/CVE-2020-7961-POC](https://github.com/mzer0one/CVE-2020-7961-POC)
-- [Thisisfarhadzadeh/CVE-2020-7961-payloads](https://github.com/Thisisfarhadzadeh/CVE-2020-7961-payloads)
 - [wcxxxxx/CVE-2020-7961](https://github.com/wcxxxxx/CVE-2020-7961)
+- [thelostworldFree/CVE-2020-7961-payloads](https://github.com/thelostworldFree/CVE-2020-7961-payloads)
 - [shacojx/GLiferay](https://github.com/shacojx/GLiferay)
 
 ### CVE-2020-7980 (2020-01-25)
