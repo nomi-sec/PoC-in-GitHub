@@ -3031,6 +3031,9 @@ A reflected cross-site scripting (XSS) vulnerability exists in the TranzWare Pay
 
 - [jet-pentest/CVE-2020-28415](https://github.com/jet-pentest/CVE-2020-28415)
 
+### CVE-2020-29070
+- [aslanemre/cve-2020-29070](https://github.com/aslanemre/cve-2020-29070)
+
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
 
@@ -12710,7 +12713,7 @@ Buffer overflow in the Qualcomm radio driver in Android before 2017-01-05 on And
 Integer overflow in the get_data function in zipimport.c in CPython (aka Python) before 2.7.12, 3.x before 3.4.5, and 3.5.x before 3.5.2 allows remote attackers to have unspecified impact via a negative data size value, which triggers a heap-based buffer overflow.
 </code>
 
-- [jakkdu/CVE-2016-5636](https://github.com/jakkdu/CVE-2016-5636)
+- [insuyun/CVE-2016-5636](https://github.com/insuyun/CVE-2016-5636)
 
 ### CVE-2016-5639 (2016-08-02)
 
@@ -13656,7 +13659,7 @@ Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be seri
 A Denial of Service vulnerability exists in ircd-ratbox 3.0.9 in the MONITOR Command Handler.
 </code>
 
-- [skyhighwings/CVE-2015-5290](https://github.com/skyhighwings/CVE-2015-5290)
+- [sariyamelody/CVE-2015-5290](https://github.com/sariyamelody/CVE-2015-5290)
 
 ### CVE-2015-5374 (2015-07-18)
 
