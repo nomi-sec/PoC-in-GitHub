@@ -2172,7 +2172,12 @@ Citrix Workspace App before 1912 on Windows has Insecure Permissions which allow
 
 - [hessandrew/CVE-2020-13885](https://github.com/hessandrew/CVE-2020-13885)
 
-### CVE-2020-13886
+### CVE-2020-13886 (2020-11-26)
+
+<code>
+Intelbras TIP 200 60.61.75.15, TIP 200 LITE 60.61.75.15, and TIP 300 65.61.75.22 devices allow cgi-bin/cgiServer.exx?page=../ Directory Traversal.
+</code>
+
 - [lucxssouza/CVE-2020-13886](https://github.com/lucxssouza/CVE-2020-13886)
 
 ### CVE-2020-13889 (2020-06-06)
