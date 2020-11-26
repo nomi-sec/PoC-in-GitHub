@@ -2627,6 +2627,14 @@ A remote code execution vulnerability exists in Microsoft Outlook software when 
 - [0neb1n/CVE-2020-16947](https://github.com/0neb1n/CVE-2020-16947)
 - [MasterSploit/CVE-2020-16947](https://github.com/MasterSploit/CVE-2020-16947)
 
+### CVE-2020-17087 (2020-11-11)
+
+<code>
+Windows Kernel Local Elevation of Privilege Vulnerability
+</code>
+
+- [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
+
 ### CVE-2020-17382 (2020-10-02)
 
 <code>
@@ -3254,7 +3262,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [wqsemc/CVE-2019-0708](https://github.com/wqsemc/CVE-2019-0708)
 - [mai-lang-chai/CVE-2019-0708-RCE](https://github.com/mai-lang-chai/CVE-2019-0708-RCE)
 - [Micr067/CVE-2019-0708RDP-MSF](https://github.com/Micr067/CVE-2019-0708RDP-MSF)
-- [upknboy/CVE-2019-0708-BlueKeep](https://github.com/upknboy/CVE-2019-0708-BlueKeep)
+- [cpkkcb/CVE-2019-0708-BlueKeep](https://github.com/cpkkcb/CVE-2019-0708-BlueKeep)
 - [FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708)
 - [qing-root/CVE-2019-0708-EXP-MSF-](https://github.com/qing-root/CVE-2019-0708-EXP-MSF-)
 - [distance-vector/CVE-2019-0708](https://github.com/distance-vector/CVE-2019-0708)
@@ -8788,6 +8796,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [Moon1705/easy_security](https://github.com/Moon1705/easy_security)
 - [Wh1t3Fox/cve-2018-15473](https://github.com/Wh1t3Fox/cve-2018-15473)
 - [1stPeak/CVE-2018-15473](https://github.com/1stPeak/CVE-2018-15473)
+- [coollce/CVE-2018-15473_burte](https://github.com/coollce/CVE-2018-15473_burte)
 
 ### CVE-2018-15499 (2018-08-24)
 
