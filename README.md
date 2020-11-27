@@ -3046,6 +3046,14 @@ A reflected cross-site scripting (XSS) vulnerability exists in the TranzWare Pay
 
 - [jet-pentest/CVE-2020-28415](https://github.com/jet-pentest/CVE-2020-28415)
 
+### CVE-2020-28948 (2020-11-19)
+
+<code>
+Archive_Tar through 1.4.10 allows an unserialization attack because phar: is blocked but PHAR: is not blocked.
+</code>
+
+- [0x240x23elu/CVE-2020-28948-and-CVE-2020-28949](https://github.com/0x240x23elu/CVE-2020-28948-and-CVE-2020-28949)
+
 ### CVE-2020-29070 (2020-11-25)
 
 <code>
@@ -8803,6 +8811,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [Wh1t3Fox/cve-2018-15473](https://github.com/Wh1t3Fox/cve-2018-15473)
 - [1stPeak/CVE-2018-15473](https://github.com/1stPeak/CVE-2018-15473)
 - [coollce/CVE-2018-15473_burte](https://github.com/coollce/CVE-2018-15473_burte)
+- [crAckZ0p/CVE-2018-15473-py3](https://github.com/crAckZ0p/CVE-2018-15473-py3)
 
 ### CVE-2018-15499 (2018-08-24)
 
