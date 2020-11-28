@@ -9768,6 +9768,14 @@ In Pydio before 8.2.2, an attack is possible via PHP Object Injection because a 
 
 - [us3r777/CVE-2018-20718](https://github.com/us3r777/CVE-2018-20718)
 
+### CVE-2018-20966 (2019-08-12)
+
+<code>
+The woocommerce-jetpack plugin before 3.8.0 for WordPress has XSS in the Products Per Page feature.
+</code>
+
+- [parzel/CVE-2018-20966](https://github.com/parzel/CVE-2018-20966)
+
 ### CVE-2018-1000001 (2018-01-31)
 
 <code>
