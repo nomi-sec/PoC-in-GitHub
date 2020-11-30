@@ -3063,7 +3063,12 @@ osCommerce 2.3.4.1 has XSS vulnerability via the authenticated user entering the
 
 - [aslanemre/cve-2020-29070](https://github.com/aslanemre/cve-2020-29070)
 
-### CVE-2020-29364
+### CVE-2020-29364 (2020-11-30)
+
+<code>
+In NetArt News Lister 1.0.0, the news headlines vulnerable to stored xss attacks. Attackers can inject codes in news titles.
+</code>
+
 - [aslanemre/CVE-2020-29364](https://github.com/aslanemre/CVE-2020-29364)
 
 ### CVE-2020-72381
