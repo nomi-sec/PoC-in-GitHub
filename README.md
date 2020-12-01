@@ -1437,14 +1437,6 @@ Guangzhou 1GE ONU V2801RW 1.9.1-181203 through 2.9.0-181024 and V2804RGW 1.9.1-1
 
 - [qurbat/gpon](https://github.com/qurbat/gpon)
 
-### CVE-2020-9006 (2020-02-17)
-
-<code>
-The Popup Builder plugin 2.2.8 through 2.6.7.6 for WordPress is vulnerable to SQL injection (in the sgImportPopups function in sg_popup_ajax.php) via PHP Deserialization on attacker-controlled data with the attachmentUrl POST variable. This allows creation of an arbitrary WordPress Administrator account, leading to possible Remote Code Execution because Administrators can run PHP code on Wordpress instances. (This issue has been fixed in the 3.x branch of popup-builder.)
-</code>
-
-- [tz4678/cve-2020-9006](https://github.com/tz4678/cve-2020-9006)
-
 ### CVE-2020-9008 (2020-02-25)
 
 <code>
@@ -2995,6 +2987,9 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 </code>
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
+
+### CVE-2020-27950
+- [synacktiv/CVE-2020-27950](https://github.com/synacktiv/CVE-2020-27950)
 
 ### CVE-2020-27955 (2020-11-05)
 
