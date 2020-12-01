@@ -7846,6 +7846,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [Y0n0Y/cve-2018-8120-exp](https://github.com/Y0n0Y/cve-2018-8120-exp)
 - [DreamoneOnly/CVE-2018-8120](https://github.com/DreamoneOnly/CVE-2018-8120)
 - [StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120)
+- [wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120)
 
 ### CVE-2018-8172 (2018-07-10)
 
@@ -9228,14 +9229,6 @@ Bitcoin Core 0.14.x before 0.14.3, 0.15.x before 0.15.2, and 0.16.x before 0.16.
 
 - [iioch/ban-exploitable-bitcoin-nodes](https://github.com/iioch/ban-exploitable-bitcoin-nodes)
 - [hikame/CVE-2018-17144_POC](https://github.com/hikame/CVE-2018-17144_POC)
-
-### CVE-2018-17145 (2020-09-10)
-
-<code>
-Bitcoin Core 0.16.x before 0.16.2 and Bitcoin Knots 0.16.x before 0.16.2 allow remote denial of service via a flood of multiple transaction inv messages with random hashes, aka INVDoS. NOTE: this can also affect other cryptocurrencies, e.g., if they were forked from Bitcoin Core after 2017-11-15.
-</code>
-
-- [eabz/invdos](https://github.com/eabz/invdos)
 
 ### CVE-2018-17182 (2018-09-19)
 
