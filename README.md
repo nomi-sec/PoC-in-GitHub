@@ -808,6 +808,14 @@ VMware Cloud Director 10.0.x before 10.0.0.2, 9.7.0.x before 9.7.0.5, 9.5.0.x be
 
 - [aaronsvk/CVE-2020-3956](https://github.com/aaronsvk/CVE-2020-3956)
 
+### CVE-2020-3992 (2020-10-20)
+
+<code>
+OpenSLP as used in VMware ESXi (7.0 before ESXi_7.0.1-0.0.16850804, 6.7 before ESXi670-202010401-SG, 6.5 before ESXi650-202010401-SG) has a use-after-free issue. A malicious actor residing in the management network who has access to port 427 on an ESXi machine may be able to trigger a use-after-free in the OpenSLP service resulting in remote code execution.
+</code>
+
+- [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
+
 ### CVE-2020-4040 (2020-06-08)
 
 <code>
@@ -3944,6 +3952,14 @@ The mincore() implementation in mm/mincore.c in the Linux kernel through 4.19.13
 </code>
 
 - [mmxsrup/CVE-2019-5489](https://github.com/mmxsrup/CVE-2019-5489)
+
+### CVE-2019-5544 (2019-12-06)
+
+<code>
+OpenSLP as used in ESXi and the Horizon DaaS appliances has a heap overwrite issue. VMware has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8.
+</code>
+
+- [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 
 ### CVE-2019-5624 (2019-04-30)
 
