@@ -2774,7 +2774,12 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 
 - [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 
-### CVE-2020-25265
+### CVE-2020-25265 (2020-12-02)
+
+<code>
+AppImage libappimage before 1.0.3 allows attackers to trigger an overwrite of a system-installed .desktop file by providing a .desktop file that contains Name= with path components.
+</code>
+
 - [refi64/CVE-2020-25265-25266](https://github.com/refi64/CVE-2020-25265-25266)
 
 ### CVE-2020-25270 (2020-10-08)
@@ -13611,7 +13616,7 @@ The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and K
 </code>
 
 - [vincentbernat/cve-2015-3456](https://github.com/vincentbernat/cve-2015-3456)
-- [MauroEldritch/venom](https://github.com/MauroEldritch/venom)
+- [orf53975/poisonfrog](https://github.com/orf53975/poisonfrog)
 
 ### CVE-2015-3636 (2015-08-05)
 
