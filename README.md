@@ -2774,6 +2774,9 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 
 - [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 
+### CVE-2020-25265
+- [refi64/CVE-2020-25265-25266](https://github.com/refi64/CVE-2020-25265-25266)
+
 ### CVE-2020-25270 (2020-10-08)
 
 <code>
