@@ -2147,6 +2147,14 @@ A SQL injection issue in the gVectors wpDiscuz plugin 5.3.5 and earlier for Word
 
 - [asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640)
 
+### CVE-2020-13646 (2020-06-05)
+
+<code>
+In Cheetah free WiFi 5.1, the driver file (liebaonat.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x830020f8, 0x830020E0, 0x830020E4, or 0x8300210c.
+</code>
+
+- [y5s5k5/CVE-2020-13646](https://github.com/y5s5k5/CVE-2020-13646)
+
 ### CVE-2020-13777 (2020-06-04)
 
 <code>
@@ -2407,7 +2415,16 @@ OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to
 In Jiangmin Antivirus 16.0.13.129, the driver file (KVFG.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x220440.
 </code>
 
+- [y5s5k5/CVE-2020-14955](https://github.com/y5s5k5/CVE-2020-14955)
 - [intrigus-lgtm/CVE-2020-14955](https://github.com/intrigus-lgtm/CVE-2020-14955)
+
+### CVE-2020-14957 (2020-06-30)
+
+<code>
+In Windows cleaning assistant 3.2, the driver file (AtpKrnl.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x223CCD.
+</code>
+
+- [y5s5k5/CVE-2020-14957](https://github.com/y5s5k5/CVE-2020-14957)
 
 ### CVE-2020-14965 (2020-06-23)
 
@@ -2666,6 +2683,12 @@ The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion 
 </code>
 
 - [ahussam/AVideo3xploit](https://github.com/ahussam/AVideo3xploit)
+
+### CVE-2020-23726
+- [y5s5k5/CVE-2020-23726](https://github.com/y5s5k5/CVE-2020-23726)
+
+### CVE-2020-23735
+- [y5s5k5/CVE-2020-23735](https://github.com/y5s5k5/CVE-2020-23735)
 
 ### CVE-2020-23968 (2020-11-10)
 
