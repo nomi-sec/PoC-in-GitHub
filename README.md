@@ -11474,6 +11474,7 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 - [dcsync/rtfkit](https://github.com/dcsync/rtfkit)
+- [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
 
 ### CVE-2017-11907 (2017-12-12)
 
