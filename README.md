@@ -2687,8 +2687,23 @@ The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion 
 ### CVE-2020-23726
 - [y5s5k5/CVE-2020-23726](https://github.com/y5s5k5/CVE-2020-23726)
 
+### CVE-2020-23727
+- [y5s5k5/CVE-2020-23727](https://github.com/y5s5k5/CVE-2020-23727)
+
 ### CVE-2020-23735
 - [y5s5k5/CVE-2020-23735](https://github.com/y5s5k5/CVE-2020-23735)
+
+### CVE-2020-23736
+- [y5s5k5/CVE-2020-23736](https://github.com/y5s5k5/CVE-2020-23736)
+
+### CVE-2020-23738
+- [y5s5k5/CVE-2020-23738](https://github.com/y5s5k5/CVE-2020-23738)
+
+### CVE-2020-23740
+- [y5s5k5/CVE-2020-23740](https://github.com/y5s5k5/CVE-2020-23740)
+
+### CVE-2020-23741
+- [y5s5k5/CVE-2020-23741](https://github.com/y5s5k5/CVE-2020-23741)
 
 ### CVE-2020-23968 (2020-11-10)
 
@@ -3048,6 +3063,9 @@ JamoDat TSMManager Collector version up to 6.5.0.21 is vulnerable to an Authoriz
 </code>
 
 - [VoidSec/Tivoli-Madness](https://github.com/VoidSec/Tivoli-Madness)
+
+### CVE-2020-28175
+- [y5s5k5/CVE-2020-28175](https://github.com/y5s5k5/CVE-2020-28175)
 
 ### CVE-2020-28328 (2020-11-06)
 
