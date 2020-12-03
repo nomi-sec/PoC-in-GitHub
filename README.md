@@ -2684,25 +2684,60 @@ The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion 
 
 - [ahussam/AVideo3xploit](https://github.com/ahussam/AVideo3xploit)
 
-### CVE-2020-23726
+### CVE-2020-23726 (2020-12-03)
+
+<code>
+There is a local denial of service vulnerability in Wise Care 365 5.5.4, attackers can cause computer crash (BSOD).
+</code>
+
 - [y5s5k5/CVE-2020-23726](https://github.com/y5s5k5/CVE-2020-23726)
 
-### CVE-2020-23727
+### CVE-2020-23727 (2020-12-03)
+
+<code>
+There is a local denial of service vulnerability in the Antiy Zhijia Terminal Defense System 5.0.2.10121559 and an attacker can cause a computer crash (BSOD).
+</code>
+
 - [y5s5k5/CVE-2020-23727](https://github.com/y5s5k5/CVE-2020-23727)
 
-### CVE-2020-23735
+### CVE-2020-23735 (2020-12-03)
+
+<code>
+In Saibo Cyber Game Accelerator 3.7.9 there is a local privilege escalation vulnerability. Attackers can use the constructed program to increase user privileges
+</code>
+
 - [y5s5k5/CVE-2020-23735](https://github.com/y5s5k5/CVE-2020-23735)
 
-### CVE-2020-23736
+### CVE-2020-23736 (2020-12-03)
+
+<code>
+There is a local denial of service vulnerability in DaDa accelerator 5.6.19.816,, attackers can use constructed programs to cause computer crashes (BSOD).
+</code>
+
 - [y5s5k5/CVE-2020-23736](https://github.com/y5s5k5/CVE-2020-23736)
 
-### CVE-2020-23738
+### CVE-2020-23738 (2020-12-03)
+
+<code>
+There is a local denial of service vulnerability in Advanced SystemCare 13 PRO 13.5.0.174. Attackers can use a constructed program to cause a computer crash (BSOD)
+</code>
+
 - [y5s5k5/CVE-2020-23738](https://github.com/y5s5k5/CVE-2020-23738)
 
-### CVE-2020-23740
+### CVE-2020-23740 (2020-12-03)
+
+<code>
+In DriverGenius 9.61.5480.28 there is a local privilege escalation vulnerability in the driver wizard, attackers can use constructed programs to increase user privileges.
+</code>
+
 - [y5s5k5/CVE-2020-23740](https://github.com/y5s5k5/CVE-2020-23740)
 
-### CVE-2020-23741
+### CVE-2020-23741 (2020-12-03)
+
+<code>
+In AnyView (network police) network monitoring software 4.6.0.1, there is a local denial of service vulnerability in AnyView, attackers can use a constructed program to cause a computer crash (BSOD).
+</code>
+
 - [y5s5k5/CVE-2020-23741](https://github.com/y5s5k5/CVE-2020-23741)
 
 ### CVE-2020-23968 (2020-11-10)
@@ -2990,6 +3025,9 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 
 - [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
 
+### CVE-2020-27151
+- [kata-containers/runtime-CVE-2020-27151](https://github.com/kata-containers/runtime-CVE-2020-27151)
+
 ### CVE-2020-27194 (2020-10-16)
 
 <code>
@@ -3064,7 +3102,12 @@ JamoDat TSMManager Collector version up to 6.5.0.21 is vulnerable to an Authoriz
 
 - [VoidSec/Tivoli-Madness](https://github.com/VoidSec/Tivoli-Madness)
 
-### CVE-2020-28175
+### CVE-2020-28175 (2020-12-03)
+
+<code>
+There is a local privilege escalation vulnerability in Alfredo Milani Comparetti SpeedFan 4.52. Attackers can use constructed programs to increase user privileges
+</code>
+
 - [y5s5k5/CVE-2020-28175](https://github.com/y5s5k5/CVE-2020-28175)
 
 ### CVE-2020-28328 (2020-11-06)
@@ -5663,6 +5706,14 @@ A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x befo
 
 - [jas502n/CVE-2019-14439](https://github.com/jas502n/CVE-2019-14439)
 
+### CVE-2019-14450 (2019-10-28)
+
+<code>
+A directory traversal vulnerability was discovered in RepetierServer.exe in Repetier-Server 0.8 through 0.91 that allows for the creation of a user controlled XML file at an unintended location. When this is combined with CVE-2019-14451, an attacker can upload an &quot;external command&quot; configuration as a printer configuration, and achieve remote code execution. After exploitation, loading of the external command configuration is dependent on a system reboot or service restart.
+</code>
+
+- [securifera/CVE-2019-14450](https://github.com/securifera/CVE-2019-14450)
+
 ### CVE-2019-14514 (2020-02-10)
 
 <code>
@@ -5791,6 +5842,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [n0obit4/Webmin_1.890-POC](https://github.com/n0obit4/Webmin_1.890-POC)
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
+- [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -6146,7 +6198,7 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [gsheller/Solr_CVE-2019-17558](https://github.com/gsheller/Solr_CVE-2019-17558)
-- [hunter-404/Solr-CVE-2019-17558](https://github.com/hunter-404/Solr-CVE-2019-17558)
+- [pan3a/Solr-CVE-2019-17558](https://github.com/pan3a/Solr-CVE-2019-17558)
 
 ### CVE-2019-17564 (2020-04-01)
 
