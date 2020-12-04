@@ -2146,14 +2146,6 @@ A SQL injection issue in the gVectors wpDiscuz plugin 5.3.5 and earlier for Word
 
 - [asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640)
 
-### CVE-2020-13646 (2020-06-05)
-
-<code>
-In Cheetah free WiFi 5.1, the driver file (liebaonat.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x830020f8, 0x830020E0, 0x830020E4, or 0x8300210c.
-</code>
-
-- [y5s5k5/CVE-2020-13646](https://github.com/y5s5k5/CVE-2020-13646)
-
 ### CVE-2020-13777 (2020-06-04)
 
 <code>
@@ -2414,16 +2406,7 @@ OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to
 In Jiangmin Antivirus 16.0.13.129, the driver file (KVFG.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x220440.
 </code>
 
-- [y5s5k5/CVE-2020-14955](https://github.com/y5s5k5/CVE-2020-14955)
 - [intrigus-lgtm/CVE-2020-14955](https://github.com/intrigus-lgtm/CVE-2020-14955)
-
-### CVE-2020-14957 (2020-06-30)
-
-<code>
-In Windows cleaning assistant 3.2, the driver file (AtpKrnl.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x223CCD.
-</code>
-
-- [y5s5k5/CVE-2020-14957](https://github.com/y5s5k5/CVE-2020-14957)
 
 ### CVE-2020-14965 (2020-06-23)
 
@@ -2682,62 +2665,6 @@ The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion 
 </code>
 
 - [ahussam/AVideo3xploit](https://github.com/ahussam/AVideo3xploit)
-
-### CVE-2020-23726 (2020-12-03)
-
-<code>
-There is a local denial of service vulnerability in Wise Care 365 5.5.4, attackers can cause computer crash (BSOD).
-</code>
-
-- [y5s5k5/CVE-2020-23726](https://github.com/y5s5k5/CVE-2020-23726)
-
-### CVE-2020-23727 (2020-12-03)
-
-<code>
-There is a local denial of service vulnerability in the Antiy Zhijia Terminal Defense System 5.0.2.10121559 and an attacker can cause a computer crash (BSOD).
-</code>
-
-- [y5s5k5/CVE-2020-23727](https://github.com/y5s5k5/CVE-2020-23727)
-
-### CVE-2020-23735 (2020-12-03)
-
-<code>
-In Saibo Cyber Game Accelerator 3.7.9 there is a local privilege escalation vulnerability. Attackers can use the constructed program to increase user privileges
-</code>
-
-- [y5s5k5/CVE-2020-23735](https://github.com/y5s5k5/CVE-2020-23735)
-
-### CVE-2020-23736 (2020-12-03)
-
-<code>
-There is a local denial of service vulnerability in DaDa accelerator 5.6.19.816,, attackers can use constructed programs to cause computer crashes (BSOD).
-</code>
-
-- [y5s5k5/CVE-2020-23736](https://github.com/y5s5k5/CVE-2020-23736)
-
-### CVE-2020-23738 (2020-12-03)
-
-<code>
-There is a local denial of service vulnerability in Advanced SystemCare 13 PRO 13.5.0.174. Attackers can use a constructed program to cause a computer crash (BSOD)
-</code>
-
-- [y5s5k5/CVE-2020-23738](https://github.com/y5s5k5/CVE-2020-23738)
-
-### CVE-2020-23740 (2020-12-03)
-
-<code>
-In DriverGenius 9.61.5480.28 there is a local privilege escalation vulnerability in the driver wizard, attackers can use constructed programs to increase user privileges.
-</code>
-
-- [y5s5k5/CVE-2020-23740](https://github.com/y5s5k5/CVE-2020-23740)
-
-### CVE-2020-23741 (2020-12-03)
-
-<code>
-In AnyView (network police) network monitoring software 4.6.0.1, there is a local denial of service vulnerability in AnyView, attackers can use a constructed program to cause a computer crash (BSOD).
-</code>
-
-- [y5s5k5/CVE-2020-23741](https://github.com/y5s5k5/CVE-2020-23741)
 
 ### CVE-2020-23968 (2020-11-10)
 
@@ -3100,14 +3027,6 @@ JamoDat TSMManager Collector version up to 6.5.0.21 is vulnerable to an Authoriz
 </code>
 
 - [VoidSec/Tivoli-Madness](https://github.com/VoidSec/Tivoli-Madness)
-
-### CVE-2020-28175 (2020-12-03)
-
-<code>
-There is a local privilege escalation vulnerability in Alfredo Milani Comparetti SpeedFan 4.52. Attackers can use constructed programs to increase user privileges
-</code>
-
-- [y5s5k5/CVE-2020-28175](https://github.com/y5s5k5/CVE-2020-28175)
 
 ### CVE-2020-28328 (2020-11-06)
 
