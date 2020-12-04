@@ -989,7 +989,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [murataydemir/CVE-2020-5902](https://github.com/murataydemir/CVE-2020-5902)
 - [superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902)
 - [ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability](https://github.com/ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability)
-- [EtoYoshio/t_pwn](https://github.com/EtoYoshio/t_pwn)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -16223,6 +16222,7 @@ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function be
 
 - [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
 - [notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392)
+- [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
 
 ### CVE-2006-3592 (2006-07-14)
 
