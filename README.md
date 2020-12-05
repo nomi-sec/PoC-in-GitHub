@@ -854,7 +854,7 @@ Waitress version 1.4.2 allows a DOS attack When waitress receives a header that 
 GLPI before before version 9.4.6 has a vulnerability involving a default encryption key. GLPIKEY is public and is used on every instance. This means anyone can decrypt sensitive data stored using this key. It is possible to change the key before installing GLPI. But on existing instances, data must be reencrypted with the new key. Problem is we can not know which columns or rows in the database are using that; espcially from plugins. Changing the key without updating data would lend in bad password sent from glpi; but storing them again from the UI will work.
 </code>
 
-- [devious-way/CVE-2020-5248](https://github.com/devious-way/CVE-2020-5248)
+- [indevi0us/CVE-2020-5248](https://github.com/indevi0us/CVE-2020-5248)
 
 ### CVE-2020-5250 (2020-03-05)
 
