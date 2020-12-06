@@ -10573,6 +10573,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638)
 - [pasannirmana/Aspire](https://github.com/pasannirmana/Aspire)
 - [ludy-dev/XworkStruts-RCE](https://github.com/ludy-dev/XworkStruts-RCE)
+- [jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
@@ -16155,6 +16156,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 - [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
 - [nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer)
+- [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
