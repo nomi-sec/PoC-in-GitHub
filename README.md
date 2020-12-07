@@ -14690,7 +14690,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [rashmikadileeshara/CVE-2014-6271-Shellshock-](https://github.com/rashmikadileeshara/CVE-2014-6271-Shellshock-)
 - [Dilith006/CVE-2014-6271](https://github.com/Dilith006/CVE-2014-6271)
 - [cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271)
-- [MuirlandOracle/CVE-2014-6271](https://github.com/MuirlandOracle/CVE-2014-6271)
+- [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 
 ### CVE-2014-6287 (2014-10-07)
 
