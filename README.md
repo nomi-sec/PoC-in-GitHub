@@ -3024,7 +3024,12 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 
 - [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
 
-### CVE-2020-27151
+### CVE-2020-27151 (2020-12-07)
+
+<code>
+An issue was discovered in Kata Containers through 1.11.3 and 2.x through 2.0-rc1. The runtime will execute binaries given using annotations without any kind of validation. Someone who is granted access rights to a cluster will be able to have kata-runtime execute arbitrary binaries as root on the worker nodes.
+</code>
+
 - [kata-containers/runtime-CVE-2020-27151](https://github.com/kata-containers/runtime-CVE-2020-27151)
 
 ### CVE-2020-27194 (2020-10-16)
@@ -4021,6 +4026,14 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 
 - [knqyf263/CVE-2019-5420](https://github.com/knqyf263/CVE-2019-5420)
 - [cved-sources/cve-2019-5420](https://github.com/cved-sources/cve-2019-5420)
+
+### CVE-2019-5454 (2019-07-30)
+
+<code>
+SQL Injection in the Nextcloud Android app prior to version 3.0.0 allows to destroy a local cache when a harmful query is executed requiring to resetup the account.
+</code>
+
+- [shanika04/nextcloud_android](https://github.com/shanika04/nextcloud_android)
 
 ### CVE-2019-5475 (2019-09-03)
 
