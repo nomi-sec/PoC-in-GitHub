@@ -1321,6 +1321,9 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 
 - [imjdl/CVE-2020-8515-PoC](https://github.com/imjdl/CVE-2020-8515-PoC)
 
+### CVE-2020-8554
+- [rancher/externalip-webhook](https://github.com/rancher/externalip-webhook)
+
 ### CVE-2020-8558 (2020-07-27)
 
 <code>
