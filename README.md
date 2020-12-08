@@ -743,7 +743,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 </code>
 
 - [pry0cc/CVE-2020-3187](https://github.com/pry0cc/CVE-2020-3187)
-- [Basu-banakar/CVE-2020-3187](https://github.com/Basu-banakar/CVE-2020-3187)
+- [Ph4nt0m-b/CVE-2020-3187](https://github.com/Ph4nt0m-b/CVE-2020-3187)
 
 ### CVE-2020-3433 (2020-08-17)
 
@@ -1185,6 +1185,7 @@ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows
 - [wcxxxxx/CVE-2020-7961](https://github.com/wcxxxxx/CVE-2020-7961)
 - [thelostworldFree/CVE-2020-7961-payloads](https://github.com/thelostworldFree/CVE-2020-7961-payloads)
 - [shacojx/GLiferay](https://github.com/shacojx/GLiferay)
+- [shacojx/POC-CVE-2020-7961-Token-iterate](https://github.com/shacojx/POC-CVE-2020-7961-Token-iterate)
 
 ### CVE-2020-7980 (2020-01-25)
 
@@ -3002,6 +3003,14 @@ ClickStudios Passwordstate Password Reset Portal prior to build 8501 is affected
 </code>
 
 - [missing0x00/CVE-2020-26061](https://github.com/missing0x00/CVE-2020-26061)
+
+### CVE-2020-26217 (2020-11-16)
+
+<code>
+XStream before version 1.4.14 is vulnerable to Remote Code Execution.The vulnerability may allow a remote attacker to run arbitrary shell commands only by manipulating the processed input stream. Only users who rely on blocklists are affected. Anyone using XStream's Security Framework allowlist is not affected. The linked advisory provides code workarounds for users who cannot upgrade. The issue is fixed in version 1.4.14.
+</code>
+
+- [novysodope/CVE-2020-26217-XStream-RCE-POC](https://github.com/novysodope/CVE-2020-26217-XStream-RCE-POC)
 
 ### CVE-2020-26525 (2020-10-02)
 
