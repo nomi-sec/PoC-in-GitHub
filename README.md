@@ -258,6 +258,7 @@ An elevation of privilege vulnerability exists when the Windows Background Intel
 A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
 </code>
 
+- [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
 - [Aekras1a/CVE-2020-0796-PoC](https://github.com/Aekras1a/CVE-2020-0796-PoC)
 - [technion/DisableSMBCompression](https://github.com/technion/DisableSMBCompression)
 - [T13nn3s/CVE-2020-0796](https://github.com/T13nn3s/CVE-2020-0796)
@@ -2681,6 +2682,8 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 
 ### CVE-2020-17530
 - [phil-fly/CVE-2020-17530](https://github.com/phil-fly/CVE-2020-17530)
+- [shuai06/CVE-2020-17530](https://github.com/shuai06/CVE-2020-17530)
+- [ciakim/CVE-2020-17530](https://github.com/ciakim/CVE-2020-17530)
 
 ### CVE-2020-23489 (2020-11-16)
 
@@ -3091,7 +3094,12 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
 
-### CVE-2020-27950
+### CVE-2020-27950 (-)
+
+<code>
+A memory initialization issue was addressed. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.1, iOS 12.4.9, watchOS 6.2.9, Security Update 2020-006 High Sierra, Security Update 2020-006 Mojave, iOS 14.2 and iPadOS 14.2, watchOS 5.3.9, macOS Catalina 10.15.7 Supplemental Update, macOS Catalina 10.15.7 Update. A malicious application may be able to disclose kernel memory.
+</code>
+
 - [synacktiv/CVE-2020-27950](https://github.com/synacktiv/CVE-2020-27950)
 
 ### CVE-2020-27955 (2020-11-05)
@@ -7106,6 +7114,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [111ddea/cve-2018-2894](https://github.com/111ddea/cve-2018-2894)
 - [LandGrey/CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894)
 - [jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894)
+- [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
 - [changpin666com/CVE-2018-2894-Weblogic-](https://github.com/changpin666com/CVE-2018-2894-Weblogic-)
 
 ### CVE-2018-3191 (2018-10-16)
