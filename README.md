@@ -2679,6 +2679,9 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 - [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
+### CVE-2020-17530
+- [phil-fly/CVE-2020-17530](https://github.com/phil-fly/CVE-2020-17530)
+
 ### CVE-2020-23489 (2020-11-16)
 
 <code>
@@ -3165,6 +3168,9 @@ Archive_Tar through 1.4.10 allows an unserialization attack because phar: is blo
 </code>
 
 - [0x240x23elu/CVE-2020-28948-and-CVE-2020-28949](https://github.com/0x240x23elu/CVE-2020-28948-and-CVE-2020-28949)
+
+### CVE-2020-29007
+- [seqred-s-a/cve-2020-29007](https://github.com/seqred-s-a/cve-2020-29007)
 
 ### CVE-2020-29070 (2020-11-25)
 
