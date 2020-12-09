@@ -2684,6 +2684,7 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [phil-fly/CVE-2020-17530](https://github.com/phil-fly/CVE-2020-17530)
 - [shuai06/CVE-2020-17530](https://github.com/shuai06/CVE-2020-17530)
 - [ciakim/CVE-2020-17530](https://github.com/ciakim/CVE-2020-17530)
+- [pangyu360es/CVE-2020-17530](https://github.com/pangyu360es/CVE-2020-17530)
 
 ### CVE-2020-23489 (2020-11-16)
 
@@ -3094,7 +3095,7 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
 
-### CVE-2020-27950 (-)
+### CVE-2020-27950 (2020-12-08)
 
 <code>
 A memory initialization issue was addressed. This issue is fixed in macOS Big Sur 11.0.1, watchOS 7.1, iOS 12.4.9, watchOS 6.2.9, Security Update 2020-006 High Sierra, Security Update 2020-006 Mojave, iOS 14.2 and iPadOS 14.2, watchOS 5.3.9, macOS Catalina 10.15.7 Supplemental Update, macOS Catalina 10.15.7 Update. A malicious application may be able to disclose kernel memory.
