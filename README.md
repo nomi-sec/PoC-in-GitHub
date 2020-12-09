@@ -2680,11 +2680,13 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 - [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
-### CVE-2020-17530
-- [phil-fly/CVE-2020-17530](https://github.com/phil-fly/CVE-2020-17530)
-- [shuai06/CVE-2020-17530](https://github.com/shuai06/CVE-2020-17530)
-- [ciakim/CVE-2020-17530](https://github.com/ciakim/CVE-2020-17530)
-- [pangyu360es/CVE-2020-17530](https://github.com/pangyu360es/CVE-2020-17530)
+### CVE-2020-17531 (2020-12-08)
+
+<code>
+A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapestry 4 will attempt to deserialize the &quot;sp&quot; parameter even before invoking the page's validate method, leading to deserialization without authentication. Apache Tapestry 4 reached end of life in 2008 and no update to address this issue will be released. Apache Tapestry 5 versions are not vulnerable to this issue. Users of Apache Tapestry 4 should upgrade to the latest Apache Tapestry 5 version.
+</code>
+
+- [Xia0Ny1/CVE-2020-17531](https://github.com/Xia0Ny1/CVE-2020-17531)
 
 ### CVE-2020-23489 (2020-11-16)
 
