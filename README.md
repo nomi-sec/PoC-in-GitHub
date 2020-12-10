@@ -59,6 +59,14 @@ In postNotification of ServiceRecord.java, there is a possible bypass of foregro
 
 - [CrackerCat/ServiceCheater](https://github.com/CrackerCat/ServiceCheater)
 
+### CVE-2020-0113 (2020-06-10)
+
+<code>
+In sendCaptureResult of Camera3OutputUtils.cpp, there is a possible out of bounds read due to a use after free. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-9Android ID: A-150944913
+</code>
+
+- [XDo0/ServiceCheater](https://github.com/XDo0/ServiceCheater)
+
 ### CVE-2020-0114 (2020-06-10)
 
 <code>
@@ -651,6 +659,14 @@ Server or client applications that call the SSL_check_chain() function during or
 
 - [irsl/CVE-2020-1967](https://github.com/irsl/CVE-2020-1967)
 
+### CVE-2020-1971 (2020-12-08)
+
+<code>
+The X.509 GeneralName type is a generic type for representing different types of names. One of those name types is known as EDIPartyName. OpenSSL provides a function GENERAL_NAME_cmp which compares different instances of a GENERAL_NAME to see if they are equal or not. This function behaves incorrectly when both GENERAL_NAMEs contain an EDIPARTYNAME. A NULL pointer dereference and a crash may occur leading to a possible denial of service attack. OpenSSL itself uses the GENERAL_NAME_cmp function for two purposes: 1) Comparing CRL distribution point names between an available CRL and a CRL distribution point embedded in an X509 certificate 2) When verifying that a timestamp response token signer matches the timestamp authority name (exposed via the API functions TS_RESP_verify_response and TS_RESP_verify_token) If an attacker can control both items being compared then that attacker could trigger a crash. For example if the attacker can trick a client or server into checking a malicious certificate against a malicious CRL then this may occur. Note that some applications automatically download CRLs based on a URL embedded in a certificate. This checking happens prior to the signatures on the certificate and CRL being verified. OpenSSL's s_server, s_client and verify tools have support for the &quot;-crl_download&quot; option which implements automatic CRL downloading and this attack has been demonstrated to work against those tools. Note that an unrelated bug means that affected versions of OpenSSL cannot parse or construct correct encodings of EDIPARTYNAME. However it is possible to construct a malformed EDIPARTYNAME that OpenSSL's parser will accept and hence trigger this attack. All OpenSSL 1.1.1 and 1.0.2 versions are affected by this issue. Other OpenSSL releases are out of support and have not been checked. Fixed in OpenSSL 1.1.1i (Affected 1.1.1-1.1.1h). Fixed in OpenSSL 1.0.2x (Affected 1.0.2-1.0.2w).
+</code>
+
+- [MBHudson/CVE-2020-1971](https://github.com/MBHudson/CVE-2020-1971)
+
 ### CVE-2020-1983 (2020-04-22)
 
 <code>
@@ -825,6 +841,30 @@ Bolt CMS before version 3.7.1 lacked CSRF protection in the preview generating e
 
 - [jpvispo/RCE-Exploit-Bolt-3.7.0-CVE-2020-4040-4041](https://github.com/jpvispo/RCE-Exploit-Bolt-3.7.0-CVE-2020-4040-4041)
 
+### CVE-2020-4051 (2020-06-15)
+
+<code>
+In Dijit before versions 1.11.11, and greater than or equal to 1.12.0 and less than 1.12.9, and greater than or equal to 1.13.0 and less than 1.13.8, and greater than or equal to 1.14.0 and less than 1.14.7, and greater than or equal to 1.15.0 and less than 1.15.4, and greater than or equal to 1.16.0 and less than 1.16.3, there is a cross-site scripting vulnerability in the Editor's LinkDialog plugin. This has been fixed in 1.11.11, 1.12.9, 1.13.8, 1.14.7, 1.15.4, 1.16.3.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-4051](https://github.com/ossf-cve-benchmark/CVE-2020-4051)
+
+### CVE-2020-4059 (2020-06-18)
+
+<code>
+In mversion before 2.0.0, there is a command injection vulnerability. This issue may lead to remote code execution if a client of the library calls the vulnerable method with untrusted input. This vulnerability is patched by version 2.0.0. Previous releases are deprecated in npm. As a workaround, make sure to escape git commit messages when using the commitMessage option for the update function.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-4059](https://github.com/ossf-cve-benchmark/CVE-2020-4059)
+
+### CVE-2020-4066 (2020-06-22)
+
+<code>
+In Limdu before 0.95, the trainBatch function has a command injection vulnerability. Clients of the Limdu library are unlikely to be aware of this, so they might unwittingly write code that contains a vulnerability. This has been patched in 0.95.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-4066](https://github.com/ossf-cve-benchmark/CVE-2020-4066)
+
 ### CVE-2020-4276 (2020-03-26)
 
 <code>
@@ -865,6 +905,14 @@ In PrestaShop before version 1.7.6.4, when a customer edits their address, they 
 
 - [drkbcn/lblfixer_cve2020_5250](https://github.com/drkbcn/lblfixer_cve2020_5250)
 
+### CVE-2020-5251 (2020-03-04)
+
+<code>
+In parser-server before version 4.1.0, you can fetch all the users objects, by using regex in the NoSQL query. Using the NoSQL, you can use a regex on sessionToken and find valid accounts this way.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-5251](https://github.com/ossf-cve-benchmark/CVE-2020-5251)
+
 ### CVE-2020-5254 (2020-03-10)
 
 <code>
@@ -872,6 +920,14 @@ In NetHack before 3.6.6, some out-of-bound values for the hilite_status option c
 </code>
 
 - [dpmdpm2/CVE-2020-5254](https://github.com/dpmdpm2/CVE-2020-5254)
+
+### CVE-2020-5258 (2020-03-10)
+
+<code>
+In affected versions of dojo (NPM package), the deepCopy method is vulnerable to Prototype Pollution. Prototype Pollution refers to the ability to inject properties into existing JavaScript language construct prototypes, such as objects. An attacker manipulates these attributes to overwrite, or pollute, a JavaScript application object prototype of the base object by injecting other values. This has been patched in versions 1.12.8, 1.13.7, 1.14.6, 1.15.3 and 1.16.2
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-5258](https://github.com/ossf-cve-benchmark/CVE-2020-5258)
 
 ### CVE-2020-5260 (2020-04-14)
 
@@ -1068,6 +1124,14 @@ UPS companion software v1.05 &amp; Prior is affected by ‘Eval Injection’ vul
 
 - [RavSS/Eaton-UPS-Companion-Exploit](https://github.com/RavSS/Eaton-UPS-Companion-Exploit)
 
+### CVE-2020-6836 (2020-01-10)
+
+<code>
+grammar-parser.jison in the hot-formula-parser package before 3.0.1 for Node.js is vulnerable to arbitrary code injection. The package fails to sanitize values passed to the parse function and concatenates them in an eval call. If a value of the formula is taken from user-controlled input, it may allow attackers to run arbitrary commands on the server.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-6836](https://github.com/ossf-cve-benchmark/CVE-2020-6836)
+
 ### CVE-2020-6861 (2020-05-06)
 
 <code>
@@ -1132,6 +1196,30 @@ In certain situations, all versions of Citrix ShareFile StorageZones (aka storag
 
 - [DimitriNL/CTX-CVE-2020-7473](https://github.com/DimitriNL/CTX-CVE-2020-7473)
 
+### CVE-2020-7638 (2020-04-06)
+
+<code>
+confinit through 0.3.0 is vulnerable to Prototype Pollution.The 'setDeepProperty' function could be tricked into adding or modifying properties of 'Object.prototype' using a '__proto__' payload.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7638](https://github.com/ossf-cve-benchmark/CVE-2020-7638)
+
+### CVE-2020-7656 (2020-05-19)
+
+<code>
+jquery prior to 1.9.0 allows Cross-site Scripting attacks via the load method. The load method fails to recognize and remove &quot;&lt;script&gt;&quot; HTML tags that contain a whitespace character, i.e: &quot;&lt;/script &gt;&quot;, which results in the enclosed script logic to be executed.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7656](https://github.com/ossf-cve-benchmark/CVE-2020-7656)
+
+### CVE-2020-7660 (2020-06-01)
+
+<code>
+serialize-javascript prior to 3.1.0 allows remote attackers to inject arbitrary code via the function &quot;deleteFunctions&quot; within &quot;index.js&quot;.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7660](https://github.com/ossf-cve-benchmark/CVE-2020-7660)
+
 ### CVE-2020-7661 (2020-06-04)
 
 <code>
@@ -1140,6 +1228,22 @@ all versions of url-regex are vulnerable to Regular Expression Denial of Service
 
 - [niftylettuce/url-regex-safe](https://github.com/niftylettuce/url-regex-safe)
 
+### CVE-2020-7662 (2020-06-02)
+
+<code>
+websocket-extensions npm module prior to 1.0.4 allows Denial of Service (DoS) via Regex Backtracking. The extension parser may take quadratic time when parsing a header containing an unclosed string parameter value whose content is a repeating two-byte sequence of a backslash and some other character. This could be abused by an attacker to conduct Regex Denial Of Service (ReDoS) on a single-threaded server by providing a malicious payload with the Sec-WebSocket-Extensions header.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7662](https://github.com/ossf-cve-benchmark/CVE-2020-7662)
+
+### CVE-2020-7676 (2020-06-08)
+
+<code>
+angular.js prior to 1.8.0 allows cross site scripting. The regex-based input HTML replacement may turn sanitized code into unsanitized one. Wrapping &quot;&lt;option&gt;&quot; elements in &quot;&lt;select&gt;&quot; ones changes parsing behavior, leading to possibly unsanitizing code.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7676](https://github.com/ossf-cve-benchmark/CVE-2020-7676)
+
 ### CVE-2020-7693 (2020-07-09)
 
 <code>
@@ -1147,6 +1251,46 @@ Incorrect handling of Upgrade header with the value websocket leads in crashing 
 </code>
 
 - [andsnw/sockjs-dos-py](https://github.com/andsnw/sockjs-dos-py)
+
+### CVE-2020-7699 (2020-07-30)
+
+<code>
+This affects the package express-fileupload before 1.1.8. If the parseNested option is enabled, sending a corrupt HTTP request can lead to denial of service or arbitrary code execution.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7699](https://github.com/ossf-cve-benchmark/CVE-2020-7699)
+
+### CVE-2020-7720 (2020-09-01)
+
+<code>
+The package node-forge before 0.10.0 is vulnerable to Prototype Pollution via the util.setPath function. Note: Version 0.10.0 is a breaking change removing the vulnerable functions.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7720](https://github.com/ossf-cve-benchmark/CVE-2020-7720)
+
+### CVE-2020-7750 (2020-10-21)
+
+<code>
+This affects the package scratch-svg-renderer before 0.2.0-prerelease.20201019174008. The loadString function does not escape SVG properly, which can be used to inject arbitrary elements into the DOM via the _transformMeasurements function.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7750](https://github.com/ossf-cve-benchmark/CVE-2020-7750)
+
+### CVE-2020-7752 (2020-10-26)
+
+<code>
+This affects the package systeminformation before 4.27.11. This package is vulnerable to Command Injection. The attacker can concatenate curl's parameters to overwrite Javascript files and then execute any OS commands.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7752](https://github.com/ossf-cve-benchmark/CVE-2020-7752)
+
+### CVE-2020-7763 (2020-11-05)
+
+<code>
+This affects the package phantom-html-to-pdf before 0.6.1.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-7763](https://github.com/ossf-cve-benchmark/CVE-2020-7763)
 
 ### CVE-2020-7799 (2020-01-28)
 
@@ -1220,6 +1364,30 @@ A vulnerability in the improper handling of symbolic links in Bitdefender Antivi
 
 - [RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP](https://github.com/RedyOpsResearchLabs/-CVE-2020-8103-Bitdefender-Antivirus-Free-EoP)
 
+### CVE-2020-8116 (2020-02-04)
+
+<code>
+Prototype pollution vulnerability in dot-prop npm package versions before 4.2.1 and versions 5.x before 5.1.1 allows an attacker to add arbitrary properties to JavaScript language constructs such as objects.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-8116](https://github.com/ossf-cve-benchmark/CVE-2020-8116)
+
+### CVE-2020-8135 (2020-03-20)
+
+<code>
+The uppy npm package &lt; 1.9.3 is vulnerable to a Server-Side Request Forgery (SSRF) vulnerability, which allows an attacker to scan local or external network or otherwise interact with internal systems.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-8135](https://github.com/ossf-cve-benchmark/CVE-2020-8135)
+
+### CVE-2020-8149 (2020-05-15)
+
+<code>
+Lack of output sanitization allowed an attack to execute arbitrary shell commands via the logkitty npm package before version 0.7.1.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-8149](https://github.com/ossf-cve-benchmark/CVE-2020-8149)
+
 ### CVE-2020-8150 (2020-11-09)
 
 <code>
@@ -1254,6 +1422,14 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 - [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
 - [umiterkol/CVE-2020-8165--Auto-Shell](https://github.com/umiterkol/CVE-2020-8165--Auto-Shell)
 
+### CVE-2020-8192 (2020-07-30)
+
+<code>
+A denial of service vulnerability exists in Fastify v2.14.1 and v3.0.0-rc.4 that allows a malicious user to trigger resource exhaustion (when the allErrors option is used) with specially crafted schemas.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-8192](https://github.com/ossf-cve-benchmark/CVE-2020-8192)
+
 ### CVE-2020-8193 (2020-07-10)
 
 <code>
@@ -1265,6 +1441,22 @@ Improper access control in Citrix ADC and Citrix Gateway versions before 13.0-58
 - [Zeop-CyberSec/citrix_adc_netscaler_lfi](https://github.com/Zeop-CyberSec/citrix_adc_netscaler_lfi)
 - [PR3R00T/CVE-2020-8193-Citrix-Scanner](https://github.com/PR3R00T/CVE-2020-8193-Citrix-Scanner)
 - [ctlyz123/CVE-2020-8193](https://github.com/ctlyz123/CVE-2020-8193)
+
+### CVE-2020-8203 (2020-07-15)
+
+<code>
+Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-8203](https://github.com/ossf-cve-benchmark/CVE-2020-8203)
+
+### CVE-2020-8205 (2020-07-20)
+
+<code>
+The uppy npm package &lt; 1.13.2 and &lt; 2.0.0-alpha.5 is vulnerable to a Server-Side Request Forgery (SSRF) vulnerability, which allows an attacker to scan local or external networks or otherwise interact with internal systems.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-8205](https://github.com/ossf-cve-benchmark/CVE-2020-8205)
 
 ### CVE-2020-8209 (2020-08-17)
 
@@ -1289,6 +1481,14 @@ A vulnerability in the Pulse Secure Desktop Client &lt; 9.1R9 could allow the at
 </code>
 
 - [withdk/pulse-secure-vpn-mitm-research](https://github.com/withdk/pulse-secure-vpn-mitm-research)
+
+### CVE-2020-8244 (2020-08-30)
+
+<code>
+A buffer over-read vulnerability exists in bl &lt;4.0.3, &lt;3.0.1, &lt;2.2.1, and &lt;1.2.3 which could allow an attacker to supply user input (even typed) that if it ends up in consume() argument and can become negative, the BufferList state can be corrupted, tricking it into exposing uninitialized memory via regular .slice() calls.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-8244](https://github.com/ossf-cve-benchmark/CVE-2020-8244)
 
 ### CVE-2020-8277 (2020-11-18)
 
@@ -1456,6 +1656,7 @@ Joplin through 1.0.184 allows Arbitrary File Read via XSS.
 </code>
 
 - [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
+- [ossf-cve-benchmark/CVE-2020-9038](https://github.com/ossf-cve-benchmark/CVE-2020-9038)
 
 ### CVE-2020-9047 (2020-06-26)
 
@@ -1759,6 +1960,30 @@ GitLab EE/CE 8.5 to 12.9 is vulnerable to a an path traversal when moving an iss
 - [thewhiteh4t/cve-2020-10977](https://github.com/thewhiteh4t/cve-2020-10977)
 - [JustMichi/CVE-2020-10977.py](https://github.com/JustMichi/CVE-2020-10977.py)
 
+### CVE-2020-11021 (2020-04-29)
+
+<code>
+Actions Http-Client (NPM @actions/http-client) before version 1.0.8 can disclose Authorization headers to incorrect domain in certain redirect scenarios. The conditions in which this happens are if consumers of the http-client: 1. make an http request with an authorization header 2. that request leads to a redirect (302) and 3. the redirect url redirects to another domain or hostname Then the authorization header will get passed to the other domain. The problem is fixed in version 1.0.8.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-11021](https://github.com/ossf-cve-benchmark/CVE-2020-11021)
+
+### CVE-2020-11022 (2020-04-29)
+
+<code>
+In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-11022](https://github.com/ossf-cve-benchmark/CVE-2020-11022)
+
+### CVE-2020-11059 (2020-05-27)
+
+<code>
+In AEgir greater than or equal to 21.7.0 and less than 21.10.1, aegir publish and aegir build may leak secrets from environment variables in the browser bundle published to npm. This has been fixed in 21.10.1.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-11059](https://github.com/ossf-cve-benchmark/CVE-2020-11059)
+
 ### CVE-2020-11076 (2020-05-22)
 
 <code>
@@ -1766,6 +1991,14 @@ In Puma (RubyGem) before 4.3.4 and 3.12.5, an attacker could smuggle an HTTP res
 </code>
 
 - [dentarg/cougar](https://github.com/dentarg/cougar)
+
+### CVE-2020-11079 (2020-05-28)
+
+<code>
+node-dns-sync (npm module dns-sync) through 0.2.0 allows execution of arbitrary commands . This issue may lead to remote code execution if a client of the library calls the vulnerable method with untrusted input. This has been fixed in 0.2.1.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-11079](https://github.com/ossf-cve-benchmark/CVE-2020-11079)
 
 ### CVE-2020-11107 (2020-04-02)
 
@@ -1967,6 +2200,14 @@ Zoho ManageEngine OpManager Stable build before 124196 and Released build before
 </code>
 
 - [BeetleChunks/CVE-2020-12116](https://github.com/BeetleChunks/CVE-2020-12116)
+
+### CVE-2020-12265 (2020-04-26)
+
+<code>
+The decompress package before 4.2.1 for Node.js is vulnerable to Arbitrary File Write via ../ in an archive member, when a symlink is used, because of Directory Traversal.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-12265](https://github.com/ossf-cve-benchmark/CVE-2020-12265)
 
 ### CVE-2020-12432 (2020-07-21)
 
@@ -2253,6 +2494,14 @@ The J2Store plugin before 3.3.13 for Joomla! allows a SQL injection attack by a 
 
 - [mkelepce/CVE-2020-13996](https://github.com/mkelepce/CVE-2020-13996)
 
+### CVE-2020-14000 (2020-07-16)
+
+<code>
+MIT Lifelong Kindergarten Scratch scratch-vm before 0.2.0-prerelease.20200714185213 loads extension URLs from untrusted project.json files with certain _ characters, resulting in remote code execution because the URL's content is treated as a script and is executed as a worker. The responsible code is getExtensionIdForOpcode in serialization/sb3.js. The use of _ is incompatible with a protection mechanism in older versions, in which URLs were split and consequently deserialization attacks were prevented. NOTE: the scratch.mit.edu hosted service is not affected because of the lack of worker scripts.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-14000](https://github.com/ossf-cve-benchmark/CVE-2020-14000)
+
 ### CVE-2020-14064 (2020-07-15)
 
 <code>
@@ -2462,6 +2711,54 @@ An issue was discovered in Artica Proxy CE before 4.28.030.418. Reflected XSS ex
 
 - [pratikshad19/CVE-2020-15053](https://github.com/pratikshad19/CVE-2020-15053)
 
+### CVE-2020-15092 (2020-07-09)
+
+<code>
+In TimelineJS before version 3.7.0, some user data renders as HTML. An attacker could implement an XSS exploit with maliciously crafted content in a number of data fields. This risk is present whether the source data for the timeline is stored on Google Sheets or in a JSON configuration file. Most TimelineJS users configure their timeline with a Google Sheets document. Those users are exposed to this vulnerability if they grant write access to the document to a malicious inside attacker, if the access of a trusted user is compromised, or if they grant public write access to the document. Some TimelineJS users configure their timeline with a JSON document. Those users are exposed to this vulnerability if they grant write access to the document to a malicious inside attacker, if the access of a trusted user is compromised, or if write access to the system hosting that document is otherwise compromised. Version 3.7.0 of TimelineJS addresses this in two ways. For content which is intended to support limited HTML markup for styling and linking, that content is &quot;sanitized&quot; before being added to the DOM. For content intended for simple text display, all markup is stripped. Very few users of TimelineJS actually install the TimelineJS code on their server. Most users publish a timeline using a URL hosted on systems we control. The fix for this issue is published to our system such that **those users will automatically begin using the new code**. The only exception would be users who have deliberately edited the embed URL to &quot;pin&quot; their timeline to an earlier version of the code. Some users of TimelineJS use it as a part of a wordpress plugin (knight-lab-timelinejs). Version 3.7.0.0 of that plugin and newer integrate the updated code. Users are encouraged to update the plugin rather than manually update the embedded version of TimelineJS.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-15092](https://github.com/ossf-cve-benchmark/CVE-2020-15092)
+
+### CVE-2020-15095 (2020-07-07)
+
+<code>
+Versions of the npm CLI prior to 6.14.6 are vulnerable to an information exposure vulnerability through log files. The CLI supports URLs like &quot;&lt;protocol&gt;://[&lt;user&gt;[:&lt;password&gt;]@]&lt;hostname&gt;[:&lt;port&gt;][:][/]&lt;path&gt;&quot;. The password value is not redacted and is printed to stdout and also to any generated log files.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-15095](https://github.com/ossf-cve-benchmark/CVE-2020-15095)
+
+### CVE-2020-15119 (2020-08-19)
+
+<code>
+In auth0-lock versions before and including 11.25.1, dangerouslySetInnerHTML is used to update the DOM. When dangerouslySetInnerHTML is used, the application and its users might be exposed to cross-site scripting (XSS) attacks.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-15119](https://github.com/ossf-cve-benchmark/CVE-2020-15119)
+
+### CVE-2020-15123 (2020-07-20)
+
+<code>
+In codecov (npm package) before version 3.7.1 the upload method has a command injection vulnerability. Clients of the codecov-node library are unlikely to be aware of this, so they might unwittingly write code that contains a vulnerability. A similar CVE (CVE-2020-7597 for GHSA-5q88-cjfq-g2mh) was issued but the fix was incomplete. It only blocked &amp;, and command injection is still possible using backticks instead to bypass the sanitizer. The attack surface is low in this case. Particularly in the standard use of codecov, where the module is used directly in a build pipeline, not built against as a library in another application that may supply malicious input and perform command injection.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-15123](https://github.com/ossf-cve-benchmark/CVE-2020-15123)
+
+### CVE-2020-15135 (2020-08-04)
+
+<code>
+save-server (npm package) before version 1.05 is affected by a CSRF vulnerability, as there is no CSRF mitigation (Tokens etc.). The fix introduced in version version 1.05 unintentionally breaks uploading so version v1.0.7 is the fixed version. This is patched by implementing Double submit. The CSRF attack would require you to navigate to a malicious site while you have an active session with Save-Server (Session key stored in cookies). The malicious user would then be able to perform some actions, including uploading/deleting files and adding redirects. If you are logged in as root, this attack is significantly more severe. They can in addition create, delete and update users. If they updated the password of a user, that user's files would then be available. If the root password is updated, all files would be visible if they logged in with the new password. Note that due to the same origin policy malicious actors cannot view the gallery or the response of any of the methods, nor be sure they succeeded. This issue has been patched in version 1.0.7.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-15135](https://github.com/ossf-cve-benchmark/CVE-2020-15135)
+
+### CVE-2020-15138 (2020-08-07)
+
+<code>
+Prism is vulnerable to Cross-Site Scripting. The easing preview of the Previewers plugin has an XSS vulnerability that allows attackers to execute arbitrary code in Safari and Internet Explorer. This impacts all Safari and Internet Explorer users of Prism &gt;=v1.1.0 that use the _Previewers_ plugin (&gt;=v1.10.0) or the _Previewer: Easing_ plugin (v1.1.0 to v1.9.0). This problem is fixed in version 1.21.0. To workaround the issue without upgrading, disable the easing preview on all impacted code blocks. You need Prism v1.10.0 or newer to apply this workaround.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-15138](https://github.com/ossf-cve-benchmark/CVE-2020-15138)
+
 ### CVE-2020-15148 (2020-09-15)
 
 <code>
@@ -2470,6 +2767,22 @@ Yii 2 (yiisoft/yii2) before version 2.0.38 is vulnerable to remote code executio
 
 - [Maskhe/CVE-2020-15148-bypasses](https://github.com/Maskhe/CVE-2020-15148-bypasses)
 - [0xkami/cve-2020-15148](https://github.com/0xkami/cve-2020-15148)
+
+### CVE-2020-15152 (2020-08-17)
+
+<code>
+ftp-srv versions 1.0.0 through 4.3.3 are vulnerable to Server-Side Request Forgery. The PORT command allows arbitrary IPs which can be used to cause the server to make a connection elsewhere. A possible workaround is blocking the PORT through the configuration. This issue is fixed in version 4.3.4. More information can be found on the linked advisory.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-15152](https://github.com/ossf-cve-benchmark/CVE-2020-15152)
+
+### CVE-2020-15156 (2020-08-26)
+
+<code>
+In nodebb-plugin-blog-comments before version 0.7.0, a logged in user is vulnerable to an XSS attack which could allow a third party to post on their behalf on the forum. This is due to lack of CSRF validation.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-15156](https://github.com/ossf-cve-benchmark/CVE-2020-15156)
 
 ### CVE-2020-15169 (2020-09-11)
 
@@ -2496,6 +2809,14 @@ In the `@actions/core` npm module before version 1.2.6,`addPath` and `exportVari
 </code>
 
 - [guettli/fix-CVE-2020-15228](https://github.com/guettli/fix-CVE-2020-15228)
+
+### CVE-2020-15256 (2020-10-19)
+
+<code>
+A prototype pollution vulnerability has been found in `object-path` &lt;= 0.11.4 affecting the `set()` method. The vulnerability is limited to the `includeInheritedProps` mode (if version &gt;= 0.11.0 is used), which has to be explicitly enabled by creating a new instance of `object-path` and setting the option `includeInheritedProps: true`, or by using the default `withInheritedProps` instance. The default operating mode is not affected by the vulnerability if version &gt;= 0.11.0 is used. Any usage of `set()` in versions &lt; 0.11.0 is vulnerable. The issue is fixed in object-path version 0.11.5 As a workaround, don't use the `includeInheritedProps: true` options or the `withInheritedProps` instance if using a version &gt;= 0.11.0.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-15256](https://github.com/ossf-cve-benchmark/CVE-2020-15256)
 
 ### CVE-2020-15349 (2020-11-16)
 
@@ -2663,6 +2984,15 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 
+### CVE-2020-17144 (2020-12-09)
+
+<code>
+, aka 'Microsoft Exchange Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-17117, CVE-2020-17132, CVE-2020-17141, CVE-2020-17142.
+</code>
+
+- [Airboi/CVE-2020-17144-EXP](https://github.com/Airboi/CVE-2020-17144-EXP)
+- [zcgonvh/CVE-2020-17144](https://github.com/zcgonvh/CVE-2020-17144)
+
 ### CVE-2020-17382 (2020-10-02)
 
 <code>
@@ -2680,13 +3010,8 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 - [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
-### CVE-2020-17531 (2020-12-08)
-
-<code>
-A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapestry 4 will attempt to deserialize the &quot;sp&quot; parameter even before invoking the page's validate method, leading to deserialization without authentication. Apache Tapestry 4 reached end of life in 2008 and no update to address this issue will be released. Apache Tapestry 5 versions are not vulnerable to this issue. Users of Apache Tapestry 4 should upgrade to the latest Apache Tapestry 5 version.
-</code>
-
-- [Xia0Ny1/CVE-2020-17531](https://github.com/Xia0Ny1/CVE-2020-17531)
+### CVE-2020-17530
+- [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 
 ### CVE-2020-23489 (2020-11-16)
 
@@ -3021,6 +3346,22 @@ XStream before version 1.4.14 is vulnerable to Remote Code Execution.The vulnera
 
 - [novysodope/CVE-2020-26217-XStream-RCE-POC](https://github.com/novysodope/CVE-2020-26217-XStream-RCE-POC)
 
+### CVE-2020-26226 (2020-11-18)
+
+<code>
+In the npm package semantic-release before version 17.2.3, secrets that would normally be masked by `semantic-release` can be accidentally disclosed if they contain characters that become encoded when included in a URL. Secrets that do not contain characters that become encoded when included in a URL are already masked properly. The issue is fixed in version 17.2.3.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-26226](https://github.com/ossf-cve-benchmark/CVE-2020-26226)
+
+### CVE-2020-26256 (2020-12-08)
+
+<code>
+Fast-csv is an npm package for parsing and formatting CSVs or any other delimited value file in node. In fast-cvs before version 4.3.6 there is a possible ReDoS vulnerability (Regular Expression Denial of Service) when using ignoreEmpty option when parsing. This has been patched in `v4.3.6` You will only be affected by this if you use the `ignoreEmpty` parsing option. If you do use this option it is recommended that you upgrade to the latest version `v4.3.6` This vulnerability was found using a CodeQL query which identified `EMPTY_ROW_REGEXP` regular expression as vulnerable.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-26256](https://github.com/ossf-cve-benchmark/CVE-2020-26256)
+
 ### CVE-2020-26525 (2020-10-02)
 
 <code>
@@ -3080,6 +3421,14 @@ BigBlueButton before 2.2.27 has an unsafe JODConverter setting in which LibreOff
 </code>
 
 - [hannob/CVE-2020-27603-bbb-libreoffice-poc](https://github.com/hannob/CVE-2020-27603-bbb-libreoffice-poc)
+
+### CVE-2020-27666 (2020-10-22)
+
+<code>
+Strapi before 3.2.5 has stored XSS in the wysiwyg editor's preview feature.
+</code>
+
+- [ossf-cve-benchmark/CVE-2020-27666](https://github.com/ossf-cve-benchmark/CVE-2020-27666)
 
 ### CVE-2020-27688 (2020-11-05)
 
@@ -3198,6 +3547,12 @@ In NetArt News Lister 1.0.0, the news headlines vulnerable to stored xss attacks
 </code>
 
 - [aslanemre/CVE-2020-29364](https://github.com/aslanemre/CVE-2020-29364)
+
+### CVE-2020-29666
+- [jet-pentest/CVE-2020-29666](https://github.com/jet-pentest/CVE-2020-29666)
+
+### CVE-2020-29667
+- [jet-pentest/CVE-2020-29667](https://github.com/jet-pentest/CVE-2020-29667)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -4032,6 +4387,22 @@ An exploitable command injection vulnerability exists in the iocheckd service �
 
 - [ClarotyICS/CVE-2019-5170](https://github.com/ClarotyICS/CVE-2019-5170)
 
+### CVE-2019-5413 (2019-03-17)
+
+<code>
+An attacker can use the format parameter to inject arbitrary commands in the npm package morgan &lt; 1.9.1.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-5413](https://github.com/ossf-cve-benchmark/CVE-2019-5413)
+
+### CVE-2019-5414 (2019-03-17)
+
+<code>
+If an attacker can control the port, which in itself is a very sensitive value, they can inject arbitrary OS commands due to the usage of the exec function in a third-party module kill-port &lt; 1.3.2.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-5414](https://github.com/ossf-cve-benchmark/CVE-2019-5414)
+
 ### CVE-2019-5418 (2019-03-27)
 
 <code>
@@ -4056,6 +4427,22 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [knqyf263/CVE-2019-5420](https://github.com/knqyf263/CVE-2019-5420)
 - [cved-sources/cve-2019-5420](https://github.com/cved-sources/cve-2019-5420)
 
+### CVE-2019-5423 (2019-04-03)
+
+<code>
+Path traversal vulnerability in http-live-simulator npm package version 1.0.5 allows arbitrary path to be accessed on the file system by a remote attacker.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-5423](https://github.com/ossf-cve-benchmark/CVE-2019-5423)
+
+### CVE-2019-5444 (2019-07-10)
+
+<code>
+Path traversal vulnerability in version up to v1.1.3 in serve-here.js npm module allows attackers to list any file in arbitrary folder.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-5444](https://github.com/ossf-cve-benchmark/CVE-2019-5444)
+
 ### CVE-2019-5454 (2019-07-30)
 
 <code>
@@ -4072,6 +4459,30 @@ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution whe
 
 - [jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-](https://github.com/jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-)
 - [rabbitmask/CVE-2019-5475-EXP](https://github.com/rabbitmask/CVE-2019-5475-EXP)
+
+### CVE-2019-5479 (2019-09-03)
+
+<code>
+An unintended require vulnerability in &lt;v0.5.5 larvitbase-api may allow an attacker to load arbitrary non-production code (JavaScript file).
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-5479](https://github.com/ossf-cve-benchmark/CVE-2019-5479)
+
+### CVE-2019-5483 (2019-09-09)
+
+<code>
+Seneca &lt; 3.9.0 contains a vulnerability that could lead to exposing environment variables to unauthorized users.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-5483](https://github.com/ossf-cve-benchmark/CVE-2019-5483)
+
+### CVE-2019-5484 (2019-09-13)
+
+<code>
+Bower before 1.8.8 has a path traversal vulnerability permitting file write in arbitrary locations via install command, which allows attackers to write arbitrary files when a malicious package is extracted.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-5484](https://github.com/ossf-cve-benchmark/CVE-2019-5484)
 
 ### CVE-2019-5489 (2019-01-07)
 
@@ -4446,6 +4857,14 @@ ColdFusion versions Update 3 and earlier, Update 10 and earlier, and Update 18 a
 
 - [securifera/CVE-2019-7839](https://github.com/securifera/CVE-2019-7839)
 
+### CVE-2019-8331 (2019-02-20)
+
+<code>
+In Bootstrap before 3.4.1 and 4.3.x before 4.3.1, XSS is possible in the tooltip or popover data-template attribute.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-8331](https://github.com/ossf-cve-benchmark/CVE-2019-8331)
+
 ### CVE-2019-8389 (2019-02-16)
 
 <code>
@@ -4549,6 +4968,14 @@ A memory corruption issue was addressed with improved state management. This iss
 
 - [A2nkF/macOS-Kernel-Exploit](https://github.com/A2nkF/macOS-Kernel-Exploit)
 - [TrungNguyen1909/CVE-2019-8781-macOS](https://github.com/TrungNguyen1909/CVE-2019-8781-macOS)
+
+### CVE-2019-8903 (2019-02-18)
+
+<code>
+index.js in Total.js Platform before 3.2.3 allows path traversal.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-8903](https://github.com/ossf-cve-benchmark/CVE-2019-8903)
 
 ### CVE-2019-8936 (2019-05-15)
 
@@ -4764,6 +5191,14 @@ Incorrect alias information in IonMonkey JIT compiler for Array.prototype.slice 
 - [xuechiyaobai/CVE-2019-9810-PoC](https://github.com/xuechiyaobai/CVE-2019-9810-PoC)
 - [0vercl0k/CVE-2019-9810](https://github.com/0vercl0k/CVE-2019-9810)
 
+### CVE-2019-9844 (2019-03-15)
+
+<code>
+simple-markdown.js in Khan Academy simple-markdown before 0.4.4 allows XSS via a data: or vbscript: URI.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-9844](https://github.com/ossf-cve-benchmark/CVE-2019-9844)
+
 ### CVE-2019-9896 (2019-03-20)
 
 <code>
@@ -4791,6 +5226,14 @@ Zoho ManageEngine ServiceDesk 9.3 allows session hijacking and privilege escalat
 
 - [FlameOfIgnis/CVE-2019-10008](https://github.com/FlameOfIgnis/CVE-2019-10008)
 
+### CVE-2019-10061 (2019-03-25)
+
+<code>
+utils/find-opencv.js in node-opencv (aka OpenCV bindings for Node.js) prior to 6.1.0 is vulnerable to Command Injection. It does not validate user input allowing attackers to execute arbitrary commands.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10061](https://github.com/ossf-cve-benchmark/CVE-2019-10061)
+
 ### CVE-2019-10086 (2019-08-20)
 
 <code>
@@ -4798,6 +5241,14 @@ In Apache Commons Beanutils 1.9.2, a special BeanIntrospector class was added wh
 </code>
 
 - [evilangelplus/CVE-2019-10086](https://github.com/evilangelplus/CVE-2019-10086)
+
+### CVE-2019-10090 (2019-09-23)
+
+<code>
+On Apache JSPWiki, up to version 2.11.0.M4, a carefully crafted plugin link invocation could trigger an XSS vulnerability on Apache JSPWiki, related to the plain editor, which could allow the attacker to execute javascript in the victim's browser and get some sensitive information about the victim.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10090](https://github.com/ossf-cve-benchmark/CVE-2019-10090)
 
 ### CVE-2019-10092 (2019-09-26)
 
@@ -4882,6 +5333,62 @@ S-CMS PHP v1.0 has SQL injection via the 4/js/scms.php?action=unlike id paramete
 
 - [stavhaygn/CVE-2019-10708](https://github.com/stavhaygn/CVE-2019-10708)
 
+### CVE-2019-10742 (2019-05-07)
+
+<code>
+Axios up to and including 0.18.0 allows attackers to cause a denial of service (application crash) by continuing to accepting content after maxContentLength is exceeded.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10742](https://github.com/ossf-cve-benchmark/CVE-2019-10742)
+
+### CVE-2019-10744 (2019-07-25)
+
+<code>
+Versions of lodash lower than 4.17.12 are vulnerable to Prototype Pollution. The function defaultsDeep could be tricked into adding or modifying properties of Object.prototype using a constructor payload.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10744](https://github.com/ossf-cve-benchmark/CVE-2019-10744)
+
+### CVE-2019-10745 (2019-08-20)
+
+<code>
+assign-deep is vulnerable to Prototype Pollution in versions before 0.4.8 and version 1.0.0. The function assign-deep could be tricked into adding or modifying properties of Object.prototype using either a constructor or a _proto_ payload.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10745](https://github.com/ossf-cve-benchmark/CVE-2019-10745)
+
+### CVE-2019-10746 (2019-08-23)
+
+<code>
+mixin-deep is vulnerable to Prototype Pollution in versions before 1.3.2 and version 2.0.0. The function mixin-deep could be tricked into adding or modifying properties of Object.prototype using a constructor payload.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10746](https://github.com/ossf-cve-benchmark/CVE-2019-10746)
+
+### CVE-2019-10747 (2019-08-23)
+
+<code>
+set-value is vulnerable to Prototype Pollution in versions lower than 3.0.1. The function mixin-deep could be tricked into adding or modifying properties of Object.prototype using any of the constructor, prototype and _proto_ payloads.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10747](https://github.com/ossf-cve-benchmark/CVE-2019-10747)
+
+### CVE-2019-10750 (2019-08-23)
+
+<code>
+deeply is vulnerable to Prototype Pollution in versions before 3.1.0. The function assign-deep could be tricked into adding or modifying properties of Object.prototype using using a _proto_ payload.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10750](https://github.com/ossf-cve-benchmark/CVE-2019-10750)
+
+### CVE-2019-10757 (2019-10-08)
+
+<code>
+knex.js versions before 0.19.5 are vulnerable to SQL Injection attack. Identifiers are escaped incorrectly as part of the MSSQL dialect, allowing attackers to craft a malicious query to the host DB.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10757](https://github.com/ossf-cve-benchmark/CVE-2019-10757)
+
 ### CVE-2019-10758 (2019-12-24)
 
 <code>
@@ -4890,6 +5397,74 @@ mongo-express before 0.54.0 is vulnerable to Remote Code Execution via endpoints
 
 - [masahiro331/CVE-2019-10758](https://github.com/masahiro331/CVE-2019-10758)
 - [lp008/CVE-2019-10758](https://github.com/lp008/CVE-2019-10758)
+- [ossf-cve-benchmark/CVE-2019-10758](https://github.com/ossf-cve-benchmark/CVE-2019-10758)
+
+### CVE-2019-10759 (2019-10-15)
+
+<code>
+safer-eval before 1.3.4 are vulnerable to Arbitrary Code Execution. A payload using constructor properties can escape the sandbox and execute arbitrary code.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10759](https://github.com/ossf-cve-benchmark/CVE-2019-10759)
+
+### CVE-2019-10761
+- [ossf-cve-benchmark/CVE-2019-10761](https://github.com/ossf-cve-benchmark/CVE-2019-10761)
+
+### CVE-2019-10765 (2019-11-20)
+
+<code>
+iobroker.admin before 3.6.12 allows attacker to include file contents from outside the `/log/file1/` directory.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10765](https://github.com/ossf-cve-benchmark/CVE-2019-10765)
+
+### CVE-2019-10767 (2019-11-21)
+
+<code>
+An attacker can include file contents from outside the `/adapter/xxx/` directory, where `xxx` is the name of an existent adapter like &quot;admin&quot;. It is exploited using the administrative web panel with a request for an adapter file. **Note:** The attacker has to be logged in if the authentication is enabled (by default isn't enabled).
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10767](https://github.com/ossf-cve-benchmark/CVE-2019-10767)
+
+### CVE-2019-10771 (2019-11-25)
+
+<code>
+Characters in the GET url path are not properly escaped and can be reflected in the server response.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10771](https://github.com/ossf-cve-benchmark/CVE-2019-10771)
+
+### CVE-2019-10775 (2020-01-02)
+
+<code>
+ecstatic have a denial of service vulnerability. Successful exploitation could lead to crash of an application.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10775](https://github.com/ossf-cve-benchmark/CVE-2019-10775)
+
+### CVE-2019-10776 (2020-01-07)
+
+<code>
+In &quot;index.js&quot; file line 240, the run command executes the git command with a user controlled variable called remoteUrl. This affects git-diff-apply all versions prior to 0.22.2.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10776](https://github.com/ossf-cve-benchmark/CVE-2019-10776)
+
+### CVE-2019-10777 (2020-01-08)
+
+<code>
+In aws-lambda versions prior to version 1.0.5, the &quot;config.FunctioName&quot; is used to construct the argument used within the &quot;exec&quot; function without any sanitization. It is possible for a user to inject arbitrary commands to the &quot;zipCmd&quot; used within &quot;config.FunctionName&quot;.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10777](https://github.com/ossf-cve-benchmark/CVE-2019-10777)
+
+### CVE-2019-10778 (2020-01-08)
+
+<code>
+devcert-sanscache before 0.4.7 allows remote attackers to execute arbitrary code or cause a Command Injection via the exec function. The variable `commonName` controlled by user input is used as part of the `exec` function without any sanitization.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10778](https://github.com/ossf-cve-benchmark/CVE-2019-10778)
 
 ### CVE-2019-10779 (2020-01-27)
 
@@ -4898,6 +5473,22 @@ All versions of stroom:stroom-app before 5.5.12 and all versions of the 6.0.0 br
 </code>
 
 - [RepublicR0K/CVE-2019-10779](https://github.com/RepublicR0K/CVE-2019-10779)
+
+### CVE-2019-10781 (2020-01-22)
+
+<code>
+In schema-inspector before 1.6.9, a maliciously crafted JavaScript object can bypass the `sanitize()` and the `validate()` function used within schema-inspector.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10781](https://github.com/ossf-cve-benchmark/CVE-2019-10781)
+
+### CVE-2019-10785 (2020-02-13)
+
+<code>
+dojox is vulnerable to Cross-site Scripting in all versions before version 1.16.1, 1.15.2, 1.14.5, 1.13.6, 1.12.7 and 1.11.9. This is due to dojox.xmpp.util.xmlEncode only encoding the first occurrence of each character, not all of them.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-10785](https://github.com/ossf-cve-benchmark/CVE-2019-10785)
 
 ### CVE-2019-10869 (2019-05-07)
 
@@ -4999,6 +5590,7 @@ jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishan
 - [DanielRuf/snyk-js-jquery-174006](https://github.com/DanielRuf/snyk-js-jquery-174006)
 - [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
+- [ossf-cve-benchmark/CVE-2019-11358](https://github.com/ossf-cve-benchmark/CVE-2019-11358)
 
 ### CVE-2019-11447 (2019-04-22)
 
@@ -5150,6 +5742,22 @@ A heap buffer overflow bug in libpl_droidsonroids_gif before 1.2.19, as used in 
 
 - [NatleoJ/CVE-2019-11933](https://github.com/NatleoJ/CVE-2019-11933)
 
+### CVE-2019-12041 (2019-05-13)
+
+<code>
+lib/common/html_re.js in remarkable 1.7.1 allows Regular Expression Denial of Service (ReDoS) via a CDATA section.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-12041](https://github.com/ossf-cve-benchmark/CVE-2019-12041)
+
+### CVE-2019-12043 (2019-05-13)
+
+<code>
+In remarkable 1.7.1, lib/parser_inline.js mishandles URL filtering, which allows attackers to trigger XSS via unprintable characters, as demonstrated by a \x0ejavascript: URL.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-12043](https://github.com/ossf-cve-benchmark/CVE-2019-12043)
+
 ### CVE-2019-12086 (2019-05-17)
 
 <code>
@@ -5240,6 +5848,14 @@ In OpenWrt LuCI through 0.10, the endpoints admin/status/realtime/bandwidth_stat
 
 - [HACHp1/LuCI_RCE_exp](https://github.com/HACHp1/LuCI_RCE_exp)
 - [roguedream/lede-17.01.3](https://github.com/roguedream/lede-17.01.3)
+
+### CVE-2019-12313 (2019-05-24)
+
+<code>
+XSS exists in Shave before 2.5.3 because output encoding is mishandled during the overwrite of an HTML element.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-12313](https://github.com/ossf-cve-benchmark/CVE-2019-12313)
 
 ### CVE-2019-12314 (2019-05-24)
 
@@ -5514,6 +6130,14 @@ In libssh2 before 1.9.0, kex_method_diffie_hellman_group_exchange_sha256_key_exc
 - [viz27/Libssh2-Exploit](https://github.com/viz27/Libssh2-Exploit)
 - [CSSProject/libssh2-Exploit](https://github.com/CSSProject/libssh2-Exploit)
 
+### CVE-2019-13127 (2019-07-01)
+
+<code>
+An issue was discovered in mxGraph through 4.0.0, related to the &quot;draw.io Diagrams&quot; plugin before 8.3.14 for Confluence and other products. Improper input validation/sanitization of a color field leads to XSS. This is associated with javascript/examples/grapheditor/www/js/Dialogs.js.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-13127](https://github.com/ossf-cve-benchmark/CVE-2019-13127)
+
 ### CVE-2019-13143 (2019-08-06)
 
 <code>
@@ -5521,6 +6145,14 @@ An HTTP parameter pollution issue was discovered on Shenzhen Dragon Brothers Fin
 </code>
 
 - [securelayer7/pwnfb50](https://github.com/securelayer7/pwnfb50)
+
+### CVE-2019-13173 (2019-07-02)
+
+<code>
+fstream before 1.0.12 is vulnerable to Arbitrary File Overwrite. Extracting tarballs containing a hardlink to a file that already exists in the system, and a file that matches the hardlink, will overwrite the system's file with the contents of the extracted file. The fstream.DirWriter() function is vulnerable.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-13173](https://github.com/ossf-cve-benchmark/CVE-2019-13173)
 
 ### CVE-2019-13272 (2019-07-17)
 
@@ -5595,6 +6227,14 @@ There is an out-of-bounds read in Exiv2::MrwImage::readMetadata in mrwimage.cpp 
 </code>
 
 - [hazedic/fuzzenv-exiv2](https://github.com/hazedic/fuzzenv-exiv2)
+
+### CVE-2019-13506 (2019-07-11)
+
+<code>
+@nuxt/devalue before 1.2.3, as used in Nuxt.js before 2.6.2, mishandles object keys, leading to XSS.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-13506](https://github.com/ossf-cve-benchmark/CVE-2019-13506)
 
 ### CVE-2019-13574 (2019-07-11)
 
@@ -5819,8 +6459,24 @@ NLTK Downloader before 3.4.5 is vulnerable to a directory traversal, allowing at
 
 - [mssalvatore/CVE-2019-14751_PoC](https://github.com/mssalvatore/CVE-2019-14751_PoC)
 
+### CVE-2019-14772 (2019-08-08)
+
+<code>
+verdaccio before 3.12.0 allows XSS.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-14772](https://github.com/ossf-cve-benchmark/CVE-2019-14772)
+
 ### CVE-2019-14830
 - [Fr3d-/moodle-token-stealer](https://github.com/Fr3d-/moodle-token-stealer)
+
+### CVE-2019-14862 (2020-01-02)
+
+<code>
+There is a vulnerability in knockout before version 3.5.0-beta, where after escaping the context of the web application, the web application delivers data to its users along with other trusted dynamic content, without validating it.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-14862](https://github.com/ossf-cve-benchmark/CVE-2019-14862)
 
 ### CVE-2019-14899 (2019-12-11)
 
@@ -5920,6 +6576,30 @@ The Live:Text Box macro in the Old Street Live Input Macros app before 2.11 for 
 
 - [l0nax/CVE-2019-15233](https://github.com/l0nax/CVE-2019-15233)
 
+### CVE-2019-15478 (2019-08-26)
+
+<code>
+Status Board 1.1.81 has reflected XSS via logic.ts.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-15478](https://github.com/ossf-cve-benchmark/CVE-2019-15478)
+
+### CVE-2019-15479 (2019-08-26)
+
+<code>
+Status Board 1.1.81 has reflected XSS via dashboard.ts.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-15479](https://github.com/ossf-cve-benchmark/CVE-2019-15479)
+
+### CVE-2019-15482 (2019-08-23)
+
+<code>
+selectize-plugin-a11y before 1.1.0 has XSS via the msg field.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-15482](https://github.com/ossf-cve-benchmark/CVE-2019-15482)
+
 ### CVE-2019-15511 (2019-11-21)
 
 <code>
@@ -5927,6 +6607,14 @@ An exploitable local privilege escalation vulnerability exists in the GalaxyClie
 </code>
 
 - [adenkiewicz/CVE-2019-15511](https://github.com/adenkiewicz/CVE-2019-15511)
+
+### CVE-2019-15532 (2019-08-26)
+
+<code>
+CyberChef before 8.31.2 allows XSS in core/operations/TextEncodingBruteForce.mjs.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-15532](https://github.com/ossf-cve-benchmark/CVE-2019-15532)
 
 ### CVE-2019-15605 (2020-02-07)
 
@@ -5943,6 +6631,30 @@ rpc.cgi in Webmin through 1.920 allows authenticated Remote Code Execution via a
 </code>
 
 - [jas502n/CVE-2019-15642](https://github.com/jas502n/CVE-2019-15642)
+
+### CVE-2019-15657 (2019-08-26)
+
+<code>
+In eslint-utils before 1.4.1, the getStaticValue function can execute arbitrary code.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-15657](https://github.com/ossf-cve-benchmark/CVE-2019-15657)
+
+### CVE-2019-15658 (2019-08-26)
+
+<code>
+connect-pg-simple before 6.0.1 allows SQL injection if tableName or schemaName is untrusted data.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-15658](https://github.com/ossf-cve-benchmark/CVE-2019-15658)
+
+### CVE-2019-15782 (2019-08-29)
+
+<code>
+WebTorrent before 0.107.6 allows XSS in the HTTP server via a title or file name.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-15782](https://github.com/ossf-cve-benchmark/CVE-2019-15782)
 
 ### CVE-2019-15802 (2019-11-14)
 
@@ -6113,6 +6825,22 @@ vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig
 - [ludy-dev/vBulletin_Routestring-RCE](https://github.com/ludy-dev/vBulletin_Routestring-RCE)
 - [apidotmy/CVE-2019-16759](https://github.com/apidotmy/CVE-2019-16759)
 
+### CVE-2019-16763 (2019-11-22)
+
+<code>
+In Pannellum from 2.5.0 through 2.5.4 URLs were not sanitized for data URIs (or vbscript:), allowing for potential XSS attacks. Such an attack would require a user to click on a hot spot to execute and would require an attacker-provided configuration. The most plausible potential attack would be if pannellum.htm was hosted on a domain that shared cookies with the targeted site's user authentication; an &amp;lt;iframe&amp;gt; could then be embedded on the attacker's site using pannellum.htm from the targeted site, which would allow the attacker to potentially access information from the targeted site as the authenticated user (or worse if the targeted site did not have adequate CSRF protections) if the user clicked on a hot spot in the attacker's embedded panorama viewer. This was patched in version 2.5.5.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-16763](https://github.com/ossf-cve-benchmark/CVE-2019-16763)
+
+### CVE-2019-16769 (2019-12-05)
+
+<code>
+The serialize-javascript npm package before version 2.1.1 is vulnerable to Cross-site Scripting (XSS). It does not properly mitigate against unsafe characters in serialized regular expressions. This vulnerability is not affected on Node.js environment since Node.js's implementation of RegExp.prototype.toString() backslash-escapes all forward slashes in regular expressions. If serialized data of regular expression objects are used in an environment other than Node.js, it is affected by this vulnerability.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-16769](https://github.com/ossf-cve-benchmark/CVE-2019-16769)
+
 ### CVE-2019-16784 (2020-01-14)
 
 <code>
@@ -6229,6 +6957,7 @@ A Cascading Style Sheets (CSS) injection vulnerability in Swagger UI before 3.23
 </code>
 
 - [SecT0uch/CVE-2019-17495-test](https://github.com/SecT0uch/CVE-2019-17495-test)
+- [ossf-cve-benchmark/CVE-2019-17495](https://github.com/ossf-cve-benchmark/CVE-2019-17495)
 
 ### CVE-2019-17525 (2020-04-21)
 
@@ -6279,6 +7008,14 @@ Included in Log4j 1.2 is a SocketServer class that is vulnerable to deserializat
 
 - [shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571)
 
+### CVE-2019-17592 (2019-10-14)
+
+<code>
+The csv-parse module before 4.4.6 for Node.js is vulnerable to Regular Expression Denial of Service. The __isInt() function contains a malformed regular expression that processes large crafted input very slowly. This is triggered when using the cast option.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-17592](https://github.com/ossf-cve-benchmark/CVE-2019-17592)
+
 ### CVE-2019-17596 (2019-10-24)
 
 <code>
@@ -6318,6 +7055,14 @@ In WordPress before 5.2.4, unauthenticated viewing of certain content is possibl
 </code>
 
 - [rhbb/CVE-2019-17671](https://github.com/rhbb/CVE-2019-17671)
+
+### CVE-2019-18350 (2019-10-23)
+
+<code>
+In Ant Design Pro 4.0.0, reflected XSS in the user/login redirect GET parameter affects the authorization component, leading to execution of JavaScript code in the login after-action script.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-18350](https://github.com/ossf-cve-benchmark/CVE-2019-18350)
 
 ### CVE-2019-18371 (2019-10-23)
 
@@ -6362,6 +7107,14 @@ An issue was discovered in drivers/media/platform/vivid in the Linux kernel thro
 
 - [sanjana123-cloud/CVE-2019-18683](https://github.com/sanjana123-cloud/CVE-2019-18683)
 
+### CVE-2019-18818 (2019-11-07)
+
+<code>
+strapi before 3.0.0-beta.17.5 mishandles password resets within packages/strapi-admin/controllers/Auth.js and packages/strapi-plugin-users-permissions/controllers/Auth.js.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-18818](https://github.com/ossf-cve-benchmark/CVE-2019-18818)
+
 ### CVE-2019-18873 (2019-11-11)
 
 <code>
@@ -6399,6 +7152,14 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 - [ThanHuuTuan/CVE_2019_18935](https://github.com/ThanHuuTuan/CVE_2019_18935)
 - [murataydemir/CVE-2019-18935](https://github.com/murataydemir/CVE-2019-18935)
 - [random-robbie/CVE-2019-18935](https://github.com/random-robbie/CVE-2019-18935)
+
+### CVE-2019-18954 (2019-11-13)
+
+<code>
+Pomelo v2.2.5 allows external control of critical state data. A malicious user input can corrupt arbitrary methods and attributes in template/game-server/app/servers/connector/handler/entryHandler.js because certain internal attributes can be overwritten via a conflicting name. Hence, a malicious attacker can manipulate internal attributes by adding additional attributes to user input.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-18954](https://github.com/ossf-cve-benchmark/CVE-2019-18954)
 
 ### CVE-2019-18988 (2020-02-07)
 
@@ -6490,6 +7251,14 @@ The Web application on Rittal CMC PU III 7030.000 V3.00 V3.11.00_2 to V3.15.70_4
 </code>
 
 - [miguelhamal/CVE-2019-19393](https://github.com/miguelhamal/CVE-2019-19393)
+
+### CVE-2019-19507 (2019-12-02)
+
+<code>
+In jpv (aka Json Pattern Validator) before 2.1.1, compareCommon() can be bypassed because certain internal attributes can be overwritten via a conflicting name, as demonstrated by 'constructor': {'name':'Array'}. This affects validate(). Hence, a crafted payload can overwrite this builtin attribute to manipulate the type detection result.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-19507](https://github.com/ossf-cve-benchmark/CVE-2019-19507)
 
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
@@ -6692,6 +7461,22 @@ TVT NVMS-1000 devices allow GET /.. Directory Traversal
 
 - [AleDiBen/NVMS1000-Exploit](https://github.com/AleDiBen/NVMS1000-Exploit)
 
+### CVE-2019-20149 (2019-12-30)
+
+<code>
+ctorName in index.js in kind-of v6.0.2 allows external user input to overwrite certain internal attributes via a conflicting name, as demonstrated by 'constructor': {'name':'Symbol'}. Hence, a crafted payload can overwrite this builtin attribute to manipulate the type detection result.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-20149](https://github.com/ossf-cve-benchmark/CVE-2019-20149)
+
+### CVE-2019-20174 (2020-02-03)
+
+<code>
+Auth0 Lock before 11.21.0 allows XSS when additionalSignUpFields is used with an untrusted placeholder.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-20174](https://github.com/ossf-cve-benchmark/CVE-2019-20174)
+
 ### CVE-2019-20197 (2019-12-31)
 
 <code>
@@ -6747,6 +7532,22 @@ Dolibarr 7.0.0 is affected by: Cross Site Request Forgery (CSRF). The impact is:
 
 - [chaizeg/CSRF-breach](https://github.com/chaizeg/CSRF-breach)
 
+### CVE-2019-1010091 (2019-07-17)
+
+<code>
+tinymce 4.7.11, 4.7.12 is affected by: CWE-79: Improper Neutralization of Input During Web Page Generation. The impact is: JavaScript code execution. The component is: Media element. The attack vector is: The victim must paste malicious content to media element's embed tab.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-1010091](https://github.com/ossf-cve-benchmark/CVE-2019-1010091)
+
+### CVE-2019-1010266 (2019-07-17)
+
+<code>
+lodash prior to 4.17.11 is affected by: CWE-400: Uncontrolled Resource Consumption. The impact is: Denial of service. The component is: Date handler. The attack vector is: Attacker provides very long strings, which the library attempts to match using a regular expression. The fixed version is: 4.17.11.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-1010266](https://github.com/ossf-cve-benchmark/CVE-2019-1010266)
+
 ### CVE-2019-1010298 (2019-07-15)
 
 <code>
@@ -6754,6 +7555,14 @@ Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Buffer Overflow. The impa
 </code>
 
 - [RKX1209/CVE-2019-1010298](https://github.com/RKX1209/CVE-2019-1010298)
+
+### CVE-2019-1020012 (2019-07-29)
+
+<code>
+parse-server before 3.4.1 allows DoS after any POST to a volatile class.
+</code>
+
+- [ossf-cve-benchmark/CVE-2019-1020012](https://github.com/ossf-cve-benchmark/CVE-2019-1020012)
 
 
 ## 2018
@@ -7100,7 +7909,7 @@ Vulnerability in the Oracle Access Manager component of Oracle Fusion Middleware
 Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [anbai-inc/CVE-2018-2893](https://github.com/anbai-inc/CVE-2018-2893)
+- [sry309/CVE-2018-2893](https://github.com/sry309/CVE-2018-2893)
 - [ryanInf/CVE-2018-2893](https://github.com/ryanInf/CVE-2018-2893)
 - [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
@@ -7182,6 +7991,169 @@ Systems with microprocessors utilizing speculative execution and speculative exe
 - [mmxsrup/CVE-2018-3639](https://github.com/mmxsrup/CVE-2018-3639)
 - [Shuiliusheng/CVE-2018-3639-specter-v4-](https://github.com/Shuiliusheng/CVE-2018-3639-specter-v4-)
 
+### CVE-2018-3712 (2018-06-06)
+
+<code>
+serve node module before 6.4.9 suffers from a Path Traversal vulnerability due to not handling %2e (.) and %2f (/) and allowing them in paths, which allows a malicious user to view the contents of any directory with known path.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3712](https://github.com/ossf-cve-benchmark/CVE-2018-3712)
+
+### CVE-2018-3713 (2018-06-06)
+
+<code>
+angular-http-server node module suffers from a Path Traversal vulnerability due to lack of validation of possibleFilename, which allows a malicious user to read content of any file with known path.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3713](https://github.com/ossf-cve-benchmark/CVE-2018-3713)
+
+### CVE-2018-3718 (2018-06-06)
+
+<code>
+serve node module suffers from Improper Handling of URL Encoding by permitting access to ignored files if a filename is URL encoded.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3718](https://github.com/ossf-cve-benchmark/CVE-2018-3718)
+
+### CVE-2018-3719 (2018-06-06)
+
+<code>
+mixin-deep node module before 1.3.1 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability, which allows a malicious user to modify the prototype of &quot;Object&quot; via __proto__, causing the addition or modification of an existing property that will exist on all objects.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3719](https://github.com/ossf-cve-benchmark/CVE-2018-3719)
+
+### CVE-2018-3721 (2018-06-06)
+
+<code>
+lodash node module before 4.17.5 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via defaultsDeep, merge, and mergeWith functions, which allows a malicious user to modify the prototype of &quot;Object&quot; via __proto__, causing the addition or modification of an existing property that will exist on all objects.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3721](https://github.com/ossf-cve-benchmark/CVE-2018-3721)
+
+### CVE-2018-3722 (2018-06-06)
+
+<code>
+merge-deep node module before 3.0.1 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability, which allows a malicious user to modify the prototype of &quot;Object&quot; via __proto__, causing the addition or modification of an existing property that will exist on all objects.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3722](https://github.com/ossf-cve-benchmark/CVE-2018-3722)
+
+### CVE-2018-3725 (2018-06-06)
+
+<code>
+hekto node module suffers from a Path Traversal vulnerability due to lack of validation of file, which allows a malicious user to read content of any file with known path.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3725](https://github.com/ossf-cve-benchmark/CVE-2018-3725)
+
+### CVE-2018-3726 (2018-06-06)
+
+<code>
+crud-file-server node module before 0.8.0 suffers from a Cross-Site Scripting vulnerability to a lack of validation of file names.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3726](https://github.com/ossf-cve-benchmark/CVE-2018-3726)
+
+### CVE-2018-3728 (2018-03-30)
+
+<code>
+hoek node module before 4.2.0 and 5.0.x before 5.0.3 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via 'merge' and 'applyToDefaults' functions, which allows a malicious user to modify the prototype of &quot;Object&quot; via __proto__, causing the addition or modification of an existing property that will exist on all objects.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3728](https://github.com/ossf-cve-benchmark/CVE-2018-3728)
+
+### CVE-2018-3731 (2018-06-06)
+
+<code>
+public node module suffers from a Path Traversal vulnerability due to lack of validation of filePath, which allows a malicious user to read content of any file with known path.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3731](https://github.com/ossf-cve-benchmark/CVE-2018-3731)
+
+### CVE-2018-3732 (2018-06-06)
+
+<code>
+resolve-path node module before 1.4.0 suffers from a Path Traversal vulnerability due to lack of validation of paths with certain special characters, which allows a malicious user to read content of any file with known path.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3732](https://github.com/ossf-cve-benchmark/CVE-2018-3732)
+
+### CVE-2018-3733 (2018-05-29)
+
+<code>
+crud-file-server node module before 0.9.0 suffers from a Path Traversal vulnerability due to incorrect validation of url, which allows a malicious user to read content of any file with known path.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3733](https://github.com/ossf-cve-benchmark/CVE-2018-3733)
+
+### CVE-2018-3736
+- [ossf-cve-benchmark/CVE-2018-3736](https://github.com/ossf-cve-benchmark/CVE-2018-3736)
+
+### CVE-2018-3737 (2018-06-06)
+
+<code>
+sshpk is vulnerable to ReDoS when parsing crafted invalid public keys.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3737](https://github.com/ossf-cve-benchmark/CVE-2018-3737)
+
+### CVE-2018-3738 (2018-06-06)
+
+<code>
+protobufjs is vulnerable to ReDoS when parsing crafted invalid .proto files.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3738](https://github.com/ossf-cve-benchmark/CVE-2018-3738)
+
+### CVE-2018-3743 (2018-06-01)
+
+<code>
+Open redirect in hekto &lt;=0.2.3 when target domain name is used as html filename on server.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3743](https://github.com/ossf-cve-benchmark/CVE-2018-3743)
+
+### CVE-2018-3746 (2018-06-01)
+
+<code>
+The pdfinfojs NPM module versions &lt;= 0.3.6 has a command injection vulnerability that allows an attacker to execute arbitrary commands on the victim's machine.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3746](https://github.com/ossf-cve-benchmark/CVE-2018-3746)
+
+### CVE-2018-3747 (2018-07-03)
+
+<code>
+The public node module versions &lt;= 1.0.3 allows to embed HTML in file names, which (in certain conditions) might lead to execute malicious JavaScript.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3747](https://github.com/ossf-cve-benchmark/CVE-2018-3747)
+
+### CVE-2018-3750 (2018-07-03)
+
+<code>
+The utilities function in all versions &lt;= 0.5.0 of the deep-extend node module can be tricked into modifying the prototype of Object when the attacker can control part of the structure passed to this function. This can let an attacker add or modify existing properties that will exist on all objects.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3750](https://github.com/ossf-cve-benchmark/CVE-2018-3750)
+
+### CVE-2018-3752 (2018-07-03)
+
+<code>
+The utilities function in all versions &lt;= 1.0.0 of the merge-options node module can be tricked into modifying the prototype of Object when the attacker can control part of the structure passed to this function. This can let an attacker add or modify existing properties that will exist on all objects.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3752](https://github.com/ossf-cve-benchmark/CVE-2018-3752)
+
+### CVE-2018-3757 (2018-06-01)
+
+<code>
+Command injection exists in pdf-image v2.0.0 due to an unescaped string parameter.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3757](https://github.com/ossf-cve-benchmark/CVE-2018-3757)
+
 ### CVE-2018-3760 (2018-06-26)
 
 <code>
@@ -7191,6 +8163,22 @@ There is an information leak vulnerability in Sprockets. Versions Affected: 4.0.
 - [mpgn/CVE-2018-3760](https://github.com/mpgn/CVE-2018-3760)
 - [cyberharsh/Ruby-On-Rails-Path-Traversal-Vulnerability-CVE-2018-3760-](https://github.com/cyberharsh/Ruby-On-Rails-Path-Traversal-Vulnerability-CVE-2018-3760-)
 
+### CVE-2018-3770 (2018-07-20)
+
+<code>
+A path traversal exists in markdown-pdf version &lt;9.0.0 that allows a user to insert a malicious html code that can result in reading the local files.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3770](https://github.com/ossf-cve-benchmark/CVE-2018-3770)
+
+### CVE-2018-3772 (2018-07-30)
+
+<code>
+Concatenating unsanitized user input in the `whereis` npm module &lt; 0.4.1 allowed an attacker to execute arbitrary commands. The `whereis` module is deprecated and it is recommended to use the `which` npm module instead.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-3772](https://github.com/ossf-cve-benchmark/CVE-2018-3772)
+
 ### CVE-2018-3783 (2018-08-17)
 
 <code>
@@ -7198,6 +8186,7 @@ A privilege escalation detected in flintcms versions &lt;= 1.1.9 allows account 
 </code>
 
 - [nisaruj/nosqli-flintcms](https://github.com/nisaruj/nosqli-flintcms)
+- [ossf-cve-benchmark/CVE-2018-3783](https://github.com/ossf-cve-benchmark/CVE-2018-3783)
 
 ### CVE-2018-3786 (2018-08-24)
 
@@ -7206,6 +8195,7 @@ A command injection vulnerability in egg-scripts &lt;v2.8.1 allows arbitrary she
 </code>
 
 - [erik-krogh/egg-scripts-CVE-2018-3786](https://github.com/erik-krogh/egg-scripts-CVE-2018-3786)
+- [ossf-cve-benchmark/CVE-2018-3786](https://github.com/ossf-cve-benchmark/CVE-2018-3786)
 
 ### CVE-2018-3810 (2018-01-01)
 
@@ -7441,7 +8431,7 @@ A use-after-free vulnerability was discovered in Adobe Flash Player before 28.0.
 - [mdsecactivebreach/CVE-2018-4878](https://github.com/mdsecactivebreach/CVE-2018-4878)
 - [hybridious/CVE-2018-4878](https://github.com/hybridious/CVE-2018-4878)
 - [vysecurity/CVE-2018-4878](https://github.com/vysecurity/CVE-2018-4878)
-- [anbai-inc/CVE-2018-4878](https://github.com/anbai-inc/CVE-2018-4878)
+- [KathodeN/CVE-2018-4878](https://github.com/KathodeN/CVE-2018-4878)
 - [Sch01ar/CVE-2018-4878](https://github.com/Sch01ar/CVE-2018-4878)
 - [SyFi/CVE-2018-4878](https://github.com/SyFi/CVE-2018-4878)
 - [ydl555/CVE-2018-4878](https://github.com/ydl555/CVE-2018-4878)
@@ -7531,6 +8521,14 @@ An issue was discovered in GitStack through 2.3.10. User controlled input is not
 - [cisp/GitStackRCE](https://github.com/cisp/GitStackRCE)
 - [YagamiiLight/Cerberus](https://github.com/YagamiiLight/Cerberus)
 
+### CVE-2018-6184 (2018-01-24)
+
+<code>
+ZEIT Next.js 4 before 4.2.3 has Directory Traversal under the /_next request namespace.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-6184](https://github.com/ossf-cve-benchmark/CVE-2018-6184)
+
 ### CVE-2018-6242 (2018-05-01)
 
 <code>
@@ -7542,6 +8540,30 @@ Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer over
 - [switchjs/fusho](https://github.com/switchjs/fusho)
 - [ChrisFigura/react-tegra-payload-launcher](https://github.com/ChrisFigura/react-tegra-payload-launcher)
 - [austinhartzheim/fusee-gelee](https://github.com/austinhartzheim/fusee-gelee)
+
+### CVE-2018-6333 (2018-12-31)
+
+<code>
+The hhvm-attach deep link handler in Nuclide did not properly sanitize the provided hostname parameter when rendering. As a result, a malicious URL could be used to render HTML and other content inside of the editor's context, which could potentially be chained to lead to code execution. This issue affected Nuclide prior to v0.290.0.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-6333](https://github.com/ossf-cve-benchmark/CVE-2018-6333)
+
+### CVE-2018-6341 (2018-12-31)
+
+<code>
+React applications which rendered to HTML using the ReactDOMServer API were not escaping user-supplied attribute names at render-time. That lack of escaping could lead to a cross-site scripting vulnerability. This issue affected minor releases 16.0.x, 16.1.x, 16.2.x, 16.3.x, and 16.4.x. It was fixed in 16.0.1, 16.1.2, 16.2.1, 16.3.3, and 16.4.2.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-6341](https://github.com/ossf-cve-benchmark/CVE-2018-6341)
+
+### CVE-2018-6342 (2018-12-31)
+
+<code>
+react-dev-utils on Windows allows developers to run a local webserver for accepting various commands, including a command to launch an editor. The input to that command was not properly sanitized, allowing an attacker who can make a network request to the server (either via CSRF or by direct request) to execute arbitrary commands on the targeted system. This issue affects multiple branches: 1.x.x prior to 1.0.4, 2.x.x prior to 2.0.2, 3.x.x prior to 3.1.2, 4.x.x prior to 4.2.2, and 5.x.x prior to 5.0.2.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-6342](https://github.com/ossf-cve-benchmark/CVE-2018-6342)
 
 ### CVE-2018-6376 (2018-01-30)
 
@@ -7813,6 +8835,14 @@ FasterXML jackson-databind before 2.7.9.3, 2.8.x before 2.8.11.1 and 2.9.x befor
 
 - [tafamace/CVE-2018-7489](https://github.com/tafamace/CVE-2018-7489)
 
+### CVE-2018-7560 (2018-03-04)
+
+<code>
+index.js in the Anton Myshenin aws-lambda-multipart-parser NPM package before 0.1.2 has a Regular Expression Denial of Service (ReDoS) issue via a crafted multipart/form-data boundary string.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-7560](https://github.com/ossf-cve-benchmark/CVE-2018-7560)
+
 ### CVE-2018-7600 (2018-03-29)
 
 <code>
@@ -7860,6 +8890,14 @@ A remote code execution vulnerability exists within multiple subsystems of Drupa
 - [happynote3966/CVE-2018-7602](https://github.com/happynote3966/CVE-2018-7602)
 - [kastellanos/CVE-2018-7602](https://github.com/kastellanos/CVE-2018-7602)
 - [cyberharsh/DrupalCVE-2018-7602](https://github.com/cyberharsh/DrupalCVE-2018-7602)
+
+### CVE-2018-7651 (2018-03-03)
+
+<code>
+index.js in the ssri module before 5.2.2 for Node.js is prone to a regular expression denial of service vulnerability in strict mode functionality via a long base64 hash string.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-7651](https://github.com/ossf-cve-benchmark/CVE-2018-7651)
 
 ### CVE-2018-7690 (2018-12-13)
 
@@ -7919,6 +8957,14 @@ Apache Axis 1.x up to and including 1.4 is vulnerable to a cross-site scripting 
 </code>
 
 - [cairuojin/CVE-2018-8032](https://github.com/cairuojin/CVE-2018-8032)
+
+### CVE-2018-8035 (2019-05-01)
+
+<code>
+This vulnerability relates to the user's browser processing of DUCC webpage input data.The javascript comprising Apache UIMA DUCC (&lt;= 2.2.2) which runs in the user's browser does not sufficiently filter user supplied inputs, which may result in unintended execution of user supplied javascript code.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-8035](https://github.com/ossf-cve-benchmark/CVE-2018-8035)
 
 ### CVE-2018-8038 (2018-07-05)
 
@@ -8498,6 +9544,14 @@ mailboxd in Zimbra Collaboration Suite 8.8 before 8.8.8; 8.7 before 8.7.11.Patch
 
 - [0x00-0x00/CVE-2018-10949](https://github.com/0x00-0x00/CVE-2018-10949)
 
+### CVE-2018-11093 (2018-05-22)
+
+<code>
+Cross-site scripting (XSS) vulnerability in the Link package for CKEditor 5 before 10.0.1 allows remote attackers to inject arbitrary web script through a crafted href attribute of a link (A) element.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-11093](https://github.com/ossf-cve-benchmark/CVE-2018-11093)
+
 ### CVE-2018-11235 (2018-05-30)
 
 <code>
@@ -8572,6 +9626,14 @@ Stored XSS in YOOtheme Pagekit 1.0.13 and earlier allows a user to upload malici
 
 - [GeunSam2/CVE-2018-11564](https://github.com/GeunSam2/CVE-2018-11564)
 
+### CVE-2018-11615 (2018-08-30)
+
+<code>
+This vulnerability allows remote attackers to deny service on vulnerable installations of npm mosca 2.8.1. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of topics. A crafted regular expression can cause the broker to crash. An attacker can leverage this vulnerability to deny access to the target system. Was ZDI-CAN-6306.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-11615](https://github.com/ossf-cve-benchmark/CVE-2018-11615)
+
 ### CVE-2018-11631 (2018-05-31)
 
 <code>
@@ -8644,6 +9706,14 @@ Apache Karaf provides a features deployer, which allows users to &quot;hot deplo
 </code>
 
 - [brianwrf/CVE-2018-11788](https://github.com/brianwrf/CVE-2018-11788)
+
+### CVE-2018-11798 (2019-01-07)
+
+<code>
+The Apache Thrift Node.js static web server in versions 0.9.2 through 0.11.0 have been determined to contain a security vulnerability in which a remote user has the ability to access files outside the set webservers docroot path.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-11798](https://github.com/ossf-cve-benchmark/CVE-2018-11798)
 
 ### CVE-2018-11882 (2018-10-29)
 
@@ -8811,6 +9881,7 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [yukar1z0e/CVE-2018-13379](https://github.com/yukar1z0e/CVE-2018-13379)
 - [pwn3z/CVE-2018-13379-FortinetVPN](https://github.com/pwn3z/CVE-2018-13379-FortinetVPN)
 - [k4nfr3/CVE-2018-13379-Fortinet](https://github.com/k4nfr3/CVE-2018-13379-Fortinet)
+- [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
 
 ### CVE-2018-13382 (2019-06-04)
 
@@ -8836,6 +9907,22 @@ PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption
 
 - [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits)
 
+### CVE-2018-13797 (2018-07-10)
+
+<code>
+The macaddress module before 0.2.9 for Node.js is prone to an arbitrary command injection flaw, due to allowing unsanitized input to an exec (rather than execFile) call.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-13797](https://github.com/ossf-cve-benchmark/CVE-2018-13797)
+
+### CVE-2018-13863 (2018-07-10)
+
+<code>
+The MongoDB bson JavaScript module (also known as js-bson) versions 0.5.0 to 1.0.x before 1.0.5 is vulnerable to a Regular Expression Denial of Service (ReDoS) in lib/bson/decimal128.js. The flaw is triggered when the Decimal128.fromString() function is called to parse a long untrusted string.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-13863](https://github.com/ossf-cve-benchmark/CVE-2018-13863)
+
 ### CVE-2018-13864 (2018-07-17)
 
 <code>
@@ -8844,6 +9931,30 @@ A directory traversal vulnerability has been found in the Assets controller in P
 
 - [tafamace/CVE-2018-13864](https://github.com/tafamace/CVE-2018-13864)
 
+### CVE-2018-14040 (2018-07-13)
+
+<code>
+In Bootstrap before 4.1.2, XSS is possible in the collapse data-parent attribute.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-14040](https://github.com/ossf-cve-benchmark/CVE-2018-14040)
+
+### CVE-2018-14041 (2018-07-13)
+
+<code>
+In Bootstrap before 4.1.2, XSS is possible in the data-target property of scrollspy.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-14041](https://github.com/ossf-cve-benchmark/CVE-2018-14041)
+
+### CVE-2018-14042 (2018-07-13)
+
+<code>
+In Bootstrap before 4.1.2, XSS is possible in the data-container property of tooltip.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-14042](https://github.com/ossf-cve-benchmark/CVE-2018-14042)
+
 ### CVE-2018-14083 (2018-07-25)
 
 <code>
@@ -8851,6 +9962,14 @@ LICA miniCMTS E8K(u/i/...) devices allow remote attackers to obtain sensitive in
 </code>
 
 - [pudding2/CVE-2018-14083](https://github.com/pudding2/CVE-2018-14083)
+
+### CVE-2018-14380 (2018-07-18)
+
+<code>
+In Graylog before 2.4.6, XSS was possible in typeahead components, related to components/common/TypeAheadInput.jsx and components/search/QueryInput.ts.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-14380](https://github.com/ossf-cve-benchmark/CVE-2018-14380)
 
 ### CVE-2018-14442 (2018-07-20)
 
@@ -8986,6 +10105,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [coollce/CVE-2018-15473_burte](https://github.com/coollce/CVE-2018-15473_burte)
 - [crAckZ0p/CVE-2018-15473-py3](https://github.com/crAckZ0p/CVE-2018-15473-py3)
 - [Sait-Nuri/CVE-2018-15473](https://github.com/Sait-Nuri/CVE-2018-15473)
+- [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
 
 ### CVE-2018-15499 (2018-08-24)
 
@@ -9136,6 +10256,118 @@ Frog CMS 0.9.5 has admin/?/user/edit/1 CSRF.
 </code>
 
 - [security-breachlock/CVE-2018-16447](https://github.com/security-breachlock/CVE-2018-16447)
+
+### CVE-2018-16460 (2018-09-07)
+
+<code>
+A command Injection in ps package versions &lt;1.0.0 for Node.js allowed arbitrary commands to be executed when attacker controls the PID.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16460](https://github.com/ossf-cve-benchmark/CVE-2018-16460)
+
+### CVE-2018-16461 (2018-10-30)
+
+<code>
+A command injection vulnerability in libnmapp package for versions &lt;0.4.16 allows arbitrary commands to be executed via arguments to the range options.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16461](https://github.com/ossf-cve-benchmark/CVE-2018-16461)
+
+### CVE-2018-16462 (2018-10-30)
+
+<code>
+A command injection vulnerability in the apex-publish-static-files npm module version &lt;2.0.1 which allows arbitrary shell command execution through a maliciously crafted argument.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16462](https://github.com/ossf-cve-benchmark/CVE-2018-16462)
+
+### CVE-2018-16472 (2018-11-06)
+
+<code>
+A prototype pollution attack in cached-path-relative versions &lt;=1.0.1 allows an attacker to inject properties on Object.prototype which are then inherited by all the JS objects through the prototype chain causing a DoS attack.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16472](https://github.com/ossf-cve-benchmark/CVE-2018-16472)
+
+### CVE-2018-16478 (2018-12-04)
+
+<code>
+A Path Traversal in simplehttpserver versions &lt;=0.2.1 allows to list any file in another folder of web root.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16478](https://github.com/ossf-cve-benchmark/CVE-2018-16478)
+
+### CVE-2018-16479 (2019-02-01)
+
+<code>
+Path traversal vulnerability in http-live-simulator &lt;1.0.7 causes unauthorized access to arbitrary files on disk by appending extra slashes after the URL.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16479](https://github.com/ossf-cve-benchmark/CVE-2018-16479)
+
+### CVE-2018-16480 (2019-02-01)
+
+<code>
+A XSS vulnerability was found in module public &lt;0.1.4 that allows malicious Javascript code to run in the browser, due to the absence of sanitization of the file/folder names before rendering.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16480](https://github.com/ossf-cve-benchmark/CVE-2018-16480)
+
+### CVE-2018-16484 (2019-02-01)
+
+<code>
+A XSS vulnerability was found in module m-server &lt;1.4.2 that allows malicious Javascript code or HTML to be executed, due to the lack of escaping for special characters in folder names.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16484](https://github.com/ossf-cve-benchmark/CVE-2018-16484)
+
+### CVE-2018-16485 (2019-02-01)
+
+<code>
+Path Traversal vulnerability in module m-server &lt;1.4.1 allows malicious user to access unauthorized content of any file in the directory tree e.g. /etc/passwd by appending slashes to the URL request.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16485](https://github.com/ossf-cve-benchmark/CVE-2018-16485)
+
+### CVE-2018-16487 (2019-02-01)
+
+<code>
+A prototype pollution vulnerability was found in lodash &lt;4.17.11 where the functions merge, mergeWith, and defaultsDeep can be tricked into adding or modifying properties of Object.prototype.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16487](https://github.com/ossf-cve-benchmark/CVE-2018-16487)
+
+### CVE-2018-16489 (2019-02-01)
+
+<code>
+A prototype pollution vulnerability was found in just-extend &lt;4.0.0 that allows attack to inject properties onto Object.prototype through its functions.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16489](https://github.com/ossf-cve-benchmark/CVE-2018-16489)
+
+### CVE-2018-16490 (2019-02-01)
+
+<code>
+A prototype pollution vulnerability was found in module mpath &lt;0.5.1 that allows an attacker to inject arbitrary properties onto Object.prototype.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16490](https://github.com/ossf-cve-benchmark/CVE-2018-16490)
+
+### CVE-2018-16491 (2019-02-01)
+
+<code>
+A prototype pollution vulnerability was found in node.extend &lt;1.1.7, ~&lt;2.0.1 that allows an attacker to inject arbitrary properties onto Object.prototype.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16491](https://github.com/ossf-cve-benchmark/CVE-2018-16491)
+
+### CVE-2018-16492 (2019-02-01)
+
+<code>
+A prototype pollution vulnerability was found in module extend &lt;2.0.2, ~&lt;3.0.2 that allows an attacker to inject arbitrary properties onto Object.prototype.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-16492](https://github.com/ossf-cve-benchmark/CVE-2018-16492)
 
 ### CVE-2018-16509 (2018-09-05)
 
@@ -9494,6 +10726,14 @@ IMFCameraProtect.sys in IObit Malware Fighter 6.2 (and possibly lower versions) 
 
 - [DownWithUp/CVE-2018-18026](https://github.com/DownWithUp/CVE-2018-18026)
 
+### CVE-2018-18282 (2018-10-12)
+
+<code>
+Next.js 7.0.0 and 7.0.1 has XSS via the 404 or 500 /_error page.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-18282](https://github.com/ossf-cve-benchmark/CVE-2018-18282)
+
 ### CVE-2018-18368 (2019-11-15)
 
 <code>
@@ -9550,6 +10790,14 @@ Cerio DT-300N 1.1.6 through 1.1.12 devices allow OS command injection because of
 
 - [hook-s3c/CVE-2018-18852](https://github.com/hook-s3c/CVE-2018-18852)
 - [andripwn/CVE-2018-18852](https://github.com/andripwn/CVE-2018-18852)
+
+### CVE-2018-19048 (2019-05-13)
+
+<code>
+Simditor through 2.3.21 allows DOM XSS via an onload attribute within a malformed SVG element.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-19048](https://github.com/ossf-cve-benchmark/CVE-2018-19048)
 
 ### CVE-2018-19126 (2018-11-09)
 
@@ -9851,6 +11099,14 @@ Digi TransPort LR54 4.4.0.26 and possible earlier devices have Improper Input Va
 
 - [stigtsp/CVE-2018-20162-digi-lr54-restricted-shell-escape](https://github.com/stigtsp/CVE-2018-20162-digi-lr54-restricted-shell-escape)
 
+### CVE-2018-20164 (2019-02-13)
+
+<code>
+An issue was discovered in regex.yaml (aka regexes.yaml) in UA-Parser UAP-Core before 0.6.0. A Regular Expression Denial of Service (ReDoS) issue allows remote attackers to overload a server by setting the User-Agent header in an HTTP(S) request to a value containing a long digit string. (The UAP-Core project contains the vulnerability, propagating to all implementations.)
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-20164](https://github.com/ossf-cve-benchmark/CVE-2018-20164)
+
 ### CVE-2018-20165 (2019-03-22)
 
 <code>
@@ -9923,6 +11179,22 @@ bitcoind and Bitcoin-Qt prior to 0.17.1 allow injection of arbitrary data into t
 
 - [nondejus/CVE-2018-20586](https://github.com/nondejus/CVE-2018-20586)
 
+### CVE-2018-20676 (2019-01-09)
+
+<code>
+In Bootstrap before 3.4.0, XSS is possible in the tooltip data-viewport attribute.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-20676](https://github.com/ossf-cve-benchmark/CVE-2018-20676)
+
+### CVE-2018-20677 (2019-01-09)
+
+<code>
+In Bootstrap before 3.4.0, XSS is possible in the affix configuration target property.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-20677](https://github.com/ossf-cve-benchmark/CVE-2018-20677)
+
 ### CVE-2018-20718 (2019-01-15)
 
 <code>
@@ -9931,6 +11203,30 @@ In Pydio before 8.2.2, an attack is possible via PHP Object Injection because a 
 
 - [us3r777/CVE-2018-20718](https://github.com/us3r777/CVE-2018-20718)
 
+### CVE-2018-20801 (2019-03-14)
+
+<code>
+In js/parts/SvgRenderer.js in Highcharts JS before 6.1.0, the use of backtracking regular expressions permitted an attacker to conduct a denial of service attack against the SVGRenderer component, aka ReDoS.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-20801](https://github.com/ossf-cve-benchmark/CVE-2018-20801)
+
+### CVE-2018-20834 (2019-04-30)
+
+<code>
+A vulnerability was found in node-tar before version 4.4.2 (excluding version 2.2.2). An Arbitrary File Overwrite issue exists when extracting a tarball containing a hardlink to a file that already exists on the system, in conjunction with a later plain file with the same name as the hardlink. This plain file content replaces the existing file content. A patch has been applied to node-tar v2.2.2).
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-20834](https://github.com/ossf-cve-benchmark/CVE-2018-20834)
+
+### CVE-2018-20835 (2019-04-30)
+
+<code>
+A vulnerability was found in tar-fs before 1.16.2. An Arbitrary File Overwrite issue exists when extracting a tarball containing a hardlink to a file that already exists on the system, in conjunction with a later plain file with the same name as the hardlink. This plain file content replaces the existing file content.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-20835](https://github.com/ossf-cve-benchmark/CVE-2018-20835)
+
 ### CVE-2018-20966 (2019-08-12)
 
 <code>
@@ -9938,6 +11234,14 @@ The woocommerce-jetpack plugin before 3.8.0 for WordPress has XSS in the Product
 </code>
 
 - [parzel/CVE-2018-20966](https://github.com/parzel/CVE-2018-20966)
+
+### CVE-2018-21036 (2020-07-21)
+
+<code>
+Sails.js before v1.0.0-46 allows attackers to cause a denial of service with a single request because there is no error handler in sails-hook-sockets to handle an empty pathname in a WebSocket request.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-21036](https://github.com/ossf-cve-benchmark/CVE-2018-21036)
 
 ### CVE-2018-1000001 (2018-01-31)
 
@@ -9970,6 +11274,22 @@ Ajenti version version 2 contains a Cross ite Request Forgery (CSRF) vulnerabili
 </code>
 
 - [SECFORCE/CVE-2018-1000082-exploit](https://github.com/SECFORCE/CVE-2018-1000082-exploit)
+
+### CVE-2018-1000086 (2018-03-13)
+
+<code>
+NPR Visuals Team Pym.js version versions 0.4.2 up to 1.3.1 contains a Cross ite Request Forgery (CSRF) vulnerability in Pym.js _onNavigateToMessage function. https://github.com/nprapps/pym.js/blob/master/src/pym.js#L573 that can result in Arbitrary javascript code execution. This attack appear to be exploitable via Attacker gains full javascript access to pages with Pym.js embeds when user visits an attacker crafted page.. This vulnerability appears to have been fixed in versions 1.3.2 and later.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-1000086](https://github.com/ossf-cve-benchmark/CVE-2018-1000086)
+
+### CVE-2018-1000096 (2018-03-12)
+
+<code>
+brianleroux tiny-json-http version all versions since commit 9b8e74a232bba4701844e07bcba794173b0238a8 (Oct 29 2016) contains a Missing SSL certificate validation vulnerability in The libraries core functionality is affected. that can result in Exposes the user to man-in-the-middle attacks.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-1000096](https://github.com/ossf-cve-benchmark/CVE-2018-1000096)
 
 ### CVE-2018-1000117 (2018-03-07)
 
@@ -10020,6 +11340,14 @@ Grails Fields plugin version 2.2.7 contains a Cross Site Scripting (XSS) vulnera
 
 - [martinfrancois/CVE-2018-1000529](https://github.com/martinfrancois/CVE-2018-1000529)
 
+### CVE-2018-1000620 (2018-07-09)
+
+<code>
+Eran Hammer cryptiles version 4.1.1 earlier contains a CWE-331: Insufficient Entropy vulnerability in randomDigits() method that can result in An attacker is more likely to be able to brute force something that was supposed to be random.. This attack appear to be exploitable via Depends upon the calling application.. This vulnerability appears to have been fixed in 4.1.2.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-1000620](https://github.com/ossf-cve-benchmark/CVE-2018-1000620)
+
 ### CVE-2018-1000802 (2018-09-18)
 
 <code>
@@ -10056,6 +11384,22 @@ In all Kubernetes versions prior to v1.10.11, v1.11.5, and v1.12.3, incorrect ha
 - [imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install)
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
 - [mdnix/cve-2018-1002105](https://github.com/mdnix/cve-2018-1002105)
+
+### CVE-2018-1002203 (2018-07-25)
+
+<code>
+unzipper npm library before 0.8.13 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-1002203](https://github.com/ossf-cve-benchmark/CVE-2018-1002203)
+
+### CVE-2018-1002204 (2018-07-25)
+
+<code>
+adm-zip npm library before 0.4.9 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.
+</code>
+
+- [ossf-cve-benchmark/CVE-2018-1002204](https://github.com/ossf-cve-benchmark/CVE-2018-1002204)
 
 ### CVE-2018-1999002 (2018-07-23)
 
@@ -10306,6 +11650,14 @@ An elevation of privilege vulnerability in the Android framework (ui framework).
 </code>
 
 - [kpatsakis/PoC_CVE-2017-0807](https://github.com/kpatsakis/PoC_CVE-2017-0807)
+
+### CVE-2017-0931 (2018-06-04)
+
+<code>
+html-janitor node module suffers from a Cross-Site Scripting (XSS) vulnerability via clean() accepting user-controlled values.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-0931](https://github.com/ossf-cve-benchmark/CVE-2017-0931)
 
 ### CVE-2017-1635 (2017-12-13)
 
@@ -10707,6 +12059,14 @@ An issue was discovered in the node-serialize package 0.0.4 for Node.js. Untrust
 
 - [p1gz/CVE-2017-5941-NodeJS-RCE](https://github.com/p1gz/CVE-2017-5941-NodeJS-RCE)
 
+### CVE-2017-5954 (2017-02-10)
+
+<code>
+An issue was discovered in the serialize-to-js package 0.5.0 for Node.js. Untrusted data passed into the deserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE).
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-5954](https://github.com/ossf-cve-benchmark/CVE-2017-5954)
+
 ### CVE-2017-6008 (2017-09-13)
 
 <code>
@@ -10950,7 +12310,6 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
 - [liusec/CVE-2017-7529](https://github.com/liusec/CVE-2017-7529)
 - [en0f/CVE-2017-7529_PoC](https://github.com/en0f/CVE-2017-7529_PoC)
 - [cved-sources/cve-2017-7529](https://github.com/cved-sources/cve-2017-7529)
-- [mpalonso/ferni](https://github.com/mpalonso/ferni)
 - [MaxSecurity/CVE-2017-7529-POC](https://github.com/MaxSecurity/CVE-2017-7529-POC)
 - [cyberk1w1/CVE-2017-7529](https://github.com/cyberk1w1/CVE-2017-7529)
 - [cyberharsh/nginx-CVE-2017-7529](https://github.com/cyberharsh/nginx-CVE-2017-7529)
@@ -11444,6 +12803,14 @@ Race condition in fs/timerfd.c in the Linux kernel before 4.10.15 allows local u
 ### CVE-2017-10797
 - [n4xh4ck5/CVE-2017-10797](https://github.com/n4xh4ck5/CVE-2017-10797)
 
+### CVE-2017-10910 (2017-12-27)
+
+<code>
+MQTT.js 2.x.x prior to 2.15.0 issue in handling PUBLISH tickets may lead to an attacker causing a denial-of-service condition.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-10910](https://github.com/ossf-cve-benchmark/CVE-2017-10910)
+
 ### CVE-2017-10952 (2017-08-29)
 
 <code>
@@ -11834,6 +13201,14 @@ Certain D-Link products are affected by: Buffer Overflow. This affects DIR-880L 
 
 - [badnack/d_link_880_bug](https://github.com/badnack/d_link_880_bug)
 
+### CVE-2017-15010 (2017-10-03)
+
+<code>
+A ReDoS (regular expression denial of service) flaw was found in the tough-cookie module before 2.3.3 for Node.js. An attacker that is able to make an HTTP request using a specially crafted cookie may cause the application to consume an excessive amount of CPU.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-15010](https://github.com/ossf-cve-benchmark/CVE-2017-15010)
+
 ### CVE-2017-15120 (2018-07-27)
 
 <code>
@@ -11906,6 +13281,108 @@ Palo Alto Networks PAN-OS before 6.1.19, 7.0.x before 7.0.19, 7.1.x before 7.1.1
 - [surajraghuvanshi/PaloAltoRceDetectionAndExploit](https://github.com/surajraghuvanshi/PaloAltoRceDetectionAndExploit)
 - [yukar1z0e/CVE-2017-15944](https://github.com/yukar1z0e/CVE-2017-15944)
 
+### CVE-2017-16003 (2018-05-29)
+
+<code>
+windows-build-tools is a module for installing C++ Build Tools for Windows using npm. windows-build-tools versions below 1.0.0 download resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested resources with an attacker controlled copy if the attacker is on the network or positioned in between the user and the remote server.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16003](https://github.com/ossf-cve-benchmark/CVE-2017-16003)
+
+### CVE-2017-16006 (2018-06-04)
+
+<code>
+Remarkable is a markdown parser. In versions 1.6.2 and lower, remarkable allows the use of `data:` URIs in links and can therefore execute javascript.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16006](https://github.com/ossf-cve-benchmark/CVE-2017-16006)
+
+### CVE-2017-16011
+- [ossf-cve-benchmark/CVE-2017-16011](https://github.com/ossf-cve-benchmark/CVE-2017-16011)
+
+### CVE-2017-16014 (2018-06-04)
+
+<code>
+Http-proxy is a proxying library. Because of the way errors are handled in versions before 0.7.0, an attacker that forces an error can crash the server, causing a denial of service.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16014](https://github.com/ossf-cve-benchmark/CVE-2017-16014)
+
+### CVE-2017-16018 (2018-06-04)
+
+<code>
+Restify is a framework for building REST APIs. Restify &gt;=2.0.0 &lt;=4.0.4 using URL encoded script tags in a non-existent URL, an attacker can get script to run in some browsers.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16018](https://github.com/ossf-cve-benchmark/CVE-2017-16018)
+
+### CVE-2017-16023 (2018-06-04)
+
+<code>
+Decamelize is used to convert a dash/dot/underscore/space separated string to camelCase. Decamelize 1.1.0 through 1.1.1 uses regular expressions to evaluate a string and takes unescaped separator values, which can be used to create a denial of service attack.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16023](https://github.com/ossf-cve-benchmark/CVE-2017-16023)
+
+### CVE-2017-16026 (2018-06-04)
+
+<code>
+Request is an http client. If a request is made using ```multipart```, and the body type is a ```number```, then the specified number of non-zero memory is passed in the body. This affects Request &gt;=2.2.6 &lt;2.47.0 || &gt;2.51.0 &lt;=2.67.0.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16026](https://github.com/ossf-cve-benchmark/CVE-2017-16026)
+
+### CVE-2017-16028 (2018-06-04)
+
+<code>
+react-native-meteor-oauth is a library for Oauth2 login to a Meteor server in React Native. The oauth Random Token is generated using a non-cryptographically strong RNG (Math.random()).
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16028](https://github.com/ossf-cve-benchmark/CVE-2017-16028)
+
+### CVE-2017-16029 (2018-06-04)
+
+<code>
+hostr is a simple web server that serves up the contents of the current directory. There is a directory traversal vulnerability in hostr 2.3.5 and earlier that allows an attacker to read files outside the current directory by sending `../` in the url path for GET requests.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16029](https://github.com/ossf-cve-benchmark/CVE-2017-16029)
+
+### CVE-2017-16030 (2018-06-04)
+
+<code>
+Useragent is used to parse useragent headers. It uses several regular expressions to accomplish this. An attacker could edit their own headers, creating an arbitrarily long useragent string, causing the event loop and server to block. This affects Useragent 2.1.12 and earlier.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16030](https://github.com/ossf-cve-benchmark/CVE-2017-16030)
+
+### CVE-2017-16031 (2018-06-04)
+
+<code>
+Socket.io is a realtime application framework that provides communication via websockets. Because socket.io 0.9.6 and earlier depends on `Math.random()` to create socket IDs, the IDs are predictable. An attacker is able to guess the socket ID and gain access to socket.io servers, potentially obtaining sensitive information.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16031](https://github.com/ossf-cve-benchmark/CVE-2017-16031)
+
+### CVE-2017-16034
+- [ossf-cve-benchmark/CVE-2017-16034](https://github.com/ossf-cve-benchmark/CVE-2017-16034)
+
+### CVE-2017-16042 (2018-06-04)
+
+<code>
+Growl adds growl notification support to nodejs. Growl before 1.10.2 does not properly sanitize input before passing it to exec, allowing for arbitrary command execution.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16042](https://github.com/ossf-cve-benchmark/CVE-2017-16042)
+
+### CVE-2017-16043 (2018-06-04)
+
+<code>
+Shout is an IRC client. Because the `/topic` command in messages is unescaped, attackers have the ability to inject HTML scripts that will run in the victim's browser. Affects shout &gt;=0.44.0 &lt;=0.49.3.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16043](https://github.com/ossf-cve-benchmark/CVE-2017-16043)
+
 ### CVE-2017-16082 (2018-06-06)
 
 <code>
@@ -11913,6 +13390,26 @@ A remote code execution vulnerability was found within the pg module when the re
 </code>
 
 - [nulldreams/CVE-2017-16082](https://github.com/nulldreams/CVE-2017-16082)
+- [ossf-cve-benchmark/CVE-2017-16082](https://github.com/ossf-cve-benchmark/CVE-2017-16082)
+
+### CVE-2017-16083 (2018-06-06)
+
+<code>
+node-simple-router is a minimalistic router for Node. node-simple-router is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing &quot;../&quot; in the URL.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16083](https://github.com/ossf-cve-benchmark/CVE-2017-16083)
+
+### CVE-2017-16084 (2018-06-06)
+
+<code>
+list-n-stream is a server for static files to list and stream local videos. list-n-stream v0.0.10 or lower is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing &quot;../&quot; in the url.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16084](https://github.com/ossf-cve-benchmark/CVE-2017-16084)
+
+### CVE-2017-16087
+- [ossf-cve-benchmark/CVE-2017-16087](https://github.com/ossf-cve-benchmark/CVE-2017-16087)
 
 ### CVE-2017-16088 (2018-06-06)
 
@@ -11921,6 +13418,102 @@ The safe-eval module describes itself as a safer version of eval. By accessing t
 </code>
 
 - [Flyy-yu/CVE-2017-16088](https://github.com/Flyy-yu/CVE-2017-16088)
+
+### CVE-2017-16098 (2018-06-06)
+
+<code>
+charset 1.0.0 and below are vulnerable to regular expression denial of service. Input of around 50k characters is required for a slow down of around 2 seconds. Unless node was compiled using the -DHTTP_MAX_HEADER_SIZE= option the default header max length is 80kb, so the impact of the ReDoS is relatively low.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16098](https://github.com/ossf-cve-benchmark/CVE-2017-16098)
+
+### CVE-2017-16100 (2018-06-06)
+
+<code>
+dns-sync is a sync/blocking dns resolver. If untrusted user input is allowed into the resolve() method then command injection is possible.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16100](https://github.com/ossf-cve-benchmark/CVE-2017-16100)
+
+### CVE-2017-16107 (2018-06-06)
+
+<code>
+pooledwebsocket is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing &quot;../&quot; in the url.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16107](https://github.com/ossf-cve-benchmark/CVE-2017-16107)
+
+### CVE-2017-16114 (2018-06-06)
+
+<code>
+The marked module is vulnerable to a regular expression denial of service. Based on the information published in the public issue, 1k characters can block for around 6 seconds.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16114](https://github.com/ossf-cve-benchmark/CVE-2017-16114)
+
+### CVE-2017-16117 (2018-06-06)
+
+<code>
+slug is a module to slugify strings, even if they contain unicode. slug is vulnerable to regular expression denial of service is specially crafted untrusted input is passed as input. About 50k characters can block the event loop for 2 seconds.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16117](https://github.com/ossf-cve-benchmark/CVE-2017-16117)
+
+### CVE-2017-16118 (2018-06-06)
+
+<code>
+The forwarded module is used by the Express.js framework to handle the X-Forwarded-For header. It is vulnerable to a regular expression denial of service when it's passed specially crafted input to parse. This causes the event loop to be blocked causing a denial of service condition.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16118](https://github.com/ossf-cve-benchmark/CVE-2017-16118)
+
+### CVE-2017-16119 (2018-06-06)
+
+<code>
+Fresh is a module used by the Express.js framework for HTTP response freshness testing. It is vulnerable to a regular expression denial of service when it is passed specially crafted input to parse. This causes the event loop to be blocked causing a denial of service condition.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16119](https://github.com/ossf-cve-benchmark/CVE-2017-16119)
+
+### CVE-2017-16136 (2018-06-06)
+
+<code>
+method-override is a module used by the Express.js framework to let you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it. method-override is vulnerable to a regular expression denial of service vulnerability when specially crafted input is passed in to be parsed via the X-HTTP-Method-Override header.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16136](https://github.com/ossf-cve-benchmark/CVE-2017-16136)
+
+### CVE-2017-16137 (2018-06-06)
+
+<code>
+The debug module is vulnerable to regular expression denial of service when untrusted user input is passed into the o formatter. It takes around 50k characters to block for 2 seconds making this a low severity issue.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16137](https://github.com/ossf-cve-benchmark/CVE-2017-16137)
+
+### CVE-2017-16138 (2018-06-06)
+
+<code>
+The mime module &lt; 1.4.1, 2.0.1, 2.0.2 is vulnerable to regular expression denial of service when a mime lookup is performed on untrusted user input.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16138](https://github.com/ossf-cve-benchmark/CVE-2017-16138)
+
+### CVE-2017-16224 (2018-06-06)
+
+<code>
+st is a module for serving static files. An attacker is able to craft a request that results in an HTTP 301 (redirect) to an entirely different domain. A request for: http://some.server.com//nodesecurity.org/%2e%2e would result in a 301 to //nodesecurity.org/%2e%2e which most browsers treat as a proper redirect as // is translated into the current schema being used. Mitigating factor: In order for this to work, st must be serving from the root of a server (/) rather than the typical sub directory (/static/) and the redirect URL will end with some form of URL encoded .. (&quot;%2e%2e&quot;, &quot;%2e.&quot;, &quot;.%2e&quot;).
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16224](https://github.com/ossf-cve-benchmark/CVE-2017-16224)
+
+### CVE-2017-16226 (2018-06-06)
+
+<code>
+The static-eval module is intended to evaluate statically-analyzable expressions. In affected versions, untrusted user input is able to access the global function constructor, effectively allowing arbitrary code execution.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16226](https://github.com/ossf-cve-benchmark/CVE-2017-16226)
 
 ### CVE-2017-16245
 - [AOCorsaire/CVE-2017-16245](https://github.com/AOCorsaire/CVE-2017-16245)
@@ -11972,6 +13565,14 @@ The Process function in RemoteTaskServer/WebServer/HttpServer.cs in Ulterius bef
 </code>
 
 - [rickoooooo/ulteriusExploit](https://github.com/rickoooooo/ulteriusExploit)
+
+### CVE-2017-16877 (2017-11-17)
+
+<code>
+ZEIT Next.js before 2.4.1 has directory traversal under the /_next and /static request namespace, allowing attackers to obtain sensitive information.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-16877](https://github.com/ossf-cve-benchmark/CVE-2017-16877)
 
 ### CVE-2017-16943 (2017-11-25)
 
@@ -12028,6 +13629,9 @@ Huawei HG255s-10 V100R001C163B025SP02 has a path traversal vulnerability due to 
 
 - [exploit-labs/huawei_hg255s_exploit](https://github.com/exploit-labs/huawei_hg255s_exploit)
 
+### CVE-2017-17461
+- [ossf-cve-benchmark/CVE-2017-17461](https://github.com/ossf-cve-benchmark/CVE-2017-17461)
+
 ### CVE-2017-17485 (2018-01-10)
 
 <code>
@@ -12065,6 +13669,22 @@ A Command Injection issue was discovered in ContentStore/Base/CVDataPipe.dll in 
 
 - [securifera/CVE-2017-18044-Exploit](https://github.com/securifera/CVE-2017-18044-Exploit)
 
+### CVE-2017-18077 (2018-01-27)
+
+<code>
+index.js in brace-expansion before 1.1.7 is vulnerable to Regular Expression Denial of Service (ReDoS) attacks, as demonstrated by an expand argument containing many comma characters.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-18077](https://github.com/ossf-cve-benchmark/CVE-2017-18077)
+
+### CVE-2017-18214 (2018-03-04)
+
+<code>
+The moment module before 2.19.3 for Node.js is prone to a regular expression denial of service via a crafted date string, a different vulnerability than CVE-2016-4055.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-18214](https://github.com/ossf-cve-benchmark/CVE-2017-18214)
+
 ### CVE-2017-18345 (2018-08-26)
 
 <code>
@@ -12081,6 +13701,38 @@ bitcoind and Bitcoin-Qt prior to 0.15.1 have a stack-based buffer overflow if an
 
 - [moznualom2/-link-https-bitcoincore.org-en-2019-11-08-CVE-2017-18350-link-](https://github.com/moznualom2/-link-https-bitcoincore.org-en-2019-11-08-CVE-2017-18350-link-)
 
+### CVE-2017-18352 (2018-12-17)
+
+<code>
+Error reporting within Rendertron 1.0.0 allows reflected Cross Site Scripting (XSS) from invalid URLs.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-18352](https://github.com/ossf-cve-benchmark/CVE-2017-18352)
+
+### CVE-2017-18353 (2018-12-17)
+
+<code>
+Rendertron 1.0.0 includes an _ah/stop route to shutdown the Chrome instance responsible for serving render requests to all users. Visiting this route with a GET request allows any unauthorized remote attacker to disable the core service of the application.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-18353](https://github.com/ossf-cve-benchmark/CVE-2017-18353)
+
+### CVE-2017-18354 (2018-12-17)
+
+<code>
+Rendertron 1.0.0 allows for alternative protocols such as 'file://' introducing a Local File Inclusion (LFI) bug where arbitrary files can be read by a remote attacker.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-18354](https://github.com/ossf-cve-benchmark/CVE-2017-18354)
+
+### CVE-2017-18355 (2018-12-17)
+
+<code>
+Installed packages are exposed by node_modules in Rendertron 1.0.0, allowing remote attackers to read absolute paths on the server by examining the &quot;_where&quot; attribute of package.json files.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-18355](https://github.com/ossf-cve-benchmark/CVE-2017-18355)
+
 ### CVE-2017-18486 (2019-08-09)
 
 <code>
@@ -12096,12 +13748,21 @@ An XSS vulnerability was discovered in noVNC before 0.6.2 in which the remote VN
 </code>
 
 - [ShielderSec/CVE-2017-18635](https://github.com/ShielderSec/CVE-2017-18635)
+- [ossf-cve-benchmark/CVE-2017-18635](https://github.com/ossf-cve-benchmark/CVE-2017-18635)
 
 ### CVE-2017-98505
 - [mike-williams/Struts2Vuln](https://github.com/mike-williams/Struts2Vuln)
 
 ### CVE-2017-1000000
 - [smythtech/DWF-CVE-2017-1000000](https://github.com/smythtech/DWF-CVE-2017-1000000)
+
+### CVE-2017-1000006 (2017-07-13)
+
+<code>
+Plotly, Inc. plotly.js versions prior to 1.16.0 are vulnerable to an XSS issue.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-1000006](https://github.com/ossf-cve-benchmark/CVE-2017-1000006)
 
 ### CVE-2017-1000083 (2017-09-05)
 
@@ -12151,6 +13812,14 @@ A malicious third-party can give a crafted &quot;ssh://...&quot; URL to an unsus
 - [cved-sources/cve-2017-1000117](https://github.com/cved-sources/cve-2017-1000117)
 - [leezp/CVE-2017-1000117](https://github.com/leezp/CVE-2017-1000117)
 - [AnonymKing/CVE-2017-1000117](https://github.com/AnonymKing/CVE-2017-1000117)
+
+### CVE-2017-1000219 (2017-11-16)
+
+<code>
+npm/KyleRoss windows-cpu all versions vulnerable to command injection resulting in code execution as Node.js user
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-1000219](https://github.com/ossf-cve-benchmark/CVE-2017-1000219)
 
 ### CVE-2017-1000250 (2017-09-12)
 
@@ -12205,6 +13874,14 @@ The Linux Kernel versions 2.6.38 through 4.14 have a problematic use of pmd_mkdi
 
 - [bindecy/HugeDirtyCowPOC](https://github.com/bindecy/HugeDirtyCowPOC)
 
+### CVE-2017-1000427 (2018-01-02)
+
+<code>
+marked version 0.3.6 and earlier is vulnerable to an XSS attack in the data: URI parser.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-1000427](https://github.com/ossf-cve-benchmark/CVE-2017-1000427)
+
 ### CVE-2017-1000475 (2018-01-24)
 
 <code>
@@ -12230,6 +13907,14 @@ phpMyAdmin versions 4.7.x (prior to 4.7.6.1/4.7.7) are vulnerable to a CSRF weak
 </code>
 
 - [Villaquiranm/5MMISSI-CVE-2017-1000499](https://github.com/Villaquiranm/5MMISSI-CVE-2017-1000499)
+
+### CVE-2017-1001004 (2017-11-27)
+
+<code>
+typed-function before 0.10.6 had an arbitrary code execution in the JavaScript engine. Creating a typed function with JavaScript code in the name could result arbitrary execution.
+</code>
+
+- [ossf-cve-benchmark/CVE-2017-1001004](https://github.com/ossf-cve-benchmark/CVE-2017-1001004)
 
 ### CVE-2017-1002101 (2018-03-13)
 
@@ -13355,6 +15040,14 @@ pfSense before 2.3 allows remote authenticated users to execute arbitrary OS com
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
 
+### CVE-2016-10735 (2019-01-09)
+
+<code>
+In Bootstrap 3.x before 3.4.0 and 4.x-beta before 4.0.0-beta.2, XSS is possible in the data-target attribute, a different vulnerability than CVE-2018-14041.
+</code>
+
+- [ossf-cve-benchmark/CVE-2016-10735](https://github.com/ossf-cve-benchmark/CVE-2016-10735)
+
 ### CVE-2016-10761 (2019-06-29)
 
 <code>
@@ -13362,6 +15055,14 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 </code>
 
 - [ISSAPolska/CVE-2016-10761](https://github.com/ISSAPolska/CVE-2016-10761)
+
+### CVE-2016-1000229 (2019-12-20)
+
+<code>
+swagger-ui has XSS in key names
+</code>
+
+- [ossf-cve-benchmark/CVE-2016-1000229](https://github.com/ossf-cve-benchmark/CVE-2016-1000229)
 
 
 ## 2015
@@ -14287,6 +15988,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [ThanHuuTuan/Heartexploit](https://github.com/ThanHuuTuan/Heartexploit)
 - [hack3r-0m/heartbleed_fix_updated](https://github.com/hack3r-0m/heartbleed_fix_updated)
 - [rouze-d/heartbleed](https://github.com/rouze-d/heartbleed)
+- [WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -16200,6 +17902,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
 - [nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer)
 - [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
+- [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 
 ### CVE-2007-3830 (2007-07-17)
 
@@ -16273,7 +17976,7 @@ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 all
 Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
 </code>
 
-- [Ziani52/CVE-2006-3392](https://github.com/Ziani52/CVE-2006-3392)
+- [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
 - [notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392)
 - [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
 
