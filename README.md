@@ -2707,6 +2707,7 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 
 ### CVE-2020-17530
 - [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
+- [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
 
 ### CVE-2020-23489 (2020-11-16)
 
@@ -3211,6 +3212,9 @@ osCommerce 2.3.4.1 has XSS vulnerability via the authenticated user entering the
 
 - [aslanemre/cve-2020-29070](https://github.com/aslanemre/cve-2020-29070)
 
+### CVE-2020-29254
+- [S1lkys/CVE-2020-29254](https://github.com/S1lkys/CVE-2020-29254)
+
 ### CVE-2020-29364 (2020-11-30)
 
 <code>
@@ -3234,6 +3238,9 @@ In Lan ATMService M3 ATM Monitoring System 6.1.0, a remote attacker able to use 
 </code>
 
 - [jet-pentest/CVE-2020-29667](https://github.com/jet-pentest/CVE-2020-29667)
+
+### CVE-2020-29669
+- [code-byter/CVE-2020-29669](https://github.com/code-byter/CVE-2020-29669)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
