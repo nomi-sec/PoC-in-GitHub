@@ -259,6 +259,8 @@ An elevation of privilege vulnerability exists when the Windows Background Intel
 </code>
 
 - [cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION](https://github.com/cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION)
+- [MasterSploit/CVE-2020-0787](https://github.com/MasterSploit/CVE-2020-0787)
+- [MasterSploit/CVE-2020-0787-BitsArbitraryFileMove-master](https://github.com/MasterSploit/CVE-2020-0787-BitsArbitraryFileMove-master)
 
 ### CVE-2020-0796 (2020-03-12)
 
