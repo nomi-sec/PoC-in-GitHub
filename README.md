@@ -1343,6 +1343,7 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 
 ### CVE-2020-8554
 - [rancher/externalip-webhook](https://github.com/rancher/externalip-webhook)
+- [jrmurray000/CVE-2020-8554](https://github.com/jrmurray000/CVE-2020-8554)
 
 ### CVE-2020-8558 (2020-07-27)
 
@@ -2981,6 +2982,14 @@ ThinkAdmin v6 is affected by a directory traversal vulnerability. An unauthorize
 
 - [Schira4396/CVE-2020-25540](https://github.com/Schira4396/CVE-2020-25540)
 
+### CVE-2020-25637 (2020-10-06)
+
+<code>
+A double free memory issue was found to occur in the libvirt API, in versions before 6.8.0, responsible for requesting information about network interfaces of a running QEMU domain. This flaw affects the polkit access control driver. Specifically, clients connecting to the read-write socket with limited ACL permissions could use this flaw to crash the libvirt daemon, resulting in a denial of service, or potentially escalate their privileges on the system. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
+</code>
+
+- [brahmiboudjema/CVE-2020-25637-libvirt-double-free](https://github.com/brahmiboudjema/CVE-2020-25637-libvirt-double-free)
+
 ### CVE-2020-25705 (2020-11-16)
 
 <code>
@@ -3220,7 +3229,12 @@ osCommerce 2.3.4.1 has XSS vulnerability via the authenticated user entering the
 
 - [aslanemre/cve-2020-29070](https://github.com/aslanemre/cve-2020-29070)
 
-### CVE-2020-29254
+### CVE-2020-29254 (2020-12-11)
+
+<code>
+TikiWiki 21.2 allows templates to be edited without CSRF protection. This could allow an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack and perform arbitrary actions on an affected system. The vulnerability is due to insufficient CSRF protections for the web-based management interface of the affected system. An attacker could exploit this vulnerability by persuading a user of the interface to follow a maliciously crafted link. A successful exploit could allow the attacker to perform arbitrary actions on an affected system with the privileges of the user. These action include allowing attackers to submit their own code through an authenticated user resulting in local file Inclusion. If an authenticated user who is able to edit TikiWiki templates visits an malicious website, template code can be edited.
+</code>
+
 - [S1lkys/CVE-2020-29254](https://github.com/S1lkys/CVE-2020-29254)
 
 ### CVE-2020-29364 (2020-11-30)
@@ -3317,6 +3331,7 @@ Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on r
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 - [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
 - [Al1ex/CVE-2019-0230](https://github.com/Al1ex/CVE-2019-0230)
+- [soshewh97/CVE-2019-0230_Struts2S2-059](https://github.com/soshewh97/CVE-2019-0230_Struts2S2-059)
 
 ### CVE-2019-0232 (2019-04-15)
 
