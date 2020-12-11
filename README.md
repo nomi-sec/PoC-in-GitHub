@@ -3314,6 +3314,7 @@ Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on r
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 - [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
+- [Al1ex/CVE-2019-0230](https://github.com/Al1ex/CVE-2019-0230)
 
 ### CVE-2019-0232 (2019-04-15)
 
