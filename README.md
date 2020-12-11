@@ -2705,7 +2705,12 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 - [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
-### CVE-2020-17530
+### CVE-2020-17530 (2020-12-10)
+
+<code>
+Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution. Affected software : Apache Struts 2.0.0 - Struts 2.5.25.
+</code>
+
 - [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
 
@@ -3136,6 +3141,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go)
 - [yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc)
 - [r00t4dm/CVE-2020-27955](https://github.com/r00t4dm/CVE-2020-27955)
+- [WizZYou/git-lfs-RCE-exploit-CVE-2020-27955-revshell](https://github.com/WizZYou/git-lfs-RCE-exploit-CVE-2020-27955-revshell)
 
 ### CVE-2020-27976 (2020-10-28)
 
@@ -10688,7 +10694,7 @@ An unprivileged network attacker could gain system privileges to provisioned Int
 Firmware in the Intel Puma 5, 6, and 7 Series might experience resource depletion or timeout, which allows a network attacker to create a denial of service via crafted network traffic.
 </code>
 
-- [nallar/Puma6Fail](https://github.com/nallar/Puma6Fail)
+- [TransLunarInjection/Puma6Fail](https://github.com/TransLunarInjection/Puma6Fail)
 
 ### CVE-2017-5715 (2018-01-04)
 
