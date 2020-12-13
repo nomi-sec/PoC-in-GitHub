@@ -790,6 +790,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [ludy-dev/Cisco-ASA-LFI](https://github.com/ludy-dev/Cisco-ASA-LFI)
 - [3ndG4me/CVE-2020-3452-Exploit](https://github.com/3ndG4me/CVE-2020-3452-Exploit)
 - [grim3/CVE-2020-3452](https://github.com/grim3/CVE-2020-3452)
+- [cygenta/CVE-2020-3452](https://github.com/cygenta/CVE-2020-3452)
 
 ### CVE-2020-3766 (2020-03-25)
 
@@ -1793,6 +1794,7 @@ An issue was discovered in XAMPP before 7.2.29, 7.3.x before 7.3.16 , and 7.4.x 
 </code>
 
 - [S1lkys/CVE-2020-11107](https://github.com/S1lkys/CVE-2020-11107)
+- [andripwn/CVE-2020-11107](https://github.com/andripwn/CVE-2020-11107)
 
 ### CVE-2020-11108 (2020-05-11)
 
@@ -2716,6 +2718,7 @@ Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may 
 
 - [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
+- [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
 
 ### CVE-2020-23489 (2020-11-16)
 
@@ -4122,6 +4125,14 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 
 - [knqyf263/CVE-2019-5420](https://github.com/knqyf263/CVE-2019-5420)
 - [cved-sources/cve-2019-5420](https://github.com/cved-sources/cve-2019-5420)
+
+### CVE-2019-5427 (2019-04-22)
+
+<code>
+c3p0 version &lt; 0.9.5.4 may be exploited by a billion laughs attack when loading XML configuration due to missing protections against recursive entity expansion when loading configuration.
+</code>
+
+- [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
 ### CVE-2019-5454 (2019-07-30)
 
@@ -9958,6 +9969,14 @@ Multiple buffer overflow vulnerabilities have been found in Ken Silverman Build 
 </code>
 
 - [Alexandre-Bartel/CVE-2018-20343](https://github.com/Alexandre-Bartel/CVE-2018-20343)
+
+### CVE-2018-20433 (2018-12-24)
+
+<code>
+c3p0 0.9.5.2 allows XXE in extractXmlConfigFromInputStream in com/mchange/v2/c3p0/cfg/C3P0ConfigXmlUtils.java during initialization.
+</code>
+
+- [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
 ### CVE-2018-20434 (2019-04-24)
 
@@ -16421,6 +16440,43 @@ The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows
 </code>
 
 - [fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558)
+
+### CVE-2004-1561 (2005-02-20)
+
+<code>
+Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
+</code>
+
+- [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
+- [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
+
+### CVE-2004-1769 (2005-03-10)
+
+<code>
+The &quot;Allow cPanel users to reset their password via email&quot; feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
+</code>
+
+- [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
+- [Redsplit/shiguresh](https://github.com/Redsplit/shiguresh)
+
+### CVE-2004-2167 (2005-07-10)
+
+<code>
+Multiple buffer overflows in LaTeX2rtf 1.9.15, and possibly other versions, allow remote attackers to execute arbitrary code via (1) the expandmacro function, and possibly (2) Environments and (3) TranslateCommand.
+</code>
+
+- [uzzzval/cve-2004-2167](https://github.com/uzzzval/cve-2004-2167)
+
+### CVE-2004-2271 (2005-07-19)
+
+<code>
+Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.
+</code>
+
+- [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
+- [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
+- [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
+- [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
 
 ### CVE-2004-2549 (2005-11-21)
 
