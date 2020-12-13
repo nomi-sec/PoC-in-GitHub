@@ -12085,7 +12085,6 @@ Huawei HG532 with some customized versions has a remote code execution vulnerabi
 </code>
 
 - [1337g/CVE-2017-17215](https://github.com/1337g/CVE-2017-17215)
-- [wilfred-wulbou/HG532d-RCE-Exploit](https://github.com/wilfred-wulbou/HG532d-RCE-Exploit)
 
 ### CVE-2017-17309 (2018-06-14)
 
