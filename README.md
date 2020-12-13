@@ -3061,6 +3061,9 @@ XStream before version 1.4.14 is vulnerable to Remote Code Execution.The vulnera
 
 - [novysodope/CVE-2020-26217-XStream-RCE-POC](https://github.com/novysodope/CVE-2020-26217-XStream-RCE-POC)
 
+### CVE-2020-26259
+- [jas502n/CVE-2020-26259](https://github.com/jas502n/CVE-2020-26259)
+
 ### CVE-2020-26525 (2020-10-02)
 
 <code>
@@ -14373,6 +14376,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [hack3r-0m/heartbleed_fix_updated](https://github.com/hack3r-0m/heartbleed_fix_updated)
 - [rouze-d/heartbleed](https://github.com/rouze-d/heartbleed)
 - [WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed)
+- [GuillermoEscobero/heartbleed](https://github.com/GuillermoEscobero/heartbleed)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -14563,6 +14567,7 @@ The futex_requeue function in kernel/futex.c in the Linux kernel through 3.14.5 
 - [zerodavinci/CVE-2014-3153-exploit](https://github.com/zerodavinci/CVE-2014-3153-exploit)
 - [c3c/CVE-2014-3153](https://github.com/c3c/CVE-2014-3153)
 - [dangtunguyen/TowelRoot](https://github.com/dangtunguyen/TowelRoot)
+- [elongl/towelroot](https://github.com/elongl/towelroot)
 
 ### CVE-2014-3341 (2014-08-19)
 
