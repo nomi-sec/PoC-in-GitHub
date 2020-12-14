@@ -3267,7 +3267,12 @@ In Lan ATMService M3 ATM Monitoring System 6.1.0, a remote attacker able to use 
 
 - [jet-pentest/CVE-2020-29667](https://github.com/jet-pentest/CVE-2020-29667)
 
-### CVE-2020-29669
+### CVE-2020-29669 (2020-12-13)
+
+<code>
+In the Macally WIFISD2-2A82 Media and Travel Router 2.000.010, the Guest user is able to reset its own password. This process has a vulnerability which can be used to take over the administrator account and results in shell access. As the admin user may read the /etc/shadow file, the password hashes of each user (including root) can be dumped. The root hash can be cracked easily which results in a complete system compromise.
+</code>
+
 - [code-byter/CVE-2020-29669](https://github.com/code-byter/CVE-2020-29669)
 
 ### CVE-2020-72381
