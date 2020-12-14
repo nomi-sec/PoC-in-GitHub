@@ -2459,6 +2459,15 @@ On TP-Link TL-WR740N v4 and TL-WR740ND v4 devices, an attacker with access to th
 
 - [g-rubert/CVE-2020-14965](https://github.com/g-rubert/CVE-2020-14965)
 
+### CVE-2020-15002 (2020-10-23)
+
+<code>
+OX App Suite through 7.10.3 allows SSRF via the the /ajax/messaging/message message API.
+</code>
+
+- [skr0x1c0/Blind-SSRF-CVE-2020-15002](https://github.com/skr0x1c0/Blind-SSRF-CVE-2020-15002)
+- [skr0x1c0/SSRF-CVE-2020-15002](https://github.com/skr0x1c0/SSRF-CVE-2020-15002)
+
 ### CVE-2020-15051 (2020-07-15)
 
 <code>
@@ -2719,6 +2728,7 @@ Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may 
 - [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
 - [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
+- [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
 
 ### CVE-2020-23489 (2020-11-16)
 
@@ -3095,6 +3105,9 @@ An issue was discovered in Kata Containers through 1.11.3 and 2.x through 2.0-rc
 </code>
 
 - [kata-containers/runtime-CVE-2020-27151](https://github.com/kata-containers/runtime-CVE-2020-27151)
+
+### CVE-2020-27190
+- [qlh831/x-CVE-2020-27190](https://github.com/qlh831/x-CVE-2020-27190)
 
 ### CVE-2020-27194 (2020-10-16)
 
