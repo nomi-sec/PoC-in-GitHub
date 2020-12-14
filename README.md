@@ -3153,6 +3153,9 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
 
+### CVE-2020-27949
+- [seemoo-lab/dtrace-memaccess_cve-2020-27949](https://github.com/seemoo-lab/dtrace-memaccess_cve-2020-27949)
+
 ### CVE-2020-27950 (2020-12-08)
 
 <code>
