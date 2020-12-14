@@ -8910,6 +8910,7 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [pwn3z/CVE-2018-13379-FortinetVPN](https://github.com/pwn3z/CVE-2018-13379-FortinetVPN)
 - [k4nfr3/CVE-2018-13379-Fortinet](https://github.com/k4nfr3/CVE-2018-13379-Fortinet)
 - [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
+- [B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379)
 
 ### CVE-2018-13382 (2019-06-04)
 
