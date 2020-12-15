@@ -6350,6 +6350,7 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [gsheller/Solr_CVE-2019-17558](https://github.com/gsheller/Solr_CVE-2019-17558)
 - [pan3a/Solr-CVE-2019-17558](https://github.com/pan3a/Solr-CVE-2019-17558)
+- [itsdafafo/Exploit_CVE-2019-17558-RCE](https://github.com/itsdafafo/Exploit_CVE-2019-17558-RCE)
 
 ### CVE-2019-17564 (2020-04-01)
 
