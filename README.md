@@ -18,6 +18,7 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 - [marcinguy/CVE-2020-0022](https://github.com/marcinguy/CVE-2020-0022)
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 - [Polo35/CVE-2020-0022](https://github.com/Polo35/CVE-2020-0022)
+- [5k1l/cve-2020-0022](https://github.com/5k1l/cve-2020-0022)
 
 ### CVE-2020-0041 (2020-03-10)
 
