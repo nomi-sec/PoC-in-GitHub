@@ -3071,7 +3071,12 @@ XStream before version 1.4.14 is vulnerable to Remote Code Execution.The vulnera
 
 - [novysodope/CVE-2020-26217-XStream-RCE-POC](https://github.com/novysodope/CVE-2020-26217-XStream-RCE-POC)
 
-### CVE-2020-26259
+### CVE-2020-26259 (2020-12-15)
+
+<code>
+XStream is a Java library to serialize objects to XML and back again. In XStream before version 1.4.15, is vulnerable to an Arbitrary File Deletion on the local host when unmarshalling. The vulnerability may allow a remote attacker to delete arbitrary know files on the host as log as the executing process has sufficient rights only by manipulating the processed input stream. If you rely on XStream's default blacklist of the Security Framework, you will have to use at least version 1.4.15. The reported vulnerability does not exist running Java 15 or higher. No user is affected, who followed the recommendation to setup XStream's Security Framework with a whitelist! Anyone relying on XStream's default blacklist can immediately switch to a whilelist for the allowed types to avoid the vulnerability. Users of XStream 1.4.14 or below who still want to use XStream default blacklist can use a workaround described in more detailed in the referenced advisories.
+</code>
+
 - [jas502n/CVE-2020-26259](https://github.com/jas502n/CVE-2020-26259)
 
 ### CVE-2020-26525 (2020-10-02)
