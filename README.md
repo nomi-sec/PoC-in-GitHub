@@ -4180,6 +4180,7 @@ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution whe
 
 - [jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-](https://github.com/jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-)
 - [rabbitmask/CVE-2019-5475-EXP](https://github.com/rabbitmask/CVE-2019-5475-EXP)
+- [lyy289065406/CVE-2019-5475](https://github.com/lyy289065406/CVE-2019-5475)
 
 ### CVE-2019-5489 (2019-01-07)
 
