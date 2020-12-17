@@ -1384,6 +1384,14 @@ Using a specially-crafted message, an attacker may potentially cause a BIND serv
 - [knqyf263/CVE-2020-8617](https://github.com/knqyf263/CVE-2020-8617)
 - [rmkn/cve-2020-8617](https://github.com/rmkn/cve-2020-8617)
 
+### CVE-2020-8644 (2020-02-05)
+
+<code>
+PlaySMS before 1.4.3 does not sanitize inputs from a malicious string.
+</code>
+
+- [FancyDoesSecurity/CVE-2020-8644](https://github.com/FancyDoesSecurity/CVE-2020-8644)
+
 ### CVE-2020-8809 (2020-02-25)
 
 <code>
@@ -3124,7 +3132,12 @@ An issue was discovered in the Linux kernel before 5.8.15. scalar32_min_max_or i
 - [willinin/CVE-2020-27194-exp](https://github.com/willinin/CVE-2020-27194-exp)
 - [xmzyshypnc/CVE-2020-27194](https://github.com/xmzyshypnc/CVE-2020-27194)
 
-### CVE-2020-27199
+### CVE-2020-27199 (2020-12-16)
+
+<code>
+The Magic Home Pro application 1.5.1 for Android allows Authentication Bypass. The security control that the application currently has in place is a simple Username and Password authentication function. Using enumeration, an attacker is able to forge a User specific token without the need for correct password to gain access to the mobile application as that victim user.
+</code>
+
 - [9lyph/CVE-2020-27199](https://github.com/9lyph/CVE-2020-27199)
 
 ### CVE-2020-27358 (2020-10-31)
@@ -3181,6 +3194,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc)
 - [r00t4dm/CVE-2020-27955](https://github.com/r00t4dm/CVE-2020-27955)
 - [WizZYou/git-lfs-RCE-exploit-CVE-2020-27955-revshell](https://github.com/WizZYou/git-lfs-RCE-exploit-CVE-2020-27955-revshell)
+- [shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955)
 
 ### CVE-2020-27976 (2020-10-28)
 
@@ -12137,6 +12151,7 @@ Huawei HG532 with some customized versions has a remote code execution vulnerabi
 </code>
 
 - [1337g/CVE-2017-17215](https://github.com/1337g/CVE-2017-17215)
+- [wilfred-wulbou/HG532d-RCE-Exploit](https://github.com/wilfred-wulbou/HG532d-RCE-Exploit)
 
 ### CVE-2017-17309 (2018-06-14)
 
