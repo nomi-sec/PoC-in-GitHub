@@ -3252,6 +3252,14 @@ A reflected cross-site scripting (XSS) vulnerability exists in the TranzWare Pay
 
 - [jet-pentest/CVE-2020-28415](https://github.com/jet-pentest/CVE-2020-28415)
 
+### CVE-2020-28647 (2020-11-17)
+
+<code>
+In Progress MOVEit Transfer before 2020.1, a malicious user could craft and store a payload within the application. If a victim within the MOVEit Transfer instance interacts with the stored payload, it could invoke and execute arbitrary code within the context of the victim's browser (XSS).
+</code>
+
+- [SECFORCE/Progress-MOVEit-Transfer-2020.1-Stored-XSS-CVE-2020-28647](https://github.com/SECFORCE/Progress-MOVEit-Transfer-2020.1-Stored-XSS-CVE-2020-28647)
+
 ### CVE-2020-28948 (2020-11-19)
 
 <code>
@@ -3310,6 +3318,9 @@ In the Macally WIFISD2-2A82 Media and Travel Router 2.000.010, the Guest user is
 </code>
 
 - [code-byter/CVE-2020-29669](https://github.com/code-byter/CVE-2020-29669)
+
+### CVE-2020-35488
+- [GuillaumePetit84/CVE-2020-35488](https://github.com/GuillaumePetit84/CVE-2020-35488)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
