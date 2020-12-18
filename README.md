@@ -746,6 +746,14 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [FancyDoesSecurity/CVE-2020-2883](https://github.com/FancyDoesSecurity/CVE-2020-2883)
 - [Al1ex/CVE-2020-2883](https://github.com/Al1ex/CVE-2020-2883)
 
+### CVE-2020-2978 (2020-07-15)
+
+<code>
+Vulnerability in the Oracle Database - Enterprise Edition component of Oracle Database Server. Supported versions that are affected are 12.1.0.2, 12.2.0.1, 18c and 19c. Easily exploitable vulnerability allows high privileged attacker having DBA role account privilege with network access via Oracle Net to compromise Oracle Database - Enterprise Edition. While the vulnerability is in Oracle Database - Enterprise Edition, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Database - Enterprise Edition accessible data. CVSS 3.1 Base Score 4.1 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:N).
+</code>
+
+- [emad-almousa/CVE-2020-2978](https://github.com/emad-almousa/CVE-2020-2978)
+
 ### CVE-2020-3153 (2020-02-19)
 
 <code>
@@ -2738,6 +2746,7 @@ Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may 
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
 - [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
+- [ludy-dev/freemarker_RCE_struts2_s2-061](https://github.com/ludy-dev/freemarker_RCE_struts2_s2-061)
 
 ### CVE-2020-23489 (2020-11-16)
 
@@ -2909,6 +2918,7 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 </code>
 
 - [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
+- [forse01/CVE-2020-25213](https://github.com/forse01/CVE-2020-25213)
 
 ### CVE-2020-25265 (2020-12-02)
 
