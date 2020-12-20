@@ -13571,6 +13571,14 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 
 
 ## 2015
+### CVE-2015-0006 (2015-01-13)
+
+<code>
+The Network Location Awareness (NLA) service in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not perform mutual authentication to determine a domain connection, which allows remote attackers to trigger an unintended permissive configuration by spoofing DNS and LDAP responses on a local network, aka &quot;NLA Security Feature Bypass Vulnerability.&quot;
+</code>
+
+- [bugch3ck/imposter](https://github.com/bugch3ck/imposter)
+
 ### CVE-2015-0057 (2015-02-10)
 
 <code>
@@ -13612,13 +13620,24 @@ Use-after-free vulnerability in the process_nested_data function in ext/standard
 Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
 </code>
 
+- [fser/ghost-checker](https://github.com/fser/ghost-checker)
+- [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
+- [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
+- [piyokango/ghost](https://github.com/piyokango/ghost)
+- [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
+- [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
+- [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
+- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
+- [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
 - [JustDenisYT/ghosttester](https://github.com/JustDenisYT/ghosttester)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
+- [limkokhole/GHOSTCHECK-cve-2015-0235](https://github.com/limkokhole/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0313 (2015-02-02)
 
@@ -15579,7 +15598,6 @@ Microsoft XML Core Services 3.0, 4.0, 5.0, and 6.0 accesses uninitialized memory
 sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
 </code>
 
-- [Avinza/CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner)
 - [cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122)
 
 ### CVE-2012-2688 (2012-07-20)
@@ -15605,16 +15623,7 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 The authentication protocol in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0.5, 11.1.0.7, 11.2.0.2, and 11.2.0.3 allows remote attackers to obtain the session key and salt for arbitrary users, which leaks information about the cryptographic hash and makes it easier to conduct brute force password guessing attacks, aka &quot;stealth password cracking vulnerability.&quot;
 </code>
 
-- [hantwister/o5logon-fetch](https://github.com/hantwister/o5logon-fetch)
 - [r1-/cve-2012-3137](https://github.com/r1-/cve-2012-3137)
-
-### CVE-2012-3153 (2012-10-16)
-
-<code>
-Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fusion Middleware 11.1.1.4, 11.1.1.6, and 11.1.2.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Servlet.  NOTE: the previous information is from the October 2012 CPU. Oracle has not commented on claims from the original researcher that the PARSEQUERY function allows remote attackers to obtain database credentials via reports/rwservlet/parsequery, and that this issue occurs in earlier versions.  NOTE: this can be leveraged with CVE-2012-3152 to execute arbitrary code by uploading a .jsp file.
-</code>
-
-- [Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion)
 
 ### CVE-2012-3716 (2012-09-20)
 
@@ -15623,15 +15632,6 @@ CoreText in Apple Mac OS X 10.7.x before 10.7.5 allows remote attackers to execu
 </code>
 
 - [d4rkcat/killosx](https://github.com/d4rkcat/killosx)
-
-### CVE-2012-4220 (2012-11-30)
-
-<code>
-diagchar_core.c in the Qualcomm Innovation Center (QuIC) Diagnostics (aka DIAG) kernel-mode driver for Android 2.3 through 4.2 allows attackers to execute arbitrary code or cause a denial of service (incorrect pointer dereference) via an application that uses crafted arguments in a local diagchar_ioctl call.
-</code>
-
-- [hiikezoe/diaggetroot](https://github.com/hiikezoe/diaggetroot)
-- [poliva/root-zte-open](https://github.com/poliva/root-zte-open)
 
 ### CVE-2012-4431 (2012-12-19)
 
@@ -15693,14 +15693,6 @@ Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7
 
 ### CVE-2012-5664
 - [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
-
-### CVE-2012-5958 (2013-01-31)
-
-<code>
-Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.
-</code>
-
-- [lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp)
 
 ### CVE-2012-5960 (2013-01-31)
 
