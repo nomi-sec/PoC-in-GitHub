@@ -3066,6 +3066,9 @@ The Telnet service of Rubetek cameras RV-3406, RV-3409, and RV-3411 cameras (fir
 - [t0gu/CVE-2020-25790](https://github.com/t0gu/CVE-2020-25790)
 - [7Mitu/CVE-2020-25790](https://github.com/7Mitu/CVE-2020-25790)
 
+### CVE-2020-25860
+- [rauc/rauc-1.5-integration](https://github.com/rauc/rauc-1.5-integration)
+
 ### CVE-2020-25867 (2020-10-07)
 
 <code>
@@ -7868,6 +7871,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Yashrk078/Test_CVE-2018-6574](https://github.com/Yashrk078/Test_CVE-2018-6574)
 - [azzzzzzzzzzzzzzzzz/CVE-2018-6574](https://github.com/azzzzzzzzzzzzzzzzz/CVE-2018-6574)
 - [FilipeFraqueiro/CVE-2018-6574](https://github.com/FilipeFraqueiro/CVE-2018-6574)
+- [shadofren/CVE-2018-6574](https://github.com/shadofren/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -9526,7 +9530,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [dinhbaouit/CVE-2018-16763](https://github.com/dinhbaouit/CVE-2018-16763)
 - [SalimAlk/CVE-2018-16763-](https://github.com/SalimAlk/CVE-2018-16763-)
 - [ecebotarosh/CVE-2018-16763-exploit](https://github.com/ecebotarosh/CVE-2018-16763-exploit)
-- [n3m1-sys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1-sys/CVE-2018-16763-Exploit-Python3)
+- [n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3)
 
 ### CVE-2018-16854 (2018-11-26)
 
