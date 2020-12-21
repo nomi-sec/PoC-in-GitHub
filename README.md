@@ -1354,6 +1354,7 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 ### CVE-2020-8554
 - [rancher/externalip-webhook](https://github.com/rancher/externalip-webhook)
 - [jrmurray000/CVE-2020-8554](https://github.com/jrmurray000/CVE-2020-8554)
+- [twistlock/k8s-cve-2020-8554-mitigations](https://github.com/twistlock/k8s-cve-2020-8554-mitigations)
 
 ### CVE-2020-8558 (2020-07-27)
 
@@ -3066,7 +3067,12 @@ The Telnet service of Rubetek cameras RV-3406, RV-3409, and RV-3411 cameras (fir
 - [t0gu/CVE-2020-25790](https://github.com/t0gu/CVE-2020-25790)
 - [7Mitu/CVE-2020-25790](https://github.com/7Mitu/CVE-2020-25790)
 
-### CVE-2020-25860
+### CVE-2020-25860 (2020-12-21)
+
+<code>
+The install.c module in the Pengutronix RAUC update client prior to version 1.5 has a Time-of-Check Time-of-Use vulnerability, where signature verification on an update file takes place before the file is reopened for installation. An attacker who can modify the update file just before it is reopened can install arbitrary code on the device.
+</code>
+
 - [rauc/rauc-1.5-integration](https://github.com/rauc/rauc-1.5-integration)
 
 ### CVE-2020-25867 (2020-10-07)
@@ -3302,6 +3308,9 @@ osCommerce 2.3.4.1 has XSS vulnerability via the authenticated user entering the
 </code>
 
 - [aslanemre/cve-2020-29070](https://github.com/aslanemre/cve-2020-29070)
+
+### CVE-2020-29156
+- [Ko-kn3t/CVE-2020-29156](https://github.com/Ko-kn3t/CVE-2020-29156)
 
 ### CVE-2020-29254 (2020-12-11)
 
@@ -6391,7 +6400,7 @@ PhantomJS through 2.1.1 has an arbitrary file read vulnerability, as demonstrate
 includes/class-coming-soon-creator.php in the igniteup plugin through 3.4 for WordPress allows unauthenticated arbitrary file deletion.
 </code>
 
-- [administra1tor/CVE-2019-17234-Wordpress-DirStroyer](https://github.com/administra1tor/CVE-2019-17234-Wordpress-DirStroyer)
+- [administra1tor/CVE-2019-17234b-Exploit](https://github.com/administra1tor/CVE-2019-17234b-Exploit)
 
 ### CVE-2019-17240 (2019-10-06)
 
@@ -9155,6 +9164,7 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [iansangaji/laravel-rce-cve-2018-15133](https://github.com/iansangaji/laravel-rce-cve-2018-15133)
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
+- [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
 
 ### CVE-2018-15365 (2018-09-28)
 
@@ -16636,6 +16646,7 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
+- [PepeTheRital/CVE-2003-0264](https://github.com/PepeTheRital/CVE-2003-0264)
 
 ### CVE-2003-0282 (2003-05-14)
 
