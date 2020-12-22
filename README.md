@@ -3176,6 +3176,22 @@ BigBlueButton before 2.2.27 has an unsafe JODConverter setting in which LibreOff
 
 - [hannob/CVE-2020-27603-bbb-libreoffice-poc](https://github.com/hannob/CVE-2020-27603-bbb-libreoffice-poc)
 
+### CVE-2020-27662 (2020-11-26)
+
+<code>
+In GLPI before 9.5.3, ajax/comments.php has an Insecure Direct Object Reference (IDOR) vulnerability that allows an attacker to read data from any database table (e.g., glpi_tickets, glpi_users, etc.).
+</code>
+
+- [indevi0us/CVE-2020-27662](https://github.com/indevi0us/CVE-2020-27662)
+
+### CVE-2020-27663 (2020-11-26)
+
+<code>
+In GLPI before 9.5.3, ajax/getDropdownValue.php has an Insecure Direct Object Reference (IDOR) vulnerability that allows an attacker to read data from any itemType (e.g., Ticket, Users, etc.).
+</code>
+
+- [indevi0us/CVE-2020-27663](https://github.com/indevi0us/CVE-2020-27663)
+
 ### CVE-2020-27688 (2020-11-05)
 
 <code>
@@ -4854,6 +4870,14 @@ The Bluetooth BR/EDR specification up to and including version 5.1 permits suffi
 </code>
 
 - [francozappa/knob](https://github.com/francozappa/knob)
+
+### CVE-2019-9511 (2019-08-13)
+
+<code>
+Some HTTP/2 implementations are vulnerable to window size manipulation and stream prioritization manipulation, potentially leading to a denial of service. The attacker requests a large amount of data from a specified resource over multiple streams. They manipulate window size and stream priority to force the server to queue the data in 1-byte chunks. Depending on how efficiently this data is queued, this can consume excess CPU, memory, or both.
+</code>
+
+- [flyniu666/-ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/-ingress-nginx-0.21-1.19.5)
 
 ### CVE-2019-9580 (2019-03-08)
 
@@ -9543,6 +9567,14 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [ecebotarosh/CVE-2018-16763-exploit](https://github.com/ecebotarosh/CVE-2018-16763-exploit)
 - [n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3)
 
+### CVE-2018-16843 (2018-11-07)
+
+<code>
+nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive memory consumption. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the 'http2' option of the 'listen' directive is used in a configuration file.
+</code>
+
+- [flyniu666/-ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/-ingress-nginx-0.21-1.19.5)
+
 ### CVE-2018-16854 (2018-11-26)
 
 <code>
@@ -11727,6 +11759,7 @@ The XML-RPC server in supervisor before 3.0.1, 3.1.x before 3.1.4, 3.2.x before 
 </code>
 
 - [ivanitlearning/CVE-2017-11610](https://github.com/ivanitlearning/CVE-2017-11610)
+- [yaunsky/CVE-2017-11610](https://github.com/yaunsky/CVE-2017-11610)
 
 ### CVE-2017-11611 (2017-09-08)
 
@@ -15710,6 +15743,7 @@ Stack-based buffer overflow in FreeFloat FTP Server 1.0 allows remote authentica
 </code>
 
 - [war4uthor/CVE-2012-5106](https://github.com/war4uthor/CVE-2012-5106)
+- [PepeTheRital/CVE-2012-5106](https://github.com/PepeTheRital/CVE-2012-5106)
 
 ### CVE-2012-5575 (2013-08-19)
 
