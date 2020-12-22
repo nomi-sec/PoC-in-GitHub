@@ -2275,6 +2275,7 @@ It is possible to inject malicious OGNL or MVEL scripts into the /context.json p
 - [eugenebmx/CVE-2020-13942](https://github.com/eugenebmx/CVE-2020-13942)
 - [shifa123/CVE-2020-13942-POC-](https://github.com/shifa123/CVE-2020-13942-POC-)
 - [blackmarketer/CVE-2020-13942](https://github.com/blackmarketer/CVE-2020-13942)
+- [yaunsky/Unomi-CVE-2020-13942](https://github.com/yaunsky/Unomi-CVE-2020-13942)
 
 ### CVE-2020-13957 (2020-10-13)
 
