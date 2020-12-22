@@ -12505,7 +12505,7 @@ The WebDAV client in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2
 The kernel-mode driver in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability,&quot; a different vulnerability than CVE-2016-0093, CVE-2016-0094, and CVE-2016-0096.
 </code>
 
-- [4M4Z4/cve-2016-0095-x64](https://github.com/4M4Z4/cve-2016-0095-x64)
+- [fengjixuchui/cve-2016-0095-x64](https://github.com/fengjixuchui/cve-2016-0095-x64)
 
 ### CVE-2016-0099 (2016-03-09)
 
