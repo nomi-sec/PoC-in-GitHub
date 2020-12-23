@@ -2705,6 +2705,14 @@ A remote code execution vulnerability exists in Microsoft Outlook software when 
 - [0neb1n/CVE-2020-16947](https://github.com/0neb1n/CVE-2020-16947)
 - [MasterSploit/CVE-2020-16947](https://github.com/MasterSploit/CVE-2020-16947)
 
+### CVE-2020-17057 (2020-11-11)
+
+<code>
+Windows Win32k Elevation of Privilege Vulnerability
+</code>
+
+- [ze0r/cve-2020-17057](https://github.com/ze0r/cve-2020-17057)
+
 ### CVE-2020-17087 (2020-11-11)
 
 <code>
