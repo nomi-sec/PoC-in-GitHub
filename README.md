@@ -568,6 +568,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Qazeer/dirkjanm_CVE-2020-1472_static_binaries](https://github.com/Qazeer/dirkjanm_CVE-2020-1472_static_binaries)
 - [JayP232/The_big_Zero](https://github.com/JayP232/The_big_Zero)
 - [b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472)
+- [SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -4876,7 +4877,7 @@ The Bluetooth BR/EDR specification up to and including version 5.1 permits suffi
 Some HTTP/2 implementations are vulnerable to window size manipulation and stream prioritization manipulation, potentially leading to a denial of service. The attacker requests a large amount of data from a specified resource over multiple streams. They manipulate window size and stream priority to force the server to queue the data in 1-byte chunks. Depending on how efficiently this data is queued, this can consume excess CPU, memory, or both.
 </code>
 
-- [flyniu666/-ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/-ingress-nginx-0.21-1.19.5)
+- [flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5)
 
 ### CVE-2019-9580 (2019-03-08)
 
@@ -9573,7 +9574,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive memory consumption. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the 'http2' option of the 'listen' directive is used in a configuration file.
 </code>
 
-- [flyniu666/-ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/-ingress-nginx-0.21-1.19.5)
+- [flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5)
 
 ### CVE-2018-16854 (2018-11-26)
 
