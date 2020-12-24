@@ -2725,6 +2725,14 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 
+### CVE-2020-17132 (2020-12-09)
+
+<code>
+, aka 'Microsoft Exchange Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-17117, CVE-2020-17141, CVE-2020-17142, CVE-2020-17144.
+</code>
+
+- [alexfrancow/CVE-2020-17132](https://github.com/alexfrancow/CVE-2020-17132)
+
 ### CVE-2020-17144 (2020-12-09)
 
 <code>
