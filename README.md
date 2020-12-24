@@ -2398,6 +2398,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [DaBoQuan/CVE-2020-14645](https://github.com/DaBoQuan/CVE-2020-14645)
 - [ChenZIDu/CVE-2020-14645](https://github.com/ChenZIDu/CVE-2020-14645)
 - [HYWZ36/CVE-2020-14645-code](https://github.com/HYWZ36/CVE-2020-14645-code)
+- [Schira4396/CVE-2020-14645](https://github.com/Schira4396/CVE-2020-14645)
 
 ### CVE-2020-14750 (2020-11-01)
 
@@ -2705,6 +2706,9 @@ A remote code execution vulnerability exists in Microsoft Outlook software when 
 - [0neb1n/CVE-2020-16947](https://github.com/0neb1n/CVE-2020-16947)
 - [MasterSploit/CVE-2020-16947](https://github.com/MasterSploit/CVE-2020-16947)
 
+### CVE-2020-17008
+- [jas502n/CVE-2020-17008](https://github.com/jas502n/CVE-2020-17008)
+
 ### CVE-2020-17057 (2020-11-11)
 
 <code>
@@ -2758,6 +2762,14 @@ Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may 
 - [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
 - [ludy-dev/freemarker_RCE_struts2_s2-061](https://github.com/ludy-dev/freemarker_RCE_struts2_s2-061)
+
+### CVE-2020-17531 (2020-12-08)
+
+<code>
+A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapestry 4 will attempt to deserialize the &quot;sp&quot; parameter even before invoking the page's validate method, leading to deserialization without authentication. Apache Tapestry 4 reached end of life in 2008 and no update to address this issue will be released. Apache Tapestry 5 versions are not vulnerable to this issue. Users of Apache Tapestry 4 should upgrade to the latest Apache Tapestry 5 version.
+</code>
+
+- [154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531)
 
 ### CVE-2020-23489 (2020-11-16)
 
@@ -3380,6 +3392,14 @@ In the Macally WIFISD2-2A82 Media and Travel Router 2.000.010, the Guest user is
 
 ### CVE-2020-35488
 - [GuillaumePetit84/CVE-2020-35488](https://github.com/GuillaumePetit84/CVE-2020-35488)
+
+### CVE-2020-35489 (2020-12-17)
+
+<code>
+The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows Unrestricted File Upload and remote code execution because a filename may contain special characters.
+</code>
+
+- [dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489)
 
 ### CVE-2020-35590 (2020-12-21)
 
