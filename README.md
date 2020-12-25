@@ -16112,6 +16112,14 @@ UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 th
 
 - [M4LV0/UnrealIRCd-3.2.8.1-RCE](https://github.com/M4LV0/UnrealIRCd-3.2.8.1-RCE)
 
+### CVE-2010-3332 (2010-09-22)
+
+<code>
+Microsoft .NET Framework 1.1 SP1, 2.0 SP1 and SP2, 3.5, 3.5 SP1, 3.5.1, and 4.0, as used for ASP.NET in Microsoft Internet Information Services (IIS), provides detailed error codes during decryption attempts, which allows remote attackers to decrypt and modify encrypted View State (aka __VIEWSTATE) form data, and possibly forge cookies or read application files, via a padding oracle attack, aka &quot;ASP.NET Padding Oracle Vulnerability.&quot;
+</code>
+
+- [bongbongco/MS10-070](https://github.com/bongbongco/MS10-070)
+
 ### CVE-2010-3333 (2010-11-09)
 
 <code>
@@ -16168,6 +16176,14 @@ Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Ca
 
 - [nektra/CVE-2010-3971-hotpatch](https://github.com/nektra/CVE-2010-3971-hotpatch)
 
+### CVE-2010-4221 (2010-11-09)
+
+<code>
+Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
+</code>
+
+- [M31MOTH/cve-2010-4221](https://github.com/M31MOTH/cve-2010-4221)
+
 ### CVE-2010-4258 (2010-12-30)
 
 <code>
@@ -16191,6 +16207,14 @@ The Neighbor Discovery (ND) protocol implementation in the IPv6 stack in Microso
 </code>
 
 - [quinn-samuel-perry/CVE-2010-4669](https://github.com/quinn-samuel-perry/CVE-2010-4669)
+
+### CVE-2010-4804 (2011-06-09)
+
+<code>
+The Android browser in Android before 2.3.4 allows remote attackers to obtain SD card contents via crafted content:// URIs, related to (1) BrowserActivity.java and (2) BrowserSettings.java in com/android/browser/.
+</code>
+
+- [thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804)
 
 ### CVE-2010-5327 (2017-01-13)
 
