@@ -2728,6 +2728,14 @@ A remote code execution vulnerability exists in Microsoft Outlook software when 
 ### CVE-2020-17008
 - [jas502n/CVE-2020-17008](https://github.com/jas502n/CVE-2020-17008)
 
+### CVE-2020-17035 (2020-11-11)
+
+<code>
+Windows Kernel Elevation of Privilege Vulnerability
+</code>
+
+- [flamelu/CVE-2020-17035-patch-analysis](https://github.com/flamelu/CVE-2020-17035-patch-analysis)
+
 ### CVE-2020-17057 (2020-11-11)
 
 <code>
