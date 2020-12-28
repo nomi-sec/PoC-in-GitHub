@@ -3283,6 +3283,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [WizZYou/git-lfs-RCE-exploit-CVE-2020-27955-revshell](https://github.com/WizZYou/git-lfs-RCE-exploit-CVE-2020-27955-revshell)
 - [shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955)
 - [SilverSkyFlyingFeather/CVE-2020-27955-TEST](https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST)
+- [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
 
 ### CVE-2020-27976 (2020-10-28)
 
