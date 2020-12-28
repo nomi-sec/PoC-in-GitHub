@@ -16610,6 +16610,40 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
+### CVE-2006-0187 (2006-01-12)
+
+<code>
+By design, Microsoft Visual Studio 2005 automatically executes code in the Load event of a user-defined control (UserControl1_Load function), which allows user-assisted attackers to execute arbitrary code by tricking the user into opening a malicious Visual Studio project file.
+</code>
+
+- [0xmanjoos/CVE-2006-0187](https://github.com/0xmanjoos/CVE-2006-0187)
+
+### CVE-2006-0450 (2006-01-26)
+
+<code>
+phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
+</code>
+
+- [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
+
+### CVE-2006-1236 (2006-03-14)
+
+<code>
+Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
+</code>
+
+- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
+
+### CVE-2006-3392 (2006-07-06)
+
+<code>
+Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
+</code>
+
+- [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
+- [notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392)
+- [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
+
 ### CVE-2006-3592 (2006-07-14)
 
 <code>
@@ -16648,6 +16682,7 @@ The mincore function in the Linux kernel before 2.4.33.6 does not properly lock 
 Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.9, and possibly earlier, allow remote attackers to cause a denial of service (crash) or execute arbitrary code via a long filename in a (1) GET or (2) PUT command.
 </code>
 
+- [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
