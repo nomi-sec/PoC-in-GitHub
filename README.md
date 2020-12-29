@@ -1696,6 +1696,9 @@ Legacy pairing and secure-connections pairing authentication in Bluetooth BR/EDR
 
 - [marcinguy/CVE-2020-10135-BIAS](https://github.com/marcinguy/CVE-2020-10135-BIAS)
 
+### CVE-2020-10148
+- [rdoix/CVE-2020-10148-Solarwinds-Orion](https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion)
+
 ### CVE-2020-10189 (2020-03-06)
 
 <code>
