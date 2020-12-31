@@ -8040,6 +8040,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [shadofren/CVE-2018-6574](https://github.com/shadofren/CVE-2018-6574)
 - [NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574)
 - [vishack/CVE-2018-6574](https://github.com/vishack/CVE-2018-6574)
+- [PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -16792,6 +16793,24 @@ The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows
 
 - [fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558)
 
+### CVE-2004-1561 (2005-02-20)
+
+<code>
+Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
+</code>
+
+- [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
+- [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
+
+### CVE-2004-1769 (2005-03-10)
+
+<code>
+The &quot;Allow cPanel users to reset their password via email&quot; feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
+</code>
+
+- [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
+- [Redsplit/shiguresh](https://github.com/Redsplit/shiguresh)
+
 ### CVE-2004-2167 (2005-07-10)
 
 <code>
@@ -16806,6 +16825,9 @@ Multiple buffer overflows in LaTeX2rtf 1.9.15, and possibly other versions, allo
 Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.
 </code>
 
+- [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
+- [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
+- [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
 - [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
 
 ### CVE-2004-2549 (2005-11-21)
