@@ -16792,14 +16792,6 @@ The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows
 
 - [fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558)
 
-### CVE-2004-1769 (2005-03-10)
-
-<code>
-The &quot;Allow cPanel users to reset their password via email&quot; feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
-</code>
-
-- [Redsplit/shiguresh](https://github.com/Redsplit/shiguresh)
-
 ### CVE-2004-2167 (2005-07-10)
 
 <code>
@@ -16814,8 +16806,6 @@ Multiple buffer overflows in LaTeX2rtf 1.9.15, and possibly other versions, allo
 Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.
 </code>
 
-- [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
-- [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
 - [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
 
 ### CVE-2004-2549 (2005-11-21)
