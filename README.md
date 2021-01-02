@@ -13789,6 +13789,14 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 
 
 ## 2015
+### CVE-2015-0006 (2015-01-13)
+
+<code>
+The Network Location Awareness (NLA) service in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not perform mutual authentication to determine a domain connection, which allows remote attackers to trigger an unintended permissive configuration by spoofing DNS and LDAP responses on a local network, aka &quot;NLA Security Feature Bypass Vulnerability.&quot;
+</code>
+
+- [bugch3ck/imposter](https://github.com/bugch3ck/imposter)
+
 ### CVE-2015-0057 (2015-02-10)
 
 <code>
@@ -13797,12 +13805,24 @@ win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Wind
 
 - [55-AA/CVE-2015-0057](https://github.com/55-AA/CVE-2015-0057)
 
+### CVE-2015-0072 (2015-02-07)
+
+<code>
+Cross-site scripting (XSS) vulnerability in Microsoft Internet Explorer 9 through 11 allows remote attackers to bypass the Same Origin Policy and inject arbitrary web script or HTML via vectors involving an IFRAME element that triggers a redirect, a second IFRAME element that does not trigger a redirect, and an eval of a WindowProxy object, aka &quot;Universal XSS (UXSS).&quot;
+</code>
+
+- [dbellavista/uxss-poc](https://github.com/dbellavista/uxss-poc)
+
 ### CVE-2015-0204 (2015-01-08)
 
 <code>
 The ssl3_get_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8zd, 1.0.0 before 1.0.0p, and 1.0.1 before 1.0.1k allows remote SSL servers to conduct RSA-to-EXPORT_RSA downgrade attacks and facilitate brute-force decryption by offering a weak ephemeral RSA key in a noncompliant role, related to the &quot;FREAK&quot; issue.  NOTE: the scope of this CVE is only client code based on OpenSSL, not EXPORT_RSA issues associated with servers or other TLS implementations.
 </code>
 
+- [felmoltor/FreakVulnChecker](https://github.com/felmoltor/FreakVulnChecker)
+- [scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner)
+- [AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script](https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script)
+- [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
 - [nyctophile6/A2SV--SSL-VUL-Scan](https://github.com/nyctophile6/A2SV--SSL-VUL-Scan)
 
 ### CVE-2015-0231 (2015-01-27)
@@ -13819,9 +13839,40 @@ Use-after-free vulnerability in the process_nested_data function in ext/standard
 Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2.2, and other 2.x versions before 2.18, allows context-dependent attackers to execute arbitrary code via vectors related to the (1) gethostbyname or (2) gethostbyname2 function, aka &quot;GHOST.&quot;
 </code>
 
+- [fser/ghost-checker](https://github.com/fser/ghost-checker)
+- [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
+- [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
+- [piyokango/ghost](https://github.com/piyokango/ghost)
+- [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
+- [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
+- [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
+- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
+- [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
+- [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [JustDenisYT/ghosttester](https://github.com/JustDenisYT/ghosttester)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
+- [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
+- [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
+- [limkokhole/GHOSTCHECK-cve-2015-0235](https://github.com/limkokhole/GHOSTCHECK-cve-2015-0235)
+
+### CVE-2015-0313 (2015-02-02)
+
+<code>
+Use-after-free vulnerability in Adobe Flash Player before 13.0.0.269 and 14.x through 16.x before 16.0.0.305 on Windows and OS X and before 11.2.202.442 on Linux allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in February 2015, a different vulnerability than CVE-2015-0315, CVE-2015-0320, and CVE-2015-0322.
+</code>
+
+- [SecurityObscurity/cve-2015-0313](https://github.com/SecurityObscurity/cve-2015-0313)
+
+### CVE-2015-0345 (2015-04-15)
+
+<code>
+Cross-site scripting (XSS) vulnerability in Adobe ColdFusion 10 before Update 16 and 11 before Update 5 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+</code>
+
+- [BishopFox/coldfusion-10-11-xss](https://github.com/BishopFox/coldfusion-10-11-xss)
 
 ### CVE-2015-0568 (2016-08-07)
 
@@ -13838,6 +13889,39 @@ Mozilla Firefox before 37.0, Firefox ESR 31.x before 31.6, and Thunderbird befor
 </code>
 
 - [Afudadi/Firefox-35-37-Exploit](https://github.com/Afudadi/Firefox-35-37-Exploit)
+
+### CVE-2015-1130 (2015-04-10)
+
+<code>
+The XPC implementation in Admin Framework in Apple OS X before 10.10.3 allows local users to bypass authentication and obtain admin privileges via unspecified vectors.
+</code>
+
+- [Shmoopi/RootPipe-Demo](https://github.com/Shmoopi/RootPipe-Demo)
+- [sideeffect42/RootPipeTester](https://github.com/sideeffect42/RootPipeTester)
+
+### CVE-2015-1140 (2015-04-10)
+
+<code>
+Buffer overflow in IOHIDFamily in Apple OS X before 10.10.3 allows local users to gain privileges via unspecified vectors.
+</code>
+
+- [kpwn/vpwn](https://github.com/kpwn/vpwn)
+
+### CVE-2015-1157 (2015-05-27)
+
+<code>
+CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
+</code>
+
+- [perillamint/CVE-2015-1157](https://github.com/perillamint/CVE-2015-1157)
+
+### CVE-2015-1318 (2015-04-17)
+
+<code>
+The crash reporting feature in Apport 2.13 through 2.17.x before 2.17.1 allows local users to gain privileges via a crafted usr/share/apport/apport file in a namespace (container).
+</code>
+
+- [ScottyBauer/CVE-2015-1318](https://github.com/ScottyBauer/CVE-2015-1318)
 
 ### CVE-2015-1328 (2016-11-27)
 
@@ -13857,15 +13941,44 @@ The Groovy scripting engine in Elasticsearch before 1.3.8 and 1.4.x before 1.4.3
 - [cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427)
 - [cyberharsh/Groovy-scripting-engine-CVE-2015-1427](https://github.com/cyberharsh/Groovy-scripting-engine-CVE-2015-1427)
 
+### CVE-2015-1474 (2015-02-15)
+
+<code>
+Multiple integer overflows in the GraphicBuffer::unflatten function in platform/frameworks/native/libs/ui/GraphicBuffer.cpp in Android through 5.0 allow attackers to gain privileges or cause a denial of service (memory corruption) via vectors that trigger a large number of (1) file descriptors or (2) integer values.
+</code>
+
+- [p1gl3t/CVE-2015-1474_poc](https://github.com/p1gl3t/CVE-2015-1474_poc)
+
+### CVE-2015-1528 (2015-09-30)
+
+<code>
+Integer overflow in the native_handle_create function in libcutils/native_handle.c in Android before 5.1.1 LMY48M allows attackers to obtain a different application's privileges or cause a denial of service (Binder heap memory corruption) via a crafted application, aka internal bug 19334482.
+</code>
+
+- [secmob/PoCForCVE-2015-1528](https://github.com/secmob/PoCForCVE-2015-1528)
+- [kanpol/PoCForCVE-2015-1528](https://github.com/kanpol/PoCForCVE-2015-1528)
+
 ### CVE-2015-1538 (2015-09-30)
 
 <code>
 Integer overflow in the SampleTable::setSampleToChunkParams function in SampleTable.cpp in libstagefright in Android before 5.1.1 LMY48I allows remote attackers to execute arbitrary code via crafted atoms in MP4 data that trigger an unchecked multiplication, aka internal bug 20139950, a related issue to CVE-2015-4496.
 </code>
 
+- [oguzhantopgul/cve-2015-1538-1](https://github.com/oguzhantopgul/cve-2015-1538-1)
+- [renjithsasidharan/cve-2015-1538-1](https://github.com/renjithsasidharan/cve-2015-1538-1)
+- [jduck/cve-2015-1538-1](https://github.com/jduck/cve-2015-1538-1)
+- [marZiiw/Stagefright_CVE-2015-1538-1](https://github.com/marZiiw/Stagefright_CVE-2015-1538-1)
 - [niranjanshr13/Stagefright-cve-2015-1538-1](https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1)
 - [Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation)
 - [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
+
+### CVE-2015-1560 (2015-07-14)
+
+<code>
+SQL injection vulnerability in the isUserAdmin function in include/common/common-Func.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon web 2.7.0) allows remote attackers to execute arbitrary SQL commands via the sid parameter to include/common/XmlTree/GetXmlTree.php.
+</code>
+
+- [Iansus/Centreon-CVE-2015-1560_1561](https://github.com/Iansus/Centreon-CVE-2015-1560_1561)
 
 ### CVE-2015-1579 (2015-02-11)
 
@@ -13876,13 +13989,24 @@ Directory traversal vulnerability in the Elegant Themes Divi theme for WordPress
 - [paralelo14/WordPressMassExploiter](https://github.com/paralelo14/WordPressMassExploiter)
 - [paralelo14/CVE-2015-1579](https://github.com/paralelo14/CVE-2015-1579)
 
+### CVE-2015-1592 (2015-02-19)
+
+<code>
+Movable Type Pro, Open Source, and Advanced before 5.2.12 and Pro and Advanced 6.0.x before 6.0.7 does not properly use the Perl Storable::thaw function, which allows remote attackers to include and execute arbitrary local Perl files and possibly execute arbitrary code via unspecified vectors.
+</code>
+
+- [lightsey/cve-2015-1592](https://github.com/lightsey/cve-2015-1592)
+
 ### CVE-2015-1635 (2015-04-14)
 
 <code>
 HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 allows remote attackers to execute arbitrary code via crafted HTTP requests, aka &quot;HTTP.sys Remote Code Execution Vulnerability.&quot;
 </code>
 
+- [xPaw/HTTPsys](https://github.com/xPaw/HTTPsys)
+- [Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635)
 - [technion/erlvulnscan](https://github.com/technion/erlvulnscan)
+- [wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034)
 - [u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS)
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
@@ -13931,6 +14055,25 @@ The exception handling code in Eclipse Jetty before 9.2.9.v20150224 allows remot
 
 - [BizarreNULL/CVE-2015-2080](https://github.com/BizarreNULL/CVE-2015-2080)
 
+### CVE-2015-2153 (2015-03-24)
+
+<code>
+The rpki_rtr_pdu_print function in print-rpki-rtr.c in the TCP printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read or write and crash) via a crafted header length in an RPKI-RTR Protocol Data Unit (PDU).
+</code>
+
+- [arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153)
+
+### CVE-2015-2208 (2015-03-12)
+
+<code>
+The saveObject function in moadmin.php in phpMoAdmin 1.1.2 allows remote attackers to execute arbitrary commands via shell metacharacters in the object parameter.
+</code>
+
+- [ptantiku/cve-2015-2208](https://github.com/ptantiku/cve-2015-2208)
+
+### CVE-2015-2231
+- [rednaga/adups-get-super-serial](https://github.com/rednaga/adups-get-super-serial)
+
 ### CVE-2015-2291 (2017-08-09)
 
 <code>
@@ -13938,6 +14081,14 @@ The exception handling code in Eclipse Jetty before 9.2.9.v20150224 allows remot
 </code>
 
 - [Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291)
+
+### CVE-2015-2315 (2015-03-17)
+
+<code>
+Cross-site scripting (XSS) vulnerability in the WPML plugin before 3.1.9 for WordPress allows remote attackers to inject arbitrary web script or HTML via the target parameter in a reminder_popup action to the default URI.
+</code>
+
+- [weidongl74/cve-2015-2315-report](https://github.com/weidongl74/cve-2015-2315-report)
 
 ### CVE-2015-2546 (2015-09-08)
 
@@ -13964,6 +14115,38 @@ The AddUserFinding add_userfinding2 function in Medicomp MEDCIN Engine before 2.
 
 - [securifera/CVE-2015-2900-Exploit](https://github.com/securifera/CVE-2015-2900-Exploit)
 
+### CVE-2015-2925 (2015-11-16)
+
+<code>
+The prepend_path function in fs/dcache.c in the Linux kernel before 4.2.4 does not properly handle rename actions inside a bind mount, which allows local users to bypass an intended container protection mechanism by renaming a directory, related to a &quot;double-chroot attack.&quot;
+</code>
+
+- [Kagami/docker_cve-2015-2925](https://github.com/Kagami/docker_cve-2015-2925)
+
+### CVE-2015-3043 (2015-04-14)
+
+<code>
+Adobe Flash Player before 13.0.0.281 and 14.x through 17.x before 17.0.0.169 on Windows and OS X and before 11.2.202.457 on Linux allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, as exploited in the wild in April 2015, a different vulnerability than CVE-2015-0347, CVE-2015-0350, CVE-2015-0352, CVE-2015-0353, CVE-2015-0354, CVE-2015-0355, CVE-2015-0360, CVE-2015-3038, CVE-2015-3041, and CVE-2015-3042.
+</code>
+
+- [whitehairman/Exploit](https://github.com/whitehairman/Exploit)
+
+### CVE-2015-3073 (2015-05-13)
+
+<code>
+Adobe Reader and Acrobat 10.x before 10.1.14 and 11.x before 11.0.11 on Windows and OS X allow attackers to bypass intended restrictions on JavaScript API execution via unspecified vectors, a different vulnerability than CVE-2015-3060, CVE-2015-3061, CVE-2015-3062, CVE-2015-3063, CVE-2015-3064, CVE-2015-3065, CVE-2015-3066, CVE-2015-3067, CVE-2015-3068, CVE-2015-3069, CVE-2015-3071, CVE-2015-3072, and CVE-2015-3074.
+</code>
+
+- [reigningshells/CVE-2015-3073](https://github.com/reigningshells/CVE-2015-3073)
+
+### CVE-2015-3152 (2016-05-16)
+
+<code>
+Oracle MySQL before 5.7.3, Oracle MySQL Connector/C (aka libmysqlclient) before 6.1.3, and MariaDB before 5.5.44 use the --ssl option to mean that SSL is optional, which allows man-in-the-middle attackers to spoof servers via a cleartext-downgrade attack, aka a &quot;BACKRONYM&quot; attack.
+</code>
+
+- [duo-labs/mysslstrip](https://github.com/duo-labs/mysslstrip)
+
 ### CVE-2015-3224 (2015-07-26)
 
 <code>
@@ -13979,6 +14162,8 @@ request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, 
 The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
 </code>
 
+- [chcx/cpx_proftpd](https://github.com/chcx/cpx_proftpd)
+- [nootropics/propane](https://github.com/nootropics/propane)
 - [t0kx/exploit-CVE-2015-3306](https://github.com/t0kx/exploit-CVE-2015-3306)
 - [davidtavarez/CVE-2015-3306](https://github.com/davidtavarez/CVE-2015-3306)
 - [cved-sources/cve-2015-3306](https://github.com/cved-sources/cve-2015-3306)
@@ -14000,6 +14185,7 @@ Directory traversal vulnerability in Elasticsearch before 1.4.5 and 1.5.x before
 The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and KVM, allows local guest users to cause a denial of service (out-of-bounds write and guest crash) or possibly execute arbitrary code via the (1) FD_CMD_READ_ID, (2) FD_CMD_DRIVE_SPECIFICATION_COMMAND, or other unspecified commands, aka VENOM.
 </code>
 
+- [vincentbernat/cve-2015-3456](https://github.com/vincentbernat/cve-2015-3456)
 - [orf53975/poisonfrog](https://github.com/orf53975/poisonfrog)
 
 ### CVE-2015-3636 (2015-08-05)
@@ -14008,7 +14194,11 @@ The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and K
 The ping_unhash function in net/ipv4/ping.c in the Linux kernel before 4.0.3 does not initialize a certain list data structure during an unhash operation, which allows local users to gain privileges or cause a denial of service (use-after-free and system crash) by leveraging the ability to make a SOCK_DGRAM socket system call for the IPPROTO_ICMP or IPPROTO_ICMPV6 protocol, and then making a connect system call after a disconnect.
 </code>
 
+- [betalphafai/cve-2015-3636_crash](https://github.com/betalphafai/cve-2015-3636_crash)
+- [askk/libping_unhash_exploit_POC](https://github.com/askk/libping_unhash_exploit_POC)
+- [ludongxu/cve-2015-3636](https://github.com/ludongxu/cve-2015-3636)
 - [fi01/CVE-2015-3636](https://github.com/fi01/CVE-2015-3636)
+- [android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit)
 - [debugfan/rattle_root](https://github.com/debugfan/rattle_root)
 - [a7vinx/CVE-2015-3636](https://github.com/a7vinx/CVE-2015-3636)
 
@@ -14037,8 +14227,17 @@ The updateMessageStatus function in Android 5.1.1 and earlier allows local users
 Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
 </code>
 
+- [pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864)
 - [eudemonics/scaredycat](https://github.com/eudemonics/scaredycat)
 - [HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864)
+
+### CVE-2015-4495 (2015-08-07)
+
+<code>
+The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
+</code>
+
+- [vincd/CVE-2015-4495](https://github.com/vincd/CVE-2015-4495)
 
 ### CVE-2015-4852 (2015-11-18)
 
@@ -14065,6 +14264,8 @@ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 
 Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.296 and 14.x through 18.0.0.194 on Windows and OS X and 11.x through 11.2.202.468 on Linux allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that overrides a valueOf function, as exploited in the wild in July 2015.
 </code>
 
+- [jvazquez-r7/CVE-2015-5119](https://github.com/jvazquez-r7/CVE-2015-5119)
+- [CiscoCXSecurity/CVE-2015-5119_walkthrough](https://github.com/CiscoCXSecurity/CVE-2015-5119_walkthrough)
 - [dangokyo/CVE-2015-5119](https://github.com/dangokyo/CVE-2015-5119)
 
 ### CVE-2015-5195 (2017-07-21)
@@ -14083,6 +14284,14 @@ Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be seri
 
 - [jas502n/CVE-2015-5254](https://github.com/jas502n/CVE-2015-5254)
 - [gsheller/ActiveMQ_CVE-2015-5254](https://github.com/gsheller/ActiveMQ_CVE-2015-5254)
+
+### CVE-2015-5290 (2019-12-26)
+
+<code>
+A Denial of Service vulnerability exists in ircd-ratbox 3.0.9 in the MONITOR Command Handler.
+</code>
+
+- [sariyamelody/CVE-2015-5290](https://github.com/sariyamelody/CVE-2015-5290)
 
 ### CVE-2015-5374 (2015-07-18)
 
@@ -14114,6 +14323,11 @@ Cross-site scripting (XSS) vulnerability in Nucleus CMS allows remote attackers 
 named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.
 </code>
 
+- [robertdavidgraham/cve-2015-5477](https://github.com/robertdavidgraham/cve-2015-5477)
+- [elceef/tkeypoc](https://github.com/elceef/tkeypoc)
+- [hmlio/vaas-cve-2015-5477](https://github.com/hmlio/vaas-cve-2015-5477)
+- [knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477)
+- [ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477)
 - [likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477)
 - [xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit)
 
@@ -14125,6 +14339,14 @@ sudoedit in Sudo before 1.8.15 allows local users to gain privileges via a symli
 
 - [t0kx/privesc-CVE-2015-5602](https://github.com/t0kx/privesc-CVE-2015-5602)
 - [cved-sources/cve-2015-5602](https://github.com/cved-sources/cve-2015-5602)
+
+### CVE-2015-5932 (2015-10-23)
+
+<code>
+The kernel in Apple OS X before 10.11.1 allows local users to gain privileges by leveraging an unspecified &quot;type confusion&quot; during Mach task processing.
+</code>
+
+- [jndok/tpwn-bis](https://github.com/jndok/tpwn-bis)
 
 ### CVE-2015-5995 (2015-12-30)
 
@@ -14158,6 +14380,22 @@ Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, 
 
 - [hexx0r/CVE-2015-6132](https://github.com/hexx0r/CVE-2015-6132)
 
+### CVE-2015-6357 (2015-11-18)
+
+<code>
+The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.4.0.1 does not verify the X.509 certificate of the support.sourcefire.com SSL server, which allows man-in-the-middle attackers to spoof this server and provide an invalid package, and consequently execute arbitrary code, via a crafted certificate, aka Bug ID CSCuw06444.
+</code>
+
+- [mattimustang/firepwner](https://github.com/mattimustang/firepwner)
+
+### CVE-2015-6576 (2017-10-02)
+
+<code>
+Bamboo 2.2 before 5.8.5 and 5.9.x before 5.9.7 allows remote attackers with access to the Bamboo web interface to execute arbitrary Java code via an unspecified resource.
+</code>
+
+- [CallMeJonas/CVE-2015-6576](https://github.com/CallMeJonas/CVE-2015-6576)
+
 ### CVE-2015-6606 (2015-10-06)
 
 <code>
@@ -14165,6 +14403,15 @@ The Secure Element Evaluation Kit (aka SEEK or SmartCard API) plugin in Android 
 </code>
 
 - [michaelroland/omapi-cve-2015-6606-exploit](https://github.com/michaelroland/omapi-cve-2015-6606-exploit)
+
+### CVE-2015-6612 (2015-11-03)
+
+<code>
+libmedia in Android before 5.1.1 LMY48X and 6.0 before 2015-11-01 allows attackers to gain privileges via a crafted application, aka internal bug 23540426.
+</code>
+
+- [secmob/CVE-2015-6612](https://github.com/secmob/CVE-2015-6612)
+- [flankerhqd/cve-2015-6612poc-forM](https://github.com/flankerhqd/cve-2015-6612poc-forM)
 
 ### CVE-2015-6620 (2015-12-08)
 
@@ -14230,6 +14477,7 @@ Mozilla Firefox before 43.0 and Firefox ESR 38.x before 38.5 allow remote attack
 SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7858.
 </code>
 
+- [CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory)
 - [kally-life/exploit-joomla](https://github.com/kally-life/exploit-joomla)
 
 ### CVE-2015-7501 (2017-11-09)
@@ -14275,6 +14523,14 @@ Juniper ScreenOS 6.2.0r15 through 6.2.0r18, 6.3.0r12 before 6.3.0r12b, 6.3.0r13 
 
 - [hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755)
 - [cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC)
+
+### CVE-2015-7808 (2015-11-24)
+
+<code>
+The vB_Api_Hook::decodeArguments method in vBulletin 5 Connect 5.1.2 through 5.1.9 allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via a crafted serialized object in the arguments parameter to ajax/api/hook/decodeArguments.
+</code>
+
+- [Prajithp/CVE-2015-7808](https://github.com/Prajithp/CVE-2015-7808)
 
 ### CVE-2015-8088 (2016-01-12)
 
@@ -15921,7 +16177,6 @@ mpack 1.6 has information disclosure via eavesdropping on mails sent by other us
 sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is enabled, permits a match between the name of the pseudo-command and the name of an executable file in an arbitrary directory, which allows local users to gain privileges via a crafted executable file, as demonstrated by a file named sudoedit in a user's home directory.
 </code>
 
-- [t0kx/privesc-CVE-2010-0426](https://github.com/t0kx/privesc-CVE-2010-0426)
 - [cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426)
 
 ### CVE-2010-0738 (2010-04-28)
@@ -15930,40 +16185,7 @@ sudo 1.6.x before 1.6.9p21 and 1.7.x before 1.7.2p4, when a pseudo-command is en
 The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
 </code>
 
-- [ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn)
 - [gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn)
-
-### CVE-2010-1205 (2010-06-30)
-
-<code>
-Buffer overflow in pngpread.c in libpng before 1.2.44 and 1.4.x before 1.4.3, as used in progressive applications, might allow remote attackers to execute arbitrary code via a PNG image that triggers an additional data row.
-</code>
-
-- [mk219533/CVE-2010-1205](https://github.com/mk219533/CVE-2010-1205)
-
-### CVE-2010-1411 (2010-06-17)
-
-<code>
-Multiple integer overflows in the Fax3SetupState function in tif_fax3.c in the FAX3 decoder in LibTIFF before 3.9.3, as used in ImageIO in Apple Mac OS X 10.5.8 and Mac OS X 10.6 before 10.6.4, allow remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted TIFF file that triggers a heap-based buffer overflow.
-</code>
-
-- [MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller)
-
-### CVE-2010-2075 (2010-06-14)
-
-<code>
-UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
-</code>
-
-- [M4LV0/UnrealIRCd-3.2.8.1-RCE](https://github.com/M4LV0/UnrealIRCd-3.2.8.1-RCE)
-
-### CVE-2010-3332 (2010-09-22)
-
-<code>
-Microsoft .NET Framework 1.1 SP1, 2.0 SP1 and SP2, 3.5, 3.5 SP1, 3.5.1, and 4.0, as used for ASP.NET in Microsoft Internet Information Services (IIS), provides detailed error codes during decryption attempts, which allows remote attackers to decrypt and modify encrypted View State (aka __VIEWSTATE) form data, and possibly forge cookies or read application files, via a padding oracle attack, aka &quot;ASP.NET Padding Oracle Vulnerability.&quot;
-</code>
-
-- [bongbongco/MS10-070](https://github.com/bongbongco/MS10-070)
 
 ### CVE-2010-3333 (2010-11-09)
 
@@ -15972,22 +16194,6 @@ Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 
 </code>
 
 - [whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333)
-
-### CVE-2010-3437 (2010-10-04)
-
-<code>
-Integer signedness error in the pkt_find_dev_from_minor function in drivers/block/pktcdvd.c in the Linux kernel before 2.6.36-rc6 allows local users to obtain sensitive information from kernel memory or cause a denial of service (invalid pointer dereference and system crash) via a crafted index value in a PKT_CTRL_CMD_STATUS ioctl call.
-</code>
-
-- [huang-emily/CVE-2010-3437](https://github.com/huang-emily/CVE-2010-3437)
-
-### CVE-2010-3490 (2010-09-28)
-
-<code>
-Directory traversal vulnerability in page.recordings.php in the System Recordings component in the configuration interface in FreePBX 2.8.0 and earlier allows remote authenticated administrators to create arbitrary files via a .. (dot dot) in the usersnum parameter to admin/config.php, as demonstrated by creating a .php file under the web root.
-</code>
-
-- [moayadalmalat/CVE-2010-3490](https://github.com/moayadalmalat/CVE-2010-3490)
 
 ### CVE-2010-3600 (2011-01-19)
 
@@ -16013,30 +16219,6 @@ The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Socke
 
 - [redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report)
 
-### CVE-2010-3971 (2010-12-22)
-
-<code>
-Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka &quot;CSS Memory Corruption Vulnerability.&quot;
-</code>
-
-- [nektra/CVE-2010-3971-hotpatch](https://github.com/nektra/CVE-2010-3971-hotpatch)
-
-### CVE-2010-4221 (2010-11-09)
-
-<code>
-Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
-</code>
-
-- [M31MOTH/cve-2010-4221](https://github.com/M31MOTH/cve-2010-4221)
-
-### CVE-2010-4258 (2010-12-30)
-
-<code>
-The do_exit function in kernel/exit.c in the Linux kernel before 2.6.36.2 does not properly handle a KERNEL_DS get_fs value, which allows local users to bypass intended access_ok restrictions, overwrite arbitrary kernel memory locations, and gain privileges by leveraging a (1) BUG, (2) NULL pointer dereference, or (3) page fault, as demonstrated by vectors involving the clear_child_tid feature and the splice system call.
-</code>
-
-- [johnreginald/CVE-2010-4258](https://github.com/johnreginald/CVE-2010-4258)
-
 ### CVE-2010-4476 (2011-02-17)
 
 <code>
@@ -16052,14 +16234,6 @@ The Neighbor Discovery (ND) protocol implementation in the IPv6 stack in Microso
 </code>
 
 - [quinn-samuel-perry/CVE-2010-4669](https://github.com/quinn-samuel-perry/CVE-2010-4669)
-
-### CVE-2010-4804 (2011-06-09)
-
-<code>
-The Android browser in Android before 2.3.4 allows remote attackers to obtain SD card contents via crafted content:// URIs, related to (1) BrowserActivity.java and (2) BrowserSettings.java in com/android/browser/.
-</code>
-
-- [thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804)
 
 ### CVE-2010-5327 (2017-01-13)
 
@@ -16345,6 +16519,22 @@ Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before
 
 
 ## 2007
+### CVE-2007-0038 (2007-03-30)
+
+<code>
+Stack-based buffer overflow in the animated cursor code in Microsoft Windows 2000 SP4 through Vista allows remote attackers to execute arbitrary code or cause a denial of service (persistent reboot) via a large length value in the second (or later) anih block of a RIFF .ANI, cur, or .ico file, which results in memory corruption when processing cursors, animated cursors, and icons, a variant of CVE-2005-0416, as originally demonstrated using Internet Explorer 6 and 7. NOTE: this might be a duplicate of CVE-2007-1765; if so, then CVE-2007-0038 should be preferred.
+</code>
+
+- [Axua/CVE-2007-0038](https://github.com/Axua/CVE-2007-0038)
+
+### CVE-2007-0843 (2007-02-22)
+
+<code>
+The ReadDirectoryChangesW API function on Microsoft Windows 2000, XP, Server 2003, and Vista does not check permissions for child objects, which allows local users to bypass permissions by opening a directory with LIST (READ) access and using ReadDirectoryChangesW to monitor changes of files that do not have LIST permissions, which can be leveraged to determine filenames, access times, and other sensitive information.
+</code>
+
+- [z3APA3A/spydir](https://github.com/z3APA3A/spydir)
+
 ### CVE-2007-1567 (2007-03-21)
 
 <code>
@@ -16353,14 +16543,29 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 
 - [war4uthor/CVE-2007-1567](https://github.com/war4uthor/CVE-2007-1567)
 
+### CVE-2007-1858 (2007-05-09)
+
+<code>
+The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
+</code>
+
+- [nyctophile6/A2SV--SSL-VUL-Scan](https://github.com/nyctophile6/A2SV--SSL-VUL-Scan)
+
 ### CVE-2007-2447 (2007-05-14)
 
 <code>
 The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
+- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
+- [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
+- [Unam3dd/exploit_smb_usermap_script](https://github.com/Unam3dd/exploit_smb_usermap_script)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
+- [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
+- [nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer)
+- [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
+- [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 
 ### CVE-2007-3830 (2007-07-17)
 
