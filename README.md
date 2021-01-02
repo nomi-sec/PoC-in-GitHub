@@ -16768,8 +16768,24 @@ Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.
 - [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
+### CVE-2006-6652 (2006-12-19)
+
+<code>
+Buffer overflow in the glob implementation (glob.c) in libc in NetBSD-current before 20050914, NetBSD 2.* and 3.* before 20061203, and Apple Mac OS X before 2007-004, as used by the FTP daemon and tnftpd, allows remote authenticated users to execute arbitrary code via a long pathname that results from path expansion.
+</code>
+
+- [uromulou/CVE-2006-6652](https://github.com/uromulou/CVE-2006-6652)
+
 
 ## 2005
+### CVE-2005-0603 (2005-03-01)
+
+<code>
+viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sensitive information via a highlight parameter containing invalid regular expression syntax, which reveals the path in a PHP error message.
+</code>
+
+- [Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure)
+
 ### CVE-2005-1125 (2005-04-16)
 
 <code>
