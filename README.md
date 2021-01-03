@@ -1723,6 +1723,7 @@ The SolarWinds Orion API is vulnerable to an authentication bypass that could al
 </code>
 
 - [rdoix/CVE-2020-10148-Solarwinds-Orion](https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion)
+- [Udyz/CVE-2020-10148-Solarwinds-Orion](https://github.com/Udyz/CVE-2020-10148-Solarwinds-Orion)
 
 ### CVE-2020-10189 (2020-03-06)
 
@@ -9324,6 +9325,7 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
+- [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 
 ### CVE-2018-15365 (2018-09-28)
 
