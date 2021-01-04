@@ -227,6 +227,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [murataydemir/CVE-2020-0688](https://github.com/murataydemir/CVE-2020-0688)
 - [zyn3rgy/ecp_slap](https://github.com/zyn3rgy/ecp_slap)
 - [SLSteff/CVE-2020-0688-Scanner](https://github.com/SLSteff/CVE-2020-0688-Scanner)
+- [MrTiz9/CVE-2020-0688](https://github.com/MrTiz9/CVE-2020-0688)
 
 ### CVE-2020-0708 (2020-02-11)
 
