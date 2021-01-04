@@ -1278,6 +1278,7 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 - [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
 - [umiterkol/CVE-2020-8165--Auto-Shell](https://github.com/umiterkol/CVE-2020-8165--Auto-Shell)
 - [taipansec/CVE-2020-8165](https://github.com/taipansec/CVE-2020-8165)
+- [hybryx/CVE-2020-8165](https://github.com/hybryx/CVE-2020-8165)
 
 ### CVE-2020-8193 (2020-07-10)
 
@@ -3448,6 +3449,14 @@ In NetArt News Lister 1.0.0, the news headlines vulnerable to stored xss attacks
 </code>
 
 - [aslanemre/CVE-2020-29364](https://github.com/aslanemre/CVE-2020-29364)
+
+### CVE-2020-29583 (2020-12-22)
+
+<code>
+Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyfwp) with an unchangeable password. The password for this account can be found in cleartext in the firmware. This account can be used by someone to login to the ssh server or web interface with admin privileges.
+</code>
+
+- [2d4d/scan_CVE-2020-29583](https://github.com/2d4d/scan_CVE-2020-29583)
 
 ### CVE-2020-29666 (2020-12-10)
 
@@ -7140,6 +7149,7 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 - [zi0Black/POC-CVE-2018-0114](https://github.com/zi0Black/POC-CVE-2018-0114)
 - [Logeirs/CVE-2018-0114](https://github.com/Logeirs/CVE-2018-0114)
 - [adityathebe/POC-CVE-2018-0114](https://github.com/adityathebe/POC-CVE-2018-0114)
+- [Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114)
 
 ### CVE-2018-0202 (2018-03-27)
 
