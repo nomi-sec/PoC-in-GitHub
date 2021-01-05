@@ -811,6 +811,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [3ndG4me/CVE-2020-3452-Exploit](https://github.com/3ndG4me/CVE-2020-3452-Exploit)
 - [grim3/CVE-2020-3452](https://github.com/grim3/CVE-2020-3452)
 - [cygenta/CVE-2020-3452](https://github.com/cygenta/CVE-2020-3452)
+- [darklotuskdb/CISCO-CVE-2020-3452-Scanner-Exploiter](https://github.com/darklotuskdb/CISCO-CVE-2020-3452-Scanner-Exploiter)
 
 ### CVE-2020-3766 (2020-03-25)
 
@@ -1729,6 +1730,7 @@ The SolarWinds Orion API is vulnerable to an authentication bypass that could al
 
 - [rdoix/CVE-2020-10148-Solarwinds-Orion](https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion)
 - [Udyz/CVE-2020-10148-Solarwinds-Orion](https://github.com/Udyz/CVE-2020-10148-Solarwinds-Orion)
+- [B1anda0/CVE-2020-10148](https://github.com/B1anda0/CVE-2020-10148)
 
 ### CVE-2020-10189 (2020-03-06)
 
@@ -3487,7 +3489,12 @@ In the Macally WIFISD2-2A82 Media and Travel Router 2.000.010, the Guest user is
 
 - [code-byter/CVE-2020-29669](https://github.com/code-byter/CVE-2020-29669)
 
-### CVE-2020-35488
+### CVE-2020-35488 (-)
+
+<code>
+The fileop module of the NXLog service in NXLog Community Edition 2.10.2150 allows remote attackers to cause a denial of service (daemon crash) via a crafted Syslog payload to the Syslog service. This attack requires a specific configuration. Also, the name of the directory created must use a Syslog field. (For example, on Linux it is not possible to create a .. directory. On Windows, it is not possible to create a CON directory.)
+</code>
+
 - [GuillaumePetit84/CVE-2020-35488](https://github.com/GuillaumePetit84/CVE-2020-35488)
 
 ### CVE-2020-35489 (2020-12-17)
@@ -9528,6 +9535,14 @@ Frog CMS 0.9.5 has admin/?/user/edit/1 CSRF.
 
 - [security-breachlock/CVE-2018-16447](https://github.com/security-breachlock/CVE-2018-16447)
 
+### CVE-2018-16492 (2019-02-01)
+
+<code>
+A prototype pollution vulnerability was found in module extend &lt;2.0.2, ~&lt;3.0.2 that allows an attacker to inject arbitrary properties onto Object.prototype.
+</code>
+
+- [dsp-testing/CVE-2018-16492](https://github.com/dsp-testing/CVE-2018-16492)
+
 ### CVE-2018-16509 (2018-09-05)
 
 <code>
@@ -15101,6 +15116,14 @@ Adobe Flash Player before 13.0.0.231 and 14.x before 14.0.0.145 on Windows and O
 </code>
 
 - [cph/rabl-old](https://github.com/cph/rabl-old)
+
+### CVE-2014-4688 (2014-07-02)
+
+<code>
+pfSense before 2.1.4 allows remote authenticated users to execute arbitrary commands via (1) the hostname value to diag_dns.php in a Create Alias action, (2) the smartmonemail value to diag_smart.php, or (3) the database value to status_rrd_graph_img.php.
+</code>
+
+- [AndyFeiLi/CVE-2014-4688](https://github.com/AndyFeiLi/CVE-2014-4688)
 
 ### CVE-2014-4699 (2014-07-09)
 
