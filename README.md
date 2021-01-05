@@ -3077,6 +3077,9 @@ PHPGURUKUL Zoo Management System Using PHP and MySQL version 1.0 is affected by:
 ### CVE-2020-25488
 - [Ko-kn3t/CVE-2020-25488](https://github.com/Ko-kn3t/CVE-2020-25488)
 
+### CVE-2020-25498
+- [the-girl-who-lived/CVE-2020-25498](https://github.com/the-girl-who-lived/CVE-2020-25498)
+
 ### CVE-2020-25514 (2020-09-22)
 
 <code>
@@ -3489,7 +3492,10 @@ In the Macally WIFISD2-2A82 Media and Travel Router 2.000.010, the Guest user is
 
 - [code-byter/CVE-2020-29669](https://github.com/code-byter/CVE-2020-29669)
 
-### CVE-2020-35488 (-)
+### CVE-2020-35262
+- [the-girl-who-lived/CVE-2020-35262](https://github.com/the-girl-who-lived/CVE-2020-35262)
+
+### CVE-2020-35488 (2021-01-05)
 
 <code>
 The fileop module of the NXLog service in NXLog Community Edition 2.10.2150 allows remote attackers to cause a denial of service (daemon crash) via a crafted Syslog payload to the Syslog service. This attack requires a specific configuration. Also, the name of the directory created must use a Syslog field. (For example, on Linux it is not possible to create a .. directory. On Windows, it is not possible to create a CON directory.)
@@ -9231,6 +9237,14 @@ PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption
 
 - [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits)
 
+### CVE-2018-13797 (2018-07-10)
+
+<code>
+The macaddress module before 0.2.9 for Node.js is prone to an arbitrary command injection flaw, due to allowing unsanitized input to an exec (rather than execFile) call.
+</code>
+
+- [dsp-testing/CVE-2018-13797](https://github.com/dsp-testing/CVE-2018-13797)
+
 ### CVE-2018-13864 (2018-07-17)
 
 <code>
@@ -9534,6 +9548,14 @@ Frog CMS 0.9.5 has admin/?/user/edit/1 CSRF.
 </code>
 
 - [security-breachlock/CVE-2018-16447](https://github.com/security-breachlock/CVE-2018-16447)
+
+### CVE-2018-16460 (2018-09-07)
+
+<code>
+A command Injection in ps package versions &lt;1.0.0 for Node.js allowed arbitrary commands to be executed when attacker controls the PID.
+</code>
+
+- [dsp-testing/CVE-2018-16460](https://github.com/dsp-testing/CVE-2018-16460)
 
 ### CVE-2018-16492 (2019-02-01)
 
@@ -12414,7 +12436,7 @@ The receive_msg function in receive.c in the SMTP daemon in Exim 4.88 and 4.89 a
 ### CVE-2017-16995 (2017-12-22)
 
 <code>
-The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4.14.8 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging incorrect sign extension.
+The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4.4 allows local users to cause a denial of service (memory corruption) or possibly have unspecified other impact by leveraging incorrect sign extension.
 </code>
 
 - [C0dak/CVE-2017-16995](https://github.com/C0dak/CVE-2017-16995)
