@@ -2817,6 +2817,14 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 - [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
+### CVE-2020-17519 (2021-01-05)
+
+<code>
+A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as well) allows attackers to read any file on the local filesystem of the JobManager through the REST interface of the JobManager process. Access is restricted to files accessible by the JobManager process. All users should upgrade to Flink 1.11.3 or 1.12.0 if their Flink instance(s) are exposed. The issue was fixed in commit b561010b0ee741543c3953306037f00d7a9f0801 from apache/flink:master.
+</code>
+
+- [B1anda0/CVE-2020-17519](https://github.com/B1anda0/CVE-2020-17519)
+
 ### CVE-2020-17530 (2020-12-10)
 
 <code>
@@ -12400,6 +12408,7 @@ Roundcube Webmail before 1.1.10, 1.2.x before 1.2.7, and 1.3.x before 1.3.3 allo
 </code>
 
 - [Abady0x/CVE-2017-16651](https://github.com/Abady0x/CVE-2017-16651)
+- [stonepresto/CVE-2017-16651](https://github.com/stonepresto/CVE-2017-16651)
 
 ### CVE-2017-16744 (2018-08-20)
 
