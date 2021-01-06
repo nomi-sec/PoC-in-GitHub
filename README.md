@@ -596,6 +596,14 @@ A hard-coded cryptographic key vulnerability in the default configuration file w
 
 - [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
 
+### CVE-2020-1937 (2020-02-24)
+
+<code>
+Kylin has some restful apis which will concatenate SQLs with the user input string, a user is likely to be able to run malicious database queries.
+</code>
+
+- [shanika04/apache_kylin](https://github.com/shanika04/apache_kylin)
+
 ### CVE-2020-1938 (2020-02-24)
 
 <code>
@@ -1618,6 +1626,14 @@ An issue was discovered in Wing FTP Server 6.2.5 before February 2020. Due to in
 </code>
 
 - [Al1ex/CVE-2020-9470](https://github.com/Al1ex/CVE-2020-9470)
+
+### CVE-2020-9483 (2020-06-30)
+
+<code>
+**Resolved** When use H2/MySQL/TiDB as Apache SkyWalking storage, the metadata query through GraphQL protocol, there is a SQL injection vulnerability, which allows to access unpexcted data. Apache SkyWalking 6.0.0 to 6.6.0, 7.0.0 H2/MySQL/TiDB storage implementations don't use the appropriate way to set SQL parameters.
+</code>
+
+- [shanika04/apache_skywalking](https://github.com/shanika04/apache_skywalking)
 
 ### CVE-2020-9484 (2020-05-20)
 
@@ -2817,6 +2833,14 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 - [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
+### CVE-2020-17518 (2021-01-05)
+
+<code>
+Apache Flink 1.5.1 introduced a REST handler that allows you to write an uploaded file to an arbitrary location on the local file system, through a maliciously modified HTTP HEADER. The files can be written to any location accessible by Flink 1.5.1. All users should upgrade to Flink 1.11.3 or 1.12.0 if their Flink instance(s) are exposed. The issue was fixed in commit a5264a6f41524afe8ceadf1d8ddc8c80f323ebc4 from apache/flink:master.
+</code>
+
+- [QmF0c3UK/CVE-2020-17518](https://github.com/QmF0c3UK/CVE-2020-17518)
+
 ### CVE-2020-17519 (2021-01-05)
 
 <code>
@@ -2824,6 +2848,7 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 </code>
 
 - [B1anda0/CVE-2020-17519](https://github.com/B1anda0/CVE-2020-17519)
+- [QmF0c3UK/CVE-2020-17519](https://github.com/QmF0c3UK/CVE-2020-17519)
 
 ### CVE-2020-17530 (2020-12-10)
 
@@ -4679,14 +4704,6 @@ A programming error in the nxdomain-redirect feature can cause an assertion fail
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
 
-### CVE-2019-6487 (2019-01-18)
-
-<code>
-TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
-</code>
-
-- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
-
 ### CVE-2019-6690 (2019-03-17)
 
 <code>
@@ -6219,6 +6236,14 @@ A vulnerability was discovered in Linux, FreeBSD, OpenBSD, MacOS, iOS, and Andro
 </code>
 
 - [stryngs/hysteria](https://github.com/stryngs/hysteria)
+
+### CVE-2019-14900 (2020-07-06)
+
+<code>
+A flaw was found in Hibernate ORM in versions before 5.3.18, 5.4.18 and 5.5.0.Beta1. A SQL injection in the implementation of the JPA Criteria API can permit unsanitized literals when a literal is used in the SELECT or GROUP BY parts of the query. This flaw could allow an attacker to access unauthorized information or possibly conduct further attacks.
+</code>
+
+- [shanika04/hibernate-orm](https://github.com/shanika04/hibernate-orm)
 
 ### CVE-2019-14912 (2019-09-20)
 
@@ -13257,6 +13282,14 @@ Stack-based buffer overflow in Apache Xerces-C++ before 3.1.4 allows context-dep
 
 - [arntsonl/CVE-2016-4463](https://github.com/arntsonl/CVE-2016-4463)
 
+### CVE-2016-4468 (2017-04-11)
+
+<code>
+SQL injection vulnerability in Pivotal Cloud Foundry (PCF) before 238; UAA 2.x before 2.7.4.4, 3.x before 3.3.0.2, and 3.4.x before 3.4.1; UAA BOSH before 11.2 and 12.x before 12.2; Elastic Runtime before 1.6.29 and 1.7.x before 1.7.7; and Ops Manager 1.7.x before 1.7.8 allows remote authenticated users to execute arbitrary SQL commands via unspecified vectors.
+</code>
+
+- [shanika04/cloudfoundry_uaa](https://github.com/shanika04/cloudfoundry_uaa)
+
 ### CVE-2016-4622 (2016-07-21)
 
 <code>
@@ -13336,6 +13369,14 @@ When processing authorization requests using the whitelabel views in Spring Secu
 </code>
 
 - [N0b1e6/CVE-2016-4977-POC](https://github.com/N0b1e6/CVE-2016-4977-POC)
+
+### CVE-2016-4999 (2016-08-05)
+
+<code>
+SQL injection vulnerability in the getStringParameterSQL method in main/java/org/dashbuilder/dataprovider/sql/dialect/DefaultDialect.java in Dashbuilder before 0.6.0.Beta1 allows remote attackers to execute arbitrary SQL commands via a data set lookup filter in the (1) Data Set Authoring or (2) Displayer editor UI.
+</code>
+
+- [shanika04/dashbuilder](https://github.com/shanika04/dashbuilder)
 
 ### CVE-2016-5195 (2016-11-10)
 
