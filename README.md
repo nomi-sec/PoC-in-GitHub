@@ -1298,6 +1298,15 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 - [taipansec/CVE-2020-8165](https://github.com/taipansec/CVE-2020-8165)
 - [hybryx/CVE-2020-8165](https://github.com/hybryx/CVE-2020-8165)
 
+### CVE-2020-8175 (2020-07-24)
+
+<code>
+Uncontrolled resource consumption in `jpeg-js` before 0.4.0 may allow attacker to launch denial of service attacks using specially a crafted JPEG image.
+</code>
+
+- [sysollie/get-pixels-updated](https://github.com/sysollie/get-pixels-updated)
+- [sysollie/save-pixels-updated](https://github.com/sysollie/save-pixels-updated)
+
 ### CVE-2020-8193 (2020-07-10)
 
 <code>
@@ -2009,6 +2018,14 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 
 ### CVE-2020-11794
 - [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
+
+### CVE-2020-11851 (2020-11-16)
+
+<code>
+Arbitrary code execution vulnerability on Micro Focus ArcSight Logger product, affecting all version prior to 7.1.1. The vulnerability could be remotely exploited resulting in the execution of arbitrary code.
+</code>
+
+- [ch1nghz/CVE-2020-11851](https://github.com/ch1nghz/CVE-2020-11851)
 
 ### CVE-2020-11881 (2020-09-14)
 
