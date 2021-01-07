@@ -2893,6 +2893,7 @@ Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may 
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
 - [ludy-dev/freemarker_RCE_struts2_s2-061](https://github.com/ludy-dev/freemarker_RCE_struts2_s2-061)
 - [CyborgSecurity/CVE-2020-17530](https://github.com/CyborgSecurity/CVE-2020-17530)
+- [uzzzval/CVE-2020-17530](https://github.com/uzzzval/CVE-2020-17530)
 
 ### CVE-2020-17531 (2020-12-08)
 
