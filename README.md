@@ -2880,6 +2880,7 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [B1anda0/CVE-2020-17519](https://github.com/B1anda0/CVE-2020-17519)
 - [QmF0c3UK/CVE-2020-17519](https://github.com/QmF0c3UK/CVE-2020-17519)
 - [dolevf/apache-flink-directory-traversal.nse](https://github.com/dolevf/apache-flink-directory-traversal.nse)
+- [hoanx4/CVE-2020-17519](https://github.com/hoanx4/CVE-2020-17519)
 
 ### CVE-2020-17530 (2020-12-10)
 
