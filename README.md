@@ -2422,6 +2422,14 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files
 - [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
 - [masoud-zivari/CVE-2020-14066](https://github.com/masoud-zivari/CVE-2020-14066)
 
+### CVE-2020-14179 (2020-09-20)
+
+<code>
+Affected versions of Atlassian Jira Server and Data Center allow remote, unauthenticated attackers to view custom field names and custom SLA names via an Information Disclosure vulnerability in the /secure/QueryComponent!Default.jspa endpoint. The affected versions are before version 8.5.8, and from version 8.6.0 before 8.11.1.
+</code>
+
+- [c0brabaghdad1/CVE-2020-14179](https://github.com/c0brabaghdad1/CVE-2020-14179)
+
 ### CVE-2020-14181 (2020-09-16)
 
 <code>
@@ -2734,6 +2742,9 @@ Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed
 - [marcinguy/CVE-2020-15999](https://github.com/marcinguy/CVE-2020-15999)
 - [maarlo/CVE-2020-15999](https://github.com/maarlo/CVE-2020-15999)
 - [Marmeus/CVE-2020-15999](https://github.com/Marmeus/CVE-2020-15999)
+
+### CVE-2020-16012
+- [aleksejspopovs/cve-2020-16012](https://github.com/aleksejspopovs/cve-2020-16012)
 
 ### CVE-2020-16126 (2020-11-10)
 
@@ -13453,7 +13464,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-)
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
-- [roliboy/rootcow](https://github.com/roliboy/rootcow)
+- [roliboy/dirty-cow-toolkit](https://github.com/roliboy/dirty-cow-toolkit)
 
 ### CVE-2016-5345 (2018-01-22)
 
