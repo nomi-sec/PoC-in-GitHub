@@ -2743,7 +2743,12 @@ Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed
 - [maarlo/CVE-2020-15999](https://github.com/maarlo/CVE-2020-15999)
 - [Marmeus/CVE-2020-15999](https://github.com/Marmeus/CVE-2020-15999)
 
-### CVE-2020-16012
+### CVE-2020-16012 (2021-01-08)
+
+<code>
+Side-channel information leakage in graphics in Google Chrome prior to 87.0.4280.66 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
+</code>
+
 - [aleksejspopovs/cve-2020-16012](https://github.com/aleksejspopovs/cve-2020-16012)
 
 ### CVE-2020-16126 (2020-11-10)
