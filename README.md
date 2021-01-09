@@ -1,5 +1,15 @@
 # PoC in GitHub
 
+## 2021
+### CVE-2021-3019 (2021-01-04)
+
+<code>
+ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties to obtain credentials for a connection to the intranet.
+</code>
+
+- [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
+
+
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
 
