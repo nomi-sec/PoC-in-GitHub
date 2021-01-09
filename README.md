@@ -1147,6 +1147,14 @@ A flawed protocol design in the Ledger Monero app before 1.5.1 for Ledger Nano a
 ### CVE-2020-6888
 - [section-c/CVE-2020-6888](https://github.com/section-c/CVE-2020-6888)
 
+### CVE-2020-7048 (2020-01-16)
+
+<code>
+The WordPress plugin, WP Database Reset through 3.1, contains a flaw that allowed any unauthenticated user to reset any table in the database to the initial WordPress set-up state (deleting all site content stored in that table), as demonstrated by a wp-admin/admin-post.php?db-reset-tables[]=comments URI.
+</code>
+
+- [ElmouradiAmine/CVE-2020-7048](https://github.com/ElmouradiAmine/CVE-2020-7048)
+
 ### CVE-2020-7209 (2020-02-12)
 
 <code>
