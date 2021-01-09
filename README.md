@@ -790,6 +790,7 @@ A vulnerability in the web server for Cisco IP Phones could allow an unauthentic
 </code>
 
 - [uromulou/CVE-2020-3161](https://github.com/uromulou/CVE-2020-3161)
+- [uromulou/CVE-2020-3161-REMAKE](https://github.com/uromulou/CVE-2020-3161-REMAKE)
 
 ### CVE-2020-3187 (2020-05-06)
 
@@ -2789,7 +2790,6 @@ A remote code execution vulnerability exists when the Windows TCP/IP stack impro
 - [CPO-EH/CVE-2020-16898_Checker](https://github.com/CPO-EH/CVE-2020-16898_Checker)
 - [momika233/CVE-2020-16898-exp](https://github.com/momika233/CVE-2020-16898-exp)
 - [komomon/CVE-2020-16898-EXP-POC](https://github.com/komomon/CVE-2020-16898-EXP-POC)
-- [Passive/CVE-2020-16898](https://github.com/Passive/CVE-2020-16898)
 - [komomon/CVE-2020-16898--EXP-POC](https://github.com/komomon/CVE-2020-16898--EXP-POC)
 
 ### CVE-2020-16899 (2020-10-16)
