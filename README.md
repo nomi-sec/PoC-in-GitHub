@@ -984,6 +984,14 @@ Spring Cloud Config, versions 2.2.x prior to 2.2.3, versions 2.1.x prior to 2.1.
 - [osamahamad/CVE-2020-5410-POC](https://github.com/osamahamad/CVE-2020-5410-POC)
 - [mugisyahid/ki-vuln-cve-2020-5410](https://github.com/mugisyahid/ki-vuln-cve-2020-5410)
 
+### CVE-2020-5421 (2020-09-18)
+
+<code>
+In Spring Framework versions 5.2.0 - 5.2.8, 5.1.0 - 5.1.17, 5.0.0 - 5.0.18, 4.3.0 - 4.3.28, and older unsupported versions, the protections against RFD attacks from CVE-2015-5211 may be bypassed depending on the browser used through the use of a jsessionid path parameter.
+</code>
+
+- [pandaMingx/CVE-2020-5421](https://github.com/pandaMingx/CVE-2020-5421)
+
 ### CVE-2020-5509 (2020-01-14)
 
 <code>
@@ -2913,6 +2921,7 @@ Apache Flink 1.5.1 introduced a REST handler that allows you to write an uploade
 
 - [QmF0c3UK/CVE-2020-17518](https://github.com/QmF0c3UK/CVE-2020-17518)
 - [murataydemir/CVE-2020-17518](https://github.com/murataydemir/CVE-2020-17518)
+- [rakjong/Flink-CVE-2020-17518-getshell](https://github.com/rakjong/Flink-CVE-2020-17518-getshell)
 
 ### CVE-2020-17519 (2021-01-05)
 
@@ -3118,6 +3127,7 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 </code>
 
 - [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
+- [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213](https://github.com/forse01/CVE-2020-25213)
 
 ### CVE-2020-25265 (2020-12-02)
@@ -4780,7 +4790,6 @@ Zemana AntiMalware before 3.0.658 Beta mishandles update logic.
 The ES File Explorer File Manager application through 4.1.9.7.4 for Android allows remote attackers to read arbitrary files or execute applications via TCP port 59777 requests on the local Wi-Fi network. This TCP port remains open after the ES application has been launched once, and responds to unauthenticated application/json data over HTTP.
 </code>
 
-- [fs0c131y/ESFileExplorerOpenPortVuln](https://github.com/fs0c131y/ESFileExplorerOpenPortVuln)
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 
 ### CVE-2019-6453 (2019-02-18)
@@ -6873,6 +6882,14 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [saleemrashid/sudo-cve-2019-18634](https://github.com/saleemrashid/sudo-cve-2019-18634)
 - [N1et/CVE-2019-18634](https://github.com/N1et/CVE-2019-18634)
 - [ptef/CVE-2019-18634](https://github.com/ptef/CVE-2019-18634)
+
+### CVE-2019-18655 (2019-11-12)
+
+<code>
+File Sharing Wizard version 1.5.0 build 2008 is affected by a Structured Exception Handler based buffer overflow vulnerability. An unauthenticated attacker is able to perform remote command execution and obtain a command shell by sending a HTTP GET request including the malicious payload in the URL. A similar issue to CVE-2019-17415, CVE-2019-16724, and CVE-2010-2331.
+</code>
+
+- [0xhuesca/CVE-2019-18655](https://github.com/0xhuesca/CVE-2019-18655)
 
 ### CVE-2019-18683 (2019-11-04)
 
@@ -9490,6 +9507,7 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
+- [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 
 ### CVE-2018-15365 (2018-09-28)
 
@@ -16999,14 +17017,6 @@ Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded app
 </code>
 
 - [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
-
-### CVE-2005-2428 (2005-08-03)
-
-<code>
-Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
-</code>
-
-- [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
 
 
 ## 2004
