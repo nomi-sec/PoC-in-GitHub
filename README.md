@@ -2415,6 +2415,7 @@ It is possible to inject malicious OGNL or MVEL scripts into the /context.json p
 - [shifa123/CVE-2020-13942-POC-](https://github.com/shifa123/CVE-2020-13942-POC-)
 - [blackmarketer/CVE-2020-13942](https://github.com/blackmarketer/CVE-2020-13942)
 - [yaunsky/Unomi-CVE-2020-13942](https://github.com/yaunsky/Unomi-CVE-2020-13942)
+- [hoanx4/apche_unomi_rce](https://github.com/hoanx4/apche_unomi_rce)
 
 ### CVE-2020-13957 (2020-10-13)
 
@@ -4469,7 +4470,6 @@ Confluence Server and Data Center had a path traversal vulnerability in the down
 Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
-- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
@@ -4575,6 +4575,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 
 - [knqyf263/CVE-2019-5420](https://github.com/knqyf263/CVE-2019-5420)
 - [cved-sources/cve-2019-5420](https://github.com/cved-sources/cve-2019-5420)
+- [AnasTaoutaou/CVE-2019-5420](https://github.com/AnasTaoutaou/CVE-2019-5420)
 
 ### CVE-2019-5427 (2019-04-22)
 
@@ -12683,14 +12684,6 @@ The Joomanager component through 2.0.0 for Joomla! has an arbitrary file downloa
 </code>
 
 - [Luth1er/CVE-2017-18345-COM_JOOMANAGER-ARBITRARY-FILE-DOWNLOAD](https://github.com/Luth1er/CVE-2017-18345-COM_JOOMANAGER-ARBITRARY-FILE-DOWNLOAD)
-
-### CVE-2017-18350 (2020-03-12)
-
-<code>
-bitcoind and Bitcoin-Qt prior to 0.15.1 have a stack-based buffer overflow if an attacker-controlled SOCKS proxy server is used. This results from an integer signedness error when the proxy server responds with an acknowledgement of an unexpected target domain name.
-</code>
-
-- [moznualom2/-link-https-bitcoincore.org-en-2019-11-08-CVE-2017-18350-link-](https://github.com/moznualom2/-link-https-bitcoincore.org-en-2019-11-08-CVE-2017-18350-link-)
 
 ### CVE-2017-18486 (2019-08-09)
 
