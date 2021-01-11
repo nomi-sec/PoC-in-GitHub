@@ -16,6 +16,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 </code>
 
 - [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
+- [FanqXu/CVE-2021-3019](https://github.com/FanqXu/CVE-2021-3019)
 
 
 ## 2020
@@ -365,6 +366,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [AaronWilsonGrylls/CVE-2020-0796-POC](https://github.com/AaronWilsonGrylls/CVE-2020-0796-POC)
 - [datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796)
 - [MasterSploit/LPE---CVE-2020-0796](https://github.com/MasterSploit/LPE---CVE-2020-0796)
+- [alexa872/CVE-2020-0796](https://github.com/alexa872/CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -3681,6 +3683,22 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-36179](https://github.com/Al1ex/CVE-2020-36179)
+
+### CVE-2020-36184 (2021-01-06)
+
+<code>
+FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource.
+</code>
+
+- [Al1ex/CVE-2020-36184](https://github.com/Al1ex/CVE-2020-36184)
+
+### CVE-2020-36188 (2021-01-06)
+
+<code>
+FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource.
+</code>
+
+- [Al1ex/CVE-2020-36188](https://github.com/Al1ex/CVE-2020-36188)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
