@@ -1334,6 +1334,7 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 - [umiterkol/CVE-2020-8165--Auto-Shell](https://github.com/umiterkol/CVE-2020-8165--Auto-Shell)
 - [taipansec/CVE-2020-8165](https://github.com/taipansec/CVE-2020-8165)
 - [hybryx/CVE-2020-8165](https://github.com/hybryx/CVE-2020-8165)
+- [macosta-42/CVE-2020-8165](https://github.com/macosta-42/CVE-2020-8165)
 
 ### CVE-2020-8175 (2020-07-24)
 
