@@ -2417,14 +2417,6 @@ It is possible to inject malicious OGNL or MVEL scripts into the /context.json p
 - [yaunsky/Unomi-CVE-2020-13942](https://github.com/yaunsky/Unomi-CVE-2020-13942)
 - [hoanx4/apche_unomi_rce](https://github.com/hoanx4/apche_unomi_rce)
 
-### CVE-2020-13957 (2020-10-13)
-
-<code>
-Apache Solr versions 6.6.0 to 6.6.6, 7.0.0 to 7.7.3 and 8.0.0 to 8.6.2 prevents some features considered dangerous (which could be used for remote code execution) to be configured in a ConfigSet that's uploaded via API without authentication/authorization. The checks in place to prevent such features can be circumvented by using a combination of UPLOAD/CREATE actions.
-</code>
-
-- [MagicPiperSec/xray-poc-cve-2020-13957](https://github.com/MagicPiperSec/xray-poc-cve-2020-13957)
-
 ### CVE-2020-13996 (2020-06-09)
 
 <code>
@@ -13531,6 +13523,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [Brucetg/DirtyCow-EXP](https://github.com/Brucetg/DirtyCow-EXP)
 - [jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195)
 - [imust6226/dirtcow](https://github.com/imust6226/dirtcow)
+- [BrolyCode/Dirty-COW-CVE-2016-5195-](https://github.com/BrolyCode/Dirty-COW-CVE-2016-5195-)
 - [shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-](https://github.com/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-)
 - [dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-)
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
