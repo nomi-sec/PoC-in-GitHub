@@ -3928,6 +3928,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [AaronWilsonGrylls/CVE-2019-0708-POC](https://github.com/AaronWilsonGrylls/CVE-2019-0708-POC)
 - [alexa872/CVE-2019-0708](https://github.com/alexa872/CVE-2019-0708)
 - [sinlee1/CVE-2019-0708](https://github.com/sinlee1/CVE-2019-0708)
+- [930201676/CVE-2019-0708-EXP-Windows](https://github.com/930201676/CVE-2019-0708-EXP-Windows)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -4254,7 +4255,6 @@ A vulnerability in the web-based management interface of Cisco Small Business RV
 A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
 </code>
 
-- [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
 
 ### CVE-2019-1759 (2019-03-27)
@@ -12234,6 +12234,7 @@ When running Apache Tomcat 7.0.0 to 7.0.79 on Windows with HTTP PUTs enabled (e.
 - [cved-sources/cve-2017-12615](https://github.com/cved-sources/cve-2017-12615)
 - [ianxtianxt/CVE-2017-12615](https://github.com/ianxtianxt/CVE-2017-12615)
 - [cyberharsh/Tomcat-CVE-2017-12615](https://github.com/cyberharsh/Tomcat-CVE-2017-12615)
+- [gardenWhy/CVE-2017-12615-EXP](https://github.com/gardenWhy/CVE-2017-12615-EXP)
 
 ### CVE-2017-12617 (2017-10-03)
 
@@ -12576,6 +12577,14 @@ The Process function in RemoteTaskServer/WebServer/HttpServer.cs in Ulterius bef
 </code>
 
 - [rickoooooo/ulteriusExploit](https://github.com/rickoooooo/ulteriusExploit)
+
+### CVE-2017-16894 (2017-11-19)
+
+<code>
+In Laravel framework through 5.5.21, remote attackers can obtain sensitive information (such as externally usable passwords) via a direct request for the /.env URI. NOTE: this CVE is only about Laravel framework's writeNewEnvironmentFileWith function in src/Illuminate/Foundation/Console/KeyGenerateCommand.php, which uses file_put_contents without restricting the .env permissions. The .env filename is not used exclusively by Laravel framework.
+</code>
+
+- [ahacker15/CVE-2017-16894](https://github.com/ahacker15/CVE-2017-16894)
 
 ### CVE-2017-16943 (2017-11-25)
 
