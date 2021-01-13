@@ -26,7 +26,12 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
 
-### CVE-2021-3131
+### CVE-2021-3131 (2021-01-13)
+
+<code>
+The Web server in 1C:Enterprise 8 before 8.3.17.1851 sends base64 encoded credentials in the creds URL parameter.
+</code>
+
 - [jet-pentest/CVE-2021-3131](https://github.com/jet-pentest/CVE-2021-3131)
 
 
@@ -7345,6 +7350,7 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 - [Logeirs/CVE-2018-0114](https://github.com/Logeirs/CVE-2018-0114)
 - [adityathebe/POC-CVE-2018-0114](https://github.com/adityathebe/POC-CVE-2018-0114)
 - [Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114)
+- [Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114)
 
 ### CVE-2018-0202 (2018-03-27)
 
@@ -8013,12 +8019,19 @@ A use-after-free vulnerability was discovered in Adobe Flash Player before 28.0.
 - [hybridious/CVE-2018-4878](https://github.com/hybridious/CVE-2018-4878)
 - [vysecurity/CVE-2018-4878](https://github.com/vysecurity/CVE-2018-4878)
 - [KathodeN/CVE-2018-4878](https://github.com/KathodeN/CVE-2018-4878)
-- [Sch01ar/CVE-2018-4878](https://github.com/Sch01ar/CVE-2018-4878)
 - [SyFi/CVE-2018-4878](https://github.com/SyFi/CVE-2018-4878)
 - [ydl555/CVE-2018-4878](https://github.com/ydl555/CVE-2018-4878)
 - [B0fH/CVE-2018-4878](https://github.com/B0fH/CVE-2018-4878)
 - [Yable/CVE-2018-4878](https://github.com/Yable/CVE-2018-4878)
 - [HuanWoWeiLan/SoftwareSystemSecurity-2019](https://github.com/HuanWoWeiLan/SoftwareSystemSecurity-2019)
+
+### CVE-2018-4879 (2018-02-27)
+
+<code>
+An issue was discovered in Adobe Acrobat Reader 2018.009.20050 and earlier versions, 2017.011.30070 and earlier versions, 2015.006.30394 and earlier versions. The vulnerability is caused by the computation that writes data past the end of the intended buffer; the computation is part of the image conversion module that processes Enhanced Metafile Format Plus (EMF+) data. An attacker can potentially leverage the vulnerability to corrupt sensitive data or execute arbitrary code.
+</code>
+
+- [H3llozy/CVE-2018-4879](https://github.com/H3llozy/CVE-2018-4879)
 
 ### CVE-2018-4901 (2018-02-27)
 
@@ -8409,7 +8422,6 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [FireFart/CVE-2018-7600](https://github.com/FireFart/CVE-2018-7600)
 - [pimps/CVE-2018-7600](https://github.com/pimps/CVE-2018-7600)
 - [lorddemon/drupalgeddon2](https://github.com/lorddemon/drupalgeddon2)
-- [Sch01ar/CVE-2018-7600](https://github.com/Sch01ar/CVE-2018-7600)
 - [Hestat/drupal-check](https://github.com/Hestat/drupal-check)
 - [fyraiga/CVE-2018-7600-drupalgeddon2-scanner](https://github.com/fyraiga/CVE-2018-7600-drupalgeddon2-scanner)
 - [Damian972/drupalgeddon-2](https://github.com/Damian972/drupalgeddon-2)
@@ -12005,7 +12017,6 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [SuperHacker-liuan/cve-2017-10271-poc](https://github.com/SuperHacker-liuan/cve-2017-10271-poc)
 - [bmcculley/CVE-2017-10271](https://github.com/bmcculley/CVE-2017-10271)
 - [peterpeter228/Oracle-WebLogic-CVE-2017-10271](https://github.com/peterpeter228/Oracle-WebLogic-CVE-2017-10271)
-- [Sch01ar/CVE-2017-10271](https://github.com/Sch01ar/CVE-2017-10271)
 - [Cymmetria/weblogic_honeypot](https://github.com/Cymmetria/weblogic_honeypot)
 - [JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp)
 - [s0wr0b1ndef/Oracle-WebLogic-WLS-WSAT](https://github.com/s0wr0b1ndef/Oracle-WebLogic-WLS-WSAT)
