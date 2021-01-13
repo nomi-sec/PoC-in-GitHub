@@ -18,6 +18,9 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 - [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
 - [FanqXu/CVE-2021-3019](https://github.com/FanqXu/CVE-2021-3019)
 
+### CVE-2021-3131
+- [jet-pentest/CVE-2021-3131](https://github.com/jet-pentest/CVE-2021-3131)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -2688,6 +2691,14 @@ In the `@actions/core` npm module before version 1.2.6,`addPath` and `exportVari
 </code>
 
 - [guettli/fix-CVE-2020-15228](https://github.com/guettli/fix-CVE-2020-15228)
+
+### CVE-2020-15257 (2020-11-30)
+
+<code>
+containerd is an industry-standard container runtime and is available as a daemon for Linux and Windows. In containerd before versions 1.3.9 and 1.4.3, the containerd-shim API is improperly exposed to host network containers. Access controls for the shim’s API socket verified that the connecting process had an effective UID of 0, but did not otherwise restrict access to the abstract Unix domain socket. This would allow malicious containers running in the same network namespace as the shim, with an effective UID of 0 but otherwise reduced privileges, to cause new processes to be run with elevated privileges. This vulnerability has been fixed in containerd 1.3.9 and 1.4.3. Users should update to these versions as soon as they are released. It should be noted that containers started with an old version of containerd-shim should be stopped and restarted, as running containers will continue to be vulnerable even after an upgrade. If you are not providing the ability for untrusted users to start containers in the same network namespace as the shim (typically the &quot;host&quot; network namespace, for example with docker run --net=host or hostNetwork: true in a Kubernetes pod) and run with an effective UID of 0, you are not vulnerable to this issue. If you are running containers with a vulnerable configuration, you can deny access to all abstract sockets with AppArmor by adding a line similar to deny unix addr=@**, to your policy. It is best practice to run containers with a reduced set of privileges, with a non-zero UID, and with isolated namespaces. The containerd maintainers strongly advise against sharing namespaces with the host. Reducing the set of isolation mechanisms used for a container necessarily increases that container's privilege, regardless of what container runtime is used for running that container.
+</code>
+
+- [nccgroup/abstractshimmer](https://github.com/nccgroup/abstractshimmer)
 
 ### CVE-2020-15349 (2020-11-16)
 
@@ -10186,7 +10197,7 @@ OpenMRS before 2.24.0 is affected by an Insecure Object Deserialization vulnerab
 The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRAPHICS ENGINE before 1.57, XTREME GAMING ENGINE before 1.26, and OC GURU II v2.08 exposes ring0 memcpy-like functionality that could allow a local attacker to take complete control of the affected system.
 </code>
 
-- [fdiskyou/CVE-2018-19320](https://github.com/fdiskyou/CVE-2018-19320)
+- [ASkyeye/CVE-2018-19320](https://github.com/ASkyeye/CVE-2018-19320)
 
 ### CVE-2018-19466 (2019-03-27)
 
