@@ -13533,7 +13533,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [Brucetg/DirtyCow-EXP](https://github.com/Brucetg/DirtyCow-EXP)
 - [jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195)
 - [imust6226/dirtcow](https://github.com/imust6226/dirtcow)
-- [BrolyCode/Dirty-COW-CVE-2016-5195-](https://github.com/BrolyCode/Dirty-COW-CVE-2016-5195-)
+- [zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-)
 - [shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-](https://github.com/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-)
 - [dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-)
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
