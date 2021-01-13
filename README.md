@@ -18,6 +18,14 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 - [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
 - [FanqXu/CVE-2021-3019](https://github.com/FanqXu/CVE-2021-3019)
 
+### CVE-2021-3129 (2021-01-12)
+
+<code>
+Ignition before 2.5.2, as used in Laravel and other products, allows unauthenticated remote attackers to execute arbitrary code because of insecure usage of file_get_contents() and file_put_contents(). This is exploitable on sites using debug mode with Laravel before 8.4.2.
+</code>
+
+- [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
+
 ### CVE-2021-3131
 - [jet-pentest/CVE-2021-3131](https://github.com/jet-pentest/CVE-2021-3131)
 
