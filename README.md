@@ -1198,6 +1198,14 @@ The WordPress plugin, WP Database Reset through 3.1, contains a flaw that allowe
 
 - [ElmouradiAmine/CVE-2020-7048](https://github.com/ElmouradiAmine/CVE-2020-7048)
 
+### CVE-2020-7200 (2020-12-18)
+
+<code>
+A potential security vulnerability has been identified in HPE Systems Insight Manager (SIM) version 7.6. The vulnerability could be exploited to allow remote code execution.
+</code>
+
+- [alexfrancow/CVE-2020-7200](https://github.com/alexfrancow/CVE-2020-7200)
+
 ### CVE-2020-7209 (2020-02-12)
 
 <code>
@@ -1307,6 +1315,7 @@ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows
 - [shacojx/GLiferay](https://github.com/shacojx/GLiferay)
 - [shacojx/POC-CVE-2020-7961-Token-iterate](https://github.com/shacojx/POC-CVE-2020-7961-Token-iterate)
 - [Udyz/CVE-2020-7961-Mass](https://github.com/Udyz/CVE-2020-7961-Mass)
+- [ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961)
 
 ### CVE-2020-7980 (2020-01-25)
 
@@ -3378,10 +3387,20 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 
 - [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
 
-### CVE-2020-26732
+### CVE-2020-26732 (2021-01-14)
+
+<code>
+Skyworth GN542VF Boa version 0.94.13 does not set the Secure flag for the session cookie in an HTTPS session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an HTTP session.
+</code>
+
 - [swzhouu/CVE-2020-26732](https://github.com/swzhouu/CVE-2020-26732)
 
-### CVE-2020-26733
+### CVE-2020-26733 (2021-01-14)
+
+<code>
+Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Version 2.0 and Software Version 2.0.0.16 allows authenticated attacker to inject their own script into the page via DDNS Configuration Section.
+</code>
+
 - [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
 
 ### CVE-2020-27151 (2020-12-07)
@@ -3420,7 +3439,12 @@ An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's 
 
 - [seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359)
 
-### CVE-2020-27368
+### CVE-2020-27368 (2021-01-14)
+
+<code>
+Directory Indexing in Login Portal of Login Portal of TOTOLINK-A702R-V1.0.0-B20161227.1023 allows attacker to access /icons/ directories via GET Parameter.
+</code>
+
 - [swzhouu/CVE-2020-27368](https://github.com/swzhouu/CVE-2020-27368)
 
 ### CVE-2020-27603 (2020-10-21)
