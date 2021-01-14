@@ -3368,6 +3368,9 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 
 - [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
 
+### CVE-2020-26733
+- [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
+
 ### CVE-2020-27151 (2020-12-07)
 
 <code>
@@ -3403,6 +3406,9 @@ An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's 
 </code>
 
 - [seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359)
+
+### CVE-2020-27368
+- [swzhouu/CVE-2020-27368](https://github.com/swzhouu/CVE-2020-27368)
 
 ### CVE-2020-27603 (2020-10-21)
 
@@ -4266,14 +4272,6 @@ Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier
 - [securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579)
 - [Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579)
 
-### CVE-2019-1652 (2019-01-24)
-
-<code>
-A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an authenticated, remote attacker with administrative privileges on an affected device to execute arbitrary commands. The vulnerability is due to improper validation of user-supplied input. An attacker could exploit this vulnerability by sending malicious HTTP POST requests to the web-based management interface of an affected device. A successful exploit could allow the attacker to execute arbitrary commands on the underlying Linux shell as root. Cisco has released firmware updates that address this vulnerability.
-</code>
-
-- [0x27/CiscoRV320Dump](https://github.com/0x27/CiscoRV320Dump)
-
 ### CVE-2019-1653 (2019-01-24)
 
 <code>
@@ -4668,7 +4666,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
 - [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
-- [jakubkrawczyk/cve-2019-5736](https://github.com/jakubkrawczyk/cve-2019-5736)
 - [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
 - [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
 - [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
@@ -4877,14 +4874,6 @@ SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrus
 </code>
 
 - [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
-
-### CVE-2019-7216 (2019-01-31)
-
-<code>
-An issue was discovered in FileChucker 4.99e-free-e02. filechucker.cgi has a filter bypass that allows a malicious user to upload any type of file by using % characters within the extension, e.g., file.%ph%p becomes file.php.
-</code>
-
-- [Ekultek/CVE-2019-7216](https://github.com/Ekultek/CVE-2019-7216)
 
 ### CVE-2019-7219 (2019-04-11)
 
