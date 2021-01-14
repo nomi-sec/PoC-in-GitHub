@@ -17,6 +17,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 
 - [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
 - [FanqXu/CVE-2021-3019](https://github.com/FanqXu/CVE-2021-3019)
+- [liuxu54898/CVE-2021-3019](https://github.com/liuxu54898/CVE-2021-3019)
 
 ### CVE-2021-3129 (2021-01-12)
 
@@ -4038,6 +4039,7 @@ A remote code execution vulnerability exists in Remote Desktop Services - former
 </code>
 
 - [qianshuidewajueji/CVE-2019-0887](https://github.com/qianshuidewajueji/CVE-2019-0887)
+- [t43Wiu6/CVE-2019-0887](https://github.com/t43Wiu6/CVE-2019-0887)
 
 ### CVE-2019-0888 (2019-06-12)
 
@@ -4666,7 +4668,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
 - [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
-- [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
 - [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
 - [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
 - [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
