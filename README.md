@@ -1101,6 +1101,14 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 
 - [ltvthang/CVE-2020-5903](https://github.com/ltvthang/CVE-2020-5903)
 
+### CVE-2020-6207 (2020-03-10)
+
+<code>
+SAP Solution Manager (User Experience Monitoring), version- 7.2, due to Missing Authentication Check does not perform any authentication for a service resulting in complete compromise of all SMDAgents connected to the Solution Manager.
+</code>
+
+- [chipik/SAP_EEM_CVE-2020-6207](https://github.com/chipik/SAP_EEM_CVE-2020-6207)
+
 ### CVE-2020-6286 (2020-07-14)
 
 <code>
@@ -2955,6 +2963,7 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [dolevf/apache-flink-directory-traversal.nse](https://github.com/dolevf/apache-flink-directory-traversal.nse)
 - [hoanx4/CVE-2020-17519](https://github.com/hoanx4/CVE-2020-17519)
 - [murataydemir/CVE-2020-17519](https://github.com/murataydemir/CVE-2020-17519)
+- [radbsie/CVE-2020-17519-Exp](https://github.com/radbsie/CVE-2020-17519-Exp)
 
 ### CVE-2020-17530 (2020-12-10)
 
@@ -3368,6 +3377,9 @@ An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-
 </code>
 
 - [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
+
+### CVE-2020-26732
+- [swzhouu/CVE-2020-26732](https://github.com/swzhouu/CVE-2020-26732)
 
 ### CVE-2020-26733
 - [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
@@ -11970,6 +11982,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
+- [Xz3oX/PHPUnit-CVE-2017-9841](https://github.com/Xz3oX/PHPUnit-CVE-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
