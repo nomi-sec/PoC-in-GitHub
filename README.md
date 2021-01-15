@@ -159,14 +159,12 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 </code>
 
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
-- [SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601)
 - [JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
 - [ollypwn/CurveBall](https://github.com/ollypwn/CurveBall)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
 - [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
-- [apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601)
@@ -2613,6 +2611,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [x51/CVE-2020-14882](https://github.com/x51/CVE-2020-14882)
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 - [xkx518/CodeTest](https://github.com/xkx518/CodeTest)
+- [securitysqs/poc](https://github.com/securitysqs/poc)
 
 ### CVE-2020-14883 (2020-10-21)
 
