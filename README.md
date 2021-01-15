@@ -159,7 +159,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 </code>
 
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
-- [JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
 - [ollypwn/CurveBall](https://github.com/ollypwn/CurveBall)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
@@ -167,7 +166,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
-- [MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601)
 - [YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601)
 - [thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl)
 - [dlee35/curveball_lua](https://github.com/dlee35/curveball_lua)
@@ -1734,6 +1732,8 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [DeviantSec/CVE-2020-9484-Scanner](https://github.com/DeviantSec/CVE-2020-9484-Scanner)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
+- [Proxysec/-CVE-2020-9484-](https://github.com/Proxysec/-CVE-2020-9484-)
+- [Proxysec/-CVE-2020-9484](https://github.com/Proxysec/-CVE-2020-9484)
 
 ### CVE-2020-9495 (2020-06-19)
 
@@ -9970,6 +9970,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [SalimAlk/CVE-2018-16763-](https://github.com/SalimAlk/CVE-2018-16763-)
 - [ecebotarosh/CVE-2018-16763-exploit](https://github.com/ecebotarosh/CVE-2018-16763-exploit)
 - [n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3)
+- [uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r)
 
 ### CVE-2018-16843 (2018-11-07)
 
@@ -13682,6 +13683,7 @@ sshd in OpenSSH before 7.3, when SHA256 or SHA512 are used for user password has
 </code>
 
 - [justlce/CVE-2016-6210-Exploit](https://github.com/justlce/CVE-2016-6210-Exploit)
+- [ubrito/poc_CVE-2016-6210](https://github.com/ubrito/poc_CVE-2016-6210)
 
 ### CVE-2016-6271 (2017-01-18)
 
