@@ -158,7 +158,6 @@ Race condition in the Intel(R) Driver and Support Assistant before version 20.1.
 A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates.An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'.
 </code>
 
-- [nissan-sudo/CVE-2020-0601](https://github.com/nissan-sudo/CVE-2020-0601)
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
 - [SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601)
 - [JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601)
@@ -1011,14 +1010,6 @@ In Spring Framework versions 5.2.0 - 5.2.8, 5.1.0 - 5.1.17, 5.0.0 - 5.0.18, 4.3.
 
 - [pandaMingx/CVE-2020-5421](https://github.com/pandaMingx/CVE-2020-5421)
 
-### CVE-2020-5509 (2020-01-14)
-
-<code>
-PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
-</code>
-
-- [FULLSHADE/CVE-2020-5509](https://github.com/FULLSHADE/CVE-2020-5509)
-
 ### CVE-2020-5837 (2020-05-11)
 
 <code>
@@ -1369,6 +1360,8 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 - [taipansec/CVE-2020-8165](https://github.com/taipansec/CVE-2020-8165)
 - [hybryx/CVE-2020-8165](https://github.com/hybryx/CVE-2020-8165)
 - [macosta-42/CVE-2020-8165](https://github.com/macosta-42/CVE-2020-8165)
+- [AssassinUKG/CVE-2020-8165](https://github.com/AssassinUKG/CVE-2020-8165)
+- [progfay/CVE-2020-8165](https://github.com/progfay/CVE-2020-8165)
 
 ### CVE-2020-8175 (2020-07-24)
 
@@ -2438,6 +2431,14 @@ The payload length in a WebSocket frame was not correctly validated in Apache To
 </code>
 
 - [RedTeamPentesting/CVE-2020-13935](https://github.com/RedTeamPentesting/CVE-2020-13935)
+
+### CVE-2020-13937 (2020-10-19)
+
+<code>
+Apache Kylin 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.3.2, 2.4.0, 2.4.1, 2.5.0, 2.5.1, 2.5.2, 2.6.0, 2.6.1, 2.6.2, 2.6.3, 2.6.4, 2.6.5, 2.6.6, 3.0.0-alpha, 3.0.0-alpha2, 3.0.0-beta, 3.0.0, 3.0.1, 3.0.2, 3.1.0, 4.0.0-alpha has one restful api which exposed Kylin's configuration information without any authentication, so it is dangerous because some confidential information entries will be disclosed to everyone.
+</code>
+
+- [yaunsky/CVE-2020-13937](https://github.com/yaunsky/CVE-2020-13937)
 
 ### CVE-2020-13942 (2020-11-24)
 
@@ -4704,7 +4705,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
 - [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
-- [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
 - [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
 - [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
@@ -5084,6 +5084,14 @@ Multiple memory corruption issues were addressed with improved memory handling. 
 </code>
 
 - [BadAccess11/CVE-2019-8601](https://github.com/BadAccess11/CVE-2019-8601)
+
+### CVE-2019-8605 (2019-12-18)
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in iOS 12.3, macOS Mojave 10.14.5, tvOS 12.3, watchOS 5.2.1. A malicious application may be able to execute arbitrary code with system privileges.
+</code>
+
+- [1nteger-c/CVE-2019-8605](https://github.com/1nteger-c/CVE-2019-8605)
 
 ### CVE-2019-8627
 - [maldiohead/CVE-2019-8627](https://github.com/maldiohead/CVE-2019-8627)
@@ -14838,6 +14846,14 @@ The Jenkins CLI subsystem in Jenkins before 1.638 and LTS before 1.625.2 allows 
 </code>
 
 - [cved-sources/cve-2015-8103](https://github.com/cved-sources/cve-2015-8103)
+
+### CVE-2015-8239 (2017-10-10)
+
+<code>
+The SHA-2 digest support in the sudoers plugin in sudo after 1.8.7 allows local users with write permissions to parts of the called command to replace them before it is executed.
+</code>
+
+- [justinsteven/sudo_digest_toctou_poc_CVE-2015-8239](https://github.com/justinsteven/sudo_digest_toctou_poc_CVE-2015-8239)
 
 ### CVE-2015-8277 (2016-02-23)
 
