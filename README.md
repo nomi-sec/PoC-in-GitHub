@@ -821,7 +821,7 @@ A vulnerability in the installer component of Cisco AnyConnect Secure Mobility C
 A vulnerability in the web server for Cisco IP Phones could allow an unauthenticated, remote attacker to execute code with root privileges or cause a reload of an affected IP phone, resulting in a denial of service (DoS) condition. The vulnerability is due to a lack of proper input validation of HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to the web server of a targeted device. A successful exploit could allow the attacker to remotely execute code with root privileges or cause a reload of an affected IP phone, resulting in a DoS condition.
 </code>
 
-- [uromulou/CVE-2020-3161](https://github.com/uromulou/CVE-2020-3161)
+- [abood05972/CVE-2020-3161](https://github.com/abood05972/CVE-2020-3161)
 - [uromulou/CVE-2020-3161-REMAKE](https://github.com/uromulou/CVE-2020-3161-REMAKE)
 
 ### CVE-2020-3187 (2020-05-06)
@@ -4928,7 +4928,6 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 </code>
 
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
-- [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 
 ### CVE-2019-7356 (2020-11-04)
 
@@ -5110,6 +5109,14 @@ A memory corruption issue was addressed with improved state management. This iss
 
 - [A2nkF/macOS-Kernel-Exploit](https://github.com/A2nkF/macOS-Kernel-Exploit)
 - [TrungNguyen1909/CVE-2019-8781-macOS](https://github.com/TrungNguyen1909/CVE-2019-8781-macOS)
+
+### CVE-2019-8791 (2019-12-18)
+
+<code>
+An issue existed in the parsing of URL schemes. This issue was addressed with improved URL validation. This issue is fixed in Shazam Android App Version 9.25.0, Shazam iOS App Version 12.11.0. Processing a maliciously crafted URL may lead to an open redirect.
+</code>
+
+- [ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792](https://github.com/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792)
 
 ### CVE-2019-8936 (2019-05-15)
 
@@ -17080,14 +17087,6 @@ Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.
 
 - [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
 - [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
-
-### CVE-2006-6652 (2006-12-19)
-
-<code>
-Buffer overflow in the glob implementation (glob.c) in libc in NetBSD-current before 20050914, NetBSD 2.* and 3.* before 20061203, and Apple Mac OS X before 2007-004, as used by the FTP daemon and tnftpd, allows remote authenticated users to execute arbitrary code via a long pathname that results from path expansion.
-</code>
-
-- [uromulou/CVE-2006-6652](https://github.com/uromulou/CVE-2006-6652)
 
 
 ## 2005
