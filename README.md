@@ -4517,14 +4517,6 @@ Confluence Server and Data Center had a path traversal vulnerability in the down
 
 - [superevr/cve-2019-3398](https://github.com/superevr/cve-2019-3398)
 
-### CVE-2019-3462 (2019-01-28)
-
-<code>
-Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
-</code>
-
-- [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
-
 ### CVE-2019-3663 (2019-11-13)
 
 <code>
@@ -4704,7 +4696,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
 - [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
-- [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
 - [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
@@ -14687,6 +14678,14 @@ The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.
 </code>
 
 - [mattimustang/firepwner](https://github.com/mattimustang/firepwner)
+
+### CVE-2015-6435 (2016-01-22)
+
+<code>
+An unspecified CGI script in Cisco FX-OS before 1.1.2 on Firepower 9000 devices and Cisco Unified Computing System (UCS) Manager before 2.2(4b), 2.2(5) before 2.2(5a), and 3.0 before 3.0(2e) allows remote attackers to execute arbitrary shell commands via a crafted HTTP request, aka Bug ID CSCur90888.
+</code>
+
+- [fuzzlove/Cisco-UCS-Manager-2.2-1d-Remote-Command-Execution](https://github.com/fuzzlove/Cisco-UCS-Manager-2.2-1d-Remote-Command-Execution)
 
 ### CVE-2015-6576 (2017-10-02)
 
