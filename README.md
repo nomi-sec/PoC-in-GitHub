@@ -167,6 +167,7 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601)
+- [thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl)
 - [dlee35/curveball_lua](https://github.com/dlee35/curveball_lua)
 - [IIICTECH/-CVE-2020-0601-ECC---EXPLOIT](https://github.com/IIICTECH/-CVE-2020-0601-ECC---EXPLOIT)
 - [Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601)
@@ -484,7 +485,6 @@ An information disclosure vulnerability exists in the way that the Microsoft Ser
 - [ZecOps/CVE-2020-1206-POC](https://github.com/ZecOps/CVE-2020-1206-POC)
 - [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
 - [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
-- [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
 ### CVE-2020-1283 (2020-06-09)
 
@@ -14685,14 +14685,6 @@ The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.
 </code>
 
 - [mattimustang/firepwner](https://github.com/mattimustang/firepwner)
-
-### CVE-2015-6435 (2016-01-22)
-
-<code>
-An unspecified CGI script in Cisco FX-OS before 1.1.2 on Firepower 9000 devices and Cisco Unified Computing System (UCS) Manager before 2.2(4b), 2.2(5) before 2.2(5a), and 3.0 before 3.0(2e) allows remote attackers to execute arbitrary shell commands via a crafted HTTP request, aka Bug ID CSCur90888.
-</code>
-
-- [fuzzlove/Cisco-UCS-Manager-2.2-1d-Remote-Command-Execution](https://github.com/fuzzlove/Cisco-UCS-Manager-2.2-1d-Remote-Command-Execution)
 
 ### CVE-2015-6576 (2017-10-02)
 
