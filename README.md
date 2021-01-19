@@ -15022,7 +15022,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [Saymeis/HeartBleed](https://github.com/Saymeis/HeartBleed)
 - [cved-sources/cve-2014-0160](https://github.com/cved-sources/cve-2014-0160)
 - [cheese-hub/heartbleed](https://github.com/cheese-hub/heartbleed)
-- [artofscripting/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS)
+- [artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS](https://github.com/artofscripting-zz/cmty-ssl-heartbleed-CVE-2014-0160-HTTP-HTTPS)
 - [cldme/heartbleed-bug](https://github.com/cldme/heartbleed-bug)
 - [ThanHuuTuan/Heartexploit](https://github.com/ThanHuuTuan/Heartexploit)
 - [hack3r-0m/heartbleed_fix_updated](https://github.com/hack3r-0m/heartbleed_fix_updated)
