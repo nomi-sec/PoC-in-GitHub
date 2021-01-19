@@ -3996,7 +3996,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [AaronWilsonGrylls/CVE-2019-0708-POC](https://github.com/AaronWilsonGrylls/CVE-2019-0708-POC)
 - [alexa872/CVE-2019-0708](https://github.com/alexa872/CVE-2019-0708)
 - [sinlee1/CVE-2019-0708](https://github.com/sinlee1/CVE-2019-0708)
-- [930201676/CVE-2019-0708-EXP-Windows](https://github.com/930201676/CVE-2019-0708-EXP-Windows)
+- [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -10531,7 +10531,6 @@ In WinRAR versions prior to and including 5.61, There is path traversal vulnerab
 - [joydragon/Detect-CVE-2018-20250](https://github.com/joydragon/Detect-CVE-2018-20250)
 - [DANIELVISPOBLOG/WinRar_ACE_exploit_CVE-2018-20250](https://github.com/DANIELVISPOBLOG/WinRar_ACE_exploit_CVE-2018-20250)
 - [likescam/CVE-2018-20250](https://github.com/likescam/CVE-2018-20250)
-- [930201676/CVE-2018-20250](https://github.com/930201676/CVE-2018-20250)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250)
 
@@ -11614,6 +11613,7 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
 - [cyberk1w1/CVE-2017-7529](https://github.com/cyberk1w1/CVE-2017-7529)
 - [cyberharsh/nginx-CVE-2017-7529](https://github.com/cyberharsh/nginx-CVE-2017-7529)
 - [daehee/nginx-overflow](https://github.com/daehee/nginx-overflow)
+- [ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3)
 
 ### CVE-2017-7648 (2017-04-10)
 
@@ -11740,7 +11740,7 @@ Microsoft Office allows a remote code execution vulnerability due to the way tha
 - [MaxSecurity/Office-CVE-2017-8570](https://github.com/MaxSecurity/Office-CVE-2017-8570)
 - [SwordSheath/CVE-2017-8570](https://github.com/SwordSheath/CVE-2017-8570)
 - [Drac0nids/CVE-2017-8570](https://github.com/Drac0nids/CVE-2017-8570)
-- [930201676/CVE-2017-8570](https://github.com/930201676/CVE-2017-8570)
+- [sasqwatch/CVE-2017-8570](https://github.com/sasqwatch/CVE-2017-8570)
 - [erfze/CVE-2017-8570](https://github.com/erfze/CVE-2017-8570)
 
 ### CVE-2017-8625 (2017-08-08)
