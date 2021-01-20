@@ -824,7 +824,7 @@ A vulnerability in the web server for Cisco IP Phones could allow an unauthentic
 </code>
 
 - [abood05972/CVE-2020-3161](https://github.com/abood05972/CVE-2020-3161)
-- [uromulou/CVE-2020-3161-REMAKE](https://github.com/uromulou/CVE-2020-3161-REMAKE)
+- [uromulou/CVE-2020-3161](https://github.com/uromulou/CVE-2020-3161)
 
 ### CVE-2020-3187 (2020-05-06)
 
@@ -1579,7 +1579,7 @@ FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JN
 - [fairyming/CVE-2020-8840](https://github.com/fairyming/CVE-2020-8840)
 - [0nise/CVE-2020-8840](https://github.com/0nise/CVE-2020-8840)
 - [Blyth0He/CVE-2020-8840](https://github.com/Blyth0He/CVE-2020-8840)
-- [Veraxy01/CVE-2020-8840](https://github.com/Veraxy01/CVE-2020-8840)
+- [Veraxy00/CVE-2020-8840](https://github.com/Veraxy00/CVE-2020-8840)
 
 ### CVE-2020-8888
 - [SnipJoe/CVE-2020-8888](https://github.com/SnipJoe/CVE-2020-8888)
@@ -4699,7 +4699,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
 - [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
-- [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
@@ -6775,6 +6774,14 @@ Kramer VIAware 2.5.0719.1034 has Incorrect Access Control.
 </code>
 
 - [hessandrew/CVE-2019-17124](https://github.com/hessandrew/CVE-2019-17124)
+
+### CVE-2019-17137 (2020-02-10)
+
+<code>
+This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR AC1200 R6220 Firmware version 1.1.0.86 Smart WiFi Router. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of path strings. By inserting a null byte into the path, the user can skip most authentication checks. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-8616.
+</code>
+
+- [vncloudsco/CVE-2019-17137](https://github.com/vncloudsco/CVE-2019-17137)
 
 ### CVE-2019-17221 (2019-11-05)
 
