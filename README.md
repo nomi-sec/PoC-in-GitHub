@@ -35,6 +35,9 @@ The Web server in 1C:Enterprise 8 before 8.3.17.1851 sends base64 encoded creden
 
 - [jet-pentest/CVE-2021-3131](https://github.com/jet-pentest/CVE-2021-3131)
 
+### CVE-2021-3164
+- [rmccarth/cve-2021-3164](https://github.com/rmccarth/cve-2021-3164)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -16459,14 +16462,6 @@ Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MI
 - [hdbreaker/GO-CVE-2011-4862](https://github.com/hdbreaker/GO-CVE-2011-4862)
 - [lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862)
 - [kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862)
-
-### CVE-2011-4872 (2012-02-05)
-
-<code>
-Multiple HTC Android devices including Desire HD FRG83D and GRI40, Glacier FRG83, Droid Incredible FRF91, Thunderbolt 4G FRG83D, Sensation Z710e GRI40, Sensation 4G GRI40, Desire S GRI40, EVO 3D GRI40, and EVO 4G GRI40 allow remote attackers to obtain 802.1X Wi-Fi credentials and SSID via a crafted application that uses the android.permission.ACCESS_WIFI_STATE permission to call the toString method on the WifiConfiguration class.
-</code>
-
-- [Chiggins/CVE-2011-4872](https://github.com/Chiggins/CVE-2011-4872)
 
 ### CVE-2011-4905 (2012-01-05)
 
