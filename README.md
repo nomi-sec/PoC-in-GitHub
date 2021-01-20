@@ -9,6 +9,14 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
+### CVE-2021-1647 (2021-01-12)
+
+<code>
+Microsoft Defender Remote Code Execution Vulnerability
+</code>
+
+- [dmlgzs/cve-2021-1647](https://github.com/dmlgzs/cve-2021-1647)
+
 ### CVE-2021-3019 (2021-01-04)
 
 <code>
@@ -4624,6 +4632,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [knqyf263/CVE-2019-5420](https://github.com/knqyf263/CVE-2019-5420)
 - [cved-sources/cve-2019-5420](https://github.com/cved-sources/cve-2019-5420)
 - [AnasTaoutaou/CVE-2019-5420](https://github.com/AnasTaoutaou/CVE-2019-5420)
+- [Eremiel/CVE-2019-5420](https://github.com/Eremiel/CVE-2019-5420)
 
 ### CVE-2019-5427 (2019-04-22)
 
@@ -4999,14 +5008,6 @@ ColdFusion versions Update 3 and earlier, Update 10 and earlier, and Update 18 a
 </code>
 
 - [securifera/CVE-2019-7839](https://github.com/securifera/CVE-2019-7839)
-
-### CVE-2019-8389 (2019-02-16)
-
-<code>
-A file-read vulnerability was identified in the Wi-Fi transfer feature of Musicloud 1.6. By default, the application runs a transfer service on port 8080, accessible by everyone on the same Wi-Fi network. An attacker can send the POST parameters downfiles and cur-folder (with a crafted ../ payload) to the download.script endpoint. This will create a MusicPlayerArchive.zip archive that is publicly accessible and includes the content of any requested file (such as the /etc/passwd file).
-</code>
-
-- [shawarkhanethicalhacker/CVE-2019-8389](https://github.com/shawarkhanethicalhacker/CVE-2019-8389)
 
 ### CVE-2019-8446 (2019-08-23)
 
