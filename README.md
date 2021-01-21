@@ -178,7 +178,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601)
-- [thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl)
 - [dlee35/curveball_lua](https://github.com/dlee35/curveball_lua)
 - [IIICTECH/-CVE-2020-0601-ECC---EXPLOIT](https://github.com/IIICTECH/-CVE-2020-0601-ECC---EXPLOIT)
 - [Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601)
@@ -622,6 +621,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472)
 - [SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472)
 - [wrathfulDiety/zerologon](https://github.com/wrathfulDiety/zerologon)
+- [sho-luv/zerologon](https://github.com/sho-luv/zerologon)
 
 ### CVE-2020-1493 (2020-08-17)
 
