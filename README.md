@@ -791,14 +791,6 @@ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (compo
 - [Maskhe/cve-2020-2555](https://github.com/Maskhe/cve-2020-2555)
 - [Uvemode/CVE-2020-2555](https://github.com/Uvemode/CVE-2020-2555)
 
-### CVE-2020-2655 (2020-01-15)
-
-<code>
-Vulnerability in the Java SE product of Oracle Java SE (component: JSSE). Supported versions that are affected are Java SE: 11.0.5 and 13.0.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Java SE. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Java SE accessible data as well as unauthorized read access to a subset of Java SE accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets (in Java SE 8), that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.0 Base Score 4.8 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).
-</code>
-
-- [RUB-NDS/CVE-2020-2655-DemoServer](https://github.com/RUB-NDS/CVE-2020-2655-DemoServer)
-
 ### CVE-2020-2883 (2020-04-15)
 
 <code>
@@ -3637,6 +3629,9 @@ In Progress MOVEit Transfer before 2020.1, a malicious user could craft and stor
 </code>
 
 - [SECFORCE/Progress-MOVEit-Transfer-2020.1-Stored-XSS-CVE-2020-28647](https://github.com/SECFORCE/Progress-MOVEit-Transfer-2020.1-Stored-XSS-CVE-2020-28647)
+
+### CVE-2020-28874
+- [varandinawer/CVE-2020-28874](https://github.com/varandinawer/CVE-2020-28874)
 
 ### CVE-2020-28948 (2020-11-19)
 
