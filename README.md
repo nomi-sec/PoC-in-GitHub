@@ -35,6 +35,14 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
 
+### CVE-2021-3130 (2021-01-20)
+
+<code>
+Within the Open-AudIT up to version 3.5.3 application, the web interface hides SSH secrets, Windows passwords, and SNMP strings from users using HTML 'password field' obfuscation. By using Developer tools or similar, it is possible to change the obfuscation so that the credentials are visible.
+</code>
+
+- [jet-pentest/CVE-2021-3130](https://github.com/jet-pentest/CVE-2021-3130)
+
 ### CVE-2021-3131 (2021-01-13)
 
 <code>
@@ -178,9 +186,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601)
-- [dlee35/curveball_lua](https://github.com/dlee35/curveball_lua)
-- [IIICTECH/-CVE-2020-0601-ECC---EXPLOIT](https://github.com/IIICTECH/-CVE-2020-0601-ECC---EXPLOIT)
-- [Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601)
 - [gentilkiwi/curveball](https://github.com/gentilkiwi/curveball)
 - [Hans-MartinHannibalLauridsen/CurveBall](https://github.com/Hans-MartinHannibalLauridsen/CurveBall)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
@@ -2952,6 +2957,14 @@ The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x8
 
 - [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
 
+### CVE-2020-17456 (2020-08-19)
+
+<code>
+SEOWON INTECH SLC-130 And SLR-120S devices allow Remote Code Execution via the ipAddr parameter to the system_log.cgi page.
+</code>
+
+- [Al1ex/CVE-2020-17456](https://github.com/Al1ex/CVE-2020-17456)
+
 ### CVE-2020-17496 (2020-08-12)
 
 <code>
@@ -3102,6 +3115,14 @@ ForLogic Qualiex v1 and v3 has weak token expiration. This allows remote unauthe
 </code>
 
 - [underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030)
+
+### CVE-2020-24032 (2020-08-18)
+
+<code>
+tz.pl on XoruX LPAR2RRD and STOR2RRD 2.70 virtual appliances allows cmd=set&amp;tz=OS command injection via shell metacharacters in a timezone.
+</code>
+
+- [jet-pentest/CVE-2020-24032](https://github.com/jet-pentest/CVE-2020-24032)
 
 ### CVE-2020-24033 (2020-10-22)
 
@@ -3731,6 +3752,14 @@ Arbitrary command execution can occur in Webmin through 1.962. Any user authoriz
 </code>
 
 - [anasbousselham/webminscan](https://github.com/anasbousselham/webminscan)
+
+### CVE-2020-35713 (2020-12-25)
+
+<code>
+Belkin LINKSYS RE6500 devices before 1.0.012.001 allow remote attackers to execute arbitrary commands or set a new password via shell metacharacters to the goform/setSysAdm page.
+</code>
+
+- [Al1ex/CVE-2020-35713](https://github.com/Al1ex/CVE-2020-35713)
 
 ### CVE-2020-35717 (2021-01-01)
 
@@ -16213,7 +16242,7 @@ diagchar_core.c in the Qualcomm Innovation Center (QuIC) Diagnostics (aka DIAG) 
 org/apache/catalina/filters/CsrfPreventionFilter.java in Apache Tomcat 6.x before 6.0.36 and 7.x before 7.0.32 allows remote attackers to bypass the cross-site request forgery (CSRF) protection mechanism via a request that lacks a session identifier.
 </code>
 
-- [Michael-Main/CVE-2012-4431](https://github.com/Michael-Main/CVE-2012-4431)
+- [imjdl/CVE-2012-4431](https://github.com/imjdl/CVE-2012-4431)
 
 ### CVE-2012-4681 (2012-08-27)
 
@@ -16472,14 +16501,6 @@ Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MI
 - [lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862)
 - [kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862)
 
-### CVE-2011-4905 (2012-01-05)
-
-<code>
-Apache ActiveMQ before 5.6.0 allows remote attackers to cause a denial of service (file-descriptor exhaustion and broker crash or hang) by sending many openwire failover:tcp:// connection requests.
-</code>
-
-- [Michael-Main/CVE-2011-4905](https://github.com/Michael-Main/CVE-2011-4905)
-
 ### CVE-2011-4919 (2019-11-19)
 
 <code>
@@ -16635,14 +16656,6 @@ The Android browser in Android before 2.3.4 allows remote attackers to obtain SD
 </code>
 
 - [thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804)
-
-### CVE-2010-5327 (2017-01-13)
-
-<code>
-Liferay Portal through 6.2.10 allows remote authenticated users to execute arbitrary shell commands via a crafted Velocity template.
-</code>
-
-- [Michael-Main/CVE-2010-5327](https://github.com/Michael-Main/CVE-2010-5327)
 
 
 ## 2009
