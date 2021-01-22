@@ -17,6 +17,15 @@ Microsoft Defender Remote Code Execution Vulnerability
 
 - [dmlgzs/cve-2021-1647](https://github.com/dmlgzs/cve-2021-1647)
 
+### CVE-2021-2109 (2021-01-20)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
+- [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
+
 ### CVE-2021-3019 (2021-01-04)
 
 <code>
@@ -34,6 +43,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 </code>
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
+- [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -179,13 +189,10 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
-- [ollypwn/CurveBall](https://github.com/ollypwn/CurveBall)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
 - [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
-- [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
-- [gentilkiwi/curveball](https://github.com/gentilkiwi/curveball)
 - [Hans-MartinHannibalLauridsen/CurveBall](https://github.com/Hans-MartinHannibalLauridsen/CurveBall)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
 - [ioncodes/Curveball](https://github.com/ioncodes/Curveball)
@@ -2449,6 +2456,7 @@ Apache Kylin 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.3.2, 2.4.0, 2.4.1, 2.5.0, 2.5.
 </code>
 
 - [yaunsky/CVE-2020-13937](https://github.com/yaunsky/CVE-2020-13937)
+- [Al1ex/CVE-2020-13937](https://github.com/Al1ex/CVE-2020-13937)
 
 ### CVE-2020-13942 (2020-11-24)
 
@@ -3383,6 +3391,14 @@ XStream before version 1.4.14 is vulnerable to Remote Code Execution.The vulnera
 </code>
 
 - [novysodope/CVE-2020-26217-XStream-RCE-POC](https://github.com/novysodope/CVE-2020-26217-XStream-RCE-POC)
+
+### CVE-2020-26258 (2020-12-15)
+
+<code>
+XStream is a Java library to serialize objects to XML and back again. In XStream before version 1.4.15, a Server-Side Forgery Request vulnerability can be activated when unmarshalling. The vulnerability may allow a remote attacker to request data from internal resources that are not publicly available only by manipulating the processed input stream. If you rely on XStream's default blacklist of the Security Framework, you will have to use at least version 1.4.15. The reported vulnerability does not exist if running Java 15 or higher. No user is affected who followed the recommendation to setup XStream's Security Framework with a whitelist! Anyone relying on XStream's default blacklist can immediately switch to a whilelist for the allowed types to avoid the vulnerability. Users of XStream 1.4.14 or below who still want to use XStream default blacklist can use a workaround described in more detailed in the referenced advisories.
+</code>
+
+- [Al1ex/CVE-2020-26258](https://github.com/Al1ex/CVE-2020-26258)
 
 ### CVE-2020-26259 (2020-12-15)
 
@@ -10734,14 +10750,6 @@ A code execution vulnerability exists in the Stapler web framework used by Jenki
 
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 - [xDro1d/CVE-2018-1000861](https://github.com/xDro1d/CVE-2018-1000861)
-
-### CVE-2018-1002101 (2018-12-05)
-
-<code>
-In Kubernetes versions 1.9.0-1.9.9, 1.10.0-1.10.5, and 1.11.0-1.11.1, user input was handled insecurely while setting up volume mounts on Windows nodes, which could lead to command line argument injection.
-</code>
-
-- [se0g1/cve-2018-1002101](https://github.com/se0g1/cve-2018-1002101)
 
 ### CVE-2018-1002105 (2018-12-05)
 
