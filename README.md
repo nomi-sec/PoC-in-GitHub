@@ -642,14 +642,6 @@ An information disclosure vulnerability exists when attaching files to Outlook m
 
 - [0neb1n/CVE-2020-1493](https://github.com/0neb1n/CVE-2020-1493)
 
-### CVE-2020-1611 (2020-01-15)
-
-<code>
-A Local File Inclusion vulnerability in Juniper Networks Junos Space allows an attacker to view all files on the target when the device receives malicious HTTP packets. This issue affects: Juniper Networks Junos Space versions prior to 19.4R1.
-</code>
-
-- [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
-
 ### CVE-2020-1764 (2020-03-26)
 
 <code>
@@ -992,14 +984,6 @@ In ActionView before versions 6.0.2.2 and 5.2.4.2, there is a possible XSS vulne
 </code>
 
 - [GUI/legacy-rails-CVE-2020-5267-patch](https://github.com/GUI/legacy-rails-CVE-2020-5267-patch)
-
-### CVE-2020-5398 (2020-01-16)
-
-<code>
-In Spring Framework, versions 5.2.x prior to 5.2.3, versions 5.1.x prior to 5.1.13, and versions 5.0.x prior to 5.0.16, an application is vulnerable to a reflected file download (RFD) attack when it sets a &quot;Content-Disposition&quot; header in the response where the filename attribute is derived from user supplied input.
-</code>
-
-- [motikan2010/CVE-2020-5398](https://github.com/motikan2010/CVE-2020-5398)
 
 ### CVE-2020-5410 (2020-06-02)
 
@@ -3391,6 +3375,7 @@ XStream before version 1.4.14 is vulnerable to Remote Code Execution.The vulnera
 </code>
 
 - [novysodope/CVE-2020-26217-XStream-RCE-POC](https://github.com/novysodope/CVE-2020-26217-XStream-RCE-POC)
+- [Al1ex/CVE-2020-26217](https://github.com/Al1ex/CVE-2020-26217)
 
 ### CVE-2020-26258 (2020-12-15)
 
@@ -3407,6 +3392,7 @@ XStream is a Java library to serialize objects to XML and back again. In XStream
 </code>
 
 - [jas502n/CVE-2020-26259](https://github.com/jas502n/CVE-2020-26259)
+- [Al1ex/CVE-2020-26259](https://github.com/Al1ex/CVE-2020-26259)
 
 ### CVE-2020-26525 (2020-10-02)
 
