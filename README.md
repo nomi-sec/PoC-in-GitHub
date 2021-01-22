@@ -7547,7 +7547,7 @@ An issue was discovered in Moodle 3.x. A Teacher creating a Calculated question 
 </code>
 
 - [darrynten/MoodleExploit](https://github.com/darrynten/MoodleExploit)
-- [M4LV0/MOODLE-3.X-Remote-Code-Execution](https://github.com/M4LV0/MOODLE-3.X-Remote-Code-Execution)
+- [Feidao-fei/MOODLE-3.X-Remote-Code-Execution](https://github.com/Feidao-fei/MOODLE-3.X-Remote-Code-Execution)
 
 ### CVE-2018-1160 (2018-12-20)
 
@@ -14968,7 +14968,6 @@ jQuery before 3.0.0 is vulnerable to Cross-site Scripting (XSS) attacks when a c
 The compat_sys_recvmmsg function in net/compat.c in the Linux kernel before 3.13.2, when CONFIG_X86_X32 is enabled, allows local users to gain privileges via a recvmmsg system call with a crafted timeout pointer parameter.
 </code>
 
-- [saelo/cve-2014-0038](https://github.com/saelo/cve-2014-0038)
 - [kiruthikan99/IT19115276](https://github.com/kiruthikan99/IT19115276)
 
 ### CVE-2014-0050 (2014-03-28)
@@ -15013,32 +15012,19 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 
 - [FiloSottile/Heartbleed](https://github.com/FiloSottile/Heartbleed)
 - [titanous/heartbleeder](https://github.com/titanous/heartbleeder)
-- [DominikTo/bleed](https://github.com/DominikTo/bleed)
 - [cyphar/heartthreader](https://github.com/cyphar/heartthreader)
 - [jdauphant/patch-openssl-CVE-2014-0160](https://github.com/jdauphant/patch-openssl-CVE-2014-0160)
 - [musalbas/heartbleed-masstest](https://github.com/musalbas/heartbleed-masstest)
-- [obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner)
 - [Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker)
-- [isgroup-srl/openmagic](https://github.com/isgroup-srl/openmagic)
 - [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
-- [takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse)
 - [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
 - [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
-- [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
 - [amerine/coronary](https://github.com/amerine/coronary)
 - [0x90/CVE-2014-0160](https://github.com/0x90/CVE-2014-0160)
-- [ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160)
-- [waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker)
-- [siddolo/knockbleed](https://github.com/siddolo/knockbleed)
-- [sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix)
-- [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
-- [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
 - [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
-- [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
-- [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
 - [einaros/heartbleed-tools](https://github.com/einaros/heartbleed-tools)
 - [mozilla-services/Heartbleed](https://github.com/mozilla-services/Heartbleed)
 - [yryz/heartbleed.js](https://github.com/yryz/heartbleed.js)
@@ -15230,7 +15216,6 @@ Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, all
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
-- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-3120 (2014-07-28)
 
@@ -16544,7 +16529,7 @@ Multiple integer overflows in the Fax3SetupState function in tif_fax3.c in the F
 UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
 </code>
 
-- [M4LV0/UnrealIRCd-3.2.8.1-RCE](https://github.com/M4LV0/UnrealIRCd-3.2.8.1-RCE)
+- [XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE)
 
 ### CVE-2010-3332 (2010-09-22)
 
