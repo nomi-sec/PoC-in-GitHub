@@ -214,7 +214,6 @@ A remote code execution vulnerability exists in Windows Remote Desktop Gateway (
 </code>
 
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
-- [ollypwn/BlueGate](https://github.com/ollypwn/BlueGate)
 - [MalwareTech/RDGScanner](https://github.com/MalwareTech/RDGScanner)
 - [Bechsen/CVE-2020-0609](https://github.com/Bechsen/CVE-2020-0609)
 - [ioncodes/BlueGate](https://github.com/ioncodes/BlueGate)
@@ -2992,6 +2991,7 @@ Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may 
 - [ludy-dev/freemarker_RCE_struts2_s2-061](https://github.com/ludy-dev/freemarker_RCE_struts2_s2-061)
 - [CyborgSecurity/CVE-2020-17530](https://github.com/CyborgSecurity/CVE-2020-17530)
 - [uzzzval/CVE-2020-17530](https://github.com/uzzzval/CVE-2020-17530)
+- [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
 
 ### CVE-2020-17531 (2020-12-08)
 
