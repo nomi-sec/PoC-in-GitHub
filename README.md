@@ -1487,6 +1487,7 @@ eap.c in pppd in ppp 2.4.2 through 2.4.8 has an rhostname buffer overflow in the
 - [marcinguy/CVE-2020-8597](https://github.com/marcinguy/CVE-2020-8597)
 - [WinMin/CVE-2020-8597](https://github.com/WinMin/CVE-2020-8597)
 - [Dilan-Diaz/Point-to-Point-Protocol-Daemon-RCE-Vulnerability-CVE-2020-8597-](https://github.com/Dilan-Diaz/Point-to-Point-Protocol-Daemon-RCE-Vulnerability-CVE-2020-8597-)
+- [lakwsh/CVE-2020-8597](https://github.com/lakwsh/CVE-2020-8597)
 
 ### CVE-2020-8617 (2020-05-19)
 
@@ -3802,9 +3803,6 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-36188](https://github.com/Al1ex/CVE-2020-36188)
-
-### CVE-2020-72381
-- [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
 
 
 ## 2019
