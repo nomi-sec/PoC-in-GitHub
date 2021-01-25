@@ -44,6 +44,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
 - [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
+- [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
 
 ### CVE-2021-3130 (2021-01-20)
 
