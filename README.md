@@ -215,7 +215,6 @@ A remote code execution vulnerability exists in Windows Remote Desktop Gateway (
 </code>
 
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
-- [MalwareTech/RDGScanner](https://github.com/MalwareTech/RDGScanner)
 - [Bechsen/CVE-2020-0609](https://github.com/Bechsen/CVE-2020-0609)
 - [ioncodes/BlueGate](https://github.com/ioncodes/BlueGate)
 
@@ -3142,6 +3141,14 @@ FasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction betwee
 
 - [0xkami/cve-2020-24616-poc](https://github.com/0xkami/cve-2020-24616-poc)
 
+### CVE-2020-24750 (2020-09-17)
+
+<code>
+FasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction between serialization gadgets and typing, related to com.pastdev.httpcomponents.configuration.JndiConfiguration.
+</code>
+
+- [Al1ex/CVE-2020-24750](https://github.com/Al1ex/CVE-2020-24750)
+
 ### CVE-2020-24765 (2020-10-20)
 
 <code>
@@ -3630,6 +3637,14 @@ A reflected cross-site scripting (XSS) vulnerability exists in the TranzWare Pay
 </code>
 
 - [jet-pentest/CVE-2020-28415](https://github.com/jet-pentest/CVE-2020-28415)
+
+### CVE-2020-28488 (2021-01-22)
+
+<code>
+This affects all versions of package jquery-ui; all versions of package org.fujion.webjars:jquery-ui.\n When the &quot;dialog&quot; is injected into an HTML tag more than once, the browser and the application may crash.\n
+</code>
+
+- [rafaelcintralopes/CVE-2020-28488](https://github.com/rafaelcintralopes/CVE-2020-28488)
 
 ### CVE-2020-28647 (2020-11-17)
 
@@ -8522,6 +8537,14 @@ A remote code execution vulnerability exists within multiple subsystems of Drupa
 - [kastellanos/CVE-2018-7602](https://github.com/kastellanos/CVE-2018-7602)
 - [cyberharsh/DrupalCVE-2018-7602](https://github.com/cyberharsh/DrupalCVE-2018-7602)
 
+### CVE-2018-7669 (2018-04-27)
+
+<code>
+An issue was discovered in Sitecore Sitecore.NET 8.1 rev. 151207 Hotfix 141178-1 and above. The 'Log Viewer' application is vulnerable to a directory traversal attack, allowing an attacker to access arbitrary files from the host Operating System using a sitecore/shell/default.aspx?xmlcontrol=LogViewerDetails&amp;file= URI. Validation is performed to ensure that the text passed to the 'file' parameter correlates to the correct log file directory. This filter can be bypassed by including a valid log filename and then appending a traditional 'dot dot' style attack.
+</code>
+
+- [palaziv/CVE-2018-7669](https://github.com/palaziv/CVE-2018-7669)
+
 ### CVE-2018-7690 (2018-12-13)
 
 <code>
@@ -12271,6 +12294,7 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 - [dcsync/rtfkit](https://github.com/dcsync/rtfkit)
 - [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
+- [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 
 ### CVE-2017-11907 (2017-12-12)
 
