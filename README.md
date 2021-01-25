@@ -194,7 +194,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
 - [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
-- [Hans-MartinHannibalLauridsen/CurveBall](https://github.com/Hans-MartinHannibalLauridsen/CurveBall)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
 - [ioncodes/Curveball](https://github.com/ioncodes/Curveball)
 - [amlweems/gringotts](https://github.com/amlweems/gringotts)
@@ -2617,6 +2616,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [murataydemir/CVE-2020-14883](https://github.com/murataydemir/CVE-2020-14883)
 - [B1anda0/CVE-2020-14883](https://github.com/B1anda0/CVE-2020-14883)
+- [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 
 ### CVE-2020-14947 (2020-06-30)
 
