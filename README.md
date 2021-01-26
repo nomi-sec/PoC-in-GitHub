@@ -341,7 +341,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [xax007/CVE-2020-0796-Scanner](https://github.com/xax007/CVE-2020-0796-Scanner)
 - [Dhoomralochana/Scanners-for-CVE-2020-0796-Testing](https://github.com/Dhoomralochana/Scanners-for-CVE-2020-0796-Testing)
 - [UraSecTeam/smbee](https://github.com/UraSecTeam/smbee)
-- [0xtobu/CVE-2020-0796](https://github.com/0xtobu/CVE-2020-0796)
 - [netscylla/SMBGhost](https://github.com/netscylla/SMBGhost)
 - [eerykitty/CVE-2020-0796-PoC](https://github.com/eerykitty/CVE-2020-0796-PoC)
 - [wneessen/SMBCompScan](https://github.com/wneessen/SMBCompScan)
@@ -405,6 +404,14 @@ An elevation of privilege vulnerability exists when the Windows Work Folder Serv
 </code>
 
 - [bonesg/CVE-2020-0797](https://github.com/bonesg/CVE-2020-0797)
+
+### CVE-2020-0799 (2020-03-12)
+
+<code>
+An elevation of privilege vulnerability exists in Microsoft Windows when the Windows kernel fails to properly handle parsing of certain symbolic links, aka 'Windows Kernel Elevation of Privilege Vulnerability'.
+</code>
+
+- [5l1v3r1/CVE-2020-0799](https://github.com/5l1v3r1/CVE-2020-0799)
 
 ### CVE-2020-0801 (2020-03-12)
 
