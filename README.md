@@ -9,14 +9,6 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
-### CVE-2021-1647 (2021-01-12)
-
-<code>
-Microsoft Defender Remote Code Execution Vulnerability
-</code>
-
-- [dmlgzs/cve-2021-1647](https://github.com/dmlgzs/cve-2021-1647)
-
 ### CVE-2021-2109 (2021-01-20)
 
 <code>
@@ -45,8 +37,8 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
 - [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
 - [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
-- [nth347/CVE-2021-3129-exploit](https://github.com/nth347/CVE-2021-3129-exploit)
 - [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
+- [nth347/CVE-2021-3129-exploit](https://github.com/nth347/CVE-2021-3129-exploit)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -71,6 +63,8 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 </code>
 
 - [mr-r3b00t/CVE-2021-3156](https://github.com/mr-r3b00t/CVE-2021-3156)
+- [nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156)
+- [Serpentiel/CVE-2021-3156](https://github.com/Serpentiel/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
