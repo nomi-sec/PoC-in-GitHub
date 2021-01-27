@@ -65,6 +65,8 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [mr-r3b00t/CVE-2021-3156](https://github.com/mr-r3b00t/CVE-2021-3156)
 - [nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156)
 - [Serpentiel/CVE-2021-3156](https://github.com/Serpentiel/CVE-2021-3156)
+- [reverse-ex/CVE-2021-3156](https://github.com/reverse-ex/CVE-2021-3156)
+- [ymrsmns/CVE-2021-3156](https://github.com/ymrsmns/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
