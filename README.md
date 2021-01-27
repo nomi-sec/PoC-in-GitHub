@@ -45,6 +45,8 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
 - [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
 - [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
+- [nth347/CVE-2021-3129-exploit](https://github.com/nth347/CVE-2021-3129-exploit)
+- [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -225,7 +227,6 @@ A remote code execution vulnerability exists in Windows Remote Desktop Gateway (
 </code>
 
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
-- [ioncodes/BlueGate](https://github.com/ioncodes/BlueGate)
 
 ### CVE-2020-0618 (2020-02-11)
 
@@ -2626,6 +2627,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 - [xkx518/CodeTest](https://github.com/xkx518/CodeTest)
 - [securitysqs/poc](https://github.com/securitysqs/poc)
+- [ShmilySec/CVE-2020-14882](https://github.com/ShmilySec/CVE-2020-14882)
 
 ### CVE-2020-14883 (2020-10-21)
 
