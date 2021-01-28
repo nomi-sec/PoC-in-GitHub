@@ -59,7 +59,7 @@ The Web server in 1C:Enterprise 8 before 8.3.17.1851 sends base64 encoded creden
 ### CVE-2021-3156 (2021-01-26)
 
 <code>
-Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character:
+Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
 </code>
 
 - [mr-r3b00t/CVE-2021-3156](https://github.com/mr-r3b00t/CVE-2021-3156)
@@ -71,6 +71,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [kernelzeroday/CVE-2021-3156-Baron-Samedit](https://github.com/kernelzeroday/CVE-2021-3156-Baron-Samedit)
 - [yaunsky/cve-2021-3156](https://github.com/yaunsky/cve-2021-3156)
 - [H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156)
+- [baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -12045,6 +12046,7 @@ The Struts 1 plugin in Apache Struts 2.1.x and 2.3.x might allow remote code exe
 - [IanSmith123/s2-048](https://github.com/IanSmith123/s2-048)
 - [dragoneeg/Struts2-048](https://github.com/dragoneeg/Struts2-048)
 - [xfer0/CVE-2017-9791](https://github.com/xfer0/CVE-2017-9791)
+- [lanalanlan/Struts2_048-CVE-2017-9791-EXP](https://github.com/lanalanlan/Struts2_048-CVE-2017-9791-EXP)
 
 ### CVE-2017-9798 (2017-09-18)
 
