@@ -72,6 +72,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [yaunsky/cve-2021-3156](https://github.com/yaunsky/cve-2021-3156)
 - [H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156)
 - [baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp)
+- [ph4ntonn/CVE-2021-3156](https://github.com/ph4ntonn/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -207,7 +208,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
-- [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
 - [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
@@ -2732,6 +2732,7 @@ Nette versions before 2.0.19, 2.1.13, 2.2.10, 2.3.14, 2.4.16, 3.0.6 are vulnerab
 - [Langriklol/CVE-2020-15227](https://github.com/Langriklol/CVE-2020-15227)
 - [hu4wufu/CVE-2020-15227](https://github.com/hu4wufu/CVE-2020-15227)
 - [filipsedivy/CVE-2020-15227](https://github.com/filipsedivy/CVE-2020-15227)
+- [VottusCode/cve-2020-15227](https://github.com/VottusCode/cve-2020-15227)
 
 ### CVE-2020-15228 (2020-10-01)
 
@@ -12765,6 +12766,7 @@ The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4
 - [vnik5287/CVE-2017-16995](https://github.com/vnik5287/CVE-2017-16995)
 - [littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995)
 - [Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-](https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-)
+- [ph4ntonn/CVE-2017-16995](https://github.com/ph4ntonn/CVE-2017-16995)
 
 ### CVE-2017-16997 (2017-12-17)
 
