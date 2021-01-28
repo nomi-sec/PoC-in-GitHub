@@ -67,6 +67,10 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [Serpentiel/CVE-2021-3156](https://github.com/Serpentiel/CVE-2021-3156)
 - [reverse-ex/CVE-2021-3156](https://github.com/reverse-ex/CVE-2021-3156)
 - [ymrsmns/CVE-2021-3156](https://github.com/ymrsmns/CVE-2021-3156)
+- [elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER)
+- [kernelzeroday/CVE-2021-3156-Baron-Samedit](https://github.com/kernelzeroday/CVE-2021-3156-Baron-Samedit)
+- [yaunsky/cve-2021-3156](https://github.com/yaunsky/cve-2021-3156)
+- [H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -3361,7 +3365,12 @@ The Telnet service of Rubetek cameras RV-3406, RV-3409, and RV-3411 cameras (fir
 ### CVE-2020-25769
 - [lagartojuancho/CVE-2020-25769](https://github.com/lagartojuancho/CVE-2020-25769)
 
-### CVE-2020-25782
+### CVE-2020-25782 (2021-01-27)
+
+<code>
+An issue was discovered on Accfly Wireless Security IR Camera 720P System with software versions v3.10.73 through v4.15.77. There is an unauthenticated stack-based buffer overflow in the function CNetClientManage::ServerIP_Proto_Set during incoming message handling.
+</code>
+
 - [tezeb/accfly](https://github.com/tezeb/accfly)
 
 ### CVE-2020-25790 (2020-09-19)
