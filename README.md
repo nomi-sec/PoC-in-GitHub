@@ -208,6 +208,7 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
+- [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
 - [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
@@ -1515,14 +1516,6 @@ Wing FTP Server v6.2.3 for Linux, macOS, and Solaris sets insecure permissions o
 </code>
 
 - [Al1ex/CVE-2020-8635](https://github.com/Al1ex/CVE-2020-8635)
-
-### CVE-2020-8644 (2020-02-05)
-
-<code>
-PlaySMS before 1.4.3 does not sanitize inputs from a malicious string.
-</code>
-
-- [FancyDoesSecurity/CVE-2020-8644](https://github.com/FancyDoesSecurity/CVE-2020-8644)
 
 ### CVE-2020-8809 (2020-02-25)
 
