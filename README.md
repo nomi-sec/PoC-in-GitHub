@@ -74,6 +74,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp)
 - [ph4ntonn/CVE-2021-3156](https://github.com/ph4ntonn/CVE-2021-3156)
 - [binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT)
+- [ltfafei/CVE-2021-3156](https://github.com/ltfafei/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -230,7 +231,6 @@ A remote code execution vulnerability exists in Windows Remote Desktop Gateway (
 </code>
 
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
-- [ioncodes/BlueGate](https://github.com/ioncodes/BlueGate)
 
 ### CVE-2020-0618 (2020-02-11)
 
@@ -2616,6 +2616,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [xkx518/CodeTest](https://github.com/xkx518/CodeTest)
 - [securitysqs/poc](https://github.com/securitysqs/poc)
 - [ShmilySec/CVE-2020-14882](https://github.com/ShmilySec/CVE-2020-14882)
+- [pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -4018,7 +4019,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [freeide/CVE-2019-0708-PoC-Exploit](https://github.com/freeide/CVE-2019-0708-PoC-Exploit)
 - [robertdavidgraham/rdpscan](https://github.com/robertdavidgraham/rdpscan)
 - [closethe/CVE-2019-0708-POC](https://github.com/closethe/CVE-2019-0708-POC)
-- [krivegasa/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/krivegasa/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
 - [Rostelecom-CERT/bluekeepscan](https://github.com/Rostelecom-CERT/bluekeepscan)
 - [Leoid/CVE-2019-0708](https://github.com/Leoid/CVE-2019-0708)
 - [ht0Ruial/CVE-2019-0708Poc-BatchScanning](https://github.com/ht0Ruial/CVE-2019-0708Poc-BatchScanning)
@@ -4074,6 +4074,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [AaronWilsonGrylls/CVE-2019-0708-POC](https://github.com/AaronWilsonGrylls/CVE-2019-0708-POC)
 - [alexa872/CVE-2019-0708](https://github.com/alexa872/CVE-2019-0708)
+- [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
 - [sinlee1/CVE-2019-0708](https://github.com/sinlee1/CVE-2019-0708)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 
