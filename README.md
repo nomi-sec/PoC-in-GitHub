@@ -73,6 +73,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156)
 - [baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp)
 - [ph4ntonn/CVE-2021-3156](https://github.com/ph4ntonn/CVE-2021-3156)
+- [binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -229,6 +230,7 @@ A remote code execution vulnerability exists in Windows Remote Desktop Gateway (
 </code>
 
 - [2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609)
+- [ioncodes/BlueGate](https://github.com/ioncodes/BlueGate)
 
 ### CVE-2020-0618 (2020-02-11)
 
@@ -751,14 +753,6 @@ The X.509 GeneralName type is a generic type for representing different types of
 </code>
 
 - [MBHudson/CVE-2020-1971](https://github.com/MBHudson/CVE-2020-1971)
-
-### CVE-2020-1983 (2020-04-22)
-
-<code>
-A use after free vulnerability in ip_reass() in ip_input.c of libslirp 4.2.0 and prior releases allows crafted packets to cause a denial of service.
-</code>
-
-- [wuzuowei/CVE-2020-1983](https://github.com/wuzuowei/CVE-2020-1983)
 
 ### CVE-2020-2034 (2020-07-08)
 
