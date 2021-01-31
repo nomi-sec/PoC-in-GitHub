@@ -79,6 +79,8 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [stong/CVE-2021-3156](https://github.com/stong/CVE-2021-3156)
 - [nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156)
 - [blasty/CVE-2021-3156](https://github.com/blasty/CVE-2021-3156)
+- [teamtopkarl/CVE-2021-3156](https://github.com/teamtopkarl/CVE-2021-3156)
+- [Q4n/CVE-2021-3156](https://github.com/Q4n/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -3970,37 +3972,13 @@ An elevation of privilege vulnerability exists when Microsoft Edge does not prop
 A remote code execution vulnerability exists in Remote Desktop Services formerly known as Terminal Services when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'.
 </code>
 
-- [hook-s3c/CVE-2019-0708-poc](https://github.com/hook-s3c/CVE-2019-0708-poc)
 - [SherlockSec/CVE-2019-0708](https://github.com/SherlockSec/CVE-2019-0708)
-- [yetiddbb/CVE-2019-0708-PoC](https://github.com/yetiddbb/CVE-2019-0708-PoC)
-- [p0p0p0/CVE-2019-0708-exploit](https://github.com/p0p0p0/CVE-2019-0708-exploit)
-- [rockmelodies/CVE-2019-0708-Exploit](https://github.com/rockmelodies/CVE-2019-0708-Exploit)
-- [matengfei000/CVE-2019-0708](https://github.com/matengfei000/CVE-2019-0708)
-- [xiyangzuishuai/Dark-Network-CVE-2019-0708](https://github.com/xiyangzuishuai/Dark-Network-CVE-2019-0708)
-- [temp-user-2014/CVE-2019-0708](https://github.com/temp-user-2014/CVE-2019-0708)
-- [areusecure/CVE-2019-0708](https://github.com/areusecure/CVE-2019-0708)
-- [pry0cc/cve-2019-0708-2](https://github.com/pry0cc/cve-2019-0708-2)
-- [sbkcbig/CVE-2019-0708-EXPloit](https://github.com/sbkcbig/CVE-2019-0708-EXPloit)
-- [sbkcbig/CVE-2019-0708-EXPloit-3389](https://github.com/sbkcbig/CVE-2019-0708-EXPloit-3389)
-- [YSheldon/MS_T120](https://github.com/YSheldon/MS_T120)
 - [k8gege/CVE-2019-0708](https://github.com/k8gege/CVE-2019-0708)
-- [hotdog777714/RDS_CVE-2019-0708](https://github.com/hotdog777714/RDS_CVE-2019-0708)
 - [jiansiting/CVE-2019-0708](https://github.com/jiansiting/CVE-2019-0708)
-- [NullByteSuiteDevs/CVE-2019-0708](https://github.com/NullByteSuiteDevs/CVE-2019-0708)
 - [thugcrowd/CVE-2019-0708](https://github.com/thugcrowd/CVE-2019-0708)
 - [blacksunwen/CVE-2019-0708](https://github.com/blacksunwen/CVE-2019-0708)
-- [infenet/CVE-2019-0708](https://github.com/infenet/CVE-2019-0708)
-- [n0auth/CVE-2019-0708](https://github.com/n0auth/CVE-2019-0708)
-- [gildaaa/CVE-2019-0708](https://github.com/gildaaa/CVE-2019-0708)
-- [sbkcbig/CVE-2019-0708-Poc-exploit](https://github.com/sbkcbig/CVE-2019-0708-Poc-exploit)
-- [HackerJ0e/CVE-2019-0708](https://github.com/HackerJ0e/CVE-2019-0708)
-- [syriusbughunt/CVE-2019-0708](https://github.com/syriusbughunt/CVE-2019-0708)
-- [Barry-McCockiner/CVE-2019-0708](https://github.com/Barry-McCockiner/CVE-2019-0708)
-- [ShadowBrokers-ExploitLeak/CVE-2019-0708](https://github.com/ShadowBrokers-ExploitLeak/CVE-2019-0708)
-- [safly/CVE-2019-0708](https://github.com/safly/CVE-2019-0708)
 - [Jaky5155/cve-2019-0708-exp](https://github.com/Jaky5155/cve-2019-0708-exp)
 - [fourtwizzy/CVE-2019-0708-Check-Device-Patch-Status](https://github.com/fourtwizzy/CVE-2019-0708-Check-Device-Patch-Status)
-- [303sec/CVE-2019-0708](https://github.com/303sec/CVE-2019-0708)
 - [f8al/CVE-2019-0708-POC](https://github.com/f8al/CVE-2019-0708-POC)
 - [blockchainguard/CVE-2019-0708](https://github.com/blockchainguard/CVE-2019-0708)
 - [haoge8090/CVE-2019-0708](https://github.com/haoge8090/CVE-2019-0708)
@@ -4010,7 +3988,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [ttsite/CVE-2019-0708](https://github.com/ttsite/CVE-2019-0708)
 - [biggerwing/CVE-2019-0708-poc](https://github.com/biggerwing/CVE-2019-0708-poc)
 - [n1xbyte/CVE-2019-0708](https://github.com/n1xbyte/CVE-2019-0708)
-- [freeide/CVE-2019-0708](https://github.com/freeide/CVE-2019-0708)
 - [edvacco/CVE-2019-0708-POC](https://github.com/edvacco/CVE-2019-0708-POC)
 - [pry0cc/BlueKeepTracker](https://github.com/pry0cc/BlueKeepTracker)
 - [zjw88282740/CVE-2019-0708-win7](https://github.com/zjw88282740/CVE-2019-0708-win7)
@@ -4116,14 +4093,6 @@ A memory corruption vulnerability exists in the Windows Server DHCP service when
 </code>
 
 - [Jaky5155/CVE-2019-0785](https://github.com/Jaky5155/CVE-2019-0785)
-
-### CVE-2019-0803 (2019-04-09)
-
-<code>
-An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0685, CVE-2019-0859.
-</code>
-
-- [ExpLife0011/CVE-2019-0803](https://github.com/ExpLife0011/CVE-2019-0803)
 
 ### CVE-2019-0808 (2019-04-08)
 
@@ -4402,6 +4371,7 @@ Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier
 A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
 </code>
 
+- [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
 
 ### CVE-2019-1759 (2019-03-27)
@@ -4603,6 +4573,15 @@ Confluence Server and Data Center had a path traversal vulnerability in the down
 
 - [superevr/cve-2019-3398](https://github.com/superevr/cve-2019-3398)
 
+### CVE-2019-3462 (2019-01-28)
+
+<code>
+Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
+</code>
+
+- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
+- [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
+
 ### CVE-2019-3663 (2019-11-13)
 
 <code>
@@ -4782,6 +4761,11 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 </code>
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
+- [jakubkrawczyk/cve-2019-5736](https://github.com/jakubkrawczyk/cve-2019-5736)
+- [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
+- [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
+- [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
+- [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
@@ -4846,21 +4830,12 @@ An issue was discovered in OpenSSH 7.9. Due to the scp implementation being deri
 
 - [53n7hu/SNP](https://github.com/53n7hu/SNP)
 
-### CVE-2019-6203 (2020-04-17)
-
-<code>
-A logic issue was addressed with improved state management. This issue is fixed in iOS 12.2, macOS Mojave 10.14.4, tvOS 12.2. An attacker in a privileged network position may be able to intercept network traffic.
-</code>
-
-- [qingxp9/CVE-2019-6203-PoC](https://github.com/qingxp9/CVE-2019-6203-PoC)
-
 ### CVE-2019-6207 (2019-12-18)
 
 <code>
 An out-of-bounds read issue existed that led to the disclosure of kernel memory. This was addressed with improved input validation. This issue is fixed in iOS 12.2, macOS Mojave 10.14.4, tvOS 12.2, watchOS 5.2. A malicious application may be able to determine kernel memory layout.
 </code>
 
-- [dothanthitiendiettiende/CVE-2019-6207](https://github.com/dothanthitiendiettiende/CVE-2019-6207)
 - [maldiohead/CVE-2019-6207](https://github.com/maldiohead/CVE-2019-6207)
 - [DimitriFourny/cve-2019-6207](https://github.com/DimitriFourny/cve-2019-6207)
 
@@ -4870,6 +4845,7 @@ An out-of-bounds read issue existed that led to the disclosure of kernel memory.
 A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 12.1.3, macOS Mojave 10.14.3, tvOS 12.1.2. A malicious application may be able to elevate privileges.
 </code>
 
+- [fatgrass/OsirisJailbreak12](https://github.com/fatgrass/OsirisJailbreak12)
 - [TrungNguyen1909/CVE-2019-6225-macOS](https://github.com/TrungNguyen1909/CVE-2019-6225-macOS)
 - [raystyle/jailbreak-iOS12](https://github.com/raystyle/jailbreak-iOS12)
 
@@ -4888,6 +4864,14 @@ The ASPEED ast2400 and ast2500 Baseband Management Controller (BMC) hardware and
 </code>
 
 - [amboar/cve-2019-6260](https://github.com/amboar/cve-2019-6260)
+
+### CVE-2019-6263 (2019-01-16)
+
+<code>
+An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
+</code>
+
+- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
 
 ### CVE-2019-6329 (2019-06-25)
 
@@ -4920,20 +4904,13 @@ Zemana AntiMalware before 3.0.658 Beta mishandles update logic.
 
 - [hexnone/CVE-2019-6440](https://github.com/hexnone/CVE-2019-6440)
 
-### CVE-2019-6446 (2019-01-16)
-
-<code>
-** DISPUTED **   An issue was discovered in NumPy 1.16.0 and earlier. It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call. NOTE: third parties dispute this issue because it is  a behavior that might have legitimate applications in (for example)  loading serialized Python object arrays from trusted and authenticated  sources.
-</code>
-
-- [RayScri/CVE-2019-6446](https://github.com/RayScri/CVE-2019-6446)
-
 ### CVE-2019-6447 (2019-01-16)
 
 <code>
 The ES File Explorer File Manager application through 4.1.9.7.4 for Android allows remote attackers to read arbitrary files or execute applications via TCP port 59777 requests on the local Wi-Fi network. This TCP port remains open after the ES application has been launched once, and responds to unauthenticated application/json data over HTTP.
 </code>
 
+- [fs0c131y/ESFileExplorerOpenPortVuln](https://github.com/fs0c131y/ESFileExplorerOpenPortVuln)
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 
 ### CVE-2019-6453 (2019-02-18)
@@ -4951,6 +4928,14 @@ A programming error in the nxdomain-redirect feature can cause an assertion fail
 </code>
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
+
+### CVE-2019-6487 (2019-01-18)
+
+<code>
+TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
+</code>
+
+- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
 
 ### CVE-2019-6690 (2019-03-17)
 
@@ -4986,6 +4971,14 @@ SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrus
 
 - [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
 
+### CVE-2019-7216 (2019-01-31)
+
+<code>
+An issue was discovered in FileChucker 4.99e-free-e02. filechucker.cgi has a filter bypass that allows a malicious user to upload any type of file by using % characters within the extension, e.g., file.%ph%p becomes file.php.
+</code>
+
+- [Ekultek/CVE-2019-7216](https://github.com/Ekultek/CVE-2019-7216)
+
 ### CVE-2019-7219 (2019-04-11)
 
 <code>
@@ -5012,6 +5005,7 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 </code>
 
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
+- [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 
 ### CVE-2019-7356 (2020-11-04)
 
@@ -5552,14 +5546,6 @@ All versions of stroom:stroom-app before 5.5.12 and all versions of the 6.0.0 br
 </code>
 
 - [RepublicR0K/CVE-2019-10779](https://github.com/RepublicR0K/CVE-2019-10779)
-
-### CVE-2019-10869 (2019-05-07)
-
-<code>
-Path Traversal and Unrestricted File Upload exists in the Ninja Forms plugin before 3.0.23 for WordPress (when the Uploads add-on is activated). This allows an attacker to traverse the file system to access files and execute code via the includes/fields/upload.php (aka upload/submit page) name and tmp_name parameters.
-</code>
-
-- [KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869)
 
 ### CVE-2019-10915 (2019-07-11)
 
