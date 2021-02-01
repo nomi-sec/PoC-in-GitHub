@@ -82,6 +82,8 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [teamtopkarl/CVE-2021-3156](https://github.com/teamtopkarl/CVE-2021-3156)
 - [Q4n/CVE-2021-3156](https://github.com/Q4n/CVE-2021-3156)
 - [kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156)
+- [apogiatzis/docker-CVE-2021-3156](https://github.com/apogiatzis/docker-CVE-2021-3156)
+- [voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -225,7 +227,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
-- [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
 - [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
@@ -721,6 +722,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Umesh2807/Ghostcat](https://github.com/Umesh2807/Ghostcat)
 - [MateoSec/ghostcatch](https://github.com/MateoSec/ghostcatch)
 - [kukudechen-chen/cve-2020-1938](https://github.com/kukudechen-chen/cve-2020-1938)
+- [YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE](https://github.com/YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE)
 
 ### CVE-2020-1947 (2020-03-11)
 
