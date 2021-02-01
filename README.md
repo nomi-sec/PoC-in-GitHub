@@ -84,6 +84,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156)
 - [apogiatzis/docker-CVE-2021-3156](https://github.com/apogiatzis/docker-CVE-2021-3156)
 - [voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156)
+- [Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -1235,6 +1236,7 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [FiroSolutions/cve-2020-7247-exploit](https://github.com/FiroSolutions/cve-2020-7247-exploit)
 - [superzerosec/cve-2020-7247](https://github.com/superzerosec/cve-2020-7247)
 - [r0lh/CVE-2020-7247](https://github.com/r0lh/CVE-2020-7247)
+- [jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247)
 
 ### CVE-2020-7283 (2020-07-03)
 
@@ -2611,7 +2613,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 </code>
 
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
-- [zhzyker/vulmap](https://github.com/zhzyker/vulmap)
 - [jas502n/CVE-2020-14882](https://github.com/jas502n/CVE-2020-14882)
 - [s1kr10s/CVE-2020-14882](https://github.com/s1kr10s/CVE-2020-14882)
 - [Umarovm/-Patched-McMaster-University-Blind-Command-Injection](https://github.com/Umarovm/-Patched-McMaster-University-Blind-Command-Injection)
@@ -4787,7 +4788,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 </code>
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
-- [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
@@ -5217,6 +5217,14 @@ WordPress before 4.9.9 and 5.x before 5.0.1 allows remote code execution because
 
 - [brianwrf/WordPress_4.9.8_RCE_POC](https://github.com/brianwrf/WordPress_4.9.8_RCE_POC)
 - [synacktiv/CVE-2019-8942](https://github.com/synacktiv/CVE-2019-8942)
+
+### CVE-2019-8943 (2019-02-19)
+
+<code>
+WordPress through 5.0.3 allows Path Traversal in wp_crop_image(). An attacker (who has privileges to crop an image) can write the output image to an arbitrary directory via a filename containing two image extensions and ../ sequences, such as a filename ending with the .jpg?/../../file.jpg substring.
+</code>
+
+- [v0lck3r/CVE-2019-8943](https://github.com/v0lck3r/CVE-2019-8943)
 
 ### CVE-2019-8956 (2019-04-01)
 
