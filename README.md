@@ -12048,7 +12048,6 @@ The Struts 1 plugin in Apache Struts 2.1.x and 2.3.x might allow remote code exe
 - [IanSmith123/s2-048](https://github.com/IanSmith123/s2-048)
 - [dragoneeg/Struts2-048](https://github.com/dragoneeg/Struts2-048)
 - [xfer0/CVE-2017-9791](https://github.com/xfer0/CVE-2017-9791)
-- [lanalanlan/Struts2_048-CVE-2017-9791-EXP](https://github.com/lanalanlan/Struts2_048-CVE-2017-9791-EXP)
 
 ### CVE-2017-9798 (2017-09-18)
 
@@ -15228,14 +15227,6 @@ Heap-based buffer overflow in Apple Safari 7.0.2 allows remote attackers to exec
 </code>
 
 - [RKX1209/CVE-2014-1303](https://github.com/RKX1209/CVE-2014-1303)
-
-### CVE-2014-1322 (2014-04-23)
-
-<code>
-The kernel in Apple OS X through 10.9.2 places a kernel pointer into an XNU object data structure accessible from user space, which makes it easier for local users to bypass the ASLR protection mechanism by reading an unspecified attribute of the object.
-</code>
-
-- [raymondpittman/IPC-Memory-Mac-OSX-Exploit](https://github.com/raymondpittman/IPC-Memory-Mac-OSX-Exploit)
 
 ### CVE-2014-1447 (2014-01-24)
 
