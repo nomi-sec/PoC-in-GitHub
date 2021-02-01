@@ -85,6 +85,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [apogiatzis/docker-CVE-2021-3156](https://github.com/apogiatzis/docker-CVE-2021-3156)
 - [voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156)
 - [Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch)
+- [SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -4608,6 +4609,7 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396)
 - [W2Ning/CVE-2019-3396](https://github.com/W2Ning/CVE-2019-3396)
 - [yuehanked/cve-2019-3396](https://github.com/yuehanked/cve-2019-3396)
+- [abdallah-elsharif/cve-2019-3396](https://github.com/abdallah-elsharif/cve-2019-3396)
 
 ### CVE-2019-3398 (2019-04-18)
 
@@ -4788,7 +4790,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 </code>
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
-- [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
 - [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
@@ -6704,7 +6705,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [west-tek/CVE-2019-16113-PoC](https://github.com/west-tek/CVE-2019-16113-PoC)
-- [Noroh4xy/CVE-2019-16113](https://github.com/Noroh4xy/CVE-2019-16113)
+- [hamyk0hi/CVE-2019-16113](https://github.com/hamyk0hi/CVE-2019-16113)
 
 ### CVE-2019-16278 (2019-10-14)
 
@@ -6897,7 +6898,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [triple-octopus/Bludit-CVE-2019-17240-Fork](https://github.com/triple-octopus/Bludit-CVE-2019-17240-Fork)
-- [Noroh4xy/CVE-2019-17240](https://github.com/Noroh4xy/CVE-2019-17240)
+- [hamyk0hi/CVE-2019-17240](https://github.com/hamyk0hi/CVE-2019-17240)
 - [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
 
 ### CVE-2019-17424 (2019-10-22)
@@ -13151,7 +13152,7 @@ Incomplete blacklist vulnerability in the servlet filter restriction mechanism i
 The SSLv2 protocol, as used in OpenSSL before 1.0.1s and 1.0.2 before 1.0.2g and other products, requires a server to send a ServerVerify message before establishing that a client possesses certain plaintext RSA data, which makes it easier for remote attackers to decrypt TLS ciphertext data by leveraging a Bleichenbacher RSA padding oracle, aka a &quot;DROWN&quot; attack.
 </code>
 
-- [nyctophile6/A2SV--SSL-VUL-Scan](https://github.com/nyctophile6/A2SV--SSL-VUL-Scan)
+- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
 
 ### CVE-2016-0801 (2016-02-06)
 
@@ -14189,6 +14190,14 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 
 - [ISSAPolska/CVE-2016-10761](https://github.com/ISSAPolska/CVE-2016-10761)
 
+### CVE-2016-1000027 (2020-01-02)
+
+<code>
+Pivotal Spring Framework 4.1.4 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required.
+</code>
+
+- [artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc)
+
 
 ## 2015
 ### CVE-2015-0006 (2015-01-13)
@@ -14225,7 +14234,7 @@ The ssl3_get_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8zd, 1.0.0
 - [scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner)
 - [AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script](https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script)
 - [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
-- [nyctophile6/A2SV--SSL-VUL-Scan](https://github.com/nyctophile6/A2SV--SSL-VUL-Scan)
+- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
 
 ### CVE-2015-0231 (2015-01-27)
 
@@ -15140,7 +15149,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [rouze-d/heartbleed](https://github.com/rouze-d/heartbleed)
 - [WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed)
 - [GuillermoEscobero/heartbleed](https://github.com/GuillermoEscobero/heartbleed)
-- [nyctophile6/A2SV--SSL-VUL-Scan](https://github.com/nyctophile6/A2SV--SSL-VUL-Scan)
+- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -16338,7 +16347,7 @@ The TLS protocol 1.2 and earlier, as used in Mozilla Firefox, Google Chrome, Qt,
 </code>
 
 - [mpgn/CRIME-poc](https://github.com/mpgn/CRIME-poc)
-- [nyctophile6/A2SV--SSL-VUL-Scan](https://github.com/nyctophile6/A2SV--SSL-VUL-Scan)
+- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
 
 ### CVE-2012-5106 (2014-06-20)
 
@@ -17033,7 +17042,7 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
 </code>
 
-- [nyctophile6/A2SV--SSL-VUL-Scan](https://github.com/nyctophile6/A2SV--SSL-VUL-Scan)
+- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
 
 ### CVE-2007-2447 (2007-05-14)
 
