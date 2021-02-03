@@ -89,6 +89,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156)
 - [dinhbaouit/CVE-2021-3156](https://github.com/dinhbaouit/CVE-2021-3156)
 - [leterts/CVE-2021-3156](https://github.com/leterts/CVE-2021-3156)
+- [CptGibbon/CVE-2021-3156](https://github.com/CptGibbon/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -3029,7 +3030,12 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [radbsie/CVE-2020-17519-Exp](https://github.com/radbsie/CVE-2020-17519-Exp)
 - [yaunsky/CVE-2020-17519-Apache-Flink](https://github.com/yaunsky/CVE-2020-17519-Apache-Flink)
 
-### CVE-2020-17523
+### CVE-2020-17523 (2021-02-03)
+
+<code>
+Apache Shiro before 1.7.1, when using Apache Shiro with Spring, a specially crafted HTTP request may cause an authentication bypass.
+</code>
+
 - [jweny/shiro-cve-2020-17523](https://github.com/jweny/shiro-cve-2020-17523)
 
 ### CVE-2020-17530 (2020-12-10)
@@ -12463,7 +12469,6 @@ CouchDB administrative users can configure the database server via HTTP(S). Some
 </code>
 
 - [moayadalmalat/CVE-2017-12636](https://github.com/moayadalmalat/CVE-2017-12636)
-- [F1uffyGoat/F1uffyCouchDB](https://github.com/F1uffyGoat/F1uffyCouchDB)
 - [RedTeamWing/CVE-2017-12636](https://github.com/RedTeamWing/CVE-2017-12636)
 
 ### CVE-2017-12792 (2017-10-02)
