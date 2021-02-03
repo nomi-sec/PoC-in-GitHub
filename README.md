@@ -86,6 +86,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156)
 - [Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch)
 - [SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156)
+- [cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -110,6 +111,15 @@ A cross-site scripting (XSS) vulnerability in Pryaniki 6.44.3 allows remote auth
 </code>
 
 - [jet-pentest/CVE-2021-3395](https://github.com/jet-pentest/CVE-2021-3395)
+
+### CVE-2021-25646 (2021-01-29)
+
+<code>
+Apache Druid includes the ability to execute user-provided JavaScript code embedded in various types of requests. This functionality is intended for use in high-trust environments, and is disabled by default. However, in Druid 0.20.0 and earlier, it is possible for an authenticated user to send a specially-crafted request that forces Druid to run user-provided JavaScript code for that request, regardless of server configuration. This can be leveraged to execute code on the target machine with the privileges of the Druid server process.
+</code>
+
+- [yaunsky/cve-2021-25646](https://github.com/yaunsky/cve-2021-25646)
+- [lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646)
 
 
 ## 2020
@@ -237,10 +247,8 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
-- [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
-- [talbeerysec/CurveBallDetection](https://github.com/talbeerysec/CurveBallDetection)
 - [david4599/CurveballCertTool](https://github.com/david4599/CurveballCertTool)
 - [eastmountyxz/CVE-2020-0601-EXP](https://github.com/eastmountyxz/CVE-2020-0601-EXP)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
@@ -903,6 +911,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [grim3/CVE-2020-3452](https://github.com/grim3/CVE-2020-3452)
 - [cygenta/CVE-2020-3452](https://github.com/cygenta/CVE-2020-3452)
 - [darklotuskdb/CISCO-CVE-2020-3452-Scanner-Exploiter](https://github.com/darklotuskdb/CISCO-CVE-2020-3452-Scanner-Exploiter)
+- [fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal](https://github.com/fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal)
 
 ### CVE-2020-3766 (2020-03-25)
 
@@ -3017,6 +3026,9 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [murataydemir/CVE-2020-17519](https://github.com/murataydemir/CVE-2020-17519)
 - [radbsie/CVE-2020-17519-Exp](https://github.com/radbsie/CVE-2020-17519-Exp)
 - [yaunsky/CVE-2020-17519-Apache-Flink](https://github.com/yaunsky/CVE-2020-17519-Apache-Flink)
+
+### CVE-2020-17523
+- [jweny/shiro-cve-2020-17523](https://github.com/jweny/shiro-cve-2020-17523)
 
 ### CVE-2020-17530 (2020-12-10)
 
@@ -6715,7 +6727,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [west-tek/CVE-2019-16113-PoC](https://github.com/west-tek/CVE-2019-16113-PoC)
-- [hamyk0hi/CVE-2019-16113](https://github.com/hamyk0hi/CVE-2019-16113)
+- [noroh4xy/CVE-2019-16113](https://github.com/noroh4xy/CVE-2019-16113)
 
 ### CVE-2019-16278 (2019-10-14)
 
@@ -6908,7 +6920,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [triple-octopus/Bludit-CVE-2019-17240-Fork](https://github.com/triple-octopus/Bludit-CVE-2019-17240-Fork)
-- [hamyk0hi/CVE-2019-17240](https://github.com/hamyk0hi/CVE-2019-17240)
+- [noroh4xy/CVE-2019-17240](https://github.com/noroh4xy/CVE-2019-17240)
 - [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
 
 ### CVE-2019-17424 (2019-10-22)
@@ -15254,6 +15266,14 @@ Heap-based buffer overflow in Apple Safari 7.0.2 allows remote attackers to exec
 </code>
 
 - [RKX1209/CVE-2014-1303](https://github.com/RKX1209/CVE-2014-1303)
+
+### CVE-2014-1322 (2014-04-23)
+
+<code>
+The kernel in Apple OS X through 10.9.2 places a kernel pointer into an XNU object data structure accessible from user space, which makes it easier for local users to bypass the ASLR protection mechanism by reading an unspecified attribute of the object.
+</code>
+
+- [raymondpittman/IPC-Memory-Mac-OSX-Exploit](https://github.com/raymondpittman/IPC-Memory-Mac-OSX-Exploit)
 
 ### CVE-2014-1447 (2014-01-24)
 
