@@ -261,7 +261,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
-- [david4599/CurveballCertTool](https://github.com/david4599/CurveballCertTool)
 - [eastmountyxz/CVE-2020-0601-EXP](https://github.com/eastmountyxz/CVE-2020-0601-EXP)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [gremwell/cve-2020-0601_poc](https://github.com/gremwell/cve-2020-0601_poc)
@@ -924,6 +923,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [cygenta/CVE-2020-3452](https://github.com/cygenta/CVE-2020-3452)
 - [darklotuskdb/CISCO-CVE-2020-3452-Scanner-Exploiter](https://github.com/darklotuskdb/CISCO-CVE-2020-3452-Scanner-Exploiter)
 - [fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal](https://github.com/fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal)
+- [faisalfs10x/Cisco-CVE-2020-3452-checker](https://github.com/faisalfs10x/Cisco-CVE-2020-3452-checker)
 
 ### CVE-2020-3766 (2020-03-25)
 
@@ -960,6 +960,7 @@ OpenSLP as used in VMware ESXi (7.0 before ESXi_7.0.1-0.0.16850804, 6.7 before E
 </code>
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
+- [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
 
 ### CVE-2020-4040 (2020-06-08)
 
@@ -1118,6 +1119,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [murataydemir/CVE-2020-5902](https://github.com/murataydemir/CVE-2020-5902)
 - [superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902)
 - [ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability](https://github.com/ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability)
+- [faisalfs10x/F5-BIG-IP-CVE-2020-5902-checker](https://github.com/faisalfs10x/F5-BIG-IP-CVE-2020-5902-checker)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -1308,7 +1310,6 @@ Incorrect handling of Upgrade header with the value websocket leads in crashing 
 An issue was discovered in FusionAuth before 1.11.0. An authenticated user, allowed to edit e-mail templates (Home -&gt; Settings -&gt; Email Templates) or themes (Home -&gt; Settings -&gt; Themes), can execute commands on the underlying operating system by abusing freemarker.template.utility.Execute in the Apache FreeMarker engine that processes custom templates.
 </code>
 
-- [Pikaqi/cve-2020-7799](https://github.com/Pikaqi/cve-2020-7799)
 - [ianxtianxt/CVE-2020-7799](https://github.com/ianxtianxt/CVE-2020-7799)
 
 ### CVE-2020-7897
@@ -4798,6 +4799,7 @@ OpenSLP as used in ESXi and the Horizon DaaS appliances has a heap overwrite iss
 </code>
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
+- [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
 
 ### CVE-2019-5624 (2019-04-30)
 
@@ -7480,7 +7482,6 @@ A sandbox bypass vulnerability exists in Script Security Plugin 1.49 and earlier
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
 - [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
-- [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
 
 ### CVE-2019-1010054 (2019-07-18)
@@ -9911,14 +9912,6 @@ Frog CMS 0.9.5 has an Upload vulnerability that can create files via /admin/?/pl
 
 - [snappyJack/CVE-2018-16373](https://github.com/snappyJack/CVE-2018-16373)
 
-### CVE-2018-16447 (2018-09-04)
-
-<code>
-Frog CMS 0.9.5 has admin/?/user/edit/1 CSRF.
-</code>
-
-- [security-breachlock/CVE-2018-16447](https://github.com/security-breachlock/CVE-2018-16447)
-
 ### CVE-2018-16492 (2019-02-01)
 
 <code>
@@ -9937,142 +9930,6 @@ An issue was discovered in Artifex Ghostscript before 9.24. Incorrect &quot;rest
 - [knqyf263/CVE-2018-16509](https://github.com/knqyf263/CVE-2018-16509)
 - [cved-sources/cve-2018-16509](https://github.com/cved-sources/cve-2018-16509)
 - [rhpco/CVE-2018-16509](https://github.com/rhpco/CVE-2018-16509)
-
-### CVE-2018-16623 (2019-05-13)
-
-<code>
-Kirby V2.5.12 is prone to a Persistent XSS attack via the Title of the &quot;Site options&quot; in the admin panel dashboard dropdown.
-</code>
-
-- [security-breachlock/CVE-2018-16623](https://github.com/security-breachlock/CVE-2018-16623)
-
-### CVE-2018-16624 (2019-05-13)
-
-<code>
-panel/pages/home/edit in Kirby v2.5.12 allows XSS via the title of a new page.
-</code>
-
-- [security-breachlock/CVE-2018-16624](https://github.com/security-breachlock/CVE-2018-16624)
-
-### CVE-2018-16625 (2019-05-13)
-
-<code>
-index.php/Admin/Uploaded in Typesetter 5.1 allows XSS via an SVG file with JavaScript in a SCRIPT element.
-</code>
-
-- [security-breachlock/CVE-2018-16625](https://github.com/security-breachlock/CVE-2018-16625)
-
-### CVE-2018-16626 (2019-05-13)
-
-<code>
-index.php/Admin/Classes in Typesetter 5.1 allows XSS via the description of a new class name.
-</code>
-
-- [security-breachlock/CVE-2018-16626](https://github.com/security-breachlock/CVE-2018-16626)
-
-### CVE-2018-16627 (2018-12-20)
-
-<code>
-panel/login in Kirby v2.5.12 allows Host header injection via the &quot;forget password&quot; feature.
-</code>
-
-- [security-breachlock/CVE-2018-16627](https://github.com/security-breachlock/CVE-2018-16627)
-
-### CVE-2018-16628 (2018-12-04)
-
-<code>
-panel/login in Kirby v2.5.12 allows XSS via a blog name.
-</code>
-
-- [security-breachlock/CVE-2018-16628](https://github.com/security-breachlock/CVE-2018-16628)
-
-### CVE-2018-16629 (2018-12-04)
-
-<code>
-panel/uploads/#elf_l1_XA in Subrion CMS v4.2.1 allows XSS via an SVG file with JavaScript in a SCRIPT element.
-</code>
-
-- [security-breachlock/CVE-2018-16629](https://github.com/security-breachlock/CVE-2018-16629)
-
-### CVE-2018-16630 (2018-12-28)
-
-<code>
-Kirby v2.5.12 allows XSS by using the &quot;site files&quot; Add option to upload an SVG file.
-</code>
-
-- [security-breachlock/CVE-2018-16630](https://github.com/security-breachlock/CVE-2018-16630)
-
-### CVE-2018-16631 (2018-12-04)
-
-<code>
-Subrion CMS v4.2.1 allows XSS via the panel/configuration/general/ SITE TITLE parameter.
-</code>
-
-- [security-breachlock/CVE-2018-16631](https://github.com/security-breachlock/CVE-2018-16631)
-
-### CVE-2018-16632 (2018-12-28)
-
-<code>
-Mezzanine CMS v4.3.1 allows XSS via the /admin/blog/blogcategory/add/?_to_field=id&amp;_popup=1 title parameter at admin/blog/blogpost/add/.
-</code>
-
-- [security-breachlock/CVE-2018-16632](https://github.com/security-breachlock/CVE-2018-16632)
-
-### CVE-2018-16633 (2018-12-04)
-
-<code>
-Pluck v4.7.7 allows XSS via the admin.php?action=editpage&amp;page= page title.
-</code>
-
-- [security-breachlock/CVE-2018-16633](https://github.com/security-breachlock/CVE-2018-16633)
-
-### CVE-2018-16634 (2018-12-04)
-
-<code>
-Pluck v4.7.7 allows CSRF via admin.php?action=settings.
-</code>
-
-- [security-breachlock/CVE-2018-16634](https://github.com/security-breachlock/CVE-2018-16634)
-
-### CVE-2018-16635 (2018-12-10)
-
-<code>
-Blackcat CMS 1.3.2 allows XSS via the willkommen.php?lang=DE page title at backend/pages/modify.php.
-</code>
-
-- [security-breachlock/CVE-2018-16635](https://github.com/security-breachlock/CVE-2018-16635)
-
-### CVE-2018-16636 (2018-12-10)
-
-<code>
-Nucleus CMS 3.70 allows HTML Injection via the index.php body parameter.
-</code>
-
-- [security-breachlock/CVE-2018-16636](https://github.com/security-breachlock/CVE-2018-16636)
-
-### CVE-2018-16637 (2018-12-28)
-
-<code>
-Evolution CMS 1.4.x allows XSS via the page weblink title parameter to the manager/ URI.
-</code>
-
-- [security-breachlock/CVE-2018-16637](https://github.com/security-breachlock/CVE-2018-16637)
-
-### CVE-2018-16638 (2018-12-28)
-
-<code>
-Evolution CMS 1.4.x allows XSS via the manager/ search parameter.
-</code>
-
-- [security-breachlock/CVE-2018-16638](https://github.com/security-breachlock/CVE-2018-16638)
-
-### CVE-2018-16639 (2019-05-13)
-
-<code>
-Typesetter 5.1 allows XSS via the index.php/Admin LABEL parameter during new page creation.
-</code>
-
-- [security-breachlock/CVE-2018-16639](https://github.com/security-breachlock/CVE-2018-16639)
 
 ### CVE-2018-16706 (2018-09-14)
 
@@ -10167,14 +10024,6 @@ Squash TM through 1.18.0 presents the cleartext passwords of external services i
 
 - [gquere/CVE-2018-16987](https://github.com/gquere/CVE-2018-16987)
 
-### CVE-2018-17024 (2018-09-13)
-
-<code>
-admin/index.php in Monstra CMS 3.0.4 allows XSS via the page_meta_title parameter in an add_page action.
-</code>
-
-- [security-breachlock/CVE-2018-17024](https://github.com/security-breachlock/CVE-2018-17024)
-
 ### CVE-2018-17081 (2018-09-26)
 
 <code>
@@ -10217,30 +10066,6 @@ Kibana versions before 6.4.3 and 5.6.13 contain an arbitrary file inclusion flaw
 </code>
 
 - [mpgn/CVE-2018-17246](https://github.com/mpgn/CVE-2018-17246)
-
-### CVE-2018-17300 (2018-09-21)
-
-<code>
-Stored XSS exists in CuppaCMS through 2018-09-03 via an administrator/#/component/table_manager/view/cu_menus section name.
-</code>
-
-- [security-breachlock/CVE-2018-17300](https://github.com/security-breachlock/CVE-2018-17300)
-
-### CVE-2018-17301 (2018-09-21)
-
-<code>
-Reflected XSS exists in client/res/templates/global-search/name-field.tpl in EspoCRM 5.3.6 via /#Account in the search panel.
-</code>
-
-- [security-breachlock/CVE-2018-17301](https://github.com/security-breachlock/CVE-2018-17301)
-
-### CVE-2018-17302 (2018-09-21)
-
-<code>
-Stored XSS exists in views/fields/wysiwyg.js in EspoCRM 5.3.6 via a /#Email/view saved draft message.
-</code>
-
-- [security-breachlock/CVE-2018-17302](https://github.com/security-breachlock/CVE-2018-17302)
 
 ### CVE-2018-17418 (2019-03-07)
 
@@ -10415,30 +10240,6 @@ The WP-jobhunt plugin before version 2.4 for WordPress does not control AJAX req
 
 - [Antho59/wp-jobhunt-exploit](https://github.com/Antho59/wp-jobhunt-exploit)
 
-### CVE-2018-19506 (2018-12-19)
-
-<code>
-Zurmo 3.2.4 has XSS via an admin's use of the name parameter in the reports section, aka the app/index.php/reports/default/details?id=1 URI.
-</code>
-
-- [security-breachlock/CVE-2018-19506](https://github.com/security-breachlock/CVE-2018-19506)
-
-### CVE-2018-19507 (2018-12-19)
-
-<code>
-CMSimple 4.7.5 has XSS via an admin's use of a ?file=config&amp;action=array URI.
-</code>
-
-- [security-breachlock/CVE-2018-19507](https://github.com/security-breachlock/CVE-2018-19507)
-
-### CVE-2018-19508 (2018-12-19)
-
-<code>
-CMSimple 4.7.5 has XSS via an admin's upload of an SVG file at a ?userfiles&amp;subdir=userfiles/images/flags/ URI.
-</code>
-
-- [security-breachlock/CVE-2018-19508](https://github.com/security-breachlock/CVE-2018-19508)
-
 ### CVE-2018-19518 (2018-11-25)
 
 <code>
@@ -10463,54 +10264,6 @@ The &quot;CLink4Service&quot; service is installed with Corsair Link 4.9.7.35 wi
 
 - [BradyDonovan/CVE-2018-19592](https://github.com/BradyDonovan/CVE-2018-19592)
 
-### CVE-2018-19596 (2018-12-19)
-
-<code>
-Zurmo 3.2.4 allows HTML Injection via an admin's use of HTML in the report section, a related issue to CVE-2018-19506.
-</code>
-
-- [security-breachlock/CVE-2018-19596](https://github.com/security-breachlock/CVE-2018-19596)
-
-### CVE-2018-19597 (2018-12-19)
-
-<code>
-CMS Made Simple 2.2.8 allows XSS via an uploaded SVG document, a related issue to CVE-2017-16798.
-</code>
-
-- [security-breachlock/CVE-2018-19597](https://github.com/security-breachlock/CVE-2018-19597)
-
-### CVE-2018-19598 (2018-12-19)
-
-<code>
-Statamic 2.10.3 allows XSS via First Name or Last Name to the /users URI in an 'Add new user' request.
-</code>
-
-- [security-breachlock/CVE-2018-19598](https://github.com/security-breachlock/CVE-2018-19598)
-
-### CVE-2018-19599 (2020-03-02)
-
-<code>
-Monstra CMS 1.6 allows XSS via an uploaded SVG document to the admin/index.php?id=filesmanager&amp;path=uploads/ URI. NOTE: this is a discontinued product.
-</code>
-
-- [security-breachlock/CVE-2018-19599](https://github.com/security-breachlock/CVE-2018-19599)
-
-### CVE-2018-19600 (2019-01-03)
-
-<code>
-Rhymix CMS 1.9.8.1 allows XSS via an index.php?module=admin&amp;act=dispModuleAdminFileBox SVG upload.
-</code>
-
-- [security-breachlock/CVE-2018-19600](https://github.com/security-breachlock/CVE-2018-19600)
-
-### CVE-2018-19601 (2019-01-03)
-
-<code>
-Rhymix CMS 1.9.8.1 allows SSRF via an index.php?module=admin&amp;act=dispModuleAdminFileBox SVG upload.
-</code>
-
-- [security-breachlock/CVE-2018-19601](https://github.com/security-breachlock/CVE-2018-19601)
-
 ### CVE-2018-19788 (2018-12-03)
 
 <code>
@@ -10521,22 +10274,6 @@ A flaw was found in PolicyKit (aka polkit) 0.115 that allows a user with a uid g
 - [d4gh0s7/CVE-2018-19788](https://github.com/d4gh0s7/CVE-2018-19788)
 - [Ekultek/PoC](https://github.com/Ekultek/PoC)
 - [jhlongjr/CVE-2018-19788](https://github.com/jhlongjr/CVE-2018-19788)
-
-### CVE-2018-19844 (2018-12-31)
-
-<code>
-FROG CMS 0.9.5 has XSS via the admin/?/snippet/add name parameter, which is mishandled during an edit action, a related issue to CVE-2018-10319.
-</code>
-
-- [security-breachlock/CVE-2018-19844](https://github.com/security-breachlock/CVE-2018-19844)
-
-### CVE-2018-19845 (2018-12-31)
-
-<code>
-There is Stored XSS in GetSimple CMS 3.3.12 via the admin/edit.php &quot;post-menu&quot; parameter, a related issue to CVE-2018-16325.
-</code>
-
-- [security-breachlock/CVE-2018-19845](https://github.com/security-breachlock/CVE-2018-19845)
 
 ### CVE-2018-19859 (2018-12-05)
 
@@ -10554,54 +10291,6 @@ NUUO NVRmini2 Network Video Recorder firmware through 3.9.1 allows remote attack
 
 - [pwnhacker0x18/CVE-2018-19864](https://github.com/pwnhacker0x18/CVE-2018-19864)
 
-### CVE-2018-19901 (2018-12-31)
-
-<code>
-No-CMS 1.1.3 is prone to Persistent XSS via the blog/manage_article/index/ &quot;article_title&quot; parameter.
-</code>
-
-- [security-breachlock/CVE-2018-19901](https://github.com/security-breachlock/CVE-2018-19901)
-
-### CVE-2018-19902 (2018-12-31)
-
-<code>
-No-CMS 1.1.3 is prone to Persistent XSS via the blog/manage_article &quot;keyword&quot; parameter.
-</code>
-
-- [security-breachlock/CVE-2018-19902](https://github.com/security-breachlock/CVE-2018-19902)
-
-### CVE-2018-19903 (2018-12-31)
-
-<code>
-Persistent XSS exists in XSLT CMS via the create/?action=items.edit&amp;type=Page title field.
-</code>
-
-- [security-breachlock/CVE-2018-19903](https://github.com/security-breachlock/CVE-2018-19903)
-
-### CVE-2018-19904 (2018-12-31)
-
-<code>
-Persistent XSS exists in XSLT CMS via the create/?action=items.edit&amp;type=Page &quot;body&quot; field.
-</code>
-
-- [security-breachlock/CVE-2018-19904](https://github.com/security-breachlock/CVE-2018-19904)
-
-### CVE-2018-19905 (2018-12-31)
-
-<code>
-HTML injection exists in razorCMS 3.4.8 via the /#/page keywords parameter.
-</code>
-
-- [security-breachlock/CVE-2018-19905](https://github.com/security-breachlock/CVE-2018-19905)
-
-### CVE-2018-19906 (2018-12-31)
-
-<code>
-Stored XSS exists in razorCMS 3.4.8 via the /#/page description parameter.
-</code>
-
-- [security-breachlock/CVE-2018-19906](https://github.com/security-breachlock/CVE-2018-19906)
-
 ### CVE-2018-19911 (2018-12-06)
 
 <code>
@@ -10609,22 +10298,6 @@ FreeSWITCH through 1.8.2, when mod_xml_rpc is enabled, allows remote attackers t
 </code>
 
 - [iSafeBlue/freeswitch_rce](https://github.com/iSafeBlue/freeswitch_rce)
-
-### CVE-2018-19918 (2018-12-31)
-
-<code>
-CuppaCMS has XSS via an SVG document uploaded to the administrator/#/component/table_manager/view/cu_views URI.
-</code>
-
-- [security-breachlock/CVE-2018-19918](https://github.com/security-breachlock/CVE-2018-19918)
-
-### CVE-2018-19919 (2018-12-06)
-
-<code>
-Pixelimity 1.0 has Persistent XSS via the admin/portfolio.php data[title] parameter, as demonstrated by a crafted onload attribute of an SVG element.
-</code>
-
-- [security-breachlock/CVE-2018-19919](https://github.com/security-breachlock/CVE-2018-19919)
 
 ### CVE-2018-19987 (2019-05-13)
 
@@ -14774,14 +14447,6 @@ A vulnerability has been identified in Firmware variant PROFINET IO for EN100 Et
 </code>
 
 - [fierobot/elasticsearch_CVE-2015-5377](https://github.com/fierobot/elasticsearch_CVE-2015-5377)
-
-### CVE-2015-5454 (2015-07-08)
-
-<code>
-Cross-site scripting (XSS) vulnerability in Nucleus CMS allows remote attackers to inject arbitrary web script or HTML via the title parameter when adding a new item.
-</code>
-
-- [security-breachlock/CVE-2015-5454](https://github.com/security-breachlock/CVE-2015-5454)
 
 ### CVE-2015-5477 (2015-07-29)
 
