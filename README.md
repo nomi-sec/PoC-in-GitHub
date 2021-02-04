@@ -4721,6 +4721,14 @@ An exploitable code execution vulnerability exists in the processing of multi-pa
 
 - [papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit](https://github.com/papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit)
 
+### CVE-2019-5413 (2019-03-17)
+
+<code>
+An attacker can use the format parameter to inject arbitrary commands in the npm package morgan &lt; 1.9.1.
+</code>
+
+- [forse01/CVE-2019-5413](https://github.com/forse01/CVE-2019-5413)
+
 ### CVE-2019-5418 (2019-03-27)
 
 <code>
@@ -4819,7 +4827,6 @@ NVIDIA Shield TV Experience prior to v8.0.1, NVIDIA Tegra software contains a vu
 runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.
 </code>
 
-- [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [yyqs2008/CVE-2019-5736-PoC-2](https://github.com/yyqs2008/CVE-2019-5736-PoC-2)
 - [zyriuse75/CVE-2019-5736-PoC](https://github.com/zyriuse75/CVE-2019-5736-PoC)
@@ -10816,6 +10823,14 @@ Grails Fields plugin version 2.2.7 contains a Cross Site Scripting (XSS) vulnera
 </code>
 
 - [martinfrancois/CVE-2018-1000529](https://github.com/martinfrancois/CVE-2018-1000529)
+
+### CVE-2018-1000542 (2018-06-26)
+
+<code>
+netbeans-mmd-plugin version &lt;= 1.4.3 contains a XML External Entity (XXE) vulnerability in MMD file import that can result in Possible information disclosure, server-side request forgery, or remote code execution. This attack appear to be exploitable via Specially crafted MMD file.
+</code>
+
+- [forse01/CVE-2018-1000542](https://github.com/forse01/CVE-2018-1000542)
 
 ### CVE-2018-1000802 (2018-09-18)
 
