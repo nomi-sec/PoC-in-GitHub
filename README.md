@@ -9,6 +9,14 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
+### CVE-2021-1994 (2021-01-20)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Web Services). Supported versions that are affected are 10.3.6.0.0 and 12.1.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [somatrasss/weblogic2021](https://github.com/somatrasss/weblogic2021)
+
 ### CVE-2021-2109 (2021-01-20)
 
 <code>
@@ -88,7 +96,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156)
 - [cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156)
 - [dinhbaouit/CVE-2021-3156](https://github.com/dinhbaouit/CVE-2021-3156)
-- [leterts/CVE-2021-3156](https://github.com/leterts/CVE-2021-3156)
+- [leterts/CVE-2021-3156-sudo-raising](https://github.com/leterts/CVE-2021-3156-sudo-raising)
 - [CptGibbon/CVE-2021-3156](https://github.com/CptGibbon/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
@@ -975,14 +983,6 @@ IBM Maximo Asset Management 7.6.0.1 and 7.6.0.2 is vulnerable to an XML External
 </code>
 
 - [Ibonok/CVE-2020-4463](https://github.com/Ibonok/CVE-2020-4463)
-
-### CVE-2020-5236 (2020-02-03)
-
-<code>
-Waitress version 1.4.2 allows a DOS attack When waitress receives a header that contains invalid characters. When a header like &quot;Bad-header: xxxxxxxxxxxxxxx\x10&quot; is received, it will cause the regular expression engine to catastrophically backtrack causing the process to use 100% CPU time and blocking any other interactions. This allows an attacker to send a single request with an invalid header and take the service offline. This issue was introduced in version 1.4.2 when the regular expression was updated to attempt to match the behaviour required by errata associated with RFC7230. The regular expression that is used to validate incoming headers has been updated in version 1.4.3, it is recommended that people upgrade to the new version of Waitress as soon as possible.
-</code>
-
-- [motikan2010/CVE-2020-5236](https://github.com/motikan2010/CVE-2020-5236)
 
 ### CVE-2020-5248 (2020-05-12)
 
@@ -2625,6 +2625,7 @@ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (compo
 </code>
 
 - [Y4er/CVE-2020-14756](https://github.com/Y4er/CVE-2020-14756)
+- [somatrasss/weblogic2021](https://github.com/somatrasss/weblogic2021)
 
 ### CVE-2020-14882 (2020-10-21)
 
@@ -3256,7 +3257,7 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 
 - [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
-- [forse01/CVE-2020-25213](https://github.com/forse01/CVE-2020-25213)
+- [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 
 ### CVE-2020-25265 (2020-12-02)
 
@@ -4727,7 +4728,7 @@ An exploitable code execution vulnerability exists in the processing of multi-pa
 An attacker can use the format parameter to inject arbitrary commands in the npm package morgan &lt; 1.9.1.
 </code>
 
-- [forse01/CVE-2019-5413](https://github.com/forse01/CVE-2019-5413)
+- [forse01/CVE-2019-5413-NetBeans](https://github.com/forse01/CVE-2019-5413-NetBeans)
 
 ### CVE-2019-5418 (2019-03-27)
 
@@ -4916,14 +4917,6 @@ A memory corruption issue was addressed with improved validation. This issue is 
 
 - [TrungNguyen1909/CVE-2019-6225-macOS](https://github.com/TrungNguyen1909/CVE-2019-6225-macOS)
 - [raystyle/jailbreak-iOS12](https://github.com/raystyle/jailbreak-iOS12)
-
-### CVE-2019-6249 (2019-01-13)
-
-<code>
-An issue was discovered in HuCart v5.7.4. There is a CSRF vulnerability that can add an admin account via /adminsys/index.php?load=admins&amp;act=edit_info&amp;act_type=add.
-</code>
-
-- [NMTech0x90/CVE-2019-6249_Hucart-cms](https://github.com/NMTech0x90/CVE-2019-6249_Hucart-cms)
 
 ### CVE-2019-6260 (2019-01-22)
 
@@ -6909,6 +6902,14 @@ This vulnerability allows network-adjacent attackers to bypass authentication on
 </code>
 
 - [vncloudsco/CVE-2019-17137](https://github.com/vncloudsco/CVE-2019-17137)
+
+### CVE-2019-17195 (2019-10-15)
+
+<code>
+Connect2id Nimbus JOSE+JWT before v7.9 can throw various uncaught exceptions while parsing a JWT, which could result in an application crash (potential information disclosure) or a potential authentication bypass.
+</code>
+
+- [somatrasss/weblogic2021](https://github.com/somatrasss/weblogic2021)
 
 ### CVE-2019-17221 (2019-11-05)
 
@@ -10830,7 +10831,7 @@ Grails Fields plugin version 2.2.7 contains a Cross Site Scripting (XSS) vulnera
 netbeans-mmd-plugin version &lt;= 1.4.3 contains a XML External Entity (XXE) vulnerability in MMD file import that can result in Possible information disclosure, server-side request forgery, or remote code execution. This attack appear to be exploitable via Specially crafted MMD file.
 </code>
 
-- [forse01/CVE-2018-1000542](https://github.com/forse01/CVE-2018-1000542)
+- [forse01/CVE-2018-1000542-NetBeans](https://github.com/forse01/CVE-2018-1000542-NetBeans)
 
 ### CVE-2018-1000802 (2018-09-18)
 
@@ -12459,6 +12460,7 @@ When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC
 - [devcoinfet/CVE-2017-12617](https://github.com/devcoinfet/CVE-2017-12617)
 - [qiantu88/CVE-2017-12617](https://github.com/qiantu88/CVE-2017-12617)
 - [ygouzerh/CVE-2017-12617](https://github.com/ygouzerh/CVE-2017-12617)
+- [tyranteye666/tomcat-cve-2017-12617](https://github.com/tyranteye666/tomcat-cve-2017-12617)
 
 ### CVE-2017-12624 (2017-11-14)
 
