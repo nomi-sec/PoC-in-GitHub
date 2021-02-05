@@ -4648,6 +4648,7 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [W2Ning/CVE-2019-3396](https://github.com/W2Ning/CVE-2019-3396)
 - [yuehanked/cve-2019-3396](https://github.com/yuehanked/cve-2019-3396)
 - [abdallah-elsharif/cve-2019-3396](https://github.com/abdallah-elsharif/cve-2019-3396)
+- [46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence)
 
 ### CVE-2019-3398 (2019-04-18)
 
@@ -4849,14 +4850,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
-
-### CVE-2019-5737 (2019-03-28)
-
-<code>
-In Node.js including 6.x before 6.17.0, 8.x before 8.15.1, 10.x before 10.15.2, and 11.x before 11.10.1, an attacker can cause a Denial of Service (DoS) by establishing an HTTP or HTTPS connection in keep-alive mode and by sending headers very slowly. This keeps the connection and associated resources alive for a long period of time. Potential attacks are mitigated by the use of a load balancer or other proxy layer. This vulnerability is an extension of CVE-2018-12121, addressed in November and impacts all active Node.js release lines including 6.x before 6.17.0, 8.x before 8.15.1, 10.x before 10.15.2, and 11.x before 11.10.1.
-</code>
-
-- [beelzebruh/cve-2019-5737](https://github.com/beelzebruh/cve-2019-5737)
 
 ### CVE-2019-5782 (2019-02-19)
 
