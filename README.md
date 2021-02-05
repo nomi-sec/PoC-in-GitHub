@@ -312,14 +312,6 @@ A remote code execution vulnerability exists in the way that the scripting engin
 - [maxpl0it/CVE-2020-0674-Exploit](https://github.com/maxpl0it/CVE-2020-0674-Exploit)
 - [Ken-Abruzzi/CVE-2020-0674](https://github.com/Ken-Abruzzi/CVE-2020-0674)
 
-### CVE-2020-0683 (2020-02-11)
-
-<code>
-An elevation of privilege vulnerability exists in the Windows Installer when MSI packages process symbolic links, aka 'Windows Installer Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0686.
-</code>
-
-- [padovah4ck/CVE-2020-0683](https://github.com/padovah4ck/CVE-2020-0683)
-
 ### CVE-2020-0688 (2020-02-11)
 
 <code>
@@ -3040,6 +3032,14 @@ Apache Shiro before 1.7.1, when using Apache Shiro with Spring, a specially craf
 </code>
 
 - [jweny/shiro-cve-2020-17523](https://github.com/jweny/shiro-cve-2020-17523)
+
+### CVE-2020-17527 (2020-12-03)
+
+<code>
+While investigating bug 64830 it was discovered that Apache Tomcat 10.0.0-M1 to 10.0.0-M9, 9.0.0-M1 to 9.0.39 and 8.5.0 to 8.5.59 could re-use an HTTP request header value from the previous stream received on an HTTP/2 connection for the request associated with the subsequent stream. While this would most likely lead to an error and the closure of the HTTP/2 connection, it is possible that information could leak between requests.
+</code>
+
+- [forse01/CVE-2020-17527-Tomcat](https://github.com/forse01/CVE-2020-17527-Tomcat)
 
 ### CVE-2020-17530 (2020-12-10)
 
