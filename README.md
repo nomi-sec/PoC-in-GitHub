@@ -442,7 +442,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [1060275195/SMBGhost](https://github.com/1060275195/SMBGhost)
 - [Almorabea/SMBGhost-LPE-Metasploit-Module](https://github.com/Almorabea/SMBGhost-LPE-Metasploit-Module)
 - [ZecOps/SMBGhost-SMBleed-scanner](https://github.com/ZecOps/SMBGhost-SMBleed-scanner)
-- [getdrive/smbghost](https://github.com/getdrive/smbghost)
+- [5l1v3r1/smbghost-5](https://github.com/5l1v3r1/smbghost-5)
 - [rsmudge/CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)
 - [aloswoya/CVE-2020-0796-cobaltstrike-cna](https://github.com/aloswoya/CVE-2020-0796-cobaltstrike-cna)
 - [codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-)
