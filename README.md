@@ -10295,6 +10295,14 @@ TP-Link Archer C5 devices through V2_160201_US allow remote command execution vi
 
 - [JackDoan/TP-Link-ArcherC5-RCE](https://github.com/JackDoan/TP-Link-ArcherC5-RCE)
 
+### CVE-2018-19571 (2019-07-10)
+
+<code>
+GitLab CE/EE, versions 8.18 up to 11.x before 11.3.11, 11.4 before 11.4.8, and 11.5 before 11.5.1, are vulnerable to an SSRF vulnerability in webhooks.
+</code>
+
+- [xenophil90/edb-49263-fixed](https://github.com/xenophil90/edb-49263-fixed)
+
 ### CVE-2018-19592 (2019-09-27)
 
 <code>
