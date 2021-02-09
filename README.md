@@ -110,6 +110,8 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [1N53C/CVE-2021-3156-PoC](https://github.com/1N53C/CVE-2021-3156-PoC)
 - [Hello12112020/CVE-2021-3156](https://github.com/Hello12112020/CVE-2021-3156)
 - [0xDevil/CVE-2021-3156](https://github.com/0xDevil/CVE-2021-3156)
+- [gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156)
+- [jm33-m0/CVE-2021-3156](https://github.com/jm33-m0/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [Y3rbit4/CVE-2021-3157](https://github.com/Y3rbit4/CVE-2021-3157)
@@ -436,7 +438,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [ran-sama/CVE-2020-0796](https://github.com/ran-sama/CVE-2020-0796)
 - [sujitawake/smbghost](https://github.com/sujitawake/smbghost)
 - [julixsalas/CVE-2020-0796](https://github.com/julixsalas/CVE-2020-0796)
-- [insightglacier/SMBGhost_Crash_Poc](https://github.com/insightglacier/SMBGhost_Crash_Poc)
+- [5l1v3r1/SMBGhost_Crash_Poc](https://github.com/5l1v3r1/SMBGhost_Crash_Poc)
 - [5l1v3r1/CVE-2020-0796-PoC-and-Scan](https://github.com/5l1v3r1/CVE-2020-0796-PoC-and-Scan)
 - [cory-zajicek/CVE-2020-0796-DoS](https://github.com/cory-zajicek/CVE-2020-0796-DoS)
 - [tripledd/cve-2020-0796-vuln](https://github.com/tripledd/cve-2020-0796-vuln)
@@ -1845,7 +1847,7 @@ A vulnerability related to Dynamic-link Library (“DLL”) loading in the Zoom 
 A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
 </code>
 
-- [krisanovdev/CVE-2020-9768](https://github.com/krisanovdev/CVE-2020-9768)
+- [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
 
 ### CVE-2020-9781 (2020-04-01)
 
