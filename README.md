@@ -377,14 +377,6 @@ A remote code execution vulnerability exists when the Windows Imaging Library im
 
 - [asc0t6e/CVE-2020-0708](https://github.com/asc0t6e/CVE-2020-0708)
 
-### CVE-2020-0728 (2020-02-11)
-
-<code>
-An information vulnerability exists when Windows Modules Installer Service improperly discloses file information, aka 'Windows Modules Installer Service Information Disclosure Vulnerability'.
-</code>
-
-- [irsl/CVE-2020-0728](https://github.com/irsl/CVE-2020-0728)
-
 ### CVE-2020-0753 (2020-02-11)
 
 <code>
@@ -1535,6 +1527,7 @@ Kubernetes API server in all versions allow an attacker who is able to create a 
 - [jrmurray000/CVE-2020-8554](https://github.com/jrmurray000/CVE-2020-8554)
 - [twistlock/k8s-cve-2020-8554-mitigations](https://github.com/twistlock/k8s-cve-2020-8554-mitigations)
 - [Dviejopomata/CVE-2020-8554](https://github.com/Dviejopomata/CVE-2020-8554)
+- [alebedev87/gatekeeper-cve-2020-8554](https://github.com/alebedev87/gatekeeper-cve-2020-8554)
 
 ### CVE-2020-8558 (2020-07-27)
 
