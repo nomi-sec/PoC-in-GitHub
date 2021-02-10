@@ -9,6 +9,9 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
+### CVE-2021-1782
+- [synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782)
+
 ### CVE-2021-1994 (2021-01-20)
 
 <code>
