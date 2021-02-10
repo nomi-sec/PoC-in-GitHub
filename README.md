@@ -125,6 +125,14 @@ ChurchRota 2.6.4 is vulnerable to authenticated remote code execution. The user 
 
 - [rmccarth/cve-2021-3164](https://github.com/rmccarth/cve-2021-3164)
 
+### CVE-2021-3165 (2021-01-26)
+
+<code>
+SmartAgent 3.1.0 allows a ViewOnly attacker to create a SuperUser account via the /#/CampaignManager/users URI.
+</code>
+
+- [orionhridoy/CVE-2021-3165](https://github.com/orionhridoy/CVE-2021-3165)
+
 ### CVE-2021-3229 (2021-02-05)
 
 <code>
@@ -206,6 +214,7 @@ In binder_transaction of binder.c, there is a possible out of bounds write due t
 - [j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041)
 - [minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041)
 - [minutesinch/CVE-2020-0041-Original](https://github.com/minutesinch/CVE-2020-0041-Original)
+- [TechnoHT/CVE-2020-0041](https://github.com/TechnoHT/CVE-2020-0041)
 
 ### CVE-2020-0069 (2020-03-10)
 
@@ -1298,7 +1307,6 @@ Rapid7's Metasploit msfvenom framework handles APK files in a way that allows fo
 Django 1.11 before 1.11.28, 2.2 before 2.2.10, and 3.0 before 3.0.3 allows SQL Injection if untrusted data is used as a StringAgg delimiter (e.g., in Django applications that offer downloads of data as a series of rows with a user-specified column delimiter). By passing a suitably crafted delimiter to a contrib.postgres.aggregates.StringAgg instance, it was possible to break escaping and inject malicious SQL.
 </code>
 
-- [Saferman/CVE-2020-7471](https://github.com/Saferman/CVE-2020-7471)
 - [secoba/DjVul_StringAgg](https://github.com/secoba/DjVul_StringAgg)
 - [SNCKER/CVE-2020-7471](https://github.com/SNCKER/CVE-2020-7471)
 - [victomteng1997/cve-2020-7471-Time_Blind_SQLi-](https://github.com/victomteng1997/cve-2020-7471-Time_Blind_SQLi-)
