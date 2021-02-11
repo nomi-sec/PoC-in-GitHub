@@ -178,6 +178,9 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646)
 - [AirEvan/CVE-2021-25646-GUI](https://github.com/AirEvan/CVE-2021-25646-GUI)
 
+### CVE-2021-27190
+- [anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS](https://github.com/anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -17221,6 +17224,14 @@ Buffer overflow in the man program in Linux allows local users to gain privilege
 </code>
 
 - [mike182/exploit](https://github.com/mike182/exploit)
+
+### CVE-2000-0643 (2000-10-13)
+
+<code>
+Buffer overflow in WebActive HTTP Server 1.00 allows remote attackers to cause a denial of service via a long URL.
+</code>
+
+- [rafaelh/CVE-2000-0643](https://github.com/rafaelh/CVE-2000-0643)
 
 ### CVE-2000-0979 (2001-01-22)
 
