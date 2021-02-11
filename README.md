@@ -168,6 +168,9 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 
 - [Grayhaxor/CVE-2021-21148](https://github.com/Grayhaxor/CVE-2021-21148)
 
+### CVE-2021-24096
+- [FunPhishing/CVE-2021-24096](https://github.com/FunPhishing/CVE-2021-24096)
+
 ### CVE-2021-25646 (2021-01-29)
 
 <code>
@@ -177,6 +180,9 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [yaunsky/cve-2021-25646](https://github.com/yaunsky/cve-2021-25646)
 - [lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646)
 - [AirEvan/CVE-2021-25646-GUI](https://github.com/AirEvan/CVE-2021-25646-GUI)
+
+### CVE-2021-27187
+- [jet-pentest/CVE-2021-27187](https://github.com/jet-pentest/CVE-2021-27187)
 
 ### CVE-2021-27190
 - [anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS](https://github.com/anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS)
@@ -4052,6 +4058,7 @@ A remote code execution vulnerability exists in Microsoft SharePoint when the so
 - [k8gege/CVE-2019-0604](https://github.com/k8gege/CVE-2019-0604)
 - [m5050/CVE-2019-0604](https://github.com/m5050/CVE-2019-0604)
 - [boxhg/CVE-2019-0604](https://github.com/boxhg/CVE-2019-0604)
+- [tree-chtsec/weaponized-0604](https://github.com/tree-chtsec/weaponized-0604)
 
 ### CVE-2019-0623 (2019-03-05)
 
@@ -5001,7 +5008,6 @@ HP Support Assistant 8.7.50 and earlier allows a user to gain system privilege a
 Some field types do not properly sanitize data from non-form sources in Drupal 8.5.x before 8.5.11 and Drupal 8.6.x before 8.6.10. This can lead to arbitrary PHP code execution in some cases. A site is only affected by this if one of the following conditions is met: The site has the Drupal 8 core RESTful Web Services (rest) module enabled and allows PATCH or POST requests, or the site has another web services module enabled, like JSON:API in Drupal 8, or Services or RESTful Web Services in Drupal 7. (Note: The Drupal 7 Services module itself does not require an update at this time, but you should apply other contributed updates associated with this advisory if Services is in use.)
 </code>
 
-- [DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass](https://github.com/DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass)
 - [oways/CVE-2019-6340](https://github.com/oways/CVE-2019-6340)
 - [cved-sources/cve-2019-6340](https://github.com/cved-sources/cve-2019-6340)
 - [d1vious/cve-2019-6340-bits](https://github.com/d1vious/cve-2019-6340-bits)
@@ -9349,6 +9355,8 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [makeross/CVE-2018-11235](https://github.com/makeross/CVE-2018-11235)
 - [makeross/CVE-2018-11235_pub](https://github.com/makeross/CVE-2018-11235_pub)
 - [jongmartinez/CVE-2018-11235-PoC](https://github.com/jongmartinez/CVE-2018-11235-PoC)
+- [pyroot99/submod](https://github.com/pyroot99/submod)
+- [pyroot99/aaa](https://github.com/pyroot99/aaa)
 
 ### CVE-2018-11236 (2018-05-18)
 
@@ -17225,13 +17233,13 @@ Buffer overflow in the man program in Linux allows local users to gain privilege
 
 - [mike182/exploit](https://github.com/mike182/exploit)
 
-### CVE-2000-0643 (2000-10-13)
+### CVE-2000-0649 (2000-08-03)
 
 <code>
-Buffer overflow in WebActive HTTP Server 1.00 allows remote attackers to cause a denial of service via a long URL.
+IIS 4.0 allows remote attackers to obtain the internal IP address of the server via an HTTP 1.0 request for a web page which is protected by basic authentication and has no realm defined.
 </code>
 
-- [rafaelh/CVE-2000-0643](https://github.com/rafaelh/CVE-2000-0643)
+- [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
 
 ### CVE-2000-0979 (2001-01-22)
 
