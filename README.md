@@ -182,6 +182,9 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646)
 - [AirEvan/CVE-2021-25646-GUI](https://github.com/AirEvan/CVE-2021-25646-GUI)
 
+### CVE-2021-26121
+- [sourceincite/CVE-2021-26121](https://github.com/sourceincite/CVE-2021-26121)
+
 ### CVE-2021-27187 (2021-02-12)
 
 <code>
@@ -201,7 +204,7 @@ The Sovremennye Delovye Tekhnologii FX Aggregator terminal client 1 allows attac
 ### CVE-2021-27190 (2021-02-11)
 
 <code>
-PEEL Shopping cart 9.3.0 allows utilisateurs/change_params.php Address XSS.
+A Stored Cross Site Scripting(XSS) Vulnerability was discovered in PEEL SHOPPING 9.3.0 which is publicly available. The user supplied input containing polyglot payload is echoed back in javascript code in HTML response. This allows an attacker to input malicious JavaScript which can steal cookie, redirect them to other malicious website, etc.
 </code>
 
 - [anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS](https://github.com/anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS)
@@ -1310,7 +1313,6 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 </code>
 
 - [FiroSolutions/cve-2020-7247-exploit](https://github.com/FiroSolutions/cve-2020-7247-exploit)
-- [superzerosec/cve-2020-7247](https://github.com/superzerosec/cve-2020-7247)
 - [r0lh/CVE-2020-7247](https://github.com/r0lh/CVE-2020-7247)
 - [jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247)
 
@@ -3912,6 +3914,14 @@ The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows
 </code>
 
 - [dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489)
+
+### CVE-2020-35498 (2021-02-11)
+
+<code>
+A vulnerability was found in openvswitch. A limitation in the implementation of userspace packet parsing can allow a malicious user to send a specially crafted packet causing the resulting megaflow in the kernel to be too wide, potentially causing a denial of service. The highest threat from this vulnerability is to system availability.
+</code>
+
+- [freddierice/cve-2020-35498-flag](https://github.com/freddierice/cve-2020-35498-flag)
 
 ### CVE-2020-35590 (2020-12-21)
 
@@ -9231,14 +9241,6 @@ An issue was discovered in PHP before 5.6.36, 7.0.x before 7.0.30, 7.1.x before 
 </code>
 
 - [dsfau/CVE-2018-10546](https://github.com/dsfau/CVE-2018-10546)
-
-### CVE-2018-10561 (2018-05-03)
-
-<code>
-An issue was discovered on Dasan GPON home routers. It is possible to bypass authentication simply by appending &quot;?images&quot; to any URL of the device that requires authentication, as demonstrated by the /menu.html?images/ or /GponForm/diag_FORM?images/ URI. One can then manage the device.
-</code>
-
-- [vhackor/GPON-home-routers-Exploit](https://github.com/vhackor/GPON-home-routers-Exploit)
 
 ### CVE-2018-10562 (2018-05-03)
 
