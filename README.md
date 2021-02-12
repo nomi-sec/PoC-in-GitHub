@@ -184,7 +184,12 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 ### CVE-2021-27187
 - [jet-pentest/CVE-2021-27187](https://github.com/jet-pentest/CVE-2021-27187)
 
-### CVE-2021-27190
+### CVE-2021-27190 (-)
+
+<code>
+PEEL Shopping cart 9.3.0 allows utilisateurs/change_params.php Address XSS.
+</code>
+
 - [anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS](https://github.com/anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS)
 
 
