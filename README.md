@@ -116,6 +116,7 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156)
 - [jm33-m0/CVE-2021-3156](https://github.com/jm33-m0/CVE-2021-3156)
 - [Rvn0xsy/CVE-2021-3156-plus](https://github.com/Rvn0xsy/CVE-2021-3156-plus)
+- [r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability](https://github.com/r3k4t/how-to-solve-sudo-heap-based-bufferoverflow-vulnerability)
 
 ### CVE-2021-3157
 - [Y3rbit4/CVE-2021-3157](https://github.com/Y3rbit4/CVE-2021-3157)
@@ -181,10 +182,23 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646)
 - [AirEvan/CVE-2021-25646-GUI](https://github.com/AirEvan/CVE-2021-25646-GUI)
 
-### CVE-2021-27187
+### CVE-2021-27187 (2021-02-12)
+
+<code>
+The Sovremennye Delovye Tekhnologii FX Aggregator terminal client 1 stores authentication credentials in cleartext in login.sav when the Save Password box is checked.
+</code>
+
 - [jet-pentest/CVE-2021-27187](https://github.com/jet-pentest/CVE-2021-27187)
 
-### CVE-2021-27190 (-)
+### CVE-2021-27188 (2021-02-12)
+
+<code>
+The Sovremennye Delovye Tekhnologii FX Aggregator terminal client 1 allows attackers to cause a denial of service (access suspended for five hours) by making five invalid login attempts to a victim's account.
+</code>
+
+- [jet-pentest/CVE-2021-27188](https://github.com/jet-pentest/CVE-2021-27188)
+
+### CVE-2021-27190 (2021-02-11)
 
 <code>
 PEEL Shopping cart 9.3.0 allows utilisateurs/change_params.php Address XSS.
@@ -9360,8 +9374,6 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [makeross/CVE-2018-11235](https://github.com/makeross/CVE-2018-11235)
 - [makeross/CVE-2018-11235_pub](https://github.com/makeross/CVE-2018-11235_pub)
 - [jongmartinez/CVE-2018-11235-PoC](https://github.com/jongmartinez/CVE-2018-11235-PoC)
-- [pyroot99/submod](https://github.com/pyroot99/submod)
-- [pyroot99/aaa](https://github.com/pyroot99/aaa)
 
 ### CVE-2018-11236 (2018-05-18)
 
