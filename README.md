@@ -58,6 +58,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
 - [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
 - [nth347/CVE-2021-3129-exploit](https://github.com/nth347/CVE-2021-3129-exploit)
+- [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -193,6 +194,9 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 
 ### CVE-2021-26121
 - [sourceincite/CVE-2021-26121](https://github.com/sourceincite/CVE-2021-26121)
+
+### CVE-2021-26700
+- [jackadamson/CVE-2021-26700](https://github.com/jackadamson/CVE-2021-26700)
 
 ### CVE-2021-27187 (2021-02-12)
 
@@ -14963,6 +14967,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed)
 - [GuillermoEscobero/heartbleed](https://github.com/GuillermoEscobero/heartbleed)
 - [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
+- [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -16972,7 +16977,7 @@ Unspecified vulnerability in the command line interface (CLI) in Cisco Unified C
 Off-by-one error in the ldap scheme handling in the Rewrite module (mod_rewrite) in Apache 1.3 from 1.3.28, 2.0.46 and other versions before 2.0.59, and 2.2, when RewriteEngine is enabled, allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code via crafted URLs that are not properly handled using certain rewrite rules.
 </code>
 
-- [spinfoo/CVE-2006-3747](https://github.com/spinfoo/CVE-2006-3747)
+- [defensahacker/CVE-2006-3747](https://github.com/defensahacker/CVE-2006-3747)
 
 ### CVE-2006-4777 (2006-09-13)
 
