@@ -201,6 +201,14 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 ### CVE-2021-26700
 - [jackadamson/CVE-2021-26700](https://github.com/jackadamson/CVE-2021-26700)
 
+### CVE-2021-26708 (2021-02-05)
+
+<code>
+A local privilege escalation was discovered in the Linux kernel before 5.10.13. Multiple race conditions in the AF_VSOCK implementation are caused by wrong locking in net/vmw_vsock/af_vsock.c. The race conditions were implicitly introduced in the commits that added VSOCK multi-transport support.
+</code>
+
+- [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
+
 ### CVE-2021-27187 (2021-02-12)
 
 <code>
@@ -224,6 +232,14 @@ A Stored Cross Site Scripting(XSS) Vulnerability was discovered in PEEL SHOPPING
 </code>
 
 - [anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS](https://github.com/anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS)
+
+### CVE-2021-27211 (2021-02-15)
+
+<code>
+steghide 0.5.1 relies on a certain 32-bit seed value, which makes it easier for attackers to detect hidden data.
+</code>
+
+- [b4shfire/stegcrack](https://github.com/b4shfire/stegcrack)
 
 
 ## 2020
