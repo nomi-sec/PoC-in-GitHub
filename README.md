@@ -349,7 +349,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
-- [gremwell/cve-2020-0601_poc](https://github.com/gremwell/cve-2020-0601_poc)
 - [bsides-rijeka/meetup-2-curveball](https://github.com/bsides-rijeka/meetup-2-curveball)
 - [exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey)
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
@@ -1324,7 +1323,6 @@ A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An a
 smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and other products, allows remote attackers to execute arbitrary commands as root via a crafted SMTP session, as demonstrated by shell metacharacters in a MAIL FROM field. This affects the &quot;uncommented&quot; default configuration. The issue exists because of an incorrect return value upon failure of input validation.
 </code>
 
-- [FiroSolutions/cve-2020-7247-exploit](https://github.com/FiroSolutions/cve-2020-7247-exploit)
 - [jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247)
 - [QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit)
 
@@ -1625,6 +1623,14 @@ Wing FTP Server v6.2.3 for Linux, macOS, and Solaris sets insecure permissions o
 </code>
 
 - [Al1ex/CVE-2020-8635](https://github.com/Al1ex/CVE-2020-8635)
+
+### CVE-2020-8638 (2020-04-03)
+
+<code>
+A SQL injection vulnerability in TestLink 1.9.20 allows attackers to execute arbitrary SQL commands in planUrgency.php via the urgency parameter.
+</code>
+
+- [DXY0411/CVE-2020-8638](https://github.com/DXY0411/CVE-2020-8638)
 
 ### CVE-2020-8809 (2020-02-25)
 
@@ -2632,6 +2638,14 @@ BIP-143 in the Bitcoin protocol specification mishandles the signing of a Segwit
 </code>
 
 - [nondejus/CVE-2020-14199](https://github.com/nondejus/CVE-2020-14199)
+
+### CVE-2020-14210 (2020-06-16)
+
+<code>
+MONITORAPP AIWAF-VE and AIWAF-4000 through 2020-06-16 allow reflected Cross-Site Scripting (XSS) through a crafted URL. This occurs because the Detect URL field displays the original URL.
+</code>
+
+- [monitorapp-aicc/report](https://github.com/monitorapp-aicc/report)
 
 ### CVE-2020-14292 (2020-09-09)
 
