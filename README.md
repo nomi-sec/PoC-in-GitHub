@@ -178,6 +178,9 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 
 - [Grayhaxor/CVE-2021-21148](https://github.com/Grayhaxor/CVE-2021-21148)
 
+### CVE-2021-24085
+- [sourceincite/CVE-2021-24085](https://github.com/sourceincite/CVE-2021-24085)
+
 ### CVE-2021-24096
 - [FunPhishing/CVE-2021-24096](https://github.com/FunPhishing/CVE-2021-24096)
 
@@ -8551,6 +8554,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise)
 - [purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574)
 - [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
+- [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
