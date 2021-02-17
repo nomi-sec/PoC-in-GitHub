@@ -14295,6 +14295,14 @@ Win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Vist
 
 - [hfiref0x/CVE-2015-1701](https://github.com/hfiref0x/CVE-2015-1701)
 
+### CVE-2015-1769 (2015-08-14)
+
+<code>
+Mount Manager in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 mishandles symlinks, which allows physically proximate attackers to execute arbitrary code by connecting a crafted USB device, aka &quot;Mount Manager Elevation of Privilege Vulnerability.&quot;
+</code>
+
+- [int0/CVE-2015-1769](https://github.com/int0/CVE-2015-1769)
+
 ### CVE-2015-1805 (2015-08-08)
 
 <code>
