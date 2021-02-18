@@ -374,7 +374,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
-- [gremwell/cve-2020-0601_poc](https://github.com/gremwell/cve-2020-0601_poc)
 - [bsides-rijeka/meetup-2-curveball](https://github.com/bsides-rijeka/meetup-2-curveball)
 - [exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey)
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
@@ -976,6 +975,7 @@ A vulnerability in the web server for Cisco IP Phones could allow an unauthentic
 </code>
 
 - [abood05972/CVE-2020-3161](https://github.com/abood05972/CVE-2020-3161)
+- [uromulou/CVE-2020-3161](https://github.com/uromulou/CVE-2020-3161)
 
 ### CVE-2020-3187 (2020-05-06)
 
@@ -2669,7 +2669,7 @@ BIP-143 in the Bitcoin protocol specification mishandles the signing of a Segwit
 ### CVE-2020-14210 (2020-06-16)
 
 <code>
-MONITORAPP AIWAF-VE and AIWAF-4000 through 2020-06-16 allow reflected Cross-Site Scripting (XSS) through a crafted URL. This occurs because the Detect URL field displays the original URL.
+Reflected Cross-Site Scripting (XSS) vulnerability in MONITORAPP WAF in which script can be executed when responding to Request URL information. It provides a function to response to Request URL information when blocking.
 </code>
 
 - [monitorapp-aicc/report](https://github.com/monitorapp-aicc/report)
@@ -9416,7 +9416,6 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [makeross/CVE-2018-11235](https://github.com/makeross/CVE-2018-11235)
 - [makeross/CVE-2018-11235_pub](https://github.com/makeross/CVE-2018-11235_pub)
 - [jongmartinez/CVE-2018-11235-PoC](https://github.com/jongmartinez/CVE-2018-11235-PoC)
-- [Yealid/CVE-2018-11235-Git-Submodule-RCE](https://github.com/Yealid/CVE-2018-11235-Git-Submodule-RCE)
 
 ### CVE-2018-11236 (2018-05-18)
 
@@ -17131,14 +17130,6 @@ Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote a
 
 
 ## 2003
-### CVE-2003-0222 (2003-04-30)
-
-<code>
-Stack-based buffer overflow in Oracle Net Services for Oracle Database Server 9i release 2 and earlier allows attackers to execute arbitrary code via a &quot;CREATE DATABASE LINK&quot; query containing a connect string with a long USING parameter.
-</code>
-
-- [phamthanhsang280477/CVE-2003-0222](https://github.com/phamthanhsang280477/CVE-2003-0222)
-
 ### CVE-2003-0264 (2003-05-08)
 
 <code>
@@ -17147,10 +17138,6 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 
 - [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
-- [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
-- [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
-- [PepeTheRital/CVE-2003-0264](https://github.com/PepeTheRital/CVE-2003-0264)
-- [medn1c/pop3_SLmail-exploit](https://github.com/medn1c/pop3_SLmail-exploit)
 
 ### CVE-2003-0282 (2003-05-14)
 
