@@ -246,6 +246,9 @@ steghide 0.5.1 relies on a certain 32-bit seed value, which makes it easier for 
 
 - [b4shfire/stegcrack](https://github.com/b4shfire/stegcrack)
 
+### CVE-2021-27328
+- [SQSamir/CVE-2021-27328](https://github.com/SQSamir/CVE-2021-27328)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
