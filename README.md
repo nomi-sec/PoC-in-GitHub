@@ -316,6 +316,14 @@ In the ioctl handlers of the Mediatek Command Queue driver, there is a possible 
 - [yanglingxi1993/CVE-2020-0069](https://github.com/yanglingxi1993/CVE-2020-0069)
 - [quarkslab/CVE-2020-0069_poc](https://github.com/quarkslab/CVE-2020-0069_poc)
 
+### CVE-2020-0082 (2020-04-17)
+
+<code>
+In ExternalVibration of ExternalVibration.java, there is a possible activation of an arbitrary intent due to unsafe deserialization. This could lead to local escalation of privilege to system_server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-140417434
+</code>
+
+- [0x742/CVE-2020-0082-ExternalVibration](https://github.com/0x742/CVE-2020-0082-ExternalVibration)
+
 ### CVE-2020-0096 (2020-05-14)
 
 <code>
@@ -847,7 +855,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [xindongzhuaizhuai/CVE-2020-1938](https://github.com/xindongzhuaizhuai/CVE-2020-1938)
 - [nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC)
 - [bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner)
-- [laolisafe/CVE-2020-1938](https://github.com/laolisafe/CVE-2020-1938)
 - [DaemonShao/CVE-2020-1938](https://github.com/DaemonShao/CVE-2020-1938)
 - [sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read)
 - [fairyming/CVE-2020-1938](https://github.com/fairyming/CVE-2020-1938)
@@ -1056,7 +1063,7 @@ Under certain conditions, vmdir that ships with VMware vCenter Server, as part o
 </code>
 
 - [commandermoon/CVE-2020-3952](https://github.com/commandermoon/CVE-2020-3952)
-- [frustreated/CVE-2020-3952](https://github.com/frustreated/CVE-2020-3952)
+- [avboy1337/CVE-2020-3952](https://github.com/avboy1337/CVE-2020-3952)
 - [guardicore/vmware_vcenter_cve_2020_3952](https://github.com/guardicore/vmware_vcenter_cve_2020_3952)
 - [gelim/CVE-2020-3952](https://github.com/gelim/CVE-2020-3952)
 - [Fa1c0n35/vmware_vcenter_cve_2020_3952](https://github.com/Fa1c0n35/vmware_vcenter_cve_2020_3952)
