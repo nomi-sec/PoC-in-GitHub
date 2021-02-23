@@ -855,7 +855,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [xindongzhuaizhuai/CVE-2020-1938](https://github.com/xindongzhuaizhuai/CVE-2020-1938)
 - [nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC)
 - [bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner)
-- [DaemonShao/CVE-2020-1938](https://github.com/DaemonShao/CVE-2020-1938)
 - [sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read)
 - [fairyming/CVE-2020-1938](https://github.com/fairyming/CVE-2020-1938)
 - [dacade/CVE-2020-1938](https://github.com/dacade/CVE-2020-1938)
@@ -2724,6 +2723,14 @@ An issue was discovered in Secudos Qiata FTA 1.70.19. The comment feature allows
 
 ### CVE-2020-14321
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
+
+### CVE-2020-14368 (2020-12-14)
+
+<code>
+A flaw was found in Eclipse Che in versions prior to 7.14.0 that impacts CodeReady Workspaces. When configured with cookies authentication, Theia IDE doesn't properly set the SameSite value, allowing a Cross-Site Request Forgery (CSRF) and consequently allowing a cross-site WebSocket hijack on Theia IDE. This flaw allows an attacker to gain full access to the victim's workspace through the /services endpoint. To perform a successful attack, the attacker conducts a Man-in-the-middle attack (MITM) and tricks the victim into executing a request via an untrusted link, which performs the CSRF and the Socket hijack. The highest threat from this vulnerability is to confidentiality, integrity, as well as system availability.
+</code>
+
+- [codingchili/CVE-2020-14368](https://github.com/codingchili/CVE-2020-14368)
 
 ### CVE-2020-14386 (2020-09-16)
 
