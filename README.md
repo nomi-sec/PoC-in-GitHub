@@ -153,6 +153,9 @@ Denial of service in ASUSWRT ASUS RT-AX3000 firmware versions 3.0.0.4.384_10177 
 
 - [fullbbadda1208/CVE-2021-3229](https://github.com/fullbbadda1208/CVE-2021-3229)
 
+### CVE-2021-3327
+- [IthacaLabs/CVE-2021-3327](https://github.com/IthacaLabs/CVE-2021-3327)
+
 ### CVE-2021-3345 (2021-01-29)
 
 <code>
@@ -193,6 +196,11 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 
 - [Grayhaxor/CVE-2021-21148](https://github.com/Grayhaxor/CVE-2021-21148)
 
+### CVE-2021-21972
+- [QmF0c3UK/CVE-2021-21972-vCenter-6.5-7.0-RCE-POC](https://github.com/QmF0c3UK/CVE-2021-21972-vCenter-6.5-7.0-RCE-POC)
+- [NS-Sp4ce/CVE-2021-21972](https://github.com/NS-Sp4ce/CVE-2021-21972)
+- [yaunsky/CVE-2021-21972](https://github.com/yaunsky/CVE-2021-21972)
+
 ### CVE-2021-24085
 - [sourceincite/CVE-2021-24085](https://github.com/sourceincite/CVE-2021-24085)
 
@@ -223,6 +231,12 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 </code>
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
+
+### CVE-2021-26903
+- [Security-AVS/CVE-2021-26903](https://github.com/Security-AVS/CVE-2021-26903)
+
+### CVE-2021-26904
+- [Security-AVS/-CVE-2021-26904](https://github.com/Security-AVS/-CVE-2021-26904)
 
 ### CVE-2021-27187 (2021-02-12)
 
@@ -292,6 +306,7 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 - [Polo35/CVE-2020-0022](https://github.com/Polo35/CVE-2020-0022)
 - [5k1l/cve-2020-0022](https://github.com/5k1l/cve-2020-0022)
+- [lsw29475/CVE-2020-0022](https://github.com/lsw29475/CVE-2020-0022)
 
 ### CVE-2020-0041 (2020-03-10)
 
@@ -855,8 +870,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [xindongzhuaizhuai/CVE-2020-1938](https://github.com/xindongzhuaizhuai/CVE-2020-1938)
 - [nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC)
 - [bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner)
-- [sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read)
-- [fairyming/CVE-2020-1938](https://github.com/fairyming/CVE-2020-1938)
 - [dacade/CVE-2020-1938](https://github.com/dacade/CVE-2020-1938)
 - [woaiqiukui/CVE-2020-1938TomcatAjpScanner](https://github.com/woaiqiukui/CVE-2020-1938TomcatAjpScanner)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
@@ -1734,7 +1747,6 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JNDI blocking, as demonstrated by org.apache.xbean.propertyeditor.JndiConverter.
 </code>
 
-- [jas502n/jackson-CVE-2020-8840](https://github.com/jas502n/jackson-CVE-2020-8840)
 - [Wfzsec/FastJson1.2.62-RCE](https://github.com/Wfzsec/FastJson1.2.62-RCE)
 - [fairyming/CVE-2020-8840](https://github.com/fairyming/CVE-2020-8840)
 - [0nise/CVE-2020-8840](https://github.com/0nise/CVE-2020-8840)
@@ -2376,6 +2388,14 @@ The iframe plugin before 4.5 for WordPress does not sanitize a URL.
 </code>
 
 - [g-rubert/CVE-2020-12696](https://github.com/g-rubert/CVE-2020-12696)
+
+### CVE-2020-12702 (2021-02-24)
+
+<code>
+Weak encryption in the Quick Pairing mode in the eWeLink mobile application (Android application V4.9.2 and earlier, iOS application V4.9.1 and earlier) allows physically proximate attackers to eavesdrop on Wi-Fi credentials and other sensitive information by monitoring the Wi-Fi spectrum during the pairing process.
+</code>
+
+- [salgio/ESPTouchCatcher](https://github.com/salgio/ESPTouchCatcher)
 
 ### CVE-2020-12712 (2020-06-11)
 
@@ -3115,6 +3135,7 @@ Windows Win32k Elevation of Privilege Vulnerability
 </code>
 
 - [ze0r/cve-2020-17057](https://github.com/ze0r/cve-2020-17057)
+- [lsw29475/CVE-2020-17057](https://github.com/lsw29475/CVE-2020-17057)
 
 ### CVE-2020-17087 (2020-11-11)
 
@@ -4647,14 +4668,6 @@ A vulnerability in the web-based management interface of Cisco Prime Infrastruct
 </code>
 
 - [k8gege/CiscoExploit](https://github.com/k8gege/CiscoExploit)
-
-### CVE-2019-1987 (2019-02-28)
-
-<code>
-In onSetSampleX of SkSwizzler.cpp, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation. Product: Android. Versions: Android-7.0 Android-7.1.1 Android-7.1.2 Android-8.0 Android-8.1 Android-9. Android ID: A-118143775.
-</code>
-
-- [marcinguy/android-7-9-png-bug](https://github.com/marcinguy/android-7-9-png-bug)
 
 ### CVE-2019-2107 (2019-07-08)
 
@@ -7032,6 +7045,7 @@ Incorrect alias information in IonMonkey JIT compiler for setting array elements
 </code>
 
 - [maxpl0it/CVE-2019-17026-Exploit](https://github.com/maxpl0it/CVE-2019-17026-Exploit)
+- [lsw29475/CVE-2019-17026](https://github.com/lsw29475/CVE-2019-17026)
 
 ### CVE-2019-17041 (2019-10-07)
 
