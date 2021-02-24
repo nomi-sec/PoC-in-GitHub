@@ -196,10 +196,16 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 
 - [Grayhaxor/CVE-2021-21148](https://github.com/Grayhaxor/CVE-2021-21148)
 
-### CVE-2021-21972
+### CVE-2021-21972 (2021-02-24)
+
+<code>
+The vSphere Client (HTML5) contains a remote code execution vulnerability in a vCenter Server plugin. A malicious actor with network access to port 443 may exploit this issue to execute commands with unrestricted privileges on the underlying operating system that hosts vCenter Server. This affects VMware vCenter Server (7.x before 7.0 U1c, 6.7 before 6.7 U3l and 6.5 before 6.5 U3n) and VMware Cloud Foundation (4.x before 4.2 and 3.x before 3.10.1.2).
+</code>
+
 - [QmF0c3UK/CVE-2021-21972-vCenter-6.5-7.0-RCE-POC](https://github.com/QmF0c3UK/CVE-2021-21972-vCenter-6.5-7.0-RCE-POC)
 - [NS-Sp4ce/CVE-2021-21972](https://github.com/NS-Sp4ce/CVE-2021-21972)
 - [yaunsky/CVE-2021-21972](https://github.com/yaunsky/CVE-2021-21972)
+- [horizon3ai/CVE-2021-21972](https://github.com/horizon3ai/CVE-2021-21972)
 
 ### CVE-2021-24085
 - [sourceincite/CVE-2021-24085](https://github.com/sourceincite/CVE-2021-24085)
@@ -277,6 +283,22 @@ Yeastar NeoGate TG400 91.3.0.3 devices are affected by Directory Traversal. An a
 </code>
 
 - [SQSamir/CVE-2021-27328](https://github.com/SQSamir/CVE-2021-27328)
+
+### CVE-2021-27403 (2021-02-18)
+
+<code>
+Askey RTF8115VW BR_SV_g11.11_RTF_TEF001_V6.54_V014 devices allow cgi-bin/te_acceso_router.cgi curWebPage XSS.
+</code>
+
+- [bokanrb/CVE-2021-27403](https://github.com/bokanrb/CVE-2021-27403)
+
+### CVE-2021-27404 (2021-02-18)
+
+<code>
+Askey RTF8115VW BR_SV_g11.11_RTF_TEF001_V6.54_V014 devices allow injection of a Host HTTP header.
+</code>
+
+- [bokanrb/CVE-2021-27404](https://github.com/bokanrb/CVE-2021-27404)
 
 
 ## 2020
