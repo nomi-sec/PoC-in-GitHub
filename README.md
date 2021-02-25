@@ -206,6 +206,11 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [NS-Sp4ce/CVE-2021-21972](https://github.com/NS-Sp4ce/CVE-2021-21972)
 - [yaunsky/CVE-2021-21972](https://github.com/yaunsky/CVE-2021-21972)
 - [horizon3ai/CVE-2021-21972](https://github.com/horizon3ai/CVE-2021-21972)
+- [Osyanina/westone-CVE-2021-21972-scanner](https://github.com/Osyanina/westone-CVE-2021-21972-scanner)
+- [alt3kx/CVE-2021-21972](https://github.com/alt3kx/CVE-2021-21972)
+- [milo2012/CVE-2021-21972](https://github.com/milo2012/CVE-2021-21972)
+- [Udyz/CVE-2021-21972](https://github.com/Udyz/CVE-2021-21972)
+- [conjojo/VMware_vCenter_UNAuthorized_RCE_CVE-2021-21972](https://github.com/conjojo/VMware_vCenter_UNAuthorized_RCE_CVE-2021-21972)
 
 ### CVE-2021-24085
 - [sourceincite/CVE-2021-24085](https://github.com/sourceincite/CVE-2021-24085)
@@ -1440,7 +1445,6 @@ Django 1.11 before 1.11.28, 2.2 before 2.2.10, and 3.0 before 3.0.3 allows SQL I
 </code>
 
 - [secoba/DjVul_StringAgg](https://github.com/secoba/DjVul_StringAgg)
-- [SNCKER/CVE-2020-7471](https://github.com/SNCKER/CVE-2020-7471)
 - [victomteng1997/cve-2020-7471-Time_Blind_SQLi-](https://github.com/victomteng1997/cve-2020-7471-Time_Blind_SQLi-)
 
 ### CVE-2020-7473 (2020-05-07)
@@ -2341,6 +2345,14 @@ Apache Shiro before 1.5.3, when using Apache Shiro with Spring dynamic controlle
 </code>
 
 - [HYWZ36/HYWZ36-CVE-2020-11989-code](https://github.com/HYWZ36/HYWZ36-CVE-2020-11989-code)
+
+### CVE-2020-11990 (2020-12-01)
+
+<code>
+We have resolved a security issue in the camera plugin that could have affected certain Cordova (Android) applications. An attacker who could install (or lead the victim to install) a specially crafted (or malicious) Android application would be able to access pictures taken with the app externally.
+</code>
+
+- [forse01/CVE-2020-11990-Cordova](https://github.com/forse01/CVE-2020-11990-Cordova)
 
 ### CVE-2020-11996 (2020-06-26)
 
@@ -5309,14 +5321,6 @@ Kibana versions before 6.8.2 and 7.2.1 contain a server side request forgery (SS
 
 - [random-robbie/CVE-2019-7616](https://github.com/random-robbie/CVE-2019-7616)
 
-### CVE-2019-7642 (2019-03-25)
-
-<code>
-D-Link routers with the mydlink feature have some web interfaces without authentication requirements. An attacker can remotely obtain users' DNS query logs and login logs. Vulnerable targets include but are not limited to the latest firmware versions of DIR-817LW (A1-1.04), DIR-816L (B1-2.06), DIR-816 (B1-2.06?), DIR-850L (A1-1.09), and DIR-868L (A1-1.10).
-</code>
-
-- [xw77cve/CVE-2019-7642](https://github.com/xw77cve/CVE-2019-7642)
-
 ### CVE-2019-7839 (2019-06-12)
 
 <code>
@@ -7235,6 +7239,14 @@ For Eclipse Che versions 6.16 to 7.3.0, with both authentication and TLS disable
 </code>
 
 - [mgrube/CVE-2019-17633](https://github.com/mgrube/CVE-2019-17633)
+
+### CVE-2019-17638 (2020-07-09)
+
+<code>
+In Eclipse Jetty, versions 9.4.27.v20200227 to 9.4.29.v20200521, in case of too large response headers, Jetty throws an exception to produce an HTTP 431 error. When this happens, the ByteBuffer containing the HTTP response headers is released back to the ByteBufferPool twice. Because of this double release, two threads can acquire the same ByteBuffer from the pool and while thread1 is about to use the ByteBuffer to write response1 data, thread2 fills the ByteBuffer with other data. Thread1 then proceeds to write the buffer that now contains different data. This results in client1, which issued request1 seeing data from another request or response which could contain sensitive data belonging to client2 (HTTP session ids, authentication credentials, etc.). If the Jetty version cannot be upgraded, the vulnerability can be significantly reduced by configuring a responseHeaderSize significantly larger than the requestHeaderSize (12KB responseHeaderSize and 8KB requestHeaderSize).
+</code>
+
+- [forse01/CVE-2019-17638-Jetty](https://github.com/forse01/CVE-2019-17638-Jetty)
 
 ### CVE-2019-17658 (2020-03-12)
 
