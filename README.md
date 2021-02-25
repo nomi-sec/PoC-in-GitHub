@@ -202,6 +202,7 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 The vSphere Client (HTML5) contains a remote code execution vulnerability in a vCenter Server plugin. A malicious actor with network access to port 443 may exploit this issue to execute commands with unrestricted privileges on the underlying operating system that hosts vCenter Server. This affects VMware vCenter Server (7.x before 7.0 U1c, 6.7 before 6.7 U3l and 6.5 before 6.5 U3n) and VMware Cloud Foundation (4.x before 4.2 and 3.x before 3.10.1.2).
 </code>
 
+- [psc4re/NSE-scripts](https://github.com/psc4re/NSE-scripts)
 - [QmF0c3UK/CVE-2021-21972-vCenter-6.5-7.0-RCE-POC](https://github.com/QmF0c3UK/CVE-2021-21972-vCenter-6.5-7.0-RCE-POC)
 - [NS-Sp4ce/CVE-2021-21972](https://github.com/NS-Sp4ce/CVE-2021-21972)
 - [yaunsky/CVE-2021-21972](https://github.com/yaunsky/CVE-2021-21972)
