@@ -1749,14 +1749,6 @@ Gurux GXDLMS Director prior to 8.5.1905.1301 downloads updates to add-ins and OB
 
 - [seqred-s-a/gxdlmsdirector-cve](https://github.com/seqred-s-a/gxdlmsdirector-cve)
 
-### CVE-2020-8813 (2020-02-21)
-
-<code>
-graph_realtime.php in Cacti 1.2.8 allows remote attackers to execute arbitrary OS commands via shell metacharacters in a cookie, if a guest user has the graph real-time privilege.
-</code>
-
-- [mhaskar/CVE-2020-8813](https://github.com/mhaskar/CVE-2020-8813)
-
 ### CVE-2020-8816 (2020-05-29)
 
 <code>
@@ -3902,6 +3894,9 @@ There is a local privilege escalation vulnerability in Alfredo Milani Comparetti
 </code>
 
 - [y5s5k5/CVE-2020-28175](https://github.com/y5s5k5/CVE-2020-28175)
+
+### CVE-2020-28243
+- [stealthcopter/CVE-2020-28243](https://github.com/stealthcopter/CVE-2020-28243)
 
 ### CVE-2020-28328 (2020-11-06)
 
