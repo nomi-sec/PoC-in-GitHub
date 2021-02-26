@@ -252,6 +252,9 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 - [FunPhishing/CVE-2021-24096](https://github.com/FunPhishing/CVE-2021-24096)
 
+### CVE-2021-25281
+- [Immersive-Labs-Sec/CVE-2021-25281](https://github.com/Immersive-Labs-Sec/CVE-2021-25281)
+
 ### CVE-2021-25646 (2021-01-29)
 
 <code>
@@ -282,7 +285,7 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
 
-### CVE-2021-26903 (-)
+### CVE-2021-26903 (2021-02-26)
 
 <code>
 LMA ISIDA Retriever 5.2 is vulnerable to XSS via query['text'].
@@ -290,7 +293,7 @@ LMA ISIDA Retriever 5.2 is vulnerable to XSS via query['text'].
 
 - [Security-AVS/CVE-2021-26903](https://github.com/Security-AVS/CVE-2021-26903)
 
-### CVE-2021-26904 (-)
+### CVE-2021-26904 (2021-02-26)
 
 <code>
 LMA ISIDA Retriever 5.2 allows SQL Injection.
