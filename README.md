@@ -9,7 +9,12 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
-### CVE-2021-1727
+### CVE-2021-1727 (2021-02-25)
+
+<code>
+Windows Installer Elevation of Privilege Vulnerability
+</code>
+
 - [klinix5/CVE-2021-1727](https://github.com/klinix5/CVE-2021-1727)
 
 ### CVE-2021-1782
@@ -118,7 +123,6 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [CptGibbon/CVE-2021-3156](https://github.com/CptGibbon/CVE-2021-3156)
 - [perlun/sudo-1.8.3p1-patched](https://github.com/perlun/sudo-1.8.3p1-patched)
 - [1N53C/CVE-2021-3156-PoC](https://github.com/1N53C/CVE-2021-3156-PoC)
-- [Hello12112020/CVE-2021-3156](https://github.com/Hello12112020/CVE-2021-3156)
 - [0xdevil/CVE-2021-3156](https://github.com/0xdevil/CVE-2021-3156)
 - [gmldbd94/cve-2021-3156](https://github.com/gmldbd94/cve-2021-3156)
 - [jm33-m0/CVE-2021-3156](https://github.com/jm33-m0/CVE-2021-3156)
@@ -216,10 +220,20 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [B1anda0/CVE-2021-21972](https://github.com/B1anda0/CVE-2021-21972)
 - [renini/CVE-2021-21972](https://github.com/renini/CVE-2021-21972)
 
-### CVE-2021-24085
+### CVE-2021-24085 (2021-02-25)
+
+<code>
+Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-2021-1730.
+</code>
+
 - [sourceincite/CVE-2021-24085](https://github.com/sourceincite/CVE-2021-24085)
 
-### CVE-2021-24096
+### CVE-2021-24096 (2021-02-25)
+
+<code>
+Windows Kernel Elevation of Privilege Vulnerability
+</code>
+
 - [FunPhishing/CVE-2021-24096](https://github.com/FunPhishing/CVE-2021-24096)
 
 ### CVE-2021-25646 (2021-01-29)
@@ -236,7 +250,12 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 ### CVE-2021-26121
 - [sourceincite/CVE-2021-26121](https://github.com/sourceincite/CVE-2021-26121)
 
-### CVE-2021-26700
+### CVE-2021-26700 (2021-02-25)
+
+<code>
+Visual Studio Code npm-script Extension Remote Code Execution Vulnerability
+</code>
+
 - [jackadamson/CVE-2021-26700](https://github.com/jackadamson/CVE-2021-26700)
 
 ### CVE-2021-26708 (2021-02-05)
@@ -14824,6 +14843,7 @@ Unrestricted file upload vulnerability in the My Image plugin in Nibbleblog befo
 </code>
 
 - [VanTekken/CVE-2015-6967](https://github.com/VanTekken/CVE-2015-6967)
+- [dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967)
 
 ### CVE-2015-7214 (2015-12-16)
 
