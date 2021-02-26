@@ -168,6 +168,14 @@ _gcry_md_block_write in cipher/hash-common.c in Libgcrypt version 1.9.0 has a he
 
 - [MLGRadish/CVE-2021-3345](https://github.com/MLGRadish/CVE-2021-3345)
 
+### CVE-2021-3378 (2021-02-01)
+
+<code>
+FortiLogger 4.4.2.2 is affected by Arbitrary File Upload by sending a &quot;Content-Type: image/png&quot; header to Config/SaveUploadedHotspotLogoFile and then visiting Assets/temp/hotspot/img/logohotspot.asp.
+</code>
+
+- [erberkan/fortilogger_arbitrary_fileupload](https://github.com/erberkan/fortilogger_arbitrary_fileupload)
+
 ### CVE-2021-3395 (2021-02-02)
 
 <code>
@@ -183,6 +191,14 @@ Magento versions 2.4.1 (and earlier), 2.4.0-p1 (and earlier) and 2.3.6 (and earl
 </code>
 
 - [HoangKien1020/CVE-2021-21014](https://github.com/HoangKien1020/CVE-2021-21014)
+
+### CVE-2021-21017 (2021-02-11)
+
+<code>
+Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by a heap-based buffer overflow vulnerability. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [ZeusBox/CVE-2021-21017](https://github.com/ZeusBox/CVE-2021-21017)
 
 ### CVE-2021-21110 (2021-01-08)
 
@@ -266,10 +282,20 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
 
-### CVE-2021-26903
+### CVE-2021-26903 (-)
+
+<code>
+LMA ISIDA Retriever 5.2 is vulnerable to XSS via query['text'].
+</code>
+
 - [Security-AVS/CVE-2021-26903](https://github.com/Security-AVS/CVE-2021-26903)
 
-### CVE-2021-26904
+### CVE-2021-26904 (-)
+
+<code>
+LMA ISIDA Retriever 5.2 allows SQL Injection.
+</code>
+
 - [Security-AVS/-CVE-2021-26904](https://github.com/Security-AVS/-CVE-2021-26904)
 
 ### CVE-2021-27187 (2021-02-12)
