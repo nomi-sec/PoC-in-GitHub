@@ -253,7 +253,12 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 - [FunPhishing/CVE-2021-24096](https://github.com/FunPhishing/CVE-2021-24096)
 
-### CVE-2021-25281
+### CVE-2021-25281 (2021-02-26)
+
+<code>
+An issue was discovered in through SaltStack Salt before 3002.5. salt-api does not honor eauth credentials for the wheel_async client. Thus, an attacker can remotely run any wheel modules on the master.
+</code>
+
 - [Immersive-Labs-Sec/CVE-2021-25281](https://github.com/Immersive-Labs-Sec/CVE-2021-25281)
 
 ### CVE-2021-25646 (2021-01-29)
@@ -3925,7 +3930,12 @@ There is a local privilege escalation vulnerability in Alfredo Milani Comparetti
 
 - [y5s5k5/CVE-2020-28175](https://github.com/y5s5k5/CVE-2020-28175)
 
-### CVE-2020-28243
+### CVE-2020-28243 (2021-02-26)
+
+<code>
+An issue was discovered in SaltStack Salt before 3002.5. The minion's restartcheck is vulnerable to command injection via a crafted process name. This allows for a local privilege escalation by any user able to create a files on the minion in a non-blacklisted directory.
+</code>
+
 - [stealthcopter/CVE-2020-28243](https://github.com/stealthcopter/CVE-2020-28243)
 
 ### CVE-2020-28328 (2020-11-06)
