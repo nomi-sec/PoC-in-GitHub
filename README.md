@@ -235,6 +235,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [L-pin/CVE-2021-21972](https://github.com/L-pin/CVE-2021-21972)
 - [B1anda0/CVE-2021-21972](https://github.com/B1anda0/CVE-2021-21972)
 - [renini/CVE-2021-21972](https://github.com/renini/CVE-2021-21972)
+- [3dcyber/CVE-2021-21972](https://github.com/3dcyber/CVE-2021-21972)
 
 ### CVE-2021-24085 (2021-02-25)
 
@@ -4133,7 +4134,12 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 
 - [Al1ex/CVE-2020-35728](https://github.com/Al1ex/CVE-2020-35728)
 
-### CVE-2020-36079
+### CVE-2020-36079 (2021-02-26)
+
+<code>
+Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory.
+</code>
+
 - [azizalshammari/CVE-2020-36079.](https://github.com/azizalshammari/CVE-2020-36079.)
 
 ### CVE-2020-36109 (2021-02-01)
