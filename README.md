@@ -274,6 +274,14 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [AirEvan/CVE-2021-25646-GUI](https://github.com/AirEvan/CVE-2021-25646-GUI)
 - [Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646)
 
+### CVE-2021-26119 (2021-02-21)
+
+<code>
+Smarty before 3.1.39 allows a Sandbox Escape because $smarty.template_object can be accessed in sandbox mode.
+</code>
+
+- [Udyz/CVE-2021-26119](https://github.com/Udyz/CVE-2021-26119)
+
 ### CVE-2021-26121
 - [sourceincite/CVE-2021-26121](https://github.com/sourceincite/CVE-2021-26121)
 
