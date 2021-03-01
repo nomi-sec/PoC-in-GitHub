@@ -929,6 +929,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472)
 - [wrathfulDiety/zerologon](https://github.com/wrathfulDiety/zerologon)
 - [sho-luv/zerologon](https://github.com/sho-luv/zerologon)
+- [hell-moon/ZeroLogon-Exploit](https://github.com/hell-moon/ZeroLogon-Exploit)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -1830,7 +1831,6 @@ FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JN
 </code>
 
 - [Wfzsec/FastJson1.2.62-RCE](https://github.com/Wfzsec/FastJson1.2.62-RCE)
-- [fairyming/CVE-2020-8840](https://github.com/fairyming/CVE-2020-8840)
 - [0nise/CVE-2020-8840](https://github.com/0nise/CVE-2020-8840)
 - [Blyth0He/CVE-2020-8840](https://github.com/Blyth0He/CVE-2020-8840)
 - [Veraxy00/CVE-2020-8840](https://github.com/Veraxy00/CVE-2020-8840)
