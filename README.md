@@ -238,6 +238,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [3dcyber/CVE-2021-21972](https://github.com/3dcyber/CVE-2021-21972)
 - [JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972)
 - [robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972)
+- [gsheller/vcenter_rce](https://github.com/gsheller/vcenter_rce)
 
 ### CVE-2021-24085 (2021-02-25)
 
@@ -966,7 +967,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner)
 - [dacade/CVE-2020-1938](https://github.com/dacade/CVE-2020-1938)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
-- [delsadan/CNVD-2020-10487-Bulk-verification](https://github.com/delsadan/CNVD-2020-10487-Bulk-verification)
 - [00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487)
 - [shaunmclernon/ghostcat-verification](https://github.com/shaunmclernon/ghostcat-verification)
 - [Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938)
@@ -1993,6 +1993,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [X-x-X-0/-CVE-2020-9484](https://github.com/X-x-X-0/-CVE-2020-9484)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
+- [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
 
 ### CVE-2020-9495 (2020-06-19)
 
@@ -5320,6 +5321,7 @@ SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrus
 </code>
 
 - [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
+- [AndyFeiLi/-CVE-2019-7214](https://github.com/AndyFeiLi/-CVE-2019-7214)
 
 ### CVE-2019-7219 (2019-04-11)
 
