@@ -350,6 +350,9 @@ steghide 0.5.1 relies on a certain 32-bit seed value, which makes it easier for 
 
 - [b4shfire/stegcrack](https://github.com/b4shfire/stegcrack)
 
+### CVE-2021-27246
+- [synacktiv/CVE-2021-27246_Pwn2Own2020](https://github.com/synacktiv/CVE-2021-27246_Pwn2Own2020)
+
 ### CVE-2021-27328 (2021-02-19)
 
 <code>
@@ -2451,6 +2454,14 @@ Zoho ManageEngine OpManager Stable build before 124196 and Released build before
 </code>
 
 - [BeetleChunks/CVE-2020-12116](https://github.com/BeetleChunks/CVE-2020-12116)
+
+### CVE-2020-12351 (2020-11-23)
+
+<code>
+Improper input validation in BlueZ may allow an unauthenticated user to potentially enable escalation of privilege via adjacent access.
+</code>
+
+- [naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP](https://github.com/naren-jayram/Linux-Heap-Based-Type-Confusion-in-L2CAP)
 
 ### CVE-2020-12432 (2020-07-21)
 
@@ -5602,7 +5613,7 @@ SQL injection vulnerability in the J2Store plugin 3.x before 3.3.7 for Joomla! a
 ** DISPUTED ** In PostgreSQL 9.3 through 11.2, the &quot;COPY TO/FROM PROGRAM&quot; function allows superusers and users in the 'pg_execute_server_program' group to execute arbitrary code in the context of the database's operating system user. This functionality is enabled by default and can be abused to run arbitrary operating system commands on Windows, Linux, and macOS. NOTE: Third parties claim/state this is not an issue because PostgreSQL functionality for ‘COPY TO/FROM PROGRAM’ is acting as intended. References state that in PostgreSQL, a superuser can execute commands as the server user without using the ‘COPY FROM PROGRAM’.
 </code>
 
-- [skyship36/CVE-2019-9193](https://github.com/skyship36/CVE-2019-9193)
+- [wkjung0624/CVE-2019-9193](https://github.com/wkjung0624/CVE-2019-9193)
 - [X-x-X-0/CVE-2019-9193](https://github.com/X-x-X-0/CVE-2019-9193)
 
 ### CVE-2019-9194 (2019-02-26)
