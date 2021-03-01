@@ -962,7 +962,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 
 - [0nise/CVE-2020-1938](https://github.com/0nise/CVE-2020-1938)
 - [xindongzhuaizhuai/CVE-2020-1938](https://github.com/xindongzhuaizhuai/CVE-2020-1938)
-- [nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC)
 - [bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner)
 - [dacade/CVE-2020-1938](https://github.com/dacade/CVE-2020-1938)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
@@ -2361,6 +2360,14 @@ An array index error in MikroTik RouterOS 6.41.3 through 6.46.5, and 7.x through
 </code>
 
 - [botlabsDev/CVE-2020-11881](https://github.com/botlabsDev/CVE-2020-11881)
+
+### CVE-2020-11883 (2020-04-17)
+
+<code>
+In Divante vue-storefront-api through 1.11.1 and storefront-api through 1.0-rc.1, as used in VueStorefront PWA, unexpected HTTP requests lead to an exception that discloses the error stack trace, with absolute file paths and Node.js module names.
+</code>
+
+- [0ndras3k/CVE-2020-11883](https://github.com/0ndras3k/CVE-2020-11883)
 
 ### CVE-2020-11890 (2020-04-21)
 
