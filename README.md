@@ -111,7 +111,6 @@ Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalat
 - [blasty/CVE-2021-3156](https://github.com/blasty/CVE-2021-3156)
 - [teamtopkarl/CVE-2021-3156](https://github.com/teamtopkarl/CVE-2021-3156)
 - [Q4n/CVE-2021-3156](https://github.com/Q4n/CVE-2021-3156)
-- [kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156)
 - [apogiatzis/docker-CVE-2021-3156](https://github.com/apogiatzis/docker-CVE-2021-3156)
 - [voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156)
 - [Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch)
@@ -216,6 +215,14 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 
 - [Grayhaxor/CVE-2021-21148](https://github.com/Grayhaxor/CVE-2021-21148)
 
+### CVE-2021-21315 (2021-02-16)
+
+<code>
+The System Information Library for Node.JS (npm package &quot;systeminformation&quot;) is an open source collection of functions to retrieve detailed hardware, system and OS information. In systeminformation before version 5.3.1 there is a command injection vulnerability. Problem was fixed in version 5.3.1. As a workaround instead of upgrading, be sure to check or sanitize service parameters that are passed to si.inetLatency(), si.inetChecksite(), si.services(), si.processLoad() ... do only allow strings, reject any arrays. String sanitation works as expected.
+</code>
+
+- [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
+
 ### CVE-2021-21972 (2021-02-24)
 
 <code>
@@ -235,7 +242,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [L-pin/CVE-2021-21972](https://github.com/L-pin/CVE-2021-21972)
 - [B1anda0/CVE-2021-21972](https://github.com/B1anda0/CVE-2021-21972)
 - [renini/CVE-2021-21972](https://github.com/renini/CVE-2021-21972)
-- [3dcyber/CVE-2021-21972](https://github.com/3dcyber/CVE-2021-21972)
+- [GuayoyoLabs/CVE-2021-21972](https://github.com/GuayoyoLabs/CVE-2021-21972)
 - [JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972)
 - [robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972)
 - [gsheller/vcenter_rce](https://github.com/gsheller/vcenter_rce)
