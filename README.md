@@ -183,6 +183,9 @@ A cross-site scripting (XSS) vulnerability in Pryaniki 6.44.3 allows remote auth
 
 - [jet-pentest/CVE-2021-3395](https://github.com/jet-pentest/CVE-2021-3395)
 
+### CVE-2021-9999
+- [GG-o1/CVE-2021-9999](https://github.com/GG-o1/CVE-2021-9999)
+
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
