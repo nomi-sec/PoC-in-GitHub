@@ -313,6 +313,14 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
 
+### CVE-2021-26855 (2021-03-02)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.
+</code>
+
+- [sgnls/exchange-0days-202103](https://github.com/sgnls/exchange-0days-202103)
+
 ### CVE-2021-26903 (2021-02-26)
 
 <code>
