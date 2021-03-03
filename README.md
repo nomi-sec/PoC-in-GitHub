@@ -183,9 +183,6 @@ A cross-site scripting (XSS) vulnerability in Pryaniki 6.44.3 allows remote auth
 
 - [jet-pentest/CVE-2021-3395](https://github.com/jet-pentest/CVE-2021-3395)
 
-### CVE-2021-9999
-- [GG-o1/CVE-2021-9999](https://github.com/GG-o1/CVE-2021-9999)
-
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
@@ -249,6 +246,10 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972)
 - [robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972)
 - [gsheller/vcenter_rce](https://github.com/gsheller/vcenter_rce)
+- [d3sh1n/cve-2021-21972](https://github.com/d3sh1n/cve-2021-21972)
+
+### CVE-2021-23132
+- [HoangKien1020/CVE-2021-23132](https://github.com/HoangKien1020/CVE-2021-23132)
 
 ### CVE-2021-24085 (2021-02-25)
 
@@ -311,6 +312,14 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 </code>
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
+
+### CVE-2021-26855 (2021-03-02)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.
+</code>
+
+- [stressboi/hafnium-exchange-splunk-csvs](https://github.com/stressboi/hafnium-exchange-splunk-csvs)
 
 ### CVE-2021-26903 (2021-02-26)
 
@@ -8754,6 +8763,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574)
 - [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
 - [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
+- [oxygen005/CVE-2018-6574](https://github.com/oxygen005/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -17491,6 +17501,9 @@ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local 
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
+
+### CVE-2001-3389
+- [becrevex/Gaston](https://github.com/becrevex/Gaston)
 
 
 ## 2000
