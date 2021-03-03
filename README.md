@@ -313,14 +313,6 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
 
-### CVE-2021-26855 (2021-03-02)
-
-<code>
-Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.
-</code>
-
-- [stressboi/hafnium-exchange-splunk-csvs](https://github.com/stressboi/hafnium-exchange-splunk-csvs)
-
 ### CVE-2021-26903 (2021-02-26)
 
 <code>
@@ -4195,7 +4187,7 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 ### CVE-2020-36079 (2021-02-26)
 
 <code>
-Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory.
+** DISPUTED ** Zenphoto through 1.5.7 is affected by authenticated arbitrary file upload, leading to remote code execution. The attacker must navigate to the uploader plugin, check the elFinder box, and then drag and drop files into the Files(elFinder) portion of the UI. This can, for example, place a .php file in the server's uploaded/ directory. NOTE: the vendor disputes this because exploitation can only be performed by an admin who has &quot;lots of other possibilities to harm a site.&quot;
 </code>
 
 - [azizalshammari/CVE-2020-36079.](https://github.com/azizalshammari/CVE-2020-36079.)
