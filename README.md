@@ -259,7 +259,12 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [d3sh1n/cve-2021-21972](https://github.com/d3sh1n/cve-2021-21972)
 - [ByZain/CVE-2021-21972](https://github.com/ByZain/CVE-2021-21972)
 
-### CVE-2021-23132
+### CVE-2021-23132 (2021-03-04)
+
+<code>
+An issue was discovered in Joomla! 3.0.0 through 3.9.24. com_media allowed paths that are not intended for image uploads
+</code>
+
 - [HoangKien1020/CVE-2021-23132](https://github.com/HoangKien1020/CVE-2021-23132)
 
 ### CVE-2021-24085 (2021-02-25)
@@ -11140,6 +11145,7 @@ IBM Tivoli Monitoring V6 6.2.2.x could allow a remote attacker to execute arbitr
 </code>
 
 - [emcalv/tivoli-poc](https://github.com/emcalv/tivoli-poc)
+- [bcdannyboy/cve-2017-1635-PoC](https://github.com/bcdannyboy/cve-2017-1635-PoC)
 
 ### CVE-2017-2368 (2017-02-20)
 
