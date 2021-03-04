@@ -231,6 +231,7 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 </code>
 
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
+- [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -306,14 +307,6 @@ Smarty before 3.1.39 allows a Sandbox Escape because $smarty.template_object can
 
 ### CVE-2021-26121
 - [sourceincite/CVE-2021-26121](https://github.com/sourceincite/CVE-2021-26121)
-
-### CVE-2021-26412 (2021-03-02)
-
-<code>
-Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26854, CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.
-</code>
-
-- [Udyz/CVE-2021-26412](https://github.com/Udyz/CVE-2021-26412)
 
 ### CVE-2021-26700 (2021-02-25)
 
@@ -549,7 +542,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 </code>
 
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
-- [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [bsides-rijeka/meetup-2-curveball](https://github.com/bsides-rijeka/meetup-2-curveball)
 - [exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey)
@@ -4188,6 +4180,9 @@ Arbitrary command execution can occur in Webmin through 1.962. Any user authoriz
 </code>
 
 - [anasbousselham/webminscan](https://github.com/anasbousselham/webminscan)
+
+### CVE-2020-35682
+- [its-arun/CVE-2020-35682](https://github.com/its-arun/CVE-2020-35682)
 
 ### CVE-2020-35713 (2020-12-25)
 
