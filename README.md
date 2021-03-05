@@ -4098,7 +4098,12 @@ osCommerce 2.3.4.1 has XSS vulnerability via the authenticated user entering the
 
 - [aslanemre/cve-2020-29070](https://github.com/aslanemre/cve-2020-29070)
 
-### CVE-2020-29134
+### CVE-2020-29134 (2021-03-05)
+
+<code>
+TOTVS Fluig Luke 1.7.0 allows directory traversal via a base64 encoded file=../ to a volume/stream/ URI. This affects: Fluig Lake 1.7.0-210217, Fluig Lake 1.7.0-210112, Fluig Lake 1.7.0-201215, Fluig Lake 1.7.0-201124 and Fluig Lake 1.7.0-200915.
+</code>
+
 - [lucxssouza/CVE-2020-29134](https://github.com/lucxssouza/CVE-2020-29134)
 
 ### CVE-2020-29156 (2020-12-27)
