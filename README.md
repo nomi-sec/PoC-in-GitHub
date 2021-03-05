@@ -17,6 +17,14 @@ Windows Installer Elevation of Privilege Vulnerability
 
 - [klinix5/CVE-2021-1727](https://github.com/klinix5/CVE-2021-1727)
 
+### CVE-2021-1732 (2021-02-25)
+
+<code>
+Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-1698.
+</code>
+
+- [KaLendsi/CVE-2021-1732-Exploit](https://github.com/KaLendsi/CVE-2021-1732-Exploit)
+
 ### CVE-2021-1782
 - [synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782)
 
