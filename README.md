@@ -357,6 +357,8 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [soteria-security/HAFNIUM-IOC](https://github.com/soteria-security/HAFNIUM-IOC)
 - [cert-lv/exchange_webshell_detection](https://github.com/cert-lv/exchange_webshell_detection)
 - [conjojo/Microsoft_Exchange_Server_SSRF_CVE-2021-26855](https://github.com/conjojo/Microsoft_Exchange_Server_SSRF_CVE-2021-26855)
+- [Udyz/CVE-2021-26855-SSRF-Exchange](https://github.com/Udyz/CVE-2021-26855-SSRF-Exchange)
+- [pussycat0x/CVE-2021-26855-SSRF](https://github.com/pussycat0x/CVE-2021-26855-SSRF)
 
 ### CVE-2021-26903 (2021-02-26)
 
@@ -1028,7 +1030,6 @@ Kylin has some restful apis which will concatenate SQLs with the user input stri
 When using the Apache JServ Protocol (AJP), care must be taken when trusting incoming connections to Apache Tomcat. Tomcat treats AJP connections as having higher trust than, for example, a similar HTTP connection. If such connections are available to an attacker, they can be exploited in ways that may be surprising. In Apache Tomcat 9.0.0.M1 to 9.0.0.30, 8.5.0 to 8.5.50 and 7.0.0 to 7.0.99, Tomcat shipped with an AJP Connector enabled by default that listened on all configured IP addresses. It was expected (and recommended in the security guide) that this Connector would be disabled if not required. This vulnerability report identified a mechanism that allowed: - returning arbitrary files from anywhere in the web application - processing any file in the web application as a JSP Further, if the web application allowed file upload and stored those files within the web application (or the attacker was able to control the content of the web application by some other means) then this, along with the ability to process a file as a JSP, made remote code execution possible. It is important to note that mitigation is only required if an AJP port is accessible to untrusted users. Users wishing to take a defence-in-depth approach and block the vector that permits returning arbitrary files and execution as JSP may upgrade to Apache Tomcat 9.0.31, 8.5.51 or 7.0.100 or later. A number of changes were made to the default AJP Connector configuration in 9.0.31 to harden the default configuration. It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 or later will need to make small changes to their configurations.
 </code>
 
-- [0nise/CVE-2020-1938](https://github.com/0nise/CVE-2020-1938)
 - [xindongzhuaizhuai/CVE-2020-1938](https://github.com/xindongzhuaizhuai/CVE-2020-1938)
 - [dacade/CVE-2020-1938](https://github.com/dacade/CVE-2020-1938)
 - [fatal0/tomcat-cve-2020-1938-check](https://github.com/fatal0/tomcat-cve-2020-1938-check)
@@ -2508,6 +2509,14 @@ Zoho ManageEngine OpManager Stable build before 124196 and Released build before
 </code>
 
 - [BeetleChunks/CVE-2020-12116](https://github.com/BeetleChunks/CVE-2020-12116)
+
+### CVE-2020-12255 (2020-05-18)
+
+<code>
+rConfig 3.9.4 is vulnerable to remote code execution due to improper validation in the file upload functionality. vendor.crud.php accepts a file upload by checking content-type without considering the file extension and header. Thus, an attacker can exploit this by uploading a .php file to vendor.php that contains arbitrary PHP code and changing the content-type to image/gif.
+</code>
+
+- [vishwaraj101/CVE-2020-12255](https://github.com/vishwaraj101/CVE-2020-12255)
 
 ### CVE-2020-12351 (2020-11-23)
 
@@ -17179,6 +17188,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
+- [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
@@ -17341,24 +17351,6 @@ The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows
 
 - [fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558)
 
-### CVE-2004-1561 (2005-02-20)
-
-<code>
-Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
-</code>
-
-- [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
-- [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
-
-### CVE-2004-1769 (2005-03-10)
-
-<code>
-The &quot;Allow cPanel users to reset their password via email&quot; feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
-</code>
-
-- [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
-- [Redsplit/shiguresh](https://github.com/Redsplit/shiguresh)
-
 ### CVE-2004-2167 (2005-07-10)
 
 <code>
@@ -17373,9 +17365,6 @@ Multiple buffer overflows in LaTeX2rtf 1.9.15, and possibly other versions, allo
 Buffer overflow in MiniShare 1.4.1 and earlier allows remote attackers to execute arbitrary code via a long HTTP GET request.
 </code>
 
-- [kkirsche/CVE-2004-2271](https://github.com/kkirsche/CVE-2004-2271)
-- [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
-- [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
 - [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
 
 ### CVE-2004-2549 (2005-11-21)
