@@ -356,6 +356,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [sgnls/exchange-0days-202103](https://github.com/sgnls/exchange-0days-202103)
 - [soteria-security/HAFNIUM-IOC](https://github.com/soteria-security/HAFNIUM-IOC)
 - [cert-lv/exchange_webshell_detection](https://github.com/cert-lv/exchange_webshell_detection)
+- [conjojo/Microsoft_Exchange_Server_SSRF_CVE-2021-26855](https://github.com/conjojo/Microsoft_Exchange_Server_SSRF_CVE-2021-26855)
 
 ### CVE-2021-26903 (2021-02-26)
 
