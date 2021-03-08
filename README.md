@@ -24,6 +24,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 </code>
 
 - [KaLendsi/CVE-2021-1732-Exploit](https://github.com/KaLendsi/CVE-2021-1732-Exploit)
+- [k-k-k-k-k/CVE-2021-1732](https://github.com/k-k-k-k-k/CVE-2021-1732)
 
 ### CVE-2021-1782
 - [synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782)
@@ -362,6 +363,8 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [pussycat0x/CVE-2021-26855-SSRF](https://github.com/pussycat0x/CVE-2021-26855-SSRF)
 - [0xAbdullah/CVE-2021-26855](https://github.com/0xAbdullah/CVE-2021-26855)
 - [Th3eCrow/CVE-2021-26855-SSRF-Exchange](https://github.com/Th3eCrow/CVE-2021-26855-SSRF-Exchange)
+- [GreyOrder/CVE-2021-26855](https://github.com/GreyOrder/CVE-2021-26855)
+- [Yt1g3r/CVE-2021-26855_SSRF](https://github.com/Yt1g3r/CVE-2021-26855_SSRF)
 
 ### CVE-2021-26903 (2021-02-26)
 
