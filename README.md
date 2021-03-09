@@ -323,6 +323,14 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [AirEvan/CVE-2021-25646-GUI](https://github.com/AirEvan/CVE-2021-25646-GUI)
 - [Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646)
 
+### CVE-2021-25837 (2021-02-08)
+
+<code>
+Cosmos Network Ethermint &lt;= v0.4.0 is affected by cache lifecycle inconsistency in the EVM module. Due to the inconsistency between the Storage caching cycle and the Tx processing cycle, Storage changes caused by a failed transaction are improperly reserved in memory. Although the bad storage cache data will be discarded at EndBlock, it is still valid in the current block, which enables many possible attacks such as an &quot;arbitrary mint token&quot;.
+</code>
+
+- [iczc/CVE-2021-25837](https://github.com/iczc/CVE-2021-25837)
+
 ### CVE-2021-26119 (2021-02-21)
 
 <code>
