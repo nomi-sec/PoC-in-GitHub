@@ -25,6 +25,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 
 - [KaLendsi/CVE-2021-1732-Exploit](https://github.com/KaLendsi/CVE-2021-1732-Exploit)
 - [k-k-k-k-k/CVE-2021-1732](https://github.com/k-k-k-k-k/CVE-2021-1732)
+- [oneoy/CVE-2021-1732-Exploit](https://github.com/oneoy/CVE-2021-1732-Exploit)
 
 ### CVE-2021-1782
 - [synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782)
@@ -655,6 +656,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [justin-p/PSForgot2kEyXCHANGE](https://github.com/justin-p/PSForgot2kEyXCHANGE)
 - [cert-lv/CVE-2020-0688](https://github.com/cert-lv/CVE-2020-0688)
 - [ravinacademy/CVE-2020-0688](https://github.com/ravinacademy/CVE-2020-0688)
+- [mahyarx/Exploit_CVE-2020-0688](https://github.com/mahyarx/Exploit_CVE-2020-0688)
 - [ktpdpro/CVE-2020-0688](https://github.com/ktpdpro/CVE-2020-0688)
 - [w4fz5uck5/cve-2020-0688-webshell-upload-technique](https://github.com/w4fz5uck5/cve-2020-0688-webshell-upload-technique)
 - [murataydemir/CVE-2020-0688](https://github.com/murataydemir/CVE-2020-0688)
@@ -1048,7 +1050,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [xindongzhuaizhuai/CVE-2020-1938](https://github.com/xindongzhuaizhuai/CVE-2020-1938)
 - [dacade/CVE-2020-1938](https://github.com/dacade/CVE-2020-1938)
 - [00theway/Ghostcat-CNVD-2020-10487](https://github.com/00theway/Ghostcat-CNVD-2020-10487)
-- [shaunmclernon/ghostcat-verification](https://github.com/shaunmclernon/ghostcat-verification)
 - [Zaziki1337/Ghostcat-CVE-2020-1938](https://github.com/Zaziki1337/Ghostcat-CVE-2020-1938)
 - [w4fz5uck5/CVE-2020-1938-Clean-Version](https://github.com/w4fz5uck5/CVE-2020-1938-Clean-Version)
 - [Just1ceP4rtn3r/CVE-2020-1938-Tool](https://github.com/Just1ceP4rtn3r/CVE-2020-1938-Tool)
@@ -3805,7 +3806,7 @@ An issue was discovered on Accfly Wireless Security IR Camera 720P System with s
 ** DISPUTED ** Typesetter CMS 5.x through 5.1 allows admins to upload and execute arbitrary PHP code via a .php file inside a ZIP archive. NOTE: the vendor disputes the significance of this report because &quot;admins are considered trustworthy&quot;; however, the behavior &quot;contradicts our security policy&quot; and is being fixed for 5.2.
 </code>
 
-- [t0gu/CVE-2020-25790](https://github.com/t0gu/CVE-2020-25790)
+- [pownx/CVE-2020-25790](https://github.com/pownx/CVE-2020-25790)
 - [7Mitu/CVE-2020-25790](https://github.com/7Mitu/CVE-2020-25790)
 
 ### CVE-2020-25860 (2020-12-21)
