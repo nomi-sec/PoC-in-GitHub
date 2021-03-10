@@ -5831,14 +5831,6 @@ Freenet 1483 has a MIME type bypass that allows arbitrary JavaScript execution v
 
 - [mgrube/CVE-2019-9673](https://github.com/mgrube/CVE-2019-9673)
 
-### CVE-2019-9729 (2019-03-12)
-
-<code>
-In Shanda MapleStory Online V160, the SdoKeyCrypt.sys driver allows privilege escalation to NT AUTHORITY\SYSTEM because of not validating the IOCtl 0x8000c01c input value, leading to an integer signedness error and a heap-based buffer underflow.
-</code>
-
-- [HyperSine/SdoKeyCrypt-sys-local-privilege-elevation](https://github.com/HyperSine/SdoKeyCrypt-sys-local-privilege-elevation)
-
 ### CVE-2019-9730 (2019-06-05)
 
 <code>
@@ -6378,6 +6370,7 @@ FasterXML jackson-databind 2.x before 2.9.9.1 might allow attackers to have a va
 
 - [jas502n/CVE-2019-12384](https://github.com/jas502n/CVE-2019-12384)
 - [MagicZer0/Jackson_RCE-CVE-2019-12384](https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384)
+- [Sharker3312/CVE-2019-12384](https://github.com/Sharker3312/CVE-2019-12384)
 
 ### CVE-2019-12409 (2019-11-18)
 
