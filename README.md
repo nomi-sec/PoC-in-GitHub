@@ -242,6 +242,8 @@ Git is an open-source distributed revision control system. In affected versions 
 </code>
 
 - [AlkenePan/CVE-2021-21300](https://github.com/AlkenePan/CVE-2021-21300)
+- [Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300)
+- [erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -669,7 +671,6 @@ A remote code execution vulnerability exists in the way that the scripting engin
 A remote code execution vulnerability exists in Microsoft Exchange software when the software fails to properly handle objects in memory, aka 'Microsoft Exchange Memory Corruption Vulnerability'.
 </code>
 
-- [Jumbo-WJB/CVE-2020-0688](https://github.com/Jumbo-WJB/CVE-2020-0688)
 - [Ridter/cve-2020-0688](https://github.com/Ridter/cve-2020-0688)
 - [Yt1g3r/CVE-2020-0688_EXP](https://github.com/Yt1g3r/CVE-2020-0688_EXP)
 - [righter83/CVE-2020-0688](https://github.com/righter83/CVE-2020-0688)
@@ -1038,6 +1039,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472)
 - [SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472)
 - [wrathfulDiety/zerologon](https://github.com/wrathfulDiety/zerologon)
+- [YossiSassi/ZeroLogon-Exploitation-Check](https://github.com/YossiSassi/ZeroLogon-Exploitation-Check)
 - [sho-luv/zerologon](https://github.com/sho-luv/zerologon)
 - [hell-moon/ZeroLogon-Exploit](https://github.com/hell-moon/ZeroLogon-Exploit)
 
@@ -16907,6 +16909,14 @@ The Android browser in Android before 2.3.4 allows remote attackers to obtain SD
 
 - [thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804)
 
+### CVE-2010-5230 (2012-09-07)
+
+<code>
+Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local users to gain privileges via a Trojan horse (1) mptools.dll, (2) baseman.dll, (3) wintab32.dll, or (4) wintab.dll file in the current working directory, as demonstrated by a directory that contains a .hln or .rdl file.  NOTE: some of these details are obtained from third party information.
+</code>
+
+- [otofoto/CVE-2010-5230](https://github.com/otofoto/CVE-2010-5230)
+
 
 ## 2009
 ### CVE-2009-0229 (2009-06-10)
@@ -17608,9 +17618,6 @@ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local 
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
-
-### CVE-2001-3389
-- [becrevex/Gaston](https://github.com/becrevex/Gaston)
 
 
 ## 2000
