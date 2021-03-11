@@ -244,6 +244,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [AlkenePan/CVE-2021-21300](https://github.com/AlkenePan/CVE-2021-21300)
 - [Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300)
 - [erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300)
+- [Maskhe/CVE-2021-21300](https://github.com/Maskhe/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -17618,6 +17619,9 @@ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local 
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
+
+### CVE-2001-3389
+- [becrevex/Gaston](https://github.com/becrevex/Gaston)
 
 
 ## 2000
