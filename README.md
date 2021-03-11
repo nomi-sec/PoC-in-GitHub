@@ -56,6 +56,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 - [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
 - [FanqXu/CVE-2021-3019](https://github.com/FanqXu/CVE-2021-3019)
 - [liuxu54898/CVE-2021-3019](https://github.com/liuxu54898/CVE-2021-3019)
+- [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 
 ### CVE-2021-3122 (2021-02-07)
 
@@ -245,6 +246,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [Faisal78123/CVE-2021-21300](https://github.com/Faisal78123/CVE-2021-21300)
 - [erranfenech/CVE-2021-21300](https://github.com/erranfenech/CVE-2021-21300)
 - [Maskhe/CVE-2021-21300](https://github.com/Maskhe/CVE-2021-21300)
+- [1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -13586,6 +13588,7 @@ The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remot
 
 - [VVzv/CVE-2016-3088](https://github.com/VVzv/CVE-2016-3088)
 - [gsheller/ActiveMQ_putshell-CVE-2016-3088](https://github.com/gsheller/ActiveMQ_putshell-CVE-2016-3088)
+- [cyberaguiar/CVE-2016-3088](https://github.com/cyberaguiar/CVE-2016-3088)
 
 ### CVE-2016-3113 (2017-08-07)
 
