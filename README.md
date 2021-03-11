@@ -397,8 +397,23 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [h4x0r-dz/CVE-2021-26855](https://github.com/h4x0r-dz/CVE-2021-26855)
 - [alt3kx/CVE-2021-26855_PoC](https://github.com/alt3kx/CVE-2021-26855_PoC)
 - [achabahe/CVE-2021-26855](https://github.com/achabahe/CVE-2021-26855)
+- [raheel0x01/CVE-2021-26855](https://github.com/raheel0x01/CVE-2021-26855)
+- [hackerschoice/CVE-2021-26855](https://github.com/hackerschoice/CVE-2021-26855)
 
-### CVE-2021-26882
+### CVE-2021-26857 (2021-03-02)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26855, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.
+</code>
+
+- [sirpedrotavares/Proxylogon-exploit](https://github.com/sirpedrotavares/Proxylogon-exploit)
+
+### CVE-2021-26882 (2021-03-11)
+
+<code>
+Remote Access API Elevation of Privilege Vulnerability
+</code>
+
 - [songjianyang/CVE-2021-26882](https://github.com/songjianyang/CVE-2021-26882)
 
 ### CVE-2021-26903 (2021-02-26)
@@ -13874,7 +13889,6 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-)
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
-- [roliboy/dirty-cow-toolkit](https://github.com/roliboy/dirty-cow-toolkit)
 
 ### CVE-2016-5345 (2018-01-22)
 
