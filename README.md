@@ -384,7 +384,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [soteria-security/HAFNIUM-IOC](https://github.com/soteria-security/HAFNIUM-IOC)
 - [cert-lv/exchange_webshell_detection](https://github.com/cert-lv/exchange_webshell_detection)
 - [conjojo/Microsoft_Exchange_Server_SSRF_CVE-2021-26855](https://github.com/conjojo/Microsoft_Exchange_Server_SSRF_CVE-2021-26855)
-- [Udyz/CVE-2021-26855](https://github.com/Udyz/CVE-2021-26855)
 - [pussycat0x/CVE-2021-26855-SSRF](https://github.com/pussycat0x/CVE-2021-26855-SSRF)
 - [0xAbdullah/CVE-2021-26855](https://github.com/0xAbdullah/CVE-2021-26855)
 - [Th3eCrow/CVE-2021-26855-SSRF-Exchange](https://github.com/Th3eCrow/CVE-2021-26855-SSRF-Exchange)
@@ -402,6 +401,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [hackerschoice/CVE-2021-26855](https://github.com/hackerschoice/CVE-2021-26855)
 - [SCS-Labs/HAFNIUM-Microsoft-Exchange-0day](https://github.com/SCS-Labs/HAFNIUM-Microsoft-Exchange-0day)
 - [XairGit/CVE-2021-26855](https://github.com/XairGit/CVE-2021-26855)
+- [KotSec/CVE-2021-26855-Scanner](https://github.com/KotSec/CVE-2021-26855-Scanner)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -3858,7 +3858,7 @@ An issue was discovered on Accfly Wireless Security IR Camera 720P System with s
 ** DISPUTED ** Typesetter CMS 5.x through 5.1 allows admins to upload and execute arbitrary PHP code via a .php file inside a ZIP archive. NOTE: the vendor disputes the significance of this report because &quot;admins are considered trustworthy&quot;; however, the behavior &quot;contradicts our security policy&quot; and is being fixed for 5.2.
 </code>
 
-- [pownx/CVE-2020-25790](https://github.com/pownx/CVE-2020-25790)
+- [v4lak/CVE-2020-25790](https://github.com/v4lak/CVE-2020-25790)
 - [7Mitu/CVE-2020-25790](https://github.com/7Mitu/CVE-2020-25790)
 
 ### CVE-2020-25860 (2020-12-21)
@@ -5305,7 +5305,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [twistlock/RunC-CVE-2019-5736](https://github.com/twistlock/RunC-CVE-2019-5736)
 - [stillan00b/CVE-2019-5736](https://github.com/stillan00b/CVE-2019-5736)
 - [milloni/cve-2019-5736-exp](https://github.com/milloni/cve-2019-5736-exp)
-- [13paulmurith/Docker-Runc-Exploit](https://github.com/13paulmurith/Docker-Runc-Exploit)
+- [panzouh/Docker-Runc-Exploit](https://github.com/panzouh/Docker-Runc-Exploit)
 - [RyanNgWH/CVE-2019-5736-POC](https://github.com/RyanNgWH/CVE-2019-5736-POC)
 - [Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study)
 - [chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc)
@@ -5655,7 +5655,7 @@ A use after free issue was addressed with improved memory management. This issue
 An out-of-bounds read was addressed with improved input validation.
 </code>
 
-- [ire33164/CVE-2019-8641-reproduction](https://github.com/ire33164/CVE-2019-8641-reproduction)
+- [chia33164/CVE-2019-8641-reproduction](https://github.com/chia33164/CVE-2019-8641-reproduction)
 
 ### CVE-2019-8656 (2020-10-27)
 
