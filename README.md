@@ -399,6 +399,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [achabahe/CVE-2021-26855](https://github.com/achabahe/CVE-2021-26855)
 - [raheel0x01/CVE-2021-26855](https://github.com/raheel0x01/CVE-2021-26855)
 - [hackerschoice/CVE-2021-26855](https://github.com/hackerschoice/CVE-2021-26855)
+- [SCS-Labs/HAFNIUM-Microsoft-Exchange-0day](https://github.com/SCS-Labs/HAFNIUM-Microsoft-Exchange-0day)
 
 ### CVE-2021-26857 (2021-03-02)
 
