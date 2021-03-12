@@ -248,6 +248,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [Maskhe/CVE-2021-21300](https://github.com/Maskhe/CVE-2021-21300)
 - [1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300)
 - [Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300)
+- [CppXL/CVE-2021-21300](https://github.com/CppXL/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -400,6 +401,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [raheel0x01/CVE-2021-26855](https://github.com/raheel0x01/CVE-2021-26855)
 - [hackerschoice/CVE-2021-26855](https://github.com/hackerschoice/CVE-2021-26855)
 - [SCS-Labs/HAFNIUM-Microsoft-Exchange-0day](https://github.com/SCS-Labs/HAFNIUM-Microsoft-Exchange-0day)
+- [XairGit/CVE-2021-26855](https://github.com/XairGit/CVE-2021-26855)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -694,6 +696,7 @@ A remote code execution vulnerability exists in the way that the scripting engin
 A remote code execution vulnerability exists in Microsoft Exchange software when the software fails to properly handle objects in memory, aka 'Microsoft Exchange Memory Corruption Vulnerability'.
 </code>
 
+- [Jumbo-WJB/CVE-2020-0688](https://github.com/Jumbo-WJB/CVE-2020-0688)
 - [Ridter/cve-2020-0688](https://github.com/Ridter/cve-2020-0688)
 - [Yt1g3r/CVE-2020-0688_EXP](https://github.com/Yt1g3r/CVE-2020-0688_EXP)
 - [righter83/CVE-2020-0688](https://github.com/righter83/CVE-2020-0688)
@@ -811,7 +814,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [AaronWilsonGrylls/CVE-2020-0796-POC](https://github.com/AaronWilsonGrylls/CVE-2020-0796-POC)
 - [datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796)
 - [MasterSploit/LPE---CVE-2020-0796](https://github.com/MasterSploit/LPE---CVE-2020-0796)
-- [alexa872/CVE-2020-0796](https://github.com/alexa872/CVE-2020-0796)
+- [ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796)
 - [Kinesys/Kinesys-CVE-2020-0796](https://github.com/Kinesys/Kinesys-CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
@@ -3948,14 +3951,6 @@ Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Ve
 
 - [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
 
-### CVE-2020-27151 (2020-12-07)
-
-<code>
-An issue was discovered in Kata Containers through 1.11.3 and 2.x through 2.0-rc1. The runtime will execute binaries given using annotations without any kind of validation. Someone who is granted access rights to a cluster will be able to have kata-runtime execute arbitrary binaries as root on the worker nodes.
-</code>
-
-- [kata-containers/runtime-CVE-2020-27151](https://github.com/kata-containers/runtime-CVE-2020-27151)
-
 ### CVE-2020-27190
 - [qlh831/x-CVE-2020-27190](https://github.com/qlh831/x-CVE-2020-27190)
 
@@ -4598,7 +4593,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708)
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [AaronWilsonGrylls/CVE-2019-0708-POC](https://github.com/AaronWilsonGrylls/CVE-2019-0708-POC)
-- [alexa872/CVE-2019-0708](https://github.com/alexa872/CVE-2019-0708)
+- [ORCA666/CVE-2019-0708](https://github.com/ORCA666/CVE-2019-0708)
 - [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
 - [sinlee1/CVE-2019-0708](https://github.com/sinlee1/CVE-2019-0708)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
@@ -12220,7 +12215,7 @@ A specially crafted IOCTL can be issued to the rzpnk.sys driver in Razer Synapse
 </code>
 
 - [kkent030315/CVE-2017-9769](https://github.com/kkent030315/CVE-2017-9769)
-- [alexa872/CVE-2017-9769-exploits](https://github.com/alexa872/CVE-2017-9769-exploits)
+- [ORCA666/CVE-2017-9769-exploits](https://github.com/ORCA666/CVE-2017-9769-exploits)
 
 ### CVE-2017-9779 (2017-09-07)
 
