@@ -4295,7 +4295,12 @@ Arbitrary command execution can occur in Webmin through 1.962. Any user authoriz
 
 - [anasbousselham/webminscan](https://github.com/anasbousselham/webminscan)
 
-### CVE-2020-35682
+### CVE-2020-35682 (2021-03-13)
+
+<code>
+Zoho ManageEngine ServiceDesk Plus before 11134 allows an Authentication Bypass (only during SAML login).
+</code>
+
 - [its-arun/CVE-2020-35682](https://github.com/its-arun/CVE-2020-35682)
 
 ### CVE-2020-35713 (2020-12-25)
@@ -17636,9 +17641,6 @@ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local 
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
-
-### CVE-2001-3389
-- [becrevex/Gaston](https://github.com/becrevex/Gaston)
 
 
 ## 2000
