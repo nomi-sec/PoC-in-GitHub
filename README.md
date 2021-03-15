@@ -408,6 +408,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [KotSec/CVE-2021-26855-Scanner](https://github.com/KotSec/CVE-2021-26855-Scanner)
 - [ZephrFish/Exch-CVE-2021-26855](https://github.com/ZephrFish/Exch-CVE-2021-26855)
 - [mil1200/ProxyLogon-CVE-2021-26855](https://github.com/mil1200/ProxyLogon-CVE-2021-26855)
+- [Mr-xn/CVE-2021-26855-d](https://github.com/Mr-xn/CVE-2021-26855-d)
 
 ### CVE-2021-26857 (2021-03-02)
 
