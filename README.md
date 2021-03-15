@@ -249,6 +249,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300)
 - [Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300)
 - [CppXL/CVE-2021-21300](https://github.com/CppXL/CVE-2021-21300)
+- [ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -295,6 +296,9 @@ VMware View Planner 4.x prior to 4.6 Security Patch 1 contains a remote code exe
 - [GreyOrder/CVE-2021-21978](https://github.com/GreyOrder/CVE-2021-21978)
 - [me1ons/CVE-2021-21978](https://github.com/me1ons/CVE-2021-21978)
 - [skytina/CVE-2021-21978](https://github.com/skytina/CVE-2021-21978)
+
+### CVE-2021-22986
+- [adminwaf/CVE-2021-22986](https://github.com/adminwaf/CVE-2021-22986)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -511,6 +515,9 @@ SonLogger before 6.4.1 is affected by user creation with any user permissions pr
 </code>
 
 - [erberkan/SonLogger-vulns](https://github.com/erberkan/SonLogger-vulns)
+
+### CVE-2021-229861
+- [adminwaf/CVE-2021-229861](https://github.com/adminwaf/CVE-2021-229861)
 
 
 ## 2020
