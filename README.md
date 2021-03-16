@@ -100,7 +100,7 @@ The Web server in 1C:Enterprise 8 before 8.3.17.1851 sends base64 encoded creden
 ### CVE-2021-3156 (2021-01-26)
 
 <code>
-Sudo before 1.9.5p2 has a Heap-based Buffer Overflow, allowing privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
+Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
 </code>
 
 - [mr-r3b00t/CVE-2021-3156](https://github.com/mr-r3b00t/CVE-2021-3156)
@@ -418,6 +418,8 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [ZephrFish/Exch-CVE-2021-26855](https://github.com/ZephrFish/Exch-CVE-2021-26855)
 - [mil1200/ProxyLogon-CVE-2021-26855](https://github.com/mil1200/ProxyLogon-CVE-2021-26855)
 - [Mr-xn/CVE-2021-26855-d](https://github.com/Mr-xn/CVE-2021-26855-d)
+- [RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon)
+- [Immersive-Labs-Sec/ProxyLogon](https://github.com/Immersive-Labs-Sec/ProxyLogon)
 
 ### CVE-2021-26857 (2021-03-02)
 
