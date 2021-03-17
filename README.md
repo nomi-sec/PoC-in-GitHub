@@ -142,6 +142,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156)
 - [dock0d1/CVE-2021-3156](https://github.com/dock0d1/CVE-2021-3156)
 - [worawit/CVE-2021-3156](https://github.com/worawit/CVE-2021-3156)
+- [Chal13W1zz/Sudo-Spunk](https://github.com/Chal13W1zz/Sudo-Spunk)
 
 ### CVE-2021-3157
 - [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
@@ -306,6 +307,9 @@ VMware View Planner 4.x prior to 4.6 Security Patch 1 contains a remote code exe
 - [me1ons/CVE-2021-21978](https://github.com/me1ons/CVE-2021-21978)
 - [skytina/CVE-2021-21978](https://github.com/skytina/CVE-2021-21978)
 
+### CVE-2021-22986
+- [dorkerdevil/CVE-2021-22986-Poc](https://github.com/dorkerdevil/CVE-2021-22986-Poc)
+
 ### CVE-2021-23132 (2021-03-04)
 
 <code>
@@ -348,6 +352,7 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646)
 - [AirEvan/CVE-2021-25646-GUI](https://github.com/AirEvan/CVE-2021-25646-GUI)
 - [Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646)
+- [Yang0615777/PocList](https://github.com/Yang0615777/PocList)
 
 ### CVE-2021-25837 (2021-02-08)
 
@@ -426,6 +431,8 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon)
 - [Immersive-Labs-Sec/ProxyLogon](https://github.com/Immersive-Labs-Sec/ProxyLogon)
 - [shacojx/Scan-Vuln-CVE-2021-26855](https://github.com/shacojx/Scan-Vuln-CVE-2021-26855)
+- [TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit](https://github.com/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit)
+- [p0wershe11/ProxyLogon](https://github.com/p0wershe11/ProxyLogon)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -2027,14 +2034,6 @@ Stored Cross-site scripting (XSS) vulnerability in Blackboard Learn/PeopleTool v
 
 - [kyletimmermans/blackboard-xss](https://github.com/kyletimmermans/blackboard-xss)
 
-### CVE-2020-9038 (2020-02-17)
-
-<code>
-Joplin through 1.0.184 allows Arbitrary File Read via XSS.
-</code>
-
-- [JavierOlmedo/CVE-2020-9038](https://github.com/JavierOlmedo/CVE-2020-9038)
-
 ### CVE-2020-9047 (2020-06-26)
 
 <code>
@@ -3113,6 +3112,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [B1anda0/CVE-2020-14883](https://github.com/B1anda0/CVE-2020-14883)
 - [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
+- [Yang0615777/PocList](https://github.com/Yang0615777/PocList)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -17341,14 +17341,6 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
-### CVE-2006-0187 (2006-01-12)
-
-<code>
-By design, Microsoft Visual Studio 2005 automatically executes code in the Load event of a user-defined control (UserControl1_Load function), which allows user-assisted attackers to execute arbitrary code by tricking the user into opening a malicious Visual Studio project file.
-</code>
-
-- [0xmanjoos/CVE-2006-0187](https://github.com/0xmanjoos/CVE-2006-0187)
-
 ### CVE-2006-0450 (2006-01-26)
 
 <code>
