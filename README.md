@@ -713,7 +713,6 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 </code>
 
 - [Ridter/cve-2020-0688](https://github.com/Ridter/cve-2020-0688)
-- [Yt1g3r/CVE-2020-0688_EXP](https://github.com/Yt1g3r/CVE-2020-0688_EXP)
 - [righter83/CVE-2020-0688](https://github.com/righter83/CVE-2020-0688)
 - [truongtn/cve-2020-0688](https://github.com/truongtn/cve-2020-0688)
 - [onSec-fr/CVE-2020-0688-Scanner](https://github.com/onSec-fr/CVE-2020-0688-Scanner)
@@ -3410,6 +3409,7 @@ Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability This
 </code>
 
 - [xyddnljydd/CVE-2020-17136](https://github.com/xyddnljydd/CVE-2020-17136)
+- [cssxn/CVE-2020-17136](https://github.com/cssxn/CVE-2020-17136)
 
 ### CVE-2020-17144 (2020-12-09)
 
@@ -16478,6 +16478,7 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 
 - [cd6629/CVE-2012-2982-Python-PoC](https://github.com/cd6629/CVE-2012-2982-Python-PoC)
 - [OstojaOfficial/CVE-2012-2982](https://github.com/OstojaOfficial/CVE-2012-2982)
+- [AlexJS6/CVE-2012-2982_Python](https://github.com/AlexJS6/CVE-2012-2982_Python)
 
 ### CVE-2012-3137 (2012-09-21)
 
