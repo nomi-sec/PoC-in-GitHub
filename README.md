@@ -9,14 +9,6 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
-### CVE-2021-1295 (2021-02-04)
-
-<code>
-Multiple vulnerabilities in the web-based management interface of Cisco Small Business RV160, RV160W, RV260, RV260P, and RV260W VPN Routers could allow an unauthenticated, remote attacker to execute arbitrary code as the root user on an affected device. These vulnerabilities exist because HTTP requests are not properly validated. An attacker could exploit these vulnerabilities by sending a crafted HTTP request to the web-based management interface of an affected device. A successful exploit could allow the attacker to remotely execute arbitrary code on the device.
-</code>
-
-- [WinMin/CVE-2021-1295](https://github.com/WinMin/CVE-2021-1295)
-
 ### CVE-2021-1727 (2021-02-25)
 
 <code>
@@ -151,6 +143,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [dock0d1/CVE-2021-3156](https://github.com/dock0d1/CVE-2021-3156)
 - [worawit/CVE-2021-3156](https://github.com/worawit/CVE-2021-3156)
 - [Chal13W1zz/Sudo-Spunk](https://github.com/Chal13W1zz/Sudo-Spunk)
+- [lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
@@ -13136,6 +13129,14 @@ A malicious third-party can give a crafted &quot;ssh://...&quot; URL to an unsus
 - [cved-sources/cve-2017-1000117](https://github.com/cved-sources/cve-2017-1000117)
 - [leezp/CVE-2017-1000117](https://github.com/leezp/CVE-2017-1000117)
 - [AnonymKing/CVE-2017-1000117](https://github.com/AnonymKing/CVE-2017-1000117)
+
+### CVE-2017-1000170 (2017-11-17)
+
+<code>
+jqueryFileTree 2.1.5 and older Directory Traversal
+</code>
+
+- [Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal](https://github.com/Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal)
 
 ### CVE-2017-1000250 (2017-09-12)
 
