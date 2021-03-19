@@ -9,6 +9,14 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
+### CVE-2021-1295 (2021-02-04)
+
+<code>
+Multiple vulnerabilities in the web-based management interface of Cisco Small Business RV160, RV160W, RV260, RV260P, and RV260W VPN Routers could allow an unauthenticated, remote attacker to execute arbitrary code as the root user on an affected device. These vulnerabilities exist because HTTP requests are not properly validated. An attacker could exploit these vulnerabilities by sending a crafted HTTP request to the web-based management interface of an affected device. A successful exploit could allow the attacker to remotely execute arbitrary code on the device.
+</code>
+
+- [WinMin/CVE-2021-1295](https://github.com/WinMin/CVE-2021-1295)
+
 ### CVE-2021-1727 (2021-02-25)
 
 <code>
@@ -171,7 +179,7 @@ Denial of service in ASUSWRT ASUS RT-AX3000 firmware versions 3.0.0.4.384_10177 
 
 - [fullbbadda1208/CVE-2021-3229](https://github.com/fullbbadda1208/CVE-2021-3229)
 
-### CVE-2021-3327 (-)
+### CVE-2021-3327 (2021-03-18)
 
 <code>
 Ovation Dynamic Content 1.10.1 for Elementor allows XSS via the post_title parameter.
@@ -718,7 +726,6 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 </code>
 
 - [Ridter/cve-2020-0688](https://github.com/Ridter/cve-2020-0688)
-- [Yt1g3r/CVE-2020-0688_EXP](https://github.com/Yt1g3r/CVE-2020-0688_EXP)
 - [righter83/CVE-2020-0688](https://github.com/righter83/CVE-2020-0688)
 - [truongtn/cve-2020-0688](https://github.com/truongtn/cve-2020-0688)
 - [onSec-fr/CVE-2020-0688-Scanner](https://github.com/onSec-fr/CVE-2020-0688-Scanner)
@@ -3991,6 +3998,14 @@ The Magic Home Pro application 1.5.1 for Android allows Authentication Bypass. T
 </code>
 
 - [9lyph/CVE-2020-27199](https://github.com/9lyph/CVE-2020-27199)
+
+### CVE-2020-27223 (2021-02-26)
+
+<code>
+In Eclipse Jetty 9.4.6.v20170531 to 9.4.36.v20210114 (inclusive), 10.0.0, and 11.0.0 when Jetty handles a request containing multiple Accept headers with a large number of “quality” (i.e. q) parameters, the server may enter a denial of service (DoS) state due to high CPU usage processing those quality values, resulting in minutes of CPU time exhausted processing those quality values.
+</code>
+
+- [motikan2010/CVE-2020-27223](https://github.com/motikan2010/CVE-2020-27223)
 
 ### CVE-2020-27358 (2020-10-31)
 
