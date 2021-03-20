@@ -7369,6 +7369,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
 - [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
+- [AlexJS6/CVE-2019-15107_Python](https://github.com/AlexJS6/CVE-2019-15107_Python)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -13925,6 +13926,7 @@ SQL injection vulnerability in include/lib/mysql_connect.inc.php in ATutor 2.2.1
 </code>
 
 - [shadofren/CVE-2016-2555](https://github.com/shadofren/CVE-2016-2555)
+- [maximilianmarx/atutor-blind-sqli](https://github.com/maximilianmarx/atutor-blind-sqli)
 
 ### CVE-2016-2569 (2016-02-26)
 
@@ -14799,8 +14801,10 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
+- [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
+- [limkokhole/GHOSTCHECK-cve-2015-0235](https://github.com/limkokhole/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0313 (2015-02-02)
 
@@ -14817,6 +14821,14 @@ Cross-site scripting (XSS) vulnerability in Adobe ColdFusion 10 before Update 16
 </code>
 
 - [BishopFox/coldfusion-10-11-xss](https://github.com/BishopFox/coldfusion-10-11-xss)
+
+### CVE-2015-0568 (2016-08-07)
+
+<code>
+Use-after-free vulnerability in the msm_set_crop function in drivers/media/video/msm/msm_camera.c in the MSM-Camera driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to gain privileges or cause a denial of service (memory corruption) via an application that makes a crafted ioctl call.
+</code>
+
+- [betalphafai/CVE-2015-0568](https://github.com/betalphafai/CVE-2015-0568)
 
 ### CVE-2015-0816 (2015-04-01)
 
@@ -14842,6 +14854,14 @@ Buffer overflow in IOHIDFamily in Apple OS X before 10.10.3 allows local users t
 </code>
 
 - [kpwn/vpwn](https://github.com/kpwn/vpwn)
+
+### CVE-2015-1157 (2015-05-27)
+
+<code>
+CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
+</code>
+
+- [perillamint/CVE-2015-1157](https://github.com/perillamint/CVE-2015-1157)
 
 ### CVE-2015-1318 (2015-04-17)
 
@@ -14877,14 +14897,36 @@ Multiple integer overflows in the GraphicBuffer::unflatten function in platform/
 
 - [p1gl3t/CVE-2015-1474_poc](https://github.com/p1gl3t/CVE-2015-1474_poc)
 
+### CVE-2015-1528 (2015-09-30)
+
+<code>
+Integer overflow in the native_handle_create function in libcutils/native_handle.c in Android before 5.1.1 LMY48M allows attackers to obtain a different application's privileges or cause a denial of service (Binder heap memory corruption) via a crafted application, aka internal bug 19334482.
+</code>
+
+- [secmob/PoCForCVE-2015-1528](https://github.com/secmob/PoCForCVE-2015-1528)
+- [kanpol/PoCForCVE-2015-1528](https://github.com/kanpol/PoCForCVE-2015-1528)
+
 ### CVE-2015-1538 (2015-09-30)
 
 <code>
 Integer overflow in the SampleTable::setSampleToChunkParams function in SampleTable.cpp in libstagefright in Android before 5.1.1 LMY48I allows remote attackers to execute arbitrary code via crafted atoms in MP4 data that trigger an unchecked multiplication, aka internal bug 20139950, a related issue to CVE-2015-4496.
 </code>
 
+- [oguzhantopgul/cve-2015-1538-1](https://github.com/oguzhantopgul/cve-2015-1538-1)
+- [renjithsasidharan/cve-2015-1538-1](https://github.com/renjithsasidharan/cve-2015-1538-1)
+- [jduck/cve-2015-1538-1](https://github.com/jduck/cve-2015-1538-1)
+- [marZiiw/Stagefright_CVE-2015-1538-1](https://github.com/marZiiw/Stagefright_CVE-2015-1538-1)
+- [niranjanshr13/Stagefright-cve-2015-1538-1](https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1)
 - [Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation)
 - [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
+
+### CVE-2015-1560 (2015-07-14)
+
+<code>
+SQL injection vulnerability in the isUserAdmin function in include/common/common-Func.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon web 2.7.0) allows remote attackers to execute arbitrary SQL commands via the sid parameter to include/common/XmlTree/GetXmlTree.php.
+</code>
+
+- [Iansus/Centreon-CVE-2015-1560_1561](https://github.com/Iansus/Centreon-CVE-2015-1560_1561)
 
 ### CVE-2015-1579 (2015-02-11)
 
@@ -14912,6 +14954,7 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [xPaw/HTTPsys](https://github.com/xPaw/HTTPsys)
 - [Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635)
 - [technion/erlvulnscan](https://github.com/technion/erlvulnscan)
+- [wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034)
 - [u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS)
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
@@ -14947,6 +14990,7 @@ Mount Manager in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1
 The (1) pipe_read and (2) pipe_write implementations in fs/pipe.c in the Linux kernel before 3.16 do not properly consider the side effects of failed __copy_to_user_inatomic and __copy_from_user_inatomic calls, which allows local users to cause a denial of service (system crash) or possibly gain privileges via a crafted application, aka an &quot;I/O vector array overrun.&quot;
 </code>
 
+- [panyu6325/CVE-2015-1805](https://github.com/panyu6325/CVE-2015-1805)
 - [dosomder/iovyroot](https://github.com/dosomder/iovyroot)
 - [FloatingGuy/cve-2015-1805](https://github.com/FloatingGuy/cve-2015-1805)
 - [mobilelinux/iovy_root_research](https://github.com/mobilelinux/iovy_root_research)
@@ -14967,6 +15011,14 @@ The exception handling code in Eclipse Jetty before 9.2.9.v20150224 allows remot
 
 - [6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080)
 
+### CVE-2015-2153 (2015-03-24)
+
+<code>
+The rpki_rtr_pdu_print function in print-rpki-rtr.c in the TCP printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read or write and crash) via a crafted header length in an RPKI-RTR Protocol Data Unit (PDU).
+</code>
+
+- [arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153)
+
 ### CVE-2015-2208 (2015-03-12)
 
 <code>
@@ -14974,6 +15026,9 @@ The saveObject function in moadmin.php in phpMoAdmin 1.1.2 allows remote attacke
 </code>
 
 - [ptantiku/cve-2015-2208](https://github.com/ptantiku/cve-2015-2208)
+
+### CVE-2015-2231
+- [rednaga/adups-get-super-serial](https://github.com/rednaga/adups-get-super-serial)
 
 ### CVE-2015-2291 (2017-08-09)
 
@@ -15008,6 +15063,14 @@ The installation wizard in DotNetNuke (DNN) before 7.4.1 allows remote attackers
 - [styx00/DNN_CVE-2015-2794](https://github.com/styx00/DNN_CVE-2015-2794)
 - [wilsc0w/CVE-2015-2794-finder](https://github.com/wilsc0w/CVE-2015-2794-finder)
 
+### CVE-2015-2900 (2015-10-29)
+
+<code>
+The AddUserFinding add_userfinding2 function in Medicomp MEDCIN Engine before 2.22.20153.226 allows remote attackers to cause a denial of service (out-of-bounds write) or possibly have unspecified other impact via a crafted packet on port 8190.
+</code>
+
+- [securifera/CVE-2015-2900-Exploit](https://github.com/securifera/CVE-2015-2900-Exploit)
+
 ### CVE-2015-2925 (2015-11-16)
 
 <code>
@@ -15023,6 +15086,14 @@ Adobe Flash Player before 13.0.0.281 and 14.x through 17.x before 17.0.0.169 on 
 </code>
 
 - [whitehairman/Exploit](https://github.com/whitehairman/Exploit)
+
+### CVE-2015-3073 (2015-05-13)
+
+<code>
+Adobe Reader and Acrobat 10.x before 10.1.14 and 11.x before 11.0.11 on Windows and OS X allow attackers to bypass intended restrictions on JavaScript API execution via unspecified vectors, a different vulnerability than CVE-2015-3060, CVE-2015-3061, CVE-2015-3062, CVE-2015-3063, CVE-2015-3064, CVE-2015-3065, CVE-2015-3066, CVE-2015-3067, CVE-2015-3068, CVE-2015-3069, CVE-2015-3071, CVE-2015-3072, and CVE-2015-3074.
+</code>
+
+- [reigningshells/CVE-2015-3073](https://github.com/reigningshells/CVE-2015-3073)
 
 ### CVE-2015-3152 (2016-05-16)
 
@@ -15080,8 +15151,16 @@ The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and K
 The ping_unhash function in net/ipv4/ping.c in the Linux kernel before 4.0.3 does not initialize a certain list data structure during an unhash operation, which allows local users to gain privileges or cause a denial of service (use-after-free and system crash) by leveraging the ability to make a SOCK_DGRAM socket system call for the IPPROTO_ICMP or IPPROTO_ICMPV6 protocol, and then making a connect system call after a disconnect.
 </code>
 
+- [betalphafai/cve-2015-3636_crash](https://github.com/betalphafai/cve-2015-3636_crash)
+- [askk/libping_unhash_exploit_POC](https://github.com/askk/libping_unhash_exploit_POC)
+- [ludongxu/cve-2015-3636](https://github.com/ludongxu/cve-2015-3636)
+- [fi01/CVE-2015-3636](https://github.com/fi01/CVE-2015-3636)
+- [android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit)
 - [debugfan/rattle_root](https://github.com/debugfan/rattle_root)
 - [a7vinx/CVE-2015-3636](https://github.com/a7vinx/CVE-2015-3636)
+
+### CVE-2015-3825
+- [roeeh/conscryptchecker](https://github.com/roeeh/conscryptchecker)
 
 ### CVE-2015-3837 (2015-09-30)
 
@@ -15098,6 +15177,24 @@ The updateMessageStatus function in Android 5.1.1 and earlier allows local users
 </code>
 
 - [mabin004/cve-2015-3839_PoC](https://github.com/mabin004/cve-2015-3839_PoC)
+
+### CVE-2015-3864 (2015-09-30)
+
+<code>
+Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
+</code>
+
+- [pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864)
+- [eudemonics/scaredycat](https://github.com/eudemonics/scaredycat)
+- [HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864)
+
+### CVE-2015-4495 (2015-08-07)
+
+<code>
+The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
+</code>
+
+- [vincd/CVE-2015-4495](https://github.com/vincd/CVE-2015-4495)
 
 ### CVE-2015-4852 (2015-11-18)
 
@@ -15124,6 +15221,8 @@ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 
 Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.296 and 14.x through 18.0.0.194 on Windows and OS X and 11.x through 11.2.202.468 on Linux allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that overrides a valueOf function, as exploited in the wild in July 2015.
 </code>
 
+- [jvazquez-r7/CVE-2015-5119](https://github.com/jvazquez-r7/CVE-2015-5119)
+- [CiscoCXSecurity/CVE-2015-5119_walkthrough](https://github.com/CiscoCXSecurity/CVE-2015-5119_walkthrough)
 - [dangokyo/CVE-2015-5119](https://github.com/dangokyo/CVE-2015-5119)
 
 ### CVE-2015-5195 (2017-07-21)
@@ -15142,6 +15241,14 @@ Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be seri
 
 - [jas502n/CVE-2015-5254](https://github.com/jas502n/CVE-2015-5254)
 - [gsheller/ActiveMQ_CVE-2015-5254](https://github.com/gsheller/ActiveMQ_CVE-2015-5254)
+
+### CVE-2015-5290 (2019-12-26)
+
+<code>
+A Denial of Service vulnerability exists in ircd-ratbox 3.0.9 in the MONITOR Command Handler.
+</code>
+
+- [sariyamelody/CVE-2015-5290](https://github.com/sariyamelody/CVE-2015-5290)
 
 ### CVE-2015-5347 (2016-04-12)
 
@@ -15173,6 +15280,11 @@ A vulnerability has been identified in Firmware variant PROFINET IO for EN100 Et
 named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.
 </code>
 
+- [robertdavidgraham/cve-2015-5477](https://github.com/robertdavidgraham/cve-2015-5477)
+- [elceef/tkeypoc](https://github.com/elceef/tkeypoc)
+- [hmlio/vaas-cve-2015-5477](https://github.com/hmlio/vaas-cve-2015-5477)
+- [knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477)
+- [ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477)
 - [likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477)
 - [xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit)
 
@@ -15185,6 +15297,14 @@ sudoedit in Sudo before 1.8.15 allows local users to gain privileges via a symli
 - [t0kx/privesc-CVE-2015-5602](https://github.com/t0kx/privesc-CVE-2015-5602)
 - [cved-sources/cve-2015-5602](https://github.com/cved-sources/cve-2015-5602)
 
+### CVE-2015-5932 (2015-10-23)
+
+<code>
+The kernel in Apple OS X before 10.11.1 allows local users to gain privileges by leveraging an unspecified &quot;type confusion&quot; during Mach task processing.
+</code>
+
+- [jndok/tpwn-bis](https://github.com/jndok/tpwn-bis)
+
 ### CVE-2015-5995 (2015-12-30)
 
 <code>
@@ -15192,6 +15312,14 @@ Mediabridge Medialink MWN-WAPR300N devices with firmware 5.07.50 and Tenda N3 Wi
 </code>
 
 - [shaheemirza/TendaSpill](https://github.com/shaheemirza/TendaSpill)
+
+### CVE-2015-6086 (2015-11-11)
+
+<code>
+Microsoft Internet Explorer 9 through 11 allows remote attackers to obtain sensitive information from process memory via a crafted web site, aka &quot;Internet Explorer Information Disclosure Vulnerability.&quot;
+</code>
+
+- [payatu/CVE-2015-6086](https://github.com/payatu/CVE-2015-6086)
 
 ### CVE-2015-6095 (2015-11-11)
 
@@ -15209,6 +15337,56 @@ Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, 
 
 - [hexx0r/CVE-2015-6132](https://github.com/hexx0r/CVE-2015-6132)
 
+### CVE-2015-6357 (2015-11-18)
+
+<code>
+The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.4.0.1 does not verify the X.509 certificate of the support.sourcefire.com SSL server, which allows man-in-the-middle attackers to spoof this server and provide an invalid package, and consequently execute arbitrary code, via a crafted certificate, aka Bug ID CSCuw06444.
+</code>
+
+- [mattimustang/firepwner](https://github.com/mattimustang/firepwner)
+
+### CVE-2015-6576 (2017-10-02)
+
+<code>
+Bamboo 2.2 before 5.8.5 and 5.9.x before 5.9.7 allows remote attackers with access to the Bamboo web interface to execute arbitrary Java code via an unspecified resource.
+</code>
+
+- [CallMeJonas/CVE-2015-6576](https://github.com/CallMeJonas/CVE-2015-6576)
+
+### CVE-2015-6606 (2015-10-06)
+
+<code>
+The Secure Element Evaluation Kit (aka SEEK or SmartCard API) plugin in Android before 5.1.1 LMY48T allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 22301786.
+</code>
+
+- [michaelroland/omapi-cve-2015-6606-exploit](https://github.com/michaelroland/omapi-cve-2015-6606-exploit)
+
+### CVE-2015-6612 (2015-11-03)
+
+<code>
+libmedia in Android before 5.1.1 LMY48X and 6.0 before 2015-11-01 allows attackers to gain privileges via a crafted application, aka internal bug 23540426.
+</code>
+
+- [secmob/CVE-2015-6612](https://github.com/secmob/CVE-2015-6612)
+- [flankerhqd/cve-2015-6612poc-forM](https://github.com/flankerhqd/cve-2015-6612poc-forM)
+
+### CVE-2015-6620 (2015-12-08)
+
+<code>
+libstagefright in Android before 5.1.1 LMY48Z and 6.0 before 2015-12-01 allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bugs 24123723 and 24445127.
+</code>
+
+- [flankerhqd/CVE-2015-6620-POC](https://github.com/flankerhqd/CVE-2015-6620-POC)
+- [flankerhqd/mediacodecoob](https://github.com/flankerhqd/mediacodecoob)
+
+### CVE-2015-6637 (2016-01-06)
+
+<code>
+The MediaTek misc-sd driver in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 allows attackers to gain privileges via a crafted application, aka internal bug 25307013.
+</code>
+
+- [betalphafai/CVE-2015-6637](https://github.com/betalphafai/CVE-2015-6637)
+
 ### CVE-2015-6639 (2016-01-06)
 
 <code>
@@ -15217,6 +15395,14 @@ The Widevine QSEE TrustZone application in Android 5.x before 5.1.1 LMY49F and 6
 
 - [laginimaineb/cve-2015-6639](https://github.com/laginimaineb/cve-2015-6639)
 - [laginimaineb/ExtractKeyMaster](https://github.com/laginimaineb/ExtractKeyMaster)
+
+### CVE-2015-6640 (2016-01-06)
+
+<code>
+The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
+</code>
+
+- [betalphafai/CVE-2015-6640](https://github.com/betalphafai/CVE-2015-6640)
 
 ### CVE-2015-6835 (2016-05-16)
 
@@ -15235,12 +15421,21 @@ Unrestricted file upload vulnerability in the My Image plugin in Nibbleblog befo
 - [VanTekken/CVE-2015-6967](https://github.com/VanTekken/CVE-2015-6967)
 - [dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967)
 
+### CVE-2015-7214 (2015-12-16)
+
+<code>
+Mozilla Firefox before 43.0 and Firefox ESR 38.x before 38.5 allow remote attackers to bypass the Same Origin Policy via data: and view-source: URIs.
+</code>
+
+- [llamakko/CVE-2015-7214](https://github.com/llamakko/CVE-2015-7214)
+
 ### CVE-2015-7297 (2015-10-29)
 
 <code>
 SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7858.
 </code>
 
+- [CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory)
 - [kally-life/exploit-joomla](https://github.com/kally-life/exploit-joomla)
 
 ### CVE-2015-7501 (2017-11-09)
@@ -15251,12 +15446,28 @@ Red Hat JBoss A-MQ 6.x; BPM Suite (BPMS) 6.x; BRMS 6.x and 5.x; Data Grid (JDG) 
 
 - [ianxtianxt/CVE-2015-7501](https://github.com/ianxtianxt/CVE-2015-7501)
 
+### CVE-2015-7545 (2016-04-13)
+
+<code>
+The (1) git-remote-ext and (2) unspecified other remote helper programs in Git before 2.3.10, 2.4.x before 2.4.10, 2.5.x before 2.5.4, and 2.6.x before 2.6.1 do not properly restrict the allowed protocols, which might allow remote attackers to execute arbitrary code via a URL in a (a) .gitmodules file or (b) unknown other sources in a submodule.
+</code>
+
+- [avuserow/bug-free-chainsaw](https://github.com/avuserow/bug-free-chainsaw)
+
 ### CVE-2015-7547 (2016-02-18)
 
 <code>
 Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functions in the libresolv library in the GNU C Library (aka glibc or libc6) before 2.23 allow remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a crafted DNS response that triggers a call to the getaddrinfo function with the AF_UNSPEC or AF_INET6 address family, related to performing &quot;dual A/AAAA DNS queries&quot; and the libnss_dns.so.2 NSS module.
 </code>
 
+- [fjserna/CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547)
+- [cakuzo/CVE-2015-7547](https://github.com/cakuzo/CVE-2015-7547)
+- [t0r0t0r0/CVE-2015-7547](https://github.com/t0r0t0r0/CVE-2015-7547)
+- [JustDenisYT/glibc-patcher](https://github.com/JustDenisYT/glibc-patcher)
+- [rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc)
+- [babykillerblack/CVE-2015-7547](https://github.com/babykillerblack/CVE-2015-7547)
+- [jgajek/cve-2015-7547](https://github.com/jgajek/cve-2015-7547)
+- [eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public)
 - [bluebluelan/CVE-2015-7547-proj-master](https://github.com/bluebluelan/CVE-2015-7547-proj-master)
 - [miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master)
 - [Stick-U235/CVE-2015-7547](https://github.com/Stick-U235/CVE-2015-7547)
@@ -15269,6 +15480,15 @@ Juniper ScreenOS 6.2.0r15 through 6.2.0r18, 6.3.0r12 before 6.3.0r12b, 6.3.0r13 
 </code>
 
 - [hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755)
+- [cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC)
+
+### CVE-2015-7808 (2015-11-24)
+
+<code>
+The vB_Api_Hook::decodeArguments method in vBulletin 5 Connect 5.1.2 through 5.1.9 allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via a crafted serialized object in the arguments parameter to ajax/api/hook/decodeArguments.
+</code>
+
+- [Prajithp/CVE-2015-7808](https://github.com/Prajithp/CVE-2015-7808)
 
 ### CVE-2015-8088 (2016-01-12)
 
@@ -15302,17 +15522,44 @@ Multiple buffer overflows in (1) lmgrd and (2) Vendor Daemon in Flexera FlexNet 
 
 - [securifera/CVE-2015-8277-Exploit](https://github.com/securifera/CVE-2015-8277-Exploit)
 
+### CVE-2015-8299 (2017-08-29)
+
+<code>
+Buffer overflow in the Group messages monitor (Falcon) in KNX ETS 4.1.5 (Build 3246) allows remote attackers to execute arbitrary code via a crafted KNXnet/IP UDP packet.
+</code>
+
+- [kernoelpanic/CVE-2015-8299](https://github.com/kernoelpanic/CVE-2015-8299)
+
+### CVE-2015-8543 (2015-12-28)
+
+<code>
+The networking implementation in the Linux kernel through 4.3.3, as used in Android and other products, does not validate protocol identifiers for certain protocol families, which allows local users to cause a denial of service (NULL function pointer dereference and system crash) or possibly gain privileges by leveraging CLONE_NEWUSER support to execute a crafted SOCK_RAW application.
+</code>
+
+- [bittorrent3389/CVE-2015-8543_for_SLE12SP1](https://github.com/bittorrent3389/CVE-2015-8543_for_SLE12SP1)
+
 ### CVE-2015-8562 (2015-12-16)
 
 <code>
 Joomla! 1.5.x, 2.x, and 3.x before 3.4.6 allow remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via the HTTP User-Agent header, as exploited in the wild in December 2015.
 </code>
 
+- [ZaleHack/joomla_rce_CVE-2015-8562](https://github.com/ZaleHack/joomla_rce_CVE-2015-8562)
+- [RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC](https://github.com/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC)
+- [atcasanova/cve-2015-8562-exploit](https://github.com/atcasanova/cve-2015-8562-exploit)
 - [thejackerz/scanner-exploit-joomla-CVE-2015-8562](https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562)
 - [paralelo14/CVE-2015-8562](https://github.com/paralelo14/CVE-2015-8562)
 - [VoidSec/Joomla_CVE-2015-8562](https://github.com/VoidSec/Joomla_CVE-2015-8562)
 - [xnorkl/Joomla_Payload](https://github.com/xnorkl/Joomla_Payload)
 - [guanjivip/CVE-2015-8562](https://github.com/guanjivip/CVE-2015-8562)
+
+### CVE-2015-8651 (2015-12-28)
+
+<code>
+Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK &amp; Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
+</code>
+
+- [Gitlabpro/The-analysis-of-the-cve-2015-8651](https://github.com/Gitlabpro/The-analysis-of-the-cve-2015-8651)
 
 ### CVE-2015-8660 (2015-12-28)
 
