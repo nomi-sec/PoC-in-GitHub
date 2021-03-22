@@ -237,6 +237,14 @@ Use after free in safe browsing in Google Chrome prior to 87.0.4280.141 allowed 
 
 - [Gh0st0ne/CVE-2021-21110](https://github.com/Gh0st0ne/CVE-2021-21110)
 
+### CVE-2021-21123 (2021-02-09)
+
+<code>
+Insufficient data validation in File System API in Google Chrome prior to 88.0.4324.96 allowed a remote attacker to bypass filesystem restrictions via a crafted HTML page.
+</code>
+
+- [Puliczek/CVE-2021-21123-PoC-Google-Chrome](https://github.com/Puliczek/CVE-2021-21123-PoC-Google-Chrome)
+
 ### CVE-2021-21148 (2021-02-09)
 
 <code>
@@ -11422,7 +11430,7 @@ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 
 
 - [peterpt/eternal_scanner](https://github.com/peterpt/eternal_scanner)
 - [kimocoder/eternalblue](https://github.com/kimocoder/eternalblue)
-- [Zack-911/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution](https://github.com/Zack-911/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution)
+- [EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution](https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution)
 
 ### CVE-2017-0145 (2017-03-16)
 
