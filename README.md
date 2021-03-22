@@ -57,6 +57,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 - [FanqXu/CVE-2021-3019](https://github.com/FanqXu/CVE-2021-3019)
 - [liuxu54898/CVE-2021-3019](https://github.com/liuxu54898/CVE-2021-3019)
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
+- [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
 
 ### CVE-2021-3122 (2021-02-07)
 
@@ -319,6 +320,7 @@ VMware View Planner 4.x prior to 4.6 Security Patch 1 contains a remote code exe
 - [Osyanina/westone-CVE-2021-22986-scanner](https://github.com/Osyanina/westone-CVE-2021-22986-scanner)
 - [Udyz/CVE-2021-22986](https://github.com/Udyz/CVE-2021-22986)
 - [safesword/F5_RCE](https://github.com/safesword/F5_RCE)
+- [Al1ex/CVE-2021-22986](https://github.com/Al1ex/CVE-2021-22986)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -13030,6 +13032,7 @@ An elevation of privilege vulnerability in the Android system (art). Product: An
 - [caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156)
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
+- [ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-Proof-of-Concept-POC-](https://github.com/ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-Proof-of-Concept-POC-)
 
 ### CVE-2017-13253 (2018-04-04)
 
