@@ -318,7 +318,7 @@ VMware View Planner 4.x prior to 4.6 Security Patch 1 contains a remote code exe
 - [dorkerdevil/CVE-2021-22986-Poc](https://github.com/dorkerdevil/CVE-2021-22986-Poc)
 - [S1xHcL/f5_rce_poc](https://github.com/S1xHcL/f5_rce_poc)
 - [Osyanina/westone-CVE-2021-22986-scanner](https://github.com/Osyanina/westone-CVE-2021-22986-scanner)
-- [Udyz/CVE-2021-22986](https://github.com/Udyz/CVE-2021-22986)
+- [Udyz/CVE-2021-22986-SSRF2RCE](https://github.com/Udyz/CVE-2021-22986-SSRF2RCE)
 - [safesword/F5_RCE](https://github.com/safesword/F5_RCE)
 - [Al1ex/CVE-2021-22986](https://github.com/Al1ex/CVE-2021-22986)
 
@@ -11422,6 +11422,7 @@ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 
 
 - [peterpt/eternal_scanner](https://github.com/peterpt/eternal_scanner)
 - [kimocoder/eternalblue](https://github.com/kimocoder/eternalblue)
+- [Zack-911/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution](https://github.com/Zack-911/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution)
 
 ### CVE-2017-0145 (2017-03-16)
 
