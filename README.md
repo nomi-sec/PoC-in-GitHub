@@ -386,6 +386,14 @@ Smarty before 3.1.39 allows a Sandbox Escape because $smarty.template_object can
 ### CVE-2021-26121
 - [sourceincite/CVE-2021-26121](https://github.com/sourceincite/CVE-2021-26121)
 
+### CVE-2021-26295 (2021-03-22)
+
+<code>
+Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated attacker can use this vulnerability to successfully take over Apache OFBiz.
+</code>
+
+- [yumusb/CVE-2021-26295-POC](https://github.com/yumusb/CVE-2021-26295-POC)
+
 ### CVE-2021-26700 (2021-02-25)
 
 <code>
@@ -9252,6 +9260,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
 - [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
+- [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -16377,7 +16386,7 @@ active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.
 - [heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156)
 - [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
-- [R3dKn33/CVE-2013-0156](https://github.com/R3dKn33/CVE-2013-0156)
+- [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
 
 ### CVE-2013-0229 (2013-01-31)
 
