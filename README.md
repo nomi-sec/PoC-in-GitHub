@@ -439,6 +439,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit](https://github.com/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit)
 - [p0wershe11/ProxyLogon](https://github.com/p0wershe11/ProxyLogon)
 - [r0ckysec/CVE-2021-26855-Exchange-RCE](https://github.com/r0ckysec/CVE-2021-26855-Exchange-RCE)
+- [hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -4816,6 +4817,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [sinlee1/CVE-2019-0708](https://github.com/sinlee1/CVE-2019-0708)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [Kinesys/Kinesys-CVE-2019-0708-Exploit](https://github.com/Kinesys/Kinesys-CVE-2019-0708-Exploit)
+- [SurrealSky/CVE20190708SCAN](https://github.com/SurrealSky/CVE20190708SCAN)
 
 ### CVE-2019-0709 (2019-06-12)
 
