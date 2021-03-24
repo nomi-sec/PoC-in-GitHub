@@ -394,6 +394,7 @@ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated at
 
 - [yumusb/CVE-2021-26295-POC](https://github.com/yumusb/CVE-2021-26295-POC)
 - [rakjong/CVE-2021-26295-Apache-OFBiz](https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz)
+- [r0ckysec/CVE-2021-26295](https://github.com/r0ckysec/CVE-2021-26295)
 
 ### CVE-2021-26700 (2021-02-25)
 
@@ -447,7 +448,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [shacojx/Scan-Vuln-CVE-2021-26855](https://github.com/shacojx/Scan-Vuln-CVE-2021-26855)
 - [TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit](https://github.com/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit)
 - [p0wershe11/ProxyLogon](https://github.com/p0wershe11/ProxyLogon)
-- [r0ckysec/CVE-2021-26855-Exchange-RCE](https://github.com/r0ckysec/CVE-2021-26855-Exchange-RCE)
+- [r0ckysec/CVE-2021-26855_Exchange](https://github.com/r0ckysec/CVE-2021-26855_Exchange)
 - [hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065)
 - [praetorian-inc/proxylogon-exploit](https://github.com/praetorian-inc/proxylogon-exploit)
 
@@ -11410,6 +11411,14 @@ Hyper-V in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2; Windows 
 </code>
 
 - [4B5F5F4B/HyperV](https://github.com/4B5F5F4B/HyperV)
+
+### CVE-2017-0100 (2017-03-16)
+
+<code>
+A DCOM object in Helppane.exe in Microsoft Windows 7 SP1; Windows Server 2008 R2; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows local users to gain privileges via a crafted application, aka &quot;Windows HelpPane Elevation of Privilege Vulnerability.&quot;
+</code>
+
+- [cssxn/CVE-2017-0100](https://github.com/cssxn/CVE-2017-0100)
 
 ### CVE-2017-0106 (2017-04-12)
 
