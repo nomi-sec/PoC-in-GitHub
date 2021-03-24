@@ -393,6 +393,7 @@ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated at
 </code>
 
 - [yumusb/CVE-2021-26295-POC](https://github.com/yumusb/CVE-2021-26295-POC)
+- [rakjong/CVE-2021-26295-Apache-OFBiz](https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz)
 
 ### CVE-2021-26700 (2021-02-25)
 
@@ -13054,6 +13055,7 @@ An elevation of privilege vulnerability in the Android system (art). Product: An
 - [caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156)
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
+- [ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-POC](https://github.com/ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-POC)
 
 ### CVE-2017-13253 (2018-04-04)
 
