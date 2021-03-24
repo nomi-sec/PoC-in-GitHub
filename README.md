@@ -448,6 +448,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [p0wershe11/ProxyLogon](https://github.com/p0wershe11/ProxyLogon)
 - [r0ckysec/CVE-2021-26855-Exchange-RCE](https://github.com/r0ckysec/CVE-2021-26855-Exchange-RCE)
 - [hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065)
+- [praetorian-inc/proxylogon-exploit](https://github.com/praetorian-inc/proxylogon-exploit)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -13053,7 +13054,6 @@ An elevation of privilege vulnerability in the Android system (art). Product: An
 - [caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156)
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
-- [ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-Proof-of-Concept-POC-](https://github.com/ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-Proof-of-Concept-POC-)
 
 ### CVE-2017-13253 (2018-04-04)
 
