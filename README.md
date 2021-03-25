@@ -277,6 +277,9 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
 - [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
 
+### CVE-2021-21389
+- [HoangKien1020/CVE-2021-21389](https://github.com/HoangKien1020/CVE-2021-21389)
+
 ### CVE-2021-21972 (2021-02-24)
 
 <code>
@@ -427,7 +430,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [Th3eCrow/CVE-2021-26855-SSRF-Exchange](https://github.com/Th3eCrow/CVE-2021-26855-SSRF-Exchange)
 - [mekhalleh/exchange_proxylogon](https://github.com/mekhalleh/exchange_proxylogon)
 - [Yt1g3r/CVE-2021-26855_SSRF](https://github.com/Yt1g3r/CVE-2021-26855_SSRF)
-- [jsdryan/CVE-2021-26855](https://github.com/jsdryan/CVE-2021-26855)
+- [charlottelatest/CVE-2021-26855](https://github.com/charlottelatest/CVE-2021-26855)
 - [dwisiswant0/proxylogscan](https://github.com/dwisiswant0/proxylogscan)
 - [mauricelambert/ExchangeWeaknessTest](https://github.com/mauricelambert/ExchangeWeaknessTest)
 - [DCScoder/Exchange_IOC_Hunter](https://github.com/DCScoder/Exchange_IOC_Hunter)
@@ -451,6 +454,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [r0ckysec/CVE-2021-26855_Exchange](https://github.com/r0ckysec/CVE-2021-26855_Exchange)
 - [hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065)
 - [praetorian-inc/proxylogon-exploit](https://github.com/praetorian-inc/proxylogon-exploit)
+- [inpalmer/MSE-Exchange-Alert-Check](https://github.com/inpalmer/MSE-Exchange-Alert-Check)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -558,6 +562,14 @@ Askey RTF8115VW BR_SV_g11.11_RTF_TEF001_V6.54_V014 devices allow injection of a 
 </code>
 
 - [bokanrb/CVE-2021-27404](https://github.com/bokanrb/CVE-2021-27404)
+
+### CVE-2021-27890 (2021-03-15)
+
+<code>
+SQL Injection vulnerablity in MyBB before 1.8.26 via theme properties included in theme XML files.
+</code>
+
+- [xiaopan233/Mybb-XSS_SQL_RCE-POC](https://github.com/xiaopan233/Mybb-XSS_SQL_RCE-POC)
 
 ### CVE-2021-27963 (2021-03-04)
 
@@ -4837,6 +4849,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [Kinesys/Kinesys-CVE-2019-0708-Exploit](https://github.com/Kinesys/Kinesys-CVE-2019-0708-Exploit)
 - [SurrealSky/CVE20190708SCAN](https://github.com/SurrealSky/CVE20190708SCAN)
+- [ORCA666/CVE-2019--0708-SCANNER](https://github.com/ORCA666/CVE-2019--0708-SCANNER)
 
 ### CVE-2019-0709 (2019-06-12)
 
