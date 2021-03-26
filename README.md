@@ -341,6 +341,7 @@ VMware View Planner 4.x prior to 4.6 Security Patch 1 contains a remote code exe
 - [safesword/F5_RCE](https://github.com/safesword/F5_RCE)
 - [Al1ex/CVE-2021-22986](https://github.com/Al1ex/CVE-2021-22986)
 - [ZephrFish/CVE-2021-22986_Check](https://github.com/ZephrFish/CVE-2021-22986_Check)
+- [yaunsky/CVE-202122986-EXP](https://github.com/yaunsky/CVE-202122986-EXP)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -8339,7 +8340,6 @@ A sandbox bypass vulnerability exists in Script Security Plugin 1.49 and earlier
 - [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
 - [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
-- [PetrusViet/CVE-2019-1003000-2018-1000861-jenkins-rce](https://github.com/PetrusViet/CVE-2019-1003000-2018-1000861-jenkins-rce)
 
 ### CVE-2019-1010054 (2019-07-18)
 
