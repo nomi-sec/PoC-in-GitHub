@@ -8629,6 +8629,7 @@ From Apache Tika versions 1.7 to 1.17, clients could send carefully crafted head
 - [SkyBlueEternal/CVE-2018-1335-EXP-GUI](https://github.com/SkyBlueEternal/CVE-2018-1335-EXP-GUI)
 - [N0b1e6/CVE-2018-1335-Python3](https://github.com/N0b1e6/CVE-2018-1335-Python3)
 - [canumay/cve-2018-1335](https://github.com/canumay/cve-2018-1335)
+- [siramk/CVE-2018-1335](https://github.com/siramk/CVE-2018-1335)
 
 ### CVE-2018-2019 (2019-01-18)
 
