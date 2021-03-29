@@ -355,6 +355,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [Al1ex/CVE-2021-22986](https://github.com/Al1ex/CVE-2021-22986)
 - [ZephrFish/CVE-2021-22986_Check](https://github.com/ZephrFish/CVE-2021-22986_Check)
 - [yaunsky/CVE-202122986-EXP](https://github.com/yaunsky/CVE-202122986-EXP)
+- [Tas9er/CVE-2021-22986](https://github.com/Tas9er/CVE-2021-22986)
 
 ### CVE-2021-23132 (2021-03-04)
 
