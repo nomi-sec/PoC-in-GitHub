@@ -356,6 +356,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [ZephrFish/CVE-2021-22986_Check](https://github.com/ZephrFish/CVE-2021-22986_Check)
 - [yaunsky/CVE-202122986-EXP](https://github.com/yaunsky/CVE-202122986-EXP)
 - [Tas9er/CVE-2021-22986](https://github.com/Tas9er/CVE-2021-22986)
+- [dotslashed/CVE-2021-22986](https://github.com/dotslashed/CVE-2021-22986)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -519,6 +520,9 @@ LMA ISIDA Retriever 5.2 allows SQL Injection.
 
 - [Security-AVS/-CVE-2021-26904](https://github.com/Security-AVS/-CVE-2021-26904)
 
+### CVE-2021-26943
+- [tandasat/SmmExploit](https://github.com/tandasat/SmmExploit)
+
 ### CVE-2021-27065 (2021-03-02)
 
 <code>
@@ -601,6 +605,9 @@ SonLogger before 6.4.1 is affected by user creation with any user permissions pr
 </code>
 
 - [erberkan/SonLogger-vulns](https://github.com/erberkan/SonLogger-vulns)
+
+### CVE-2021-29267
+- [Security-AVS/CVE-2021-29267](https://github.com/Security-AVS/CVE-2021-29267)
 
 
 ## 2020
@@ -13318,6 +13325,14 @@ Web Viewer 1.0.0.193 on Samsung SRN-1670D devices suffers from an Unrestricted f
 </code>
 
 - [realistic-security/CVE-2017-16524](https://github.com/realistic-security/CVE-2017-16524)
+
+### CVE-2017-16541 (2017-11-04)
+
+<code>
+Tor Browser before 7.0.9 on macOS and Linux allows remote attackers to bypass the intended anonymity feature and discover a client IP address via vectors involving a crafted web site that leverages file:// mishandling in Firefox, aka TorMoil. NOTE: Tails is unaffected.
+</code>
+
+- [Ethan-Chen-uwo/A-breif-introduction-of-CVE-2017-16541](https://github.com/Ethan-Chen-uwo/A-breif-introduction-of-CVE-2017-16541)
 
 ### CVE-2017-16567 (2017-11-09)
 
