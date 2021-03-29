@@ -606,7 +606,12 @@ SonLogger before 6.4.1 is affected by user creation with any user permissions pr
 
 - [erberkan/SonLogger-vulns](https://github.com/erberkan/SonLogger-vulns)
 
-### CVE-2021-29267
+### CVE-2021-29267 (2021-03-29)
+
+<code>
+Sherlock SherlockIM through 2021-03-29 allows Cross Site Scripting (XSS) by leveraging the api/Files/Attachment URI to attack help-desk staff via the chatbot feature.
+</code>
+
 - [Security-AVS/CVE-2021-29267](https://github.com/Security-AVS/CVE-2021-29267)
 
 
