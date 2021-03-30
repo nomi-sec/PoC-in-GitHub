@@ -1675,7 +1675,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [Un4gi/CVE-2020-5902](https://github.com/Un4gi/CVE-2020-5902)
 - [nsflabs/CVE-2020-5902](https://github.com/nsflabs/CVE-2020-5902)
 - [yasserjanah/CVE-2020-5902](https://github.com/yasserjanah/CVE-2020-5902)
-- [JaneMandy/CVE-2020-5902](https://github.com/JaneMandy/CVE-2020-5902)
 - [JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902)
 - [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
 - [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
