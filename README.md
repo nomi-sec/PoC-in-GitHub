@@ -9,6 +9,14 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
+### CVE-2021-1656 (2021-01-12)
+
+<code>
+TPM Device Driver Information Disclosure Vulnerability
+</code>
+
+- [waleedassar/CVE-2021-1656](https://github.com/waleedassar/CVE-2021-1656)
+
 ### CVE-2021-1727 (2021-02-25)
 
 <code>
@@ -26,6 +34,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [KaLendsi/CVE-2021-1732-Exploit](https://github.com/KaLendsi/CVE-2021-1732-Exploit)
 - [k-k-k-k-k/CVE-2021-1732](https://github.com/k-k-k-k-k/CVE-2021-1732)
 - [oneoy/CVE-2021-1732-Exploit](https://github.com/oneoy/CVE-2021-1732-Exploit)
+- [ltfafei/CVE-2021-1732_exp](https://github.com/ltfafei/CVE-2021-1732_exp)
 
 ### CVE-2021-1782
 - [synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782)
@@ -145,6 +154,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [worawit/CVE-2021-3156](https://github.com/worawit/CVE-2021-3156)
 - [Chal13W1zz/Sudo-Spunk](https://github.com/Chal13W1zz/Sudo-Spunk)
 - [lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156)
+- [Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
@@ -3960,6 +3970,14 @@ Setelsa Conacwin v3.7.1.2 is vulnerable to a local file inclusion vulnerability.
 
 - [bryanroma/CVE-2020-25068](https://github.com/bryanroma/CVE-2020-25068)
 
+### CVE-2020-25078 (2020-09-02)
+
+<code>
+An issue was discovered on D-Link DCS-2530L before 1.06.01 Hotfix and DCS-2670L through 2.02 devices. The unauthenticated /config/getuser endpoint allows for remote administrator password disclosure.
+</code>
+
+- [MzzdToT/CVE-2020-25078](https://github.com/MzzdToT/CVE-2020-25078)
+
 ### CVE-2020-25200 (2020-10-01)
 
 <code>
@@ -4344,6 +4362,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [SilverSkyFlyingFeather/CVE-2020-27955-TEST](https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST)
 - [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
 - [dennyson120/CVE-2020-27955](https://github.com/dennyson120/CVE-2020-27955)
+- [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
 
 ### CVE-2020-27976 (2020-10-28)
 
