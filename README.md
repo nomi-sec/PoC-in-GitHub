@@ -2604,6 +2604,7 @@ A PGP signature bypass flaw was found in fwupd (all versions), which could lead 
 GitLab EE/CE 8.5 to 12.9 is vulnerable to a an path traversal when moving an issue between projects.
 </code>
 
+- [KooroshRZ/CVE-2020-10977](https://github.com/KooroshRZ/CVE-2020-10977)
 - [thewhiteh4t/cve-2020-10977](https://github.com/thewhiteh4t/cve-2020-10977)
 - [JustMichi/CVE-2020-10977.py](https://github.com/JustMichi/CVE-2020-10977.py)
 - [VoxelNaut/cve-2020-10977](https://github.com/VoxelNaut/cve-2020-10977)
@@ -3843,6 +3844,14 @@ In AnyView (network police) network monitoring software 4.6.0.1, there is a loca
 </code>
 
 - [y5s5k5/CVE-2020-23741](https://github.com/y5s5k5/CVE-2020-23741)
+
+### CVE-2020-23839 (2020-09-01)
+
+<code>
+A Reflected Cross-Site Scripting (XSS) vulnerability in GetSimple CMS v3.3.16, in the admin/index.php login portal webpage, allows remote attackers to execute JavaScript code in the client's browser and harvest login credentials after a client clicks a link, enters credentials, and submits the login form.
+</code>
+
+- [boku7/CVE-2020-23839](https://github.com/boku7/CVE-2020-23839)
 
 ### CVE-2020-23968 (2020-11-10)
 
