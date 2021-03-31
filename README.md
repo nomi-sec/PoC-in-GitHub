@@ -449,6 +449,9 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
 
+### CVE-2021-26828
+- [hevox/CVE-2021-26828_ScadaBR_RCE](https://github.com/hevox/CVE-2021-26828_ScadaBR_RCE)
+
 ### CVE-2021-26855 (2021-03-02)
 
 <code>
@@ -3386,14 +3389,6 @@ In Jiangmin Antivirus 16.0.13.129, the driver file (KVFG.sys) allows local users
 
 - [y5s5k5/CVE-2020-14955](https://github.com/y5s5k5/CVE-2020-14955)
 - [intrigus-lgtm/CVE-2020-14955](https://github.com/intrigus-lgtm/CVE-2020-14955)
-
-### CVE-2020-14957 (2020-06-30)
-
-<code>
-In Windows cleaning assistant 3.2, the driver file (AtpKrnl.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x223CCD.
-</code>
-
-- [y5s5k5/CVE-2020-14957](https://github.com/y5s5k5/CVE-2020-14957)
 
 ### CVE-2020-14965 (2020-06-23)
 
