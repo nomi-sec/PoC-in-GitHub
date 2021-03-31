@@ -17,6 +17,14 @@ TPM Device Driver Information Disclosure Vulnerability
 
 - [waleedassar/CVE-2021-1656](https://github.com/waleedassar/CVE-2021-1656)
 
+### CVE-2021-1699 (2021-01-12)
+
+<code>
+Windows (modem.sys) Information Disclosure Vulnerability
+</code>
+
+- [waleedassar/CVE-2021-1699](https://github.com/waleedassar/CVE-2021-1699)
+
 ### CVE-2021-1727 (2021-02-25)
 
 <code>
@@ -9246,7 +9254,6 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [flash-marvel/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/flash-marvel/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
-- [Elsfa7-110/CVE-2018-6389](https://github.com/Elsfa7-110/CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
