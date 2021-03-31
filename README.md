@@ -346,8 +346,14 @@ The vSphere Client (HTML5) contains an SSRF (Server Side Request Forgery) vulner
 
 - [freakanonymous/CVE-2021-21973-Automateme](https://github.com/freakanonymous/CVE-2021-21973-Automateme)
 
-### CVE-2021-21975
+### CVE-2021-21975 (2021-03-31)
+
+<code>
+Server Side Request Forgery in vRealize Operations Manager API (CVE-2021-21975) prior to 8.4 may allow a malicious actor with network access to the vRealize Operations Manager API can perform a Server Side Request Forgery attack to steal administrative credentials.
+</code>
+
 - [Henry4E36/VMWare-vRealize-SSRF](https://github.com/Henry4E36/VMWare-vRealize-SSRF)
+- [Al1ex/CVE-2021-21975](https://github.com/Al1ex/CVE-2021-21975)
 
 ### CVE-2021-21978 (2021-03-03)
 
@@ -549,7 +555,12 @@ LMA ISIDA Retriever 5.2 allows SQL Injection.
 
 - [Security-AVS/-CVE-2021-26904](https://github.com/Security-AVS/-CVE-2021-26904)
 
-### CVE-2021-26943
+### CVE-2021-26943 (2021-03-31)
+
+<code>
+The UX360CA BIOS through 303 on ASUS laptops allow an attacker (with the ring 0 privilege) to overwrite nearly arbitrary physical memory locations, including SMRAM, and execute arbitrary code in the SMM (issue 3 of 3).
+</code>
+
 - [tandasat/SmmExploit](https://github.com/tandasat/SmmExploit)
 
 ### CVE-2021-27065 (2021-03-02)
@@ -642,6 +653,9 @@ Sherlock SherlockIM through 2021-03-29 allows Cross Site Scripting (XSS) by leve
 </code>
 
 - [Security-AVS/CVE-2021-29267](https://github.com/Security-AVS/CVE-2021-29267)
+
+### CVE-2021-29349
+- [0xBaz/CVE-2021-29349](https://github.com/0xBaz/CVE-2021-29349)
 
 ### CVE-2021-29386
 - [Umarovm/PowerSchool-Grade-Stealer](https://github.com/Umarovm/PowerSchool-Grade-Stealer)
@@ -3073,6 +3087,14 @@ An authorization issue in the mirroring logic allowed read access to private rep
 </code>
 
 - [lyy289065406/CVE-2020-13277](https://github.com/lyy289065406/CVE-2020-13277)
+
+### CVE-2020-13401 (2020-06-02)
+
+<code>
+An issue was discovered in Docker Engine before 19.03.11. An attacker in a container, with the CAP_NET_RAW capability, can craft IPv6 router advertisements, and consequently spoof external IPv6 hosts, obtain sensitive information, or cause a denial of service.
+</code>
+
+- [mmzaeimi/Docker-Container-CVE-2020-13401](https://github.com/mmzaeimi/Docker-Container-CVE-2020-13401)
 
 ### CVE-2020-13424 (2020-05-23)
 
@@ -12380,6 +12402,7 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
 - [daehee/nginx-overflow](https://github.com/daehee/nginx-overflow)
 - [ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3)
 - [fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability)
+- [Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability)
 
 ### CVE-2017-7648 (2017-04-10)
 
