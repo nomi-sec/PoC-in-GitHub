@@ -414,6 +414,14 @@ Windows Kernel Elevation of Privilege Vulnerability
 
 - [FunPhishing/CVE-2021-24096](https://github.com/FunPhishing/CVE-2021-24096)
 
+### CVE-2021-24098 (2021-02-25)
+
+<code>
+Windows Console Driver Denial of Service Vulnerability
+</code>
+
+- [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
+
 ### CVE-2021-25281 (2021-02-26)
 
 <code>
