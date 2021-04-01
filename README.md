@@ -654,7 +654,12 @@ Sherlock SherlockIM through 2021-03-29 allows Cross Site Scripting (XSS) by leve
 
 - [Security-AVS/CVE-2021-29267](https://github.com/Security-AVS/CVE-2021-29267)
 
-### CVE-2021-29349
+### CVE-2021-29349 (2021-03-31)
+
+<code>
+Mahara 20.10 is affected by Cross Site Request Forgery (CSRF) that allows a remote attacker to remove inbox-mail on the server. The application fails to validate the CSRF token for a POST request. An attacker can craft a module/multirecipientnotification/inbox.php pieform_delete_all_notifications request, which leads to removing all messages from a mailbox.
+</code>
+
 - [0xBaz/CVE-2021-29349](https://github.com/0xBaz/CVE-2021-29349)
 
 ### CVE-2021-29386
@@ -3961,6 +3966,7 @@ An issue was discovered in includes/webconsole.php in RaspAP 2.5. With authentic
 </code>
 
 - [lb0x/cve-2020-24572](https://github.com/lb0x/cve-2020-24572)
+- [gerberop/CVE-2020-24572-POC](https://github.com/gerberop/CVE-2020-24572-POC)
 
 ### CVE-2020-24597
 - [HoangKien1020/CVE-2020-24597](https://github.com/HoangKien1020/CVE-2020-24597)
@@ -9287,6 +9293,7 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [flash-marvel/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/flash-marvel/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
+- [Elsfa7-110/CVE-2018-6389](https://github.com/Elsfa7-110/CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
