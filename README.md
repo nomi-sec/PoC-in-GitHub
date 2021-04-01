@@ -459,9 +459,10 @@ Smarty before 3.1.39 allows a Sandbox Escape because $smarty.template_object can
 Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated attacker can use this vulnerability to successfully take over Apache OFBiz.
 </code>
 
-- [yumusb/CVE-2021-26295-POC](https://github.com/yumusb/CVE-2021-26295-POC)
+- [yumusb/CVE-2021-26295](https://github.com/yumusb/CVE-2021-26295)
 - [rakjong/CVE-2021-26295-Apache-OFBiz](https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz)
 - [r0ckysec/CVE-2021-26295](https://github.com/r0ckysec/CVE-2021-26295)
+- [ltfafei/CVE-2021-26295_Apache_OFBiz_POC](https://github.com/ltfafei/CVE-2021-26295_Apache_OFBiz_POC)
 
 ### CVE-2021-26700 (2021-02-25)
 
@@ -2460,6 +2461,7 @@ XML-RPC request are vulnerable to unsafe deserialization and Cross-Site Scriptin
 </code>
 
 - [dwisiswant0/CVE-2020-9496](https://github.com/dwisiswant0/CVE-2020-9496)
+- [Vulnmachines/apache-ofbiz-CVE-2020-9496](https://github.com/Vulnmachines/apache-ofbiz-CVE-2020-9496)
 
 ### CVE-2020-9547 (2020-03-01)
 
@@ -3128,14 +3130,6 @@ A SQL injection issue in the gVectors wpDiscuz plugin 5.3.5 and earlier for Word
 
 - [asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640)
 
-### CVE-2020-13646 (2020-06-05)
-
-<code>
-In Cheetah free WiFi 5.1, the driver file (liebaonat.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x830020f8, 0x830020E0, 0x830020E4, or 0x8300210c.
-</code>
-
-- [y5s5k5/CVE-2020-13646](https://github.com/y5s5k5/CVE-2020-13646)
-
 ### CVE-2020-13777 (2020-06-04)
 
 <code>
@@ -3441,7 +3435,6 @@ OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to
 In Jiangmin Antivirus 16.0.13.129, the driver file (KVFG.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x220440.
 </code>
 
-- [y5s5k5/CVE-2020-14955](https://github.com/y5s5k5/CVE-2020-14955)
 - [intrigus-lgtm/CVE-2020-14955](https://github.com/intrigus-lgtm/CVE-2020-14955)
 
 ### CVE-2020-14965 (2020-06-23)
@@ -3847,22 +3840,6 @@ The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion 
 
 - [ahussam/AVideo3xploit](https://github.com/ahussam/AVideo3xploit)
 
-### CVE-2020-23726 (2020-12-03)
-
-<code>
-There is a local denial of service vulnerability in Wise Care 365 5.5.4, attackers can cause computer crash (BSOD).
-</code>
-
-- [y5s5k5/CVE-2020-23726](https://github.com/y5s5k5/CVE-2020-23726)
-
-### CVE-2020-23727 (2020-12-03)
-
-<code>
-There is a local denial of service vulnerability in the Antiy Zhijia Terminal Defense System 5.0.2.10121559 and an attacker can cause a computer crash (BSOD).
-</code>
-
-- [y5s5k5/CVE-2020-23727](https://github.com/y5s5k5/CVE-2020-23727)
-
 ### CVE-2020-23735 (2020-12-03)
 
 <code>
@@ -3870,22 +3847,6 @@ In Saibo Cyber Game Accelerator 3.7.9 there is a local privilege escalation vuln
 </code>
 
 - [y5s5k5/CVE-2020-23735](https://github.com/y5s5k5/CVE-2020-23735)
-
-### CVE-2020-23736 (2020-12-03)
-
-<code>
-There is a local denial of service vulnerability in DaDa accelerator 5.6.19.816,, attackers can use constructed programs to cause computer crashes (BSOD).
-</code>
-
-- [y5s5k5/CVE-2020-23736](https://github.com/y5s5k5/CVE-2020-23736)
-
-### CVE-2020-23738 (2020-12-03)
-
-<code>
-There is a local denial of service vulnerability in Advanced SystemCare 13 PRO 13.5.0.174. Attackers can use a constructed program to cause a computer crash (BSOD)
-</code>
-
-- [y5s5k5/CVE-2020-23738](https://github.com/y5s5k5/CVE-2020-23738)
 
 ### CVE-2020-23740 (2020-12-03)
 
@@ -10728,7 +10689,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [Wh1t3Fox/cve-2018-15473](https://github.com/Wh1t3Fox/cve-2018-15473)
 - [1stPeak/CVE-2018-15473](https://github.com/1stPeak/CVE-2018-15473)
 - [coollce/CVE-2018-15473_burte](https://github.com/coollce/CVE-2018-15473_burte)
-- [crAckZ0p/CVE-2018-15473-py3](https://github.com/crAckZ0p/CVE-2018-15473-py3)
+- [Dirty-Racoon/CVE-2018-15473-py3](https://github.com/Dirty-Racoon/CVE-2018-15473-py3)
 - [Sait-Nuri/CVE-2018-15473](https://github.com/Sait-Nuri/CVE-2018-15473)
 - [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
 
