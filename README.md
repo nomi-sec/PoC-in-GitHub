@@ -9229,6 +9229,7 @@ Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer over
 - [reswitched/rcm-modchips](https://github.com/reswitched/rcm-modchips)
 - [ChrisFigura/react-tegra-payload-launcher](https://github.com/ChrisFigura/react-tegra-payload-launcher)
 - [austinhartzheim/fusee-gelee](https://github.com/austinhartzheim/fusee-gelee)
+- [Kinesys/Kinesys-Nintendo-CVE-2018-6242](https://github.com/Kinesys/Kinesys-Nintendo-CVE-2018-6242)
 
 ### CVE-2018-6376 (2018-01-30)
 
@@ -15876,6 +15877,14 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 - [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
 - [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
+
+### CVE-2014-0226 (2014-07-20)
+
+<code>
+Race condition in the mod_status module in the Apache HTTP Server before 2.4.10 allows remote attackers to cause a denial of service (heap-based buffer overflow), or possibly obtain sensitive credential information or execute arbitrary code, via a crafted request that triggers improper scoreboard handling within the status_handler function in modules/generators/mod_status.c and the lua_ap_scoreboard_worker function in modules/lua/lua_request.c.
+</code>
+
+- [shreesh1/CVE-2014-0226-poc](https://github.com/shreesh1/CVE-2014-0226-poc)
 
 ### CVE-2014-0291
 - [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
