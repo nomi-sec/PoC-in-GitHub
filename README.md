@@ -44,7 +44,12 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [oneoy/CVE-2021-1732-Exploit](https://github.com/oneoy/CVE-2021-1732-Exploit)
 - [ltfafei/CVE-2021-1732_exp](https://github.com/ltfafei/CVE-2021-1732_exp)
 
-### CVE-2021-1782
+### CVE-2021-1782 (2021-04-02)
+
+<code>
+A race condition was addressed with improved locking. This issue is fixed in macOS Big Sur 11.2, Security Update 2021-001 Catalina, Security Update 2021-001 Mojave, watchOS 7.3, tvOS 14.4, iOS 14.4 and iPadOS 14.4. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited..
+</code>
+
 - [synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782)
 
 ### CVE-2021-1994 (2021-01-20)
@@ -356,6 +361,7 @@ Server Side Request Forgery in vRealize Operations Manager API (CVE-2021-21975) 
 - [Al1ex/CVE-2021-21975](https://github.com/Al1ex/CVE-2021-21975)
 - [GuayoyoCyber/CVE-2021-21975](https://github.com/GuayoyoCyber/CVE-2021-21975)
 - [ltfafei/CVE-2021-21975_VMware_SSRF](https://github.com/ltfafei/CVE-2021-21975_VMware_SSRF)
+- [murataydemir/CVE-2021-21975](https://github.com/murataydemir/CVE-2021-21975)
 
 ### CVE-2021-21978 (2021-03-03)
 
@@ -2513,6 +2519,14 @@ The issue was addressed by clearing website permission prompts after navigation.
 
 - [c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781](https://github.com/c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781)
 
+### CVE-2020-9922 (2020-12-08)
+
+<code>
+A logic issue was addressed with improved state management. This issue is fixed in macOS Catalina 10.15.6, Security Update 2020-004 Mojave, Security Update 2020-004 High Sierra. Processing a maliciously crafted email may lead to writing arbitrary files.
+</code>
+
+- [Wowfunhappy/Fix-Apple-Mail-CVE-2020-9922](https://github.com/Wowfunhappy/Fix-Apple-Mail-CVE-2020-9922)
+
 ### CVE-2020-9934 (2020-10-16)
 
 <code>
@@ -4345,10 +4359,20 @@ A memory corruption issue was addressed with improved input validation. This iss
 
 - [FunPhishing/Apple-Safari-Remote-Code-Execution-CVE-2020-27930](https://github.com/FunPhishing/Apple-Safari-Remote-Code-Execution-CVE-2020-27930)
 
-### CVE-2020-27935
+### CVE-2020-27935 (2021-04-02)
+
+<code>
+Multiple issues were addressed with improved logic. This issue is fixed in iOS 14.2 and iPadOS 14.2, macOS Big Sur 11.0.1, watchOS 7.1, tvOS 14.2. A sandboxed process may be able to circumvent sandbox restrictions.
+</code>
+
 - [LIJI32/SnatchBox](https://github.com/LIJI32/SnatchBox)
 
-### CVE-2020-27949
+### CVE-2020-27949 (2021-04-02)
+
+<code>
+This issue was addressed with improved checks to prevent unauthorized actions. This issue is fixed in macOS Big Sur 11.1, Security Update 2020-001 Catalina, Security Update 2020-007 Mojave. A malicious application may cause unexpected changes in memory belonging to processes traced by DTrace.
+</code>
+
 - [seemoo-lab/dtrace-memaccess_cve-2020-27949](https://github.com/seemoo-lab/dtrace-memaccess_cve-2020-27949)
 
 ### CVE-2020-27950 (2020-12-08)
@@ -8508,17 +8532,6 @@ The Credential Security Support Provider protocol (CredSSP) in Microsoft Windows
 
 - [preempt/credssp](https://github.com/preempt/credssp)
 
-### CVE-2018-0952 (2018-08-15)
-
-<code>
-An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Collector allows file creation in arbitrary locations, aka &quot;Diagnostic Hub Standard Collector Elevation Of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Microsoft Visual Studio, Windows 10 Servers.
-</code>
-
-- [atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector)
-
-### CVE-2018-14
-- [lckJack/legacySymfony](https://github.com/lckJack/legacySymfony)
-
 ### CVE-2018-1010 (2018-04-11)
 
 <code>
@@ -8732,7 +8745,6 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628)
 - [jas502n/CVE-2018-2628](https://github.com/jas502n/CVE-2018-2628)
 - [stevenlinfeng/CVE-2018-2628](https://github.com/stevenlinfeng/CVE-2018-2628)
-- [likescam/CVE-2018-2628](https://github.com/likescam/CVE-2018-2628)
 - [Nervous/WebLogic-RCE-exploit](https://github.com/Nervous/WebLogic-RCE-exploit)
 - [Lighird/CVE-2018-2628](https://github.com/Lighird/CVE-2018-2628)
 - [0xMJ/CVE-2018-2628](https://github.com/0xMJ/CVE-2018-2628)
@@ -8748,21 +8760,12 @@ Vulnerability in the Oracle Hospitality Simphony component of Oracle Hospitality
 - [erpscanteam/CVE-2018-2636](https://github.com/erpscanteam/CVE-2018-2636)
 - [Cymmetria/micros_honeypot](https://github.com/Cymmetria/micros_honeypot)
 
-### CVE-2018-2844 (2018-04-18)
-
-<code>
-Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (subcomponent: Core). Supported versions that are affected are Prior to 5.1.36 and Prior to 5.2.10. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.0 Base Score 8.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).
-</code>
-
-- [renorobert/virtualbox-cve-2018-2844](https://github.com/renorobert/virtualbox-cve-2018-2844)
-
 ### CVE-2018-2879 (2018-04-18)
 
 <code>
 Vulnerability in the Oracle Access Manager component of Oracle Fusion Middleware (subcomponent: Authentication Engine). Supported versions that are affected are 11.1.2.3.0 and 12.2.1.3.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager. While the vulnerability is in Oracle Access Manager, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. Note: Please refer to Doc ID &lt;a href=&quot;http://support.oracle.com/CSP/main/article?cmd=show&amp;type=NOT&amp;id=2386496.1&quot;&gt;My Oracle Support Note 2386496.1 for instructions on how to address this issue. CVSS 3.0 Base Score 9.0 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H).
 </code>
 
-- [MostafaSoliman/Oracle-OAM-Padding-Oracle-CVE-2018-2879-Exploit](https://github.com/MostafaSoliman/Oracle-OAM-Padding-Oracle-CVE-2018-2879-Exploit)
 - [AymanElSherif/oracle-oam-authentication-bypas-exploit](https://github.com/AymanElSherif/oracle-oam-authentication-bypas-exploit)
 - [redtimmy/OAMBuster](https://github.com/redtimmy/OAMBuster)
 
@@ -8772,11 +8775,7 @@ Vulnerability in the Oracle Access Manager component of Oracle Fusion Middleware
 Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [sry309/CVE-2018-2893](https://github.com/sry309/CVE-2018-2893)
-- [ryanInf/CVE-2018-2893](https://github.com/ryanInf/CVE-2018-2893)
-- [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
-- [qianl0ng/CVE-2018-2893](https://github.com/qianl0ng/CVE-2018-2893)
 - [jas502n/CVE-2018-2893](https://github.com/jas502n/CVE-2018-2893)
 - [ianxtianxt/CVE-2018-2893](https://github.com/ianxtianxt/CVE-2018-2893)
 
@@ -8786,8 +8785,6 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS - Web Services). Supported versions that are affected are 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [111ddea/cve-2018-2894](https://github.com/111ddea/cve-2018-2894)
-- [LandGrey/CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894)
 - [jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894)
 - [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
 - [changpin666com/CVE-2018-2894-Weblogic-](https://github.com/changpin666com/CVE-2018-2894-Weblogic-)
@@ -8931,7 +8928,6 @@ An issue was discovered in certain Apple products. iOS before 11.3 is affected. 
 </code>
 
 - [FSecureLABS/CVE-2018-4121](https://github.com/FSecureLABS/CVE-2018-4121)
-- [likescam/CVE-2018-4121](https://github.com/likescam/CVE-2018-4121)
 - [jezzus/CVE-2018-4121](https://github.com/jezzus/CVE-2018-4121)
 
 ### CVE-2018-4124 (2018-04-03)
@@ -8967,14 +8963,6 @@ An issue was discovered in certain Apple products. macOS before 10.13.5 is affec
 </code>
 
 - [Synacktiv-contrib/CVE-2018-4193](https://github.com/Synacktiv-contrib/CVE-2018-4193)
-
-### CVE-2018-4233 (2018-06-08)
-
-<code>
-An issue was discovered in certain Apple products. iOS before 11.4 is affected. Safari before 11.1.1 is affected. iCloud before 7.5 on Windows is affected. iTunes before 12.7.5 on Windows is affected. tvOS before 11.4 is affected. watchOS before 4.3.1 is affected. The issue involves the &quot;WebKit&quot; component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.
-</code>
-
-- [saelo/cve-2018-4233](https://github.com/saelo/cve-2018-4233)
 
 ### CVE-2018-4241 (2018-06-08)
 
@@ -9186,14 +9174,6 @@ Cobham Sea Tel 121 build 222701 devices allow remote attackers to obtain potenti
 
 - [ezelf/seatel_terminals](https://github.com/ezelf/seatel_terminals)
 
-### CVE-2018-5740 (2019-01-16)
-
-<code>
-&quot;deny-answer-aliases&quot; is a little-used feature intended to help recursive server operators protect end users against DNS rebinding attacks, a potential method of circumventing the security model used by client browsers. However, a defect in this feature makes it easy, when the feature is in use, to experience an assertion failure in name.c. Affects BIND 9.7.0-&gt;9.8.8, 9.9.0-&gt;9.9.13, 9.10.0-&gt;9.10.8, 9.11.0-&gt;9.11.4, 9.12.0-&gt;9.12.2, 9.13.0-&gt;9.13.2.
-</code>
-
-- [sischkg/cve-2018-5740](https://github.com/sischkg/cve-2018-5740)
-
 ### CVE-2018-5951 (2020-03-02)
 
 <code>
@@ -9298,7 +9278,6 @@ plays_service.exe in the plays.tv service before 1.27.7.0, as distributed in AMD
 </code>
 
 - [securifera/CVE-2018-6546-Exploit](https://github.com/securifera/CVE-2018-6546-Exploit)
-- [YanZiShuang/CVE-2018-6546](https://github.com/YanZiShuang/CVE-2018-6546)
 
 ### CVE-2018-6574 (2018-02-07)
 
@@ -9525,7 +9504,6 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [fyraiga/CVE-2018-7600-drupalgeddon2-scanner](https://github.com/fyraiga/CVE-2018-7600-drupalgeddon2-scanner)
 - [Damian972/drupalgeddon-2](https://github.com/Damian972/drupalgeddon-2)
 - [Jyozi/CVE-2018-7600](https://github.com/Jyozi/CVE-2018-7600)
-- [happynote3966/CVE-2018-7600](https://github.com/happynote3966/CVE-2018-7600)
 - [shellord/CVE-2018-7600-Drupal-RCE](https://github.com/shellord/CVE-2018-7600-Drupal-RCE)
 - [r3dxpl0it/CVE-2018-7600](https://github.com/r3dxpl0it/CVE-2018-7600)
 - [cved-sources/cve-2018-7600](https://github.com/cved-sources/cve-2018-7600)
@@ -9545,7 +9523,6 @@ A remote code execution vulnerability exists within multiple subsystems of Drupa
 </code>
 
 - [1337g/Drupalgedon3](https://github.com/1337g/Drupalgedon3)
-- [happynote3966/CVE-2018-7602](https://github.com/happynote3966/CVE-2018-7602)
 - [kastellanos/CVE-2018-7602](https://github.com/kastellanos/CVE-2018-7602)
 - [cyberharsh/DrupalCVE-2018-7602](https://github.com/cyberharsh/DrupalCVE-2018-7602)
 
@@ -9664,14 +9641,6 @@ YzmCMS 3.7 has Stored XSS via the title parameter to advertisement/adver/edit.ht
 
 - [AlwaysHereFight/YZMCMSxss](https://github.com/AlwaysHereFight/YZMCMSxss)
 
-### CVE-2018-8090 (2018-07-25)
-
-<code>
-Quick Heal Total Security 64 bit 17.00 (QHTS64.exe), (QHTSFT64.exe) - Version 10.0.1.38; Quick Heal Total Security 32 bit 17.00 (QHTS32.exe), (QHTSFT32.exe) - Version 10.0.1.38; Quick Heal Internet Security 64 bit 17.00 (QHIS64.exe), (QHISFT64.exe) - Version 10.0.0.37; Quick Heal Internet Security 32 bit 17.00 (QHIS32.exe), (QHISFT32.exe) - Version 10.0.0.37; Quick Heal AntiVirus Pro 64 bit 17.00 (QHAV64.exe), (QHAVFT64.exe) - Version 10.0.0.37; and Quick Heal AntiVirus Pro 32 bit 17.00 (QHAV32.exe), (QHAVFT32.exe) - Version 10.0.0.37 allow DLL Hijacking because of Insecure Library Loading.
-</code>
-
-- [kernelm0de/CVE-2018-8090](https://github.com/kernelm0de/CVE-2018-8090)
-
 ### CVE-2018-8108 (2018-03-14)
 
 <code>
@@ -9699,21 +9668,11 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [ne1llee/cve-2018-8120](https://github.com/ne1llee/cve-2018-8120)
 - [alpha1ab/CVE-2018-8120](https://github.com/alpha1ab/CVE-2018-8120)
 - [areuu/CVE-2018-8120](https://github.com/areuu/CVE-2018-8120)
-- [EVOL4/CVE-2018-8120](https://github.com/EVOL4/CVE-2018-8120)
-- [ozkanbilge/CVE-2018-8120](https://github.com/ozkanbilge/CVE-2018-8120)
 - [qiantu88/CVE-2018-8120](https://github.com/qiantu88/CVE-2018-8120)
 - [Y0n0Y/cve-2018-8120-exp](https://github.com/Y0n0Y/cve-2018-8120-exp)
 - [DreamoneOnly/CVE-2018-8120](https://github.com/DreamoneOnly/CVE-2018-8120)
 - [StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120)
 - [wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120)
-
-### CVE-2018-8172 (2018-07-10)
-
-<code>
-A remote code execution vulnerability exists in Visual Studio software when the software does not check the source markup of a file for an unbuilt project, aka &quot;Visual Studio Remote Code Execution Vulnerability.&quot; This affects Microsoft Visual Studio, Expression Blend 4.
-</code>
-
-- [SyFi/CVE-2018-8172](https://github.com/SyFi/CVE-2018-8172)
 
 ### CVE-2018-8174 (2018-05-09)
 
@@ -9725,20 +9684,11 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [Yt1g3r/CVE-2018-8174_EXP](https://github.com/Yt1g3r/CVE-2018-8174_EXP)
 - [SyFi/CVE-2018-8174](https://github.com/SyFi/CVE-2018-8174)
 - [orf53975/Rig-Exploit-for-CVE-2018-8174](https://github.com/orf53975/Rig-Exploit-for-CVE-2018-8174)
-- [piotrflorczyk/cve-2018-8174_analysis](https://github.com/piotrflorczyk/cve-2018-8174_analysis)
 - [likescam/CVE-2018-8174-msf](https://github.com/likescam/CVE-2018-8174-msf)
 - [ruthlezs/ie11_vbscript_exploit](https://github.com/ruthlezs/ie11_vbscript_exploit)
 - [ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP)
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP)
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-)
-
-### CVE-2018-8208 (2018-06-14)
-
-<code>
-An elevation of privilege vulnerability exists in Windows when Desktop Bridge does not properly manage the virtual registry, aka &quot;Windows Desktop Bridge Elevation of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8214.
-</code>
-
-- [kaisaryousuf/CVE-2018-8208](https://github.com/kaisaryousuf/CVE-2018-8208)
 
 ### CVE-2018-8214 (2018-06-14)
 
@@ -9866,7 +9816,6 @@ A statement in the System Programming Guide of the Intel 64 and IA-32 Architectu
 - [nmulasmajic/CVE-2018-8897](https://github.com/nmulasmajic/CVE-2018-8897)
 - [jiazhang0/pop-mov-ss-exploit](https://github.com/jiazhang0/pop-mov-ss-exploit)
 - [can1357/CVE-2018-8897](https://github.com/can1357/CVE-2018-8897)
-- [nmulasmajic/syscall_exploit_CVE-2018-8897](https://github.com/nmulasmajic/syscall_exploit_CVE-2018-8897)
 
 ### CVE-2018-8941 (2018-04-03)
 
@@ -9986,7 +9935,6 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 </code>
 
 - [manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958](https://github.com/manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958)
-- [orangepirate/cve-2018-9948-9958-exp](https://github.com/orangepirate/cve-2018-9948-9958-exp)
 
 ### CVE-2018-9950 (2018-05-17)
 
@@ -10308,13 +10256,7 @@ From version 1.3.0 onward, Apache Spark's standalone master exposes a REST API f
 Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remote Code Execution when alwaysSelectFullNamespace is true (either by user or a plugin like Convention Plugin) and then: results are used with no namespace and in same time, its upper package have no or wildcard namespace and similar to results, same possibility when using url tag which doesn't have value and action set and in same time, its upper package have no or wildcard namespace.
 </code>
 
-- [trbpnd/CVE-2018-11776](https://github.com/trbpnd/CVE-2018-11776)
 - [xfox64x/CVE-2018-11776](https://github.com/xfox64x/CVE-2018-11776)
-- [jiguangin/CVE-2018-11776](https://github.com/jiguangin/CVE-2018-11776)
-- [hook-s3c/CVE-2018-11776-Python-PoC](https://github.com/hook-s3c/CVE-2018-11776-Python-PoC)
-- [mazen160/struts-pwn_CVE-2018-11776](https://github.com/mazen160/struts-pwn_CVE-2018-11776)
-- [bhdresh/CVE-2018-11776](https://github.com/bhdresh/CVE-2018-11776)
-- [knqyf263/CVE-2018-11776](https://github.com/knqyf263/CVE-2018-11776)
 - [Ekultek/Strutter](https://github.com/Ekultek/Strutter)
 - [tuxotron/cve-2018-11776-docker](https://github.com/tuxotron/cve-2018-11776-docker)
 - [brianwrf/S2-057-CVE-2018-11776](https://github.com/brianwrf/S2-057-CVE-2018-11776)
@@ -10399,14 +10341,6 @@ LTB (aka LDAP Tool Box) Self Service Password before 1.3 allows a change to a us
 
 - [ReverseBrain/CVE-2018-12421](https://github.com/ReverseBrain/CVE-2018-12421)
 
-### CVE-2018-12463 (2018-07-12)
-
-<code>
-An XML external entity (XXE) vulnerability in Fortify Software Security Center (SSC), version 17.1, 17.2, 18.1 allows remote unauthenticated users to read arbitrary files or conduct server-side request forgery (SSRF) attacks via a crafted DTD in an XML request.
-</code>
-
-- [alt3kx/CVE-2018-12463](https://github.com/alt3kx/CVE-2018-12463)
-
 ### CVE-2018-12533 (2018-06-18)
 
 <code>
@@ -10463,14 +10397,6 @@ Adobe Acrobat and Reader 2018.011.20040 and earlier, 2017.011.30080 and earlier,
 
 - [sharmasandeepkr/cve-2018-12798](https://github.com/sharmasandeepkr/cve-2018-12798)
 
-### CVE-2018-12895 (2018-06-26)
-
-<code>
-WordPress through 4.9.6 allows Author users to execute arbitrary code by leveraging directory traversal in the wp-admin/post.php thumb parameter, which is passed to the PHP unlink function and can delete the wp-config.php file. This is related to missing filename validation in the wp-includes/post.php wp_delete_attachment function. The attacker must have capabilities for files and posts that are normally available only to the Author, Editor, and Administrator roles. The attack methodology is to delete wp-config.php and then launch a new installation process to increase the attacker's privileges.
-</code>
-
-- [bloom-ux/cve-2018-12895-hotfix](https://github.com/bloom-ux/cve-2018-12895-hotfix)
-
 ### CVE-2018-13257 (2019-11-18)
 
 <code>
@@ -10519,14 +10445,6 @@ An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.
 
 - [shinecome/zip](https://github.com/shinecome/zip)
 
-### CVE-2018-13784 (2018-07-09)
-
-<code>
-PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption in Cookie.php, Rinjdael.php, and Blowfish.php.
-</code>
-
-- [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits)
-
 ### CVE-2018-13797 (2018-07-10)
 
 <code>
@@ -10542,14 +10460,6 @@ A directory traversal vulnerability has been found in the Assets controller in P
 </code>
 
 - [tafamace/CVE-2018-13864](https://github.com/tafamace/CVE-2018-13864)
-
-### CVE-2018-14083 (2018-07-25)
-
-<code>
-LICA miniCMTS E8K(u/i/...) devices allow remote attackers to obtain sensitive information via a direct POST request for the inc/user.ini file, leading to discovery of a password hash.
-</code>
-
-- [pudding2/CVE-2018-14083](https://github.com/pudding2/CVE-2018-14083)
 
 ### CVE-2018-14442 (2018-07-20)
 
@@ -10687,14 +10597,6 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [Dirty-Racoon/CVE-2018-15473-py3](https://github.com/Dirty-Racoon/CVE-2018-15473-py3)
 - [Sait-Nuri/CVE-2018-15473](https://github.com/Sait-Nuri/CVE-2018-15473)
 - [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
-
-### CVE-2018-15499 (2018-08-24)
-
-<code>
-GEAR Software products that include GEARAspiWDM.sys, 2.2.5.0, allow local users to cause a denial of service (Race Condition and BSoD on Windows) by not checking that user-mode memory is available right before writing to it. A check is only performed at the beginning of a long subroutine.
-</code>
-
-- [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
 
 ### CVE-2018-15686 (2018-10-26)
 
