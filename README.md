@@ -517,7 +517,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [h4x0r-dz/CVE-2021-26855](https://github.com/h4x0r-dz/CVE-2021-26855)
 - [alt3kx/CVE-2021-26855_PoC](https://github.com/alt3kx/CVE-2021-26855_PoC)
 - [achabahe/CVE-2021-26855](https://github.com/achabahe/CVE-2021-26855)
-- [raheel0x01/CVE-2021-26855](https://github.com/raheel0x01/CVE-2021-26855)
+- [raheel0x01/eeb927d1189ad44742095f58636483984bfbfa355f69f94439e276df306d9568](https://github.com/raheel0x01/eeb927d1189ad44742095f58636483984bfbfa355f69f94439e276df306d9568)
 - [hackerschoice/CVE-2021-26855](https://github.com/hackerschoice/CVE-2021-26855)
 - [SCS-Labs/HAFNIUM-Microsoft-Exchange-0day](https://github.com/SCS-Labs/HAFNIUM-Microsoft-Exchange-0day)
 - [KotSec/CVE-2021-26855-Scanner](https://github.com/KotSec/CVE-2021-26855-Scanner)
@@ -684,6 +684,14 @@ Mahara 20.10 is affected by Cross Site Request Forgery (CSRF) that allows a remo
 
 ### CVE-2021-29386
 - [Umarovm/PowerSchool-Grade-Stealer](https://github.com/Umarovm/PowerSchool-Grade-Stealer)
+
+### CVE-2021-30109 (2021-04-05)
+
+<code>
+Froala Editor 3.2.6 is affected by Cross Site Scripting (XSS). Under certain conditions, a base64 crafted string leads to persistent Cross-site scripting (XSS) vulnerability within the hyperlink creation module.
+</code>
+
+- [Hackdwerg/CVE-2021-30109](https://github.com/Hackdwerg/CVE-2021-30109)
 
 
 ## 2020
@@ -10535,6 +10543,7 @@ Crestron TSW-X60 all versions prior to 2.001.0037.001 and MC3 all versions prior
 </code>
 
 - [axcheron/crestron_getsudopwd](https://github.com/axcheron/crestron_getsudopwd)
+- [Rajchowdhury420/CVE-2018-13341](https://github.com/Rajchowdhury420/CVE-2018-13341)
 
 ### CVE-2018-13379 (2019-06-04)
 
