@@ -12746,7 +12746,6 @@ A specially crafted IOCTL can be issued to the rzpnk.sys driver in Razer Synapse
 </code>
 
 - [kkent030315/CVE-2017-9769](https://github.com/kkent030315/CVE-2017-9769)
-- [ORCA666/CVE-2017-9769-exploits](https://github.com/ORCA666/CVE-2017-9769-exploits)
 
 ### CVE-2017-9779 (2017-09-07)
 
