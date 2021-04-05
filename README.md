@@ -169,6 +169,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156)
 - [Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156)
 - [password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156)
+- [AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
@@ -1954,6 +1955,7 @@ Django 1.11 before 1.11.28, 2.2 before 2.2.10, and 3.0 before 3.0.3 allows SQL I
 - [Saferman/CVE-2020-7471](https://github.com/Saferman/CVE-2020-7471)
 - [secoba/DjVul_StringAgg](https://github.com/secoba/DjVul_StringAgg)
 - [SNCKER/CVE-2020-7471](https://github.com/SNCKER/CVE-2020-7471)
+- [Tempuss/CTF_CVE-2020-7471](https://github.com/Tempuss/CTF_CVE-2020-7471)
 - [victomteng1997/cve-2020-7471-Time_Blind_SQLi-](https://github.com/victomteng1997/cve-2020-7471-Time_Blind_SQLi-)
 
 ### CVE-2020-7473 (2020-05-07)
@@ -16407,6 +16409,14 @@ GNU Bash through 4.3 bash43-025 processes trailing strings after certain malform
 - [chef-boneyard/bash-shellshock](https://github.com/chef-boneyard/bash-shellshock)
 - [gina-alaska/bash-cve-2014-7169-cookbook](https://github.com/gina-alaska/bash-cve-2014-7169-cookbook)
 
+### CVE-2014-7205 (2014-10-08)
+
+<code>
+Eval injection vulnerability in the internals.batch function in lib/batch.js in the bassmaster plugin before 1.5.2 for the hapi server framework for Node.js allows remote attackers to execute arbitrary Javascript code via unspecified vectors.
+</code>
+
+- [maximilianmarx/bassmaster-rce](https://github.com/maximilianmarx/bassmaster-rce)
+
 ### CVE-2014-7236 (2020-02-17)
 
 <code>
@@ -18227,14 +18237,6 @@ File and Print Sharing service in Windows 95, Windows 98, and Windows Me does no
 
 
 ## 1999
-### CVE-1999-0016 (1999-09-29)
-
-<code>
-Land IP denial of service.
-</code>
-
-- [Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC)
-
 ### CVE-1999-0532
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
 
