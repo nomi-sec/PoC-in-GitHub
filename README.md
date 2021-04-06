@@ -198,6 +198,14 @@ Denial of service in ASUSWRT ASUS RT-AX3000 firmware versions 3.0.0.4.384_10177 
 
 - [fullbbadda1208/CVE-2021-3229](https://github.com/fullbbadda1208/CVE-2021-3229)
 
+### CVE-2021-3297 (2021-01-26)
+
+<code>
+On Zyxel NBG2105 V1.00(AAGU.2)C0 devices, setting the login cookie to 1 provides administrator access.
+</code>
+
+- [Sec504/Zyxel-NBG2105-CVE-2021-3297](https://github.com/Sec504/Zyxel-NBG2105-CVE-2021-3297)
+
 ### CVE-2021-3327 (2021-03-18)
 
 <code>
@@ -300,6 +308,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300)
 - [CppXL/CVE-2021-21300](https://github.com/CppXL/CVE-2021-21300)
 - [ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300)
+- [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -1307,6 +1316,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [YossiSassi/ZeroLogon-Exploitation-Check](https://github.com/YossiSassi/ZeroLogon-Exploitation-Check)
 - [sho-luv/zerologon](https://github.com/sho-luv/zerologon)
 - [hell-moon/ZeroLogon-Exploit](https://github.com/hell-moon/ZeroLogon-Exploit)
+- [Udyz/Zerologon](https://github.com/Udyz/Zerologon)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -3774,7 +3784,12 @@ The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x8
 
 - [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
 
-### CVE-2020-17453
+### CVE-2020-17453 (2021-04-05)
+
+<code>
+WSO2 Management Console through 5.10 allows XSS via the carbon/admin/login.jsp msgId parameter.
+</code>
+
 - [JHHAX/CVE-2020-17453-PoC](https://github.com/JHHAX/CVE-2020-17453-PoC)
 
 ### CVE-2020-17456 (2020-08-19)
@@ -17049,6 +17064,7 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 - [cd6629/CVE-2012-2982-Python-PoC](https://github.com/cd6629/CVE-2012-2982-Python-PoC)
 - [OstojaOfficial/CVE-2012-2982](https://github.com/OstojaOfficial/CVE-2012-2982)
 - [AlexJS6/CVE-2012-2982_Python](https://github.com/AlexJS6/CVE-2012-2982_Python)
+- [Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
 
