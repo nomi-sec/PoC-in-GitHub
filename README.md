@@ -544,6 +544,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065)
 - [praetorian-inc/proxylogon-exploit](https://github.com/praetorian-inc/proxylogon-exploit)
 - [inpalmer/MSE-Exchange-Alert-Check](https://github.com/inpalmer/MSE-Exchange-Alert-Check)
+- [Flangvik/SharpProxyLogon](https://github.com/Flangvik/SharpProxyLogon)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -8361,6 +8362,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [w4fz5uck5/CVE-2019-19781-CitrixRCE](https://github.com/w4fz5uck5/CVE-2019-19781-CitrixRCE)
 - [andripwn/CVE-2019-19781](https://github.com/andripwn/CVE-2019-19781)
 - [VladRico/CVE-2019-19781](https://github.com/VladRico/CVE-2019-19781)
+- [pwn3z/CVE-2019-19781-Citrix](https://github.com/pwn3z/CVE-2019-19781-Citrix)
 
 ### CVE-2019-19844 (2019-12-18)
 
