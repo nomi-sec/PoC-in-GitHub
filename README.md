@@ -354,6 +354,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [ByZain/CVE-2021-21972](https://github.com/ByZain/CVE-2021-21972)
 - [TaroballzChen/CVE-2021-21972](https://github.com/TaroballzChen/CVE-2021-21972)
 - [password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972)
+- [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -703,6 +704,9 @@ Froala Editor 3.2.6 is affected by Cross Site Scripting (XSS). Under certain con
 </code>
 
 - [Hackdwerg/CVE-2021-30109](https://github.com/Hackdwerg/CVE-2021-30109)
+
+### CVE-2021-30146
+- [Security-AVS/CVE-2021-30146](https://github.com/Security-AVS/CVE-2021-30146)
 
 
 ## 2020
@@ -18255,6 +18259,15 @@ File and Print Sharing service in Windows 95, Windows 98, and Windows Me does no
 
 
 ## 1999
+### CVE-1999-0016 (1999-09-29)
+
+<code>
+Land IP denial of service.
+</code>
+
+- [pexmee/CVE-1999-0016-Land-DOS-tool](https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool)
+- [Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC)
+
 ### CVE-1999-0532
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
 
