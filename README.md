@@ -705,8 +705,29 @@ Froala Editor 3.2.6 is affected by Cross Site Scripting (XSS). Under certain con
 
 - [Hackdwerg/CVE-2021-30109](https://github.com/Hackdwerg/CVE-2021-30109)
 
-### CVE-2021-30146
+### CVE-2021-30146 (2021-04-06)
+
+<code>
+Seafile 7.0.5 (2019) allows Persistent XSS via the &quot;share of library functionality.&quot;
+</code>
+
 - [Security-AVS/CVE-2021-30146](https://github.com/Security-AVS/CVE-2021-30146)
+
+### CVE-2021-30149 (2021-04-06)
+
+<code>
+Composr 10.0.36 allows upload and execution of PHP files.
+</code>
+
+- [orionhridoy/CVE-2021-30149](https://github.com/orionhridoy/CVE-2021-30149)
+
+### CVE-2021-30150 (2021-04-06)
+
+<code>
+Composr 10.0.36 allows XSS in an XML script.
+</code>
+
+- [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
 
 
 ## 2020
@@ -16636,14 +16657,6 @@ Directory traversal vulnerability in MDM.php in Novell ZENworks Mobile Managemen
 
 - [steponequit/CVE-2013-1081](https://github.com/steponequit/CVE-2013-1081)
 
-### CVE-2013-1300 (2013-07-09)
-
-<code>
-win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows Server 2012, and Windows RT does not properly handle objects in memory, which allows local users to gain privileges via a crafted application, aka &quot;Win32k Memory Allocation Vulnerability.&quot;
-</code>
-
-- [Meatballs1/cve-2013-1300](https://github.com/Meatballs1/cve-2013-1300)
-
 ### CVE-2013-1488 (2013-03-08)
 
 <code>
@@ -16659,14 +16672,6 @@ The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and e
 </code>
 
 - [guhe120/CVE20131491-JIT](https://github.com/guhe120/CVE20131491-JIT)
-
-### CVE-2013-1690 (2013-06-25)
-
-<code>
-Mozilla Firefox before 22.0, Firefox ESR 17.x before 17.0.7, Thunderbird before 17.0.7, and Thunderbird ESR 17.x before 17.0.7 do not properly handle onreadystatechange events in conjunction with page reloading, which allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted web site that triggers an attempt to execute data at an unmapped memory location.
-</code>
-
-- [vlad902/annotated-fbi-tbb-exploit](https://github.com/vlad902/annotated-fbi-tbb-exploit)
 
 ### CVE-2013-1775 (2013-03-04)
 
@@ -16888,14 +16893,6 @@ Buffer overflow in PCMan's FTP Server 2.0.7 allows remote attackers to execute a
 
 - [t0rt3ll1n0/PCmanBoF](https://github.com/t0rt3ll1n0/PCmanBoF)
 
-### CVE-2013-4784 (2013-07-08)
-
-<code>
-The HP Integrated Lights-Out (iLO) BMC implementation allows remote attackers to bypass authentication and execute arbitrary IPMI commands by using cipher suite 0 (aka cipher zero) and an arbitrary password.
-</code>
-
-- [alexoslabs/ipmitest](https://github.com/alexoslabs/ipmitest)
-
 ### CVE-2013-5065 (2013-11-27)
 
 <code>
@@ -16910,8 +16907,6 @@ NDProxy.sys in the kernel in Microsoft Windows XP SP2 and SP3 and Server 2003 SP
 The monlist feature in ntp_request.c in ntpd in NTP before 4.2.7p26 allows remote attackers to cause a denial of service (traffic amplification) via forged (1) REQ_MON_GETLIST or (2) REQ_MON_GETLIST_1 requests, as exploited in the wild in December 2013.
 </code>
 
-- [dani87/ntpscanner](https://github.com/dani87/ntpscanner)
-- [suedadam/ntpscanner](https://github.com/suedadam/ntpscanner)
 - [sepehrdaddev/ntpdos](https://github.com/sepehrdaddev/ntpdos)
 
 ### CVE-2013-5664 (2013-08-31)
@@ -16930,14 +16925,6 @@ The Bloom Filter implementation in bitcoind and Bitcoin-Qt 0.8.x before 0.8.4rc1
 
 - [nondejus/CVE-2013-5700](https://github.com/nondejus/CVE-2013-5700)
 
-### CVE-2013-5842 (2013-10-16)
-
-<code>
-Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-5850.
-</code>
-
-- [guhe120/CVE-2013-5842](https://github.com/guhe120/CVE-2013-5842)
-
 ### CVE-2013-6117 (2014-07-11)
 
 <code>
@@ -16953,7 +16940,6 @@ The (1) get_user and (2) put_user API functions in the Linux kernel before 3.5.5
 </code>
 
 - [fi01/libput_user_exploit](https://github.com/fi01/libput_user_exploit)
-- [fi01/libget_user_exploit](https://github.com/fi01/libget_user_exploit)
 - [jeboo/bypasslkm](https://github.com/jeboo/bypasslkm)
 - [timwr/CVE-2013-6282](https://github.com/timwr/CVE-2013-6282)
 
@@ -16964,14 +16950,6 @@ Xen 4.2.x and 4.3.x, when using Intel VT-d for PCI passthrough, does not properl
 </code>
 
 - [bl4ck5un/cve-2013-6375](https://github.com/bl4ck5un/cve-2013-6375)
-
-### CVE-2013-6668 (2014-03-04)
-
-<code>
-Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in Google Chrome before 33.0.1750.146, allow attackers to cause a denial of service or possibly have other impact via unknown vectors.
-</code>
-
-- [sdneon/CveTest](https://github.com/sdneon/CveTest)
 
 
 ## 2012
