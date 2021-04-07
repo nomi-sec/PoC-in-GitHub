@@ -429,6 +429,14 @@ Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-
 
 - [sourceincite/CVE-2021-24085](https://github.com/sourceincite/CVE-2021-24085)
 
+### CVE-2021-24086 (2021-02-25)
+
+<code>
+Windows TCP/IP Denial of Service Vulnerability
+</code>
+
+- [0vercl0k/CVE-2021-24086](https://github.com/0vercl0k/CVE-2021-24086)
+
 ### CVE-2021-24096 (2021-02-25)
 
 <code>
@@ -3477,6 +3485,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [ShmilySec/CVE-2020-14882](https://github.com/ShmilySec/CVE-2020-14882)
 - [pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic)
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
+- [nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -5014,7 +5023,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [Cyb0r9/ispy](https://github.com/Cyb0r9/ispy)
 - [shishibabyq/CVE-2019-0708](https://github.com/shishibabyq/CVE-2019-0708)
 - [pwnhacker0x18/Wincrash](https://github.com/pwnhacker0x18/Wincrash)
-- [Hen51/CVE-2019-0708-DOS](https://github.com/Hen51/CVE-2019-0708-DOS)
+- [R4v3nG/CVE-2019-0708-DOS](https://github.com/R4v3nG/CVE-2019-0708-DOS)
 - [lwtz/CVE-2019-0708](https://github.com/lwtz/CVE-2019-0708)
 - [ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708)
 - [worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708)
