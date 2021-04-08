@@ -336,6 +336,14 @@ Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, wit
 
 - [MzzdToT/CVE-2021-21402](https://github.com/MzzdToT/CVE-2021-21402)
 
+### CVE-2021-21635 (2021-03-30)
+
+<code>
+Jenkins REST List Parameter Plugin 1.3.0 and earlier does not escape a parameter name reference in embedded JavaScript, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.
+</code>
+
+- [kenyon-wong/cve-2021-21635](https://github.com/kenyon-wong/cve-2021-21635)
+
 ### CVE-2021-21972 (2021-02-24)
 
 <code>
@@ -11582,7 +11590,6 @@ In all Kubernetes versions prior to v1.10.11, v1.11.5, and v1.12.3, incorrect ha
 - [evict/poc_CVE-2018-1002105](https://github.com/evict/poc_CVE-2018-1002105)
 - [imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install)
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
-- [mdnix/cve-2018-1002105](https://github.com/mdnix/cve-2018-1002105)
 
 ### CVE-2018-1999002 (2018-07-23)
 
@@ -12809,6 +12816,14 @@ Cross-site scripting (XSS) vulnerability in Blackcat CMS 1.2 allows remote authe
 </code>
 
 - [faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc](https://github.com/faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc)
+
+### CVE-2017-9627 (2017-07-07)
+
+<code>
+An Uncontrolled Resource Consumption issue was discovered in Schneider Electric Wonderware ArchestrA Logger, versions 2017.426.2307.1 and prior. The uncontrolled resource consumption vulnerability could allow an attacker to exhaust the memory resources of the machine, causing a denial of service.
+</code>
+
+- [USSCltd/aaLogger](https://github.com/USSCltd/aaLogger)
 
 ### CVE-2017-9769 (2017-08-02)
 
