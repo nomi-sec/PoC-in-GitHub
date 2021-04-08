@@ -328,6 +328,14 @@ BuddyPress is an open source WordPress plugin to build a community site. In rele
 
 - [HoangKien1020/CVE-2021-21389](https://github.com/HoangKien1020/CVE-2021-21389)
 
+### CVE-2021-21402 (2021-03-23)
+
+<code>
+Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, with certain endpoints, well crafted requests will allow arbitrary file read from a Jellyfin server's file system. This issue is more prevalent when Windows is used as the host OS. Servers that are exposed to the public Internet are potentially at risk. This is fixed in version 10.7.1. As a workaround, users may be able to restrict some access by enforcing strict security permissions on their filesystem, however, it is recommended to update as soon as possible.
+</code>
+
+- [MzzdToT/CVE-2021-21402](https://github.com/MzzdToT/CVE-2021-21402)
+
 ### CVE-2021-21972 (2021-02-24)
 
 <code>
@@ -18111,6 +18119,7 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
+- [SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT)
 
 ### CVE-2003-0282 (2003-05-14)
 
