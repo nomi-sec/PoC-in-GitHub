@@ -206,6 +206,14 @@ On Zyxel NBG2105 V1.00(AAGU.2)C0 devices, setting the login cookie to 1 provides
 
 - [Sec504/Zyxel-NBG2105-CVE-2021-3297](https://github.com/Sec504/Zyxel-NBG2105-CVE-2021-3297)
 
+### CVE-2021-3317 (2021-01-26)
+
+<code>
+KLog Server through 2.4.1 allows authenticated command injection. async.php calls shell_exec() on the original value of the source parameter.
+</code>
+
+- [Al1ex/CVE-2021-3317](https://github.com/Al1ex/CVE-2021-3317)
+
 ### CVE-2021-3327 (2021-03-18)
 
 <code>
@@ -335,6 +343,8 @@ Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, wit
 </code>
 
 - [MzzdToT/CVE-2021-21402](https://github.com/MzzdToT/CVE-2021-21402)
+- [xiaoshu-bit/CVE-2021-21402](https://github.com/xiaoshu-bit/CVE-2021-21402)
+- [jiaocoll/CVE-2021-21402-Jellyfin](https://github.com/jiaocoll/CVE-2021-21402-Jellyfin)
 
 ### CVE-2021-21635 (2021-03-30)
 
@@ -2507,6 +2517,14 @@ An issue was discovered in Wing FTP Server 6.2.5 before February 2020. Due to in
 </code>
 
 - [Al1ex/CVE-2020-9470](https://github.com/Al1ex/CVE-2020-9470)
+
+### CVE-2020-9472 (2020-03-16)
+
+<code>
+Umbraco CMS 8.5.3 allows an authenticated file upload (and consequently Remote Code Execution) via the Install Package functionality.
+</code>
+
+- [john-dooe/CVE-2020-9472-poisoned-plugin](https://github.com/john-dooe/CVE-2020-9472-poisoned-plugin)
 
 ### CVE-2020-9483 (2020-06-30)
 
@@ -4776,6 +4794,14 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-35728](https://github.com/Al1ex/CVE-2020-35728)
+
+### CVE-2020-35729 (2020-12-26)
+
+<code>
+KLog Server 2.4.1 allows OS command injection via shell metacharacters in the actions/authenticate.php user parameter.
+</code>
+
+- [Al1ex/CVE-2020-35729](https://github.com/Al1ex/CVE-2020-35729)
 
 ### CVE-2020-36079 (2021-02-26)
 
