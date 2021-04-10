@@ -774,6 +774,15 @@ Composr 10.0.36 allows XSS in an XML script.
 ### CVE-2021-34567
 - [hu185396/cve-2021-34567](https://github.com/hu185396/cve-2021-34567)
 
+### CVE-2021-9876543210
+- [lorddian/CVE-2021-9876543210](https://github.com/lorddian/CVE-2021-9876543210)
+
+### CVE-2021-12345678910
+- [lorddian/CVE-2021-12345678910JQK](https://github.com/lorddian/CVE-2021-12345678910JQK)
+
+### CVE-2021-88888888899
+- [lorddian/CVE-2021-88888888899](https://github.com/lorddian/CVE-2021-88888888899)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
