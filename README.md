@@ -254,6 +254,9 @@ An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation Clie
 
 - [terorie/cve-2021-3449](https://github.com/terorie/cve-2021-3449)
 
+### CVE-2021-11111
+- [hu185396/CVE-2021-11111](https://github.com/hu185396/CVE-2021-11111)
+
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
@@ -403,6 +406,7 @@ Server Side Request Forgery in vRealize Operations Manager API (CVE-2021-21975) 
 - [ltfafei/CVE-2021-21975_VMware_SSRF](https://github.com/ltfafei/CVE-2021-21975_VMware_SSRF)
 - [murataydemir/CVE-2021-21975](https://github.com/murataydemir/CVE-2021-21975)
 - [rabidwh0re/REALITY_SMASHER](https://github.com/rabidwh0re/REALITY_SMASHER)
+- [Vulnmachines/VMWare-CVE-2021-21975](https://github.com/Vulnmachines/VMWare-CVE-2021-21975)
 
 ### CVE-2021-21978 (2021-03-03)
 
@@ -488,6 +492,14 @@ An issue was discovered in through SaltStack Salt before 3002.5. salt-api does n
 </code>
 
 - [Immersive-Labs-Sec/CVE-2021-25281](https://github.com/Immersive-Labs-Sec/CVE-2021-25281)
+
+### CVE-2021-25374 (2021-04-09)
+
+<code>
+An improper authorization vulnerability in Samsung Members &quot;samsungrewards&quot; scheme for deeplink in versions 2.4.83.9 in Android O(8.1) and below, and 3.9.00.9 in Android P(9.0) and above allows remote attackers to access a user data related with Samsung Account.
+</code>
+
+- [FSecureLABS/CVE-2021-25374_Samsung-Account-Access](https://github.com/FSecureLABS/CVE-2021-25374_Samsung-Account-Access)
 
 ### CVE-2021-25646 (2021-01-29)
 
@@ -770,9 +782,6 @@ Composr 10.0.36 allows XSS in an XML script.
 </code>
 
 - [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
-
-### CVE-2021-34567
-- [hu185396/cve-2021-34567](https://github.com/hu185396/cve-2021-34567)
 
 ### CVE-2021-9876543210
 - [lorddian/CVE-2021-9876543210](https://github.com/lorddian/CVE-2021-9876543210)
@@ -7015,6 +7024,14 @@ Deltek Maconomy 2.2.5 is prone to local file inclusion via absolute path travers
 
 - [ras313/CVE-2019-12314](https://github.com/ras313/CVE-2019-12314)
 
+### CVE-2019-12345 (2019-05-27)
+
+<code>
+XSS exists in the Kiboko Hostel plugin before 1.1.4 for WordPress.
+</code>
+
+- [hu185396/cve-2019-12345](https://github.com/hu185396/cve-2019-12345)
+
 ### CVE-2019-12384 (2019-06-24)
 
 <code>
@@ -7842,7 +7859,7 @@ Pega Platform 8.2.1 allows LDAP injection because a username can contain a * cha
 SPIP before 3.1.11 and 3.2 before 3.2.5 provides different error messages from the password-reminder page depending on whether an e-mail address exists, which might help attackers to enumerate subscribers.
 </code>
 
-- [SilentVoid13/Silent_CVE_2019_16394](https://github.com/SilentVoid13/Silent_CVE_2019_16394)
+- [trungnd51/Silent_CVE_2019_16394](https://github.com/trungnd51/Silent_CVE_2019_16394)
 
 ### CVE-2019-16405 (2019-11-21)
 
@@ -9436,6 +9453,7 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [vineetkia/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/vineetkia/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
+- [Elsfa7-110/CVE-2018-6389](https://github.com/Elsfa7-110/CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
@@ -10391,6 +10409,7 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [makeross/CVE-2018-11235](https://github.com/makeross/CVE-2018-11235)
 - [makeross/CVE-2018-11235_pub](https://github.com/makeross/CVE-2018-11235_pub)
 - [jongmartinez/CVE-2018-11235-PoC](https://github.com/jongmartinez/CVE-2018-11235-PoC)
+- [rafaelfrageri/PTLB-CVE-2018-11235](https://github.com/rafaelfrageri/PTLB-CVE-2018-11235)
 
 ### CVE-2018-11236 (2018-05-18)
 
