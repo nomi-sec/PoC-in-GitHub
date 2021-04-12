@@ -753,6 +753,14 @@ Mahara 20.10 is affected by Cross Site Request Forgery (CSRF) that allows a remo
 ### CVE-2021-29386
 - [Umarovm/PowerSchool-Grade-Stealer](https://github.com/Umarovm/PowerSchool-Grade-Stealer)
 
+### CVE-2021-29627 (2021-04-07)
+
+<code>
+In FreeBSD 13.0-STABLE before n245050, 12.2-STABLE before r369525, 13.0-RC4 before p0, and 12.2-RELEASE before p6, listening socket accept filters implementing the accf_create callback incorrectly freed a process supplied argument string. Additional operations on the socket can lead to a double free or use after free.
+</code>
+
+- [raymontag/cve-2021-29627](https://github.com/raymontag/cve-2021-29627)
+
 ### CVE-2021-30109 (2021-04-05)
 
 <code>
@@ -9010,7 +9018,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 </code>
 
 - [jas502n/CVE-2018-3252](https://github.com/jas502n/CVE-2018-3252)
-- [b1ueb0y/CVE-2018-3252](https://github.com/b1ueb0y/CVE-2018-3252)
+- [cfan6/CVE-2018-3252](https://github.com/cfan6/CVE-2018-3252)
 - [pyn3rd/CVE-2018-3252](https://github.com/pyn3rd/CVE-2018-3252)
 
 ### CVE-2018-3260
