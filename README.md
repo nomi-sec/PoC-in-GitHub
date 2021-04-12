@@ -597,7 +597,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [shacojx/CVE-2021-26855-exploit-Exchange](https://github.com/shacojx/CVE-2021-26855-exploit-Exchange)
 - [hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065)
 - [praetorian-inc/proxylogon-exploit](https://github.com/praetorian-inc/proxylogon-exploit)
-- [inpalmer/MSE-Exchange-Alert-Check](https://github.com/inpalmer/MSE-Exchange-Alert-Check)
 - [Flangvik/SharpProxyLogon](https://github.com/Flangvik/SharpProxyLogon)
 
 ### CVE-2021-26857 (2021-03-02)
