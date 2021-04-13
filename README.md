@@ -254,6 +254,9 @@ An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation Clie
 
 - [terorie/cve-2021-3449](https://github.com/terorie/cve-2021-3449)
 
+### CVE-2021-6666
+- [givemefivw/CVE-2021-6666](https://github.com/givemefivw/CVE-2021-6666)
+
 ### CVE-2021-11111
 - [hu185396/CVE-2021-11111](https://github.com/hu185396/CVE-2021-11111)
 
@@ -557,6 +560,9 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 ### CVE-2021-26828
 - [hevox/CVE-2021-26828_ScadaBR_RCE](https://github.com/hevox/CVE-2021-26828_ScadaBR_RCE)
 
+### CVE-2021-26832
+- [NagliNagli/CVE-2021-26832](https://github.com/NagliNagli/CVE-2021-26832)
+
 ### CVE-2021-26855 (2021-03-02)
 
 <code>
@@ -791,6 +797,9 @@ Composr 10.0.36 allows XSS in an XML script.
 </code>
 
 - [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
+
+### CVE-2021-100000
+- [Henry4E36/CVE-2021-100000](https://github.com/Henry4E36/CVE-2021-100000)
 
 
 ## 2020
@@ -1887,6 +1896,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [superzerosec/cve-2020-5902](https://github.com/superzerosec/cve-2020-5902)
 - [ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability](https://github.com/ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability)
 - [faisalfs10x/F5-BIG-IP-CVE-2020-5902-shodan-scanner](https://github.com/faisalfs10x/F5-BIG-IP-CVE-2020-5902-shodan-scanner)
+- [haisenberg/CVE-2020-5902](https://github.com/haisenberg/CVE-2020-5902)
 
 ### CVE-2020-5903 (2020-07-01)
 
