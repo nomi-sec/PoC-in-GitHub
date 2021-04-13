@@ -120,6 +120,14 @@ The Web server in 1C:Enterprise 8 before 8.3.17.1851 sends base64 encoded creden
 
 - [jet-pentest/CVE-2021-3131](https://github.com/jet-pentest/CVE-2021-3131)
 
+### CVE-2021-3138 (2021-01-13)
+
+<code>
+In Discourse 2.7.0 through beta1, a rate-limit bypass leads to a bypass of the 2FA requirement for certain forms.
+</code>
+
+- [Mesh3l911/CVE-2021-3138](https://github.com/Mesh3l911/CVE-2021-3138)
+
 ### CVE-2021-3156 (2021-01-26)
 
 <code>
@@ -797,9 +805,6 @@ Composr 10.0.36 allows XSS in an XML script.
 </code>
 
 - [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
-
-### CVE-2021-100000
-- [Henry4E36/CVE-2021-100000](https://github.com/Henry4E36/CVE-2021-100000)
 
 
 ## 2020
@@ -3941,6 +3946,7 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [radbsie/CVE-2020-17519-Exp](https://github.com/radbsie/CVE-2020-17519-Exp)
 - [yaunsky/CVE-2020-17519-Apache-Flink](https://github.com/yaunsky/CVE-2020-17519-Apache-Flink)
 - [Osyanina/westone-CVE-2020-17519-scanner](https://github.com/Osyanina/westone-CVE-2020-17519-scanner)
+- [givemefivw/CVE-2020-17519](https://github.com/givemefivw/CVE-2020-17519)
 
 ### CVE-2020-17523 (2021-02-03)
 
@@ -8774,7 +8780,6 @@ An issue was discovered in Moodle 3.x. A Teacher creating a Calculated question 
 
 - [darrynten/MoodleExploit](https://github.com/darrynten/MoodleExploit)
 - [Feidao-fei/MOODLE-3.X-Remote-Code-Execution](https://github.com/Feidao-fei/MOODLE-3.X-Remote-Code-Execution)
-- [m1gnus/CVE-2018-1133_POC](https://github.com/m1gnus/CVE-2018-1133_POC)
 
 ### CVE-2018-1160 (2018-12-20)
 
