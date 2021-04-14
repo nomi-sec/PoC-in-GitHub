@@ -80,6 +80,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 - [liuxu54898/CVE-2021-3019](https://github.com/liuxu54898/CVE-2021-3019)
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 - [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
+- [givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019)
 
 ### CVE-2021-3122 (2021-02-07)
 
@@ -264,6 +265,9 @@ An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation Clie
 
 ### CVE-2021-6666
 - [givemefivw/CVE-2021-6666](https://github.com/givemefivw/CVE-2021-6666)
+
+### CVE-2021-6857
+- [ZiHeny/CVE-2021-6857](https://github.com/ZiHeny/CVE-2021-6857)
 
 ### CVE-2021-11111
 - [hu185396/CVE-2021-11111](https://github.com/hu185396/CVE-2021-11111)
@@ -463,6 +467,14 @@ An issue was discovered in Joomla! 3.0.0 through 3.9.24. com_media allowed paths
 </code>
 
 - [HoangKien1020/CVE-2021-23132](https://github.com/HoangKien1020/CVE-2021-23132)
+
+### CVE-2021-24027 (2021-04-06)
+
+<code>
+A cache configuration issue prior to WhatsApp for Android v2.21.4.18 and WhatsApp Business for Android v2.21.4.18 may have allowed a third party with access to the device’s external storage to read cached TLS material.
+</code>
+
+- [CENSUS/whatsapp-mitd-mitm](https://github.com/CENSUS/whatsapp-mitd-mitm)
 
 ### CVE-2021-24085 (2021-02-25)
 
@@ -746,6 +758,14 @@ SonLogger before 6.4.1 is affected by user creation with any user permissions pr
 </code>
 
 - [erberkan/SonLogger-vulns](https://github.com/erberkan/SonLogger-vulns)
+
+### CVE-2021-28310 (2021-04-13)
+
+<code>
+Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-27072.
+</code>
+
+- [Rafael-Svechinskaya/IOC_for_CVE-2021-28310](https://github.com/Rafael-Svechinskaya/IOC_for_CVE-2021-28310)
 
 ### CVE-2021-29267 (2021-03-29)
 
@@ -1972,6 +1992,14 @@ Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 al
 </code>
 
 - [cudi1999/CVE-2020-6514](https://github.com/cudi1999/CVE-2020-6514)
+
+### CVE-2020-6516 (2020-07-22)
+
+<code>
+Policy bypass in CORS in Google Chrome prior to 84.0.4147.89 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
+</code>
+
+- [CENSUS/whatsapp-mitd-mitm](https://github.com/CENSUS/whatsapp-mitd-mitm)
 
 ### CVE-2020-6519 (2020-07-22)
 
