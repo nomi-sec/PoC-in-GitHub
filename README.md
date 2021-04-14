@@ -560,6 +560,7 @@ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated at
 - [r0ckysec/CVE-2021-26295](https://github.com/r0ckysec/CVE-2021-26295)
 - [ltfafei/CVE-2021-26295_Apache_OFBiz_POC](https://github.com/ltfafei/CVE-2021-26295_Apache_OFBiz_POC)
 - [coolyin001/CVE-2021-26295--](https://github.com/coolyin001/CVE-2021-26295--)
+- [S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP)
 
 ### CVE-2021-26700 (2021-02-25)
 
@@ -580,7 +581,12 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 ### CVE-2021-26828
 - [hevox/CVE-2021-26828_ScadaBR_RCE](https://github.com/hevox/CVE-2021-26828_ScadaBR_RCE)
 
-### CVE-2021-26832
+### CVE-2021-26832 (2021-04-14)
+
+<code>
+Cross Site Scripting (XSS) in the &quot;Reset Password&quot; page form of Priority Enterprise Management System v8.00 allows attackers to execute javascript on behalf of the victim by sending a malicious URL or directing the victim to a malicious site.
+</code>
+
 - [NagliNagli/CVE-2021-26832](https://github.com/NagliNagli/CVE-2021-26832)
 
 ### CVE-2021-26855 (2021-03-02)
@@ -624,6 +630,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065)
 - [praetorian-inc/proxylogon-exploit](https://github.com/praetorian-inc/proxylogon-exploit)
 - [Flangvik/SharpProxyLogon](https://github.com/Flangvik/SharpProxyLogon)
+- [hosch3n/ProxyLogon](https://github.com/hosch3n/ProxyLogon)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -4186,6 +4193,7 @@ An issue was discovered on D-Link DCS-2530L before 1.06.01 Hotfix and DCS-2670L 
 </code>
 
 - [MzzdToT/CVE-2020-25078](https://github.com/MzzdToT/CVE-2020-25078)
+- [S0por/CVE-2020-25078](https://github.com/S0por/CVE-2020-25078)
 
 ### CVE-2020-25200 (2020-10-01)
 
