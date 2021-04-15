@@ -769,6 +769,14 @@ SQL Injection vulnerablity in MyBB before 1.8.26 via theme properties included i
 
 - [xiaopan233/Mybb-XSS_SQL_RCE-POC](https://github.com/xiaopan233/Mybb-XSS_SQL_RCE-POC)
 
+### CVE-2021-27928 (2021-03-18)
+
+<code>
+A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.3 before 10.3.28, 10.4 before 10.4.18, and 10.5 before 10.5.9; Percona Server through 2021-03-03; and the wsrep patch through 2021-03-03 for MySQL. An untrusted search path leads to eval injection, in which a database SUPER user can execute OS commands after modifying wsrep_provider and wsrep_notify_cmd. NOTE: this does not affect an Oracle product.
+</code>
+
+- [Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928)
+
 ### CVE-2021-27963 (2021-03-04)
 
 <code>
