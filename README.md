@@ -263,9 +263,6 @@ An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation Clie
 
 - [terorie/cve-2021-3449](https://github.com/terorie/cve-2021-3449)
 
-### CVE-2021-6666
-- [givemefivw/CVE-2021-6666](https://github.com/givemefivw/CVE-2021-6666)
-
 ### CVE-2021-6857
 - [ZiHeny/CVE-2021-6857](https://github.com/ZiHeny/CVE-2021-6857)
 
