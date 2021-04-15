@@ -362,6 +362,7 @@ Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, wit
 
 - [MzzdToT/CVE-2021-21402](https://github.com/MzzdToT/CVE-2021-21402)
 - [jiaocoll/CVE-2021-21402-Jellyfin](https://github.com/jiaocoll/CVE-2021-21402-Jellyfin)
+- [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
 
 ### CVE-2021-21635 (2021-03-30)
 
@@ -456,6 +457,7 @@ On BIG-IP versions 16.0.x before 16.0.1.1, 15.1.x before 15.1.2.1, 14.1.x before
 - [yaunsky/CVE-202122986-EXP](https://github.com/yaunsky/CVE-202122986-EXP)
 - [Tas9er/CVE-2021-22986](https://github.com/Tas9er/CVE-2021-22986)
 - [dotslashed/CVE-2021-22986](https://github.com/dotslashed/CVE-2021-22986)
+- [nice0e3/CVE-2021-22986_F5_BIG_IP_GUI_Exploit](https://github.com/nice0e3/CVE-2021-22986_F5_BIG_IP_GUI_Exploit)
 
 ### CVE-2021-23132 (2021-03-04)
 
