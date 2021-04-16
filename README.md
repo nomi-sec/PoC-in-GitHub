@@ -363,6 +363,7 @@ Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, wit
 - [MzzdToT/CVE-2021-21402](https://github.com/MzzdToT/CVE-2021-21402)
 - [jiaocoll/CVE-2021-21402-Jellyfin](https://github.com/jiaocoll/CVE-2021-21402-Jellyfin)
 - [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
+- [givemefivw/CVE-2021-21402](https://github.com/givemefivw/CVE-2021-21402)
 
 ### CVE-2021-21635 (2021-03-30)
 
@@ -14667,6 +14668,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-)
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
+- [arttnba3/CVE-2016-5195](https://github.com/arttnba3/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-22)
 
@@ -18076,6 +18078,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
 - [ozuma/CVE-2007-2447](https://github.com/ozuma/CVE-2007-2447)
 - [Un4gi/CVE-2007-2447](https://github.com/Un4gi/CVE-2007-2447)
+- [Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster)
 
 ### CVE-2007-3830 (2007-07-17)
 
