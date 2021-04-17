@@ -266,6 +266,9 @@ An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation Clie
 ### CVE-2021-6857
 - [ZiHeny/CVE-2021-6857](https://github.com/ZiHeny/CVE-2021-6857)
 
+### CVE-2021-9999
+- [Reach-Z/CVE-2021-9999](https://github.com/Reach-Z/CVE-2021-9999)
+
 ### CVE-2021-11111
 - [hu185396/CVE-2021-11111](https://github.com/hu185396/CVE-2021-11111)
 
@@ -2642,7 +2645,7 @@ An issue was discovered in Wing FTP Server 6.2.5 before February 2020. Due to in
 Umbraco CMS 8.5.3 allows an authenticated file upload (and consequently Remote Code Execution) via the Install Package functionality.
 </code>
 
-- [john-dooe/CVE-2020-9472-poisoned-plugin](https://github.com/john-dooe/CVE-2020-9472-poisoned-plugin)
+- [john-dooe/CVE-2020-9472](https://github.com/john-dooe/CVE-2020-9472)
 
 ### CVE-2020-9483 (2020-06-30)
 
