@@ -860,6 +860,14 @@ Composr 10.0.36 allows XSS in an XML script.
 
 - [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
 
+### CVE-2021-30481 (2021-04-10)
+
+<code>
+Valve Steam through 2021-04-10, when a Source engine game is installed, allows remote authenticated users to execute arbitrary code because of a buffer overflow that occurs for a Steam invite after one click.
+</code>
+
+- [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
+
 ### CVE-2021-1000000
 - [13202311145/CVE-2021-1000000](https://github.com/13202311145/CVE-2021-1000000)
 
