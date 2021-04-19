@@ -520,7 +520,6 @@ An issue was discovered in through SaltStack Salt before 3002.5. salt-api does n
 </code>
 
 - [Immersive-Labs-Sec/CVE-2021-25281](https://github.com/Immersive-Labs-Sec/CVE-2021-25281)
-- [SkyBulk/CVE-2021-25281](https://github.com/SkyBulk/CVE-2021-25281)
 
 ### CVE-2021-25374 (2021-04-09)
 
@@ -542,9 +541,6 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646)
 - [Yang0615777/PocList](https://github.com/Yang0615777/PocList)
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
-
-### CVE-2021-25679
-- [3ndG4me/AdTran-Personal-Phone-Manager-Vulns](https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -815,7 +811,6 @@ Mahara 20.10 is affected by Cross Site Request Forgery (CSRF) that allows a remo
 </code>
 
 - [0xBaz/CVE-2021-29349](https://github.com/0xBaz/CVE-2021-29349)
-- [Vulnmachines/CVE-2021-29349](https://github.com/Vulnmachines/CVE-2021-29349)
 
 ### CVE-2021-29386
 - [Umarovm/PowerSchool-Grade-Stealer](https://github.com/Umarovm/PowerSchool-Grade-Stealer)
@@ -9550,7 +9545,6 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [vineetkia/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/vineetkia/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
-- [Elsfa7-110/CVE-2018-6389](https://github.com/Elsfa7-110/CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
