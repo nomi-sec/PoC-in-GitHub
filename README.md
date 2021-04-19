@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2021
+### CVE-2021-1
+- [hackzuoji/CVE-2021-1](https://github.com/hackzuoji/CVE-2021-1)
+
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -635,6 +638,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [praetorian-inc/proxylogon-exploit](https://github.com/praetorian-inc/proxylogon-exploit)
 - [Flangvik/SharpProxyLogon](https://github.com/Flangvik/SharpProxyLogon)
 - [hosch3n/ProxyLogon](https://github.com/hosch3n/ProxyLogon)
+- [Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -2868,7 +2872,7 @@ Docker Desktop allows local privilege escalation to NT AUTHORITY\SYSTEM because 
 FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to com.caucho.config.types.ResourceRef (aka caucho-quercus).
 </code>
 
-- [0nise/CVE-2020-10673](https://github.com/0nise/CVE-2020-10673)
+- [harry1080/CVE-2020-10673](https://github.com/harry1080/CVE-2020-10673)
 - [Al1ex/CVE-2020-10673](https://github.com/Al1ex/CVE-2020-10673)
 
 ### CVE-2020-10713 (2020-07-30)
@@ -8823,14 +8827,6 @@ A remote code execution vulnerability exists in Microsoft Office software when t
 
 - [ymgh96/Detecting-the-CVE-2018-1026-and-its-patch](https://github.com/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch)
 
-### CVE-2018-1056 (2018-07-27)
-
-<code>
-An out-of-bounds heap buffer read flaw was found in the way advancecomp before 2.1-2018/02 handled processing of ZIP files. An attacker could potentially use this flaw to crash the advzip utility by tricking it into processing crafted ZIP files.
-</code>
-
-- [rotemkama/Gpon-Routers](https://github.com/rotemkama/Gpon-Routers)
-
 ### CVE-2018-1088 (2018-04-18)
 
 <code>
@@ -9545,6 +9541,7 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [vineetkia/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/vineetkia/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
+- [Elsfa7-110/CVE-2018-6389](https://github.com/Elsfa7-110/CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
