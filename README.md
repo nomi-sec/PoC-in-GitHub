@@ -10227,6 +10227,7 @@ Unauthenticated arbitrary file upload vulnerability in Blueimp jQuery-File-Uploa
 - [Den1al/CVE-2018-9206](https://github.com/Den1al/CVE-2018-9206)
 - [Stahlz/JQShell](https://github.com/Stahlz/JQShell)
 - [cved-sources/cve-2018-9206](https://github.com/cved-sources/cve-2018-9206)
+- [mi-hood/CVE-2018-9206](https://github.com/mi-hood/CVE-2018-9206)
 
 ### CVE-2018-9207 (2018-11-19)
 
