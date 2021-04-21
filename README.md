@@ -456,6 +456,10 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 
 - [lyy289065406/CVE-2021-22192](https://github.com/lyy289065406/CVE-2021-22192)
 
+### CVE-2021-22893
+- [ZephrFish/CVE-2021-22893](https://github.com/ZephrFish/CVE-2021-22893)
+- [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
+
 ### CVE-2021-22986 (2021-03-31)
 
 <code>
@@ -784,6 +788,14 @@ SQL Injection vulnerablity in MyBB before 1.8.26 via theme properties included i
 
 - [xiaopan233/Mybb-XSS_SQL_RCE-POC](https://github.com/xiaopan233/Mybb-XSS_SQL_RCE-POC)
 
+### CVE-2021-27905 (2021-04-13)
+
+<code>
+The ReplicationHandler (normally registered at &quot;/replication&quot; under a Solr core) in Apache Solr has a &quot;masterUrl&quot; (also &quot;leaderUrl&quot; alias) parameter that is used to designate another ReplicationHandler on another Solr core to replicate index data into the local core. To prevent a SSRF vulnerability, Solr ought to check these parameters against a similar configuration it uses for the &quot;shards&quot; parameter. Prior to this bug getting fixed, it did not. This problem affects essentially all Solr versions prior to it getting fixed in 8.8.2.
+</code>
+
+- [Henry4E36/Solr-SSRF](https://github.com/Henry4E36/Solr-SSRF)
+
 ### CVE-2021-27928 (2021-03-18)
 
 <code>
@@ -807,6 +819,14 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 </code>
 
 - [Rafael-Svechinskaya/IOC_for_CVE-2021-28310](https://github.com/Rafael-Svechinskaya/IOC_for_CVE-2021-28310)
+
+### CVE-2021-28480 (2021-04-13)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-28481, CVE-2021-28482, CVE-2021-28483.
+</code>
+
+- [ZephrFish/ExchangeRCE-CVE-2021-28480](https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480)
 
 ### CVE-2021-29267 (2021-03-29)
 
@@ -6262,6 +6282,14 @@ Stack-based buffer overflow in SonicWall SMA100 allows an unauthenticated user t
 - [singletrackseeker/CVE-2019-7482](https://github.com/singletrackseeker/CVE-2019-7482)
 - [b4bay/CVE-2019-7482](https://github.com/b4bay/CVE-2019-7482)
 - [w0lfzhang/sonicwall-cve-2019-7482](https://github.com/w0lfzhang/sonicwall-cve-2019-7482)
+
+### CVE-2019-7489 (2019-12-23)
+
+<code>
+A vulnerability in SonicWall Email Security appliance allow an unauthenticated user to perform remote code execution. This vulnerability affected Email Security Appliance version 10.0.2 and earlier.
+</code>
+
+- [nromsdahl/CVE-2019-7489](https://github.com/nromsdahl/CVE-2019-7489)
 
 ### CVE-2019-7609 (2019-03-25)
 
