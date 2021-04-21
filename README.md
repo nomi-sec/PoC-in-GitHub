@@ -9556,7 +9556,6 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [vineetkia/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/vineetkia/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
-- [Elsfa7-110/CVE-2018-6389](https://github.com/Elsfa7-110/CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
