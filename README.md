@@ -3843,6 +3843,9 @@ An issue was discovered in INNEO Startup TOOLS 2017 M021 12.0.66.3784 through 20
 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
 
+### CVE-2020-15808
+- [manucuf/CVE202015808](https://github.com/manucuf/CVE202015808)
+
 ### CVE-2020-15873 (2020-07-21)
 
 <code>
@@ -10962,6 +10965,7 @@ MikroTik RouterOS through 6.42 allows unauthenticated remote attackers to read a
 - [mahmoodsabir/mikrotik-beast](https://github.com/mahmoodsabir/mikrotik-beast)
 - [sinichi449/Python-MikrotikLoginExploit](https://github.com/sinichi449/Python-MikrotikLoginExploit)
 - [yukar1z0e/CVE-2018-14847](https://github.com/yukar1z0e/CVE-2018-14847)
+- [hacker30468/Mikrotik-router-hack](https://github.com/hacker30468/Mikrotik-router-hack)
 
 ### CVE-2018-15131 (2019-05-30)
 
