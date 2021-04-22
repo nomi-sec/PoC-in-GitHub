@@ -273,18 +273,13 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 </code>
 
 - [briskets/CVE-2021-3493](https://github.com/briskets/CVE-2021-3493)
+- [oneoy/CVE-2021-3493](https://github.com/oneoy/CVE-2021-3493)
 
 ### CVE-2021-6857
 - [ZiHeny/CVE-2021-6857](https://github.com/ZiHeny/CVE-2021-6857)
 
 ### CVE-2021-9999
 - [Reach-Z/CVE-2021-9999](https://github.com/Reach-Z/CVE-2021-9999)
-
-### CVE-2021-11111
-- [hu185396/CVE-2021-11111](https://github.com/hu185396/CVE-2021-11111)
-
-### CVE-2021-11112
-- [hu185396/CVE-2021-11112](https://github.com/hu185396/CVE-2021-11112)
 
 ### CVE-2021-21014 (2021-02-11)
 
@@ -7177,14 +7172,6 @@ Deltek Maconomy 2.2.5 is prone to local file inclusion via absolute path travers
 </code>
 
 - [ras313/CVE-2019-12314](https://github.com/ras313/CVE-2019-12314)
-
-### CVE-2019-12345 (2019-05-27)
-
-<code>
-XSS exists in the Kiboko Hostel plugin before 1.1.4 for WordPress.
-</code>
-
-- [hu185396/cve-2019-12345](https://github.com/hu185396/cve-2019-12345)
 
 ### CVE-2019-12384 (2019-06-24)
 
