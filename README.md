@@ -4900,6 +4900,7 @@ The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows
 </code>
 
 - [dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489)
+- [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
