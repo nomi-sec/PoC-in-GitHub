@@ -410,6 +410,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [TaroballzChen/CVE-2021-21972](https://github.com/TaroballzChen/CVE-2021-21972)
 - [password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
+- [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -450,6 +451,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 </code>
 
 - [lyy289065406/CVE-2021-22192](https://github.com/lyy289065406/CVE-2021-22192)
+- [PetrusViet/Gitlab-RCE](https://github.com/PetrusViet/Gitlab-RCE)
 
 ### CVE-2021-22893
 - [ZephrFish/CVE-2021-22893](https://github.com/ZephrFish/CVE-2021-22893)
@@ -575,6 +577,14 @@ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated at
 - [ltfafei/CVE-2021-26295_Apache_OFBiz_POC](https://github.com/ltfafei/CVE-2021-26295_Apache_OFBiz_POC)
 - [coolyin001/CVE-2021-26295--](https://github.com/coolyin001/CVE-2021-26295--)
 - [S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP)
+
+### CVE-2021-26415 (2021-04-13)
+
+<code>
+Windows Installer Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-28440.
+</code>
+
+- [adenkiewicz/CVE-2021-26415](https://github.com/adenkiewicz/CVE-2021-26415)
 
 ### CVE-2021-26700 (2021-02-25)
 
@@ -15741,7 +15751,7 @@ A vulnerability has been identified in Firmware variant PROFINET IO for EN100 Et
 ** DISPUTED ** Elasticsearch before 1.6.1 allows remote attackers to execute arbitrary code via unspecified vectors involving the transport protocol.  NOTE: ZDI appears to claim that CVE-2015-3253 and CVE-2015-5377 are the same vulnerability.
 </code>
 
-- [fierobot/elasticsearch_CVE-2015-5377](https://github.com/fierobot/elasticsearch_CVE-2015-5377)
+- [fi3ro/elasticsearch_CVE-2015-5377](https://github.com/fi3ro/elasticsearch_CVE-2015-5377)
 
 ### CVE-2015-5477 (2015-07-29)
 
