@@ -555,6 +555,9 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [Yang0615777/PocList](https://github.com/Yang0615777/PocList)
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
 
+### CVE-2021-25735
+- [darryk10/CVE-2021-25735](https://github.com/darryk10/CVE-2021-25735)
+
 ### CVE-2021-26119 (2021-02-21)
 
 <code>
