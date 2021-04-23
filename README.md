@@ -46,6 +46,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [k-k-k-k-k/CVE-2021-1732](https://github.com/k-k-k-k-k/CVE-2021-1732)
 - [oneoy/CVE-2021-1732-Exploit](https://github.com/oneoy/CVE-2021-1732-Exploit)
 - [ltfafei/CVE-2021-1732_exp](https://github.com/ltfafei/CVE-2021-1732_exp)
+- [Pai-Po/CVE-2021-1732](https://github.com/Pai-Po/CVE-2021-1732)
 
 ### CVE-2021-1782 (2021-04-02)
 
