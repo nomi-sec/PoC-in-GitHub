@@ -9475,6 +9475,14 @@ An issue was discovered in Adobe Acrobat Reader 2018.009.20050 and earlier versi
 
 - [bigric3/CVE-2018-4901](https://github.com/bigric3/CVE-2018-4901)
 
+### CVE-2018-5158 (2018-06-11)
+
+<code>
+The PDF viewer does not sufficiently sanitize PostScript calculator functions, allowing malicious JavaScript to be injected through a crafted PDF file. This JavaScript can then be run with the permissions of the PDF viewer by its worker. This vulnerability affects Firefox ESR &lt; 52.8 and Firefox &lt; 60.
+</code>
+
+- [ppcrab/CVE-2018-5158](https://github.com/ppcrab/CVE-2018-5158)
+
 ### CVE-2018-5234 (2018-04-30)
 
 <code>
@@ -9548,6 +9556,14 @@ An issue was discovered in GitStack through 2.3.10. User controlled input is not
 
 - [cisp/GitStackRCE](https://github.com/cisp/GitStackRCE)
 - [YagamiiLight/Cerberus](https://github.com/YagamiiLight/Cerberus)
+
+### CVE-2018-6065 (2018-11-14)
+
+<code>
+Integer overflow in computing the required allocation size when instantiating a new javascript object in V8 in Google Chrome prior to 65.0.3325.146 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [b1tg/Wechat-0day-CVE-2018-6065-exploit](https://github.com/b1tg/Wechat-0day-CVE-2018-6065-exploit)
 
 ### CVE-2018-6242 (2018-05-01)
 
