@@ -917,6 +917,18 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
+### CVE-2021-31760
+- [Mesh3l911/CVE-2021-31760](https://github.com/Mesh3l911/CVE-2021-31760)
+- [electronicbots/CVE-2021-31760](https://github.com/electronicbots/CVE-2021-31760)
+
+### CVE-2021-31761
+- [Mesh3l911/CVE-2021-31761](https://github.com/Mesh3l911/CVE-2021-31761)
+- [electronicbots/CVE-2021-31761](https://github.com/electronicbots/CVE-2021-31761)
+
+### CVE-2021-31762
+- [Mesh3l911/CVE-2021-31762](https://github.com/Mesh3l911/CVE-2021-31762)
+- [electronicbots/CVE-2021-31762](https://github.com/electronicbots/CVE-2021-31762)
+
 ### CVE-2021-1000000
 - [13202311145/CVE-2021-1000000](https://github.com/13202311145/CVE-2021-1000000)
 
@@ -9709,10 +9721,10 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise)
 - [purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574)
 - [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
-- [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
 - [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
 - [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
+- [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
