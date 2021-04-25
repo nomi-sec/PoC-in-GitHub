@@ -927,15 +927,30 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
-### CVE-2021-31760
+### CVE-2021-31760 (2021-04-25)
+
+<code>
+Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to achieve Remote Command Execution (RCE) through Webmin's running process feature.
+</code>
+
 - [Mesh3l911/CVE-2021-31760](https://github.com/Mesh3l911/CVE-2021-31760)
 - [electronicbots/CVE-2021-31760](https://github.com/electronicbots/CVE-2021-31760)
 
-### CVE-2021-31761
+### CVE-2021-31761 (2021-04-25)
+
+<code>
+Webmin 1.973 is affected by reflected Cross Site Scripting (XSS) to achieve Remote Command Execution through Webmin's running process feature.
+</code>
+
 - [Mesh3l911/CVE-2021-31761](https://github.com/Mesh3l911/CVE-2021-31761)
 - [electronicbots/CVE-2021-31761](https://github.com/electronicbots/CVE-2021-31761)
 
-### CVE-2021-31762
+### CVE-2021-31762 (2021-04-25)
+
+<code>
+Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privileged user through Webmin's add users feature, and then get a reverse shell through Webmin's running process feature.
+</code>
+
 - [Mesh3l911/CVE-2021-31762](https://github.com/Mesh3l911/CVE-2021-31762)
 - [electronicbots/CVE-2021-31762](https://github.com/electronicbots/CVE-2021-31762)
 
@@ -4271,7 +4286,7 @@ An issue was discovered in includes/webconsole.php in RaspAP 2.5. With authentic
 </code>
 
 - [lb0x/cve-2020-24572](https://github.com/lb0x/cve-2020-24572)
-- [gerberop/CVE-2020-24572-POC](https://github.com/gerberop/CVE-2020-24572-POC)
+- [gerbsec/CVE-2020-24572-POC](https://github.com/gerbsec/CVE-2020-24572-POC)
 
 ### CVE-2020-24597
 - [HoangKien1020/CVE-2020-24597](https://github.com/HoangKien1020/CVE-2020-24597)
@@ -5233,7 +5248,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [closethe/CVE-2019-0708-POC](https://github.com/closethe/CVE-2019-0708-POC)
 - [Rostelecom-CERT/bluekeepscan](https://github.com/Rostelecom-CERT/bluekeepscan)
 - [Leoid/CVE-2019-0708](https://github.com/Leoid/CVE-2019-0708)
-- [ht0Ruial/CVE-2019-0708Poc-BatchScanning](https://github.com/ht0Ruial/CVE-2019-0708Poc-BatchScanning)
 - [oneoy/BlueKeep](https://github.com/oneoy/BlueKeep)
 - [infiniti-team/CVE-2019-0708](https://github.com/infiniti-team/CVE-2019-0708)
 - [haishanzheng/CVE-2019-0708-generate-hosts](https://github.com/haishanzheng/CVE-2019-0708-generate-hosts)
