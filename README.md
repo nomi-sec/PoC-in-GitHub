@@ -47,6 +47,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [oneoy/CVE-2021-1732-Exploit](https://github.com/oneoy/CVE-2021-1732-Exploit)
 - [ltfafei/CVE-2021-1732_exp](https://github.com/ltfafei/CVE-2021-1732_exp)
 - [Pai-Po/CVE-2021-1732](https://github.com/Pai-Po/CVE-2021-1732)
+- [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
 
 ### CVE-2021-1782 (2021-04-02)
 
@@ -210,6 +211,14 @@ Denial of service in ASUSWRT ASUS RT-AX3000 firmware versions 3.0.0.4.384_10177 
 </code>
 
 - [fullbbadda1208/CVE-2021-3229](https://github.com/fullbbadda1208/CVE-2021-3229)
+
+### CVE-2021-3291 (2021-01-26)
+
+<code>
+Zen Cart 1.5.7b allows admins to execute arbitrary OS commands by inspecting an HTML radio input element (within the modules edit page) and inserting a command.
+</code>
+
+- [ImHades101/CVE-2021-3291](https://github.com/ImHades101/CVE-2021-3291)
 
 ### CVE-2021-3297 (2021-01-26)
 
@@ -809,6 +818,7 @@ The ReplicationHandler (normally registered at &quot;/replication&quot; under a 
 </code>
 
 - [Henry4E36/Solr-SSRF](https://github.com/Henry4E36/Solr-SSRF)
+- [W2Ning/Solr-SSRF](https://github.com/W2Ning/Solr-SSRF)
 
 ### CVE-2021-27928 (2021-03-18)
 
@@ -1752,6 +1762,7 @@ A vulnerability in the web server for Cisco IP Phones could allow an unauthentic
 </code>
 
 - [abood05972/CVE-2020-3161](https://github.com/abood05972/CVE-2020-3161)
+- [uromulouinthehouse/CVE-2020-3161](https://github.com/uromulouinthehouse/CVE-2020-3161)
 
 ### CVE-2020-3187 (2020-05-06)
 
@@ -8396,7 +8407,6 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 - [becrevex/Telerik_CVE-2019-18935](https://github.com/becrevex/Telerik_CVE-2019-18935)
 - [ThanHuuTuan/Telerik_CVE-2019-18935](https://github.com/ThanHuuTuan/Telerik_CVE-2019-18935)
 - [ThanHuuTuan/CVE_2019_18935](https://github.com/ThanHuuTuan/CVE_2019_18935)
-- [Un4gi/CVE-2019-18935](https://github.com/Un4gi/CVE-2019-18935)
 - [murataydemir/CVE-2019-18935](https://github.com/murataydemir/CVE-2019-18935)
 - [random-robbie/CVE-2019-18935](https://github.com/random-robbie/CVE-2019-18935)
 
