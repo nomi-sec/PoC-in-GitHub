@@ -10216,6 +10216,14 @@ An elevation of privilege vulnerability exists in Microsoft Exchange Server, aka
 - [qiantu88/CVE-2018-8581](https://github.com/qiantu88/CVE-2018-8581)
 - [Ridter/Exchange2domain](https://github.com/Ridter/Exchange2domain)
 
+### CVE-2018-8611 (2018-12-11)
+
+<code>
+An elevation of privilege vulnerability exists when the Windows kernel fails to properly handle objects in memory, aka &quot;Windows Kernel Elevation of Privilege Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2019, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+</code>
+
+- [mavillon/cve-2018-8611](https://github.com/mavillon/cve-2018-8611)
+
 ### CVE-2018-8639 (2018-12-11)
 
 <code>
