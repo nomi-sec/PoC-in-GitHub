@@ -683,6 +683,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [sirpedrotavares/Proxylogon-exploit](https://github.com/sirpedrotavares/Proxylogon-exploit)
 
+### CVE-2021-26868 (2021-03-11)
+
+<code>
+Windows Graphics Component Elevation of Privilege Vulnerability
+</code>
+
+- [mavillon/CVE-2021-26868](https://github.com/mavillon/CVE-2021-26868)
+
 ### CVE-2021-26871 (2021-03-11)
 
 <code>
