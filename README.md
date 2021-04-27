@@ -938,6 +938,9 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
+### CVE-2021-31221
+- [fireaye/ioc-scanner-CVE-2021-31221](https://github.com/fireaye/ioc-scanner-CVE-2021-31221)
+
 ### CVE-2021-31760 (2021-04-25)
 
 <code>
@@ -1647,6 +1650,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [kukudechen-chen/cve-2020-1938](https://github.com/kukudechen-chen/cve-2020-1938)
 - [YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE](https://github.com/YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE)
 - [Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat](https://github.com/Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat)
+- [streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -8387,6 +8391,7 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [saleemrashid/sudo-cve-2019-18634](https://github.com/saleemrashid/sudo-cve-2019-18634)
 - [N1et/CVE-2019-18634](https://github.com/N1et/CVE-2019-18634)
 - [ptef/CVE-2019-18634](https://github.com/ptef/CVE-2019-18634)
+- [Y3A/CVE-2019-18634](https://github.com/Y3A/CVE-2019-18634)
 
 ### CVE-2019-18655 (2019-11-12)
 
@@ -10243,6 +10248,7 @@ An elevation of privilege vulnerability exists when the Windows kernel fails to 
 </code>
 
 - [mavillon/cve-2018-8611](https://github.com/mavillon/cve-2018-8611)
+- [lsw29475/CVE-2018-8611](https://github.com/lsw29475/CVE-2018-8611)
 
 ### CVE-2018-8639 (2018-12-11)
 
