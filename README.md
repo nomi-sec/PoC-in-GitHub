@@ -291,6 +291,9 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 ### CVE-2021-9999
 - [Reach-Z/CVE-2021-9999](https://github.com/Reach-Z/CVE-2021-9999)
 
+### CVE-2021-11123
+- [chenanu123/cve-2021-11123](https://github.com/chenanu123/cve-2021-11123)
+
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
@@ -7344,6 +7347,14 @@ DOSBox 0.74-2 has Incorrect Access Control.
 </code>
 
 - [Alexandre-Bartel/CVE-2019-12594](https://github.com/Alexandre-Bartel/CVE-2019-12594)
+
+### CVE-2019-12725 (2019-07-19)
+
+<code>
+Zeroshell 3.9.0 is prone to a remote command execution vulnerability. Specifically, this issue occurs because the web application mishandles a few HTTP parameters. An unauthenticated attacker can exploit this issue by injecting OS commands inside the vulnerable parameters.
+</code>
+
+- [givemefivw/CVE-2019-12725](https://github.com/givemefivw/CVE-2019-12725)
 
 ### CVE-2019-12735 (2019-06-05)
 
