@@ -2626,6 +2626,7 @@ Guangzhou 1GE ONU V2801RW 1.9.1-181203 through 2.9.0-181024 and V2804RGW 1.9.1-1
 </code>
 
 - [qurbat/gpon](https://github.com/qurbat/gpon)
+- [Asjidkalam/CVE-2020-8958](https://github.com/Asjidkalam/CVE-2020-8958)
 
 ### CVE-2020-9006 (2020-02-17)
 
