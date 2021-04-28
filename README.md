@@ -3659,8 +3659,17 @@ An issue was discovered in Secudos Qiata FTA 1.70.19. The comment feature allows
 
 - [patrickhener/CVE-2020-14294](https://github.com/patrickhener/CVE-2020-14294)
 
+### CVE-2020-14295 (2020-06-17)
+
+<code>
+A SQL injection issue in color.php in Cacti 1.2.12 allows an admin to inject SQL via the filter parameter. This can lead to remote command execution because the product accepts stacked queries.
+</code>
+
+- [0z09e/CVE-2020-14295](https://github.com/0z09e/CVE-2020-14295)
+
 ### CVE-2020-14321
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
+- [lanzt/CVE-2020-14321](https://github.com/lanzt/CVE-2020-14321)
 
 ### CVE-2020-14364 (2020-08-31)
 
@@ -8775,6 +8784,14 @@ There was a flaw in the WordPress plugin, Email Subscribers &amp; Newsletters be
 
 - [jerrylewis9/CVE-2019-20361-EXPLOIT](https://github.com/jerrylewis9/CVE-2019-20361-EXPLOIT)
 
+### CVE-2019-20933 (2020-11-18)
+
+<code>
+InfluxDB before 1.7.6 has an authentication bypass vulnerability in the authenticate function in services/httpd/handler.go because a JWT token may have an empty SharedSecret (aka shared secret).
+</code>
+
+- [LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933](https://github.com/LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933)
+
 ### CVE-2019-25024 (2021-02-18)
 
 <code>
@@ -10942,6 +10959,7 @@ An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.
 </code>
 
 - [milo2012/CVE-2018-13382](https://github.com/milo2012/CVE-2018-13382)
+- [tumikoto/exploit-fortinetmagicbackdoor](https://github.com/tumikoto/exploit-fortinetmagicbackdoor)
 
 ### CVE-2018-13410 (2018-07-06)
 
