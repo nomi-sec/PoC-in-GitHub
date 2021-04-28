@@ -940,6 +940,7 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 ### CVE-2021-31221
 - [fireaye/ioc-scanner-CVE-2021-31221](https://github.com/fireaye/ioc-scanner-CVE-2021-31221)
+- [f1reeye/ioc-scanner-CVE-2021-31221](https://github.com/f1reeye/ioc-scanner-CVE-2021-31221)
 
 ### CVE-2021-31760 (2021-04-25)
 
