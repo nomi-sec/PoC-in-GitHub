@@ -9642,7 +9642,7 @@ An issue was discovered in GitStack through 2.3.10. User controlled input is not
 Integer overflow in computing the required allocation size when instantiating a new javascript object in V8 in Google Chrome prior to 65.0.3325.146 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [b1tg/Wechat-0day-CVE-2018-6065-exploit](https://github.com/b1tg/Wechat-0day-CVE-2018-6065-exploit)
+- [b1tg/CVE-2018-6065-exploit](https://github.com/b1tg/CVE-2018-6065-exploit)
 
 ### CVE-2018-6242 (2018-05-01)
 
@@ -9690,7 +9690,6 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [vineetkia/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/vineetkia/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
-- [Elsfa7-110/CVE-2018-6389](https://github.com/Elsfa7-110/CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
