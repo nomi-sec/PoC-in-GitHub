@@ -45,7 +45,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [KaLendsi/CVE-2021-1732-Exploit](https://github.com/KaLendsi/CVE-2021-1732-Exploit)
 - [k-k-k-k-k/CVE-2021-1732](https://github.com/k-k-k-k-k/CVE-2021-1732)
 - [oneoy/CVE-2021-1732-Exploit](https://github.com/oneoy/CVE-2021-1732-Exploit)
-- [ltfafei/CVE-2021-1732_exp](https://github.com/ltfafei/CVE-2021-1732_exp)
+- [linuxdy/CVE-2021-1732_exp](https://github.com/linuxdy/CVE-2021-1732_exp)
 - [Pai-Po/CVE-2021-1732](https://github.com/Pai-Po/CVE-2021-1732)
 - [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
 
@@ -152,7 +152,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp)
 - [ph4ntonn/CVE-2021-3156](https://github.com/ph4ntonn/CVE-2021-3156)
 - [binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT)
-- [ltfafei/CVE-2021-3156](https://github.com/ltfafei/CVE-2021-3156)
+- [freeFV/CVE-2021-3156](https://github.com/freeFV/CVE-2021-3156)
 - [mbcrump/CVE-2021-3156](https://github.com/mbcrump/CVE-2021-3156)
 - [stong/CVE-2021-3156](https://github.com/stong/CVE-2021-3156)
 - [nobodyatall648/CVE-2021-3156](https://github.com/nobodyatall648/CVE-2021-3156)
@@ -443,7 +443,6 @@ Server Side Request Forgery in vRealize Operations Manager API (CVE-2021-21975) 
 - [Henry4E36/VMWare-vRealize-SSRF](https://github.com/Henry4E36/VMWare-vRealize-SSRF)
 - [Al1ex/CVE-2021-21975](https://github.com/Al1ex/CVE-2021-21975)
 - [GuayoyoCyber/CVE-2021-21975](https://github.com/GuayoyoCyber/CVE-2021-21975)
-- [ltfafei/CVE-2021-21975_VMware_SSRF](https://github.com/ltfafei/CVE-2021-21975_VMware_SSRF)
 - [murataydemir/CVE-2021-21975](https://github.com/murataydemir/CVE-2021-21975)
 - [rabidwh0re/REALITY_SMASHER](https://github.com/rabidwh0re/REALITY_SMASHER)
 - [Vulnmachines/VMWare-CVE-2021-21975](https://github.com/Vulnmachines/VMWare-CVE-2021-21975)
@@ -596,7 +595,6 @@ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated at
 - [yumusb/CVE-2021-26295](https://github.com/yumusb/CVE-2021-26295)
 - [rakjong/CVE-2021-26295-Apache-OFBiz](https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz)
 - [r0ckysec/CVE-2021-26295](https://github.com/r0ckysec/CVE-2021-26295)
-- [ltfafei/CVE-2021-26295_Apache_OFBiz_POC](https://github.com/ltfafei/CVE-2021-26295_Apache_OFBiz_POC)
 - [coolyin001/CVE-2021-26295--](https://github.com/coolyin001/CVE-2021-26295--)
 - [S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP)
 
@@ -5914,6 +5912,14 @@ Spring Cloud Config, versions 2.1.x prior to 2.1.2, versions 2.0.x prior to 2.0.
 </code>
 
 - [mpgn/CVE-2019-3799](https://github.com/mpgn/CVE-2019-3799)
+
+### CVE-2019-3810 (2019-03-25)
+
+<code>
+A flaw was found in moodle versions 3.6 to 3.6.1, 3.5 to 3.5.3, 3.4 to 3.4.6, 3.1 to 3.1.15 and earlier unsupported versions. The /userpix/ page did not escape users' full names, which are included as text when hovering over profile images. Note this page is not linked to by default and its access is restricted.
+</code>
+
+- [farisv/Moodle-CVE-2019-3810](https://github.com/farisv/Moodle-CVE-2019-3810)
 
 ### CVE-2019-3847 (2019-03-27)
 
