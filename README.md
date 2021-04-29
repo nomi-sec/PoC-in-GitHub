@@ -184,6 +184,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156)
 - [password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156)
 - [AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156)
+- [LiveOverflow/pwnedit](https://github.com/LiveOverflow/pwnedit)
 
 ### CVE-2021-3157
 - [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
@@ -18248,6 +18249,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [ozuma/CVE-2007-2447](https://github.com/ozuma/CVE-2007-2447)
 - [Un4gi/CVE-2007-2447](https://github.com/Un4gi/CVE-2007-2447)
 - [Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster)
+- [cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
