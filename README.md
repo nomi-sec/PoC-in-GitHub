@@ -388,14 +388,6 @@ Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, wit
 - [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
 - [givemefivw/CVE-2021-21402](https://github.com/givemefivw/CVE-2021-21402)
 
-### CVE-2021-21635 (2021-03-30)
-
-<code>
-Jenkins REST List Parameter Plugin 1.3.0 and earlier does not escape a parameter name reference in embedded JavaScript, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Job/Configure permission.
-</code>
-
-- [kenyon-wong/cve-2021-21635](https://github.com/kenyon-wong/cve-2021-21635)
-
 ### CVE-2021-21972 (2021-02-24)
 
 <code>
@@ -4785,7 +4777,8 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
 - [dennyson120/CVE-2020-27955](https://github.com/dennyson120/CVE-2020-27955)
 - [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
-- [DeeLMind/GIT-LFS-CVE-2020-27955](https://github.com/DeeLMind/GIT-LFS-CVE-2020-27955)
+- [DeeLMind/CVE-2020-27955-LFS](https://github.com/DeeLMind/CVE-2020-27955-LFS)
+- [exileddb/CVE-2020-27955](https://github.com/exileddb/CVE-2020-27955)
 
 ### CVE-2020-27976 (2020-10-28)
 
@@ -6501,6 +6494,14 @@ A memory initialization issue was addressed with improved memory handling. This 
 </code>
 
 - [maldiohead/CVE-2019-8540](https://github.com/maldiohead/CVE-2019-8540)
+
+### CVE-2019-8561 (2019-12-18)
+
+<code>
+A logic issue was addressed with improved validation. This issue is fixed in macOS Mojave 10.14.4. A malicious application may be able to elevate privileges.
+</code>
+
+- [0xmachos/CVE-2019-8561](https://github.com/0xmachos/CVE-2019-8561)
 
 ### CVE-2019-8565 (2019-12-18)
 
