@@ -2808,6 +2808,7 @@ XML-RPC request are vulnerable to unsafe deserialization and Cross-Site Scriptin
 
 - [dwisiswant0/CVE-2020-9496](https://github.com/dwisiswant0/CVE-2020-9496)
 - [Vulnmachines/apache-ofbiz-CVE-2020-9496](https://github.com/Vulnmachines/apache-ofbiz-CVE-2020-9496)
+- [g33xter/CVE-2020-9496](https://github.com/g33xter/CVE-2020-9496)
 
 ### CVE-2020-9547 (2020-03-01)
 
@@ -4784,6 +4785,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
 - [dennyson120/CVE-2020-27955](https://github.com/dennyson120/CVE-2020-27955)
 - [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
+- [DeeLMind/GIT-LFS-CVE-2020-27955](https://github.com/DeeLMind/GIT-LFS-CVE-2020-27955)
 
 ### CVE-2020-27976 (2020-10-28)
 
