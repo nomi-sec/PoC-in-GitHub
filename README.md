@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2021
-### CVE-2021-1
-- [hackzuoji/CVE-2021-1](https://github.com/hackzuoji/CVE-2021-1)
-
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -973,9 +970,6 @@ Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privil
 
 - [Mesh3l911/CVE-2021-31762](https://github.com/Mesh3l911/CVE-2021-31762)
 - [electronicbots/CVE-2021-31762](https://github.com/electronicbots/CVE-2021-31762)
-
-### CVE-2021-1000000
-- [13202311145/CVE-2021-1000000](https://github.com/13202311145/CVE-2021-1000000)
 
 
 ## 2020
@@ -6250,6 +6244,7 @@ Some field types do not properly sanitize data from non-form sources in Drupal 8
 - [jas502n/CVE-2019-6340](https://github.com/jas502n/CVE-2019-6340)
 - [ludy-dev/drupal8-REST-RCE](https://github.com/ludy-dev/drupal8-REST-RCE)
 - [Kinesys/Kinesys-CVE-2019-6340](https://github.com/Kinesys/Kinesys-CVE-2019-6340)
+- [nobodyatall648/CVE-2019-6340](https://github.com/nobodyatall648/CVE-2019-6340)
 
 ### CVE-2019-6440 (2019-01-15)
 
@@ -12544,6 +12539,14 @@ In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket
 
 - [pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645)
 
+### CVE-2017-5674 (2017-03-13)
+
+<code>
+A vulnerability in a custom-built GoAhead web server used on Foscam, Vstarcam, and multiple white-label IP camera models allows an attacker to craft a malformed HTTP (&quot;GET system.ini HTTP/1.1\n\n&quot; - note the lack of &quot;/&quot; in the path field of the request) request that will disclose the configuration file with the login password.
+</code>
+
+- [eR072391/cve-2017-5674](https://github.com/eR072391/cve-2017-5674)
+
 ### CVE-2017-5689 (2017-05-02)
 
 <code>
@@ -17730,6 +17733,7 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 </code>
 
 - [HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit)
+- [nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
