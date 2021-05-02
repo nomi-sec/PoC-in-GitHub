@@ -3029,6 +3029,7 @@ GitLab EE/CE 8.5 to 12.9 is vulnerable to a an path traversal when moving an iss
 - [erk3/gitlab-12.9.0-file-read](https://github.com/erk3/gitlab-12.9.0-file-read)
 - [Liath/CVE-2020-10977](https://github.com/Liath/CVE-2020-10977)
 - [lisp3r/cve-2020-10977-read-and-execute](https://github.com/lisp3r/cve-2020-10977-read-and-execute)
+- [nickvdyck/gitlab-cve-2020-10977](https://github.com/nickvdyck/gitlab-cve-2020-10977)
 
 ### CVE-2020-11076 (2020-05-22)
 
@@ -4227,6 +4228,14 @@ Remote code execution in Pyrescom Termod4 time management devices before 10.04k 
 </code>
 
 - [Outpost24/Pyrescom-Termod-PoC](https://github.com/Outpost24/Pyrescom-Termod-PoC)
+
+### CVE-2020-23342 (2021-01-19)
+
+<code>
+A CSRF vulnerability exists in Anchor CMS 0.12.7 anchor/views/users/edit.php that can change the Delete admin users.
+</code>
+
+- [DXY0411/CVE-2020-23342](https://github.com/DXY0411/CVE-2020-23342)
 
 ### CVE-2020-23489 (2020-11-16)
 
