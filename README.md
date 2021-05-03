@@ -515,7 +515,7 @@ Windows TCP/IP Denial of Service Vulnerability
 </code>
 
 - [0vercl0k/CVE-2021-24086](https://github.com/0vercl0k/CVE-2021-24086)
-- [xuejilinhan/CVE-2021-24086](https://github.com/xuejilinhan/CVE-2021-24086)
+- [Av3s/CVE-2021-24086](https://github.com/Av3s/CVE-2021-24086)
 
 ### CVE-2021-24096 (2021-02-25)
 
@@ -532,7 +532,7 @@ Windows Console Driver Denial of Service Vulnerability
 </code>
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
-- [xuejilinhan/CVE-2021-24098](https://github.com/xuejilinhan/CVE-2021-24098)
+- [Av3s/CVE-2021-24098](https://github.com/Av3s/CVE-2021-24098)
 
 ### CVE-2021-25281 (2021-02-26)
 
@@ -16233,6 +16233,7 @@ Joomla! 1.5.x, 2.x, and 3.x before 3.4.6 allow remote attackers to conduct PHP o
 - [VoidSec/Joomla_CVE-2015-8562](https://github.com/VoidSec/Joomla_CVE-2015-8562)
 - [xnorkl/Joomla_Payload](https://github.com/xnorkl/Joomla_Payload)
 - [guanjivip/CVE-2015-8562](https://github.com/guanjivip/CVE-2015-8562)
+- [lorenzodegiorgi/setup-cve-2015-8562](https://github.com/lorenzodegiorgi/setup-cve-2015-8562)
 
 ### CVE-2015-8651 (2015-12-28)
 
