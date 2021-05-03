@@ -283,6 +283,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [briskets/CVE-2021-3493](https://github.com/briskets/CVE-2021-3493)
 - [oneoy/CVE-2021-3493](https://github.com/oneoy/CVE-2021-3493)
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
+- [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 
 ### CVE-2021-6857
 - [ZiHeny/CVE-2021-6857](https://github.com/ZiHeny/CVE-2021-6857)
@@ -807,6 +808,9 @@ Askey RTF8115VW BR_SV_g11.11_RTF_TEF001_V6.54_V014 devices allow injection of a 
 
 ### CVE-2021-27552
 - [sapkota2k20/CVE-2021-27552](https://github.com/sapkota2k20/CVE-2021-27552)
+
+### CVE-2021-27553
+- [sapkota2k20/CVE-2021-27553](https://github.com/sapkota2k20/CVE-2021-27553)
 
 ### CVE-2021-27890 (2021-03-15)
 
