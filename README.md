@@ -861,6 +861,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [ZephrFish/ExchangeRCE-CVE-2021-28480](https://github.com/ZephrFish/ExchangeRCE-CVE-2021-28480)
 
+### CVE-2021-28482 (2021-04-13)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-28480, CVE-2021-28481, CVE-2021-28483.
+</code>
+
+- [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
+
 ### CVE-2021-29267 (2021-03-29)
 
 <code>
@@ -1226,6 +1234,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [zyn3rgy/ecp_slap](https://github.com/zyn3rgy/ecp_slap)
 - [SLSteff/CVE-2020-0688-Scanner](https://github.com/SLSteff/CVE-2020-0688-Scanner)
 - [MrTiz9/CVE-2020-0688](https://github.com/MrTiz9/CVE-2020-0688)
+- [ann0906/proxylogon](https://github.com/ann0906/proxylogon)
 
 ### CVE-2020-0708 (2020-02-11)
 
