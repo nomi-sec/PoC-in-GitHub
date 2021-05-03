@@ -3628,6 +3628,7 @@ Affected versions of Atlassian Jira Server and Data Center allow remote, unauthe
 Affected versions of Atlassian Jira Server and Data Center allow an unauthenticated user to enumerate users via an Information Disclosure vulnerability in the /ViewUserHover.jspa endpoint. The affected versions are before version 7.13.6, from version 8.0.0 before 8.5.7, and from version 8.6.0 before 8.12.0.
 </code>
 
+- [und3sc0n0c1d0/UserEnumJira](https://github.com/und3sc0n0c1d0/UserEnumJira)
 - [Rival420/CVE-2020-14181](https://github.com/Rival420/CVE-2020-14181)
 - [bk-rao/CVE-2020-14181](https://github.com/bk-rao/CVE-2020-14181)
 
@@ -5901,6 +5902,7 @@ Confluence Server and Data Center had a path traversal vulnerability in the down
 The /rest/api/2/user/picker rest resource in Jira before version 7.13.3, from version 8.0.0 before version 8.0.4, and from version 8.1.0 before version 8.1.1 allows remote attackers to enumerate usernames via an incorrect authorisation check.
 </code>
 
+- [und3sc0n0c1d0/UserEnumJira](https://github.com/und3sc0n0c1d0/UserEnumJira)
 - [davidmckennirey/CVE-2019-3403](https://github.com/davidmckennirey/CVE-2019-3403)
 
 ### CVE-2019-3462 (2019-01-28)
@@ -11510,6 +11512,14 @@ Git before 2.14.5, 2.15.x before 2.15.3, 2.16.x before 2.16.5, 2.17.x before 2.1
 - [matlink/CVE-2018-17456](https://github.com/matlink/CVE-2018-17456)
 - [799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456)
 - [AnonymKing/CVE-2018-17456](https://github.com/AnonymKing/CVE-2018-17456)
+
+### CVE-2018-17463 (2018-11-14)
+
+<code>
+Incorrect side effect annotation in V8 in Google Chrome prior to 70.0.3538.64 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
+</code>
+
+- [kdmarti2/CVE-2018-17463](https://github.com/kdmarti2/CVE-2018-17463)
 
 ### CVE-2018-17873 (2018-10-23)
 
