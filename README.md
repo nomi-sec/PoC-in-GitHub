@@ -904,6 +904,7 @@ Apache OFBiz has unsafe deserialization prior to 17.12.07 version
 </code>
 
 - [LioTree/CVE-2021-30128-EXP](https://github.com/LioTree/CVE-2021-30128-EXP)
+- [r0ckysec/CVE-2021-30128](https://github.com/r0ckysec/CVE-2021-30128)
 
 ### CVE-2021-30146 (2021-04-06)
 
@@ -1807,7 +1808,7 @@ A vulnerability in the web server for Cisco IP Phones could allow an unauthentic
 A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and obtain read and delete access to sensitive files on a targeted system. The vulnerability is due to a lack of proper input validation of the HTTP URL. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences. An exploit could allow the attacker to view or delete arbitrary files on the targeted system. When the device is reloaded after exploitation of this vulnerability, any files that were deleted are restored. The attacker can only view and delete files within the web services file system. This file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability can not be used to obtain access to ASA or FTD system files or underlying operating system (OS) files. Reloading the affected device will restore all files within the web services file system.
 </code>
 
-- [pry0cc/CVE-2020-3187](https://github.com/pry0cc/CVE-2020-3187)
+- [CrackerCat/CVE-2020-3187](https://github.com/CrackerCat/CVE-2020-3187)
 - [Ph4nt0m-b/CVE-2020-3187](https://github.com/Ph4nt0m-b/CVE-2020-3187)
 
 ### CVE-2020-3433 (2020-08-17)
@@ -9738,6 +9739,7 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [vineetkia/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/vineetkia/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
+- [Elsfa7-110/CVE-2018-6389](https://github.com/Elsfa7-110/CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
