@@ -853,6 +853,14 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 
 - [Rafael-Svechinskaya/IOC_for_CVE-2021-28310](https://github.com/Rafael-Svechinskaya/IOC_for_CVE-2021-28310)
 
+### CVE-2021-28443 (2021-04-13)
+
+<code>
+Windows Console Driver Denial of Service Vulnerability This CVE ID is unique from CVE-2021-28438.
+</code>
+
+- [nghiadt1098/ByeDisk](https://github.com/nghiadt1098/ByeDisk)
+
 ### CVE-2021-28480 (2021-04-13)
 
 <code>
@@ -4721,7 +4729,7 @@ In Eclipse Jetty 9.4.6.v20170531 to 9.4.36.v20210114 (inclusive), 10.0.0, and 11
 An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's CSV feature (that allows users to export their conversation threads as CSV) allows non-privileged users to export one another's conversation threads by changing the thread_id parameter in the request to the endpoint Messenger/messenger_download_csv.php?title=Hey&amp;thread_id={THREAD_ID}.
 </code>
 
-- [seb1055/cve-2020-27358-27359](https://github.com/seb1055/cve-2020-27358-27359)
+- [sebastian-mora/cve-2020-27358-27359](https://github.com/sebastian-mora/cve-2020-27358-27359)
 
 ### CVE-2020-27368 (2021-01-14)
 
@@ -9753,6 +9761,7 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [fakedob/tvsz](https://github.com/fakedob/tvsz)
 - [vineetkia/Wordpress-DOS-Attack-CVE-2018-6389](https://github.com/vineetkia/Wordpress-DOS-Attack-CVE-2018-6389)
 - [ianxtianxt/CVE-2018-6389](https://github.com/ianxtianxt/CVE-2018-6389)
+- [Elsfa7-110/CVE-2018-6389](https://github.com/Elsfa7-110/CVE-2018-6389)
 
 ### CVE-2018-6396 (2018-02-17)
 
@@ -16351,7 +16360,6 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [yryz/heartbleed.js](https://github.com/yryz/heartbleed.js)
 - [DisK0nn3cT/MaltegoHeartbleed](https://github.com/DisK0nn3cT/MaltegoHeartbleed)
 - [OffensivePython/HeartLeak](https://github.com/OffensivePython/HeartLeak)
-- [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
 - [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
 - [iSCInc/heartbleed](https://github.com/iSCInc/heartbleed)
@@ -16396,7 +16404,6 @@ The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14
 </code>
 
 - [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
-- [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
 
 ### CVE-2014-0224 (2014-06-05)
 
@@ -16405,10 +16412,7 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
-- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
-- [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
-- [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
 
 ### CVE-2014-0226 (2014-07-20)
 
@@ -16428,14 +16432,6 @@ The django.core.urlresolvers.reverse function in Django before 1.4.11, 1.5.x bef
 </code>
 
 - [christasa/CVE-2014-0472](https://github.com/christasa/CVE-2014-0472)
-
-### CVE-2014-0521 (2014-05-14)
-
-<code>
-Adobe Reader and Acrobat 10.x before 10.1.10 and 11.x before 11.0.07 on Windows and OS X do not properly implement JavaScript APIs, which allows remote attackers to obtain sensitive information via a crafted PDF document.
-</code>
-
-- [molnarg/cve-2014-0521](https://github.com/molnarg/cve-2014-0521)
 
 ### CVE-2014-0816 (2014-02-26)
 
@@ -16490,14 +16486,6 @@ Race condition in the virNetServerClientStartKeepAlive function in libvirt befor
 </code>
 
 - [tagatac/libvirt-CVE-2014-1447](https://github.com/tagatac/libvirt-CVE-2014-1447)
-
-### CVE-2014-1677 (2017-04-03)
-
-<code>
-Technicolor TC7200 with firmware STD6.01.12 could allow remote attackers to obtain sensitive information.
-</code>
-
-- [tihmstar/freePW_tc7200Eploit](https://github.com/tihmstar/freePW_tc7200Eploit)
 
 ### CVE-2014-1773 (2014-06-10)
 
@@ -16555,7 +16543,6 @@ The default configuration in Elasticsearch before 1.2 enables dynamic scripting,
 </code>
 
 - [jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject)
-- [echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120)
 
 ### CVE-2014-3153 (2014-06-07)
 
@@ -16707,7 +16694,6 @@ Integer overflow in CoreGraphics in Apple iOS before 8 and Apple TV before 7 all
 </code>
 
 - [feliam/CVE-2014-4377](https://github.com/feliam/CVE-2014-4377)
-- [davidmurray/CVE-2014-4377](https://github.com/davidmurray/CVE-2014-4377)
 
 ### CVE-2014-4378 (2014-09-18)
 
@@ -16787,38 +16773,11 @@ host-deny.sh in OSSEC before 2.8.1 writes to temporary files with predictable fi
 GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
 </code>
 
-- [dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes)
-- [npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse)
-- [ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3)
-- [jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271)
-- [rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec)
-- [scottjpack/shellshock_scanner](https://github.com/scottjpack/shellshock_scanner)
 - [Anklebiter87/Cgi-bin_bash_Reverse](https://github.com/Anklebiter87/Cgi-bin_bash_Reverse)
-- [justzx2011/bash-up](https://github.com/justzx2011/bash-up)
-- [mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271)
 - [ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check)
-- [RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm)
-- [gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww)
-- [woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271)
-- [ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock)
-- [themson/shellshock](https://github.com/themson/shellshock)
-- [securusglobal/BadBash](https://github.com/securusglobal/BadBash)
-- [villadora/CVE-2014-6271](https://github.com/villadora/CVE-2014-6271)
-- [APSL/salt-shellshock](https://github.com/APSL/salt-shellshock)
 - [teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit)
-- [internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271)
 - [pwnGuy/shellshock-shell](https://github.com/pwnGuy/shellshock-shell)
-- [vonnyfly/shellshock_crawler](https://github.com/vonnyfly/shellshock_crawler)
-- [u20024804/bash-3.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271)
-- [u20024804/bash-4.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271)
-- [u20024804/bash-4.3-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271)
 - [francisck/shellshock-cgi](https://github.com/francisck/shellshock-cgi)
-- [proclnas/ShellShock-CGI-Scan](https://github.com/proclnas/ShellShock-CGI-Scan)
-- [sch3m4/RIS](https://github.com/sch3m4/RIS)
-- [ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test)
-- [cj1324/CGIShell](https://github.com/cj1324/CGIShell)
-- [renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock)
-- [indiandragon/Shellshock-Vulnerability-Scan](https://github.com/indiandragon/Shellshock-Vulnerability-Scan)
 - [ramnes/pyshellshock](https://github.com/ramnes/pyshellshock)
 - [akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python)
 - [kelleykong/cve-2014-6271-mengjia-kong](https://github.com/kelleykong/cve-2014-6271-mengjia-kong)
