@@ -218,14 +218,6 @@ Zen Cart 1.5.7b allows admins to execute arbitrary OS commands by inspecting an 
 
 - [ImHades101/CVE-2021-3291](https://github.com/ImHades101/CVE-2021-3291)
 
-### CVE-2021-3297 (2021-01-26)
-
-<code>
-On Zyxel NBG2105 V1.00(AAGU.2)C0 devices, setting the login cookie to 1 provides administrator access.
-</code>
-
-- [Sec504/Zyxel-NBG2105-CVE-2021-3297](https://github.com/Sec504/Zyxel-NBG2105-CVE-2021-3297)
-
 ### CVE-2021-3317 (2021-01-26)
 
 <code>
@@ -3339,6 +3331,7 @@ Weak encryption in the Quick Pairing mode in the eWeLink mobile application (And
 </code>
 
 - [salgio/ESPTouchCatcher](https://github.com/salgio/ESPTouchCatcher)
+- [salgio/eWeLink-QR-Code](https://github.com/salgio/eWeLink-QR-Code)
 
 ### CVE-2020-12712 (2020-06-11)
 
