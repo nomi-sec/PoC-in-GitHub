@@ -182,6 +182,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156)
 - [AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156)
 - [LiveOverflow/pwnedit](https://github.com/LiveOverflow/pwnedit)
+- [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 
 ### CVE-2021-3157
 - [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
@@ -938,10 +939,6 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
-### CVE-2021-31221
-- [fireaye/ioc-scanner-CVE-2021-31221](https://github.com/fireaye/ioc-scanner-CVE-2021-31221)
-- [f1reeye/ioc-scanner-CVE-2021-31221](https://github.com/f1reeye/ioc-scanner-CVE-2021-31221)
-
 ### CVE-2021-31760 (2021-04-25)
 
 <code>
@@ -968,6 +965,14 @@ Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privil
 
 - [Mesh3l911/CVE-2021-31762](https://github.com/Mesh3l911/CVE-2021-31762)
 - [electronicbots/CVE-2021-31762](https://github.com/electronicbots/CVE-2021-31762)
+
+### CVE-2021-31856 (2021-04-28)
+
+<code>
+A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an attacker to execute arbitrary SQL commands via the /experimental/patternfiles endpoint (order parameter in GetMesheryPatterns in models/meshery_pattern_persister.go).
+</code>
+
+- [ssst0n3/CVE-2021-31856](https://github.com/ssst0n3/CVE-2021-31856)
 
 
 ## 2020
@@ -5623,6 +5628,7 @@ An elevation of privilege vulnerability exists in the Windows Certificate Dialog
 - [jas502n/CVE-2019-1388](https://github.com/jas502n/CVE-2019-1388)
 - [jaychouzzk/CVE-2019-1388](https://github.com/jaychouzzk/CVE-2019-1388)
 - [sv3nbeast/CVE-2019-1388](https://github.com/sv3nbeast/CVE-2019-1388)
+- [nobodyatall648/CVE-2019-1388](https://github.com/nobodyatall648/CVE-2019-1388)
 
 ### CVE-2019-1402 (2019-11-12)
 
