@@ -5309,6 +5309,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [closethe/CVE-2019-0708-POC](https://github.com/closethe/CVE-2019-0708-POC)
 - [Rostelecom-CERT/bluekeepscan](https://github.com/Rostelecom-CERT/bluekeepscan)
 - [Leoid/CVE-2019-0708](https://github.com/Leoid/CVE-2019-0708)
+- [ht0Ruial/CVE-2019-0708Poc-BatchScanning](https://github.com/ht0Ruial/CVE-2019-0708Poc-BatchScanning)
 - [oneoy/BlueKeep](https://github.com/oneoy/BlueKeep)
 - [infiniti-team/CVE-2019-0708](https://github.com/infiniti-team/CVE-2019-0708)
 - [haishanzheng/CVE-2019-0708-generate-hosts](https://github.com/haishanzheng/CVE-2019-0708-generate-hosts)
@@ -6607,6 +6608,7 @@ WordPress before 4.9.9 and 5.x before 5.0.1 allows remote code execution because
 
 - [brianwrf/WordPress_4.9.8_RCE_POC](https://github.com/brianwrf/WordPress_4.9.8_RCE_POC)
 - [synacktiv/CVE-2019-8942](https://github.com/synacktiv/CVE-2019-8942)
+- [synod2/WP_CROP_RCE](https://github.com/synod2/WP_CROP_RCE)
 
 ### CVE-2019-8943 (2019-02-19)
 
