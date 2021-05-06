@@ -287,6 +287,14 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 ### CVE-2021-11123
 - [chenanu123/cve-2021-11123](https://github.com/chenanu123/cve-2021-11123)
 
+### CVE-2021-20708 (2021-04-25)
+
+<code>
+NEC Aterm devices (Aterm WF1200CR firmware Ver1.3.2 and earlier, Aterm WG1200CR firmware Ver1.3.3 and earlier, and Aterm WG2600HS firmware Ver1.5.1 and earlier) allow authenticated attackers to execute arbitrary OS commands by sending a specially crafted request to a specific URL.
+</code>
+
+- [GoogleProjectZer0/CVE-2021-20708](https://github.com/GoogleProjectZer0/CVE-2021-20708)
+
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
@@ -525,6 +533,54 @@ Windows Console Driver Denial of Service Vulnerability
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
 
+### CVE-2021-24258 (-)
+
+<code>
+The Elements Kit Lite and Elements Kit Pro WordPress Plugins before 2.2.0 have a number of widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.
+</code>
+
+- [GoogleProjectZer0/CVE-2021-24258](https://github.com/GoogleProjectZer0/CVE-2021-24258)
+
+### CVE-2021-24260 (-)
+
+<code>
+The “Livemesh Addons for Elementor” WordPress Plugin before 6.8 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.
+</code>
+
+- [GoogleProjectZer0/CVE-2021-24260](https://github.com/GoogleProjectZer0/CVE-2021-24260)
+
+### CVE-2021-24265 (-)
+
+<code>
+The “Rife Elementor Extensions &amp; Templates” WordPress Plugin before 1.1.6 has a widget that is vulnerable to stored Cross-Site Scripting(XSS) by lower-privileged users such as contributors, all via a similar method.
+</code>
+
+- [GoogleProjectZer0/CVE-2021-24265](https://github.com/GoogleProjectZer0/CVE-2021-24265)
+
+### CVE-2021-24268 (-)
+
+<code>
+The “JetWidgets For Elementor” WordPress Plugin before 1.0.9 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.
+</code>
+
+- [GoogleProjectZer0/CVE-2021-24268](https://github.com/GoogleProjectZer0/CVE-2021-24268)
+
+### CVE-2021-24273 (-)
+
+<code>
+The “Clever Addons for Elementor” WordPress Plugin before 2.1.0 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.
+</code>
+
+- [GoogleProjectZer0/CVE-2021-24273](https://github.com/GoogleProjectZer0/CVE-2021-24273)
+
+### CVE-2021-24276 (-)
+
+<code>
+The Contact Form by Supsystic WordPress plugin before 1.7.15 did not sanitise the tab parameter of its options page before outputting it in an attribute, leading to a reflected Cross-Site Scripting issue
+</code>
+
+- [GoogleProjectZer0/CVE-2021-24276](https://github.com/GoogleProjectZer0/CVE-2021-24276)
+
 ### CVE-2021-25281 (2021-02-26)
 
 <code>
@@ -708,6 +764,14 @@ LMA ISIDA Retriever 5.2 allows SQL Injection.
 </code>
 
 - [Security-AVS/-CVE-2021-26904](https://github.com/Security-AVS/-CVE-2021-26904)
+
+### CVE-2021-26909 (2021-04-23)
+
+<code>
+Automox Agent prior to version 31 uses an insufficiently protected S3 bucket endpoint for storing sensitive files, which could be brute-forced by an attacker to subvert an organization's security program. The issue has since been fixed in version 31 of the Automox Agent.
+</code>
+
+- [GoogleProjectZer0/CVE-2021-26909](https://github.com/GoogleProjectZer0/CVE-2021-26909)
 
 ### CVE-2021-26943 (2021-03-31)
 
@@ -4225,6 +4289,22 @@ A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.
 </code>
 
 - [MzzdToT/CVE-2020-21224](https://github.com/MzzdToT/CVE-2020-21224)
+
+### CVE-2020-22783 (2021-04-28)
+
+<code>
+Etherpad &lt;1.8.3 stored passwords used by users insecurely in the database and in log files. This affects every database backend supported by Etherpad.
+</code>
+
+- [GoogleProjectZer0/CVE-2020-22783](https://github.com/GoogleProjectZer0/CVE-2020-22783)
+
+### CVE-2020-22785 (2021-04-28)
+
+<code>
+Etherpad &lt; 1.8.3 is affected by a missing lock check which could cause a denial of service. Aggressively targeting random pad import endpoints with empty data would flatten all pads due to lack of rate limiting and missing ownership check.
+</code>
+
+- [GoogleProjectZer0/CVE-2020-22785](https://github.com/GoogleProjectZer0/CVE-2020-22785)
 
 ### CVE-2020-23160 (2021-01-22)
 
