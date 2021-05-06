@@ -533,7 +533,7 @@ Windows Console Driver Denial of Service Vulnerability
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
 
-### CVE-2021-24258 (-)
+### CVE-2021-24258 (2021-05-05)
 
 <code>
 The Elements Kit Lite and Elements Kit Pro WordPress Plugins before 2.2.0 have a number of widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.
@@ -541,7 +541,7 @@ The Elements Kit Lite and Elements Kit Pro WordPress Plugins before 2.2.0 have a
 
 - [GoogleProjectZer0/CVE-2021-24258](https://github.com/GoogleProjectZer0/CVE-2021-24258)
 
-### CVE-2021-24260 (-)
+### CVE-2021-24260 (2021-05-05)
 
 <code>
 The “Livemesh Addons for Elementor” WordPress Plugin before 6.8 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.
@@ -549,7 +549,7 @@ The “Livemesh Addons for Elementor” WordPress Plugin before 6.8 has several 
 
 - [GoogleProjectZer0/CVE-2021-24260](https://github.com/GoogleProjectZer0/CVE-2021-24260)
 
-### CVE-2021-24265 (-)
+### CVE-2021-24265 (2021-05-05)
 
 <code>
 The “Rife Elementor Extensions &amp; Templates” WordPress Plugin before 1.1.6 has a widget that is vulnerable to stored Cross-Site Scripting(XSS) by lower-privileged users such as contributors, all via a similar method.
@@ -557,7 +557,7 @@ The “Rife Elementor Extensions &amp; Templates” WordPress Plugin before 1.1.
 
 - [GoogleProjectZer0/CVE-2021-24265](https://github.com/GoogleProjectZer0/CVE-2021-24265)
 
-### CVE-2021-24268 (-)
+### CVE-2021-24268 (2021-05-05)
 
 <code>
 The “JetWidgets For Elementor” WordPress Plugin before 1.0.9 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.
@@ -565,7 +565,7 @@ The “JetWidgets For Elementor” WordPress Plugin before 1.0.9 has several wid
 
 - [GoogleProjectZer0/CVE-2021-24268](https://github.com/GoogleProjectZer0/CVE-2021-24268)
 
-### CVE-2021-24273 (-)
+### CVE-2021-24273 (2021-05-05)
 
 <code>
 The “Clever Addons for Elementor” WordPress Plugin before 2.1.0 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.
@@ -573,7 +573,7 @@ The “Clever Addons for Elementor” WordPress Plugin before 2.1.0 has several 
 
 - [GoogleProjectZer0/CVE-2021-24273](https://github.com/GoogleProjectZer0/CVE-2021-24273)
 
-### CVE-2021-24276 (-)
+### CVE-2021-24276 (2021-05-05)
 
 <code>
 The Contact Form by Supsystic WordPress plugin before 1.7.15 did not sanitise the tab parameter of its options page before outputting it in an attribute, leading to a reflected Cross-Site Scripting issue
@@ -1289,14 +1289,6 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [SLSteff/CVE-2020-0688-Scanner](https://github.com/SLSteff/CVE-2020-0688-Scanner)
 - [MrTiz9/CVE-2020-0688](https://github.com/MrTiz9/CVE-2020-0688)
 - [ann0906/proxylogon](https://github.com/ann0906/proxylogon)
-
-### CVE-2020-0708 (2020-02-11)
-
-<code>
-A remote code execution vulnerability exists when the Windows Imaging Library improperly handles memory.To exploit this vulnerability, an attacker would first have to coerce a victim to open a specially crafted file.The security update addresses the vulnerability by correcting how the Windows Imaging Library handles memory., aka 'Windows Imaging Library Remote Code Execution Vulnerability'.
-</code>
-
-- [asc0t6e/CVE-2020-0708](https://github.com/asc0t6e/CVE-2020-0708)
 
 ### CVE-2020-0728 (2020-02-11)
 
