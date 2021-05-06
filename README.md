@@ -4876,6 +4876,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
 - [DeeLMind/CVE-2020-27955-LFS](https://github.com/DeeLMind/CVE-2020-27955-LFS)
 - [exileddb/CVE-2020-27955](https://github.com/exileddb/CVE-2020-27955)
+- [IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955)
 
 ### CVE-2020-27976 (2020-10-28)
 
