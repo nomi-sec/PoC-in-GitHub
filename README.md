@@ -862,6 +862,14 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 
 - [Rafael-Svechinskaya/IOC_for_CVE-2021-28310](https://github.com/Rafael-Svechinskaya/IOC_for_CVE-2021-28310)
 
+### CVE-2021-28312 (2021-04-13)
+
+<code>
+Windows NTFS Denial of Service Vulnerability
+</code>
+
+- [shubham0d/CVE-2021-28312](https://github.com/shubham0d/CVE-2021-28312)
+
 ### CVE-2021-28480 (2021-04-13)
 
 <code>
@@ -2878,6 +2886,7 @@ XML-RPC request are vulnerable to unsafe deserialization and Cross-Site Scriptin
 - [dwisiswant0/CVE-2020-9496](https://github.com/dwisiswant0/CVE-2020-9496)
 - [Vulnmachines/apache-ofbiz-CVE-2020-9496](https://github.com/Vulnmachines/apache-ofbiz-CVE-2020-9496)
 - [g33xter/CVE-2020-9496](https://github.com/g33xter/CVE-2020-9496)
+- [cyber-niz/CVE-2020-9496](https://github.com/cyber-niz/CVE-2020-9496)
 
 ### CVE-2020-9547 (2020-03-01)
 
@@ -5853,6 +5862,7 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 - [sharif-dev/AndroidKernelVulnerability](https://github.com/sharif-dev/AndroidKernelVulnerability)
 - [c3r34lk1ll3r/CVE-2019-2215](https://github.com/c3r34lk1ll3r/CVE-2019-2215)
 - [Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215)
+- [mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215)
 
 ### CVE-2019-2525 (2019-01-16)
 
@@ -15576,6 +15586,7 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [JustDenisYT/ghosttester](https://github.com/JustDenisYT/ghosttester)
 - [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
