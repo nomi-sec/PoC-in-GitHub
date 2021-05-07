@@ -1884,7 +1884,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 </code>
 
 - [CrackerCat/CVE-2020-3187](https://github.com/CrackerCat/CVE-2020-3187)
-- [Ph4nt0m-b/CVE-2020-3187](https://github.com/Ph4nt0m-b/CVE-2020-3187)
+- [x00x00/CVE-2020-3187](https://github.com/x00x00/CVE-2020-3187)
 
 ### CVE-2020-3433 (2020-08-17)
 
@@ -4824,6 +4824,14 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
 
+### CVE-2020-27904 (2020-12-08)
+
+<code>
+A logic issue existed resulting in memory corruption. This was addressed with improved state management. This issue is fixed in macOS Big Sur 11.0.1. An application may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [pattern-f/xattr-oob-swap](https://github.com/pattern-f/xattr-oob-swap)
+
 ### CVE-2020-27930 (2020-12-08)
 
 <code>
@@ -6670,6 +6678,14 @@ An issue existed in the parsing of URL schemes. This issue was addressed with im
 </code>
 
 - [ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792](https://github.com/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792)
+
+### CVE-2019-8852 (2020-10-27)
+
+<code>
+A memory corruption issue was addressed with improved memory handling. This issue is fixed in macOS Catalina 10.15.2, Security Update 2019-002 Mojave, and Security Update 2019-007 High Sierra. An application may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [pattern-f/CVE-2019-8852](https://github.com/pattern-f/CVE-2019-8852)
 
 ### CVE-2019-8936 (2019-05-15)
 
