@@ -380,6 +380,30 @@ Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, wit
 - [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
 - [givemefivw/CVE-2021-21402](https://github.com/givemefivw/CVE-2021-21402)
 
+### CVE-2021-21534 (2021-04-30)
+
+<code>
+Dell Hybrid Client versions prior to 1.5 contain an information exposure vulnerability. A local unauthenticated attacker may exploit this vulnerability in order to gain access to sensitive information via the local API.
+</code>
+
+- [JamesGeee/CVE-2021-21534](https://github.com/JamesGeee/CVE-2021-21534)
+
+### CVE-2021-21535 (2021-04-30)
+
+<code>
+Dell Hybrid Client versions prior to 1.5 contain a missing authentication for a critical function vulnerability. A local unauthenticated attacker may exploit this vulnerability in order to gain root level access to the system.
+</code>
+
+- [JamesGeee/CVE-2021-21535](https://github.com/JamesGeee/CVE-2021-21535)
+
+### CVE-2021-21536 (2021-04-30)
+
+<code>
+Dell Hybrid Client versions prior to 1.5 contain an information exposure vulnerability. A local unauthenticated attacker may exploit this vulnerability in order to register the client to a server in order to view sensitive information.
+</code>
+
+- [JamesGeee/CVE-2021-21536](https://github.com/JamesGeee/CVE-2021-21536)
+
 ### CVE-2021-21972 (2021-02-24)
 
 <code>
@@ -931,6 +955,9 @@ Composr 10.0.36 allows XSS in an XML script.
 
 - [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
 
+### CVE-2021-30461
+- [daedalus/CVE-2021-30461](https://github.com/daedalus/CVE-2021-30461)
+
 ### CVE-2021-30481 (2021-04-10)
 
 <code>
@@ -938,6 +965,38 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 </code>
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
+
+### CVE-2021-31417 (2021-04-29)
+
+<code>
+This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop 15.1.4-47270. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12131.
+</code>
+
+- [JamesGeee/CVE-2021-31417](https://github.com/JamesGeee/CVE-2021-31417)
+
+### CVE-2021-31418 (2021-04-29)
+
+<code>
+This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop 15.1.4-47270. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12221.
+</code>
+
+- [JamesGeee/CVE-2021-31418](https://github.com/JamesGeee/CVE-2021-31418)
+
+### CVE-2021-31419 (2021-04-29)
+
+<code>
+This vulnerability allows local attackers to disclose sensitive information on affected installations of Parallels Desktop 15.1.4-47270. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12136.
+</code>
+
+- [JamesGeee/CVE-2021-31419](https://github.com/JamesGeee/CVE-2021-31419)
+
+### CVE-2021-31420 (2021-04-29)
+
+<code>
+This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop 16.1.0-48950. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the Toolgate component. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Was ZDI-CAN-12220.
+</code>
+
+- [JamesGeee/CVE-2021-31420](https://github.com/JamesGeee/CVE-2021-31420)
 
 ### CVE-2021-31728
 - [irql0/CVE-2021-31728](https://github.com/irql0/CVE-2021-31728)
@@ -968,6 +1027,22 @@ Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privil
 
 - [Mesh3l911/CVE-2021-31762](https://github.com/Mesh3l911/CVE-2021-31762)
 - [electronicbots/CVE-2021-31762](https://github.com/electronicbots/CVE-2021-31762)
+
+### CVE-2021-31795 (2021-04-24)
+
+<code>
+The PowerVR GPU kernel driver in pvrsrvkm.ko through 2021-04-24 for the Linux kernel, as used on Alcatel 1S phones, allows attackers to overwrite heap memory via PhysmemNewRamBackedPMR.
+</code>
+
+- [JamesGeee/CVE-2021-31795](https://github.com/JamesGeee/CVE-2021-31795)
+
+### CVE-2021-31828 (2021-05-06)
+
+<code>
+An SSRF issue in Open Distro for Elasticsearch (ODFE) before 1.13.1.0 allows an existing privileged user to enumerate listening services or interact with configured resources via HTTP requests exceeding the Alerting plugin's intended scope.
+</code>
+
+- [JamesGeee/CVE-2021-31828](https://github.com/JamesGeee/CVE-2021-31828)
 
 ### CVE-2021-31856 (2021-04-28)
 
@@ -4469,6 +4544,14 @@ Stored XSS in InterMind iMind Server through 3.13.65 allows any user to hijack a
 </code>
 
 - [h3llraiser/CVE-2020-25399](https://github.com/h3llraiser/CVE-2020-25399)
+
+### CVE-2020-25453 (2020-09-15)
+
+<code>
+An issue was discovered in BlackCat CMS before 1.4. There is a CSRF vulnerability (bypass csrf_token) that allows remote arbitrary code execution.
+</code>
+
+- [JamesGeee/CVE-2020-25453](https://github.com/JamesGeee/CVE-2020-25453)
 
 ### CVE-2020-25487 (2020-09-22)
 
