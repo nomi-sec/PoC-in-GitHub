@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2021
-### CVE-2021-0001
-- [goout2/cve-2021-0001](https://github.com/goout2/cve-2021-0001)
-
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
