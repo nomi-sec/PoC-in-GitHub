@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2021
+### CVE-2021-0000
+- [FirDragon/SrinaterTest](https://github.com/FirDragon/SrinaterTest)
+
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -3931,6 +3934,14 @@ On TP-Link TL-WR740N v4 and TL-WR740ND v4 devices, an attacker with access to th
 
 - [g-rubert/CVE-2020-14965](https://github.com/g-rubert/CVE-2020-14965)
 
+### CVE-2020-14979 (2020-08-11)
+
+<code>
+The WinRing0.sys and WinRing0x64.sys drivers 1.2.0 in EVGA Precision X1 through 1.0.6 allow local users, including low integrity processes, to read and write to arbitrary memory locations. This allows any user to gain NT AUTHORITY\SYSTEM privileges by mapping \Device\PhysicalMemory into the calling process.
+</code>
+
+- [Crystalware/CVE-2020-14979](https://github.com/Crystalware/CVE-2020-14979)
+
 ### CVE-2020-15002 (2020-10-23)
 
 <code>
@@ -4180,6 +4191,7 @@ A remote code execution vulnerability exists in Microsoft Outlook software when 
 
 ### CVE-2020-17008
 - [jas502n/CVE-2020-17008](https://github.com/jas502n/CVE-2020-17008)
+- [FirDragon/SrinaterTest](https://github.com/FirDragon/SrinaterTest)
 
 ### CVE-2020-17035 (2020-11-11)
 
@@ -10267,6 +10279,7 @@ HWiNFO AMD64 Kernel driver version 8.98 and lower allows an unprivileged user to
 </code>
 
 - [otavioarj/SIOCtl](https://github.com/otavioarj/SIOCtl)
+- [Crystalware/CVE-2018-8060](https://github.com/Crystalware/CVE-2018-8060)
 
 ### CVE-2018-8065 (2018-03-12)
 
@@ -13036,6 +13049,7 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
 - [ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3)
 - [fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability)
 - [Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability)
+- [Gaurav-Jadhav/CVE-2017-7529](https://github.com/Gaurav-Jadhav/CVE-2017-7529)
 
 ### CVE-2017-7648 (2017-04-10)
 
