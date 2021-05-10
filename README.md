@@ -1959,7 +1959,7 @@ A vulnerability in the web server for Cisco IP Phones could allow an unauthentic
 </code>
 
 - [abood05972/CVE-2020-3161](https://github.com/abood05972/CVE-2020-3161)
-- [uromulouinthehouse/CVE-2020-3161](https://github.com/uromulouinthehouse/CVE-2020-3161)
+- [urRomulou/CVE-2020-3161](https://github.com/urRomulou/CVE-2020-3161)
 
 ### CVE-2020-3187 (2020-05-06)
 
