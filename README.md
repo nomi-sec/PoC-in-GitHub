@@ -290,6 +290,14 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 ### CVE-2021-11123
 - [chenanu123/cve-2021-11123](https://github.com/chenanu123/cve-2021-11123)
 
+### CVE-2021-20716 (2021-04-27)
+
+<code>
+Hidden functionality in multiple Buffalo network devices (BHR-4RV firmware Ver.2.55 and prior, FS-G54 firmware Ver.2.04 and prior, WBR2-B11 firmware Ver.2.32 and prior, WBR2-G54 firmware Ver.2.32 and prior, WBR2-G54-KD firmware Ver.2.32 and prior, WBR-B11 firmware Ver.2.23 and prior, WBR-G54 firmware Ver.2.23 and prior, WBR-G54L firmware Ver.2.20 and prior, WHR2-A54G54 firmware Ver.2.25 and prior, WHR2-G54 firmware Ver.2.23 and prior, WHR2-G54V firmware Ver.2.55 and prior, WHR3-AG54 firmware Ver.2.23 and prior, WHR-G54 firmware Ver.2.16 and prior, WHR-G54-NF firmware Ver.2.10 and prior, WLA2-G54 firmware Ver.2.24 and prior, WLA2-G54C firmware Ver.2.24 and prior, WLA-B11 firmware Ver.2.20 and prior, WLA-G54 firmware Ver.2.20 and prior, WLA-G54C firmware Ver.2.20 and prior, WLAH-A54G54 firmware Ver.2.54 and prior, WLAH-AM54G54 firmware Ver.2.54 and prior, WLAH-G54 firmware Ver.2.54 and prior, WLI2-TX1-AG54 firmware Ver.2.53 and prior, WLI2-TX1-AMG54 firmware Ver.2.53 and prior, WLI2-TX1-G54 firmware Ver.2.20 and prior, WLI3-TX1-AMG54 firmware Ver.2.53 and prior, WLI3-TX1-G54 firmware Ver.2.53 and prior, WLI-T1-B11 firmware Ver.2.20 and prior, WLI-TX1-G54 firmware Ver.2.20 and prior, WVR-G54-NF firmware Ver.2.02 and prior, WZR-G108 firmware Ver.2.41 and prior, WZR-G54 firmware Ver.2.41 and prior, WZR-HP-G54 firmware Ver.2.41 and prior, WZR-RS-G54 firmware Ver.2.55 and prior, and WZR-RS-G54HP firmware Ver.2.55 and prior) allows a remote attacker to enable the debug option and to execute arbitrary code or OS commands, change the configuration, and cause a denial of service (DoS) condition.
+</code>
+
+- [JamesGeee/CVE-2021-20716](https://github.com/JamesGeee/CVE-2021-20716)
+
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
@@ -873,6 +881,22 @@ SonLogger before 6.4.1 is affected by user creation with any user permissions pr
 
 - [erberkan/SonLogger-vulns](https://github.com/erberkan/SonLogger-vulns)
 
+### CVE-2021-28125 (2021-04-27)
+
+<code>
+Apache Superset up to and including 1.0.1 allowed for the creation of an external URL that could be malicious. By not checking user input for open redirects the URL shortener functionality would allow for a malicious user to create a short URL for a dashboard that could convince the user to click the link.
+</code>
+
+- [JamesGeee/CVE-2021-28125](https://github.com/JamesGeee/CVE-2021-28125)
+
+### CVE-2021-28269 (2021-04-27)
+
+<code>
+Soyal Technology 701Client 9.0.1 is vulnerable to Insecure permissions via client.exe binary with Authenticated Users group with Full permissions.
+</code>
+
+- [JamesGeee/CVE-2021-28269](https://github.com/JamesGeee/CVE-2021-28269)
+
 ### CVE-2021-28310 (2021-04-13)
 
 <code>
@@ -982,6 +1006,14 @@ Composr 10.0.36 allows XSS in an XML script.
 
 - [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
 
+### CVE-2021-30165 (2021-04-26)
+
+<code>
+The default administrator account &amp; password of the EDIMAX wireless network camera is hard-coded. Remote attackers can disassemble firmware to obtain the privileged permission and further control the devices.
+</code>
+
+- [JamesGeee/CVE-2021-30165](https://github.com/JamesGeee/CVE-2021-30165)
+
 ### CVE-2021-30461
 - [daedalus/CVE-2021-30461](https://github.com/daedalus/CVE-2021-30461)
 - [Vulnmachines/CVE-2021-30461](https://github.com/Vulnmachines/CVE-2021-30461)
@@ -993,6 +1025,22 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 </code>
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
+
+### CVE-2021-30502 (2021-04-24)
+
+<code>
+The unofficial vscode-ghc-simple (aka Simple Glasgow Haskell Compiler) extension before 0.2.3 for Visual Studio Code allows remote code execution via a crafted workspace configuration with replCommand.
+</code>
+
+- [JamesGeee/CVE-2021-30502](https://github.com/JamesGeee/CVE-2021-30502)
+
+### CVE-2021-30642 (2021-04-27)
+
+<code>
+An input validation flaw in the Symantec Security Analytics web UI 7.2 prior 7.2.7, 8.1, prior to 8.1.3-NSR3, 8.2, prior to 8.2.1-NSR2 or 8.2.2 allows a remote, unauthenticated attacker to execute arbitrary OS commands on the target with elevated privileges.
+</code>
+
+- [JamesGeee/CVE-2021-30642](https://github.com/JamesGeee/CVE-2021-30642)
 
 ### CVE-2021-31417 (2021-04-29)
 
@@ -1063,6 +1111,14 @@ The PowerVR GPU kernel driver in pvrsrvkm.ko through 2021-04-24 for the Linux ke
 </code>
 
 - [JamesGeee/CVE-2021-31795](https://github.com/JamesGeee/CVE-2021-31795)
+
+### CVE-2021-31826 (2021-04-26)
+
+<code>
+Shibboleth Service Provider 3.x before 3.2.2 is prone to a NULL pointer dereference flaw involving the session recovery feature. The flaw is exploitable (for a daemon crash) on systems not using this feature if a crafted cookie is supplied.
+</code>
+
+- [JamesGeee/CVE-2021-31826](https://github.com/JamesGeee/CVE-2021-31826)
 
 ### CVE-2021-31828 (2021-05-06)
 
@@ -4269,6 +4325,14 @@ vBulletin 5.5.4 through 5.6.2 allows remote command execution via crafted subWid
 - [ctlyz123/CVE-2020-17496](https://github.com/ctlyz123/CVE-2020-17496)
 - [ludy-dev/vBulletin_5.x-tab_panel-RCE](https://github.com/ludy-dev/vBulletin_5.x-tab_panel-RCE)
 
+### CVE-2020-17517 (2021-04-27)
+
+<code>
+The S3 buckets and keys in a secure Apache Ozone Cluster must be inaccessible to anonymous access by default. The current security vulnerability allows access to keys and buckets through a curl command or an unauthenticated HTTP request. This enables unauthorized access to buckets and keys thereby exposing data to anonymous clients or users. This affected Apache Ozone prior to the 1.1.0 release.
+</code>
+
+- [JamesGeee/CVE-2020-17517](https://github.com/JamesGeee/CVE-2020-17517)
+
 ### CVE-2020-17518 (2021-01-05)
 
 <code>
@@ -4341,6 +4405,14 @@ A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.
 </code>
 
 - [MzzdToT/CVE-2020-21224](https://github.com/MzzdToT/CVE-2020-21224)
+
+### CVE-2020-23127 (2021-05-05)
+
+<code>
+Chamilo LMS 1.11.10 is affected by Cross Site Request Forgery (CSRF) via the edit_user function by targeting an admin user.
+</code>
+
+- [JamesGeee/CVE-2020-23127](https://github.com/JamesGeee/CVE-2020-23127)
 
 ### CVE-2020-23160 (2021-01-22)
 
@@ -5257,6 +5329,14 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-36188](https://github.com/Al1ex/CVE-2020-36188)
+
+### CVE-2020-36326 (2021-04-27)
+
+<code>
+PHPMailer 6.1.8 through 6.4.0 allows object injection through Phar Deserialization via addAttachment with a UNC pathname. NOTE: this is similar to CVE-2018-19296, but arose because 6.1.8 fixed a functionality problem in which UNC pathnames were always considered unreadable by PHPMailer, even in safe contexts. As an unintended side effect, this fix eliminated the code that blocked addAttachment exploitation.
+</code>
+
+- [JamesGeee/CVE-2020-36326](https://github.com/JamesGeee/CVE-2020-36326)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
