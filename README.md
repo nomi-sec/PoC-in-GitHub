@@ -5893,7 +5893,7 @@ An elevation of privilege vulnerability exists when Windows AppX Deployment Serv
 An elevation of privilege vulnerability exists when the Windows Printer Service improperly validates file paths while loading printer drivers, aka 'Windows Printer Service Elevation of Privilege Vulnerability'.
 </code>
 
-- [intellee/CVE-2019-1477](https://github.com/intellee/CVE-2019-1477)
+- [ooo111222/CVE-2019-1477](https://github.com/ooo111222/CVE-2019-1477)
 
 ### CVE-2019-1579 (2019-07-19)
 
