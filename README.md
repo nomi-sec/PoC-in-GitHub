@@ -146,6 +146,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [jokerTPR2004/CVE-2021-3156](https://github.com/jokerTPR2004/CVE-2021-3156)
 - [ymrsmns/CVE-2021-3156](https://github.com/ymrsmns/CVE-2021-3156)
 - [elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER)
+- [kernelzeroday/CVE-2021-3156-Baron-Samedit](https://github.com/kernelzeroday/CVE-2021-3156-Baron-Samedit)
 - [yaunsky/cve-2021-3156](https://github.com/yaunsky/cve-2021-3156)
 - [H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156)
 - [baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp)
@@ -3953,6 +3954,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic)
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
 - [nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui)
+- [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
 
 ### CVE-2020-14883 (2020-10-21)
 
