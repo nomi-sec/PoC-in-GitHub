@@ -930,6 +930,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 
+### CVE-2021-29200 (2021-04-27)
+
+<code>
+Apache OFBiz has unsafe deserialization prior to 17.12.07 version An unauthenticated user can perform an RCE attack
+</code>
+
+- [r0ckysec/CVE-2021-29200](https://github.com/r0ckysec/CVE-2021-29200)
+
 ### CVE-2021-29267 (2021-03-29)
 
 <code>
@@ -6251,6 +6259,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [cved-sources/cve-2019-5420](https://github.com/cved-sources/cve-2019-5420)
 - [AnasTaoutaou/CVE-2019-5420](https://github.com/AnasTaoutaou/CVE-2019-5420)
 - [Eremiel/CVE-2019-5420](https://github.com/Eremiel/CVE-2019-5420)
+- [scumdestroy/CVE-2019-5420.rb](https://github.com/scumdestroy/CVE-2019-5420.rb)
 
 ### CVE-2019-5427 (2019-04-22)
 
@@ -6874,6 +6883,14 @@ An XML External Entity Injection (XXE) vulnerability in the Management System (c
 </code>
 
 - [nxkennedy/CVE-2019-8997](https://github.com/nxkennedy/CVE-2019-8997)
+
+### CVE-2019-9081 (2019-02-24)
+
+<code>
+The Illuminate component of Laravel Framework 5.7.x has a deserialization vulnerability that can lead to remote code execution if the content is controllable, related to the __destruct method of the PendingCommand class in PendingCommand.php.
+</code>
+
+- [nth347/CVE-2019-9081_poc](https://github.com/nth347/CVE-2019-9081_poc)
 
 ### CVE-2019-9153 (2019-08-22)
 
@@ -9150,6 +9167,7 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 - [adityathebe/POC-CVE-2018-0114](https://github.com/adityathebe/POC-CVE-2018-0114)
 - [Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114)
 - [Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114)
+- [scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114)
 
 ### CVE-2018-0202 (2018-03-27)
 
@@ -12496,6 +12514,9 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
+- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -12613,6 +12634,14 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Serve
 
 - [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
 
+### CVE-2017-3730 (2017-05-04)
+
+<code>
+In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
+</code>
+
+- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
+
 ### CVE-2017-3881 (2017-03-17)
 
 <code>
@@ -12712,7 +12741,9 @@ Multiple cross-site request forgery (CSRF) vulnerabilities on the D-Link DI-524 
 The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
+- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
+- [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
 - [mthbernardes/strutszeiro](https://github.com/mthbernardes/strutszeiro)
 - [xsscx/cve-2017-5638](https://github.com/xsscx/cve-2017-5638)
