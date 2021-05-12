@@ -518,6 +518,14 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [lyy289065406/CVE-2021-22192](https://github.com/lyy289065406/CVE-2021-22192)
 - [PetrusViet/Gitlab-RCE](https://github.com/PetrusViet/Gitlab-RCE)
 
+### CVE-2021-22204 (2021-04-23)
+
+<code>
+Improper neutralization of user data in the DjVu file format in ExifTool versions 7.44 and up allows arbitrary code execution when parsing the malicious image
+</code>
+
+- [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
+
 ### CVE-2021-22660 (2021-04-27)
 
 <code>
@@ -15166,6 +15174,7 @@ SQL injection vulnerability in include/lib/mysql_connect.inc.php in ATutor 2.2.1
 
 - [shadofren/CVE-2016-2555](https://github.com/shadofren/CVE-2016-2555)
 - [maximilianmarx/atutor-blind-sqli](https://github.com/maximilianmarx/atutor-blind-sqli)
+- [jrgdiaz/CVE-2016-2555](https://github.com/jrgdiaz/CVE-2016-2555)
 
 ### CVE-2016-2569 (2016-02-26)
 
