@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2021
-### CVE-2021-0000
-- [FirDragon/SrinaterTest](https://github.com/FirDragon/SrinaterTest)
-
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -5414,6 +5411,14 @@ A reflected cross-site scripting (XSS) vulnerability exists in the TranzWare Pay
 
 ### CVE-2020-28488
 - [rafaelcintralopes/CVE-2020-28488](https://github.com/rafaelcintralopes/CVE-2020-28488)
+
+### CVE-2020-28502 (2021-03-05)
+
+<code>
+This affects the package xmlhttprequest before 1.7.0; all versions of package xmlhttprequest-ssl. Provided requests are sent synchronously (async=False on xhr.open), malicious user input flowing into xhr.send could result in arbitrary code being injected and run.
+</code>
+
+- [s-index/CVE-2020-28502](https://github.com/s-index/CVE-2020-28502)
 
 ### CVE-2020-28647 (2020-11-17)
 
