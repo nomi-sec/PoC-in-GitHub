@@ -1131,6 +1131,14 @@ In FreeBSD 13.0-STABLE before n245050, 12.2-STABLE before r369525, 13.0-RC4 befo
 
 - [raymontag/cve-2021-29627](https://github.com/raymontag/cve-2021-29627)
 
+### CVE-2021-30005 (2021-05-11)
+
+<code>
+In JetBrains PyCharm before 2020.3.4, local code execution was possible because of insufficient checks when getting the project from VCS.
+</code>
+
+- [atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC)
+
 ### CVE-2021-30109 (2021-04-05)
 
 <code>
@@ -1338,6 +1346,9 @@ A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an 
 
 ### CVE-2021-32259
 - [JamesGeee/CVE-2021-32259](https://github.com/JamesGeee/CVE-2021-32259)
+
+### CVE-2021-2222222
+- [1151806933/cve-2021-2222222](https://github.com/1151806933/cve-2021-2222222)
 
 
 ## 2020
