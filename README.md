@@ -70,6 +70,8 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
 - [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
+- [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
+- [yuaneuro/weblogic_CVE-2021-2109_poc](https://github.com/yuaneuro/weblogic_CVE-2021-2109_poc)
 
 ### CVE-2021-2321 (2021-04-28)
 
@@ -297,6 +299,17 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 ### CVE-2021-11123
 - [chenanu123/cve-2021-11123](https://github.com/chenanu123/cve-2021-11123)
 
+### CVE-2021-14562
+- [Jarry1sec/CVE-2021-14562](https://github.com/Jarry1sec/CVE-2021-14562)
+
+### CVE-2021-20202 (2021-05-12)
+
+<code>
+A flaw was found in keycloak. Directories can be created prior to the Java process creating them in the temporary directory, but with wider user permissions, allowing the attacker to have access to the contents that keycloak stores in this directory. The highest threat from this vulnerability is to data confidentiality and integrity.
+</code>
+
+- [Jarry1sec/CVE-2021-20202](https://github.com/Jarry1sec/CVE-2021-20202)
+
 ### CVE-2021-20716 (2021-04-27)
 
 <code>
@@ -445,6 +458,14 @@ Dell Hybrid Client versions prior to 1.5 contain an information exposure vulnera
 </code>
 
 - [JamesGeee/CVE-2021-21536](https://github.com/JamesGeee/CVE-2021-21536)
+
+### CVE-2021-21551 (2021-05-04)
+
+<code>
+Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability which may lead to escalation of privileges, denial of service, or information disclosure. Local authenticated user access is required.
+</code>
+
+- [waldo-irc/CVE-2021-21551](https://github.com/waldo-irc/CVE-2021-21551)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -3234,6 +3255,7 @@ XML-RPC request are vulnerable to unsafe deserialization and Cross-Site Scriptin
 - [Vulnmachines/apache-ofbiz-CVE-2020-9496](https://github.com/Vulnmachines/apache-ofbiz-CVE-2020-9496)
 - [g33xter/CVE-2020-9496](https://github.com/g33xter/CVE-2020-9496)
 - [cyber-niz/CVE-2020-9496](https://github.com/cyber-niz/CVE-2020-9496)
+- [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
 
 ### CVE-2020-9547 (2020-03-01)
 
@@ -5330,6 +5352,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [DeeLMind/CVE-2020-27955-LFS](https://github.com/DeeLMind/CVE-2020-27955-LFS)
 - [exileddb/CVE-2020-27955](https://github.com/exileddb/CVE-2020-27955)
 - [IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955)
+- [qzyqzynb/CVE-2020-27955](https://github.com/qzyqzynb/CVE-2020-27955)
 
 ### CVE-2020-27976 (2020-10-28)
 
