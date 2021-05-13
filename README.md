@@ -70,8 +70,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
 - [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
-- [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
-- [yuaneuro/weblogic_CVE-2021-2109_poc](https://github.com/yuaneuro/weblogic_CVE-2021-2109_poc)
+- [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
 
 ### CVE-2021-2321 (2021-04-28)
 
@@ -699,6 +698,7 @@ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated at
 - [r0ckysec/CVE-2021-26295](https://github.com/r0ckysec/CVE-2021-26295)
 - [coolyin001/CVE-2021-26295--](https://github.com/coolyin001/CVE-2021-26295--)
 - [S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP)
+- [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
 
 ### CVE-2021-26415 (2021-04-13)
 
@@ -1368,6 +1368,14 @@ A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an 
 
 ### CVE-2021-32259
 - [JamesGeee/CVE-2021-32259](https://github.com/JamesGeee/CVE-2021-32259)
+
+### CVE-2021-32471 (2021-05-10)
+
+<code>
+Insufficient input validation in the Marvin Minsky 1967 implementation of the Universal Turing Machine allows program users to execute arbitrary code via crafted data. For example, a tape head may have an unexpected location after the processing of input composed of As and Bs (instead of 0s and 1s). NOTE: the discoverer states &quot;this vulnerability has no real-world implications.&quot;
+</code>
+
+- [intrinsic-propensity/turing-machine](https://github.com/intrinsic-propensity/turing-machine)
 
 ### CVE-2021-2222222
 - [1151806933/cve-2021-2222222](https://github.com/1151806933/cve-2021-2222222)
