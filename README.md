@@ -5918,6 +5918,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [Kinesys/Kinesys-CVE-2019-0708-Exploit](https://github.com/Kinesys/Kinesys-CVE-2019-0708-Exploit)
 - [SurrealSky/CVE20190708SCAN](https://github.com/SurrealSky/CVE20190708SCAN)
 - [ORCA666/CVE-2019--0708-SCANNER](https://github.com/ORCA666/CVE-2019--0708-SCANNER)
+- [yourekillingme/CVE-2019-0708](https://github.com/yourekillingme/CVE-2019-0708)
 
 ### CVE-2019-0709 (2019-06-12)
 
