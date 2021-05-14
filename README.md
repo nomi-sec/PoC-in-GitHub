@@ -9627,6 +9627,9 @@ An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Col
 ### CVE-2018-14
 - [lckJack/legacySymfony](https://github.com/lckJack/legacySymfony)
 
+### CVE-2018-995
+- [kienquoc102/CVE-2018-995-Remake](https://github.com/kienquoc102/CVE-2018-995-Remake)
+
 ### CVE-2018-1010 (2018-04-11)
 
 <code>
