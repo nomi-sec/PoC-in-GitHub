@@ -5370,6 +5370,14 @@ osCommerce Phoenix CE before 1.0.5.4 allows OS command injection remotely. Withi
 
 - [k0rnh0li0/CVE-2020-27976](https://github.com/k0rnh0li0/CVE-2020-27976)
 
+### CVE-2020-28018 (2021-05-05)
+
+<code>
+Exim 4 before 4.94.2 allows Use After Free in smtp_reset in certain situations that may be common for builds with OpenSSL.
+</code>
+
+- [lmol/CVE-2020-28018](https://github.com/lmol/CVE-2020-28018)
+
 ### CVE-2020-28052 (2020-12-17)
 
 <code>
