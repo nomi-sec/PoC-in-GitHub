@@ -13509,6 +13509,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [john-80/cve-2017-7494](https://github.com/john-80/cve-2017-7494)
 - [Hansindu-M/CVE-2017-7494_IT19115344](https://github.com/Hansindu-M/CVE-2017-7494_IT19115344)
 - [m4udSec/noSAMBAnoCRY-CVE-2017-7494](https://github.com/m4udSec/noSAMBAnoCRY-CVE-2017-7494)
+- [I-Rinka/BIT-EternalBlue-for-Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-Linux)
 
 ### CVE-2017-7525 (2018-02-06)
 
@@ -19146,6 +19147,7 @@ Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute 
 </code>
 
 - [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
+- [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
 
 ### CVE-2004-1769 (2005-03-10)
 
