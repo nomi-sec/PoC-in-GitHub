@@ -943,6 +943,7 @@ In versions 8.2.1 through 8.5.2 of Pega Infinity, the password reset functionali
 </code>
 
 - [samwcyo/CVE-2021-27651-PoC](https://github.com/samwcyo/CVE-2021-27651-PoC)
+- [Vulnmachines/CVE-2021-27651](https://github.com/Vulnmachines/CVE-2021-27651)
 
 ### CVE-2021-27890 (2021-03-15)
 
@@ -1259,6 +1260,14 @@ An input validation flaw in the Symantec Security Analytics web UI 7.2 prior 7.2
 </code>
 
 - [JamesGeee/CVE-2021-30642](https://github.com/JamesGeee/CVE-2021-30642)
+
+### CVE-2021-31166 (2021-05-11)
+
+<code>
+HTTP Protocol Stack Remote Code Execution Vulnerability
+</code>
+
+- [0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166)
 
 ### CVE-2021-31184 (2021-05-11)
 
@@ -16470,6 +16479,7 @@ The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write t
 - [hackarada/cve-2015-3306](https://github.com/hackarada/cve-2015-3306)
 - [cdedmondson/Modified-CVE-2015-3306-Exploit](https://github.com/cdedmondson/Modified-CVE-2015-3306-Exploit)
 - [cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC)
+- [m4udSec/ProFTPD_CVE-2015-3306](https://github.com/m4udSec/ProFTPD_CVE-2015-3306)
 
 ### CVE-2015-3337 (2015-05-01)
 
