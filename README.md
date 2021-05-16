@@ -9638,9 +9638,6 @@ An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Col
 ### CVE-2018-14
 - [lckJack/legacySymfony](https://github.com/lckJack/legacySymfony)
 
-### CVE-2018-995
-- [kienquoc102/CVE-2018-995-Remake](https://github.com/kienquoc102/CVE-2018-995-Remake)
-
 ### CVE-2018-1010 (2018-04-11)
 
 <code>
@@ -11176,6 +11173,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [akuhidayat/HTC](https://github.com/akuhidayat/HTC)
 - [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
 - [HACKGM/CVE-2018-9995](https://github.com/HACKGM/CVE-2018-9995)
+- [kienquoc102/CVE-2018-9995](https://github.com/kienquoc102/CVE-2018-9995)
 
 ### CVE-2018-10118 (2018-04-15)
 
