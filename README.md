@@ -8434,6 +8434,14 @@ The TikTok (formerly Musical.ly) application 12.2.0 for Android and iOS performs
 
 - [MelroyB/CVE-2019-14319](https://github.com/MelroyB/CVE-2019-14319)
 
+### CVE-2019-14322 (2019-07-28)
+
+<code>
+In Pallets Werkzeug before 0.15.5, SharedDataMiddleware mishandles drive names (such as C:) in Windows pathnames.
+</code>
+
+- [faisalfs10x/CVE-2019-14322-scanner](https://github.com/faisalfs10x/CVE-2019-14322-scanner)
+
 ### CVE-2019-14326 (2020-04-14)
 
 <code>
@@ -11173,7 +11181,8 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [akuhidayat/HTC](https://github.com/akuhidayat/HTC)
 - [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
 - [HACKGM/CVE-2018-9995](https://github.com/HACKGM/CVE-2018-9995)
-- [kienquoc102/CVE-2018-9995](https://github.com/kienquoc102/CVE-2018-9995)
+- [quocquoc181/CVE-2018-9995](https://github.com/quocquoc181/CVE-2018-9995)
+- [kienquoc102/Exploit-CVE-2018-9995](https://github.com/kienquoc102/Exploit-CVE-2018-9995)
 
 ### CVE-2018-10118 (2018-04-15)
 
