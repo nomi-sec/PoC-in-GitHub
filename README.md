@@ -8450,6 +8450,7 @@ In Pallets Werkzeug before 0.15.5, SharedDataMiddleware mishandles drive names (
 </code>
 
 - [faisalfs10x/CVE-2019-14322-scanner](https://github.com/faisalfs10x/CVE-2019-14322-scanner)
+- [faisalfs10x/http-vuln-cve2019-14322.nse](https://github.com/faisalfs10x/http-vuln-cve2019-14322.nse)
 
 ### CVE-2019-14326 (2020-04-14)
 
