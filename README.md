@@ -551,6 +551,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 Improper neutralization of user data in the DjVu file format in ExifTool versions 7.44 and up allows arbitrary code execution when parsing the malicious image
 </code>
 
+- [convisoappsec/CVE-2021-22204-exiftool](https://github.com/convisoappsec/CVE-2021-22204-exiftool)
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 
 ### CVE-2021-22660 (2021-04-27)
@@ -1274,6 +1275,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 
 - [0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166)
 - [An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166)
+- [Frankmock/CVE-2021-31166-detection-rules](https://github.com/Frankmock/CVE-2021-31166-detection-rules)
 
 ### CVE-2021-31184 (2021-05-11)
 
