@@ -901,7 +901,12 @@ Yeastar NeoGate TG400 91.3.0.3 devices are affected by Directory Traversal. An a
 
 - [SQSamir/CVE-2021-27328](https://github.com/SQSamir/CVE-2021-27328)
 
-### CVE-2021-27342
+### CVE-2021-27342 (2021-05-17)
+
+<code>
+An authentication brute-force protection mechanism bypass in telnetd in D-Link Router model DIR-842 firmware version 3.0.2 allows a remote attacker to circumvent the anti-brute-force cool-down delay period via a timing-based side-channel attack
+</code>
+
 - [guywhataguy/D-Link-CVE-2021-27342-exploit](https://github.com/guywhataguy/D-Link-CVE-2021-27342-exploit)
 
 ### CVE-2021-27403 (2021-02-18)
@@ -1268,6 +1273,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 </code>
 
 - [0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166)
+- [An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166)
 
 ### CVE-2021-31184 (2021-05-11)
 
@@ -1309,7 +1315,12 @@ This vulnerability allows local attackers to escalate privileges on affected ins
 
 - [JamesGeee/CVE-2021-31420](https://github.com/JamesGeee/CVE-2021-31420)
 
-### CVE-2021-31728
+### CVE-2021-31728 (2021-05-17)
+
+<code>
+Incorrect access control in zam64.sys, zam32.sys in MalwareFox AntiMalware 2.74.0.150 allows a non-privileged process to open a handle to \.\ZemanaAntiMalware, register itself with the driver by sending IOCTL 0x80002010, allocate executable memory using a flaw in IOCTL 0x80002040, install a hook with IOCTL 0x80002044 and execute the executable memory using this hook with IOCTL 0x80002014 or 0x80002018, this exposes ring 0 code execution in the context of the driver allowing the non-privileged process to elevate privileges.
+</code>
+
 - [irql0/CVE-2021-31728](https://github.com/irql0/CVE-2021-31728)
 
 ### CVE-2021-31760 (2021-04-25)
@@ -13534,7 +13545,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [john-80/cve-2017-7494](https://github.com/john-80/cve-2017-7494)
 - [Hansindu-M/CVE-2017-7494_IT19115344](https://github.com/Hansindu-M/CVE-2017-7494_IT19115344)
 - [m4udSec/noSAMBAnoCRY-CVE-2017-7494](https://github.com/m4udSec/noSAMBAnoCRY-CVE-2017-7494)
-- [I-Rinka/BIT-EternalBlue-for-Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-Linux)
+- [I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux)
 
 ### CVE-2017-7525 (2018-02-06)
 
