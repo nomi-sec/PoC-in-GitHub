@@ -88,6 +88,14 @@ Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (comp
 
 - [JamesGeee/CVE-2021-2321](https://github.com/JamesGeee/CVE-2021-2321)
 
+### CVE-2021-3007 (2021-01-03)
+
+<code>
+** DISPUTED ** Laminas Project laminas-http before 2.14.2, and Zend Framework 3.0.0, has a deserialization vulnerability that can lead to remote code execution if the content is controllable, related to the __destruct method of the Zend\Http\Response\Stream class in Stream.php. NOTE: Zend Framework is no longer supported by the maintainer. NOTE: the laminas-http vendor considers this a &quot;vulnerability in the PHP language itself&quot; but has added certain type checking as a way to prevent exploitation in (unrecommended) use cases where attacker-supplied data can be deserialized.
+</code>
+
+- [Vulnmachines/ZF3_CVE-2021-3007](https://github.com/Vulnmachines/ZF3_CVE-2021-3007)
+
 ### CVE-2021-3019 (2021-01-04)
 
 <code>
@@ -733,6 +741,15 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 </code>
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
+
+### CVE-2021-26814 (2021-03-05)
+
+<code>
+Wazuh API in Wazuh from 4.0.0 to 4.0.3 allows authenticated users to execute arbitrary code with administrative privileges via /manager/files URI. An authenticated user to the service may exploit incomplete input validation on the /manager/files API to inject arbitrary code within the API service script.
+</code>
+
+- [WickdDavid/CVE-2021-26814](https://github.com/WickdDavid/CVE-2021-26814)
+- [CYS4srl/CVE-2021-26814](https://github.com/CYS4srl/CVE-2021-26814)
 
 ### CVE-2021-26828
 - [hevox/CVE-2021-26828_ScadaBR_RCE](https://github.com/hevox/CVE-2021-26828_ScadaBR_RCE)
@@ -1419,9 +1436,6 @@ Insufficient input validation in the Marvin Minsky 1967 implementation of the Un
 
 - [intrinsic-propensity/turing-machine](https://github.com/intrinsic-propensity/turing-machine)
 
-### CVE-2021-2222222
-- [1151806933/cve-2021-2222222](https://github.com/1151806933/cve-2021-2222222)
-
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -1840,9 +1854,6 @@ A spoofing vulnerability exists when Microsoft SharePoint Server does not proper
 </code>
 
 - [ericzhong2010/GUI-Check-CVE-2020-0976](https://github.com/ericzhong2010/GUI-Check-CVE-2020-0976)
-
-### CVE-2020-1
-- [full-disclosure/FDEU-CVE-2020-1FC5](https://github.com/full-disclosure/FDEU-CVE-2020-1FC5)
 
 ### CVE-2020-1015 (2020-04-15)
 
@@ -3294,6 +3305,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
+- [RepublicR0K/CVE-2020-9484](https://github.com/RepublicR0K/CVE-2020-9484)
 
 ### CVE-2020-9495 (2020-06-19)
 
@@ -5144,7 +5156,7 @@ A flaw was found in dnsmasq before version 2.83. When receiving a query, dnsmasq
 ### CVE-2020-25705 (2020-11-16)
 
 <code>
-A flaw in the way reply ICMP packets are limited in the Linux kernel functionality was found that allows to quickly scan open UDP ports. This flaw allows an off-path remote user to effectively bypassing source port UDP randomization. The highest threat from this vulnerability is to confidentiality and possibly integrity, because software that relies on UDP source port randomization are indirectly affected as well. Kernel versions before 5.10 may be vulnerable to this issue.
+A flaw in ICMP packets in the Linux kernel may allow an attacker to quickly scan open UDP ports. This flaw allows an off-path remote attacker to effectively bypass source port UDP randomization. Software that relies on UDP source port randomization are indirectly affected as well on the Linux Based Products (RUGGEDCOM RM1224: All versions between v5.0 and v6.4, SCALANCE M-800: All versions between v5.0 and v6.4, SCALANCE S615: All versions between v5.0 and v6.4, SCALANCE SC-600: All versions prior to v2.1.3, SCALANCE W1750D: v8.3.0.1, v8.6.0, and v8.7.0, SIMATIC Cloud Connect 7: All versions, SIMATIC MV500 Family: All versions, SIMATIC NET CP 1243-1 (incl. SIPLUS variants): Versions 3.1.39 and later, SIMATIC NET CP 1243-7 LTE EU: Version
 </code>
 
 - [tdwyer/CVE-2020-25705](https://github.com/tdwyer/CVE-2020-25705)
@@ -9553,7 +9565,6 @@ A sandbox bypass vulnerability exists in Script Security Plugin 1.49 and earlier
 - [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
 - [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
-- [m4udSec/Jenkins-Preauth-RCE-CVE-2019-1003000](https://github.com/m4udSec/Jenkins-Preauth-RCE-CVE-2019-1003000)
 
 ### CVE-2019-1010054 (2019-07-18)
 
@@ -10507,7 +10518,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574)
 - [it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574)
 - [Malone5923/CVE-2018-6574-go-get-RCE](https://github.com/Malone5923/CVE-2018-6574-go-get-RCE)
-- [shivam18u/CVE-2018-6574](https://github.com/shivam18u/CVE-2018-6574)
 - [illnino/CVE-2018-6574](https://github.com/illnino/CVE-2018-6574)
 - [TakuCoder/CVE-2018-6574](https://github.com/TakuCoder/CVE-2018-6574)
 - [kawkab101/cve-2018-6574](https://github.com/kawkab101/cve-2018-6574)
