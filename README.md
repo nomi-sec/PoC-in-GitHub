@@ -1852,6 +1852,14 @@ An elevation of privilege vulnerability exists in the way that the User-Mode Pow
 
 - [0xeb-bp/cve-2020-1015](https://github.com/0xeb-bp/cve-2020-1015)
 
+### CVE-2020-1020 (2020-04-15)
+
+<code>
+A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font - Adobe Type 1 PostScript format.For all systems except Windows 10, an attacker who successfully exploited the vulnerability could execute code remotely, aka 'Adobe Font Manager Library Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0938.
+</code>
+
+- [mavillon1/CVE-2020-1020-Exploit](https://github.com/mavillon1/CVE-2020-1020-Exploit)
+
 ### CVE-2020-1034 (2020-09-11)
 
 <code>
@@ -9545,6 +9553,7 @@ A sandbox bypass vulnerability exists in Script Security Plugin 1.49 and earlier
 - [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
 - [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
+- [m4udSec/Jenkins-Preauth-RCE-CVE-2019-1003000](https://github.com/m4udSec/Jenkins-Preauth-RCE-CVE-2019-1003000)
 
 ### CVE-2019-1010054 (2019-07-18)
 
@@ -11204,7 +11213,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [akuhidayat/HTC](https://github.com/akuhidayat/HTC)
 - [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
 - [HACKGM/CVE-2018-9995](https://github.com/HACKGM/CVE-2018-9995)
-- [kienquoc102/Exploit-CVE-2018-9995](https://github.com/kienquoc102/Exploit-CVE-2018-9995)
+- [kienquoc102/CVE-2018-9995-Exploit](https://github.com/kienquoc102/CVE-2018-9995-Exploit)
 
 ### CVE-2018-10118 (2018-04-15)
 
