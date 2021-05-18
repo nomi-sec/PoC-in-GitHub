@@ -325,6 +325,14 @@ A flaw was found in keycloak. Directories can be created prior to the Java proce
 
 - [Jarry1sec/CVE-2021-20202](https://github.com/Jarry1sec/CVE-2021-20202)
 
+### CVE-2021-20266 (2021-04-30)
+
+<code>
+A flaw was found in RPM's hdrblobInit() in lib/header.c. This flaw allows an attacker who can modify the rpmdb to cause an out-of-bounds read. The highest threat from this vulnerability is to system availability.
+</code>
+
+- [JamesGeee/CVE-2021-20266](https://github.com/JamesGeee/CVE-2021-20266)
+
 ### CVE-2021-20716 (2021-04-27)
 
 <code>
@@ -543,6 +551,14 @@ VMware View Planner 4.x prior to 4.6 Security Patch 1 contains a remote code exe
 - [GreyOrder/CVE-2021-21978](https://github.com/GreyOrder/CVE-2021-21978)
 - [me1ons/CVE-2021-21978](https://github.com/me1ons/CVE-2021-21978)
 - [skytina/CVE-2021-21978](https://github.com/skytina/CVE-2021-21978)
+
+### CVE-2021-22117 (2021-05-18)
+
+<code>
+RabbitMQ installers on Windows prior to version 3.8.16 do not harden plugin directory permissions, potentially allowing attackers with sufficient local filesystem permissions to add arbitrary plugins.
+</code>
+
+- [JamesGeee/CVE-2021-22117](https://github.com/JamesGeee/CVE-2021-22117)
 
 ### CVE-2021-22192 (2021-03-24)
 
@@ -1073,6 +1089,14 @@ Windows NTFS Denial of Service Vulnerability
 
 - [shubham0d/CVE-2021-28312](https://github.com/shubham0d/CVE-2021-28312)
 
+### CVE-2021-28465 (2021-05-11)
+
+<code>
+Web Media Extensions Remote Code Execution Vulnerability
+</code>
+
+- [JamesGeee/CVE-2021-28465](https://github.com/JamesGeee/CVE-2021-28465)
+
 ### CVE-2021-28480 (2021-04-13)
 
 <code>
@@ -1157,6 +1181,14 @@ Mahara 20.10 is affected by Cross Site Request Forgery (CSRF) that allows a remo
 ### CVE-2021-29386
 - [Umarovm/PowerSchool-Grade-Stealer](https://github.com/Umarovm/PowerSchool-Grade-Stealer)
 
+### CVE-2021-29425 (2021-04-13)
+
+<code>
+In Apache Commons IO before 2.7, When invoking the method FileNameUtils.normalize with an improper input string, like &quot;//../foo&quot;, or &quot;\\..\foo&quot;, the result would be the same value, thus possibly providing access to files in the parent directory, but not further above (thus &quot;limited&quot; path traversal), if the calling code would use the result to construct a path value.
+</code>
+
+- [JamesGeee/CVE-2021-29425](https://github.com/JamesGeee/CVE-2021-29425)
+
 ### CVE-2021-29442 (2021-04-27)
 
 <code>
@@ -1173,6 +1205,14 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 
 - [motikan2010/CVE-2021-29447](https://github.com/motikan2010/CVE-2021-29447)
 
+### CVE-2021-29478 (2021-05-04)
+
+<code>
+Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. An integer overflow bug in Redis 6.2 before 6.2.3 could be exploited to corrupt the heap and potentially result with remote code execution. Redis 6.0 and earlier are not directly affected by this issue. The problem is fixed in version 6.2.3. An additional workaround to mitigate the problem without patching the `redis-server` executable is to prevent users from modifying the `set-max-intset-entries` configuration parameter. This can be done using ACL to restrict unprivileged users from using the `CONFIG SET` command.
+</code>
+
+- [JamesGeee/CVE-2021-29478](https://github.com/JamesGeee/CVE-2021-29478)
+
 ### CVE-2021-29488 (2021-05-07)
 
 <code>
@@ -1188,6 +1228,22 @@ Nim is a statically typed compiled systems programming language. In Nim standard
 </code>
 
 - [JamesGeee/CVE-2021-29495](https://github.com/JamesGeee/CVE-2021-29495)
+
+### CVE-2021-29602 (2021-05-14)
+
+<code>
+TensorFlow is an end-to-end open source platform for machine learning. The implementation of the `DepthwiseConv` TFLite operator is vulnerable to a division by zero error(https://github.com/tensorflow/tensorflow/blob/1a8e885b864c818198a5b2c0cbbeca5a1e833bc8/tensorflow/lite/kernels/depthwise_conv.cc#L287-L288). An attacker can craft a model such that `input`'s fourth dimension would be 0. The fix will be included in TensorFlow 2.5.0. We will also cherrypick this commit on TensorFlow 2.4.2, TensorFlow 2.3.3, TensorFlow 2.2.3 and TensorFlow 2.1.4, as these are also affected and still in supported range.
+</code>
+
+- [JamesGeee/CVE-2021-29602](https://github.com/JamesGeee/CVE-2021-29602)
+
+### CVE-2021-29603 (2021-05-14)
+
+<code>
+TensorFlow is an end-to-end open source platform for machine learning. A specially crafted TFLite model could trigger an OOB write on heap in the TFLite implementation of `ArgMin`/`ArgMax`(https://github.com/tensorflow/tensorflow/blob/102b211d892f3abc14f845a72047809b39cc65ab/tensorflow/lite/kernels/arg_min_max.cc#L52-L59). If `axis_value` is not a value between 0 and `NumDimensions(input)`, then the condition in the `if` is never true, so code writes past the last valid element of `output_dims-&gt;data`. The fix will be included in TensorFlow 2.5.0. We will also cherrypick this commit on TensorFlow 2.4.2, TensorFlow 2.3.3, TensorFlow 2.2.3 and TensorFlow 2.1.4, as these are also affected and still in supported range.
+</code>
+
+- [JamesGeee/CVE-2021-29603](https://github.com/JamesGeee/CVE-2021-29603)
 
 ### CVE-2021-29627 (2021-04-07)
 
@@ -1294,6 +1350,14 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166)
 - [Frankmock/CVE-2021-31166-detection-rules](https://github.com/Frankmock/CVE-2021-31166-detection-rules)
 
+### CVE-2021-31180 (2021-05-11)
+
+<code>
+Microsoft Office Graphics Remote Code Execution Vulnerability
+</code>
+
+- [JamesGeee/CVE-2021-31180](https://github.com/JamesGeee/CVE-2021-31180)
+
 ### CVE-2021-31184 (2021-05-11)
 
 <code>
@@ -1393,6 +1457,14 @@ The yoast_seo (aka Yoast SEO) extension before 7.2.1 for TYPO3 allows SSRF via a
 
 - [JamesGeee/CVE-2021-31779](https://github.com/JamesGeee/CVE-2021-31779)
 
+### CVE-2021-31793 (2021-05-06)
+
+<code>
+An issue exists on NightOwl WDB-20-V2 WDB-20-V2_20190314 devices that allows an unauthenticated user to gain access to snapshots and video streams from the doorbell. The binary app offers a web server on port 80 that allows an unauthenticated user to take a snapshot from the doorbell camera via the /snapshot URI.
+</code>
+
+- [JamesGeee/CVE-2021-31793](https://github.com/JamesGeee/CVE-2021-31793)
+
 ### CVE-2021-31795 (2021-04-24)
 
 <code>
@@ -1424,6 +1496,22 @@ A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an 
 </code>
 
 - [ssst0n3/CVE-2021-31856](https://github.com/ssst0n3/CVE-2021-31856)
+
+### CVE-2021-31899 (2021-05-11)
+
+<code>
+In JetBrains Code With Me bundled to the compatible IDEs before version 2021.1, the client could execute code in read-only mode.
+</code>
+
+- [JamesGeee/CVE-2021-31899](https://github.com/JamesGeee/CVE-2021-31899)
+
+### CVE-2021-31916 (2021-05-06)
+
+<code>
+An out-of-bounds (OOB) memory write flaw was found in list_devices in drivers/md/dm-ioctl.c in the Multi-device driver module in the Linux kernel before 5.12. A bound check failure allows an attacker with special user (CAP_SYS_ADMIN) privilege to gain access to out-of-bounds memory leading to a system crash or a leak of internal kernel information. The highest threat from this vulnerability is to system availability.
+</code>
+
+- [JamesGeee/CVE-2021-31916](https://github.com/JamesGeee/CVE-2021-31916)
 
 ### CVE-2021-32259
 - [JamesGeee/CVE-2021-32259](https://github.com/JamesGeee/CVE-2021-32259)
@@ -2321,6 +2409,14 @@ An inconsistent user interface issue was addressed with improved state managemen
 </code>
 
 - [c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-](https://github.com/c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-)
+
+### CVE-2020-3864 (2020-10-27)
+
+<code>
+A logic issue was addressed with improved validation. This issue is fixed in iCloud for Windows 7.17, iTunes 12.10.4 for Windows, iCloud for Windows 10.9.2, tvOS 13.3.1, Safari 13.0.5, iOS 13.3.1 and iPadOS 13.3.1. A DOM object context may not have had a unique security origin.
+</code>
+
+- [JamesGeee/CVE-2020-3864](https://github.com/JamesGeee/CVE-2020-3864)
 
 ### CVE-2020-3952 (2020-04-10)
 
@@ -3237,6 +3333,30 @@ IPTV Smarters WEB TV PLAYER through 2020-02-22 allows attackers to execute OS co
 </code>
 
 - [migueltarga/CVE-2020-9380](https://github.com/migueltarga/CVE-2020-9380)
+
+### CVE-2020-9388 (2021-02-03)
+
+<code>
+CSRF protection was not present in SquaredUp before version 4.6.0. A CSRF attack could have been possible by an administrator executing arbitrary code in a HTML dashboard tile via a crafted HTML page, or by uploading a malicious SVG payload into a dashboard.
+</code>
+
+- [JamesGeee/CVE-2020-9388](https://github.com/JamesGeee/CVE-2020-9388)
+
+### CVE-2020-9389 (2021-02-03)
+
+<code>
+A username enumeration issue was discovered in SquaredUp before version 4.6.0. The login functionality was implemented in a way that would enable a malicious user to guess valid username due to a different response time from invalid usernames.
+</code>
+
+- [JamesGeee/CVE-2020-9389](https://github.com/JamesGeee/CVE-2020-9389)
+
+### CVE-2020-9390 (2021-02-03)
+
+<code>
+SquaredUp allowed Stored XSS before version 4.6.0. A user was able to create a dashboard that executed malicious content in iframe or by uploading an SVG that contained a script.
+</code>
+
+- [JamesGeee/CVE-2020-9390](https://github.com/JamesGeee/CVE-2020-9390)
 
 ### CVE-2020-9442 (2020-02-28)
 
@@ -4770,6 +4890,14 @@ A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapest
 
 - [154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531)
 
+### CVE-2020-18102 (2021-05-10)
+
+<code>
+Cross Site Scripting (XSS) in Hotels_Server v1.0 allows remote attackers to execute arbitrary code by injecting crafted commands the data fields in the component &quot;/controller/publishHotel.php&quot;.
+</code>
+
+- [JamesGeee/CVE-2020-18102](https://github.com/JamesGeee/CVE-2020-18102)
+
 ### CVE-2020-19107 (2021-05-05)
 
 <code>
@@ -4890,6 +5018,22 @@ A Reflected Cross-Site Scripting (XSS) vulnerability in GetSimple CMS v3.3.16, i
 
 - [boku7/CVE-2020-23839](https://github.com/boku7/CVE-2020-23839)
 
+### CVE-2020-23851 (2021-05-18)
+
+<code>
+A stack-based buffer overflow vulnerability exists in ffjpeg through 2020-07-02 in the jfif_decode(void *ctxt, BMP *pb) function at ffjpeg/src/jfif.c:513:28, which could cause a denial of service by submitting a malicious jpeg image.
+</code>
+
+- [JamesGeee/CVE-2020-23851](https://github.com/JamesGeee/CVE-2020-23851)
+
+### CVE-2020-23852 (2021-05-18)
+
+<code>
+A heap based buffer overflow vulnerability exists in ffjpeg through 2020-07-02 in the jfif_decode(void *ctxt, BMP *pb) function at ffjpeg/src/jfif.c (line 544 &amp; line 545), which could cause a denial of service by submitting a malicious jpeg image.
+</code>
+
+- [JamesGeee/CVE-2020-23852](https://github.com/JamesGeee/CVE-2020-23852)
+
 ### CVE-2020-23968 (2020-11-10)
 
 <code>
@@ -4945,6 +5089,14 @@ Playground Sessions v2.5.582 (and earlier) for Windows, stores the user credenti
 </code>
 
 - [nathunandwani/CVE-2020-24227](https://github.com/nathunandwani/CVE-2020-24227)
+
+### CVE-2020-24421 (2020-10-21)
+
+<code>
+Adobe InDesign version 15.1.2 (and earlier) is affected by a NULL pointer dereference bug that occurs when handling a malformed .indd file. The impact is limited to causing a denial-of-service of the client application. User interaction is required to exploit this issue.
+</code>
+
+- [JamesGeee/CVE-2020-24421](https://github.com/JamesGeee/CVE-2020-24421)
 
 ### CVE-2020-24572 (2020-08-24)
 
@@ -7229,6 +7381,14 @@ This was addressed with additional checks by Gatekeeper on files mounted through
 
 - [D00MFist/CVE-2019-8656](https://github.com/D00MFist/CVE-2019-8656)
 
+### CVE-2019-8689 (2019-12-18)
+
+<code>
+Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in iOS 12.4, macOS Mojave 10.14.6, tvOS 12.4, watchOS 5.3, Safari 12.1.2, iTunes for Windows 12.9.6, iCloud for Windows 7.13, iCloud for Windows 10.6. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [JamesGeee/CVE-2019-8689](https://github.com/JamesGeee/CVE-2019-8689)
+
 ### CVE-2019-8781 (2019-12-18)
 
 <code>
@@ -7245,6 +7405,54 @@ An issue existed in the parsing of URL schemes. This issue was addressed with im
 </code>
 
 - [ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792](https://github.com/ashleykinguk/Shazam-CVE-2019-8791-CVE-2019-8792)
+
+### CVE-2019-8814 (2019-12-18)
+
+<code>
+Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in iOS 13.2 and iPadOS 13.2, tvOS 13.2, Safari 13.0.3, iTunes for Windows 12.10.2, iCloud for Windows 11.0, iCloud for Windows 7.15. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [JamesGeee/CVE-2019-8814](https://github.com/JamesGeee/CVE-2019-8814)
+
+### CVE-2019-8815 (2019-12-18)
+
+<code>
+Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in iOS 13.2 and iPadOS 13.2, tvOS 13.2, Safari 13.0.3, iTunes for Windows 12.10.2, iCloud for Windows 11.0, iCloud for Windows 7.15. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [JamesGeee/CVE-2019-8815](https://github.com/JamesGeee/CVE-2019-8815)
+
+### CVE-2019-8816 (2019-12-18)
+
+<code>
+Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in iOS 13.2 and iPadOS 13.2, tvOS 13.2, watchOS 6.1, Safari 13.0.3, iTunes for Windows 12.10.2, iCloud for Windows 11.0, iCloud for Windows 7.15. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [JamesGeee/CVE-2019-8816](https://github.com/JamesGeee/CVE-2019-8816)
+
+### CVE-2019-8835 (2020-10-27)
+
+<code>
+Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in tvOS 13.3, iCloud for Windows 10.9, iOS 13.3 and iPadOS 13.3, Safari 13.0.4, iTunes 12.10.3 for Windows, iCloud for Windows 7.16. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [JamesGeee/CVE-2019-8835](https://github.com/JamesGeee/CVE-2019-8835)
+
+### CVE-2019-8844 (2020-10-27)
+
+<code>
+Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in tvOS 13.3, watchOS 6.1.1, iCloud for Windows 10.9, iOS 13.3 and iPadOS 13.3, Safari 13.0.4, iTunes 12.10.3 for Windows, iCloud for Windows 7.16. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [JamesGeee/CVE-2019-8844](https://github.com/JamesGeee/CVE-2019-8844)
+
+### CVE-2019-8846 (2020-10-27)
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in tvOS 13.3, iCloud for Windows 10.9, iOS 13.3 and iPadOS 13.3, Safari 13.0.4, iTunes 12.10.3 for Windows, iCloud for Windows 7.16. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [JamesGeee/CVE-2019-8846](https://github.com/JamesGeee/CVE-2019-8846)
 
 ### CVE-2019-8852 (2020-10-27)
 
