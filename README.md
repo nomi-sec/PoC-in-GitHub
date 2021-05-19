@@ -1366,6 +1366,70 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
 
+### CVE-2021-31207 (2021-05-11)
+
+<code>
+Microsoft Exchange Server Security Feature Bypass Vulnerability
+</code>
+
+- [JamesGeee/CVE-2021-31207](https://github.com/JamesGeee/CVE-2021-31207)
+
+### CVE-2021-31213 (2021-05-11)
+
+<code>
+Visual Studio Code Remote Containers Extension Remote Code Execution Vulnerability
+</code>
+
+- [JamesGeee/CVE-2021-31213](https://github.com/JamesGeee/CVE-2021-31213)
+
+### CVE-2021-31316 (2021-05-18)
+
+<code>
+The unprivileged user portal part of CentOS Web Panel is affected by a SQL Injection via the 'idsession' HTTP POST parameter.
+</code>
+
+- [JamesGeee/CVE-2021-31316](https://github.com/JamesGeee/CVE-2021-31316)
+
+### CVE-2021-31317 (2021-05-18)
+
+<code>
+Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by a Type Confusion in the VDasher constructor of their custom fork of the rlottie library. A remote attacker might be able to access Telegram's heap memory out-of-bounds on a victim device via a malicious animated sticker.
+</code>
+
+- [JamesGeee/CVE-2021-31317](https://github.com/JamesGeee/CVE-2021-31317)
+
+### CVE-2021-31318 (2021-05-18)
+
+<code>
+Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by a Type Confusion in the LOTCompLayerItem::LOTCompLayerItem function of their custom fork of the rlottie library. A remote attacker might be able to access heap memory out-of-bounds on a victim device via a malicious animated sticker.
+</code>
+
+- [JamesGeee/CVE-2021-31318](https://github.com/JamesGeee/CVE-2021-31318)
+
+### CVE-2021-31319 (2021-05-18)
+
+<code>
+Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by an Integer Overflow in the LOTGradient::populate function of their custom fork of the rlottie library. A remote attacker might be able to access heap memory out-of-bounds on a victim device via a malicious animated sticker.
+</code>
+
+- [JamesGeee/CVE-2021-31319](https://github.com/JamesGeee/CVE-2021-31319)
+
+### CVE-2021-31320 (2021-05-18)
+
+<code>
+Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by a Heap Buffer Overflow in the VGradientCache::generateGradientColorTable function of their custom fork of the rlottie library. A remote attacker might be able to overwrite heap memory out-of-bounds on a victim device via a malicious animated sticker.
+</code>
+
+- [JamesGeee/CVE-2021-31320](https://github.com/JamesGeee/CVE-2021-31320)
+
+### CVE-2021-31321 (2021-05-18)
+
+<code>
+Telegram Android &lt;7.1.0 (2090), Telegram iOS &lt;7.1, and Telegram macOS &lt;7.1 are affected by a Stack Based Overflow in the gray_split_cubic function of their custom fork of the rlottie library. A remote attacker might be able to overwrite Telegram's stack memory out-of-bounds on a victim device via a malicious animated sticker.
+</code>
+
+- [JamesGeee/CVE-2021-31321](https://github.com/JamesGeee/CVE-2021-31321)
+
 ### CVE-2021-31417 (2021-04-29)
 
 <code>
@@ -1397,6 +1461,12 @@ This vulnerability allows local attackers to escalate privileges on affected ins
 </code>
 
 - [JamesGeee/CVE-2021-31420](https://github.com/JamesGeee/CVE-2021-31420)
+
+### CVE-2021-31702
+- [l00neyhacker/CVE-2021-31702](https://github.com/l00neyhacker/CVE-2021-31702)
+
+### CVE-2021-31703
+- [l00neyhacker/CVE-2021-31703](https://github.com/l00neyhacker/CVE-2021-31703)
 
 ### CVE-2021-31728 (2021-05-17)
 
@@ -4945,6 +5015,22 @@ SQL Injection vulnerability in Online Book Store v1.0 via the publisher paramete
 </code>
 
 - [JamesGeee/CVE-2020-19114](https://github.com/JamesGeee/CVE-2020-19114)
+
+### CVE-2020-20220 (2021-05-18)
+
+<code>
+Mikrotik RouterOs prior to stable 6.47 suffers from a memory corruption vulnerability in the /nova/bin/bfd process. An authenticated remote attacker can cause a Denial of Service (NULL pointer dereference).
+</code>
+
+- [JamesGeee/CVE-2020-20220](https://github.com/JamesGeee/CVE-2020-20220)
+
+### CVE-2020-20227 (2021-05-18)
+
+<code>
+Mikrotik RouterOs stable 6.47 suffers from a memory corruption vulnerability in the /nova/bin/diskd process. An authenticated remote attacker can cause a Denial of Service due to invalid memory access.
+</code>
+
+- [JamesGeee/CVE-2020-20227](https://github.com/JamesGeee/CVE-2020-20227)
 
 ### CVE-2020-21224 (2021-02-22)
 
