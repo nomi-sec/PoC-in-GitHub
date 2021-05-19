@@ -1349,6 +1349,8 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166)
 - [An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166)
 - [Frankmock/CVE-2021-31166-detection-rules](https://github.com/Frankmock/CVE-2021-31166-detection-rules)
+- [corelight/CVE-2021-31166](https://github.com/corelight/CVE-2021-31166)
+- [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 
 ### CVE-2021-31180 (2021-05-11)
 
