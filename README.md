@@ -6584,6 +6584,7 @@ Sonatype Nexus Repository Manager before 3.15.0 has Incorrect Access Control.
 - [jas502n/CVE-2019-7238](https://github.com/jas502n/CVE-2019-7238)
 - [verctor/nexus_rce_CVE-2019-7238](https://github.com/verctor/nexus_rce_CVE-2019-7238)
 - [magicming200/CVE-2019-7238_Nexus_RCE_Tool](https://github.com/magicming200/CVE-2019-7238_Nexus_RCE_Tool)
+- [smallpiggy/CVE-2019-7238](https://github.com/smallpiggy/CVE-2019-7238)
 
 ### CVE-2019-7304 (2019-04-23)
 
@@ -8015,6 +8016,7 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [janod313/-CVE-2019-14287-SUDO-bypass-vulnerability](https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability)
 - [DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287)
 - [M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287)
+- [DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights](https://github.com/DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights)
 
 ### CVE-2019-14314 (2019-08-27)
 
