@@ -7668,6 +7668,7 @@ getchar.c in Vim before 8.1.1365 and Neovim before 0.3.6 allows remote attackers
 
 - [pcy190/ace-vim-neovim](https://github.com/pcy190/ace-vim-neovim)
 - [oldthree3/CVE-2019-12735-VIM-NEOVIM](https://github.com/oldthree3/CVE-2019-12735-VIM-NEOVIM)
+- [nickylimjj/cve-2019-12735](https://github.com/nickylimjj/cve-2019-12735)
 
 ### CVE-2019-12750 (2019-07-31)
 
