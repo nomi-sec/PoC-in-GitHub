@@ -1131,6 +1131,14 @@ A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an 
 
 - [ssst0n3/CVE-2021-31856](https://github.com/ssst0n3/CVE-2021-31856)
 
+### CVE-2021-31876 (2021-05-13)
+
+<code>
+Bitcoin Core 0.12.0 through 0.21.1 does not properly implement the replacement policy specified in BIP125, which makes it easier for attackers to trigger a loss of funds, or a denial of service attack against downstream projects such as Lightning network nodes. An unconfirmed child transaction with nSequence = 0xff_ff_ff_ff, spending an unconfirmed parent with nSequence &lt;= 0xff_ff_ff_fd, should be replaceable because there is inherited signaling by the child transaction. However, the actual PreChecks implementation does not enforce this. Instead, mempool rejects the replacement attempt of the unconfirmed child transaction.
+</code>
+
+- [nondejus/CVE-2021-31876](https://github.com/nondejus/CVE-2021-31876)
+
 ### CVE-2021-32471 (2021-05-10)
 
 <code>
@@ -2226,6 +2234,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [renanhsilva/checkvulnCVE20205902](https://github.com/renanhsilva/checkvulnCVE20205902)
 - [halencarjunior/f5scan](https://github.com/halencarjunior/f5scan)
 - [deepsecurity-pe/GoF5-CVE-2020-5902](https://github.com/deepsecurity-pe/GoF5-CVE-2020-5902)
+- [Shu1L/CVE-2020-5902-fofa-scan](https://github.com/Shu1L/CVE-2020-5902-fofa-scan)
 - [d4rk007/F5-Big-IP-CVE-2020-5902-mass-exploiter](https://github.com/d4rk007/F5-Big-IP-CVE-2020-5902-mass-exploiter)
 - [TheCyberViking/CVE-2020-5902-Vuln-Checker](https://github.com/TheCyberViking/CVE-2020-5902-Vuln-Checker)
 - [itsjeffersonli/CVE-2020-5902](https://github.com/itsjeffersonli/CVE-2020-5902)
