@@ -3886,6 +3886,14 @@ A flaw was found in Eclipse Che in versions prior to 7.14.0 that impacts CodeRea
 
 - [codingchili/CVE-2020-14368](https://github.com/codingchili/CVE-2020-14368)
 
+### CVE-2020-14372 (2021-03-03)
+
+<code>
+A flaw was found in grub2 in versions prior to 2.06, where it incorrectly enables the usage of the ACPI command when Secure Boot is enabled. This flaw allows an attacker with privileged access to craft a Secondary System Description Table (SSDT) containing code to overwrite the Linux kernel lockdown variable content directly into memory. The table is further loaded and executed by the kernel, defeating its Secure Boot lockdown and allowing the attacker to load unsigned code. The highest threat from this vulnerability is to data confidentiality and integrity, as well as system availability.
+</code>
+
+- [kukrimate/CVE-2020-14372](https://github.com/kukrimate/CVE-2020-14372)
+
 ### CVE-2020-14386 (2020-09-16)
 
 <code>
