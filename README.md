@@ -954,7 +954,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 </code>
 
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
-- [KevinWorst/CVE-2021-28482_Exploits](https://github.com/KevinWorst/CVE-2021-28482_Exploits)
+- [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
 
 ### CVE-2021-29200 (2021-04-27)
 
