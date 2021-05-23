@@ -991,6 +991,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 </code>
 
 - [motikan2010/CVE-2021-29447](https://github.com/motikan2010/CVE-2021-29447)
+- [Vulnmachines/wordpress_cve-2021-29447](https://github.com/Vulnmachines/wordpress_cve-2021-29447)
 
 ### CVE-2021-29627 (2021-04-07)
 
@@ -8817,6 +8818,14 @@ An issue was discovered in Oniguruma 6.x before 6.9.4_rc2. In the function fetch
 
 - [ManhNDd/CVE-2019-19204](https://github.com/ManhNDd/CVE-2019-19204)
 - [tarantula-team/CVE-2019-19204](https://github.com/tarantula-team/CVE-2019-19204)
+
+### CVE-2019-19208 (2020-03-16)
+
+<code>
+Codiad Web IDE through 2.8.4 allows PHP Code injection.
+</code>
+
+- [Hacker5preme/CVE-2019-19208-exploit](https://github.com/Hacker5preme/CVE-2019-19208-exploit)
 
 ### CVE-2019-19231 (2019-12-20)
 
