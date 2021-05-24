@@ -245,6 +245,14 @@ Zen Cart 1.5.7b allows admins to execute arbitrary OS commands by inspecting an 
 
 - [ImHades101/CVE-2021-3291](https://github.com/ImHades101/CVE-2021-3291)
 
+### CVE-2021-3310 (2021-03-09)
+
+<code>
+Western Digital My Cloud OS 5 devices before 5.10.122 mishandle Symbolic Link Following on SMB and AFP shares. This can lead to code execution and information disclosure (by reading local files).
+</code>
+
+- [piffd0s/CVE-2021-3310](https://github.com/piffd0s/CVE-2021-3310)
+
 ### CVE-2021-3317 (2021-01-26)
 
 <code>
@@ -5150,6 +5158,7 @@ Archive_Tar through 1.4.10 allows an unserialization attack because phar: is blo
 </code>
 
 - [0x240x23elu/CVE-2020-28948-and-CVE-2020-28949](https://github.com/0x240x23elu/CVE-2020-28948-and-CVE-2020-28949)
+- [nopdata/cve-2020-28948](https://github.com/nopdata/cve-2020-28948)
 
 ### CVE-2020-29007
 - [seqred-s-a/cve-2020-29007](https://github.com/seqred-s-a/cve-2020-29007)
