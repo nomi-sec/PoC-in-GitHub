@@ -1084,6 +1084,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [corelight/CVE-2021-31166](https://github.com/corelight/CVE-2021-31166)
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
+- [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
 
 ### CVE-2021-31184 (2021-05-11)
 
