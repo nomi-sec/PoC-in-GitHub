@@ -1160,6 +1160,9 @@ Insufficient input validation in the Marvin Minsky 1967 implementation of the Un
 
 - [intrinsic-propensity/turing-machine](https://github.com/intrinsic-propensity/turing-machine)
 
+### CVE-2021-33558
+- [mdanzaruddin/CVE-2021-33558.](https://github.com/mdanzaruddin/CVE-2021-33558.)
+
 ### CVE-2021-3222222
 - [r90tpass/CVE-2021-3222222](https://github.com/r90tpass/CVE-2021-3222222)
 
