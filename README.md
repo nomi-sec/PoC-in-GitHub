@@ -333,6 +333,9 @@ A flaw was found in keycloak. Directories can be created prior to the Java proce
 
 - [Jarry1sec/CVE-2021-20202](https://github.com/Jarry1sec/CVE-2021-20202)
 
+### CVE-2021-20914
+- [Shadow0ps/CVE-2021-20914](https://github.com/Shadow0ps/CVE-2021-20914)
+
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
@@ -2670,6 +2673,14 @@ The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the 
 - [waleweewe12/CVE-2020-8417](https://github.com/waleweewe12/CVE-2020-8417)
 - [Rapidsafeguard/codesnippets_CVE-2020-8417](https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417)
 - [Vulnmachines/WordPress_CVE-2020-8417](https://github.com/Vulnmachines/WordPress_CVE-2020-8417)
+
+### CVE-2020-8428 (2020-01-28)
+
+<code>
+fs/namei.c in the Linux kernel before 5.5 has a may_create_in_sticky use-after-free, which allows local users to cause a denial of service (OOPS) or possibly obtain sensitive information from kernel memory, aka CID-d0cb50185ae9. One attack vector may be an open system call for a UNIX domain socket, if the socket is being moved to a new parent directory and its old parent directory is being removed.
+</code>
+
+- [Alex-Lian/CVE-2020-8428-demo](https://github.com/Alex-Lian/CVE-2020-8428-demo)
 
 ### CVE-2020-8437 (2020-03-02)
 
@@ -5028,6 +5039,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955)
 - [qzyqzynb/CVE-2020-27955](https://github.com/qzyqzynb/CVE-2020-27955)
 - [nob0dy-3389/CVE-2020-27955](https://github.com/nob0dy-3389/CVE-2020-27955)
+- [Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS)
 
 ### CVE-2020-27976 (2020-10-28)
 
@@ -11967,6 +11979,14 @@ The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRA
 
 - [ASkyeye/CVE-2018-19320](https://github.com/ASkyeye/CVE-2018-19320)
 - [a00x90/CVE-2018-19320](https://github.com/a00x90/CVE-2018-19320)
+
+### CVE-2018-19423 (2018-11-21)
+
+<code>
+Codiad 2.8.4 allows remote authenticated administrators to execute arbitrary code by uploading an executable file.
+</code>
+
+- [Hacker5preme/CVE-2018-19423-Exploit](https://github.com/Hacker5preme/CVE-2018-19423-Exploit)
 
 ### CVE-2018-19466 (2019-03-27)
 
