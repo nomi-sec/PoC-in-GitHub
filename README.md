@@ -540,6 +540,7 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 
 - [ZephrFish/CVE-2021-22893](https://github.com/ZephrFish/CVE-2021-22893)
 - [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
+- [r90tpass/cve-2021-22893](https://github.com/r90tpass/cve-2021-22893)
 
 ### CVE-2021-22986 (2021-03-31)
 
@@ -1158,6 +1159,12 @@ Insufficient input validation in the Marvin Minsky 1967 implementation of the Un
 </code>
 
 - [intrinsic-propensity/turing-machine](https://github.com/intrinsic-propensity/turing-machine)
+
+### CVE-2021-3222222
+- [r90tpass/CVE-2021-3222222](https://github.com/r90tpass/CVE-2021-3222222)
+
+### CVE-2021-8989898
+- [r90tpass/CVE-2021-8989898](https://github.com/r90tpass/CVE-2021-8989898)
 
 
 ## 2020
@@ -10512,6 +10519,7 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-)
 - [delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174)
 - [delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP)
+- [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
 
 ### CVE-2018-8208 (2018-06-14)
 
