@@ -543,7 +543,6 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 
 - [ZephrFish/CVE-2021-22893](https://github.com/ZephrFish/CVE-2021-22893)
 - [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
-- [r90tpass/cve-2021-22893](https://github.com/r90tpass/cve-2021-22893)
 
 ### CVE-2021-22986 (2021-03-31)
 
@@ -1165,12 +1164,6 @@ Insufficient input validation in the Marvin Minsky 1967 implementation of the Un
 
 ### CVE-2021-33558
 - [mdanzaruddin/CVE-2021-33558.](https://github.com/mdanzaruddin/CVE-2021-33558.)
-
-### CVE-2021-3222222
-- [r90tpass/CVE-2021-3222222](https://github.com/r90tpass/CVE-2021-3222222)
-
-### CVE-2021-8989898
-- [r90tpass/CVE-2021-8989898](https://github.com/r90tpass/CVE-2021-8989898)
 
 
 ## 2020
@@ -5232,14 +5225,6 @@ Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyf
 </code>
 
 - [ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583)
-
-### CVE-2020-29607 (2020-12-16)
-
-<code>
-A file upload restriction bypass vulnerability in Pluck CMS before 4.7.13 allows an admin privileged user to gain access in the host through the &quot;manage files&quot; functionality, which may result in remote code execution.
-</code>
-
-- [Hacker5preme/CVE-2020-29607-exploit](https://github.com/Hacker5preme/CVE-2020-29607-exploit)
 
 ### CVE-2020-29666 (2020-12-10)
 
@@ -11987,14 +11972,6 @@ The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRA
 
 - [ASkyeye/CVE-2018-19320](https://github.com/ASkyeye/CVE-2018-19320)
 - [a00x90/CVE-2018-19320](https://github.com/a00x90/CVE-2018-19320)
-
-### CVE-2018-19423 (2018-11-21)
-
-<code>
-Codiad 2.8.4 allows remote authenticated administrators to execute arbitrary code by uploading an executable file.
-</code>
-
-- [Hacker5preme/CVE-2018-19423-Exploit](https://github.com/Hacker5preme/CVE-2018-19423-Exploit)
 
 ### CVE-2018-19466 (2019-03-27)
 
