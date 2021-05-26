@@ -5233,6 +5233,14 @@ Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyf
 
 - [ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583)
 
+### CVE-2020-29607 (2020-12-16)
+
+<code>
+A file upload restriction bypass vulnerability in Pluck CMS before 4.7.13 allows an admin privileged user to gain access in the host through the &quot;manage files&quot; functionality, which may result in remote code execution.
+</code>
+
+- [Hacker5preme/CVE-2020-29607-exploit](https://github.com/Hacker5preme/CVE-2020-29607-exploit)
+
 ### CVE-2020-29666 (2020-12-10)
 
 <code>
