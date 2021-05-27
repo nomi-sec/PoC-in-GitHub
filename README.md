@@ -4342,6 +4342,7 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 </code>
 
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
+- [ykg88/OHTS_IE6052-CVE-2020-17087](https://github.com/ykg88/OHTS_IE6052-CVE-2020-17087)
 
 ### CVE-2020-17136 (2020-12-09)
 
@@ -11814,6 +11815,14 @@ Kibana versions before 6.4.3 and 5.6.13 contain an arbitrary file inclusion flaw
 </code>
 
 - [mpgn/CVE-2018-17246](https://github.com/mpgn/CVE-2018-17246)
+
+### CVE-2018-17254 (2018-09-20)
+
+<code>
+The JCK Editor component 6.4.4 for Joomla! allows SQL Injection via the jtreelink/dialogs/links.php parent parameter.
+</code>
+
+- [Nickguitar/Joomla-JCK-Editor-6.4.4-SQL-Injection](https://github.com/Nickguitar/Joomla-JCK-Editor-6.4.4-SQL-Injection)
 
 ### CVE-2018-17418 (2019-03-07)
 
