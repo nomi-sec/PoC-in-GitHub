@@ -355,7 +355,7 @@ Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018
 ### CVE-2021-21042 (2021-02-11)
 
 <code>
-Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by an Out-of-bounds Read vulnerability. An unauthenticated attacker could leverage this vulnerability to locally escalate privileges in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+Acrobat Reader DC versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by an Out-of-bounds Read vulnerability that could lead to arbitrary disclosure of information in the memory stack. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 </code>
 
 - [NattiSamson/CVE-2021-21042](https://github.com/NattiSamson/CVE-2021-21042)
@@ -515,6 +515,14 @@ VMware View Planner 4.x prior to 4.6 Security Patch 1 contains a remote code exe
 - [GreyOrder/CVE-2021-21978](https://github.com/GreyOrder/CVE-2021-21978)
 - [me1ons/CVE-2021-21978](https://github.com/me1ons/CVE-2021-21978)
 - [skytina/CVE-2021-21978](https://github.com/skytina/CVE-2021-21978)
+
+### CVE-2021-21985 (2021-05-26)
+
+<code>
+The vSphere Client (HTML5) contains a remote code execution vulnerability due to lack of input validation in the Virtual SAN Health Check plug-in which is enabled by default in vCenter Server. A malicious actor with network access to port 443 may exploit this issue to execute commands with unrestricted privileges on the underlying operating system that hosts vCenter Server.
+</code>
+
+- [bigbroke/CVE-2021-21985](https://github.com/bigbroke/CVE-2021-21985)
 
 ### CVE-2021-22192 (2021-03-24)
 
@@ -1164,6 +1172,9 @@ Insufficient input validation in the Marvin Minsky 1967 implementation of the Un
 
 ### CVE-2021-33558
 - [mdanzaruddin/CVE-2021-33558.](https://github.com/mdanzaruddin/CVE-2021-33558.)
+
+### CVE-2021-33564
+- [mlr0p/CVE-2021-33564](https://github.com/mlr0p/CVE-2021-33564)
 
 
 ## 2020
@@ -5482,7 +5493,7 @@ A remote code execution vulnerability exists in Microsoft SharePoint when the so
 - [k8gege/CVE-2019-0604](https://github.com/k8gege/CVE-2019-0604)
 - [m5050/CVE-2019-0604](https://github.com/m5050/CVE-2019-0604)
 - [boxhg/CVE-2019-0604](https://github.com/boxhg/CVE-2019-0604)
-- [tree-chtsec/weaponized-0604](https://github.com/tree-chtsec/weaponized-0604)
+- [Gh0st0ne/weaponized-0604](https://github.com/Gh0st0ne/weaponized-0604)
 
 ### CVE-2019-0623 (2019-03-05)
 
