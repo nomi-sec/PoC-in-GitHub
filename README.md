@@ -18526,22 +18526,6 @@ OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating system
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
 
-### CVE-2008-0228 (2008-01-10)
-
-<code>
-Cross-site request forgery (CSRF) vulnerability in apply.cgi in the Linksys WRT54GL Wireless-G Broadband Router with firmware 4.30.9 allows remote attackers to perform actions as administrators.
-</code>
-
-- [SpiderLabs/TWSL2011-007_iOS_code_workaround](https://github.com/SpiderLabs/TWSL2011-007_iOS_code_workaround)
-
-### CVE-2008-1611 (2008-04-01)
-
-<code>
-Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote attackers to cause a denial of service or execute arbitrary code via a long filename in a read or write request.
-</code>
-
-- [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
-
 ### CVE-2008-1613 (2008-04-21)
 
 <code>
