@@ -454,6 +454,7 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 
 - [waldo-irc/CVE-2021-21551](https://github.com/waldo-irc/CVE-2021-21551)
 - [ch3rn0byl/CVE-2021-21551](https://github.com/ch3rn0byl/CVE-2021-21551)
+- [arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -2682,14 +2683,6 @@ The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the 
 - [waleweewe12/CVE-2020-8417](https://github.com/waleweewe12/CVE-2020-8417)
 - [Rapidsafeguard/codesnippets_CVE-2020-8417](https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417)
 - [Vulnmachines/WordPress_CVE-2020-8417](https://github.com/Vulnmachines/WordPress_CVE-2020-8417)
-
-### CVE-2020-8428 (2020-01-28)
-
-<code>
-fs/namei.c in the Linux kernel before 5.5 has a may_create_in_sticky use-after-free, which allows local users to cause a denial of service (OOPS) or possibly obtain sensitive information from kernel memory, aka CID-d0cb50185ae9. One attack vector may be an open system call for a UNIX domain socket, if the socket is being moved to a new parent directory and its old parent directory is being removed.
-</code>
-
-- [Alex-Lian/CVE-2020-8428-demo](https://github.com/Alex-Lian/CVE-2020-8428-demo)
 
 ### CVE-2020-8437 (2020-03-02)
 
@@ -18854,6 +18847,7 @@ Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute 
 
 - [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
 - [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
+- [Nathan-Bash/CVE-2004-1561-Notes](https://github.com/Nathan-Bash/CVE-2004-1561-Notes)
 
 ### CVE-2004-1769 (2005-03-10)
 
