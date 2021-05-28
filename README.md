@@ -782,6 +782,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [sirpedrotavares/Proxylogon-exploit](https://github.com/sirpedrotavares/Proxylogon-exploit)
 - [cryptolakk/ProxyLogon-Mass-RCE](https://github.com/cryptolakk/ProxyLogon-Mass-RCE)
 
+### CVE-2021-26868 (2021-03-11)
+
+<code>
+Windows Graphics Component Elevation of Privilege Vulnerability
+</code>
+
+- [mavillon/CVE-2021-26868](https://github.com/mavillon/CVE-2021-26868)
+
 ### CVE-2021-26871 (2021-03-11)
 
 <code>
@@ -2783,6 +2791,7 @@ graph_realtime.php in Cacti 1.2.8 allows remote attackers to execute arbitrary O
 
 - [mhaskar/CVE-2020-8813](https://github.com/mhaskar/CVE-2020-8813)
 - [m4udSec/Cacti-CVE-2020-8813](https://github.com/m4udSec/Cacti-CVE-2020-8813)
+- [hexcowboy/CVE-2020-8813](https://github.com/hexcowboy/CVE-2020-8813)
 
 ### CVE-2020-8816 (2020-05-29)
 
@@ -3908,6 +3917,7 @@ A SQL injection issue in color.php in Cacti 1.2.12 allows an admin to inject SQL
 </code>
 
 - [0z09e/CVE-2020-14295](https://github.com/0z09e/CVE-2020-14295)
+- [mrg3ntl3m4n/poc-CVE-2020-14295](https://github.com/mrg3ntl3m4n/poc-CVE-2020-14295)
 
 ### CVE-2020-14321
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
@@ -10637,6 +10647,7 @@ An elevation of privilege vulnerability exists in Microsoft Exchange Server, aka
 An elevation of privilege vulnerability exists when the Windows kernel fails to properly handle objects in memory, aka &quot;Windows Kernel Elevation of Privilege Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2019, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
 </code>
 
+- [mavillon/cve-2018-8611](https://github.com/mavillon/cve-2018-8611)
 - [lsw29475/CVE-2018-8611](https://github.com/lsw29475/CVE-2018-8611)
 
 ### CVE-2018-8639 (2018-12-11)
@@ -18525,6 +18536,22 @@ OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating system
 - [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [nu11secur1ty/debian-ssh](https://github.com/nu11secur1ty/debian-ssh)
+
+### CVE-2008-0228 (2008-01-10)
+
+<code>
+Cross-site request forgery (CSRF) vulnerability in apply.cgi in the Linksys WRT54GL Wireless-G Broadband Router with firmware 4.30.9 allows remote attackers to perform actions as administrators.
+</code>
+
+- [SpiderLabs/TWSL2011-007_iOS_code_workaround](https://github.com/SpiderLabs/TWSL2011-007_iOS_code_workaround)
+
+### CVE-2008-1611 (2008-04-01)
+
+<code>
+Stack-based buffer overflow in TFTP Server SP 1.4 for Windows allows remote attackers to cause a denial of service or execute arbitrary code via a long filename in a read or write request.
+</code>
+
+- [Axua/CVE-2008-1611](https://github.com/Axua/CVE-2008-1611)
 
 ### CVE-2008-1613 (2008-04-21)
 
