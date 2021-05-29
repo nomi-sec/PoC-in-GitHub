@@ -333,6 +333,14 @@ A flaw was found in keycloak. Directories can be created prior to the Java proce
 
 - [Jarry1sec/CVE-2021-20202](https://github.com/Jarry1sec/CVE-2021-20202)
 
+### CVE-2021-20717 (2021-05-10)
+
+<code>
+Cross-site scripting vulnerability in EC-CUBE 4.0.0 to 4.0.5 allows a remote attacker to inject a specially crafted script in the specific input field of the EC web site which is created using EC-CUBE. As a result, it may lead to an arbitrary script execution on the administrator's web browser.
+</code>
+
+- [s-index/CVE-2021-20717](https://github.com/s-index/CVE-2021-20717)
+
 ### CVE-2021-20914
 - [Shadow0ps/CVE-2021-20914](https://github.com/Shadow0ps/CVE-2021-20914)
 
