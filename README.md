@@ -1095,7 +1095,12 @@ Composr 10.0.36 allows XSS in an XML script.
 
 - [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
 
-### CVE-2021-30461
+### CVE-2021-30461 (2021-05-29)
+
+<code>
+A remote code execution issue was discovered in the web UI of VoIPmonitor before 24.61. When the recheck option is used, the user-supplied SPOOLDIR value (which might contain PHP code) is injected into config/configuration.php.
+</code>
+
 - [daedalus/CVE-2021-30461](https://github.com/daedalus/CVE-2021-30461)
 - [Vulnmachines/CVE-2021-30461](https://github.com/Vulnmachines/CVE-2021-30461)
 - [Al1ex/CVE-2021-30461](https://github.com/Al1ex/CVE-2021-30461)
@@ -1130,10 +1135,20 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
 
-### CVE-2021-31702
+### CVE-2021-31702 (2021-05-29)
+
+<code>
+Frontier ichris through 5.18 mishandles making a DNS request for the hostname in the HTTP Host header, as demonstrated by submitting 127.0.0.1 multiple times for DoS.
+</code>
+
 - [l00neyhacker/CVE-2021-31702](https://github.com/l00neyhacker/CVE-2021-31702)
 
-### CVE-2021-31703
+### CVE-2021-31703 (2021-05-29)
+
+<code>
+Frontier ichris through 5.18 allows users to upload malicious executable files that might later be downloaded and run by any client user.
+</code>
+
 - [l00neyhacker/CVE-2021-31703](https://github.com/l00neyhacker/CVE-2021-31703)
 
 ### CVE-2021-31728 (2021-05-17)
@@ -1195,7 +1210,12 @@ Boa 0.94.13 allows remote attackers to obtain sensitive information via a miscon
 
 - [mdanzaruddin/CVE-2021-33558.](https://github.com/mdanzaruddin/CVE-2021-33558.)
 
-### CVE-2021-33564
+### CVE-2021-33564 (2021-05-29)
+
+<code>
+An argument injection vulnerability in the Dragonfly gem before 1.4.0 for Ruby allows remote attackers to read and write to arbitrary files via a crafted URL when the verify_url option is disabled. This may lead to code execution. The problem occurs because the generate and process features mishandle use of the ImageMagick convert utility.
+</code>
+
 - [mlr0p/CVE-2021-33564](https://github.com/mlr0p/CVE-2021-33564)
 
 
