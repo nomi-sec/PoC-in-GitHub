@@ -903,6 +903,9 @@ Yeastar NeoGate TG400 91.3.0.3 devices are affected by Directory Traversal. An a
 
 - [SQSamir/CVE-2021-27328](https://github.com/SQSamir/CVE-2021-27328)
 
+### CVE-2021-27338
+- [Pho03niX/CVE-2021-27338](https://github.com/Pho03niX/CVE-2021-27338)
+
 ### CVE-2021-27342 (2021-05-17)
 
 <code>
@@ -13926,6 +13929,7 @@ In Jboss Application Server as shipped with Red Hat Enterprise Application Platf
 - [yunxu1/jboss-_CVE-2017-12149](https://github.com/yunxu1/jboss-_CVE-2017-12149)
 - [1337g/CVE-2017-12149](https://github.com/1337g/CVE-2017-12149)
 - [jreppiks/CVE-2017-12149](https://github.com/jreppiks/CVE-2017-12149)
+- [Xcatolin/jboss-deserialization](https://github.com/Xcatolin/jboss-deserialization)
 
 ### CVE-2017-12426 (2017-08-14)
 
