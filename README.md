@@ -463,6 +463,7 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [waldo-irc/CVE-2021-21551](https://github.com/waldo-irc/CVE-2021-21551)
 - [ch3rn0byl/CVE-2021-21551](https://github.com/ch3rn0byl/CVE-2021-21551)
 - [arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551)
+- [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -18886,7 +18887,7 @@ Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute 
 
 - [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
 - [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
-- [Nathan-Bash/CVE-2004-1561-Notes](https://github.com/Nathan-Bash/CVE-2004-1561-Notes)
+- [b3n1337/CVE-2004-1561-Notes](https://github.com/b3n1337/CVE-2004-1561-Notes)
 
 ### CVE-2004-1769 (2005-03-10)
 
