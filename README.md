@@ -435,14 +435,6 @@ XStream is a Java library to serialize objects to XML and back again. In XStream
 
 - [s-index/CVE-2021-21349](https://github.com/s-index/CVE-2021-21349)
 
-### CVE-2021-21389 (2021-03-26)
-
-<code>
-BuddyPress is an open source WordPress plugin to build a community site. In releases of BuddyPress from 5.0.0 before 7.2.1 it's possible for a non-privileged, regular user to obtain administrator rights by exploiting an issue in the REST API members endpoint. The vulnerability has been fixed in BuddyPress 7.2.1. Existing installations of the plugin should be updated to this version to mitigate the issue.
-</code>
-
-- [HoangKien1020/CVE-2021-21389](https://github.com/HoangKien1020/CVE-2021-21389)
-
 ### CVE-2021-21402 (2021-03-23)
 
 <code>
