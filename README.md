@@ -525,6 +525,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 </code>
 
 - [bigbroke/CVE-2021-21985](https://github.com/bigbroke/CVE-2021-21985)
+- [alt3kx/CVE-2021-21985_PoC](https://github.com/alt3kx/CVE-2021-21985_PoC)
 
 ### CVE-2021-22192 (2021-03-24)
 
@@ -7521,7 +7522,7 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932)
 - [TulungagungCyberLink/CVE-2019-11932](https://github.com/TulungagungCyberLink/CVE-2019-11932)
 - [infiniteLoopers/CVE-2019-11932](https://github.com/infiniteLoopers/CVE-2019-11932)
-- [realtomcat/CVE-2019-11932](https://github.com/realtomcat/CVE-2019-11932)
+- [alexanderstonec/CVE-2019-11932](https://github.com/alexanderstonec/CVE-2019-11932)
 - [valbrux/CVE-2019-11932-SupportApp](https://github.com/valbrux/CVE-2019-11932-SupportApp)
 - [fastmo/CVE-2019-11932](https://github.com/fastmo/CVE-2019-11932)
 - [mRanonyMousTZ/CVE-2019-11932-whatsApp-exploit](https://github.com/mRanonyMousTZ/CVE-2019-11932-whatsApp-exploit)
