@@ -435,6 +435,14 @@ XStream is a Java library to serialize objects to XML and back again. In XStream
 
 - [s-index/CVE-2021-21349](https://github.com/s-index/CVE-2021-21349)
 
+### CVE-2021-21389 (2021-03-26)
+
+<code>
+BuddyPress is an open source WordPress plugin to build a community site. In releases of BuddyPress from 5.0.0 before 7.2.1 it's possible for a non-privileged, regular user to obtain administrator rights by exploiting an issue in the REST API members endpoint. The vulnerability has been fixed in BuddyPress 7.2.1. Existing installations of the plugin should be updated to this version to mitigate the issue.
+</code>
+
+- [HoangKien1020/CVE-2021-21389](https://github.com/HoangKien1020/CVE-2021-21389)
+
 ### CVE-2021-21402 (2021-03-23)
 
 <code>
@@ -6132,6 +6140,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 
 - [waffl3ss/CVE-2019-2729](https://github.com/waffl3ss/CVE-2019-2729)
 - [ruthlezs/CVE-2019-2729-Exploit](https://github.com/ruthlezs/CVE-2019-2729-Exploit)
+- [pizza-power/weblogic-CVE-2019-2729-POC](https://github.com/pizza-power/weblogic-CVE-2019-2729-POC)
 
 ### CVE-2019-2888 (2019-10-16)
 
@@ -13731,6 +13740,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [ianxtianxt/-CVE-2017-10271-](https://github.com/ianxtianxt/-CVE-2017-10271-)
 - [testwc/CVE-2017-10271](https://github.com/testwc/CVE-2017-10271)
 - [Al1ex/CVE-2017-10271](https://github.com/Al1ex/CVE-2017-10271)
+- [pizza-power/weblogic-CVE-2019-2729-POC](https://github.com/pizza-power/weblogic-CVE-2019-2729-POC)
 
 ### CVE-2017-10352 (2017-10-19)
 
