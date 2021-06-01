@@ -325,6 +325,9 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 ### CVE-2021-14562
 - [Jarry1sec/CVE-2021-14562](https://github.com/Jarry1sec/CVE-2021-14562)
 
+### CVE-2021-19999
+- [dorisroot1/CVE-2020-19999test-5](https://github.com/dorisroot1/CVE-2020-19999test-5)
+
 ### CVE-2021-20202 (2021-05-12)
 
 <code>
@@ -534,6 +537,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 
 - [bigbroke/CVE-2021-21985](https://github.com/bigbroke/CVE-2021-21985)
 - [alt3kx/CVE-2021-21985_PoC](https://github.com/alt3kx/CVE-2021-21985_PoC)
+- [onSec-fr/CVE-2021-21985-Checker](https://github.com/onSec-fr/CVE-2021-21985-Checker)
 
 ### CVE-2021-22192 (2021-03-24)
 
@@ -4503,6 +4507,9 @@ A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapest
 </code>
 
 - [154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531)
+
+### CVE-2020-19999
+- [dorisroot1/CVE-2020-19999test-5](https://github.com/dorisroot1/CVE-2020-19999test-5)
 
 ### CVE-2020-21224 (2021-02-22)
 
