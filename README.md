@@ -88,6 +88,9 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
 
+### CVE-2021-2989
+- [dorisroot1/CVE-2021-2989](https://github.com/dorisroot1/CVE-2021-2989)
+
 ### CVE-2021-3007 (2021-01-03)
 
 <code>
@@ -313,6 +316,9 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
 
+### CVE-2021-3999
+- [dorisroot1/CVE-2021-3999](https://github.com/dorisroot1/CVE-2021-3999)
+
 ### CVE-2021-6857
 - [ZiHeny/CVE-2021-6857](https://github.com/ZiHeny/CVE-2021-6857)
 
@@ -324,9 +330,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 
 ### CVE-2021-14562
 - [Jarry1sec/CVE-2021-14562](https://github.com/Jarry1sec/CVE-2021-14562)
-
-### CVE-2021-19999
-- [dorisroot1/CVE-2020-19999test-5](https://github.com/dorisroot1/CVE-2020-19999test-5)
 
 ### CVE-2021-20202 (2021-05-12)
 
@@ -1054,6 +1057,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 
 - [motikan2010/CVE-2021-29447](https://github.com/motikan2010/CVE-2021-29447)
 - [Vulnmachines/wordpress_cve-2021-29447](https://github.com/Vulnmachines/wordpress_cve-2021-29447)
+- [dnr6419/CVE-2021-29447](https://github.com/dnr6419/CVE-2021-29447)
 
 ### CVE-2021-29627 (2021-04-07)
 
@@ -4507,9 +4511,6 @@ A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapest
 </code>
 
 - [154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531)
-
-### CVE-2020-19999
-- [dorisroot1/CVE-2020-19999test-5](https://github.com/dorisroot1/CVE-2020-19999test-5)
 
 ### CVE-2020-21224 (2021-02-22)
 
