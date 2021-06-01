@@ -541,6 +541,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [bigbroke/CVE-2021-21985](https://github.com/bigbroke/CVE-2021-21985)
 - [alt3kx/CVE-2021-21985_PoC](https://github.com/alt3kx/CVE-2021-21985_PoC)
 - [onSec-fr/CVE-2021-21985-Checker](https://github.com/onSec-fr/CVE-2021-21985-Checker)
+- [mauricelambert/CVE-2021-21985](https://github.com/mauricelambert/CVE-2021-21985)
 
 ### CVE-2021-22192 (2021-03-24)
 
@@ -3495,6 +3496,14 @@ Apache Unomi allows conditions to use OGNL scripting which offers the possibilit
 </code>
 
 - [1135/unomi_exploit](https://github.com/1135/unomi_exploit)
+
+### CVE-2020-11978 (2020-07-16)
+
+<code>
+An issue was found in Apache Airflow versions 1.10.10 and below. A remote code/command injection vulnerability was discovered in one of the example DAGs shipped with Airflow which would allow any authenticated user to run arbitrary commands as the user running airflow worker/scheduler (depending on the executor in use). If you already have examples disabled by setting load_examples=False in the config then you are not vulnerable.
+</code>
+
+- [pberba/CVE-2020-11978](https://github.com/pberba/CVE-2020-11978)
 
 ### CVE-2020-11989 (2020-06-22)
 
@@ -13270,7 +13279,6 @@ A deserialization flaw was discovered in the jackson-databind, versions before 2
 - [SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095](https://github.com/SecureSkyTechnology/study-struts2-s2-054_055-jackson-cve-2017-7525_cve-2017-15095)
 - [Nazicc/S2-055](https://github.com/Nazicc/S2-055)
 - [JavanXD/Demo-Exploit-Jackson-RCE](https://github.com/JavanXD/Demo-Exploit-Jackson-RCE)
-- [47bwy/CVE-2017-7525](https://github.com/47bwy/CVE-2017-7525)
 - [BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE)
 - [Dannners/jackson-deserialization-2017-7525](https://github.com/Dannners/jackson-deserialization-2017-7525)
 - [Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab](https://github.com/Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab)
