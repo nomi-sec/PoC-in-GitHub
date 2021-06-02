@@ -88,9 +88,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
 
-### CVE-2021-2989
-- [dorisroot1/CVE-2021-2989](https://github.com/dorisroot1/CVE-2021-2989)
-
 ### CVE-2021-3007 (2021-01-03)
 
 <code>
@@ -315,9 +312,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
-
-### CVE-2021-3999
-- [dorisroot1/CVE-2021-3999](https://github.com/dorisroot1/CVE-2021-3999)
 
 ### CVE-2021-6857
 - [ZiHeny/CVE-2021-6857](https://github.com/ZiHeny/CVE-2021-6857)
@@ -10291,6 +10285,7 @@ The page module in TYPO3 before 8.7.11, and 9.1.0, has XSS via $GLOBALS['TYPO3_C
 </code>
 
 - [pradeepjairamani/TYPO3-XSS-POC](https://github.com/pradeepjairamani/TYPO3-XSS-POC)
+- [dnr6419/CVE-2018-6905](https://github.com/dnr6419/CVE-2018-6905)
 
 ### CVE-2018-6961 (2018-06-11)
 
@@ -11686,6 +11681,14 @@ In PaperStream IP (TWAIN) 1.42.0.5685 (Service Update 7), the FJTWSVIC service r
 </code>
 
 - [securifera/CVE-2018-16156-Exploit](https://github.com/securifera/CVE-2018-16156-Exploit)
+
+### CVE-2018-16167 (2019-01-09)
+
+<code>
+LogonTracer 1.2.0 and earlier allows remote attackers to execute arbitrary OS commands via unspecified vectors.
+</code>
+
+- [dnr6419/CVE-2018-16167](https://github.com/dnr6419/CVE-2018-16167)
 
 ### CVE-2018-16283 (2018-09-24)
 
