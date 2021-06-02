@@ -998,6 +998,7 @@ Hyper-V Remote Code Execution Vulnerability
 </code>
 
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
+- [bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476)
 
 ### CVE-2021-28480 (2021-04-13)
 
