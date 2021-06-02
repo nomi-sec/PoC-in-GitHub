@@ -245,14 +245,6 @@ Zen Cart 1.5.7b allows admins to execute arbitrary OS commands by inspecting an 
 
 - [ImHades101/CVE-2021-3291](https://github.com/ImHades101/CVE-2021-3291)
 
-### CVE-2021-3310 (2021-03-09)
-
-<code>
-Western Digital My Cloud OS 5 devices before 5.10.122 mishandle Symbolic Link Following on SMB and AFP shares. This can lead to code execution and information disclosure (by reading local files).
-</code>
-
-- [piffd0s/CVE-2021-3310](https://github.com/piffd0s/CVE-2021-3310)
-
 ### CVE-2021-3317 (2021-01-26)
 
 <code>
@@ -16793,6 +16785,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [GuillermoEscobero/heartbleed](https://github.com/GuillermoEscobero/heartbleed)
 - [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
+- [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
 
 ### CVE-2014-0166 (2014-04-09)
 
