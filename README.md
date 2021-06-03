@@ -528,6 +528,8 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [alt3kx/CVE-2021-21985_PoC](https://github.com/alt3kx/CVE-2021-21985_PoC)
 - [onSec-fr/CVE-2021-21985-Checker](https://github.com/onSec-fr/CVE-2021-21985-Checker)
 - [mauricelambert/CVE-2021-21985](https://github.com/mauricelambert/CVE-2021-21985)
+- [r0ckysec/CVE-2021-21985](https://github.com/r0ckysec/CVE-2021-21985)
+- [xnianq/cve-2021-21985_exp](https://github.com/xnianq/cve-2021-21985_exp)
 
 ### CVE-2021-22192 (2021-03-24)
 
@@ -966,6 +968,14 @@ SonLogger before 6.4.1 is affected by user creation with any user permissions pr
 </code>
 
 - [erberkan/SonLogger-vulns](https://github.com/erberkan/SonLogger-vulns)
+
+### CVE-2021-27965 (2021-03-04)
+
+<code>
+The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 has a buffer overflow that allows privilege escalation via a crafted 0x80102040, 0x80102044, 0x80102050, or 0x80102054 IOCTL request.
+</code>
+
+- [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
 
 ### CVE-2021-28310 (2021-04-13)
 
@@ -2518,6 +2528,7 @@ Django 1.11 before 1.11.28, 2.2 before 2.2.10, and 3.0 before 3.0.3 allows SQL I
 - [SNCKER/CVE-2020-7471](https://github.com/SNCKER/CVE-2020-7471)
 - [Tempuss/CTF_CVE-2020-7471](https://github.com/Tempuss/CTF_CVE-2020-7471)
 - [victomteng1997/cve-2020-7471-Time_Blind_SQLi-](https://github.com/victomteng1997/cve-2020-7471-Time_Blind_SQLi-)
+- [huzaifakhan771/CVE-2020-7471-Django](https://github.com/huzaifakhan771/CVE-2020-7471-Django)
 
 ### CVE-2020-7473 (2020-05-07)
 
@@ -4663,6 +4674,14 @@ InterMind iMind Server through 3.13.65 allows remote unauthenticated attackers t
 </code>
 
 - [trump88/CVE-2020-24765](https://github.com/trump88/CVE-2020-24765)
+
+### CVE-2020-24949 (2020-09-03)
+
+<code>
+Privilege escalation in PHP-Fusion 9.03.50 downloads/downloads.php allows an authenticated user (not admin) to send a crafted request to the server and perform remote command execution (RCE).
+</code>
+
+- [r90tpass/CVE-2020-24949](https://github.com/r90tpass/CVE-2020-24949)
 
 ### CVE-2020-24955 (2020-09-01)
 
@@ -11367,7 +11386,7 @@ Crestron TSW-X60 all versions prior to 2.001.0037.001 and MC3 all versions prior
 ### CVE-2018-13379 (2019-06-04)
 
 <code>
-An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Traversal&quot;) in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.3 to 5.6.7 and 5.4.6 to 5.4.12 under SSL VPN web portal allows an unauthenticated attacker to download system files via special crafted HTTP resource requests.
+An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Traversal&quot;) in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.3 to 5.6.7 and 5.4.6 to 5.4.12 and FortiProxy 2.0.0, 1.2.0 to 1.2.8, 1.1.0 to 1.1.6, 1.0.0 to 1.0.7 under SSL VPN web portal allows an unauthenticated attacker to download system files via special crafted HTTP resource requests.
 </code>
 
 - [milo2012/CVE-2018-13379](https://github.com/milo2012/CVE-2018-13379)
@@ -11383,7 +11402,7 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 ### CVE-2018-13382 (2019-06-04)
 
 <code>
-An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.0 to 5.6.8 and 5.4.1 to 5.4.10 under SSL VPN web portal allows an unauthenticated attacker to modify the password of an SSL VPN web portal user via specially crafted HTTP requests.
+An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.0 to 5.6.8 and 5.4.1 to 5.4.10 and FortiProxy 2.0.0, 1.2.0 to 1.2.8, 1.1.0 to 1.1.6, 1.0.0 to 1.0.7 under SSL VPN web portal allows an unauthenticated attacker to modify the password of an SSL VPN web portal user via specially crafted HTTP requests
 </code>
 
 - [milo2012/CVE-2018-13382](https://github.com/milo2012/CVE-2018-13382)
@@ -16530,7 +16549,7 @@ SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers 
 </code>
 
 - [CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory)
-- [kally-life/exploit-joomla](https://github.com/kally-life/exploit-joomla)
+- [areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla)
 
 ### CVE-2015-7501 (2017-11-09)
 
