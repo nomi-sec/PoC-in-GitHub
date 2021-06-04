@@ -530,6 +530,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [mauricelambert/CVE-2021-21985](https://github.com/mauricelambert/CVE-2021-21985)
 - [r0ckysec/CVE-2021-21985](https://github.com/r0ckysec/CVE-2021-21985)
 - [xnianq/cve-2021-21985_exp](https://github.com/xnianq/cve-2021-21985_exp)
+- [daedalus/CVE-2021-21985](https://github.com/daedalus/CVE-2021-21985)
 
 ### CVE-2021-22192 (2021-03-24)
 
@@ -10039,14 +10040,6 @@ gd_gif_in.c in the GD Graphics Library (aka libgd), as used in PHP before 5.6.33
 
 - [huzhenghui/Test-7-2-0-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-0-PHP-CVE-2018-5711)
 - [huzhenghui/Test-7-2-1-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-1-PHP-CVE-2018-5711)
-
-### CVE-2018-5724 (2018-01-16)
-
-<code>
-MASTER IPCAMERA01 3.3.4.2103 devices allow Unauthenticated Configuration Download and Upload, as demonstrated by restore.cgi.
-</code>
-
-- [gusrmsdlrh/Python-CVE-Code](https://github.com/gusrmsdlrh/Python-CVE-Code)
 
 ### CVE-2018-5728 (2018-01-16)
 
