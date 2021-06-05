@@ -616,6 +616,14 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
 
+### CVE-2021-22205 (2021-04-23)
+
+<code>
+An issue has been discovered in GitLab CE/EE affecting all versions starting from 11.9. GitLab was not properly validating image files that were passed to a file parser which resulted in a remote command execution.
+</code>
+
+- [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
+
 ### CVE-2021-22207 (2021-04-23)
 
 <code>
@@ -7972,7 +7980,7 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932)
 - [TulungagungCyberLink/CVE-2019-11932](https://github.com/TulungagungCyberLink/CVE-2019-11932)
 - [infiniteLoopers/CVE-2019-11932](https://github.com/infiniteLoopers/CVE-2019-11932)
-- [realtomcat/CVE-2019-11932](https://github.com/realtomcat/CVE-2019-11932)
+- [alexanderstonec/CVE-2019-11932](https://github.com/alexanderstonec/CVE-2019-11932)
 - [valbrux/CVE-2019-11932-SupportApp](https://github.com/valbrux/CVE-2019-11932-SupportApp)
 - [fastmo/CVE-2019-11932](https://github.com/fastmo/CVE-2019-11932)
 - [mRanonyMousTZ/CVE-2019-11932-whatsApp-exploit](https://github.com/mRanonyMousTZ/CVE-2019-11932-whatsApp-exploit)
@@ -18732,6 +18740,14 @@ Buffer overflow in pngpread.c in libpng before 1.2.44 and 1.4.x before 1.4.3, as
 </code>
 
 - [mk219533/CVE-2010-1205](https://github.com/mk219533/CVE-2010-1205)
+
+### CVE-2010-1240 (2010-04-05)
+
+<code>
+Adobe Reader and Acrobat 9.x before 9.3.3, and 8.x before 8.2.3 on Windows and Mac OS X, do not restrict the contents of one text field in the Launch File warning dialog, which makes it easier for remote attackers to trick users into executing an arbitrary local program that was specified in a PDF document, as demonstrated by a text field that claims that the Open button will enable the user to read an encrypted message.
+</code>
+
+- [Jasmoon99/Embedded-PDF](https://github.com/Jasmoon99/Embedded-PDF)
 
 ### CVE-2010-1411 (2010-06-17)
 
