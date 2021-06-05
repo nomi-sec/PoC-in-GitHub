@@ -4090,7 +4090,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [murataydemir/CVE-2020-14882](https://github.com/murataydemir/CVE-2020-14882)
 - [AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test)
 - [corelight/CVE-2020-14882-weblogicRCE](https://github.com/corelight/CVE-2020-14882-weblogicRCE)
-- [x51/CVE-2020-14882](https://github.com/x51/CVE-2020-14882)
+- [xwuyi/CVE-2020-14882](https://github.com/xwuyi/CVE-2020-14882)
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 - [adm1in/CodeTest](https://github.com/adm1in/CodeTest)
 - [securitysqs/poc](https://github.com/securitysqs/poc)
