@@ -3460,6 +3460,7 @@ XML-RPC request are vulnerable to unsafe deserialization and Cross-Site Scriptin
 - [g33xter/CVE-2020-9496](https://github.com/g33xter/CVE-2020-9496)
 - [cyber-niz/CVE-2020-9496](https://github.com/cyber-niz/CVE-2020-9496)
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
+- [ambalabanov/CVE-2020-9496](https://github.com/ambalabanov/CVE-2020-9496)
 
 ### CVE-2020-9547 (2020-03-01)
 
