@@ -1297,6 +1297,14 @@ gitjacker before 0.1.0 allows remote attackers to execute arbitrary code via a c
 
 - [JamesGeeee/CVE-2021-29417](https://github.com/JamesGeeee/CVE-2021-29417)
 
+### CVE-2021-29440 (2021-04-13)
+
+<code>
+Grav is a file based Web-platform. Twig processing of static pages can be enabled in the front matter by any administrative user allowed to create or edit pages. As the Twig processor runs unsandboxed, this behavior can be used to gain arbitrary code execution and elevate privileges on the instance. The issue was addressed in version 1.7.11.
+</code>
+
+- [CsEnox/CVE-2021-29440](https://github.com/CsEnox/CVE-2021-29440)
+
 ### CVE-2021-29447 (2021-04-15)
 
 <code>
