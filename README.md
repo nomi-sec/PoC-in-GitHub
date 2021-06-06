@@ -1624,6 +1624,14 @@ The trim-newlines package before 3.0.1 and 4.x before 4.0.1 for Node.js has an i
 
 - [JamesGeeee/CVE-2021-33623](https://github.com/JamesGeeee/CVE-2021-33623)
 
+### CVE-2021-33879 (2021-06-06)
+
+<code>
+Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP connection. A malicious attacker in an MITM position could spoof the contents of an XML document describing an update package, replacing a download URL with one pointing to an arbitrary Windows executable. Because the only integrity check would be a comparison of the downloaded file's MD5 checksum to the one contained within the XML document, the downloaded executable would then be executed on the victim's machine.
+</code>
+
+- [mmiszczyk/cve-2021-33879](https://github.com/mmiszczyk/cve-2021-33879)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -1873,7 +1881,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [murataydemir/CVE-2020-0688](https://github.com/murataydemir/CVE-2020-0688)
 - [zyn3rgy/ecp_slap](https://github.com/zyn3rgy/ecp_slap)
 - [SLSteff/CVE-2020-0688-Scanner](https://github.com/SLSteff/CVE-2020-0688-Scanner)
-- [MrTiz9/CVE-2020-0688](https://github.com/MrTiz9/CVE-2020-0688)
+- [MrTiz/CVE-2020-0688](https://github.com/MrTiz/CVE-2020-0688)
 - [ann0906/proxylogon](https://github.com/ann0906/proxylogon)
 
 ### CVE-2020-0728 (2020-02-11)
@@ -9562,7 +9570,6 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [j81blog/ADC-19781](https://github.com/j81blog/ADC-19781)
 - [b510/CVE-2019-19781](https://github.com/b510/CVE-2019-19781)
 - [redscan/CVE-2019-19781](https://github.com/redscan/CVE-2019-19781)
-- [DIVD-NL/Citrix-CVE-2019-19781](https://github.com/DIVD-NL/Citrix-CVE-2019-19781)
 - [ynsmroztas/citrix.sh](https://github.com/ynsmroztas/citrix.sh)
 - [digitalgangst/massCitrix](https://github.com/digitalgangst/massCitrix)
 - [fireeye/ioc-scanner-CVE-2019-19781](https://github.com/fireeye/ioc-scanner-CVE-2019-19781)
