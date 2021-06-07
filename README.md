@@ -1336,6 +1336,7 @@ In binder_transaction of binder.c, there is a possible out of bounds write due t
 - [minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041)
 - [minutesinch/CVE-2020-0041-Original](https://github.com/minutesinch/CVE-2020-0041-Original)
 - [TechnoHT/CVE-2020-0041](https://github.com/TechnoHT/CVE-2020-0041)
+- [Byte-Master-101/CVE_2020_0041](https://github.com/Byte-Master-101/CVE_2020_0041)
 
 ### CVE-2020-0069 (2020-03-10)
 
