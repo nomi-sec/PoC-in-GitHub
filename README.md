@@ -392,6 +392,14 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 
 - [Grayhaxor/CVE-2021-21148](https://github.com/Grayhaxor/CVE-2021-21148)
 
+### CVE-2021-21234 (2021-01-05)
+
+<code>
+spring-boot-actuator-logview in a library that adds a simple logfile viewer as spring boot actuator endpoint. It is maven package &quot;eu.hinsch:spring-boot-actuator-logview&quot;. In spring-boot-actuator-logview before version 0.2.13 there is a directory traversal vulnerability. The nature of this library is to expose a log file directory via admin (spring boot actuator) HTTP endpoints. Both the filename to view and a base folder (relative to the logging folder root) can be specified via request parameters. While the filename parameter was checked to prevent directory traversal exploits (so that `filename=../somefile` would not work), the base folder parameter was not sufficiently checked, so that `filename=somefile&amp;base=../` could access a file outside the logging base directory). The vulnerability has been patched in release 0.2.13. Any users of 0.2.12 should be able to update without any issues as there are no other changes in that release. There is no workaround to fix the vulnerability other than updating or removing the dependency. However, removing read access of the user the application is run with to any directory not required for running the application can limit the impact. Additionally, access to the logview endpoint can be limited by deploying the application behind a reverse proxy.
+</code>
+
+- [PwCNO-CTO/CVE-2021-21234](https://github.com/PwCNO-CTO/CVE-2021-21234)
+
 ### CVE-2021-21300 (2021-03-09)
 
 <code>
@@ -748,6 +756,14 @@ A local privilege escalation was discovered in the Linux kernel before 5.10.13. 
 
 - [jordan9001/vsock_poc](https://github.com/jordan9001/vsock_poc)
 
+### CVE-2021-26714 (2021-03-29)
+
+<code>
+The Enterprise License Manager portal in Mitel MiContact Center Enterprise before 9.4 could allow a user to access restricted files and folders due to insufficient access control. A successful exploit could allow an attacker to view and modify application data via Directory Traversal.
+</code>
+
+- [PwCNO-CTO/CVE-2021-26714](https://github.com/PwCNO-CTO/CVE-2021-26714)
+
 ### CVE-2021-26814 (2021-03-05)
 
 <code>
@@ -787,7 +803,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [dwisiswant0/proxylogscan](https://github.com/dwisiswant0/proxylogscan)
 - [mauricelambert/ExchangeWeaknessTest](https://github.com/mauricelambert/ExchangeWeaknessTest)
 - [DCScoder/Exchange_IOC_Hunter](https://github.com/DCScoder/Exchange_IOC_Hunter)
-- [PwCNO-CTO/CVE-2021-26855](https://github.com/PwCNO-CTO/CVE-2021-26855)
 - [srvaccount/CVE-2021-26855-PoC](https://github.com/srvaccount/CVE-2021-26855-PoC)
 - [h4x0r-dz/CVE-2021-26855](https://github.com/h4x0r-dz/CVE-2021-26855)
 - [alt3kx/CVE-2021-26855_PoC](https://github.com/alt3kx/CVE-2021-26855_PoC)
