@@ -13684,6 +13684,7 @@ An information exposure vulnerability in forget_passwd.cgi in Synology DiskStati
 </code>
 
 - [rfcl/Synology-DiskStation-User-Enumeration-CVE-2017-9554-](https://github.com/rfcl/Synology-DiskStation-User-Enumeration-CVE-2017-9554-)
+- [Ez0-yf/CVE-2017-9554-Exploit-Tool](https://github.com/Ez0-yf/CVE-2017-9554-Exploit-Tool)
 
 ### CVE-2017-9606 (2017-06-14)
 
