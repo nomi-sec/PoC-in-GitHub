@@ -6028,6 +6028,7 @@ An elevation of privilege vulnerability exists in the Windows Certificate Dialog
 - [jaychouzzk/CVE-2019-1388](https://github.com/jaychouzzk/CVE-2019-1388)
 - [sv3nbeast/CVE-2019-1388](https://github.com/sv3nbeast/CVE-2019-1388)
 - [nobodyatall648/CVE-2019-1388](https://github.com/nobodyatall648/CVE-2019-1388)
+- [suprise4u/CVE-2019-1388](https://github.com/suprise4u/CVE-2019-1388)
 
 ### CVE-2019-1402 (2019-11-12)
 
