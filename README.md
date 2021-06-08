@@ -1107,6 +1107,14 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [Vulnmachines/wordpress_cve-2021-29447](https://github.com/Vulnmachines/wordpress_cve-2021-29447)
 - [dnr6419/CVE-2021-29447](https://github.com/dnr6419/CVE-2021-29447)
 
+### CVE-2021-29505 (2021-05-28)
+
+<code>
+XStream is software for serializing Java objects to XML and back again. A vulnerability in XStream versions prior to 1.4.17 may allow a remote attacker has sufficient rights to execute commands of the host only by manipulating the processed input stream. No user who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types is affected. The vulnerability is patched in version 1.4.17.
+</code>
+
+- [MyBlackManba/CVE-2021-29505](https://github.com/MyBlackManba/CVE-2021-29505)
+
 ### CVE-2021-29627 (2021-04-07)
 
 <code>
