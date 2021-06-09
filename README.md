@@ -1310,6 +1310,14 @@ An argument injection vulnerability in the Dragonfly gem before 1.4.0 for Ruby a
 
 - [mlr0p/CVE-2021-33564](https://github.com/mlr0p/CVE-2021-33564)
 
+### CVE-2021-33739 (2021-06-08)
+
+<code>
+Microsoft DWM Core Library Elevation of Privilege Vulnerability
+</code>
+
+- [mavillon1/CVE-2021-33739-POC](https://github.com/mavillon1/CVE-2021-33739-POC)
+
 ### CVE-2021-33879 (2021-06-06)
 
 <code>
