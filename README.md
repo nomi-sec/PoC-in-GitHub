@@ -11037,7 +11037,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
 - [HACKGM/CVE-2018-9995](https://github.com/HACKGM/CVE-2018-9995)
 - [kienquoc102/CVE-2018-9995-Exploit](https://github.com/kienquoc102/CVE-2018-9995-Exploit)
-- [kienquoc102/CVE-2018-9995-P2](https://github.com/kienquoc102/CVE-2018-9995-P2)
+- [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
 
 ### CVE-2018-10118 (2018-04-15)
 
