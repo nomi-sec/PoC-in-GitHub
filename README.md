@@ -2219,6 +2219,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [darklotuskdb/CISCO-CVE-2020-3452-Scanner-Exploiter](https://github.com/darklotuskdb/CISCO-CVE-2020-3452-Scanner-Exploiter)
 - [fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal](https://github.com/fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal)
 - [faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner](https://github.com/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner)
+- [sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452)
 
 ### CVE-2020-3766 (2020-03-25)
 
