@@ -619,6 +619,14 @@ An issue was discovered in Joomla! 3.0.0 through 3.9.24. com_media allowed paths
 
 - [HoangKien1020/CVE-2021-23132](https://github.com/HoangKien1020/CVE-2021-23132)
 
+### CVE-2021-23388 (2021-05-31)
+
+<code>
+The package forms before 1.2.1, from 1.3.0 and before 1.3.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via email validation.
+</code>
+
+- [JamesCVE/CVE-2021-23388](https://github.com/JamesCVE/CVE-2021-23388)
+
 ### CVE-2021-24027 (2021-04-06)
 
 <code>
@@ -658,6 +666,14 @@ Windows Console Driver Denial of Service Vulnerability
 </code>
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
+
+### CVE-2021-24316 (2021-06-01)
+
+<code>
+The search feature of the Mediumish WordPress theme through 1.0.47 does not properly sanitise it's 's' GET parameter before output it back the page, leading to the Cross-SIte Scripting issue.
+</code>
+
+- [JamesCVE/CVE-2021-24316](https://github.com/JamesCVE/CVE-2021-24316)
 
 ### CVE-2021-25281 (2021-02-26)
 
@@ -1973,6 +1989,14 @@ A hard-coded cryptographic key vulnerability in the default configuration file w
 </code>
 
 - [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
+
+### CVE-2020-1920 (2021-06-01)
+
+<code>
+A regular expression denial of service (ReDoS) vulnerability in the validateBaseUrl function can cause the application to use excessive resources, become unresponsive, or crash. This was introduced in react-native version 0.59.0 and fixed in version 0.64.1.
+</code>
+
+- [JamesCVE/CVE-2020-1920](https://github.com/JamesCVE/CVE-2020-1920)
 
 ### CVE-2020-1937 (2020-02-24)
 
