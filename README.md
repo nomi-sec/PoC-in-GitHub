@@ -313,6 +313,9 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
 
+### CVE-2021-3560
+- [swapravo/polkadots](https://github.com/swapravo/polkadots)
+
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
 
@@ -619,14 +622,6 @@ An issue was discovered in Joomla! 3.0.0 through 3.9.24. com_media allowed paths
 
 - [HoangKien1020/CVE-2021-23132](https://github.com/HoangKien1020/CVE-2021-23132)
 
-### CVE-2021-23388 (2021-05-31)
-
-<code>
-The package forms before 1.2.1, from 1.3.0 and before 1.3.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via email validation.
-</code>
-
-- [JamesCVE/CVE-2021-23388](https://github.com/JamesCVE/CVE-2021-23388)
-
 ### CVE-2021-24027 (2021-04-06)
 
 <code>
@@ -666,14 +661,6 @@ Windows Console Driver Denial of Service Vulnerability
 </code>
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
-
-### CVE-2021-24316 (2021-06-01)
-
-<code>
-The search feature of the Mediumish WordPress theme through 1.0.47 does not properly sanitise it's 's' GET parameter before output it back the page, leading to the Cross-SIte Scripting issue.
-</code>
-
-- [JamesCVE/CVE-2021-24316](https://github.com/JamesCVE/CVE-2021-24316)
 
 ### CVE-2021-25281 (2021-02-26)
 
@@ -789,7 +776,12 @@ Wazuh API in Wazuh from 4.0.0 to 4.0.3 allows authenticated users to execute arb
 - [WickdDavid/CVE-2021-26814](https://github.com/WickdDavid/CVE-2021-26814)
 - [CYS4srl/CVE-2021-26814](https://github.com/CYS4srl/CVE-2021-26814)
 
-### CVE-2021-26828
+### CVE-2021-26828 (2021-06-11)
+
+<code>
+OpenPLC ScadaBR through 0.9.1 on Linux and through 1.12.4 on Windows allows remote authenticated users to upload and execute arbitrary JSP files via view_edit.shtm.
+</code>
+
 - [hevox/CVE-2021-26828_ScadaBR_RCE](https://github.com/hevox/CVE-2021-26828_ScadaBR_RCE)
 
 ### CVE-2021-26832 (2021-04-14)
@@ -1989,14 +1981,6 @@ A hard-coded cryptographic key vulnerability in the default configuration file w
 </code>
 
 - [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
-
-### CVE-2020-1920 (2021-06-01)
-
-<code>
-A regular expression denial of service (ReDoS) vulnerability in the validateBaseUrl function can cause the application to use excessive resources, become unresponsive, or crash. This was introduced in react-native version 0.59.0 and fixed in version 0.64.1.
-</code>
-
-- [JamesCVE/CVE-2020-1920](https://github.com/JamesCVE/CVE-2020-1920)
 
 ### CVE-2020-1937 (2020-02-24)
 
@@ -3416,6 +3400,14 @@ GitLab EE/CE 8.5 to 12.9 is vulnerable to a an path traversal when moving an iss
 - [Liath/CVE-2020-10977](https://github.com/Liath/CVE-2020-10977)
 - [lisp3r/cve-2020-10977-read-and-execute](https://github.com/lisp3r/cve-2020-10977-read-and-execute)
 - [nickvdyck/gitlab-cve-2020-10977](https://github.com/nickvdyck/gitlab-cve-2020-10977)
+
+### CVE-2020-11060 (2020-05-12)
+
+<code>
+In GLPI before 9.4.6, an attacker can execute system commands by abusing the backup functionality. Theoretically, this vulnerability can be exploited by an attacker without a valid account by using a CSRF. Due to the difficulty of the exploitation, the attack is only conceivable by an account having Maintenance privileges and the right to add WIFI networks. This is fixed in version 9.4.6.
+</code>
+
+- [0xdreadnaught/cve-2020-11060-poc](https://github.com/0xdreadnaught/cve-2020-11060-poc)
 
 ### CVE-2020-11076 (2020-05-22)
 
