@@ -316,6 +316,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 ### CVE-2021-3560
 - [swapravo/polkadots](https://github.com/swapravo/polkadots)
 - [deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560)
+- [hakivvi/CVE-2021-3560](https://github.com/hakivvi/CVE-2021-3560)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
