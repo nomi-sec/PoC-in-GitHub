@@ -563,6 +563,14 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [lyy289065406/CVE-2021-22192](https://github.com/lyy289065406/CVE-2021-22192)
 - [PetrusViet/Gitlab-RCE](https://github.com/PetrusViet/Gitlab-RCE)
 
+### CVE-2021-22201 (2021-04-02)
+
+<code>
+An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.9. A specially crafted import file could read files on the server.
+</code>
+
+- [exp1orer/CVE-2021-22201](https://github.com/exp1orer/CVE-2021-22201)
+
 ### CVE-2021-22204 (2021-04-23)
 
 <code>
