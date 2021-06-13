@@ -7335,7 +7335,7 @@ The social-warfare plugin before 3.5.3 for WordPress has stored XSS via the wp-a
 Zoho ManageEngine ServiceDesk 9.3 allows session hijacking and privilege escalation because an established guest session is automatically converted into an established administrator session when the guest user enters the administrator username, with an arbitrary incorrect password, in an mc/ login attempt within a different browser tab.
 </code>
 
-- [FlameOfIgnis/CVE-2019-10008](https://github.com/FlameOfIgnis/CVE-2019-10008)
+- [ignis-sec/CVE-2019-10008](https://github.com/ignis-sec/CVE-2019-10008)
 
 ### CVE-2019-10086 (2019-08-20)
 
@@ -8269,6 +8269,7 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [janod313/-CVE-2019-14287-SUDO-bypass-vulnerability](https://github.com/janod313/-CVE-2019-14287-SUDO-bypass-vulnerability)
 - [DewmiApsara/CVE-2019-14287](https://github.com/DewmiApsara/CVE-2019-14287)
 - [M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287)
+- [edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-)
 - [DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights](https://github.com/DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights)
 
 ### CVE-2019-14314 (2019-08-27)
@@ -8958,6 +8959,7 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [saleemrashid/sudo-cve-2019-18634](https://github.com/saleemrashid/sudo-cve-2019-18634)
 - [N1et/CVE-2019-18634](https://github.com/N1et/CVE-2019-18634)
 - [ptef/CVE-2019-18634](https://github.com/ptef/CVE-2019-18634)
+- [edsonjt81/sudo-cve-2019-18634](https://github.com/edsonjt81/sudo-cve-2019-18634)
 - [Y3A/CVE-2019-18634](https://github.com/Y3A/CVE-2019-18634)
 
 ### CVE-2019-18655 (2019-11-12)
