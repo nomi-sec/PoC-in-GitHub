@@ -2848,6 +2848,9 @@ Backblaze for Windows and Backblaze for macOS before 7.0.0.439 suffer from impro
 
 - [geffner/CVE-2020-8290](https://github.com/geffner/CVE-2020-8290)
 
+### CVE-2020-8300
+- [stuartcarroll/CitrixADC-CVE-2020-8300](https://github.com/stuartcarroll/CitrixADC-CVE-2020-8300)
+
 ### CVE-2020-8417 (2020-01-28)
 
 <code>
@@ -8829,6 +8832,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
 - [jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240)
 - [brunosgio/bloodit](https://github.com/brunosgio/bloodit)
+- [spyx/cve-2019-17240](https://github.com/spyx/cve-2019-17240)
 
 ### CVE-2019-17424 (2019-10-22)
 
@@ -10369,7 +10373,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
 - [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
 - [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
-- [OLAOLAOLA789/CVE-2018-6574-PTL](https://github.com/OLAOLAOLA789/CVE-2018-6574-PTL)
+- [OLAOLAOLA789/CVE-2018-6574](https://github.com/OLAOLAOLA789/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
