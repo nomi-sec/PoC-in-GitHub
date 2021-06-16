@@ -326,6 +326,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560)
 - [hakivvi/CVE-2021-3560](https://github.com/hakivvi/CVE-2021-3560)
 - [tyleraharrison/CVE-2021-3560_PoC](https://github.com/tyleraharrison/CVE-2021-3560_PoC)
+- [secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
@@ -2856,7 +2857,12 @@ Backblaze for Windows and Backblaze for macOS before 7.0.0.439 suffer from impro
 
 - [geffner/CVE-2020-8290](https://github.com/geffner/CVE-2020-8290)
 
-### CVE-2020-8300
+### CVE-2020-8300 (2021-06-16)
+
+<code>
+Citrix ADC and Citrix/NetScaler Gateway before 13.0-82.41, 12.1-62.23, 11.1-65.20 and Citrix ADC 12.1-FIPS before 12.1-55.238 suffer from improper access control allowing SAML authentication hijack through a phishing attack to steal a valid user session. Note that Citrix ADC or Citrix Gateway must be configured as a SAML SP or a SAML IdP for this to be possible.
+</code>
+
 - [stuartcarroll/CitrixADC-CVE-2020-8300](https://github.com/stuartcarroll/CitrixADC-CVE-2020-8300)
 
 ### CVE-2020-8417 (2020-01-28)
@@ -10382,6 +10388,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
 - [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
 - [OLAOLAOLA789/CVE-2018-6574](https://github.com/OLAOLAOLA789/CVE-2018-6574)
+- [repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -16463,6 +16470,14 @@ Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.c
 - [pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864)
 - [eudemonics/scaredycat](https://github.com/eudemonics/scaredycat)
 - [HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864)
+
+### CVE-2015-4000 (2015-05-20)
+
+<code>
+The TLS protocol 1.2 and earlier, when a DHE_EXPORT ciphersuite is enabled on a server but not on a client, does not properly convey a DHE_EXPORT choice, which allows man-in-the-middle attackers to conduct cipher-downgrade attacks by rewriting a ClientHello with DHE replaced by DHE_EXPORT and then rewriting a ServerHello with DHE_EXPORT replaced by DHE, aka the &quot;Logjam&quot; issue.
+</code>
+
+- [fatlan/HAProxy-Keepalived-Sec-HighLoads](https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads)
 
 ### CVE-2015-4495 (2015-08-07)
 
