@@ -4626,6 +4626,14 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [Osyanina/westone-CVE-2020-17519-scanner](https://github.com/Osyanina/westone-CVE-2020-17519-scanner)
 - [givemefivw/CVE-2020-17519](https://github.com/givemefivw/CVE-2020-17519)
 
+### CVE-2020-17522 (2021-01-26)
+
+<code>
+When ORT (now via atstccfg) generates ip_allow.config files in Apache Traffic Control 3.0.0 to 3.1.0 and 4.0.0 to 4.1.0, those files include permissions that allow bad actors to push arbitrary content into and remove arbitrary content from CDN cache servers. Additionally, these permissions are potentially extended to IP addresses outside the desired range, resulting in them being granted to clients possibly outside the CDN arcitechture.
+</code>
+
+- [PwnCast/CVE-2020-17522](https://github.com/PwnCast/CVE-2020-17522)
+
 ### CVE-2020-17523 (2021-02-03)
 
 <code>
@@ -13483,6 +13491,14 @@ Foscam networked devices use the same hardcoded SSL private key across different
 </code>
 
 - [notmot/CVE-2017-7648.](https://github.com/notmot/CVE-2017-7648.)
+
+### CVE-2017-7670 (2017-07-10)
+
+<code>
+The Traffic Router component of the incubating Apache Traffic Control project is vulnerable to a Slowloris style Denial of Service attack. TCP connections made on the configured DNS port will remain in the ESTABLISHED state until the client explicitly closes the connection or Traffic Router is restarted. If connections remain in the ESTABLISHED state indefinitely and accumulate in number to match the size of the thread pool dedicated to processing DNS requests, the thread pool becomes exhausted. Once the thread pool is exhausted, Traffic Router is unable to service any DNS request, regardless of transport protocol.
+</code>
+
+- [PwnCast/CVE-2017-7670](https://github.com/PwnCast/CVE-2017-7670)
 
 ### CVE-2017-7679 (2017-06-19)
 
