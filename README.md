@@ -1233,6 +1233,14 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
+### CVE-2021-31159 (2021-06-16)
+
+<code>
+Zoho ManageEngine ServiceDesk Plus MSP before 10519 is vulnerable to a User Enumeration bug due to improper error-message generation in the Forgot Password functionality, aka SDPMSP-15732.
+</code>
+
+- [ricardojoserf/CVE-2021-31159](https://github.com/ricardojoserf/CVE-2021-31159)
+
 ### CVE-2021-31166 (2021-05-11)
 
 <code>
