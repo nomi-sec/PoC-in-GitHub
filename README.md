@@ -1411,7 +1411,6 @@ In binder_transaction of binder.c, there is a possible out of bounds write due t
 - [minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041)
 - [minutesinch/CVE-2020-0041-Original](https://github.com/minutesinch/CVE-2020-0041-Original)
 - [TechnoHT/CVE-2020-0041](https://github.com/TechnoHT/CVE-2020-0041)
-- [Byte-Master-101/CVE_2020_0041](https://github.com/Byte-Master-101/CVE_2020_0041)
 
 ### CVE-2020-0069 (2020-03-10)
 
@@ -8323,6 +8322,7 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287)
 - [edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-)
 - [DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights](https://github.com/DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights)
+- [3hydraking/CVE-2019-14287](https://github.com/3hydraking/CVE-2019-14287)
 
 ### CVE-2019-14314 (2019-08-27)
 
@@ -14411,6 +14411,14 @@ Certain D-Link products are affected by: Buffer Overflow. This affects DIR-880L 
 </code>
 
 - [badnack/d_link_880_bug](https://github.com/badnack/d_link_880_bug)
+
+### CVE-2017-14980 (2017-10-09)
+
+<code>
+Buffer overflow in Sync Breeze Enterprise 10.0.28 allows remote attackers to have unspecified impact via a long username parameter to /login.
+</code>
+
+- [bmdyy/CVE-2017-14980](https://github.com/bmdyy/CVE-2017-14980)
 
 ### CVE-2017-15120 (2018-07-27)
 
