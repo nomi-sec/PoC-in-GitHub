@@ -10356,6 +10356,7 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-)
 - [DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights](https://github.com/DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights)
 - [3hydraking/CVE-2019-14287](https://github.com/3hydraking/CVE-2019-14287)
+- [Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287](https://github.com/Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287)
 
 ### CVE-2019-14314 (2019-08-27)
 
