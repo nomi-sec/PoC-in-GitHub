@@ -1039,7 +1039,6 @@ A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.
 </code>
 
 - [Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928)
-- [Diefunction/CVE-2021-27928](https://github.com/Diefunction/CVE-2021-27928)
 
 ### CVE-2021-27963 (2021-03-04)
 
@@ -10413,6 +10412,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [OLAOLAOLA789/CVE-2018-6574](https://github.com/OLAOLAOLA789/CVE-2018-6574)
 - [repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574)
 - [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
+- [jaya522/CVE-2018-6574-go-get-RCE](https://github.com/jaya522/CVE-2018-6574-go-get-RCE)
 
 ### CVE-2018-6622 (2018-08-17)
 
