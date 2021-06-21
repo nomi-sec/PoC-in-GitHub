@@ -1122,7 +1122,12 @@ Sherlock SherlockIM through 2021-03-29 allows Cross Site Scripting (XSS) by leve
 
 - [Security-AVS/CVE-2021-29267](https://github.com/Security-AVS/CVE-2021-29267)
 
-### CVE-2021-29337
+### CVE-2021-29337 (2021-06-21)
+
+<code>
+MODAPI.sys in MSI Dragon Center 2.0.104.0 allows low-privileged users to access kernel memory and potentially escalate privileges via a crafted IOCTL 0x9c406104 call. This IOCTL provides the MmMapIoSpace feature for mapping physical memory.
+</code>
+
 - [rjt-gupta/CVE-2021-29337](https://github.com/rjt-gupta/CVE-2021-29337)
 
 ### CVE-2021-29349 (2021-03-31)
