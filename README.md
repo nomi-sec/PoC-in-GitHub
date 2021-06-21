@@ -1122,6 +1122,9 @@ Sherlock SherlockIM through 2021-03-29 allows Cross Site Scripting (XSS) by leve
 
 - [Security-AVS/CVE-2021-29267](https://github.com/Security-AVS/CVE-2021-29267)
 
+### CVE-2021-29337
+- [rjt-gupta/CVE-2021-29337](https://github.com/rjt-gupta/CVE-2021-29337)
+
 ### CVE-2021-29349 (2021-03-31)
 
 <code>
@@ -5880,6 +5883,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [ORCA666/CVE-2019--0708-SCANNER](https://github.com/ORCA666/CVE-2019--0708-SCANNER)
 - [yourekillingme/CVE-2019-0708](https://github.com/yourekillingme/CVE-2019-0708)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
+- [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
 
 ### CVE-2019-0709 (2019-06-12)
 
