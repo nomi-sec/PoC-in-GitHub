@@ -329,6 +329,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [tyleraharrison/CVE-2021-3560_PoC](https://github.com/tyleraharrison/CVE-2021-3560_PoC)
 - [secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation)
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
+- [595cyi/CVE-2021-3560](https://github.com/595cyi/CVE-2021-3560)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
@@ -600,6 +601,14 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 </code>
 
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
+
+### CVE-2021-22214 (2021-06-08)
+
+<code>
+When requests to the internal network for webhooks are enabled, a server-side request forgery vulnerability in GitLab CE/EE affecting all versions starting from 10.5 was possible to exploit for an unauthenticated attacker even on a GitLab instance where registration is limited
+</code>
+
+- [r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214)
 
 ### CVE-2021-22893 (2021-04-23)
 
