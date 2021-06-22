@@ -329,7 +329,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [tyleraharrison/CVE-2021-3560_PoC](https://github.com/tyleraharrison/CVE-2021-3560_PoC)
 - [secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation)
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
-- [595cyi/CVE-2021-3560](https://github.com/595cyi/CVE-2021-3560)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
@@ -15420,6 +15419,7 @@ Apache Shiro before 1.2.5, when a cipher key has not been configured for the &qu
 </code>
 
 - [bkfish/Awesome_shiro](https://github.com/bkfish/Awesome_shiro)
+- [m3terpreter/CVE-2016-4437](https://github.com/m3terpreter/CVE-2016-4437)
 
 ### CVE-2016-4438 (2016-07-04)
 
