@@ -443,6 +443,7 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
 - [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
+- [0UR4N05/CVE-2021-21315](https://github.com/0UR4N05/CVE-2021-21315)
 
 ### CVE-2021-21341 (2021-03-22)
 
@@ -18718,7 +18719,7 @@ Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the
 Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
 </code>
 
-- [minervais/pocs](https://github.com/minervais/pocs)
+- [pagvac/pocs](https://github.com/pagvac/pocs)
 
 ### CVE-2009-1244 (2009-04-13)
 
