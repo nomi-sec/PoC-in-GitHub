@@ -11249,7 +11249,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [ivanacostarubio/libssh-scanner](https://github.com/ivanacostarubio/libssh-scanner)
 - [throwawayaccount12312312/precompiled-CVE-2018-10933](https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933)
 - [ensimag-security/CVE-2018-10933](https://github.com/ensimag-security/CVE-2018-10933)
-- [Ad1bDaw/libSSH-bypass](https://github.com/Ad1bDaw/libSSH-bypass)
+- [0xadaw/libSSH-bypass](https://github.com/0xadaw/libSSH-bypass)
 - [sambiyal/CVE-2018-10933-POC](https://github.com/sambiyal/CVE-2018-10933-POC)
 - [nikhil1232/LibSSH-Authentication-Bypass](https://github.com/nikhil1232/LibSSH-Authentication-Bypass)
 - [Kurlee/LibSSH-exploit](https://github.com/Kurlee/LibSSH-exploit)
