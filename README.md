@@ -13168,6 +13168,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [ludy-dev/XworkStruts-RCE](https://github.com/ludy-dev/XworkStruts-RCE)
 - [jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638)
 - [dock0d1/Apache-Struts-2-CVE-2017-5638-Exploit](https://github.com/dock0d1/Apache-Struts-2-CVE-2017-5638-Exploit)
+- [Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
@@ -17175,6 +17176,14 @@ The loadUserByUsername function in hudson/security/HudsonPrivateSecurityRealm.ja
 </code>
 
 - [Naramsim/Offensive](https://github.com/Naramsim/Offensive)
+
+### CVE-2014-2321 (2014-03-11)
+
+<code>
+web_shell_cmd.gch on ZTE F460 and F660 cable modems allows remote attackers to obtain administrative access via sendcmd requests, as demonstrated by using &quot;set TelnetCfg&quot; commands to enable a TELNET service with specified credentials.
+</code>
+
+- [injectionmethod/ZTE-Vuln-4-Skids](https://github.com/injectionmethod/ZTE-Vuln-4-Skids)
 
 ### CVE-2014-2323 (2014-03-14)
 
