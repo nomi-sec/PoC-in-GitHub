@@ -1357,6 +1357,9 @@ Insufficient input validation in the Marvin Minsky 1967 implementation of the Un
 
 - [intrinsic-propensity/turing-machine](https://github.com/intrinsic-propensity/turing-machine)
 
+### CVE-2021-32537
+- [0vercl0k/CVE-2021-32537](https://github.com/0vercl0k/CVE-2021-32537)
+
 ### CVE-2021-32819 (2021-05-14)
 
 <code>
@@ -10447,6 +10450,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574)
 - [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
 - [jaya522/CVE-2018-6574-go-get-RCE](https://github.com/jaya522/CVE-2018-6574-go-get-RCE)
+- [noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
