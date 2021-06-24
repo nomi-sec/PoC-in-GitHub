@@ -480,6 +480,14 @@ Jellyfin is a Free Software Media System. In Jellyfin before version 10.7.1, wit
 - [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
 - [givemefivw/CVE-2021-21402](https://github.com/givemefivw/CVE-2021-21402)
 
+### CVE-2021-21425 (2021-04-07)
+
+<code>
+Grav Admin Plugin is an HTML user interface that provides a way to configure Grav and create and modify pages. In versions 1.10.7 and earlier, an unauthenticated user can execute some methods of administrator controller without needing any credentials. Particular method execution will result in arbitrary YAML file creation or content change of existing YAML files on the system. Successfully exploitation of that vulnerability results in configuration changes, such as general site information change, custom scheduler job definition, etc. Due to the nature of the vulnerability, an adversary can change some part of the webpage, or hijack an administrator account, or execute operating system command under the context of the web-server user. This vulnerability is fixed in version 1.10.8. Blocking access to the `/admin` path from untrusted sources can be applied as a workaround.
+</code>
+
+- [CsEnox/CVE-2021-21425](https://github.com/CsEnox/CVE-2021-21425)
+
 ### CVE-2021-21551 (2021-05-04)
 
 <code>
@@ -7996,6 +8004,14 @@ getchar.c in Vim before 8.1.1365 and Neovim before 0.3.6 allows remote attackers
 - [pcy190/ace-vim-neovim](https://github.com/pcy190/ace-vim-neovim)
 - [oldthree3/CVE-2019-12735-VIM-NEOVIM](https://github.com/oldthree3/CVE-2019-12735-VIM-NEOVIM)
 - [nickylimjj/cve-2019-12735](https://github.com/nickylimjj/cve-2019-12735)
+
+### CVE-2019-12744 (2019-06-20)
+
+<code>
+SeedDMS before 5.1.11 allows Remote Command Execution (RCE) because of unvalidated file upload of PHP scripts, a different vulnerability than CVE-2018-12940.
+</code>
+
+- [nobodyatall648/CVE-2019-12744](https://github.com/nobodyatall648/CVE-2019-12744)
 
 ### CVE-2019-12750 (2019-07-31)
 
