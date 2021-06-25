@@ -1400,6 +1400,9 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 
 - [mmiszczyk/cve-2021-33879](https://github.com/mmiszczyk/cve-2021-33879)
 
+### CVE-2021-35475
+- [saitamang/CVE-2021-35475](https://github.com/saitamang/CVE-2021-35475)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -1441,6 +1444,7 @@ In binder_transaction of binder.c, there is a possible out of bounds write due t
 - [minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041)
 - [minutesinch/CVE-2020-0041-Original](https://github.com/minutesinch/CVE-2020-0041-Original)
 - [TechnoHT/CVE-2020-0041](https://github.com/TechnoHT/CVE-2020-0041)
+- [Byte-Master-101/CVE-2020-0041](https://github.com/Byte-Master-101/CVE-2020-0041)
 
 ### CVE-2020-0069 (2020-03-10)
 
@@ -8584,6 +8588,7 @@ An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and
 - [hexway/r00kie-kr00kie](https://github.com/hexway/r00kie-kr00kie)
 - [akabe1/kr00ker](https://github.com/akabe1/kr00ker)
 - [mustafasevim/kr00k-vulnerability](https://github.com/mustafasevim/kr00k-vulnerability)
+- [raul23/Kr00k](https://github.com/raul23/Kr00k)
 
 ### CVE-2019-15224 (2019-08-19)
 
@@ -13257,6 +13262,7 @@ Systems with microprocessors utilizing speculative execution and branch predicti
 - [ixtal23/spectreScope](https://github.com/ixtal23/spectreScope)
 - [albertleecn/cve-2017-5753](https://github.com/albertleecn/cve-2017-5753)
 - [sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-](https://github.com/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-)
+- [raul23/spectre](https://github.com/raul23/spectre)
 
 ### CVE-2017-5754 (2018-01-04)
 
@@ -13270,6 +13276,7 @@ Systems with microprocessors utilizing speculative execution and indirect branch
 - [speecyy/Am-I-affected-by-Meltdown](https://github.com/speecyy/Am-I-affected-by-Meltdown)
 - [zzado/Meltdown](https://github.com/zzado/Meltdown)
 - [jdmulloy/meltdown-aws-scanner](https://github.com/jdmulloy/meltdown-aws-scanner)
+- [raul23/meltdown](https://github.com/raul23/meltdown)
 
 ### CVE-2017-5792 (2018-02-15)
 
