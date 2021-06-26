@@ -7378,7 +7378,7 @@ NUUO Network Video Recorder Firmware 1.7.x through 3.3.x allows unauthenticated 
 ### CVE-2019-9670 (2019-05-29)
 
 <code>
-mailboxd component in Synacor Zimbra Collaboration Suite 8.7.x before 8.7.11p10 has an XML External Entity injection (XXE) vulnerability.
+mailboxd component in Synacor Zimbra Collaboration Suite 8.7.x before 8.7.11p10 has an XML External Entity injection (XXE) vulnerability, as demonstrated by Autodiscover/Autodiscover.xml.
 </code>
 
 - [rek7/Zimbra-RCE](https://github.com/rek7/Zimbra-RCE)
