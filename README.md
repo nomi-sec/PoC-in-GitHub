@@ -13308,7 +13308,6 @@ Systems with microprocessors utilizing speculative execution and branch predicti
 - [ixtal23/spectreScope](https://github.com/ixtal23/spectreScope)
 - [albertleecn/cve-2017-5753](https://github.com/albertleecn/cve-2017-5753)
 - [sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-](https://github.com/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-)
-- [raul23/spectre](https://github.com/raul23/spectre)
 
 ### CVE-2017-5754 (2018-01-04)
 
@@ -13322,7 +13321,6 @@ Systems with microprocessors utilizing speculative execution and indirect branch
 - [speecyy/Am-I-affected-by-Meltdown](https://github.com/speecyy/Am-I-affected-by-Meltdown)
 - [zzado/Meltdown](https://github.com/zzado/Meltdown)
 - [jdmulloy/meltdown-aws-scanner](https://github.com/jdmulloy/meltdown-aws-scanner)
-- [raul23/meltdown](https://github.com/raul23/meltdown)
 
 ### CVE-2017-5792 (2018-02-15)
 
