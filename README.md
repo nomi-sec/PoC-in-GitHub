@@ -1065,6 +1065,7 @@ A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.
 </code>
 
 - [Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928)
+- [seska451/mariadb-cve-2021-27928](https://github.com/seska451/mariadb-cve-2021-27928)
 
 ### CVE-2021-27963 (2021-03-04)
 
