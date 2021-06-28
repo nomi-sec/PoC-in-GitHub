@@ -381,7 +381,7 @@ Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018
 ### CVE-2021-21042 (2021-02-11)
 
 <code>
-Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by an Out-of-bounds Read vulnerability. An unauthenticated attacker could leverage this vulnerability to locally escalate privileges in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+Acrobat Reader DC versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by an Out-of-bounds Read vulnerability that could lead to arbitrary disclosure of information in the memory stack. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 </code>
 
 - [NattiSamson/CVE-2021-21042](https://github.com/NattiSamson/CVE-2021-21042)
@@ -14511,14 +14511,6 @@ Certain D-Link products are affected by: Buffer Overflow. This affects DIR-880L 
 </code>
 
 - [badnack/d_link_880_bug](https://github.com/badnack/d_link_880_bug)
-
-### CVE-2017-14980 (2017-10-09)
-
-<code>
-Buffer overflow in Sync Breeze Enterprise 10.0.28 allows remote attackers to have unspecified impact via a long username parameter to /login.
-</code>
-
-- [bmdyy/CVE-2017-14980](https://github.com/bmdyy/CVE-2017-14980)
 
 ### CVE-2017-15120 (2018-07-27)
 
