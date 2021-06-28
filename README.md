@@ -13568,6 +13568,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [Hansindu-M/CVE-2017-7494_IT19115344](https://github.com/Hansindu-M/CVE-2017-7494_IT19115344)
 - [m4udSec/noSAMBAnoCRY-CVE-2017-7494](https://github.com/m4udSec/noSAMBAnoCRY-CVE-2017-7494)
 - [I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux)
+- [yinyinmeimei/CVE-2017-7494-payload](https://github.com/yinyinmeimei/CVE-2017-7494-payload)
 
 ### CVE-2017-7525 (2018-02-06)
 
@@ -15656,6 +15657,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
 - [arttnba3/CVE-2016-5195](https://github.com/arttnba3/CVE-2016-5195)
+- [sijidufei/CVE-2016-5195](https://github.com/sijidufei/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-22)
 
