@@ -17,6 +17,14 @@ TPM Device Driver Information Disclosure Vulnerability
 
 - [waleedassar/CVE-2021-1656](https://github.com/waleedassar/CVE-2021-1656)
 
+### CVE-2021-1675 (2021-06-08)
+
+<code>
+Windows Print Spooler Elevation of Privilege Vulnerability
+</code>
+
+- [yu2u/CVE-2021-1675](https://github.com/yu2u/CVE-2021-1675)
+
 ### CVE-2021-1699 (2021-01-12)
 
 <code>
@@ -618,6 +626,7 @@ When requests to the internal network for webhooks are enabled, a server-side re
 </code>
 
 - [r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214)
+- [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 
 ### CVE-2021-22893 (2021-04-23)
 
