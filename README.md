@@ -24,6 +24,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 </code>
 
 - [yu2u/CVE-2021-1675](https://github.com/yu2u/CVE-2021-1675)
+- [cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -338,6 +339,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [tyleraharrison/CVE-2021-3560_PoC](https://github.com/tyleraharrison/CVE-2021-3560_PoC)
 - [secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation)
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
+- [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
