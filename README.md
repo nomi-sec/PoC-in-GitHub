@@ -4463,6 +4463,14 @@ Venki Supravizio BPM 10.1.2 does not limit the number of authentication attempts
 
 - [inflixim4be/CVE-2020-15367](https://github.com/inflixim4be/CVE-2020-15367)
 
+### CVE-2020-15368 (2020-06-29)
+
+<code>
+AsrDrv103.sys in the ASRock RGB Driver does not properly restrict access from user space, as demonstrated by triggering a triple fault via a request to zero CR3.
+</code>
+
+- [stong/CVE-2020-15368](https://github.com/stong/CVE-2020-15368)
+
 ### CVE-2020-15392 (2020-07-07)
 
 <code>
@@ -7444,6 +7452,7 @@ WordPress before 5.1.1 does not properly filter comment content, leading to Remo
 - [PalmTreeForest/CodePath_Week_7-8](https://github.com/PalmTreeForest/CodePath_Week_7-8)
 - [sijiahi/Wordpress_cve-2019-9787_defense](https://github.com/sijiahi/Wordpress_cve-2019-9787_defense)
 - [matinciel/Wordpress_CVE-2019-9787](https://github.com/matinciel/Wordpress_CVE-2019-9787)
+- [dexXxed/CVE-2019-9787](https://github.com/dexXxed/CVE-2019-9787)
 
 ### CVE-2019-9810 (2019-04-26)
 
@@ -8057,6 +8066,7 @@ Zeroshell 3.9.0 is prone to a remote command execution vulnerability. Specifical
 
 - [givemefivw/CVE-2019-12725](https://github.com/givemefivw/CVE-2019-12725)
 - [hevox/CVE-2019-12725-Command-Injection](https://github.com/hevox/CVE-2019-12725-Command-Injection)
+- [MzzdToT/CVE-2019-12725](https://github.com/MzzdToT/CVE-2019-12725)
 
 ### CVE-2019-12735 (2019-06-05)
 
@@ -8644,7 +8654,6 @@ An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and
 - [hexway/r00kie-kr00kie](https://github.com/hexway/r00kie-kr00kie)
 - [akabe1/kr00ker](https://github.com/akabe1/kr00ker)
 - [mustafasevim/kr00k-vulnerability](https://github.com/mustafasevim/kr00k-vulnerability)
-- [raul23/Kr00k](https://github.com/raul23/Kr00k)
 
 ### CVE-2019-15224 (2019-08-19)
 
