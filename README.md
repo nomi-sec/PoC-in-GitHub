@@ -1452,14 +1452,6 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 
 - [deathflash1411/CVE-2021-35448](https://github.com/deathflash1411/CVE-2021-35448)
 
-### CVE-2021-35475 (2021-06-25)
-
-<code>
-SAS Environment Manager 2.5 allows XSS through the Name field when creating/editing a server. The XSS will prompt when editing the Configuration Properties.
-</code>
-
-- [saitamang/CVE-2021-35475](https://github.com/saitamang/CVE-2021-35475)
-
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -7529,7 +7521,7 @@ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation 
 - [aishee/CVE-2019-10149-quick](https://github.com/aishee/CVE-2019-10149-quick)
 - [AzizMea/CVE-2019-10149-privilege-escalation](https://github.com/AzizMea/CVE-2019-10149-privilege-escalation)
 - [Brets0150/StickyExim](https://github.com/Brets0150/StickyExim)
-- [ChrissHack/exim.exp](https://github.com/ChrissHack/exim.exp)
+- [Chris-dev1/exim.exp](https://github.com/Chris-dev1/exim.exp)
 - [darsigovrustam/CVE-2019-10149](https://github.com/darsigovrustam/CVE-2019-10149)
 - [Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149)
 - [Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149)
@@ -19119,6 +19111,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [Un4gi/CVE-2007-2447](https://github.com/Un4gi/CVE-2007-2447)
 - [Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster)
 - [cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447)
+- [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
