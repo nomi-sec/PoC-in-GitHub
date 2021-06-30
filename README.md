@@ -9942,7 +9942,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [LandGrey/CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894)
 - [jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894)
 - [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
-- [changpin666com/CVE-2018-2894-Weblogic-](https://github.com/changpin666com/CVE-2018-2894-Weblogic-)
+- [momentn/CVE-2018-2894-Weblogic-](https://github.com/momentn/CVE-2018-2894-Weblogic-)
 
 ### CVE-2018-3191 (2018-10-16)
 
@@ -11939,6 +11939,7 @@ Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlie
 - [vah13/CVE-2018-15961](https://github.com/vah13/CVE-2018-15961)
 - [cved-sources/cve-2018-15961](https://github.com/cved-sources/cve-2018-15961)
 - [0xAJ2K/CVE-2018-15961](https://github.com/0xAJ2K/CVE-2018-15961)
+- [xbufu/CVE-2018-15961](https://github.com/xbufu/CVE-2018-15961)
 
 ### CVE-2018-15968 (2018-10-12)
 
