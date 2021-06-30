@@ -25,6 +25,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 
 - [yu2u/CVE-2021-1675](https://github.com/yu2u/CVE-2021-1675)
 - [cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675)
+- [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -228,6 +229,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
 - [mrofisr/docker-cve-2021-3156](https://github.com/mrofisr/docker-cve-2021-3156)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
+- [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
