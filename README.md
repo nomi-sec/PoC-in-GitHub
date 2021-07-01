@@ -40,8 +40,10 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
 - [evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP)
 - [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
+- [DenizSe/CVE-2021-1675](https://github.com/DenizSe/CVE-2021-1675)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
+- [tanarchytan/CVE-2021-1675](https://github.com/tanarchytan/CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -2477,14 +2479,6 @@ A Local File Inclusion vulnerability in Juniper Networks Junos Space allows an a
 </code>
 
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
-
-### CVE-2020-1675 (2020-10-16)
-
-<code>
-When Security Assertion Markup Language (SAML) authentication is enabled, Juniper Networks Mist Cloud UI might incorrectly process invalid authentication certificates which could allow a malicious network-based user to access unauthorized data. This issue affects all Juniper Networks Mist Cloud UI versions prior to September 2 2020.
-</code>
-
-- [DenizSe/CVE-2020-1675](https://github.com/DenizSe/CVE-2020-1675)
 
 ### CVE-2020-1764 (2020-03-26)
 
