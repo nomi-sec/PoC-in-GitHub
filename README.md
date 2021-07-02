@@ -47,6 +47,9 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [Leonidus0x10/CVE-2021-1675-SCANNER](https://github.com/Leonidus0x10/CVE-2021-1675-SCANNER)
 - [thomasgeens/CVE-2021-1675](https://github.com/thomasgeens/CVE-2021-1675)
 - [mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery](https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery)
+- [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
+- [kougyokugentou/CVE-2021-1675](https://github.com/kougyokugentou/CVE-2021-1675)
+- [ptter23/CVE-2021-1675](https://github.com/ptter23/CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -359,7 +362,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [swapravo/polkadots](https://github.com/swapravo/polkadots)
 - [deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560)
 - [hakivvi/CVE-2021-3560](https://github.com/hakivvi/CVE-2021-3560)
-- [tyleraharrison/CVE-2021-3560_PoC](https://github.com/tyleraharrison/CVE-2021-3560_PoC)
+- [iSTARLabs/CVE-2021-3560_PoC](https://github.com/iSTARLabs/CVE-2021-3560_PoC)
 - [secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation)
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
@@ -7354,6 +7357,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [fs0c131y/ESFileExplorerOpenPortVuln](https://github.com/fs0c131y/ESFileExplorerOpenPortVuln)
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 - [N3H4L/CVE-2019-6447](https://github.com/N3H4L/CVE-2019-6447)
+- [sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777](https://github.com/sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777)
 
 ### CVE-2019-6453 (2019-02-18)
 
@@ -9089,6 +9093,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
 - [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
+- [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -18918,14 +18923,6 @@ The HTTP BIO connector in Apache Tomcat 7.0.x before 7.0.12 does not properly ha
 
 - [samaujs/CVE-2011-1475](https://github.com/samaujs/CVE-2011-1475)
 
-### CVE-2011-1485 (2011-05-31)
-
-<code>
-Race condition in the pkexec utility and polkitd daemon in PolicyKit (aka polkit) 0.96 allows local users to gain privileges by executing a setuid program from pkexec, related to the use of the effective user ID instead of the real user ID.
-</code>
-
-- [Pashkela/CVE-2011-1485](https://github.com/Pashkela/CVE-2011-1485)
-
 ### CVE-2011-1571 (2011-05-07)
 
 <code>
@@ -18984,14 +18981,6 @@ Spring Framework 3.0.0 through 3.0.5, Spring Security 3.0.0 through 3.0.5 and 2.
 </code>
 
 - [pwntester/SpringBreaker](https://github.com/pwntester/SpringBreaker)
-
-### CVE-2011-3026 (2012-02-16)
-
-<code>
-Integer overflow in libpng, as used in Google Chrome before 17.0.963.56, allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors that trigger an integer truncation.
-</code>
-
-- [argp/cve-2011-3026-firefox](https://github.com/argp/cve-2011-3026-firefox)
 
 ### CVE-2011-3192 (2011-08-29)
 
