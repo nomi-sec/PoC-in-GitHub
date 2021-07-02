@@ -4,6 +4,14 @@
 ### CVE-2021-21
 - [zhongjiao01/cve-2021-21](https://github.com/zhongjiao01/cve-2021-21)
 
+### CVE-2021-1056 (2021-01-07)
+
+<code>
+NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in the kernel mode layer (nvidia.ko) in which it does not completely honor operating system file system permissions to provide GPU device-level isolation, which may lead to denial of service or information disclosure.
+</code>
+
+- [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
+
 ### CVE-2021-1075 (2021-04-21)
 
 <code>
@@ -107,6 +115,8 @@ Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Op
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
+- [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
 
 ### CVE-2021-2173 (2021-04-22)
@@ -131,7 +141,9 @@ Vulnerability in the Recovery component of Oracle Database Server. Supported ver
 ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties to obtain credentials for a connection to the intranet.
 </code>
 
+- [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
 - [FanqXu/CVE-2021-3019](https://github.com/FanqXu/CVE-2021-3019)
+- [liuxu54898/CVE-2021-3019](https://github.com/liuxu54898/CVE-2021-3019)
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 - [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
 - [givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019)
@@ -151,10 +163,29 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 </code>
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
+- [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
+- [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
+- [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
 - [nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit)
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
+
+### CVE-2021-3130 (2021-01-20)
+
+<code>
+Within the Open-AudIT up to version 3.5.3 application, the web interface hides SSH secrets, Windows passwords, and SNMP strings from users using HTML 'password field' obfuscation. By using Developer tools or similar, it is possible to change the obfuscation so that the credentials are visible.
+</code>
+
+- [jet-pentest/CVE-2021-3130](https://github.com/jet-pentest/CVE-2021-3130)
+
+### CVE-2021-3131 (2021-01-13)
+
+<code>
+The Web server in 1C:Enterprise 8 before 8.3.17.1851 sends base64 encoded credentials in the creds URL parameter.
+</code>
+
+- [jet-pentest/CVE-2021-3131](https://github.com/jet-pentest/CVE-2021-3131)
 
 ### CVE-2021-3138 (2021-01-13)
 
@@ -170,8 +201,10 @@ In Discourse 2.7.0 through beta1, a rate-limit bypass leads to a bypass of the 2
 Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
 </code>
 
+- [mr-r3b00t/CVE-2021-3156](https://github.com/mr-r3b00t/CVE-2021-3156)
 - [nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156)
 - [reverse-ex/CVE-2021-3156](https://github.com/reverse-ex/CVE-2021-3156)
+- [jokerTPR2004/CVE-2021-3156](https://github.com/jokerTPR2004/CVE-2021-3156)
 - [ymrsmns/CVE-2021-3156](https://github.com/ymrsmns/CVE-2021-3156)
 - [elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER)
 - [kernelzeroday/CVE-2021-3156-Baron-Samedit](https://github.com/kernelzeroday/CVE-2021-3156-Baron-Samedit)
@@ -221,6 +254,14 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 
 ### CVE-2021-3157
 - [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
+
+### CVE-2021-3164 (2021-01-21)
+
+<code>
+ChurchRota 2.6.4 is vulnerable to authenticated remote code execution. The user does not need to have file upload permission in order to upload and execute an arbitrary file via a POST request to resources.php.
+</code>
+
+- [rmccarth/cve-2021-3164](https://github.com/rmccarth/cve-2021-3164)
 
 ### CVE-2021-3165 (2021-01-26)
 
@@ -322,6 +363,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation)
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
+- [mr-nO0b/CVE-2021-3560](https://github.com/mr-nO0b/CVE-2021-3560)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
@@ -1241,6 +1283,7 @@ A critical unauthenticated remote code execution vulnerability was found all rec
 </code>
 
 - [kahla-sec/CVE-2021-27850_POC](https://github.com/kahla-sec/CVE-2021-27850_POC)
+- [Ovi3/CVE_2021_27850_POC](https://github.com/Ovi3/CVE_2021_27850_POC)
 
 ### CVE-2021-27890 (2021-03-15)
 
@@ -1781,6 +1824,8 @@ In Artica Pandora FMS &lt;=754 in the File Manager component, there is sensitive
 ### CVE-2021-34527
 - [DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527)
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
+- [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
+- [fardinbarashi/Fix-CVE-2021-34527](https://github.com/fardinbarashi/Fix-CVE-2021-34527)
 
 ### CVE-2021-35448 (2021-06-24)
 
@@ -1808,6 +1853,9 @@ In Plone 5.0 through 5.2.4, Editors are vulnerable to XSS in the folder contents
 </code>
 
 - [AlAIAL90/CVE-2021-35959](https://github.com/AlAIAL90/CVE-2021-35959)
+
+### CVE-2021-35975
+- [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
 
 
 ## 2020
@@ -6999,6 +7047,14 @@ An exploitable denial-of-service vulnerability exists in the X509 certificate pa
 </code>
 
 - [JonathanWilbur/CVE-2019-5010](https://github.com/JonathanWilbur/CVE-2019-5010)
+
+### CVE-2019-5021 (2019-05-08)
+
+<code>
+Versions of the Official Alpine Linux Docker images (since v3.3) contain a NULL password for the `root` user. This vulnerability appears to be the result of a regression introduced in December of 2015. Due to the nature of this issue, systems deployed using affected versions of the Alpine Linux container which utilize Linux PAM, or some other mechanism which uses the system shadow file as an authentication database, may accept a NULL password for the `root` user.
+</code>
+
+- [mawinkler/smartcheck-cve-2019-5021](https://github.com/mawinkler/smartcheck-cve-2019-5021)
 
 ### CVE-2019-5096 (2019-12-03)
 
