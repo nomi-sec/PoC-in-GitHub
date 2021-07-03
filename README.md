@@ -2082,6 +2082,7 @@ A remote code execution vulnerability exists in the way that the scripting engin
 - [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
 - [maxpl0it/CVE-2020-0674-Exploit](https://github.com/maxpl0it/CVE-2020-0674-Exploit)
 - [Ken-Abruzzi/CVE-2020-0674](https://github.com/Ken-Abruzzi/CVE-2020-0674)
+- [yukiNeko114514/CVE-2020-0674-PoC](https://github.com/yukiNeko114514/CVE-2020-0674-PoC)
 
 ### CVE-2020-0683 (2020-02-11)
 
@@ -4466,7 +4467,7 @@ Citrix Workspace App before 1912 on Windows has Insecure Permissions which allow
 Intelbras TIP 200 60.61.75.15, TIP 200 LITE 60.61.75.15, and TIP 300 65.61.75.22 devices allow cgi-bin/cgiServer.exx?page=../ Directory Traversal.
 </code>
 
-- [lucxssouza/CVE-2020-13886](https://github.com/lucxssouza/CVE-2020-13886)
+- [lsass-exe/CVE-2020-13886](https://github.com/lsass-exe/CVE-2020-13886)
 
 ### CVE-2020-13889 (2020-06-06)
 
@@ -6000,7 +6001,7 @@ osCommerce 2.3.4.1 has XSS vulnerability via the authenticated user entering the
 The TOTVS Fluig platform allows path traversal through the parameter &quot;file = .. /&quot; encoded in base64. This affects all versions Fluig Lake 1.7.0, Fluig 1.6.5 and Fluig 1.6.4
 </code>
 
-- [lucxssouza/CVE-2020-29134](https://github.com/lucxssouza/CVE-2020-29134)
+- [lsass-exe/CVE-2020-29134](https://github.com/lsass-exe/CVE-2020-29134)
 
 ### CVE-2020-29156 (2020-12-27)
 
@@ -10987,6 +10988,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
 - [jaya522/CVE-2018-6574-go-get-RCE](https://github.com/jaya522/CVE-2018-6574-go-get-RCE)
 - [noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574)
+- [rizemon/CVE-2018-6574](https://github.com/rizemon/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
