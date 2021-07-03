@@ -52,6 +52,8 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [ptter23/CVE-2021-1675](https://github.com/ptter23/CVE-2021-1675)
 - [gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler)
 - [initconf/cve-2021-1675-printnightmare](https://github.com/initconf/cve-2021-1675-printnightmare)
+- [ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare)
+- [nemo-wq/CVE-2021-1675_CVE-2021-34527_PrintNightmare](https://github.com/nemo-wq/CVE-2021-1675_CVE-2021-34527_PrintNightmare)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -1627,6 +1629,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
+- [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
 
 ### CVE-2021-31184 (2021-05-11)
 
@@ -10988,7 +10991,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
 - [jaya522/CVE-2018-6574-go-get-RCE](https://github.com/jaya522/CVE-2018-6574-go-get-RCE)
 - [noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574)
-- [rizemon/CVE-2018-6574](https://github.com/rizemon/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -15846,6 +15848,7 @@ The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remot
 - [gsheller/ActiveMQ_putshell-CVE-2016-3088](https://github.com/gsheller/ActiveMQ_putshell-CVE-2016-3088)
 - [cyberaguiar/CVE-2016-3088](https://github.com/cyberaguiar/CVE-2016-3088)
 - [vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088)
+- [MrRobotTnT/CVE-2016-3088](https://github.com/MrRobotTnT/CVE-2016-3088)
 
 ### CVE-2016-3113 (2017-08-07)
 
