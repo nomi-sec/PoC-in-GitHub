@@ -50,6 +50,8 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
 - [kougyokugentou/CVE-2021-1675](https://github.com/kougyokugentou/CVE-2021-1675)
 - [ptter23/CVE-2021-1675](https://github.com/ptter23/CVE-2021-1675)
+- [gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler)
+- [initconf/cve-2021-1675-printnightmare](https://github.com/initconf/cve-2021-1675-printnightmare)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -1824,7 +1826,12 @@ In Artica Pandora FMS &lt;=754 in the File Manager component, there is sensitive
 
 - [AlAIAL90/CVE-2021-34075](https://github.com/AlAIAL90/CVE-2021-34075)
 
-### CVE-2021-34527
+### CVE-2021-34527 (2021-07-02)
+
+<code>
+Windows Print Spooler Remote Code Execution Vulnerability
+</code>
+
 - [DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527)
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
 - [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
@@ -4741,6 +4748,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
 - [nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui)
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
+- [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -18923,6 +18931,14 @@ The HTTP BIO connector in Apache Tomcat 7.0.x before 7.0.12 does not properly ha
 
 - [samaujs/CVE-2011-1475](https://github.com/samaujs/CVE-2011-1475)
 
+### CVE-2011-1485 (2011-05-31)
+
+<code>
+Race condition in the pkexec utility and polkitd daemon in PolicyKit (aka polkit) 0.96 allows local users to gain privileges by executing a setuid program from pkexec, related to the use of the effective user ID instead of the real user ID.
+</code>
+
+- [Pashkela/CVE-2011-1485](https://github.com/Pashkela/CVE-2011-1485)
+
 ### CVE-2011-1571 (2011-05-07)
 
 <code>
@@ -18981,6 +18997,14 @@ Spring Framework 3.0.0 through 3.0.5, Spring Security 3.0.0 through 3.0.5 and 2.
 </code>
 
 - [pwntester/SpringBreaker](https://github.com/pwntester/SpringBreaker)
+
+### CVE-2011-3026 (2012-02-16)
+
+<code>
+Integer overflow in libpng, as used in Google Chrome before 17.0.963.56, allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors that trigger an integer truncation.
+</code>
+
+- [argp/cve-2011-3026-firefox](https://github.com/argp/cve-2011-3026-firefox)
 
 ### CVE-2011-3192 (2011-08-29)
 
