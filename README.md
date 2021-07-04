@@ -53,6 +53,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler)
 - [initconf/cve-2021-1675-printnightmare](https://github.com/initconf/cve-2021-1675-printnightmare)
 - [ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare)
+- [exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -697,6 +698,7 @@ Server Side Request Forgery in vRealize Operations Manager API (CVE-2021-21975) 
 </code>
 
 - [Henry4E36/VMWare-vRealize-SSRF](https://github.com/Henry4E36/VMWare-vRealize-SSRF)
+- [dorkerdevil/CVE-2021-21975](https://github.com/dorkerdevil/CVE-2021-21975)
 - [Al1ex/CVE-2021-21975](https://github.com/Al1ex/CVE-2021-21975)
 - [GuayoyoCyber/CVE-2021-21975](https://github.com/GuayoyoCyber/CVE-2021-21975)
 - [murataydemir/CVE-2021-21975](https://github.com/murataydemir/CVE-2021-21975)
