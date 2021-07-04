@@ -1841,6 +1841,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
 - [fardinbarashi/Fix-CVE-2021-34527](https://github.com/fardinbarashi/Fix-CVE-2021-34527)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
+- [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
 
 ### CVE-2021-35448 (2021-06-24)
 
@@ -2919,6 +2920,14 @@ Symantec Endpoint Protection, prior to 14.3, may not respect file permissions wh
 </code>
 
 - [RedyOpsResearchLabs/SEP-14.2-Arbitrary-Write](https://github.com/RedyOpsResearchLabs/SEP-14.2-Arbitrary-Write)
+
+### CVE-2020-5839 (2020-07-08)
+
+<code>
+Symantec Endpoint Detection And Response, prior to 4.4, may be susceptible to an information disclosure issue, which is a type of vulnerability that could potentially allow unauthorized access to data.
+</code>
+
+- [nasbench/CVE-2020-5839](https://github.com/nasbench/CVE-2020-5839)
 
 ### CVE-2020-5844 (2020-03-16)
 
@@ -8315,6 +8324,7 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [starling021/CVE-2019-11932-SupportApp](https://github.com/starling021/CVE-2019-11932-SupportApp)
 - [Hacker-Yadav/CVE-2019-11932](https://github.com/Hacker-Yadav/CVE-2019-11932)
 - [BadAssAiras/hello](https://github.com/BadAssAiras/hello)
+- [zxn1/CVE-2019-11932](https://github.com/zxn1/CVE-2019-11932)
 
 ### CVE-2019-11933 (2019-10-23)
 
@@ -9765,6 +9775,14 @@ xlock in OpenBSD 6.6 allows local users to gain the privileges of the auth group
 </code>
 
 - [retrymp3/Openbsd-Privilege-Escalation](https://github.com/retrymp3/Openbsd-Privilege-Escalation)
+
+### CVE-2019-19547 (2020-01-13)
+
+<code>
+Symantec Endpoint Detection and Response (SEDR), prior to 4.3.0, may be susceptible to a cross site scripting (XSS) issue. XSS is a type of issue that can enable attackers to inject client-side scripts into web pages viewed by other users. An XSS vulnerability may be used by attackers to potentially bypass access controls such as the same-origin policy.
+</code>
+
+- [nasbench/CVE-2019-19547](https://github.com/nasbench/CVE-2019-19547)
 
 ### CVE-2019-19550 (2020-01-31)
 
@@ -14502,6 +14520,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
+- [r00td3v/lavarel-phpunit-rce-masscaner](https://github.com/r00td3v/lavarel-phpunit-rce-masscaner)
 
 ### CVE-2017-9934 (2017-07-17)
 
