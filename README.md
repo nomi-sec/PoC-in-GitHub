@@ -286,6 +286,14 @@ Denial of service in ASUSWRT ASUS RT-AX3000 firmware versions 3.0.0.4.384_10177 
 
 - [fullbbadda1208/CVE-2021-3229](https://github.com/fullbbadda1208/CVE-2021-3229)
 
+### CVE-2021-3281 (2021-02-02)
+
+<code>
+In Django 2.2 before 2.2.18, 3.0 before 3.0.12, and 3.1 before 3.1.6, the django.utils.archive.extract method (used by &quot;startapp --template&quot; and &quot;startproject --template&quot;) allows directory traversal via an archive with absolute paths or relative paths with dot segments.
+</code>
+
+- [lwzSoviet/CVE-2021-3281](https://github.com/lwzSoviet/CVE-2021-3281)
+
 ### CVE-2021-3291 (2021-01-26)
 
 <code>
@@ -1873,6 +1881,9 @@ In Plone 5.0 through 5.2.4, Editors are vulnerable to XSS in the folder contents
 ### CVE-2021-35975
 - [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
 
+### CVE-2021-37152
+- [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -2750,6 +2761,7 @@ Multiple vulnerabilities in the web services interface of Cisco Adaptive Securit
 </code>
 
 - [Hudi233/CVE-2020-3580](https://github.com/Hudi233/CVE-2020-3580)
+- [adarshvs/CVE-2020-3580](https://github.com/adarshvs/CVE-2020-3580)
 
 ### CVE-2020-3766 (2020-03-25)
 
@@ -6265,6 +6277,7 @@ A Server Side Request Forgery (SSRF) vulnerability affected the Apache Axis 1.4 
 Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution.
 </code>
 
+- [BH2UOL/CVE-2019-0230](https://github.com/BH2UOL/CVE-2019-0230)
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 - [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
