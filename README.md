@@ -360,14 +360,6 @@ An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation Clie
 
 - [terorie/cve-2021-3449](https://github.com/terorie/cve-2021-3449)
 
-### CVE-2021-3457 (2021-05-12)
-
-<code>
-An improper authorization handling flaw was found in Foreman. The Shellhooks plugin for the smart-proxy allows Foreman clients to execute actions that should be limited to the Foreman Server. This flaw allows an authenticated local attacker to access and delete limited resources and also causes a denial of service on the Foreman server. The highest threat from this vulnerability is to integrity and system availability.
-</code>
-
-- [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
-
 ### CVE-2021-3493 (2021-04-17)
 
 <code>
@@ -1863,6 +1855,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
 - [officedrone/CVE-2021-34527-workaround](https://github.com/officedrone/CVE-2021-34527-workaround)
+- [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
 
 ### CVE-2021-35448 (2021-06-24)
 
