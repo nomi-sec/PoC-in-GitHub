@@ -2518,6 +2518,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [hell-moon/ZeroLogon-Exploit](https://github.com/hell-moon/ZeroLogon-Exploit)
 - [Udyz/Zerologon](https://github.com/Udyz/Zerologon)
 - [itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472)
+- [NickSanzotta/zeroscan](https://github.com/NickSanzotta/zeroscan)
 
 ### CVE-2020-1493 (2020-08-17)
 
