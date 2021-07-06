@@ -360,6 +360,14 @@ An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation Clie
 
 - [terorie/cve-2021-3449](https://github.com/terorie/cve-2021-3449)
 
+### CVE-2021-3457 (2021-05-12)
+
+<code>
+An improper authorization handling flaw was found in Foreman. The Shellhooks plugin for the smart-proxy allows Foreman clients to execute actions that should be limited to the Foreman Server. This flaw allows an authenticated local attacker to access and delete limited resources and also causes a denial of service on the Foreman server. The highest threat from this vulnerability is to integrity and system availability.
+</code>
+
+- [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
+
 ### CVE-2021-3493 (2021-04-17)
 
 <code>
@@ -7001,6 +7009,7 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [yuehanked/cve-2019-3396](https://github.com/yuehanked/cve-2019-3396)
 - [abdallah-elsharif/cve-2019-3396](https://github.com/abdallah-elsharif/cve-2019-3396)
 - [46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence)
+- [PetrusViet/cve-2019-3396](https://github.com/PetrusViet/cve-2019-3396)
 
 ### CVE-2019-3398 (2019-04-18)
 
@@ -8278,6 +8287,7 @@ There was a server-side template injection vulnerability in Jira Server and Data
 
 - [jas502n/CVE-2019-11581](https://github.com/jas502n/CVE-2019-11581)
 - [kobs0N/CVE-2019-11581](https://github.com/kobs0N/CVE-2019-11581)
+- [PetrusViet/CVE-2019-11581](https://github.com/PetrusViet/CVE-2019-11581)
 
 ### CVE-2019-11687 (2019-05-02)
 
