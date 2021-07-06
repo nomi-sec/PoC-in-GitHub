@@ -3180,6 +3180,14 @@ Privilege Escalation vulnerability in McAfee Total Protection (MTP) before 16.0.
 
 - [RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP](https://github.com/RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP)
 
+### CVE-2020-7378 (2020-11-24)
+
+<code>
+CRIXP OpenCRX version 4.30 and 5.0-20200717 and prior suffers from an unverified password change vulnerability. An attacker who is able to connect to the affected OpenCRX instance can change the password of any user, including admin-Standard, to any chosen value. This issue was resolved in version 5.0-20200904, released September 4, 2020.
+</code>
+
+- [ruthvikvegunta/openCRX-CVE-2020-7378](https://github.com/ruthvikvegunta/openCRX-CVE-2020-7378)
+
 ### CVE-2020-7384 (2020-10-29)
 
 <code>
