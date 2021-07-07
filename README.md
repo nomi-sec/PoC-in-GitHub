@@ -37,6 +37,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [thomasgeens/CVE-2021-1675](https://github.com/thomasgeens/CVE-2021-1675)
 - [mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery](https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery)
 - [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
+- [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
 - [kougyokugentou/CVE-2021-1675](https://github.com/kougyokugentou/CVE-2021-1675)
 - [ptter23/CVE-2021-1675](https://github.com/ptter23/CVE-2021-1675)
 - [gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler)
@@ -1428,7 +1429,7 @@ Insufficient input validation in the Marvin Minsky 1967 implementation of the Un
 
 - [intrinsic-propensity/turing-machine](https://github.com/intrinsic-propensity/turing-machine)
 
-### CVE-2021-32537 (-)
+### CVE-2021-32537 (2021-07-07)
 
 <code>
 Realtek HAD contains a driver crashed vulnerability which allows local side attackers to send a special string to the kernel driver in a user’s mode. Due to unexpected commands, the kernel driver will cause the system crashed. A vulnerability in ____COMPONENT____ of Realtek HDA driver allows ____ATTACKER/ATTACK____ to cause ____IMPACT____. This issue affects: Realtek HDA driver 8155 version 9150 and prior versions.
