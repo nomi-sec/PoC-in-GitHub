@@ -45,6 +45,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675)
 - [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
 - [sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE)
+- [JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -360,6 +361,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
+- [inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
 
 ### CVE-2021-3560
 - [swapravo/polkadots](https://github.com/swapravo/polkadots)
@@ -1493,6 +1495,8 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
 - [officedrone/CVE-2021-34527-workaround](https://github.com/officedrone/CVE-2021-34527-workaround)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
+- [vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527](https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527)
+- [powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527)
 
 ### CVE-2021-35448 (2021-06-24)
 
