@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2021
-### CVE-2021-21
-- [zhongjiao01/cve-2021-21](https://github.com/zhongjiao01/cve-2021-21)
-
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -11,14 +8,6 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 </code>
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
-
-### CVE-2021-1075 (2021-04-21)
-
-<code>
-NVIDIA Windows GPU Display Driver for Windows, all versions, contains a vulnerability in the kernel mode layer (nvlddmkm.sys) handler for DxgkDdiEscape where the program dereferences a pointer that contains a location for memory that is no longer valid, which may lead to code execution, denial of service, or escalation of privileges. Attacker does not have any control over the information and may conduct limited data modification.
-</code>
-
-- [AlAIAL90/CVE-2021-1075](https://github.com/AlAIAL90/CVE-2021-1075)
 
 ### CVE-2021-1656 (2021-01-12)
 
@@ -402,38 +391,6 @@ A flaw was found in keycloak. Directories can be created prior to the Java proce
 
 - [Jarry1sec/CVE-2021-20202](https://github.com/Jarry1sec/CVE-2021-20202)
 
-### CVE-2021-20477 (2021-06-29)
-
-<code>
-IBM Planning Analytics 2.0 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 196949.
-</code>
-
-- [AlAIAL90/CVE-2021-20477](https://github.com/AlAIAL90/CVE-2021-20477)
-
-### CVE-2021-20490 (2021-06-29)
-
-<code>
-IBM Spectrum Protect Plus 10.1.0 through 10.1.8 could allow a local user to cause a denial of service due to insecure file permission settings. IBM X-Force ID: 197791.
-</code>
-
-- [AlAIAL90/CVE-2021-20490](https://github.com/AlAIAL90/CVE-2021-20490)
-
-### CVE-2021-20580 (2021-06-29)
-
-<code>
-IBM Planning Analytics 2.0 could be vulnerable to cross-site request forgery (CSRF) which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts. IBM X-Force ID: 198241.
-</code>
-
-- [AlAIAL90/CVE-2021-20580](https://github.com/AlAIAL90/CVE-2021-20580)
-
-### CVE-2021-20583 (2021-06-25)
-
-<code>
-IBM Security Verify (IBM Security Verify Privilege Vault 10.9.66) could disclose sensitive information through an HTTP GET request by a privileged user due to improper input validation.. IBM X-Force ID: 199396.
-</code>
-
-- [AlAIAL90/CVE-2021-20583](https://github.com/AlAIAL90/CVE-2021-20583)
-
 ### CVE-2021-20717 (2021-05-10)
 
 <code>
@@ -583,86 +540,6 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551)
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 
-### CVE-2021-21572 (2021-06-24)
-
-<code>
-Dell BIOSConnect feature contains a buffer overflow vulnerability. An authenticated malicious admin user with local access to the system may potentially exploit this vulnerability to run arbitrary code and bypass UEFI restrictions.
-</code>
-
-- [AlAIAL90/CVE-2021-21572](https://github.com/AlAIAL90/CVE-2021-21572)
-
-### CVE-2021-21573 (2021-06-24)
-
-<code>
-Dell BIOSConnect feature contains a buffer overflow vulnerability. An authenticated malicious admin user with local access to the system may potentially exploit this vulnerability to run arbitrary code and bypass UEFI restrictions.
-</code>
-
-- [AlAIAL90/CVE-2021-21573](https://github.com/AlAIAL90/CVE-2021-21573)
-
-### CVE-2021-21574 (2021-06-24)
-
-<code>
-Dell BIOSConnect feature contains a buffer overflow vulnerability. An authenticated malicious admin user with local access to the system may potentially exploit this vulnerability to run arbitrary code and bypass UEFI restrictions.
-</code>
-
-- [AlAIAL90/CVE-2021-21574](https://github.com/AlAIAL90/CVE-2021-21574)
-
-### CVE-2021-21670 (2021-06-30)
-
-<code>
-Jenkins 2.299 and earlier, LTS 2.289.1 and earlier allows users to cancel queue items and abort builds of jobs for which they have Item/Cancel permission even when they do not have Item/Read permission.
-</code>
-
-- [AlAIAL90/CVE-2021-21670](https://github.com/AlAIAL90/CVE-2021-21670)
-
-### CVE-2021-21671 (2021-06-30)
-
-<code>
-Jenkins 2.299 and earlier, LTS 2.289.1 and earlier does not invalidate the previous session on login.
-</code>
-
-- [AlAIAL90/CVE-2021-21671](https://github.com/AlAIAL90/CVE-2021-21671)
-
-### CVE-2021-21672 (2021-06-30)
-
-<code>
-Jenkins Selenium HTML report Plugin 1.0 and earlier does not configure its XML parser to prevent XML external entity (XXE) attacks.
-</code>
-
-- [AlAIAL90/CVE-2021-21672](https://github.com/AlAIAL90/CVE-2021-21672)
-
-### CVE-2021-21673 (2021-06-30)
-
-<code>
-Jenkins CAS Plugin 1.6.0 and earlier improperly determines that a redirect URL after login is legitimately pointing to Jenkins, allowing attackers to perform phishing attacks.
-</code>
-
-- [AlAIAL90/CVE-2021-21673](https://github.com/AlAIAL90/CVE-2021-21673)
-
-### CVE-2021-21674 (2021-06-30)
-
-<code>
-A missing permission check in Jenkins requests-plugin Plugin 2.2.6 and earlier allows attackers with Overall/Read permission to view the list of pending requests.
-</code>
-
-- [AlAIAL90/CVE-2021-21674](https://github.com/AlAIAL90/CVE-2021-21674)
-
-### CVE-2021-21675 (2021-06-30)
-
-<code>
-A cross-site request forgery (CSRF) vulnerability in Jenkins requests-plugin Plugin 2.2.12 and earlier allows attackers to create requests and/or have administrators apply pending requests.
-</code>
-
-- [AlAIAL90/CVE-2021-21675](https://github.com/AlAIAL90/CVE-2021-21675)
-
-### CVE-2021-21676 (2021-06-30)
-
-<code>
-Jenkins requests-plugin Plugin 2.2.7 and earlier does not perform a permission check in an HTTP endpoint, allowing attackers with Overall/Read permission to send test emails to an attacker-specified email address.
-</code>
-
-- [AlAIAL90/CVE-2021-21676](https://github.com/AlAIAL90/CVE-2021-21676)
-
 ### CVE-2021-21972 (2021-02-24)
 
 <code>
@@ -784,86 +661,6 @@ When requests to the internal network for webhooks are enabled, a server-side re
 - [r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 
-### CVE-2021-22346 (2021-06-30)
-
-<code>
-There is an Improper Permission Management Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may lead to the disclosure of user habits.
-</code>
-
-- [AlAIAL90/CVE-2021-22346](https://github.com/AlAIAL90/CVE-2021-22346)
-
-### CVE-2021-22348 (2021-06-30)
-
-<code>
-There is a Memory Buffer Improper Operation Limit Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may cause code to execute.
-</code>
-
-- [AlAIAL90/CVE-2021-22348](https://github.com/AlAIAL90/CVE-2021-22348)
-
-### CVE-2021-22349 (2021-06-30)
-
-<code>
-There is an Input Verification Vulnerability in Huawei Smartphone. Successful exploitation of insufficient input verification may cause the system to restart.
-</code>
-
-- [AlAIAL90/CVE-2021-22349](https://github.com/AlAIAL90/CVE-2021-22349)
-
-### CVE-2021-22350 (2021-06-30)
-
-<code>
-There is a Memory Buffer Improper Operation Limit Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may cause the device to crash and restart.
-</code>
-
-- [AlAIAL90/CVE-2021-22350](https://github.com/AlAIAL90/CVE-2021-22350)
-
-### CVE-2021-22351 (2021-06-30)
-
-<code>
-There is a Credentials Management Errors Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may induce users to grant permissions on modifying items in the configuration table,causing system exceptions.
-</code>
-
-- [AlAIAL90/CVE-2021-22351](https://github.com/AlAIAL90/CVE-2021-22351)
-
-### CVE-2021-22352 (2021-06-30)
-
-<code>
-There is a Configuration Defect Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may allow attackers to hijack the device and forge UIs to induce users to execute malicious commands.
-</code>
-
-- [AlAIAL90/CVE-2021-22352](https://github.com/AlAIAL90/CVE-2021-22352)
-
-### CVE-2021-22353 (2021-06-30)
-
-<code>
-There is a Memory Buffer Improper Operation Limit Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may cause the kernel to restart.
-</code>
-
-- [AlAIAL90/CVE-2021-22353](https://github.com/AlAIAL90/CVE-2021-22353)
-
-### CVE-2021-22354 (2021-06-30)
-
-<code>
-There is an Information Disclosure Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may cause out-of-bounds read.
-</code>
-
-- [AlAIAL90/CVE-2021-22354](https://github.com/AlAIAL90/CVE-2021-22354)
-
-### CVE-2021-22367 (2021-06-30)
-
-<code>
-There is a Key Management Errors Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may lead to authentication bypass.
-</code>
-
-- [AlAIAL90/CVE-2021-22367](https://github.com/AlAIAL90/CVE-2021-22367)
-
-### CVE-2021-22368 (2021-06-30)
-
-<code>
-There is a Permission Control Vulnerability in Huawei Smartphone. Successful exploitation of this vulnerability may affect normal use of the device.
-</code>
-
-- [AlAIAL90/CVE-2021-22368](https://github.com/AlAIAL90/CVE-2021-22368)
-
 ### CVE-2021-22893 (2021-04-23)
 
 <code>
@@ -914,14 +711,6 @@ The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when s
 </code>
 
 - [dn9uy3n/Check-CVE-2021-23383](https://github.com/dn9uy3n/Check-CVE-2021-23383)
-
-### CVE-2021-23398 (2021-06-24)
-
-<code>
-All versions of package react-bootstrap-table are vulnerable to Cross-site Scripting (XSS) via the dataFormat parameter. The problem is triggered when an invalid React element is returned, leading to dangerouslySetInnerHTML being used, which does not sanitize the output.
-</code>
-
-- [AlAIAL90/CVE-2021-23398](https://github.com/AlAIAL90/CVE-2021-23398)
 
 ### CVE-2021-24027 (2021-04-06)
 
@@ -1464,94 +1253,6 @@ In FreeBSD 13.0-STABLE before n245050, 12.2-STABLE before r369525, 13.0-RC4 befo
 
 - [raymontag/cve-2021-29627](https://github.com/raymontag/cve-2021-29627)
 
-### CVE-2021-29676 (2021-06-25)
-
-<code>
-IBM Security Verify (IBM Security Verify Privilege Vault 10.9.66) is vulnerable to link injection. By persuading a victim to click on a specially-crafted URL link, a remote attacker could exploit this vulnerability to conduct various attacks against the vulnerable system, including cross-site scripting, cache poisoning or session hijacking
-</code>
-
-- [AlAIAL90/CVE-2021-29676](https://github.com/AlAIAL90/CVE-2021-29676)
-
-### CVE-2021-29677 (2021-06-25)
-
-<code>
-IBM Security Verify (IBM Security Verify Privilege Vault 10.9.66) is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.
-</code>
-
-- [AlAIAL90/CVE-2021-29677](https://github.com/AlAIAL90/CVE-2021-29677)
-
-### CVE-2021-29945 (2021-06-24)
-
-<code>
-The WebAssembly JIT could miscalculate the size of a return type, which could lead to a null read and result in a crash. *Note: This issue only affected x86-32 platforms. Other platforms are unaffected.*. This vulnerability affects Firefox ESR &lt; 78.10, Thunderbird &lt; 78.10, and Firefox &lt; 88.
-</code>
-
-- [AlAIAL90/CVE-2021-29945](https://github.com/AlAIAL90/CVE-2021-29945)
-
-### CVE-2021-29948 (2021-06-24)
-
-<code>
-Signatures are written to disk before and read during verification, which might be subject to a race condition when a malicious local process or user is replacing the file. This vulnerability affects Thunderbird &lt; 78.10.
-</code>
-
-- [AlAIAL90/CVE-2021-29948](https://github.com/AlAIAL90/CVE-2021-29948)
-
-### CVE-2021-29949 (2021-06-24)
-
-<code>
-When loading the shared library that provides the OTR protocol implementation, Thunderbird will initially attempt to open it using a filename that isn't distributed by Thunderbird. If a computer has already been infected with a malicious library of the alternative filename, and the malicious library has been copied to a directory that is contained in the search path for executable libraries, then Thunderbird will load the incorrect library. This vulnerability affects Thunderbird &lt; 78.9.1.
-</code>
-
-- [AlAIAL90/CVE-2021-29949](https://github.com/AlAIAL90/CVE-2021-29949)
-
-### CVE-2021-29951 (2021-06-24)
-
-<code>
-The Mozilla Maintenance Service granted SERVICE_START access to BUILTIN|Users which, in a domain network, grants normal remote users access to start or stop the service. This could be used to prevent the browser update service from operating (if an attacker spammed the 'Stop' command); but also exposed attack surface in the maintenance service. *Note: This issue only affected Windows operating systems older than Win 10 build 1709. Other operating systems are unaffected.*. This vulnerability affects Thunderbird &lt; 78.10.1, Firefox &lt; 87, and Firefox ESR &lt; 78.10.1.
-</code>
-
-- [AlAIAL90/CVE-2021-29951](https://github.com/AlAIAL90/CVE-2021-29951)
-
-### CVE-2021-29954 (2021-06-24)
-
-<code>
-Proxy functionality built into Hubs Cloud’s Reticulum software allowed access to internal URLs, including the metadata service. This vulnerability affects Hubs Cloud &lt; mozillareality/reticulum/1.0.1/20210428201255.
-</code>
-
-- [AlAIAL90/CVE-2021-29954](https://github.com/AlAIAL90/CVE-2021-29954)
-
-### CVE-2021-29956 (2021-06-24)
-
-<code>
-OpenPGP secret keys that were imported using Thunderbird version 78.8.1 up to version 78.10.1 were stored unencrypted on the user's local disk. The master password protection was inactive for those keys. Version 78.10.2 will restore the protection mechanism for newly imported keys, and will automatically protect keys that had been imported using affected Thunderbird versions. This vulnerability affects Thunderbird &lt; 78.10.2.
-</code>
-
-- [AlAIAL90/CVE-2021-29956](https://github.com/AlAIAL90/CVE-2021-29956)
-
-### CVE-2021-29961 (2021-06-24)
-
-<code>
-When styling and rendering an oversized `&lt;select&gt;` element, Firefox did not apply correct clipping which allowed an attacker to paint over the user interface. This vulnerability affects Firefox &lt; 89.
-</code>
-
-- [AlAIAL90/CVE-2021-29961](https://github.com/AlAIAL90/CVE-2021-29961)
-
-### CVE-2021-29964 (2021-06-24)
-
-<code>
-A locally-installed hostile program could send `WM_COPYDATA` messages that Firefox would process incorrectly, leading to an out-of-bounds read. *This bug only affects Firefox on Windows. Other operating systems are unaffected.*. This vulnerability affects Thunderbird &lt; 78.11, Firefox &lt; 89, and Firefox ESR &lt; 78.11.
-</code>
-
-- [AlAIAL90/CVE-2021-29964](https://github.com/AlAIAL90/CVE-2021-29964)
-
-### CVE-2021-29965 (2021-06-24)
-
-<code>
-A malicious website that causes an HTTP Authentication dialog to be spawned could trick the built-in password manager to suggest passwords for the currently active website instead of the website that triggered the dialog. *This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox &lt; 89.
-</code>
-
-- [AlAIAL90/CVE-2021-29965](https://github.com/AlAIAL90/CVE-2021-29965)
-
 ### CVE-2021-30005 (2021-05-11)
 
 <code>
@@ -1650,14 +1351,6 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
 
-### CVE-2021-31506 (2021-06-29)
-
-<code>
-This vulnerability allows remote attackers to disclose sensitive information on affected installations of OpenText Brava! Desktop Build 16.6.4.55. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Was ZDI-CAN-13674.
-</code>
-
-- [AlAIAL90/CVE-2021-31506](https://github.com/AlAIAL90/CVE-2021-31506)
-
 ### CVE-2021-31702 (2021-05-29)
 
 <code>
@@ -1736,14 +1429,6 @@ Insufficient input validation in the Marvin Minsky 1967 implementation of the Un
 ### CVE-2021-32537
 - [0vercl0k/CVE-2021-32537](https://github.com/0vercl0k/CVE-2021-32537)
 
-### CVE-2021-32736 (2021-06-30)
-
-<code>
-think-helper defines a set of helper functions for ThinkJS. In versions of think-helper prior to 1.1.3, the software receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype. The vulnerability is patched in version 1.1.3.
-</code>
-
-- [AlAIAL90/CVE-2021-32736](https://github.com/AlAIAL90/CVE-2021-32736)
-
 ### CVE-2021-32819 (2021-05-14)
 
 <code>
@@ -1751,46 +1436,6 @@ Squirrelly is a template engine implemented in JavaScript that works out of the 
 </code>
 
 - [Abady0x1/CVE-2021-32819](https://github.com/Abady0x1/CVE-2021-32819)
-
-### CVE-2021-33348 (2021-06-24)
-
-<code>
-An issue was discovered in JFinal framework v4.9.10 and below. The &quot;set&quot; method of the &quot;Controller&quot; class of jfinal framework is not strictly filtered, which will lead to XSS vulnerabilities in some cases.
-</code>
-
-- [AlAIAL90/CVE-2021-33348](https://github.com/AlAIAL90/CVE-2021-33348)
-
-### CVE-2021-33528 (2021-06-25)
-
-<code>
-In Weidmueller Industrial WLAN devices in multiple versions an exploitable privilege escalation vulnerability exists in the iw_console functionality. A specially crafted menu selection string can cause an escape from the restricted console, resulting in system access as the root user. An attacker can send commands while authenticated as a low privilege user to trigger this vulnerability.
-</code>
-
-- [AlAIAL90/CVE-2021-33528](https://github.com/AlAIAL90/CVE-2021-33528)
-
-### CVE-2021-33529 (2021-06-25)
-
-<code>
-In Weidmueller Industrial WLAN devices in multiple versions the usage of hard-coded cryptographic keys within the service agent binary allows for the decryption of captured traffic across the network from or to the device.
-</code>
-
-- [AlAIAL90/CVE-2021-33529](https://github.com/AlAIAL90/CVE-2021-33529)
-
-### CVE-2021-33530 (2021-06-25)
-
-<code>
-In Weidmueller Industrial WLAN devices in multiple versions an exploitable command injection vulnerability exists in encrypted diagnostic script functionality of the devices. A specially crafted diagnostic script file can cause arbitrary busybox commands to be executed, resulting in remote control over the device. An attacker can send diagnostic while authenticated as a low privilege user to trigger this vulnerability.
-</code>
-
-- [AlAIAL90/CVE-2021-33530](https://github.com/AlAIAL90/CVE-2021-33530)
-
-### CVE-2021-33531 (2021-06-25)
-
-<code>
-In Weidmueller Industrial WLAN devices in multiple versions an exploitable use of hard-coded credentials vulnerability exists in multiple iw_* utilities. The device operating system contains an undocumented encryption password, allowing for the creation of custom diagnostic scripts. An attacker can send diagnostic scripts while authenticated as a low privilege user to trigger this vulnerability.
-</code>
-
-- [AlAIAL90/CVE-2021-33531](https://github.com/AlAIAL90/CVE-2021-33531)
 
 ### CVE-2021-33558 (2021-05-27)
 
@@ -1832,14 +1477,6 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 
 - [mmiszczyk/cve-2021-33879](https://github.com/mmiszczyk/cve-2021-33879)
 
-### CVE-2021-34075 (2021-06-30)
-
-<code>
-In Artica Pandora FMS &lt;=754 in the File Manager component, there is sensitive information exposed on the client side which attackers can access.
-</code>
-
-- [AlAIAL90/CVE-2021-34075](https://github.com/AlAIAL90/CVE-2021-34075)
-
 ### CVE-2021-34527 (2021-07-02)
 
 <code>
@@ -1875,14 +1512,6 @@ Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe 
 </code>
 
 - [tcbutler320/CVE-2021-35956](https://github.com/tcbutler320/CVE-2021-35956)
-
-### CVE-2021-35959 (2021-06-29)
-
-<code>
-In Plone 5.0 through 5.2.4, Editors are vulnerable to XSS in the folder contents view, if a Contributor has created a folder with a SCRIPT tag in the description field.
-</code>
-
-- [AlAIAL90/CVE-2021-35959](https://github.com/AlAIAL90/CVE-2021-35959)
 
 ### CVE-2021-35975
 - [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
@@ -5244,22 +4873,6 @@ A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.
 
 - [MzzdToT/CVE-2020-21224](https://github.com/MzzdToT/CVE-2020-21224)
 
-### CVE-2020-21784 (2021-06-24)
-
-<code>
-phpwcms 1.9.13 is vulnerable to Code Injection via /phpwcms/setup/setup.php.
-</code>
-
-- [AlAIAL90/CVE-2020-21784](https://github.com/AlAIAL90/CVE-2020-21784)
-
-### CVE-2020-21787 (2021-06-24)
-
-<code>
-CRMEB 3.1.0+ is vulnerable to File Upload Getshell via /crmeb/crmeb/services/UploadService.php.
-</code>
-
-- [AlAIAL90/CVE-2020-21787](https://github.com/AlAIAL90/CVE-2020-21787)
-
 ### CVE-2020-23160 (2021-01-22)
 
 <code>
@@ -5379,22 +4992,6 @@ Playground Sessions v2.5.582 (and earlier) for Windows, stores the user credenti
 </code>
 
 - [nathunandwani/CVE-2020-24227](https://github.com/nathunandwani/CVE-2020-24227)
-
-### CVE-2020-24511 (2021-06-09)
-
-<code>
-Improper isolation of shared resources in some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via local access.
-</code>
-
-- [AlAIAL90/CVE-2020-24511](https://github.com/AlAIAL90/CVE-2020-24511)
-
-### CVE-2020-24512 (2021-06-09)
-
-<code>
-Observable timing discrepancy in some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via local access.
-</code>
-
-- [AlAIAL90/CVE-2020-24512](https://github.com/AlAIAL90/CVE-2020-24512)
 
 ### CVE-2020-24572 (2020-08-24)
 
@@ -7410,6 +7007,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 - [N3H4L/CVE-2019-6447](https://github.com/N3H4L/CVE-2019-6447)
 - [sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777](https://github.com/sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777)
+- [mcmahonr/cve-2019-6447](https://github.com/mcmahonr/cve-2019-6447)
 
 ### CVE-2019-6453 (2019-02-18)
 
