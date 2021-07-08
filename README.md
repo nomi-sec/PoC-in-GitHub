@@ -12066,6 +12066,7 @@ The Plainview Activity Monitor plugin before 20180826 for WordPress is vulnerabl
 </code>
 
 - [cved-sources/cve-2018-15877](https://github.com/cved-sources/cve-2018-15877)
+- [huydoppa/CVE-2018-15877](https://github.com/huydoppa/CVE-2018-15877)
 
 ### CVE-2018-15912 (2018-08-29)
 
@@ -15527,7 +15528,7 @@ The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remot
 - [gsheller/ActiveMQ_putshell-CVE-2016-3088](https://github.com/gsheller/ActiveMQ_putshell-CVE-2016-3088)
 - [cyberaguiar/CVE-2016-3088](https://github.com/cyberaguiar/CVE-2016-3088)
 - [vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088)
-- [MrRobotTnT/CVE-2016-3088](https://github.com/MrRobotTnT/CVE-2016-3088)
+- [cl4ym0re/CVE-2016-3088](https://github.com/cl4ym0re/CVE-2016-3088)
 
 ### CVE-2016-3113 (2017-08-07)
 
