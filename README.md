@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2021
+### CVE-2021-525
+- [full-disclosure/FDEU-CVE-2021-525A](https://github.com/full-disclosure/FDEU-CVE-2021-525A)
+
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -619,6 +622,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [xnianq/cve-2021-21985_exp](https://github.com/xnianq/cve-2021-21985_exp)
 - [daedalus/CVE-2021-21985](https://github.com/daedalus/CVE-2021-21985)
 - [testanull/Project_CVE-2021-21985_PoC](https://github.com/testanull/Project_CVE-2021-21985_PoC)
+- [haiclover/CVE-2021-21985](https://github.com/haiclover/CVE-2021-21985)
 
 ### CVE-2021-22192 (2021-03-24)
 
