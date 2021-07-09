@@ -1510,6 +1510,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527)
 - [WidespreadPandemic/CVE-2021-34527_ACL_mitigation](https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation)
 - [glorisonlai/printnightmare](https://github.com/glorisonlai/printnightmare)
+- [dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC)
 
 ### CVE-2021-35448 (2021-06-24)
 
