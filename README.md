@@ -6875,6 +6875,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
+- [3hydraking/CVE-2019-5736](https://github.com/3hydraking/CVE-2019-5736)
 
 ### CVE-2019-5737 (2019-03-28)
 
