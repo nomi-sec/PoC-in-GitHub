@@ -406,9 +406,6 @@ Cross-site scripting vulnerability in EC-CUBE 4.0.0 to 4.0.5 allows a remote att
 
 - [s-index/CVE-2021-20717](https://github.com/s-index/CVE-2021-20717)
 
-### CVE-2021-20914
-- [Shadow0ps/CVE-2021-20914](https://github.com/Shadow0ps/CVE-2021-20914)
-
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
@@ -584,6 +581,14 @@ The vSphere Client (HTML5) contains an SSRF (Server Side Request Forgery) vulner
 </code>
 
 - [freakanonymous/CVE-2021-21973-Automateme](https://github.com/freakanonymous/CVE-2021-21973-Automateme)
+
+### CVE-2021-21974 (2021-02-24)
+
+<code>
+OpenSLP as used in ESXi (7.0 before ESXi70U1c-17325551, 6.7 before ESXi670-202102401-SG, 6.5 before ESXi650-202102101-SG) has a heap-overflow vulnerability. A malicious actor residing within the same network segment as ESXi who has access to port 427 may be able to trigger the heap-overflow issue in OpenSLP service resulting in remote code execution.
+</code>
+
+- [Shadow0ps/CVE-2021-21974](https://github.com/Shadow0ps/CVE-2021-21974)
 
 ### CVE-2021-21975 (2021-03-31)
 
@@ -7039,6 +7044,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [N3H4L/CVE-2019-6447](https://github.com/N3H4L/CVE-2019-6447)
 - [sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777](https://github.com/sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777)
 - [mcmahonr/cve-2019-6447](https://github.com/mcmahonr/cve-2019-6447)
+- [3hydraking/CVE-2019-6447](https://github.com/3hydraking/CVE-2019-6447)
 
 ### CVE-2019-6453 (2019-02-18)
 
