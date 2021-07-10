@@ -1520,6 +1520,14 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
 - [0xIrison/PrintNightmare_Resolver](https://github.com/0xIrison/PrintNightmare_Resolver)
 
+### CVE-2021-35042 (2021-07-02)
+
+<code>
+Django 3.1.x before 3.1.13 and 3.2.x before 3.2.5 allows QuerySet.order_by SQL injection if order_by is untrusted input from a client of a web application.
+</code>
+
+- [YouGina/CVE-2021-35042](https://github.com/YouGina/CVE-2021-35042)
+
 ### CVE-2021-35448 (2021-06-24)
 
 <code>
