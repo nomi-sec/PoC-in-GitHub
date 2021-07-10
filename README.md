@@ -954,7 +954,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 Windows Graphics Component Elevation of Privilege Vulnerability
 </code>
 
-- [mavillon/CVE-2021-26868](https://github.com/mavillon/CVE-2021-26868)
+- [KangD1W2/CVE-2021-26868](https://github.com/KangD1W2/CVE-2021-26868)
 
 ### CVE-2021-26871 (2021-03-11)
 
@@ -1518,6 +1518,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC)
 - [Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare)
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
+- [0xIrison/PrintNightmare_Resolver](https://github.com/0xIrison/PrintNightmare_Resolver)
 
 ### CVE-2021-35448 (2021-06-24)
 
@@ -4348,6 +4349,14 @@ A SQL injection issue in color.php in Cacti 1.2.12 allows an admin to inject SQL
 ### CVE-2020-14321
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
 - [lanzt/CVE-2020-14321](https://github.com/lanzt/CVE-2020-14321)
+
+### CVE-2020-14343 (2021-02-09)
+
+<code>
+A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747.
+</code>
+
+- [raul23/pyyaml-CVE-2020-14343](https://github.com/raul23/pyyaml-CVE-2020-14343)
 
 ### CVE-2020-14364 (2020-08-31)
 
@@ -11154,7 +11163,6 @@ An elevation of privilege vulnerability exists in Microsoft Exchange Server, aka
 An elevation of privilege vulnerability exists when the Windows kernel fails to properly handle objects in memory, aka &quot;Windows Kernel Elevation of Privilege Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2019, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
 </code>
 
-- [mavillon/cve-2018-8611](https://github.com/mavillon/cve-2018-8611)
 - [lsw29475/CVE-2018-8611](https://github.com/lsw29475/CVE-2018-8611)
 
 ### CVE-2018-8639 (2018-12-11)
