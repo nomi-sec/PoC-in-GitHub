@@ -253,7 +253,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [LiveOverflow/pwnedit](https://github.com/LiveOverflow/pwnedit)
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
-- [mrofisr/docker-cve-2021-3156](https://github.com/mrofisr/docker-cve-2021-3156)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 
@@ -2242,6 +2241,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE](https://github.com/YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE)
 - [Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat](https://github.com/Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat)
 - [streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938)
+- [yukiNeko114514/CVE-2020-1938](https://github.com/yukiNeko114514/CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -15927,7 +15927,6 @@ sshd in OpenSSH before 7.3, when SHA256 or SHA512 are used for user password has
 </code>
 
 - [justlce/CVE-2016-6210-Exploit](https://github.com/justlce/CVE-2016-6210-Exploit)
-- [ubrito/poc_CVE-2016-6210](https://github.com/ubrito/poc_CVE-2016-6210)
 
 ### CVE-2016-6271 (2017-01-18)
 
@@ -17322,7 +17321,6 @@ The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14
 </code>
 
 - [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
-- [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
 
 ### CVE-2014-0224 (2014-06-05)
 
@@ -17331,10 +17329,7 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
-- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
-- [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
-- [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
 
 ### CVE-2014-0226 (2014-07-20)
 
@@ -17362,14 +17357,6 @@ The django.core.urlresolvers.reverse function in Django before 1.4.11, 1.5.x bef
 </code>
 
 - [christasa/CVE-2014-0472](https://github.com/christasa/CVE-2014-0472)
-
-### CVE-2014-0521 (2014-05-14)
-
-<code>
-Adobe Reader and Acrobat 10.x before 10.1.10 and 11.x before 11.0.07 on Windows and OS X do not properly implement JavaScript APIs, which allows remote attackers to obtain sensitive information via a crafted PDF document.
-</code>
-
-- [molnarg/cve-2014-0521](https://github.com/molnarg/cve-2014-0521)
 
 ### CVE-2014-0816 (2014-02-26)
 
@@ -17424,14 +17411,6 @@ Race condition in the virNetServerClientStartKeepAlive function in libvirt befor
 </code>
 
 - [tagatac/libvirt-CVE-2014-1447](https://github.com/tagatac/libvirt-CVE-2014-1447)
-
-### CVE-2014-1677 (2017-04-03)
-
-<code>
-Technicolor TC7200 with firmware STD6.01.12 could allow remote attackers to obtain sensitive information.
-</code>
-
-- [tihmstar/freePW_tc7200Eploit](https://github.com/tihmstar/freePW_tc7200Eploit)
 
 ### CVE-2014-1773 (2014-06-10)
 
@@ -17497,7 +17476,6 @@ The default configuration in Elasticsearch before 1.2 enables dynamic scripting,
 </code>
 
 - [jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject)
-- [echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120)
 
 ### CVE-2014-3153 (2014-06-07)
 
@@ -17729,8 +17707,6 @@ host-deny.sh in OSSEC before 2.8.1 writes to temporary files with predictable fi
 GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute arbitrary code via a crafted environment, as demonstrated by vectors involving the ForceCommand feature in OpenSSH sshd, the mod_cgi and mod_cgid modules in the Apache HTTP Server, scripts executed by unspecified DHCP clients, and other situations in which setting the environment occurs across a privilege boundary from Bash execution, aka &quot;ShellShock.&quot;  NOTE: the original fix for this issue was incorrect; CVE-2014-7169 has been assigned to cover the vulnerability that is still present after the incorrect fix.
 </code>
 
-- [dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes)
-- [npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse)
 - [ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3)
 - [jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271)
 - [rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec)
