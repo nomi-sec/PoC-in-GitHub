@@ -1497,6 +1497,9 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 
 - [mmiszczyk/cve-2021-33879](https://github.com/mmiszczyk/cve-2021-33879)
 
+### CVE-2021-34045
+- [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
+
 ### CVE-2021-34527 (2021-07-02)
 
 <code>
@@ -5032,6 +5035,14 @@ An issue was discovered in fs.com S3900 24T4S 1.7.0 and earlier. The form does n
 </code>
 
 - [M0NsTeRRR/CVE-2020-24033](https://github.com/M0NsTeRRR/CVE-2020-24033)
+
+### CVE-2020-24148 (2021-07-07)
+
+<code>
+Server-side request forgery (SSRF) in the Import XML and RSS Feeds (import-xml-feed) plugin 2.0.1 for WordPress via the data parameter in a moove_read_xml action.
+</code>
+
+- [dwisiswant0/CVE-2020-24148](https://github.com/dwisiswant0/CVE-2020-24148)
 
 ### CVE-2020-24186 (2020-08-24)
 
@@ -16564,6 +16575,8 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
 - [limkokhole/CVE-2015-1635](https://github.com/limkokhole/CVE-2015-1635)
+- [3hydraking/CVE-2015-1635-POC](https://github.com/3hydraking/CVE-2015-1635-POC)
+- [3hydraking/CVE-2015-1635](https://github.com/3hydraking/CVE-2015-1635)
 
 ### CVE-2015-1641 (2015-04-14)
 
@@ -18436,6 +18449,14 @@ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 
+### CVE-2012-1876 (2012-06-12)
+
+<code>
+Microsoft Internet Explorer 6 through 9, and 10 Consumer Preview, does not properly handle objects in memory, which allows remote attackers to execute arbitrary code by attempting to access a nonexistent object, leading to a heap-based buffer overflow, aka &quot;Col Element Remote Code Execution Vulnerability,&quot; as demonstrated by VUPEN during a Pwn2Own competition at CanSecWest 2012.
+</code>
+
+- [WizardVan/CVE-2012-1876](https://github.com/WizardVan/CVE-2012-1876)
+
 ### CVE-2012-1889 (2012-06-12)
 
 <code>
@@ -18489,6 +18510,14 @@ Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fu
 </code>
 
 - [Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion)
+
+### CVE-2012-3716 (2012-09-20)
+
+<code>
+CoreText in Apple Mac OS X 10.7.x before 10.7.5 allows remote attackers to execute arbitrary code or cause a denial of service (out-of-bounds write or read) via a crafted text glyph.
+</code>
+
+- [d4rkcat/killosx](https://github.com/d4rkcat/killosx)
 
 ### CVE-2012-4220 (2012-11-30)
 
