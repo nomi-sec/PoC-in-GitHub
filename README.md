@@ -981,7 +981,7 @@ Windows WalletService Elevation of Privilege Vulnerability This CVE ID is unique
 Remote Access API Elevation of Privilege Vulnerability
 </code>
 
-- [songjianyang/CVE-2021-26882](https://github.com/songjianyang/CVE-2021-26882)
+- [api0cradle/CVE-2021-26882](https://github.com/api0cradle/CVE-2021-26882)
 
 ### CVE-2021-26903 (2021-02-26)
 
@@ -1971,14 +1971,6 @@ A denial of service vulnerability exists when Microsoft Hyper-V on a host server
 </code>
 
 - [gerhart01/hyperv_local_dos_poc](https://github.com/gerhart01/hyperv_local_dos_poc)
-
-### CVE-2020-0910 (2020-04-15)
-
-<code>
-A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
-</code>
-
-- [inetshell/CVE-2020-0910](https://github.com/inetshell/CVE-2020-0910)
 
 ### CVE-2020-0976 (2020-04-15)
 
