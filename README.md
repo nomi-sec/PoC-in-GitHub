@@ -896,7 +896,7 @@ Wazuh API in Wazuh from 4.0.0 to 4.0.3 allows authenticated users to execute arb
 OpenPLC ScadaBR through 0.9.1 on Linux and through 1.12.4 on Windows allows remote authenticated users to upload and execute arbitrary JSP files via view_edit.shtm.
 </code>
 
-- [hevox/CVE-2021-26828_ScadaBR_RCE](https://github.com/hevox/CVE-2021-26828_ScadaBR_RCE)
+- [h3v0x/CVE-2021-26828_ScadaBR_RCE](https://github.com/h3v0x/CVE-2021-26828_ScadaBR_RCE)
 
 ### CVE-2021-26832 (2021-04-14)
 
@@ -1533,6 +1533,9 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare)
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
 - [0xIrison/PrintNightmare-Patcher](https://github.com/0xIrison/PrintNightmare-Patcher)
+
+### CVE-2021-34558
+- [alexzorin/cve-2021-34558](https://github.com/alexzorin/cve-2021-34558)
 
 ### CVE-2021-35042 (2021-07-02)
 
@@ -4938,9 +4941,6 @@ A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.
 
 - [MzzdToT/CVE-2020-21224](https://github.com/MzzdToT/CVE-2020-21224)
 
-### CVE-2020-22222
-- [arch3rPro/CVE-2020-22222](https://github.com/arch3rPro/CVE-2020-22222)
-
 ### CVE-2020-23160 (2021-01-22)
 
 <code>
@@ -5059,7 +5059,7 @@ Server-side request forgery (SSRF) in the Import XML and RSS Feeds (import-xml-f
 A Remote Code Execution vulnerability exists in the gVectors wpDiscuz plugin 7.0 through 7.0.4 for WordPress, which allows unauthenticated users to upload any type of file, including PHP files via the wmuUploadFiles AJAX action.
 </code>
 
-- [hevox/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE](https://github.com/hevox/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE)
+- [h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE](https://github.com/h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE)
 
 ### CVE-2020-24227 (2020-11-23)
 
@@ -5137,6 +5137,14 @@ An issue was discovered on D-Link DCS-2530L before 1.06.01 Hotfix and DCS-2670L 
 
 - [MzzdToT/CVE-2020-25078](https://github.com/MzzdToT/CVE-2020-25078)
 - [S0por/CVE-2020-25078](https://github.com/S0por/CVE-2020-25078)
+
+### CVE-2020-25134 (2020-09-25)
+
+<code>
+An issue was discovered in Observium Professional, Enterprise &amp; Community 20.8.10631. It is vulnerable to directory traversal and local file inclusion due to the fact that there is an unrestricted possibility of loading any file with an inc.php extension. Inclusion of other files (even though limited to the mentioned extension) can lead to Remote Code Execution. This can occur via /settings/?format=../ URIs to pages/settings.inc.php.
+</code>
+
+- [ynsmroztas/CVE-2020-25134](https://github.com/ynsmroztas/CVE-2020-25134)
 
 ### CVE-2020-25200 (2020-10-01)
 
@@ -8252,7 +8260,7 @@ Zeroshell 3.9.0 is prone to a remote command execution vulnerability. Specifical
 </code>
 
 - [givemefivw/CVE-2019-12725](https://github.com/givemefivw/CVE-2019-12725)
-- [hevox/CVE-2019-12725-Command-Injection](https://github.com/hevox/CVE-2019-12725-Command-Injection)
+- [h3v0x/CVE-2019-12725-Command-Injection](https://github.com/h3v0x/CVE-2019-12725-Command-Injection)
 - [MzzdToT/CVE-2019-12725](https://github.com/MzzdToT/CVE-2019-12725)
 
 ### CVE-2019-12735 (2019-06-05)
@@ -12571,7 +12579,7 @@ The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRA
 /panel/uploads in Subrion CMS 4.2.1 allows remote attackers to execute arbitrary PHP code via a .pht or .phar file, because the .htaccess file omits these.
 </code>
 
-- [hevox/CVE-2018-19422-SubrionCMS-RCE](https://github.com/hevox/CVE-2018-19422-SubrionCMS-RCE)
+- [h3v0x/CVE-2018-19422-SubrionCMS-RCE](https://github.com/h3v0x/CVE-2018-19422-SubrionCMS-RCE)
 
 ### CVE-2018-19466 (2019-03-27)
 
