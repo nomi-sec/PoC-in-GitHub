@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2021
-### CVE-2021-525
-- [full-disclosure/FDEU-CVE-2021-525A](https://github.com/full-disclosure/FDEU-CVE-2021-525A)
-
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -395,6 +392,9 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 
 ### CVE-2021-9999
 - [Reach-Z/CVE-2021-9999](https://github.com/Reach-Z/CVE-2021-9999)
+
+### CVE-2021-10086
+- [Mochican/CVE-2021-10086](https://github.com/Mochican/CVE-2021-10086)
 
 ### CVE-2021-14562
 - [Jarry1sec/CVE-2021-14562](https://github.com/Jarry1sec/CVE-2021-14562)
@@ -1931,6 +1931,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [MasterSploit/LPE---CVE-2020-0796](https://github.com/MasterSploit/LPE---CVE-2020-0796)
 - [ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796)
 - [Kinesys/Kinesys-CVE-2020-0796](https://github.com/Kinesys/Kinesys-CVE-2020-0796)
+- [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 
 ### CVE-2020-0797 (2020-03-12)
 
