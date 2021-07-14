@@ -1343,6 +1343,7 @@ A remote code execution issue was discovered in the web UI of VoIPmonitor before
 - [daedalus/CVE-2021-30461](https://github.com/daedalus/CVE-2021-30461)
 - [Vulnmachines/CVE-2021-30461](https://github.com/Vulnmachines/CVE-2021-30461)
 - [Al1ex/CVE-2021-30461](https://github.com/Al1ex/CVE-2021-30461)
+- [puckiestyle/CVE-2021-30461](https://github.com/puckiestyle/CVE-2021-30461)
 
 ### CVE-2021-30481 (2021-04-10)
 
