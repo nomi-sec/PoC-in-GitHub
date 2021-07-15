@@ -692,6 +692,14 @@ When requests to the internal network for webhooks are enabled, a server-side re
 - [r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 
+### CVE-2021-22555 (2021-07-07)
+
+<code>
+A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space
+</code>
+
+- [JoneyJunior/cve-2021-22555](https://github.com/JoneyJunior/cve-2021-22555)
+
 ### CVE-2021-22893 (2021-04-23)
 
 <code>
@@ -1583,7 +1591,12 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
 - [0xIrison/PrintNightmare-Patcher](https://github.com/0xIrison/PrintNightmare-Patcher)
 
-### CVE-2021-34558
+### CVE-2021-34558 (2021-07-15)
+
+<code>
+The crypto/tls package of Go through 1.16.5 does not properly assert that the type of public key in an X.509 certificate matches the expected type when doing a RSA based key exchange, allowing a malicious TLS server to cause a TLS client to panic.
+</code>
+
 - [alexzorin/cve-2021-34558](https://github.com/alexzorin/cve-2021-34558)
 
 ### CVE-2021-35042 (2021-07-02)
@@ -8874,7 +8887,6 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
 - [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
-- [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
