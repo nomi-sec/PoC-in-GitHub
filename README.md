@@ -374,6 +374,14 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
 - [inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
 
+### CVE-2021-3516 (2021-06-01)
+
+<code>
+There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who is able to submit a crafted file to be processed by xmllint could trigger a use-after-free. The greatest impact of this flaw is to confidentiality, integrity, and availability.
+</code>
+
+- [fkm75P8YjLkb/CVE-2021-3516](https://github.com/fkm75P8YjLkb/CVE-2021-3516)
+
 ### CVE-2021-3560
 - [swapravo/polkadots](https://github.com/swapravo/polkadots)
 - [deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560)
@@ -864,6 +872,22 @@ Windows Installer Elevation of Privilege Vulnerability This CVE ID is unique fro
 
 - [adenkiewicz/CVE-2021-26415](https://github.com/adenkiewicz/CVE-2021-26415)
 
+### CVE-2021-26690 (2021-06-10)
+
+<code>
+Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Cookie header handled by mod_session can cause a NULL pointer dereference and crash, leading to a possible Denial Of Service
+</code>
+
+- [fkm75P8YjLkb/CVE-2021-26690](https://github.com/fkm75P8YjLkb/CVE-2021-26690)
+
+### CVE-2021-26691 (2021-06-10)
+
+<code>
+In Apache HTTP Server versions 2.4.0 to 2.4.46 a specially crafted SessionHeader sent by an origin server could cause a heap overflow
+</code>
+
+- [fkm75P8YjLkb/CVE-2021-26691](https://github.com/fkm75P8YjLkb/CVE-2021-26691)
+
 ### CVE-2021-26700 (2021-02-25)
 
 <code>
@@ -1353,6 +1377,14 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
+### CVE-2021-30641 (2021-06-10)
+
+<code>
+Apache HTTP Server versions 2.4.39 to 2.4.46 Unexpected matching behavior with 'MergeSlashes OFF'
+</code>
+
+- [fkm75P8YjLkb/CVE-2021-30641](https://github.com/fkm75P8YjLkb/CVE-2021-30641)
+
 ### CVE-2021-31159 (2021-06-16)
 
 <code>
@@ -1517,6 +1549,14 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
+
+### CVE-2021-34496 (2021-07-14)
+
+<code>
+Windows GDI Information Disclosure Vulnerability
+</code>
+
+- [fkm75P8YjLkb/CVE-2021-34496](https://github.com/fkm75P8YjLkb/CVE-2021-34496)
 
 ### CVE-2021-34527 (2021-07-02)
 
@@ -18469,6 +18509,14 @@ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured
 - [gamamaru6005/oscp_scripts-1](https://github.com/gamamaru6005/oscp_scripts-1)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
+
+### CVE-2012-1870 (2012-07-10)
+
+<code>
+The CBC mode in the TLS protocol, as used in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, Windows 7 Gold and SP1, and other products, allows remote web servers to obtain plaintext data by triggering multiple requests to a third-party HTTPS server and sniffing the network during the resulting HTTPS session, aka &quot;TLS Protocol Vulnerability.&quot;
+</code>
+
+- [fkm75P8YjLkb/CVE-2012-1870](https://github.com/fkm75P8YjLkb/CVE-2012-1870)
 
 ### CVE-2012-1876 (2012-06-12)
 
