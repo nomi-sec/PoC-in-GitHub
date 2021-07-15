@@ -4662,6 +4662,7 @@ An issue was discovered in INNEO Startup TOOLS 2017 M021 12.0.66.3784 through 20
 </code>
 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
+- [yukiNeko114514/CVE-2020-15778-Exploit](https://github.com/yukiNeko114514/CVE-2020-15778-Exploit)
 
 ### CVE-2020-15808
 - [manucuf/CVE202015808](https://github.com/manucuf/CVE202015808)
