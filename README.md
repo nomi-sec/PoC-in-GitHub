@@ -699,6 +699,7 @@ A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in n
 </code>
 
 - [JoneyJunior/cve-2021-22555](https://github.com/JoneyJunior/cve-2021-22555)
+- [JustYoomoon/CVE-2021-22555-Exploit](https://github.com/JustYoomoon/CVE-2021-22555-Exploit)
 
 ### CVE-2021-22893 (2021-04-23)
 
@@ -17096,6 +17097,14 @@ The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY
 
 - [betalphafai/CVE-2015-6640](https://github.com/betalphafai/CVE-2015-6640)
 
+### CVE-2015-6668 (2017-10-19)
+
+<code>
+The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
+</code>
+
+- [3hydraking/CVE-2015-6668](https://github.com/3hydraking/CVE-2015-6668)
+
 ### CVE-2015-6835 (2016-05-16)
 
 <code>
@@ -19146,6 +19155,7 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 </code>
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
+- [3hydraking/CVE-2009-2265](https://github.com/3hydraking/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
