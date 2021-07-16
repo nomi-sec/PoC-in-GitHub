@@ -50,6 +50,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [bartimus-primed/CVE-2021-1675-Yara](https://github.com/bartimus-primed/CVE-2021-1675-Yara)
 - [k8gege/cve-2021-1675](https://github.com/k8gege/cve-2021-1675)
 - [galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527)
+- [thalpius/Microsoft-CVE-2021-1675](https://github.com/thalpius/Microsoft-CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -701,6 +702,7 @@ A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in n
 
 - [JoneyJunior/cve-2021-22555](https://github.com/JoneyJunior/cve-2021-22555)
 - [JustYoomoon/CVE-2021-22555-Exploit](https://github.com/JustYoomoon/CVE-2021-22555-Exploit)
+- [cgwalters/container-cve-2021-22555](https://github.com/cgwalters/container-cve-2021-22555)
 
 ### CVE-2021-22893 (2021-04-23)
 
@@ -1504,7 +1506,7 @@ Insufficient input validation in the Marvin Minsky 1967 implementation of the Un
 ### CVE-2021-32537 (2021-07-07)
 
 <code>
-Realtek HAD contains a driver crashed vulnerability which allows local side attackers to send a special string to the kernel driver in a user’s mode. Due to unexpected commands, the kernel driver will cause the system crashed. A vulnerability in ____COMPONENT____ of Realtek HDA driver allows ____ATTACKER/ATTACK____ to cause ____IMPACT____. This issue affects: Realtek HDA driver 8155 version 9150 and prior versions.
+Realtek HAD contains a driver crashed vulnerability which allows local side attackers to send a special string to the kernel driver in a user’s mode. Due to unexpected commands, the kernel driver will cause the system crashed.
 </code>
 
 - [0vercl0k/CVE-2021-32537](https://github.com/0vercl0k/CVE-2021-32537)
@@ -1524,6 +1526,14 @@ Boa 0.94.13 allows remote attackers to obtain sensitive information via a miscon
 </code>
 
 - [mdanzaruddin/CVE-2021-33558.](https://github.com/mdanzaruddin/CVE-2021-33558.)
+
+### CVE-2021-33560 (2021-06-08)
+
+<code>
+Libgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. (There is also an interoperability problem because the selection of the k integer value does not properly consider the differences between basic ElGamal encryption and generalized ElGamal encryption.) This, for example, affects use of ElGamal in OpenPGP.
+</code>
+
+- [IBM/PGP-client-checker-CVE-2021-33560](https://github.com/IBM/PGP-client-checker-CVE-2021-33560)
 
 ### CVE-2021-33564 (2021-05-29)
 
