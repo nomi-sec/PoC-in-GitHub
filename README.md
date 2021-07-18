@@ -248,7 +248,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156)
 - [Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156)
 - [password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156)
-- [AlexSeniorProject/CVE-2021-3156](https://github.com/AlexSeniorProject/CVE-2021-3156)
+- [capturingcats/CVE-2021-3156](https://github.com/capturingcats/CVE-2021-3156)
 - [LiveOverflow/pwnedit](https://github.com/LiveOverflow/pwnedit)
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
@@ -7543,6 +7543,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 </code>
 
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
+- [3hydraking/CVE-2019-9053](https://github.com/3hydraking/CVE-2019-9053)
 
 ### CVE-2019-9081 (2019-02-24)
 
