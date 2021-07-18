@@ -19324,6 +19324,14 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 - [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
 - [rnnsz/CVE-2008-4654](https://github.com/rnnsz/CVE-2008-4654)
 
+### CVE-2008-4687 (2008-10-22)
+
+<code>
+manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
+</code>
+
+- [nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit)
+
 ### CVE-2008-5416 (2008-12-10)
 
 <code>
