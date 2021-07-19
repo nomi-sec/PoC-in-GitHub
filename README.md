@@ -1645,9 +1645,6 @@ Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
 
-### CVE-2021-99999
-- [Henry4E36/CVE-2021-99999](https://github.com/Henry4E36/CVE-2021-99999)
-
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -1863,7 +1860,7 @@ A remote code execution vulnerability exists in the way that the scripting engin
 - [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
 - [maxpl0it/CVE-2020-0674-Exploit](https://github.com/maxpl0it/CVE-2020-0674-Exploit)
 - [Ken-Abruzzi/CVE-2020-0674](https://github.com/Ken-Abruzzi/CVE-2020-0674)
-- [yukiNeko114514/CVE-2020-0674-PoC](https://github.com/yukiNeko114514/CVE-2020-0674-PoC)
+- [Neko2sh1ro/CVE-2020-0674-PoC](https://github.com/Neko2sh1ro/CVE-2020-0674-PoC)
 
 ### CVE-2020-0683 (2020-02-11)
 
@@ -2327,7 +2324,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE](https://github.com/YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE)
 - [Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat](https://github.com/Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat)
 - [streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938)
-- [yukiNeko114514/CVE-2020-1938](https://github.com/yukiNeko114514/CVE-2020-1938)
+- [Neko2sh1ro/CVE-2020-1938](https://github.com/Neko2sh1ro/CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -3490,6 +3487,7 @@ Umbraco CMS 8.5.3 allows an authenticated file upload (and consequently Remote C
 </code>
 
 - [shanika04/apache_skywalking](https://github.com/shanika04/apache_skywalking)
+- [Neko2sh1ro/CVE-2020-9483](https://github.com/Neko2sh1ro/CVE-2020-9483)
 
 ### CVE-2020-9484 (2020-05-20)
 
@@ -4732,7 +4730,7 @@ An issue was discovered in INNEO Startup TOOLS 2017 M021 12.0.66.3784 through 20
 </code>
 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
-- [yukiNeko114514/CVE-2020-15778-Exploit](https://github.com/yukiNeko114514/CVE-2020-15778-Exploit)
+- [Neko2sh1ro/CVE-2020-15778-Exploit](https://github.com/Neko2sh1ro/CVE-2020-15778-Exploit)
 
 ### CVE-2020-15808
 - [manucuf/CVE202015808](https://github.com/manucuf/CVE202015808)
