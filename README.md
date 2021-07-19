@@ -1645,6 +1645,9 @@ Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
 
+### CVE-2021-99999
+- [Henry4E36/CVE-2021-99999](https://github.com/Henry4E36/CVE-2021-99999)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -9055,6 +9058,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
+- [3hydraking/CVE-2019-16278](https://github.com/3hydraking/CVE-2019-16278)
 
 ### CVE-2019-16279 (2019-10-14)
 
