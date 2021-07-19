@@ -563,6 +563,7 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [ch3rn0byl/CVE-2021-21551](https://github.com/ch3rn0byl/CVE-2021-21551)
 - [arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551)
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
+- [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -1641,6 +1642,14 @@ Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe 
 
 ### CVE-2021-35975
 - [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
+
+### CVE-2021-36799 (2021-07-19)
+
+<code>
+KNX ETS5 uses the hard-coded password ETS5Password, with a salt value of Ivan Medvedev.
+</code>
+
+- [robertguetzkow/ets5-password-recovery](https://github.com/robertguetzkow/ets5-password-recovery)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
@@ -19474,14 +19483,6 @@ March Networks DVR 3204 stores sensitive information under the web root with ins
 
 
 ## 2006
-### CVE-2006-0450 (2006-01-26)
-
-<code>
-phpBB 2.0.19 and earlier allows remote attackers to cause a denial of service (application crash) by (1) registering many users through profile.php or (2) using search.php to search in a certain way that confuses the database.
-</code>
-
-- [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
-
 ### CVE-2006-1236 (2006-03-14)
 
 <code>
