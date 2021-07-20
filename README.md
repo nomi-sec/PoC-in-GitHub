@@ -1649,6 +1649,22 @@ Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe 
 ### CVE-2021-35975
 - [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
 
+### CVE-2021-36746 (-)
+
+<code>
+Blackboard Learn through 9.1 allows XSS by an authenticated user via the Assignment Instructions HTML editor.
+</code>
+
+- [cseasholtz/CVE-2021-36746](https://github.com/cseasholtz/CVE-2021-36746)
+
+### CVE-2021-36747 (-)
+
+<code>
+Blackboard Learn through 9.1 allows XSS by an authenticated user via the Feedback to Learner form.
+</code>
+
+- [cseasholtz/CVE-2021-36747](https://github.com/cseasholtz/CVE-2021-36747)
+
 ### CVE-2021-36799 (2021-07-19)
 
 <code>
@@ -9520,14 +9536,6 @@ An issue was discovered in Oniguruma 6.x before 6.9.4_rc2. In the function fetch
 
 - [ManhNDd/CVE-2019-19204](https://github.com/ManhNDd/CVE-2019-19204)
 - [tarantula-team/CVE-2019-19204](https://github.com/tarantula-team/CVE-2019-19204)
-
-### CVE-2019-19208 (2020-03-16)
-
-<code>
-Codiad Web IDE through 2.8.4 allows PHP Code injection.
-</code>
-
-- [Hacker5preme/CVE-2019-19208-exploit](https://github.com/Hacker5preme/CVE-2019-19208-exploit)
 
 ### CVE-2019-19231 (2019-12-20)
 
