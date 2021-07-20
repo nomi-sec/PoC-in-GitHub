@@ -1118,7 +1118,12 @@ Yeastar NeoGate TG400 91.3.0.3 devices are affected by Directory Traversal. An a
 
 - [SQSamir/CVE-2021-27328](https://github.com/SQSamir/CVE-2021-27328)
 
-### CVE-2021-27338
+### CVE-2021-27338 (2021-07-20)
+
+<code>
+Faraday Edge before 3.7 allows XSS via the network/create/ page and its network name parameter.
+</code>
+
 - [Pho03niX/CVE-2021-27338](https://github.com/Pho03niX/CVE-2021-27338)
 
 ### CVE-2021-27342 (2021-05-17)
@@ -19828,9 +19833,6 @@ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local 
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
-
-### CVE-2001-3389
-- [becrevex/Gaston](https://github.com/becrevex/Gaston)
 
 
 ## 2000
