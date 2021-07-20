@@ -51,6 +51,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [k8gege/cve-2021-1675](https://github.com/k8gege/cve-2021-1675)
 - [galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527)
 - [thalpius/Microsoft-CVE-2021-1675](https://github.com/thalpius/Microsoft-CVE-2021-1675)
+- [Winter3un/CVE-2021-1675](https://github.com/Winter3un/CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -8932,6 +8933,15 @@ An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and
 - [hexway/r00kie-kr00kie](https://github.com/hexway/r00kie-kr00kie)
 - [akabe1/kr00ker](https://github.com/akabe1/kr00ker)
 - [mustafasevim/kr00k-vulnerability](https://github.com/mustafasevim/kr00k-vulnerability)
+
+### CVE-2019-15165 (2019-10-03)
+
+<code>
+sf-pcapng.c in libpcap before 1.9.1 does not properly validate the PHB header length before allocating memory.
+</code>
+
+- [madhans23/libpcap-without-Fix-CVE-2019-15165](https://github.com/madhans23/libpcap-without-Fix-CVE-2019-15165)
+- [madhans23/libpcap-with-Fix-CVE-2019-15165](https://github.com/madhans23/libpcap-with-Fix-CVE-2019-15165)
 
 ### CVE-2019-15224 (2019-08-19)
 
