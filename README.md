@@ -1575,6 +1575,14 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 
 - [mmiszczyk/cve-2021-33879](https://github.com/mmiszczyk/cve-2021-33879)
 
+### CVE-2021-33909 (2021-07-20)
+
+<code>
+fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not properly restrict seq buffer allocations, leading to an integer overflow, an Out-of-bounds Write, and escalation to root by an unprivileged user, aka CID-8cae8cd89f05.
+</code>
+
+- [AmIAHuman/CVE-2021-33909](https://github.com/AmIAHuman/CVE-2021-33909)
+
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
 
@@ -1649,7 +1657,7 @@ Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe 
 ### CVE-2021-35975
 - [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
 
-### CVE-2021-36746 (-)
+### CVE-2021-36746 (2021-07-20)
 
 <code>
 Blackboard Learn through 9.1 allows XSS by an authenticated user via the Assignment Instructions HTML editor.
@@ -1657,7 +1665,7 @@ Blackboard Learn through 9.1 allows XSS by an authenticated user via the Assignm
 
 - [cseasholtz/CVE-2021-36746](https://github.com/cseasholtz/CVE-2021-36746)
 
-### CVE-2021-36747 (-)
+### CVE-2021-36747 (2021-07-20)
 
 <code>
 Blackboard Learn through 9.1 allows XSS by an authenticated user via the Feedback to Learner form.
@@ -1672,6 +1680,9 @@ KNX ETS5 uses the hard-coded password ETS5Password, with a salt value of Ivan Me
 </code>
 
 - [robertguetzkow/ets5-password-recovery](https://github.com/robertguetzkow/ets5-password-recovery)
+
+### CVE-2021-36934
+- [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
