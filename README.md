@@ -1581,7 +1581,8 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not properly restrict seq buffer allocations, leading to an integer overflow, an Out-of-bounds Write, and escalation to root by an unprivileged user, aka CID-8cae8cd89f05.
 </code>
 
-- [AmIAHuman/CVE-2021-33909](https://github.com/AmIAHuman/CVE-2021-33909)
+- [Liang2580/CVE-2021-33909](https://github.com/Liang2580/CVE-2021-33909)
+- [baerwolf/cve-2021-33909](https://github.com/baerwolf/cve-2021-33909)
 
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
@@ -1684,6 +1685,7 @@ KNX ETS5 uses the hard-coded password ETS5Password, with a salt value of Ivan Me
 ### CVE-2021-36934
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
+- [n3tsurge/CVE-2021-36934](https://github.com/n3tsurge/CVE-2021-36934)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
@@ -5110,6 +5112,14 @@ A Reflected Cross-Site Scripting (XSS) vulnerability in GetSimple CMS v3.3.16, i
 </code>
 
 - [boku7/CVE-2020-23839](https://github.com/boku7/CVE-2020-23839)
+
+### CVE-2020-23934 (2020-08-18)
+
+<code>
+An issue was discovered in RiteCMS 2.2.1. An authenticated user can directly execute system commands by uploading a php web shell in the &quot;Filemanager&quot; section.
+</code>
+
+- [zyeinn/CVE-2020-23934](https://github.com/zyeinn/CVE-2020-23934)
 
 ### CVE-2020-23968 (2020-11-10)
 
@@ -9499,10 +9509,10 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 
 - [bao7uo/RAU_crypto](https://github.com/bao7uo/RAU_crypto)
 - [noperator/CVE-2019-18935](https://github.com/noperator/CVE-2019-18935)
-- [becrevex/Telerik_CVE-2019-18935](https://github.com/becrevex/Telerik_CVE-2019-18935)
 - [ThanHuuTuan/Telerik_CVE-2019-18935](https://github.com/ThanHuuTuan/Telerik_CVE-2019-18935)
 - [ThanHuuTuan/CVE_2019_18935](https://github.com/ThanHuuTuan/CVE_2019_18935)
 - [murataydemir/CVE-2019-18935](https://github.com/murataydemir/CVE-2019-18935)
+- [appliedi/Telerik_CVE-2019-18935](https://github.com/appliedi/Telerik_CVE-2019-18935)
 - [random-robbie/CVE-2019-18935](https://github.com/random-robbie/CVE-2019-18935)
 
 ### CVE-2019-18988 (2020-02-07)
@@ -9719,7 +9729,6 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [ianxtianxt/CVE-2019-19781](https://github.com/ianxtianxt/CVE-2019-19781)
 - [mpgn/CVE-2019-19781](https://github.com/mpgn/CVE-2019-19781)
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
-- [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
 - [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
 - [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
 - [Jabo-SCO/Shitrix-CVE-2019-19781](https://github.com/Jabo-SCO/Shitrix-CVE-2019-19781)
@@ -12900,6 +12909,14 @@ The woocommerce-jetpack plugin before 3.8.0 for WordPress has XSS in the Product
 </code>
 
 - [parzel/CVE-2018-20966](https://github.com/parzel/CVE-2018-20966)
+
+### CVE-2018-21031 (2019-11-18)
+
+<code>
+Tautulli versions 2.1.38 and below allows remote attackers to bypass intended access control in Plex Media Server because the X-Plex-Token is mishandled and can be retrieved from Tautulli. NOTE: Initially, this id was associated with Plex Media Server 1.18.2.2029-36236cc4c as the affected product and version. Further research indicated that Tautulli is the correct affected product.
+</code>
+
+- [manmolecular/tautulli-cve-2018-21031](https://github.com/manmolecular/tautulli-cve-2018-21031)
 
 ### CVE-2018-1000001 (2018-01-31)
 
