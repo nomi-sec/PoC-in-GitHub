@@ -1646,7 +1646,12 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 
 - [deathflash1411/CVE-2021-35448](https://github.com/deathflash1411/CVE-2021-35448)
 
-### CVE-2021-35464
+### CVE-2021-35464 (2021-07-22)
+
+<code>
+ForgeRock AM server 6.x before 7, and OpenAM 14.6.3, has a Java deserialization vulnerability in the jato.pageSession parameter on multiple pages. The exploitation does not require authentication, and remote code execution can be triggered by sending a single crafted /ccversion/Version request to the server. The vulnerability exists due to incorrect usage of Sun ONE Application Framework (JATO).
+</code>
+
 - [Y4er/openam-CVE-2021-35464](https://github.com/Y4er/openam-CVE-2021-35464)
 
 ### CVE-2021-35956 (2021-06-30)
@@ -7333,7 +7338,6 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 - [bendalisoftpro/snap_priv_esc](https://github.com/bendalisoftpro/snap_priv_esc)
-- [RyouYoo/dirty_snap](https://github.com/RyouYoo/dirty_snap)
 
 ### CVE-2019-7356 (2020-11-04)
 
