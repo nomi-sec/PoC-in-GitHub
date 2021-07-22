@@ -1686,6 +1686,8 @@ KNX ETS5 uses the hard-coded password ETS5Password, with a salt value of Ivan Me
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [n3tsurge/CVE-2021-36934](https://github.com/n3tsurge/CVE-2021-36934)
+- [Wh04m1001/VSSCopy](https://github.com/Wh04m1001/VSSCopy)
+- [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
