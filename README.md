@@ -175,6 +175,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
+- [1111one/laravel-CVE-2021-3129-EXP](https://github.com/1111one/laravel-CVE-2021-3129-EXP)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -1682,12 +1683,18 @@ KNX ETS5 uses the hard-coded password ETS5Password, with a salt value of Ivan Me
 
 - [robertguetzkow/ets5-password-recovery](https://github.com/robertguetzkow/ets5-password-recovery)
 
-### CVE-2021-36934
+### CVE-2021-36934 (2021-07-22)
+
+<code>
+Windows Elevation of Privilege Vulnerability
+</code>
+
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [n3tsurge/CVE-2021-36934](https://github.com/n3tsurge/CVE-2021-36934)
 - [Wh04m1001/VSSCopy](https://github.com/Wh04m1001/VSSCopy)
 - [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
+- [romarroca/SeriousSam](https://github.com/romarroca/SeriousSam)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
