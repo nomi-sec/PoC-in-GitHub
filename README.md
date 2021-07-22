@@ -52,6 +52,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527)
 - [thalpius/Microsoft-CVE-2021-1675](https://github.com/thalpius/Microsoft-CVE-2021-1675)
 - [Winter3un/CVE-2021-1675](https://github.com/Winter3un/CVE-2021-1675)
+- [hahaleyile/my-CVE-2021-1675](https://github.com/hahaleyile/my-CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -1695,9 +1696,15 @@ Windows Elevation of Privilege Vulnerability
 - [Wh04m1001/VSSCopy](https://github.com/Wh04m1001/VSSCopy)
 - [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
 - [romarroca/SeriousSam](https://github.com/romarroca/SeriousSam)
+- [WiredPulse/Invoke-HiveDreams](https://github.com/WiredPulse/Invoke-HiveDreams)
+- [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
+- [VertigoRay/CVE-2021-36934](https://github.com/VertigoRay/CVE-2021-36934)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
+
+### CVE-2021-44444
+- [zoukba0014/cve-2021-44444](https://github.com/zoukba0014/cve-2021-44444)
 
 
 ## 2020
@@ -7326,6 +7333,7 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 - [bendalisoftpro/snap_priv_esc](https://github.com/bendalisoftpro/snap_priv_esc)
+- [RyouYoo/dirty_snap](https://github.com/RyouYoo/dirty_snap)
 
 ### CVE-2019-7356 (2020-11-04)
 
@@ -8182,6 +8190,7 @@ A heap buffer overflow bug in libpl_droidsonroids_gif before 1.2.19, as used in 
 </code>
 
 - [NatleoJ/CVE-2019-11933](https://github.com/NatleoJ/CVE-2019-11933)
+- [KISH84172/CVE-2019-11933](https://github.com/KISH84172/CVE-2019-11933)
 
 ### CVE-2019-12086 (2019-05-17)
 
