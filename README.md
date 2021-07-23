@@ -1620,7 +1620,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC)
 - [Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare)
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
-- [0xIrison/PrintNightmare-Patcher](https://github.com/0xIrison/PrintNightmare-Patcher)
+- [0xirison/PrintNightmare-Patcher](https://github.com/0xirison/PrintNightmare-Patcher)
 
 ### CVE-2021-34558 (2021-07-15)
 
@@ -19507,6 +19507,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447)
 - [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
 - [3hydraking/usermap_script_CVE-2007-2447](https://github.com/3hydraking/usermap_script_CVE-2007-2447)
+- [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 
 ### CVE-2007-3830 (2007-07-17)
 
