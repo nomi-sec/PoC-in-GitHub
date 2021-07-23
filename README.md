@@ -2907,7 +2907,7 @@ Type confusion in V8 in Google Chrome prior to 83.0.4103.61 allowed a remote att
 Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
 </code>
 
-- [cudi1999/CVE-2020-6514](https://github.com/cudi1999/CVE-2020-6514)
+- [rojhack/CVE-2020-6514](https://github.com/rojhack/CVE-2020-6514)
 
 ### CVE-2020-6516 (2020-07-22)
 
