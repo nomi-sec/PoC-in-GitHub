@@ -1713,6 +1713,7 @@ Windows Elevation of Privilege Vulnerability
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
 - [VertigoRay/CVE-2021-36934](https://github.com/VertigoRay/CVE-2021-36934)
 - [bytesizedalex/CVE-2021-36934](https://github.com/bytesizedalex/CVE-2021-36934)
+- [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
@@ -9894,6 +9895,7 @@ InfluxDB before 1.7.6 has an authentication bypass vulnerability in the authenti
 </code>
 
 - [LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933](https://github.com/LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933)
+- [Hydragyrum/CVE-2019-20933](https://github.com/Hydragyrum/CVE-2019-20933)
 
 ### CVE-2019-25024 (2021-02-18)
 
