@@ -760,6 +760,14 @@ The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when s
 
 - [dn9uy3n/Check-CVE-2021-23383](https://github.com/dn9uy3n/Check-CVE-2021-23383)
 
+### CVE-2021-23410 (2021-07-21)
+
+<code>
+All versions of package msgpack are vulnerable to Deserialization of Untrusted Data via the unpack function. N.B: this affects the NPM package [msgpack](https://www.npmjs.com/package/msgpack) only, NOT the more popular package [@msgpack/msgpack](https://www.npmjs.com/package/@msgpack/msgpack).
+</code>
+
+- [azu/msgpack-CVE-2021-23410-test](https://github.com/azu/msgpack-CVE-2021-23410-test)
+
 ### CVE-2021-24027 (2021-04-06)
 
 <code>
@@ -1738,6 +1746,7 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 
 - [marcinguy/CVE-2020-0022](https://github.com/marcinguy/CVE-2020-0022)
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
+- [k3vinlusec/Bluefrag_CVE-2020-0022](https://github.com/k3vinlusec/Bluefrag_CVE-2020-0022)
 - [Polo35/CVE-2020-0022](https://github.com/Polo35/CVE-2020-0022)
 - [5k1l/cve-2020-0022](https://github.com/5k1l/cve-2020-0022)
 - [lsw29475/CVE-2020-0022](https://github.com/lsw29475/CVE-2020-0022)
@@ -4781,6 +4790,14 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 
 ### CVE-2020-15399
 - [mkelepce/CVE-2020-15399](https://github.com/mkelepce/CVE-2020-15399)
+
+### CVE-2020-15416 (2020-07-28)
+
+<code>
+This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R6700 V1.0.4.84_10.0.58 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length, stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9703.
+</code>
+
+- [k3vinlusec/R7000_httpd_BOF_CVE-2020-15416](https://github.com/k3vinlusec/R7000_httpd_BOF_CVE-2020-15416)
 
 ### CVE-2020-15492 (2020-07-23)
 
@@ -8187,6 +8204,7 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [Hacker-Yadav/CVE-2019-11932](https://github.com/Hacker-Yadav/CVE-2019-11932)
 - [BadAssAiras/hello](https://github.com/BadAssAiras/hello)
 - [zxn1/CVE-2019-11932](https://github.com/zxn1/CVE-2019-11932)
+- [k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932](https://github.com/k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932)
 
 ### CVE-2019-11933 (2019-10-23)
 
