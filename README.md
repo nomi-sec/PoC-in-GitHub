@@ -1715,6 +1715,7 @@ Windows Elevation of Privilege Vulnerability
 - [bytesizedalex/CVE-2021-36934](https://github.com/bytesizedalex/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 - [Sp00p64/PyNightmare](https://github.com/Sp00p64/PyNightmare)
+- [jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM](https://github.com/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
