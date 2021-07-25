@@ -6043,6 +6043,14 @@ KLog Server 2.4.1 allows OS command injection via shell metacharacters in the ac
 
 - [Al1ex/CVE-2020-35729](https://github.com/Al1ex/CVE-2020-35729)
 
+### CVE-2020-35846 (2020-12-29)
+
+<code>
+Agentejo Cockpit before 0.11.2 allows NoSQL injection via the Controller/Auth.php check function.
+</code>
+
+- [JohnHammond/CVE-2020-35846](https://github.com/JohnHammond/CVE-2020-35846)
+
 ### CVE-2020-36079 (2021-02-26)
 
 <code>
