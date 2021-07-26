@@ -259,7 +259,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 
 ### CVE-2021-3157
-- [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
+- [gabobike/CVE-2021-3157](https://github.com/gabobike/CVE-2021-3157)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -598,6 +598,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
+- [haiclover/CVE-2021-21972](https://github.com/haiclover/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -655,6 +656,14 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [testanull/Project_CVE-2021-21985_PoC](https://github.com/testanull/Project_CVE-2021-21985_PoC)
 - [haiclover/CVE-2021-21985](https://github.com/haiclover/CVE-2021-21985)
 - [aristosMiliaressis/CVE-2021-21985](https://github.com/aristosMiliaressis/CVE-2021-21985)
+
+### CVE-2021-22146 (2021-07-21)
+
+<code>
+All versions of Elastic Cloud Enterprise has the Elasticsearch “anonymous” user enabled by default in deployed clusters. While in the default setting the anonymous user has no permissions and is unable to successfully query any Elasticsearch APIs, an attacker could leverage the anonymous user to gain insight into certain details of a deployed cluster.
+</code>
+
+- [magichk/cve-2021-22146](https://github.com/magichk/cve-2021-22146)
 
 ### CVE-2021-22192 (2021-03-24)
 
