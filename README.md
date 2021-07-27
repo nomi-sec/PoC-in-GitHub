@@ -4142,6 +4142,14 @@ The WOPI API integration for Vereign Collabora CODE through 4.2.2 does not prope
 
 - [d7x/CVE-2020-12432](https://github.com/d7x/CVE-2020-12432)
 
+### CVE-2020-12593 (2020-11-18)
+
+<code>
+Symantec Endpoint Detection &amp; Response, prior to 4.5, may be susceptible to an information disclosure issue, which is a type of vulnerability that could potentially allow unauthorized access to data.
+</code>
+
+- [nasbench/CVE-2020-12593](https://github.com/nasbench/CVE-2020-12593)
+
 ### CVE-2020-12629 (2020-05-04)
 
 <code>
