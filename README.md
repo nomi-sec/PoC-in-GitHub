@@ -349,6 +349,14 @@ A cross-site scripting (XSS) vulnerability in Pryaniki 6.44.3 allows remote auth
 
 - [jet-pentest/CVE-2021-3395](https://github.com/jet-pentest/CVE-2021-3395)
 
+### CVE-2021-3438 (2021-05-20)
+
+<code>
+A potential buffer overflow in the software drivers for certain HP LaserJet products and Samsung product printers could lead to an escalation of privilege.
+</code>
+
+- [Crystalware/CVE-2021-3438](https://github.com/Crystalware/CVE-2021-3438)
+
 ### CVE-2021-3449 (2021-03-25)
 
 <code>
@@ -1728,6 +1736,7 @@ Windows Elevation of Privilege Vulnerability
 - [Sp00p64/PyNightmare](https://github.com/Sp00p64/PyNightmare)
 - [jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM](https://github.com/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM)
 - [0x0D1n/CVE-2021-36934](https://github.com/0x0D1n/CVE-2021-36934)
+- [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
@@ -8742,6 +8751,14 @@ Use after free in WebAudio in Google Chrome prior to 78.0.3904.87 allowed a remo
 
 - [cve-2019-13720/cve-2019-13720](https://github.com/cve-2019-13720/cve-2019-13720)
 - [ChoKyuWon/CVE-2019-13720](https://github.com/ChoKyuWon/CVE-2019-13720)
+
+### CVE-2019-13764 (2019-12-10)
+
+<code>
+Type confusion in JavaScript in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [HaboobLab/CVE-2019-13764](https://github.com/HaboobLab/CVE-2019-13764)
 
 ### CVE-2019-13956 (2019-07-18)
 
