@@ -405,6 +405,7 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
 - [mr-nO0b/CVE-2021-3560](https://github.com/mr-nO0b/CVE-2021-3560)
 - [deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560)
+- [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
@@ -1648,6 +1649,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare)
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
 - [0xirison/PrintNightmare-Patcher](https://github.com/0xirison/PrintNightmare-Patcher)
+- [Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare)
 
 ### CVE-2021-34558 (2021-07-15)
 
@@ -11940,6 +11942,14 @@ Apache Karaf provides a features deployer, which allows users to &quot;hot deplo
 </code>
 
 - [brianwrf/CVE-2018-11788](https://github.com/brianwrf/CVE-2018-11788)
+
+### CVE-2018-11790 (2019-01-31)
+
+<code>
+When loading a document with Apache Open Office 4.1.5 and earlier with smaller end line termination than the operating system uses, the defect occurs. In this case OpenOffice runs into an Arithmetic Overflow at a string length calculation.
+</code>
+
+- [anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790)
 
 ### CVE-2018-11882 (2018-10-29)
 
