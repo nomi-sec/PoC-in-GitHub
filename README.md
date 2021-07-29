@@ -12,45 +12,13 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
-### CVE-2021-1235 (2021-01-20)
+### CVE-2021-1480 (2021-04-08)
 
 <code>
-A vulnerability in the CLI of Cisco SD-WAN vManage Software could allow an authenticated, local attacker to read sensitive database files on an affected system. The vulnerability is due to insufficient user authorization. An attacker could exploit this vulnerability by accessing the vshell of an affected system. A successful exploit could allow the attacker to read database files from the filesystem of the underlying operating system.
+Multiple vulnerabilities in Cisco SD-WAN vManage Software could allow an unauthenticated, remote attacker to execute arbitrary code or allow an authenticated, local attacker to gain escalated privileges on an affected system. For more information about these vulnerabilities, see the Details section of this advisory.
 </code>
 
-- [wuyoukm/CVE-2021-1235](https://github.com/wuyoukm/CVE-2021-1235)
-
-### CVE-2021-1236 (2021-01-13)
-
-<code>
-Multiple Cisco products are affected by a vulnerability in the Snort application detection engine that could allow an unauthenticated, remote attacker to bypass the configured policies on an affected system. The vulnerability is due to a flaw in the detection algorithm. An attacker could exploit this vulnerability by sending crafted packets that would flow through an affected system. A successful exploit could allow the attacker to bypass the configured policies and deliver a malicious payload to the protected network.
-</code>
-
-- [wuyoukm/CVE-2021-1236](https://github.com/wuyoukm/CVE-2021-1236)
-
-### CVE-2021-1237 (2021-01-13)
-
-<code>
-A vulnerability in the Network Access Manager and Web Security Agent components of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to perform a DLL injection attack. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system. The vulnerability is due to insufficient validation of resources that are loaded by the application at run time. An attacker could exploit this vulnerability by inserting a configuration file in a specific path in the system which, in turn, causes a malicious DLL file to be loaded when the application starts. A successful exploit could allow the attacker to execute arbitrary code on the affected machine with SYSTEM privileges.
-</code>
-
-- [wuyoukm/CVE-2021-1237](https://github.com/wuyoukm/CVE-2021-1237)
-
-### CVE-2021-1238 (2021-01-13)
-
-<code>
-Multiple vulnerabilities in the web-based management interface of Cisco Firepower Management Center (FMC) could allow an authenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface of an affected system. The vulnerabilities exist because the web-based management interface does not properly validate user-supplied input. An attacker could exploit these vulnerabilities by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.
-</code>
-
-- [wuyoukm/CVE-2021-1238](https://github.com/wuyoukm/CVE-2021-1238)
-
-### CVE-2021-1239 (2021-01-13)
-
-<code>
-Multiple vulnerabilities in the web-based management interface of Cisco Firepower Management Center (FMC) could allow an authenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface of an affected system. The vulnerabilities exist because the web-based management interface does not properly validate user-supplied input. An attacker could exploit these vulnerabilities by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.
-</code>
-
-- [wuyoukm/CVE-2021-1239](https://github.com/wuyoukm/CVE-2021-1239)
+- [xmco/sdwan-cve-2021-1480](https://github.com/xmco/sdwan-cve-2021-1480)
 
 ### CVE-2021-1656 (2021-01-12)
 
@@ -1284,6 +1252,7 @@ The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 ha
 </code>
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
+- [Crystalware/CVE-2021-27965](https://github.com/Crystalware/CVE-2021-27965)
 
 ### CVE-2021-28310 (2021-04-13)
 
@@ -20075,6 +20044,14 @@ Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and ea
 
 
 ## 2001
+### CVE-2001-0680 (2002-03-09)
+
+<code>
+Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.
+</code>
+
+- [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
+
 ### CVE-2001-0758 (2001-10-12)
 
 <code>
