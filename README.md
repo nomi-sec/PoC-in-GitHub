@@ -12,6 +12,46 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
+### CVE-2021-1235 (2021-01-20)
+
+<code>
+A vulnerability in the CLI of Cisco SD-WAN vManage Software could allow an authenticated, local attacker to read sensitive database files on an affected system. The vulnerability is due to insufficient user authorization. An attacker could exploit this vulnerability by accessing the vshell of an affected system. A successful exploit could allow the attacker to read database files from the filesystem of the underlying operating system.
+</code>
+
+- [wuyoukm/CVE-2021-1235](https://github.com/wuyoukm/CVE-2021-1235)
+
+### CVE-2021-1236 (2021-01-13)
+
+<code>
+Multiple Cisco products are affected by a vulnerability in the Snort application detection engine that could allow an unauthenticated, remote attacker to bypass the configured policies on an affected system. The vulnerability is due to a flaw in the detection algorithm. An attacker could exploit this vulnerability by sending crafted packets that would flow through an affected system. A successful exploit could allow the attacker to bypass the configured policies and deliver a malicious payload to the protected network.
+</code>
+
+- [wuyoukm/CVE-2021-1236](https://github.com/wuyoukm/CVE-2021-1236)
+
+### CVE-2021-1237 (2021-01-13)
+
+<code>
+A vulnerability in the Network Access Manager and Web Security Agent components of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to perform a DLL injection attack. To exploit this vulnerability, the attacker would need to have valid credentials on the Windows system. The vulnerability is due to insufficient validation of resources that are loaded by the application at run time. An attacker could exploit this vulnerability by inserting a configuration file in a specific path in the system which, in turn, causes a malicious DLL file to be loaded when the application starts. A successful exploit could allow the attacker to execute arbitrary code on the affected machine with SYSTEM privileges.
+</code>
+
+- [wuyoukm/CVE-2021-1237](https://github.com/wuyoukm/CVE-2021-1237)
+
+### CVE-2021-1238 (2021-01-13)
+
+<code>
+Multiple vulnerabilities in the web-based management interface of Cisco Firepower Management Center (FMC) could allow an authenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface of an affected system. The vulnerabilities exist because the web-based management interface does not properly validate user-supplied input. An attacker could exploit these vulnerabilities by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.
+</code>
+
+- [wuyoukm/CVE-2021-1238](https://github.com/wuyoukm/CVE-2021-1238)
+
+### CVE-2021-1239 (2021-01-13)
+
+<code>
+Multiple vulnerabilities in the web-based management interface of Cisco Firepower Management Center (FMC) could allow an authenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface of an affected system. The vulnerabilities exist because the web-based management interface does not properly validate user-supplied input. An attacker could exploit these vulnerabilities by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.
+</code>
+
+- [wuyoukm/CVE-2021-1239](https://github.com/wuyoukm/CVE-2021-1239)
+
 ### CVE-2021-1656 (2021-01-12)
 
 <code>
@@ -3566,6 +3606,14 @@ Stored Cross-site scripting (XSS) vulnerability in Blackboard Learn/PeopleTool v
 </code>
 
 - [kyletimmermans/blackboard-xss](https://github.com/kyletimmermans/blackboard-xss)
+
+### CVE-2020-9014 (2021-02-05)
+
+<code>
+In Epson iProjection v2.30, the driver file (EMP_NSAU.sys) allows local users to cause a denial of service (BSOD) via crafted input to the virtual audio device driver with IOCTL 0x9C402402, 0x9C402406, or 0x9C40240A. \Device\EMPNSAUIO and \DosDevices\EMPNSAU are similarly affected.
+</code>
+
+- [Crystalware/CVE-2020-9014](https://github.com/Crystalware/CVE-2020-9014)
 
 ### CVE-2020-9038 (2020-02-17)
 
@@ -18169,6 +18217,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271)
 - [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
+- [b4keSn4ke/shellshock](https://github.com/b4keSn4ke/shellshock)
 
 ### CVE-2014-6287 (2014-10-07)
 
@@ -20026,14 +20075,6 @@ Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and ea
 
 
 ## 2001
-### CVE-2001-0680 (2002-03-09)
-
-<code>
-Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.
-</code>
-
-- [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
-
 ### CVE-2001-0758 (2001-10-12)
 
 <code>
