@@ -380,6 +380,14 @@ An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation Clie
 
 - [terorie/cve-2021-3449](https://github.com/terorie/cve-2021-3449)
 
+### CVE-2021-3490 (2021-06-03)
+
+<code>
+The eBPF ALU32 bounds tracking for bitwise ops (AND, OR and XOR) in the Linux kernel did not properly update 32-bit bounds, which could be turned into out of bounds reads and writes in the Linux kernel and therefore, arbitrary code execution. This issue was fixed via commit 049c4e13714e (&quot;bpf: Fix alu32 const subreg bound tracking on bitwise operations&quot;) (v5.13-rc4) and backported to the stable kernels in v5.12.4, v5.11.21, and v5.10.37. The AND/OR issues were introduced by commit 3f50f132d840 (&quot;bpf: Verifier, do explicit ALU32 bounds tracking&quot;) (5.7-rc1) and the XOR variant was introduced by 2921c90d4718 (&quot;bpf:Fix a verifier failure with xor&quot;) ( 5.10-rc1).
+</code>
+
+- [chompie1337/Linux_LPE_eBPF_CVE-2021-3490](https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490)
+
 ### CVE-2021-3492 (2021-04-17)
 
 <code>
@@ -1629,6 +1637,7 @@ fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not pro
 - [Liang2580/CVE-2021-33909](https://github.com/Liang2580/CVE-2021-33909)
 - [baerwolf/cve-2021-33909](https://github.com/baerwolf/cve-2021-33909)
 - [bbinfosec43/CVE-2021-33909](https://github.com/bbinfosec43/CVE-2021-33909)
+- [ikramimamoglu/AmIAHuman-CVE-2021-33909](https://github.com/ikramimamoglu/AmIAHuman-CVE-2021-33909)
 
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
@@ -1755,6 +1764,7 @@ Windows Elevation of Privilege Vulnerability
 - [jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM](https://github.com/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM)
 - [0x0D1n/CVE-2021-36934](https://github.com/0x0D1n/CVE-2021-36934)
 - [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
+- [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
@@ -5111,6 +5121,7 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 - [ykg88/OHTS_IE6052-CVE-2020-17087](https://github.com/ykg88/OHTS_IE6052-CVE-2020-17087)
+- [vp777/Windows-Non-Paged-Pool-Overflow-Exploitation](https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation)
 
 ### CVE-2020-17136 (2020-12-09)
 
@@ -8039,6 +8050,7 @@ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation 
 - [Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149)
 - [Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149)
 - [area1/exim-cve-2019-10149-data](https://github.com/area1/exim-cve-2019-10149-data)
+- [Stick-U235/CVE-2019-10149-Exploit](https://github.com/Stick-U235/CVE-2019-10149-Exploit)
 
 ### CVE-2019-10172 (2019-11-18)
 
