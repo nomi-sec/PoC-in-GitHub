@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2021
-### CVE-2021-000000
-- [dorisroot1/CVE-2021-000000](https://github.com/dorisroot1/CVE-2021-000000)
-
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -109,9 +106,6 @@ Possible use after free due to improper handling of memory mapping of multiple p
 </code>
 
 - [TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664](https://github.com/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664)
-
-### CVE-2021-1908
-- [dorisroot1/CVE-2021-1908U77](https://github.com/dorisroot1/CVE-2021-1908U77)
 
 ### CVE-2021-1994 (2021-01-20)
 
@@ -1642,6 +1636,14 @@ fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not pro
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
 
+### CVE-2021-34470 (2021-07-14)
+
+<code>
+Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-33768, CVE-2021-34523.
+</code>
+
+- [technion/CVE-2021-34470scanner](https://github.com/technion/CVE-2021-34470scanner)
+
 ### CVE-2021-34496 (2021-07-14)
 
 <code>
@@ -1771,87 +1773,6 @@ Windows Elevation of Privilege Vulnerability
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
-
-### CVE-2021-412999
-- [dorisroot1/CVE-2021-412999](https://github.com/dorisroot1/CVE-2021-412999)
-
-### CVE-2021-1000001
-- [dorisroot1/CVE-2021-1000001](https://github.com/dorisroot1/CVE-2021-1000001)
-
-### CVE-2021-1258008
-- [dorisroot1/CVE-2021-1258008](https://github.com/dorisroot1/CVE-2021-1258008)
-
-### CVE-2021-1594398
-- [dorisroot1/CVE-2021-1594398](https://github.com/dorisroot1/CVE-2021-1594398)
-
-### CVE-2021-2197075
-- [dorisroot1/CVE-2021-2197075](https://github.com/dorisroot1/CVE-2021-2197075)
-
-### CVE-2021-2321084
-- [dorisroot1/CVE-2021-2321084](https://github.com/dorisroot1/CVE-2021-2321084)
-
-### CVE-2021-3020142
-- [dorisroot1/CVE-2021-3020142](https://github.com/dorisroot1/CVE-2021-3020142)
-
-### CVE-2021-3211233
-- [dorisroot1/CVE-2021-3211233](https://github.com/dorisroot1/CVE-2021-3211233)
-
-### CVE-2021-3214124
-- [dorisroot1/CVE-2021-3214124](https://github.com/dorisroot1/CVE-2021-3214124)
-
-### CVE-2021-4121442
-- [dorisroot1/CVE-2021-4121442](https://github.com/dorisroot1/CVE-2021-4121442)
-
-### CVE-2021-4124214
-- [dorisroot1/CVE-2021-4124214](https://github.com/dorisroot1/CVE-2021-4124214)
-
-### CVE-2021-5128108
-- [dorisroot1/CVE-2021-5128108](https://github.com/dorisroot1/CVE-2021-5128108)
-
-### CVE-2021-9878724
-- [dorisroot1/CVE-2021-9878724](https://github.com/dorisroot1/CVE-2021-9878724)
-
-### CVE-2021-12523214
-- [dorisroot1/CVE-2021-12523214](https://github.com/dorisroot1/CVE-2021-12523214)
-
-### CVE-2021-20119090
-- [dorisroot1/CVE-2021-20119090](https://github.com/dorisroot1/CVE-2021-20119090)
-
-### CVE-2021-23142414
-- [dorisroot1/CVE-2021-23142414](https://github.com/dorisroot1/CVE-2021-23142414)
-
-### CVE-2021-41241412
-- [dorisroot1/CVE-2021-41241412](https://github.com/dorisroot1/CVE-2021-41241412)
-
-### CVE-2021-42892849
-- [dorisroot1/CVE-2021-42892849](https://github.com/dorisroot1/CVE-2021-42892849)
-
-### CVE-2021-57834782
-- [dorisroot1/CVE-2021-57834782](https://github.com/dorisroot1/CVE-2021-57834782)
-
-### CVE-2021-98098098
-- [dorisroot1/CVE-2021-98098098](https://github.com/dorisroot1/CVE-2021-98098098)
-
-### CVE-2021-112333212
-- [dorisroot1/CVE-2021-112333212](https://github.com/dorisroot1/CVE-2021-112333212)
-
-### CVE-2021-123324125
-- [dorisroot1/CVE-2021-123324125](https://github.com/dorisroot1/CVE-2021-123324125)
-
-### CVE-2021-324213341
-- [dorisroot1/CVE-2021-324213341](https://github.com/dorisroot1/CVE-2021-324213341)
-
-### CVE-2021-990909090
-- [dorisroot1/CVE-2021-990909090](https://github.com/dorisroot1/CVE-2021-990909090)
-
-### CVE-2021-1232123321
-- [dorisroot1/CVE-2021-1232123321](https://github.com/dorisroot1/CVE-2021-1232123321)
-
-### CVE-2021-10909099222
-- [dorisroot1/CVE-2021-10909099222](https://github.com/dorisroot1/CVE-2021-10909099222)
-
-### CVE-2021-90000000000
-- [dorisroot1/CVE-2021-90000000000](https://github.com/dorisroot1/CVE-2021-90000000000)
 
 
 ## 2020
