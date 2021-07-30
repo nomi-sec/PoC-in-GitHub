@@ -423,6 +423,7 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 - [mr-nO0b/CVE-2021-3560](https://github.com/mr-nO0b/CVE-2021-3560)
 - [deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560)
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
+- [0Day-dev/CVE-2021-3560](https://github.com/0Day-dev/CVE-2021-3560)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
@@ -843,6 +844,14 @@ Windows Console Driver Denial of Service Vulnerability
 </code>
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
+
+### CVE-2021-24155 (2021-04-05)
+
+<code>
+The WordPress Backup and Migrate Plugin – Backup Guard WordPress plugin before 1.6.0 did not ensure that the imported files are of the SGBP format and extension, allowing high privilege users (admin+) to upload arbitrary files, including PHP ones, leading to RCE.
+</code>
+
+- [0Day-dev/CVE-2021-24155.rb](https://github.com/0Day-dev/CVE-2021-24155.rb)
 
 ### CVE-2021-24347 (2021-06-14)
 
@@ -10508,6 +10517,7 @@ Authentication Bypass vulnerability in the Oturia Smart Google Code Inserter plu
 
 - [lucad93/CVE-2018-3810](https://github.com/lucad93/CVE-2018-3810)
 - [cved-sources/cve-2018-3810](https://github.com/cved-sources/cve-2018-3810)
+- [nth347/CVE-2018-3810_exploit](https://github.com/nth347/CVE-2018-3810_exploit)
 
 ### CVE-2018-3811 (2018-01-01)
 
