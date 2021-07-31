@@ -264,7 +264,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
-- [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [gabobike/CVE-2021-3157](https://github.com/gabobike/CVE-2021-3157)
@@ -19730,9 +19729,7 @@ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 all
 Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
 </code>
 
-- [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
 - [notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392)
-- [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
 
 ### CVE-2006-3592 (2006-07-14)
 
