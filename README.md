@@ -19729,7 +19729,9 @@ Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 all
 Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML, which allows remote attackers to read arbitrary files, as demonstrated using &quot;..%01&quot; sequences, which bypass the removal of &quot;../&quot; sequences before bytes such as &quot;%01&quot; are removed from the filename.  NOTE: This is a different issue than CVE-2006-3274.
 </code>
 
+- [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
 - [notclement/cve-2006-3392](https://github.com/notclement/cve-2006-3392)
+- [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
 
 ### CVE-2006-3592 (2006-07-14)
 
