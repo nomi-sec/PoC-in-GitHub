@@ -423,7 +423,7 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 - [mr-nO0b/CVE-2021-3560](https://github.com/mr-nO0b/CVE-2021-3560)
 - [deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560)
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
-- [0Day-dev/CVE-2021-3560](https://github.com/0Day-dev/CVE-2021-3560)
+- [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
@@ -762,6 +762,7 @@ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3
 </code>
 
 - [CsEnox/CVE-2021-22911](https://github.com/CsEnox/CVE-2021-22911)
+- [optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911](https://github.com/optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911)
 
 ### CVE-2021-22986 (2021-03-31)
 
@@ -851,7 +852,7 @@ Windows Console Driver Denial of Service Vulnerability
 The WordPress Backup and Migrate Plugin – Backup Guard WordPress plugin before 1.6.0 did not ensure that the imported files are of the SGBP format and extension, allowing high privilege users (admin+) to upload arbitrary files, including PHP ones, leading to RCE.
 </code>
 
-- [0Day-dev/CVE-2021-24155.rb](https://github.com/0Day-dev/CVE-2021-24155.rb)
+- [0dayNinja/CVE-2021-24155.rb](https://github.com/0dayNinja/CVE-2021-24155.rb)
 
 ### CVE-2021-24347 (2021-06-14)
 
