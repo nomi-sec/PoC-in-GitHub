@@ -1784,6 +1784,7 @@ Windows Elevation of Privilege Vulnerability
 - [0x0D1n/CVE-2021-36934](https://github.com/0x0D1n/CVE-2021-36934)
 - [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
+- [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
