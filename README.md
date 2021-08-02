@@ -728,6 +728,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
 - [PenTestical/CVE-2021-22204](https://github.com/PenTestical/CVE-2021-22204)
+- [AssassinUKG/CVE-2021-22204](https://github.com/AssassinUKG/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -1736,7 +1737,7 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 ### CVE-2021-35464 (2021-07-22)
 
 <code>
-ForgeRock AM server 6.x before 7, and OpenAM 14.6.3, has a Java deserialization vulnerability in the jato.pageSession parameter on multiple pages. The exploitation does not require authentication, and remote code execution can be triggered by sending a single crafted /ccversion/Version request to the server. The vulnerability exists due to incorrect usage of Sun ONE Application Framework (JATO).
+ForgeRock AM server before 7.0 has a Java deserialization vulnerability in the jato.pageSession parameter on multiple pages. The exploitation does not require authentication, and remote code execution can be triggered by sending a single crafted /ccversion/* request to the server. The vulnerability exists due to the usage of Sun ONE Application Framework (JATO) found in versions of Java 8 or earlier
 </code>
 
 - [Y4er/openam-CVE-2021-35464](https://github.com/Y4er/openam-CVE-2021-35464)
