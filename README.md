@@ -141,6 +141,14 @@ Vulnerability in the Recovery component of Oracle Database Server. Supported ver
 
 - [emad-almousa/CVE-2021-2173](https://github.com/emad-almousa/CVE-2021-2173)
 
+### CVE-2021-2394 (2021-07-20)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [lz2y/CVE-2021-2394](https://github.com/lz2y/CVE-2021-2394)
+
 ### CVE-2021-3007 (2021-01-03)
 
 <code>
@@ -528,6 +536,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
 - [tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300)
+- [xiaofeihahah/CVE-2021-21300](https://github.com/xiaofeihahah/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -6179,6 +6188,14 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-36188](https://github.com/Al1ex/CVE-2020-36188)
+
+### CVE-2020-36287 (2021-04-08)
+
+<code>
+The dashboard gadgets preference resource of the Atlassian gadgets plugin used in Jira Server and Jira Data Center before version 8.13.5, and from version 8.14.0 before version 8.15.1 allows remote anonymous attackers to obtain gadget related settings via a missing permissions check.
+</code>
+
+- [f4rber/CVE-2020-36287](https://github.com/f4rber/CVE-2020-36287)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -13024,6 +13041,7 @@ In WinRAR versions prior to and including 5.61, There is path traversal vulnerab
 - [likescam/CVE-2018-20250](https://github.com/likescam/CVE-2018-20250)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250)
+- [zeronohacker/CVE-2018-20250](https://github.com/zeronohacker/CVE-2018-20250)
 
 ### CVE-2018-20343 (2020-03-02)
 
