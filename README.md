@@ -148,7 +148,7 @@ Vulnerability in the Recovery component of Oracle Database Server. Supported ver
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [lz2y/CVE-2021-2394](https://github.com/lz2y/CVE-2021-2394)
+- [freeide/CVE-2021-2394](https://github.com/freeide/CVE-2021-2394)
 
 ### CVE-2021-3007 (2021-01-03)
 
@@ -1293,14 +1293,6 @@ Windows NTFS Denial of Service Vulnerability
 
 - [shubham0d/CVE-2021-28312](https://github.com/shubham0d/CVE-2021-28312)
 
-### CVE-2021-28378 (2021-03-15)
-
-<code>
-Gitea 1.12.x and 1.13.x before 1.13.4 allows XSS via certain issue data in some situations.
-</code>
-
-- [PandatiX/CVE-2021-28378](https://github.com/PandatiX/CVE-2021-28378)
-
 ### CVE-2021-28476 (2021-05-11)
 
 <code>
@@ -1807,6 +1799,9 @@ Windows Elevation of Privilege Vulnerability
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
+
+### CVE-2021-2999899
+- [woliujizhou/CVE-2021-2999899](https://github.com/woliujizhou/CVE-2021-2999899)
 
 
 ## 2020
@@ -10485,7 +10480,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 </code>
 
 - [jas502n/CVE-2018-3252](https://github.com/jas502n/CVE-2018-3252)
-- [cfan6/CVE-2018-3252](https://github.com/cfan6/CVE-2018-3252)
+- [go-spider/CVE-2018-3252](https://github.com/go-spider/CVE-2018-3252)
 - [pyn3rd/CVE-2018-3252](https://github.com/pyn3rd/CVE-2018-3252)
 
 ### CVE-2018-3260
@@ -10971,7 +10966,6 @@ plays_service.exe in the plays.tv service before 1.27.7.0, as distributed in AMD
 </code>
 
 - [securifera/CVE-2018-6546-Exploit](https://github.com/securifera/CVE-2018-6546-Exploit)
-- [YanZiShuang/CVE-2018-6546](https://github.com/YanZiShuang/CVE-2018-6546)
 
 ### CVE-2018-6574 (2018-02-07)
 
