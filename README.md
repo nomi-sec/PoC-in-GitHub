@@ -809,12 +809,7 @@ The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when s
 
 - [dn9uy3n/Check-CVE-2021-23383](https://github.com/dn9uy3n/Check-CVE-2021-23383)
 
-### CVE-2021-23410 (2021-07-21)
-
-<code>
-All versions of package msgpack are vulnerable to Deserialization of Untrusted Data via the unpack function. N.B: this affects the NPM package [msgpack](https://www.npmjs.com/package/msgpack) only, NOT the more popular package [@msgpack/msgpack](https://www.npmjs.com/package/@msgpack/msgpack).
-</code>
-
+### CVE-2021-23410
 - [azu/msgpack-CVE-2021-23410-test](https://github.com/azu/msgpack-CVE-2021-23410-test)
 
 ### CVE-2021-24027 (2021-04-06)
@@ -1504,7 +1499,12 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
 
-### CVE-2021-31630
+### CVE-2021-31630 (-)
+
+<code>
+Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
+</code>
+
 - [h3v0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/h3v0x/CVE-2021-31630-OpenPLC_RCE)
 
 ### CVE-2021-31702 (2021-05-29)
@@ -1796,6 +1796,22 @@ Windows Elevation of Privilege Vulnerability
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
+
+### CVE-2021-37832 (2021-08-03)
+
+<code>
+A SQL injection vulnerability exists in version 3.0.2 of Hotel Druid when SQLite is being used as the application database. A malicious attacker can issue SQL commands to the SQLite database through the vulnerable idappartamenti parameter.
+</code>
+
+- [dievus/CVE-2021-37832](https://github.com/dievus/CVE-2021-37832)
+
+### CVE-2021-37833 (2021-08-03)
+
+<code>
+A reflected cross-site scripting (XSS) vulnerability exists in multiple pages in version 3.0.2 of the Hotel Druid application that allows for arbitrary execution of JavaScript commands.
+</code>
+
+- [dievus/CVE-2021-37833](https://github.com/dievus/CVE-2021-37833)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
@@ -9154,15 +9170,6 @@ An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and
 - [hexway/r00kie-kr00kie](https://github.com/hexway/r00kie-kr00kie)
 - [akabe1/kr00ker](https://github.com/akabe1/kr00ker)
 - [mustafasevim/kr00k-vulnerability](https://github.com/mustafasevim/kr00k-vulnerability)
-
-### CVE-2019-15165 (2019-10-03)
-
-<code>
-sf-pcapng.c in libpcap before 1.9.1 does not properly validate the PHB header length before allocating memory.
-</code>
-
-- [madhans23/libpcap-without-Fix-CVE-2019-15165](https://github.com/madhans23/libpcap-without-Fix-CVE-2019-15165)
-- [madhans23/libpcap-with-Fix-CVE-2019-15165](https://github.com/madhans23/libpcap-with-Fix-CVE-2019-15165)
 
 ### CVE-2019-15224 (2019-08-19)
 
@@ -16534,6 +16541,7 @@ The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the P
 </code>
 
 - [lcfpadilha/mac0352-ep4](https://github.com/lcfpadilha/mac0352-ep4)
+- [jptr218/apachedos](https://github.com/jptr218/apachedos)
 
 ### CVE-2016-8776 (2017-04-02)
 
