@@ -1499,7 +1499,7 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
 
-### CVE-2021-31630 (-)
+### CVE-2021-31630 (2021-08-03)
 
 <code>
 Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
