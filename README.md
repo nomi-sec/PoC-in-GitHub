@@ -13811,6 +13811,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638)
 - [dock0d1/Apache-Struts-2-CVE-2017-5638-Exploit](https://github.com/dock0d1/Apache-Struts-2-CVE-2017-5638-Exploit)
 - [Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638)
+- [jptr218/struts_hack](https://github.com/jptr218/struts_hack)
 
 ### CVE-2017-5645 (2017-04-17)
 
