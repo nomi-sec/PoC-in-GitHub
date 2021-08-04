@@ -61,7 +61,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [thalpius/Microsoft-CVE-2021-1675](https://github.com/thalpius/Microsoft-CVE-2021-1675)
 - [Winter3un/CVE-2021-1675](https://github.com/Winter3un/CVE-2021-1675)
 - [hahaleyile/my-CVE-2021-1675](https://github.com/hahaleyile/my-CVE-2021-1675)
-- [tacbliw/PrintNightmare-LPE](https://github.com/tacbliw/PrintNightmare-LPE)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -273,9 +272,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
-
-### CVE-2021-3157
-- [gabobike/CVE-2021-3157](https://github.com/gabobike/CVE-2021-3157)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -3714,6 +3710,7 @@ XML-RPC request are vulnerable to unsafe deserialization and Cross-Site Scriptin
 - [cyber-niz/CVE-2020-9496](https://github.com/cyber-niz/CVE-2020-9496)
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
 - [ambalabanov/CVE-2020-9496](https://github.com/ambalabanov/CVE-2020-9496)
+- [s4dbrd/CVE-2020-9496](https://github.com/s4dbrd/CVE-2020-9496)
 
 ### CVE-2020-9547 (2020-03-01)
 
