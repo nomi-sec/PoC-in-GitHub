@@ -1813,9 +1813,6 @@ A reflected cross-site scripting (XSS) vulnerability exists in multiple pages in
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
 
-### CVE-2021-2999899
-- [woliujizhou/CVE-2021-2999899](https://github.com/woliujizhou/CVE-2021-2999899)
-
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
