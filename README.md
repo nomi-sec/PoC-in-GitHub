@@ -1617,6 +1617,7 @@ An argument injection vulnerability in the Dragonfly gem before 1.4.0 for Ruby a
 </code>
 
 - [mlr0p/CVE-2021-33564](https://github.com/mlr0p/CVE-2021-33564)
+- [dorkerdevil/CVE-2021-33564](https://github.com/dorkerdevil/CVE-2021-33564)
 
 ### CVE-2021-33624 (2021-06-23)
 
@@ -5856,6 +5857,7 @@ Exim 4 before 4.94.2 allows Use After Free in smtp_reset in certain situations t
 </code>
 
 - [lmol/CVE-2020-28018](https://github.com/lmol/CVE-2020-28018)
+- [dorkerdevil/CVE-2020-28018](https://github.com/dorkerdevil/CVE-2020-28018)
 
 ### CVE-2020-28052 (2020-12-17)
 
@@ -10002,6 +10004,14 @@ In Nagios XI 5.6.9, an authenticated user is able to execute arbitrary OS comman
 
 - [lp008/CVE-2019-20197](https://github.com/lp008/CVE-2019-20197)
 - [jas502n/CVE-2019-20197](https://github.com/jas502n/CVE-2019-20197)
+
+### CVE-2019-20218 (2020-01-01)
+
+<code>
+selectExpander in select.c in SQLite 3.30.1 proceeds with WITH stack unwinding even after a parsing error.
+</code>
+
+- [artsking/Sqlite-CVE-2019-20218](https://github.com/artsking/Sqlite-CVE-2019-20218)
 
 ### CVE-2019-20224 (2020-01-09)
 
