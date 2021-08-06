@@ -1811,6 +1811,14 @@ A reflected cross-site scripting (XSS) vulnerability exists in multiple pages in
 
 - [dievus/CVE-2021-37833](https://github.com/dievus/CVE-2021-37833)
 
+### CVE-2021-38149 (2021-08-06)
+
+<code>
+index.php/admin/add_user in Chikitsa Patient Management System 2.0.0 allows XSS.
+</code>
+
+- [jboogie15/CVE-2021-38149](https://github.com/jboogie15/CVE-2021-38149)
+
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
 
@@ -6164,6 +6172,15 @@ Agentejo Cockpit before 0.11.2 allows NoSQL injection via the Controller/Auth.ph
 </code>
 
 - [JohnHammond/CVE-2020-35846](https://github.com/JohnHammond/CVE-2020-35846)
+- [0z09e/CVE-2020-35846](https://github.com/0z09e/CVE-2020-35846)
+
+### CVE-2020-35847 (2020-12-29)
+
+<code>
+Agentejo Cockpit before 0.11.2 allows NoSQL injection via the Controller/Auth.php resetpassword function.
+</code>
+
+- [w33vils/CVE-2020-35847_CVE-2020-35848](https://github.com/w33vils/CVE-2020-35847_CVE-2020-35848)
 
 ### CVE-2020-36079 (2021-02-26)
 
@@ -8345,6 +8362,7 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [starling021/CVE-2019-11932-SupportApp](https://github.com/starling021/CVE-2019-11932-SupportApp)
 - [Hacker-Yadav/CVE-2019-11932](https://github.com/Hacker-Yadav/CVE-2019-11932)
 - [BadAssAiras/hello](https://github.com/BadAssAiras/hello)
+- [kal1gh0st/WhatsAppHACK-RCE](https://github.com/kal1gh0st/WhatsAppHACK-RCE)
 - [zxn1/CVE-2019-11932](https://github.com/zxn1/CVE-2019-11932)
 - [k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932](https://github.com/k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932)
 
