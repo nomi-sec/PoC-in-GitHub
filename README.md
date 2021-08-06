@@ -432,6 +432,14 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
 
+### CVE-2021-3679 (2021-08-05)
+
+<code>
+A lack of CPU resource in the Linux kernel tracing module functionality in versions prior to 5.14-rc3 was found in the way user uses trace ring buffer in a specific way. Only privileged local users (with CAP_SYS_ADMIN capability) could use this flaw to starve the resources causing denial of service.
+</code>
+
+- [aegistudio/RingBufferDetonator](https://github.com/aegistudio/RingBufferDetonator)
+
 ### CVE-2021-6857
 - [ZiHeny/CVE-2021-6857](https://github.com/ZiHeny/CVE-2021-6857)
 
