@@ -16609,7 +16609,7 @@ The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the P
 Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
 </code>
 
-- [maviroxz/CVE-2016-8776](https://github.com/maviroxz/CVE-2016-8776)
+- [rerugan/CVE-2016-8776](https://github.com/rerugan/CVE-2016-8776)
 
 ### CVE-2016-8858 (2016-12-09)
 
