@@ -15131,14 +15131,6 @@ Certain D-Link products are affected by: Buffer Overflow. This affects DIR-880L 
 
 - [badnack/d_link_880_bug](https://github.com/badnack/d_link_880_bug)
 
-### CVE-2017-14980 (2017-10-09)
-
-<code>
-Buffer overflow in Sync Breeze Enterprise 10.0.28 allows remote attackers to have unspecified impact via a long username parameter to /login.
-</code>
-
-- [Xcatolin/SyncBreeze-BoF](https://github.com/Xcatolin/SyncBreeze-BoF)
-
 ### CVE-2017-15120 (2018-07-27)
 
 <code>
