@@ -148,6 +148,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 </code>
 
 - [freeide/CVE-2021-2394](https://github.com/freeide/CVE-2021-2394)
+- [BabyTeam1024/CVE-2021-2394](https://github.com/BabyTeam1024/CVE-2021-2394)
 
 ### CVE-2021-3007 (2021-01-03)
 
