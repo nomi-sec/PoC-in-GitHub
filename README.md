@@ -1828,6 +1828,14 @@ index.php/admin/add_user in Chikitsa Patient Management System 2.0.0 allows XSS.
 
 - [jboogie15/CVE-2021-38149](https://github.com/jboogie15/CVE-2021-38149)
 
+### CVE-2021-38185 (2021-08-07)
+
+<code>
+GNU cpio through 2.13 allows attackers to execute arbitrary code via a crafted pattern file, because of a dstring.c ds_fgetstr integer overflow that triggers an out-of-bounds heap write. NOTE: it is unclear whether there are common cases where the pattern file, associated with the -E option, is untrusted data.
+</code>
+
+- [fangqyi/cpiopwn](https://github.com/fangqyi/cpiopwn)
+
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
 
@@ -7424,6 +7432,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777](https://github.com/sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777)
 - [mcmahonr/cve-2019-6447](https://github.com/mcmahonr/cve-2019-6447)
 - [3hydraking/CVE-2019-6447](https://github.com/3hydraking/CVE-2019-6447)
+- [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 
 ### CVE-2019-6453 (2019-02-18)
 
@@ -16943,7 +16952,6 @@ Integer overflow in the SampleTable::setSampleToChunkParams function in SampleTa
 - [oguzhantopgul/cve-2015-1538-1](https://github.com/oguzhantopgul/cve-2015-1538-1)
 - [renjithsasidharan/cve-2015-1538-1](https://github.com/renjithsasidharan/cve-2015-1538-1)
 - [jduck/cve-2015-1538-1](https://github.com/jduck/cve-2015-1538-1)
-- [marZiiw/Stagefright_CVE-2015-1538-1](https://github.com/marZiiw/Stagefright_CVE-2015-1538-1)
 - [niranjanshr13/Stagefright-cve-2015-1538-1](https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1)
 - [Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation)
 - [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
