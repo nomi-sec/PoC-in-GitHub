@@ -132,6 +132,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
 - [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
+- [dinosn/CVE-2021-2109](https://github.com/dinosn/CVE-2021-2109)
 
 ### CVE-2021-2173 (2021-04-22)
 
@@ -1577,7 +1578,7 @@ A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an 
 Windows Kernel Information Disclosure Vulnerability
 </code>
 
-- [mavillon1/CVE-2021-31955-POC](https://github.com/mavillon1/CVE-2021-31955-POC)
+- [Lagal1990/CVE-2021-31955-POC](https://github.com/Lagal1990/CVE-2021-31955-POC)
 
 ### CVE-2021-32471 (2021-05-10)
 
@@ -1642,7 +1643,7 @@ In kernel/bpf/verifier.c in the Linux kernel before 5.12.13, a branch can be mis
 Microsoft DWM Core Library Elevation of Privilege Vulnerability
 </code>
 
-- [mavillon1/CVE-2021-33739-POC](https://github.com/mavillon1/CVE-2021-33739-POC)
+- [Lagal1990/CVE-2021-33739-POC](https://github.com/Lagal1990/CVE-2021-33739-POC)
 
 ### CVE-2021-33879 (2021-06-06)
 
@@ -2265,7 +2266,7 @@ An elevation of privilege vulnerability exists in the way that the User-Mode Pow
 A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font - Adobe Type 1 PostScript format.For all systems except Windows 10, an attacker who successfully exploited the vulnerability could execute code remotely, aka 'Adobe Font Manager Library Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0938.
 </code>
 
-- [mavillon1/CVE-2020-1020-Exploit](https://github.com/mavillon1/CVE-2020-1020-Exploit)
+- [Lagal1990/CVE-2020-1020-Exploit](https://github.com/Lagal1990/CVE-2020-1020-Exploit)
 
 ### CVE-2020-1034 (2020-09-11)
 
@@ -3707,8 +3708,8 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [DeviantSec/CVE-2020-9484-Scanner](https://github.com/DeviantSec/CVE-2020-9484-Scanner)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
-- [DarkRabbit-0/-CVE-2020-9484-](https://github.com/DarkRabbit-0/-CVE-2020-9484-)
-- [DarkRabbit-0/-CVE-2020-9484](https://github.com/DarkRabbit-0/-CVE-2020-9484)
+- [psauxx/-CVE-2020-9484-](https://github.com/psauxx/-CVE-2020-9484-)
+- [psauxx/-CVE-2020-9484](https://github.com/psauxx/-CVE-2020-9484)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
@@ -7845,7 +7846,7 @@ SQL injection vulnerability in the J2Store plugin 3.x before 3.3.7 for Joomla! a
 </code>
 
 - [wkjung0624/CVE-2019-9193](https://github.com/wkjung0624/CVE-2019-9193)
-- [DarkRabbit-0/CVE-2019-9193](https://github.com/DarkRabbit-0/CVE-2019-9193)
+- [psauxx/CVE-2019-9193](https://github.com/psauxx/CVE-2019-9193)
 
 ### CVE-2019-9194 (2019-02-26)
 
