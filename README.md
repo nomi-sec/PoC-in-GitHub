@@ -1676,6 +1676,14 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is un
 
 - [technion/CVE-2021-34470scanner](https://github.com/technion/CVE-2021-34470scanner)
 
+### CVE-2021-34473 (2021-07-14)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-31196, CVE-2021-31206.
+</code>
+
+- [cyberheartmi9/Proxyshell-Scanner](https://github.com/cyberheartmi9/Proxyshell-Scanner)
+
 ### CVE-2021-34496 (2021-07-14)
 
 <code>
@@ -1803,7 +1811,12 @@ Windows Elevation of Privilege Vulnerability
 - [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
 
-### CVE-2021-37152
+### CVE-2021-37152 (2021-08-10)
+
+<code>
+Multiple XSS issues exist in Sonatype Nexus Repository Manager 3 before 3.33.0. An authenticated attacker with the ability to add HTML files to a repository could redirect users to Nexus Repository Manager’s pages with code modifications.
+</code>
+
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
 
 ### CVE-2021-37832 (2021-08-03)
@@ -8186,6 +8199,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [alokaranasinghe/cve-2019-11043](https://github.com/alokaranasinghe/cve-2019-11043)
 - [corifeo/CVE-2019-11043](https://github.com/corifeo/CVE-2019-11043)
 - [lindemer/CVE-2019-11043](https://github.com/lindemer/CVE-2019-11043)
+- [jptr218/php_hack](https://github.com/jptr218/php_hack)
 
 ### CVE-2019-11061 (2019-08-28)
 
@@ -9961,7 +9975,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
 - [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
 - [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
-- [Jabo-SCO/Shitrix-CVE-2019-19781](https://github.com/Jabo-SCO/Shitrix-CVE-2019-19781)
+- [JamesG-Zero/Shitrix-CVE-2019-19781](https://github.com/JamesG-Zero/Shitrix-CVE-2019-19781)
 - [x1sec/CVE-2019-19781](https://github.com/x1sec/CVE-2019-19781)
 - [hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781)
 - [aqhmal/CVE-2019-19781](https://github.com/aqhmal/CVE-2019-19781)
