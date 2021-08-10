@@ -1252,6 +1252,7 @@ The ReplicationHandler (normally registered at &quot;/replication&quot; under a 
 
 - [Henry4E36/Solr-SSRF](https://github.com/Henry4E36/Solr-SSRF)
 - [W2Ning/Solr-SSRF](https://github.com/W2Ning/Solr-SSRF)
+- [murataydemir/CVE-2021-27905](https://github.com/murataydemir/CVE-2021-27905)
 
 ### CVE-2021-27928 (2021-03-18)
 
@@ -1512,9 +1513,6 @@ Command Injection in Open PLC Webserver v3 allows remote attackers to execute ar
 </code>
 
 - [h3v0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/h3v0x/CVE-2021-31630-OpenPLC_RCE)
-
-### CVE-2021-31655
-- [yinfeidi/CVE-2021-31655](https://github.com/yinfeidi/CVE-2021-31655)
 
 ### CVE-2021-31702 (2021-05-29)
 
@@ -11399,7 +11397,7 @@ An issue was discovered in the web server in Flexense SyncBreeze Enterprise 10.6
 YzmCMS 3.7 has Stored XSS via the title parameter to advertisement/adver/edit.html.
 </code>
 
-- [AlwaysHereFight/YZMCMSxss](https://github.com/AlwaysHereFight/YZMCMSxss)
+- [Jx0n0/YZMCMSxss](https://github.com/Jx0n0/YZMCMSxss)
 
 ### CVE-2018-8090 (2018-07-25)
 
@@ -12791,7 +12789,7 @@ The JCK Editor component 6.4.4 for Joomla! allows SQL Injection via the jtreelin
 Monstra CMS 3.0.4 allows remote attackers to execute arbitrary PHP code via a mixed-case file extension, as demonstrated by the 123.PhP filename, because plugins\box\filesmanager\filesmanager.admin.php mishandles the forbidden_types variable.
 </code>
 
-- [AlwaysHereFight/monstra_cms-3.0.4--getshell](https://github.com/AlwaysHereFight/monstra_cms-3.0.4--getshell)
+- [Jx0n0/monstra_cms-3.0.4--getshell](https://github.com/Jx0n0/monstra_cms-3.0.4--getshell)
 
 ### CVE-2018-17431 (2019-01-29)
 
