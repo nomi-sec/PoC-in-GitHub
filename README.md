@@ -1513,6 +1513,9 @@ Command Injection in Open PLC Webserver v3 allows remote attackers to execute ar
 
 - [h3v0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/h3v0x/CVE-2021-31630-OpenPLC_RCE)
 
+### CVE-2021-31655
+- [yinfeidi/CVE-2021-31655](https://github.com/yinfeidi/CVE-2021-31655)
+
 ### CVE-2021-31702 (2021-05-29)
 
 <code>
@@ -2267,6 +2270,7 @@ A remote code execution vulnerability exists in Microsoft Windows when the Windo
 </code>
 
 - [Lagal1990/CVE-2020-1020-Exploit](https://github.com/Lagal1990/CVE-2020-1020-Exploit)
+- [KaLendsi/CVE-2020-1020](https://github.com/KaLendsi/CVE-2020-1020)
 
 ### CVE-2020-1034 (2020-09-11)
 
@@ -18183,7 +18187,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit)
 - [internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271)
 - [pwnGuy/shellshock-shell](https://github.com/pwnGuy/shellshock-shell)
-- [vonnyfly/shellshock_crawler](https://github.com/vonnyfly/shellshock_crawler)
+- [x2c3z4/shellshock_crawler](https://github.com/x2c3z4/shellshock_crawler)
 - [u20024804/bash-3.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271)
 - [u20024804/bash-4.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271)
 - [u20024804/bash-4.3-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271)
