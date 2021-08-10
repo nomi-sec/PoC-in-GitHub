@@ -1810,6 +1810,7 @@ Windows Elevation of Privilege Vulnerability
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
 - [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
+- [OlivierLaflamme/CVE-2021-36934_export_shadow_volume](https://github.com/OlivierLaflamme/CVE-2021-36934_export_shadow_volume)
 
 ### CVE-2021-37152 (2021-08-10)
 
@@ -14653,7 +14654,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
-- [d3ftx/laravel-phpunit-rce-masscaner](https://github.com/d3ftx/laravel-phpunit-rce-masscaner)
+- [incogbyte/laravel-phpunit-rce-masscaner](https://github.com/incogbyte/laravel-phpunit-rce-masscaner)
 
 ### CVE-2017-9934 (2017-07-17)
 
