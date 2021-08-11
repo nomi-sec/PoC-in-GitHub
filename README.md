@@ -1683,6 +1683,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 </code>
 
 - [cyberheartmi9/Proxyshell-Scanner](https://github.com/cyberheartmi9/Proxyshell-Scanner)
+- [RaouzRouik/CVE-2021-34473-scanner](https://github.com/RaouzRouik/CVE-2021-34473-scanner)
 
 ### CVE-2021-34496 (2021-07-14)
 
@@ -6158,6 +6159,7 @@ Arbitrary command execution can occur in Webmin through 1.962. Any user authoriz
 </code>
 
 - [anasbousselham/webminscan](https://github.com/anasbousselham/webminscan)
+- [puckiestyle/CVE-2020-35606](https://github.com/puckiestyle/CVE-2020-35606)
 
 ### CVE-2020-35682 (2021-03-13)
 
@@ -9202,6 +9204,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
 - [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
+- [puckiestyle/CVE-2019-15107](https://github.com/puckiestyle/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
