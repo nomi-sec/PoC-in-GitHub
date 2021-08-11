@@ -1685,6 +1685,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [cyberheartmi9/Proxyshell-Scanner](https://github.com/cyberheartmi9/Proxyshell-Scanner)
 - [RaouzRouik/CVE-2021-34473-scanner](https://github.com/RaouzRouik/CVE-2021-34473-scanner)
 
+### CVE-2021-34481 (2021-07-16)
+
+<code>
+Windows Print Spooler Elevation of Privilege Vulnerability
+</code>
+
+- [vanpn/CVE-2021-34481](https://github.com/vanpn/CVE-2021-34481)
+
 ### CVE-2021-34496 (2021-07-14)
 
 <code>
@@ -13631,6 +13639,14 @@ The ping_unhash function in net/ipv4/ping.c in the Linux kernel through 4.10.8 i
 </code>
 
 - [homjxi0e/CVE-2017-2671](https://github.com/homjxi0e/CVE-2017-2671)
+
+### CVE-2017-2741 (2018-01-23)
+
+<code>
+A potential security vulnerability has been identified with HP PageWide Printers, HP OfficeJet Pro Printers, with firmware before 1708D. This vulnerability could potentially be exploited to execute arbitrary code.
+</code>
+
+- [dopheide-esnet/zeek-jetdirect](https://github.com/dopheide-esnet/zeek-jetdirect)
 
 ### CVE-2017-2751 (2018-10-03)
 
