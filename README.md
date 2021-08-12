@@ -1861,6 +1861,9 @@ GNU cpio through 2.13 allows attackers to execute arbitrary code via a crafted p
 
 - [fangqyi/cpiopwn](https://github.com/fangqyi/cpiopwn)
 
+### CVE-2021-38583
+- [charlesbickel/CVE-2021-38583](https://github.com/charlesbickel/CVE-2021-38583)
+
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
 
