@@ -1862,7 +1862,12 @@ GNU cpio through 2.13 allows attackers to execute arbitrary code via a crafted p
 
 - [fangqyi/cpiopwn](https://github.com/fangqyi/cpiopwn)
 
-### CVE-2021-38583
+### CVE-2021-38583 (2021-08-13)
+
+<code>
+openBaraza HCM 3.1.6 does not properly neutralize user-controllable input, which allows reflected cross-site scripting (XSS) on multiple pages: hr/subscription.jsp and hr/application.jsp and and hr/index.jsp (with view= and data=).
+</code>
+
 - [charlesbickel/CVE-2021-38583](https://github.com/charlesbickel/CVE-2021-38583)
 
 ### CVE-2021-38600
@@ -1886,6 +1891,14 @@ PluXML 5.8.7 allows core/admin/profil.php stored XSS via the Information field.
 </code>
 
 - [KielVaughn/CVE-2021-38603](https://github.com/KielVaughn/CVE-2021-38603)
+
+### CVE-2021-38619 (-)
+
+<code>
+openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an unauthenticated remote attacker can conduct a stored cross-site scripting (XSS) attack against an administrative user from hr/subscription.jsp and hr/application.jsp and and hr/index.jsp (with view=).
+</code>
+
+- [charlesbickel/CVE-2021-38619](https://github.com/charlesbickel/CVE-2021-38619)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
@@ -1932,7 +1945,6 @@ In binder_transaction of binder.c, there is a possible out of bounds write due t
 - [minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041)
 - [minutesinch/CVE-2020-0041-Original](https://github.com/minutesinch/CVE-2020-0041-Original)
 - [TechnoHT/CVE-2020-0041](https://github.com/TechnoHT/CVE-2020-0041)
-- [Byte-Master-101/CVE-2020-0041](https://github.com/Byte-Master-101/CVE-2020-0041)
 
 ### CVE-2020-0069 (2020-03-10)
 
@@ -5408,6 +5420,7 @@ A Remote Code Execution vulnerability exists in the gVectors wpDiscuz plugin 7.0
 </code>
 
 - [h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE](https://github.com/h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE)
+- [meicookies/CVE-2020-24186](https://github.com/meicookies/CVE-2020-24186)
 
 ### CVE-2020-24227 (2020-11-23)
 
