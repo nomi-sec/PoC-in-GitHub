@@ -1892,7 +1892,7 @@ PluXML 5.8.7 allows core/admin/profil.php stored XSS via the Information field.
 
 - [KielVaughn/CVE-2021-38603](https://github.com/KielVaughn/CVE-2021-38603)
 
-### CVE-2021-38619 (-)
+### CVE-2021-38619 (2021-08-13)
 
 <code>
 openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an unauthenticated remote attacker can conduct a stored cross-site scripting (XSS) attack against an administrative user from hr/subscription.jsp and hr/application.jsp and and hr/index.jsp (with view=).
@@ -19568,7 +19568,6 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 </code>
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
-- [3hydraking/CVE-2009-2265](https://github.com/3hydraking/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
@@ -19577,14 +19576,6 @@ The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not in
 </code>
 
 - [jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692)
-
-### CVE-2009-2698 (2009-08-27)
-
-<code>
-The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
-</code>
-
-- [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
 
 ### CVE-2009-3103 (2009-09-08)
 
