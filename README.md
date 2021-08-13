@@ -1871,10 +1871,20 @@ GNU cpio through 2.13 allows attackers to execute arbitrary code via a crafted p
 ### CVE-2021-38601
 - [hmaverickadams/CVE-2021-38601](https://github.com/hmaverickadams/CVE-2021-38601)
 
-### CVE-2021-38602
+### CVE-2021-38602 (2021-08-12)
+
+<code>
+PluXML 5.8.7 allows Article Editing stored XSS via Headline or Content.
+</code>
+
 - [KielVaughn/CVE-2021-38602](https://github.com/KielVaughn/CVE-2021-38602)
 
-### CVE-2021-38603
+### CVE-2021-38603 (2021-08-12)
+
+<code>
+PluXML 5.8.7 allows core/admin/profil.php stored XSS via the Information field.
+</code>
+
 - [KielVaughn/CVE-2021-38603](https://github.com/KielVaughn/CVE-2021-38603)
 
 ### CVE-2021-123456
@@ -14245,6 +14255,7 @@ A deserialization flaw was discovered in the jackson-databind, versions before 2
 - [JavanXD/Demo-Exploit-Jackson-RCE](https://github.com/JavanXD/Demo-Exploit-Jackson-RCE)
 - [BassinD/jackson-RCE](https://github.com/BassinD/jackson-RCE)
 - [Dannners/jackson-deserialization-2017-7525](https://github.com/Dannners/jackson-deserialization-2017-7525)
+- [Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab](https://github.com/Ingenuity-Fainting-Goats/CVE-2017-7525-Jackson-Deserialization-Lab)
 
 ### CVE-2017-7529 (2017-07-13)
 
@@ -14295,6 +14306,7 @@ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Serie
 
 - [JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP)
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
+- [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
 - [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 
 ### CVE-2017-7998 (2018-01-08)
@@ -14515,6 +14527,7 @@ import.php (aka the Phonebook import feature) in PlaySMS 1.4 allows remote code 
 Telerik.Web.UI.dll in Progress Telerik UI for ASP.NET AJAX before R2 2017 SP1 and Sitefinity before 10.0.6412.0 does not properly protect Telerik.Web.UI.DialogParametersEncryptionKey or the MachineKey, which makes it easier for remote attackers to defeat cryptographic protection mechanisms, leading to a MachineKey leak, arbitrary file uploads or downloads, XSS, or ASP.NET ViewState compromise.
 </code>
 
+- [bao7uo/dp_crypto](https://github.com/bao7uo/dp_crypto)
 - [capt-meelo/Telewreck](https://github.com/capt-meelo/Telewreck)
 - [ictnamanh/CVE-2017-9248](https://github.com/ictnamanh/CVE-2017-9248)
 - [shacojx/dp](https://github.com/shacojx/dp)
@@ -14831,6 +14844,7 @@ The XML-RPC server in supervisor before 3.0.1, 3.1.x before 3.1.4, 3.2.x before 
 </code>
 
 - [ivanitlearning/CVE-2017-11610](https://github.com/ivanitlearning/CVE-2017-11610)
+- [yaunsky/CVE-2017-11610](https://github.com/yaunsky/CVE-2017-11610)
 
 ### CVE-2017-11611 (2017-09-08)
 
@@ -14900,9 +14914,11 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882)
 - [R0fM1a/IDB_Share](https://github.com/R0fM1a/IDB_Share)
 - [chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882)
+- [littlebin404/CVE-2017-11882](https://github.com/littlebin404/CVE-2017-11882)
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 - [dcsync/rtfkit](https://github.com/dcsync/rtfkit)
+- [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
 - [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 
 ### CVE-2017-11907 (2017-12-12)
@@ -15303,6 +15319,14 @@ Cross-site scripting (XSS) vulnerability in Logitech Media Server 7.9.0 allows r
 
 - [dewankpant/CVE-2017-16568](https://github.com/dewankpant/CVE-2017-16568)
 
+### CVE-2017-16651 (2017-11-09)
+
+<code>
+Roundcube Webmail before 1.1.10, 1.2.x before 1.2.7, and 1.3.x before 1.3.3 allows unauthorized access to arbitrary files on the host's filesystem, including configuration files, as exploited in the wild in November 2017. The attacker must be able to authenticate at the target system with a valid username/password as the attack requires an active session. The issue is related to file-based attachment plugins and _task=settings&amp;_action=upload-display&amp;_from=timezone requests.
+</code>
+
+- [stonepresto/CVE-2017-16651](https://github.com/stonepresto/CVE-2017-16651)
+
 ### CVE-2017-16744 (2018-08-20)
 
 <code>
@@ -15326,6 +15350,14 @@ The Process function in RemoteTaskServer/WebServer/HttpServer.cs in Ulterius bef
 </code>
 
 - [rickoooooo/ulteriusExploit](https://github.com/rickoooooo/ulteriusExploit)
+
+### CVE-2017-16894 (2017-11-19)
+
+<code>
+In Laravel framework through 5.5.21, remote attackers can obtain sensitive information (such as externally usable passwords) via a direct request for the /.env URI. NOTE: this CVE is only about Laravel framework's writeNewEnvironmentFileWith function in src/Illuminate/Foundation/Console/KeyGenerateCommand.php, which uses file_put_contents without restricting the .env permissions. The .env filename is not used exclusively by Laravel framework.
+</code>
+
+- [ahacker15/CVE-2017-16894](https://github.com/ahacker15/CVE-2017-16894)
 
 ### CVE-2017-16943 (2017-11-25)
 
