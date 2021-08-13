@@ -4719,6 +4719,7 @@ An out-of-bounds read/write access flaw was found in the USB emulator of the QEM
 </code>
 
 - [gejian-iscas/CVE-2020-14364](https://github.com/gejian-iscas/CVE-2020-14364)
+- [y-f00l/CVE-2020-14364](https://github.com/y-f00l/CVE-2020-14364)
 
 ### CVE-2020-14368 (2020-12-14)
 
