@@ -443,12 +443,6 @@ A lack of CPU resource in the Linux kernel tracing module functionality in versi
 
 - [aegistudio/RingBufferDetonator](https://github.com/aegistudio/RingBufferDetonator)
 
-### CVE-2021-6857
-- [ZiHeny/CVE-2021-6857](https://github.com/ZiHeny/CVE-2021-6857)
-
-### CVE-2021-9999
-- [Reach-Z/CVE-2021-9999](https://github.com/Reach-Z/CVE-2021-9999)
-
 ### CVE-2021-10086
 - [Mochican/CVE-2021-10086](https://github.com/Mochican/CVE-2021-10086)
 
