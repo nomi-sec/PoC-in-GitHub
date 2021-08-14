@@ -858,6 +858,14 @@ Windows Console Driver Denial of Service Vulnerability
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
 
+### CVE-2021-24145 (2021-03-18)
+
+<code>
+Arbitrary file upload in the Modern Events Calendar Lite WordPress plugin, versions before 5.16.5, did not properly check the imported file, allowing PHP ones to be uploaded by administrator by using the 'text/csv' content-type in the request.
+</code>
+
+- [dnr6419/CVE-2021-24145](https://github.com/dnr6419/CVE-2021-24145)
+
 ### CVE-2021-24155 (2021-04-05)
 
 <code>
@@ -1055,6 +1063,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon)
 - [Immersive-Labs-Sec/ProxyLogon](https://github.com/Immersive-Labs-Sec/ProxyLogon)
 - [shacojx/Scan-Vuln-CVE-2021-26855](https://github.com/shacojx/Scan-Vuln-CVE-2021-26855)
+- [SotirisKar/CVE-2021-26855](https://github.com/SotirisKar/CVE-2021-26855)
 - [TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit](https://github.com/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit)
 - [p0wershe11/ProxyLogon](https://github.com/p0wershe11/ProxyLogon)
 - [r0ckysec/CVE-2021-26855_Exchange](https://github.com/r0ckysec/CVE-2021-26855_Exchange)
@@ -1497,6 +1506,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
 - [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
+- [c4dr01d/CVE-2021-31166](https://github.com/c4dr01d/CVE-2021-31166)
 
 ### CVE-2021-31184 (2021-05-11)
 
@@ -1596,6 +1606,14 @@ Realtek HAD contains a driver crashed vulnerability which allows local side atta
 </code>
 
 - [0vercl0k/CVE-2021-32537](https://github.com/0vercl0k/CVE-2021-32537)
+
+### CVE-2021-32644 (2021-06-22)
+
+<code>
+Ampache is an open source web based audio/video streaming application and file manager. Due to a lack of input filtering versions 4.x.y are vulnerable to code injection in random.php. The attack requires user authentication to access the random.php page unless the site is running in demo mode. This issue has been resolved in 4.4.3.
+</code>
+
+- [dnr6419/CVE-2021-32644](https://github.com/dnr6419/CVE-2021-32644)
 
 ### CVE-2021-32819 (2021-05-14)
 
@@ -6554,6 +6572,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [yourekillingme/CVE-2019-0708](https://github.com/yourekillingme/CVE-2019-0708)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
+- [c4dr01d/CVE-2019-0708](https://github.com/c4dr01d/CVE-2019-0708)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -19568,6 +19587,7 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 </code>
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
+- [3hydraking/CVE-2009-2265](https://github.com/3hydraking/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
@@ -19576,6 +19596,14 @@ The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not in
 </code>
 
 - [jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692)
+
+### CVE-2009-2698 (2009-08-27)
+
+<code>
+The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
+</code>
+
+- [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
 
 ### CVE-2009-3103 (2009-09-08)
 
