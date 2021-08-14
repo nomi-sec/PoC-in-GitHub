@@ -1834,6 +1834,14 @@ Windows Elevation of Privilege Vulnerability
 - [OlivierLaflamme/CVE-2021-36934_export_shadow_volume](https://github.com/OlivierLaflamme/CVE-2021-36934_export_shadow_volume)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
 
+### CVE-2021-36949 (2021-08-12)
+
+<code>
+Microsoft Azure Active Directory Connect Authentication Bypass Vulnerability
+</code>
+
+- [Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability](https://github.com/Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability)
+
 ### CVE-2021-37152 (2021-08-10)
 
 <code>
@@ -1911,6 +1919,9 @@ openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an un
 </code>
 
 - [charlesbickel/CVE-2021-38619](https://github.com/charlesbickel/CVE-2021-38619)
+
+### CVE-2021-38699
+- [Justin-1993/CVE-2021-38699](https://github.com/Justin-1993/CVE-2021-38699)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
@@ -2596,6 +2607,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat](https://github.com/Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat)
 - [streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938)
 - [Neko2sh1ro/CVE-2020-1938](https://github.com/Neko2sh1ro/CVE-2020-1938)
+- [jptr218/ghostcat](https://github.com/jptr218/ghostcat)
 
 ### CVE-2020-1947 (2020-03-11)
 
