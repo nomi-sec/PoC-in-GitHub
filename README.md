@@ -1307,6 +1307,7 @@ Hyper-V Remote Code Execution Vulnerability
 
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
 - [bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476)
+- [sh4m2hwz/CVE-2021-28476-tools-env](https://github.com/sh4m2hwz/CVE-2021-28476-tools-env)
 
 ### CVE-2021-28480 (2021-04-13)
 
@@ -11869,7 +11870,6 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [akuhidayat/HTC](https://github.com/akuhidayat/HTC)
 - [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
 - [HACKGM/CVE-2018-9995](https://github.com/HACKGM/CVE-2018-9995)
-- [kienquoc102/CVE-2018-9995-Exploit](https://github.com/kienquoc102/CVE-2018-9995-Exploit)
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
 
 ### CVE-2018-10118 (2018-04-15)
@@ -17829,6 +17829,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
+- [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
 
 ### CVE-2014-0166 (2014-04-09)
 
