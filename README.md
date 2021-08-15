@@ -1922,7 +1922,12 @@ openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an un
 
 - [charlesbickel/CVE-2021-38619](https://github.com/charlesbickel/CVE-2021-38619)
 
-### CVE-2021-38699
+### CVE-2021-38699 (2021-08-15)
+
+<code>
+TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and /admin/system_logs.
+</code>
+
 - [Justin-1993/CVE-2021-38699](https://github.com/Justin-1993/CVE-2021-38699)
 
 ### CVE-2021-123456
