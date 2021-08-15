@@ -9271,6 +9271,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
 - [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
+- [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 - [puckiestyle/CVE-2019-15107](https://github.com/puckiestyle/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
