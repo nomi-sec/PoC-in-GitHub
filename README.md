@@ -276,7 +276,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
-- [Kleptocratic/CVE-2021-3156](https://github.com/Kleptocratic/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -444,6 +443,14 @@ A lack of CPU resource in the Linux kernel tracing module functionality in versi
 </code>
 
 - [aegistudio/RingBufferDetonator](https://github.com/aegistudio/RingBufferDetonator)
+
+### CVE-2021-3707 (2021-08-16)
+
+<code>
+D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to unauthorized configuration modification. An unauthenticated attacker on the local network may exploit this, with CVE-2021-3708, to execute any OS commands on the vulnerable device.
+</code>
+
+- [HadiMed/firmware-analysis](https://github.com/HadiMed/firmware-analysis)
 
 ### CVE-2021-10086
 - [Mochican/CVE-2021-10086](https://github.com/Mochican/CVE-2021-10086)
@@ -1308,7 +1315,6 @@ Hyper-V Remote Code Execution Vulnerability
 
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
 - [bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476)
-- [sh4m2hwz/CVE-2021-28476-tools-env](https://github.com/sh4m2hwz/CVE-2021-28476-tools-env)
 
 ### CVE-2021-28480 (2021-04-13)
 
@@ -1699,6 +1705,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [cyberheartmi9/Proxyshell-Scanner](https://github.com/cyberheartmi9/Proxyshell-Scanner)
 - [RaouzRouik/CVE-2021-34473-scanner](https://github.com/RaouzRouik/CVE-2021-34473-scanner)
+- [whichbuffer/CVE-2021-34473](https://github.com/whichbuffer/CVE-2021-34473)
 
 ### CVE-2021-34481 (2021-07-16)
 
@@ -1837,14 +1844,6 @@ Windows Elevation of Privilege Vulnerability
 - [OlivierLaflamme/CVE-2021-36934_export_shadow_volume](https://github.com/OlivierLaflamme/CVE-2021-36934_export_shadow_volume)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
 
-### CVE-2021-36949 (2021-08-12)
-
-<code>
-Microsoft Azure Active Directory Connect Authentication Bypass Vulnerability
-</code>
-
-- [Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability](https://github.com/Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability)
-
 ### CVE-2021-37152 (2021-08-10)
 
 <code>
@@ -1922,16 +1921,6 @@ openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an un
 </code>
 
 - [charlesbickel/CVE-2021-38619](https://github.com/charlesbickel/CVE-2021-38619)
-
-### CVE-2021-38699 (2021-08-15)
-
-<code>
-TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and /admin/system_logs.
-</code>
-
-- [HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS)
-- [HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS)
-- [Justin-1993/CVE-2021-38699](https://github.com/Justin-1993/CVE-2021-38699)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
@@ -2617,7 +2606,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat](https://github.com/Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat)
 - [streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938)
 - [Neko2sh1ro/CVE-2020-1938](https://github.com/Neko2sh1ro/CVE-2020-1938)
-- [jptr218/ghostcat](https://github.com/jptr218/ghostcat)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -3437,7 +3425,6 @@ A Node.js application that allows an attacker to trigger a DNS request for a hos
 
 - [masahiro331/CVE-2020-8277](https://github.com/masahiro331/CVE-2020-8277)
 - [AndrewIjano/CVE-2020-8277](https://github.com/AndrewIjano/CVE-2020-8277)
-- [progfay/CVE-2020-8277](https://github.com/progfay/CVE-2020-8277)
 
 ### CVE-2020-8287 (2021-01-06)
 
@@ -17837,7 +17824,6 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
-- [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
 
 ### CVE-2014-0166 (2014-04-09)
 
