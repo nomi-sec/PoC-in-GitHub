@@ -276,6 +276,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
+- [Kleptocratic/CVE-2021-3156](https://github.com/Kleptocratic/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -1928,6 +1929,8 @@ openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an un
 TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and /admin/system_logs.
 </code>
 
+- [HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS)
+- [HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS)
 - [Justin-1993/CVE-2021-38699](https://github.com/Justin-1993/CVE-2021-38699)
 
 ### CVE-2021-123456
