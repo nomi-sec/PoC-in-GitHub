@@ -276,6 +276,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
+- [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -933,6 +934,22 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 
 ### CVE-2021-25735
 - [darryk10/CVE-2021-25735](https://github.com/darryk10/CVE-2021-25735)
+
+### CVE-2021-25790 (2021-07-23)
+
+<code>
+Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Register&quot; module of House Rental and Property Listing 1.0 allows authenticated attackers to execute arbitrary web scripts or HTML via crafted payloads in all text fields except for Phone Number and Alternate Phone Number.
+</code>
+
+- [MrCraniums/CVE-2021-25790-Multiple-Stored-XSS](https://github.com/MrCraniums/CVE-2021-25790-Multiple-Stored-XSS)
+
+### CVE-2021-25791 (2021-07-23)
+
+<code>
+Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Update Profile&quot; module of Online Doctor Appointment System 1.0 allows authenticated attackers to execute arbitrary web scripts or HTML via crafted payloads in the First Name, Last Name, and Address text fields.
+</code>
+
+- [MrCraniums/CVE-2021-25791-Multiple-Stored-XSS](https://github.com/MrCraniums/CVE-2021-25791-Multiple-Stored-XSS)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1705,7 +1722,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [cyberheartmi9/Proxyshell-Scanner](https://github.com/cyberheartmi9/Proxyshell-Scanner)
 - [RaouzRouik/CVE-2021-34473-scanner](https://github.com/RaouzRouik/CVE-2021-34473-scanner)
-- [whichbuffer/CVE-2021-34473](https://github.com/whichbuffer/CVE-2021-34473)
+- [phamphuqui1998/CVE-2021-34473](https://github.com/phamphuqui1998/CVE-2021-34473)
 
 ### CVE-2021-34481 (2021-07-16)
 
@@ -11174,6 +11191,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jaya522/CVE-2018-6574-go-get-RCE](https://github.com/jaya522/CVE-2018-6574-go-get-RCE)
 - [noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574)
 - [ErnestZiemkowski/cve-2018-6574](https://github.com/ErnestZiemkowski/cve-2018-6574)
+- [l3ouu4n9/CVE-2018-6574-POC](https://github.com/l3ouu4n9/CVE-2018-6574-POC)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -13786,6 +13804,7 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Serve
 </code>
 
 - [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
+- [jptr218/mysql_dos](https://github.com/jptr218/mysql_dos)
 
 ### CVE-2017-3730 (2017-05-04)
 
