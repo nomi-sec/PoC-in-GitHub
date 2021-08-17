@@ -15777,6 +15777,7 @@ Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusi
 
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 - [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
+- [BabyTeam1024/CVE-2016-0638](https://github.com/BabyTeam1024/CVE-2016-0638)
 
 ### CVE-2016-0701 (2016-02-14)
 
