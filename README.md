@@ -1951,6 +1951,9 @@ TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and 
 ### CVE-2021-38710
 - [security-n/CVE-2021-38710](https://github.com/security-n/CVE-2021-38710)
 
+### CVE-2021-39273
+- [nikip72/CVE-2021-39273-CVE-2021-39274](https://github.com/nikip72/CVE-2021-39273-CVE-2021-39274)
+
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
 
@@ -5871,6 +5874,7 @@ In Eclipse Jetty 9.4.6.v20170531 to 9.4.36.v20210114 (inclusive), 10.0.0, and 11
 </code>
 
 - [motikan2010/CVE-2020-27223](https://github.com/motikan2010/CVE-2020-27223)
+- [ttestoo/Jetty-CVE-2020-27223](https://github.com/ttestoo/Jetty-CVE-2020-27223)
 
 ### CVE-2020-27358 (2020-10-31)
 
@@ -7311,6 +7315,14 @@ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution whe
 - [jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-](https://github.com/jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-)
 - [rabbitmask/CVE-2019-5475-EXP](https://github.com/rabbitmask/CVE-2019-5475-EXP)
 - [lyy289065406/CVE-2019-5475](https://github.com/lyy289065406/CVE-2019-5475)
+
+### CVE-2019-5481 (2019-09-16)
+
+<code>
+Double-free vulnerability in the FTP-kerberos code in cURL 7.52.0 to 7.65.3.
+</code>
+
+- [madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch)
 
 ### CVE-2019-5489 (2019-01-07)
 
