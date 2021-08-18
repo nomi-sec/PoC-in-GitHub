@@ -703,6 +703,14 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [haiclover/CVE-2021-21985](https://github.com/haiclover/CVE-2021-21985)
 - [aristosMiliaressis/CVE-2021-21985](https://github.com/aristosMiliaressis/CVE-2021-21985)
 
+### CVE-2021-22123 (2021-06-01)
+
+<code>
+An OS command injection vulnerability in FortiWeb's management interface 6.3.7 and below, 6.2.3 and below, 6.1.x, 6.0.x, 5.9.x may allow a remote authenticated attacker to execute arbitrary commands on the system via the SAML server configuration page.
+</code>
+
+- [murataydemir/CVE-2021-22123](https://github.com/murataydemir/CVE-2021-22123)
+
 ### CVE-2021-22146 (2021-07-21)
 
 <code>
@@ -1948,7 +1956,12 @@ TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and 
 
 - [HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS)
 
-### CVE-2021-38710
+### CVE-2021-38710 (-)
+
+<code>
+Static (Persistent) XSS Vulnerability exists in version 4.3.0 of Yclas when using the install/view/form.php script. An attacker can store XSS in the database through the vulnerable SITE_NAME parameter.
+</code>
+
 - [security-n/CVE-2021-38710](https://github.com/security-n/CVE-2021-38710)
 
 ### CVE-2021-39273
@@ -3404,6 +3417,15 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 - [progfay/CVE-2020-8165](https://github.com/progfay/CVE-2020-8165)
 - [danielklim/cve-2020-8165-demo](https://github.com/danielklim/cve-2020-8165-demo)
 
+### CVE-2020-8169 (2020-12-14)
+
+<code>
+curl 7.62.0 through 7.70.0 is vulnerable to an information disclosure vulnerability that can lead to a partial password being leaked over the network and to the DNS server(s).
+</code>
+
+- [madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch)
+- [madhans23/curl-curl-7_64_1_CVE-2020-8169_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_withPatch)
+
 ### CVE-2020-8175 (2020-07-24)
 
 <code>
@@ -3457,6 +3479,22 @@ A Node.js application that allows an attacker to trigger a DNS request for a hos
 
 - [masahiro331/CVE-2020-8277](https://github.com/masahiro331/CVE-2020-8277)
 - [AndrewIjano/CVE-2020-8277](https://github.com/AndrewIjano/CVE-2020-8277)
+
+### CVE-2020-8284 (2020-12-14)
+
+<code>
+A malicious server can use the FTP PASV response to trick curl 7.73.0 and earlier into connecting back to a given IP address and port, and this way potentially make curl extract information about services that are otherwise private and not disclosed, for example doing port scanning and service banner extractions.
+</code>
+
+- [artsking/curl-7.64.1_CVE-2020-8284_WithPatch](https://github.com/artsking/curl-7.64.1_CVE-2020-8284_WithPatch)
+
+### CVE-2020-8285 (2020-12-14)
+
+<code>
+curl 7.21.0 to and including 7.73.0 is vulnerable to uncontrolled recursion due to a stack overflow issue in FTP wildcard match parsing.
+</code>
+
+- [artsking/curl-7.64.1_CVE-2020-8285_WithPatch](https://github.com/artsking/curl-7.64.1_CVE-2020-8285_WithPatch)
 
 ### CVE-2020-8287 (2021-01-06)
 
@@ -7323,6 +7361,7 @@ Double-free vulnerability in the FTP-kerberos code in cURL 7.52.0 to 7.65.3.
 </code>
 
 - [madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch)
+- [madhans23/curl-curl-7_64_1_CVE-2019-5481_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_withPatch)
 
 ### CVE-2019-5489 (2019-01-07)
 
