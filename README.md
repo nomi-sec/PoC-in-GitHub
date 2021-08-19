@@ -13139,6 +13139,7 @@ The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRA
 </code>
 
 - [ASkyeye/CVE-2018-19320](https://github.com/ASkyeye/CVE-2018-19320)
+- [hmsec/CVE-2018-19320-LPE](https://github.com/hmsec/CVE-2018-19320-LPE)
 
 ### CVE-2018-19422 (2018-11-21)
 
@@ -19937,10 +19938,8 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
 - [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
 - [ozuma/CVE-2007-2447](https://github.com/ozuma/CVE-2007-2447)
-- [Un4gi/CVE-2007-2447](https://github.com/Un4gi/CVE-2007-2447)
 - [Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster)
 - [cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447)
-- [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
 - [3hydraking/usermap_script_CVE-2007-2447](https://github.com/3hydraking/usermap_script_CVE-2007-2447)
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 
