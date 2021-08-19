@@ -1826,6 +1826,14 @@ Blackboard Learn through 9.1 allows XSS by an authenticated user via the Feedbac
 
 - [cseasholtz/CVE-2021-36747](https://github.com/cseasholtz/CVE-2021-36747)
 
+### CVE-2021-36798 (2021-08-09)
+
+<code>
+A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSystems Cobalt Strike 4.2 and 4.3. It allows remote attackers to crash the C2 server thread and block beacons' communication with it.
+</code>
+
+- [M-Kings/CVE-2021-36798](https://github.com/M-Kings/CVE-2021-36798)
+
 ### CVE-2021-36799 (2021-07-19)
 
 <code>
@@ -1956,7 +1964,12 @@ Static (Persistent) XSS Vulnerability exists in version 4.3.0 of Yclas when usin
 
 - [security-n/CVE-2021-38710](https://github.com/security-n/CVE-2021-38710)
 
-### CVE-2021-39273
+### CVE-2021-39273 (2021-08-19)
+
+<code>
+In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set upon application execution, allowing an unprivileged user to modify the application, modules, and configuration files. This leads to arbitrary code execution with root privileges.
+</code>
+
 - [nikip72/CVE-2021-39273-CVE-2021-39274](https://github.com/nikip72/CVE-2021-39273-CVE-2021-39274)
 
 ### CVE-2021-39281
@@ -13126,7 +13139,6 @@ The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRA
 </code>
 
 - [ASkyeye/CVE-2018-19320](https://github.com/ASkyeye/CVE-2018-19320)
-- [a00x90/CVE-2018-19320](https://github.com/a00x90/CVE-2018-19320)
 
 ### CVE-2018-19422 (2018-11-21)
 
