@@ -334,14 +334,6 @@ KLog Server through 2.4.1 allows authenticated command injection. async.php call
 
 - [Al1ex/CVE-2021-3317](https://github.com/Al1ex/CVE-2021-3317)
 
-### CVE-2021-3327 (2021-03-18)
-
-<code>
-Ovation Dynamic Content 1.10.1 for Elementor allows XSS via the post_title parameter.
-</code>
-
-- [IthacaLabs/CVE-2021-3327](https://github.com/IthacaLabs/CVE-2021-3327)
-
 ### CVE-2021-3345 (2021-01-29)
 
 <code>
@@ -1967,6 +1959,9 @@ Static (Persistent) XSS Vulnerability exists in version 4.3.0 of Yclas when usin
 ### CVE-2021-39273
 - [nikip72/CVE-2021-39273-CVE-2021-39274](https://github.com/nikip72/CVE-2021-39273-CVE-2021-39274)
 
+### CVE-2021-39281
+- [grahamhelton/CVE-2021-39281](https://github.com/grahamhelton/CVE-2021-39281)
+
 ### CVE-2021-39287
 - [Fearless523/CVE-2021-39287-Stored-XSS](https://github.com/Fearless523/CVE-2021-39287-Stored-XSS)
 
@@ -3498,6 +3493,14 @@ curl 7.21.0 to and including 7.73.0 is vulnerable to uncontrolled recursion due 
 </code>
 
 - [artsking/curl-7.64.1_CVE-2020-8285_WithPatch](https://github.com/artsking/curl-7.64.1_CVE-2020-8285_WithPatch)
+
+### CVE-2020-8286 (2020-12-14)
+
+<code>
+curl 7.41.0 through 7.73.0 is vulnerable to an improper check for certificate revocation due to insufficient verification of the OCSP response.
+</code>
+
+- [artsking/curl-7.64.1_CVE-2020-8286_WithPatch](https://github.com/artsking/curl-7.64.1_CVE-2020-8286_WithPatch)
 
 ### CVE-2020-8287 (2021-01-06)
 
