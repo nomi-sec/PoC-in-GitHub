@@ -6974,6 +6974,14 @@ Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier
 - [securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579)
 - [Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579)
 
+### CVE-2019-1652 (2019-01-24)
+
+<code>
+A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an authenticated, remote attacker with administrative privileges on an affected device to execute arbitrary commands. The vulnerability is due to improper validation of user-supplied input. An attacker could exploit this vulnerability by sending malicious HTTP POST requests to the web-based management interface of an affected device. A successful exploit could allow the attacker to execute arbitrary commands on the underlying Linux shell as root. Cisco has released firmware updates that address this vulnerability.
+</code>
+
+- [0x27/CiscoRV320Dump](https://github.com/0x27/CiscoRV320Dump)
+
 ### CVE-2019-1653 (2019-01-24)
 
 <code>
@@ -7407,6 +7415,9 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
 - [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
+- [jakubkrawczyk/cve-2019-5736](https://github.com/jakubkrawczyk/cve-2019-5736)
+- [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
+- [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
 - [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
 - [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
