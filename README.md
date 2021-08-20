@@ -342,6 +342,9 @@ _gcry_md_block_write in cipher/hash-common.c in Libgcrypt version 1.9.0 has a he
 
 - [MLGRadish/CVE-2021-3345](https://github.com/MLGRadish/CVE-2021-3345)
 
+### CVE-2021-3360
+- [tcbutler320/CVE-2021-3360](https://github.com/tcbutler320/CVE-2021-3360)
+
 ### CVE-2021-3378 (2021-02-01)
 
 <code>
@@ -366,6 +369,9 @@ A potential buffer overflow in the software drivers for certain HP LaserJet prod
 
 - [Crystalware/CVE-2021-3438](https://github.com/Crystalware/CVE-2021-3438)
 - [TobiasS1402/CVE-2021-3438](https://github.com/TobiasS1402/CVE-2021-3438)
+
+### CVE-2021-3441
+- [tcbutler320/CVE-2021-3441-check](https://github.com/tcbutler320/CVE-2021-3441-check)
 
 ### CVE-2021-3449 (2021-03-25)
 
