@@ -2028,7 +2028,6 @@ In binder_transaction of binder.c, there is a possible out of bounds write due t
 - [j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041)
 - [minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041)
 - [minutesinch/CVE-2020-0041-Original](https://github.com/minutesinch/CVE-2020-0041-Original)
-- [TechnoHT/CVE-2020-0041](https://github.com/TechnoHT/CVE-2020-0041)
 
 ### CVE-2020-0069 (2020-03-10)
 
@@ -8485,7 +8484,6 @@ In Pulse Secure Pulse Connect Secure version 9.0RX before 9.0R3.4, 8.3RX before 
 Atlassian Crowd and Crowd Data Center had the pdkinstall development plugin incorrectly enabled in release builds. Attackers who can send unauthenticated or authenticated requests to a Crowd or Crowd Data Center instance can exploit this vulnerability to install arbitrary plugins, which permits remote code execution on systems running a vulnerable version of Crowd or Crowd Data Center. All versions of Crowd from version 2.1.0 before 3.0.5 (the fixed version for 3.0.x), from version 3.1.0 before 3.1.6 (the fixed version for 3.1.x), from version 3.2.0 before 3.2.8 (the fixed version for 3.2.x), from version 3.3.0 before 3.3.5 (the fixed version for 3.3.x), and from version 3.4.0 before 3.4.4 (the fixed version for 3.4.x) are affected by this vulnerability.
 </code>
 
-- [jas502n/CVE-2019-11580](https://github.com/jas502n/CVE-2019-11580)
 - [shelld3v/CVE-2019-11580](https://github.com/shelld3v/CVE-2019-11580)
 
 ### CVE-2019-11581 (2019-08-09)
