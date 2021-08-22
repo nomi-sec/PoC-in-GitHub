@@ -1503,6 +1503,14 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
+### CVE-2021-30551 (2021-06-15)
+
+<code>
+Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [xmzyshypnc/CVE-2021-30551](https://github.com/xmzyshypnc/CVE-2021-30551)
+
 ### CVE-2021-30641 (2021-06-10)
 
 <code>
@@ -2340,7 +2348,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796)
 - [MasterSploit/LPE---CVE-2020-0796](https://github.com/MasterSploit/LPE---CVE-2020-0796)
 - [ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796)
-- [Kinesys/Kinesys-CVE-2020-0796](https://github.com/Kinesys/Kinesys-CVE-2020-0796)
+- [Blazeron/Kinesys-CVE-2020-0796](https://github.com/Blazeron/Kinesys-CVE-2020-0796)
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 
 ### CVE-2020-0797 (2020-03-12)
@@ -6666,7 +6674,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
 - [sinlee1/CVE-2019-0708](https://github.com/sinlee1/CVE-2019-0708)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
-- [Kinesys/Kinesys-CVE-2019-0708-Exploit](https://github.com/Kinesys/Kinesys-CVE-2019-0708-Exploit)
+- [Blazeron/Kinesys-CVE-2019-0708-Exploit](https://github.com/Blazeron/Kinesys-CVE-2019-0708-Exploit)
 - [SurrealSky/CVE20190708SCAN](https://github.com/SurrealSky/CVE20190708SCAN)
 - [ORCA666/CVE-2019--0708-SCANNER](https://github.com/ORCA666/CVE-2019--0708-SCANNER)
 - [yourekillingme/CVE-2019-0708](https://github.com/yourekillingme/CVE-2019-0708)
@@ -7590,7 +7598,7 @@ Some field types do not properly sanitize data from non-form sources in Drupal 8
 - [d1vious/cve-2019-6340-bits](https://github.com/d1vious/cve-2019-6340-bits)
 - [jas502n/CVE-2019-6340](https://github.com/jas502n/CVE-2019-6340)
 - [ludy-dev/drupal8-REST-RCE](https://github.com/ludy-dev/drupal8-REST-RCE)
-- [Kinesys/Kinesys-CVE-2019-6340](https://github.com/Kinesys/Kinesys-CVE-2019-6340)
+- [Blazeron/Kinesys-CVE-2019-6340](https://github.com/Blazeron/Kinesys-CVE-2019-6340)
 - [nobodyatall648/CVE-2019-6340](https://github.com/nobodyatall648/CVE-2019-6340)
 
 ### CVE-2019-6440 (2019-01-15)
@@ -11139,7 +11147,7 @@ Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer over
 - [reswitched/rcm-modchips](https://github.com/reswitched/rcm-modchips)
 - [ChrisFigura/react-tegra-payload-launcher](https://github.com/ChrisFigura/react-tegra-payload-launcher)
 - [austinhartzheim/fusee-gelee](https://github.com/austinhartzheim/fusee-gelee)
-- [Kinesys/Kinesys-Nintendo-CVE-2018-6242](https://github.com/Kinesys/Kinesys-Nintendo-CVE-2018-6242)
+- [Blazeron/Kinesys-Nintendo-CVE-2018-6242](https://github.com/Blazeron/Kinesys-Nintendo-CVE-2018-6242)
 
 ### CVE-2018-6376 (2018-01-30)
 
