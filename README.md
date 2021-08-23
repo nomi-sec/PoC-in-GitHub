@@ -7397,6 +7397,15 @@ Double-free vulnerability in the FTP-kerberos code in cURL 7.52.0 to 7.65.3.
 - [madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch)
 - [madhans23/curl-curl-7_64_1_CVE-2019-5481_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_withPatch)
 
+### CVE-2019-5482 (2019-09-16)
+
+<code>
+Heap buffer overflow in the TFTP protocol handler in cURL 7.19.4 to 7.65.3.
+</code>
+
+- [madhans23/curl-curl-7_64_1_CVE-2019-5482_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5482_noPatch)
+- [madhans23/curl-curl-7_64_1_CVE-2019-5482_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5482_withPatch)
+
 ### CVE-2019-5489 (2019-01-07)
 
 <code>
