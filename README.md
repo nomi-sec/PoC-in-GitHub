@@ -11156,7 +11156,7 @@ Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer over
 - [reswitched/rcm-modchips](https://github.com/reswitched/rcm-modchips)
 - [ChrisFigura/react-tegra-payload-launcher](https://github.com/ChrisFigura/react-tegra-payload-launcher)
 - [austinhartzheim/fusee-gelee](https://github.com/austinhartzheim/fusee-gelee)
-- [Nephael/Kinesys-Nintendo-CVE-2018-6242](https://github.com/Nephael/Kinesys-Nintendo-CVE-2018-6242)
+- [Nephael/Nephael-Nintendo-CVE-2018-6242](https://github.com/Nephael/Nephael-Nintendo-CVE-2018-6242)
 
 ### CVE-2018-6376 (2018-01-30)
 
