@@ -420,6 +420,7 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 - [fkm75P8YjLkb/CVE-2021-3516](https://github.com/fkm75P8YjLkb/CVE-2021-3516)
 
 ### CVE-2021-3560
+- [aancw/polkit-auto-exploit](https://github.com/aancw/polkit-auto-exploit)
 - [swapravo/polkadots](https://github.com/swapravo/polkadots)
 - [hakivvi/CVE-2021-3560](https://github.com/hakivvi/CVE-2021-3560)
 - [iSTARLabs/CVE-2021-3560_PoC](https://github.com/iSTARLabs/CVE-2021-3560_PoC)
@@ -1980,6 +1981,14 @@ Static (Persistent) XSS Vulnerability exists in version 4.3.0 of Yclas when usin
 
 - [security-n/CVE-2021-38710](https://github.com/security-n/CVE-2021-38710)
 
+### CVE-2021-39141 (2021-08-23)
+
+<code>
+XStream is a simple library to serialize objects to XML and back again. In affected versions this vulnerability may allow a remote attacker to load and execute arbitrary code from a remote host only by manipulating the processed input stream. No user is affected, who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. XStream 1.4.18 uses no longer a blacklist by default, since it cannot be secured for general purpose.
+</code>
+
+- [zwjjustdoit/Xstream-1.4.17](https://github.com/zwjjustdoit/Xstream-1.4.17)
+
 ### CVE-2021-39273 (2021-08-19)
 
 <code>
@@ -2947,6 +2956,14 @@ IBM Maximo Asset Management 7.6.0.1 and 7.6.0.2 is vulnerable to an XML External
 
 - [Ibonok/CVE-2020-4463](https://github.com/Ibonok/CVE-2020-4463)
 
+### CVE-2020-4464 (2020-07-17)
+
+<code>
+IBM WebSphere Application Server 7.0, 8.0, 8.5, and 9.0 traditional could allow a remote attacker to execute arbitrary code on a system with a specially-crafted sequence of serialized objects over the SOAP connector. IBM X-Force ID: 181489.
+</code>
+
+- [silentsignal/WebSphere-WSIF-gadget](https://github.com/silentsignal/WebSphere-WSIF-gadget)
+
 ### CVE-2020-5014 (2021-03-08)
 
 <code>
@@ -3170,6 +3187,7 @@ SAP BusinessObjects Business Intelligence Platform (Web Services) versions - 410
 
 - [InitRoot/CVE-2020-6308-PoC](https://github.com/InitRoot/CVE-2020-6308-PoC)
 - [freeFV/CVE-2020-6308-mass-exploiter](https://github.com/freeFV/CVE-2020-6308-mass-exploiter)
+- [TheMMMdev/CVE-2020-6308](https://github.com/TheMMMdev/CVE-2020-6308)
 
 ### CVE-2020-6418 (2020-02-27)
 
@@ -7784,6 +7802,7 @@ Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw
 - [LandGrey/CVE-2019-7609](https://github.com/LandGrey/CVE-2019-7609)
 - [hekadan/CVE-2019-7609](https://github.com/hekadan/CVE-2019-7609)
 - [rhbb/CVE-2019-7609](https://github.com/rhbb/CVE-2019-7609)
+- [dnr6419/CVE-2019-7609](https://github.com/dnr6419/CVE-2019-7609)
 
 ### CVE-2019-7610 (2019-03-25)
 
@@ -16181,6 +16200,15 @@ Squid 3.x before 3.5.15 and 4.x before 4.0.7 does not properly append data to St
 </code>
 
 - [amit-raut/CVE-2016-2569](https://github.com/amit-raut/CVE-2016-2569)
+
+### CVE-2016-2776 (2016-09-28)
+
+<code>
+buffer.c in named in ISC BIND 9 before 9.9.9-P3, 9.10.x before 9.10.4-P3, and 9.11.x before 9.11.0rc3 does not properly construct responses, which allows remote attackers to cause a denial of service (assertion failure and daemon exit) via a crafted query.
+</code>
+
+- [KosukeShimofuji/CVE-2016-2776](https://github.com/KosukeShimofuji/CVE-2016-2776)
+- [infobyte/CVE-2016-2776](https://github.com/infobyte/CVE-2016-2776)
 
 ### CVE-2016-2783 (2017-01-23)
 
