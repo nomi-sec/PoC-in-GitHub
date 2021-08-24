@@ -16182,15 +16182,6 @@ Squid 3.x before 3.5.15 and 4.x before 4.0.7 does not properly append data to St
 
 - [amit-raut/CVE-2016-2569](https://github.com/amit-raut/CVE-2016-2569)
 
-### CVE-2016-2776 (2016-09-28)
-
-<code>
-buffer.c in named in ISC BIND 9 before 9.9.9-P3, 9.10.x before 9.10.4-P3, and 9.11.x before 9.11.0rc3 does not properly construct responses, which allows remote attackers to cause a denial of service (assertion failure and daemon exit) via a crafted query.
-</code>
-
-- [KosukeShimofuji/CVE-2016-2776](https://github.com/KosukeShimofuji/CVE-2016-2776)
-- [infobyte/CVE-2016-2776](https://github.com/infobyte/CVE-2016-2776)
-
 ### CVE-2016-2783 (2017-01-23)
 
 <code>
