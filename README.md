@@ -2003,6 +2003,9 @@ In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set u
 ### CVE-2021-39287
 - [Fearless523/CVE-2021-39287-Stored-XSS](https://github.com/Fearless523/CVE-2021-39287-Stored-XSS)
 
+### CVE-2021-39512
+- [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
+
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
 
