@@ -2006,6 +2006,15 @@ In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set u
 ### CVE-2021-39287
 - [Fearless523/CVE-2021-39287-Stored-XSS](https://github.com/Fearless523/CVE-2021-39287-Stored-XSS)
 
+### CVE-2021-39377
+- [security-n/CVE-2021-39377](https://github.com/security-n/CVE-2021-39377)
+
+### CVE-2021-39378
+- [security-n/CVE-2021-39378](https://github.com/security-n/CVE-2021-39378)
+
+### CVE-2021-39379
+- [security-n/CVE-2021-39379](https://github.com/security-n/CVE-2021-39379)
+
 ### CVE-2021-39475
 - [W4RCL0UD/CVE-2021-39475](https://github.com/W4RCL0UD/CVE-2021-39475)
 
@@ -3479,8 +3488,9 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 curl 7.62.0 through 7.70.0 is vulnerable to an information disclosure vulnerability that can lead to a partial password being leaked over the network and to the DNS server(s).
 </code>
 
-- [madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch)
+- [madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch_old](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch_old)
 - [madhans23/curl-curl-7_64_1_CVE-2020-8169_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_withPatch)
+- [madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch)
 
 ### CVE-2020-8175 (2020-07-24)
 
@@ -7424,8 +7434,9 @@ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution whe
 Double-free vulnerability in the FTP-kerberos code in cURL 7.52.0 to 7.65.3.
 </code>
 
-- [madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch)
+- [madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch_old](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch_old)
 - [madhans23/curl-curl-7_64_1_CVE-2019-5481_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_withPatch)
+- [madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch)
 
 ### CVE-2019-5482 (2019-09-16)
 
@@ -11710,6 +11721,7 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174)
 - [delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP)
 - [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
+- [w16692926717/CVE-2018-8174_EXP](https://github.com/w16692926717/CVE-2018-8174_EXP)
 
 ### CVE-2018-8208 (2018-06-14)
 
