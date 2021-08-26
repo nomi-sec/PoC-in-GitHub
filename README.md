@@ -16656,6 +16656,7 @@ The auth_password function in auth-passwd.c in sshd in OpenSSH before 7.3 does n
 
 - [opsxcq/exploit-CVE-2016-6515](https://github.com/opsxcq/exploit-CVE-2016-6515)
 - [cved-sources/cve-2016-6515](https://github.com/cved-sources/cve-2016-6515)
+- [jptr218/openssh_dos](https://github.com/jptr218/openssh_dos)
 
 ### CVE-2016-6516 (2016-08-06)
 
@@ -18186,7 +18187,6 @@ Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, all
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
-- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-3120 (2014-07-28)
 
