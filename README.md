@@ -633,6 +633,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [L-pin/CVE-2021-21972](https://github.com/L-pin/CVE-2021-21972)
 - [B1anda0/CVE-2021-21972](https://github.com/B1anda0/CVE-2021-21972)
 - [renini/CVE-2021-21972](https://github.com/renini/CVE-2021-21972)
+- [stevenp322/cve-2021-21972](https://github.com/stevenp322/cve-2021-21972)
 - [GuayoyoCyber/CVE-2021-21972](https://github.com/GuayoyoCyber/CVE-2021-21972)
 - [JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972)
 - [robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972)
@@ -7038,12 +7039,21 @@ Remote Code Execution in PAN-OS 7.1.18 and earlier, PAN-OS 8.0.11-h1 and earlier
 - [securifera/CVE-2019-1579](https://github.com/securifera/CVE-2019-1579)
 - [Elsfa7-110/CVE-2019-1579](https://github.com/Elsfa7-110/CVE-2019-1579)
 
+### CVE-2019-1652 (2019-01-24)
+
+<code>
+A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an authenticated, remote attacker with administrative privileges on an affected device to execute arbitrary commands. The vulnerability is due to improper validation of user-supplied input. An attacker could exploit this vulnerability by sending malicious HTTP POST requests to the web-based management interface of an affected device. A successful exploit could allow the attacker to execute arbitrary commands on the underlying Linux shell as root. Cisco has released firmware updates that address this vulnerability.
+</code>
+
+- [0x27/CiscoRV320Dump](https://github.com/0x27/CiscoRV320Dump)
+
 ### CVE-2019-1653 (2019-01-24)
 
 <code>
 A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
 </code>
 
+- [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
 
 ### CVE-2019-1759 (2019-03-27)
@@ -7259,6 +7269,7 @@ The /rest/api/2/user/picker rest resource in Jira before version 7.13.3, from ve
 Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
+- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
@@ -7479,6 +7490,9 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 
 - [q3k/cve-2019-5736-poc](https://github.com/q3k/cve-2019-5736-poc)
 - [Frichetten/CVE-2019-5736-PoC](https://github.com/Frichetten/CVE-2019-5736-PoC)
+- [jakubkrawczyk/cve-2019-5736](https://github.com/jakubkrawczyk/cve-2019-5736)
+- [jas502n/CVE-2019-5736](https://github.com/jas502n/CVE-2019-5736)
+- [likescam/CVE-2019-5736](https://github.com/likescam/CVE-2019-5736)
 - [likescam/cve-2019-5736-poc](https://github.com/likescam/cve-2019-5736-poc)
 - [agppp/cve-2019-5736-poc](https://github.com/agppp/cve-2019-5736-poc)
 - [b3d3c/poc-cve-2019-5736](https://github.com/b3d3c/poc-cve-2019-5736)
@@ -7496,7 +7510,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
-- [3hydraking/CVE-2019-5736](https://github.com/3hydraking/CVE-2019-5736)
+- [1nf1n17yk1ng/CVE-2019-5736](https://github.com/1nf1n17yk1ng/CVE-2019-5736)
 
 ### CVE-2019-5737 (2019-03-28)
 
@@ -7538,6 +7552,14 @@ Out of bounds write in JavaScript in Google Chrome prior to 73.0.3683.86 allowed
 
 - [timwr/CVE-2019-5825](https://github.com/timwr/CVE-2019-5825)
 
+### CVE-2019-5893 (2019-01-10)
+
+<code>
+Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.xml query parameter.
+</code>
+
+- [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
+
 ### CVE-2019-6111 (2019-01-31)
 
 <code>
@@ -7570,6 +7592,7 @@ An out-of-bounds read issue existed that led to the disclosure of kernel memory.
 A memory corruption issue was addressed with improved validation. This issue is fixed in iOS 12.1.3, macOS Mojave 10.14.3, tvOS 12.1.2. A malicious application may be able to elevate privileges.
 </code>
 
+- [fatgrass/OsirisJailbreak12](https://github.com/fatgrass/OsirisJailbreak12)
 - [TrungNguyen1909/CVE-2019-6225-macOS](https://github.com/TrungNguyen1909/CVE-2019-6225-macOS)
 - [raystyle/jailbreak-iOS12](https://github.com/raystyle/jailbreak-iOS12)
 
@@ -7588,6 +7611,14 @@ The ASPEED ast2400 and ast2500 Baseband Management Controller (BMC) hardware and
 </code>
 
 - [amboar/cve-2019-6260](https://github.com/amboar/cve-2019-6260)
+
+### CVE-2019-6263 (2019-01-16)
+
+<code>
+An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
+</code>
+
+- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
 
 ### CVE-2019-6329 (2019-06-25)
 
@@ -7636,11 +7667,12 @@ Zemana AntiMalware before 3.0.658 Beta mishandles update logic.
 The ES File Explorer File Manager application through 4.1.9.7.4 for Android allows remote attackers to read arbitrary files or execute applications via TCP port 59777 requests on the local Wi-Fi network. This TCP port remains open after the ES application has been launched once, and responds to unauthenticated application/json data over HTTP.
 </code>
 
+- [fs0c131y/ESFileExplorerOpenPortVuln](https://github.com/fs0c131y/ESFileExplorerOpenPortVuln)
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 - [N3H4L/CVE-2019-6447](https://github.com/N3H4L/CVE-2019-6447)
 - [sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777](https://github.com/sidhawkss/ES-File-Explorer-Vulnerability-on-port-59777)
 - [mcmahonr/cve-2019-6447](https://github.com/mcmahonr/cve-2019-6447)
-- [3hydraking/CVE-2019-6447](https://github.com/3hydraking/CVE-2019-6447)
+- [1nf1n17yk1ng/CVE-2019-6447](https://github.com/1nf1n17yk1ng/CVE-2019-6447)
 - [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 
 ### CVE-2019-6453 (2019-02-18)
@@ -7659,6 +7691,14 @@ A programming error in the nxdomain-redirect feature can cause an assertion fail
 </code>
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
+
+### CVE-2019-6487 (2019-01-18)
+
+<code>
+TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
+</code>
+
+- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
 
 ### CVE-2019-6690 (2019-03-17)
 
@@ -7694,6 +7734,14 @@ SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrus
 
 - [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
 - [AndyFeiLi/-CVE-2019-7214](https://github.com/AndyFeiLi/-CVE-2019-7214)
+
+### CVE-2019-7216 (2019-01-31)
+
+<code>
+An issue was discovered in FileChucker 4.99e-free-e02. filechucker.cgi has a filter bypass that allows a malicious user to upload any type of file by using % characters within the extension, e.g., file.%ph%p becomes file.php.
+</code>
+
+- [Ekultek/CVE-2019-7216](https://github.com/Ekultek/CVE-2019-7216)
 
 ### CVE-2019-7219 (2019-04-11)
 
@@ -8006,7 +8054,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 </code>
 
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
-- [3hydraking/CVE-2019-9053](https://github.com/3hydraking/CVE-2019-9053)
+- [1nf1n17yk1ng/CVE-2019-9053](https://github.com/1nf1n17yk1ng/CVE-2019-9053)
 
 ### CVE-2019-9081 (2019-02-24)
 
@@ -9177,7 +9225,7 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287)
 - [edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-)
 - [DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights](https://github.com/DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights)
-- [3hydraking/CVE-2019-14287](https://github.com/3hydraking/CVE-2019-14287)
+- [1nf1n17yk1ng/CVE-2019-14287](https://github.com/1nf1n17yk1ng/CVE-2019-14287)
 - [Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287](https://github.com/Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287)
 
 ### CVE-2019-14314 (2019-08-27)
@@ -9533,7 +9581,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
-- [3hydraking/CVE-2019-16278](https://github.com/3hydraking/CVE-2019-16278)
+- [1nf1n17yk1ng/CVE-2019-16278](https://github.com/1nf1n17yk1ng/CVE-2019-16278)
 
 ### CVE-2019-16279 (2019-10-14)
 
@@ -13566,7 +13614,7 @@ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 
 
 - [valarauco/wannafind](https://github.com/valarauco/wannafind)
 - [NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker)
-- [3hydraking/MS17-010_CVE-2017-0143](https://github.com/3hydraking/MS17-010_CVE-2017-0143)
+- [1nf1n17yk1ng/MS17-010_CVE-2017-0143](https://github.com/1nf1n17yk1ng/MS17-010_CVE-2017-0143)
 
 ### CVE-2017-0144 (2017-03-16)
 
@@ -14348,7 +14396,7 @@ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in In
 - [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
-- [3hydraking/CVE-2017-7269](https://github.com/3hydraking/CVE-2017-7269)
+- [1nf1n17yk1ng/CVE-2017-7269](https://github.com/1nf1n17yk1ng/CVE-2017-7269)
 
 ### CVE-2017-7374 (2017-03-31)
 
@@ -17198,8 +17246,8 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
 - [limkokhole/CVE-2015-1635](https://github.com/limkokhole/CVE-2015-1635)
-- [3hydraking/CVE-2015-1635-POC](https://github.com/3hydraking/CVE-2015-1635-POC)
-- [3hydraking/CVE-2015-1635](https://github.com/3hydraking/CVE-2015-1635)
+- [1nf1n17yk1ng/CVE-2015-1635-POC](https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC)
+- [1nf1n17yk1ng/CVE-2015-1635](https://github.com/1nf1n17yk1ng/CVE-2015-1635)
 
 ### CVE-2015-1641 (2015-04-14)
 
@@ -17653,7 +17701,7 @@ The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY
 The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
 </code>
 
-- [3hydraking/CVE-2015-6668](https://github.com/3hydraking/CVE-2015-6668)
+- [1nf1n17yk1ng/CVE-2015-6668](https://github.com/1nf1n17yk1ng/CVE-2015-6668)
 
 ### CVE-2015-6835 (2016-05-16)
 
@@ -19290,7 +19338,7 @@ The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and S
 </code>
 
 - [Madusanka99/OHTS](https://github.com/Madusanka99/OHTS)
-- [3hydraking/CVE-2011-1249](https://github.com/3hydraking/CVE-2011-1249)
+- [1nf1n17yk1ng/CVE-2011-1249](https://github.com/1nf1n17yk1ng/CVE-2011-1249)
 
 ### CVE-2011-1473 (2012-06-16)
 
@@ -19708,7 +19756,7 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 </code>
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
-- [3hydraking/CVE-2009-2265](https://github.com/3hydraking/CVE-2009-2265)
+- [1nf1n17yk1ng/CVE-2009-2265](https://github.com/1nf1n17yk1ng/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
@@ -19841,7 +19889,7 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 </code>
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
-- [3hydraking/MS08_067_CVE-2008-4250](https://github.com/3hydraking/MS08_067_CVE-2008-4250)
+- [1nf1n17yk1ng/MS08_067_CVE-2008-4250](https://github.com/1nf1n17yk1ng/MS08_067_CVE-2008-4250)
 
 ### CVE-2008-4609 (2008-10-20)
 
@@ -19956,7 +20004,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster)
 - [cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447)
 - [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
-- [3hydraking/usermap_script_CVE-2007-2447](https://github.com/3hydraking/usermap_script_CVE-2007-2447)
+- [1nf1n17yk1ng/usermap_script_CVE-2007-2447](https://github.com/1nf1n17yk1ng/usermap_script_CVE-2007-2447)
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 
 ### CVE-2007-3830 (2007-07-17)
@@ -20164,7 +20212,8 @@ Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote a
 distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
 </code>
 
-- [3hydraking/distccd_rce_CVE-2004-2687](https://github.com/3hydraking/distccd_rce_CVE-2004-2687)
+- [1nf1n17yk1ng/distccd_rce_CVE-2004-2687](https://github.com/1nf1n17yk1ng/distccd_rce_CVE-2004-2687)
+- [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
 
 
 ## 2003
