@@ -10242,6 +10242,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [andripwn/CVE-2019-19781](https://github.com/andripwn/CVE-2019-19781)
 - [VladRico/CVE-2019-19781](https://github.com/VladRico/CVE-2019-19781)
 - [pwn3z/CVE-2019-19781-Citrix](https://github.com/pwn3z/CVE-2019-19781-Citrix)
+- [Vulnmachines/Ctirix_RCE-CVE-2019-19781](https://github.com/Vulnmachines/Ctirix_RCE-CVE-2019-19781)
 
 ### CVE-2019-19844 (2019-12-18)
 
@@ -13934,6 +13935,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 
 - [ianxtianxt/CVE-2017-3248](https://github.com/ianxtianxt/CVE-2017-3248)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [BabyTeam1024/CVE-2017-3248](https://github.com/BabyTeam1024/CVE-2017-3248)
 
 ### CVE-2017-3506 (2017-04-24)
 
