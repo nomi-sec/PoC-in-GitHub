@@ -5689,6 +5689,14 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 - [k0rup710n/Wordpress-CVE-2020-25213](https://github.com/k0rup710n/Wordpress-CVE-2020-25213)
 - [piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213)
 
+### CVE-2020-25223 (2020-09-24)
+
+<code>
+A remote code execution vulnerability exists in the WebAdmin of Sophos SG UTM before v9.705 MR5, v9.607 MR7, and v9.511 MR11
+</code>
+
+- [darrenmartyn/sophucked](https://github.com/darrenmartyn/sophucked)
+
 ### CVE-2020-25265 (2020-12-02)
 
 <code>
