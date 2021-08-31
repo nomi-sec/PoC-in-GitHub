@@ -1333,6 +1333,14 @@ Windows NTFS Denial of Service Vulnerability
 
 - [shubham0d/CVE-2021-28312](https://github.com/shubham0d/CVE-2021-28312)
 
+### CVE-2021-28378 (2021-03-15)
+
+<code>
+Gitea 1.12.x and 1.13.x before 1.13.4 allows XSS via certain issue data in some situations.
+</code>
+
+- [PandatiX/CVE-2021-28378](https://github.com/PandatiX/CVE-2021-28378)
+
 ### CVE-2021-28476 (2021-05-11)
 
 <code>
@@ -17046,6 +17054,7 @@ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might a
 - [awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033)
 - [0x00-0x00/CVE-2016-10033](https://github.com/0x00-0x00/CVE-2016-10033)
 - [cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033)
+- [RyouYoo/CVE-2016-10033](https://github.com/RyouYoo/CVE-2016-10033)
 
 ### CVE-2016-10034 (2016-12-30)
 
