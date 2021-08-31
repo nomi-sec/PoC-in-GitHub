@@ -91,6 +91,14 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [Pai-Po/CVE-2021-1732](https://github.com/Pai-Po/CVE-2021-1732)
 - [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
 
+### CVE-2021-1748 (2021-04-02)
+
+<code>
+A validation issue was addressed with improved input sanitization. This issue is fixed in tvOS 14.4, watchOS 7.3, iOS 14.4 and iPadOS 14.4. Processing a maliciously crafted URL may lead to arbitrary javascript code execution.
+</code>
+
+- [tihmstar/itmsBlock](https://github.com/tihmstar/itmsBlock)
+
 ### CVE-2021-1782 (2021-04-02)
 
 <code>
@@ -958,6 +966,14 @@ Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Update P
 </code>
 
 - [MrCraniums/CVE-2021-25791-Multiple-Stored-XSS](https://github.com/MrCraniums/CVE-2021-25791-Multiple-Stored-XSS)
+
+### CVE-2021-26084 (2021-08-30)
+
+<code>
+In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an authenticated user, and in some instances an unauthenticated user, to execute arbitrary code on a Confluence Server or Data Center instance. The vulnerable endpoints can be accessed by a non-administrator user or unauthenticated user if ‘Allow people to sign up to create their account’ is enabled. To check whether this is enabled go to COG &gt; User Management &gt; User Signup Options. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
+</code>
+
+- [carlosevieira/CVE-2021-26084](https://github.com/carlosevieira/CVE-2021-26084)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -9949,6 +9965,14 @@ An unquoted service path vulnerability in the FortiClient FortiTray component of
 
 - [Ibonok/CVE-2019-17658](https://github.com/Ibonok/CVE-2019-17658)
 
+### CVE-2019-17662 (2019-10-16)
+
+<code>
+ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise of the VNC server. The vulnerability exists even when authentication is turned on during the deployment of the VNC server. The password for authentication is stored in cleartext in a file that can be read via a ../../ThinVnc.ini directory traversal attack vector.
+</code>
+
+- [MuirlandOracle/CVE-2019-17662](https://github.com/MuirlandOracle/CVE-2019-17662)
+
 ### CVE-2019-17671 (2019-10-17)
 
 <code>
@@ -17054,7 +17078,6 @@ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might a
 - [awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033)
 - [0x00-0x00/CVE-2016-10033](https://github.com/0x00-0x00/CVE-2016-10033)
 - [cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033)
-- [RyouYoo/CVE-2016-10033](https://github.com/RyouYoo/CVE-2016-10033)
 
 ### CVE-2016-10034 (2016-12-30)
 
@@ -19499,6 +19522,7 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 
 - [HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit)
 - [nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523)
+- [Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
