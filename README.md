@@ -986,6 +986,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [Osyanina/westone-CVE-2021-26084-scanner](https://github.com/Osyanina/westone-CVE-2021-26084-scanner)
 - [tangxiaofeng7/CVE-2021-26084](https://github.com/tangxiaofeng7/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
+- [bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1854,6 +1855,7 @@ Django 3.1.x before 3.1.13 and 3.2.x before 3.2.5 allows QuerySet.order_by SQL i
 </code>
 
 - [YouGina/CVE-2021-35042](https://github.com/YouGina/CVE-2021-35042)
+- [mrlihd/CVE-2021-35042](https://github.com/mrlihd/CVE-2021-35042)
 
 ### CVE-2021-35448 (2021-06-24)
 
@@ -3464,6 +3466,7 @@ Django 1.11 before 1.11.28, 2.2 before 2.2.10, and 3.0 before 3.0.3 allows SQL I
 - [Tempuss/CTF_CVE-2020-7471](https://github.com/Tempuss/CTF_CVE-2020-7471)
 - [victomteng1997/cve-2020-7471-Time_Blind_SQLi-](https://github.com/victomteng1997/cve-2020-7471-Time_Blind_SQLi-)
 - [huzaifakhan771/CVE-2020-7471-Django](https://github.com/huzaifakhan771/CVE-2020-7471-Django)
+- [mrlihd/CVE-2020-7471](https://github.com/mrlihd/CVE-2020-7471)
 
 ### CVE-2020-7473 (2020-05-07)
 
@@ -14625,6 +14628,7 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
 - [ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3)
 - [fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability)
 - [Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability)
+- [fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit](https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit)
 
 ### CVE-2017-7648 (2017-04-10)
 
@@ -15742,6 +15746,14 @@ elf/dl-load.c in the GNU C Library (aka glibc or libc6) 2.19 through 2.26 mishan
 
 - [Xiami2012/CVE-2017-16997-poc](https://github.com/Xiami2012/CVE-2017-16997-poc)
 
+### CVE-2017-17058 (2017-11-29)
+
+<code>
+** DISPUTED ** The WooCommerce plugin through 3.x for WordPress has a Directory Traversal Vulnerability via a /wp-content/plugins/woocommerce/templates/emails/plain/ URI, which accesses a parent directory. NOTE: a software maintainer indicates that Directory Traversal is not possible because all of the template files have &quot;if (!defined('ABSPATH')) {exit;}&quot; code.
+</code>
+
+- [fu2x2000/CVE-2017-17058-woo_exploit](https://github.com/fu2x2000/CVE-2017-17058-woo_exploit)
+
 ### CVE-2017-17099 (2017-12-03)
 
 <code>
@@ -16077,9 +16089,12 @@ The DH_check_pub_key function in crypto/dh/dh_check.c in OpenSSL 1.0.2 before 1.
 The join_session_keyring function in security/keys/process_keys.c in the Linux kernel before 4.4.1 mishandles object references in a certain error case, which allows local users to gain privileges or cause a denial of service (integer overflow and use-after-free) via crafted keyctl commands.
 </code>
 
+- [idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728)
+- [kennetham/cve_2016_0728](https://github.com/kennetham/cve_2016_0728)
 - [nardholio/cve-2016-0728](https://github.com/nardholio/cve-2016-0728)
 - [googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728)
 - [neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed)
+- [bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728)
 - [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
@@ -16204,6 +16219,14 @@ AppleUSBNetworking in Apple iOS before 9.3 and OS X before 10.11.4 allows physic
 
 - [Manouchehri/CVE-2016-1734](https://github.com/Manouchehri/CVE-2016-1734)
 
+### CVE-2016-1757 (2016-03-23)
+
+<code>
+Race condition in the kernel in Apple iOS before 9.3 and OS X before 10.11.4 allows attackers to execute arbitrary code in a privileged context via a crafted app.
+</code>
+
+- [gdbinit/mach_race](https://github.com/gdbinit/mach_race)
+
 ### CVE-2016-1764 (2016-03-23)
 
 <code>
@@ -16314,6 +16337,7 @@ SQL injection vulnerability in the UDDI server in SAP NetWeaver J2EE Engine 7.40
 OkHttp before 2.7.4 and 3.x before 3.1.2 allows man-in-the-middle attackers to bypass certificate pinning by sending a certificate chain with a certificate from a non-pinned trusted CA and the pinned certificate.
 </code>
 
+- [ikoz/cert-pinning-flaw-poc](https://github.com/ikoz/cert-pinning-flaw-poc)
 - [ikoz/certPinningVulnerableOkHttp](https://github.com/ikoz/certPinningVulnerableOkHttp)
 
 ### CVE-2016-2431 (2016-05-09)
