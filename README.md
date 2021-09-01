@@ -974,6 +974,9 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 </code>
 
 - [carlosevieira/CVE-2021-26084](https://github.com/carlosevieira/CVE-2021-26084)
+- [alt3kx/CVE-2021-26084_PoC](https://github.com/alt3kx/CVE-2021-26084_PoC)
+- [dinhbaouit/CVE-2021-26084](https://github.com/dinhbaouit/CVE-2021-26084)
+- [gh0stkey/CVE-2021-26084](https://github.com/gh0stkey/CVE-2021-26084)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1734,6 +1737,14 @@ Microsoft DWM Core Library Elevation of Privilege Vulnerability
 
 - [Lagal1990/CVE-2021-33739-POC](https://github.com/Lagal1990/CVE-2021-33739-POC)
 
+### CVE-2021-33766 (2021-07-14)
+
+<code>
+Microsoft Exchange Information Disclosure Vulnerability
+</code>
+
+- [bhdresh/CVE-2021-33766-ProxyToken](https://github.com/bhdresh/CVE-2021-33766-ProxyToken)
+
 ### CVE-2021-33879 (2021-06-06)
 
 <code>
@@ -2060,6 +2071,14 @@ In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set u
 
 ### CVE-2021-39512
 - [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
+
+### CVE-2021-40353 (2021-08-31)
+
+<code>
+A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or MariaDB is used as the application database. An attacker can then issue the SQL command through the index.php USERNAME parameter. NOTE: this issue may exist because of an incomplete fix for CVE-2020-6637.
+</code>
+
+- [5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
