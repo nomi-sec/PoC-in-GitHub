@@ -61,6 +61,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [thalpius/Microsoft-CVE-2021-1675](https://github.com/thalpius/Microsoft-CVE-2021-1675)
 - [Winter3un/CVE-2021-1675](https://github.com/Winter3un/CVE-2021-1675)
 - [hahaleyile/my-CVE-2021-1675](https://github.com/hahaleyile/my-CVE-2021-1675)
+- [mstxq17/CVE-2021-1675_RDL_LPE](https://github.com/mstxq17/CVE-2021-1675_RDL_LPE)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -980,6 +981,11 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
 - [r0ckysec/CVE-2021-26084_Confluence](https://github.com/r0ckysec/CVE-2021-26084_Confluence)
 - [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
+- [FanqXu/CVE-2021-26084](https://github.com/FanqXu/CVE-2021-26084)
+- [Vulnmachines/Confluence_CVE-2021-26084](https://github.com/Vulnmachines/Confluence_CVE-2021-26084)
+- [Osyanina/westone-CVE-2021-26084-scanner](https://github.com/Osyanina/westone-CVE-2021-26084-scanner)
+- [tangxiaofeng7/CVE-2021-26084](https://github.com/tangxiaofeng7/CVE-2021-26084)
+- [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -2060,13 +2066,28 @@ In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set u
 ### CVE-2021-39287
 - [Fearless523/CVE-2021-39287-Stored-XSS](https://github.com/Fearless523/CVE-2021-39287-Stored-XSS)
 
-### CVE-2021-39377
+### CVE-2021-39377 (2021-09-01)
+
+<code>
+A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is being used as the application database. A malicious attacker can issue SQL commands to the MySQL (MariaDB) database through the index.php username parameter.
+</code>
+
 - [security-n/CVE-2021-39377](https://github.com/security-n/CVE-2021-39377)
 
-### CVE-2021-39378
+### CVE-2021-39378 (2021-09-01)
+
+<code>
+A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is being used as the application database. A malicious attacker can issue SQL commands to the MySQL (MariaDB) database through the NamesList.php str parameter.
+</code>
+
 - [security-n/CVE-2021-39378](https://github.com/security-n/CVE-2021-39378)
 
-### CVE-2021-39379
+### CVE-2021-39379 (2021-09-01)
+
+<code>
+A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is being used as the application database. A malicious attacker can issue SQL commands to the MySQL (MariaDB) database through the ResetUserInfo.php password_stn_id parameter.
+</code>
+
 - [security-n/CVE-2021-39379](https://github.com/security-n/CVE-2021-39379)
 
 ### CVE-2021-39475
@@ -2078,7 +2099,12 @@ In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set u
 ### CVE-2021-39512
 - [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
 
-### CVE-2021-40352
+### CVE-2021-40352 (2021-09-01)
+
+<code>
+OpenEMR 6.0.0 has a pnotes_print.php?noteid= Insecure Direct Object Reference vulnerability via which an attacker can read the messages of all users.
+</code>
+
 - [allenenosh/CVE-2021-40352](https://github.com/allenenosh/CVE-2021-40352)
 
 ### CVE-2021-40353 (2021-08-31)
@@ -16051,12 +16077,9 @@ The DH_check_pub_key function in crypto/dh/dh_check.c in OpenSSL 1.0.2 before 1.
 The join_session_keyring function in security/keys/process_keys.c in the Linux kernel before 4.4.1 mishandles object references in a certain error case, which allows local users to gain privileges or cause a denial of service (integer overflow and use-after-free) via crafted keyctl commands.
 </code>
 
-- [idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728)
-- [kennetham/cve_2016_0728](https://github.com/kennetham/cve_2016_0728)
 - [nardholio/cve-2016-0728](https://github.com/nardholio/cve-2016-0728)
 - [googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728)
 - [neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed)
-- [bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728)
 - [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
@@ -16181,14 +16204,6 @@ AppleUSBNetworking in Apple iOS before 9.3 and OS X before 10.11.4 allows physic
 
 - [Manouchehri/CVE-2016-1734](https://github.com/Manouchehri/CVE-2016-1734)
 
-### CVE-2016-1757 (2016-03-23)
-
-<code>
-Race condition in the kernel in Apple iOS before 9.3 and OS X before 10.11.4 allows attackers to execute arbitrary code in a privileged context via a crafted app.
-</code>
-
-- [gdbinit/mach_race](https://github.com/gdbinit/mach_race)
-
 ### CVE-2016-1764 (2016-03-23)
 
 <code>
@@ -16299,7 +16314,6 @@ SQL injection vulnerability in the UDDI server in SAP NetWeaver J2EE Engine 7.40
 OkHttp before 2.7.4 and 3.x before 3.1.2 allows man-in-the-middle attackers to bypass certificate pinning by sending a certificate chain with a certificate from a non-pinned trusted CA and the pinned certificate.
 </code>
 
-- [ikoz/cert-pinning-flaw-poc](https://github.com/ikoz/cert-pinning-flaw-poc)
 - [ikoz/certPinningVulnerableOkHttp](https://github.com/ikoz/certPinningVulnerableOkHttp)
 
 ### CVE-2016-2431 (2016-05-09)
@@ -19378,6 +19392,14 @@ Use-after-free vulnerability in Microsoft Internet Explorer 6 through 8 allows r
 </code>
 
 - [WizardVan/CVE-2012-4792](https://github.com/WizardVan/CVE-2012-4792)
+
+### CVE-2012-4869 (2012-09-06)
+
+<code>
+The callme_startcall function in recordings/misc/callme_page.php in FreePBX 2.9, 2.10, and earlier allows remote attackers to execute arbitrary commands via the callmenum parameter in a c action.
+</code>
+
+- [bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution)
 
 ### CVE-2012-4929 (2012-09-15)
 
