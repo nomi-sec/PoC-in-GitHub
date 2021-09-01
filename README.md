@@ -976,7 +976,10 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [carlosevieira/CVE-2021-26084](https://github.com/carlosevieira/CVE-2021-26084)
 - [alt3kx/CVE-2021-26084_PoC](https://github.com/alt3kx/CVE-2021-26084_PoC)
 - [dinhbaouit/CVE-2021-26084](https://github.com/dinhbaouit/CVE-2021-26084)
-- [gh0stkey/CVE-2021-26084](https://github.com/gh0stkey/CVE-2021-26084)
+- [JKme/CVE-2021-26084](https://github.com/JKme/CVE-2021-26084)
+- [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
+- [r0ckysec/CVE-2021-26084_Confluence](https://github.com/r0ckysec/CVE-2021-26084_Confluence)
+- [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1745,6 +1748,9 @@ Microsoft Exchange Information Disclosure Vulnerability
 
 - [bhdresh/CVE-2021-33766-ProxyToken](https://github.com/bhdresh/CVE-2021-33766-ProxyToken)
 
+### CVE-2021-33831
+- [lanmarc77/CVE-2021-33831](https://github.com/lanmarc77/CVE-2021-33831)
+
 ### CVE-2021-33879 (2021-06-06)
 
 <code>
@@ -2071,6 +2077,9 @@ In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set u
 
 ### CVE-2021-39512
 - [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
+
+### CVE-2021-40352
+- [allenenosh/CVE-2021-40352](https://github.com/allenenosh/CVE-2021-40352)
 
 ### CVE-2021-40353 (2021-08-31)
 
