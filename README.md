@@ -131,6 +131,7 @@ Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Op
 </code>
 
 - [TheCryingGame/CVE-2021-2021good](https://github.com/TheCryingGame/CVE-2021-2021good)
+- [wjryr/CVE-2021-2021](https://github.com/wjryr/CVE-2021-2021)
 
 ### CVE-2021-2109 (2021-01-20)
 
@@ -460,6 +461,9 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 </code>
 
 - [HadiMed/firmware-analysis](https://github.com/HadiMed/firmware-analysis)
+
+### CVE-2021-6901
+- [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
 
 ### CVE-2021-10086
 - [Mochican/CVE-2021-10086](https://github.com/Mochican/CVE-2021-10086)
@@ -989,6 +993,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC)
 - [smallpiggy/cve-2021-26084-confluence](https://github.com/smallpiggy/cve-2021-26084-confluence)
 - [maskerTUI/CVE-2021-26084](https://github.com/maskerTUI/CVE-2021-26084)
+- [BeRserKerSec/CVE-2021-26084-Nuclei-template](https://github.com/BeRserKerSec/CVE-2021-26084-Nuclei-template)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -2127,6 +2132,12 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 </code>
 
 - [5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353)
+
+### CVE-2021-40374
+- [DCKento/CVE-2021-40374](https://github.com/DCKento/CVE-2021-40374)
+
+### CVE-2021-40375
+- [DCKento/CVE-2021-40375](https://github.com/DCKento/CVE-2021-40375)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
