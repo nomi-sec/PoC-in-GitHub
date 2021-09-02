@@ -988,6 +988,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
 - [bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC)
 - [smallpiggy/cve-2021-26084-confluence](https://github.com/smallpiggy/cve-2021-26084-confluence)
+- [maskerTUI/CVE-2021-26084](https://github.com/maskerTUI/CVE-2021-26084)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1397,6 +1398,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 - [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
 
+### CVE-2021-28663 (2021-05-10)
+
+<code>
+The Arm Mali GPU kernel driver allows privilege escalation or information disclosure because GPU memory operations are mishandled, leading to a use-after-free. This affects Bifrost r0p0 through r28p0 before r29p0, Valhall r19p0 through r28p0 before r29p0, and Midgard r4p0 through r30p0.
+</code>
+
+- [lntrx/CVE-2021-28663](https://github.com/lntrx/CVE-2021-28663)
+
 ### CVE-2021-29155 (2021-04-20)
 
 <code>
@@ -1777,6 +1786,7 @@ fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not pro
 - [baerwolf/cve-2021-33909](https://github.com/baerwolf/cve-2021-33909)
 - [bbinfosec43/CVE-2021-33909](https://github.com/bbinfosec43/CVE-2021-33909)
 - [ikramimamoglu/AmIAHuman-CVE-2021-33909](https://github.com/ikramimamoglu/AmIAHuman-CVE-2021-33909)
+- [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
