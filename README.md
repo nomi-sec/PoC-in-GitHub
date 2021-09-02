@@ -987,6 +987,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [tangxiaofeng7/CVE-2021-26084](https://github.com/tangxiaofeng7/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
 - [bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC)
+- [smallpiggy/cve-2021-26084-confluence](https://github.com/smallpiggy/cve-2021-26084-confluence)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -3737,6 +3738,7 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 
 - [imjdl/CVE-2020-8515-PoC](https://github.com/imjdl/CVE-2020-8515-PoC)
 - [truerandom/nmap_draytek_rce](https://github.com/truerandom/nmap_draytek_rce)
+- [darrenmartyn/CVE-2020-8515](https://github.com/darrenmartyn/CVE-2020-8515)
 
 ### CVE-2020-8554 (2021-01-21)
 
