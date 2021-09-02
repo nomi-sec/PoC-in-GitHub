@@ -131,7 +131,6 @@ Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Op
 </code>
 
 - [TheCryingGame/CVE-2021-2021good](https://github.com/TheCryingGame/CVE-2021-2021good)
-- [wjryr/CVE-2021-2021](https://github.com/wjryr/CVE-2021-2021)
 
 ### CVE-2021-2109 (2021-01-20)
 
@@ -2132,6 +2131,7 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 </code>
 
 - [5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353)
+- [zeroc00I/CVE-2021-40353](https://github.com/zeroc00I/CVE-2021-40353)
 
 ### CVE-2021-40374
 - [DCKento/CVE-2021-40374](https://github.com/DCKento/CVE-2021-40374)
@@ -16304,6 +16304,7 @@ Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x bef
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
 - [danielhemmati/CVE-2016-2098-my-first-exploit](https://github.com/danielhemmati/CVE-2016-2098-my-first-exploit)
 - [Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098)
+- [RyouYoo/CVE-2016-2098](https://github.com/RyouYoo/CVE-2016-2098)
 
 ### CVE-2016-2107 (2016-05-04)
 
@@ -17167,6 +17168,7 @@ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might a
 - [awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033)
 - [0x00-0x00/CVE-2016-10033](https://github.com/0x00-0x00/CVE-2016-10033)
 - [cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033)
+- [RyouYoo/CVE-2016-10033](https://github.com/RyouYoo/CVE-2016-10033)
 
 ### CVE-2016-10034 (2016-12-30)
 
