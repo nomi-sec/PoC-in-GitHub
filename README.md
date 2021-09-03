@@ -2,7 +2,7 @@
 
 ## 2021
 ### CVE-2021-09
-- [zeroc00I/CVE-2021-09](https://github.com/zeroc00I/CVE-2021-09)
+- [zeroc00I/CVE-2021-09-03](https://github.com/zeroc00I/CVE-2021-09-03)
 
 ### CVE-2021-1056 (2021-01-07)
 
@@ -184,6 +184,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 - [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
 - [givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019)
+- [qiezi-maozi/CVE-2021-3019-Lanproxy](https://github.com/qiezi-maozi/CVE-2021-3019-Lanproxy)
 
 ### CVE-2021-3122 (2021-02-07)
 
@@ -997,6 +998,10 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [smallpiggy/cve-2021-26084-confluence](https://github.com/smallpiggy/cve-2021-26084-confluence)
 - [maskerTUI/CVE-2021-26084](https://github.com/maskerTUI/CVE-2021-26084)
 - [BeRserKerSec/CVE-2021-26084-Nuclei-template](https://github.com/BeRserKerSec/CVE-2021-26084-Nuclei-template)
+- [p0nymc1/CVE-2021-26084](https://github.com/p0nymc1/CVE-2021-26084)
+- [mr-r3bot/Confluence-CVE-2021-26084](https://github.com/mr-r3bot/Confluence-CVE-2021-26084)
+- [Loneyers/CVE-2021-26084](https://github.com/Loneyers/CVE-2021-26084)
+- [Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084)
 
 ### CVE-2021-26119 (2021-02-21)
 
