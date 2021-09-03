@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2021
+### CVE-2021-09
+- [zeroc00I/CVE-2021-09](https://github.com/zeroc00I/CVE-2021-09)
+
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -625,6 +628,7 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551)
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
+- [ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -2131,7 +2135,6 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 </code>
 
 - [5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353)
-- [zeroc00I/CVE-2021-40353](https://github.com/zeroc00I/CVE-2021-40353)
 
 ### CVE-2021-40374
 - [DCKento/CVE-2021-40374](https://github.com/DCKento/CVE-2021-40374)
