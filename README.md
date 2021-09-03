@@ -2147,6 +2147,9 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 ### CVE-2021-40375
 - [DCKento/CVE-2021-40375](https://github.com/DCKento/CVE-2021-40375)
 
+### CVE-2021-40492
+- [5qu1n7/CVE-2021-40492](https://github.com/5qu1n7/CVE-2021-40492)
+
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
 
