@@ -2147,7 +2147,12 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 ### CVE-2021-40375
 - [DCKento/CVE-2021-40375](https://github.com/DCKento/CVE-2021-40375)
 
-### CVE-2021-40492
+### CVE-2021-40492 (2021-09-03)
+
+<code>
+A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibbon application that allows for arbitrary execution of JavaScript (gibbonCourseClassID, gibbonPersonID, subpage, currentDate, or allStudents to index.php).
+</code>
+
 - [5qu1n7/CVE-2021-40492](https://github.com/5qu1n7/CVE-2021-40492)
 
 ### CVE-2021-123456
@@ -20395,7 +20400,6 @@ The &quot;Allow cPanel users to reset their password via email&quot; feature in 
 </code>
 
 - [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
-- [Redsplit/shiguresh](https://github.com/Redsplit/shiguresh)
 
 ### CVE-2004-2167 (2005-07-10)
 
