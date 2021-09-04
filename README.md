@@ -12979,6 +12979,7 @@ The Plainview Activity Monitor plugin before 20180826 for WordPress is vulnerabl
 
 - [cved-sources/cve-2018-15877](https://github.com/cved-sources/cve-2018-15877)
 - [huydoppa/CVE-2018-15877](https://github.com/huydoppa/CVE-2018-15877)
+- [Cinnamon1212/CVE-2018-15877-RCE](https://github.com/Cinnamon1212/CVE-2018-15877-RCE)
 
 ### CVE-2018-15912 (2018-08-29)
 
@@ -14264,6 +14265,7 @@ wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php in the REST AP
 - [R3K1NG/wpUsersScan](https://github.com/R3K1NG/wpUsersScan)
 - [GeunSam2/CVE-2017-5487](https://github.com/GeunSam2/CVE-2017-5487)
 - [patilkr/wp-CVE-2017-5487-exploit](https://github.com/patilkr/wp-CVE-2017-5487-exploit)
+- [kr4dd/CVE-2017-5487](https://github.com/kr4dd/CVE-2017-5487)
 
 ### CVE-2017-5633 (2017-03-06)
 
@@ -16223,7 +16225,6 @@ The performance event manager for Qualcomm ARM processors in Android 4.x before 
 libs/binder/IMemory.cpp in the IMemory Native Interface in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-04-01 does not properly consider the heap size, which allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 26877992.
 </code>
 
-- [secmob/CVE-2016-0846](https://github.com/secmob/CVE-2016-0846)
 - [b0b0505/CVE-2016-0846-PoC](https://github.com/b0b0505/CVE-2016-0846-PoC)
 
 ### CVE-2016-0974 (2016-02-10)
@@ -16284,14 +16285,6 @@ AppleUSBNetworking in Apple iOS before 9.3 and OS X before 10.11.4 allows physic
 </code>
 
 - [Manouchehri/CVE-2016-1734](https://github.com/Manouchehri/CVE-2016-1734)
-
-### CVE-2016-1757 (2016-03-23)
-
-<code>
-Race condition in the kernel in Apple iOS before 9.3 and OS X before 10.11.4 allows attackers to execute arbitrary code in a privileged context via a crafted app.
-</code>
-
-- [gdbinit/mach_race](https://github.com/gdbinit/mach_race)
 
 ### CVE-2016-1764 (2016-03-23)
 
