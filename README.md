@@ -102,6 +102,7 @@ A validation issue was addressed with improved input sanitization. This issue is
 </code>
 
 - [tihmstar/itmsBlock](https://github.com/tihmstar/itmsBlock)
+- [ChiChou/mistune-patch-backport](https://github.com/ChiChou/mistune-patch-backport)
 
 ### CVE-2021-1782 (2021-04-02)
 
@@ -20400,6 +20401,7 @@ The &quot;Allow cPanel users to reset their password via email&quot; feature in 
 </code>
 
 - [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
+- [Redsplit/shiguresh](https://github.com/Redsplit/shiguresh)
 
 ### CVE-2004-2167 (2005-07-10)
 
