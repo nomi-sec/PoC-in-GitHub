@@ -1003,6 +1003,8 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [mr-r3bot/Confluence-CVE-2021-26084](https://github.com/mr-r3bot/Confluence-CVE-2021-26084)
 - [Loneyers/CVE-2021-26084](https://github.com/Loneyers/CVE-2021-26084)
 - [Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084)
+- [march0s1as/CVE-2021-26084](https://github.com/march0s1as/CVE-2021-26084)
+- [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1873,6 +1875,14 @@ The crypto/tls package of Go through 1.16.5 does not properly assert that the ty
 
 - [alexzorin/cve-2021-34558](https://github.com/alexzorin/cve-2021-34558)
 
+### CVE-2021-34646 (2021-08-30)
+
+<code>
+Versions up to, and including, 5.4.3, of the Booster for WooCommerce WordPress plugin are vulnerable to authentication bypass via the process_email_verification function due to a random token generation weakness in the reset_and_mail_activation_link function found in the ~/includes/class-wcj-emails-verification.php file. This allows attackers to impersonate users and trigger an email address verification for arbitrary accounts, including administrative accounts, and automatically be logged in as that user, including any site administrators. This requires the Email Verification module to be active in the plugin and the Login User After Successful Verification setting to be enabled, which it is by default.
+</code>
+
+- [motikan2010/CVE-2021-34646](https://github.com/motikan2010/CVE-2021-34646)
+
 ### CVE-2021-35042 (2021-07-02)
 
 <code>
@@ -2062,6 +2072,18 @@ TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and 
 
 - [HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS)
 - [HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS)
+
+### CVE-2021-38704
+- [sudonoodle/CVE-2021-38704](https://github.com/sudonoodle/CVE-2021-38704)
+
+### CVE-2021-38705
+- [sudonoodle/CVE-2021-38705](https://github.com/sudonoodle/CVE-2021-38705)
+
+### CVE-2021-38706
+- [sudonoodle/CVE-2021-38706](https://github.com/sudonoodle/CVE-2021-38706)
+
+### CVE-2021-38707
+- [sudonoodle/CVE-2021-38707](https://github.com/sudonoodle/CVE-2021-38707)
 
 ### CVE-2021-38710 (2021-08-18)
 
@@ -2512,6 +2534,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796)
 - [Nephael/Nephael-CVE-2020-0796](https://github.com/Nephael/Nephael-CVE-2020-0796)
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
+- [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -10608,6 +10631,7 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 - [Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114)
 - [Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114)
 - [scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114)
+- [RyouYoo/CVE-2018-0114](https://github.com/RyouYoo/CVE-2018-0114)
 
 ### CVE-2018-0202 (2018-03-27)
 
