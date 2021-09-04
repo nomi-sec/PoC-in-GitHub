@@ -3364,6 +3364,7 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
+- [CYB3R-X3eRo0/CVE-2020-6418](https://github.com/CYB3R-X3eRo0/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-20)
 
@@ -10894,6 +10895,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [0xMJ/CVE-2018-2628](https://github.com/0xMJ/CVE-2018-2628)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 - [seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628)
+- [BabyTeam1024/cve-2018-2628](https://github.com/BabyTeam1024/cve-2018-2628)
 
 ### CVE-2018-2636 (2018-01-17)
 
@@ -19399,6 +19401,7 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 - [OstojaOfficial/CVE-2012-2982](https://github.com/OstojaOfficial/CVE-2012-2982)
 - [AlexJS6/CVE-2012-2982_Python](https://github.com/AlexJS6/CVE-2012-2982_Python)
 - [Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982)
+- [JohnHammond/CVE-2012-2982](https://github.com/JohnHammond/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
 
