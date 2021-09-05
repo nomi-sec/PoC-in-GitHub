@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2021
-### CVE-2021-09
-- [zeroc00I/CVE-2021-09-03](https://github.com/zeroc00I/CVE-2021-09-03)
-
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -1004,6 +1001,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084)
 - [march0s1as/CVE-2021-26084](https://github.com/march0s1as/CVE-2021-26084)
 - [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
+- [rootsmadi/CVE-2021-26084](https://github.com/rootsmadi/CVE-2021-26084)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1575,6 +1573,14 @@ Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote at
 </code>
 
 - [xmzyshypnc/CVE-2021-30551](https://github.com/xmzyshypnc/CVE-2021-30551)
+
+### CVE-2021-30573 (2021-08-03)
+
+<code>
+Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [s4e-lab/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-lab/CVE-2021-30573-PoC-Google-Chrome)
 
 ### CVE-2021-30641 (2021-06-10)
 
@@ -3386,7 +3392,7 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
-- [CYB3R-X3eRo0/CVE-2020-6418](https://github.com/CYB3R-X3eRo0/CVE-2020-6418)
+- [CYB3R-Syno/CVE-2020-6418](https://github.com/CYB3R-Syno/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-20)
 
