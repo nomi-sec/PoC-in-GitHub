@@ -1747,7 +1747,7 @@ Boa 0.94.13 allows remote attackers to obtain sensitive information via a miscon
 ### CVE-2021-33560 (2021-06-08)
 
 <code>
-Libgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. (There is also an interoperability problem because the selection of the k integer value does not properly consider the differences between basic ElGamal encryption and generalized ElGamal encryption.) This, for example, affects use of ElGamal in OpenPGP.
+Libgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. This, for example, affects use of ElGamal in OpenPGP.
 </code>
 
 - [IBM/PGP-client-checker-CVE-2021-33560](https://github.com/IBM/PGP-client-checker-CVE-2021-33560)
@@ -10347,6 +10347,7 @@ The Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Executi
 
 - [dasithsv/CVE-2019-19609](https://github.com/dasithsv/CVE-2019-19609)
 - [diego-tella/CVE-2019-19609-EXPLOIT](https://github.com/diego-tella/CVE-2019-19609-EXPLOIT)
+- [guglia001/CVE-2019-19609](https://github.com/guglia001/CVE-2019-19609)
 
 ### CVE-2019-19633
 - [jra89/CVE-2019-19633](https://github.com/jra89/CVE-2019-19633)
