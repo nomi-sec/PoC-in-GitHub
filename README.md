@@ -1812,6 +1812,14 @@ fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not pro
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
 
+### CVE-2021-34371 (2021-08-05)
+
+<code>
+Neo4j through 3.4.18 (with the shell server enabled) exposes an RMI service that arbitrarily deserializes Java objects, e.g., through setSessionVariable. An attacker can abuse this for remote code execution because there are dependencies with exploitable gadget chains.
+</code>
+
+- [zwjjustdoit/CVE-2021-34371.jar](https://github.com/zwjjustdoit/CVE-2021-34371.jar)
+
 ### CVE-2021-34470 (2021-07-14)
 
 <code>
