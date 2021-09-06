@@ -955,7 +955,12 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 
 - [3ndG4me/AdTran-Personal-Phone-Manager-Vulns](https://github.com/3ndG4me/AdTran-Personal-Phone-Manager-Vulns)
 
-### CVE-2021-25735
+### CVE-2021-25735 (2021-09-06)
+
+<code>
+A security issue was discovered in kube-apiserver that could allow node updates to bypass a Validating Admission Webhook. Clusters are only affected by this vulnerability if they run a Validating Admission Webhook for Nodes that denies admission based at least partially on the old state of the Node object. Validating Admission Webhook does not observe some previous fields.
+</code>
+
 - [darryk10/CVE-2021-25735](https://github.com/darryk10/CVE-2021-25735)
 
 ### CVE-2021-25790 (2021-07-23)
@@ -977,7 +982,7 @@ Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Update P
 ### CVE-2021-26084 (2021-08-30)
 
 <code>
-In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an authenticated user, and in some instances an unauthenticated user, to execute arbitrary code on a Confluence Server or Data Center instance. The vulnerable endpoints can be accessed by a non-administrator user or unauthenticated user if ‘Allow people to sign up to create their account’ is enabled. To check whether this is enabled go to COG &gt; User Management &gt; User Signup Options. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
+In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
 </code>
 
 - [carlosevieira/CVE-2021-26084](https://github.com/carlosevieira/CVE-2021-26084)
@@ -1576,14 +1581,6 @@ Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote at
 
 - [xmzyshypnc/CVE-2021-30551](https://github.com/xmzyshypnc/CVE-2021-30551)
 
-### CVE-2021-30573 (2021-08-03)
-
-<code>
-Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-</code>
-
-- [s4e-lab/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-lab/CVE-2021-30573-PoC-Google-Chrome)
-
 ### CVE-2021-30641 (2021-06-10)
 
 <code>
@@ -1961,6 +1958,7 @@ A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSys
 </code>
 
 - [M-Kings/CVE-2021-36798](https://github.com/M-Kings/CVE-2021-36798)
+- [JamVayne/CobaltStrikeDos](https://github.com/JamVayne/CobaltStrikeDos)
 
 ### CVE-2021-36799 (2021-07-19)
 
@@ -2178,6 +2176,9 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 </code>
 
 - [5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353)
+
+### CVE-2021-40373
+- [maikroservice/CVE-2021-40373](https://github.com/maikroservice/CVE-2021-40373)
 
 ### CVE-2021-40374
 - [DCKento/CVE-2021-40374](https://github.com/DCKento/CVE-2021-40374)
@@ -7596,6 +7597,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [AnasTaoutaou/CVE-2019-5420](https://github.com/AnasTaoutaou/CVE-2019-5420)
 - [Eremiel/CVE-2019-5420](https://github.com/Eremiel/CVE-2019-5420)
 - [scumdestroy/CVE-2019-5420.rb](https://github.com/scumdestroy/CVE-2019-5420.rb)
+- [RyouYoo/CVE-2019-5420](https://github.com/RyouYoo/CVE-2019-5420)
 
 ### CVE-2019-5427 (2019-04-22)
 
@@ -10345,7 +10347,6 @@ The Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Executi
 
 - [dasithsv/CVE-2019-19609](https://github.com/dasithsv/CVE-2019-19609)
 - [diego-tella/CVE-2019-19609-EXPLOIT](https://github.com/diego-tella/CVE-2019-19609-EXPLOIT)
-- [guglia001/CVE-2019-19609](https://github.com/guglia001/CVE-2019-19609)
 
 ### CVE-2019-19633
 - [jra89/CVE-2019-19633](https://github.com/jra89/CVE-2019-19633)
@@ -17450,6 +17451,7 @@ Multiple integer overflows in the GraphicBuffer::unflatten function in platform/
 Integer overflow in the native_handle_create function in libcutils/native_handle.c in Android before 5.1.1 LMY48M allows attackers to obtain a different application's privileges or cause a denial of service (Binder heap memory corruption) via a crafted application, aka internal bug 19334482.
 </code>
 
+- [secmob/PoCForCVE-2015-1528](https://github.com/secmob/PoCForCVE-2015-1528)
 - [kanpol/PoCForCVE-2015-1528](https://github.com/kanpol/PoCForCVE-2015-1528)
 
 ### CVE-2015-1538 (2015-09-30)
@@ -17557,6 +17559,14 @@ The exception handling code in Eclipse Jetty before 9.2.9.v20150224 allows remot
 </code>
 
 - [6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080)
+
+### CVE-2015-2153 (2015-03-24)
+
+<code>
+The rpki_rtr_pdu_print function in print-rpki-rtr.c in the TCP printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read or write and crash) via a crafted header length in an RPKI-RTR Protocol Data Unit (PDU).
+</code>
+
+- [arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153)
 
 ### CVE-2015-2208 (2015-03-12)
 
@@ -17693,6 +17703,7 @@ The ping_unhash function in net/ipv4/ping.c in the Linux kernel before 4.0.3 doe
 </code>
 
 - [betalphafai/cve-2015-3636_crash](https://github.com/betalphafai/cve-2015-3636_crash)
+- [askk/libping_unhash_exploit_POC](https://github.com/askk/libping_unhash_exploit_POC)
 - [ludongxu/cve-2015-3636](https://github.com/ludongxu/cve-2015-3636)
 - [fi01/CVE-2015-3636](https://github.com/fi01/CVE-2015-3636)
 - [android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit)
@@ -17824,6 +17835,7 @@ named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote 
 - [elceef/tkeypoc](https://github.com/elceef/tkeypoc)
 - [hmlio/vaas-cve-2015-5477](https://github.com/hmlio/vaas-cve-2015-5477)
 - [knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477)
+- [ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477)
 - [likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477)
 - [xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit)
 
