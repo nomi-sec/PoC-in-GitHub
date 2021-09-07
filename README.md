@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2021
+### CVE-2021-00001
+- [FirDragon/cve-2021-00001](https://github.com/FirDragon/cve-2021-00001)
+
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -288,6 +291,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
+- [Kleptocratic/CVE-2021-3156](https://github.com/Kleptocratic/CVE-2021-3156)
 - [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
@@ -573,6 +577,7 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
 - [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
 - [MazX0p/CVE-2021-21315-exploit](https://github.com/MazX0p/CVE-2021-21315-exploit)
+- [alikarimi999/CVE-2021-21315](https://github.com/alikarimi999/CVE-2021-21315)
 
 ### CVE-2021-21341 (2021-03-22)
 
@@ -1010,6 +1015,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [rootsmadi/CVE-2021-26084](https://github.com/rootsmadi/CVE-2021-26084)
 - [p1gz/CVE-2021-26084-Confluence-OGNL](https://github.com/p1gz/CVE-2021-26084-Confluence-OGNL)
 - [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
+- [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1401,6 +1407,7 @@ Hyper-V Remote Code Execution Vulnerability
 
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
 - [bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476)
+- [sh4m2hwz/CVE-2021-28476-tools-env](https://github.com/sh4m2hwz/CVE-2021-28476-tools-env)
 
 ### CVE-2021-28480 (2021-04-13)
 
@@ -1842,6 +1849,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [cyberheartmi9/Proxyshell-Scanner](https://github.com/cyberheartmi9/Proxyshell-Scanner)
 - [RaouzRouik/CVE-2021-34473-scanner](https://github.com/RaouzRouik/CVE-2021-34473-scanner)
 - [phamphuqui1998/CVE-2021-34473](https://github.com/phamphuqui1998/CVE-2021-34473)
+- [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 
 ### CVE-2021-34481 (2021-07-16)
 
@@ -2002,6 +2010,14 @@ Windows Elevation of Privilege Vulnerability
 - [OlivierLaflamme/CVE-2021-36934_export_shadow_volume](https://github.com/OlivierLaflamme/CVE-2021-36934_export_shadow_volume)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
 
+### CVE-2021-36949 (2021-08-12)
+
+<code>
+Microsoft Azure Active Directory Connect Authentication Bypass Vulnerability
+</code>
+
+- [Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability](https://github.com/Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability)
+
 ### CVE-2021-37152 (2021-08-10)
 
 <code>
@@ -2091,6 +2107,7 @@ TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and 
 
 - [HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS)
 - [HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS)
+- [Justin-1993/CVE-2021-38699](https://github.com/Justin-1993/CVE-2021-38699)
 
 ### CVE-2021-38704
 - [sudonoodle/CVE-2021-38704](https://github.com/sudonoodle/CVE-2021-38704)
@@ -2884,6 +2901,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat](https://github.com/Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat)
 - [streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938)
 - [Neko2sh1ro/CVE-2020-1938](https://github.com/Neko2sh1ro/CVE-2020-1938)
+- [jptr218/ghostcat](https://github.com/jptr218/ghostcat)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -16210,6 +16228,7 @@ Multiple unspecified API endpoints in Jenkins before 1.650 and LTS before 1.642.
 
 - [jpiechowka/jenkins-cve-2016-0792](https://github.com/jpiechowka/jenkins-cve-2016-0792)
 - [s0wr0b1ndef/java-deserialization-exploits](https://github.com/s0wr0b1ndef/java-deserialization-exploits)
+- [Aviksaikat/CVE-2016-0792](https://github.com/Aviksaikat/CVE-2016-0792)
 
 ### CVE-2016-0793 (2016-04-01)
 
@@ -18258,6 +18277,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
+- [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -19942,6 +19962,9 @@ Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local u
 </code>
 
 - [otofoto/CVE-2010-5230](https://github.com/otofoto/CVE-2010-5230)
+
+### CVE-2010-26084
+- [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
 
 
 ## 2009
