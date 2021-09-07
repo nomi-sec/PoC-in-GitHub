@@ -1009,6 +1009,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
 - [rootsmadi/CVE-2021-26084](https://github.com/rootsmadi/CVE-2021-26084)
 - [p1gz/CVE-2021-26084-Confluence-OGNL](https://github.com/p1gz/CVE-2021-26084-Confluence-OGNL)
+- [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
 
 ### CVE-2021-26119 (2021-02-21)
 
