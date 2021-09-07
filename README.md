@@ -2109,16 +2109,36 @@ TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and 
 - [HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS)
 - [Justin-1993/CVE-2021-38699](https://github.com/Justin-1993/CVE-2021-38699)
 
-### CVE-2021-38704
+### CVE-2021-38704 (2021-09-07)
+
+<code>
+Multiple reflected cross-site scripting (XSS) vulnerabilities in ClinicCases 7.3.3 allow unauthenticated attackers to introduce arbitrary JavaScript by crafting a malicious URL. This can result in account takeover via session token theft.
+</code>
+
 - [sudonoodle/CVE-2021-38704](https://github.com/sudonoodle/CVE-2021-38704)
 
-### CVE-2021-38705
+### CVE-2021-38705 (2021-09-07)
+
+<code>
+ClinicCases 7.3.3 is affected by Cross-Site Request Forgery (CSRF). A successful attack would consist of an authenticated user following a malicious link, resulting in arbitrary actions being carried out with the privilege level of the targeted user. This can be exploited to create a secondary administrator account for the attacker.
+</code>
+
 - [sudonoodle/CVE-2021-38705](https://github.com/sudonoodle/CVE-2021-38705)
 
-### CVE-2021-38706
+### CVE-2021-38706 (2021-09-07)
+
+<code>
+messages_load.php in ClinicCases 7.3.3 suffers from a blind SQL injection vulnerability, which allows low-privileged attackers to execute arbitrary SQL commands through a vulnerable parameter.
+</code>
+
 - [sudonoodle/CVE-2021-38706](https://github.com/sudonoodle/CVE-2021-38706)
 
-### CVE-2021-38707
+### CVE-2021-38707 (2021-09-07)
+
+<code>
+Persistent cross-site scripting (XSS) vulnerabilities in ClinicCases 7.3.3 allow low-privileged attackers to introduce arbitrary JavaScript to account parameters. The XSS payloads will execute in the browser of any user who views the relevant content. This can result in account takeover via session token theft.
+</code>
+
 - [sudonoodle/CVE-2021-38707](https://github.com/sudonoodle/CVE-2021-38707)
 
 ### CVE-2021-38710 (2021-08-18)
@@ -2128,6 +2148,14 @@ Static (Persistent) XSS Vulnerability exists in version 4.3.0 of Yclas when usin
 </code>
 
 - [security-n/CVE-2021-38710](https://github.com/security-n/CVE-2021-38710)
+
+### CVE-2021-39115 (2021-09-01)
+
+<code>
+Affected versions of Atlassian Jira Service Management Server and Data Center allow remote attackers with &quot;Jira Administrators&quot; access to execute arbitrary Java code or run arbitrary system commands via a Server_Side Template Injection vulnerability in the Email Template feature. The affected versions are before version 4.13.9, and from version 4.14.0 before 4.18.0.
+</code>
+
+- [PetrusViet/CVE-2021-39115](https://github.com/PetrusViet/CVE-2021-39115)
 
 ### CVE-2021-39141 (2021-08-23)
 
@@ -7584,7 +7612,7 @@ Versions of the Official Alpine Linux Docker images (since v3.3) contain a NULL 
 An exploitable code execution vulnerability exists in the processing of multi-part/form-data requests within the base GoAhead web server application in versions v5.0.1, v.4.1.1 and v3.6.5. A specially crafted HTTP request can lead to a use-after-free condition during the processing of this request that can be used to corrupt heap structures that could lead to full code execution. The request can be unauthenticated in the form of GET or POST requests, and does not require the requested resource to exist on the server.
 </code>
 
-- [papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit](https://github.com/papinnon/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit)
+- [ianxtianxt/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit](https://github.com/ianxtianxt/CVE-2019-5096-GoAhead-Web-Server-Dos-Exploit)
 
 ### CVE-2019-5413 (2019-03-17)
 
@@ -19962,9 +19990,6 @@ Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local u
 </code>
 
 - [otofoto/CVE-2010-5230](https://github.com/otofoto/CVE-2010-5230)
-
-### CVE-2010-26084
-- [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
 
 
 ## 2009
