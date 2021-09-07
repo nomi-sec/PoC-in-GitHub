@@ -1786,7 +1786,12 @@ Microsoft Exchange Information Disclosure Vulnerability
 
 - [bhdresh/CVE-2021-33766-ProxyToken](https://github.com/bhdresh/CVE-2021-33766-ProxyToken)
 
-### CVE-2021-33831
+### CVE-2021-33831 (2021-09-07)
+
+<code>
+api/account/register in the TH Wildau COVID-19 Contact Tracing application through 2021-09-01 has Incorrect Access Control. An attacker can interfere with tracing of infection chains by creating 500 random users within 2500 seconds.
+</code>
+
 - [lanmarc77/CVE-2021-33831](https://github.com/lanmarc77/CVE-2021-33831)
 
 ### CVE-2021-33879 (2021-06-06)
@@ -10539,6 +10544,7 @@ selectExpander in select.c in SQLite 3.30.1 proceeds with WITH stack unwinding e
 </code>
 
 - [artsking/Sqlite-CVE-2019-20218](https://github.com/artsking/Sqlite-CVE-2019-20218)
+- [artsking/sqlite-3.22.0_CVE-2019-20218_withPatch](https://github.com/artsking/sqlite-3.22.0_CVE-2019-20218_withPatch)
 
 ### CVE-2019-20224 (2020-01-09)
 
