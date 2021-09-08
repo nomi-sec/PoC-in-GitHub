@@ -1949,6 +1949,14 @@ Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe 
 ### CVE-2021-36394
 - [dinhbaouit/CVE-2021-36394](https://github.com/dinhbaouit/CVE-2021-36394)
 
+### CVE-2021-36563 (2021-07-26)
+
+<code>
+The CheckMK management web console (versions 1.5.0 to 2.0.0) does not sanitise user input in various parameters of the WATO module. This allows an attacker to open a backdoor on the device with HTML content and interpreted by the browser (such as JavaScript or other client-side scripts), the XSS payload will be triggered when the user accesses some specific sections of the application. In the same sense a very dangerous potential way would be when an attacker who has the monitor role (not administrator) manages to get a stored XSS to steal the secretAutomation (for the use of the API in administrator mode) and thus be able to create another administrator user who has high privileges on the CheckMK monitoring web console. Another way is that persistent XSS allows an attacker to modify the displayed content or change the victim's information. Successful exploitation requires access to the web management interface, either with valid credentials or with a hijacked session.
+</code>
+
+- [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
+
 ### CVE-2021-36746 (2021-07-20)
 
 <code>
@@ -2236,6 +2244,9 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 
 ### CVE-2021-40375
 - [DCKento/CVE-2021-40375](https://github.com/DCKento/CVE-2021-40375)
+
+### CVE-2021-40444
+- [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
 
 ### CVE-2021-40492 (2021-09-03)
 
