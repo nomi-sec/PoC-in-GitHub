@@ -1016,6 +1016,8 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [p1gz/CVE-2021-26084-Confluence-OGNL](https://github.com/p1gz/CVE-2021-26084-Confluence-OGNL)
 - [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
 - [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
+- [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
+- [toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -8495,6 +8497,14 @@ WordPress before 5.1.1 does not properly filter comment content, leading to Remo
 - [sijiahi/Wordpress_cve-2019-9787_defense](https://github.com/sijiahi/Wordpress_cve-2019-9787_defense)
 - [matinciel/Wordpress_CVE-2019-9787](https://github.com/matinciel/Wordpress_CVE-2019-9787)
 - [dexXxed/CVE-2019-9787](https://github.com/dexXxed/CVE-2019-9787)
+
+### CVE-2019-9791 (2019-04-26)
+
+<code>
+The type inference system allows the compilation of functions that can cause type confusions between arbitrary objects when compiled through the IonMonkey just-in-time (JIT) compiler and when the constructor function is entered through on-stack replacement (OSR). This allows for possible arbitrary reading and writing of objects during an exploitable crash. This vulnerability affects Thunderbird &lt; 60.6, Firefox ESR &lt; 60.6, and Firefox &lt; 66.
+</code>
+
+- [Sp0pielar/CVE-2019-9791](https://github.com/Sp0pielar/CVE-2019-9791)
 
 ### CVE-2019-9810 (2019-04-26)
 
