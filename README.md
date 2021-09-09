@@ -2223,6 +2223,14 @@ A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is bein
 ### CVE-2021-39512
 - [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
 
+### CVE-2021-40346 (2021-09-08)
+
+<code>
+An integer overflow exists in HAProxy 2.0 through 2.5 in the htx_add_header() can be exploited to perform an HTTP request smuggling attack, allowing an attacker to bypass all configured http-request HAProxy ACLs and possibly other ACLs.
+</code>
+
+- [knqyf263/CVE-2021-40346](https://github.com/knqyf263/CVE-2021-40346)
+
 ### CVE-2021-40352 (2021-09-01)
 
 <code>
@@ -2250,6 +2258,8 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 
 ### CVE-2021-40444
 - [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
+- [DarkSprings/CVE-2021-40444](https://github.com/DarkSprings/CVE-2021-40444)
+- [rfcxv/CVE-2021-40444-POC](https://github.com/rfcxv/CVE-2021-40444-POC)
 
 ### CVE-2021-40492 (2021-09-03)
 
