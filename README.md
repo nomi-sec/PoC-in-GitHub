@@ -2041,6 +2041,14 @@ Multiple XSS issues exist in Sonatype Nexus Repository Manager 3 before 3.33.0. 
 ### CVE-2021-37589
 - [LucaRibeiro/CVE-2021-37589](https://github.com/LucaRibeiro/CVE-2021-37589)
 
+### CVE-2021-37678 (2021-08-12)
+
+<code>
+TensorFlow is an end-to-end open source platform for machine learning. In affected versions TensorFlow and Keras can be tricked to perform arbitrary code execution when deserializing a Keras model from YAML format. The [implementation](https://github.com/tensorflow/tensorflow/blob/460e000de3a83278fb00b61a16d161b1964f15f4/tensorflow/python/keras/saving/model_config.py#L66-L104) uses `yaml.unsafe_load` which can perform arbitrary code execution on the input. Given that YAML format support requires a significant amount of work, we have removed it for now. We have patched the issue in GitHub commit 23d6383eb6c14084a8fc3bdf164043b974818012. The fix will be included in TensorFlow 2.6.0. We will also cherrypick this commit on TensorFlow 2.5.1, TensorFlow 2.4.3, and TensorFlow 2.3.4, as these are also affected and still in supported range.
+</code>
+
+- [fran-CICS/ExploitTensorflowCVE-2021-37678](https://github.com/fran-CICS/ExploitTensorflowCVE-2021-37678)
+
 ### CVE-2021-37832 (2021-08-03)
 
 <code>
@@ -2227,7 +2235,7 @@ A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is bein
 ### CVE-2021-40346 (2021-09-08)
 
 <code>
-An integer overflow exists in HAProxy 2.0 through 2.5 in the htx_add_header() can be exploited to perform an HTTP request smuggling attack, allowing an attacker to bypass all configured http-request HAProxy ACLs and possibly other ACLs.
+An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can be exploited to perform an HTTP request smuggling attack, allowing an attacker to bypass all configured http-request HAProxy ACLs and possibly other ACLs.
 </code>
 
 - [knqyf263/CVE-2021-40346](https://github.com/knqyf263/CVE-2021-40346)
@@ -5714,6 +5722,14 @@ A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapest
 </code>
 
 - [154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531)
+
+### CVE-2020-17533 (2020-12-29)
+
+<code>
+Apache Accumulo versions 1.5.0 through 1.10.0 and version 2.0.0 do not properly check the return value of some policy enforcement functions before permitting an authenticated user to perform certain administrative operations. Specifically, the return values of the 'canFlush' and 'canPerformSystemActions' security functions are not checked in some instances, therefore allowing an authenticated user with insufficient permissions to perform the following actions: flushing a table, shutting down Accumulo or an individual tablet server, and setting or removing system-wide Accumulo configuration properties.
+</code>
+
+- [pazeray/CVE-2020-17533](https://github.com/pazeray/CVE-2020-17533)
 
 ### CVE-2020-21224 (2021-02-22)
 
