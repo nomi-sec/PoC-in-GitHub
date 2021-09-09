@@ -280,7 +280,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156)
 - [dock0d1/CVE-2021-3156](https://github.com/dock0d1/CVE-2021-3156)
 - [worawit/CVE-2021-3156](https://github.com/worawit/CVE-2021-3156)
-- [Chal13W1zz/Sudo-Spunk](https://github.com/Chal13W1zz/Sudo-Spunk)
 - [lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156)
 - [Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156)
 - [password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156)
@@ -2232,6 +2231,22 @@ A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is bein
 ### CVE-2021-39512
 - [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
 
+### CVE-2021-40222 (2021-09-09)
+
+<code>
+Rittal CMC PU III Web management Version affected: V3.11.00_2. Version fixed: V3.17.10 is affected by a remote code execution vulnerablity. It is possible to introduce shell code to create a reverse shell in the PU-Hostname field of the TCP/IP Configuration dialog. Web application fails to sanitize user input on Network TCP/IP configuration page. This allows the attacker to inject commands as root on the device which will be executed once the data is received.
+</code>
+
+- [asang17/CVE-2021-40222](https://github.com/asang17/CVE-2021-40222)
+
+### CVE-2021-40223 (2021-09-09)
+
+<code>
+Rittal CMC PU III Web management (version V3.11.00_2) fails to sanitize user input on several parameters of the configuration (User Configuration dialog, Task Configuration dialog and set logging filter dialog). This allows an attacker to backdoor the device with HTML and browser-interpreted content (such as JavaScript or other client-side scripts). The XSS payload will be triggered when the user accesses some specific sections of the application.
+</code>
+
+- [asang17/CVE-2021-40223](https://github.com/asang17/CVE-2021-40223)
+
 ### CVE-2021-40346 (2021-09-08)
 
 <code>
@@ -4098,6 +4113,14 @@ A vulnerability exists that could allow the execution of unauthorized code or op
 </code>
 
 - [norrismw/CVE-2020-9047](https://github.com/norrismw/CVE-2020-9047)
+
+### CVE-2020-9054 (2020-03-04)
+
+<code>
+Multiple ZyXEL network-attached storage (NAS) devices running firmware version 5.21 contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code on a vulnerable device. ZyXEL NAS devices achieve authentication by using the weblogin.cgi CGI executable. This program fails to properly sanitize the username parameter that is passed to it. If the username parameter contains certain characters, it can allow command injection with the privileges of the web server that runs on the ZyXEL device. Although the web server does not run as the root user, ZyXEL devices include a setuid utility that can be leveraged to run any command with root privileges. As such, it should be assumed that exploitation of this vulnerability can lead to remote code execution with root privileges. By sending a specially-crafted HTTP POST or GET request to a vulnerable ZyXEL device, a remote, unauthenticated attacker may be able to execute arbitrary code on the device. This may happen by directly connecting to a device if it is directly exposed to an attacker. However, there are ways to trigger such crafted requests even if an attacker does not have direct connectivity to a vulnerable devices. For example, simply visiting a website can result in the compromise of any ZyXEL device that is reachable from the client system. Affected products include: NAS326 before firmware V5.21(AAZF.7)C0 NAS520 before firmware V5.21(AASZ.3)C0 NAS540 before firmware V5.21(AATB.4)C0 NAS542 before firmware V5.21(ABAG.4)C0 ZyXEL has made firmware updates available for NAS326, NAS520, NAS540, and NAS542 devices. Affected models that are end-of-support: NSA210, NSA220, NSA220+, NSA221, NSA310, NSA310S, NSA320, NSA320S, NSA325 and NSA325v2
+</code>
+
+- [darrenmartyn/CVE-2020-9054](https://github.com/darrenmartyn/CVE-2020-9054)
 
 ### CVE-2020-9273 (2020-02-20)
 
@@ -5980,6 +6003,14 @@ A remote code execution vulnerability exists in the WebAdmin of Sophos SG UTM be
 </code>
 
 - [darrenmartyn/sophucked](https://github.com/darrenmartyn/sophucked)
+
+### CVE-2020-25233 (2020-12-14)
+
+<code>
+A vulnerability has been identified in LOGO! 8 BM (incl. SIPLUS variants) (All versions &lt; V8.3). The firmware update of affected devices contains the private RSA key that is used as a basis for encryption of communication with the device.
+</code>
+
+- [twentybel0w/CVE-2020-25233](https://github.com/twentybel0w/CVE-2020-25233)
 
 ### CVE-2020-25265 (2020-12-02)
 
@@ -9740,6 +9771,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
 - [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 - [puckiestyle/CVE-2019-15107](https://github.com/puckiestyle/CVE-2019-15107)
+- [darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -12677,14 +12709,6 @@ When loading a document with Apache Open Office 4.1.5 and earlier with smaller e
 </code>
 
 - [anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790)
-
-### CVE-2018-11882 (2018-10-29)
-
-<code>
-Incorrect bound check can lead to potential buffer overwrite in WLAN controller in Snapdragon Mobile in version SD 835, SD 845, SD 850, SDA660.
-</code>
-
-- [jguard01/cve-2018-11882](https://github.com/jguard01/cve-2018-11882)
 
 ### CVE-2018-12018 (2018-07-04)
 
