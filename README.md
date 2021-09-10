@@ -2269,7 +2269,12 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 
 - [5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353)
 
-### CVE-2021-40373
+### CVE-2021-40373 (2021-09-10)
+
+<code>
+playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the #tabs-information-page of core_main_config, and then executing that code via the index.php?app=main&amp;inc=core_welcome URI.
+</code>
+
 - [maikroservice/CVE-2021-40373](https://github.com/maikroservice/CVE-2021-40373)
 
 ### CVE-2021-40374
@@ -2283,6 +2288,7 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 - [DarkSprings/CVE-2021-40444](https://github.com/DarkSprings/CVE-2021-40444)
 - [rfcxv/CVE-2021-40444-POC](https://github.com/rfcxv/CVE-2021-40444-POC)
 - [vysecurity/CVE-2021-40444](https://github.com/vysecurity/CVE-2021-40444)
+- [Udyz/CVE-2021-40444-Sample](https://github.com/Udyz/CVE-2021-40444-Sample)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -2291,6 +2297,9 @@ A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibb
 </code>
 
 - [5qu1n7/CVE-2021-40492](https://github.com/5qu1n7/CVE-2021-40492)
+
+### CVE-2021-40845
+- [ricardojoserf/CVE-2021-40845](https://github.com/ricardojoserf/CVE-2021-40845)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
