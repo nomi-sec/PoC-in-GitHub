@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2021
-### CVE-2021-00001
-- [FirDragon/cve-2021-00001](https://github.com/FirDragon/cve-2021-00001)
-
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -2284,6 +2281,7 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 - [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
 - [DarkSprings/CVE-2021-40444](https://github.com/DarkSprings/CVE-2021-40444)
 - [rfcxv/CVE-2021-40444-POC](https://github.com/rfcxv/CVE-2021-40444-POC)
+- [vysecurity/CVE-2021-40444](https://github.com/vysecurity/CVE-2021-40444)
 
 ### CVE-2021-40492 (2021-09-03)
 
