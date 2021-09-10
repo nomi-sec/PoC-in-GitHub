@@ -1158,7 +1158,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [hictf/CVE-2021-26855-CVE-2021-27065](https://github.com/hictf/CVE-2021-26855-CVE-2021-27065)
 - [praetorian-inc/proxylogon-exploit](https://github.com/praetorian-inc/proxylogon-exploit)
 - [Flangvik/SharpProxyLogon](https://github.com/Flangvik/SharpProxyLogon)
-- [hosch3n/ProxyLogon](https://github.com/hosch3n/ProxyLogon)
+- [hosch3n/ProxyVulns](https://github.com/hosch3n/ProxyVulns)
 - [Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522)
 
 ### CVE-2021-26857 (2021-03-02)
@@ -2251,6 +2251,7 @@ An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can
 </code>
 
 - [knqyf263/CVE-2021-40346](https://github.com/knqyf263/CVE-2021-40346)
+- [donky16/CVE-2021-40346-POC](https://github.com/donky16/CVE-2021-40346-POC)
 
 ### CVE-2021-40352 (2021-09-01)
 
