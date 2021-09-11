@@ -2295,6 +2295,9 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [fengjixuchui/CVE-2021-40444-docx-Generate](https://github.com/fengjixuchui/CVE-2021-40444-docx-Generate)
 - [Lagal1990/CVE-2021-40444-docx-Generate](https://github.com/Lagal1990/CVE-2021-40444-docx-Generate)
 - [nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx](https://github.com/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx)
+- [amartinsec/MSHTMHell](https://github.com/amartinsec/MSHTMHell)
+- [mansk1es/Caboom](https://github.com/mansk1es/Caboom)
+- [kozmer/CVE-2021-40444](https://github.com/kozmer/CVE-2021-40444)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -6017,14 +6020,7 @@ A remote code execution vulnerability exists in the WebAdmin of Sophos SG UTM be
 </code>
 
 - [darrenmartyn/sophucked](https://github.com/darrenmartyn/sophucked)
-
-### CVE-2020-25233 (2020-12-14)
-
-<code>
-A vulnerability has been identified in LOGO! 8 BM (incl. SIPLUS variants) (All versions &lt; V8.3). The firmware update of affected devices contains the private RSA key that is used as a basis for encryption of communication with the device.
-</code>
-
-- [twentybel0w/CVE-2020-25233](https://github.com/twentybel0w/CVE-2020-25233)
+- [twentybel0w/CVE-2020-25223](https://github.com/twentybel0w/CVE-2020-25223)
 
 ### CVE-2020-25265 (2020-12-02)
 
