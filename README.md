@@ -2294,7 +2294,7 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [fengjixuchui/CVE-2021-40444-docx-Generate](https://github.com/fengjixuchui/CVE-2021-40444-docx-Generate)
 - [Lagal1990/CVE-2021-40444-docx-Generate](https://github.com/Lagal1990/CVE-2021-40444-docx-Generate)
-- [FanqXu/CVE-2021-40444](https://github.com/FanqXu/CVE-2021-40444)
+- [nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx](https://github.com/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -12894,6 +12894,7 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [k4nfr3/CVE-2018-13379-Fortinet](https://github.com/k4nfr3/CVE-2018-13379-Fortinet)
 - [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
 - [B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379)
+- [nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379)
 
 ### CVE-2018-13382 (2019-06-04)
 
