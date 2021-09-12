@@ -62,6 +62,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [Winter3un/CVE-2021-1675](https://github.com/Winter3un/CVE-2021-1675)
 - [hahaleyile/my-CVE-2021-1675](https://github.com/hahaleyile/my-CVE-2021-1675)
 - [mstxq17/CVE-2021-1675_RDL_LPE](https://github.com/mstxq17/CVE-2021-1675_RDL_LPE)
+- [ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -422,6 +423,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
 - [inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
 - [derek-turing/CVE-2021-3493](https://github.com/derek-turing/CVE-2021-3493)
+- [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
 
 ### CVE-2021-3516 (2021-06-01)
 
@@ -909,6 +911,14 @@ The SP Project &amp; Document Manager WordPress plugin before 4.22 allows users 
 </code>
 
 - [huydoppa/CVE-2021-24347-](https://github.com/huydoppa/CVE-2021-24347-)
+
+### CVE-2021-24499 (2021-08-09)
+
+<code>
+The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_uploader and workreap_temp_file_uploader did not perform nonce checks, or validate that the request is from a valid user in any other way. The endpoints allowed for uploading arbitrary files to the uploads/workreap-temp directory. Uploaded files were neither sanitized nor validated, allowing an unauthenticated visitor to upload executable code such as php scripts.
+</code>
+
+- [RyouYoo/CVE-2021-24499](https://github.com/RyouYoo/CVE-2021-24499)
 
 ### CVE-2021-25281 (2021-02-26)
 
@@ -2298,6 +2308,7 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [amartinsec/MSHTMHell](https://github.com/amartinsec/MSHTMHell)
 - [mansk1es/Caboom](https://github.com/mansk1es/Caboom)
 - [R0fM1a/CVE-2021-40444-pocv](https://github.com/R0fM1a/CVE-2021-40444-pocv)
+- [jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444)
 
 ### CVE-2021-40492 (2021-09-03)
 
