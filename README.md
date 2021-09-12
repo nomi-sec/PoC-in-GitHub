@@ -2297,7 +2297,7 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx](https://github.com/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx)
 - [amartinsec/MSHTMHell](https://github.com/amartinsec/MSHTMHell)
 - [mansk1es/Caboom](https://github.com/mansk1es/Caboom)
-- [kozmer/CVE-2021-40444](https://github.com/kozmer/CVE-2021-40444)
+- [R0fM1a/CVE-2021-40444-pocv](https://github.com/R0fM1a/CVE-2021-40444-pocv)
 
 ### CVE-2021-40492 (2021-09-03)
 
