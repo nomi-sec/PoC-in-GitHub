@@ -1718,7 +1718,7 @@ Windows Kernel Information Disclosure Vulnerability
 - [Lagal1990/CVE-2021-31955-POC](https://github.com/Lagal1990/CVE-2021-31955-POC)
 
 ### CVE-2021-32202
-- [l00neyhacker/CVE-2021-32202-](https://github.com/l00neyhacker/CVE-2021-32202-)
+- [l00neyhacker/CVE-2021-32202](https://github.com/l00neyhacker/CVE-2021-32202)
 
 ### CVE-2021-32471 (2021-05-10)
 
@@ -2310,6 +2310,7 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
 - [DarkSprings/CVE-2021-40444](https://github.com/DarkSprings/CVE-2021-40444)
 - [rfcxv/CVE-2021-40444-POC](https://github.com/rfcxv/CVE-2021-40444-POC)
+- [Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis)
 - [vysecurity/CVE-2021-40444](https://github.com/vysecurity/CVE-2021-40444)
 - [Udyz/CVE-2021-40444-Sample](https://github.com/Udyz/CVE-2021-40444-Sample)
 - [zaneGittins/CVE-2021-40444-evtx](https://github.com/zaneGittins/CVE-2021-40444-evtx)
@@ -2319,7 +2320,6 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx](https://github.com/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx)
 - [amartinsec/MSHTMHell](https://github.com/amartinsec/MSHTMHell)
 - [mansk1es/Caboom](https://github.com/mansk1es/Caboom)
-- [R0fM1a/CVE-2021-40444-pocv](https://github.com/R0fM1a/CVE-2021-40444-pocv)
 - [jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444)
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
 - [khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444)
@@ -5618,7 +5618,6 @@ A denial of service vulnerability exists when the Windows TCP/IP stack improperl
 </code>
 
 - [advanced-threat-research/CVE-2020-16899](https://github.com/advanced-threat-research/CVE-2020-16899)
-- [bkerler/CVE-2020-16899](https://github.com/bkerler/CVE-2020-16899)
 
 ### CVE-2020-16938 (2020-10-16)
 
