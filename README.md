@@ -923,6 +923,9 @@ The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_
 
 - [RyouYoo/CVE-2021-24499](https://github.com/RyouYoo/CVE-2021-24499)
 
+### CVE-2021-24741
+- [itsjeffersonli/CVE-2021-24741](https://github.com/itsjeffersonli/CVE-2021-24741)
+
 ### CVE-2021-25281 (2021-02-26)
 
 <code>
@@ -2340,6 +2343,7 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
 - [khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444)
 - [js-on/CVE-2021-40444](https://github.com/js-on/CVE-2021-40444)
+- [k8gege/CVE-2021-40444](https://github.com/k8gege/CVE-2021-40444)
 
 ### CVE-2021-40492 (2021-09-03)
 
