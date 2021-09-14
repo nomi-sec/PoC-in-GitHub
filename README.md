@@ -1717,7 +1717,12 @@ Windows Kernel Information Disclosure Vulnerability
 
 - [Lagal1990/CVE-2021-31955-POC](https://github.com/Lagal1990/CVE-2021-31955-POC)
 
-### CVE-2021-32202
+### CVE-2021-32202 (2021-09-14)
+
+<code>
+In CS-Cart version 4.11.1, it is possible to induce copy-paste XSS by manipulating the &quot;post description&quot; filed in the blog post creation page.
+</code>
+
 - [l00neyhacker/CVE-2021-32202](https://github.com/l00neyhacker/CVE-2021-32202)
 
 ### CVE-2021-32471 (2021-05-10)
@@ -1973,10 +1978,20 @@ The CheckMK management web console (versions 1.5.0 to 2.0.0) does not sanitise u
 
 - [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
 
-### CVE-2021-36581
+### CVE-2021-36581 (2021-09-14)
+
+<code>
+Kooboo CMS 2.1.1.0 is vulnerable to Insecure file upload. It is possible to upload any file extension to the server. The server does not verify the extension of the file and the tester was able to upload an aspx to the server.
+</code>
+
 - [l00neyhacker/CVE-2021-36581](https://github.com/l00neyhacker/CVE-2021-36581)
 
-### CVE-2021-36582
+### CVE-2021-36582 (2021-09-14)
+
+<code>
+In Kooboo CMS 2.1.1.0, it is possible to upload a remote shell (e.g., aspx) to the server and then call upon it to receive a reverse shell from the victim server. The files are uploaded to /Content/Template/root/reverse-shell.aspx and can be simply triggered by browsing that URL.
+</code>
+
 - [l00neyhacker/CVE-2021-36582](https://github.com/l00neyhacker/CVE-2021-36582)
 
 ### CVE-2021-36746 (2021-07-20)
@@ -2310,6 +2325,7 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
 - [DarkSprings/CVE-2021-40444](https://github.com/DarkSprings/CVE-2021-40444)
 - [rfcxv/CVE-2021-40444-POC](https://github.com/rfcxv/CVE-2021-40444-POC)
+- [bambooqj/CVE-2021-40444_EXP_JS](https://github.com/bambooqj/CVE-2021-40444_EXP_JS)
 - [Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis)
 - [vysecurity/CVE-2021-40444](https://github.com/vysecurity/CVE-2021-40444)
 - [Udyz/CVE-2021-40444-Sample](https://github.com/Udyz/CVE-2021-40444-Sample)
@@ -2323,6 +2339,7 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444)
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
 - [khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444)
+- [js-on/CVE-2021-40444](https://github.com/js-on/CVE-2021-40444)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -5962,6 +5979,14 @@ FasterXML jackson-databind 2.x before 2.9.10.6 mishandles the interaction betwee
 </code>
 
 - [0xkami/cve-2020-24616-poc](https://github.com/0xkami/cve-2020-24616-poc)
+
+### CVE-2020-24656 (2020-08-26)
+
+<code>
+Maltego before 4.2.12 allows XXE attacks.
+</code>
+
+- [terzinodipaese/Internet-Security-Project](https://github.com/terzinodipaese/Internet-Security-Project)
 
 ### CVE-2020-24750 (2020-09-17)
 
