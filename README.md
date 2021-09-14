@@ -1717,6 +1717,9 @@ Windows Kernel Information Disclosure Vulnerability
 
 - [Lagal1990/CVE-2021-31955-POC](https://github.com/Lagal1990/CVE-2021-31955-POC)
 
+### CVE-2021-32202
+- [l00neyhacker/CVE-2021-32202-](https://github.com/l00neyhacker/CVE-2021-32202-)
+
 ### CVE-2021-32471 (2021-05-10)
 
 <code>
@@ -1969,6 +1972,12 @@ The CheckMK management web console (versions 1.5.0 to 2.0.0) does not sanitise u
 </code>
 
 - [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
+
+### CVE-2021-36581
+- [l00neyhacker/CVE-2021-36581](https://github.com/l00neyhacker/CVE-2021-36581)
+
+### CVE-2021-36582
+- [l00neyhacker/CVE-2021-36582](https://github.com/l00neyhacker/CVE-2021-36582)
 
 ### CVE-2021-36746 (2021-07-20)
 
@@ -2301,7 +2310,6 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 - [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
 - [DarkSprings/CVE-2021-40444](https://github.com/DarkSprings/CVE-2021-40444)
 - [rfcxv/CVE-2021-40444-POC](https://github.com/rfcxv/CVE-2021-40444-POC)
-- [Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis)
 - [vysecurity/CVE-2021-40444](https://github.com/vysecurity/CVE-2021-40444)
 - [Udyz/CVE-2021-40444-Sample](https://github.com/Udyz/CVE-2021-40444-Sample)
 - [zaneGittins/CVE-2021-40444-evtx](https://github.com/zaneGittins/CVE-2021-40444-evtx)
@@ -2326,6 +2334,9 @@ A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibb
 
 ### CVE-2021-40845
 - [ricardojoserf/CVE-2021-40845](https://github.com/ricardojoserf/CVE-2021-40845)
+
+### CVE-2021-41074
+- [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
@@ -7957,14 +7968,6 @@ An issue was discovered in HuCart v5.7.4. There is a CSRF vulnerability that can
 </code>
 
 - [NMTech0x90/CVE-2019-6249_Hucart-cms](https://github.com/NMTech0x90/CVE-2019-6249_Hucart-cms)
-
-### CVE-2019-6260 (2019-01-22)
-
-<code>
-The ASPEED ast2400 and ast2500 Baseband Management Controller (BMC) hardware and firmware implement Advanced High-performance Bus (AHB) bridges, which allow arbitrary read and write access to the BMC's physical address space from the host (or from the network in unusual cases where the BMC console uart is attached to a serial concentrator). This CVE applies to the specific cases of iLPC2AHB bridge Pt I, iLPC2AHB bridge Pt II, PCIe VGA P2A bridge, DMA from/to arbitrary BMC memory via X-DMA, UART-based SoC Debug interface, LPC2AHB bridge, PCIe BMC P2A bridge, and Watchdog setup.
-</code>
-
-- [amboar/cve-2019-6260](https://github.com/amboar/cve-2019-6260)
 
 ### CVE-2019-6263 (2019-01-16)
 
