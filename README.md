@@ -102,7 +102,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 A validation issue was addressed with improved input sanitization. This issue is fixed in tvOS 14.4, watchOS 7.3, iOS 14.4 and iPadOS 14.4. Processing a maliciously crafted URL may lead to arbitrary javascript code execution.
 </code>
 
-- [tihmstar/itmsBlock](https://github.com/tihmstar/itmsBlock)
+- [Ivanhoe76zzzz/itmsBlock](https://github.com/Ivanhoe76zzzz/itmsBlock)
 - [ChiChou/mistune-patch-backport](https://github.com/ChiChou/mistune-patch-backport)
 
 ### CVE-2021-1782 (2021-04-02)
@@ -1458,6 +1458,14 @@ The Arm Mali GPU kernel driver allows privilege escalation or information disclo
 
 - [lntrx/CVE-2021-28663](https://github.com/lntrx/CVE-2021-28663)
 
+### CVE-2021-29003 (2021-04-13)
+
+<code>
+Genexis PLATINUM 4410 2.1 P4410-V2-1.28 devices allow remote attackers to execute arbitrary code via shell metacharacters to sys_config_valid.xgi, as demonstrated by the sys_config_valid.xgi?exeshell=%60telnetd%20%26%60 URI.
+</code>
+
+- [jaysharma786/CVE-2021-29003](https://github.com/jaysharma786/CVE-2021-29003)
+
 ### CVE-2021-29155 (2021-04-20)
 
 <code>
@@ -1824,6 +1832,7 @@ Microsoft Exchange Information Disclosure Vulnerability
 </code>
 
 - [bhdresh/CVE-2021-33766-ProxyToken](https://github.com/bhdresh/CVE-2021-33766-ProxyToken)
+- [demossl/CVE-2021-33766-ProxyToken](https://github.com/demossl/CVE-2021-33766-ProxyToken)
 
 ### CVE-2021-33831 (2021-09-07)
 
@@ -14547,7 +14556,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
 - [donaldashdown/Common-Vulnerability-and-Exploit](https://github.com/donaldashdown/Common-Vulnerability-and-Exploit)
-- [grant100/cybersecurity-struts2](https://github.com/grant100/cybersecurity-struts2)
+- [pr0x1ma-byte/cybersecurity-struts2](https://github.com/pr0x1ma-byte/cybersecurity-struts2)
 - [cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638)
 - [0x00-0x00/CVE-2017-5638](https://github.com/0x00-0x00/CVE-2017-5638)
 - [m3ssap0/struts2_cve-2017-5638](https://github.com/m3ssap0/struts2_cve-2017-5638)
