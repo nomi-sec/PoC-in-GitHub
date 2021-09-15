@@ -542,6 +542,14 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 
 - [Grayhaxor/CVE-2021-21148](https://github.com/Grayhaxor/CVE-2021-21148)
 
+### CVE-2021-21220 (2021-04-26)
+
+<code>
+Insufficient validation of untrusted input in V8 in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [security-dbg/CVE-2021-21220](https://github.com/security-dbg/CVE-2021-21220)
+
 ### CVE-2021-21234 (2021-01-05)
 
 <code>
@@ -13134,6 +13142,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [Dirty-Racoon/CVE-2018-15473-py3](https://github.com/Dirty-Racoon/CVE-2018-15473-py3)
 - [Sait-Nuri/CVE-2018-15473](https://github.com/Sait-Nuri/CVE-2018-15473)
 - [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
+- [MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473)
 
 ### CVE-2018-15499 (2018-08-24)
 
