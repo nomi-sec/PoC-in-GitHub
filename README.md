@@ -171,6 +171,14 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [freeide/CVE-2021-2394](https://github.com/freeide/CVE-2021-2394)
 - [BabyTeam1024/CVE-2021-2394](https://github.com/BabyTeam1024/CVE-2021-2394)
 
+### CVE-2021-2456 (2021-07-20)
+
+<code>
+Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Fusion Middleware (component: Analytics Web General). The supported version that is affected is 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Business Intelligence Enterprise Edition. Successful attacks of this vulnerability can result in takeover of Oracle Business Intelligence Enterprise Edition. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [peterjson31337/CVE-2021-2456](https://github.com/peterjson31337/CVE-2021-2456)
+
 ### CVE-2021-3007 (2021-01-03)
 
 <code>
@@ -1791,6 +1799,14 @@ Squirrelly is a template engine implemented in JavaScript that works out of the 
 
 - [Abady0x1/CVE-2021-32819](https://github.com/Abady0x1/CVE-2021-32819)
 
+### CVE-2021-33034 (2021-05-14)
+
+<code>
+In the Linux kernel before 5.12.4, net/bluetooth/hci_event.c has a use-after-free when destroying an hci_chan, aka CID-5c4c8c954409. This leads to writing an arbitrary value.
+</code>
+
+- [artsking/linux-4.1.15_CVE-2021-33034_withPatch](https://github.com/artsking/linux-4.1.15_CVE-2021-33034_withPatch)
+
 ### CVE-2021-33558 (2021-05-27)
 
 <code>
@@ -2186,6 +2202,8 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 </code>
 
 - [midoxnet/CVE-2021-38647](https://github.com/midoxnet/CVE-2021-38647)
+- [horizon3ai/CVE-2021-38647](https://github.com/horizon3ai/CVE-2021-38647)
+- [Immersive-Labs-Sec/cve-2021-38647](https://github.com/Immersive-Labs-Sec/cve-2021-38647)
 
 ### CVE-2021-38699 (2021-08-15)
 
@@ -2382,6 +2400,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [js-on/CVE-2021-40444](https://github.com/js-on/CVE-2021-40444)
 - [k8gege/CVE-2021-40444](https://github.com/k8gege/CVE-2021-40444)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
+- [Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -3949,30 +3968,6 @@ A Node.js application that allows an attacker to trigger a DNS request for a hos
 
 - [masahiro331/CVE-2020-8277](https://github.com/masahiro331/CVE-2020-8277)
 - [AndrewIjano/CVE-2020-8277](https://github.com/AndrewIjano/CVE-2020-8277)
-
-### CVE-2020-8284 (2020-12-14)
-
-<code>
-A malicious server can use the FTP PASV response to trick curl 7.73.0 and earlier into connecting back to a given IP address and port, and this way potentially make curl extract information about services that are otherwise private and not disclosed, for example doing port scanning and service banner extractions.
-</code>
-
-- [artsking/curl-7.64.1_CVE-2020-8284_WithPatch](https://github.com/artsking/curl-7.64.1_CVE-2020-8284_WithPatch)
-
-### CVE-2020-8285 (2020-12-14)
-
-<code>
-curl 7.21.0 to and including 7.73.0 is vulnerable to uncontrolled recursion due to a stack overflow issue in FTP wildcard match parsing.
-</code>
-
-- [artsking/curl-7.64.1_CVE-2020-8285_WithPatch](https://github.com/artsking/curl-7.64.1_CVE-2020-8285_WithPatch)
-
-### CVE-2020-8286 (2020-12-14)
-
-<code>
-curl 7.41.0 through 7.73.0 is vulnerable to an improper check for certificate revocation due to insufficient verification of the OCSP response.
-</code>
-
-- [artsking/curl-7.64.1_CVE-2020-8286_WithPatch](https://github.com/artsking/curl-7.64.1_CVE-2020-8286_WithPatch)
 
 ### CVE-2020-8287 (2021-01-06)
 
@@ -6918,6 +6913,7 @@ An issue was discovered in the Linux kernel before 5.8.1. net/bluetooth/hci_even
 </code>
 
 - [artsking/linux-3.0.35_CVE-2020-36386_withPatch](https://github.com/artsking/linux-3.0.35_CVE-2020-36386_withPatch)
+- [artsking/linux-4.1.15_CVE-2020-36386_withPatch](https://github.com/artsking/linux-4.1.15_CVE-2020-36386_withPatch)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -10781,15 +10777,6 @@ In Nagios XI 5.6.9, an authenticated user is able to execute arbitrary OS comman
 
 - [lp008/CVE-2019-20197](https://github.com/lp008/CVE-2019-20197)
 - [jas502n/CVE-2019-20197](https://github.com/jas502n/CVE-2019-20197)
-
-### CVE-2019-20218 (2020-01-01)
-
-<code>
-selectExpander in select.c in SQLite 3.30.1 proceeds with WITH stack unwinding even after a parsing error.
-</code>
-
-- [artsking/Sqlite-CVE-2019-20218](https://github.com/artsking/Sqlite-CVE-2019-20218)
-- [artsking/sqlite-3.22.0_CVE-2019-20218_withPatch](https://github.com/artsking/sqlite-3.22.0_CVE-2019-20218_withPatch)
 
 ### CVE-2019-20224 (2020-01-09)
 
@@ -17607,7 +17594,6 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
-- [limkokhole/GHOSTCHECK-cve-2015-0235](https://github.com/limkokhole/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0313 (2015-02-02)
 
@@ -17761,7 +17747,6 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS)
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
-- [limkokhole/CVE-2015-1635](https://github.com/limkokhole/CVE-2015-1635)
 - [1nf1n17yk1ng/CVE-2015-1635-POC](https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC)
 - [1nf1n17yk1ng/CVE-2015-1635](https://github.com/1nf1n17yk1ng/CVE-2015-1635)
 
@@ -19966,7 +19951,6 @@ The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 
 </code>
 
 - [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
-- [limkokhole/CVE-2011-3192](https://github.com/limkokhole/CVE-2011-3192)
 - [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
 
 ### CVE-2011-3368 (2011-10-05)
