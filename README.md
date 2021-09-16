@@ -2401,6 +2401,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [k8gege/CVE-2021-40444](https://github.com/k8gege/CVE-2021-40444)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB)
+- [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -9871,6 +9872,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [HACHp1/webmin_docker_and_exp](https://github.com/HACHp1/webmin_docker_and_exp)
 - [ketlerd/CVE-2019-15107](https://github.com/ketlerd/CVE-2019-15107)
 - [AdministratorGithub/CVE-2019-15107](https://github.com/AdministratorGithub/CVE-2019-15107)
+- [Pichuuuuu/CVE-2019-15107](https://github.com/Pichuuuuu/CVE-2019-15107)
 - [Rayferrufino/Make-and-Break](https://github.com/Rayferrufino/Make-and-Break)
 - [AleWong/WebminRCE-EXP-CVE-2019-15107-](https://github.com/AleWong/WebminRCE-EXP-CVE-2019-15107-)
 - [ianxtianxt/CVE-2019-15107](https://github.com/ianxtianxt/CVE-2019-15107)
