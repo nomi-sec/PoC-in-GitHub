@@ -2173,6 +2173,14 @@ openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an un
 
 - [charlesbickel/CVE-2021-38619](https://github.com/charlesbickel/CVE-2021-38619)
 
+### CVE-2021-38647 (2021-09-15)
+
+<code>
+Open Management Infrastructure Remote Code Execution Vulnerability
+</code>
+
+- [midoxnet/CVE-2021-38647](https://github.com/midoxnet/CVE-2021-38647)
+
 ### CVE-2021-38699 (2021-08-15)
 
 <code>
@@ -3196,6 +3204,14 @@ Vulnerability in the Java SE product of Oracle Java SE (component: JSSE). Suppor
 </code>
 
 - [RUB-NDS/CVE-2020-2655-DemoServer](https://github.com/RUB-NDS/CVE-2020-2655-DemoServer)
+
+### CVE-2020-2853 (2020-04-15)
+
+<code>
+Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Security: Privileges). Supported versions that are affected are 8.0.18 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [intrigueio/cve-2020-2853-poc](https://github.com/intrigueio/cve-2020-2853-poc)
 
 ### CVE-2020-2883 (2020-04-15)
 
