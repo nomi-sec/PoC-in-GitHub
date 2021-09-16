@@ -9,9 +9,6 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
-### CVE-2021-1234
-- [sDreamForZzQ/CVE-2021-1234](https://github.com/sDreamForZzQ/CVE-2021-1234)
-
 ### CVE-2021-1480 (2021-04-08)
 
 <code>
@@ -155,6 +152,14 @@ Vulnerability in the Recovery component of Oracle Database Server. Supported ver
 </code>
 
 - [emad-almousa/CVE-2021-2173](https://github.com/emad-almousa/CVE-2021-2173)
+
+### CVE-2021-2302 (2021-04-22)
+
+<code>
+Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: OPSS). Supported versions that are affected are 11.1.1.9.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Platform Security for Java. Successful attacks of this vulnerability can result in takeover of Oracle Platform Security for Java. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [quynhle7821/CVE-2021-2302](https://github.com/quynhle7821/CVE-2021-2302)
 
 ### CVE-2021-2394 (2021-07-20)
 
@@ -577,6 +582,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
 - [tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300)
 - [xiaofeihahah/CVE-2021-21300](https://github.com/xiaofeihahah/CVE-2021-21300)
+- [Mochican/CVE-2021-21300](https://github.com/Mochican/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -2375,6 +2381,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444)
 - [js-on/CVE-2021-40444](https://github.com/js-on/CVE-2021-40444)
 - [k8gege/CVE-2021-40444](https://github.com/k8gege/CVE-2021-40444)
+- [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 
 ### CVE-2021-40492 (2021-09-03)
 
