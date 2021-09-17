@@ -2480,8 +2480,6 @@ In binder_transaction of binder.c, there is a possible out of bounds write due t
 
 - [bluefrostsecurity/CVE-2020-0041](https://github.com/bluefrostsecurity/CVE-2020-0041)
 - [j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041)
-- [minutesinch/CVE-2020-0041](https://github.com/minutesinch/CVE-2020-0041)
-- [minutesinch/CVE-2020-0041-Original](https://github.com/minutesinch/CVE-2020-0041-Original)
 
 ### CVE-2020-0069 (2020-03-10)
 
