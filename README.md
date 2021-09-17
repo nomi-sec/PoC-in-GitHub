@@ -8070,6 +8070,14 @@ An issue was discovered in HuCart v5.7.4. There is a CSRF vulnerability that can
 
 - [NMTech0x90/CVE-2019-6249_Hucart-cms](https://github.com/NMTech0x90/CVE-2019-6249_Hucart-cms)
 
+### CVE-2019-6260 (2019-01-22)
+
+<code>
+The ASPEED ast2400 and ast2500 Baseband Management Controller (BMC) hardware and firmware implement Advanced High-performance Bus (AHB) bridges, which allow arbitrary read and write access to the BMC's physical address space from the host (or from the network in unusual cases where the BMC console uart is attached to a serial concentrator). This CVE applies to the specific cases of iLPC2AHB bridge Pt I, iLPC2AHB bridge Pt II, PCIe VGA P2A bridge, DMA from/to arbitrary BMC memory via X-DMA, UART-based SoC Debug interface, LPC2AHB bridge, PCIe BMC P2A bridge, and Watchdog setup.
+</code>
+
+- [nikitapbst/cve-2019-6260](https://github.com/nikitapbst/cve-2019-6260)
+
 ### CVE-2019-6263 (2019-01-16)
 
 <code>
