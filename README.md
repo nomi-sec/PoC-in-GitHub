@@ -2195,6 +2195,14 @@ openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an un
 
 - [charlesbickel/CVE-2021-38619](https://github.com/charlesbickel/CVE-2021-38619)
 
+### CVE-2021-38639 (2021-09-15)
+
+<code>
+Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-36975.
+</code>
+
+- [DarkSprings/CVE-2021-38639](https://github.com/DarkSprings/CVE-2021-38639)
+
 ### CVE-2021-38647 (2021-09-15)
 
 <code>
@@ -2410,6 +2418,14 @@ A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibb
 </code>
 
 - [5qu1n7/CVE-2021-40492](https://github.com/5qu1n7/CVE-2021-40492)
+
+### CVE-2021-40539 (2021-09-07)
+
+<code>
+Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to REST API authentication bypass with resultant remote code execution.
+</code>
+
+- [DarkSprings/CVE-2021-40539](https://github.com/DarkSprings/CVE-2021-40539)
 
 ### CVE-2021-40845 (2021-09-15)
 
@@ -7844,6 +7860,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [Eremiel/CVE-2019-5420](https://github.com/Eremiel/CVE-2019-5420)
 - [scumdestroy/CVE-2019-5420.rb](https://github.com/scumdestroy/CVE-2019-5420.rb)
 - [RyouYoo/CVE-2019-5420](https://github.com/RyouYoo/CVE-2019-5420)
+- [RyouYoo/CVE-2019-5420-RCE](https://github.com/RyouYoo/CVE-2019-5420-RCE)
 
 ### CVE-2019-5427 (2019-04-22)
 
