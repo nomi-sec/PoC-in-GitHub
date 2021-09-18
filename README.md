@@ -19883,8 +19883,8 @@ The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and S
 ** DISPUTED ** OpenSSL before 0.9.8l, and 0.9.8m through 1.x, does not properly restrict client-initiated renegotiation within the SSL and TLS protocols, which might make it easier for remote attackers to cause a denial of service (CPU consumption) by performing many renegotiations within a single connection, a different vulnerability than CVE-2011-5094.  NOTE: it can also be argued that it is the responsibility of server deployments, not a security library, to prevent or limit renegotiation when it is inappropriate within a specific environment.
 </code>
 
-- [c826/bash-tls-reneg-attack](https://github.com/c826/bash-tls-reneg-attack)
 - [zjt674449039/cve-2011-1473](https://github.com/zjt674449039/cve-2011-1473)
+- [XDLDCG/bash-tls-reneg-attack](https://github.com/XDLDCG/bash-tls-reneg-attack)
 
 ### CVE-2011-1475 (2011-04-08)
 
