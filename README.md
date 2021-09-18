@@ -2408,6 +2408,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444)
 - [js-on/CVE-2021-40444](https://github.com/js-on/CVE-2021-40444)
 - [k8gege/CVE-2021-40444](https://github.com/k8gege/CVE-2021-40444)
+- [vanhohen/MSHTML-CVE-2021-40444](https://github.com/vanhohen/MSHTML-CVE-2021-40444)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB)
 - [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
