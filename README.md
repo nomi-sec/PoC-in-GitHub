@@ -2222,6 +2222,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [midoxnet/CVE-2021-38647](https://github.com/midoxnet/CVE-2021-38647)
 - [horizon3ai/CVE-2021-38647](https://github.com/horizon3ai/CVE-2021-38647)
 - [Immersive-Labs-Sec/cve-2021-38647](https://github.com/Immersive-Labs-Sec/cve-2021-38647)
+- [SimenBai/CVE-2021-38647-POC-and-Demo-environment](https://github.com/SimenBai/CVE-2021-38647-POC-and-Demo-environment)
 
 ### CVE-2021-38699 (2021-08-15)
 
@@ -2421,6 +2422,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB)
 - [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
+- [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -17921,6 +17923,14 @@ Adobe Reader and Acrobat 10.x before 10.1.14 and 11.x before 11.0.11 on Windows 
 </code>
 
 - [reigningshells/CVE-2015-3073](https://github.com/reigningshells/CVE-2015-3073)
+
+### CVE-2015-3090 (2015-05-13)
+
+<code>
+Adobe Flash Player before 13.0.0.289 and 14.x through 17.x before 17.0.0.188 on Windows and OS X and before 11.2.202.460 on Linux, Adobe AIR before 17.0.0.172, Adobe AIR SDK before 17.0.0.172, and Adobe AIR SDK &amp; Compiler before 17.0.0.172 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2015-3078, CVE-2015-3089, and CVE-2015-3093.
+</code>
+
+- [Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18)
 
 ### CVE-2015-3152 (2016-05-16)
 
