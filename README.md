@@ -837,6 +837,7 @@ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3
 
 - [CsEnox/CVE-2021-22911](https://github.com/CsEnox/CVE-2021-22911)
 - [optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911](https://github.com/optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911)
+- [jayngng/CVE-2021-22911](https://github.com/jayngng/CVE-2021-22911)
 
 ### CVE-2021-22986 (2021-03-31)
 
