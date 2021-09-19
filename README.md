@@ -1645,6 +1645,14 @@ Apache HTTP Server versions 2.4.39 to 2.4.46 Unexpected matching behavior with '
 
 - [fkm75P8YjLkb/CVE-2021-30641](https://github.com/fkm75P8YjLkb/CVE-2021-30641)
 
+### CVE-2021-30860 (2021-08-24)
+
+<code>
+An integer overflow was addressed with improved input validation. This issue is fixed in Security Update 2021-005 Catalina, iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6, watchOS 7.6.2. Processing a maliciously crafted PDF may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
+</code>
+
+- [Levilutz/CVE-2021-30860](https://github.com/Levilutz/CVE-2021-30860)
+
 ### CVE-2021-31159 (2021-06-16)
 
 <code>
