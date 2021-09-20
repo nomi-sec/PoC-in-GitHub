@@ -145,6 +145,14 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
 - [dinosn/CVE-2021-2109](https://github.com/dinosn/CVE-2021-2109)
 
+### CVE-2021-2119 (2021-01-20)
+
+<code>
+Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.18. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 6.0 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N).
+</code>
+
+- [Sauercloud/RWCTF21-VirtualBox-61-escape](https://github.com/Sauercloud/RWCTF21-VirtualBox-61-escape)
+
 ### CVE-2021-2173 (2021-04-22)
 
 <code>
@@ -258,7 +266,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [mr-r3b00t/CVE-2021-3156](https://github.com/mr-r3b00t/CVE-2021-3156)
 - [nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156)
 - [reverse-ex/CVE-2021-3156](https://github.com/reverse-ex/CVE-2021-3156)
-- [jokerTPR2004/CVE-2021-3156](https://github.com/jokerTPR2004/CVE-2021-3156)
+- [JureGrinffin/CVE-2021-3156](https://github.com/JureGrinffin/CVE-2021-3156)
 - [ymrsmns/CVE-2021-3156](https://github.com/ymrsmns/CVE-2021-3156)
 - [elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER)
 - [kernelzeroday/CVE-2021-3156-Baron-Samedit](https://github.com/kernelzeroday/CVE-2021-3156-Baron-Samedit)
@@ -947,7 +955,12 @@ The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_
 
 - [RyouYoo/CVE-2021-24499](https://github.com/RyouYoo/CVE-2021-24499)
 
-### CVE-2021-24741
+### CVE-2021-24741 (2021-09-20)
+
+<code>
+The Support Board WordPress plugin before 3.3.4 does not escape multiple POST parameters (such as status_code, department, user_id, conversation_id, conversation_status_code, and recipient_id) before using them in SQL statements, leading to SQL injections which are exploitable by unauthenticated users.
+</code>
+
 - [itsjeffersonli/CVE-2021-24741](https://github.com/itsjeffersonli/CVE-2021-24741)
 
 ### CVE-2021-25281 (2021-02-26)
@@ -1638,6 +1651,9 @@ Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote at
 
 - [xmzyshypnc/CVE-2021-30551](https://github.com/xmzyshypnc/CVE-2021-30551)
 
+### CVE-2021-30632
+- [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
+
 ### CVE-2021-30641 (2021-06-10)
 
 <code>
@@ -2222,6 +2238,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [midoxnet/CVE-2021-38647](https://github.com/midoxnet/CVE-2021-38647)
 - [horizon3ai/CVE-2021-38647](https://github.com/horizon3ai/CVE-2021-38647)
 - [Immersive-Labs-Sec/cve-2021-38647](https://github.com/Immersive-Labs-Sec/cve-2021-38647)
+- [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
 - [SimenBai/CVE-2021-38647-POC-and-Demo-environment](https://github.com/SimenBai/CVE-2021-38647-POC-and-Demo-environment)
 
 ### CVE-2021-38699 (2021-08-15)
