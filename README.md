@@ -2238,6 +2238,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [midoxnet/CVE-2021-38647](https://github.com/midoxnet/CVE-2021-38647)
 - [horizon3ai/CVE-2021-38647](https://github.com/horizon3ai/CVE-2021-38647)
 - [Immersive-Labs-Sec/cve-2021-38647](https://github.com/Immersive-Labs-Sec/cve-2021-38647)
+- [marcosimioni/omigood](https://github.com/marcosimioni/omigood)
 - [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
 - [SimenBai/CVE-2021-38647-POC-and-Demo-environment](https://github.com/SimenBai/CVE-2021-38647-POC-and-Demo-environment)
 
@@ -20128,6 +20129,7 @@ UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 th
 </code>
 
 - [XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE)
+- [0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit](https://github.com/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit)
 
 ### CVE-2010-3332 (2010-09-22)
 
