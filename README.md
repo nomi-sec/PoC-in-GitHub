@@ -2242,6 +2242,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [marcosimioni/omigood](https://github.com/marcosimioni/omigood)
 - [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
 - [SimenBai/CVE-2021-38647-POC-and-Demo-environment](https://github.com/SimenBai/CVE-2021-38647-POC-and-Demo-environment)
+- [AlteredSecurity/CVE-2021-38647](https://github.com/AlteredSecurity/CVE-2021-38647)
 
 ### CVE-2021-38699 (2021-08-15)
 
