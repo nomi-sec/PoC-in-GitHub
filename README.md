@@ -2235,6 +2235,7 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 Open Management Infrastructure Remote Code Execution Vulnerability
 </code>
 
+- [corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647)
 - [midoxnet/CVE-2021-38647](https://github.com/midoxnet/CVE-2021-38647)
 - [horizon3ai/CVE-2021-38647](https://github.com/horizon3ai/CVE-2021-38647)
 - [Immersive-Labs-Sec/cve-2021-38647](https://github.com/Immersive-Labs-Sec/cve-2021-38647)
