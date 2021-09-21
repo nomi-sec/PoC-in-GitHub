@@ -18805,7 +18805,7 @@ The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses
 
 - [mikesplain/CVE-2014-3566-poodle-cookbook](https://github.com/mikesplain/CVE-2014-3566-poodle-cookbook)
 - [stdevel/poodle_protector](https://github.com/stdevel/poodle_protector)
-- [ashmastaflash/mangy-beast](https://github.com/ashmastaflash/mangy-beast)
+- [cloudpassage/mangy-beast](https://github.com/cloudpassage/mangy-beast)
 - [mpgn/poodle-PoC](https://github.com/mpgn/poodle-PoC)
 
 ### CVE-2014-3625 (2014-11-20)
