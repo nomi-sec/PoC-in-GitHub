@@ -2470,6 +2470,9 @@ The web part of Zenitel AlphaCom XE Audio Server through 11.2.3.10, called Alpha
 
 - [ricardojoserf/CVE-2021-40845](https://github.com/ricardojoserf/CVE-2021-40845)
 
+### CVE-2021-40875
+- [SakuraSamuraii/derailed](https://github.com/SakuraSamuraii/derailed)
+
 ### CVE-2021-41074
 - [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
 
@@ -3954,16 +3957,6 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 - [AssassinUKG/CVE-2020-8165](https://github.com/AssassinUKG/CVE-2020-8165)
 - [progfay/CVE-2020-8165](https://github.com/progfay/CVE-2020-8165)
 - [danielklim/cve-2020-8165-demo](https://github.com/danielklim/cve-2020-8165-demo)
-
-### CVE-2020-8169 (2020-12-14)
-
-<code>
-curl 7.62.0 through 7.70.0 is vulnerable to an information disclosure vulnerability that can lead to a partial password being leaked over the network and to the DNS server(s).
-</code>
-
-- [madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch_old](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch_old)
-- [madhans23/curl-curl-7_64_1_CVE-2020-8169_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_withPatch)
-- [madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2020-8169_noPatch)
 
 ### CVE-2020-8175 (2020-07-24)
 
@@ -7920,25 +7913,6 @@ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution whe
 - [rabbitmask/CVE-2019-5475-EXP](https://github.com/rabbitmask/CVE-2019-5475-EXP)
 - [lyy289065406/CVE-2019-5475](https://github.com/lyy289065406/CVE-2019-5475)
 
-### CVE-2019-5481 (2019-09-16)
-
-<code>
-Double-free vulnerability in the FTP-kerberos code in cURL 7.52.0 to 7.65.3.
-</code>
-
-- [madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch_old](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch_old)
-- [madhans23/curl-curl-7_64_1_CVE-2019-5481_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_withPatch)
-- [madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5481_noPatch)
-
-### CVE-2019-5482 (2019-09-16)
-
-<code>
-Heap buffer overflow in the TFTP protocol handler in cURL 7.19.4 to 7.65.3.
-</code>
-
-- [madhans23/curl-curl-7_64_1_CVE-2019-5482_noPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5482_noPatch)
-- [madhans23/curl-curl-7_64_1_CVE-2019-5482_withPatch](https://github.com/madhans23/curl-curl-7_64_1_CVE-2019-5482_withPatch)
-
 ### CVE-2019-5489 (2019-01-07)
 
 <code>
@@ -10327,6 +10301,14 @@ The login page on D-Link DIR-615 T1 20.10 devices allows remote attackers to byp
 </code>
 
 - [huzaifahussain98/CVE-2019-17525](https://github.com/huzaifahussain98/CVE-2019-17525)
+
+### CVE-2019-17543 (2019-10-13)
+
+<code>
+LZ4 before 1.9.2 has a heap-based buffer overflow in LZ4_write32 (related to LZ4_compress_destSize), affecting applications that call LZ4_compress_fast with a large input. (This issue can also lead to data corruption.) NOTE: the vendor states &quot;only a few specific / uncommon usages of the API are at risk.&quot;
+</code>
+
+- [madhans23/lz4-1.8.3_CVE-2019-17543_WithPatch](https://github.com/madhans23/lz4-1.8.3_CVE-2019-17543_WithPatch)
 
 ### CVE-2019-17558 (2019-12-30)
 
@@ -13459,6 +13441,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3)
 - [uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r)
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
+- [NeKroFR/CVE-2018-16763](https://github.com/NeKroFR/CVE-2018-16763)
 
 ### CVE-2018-16843 (2018-11-07)
 
