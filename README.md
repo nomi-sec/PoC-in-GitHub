@@ -2245,6 +2245,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [SimenBai/CVE-2021-38647-POC-and-Demo-environment](https://github.com/SimenBai/CVE-2021-38647-POC-and-Demo-environment)
 - [AlteredSecurity/CVE-2021-38647](https://github.com/AlteredSecurity/CVE-2021-38647)
 - [m1thryn/CVE-2021-38647](https://github.com/m1thryn/CVE-2021-38647)
+- [abousteif/cve-2021-38647](https://github.com/abousteif/cve-2021-38647)
 
 ### CVE-2021-38699 (2021-08-15)
 
@@ -2470,7 +2471,12 @@ The web part of Zenitel AlphaCom XE Audio Server through 11.2.3.10, called Alpha
 
 - [ricardojoserf/CVE-2021-40845](https://github.com/ricardojoserf/CVE-2021-40845)
 
-### CVE-2021-40875
+### CVE-2021-40875 (-)
+
+<code>
+Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in sensitive information exposure. A threat actor can access the /files.md5 file on the client side of a Gurock TestRail application, disclosing a full list of application files and the corresponding file paths. The corresponding file paths can be tested, and in some cases, result in the disclosure of hardcoded credentials, API keys, or other sensitive data.
+</code>
+
 - [SakuraSamuraii/derailed](https://github.com/SakuraSamuraii/derailed)
 
 ### CVE-2021-41074
@@ -2828,7 +2834,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796)
 - [MasterSploit/LPE---CVE-2020-0796](https://github.com/MasterSploit/LPE---CVE-2020-0796)
 - [ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796)
-- [Apasys/Nephael-CVE-2020-0796](https://github.com/Apasys/Nephael-CVE-2020-0796)
+- [Apasys/Apasys-CVE-2020-0796](https://github.com/Apasys/Apasys-CVE-2020-0796)
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 
@@ -8114,7 +8120,7 @@ Some field types do not properly sanitize data from non-form sources in Drupal 8
 - [d1vious/cve-2019-6340-bits](https://github.com/d1vious/cve-2019-6340-bits)
 - [jas502n/CVE-2019-6340](https://github.com/jas502n/CVE-2019-6340)
 - [ludy-dev/drupal8-REST-RCE](https://github.com/ludy-dev/drupal8-REST-RCE)
-- [Apasys/Nephael-CVE-2019-6340](https://github.com/Apasys/Nephael-CVE-2019-6340)
+- [Apasys/Apasys-CVE-2019-6340](https://github.com/Apasys/Apasys-CVE-2019-6340)
 - [nobodyatall648/CVE-2019-6340](https://github.com/nobodyatall648/CVE-2019-6340)
 
 ### CVE-2019-6440 (2019-01-15)
@@ -11855,6 +11861,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [ErnestZiemkowski/cve-2018-6574](https://github.com/ErnestZiemkowski/cve-2018-6574)
 - [l3ouu4n9/CVE-2018-6574-POC](https://github.com/l3ouu4n9/CVE-2018-6574-POC)
 - [R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574)
+- [RyouYoo/CVE-2018-6574](https://github.com/RyouYoo/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
