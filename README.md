@@ -2471,7 +2471,7 @@ The web part of Zenitel AlphaCom XE Audio Server through 11.2.3.10, called Alpha
 
 - [ricardojoserf/CVE-2021-40845](https://github.com/ricardojoserf/CVE-2021-40845)
 
-### CVE-2021-40875 (-)
+### CVE-2021-40875 (2021-09-22)
 
 <code>
 Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in sensitive information exposure. A threat actor can access the /files.md5 file on the client side of a Gurock TestRail application, disclosing a full list of application files and the corresponding file paths. The corresponding file paths can be tested, and in some cases, result in the disclosure of hardcoded credentials, API keys, or other sensitive data.
