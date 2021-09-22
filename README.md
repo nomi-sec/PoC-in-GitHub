@@ -1039,6 +1039,7 @@ Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Update P
 In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
 </code>
 
+- [Sma11New/PocList](https://github.com/Sma11New/PocList)
 - [carlosevieira/CVE-2021-26084](https://github.com/carlosevieira/CVE-2021-26084)
 - [alt3kx/CVE-2021-26084_PoC](https://github.com/alt3kx/CVE-2021-26084_PoC)
 - [dinhbaouit/CVE-2021-26084](https://github.com/dinhbaouit/CVE-2021-26084)
@@ -2243,6 +2244,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
 - [SimenBai/CVE-2021-38647-POC-and-Demo-environment](https://github.com/SimenBai/CVE-2021-38647-POC-and-Demo-environment)
 - [AlteredSecurity/CVE-2021-38647](https://github.com/AlteredSecurity/CVE-2021-38647)
+- [m1thryn/CVE-2021-38647](https://github.com/m1thryn/CVE-2021-38647)
 
 ### CVE-2021-38699 (2021-08-15)
 
@@ -9359,6 +9361,7 @@ Zeroshell 3.9.0 is prone to a remote command execution vulnerability. Specifical
 </code>
 
 - [givemefivw/CVE-2019-12725](https://github.com/givemefivw/CVE-2019-12725)
+- [Sma11New/PocList](https://github.com/Sma11New/PocList)
 - [h3v0x/CVE-2019-12725-Command-Injection](https://github.com/h3v0x/CVE-2019-12725-Command-Injection)
 - [MzzdToT/CVE-2019-12725](https://github.com/MzzdToT/CVE-2019-12725)
 
