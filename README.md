@@ -758,6 +758,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 
 ### CVE-2021-22005
 - [1ZRR4H/CVE-2021-22005](https://github.com/1ZRR4H/CVE-2021-22005)
+- [pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity)
 
 ### CVE-2021-22123 (2021-06-01)
 
