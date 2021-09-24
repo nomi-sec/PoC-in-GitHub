@@ -2258,6 +2258,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [AlteredSecurity/CVE-2021-38647](https://github.com/AlteredSecurity/CVE-2021-38647)
 - [m1thryn/CVE-2021-38647](https://github.com/m1thryn/CVE-2021-38647)
 - [abousteif/cve-2021-38647](https://github.com/abousteif/cve-2021-38647)
+- [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
 
 ### CVE-2021-38699 (2021-08-15)
 
@@ -2458,6 +2459,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB)
 - [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
 - [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
+- [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -10147,14 +10149,6 @@ phpIPAM 1.4 allows SQL injection via the app/admin/custom-fields/filter-result.p
 
 - [kkirsche/CVE-2019-16692](https://github.com/kkirsche/CVE-2019-16692)
 
-### CVE-2019-16724 (2019-09-24)
-
-<code>
-File Sharing Wizard 1.5.0 allows a remote attacker to obtain arbitrary code execution by exploiting a Structured Exception Handler (SEH) based buffer overflow in an HTTP POST parameter, a similar issue to CVE-2010-2330 and CVE-2010-2331.
-</code>
-
-- [nanabingies/CVE-2019-16724](https://github.com/nanabingies/CVE-2019-16724)
-
 ### CVE-2019-16759 (2019-09-24)
 
 <code>
@@ -12224,7 +12218,6 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [DreamoneOnly/CVE-2018-8120](https://github.com/DreamoneOnly/CVE-2018-8120)
 - [StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120)
 - [wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120)
-- [nanabingies/CVE-2018-8120](https://github.com/nanabingies/CVE-2018-8120)
 
 ### CVE-2018-8172 (2018-07-10)
 
@@ -12294,6 +12287,14 @@ A remote code execution vulnerability exists in the way that the scripting engin
 </code>
 
 - [sharmasandeepkr/cve-2018-8389](https://github.com/sharmasandeepkr/cve-2018-8389)
+
+### CVE-2018-8410 (2018-09-12)
+
+<code>
+An elevation of privilege vulnerability exists when the Windows Kernel API improperly handles registry objects in memory, aka &quot;Windows Registry Elevation of Privilege Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+</code>
+
+- [trapmine/CVE-2018-8410](https://github.com/trapmine/CVE-2018-8410)
 
 ### CVE-2018-8414 (2018-08-15)
 
