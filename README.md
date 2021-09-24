@@ -92,6 +92,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [linuxdy/CVE-2021-1732_exp](https://github.com/linuxdy/CVE-2021-1732_exp)
 - [Pai-Po/CVE-2021-1732](https://github.com/Pai-Po/CVE-2021-1732)
 - [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
+- [BeneficialCode/CVE-2021-1732](https://github.com/BeneficialCode/CVE-2021-1732)
 
 ### CVE-2021-1748 (2021-04-02)
 
@@ -12752,7 +12753,6 @@ stdlib/canonicalize.c in the GNU C Library (aka glibc or libc6) 2.27 and earlier
 </code>
 
 - [evilmiracle/CVE-2018-11236](https://github.com/evilmiracle/CVE-2018-11236)
-- [rockysec/CVE-2018-11236](https://github.com/rockysec/CVE-2018-11236)
 
 ### CVE-2018-11311 (2018-05-20)
 
