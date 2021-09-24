@@ -1885,6 +1885,7 @@ Microsoft DWM Core Library Elevation of Privilege Vulnerability
 </code>
 
 - [Lagal1990/CVE-2021-33739-POC](https://github.com/Lagal1990/CVE-2021-33739-POC)
+- [giwon9977/CVE-2021-33739_PoC](https://github.com/giwon9977/CVE-2021-33739_PoC)
 
 ### CVE-2021-33766 (2021-07-14)
 
