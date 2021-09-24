@@ -1697,7 +1697,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 </code>
 
 - [0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166)
-- [An0ny-m0us/CVE-2021-31166](https://github.com/An0ny-m0us/CVE-2021-31166)
+- [zha0gongz1/CVE-2021-31166](https://github.com/zha0gongz1/CVE-2021-31166)
 - [Frankmock/CVE-2021-31166-detection-rules](https://github.com/Frankmock/CVE-2021-31166-detection-rules)
 - [corelight/CVE-2021-31166](https://github.com/corelight/CVE-2021-31166)
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
@@ -2020,6 +2020,7 @@ Django 3.1.x before 3.1.13 and 3.2.x before 3.2.5 allows QuerySet.order_by SQL i
 
 - [YouGina/CVE-2021-35042](https://github.com/YouGina/CVE-2021-35042)
 - [mrlihd/CVE-2021-35042](https://github.com/mrlihd/CVE-2021-35042)
+- [r4vi/CVE-2021-35042](https://github.com/r4vi/CVE-2021-35042)
 
 ### CVE-2021-35448 (2021-06-24)
 
