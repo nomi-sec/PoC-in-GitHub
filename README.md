@@ -314,8 +314,9 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 - [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
-- [Kleptocratic/CVE-2021-3156](https://github.com/Kleptocratic/CVE-2021-3156)
+- [RoseSecurity/CVE-2021-3156](https://github.com/RoseSecurity/CVE-2021-3156)
 - [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
+- [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -767,6 +768,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity)
 - [X1pe0/VMWare-CVE-Check](https://github.com/X1pe0/VMWare-CVE-Check)
 - [5gstudent/CVE-2021-22005-](https://github.com/5gstudent/CVE-2021-22005-)
+- [r0ckysec/CVE-2021-22005](https://github.com/r0ckysec/CVE-2021-22005)
 
 ### CVE-2021-22123 (2021-06-01)
 
@@ -20266,14 +20268,6 @@ Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local u
 
 
 ## 2009
-### CVE-2009-0182 (2009-01-20)
-
-<code>
-Buffer overflow in VUPlayer 2.49 and earlier allows user-assisted attackers to execute arbitrary code via a long URL in a File line in a .pls file, as demonstrated by an http URL on a File1 line.
-</code>
-
-- [nobodyatall648/CVE-2009-0182](https://github.com/nobodyatall648/CVE-2009-0182)
-
 ### CVE-2009-0229 (2009-06-10)
 
 <code>
