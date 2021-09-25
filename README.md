@@ -766,6 +766,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [1ZRR4H/CVE-2021-22005](https://github.com/1ZRR4H/CVE-2021-22005)
 - [pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity)
 - [X1pe0/VMWare-CVE-Check](https://github.com/X1pe0/VMWare-CVE-Check)
+- [5gstudent/CVE-2021-22005-](https://github.com/5gstudent/CVE-2021-22005-)
 
 ### CVE-2021-22123 (2021-06-01)
 
@@ -836,7 +837,7 @@ A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in n
 </code>
 
 - [JoneyJunior/cve-2021-22555](https://github.com/JoneyJunior/cve-2021-22555)
-- [JustYoomoon/CVE-2021-22555-Exploit](https://github.com/JustYoomoon/CVE-2021-22555-Exploit)
+- [HackerDev-Felix/CVE-2021-22555-Exploit](https://github.com/HackerDev-Felix/CVE-2021-22555-Exploit)
 - [cgwalters/container-cve-2021-22555](https://github.com/cgwalters/container-cve-2021-22555)
 
 ### CVE-2021-22893 (2021-04-23)
