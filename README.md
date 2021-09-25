@@ -15030,6 +15030,14 @@ Foscam networked devices use the same hardcoded SSL private key across different
 
 - [notmot/CVE-2017-7648.](https://github.com/notmot/CVE-2017-7648.)
 
+### CVE-2017-7651 (2018-04-24)
+
+<code>
+In Eclipse Mosquitto 1.4.14, a user can shutdown the Mosquitto server simply by filling the RAM memory with a lot of connections with large payload. This can be done without authentications if occur in connection phase of MQTT protocol.
+</code>
+
+- [mukkul007/MqttAttack](https://github.com/mukkul007/MqttAttack)
+
 ### CVE-2017-7679 (2017-06-19)
 
 <code>
