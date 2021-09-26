@@ -2464,6 +2464,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
 - [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
+- [securitysphynx/cve-2021-40444_weaponized](https://github.com/securitysphynx/cve-2021-40444_weaponized)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -20268,6 +20269,14 @@ Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local u
 
 
 ## 2009
+### CVE-2009-0182 (2009-01-20)
+
+<code>
+Buffer overflow in VUPlayer 2.49 and earlier allows user-assisted attackers to execute arbitrary code via a long URL in a File line in a .pls file, as demonstrated by an http URL on a File1 line.
+</code>
+
+- [nobodyatall648/CVE-2009-0182](https://github.com/nobodyatall648/CVE-2009-0182)
+
 ### CVE-2009-0229 (2009-06-10)
 
 <code>
@@ -20911,14 +20920,6 @@ Xerver Free Web Server 2.10 and earlier allows remote attackers to cause a denia
 </code>
 
 - [alt3kx/CVE-2002-0448](https://github.com/alt3kx/CVE-2002-0448)
-
-### CVE-2002-0740 (2002-07-26)
-
-<code>
-Buffer overflow in slrnpull for the SLRN package, when installed setuid or setgid, allows local users to gain privileges via a long -d (SPOOLDIR) argument.
-</code>
-
-- [alt3kx/CVE-2002-0740](https://github.com/alt3kx/CVE-2002-0740)
 
 ### CVE-2002-0991 (2002-08-31)
 
