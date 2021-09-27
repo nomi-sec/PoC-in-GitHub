@@ -612,7 +612,6 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
 - [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
 - [MazX0p/CVE-2021-21315-exploit](https://github.com/MazX0p/CVE-2021-21315-exploit)
-- [alikarimi999/CVE-2021-21315](https://github.com/alikarimi999/CVE-2021-21315)
 
 ### CVE-2021-21341 (2021-03-22)
 
@@ -963,14 +962,6 @@ The SP Project &amp; Document Manager WordPress plugin before 4.22 allows users 
 
 - [huydoppa/CVE-2021-24347-](https://github.com/huydoppa/CVE-2021-24347-)
 
-### CVE-2021-24499 (2021-08-09)
-
-<code>
-The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_uploader and workreap_temp_file_uploader did not perform nonce checks, or validate that the request is from a valid user in any other way. The endpoints allowed for uploading arbitrary files to the uploads/workreap-temp directory. Uploaded files were neither sanitized nor validated, allowing an unauthenticated visitor to upload executable code such as php scripts.
-</code>
-
-- [RyouYoo/CVE-2021-24499](https://github.com/RyouYoo/CVE-2021-24499)
-
 ### CVE-2021-24741 (2021-09-20)
 
 <code>
@@ -1086,7 +1077,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched)
 - [nizarbamida/CVE-2021-26084-patch-](https://github.com/nizarbamida/CVE-2021-26084-patch-)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
-- [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1678,14 +1668,6 @@ Apache HTTP Server versions 2.4.39 to 2.4.46 Unexpected matching behavior with '
 </code>
 
 - [fkm75P8YjLkb/CVE-2021-30641](https://github.com/fkm75P8YjLkb/CVE-2021-30641)
-
-### CVE-2021-30860 (2021-08-24)
-
-<code>
-An integer overflow was addressed with improved input validation. This issue is fixed in Security Update 2021-005 Catalina, iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6, watchOS 7.6.2. Processing a maliciously crafted PDF may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
-</code>
-
-- [Levilutz/CVE-2021-30860](https://github.com/Levilutz/CVE-2021-30860)
 
 ### CVE-2021-31159 (2021-06-16)
 
@@ -2464,7 +2446,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [vanhohen/MSHTML-CVE-2021-40444](https://github.com/vanhohen/MSHTML-CVE-2021-40444)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB)
-- [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
 - [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
 
