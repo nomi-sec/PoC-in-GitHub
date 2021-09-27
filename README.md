@@ -1710,6 +1710,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
 - [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
 - [c4dr01d/CVE-2021-31166](https://github.com/c4dr01d/CVE-2021-31166)
+- [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 
 ### CVE-2021-31184 (2021-05-11)
 
@@ -13472,6 +13473,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r)
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
 - [NeKroFR/CVE-2018-16763](https://github.com/NeKroFR/CVE-2018-16763)
+- [k4is3r13/Bash-Script-CVE-2018-16763](https://github.com/k4is3r13/Bash-Script-CVE-2018-16763)
 
 ### CVE-2018-16843 (2018-11-07)
 
