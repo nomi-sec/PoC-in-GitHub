@@ -3952,7 +3952,7 @@ STMicroelectronics STM32F1 devices have Incorrect Access Control.
 ### CVE-2020-8012 (2020-02-17)
 
 <code>
-CA Unified Infrastructure Management (Nimsoft/UIM) 9.20 and below contains a buffer overflow vulnerability in the robot (controller) component. A remote attacker can execute arbitrary code.
+CA Unified Infrastructure Management (Nimsoft/UIM) 20.1, 20.3.x, and 9.20 and below contains a buffer overflow vulnerability in the robot (controller) component. A remote attacker can execute arbitrary code.
 </code>
 
 - [wetw0rk/Exploit-Development](https://github.com/wetw0rk/Exploit-Development)
@@ -13302,7 +13302,6 @@ The Plainview Activity Monitor plugin before 20180826 for WordPress is vulnerabl
 </code>
 
 - [cved-sources/cve-2018-15877](https://github.com/cved-sources/cve-2018-15877)
-- [huydoppa/CVE-2018-15877](https://github.com/huydoppa/CVE-2018-15877)
 - [Cinnamon1212/CVE-2018-15877-RCE](https://github.com/Cinnamon1212/CVE-2018-15877-RCE)
 
 ### CVE-2018-15912 (2018-08-29)
