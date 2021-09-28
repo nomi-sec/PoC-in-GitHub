@@ -1670,6 +1670,7 @@ Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote at
 
 ### CVE-2021-30632
 - [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
+- [Lagal1990/CVE-2021-30632](https://github.com/Lagal1990/CVE-2021-30632)
 
 ### CVE-2021-30641 (2021-06-10)
 
@@ -2266,6 +2267,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [m1thryn/CVE-2021-38647](https://github.com/m1thryn/CVE-2021-38647)
 - [abousteif/cve-2021-38647](https://github.com/abousteif/cve-2021-38647)
 - [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
+- [fr34kyy/omigod](https://github.com/fr34kyy/omigod)
 
 ### CVE-2021-38699 (2021-08-15)
 
@@ -10323,14 +10325,6 @@ The login page on D-Link DIR-615 T1 20.10 devices allows remote attackers to byp
 </code>
 
 - [huzaifahussain98/CVE-2019-17525](https://github.com/huzaifahussain98/CVE-2019-17525)
-
-### CVE-2019-17543 (2019-10-13)
-
-<code>
-LZ4 before 1.9.2 has a heap-based buffer overflow in LZ4_write32 (related to LZ4_compress_destSize), affecting applications that call LZ4_compress_fast with a large input. (This issue can also lead to data corruption.) NOTE: the vendor states &quot;only a few specific / uncommon usages of the API are at risk.&quot;
-</code>
-
-- [madhans23/lz4-1.8.3_CVE-2019-17543_WithPatch](https://github.com/madhans23/lz4-1.8.3_CVE-2019-17543_WithPatch)
 
 ### CVE-2019-17558 (2019-12-30)
 
