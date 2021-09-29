@@ -1932,9 +1932,6 @@ fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not pro
 - [ikramimamoglu/AmIAHuman-CVE-2021-33909](https://github.com/ikramimamoglu/AmIAHuman-CVE-2021-33909)
 - [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
-### CVE-2021-34045
-- [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
-
 ### CVE-2021-34371 (2021-08-05)
 
 <code>
@@ -2044,7 +2041,6 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 ForgeRock AM server before 7.0 has a Java deserialization vulnerability in the jato.pageSession parameter on multiple pages. The exploitation does not require authentication, and remote code execution can be triggered by sending a single crafted /ccversion/* request to the server. The vulnerability exists due to the usage of Sun ONE Application Framework (JATO) found in versions of Java 8 or earlier
 </code>
 
-- [Y4er/openam-CVE-2021-35464](https://github.com/Y4er/openam-CVE-2021-35464)
 - [rood8008/CVE-2021-35464](https://github.com/rood8008/CVE-2021-35464)
 
 ### CVE-2021-35956 (2021-06-30)
@@ -3725,7 +3721,6 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
-- [CYB3R-Syno/CVE-2020-6418](https://github.com/CYB3R-Syno/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-20)
 
