@@ -20121,6 +20121,14 @@ The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Applicati
 - [ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn)
 - [gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn)
 
+### CVE-2010-1205 (2010-06-30)
+
+<code>
+Buffer overflow in pngpread.c in libpng before 1.2.44 and 1.4.x before 1.4.3, as used in progressive applications, might allow remote attackers to execute arbitrary code via a PNG image that triggers an additional data row.
+</code>
+
+- [mk219533/CVE-2010-1205](https://github.com/mk219533/CVE-2010-1205)
+
 ### CVE-2010-1240 (2010-04-05)
 
 <code>
@@ -20233,6 +20241,14 @@ The Double.parseDouble method in Java Runtime Environment (JRE) in Oracle Java S
 </code>
 
 - [grzegorzblaszczyk/CVE-2010-4476-check](https://github.com/grzegorzblaszczyk/CVE-2010-4476-check)
+
+### CVE-2010-4669 (2011-01-07)
+
+<code>
+The Neighbor Discovery (ND) protocol implementation in the IPv6 stack in Microsoft Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7 allows remote attackers to cause a denial of service (CPU consumption and system hang) by sending many Router Advertisement (RA) messages with different source addresses, as demonstrated by the flood_router6 program in the thc-ipv6 package.
+</code>
+
+- [quinn-samuel-perry/CVE-2010-4669](https://github.com/quinn-samuel-perry/CVE-2010-4669)
 
 ### CVE-2010-4804 (2011-06-09)
 
