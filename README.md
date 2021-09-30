@@ -2063,6 +2063,9 @@ Microsoft discovered a remote code execution (RCE) vulnerability in the SolarWin
 
 - [NattiSamson/Serv-U-CVE-2021-35211](https://github.com/NattiSamson/Serv-U-CVE-2021-35211)
 
+### CVE-2021-35296
+- [afaq1337/CVE-2021-35296](https://github.com/afaq1337/CVE-2021-35296)
+
 ### CVE-2021-35448 (2021-06-24)
 
 <code>
@@ -19988,6 +19991,7 @@ The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and S
 </code>
 
 - [zjt674449039/cve-2011-1473](https://github.com/zjt674449039/cve-2011-1473)
+- [XDLDCG/bash-tls-reneg-attack](https://github.com/XDLDCG/bash-tls-reneg-attack)
 
 ### CVE-2011-1475 (2011-04-08)
 
@@ -20133,6 +20137,14 @@ Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MI
 - [hdbreaker/GO-CVE-2011-4862](https://github.com/hdbreaker/GO-CVE-2011-4862)
 - [lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862)
 - [kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862)
+
+### CVE-2011-4919 (2019-11-19)
+
+<code>
+mpack 1.6 has information disclosure via eavesdropping on mails sent by other users
+</code>
+
+- [hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper)
 
 
 ## 2010
