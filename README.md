@@ -2037,6 +2037,14 @@ Versions up to, and including, 5.4.3, of the Booster for WooCommerce WordPress p
 
 - [motikan2010/CVE-2021-34646](https://github.com/motikan2010/CVE-2021-34646)
 
+### CVE-2021-34730 (2021-08-18)
+
+<code>
+A vulnerability in the Universal Plug-and-Play (UPnP) service of Cisco Small Business RV110W, RV130, RV130W, and RV215W Routers could allow an unauthenticated, remote attacker to execute arbitrary code or cause an affected device to restart unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to improper validation of incoming UPnP traffic. An attacker could exploit this vulnerability by sending a crafted UPnP request to an affected device. A successful exploit could allow the attacker to execute arbitrary code as the root user on the underlying operating system or cause the device to reload, resulting in a DoS condition. Cisco has not released software updates that address this vulnerability.
+</code>
+
+- [badmonkey7/CVE-2021-34730](https://github.com/badmonkey7/CVE-2021-34730)
+
 ### CVE-2021-35042 (2021-07-02)
 
 <code>
@@ -19980,7 +19988,6 @@ The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and S
 </code>
 
 - [zjt674449039/cve-2011-1473](https://github.com/zjt674449039/cve-2011-1473)
-- [XDLDCG/bash-tls-reneg-attack](https://github.com/XDLDCG/bash-tls-reneg-attack)
 
 ### CVE-2011-1475 (2011-04-08)
 
@@ -20126,14 +20133,6 @@ Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MI
 - [hdbreaker/GO-CVE-2011-4862](https://github.com/hdbreaker/GO-CVE-2011-4862)
 - [lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862)
 - [kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862)
-
-### CVE-2011-4919 (2019-11-19)
-
-<code>
-mpack 1.6 has information disclosure via eavesdropping on mails sent by other users
-</code>
-
-- [hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper)
 
 
 ## 2010
