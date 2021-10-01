@@ -234,6 +234,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
 - [1111one/laravel-CVE-2021-3129-EXP](https://github.com/1111one/laravel-CVE-2021-3129-EXP)
+- [knqyf263/CVE-2021-3129](https://github.com/knqyf263/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -2686,7 +2687,7 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [ollypwn/CurveBall](https://github.com/ollypwn/CurveBall)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
-- [BleepSec/CVE-2020-0601](https://github.com/BleepSec/CVE-2020-0601)
+- [BlueTeamSteve/CVE-2020-0601](https://github.com/BlueTeamSteve/CVE-2020-0601)
 - [apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
@@ -10461,6 +10462,7 @@ ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise 
 </code>
 
 - [MuirlandOracle/CVE-2019-17662](https://github.com/MuirlandOracle/CVE-2019-17662)
+- [k4is3r13/Bash-Script-CVE-2019-17662](https://github.com/k4is3r13/Bash-Script-CVE-2019-17662)
 
 ### CVE-2019-17671 (2019-10-17)
 
