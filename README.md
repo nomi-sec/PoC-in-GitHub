@@ -2545,6 +2545,30 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 ### CVE-2021-41074
 - [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
 
+### CVE-2021-41647 (-)
+
+<code>
+An un-authenticated error-based and time-based blind SQL injection vulnerability exists in Kaushik Jadhav Online Food Ordering Web App 1.0. An attacker can exploit the vulnerable &quot;username&quot; parameter in login.php and retrieve sensitive database information, as well as add an administrative user.
+</code>
+
+- [MobiusBinary/CVE-2021-41647](https://github.com/MobiusBinary/CVE-2021-41647)
+
+### CVE-2021-41648 (2021-10-01)
+
+<code>
+An un-authenticated SQL Injection exists in PuneethReddyHC online-shopping-system-advanced through the /action.php prId parameter. Using a post request does not sanitize the user input.
+</code>
+
+- [MobiusBinary/CVE-2021-41648](https://github.com/MobiusBinary/CVE-2021-41648)
+
+### CVE-2021-41649 (2021-10-01)
+
+<code>
+An un-authenticated SQL Injection exists in PuneethReddyHC online-shopping-system-advanced through the /homeaction.php cat_id parameter. Using a post request does not sanitize the user input.
+</code>
+
+- [MobiusBinary/CVE-2021-41649](https://github.com/MobiusBinary/CVE-2021-41649)
+
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
 
@@ -4847,6 +4871,7 @@ An issue was discovered in SaltStack Salt before 2019.2.4 and 3000 before 3000.2
 - [heikanet/CVE-2020-11651-CVE-2020-11652-EXP](https://github.com/heikanet/CVE-2020-11651-CVE-2020-11652-EXP)
 - [RakhithJK/CVE-2020-11651](https://github.com/RakhithJK/CVE-2020-11651)
 - [appcheck-ng/salt-rce-scanner-CVE-2020-11651-CVE-2020-11652](https://github.com/appcheck-ng/salt-rce-scanner-CVE-2020-11651-CVE-2020-11652)
+- [puckiestyle/cve-2020-11651](https://github.com/puckiestyle/cve-2020-11651)
 
 ### CVE-2020-11652 (2020-04-30)
 
@@ -5689,6 +5714,14 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 
 ### CVE-2020-15399
 - [mkelepce/CVE-2020-15399](https://github.com/mkelepce/CVE-2020-15399)
+
+### CVE-2020-15436 (2020-11-23)
+
+<code>
+Use-after-free vulnerability in fs/block_dev.c in the Linux kernel before 5.8 allows local users to gain privileges or cause a denial of service by leveraging improper access to a certain error field.
+</code>
+
+- [artsking/linux-4.1.15_CVE-2020-15436_withPatch](https://github.com/artsking/linux-4.1.15_CVE-2020-15436_withPatch)
 
 ### CVE-2020-15492 (2020-07-23)
 
