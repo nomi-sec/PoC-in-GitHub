@@ -853,6 +853,7 @@ A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in n
 - [JoneyJunior/cve-2021-22555](https://github.com/JoneyJunior/cve-2021-22555)
 - [HackerDev-Felix/CVE-2021-22555-Exploit](https://github.com/HackerDev-Felix/CVE-2021-22555-Exploit)
 - [cgwalters/container-cve-2021-22555](https://github.com/cgwalters/container-cve-2021-22555)
+- [daletoniris/CVE-2021-22555-esc-priv](https://github.com/daletoniris/CVE-2021-22555-esc-priv)
 
 ### CVE-2021-22893 (2021-04-23)
 
