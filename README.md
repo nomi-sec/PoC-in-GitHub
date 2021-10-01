@@ -2545,7 +2545,7 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 ### CVE-2021-41074
 - [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
 
-### CVE-2021-41647 (-)
+### CVE-2021-41647 (2021-10-01)
 
 <code>
 An un-authenticated error-based and time-based blind SQL injection vulnerability exists in Kaushik Jadhav Online Food Ordering Web App 1.0. An attacker can exploit the vulnerable &quot;username&quot; parameter in login.php and retrieve sensitive database information, as well as add an administrative user.
@@ -2568,6 +2568,9 @@ An un-authenticated SQL Injection exists in PuneethReddyHC online-shopping-syste
 </code>
 
 - [MobiusBinary/CVE-2021-41649](https://github.com/MobiusBinary/CVE-2021-41649)
+
+### CVE-2021-41651
+- [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
@@ -12006,6 +12009,7 @@ An issue was discovered in CloudMe before 1.11.0. An unauthenticated remote atta
 - [manojcode/CloudMe-Sync-1.10.9---Buffer-Overflow-SEH-DEP-Bypass](https://github.com/manojcode/CloudMe-Sync-1.10.9---Buffer-Overflow-SEH-DEP-Bypass)
 - [manojcode/-Win10-x64-CloudMe-Sync-1.10.9-Buffer-Overflow-SEH-DEP-Bypass](https://github.com/manojcode/-Win10-x64-CloudMe-Sync-1.10.9-Buffer-Overflow-SEH-DEP-Bypass)
 - [latortuga71/CVE-2018-6892-Golang](https://github.com/latortuga71/CVE-2018-6892-Golang)
+- [crypticq/CLOUDME_B0F](https://github.com/crypticq/CLOUDME_B0F)
 
 ### CVE-2018-6905 (2018-04-08)
 
