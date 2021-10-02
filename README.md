@@ -774,6 +774,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [r0ckysec/CVE-2021-22005](https://github.com/r0ckysec/CVE-2021-22005)
 - [RedTeamExp/CVE-2021-22005_PoC](https://github.com/RedTeamExp/CVE-2021-22005_PoC)
 - [rwincey/CVE-2021-22005](https://github.com/rwincey/CVE-2021-22005)
+- [TaroballzChen/CVE-2021-22005-metasploit](https://github.com/TaroballzChen/CVE-2021-22005-metasploit)
 
 ### CVE-2021-22015 (2021-09-23)
 
@@ -1962,6 +1963,9 @@ Neo4j through 3.4.18 (with the shell server enabled) exposes an RMI service that
 </code>
 
 - [zwjjustdoit/CVE-2021-34371.jar](https://github.com/zwjjustdoit/CVE-2021-34371.jar)
+
+### CVE-2021-34423
+- [mithridates1313/ProxyShell_POC](https://github.com/mithridates1313/ProxyShell_POC)
 
 ### CVE-2021-34470 (2021-07-14)
 
