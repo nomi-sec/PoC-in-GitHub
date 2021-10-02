@@ -453,6 +453,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
 - [derek-turing/CVE-2021-3493](https://github.com/derek-turing/CVE-2021-3493)
 - [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
+- [puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493)
 
 ### CVE-2021-3516 (2021-06-01)
 
@@ -2549,6 +2550,9 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 
 ### CVE-2021-41074
 - [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
+
+### CVE-2021-41511
+- [Ni7inSharma/CVE-2021-41511](https://github.com/Ni7inSharma/CVE-2021-41511)
 
 ### CVE-2021-41647 (2021-10-01)
 
