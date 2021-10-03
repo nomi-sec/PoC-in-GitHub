@@ -3455,7 +3455,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 </code>
 
 - [CrackerCat/CVE-2020-3187](https://github.com/CrackerCat/CVE-2020-3187)
-- [x00x00/CVE-2020-3187](https://github.com/x00x00/CVE-2020-3187)
+- [1337in/CVE-2020-3187](https://github.com/1337in/CVE-2020-3187)
 - [sujaygr8/CVE-2020-3187](https://github.com/sujaygr8/CVE-2020-3187)
 
 ### CVE-2020-3433 (2020-08-17)
