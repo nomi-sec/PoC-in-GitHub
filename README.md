@@ -2515,6 +2515,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
 - [LazarusReborn/Docx-Exploit-2021](https://github.com/LazarusReborn/Docx-Exploit-2021)
+- [H0j3n/CVE-2021-40444](https://github.com/H0j3n/CVE-2021-40444)
 
 ### CVE-2021-40492 (2021-09-03)
 
