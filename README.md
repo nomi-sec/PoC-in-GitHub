@@ -1503,7 +1503,7 @@ Hyper-V Remote Code Execution Vulnerability
 
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
 - [bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476)
-- [sh4m2hwz/CVE-2021-28476-tools-env](https://github.com/sh4m2hwz/CVE-2021-28476-tools-env)
+- [LaCeeKa/CVE-2021-28476-tools-env](https://github.com/LaCeeKa/CVE-2021-28476-tools-env)
 
 ### CVE-2021-28480 (2021-04-13)
 
@@ -2073,7 +2073,12 @@ Microsoft discovered a remote code execution (RCE) vulnerability in the SolarWin
 
 - [NattiSamson/Serv-U-CVE-2021-35211](https://github.com/NattiSamson/Serv-U-CVE-2021-35211)
 
-### CVE-2021-35296
+### CVE-2021-35296 (2021-10-04)
+
+<code>
+An issue in the administrator authentication panel of PTCL HG150-Ub v3.0 allows attackers to bypass authentication via modification of the cookie value and Response Path.
+</code>
+
 - [afaq1337/CVE-2021-35296](https://github.com/afaq1337/CVE-2021-35296)
 
 ### CVE-2021-35448 (2021-06-24)
@@ -2420,6 +2425,14 @@ A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is bein
 
 - [security-n/CVE-2021-39379](https://github.com/security-n/CVE-2021-39379)
 
+### CVE-2021-39433 (2021-10-04)
+
+<code>
+A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive v1.83 and below when sending a specific payload as the file parameter to download/index.php. This allows the attacker to read arbitrary files from the server with the permissions of the configured web-user.
+</code>
+
+- [PinkDraconian/CVE-2021-39433](https://github.com/PinkDraconian/CVE-2021-39433)
+
 ### CVE-2021-39475
 - [W4RCL0UD/CVE-2021-39475](https://github.com/W4RCL0UD/CVE-2021-39475)
 
@@ -2586,7 +2599,12 @@ An un-authenticated SQL Injection exists in PuneethReddyHC online-shopping-syste
 
 - [MobiusBinary/CVE-2021-41649](https://github.com/MobiusBinary/CVE-2021-41649)
 
-### CVE-2021-41651
+### CVE-2021-41651 (2021-10-04)
+
+<code>
+A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel-mgmt-system. A malicious attacker can retrieve sensitive database information and interact with the database using the vulnerable cid parameter in process_update_profile.php.
+</code>
+
 - [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
 
 ### CVE-2021-123456
