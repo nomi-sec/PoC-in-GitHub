@@ -5737,6 +5737,7 @@ Use-after-free vulnerability in fs/block_dev.c in the Linux kernel before 5.8 al
 </code>
 
 - [artsking/linux-4.1.15_CVE-2020-15436_withPatch](https://github.com/artsking/linux-4.1.15_CVE-2020-15436_withPatch)
+- [artsking/linux-3.0.35_CVE-2020-15436_withPatch](https://github.com/artsking/linux-3.0.35_CVE-2020-15436_withPatch)
 
 ### CVE-2020-15492 (2020-07-23)
 
@@ -6105,6 +6106,7 @@ A Reflected Cross-Site Scripting (XSS) vulnerability in GetSimple CMS v3.3.16, i
 An issue was discovered in RiteCMS 2.2.1. An authenticated user can directly execute system commands by uploading a php web shell in the &quot;Filemanager&quot; section.
 </code>
 
+- [H0j3n/CVE-2020-23934](https://github.com/H0j3n/CVE-2020-23934)
 - [zyeinn/CVE-2020-23934](https://github.com/zyeinn/CVE-2020-23934)
 
 ### CVE-2020-23968 (2020-11-10)
