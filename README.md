@@ -703,6 +703,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
 - [haiclover/CVE-2021-21972](https://github.com/haiclover/CVE-2021-21972)
+- [oxctdev/CVE-2021-21972](https://github.com/oxctdev/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -866,6 +867,7 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 
 - [ZephrFish/CVE-2021-22893](https://github.com/ZephrFish/CVE-2021-22893)
 - [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
+- [oxctdev/CVE-2021-22893](https://github.com/oxctdev/CVE-2021-22893)
 
 ### CVE-2021-22911 (2021-05-27)
 
@@ -13411,6 +13413,7 @@ Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlie
 - [cved-sources/cve-2018-15961](https://github.com/cved-sources/cve-2018-15961)
 - [0xAJ2K/CVE-2018-15961](https://github.com/0xAJ2K/CVE-2018-15961)
 - [xbufu/CVE-2018-15961](https://github.com/xbufu/CVE-2018-15961)
+- [oxctdev/CVE-2018-15961](https://github.com/oxctdev/CVE-2018-15961)
 
 ### CVE-2018-15968 (2018-10-12)
 
@@ -20703,6 +20706,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
 - [1nf1n17yk1ng/usermap_script_CVE-2007-2447](https://github.com/1nf1n17yk1ng/usermap_script_CVE-2007-2447)
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
+- [xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
