@@ -2554,7 +2554,12 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 ### CVE-2021-41074
 - [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
 
-### CVE-2021-41511
+### CVE-2021-41511 (2021-10-04)
+
+<code>
+The username and password field of login in Lodging Reservation Management System V1 can give access to any user by using SQL injection to bypass authentication.
+</code>
+
 - [Ni7inSharma/CVE-2021-41511](https://github.com/Ni7inSharma/CVE-2021-41511)
 
 ### CVE-2021-41647 (2021-10-01)
