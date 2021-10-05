@@ -161,14 +161,6 @@ A vulnerability in the SSH management feature of multiple Cisco Access Points (A
 
 - [AKIA27TACKEDYE76PUGU/CVE-2021-1419](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-1419)
 
-### CVE-2021-1480 (2021-04-08)
-
-<code>
-Multiple vulnerabilities in Cisco SD-WAN vManage Software could allow an unauthenticated, remote attacker to execute arbitrary code or allow an authenticated, local attacker to gain escalated privileges on an affected system. For more information about these vulnerabilities, see the Details section of this advisory.
-</code>
-
-- [xmco/sdwan-cve-2021-1480](https://github.com/xmco/sdwan-cve-2021-1480)
-
 ### CVE-2021-1546 (2021-09-22)
 
 <code>
@@ -264,6 +256,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [mstxq17/CVE-2021-1675_RDL_LPE](https://github.com/mstxq17/CVE-2021-1675_RDL_LPE)
 - [ollypwn/PrintNightmare](https://github.com/ollypwn/PrintNightmare)
 - [Wra7h/SharpPN](https://github.com/Wra7h/SharpPN)
+- [OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -1522,7 +1515,6 @@ Git is an open-source distributed revision control system. In affected versions 
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
 - [tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300)
-- [xiaofeihahah/CVE-2021-21300](https://github.com/xiaofeihahah/CVE-2021-21300)
 - [Mochican/CVE-2021-21300](https://github.com/Mochican/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
@@ -1837,7 +1829,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
-- [haiclover/CVE-2021-21972](https://github.com/haiclover/CVE-2021-21972)
 - [oxctdev/CVE-2021-21972](https://github.com/oxctdev/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
@@ -1994,8 +1985,6 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [convisoappsec/CVE-2021-22204-exiftool](https://github.com/convisoappsec/CVE-2021-22204-exiftool)
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
-- [PenTestical/CVE-2021-22204](https://github.com/PenTestical/CVE-2021-22204)
-- [AssassinUKG/CVE-2021-22204](https://github.com/AssassinUKG/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -4477,14 +4466,6 @@ furlongm openvpn-monitor through 1.1.3 allows Authorization Bypass to disconnect
 
 - [AKIA27TACKEDYE76PUGU/CVE-2021-31606](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-31606)
 
-### CVE-2021-31630 (2021-08-03)
-
-<code>
-Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
-</code>
-
-- [h3v0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/h3v0x/CVE-2021-31630-OpenPLC_RCE)
-
 ### CVE-2021-31702 (2021-05-29)
 
 <code>
@@ -6106,8 +6087,6 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
-- [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
-- [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
 - [OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC](https://github.com/OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
 - [AKIA27TACKEDYE76PUGU/CVE-2021-36934](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-36934)
@@ -6314,14 +6293,6 @@ A SQL injection vulnerability exists in version 3.0.2 of Hotel Druid when SQLite
 </code>
 
 - [dievus/CVE-2021-37832](https://github.com/dievus/CVE-2021-37832)
-
-### CVE-2021-37833 (2021-08-03)
-
-<code>
-A reflected cross-site scripting (XSS) vulnerability exists in multiple pages in version 3.0.2 of the Hotel Druid application that allows for arbitrary execution of JavaScript commands.
-</code>
-
-- [dievus/CVE-2021-37833](https://github.com/dievus/CVE-2021-37833)
 
 ### CVE-2021-37909 (2021-09-15)
 
@@ -8501,6 +8472,21 @@ A cross-site request forgery (CSRF) vulnerability exists in Streama up to and in
 </code>
 
 - [AKIA27TACKEDYE76PUGU/CVE-2021-41764](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-41764)
+
+### CVE-2021-41773 (2021-10-05)
+
+<code>
+A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the expected document root. If files outside of the document root are not protected by &quot;require all denied&quot; these requests can succeed. Additionally this flaw could leak the source of interpreted files like CGI scripts. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions.
+</code>
+
+- [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
+- [numanturle/CVE-2021-41773](https://github.com/numanturle/CVE-2021-41773)
+- [knqyf263/CVE-2021-41773](https://github.com/knqyf263/CVE-2021-41773)
+- [ZephrFish/CVE-2021-41773-PoC](https://github.com/ZephrFish/CVE-2021-41773-PoC)
+- [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
+- [masahiro331/CVE-2021-41773](https://github.com/masahiro331/CVE-2021-41773)
+- [RyouYoo/CVE-2021-41773](https://github.com/RyouYoo/CVE-2021-41773)
+- [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
 
 
 ## 2020
@@ -17071,6 +17057,7 @@ In Webmin through 1.910, any user authorized to the &quot;Package Updates&quot; 
 - [KrE80r/webmin_cve-2019-12840_poc](https://github.com/KrE80r/webmin_cve-2019-12840_poc)
 - [anasbousselham/webminscan](https://github.com/anasbousselham/webminscan)
 - [zAbuQasem/CVE-2019-12840](https://github.com/zAbuQasem/CVE-2019-12840)
+- [WizzzStark/CVE-2019-12840.py](https://github.com/WizzzStark/CVE-2019-12840.py)
 
 ### CVE-2019-12889 (2019-08-20)
 
@@ -17611,6 +17598,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 - [puckiestyle/CVE-2019-15107](https://github.com/puckiestyle/CVE-2019-15107)
 - [darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107)
+- [hacknotes/CVE-2019-15107-Exploit](https://github.com/hacknotes/CVE-2019-15107-Exploit)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -20313,7 +20301,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [IHA114/CVE-2018-9995_dvr_credentials](https://github.com/IHA114/CVE-2018-9995_dvr_credentials)
 - [likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool](https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool)
 - [b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC)
-- [akuhidayat/HTC](https://github.com/akuhidayat/HTC)
+- [yatcode/HTC](https://github.com/yatcode/HTC)
 - [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
 - [HACKGM/CVE-2018-9995](https://github.com/HACKGM/CVE-2018-9995)
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
@@ -26994,6 +26982,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
 - [b4keSn4ke/shellshock](https://github.com/b4keSn4ke/shellshock)
+- [0bfxgh0st/shellshock-scan](https://github.com/0bfxgh0st/shellshock-scan)
 
 ### CVE-2014-6287 (2014-10-07)
 
