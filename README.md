@@ -2965,6 +2965,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Apasys/Apasys-CVE-2020-0796](https://github.com/Apasys/Apasys-CVE-2020-0796)
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
+- [Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
