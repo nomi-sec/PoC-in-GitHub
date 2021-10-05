@@ -987,6 +987,12 @@ The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_
 
 - [RyouYoo/CVE-2021-24499](https://github.com/RyouYoo/CVE-2021-24499)
 
+### CVE-2021-24545
+- [V35HR4J/CVE-2021-24545](https://github.com/V35HR4J/CVE-2021-24545)
+
+### CVE-2021-24563
+- [V35HR4J/CVE-2021-24563](https://github.com/V35HR4J/CVE-2021-24563)
+
 ### CVE-2021-24741 (2021-09-20)
 
 <code>
@@ -1112,6 +1118,14 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
 - [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
+
+### CVE-2021-26085 (2021-08-02)
+
+<code>
+Affected versions of Atlassian Confluence Server allow remote attackers to view restricted resources via a Pre-Authorization Arbitrary File Read vulnerability in the /s/ endpoint. The affected versions are before version 7.4.10, and from version 7.5.0 before 7.12.3.
+</code>
+
+- [ColdFusionX/CVE-2021-26085](https://github.com/ColdFusionX/CVE-2021-26085)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1589,6 +1603,14 @@ Grav is a file based Web-platform. Twig processing of static pages can be enable
 </code>
 
 - [CsEnox/CVE-2021-29440](https://github.com/CsEnox/CVE-2021-29440)
+
+### CVE-2021-29441 (2021-04-27)
+
+<code>
+Nacos is a platform designed for dynamic service discovery and configuration and service management. In Nacos before version 1.4.1, when configured to use authentication (-Dnacos.core.auth.enabled=true) Nacos uses the AuthFilter servlet filter to enforce authentication. This filter has a backdoor that enables Nacos servers to bypass this filter and therefore skip authentication checks. This mechanism relies on the user-agent HTTP header so it can be easily spoofed. This issue may allow any user to carry out any administrative tasks on the Nacos server.
+</code>
+
+- [hh-hunter/nacos-cve-2021-29441](https://github.com/hh-hunter/nacos-cve-2021-29441)
 
 ### CVE-2021-29447 (2021-04-15)
 
