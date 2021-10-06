@@ -1136,6 +1136,7 @@ Affected versions of Atlassian Confluence Server allow remote attackers to view 
 </code>
 
 - [ColdFusionX/CVE-2021-26085](https://github.com/ColdFusionX/CVE-2021-26085)
+- [zeroc00I/CVE-2021-26085](https://github.com/zeroc00I/CVE-2021-26085)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -2136,6 +2137,14 @@ ForgeRock AM server before 7.0 has a Java deserialization vulnerability in the j
 - [Y4er/openam-CVE-2021-35464](https://github.com/Y4er/openam-CVE-2021-35464)
 - [rood8008/CVE-2021-35464](https://github.com/rood8008/CVE-2021-35464)
 
+### CVE-2021-35492 (2021-10-05)
+
+<code>
+Wowza Streaming Engine through 4.8.11+5 could allow an authenticated, remote attacker to exhaust filesystem resources via the /enginemanager/server/vhost/historical.jsdata vhost parameter. This is due to the insufficient management of available filesystem resources. An attacker could exploit this vulnerability through the Virtual Host Monitoring section by requesting random virtual-host historical data and exhausting available filesystem resources. A successful exploit could allow the attacker to cause database errors and cause the device to become unresponsive to web-based management. (Manual intervention is required to free filesystem resources and return the application to an operational state.)
+</code>
+
+- [N4nj0/CVE-2021-35492](https://github.com/N4nj0/CVE-2021-35492)
+
 ### CVE-2021-35956 (2021-06-30)
 
 <code>
@@ -2252,7 +2261,7 @@ Multiple XSS issues exist in Sonatype Nexus Repository Manager 3 before 3.33.0. 
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
 
 ### CVE-2021-37589
-- [LucaRibeiro/CVE-2021-37589](https://github.com/LucaRibeiro/CVE-2021-37589)
+- [lucaregne/CVE-2021-37589](https://github.com/lucaregne/CVE-2021-37589)
 
 ### CVE-2021-37678 (2021-08-12)
 
@@ -2663,7 +2672,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [RyouYoo/CVE-2021-41773](https://github.com/RyouYoo/CVE-2021-41773)
 - [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
-- [lsass-exe/CVE-2021-41773](https://github.com/lsass-exe/CVE-2021-41773)
+- [Ls4ss/CVE-2021-41773](https://github.com/Ls4ss/CVE-2021-41773)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
 - [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
 - [TishcaTpx/cve-2021-41773-nse](https://github.com/TishcaTpx/cve-2021-41773-nse)
@@ -2675,6 +2684,9 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [1nhann/CVE-2021-41773](https://github.com/1nhann/CVE-2021-41773)
 - [ranggaggngntt/CVE-2021-41773](https://github.com/ranggaggngntt/CVE-2021-41773)
 - [BlueTeamSteve/CVE-2021-41773](https://github.com/BlueTeamSteve/CVE-2021-41773)
+- [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
+- [r00tVen0m/CVE-2021-41773](https://github.com/r00tVen0m/CVE-2021-41773)
+- [fnatalucci/CVE-2021-41773-RCE](https://github.com/fnatalucci/CVE-2021-41773-RCE)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
@@ -5372,7 +5384,7 @@ Citrix Workspace App before 1912 on Windows has Insecure Permissions which allow
 Intelbras TIP 200 60.61.75.15, TIP 200 LITE 60.61.75.15, and TIP 300 65.61.75.22 devices allow cgi-bin/cgiServer.exx?page=../ Directory Traversal.
 </code>
 
-- [lsass-exe/CVE-2020-13886](https://github.com/lsass-exe/CVE-2020-13886)
+- [Ls4ss/CVE-2020-13886](https://github.com/Ls4ss/CVE-2020-13886)
 
 ### CVE-2020-13889 (2020-06-06)
 
@@ -6950,7 +6962,7 @@ osCommerce 2.3.4.1 has XSS vulnerability via the authenticated user entering the
 The TOTVS Fluig platform allows path traversal through the parameter &quot;file = .. /&quot; encoded in base64. This affects all versions Fluig Lake 1.7.0, Fluig 1.6.5 and Fluig 1.6.4
 </code>
 
-- [lsass-exe/CVE-2020-29134](https://github.com/lsass-exe/CVE-2020-29134)
+- [Ls4ss/CVE-2020-29134](https://github.com/Ls4ss/CVE-2020-29134)
 
 ### CVE-2020-29156 (2020-12-27)
 
@@ -19274,7 +19286,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
 - [b4keSn4ke/shellshock](https://github.com/b4keSn4ke/shellshock)
-- [0bfxgh0st/shellshock-scan](https://github.com/0bfxgh0st/shellshock-scan)
+- [0bfxgh0st/ShellShock](https://github.com/0bfxgh0st/ShellShock)
 
 ### CVE-2014-6287 (2014-10-07)
 
