@@ -1109,14 +1109,6 @@ A flaw was found in cifs-utils in versions before 6.13. A user when mounting a k
 
 - [AKIA27TACKEDYE76PUGU/CVE-2021-20208](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-20208)
 
-### CVE-2021-20228 (2021-04-29)
-
-<code>
-A flaw was found in the Ansible Engine 2.9.18, where sensitive info is not masked by default and is not protected by the no_log feature when using the sub-option feature of the basic.py module. This flaw allows an attacker to obtain sensitive information. The highest threat from this vulnerability is to confidentiality.
-</code>
-
-- [AKIA27TACKEDYE76PUGU/CVE-2021-20228](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-20228)
-
 ### CVE-2021-20314 (2021-08-12)
 
 <code>
@@ -2039,14 +2031,6 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 - [ZephrFish/CVE-2021-22893](https://github.com/ZephrFish/CVE-2021-22893)
 - [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
 - [oxctdev/CVE-2021-22893](https://github.com/oxctdev/CVE-2021-22893)
-
-### CVE-2021-22898 (2021-06-11)
-
-<code>
-curl 7.7 through 7.76.1 suffers from an information disclosure when the `-t` command line option, known as `CURLOPT_TELNETOPTIONS` in libcurl, is used to send variable=content pairs to TELNET servers. Due to a flaw in the option parser for sending NEW_ENV variables, libcurl could be made to pass on uninitialized data from a stack based buffer to the server, resulting in potentially revealing sensitive internal information to the server using a clear-text network protocol.
-</code>
-
-- [AKIA27TACKEDYE76PUGU/CVE-2021-22898](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-22898)
 
 ### CVE-2021-22911 (2021-05-27)
 
@@ -5786,9 +5770,6 @@ A carefully crafted request uri-path can cause mod_proxy_uwsgi to read above the
 
 - [AKIA27TACKEDYE76PUGU/CVE-2021-36160](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-36160)
 
-### CVE-2021-36217
-- [AKIA27TACKEDYE76PUGU/CVE-2021-36217](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-36217)
-
 ### CVE-2021-36218 (2021-09-27)
 
 <code>
@@ -8467,6 +8448,9 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [lsass-exe/CVE-2021-41773](https://github.com/lsass-exe/CVE-2021-41773)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
 - [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
+- [TishcaTpx/cve-2021-41773-nse](https://github.com/TishcaTpx/cve-2021-41773-nse)
+- [creadpag/CVE-2021-41773-POC](https://github.com/creadpag/CVE-2021-41773-POC)
+- [blasty/CVE-2021-41773](https://github.com/blasty/CVE-2021-41773)
 
 
 ## 2020
