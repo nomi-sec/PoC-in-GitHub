@@ -649,7 +649,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
-- [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
 - [RoseSecurity/CVE-2021-3156](https://github.com/RoseSecurity/CVE-2021-3156)
 - [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
@@ -804,7 +803,6 @@ A flaw was found in vhost-user-gpu of QEMU in versions up to and including 6.0. 
 - [curtishoughton/CVE-2021-3560](https://github.com/curtishoughton/CVE-2021-3560)
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
-- [mr-nO0b/CVE-2021-3560](https://github.com/mr-nO0b/CVE-2021-3560)
 
 ### CVE-2021-3561 (2021-05-26)
 
@@ -1075,9 +1073,6 @@ btcpayserver is vulnerable to Improper Neutralization of Input During Web Page G
 
 ### CVE-2021-6901
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
-
-### CVE-2021-10086
-- [Mochican/CVE-2021-10086](https://github.com/Mochican/CVE-2021-10086)
 
 ### CVE-2021-14562
 - [Jarry1sec/CVE-2021-14562](https://github.com/Jarry1sec/CVE-2021-14562)
@@ -2438,6 +2433,7 @@ The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_
 </code>
 
 - [RyouYoo/CVE-2021-24499](https://github.com/RyouYoo/CVE-2021-24499)
+- [hh-hunter/cve-2021-24499](https://github.com/hh-hunter/cve-2021-24499)
 
 ### CVE-2021-24511 (2021-09-20)
 
@@ -3269,6 +3265,7 @@ In versions 8.2.1 through 8.5.2 of Pega Infinity, the password reset functionali
 
 - [samwcyo/CVE-2021-27651-PoC](https://github.com/samwcyo/CVE-2021-27651-PoC)
 - [Vulnmachines/CVE-2021-27651](https://github.com/Vulnmachines/CVE-2021-27651)
+- [oxctdev/CVE-2021-27651](https://github.com/oxctdev/CVE-2021-27651)
 
 ### CVE-2021-27662 (2021-09-15)
 
@@ -3399,14 +3396,6 @@ Windows NTFS Denial of Service Vulnerability
 </code>
 
 - [shubham0d/CVE-2021-28312](https://github.com/shubham0d/CVE-2021-28312)
-
-### CVE-2021-28378 (2021-03-15)
-
-<code>
-Gitea 1.12.x and 1.13.x before 1.13.4 allows XSS via certain issue data in some situations.
-</code>
-
-- [PandatiX/CVE-2021-28378](https://github.com/PandatiX/CVE-2021-28378)
 
 ### CVE-2021-28476 (2021-05-11)
 
@@ -3594,14 +3583,6 @@ ManageEngine Desktop Central before build 10.0.683 allows Unauthenticated Remote
 </code>
 
 - [AKIA27TACKEDYE76PUGU/CVE-2021-28960](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-28960)
-
-### CVE-2021-28966 (2021-07-27)
-
-<code>
-In Ruby through 3.0 on Windows, a remote attacker can submit a crafted path when a Web application handles a parameter with TmpDir.
-</code>
-
-- [AKIA27TACKEDYE76PUGU/CVE-2021-28966](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-28966)
 
 ### CVE-2021-29003 (2021-04-13)
 
@@ -6358,14 +6339,6 @@ Remote Code Execution vulnerability in Micro Focus ArcSight Enterprise Security 
 
 - [AKIA27TACKEDYE76PUGU/CVE-2021-38124](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-38124)
 
-### CVE-2021-38149 (2021-08-06)
-
-<code>
-index.php/admin/add_user in Chikitsa Patient Management System 2.0.0 allows XSS.
-</code>
-
-- [jboogie15/CVE-2021-38149](https://github.com/jboogie15/CVE-2021-38149)
-
 ### CVE-2021-38153 (2021-09-22)
 
 <code>
@@ -7775,7 +7748,7 @@ Adobe Premiere Pro version 15.4 (and earlier) is affected by a memory corruption
 ### CVE-2021-40711 (2021-09-27)
 
 <code>
-Adobe Experience Manager version 6.5.9.0 (and earlier) is affected by a stored XSS vulnerability when creating Content Fragments. An authenticated attacker can send a malformed POST request to achieve server-side denial of service. Malicious JavaScript may be executed in a victim’s browser when they browse to the page containing the vulnerable field.
+Adobe Experience Manager version 6.5.9.0 (and earlier) is affected by a stored XSS vulnerability when creating Content Fragments. An authenticated attacker can send a malformed POST request to achieve arbitrary code execution. Malicious JavaScript may be executed in a victim’s browser when they browse to the page containing the vulnerable field.
 </code>
 
 - [AKIA27TACKEDYE76PUGU/CVE-2021-40711](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-40711)
@@ -8005,6 +7978,9 @@ Cross-site scripting (XSS) vulnerability in application/modules/admin/views/ecom
 </code>
 
 - [AKIA27TACKEDYE76PUGU/CVE-2021-40975](https://github.com/AKIA27TACKEDYE76PUGU/CVE-2021-40975)
+
+### CVE-2021-40978
+- [nisdn/CVE-2021-40978](https://github.com/nisdn/CVE-2021-40978)
 
 ### CVE-2021-40981 (2021-09-27)
 
@@ -8487,6 +8463,10 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [masahiro331/CVE-2021-41773](https://github.com/masahiro331/CVE-2021-41773)
 - [RyouYoo/CVE-2021-41773](https://github.com/RyouYoo/CVE-2021-41773)
 - [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
+- [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
+- [lsass-exe/CVE-2021-41773](https://github.com/lsass-exe/CVE-2021-41773)
+- [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
+- [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
 
 
 ## 2020
@@ -26674,6 +26654,14 @@ Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, all
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
 - [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
+
+### CVE-2014-2815 (2014-08-12)
+
+<code>
+Microsoft OneNote 2007 SP3 allows remote attackers to execute arbitrary code via a crafted OneNote file that triggers creation of an executable file in a startup folder, aka &quot;OneNote Remote Code Execution Vulnerability.&quot;
+</code>
+
+- [Edubr2020/CABTrap_OneNote2007](https://github.com/Edubr2020/CABTrap_OneNote2007)
 
 ### CVE-2014-3120 (2014-07-28)
 
