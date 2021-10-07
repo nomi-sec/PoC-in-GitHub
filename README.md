@@ -2611,7 +2611,12 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 
 - [SakuraSamuraii/derailed](https://github.com/SakuraSamuraii/derailed)
 
-### CVE-2021-40978
+### CVE-2021-40978 (2021-10-07)
+
+<code>
+The mkdocs 1.2.2 built-in dev-server allows directory traversal using the port 8000, enabling remote exploitation to obtain :sensitive information.
+</code>
+
 - [nisdn/CVE-2021-40978](https://github.com/nisdn/CVE-2021-40978)
 
 ### CVE-2021-41074
@@ -2686,6 +2691,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [BlueTeamSteve/CVE-2021-41773](https://github.com/BlueTeamSteve/CVE-2021-41773)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [r00tVen0m/CVE-2021-41773](https://github.com/r00tVen0m/CVE-2021-41773)
+- [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
 - [fnatalucci/CVE-2021-41773-RCE](https://github.com/fnatalucci/CVE-2021-41773-RCE)
 
 ### CVE-2021-123456
