@@ -1444,6 +1444,14 @@ Askey RTF8115VW BR_SV_g11.11_RTF_TEF001_V6.54_V014 devices allow injection of a 
 
 - [bokanrb/CVE-2021-27404](https://github.com/bokanrb/CVE-2021-27404)
 
+### CVE-2021-27513 (2021-02-21)
+
+<code>
+The module admin_ITSM in EyesOfNetwork 5.3-10 allows remote authenticated users to upload arbitrary .xml.php files because it relies on &quot;le filtre userside.&quot;
+</code>
+
+- [ArianeBlow/CVE-2021-27513](https://github.com/ArianeBlow/CVE-2021-27513)
+
 ### CVE-2021-27651 (2021-04-29)
 
 <code>
@@ -2718,6 +2726,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [BlueTeamSteve/CVE-2021-41773](https://github.com/BlueTeamSteve/CVE-2021-41773)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [r00tVen0m/CVE-2021-41773](https://github.com/r00tVen0m/CVE-2021-41773)
+- [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
 - [fnatalucci/CVE-2021-41773-RCE](https://github.com/fnatalucci/CVE-2021-41773-RCE)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
