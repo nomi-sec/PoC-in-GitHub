@@ -2620,6 +2620,7 @@ An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestr
 
 - [0xAgun/CVE-2021-40870](https://github.com/0xAgun/CVE-2021-40870)
 - [oxctdev/CVE-2021-40870](https://github.com/oxctdev/CVE-2021-40870)
+- [JoyGhoshs/CVE-2021-40870](https://github.com/JoyGhoshs/CVE-2021-40870)
 
 ### CVE-2021-40875 (2021-09-22)
 
@@ -2639,6 +2640,14 @@ The mkdocs 1.2.2 built-in dev-server allows directory traversal using the port 8
 
 ### CVE-2021-41074
 - [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
+
+### CVE-2021-41381 (2021-09-23)
+
+<code>
+Payara Micro Community 5.2021.6 and below allows Directory Traversal.
+</code>
+
+- [Net-hunter121/CVE-2021-41381](https://github.com/Net-hunter121/CVE-2021-41381)
 
 ### CVE-2021-41511 (2021-10-04)
 
@@ -2713,11 +2722,18 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
 - [oxctdev/CVE-2021-41773](https://github.com/oxctdev/CVE-2021-41773)
+- [HightechSec/scarce-apache2](https://github.com/HightechSec/scarce-apache2)
+- [vinhjaxt/CVE-2021-41773-exploit](https://github.com/vinhjaxt/CVE-2021-41773-exploit)
+- [ComdeyOverFlow/CVE-2021-41773](https://github.com/ComdeyOverFlow/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [LetouRaphael/Poc-CVE-2021-41773](https://github.com/LetouRaphael/Poc-CVE-2021-41773)
 - [Sakura-nee/CVE-2021-41773](https://github.com/Sakura-nee/CVE-2021-41773)
 - [htrgouvea/lab-cve-2021-41773](https://github.com/htrgouvea/lab-cve-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
+- [0xRar/CVE-2021-41773](https://github.com/0xRar/CVE-2021-41773)
+- [pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt)
+- [zeronine9/CVE-2021-41773](https://github.com/zeronine9/CVE-2021-41773)
+- [b1tsec/CVE-2021-41773](https://github.com/b1tsec/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -2726,6 +2742,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 </code>
 
 - [andrea-mattioli/apache-exploit-CVE-2021-42013](https://github.com/andrea-mattioli/apache-exploit-CVE-2021-42013)
+- [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
@@ -3414,6 +3431,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938)
 - [Neko2sh1ro/CVE-2020-1938](https://github.com/Neko2sh1ro/CVE-2020-1938)
 - [jptr218/ghostcat](https://github.com/jptr218/ghostcat)
+- [einzbernnn/CVE-2020-1938Scan](https://github.com/einzbernnn/CVE-2020-1938Scan)
 
 ### CVE-2020-1947 (2020-03-11)
 
