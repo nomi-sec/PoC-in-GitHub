@@ -1744,7 +1744,12 @@ Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote at
 
 - [xmzyshypnc/CVE-2021-30551](https://github.com/xmzyshypnc/CVE-2021-30551)
 
-### CVE-2021-30632
+### CVE-2021-30632 (-)
+
+<code>
+Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
 - [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
 - [Lagal1990/CVE-2021-30632](https://github.com/Lagal1990/CVE-2021-30632)
 
@@ -2641,7 +2646,7 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 ### CVE-2021-40978 (2021-10-07)
 
 <code>
-The mkdocs 1.2.2 built-in dev-server allows directory traversal using the port 8000, enabling remote exploitation to obtain :sensitive information.
+** DISPUTED ** The mkdocs 1.2.2 built-in dev-server allows directory traversal using the port 8000, enabling remote exploitation to obtain :sensitive information. NOTE: the vendor has disputed this as described in https://github.com/mkdocs/mkdocs/issues/2601.] and https://github.com/nisdn/CVE-2021-40978/issues/1.
 </code>
 
 - [nisdn/CVE-2021-40978](https://github.com/nisdn/CVE-2021-40978)
@@ -2743,6 +2748,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt)
 - [zeronine9/CVE-2021-41773](https://github.com/zeronine9/CVE-2021-41773)
 - [b1tsec/CVE-2021-41773](https://github.com/b1tsec/CVE-2021-41773)
+- [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
