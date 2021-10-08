@@ -1128,6 +1128,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
 - [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
+- [oxctdev/CVE-2021-26084](https://github.com/oxctdev/CVE-2021-26084)
 
 ### CVE-2021-26085 (2021-08-02)
 
@@ -2618,6 +2619,7 @@ An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestr
 </code>
 
 - [0xAgun/CVE-2021-40870](https://github.com/0xAgun/CVE-2021-40870)
+- [oxctdev/CVE-2021-40870](https://github.com/oxctdev/CVE-2021-40870)
 
 ### CVE-2021-40875 (2021-09-22)
 
@@ -2710,8 +2712,12 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [fnatalucci/CVE-2021-41773-RCE](https://github.com/fnatalucci/CVE-2021-41773-RCE)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
+- [oxctdev/CVE-2021-41773](https://github.com/oxctdev/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [LetouRaphael/Poc-CVE-2021-41773](https://github.com/LetouRaphael/Poc-CVE-2021-41773)
+- [Sakura-nee/CVE-2021-41773](https://github.com/Sakura-nee/CVE-2021-41773)
+- [htrgouvea/lab-cve-2021-41773](https://github.com/htrgouvea/lab-cve-2021-41773)
+- [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
