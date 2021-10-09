@@ -1744,7 +1744,7 @@ Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote at
 
 - [xmzyshypnc/CVE-2021-30551](https://github.com/xmzyshypnc/CVE-2021-30551)
 
-### CVE-2021-30632 (-)
+### CVE-2021-30632 (2021-10-08)
 
 <code>
 Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -2749,6 +2749,8 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [zeronine9/CVE-2021-41773](https://github.com/zeronine9/CVE-2021-41773)
 - [b1tsec/CVE-2021-41773](https://github.com/b1tsec/CVE-2021-41773)
 - [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
+- [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
+- [KAB8345/CVE-2021-41773](https://github.com/KAB8345/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -17772,6 +17774,7 @@ A use-after-free vulnerability in SVG Animation has been discovered. An exploit 
 
 - [LakshmiDesai/CVE-2016-9079](https://github.com/LakshmiDesai/CVE-2016-9079)
 - [dangokyo/CVE-2016-9079](https://github.com/dangokyo/CVE-2016-9079)
+- [Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079)
 
 ### CVE-2016-9192 (2016-12-13)
 
