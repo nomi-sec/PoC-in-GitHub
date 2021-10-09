@@ -2751,6 +2751,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
 - [KAB8345/CVE-2021-41773](https://github.com/KAB8345/CVE-2021-41773)
+- [inbug-team/CVE-2021-41773_CVE-2021-42013](https://github.com/inbug-team/CVE-2021-41773_CVE-2021-42013)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -3120,6 +3121,8 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 - [Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796)
+- [oxctdev/CVE-2020-0796](https://github.com/oxctdev/CVE-2020-0796)
+- [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 
 ### CVE-2020-0797 (2020-03-12)
 
