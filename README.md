@@ -312,7 +312,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [capturingcats/CVE-2021-3156](https://github.com/capturingcats/CVE-2021-3156)
 - [LiveOverflow/pwnedit](https://github.com/LiveOverflow/pwnedit)
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
-- [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 - [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
@@ -2752,6 +2751,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
 - [KAB8345/CVE-2021-41773](https://github.com/KAB8345/CVE-2021-41773)
 - [inbug-team/CVE-2021-41773_CVE-2021-42013](https://github.com/inbug-team/CVE-2021-41773_CVE-2021-42013)
+- [5gstudent/cve-2021-41773-and-cve-2021-42013](https://github.com/5gstudent/cve-2021-41773-and-cve-2021-42013)
 
 ### CVE-2021-42013 (2021-10-07)
 
