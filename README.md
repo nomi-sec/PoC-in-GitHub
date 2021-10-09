@@ -2716,7 +2716,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [RyouYoo/CVE-2021-41773](https://github.com/RyouYoo/CVE-2021-41773)
 - [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
-- [Ls4ss/CVE-2021-41773](https://github.com/Ls4ss/CVE-2021-41773)
+- [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
 - [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
 - [TishcaTpx/cve-2021-41773-nse](https://github.com/TishcaTpx/cve-2021-41773-nse)
@@ -2752,6 +2752,8 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [KAB8345/CVE-2021-41773](https://github.com/KAB8345/CVE-2021-41773)
 - [inbug-team/CVE-2021-41773_CVE-2021-42013](https://github.com/inbug-team/CVE-2021-41773_CVE-2021-42013)
 - [5gstudent/cve-2021-41773-and-cve-2021-42013](https://github.com/5gstudent/cve-2021-41773-and-cve-2021-42013)
+- [EagleTube/CVE-2021-41773](https://github.com/EagleTube/CVE-2021-41773)
+- [meicookies/cve-2021-41773](https://github.com/meicookies/cve-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
