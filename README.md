@@ -2753,7 +2753,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [inbug-team/CVE-2021-41773_CVE-2021-42013](https://github.com/inbug-team/CVE-2021-41773_CVE-2021-42013)
 - [5gstudent/cve-2021-41773-and-cve-2021-42013](https://github.com/5gstudent/cve-2021-41773-and-cve-2021-42013)
 - [EagleTube/CVE-2021-41773](https://github.com/EagleTube/CVE-2021-41773)
-- [meicookies/cve-2021-41773](https://github.com/meicookies/cve-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -17960,7 +17959,6 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
-- [limkokhole/GHOSTCHECK-cve-2015-0235](https://github.com/limkokhole/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0313 (2015-02-02)
 
@@ -18076,14 +18074,6 @@ Integer overflow in the SampleTable::setSampleToChunkParams function in SampleTa
 - [Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation)
 - [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
 
-### CVE-2015-1560 (2015-07-14)
-
-<code>
-SQL injection vulnerability in the isUserAdmin function in include/common/common-Func.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon web 2.7.0) allows remote attackers to execute arbitrary SQL commands via the sid parameter to include/common/XmlTree/GetXmlTree.php.
-</code>
-
-- [Iansus/Centreon-CVE-2015-1560_1561](https://github.com/Iansus/Centreon-CVE-2015-1560_1561)
-
 ### CVE-2015-1579 (2015-02-11)
 
 <code>
@@ -18168,14 +18158,6 @@ The exception handling code in Eclipse Jetty before 9.2.9.v20150224 allows remot
 </code>
 
 - [6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080)
-
-### CVE-2015-2153 (2015-03-24)
-
-<code>
-The rpki_rtr_pdu_print function in print-rpki-rtr.c in the TCP printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read or write and crash) via a crafted header length in an RPKI-RTR Protocol Data Unit (PDU).
-</code>
-
-- [arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153)
 
 ### CVE-2015-2208 (2015-03-12)
 
@@ -18319,8 +18301,6 @@ The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and K
 The ping_unhash function in net/ipv4/ping.c in the Linux kernel before 4.0.3 does not initialize a certain list data structure during an unhash operation, which allows local users to gain privileges or cause a denial of service (use-after-free and system crash) by leveraging the ability to make a SOCK_DGRAM socket system call for the IPPROTO_ICMP or IPPROTO_ICMPV6 protocol, and then making a connect system call after a disconnect.
 </code>
 
-- [betalphafai/cve-2015-3636_crash](https://github.com/betalphafai/cve-2015-3636_crash)
-- [askk/libping_unhash_exploit_POC](https://github.com/askk/libping_unhash_exploit_POC)
 - [ludongxu/cve-2015-3636](https://github.com/ludongxu/cve-2015-3636)
 - [fi01/CVE-2015-3636](https://github.com/fi01/CVE-2015-3636)
 - [android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit)
@@ -18352,7 +18332,6 @@ The updateMessageStatus function in Android 5.1.1 and earlier allows local users
 Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
 </code>
 
-- [pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864)
 - [eudemonics/scaredycat](https://github.com/eudemonics/scaredycat)
 - [HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864)
 
@@ -18363,14 +18342,6 @@ The TLS protocol 1.2 and earlier, when a DHE_EXPORT ciphersuite is enabled on a 
 </code>
 
 - [fatlan/HAProxy-Keepalived-Sec-HighLoads](https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads)
-
-### CVE-2015-4495 (2015-08-07)
-
-<code>
-The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
-</code>
-
-- [vincd/CVE-2015-4495](https://github.com/vincd/CVE-2015-4495)
 
 ### CVE-2015-4852 (2015-11-18)
 
@@ -18397,7 +18368,6 @@ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 
 Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.296 and 14.x through 18.0.0.194 on Windows and OS X and 11.x through 11.2.202.468 on Linux allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that overrides a valueOf function, as exploited in the wild in July 2015.
 </code>
 
-- [jvazquez-r7/CVE-2015-5119](https://github.com/jvazquez-r7/CVE-2015-5119)
 - [CiscoCXSecurity/CVE-2015-5119_walkthrough](https://github.com/CiscoCXSecurity/CVE-2015-5119_walkthrough)
 - [dangokyo/CVE-2015-5119](https://github.com/dangokyo/CVE-2015-5119)
 
@@ -18448,11 +18418,6 @@ A vulnerability has been identified in Firmware variant PROFINET IO for EN100 Et
 named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.
 </code>
 
-- [robertdavidgraham/cve-2015-5477](https://github.com/robertdavidgraham/cve-2015-5477)
-- [elceef/tkeypoc](https://github.com/elceef/tkeypoc)
-- [hmlio/vaas-cve-2015-5477](https://github.com/hmlio/vaas-cve-2015-5477)
-- [knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477)
-- [ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477)
 - [likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477)
 - [xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit)
 
@@ -20737,7 +20702,6 @@ The SingleSignOn Valve (org.apache.catalina.authenticator.SingleSignOn) in Apach
 OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
 </code>
 
-- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 
 ### CVE-2008-0228 (2008-01-10)
