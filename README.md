@@ -996,10 +996,20 @@ The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_
 - [RyouYoo/CVE-2021-24499](https://github.com/RyouYoo/CVE-2021-24499)
 - [hh-hunter/cve-2021-24499](https://github.com/hh-hunter/cve-2021-24499)
 
-### CVE-2021-24545
+### CVE-2021-24545 (2021-10-11)
+
+<code>
+The WP HTML Author Bio WordPress plugin through 1.2.0 does not sanitise the HTML allowed in the Bio of users, allowing them to use malicious JavaScript code, which will be executed when anyone visit a post in the frontend made by such user. As a result, user with a role as low as author could perform Cross-Site Scripting attacks against users, which could potentially lead to privilege escalation when an admin view the related post/s.
+</code>
+
 - [V35HR4J/CVE-2021-24545](https://github.com/V35HR4J/CVE-2021-24545)
 
-### CVE-2021-24563
+### CVE-2021-24563 (2021-10-11)
+
+<code>
+The Frontend Uploader WordPress plugin through 1.3.2 does not prevent HTML files from being uploaded via its form, allowing unauthenticated user to upload a malicious HTML file containing JavaScript for example, which will be triggered when someone access the file directly
+</code>
+
 - [V35HR4J/CVE-2021-24563](https://github.com/V35HR4J/CVE-2021-24563)
 
 ### CVE-2021-24741 (2021-09-20)
@@ -1932,6 +1942,14 @@ In the Linux kernel before 5.12.4, net/bluetooth/hci_event.c has a use-after-fre
 
 - [artsking/linux-4.1.15_CVE-2021-33034_withPatch](https://github.com/artsking/linux-4.1.15_CVE-2021-33034_withPatch)
 
+### CVE-2021-33045 (2021-09-15)
+
+<code>
+The identity authentication bypass vulnerability found in some Dahua products during the login process. Attackers can bypass device identity authentication by constructing malicious data packets.
+</code>
+
+- [dongpohezui/cve-2021-33045](https://github.com/dongpohezui/cve-2021-33045)
+
 ### CVE-2021-33558 (2021-05-27)
 
 <code>
@@ -2704,7 +2722,7 @@ A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel
 ### CVE-2021-41773 (2021-10-05)
 
 <code>
-A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the expected document root. If files outside of the document root are not protected by &quot;require all denied&quot; these requests can succeed. Additionally this flaw could leak the source of interpreted files like CGI scripts. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions.
+A flaw was found in a change made to path normalization in Apache HTTP Server 2.4.49. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue is known to be exploited in the wild. This issue only affects Apache 2.4.49 and not earlier versions. The fix in Apache HTTP Server 2.4.50 was found to be incomplete, see CVE-2021-42013.
 </code>
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
@@ -10939,7 +10957,7 @@ class.upload.php in verot.net class.upload before 1.0.3 and 2.x before 2.0.4, as
 The Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Execution in the Install and Uninstall Plugin components of the Admin panel, because it does not sanitize the plugin name, and attackers can inject arbitrary shell commands to be executed by the execa function.
 </code>
 
-- [dasithsv/CVE-2019-19609](https://github.com/dasithsv/CVE-2019-19609)
+- [4ugury/CVE-2019-19609](https://github.com/4ugury/CVE-2019-19609)
 - [diego-tella/CVE-2019-19609-EXPLOIT](https://github.com/diego-tella/CVE-2019-19609-EXPLOIT)
 - [guglia001/CVE-2019-19609](https://github.com/guglia001/CVE-2019-19609)
 - [D3m0nicw0lf/CVE-2019-19609](https://github.com/D3m0nicw0lf/CVE-2019-19609)
