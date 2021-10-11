@@ -1870,6 +1870,14 @@ Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privil
 - [Mesh3l911/CVE-2021-31762](https://github.com/Mesh3l911/CVE-2021-31762)
 - [electronicbots/CVE-2021-31762](https://github.com/electronicbots/CVE-2021-31762)
 
+### CVE-2021-31796 (2021-09-01)
+
+<code>
+An inadequate encryption vulnerability discovered in CyberArk Credential Provider before 12.1 may lead to Information Disclosure. An attacker may realistically have enough information that the number of possible keys (for a credential file) is only one, and the number is usually not higher than 2^36.
+</code>
+
+- [unmanarc/CACredDecoder](https://github.com/unmanarc/CACredDecoder)
+
 ### CVE-2021-31856 (2021-04-28)
 
 <code>
