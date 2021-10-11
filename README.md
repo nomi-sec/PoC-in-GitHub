@@ -10767,6 +10767,7 @@ strapi before 3.0.0-beta.17.5 mishandles password resets within packages/strapi-
 </code>
 
 - [guglia001/CVE-2019-18818](https://github.com/guglia001/CVE-2019-18818)
+- [rasyidfox/CVE-2019-18818](https://github.com/rasyidfox/CVE-2019-18818)
 
 ### CVE-2019-18873 (2019-11-11)
 
