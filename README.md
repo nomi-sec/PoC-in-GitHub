@@ -887,6 +887,14 @@ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3
 - [optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911](https://github.com/optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911)
 - [jayngng/CVE-2021-22911](https://github.com/jayngng/CVE-2021-22911)
 
+### CVE-2021-22941 (2021-09-23)
+
+<code>
+Improper Access Control in Citrix ShareFile storage zones controller before 5.11.20 may allow an unauthenticated attacker to remotely compromise the storage zones controller.
+</code>
+
+- [hoavt184/CVE-2021-22941](https://github.com/hoavt184/CVE-2021-22941)
+
 ### CVE-2021-22986 (2021-03-31)
 
 <code>
@@ -2349,6 +2357,9 @@ A reflected cross-site scripting (XSS) vulnerability exists in multiple pages in
 </code>
 
 - [dievus/CVE-2021-37833](https://github.com/dievus/CVE-2021-37833)
+
+### CVE-2021-37980
+- [ZeusBox/CVE-2021-37980](https://github.com/ZeusBox/CVE-2021-37980)
 
 ### CVE-2021-38149 (2021-08-06)
 
@@ -17225,7 +17236,6 @@ The (1) EPHEMERAL, (2) HTTPS, (3) MVG, (4) MSL, (5) TEXT, (6) SHOW, (7) WIN, and
 - [chusiang/CVE-2016-3714.ansible.role](https://github.com/chusiang/CVE-2016-3714.ansible.role)
 - [jpeanut/ImageTragick-CVE-2016-3714-RShell](https://github.com/jpeanut/ImageTragick-CVE-2016-3714-RShell)
 - [Hood3dRob1n/CVE-2016-3714](https://github.com/Hood3dRob1n/CVE-2016-3714)
-- [HRSkraps/CVE-2016-3714](https://github.com/HRSkraps/CVE-2016-3714)
 
 ### CVE-2016-3749 (2016-07-10)
 
