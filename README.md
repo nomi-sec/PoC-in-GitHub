@@ -2083,6 +2083,14 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 
 - [vanpn/CVE-2021-34481](https://github.com/vanpn/CVE-2021-34481)
 
+### CVE-2021-34486 (2021-08-12)
+
+<code>
+Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26425, CVE-2021-34487.
+</code>
+
+- [KaLendsi/CVE-2021-34486](https://github.com/KaLendsi/CVE-2021-34486)
+
 ### CVE-2021-34496 (2021-07-14)
 
 <code>
