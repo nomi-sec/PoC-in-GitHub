@@ -230,7 +230,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
 - [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
 - [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
-- [nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit)
+- [hungnt199/CVE-2021-3129_exploit](https://github.com/hungnt199/CVE-2021-3129_exploit)
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
@@ -1950,6 +1950,14 @@ In the Linux kernel before 5.12.4, net/bluetooth/hci_event.c has a use-after-fre
 
 - [artsking/linux-4.1.15_CVE-2021-33034_withPatch](https://github.com/artsking/linux-4.1.15_CVE-2021-33034_withPatch)
 
+### CVE-2021-33044 (2021-09-15)
+
+<code>
+The identity authentication bypass vulnerability found in some Dahua products during the login process. Attackers can bypass device identity authentication by constructing malicious data packets.
+</code>
+
+- [bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass)
+
 ### CVE-2021-33045 (2021-09-15)
 
 <code>
@@ -2783,6 +2791,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [cgddgc/CVE-2021-41773-42013](https://github.com/cgddgc/CVE-2021-41773-42013)
 - [apapedulimu/Apachuk](https://github.com/apapedulimu/Apachuk)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
+- [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -8876,7 +8885,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 The Illuminate component of Laravel Framework 5.7.x has a deserialization vulnerability that can lead to remote code execution if the content is controllable, related to the __destruct method of the PendingCommand class in PendingCommand.php.
 </code>
 
-- [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
+- [hungnt199/CVE-2019-9081_PoC](https://github.com/hungnt199/CVE-2019-9081_PoC)
 
 ### CVE-2019-9153 (2019-08-22)
 
@@ -10356,6 +10365,7 @@ admin/includes/class.import.snippet.php in the &quot;Woody ad snippets&quot; plu
 </code>
 
 - [GeneralEG/CVE-2019-15858](https://github.com/GeneralEG/CVE-2019-15858)
+- [oxctdev/CVE-2019-15858](https://github.com/oxctdev/CVE-2019-15858)
 
 ### CVE-2019-15972 (2019-11-25)
 
@@ -11700,7 +11710,7 @@ Authentication Bypass vulnerability in the Oturia Smart Google Code Inserter plu
 
 - [lucad93/CVE-2018-3810](https://github.com/lucad93/CVE-2018-3810)
 - [cved-sources/cve-2018-3810](https://github.com/cved-sources/cve-2018-3810)
-- [nth347/CVE-2018-3810_exploit](https://github.com/nth347/CVE-2018-3810_exploit)
+- [hungnt199/CVE-2018-3810_exploit](https://github.com/hungnt199/CVE-2018-3810_exploit)
 
 ### CVE-2018-3811 (2018-01-01)
 
@@ -13317,7 +13327,7 @@ An issue was discovered in phpMyAdmin 4.8.x before 4.8.2, in which an attacker c
 The iThemes Security (better-wp-security) plugin before 7.0.3 for WordPress allows SQL Injection (by attackers with Admin privileges) via the logs page.
 </code>
 
-- [nth347/CVE-2018-12636_exploit](https://github.com/nth347/CVE-2018-12636_exploit)
+- [hungnt199/CVE-2018-12636_exploit](https://github.com/hungnt199/CVE-2018-12636_exploit)
 
 ### CVE-2018-12798 (2018-07-20)
 
