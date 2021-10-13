@@ -2022,7 +2022,7 @@ Microsoft DWM Core Library Elevation of Privilege Vulnerability
 Microsoft Exchange Information Disclosure Vulnerability
 </code>
 
-- [bhdresh/CVE-2021-33766-ProxyToken](https://github.com/bhdresh/CVE-2021-33766-ProxyToken)
+- [bhdresh/CVE-2021-33766](https://github.com/bhdresh/CVE-2021-33766)
 - [demossl/CVE-2021-33766-ProxyToken](https://github.com/demossl/CVE-2021-33766-ProxyToken)
 
 ### CVE-2021-33831 (2021-09-07)
@@ -4994,6 +4994,14 @@ A PGP signature bypass flaw was found in fwupd (all versions), which could lead 
 
 - [justinsteven/CVE-2020-10759-poc](https://github.com/justinsteven/CVE-2020-10759-poc)
 
+### CVE-2020-10770 (2020-12-15)
+
+<code>
+A flaw was found in Keycloak before 13.0.0, where it is possible to force the server to call out an unverified URL using the OIDC parameter request_uri. This flaw allows an attacker to use this parameter to execute a Server-side request forgery (SSRF) attack.
+</code>
+
+- [ColdFusionX/Keycloak-12.0.1-CVE-2020-10770](https://github.com/ColdFusionX/Keycloak-12.0.1-CVE-2020-10770)
+
 ### CVE-2020-10977 (2020-04-08)
 
 <code>
@@ -6315,30 +6323,6 @@ The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion 
 
 - [ahussam/AVideo3xploit](https://github.com/ahussam/AVideo3xploit)
 
-### CVE-2020-23735 (2020-12-03)
-
-<code>
-In Saibo Cyber Game Accelerator 3.7.9 there is a local privilege escalation vulnerability. Attackers can use the constructed program to increase user privileges
-</code>
-
-- [y5s5k5/CVE-2020-23735](https://github.com/y5s5k5/CVE-2020-23735)
-
-### CVE-2020-23740 (2020-12-03)
-
-<code>
-In DriverGenius 9.61.5480.28 there is a local privilege escalation vulnerability in the driver wizard, attackers can use constructed programs to increase user privileges.
-</code>
-
-- [y5s5k5/CVE-2020-23740](https://github.com/y5s5k5/CVE-2020-23740)
-
-### CVE-2020-23741 (2020-12-03)
-
-<code>
-In AnyView (network police) network monitoring software 4.6.0.1, there is a local denial of service vulnerability in AnyView, attackers can use a constructed program to cause a computer crash (BSOD).
-</code>
-
-- [y5s5k5/CVE-2020-23741](https://github.com/y5s5k5/CVE-2020-23741)
-
 ### CVE-2020-23839 (2020-09-01)
 
 <code>
@@ -6985,14 +6969,6 @@ The td-agent-builder plugin before 2020-12-18 for Fluentd allows attackers to ga
 </code>
 
 - [zubrahzz/FluentD-TD-agent-Exploit-CVE-2020-28169](https://github.com/zubrahzz/FluentD-TD-agent-Exploit-CVE-2020-28169)
-
-### CVE-2020-28175 (2020-12-03)
-
-<code>
-There is a local privilege escalation vulnerability in Alfredo Milani Comparetti SpeedFan 4.52. Attackers can use constructed programs to increase user privileges
-</code>
-
-- [y5s5k5/CVE-2020-28175](https://github.com/y5s5k5/CVE-2020-28175)
 
 ### CVE-2020-28243 (2021-02-26)
 
