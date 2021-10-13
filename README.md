@@ -2754,6 +2754,9 @@ A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel
 
 - [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
 
+### CVE-2021-41730
+- [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
+
 ### CVE-2021-41773 (2021-10-05)
 
 <code>
