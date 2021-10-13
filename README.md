@@ -5708,7 +5708,7 @@ A SQL injection issue in color.php in Cacti 1.2.12 allows an admin to inject SQL
 </code>
 
 - [0z09e/CVE-2020-14295](https://github.com/0z09e/CVE-2020-14295)
-- [mrg3ntl3m4n/poc-CVE-2020-14295](https://github.com/mrg3ntl3m4n/poc-CVE-2020-14295)
+- [mrg3ntl3m4n/CVE-2020-14295](https://github.com/mrg3ntl3m4n/CVE-2020-14295)
 
 ### CVE-2020-14321
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
