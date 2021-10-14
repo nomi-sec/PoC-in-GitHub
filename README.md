@@ -2280,6 +2280,14 @@ Blackboard Learn through 9.1 allows XSS by an authenticated user via the Feedbac
 
 - [cseasholtz/CVE-2021-36747](https://github.com/cseasholtz/CVE-2021-36747)
 
+### CVE-2021-36749 (2021-09-24)
+
+<code>
+In the Druid ingestion system, the InputSource is used for reading data from a certain data source. However, the HTTP InputSource allows authenticated users to read data from other sources than intended, such as the local file system, with the privileges of the Druid server process. This is not an elevation of privilege when users access Druid directly, since Druid also provides the Local InputSource, which allows the same level of access. But it is problematic when users interact with Druid indirectly through an application that allows users to specify the HTTP InputSource, but not the Local InputSource. In this case, users could bypass the application-level restriction by passing a file URL to the HTTP InputSource. This issue was previously mentioned as being fixed in 0.21.0 as per CVE-2021-26920 but was not fixed in 0.21.0 or 0.21.1.
+</code>
+
+- [BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749)
+
 ### CVE-2021-36798 (2021-08-09)
 
 <code>
