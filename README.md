@@ -1787,6 +1787,7 @@ A use after free issue was addressed with improved memory management. This issue
 </code>
 
 - [KameleonReloaded/CVEREV3](https://github.com/KameleonReloaded/CVEREV3)
+- [PeterMxx/ps4_8.00_vuln_poc](https://github.com/PeterMxx/ps4_8.00_vuln_poc)
 
 ### CVE-2021-30860 (2021-08-24)
 
@@ -6101,6 +6102,14 @@ OLIMPOKS under 3.3.39 allows Auth/Admin ErrorMessage XSS. Remote Attacker can us
 </code>
 
 - [Security-AVS/CVE-2020-16270](https://github.com/Security-AVS/CVE-2020-16270)
+
+### CVE-2020-16846 (2020-11-06)
+
+<code>
+An issue was discovered in SaltStack Salt through 3002. Sending crafted web requests to the Salt API, with the SSH client enabled, can result in shell injection.
+</code>
+
+- [zomy22/CVE-2020-16846-Saltstack-Salt-API](https://github.com/zomy22/CVE-2020-16846-Saltstack-Salt-API)
 
 ### CVE-2020-16898 (2020-10-16)
 
