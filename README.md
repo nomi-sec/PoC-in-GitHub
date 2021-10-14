@@ -1555,7 +1555,7 @@ Windows NTFS Denial of Service Vulnerability
 Gitea 1.12.x and 1.13.x before 1.13.4 allows XSS via certain issue data in some situations.
 </code>
 
-- [PandatiX/CVE-2021-28378](https://github.com/PandatiX/CVE-2021-28378)
+- [pandatix/CVE-2021-28378](https://github.com/pandatix/CVE-2021-28378)
 
 ### CVE-2021-28476 (2021-05-11)
 
@@ -2288,6 +2288,7 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 </code>
 
 - [BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749)
+- [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
 
 ### CVE-2021-36798 (2021-08-09)
 
@@ -2395,6 +2396,14 @@ GNU cpio through 2.13 allows attackers to execute arbitrary code via a crafted p
 </code>
 
 - [fangqyi/cpiopwn](https://github.com/fangqyi/cpiopwn)
+
+### CVE-2021-38295 (2021-10-14)
+
+<code>
+In Apache CouchDB, a malicious user with permission to create documents in a database is able to attach a HTML attachment to a document. If a CouchDB admin opens that attachment in a browser, e.g. via the CouchDB admin interface Fauxton, any JavaScript code embedded in that HTML attachment will be executed within the security context of that admin. A similar route is available with the already deprecated _show and _list functionality. This privilege escalation vulnerability allows an attacker to add or remove data in any database or make configuration changes. This issue affected Apache CouchDB prior to 3.1.2
+</code>
+
+- [ProfessionallyEvil/CVE-2021-38295-PoC](https://github.com/ProfessionallyEvil/CVE-2021-38295-PoC)
 
 ### CVE-2021-38583 (2021-08-13)
 
@@ -2843,6 +2852,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 
 - [andrea-mattioli/apache-exploit-CVE-2021-42013](https://github.com/andrea-mattioli/apache-exploit-CVE-2021-42013)
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
+- [twseptian/CVE-2021-42013-Lab](https://github.com/twseptian/CVE-2021-42013-Lab)
 
 ### CVE-2021-42261
 - [jet-pentest/CVE-2021-42261](https://github.com/jet-pentest/CVE-2021-42261)
