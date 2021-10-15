@@ -1770,7 +1770,7 @@ Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remot
 </code>
 
 - [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
-- [Expdev893/CVE-2021-30632](https://github.com/Expdev893/CVE-2021-30632)
+- [avboy1337/CVE-2021-30632](https://github.com/avboy1337/CVE-2021-30632)
 
 ### CVE-2021-30641 (2021-06-10)
 
@@ -1911,7 +1911,7 @@ A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an 
 Windows Kernel Information Disclosure Vulnerability
 </code>
 
-- [Expdev893/CVE-2021-31955-POC](https://github.com/Expdev893/CVE-2021-31955-POC)
+- [freeide/CVE-2021-31955-POC](https://github.com/freeide/CVE-2021-31955-POC)
 
 ### CVE-2021-32202 (2021-09-14)
 
@@ -2024,7 +2024,7 @@ In kernel/bpf/verifier.c in the Linux kernel before 5.12.13, a branch can be mis
 Microsoft DWM Core Library Elevation of Privilege Vulnerability
 </code>
 
-- [Expdev893/CVE-2021-33739-POC](https://github.com/Expdev893/CVE-2021-33739-POC)
+- [freeide2017/CVE-2021-33739-POC](https://github.com/freeide2017/CVE-2021-33739-POC)
 - [giwon9977/CVE-2021-33739_PoC](https://github.com/giwon9977/CVE-2021-33739_PoC)
 
 ### CVE-2021-33766 (2021-07-14)
@@ -2663,7 +2663,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [zaneGittins/CVE-2021-40444-evtx](https://github.com/zaneGittins/CVE-2021-40444-evtx)
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [fengjixuchui/CVE-2021-40444-docx-Generate](https://github.com/fengjixuchui/CVE-2021-40444-docx-Generate)
-- [Expdev893/CVE-2021-40444-docx-Generate](https://github.com/Expdev893/CVE-2021-40444-docx-Generate)
+- [KnoooW/CVE-2021-40444-docx-Generate](https://github.com/KnoooW/CVE-2021-40444-docx-Generate)
 - [nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx](https://github.com/nightrelax/Exploit-PoC-CVE-2021-40444-inject-ma-doc-vao-docx)
 - [amartinsec/MSHTMHell](https://github.com/amartinsec/MSHTMHell)
 - [mansk1es/Caboom](https://github.com/mansk1es/Caboom)
@@ -3289,7 +3289,7 @@ An elevation of privilege vulnerability exists in the way that the User-Mode Pow
 A remote code execution vulnerability exists in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font - Adobe Type 1 PostScript format.For all systems except Windows 10, an attacker who successfully exploited the vulnerability could execute code remotely, aka 'Adobe Font Manager Library Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0938.
 </code>
 
-- [Expdev893/CVE-2020-1020-Exploit](https://github.com/Expdev893/CVE-2020-1020-Exploit)
+- [CrackerCat/CVE-2020-1020-Exploit](https://github.com/CrackerCat/CVE-2020-1020-Exploit)
 - [KaLendsi/CVE-2020-1020](https://github.com/KaLendsi/CVE-2020-1020)
 
 ### CVE-2020-1034 (2020-09-11)
