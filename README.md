@@ -2843,6 +2843,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
 - [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
+- [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -6529,6 +6530,7 @@ An issue was discovered on D-Link DCS-2530L before 1.06.01 Hotfix and DCS-2670L 
 
 - [MzzdToT/CVE-2020-25078](https://github.com/MzzdToT/CVE-2020-25078)
 - [S0por/CVE-2020-25078](https://github.com/S0por/CVE-2020-25078)
+- [chinaYozz/CVE-2020-25078](https://github.com/chinaYozz/CVE-2020-25078)
 
 ### CVE-2020-25134 (2020-09-25)
 
