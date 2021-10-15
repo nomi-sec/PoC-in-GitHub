@@ -2899,6 +2899,7 @@ In binder_transaction of binder.c, there is a possible out of bounds write due t
 
 - [bluefrostsecurity/CVE-2020-0041](https://github.com/bluefrostsecurity/CVE-2020-0041)
 - [j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041)
+- [koharin/CVE-2020-0041](https://github.com/koharin/CVE-2020-0041)
 
 ### CVE-2020-0069 (2020-03-10)
 
@@ -12246,6 +12247,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [l3ouu4n9/CVE-2018-6574-POC](https://github.com/l3ouu4n9/CVE-2018-6574-POC)
 - [R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574)
 - [RyouYoo/CVE-2018-6574](https://github.com/RyouYoo/CVE-2018-6574)
+- [Devang-Solanki/CVE-2018-6574](https://github.com/Devang-Solanki/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
