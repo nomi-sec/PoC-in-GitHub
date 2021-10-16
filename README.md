@@ -474,7 +474,7 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
 - [mr-nobody20/CVE-2021-3560](https://github.com/mr-nobody20/CVE-2021-3560)
-- [deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560)
+- [LeoBreaker1411/CVE-2021-3560](https://github.com/LeoBreaker1411/CVE-2021-3560)
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
 
@@ -2208,7 +2208,7 @@ An issue in the administrator authentication panel of PTCL HG150-Ub v3.0 allows 
 Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbitrary programs as Administrator by using the Image Transfer Folder feature to navigate to cmd.exe. It binds to local ports to listen for incoming connections.
 </code>
 
-- [deathflash1411/CVE-2021-35448](https://github.com/deathflash1411/CVE-2021-35448)
+- [LeoBreaker1411/CVE-2021-35448](https://github.com/LeoBreaker1411/CVE-2021-35448)
 
 ### CVE-2021-35464 (2021-07-22)
 
