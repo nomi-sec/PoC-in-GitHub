@@ -2682,6 +2682,14 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [H0j3n/CVE-2021-40444](https://github.com/H0j3n/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
 
+### CVE-2021-40449 (2021-10-12)
+
+<code>
+Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-40450, CVE-2021-41357.
+</code>
+
+- [ollypwn/CallbackHell](https://github.com/ollypwn/CallbackHell)
+
 ### CVE-2021-40492 (2021-09-03)
 
 <code>
@@ -2848,6 +2856,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
 - [anonsecteaminc/CVE-2021-41773-PoC](https://github.com/anonsecteaminc/CVE-2021-41773-PoC)
+- [lopqto/CVE-2021-41773_Honeypot](https://github.com/lopqto/CVE-2021-41773_Honeypot)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -5046,6 +5055,7 @@ A flaw was found in Keycloak before 13.0.0, where it is possible to force the se
 </code>
 
 - [ColdFusionX/Keycloak-12.0.1-CVE-2020-10770](https://github.com/ColdFusionX/Keycloak-12.0.1-CVE-2020-10770)
+- [CrowX500x0/CVE-2020-10770](https://github.com/CrowX500x0/CVE-2020-10770)
 
 ### CVE-2020-10977 (2020-04-08)
 
@@ -8569,6 +8579,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [mcmahonr/cve-2019-6447](https://github.com/mcmahonr/cve-2019-6447)
 - [1nf1n17yk1ng/CVE-2019-6447](https://github.com/1nf1n17yk1ng/CVE-2019-6447)
 - [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
+- [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
 
 ### CVE-2019-6453 (2019-02-18)
 
