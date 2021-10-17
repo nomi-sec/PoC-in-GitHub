@@ -10825,6 +10825,7 @@ ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise 
 - [MuirlandOracle/CVE-2019-17662](https://github.com/MuirlandOracle/CVE-2019-17662)
 - [k4is3r13/Bash-Script-CVE-2019-17662](https://github.com/k4is3r13/Bash-Script-CVE-2019-17662)
 - [whokilleddb/CVE-2019-17662](https://github.com/whokilleddb/CVE-2019-17662)
+- [acm-iem/CVE-2019-17662-Exploit](https://github.com/acm-iem/CVE-2019-17662-Exploit)
 
 ### CVE-2019-17671 (2019-10-17)
 
