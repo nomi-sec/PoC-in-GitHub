@@ -4208,6 +4208,7 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247)
 - [QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit)
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
+- [Sergio928/OpenSMTPD-6.6.1---Remote-Code-Execution---Linux-remote-Exploit](https://github.com/Sergio928/OpenSMTPD-6.6.1---Remote-Code-Execution---Linux-remote-Exploit)
 
 ### CVE-2020-7283 (2020-07-03)
 
@@ -12262,10 +12263,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC)
 - [Yashrk078/Test_CVE-2018-6574](https://github.com/Yashrk078/Test_CVE-2018-6574)
 - [azzzzzzzzzzzzzzzzz/CVE-2018-6574](https://github.com/azzzzzzzzzzzzzzzzz/CVE-2018-6574)
-- [FilipeFraqueiro/CVE-2018-6574](https://github.com/FilipeFraqueiro/CVE-2018-6574)
-- [shadofren/CVE-2018-6574](https://github.com/shadofren/CVE-2018-6574)
-- [NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574)
-- [vishack/CVE-2018-6574](https://github.com/vishack/CVE-2018-6574)
 - [PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise)
 - [purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574)
 - [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
@@ -13461,7 +13458,6 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [pwn3z/CVE-2018-13379-FortinetVPN](https://github.com/pwn3z/CVE-2018-13379-FortinetVPN)
 - [k4nfr3/CVE-2018-13379-Fortinet](https://github.com/k4nfr3/CVE-2018-13379-Fortinet)
 - [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
-- [B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379)
 - [nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379)
 
 ### CVE-2018-13382 (2019-06-04)
@@ -13613,7 +13609,6 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [iansangaji/laravel-rce-cve-2018-15133](https://github.com/iansangaji/laravel-rce-cve-2018-15133)
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
-- [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
 - [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 
 ### CVE-2018-15139 (2018-08-13)
@@ -13879,14 +13874,6 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
 - [NeKroFR/CVE-2018-16763](https://github.com/NeKroFR/CVE-2018-16763)
 - [k4is3r13/Bash-Script-CVE-2018-16763](https://github.com/k4is3r13/Bash-Script-CVE-2018-16763)
-
-### CVE-2018-16843 (2018-11-07)
-
-<code>
-nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive memory consumption. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the 'http2' option of the 'listen' directive is used in a configuration file.
-</code>
-
-- [flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5)
 
 ### CVE-2018-16854 (2018-11-26)
 
