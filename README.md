@@ -2238,6 +2238,14 @@ Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe 
 ### CVE-2021-35975
 - [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
 
+### CVE-2021-36260 (2021-09-22)
+
+<code>
+A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation, attacker can exploit the vulnerability to launch a command injection attack by sending some messages with malicious commands.
+</code>
+
+- [rabbitsafe/CVE-2021-36260](https://github.com/rabbitsafe/CVE-2021-36260)
+
 ### CVE-2021-36394
 - [dinhbaouit/CVE-2021-36394](https://github.com/dinhbaouit/CVE-2021-36394)
 
@@ -21284,7 +21292,6 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
-- [SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT)
 - [nobodyatall648/CVE-2003-0264](https://github.com/nobodyatall648/CVE-2003-0264)
 
 ### CVE-2003-0282 (2003-05-14)
