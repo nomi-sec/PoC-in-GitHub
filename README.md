@@ -2873,6 +2873,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
 - [anonsecteaminc/CVE-2021-41773-PoC](https://github.com/anonsecteaminc/CVE-2021-41773-PoC)
 - [lopqto/CVE-2021-41773_Honeypot](https://github.com/lopqto/CVE-2021-41773_Honeypot)
+- [vulf/CVE-2021-41773_42013](https://github.com/vulf/CVE-2021-41773_42013)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -10841,7 +10842,7 @@ ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise 
 - [MuirlandOracle/CVE-2019-17662](https://github.com/MuirlandOracle/CVE-2019-17662)
 - [k4is3r13/Bash-Script-CVE-2019-17662](https://github.com/k4is3r13/Bash-Script-CVE-2019-17662)
 - [whokilleddb/CVE-2019-17662](https://github.com/whokilleddb/CVE-2019-17662)
-- [acm-iem/CVE-2019-17662-Exploit](https://github.com/acm-iem/CVE-2019-17662-Exploit)
+- [rajendrakumaryadav/CVE-2019-17662-Exploit](https://github.com/rajendrakumaryadav/CVE-2019-17662-Exploit)
 
 ### CVE-2019-17671 (2019-10-17)
 
@@ -13633,6 +13634,7 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
 - [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
+- [huydoppa/CVE-2018-15133](https://github.com/huydoppa/CVE-2018-15133)
 
 ### CVE-2018-15139 (2018-08-13)
 
@@ -21292,6 +21294,7 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
+- [SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT)
 - [nobodyatall648/CVE-2003-0264](https://github.com/nobodyatall648/CVE-2003-0264)
 
 ### CVE-2003-0282 (2003-05-14)
