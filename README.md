@@ -2647,6 +2647,14 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 ### CVE-2021-40375
 - [DCKento/CVE-2021-40375](https://github.com/DCKento/CVE-2021-40375)
 
+### CVE-2021-40438 (2021-09-16)
+
+<code>
+A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
+</code>
+
+- [xiaojiangxl/CVE-2021-40438](https://github.com/xiaojiangxl/CVE-2021-40438)
+
 ### CVE-2021-40444 (2021-09-15)
 
 <code>
