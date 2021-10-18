@@ -1976,6 +1976,7 @@ The identity authentication bypass vulnerability found in some Dahua products du
 </code>
 
 - [bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass)
+- [dorkerdevil/CVE-2021-33044](https://github.com/dorkerdevil/CVE-2021-33044)
 
 ### CVE-2021-33045 (2021-09-15)
 
@@ -2895,6 +2896,14 @@ In Visual Tools DVR VX16 4.2.28.0, an unauthenticated attacker can achieve remot
 
 ### CVE-2021-42261
 - [jet-pentest/CVE-2021-42261](https://github.com/jet-pentest/CVE-2021-42261)
+
+### CVE-2021-42342 (2021-10-14)
+
+<code>
+An issue was discovered in GoAhead 4.x and 5.x before 5.1.5. In the file upload filter, user form variables can be passed to CGI scripts without being prefixed with the CGI prefix. This permits tunneling untrusted environment variables into vulnerable CGI scripts.
+</code>
+
+- [kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-](https://github.com/kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
