@@ -2830,6 +2830,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [RyouYoo/CVE-2021-41773](https://github.com/RyouYoo/CVE-2021-41773)
 - [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
+- [ajdumanhug/CVE-2021-41773](https://github.com/ajdumanhug/CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
 - [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
@@ -2898,7 +2899,12 @@ In Visual Tools DVR VX16 4.2.28.0, an unauthenticated attacker can achieve remot
 
 - [adubaldo/CVE-2021-42071](https://github.com/adubaldo/CVE-2021-42071)
 
-### CVE-2021-42261
+### CVE-2021-42261 (2021-10-19)
+
+<code>
+Revisor Video Management System (VMS) before 2.0.0 has a directory traversal vulnerability. Successful exploitation could allow an attacker to traverse the file system to access files or directories that are outside of restricted directory on the remote server. This could lead to the disclosure of sensitive data on the vulnerable server.
+</code>
+
 - [jet-pentest/CVE-2021-42261](https://github.com/jet-pentest/CVE-2021-42261)
 
 ### CVE-2021-42342 (2021-10-14)
@@ -5654,6 +5660,7 @@ Apache Shiro before 1.6.0, when using Apache Shiro, a specially crafted HTTP req
 
 - [lyy289065406/CVE-2020-13933](https://github.com/lyy289065406/CVE-2020-13933)
 - [0xkami/cve-2020-13933](https://github.com/0xkami/cve-2020-13933)
+- [kunFeng1998/CVE-2020-13933Project](https://github.com/kunFeng1998/CVE-2020-13933Project)
 
 ### CVE-2020-13935 (2020-07-14)
 
@@ -7021,7 +7028,6 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955)
 - [SilverSkyFlyingFeather/CVE-2020-27955-TEST](https://github.com/SilverSkyFlyingFeather/CVE-2020-27955-TEST)
 - [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
-- [dennyson120/CVE-2020-27955](https://github.com/dennyson120/CVE-2020-27955)
 - [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
 - [DeeLMind/CVE-2020-27955-LFS](https://github.com/DeeLMind/CVE-2020-27955-LFS)
 - [exileddb/CVE-2020-27955](https://github.com/exileddb/CVE-2020-27955)
@@ -16131,6 +16137,7 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 - [dcsync/rtfkit](https://github.com/dcsync/rtfkit)
+- [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
 - [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 
 ### CVE-2017-11907 (2017-12-12)
