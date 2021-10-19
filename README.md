@@ -1030,6 +1030,9 @@ The Support Board WordPress plugin before 3.3.4 does not escape multiple POST pa
 
 - [itsjeffersonli/CVE-2021-24741](https://github.com/itsjeffersonli/CVE-2021-24741)
 
+### CVE-2021-24884
+- [S1lkys/CVE-2021-24884](https://github.com/S1lkys/CVE-2021-24884)
+
 ### CVE-2021-25162 (2021-03-29)
 
 <code>
@@ -7658,6 +7661,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
 - [c4dr01d/CVE-2019-0708](https://github.com/c4dr01d/CVE-2019-0708)
+- [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -8560,6 +8564,14 @@ HP Support Assistant 8.7.50 and earlier allows a user to gain system privilege a
 </code>
 
 - [ManhNDd/CVE-2019-6329](https://github.com/ManhNDd/CVE-2019-6329)
+
+### CVE-2019-6339 (2019-01-22)
+
+<code>
+In Drupal Core versions 7.x prior to 7.62, 8.6.x prior to 8.6.6 and 8.5.x prior to 8.5.9; A remote code execution vulnerability exists in PHP's built-in phar stream wrapper when performing file operations on an untrusted phar:// URI. Some Drupal code (core, contrib, and custom) may be performing file operations on insufficiently validated user input, thereby being exposed to this vulnerability. This vulnerability is mitigated by the fact that such code paths typically require access to an administrative permission or an atypical configuration.
+</code>
+
+- [Vulnmachines/drupal-cve-2019-6339](https://github.com/Vulnmachines/drupal-cve-2019-6339)
 
 ### CVE-2019-6340 (2019-02-21)
 
@@ -16119,7 +16131,6 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 - [dcsync/rtfkit](https://github.com/dcsync/rtfkit)
-- [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
 - [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 
 ### CVE-2017-11907 (2017-12-12)
@@ -17550,7 +17561,6 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
 - [arttnba3/CVE-2016-5195](https://github.com/arttnba3/CVE-2016-5195)
-- [sijidufei/CVE-2016-5195](https://github.com/sijidufei/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-22)
 
