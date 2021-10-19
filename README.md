@@ -2874,6 +2874,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [apapedulimu/Apachuk](https://github.com/apapedulimu/Apachuk)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
 - [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
+- [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
@@ -8296,6 +8297,7 @@ The Solarwinds Dameware Mini Remote Client agent v12.1.0.89 supports smart card 
 </code>
 
 - [warferik/CVE-2019-3980](https://github.com/warferik/CVE-2019-3980)
+- [Barbarisch/CVE-2019-3980](https://github.com/Barbarisch/CVE-2019-3980)
 
 ### CVE-2019-5010 (2019-10-31)
 
