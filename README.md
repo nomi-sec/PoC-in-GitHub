@@ -593,6 +593,7 @@ spring-boot-actuator-logview in a library that adds a simple logfile viewer as s
 </code>
 
 - [PwCNO-CTO/CVE-2021-21234](https://github.com/PwCNO-CTO/CVE-2021-21234)
+- [xiaojiangxl/CVE-2021-21234](https://github.com/xiaojiangxl/CVE-2021-21234)
 
 ### CVE-2021-21300 (2021-03-09)
 
