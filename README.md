@@ -320,6 +320,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
 - [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
+- [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -1825,6 +1826,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
 - [c4dr01d/CVE-2021-31166](https://github.com/c4dr01d/CVE-2021-31166)
 - [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
+- [ConMiko/CVE-2021-31166-exploit](https://github.com/ConMiko/CVE-2021-31166-exploit)
 
 ### CVE-2021-31184 (2021-05-11)
 
