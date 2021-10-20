@@ -2897,6 +2897,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [andrea-mattioli/apache-exploit-CVE-2021-42013](https://github.com/andrea-mattioli/apache-exploit-CVE-2021-42013)
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/CVE-2021-42013-Docker-Lab](https://github.com/twseptian/CVE-2021-42013-Docker-Lab)
+- [BincangSiber/CVE-2021-42013](https://github.com/BincangSiber/CVE-2021-42013)
 
 ### CVE-2021-42071 (2021-10-07)
 
@@ -5101,6 +5102,14 @@ A flaw was found in Keycloak before 13.0.0, where it is possible to force the se
 
 - [ColdFusionX/Keycloak-12.0.1-CVE-2020-10770](https://github.com/ColdFusionX/Keycloak-12.0.1-CVE-2020-10770)
 - [CrowX500x0/CVE-2020-10770](https://github.com/CrowX500x0/CVE-2020-10770)
+
+### CVE-2020-10915 (2020-04-22)
+
+<code>
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of VEEAM One Agent 9.5.4.4587. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HandshakeResult method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the service account. Was ZDI-CAN-10401.
+</code>
+
+- [Cinnamon1212/Modified-CVE-2020-10915-MsfModule](https://github.com/Cinnamon1212/Modified-CVE-2020-10915-MsfModule)
 
 ### CVE-2020-10977 (2020-04-08)
 
@@ -13632,7 +13641,7 @@ The database backup feature in upload/source/admincp/admincp_db.php in Discuz! 2
 Pydio 4.2.1 through 8.2.1 has an authenticated remote code execution vulnerability in which an attacker with administrator access to the web application can execute arbitrary code on the underlying system via Command Injection.
 </code>
 
-- [spencerdodd/CVE-2018-14772](https://github.com/spencerdodd/CVE-2018-14772)
+- [killvxk/CVE-2018-14772](https://github.com/killvxk/CVE-2018-14772)
 
 ### CVE-2018-14847 (2018-08-02)
 
