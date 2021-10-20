@@ -2712,6 +2712,7 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 </code>
 
 - [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
+- [KaLendsi/CVE-2021-40449-Exploit](https://github.com/KaLendsi/CVE-2021-40449-Exploit)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -2884,6 +2885,8 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [lopqto/CVE-2021-41773_Honeypot](https://github.com/lopqto/CVE-2021-41773_Honeypot)
 - [vulf/CVE-2021-41773_42013](https://github.com/vulf/CVE-2021-41773_42013)
 - [cloudbyteelias/CVE-2021-41773](https://github.com/cloudbyteelias/CVE-2021-41773)
+- [qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773)
+- [BincangSiber/CVE-2021-41773](https://github.com/BincangSiber/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -12336,6 +12339,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574)
 - [RyouYoo/CVE-2018-6574](https://github.com/RyouYoo/CVE-2018-6574)
 - [Devang-Solanki/CVE-2018-6574](https://github.com/Devang-Solanki/CVE-2018-6574)
+- [ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
