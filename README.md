@@ -7288,6 +7288,7 @@ The fileop module of the NXLog service in NXLog Community Edition 2.10.2150 allo
 </code>
 
 - [GuillaumePetit84/CVE-2020-35488](https://github.com/GuillaumePetit84/CVE-2020-35488)
+- [githubfoam/nxlog-ubuntu-githubactions](https://github.com/githubfoam/nxlog-ubuntu-githubactions)
 
 ### CVE-2020-35489 (2020-12-17)
 
