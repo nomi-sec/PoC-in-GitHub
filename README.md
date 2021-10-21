@@ -1768,6 +1768,14 @@ Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote at
 
 - [xmzyshypnc/CVE-2021-30551](https://github.com/xmzyshypnc/CVE-2021-30551)
 
+### CVE-2021-30573 (2021-08-03)
+
+<code>
+Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [s4e-lab/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-lab/CVE-2021-30573-PoC-Google-Chrome)
+
 ### CVE-2021-30632 (2021-10-08)
 
 <code>
@@ -1792,7 +1800,7 @@ A use after free issue was addressed with improved memory management. This issue
 </code>
 
 - [KameleonReloaded/CVEREV3](https://github.com/KameleonReloaded/CVEREV3)
-- [PeterMxx/ps4_8.00_vuln_poc](https://github.com/PeterMxx/ps4_8.00_vuln_poc)
+- [Jeromeyoung/ps4_8.00_vuln_poc](https://github.com/Jeromeyoung/ps4_8.00_vuln_poc)
 
 ### CVE-2021-30860 (2021-08-24)
 
@@ -2317,7 +2325,7 @@ A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSys
 ### CVE-2021-36799 (2021-07-19)
 
 <code>
-KNX ETS5 uses the hard-coded password ETS5Password, with a salt value of Ivan Medvedev.
+Hard-coded password and salt for encryption of project files in KNX Association's ETS5 (all versions up to v5.7.6) allows a local unprivileged user to access cryptographic keys of KNX devices stored in the project files via decryption with the known password &quot;ETS5Password&quot; and salt &quot;Ivan Medvedev&quot;.
 </code>
 
 - [robertguetzkow/ets5-password-recovery](https://github.com/robertguetzkow/ets5-password-recovery)
@@ -2886,7 +2894,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [vulf/CVE-2021-41773_42013](https://github.com/vulf/CVE-2021-41773_42013)
 - [cloudbyteelias/CVE-2021-41773](https://github.com/cloudbyteelias/CVE-2021-41773)
 - [qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773)
-- [BincangSiber/CVE-2021-41773](https://github.com/BincangSiber/CVE-2021-41773)
+- [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -2897,7 +2905,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [andrea-mattioli/apache-exploit-CVE-2021-42013](https://github.com/andrea-mattioli/apache-exploit-CVE-2021-42013)
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/CVE-2021-42013-Docker-Lab](https://github.com/twseptian/CVE-2021-42013-Docker-Lab)
-- [BincangSiber/CVE-2021-42013](https://github.com/BincangSiber/CVE-2021-42013)
+- [LayarKacaSiber/CVE-2021-42013](https://github.com/LayarKacaSiber/CVE-2021-42013)
 
 ### CVE-2021-42071 (2021-10-07)
 
