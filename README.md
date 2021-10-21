@@ -230,7 +230,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
 - [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
 - [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
-- [hungnt199/CVE-2021-3129_exploit](https://github.com/hungnt199/CVE-2021-3129_exploit)
+- [nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit)
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
@@ -1775,7 +1775,7 @@ Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remot
 </code>
 
 - [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
-- [avboy1337/CVE-2021-30632](https://github.com/avboy1337/CVE-2021-30632)
+- [CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632)
 
 ### CVE-2021-30641 (2021-06-10)
 
@@ -9032,7 +9032,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 The Illuminate component of Laravel Framework 5.7.x has a deserialization vulnerability that can lead to remote code execution if the content is controllable, related to the __destruct method of the PendingCommand class in PendingCommand.php.
 </code>
 
-- [hungnt199/CVE-2019-9081_PoC](https://github.com/hungnt199/CVE-2019-9081_PoC)
+- [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
 
 ### CVE-2019-9153 (2019-08-22)
 
@@ -11859,7 +11859,7 @@ Authentication Bypass vulnerability in the Oturia Smart Google Code Inserter plu
 
 - [lucad93/CVE-2018-3810](https://github.com/lucad93/CVE-2018-3810)
 - [cved-sources/cve-2018-3810](https://github.com/cved-sources/cve-2018-3810)
-- [hungnt199/CVE-2018-3810_exploit](https://github.com/hungnt199/CVE-2018-3810_exploit)
+- [nth347/CVE-2018-3810_exploit](https://github.com/nth347/CVE-2018-3810_exploit)
 
 ### CVE-2018-3811 (2018-01-01)
 
@@ -13478,7 +13478,7 @@ An issue was discovered in phpMyAdmin 4.8.x before 4.8.2, in which an attacker c
 The iThemes Security (better-wp-security) plugin before 7.0.3 for WordPress allows SQL Injection (by attackers with Admin privileges) via the logs page.
 </code>
 
-- [hungnt199/CVE-2018-12636_exploit](https://github.com/hungnt199/CVE-2018-12636_exploit)
+- [nth347/CVE-2018-12636_exploit](https://github.com/nth347/CVE-2018-12636_exploit)
 
 ### CVE-2018-12798 (2018-07-20)
 
