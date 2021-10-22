@@ -2903,6 +2903,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [cloudbyteelias/CVE-2021-41773](https://github.com/cloudbyteelias/CVE-2021-41773)
 - [qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773)
 - [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
+- [BabyTeam1024/CVE-2021-41773](https://github.com/BabyTeam1024/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -6659,7 +6660,7 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 - [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
-- [k0rup710n/Wordpress-CVE-2020-25213](https://github.com/k0rup710n/Wordpress-CVE-2020-25213)
+- [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
 - [piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213)
 
 ### CVE-2020-25223 (2020-09-24)
