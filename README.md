@@ -197,6 +197,8 @@ Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connec
 </code>
 
 - [SecCoder-Security-Lab/jdbc-sqlxml-xxe](https://github.com/SecCoder-Security-Lab/jdbc-sqlxml-xxe)
+- [cckuailong/CVE-2021-2471](https://github.com/cckuailong/CVE-2021-2471)
+- [DrunkenShells/CVE-2021-2471](https://github.com/DrunkenShells/CVE-2021-2471)
 
 ### CVE-2021-3007 (2021-01-03)
 
@@ -11552,6 +11554,14 @@ DHCP packages in Red Hat Enterprise Linux 6 and 7, Fedora 28, and earlier are vu
 - [kkirsche/CVE-2018-1111](https://github.com/kkirsche/CVE-2018-1111)
 - [baldassarreFe/FEP3370-advanced-ethical-hacking](https://github.com/baldassarreFe/FEP3370-advanced-ethical-hacking)
 
+### CVE-2018-1123 (2018-05-23)
+
+<code>
+procps-ng before version 3.3.15 is vulnerable to a denial of service in ps via mmap buffer overflow. Inbuilt protection in ps maps a guard page at the end of the overflowed buffer, ensuring that the impact of this flaw is limited to a crash (temporary denial of service).
+</code>
+
+- [aravinddathd/CVE-2018-1123](https://github.com/aravinddathd/CVE-2018-1123)
+
 ### CVE-2018-1133 (2018-05-25)
 
 <code>
@@ -19924,7 +19934,6 @@ The perf_swevent_init function in kernel/events/core.c in the Linux kernel befor
 - [hiikezoe/libperf_event_exploit](https://github.com/hiikezoe/libperf_event_exploit)
 - [Pashkela/CVE-2013-2094](https://github.com/Pashkela/CVE-2013-2094)
 - [tarunyadav/fix-cve-2013-2094](https://github.com/tarunyadav/fix-cve-2013-2094)
-- [timhsutw/cve-2013-2094](https://github.com/timhsutw/cve-2013-2094)
 - [vnik5287/CVE-2013-2094](https://github.com/vnik5287/CVE-2013-2094)
 
 ### CVE-2013-2186 (2013-10-28)
