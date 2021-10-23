@@ -11150,7 +11150,7 @@ class.upload.php in verot.net class.upload before 1.0.3 and 2.x before 2.0.4, as
 The Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Execution in the Install and Uninstall Plugin components of the Admin panel, because it does not sanitize the plugin name, and attackers can inject arbitrary shell commands to be executed by the execa function.
 </code>
 
-- [4ugury/CVE-2019-19609](https://github.com/4ugury/CVE-2019-19609)
+- [z9fr/CVE-2019-19609](https://github.com/z9fr/CVE-2019-19609)
 - [diego-tella/CVE-2019-19609-EXPLOIT](https://github.com/diego-tella/CVE-2019-19609-EXPLOIT)
 - [guglia001/CVE-2019-19609](https://github.com/guglia001/CVE-2019-19609)
 - [D3m0nicw0lf/CVE-2019-19609](https://github.com/D3m0nicw0lf/CVE-2019-19609)
