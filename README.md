@@ -2219,6 +2219,14 @@ Microsoft discovered a remote code execution (RCE) vulnerability in the SolarWin
 
 - [NattiSamson/Serv-U-CVE-2021-35211](https://github.com/NattiSamson/Serv-U-CVE-2021-35211)
 
+### CVE-2021-35215 (2021-09-01)
+
+<code>
+Insecure deserialization leading to Remote Code Execution was detected in the Orion Platform version 2020.2.5. Authentication is required to exploit this vulnerability.
+</code>
+
+- [Y4er/CVE-2021-35215](https://github.com/Y4er/CVE-2021-35215)
+
 ### CVE-2021-35296 (2021-10-04)
 
 <code>
@@ -2851,7 +2859,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [RyouYoo/CVE-2021-41773](https://github.com/RyouYoo/CVE-2021-41773)
 - [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
-- [ajdumanhug/CVE-2021-41773](https://github.com/ajdumanhug/CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
 - [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
@@ -2899,7 +2906,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
-- [anonsecteaminc/CVE-2021-41773-PoC](https://github.com/anonsecteaminc/CVE-2021-41773-PoC)
 - [lopqto/CVE-2021-41773_Honeypot](https://github.com/lopqto/CVE-2021-41773_Honeypot)
 - [vulf/CVE-2021-41773_42013](https://github.com/vulf/CVE-2021-41773_42013)
 - [cloudbyteelias/CVE-2021-41773](https://github.com/cloudbyteelias/CVE-2021-41773)
@@ -4120,7 +4126,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability](https://github.com/ludy-dev/BIG-IP-F5-TMUI-RCE-Vulnerability)
 - [faisalfs10x/F5-BIG-IP-CVE-2020-5902-shodan-scanner](https://github.com/faisalfs10x/F5-BIG-IP-CVE-2020-5902-shodan-scanner)
 - [haisenberg/CVE-2020-5902](https://github.com/haisenberg/CVE-2020-5902)
-- [anonsecteaminc/CVE-2020-5902-Scanner](https://github.com/anonsecteaminc/CVE-2020-5902-Scanner)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -19934,6 +19939,7 @@ The perf_swevent_init function in kernel/events/core.c in the Linux kernel befor
 - [hiikezoe/libperf_event_exploit](https://github.com/hiikezoe/libperf_event_exploit)
 - [Pashkela/CVE-2013-2094](https://github.com/Pashkela/CVE-2013-2094)
 - [tarunyadav/fix-cve-2013-2094](https://github.com/tarunyadav/fix-cve-2013-2094)
+- [timhsutw/cve-2013-2094](https://github.com/timhsutw/cve-2013-2094)
 - [vnik5287/CVE-2013-2094](https://github.com/vnik5287/CVE-2013-2094)
 
 ### CVE-2013-2186 (2013-10-28)
