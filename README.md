@@ -2912,6 +2912,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773)
 - [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
 - [BabyTeam1024/CVE-2021-41773](https://github.com/BabyTeam1024/CVE-2021-41773)
+- [TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -2923,6 +2924,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/CVE-2021-42013-Docker-Lab](https://github.com/twseptian/CVE-2021-42013-Docker-Lab)
 - [LayarKacaSiber/CVE-2021-42013](https://github.com/LayarKacaSiber/CVE-2021-42013)
+- [TheLastVvV/CVE-2021-42013](https://github.com/TheLastVvV/CVE-2021-42013)
 
 ### CVE-2021-42071 (2021-10-07)
 
