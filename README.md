@@ -2695,6 +2695,7 @@ A crafted request uri-path can cause mod_proxy to forward the request to an orig
 </code>
 
 - [xiaojiangxl/CVE-2021-40438](https://github.com/xiaojiangxl/CVE-2021-40438)
+- [sixpacksecurity/CVE-2021-40438](https://github.com/sixpacksecurity/CVE-2021-40438)
 
 ### CVE-2021-40444 (2021-09-15)
 
@@ -2912,6 +2913,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773)
 - [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
 - [BabyTeam1024/CVE-2021-41773](https://github.com/BabyTeam1024/CVE-2021-41773)
+- [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
@@ -2925,6 +2927,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [twseptian/CVE-2021-42013-Docker-Lab](https://github.com/twseptian/CVE-2021-42013-Docker-Lab)
 - [LayarKacaSiber/CVE-2021-42013](https://github.com/LayarKacaSiber/CVE-2021-42013)
 - [TheLastVvV/CVE-2021-42013](https://github.com/TheLastVvV/CVE-2021-42013)
+- [TheLastVvV/CVE-2021-42013_Reverse-Shell](https://github.com/TheLastVvV/CVE-2021-42013_Reverse-Shell)
 
 ### CVE-2021-42071 (2021-10-07)
 
@@ -10523,7 +10526,6 @@ rpc.cgi in Webmin through 1.920 allows authenticated Remote Code Execution via a
 Multiple file upload restriction bypass vulnerabilities in Sentrifugo 3.2 could allow authenticated users to execute arbitrary code via a webshell.
 </code>
 
-- [iamhrishikeshpadhye/CVE-2019-15813-Exploitation](https://github.com/iamhrishikeshpadhye/CVE-2019-15813-Exploitation)
 - [wolf1892/CVE-2019-15813](https://github.com/wolf1892/CVE-2019-15813)
 
 ### CVE-2019-15846 (2019-09-06)
