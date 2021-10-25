@@ -1042,7 +1042,12 @@ The Support Board WordPress plugin before 3.3.4 does not escape multiple POST pa
 
 - [itsjeffersonli/CVE-2021-24741](https://github.com/itsjeffersonli/CVE-2021-24741)
 
-### CVE-2021-24884
+### CVE-2021-24884 (2021-10-25)
+
+<code>
+The Formidable Form Builder WordPress plugin before 4.09.05 allows to inject certain HTML Tags like &lt;audio&gt;,&lt;video&gt;,&lt;img&gt;,&lt;a&gt; and&lt;button&gt;.This could allow an unauthenticated, remote attacker to exploit a HTML-injection byinjecting a malicous link. The HTML-injection may trick authenticated users to follow the link. If the Link gets clicked, Javascript code can be executed. The vulnerability is due to insufficient sanitization of the &quot;data-frmverify&quot; tag for links in the web-based entry inspection page of affected systems. A successful exploitation incomibantion with CSRF could allow the attacker to perform arbitrary actions on an affected system with the privileges of the user. These actions include stealing the users account by changing their password or allowing attackers to submit their own code through an authenticated user resulting in Remote Code Execution. If an authenticated user who is able to edit Wordpress PHP Code in any kind, clicks the malicious link, PHP code can be edited.
+</code>
+
 - [S1lkys/CVE-2021-24884](https://github.com/S1lkys/CVE-2021-24884)
 
 ### CVE-2021-25162 (2021-03-29)
@@ -1787,6 +1792,7 @@ Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote a
 </code>
 
 - [s4e-lab/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-lab/CVE-2021-30573-PoC-Google-Chrome)
+- [oxctdev/CVE-2021-30573](https://github.com/oxctdev/CVE-2021-30573)
 
 ### CVE-2021-30632 (2021-10-08)
 
