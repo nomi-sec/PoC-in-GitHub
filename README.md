@@ -1987,14 +1987,6 @@ Squirrelly is a template engine implemented in JavaScript that works out of the 
 
 - [Abady0x1/CVE-2021-32819](https://github.com/Abady0x1/CVE-2021-32819)
 
-### CVE-2021-33034 (2021-05-14)
-
-<code>
-In the Linux kernel before 5.12.4, net/bluetooth/hci_event.c has a use-after-free when destroying an hci_chan, aka CID-5c4c8c954409. This leads to writing an arbitrary value.
-</code>
-
-- [artsking/linux-4.1.15_CVE-2021-33034_withPatch](https://github.com/artsking/linux-4.1.15_CVE-2021-33034_withPatch)
-
 ### CVE-2021-33044 (2021-09-15)
 
 <code>
@@ -2743,6 +2735,7 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 
 - [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
 - [KaLendsi/CVE-2021-40449-Exploit](https://github.com/KaLendsi/CVE-2021-40449-Exploit)
+- [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 
 ### CVE-2021-40492 (2021-09-03)
 
@@ -2894,6 +2887,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [0xRar/CVE-2021-41773](https://github.com/0xRar/CVE-2021-41773)
 - [pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt)
+- [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [zeronine9/CVE-2021-41773](https://github.com/zeronine9/CVE-2021-41773)
 - [b1tsec/CVE-2021-41773](https://github.com/b1tsec/CVE-2021-41773)
 - [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
@@ -6135,15 +6129,6 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 ### CVE-2020-15399
 - [mkelepce/CVE-2020-15399](https://github.com/mkelepce/CVE-2020-15399)
 
-### CVE-2020-15436 (2020-11-23)
-
-<code>
-Use-after-free vulnerability in fs/block_dev.c in the Linux kernel before 5.8 allows local users to gain privileges or cause a denial of service by leveraging improper access to a certain error field.
-</code>
-
-- [artsking/linux-4.1.15_CVE-2020-15436_withPatch](https://github.com/artsking/linux-4.1.15_CVE-2020-15436_withPatch)
-- [artsking/linux-3.0.35_CVE-2020-15436_withPatch](https://github.com/artsking/linux-3.0.35_CVE-2020-15436_withPatch)
-
 ### CVE-2020-15492 (2020-07-23)
 
 <code>
@@ -7460,15 +7445,6 @@ The dashboard gadgets preference resource of the Atlassian gadgets plugin used i
 </code>
 
 - [f4rber/CVE-2020-36287](https://github.com/f4rber/CVE-2020-36287)
-
-### CVE-2020-36386 (2021-06-07)
-
-<code>
-An issue was discovered in the Linux kernel before 5.8.1. net/bluetooth/hci_event.c has a slab out-of-bounds read in hci_extended_inquiry_result_evt, aka CID-51c19bf3d5cf.
-</code>
-
-- [artsking/linux-3.0.35_CVE-2020-36386_withPatch](https://github.com/artsking/linux-3.0.35_CVE-2020-36386_withPatch)
-- [artsking/linux-4.1.15_CVE-2020-36386_withPatch](https://github.com/artsking/linux-4.1.15_CVE-2020-36386_withPatch)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
