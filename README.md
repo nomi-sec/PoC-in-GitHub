@@ -798,6 +798,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [RedTeamExp/CVE-2021-22005_PoC](https://github.com/RedTeamExp/CVE-2021-22005_PoC)
 - [rwincey/CVE-2021-22005](https://github.com/rwincey/CVE-2021-22005)
 - [TaroballzChen/CVE-2021-22005-metasploit](https://github.com/TaroballzChen/CVE-2021-22005-metasploit)
+- [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 
 ### CVE-2021-22015 (2021-09-23)
 
@@ -1162,6 +1163,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
 - [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
 - [oxctdev/CVE-2021-26084](https://github.com/oxctdev/CVE-2021-26084)
+- [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 
 ### CVE-2021-26085 (2021-08-02)
 
@@ -2731,6 +2733,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [LazarusReborn/Docx-Exploit-2021](https://github.com/LazarusReborn/Docx-Exploit-2021)
 - [H0j3n/CVE-2021-40444](https://github.com/H0j3n/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
+- [TiagoSergio/CVE-2021-40444](https://github.com/TiagoSergio/CVE-2021-40444)
 
 ### CVE-2021-40449 (2021-10-12)
 
@@ -8503,6 +8506,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
 - [1nf1n17yk1ng/CVE-2019-5736](https://github.com/1nf1n17yk1ng/CVE-2019-5736)
+- [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
 
 ### CVE-2019-5737 (2019-03-28)
 
@@ -21349,6 +21353,7 @@ distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict acc
 
 - [1nf1n17yk1ng/distccd_rce_CVE-2004-2687](https://github.com/1nf1n17yk1ng/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
+- [sukraken/distcc_exploit.py](https://github.com/sukraken/distcc_exploit.py)
 
 
 ## 2003
