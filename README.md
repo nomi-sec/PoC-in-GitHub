@@ -541,7 +541,12 @@ Cross-site scripting vulnerability in EC-CUBE 4.0.0 to 4.0.5 allows a remote att
 
 - [s-index/CVE-2021-20717](https://github.com/s-index/CVE-2021-20717)
 
-### CVE-2021-20837
+### CVE-2021-20837 (2021-10-26)
+
+<code>
+Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 and earlier (Movable Type 6 Series), Movable Type Advanced 7 r.5002 and earlier (Movable Type Advanced 7 Series), Movable Type Advanced 6.8.2 and earlier (Movable Type Advanced 6 Series), Movable Type Premium 1.46 and earlier, and Movable Type Premium Advanced 1.46 and earlier allow remote attackers to execute arbitrary OS commands via unspecified vectors. Note that all versions of Movable Type 4.0 or later including unsupported (End-of-Life, EOL) versions are also affected by this vulnerability.
+</code>
+
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
 
 ### CVE-2021-21014 (2021-02-11)
@@ -1172,6 +1177,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
 - [oxctdev/CVE-2021-26084](https://github.com/oxctdev/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
+- [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 
 ### CVE-2021-26085 (2021-08-02)
 
@@ -1796,6 +1802,7 @@ Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote a
 
 - [s4e-lab/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-lab/CVE-2021-30573-PoC-Google-Chrome)
 - [oxctdev/CVE-2021-30573](https://github.com/oxctdev/CVE-2021-30573)
+- [kh4sh3i/CVE-2021-30573](https://github.com/kh4sh3i/CVE-2021-30573)
 
 ### CVE-2021-30632 (2021-10-08)
 
@@ -2753,6 +2760,15 @@ A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibb
 </code>
 
 - [5qu1n7/CVE-2021-40492](https://github.com/5qu1n7/CVE-2021-40492)
+
+### CVE-2021-40512
+- [war4uthor/CVE-2021-40512](https://github.com/war4uthor/CVE-2021-40512)
+
+### CVE-2021-40513
+- [war4uthor/CVE-2021-40513](https://github.com/war4uthor/CVE-2021-40513)
+
+### CVE-2021-40514
+- [war4uthor/CVE-2021-40514](https://github.com/war4uthor/CVE-2021-40514)
 
 ### CVE-2021-40539 (2021-09-07)
 
@@ -15601,6 +15617,14 @@ Malicious PATCH requests submitted to servers using Spring Data REST versions pr
 - [cved-sources/cve-2017-8046](https://github.com/cved-sources/cve-2017-8046)
 - [jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest)
 - [guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046)
+
+### CVE-2017-8225 (2017-04-25)
+
+<code>
+On Wireless IP Camera (P2P) WIFICAM devices, access to .ini files (containing credentials) is not correctly checked. An attacker can bypass authentication by providing an empty loginuse parameter and an empty loginpas parameter in the URI.
+</code>
+
+- [kienquoc102/CVE-2017-8225](https://github.com/kienquoc102/CVE-2017-8225)
 
 ### CVE-2017-8295 (2017-05-04)
 
