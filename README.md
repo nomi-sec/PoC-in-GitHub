@@ -541,6 +541,9 @@ Cross-site scripting vulnerability in EC-CUBE 4.0.0 to 4.0.5 allows a remote att
 
 - [s-index/CVE-2021-20717](https://github.com/s-index/CVE-2021-20717)
 
+### CVE-2021-20837
+- [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
+
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
@@ -2919,6 +2922,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773)
 - [MazX0p/CVE-2021-41773](https://github.com/MazX0p/CVE-2021-41773)
+- [vida00/Scanner-CVE-2021-41773](https://github.com/vida00/Scanner-CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -21535,6 +21539,7 @@ IIS 4.0 allows remote attackers to obtain the internal IP address of the server 
 </code>
 
 - [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
+- [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
 
 ### CVE-2000-0979 (2001-01-22)
 
