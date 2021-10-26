@@ -2942,6 +2942,8 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773)
 - [MazX0p/CVE-2021-41773](https://github.com/MazX0p/CVE-2021-41773)
 - [vida00/Scanner-CVE-2021-41773](https://github.com/vida00/Scanner-CVE-2021-41773)
+- [mr-exo/CVE-2021-41773](https://github.com/mr-exo/CVE-2021-41773)
+- [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
 
 ### CVE-2021-42013 (2021-10-07)
 
