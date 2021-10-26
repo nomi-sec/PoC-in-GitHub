@@ -2413,6 +2413,9 @@ TensorFlow is an end-to-end open source platform for machine learning. In affect
 
 - [fran-CICS/ExploitTensorflowCVE-2021-37678](https://github.com/fran-CICS/ExploitTensorflowCVE-2021-37678)
 
+### CVE-2021-37748
+- [SECFORCE/CVE-2021-37748](https://github.com/SECFORCE/CVE-2021-37748)
+
 ### CVE-2021-37832 (2021-08-03)
 
 <code>
