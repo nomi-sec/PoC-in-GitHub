@@ -2153,6 +2153,7 @@ Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique
 </code>
 
 - [KaLendsi/CVE-2021-34486](https://github.com/KaLendsi/CVE-2021-34486)
+- [b1tg/CVE-2021-34486-exp](https://github.com/b1tg/CVE-2021-34486-exp)
 
 ### CVE-2021-34496 (2021-07-14)
 
@@ -2966,6 +2967,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [LayarKacaSiber/CVE-2021-42013](https://github.com/LayarKacaSiber/CVE-2021-42013)
 - [TheLastVvV/CVE-2021-42013](https://github.com/TheLastVvV/CVE-2021-42013)
 - [TheLastVvV/CVE-2021-42013_Reverse-Shell](https://github.com/TheLastVvV/CVE-2021-42013_Reverse-Shell)
+- [walnutsecurity/CVE-2021-42013](https://github.com/walnutsecurity/CVE-2021-42013)
 
 ### CVE-2021-42071 (2021-10-07)
 
@@ -9077,6 +9079,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
 - [1nf1n17yk1ng/CVE-2019-9053](https://github.com/1nf1n17yk1ng/CVE-2019-9053)
+- [Trushal2004/CVE-2019-9053](https://github.com/Trushal2004/CVE-2019-9053)
 
 ### CVE-2019-9081 (2019-02-24)
 
@@ -9506,7 +9509,7 @@ jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishan
 - [DanielRuf/snyk-js-jquery-174006](https://github.com/DanielRuf/snyk-js-jquery-174006)
 - [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
-- [chrisneagu/FTC-SKYSTONE-TEAM-DARK-ANGELS-ROMANIA-2020](https://github.com/chrisneagu/FTC-SKYSTONE-TEAM-DARK-ANGELS-ROMANIA-2020)
+- [chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020](https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020)
 
 ### CVE-2019-11447 (2019-04-22)
 
