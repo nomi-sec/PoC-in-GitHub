@@ -2298,6 +2298,7 @@ A command injection vulnerability in the web server of some Hikvision product. D
 </code>
 
 - [rabbitsafe/CVE-2021-36260](https://github.com/rabbitsafe/CVE-2021-36260)
+- [Aiminsun/CVE-2021-36260](https://github.com/Aiminsun/CVE-2021-36260)
 
 ### CVE-2021-36394
 - [dinhbaouit/CVE-2021-36394](https://github.com/dinhbaouit/CVE-2021-36394)
@@ -2410,7 +2411,7 @@ Microsoft Azure Active Directory Connect Authentication Bypass Vulnerability
 Multiple XSS issues exist in Sonatype Nexus Repository Manager 3 before 3.33.0. An authenticated attacker with the ability to add HTML files to a repository could redirect users to Nexus Repository Manager’s pages with code modifications.
 </code>
 
-- [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
+- [SecurityAnalysts/CVE-2021-37152](https://github.com/SecurityAnalysts/CVE-2021-37152)
 
 ### CVE-2021-37589
 - [lucaregne/CVE-2021-37589](https://github.com/lucaregne/CVE-2021-37589)
@@ -2875,6 +2876,9 @@ A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel
 </code>
 
 - [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
+
+### CVE-2021-41728
+- [Dir0x/CVE-2021-41728](https://github.com/Dir0x/CVE-2021-41728)
 
 ### CVE-2021-41730
 - [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
@@ -19637,7 +19641,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
 - [b4keSn4ke/shellshock](https://github.com/b4keSn4ke/shellshock)
 - [0bfxgh0st/ShellShock](https://github.com/0bfxgh0st/ShellShock)
-- [alexphiliotis/ShellShock](https://github.com/alexphiliotis/ShellShock)
+- [JowardBince/ShellShock](https://github.com/JowardBince/ShellShock)
 
 ### CVE-2014-6287 (2014-10-07)
 
