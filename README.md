@@ -724,7 +724,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [GuayoyoCyber/CVE-2021-21972](https://github.com/GuayoyoCyber/CVE-2021-21972)
 - [JMousqueton/Detect-CVE-2021-21972](https://github.com/JMousqueton/Detect-CVE-2021-21972)
 - [robwillisinfo/VMware_vCenter_CVE-2021-21972](https://github.com/robwillisinfo/VMware_vCenter_CVE-2021-21972)
-- [gsheller/vcenter_rce](https://github.com/gsheller/vcenter_rce)
+- [Ma1Dong/vcenter_rce](https://github.com/Ma1Dong/vcenter_rce)
 - [d3sh1n/cve-2021-21972](https://github.com/d3sh1n/cve-2021-21972)
 - [ByZain/CVE-2021-21972](https://github.com/ByZain/CVE-2021-21972)
 - [TaroballzChen/CVE-2021-21972](https://github.com/TaroballzChen/CVE-2021-21972)
@@ -10863,7 +10863,7 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
-- [gsheller/Solr_CVE-2019-17558](https://github.com/gsheller/Solr_CVE-2019-17558)
+- [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
 - [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
 
 ### CVE-2019-17564 (2020-04-01)
@@ -17368,7 +17368,7 @@ Avaya Fabric Connect Virtual Services Platform (VSP) Operating System Software (
 The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remote attackers to upload and execute arbitrary files via an HTTP PUT followed by an HTTP MOVE request.
 </code>
 
-- [gsheller/ActiveMQ_putshell-CVE-2016-3088](https://github.com/gsheller/ActiveMQ_putshell-CVE-2016-3088)
+- [Ma1Dong/ActiveMQ_putshell-CVE-2016-3088](https://github.com/Ma1Dong/ActiveMQ_putshell-CVE-2016-3088)
 - [pudiding/CVE-2016-3088](https://github.com/pudiding/CVE-2016-3088)
 - [cyberaguiar/CVE-2016-3088](https://github.com/cyberaguiar/CVE-2016-3088)
 - [vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088)
@@ -18690,7 +18690,7 @@ Apache ActiveMQ 5.x before 5.13.0 does not restrict the classes that can be seri
 </code>
 
 - [jas502n/CVE-2015-5254](https://github.com/jas502n/CVE-2015-5254)
-- [gsheller/ActiveMQ_CVE-2015-5254](https://github.com/gsheller/ActiveMQ_CVE-2015-5254)
+- [Ma1Dong/ActiveMQ_CVE-2015-5254](https://github.com/Ma1Dong/ActiveMQ_CVE-2015-5254)
 
 ### CVE-2015-5347 (2016-04-12)
 
