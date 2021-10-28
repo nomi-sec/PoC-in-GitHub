@@ -870,6 +870,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
 - [RedTeamWing/CVE-2021-22205](https://github.com/RedTeamWing/CVE-2021-22205)
+- [r0eXpeR/CVE-2021-22205](https://github.com/r0eXpeR/CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -2428,7 +2429,12 @@ TensorFlow is an end-to-end open source platform for machine learning. In affect
 
 - [fran-CICS/ExploitTensorflowCVE-2021-37678](https://github.com/fran-CICS/ExploitTensorflowCVE-2021-37678)
 
-### CVE-2021-37748
+### CVE-2021-37748 (2021-10-28)
+
+<code>
+Multiple buffer overflows in the limited configuration shell (/sbin/gs_config) on Grandstream HT801 devices before 1.0.29 allow remote authenticated users to execute arbitrary code as root via a crafted manage_if setting, thus bypassing the intended restrictions of this shell and taking full control of the device. There are default weak credentials that can be used to authenticate.
+</code>
+
 - [SECFORCE/CVE-2021-37748](https://github.com/SECFORCE/CVE-2021-37748)
 
 ### CVE-2021-37832 (2021-08-03)
@@ -2724,6 +2730,7 @@ A crafted request uri-path can cause mod_proxy to forward the request to an orig
 
 - [xiaojiangxl/CVE-2021-40438](https://github.com/xiaojiangxl/CVE-2021-40438)
 - [sixpacksecurity/CVE-2021-40438](https://github.com/sixpacksecurity/CVE-2021-40438)
+- [BabyTeam1024/CVE-2021-40438](https://github.com/BabyTeam1024/CVE-2021-40438)
 
 ### CVE-2021-40444 (2021-09-15)
 
@@ -2760,6 +2767,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [H0j3n/CVE-2021-40444](https://github.com/H0j3n/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
 - [TiagoSergio/CVE-2021-40444](https://github.com/TiagoSergio/CVE-2021-40444)
+- [0xK4gura/CVE-2021-40444-POC](https://github.com/0xK4gura/CVE-2021-40444-POC)
 
 ### CVE-2021-40449 (2021-10-12)
 
@@ -2881,7 +2889,12 @@ A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel
 
 - [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
 
-### CVE-2021-41728
+### CVE-2021-41728 (-)
+
+<code>
+Cross Site Scripting (XSS) vulnerability exists in Sourcecodester News247 CMS 1.0 via the search function in articles.
+</code>
+
 - [Dir0x/CVE-2021-41728](https://github.com/Dir0x/CVE-2021-41728)
 
 ### CVE-2021-41730
@@ -8443,6 +8456,14 @@ c3p0 version &lt; 0.9.5.4 may be exploited by a billion laughs attack when loadi
 
 - [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
+### CVE-2019-5454 (2019-07-30)
+
+<code>
+SQL Injection in the Nextcloud Android app prior to version 3.0.0 allows to destroy a local cache when a harmful query is executed requiring to resetup the account.
+</code>
+
+- [shanika04/nextcloud_android](https://github.com/shanika04/nextcloud_android)
+
 ### CVE-2019-5475 (2019-09-03)
 
 <code>
@@ -8467,6 +8488,7 @@ The mincore() implementation in mm/mincore.c in the Linux kernel through 4.19.13
 OpenSLP as used in ESXi and the Horizon DaaS appliances has a heap overwrite issue. VMware has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8.
 </code>
 
+- [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
 
 ### CVE-2019-5624 (2019-04-30)
@@ -10318,6 +10340,14 @@ A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x befo
 
 - [jas502n/CVE-2019-14439](https://github.com/jas502n/CVE-2019-14439)
 
+### CVE-2019-14450 (2019-10-28)
+
+<code>
+A directory traversal vulnerability was discovered in RepetierServer.exe in Repetier-Server 0.8 through 0.91 that allows for the creation of a user controlled XML file at an unintended location. When this is combined with CVE-2019-14451, an attacker can upload an &quot;external command&quot; configuration as a printer configuration, and achieve remote code execution. After exploitation, loading of the external command configuration is dependent on a system reboot or service restart.
+</code>
+
+- [securifera/CVE-2019-14450](https://github.com/securifera/CVE-2019-14450)
+
 ### CVE-2019-14514 (2020-02-10)
 
 <code>
@@ -10460,6 +10490,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [n0obit4/Webmin_1.890-POC](https://github.com/n0obit4/Webmin_1.890-POC)
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
+- [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
 - [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 - [puckiestyle/CVE-2019-15107](https://github.com/puckiestyle/CVE-2019-15107)
 - [darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107)
@@ -10735,6 +10766,14 @@ Incorrect alias information in IonMonkey JIT compiler for setting array elements
 
 - [maxpl0it/CVE-2019-17026-Exploit](https://github.com/maxpl0it/CVE-2019-17026-Exploit)
 - [lsw29475/CVE-2019-17026](https://github.com/lsw29475/CVE-2019-17026)
+
+### CVE-2019-17041 (2019-10-07)
+
+<code>
+An issue was discovered in Rsyslog v8.1908.0. contrib/pmaixforwardedfrom/pmaixforwardedfrom.c has a heap overflow in the parser for AIX log messages. The parser tries to locate a log message delimiter (in this case, a space or a colon) but fails to account for strings that do not satisfy this constraint. If the string does not match, then the variable lenMsg will reach the value zero and will skip the sanity check that detects invalid log messages. The message will then be considered valid, and the parser will eat up the nonexistent colon delimiter. In doing so, it will decrement lenMsg, a signed integer, whose value was zero and now becomes minus one. The following step in the parser is to shift left the contents of the message. To do this, it will call memmove with the right pointers to the target and destination strings, but the lenMsg will now be interpreted as a huge value, causing a heap overflow.
+</code>
+
+- [Resery/CVE-2019-17041](https://github.com/Resery/CVE-2019-17041)
 
 ### CVE-2019-17080 (2019-10-02)
 
