@@ -2889,7 +2889,7 @@ A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel
 
 - [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
 
-### CVE-2021-41728 (-)
+### CVE-2021-41728 (2021-10-28)
 
 <code>
 Cross Site Scripting (XSS) vulnerability exists in Sourcecodester News247 CMS 1.0 via the search function in articles.
