@@ -326,9 +326,9 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [Exodusro/CVE-2021-3156](https://github.com/Exodusro/CVE-2021-3156)
 - [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
-- [RoseSecurity/CVE-2021-3156](https://github.com/RoseSecurity/CVE-2021-3156)
 - [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
 - [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
+- [d3c3ptic0n/CVE-2021-3156](https://github.com/d3c3ptic0n/CVE-2021-3156)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
 
@@ -424,7 +424,12 @@ A potential buffer overflow in the software drivers for certain HP LaserJet prod
 - [Crystalware/CVE-2021-3438](https://github.com/Crystalware/CVE-2021-3438)
 - [TobiasS1402/CVE-2021-3438](https://github.com/TobiasS1402/CVE-2021-3438)
 
-### CVE-2021-3441
+### CVE-2021-3441 (2021-10-29)
+
+<code>
+A potential security vulnerability has been identified for the HP OfficeJet 7110 Wide Format ePrinter that enables Cross-Site Scripting (XSS).
+</code>
+
 - [tcbutler320/CVE-2021-3441-check](https://github.com/tcbutler320/CVE-2021-3441-check)
 
 ### CVE-2021-3449 (2021-03-25)
@@ -1952,7 +1957,12 @@ A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an 
 
 - [ssst0n3/CVE-2021-31856](https://github.com/ssst0n3/CVE-2021-31856)
 
-### CVE-2021-31862
+### CVE-2021-31862 (2021-10-29)
+
+<code>
+SysAid 20.4.74 allows XSS via the KeepAlive.jsp stamp parameter without any authentication.
+</code>
+
 - [RobertDra/CVE-2021-31862](https://github.com/RobertDra/CVE-2021-31862)
 
 ### CVE-2021-31955 (2021-06-08)
@@ -3016,6 +3026,9 @@ An issue was discovered in GoAhead 4.x and 5.x before 5.1.5. In the file upload 
 </code>
 
 - [kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-](https://github.com/kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-)
+
+### CVE-2021-43032
+- [SakuraSamuraii/CVE-2021-43032](https://github.com/SakuraSamuraii/CVE-2021-43032)
 
 
 ## 2020
@@ -5202,6 +5215,14 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 </code>
 
 - [Cinnamon1212/Modified-CVE-2020-10915-MsfModule](https://github.com/Cinnamon1212/Modified-CVE-2020-10915-MsfModule)
+
+### CVE-2020-10963 (2020-03-25)
+
+<code>
+FrozenNode Laravel-Administrator through 5.0.12 allows unrestricted file upload (and consequently Remote Code Execution) via admin/tips_image/image/file_upload image upload with PHP content within a GIF image that has the .php extension. NOTE: this product is discontinued.
+</code>
+
+- [scopion/CVE-2020-10963](https://github.com/scopion/CVE-2020-10963)
 
 ### CVE-2020-10977 (2020-04-08)
 
@@ -9111,6 +9132,7 @@ The Illuminate component of Laravel Framework 5.7.x has a deserialization vulner
 </code>
 
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
+- [scopion/cve-2019-9081](https://github.com/scopion/cve-2019-9081)
 
 ### CVE-2019-9153 (2019-08-22)
 
@@ -14535,14 +14557,6 @@ Tautulli versions 2.1.38 and below allows remote attackers to bypass intended ac
 
 - [manmolecular/tautulli-cve-2018-21031](https://github.com/manmolecular/tautulli-cve-2018-21031)
 
-### CVE-2018-1000001 (2018-01-31)
-
-<code>
-In glibc 2.26 and earlier there is confusion in the usage of getcwd() by realpath() which can be used to write before the destination buffer leading to a buffer underflow and potential code execution.
-</code>
-
-- [0x00-0x00/CVE-2018-1000001](https://github.com/0x00-0x00/CVE-2018-1000001)
-
 ### CVE-2018-1000006 (2018-01-24)
 
 <code>
@@ -18176,6 +18190,14 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 </code>
 
 - [ISSAPolska/CVE-2016-10761](https://github.com/ISSAPolska/CVE-2016-10761)
+
+### CVE-2016-10956 (2019-09-16)
+
+<code>
+The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php.
+</code>
+
+- [p0dalirius/CVE-2016-10956_mail_masta](https://github.com/p0dalirius/CVE-2016-10956_mail_masta)
 
 ### CVE-2016-1000027 (2020-01-02)
 
