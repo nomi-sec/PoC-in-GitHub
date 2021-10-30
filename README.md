@@ -525,7 +525,7 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
 
 ### CVE-2021-10086
-- [Mochican/CVE-2021-10086](https://github.com/Mochican/CVE-2021-10086)
+- [0ahu/CVE-2021-10086](https://github.com/0ahu/CVE-2021-10086)
 
 ### CVE-2021-14562
 - [Jarry1sec/CVE-2021-14562](https://github.com/Jarry1sec/CVE-2021-14562)
@@ -637,7 +637,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
 - [tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300)
 - [xiaofeihahah/CVE-2021-21300](https://github.com/xiaofeihahah/CVE-2021-21300)
-- [Mochican/CVE-2021-21300](https://github.com/Mochican/CVE-2021-21300)
+- [0ahu/CVE-2021-21300](https://github.com/0ahu/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -877,6 +877,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [r0eXpeR/CVE-2021-22205](https://github.com/r0eXpeR/CVE-2021-22205)
 - [antx-code/CVE-2021-22205](https://github.com/antx-code/CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
+- [whwlsfb/CVE-2021-22205](https://github.com/whwlsfb/CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -2867,6 +2868,38 @@ The username and password field of login in Lodging Reservation Management Syste
 </code>
 
 - [Ni7inSharma/CVE-2021-41511](https://github.com/Ni7inSharma/CVE-2021-41511)
+
+### CVE-2021-41643 (2021-10-29)
+
+<code>
+Remote Code Execution (RCE) vulnerability exists in Sourcecodester Church Management System 1.0 via the image upload field.
+</code>
+
+- [hax3xploit/CVE-2021-41643](https://github.com/hax3xploit/CVE-2021-41643)
+
+### CVE-2021-41644 (2021-10-29)
+
+<code>
+Remote Code Exection (RCE) vulnerability exists in Sourcecodester Online Food Ordering System 2.0 via a maliciously crafted PHP file that bypasses the image upload filters.
+</code>
+
+- [hax3xploit/CVE-2021-41644](https://github.com/hax3xploit/CVE-2021-41644)
+
+### CVE-2021-41645 (2021-10-29)
+
+<code>
+Remote Code Execution (RCE) vulnerability exists in Sourcecodester Budget and Expense Tracker System 1.0 that allows a remote malicious user to inject arbitrary code via the image upload field. .
+</code>
+
+- [hax3xploit/CVE-2021-41645](https://github.com/hax3xploit/CVE-2021-41645)
+
+### CVE-2021-41646 (2021-10-29)
+
+<code>
+Remote Code Execution (RCE) vulnerability exists in Sourcecodester Online Reviewer System 1.0 by uploading a maliciously crafted PHP file that bypasses the image upload filters..
+</code>
+
+- [hax3xploit/CVE-2021-41646](https://github.com/hax3xploit/CVE-2021-41646)
 
 ### CVE-2021-41647 (2021-10-01)
 
@@ -19199,6 +19232,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
+- [joshmerr/goHeartBleed](https://github.com/joshmerr/goHeartBleed)
 
 ### CVE-2014-0166 (2014-04-09)
 
