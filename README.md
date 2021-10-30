@@ -553,6 +553,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 </code>
 
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
+- [oxctdev/CVE-2021-20837](https://github.com/oxctdev/CVE-2021-20837)
 
 ### CVE-2021-21014 (2021-02-11)
 
@@ -878,6 +879,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [antx-code/CVE-2021-22205](https://github.com/antx-code/CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [whwlsfb/CVE-2021-22205](https://github.com/whwlsfb/CVE-2021-22205)
+- [findneo/GitLab-preauth-RCE_CVE-2021-22205](https://github.com/findneo/GitLab-preauth-RCE_CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -1349,6 +1351,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [Flangvik/SharpProxyLogon](https://github.com/Flangvik/SharpProxyLogon)
 - [hosch3n/ProxyVulns](https://github.com/hosch3n/ProxyVulns)
 - [Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522)
+- [yaoxiaoangry3/Flangvik](https://github.com/yaoxiaoangry3/Flangvik)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -6088,7 +6091,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
 - [nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui)
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
-- [hatunaa/CVE-2020-14882](https://github.com/hatunaa/CVE-2020-14882)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 
 ### CVE-2020-14883 (2020-10-21)
@@ -10686,7 +10688,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [west-tek/CVE-2019-16113-PoC](https://github.com/west-tek/CVE-2019-16113-PoC)
-- [noroh4xy/CVE-2019-16113](https://github.com/noroh4xy/CVE-2019-16113)
+- [hamedkohi/CVE-2019-16113](https://github.com/hamedkohi/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
 
 ### CVE-2019-16278 (2019-10-14)
@@ -10889,7 +10891,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [triple-octopus/Bludit-CVE-2019-17240-Fork](https://github.com/triple-octopus/Bludit-CVE-2019-17240-Fork)
-- [noroh4xy/CVE-2019-17240](https://github.com/noroh4xy/CVE-2019-17240)
+- [hamedkohi/CVE-2019-17240](https://github.com/hamedkohi/CVE-2019-17240)
 - [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
 - [jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240)
 - [brunosgio/bloodit](https://github.com/brunosgio/bloodit)
