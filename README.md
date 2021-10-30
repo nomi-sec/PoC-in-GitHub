@@ -3270,6 +3270,7 @@ An elevation of privilege vulnerability exists in the way that the Windows Kerne
 - [RedCursorSecurityConsulting/CVE-2020-0668](https://github.com/RedCursorSecurityConsulting/CVE-2020-0668)
 - [Nan3r/CVE-2020-0668](https://github.com/Nan3r/CVE-2020-0668)
 - [ycdxsb/CVE-2020-0668](https://github.com/ycdxsb/CVE-2020-0668)
+- [bypazs/CVE-2020-0668](https://github.com/bypazs/CVE-2020-0668)
 
 ### CVE-2020-0674 (2020-02-11)
 
@@ -9296,6 +9297,7 @@ In Shanda MapleStory Online V160, the SdoKeyCrypt.sys driver allows privilege es
 </code>
 
 - [HyperSine/SdoKeyCrypt-sys-local-privilege-elevation](https://github.com/HyperSine/SdoKeyCrypt-sys-local-privilege-elevation)
+- [timeowilliamsq/HyperSine](https://github.com/timeowilliamsq/HyperSine)
 
 ### CVE-2019-9730 (2019-06-05)
 
