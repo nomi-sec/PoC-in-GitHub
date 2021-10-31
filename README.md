@@ -881,6 +881,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [whwlsfb/CVE-2021-22205](https://github.com/whwlsfb/CVE-2021-22205)
 - [findneo/GitLab-preauth-RCE_CVE-2021-22205](https://github.com/findneo/GitLab-preauth-RCE_CVE-2021-22205)
+- [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -1577,6 +1578,14 @@ The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 ha
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
 - [Crystalware/CVE-2021-27965](https://github.com/Crystalware/CVE-2021-27965)
+
+### CVE-2021-28079 (2021-04-26)
+
+<code>
+Jamovi &lt;=1.6.18 is affected by a cross-site scripting (XSS) vulnerability. The column-name is vulnerable to XSS in the ElectronJS Framework. An attacker can make a .omv (Jamovi) document containing a payload. When opened by victim, the payload is triggered.
+</code>
+
+- [g33xter/CVE-2021-28079](https://github.com/g33xter/CVE-2021-28079)
 
 ### CVE-2021-28310 (2021-04-13)
 
@@ -16312,7 +16321,6 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [ChaitanyaHaritash/CVE-2017-11882](https://github.com/ChaitanyaHaritash/CVE-2017-11882)
 - [qy1202/https-github.com-Ridter-CVE-2017-11882-](https://github.com/qy1202/https-github.com-Ridter-CVE-2017-11882-)
 - [j0lama/CVE-2017-11882](https://github.com/j0lama/CVE-2017-11882)
-- [R0fM1a/IDB_Share](https://github.com/R0fM1a/IDB_Share)
 - [chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882)
 - [littlebin404/CVE-2017-11882](https://github.com/littlebin404/CVE-2017-11882)
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
