@@ -525,7 +525,7 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
 
 ### CVE-2021-10086
-- [0ahu/CVE-2021-10086](https://github.com/0ahu/CVE-2021-10086)
+- [xiaoyun-1/CVE-2021-10086](https://github.com/xiaoyun-1/CVE-2021-10086)
 
 ### CVE-2021-14562
 - [Jarry1sec/CVE-2021-14562](https://github.com/Jarry1sec/CVE-2021-14562)
@@ -882,6 +882,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [whwlsfb/CVE-2021-22205](https://github.com/whwlsfb/CVE-2021-22205)
 - [findneo/GitLab-preauth-RCE_CVE-2021-22205](https://github.com/findneo/GitLab-preauth-RCE_CVE-2021-22205)
 - [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
+- [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -17275,14 +17276,6 @@ AppleUSBNetworking in Apple iOS before 9.3 and OS X before 10.11.4 allows physic
 
 - [Manouchehri/CVE-2016-1734](https://github.com/Manouchehri/CVE-2016-1734)
 
-### CVE-2016-1757 (2016-03-23)
-
-<code>
-Race condition in the kernel in Apple iOS before 9.3 and OS X before 10.11.4 allows attackers to execute arbitrary code in a privileged context via a crafted app.
-</code>
-
-- [gdbinit/mach_race](https://github.com/gdbinit/mach_race)
-
 ### CVE-2016-1764 (2016-03-23)
 
 <code>
@@ -17347,14 +17340,6 @@ The AES-NI implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h does 
 
 - [FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107)
 - [tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107)
-
-### CVE-2016-2118 (2016-04-12)
-
-<code>
-The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka &quot;BADLOCK.&quot;
-</code>
-
-- [nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118)
 
 ### CVE-2016-2173 (2017-04-21)
 
@@ -17476,14 +17461,6 @@ Cross-site scripting (XSS) vulnerability in ovirt-engine allows remote attackers
 </code>
 
 - [0xEmanuel/CVE-2016-3113](https://github.com/0xEmanuel/CVE-2016-3113)
-
-### CVE-2016-3141 (2016-03-31)
-
-<code>
-Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
-</code>
-
-- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
