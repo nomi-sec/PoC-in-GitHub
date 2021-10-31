@@ -554,6 +554,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
 - [oxctdev/CVE-2021-20837](https://github.com/oxctdev/CVE-2021-20837)
+- [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
 
 ### CVE-2021-21014 (2021-02-11)
 
