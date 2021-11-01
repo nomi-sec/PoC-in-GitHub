@@ -555,6 +555,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
 - [oxctdev/CVE-2021-20837](https://github.com/oxctdev/CVE-2021-20837)
 - [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
+- [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
 
 ### CVE-2021-21014 (2021-02-11)
 
@@ -1295,7 +1296,7 @@ Wazuh API in Wazuh from 4.0.0 to 4.0.3 allows authenticated users to execute arb
 
 - [WickdDavid/CVE-2021-26814](https://github.com/WickdDavid/CVE-2021-26814)
 - [CYS4srl/CVE-2021-26814](https://github.com/CYS4srl/CVE-2021-26814)
-- [IlRabbino/Internet-Security-Project---CVE-2021-26814](https://github.com/IlRabbino/Internet-Security-Project---CVE-2021-26814)
+- [paolorabbito/Internet-Security-Project---CVE-2021-26814](https://github.com/paolorabbito/Internet-Security-Project---CVE-2021-26814)
 
 ### CVE-2021-26828 (2021-06-11)
 
@@ -3076,6 +3077,15 @@ An issue was discovered in GoAhead 4.x and 5.x before 5.1.5. In the file upload 
 </code>
 
 - [kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-](https://github.com/kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-)
+
+### CVE-2021-42574 (2021-10-31)
+
+<code>
+An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers.
+</code>
+
+- [shiomiyan/CVE-2021-42574](https://github.com/shiomiyan/CVE-2021-42574)
+- [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 
 ### CVE-2021-43032
 - [SakuraSamuraii/CVE-2021-43032](https://github.com/SakuraSamuraii/CVE-2021-43032)
