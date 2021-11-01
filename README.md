@@ -879,10 +879,13 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [r0eXpeR/CVE-2021-22205](https://github.com/r0eXpeR/CVE-2021-22205)
 - [antx-code/CVE-2021-22205](https://github.com/antx-code/CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
+- [b3tterm4n/CVE-2021-22205](https://github.com/b3tterm4n/CVE-2021-22205)
 - [whwlsfb/CVE-2021-22205](https://github.com/whwlsfb/CVE-2021-22205)
 - [findneo/GitLab-preauth-RCE_CVE-2021-22205](https://github.com/findneo/GitLab-preauth-RCE_CVE-2021-22205)
 - [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
+- [AkBanner/CVE-2021-22205](https://github.com/AkBanner/CVE-2021-22205)
+- [shang159/CVE-2021-22205-getshell](https://github.com/shang159/CVE-2021-22205-getshell)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -892,6 +895,7 @@ When requests to the internal network for webhooks are enabled, a server-side re
 
 - [r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
+- [antx-code/CVE-2021-22214](https://github.com/antx-code/CVE-2021-22214)
 
 ### CVE-2021-22555 (2021-07-07)
 
@@ -1515,6 +1519,7 @@ Askey RTF8115VW BR_SV_g11.11_RTF_TEF001_V6.54_V014 devices allow injection of a 
 The module admin_ITSM in EyesOfNetwork 5.3-10 allows remote authenticated users to upload arbitrary .xml.php files because it relies on &quot;le filtre userside.&quot;
 </code>
 
+- [ArianeBlow/CVE-2021-27513-CVE-2021-27514](https://github.com/ArianeBlow/CVE-2021-27513-CVE-2021-27514)
 - [ArianeBlow/CVE-2021-27513](https://github.com/ArianeBlow/CVE-2021-27513)
 
 ### CVE-2021-27651 (2021-04-29)
