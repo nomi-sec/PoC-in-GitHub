@@ -3070,6 +3070,14 @@ Revisor Video Management System (VMS) before 2.0.0 has a directory traversal vul
 
 - [jet-pentest/CVE-2021-42261](https://github.com/jet-pentest/CVE-2021-42261)
 
+### CVE-2021-42327 (2021-10-21)
+
+<code>
+dp_link_settings_write in drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_debugfs.c in the Linux kernel through 5.14.14 allows a heap-based buffer overflow by an attacker who can write a string to the AMD GPU display drivers debug filesystem. There are no checks on size within parse_write_buffer_into_params when it uses the size of copy_from_user to copy a userspace buffer into a 40-byte heap buffer.
+</code>
+
+- [docfate111/CVE-2021-42327](https://github.com/docfate111/CVE-2021-42327)
+
 ### CVE-2021-42342 (2021-10-14)
 
 <code>
@@ -18353,7 +18361,7 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
-- [limkokhole/GHOSTCHECK-cve-2015-0235](https://github.com/limkokhole/GHOSTCHECK-cve-2015-0235)
+- [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0313 (2015-02-02)
 
@@ -18507,7 +18515,7 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS)
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
-- [limkokhole/CVE-2015-1635](https://github.com/limkokhole/CVE-2015-1635)
+- [limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635)
 - [1nf1n17yk1ng/CVE-2015-1635-POC](https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC)
 - [1nf1n17yk1ng/CVE-2015-1635](https://github.com/1nf1n17yk1ng/CVE-2015-1635)
 
@@ -20730,7 +20738,7 @@ The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 
 </code>
 
 - [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
-- [limkokhole/CVE-2011-3192](https://github.com/limkokhole/CVE-2011-3192)
+- [limkokholefork/CVE-2011-3192](https://github.com/limkokholefork/CVE-2011-3192)
 - [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
 
 ### CVE-2011-3368 (2011-10-05)
@@ -21180,7 +21188,6 @@ Directory traversal vulnerability in Apache Tomcat 4.1.0 through 4.1.37, 5.5.0 t
 The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, Server 2008, and 7 Pre-Beta allows remote attackers to execute arbitrary code via a crafted RPC request that triggers the overflow during path canonicalization, as exploited in the wild by Gimmiv.A in October 2008, aka &quot;Server Service Vulnerability.&quot;
 </code>
 
-- [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
 - [1nf1n17yk1ng/MS08_067_CVE-2008-4250](https://github.com/1nf1n17yk1ng/MS08_067_CVE-2008-4250)
 
 ### CVE-2008-4609 (2008-10-20)
@@ -21200,14 +21207,6 @@ Stack-based buffer overflow in the parse_master function in the Ty demux plugin 
 - [bongbongco/CVE-2008-4654](https://github.com/bongbongco/CVE-2008-4654)
 - [KernelErr/VLC-CVE-2008-4654-Exploit](https://github.com/KernelErr/VLC-CVE-2008-4654-Exploit)
 - [rnnsz/CVE-2008-4654](https://github.com/rnnsz/CVE-2008-4654)
-
-### CVE-2008-4687 (2008-10-22)
-
-<code>
-manage_proj_page.php in Mantis before 1.1.4 allows remote authenticated users to execute arbitrary code via a sort parameter containing PHP sequences, which are processed by create_function within the multi_sort function in core/utility_api.php.
-</code>
-
-- [nmurilo/CVE-2008-4687-exploit](https://github.com/nmurilo/CVE-2008-4687-exploit)
 
 ### CVE-2008-5416 (2008-12-10)
 
