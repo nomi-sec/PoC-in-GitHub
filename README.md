@@ -824,6 +824,14 @@ The vCenter Server contains multiple local privilege escalation vulnerabilities 
 
 - [PenteraIO/vScalation-CVE-2021-22015](https://github.com/PenteraIO/vScalation-CVE-2021-22015)
 
+### CVE-2021-22119 (2021-06-29)
+
+<code>
+Spring Security versions 5.5.x prior to 5.5.1, 5.4.x prior to 5.4.7, 5.3.x prior to 5.3.10 and 5.2.x prior to 5.2.11 are susceptible to a Denial-of-Service (DoS) attack via the initiation of the Authorization Request in an OAuth 2.0 Client Web and WebFlux application. A malicious user or attacker can send multiple requests initiating the Authorization Request for the Authorization Code Grant, which has the potential of exhausting system resources using a single session or multiple sessions.
+</code>
+
+- [mari6274/oauth-client-exploit](https://github.com/mari6274/oauth-client-exploit)
+
 ### CVE-2021-22123 (2021-06-01)
 
 <code>
@@ -3094,6 +3102,7 @@ An issue was discovered in the Bidirectional Algorithm in the Unicode Specificat
 
 - [shiomiyan/CVE-2021-42574](https://github.com/shiomiyan/CVE-2021-42574)
 - [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
+- [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 
 ### CVE-2021-43032
 - [SakuraSamuraii/CVE-2021-43032](https://github.com/SakuraSamuraii/CVE-2021-43032)
