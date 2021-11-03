@@ -1236,6 +1236,14 @@ Smarty before 3.1.39 allows a Sandbox Escape because $smarty.template_object can
 ### CVE-2021-26121
 - [sourceincite/CVE-2021-26121](https://github.com/sourceincite/CVE-2021-26121)
 
+### CVE-2021-26294 (2021-03-06)
+
+<code>
+An issue was discovered in AfterLogic Aurora through 7.7.9 and WebMail Pro through 7.7.9. They allow directory traversal to read files (such as a data/settings/settings.xml file containing admin panel credentials), as demonstrated by dav/server.php/files/personal/%2e%2e when using the caldav_public_user account (with caldav_public_user as its password).
+</code>
+
+- [dorkerdevil/CVE-2021-26294](https://github.com/dorkerdevil/CVE-2021-26294)
+
 ### CVE-2021-26295 (2021-03-22)
 
 <code>
@@ -1462,7 +1470,7 @@ The Sovremennye Delovye Tekhnologii FX Aggregator terminal client 1 allows attac
 ### CVE-2021-27190 (2021-02-11)
 
 <code>
-A Stored Cross Site Scripting(XSS) Vulnerability was discovered in PEEL SHOPPING 9.3.0 which is publicly available. The user supplied input containing polyglot payload is echoed back in javascript code in HTML response. This allows an attacker to input malicious JavaScript which can steal cookie, redirect them to other malicious website, etc.
+A Stored Cross Site Scripting(XSS) Vulnerability was discovered in PEEL SHOPPING 9.3.0 and 9.4.0, which are publicly available. The user supplied input containing polyglot payload is echoed back in javascript code in HTML response. This allows an attacker to input malicious JavaScript which can steal cookie, redirect them to other malicious website, etc.
 </code>
 
 - [anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS](https://github.com/anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS)
@@ -1677,6 +1685,14 @@ An issue was discovered in the Linux kernel through 5.11.x. kernel/bpf/verifier.
 </code>
 
 - [Kakashiiiiy/CVE-2021-29155](https://github.com/Kakashiiiiy/CVE-2021-29155)
+
+### CVE-2021-29156 (2021-03-25)
+
+<code>
+ForgeRock OpenAM before 13.5.1 allows LDAP injection via the Webfinger protocol. For example, an unauthenticated attacker can perform character-by-character retrieval of password hashes, or retrieve a session token or a private key.
+</code>
+
+- [guidepointsecurity/CVE-2021-29156](https://github.com/guidepointsecurity/CVE-2021-29156)
 
 ### CVE-2021-29200 (2021-04-27)
 
@@ -3079,6 +3095,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [TheLastVvV/CVE-2021-42013](https://github.com/TheLastVvV/CVE-2021-42013)
 - [TheLastVvV/CVE-2021-42013_Reverse-Shell](https://github.com/TheLastVvV/CVE-2021-42013_Reverse-Shell)
 - [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
+- [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
 
 ### CVE-2021-42071 (2021-10-07)
 
@@ -3133,6 +3150,12 @@ An issue was discovered in the character definitions of the Unicode Specificatio
 ### CVE-2021-43032
 - [SakuraSamuraii/CVE-2021-43032](https://github.com/SakuraSamuraii/CVE-2021-43032)
 
+### CVE-2021-43140
+- [Dir0x/CVE-2021-43140](https://github.com/Dir0x/CVE-2021-43140)
+
+### CVE-2021-43141
+- [Dir0x/CVE-2021-43141](https://github.com/Dir0x/CVE-2021-43141)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -3163,6 +3186,7 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 - [Polo35/CVE-2020-0022](https://github.com/Polo35/CVE-2020-0022)
 - [5k1l/cve-2020-0022](https://github.com/5k1l/cve-2020-0022)
 - [lsw29475/CVE-2020-0022](https://github.com/lsw29475/CVE-2020-0022)
+- [devdanqtuan/poc-for-cve-2020-0022](https://github.com/devdanqtuan/poc-for-cve-2020-0022)
 
 ### CVE-2020-0041 (2020-03-10)
 
@@ -18562,6 +18586,7 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635)
 - [1nf1n17yk1ng/CVE-2015-1635-POC](https://github.com/1nf1n17yk1ng/CVE-2015-1635-POC)
 - [1nf1n17yk1ng/CVE-2015-1635](https://github.com/1nf1n17yk1ng/CVE-2015-1635)
+- [nksf7/CVE-2015-1635](https://github.com/nksf7/CVE-2015-1635)
 
 ### CVE-2015-1641 (2015-04-14)
 
