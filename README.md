@@ -2493,7 +2493,12 @@ A reflected cross-site scripting (XSS) vulnerability exists in multiple pages in
 
 - [dievus/CVE-2021-37833](https://github.com/dievus/CVE-2021-37833)
 
-### CVE-2021-37980
+### CVE-2021-37980 (2021-11-02)
+
+<code>
+Inappropriate implementation in Sandbox in Google Chrome prior to 94.0.4606.81 allowed a remote attacker to potentially bypass site isolation via Windows.
+</code>
+
 - [ZeusBox/CVE-2021-37980](https://github.com/ZeusBox/CVE-2021-37980)
 
 ### CVE-2021-38149 (2021-08-06)
@@ -3103,6 +3108,14 @@ An issue was discovered in the Bidirectional Algorithm in the Unicode Specificat
 - [shiomiyan/CVE-2021-42574](https://github.com/shiomiyan/CVE-2021-42574)
 - [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
+
+### CVE-2021-42694 (2021-10-31)
+
+<code>
+An issue was discovered in the character definitions of the Unicode Specification through 14.0. The specification allows an adversary to produce source code identifiers such as function names using homoglyphs that render visually identical to a target identifier. Adversaries can leverage this to inject code via adversarial identifier definitions in upstream software dependencies invoked deceptively in downstream software.
+</code>
+
+- [js-on/CVE-2021-42694](https://github.com/js-on/CVE-2021-42694)
 
 ### CVE-2021-43032
 - [SakuraSamuraii/CVE-2021-43032](https://github.com/SakuraSamuraii/CVE-2021-43032)
@@ -15226,7 +15239,12 @@ Blink in Google Chrome prior to 56.0.2924.76 for Linux, Windows and Mac, and 56.
 
 - [Ang-YC/CVE-2017-5007](https://github.com/Ang-YC/CVE-2017-5007)
 
-### CVE-2017-5123
+### CVE-2017-5123 (2021-11-02)
+
+<code>
+Insufficient data validation in waitid allowed an user to escape sandboxes on Linux.
+</code>
+
 - [FloatingGuy/CVE-2017-5123](https://github.com/FloatingGuy/CVE-2017-5123)
 - [0x5068656e6f6c/CVE-2017-5123](https://github.com/0x5068656e6f6c/CVE-2017-5123)
 - [Synacktiv-contrib/exploiting-cve-2017-5123](https://github.com/Synacktiv-contrib/exploiting-cve-2017-5123)
