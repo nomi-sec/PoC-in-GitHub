@@ -2165,6 +2165,14 @@ Neo4j through 3.4.18 (with the shell server enabled) exposes an RMI service that
 
 - [zwjjustdoit/CVE-2021-34371.jar](https://github.com/zwjjustdoit/CVE-2021-34371.jar)
 
+### CVE-2021-34429 (2021-07-15)
+
+<code>
+For Eclipse Jetty versions 9.4.37-9.4.42, 10.0.1-10.0.5 &amp; 11.0.1-11.0.5, URIs can be crafted using some encoded characters to access the content of the WEB-INF directory and/or bypass some security constraints. This is a variation of the vulnerability reported in CVE-2021-28164/GHSA-v7ff-8wcx-gmc5.
+</code>
+
+- [ColdFusionX/CVE-2021-34429](https://github.com/ColdFusionX/CVE-2021-34429)
+
 ### CVE-2021-34470 (2021-07-14)
 
 <code>
@@ -2345,6 +2353,7 @@ A command injection vulnerability in the web server of some Hikvision product. D
 
 - [rabbitsafe/CVE-2021-36260](https://github.com/rabbitsafe/CVE-2021-36260)
 - [Aiminsun/CVE-2021-36260](https://github.com/Aiminsun/CVE-2021-36260)
+- [TaroballzChen/CVE-2021-36260-metasploit](https://github.com/TaroballzChen/CVE-2021-36260-metasploit)
 
 ### CVE-2021-36394
 - [dinhbaouit/CVE-2021-36394](https://github.com/dinhbaouit/CVE-2021-36394)
@@ -4037,6 +4046,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal](https://github.com/fuzzlove/Cisco-ASA-FTD-Web-Services-Traversal)
 - [faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner](https://github.com/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner)
 - [sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452)
+- [Aviksaikat/CVE-2020-3452](https://github.com/Aviksaikat/CVE-2020-3452)
 
 ### CVE-2020-3580 (2020-10-21)
 
@@ -5978,6 +5988,7 @@ Affected versions of Atlassian Jira Server and Data Center allow an unauthentica
 - [und3sc0n0c1d0/UserEnumJira](https://github.com/und3sc0n0c1d0/UserEnumJira)
 - [Rival420/CVE-2020-14181](https://github.com/Rival420/CVE-2020-14181)
 - [bk-rao/CVE-2020-14181](https://github.com/bk-rao/CVE-2020-14181)
+- [nksf7/CVE-2020-14181](https://github.com/nksf7/CVE-2020-14181)
 
 ### CVE-2020-14195 (2020-06-16)
 
@@ -12552,6 +12563,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [RyouYoo/CVE-2018-6574](https://github.com/RyouYoo/CVE-2018-6574)
 - [Devang-Solanki/CVE-2018-6574](https://github.com/Devang-Solanki/CVE-2018-6574)
 - [ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574)
+- [imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC)
 
 ### CVE-2018-6622 (2018-08-17)
 
