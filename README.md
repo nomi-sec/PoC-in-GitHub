@@ -1061,6 +1061,7 @@ The WP HTML Author Bio WordPress plugin through 1.2.0 does not sanitise the HTML
 </code>
 
 - [V35HR4J/CVE-2021-24545](https://github.com/V35HR4J/CVE-2021-24545)
+- [dnr6419/CVE-2021-24545](https://github.com/dnr6419/CVE-2021-24545)
 
 ### CVE-2021-24563 (2021-10-11)
 
@@ -3052,6 +3053,9 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mr-exo/CVE-2021-41773](https://github.com/mr-exo/CVE-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
 - [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
+
+### CVE-2021-41822
+- [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -14154,6 +14158,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
 - [NeKroFR/CVE-2018-16763](https://github.com/NeKroFR/CVE-2018-16763)
 - [k4is3r13/Bash-Script-CVE-2018-16763](https://github.com/k4is3r13/Bash-Script-CVE-2018-16763)
+- [Trushal2004/CVE-2018-16763](https://github.com/Trushal2004/CVE-2018-16763)
 
 ### CVE-2018-16843 (2018-11-07)
 
