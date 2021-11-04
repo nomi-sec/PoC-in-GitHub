@@ -876,6 +876,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
 - [PenTestical/CVE-2021-22204](https://github.com/PenTestical/CVE-2021-22204)
 - [AssassinUKG/CVE-2021-22204](https://github.com/AssassinUKG/CVE-2021-22204)
+- [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -15346,6 +15347,7 @@ wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php in the REST AP
 - [GeunSam2/CVE-2017-5487](https://github.com/GeunSam2/CVE-2017-5487)
 - [patilkr/wp-CVE-2017-5487-exploit](https://github.com/patilkr/wp-CVE-2017-5487-exploit)
 - [kr4dd/CVE-2017-5487](https://github.com/kr4dd/CVE-2017-5487)
+- [zkhalidul/GrabberWP-CVE-2017-5487](https://github.com/zkhalidul/GrabberWP-CVE-2017-5487)
 
 ### CVE-2017-5633 (2017-03-06)
 
