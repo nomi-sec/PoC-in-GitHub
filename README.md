@@ -2435,7 +2435,7 @@ A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSys
 ### CVE-2021-36799 (2021-07-19)
 
 <code>
-Hard-coded password and salt for encryption of project files in KNX Association's ETS5 (all versions up to v5.7.6) allows a local unprivileged user to access cryptographic keys of KNX devices stored in the project files via decryption with the known password &quot;ETS5Password&quot; and salt &quot;Ivan Medvedev&quot;.
+** UNSUPPORTED WHEN ASSIGNED ** KNX ETS5 through 5.7.6 uses the hard-coded password ETS5Password, with a salt value of Ivan Medvedev, allowing local users to read project information. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
 </code>
 
 - [robertguetzkow/ets5-password-recovery](https://github.com/robertguetzkow/ets5-password-recovery)
@@ -3139,6 +3139,9 @@ An issue was discovered in the Bidirectional Algorithm in the Unicode Specificat
 - [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 
+### CVE-2021-42662
+- [TheHackingRabbi/CVE-2021-42662](https://github.com/TheHackingRabbi/CVE-2021-42662)
+
 ### CVE-2021-42694 (2021-10-31)
 
 <code>
@@ -3147,13 +3150,28 @@ An issue was discovered in the character definitions of the Unicode Specificatio
 
 - [js-on/CVE-2021-42694](https://github.com/js-on/CVE-2021-42694)
 
-### CVE-2021-43032
+### CVE-2021-43032 (2021-11-03)
+
+<code>
+In XenForo through 2.2.7, a threat actor with access to the admin panel can create a new Advertisement via the Advertising function, and save an XSS payload in the body of the HTML document. This payload will execute globally on the client side.
+</code>
+
 - [SakuraSamuraii/CVE-2021-43032](https://github.com/SakuraSamuraii/CVE-2021-43032)
 
-### CVE-2021-43140
+### CVE-2021-43140 (2021-11-03)
+
+<code>
+SQL Injection vulnerability exists in Sourcecodester. Simple Subscription Website 1.0. via the login.
+</code>
+
 - [Dir0x/CVE-2021-43140](https://github.com/Dir0x/CVE-2021-43140)
 
-### CVE-2021-43141
+### CVE-2021-43141 (2021-11-03)
+
+<code>
+Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Simple Subscription Website 1.0 via the id parameter in plan_application.
+</code>
+
 - [Dir0x/CVE-2021-43141](https://github.com/Dir0x/CVE-2021-43141)
 
 
@@ -21451,6 +21469,7 @@ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function be
 
 - [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
 - [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
+- [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
 
 ### CVE-2006-3592 (2006-07-14)
 
