@@ -9270,7 +9270,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
 - [1nf1n17yk1ng/CVE-2019-9053](https://github.com/1nf1n17yk1ng/CVE-2019-9053)
-- [Trushal2004/CVE-2019-9053](https://github.com/Trushal2004/CVE-2019-9053)
+- [padsalatushal/CVE-2019-9053](https://github.com/padsalatushal/CVE-2019-9053)
 
 ### CVE-2019-9081 (2019-02-24)
 
@@ -14212,7 +14212,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
 - [NeKroFR/CVE-2018-16763](https://github.com/NeKroFR/CVE-2018-16763)
 - [k4is3r13/Bash-Script-CVE-2018-16763](https://github.com/k4is3r13/Bash-Script-CVE-2018-16763)
-- [Trushal2004/CVE-2018-16763](https://github.com/Trushal2004/CVE-2018-16763)
+- [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
 
 ### CVE-2018-16843 (2018-11-07)
 
