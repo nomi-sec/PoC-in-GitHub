@@ -895,6 +895,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
 - [AkBanner/CVE-2021-22205](https://github.com/AkBanner/CVE-2021-22205)
 - [shang159/CVE-2021-22205-getshell](https://github.com/shang159/CVE-2021-22205-getshell)
+- [devdanqtuan/CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -2874,6 +2875,7 @@ Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to RES
 </code>
 
 - [DarkSprings/CVE-2021-40539](https://github.com/DarkSprings/CVE-2021-40539)
+- [synacktiv/CVE-2021-40539](https://github.com/synacktiv/CVE-2021-40539)
 
 ### CVE-2021-40845 (2021-09-15)
 
@@ -6199,7 +6201,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [xwuyi/CVE-2020-14882](https://github.com/xwuyi/CVE-2020-14882)
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 - [adm1in/CodeTest](https://github.com/adm1in/CodeTest)
-- [securitysqs/poc](https://github.com/securitysqs/poc)
 - [ShmilySec/CVE-2020-14882](https://github.com/ShmilySec/CVE-2020-14882)
 - [pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic)
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
