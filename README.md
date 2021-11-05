@@ -2531,7 +2531,7 @@ Inappropriate implementation in Sandbox in Google Chrome prior to 94.0.4606.81 a
 - [ZeusBox/CVE-2021-37980](https://github.com/ZeusBox/CVE-2021-37980)
 
 ### CVE-2021-38001
-- [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
+- [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 
 ### CVE-2021-38149 (2021-08-06)
 
@@ -3147,8 +3147,40 @@ An issue was discovered in the Bidirectional Algorithm in the Unicode Specificat
 - [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 
-### CVE-2021-42662
+### CVE-2021-42662 (2021-11-05)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Online Event Booking and Reservation System in PHP/MySQL via the Holiday reason parameter. An attacker can leverage this vulnerability in order to run javascript commands on the web server surfers behalf, which can lead to cookie stealing and more.
+</code>
+
 - [TheHackingRabbi/CVE-2021-42662](https://github.com/TheHackingRabbi/CVE-2021-42662)
+
+### CVE-2021-42663
+- [TheHackingRabbi/CVE-2021-42663](https://github.com/TheHackingRabbi/CVE-2021-42663)
+
+### CVE-2021-42664
+- [TheHackingRabbi/CVE-2021-42664](https://github.com/TheHackingRabbi/CVE-2021-42664)
+
+### CVE-2021-42665
+- [TheHackingRabbi/CVE-2021-42665](https://github.com/TheHackingRabbi/CVE-2021-42665)
+
+### CVE-2021-42666
+- [TheHackingRabbi/CVE-2021-42666](https://github.com/TheHackingRabbi/CVE-2021-42666)
+
+### CVE-2021-42667
+- [TheHackingRabbi/CVE-2021-42667](https://github.com/TheHackingRabbi/CVE-2021-42667)
+
+### CVE-2021-42668
+- [TheHackingRabbi/CVE-2021-42668](https://github.com/TheHackingRabbi/CVE-2021-42668)
+
+### CVE-2021-42669
+- [TheHackingRabbi/CVE-2021-42669](https://github.com/TheHackingRabbi/CVE-2021-42669)
+
+### CVE-2021-42670
+- [TheHackingRabbi/CVE-2021-42670](https://github.com/TheHackingRabbi/CVE-2021-42670)
+
+### CVE-2021-42671
+- [TheHackingRabbi/CVE-2021-42671](https://github.com/TheHackingRabbi/CVE-2021-42671)
 
 ### CVE-2021-42694 (2021-10-31)
 
