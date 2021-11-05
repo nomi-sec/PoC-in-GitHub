@@ -897,6 +897,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [AkBanner/CVE-2021-22205](https://github.com/AkBanner/CVE-2021-22205)
 - [shang159/CVE-2021-22205-getshell](https://github.com/shang159/CVE-2021-22205-getshell)
 - [devdanqtuan/CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205)
+- [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -2528,6 +2529,9 @@ Inappropriate implementation in Sandbox in Google Chrome prior to 94.0.4606.81 a
 </code>
 
 - [ZeusBox/CVE-2021-37980](https://github.com/ZeusBox/CVE-2021-37980)
+
+### CVE-2021-38001
+- [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 
 ### CVE-2021-38149 (2021-08-06)
 
