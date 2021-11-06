@@ -8712,6 +8712,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [Eremiel/CVE-2019-5420](https://github.com/Eremiel/CVE-2019-5420)
 - [scumdestroy/CVE-2019-5420.rb](https://github.com/scumdestroy/CVE-2019-5420.rb)
 - [RyouYoo/CVE-2019-5420](https://github.com/RyouYoo/CVE-2019-5420)
+- [mmeza-developer/CVE-2019-5420-RCE](https://github.com/mmeza-developer/CVE-2019-5420-RCE)
 
 ### CVE-2019-5427 (2019-04-22)
 
@@ -11764,6 +11765,7 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 - [Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114)
 - [scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114)
 - [RyouYoo/CVE-2018-0114](https://github.com/RyouYoo/CVE-2018-0114)
+- [mmeza-developer/CVE-2018-0114](https://github.com/mmeza-developer/CVE-2018-0114)
 
 ### CVE-2018-0202 (2018-03-27)
 
