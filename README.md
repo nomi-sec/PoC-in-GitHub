@@ -20899,6 +20899,7 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 - [HerculesRD/vsftpd2.3.4PyExploit](https://github.com/HerculesRD/vsftpd2.3.4PyExploit)
 - [nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523)
 - [Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523)
+- [padsalatushal/CVE-2011-2523](https://github.com/padsalatushal/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
