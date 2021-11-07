@@ -3157,6 +3157,7 @@ An issue was discovered in the Bidirectional Algorithm in the Unicode Specificat
 - [shiomiyan/CVE-2021-42574](https://github.com/shiomiyan/CVE-2021-42574)
 - [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
+- [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
 
 ### CVE-2021-42662 (2021-11-05)
 
