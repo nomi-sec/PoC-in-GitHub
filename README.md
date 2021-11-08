@@ -2782,6 +2782,7 @@ An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can
 - [knqyf263/CVE-2021-40346](https://github.com/knqyf263/CVE-2021-40346)
 - [donky16/CVE-2021-40346-POC](https://github.com/donky16/CVE-2021-40346-POC)
 - [alikarimi999/CVE-2021-40346](https://github.com/alikarimi999/CVE-2021-40346)
+- [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 
 ### CVE-2021-40352 (2021-09-01)
 
@@ -4053,7 +4054,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
-- [cnsimo/CVE-2020-2551](https://github.com/cnsimo/CVE-2020-2551)
+- [cxcee/CVE-2020-2551](https://github.com/cxcee/CVE-2020-2551)
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
 
@@ -10507,14 +10508,6 @@ Access to the uninitialized variable when the driver tries to unmap the dma buff
 </code>
 
 - [parallelbeings/CVE-2019-14079](https://github.com/parallelbeings/CVE-2019-14079)
-
-### CVE-2019-14205 (2019-07-21)
-
-<code>
-A Local File Inclusion vulnerability in the Nevma Adaptive Images plugin before 0.6.67 for WordPress allows remote attackers to retrieve arbitrary files via the $REQUEST['adaptive-images-settings']['source_file'] parameter in adaptive-images-script.php.
-</code>
-
-- [security-kma/EXPLOITING-CVE-2019-14205](https://github.com/security-kma/EXPLOITING-CVE-2019-14205)
 
 ### CVE-2019-14220 (2019-09-24)
 
