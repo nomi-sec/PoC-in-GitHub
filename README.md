@@ -2533,7 +2533,12 @@ A reflected cross-site scripting (XSS) vulnerability exists in multiple pages in
 
 - [dievus/CVE-2021-37833](https://github.com/dievus/CVE-2021-37833)
 
-### CVE-2021-37850
+### CVE-2021-37850 (2021-11-08)
+
+<code>
+ESET was made aware of a vulnerability in its consumer and business products for macOS that enables a user logged on to the system to stop the ESET daemon, effectively disabling the protection of the ESET security product until a system reboot.
+</code>
+
 - [p1atdev/CVE-2021-37850](https://github.com/p1atdev/CVE-2021-37850)
 
 ### CVE-2021-37980 (2021-11-02)
@@ -3275,6 +3280,9 @@ Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Simple Subscri
 </code>
 
 - [Dir0x/CVE-2021-43141](https://github.com/Dir0x/CVE-2021-43141)
+
+### CVE-2021-43361
+- [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
 
 
 ## 2020
@@ -4054,7 +4062,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
-- [cxcee/CVE-2020-2551](https://github.com/cxcee/CVE-2020-2551)
+- [0xlane/CVE-2020-2551](https://github.com/0xlane/CVE-2020-2551)
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
 
@@ -13407,7 +13415,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC)
 - [yatcode/HTC](https://github.com/yatcode/HTC)
 - [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
-- [HACKGM/CVE-2018-9995](https://github.com/HACKGM/CVE-2018-9995)
+- [Saeed22487/CVE-2018-9995](https://github.com/Saeed22487/CVE-2018-9995)
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
 
 ### CVE-2018-10118 (2018-04-15)
