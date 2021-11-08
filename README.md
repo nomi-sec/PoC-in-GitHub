@@ -2533,6 +2533,9 @@ A reflected cross-site scripting (XSS) vulnerability exists in multiple pages in
 
 - [dievus/CVE-2021-37833](https://github.com/dievus/CVE-2021-37833)
 
+### CVE-2021-37850
+- [p1atdev/CVE-2021-37850](https://github.com/p1atdev/CVE-2021-37850)
+
 ### CVE-2021-37980 (2021-11-02)
 
 <code>
