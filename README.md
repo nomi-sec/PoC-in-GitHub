@@ -2451,6 +2451,14 @@ A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSys
 
 - [robertguetzkow/ets5-password-recovery](https://github.com/robertguetzkow/ets5-password-recovery)
 
+### CVE-2021-36808 (2021-10-30)
+
+<code>
+A local attacker could bypass the app password using a race condition in Sophos Secure Workspace for Android before version 9.7.3115.
+</code>
+
+- [ctuIhu/CVE-2021-36808](https://github.com/ctuIhu/CVE-2021-36808)
+
 ### CVE-2021-36934 (2021-07-22)
 
 <code>
@@ -2862,6 +2870,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
 - [TiagoSergio/CVE-2021-40444](https://github.com/TiagoSergio/CVE-2021-40444)
 - [0xK4gura/CVE-2021-40444-POC](https://github.com/0xK4gura/CVE-2021-40444-POC)
+- [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
 
 ### CVE-2021-40449 (2021-10-12)
 
