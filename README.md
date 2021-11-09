@@ -1882,6 +1882,14 @@ Apache HTTP Server versions 2.4.39 to 2.4.46 Unexpected matching behavior with '
 
 - [fkm75P8YjLkb/CVE-2021-30641](https://github.com/fkm75P8YjLkb/CVE-2021-30641)
 
+### CVE-2021-30657 (2021-09-08)
+
+<code>
+A logic issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.3, Security Update 2021-002 Catalina. A malicious application may bypass Gatekeeper checks. Apple is aware of a report that this issue may have been actively exploited..
+</code>
+
+- [shubham0d/CVE-2021-30657](https://github.com/shubham0d/CVE-2021-30657)
+
 ### CVE-2021-30858 (2021-08-24)
 
 <code>
@@ -13798,6 +13806,7 @@ JBoss RichFaces 3.1.0 through 3.3.4 allows unauthenticated remote attackers to i
 </code>
 
 - [TheKalin/CVE-2018-12533](https://github.com/TheKalin/CVE-2018-12533)
+- [Pastea/CVE-2018-12533](https://github.com/Pastea/CVE-2018-12533)
 
 ### CVE-2018-12537 (2018-08-14)
 
@@ -20299,6 +20308,14 @@ The perf_swevent_init function in kernel/events/core.c in the Linux kernel befor
 - [tarunyadav/fix-cve-2013-2094](https://github.com/tarunyadav/fix-cve-2013-2094)
 - [timhsutw/cve-2013-2094](https://github.com/timhsutw/cve-2013-2094)
 - [vnik5287/CVE-2013-2094](https://github.com/vnik5287/CVE-2013-2094)
+
+### CVE-2013-2165 (2013-07-22)
+
+<code>
+ResourceBuilderImpl.java in the RichFaces 3.x through 5.x implementation in Red Hat JBoss Web Framework Kit before 2.3.0, Red Hat JBoss Web Platform through 5.2.0, Red Hat JBoss Enterprise Application Platform through 4.3.0 CP10 and 5.x through 5.2.0, Red Hat JBoss BRMS through 5.3.1, Red Hat JBoss SOA Platform through 4.3.0 CP05 and 5.x through 5.3.1, Red Hat JBoss Portal through 4.3 CP07 and 5.x through 5.2.2, and Red Hat JBoss Operations Network through 2.4.2 and 3.x through 3.1.2 does not restrict the classes for which deserialization methods can be called, which allows remote attackers to execute arbitrary code via crafted serialized data.
+</code>
+
+- [Pastea/CVE-2013-2165](https://github.com/Pastea/CVE-2013-2165)
 
 ### CVE-2013-2186 (2013-10-28)
 
