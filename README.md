@@ -525,6 +525,9 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 ### CVE-2021-6901
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
 
+### CVE-2021-9876
+- [RichardKabuto/CVE-2021-9876](https://github.com/RichardKabuto/CVE-2021-9876)
+
 ### CVE-2021-10086
 - [xiaoyun-1/CVE-2021-10086](https://github.com/xiaoyun-1/CVE-2021-10086)
 
@@ -891,7 +894,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
 - [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
-- [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -1880,6 +1882,14 @@ A logic issue was addressed with improved state management. This issue is fixed 
 </code>
 
 - [shubham0d/CVE-2021-30657](https://github.com/shubham0d/CVE-2021-30657)
+
+### CVE-2021-30682 (2021-09-08)
+
+<code>
+A logic issue was addressed with improved restrictions. This issue is fixed in tvOS 14.6, iOS 14.6 and iPadOS 14.6, Safari 14.1.1, macOS Big Sur 11.4, watchOS 7.5. A malicious application may be able to leak sensitive user information.
+</code>
+
+- [threatnix/csp-playground](https://github.com/threatnix/csp-playground)
 
 ### CVE-2021-30858 (2021-08-24)
 
@@ -3154,13 +3164,23 @@ An issue was discovered in GoAhead 4.x and 5.x before 5.1.5. In the file upload 
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
 
-### CVE-2021-42662
+### CVE-2021-42662 (2021-11-05)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Online Event Booking and Reservation System in PHP/MySQL via the Holiday reason parameter. An attacker can leverage this vulnerability in order to run javascript commands on the web server surfers behalf, which can lead to cookie stealing and more.
+</code>
+
 - [TheHackingRabbi/CVE-2021-42662](https://github.com/TheHackingRabbi/CVE-2021-42662)
 
 ### CVE-2021-42663
 - [TheHackingRabbi/CVE-2021-42663](https://github.com/TheHackingRabbi/CVE-2021-42663)
 
-### CVE-2021-42664
+### CVE-2021-42664 (2021-11-05)
+
+<code>
+A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engineers Online Portal in PHP via the (1) Quiz title and (2) quiz description parameters to add_quiz.php. An attacker can leverage this vulnerability in order to run javascript commands on the web server surfers behalf, which can lead to cookie stealing and more.
+</code>
+
 - [TheHackingRabbi/CVE-2021-42664](https://github.com/TheHackingRabbi/CVE-2021-42664)
 
 ### CVE-2021-42665
@@ -3201,6 +3221,9 @@ An issue was discovered in GoAhead 4.x and 5.x before 5.1.5. In the file upload 
 
 ### CVE-2021-43361
 - [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
+
+### CVE-2021-99999
+- [RichardKabuto/CVE-2021-99999](https://github.com/RichardKabuto/CVE-2021-99999)
 
 
 ## 2020
