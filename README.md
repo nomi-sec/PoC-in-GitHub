@@ -788,6 +788,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [testanull/Project_CVE-2021-21985_PoC](https://github.com/testanull/Project_CVE-2021-21985_PoC)
 - [haiclover/CVE-2021-21985](https://github.com/haiclover/CVE-2021-21985)
 - [aristosMiliaressis/CVE-2021-21985](https://github.com/aristosMiliaressis/CVE-2021-21985)
+- [sknux/CVE-2021-21985_PoC](https://github.com/sknux/CVE-2021-21985_PoC)
 
 ### CVE-2021-22005 (2021-09-23)
 
@@ -890,6 +891,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
 - [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
+- [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
 
 ### CVE-2021-22214 (2021-06-08)
 
