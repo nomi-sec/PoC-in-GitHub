@@ -495,7 +495,12 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
 
-### CVE-2021-3572
+### CVE-2021-3572 (-)
+
+<code>
+A flaw was found in python-pip in the way it handled Unicode separators in git references. A remote attacker could possibly use this issue to install a different revision on a repository. The highest threat from this vulnerability is to data integrity. This is fixed in python-pip version 21.1.
+</code>
+
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
 
 ### CVE-2021-3625 (2021-10-05)
@@ -524,9 +529,6 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 
 ### CVE-2021-6901
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
-
-### CVE-2021-9876
-- [RichardKabuto/CVE-2021-9876](https://github.com/RichardKabuto/CVE-2021-9876)
 
 ### CVE-2021-10086
 - [xiaoyun-1/CVE-2021-10086](https://github.com/xiaoyun-1/CVE-2021-10086)
@@ -894,6 +896,8 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
 - [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
+- [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
+- [ahmad4fifz/docker-cve-2021-22205](https://github.com/ahmad4fifz/docker-cve-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -3142,6 +3146,14 @@ Revisor Video Management System (VMS) before 2.0.0 has a directory traversal vul
 
 - [jet-pentest/CVE-2021-42261](https://github.com/jet-pentest/CVE-2021-42261)
 
+### CVE-2021-42292 (2021-11-09)
+
+<code>
+Microsoft Excel Security Feature Bypass Vulnerability
+</code>
+
+- [corelight/CVE-2021-42292](https://github.com/corelight/CVE-2021-42292)
+
 ### CVE-2021-42327 (2021-10-21)
 
 <code>
@@ -3221,9 +3233,6 @@ A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engi
 
 ### CVE-2021-43361
 - [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
-
-### CVE-2021-99999
-- [RichardKabuto/CVE-2021-99999](https://github.com/RichardKabuto/CVE-2021-99999)
 
 
 ## 2020
