@@ -898,6 +898,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
 - [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
 - [ahmad4fifz/docker-cve-2021-22205](https://github.com/ahmad4fifz/docker-cve-2021-22205)
+- [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -3173,7 +3174,12 @@ An issue was discovered in GoAhead 4.x and 5.x before 5.1.5. In the file upload 
 
 - [kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-](https://github.com/kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-)
 
-### CVE-2021-42574
+### CVE-2021-42574 (2021-10-31)
+
+<code>
+An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers.
+</code>
+
 - [shiomiyan/CVE-2021-42574](https://github.com/shiomiyan/CVE-2021-42574)
 - [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
@@ -3236,6 +3242,9 @@ A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engi
 
 ### CVE-2021-43361
 - [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
+
+### CVE-2021-65334
+- [RichardKabuto/CVE-2021-65334](https://github.com/RichardKabuto/CVE-2021-65334)
 
 
 ## 2020
