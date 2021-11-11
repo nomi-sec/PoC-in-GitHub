@@ -495,7 +495,7 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
 
-### CVE-2021-3572 (-)
+### CVE-2021-3572 (2021-11-10)
 
 <code>
 A flaw was found in python-pip in the way it handled Unicode separators in git references. A remote attacker could possibly use this issue to install a different revision on a repository. The highest threat from this vulnerability is to data integrity. This is fixed in python-pip version 21.1.
@@ -2768,6 +2768,9 @@ A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive 
 ### CVE-2021-39512
 - [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
 
+### CVE-2021-40101
+- [S1lkys/CVE-2021-40101](https://github.com/S1lkys/CVE-2021-40101)
+
 ### CVE-2021-40222 (2021-09-09)
 
 <code>
@@ -4961,7 +4964,7 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 
 - [Prabhashaka/IT19147192-CVE-2020-8835](https://github.com/Prabhashaka/IT19147192-CVE-2020-8835)
 - [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
-- [ret2hell/CVE-2020-8835](https://github.com/ret2hell/CVE-2020-8835)
+- [zilong3033/CVE-2020-8835](https://github.com/zilong3033/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
 - [digamma-ai/CVE-2020-8835-verification](https://github.com/digamma-ai/CVE-2020-8835-verification)
 
