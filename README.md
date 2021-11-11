@@ -3243,8 +3243,8 @@ A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engi
 ### CVE-2021-43361
 - [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
 
-### CVE-2021-65334
-- [RichardKabuto/CVE-2021-65334](https://github.com/RichardKabuto/CVE-2021-65334)
+### CVE-2021-111199
+- [RichardKabuto/CVE-2021-111199](https://github.com/RichardKabuto/CVE-2021-111199)
 
 
 ## 2020
