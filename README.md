@@ -2838,6 +2838,7 @@ A crafted request uri-path can cause mod_proxy to forward the request to an orig
 - [xiaojiangxl/CVE-2021-40438](https://github.com/xiaojiangxl/CVE-2021-40438)
 - [sixpacksecurity/CVE-2021-40438](https://github.com/sixpacksecurity/CVE-2021-40438)
 - [BabyTeam1024/CVE-2021-40438](https://github.com/BabyTeam1024/CVE-2021-40438)
+- [ericmann/apache-cve-poc](https://github.com/ericmann/apache-cve-poc)
 
 ### CVE-2021-40444 (2021-09-15)
 
