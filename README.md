@@ -2648,6 +2648,14 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
 - [fr34kyy/omigod](https://github.com/fr34kyy/omigod)
 
+### CVE-2021-38666 (2021-11-09)
+
+<code>
+Remote Desktop Client Remote Code Execution Vulnerability
+</code>
+
+- [DarkSprings/CVE-2021-38666-poc](https://github.com/DarkSprings/CVE-2021-38666-poc)
+
 ### CVE-2021-38699 (2021-08-15)
 
 <code>
@@ -19416,7 +19424,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
-- [joshmerr/goHeartBleed](https://github.com/joshmerr/goHeartBleed)
+- [stackviolator/goHeartBleed](https://github.com/stackviolator/goHeartBleed)
 
 ### CVE-2014-0166 (2014-04-09)
 
