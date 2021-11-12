@@ -2896,6 +2896,7 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 - [KaLendsi/CVE-2021-40449-Exploit](https://github.com/KaLendsi/CVE-2021-40449-Exploit)
 - [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
+- [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
 
 ### CVE-2021-40492 (2021-09-03)
 
