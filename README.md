@@ -11224,6 +11224,7 @@ An issue was discovered on Xiaomi Mi WiFi R3G devices before 2.28.23-stable. The
 </code>
 
 - [UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC](https://github.com/UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC)
+- [AjayMT6/UltramanGaia](https://github.com/AjayMT6/UltramanGaia)
 
 ### CVE-2019-18426 (2020-01-21)
 
