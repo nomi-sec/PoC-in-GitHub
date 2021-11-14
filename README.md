@@ -6814,6 +6814,7 @@ ForLogic Qualiex v1 and v3 allows any authenticated customer to achieve privileg
 </code>
 
 - [underprotection/CVE-2020-24028](https://github.com/underprotection/CVE-2020-24028)
+- [redteambrasil/CVE-2020-24028](https://github.com/redteambrasil/CVE-2020-24028)
 
 ### CVE-2020-24029 (2020-09-02)
 
@@ -6822,6 +6823,7 @@ Because of unauthenticated password changes in ForLogic Qualiex v1 and v3, custo
 </code>
 
 - [underprotection/CVE-2020-24029](https://github.com/underprotection/CVE-2020-24029)
+- [redteambrasil/CVE-2020-24029](https://github.com/redteambrasil/CVE-2020-24029)
 
 ### CVE-2020-24030 (2020-09-02)
 
@@ -6830,6 +6832,7 @@ ForLogic Qualiex v1 and v3 has weak token expiration. This allows remote unauthe
 </code>
 
 - [underprotection/CVE-2020-24030](https://github.com/underprotection/CVE-2020-24030)
+- [redteambrasil/CVE-2020-24030](https://github.com/redteambrasil/CVE-2020-24030)
 
 ### CVE-2020-24032 (2020-08-18)
 
@@ -11430,6 +11433,7 @@ Remote Authentication Bypass in Senior Rubiweb 6.2.34.28 and 6.2.34.37 allows ad
 </code>
 
 - [underprotection/CVE-2019-19550](https://github.com/underprotection/CVE-2019-19550)
+- [redteambrasil/CVE-2019-19550](https://github.com/redteambrasil/CVE-2019-19550)
 
 ### CVE-2019-19576 (2019-12-04)
 
@@ -21549,6 +21553,7 @@ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function be
 - [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
 - [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
 - [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
+- [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
 
 ### CVE-2006-3592 (2006-07-14)
 
