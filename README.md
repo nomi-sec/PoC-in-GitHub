@@ -2961,6 +2961,14 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 ### CVE-2021-41074
 - [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
 
+### CVE-2021-41351 (2021-11-09)
+
+<code>
+Microsoft Edge (Chrome based) Spoofing on IE Mode
+</code>
+
+- [JaneMandy/CVE-2021-41351-POC](https://github.com/JaneMandy/CVE-2021-41351-POC)
+
 ### CVE-2021-41381 (2021-09-23)
 
 <code>
@@ -3144,6 +3152,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [TheLastVvV/CVE-2021-42013_Reverse-Shell](https://github.com/TheLastVvV/CVE-2021-42013_Reverse-Shell)
 - [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
 - [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
+- [simon242/CVE-2021-42013](https://github.com/simon242/CVE-2021-42013)
 
 ### CVE-2021-42071 (2021-10-07)
 
