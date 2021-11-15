@@ -3277,6 +3277,14 @@ A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engi
 ### CVE-2021-43361
 - [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
 
+### CVE-2021-43616 (2021-11-13)
+
+<code>
+The npm ci command in npm 7.x and 8.x through 8.1.3 proceeds with an installation even if dependency information in package-lock.json differs from package.json. This behavior is inconsistent with the documentation, and makes it easier for attackers to install malware that was supposed to have been blocked by an exact version match requirement in package-lock.json.
+</code>
+
+- [icatalina/CVE-2021-43616](https://github.com/icatalina/CVE-2021-43616)
+
 ### CVE-2021-111199
 - [RichardKabuto/CVE-2021-111199](https://github.com/RichardKabuto/CVE-2021-111199)
 
