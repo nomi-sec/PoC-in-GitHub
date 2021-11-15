@@ -3165,7 +3165,6 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [TheLastVvV/CVE-2021-42013_Reverse-Shell](https://github.com/TheLastVvV/CVE-2021-42013_Reverse-Shell)
 - [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
 - [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
-- [simon242/CVE-2021-42013](https://github.com/simon242/CVE-2021-42013)
 - [xMohamed0/CVE-2021-42013-ApacheRCE](https://github.com/xMohamed0/CVE-2021-42013-ApacheRCE)
 
 ### CVE-2021-42071 (2021-10-07)
@@ -4106,14 +4105,6 @@ Vulnerability in the Java SE product of Oracle Java SE (component: JSSE). Suppor
 </code>
 
 - [RUB-NDS/CVE-2020-2655-DemoServer](https://github.com/RUB-NDS/CVE-2020-2655-DemoServer)
-
-### CVE-2020-2853 (2020-04-15)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Security: Privileges). Supported versions that are affected are 8.0.18 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [intrigueio/cve-2020-2853-poc](https://github.com/intrigueio/cve-2020-2853-poc)
 
 ### CVE-2020-2883 (2020-04-15)
 
@@ -7554,6 +7545,14 @@ In Progress MOVEit Transfer before 2020.1, a malicious user could craft and stor
 
 - [SECFORCE/Progress-MOVEit-Transfer-2020.1-Stored-XSS-CVE-2020-28647](https://github.com/SECFORCE/Progress-MOVEit-Transfer-2020.1-Stored-XSS-CVE-2020-28647)
 
+### CVE-2020-28653 (2021-02-03)
+
+<code>
+Zoho ManageEngine OpManager Stable build before 125203 (and Released build before 125233) allows Remote Code Execution via the Smart Update Manager (SUM) servlet.
+</code>
+
+- [intrigueio/cve-2020-28653-poc](https://github.com/intrigueio/cve-2020-28653-poc)
+
 ### CVE-2020-28874 (2021-01-21)
 
 <code>
@@ -10826,6 +10825,9 @@ The rest-client gem 1.6.10 through 1.6.13 for Ruby, as distributed on RubyGems.o
 </code>
 
 - [chef-cft/inspec_cve_2019_15224](https://github.com/chef-cft/inspec_cve_2019_15224)
+
+### CVE-2019-15231
+- [SlizBinksman/THM-Source-CVE-2019-15231](https://github.com/SlizBinksman/THM-Source-CVE-2019-15231)
 
 ### CVE-2019-15233 (2019-08-20)
 
