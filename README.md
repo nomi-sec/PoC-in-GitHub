@@ -1084,6 +1084,9 @@ The Support Board WordPress plugin before 3.3.4 does not escape multiple POST pa
 
 - [itsjeffersonli/CVE-2021-24741](https://github.com/itsjeffersonli/CVE-2021-24741)
 
+### CVE-2021-24807
+- [itsjeffersonli/CVE-2021-24807](https://github.com/itsjeffersonli/CVE-2021-24807)
+
 ### CVE-2021-24884 (2021-10-25)
 
 <code>
@@ -6558,7 +6561,12 @@ An Ubuntu-specific modification to AccountsService in versions before 0.6.55-0ub
 
 - [zev3n/Ubuntu-Gnome-privilege-escalation](https://github.com/zev3n/Ubuntu-Gnome-privilege-escalation)
 
-### CVE-2020-16152
+### CVE-2020-16152 (2021-11-14)
+
+<code>
+The NetConfig UI administrative interface in Extreme Networks ExtremeWireless Aerohive HiveOS and IQ Engine through 10.0r8a allows attackers to execute PHP code as the root user via remote HTTP requests that insert this code into a log file and then traverse to that file.
+</code>
+
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 
 ### CVE-2020-16270 (2020-10-16)
