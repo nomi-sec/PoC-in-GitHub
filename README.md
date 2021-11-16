@@ -3252,7 +3252,12 @@ A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engi
 ### CVE-2021-42669
 - [TheHackingRabbi/CVE-2021-42669](https://github.com/TheHackingRabbi/CVE-2021-42669)
 
-### CVE-2021-42670
+### CVE-2021-42670 (2021-11-05)
+
+<code>
+A SQL injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the id parameter to the announcements_student.php web page. As a result a malicious user can extract sensitive data from the web server and in some cases use this vulnerability in order to get a remote code execution on the remote web server.
+</code>
+
 - [TheHackingRabbi/CVE-2021-42670](https://github.com/TheHackingRabbi/CVE-2021-42670)
 
 ### CVE-2021-42671
@@ -3278,7 +3283,12 @@ SQL Injection vulnerability exists in Sourcecodester. Simple Subscription Websit
 ### CVE-2021-43267
 - [DarkSprings/CVE-2021-43267-POC](https://github.com/DarkSprings/CVE-2021-43267-POC)
 
-### CVE-2021-43361
+### CVE-2021-43361 (-)
+
+<code>
+Due to improper sanitization MedData HBYS software suffers from a remote SQL injection vulnerability. An unauthenticated attacker with the web access is able to extract critical information from the system.\n
+</code>
+
 - [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
 
 ### CVE-2021-43616 (2021-11-13)
@@ -21041,6 +21051,14 @@ mpack 1.6 has information disclosure via eavesdropping on mails sent by other us
 </code>
 
 - [hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper)
+
+### CVE-2011-5331 (2019-11-18)
+
+<code>
+Distributed Ruby (aka DRuby) 1.8 mishandles instance_eval.
+</code>
+
+- [tomquinn8/CVE-2011-5331](https://github.com/tomquinn8/CVE-2011-5331)
 
 
 ## 2010
