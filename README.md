@@ -3264,7 +3264,12 @@ A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engi
 ### CVE-2021-43032
 - [SakuraSamuraii/CVE-2021-43032](https://github.com/SakuraSamuraii/CVE-2021-43032)
 
-### CVE-2021-43140
+### CVE-2021-43140 (2021-11-03)
+
+<code>
+SQL Injection vulnerability exists in Sourcecodester. Simple Subscription Website 1.0. via the login.
+</code>
+
 - [Dir0x/CVE-2021-43140](https://github.com/Dir0x/CVE-2021-43140)
 
 ### CVE-2021-43141
