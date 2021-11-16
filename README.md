@@ -3573,6 +3573,7 @@ An elevation of privilege vulnerability exists when the Windows Background Intel
 - [cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION](https://github.com/cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION)
 - [MasterSploit/CVE-2020-0787](https://github.com/MasterSploit/CVE-2020-0787)
 - [MasterSploit/CVE-2020-0787-BitsArbitraryFileMove-master](https://github.com/MasterSploit/CVE-2020-0787-BitsArbitraryFileMove-master)
+- [yanghaoi/CVE-2020-0787](https://github.com/yanghaoi/CVE-2020-0787)
 
 ### CVE-2020-0796 (2020-03-12)
 
@@ -14744,6 +14745,14 @@ An issue was discovered in NoneCms V1.3. thinkphp/library/think/App.php allows r
 </code>
 
 - [NS-Sp4ce/thinkphp5.XRce](https://github.com/NS-Sp4ce/thinkphp5.XRce)
+
+### CVE-2018-20148 (2018-12-14)
+
+<code>
+In WordPress before 4.9.9 and 5.x before 5.0.1, contributors could conduct PHP object injection attacks via crafted metadata in a wp.getMediaItem XMLRPC call. This is caused by mishandling of serialized data at phar:// URLs in the wp_get_attachment_thumb_file function in wp-includes/post.php.
+</code>
+
+- [nth347/CVE-2018-20148_exploit](https://github.com/nth347/CVE-2018-20148_exploit)
 
 ### CVE-2018-20162 (2019-03-17)
 
