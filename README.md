@@ -7677,6 +7677,14 @@ Cross Site Scripting (XSS) vulnerability in Digisol DG-HR3400 can be exploited v
 
 - [the-girl-who-lived/CVE-2020-35262](https://github.com/the-girl-who-lived/CVE-2020-35262)
 
+### CVE-2020-35314 (2021-04-20)
+
+<code>
+A remote code execution vulnerability in the installUpdateThemePluginAction function in index.php in WonderCMS 3.1.3, allows remote attackers to upload a custom plugin which can contain arbitrary code and obtain a webshell via the theme/plugin installer.
+</code>
+
+- [ybdegit2020/wonderplugin](https://github.com/ybdegit2020/wonderplugin)
+
 ### CVE-2020-35488 (2021-01-05)
 
 <code>
