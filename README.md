@@ -2527,6 +2527,14 @@ Multiple XSS issues exist in Sonatype Nexus Repository Manager 3 before 3.33.0. 
 
 - [SecurityAnalysts/CVE-2021-37152](https://github.com/SecurityAnalysts/CVE-2021-37152)
 
+### CVE-2021-37580 (2021-11-16)
+
+<code>
+A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdminBootstrap allows an attacker to bypass authentication. This issue affected Apache ShenYu 2.3.0 and 2.4.0
+</code>
+
+- [rabbitsafe/CVE-2021-37580](https://github.com/rabbitsafe/CVE-2021-37580)
+
 ### CVE-2021-37589
 - [lucaregne/CVE-2021-37589](https://github.com/lucaregne/CVE-2021-37589)
 
@@ -7467,6 +7475,14 @@ Exim 4 before 4.94.2 allows Use After Free in smtp_reset in certain situations t
 
 - [dorkerdevil/CVE-2020-28018](https://github.com/dorkerdevil/CVE-2020-28018)
 - [zr0tt/CVE-2020-28018](https://github.com/zr0tt/CVE-2020-28018)
+
+### CVE-2020-28032 (2020-10-30)
+
+<code>
+WordPress before 5.5.2 mishandles deserialization requests in wp-includes/Requests/Utility/FilteredIterator.php.
+</code>
+
+- [nth347/CVE-2020-28032_PoC](https://github.com/nth347/CVE-2020-28032_PoC)
 
 ### CVE-2020-28052 (2020-12-17)
 
