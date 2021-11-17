@@ -2534,6 +2534,7 @@ A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdmin
 </code>
 
 - [rabbitsafe/CVE-2021-37580](https://github.com/rabbitsafe/CVE-2021-37580)
+- [fengwenhua/CVE-2021-37580](https://github.com/fengwenhua/CVE-2021-37580)
 
 ### CVE-2021-37589
 - [lucaregne/CVE-2021-37589](https://github.com/lucaregne/CVE-2021-37589)
@@ -3248,7 +3249,12 @@ A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engi
 ### CVE-2021-42665
 - [TheHackingRabbi/CVE-2021-42665](https://github.com/TheHackingRabbi/CVE-2021-42665)
 
-### CVE-2021-42666
+### CVE-2021-42666 (2021-11-05)
+
+<code>
+A SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the id parameter to quiz_question.php, which could let a malicious user extract sensitive data from the web server and in some cases use this vulnerability in order to get a remote code execution on the remote web server.
+</code>
+
 - [TheHackingRabbi/CVE-2021-42666](https://github.com/TheHackingRabbi/CVE-2021-42666)
 
 ### CVE-2021-42667
@@ -4723,6 +4729,14 @@ This affects the package express-fileupload before 1.1.8. If the parseNested opt
 </code>
 
 - [hemaoqi-Tom/CVE-2020-7699_reproduce](https://github.com/hemaoqi-Tom/CVE-2020-7699_reproduce)
+
+### CVE-2020-7740 (2020-10-06)
+
+<code>
+This affects all versions of package node-pdf-generator. Due to lack of user input validation and sanitization done to the content given to node-pdf-generator, it is possible for an attacker to craft a url that will be passed to an external server allowing an SSRF attack.
+</code>
+
+- [CS4239-U6/node-pdf-generator-ssrf](https://github.com/CS4239-U6/node-pdf-generator-ssrf)
 
 ### CVE-2020-7799 (2020-01-28)
 
@@ -10096,23 +10110,6 @@ An issue was discovered in Zoho ManageEngine ServiceDesk Plus 9.3. There is XSS 
 </code>
 
 - [falconz/CVE-2019-12189](https://github.com/falconz/CVE-2019-12189)
-- [tuyenhva/CVE-2019-12189](https://github.com/tuyenhva/CVE-2019-12189)
-
-### CVE-2019-12190 (2019-05-21)
-
-<code>
-XSS was discovered in CentOS-WebPanel.com (aka CWP) CentOS Web Panel through 0.9.8.747 via the testacc/fileManager2.php fm_current_dir or filename parameter.
-</code>
-
-- [tuyenhva/CVE-2019-12190](https://github.com/tuyenhva/CVE-2019-12190)
-
-### CVE-2019-12252 (2019-05-21)
-
-<code>
-In Zoho ManageEngine ServiceDesk Plus through 10.5, users with the lowest privileges (guest) can view an arbitrary post by appending its number to the SDNotify.do?notifyModule=Solution&amp;mode=E-Mail&amp;notifyTo=SOLFORWARD&amp;id= substring.
-</code>
-
-- [tuyenhva/CVE-2019-12252](https://github.com/tuyenhva/CVE-2019-12252)
 
 ### CVE-2019-12255 (2019-08-09)
 
@@ -14720,6 +14717,7 @@ GitLab CE/EE, versions 8.18 up to 11.x before 11.3.11, 11.4 before 11.4.8, and 1
 
 - [xenophil90/edb-49263-fixed](https://github.com/xenophil90/edb-49263-fixed)
 - [Algafix/gitlab-RCE-11.4.7](https://github.com/Algafix/gitlab-RCE-11.4.7)
+- [CS4239-U6/gitlab-ssrf](https://github.com/CS4239-U6/gitlab-ssrf)
 
 ### CVE-2018-19592 (2019-09-27)
 
