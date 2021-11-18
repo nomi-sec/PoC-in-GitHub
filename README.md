@@ -9075,7 +9075,7 @@ A memory corruption issue was addressed with improved validation. This issue is 
 An issue was discovered in HuCart v5.7.4. There is a CSRF vulnerability that can add an admin account via /adminsys/index.php?load=admins&amp;act=edit_info&amp;act_type=add.
 </code>
 
-- [NMTech0x90/CVE-2019-6249_Hucart-cms](https://github.com/NMTech0x90/CVE-2019-6249_Hucart-cms)
+- [AlphabugX/CVE-2019-6249_Hucart-cms](https://github.com/AlphabugX/CVE-2019-6249_Hucart-cms)
 
 ### CVE-2019-6260 (2019-01-22)
 
