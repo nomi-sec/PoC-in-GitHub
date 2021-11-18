@@ -20473,6 +20473,14 @@ ResourceBuilderImpl.java in the RichFaces 3.x through 5.x implementation in Red 
 
 - [Pastea/CVE-2013-2165](https://github.com/Pastea/CVE-2013-2165)
 
+### CVE-2013-2171 (2013-07-01)
+
+<code>
+The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
+</code>
+
+- [Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation](https://github.com/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation)
+
 ### CVE-2013-2186 (2013-10-28)
 
 <code>
