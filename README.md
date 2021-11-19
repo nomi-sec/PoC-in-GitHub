@@ -12997,6 +12997,7 @@ A Local File Inclusion vulnerability in the Site Editor plugin through 1.1.1 for
 </code>
 
 - [0x00-0x00/CVE-2018-7422](https://github.com/0x00-0x00/CVE-2018-7422)
+- [jessisec/CVE-2018-7422](https://github.com/jessisec/CVE-2018-7422)
 
 ### CVE-2018-7489 (2018-02-26)
 
