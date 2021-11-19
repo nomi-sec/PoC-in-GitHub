@@ -2553,6 +2553,9 @@ A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdmin
 
 - [rabbitsafe/CVE-2021-37580](https://github.com/rabbitsafe/CVE-2021-37580)
 - [fengwenhua/CVE-2021-37580](https://github.com/fengwenhua/CVE-2021-37580)
+- [Osyanina/westone-CVE-2021-37580-scanner](https://github.com/Osyanina/westone-CVE-2021-37580-scanner)
+- [ZororoZ/CVE-2021-37580](https://github.com/ZororoZ/CVE-2021-37580)
+- [Liang2580/CVE-2021-37580](https://github.com/Liang2580/CVE-2021-37580)
 
 ### CVE-2021-37589
 - [lucaregne/CVE-2021-37589](https://github.com/lucaregne/CVE-2021-37589)
