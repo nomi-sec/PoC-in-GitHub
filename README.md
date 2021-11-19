@@ -2556,6 +2556,7 @@ A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdmin
 - [Osyanina/westone-CVE-2021-37580-scanner](https://github.com/Osyanina/westone-CVE-2021-37580-scanner)
 - [ZororoZ/CVE-2021-37580](https://github.com/ZororoZ/CVE-2021-37580)
 - [Liang2580/CVE-2021-37580](https://github.com/Liang2580/CVE-2021-37580)
+- [Wing-song/CVE-2021-37580](https://github.com/Wing-song/CVE-2021-37580)
 
 ### CVE-2021-37589
 - [lucaregne/CVE-2021-37589](https://github.com/lucaregne/CVE-2021-37589)
@@ -15351,7 +15352,6 @@ A information disclosure vulnerability in the Android system (bluetooth). Produc
 - [Hackerscript/BlueBorne-CVE-2017-0785](https://github.com/Hackerscript/BlueBorne-CVE-2017-0785)
 - [pieterbork/blueborne](https://github.com/pieterbork/blueborne)
 - [sigbitsadmin/diff](https://github.com/sigbitsadmin/diff)
-- [SigBitsLabs/diff](https://github.com/SigBitsLabs/diff)
 - [RavSS/Bluetooth-Crash-CVE-2017-0785](https://github.com/RavSS/Bluetooth-Crash-CVE-2017-0785)
 
 ### CVE-2017-0806 (2017-10-03)
