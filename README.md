@@ -3396,6 +3396,14 @@ The npm ci command in npm 7.x and 8.x through 8.1.3 proceeds with an installatio
 
 - [icatalina/CVE-2021-43616](https://github.com/icatalina/CVE-2021-43616)
 
+### CVE-2021-43617 (2021-11-14)
+
+<code>
+Laravel Framework through 8.70.2 does not sufficiently block the upload of executable PHP content because Illuminate/Validation/Concerns/ValidatesAttributes.php lacks a check for .phar files, which are handled as application/x-httpd-php on systems based on Debian. NOTE: this CVE Record is for Laravel Framework, and is unrelated to any reports concerning incorrectly written user applications for image upload.
+</code>
+
+- [kombat1/CVE-2021-43617](https://github.com/kombat1/CVE-2021-43617)
+
 ### CVE-2021-111199
 - [RichardKabuto/CVE-2021-111199](https://github.com/RichardKabuto/CVE-2021-111199)
 
