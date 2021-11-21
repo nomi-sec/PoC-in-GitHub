@@ -2475,6 +2475,7 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 
 - [BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749)
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
+- [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
 
 ### CVE-2021-36798 (2021-08-09)
 
