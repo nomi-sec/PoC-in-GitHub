@@ -646,6 +646,7 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
 - [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
 - [alikarimi999/CVE-2021-21315](https://github.com/alikarimi999/CVE-2021-21315)
+- [Ki11i0n4ir3/CVE-2021-21315](https://github.com/Ki11i0n4ir3/CVE-2021-21315)
 - [xMohamed0/CVE-2021-21315-POC](https://github.com/xMohamed0/CVE-2021-21315-POC)
 
 ### CVE-2021-21341 (2021-03-22)
@@ -820,6 +821,14 @@ The vCenter Server contains multiple local privilege escalation vulnerabilities 
 </code>
 
 - [PenteraIO/vScalation-CVE-2021-22015](https://github.com/PenteraIO/vScalation-CVE-2021-22015)
+
+### CVE-2021-22053 (2021-11-19)
+
+<code>
+Applications using both `spring-cloud-netflix-hystrix-dashboard` and `spring-boot-starter-thymeleaf` expose a way to execute code submitted within the request URI path during the resolution of view templates. When a request is made at `/hystrix/monitor;[user-provided data]`, the path elements following `hystrix/monitor` are being evaluated as SpringEL expressions, which can lead to code execution.
+</code>
+
+- [SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053](https://github.com/SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053)
 
 ### CVE-2021-22119 (2021-06-29)
 
@@ -1184,7 +1193,6 @@ Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Update P
 In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
 </code>
 
-- [Sma11New/PocList](https://github.com/Sma11New/PocList)
 - [carlosevieira/CVE-2021-26084](https://github.com/carlosevieira/CVE-2021-26084)
 - [alt3kx/CVE-2021-26084_PoC](https://github.com/alt3kx/CVE-2021-26084_PoC)
 - [dinhbaouit/CVE-2021-26084](https://github.com/dinhbaouit/CVE-2021-26084)
@@ -2473,6 +2481,7 @@ Blackboard Learn through 9.1 allows XSS by an authenticated user via the Feedbac
 In the Druid ingestion system, the InputSource is used for reading data from a certain data source. However, the HTTP InputSource allows authenticated users to read data from other sources than intended, such as the local file system, with the privileges of the Druid server process. This is not an elevation of privilege when users access Druid directly, since Druid also provides the Local InputSource, which allows the same level of access. But it is problematic when users interact with Druid indirectly through an application that allows users to specify the HTTP InputSource, but not the Local InputSource. In this case, users could bypass the application-level restriction by passing a file URL to the HTTP InputSource. This issue was previously mentioned as being fixed in 0.21.0 as per CVE-2021-26920 but was not fixed in 0.21.0 or 0.21.1.
 </code>
 
+- [Sma11New/PocList](https://github.com/Sma11New/PocList)
 - [BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749)
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
 - [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
@@ -3014,6 +3023,15 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 
 ### CVE-2021-41074
 - [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
+
+### CVE-2021-41277 (2021-11-17)
+
+<code>
+Metabase is an open source data analytics platform. In affected versions a security issue has been discovered with the custom GeoJSON map (`admin-&gt;settings-&gt;maps-&gt;custom maps-&gt;add a map`) support and potential local file inclusion (including environment variables). URLs were not validated prior to being loaded. This issue is fixed in a new maintenance release (0.40.5 and 1.40.5), and any subsequent release after that. If you’re unable to upgrade immediately, you can mitigate this by including rules in your reverse proxy or load balancer or WAF to provide a validation filter before the application.
+</code>
+
+- [Seals6/CVE-2021-41277](https://github.com/Seals6/CVE-2021-41277)
+- [tahtaciburak/CVE-2021-41277](https://github.com/tahtaciburak/CVE-2021-41277)
 
 ### CVE-2021-41351 (2021-11-09)
 
