@@ -3032,6 +3032,7 @@ Metabase is an open source data analytics platform. In affected versions a secur
 
 - [Seals6/CVE-2021-41277](https://github.com/Seals6/CVE-2021-41277)
 - [tahtaciburak/CVE-2021-41277](https://github.com/tahtaciburak/CVE-2021-41277)
+- [Henry4E36/Metabase-cve-2021-41277](https://github.com/Henry4E36/Metabase-cve-2021-41277)
 
 ### CVE-2021-41351 (2021-11-09)
 
@@ -13517,7 +13518,6 @@ Unauthenticated arbitrary file upload vulnerability in jQuery Picture Cut &lt;= 
 An issue was discovered in PRTG Network Monitor before 18.2.39. An attacker who has access to the PRTG System Administrator web console with administrative privileges can exploit an OS command injection vulnerability (both on the server and on devices) by sending malformed parameters in sensor or notification management scenarios.
 </code>
 
-- [wildkindcc/CVE-2018-9276](https://github.com/wildkindcc/CVE-2018-9276)
 - [AndyFeiLi/CVE-2018-9276](https://github.com/AndyFeiLi/CVE-2018-9276)
 - [A1vinSmith/CVE-2018-9276](https://github.com/A1vinSmith/CVE-2018-9276)
 
