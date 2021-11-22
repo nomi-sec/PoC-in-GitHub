@@ -2949,6 +2949,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [TiagoSergio/CVE-2021-40444](https://github.com/TiagoSergio/CVE-2021-40444)
 - [0xK4gura/CVE-2021-40444-POC](https://github.com/0xK4gura/CVE-2021-40444-POC)
 - [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
+- [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
 
 ### CVE-2021-40449 (2021-10-12)
 
@@ -2978,6 +2979,14 @@ A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibb
 
 ### CVE-2021-40514
 - [war4uthor/CVE-2021-40514](https://github.com/war4uthor/CVE-2021-40514)
+
+### CVE-2021-40531 (2021-09-06)
+
+<code>
+Sketch before 75 mishandles external library feeds.
+</code>
+
+- [jonpalmisc/CVE-2021-40531](https://github.com/jonpalmisc/CVE-2021-40531)
 
 ### CVE-2021-40539 (2021-09-07)
 
@@ -3034,6 +3043,8 @@ Metabase is an open source data analytics platform. In affected versions a secur
 - [Seals6/CVE-2021-41277](https://github.com/Seals6/CVE-2021-41277)
 - [tahtaciburak/CVE-2021-41277](https://github.com/tahtaciburak/CVE-2021-41277)
 - [Henry4E36/Metabase-cve-2021-41277](https://github.com/Henry4E36/Metabase-cve-2021-41277)
+- [kap1ush0n/CVE-2021-41277](https://github.com/kap1ush0n/CVE-2021-41277)
+- [z3n70/CVE-2021-41277](https://github.com/z3n70/CVE-2021-41277)
 
 ### CVE-2021-41351 (2021-11-09)
 
@@ -14504,6 +14515,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [NeKroFR/CVE-2018-16763](https://github.com/NeKroFR/CVE-2018-16763)
 - [k4is3r13/Bash-Script-CVE-2018-16763](https://github.com/k4is3r13/Bash-Script-CVE-2018-16763)
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
+- [SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763)
 
 ### CVE-2018-16843 (2018-11-07)
 
