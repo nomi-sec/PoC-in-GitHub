@@ -2844,6 +2844,9 @@ A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive 
 ### CVE-2021-40101
 - [S1lkys/CVE-2021-40101](https://github.com/S1lkys/CVE-2021-40101)
 
+### CVE-2021-40154
+- [Xen1thLabs-AE/CVE-2021-40154](https://github.com/Xen1thLabs-AE/CVE-2021-40154)
+
 ### CVE-2021-40222 (2021-09-09)
 
 <code>
@@ -3046,6 +3049,7 @@ Metabase is an open source data analytics platform. In affected versions a secur
 - [kap1ush0n/CVE-2021-41277](https://github.com/kap1ush0n/CVE-2021-41277)
 - [z3n70/CVE-2021-41277](https://github.com/z3n70/CVE-2021-41277)
 - [kaizensecurity/CVE-2021-41277](https://github.com/kaizensecurity/CVE-2021-41277)
+- [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 
 ### CVE-2021-41351 (2021-11-09)
 
@@ -6299,6 +6303,7 @@ IceWarp Email Server 12.3.0.1 has Incorrect Access Control for user accounts.
 
 - [networksecure/CVE-2020-14064](https://github.com/networksecure/CVE-2020-14064)
 - [masoud-zivari/CVE-2020-14064](https://github.com/masoud-zivari/CVE-2020-14064)
+- [pinpinsec/CVE-2020-14064](https://github.com/pinpinsec/CVE-2020-14064)
 
 ### CVE-2020-14065 (2020-07-15)
 
@@ -6308,6 +6313,7 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload files and consum
 
 - [networksecure/CVE-2020-14065](https://github.com/networksecure/CVE-2020-14065)
 - [masoud-zivari/CVE-2020-14065](https://github.com/masoud-zivari/CVE-2020-14065)
+- [pinpinsec/CVE-2020-14065](https://github.com/pinpinsec/CVE-2020-14065)
 
 ### CVE-2020-14066 (2020-07-15)
 
@@ -6317,6 +6323,7 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files
 
 - [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
 - [masoud-zivari/CVE-2020-14066](https://github.com/masoud-zivari/CVE-2020-14066)
+- [pinpinsec/CVE-2020-14066](https://github.com/pinpinsec/CVE-2020-14066)
 
 ### CVE-2020-14179 (2020-09-20)
 
@@ -16718,14 +16725,6 @@ Microsoft Windows 8.1, Windows Server 2012 R2, Windows RT 8.1, Windows 10 Gold, 
 
 - [Sheisback/CVE-2017-11783](https://github.com/Sheisback/CVE-2017-11783)
 
-### CVE-2017-11816 (2017-10-13)
-
-<code>
-The Microsoft Windows Graphics Device Interface (GDI) on Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 allows an information disclosure vulnerability in the way it handles objects in memory, aka &quot;Windows GDI Information Disclosure Vulnerability&quot;.
-</code>
-
-- [lr3800/CVE-2017-11816](https://github.com/lr3800/CVE-2017-11816)
-
 ### CVE-2017-11826 (2017-10-13)
 
 <code>
@@ -17302,7 +17301,7 @@ Embedthis GoAhead before 3.6.5 allows remote code execution if CGI is enabled an
 Samsung Internet Browser 5.4.02.3 allows remote attackers to bypass the Same Origin Policy and obtain sensitive information via crafted JavaScript code that redirects to a child tab and rewrites the innerHTML property.
 </code>
 
-- [lr3800/CVE-2017-17692](https://github.com/lr3800/CVE-2017-17692)
+- [specloli/CVE-2017-17692](https://github.com/specloli/CVE-2017-17692)
 
 ### CVE-2017-18044 (2018-01-19)
 
