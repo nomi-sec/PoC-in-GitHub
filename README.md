@@ -3270,6 +3270,14 @@ Microsoft Excel Security Feature Bypass Vulnerability
 
 - [corelight/CVE-2021-42292](https://github.com/corelight/CVE-2021-42292)
 
+### CVE-2021-42321 (2021-11-09)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability
+</code>
+
+- [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
+
 ### CVE-2021-42327 (2021-10-21)
 
 <code>
