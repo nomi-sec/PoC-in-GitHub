@@ -829,6 +829,7 @@ Applications using both `spring-cloud-netflix-hystrix-dashboard` and `spring-boo
 </code>
 
 - [SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053](https://github.com/SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053)
+- [Vulnmachines/CVE-2021-22053](https://github.com/Vulnmachines/CVE-2021-22053)
 
 ### CVE-2021-22119 (2021-06-29)
 
@@ -3423,6 +3424,14 @@ Due to improper sanitization MedData HBYS software suffers from a remote SQL inj
 </code>
 
 - [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
+
+### CVE-2021-43557 (2021-11-22)
+
+<code>
+The uri-block plugin in Apache APISIX before 2.10.2 uses $request_uri without verification. The $request_uri is the full original request URI without normalization. This makes it possible to construct a URI to bypass the block list on some occasions. For instance, when the block list contains &quot;^/internal/&quot;, a URI like `//internal/` can be used to bypass it. Some other plugins also have the same issue. And it may affect the developer's custom plugin.
+</code>
+
+- [xvnpw/k8s-CVE-2021-43557-poc](https://github.com/xvnpw/k8s-CVE-2021-43557-poc)
 
 ### CVE-2021-43616 (2021-11-13)
 
