@@ -16664,7 +16664,6 @@ The mq_notify function in the Linux kernel through 4.11.9 does not set the sock 
 - [HckEX/CVE-2017-11176](https://github.com/HckEX/CVE-2017-11176)
 - [leonardo1101/cve-2017-11176](https://github.com/leonardo1101/cve-2017-11176)
 - [c3r34lk1ll3r/CVE-2017-11176](https://github.com/c3r34lk1ll3r/CVE-2017-11176)
-- [applemasterz17/CVE-2017-11176](https://github.com/applemasterz17/CVE-2017-11176)
 
 ### CVE-2017-11317 (2017-08-23)
 
