@@ -1228,6 +1228,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [oxctdev/CVE-2021-26084](https://github.com/oxctdev/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
+- [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 
 ### CVE-2021-26085 (2021-08-02)
 
@@ -2620,7 +2621,12 @@ Inappropriate implementation in Sandbox in Google Chrome prior to 94.0.4606.81 a
 
 - [ZeusBox/CVE-2021-37980](https://github.com/ZeusBox/CVE-2021-37980)
 
-### CVE-2021-38001
+### CVE-2021-38001 (2021-11-23)
+
+<code>
+Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
 - [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 
 ### CVE-2021-38149 (2021-08-06)
@@ -11944,7 +11950,6 @@ A sandbox bypass vulnerability exists in Script Security Plugin 1.49 and earlier
 - [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
 - [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
-- [FoxxD3Vza/adamyordan](https://github.com/FoxxD3Vza/adamyordan)
 
 ### CVE-2019-1010054 (2019-07-18)
 
