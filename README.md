@@ -908,6 +908,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
 - [ahmad4fifz/CVE-2021-22205](https://github.com/ahmad4fifz/CVE-2021-22205)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
+- [pizza-power/Golang-CVE-2021-22205-POC](https://github.com/pizza-power/Golang-CVE-2021-22205-POC)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -3530,6 +3531,15 @@ In the ioctl handlers of the Mediatek Command Queue driver, there is a possible 
 - [yanglingxi1993/CVE-2020-0069](https://github.com/yanglingxi1993/CVE-2020-0069)
 - [quarkslab/CVE-2020-0069_poc](https://github.com/quarkslab/CVE-2020-0069_poc)
 
+### CVE-2020-0074 (2020-09-17)
+
+<code>
+In verifyIntentFiltersIfNeeded of PackageManagerService.java, there is a possible settings bypass allowing an app to become the default handler for arbitrary domains. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-146204120
+</code>
+
+- [Nivaskumark/CVE-2020-0074-frameworks_base_old](https://github.com/Nivaskumark/CVE-2020-0074-frameworks_base_old)
+- [Nivaskumark/CVE-2020-0074-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0074-frameworks_base)
+
 ### CVE-2020-0082 (2020-04-17)
 
 <code>
@@ -3547,6 +3557,15 @@ In startActivities of ActivityStartController.java, there is a possible escalati
 - [wyu0hop/CVE-2020-0096](https://github.com/wyu0hop/CVE-2020-0096)
 - [liuyun201990/StrandHogg2](https://github.com/liuyun201990/StrandHogg2)
 - [tea9/CVE-2020-0096-StrandHogg2](https://github.com/tea9/CVE-2020-0096-StrandHogg2)
+
+### CVE-2020-0097 (2020-05-14)
+
+<code>
+In various methods of PackageManagerService.java, there is a possible permission bypass due to a missing condition for system apps. This could lead to local escalation of privilege with User privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10Android ID: A-145981139
+</code>
+
+- [Nivaskumark/CVE-2020-0097-frameworks_base_before](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_before)
+- [Nivaskumark/CVE-2020-0097-frameworks_base_after](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_after)
 
 ### CVE-2020-0108 (2020-08-11)
 
@@ -3571,6 +3590,8 @@ In onCreateSliceProvider of KeyguardSliceProvider.java, there is a possible conf
 </code>
 
 - [tea9/CVE-2020-0114-systemui](https://github.com/tea9/CVE-2020-0114-systemui)
+- [Nivaskumark/_beforeCVE-2020-0114-frameworks_base](https://github.com/Nivaskumark/_beforeCVE-2020-0114-frameworks_base)
+- [Nivaskumark/CVE-2020-0114-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base)
 
 ### CVE-2020-0121 (2020-06-10)
 
@@ -3579,6 +3600,15 @@ In updateUidProcState of AppOpsService.java, there is a possible permission bypa
 </code>
 
 - [mooneee/CVE-2020-0121](https://github.com/mooneee/CVE-2020-0121)
+
+### CVE-2020-0133 (2020-06-11)
+
+<code>
+In MockLocationAppPreferenceController.java, it is possible to mock the GPS location of the device due to a permissions bypass. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-145136060
+</code>
+
+- [Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch)
+- [Nivaskumark/CVE-2020-0133-packages_apps_Settings](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings)
 
 ### CVE-2020-0551 (2020-03-12)
 
