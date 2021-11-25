@@ -629,7 +629,6 @@ Git is an open-source distributed revision control system. In affected versions 
 - [Maskhe/CVE-2021-21300](https://github.com/Maskhe/CVE-2021-21300)
 - [1uanWu/CVE-2021-21300](https://github.com/1uanWu/CVE-2021-21300)
 - [Kirill89/CVE-2021-21300](https://github.com/Kirill89/CVE-2021-21300)
-- [CppXL/CVE-2021-21300](https://github.com/CppXL/CVE-2021-21300)
 - [ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300)
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
@@ -907,7 +906,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
 - [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
 - [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
-- [ahmad4fifz/docker-cve-2021-22205](https://github.com/ahmad4fifz/docker-cve-2021-22205)
+- [ahmad4fifz/CVE-2021-22205](https://github.com/ahmad4fifz/CVE-2021-22205)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
@@ -3196,7 +3195,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [HightechSec/scarce-apache2](https://github.com/HightechSec/scarce-apache2)
 - [vinhjaxt/CVE-2021-41773-exploit](https://github.com/vinhjaxt/CVE-2021-41773-exploit)
 - [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
-- [ComdeyOverFlow/CVE-2021-41773](https://github.com/ComdeyOverFlow/CVE-2021-41773)
+- [ComdeyOverflow/CVE-2021-41773](https://github.com/ComdeyOverflow/CVE-2021-41773)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [LetouRaphael/Poc-CVE-2021-41773](https://github.com/LetouRaphael/Poc-CVE-2021-41773)
@@ -3258,6 +3257,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
 - [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
 - [xMohamed0/CVE-2021-42013-ApacheRCE](https://github.com/xMohamed0/CVE-2021-42013-ApacheRCE)
+- [ahmad4fifz/CVE-2021-42013](https://github.com/ahmad4fifz/CVE-2021-42013)
 
 ### CVE-2021-42071 (2021-10-07)
 
@@ -3317,6 +3317,7 @@ An issue was discovered in the Bidirectional Algorithm in the Unicode Specificat
 - [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
+- [pierDipi/unicode-control-characters-action](https://github.com/pierDipi/unicode-control-characters-action)
 
 ### CVE-2021-42662 (2021-11-05)
 
