@@ -1018,6 +1018,7 @@ Windows TCP/IP Denial of Service Vulnerability
 </code>
 
 - [0vercl0k/CVE-2021-24086](https://github.com/0vercl0k/CVE-2021-24086)
+- [lisinan988/CVE-2021-24086-exp](https://github.com/lisinan988/CVE-2021-24086-exp)
 
 ### CVE-2021-24096 (2021-02-25)
 
@@ -2959,6 +2960,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [0xK4gura/CVE-2021-40444-POC](https://github.com/0xK4gura/CVE-2021-40444-POC)
 - [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
 - [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
+- [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
 
 ### CVE-2021-40449 (2021-10-12)
 
@@ -3234,7 +3236,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
 - [Hydragyrum/CVE-2021-41773-Playground](https://github.com/Hydragyrum/CVE-2021-41773-Playground)
 - [IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit)
-- [ahmad4fifz/docker-cve-2021-41773](https://github.com/ahmad4fifz/docker-cve-2021-41773)
+- [ahmad4fifz/CVE-2021-41773](https://github.com/ahmad4fifz/CVE-2021-41773)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 
@@ -3467,6 +3469,9 @@ Laravel Framework through 8.70.2 does not sufficiently block the upload of execu
 </code>
 
 - [kombat1/CVE-2021-43617](https://github.com/kombat1/CVE-2021-43617)
+
+### CVE-2021-44217
+- [Hyperkopite/CVE-2021-44217](https://github.com/Hyperkopite/CVE-2021-44217)
 
 ### CVE-2021-111199
 - [RichardKabuto/CVE-2021-111199](https://github.com/RichardKabuto/CVE-2021-111199)
@@ -3835,6 +3840,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [oxctdev/CVE-2020-0796](https://github.com/oxctdev/CVE-2020-0796)
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
+- [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -8277,6 +8283,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
 - [c4dr01d/CVE-2019-0708](https://github.com/c4dr01d/CVE-2019-0708)
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
+- [lisinan988/CVE-2019-0708-scan](https://github.com/lisinan988/CVE-2019-0708-scan)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -13318,6 +13325,7 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP)
 - [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
 - [w16692926717/CVE-2018-8174_EXP](https://github.com/w16692926717/CVE-2018-8174_EXP)
+- [lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp)
 
 ### CVE-2018-8208 (2018-06-14)
 
@@ -16771,6 +16779,7 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [dcsync/rtfkit](https://github.com/dcsync/rtfkit)
 - [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
 - [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
+- [lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp)
 
 ### CVE-2017-11907 (2017-12-12)
 
