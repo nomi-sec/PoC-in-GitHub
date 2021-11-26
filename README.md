@@ -3016,6 +3016,14 @@ The web part of Zenitel AlphaCom XE Audio Server through 11.2.3.10, called Alpha
 
 - [ricardojoserf/CVE-2021-40845](https://github.com/ricardojoserf/CVE-2021-40845)
 
+### CVE-2021-40865 (2021-10-25)
+
+<code>
+An Unsafe Deserialization vulnerability exists in the worker services of the Apache Storm supervisor server allowing pre-auth Remote Code Execution (RCE). Apache Storm 2.2.x users should upgrade to version 2.2.1 or 2.3.0. Apache Storm 2.1.x users should upgrade to version 2.1.1. Apache Storm 1.x users should upgrade to version 1.2.4
+</code>
+
+- [hktalent/CVE-2021-40865](https://github.com/hktalent/CVE-2021-40865)
+
 ### CVE-2021-40870 (2021-09-13)
 
 <code>
@@ -3568,6 +3576,7 @@ In various methods of PackageManagerService.java, there is a possible permission
 
 - [Nivaskumark/CVE-2020-0097-frameworks_base_before](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_before)
 - [Nivaskumark/CVE-2020-0097-frameworks_base_after](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_after)
+- [Nivaskumark/CVE-2020-0097-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base)
 
 ### CVE-2020-0108 (2020-08-11)
 
@@ -3593,6 +3602,8 @@ In onCreateSliceProvider of KeyguardSliceProvider.java, there is a possible conf
 
 - [tea9/CVE-2020-0114-systemui](https://github.com/tea9/CVE-2020-0114-systemui)
 - [Nivaskumark/_beforeCVE-2020-0114-frameworks_base](https://github.com/Nivaskumark/_beforeCVE-2020-0114-frameworks_base)
+- [Nivaskumark/CVE-2020-0114-frameworks_base11](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base11)
+- [Nivaskumark/CVE-2020-0114-frameworks](https://github.com/Nivaskumark/CVE-2020-0114-frameworks)
 - [Nivaskumark/CVE-2020-0114-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base)
 
 ### CVE-2020-0121 (2020-06-10)
