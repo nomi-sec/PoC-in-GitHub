@@ -3239,6 +3239,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [ahmad4fifz/CVE-2021-41773](https://github.com/ahmad4fifz/CVE-2021-41773)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
+- [jhye0n/CVE-2021-41773](https://github.com/jhye0n/CVE-2021-41773)
 
 ### CVE-2021-41822
 - [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
@@ -3439,6 +3440,7 @@ An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16.
 </code>
 
 - [DarkSprings/CVE-2021-43267-POC](https://github.com/DarkSprings/CVE-2021-43267-POC)
+- [ohnonoyesyes/CVE-2021-43267](https://github.com/ohnonoyesyes/CVE-2021-43267)
 
 ### CVE-2021-43361 (-)
 
@@ -3608,7 +3610,10 @@ In MockLocationAppPreferenceController.java, it is possible to mock the GPS loca
 </code>
 
 - [Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_nopatch)
+- [Nivaskumark/CVE-2020-0133-packages_apps_Sett](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Sett)
+- [Nivaskumark/CVE-2020-0133-packages_apps_Setting](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Setting)
 - [Nivaskumark/CVE-2020-0133-packages_apps_Settings](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings)
+- [Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix](https://github.com/Nivaskumark/CVE-2020-0133-packages_apps_Settings_fix)
 
 ### CVE-2020-0551 (2020-03-12)
 
@@ -5034,8 +5039,8 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 Uncontrolled resource consumption in `jpeg-js` before 0.4.0 may allow attacker to launch denial of service attacks using specially a crafted JPEG image.
 </code>
 
-- [sysollie/get-pixels-updated](https://github.com/sysollie/get-pixels-updated)
-- [sysollie/save-pixels-updated](https://github.com/sysollie/save-pixels-updated)
+- [knokbak/get-pixels-updated](https://github.com/knokbak/get-pixels-updated)
+- [knokbak/save-pixels-updated](https://github.com/knokbak/save-pixels-updated)
 
 ### CVE-2020-8193 (2020-07-10)
 
@@ -13157,6 +13162,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [ludy-dev/drupal8-REST-RCE](https://github.com/ludy-dev/drupal8-REST-RCE)
 - [0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600)
 - [rafaelcaria/drupalgeddon2-CVE-2018-7600](https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600)
+- [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
