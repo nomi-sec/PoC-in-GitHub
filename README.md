@@ -1004,6 +1004,14 @@ A cache configuration issue prior to WhatsApp for Android v2.21.4.18 and WhatsAp
 
 - [CENSUS/whatsapp-mitd-mitm](https://github.com/CENSUS/whatsapp-mitd-mitm)
 
+### CVE-2021-24084 (2021-02-25)
+
+<code>
+Windows Mobile Device Management Information Disclosure Vulnerability
+</code>
+
+- [ohnonoyesyes/CVE-2021-24084](https://github.com/ohnonoyesyes/CVE-2021-24084)
+
 ### CVE-2021-24085 (2021-02-25)
 
 <code>
@@ -20881,15 +20889,6 @@ The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, 
 </code>
 
 - [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
-- [pythonone/CVE-2012-0056](https://github.com/pythonone/CVE-2012-0056)
-
-### CVE-2012-0152 (2012-03-13)
-
-<code>
-The Remote Desktop Protocol (RDP) service in Microsoft Windows Server 2008 R2 and R2 SP1 and Windows 7 Gold and SP1 allows remote attackers to cause a denial of service (application hang) via a series of crafted packets, aka &quot;Terminal Server Denial of Service Vulnerability.&quot;
-</code>
-
-- [rutvijjethwa/RDP_jammer](https://github.com/rutvijjethwa/RDP_jammer)
 
 ### CVE-2012-1675 (2012-05-08)
 
@@ -20913,7 +20912,6 @@ Unspecified vulnerability in the Java Runtime Environment (JRE) component in Ora
 sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured as a CGI script (aka php-cgi), does not properly handle query strings that lack an = (equals sign) character, which allows remote attackers to execute arbitrary code by placing command-line options in the query string, related to lack of skipping a certain php_getopt for the 'd' case.
 </code>
 
-- [drone789/CVE-2012-1823](https://github.com/drone789/CVE-2012-1823)
 - [gamamaru6005/oscp_scripts-1](https://github.com/gamamaru6005/oscp_scripts-1)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
@@ -20925,14 +20923,6 @@ The CBC mode in the TLS protocol, as used in Microsoft Windows XP SP2 and SP3, W
 </code>
 
 - [fkm75P8YjLkb/CVE-2012-1870](https://github.com/fkm75P8YjLkb/CVE-2012-1870)
-
-### CVE-2012-1876 (2012-06-12)
-
-<code>
-Microsoft Internet Explorer 6 through 9, and 10 Consumer Preview, does not properly handle objects in memory, which allows remote attackers to execute arbitrary code by attempting to access a nonexistent object, leading to a heap-based buffer overflow, aka &quot;Col Element Remote Code Execution Vulnerability,&quot; as demonstrated by VUPEN during a Pwn2Own competition at CanSecWest 2012.
-</code>
-
-- [WizardVan/CVE-2012-1876](https://github.com/WizardVan/CVE-2012-1876)
 
 ### CVE-2012-1889 (2012-06-12)
 
@@ -20972,15 +20962,6 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 - [Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982)
 - [JohnHammond/CVE-2012-2982](https://github.com/JohnHammond/CVE-2012-2982)
 
-### CVE-2012-3137 (2012-09-21)
-
-<code>
-The authentication protocol in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0.5, 11.1.0.7, 11.2.0.2, and 11.2.0.3 allows remote attackers to obtain the session key and salt for arbitrary users, which leaks information about the cryptographic hash and makes it easier to conduct brute force password guessing attacks, aka &quot;stealth password cracking vulnerability.&quot;
-</code>
-
-- [hantwister/o5logon-fetch](https://github.com/hantwister/o5logon-fetch)
-- [r1-/cve-2012-3137](https://github.com/r1-/cve-2012-3137)
-
 ### CVE-2012-3153 (2012-10-16)
 
 <code>
@@ -20988,14 +20969,6 @@ Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fu
 </code>
 
 - [Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion)
-
-### CVE-2012-3716 (2012-09-20)
-
-<code>
-CoreText in Apple Mac OS X 10.7.x before 10.7.5 allows remote attackers to execute arbitrary code or cause a denial of service (out-of-bounds write or read) via a crafted text glyph.
-</code>
-
-- [d4rkcat/killosx](https://github.com/d4rkcat/killosx)
 
 ### CVE-2012-4220 (2012-11-30)
 
@@ -21022,14 +20995,6 @@ Multiple vulnerabilities in the Java Runtime Environment (JRE) component in Orac
 
 - [benjholla/CVE-2012-4681-Armoring](https://github.com/benjholla/CVE-2012-4681-Armoring)
 - [ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681)
-
-### CVE-2012-4792 (2012-12-30)
-
-<code>
-Use-after-free vulnerability in Microsoft Internet Explorer 6 through 8 allows remote attackers to execute arbitrary code via a crafted web site that triggers access to an object that (1) was not properly allocated or (2) is deleted, as demonstrated by a CDwnBindInfo object, and exploited in the wild in December 2012.
-</code>
-
-- [WizardVan/CVE-2012-4792](https://github.com/WizardVan/CVE-2012-4792)
 
 ### CVE-2012-4869 (2012-09-06)
 
