@@ -575,6 +575,7 @@ Acrobat Reader DC versions 2020.013.20074 (and earlier), 2020.001.30018 (and ear
 </code>
 
 - [NattiSamson/CVE-2021-21042](https://github.com/NattiSamson/CVE-2021-21042)
+- [r1l4-i3pur1l4/CVE-2021-21042](https://github.com/r1l4-i3pur1l4/CVE-2021-21042)
 
 ### CVE-2021-21110 (2021-01-08)
 
@@ -2994,7 +2995,7 @@ A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibb
 ### CVE-2021-40531 (2021-09-06)
 
 <code>
-Sketch before 75 mishandles external library feeds.
+An issue discovered in sketch before version 75,that allows for library feeds to be used to bypass file quarantine which results in remote code execution.
 </code>
 
 - [jonpalmisc/CVE-2021-40531](https://github.com/jonpalmisc/CVE-2021-40531)
