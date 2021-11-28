@@ -1019,6 +1019,7 @@ Windows Mobile Device Management Information Disclosure Vulnerability
 </code>
 
 - [ohnonoyesyes/CVE-2021-24084](https://github.com/ohnonoyesyes/CVE-2021-24084)
+- [exploitblizzard/WindowsMDM-LPE-0Day](https://github.com/exploitblizzard/WindowsMDM-LPE-0Day)
 
 ### CVE-2021-24085 (2021-02-25)
 
@@ -6594,7 +6595,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [murataydemir/CVE-2020-14882](https://github.com/murataydemir/CVE-2020-14882)
 - [AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test)
 - [corelight/CVE-2020-14882-weblogicRCE](https://github.com/corelight/CVE-2020-14882-weblogicRCE)
-- [xwuyi/CVE-2020-14882](https://github.com/xwuyi/CVE-2020-14882)
+- [xfiftyone/CVE-2020-14882](https://github.com/xfiftyone/CVE-2020-14882)
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 - [adm1in/CodeTest](https://github.com/adm1in/CodeTest)
 - [ShmilySec/CVE-2020-14882](https://github.com/ShmilySec/CVE-2020-14882)
@@ -7952,14 +7953,6 @@ A remote code execution vulnerability in the installUpdateThemePluginAction func
 </code>
 
 - [ybdegit2020/wonderplugin](https://github.com/ybdegit2020/wonderplugin)
-
-### CVE-2020-35469 (2020-12-15)
-
-<code>
-The Software AG Terracotta Server OSS Docker image 5.4.1 contains a blank password for the root user. Systems deployed using affected versions of the Terracotta Server OSS container may allow a remote attacker to achieve root access with a blank password.
-</code>
-
-- [punnyalakshmi/CVE-2020-35469](https://github.com/punnyalakshmi/CVE-2020-35469)
 
 ### CVE-2020-35488 (2021-01-05)
 
