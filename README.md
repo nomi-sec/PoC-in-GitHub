@@ -1298,14 +1298,6 @@ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated at
 - [S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP)
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
 
-### CVE-2021-26411 (2021-03-11)
-
-<code>
-Internet Explorer Memory Corruption Vulnerability
-</code>
-
-- [KAB8345/CVE-2021-26411](https://github.com/KAB8345/CVE-2021-26411)
-
 ### CVE-2021-26415 (2021-04-13)
 
 <code>
@@ -3510,9 +3502,6 @@ Laravel Framework through 8.70.2 does not sufficiently block the upload of execu
 
 ### CVE-2021-44217
 - [Hyperkopite/CVE-2021-44217](https://github.com/Hyperkopite/CVE-2021-44217)
-
-### CVE-2021-111199
-- [RichardKabuto/CVE-2021-111199](https://github.com/RichardKabuto/CVE-2021-111199)
 
 
 ## 2020
