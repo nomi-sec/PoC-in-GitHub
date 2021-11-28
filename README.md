@@ -609,6 +609,14 @@ Insufficient validation of untrusted input in V8 in Google Chrome prior to 89.0.
 
 - [security-dbg/CVE-2021-21220](https://github.com/security-dbg/CVE-2021-21220)
 
+### CVE-2021-21224 (2021-04-26)
+
+<code>
+Type confusion in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
+</code>
+
+- [ohnonoyesyes/CVE-2021-21224](https://github.com/ohnonoyesyes/CVE-2021-21224)
+
 ### CVE-2021-21234 (2021-01-05)
 
 <code>
@@ -3164,6 +3172,14 @@ A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel
 </code>
 
 - [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
+
+### CVE-2021-41653 (2021-11-13)
+
+<code>
+The PING function on the TP-Link TL-WR840N EU v5 router with firmware through TL-WR840N(EU)_V5_171211 is vulnerable to remote code execution via a crafted payload in an IP address input field.
+</code>
+
+- [ohnonoyesyes/CVE-2021-41653](https://github.com/ohnonoyesyes/CVE-2021-41653)
 
 ### CVE-2021-41728 (2021-10-28)
 
@@ -7936,6 +7952,14 @@ A remote code execution vulnerability in the installUpdateThemePluginAction func
 </code>
 
 - [ybdegit2020/wonderplugin](https://github.com/ybdegit2020/wonderplugin)
+
+### CVE-2020-35469 (2020-12-15)
+
+<code>
+The Software AG Terracotta Server OSS Docker image 5.4.1 contains a blank password for the root user. Systems deployed using affected versions of the Terracotta Server OSS container may allow a remote attacker to achieve root access with a blank password.
+</code>
+
+- [punnyalakshmi/CVE-2020-35469](https://github.com/punnyalakshmi/CVE-2020-35469)
 
 ### CVE-2020-35488 (2021-01-05)
 
