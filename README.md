@@ -1933,6 +1933,14 @@ A logic issue was addressed with improved restrictions. This issue is fixed in t
 
 - [threatnix/csp-playground](https://github.com/threatnix/csp-playground)
 
+### CVE-2021-30807 (2021-10-19)
+
+<code>
+A memory corruption issue was addressed with improved memory handling. This issue is fixed in macOS Big Sur 11.5.1, iOS 14.7.1 and iPadOS 14.7.1, watchOS 7.6.1. An application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.
+</code>
+
+- [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
+
 ### CVE-2021-30858 (2021-08-24)
 
 <code>
