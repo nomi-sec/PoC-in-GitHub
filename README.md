@@ -20584,6 +20584,14 @@ sudo 1.6.0 through 1.7.10p6 and sudo 1.8.0 through 1.8.6p6 allows local users or
 
 - [bekhzod0725/perl-CVE-2013-1775](https://github.com/bekhzod0725/perl-CVE-2013-1775)
 
+### CVE-2013-1965 (2013-07-10)
+
+<code>
+Apache Struts Showcase App 2.0.0 through 2.3.13, as used in Struts 2 before 2.3.14.3, allows remote attackers to execute arbitrary OGNL code via a crafted parameter name that is not properly handled when invoking a redirect.
+</code>
+
+- [cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965)
+
 ### CVE-2013-2028 (2013-07-17)
 
 <code>
