@@ -3599,6 +3599,8 @@ In various methods of PackageManagerService.java, there is a possible permission
 
 - [Nivaskumark/CVE-2020-0097-frameworks_base_before](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_before)
 - [Nivaskumark/CVE-2020-0097-frameworks_base_after](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_after)
+- [Nivaskumark/CVE-2020-0097-frameworks_ba](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_ba)
+- [Nivaskumark/CVE-2020-0097-frameworks_base_beforefix](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_beforefix)
 - [Nivaskumark/CVE-2020-0097-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base)
 
 ### CVE-2020-0108 (2020-08-11)
@@ -3628,6 +3630,8 @@ In onCreateSliceProvider of KeyguardSliceProvider.java, there is a possible conf
 - [Nivaskumark/CVE-2020-0114-frameworks_base11](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base11)
 - [Nivaskumark/CVE-2020-0114-frameworks](https://github.com/Nivaskumark/CVE-2020-0114-frameworks)
 - [Nivaskumark/CVE-2020-0114-frameworks_basegbdgb](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_basegbdgb)
+- [Nivaskumark/CVE-2020-0114-frameworks_basety](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_basety)
+- [Nivaskumark/CVE-2020-0114-frameworks_base_before](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base_before)
 - [Nivaskumark/CVE-2020-0114-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base)
 
 ### CVE-2020-0121 (2020-06-10)
