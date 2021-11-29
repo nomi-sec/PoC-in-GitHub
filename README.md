@@ -2147,6 +2147,9 @@ Squirrelly is a template engine implemented in JavaScript that works out of the 
 
 - [Abady0x1/CVE-2021-32819](https://github.com/Abady0x1/CVE-2021-32819)
 
+### CVE-2021-32849
+- [ohnonoyesyes/CVE-2021-32849](https://github.com/ohnonoyesyes/CVE-2021-32849)
+
 ### CVE-2021-33026 (2021-05-13)
 
 <code>
@@ -3571,7 +3574,9 @@ In verifyIntentFiltersIfNeeded of PackageManagerService.java, there is a possibl
 </code>
 
 - [Nivaskumark/CVE-2020-0074-frameworks_base_old](https://github.com/Nivaskumark/CVE-2020-0074-frameworks_base_old)
+- [Nivaskumark/CVE-2020-0074-frameworks_base_old1](https://github.com/Nivaskumark/CVE-2020-0074-frameworks_base_old1)
 - [Nivaskumark/CVE-2020-0074-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0074-frameworks_base)
+- [Nivaskumark/CVE-2020-0074-frameworks_base_after](https://github.com/Nivaskumark/CVE-2020-0074-frameworks_base_after)
 
 ### CVE-2020-0082 (2020-04-17)
 
@@ -3600,8 +3605,8 @@ In various methods of PackageManagerService.java, there is a possible permission
 - [Nivaskumark/CVE-2020-0097-frameworks_base_before](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_before)
 - [Nivaskumark/CVE-2020-0097-frameworks_base_after](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_after)
 - [Nivaskumark/CVE-2020-0097-frameworks_ba](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_ba)
-- [Nivaskumark/CVE-2020-0097-frameworks_base_beforefix](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_beforefix)
 - [Nivaskumark/CVE-2020-0097-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base)
+- [Nivaskumark/CVE-2020-0097-frameworks_base_afterfix](https://github.com/Nivaskumark/CVE-2020-0097-frameworks_base_afterfix)
 
 ### CVE-2020-0108 (2020-08-11)
 
@@ -3631,8 +3636,8 @@ In onCreateSliceProvider of KeyguardSliceProvider.java, there is a possible conf
 - [Nivaskumark/CVE-2020-0114-frameworks](https://github.com/Nivaskumark/CVE-2020-0114-frameworks)
 - [Nivaskumark/CVE-2020-0114-frameworks_basegbdgb](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_basegbdgb)
 - [Nivaskumark/CVE-2020-0114-frameworks_basety](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_basety)
-- [Nivaskumark/CVE-2020-0114-frameworks_base_before](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base_before)
 - [Nivaskumark/CVE-2020-0114-frameworks_base](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base)
+- [Nivaskumark/CVE-2020-0114-frameworks_base_afterfix](https://github.com/Nivaskumark/CVE-2020-0114-frameworks_base_afterfix)
 
 ### CVE-2020-0121 (2020-06-10)
 
@@ -7754,6 +7759,9 @@ JamoDat TSMManager Collector version up to 6.5.0.21 is vulnerable to an Authoriz
 </code>
 
 - [VoidSec/Tivoli-Madness](https://github.com/VoidSec/Tivoli-Madness)
+
+### CVE-2020-28148
+- [fengchenzxc/CVE-2020-28148](https://github.com/fengchenzxc/CVE-2020-28148)
 
 ### CVE-2020-28169 (2020-12-24)
 
@@ -20575,14 +20583,6 @@ sudo 1.6.0 through 1.7.10p6 and sudo 1.8.0 through 1.8.6p6 allows local users or
 </code>
 
 - [bekhzod0725/perl-CVE-2013-1775](https://github.com/bekhzod0725/perl-CVE-2013-1775)
-
-### CVE-2013-1965 (2013-07-10)
-
-<code>
-Apache Struts Showcase App 2.0.0 through 2.3.13, as used in Struts 2 before 2.3.14.3, allows remote attackers to execute arbitrary OGNL code via a crafted parameter name that is not properly handled when invoking a redirect.
-</code>
-
-- [cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965)
 
 ### CVE-2013-2028 (2013-07-17)
 
