@@ -653,6 +653,7 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
 - [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
+- [MazX0p/CVE-2021-21315-exploit](https://github.com/MazX0p/CVE-2021-21315-exploit)
 - [alikarimi999/CVE-2021-21315](https://github.com/alikarimi999/CVE-2021-21315)
 - [Ki11i0n4ir3/CVE-2021-21315](https://github.com/Ki11i0n4ir3/CVE-2021-21315)
 - [xMohamed0/CVE-2021-21315-POC](https://github.com/xMohamed0/CVE-2021-21315-POC)
@@ -2649,6 +2650,7 @@ Inappropriate implementation in Sandbox in Google Chrome prior to 94.0.4606.81 a
 Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
+- [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 - [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 
 ### CVE-2021-38149 (2021-08-06)
@@ -3268,6 +3270,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [BabyTeam1024/CVE-2021-41773](https://github.com/BabyTeam1024/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773)
+- [MazX0p/CVE-2021-41773](https://github.com/MazX0p/CVE-2021-41773)
 - [vida00/Scanner-CVE-2021-41773](https://github.com/vida00/Scanner-CVE-2021-41773)
 - [mr-exo/CVE-2021-41773](https://github.com/mr-exo/CVE-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
@@ -3511,6 +3514,14 @@ Laravel Framework through 8.70.2 does not sufficiently block the upload of execu
 </code>
 
 - [kombat1/CVE-2021-43617](https://github.com/kombat1/CVE-2021-43617)
+
+### CVE-2021-43778 (2021-11-24)
+
+<code>
+Barcode is a GLPI plugin for printing barcodes and QR codes. GLPI instances version 2.x prior to version 2.6.1 with the barcode plugin installed are vulnerable to a path traversal vulnerability. This issue was patched in version 2.6.1. As a workaround, delete the `front/send.php` file.
+</code>
+
+- [AK-blank/CVE-2021-43778](https://github.com/AK-blank/CVE-2021-43778)
 
 ### CVE-2021-44217
 - [Hyperkopite/CVE-2021-44217](https://github.com/Hyperkopite/CVE-2021-44217)
@@ -15612,6 +15623,14 @@ An exploitable heap corruption vulnerability exists in the UnCompressUnicode fun
 
 - [sUbc0ol/Detection-for-CVE-2017-2793](https://github.com/sUbc0ol/Detection-for-CVE-2017-2793)
 
+### CVE-2017-2824 (2017-05-24)
+
+<code>
+An exploitable code execution vulnerability exists in the trapper command functionality of Zabbix Server 2.4.X. A specially crafted set of packets can cause a command injection resulting in remote code execution. An attacker can make requests from an active Zabbix Proxy to trigger this vulnerability.
+</code>
+
+- [listenquiet/cve-2017-2824-reverse-shell](https://github.com/listenquiet/cve-2017-2824-reverse-shell)
+
 ### CVE-2017-3000 (2017-03-14)
 
 <code>
@@ -20402,6 +20421,7 @@ The addAccount method in src/com/android/settings/accounts/AddAccountSettings.ja
 </code>
 
 - [locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609)
+- [MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC)
 
 ### CVE-2014-8682 (2014-11-21)
 
