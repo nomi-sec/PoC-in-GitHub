@@ -1941,6 +1941,7 @@ A memory corruption issue was addressed with improved memory handling. This issu
 </code>
 
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
+- [30440r/gex](https://github.com/30440r/gex)
 
 ### CVE-2021-30858 (2021-08-24)
 
@@ -22294,7 +22295,6 @@ Land IP denial of service.
 </code>
 
 - [pexmee/CVE-1999-0016-Land-DOS-tool](https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool)
-- [Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC)
 
 ### CVE-1999-0532
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
