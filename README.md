@@ -900,7 +900,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 </code>
 
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
-- [RedTeamWing/CVE-2021-22205](https://github.com/RedTeamWing/CVE-2021-22205)
+- [XTeam-Wing/CVE-2021-22205](https://github.com/XTeam-Wing/CVE-2021-22205)
 - [r0eXpeR/CVE-2021-22205](https://github.com/r0eXpeR/CVE-2021-22205)
 - [antx-code/CVE-2021-22205](https://github.com/antx-code/CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
@@ -2942,6 +2942,7 @@ A crafted request uri-path can cause mod_proxy to forward the request to an orig
 - [sixpacksecurity/CVE-2021-40438](https://github.com/sixpacksecurity/CVE-2021-40438)
 - [BabyTeam1024/CVE-2021-40438](https://github.com/BabyTeam1024/CVE-2021-40438)
 - [ericmann/apache-cve-poc](https://github.com/ericmann/apache-cve-poc)
+- [pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt)
 
 ### CVE-2021-40444 (2021-09-15)
 
@@ -6587,7 +6588,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [jas502n/CVE-2020-14882](https://github.com/jas502n/CVE-2020-14882)
 - [s1kr10s/CVE-2020-14882](https://github.com/s1kr10s/CVE-2020-14882)
 - [Umarovm/-Patched-McMaster-University-Blind-Command-Injection](https://github.com/Umarovm/-Patched-McMaster-University-Blind-Command-Injection)
-- [RedTeamWing/CVE-2020-14882](https://github.com/RedTeamWing/CVE-2020-14882)
+- [XTeam-Wing/CVE-2020-14882](https://github.com/XTeam-Wing/CVE-2020-14882)
 - [0thm4n3/cve-2020-14882](https://github.com/0thm4n3/cve-2020-14882)
 - [wsfengfan/cve-2020-14882](https://github.com/wsfengfan/cve-2020-14882)
 - [alexfrancow/CVE-2020-14882](https://github.com/alexfrancow/CVE-2020-14882)
@@ -13195,7 +13196,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [Hestat/drupal-check](https://github.com/Hestat/drupal-check)
 - [fyraiga/CVE-2018-7600-drupalgeddon2-scanner](https://github.com/fyraiga/CVE-2018-7600-drupalgeddon2-scanner)
 - [Damian972/drupalgeddon-2](https://github.com/Damian972/drupalgeddon-2)
-- [Jyozi/CVE-2018-7600](https://github.com/Jyozi/CVE-2018-7600)
+- [jyo-zi/CVE-2018-7600](https://github.com/jyo-zi/CVE-2018-7600)
 - [happynote3966/CVE-2018-7600](https://github.com/happynote3966/CVE-2018-7600)
 - [shellord/CVE-2018-7600-Drupal-RCE](https://github.com/shellord/CVE-2018-7600-Drupal-RCE)
 - [r3dxpl0it/CVE-2018-7600](https://github.com/r3dxpl0it/CVE-2018-7600)
@@ -16966,7 +16967,7 @@ CouchDB administrative users can configure the database server via HTTP(S). Some
 </code>
 
 - [moayadalmalat/CVE-2017-12636](https://github.com/moayadalmalat/CVE-2017-12636)
-- [RedTeamWing/CVE-2017-12636](https://github.com/RedTeamWing/CVE-2017-12636)
+- [XTeam-Wing/CVE-2017-12636](https://github.com/XTeam-Wing/CVE-2017-12636)
 
 ### CVE-2017-12792 (2017-10-02)
 
