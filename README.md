@@ -2872,7 +2872,12 @@ A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive 
 ### CVE-2021-39512
 - [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
 
-### CVE-2021-40101
+### CVE-2021-40101 (2021-11-30)
+
+<code>
+An issue was discovered in Concrete CMS before 8.5.7. The Dashboard allows a user's password to be changed without a prompt for the current password.
+</code>
+
 - [S1lkys/CVE-2021-40101](https://github.com/S1lkys/CVE-2021-40101)
 
 ### CVE-2021-40154
@@ -22295,6 +22300,7 @@ Land IP denial of service.
 </code>
 
 - [pexmee/CVE-1999-0016-Land-DOS-tool](https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool)
+- [Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC)
 
 ### CVE-1999-0532
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
