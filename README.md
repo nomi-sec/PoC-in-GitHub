@@ -2880,7 +2880,12 @@ An issue was discovered in Concrete CMS before 8.5.7. The Dashboard allows a use
 
 - [S1lkys/CVE-2021-40101](https://github.com/S1lkys/CVE-2021-40101)
 
-### CVE-2021-40154
+### CVE-2021-40154 (2021-12-01)
+
+<code>
+NXP LPC55S69 devices before A3 have a buffer over-read via a crafted wlength value in a GET Descriptor Configuration request during use of USB In-System Programming (ISP) mode. This discloses protected flash memory.
+</code>
+
 - [Xen1thLabs-AE/CVE-2021-40154](https://github.com/Xen1thLabs-AE/CVE-2021-40154)
 
 ### CVE-2021-40222 (2021-09-09)
@@ -5060,8 +5065,8 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 Uncontrolled resource consumption in `jpeg-js` before 0.4.0 may allow attacker to launch denial of service attacks using specially a crafted JPEG image.
 </code>
 
-- [knokbak/get-pixels-updated](https://github.com/knokbak/get-pixels-updated)
-- [knokbak/save-pixels-updated](https://github.com/knokbak/save-pixels-updated)
+- [OllieKillean/get-pixels-updated](https://github.com/OllieKillean/get-pixels-updated)
+- [OllieKillean/save-pixels-updated](https://github.com/OllieKillean/save-pixels-updated)
 
 ### CVE-2020-8193 (2020-07-10)
 
