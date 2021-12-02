@@ -20284,6 +20284,7 @@ The findMacroMarker function in parserLib.pas in Rejetto HTTP File Server (aks H
 
 - [roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py)
 - [Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287](https://github.com/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287)
+- [SlizBinksman/THM-Steel_Mountain-CVE-2014-6287](https://github.com/SlizBinksman/THM-Steel_Mountain-CVE-2014-6287)
 
 ### CVE-2014-6332 (2014-11-11)
 
