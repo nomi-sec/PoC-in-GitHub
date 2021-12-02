@@ -2485,14 +2485,6 @@ In Kooboo CMS 2.1.1.0, it is possible to upload a remote shell (e.g., aspx) to t
 
 - [l00neyhacker/CVE-2021-36582](https://github.com/l00neyhacker/CVE-2021-36582)
 
-### CVE-2021-36746 (2021-07-20)
-
-<code>
-Blackboard Learn through 9.1 allows XSS by an authenticated user via the Assignment Instructions HTML editor.
-</code>
-
-- [cseasholtz/CVE-2021-36746](https://github.com/cseasholtz/CVE-2021-36746)
-
 ### CVE-2021-36747 (2021-07-20)
 
 <code>
@@ -3344,6 +3336,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
+
+### CVE-2021-42325 (2021-10-12)
+
+<code>
+Froxlor through 0.10.29.1 allows SQL injection in Database/Manager/DbManagerMySQL.php via a custom DB name.
+</code>
+
+- [AK-blank/CVE-2021-42325-](https://github.com/AK-blank/CVE-2021-42325-)
 
 ### CVE-2021-42327 (2021-10-21)
 
@@ -8993,7 +8993,7 @@ An exploitable denial-of-service vulnerability exists in the X509 certificate pa
 Versions of the Official Alpine Linux Docker images (since v3.3) contain a NULL password for the `root` user. This vulnerability appears to be the result of a regression introduced in December of 2015. Due to the nature of this issue, systems deployed using affected versions of the Alpine Linux container which utilize Linux PAM, or some other mechanism which uses the system shadow file as an authentication database, may accept a NULL password for the `root` user.
 </code>
 
-- [mawinkler/smartcheck-cve-2019-5021](https://github.com/mawinkler/smartcheck-cve-2019-5021)
+- [mawinkler/c1-cs-smartcheck-cve-2019-5021](https://github.com/mawinkler/c1-cs-smartcheck-cve-2019-5021)
 
 ### CVE-2019-5096 (2019-12-03)
 
@@ -13721,6 +13721,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
 - [Saeed22487/CVE-2018-9995](https://github.com/Saeed22487/CVE-2018-9995)
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
+- [dearpan/cve-2018-9995](https://github.com/dearpan/cve-2018-9995)
 
 ### CVE-2018-10118 (2018-04-15)
 
