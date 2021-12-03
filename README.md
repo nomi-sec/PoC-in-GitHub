@@ -2454,6 +2454,14 @@ Wowza Streaming Engine through 4.8.11+5 could allow an authenticated, remote att
 
 - [N4nj0/CVE-2021-35492](https://github.com/N4nj0/CVE-2021-35492)
 
+### CVE-2021-35616 (2021-10-20)
+
+<code>
+Vulnerability in the Oracle Transportation Management product of Oracle Supply Chain (component: UI Infrastructure). The supported version that is affected is 6.4.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Transportation Management. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Transportation Management accessible data as well as unauthorized read access to a subset of Oracle Transportation Management accessible data. CVSS 3.1 Base Score 5.4 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N).
+</code>
+
+- [Ofirhamam/OracleOTM](https://github.com/Ofirhamam/OracleOTM)
+
 ### CVE-2021-35956 (2021-06-30)
 
 <code>
@@ -3305,6 +3313,15 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 
 ### CVE-2021-41822
 - [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
+
+### CVE-2021-42008 (2021-10-04)
+
+<code>
+The decode_data function in drivers/net/hamradio/6pack.c in the Linux kernel before 5.13.13 has a slab out-of-bounds write. Input from a process that has the CAP_NET_ADMIN capability can lead to root access.
+</code>
+
+- [numanturle/CVE-2021-42008](https://github.com/numanturle/CVE-2021-42008)
+- [0xdevil/CVE-2021-42008](https://github.com/0xdevil/CVE-2021-42008)
 
 ### CVE-2021-42013 (2021-10-07)
 
@@ -13413,6 +13430,7 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
 - [w16692926717/CVE-2018-8174_EXP](https://github.com/w16692926717/CVE-2018-8174_EXP)
 - [lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp)
+- [sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP)
 
 ### CVE-2018-8208 (2018-06-14)
 
@@ -20306,6 +20324,7 @@ The findMacroMarker function in parserLib.pas in Rejetto HTTP File Server (aks H
 - [roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py)
 - [Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287](https://github.com/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287)
 - [SlizBinksman/THM-Steel_Mountain-CVE-2014-6287](https://github.com/SlizBinksman/THM-Steel_Mountain-CVE-2014-6287)
+- [Mr-Intern/thm_steelmountain_CVE-2014-6287](https://github.com/Mr-Intern/thm_steelmountain_CVE-2014-6287)
 
 ### CVE-2014-6332 (2014-11-11)
 
@@ -22191,6 +22210,14 @@ Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and ea
 </code>
 
 - [alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991)
+
+### CVE-2002-20001 (2021-11-11)
+
+<code>
+The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and trigger expensive server-side DHE modular-exponentiation calculations, aka a D(HE)ater attack. The client needs very little CPU resources and network bandwidth. The attack may be more disruptive in cases where a client can require a server to select its largest supported key size. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE.
+</code>
+
+- [Balasys/dheater](https://github.com/Balasys/dheater)
 
 
 ## 2001
