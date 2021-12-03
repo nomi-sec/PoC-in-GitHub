@@ -2139,7 +2139,8 @@ Ampache is an open source web based audio/video streaming application and file m
 check-spelling is a github action which provides CI spell checking. In affected versions and for a repository with the [check-spelling action](https://github.com/marketplace/actions/check-spelling) enabled that triggers on `pull_request_target` (or `schedule`), an attacker can send a crafted Pull Request that causes a `GITHUB_TOKEN` to be exposed. With the `GITHUB_TOKEN`, it's possible to push commits to the repository bypassing standard approval processes. Commits to the repository could then steal any/all secrets available to the repository. As a workaround users may can either: [Disable the workflow](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow) until you've fixed all branches or Set repository to [Allow specific actions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository#allowing-specific-actions-to-run). check-spelling isn't a verified creator and it certainly won't be anytime soon. You could then explicitly add other actions that your repository uses. Set repository [Workflow permissions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository#setting-the-permissions-of-the-github_token-for-your-repository) to `Read repository contents permission`. Workflows using `check-spelling/check-spelling@main` will get the fix automatically. Workflows using a pinned sha or tagged version will need to change the affected workflows for all repository branches to the latest version. Users can verify who and which Pull Requests have been running the action by looking up the spelling.yml action in the Actions tab of their repositories, e.g., https://github.com/check-spelling/check-spelling/actions/workflows/spelling.yml - you can filter PRs by adding ?query=event%3Apull_request_target, e.g., https://github.com/check-spelling/check-spelling/actions/workflows/spelling.yml?query=event%3Apull_request_target.
 </code>
 
-- [MaximeSchlegel/AMUM2-CVE-2021-32724-Target](https://github.com/MaximeSchlegel/AMUM2-CVE-2021-32724-Target)
+- [JeSuisUnAttaquant/AMUM2-CVE-2021-32724-Target](https://github.com/JeSuisUnAttaquant/AMUM2-CVE-2021-32724-Target)
+- [MaximeSchlegel/CVE-2021-32724-Target](https://github.com/MaximeSchlegel/CVE-2021-32724-Target)
 
 ### CVE-2021-32789 (2021-07-26)
 
@@ -2628,6 +2629,7 @@ A SQL injection vulnerability exists in version 3.0.2 of Hotel Druid when SQLite
 </code>
 
 - [dievus/CVE-2021-37832](https://github.com/dievus/CVE-2021-37832)
+- [AK-blank/CVE-2021-37832](https://github.com/AK-blank/CVE-2021-37832)
 
 ### CVE-2021-37833 (2021-08-03)
 
@@ -20959,7 +20961,7 @@ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured
 </code>
 
 - [drone789/CVE-2012-1823](https://github.com/drone789/CVE-2012-1823)
-- [gamamaru6005/oscp_scripts-1](https://github.com/gamamaru6005/oscp_scripts-1)
+- [tardummy01/oscp_scripts-1](https://github.com/tardummy01/oscp_scripts-1)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 
