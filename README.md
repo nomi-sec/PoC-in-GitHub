@@ -577,6 +577,14 @@ Acrobat Reader DC versions 2020.013.20074 (and earlier), 2020.001.30018 (and ear
 - [NattiSamson/CVE-2021-21042](https://github.com/NattiSamson/CVE-2021-21042)
 - [r1l4-i3pur1l4/CVE-2021-21042](https://github.com/r1l4-i3pur1l4/CVE-2021-21042)
 
+### CVE-2021-21086 (2021-09-02)
+
+<code>
+Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by an Out-of-bounds Write vulnerability in the CoolType library. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [infobyte/Exploit-CVE-2021-21086](https://github.com/infobyte/Exploit-CVE-2021-21086)
+
 ### CVE-2021-21110 (2021-01-08)
 
 <code>
@@ -3460,6 +3468,9 @@ An issue was discovered in the character definitions of the Unicode Specificatio
 </code>
 
 - [js-on/CVE-2021-42694](https://github.com/js-on/CVE-2021-42694)
+
+### CVE-2021-42835
+- [netanelc305/PlEXcalaison](https://github.com/netanelc305/PlEXcalaison)
 
 ### CVE-2021-43032 (2021-11-03)
 
@@ -12945,7 +12956,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 
 - [acole76/cve-2018-6574](https://github.com/acole76/cve-2018-6574)
 - [neargle/CVE-2018-6574-POC](https://github.com/neargle/CVE-2018-6574-POC)
-- [willbo4r/go-get-rce](https://github.com/willbo4r/go-get-rce)
+- [wb4r/go-get-rce](https://github.com/wb4r/go-get-rce)
 - [ahmetmanga/go-get-rce](https://github.com/ahmetmanga/go-get-rce)
 - [ahmetmanga/cve-2018-6574](https://github.com/ahmetmanga/cve-2018-6574)
 - [kenprice/cve-2018-6574](https://github.com/kenprice/cve-2018-6574)
