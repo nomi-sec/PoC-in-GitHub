@@ -1252,7 +1252,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [march0s1as/CVE-2021-26084](https://github.com/march0s1as/CVE-2021-26084)
 - [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
 - [rootsmadi/CVE-2021-26084](https://github.com/rootsmadi/CVE-2021-26084)
-- [p1gz/CVE-2021-26084-Confluence-OGNL](https://github.com/p1gz/CVE-2021-26084-Confluence-OGNL)
+- [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
 - [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
 - [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
@@ -16000,7 +16000,7 @@ A Remote Code Execution vulnerability in HPE Intelligent Management Center (iMC)
 An issue was discovered in the node-serialize package 0.0.4 for Node.js. Untrusted data passed into the unserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE).
 </code>
 
-- [p1gz/CVE-2017-5941-NodeJS-RCE](https://github.com/p1gz/CVE-2017-5941-NodeJS-RCE)
+- [z0edff0x3d/CVE-2017-5941-NodeJS-RCE](https://github.com/z0edff0x3d/CVE-2017-5941-NodeJS-RCE)
 
 ### CVE-2017-6008 (2017-09-13)
 
