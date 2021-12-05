@@ -1435,6 +1435,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [hosch3n/ProxyVulns](https://github.com/hosch3n/ProxyVulns)
 - [Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522)
 - [yaoxiaoangry3/Flangvik](https://github.com/yaoxiaoangry3/Flangvik)
+- [thau0x01/poc_proxylogon](https://github.com/thau0x01/poc_proxylogon)
 
 ### CVE-2021-26857 (2021-03-02)
 
