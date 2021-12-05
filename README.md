@@ -3115,6 +3115,14 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 ### CVE-2021-41074
 - [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
 
+### CVE-2021-41081 (2021-11-10)
+
+<code>
+Zoho ManageEngine Network Configuration Manager before ﻿﻿125465 is vulnerable to SQL Injection in a configuration search.
+</code>
+
+- [sudaiv/CVE-2021-41081](https://github.com/sudaiv/CVE-2021-41081)
+
 ### CVE-2021-41277 (2021-11-17)
 
 <code>
