@@ -3146,6 +3146,7 @@ Metabase is an open source data analytics platform. In affected versions a secur
 - [kaizensecurity/CVE-2021-41277](https://github.com/kaizensecurity/CVE-2021-41277)
 - [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [TheLastVvV/CVE-2021-41277](https://github.com/TheLastVvV/CVE-2021-41277)
+- [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
 
 ### CVE-2021-41351 (2021-11-09)
 
