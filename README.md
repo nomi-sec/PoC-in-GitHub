@@ -910,6 +910,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [PenTestical/CVE-2021-22204](https://github.com/PenTestical/CVE-2021-22204)
 - [AssassinUKG/CVE-2021-22204](https://github.com/AssassinUKG/CVE-2021-22204)
 - [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
+- [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -7366,6 +7367,7 @@ An issue was discovered in Observium Professional, Enterprise &amp; Community 20
 The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020.
 </code>
 
+- [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
@@ -8266,6 +8268,14 @@ When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in 
 - [Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232](https://github.com/Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232)
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
 
+### CVE-2019-0539 (2019-01-08)
+
+<code>
+A remote code execution vulnerability exists in the way that the Chakra scripting engine handles objects in memory in Microsoft Edge, aka &quot;Chakra Scripting Engine Memory Corruption Vulnerability.&quot; This affects Microsoft Edge, ChakraCore. This CVE ID is unique from CVE-2019-0567, CVE-2019-0568.
+</code>
+
+- [0x43434343/CVE-2019-0539](https://github.com/0x43434343/CVE-2019-0539)
+
 ### CVE-2019-0604 (2019-03-05)
 
 <code>
@@ -8379,6 +8389,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [cvencoder/cve-2019-0708](https://github.com/cvencoder/cve-2019-0708)
 - [ze0r/CVE-2019-0708-exp](https://github.com/ze0r/CVE-2019-0708-exp)
 - [mekhalleh/cve-2019-0708](https://github.com/mekhalleh/cve-2019-0708)
+- [cve-2019-0708-poc/cve-2019-0708](https://github.com/cve-2019-0708-poc/cve-2019-0708)
 - [andripwn/CVE-2019-0708](https://github.com/andripwn/CVE-2019-0708)
 - [0xeb-bp/bluekeep](https://github.com/0xeb-bp/bluekeep)
 - [ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708)
@@ -8446,6 +8457,14 @@ A security feature bypass vulnerability exists when Internet Explorer VBScript e
 </code>
 
 - [ruthlezs/ie11_vbscript_exploit](https://github.com/ruthlezs/ie11_vbscript_exploit)
+
+### CVE-2019-0785 (2019-07-15)
+
+<code>
+A memory corruption vulnerability exists in the Windows Server DHCP service when an attacker sends specially crafted packets to a DHCP failover server, aka 'Windows DHCP Server Remote Code Execution Vulnerability'.
+</code>
+
+- [Jaky5155/CVE-2019-0785](https://github.com/Jaky5155/CVE-2019-0785)
 
 ### CVE-2019-0803 (2019-04-09)
 
@@ -10419,6 +10438,7 @@ Wind River VxWorks has a Buffer Overflow in the TCP component (issue 1 of 4). Th
 In OpenWrt LuCI through 0.10, the endpoints admin/status/realtime/bandwidth_status and admin/status/realtime/wireless_status of the web application are affected by a command injection vulnerability.
 </code>
 
+- [HACHp1/LuCI_RCE_exp](https://github.com/HACHp1/LuCI_RCE_exp)
 - [roguedream/lede-17.01.3](https://github.com/roguedream/lede-17.01.3)
 
 ### CVE-2019-12314 (2019-05-24)
@@ -10446,6 +10466,14 @@ The 8.1.1 and 8.2.0 releases of Apache Solr contain an insecure setting for the 
 
 - [jas502n/CVE-2019-12409](https://github.com/jas502n/CVE-2019-12409)
 
+### CVE-2019-12453 (2019-07-19)
+
+<code>
+In MicroStrategy Web before 10.1 patch 10, stored XSS is possible in the FLTB parameter due to missing input validation.
+</code>
+
+- [undefinedmode/CVE-2019-12453](https://github.com/undefinedmode/CVE-2019-12453)
+
 ### CVE-2019-12460 (2019-05-30)
 
 <code>
@@ -10453,6 +10481,14 @@ Web Port 1.19.1 allows XSS via the /access/setup type parameter.
 </code>
 
 - [EmreOvunc/WebPort-v1.19.1-Reflected-XSS](https://github.com/EmreOvunc/WebPort-v1.19.1-Reflected-XSS)
+
+### CVE-2019-12475 (2019-07-17)
+
+<code>
+In MicroStrategy Web before 10.4.6, there is stored XSS in metric due to insufficient input validation.
+</code>
+
+- [undefinedmode/CVE-2019-12475](https://github.com/undefinedmode/CVE-2019-12475)
 
 ### CVE-2019-12476 (2019-06-17)
 
@@ -10660,6 +10696,14 @@ Compal CH7465LG CH7465LG-NCIP-6.12.18.24-5p8-NOSH devices have Incorrect Access 
 
 - [x1tan/CVE-2019-13025](https://github.com/x1tan/CVE-2019-13025)
 
+### CVE-2019-13027 (2019-07-12)
+
+<code>
+Realization Concerto Critical Chain Planner (aka CCPM) 5.10.8071 has SQL Injection in at least in the taskupdt/taskdetails.aspx webpage via the projectname parameter.
+</code>
+
+- [IckoGZ/CVE-2019-13027](https://github.com/IckoGZ/CVE-2019-13027)
+
 ### CVE-2019-13051 (2019-10-09)
 
 <code>
@@ -10735,6 +10779,14 @@ Smanos W100 1.0.0 devices have Insecure Permissions, exploitable by an attacker 
 </code>
 
 - [lodi-g/CVE-2019-13361](https://github.com/lodi-g/CVE-2019-13361)
+
+### CVE-2019-13403 (2019-07-17)
+
+<code>
+Temenos CWX version 8.9 has an Broken Access Control vulnerability in the module /CWX/Employee/EmployeeEdit2.aspx, leading to the viewing of user information.
+</code>
+
+- [B3Bo1d/CVE-2019-13403](https://github.com/B3Bo1d/CVE-2019-13403)
 
 ### CVE-2019-13404 (2019-07-07)
 
@@ -13039,6 +13091,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Devang-Solanki/CVE-2018-6574](https://github.com/Devang-Solanki/CVE-2018-6574)
 - [ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574)
 - [imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC)
+- [thpless/CVE-2018-6574](https://github.com/thpless/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
