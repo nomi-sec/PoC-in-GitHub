@@ -3629,10 +3629,11 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [zer0yu/CVE-2021-43798](https://github.com/zer0yu/CVE-2021-43798)
 - [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [Mr-xn/CVE-2021-43798](https://github.com/Mr-xn/CVE-2021-43798)
-- [Yang-Zhongshan/grafana-fileread-0day-poc-CVE-2021-43798](https://github.com/Yang-Zhongshan/grafana-fileread-0day-poc-CVE-2021-43798)
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
 - [kenuosec/grafanaExp](https://github.com/kenuosec/grafanaExp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
+- [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
+- [lfz97/CVE-2021-43798-Grafana-File-Read](https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
