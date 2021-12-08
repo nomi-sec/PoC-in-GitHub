@@ -3618,7 +3618,12 @@ Barcode is a GLPI plugin for printing barcodes and QR codes. GLPI instances vers
 
 - [AK-blank/CVE-2021-43778](https://github.com/AK-blank/CVE-2021-43778)
 
-### CVE-2021-43798
+### CVE-2021-43798 (2021-12-07)
+
+<code>
+Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
+</code>
+
 - [taythebot/CVE-2021-43798](https://github.com/taythebot/CVE-2021-43798)
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
 - [zer0yu/CVE-2021-43798](https://github.com/zer0yu/CVE-2021-43798)
@@ -13180,7 +13185,7 @@ VMware NSX SD-WAN Edge by VeloCloud prior to version 3.1.0 contains a command in
 VMware ESXi 6.7 without ESXi670-201811401-BG and VMware ESXi 6.5 without ESXi650-201811301-BG, VMware ESXi 6.0 without ESXi600-201811401-BG, VMware Workstation 15, VMware Workstation 14.1.3 or below, VMware Fusion 11, VMware Fusion 10.1.3 or below contain uninitialized stack memory usage in the vmxnet3 virtual network adapter which may allow a guest to execute code on the host.
 </code>
 
-- [heaphopopotamus/vmxnet3Hunter](https://github.com/heaphopopotamus/vmxnet3Hunter)
+- [redteamnow/vmxnet3Hunter](https://github.com/redteamnow/vmxnet3Hunter)
 
 ### CVE-2018-7171 (2018-03-30)
 
