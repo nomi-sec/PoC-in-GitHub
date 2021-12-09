@@ -2840,6 +2840,14 @@ Static (Persistent) XSS Vulnerability exists in version 4.3.0 of Yclas when usin
 
 - [security-n/CVE-2021-38710](https://github.com/security-n/CVE-2021-38710)
 
+### CVE-2021-38759 (2021-12-07)
+
+<code>
+Raspberry Pi OS through 5.10 has the raspberry default password for the pi account. If not changed, attackers can gain administrator privileges.
+</code>
+
+- [joanbono/CVE-2021-38759](https://github.com/joanbono/CVE-2021-38759)
+
 ### CVE-2021-39115 (2021-09-01)
 
 <code>
@@ -3643,6 +3651,14 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
+
+### CVE-2021-44077 (2021-11-28)
+
+<code>
+Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 10530, and SupportCenter Plus before 11014 are vulnerable to unauthenticated remote code execution. This is related to /RestAPI URLs in a servlet, and ImportTechnicians in the Struts configuration.
+</code>
+
+- [horizon3ai/CVE-2021-44077](https://github.com/horizon3ai/CVE-2021-44077)
 
 ### CVE-2021-44217
 - [Hyperkopite/CVE-2021-44217](https://github.com/Hyperkopite/CVE-2021-44217)
