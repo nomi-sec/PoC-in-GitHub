@@ -1647,6 +1647,7 @@ A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.
 </code>
 
 - [Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928)
+- [shamo0/CVE-2021-27928-POC](https://github.com/shamo0/CVE-2021-27928-POC)
 
 ### CVE-2021-27963 (2021-03-04)
 
@@ -3648,6 +3649,10 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
 - [lfz97/CVE-2021-43798-Grafana-File-Read](https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
+- [z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798)
+- [culprits/Grafana_POC-CVE-2021-43798](https://github.com/culprits/Grafana_POC-CVE-2021-43798)
+- [julesbozouklian/CVE-2021-43798](https://github.com/julesbozouklian/CVE-2021-43798)
+- [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
