@@ -1286,6 +1286,9 @@ Affected versions of Atlassian Jira Server and Data Center allow remote attacker
 
 - [ColdFusionX/CVE-2021-26086](https://github.com/ColdFusionX/CVE-2021-26086)
 
+### CVE-2021-26102
+- [SleepyCofe/CVE-2021-26102](https://github.com/SleepyCofe/CVE-2021-26102)
+
 ### CVE-2021-26119 (2021-02-21)
 
 <code>
@@ -9824,6 +9827,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
 - [1nf1n17yk1ng/CVE-2019-9053](https://github.com/1nf1n17yk1ng/CVE-2019-9053)
 - [padsalatushal/CVE-2019-9053](https://github.com/padsalatushal/CVE-2019-9053)
+- [Marbocatcat/46635.py](https://github.com/Marbocatcat/46635.py)
 
 ### CVE-2019-9081 (2019-02-24)
 
