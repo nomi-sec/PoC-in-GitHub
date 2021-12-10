@@ -3680,6 +3680,13 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [Szczurowsky/Log4j-0Day-Fix](https://github.com/Szczurowsky/Log4j-0Day-Fix)
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
+- [zlepper/CVE-2021-44228-Test-Server](https://github.com/zlepper/CVE-2021-44228-Test-Server)
+- [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
+- [sohtsuka/CVE-2021-44228-PoC](https://github.com/sohtsuka/CVE-2021-44228-PoC)
+- [racisz/CVE-2021-44228-test](https://github.com/racisz/CVE-2021-44228-test)
+- [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
+- [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
+- [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
 
 
 ## 2020
@@ -18946,14 +18953,6 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 
 - [ISSAPolska/CVE-2016-10761](https://github.com/ISSAPolska/CVE-2016-10761)
 
-### CVE-2016-10956 (2019-09-16)
-
-<code>
-The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php.
-</code>
-
-- [p0dalirius/CVE-2016-10956_mail_masta](https://github.com/p0dalirius/CVE-2016-10956_mail_masta)
-
 ### CVE-2016-1000027 (2020-01-02)
 
 <code>
@@ -21163,6 +21162,7 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 - [AlexJS6/CVE-2012-2982_Python](https://github.com/AlexJS6/CVE-2012-2982_Python)
 - [Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982)
 - [JohnHammond/CVE-2012-2982](https://github.com/JohnHammond/CVE-2012-2982)
+- [R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
 
@@ -22439,7 +22439,6 @@ Land IP denial of service.
 </code>
 
 - [pexmee/CVE-1999-0016-Land-DOS-tool](https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool)
-- [Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC)
 
 ### CVE-1999-0532
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
