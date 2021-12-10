@@ -11680,6 +11680,14 @@ In WordPress before 5.2.4, unauthenticated viewing of certain content is possibl
 
 - [rhbb/CVE-2019-17671](https://github.com/rhbb/CVE-2019-17671)
 
+### CVE-2019-18276 (2019-11-27)
+
+<code>
+An issue was discovered in disable_priv_mode in shell.c in GNU Bash through 5.0 patch 11. By default, if Bash is run with its effective UID not equal to its real UID, it will drop privileges by setting its effective UID to its real UID. However, it does so incorrectly. On Linux and other systems that support &quot;saved UID&quot; functionality, the saved UID is not dropped. An attacker with command execution in the shell can use &quot;enable -f&quot; for runtime loading of a new builtin, which can be a shared object that calls setuid() and therefore regains privileges. However, binaries running with an effective UID of 0 are unaffected.
+</code>
+
+- [M-ensimag/CVE-2019-18276](https://github.com/M-ensimag/CVE-2019-18276)
+
 ### CVE-2019-18371 (2019-10-23)
 
 <code>
@@ -12344,6 +12352,14 @@ Netatalk before 3.1.12 is vulnerable to an out of bounds write in dsi_opensess.c
 </code>
 
 - [SachinThanushka/CVE-2018-1160](https://github.com/SachinThanushka/CVE-2018-1160)
+
+### CVE-2018-1207 (2018-03-23)
+
+<code>
+Dell EMC iDRAC7/iDRAC8, versions prior to 2.52.52.52, contain CGI injection vulnerability which could be used to execute remote code. A remote unauthenticated attacker may potentially be able to use CGI variables to execute remote code.
+</code>
+
+- [mgargiullo/cve-2018-1207](https://github.com/mgargiullo/cve-2018-1207)
 
 ### CVE-2018-1235 (2018-05-29)
 
