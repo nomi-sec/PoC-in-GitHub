@@ -2931,14 +2931,6 @@ An issue was discovered in Concrete CMS before 8.5.7. The Dashboard allows a use
 
 - [S1lkys/CVE-2021-40101](https://github.com/S1lkys/CVE-2021-40101)
 
-### CVE-2021-40154 (2021-12-01)
-
-<code>
-NXP LPC55S69 devices before A3 have a buffer over-read via a crafted wlength value in a GET Descriptor Configuration request during use of USB In-System Programming (ISP) mode. This discloses protected flash memory.
-</code>
-
-- [Xen1thLabs-AE/CVE-2021-40154](https://github.com/Xen1thLabs-AE/CVE-2021-40154)
-
 ### CVE-2021-40222 (2021-09-09)
 
 <code>
@@ -3670,6 +3662,12 @@ Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 105
 
 ### CVE-2021-44217
 - [Hyperkopite/CVE-2021-44217](https://github.com/Hyperkopite/CVE-2021-44217)
+
+### CVE-2021-44228
+- [Glease/Healer](https://github.com/Glease/Healer)
+- [jacobtread/L4J-Vuln-Patch](https://github.com/jacobtread/L4J-Vuln-Patch)
+- [UltraVanilla/LogJackFix](https://github.com/UltraVanilla/LogJackFix)
+- [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
 
 
 ## 2020
