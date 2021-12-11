@@ -2793,6 +2793,7 @@ Remote Desktop Client Remote Code Execution Vulnerability
 </code>
 
 - [DarkSprings/CVE-2021-38666-poc](https://github.com/DarkSprings/CVE-2021-38666-poc)
+- [JaneMandy/CVE-2021-38666](https://github.com/JaneMandy/CVE-2021-38666)
 
 ### CVE-2021-38699 (2021-08-15)
 
@@ -3440,6 +3441,7 @@ An issue was discovered in the Bidirectional Algorithm in the Unicode Specificat
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
 - [pierDipi/unicode-control-characters-action](https://github.com/pierDipi/unicode-control-characters-action)
+- [waseeld/CVE-2021-42574](https://github.com/waseeld/CVE-2021-42574)
 
 ### CVE-2021-42662 (2021-11-05)
 
@@ -3683,7 +3685,6 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
 - [zlepper/CVE-2021-44228-Test-Server](https://github.com/zlepper/CVE-2021-44228-Test-Server)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
-- [sohtsuka/CVE-2021-44228-PoC](https://github.com/sohtsuka/CVE-2021-44228-PoC)
 - [nkoneko/VictimApp](https://github.com/nkoneko/VictimApp)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
 - [1in9e/Apache-Log4j2-RCE](https://github.com/1in9e/Apache-Log4j2-RCE)
@@ -3708,6 +3709,15 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [phoswald/sample-ldap-exploit](https://github.com/phoswald/sample-ldap-exploit)
 - [rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server)
 - [ssstonebraker/log4j_CVE-2021-44228_tester](https://github.com/ssstonebraker/log4j_CVE-2021-44228_tester)
+- [saharNooby/log4j-vulnerability-patcher-agent](https://github.com/saharNooby/log4j-vulnerability-patcher-agent)
+- [f0ng/log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)
+- [M1ngGod/CVE-2021-44228-Log4j-lookup-Rce](https://github.com/M1ngGod/CVE-2021-44228-Log4j-lookup-Rce)
+- [byteboycn/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/byteboycn/CVE-2021-44228-Apache-Log4j-Rce)
+- [lhotari/log4shell-mitigation-tester](https://github.com/lhotari/log4shell-mitigation-tester)
+- [toramanemre/log4j-rce-detect-waf-bypass](https://github.com/toramanemre/log4j-rce-detect-waf-bypass)
+- [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
+- [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
+- [gauthamg/log4j2021_vul_test](https://github.com/gauthamg/log4j2021_vul_test)
 
 
 ## 2020
@@ -16048,6 +16058,7 @@ In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket
 </code>
 
 - [pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645)
+- [sefayfr/log4j-RCE](https://github.com/sefayfr/log4j-RCE)
 
 ### CVE-2017-5674 (2017-03-13)
 
