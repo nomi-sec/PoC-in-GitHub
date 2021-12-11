@@ -3390,6 +3390,14 @@ Revisor Video Management System (VMS) before 2.0.0 has a directory traversal vul
 
 - [jet-pentest/CVE-2021-42261](https://github.com/jet-pentest/CVE-2021-42261)
 
+### CVE-2021-42278 (2021-11-09)
+
+<code>
+Active Directory Domain Services Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-42282, CVE-2021-42287, CVE-2021-42291.
+</code>
+
+- [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
+
 ### CVE-2021-42292 (2021-11-09)
 
 <code>
@@ -3650,6 +3658,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [culprits/Grafana_POC-CVE-2021-43798](https://github.com/culprits/Grafana_POC-CVE-2021-43798)
 - [julesbozouklian/CVE-2021-43798](https://github.com/julesbozouklian/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
+- [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -3680,6 +3689,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [boundaryx/cloudrasp-log4j2](https://github.com/boundaryx/cloudrasp-log4j2)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
 - [y35uishere/Log4j2-CVE-2021-44228](https://github.com/y35uishere/Log4j2-CVE-2021-44228)
+- [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [Szczurowsky/Log4j-0Day-Fix](https://github.com/Szczurowsky/Log4j-0Day-Fix)
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
@@ -3718,6 +3728,16 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
 - [gauthamg/log4j2021_vul_test](https://github.com/gauthamg/log4j2021_vul_test)
+- [js-on/jndiRep](https://github.com/js-on/jndiRep)
+- [leetxyz/CVE-2021-44228-Advisories](https://github.com/leetxyz/CVE-2021-44228-Advisories)
+- [cado-security/log4shell](https://github.com/cado-security/log4shell)
+- [PwnC00re/Log4J_0day_RCE](https://github.com/PwnC00re/Log4J_0day_RCE)
+- [Mormoroth/log4j-vulnerable-app-cve-2021-44228-terraform](https://github.com/Mormoroth/log4j-vulnerable-app-cve-2021-44228-terraform)
+- [trevalkov/javalogslulz](https://github.com/trevalkov/javalogslulz)
+- [Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs](https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs)
+- [zzzz0317/log4j2-vulnerable-spring-app](https://github.com/zzzz0317/log4j2-vulnerable-spring-app)
+- [datadavev/test-44228](https://github.com/datadavev/test-44228)
+- [darkarnium/CVE-2021-44228](https://github.com/darkarnium/CVE-2021-44228)
 
 
 ## 2020
@@ -14602,6 +14622,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [Sait-Nuri/CVE-2018-15473](https://github.com/Sait-Nuri/CVE-2018-15473)
 - [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
 - [MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473)
+- [66quentin/shodan-CVE-2018-15473](https://github.com/66quentin/shodan-CVE-2018-15473)
 
 ### CVE-2018-15499 (2018-08-24)
 
