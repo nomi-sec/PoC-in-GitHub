@@ -3669,6 +3669,7 @@ Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 105
 Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. In previous releases (&gt;2.10) this behavior can be mitigated by setting system property &quot;log4j2.formatMsgNoLookups&quot; to “true” or by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class). Java 8u121 (see https://www.oracle.com/java/technologies/javase/8u121-relnotes.html) protects against remote code execution by defaulting &quot;com.sun.jndi.rmi.object.trustURLCodebase&quot; and &quot;com.sun.jndi.cosnaming.object.trustURLCodebase&quot; to &quot;false&quot;.
 </code>
 
+- [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jacobtread/L4J-Vuln-Patch](https://github.com/jacobtread/L4J-Vuln-Patch)
 - [UltraVanilla/LogJackFix](https://github.com/UltraVanilla/LogJackFix)
@@ -3683,8 +3684,9 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [zlepper/CVE-2021-44228-Test-Server](https://github.com/zlepper/CVE-2021-44228-Test-Server)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [sohtsuka/CVE-2021-44228-PoC](https://github.com/sohtsuka/CVE-2021-44228-PoC)
-- [racisz/CVE-2021-44228-test](https://github.com/racisz/CVE-2021-44228-test)
+- [nkoneko/VictimApp](https://github.com/nkoneko/VictimApp)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
+- [1in9e/Apache-Log4j2-RCE](https://github.com/1in9e/Apache-Log4j2-RCE)
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
@@ -3694,10 +3696,18 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [StandB/CVE-2021-44228-poc](https://github.com/StandB/CVE-2021-44228-poc)
 - [seamus-dev/CVE-2021-44228](https://github.com/seamus-dev/CVE-2021-44228)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
+- [alerithe/log4j-patcher](https://github.com/alerithe/log4j-patcher)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
+- [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
 - [alexandreroman/cve-2021-44228-workaround-buildpack](https://github.com/alexandreroman/cve-2021-44228-workaround-buildpack)
 - [Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot)
+- [racoon-rac/CVE-2021-44228](https://github.com/racoon-rac/CVE-2021-44228)
+- [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
+- [binganao/Log4j2-RCE](https://github.com/binganao/Log4j2-RCE)
+- [phoswald/sample-ldap-exploit](https://github.com/phoswald/sample-ldap-exploit)
+- [rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server)
+- [ssstonebraker/log4j_CVE-2021-44228_tester](https://github.com/ssstonebraker/log4j_CVE-2021-44228_tester)
 
 
 ## 2020
@@ -5227,8 +5237,8 @@ A deserialization of untrusted data vulnernerability exists in rails &lt; 5.2.4.
 Uncontrolled resource consumption in `jpeg-js` before 0.4.0 may allow attacker to launch denial of service attacks using specially a crafted JPEG image.
 </code>
 
-- [OllieKillean/get-pixels-updated](https://github.com/OllieKillean/get-pixels-updated)
-- [OllieKillean/save-pixels-updated](https://github.com/OllieKillean/save-pixels-updated)
+- [knokbak/get-pixels-updated](https://github.com/knokbak/get-pixels-updated)
+- [knokbak/save-pixels-updated](https://github.com/knokbak/save-pixels-updated)
 
 ### CVE-2020-8193 (2020-07-10)
 
@@ -22017,6 +22027,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [1nf1n17yk1ng/usermap_script_CVE-2007-2447](https://github.com/1nf1n17yk1ng/usermap_script_CVE-2007-2447)
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 - [xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447)
+- [SamHackingArticles/CVE-2007-2447](https://github.com/SamHackingArticles/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
