@@ -3686,7 +3686,18 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [racisz/CVE-2021-44228-test](https://github.com/racisz/CVE-2021-44228-test)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
+- [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
+- [OopsieWoopsie/mc-log4j-patcher](https://github.com/OopsieWoopsie/mc-log4j-patcher)
+- [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
+- [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
+- [StandB/CVE-2021-44228-poc](https://github.com/StandB/CVE-2021-44228-poc)
+- [seamus-dev/CVE-2021-44228](https://github.com/seamus-dev/CVE-2021-44228)
+- [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
+- [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
+- [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
+- [alexandreroman/cve-2021-44228-workaround-buildpack](https://github.com/alexandreroman/cve-2021-44228-workaround-buildpack)
+- [Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot)
 
 
 ## 2020
@@ -17103,6 +17114,7 @@ When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC
 - [ygouzerh/CVE-2017-12617](https://github.com/ygouzerh/CVE-2017-12617)
 - [tyranteye666/tomcat-cve-2017-12617](https://github.com/tyranteye666/tomcat-cve-2017-12617)
 - [jptr218/tc_hack](https://github.com/jptr218/tc_hack)
+- [LongWayHomie/CVE-2017-12617](https://github.com/LongWayHomie/CVE-2017-12617)
 
 ### CVE-2017-12624 (2017-11-14)
 
@@ -22439,6 +22451,7 @@ Land IP denial of service.
 </code>
 
 - [pexmee/CVE-1999-0016-Land-DOS-tool](https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool)
+- [Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC)
 
 ### CVE-1999-0532
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
