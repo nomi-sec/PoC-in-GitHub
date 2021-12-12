@@ -1193,6 +1193,7 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646)
 - [Yang0615777/PocList](https://github.com/Yang0615777/PocList)
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
+- [j2ekim/CVE-2021-25646](https://github.com/j2ekim/CVE-2021-25646)
 
 ### CVE-2021-25679 (2021-04-20)
 
@@ -2536,6 +2537,7 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 - [BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749)
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
 - [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
+- [Jun-5heng/CVE-2021-36749](https://github.com/Jun-5heng/CVE-2021-36749)
 
 ### CVE-2021-36798 (2021-08-09)
 
@@ -3668,6 +3670,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
 - [pedrohavay/exploit-grafana-CVE-2021-43798](https://github.com/pedrohavay/exploit-grafana-CVE-2021-43798)
+- [gixxyboy/CVE-2021-43798](https://github.com/gixxyboy/CVE-2021-43798)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -3686,7 +3689,7 @@ Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 105
 ### CVE-2021-44228 (2021-12-10)
 
 <code>
-Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. In previous releases (&gt;2.10) this behavior can be mitigated by setting system property &quot;log4j2.formatMsgNoLookups&quot; to “true” or by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class). Java 8u121 (see https://www.oracle.com/java/technologies/javase/8u121-relnotes.html) protects against remote code execution by defaulting &quot;com.sun.jndi.rmi.object.trustURLCodebase&quot; and &quot;com.sun.jndi.cosnaming.object.trustURLCodebase&quot; to &quot;false&quot;.
+Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. In previous releases (&gt;2.10) this behavior can be mitigated by setting system property &quot;log4j2.formatMsgNoLookups&quot; to “true” or it can be mitigated in prior releases (&lt;2.10) by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class).
 </code>
 
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
@@ -3763,12 +3766,26 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [bchaber/CVE-2021-44228](https://github.com/bchaber/CVE-2021-44228)
 - [uint0/cve-2021-44228-helpers](https://github.com/uint0/cve-2021-44228-helpers)
 - [RK800-DEV/apache-log4j-poc](https://github.com/RK800-DEV/apache-log4j-poc)
-- [sud0x00/log4j---CVE-2021-44228](https://github.com/sud0x00/log4j---CVE-2021-44228)
+- [sud0x00/log4j-CVE-2021-44228](https://github.com/sud0x00/log4j-CVE-2021-44228)
 - [mute1997/CVE-2021-44228-research](https://github.com/mute1997/CVE-2021-44228-research)
 - [myyxl/cve-2021-44228-minecraft-poc](https://github.com/myyxl/cve-2021-44228-minecraft-poc)
 - [RrUZi/Awesome-CVE-2021-44228](https://github.com/RrUZi/Awesome-CVE-2021-44228)
 - [0-x-2-2/CVE-2021-44228](https://github.com/0-x-2-2/CVE-2021-44228)
 - [Crane-Mocker/log4j-poc](https://github.com/Crane-Mocker/log4j-poc)
+- [kali-dass/CVE-2021-44228-log4Shell](https://github.com/kali-dass/CVE-2021-44228-log4Shell)
+- [pravin-pp/log4j2-CVE-2021-44228](https://github.com/pravin-pp/log4j2-CVE-2021-44228)
+- [Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228](https://github.com/Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228)
+- [urholaukkarinen/docker-log4shell](https://github.com/urholaukkarinen/docker-log4shell)
+- [ssl/scan4log4j](https://github.com/ssl/scan4log4j)
+- [infiniroot/nginx-mitigate-log4shell](https://github.com/infiniroot/nginx-mitigate-log4shell)
+- [lohanichaten/log4j-cve-2021-44228](https://github.com/lohanichaten/log4j-cve-2021-44228)
+- [authomize/log4j-log4shell-affected](https://github.com/authomize/log4j-log4shell-affected)
+- [guardicode/CVE-2021-44228_IoCs](https://github.com/guardicode/CVE-2021-44228_IoCs)
+- [fireflyingup/log4j-poc](https://github.com/fireflyingup/log4j-poc)
+- [qingtengyun/cve-2021-44228-qingteng-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-patch)
+- [qingtengyun/cve-2021-44228-qingteng-online-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-online-patch)
+- [Hydragyrum/evil-rmi-server](https://github.com/Hydragyrum/evil-rmi-server)
+- [twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab](https://github.com/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab)
 
 
 ## 2020
