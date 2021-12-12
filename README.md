@@ -3746,10 +3746,17 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs](https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs)
 - [zzzz0317/log4j2-vulnerable-spring-app](https://github.com/zzzz0317/log4j2-vulnerable-spring-app)
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
+- [zhangxvx/Log4j-Rec-CVE-2021-44228](https://github.com/zhangxvx/Log4j-Rec-CVE-2021-44228)
 - [darkarnium/CVE-2021-44228](https://github.com/darkarnium/CVE-2021-44228)
 - [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
 - [irgoncalves/f5-waf-enforce-sig-CVE-2021-44228](https://github.com/irgoncalves/f5-waf-enforce-sig-CVE-2021-44228)
 - [jeffbryner/log4j-docker-vaccine](https://github.com/jeffbryner/log4j-docker-vaccine)
+- [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
+- [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
+- [RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs](https://github.com/RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs)
+- [mzlogin/CVE-2021-44228-Demo](https://github.com/mzlogin/CVE-2021-44228-Demo)
+- [Ghost-chu/CVE-2021-44228-quickfix-script](https://github.com/Ghost-chu/CVE-2021-44228-quickfix-script)
+- [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
 
 
 ## 2020
@@ -11417,7 +11424,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
-- [west-tek/CVE-2019-16113-PoC](https://github.com/west-tek/CVE-2019-16113-PoC)
+- [zeroxninety/CVE-2019-16113-PoC](https://github.com/zeroxninety/CVE-2019-16113-PoC)
 - [hamedkohi/CVE-2019-16113](https://github.com/hamedkohi/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
 
