@@ -3398,6 +3398,14 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 
 - [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
 
+### CVE-2021-42287 (2021-11-09)
+
+<code>
+Active Directory Domain Services Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-42278, CVE-2021-42282, CVE-2021-42291.
+</code>
+
+- [cube0x0/noPac](https://github.com/cube0x0/noPac)
+
 ### CVE-2021-42292 (2021-11-09)
 
 <code>
@@ -3659,6 +3667,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [julesbozouklian/CVE-2021-43798](https://github.com/julesbozouklian/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
+- [pedrohavay/exploit-grafana-CVE-2021-43798](https://github.com/pedrohavay/exploit-grafana-CVE-2021-43798)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -3738,6 +3747,9 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [zzzz0317/log4j2-vulnerable-spring-app](https://github.com/zzzz0317/log4j2-vulnerable-spring-app)
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [darkarnium/CVE-2021-44228](https://github.com/darkarnium/CVE-2021-44228)
+- [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
+- [irgoncalves/f5-waf-enforce-sig-CVE-2021-44228](https://github.com/irgoncalves/f5-waf-enforce-sig-CVE-2021-44228)
+- [jeffbryner/log4j-docker-vaccine](https://github.com/jeffbryner/log4j-docker-vaccine)
 
 
 ## 2020
