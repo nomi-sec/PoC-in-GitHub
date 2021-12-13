@@ -3410,6 +3410,7 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 
 - [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
 - [Ridter/noPac](https://github.com/Ridter/noPac)
+- [waterrr/noPac](https://github.com/waterrr/noPac)
 
 ### CVE-2021-42287 (2021-11-09)
 
@@ -3601,6 +3602,9 @@ An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16.
 - [DarkSprings/CVE-2021-43267-POC](https://github.com/DarkSprings/CVE-2021-43267-POC)
 - [ohnonoyesyes/CVE-2021-43267](https://github.com/ohnonoyesyes/CVE-2021-43267)
 
+### CVE-2021-43326
+- [gfoss/CVE-2021-43326_Exploit](https://github.com/gfoss/CVE-2021-43326_Exploit)
+
 ### CVE-2021-43361 (-)
 
 <code>
@@ -3709,7 +3713,7 @@ Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 105
 ### CVE-2021-44228 (2021-12-10)
 
 <code>
-Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. In previous releases (&gt;2.10) this behavior can be mitigated by setting system property &quot;log4j2.formatMsgNoLookups&quot; to “true” or it can be mitigated in prior releases (&lt;2.10) by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class).
+Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. In previous releases (&gt;2.10) this behavior can be mitigated by setting system property &quot;log4j2.formatMsgNoLookups&quot; to “true” or by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class). Java 8u121 (see https://www.oracle.com/java/technologies/javase/8u121-relnotes.html) protects against remote code execution by defaulting &quot;com.sun.jndi.rmi.object.trustURLCodebase&quot; and &quot;com.sun.jndi.cosnaming.object.trustURLCodebase&quot; to &quot;false&quot;.
 </code>
 
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
@@ -3829,7 +3833,6 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [fireeye/CVE-2021-44228](https://github.com/fireeye/CVE-2021-44228)
 - [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan)
 - [rubo77/log4j_checker_beta](https://github.com/rubo77/log4j_checker_beta)
-- [ahmad4fifz-dev/CVE-2021-44228](https://github.com/ahmad4fifz-dev/CVE-2021-44228)
 - [hupe1980/scan4log4shell](https://github.com/hupe1980/scan4log4shell)
 - [thecyberneh/Log4j-RCE-Exploiter](https://github.com/thecyberneh/Log4j-RCE-Exploiter)
 - [halibobor/log4j2](https://github.com/halibobor/log4j2)
@@ -3845,7 +3848,26 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [lov3r/cve-2021-44228-log4j-exploits](https://github.com/lov3r/cve-2021-44228-log4j-exploits)
 - [sinakeshmiri/log4jScan](https://github.com/sinakeshmiri/log4jScan)
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
+- [LutziGoz/Log4Shell_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4Shell_Exploitation-Vulnerabiliy__CVE-2021-44228)
 - [0xsyr0/CVE-2021-44228-log4j-log4shell-Security-Research-Summary](https://github.com/0xsyr0/CVE-2021-44228-log4j-log4shell-Security-Research-Summary)
+- [ahmad4fifz/CVE-2021-44228-podman](https://github.com/ahmad4fifz/CVE-2021-44228-podman)
+- [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
+- [zsolt-halo/CVE-2021-44228-Spring-Boot-Test-Service](https://github.com/zsolt-halo/CVE-2021-44228-Spring-Boot-Test-Service)
+- [manuel-alvarez-alvarez/log4j-cve-2021-44228](https://github.com/manuel-alvarez-alvarez/log4j-cve-2021-44228)
+- [VNYui/CVE-2021-44228](https://github.com/VNYui/CVE-2021-44228)
+- [flxhaas/Scan-CVE-2021-44228](https://github.com/flxhaas/Scan-CVE-2021-44228)
+- [justakazh/Log4j-CVE-2021-44228](https://github.com/justakazh/Log4j-CVE-2021-44228)
+- [irgoncalves/f5-waf-quick-patch-cve-2021-44228](https://github.com/irgoncalves/f5-waf-quick-patch-cve-2021-44228)
+- [AdriDevelopsThings/check-log4j-vulnerability](https://github.com/AdriDevelopsThings/check-log4j-vulnerability)
+- [madCdan/JndiLookup](https://github.com/madCdan/JndiLookup)
+- [AlexandreHeroux/Fix-CVE-2021-44228](https://github.com/AlexandreHeroux/Fix-CVE-2021-44228)
+- [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
+- [tobiasoed/log4j-CVE-2021-44228](https://github.com/tobiasoed/log4j-CVE-2021-44228)
+- [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
+- [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
+- [taurusxin/CVE-2021-44228](https://github.com/taurusxin/CVE-2021-44228)
+- [Chelsea486MHz/ftp_over_log4j](https://github.com/Chelsea486MHz/ftp_over_log4j)
+- [yanghaoi/CVE-2021-44228_Log4Shell](https://github.com/yanghaoi/CVE-2021-44228_Log4Shell)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -16218,7 +16240,7 @@ An unprivileged network attacker could gain system privileges to provisioned Int
 Firmware in the Intel Puma 5, 6, and 7 Series might experience resource depletion or timeout, which allows a network attacker to create a denial of service via crafted network traffic.
 </code>
 
-- [TransLunarInjection/Puma6Fail](https://github.com/TransLunarInjection/Puma6Fail)
+- [LunNova/Puma6Fail](https://github.com/LunNova/Puma6Fail)
 
 ### CVE-2017-5715 (2018-01-04)
 
