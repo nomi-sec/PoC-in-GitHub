@@ -3727,7 +3727,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [StandB/CVE-2021-44228-poc](https://github.com/StandB/CVE-2021-44228-poc)
 - [seamus-dev/CVE-2021-44228](https://github.com/seamus-dev/CVE-2021-44228)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
-- [alerithe/log4j-patcher](https://github.com/alerithe/log4j-patcher)
+- [alerithe/log4noshell](https://github.com/alerithe/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
 - [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
@@ -3806,6 +3806,17 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [dotPY-hax/log4py](https://github.com/dotPY-hax/log4py)
 - [sunnyvale-it/CVE-2021-44228-PoC](https://github.com/sunnyvale-it/CVE-2021-44228-PoC)
 - [maxant/log4j2-CVE-2021-44228](https://github.com/maxant/log4j2-CVE-2021-44228)
+- [atnetws/fail2ban-log4j](https://github.com/atnetws/fail2ban-log4j)
+- [kimobu/cve-2021-44228](https://github.com/kimobu/cve-2021-44228)
+- [KainsRache/anti-jndi](https://github.com/KainsRache/anti-jndi)
+- [lwsnz/log4j-win-quick](https://github.com/lwsnz/log4j-win-quick)
+- [bigsizeme/Log4j-check](https://github.com/bigsizeme/Log4j-check)
+- [pedrohavay/exploit-CVE-2021-44228](https://github.com/pedrohavay/exploit-CVE-2021-44228)
+- [0xRyan/log4j-nullroute](https://github.com/0xRyan/log4j-nullroute)
+- [fireeye/CVE-2021-44228](https://github.com/fireeye/CVE-2021-44228)
+- [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan)
+- [rubo77/log4j_checker_beta](https://github.com/rubo77/log4j_checker_beta)
+- [ahmad4fifz-dev/CVE-2021-44228](https://github.com/ahmad4fifz-dev/CVE-2021-44228)
 
 
 ## 2020
