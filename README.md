@@ -2379,6 +2379,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
 - [0xirison/PrintNightmare-Patcher](https://github.com/0xirison/PrintNightmare-Patcher)
 - [Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare)
+- [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
 
 ### CVE-2021-34558 (2021-07-15)
 
@@ -2491,6 +2492,7 @@ A command injection vulnerability in the web server of some Hikvision product. D
 - [rabbitsafe/CVE-2021-36260](https://github.com/rabbitsafe/CVE-2021-36260)
 - [Aiminsun/CVE-2021-36260](https://github.com/Aiminsun/CVE-2021-36260)
 - [TaroballzChen/CVE-2021-36260-metasploit](https://github.com/TaroballzChen/CVE-2021-36260-metasploit)
+- [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 
 ### CVE-2021-36394
 - [dinhbaouit/CVE-2021-36394](https://github.com/dinhbaouit/CVE-2021-36394)
@@ -3089,6 +3091,14 @@ Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to RES
 - [DarkSprings/CVE-2021-40539](https://github.com/DarkSprings/CVE-2021-40539)
 - [synacktiv/CVE-2021-40539](https://github.com/synacktiv/CVE-2021-40539)
 
+### CVE-2021-40839 (2021-09-09)
+
+<code>
+The rencode package through 1.0.6 for Python allows an infinite loop in typecode decoding (such as via ;\x2f\x7f), enabling a remote attack that consumes CPU and memory.
+</code>
+
+- [itlabbet/CVE-2021-40839](https://github.com/itlabbet/CVE-2021-40839)
+
 ### CVE-2021-40845 (2021-09-15)
 
 <code>
@@ -3399,6 +3409,7 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 </code>
 
 - [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
+- [Ridter/noPac](https://github.com/Ridter/noPac)
 
 ### CVE-2021-42287 (2021-11-09)
 
@@ -3671,6 +3682,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
 - [pedrohavay/exploit-grafana-CVE-2021-43798](https://github.com/pedrohavay/exploit-grafana-CVE-2021-43798)
 - [gixxyboy/CVE-2021-43798](https://github.com/gixxyboy/CVE-2021-43798)
+- [Awrrays/Grafana-CVE-2021-43798](https://github.com/Awrrays/Grafana-CVE-2021-43798)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -3792,6 +3804,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [guardicode/CVE-2021-44228_IoCs](https://github.com/guardicode/CVE-2021-44228_IoCs)
 - [fireflyingup/log4j-poc](https://github.com/fireflyingup/log4j-poc)
 - [qingtengyun/cve-2021-44228-qingteng-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-patch)
+- [nccgroup/log4j-jndi-be-gone](https://github.com/nccgroup/log4j-jndi-be-gone)
 - [qingtengyun/cve-2021-44228-qingteng-online-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-online-patch)
 - [tasooshi/horrors-log4shell](https://github.com/tasooshi/horrors-log4shell)
 - [Hydragyrum/evil-rmi-server](https://github.com/Hydragyrum/evil-rmi-server)
@@ -3817,6 +3830,25 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan)
 - [rubo77/log4j_checker_beta](https://github.com/rubo77/log4j_checker_beta)
 - [ahmad4fifz-dev/CVE-2021-44228](https://github.com/ahmad4fifz-dev/CVE-2021-44228)
+- [hupe1980/scan4log4shell](https://github.com/hupe1980/scan4log4shell)
+- [thecyberneh/Log4j-RCE-Exploiter](https://github.com/thecyberneh/Log4j-RCE-Exploiter)
+- [halibobor/log4j2](https://github.com/halibobor/log4j2)
+- [thedevappsecguy/Log4J-CVE-2021-44228-Mitigation-Cheat-Sheet](https://github.com/thedevappsecguy/Log4J-CVE-2021-44228-Mitigation-Cheat-Sheet)
+- [helsecert/CVE-2021-44228](https://github.com/helsecert/CVE-2021-44228)
+- [markuman/aws-log4j-mitigations](https://github.com/markuman/aws-log4j-mitigations)
+- [tuyenee/Log4shell](https://github.com/tuyenee/Log4shell)
+- [JiuBanSec/Log4j-CVE-2021-44228](https://github.com/JiuBanSec/Log4j-CVE-2021-44228)
+- [ycdxsb/Log4Shell-CVE-2021-44228-ENV](https://github.com/ycdxsb/Log4Shell-CVE-2021-44228-ENV)
+- [avwolferen/Sitecore.Solr-log4j-mitigation](https://github.com/avwolferen/Sitecore.Solr-log4j-mitigation)
+- [kek-Sec/log4j-scanner-CVE-2021-44228](https://github.com/kek-Sec/log4j-scanner-CVE-2021-44228)
+- [Camphul/log4shell-spring-framework-research](https://github.com/Camphul/log4shell-spring-framework-research)
+- [lov3r/cve-2021-44228-log4j-exploits](https://github.com/lov3r/cve-2021-44228-log4j-exploits)
+- [sinakeshmiri/log4jScan](https://github.com/sinakeshmiri/log4jScan)
+- [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
+- [0xsyr0/CVE-2021-44228-log4j-log4shell-Security-Research-Summary](https://github.com/0xsyr0/CVE-2021-44228-log4j-log4shell-Security-Research-Summary)
+
+### CVE-2021-44827
+- [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
 
 
 ## 2020
@@ -7973,7 +8005,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
 - [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
 - [DeeLMind/CVE-2020-27955-LFS](https://github.com/DeeLMind/CVE-2020-27955-LFS)
-- [HK-69/CVE-2020-27955](https://github.com/HK-69/CVE-2020-27955)
+- [HK69s/CVE-2020-27955](https://github.com/HK69s/CVE-2020-27955)
 - [IanSmith123/CVE-2020-27955](https://github.com/IanSmith123/CVE-2020-27955)
 - [qzyqzynb/CVE-2020-27955](https://github.com/qzyqzynb/CVE-2020-27955)
 - [nob0dy-3389/CVE-2020-27955](https://github.com/nob0dy-3389/CVE-2020-27955)
