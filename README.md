@@ -3675,6 +3675,14 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
 
+### CVE-2021-43936 (2021-12-06)
+
+<code>
+The software allows the attacker to upload or transfer files of dangerous types to the WebHMI portal, that may be automatically processed within the product's environment or lead to arbitrary code execution.
+</code>
+
+- [LongWayHomie/CVE-2021-43936](https://github.com/LongWayHomie/CVE-2021-43936)
+
 ### CVE-2021-44077 (2021-11-28)
 
 <code>
@@ -3767,6 +3775,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [uint0/cve-2021-44228-helpers](https://github.com/uint0/cve-2021-44228-helpers)
 - [RK800-DEV/apache-log4j-poc](https://github.com/RK800-DEV/apache-log4j-poc)
 - [sud0x00/log4j-CVE-2021-44228](https://github.com/sud0x00/log4j-CVE-2021-44228)
+- [DiCanio/CVE-2021-44228-docker-example](https://github.com/DiCanio/CVE-2021-44228-docker-example)
 - [mute1997/CVE-2021-44228-research](https://github.com/mute1997/CVE-2021-44228-research)
 - [myyxl/cve-2021-44228-minecraft-poc](https://github.com/myyxl/cve-2021-44228-minecraft-poc)
 - [RrUZi/Awesome-CVE-2021-44228](https://github.com/RrUZi/Awesome-CVE-2021-44228)
@@ -3784,8 +3793,19 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [fireflyingup/log4j-poc](https://github.com/fireflyingup/log4j-poc)
 - [qingtengyun/cve-2021-44228-qingteng-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-patch)
 - [qingtengyun/cve-2021-44228-qingteng-online-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-online-patch)
+- [tasooshi/horrors-log4shell](https://github.com/tasooshi/horrors-log4shell)
 - [Hydragyrum/evil-rmi-server](https://github.com/Hydragyrum/evil-rmi-server)
 - [twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab](https://github.com/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab)
+- [OlafHaalstra/log4jcheck](https://github.com/OlafHaalstra/log4jcheck)
+- [Panyaprach/Proof-CVE-2021-44228](https://github.com/Panyaprach/Proof-CVE-2021-44228)
+- [momos1337/Log4j-RCE](https://github.com/momos1337/Log4j-RCE)
+- [palominoinc/cve-2021-44228-log4j-mitigation](https://github.com/palominoinc/cve-2021-44228-log4j-mitigation)
+- [cyberxml/log4j-poc](https://github.com/cyberxml/log4j-poc)
+- [corneacristian/Log4J-CVE-2021-44228-RCE](https://github.com/corneacristian/Log4J-CVE-2021-44228-RCE)
+- [Diverto/nse-log4shell](https://github.com/Diverto/nse-log4shell)
+- [dotPY-hax/log4py](https://github.com/dotPY-hax/log4py)
+- [sunnyvale-it/CVE-2021-44228-PoC](https://github.com/sunnyvale-it/CVE-2021-44228-PoC)
+- [maxant/log4j2-CVE-2021-44228](https://github.com/maxant/log4j2-CVE-2021-44228)
 
 
 ## 2020
