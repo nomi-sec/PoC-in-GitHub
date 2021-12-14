@@ -3411,6 +3411,7 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 - [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
 - [Ridter/noPac](https://github.com/Ridter/noPac)
 - [waterrr/noPac](https://github.com/waterrr/noPac)
+- [ly4k/Pachine](https://github.com/ly4k/Pachine)
 
 ### CVE-2021-42287 (2021-11-09)
 
@@ -3713,7 +3714,7 @@ Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 105
 ### CVE-2021-44228 (2021-12-10)
 
 <code>
-Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. In previous releases (&gt;2.10) this behavior can be mitigated by setting system property &quot;log4j2.formatMsgNoLookups&quot; to “true” or by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class). Java 8u121 (see https://www.oracle.com/java/technologies/javase/8u121-relnotes.html) protects against remote code execution by defaulting &quot;com.sun.jndi.rmi.object.trustURLCodebase&quot; and &quot;com.sun.jndi.cosnaming.object.trustURLCodebase&quot; to &quot;false&quot;.
+Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. In previous releases (&gt;2.10) this behavior can be mitigated by setting system property &quot;log4j2.formatMsgNoLookups&quot; to “true” or it can be mitigated in prior releases (&lt;2.10) by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class).
 </code>
 
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
@@ -3836,6 +3837,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [hupe1980/scan4log4shell](https://github.com/hupe1980/scan4log4shell)
 - [thecyberneh/Log4j-RCE-Exploiter](https://github.com/thecyberneh/Log4j-RCE-Exploiter)
 - [halibobor/log4j2](https://github.com/halibobor/log4j2)
+- [sourcegraph/log4j-cve-code-search-resources](https://github.com/sourcegraph/log4j-cve-code-search-resources)
 - [thedevappsecguy/Log4J-CVE-2021-44228-Mitigation-Cheat-Sheet](https://github.com/thedevappsecguy/Log4J-CVE-2021-44228-Mitigation-Cheat-Sheet)
 - [helsecert/CVE-2021-44228](https://github.com/helsecert/CVE-2021-44228)
 - [markuman/aws-log4j-mitigations](https://github.com/markuman/aws-log4j-mitigations)
@@ -3852,7 +3854,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [0xsyr0/CVE-2021-44228-log4j-log4shell-Security-Research-Summary](https://github.com/0xsyr0/CVE-2021-44228-log4j-log4shell-Security-Research-Summary)
 - [ahmad4fifz/CVE-2021-44228-podman](https://github.com/ahmad4fifz/CVE-2021-44228-podman)
 - [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
-- [zsolt-halo/CVE-2021-44228-Spring-Boot-Test-Service](https://github.com/zsolt-halo/CVE-2021-44228-Spring-Boot-Test-Service)
+- [zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service](https://github.com/zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service)
 - [manuel-alvarez-alvarez/log4j-cve-2021-44228](https://github.com/manuel-alvarez-alvarez/log4j-cve-2021-44228)
 - [VNYui/CVE-2021-44228](https://github.com/VNYui/CVE-2021-44228)
 - [flxhaas/Scan-CVE-2021-44228](https://github.com/flxhaas/Scan-CVE-2021-44228)
@@ -3860,6 +3862,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [irgoncalves/f5-waf-quick-patch-cve-2021-44228](https://github.com/irgoncalves/f5-waf-quick-patch-cve-2021-44228)
 - [AdriDevelopsThings/check-log4j-vulnerability](https://github.com/AdriDevelopsThings/check-log4j-vulnerability)
 - [madCdan/JndiLookup](https://github.com/madCdan/JndiLookup)
+- [Koupah/MC-Log4j-Patcher](https://github.com/Koupah/MC-Log4j-Patcher)
 - [AlexandreHeroux/Fix-CVE-2021-44228](https://github.com/AlexandreHeroux/Fix-CVE-2021-44228)
 - [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
 - [tobiasoed/log4j-CVE-2021-44228](https://github.com/tobiasoed/log4j-CVE-2021-44228)
@@ -3867,7 +3870,23 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [taurusxin/CVE-2021-44228](https://github.com/taurusxin/CVE-2021-44228)
 - [Chelsea486MHz/ftp_over_log4j](https://github.com/Chelsea486MHz/ftp_over_log4j)
+- [trevalkov/log4j2-prosecutor](https://github.com/trevalkov/log4j2-prosecutor)
 - [yanghaoi/CVE-2021-44228_Log4Shell](https://github.com/yanghaoi/CVE-2021-44228_Log4Shell)
+- [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
+- [threatmonit/Log4j-IOCs](https://github.com/threatmonit/Log4j-IOCs)
+- [mcedica/fix-cve-2021-44228](https://github.com/mcedica/fix-cve-2021-44228)
+- [ben-smash/l4j-info](https://github.com/ben-smash/l4j-info)
+- [strawhatasif/log4j-test](https://github.com/strawhatasif/log4j-test)
+- [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
+- [tica506/Siem-queries-for-CVE-2021-44228](https://github.com/tica506/Siem-queries-for-CVE-2021-44228)
+- [snatalius/log4j2-CVE-2021-44228-poc-local](https://github.com/snatalius/log4j2-CVE-2021-44228-poc-local)
+- [Contrast-Security-OSS/CVE-2021-44228](https://github.com/Contrast-Security-OSS/CVE-2021-44228)
+- [back2root/log4shell-rex](https://github.com/back2root/log4shell-rex)
+- [alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools)
+- [benarculus/cve-2021-44228-code-scan](https://github.com/benarculus/cve-2021-44228-code-scan)
+- [name/log4j-scanner](https://github.com/name/log4j-scanner)
+- [perryflynn/find-log4j](https://github.com/perryflynn/find-log4j)
+- [igoritos22/log4jpoc](https://github.com/igoritos22/log4jpoc)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -21241,6 +21260,14 @@ Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in 
 </code>
 
 - [sdneon/CveTest](https://github.com/sdneon/CveTest)
+
+### CVE-2013-6987 (2013-12-31)
+
+<code>
+Multiple directory traversal vulnerabilities in the FileBrowser components in Synology DiskStation Manager (DSM) before 4.3-3810 Update 3 allow remote attackers to read, write, and delete arbitrary files via a .. (dot dot) in the (1) path parameter to file_delete.cgi or (2) folder_path parameter to file_share.cgi in webapi/FileStation/; (3) dlink parameter to fbdownload/; or unspecified parameters to (4) html5_upload.cgi, (5) file_download.cgi, (6) file_sharing.cgi, (7) file_MVCP.cgi, or (8) file_rename.cgi in webapi/FileStation/.
+</code>
+
+- [stoicboomer/CVE-2013-6987](https://github.com/stoicboomer/CVE-2013-6987)
 
 
 ## 2012
