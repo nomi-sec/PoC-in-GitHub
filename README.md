@@ -3887,6 +3887,14 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [name/log4j-scanner](https://github.com/name/log4j-scanner)
 - [perryflynn/find-log4j](https://github.com/perryflynn/find-log4j)
 - [igoritos22/log4jpoc](https://github.com/igoritos22/log4jpoc)
+- [alpacamybags118/log4j-cve-2021-44228-sample](https://github.com/alpacamybags118/log4j-cve-2021-44228-sample)
+- [sandarenu/log4j2-issue-check](https://github.com/sandarenu/log4j2-issue-check)
+- [eR072391/cve-2021-44228](https://github.com/eR072391/cve-2021-44228)
+- [roticagas/CVE-2021-44228-Demo](https://github.com/roticagas/CVE-2021-44228-Demo)
+- [archongum/cve-2021-44228-log4j](https://github.com/archongum/cve-2021-44228-log4j)
+- [Woahd/log4j-urlscanner](https://github.com/Woahd/log4j-urlscanner)
+- [zjx/CVE-2021-44228](https://github.com/zjx/CVE-2021-44228)
+- [gcmurphy/chk_log4j](https://github.com/gcmurphy/chk_log4j)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
