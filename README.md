@@ -217,7 +217,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 </code>
 
 - [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
-- [FanqXu/CVE-2021-3019](https://github.com/FanqXu/CVE-2021-3019)
+- [0xf4n9x/CVE-2021-3019](https://github.com/0xf4n9x/CVE-2021-3019)
 - [liuxu54898/CVE-2021-3019](https://github.com/liuxu54898/CVE-2021-3019)
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 - [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
@@ -1240,7 +1240,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
 - [r0ckysec/CVE-2021-26084_Confluence](https://github.com/r0ckysec/CVE-2021-26084_Confluence)
 - [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
-- [FanqXu/CVE-2021-26084](https://github.com/FanqXu/CVE-2021-26084)
+- [0xf4n9x/CVE-2021-26084](https://github.com/0xf4n9x/CVE-2021-26084)
 - [Vulnmachines/Confluence_CVE-2021-26084](https://github.com/Vulnmachines/Confluence_CVE-2021-26084)
 - [Osyanina/westone-CVE-2021-26084-scanner](https://github.com/Osyanina/westone-CVE-2021-26084-scanner)
 - [tangxiaofeng7/CVE-2021-26084](https://github.com/tangxiaofeng7/CVE-2021-26084)
@@ -2936,6 +2936,14 @@ An issue was discovered in Concrete CMS before 8.5.7. The Dashboard allows a use
 
 - [S1lkys/CVE-2021-40101](https://github.com/S1lkys/CVE-2021-40101)
 
+### CVE-2021-40154 (2021-12-01)
+
+<code>
+NXP LPC55S69 devices before A3 have a buffer over-read via a crafted wlength value in a GET Descriptor Configuration request during use of USB In-System Programming (ISP) mode. This discloses protected flash memory.
+</code>
+
+- [Xen1thLabs-AE/CVE-2021-40154](https://github.com/Xen1thLabs-AE/CVE-2021-40154)
+
 ### CVE-2021-40222 (2021-09-09)
 
 <code>
@@ -3688,6 +3696,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [pedrohavay/exploit-grafana-CVE-2021-43798](https://github.com/pedrohavay/exploit-grafana-CVE-2021-43798)
 - [gixxyboy/CVE-2021-43798](https://github.com/gixxyboy/CVE-2021-43798)
 - [Awrrays/Grafana-CVE-2021-43798](https://github.com/Awrrays/Grafana-CVE-2021-43798)
+- [Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -3772,7 +3781,6 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [cado-security/log4shell](https://github.com/cado-security/log4shell)
 - [PwnC00re/Log4J_0day_RCE](https://github.com/PwnC00re/Log4J_0day_RCE)
 - [Mormoroth/log4j-vulnerable-app-cve-2021-44228-terraform](https://github.com/Mormoroth/log4j-vulnerable-app-cve-2021-44228-terraform)
-- [trevalkov/javalogslulz](https://github.com/trevalkov/javalogslulz)
 - [Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs](https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs)
 - [zzzz0317/log4j2-vulnerable-spring-app](https://github.com/zzzz0317/log4j2-vulnerable-spring-app)
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
@@ -3852,8 +3860,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [sinakeshmiri/log4jScan](https://github.com/sinakeshmiri/log4jScan)
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
 - [LutziGoz/Log4Shell_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4Shell_Exploitation-Vulnerabiliy__CVE-2021-44228)
-- [0xsyr0/CVE-2021-44228-log4j-log4shell-Security-Research-Summary](https://github.com/0xsyr0/CVE-2021-44228-log4j-log4shell-Security-Research-Summary)
-- [ahmad4fifz/CVE-2021-44228-podman](https://github.com/ahmad4fifz/CVE-2021-44228-podman)
+- [ahmad4fifz/CVE-2021-44228](https://github.com/ahmad4fifz/CVE-2021-44228)
 - [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
 - [zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service](https://github.com/zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service)
 - [manuel-alvarez-alvarez/log4j-cve-2021-44228](https://github.com/manuel-alvarez-alvarez/log4j-cve-2021-44228)
@@ -3869,7 +3876,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [taurusxin/CVE-2021-44228](https://github.com/taurusxin/CVE-2021-44228)
-- [Chelsea486MHz/ftp_over_log4j](https://github.com/Chelsea486MHz/ftp_over_log4j)
+- [corelight/cve-2021-44228](https://github.com/corelight/cve-2021-44228)
 - [trevalkov/log4j2-prosecutor](https://github.com/trevalkov/log4j2-prosecutor)
 - [yanghaoi/CVE-2021-44228_Log4Shell](https://github.com/yanghaoi/CVE-2021-44228_Log4Shell)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
@@ -3885,7 +3892,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [Contrast-Security-OSS/CVE-2021-44228](https://github.com/Contrast-Security-OSS/CVE-2021-44228)
 - [back2root/log4shell-rex](https://github.com/back2root/log4shell-rex)
 - [alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools)
-- [benarculus/cve-2021-44228-code-scan](https://github.com/benarculus/cve-2021-44228-code-scan)
+- [benarculus/detecting-cve-2021-44228](https://github.com/benarculus/detecting-cve-2021-44228)
 - [name/log4j-scanner](https://github.com/name/log4j-scanner)
 - [perryflynn/find-log4j](https://github.com/perryflynn/find-log4j)
 - [igoritos22/log4jpoc](https://github.com/igoritos22/log4jpoc)
@@ -3898,14 +3905,22 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell)
 - [zjx/CVE-2021-44228](https://github.com/zjx/CVE-2021-44228)
 - [gcmurphy/chk_log4j](https://github.com/gcmurphy/chk_log4j)
+- [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [toramanemre/apache-solr-log4j-CVE-2021-44228](https://github.com/toramanemre/apache-solr-log4j-CVE-2021-44228)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
 - [cbuschka/log4j2-rce-recap](https://github.com/cbuschka/log4j2-rce-recap)
-- [e-XpertSolutions/log4find](https://github.com/e-XpertSolutions/log4find)
 - [andrii-kovalenko-celonis/log4j-vulnerability-demo](https://github.com/andrii-kovalenko-celonis/log4j-vulnerability-demo)
 - [jan-muhammad-zaidi/Log4j-CVE-2021-44228](https://github.com/jan-muhammad-zaidi/Log4j-CVE-2021-44228)
 - [fox-it/log4j-finder](https://github.com/fox-it/log4j-finder)
-- [34zY/JNDI-Exploit-1.2-log4shell-](https://github.com/34zY/JNDI-Exploit-1.2-log4shell-)
+- [rwincey/CVE-2021-44228-Log4j-Payloads](https://github.com/rwincey/CVE-2021-44228-Log4j-Payloads)
+- [34zY/JNDI-Exploit-1.2-log4shell](https://github.com/34zY/JNDI-Exploit-1.2-log4shell)
+- [didoatanasov/cve-2021-44228](https://github.com/didoatanasov/cve-2021-44228)
+- [ReynerGonzalez/Security-Log4J-Tester](https://github.com/ReynerGonzalez/Security-Log4J-Tester)
+- [ShaneKingBlog/org.shaneking.demo.cve.y2021.s44228](https://github.com/ShaneKingBlog/org.shaneking.demo.cve.y2021.s44228)
+- [wortell/log4j](https://github.com/wortell/log4j)
+- [yanicksenn/CVE-2021-44228](https://github.com/yanicksenn/CVE-2021-44228)
+- [municipalparkingservices/CVE-2021-44228-Scanner](https://github.com/municipalparkingservices/CVE-2021-44228-Scanner)
+- [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -14794,6 +14809,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
 - [MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473)
 - [66quentin/shodan-CVE-2018-15473](https://github.com/66quentin/shodan-CVE-2018-15473)
+- [robiul-awal/CVE-2018-15473](https://github.com/robiul-awal/CVE-2018-15473)
 
 ### CVE-2018-15499 (2018-08-24)
 
@@ -19178,6 +19194,14 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 
 - [ISSAPolska/CVE-2016-10761](https://github.com/ISSAPolska/CVE-2016-10761)
 
+### CVE-2016-10956 (2019-09-16)
+
+<code>
+The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php.
+</code>
+
+- [p0dalirius/CVE-2016-10956_mail_masta](https://github.com/p0dalirius/CVE-2016-10956_mail_masta)
+
 ### CVE-2016-1000027 (2020-01-02)
 
 <code>
@@ -22356,7 +22380,6 @@ Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.
 </code>
 
 - [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
-- [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
 ## 2005
