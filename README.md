@@ -299,7 +299,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [blasty/CVE-2021-3156](https://github.com/blasty/CVE-2021-3156)
 - [teamtopkarl/CVE-2021-3156](https://github.com/teamtopkarl/CVE-2021-3156)
 - [Q4n/CVE-2021-3156](https://github.com/Q4n/CVE-2021-3156)
-- [kal1gh0st/CVE-2021-3156](https://github.com/kal1gh0st/CVE-2021-3156)
 - [apogiatzis/docker-CVE-2021-3156](https://github.com/apogiatzis/docker-CVE-2021-3156)
 - [voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156)
 - [Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch)
@@ -667,6 +666,7 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 - [alikarimi999/CVE-2021-21315](https://github.com/alikarimi999/CVE-2021-21315)
 - [Ki11i0n4ir3/CVE-2021-21315](https://github.com/Ki11i0n4ir3/CVE-2021-21315)
 - [xMohamed0/CVE-2021-21315-POC](https://github.com/xMohamed0/CVE-2021-21315-POC)
+- [eR072391/cve-2021-21315](https://github.com/eR072391/cve-2021-21315)
 
 ### CVE-2021-21341 (2021-03-22)
 
@@ -3040,7 +3040,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB)
 - [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
 - [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
-- [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
 - [LazarusReborn/Docx-Exploit-2021](https://github.com/LazarusReborn/Docx-Exploit-2021)
 - [H0j3n/CVE-2021-40444](https://github.com/H0j3n/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
@@ -3361,6 +3360,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [jhye0n/CVE-2021-41773](https://github.com/jhye0n/CVE-2021-41773)
+- [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 
 ### CVE-2021-41822
 - [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
@@ -3905,6 +3905,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [toramanemre/apache-solr-log4j-CVE-2021-44228](https://github.com/toramanemre/apache-solr-log4j-CVE-2021-44228)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
 - [cbuschka/log4j2-rce-recap](https://github.com/cbuschka/log4j2-rce-recap)
+- [zhzyker/logmap](https://github.com/zhzyker/logmap)
 - [andrii-kovalenko-celonis/log4j-vulnerability-demo](https://github.com/andrii-kovalenko-celonis/log4j-vulnerability-demo)
 - [jan-muhammad-zaidi/Log4j-CVE-2021-44228](https://github.com/jan-muhammad-zaidi/Log4j-CVE-2021-44228)
 - [fox-it/log4j-finder](https://github.com/fox-it/log4j-finder)
@@ -3924,10 +3925,23 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [ab0x90/CVE-2021-44228_PoC](https://github.com/ab0x90/CVE-2021-44228_PoC)
 - [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
+- [0xThiebaut/CVE-2021-44228](https://github.com/0xThiebaut/CVE-2021-44228)
 - [CERTCC/CVE-2021-44228_scanner](https://github.com/CERTCC/CVE-2021-44228_scanner)
+- [dbzoo/log4j_scanner](https://github.com/dbzoo/log4j_scanner)
+- [jeremyrsellars/CVE-2021-44228_scanner](https://github.com/jeremyrsellars/CVE-2021-44228_scanner)
+- [JustinDPerkins/C1-WS-LOG4SHELL](https://github.com/JustinDPerkins/C1-WS-LOG4SHELL)
+- [VinniMarcon/Log4j-Updater](https://github.com/VinniMarcon/Log4j-Updater)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
+
+### CVE-2021-45046 (2021-12-14)
+
+<code>
+It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in a denial of service (DOS) attack. Log4j 2.15.0 restricts JNDI LDAP lookups to localhost by default. Note that previous mitigations involving configuration such as to set the system property `log4j2.noFormatMsgLookup` to `true` do NOT mitigate this specific vulnerability. Log4j 2.16.0 fixes this issue by removing support for message lookup patterns and disabling JNDI functionality by default. This issue can be mitigated in prior releases (&lt;2.16.0) by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class).
+</code>
+
+- [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
 
 
 ## 2020
@@ -10665,7 +10679,6 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [starling021/CVE-2019-11932-SupportApp](https://github.com/starling021/CVE-2019-11932-SupportApp)
 - [Hacker-Yadav/CVE-2019-11932](https://github.com/Hacker-Yadav/CVE-2019-11932)
 - [BadAssAiras/hello](https://github.com/BadAssAiras/hello)
-- [kal1gh0st/WhatsAppHACK-RCE](https://github.com/kal1gh0st/WhatsAppHACK-RCE)
 - [zxn1/CVE-2019-11932](https://github.com/zxn1/CVE-2019-11932)
 - [Tabni/https-github.com-awakened1712-CVE-2019-11932](https://github.com/Tabni/https-github.com-awakened1712-CVE-2019-11932)
 
