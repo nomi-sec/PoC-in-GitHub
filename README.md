@@ -2881,9 +2881,6 @@ In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set u
 
 - [nikip72/CVE-2021-39273-CVE-2021-39274](https://github.com/nikip72/CVE-2021-39273-CVE-2021-39274)
 
-### CVE-2021-39281
-- [grahamhelton/CVE-2021-39281](https://github.com/grahamhelton/CVE-2021-39281)
-
 ### CVE-2021-39287
 - [Fearless523/CVE-2021-39287-Stored-XSS](https://github.com/Fearless523/CVE-2021-39287-Stored-XSS)
 
@@ -3785,7 +3782,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [zzzz0317/log4j2-vulnerable-spring-app](https://github.com/zzzz0317/log4j2-vulnerable-spring-app)
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [zhangxvx/Log4j-Rec-CVE-2021-44228](https://github.com/zhangxvx/Log4j-Rec-CVE-2021-44228)
-- [darkarnium/CVE-2021-44228](https://github.com/darkarnium/CVE-2021-44228)
+- [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
 - [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
 - [irgoncalves/f5-waf-enforce-sig-CVE-2021-44228](https://github.com/irgoncalves/f5-waf-enforce-sig-CVE-2021-44228)
 - [jeffbryner/log4j-docker-vaccine](https://github.com/jeffbryner/log4j-docker-vaccine)
@@ -3881,7 +3878,6 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [yanghaoi/CVE-2021-44228_Log4Shell](https://github.com/yanghaoi/CVE-2021-44228_Log4Shell)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
 - [threatmonit/Log4j-IOCs](https://github.com/threatmonit/Log4j-IOCs)
-- [mcedica/fix-cve-2021-44228](https://github.com/mcedica/fix-cve-2021-44228)
 - [ben-smash/l4j-info](https://github.com/ben-smash/l4j-info)
 - [strawhatasif/log4j-test](https://github.com/strawhatasif/log4j-test)
 - [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
@@ -3921,6 +3917,14 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [yanicksenn/CVE-2021-44228](https://github.com/yanicksenn/CVE-2021-44228)
 - [municipalparkingservices/CVE-2021-44228-Scanner](https://github.com/municipalparkingservices/CVE-2021-44228-Scanner)
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
+- [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
+- [mufeedvh/log4jail](https://github.com/mufeedvh/log4jail)
+- [csduncan9/Log4j-CVE-2021-44228-command-generator](https://github.com/csduncan9/Log4j-CVE-2021-44228-command-generator)
+- [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
+- [ab0x90/CVE-2021-44228_PoC](https://github.com/ab0x90/CVE-2021-44228_PoC)
+- [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
+- [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
+- [CERTCC/CVE-2021-44228_scanner](https://github.com/CERTCC/CVE-2021-44228_scanner)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -22380,6 +22384,7 @@ Multiple stack-based buffer overflows in Allied Telesyn TFTP Server (AT-TFTP) 1.
 </code>
 
 - [shauntdergrigorian/cve-2006-6184](https://github.com/shauntdergrigorian/cve-2006-6184)
+- [b03902043/CVE-2006-6184](https://github.com/b03902043/CVE-2006-6184)
 
 
 ## 2005
