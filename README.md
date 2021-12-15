@@ -528,6 +528,14 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 
 - [HadiMed/firmware-analysis](https://github.com/HadiMed/firmware-analysis)
 
+### CVE-2021-4104 (2021-12-14)
+
+<code>
+JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration. The attacker can provide TopicBindingName and TopicConnectionFactoryBindingName configurations causing JMSAppender to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-44228. Note this issue only affects Log4j 1.2 when specifically configured to use JMSAppender, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.
+</code>
+
+- [cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x)
+
 ### CVE-2021-6901
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
 
@@ -666,7 +674,6 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 - [alikarimi999/CVE-2021-21315](https://github.com/alikarimi999/CVE-2021-21315)
 - [Ki11i0n4ir3/CVE-2021-21315](https://github.com/Ki11i0n4ir3/CVE-2021-21315)
 - [xMohamed0/CVE-2021-21315-POC](https://github.com/xMohamed0/CVE-2021-21315-POC)
-- [eR072391/cve-2021-21315](https://github.com/eR072391/cve-2021-21315)
 
 ### CVE-2021-21341 (2021-03-22)
 
@@ -3608,7 +3615,12 @@ An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16.
 - [DarkSprings/CVE-2021-43267-POC](https://github.com/DarkSprings/CVE-2021-43267-POC)
 - [ohnonoyesyes/CVE-2021-43267](https://github.com/ohnonoyesyes/CVE-2021-43267)
 
-### CVE-2021-43326
+### CVE-2021-43326 (2021-12-15)
+
+<code>
+Automox Agent before 32 on Windows incorrectly sets permissions on a temporary directory.
+</code>
+
 - [gfoss/CVE-2021-43326_Exploit](https://github.com/gfoss/CVE-2021-43326_Exploit)
 
 ### CVE-2021-43361 (-)
@@ -3773,6 +3785,7 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
 - [gauthamg/log4j2021_vul_test](https://github.com/gauthamg/log4j2021_vul_test)
+- [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
 - [js-on/jndiRep](https://github.com/js-on/jndiRep)
 - [leetxyz/CVE-2021-44228-Advisories](https://github.com/leetxyz/CVE-2021-44228-Advisories)
 - [cado-security/log4shell](https://github.com/cado-security/log4shell)
@@ -3894,7 +3907,6 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [igoritos22/log4jpoc](https://github.com/igoritos22/log4jpoc)
 - [alpacamybags118/log4j-cve-2021-44228-sample](https://github.com/alpacamybags118/log4j-cve-2021-44228-sample)
 - [sandarenu/log4j2-issue-check](https://github.com/sandarenu/log4j2-issue-check)
-- [eR072391/cve-2021-44228](https://github.com/eR072391/cve-2021-44228)
 - [roticagas/CVE-2021-44228-Demo](https://github.com/roticagas/CVE-2021-44228-Demo)
 - [archongum/cve-2021-44228-log4j](https://github.com/archongum/cve-2021-44228-log4j)
 - [Woahd/log4j-urlscanner](https://github.com/Woahd/log4j-urlscanner)
@@ -3931,6 +3943,15 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [jeremyrsellars/CVE-2021-44228_scanner](https://github.com/jeremyrsellars/CVE-2021-44228_scanner)
 - [JustinDPerkins/C1-WS-LOG4SHELL](https://github.com/JustinDPerkins/C1-WS-LOG4SHELL)
 - [VinniMarcon/Log4j-Updater](https://github.com/VinniMarcon/Log4j-Updater)
+- [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
+- [avirahul007/CVE-2021-44228](https://github.com/avirahul007/CVE-2021-44228)
+- [rgl/log4j-log4shell-playground](https://github.com/rgl/log4j-log4shell-playground)
+- [anuvindhs/how-to-check-patch-secure-logj4-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-logj4-CVE-2021-44228)
+- [KeysAU/Get-log4j-Windows.ps1](https://github.com/KeysAU/Get-log4j-Windows.ps1)
+- [kubearmor/log4j-cve](https://github.com/kubearmor/log4j-cve)
+- [jyotisahu98/logpresso-CVE-2021-44228-Scanner](https://github.com/jyotisahu98/logpresso-CVE-2021-44228-Scanner)
+- [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
+- [Junhyunny/log4j-vulnerability-CVE-2021-44228](https://github.com/Junhyunny/log4j-vulnerability-CVE-2021-44228)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -3942,6 +3963,7 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 </code>
 
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
+- [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 
 
 ## 2020
