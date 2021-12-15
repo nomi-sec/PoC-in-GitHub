@@ -183,6 +183,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [lz2y/CVE-2021-2394](https://github.com/lz2y/CVE-2021-2394)
 - [freeide/CVE-2021-2394](https://github.com/freeide/CVE-2021-2394)
 - [BabyTeam1024/CVE-2021-2394](https://github.com/BabyTeam1024/CVE-2021-2394)
+- [fasanhlieu/CVE-2021-2394](https://github.com/fasanhlieu/CVE-2021-2394)
 
 ### CVE-2021-2456 (2021-07-20)
 
@@ -1030,6 +1031,14 @@ The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when s
 
 ### CVE-2021-23410
 - [azu/msgpack-CVE-2021-23410-test](https://github.com/azu/msgpack-CVE-2021-23410-test)
+
+### CVE-2021-23758 (2021-12-03)
+
+<code>
+All versions of package ajaxpro.2 are vulnerable to Deserialization of Untrusted Data due to the possibility of deserialization of arbitrary .NET classes, which can be abused to gain remote code execution.
+</code>
+
+- [numanturle/CVE-2021-23758-POC](https://github.com/numanturle/CVE-2021-23758-POC)
 
 ### CVE-2021-24027 (2021-04-06)
 
@@ -3732,7 +3741,7 @@ Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 105
 ### CVE-2021-44228 (2021-12-10)
 
 <code>
-Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. In previous releases (&gt;2.10) this behavior can be mitigated by setting system property &quot;log4j2.formatMsgNoLookups&quot; to “true” or it can be mitigated in prior releases (&lt;2.10) by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class).
+Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0, this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
 </code>
 
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
@@ -3932,7 +3941,6 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
 - [mufeedvh/log4jail](https://github.com/mufeedvh/log4jail)
-- [csduncan9/Log4j-CVE-2021-44228-command-generator](https://github.com/csduncan9/Log4j-CVE-2021-44228-command-generator)
 - [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
 - [ab0x90/CVE-2021-44228_PoC](https://github.com/ab0x90/CVE-2021-44228_PoC)
 - [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
@@ -3951,19 +3959,34 @@ Apache Log4j2 &lt;=2.14.1 JNDI features used in configuration, log messages, and
 - [kubearmor/log4j-cve](https://github.com/kubearmor/log4j-cve)
 - [jyotisahu98/logpresso-CVE-2021-44228-Scanner](https://github.com/jyotisahu98/logpresso-CVE-2021-44228-Scanner)
 - [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
-- [Junhyunny/log4j-vulnerability-CVE-2021-44228](https://github.com/Junhyunny/log4j-vulnerability-CVE-2021-44228)
+- [mss/log4shell-hotfix-side-effect](https://github.com/mss/log4shell-hotfix-side-effect)
+- [MeterianHQ/log4j-vuln-coverage-check](https://github.com/MeterianHQ/log4j-vuln-coverage-check)
+- [sebiboga/jmeter-fix-cve-2021-44228-windows](https://github.com/sebiboga/jmeter-fix-cve-2021-44228-windows)
+- [honeynet/log4shell-data](https://github.com/honeynet/log4shell-data)
+- [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
+- [wortell/log4j-honeypot](https://github.com/wortell/log4j-honeypot)
+- [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
 
+### CVE-2021-45043 (2021-12-15)
+
+<code>
+HD-Network Real-time Monitoring System 2.0 allows ../ directory traversal to read /etc/shadow via the /language/lang s_Language parameter.
+</code>
+
+- [g30rgyth3d4rk/cve-2021-45043](https://github.com/g30rgyth3d4rk/cve-2021-45043)
+
 ### CVE-2021-45046 (2021-12-14)
 
 <code>
-It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in a denial of service (DOS) attack. Log4j 2.15.0 restricts JNDI LDAP lookups to localhost by default. Note that previous mitigations involving configuration such as to set the system property `log4j2.noFormatMsgLookup` to `true` do NOT mitigate this specific vulnerability. Log4j 2.16.0 fixes this issue by removing support for message lookup patterns and disabling JNDI functionality by default. This issue can be mitigated in prior releases (&lt;2.16.0) by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class).
+It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in a denial of service (DOS) attack. Log4j 2.15.0 makes a best-effort attempt to restrict JNDI LDAP lookups to localhost by default. Log4j 2.16.0 fixes this issue by removing support for message lookup patterns and disabling JNDI functionality by default.
 </code>
 
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
 - [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
+- [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
 
 
 ## 2020
@@ -4220,6 +4243,14 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [MrTiz/CVE-2020-0688](https://github.com/MrTiz/CVE-2020-0688)
 - [ann0906/proxylogon](https://github.com/ann0906/proxylogon)
 
+### CVE-2020-0692 (2020-02-11)
+
+<code>
+An elevation of privilege vulnerability exists in Microsoft Exchange Server, aka 'Microsoft Exchange Server Elevation of Privilege Vulnerability'.
+</code>
+
+- [awsassets/CVE-2020-0692](https://github.com/awsassets/CVE-2020-0692)
+
 ### CVE-2020-0728 (2020-02-11)
 
 <code>
@@ -4264,7 +4295,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [dickens88/cve-2020-0796-scanner](https://github.com/dickens88/cve-2020-0796-scanner)
 - [kn6869610/CVE-2020-0796](https://github.com/kn6869610/CVE-2020-0796)
 - [awareseven/eternalghosttest](https://github.com/awareseven/eternalghosttest)
-- [weidutech/CVE-2020-0796-PoC](https://github.com/weidutech/CVE-2020-0796-PoC)
 - [xax007/CVE-2020-0796-Scanner](https://github.com/xax007/CVE-2020-0796-Scanner)
 - [Dhoomralochana/Scanners-for-CVE-2020-0796-Testing](https://github.com/Dhoomralochana/Scanners-for-CVE-2020-0796-Testing)
 - [UraSecTeam/smbee](https://github.com/UraSecTeam/smbee)
@@ -4330,6 +4360,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
+- [5l1v3r1/CVE-2020-0796-PoC-3](https://github.com/5l1v3r1/CVE-2020-0796-PoC-3)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -4338,6 +4369,14 @@ An elevation of privilege vulnerability exists when the Windows Work Folder Serv
 </code>
 
 - [bonesg/CVE-2020-0797](https://github.com/bonesg/CVE-2020-0797)
+
+### CVE-2020-0798 (2020-03-12)
+
+<code>
+An elevation of privilege vulnerability exists in the Windows Installer when the Windows Installer fails to properly sanitize input leading to an insecure library loading behavior.A locally authenticated attacker could run arbitrary code with elevated system privileges, aka 'Windows Installer Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0779, CVE-2020-0814, CVE-2020-0842, CVE-2020-0843.
+</code>
+
+- [awsassets/CVE-2020-0798](https://github.com/awsassets/CVE-2020-0798)
 
 ### CVE-2020-0799 (2020-03-12)
 
@@ -4371,6 +4410,14 @@ An elevation of privilege vulnerability exists in Windows Installer because of t
 
 - [klinix5/CVE-2020-0814](https://github.com/klinix5/CVE-2020-0814)
 
+### CVE-2020-0883 (2020-03-12)
+
+<code>
+A remote code execution vulnerability exists in the way that the Windows Graphics Device Interface (GDI) handles objects in the memory, aka 'GDI+ Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0881.
+</code>
+
+- [awsassets/CVE-2020-0883](https://github.com/awsassets/CVE-2020-0883)
+
 ### CVE-2020-0890 (2020-09-11)
 
 <code>
@@ -4378,6 +4425,14 @@ A denial of service vulnerability exists when Microsoft Hyper-V on a host server
 </code>
 
 - [gerhart01/hyperv_local_dos_poc](https://github.com/gerhart01/hyperv_local_dos_poc)
+
+### CVE-2020-0905 (2020-03-12)
+
+<code>
+An remote code execution vulnerability exists in Microsoft Dynamics Business Central, aka 'Dynamics Business Central Remote Code Execution Vulnerability'.
+</code>
+
+- [awsassets/CVE-2020-0905](https://github.com/awsassets/CVE-2020-0905)
 
 ### CVE-2020-0976 (2020-04-15)
 
@@ -5279,6 +5334,14 @@ A potential security vulnerability has been identified in HPE Systems Insight Ma
 </code>
 
 - [alexfrancow/CVE-2020-7200](https://github.com/alexfrancow/CVE-2020-7200)
+
+### CVE-2020-7209 (2020-02-12)
+
+<code>
+LinuxKI v6.0-1 and earlier is vulnerable to an remote code execution which is resolved in release 6.0-2.
+</code>
+
+- [awsassets/CVE-2020-7209](https://github.com/awsassets/CVE-2020-7209)
 
 ### CVE-2020-7246 (2020-01-21)
 
@@ -7387,6 +7450,7 @@ The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x8
 </code>
 
 - [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
+- [awsassets/CVE-2020-17382](https://github.com/awsassets/CVE-2020-17382)
 
 ### CVE-2020-17453 (2021-04-05)
 
@@ -16305,7 +16369,7 @@ In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket
 </code>
 
 - [pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645)
-- [sefayfr/log4j-RCE](https://github.com/sefayfr/log4j-RCE)
+- [sefayfr/log4j-impl](https://github.com/sefayfr/log4j-impl)
 
 ### CVE-2017-5674 (2017-03-13)
 
