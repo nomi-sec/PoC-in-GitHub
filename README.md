@@ -2741,6 +2741,7 @@ The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for Wor
 
 - [onsecuredev/CVE-2021-38314](https://github.com/onsecuredev/CVE-2021-38314)
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
+- [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
 ### CVE-2021-38583 (2021-08-13)
 
@@ -3815,6 +3816,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
 - [irgoncalves/f5-waf-enforce-sig-CVE-2021-44228](https://github.com/irgoncalves/f5-waf-enforce-sig-CVE-2021-44228)
 - [jeffbryner/log4j-docker-vaccine](https://github.com/jeffbryner/log4j-docker-vaccine)
+- [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [unlimitedsola/log4j2-rce-poc](https://github.com/unlimitedsola/log4j2-rce-poc)
 - [Jeromeyoung/log4j2burpscanner](https://github.com/Jeromeyoung/log4j2burpscanner)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
@@ -3983,6 +3985,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
+- [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
 - [ubitech/cve-2021-44228-rce-poc](https://github.com/ubitech/cve-2021-44228-rce-poc)
 - [rv4l3r3/log4v-vuln-check](https://github.com/rv4l3r3/log4v-vuln-check)
 - [dpomnean/log4j_scanner_wrapper](https://github.com/dpomnean/log4j_scanner_wrapper)
@@ -3990,6 +3993,16 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [shamo0/CVE-2021-44228](https://github.com/shamo0/CVE-2021-44228)
 - [snow0715/log4j-Scan-Burpsuite](https://github.com/snow0715/log4j-Scan-Burpsuite)
 - [Joefreedy/Log4j-Windows-Scanner](https://github.com/Joefreedy/Log4j-Windows-Scanner)
+- [Gyrfalc0n/scanlist-log4j](https://github.com/Gyrfalc0n/scanlist-log4j)
+- [korteke/log4shell-demo](https://github.com/korteke/log4shell-demo)
+- [recanavar/vuln_spring_log4j2](https://github.com/recanavar/vuln_spring_log4j2)
+- [DXC-StrikeForce/Burp-Log4j-HammerTime](https://github.com/DXC-StrikeForce/Burp-Log4j-HammerTime)
+- [andalik/log4j-filescan](https://github.com/andalik/log4j-filescan)
+- [lonecloud/CVE-2021-44228-Apache-Log4j](https://github.com/lonecloud/CVE-2021-44228-Apache-Log4j)
+- [gyaansastra/CVE-2021-44228](https://github.com/gyaansastra/CVE-2021-44228)
+- [axisops/CVE-2021-44228](https://github.com/axisops/CVE-2021-44228)
+- [kal1gh0st/MyLog4Shell](https://github.com/kal1gh0st/MyLog4Shell)
+- [hozyx/log4shell](https://github.com/hozyx/log4shell)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
