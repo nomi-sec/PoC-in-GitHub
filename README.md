@@ -3750,6 +3750,14 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
 
+### CVE-2021-43883 (2021-12-15)
+
+<code>
+Windows Installer Elevation of Privilege Vulnerability
+</code>
+
+- [jbaines-r7/shakeitoff](https://github.com/jbaines-r7/shakeitoff)
+
 ### CVE-2021-43936 (2021-12-06)
 
 <code>
@@ -3809,6 +3817,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [alexandreroman/cve-2021-44228-workaround-buildpack](https://github.com/alexandreroman/cve-2021-44228-workaround-buildpack)
 - [Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot)
 - [racoon-rac/CVE-2021-44228](https://github.com/racoon-rac/CVE-2021-44228)
+- [TheArqsz/CVE-2021-44228-PoC](https://github.com/TheArqsz/CVE-2021-44228-PoC)
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
 - [binganao/Log4j2-RCE](https://github.com/binganao/Log4j2-RCE)
 - [phoswald/sample-ldap-exploit](https://github.com/phoswald/sample-ldap-exploit)
@@ -3877,6 +3886,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [Hydragyrum/evil-rmi-server](https://github.com/Hydragyrum/evil-rmi-server)
 - [twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab](https://github.com/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab)
 - [OlafHaalstra/log4jcheck](https://github.com/OlafHaalstra/log4jcheck)
+- [psychose-club/Saturn](https://github.com/psychose-club/Saturn)
 - [Panyaprach/Proof-CVE-2021-44228](https://github.com/Panyaprach/Proof-CVE-2021-44228)
 - [momos1337/Log4j-RCE](https://github.com/momos1337/Log4j-RCE)
 - [palominoinc/cve-2021-44228-log4j-mitigation](https://github.com/palominoinc/cve-2021-44228-log4j-mitigation)
@@ -4039,6 +4049,13 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [RenYuH/log4j-lookups-vulnerability](https://github.com/RenYuH/log4j-lookups-vulnerability)
 - [scheibling/py-log4shellscanner](https://github.com/scheibling/py-log4shellscanner)
 - [GroupePSA/log4shell-honeypot](https://github.com/GroupePSA/log4shell-honeypot)
+- [zane00/CVE-2021-44228](https://github.com/zane00/CVE-2021-44228)
+- [metodidavidovic/log4j-quick-scan](https://github.com/metodidavidovic/log4j-quick-scan)
+- [nx6110a5100/Py3-detect-log4j-12.2021](https://github.com/nx6110a5100/Py3-detect-log4j-12.2021)
+- [WatchGuard-Threat-Lab/log4shell-iocs](https://github.com/WatchGuard-Threat-Lab/log4shell-iocs)
+- [Aschen/log4j-patched](https://github.com/Aschen/log4j-patched)
+- [Nikolas-Charalambidis/cve-2021-44228](https://github.com/Nikolas-Charalambidis/cve-2021-44228)
+- [ermohitrathore/detect-log4j-exploitable](https://github.com/ermohitrathore/detect-log4j-exploitable)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
