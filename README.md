@@ -1276,7 +1276,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
 - [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
-- [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
+- [prod1gy1/CVE-2021-26084_Confluence](https://github.com/prod1gy1/CVE-2021-26084_Confluence)
 - [toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched)
 - [nizarbamida/CVE-2021-26084-patch-](https://github.com/nizarbamida/CVE-2021-26084-patch-)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
@@ -2902,6 +2902,14 @@ In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set u
 ### CVE-2021-39287
 - [Fearless523/CVE-2021-39287-Stored-XSS](https://github.com/Fearless523/CVE-2021-39287-Stored-XSS)
 
+### CVE-2021-39316 (2021-08-31)
+
+<code>
+The Zoomsounds plugin &lt;= 6.45 for WordPress allows arbitrary files, including sensitive configuration files such as wp-config.php, to be downloaded via the `dzsap_download` action using directory traversal in the `link` parameter.
+</code>
+
+- [anggoroexe/Mass-CVE-2021-39316](https://github.com/anggoroexe/Mass-CVE-2021-39316)
+
 ### CVE-2021-39377 (2021-09-01)
 
 <code>
@@ -3711,6 +3719,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [taythebot/CVE-2021-43798](https://github.com/taythebot/CVE-2021-43798)
 - [zer0yu/CVE-2021-43798](https://github.com/zer0yu/CVE-2021-43798)
 - [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
+- [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [Mr-xn/CVE-2021-43798](https://github.com/Mr-xn/CVE-2021-43798)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
@@ -4012,6 +4021,9 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [kannthu/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/kannthu/CVE-2021-44228-Apache-Log4j-Rce)
 - [Kr0ff/CVE-2021-44228](https://github.com/Kr0ff/CVE-2021-44228)
 - [suuhm/log4shell4shell](https://github.com/suuhm/log4shell4shell)
+- [AnYi-Sec/Log4j-CVE-2021-44228-EXP](https://github.com/AnYi-Sec/Log4j-CVE-2021-44228-EXP)
+- [wajda/log4shell-test-exploit](https://github.com/wajda/log4shell-test-exploit)
+- [obscuritylabs/log4shell-poc-lab](https://github.com/obscuritylabs/log4shell-poc-lab)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -11531,14 +11543,6 @@ A vulnerability was found in Moodle 3.7 to 3.7.1, 3.6 to 3.6.5, 3.5 to 3.5.7 and
 </code>
 
 - [Fr3d-/moodle-token-stealer](https://github.com/Fr3d-/moodle-token-stealer)
-
-### CVE-2019-14899 (2019-12-11)
-
-<code>
-A vulnerability was discovered in Linux, FreeBSD, OpenBSD, MacOS, iOS, and Android that allows a malicious access point, or an adjacent user, to determine if a connected user is using a VPN, make positive inferences about the websites they are visiting, and determine the correct sequence and acknowledgement numbers in use, allowing the bad actor to inject data into the TCP stream. This provides everything that is needed for an attacker to hijack active connections inside the VPN tunnel.
-</code>
-
-- [stryngs/hysteria](https://github.com/stryngs/hysteria)
 
 ### CVE-2019-14900 (2020-07-06)
 
