@@ -3387,7 +3387,12 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 ### CVE-2021-41822
 - [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
 
-### CVE-2021-41962
+### CVE-2021-41962 (-)
+
+<code>
+Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the Owner fullname parameter in a Send Service Request in vehicle_service.
+</code>
+
 - [lohyt/-CVE-2021-41962](https://github.com/lohyt/-CVE-2021-41962)
 
 ### CVE-2021-42008 (2021-10-04)
@@ -4003,6 +4008,10 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [axisops/CVE-2021-44228](https://github.com/axisops/CVE-2021-44228)
 - [kal1gh0st/MyLog4Shell](https://github.com/kal1gh0st/MyLog4Shell)
 - [hozyx/log4shell](https://github.com/hozyx/log4shell)
+- [Vulnmachines/log4j-cve-2021-44228](https://github.com/Vulnmachines/log4j-cve-2021-44228)
+- [kannthu/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/kannthu/CVE-2021-44228-Apache-Log4j-Rce)
+- [Kr0ff/CVE-2021-44228](https://github.com/Kr0ff/CVE-2021-44228)
+- [suuhm/log4shell4shell](https://github.com/suuhm/log4shell4shell)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -4025,6 +4034,7 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 - [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
 - [pravin-pp/log4j2-CVE-2021-45046](https://github.com/pravin-pp/log4j2-CVE-2021-45046)
+- [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
 
 
 ## 2020
