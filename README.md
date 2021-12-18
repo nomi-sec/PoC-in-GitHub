@@ -852,6 +852,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [TaroballzChen/CVE-2021-22005-metasploit](https://github.com/TaroballzChen/CVE-2021-22005-metasploit)
 - [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
+- [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
 
 ### CVE-2021-22015 (2021-09-23)
 
@@ -3826,7 +3827,6 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [phoswald/sample-ldap-exploit](https://github.com/phoswald/sample-ldap-exploit)
 - [rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server)
 - [uint0/cve-2021-44228--spring-hibernate](https://github.com/uint0/cve-2021-44228--spring-hibernate)
-- [ssstonebraker/log4j_CVE-2021-44228_tester](https://github.com/ssstonebraker/log4j_CVE-2021-44228_tester)
 - [saharNooby/log4j-vulnerability-patcher-agent](https://github.com/saharNooby/log4j-vulnerability-patcher-agent)
 - [f0ng/log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)
 - [M1ngGod/CVE-2021-44228-Log4j-lookup-Rce](https://github.com/M1ngGod/CVE-2021-44228-Log4j-lookup-Rce)
@@ -4009,6 +4009,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
 - [redhuntlabs/Log4JHunt](https://github.com/redhuntlabs/Log4JHunt)
 - [mss/log4shell-hotfix-side-effect](https://github.com/mss/log4shell-hotfix-side-effect)
+- [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
 - [MeterianHQ/log4j-vuln-coverage-check](https://github.com/MeterianHQ/log4j-vuln-coverage-check)
 - [sebiboga/jmeter-fix-cve-2021-44228-windows](https://github.com/sebiboga/jmeter-fix-cve-2021-44228-windows)
 - [mitiga/log4shell-cloud-scanner](https://github.com/mitiga/log4shell-cloud-scanner)
@@ -4065,6 +4066,9 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [sblmnl/Scan4j](https://github.com/sblmnl/Scan4j)
 - [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
 - [Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce)
+- [shakeman8/log4j_getshell](https://github.com/shakeman8/log4j_getshell)
+- [suniastar/scan-log4shell](https://github.com/suniastar/scan-log4shell)
+- [shivakumarjayaraman/log4jvulnerability-CVE-2021-44228](https://github.com/shivakumarjayaraman/log4jvulnerability-CVE-2021-44228)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -4089,6 +4093,7 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [pravin-pp/log4j2-CVE-2021-45046](https://github.com/pravin-pp/log4j2-CVE-2021-45046)
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
 - [lukepasek/log4jjndilookupremove](https://github.com/lukepasek/log4jjndilookupremove)
+- [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
 
 
 ## 2020
