@@ -3872,6 +3872,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [0-x-2-2/CVE-2021-44228](https://github.com/0-x-2-2/CVE-2021-44228)
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
 - [Crane-Mocker/log4j-poc](https://github.com/Crane-Mocker/log4j-poc)
+- [dtact/divd-2021-00038--log4j-scanner](https://github.com/dtact/divd-2021-00038--log4j-scanner)
 - [kali-dass/CVE-2021-44228-log4Shell](https://github.com/kali-dass/CVE-2021-44228-log4Shell)
 - [pravin-pp/log4j2-CVE-2021-44228](https://github.com/pravin-pp/log4j2-CVE-2021-44228)
 - [Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228](https://github.com/Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228)
@@ -4030,6 +4031,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [shamo0/CVE-2021-44228](https://github.com/shamo0/CVE-2021-44228)
 - [snow0715/log4j-Scan-Burpsuite](https://github.com/snow0715/log4j-Scan-Burpsuite)
 - [Joefreedy/Log4j-Windows-Scanner](https://github.com/Joefreedy/Log4j-Windows-Scanner)
+- [Nanitor/log4fix](https://github.com/Nanitor/log4fix)
 - [Gyrfalc0n/scanlist-log4j](https://github.com/Gyrfalc0n/scanlist-log4j)
 - [korteke/log4shell-demo](https://github.com/korteke/log4shell-demo)
 - [recanavar/vuln_spring_log4j2](https://github.com/recanavar/vuln_spring_log4j2)
@@ -4069,6 +4071,11 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [shakeman8/log4j_getshell](https://github.com/shakeman8/log4j_getshell)
 - [suniastar/scan-log4shell](https://github.com/suniastar/scan-log4shell)
 - [shivakumarjayaraman/log4jvulnerability-CVE-2021-44228](https://github.com/shivakumarjayaraman/log4jvulnerability-CVE-2021-44228)
+- [j3kz/CVE-2021-44228-PoC](https://github.com/j3kz/CVE-2021-44228-PoC)
+- [ramirosantos/CVE-2021-44228-poc](https://github.com/ramirosantos/CVE-2021-44228-poc)
+- [ramirosantos/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab](https://github.com/ramirosantos/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab)
+- [Apipia/log4j-pcap-activity](https://github.com/Apipia/log4j-pcap-activity)
+- [TheInterception/Log4JPentester](https://github.com/TheInterception/Log4JPentester)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -4094,6 +4101,15 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
 - [lukepasek/log4jjndilookupremove](https://github.com/lukepasek/log4jjndilookupremove)
 - [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
+
+### CVE-2021-45105 (-)
+
+<code>
+Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. This issue was fixed in Log4j 2.17.0 and 2.12.3.
+</code>
+
+- [cckuailong/Log4j_dos_CVE-2021-45105](https://github.com/cckuailong/Log4j_dos_CVE-2021-45105)
+- [pravin-pp/log4j2-CVE-2021-45105](https://github.com/pravin-pp/log4j2-CVE-2021-45105)
 
 
 ## 2020
