@@ -538,6 +538,9 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 
 - [cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x)
 
+### CVE-2021-4438
+- [longnguyen-2k/log4j](https://github.com/longnguyen-2k/log4j)
+
 ### CVE-2021-6901
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
 
@@ -4060,6 +4063,8 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [ankur-katiyar/log4j-docker](https://github.com/ankur-katiyar/log4j-docker)
 - [immunityinc/Log4j-JNDIServer](https://github.com/immunityinc/Log4j-JNDIServer)
 - [sblmnl/Scan4j](https://github.com/sblmnl/Scan4j)
+- [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
+- [Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
