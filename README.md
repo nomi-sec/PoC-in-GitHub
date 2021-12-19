@@ -35,25 +35,8 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675)
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
-- [evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP)
-- [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
-- [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
-- [tanarchytan/CVE-2021-1675](https://github.com/tanarchytan/CVE-2021-1675)
-- [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
-- [Leonidus0x10/CVE-2021-1675-SCANNER](https://github.com/Leonidus0x10/CVE-2021-1675-SCANNER)
-- [thomasgeens/CVE-2021-1675](https://github.com/thomasgeens/CVE-2021-1675)
-- [mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery](https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery)
-- [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
-- [kougyokugentou/CVE-2021-1675](https://github.com/kougyokugentou/CVE-2021-1675)
-- [ptter23/CVE-2021-1675](https://github.com/ptter23/CVE-2021-1675)
-- [gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler)
-- [initconf/cve-2021-1675-printnightmare](https://github.com/initconf/cve-2021-1675-printnightmare)
-- [ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare)
-- [exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675)
-- [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
-- [sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE)
 - [JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare)
 - [bartimus-primed/CVE-2021-1675-Yara](https://github.com/bartimus-primed/CVE-2021-1675-Yara)
 - [k8gege/cve-2021-1675](https://github.com/k8gege/cve-2021-1675)
@@ -360,14 +343,6 @@ Denial of service in ASUSWRT ASUS RT-AX3000 firmware versions 3.0.0.4.384_10177 
 
 - [fullbbadda1208/CVE-2021-3229](https://github.com/fullbbadda1208/CVE-2021-3229)
 
-### CVE-2021-3281 (2021-02-02)
-
-<code>
-In Django 2.2 before 2.2.18, 3.0 before 3.0.12, and 3.1 before 3.1.6, the django.utils.archive.extract method (used by &quot;startapp --template&quot; and &quot;startproject --template&quot;) allows directory traversal via an archive with absolute paths or relative paths with dot segments.
-</code>
-
-- [lwzSoviet/CVE-2021-3281](https://github.com/lwzSoviet/CVE-2021-3281)
-
 ### CVE-2021-3291 (2021-01-26)
 
 <code>
@@ -471,7 +446,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
-- [inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
 - [derek-turing/CVE-2021-3493](https://github.com/derek-turing/CVE-2021-3493)
 - [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
 - [puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493)
@@ -1288,7 +1262,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
 - [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
-- [prod1gy1/CVE-2021-26084_Confluence](https://github.com/prod1gy1/CVE-2021-26084_Confluence)
+- [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
 - [toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched)
 - [nizarbamida/CVE-2021-26084-patch-](https://github.com/nizarbamida/CVE-2021-26084-patch-)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
@@ -1653,7 +1627,6 @@ A critical unauthenticated remote code execution vulnerability was found all rec
 
 - [kahla-sec/CVE-2021-27850_POC](https://github.com/kahla-sec/CVE-2021-27850_POC)
 - [dorkerdevil/CVE-2021-27850_POC](https://github.com/dorkerdevil/CVE-2021-27850_POC)
-- [Ovi3/CVE_2021_27850_POC](https://github.com/Ovi3/CVE_2021_27850_POC)
 
 ### CVE-2021-27890 (2021-03-15)
 
@@ -2035,7 +2008,6 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
-- [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
 - [c4dr01d/CVE-2021-31166](https://github.com/c4dr01d/CVE-2021-31166)
 - [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 - [ConMiko/CVE-2021-31166-exploit](https://github.com/ConMiko/CVE-2021-31166-exploit)
@@ -2388,18 +2360,11 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is un
 Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
-- [DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527)
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
-- [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
-- [fardinbarashi/Fix-CVE-2021-34527](https://github.com/fardinbarashi/Fix-CVE-2021-34527)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
-- [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
-- [officedrone/CVE-2021-34527-workaround](https://github.com/officedrone/CVE-2021-34527-workaround)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
-- [vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527](https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527)
-- [powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527)
 - [WidespreadPandemic/CVE-2021-34527_ACL_mitigation](https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation)
 - [glorisonlai/printnightmare](https://github.com/glorisonlai/printnightmare)
 - [dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC)
@@ -2481,7 +2446,6 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 ForgeRock AM server before 7.0 has a Java deserialization vulnerability in the jato.pageSession parameter on multiple pages. The exploitation does not require authentication, and remote code execution can be triggered by sending a single crafted /ccversion/* request to the server. The vulnerability exists due to the usage of Sun ONE Application Framework (JATO) found in versions of Java 8 or earlier
 </code>
 
-- [Y4er/openam-CVE-2021-35464](https://github.com/Y4er/openam-CVE-2021-35464)
 - [rood8008/CVE-2021-35464](https://github.com/rood8008/CVE-2021-35464)
 
 ### CVE-2021-35492 (2021-10-05)
@@ -2499,14 +2463,6 @@ Vulnerability in the Oracle Transportation Management product of Oracle Supply C
 </code>
 
 - [Ofirhamam/OracleOTM](https://github.com/Ofirhamam/OracleOTM)
-
-### CVE-2021-35956 (2021-06-30)
-
-<code>
-Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe before SP480-20210624 enables remote authenticated attackers to introduce arbitrary JavaScript via the Sensor Description, Email (from/to/cc), System Name, and System Location fields.
-</code>
-
-- [tcbutler320/CVE-2021-35956](https://github.com/tcbutler320/CVE-2021-35956)
 
 ### CVE-2021-35975
 - [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
@@ -4082,6 +4038,8 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [TheInterception/Log4J-Simulation-Tool](https://github.com/TheInterception/Log4J-Simulation-Tool)
 - [KeysAU/Get-log4j-Windows-local](https://github.com/KeysAU/Get-log4j-Windows-local)
 - [mschmnet/Log4Shell-demo](https://github.com/mschmnet/Log4Shell-demo)
+- [Rk-000/Log4j_scan_Advance](https://github.com/Rk-000/Log4j_scan_Advance)
+- [Labout/log4shell-rmi-poc](https://github.com/Labout/log4shell-rmi-poc)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -11726,6 +11684,14 @@ An exploitable local privilege escalation vulnerability exists in the GalaxyClie
 </code>
 
 - [adenkiewicz/CVE-2019-15511](https://github.com/adenkiewicz/CVE-2019-15511)
+
+### CVE-2019-15514 (2019-08-23)
+
+<code>
+The Privacy &gt; Phone Number feature in the Telegram app 5.10 for Android and iOS provides an incorrect indication that the access level is Nobody, because attackers can find these numbers via the Group Info feature, e.g., by adding a significant fraction of a region's assigned phone numbers.
+</code>
+
+- [graysuit/CVE-2019-15514](https://github.com/graysuit/CVE-2019-15514)
 
 ### CVE-2019-15588 (2019-11-01)
 
