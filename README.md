@@ -35,16 +35,11 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675)
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
-- [evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP)
 - [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
-- [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
-- [kougyokugentou/CVE-2021-1675](https://github.com/kougyokugentou/CVE-2021-1675)
-- [ptter23/CVE-2021-1675](https://github.com/ptter23/CVE-2021-1675)
 - [gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler)
-- [initconf/cve-2021-1675-printnightmare](https://github.com/initconf/cve-2021-1675-printnightmare)
 - [ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare)
 - [exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675)
 - [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
@@ -1648,7 +1643,6 @@ A critical unauthenticated remote code execution vulnerability was found all rec
 
 - [kahla-sec/CVE-2021-27850_POC](https://github.com/kahla-sec/CVE-2021-27850_POC)
 - [dorkerdevil/CVE-2021-27850_POC](https://github.com/dorkerdevil/CVE-2021-27850_POC)
-- [Ovi3/CVE_2021_27850_POC](https://github.com/Ovi3/CVE_2021_27850_POC)
 
 ### CVE-2021-27890 (2021-03-15)
 
@@ -2384,7 +2378,6 @@ Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
-- [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
 - [fardinbarashi/Fix-CVE-2021-34527](https://github.com/fardinbarashi/Fix-CVE-2021-34527)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
@@ -4048,7 +4041,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [WatchGuard-Threat-Lab/log4shell-iocs](https://github.com/WatchGuard-Threat-Lab/log4shell-iocs)
 - [Aschen/log4j-patched](https://github.com/Aschen/log4j-patched)
 - [Nikolas-Charalambidis/cve-2021-44228](https://github.com/Nikolas-Charalambidis/cve-2021-44228)
-- [ermohitrathore/detect-log4j-exploitable](https://github.com/ermohitrathore/detect-log4j-exploitable)
+- [m0rath/detect-log4j-exploitable](https://github.com/m0rath/detect-log4j-exploitable)
 - [nu11secur1ty/CVE-2021-44228-VULN-APP](https://github.com/nu11secur1ty/CVE-2021-44228-VULN-APP)
 - [ankur-katiyar/log4j-docker](https://github.com/ankur-katiyar/log4j-docker)
 - [immunityinc/Log4j-JNDIServer](https://github.com/immunityinc/Log4j-JNDIServer)
@@ -4074,6 +4067,12 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [spasam/log4j2-exploit](https://github.com/spasam/log4j2-exploit)
 - [bumheehan/cve-2021-44228-log4j-test](https://github.com/bumheehan/cve-2021-44228-log4j-test)
 - [JagarYousef/log4j-dork-scanner](https://github.com/JagarYousef/log4j-dork-scanner)
+- [dmitsuo/log4shell-war-fixer](https://github.com/dmitsuo/log4shell-war-fixer)
+- [Y0-kan/Log4jShell-Scan](https://github.com/Y0-kan/Log4jShell-Scan)
+- [julian911015/Log4j-Scanner-Exploit](https://github.com/julian911015/Log4j-Scanner-Exploit)
+- [intel-xeon/CVE-2021-44228---detection-with-PowerShell](https://github.com/intel-xeon/CVE-2021-44228---detection-with-PowerShell)
+- [chandru-gunasekaran/log4j-fix-CVE-2021-44228](https://github.com/chandru-gunasekaran/log4j-fix-CVE-2021-44228)
+- [erickrr-bd/TekiumLog4jApp](https://github.com/erickrr-bd/TekiumLog4jApp)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -4110,6 +4109,7 @@ Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3) did not prot
 - [cckuailong/Log4j_dos_CVE-2021-45105](https://github.com/cckuailong/Log4j_dos_CVE-2021-45105)
 - [pravin-pp/log4j2-CVE-2021-45105](https://github.com/pravin-pp/log4j2-CVE-2021-45105)
 - [tejas-nagchandi/CVE-2021-45105](https://github.com/tejas-nagchandi/CVE-2021-45105)
+- [iAmSOScArEd/log4j2_dos_exploit](https://github.com/iAmSOScArEd/log4j2_dos_exploit)
 
 
 ## 2020
@@ -8965,6 +8965,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [c4dr01d/CVE-2019-0708](https://github.com/c4dr01d/CVE-2019-0708)
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
 - [lisinan988/CVE-2019-0708-scan](https://github.com/lisinan988/CVE-2019-0708-scan)
+- [offensity/CVE-2019-0708](https://github.com/offensity/CVE-2019-0708)
 
 ### CVE-2019-0709 (2019-06-12)
 
