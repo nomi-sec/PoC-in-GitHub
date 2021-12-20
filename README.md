@@ -39,7 +39,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
-- [mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery](https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery)
 - [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
 - [kougyokugentou/CVE-2021-1675](https://github.com/kougyokugentou/CVE-2021-1675)
@@ -215,7 +214,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 
 - [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
 - [0xf4n9x/CVE-2021-3019](https://github.com/0xf4n9x/CVE-2021-3019)
-- [liuxu54898/CVE-2021-3019](https://github.com/liuxu54898/CVE-2021-3019)
+- [Maksim-venus/CVE-2021-3019](https://github.com/Maksim-venus/CVE-2021-3019)
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 - [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
 - [givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019)
@@ -3958,7 +3957,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [toramanemre/apache-solr-log4j-CVE-2021-44228](https://github.com/toramanemre/apache-solr-log4j-CVE-2021-44228)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
-- [Auddn/ITF-log4shell-vulnapp](https://github.com/Auddn/ITF-log4shell-vulnapp)
+- [nikitapark/ITF-log4shell-vulnapp](https://github.com/nikitapark/ITF-log4shell-vulnapp)
 - [cbuschka/log4j2-rce-recap](https://github.com/cbuschka/log4j2-rce-recap)
 - [andrii-kovalenko-celonis/log4j-vulnerability-demo](https://github.com/andrii-kovalenko-celonis/log4j-vulnerability-demo)
 - [jan-muhammad-zaidi/Log4j-CVE-2021-44228](https://github.com/jan-muhammad-zaidi/Log4j-CVE-2021-44228)
@@ -4060,8 +4059,6 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [suniastar/scan-log4shell](https://github.com/suniastar/scan-log4shell)
 - [shivakumarjayaraman/log4jvulnerability-CVE-2021-44228](https://github.com/shivakumarjayaraman/log4jvulnerability-CVE-2021-44228)
 - [j3kz/CVE-2021-44228-PoC](https://github.com/j3kz/CVE-2021-44228-PoC)
-- [ramirosantos/CVE-2021-44228-poc](https://github.com/ramirosantos/CVE-2021-44228-poc)
-- [ramirosantos/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab](https://github.com/ramirosantos/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab)
 - [Apipia/log4j-pcap-activity](https://github.com/Apipia/log4j-pcap-activity)
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
 - [kkyehit/log4j_CVE-2021-44228](https://github.com/kkyehit/log4j_CVE-2021-44228)
@@ -4075,6 +4072,8 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [sudo6/l4shunter](https://github.com/sudo6/l4shunter)
 - [ArkAngeL43/f-for-java](https://github.com/ArkAngeL43/f-for-java)
 - [spasam/log4j2-exploit](https://github.com/spasam/log4j2-exploit)
+- [bumheehan/cve-2021-44228-log4j-test](https://github.com/bumheehan/cve-2021-44228-log4j-test)
+- [JagarYousef/log4j-dork-scanner](https://github.com/JagarYousef/log4j-dork-scanner)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -4090,7 +4089,7 @@ HD-Network Real-time Monitoring System 2.0 allows ../ directory traversal to rea
 ### CVE-2021-45046 (2021-12-14)
 
 <code>
-It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in a denial of service (DOS) attack. Log4j 2.15.0 makes a best-effort attempt to restrict JNDI LDAP lookups to localhost by default. Log4j 2.16.0 fixes this issue by removing support for message lookup patterns and disabling JNDI functionality by default.
+It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default.
 </code>
 
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
@@ -4100,6 +4099,7 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
 - [lukepasek/log4jjndilookupremove](https://github.com/lukepasek/log4jjndilookupremove)
 - [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
+- [lijiejie/log4j2_vul_local_scanner](https://github.com/lijiejie/log4j2_vul_local_scanner)
 
 ### CVE-2021-45105 (2021-12-18)
 
@@ -8888,7 +8888,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [edvacco/CVE-2019-0708-POC](https://github.com/edvacco/CVE-2019-0708-POC)
 - [pry0cc/BlueKeepTracker](https://github.com/pry0cc/BlueKeepTracker)
 - [zjw88282740/CVE-2019-0708-win7](https://github.com/zjw88282740/CVE-2019-0708-win7)
-- [zerosum0x0/CVE-2019-0708](https://github.com/zerosum0x0/CVE-2019-0708)
+- [hawk-520/CVE-2019-0708](https://github.com/hawk-520/CVE-2019-0708)
 - [herhe/CVE-2019-0708poc](https://github.com/herhe/CVE-2019-0708poc)
 - [l9c/rdp0708scanner](https://github.com/l9c/rdp0708scanner)
 - [major203/cve-2019-0708-scan](https://github.com/major203/cve-2019-0708-scan)
