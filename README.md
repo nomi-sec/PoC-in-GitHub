@@ -39,7 +39,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
-- [thomasgeens/CVE-2021-1675](https://github.com/thomasgeens/CVE-2021-1675)
 - [mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery](https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery)
 - [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
@@ -2385,7 +2384,6 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is un
 Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
-- [DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527)
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
 - [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
 - [fardinbarashi/Fix-CVE-2021-34527](https://github.com/fardinbarashi/Fix-CVE-2021-34527)
@@ -4075,6 +4073,8 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [puzzlepeaches/Log4jCenter](https://github.com/puzzlepeaches/Log4jCenter)
 - [Labout/log4shell-rmi-poc](https://github.com/Labout/log4shell-rmi-poc)
 - [sudo6/l4shunter](https://github.com/sudo6/l4shunter)
+- [ArkAngeL43/f-for-java](https://github.com/ArkAngeL43/f-for-java)
+- [spasam/log4j2-exploit](https://github.com/spasam/log4j2-exploit)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
