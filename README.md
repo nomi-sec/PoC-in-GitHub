@@ -40,7 +40,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
 - [gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler)
-- [ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare)
 - [exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675)
 - [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
 - [sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE)
@@ -2024,7 +2023,6 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
-- [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
 - [c4dr01d/CVE-2021-31166](https://github.com/c4dr01d/CVE-2021-31166)
 - [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 - [ConMiko/CVE-2021-31166-exploit](https://github.com/ConMiko/CVE-2021-31166-exploit)
@@ -2378,7 +2376,6 @@ Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
-- [fardinbarashi/Fix-CVE-2021-34527](https://github.com/fardinbarashi/Fix-CVE-2021-34527)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
@@ -3446,6 +3443,9 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 - [waterrr/noPac](https://github.com/waterrr/noPac)
 - [ly4k/Pachine](https://github.com/ly4k/Pachine)
 
+### CVE-2021-42281
+- [snapattack/damn-vulnerable-log4j-app](https://github.com/snapattack/damn-vulnerable-log4j-app)
+
 ### CVE-2021-42287 (2021-11-09)
 
 <code>
@@ -3739,6 +3739,14 @@ Windows Installer Elevation of Privilege Vulnerability
 </code>
 
 - [jbaines-r7/shakeitoff](https://github.com/jbaines-r7/shakeitoff)
+
+### CVE-2021-43891 (2021-12-15)
+
+<code>
+Visual Studio Code Remote Code Execution Vulnerability
+</code>
+
+- [parsiya/code-wsl-rce](https://github.com/parsiya/code-wsl-rce)
 
 ### CVE-2021-43936 (2021-12-06)
 
@@ -4110,6 +4118,7 @@ Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3) did not prot
 - [pravin-pp/log4j2-CVE-2021-45105](https://github.com/pravin-pp/log4j2-CVE-2021-45105)
 - [tejas-nagchandi/CVE-2021-45105](https://github.com/tejas-nagchandi/CVE-2021-45105)
 - [iAmSOScArEd/log4j2_dos_exploit](https://github.com/iAmSOScArEd/log4j2_dos_exploit)
+- [hackername0102/log4j](https://github.com/hackername0102/log4j)
 
 
 ## 2020
@@ -16117,6 +16126,7 @@ A remote code execution vulnerability in the Android system (bluetooth). Product
 - [marcinguy/android712-blueborne](https://github.com/marcinguy/android712-blueborne)
 - [mjancek/BlueborneDetection](https://github.com/mjancek/BlueborneDetection)
 - [CrackSoft900/Blue-Borne](https://github.com/CrackSoft900/Blue-Borne)
+- [CarlosDelRosario7/sploit-bX](https://github.com/CarlosDelRosario7/sploit-bX)
 
 ### CVE-2017-0785 (2017-09-14)
 
