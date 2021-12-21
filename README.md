@@ -39,8 +39,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
-- [gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler](https://github.com/gohrenberg/CVE-2021-1675-Mitigation-For-Systems-That-Need-Spooler)
-- [exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675)
 - [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
 - [sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE)
 - [JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare)
@@ -551,7 +549,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 </code>
 
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
-- [onsecuredev/CVE-2021-20837](https://github.com/onsecuredev/CVE-2021-20837)
+- [rakhanobe/CVE-2021-20837](https://github.com/rakhanobe/CVE-2021-20837)
 - [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
 - [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
 
@@ -756,7 +754,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
 - [haiclover/CVE-2021-21972](https://github.com/haiclover/CVE-2021-21972)
-- [onsecuredev/CVE-2021-21972](https://github.com/onsecuredev/CVE-2021-21972)
+- [rakhanobe/CVE-2021-21972](https://github.com/rakhanobe/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -970,7 +968,7 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 
 - [ZephrFish/CVE-2021-22893_HoneyPoC2](https://github.com/ZephrFish/CVE-2021-22893_HoneyPoC2)
 - [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
-- [onsecuredev/CVE-2021-22893](https://github.com/onsecuredev/CVE-2021-22893)
+- [rakhanobe/CVE-2021-22893](https://github.com/rakhanobe/CVE-2021-22893)
 
 ### CVE-2021-22911 (2021-05-27)
 
@@ -1283,7 +1281,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
 - [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
-- [onsecuredev/CVE-2021-26084](https://github.com/onsecuredev/CVE-2021-26084)
+- [rakhanobe/CVE-2021-26084](https://github.com/rakhanobe/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
@@ -1632,7 +1630,7 @@ In versions 8.2.1 through 8.5.2 of Pega Infinity, the password reset functionali
 
 - [samwcyo/CVE-2021-27651-PoC](https://github.com/samwcyo/CVE-2021-27651-PoC)
 - [Vulnmachines/CVE-2021-27651](https://github.com/Vulnmachines/CVE-2021-27651)
-- [onsecuredev/CVE-2021-27651](https://github.com/onsecuredev/CVE-2021-27651)
+- [rakhanobe/CVE-2021-27651](https://github.com/rakhanobe/CVE-2021-27651)
 
 ### CVE-2021-27850 (2021-04-15)
 
@@ -1940,7 +1938,7 @@ Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote a
 </code>
 
 - [s4e-lab/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-lab/CVE-2021-30573-PoC-Google-Chrome)
-- [onsecuredev/CVE-2021-30573](https://github.com/onsecuredev/CVE-2021-30573)
+- [rakhanobe/CVE-2021-30573](https://github.com/rakhanobe/CVE-2021-30573)
 - [kh4sh3i/CVE-2021-30573](https://github.com/kh4sh3i/CVE-2021-30573)
 
 ### CVE-2021-30632 (2021-10-08)
@@ -2377,7 +2375,6 @@ Windows Print Spooler Remote Code Execution Vulnerability
 
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
-- [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
 - [officedrone/CVE-2021-34527-workaround](https://github.com/officedrone/CVE-2021-34527-workaround)
@@ -2725,7 +2722,7 @@ In Apache CouchDB, a malicious user with permission to create documents in a dat
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
-- [onsecuredev/CVE-2021-38314](https://github.com/onsecuredev/CVE-2021-38314)
+- [rakhanobe/CVE-2021-38314](https://github.com/rakhanobe/CVE-2021-38314)
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
@@ -3143,7 +3140,7 @@ An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestr
 </code>
 
 - [0xAgun/CVE-2021-40870](https://github.com/0xAgun/CVE-2021-40870)
-- [onsecuredev/CVE-2021-40870](https://github.com/onsecuredev/CVE-2021-40870)
+- [rakhanobe/CVE-2021-40870](https://github.com/rakhanobe/CVE-2021-40870)
 - [JoyGhoshs/CVE-2021-40870](https://github.com/JoyGhoshs/CVE-2021-40870)
 
 ### CVE-2021-40875 (2021-09-22)
@@ -3329,7 +3326,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [fnatalucci/CVE-2021-41773-RCE](https://github.com/fnatalucci/CVE-2021-41773-RCE)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
-- [onsecuredev/CVE-2021-41773](https://github.com/onsecuredev/CVE-2021-41773)
+- [rakhanobe/CVE-2021-41773](https://github.com/rakhanobe/CVE-2021-41773)
 - [HightechSec/scarce-apache2](https://github.com/HightechSec/scarce-apache2)
 - [vinhjaxt/CVE-2021-41773-exploit](https://github.com/vinhjaxt/CVE-2021-41773-exploit)
 - [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
@@ -3603,6 +3600,14 @@ An issue was discovered in Plex Media Server through 1.24.4.5081-e362dc1ee. An a
 
 - [netanelc305/PlEXcalaison](https://github.com/netanelc305/PlEXcalaison)
 
+### CVE-2021-42913 (2021-12-20)
+
+<code>
+The SyncThru Web Service on Samsung SCX-6x55X printers allows an attacker to gain access to a list of SMB users and cleartext passwords by reading the HTML source code. Authentication is not required.
+</code>
+
+- [windsormoreira/CVE-2021-42913](https://github.com/windsormoreira/CVE-2021-42913)
+
 ### CVE-2021-43032 (2021-11-03)
 
 <code>
@@ -3626,6 +3631,14 @@ Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Simple Subscri
 </code>
 
 - [Dir0x/CVE-2021-43141](https://github.com/Dir0x/CVE-2021-43141)
+
+### CVE-2021-43224 (2021-12-15)
+
+<code>
+Windows Common Log File System Driver Information Disclosure Vulnerability
+</code>
+
+- [KaLendsi/CVE-2021-43224-POC](https://github.com/KaLendsi/CVE-2021-43224-POC)
 
 ### CVE-2021-43267 (2021-11-02)
 
@@ -3958,7 +3971,6 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [toramanemre/apache-solr-log4j-CVE-2021-44228](https://github.com/toramanemre/apache-solr-log4j-CVE-2021-44228)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
-- [nikitapark/ITF-log4shell-vulnapp](https://github.com/nikitapark/ITF-log4shell-vulnapp)
 - [cbuschka/log4j2-rce-recap](https://github.com/cbuschka/log4j2-rce-recap)
 - [andrii-kovalenko-celonis/log4j-vulnerability-demo](https://github.com/andrii-kovalenko-celonis/log4j-vulnerability-demo)
 - [jan-muhammad-zaidi/Log4j-CVE-2021-44228](https://github.com/jan-muhammad-zaidi/Log4j-CVE-2021-44228)
@@ -4081,6 +4093,8 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [intel-xeon/CVE-2021-44228---detection-with-PowerShell](https://github.com/intel-xeon/CVE-2021-44228---detection-with-PowerShell)
 - [chandru-gunasekaran/log4j-fix-CVE-2021-44228](https://github.com/chandru-gunasekaran/log4j-fix-CVE-2021-44228)
 - [erickrr-bd/TekiumLog4jApp](https://github.com/erickrr-bd/TekiumLog4jApp)
+- [sassoftware/loguccino](https://github.com/sassoftware/loguccino)
+- [xx-zhang/apache-log4j2-CVE-2021-44228](https://github.com/xx-zhang/apache-log4j2-CVE-2021-44228)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -4488,7 +4502,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 - [Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796)
-- [onsecuredev/CVE-2020-0796](https://github.com/onsecuredev/CVE-2020-0796)
+- [rakhanobe/CVE-2020-0796](https://github.com/rakhanobe/CVE-2020-0796)
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
@@ -11786,7 +11800,7 @@ admin/includes/class.import.snippet.php in the &quot;Woody ad snippets&quot; plu
 </code>
 
 - [GeneralEG/CVE-2019-15858](https://github.com/GeneralEG/CVE-2019-15858)
-- [onsecuredev/CVE-2019-15858](https://github.com/onsecuredev/CVE-2019-15858)
+- [rakhanobe/CVE-2019-15858](https://github.com/rakhanobe/CVE-2019-15858)
 
 ### CVE-2019-15972 (2019-11-25)
 
@@ -15115,7 +15129,7 @@ Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlie
 - [cved-sources/cve-2018-15961](https://github.com/cved-sources/cve-2018-15961)
 - [0xAJ2K/CVE-2018-15961](https://github.com/0xAJ2K/CVE-2018-15961)
 - [xbufu/CVE-2018-15961](https://github.com/xbufu/CVE-2018-15961)
-- [onsecuredev/CVE-2018-15961](https://github.com/onsecuredev/CVE-2018-15961)
+- [rakhanobe/CVE-2018-15961](https://github.com/rakhanobe/CVE-2018-15961)
 
 ### CVE-2018-15968 (2018-10-12)
 
@@ -22578,6 +22592,7 @@ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function be
 - [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
 - [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
 - [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
+- [windsormoreira/CVE-2006-3392](https://github.com/windsormoreira/CVE-2006-3392)
 
 ### CVE-2006-3592 (2006-07-14)
 
