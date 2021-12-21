@@ -35,7 +35,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675)
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
-- [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
@@ -347,14 +346,6 @@ Denial of service in ASUSWRT ASUS RT-AX3000 firmware versions 3.0.0.4.384_10177 
 
 - [fullbbadda1208/CVE-2021-3229](https://github.com/fullbbadda1208/CVE-2021-3229)
 
-### CVE-2021-3281 (2021-02-02)
-
-<code>
-In Django 2.2 before 2.2.18, 3.0 before 3.0.12, and 3.1 before 3.1.6, the django.utils.archive.extract method (used by &quot;startapp --template&quot; and &quot;startproject --template&quot;) allows directory traversal via an archive with absolute paths or relative paths with dot segments.
-</code>
-
-- [lwzSoviet/CVE-2021-3281](https://github.com/lwzSoviet/CVE-2021-3281)
-
 ### CVE-2021-3291 (2021-01-26)
 
 <code>
@@ -524,6 +515,9 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 </code>
 
 - [cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x)
+
+### CVE-2021-4428
+- [CERT-hr/Log4Shell](https://github.com/CERT-hr/Log4Shell)
 
 ### CVE-2021-4438
 - [longnguyen-2k/log4j](https://github.com/longnguyen-2k/log4j)
@@ -3741,6 +3735,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [Awrrays/Grafana-CVE-2021-43798](https://github.com/Awrrays/Grafana-CVE-2021-43798)
 - [Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798)
 - [k3rwin/CVE-2021-43798-Grafana-](https://github.com/k3rwin/CVE-2021-43798-Grafana-)
+- [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -4095,6 +4090,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [erickrr-bd/TekiumLog4jApp](https://github.com/erickrr-bd/TekiumLog4jApp)
 - [sassoftware/loguccino](https://github.com/sassoftware/loguccino)
 - [xx-zhang/apache-log4j2-CVE-2021-44228](https://github.com/xx-zhang/apache-log4j2-CVE-2021-44228)
+- [r00thunter/Log4Shell-Scanner](https://github.com/r00thunter/Log4Shell-Scanner)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -4132,7 +4128,6 @@ Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3) did not prot
 - [pravin-pp/log4j2-CVE-2021-45105](https://github.com/pravin-pp/log4j2-CVE-2021-45105)
 - [tejas-nagchandi/CVE-2021-45105](https://github.com/tejas-nagchandi/CVE-2021-45105)
 - [iAmSOScArEd/log4j2_dos_exploit](https://github.com/iAmSOScArEd/log4j2_dos_exploit)
-- [hackername0102/log4j](https://github.com/hackername0102/log4j)
 
 
 ## 2020
@@ -6405,7 +6400,7 @@ GitLab EE/CE 8.5 to 12.9 is vulnerable to a an path traversal when moving an iss
 - [erk3/gitlab-12.9.0-file-read](https://github.com/erk3/gitlab-12.9.0-file-read)
 - [liath/CVE-2020-10977](https://github.com/liath/CVE-2020-10977)
 - [lisp3r/cve-2020-10977-read-and-execute](https://github.com/lisp3r/cve-2020-10977-read-and-execute)
-- [nickvdyck/gitlab-cve-2020-10977](https://github.com/nickvdyck/gitlab-cve-2020-10977)
+- [vandycknick/gitlab-cve-2020-10977](https://github.com/vandycknick/gitlab-cve-2020-10977)
 
 ### CVE-2020-11022 (2020-04-29)
 
