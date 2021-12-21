@@ -36,7 +36,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
-- [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
 - [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
 - [sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE)
@@ -472,9 +471,9 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
 - [mr-nobody20/CVE-2021-3560](https://github.com/mr-nobody20/CVE-2021-3560)
-- [LeoBreaker1411/CVE-2021-3560](https://github.com/LeoBreaker1411/CVE-2021-3560)
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
+- [STEALTH-Z/CVE-2021-3560](https://github.com/STEALTH-Z/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -2939,14 +2938,6 @@ An issue was discovered in Concrete CMS before 8.5.7. The Dashboard allows a use
 
 - [S1lkys/CVE-2021-40101](https://github.com/S1lkys/CVE-2021-40101)
 
-### CVE-2021-40154 (2021-12-01)
-
-<code>
-NXP LPC55S69 devices before A3 have a buffer over-read via a crafted wlength value in a GET Descriptor Configuration request during use of USB In-System Programming (ISP) mode. This discloses protected flash memory.
-</code>
-
-- [Xen1thLabs-AE/CVE-2021-40154](https://github.com/Xen1thLabs-AE/CVE-2021-40154)
-
 ### CVE-2021-40222 (2021-09-09)
 
 <code>
@@ -3987,7 +3978,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [stripe/log4j-remediation-tools](https://github.com/stripe/log4j-remediation-tools)
 - [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
-- [HynekPetrak/log4shell_finder](https://github.com/HynekPetrak/log4shell_finder)
+- [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [0xThiebaut/CVE-2021-44228](https://github.com/0xThiebaut/CVE-2021-44228)
 - [CERTCC/CVE-2021-44228_scanner](https://github.com/CERTCC/CVE-2021-44228_scanner)
 - [dbzoo/log4j_scanner](https://github.com/dbzoo/log4j_scanner)
@@ -4060,7 +4051,6 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [nu11secur1ty/CVE-2021-44228-VULN-APP](https://github.com/nu11secur1ty/CVE-2021-44228-VULN-APP)
 - [ankur-katiyar/log4j-docker](https://github.com/ankur-katiyar/log4j-docker)
 - [immunityinc/Log4j-JNDIServer](https://github.com/immunityinc/Log4j-JNDIServer)
-- [sblmnl/Scan4j](https://github.com/sblmnl/Scan4j)
 - [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
 - [Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce)
 - [shakeman8/log4j_getshell](https://github.com/shakeman8/log4j_getshell)
@@ -4091,6 +4081,9 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [sassoftware/loguccino](https://github.com/sassoftware/loguccino)
 - [xx-zhang/apache-log4j2-CVE-2021-44228](https://github.com/xx-zhang/apache-log4j2-CVE-2021-44228)
 - [r00thunter/Log4Shell-Scanner](https://github.com/r00thunter/Log4Shell-Scanner)
+- [motikan2010/RASP-CVE-2021-44228](https://github.com/motikan2010/RASP-CVE-2021-44228)
+- [mn-io/log4j-spring-vuln-poc](https://github.com/mn-io/log4j-spring-vuln-poc)
+- [rejupillai/log4j2-hack-springboot](https://github.com/rejupillai/log4j2-hack-springboot)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -9980,6 +9973,14 @@ python-gnupg 0.4.3 allows context-dependent attackers to trick gnupg to decrypt 
 - [stigtsp/CVE-2019-6690-python-gnupg-vulnerability](https://github.com/stigtsp/CVE-2019-6690-python-gnupg-vulnerability)
 - [brianwrf/CVE-2019-6690](https://github.com/brianwrf/CVE-2019-6690)
 
+### CVE-2019-6693 (2019-11-21)
+
+<code>
+Use of a hard-coded cryptographic key to cipher sensitive data in FortiOS configuration backup file may allow an attacker with access to the backup file to decipher the sensitive data, via knowledge of the hard-coded key. The aforementioned sensitive data includes users' passwords (except the administrator's password), private keys' passphrases and High Availability password (when set).
+</code>
+
+- [gquere/CVE-2019-6693](https://github.com/gquere/CVE-2019-6693)
+
 ### CVE-2019-6715 (2019-04-01)
 
 <code>
@@ -11889,6 +11890,14 @@ Centreon Web before 2.8.30, 18.10.x before 18.10.8, 19.04.x before 19.04.5 and 1
 </code>
 
 - [TheCyberGeek/CVE-2019-16405.rb](https://github.com/TheCyberGeek/CVE-2019-16405.rb)
+
+### CVE-2019-16516 (2020-01-23)
+
+<code>
+An issue was discovered in ConnectWise Control (formerly known as ScreenConnect) 19.3.25270.7185. There is a user enumeration vulnerability, allowing an unauthenticated attacker to determine with certainty if an account exists for a given username.
+</code>
+
+- [czz/ScreenConnect-UserEnum](https://github.com/czz/ScreenConnect-UserEnum)
 
 ### CVE-2019-16662 (2019-10-28)
 
@@ -19406,6 +19415,14 @@ The setFrom function in the Sendmail adapter in the zend-mail component before 2
 </code>
 
 - [heikipikker/exploit-CVE-2016-10034](https://github.com/heikipikker/exploit-CVE-2016-10034)
+
+### CVE-2016-10140 (2017-01-13)
+
+<code>
+Information disclosure and authentication bypass vulnerability exists in the Apache HTTP Server configuration bundled with ZoneMinder v1.30 and v1.29, which allows a remote unauthenticated attacker to browse all directories in the web root, e.g., a remote unauthenticated attacker can view all CCTV images on the server via the /events URI.
+</code>
+
+- [asaotomo/CVE-2016-10140-Zoneminder-Poc](https://github.com/asaotomo/CVE-2016-10140-Zoneminder-Poc)
 
 ### CVE-2016-10277 (2017-05-12)
 
