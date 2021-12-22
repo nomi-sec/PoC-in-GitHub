@@ -2247,7 +2247,7 @@ Microsoft DWM Core Library Elevation of Privilege Vulnerability
 </code>
 
 - [freeide2017/CVE-2021-33739-POC](https://github.com/freeide2017/CVE-2021-33739-POC)
-- [giwon9977/CVE-2021-33739_PoC](https://github.com/giwon9977/CVE-2021-33739_PoC)
+- [giwon9977/CVE-2021-33739_PoC_Analysis](https://github.com/giwon9977/CVE-2021-33739_PoC_Analysis)
 
 ### CVE-2021-33766 (2021-07-14)
 
@@ -2367,10 +2367,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
-- [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
-- [officedrone/CVE-2021-34527-workaround](https://github.com/officedrone/CVE-2021-34527-workaround)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
-- [powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527)
 - [WidespreadPandemic/CVE-2021-34527_ACL_mitigation](https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation)
 - [glorisonlai/printnightmare](https://github.com/glorisonlai/printnightmare)
 - [dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC)
@@ -4084,6 +4081,9 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [lucab85/log4j-cve-2021-44228](https://github.com/lucab85/log4j-cve-2021-44228)
 - [BabooPan/Log4Shell-CVE-2021-44228-Demo](https://github.com/BabooPan/Log4Shell-CVE-2021-44228-Demo)
 - [NitinGavhane/CVE-2021-44228---Log4J](https://github.com/NitinGavhane/CVE-2021-44228---Log4J)
+- [ossie-git/log4shell_sentinel](https://github.com/ossie-git/log4shell_sentinel)
+- [r00thunter/Log4Shell](https://github.com/r00thunter/Log4Shell)
+- [asyzdykov/cve-2021-44228-fix-jars](https://github.com/asyzdykov/cve-2021-44228-fix-jars)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
