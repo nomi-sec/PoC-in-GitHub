@@ -446,7 +446,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
-- [inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
 - [derek-turing/CVE-2021-3493](https://github.com/derek-turing/CVE-2021-3493)
 - [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
 - [puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493)
@@ -929,6 +928,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [ahmad4fifz/CVE-2021-22205](https://github.com/ahmad4fifz/CVE-2021-22205)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
 - [pizza-power/Golang-CVE-2021-22205-POC](https://github.com/pizza-power/Golang-CVE-2021-22205-POC)
+- [gardenWhy/Gitlab-CVE-2021-22205](https://github.com/gardenWhy/Gitlab-CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -2370,7 +2370,6 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
 - [officedrone/CVE-2021-34527-workaround](https://github.com/officedrone/CVE-2021-34527-workaround)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
-- [vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527](https://github.com/vinaysudheer/Disable-Spooler-Service-PrintNightmare-CVE-2021-34527)
 - [powershellpr0mpt/PrintNightmare-CVE-2021-34527](https://github.com/powershellpr0mpt/PrintNightmare-CVE-2021-34527)
 - [WidespreadPandemic/CVE-2021-34527_ACL_mitigation](https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation)
 - [glorisonlai/printnightmare](https://github.com/glorisonlai/printnightmare)
@@ -4080,10 +4079,11 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [sassoftware/loguccino](https://github.com/sassoftware/loguccino)
 - [xx-zhang/apache-log4j2-CVE-2021-44228](https://github.com/xx-zhang/apache-log4j2-CVE-2021-44228)
 - [r00thunter/Log4Shell-Scanner](https://github.com/r00thunter/Log4Shell-Scanner)
-- [motikan2010/RASP-CVE-2021-44228](https://github.com/motikan2010/RASP-CVE-2021-44228)
 - [mn-io/log4j-spring-vuln-poc](https://github.com/mn-io/log4j-spring-vuln-poc)
 - [rejupillai/log4j2-hack-springboot](https://github.com/rejupillai/log4j2-hack-springboot)
 - [lucab85/log4j-cve-2021-44228](https://github.com/lucab85/log4j-cve-2021-44228)
+- [BabooPan/Log4Shell-CVE-2021-44228-Demo](https://github.com/BabooPan/Log4Shell-CVE-2021-44228-Demo)
+- [NitinGavhane/CVE-2021-44228---Log4J](https://github.com/NitinGavhane/CVE-2021-44228---Log4J)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
