@@ -37,8 +37,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
-- [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
-- [sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE)
 - [JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare)
 - [bartimus-primed/CVE-2021-1675-Yara](https://github.com/bartimus-primed/CVE-2021-1675-Yara)
 - [k8gege/cve-2021-1675](https://github.com/k8gege/cve-2021-1675)
@@ -3727,6 +3725,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798)
 - [k3rwin/CVE-2021-43798-Grafana-](https://github.com/k3rwin/CVE-2021-43798-Grafana-)
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
+- [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -4084,6 +4083,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [motikan2010/RASP-CVE-2021-44228](https://github.com/motikan2010/RASP-CVE-2021-44228)
 - [mn-io/log4j-spring-vuln-poc](https://github.com/mn-io/log4j-spring-vuln-poc)
 - [rejupillai/log4j2-hack-springboot](https://github.com/rejupillai/log4j2-hack-springboot)
+- [lucab85/log4j-cve-2021-44228](https://github.com/lucab85/log4j-cve-2021-44228)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -6114,8 +6114,6 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [Xslover/CVE-2020-9484-Scanner](https://github.com/Xslover/CVE-2020-9484-Scanner)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
-- [psauxx/-CVE-2020-9484-](https://github.com/psauxx/-CVE-2020-9484-)
-- [psauxx/-CVE-2020-9484](https://github.com/psauxx/-CVE-2020-9484)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
@@ -10362,7 +10360,6 @@ SQL injection vulnerability in the J2Store plugin 3.x before 3.3.7 for Joomla! a
 </code>
 
 - [wkjung0624/CVE-2019-9193](https://github.com/wkjung0624/CVE-2019-9193)
-- [psauxx/CVE-2019-9193](https://github.com/psauxx/CVE-2019-9193)
 
 ### CVE-2019-9194 (2019-02-26)
 
