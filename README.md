@@ -2366,7 +2366,6 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
-- [WidespreadPandemic/CVE-2021-34527_ACL_mitigation](https://github.com/WidespreadPandemic/CVE-2021-34527_ACL_mitigation)
 - [dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC)
 - [Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare)
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
@@ -4083,8 +4082,9 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [r00thunter/Log4Shell](https://github.com/r00thunter/Log4Shell)
 - [asyzdykov/cve-2021-44228-fix-jars](https://github.com/asyzdykov/cve-2021-44228-fix-jars)
 - [NatteeSetobol/Log4JChecker](https://github.com/NatteeSetobol/Log4JChecker)
+- [0x3SC4L4T3/Apache-Log4j-POC](https://github.com/0x3SC4L4T3/Apache-Log4j-POC)
 
-### CVE-2021-44659 (-)
+### CVE-2021-44659 (2021-12-22)
 
 <code>
 Adding a new pipeline in GoCD server version 21.3.0 has a functionality that could be abused to do an un-intended action in order to achieve a Server Side Request Forgery (SSRF)
@@ -21929,6 +21929,7 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 - [nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523)
 - [Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523)
 - [padsalatushal/CVE-2011-2523](https://github.com/padsalatushal/CVE-2011-2523)
+- [whoamins/vsFTPd-2.3.4-exploit](https://github.com/whoamins/vsFTPd-2.3.4-exploit)
 
 ### CVE-2011-2894 (2011-10-04)
 
