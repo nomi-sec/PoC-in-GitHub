@@ -37,8 +37,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare)
-- [k8gege/cve-2021-1675](https://github.com/k8gege/cve-2021-1675)
-- [galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527](https://github.com/galoget/PrintNightmare-CVE-2021-1675-CVE-2021-34527)
 - [thalpius/Microsoft-CVE-2021-1675](https://github.com/thalpius/Microsoft-CVE-2021-1675)
 - [zha0/Microsoft-CVE-2021-1675](https://github.com/zha0/Microsoft-CVE-2021-1675)
 - [Winter3un/CVE-2021-1675](https://github.com/Winter3un/CVE-2021-1675)
@@ -808,7 +806,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [daedalus/CVE-2021-21985](https://github.com/daedalus/CVE-2021-21985)
 - [testanull/Project_CVE-2021-21985_PoC](https://github.com/testanull/Project_CVE-2021-21985_PoC)
 - [haiclover/CVE-2021-21985](https://github.com/haiclover/CVE-2021-21985)
-- [aristosMiliaressis/CVE-2021-21985](https://github.com/aristosMiliaressis/CVE-2021-21985)
 - [sknux/CVE-2021-21985_PoC](https://github.com/sknux/CVE-2021-21985_PoC)
 
 ### CVE-2021-22005 (2021-09-23)
@@ -3382,6 +3379,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
 - [xMohamed0/CVE-2021-42013-ApacheRCE](https://github.com/xMohamed0/CVE-2021-42013-ApacheRCE)
 - [ahmad4fifz/CVE-2021-42013](https://github.com/ahmad4fifz/CVE-2021-42013)
+- [asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp](https://github.com/asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp)
 
 ### CVE-2021-42071 (2021-10-07)
 
@@ -4030,7 +4028,6 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [GroupePSA/log4shell-honeypot](https://github.com/GroupePSA/log4shell-honeypot)
 - [zane00/CVE-2021-44228](https://github.com/zane00/CVE-2021-44228)
 - [metodidavidovic/log4j-quick-scan](https://github.com/metodidavidovic/log4j-quick-scan)
-- [nx6110a5100/Py3-detect-log4j-12.2021](https://github.com/nx6110a5100/Py3-detect-log4j-12.2021)
 - [WatchGuard-Threat-Lab/log4shell-iocs](https://github.com/WatchGuard-Threat-Lab/log4shell-iocs)
 - [Aschen/log4j-patched](https://github.com/Aschen/log4j-patched)
 - [Nikolas-Charalambidis/cve-2021-44228](https://github.com/Nikolas-Charalambidis/cve-2021-44228)
@@ -4080,6 +4077,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [NatteeSetobol/Log4JChecker](https://github.com/NatteeSetobol/Log4JChecker)
 - [0x3SC4L4T3/Apache-Log4j-POC](https://github.com/0x3SC4L4T3/Apache-Log4j-POC)
 - [TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit](https://github.com/TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit)
+- [lucab85/ansible-role-log4shell](https://github.com/lucab85/ansible-role-log4shell)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -4088,6 +4086,14 @@ Adding a new pipeline in GoCD server version 21.3.0 has a functionality that cou
 </code>
 
 - [Mesh3l911/CVE-2021-44659](https://github.com/Mesh3l911/CVE-2021-44659)
+
+### CVE-2021-44733 (2021-12-22)
+
+<code>
+A use-after-free exists in drivers/tee/tee_shm.c in the TEE subsystem in the Linux kernel through 5.15.11. This occurs because of a race condition in tee_shm_get_from_id during an attempt to free a shared memory object.
+</code>
+
+- [pjlantz/optee-qemu](https://github.com/pjlantz/optee-qemu)
 
 ### CVE-2021-44827
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
@@ -4128,6 +4134,7 @@ Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3) did not prot
 - [dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105](https://github.com/dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105)
 - [dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105](https://github.com/dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105)
 - [dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105-v](https://github.com/dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105-v)
+- [dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105-1](https://github.com/dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105-1)
 
 
 ## 2020
@@ -19547,7 +19554,6 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
-- [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0313 (2015-02-02)
 
@@ -19663,14 +19669,6 @@ Integer overflow in the SampleTable::setSampleToChunkParams function in SampleTa
 - [Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation)
 - [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
 
-### CVE-2015-1560 (2015-07-14)
-
-<code>
-SQL injection vulnerability in the isUserAdmin function in include/common/common-Func.php in Centreon (formerly Merethis Centreon) 2.5.4 and earlier (fixed in Centreon web 2.7.0) allows remote attackers to execute arbitrary SQL commands via the sid parameter to include/common/XmlTree/GetXmlTree.php.
-</code>
-
-- [Iansus/Centreon-CVE-2015-1560_1561](https://github.com/Iansus/Centreon-CVE-2015-1560_1561)
-
 ### CVE-2015-1579 (2015-02-11)
 
 <code>
@@ -19755,14 +19753,6 @@ The exception handling code in Eclipse Jetty before 9.2.9.v20150224 allows remot
 </code>
 
 - [6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080)
-
-### CVE-2015-2153 (2015-03-24)
-
-<code>
-The rpki_rtr_pdu_print function in print-rpki-rtr.c in the TCP printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read or write and crash) via a crafted header length in an RPKI-RTR Protocol Data Unit (PDU).
-</code>
-
-- [arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153)
 
 ### CVE-2015-2208 (2015-03-12)
 
@@ -19906,8 +19896,6 @@ The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and K
 The ping_unhash function in net/ipv4/ping.c in the Linux kernel before 4.0.3 does not initialize a certain list data structure during an unhash operation, which allows local users to gain privileges or cause a denial of service (use-after-free and system crash) by leveraging the ability to make a SOCK_DGRAM socket system call for the IPPROTO_ICMP or IPPROTO_ICMPV6 protocol, and then making a connect system call after a disconnect.
 </code>
 
-- [betalphafai/cve-2015-3636_crash](https://github.com/betalphafai/cve-2015-3636_crash)
-- [askk/libping_unhash_exploit_POC](https://github.com/askk/libping_unhash_exploit_POC)
 - [ludongxu/cve-2015-3636](https://github.com/ludongxu/cve-2015-3636)
 - [fi01/CVE-2015-3636](https://github.com/fi01/CVE-2015-3636)
 - [android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit)
@@ -19939,7 +19927,6 @@ The updateMessageStatus function in Android 5.1.1 and earlier allows local users
 Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
 </code>
 
-- [pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864)
 - [eudemonics/scaredycat](https://github.com/eudemonics/scaredycat)
 - [HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864)
 
@@ -19950,14 +19937,6 @@ The TLS protocol 1.2 and earlier, when a DHE_EXPORT ciphersuite is enabled on a 
 </code>
 
 - [fatlan/HAProxy-Keepalived-Sec-HighLoads](https://github.com/fatlan/HAProxy-Keepalived-Sec-HighLoads)
-
-### CVE-2015-4495 (2015-08-07)
-
-<code>
-The PDF reader in Mozilla Firefox before 39.0.3, Firefox ESR 38.x before 38.1.1, and Firefox OS before 2.2 allows remote attackers to bypass the Same Origin Policy, and read arbitrary files or gain privileges, via vectors involving crafted JavaScript code and a native setter, as exploited in the wild in August 2015.
-</code>
-
-- [vincd/CVE-2015-4495](https://github.com/vincd/CVE-2015-4495)
 
 ### CVE-2015-4852 (2015-11-18)
 
@@ -19984,7 +19963,6 @@ Unspecified vulnerability in Oracle MySQL Server 5.5.45 and earlier, and 5.6.26 
 Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) implementation in Adobe Flash Player 13.x through 13.0.0.296 and 14.x through 18.0.0.194 on Windows and OS X and 11.x through 11.2.202.468 on Linux allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted Flash content that overrides a valueOf function, as exploited in the wild in July 2015.
 </code>
 
-- [jvazquez-r7/CVE-2015-5119](https://github.com/jvazquez-r7/CVE-2015-5119)
 - [CiscoCXSecurity/CVE-2015-5119_walkthrough](https://github.com/CiscoCXSecurity/CVE-2015-5119_walkthrough)
 - [dangokyo/CVE-2015-5119](https://github.com/dangokyo/CVE-2015-5119)
 
@@ -20035,11 +20013,6 @@ A vulnerability has been identified in Firmware variant PROFINET IO for EN100 Et
 named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.
 </code>
 
-- [robertdavidgraham/cve-2015-5477](https://github.com/robertdavidgraham/cve-2015-5477)
-- [elceef/tkeypoc](https://github.com/elceef/tkeypoc)
-- [hmlio/vaas-cve-2015-5477](https://github.com/hmlio/vaas-cve-2015-5477)
-- [knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477)
-- [ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477)
 - [likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477)
 - [xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit)
 
