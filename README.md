@@ -2367,7 +2367,6 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
 - [dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC](https://github.com/dywhoami/CVE-2021-34527-Scanner-Based-On-cube0x0-POC)
-- [Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare)
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
 - [0xirison/PrintNightmare-Patcher](https://github.com/0xirison/PrintNightmare-Patcher)
 - [Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare)
@@ -2874,7 +2873,7 @@ In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set u
 The Zoomsounds plugin &lt;= 6.45 for WordPress allows arbitrary files, including sensitive configuration files such as wp-config.php, to be downloaded via the `dzsap_download` action using directory traversal in the `link` parameter.
 </code>
 
-- [anggoroexe/Mass-CVE-2021-39316](https://github.com/anggoroexe/Mass-CVE-2021-39316)
+- [anggoroexe/Mass_CVE-2021-39316](https://github.com/anggoroexe/Mass_CVE-2021-39316)
 
 ### CVE-2021-39377 (2021-09-01)
 
@@ -4083,6 +4082,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [asyzdykov/cve-2021-44228-fix-jars](https://github.com/asyzdykov/cve-2021-44228-fix-jars)
 - [NatteeSetobol/Log4JChecker](https://github.com/NatteeSetobol/Log4JChecker)
 - [0x3SC4L4T3/Apache-Log4j-POC](https://github.com/0x3SC4L4T3/Apache-Log4j-POC)
+- [TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit](https://github.com/TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit)
 
 ### CVE-2021-44659 (2021-12-22)
 
