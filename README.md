@@ -804,7 +804,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [xnianq/cve-2021-21985_exp](https://github.com/xnianq/cve-2021-21985_exp)
 - [daedalus/CVE-2021-21985](https://github.com/daedalus/CVE-2021-21985)
 - [testanull/Project_CVE-2021-21985_PoC](https://github.com/testanull/Project_CVE-2021-21985_PoC)
-- [haiclover/CVE-2021-21985](https://github.com/haiclover/CVE-2021-21985)
 - [sknux/CVE-2021-21985_PoC](https://github.com/sknux/CVE-2021-21985_PoC)
 
 ### CVE-2021-22005 (2021-09-23)
@@ -1890,7 +1889,6 @@ A remote code execution issue was discovered in the web UI of VoIPmonitor before
 - [daedalus/CVE-2021-30461](https://github.com/daedalus/CVE-2021-30461)
 - [Vulnmachines/CVE-2021-30461](https://github.com/Vulnmachines/CVE-2021-30461)
 - [Al1ex/CVE-2021-30461](https://github.com/Al1ex/CVE-2021-30461)
-- [puckiestyle/CVE-2021-30461](https://github.com/puckiestyle/CVE-2021-30461)
 
 ### CVE-2021-30481 (2021-04-10)
 
@@ -2328,14 +2326,6 @@ Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique
 - [KaLendsi/CVE-2021-34486](https://github.com/KaLendsi/CVE-2021-34486)
 - [b1tg/CVE-2021-34486-exp](https://github.com/b1tg/CVE-2021-34486-exp)
 
-### CVE-2021-34496 (2021-07-14)
-
-<code>
-Windows GDI Information Disclosure Vulnerability
-</code>
-
-- [fkm75P8YjLkb/CVE-2021-34496](https://github.com/fkm75P8YjLkb/CVE-2021-34496)
-
 ### CVE-2021-34523 (2021-07-14)
 
 <code>
@@ -2350,20 +2340,11 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is un
 Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
-- [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
 - [0xirison/PrintNightmare-Patcher](https://github.com/0xirison/PrintNightmare-Patcher)
 - [Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare)
 - [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
-
-### CVE-2021-34558 (2021-07-15)
-
-<code>
-The crypto/tls package of Go through 1.16.5 does not properly assert that the type of public key in an X.509 certificate matches the expected type when doing a RSA based key exchange, allowing a malicious TLS server to cause a TLS client to panic.
-</code>
-
-- [alexzorin/cve-2021-34558](https://github.com/alexzorin/cve-2021-34558)
 
 ### CVE-2021-34646 (2021-08-30)
 
@@ -3899,6 +3880,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [AlexandreHeroux/Fix-CVE-2021-44228](https://github.com/AlexandreHeroux/Fix-CVE-2021-44228)
 - [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
 - [tobiasoed/log4j-CVE-2021-44228](https://github.com/tobiasoed/log4j-CVE-2021-44228)
+- [hackinghippo/log4shell_ioc_ips](https://github.com/hackinghippo/log4shell_ioc_ips)
 - [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [taurusxin/CVE-2021-44228](https://github.com/taurusxin/CVE-2021-44228)
@@ -4032,6 +4014,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [shivakumarjayaraman/log4jvulnerability-CVE-2021-44228](https://github.com/shivakumarjayaraman/log4jvulnerability-CVE-2021-44228)
 - [j3kz/CVE-2021-44228-PoC](https://github.com/j3kz/CVE-2021-44228-PoC)
 - [Apipia/log4j-pcap-activity](https://github.com/Apipia/log4j-pcap-activity)
+- [axelcurmi/log4shell-docker-lab](https://github.com/axelcurmi/log4shell-docker-lab)
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
 - [kkyehit/log4j_CVE-2021-44228](https://github.com/kkyehit/log4j_CVE-2021-44228)
 - [trickyearlobe/inspec-log4j](https://github.com/trickyearlobe/inspec-log4j)
@@ -4064,12 +4047,14 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [ossie-git/log4shell_sentinel](https://github.com/ossie-git/log4shell_sentinel)
 - [r00thunter/Log4Shell](https://github.com/r00thunter/Log4Shell)
 - [asyzdykov/cve-2021-44228-fix-jars](https://github.com/asyzdykov/cve-2021-44228-fix-jars)
-- [NatteeSetobol/Log4JChecker](https://github.com/NatteeSetobol/Log4JChecker)
+- [NatteeSetobol/Log4JPOC](https://github.com/NatteeSetobol/Log4JPOC)
 - [BJLIYANLIANG/log4j-scanner](https://github.com/BJLIYANLIANG/log4j-scanner)
 - [0x3SC4L4T3/Apache-Log4j-POC](https://github.com/0x3SC4L4T3/Apache-Log4j-POC)
 - [TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit](https://github.com/TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit)
 - [lucab85/ansible-role-log4shell](https://github.com/lucab85/ansible-role-log4shell)
 - [ainrm/log4j-scan](https://github.com/ainrm/log4j-scan)
+- [grimch/log4j-CVE-2021-44228-workaround](https://github.com/grimch/log4j-CVE-2021-44228-workaround)
+- [cybersecurityworks553/log4j-shell-csw](https://github.com/cybersecurityworks553/log4j-shell-csw)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -4112,6 +4097,7 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [lukepasek/log4jjndilookupremove](https://github.com/lukepasek/log4jjndilookupremove)
 - [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
 - [lijiejie/log4j2_vul_local_scanner](https://github.com/lijiejie/log4j2_vul_local_scanner)
+- [CaptanMoss/Log4Shell-Sandbox-Signature](https://github.com/CaptanMoss/Log4Shell-Sandbox-Signature)
 
 ### CVE-2021-45105 (2021-12-18)
 
