@@ -445,14 +445,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
 - [puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493)
 
-### CVE-2021-3516 (2021-06-01)
-
-<code>
-There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who is able to submit a crafted file to be processed by xmllint could trigger a use-after-free. The greatest impact of this flaw is to confidentiality, integrity, and availability.
-</code>
-
-- [fkm75P8YjLkb/CVE-2021-3516](https://github.com/fkm75P8YjLkb/CVE-2021-3516)
-
 ### CVE-2021-3560
 - [aancw/polkit-auto-exploit](https://github.com/aancw/polkit-auto-exploit)
 - [swapravo/polkadots](https://github.com/swapravo/polkadots)
@@ -534,7 +526,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 </code>
 
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
-- [rakhanobe/CVE-2021-20837](https://github.com/rakhanobe/CVE-2021-20837)
+- [thomsdev/CVE-2021-20837](https://github.com/thomsdev/CVE-2021-20837)
 - [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
 - [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
 
@@ -739,7 +731,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
 - [haiclover/CVE-2021-21972](https://github.com/haiclover/CVE-2021-21972)
-- [rakhanobe/CVE-2021-21972](https://github.com/rakhanobe/CVE-2021-21972)
+- [thomsdev/CVE-2021-21972](https://github.com/thomsdev/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -952,7 +944,7 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 
 - [ZephrFish/CVE-2021-22893_HoneyPoC2](https://github.com/ZephrFish/CVE-2021-22893_HoneyPoC2)
 - [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
-- [rakhanobe/CVE-2021-22893](https://github.com/rakhanobe/CVE-2021-22893)
+- [thomsdev/CVE-2021-22893](https://github.com/thomsdev/CVE-2021-22893)
 
 ### CVE-2021-22911 (2021-05-27)
 
@@ -1257,7 +1249,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
 - [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
-- [rakhanobe/CVE-2021-26084](https://github.com/rakhanobe/CVE-2021-26084)
+- [thomsdev/CVE-2021-26084](https://github.com/thomsdev/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
@@ -1606,7 +1598,7 @@ In versions 8.2.1 through 8.5.2 of Pega Infinity, the password reset functionali
 
 - [samwcyo/CVE-2021-27651-PoC](https://github.com/samwcyo/CVE-2021-27651-PoC)
 - [Vulnmachines/CVE-2021-27651](https://github.com/Vulnmachines/CVE-2021-27651)
-- [rakhanobe/CVE-2021-27651](https://github.com/rakhanobe/CVE-2021-27651)
+- [thomsdev/CVE-2021-27651](https://github.com/thomsdev/CVE-2021-27651)
 
 ### CVE-2021-27850 (2021-04-15)
 
@@ -1913,7 +1905,7 @@ Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote a
 </code>
 
 - [s4e-lab/CVE-2021-30573-PoC-Google-Chrome](https://github.com/s4e-lab/CVE-2021-30573-PoC-Google-Chrome)
-- [rakhanobe/CVE-2021-30573](https://github.com/rakhanobe/CVE-2021-30573)
+- [thomsdev/CVE-2021-30573](https://github.com/thomsdev/CVE-2021-30573)
 - [kh4sh3i/CVE-2021-30573](https://github.com/kh4sh3i/CVE-2021-30573)
 
 ### CVE-2021-30632 (2021-10-08)
@@ -2669,7 +2661,7 @@ In Apache CouchDB, a malicious user with permission to create documents in a dat
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
-- [rakhanobe/CVE-2021-38314](https://github.com/rakhanobe/CVE-2021-38314)
+- [thomsdev/CVE-2021-38314](https://github.com/thomsdev/CVE-2021-38314)
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
@@ -3079,7 +3071,7 @@ An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestr
 </code>
 
 - [0xAgun/CVE-2021-40870](https://github.com/0xAgun/CVE-2021-40870)
-- [rakhanobe/CVE-2021-40870](https://github.com/rakhanobe/CVE-2021-40870)
+- [thomsdev/CVE-2021-40870](https://github.com/thomsdev/CVE-2021-40870)
 - [JoyGhoshs/CVE-2021-40870](https://github.com/JoyGhoshs/CVE-2021-40870)
 
 ### CVE-2021-40875 (2021-09-22)
@@ -3265,7 +3257,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [fnatalucci/CVE-2021-41773-RCE](https://github.com/fnatalucci/CVE-2021-41773-RCE)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
-- [rakhanobe/CVE-2021-41773](https://github.com/rakhanobe/CVE-2021-41773)
+- [thomsdev/CVE-2021-41773](https://github.com/thomsdev/CVE-2021-41773)
 - [HightechSec/scarce-apache2](https://github.com/HightechSec/scarce-apache2)
 - [vinhjaxt/CVE-2021-41773-exploit](https://github.com/vinhjaxt/CVE-2021-41773-exploit)
 - [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
@@ -3962,6 +3954,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [VerveIndustrialProtection/CVE-2021-44228-Log4j](https://github.com/VerveIndustrialProtection/CVE-2021-44228-Log4j)
 - [alenazi90/log4j](https://github.com/alenazi90/log4j)
 - [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
+- [LiveOverflow/log4shell](https://github.com/LiveOverflow/log4shell)
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
@@ -4483,7 +4476,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 - [Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796)
-- [rakhanobe/CVE-2020-0796](https://github.com/rakhanobe/CVE-2020-0796)
+- [thomsdev/CVE-2020-0796](https://github.com/thomsdev/CVE-2020-0796)
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
@@ -11786,7 +11779,7 @@ admin/includes/class.import.snippet.php in the &quot;Woody ad snippets&quot; plu
 </code>
 
 - [GeneralEG/CVE-2019-15858](https://github.com/GeneralEG/CVE-2019-15858)
-- [rakhanobe/CVE-2019-15858](https://github.com/rakhanobe/CVE-2019-15858)
+- [thomsdev/CVE-2019-15858](https://github.com/thomsdev/CVE-2019-15858)
 
 ### CVE-2019-15972 (2019-11-25)
 
@@ -15123,7 +15116,7 @@ Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlie
 - [cved-sources/cve-2018-15961](https://github.com/cved-sources/cve-2018-15961)
 - [0xAJ2K/CVE-2018-15961](https://github.com/0xAJ2K/CVE-2018-15961)
 - [xbufu/CVE-2018-15961](https://github.com/xbufu/CVE-2018-15961)
-- [rakhanobe/CVE-2018-15961](https://github.com/rakhanobe/CVE-2018-15961)
+- [thomsdev/CVE-2018-15961](https://github.com/thomsdev/CVE-2018-15961)
 
 ### CVE-2018-15968 (2018-10-12)
 
