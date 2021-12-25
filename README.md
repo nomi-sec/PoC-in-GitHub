@@ -931,7 +931,6 @@ When requests to the internal network for webhooks are enabled, a server-side re
 A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space
 </code>
 
-- [JoneyJunior/cve-2021-22555](https://github.com/JoneyJunior/cve-2021-22555)
 - [xyjl-ly/CVE-2021-22555-Exploit](https://github.com/xyjl-ly/CVE-2021-22555-Exploit)
 - [cgwalters/container-cve-2021-22555](https://github.com/cgwalters/container-cve-2021-22555)
 - [daletoniris/CVE-2021-22555-esc-priv](https://github.com/daletoniris/CVE-2021-22555-esc-priv)
@@ -1313,14 +1312,6 @@ Windows Installer Elevation of Privilege Vulnerability This CVE ID is unique fro
 </code>
 
 - [adenkiewicz/CVE-2021-26415](https://github.com/adenkiewicz/CVE-2021-26415)
-
-### CVE-2021-26690 (2021-06-10)
-
-<code>
-Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Cookie header handled by mod_session can cause a NULL pointer dereference and crash, leading to a possible Denial Of Service
-</code>
-
-- [fkm75P8YjLkb/CVE-2021-26690](https://github.com/fkm75P8YjLkb/CVE-2021-26690)
 
 ### CVE-2021-26700 (2021-02-25)
 
@@ -1950,6 +1941,7 @@ An integer overflow was addressed with improved input validation. This issue is 
 </code>
 
 - [Levilutz/CVE-2021-30860](https://github.com/Levilutz/CVE-2021-30860)
+- [jeffssh/CVE-2021-30860](https://github.com/jeffssh/CVE-2021-30860)
 
 ### CVE-2021-31159 (2021-06-16)
 
@@ -4068,6 +4060,7 @@ HD-Network Real-time Monitoring System 2.0 allows ../ directory traversal to rea
 It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default.
 </code>
 
+- [X1pe0/Log4J-Scan-Win](https://github.com/X1pe0/Log4J-Scan-Win)
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
 - [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 - [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
@@ -10307,6 +10300,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 - [1nf1n17yk1ng/CVE-2019-9053](https://github.com/1nf1n17yk1ng/CVE-2019-9053)
 - [padsalatushal/CVE-2019-9053](https://github.com/padsalatushal/CVE-2019-9053)
 - [Marbocatcat/46635.py](https://github.com/Marbocatcat/46635.py)
+- [BernieLane/CMS-Made-Simple-SQLi](https://github.com/BernieLane/CMS-Made-Simple-SQLi)
 
 ### CVE-2019-9081 (2019-02-24)
 
