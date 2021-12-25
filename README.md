@@ -1322,14 +1322,6 @@ Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Cookie header ha
 
 - [fkm75P8YjLkb/CVE-2021-26690](https://github.com/fkm75P8YjLkb/CVE-2021-26690)
 
-### CVE-2021-26691 (2021-06-10)
-
-<code>
-In Apache HTTP Server versions 2.4.0 to 2.4.46 a specially crafted SessionHeader sent by an origin server could cause a heap overflow
-</code>
-
-- [fkm75P8YjLkb/CVE-2021-26691](https://github.com/fkm75P8YjLkb/CVE-2021-26691)
-
 ### CVE-2021-26700 (2021-02-25)
 
 <code>
@@ -1916,14 +1908,6 @@ Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remot
 
 - [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
 - [CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632)
-
-### CVE-2021-30641 (2021-06-10)
-
-<code>
-Apache HTTP Server versions 2.4.39 to 2.4.46 Unexpected matching behavior with 'MergeSlashes OFF'
-</code>
-
-- [fkm75P8YjLkb/CVE-2021-30641](https://github.com/fkm75P8YjLkb/CVE-2021-30641)
 
 ### CVE-2021-30657 (2021-09-08)
 
@@ -4048,6 +4032,8 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [ainrm/log4j-scan](https://github.com/ainrm/log4j-scan)
 - [grimch/log4j-CVE-2021-44228-workaround](https://github.com/grimch/log4j-CVE-2021-44228-workaround)
 - [cybersecurityworks553/log4j-shell-csw](https://github.com/cybersecurityworks553/log4j-shell-csw)
+- [many-fac3d-g0d/apache-tomcat-log4j](https://github.com/many-fac3d-g0d/apache-tomcat-log4j)
+- [CrashOverflow/Log4J-POC](https://github.com/CrashOverflow/Log4J-POC)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -8538,6 +8524,14 @@ In the Macally WIFISD2-2A82 Media and Travel Router 2.000.010, the Guest user is
 </code>
 
 - [code-byter/CVE-2020-29669](https://github.com/code-byter/CVE-2020-29669)
+
+### CVE-2020-35191 (2020-12-16)
+
+<code>
+The official drupal docker images before 8.5.10-fpm-alpine (Alpine specific) contain a blank password for a root user. System using the drupal docker container deployed by affected versions of the docker image may allow a remote attacker to achieve root access with a blank password.
+</code>
+
+- [megadimenex/MegaHiDocker](https://github.com/megadimenex/MegaHiDocker)
 
 ### CVE-2020-35262 (2021-01-06)
 
