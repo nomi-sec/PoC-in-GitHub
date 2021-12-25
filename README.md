@@ -22748,7 +22748,7 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
 </code>
 
-- [lushann/cve-2003-0282](https://github.com/lushann/cve-2003-0282)
+- [runtimed/cve-2003-0282](https://github.com/runtimed/cve-2003-0282)
 
 
 ## 2002
