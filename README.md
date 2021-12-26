@@ -441,7 +441,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
-- [derek-turing/CVE-2021-3493](https://github.com/derek-turing/CVE-2021-3493)
 - [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
 - [puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493)
 
@@ -3652,6 +3651,14 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
+
+### CVE-2021-43821 (2021-12-14)
+
+<code>
+Opencast is an Open Source Lecture Capture &amp; Video Management for Education. Opencast before version 9.10 or 10.6 allows references to local file URLs in ingested media packages, allowing attackers to include local files from Opencast's host machines and making them available via the web interface. Before Opencast 9.10 and 10.6, Opencast would open and include local files during ingests. Attackers could exploit this to include most local files the process has read access to, extracting secrets from the host machine. An attacker would need to have the privileges required to add new media to exploit this. But these are often widely given. The issue has been fixed in Opencast 10.6 and 11.0. You can mitigate this issue by narrowing down the read access Opencast has to files on the file system using UNIX permissions or mandatory access control systems like SELinux. This cannot prevent access to files Opencast needs to read though and we highly recommend updating.
+</code>
+
+- [Jackey0/opencast-CVE-2021-43821-env](https://github.com/Jackey0/opencast-CVE-2021-43821-env)
 
 ### CVE-2021-43883 (2021-12-15)
 
