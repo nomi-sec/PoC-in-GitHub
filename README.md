@@ -3247,7 +3247,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [b1tsec/CVE-2021-41773](https://github.com/b1tsec/CVE-2021-41773)
 - [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
-- [KAB8345/CVE-2021-41773](https://github.com/KAB8345/CVE-2021-41773)
+- [K1p2y3/CVE-2021-41773](https://github.com/K1p2y3/CVE-2021-41773)
 - [inbug-team/CVE-2021-41773_CVE-2021-42013](https://github.com/inbug-team/CVE-2021-41773_CVE-2021-42013)
 - [5gstudent/cve-2021-41773-and-cve-2021-42013](https://github.com/5gstudent/cve-2021-41773-and-cve-2021-42013)
 - [EagleTube/CVE-2021-41773](https://github.com/EagleTube/CVE-2021-41773)
@@ -3279,6 +3279,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [jhye0n/CVE-2021-41773](https://github.com/jhye0n/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
+- [Ming119/CVE-2021-41773_Exploit](https://github.com/Ming119/CVE-2021-41773_Exploit)
 
 ### CVE-2021-41822
 - [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
@@ -3874,7 +3875,6 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools)
 - [benarculus/detecting-cve-2021-44228](https://github.com/benarculus/detecting-cve-2021-44228)
 - [perryflynn/find-log4j](https://github.com/perryflynn/find-log4j)
-- [igoritos22/log4jpoc](https://github.com/igoritos22/log4jpoc)
 - [alpacamybags118/log4j-cve-2021-44228-sample](https://github.com/alpacamybags118/log4j-cve-2021-44228-sample)
 - [sandarenu/log4j2-issue-check](https://github.com/sandarenu/log4j2-issue-check)
 - [roticagas/CVE-2021-44228-Demo](https://github.com/roticagas/CVE-2021-44228-Demo)
@@ -16516,7 +16516,6 @@ In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket
 </code>
 
 - [pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645)
-- [sefayfr/log4j-impl](https://github.com/sefayfr/log4j-impl)
 
 ### CVE-2017-5674 (2017-03-13)
 
