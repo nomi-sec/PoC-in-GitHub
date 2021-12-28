@@ -222,7 +222,6 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
-- [1111one/laravel-CVE-2021-3129-EXP](https://github.com/1111one/laravel-CVE-2021-3129-EXP)
 - [knqyf263/CVE-2021-3129](https://github.com/knqyf263/CVE-2021-3129)
 - [Erikten/CVE-2021-3129](https://github.com/Erikten/CVE-2021-3129)
 
@@ -2456,8 +2455,6 @@ Windows Elevation of Privilege Vulnerability
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
-- [Wh04m1001/VSSCopy](https://github.com/Wh04m1001/VSSCopy)
-- [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
 - [romarroca/SeriousSam](https://github.com/romarroca/SeriousSam)
 - [WiredPulse/Invoke-HiveDreams](https://github.com/WiredPulse/Invoke-HiveDreams)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
@@ -2935,6 +2932,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
 - [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
+- [MRacumen/CVE-2021-40444](https://github.com/MRacumen/CVE-2021-40444)
 
 ### CVE-2021-40449 (2021-10-12)
 
@@ -3224,7 +3222,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [b1tsec/CVE-2021-41773](https://github.com/b1tsec/CVE-2021-41773)
 - [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
-- [K1p2y3/CVE-2021-41773](https://github.com/K1p2y3/CVE-2021-41773)
 - [inbug-team/CVE-2021-41773_CVE-2021-42013](https://github.com/inbug-team/CVE-2021-41773_CVE-2021-42013)
 - [5gstudent/cve-2021-41773-and-cve-2021-42013](https://github.com/5gstudent/cve-2021-41773-and-cve-2021-42013)
 - [EagleTube/CVE-2021-41773](https://github.com/EagleTube/CVE-2021-41773)
@@ -4014,6 +4011,7 @@ Apache Log4j2 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0 JNDI features u
 - [mazhar-hassan/log4j-vulnerability](https://github.com/mazhar-hassan/log4j-vulnerability)
 - [cungts/VTI-IOCs-CVE-2021-44228](https://github.com/cungts/VTI-IOCs-CVE-2021-44228)
 - [s-retlaw/l4s_poc](https://github.com/s-retlaw/l4s_poc)
+- [Ravid-CheckMarx/CVE-2021-44228-Apache-Log4j-Rce-main](https://github.com/Ravid-CheckMarx/CVE-2021-44228-Apache-Log4j-Rce-main)
 - [yesspider-hacker/log4j-payload-generator](https://github.com/yesspider-hacker/log4j-payload-generator)
 - [LinkMJB/log4shell_scanner](https://github.com/LinkMJB/log4shell_scanner)
 
@@ -4084,6 +4082,15 @@ Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3) did not prot
 - [dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105-v](https://github.com/dileepdkumar/https-github.com-dileepdkumar-https-github.com-pravin-pp-log4j2-CVE-2021-45105-v)
 - [dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105-1](https://github.com/dileepdkumar/https-github.com-pravin-pp-log4j2-CVE-2021-45105-1)
 - [sakuraji-labs/log4j-remediation](https://github.com/sakuraji-labs/log4j-remediation)
+
+### CVE-2021-45232 (2021-12-27)
+
+<code>
+In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks and introduces framework `droplet` on the basis of framework `gin`, all APIs and authentication middleware are developed based on framework `droplet`, but some API directly use the interface of framework `gin` thus bypassing the authentication.
+</code>
+
+- [pingpongcult/CVE-2021-45232](https://github.com/pingpongcult/CVE-2021-45232)
+- [Osyanina/westone-CVE-2021-45232-scanner](https://github.com/Osyanina/westone-CVE-2021-45232-scanner)
 
 
 ## 2020
@@ -14374,7 +14381,6 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool](https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool)
 - [b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC)
 - [yatcode/HTC](https://github.com/yatcode/HTC)
-- [g5q2/cve-2018-9995](https://github.com/g5q2/cve-2018-9995)
 - [Saeed22487/CVE-2018-9995](https://github.com/Saeed22487/CVE-2018-9995)
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
 - [dearpan/cve-2018-9995](https://github.com/dearpan/cve-2018-9995)
