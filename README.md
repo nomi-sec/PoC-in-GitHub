@@ -300,7 +300,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
-- [Exodusro/CVE-2021-3156](https://github.com/Exodusro/CVE-2021-3156)
 - [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
 - [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
@@ -872,6 +871,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [AssassinUKG/CVE-2021-22204](https://github.com/AssassinUKG/CVE-2021-22204)
 - [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
+- [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -2205,8 +2205,6 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not properly restrict seq buffer allocations, leading to an integer overflow, an Out-of-bounds Write, and escalation to root by an unprivileged user, aka CID-8cae8cd89f05.
 </code>
 
-- [baerwolf/cve-2021-33909](https://github.com/baerwolf/cve-2021-33909)
-- [bbinfosec43/CVE-2021-33909](https://github.com/bbinfosec43/CVE-2021-33909)
 - [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
 ### CVE-2021-34045
@@ -2453,7 +2451,6 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
-- [jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM](https://github.com/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM)
 - [0x0D1n/CVE-2021-36934](https://github.com/0x0D1n/CVE-2021-36934)
 - [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
@@ -2995,6 +2992,7 @@ Backdoors were discovered in Auerswald COMpact 5500R 7.8A and 8.0B devices, that
 
 - [dorkerdevil/CVE-2021-40859](https://github.com/dorkerdevil/CVE-2021-40859)
 - [419066074/CVE-2021-40859](https://github.com/419066074/CVE-2021-40859)
+- [pussycat0x/CVE-2021-40859](https://github.com/pussycat0x/CVE-2021-40859)
 
 ### CVE-2021-40865 (2021-10-25)
 
@@ -3995,6 +3993,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ainrm/log4j-scan](https://github.com/ainrm/log4j-scan)
 - [grimch/log4j-CVE-2021-44228-workaround](https://github.com/grimch/log4j-CVE-2021-44228-workaround)
 - [cybersecurityworks553/log4j-shell-csw](https://github.com/cybersecurityworks553/log4j-shell-csw)
+- [puzzlepeaches/Log4jUnifi](https://github.com/puzzlepeaches/Log4jUnifi)
 - [many-fac3d-g0d/apache-tomcat-log4j](https://github.com/many-fac3d-g0d/apache-tomcat-log4j)
 - [CrashOverflow/Log4Shell_PoC](https://github.com/CrashOverflow/Log4Shell_PoC)
 - [bsigouin/log4shell-vulnerable-app](https://github.com/bsigouin/log4shell-vulnerable-app)
@@ -4008,6 +4007,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [LinkMJB/log4shell_scanner](https://github.com/LinkMJB/log4shell_scanner)
 - [tslenter/RS4LOGJ-CVE-2021-44228](https://github.com/tslenter/RS4LOGJ-CVE-2021-44228)
 - [Bhagwatjadhav1997/tryhackme-Solar-exploiting-log4j](https://github.com/Bhagwatjadhav1997/tryhackme-Solar-exploiting-log4j)
+- [a5tra/log4j-exploit-builder](https://github.com/a5tra/log4j-exploit-builder)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -4454,6 +4454,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Barriuso/SMBGhost_AutomateExploitation](https://github.com/Barriuso/SMBGhost_AutomateExploitation)
 - [1060275195/SMBGhost](https://github.com/1060275195/SMBGhost)
 - [Almorabea/SMBGhost-LPE-Metasploit-Module](https://github.com/Almorabea/SMBGhost-LPE-Metasploit-Module)
+- [ZecOps/SMBGhost-SMBleed-scanner](https://github.com/ZecOps/SMBGhost-SMBleed-scanner)
 - [5l1v3r1/smbghost-5](https://github.com/5l1v3r1/smbghost-5)
 - [rsmudge/CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)
 - [codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-)
@@ -4469,6 +4470,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
+- [5l1v3r1/CVE-2020-0796-PoC-3](https://github.com/5l1v3r1/CVE-2020-0796-PoC-3)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -4620,6 +4622,8 @@ An information disclosure vulnerability exists in the way that the Microsoft Ser
 </code>
 
 - [ZecOps/CVE-2020-1206-POC](https://github.com/ZecOps/CVE-2020-1206-POC)
+- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
+- [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 
 ### CVE-2020-1283 (2020-06-09)
 
@@ -4770,6 +4774,14 @@ A Local File Inclusion vulnerability in Juniper Networks Junos Space allows an a
 
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
 
+### CVE-2020-1764 (2020-03-26)
+
+<code>
+A hard-coded cryptographic key vulnerability in the default configuration file was found in Kiali, all versions prior to 1.15.1. A remote attacker could abuse this flaw by creating their own JWT signed tokens and bypass Kiali authentication mechanisms, possibly gaining privileges to view and alter the Istio configuration.
+</code>
+
+- [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
+
 ### CVE-2020-1937 (2020-02-24)
 
 <code>
@@ -4833,6 +4845,8 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
+- [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
+- [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1956 (2020-05-22)
@@ -5215,6 +5229,7 @@ PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executabl
 </code>
 
 - [FULLSHADE/CVE-2020-5509](https://github.com/FULLSHADE/CVE-2020-5509)
+- [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
 
 ### CVE-2020-5837 (2020-05-11)
 
@@ -5246,13 +5261,29 @@ index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v
 In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.1.5.1, and 11.6.1-11.6.5.1, the Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages.
 </code>
 
+- [dwisiswant0/CVE-2020-5902](https://github.com/dwisiswant0/CVE-2020-5902)
 - [aqhmal/CVE-2020-5902-Scanner](https://github.com/aqhmal/CVE-2020-5902-Scanner)
 - [jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902)
+- [ar0dd/CVE-2020-5902](https://github.com/ar0dd/CVE-2020-5902)
+- [yassineaboukir/CVE-2020-5902](https://github.com/yassineaboukir/CVE-2020-5902)
+- [rwincey/CVE-2020-5902-NSE](https://github.com/rwincey/CVE-2020-5902-NSE)
 - [Un4gi/CVE-2020-5902](https://github.com/Un4gi/CVE-2020-5902)
+- [nsflabs/CVE-2020-5902](https://github.com/nsflabs/CVE-2020-5902)
 - [yasserjanah/CVE-2020-5902](https://github.com/yasserjanah/CVE-2020-5902)
+- [JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902)
 - [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
+- [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
+- [sv3nbeast/CVE-2020-5902_RCE](https://github.com/sv3nbeast/CVE-2020-5902_RCE)
+- [cybersecurityworks553/scanner-CVE-2020-5902](https://github.com/cybersecurityworks553/scanner-CVE-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
+- [qlkwej/poc-CVE-2020-5902](https://github.com/qlkwej/poc-CVE-2020-5902)
+- [Zinkuth/F5-BIG-IP-CVE-2020-5902](https://github.com/Zinkuth/F5-BIG-IP-CVE-2020-5902)
 - [0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902)
+- [jinnywc/CVE-2020-5902](https://github.com/jinnywc/CVE-2020-5902)
+- [GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch)
+- [jiansiting/CVE-2020-5902](https://github.com/jiansiting/CVE-2020-5902)
+- [wdlid/CVE-2020-5902-fix](https://github.com/wdlid/CVE-2020-5902-fix)
+- [Any3ite/CVE-2020-5902-F5BIG](https://github.com/Any3ite/CVE-2020-5902-F5BIG)
 - [k3nundrum/CVE-2020-5902](https://github.com/k3nundrum/CVE-2020-5902)
 - [inho28/CVE-2020-5902-F5-BIGIP](https://github.com/inho28/CVE-2020-5902-F5-BIGIP)
 - [cristiano-corrado/f5_scanner](https://github.com/cristiano-corrado/f5_scanner)
@@ -5854,6 +5885,7 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 </code>
 
 - [Prabhashaka/IT19147192-CVE-2020-8835](https://github.com/Prabhashaka/IT19147192-CVE-2020-8835)
+- [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
 - [zilong3033/CVE-2020-8835](https://github.com/zilong3033/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
 - [digamma-ai/CVE-2020-8835-verification](https://github.com/digamma-ai/CVE-2020-8835-verification)
@@ -6055,6 +6087,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [IdealDreamLast/CVE-2020-9484](https://github.com/IdealDreamLast/CVE-2020-9484)
 - [qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484)
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
+- [Xslover/CVE-2020-9484-Scanner](https://github.com/Xslover/CVE-2020-9484-Scanner)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
@@ -6115,6 +6148,14 @@ A vulnerability related to Dynamic-link Library (“DLL”) loading in the Zoom 
 </code>
 
 - [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
+
+### CVE-2020-9768 (2020-04-01)
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
+</code>
+
+- [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
 
 ### CVE-2020-9781 (2020-04-01)
 
@@ -6193,6 +6234,9 @@ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
 </code>
 
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
+
+### CVE-2020-10205
+- [5l1v3r1/CVE-2020-10205](https://github.com/5l1v3r1/CVE-2020-10205)
 
 ### CVE-2020-10238 (2020-03-16)
 
@@ -6819,6 +6863,14 @@ The XCloner component before 3.5.4 for Joomla! allows Authenticated Local File D
 ### CVE-2020-13457
 - [alt3kx/CVE-2020-13457](https://github.com/alt3kx/CVE-2020-13457)
 
+### CVE-2020-13640 (2020-06-18)
+
+<code>
+A SQL injection issue in the gVectors wpDiscuz plugin 5.3.5 and earlier for WordPress allows remote attackers to execute arbitrary SQL commands via the order parameter of a wpdLoadMoreComments request. (No 7.x versions are affected.)
+</code>
+
+- [asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640)
+
 ### CVE-2020-13699 (2020-07-29)
 
 <code>
@@ -7175,6 +7227,14 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
 - [Yang0615777/PocList](https://github.com/Yang0615777/PocList)
+
+### CVE-2020-14947 (2020-06-30)
+
+<code>
+OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to require/commandLine/CommandLine.php because mib_file in plugins/main_sections/ms_config/ms_snmp_config.php is mishandled in get_mib_oid.
+</code>
+
+- [mhaskar/CVE-2020-14947](https://github.com/mhaskar/CVE-2020-14947)
 
 ### CVE-2020-14955 (2020-06-26)
 
@@ -9714,6 +9774,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
 - [1nf1n17yk1ng/CVE-2019-5736](https://github.com/1nf1n17yk1ng/CVE-2019-5736)
 - [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
+- [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 
 ### CVE-2019-5737 (2019-03-28)
 
