@@ -988,9 +988,6 @@ The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when s
 
 - [dn9uy3n/Check-CVE-2021-23383](https://github.com/dn9uy3n/Check-CVE-2021-23383)
 
-### CVE-2021-23410
-- [azu/msgpack-CVE-2021-23410-test](https://github.com/azu/msgpack-CVE-2021-23410-test)
-
 ### CVE-2021-23758 (2021-12-03)
 
 <code>
@@ -2455,7 +2452,6 @@ Windows Elevation of Privilege Vulnerability
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
-- [VertigoRay/CVE-2021-36934](https://github.com/VertigoRay/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 - [Sp00p64/PyNightmare](https://github.com/Sp00p64/PyNightmare)
 - [jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM](https://github.com/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM)
@@ -4087,10 +4083,12 @@ Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1) di
 In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks and introduces framework `droplet` on the basis of framework `gin`, all APIs and authentication middleware are developed based on framework `droplet`, but some API directly use the interface of framework `gin` thus bypassing the authentication.
 </code>
 
-- [pingpongcult/CVE-2021-45232](https://github.com/pingpongcult/CVE-2021-45232)
 - [Osyanina/westone-CVE-2021-45232-scanner](https://github.com/Osyanina/westone-CVE-2021-45232-scanner)
 - [badboycxcc/CVE-2021-45232-POC](https://github.com/badboycxcc/CVE-2021-45232-POC)
 - [shakeman8/CVE-2021-45232-RCE](https://github.com/shakeman8/CVE-2021-45232-RCE)
+- [LTiDi2000/CVE-2021-45232](https://github.com/LTiDi2000/CVE-2021-45232)
+- [Ilovewomen/cve-2021-45232](https://github.com/Ilovewomen/cve-2021-45232)
+- [Ifory885/CVE-2021-45232](https://github.com/Ifory885/CVE-2021-45232)
 
 
 ## 2020
