@@ -450,7 +450,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [mr-nobody20/CVE-2021-3560](https://github.com/mr-nobody20/CVE-2021-3560)
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
-- [STEALTH-Z/CVE-2021-3560](https://github.com/STEALTH-Z/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -4097,6 +4096,7 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [LTiDi2000/CVE-2021-45232](https://github.com/LTiDi2000/CVE-2021-45232)
 - [Ilovewomen/cve-2021-45232](https://github.com/Ilovewomen/cve-2021-45232)
 - [Ifory885/CVE-2021-45232](https://github.com/Ifory885/CVE-2021-45232)
+- [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
 
 
 ## 2020
@@ -12529,6 +12529,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [ianxtianxt/CVE-2019-19781](https://github.com/ianxtianxt/CVE-2019-19781)
 - [mpgn/CVE-2019-19781](https://github.com/mpgn/CVE-2019-19781)
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
+- [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
 - [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
 - [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
 - [JamesG-Zero/Shitrix-CVE-2019-19781](https://github.com/JamesG-Zero/Shitrix-CVE-2019-19781)
@@ -22934,6 +22935,9 @@ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local 
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
+
+### CVE-2001-3389
+- [becrevex/Gaston](https://github.com/becrevex/Gaston)
 
 
 ## 2000
