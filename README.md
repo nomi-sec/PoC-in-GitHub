@@ -2450,7 +2450,6 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
-- [0x0D1n/CVE-2021-36934](https://github.com/0x0D1n/CVE-2021-36934)
 - [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
@@ -4033,6 +4032,7 @@ A use-after-free exists in drivers/tee/tee_shm.c in the TEE subsystem in the Lin
 Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE) attack where an attacker with permission to modify the logging configuration file can construct a malicious configuration using a JDBC Appender with a data source referencing a JNDI URI which can execute remote code. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2.
 </code>
 
+- [cckuailong/log4j_RCE_CVE-2021-44832](https://github.com/cckuailong/log4j_RCE_CVE-2021-44832)
 - [name/log4j](https://github.com/name/log4j)
 
 ### CVE-2021-45041 (2021-12-19)
@@ -7557,6 +7557,7 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 - [ykg88/OHTS_IE6052-CVE-2020-17087](https://github.com/ykg88/OHTS_IE6052-CVE-2020-17087)
 - [vp777/Windows-Non-Paged-Pool-Overflow-Exploitation](https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation)
+- [Rinkal26/CVE-2020-17087](https://github.com/Rinkal26/CVE-2020-17087)
 
 ### CVE-2020-17136 (2020-12-09)
 
@@ -18810,6 +18811,7 @@ Apache Shiro before 1.2.5, when a cipher key has not been configured for the &qu
 
 - [bkfish/Awesome_shiro](https://github.com/bkfish/Awesome_shiro)
 - [m3terpreter/CVE-2016-4437](https://github.com/m3terpreter/CVE-2016-4437)
+- [4nth0ny1130/shisoserial](https://github.com/4nth0ny1130/shisoserial)
 
 ### CVE-2016-4438 (2016-07-04)
 
