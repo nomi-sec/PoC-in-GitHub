@@ -832,6 +832,14 @@ An OS command injection vulnerability in FortiWeb's management interface 6.3.7 a
 
 - [murataydemir/CVE-2021-22123](https://github.com/murataydemir/CVE-2021-22123)
 
+### CVE-2021-22146 (2021-07-21)
+
+<code>
+All versions of Elastic Cloud Enterprise has the Elasticsearch “anonymous” user enabled by default in deployed clusters. While in the default setting the anonymous user has no permissions and is unable to successfully query any Elasticsearch APIs, an attacker could leverage the anonymous user to gain insight into certain details of a deployed cluster.
+</code>
+
+- [magichk/cve-2021-22146](https://github.com/magichk/cve-2021-22146)
+
 ### CVE-2021-22192 (2021-03-24)
 
 <code>
@@ -4083,7 +4091,6 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [Ilovewomen/cve-2021-45232](https://github.com/Ilovewomen/cve-2021-45232)
 - [Ifory885/CVE-2021-45232](https://github.com/Ifory885/CVE-2021-45232)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
-- [morhax/cve-2021-45232-rce](https://github.com/morhax/cve-2021-45232-rce)
 
 
 ## 2020
