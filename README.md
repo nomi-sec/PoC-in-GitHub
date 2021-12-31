@@ -832,14 +832,6 @@ An OS command injection vulnerability in FortiWeb's management interface 6.3.7 a
 
 - [murataydemir/CVE-2021-22123](https://github.com/murataydemir/CVE-2021-22123)
 
-### CVE-2021-22146 (2021-07-21)
-
-<code>
-All versions of Elastic Cloud Enterprise has the Elasticsearch “anonymous” user enabled by default in deployed clusters. While in the default setting the anonymous user has no permissions and is unable to successfully query any Elasticsearch APIs, an attacker could leverage the anonymous user to gain insight into certain details of a deployed cluster.
-</code>
-
-- [magichk/cve-2021-22146](https://github.com/magichk/cve-2021-22146)
-
 ### CVE-2021-22192 (2021-03-24)
 
 <code>
@@ -2466,14 +2458,6 @@ Microsoft Azure Active Directory Connect Authentication Bypass Vulnerability
 
 - [Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability](https://github.com/Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability)
 
-### CVE-2021-37152 (2021-08-10)
-
-<code>
-Multiple XSS issues exist in Sonatype Nexus Repository Manager 3 before 3.33.0. An authenticated attacker with the ability to add HTML files to a repository could redirect users to Nexus Repository Manager’s pages with code modifications.
-</code>
-
-- [SecurityAnalysts/CVE-2021-37152](https://github.com/SecurityAnalysts/CVE-2021-37152)
-
 ### CVE-2021-37580 (2021-11-16)
 
 <code>
@@ -4006,6 +3990,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [tslenter/RS4LOGJ-CVE-2021-44228](https://github.com/tslenter/RS4LOGJ-CVE-2021-44228)
 - [Bhagwatjadhav1997/tryhackme-Solar-exploiting-log4j](https://github.com/Bhagwatjadhav1997/tryhackme-Solar-exploiting-log4j)
 - [a5tra/log4j-exploit-builder](https://github.com/a5tra/log4j-exploit-builder)
+- [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -4034,6 +4019,7 @@ Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases
 
 - [cckuailong/log4j_RCE_CVE-2021-44832](https://github.com/cckuailong/log4j_RCE_CVE-2021-44832)
 - [name/log4j](https://github.com/name/log4j)
+- [DanielRuf/CVE-2021-44832](https://github.com/DanielRuf/CVE-2021-44832)
 
 ### CVE-2021-45041 (2021-12-19)
 
@@ -4097,6 +4083,7 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [Ilovewomen/cve-2021-45232](https://github.com/Ilovewomen/cve-2021-45232)
 - [Ifory885/CVE-2021-45232](https://github.com/Ifory885/CVE-2021-45232)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
+- [morhax/cve-2021-45232-rce](https://github.com/morhax/cve-2021-45232-rce)
 
 
 ## 2020
