@@ -7551,7 +7551,6 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 - [ykg88/OHTS_IE6052-CVE-2020-17087](https://github.com/ykg88/OHTS_IE6052-CVE-2020-17087)
 - [vp777/Windows-Non-Paged-Pool-Overflow-Exploitation](https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation)
-- [Rinkal26/CVE-2020-17087](https://github.com/Rinkal26/CVE-2020-17087)
 
 ### CVE-2020-17136 (2020-12-09)
 
