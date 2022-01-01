@@ -832,14 +832,6 @@ An OS command injection vulnerability in FortiWeb's management interface 6.3.7 a
 
 - [murataydemir/CVE-2021-22123](https://github.com/murataydemir/CVE-2021-22123)
 
-### CVE-2021-22146 (2021-07-21)
-
-<code>
-All versions of Elastic Cloud Enterprise has the Elasticsearch “anonymous” user enabled by default in deployed clusters. While in the default setting the anonymous user has no permissions and is unable to successfully query any Elasticsearch APIs, an attacker could leverage the anonymous user to gain insight into certain details of a deployed cluster.
-</code>
-
-- [magichk/cve-2021-22146](https://github.com/magichk/cve-2021-22146)
-
 ### CVE-2021-22192 (2021-03-24)
 
 <code>
@@ -3999,6 +3991,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Bhagwatjadhav1997/tryhackme-Solar-exploiting-log4j](https://github.com/Bhagwatjadhav1997/tryhackme-Solar-exploiting-log4j)
 - [a5tra/log4j-exploit-builder](https://github.com/a5tra/log4j-exploit-builder)
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
+- [romanutti/log4shell-vulnerable-app](https://github.com/romanutti/log4shell-vulnerable-app)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -12912,6 +12905,14 @@ Spring Data Commons, versions prior to 1.13 to 1.13.10, 2.0 to 2.0.5, and older 
 - [webr0ck/poc-cve-2018-1273](https://github.com/webr0ck/poc-cve-2018-1273)
 - [cved-sources/cve-2018-1273](https://github.com/cved-sources/cve-2018-1273)
 - [jas502n/cve-2018-1273](https://github.com/jas502n/cve-2018-1273)
+
+### CVE-2018-1285 (2020-05-11)
+
+<code>
+Apache log4net versions before 2.0.10 do not disable XML external entities when parsing log4net configuration files. This allows for XXE-based attacks in applications that accept attacker-controlled log4net configuration files.
+</code>
+
+- [alex-ermolaev/Log4NetSolarWindsSNMP-](https://github.com/alex-ermolaev/Log4NetSolarWindsSNMP-)
 
 ### CVE-2018-1288 (2018-07-26)
 
