@@ -383,15 +383,6 @@ A cross-site scripting (XSS) vulnerability in Pryaniki 6.44.3 allows remote auth
 
 - [jet-pentest/CVE-2021-3395](https://github.com/jet-pentest/CVE-2021-3395)
 
-### CVE-2021-3438 (2021-05-20)
-
-<code>
-A potential buffer overflow in the software drivers for certain HP LaserJet products and Samsung product printers could lead to an escalation of privilege.
-</code>
-
-- [Crystalware/CVE-2021-3438](https://github.com/Crystalware/CVE-2021-3438)
-- [TobiasS1402/CVE-2021-3438](https://github.com/TobiasS1402/CVE-2021-3438)
-
 ### CVE-2021-3441 (2021-10-29)
 
 <code>
@@ -3007,6 +2998,9 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 ### CVE-2021-40905
 - [Edgarloyola/CVE-2021-40905](https://github.com/Edgarloyola/CVE-2021-40905)
 
+### CVE-2021-40906
+- [Edgarloyola/CVE-2021-40906](https://github.com/Edgarloyola/CVE-2021-40906)
+
 ### CVE-2021-40978 (2021-10-07)
 
 <code>
@@ -3997,6 +3991,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [a5tra/log4j-exploit-builder](https://github.com/a5tra/log4j-exploit-builder)
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
 - [romanutti/log4shell-vulnerable-app](https://github.com/romanutti/log4shell-vulnerable-app)
+- [marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.](https://github.com/marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.)
 
 ### CVE-2021-44659 (2021-12-22)
 
