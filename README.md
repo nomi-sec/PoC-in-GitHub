@@ -2442,7 +2442,6 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
-- [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
 - [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
@@ -3001,6 +3000,12 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 </code>
 
 - [SakuraSamuraii/derailed](https://github.com/SakuraSamuraii/derailed)
+
+### CVE-2021-40904
+- [Edgarloyola/CVE-2021-40904](https://github.com/Edgarloyola/CVE-2021-40904)
+
+### CVE-2021-40905
+- [Edgarloyola/CVE-2021-40905](https://github.com/Edgarloyola/CVE-2021-40905)
 
 ### CVE-2021-40978 (2021-10-07)
 
