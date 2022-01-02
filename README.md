@@ -19438,6 +19438,7 @@ Since &quot;algorithm&quot; isn't enforced in jwt.decode()in jwt-simple 0.3.0 an
 
 - [thepcn3rd/jwtToken-CVE-2016-10555](https://github.com/thepcn3rd/jwtToken-CVE-2016-10555)
 - [FroydCod3r/poc-cve-2016-10555](https://github.com/FroydCod3r/poc-cve-2016-10555)
+- [scent2d/PoC-CVE-2016-10555](https://github.com/scent2d/PoC-CVE-2016-10555)
 
 ### CVE-2016-10709 (2018-01-21)
 
