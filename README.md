@@ -439,7 +439,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
 - [mr-nobody20/CVE-2021-3560](https://github.com/mr-nobody20/CVE-2021-3560)
-- [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -1035,13 +1034,13 @@ Arbitrary file upload in the Modern Events Calendar Lite WordPress plugin, versi
 
 - [dnr6419/CVE-2021-24145](https://github.com/dnr6419/CVE-2021-24145)
 
-### CVE-2021-24155 (2021-04-05)
+### CVE-2021-24307 (2021-05-24)
 
 <code>
-The WordPress Backup and Migrate Plugin – Backup Guard WordPress plugin before 1.6.0 did not ensure that the imported files are of the SGBP format and extension, allowing high privilege users (admin+) to upload arbitrary files, including PHP ones, leading to RCE.
+The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Rankings before 4.1.0.2 enables authenticated users with &quot;aioseo_tools_settings&quot; privilege (most of the time admin) to execute arbitrary code on the underlying host. Users can restore plugin's configuration by uploading a backup .ini file in the section &quot;Tool &gt; Import/Export&quot;. However, the plugin attempts to unserialize values of the .ini file. Moreover, the plugin embeds Monolog library which can be used to craft a gadget chain and thus trigger system command execution.
 </code>
 
-- [0dayNinja/CVE-2021-24155.rb](https://github.com/0dayNinja/CVE-2021-24155.rb)
+- [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
 
 ### CVE-2021-24499 (2021-08-09)
 
@@ -2205,14 +2204,6 @@ For Eclipse Jetty versions 9.4.37-9.4.42, 10.0.1-10.0.5 &amp; 11.0.1-11.0.5, URI
 </code>
 
 - [ColdFusionX/CVE-2021-34429](https://github.com/ColdFusionX/CVE-2021-34429)
-
-### CVE-2021-34470 (2021-07-14)
-
-<code>
-Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-33768, CVE-2021-34523.
-</code>
-
-- [technion/CVE-2021-34470scanner](https://github.com/technion/CVE-2021-34470scanner)
 
 ### CVE-2021-34473 (2021-07-14)
 
@@ -7444,6 +7435,7 @@ The NetConfig UI administrative interface in Extreme Networks ExtremeWireless Ae
 </code>
 
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
+- [Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e](https://github.com/Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e)
 
 ### CVE-2020-16270 (2020-10-16)
 
