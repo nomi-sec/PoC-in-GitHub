@@ -2923,7 +2923,7 @@ A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibb
 ### CVE-2021-40531 (2021-09-06)
 
 <code>
-An issue discovered in sketch before version 75,that allows for library feeds to be used to bypass file quarantine which results in remote code execution.
+Sketch before 75 allows library feeds to be used to bypass file quarantine. Files are automatically downloaded and opened, without the com.apple.quarantine extended attribute. This results in remote code execution, as demonstrated by CommandString in a terminal profile to Terminal.app.
 </code>
 
 - [jonpalmisc/CVE-2021-40531](https://github.com/jonpalmisc/CVE-2021-40531)
