@@ -916,7 +916,6 @@ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3
 </code>
 
 - [CsEnox/CVE-2021-22911](https://github.com/CsEnox/CVE-2021-22911)
-- [optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911](https://github.com/optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911)
 - [jayngng/CVE-2021-22911](https://github.com/jayngng/CVE-2021-22911)
 
 ### CVE-2021-22941 (2021-09-23)
@@ -1885,6 +1884,14 @@ A memory corruption issue was addressed with improved memory handling. This issu
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
 
+### CVE-2021-30853 (2021-08-24)
+
+<code>
+This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
+</code>
+
+- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
+
 ### CVE-2021-30858 (2021-08-24)
 
 <code>
@@ -2421,7 +2428,6 @@ Windows Elevation of Privilege Vulnerability
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
-- [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
 - [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
@@ -3925,6 +3931,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [trickyearlobe/inspec-log4j](https://github.com/trickyearlobe/inspec-log4j)
 - [TheInterception/Log4J-Simulation-Tool](https://github.com/TheInterception/Log4J-Simulation-Tool)
 - [KeysAU/Get-log4j-Windows-local](https://github.com/KeysAU/Get-log4j-Windows-local)
+- [thl-cmk/CVE-2021-44228-log4j-check_mk-plugin](https://github.com/thl-cmk/CVE-2021-44228-log4j-check_mk-plugin)
 - [mschmnet/Log4Shell-demo](https://github.com/mschmnet/Log4Shell-demo)
 - [Rk-000/Log4j_scan_Advance](https://github.com/Rk-000/Log4j_scan_Advance)
 - [puzzlepeaches/Log4jCenter](https://github.com/puzzlepeaches/Log4jCenter)
