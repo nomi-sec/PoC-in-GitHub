@@ -4700,7 +4700,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [bb00/zer0dump](https://github.com/bb00/zer0dump)
 - [0xkami/CVE-2020-1472](https://github.com/0xkami/CVE-2020-1472)
 - [NAXG/CVE-2020-1472](https://github.com/NAXG/CVE-2020-1472)
-- [s0wr0b1ndef/CVE-2020-1472](https://github.com/s0wr0b1ndef/CVE-2020-1472)
+- [R0B1NL1N/CVE-2020-1472](https://github.com/R0B1NL1N/CVE-2020-1472)
 - [harshil-shah004/zerologon-CVE-2020-1472](https://github.com/harshil-shah004/zerologon-CVE-2020-1472)
 - [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
 - [422926799/CVE-2020-1472](https://github.com/422926799/CVE-2020-1472)
@@ -13022,7 +13022,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [Shadowshusky/CVE-2018-2628all](https://github.com/Shadowshusky/CVE-2018-2628all)
 - [shaoshore/CVE-2018-2628](https://github.com/shaoshore/CVE-2018-2628)
 - [tdy218/ysoserial-cve-2018-2628](https://github.com/tdy218/ysoserial-cve-2018-2628)
-- [s0wr0b1ndef/CVE-2018-2628](https://github.com/s0wr0b1ndef/CVE-2018-2628)
+- [R0B1NL1N/CVE-2018-2628](https://github.com/R0B1NL1N/CVE-2018-2628)
 - [wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628)
 - [jas502n/CVE-2018-2628](https://github.com/jas502n/CVE-2018-2628)
 - [stevenlinfeng/CVE-2018-2628](https://github.com/stevenlinfeng/CVE-2018-2628)
@@ -17347,7 +17347,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [peterpeter228/Oracle-WebLogic-CVE-2017-10271](https://github.com/peterpeter228/Oracle-WebLogic-CVE-2017-10271)
 - [Cymmetria/weblogic_honeypot](https://github.com/Cymmetria/weblogic_honeypot)
 - [JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp)
-- [s0wr0b1ndef/Oracle-WebLogic-WLS-WSAT](https://github.com/s0wr0b1ndef/Oracle-WebLogic-WLS-WSAT)
+- [R0B1NL1N/Oracle-WebLogic-WLS-WSAT](https://github.com/R0B1NL1N/Oracle-WebLogic-WLS-WSAT)
 - [lonehand/Oracle-WebLogic-CVE-2017-10271-master](https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master)
 - [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
 - [nhwuxiaojun/CVE-2017-10271](https://github.com/nhwuxiaojun/CVE-2017-10271)
@@ -18372,7 +18372,7 @@ Multiple unspecified API endpoints in Jenkins before 1.650 and LTS before 1.642.
 </code>
 
 - [jpiechowka/jenkins-cve-2016-0792](https://github.com/jpiechowka/jenkins-cve-2016-0792)
-- [s0wr0b1ndef/java-deserialization-exploits](https://github.com/s0wr0b1ndef/java-deserialization-exploits)
+- [R0B1NL1N/java-deserialization-exploits](https://github.com/R0B1NL1N/java-deserialization-exploits)
 - [Aviksaikat/CVE-2016-0792](https://github.com/Aviksaikat/CVE-2016-0792)
 
 ### CVE-2016-0793 (2016-04-01)
