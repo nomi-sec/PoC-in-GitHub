@@ -1942,6 +1942,14 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
 
+### CVE-2021-31630 (2021-08-03)
+
+<code>
+Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
+</code>
+
+- [h3v0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/h3v0x/CVE-2021-31630-OpenPLC_RCE)
+
 ### CVE-2021-31702 (2021-05-29)
 
 <code>
@@ -3938,7 +3946,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [trickyearlobe/inspec-log4j](https://github.com/trickyearlobe/inspec-log4j)
 - [TheInterception/Log4J-Simulation-Tool](https://github.com/TheInterception/Log4J-Simulation-Tool)
 - [KeysAU/Get-log4j-Windows-local](https://github.com/KeysAU/Get-log4j-Windows-local)
-- [thl-cmk/CVE-2021-44228-log4j-check_mk-plugin](https://github.com/thl-cmk/CVE-2021-44228-log4j-check_mk-plugin)
 - [mschmnet/Log4Shell-demo](https://github.com/mschmnet/Log4Shell-demo)
 - [Rk-000/Log4j_scan_Advance](https://github.com/Rk-000/Log4j_scan_Advance)
 - [puzzlepeaches/Log4jCenter](https://github.com/puzzlepeaches/Log4jCenter)
@@ -21614,6 +21621,14 @@ The Remote Desktop Protocol (RDP) service in Microsoft Windows Server 2008 R2 an
 </code>
 
 - [rutvijjethwa/RDP_jammer](https://github.com/rutvijjethwa/RDP_jammer)
+
+### CVE-2012-0158 (2012-04-10)
+
+<code>
+The (1) ListView, (2) ListView2, (3) TreeView, and (4) TreeView2 ActiveX controls in MSCOMCTL.OCX in the Common Controls in Microsoft Office 2003 SP3, 2007 SP2 and SP3, and 2010 Gold and SP1; Office 2003 Web Components SP3; SQL Server 2000 SP4, 2005 SP4, and 2008 SP2, SP3, and R2; BizTalk Server 2002 SP1; Commerce Server 2002 SP4, 2007 SP2, and 2009 Gold and R2; Visual FoxPro 8.0 SP1 and 9.0 SP2; and Visual Basic 6.0 Runtime allow remote attackers to execute arbitrary code via a crafted (a) web site, (b) Office document, or (c) .rtf file that triggers &quot;system state&quot; corruption, as exploited in the wild in April 2012, aka &quot;MSCOMCTL.OCX RCE Vulnerability.&quot;
+</code>
+
+- [Malware-S/Exploit-Win32.CVE-2012-0158.F.doc](https://github.com/Malware-S/Exploit-Win32.CVE-2012-0158.F.doc)
 
 ### CVE-2012-1675 (2012-05-08)
 
