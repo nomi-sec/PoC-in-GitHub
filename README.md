@@ -600,7 +600,6 @@ Git is an open-source distributed revision control system. In affected versions 
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
 - [tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300)
-- [xiaofeihahah/CVE-2021-21300](https://github.com/xiaofeihahah/CVE-2021-21300)
 - [0ahu/CVE-2021-21300](https://github.com/0ahu/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
@@ -1662,6 +1661,9 @@ The Arm Mali GPU kernel driver allows privilege escalation or information disclo
 </code>
 
 - [lntrx/CVE-2021-28663](https://github.com/lntrx/CVE-2021-28663)
+
+### CVE-2021-28750
+- [PfalzPrince/CVE-2021-28750-site](https://github.com/PfalzPrince/CVE-2021-28750-site)
 
 ### CVE-2021-29003 (2021-04-13)
 
@@ -16021,6 +16023,14 @@ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 
 </code>
 
 - [MelonSmasher/chef_tissues](https://github.com/MelonSmasher/chef_tissues)
+
+### CVE-2017-0147 (2017-03-16)
+
+<code>
+The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to obtain sensitive information from process memory via a crafted packets, aka &quot;Windows SMB Information Disclosure Vulnerability.&quot;
+</code>
+
+- [Malware-S/Exploit-Win32.CVE-2017-0147.A](https://github.com/Malware-S/Exploit-Win32.CVE-2017-0147.A)
 
 ### CVE-2017-0199 (2017-04-12)
 
