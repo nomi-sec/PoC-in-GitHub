@@ -889,6 +889,7 @@ When requests to the internal network for webhooks are enabled, a server-side re
 - [r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 - [antx-code/CVE-2021-22214](https://github.com/antx-code/CVE-2021-22214)
+- [kh4sh3i/GitLab-SSRF-CVE-2021-22214](https://github.com/kh4sh3i/GitLab-SSRF-CVE-2021-22214)
 
 ### CVE-2021-22555 (2021-07-07)
 
@@ -1941,14 +1942,6 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 </code>
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
-
-### CVE-2021-31630 (2021-08-03)
-
-<code>
-Command Injection in Open PLC Webserver v3 allows remote attackers to execute arbitrary code via the &quot;Hardware Layer Code Box&quot; component on the &quot;/hardware&quot; page of the application.
-</code>
-
-- [h3v0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/h3v0x/CVE-2021-31630-OpenPLC_RCE)
 
 ### CVE-2021-31702 (2021-05-29)
 
@@ -21025,6 +21018,7 @@ Eval injection vulnerability in the internals.batch function in lib/batch.js in 
 </code>
 
 - [maximilianmarx/bassmaster-rce](https://github.com/maximilianmarx/bassmaster-rce)
+- [AndrewTrube/CVE-2014-7205](https://github.com/AndrewTrube/CVE-2014-7205)
 
 ### CVE-2014-7236 (2020-02-17)
 
@@ -21690,6 +21684,14 @@ sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6
 
 - [Avinza/CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner)
 - [cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122)
+
+### CVE-2012-2593 (2020-02-06)
+
+<code>
+Cross-site scripting (XSS) vulnerability in the administrative interface in Atmail Webmail Server 6.4 allows remote attackers to inject arbitrary web script or HTML via the Date field of an email.
+</code>
+
+- [AndrewTrube/CVE-2012-2593](https://github.com/AndrewTrube/CVE-2012-2593)
 
 ### CVE-2012-2688 (2012-07-20)
 
