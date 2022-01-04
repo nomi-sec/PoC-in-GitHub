@@ -845,7 +845,6 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [convisolabs/CVE-2021-22204-exiftool](https://github.com/convisolabs/CVE-2021-22204-exiftool)
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
-- [PenTestical/CVE-2021-22204](https://github.com/PenTestical/CVE-2021-22204)
 - [AssassinUKG/CVE-2021-22204](https://github.com/AssassinUKG/CVE-2021-22204)
 - [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
@@ -2423,7 +2422,6 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
-- [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
 - [shaktavist/SeriousSam](https://github.com/shaktavist/SeriousSam)
 - [OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC](https://github.com/OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
@@ -3327,6 +3325,7 @@ An issue was discovered in GoAhead 4.x and 5.x before 5.1.5. In the file upload 
 </code>
 
 - [kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-](https://github.com/kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-)
+- [Mr-xn/CVE-2021-42342](https://github.com/Mr-xn/CVE-2021-42342)
 
 ### CVE-2021-42574 (2021-10-31)
 
@@ -3998,6 +3997,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.](https://github.com/marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.)
 - [marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV](https://github.com/marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV)
 - [sdogancesur/CVE-2021-44228-github-repository](https://github.com/sdogancesur/CVE-2021-44228-github-repository)
+- [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 
 ### CVE-2021-44659 (2021-12-22)
 
