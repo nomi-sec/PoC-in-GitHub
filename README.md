@@ -429,7 +429,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [curtishoughton/CVE-2021-3560](https://github.com/curtishoughton/CVE-2021-3560)
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
-- [mr-nobody20/CVE-2021-3560](https://github.com/mr-nobody20/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -471,9 +470,6 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 
 ### CVE-2021-6901
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
-
-### CVE-2021-10086
-- [xiaoyun-1/CVE-2021-10086](https://github.com/xiaoyun-1/CVE-2021-10086)
 
 ### CVE-2021-20717 (2021-05-10)
 
@@ -2498,14 +2494,6 @@ Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote att
 - [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 - [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 
-### CVE-2021-38149 (2021-08-06)
-
-<code>
-index.php/admin/add_user in Chikitsa Patient Management System 2.0.0 allows XSS.
-</code>
-
-- [jboogie15/CVE-2021-38149](https://github.com/jboogie15/CVE-2021-38149)
-
 ### CVE-2021-38185 (2021-08-07)
 
 <code>
@@ -3986,9 +3974,11 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.](https://github.com/marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.)
 - [marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV](https://github.com/marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV)
 - [sdogancesur/CVE-2021-44228-github-repository](https://github.com/sdogancesur/CVE-2021-44228-github-repository)
+- [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
 - [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
+- [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -4084,6 +4074,9 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [itxfahdi/-cve-2021-45232](https://github.com/itxfahdi/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [Kuibagit/CVE-2021-45232-RCE](https://github.com/Kuibagit/CVE-2021-45232-RCE)
+
+### CVE-2021-45383
+- [nt1dr/CVE-2021-45383](https://github.com/nt1dr/CVE-2021-45383)
 
 
 ## 2020
@@ -10890,8 +10883,8 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 </code>
 
 - [dorkerdevil/CVE-2019-11932](https://github.com/dorkerdevil/CVE-2019-11932)
-- [KeepWannabe/WhatsRCE](https://github.com/KeepWannabe/WhatsRCE)
 - [awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932)
+- [JasonJerry/WhatsRCE](https://github.com/JasonJerry/WhatsRCE)
 - [TulungagungCyberLink/CVE-2019-11932](https://github.com/TulungagungCyberLink/CVE-2019-11932)
 - [infiniteLoopers/CVE-2019-11932](https://github.com/infiniteLoopers/CVE-2019-11932)
 - [5l1v3r1/CVE-2019-11932](https://github.com/5l1v3r1/CVE-2019-11932)
@@ -22812,94 +22805,6 @@ Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite ar
 
 
 ## 2002
-### CVE-2002-0200 (2002-05-03)
-
-<code>
-Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.
-</code>
-
-- [alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200)
-
-### CVE-2002-0201 (2002-05-03)
-
-<code>
-Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
-</code>
-
-- [alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201)
-
-### CVE-2002-0288 (2002-05-03)
-
-<code>
-Directory traversal vulnerability in Phusion web server 1.0 allows remote attackers to read arbitrary files via a ... (triple dot dot) in the HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288)
-
-### CVE-2002-0289 (2002-05-03)
-
-<code>
-Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289)
-
-### CVE-2002-0346 (2002-05-03)
-
-<code>
-Cross-site scripting vulnerability in Cobalt RAQ 4 allows remote attackers to execute arbitrary script as other Cobalt users via Javascript in a URL to (1) service.cgi or (2) alert.cgi.
-</code>
-
-- [alt3kx/CVE-2002-0346](https://github.com/alt3kx/CVE-2002-0346)
-
-### CVE-2002-0347 (2002-05-03)
-
-<code>
-Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to read password-protected files, and possibly files outside the web root, via a .. (dot dot) in an HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0347](https://github.com/alt3kx/CVE-2002-0347)
-
-### CVE-2002-0348 (2002-05-03)
-
-<code>
-service.cgi in Cobalt RAQ 4 allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long service argument.
-</code>
-
-- [alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348)
-
-### CVE-2002-0448 (2002-06-11)
-
-<code>
-Xerver Free Web Server 2.10 and earlier allows remote attackers to cause a denial of service (crash) via an HTTP request that contains many &quot;C:/&quot; sequences.
-</code>
-
-- [alt3kx/CVE-2002-0448](https://github.com/alt3kx/CVE-2002-0448)
-
-### CVE-2002-0740 (2002-07-26)
-
-<code>
-Buffer overflow in slrnpull for the SLRN package, when installed setuid or setgid, allows local users to gain privileges via a long -d (SPOOLDIR) argument.
-</code>
-
-- [alt3kx/CVE-2002-0740](https://github.com/alt3kx/CVE-2002-0740)
-
-### CVE-2002-0991 (2002-08-31)
-
-<code>
-Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and earlier, based on the Sharity package, allows local users to gain root privileges via long (1) -U, (2) -D, (3) -P, (4) -S, (5) -N, or (6) -u parameters.
-</code>
-
-- [alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991)
-
-### CVE-2002-20001 (2021-11-11)
-
-<code>
-The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and trigger expensive server-side DHE modular-exponentiation calculations, aka a D(HE)ater attack. The client needs very little CPU resources and network bandwidth. The attack may be more disruptive in cases where a client can require a server to select its largest supported key size. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE.
-</code>
-
-- [Balasys/dheater](https://github.com/Balasys/dheater)
-
 
 ## 2001
 ### CVE-2001-0680 (2002-03-09)
