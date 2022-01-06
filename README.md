@@ -115,7 +115,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
 - [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
-- [dinosn/CVE-2021-2109](https://github.com/dinosn/CVE-2021-2109)
 
 ### CVE-2021-2119 (2021-01-20)
 
@@ -3550,6 +3549,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [k3rwin/CVE-2021-43798-Grafana-](https://github.com/k3rwin/CVE-2021-43798-Grafana-)
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
+- [light-Life/CVE-2021-43798](https://github.com/light-Life/CVE-2021-43798)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -14961,7 +14961,7 @@ System command injection in appGet.cgi on ASUS RT-AC3200 version 3.0.0.4.382.500
 The database backup feature in upload/source/admincp/admincp_db.php in Discuz! 2.5 and 3.4 allows remote attackers to execute arbitrary PHP code.
 </code>
 
-- [FoolMitAh/CVE-2018-14729](https://github.com/FoolMitAh/CVE-2018-14729)
+- [c0010/CVE-2018-14729](https://github.com/c0010/CVE-2018-14729)
 
 ### CVE-2018-14772 (2018-10-16)
 
