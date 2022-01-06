@@ -1,5 +1,10 @@
 # PoC in GitHub
 
+## 2022
+### CVE-2022-4444
+- [gnaiq/cve-2022-4444](https://github.com/gnaiq/cve-2022-4444)
+
+
 ## 2021
 ### CVE-2021-1056 (2021-01-07)
 
@@ -1551,7 +1556,6 @@ The ReplicationHandler (normally registered at &quot;/replication&quot; under a 
 
 - [Henry4E36/Solr-SSRF](https://github.com/Henry4E36/Solr-SSRF)
 - [W2Ning/Solr-SSRF](https://github.com/W2Ning/Solr-SSRF)
-- [murataydemir/CVE-2021-27905](https://github.com/murataydemir/CVE-2021-27905)
 
 ### CVE-2021-27928 (2021-03-18)
 
@@ -2400,7 +2404,6 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
-- [OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC](https://github.com/OlivierLaflamme/CVE-2021-36934-export-shadow-volume-POC)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
 
 ### CVE-2021-36949 (2021-08-12)
@@ -2484,14 +2487,6 @@ Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote att
 
 - [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 - [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
-
-### CVE-2021-38185 (2021-08-07)
-
-<code>
-GNU cpio through 2.13 allows attackers to execute arbitrary code via a crafted pattern file, because of a dstring.c ds_fgetstr integer overflow that triggers an out-of-bounds heap write. NOTE: it is unclear whether there are common cases where the pattern file, associated with the -E option, is untrusted data.
-</code>
-
-- [fangqyi/cpiopwn](https://github.com/fangqyi/cpiopwn)
 
 ### CVE-2021-38295 (2021-10-14)
 
@@ -2721,6 +2716,14 @@ A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive 
 
 ### CVE-2021-39685
 - [szymonh/inspector-gadget](https://github.com/szymonh/inspector-gadget)
+
+### CVE-2021-39863 (2021-09-29)
+
+<code>
+Acrobat Reader DC versions 2021.005.20060 (and earlier), 2020.004.30006 (and earlier) and 2017.011.30199 (and earlier) are affected by a Buffer Overflow vulnerability when parsing a specially crafted PDF file. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [lsw29475/CVE-2021-39863](https://github.com/lsw29475/CVE-2021-39863)
 
 ### CVE-2021-40101 (2021-11-30)
 
@@ -2990,6 +2993,14 @@ Metabase is an open source data analytics platform. In affected versions a secur
 - [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [TheLastVvV/CVE-2021-41277](https://github.com/TheLastVvV/CVE-2021-41277)
 - [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
+
+### CVE-2021-41349 (2021-11-09)
+
+<code>
+Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-2021-42305.
+</code>
+
+- [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
 
 ### CVE-2021-41351 (2021-11-09)
 
@@ -3550,6 +3561,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
 - [light-Life/CVE-2021-43798](https://github.com/light-Life/CVE-2021-43798)
+- [rnsss/CVE-2021-43798-poc](https://github.com/rnsss/CVE-2021-43798-poc)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
