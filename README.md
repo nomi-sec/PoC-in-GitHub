@@ -148,7 +148,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 </code>
 
 - [lz2y/CVE-2021-2394](https://github.com/lz2y/CVE-2021-2394)
-- [BabyTeam1024/CVE-2021-2394](https://github.com/BabyTeam1024/CVE-2021-2394)
 - [fasanhlieu/CVE-2021-2394](https://github.com/fasanhlieu/CVE-2021-2394)
 
 ### CVE-2021-2456 (2021-07-20)
@@ -291,7 +290,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
-- [CyberCommands/CVE-2021-3156](https://github.com/CyberCommands/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
 - [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
 - [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
@@ -772,6 +770,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
+- [timb-machine-mirrors/CVE-2021-22005](https://github.com/timb-machine-mirrors/CVE-2021-22005)
 
 ### CVE-2021-22015 (2021-09-23)
 
@@ -1605,14 +1604,6 @@ Windows NTFS Denial of Service Vulnerability
 
 - [shubham0d/CVE-2021-28312](https://github.com/shubham0d/CVE-2021-28312)
 
-### CVE-2021-28378 (2021-03-15)
-
-<code>
-Gitea 1.12.x and 1.13.x before 1.13.4 allows XSS via certain issue data in some situations.
-</code>
-
-- [pandatix/CVE-2021-28378](https://github.com/pandatix/CVE-2021-28378)
-
 ### CVE-2021-28476 (2021-05-11)
 
 <code>
@@ -1639,6 +1630,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 - [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
+- [timb-machine-mirrors/CVE-2021-28482](https://github.com/timb-machine-mirrors/CVE-2021-28482)
 
 ### CVE-2021-28663 (2021-05-10)
 
@@ -3279,6 +3271,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
+- [timb-machine-mirrors/CVE-2021-42321_poc](https://github.com/timb-machine-mirrors/CVE-2021-42321_poc)
 
 ### CVE-2021-42325 (2021-10-12)
 
@@ -3979,6 +3972,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
 - [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
+- [cryptoforcecommand/log4j-CVE-2021-44228](https://github.com/cryptoforcecommand/log4j-CVE-2021-44228)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -16016,7 +16010,7 @@ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 
 The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to obtain sensitive information from process memory via a crafted packets, aka &quot;Windows SMB Information Disclosure Vulnerability.&quot;
 </code>
 
-- [Malware-S/Exploit-Win32.CVE-2017-0147.A](https://github.com/Malware-S/Exploit-Win32.CVE-2017-0147.A)
+- [RobertoLeonFR-ES/Exploit-Win32.CVE-2017-0147.A](https://github.com/RobertoLeonFR-ES/Exploit-Win32.CVE-2017-0147.A)
 
 ### CVE-2017-0199 (2017-04-12)
 
@@ -21617,7 +21611,7 @@ The Remote Desktop Protocol (RDP) service in Microsoft Windows Server 2008 R2 an
 The (1) ListView, (2) ListView2, (3) TreeView, and (4) TreeView2 ActiveX controls in MSCOMCTL.OCX in the Common Controls in Microsoft Office 2003 SP3, 2007 SP2 and SP3, and 2010 Gold and SP1; Office 2003 Web Components SP3; SQL Server 2000 SP4, 2005 SP4, and 2008 SP2, SP3, and R2; BizTalk Server 2002 SP1; Commerce Server 2002 SP4, 2007 SP2, and 2009 Gold and R2; Visual FoxPro 8.0 SP1 and 9.0 SP2; and Visual Basic 6.0 Runtime allow remote attackers to execute arbitrary code via a crafted (a) web site, (b) Office document, or (c) .rtf file that triggers &quot;system state&quot; corruption, as exploited in the wild in April 2012, aka &quot;MSCOMCTL.OCX RCE Vulnerability.&quot;
 </code>
 
-- [Malware-S/Exploit-Win32.CVE-2012-0158.F.doc](https://github.com/Malware-S/Exploit-Win32.CVE-2012-0158.F.doc)
+- [RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc](https://github.com/RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc)
 
 ### CVE-2012-1675 (2012-05-08)
 
@@ -22805,6 +22799,94 @@ Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite ar
 
 
 ## 2002
+### CVE-2002-0200 (2002-05-03)
+
+<code>
+Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service via an HTTP request for an MS-DOS device name.
+</code>
+
+- [alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200)
+
+### CVE-2002-0201 (2002-05-03)
+
+<code>
+Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
+</code>
+
+- [alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201)
+
+### CVE-2002-0288 (2002-05-03)
+
+<code>
+Directory traversal vulnerability in Phusion web server 1.0 allows remote attackers to read arbitrary files via a ... (triple dot dot) in the HTTP request.
+</code>
+
+- [alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288)
+
+### CVE-2002-0289 (2002-05-03)
+
+<code>
+Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
+</code>
+
+- [alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289)
+
+### CVE-2002-0346 (2002-05-03)
+
+<code>
+Cross-site scripting vulnerability in Cobalt RAQ 4 allows remote attackers to execute arbitrary script as other Cobalt users via Javascript in a URL to (1) service.cgi or (2) alert.cgi.
+</code>
+
+- [alt3kx/CVE-2002-0346](https://github.com/alt3kx/CVE-2002-0346)
+
+### CVE-2002-0347 (2002-05-03)
+
+<code>
+Directory traversal vulnerability in Cobalt RAQ 4 allows remote attackers to read password-protected files, and possibly files outside the web root, via a .. (dot dot) in an HTTP request.
+</code>
+
+- [alt3kx/CVE-2002-0347](https://github.com/alt3kx/CVE-2002-0347)
+
+### CVE-2002-0348 (2002-05-03)
+
+<code>
+service.cgi in Cobalt RAQ 4 allows remote attackers to cause a denial of service, and possibly execute arbitrary code, via a long service argument.
+</code>
+
+- [alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348)
+
+### CVE-2002-0448 (2002-06-11)
+
+<code>
+Xerver Free Web Server 2.10 and earlier allows remote attackers to cause a denial of service (crash) via an HTTP request that contains many &quot;C:/&quot; sequences.
+</code>
+
+- [alt3kx/CVE-2002-0448](https://github.com/alt3kx/CVE-2002-0448)
+
+### CVE-2002-0740 (2002-07-26)
+
+<code>
+Buffer overflow in slrnpull for the SLRN package, when installed setuid or setgid, allows local users to gain privileges via a long -d (SPOOLDIR) argument.
+</code>
+
+- [alt3kx/CVE-2002-0740](https://github.com/alt3kx/CVE-2002-0740)
+
+### CVE-2002-0991 (2002-08-31)
+
+<code>
+Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and earlier, based on the Sharity package, allows local users to gain root privileges via long (1) -U, (2) -D, (3) -P, (4) -S, (5) -N, or (6) -u parameters.
+</code>
+
+- [alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991)
+
+### CVE-2002-20001 (2021-11-11)
+
+<code>
+The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and trigger expensive server-side DHE modular-exponentiation calculations, aka a D(HE)ater attack. The client needs very little CPU resources and network bandwidth. The attack may be more disruptive in cases where a client can require a server to select its largest supported key size. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE.
+</code>
+
+- [Balasys/dheater](https://github.com/Balasys/dheater)
+
 
 ## 2001
 ### CVE-2001-0680 (2002-03-09)
