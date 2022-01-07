@@ -2198,14 +2198,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
 
-### CVE-2021-34481 (2021-07-16)
-
-<code>
-Windows Print Spooler Elevation of Privilege Vulnerability
-</code>
-
-- [vanpn/CVE-2021-34481](https://github.com/vanpn/CVE-2021-34481)
-
 ### CVE-2021-34486 (2021-08-12)
 
 <code>
@@ -3228,6 +3220,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [xMohamed0/CVE-2021-42013-ApacheRCE](https://github.com/xMohamed0/CVE-2021-42013-ApacheRCE)
 - [ahmad4fifz/CVE-2021-42013](https://github.com/ahmad4fifz/CVE-2021-42013)
 - [asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp](https://github.com/asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp)
+- [rnsss/CVE-2021-42013](https://github.com/rnsss/CVE-2021-42013)
 
 ### CVE-2021-42071 (2021-10-07)
 
