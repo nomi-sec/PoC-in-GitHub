@@ -257,7 +257,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER)
 - [kernelzeroday/CVE-2021-3156-Baron-Samedit](https://github.com/kernelzeroday/CVE-2021-3156-Baron-Samedit)
 - [yaunsky/cve-2021-3156](https://github.com/yaunsky/cve-2021-3156)
-- [H4ckForJob/cve-2021-3156](https://github.com/H4ckForJob/cve-2021-3156)
 - [baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp)
 - [ph4ntonn/CVE-2021-3156](https://github.com/ph4ntonn/CVE-2021-3156)
 - [binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT)
@@ -300,6 +299,9 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [d3c3ptic0n/CVE-2021-3156](https://github.com/d3c3ptic0n/CVE-2021-3156)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
+
+### CVE-2021-3157
+- [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -2193,7 +2195,6 @@ For Eclipse Jetty versions 9.4.37-9.4.42, 10.0.1-10.0.5 &amp; 11.0.1-11.0.5, URI
 Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-31196, CVE-2021-31206.
 </code>
 
-- [cyberheartmi9/Proxyshell-Scanner](https://github.com/cyberheartmi9/Proxyshell-Scanner)
 - [phamphuqui1998/CVE-2021-34473](https://github.com/phamphuqui1998/CVE-2021-34473)
 - [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
@@ -3580,7 +3581,7 @@ Gerapy is a distributed crawler management framework. Gerapy prior to version 0.
 MinIO is a Kubernetes native application for cloud storage. Prior to version `RELEASE.2021-12-27T07-23-18Z`, a malicious client can hand-craft an HTTP API call that allows for updating policy for a user and gaining higher privileges. The patch in version `RELEASE.2021-12-27T07-23-18Z` changes the accepted request body type and removes the ability to apply policy changes through this API. There is a workaround for this vulnerability: Changing passwords can be disabled by adding an explicit `Deny` rule to disable the API for users.
 </code>
 
-- [khuntor/cve-2021-43858](https://github.com/khuntor/cve-2021-43858)
+- [morhax/cve-2021-43858](https://github.com/morhax/cve-2021-43858)
 
 ### CVE-2021-43883 (2021-12-15)
 
@@ -3977,6 +3978,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [cryptoforcecommand/log4j-CVE-2021-44228](https://github.com/cryptoforcecommand/log4j-CVE-2021-44228)
+- [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 
 ### CVE-2021-44659 (2021-12-22)
 
