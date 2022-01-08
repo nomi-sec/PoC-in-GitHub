@@ -472,6 +472,9 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 ### CVE-2021-4438
 - [longnguyen-2k/log4j](https://github.com/longnguyen-2k/log4j)
 
+### CVE-2021-6857
+- [zi0n8/CVE-2021-6857](https://github.com/zi0n8/CVE-2021-6857)
+
 ### CVE-2021-6901
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
 
@@ -2497,36 +2500,6 @@ The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for Wor
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
-### CVE-2021-38600
-- [hmaverickadams/CVE-2021-38600](https://github.com/hmaverickadams/CVE-2021-38600)
-
-### CVE-2021-38601
-- [hmaverickadams/CVE-2021-38601](https://github.com/hmaverickadams/CVE-2021-38601)
-
-### CVE-2021-38602 (2021-08-12)
-
-<code>
-PluXML 5.8.7 allows Article Editing stored XSS via Headline or Content.
-</code>
-
-- [KielVaughn/CVE-2021-38602](https://github.com/KielVaughn/CVE-2021-38602)
-
-### CVE-2021-38603 (2021-08-12)
-
-<code>
-PluXML 5.8.7 allows core/admin/profil.php stored XSS via the Information field.
-</code>
-
-- [KielVaughn/CVE-2021-38603](https://github.com/KielVaughn/CVE-2021-38603)
-
-### CVE-2021-38619 (2021-08-13)
-
-<code>
-openBaraza HCM 3.1.6 does not properly neutralize user-controllable input: an unauthenticated remote attacker can conduct a stored cross-site scripting (XSS) attack against an administrative user from hr/subscription.jsp and hr/application.jsp and and hr/index.jsp (with view=).
-</code>
-
-- [charlesbickel/CVE-2021-38619](https://github.com/charlesbickel/CVE-2021-38619)
-
 ### CVE-2021-38639 (2021-09-15)
 
 <code>
@@ -3966,12 +3939,17 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [sdogancesur/CVE-2021-44228-github-repository](https://github.com/sdogancesur/CVE-2021-44228-github-repository)
 - [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
+- [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
 - [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
 - [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [cryptoforcecommand/log4j-CVE-2021-44228](https://github.com/cryptoforcecommand/log4j-CVE-2021-44228)
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
+- [nix-xin/vuln4japi](https://github.com/nix-xin/vuln4japi)
+
+### CVE-2021-44270
+- [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -4068,6 +4046,8 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [itxfahdi/-cve-2021-45232](https://github.com/itxfahdi/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [Kuibagit/CVE-2021-45232-RCE](https://github.com/Kuibagit/CVE-2021-45232-RCE)
+- [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
+- [yggcwhat/CVE-2021-45232](https://github.com/yggcwhat/CVE-2021-45232)
 
 ### CVE-2021-45383
 - [nt1dr/CVE-2021-45383](https://github.com/nt1dr/CVE-2021-45383)
@@ -6968,7 +6948,7 @@ IceWarp Email Server 12.3.0.1 has Incorrect Access Control for user accounts.
 
 - [networksecure/CVE-2020-14064](https://github.com/networksecure/CVE-2020-14064)
 - [masoud-zivari/CVE-2020-14064](https://github.com/masoud-zivari/CVE-2020-14064)
-- [pinpinsec/CVE-2020-14064](https://github.com/pinpinsec/CVE-2020-14064)
+- [pinpinsec/Icewarp-Mail-Server-12.3.0.1-incorrect_access_control-](https://github.com/pinpinsec/Icewarp-Mail-Server-12.3.0.1-incorrect_access_control-)
 
 ### CVE-2020-14065 (2020-07-15)
 
@@ -6978,7 +6958,7 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload files and consum
 
 - [networksecure/CVE-2020-14065](https://github.com/networksecure/CVE-2020-14065)
 - [masoud-zivari/CVE-2020-14065](https://github.com/masoud-zivari/CVE-2020-14065)
-- [pinpinsec/CVE-2020-14065](https://github.com/pinpinsec/CVE-2020-14065)
+- [pinpinsec/Icewarp-Email-Server-12.3.0.1-unlimited_file_upload](https://github.com/pinpinsec/Icewarp-Email-Server-12.3.0.1-unlimited_file_upload)
 
 ### CVE-2020-14066 (2020-07-15)
 
@@ -6988,7 +6968,7 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files
 
 - [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
 - [masoud-zivari/CVE-2020-14066](https://github.com/masoud-zivari/CVE-2020-14066)
-- [pinpinsec/CVE-2020-14066](https://github.com/pinpinsec/CVE-2020-14066)
+- [pinpinsec/Icewarp-Email-Server-12.3.0.1-insecure_permissions](https://github.com/pinpinsec/Icewarp-Email-Server-12.3.0.1-insecure_permissions)
 
 ### CVE-2020-14179 (2020-09-20)
 
@@ -15279,6 +15259,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [k4is3r13/Bash-Script-CVE-2018-16763](https://github.com/k4is3r13/Bash-Script-CVE-2018-16763)
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
 - [SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763)
+- [1nf1n17yk1ng/CVE-2018-16763](https://github.com/1nf1n17yk1ng/CVE-2018-16763)
 
 ### CVE-2018-16843 (2018-11-07)
 
