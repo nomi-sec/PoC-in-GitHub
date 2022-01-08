@@ -2497,14 +2497,6 @@ The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for Wor
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
-### CVE-2021-38583 (2021-08-13)
-
-<code>
-openBaraza HCM 3.1.6 does not properly neutralize user-controllable input, which allows reflected cross-site scripting (XSS) on multiple pages: hr/subscription.jsp and hr/application.jsp and and hr/index.jsp (with view= and data=).
-</code>
-
-- [charlesbickel/CVE-2021-38583](https://github.com/charlesbickel/CVE-2021-38583)
-
 ### CVE-2021-38600
 - [hmaverickadams/CVE-2021-38600](https://github.com/hmaverickadams/CVE-2021-38600)
 
@@ -3554,6 +3546,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
 - [light-Life/CVE-2021-43798](https://github.com/light-Life/CVE-2021-43798)
 - [rnsss/CVE-2021-43798-poc](https://github.com/rnsss/CVE-2021-43798-poc)
+- [rodpwn/CVE-2021-43798-mass_scanner](https://github.com/rodpwn/CVE-2021-43798-mass_scanner)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -3761,7 +3754,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [lov3r/cve-2021-44228-log4j-exploits](https://github.com/lov3r/cve-2021-44228-log4j-exploits)
 - [sinakeshmiri/log4jScan](https://github.com/sinakeshmiri/log4jScan)
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
-- [LutziGoz/Log4Shell_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4Shell_Exploitation-Vulnerabiliy__CVE-2021-44228)
+- [LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228)
 - [ahmad4fifz/CVE-2021-44228](https://github.com/ahmad4fifz/CVE-2021-44228)
 - [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
 - [zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service](https://github.com/zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service)
