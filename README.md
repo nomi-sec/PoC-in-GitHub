@@ -10350,6 +10350,7 @@ In the Titan M handling of cryptographic operations, there is a possible informa
 </code>
 
 - [alexbakker/CVE-2019-9465](https://github.com/alexbakker/CVE-2019-9465)
+- [MichaelsPlayground/CVE-2019-9465](https://github.com/MichaelsPlayground/CVE-2019-9465)
 
 ### CVE-2019-9506 (2019-08-14)
 
