@@ -33,6 +33,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
+- [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
 - [mstxq17/CVE-2021-1675_RDL_LPE](https://github.com/mstxq17/CVE-2021-1675_RDL_LPE)
 - [ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare)
 - [Wra7h/SharpPN](https://github.com/Wra7h/SharpPN)
@@ -2398,7 +2399,6 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
-- [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
 
 ### CVE-2021-36949 (2021-08-12)
 
