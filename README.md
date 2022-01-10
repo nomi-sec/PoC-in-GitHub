@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2022
-### CVE-2022-2222
-- [gnaiq/cve-2022-2222](https://github.com/gnaiq/cve-2022-2222)
-
 ### CVE-2022-21660
 - [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
 
