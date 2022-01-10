@@ -1,8 +1,11 @@
 # PoC in GitHub
 
 ## 2022
-### CVE-2022-4444
-- [gnaiq/cve-2022-4444](https://github.com/gnaiq/cve-2022-4444)
+### CVE-2022-2222
+- [gnaiq/cve-2022-2222](https://github.com/gnaiq/cve-2022-2222)
+
+### CVE-2022-21660
+- [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
 
 
 ## 2021
@@ -1018,14 +1021,6 @@ Windows Console Driver Denial of Service Vulnerability
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
 
-### CVE-2021-24145 (2021-03-18)
-
-<code>
-Arbitrary file upload in the Modern Events Calendar Lite WordPress plugin, versions before 5.16.5, did not properly check the imported file, allowing PHP ones to be uploaded by administrator by using the 'text/csv' content-type in the request.
-</code>
-
-- [dnr6419/CVE-2021-24145](https://github.com/dnr6419/CVE-2021-24145)
-
 ### CVE-2021-24307 (2021-05-24)
 
 <code>
@@ -1919,7 +1914,6 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
-- [c4dr01d/CVE-2021-31166](https://github.com/c4dr01d/CVE-2021-31166)
 - [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 - [ConMiko/CVE-2021-31166-exploit](https://github.com/ConMiko/CVE-2021-31166-exploit)
 
@@ -2948,6 +2942,7 @@ Metabase is an open source data analytics platform. In affected versions a secur
 - [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [TheLastVvV/CVE-2021-41277](https://github.com/TheLastVvV/CVE-2021-41277)
 - [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
+- [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
 
 ### CVE-2021-41349 (2021-11-09)
 
@@ -3920,7 +3915,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [BJLIYANLIANG/log4j-scanner](https://github.com/BJLIYANLIANG/log4j-scanner)
 - [0x3SC4L4T3/Apache-Log4j-POC](https://github.com/0x3SC4L4T3/Apache-Log4j-POC)
 - [TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit](https://github.com/TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit)
-- [c4dr01d/CVE-2021-44228](https://github.com/c4dr01d/CVE-2021-44228)
+- [c4dr01d/CVE-2021-44228-poc](https://github.com/c4dr01d/CVE-2021-44228-poc)
 - [lucab85/ansible-role-log4shell](https://github.com/lucab85/ansible-role-log4shell)
 - [ainrm/log4j-scan](https://github.com/ainrm/log4j-scan)
 - [grimch/log4j-CVE-2021-44228-workaround](https://github.com/grimch/log4j-CVE-2021-44228-workaround)
@@ -3953,6 +3948,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [nix-xin/vuln4japi](https://github.com/nix-xin/vuln4japi)
+- [cryptoforcecommand/log4j-cve-2021-44228](https://github.com/cryptoforcecommand/log4j-cve-2021-44228)
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
 
 ### CVE-2021-44270
