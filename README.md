@@ -2012,6 +2012,14 @@ Windows Kernel Information Disclosure Vulnerability
 
 - [freeide/CVE-2021-31955-POC](https://github.com/freeide/CVE-2021-31955-POC)
 
+### CVE-2021-32099 (2021-05-06)
+
+<code>
+A SQL injection vulnerability in the pandora_console component of Artica Pandora FMS 742 allows an unauthenticated attacker to upgrade his unprivileged session via the /include/chart_generator.php session_id parameter, leading to a login bypass.
+</code>
+
+- [zjicmDarkWing/CVE-2021-32099](https://github.com/zjicmDarkWing/CVE-2021-32099)
+
 ### CVE-2021-32202 (2021-09-14)
 
 <code>
@@ -2196,7 +2204,6 @@ For Eclipse Jetty versions 9.4.37-9.4.42, 10.0.1-10.0.5 &amp; 11.0.1-11.0.5, URI
 Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-31196, CVE-2021-31206.
 </code>
 
-- [phamphuqui1998/CVE-2021-34473](https://github.com/phamphuqui1998/CVE-2021-34473)
 - [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
 
@@ -2564,14 +2571,6 @@ Persistent cross-site scripting (XSS) vulnerabilities in ClinicCases 7.3.3 allow
 </code>
 
 - [sudonoodle/CVE-2021-38707](https://github.com/sudonoodle/CVE-2021-38707)
-
-### CVE-2021-38710 (2021-08-18)
-
-<code>
-Static (Persistent) XSS Vulnerability exists in version 4.3.0 of Yclas when using the install/view/form.php script. An attacker can store XSS in the database through the vulnerable SITE_NAME parameter.
-</code>
-
-- [security-n/CVE-2021-38710](https://github.com/security-n/CVE-2021-38710)
 
 ### CVE-2021-38759 (2021-12-07)
 
@@ -3948,6 +3947,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [nix-xin/vuln4japi](https://github.com/nix-xin/vuln4japi)
 - [cryptoforcecommand/log4j-cve-2021-44228](https://github.com/cryptoforcecommand/log4j-cve-2021-44228)
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
+- [c4dr01d/CVE-2021-44228](https://github.com/c4dr01d/CVE-2021-44228)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -5439,6 +5439,14 @@ Privilege Escalation vulnerability in McAfee Total Protection (MTP) before 16.0.
 </code>
 
 - [RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP](https://github.com/RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP)
+
+### CVE-2020-7352 (2020-08-06)
+
+<code>
+The GalaxyClientService component of GOG Galaxy runs with elevated SYSTEM privileges in a Windows environment. Due to the software shipping with embedded, static RSA private key, an attacker with this key material and local user permissions can effectively send any operating system command to the service for execution in this elevated context. The service listens for such commands on a locally-bound network port, localhost:9978. A Metasploit module has been published which exploits this vulnerability. This issue affects the 2.0.x branch of the software (2.0.12 and earlier) as well as the 1.2.x branch (1.2.64 and earlier). A fix was issued for the 2.0.x branch of the affected software.
+</code>
+
+- [szerszen199/PS-CVE-2020-7352](https://github.com/szerszen199/PS-CVE-2020-7352)
 
 ### CVE-2020-7378 (2020-11-24)
 
