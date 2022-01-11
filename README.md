@@ -1018,6 +1018,14 @@ Windows Console Driver Denial of Service Vulnerability
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
 
+### CVE-2021-24145 (2021-03-18)
+
+<code>
+Arbitrary file upload in the Modern Events Calendar Lite WordPress plugin, versions before 5.16.5, did not properly check the imported file, allowing PHP ones to be uploaded by administrator by using the 'text/csv' content-type in the request.
+</code>
+
+- [dnr6419/CVE-2021-24145](https://github.com/dnr6419/CVE-2021-24145)
+
 ### CVE-2021-24307 (2021-05-24)
 
 <code>
@@ -2659,6 +2667,9 @@ A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive 
 
 ### CVE-2021-39512
 - [guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver](https://github.com/guusec/CVE-2021-39512-BigTreeCMS-v4.4.14-AccountTakeOver)
+
+### CVE-2021-39623
+- [marcinguy/CVE-2021-39623](https://github.com/marcinguy/CVE-2021-39623)
 
 ### CVE-2021-39685
 - [szymonh/inspector-gadget](https://github.com/szymonh/inspector-gadget)
