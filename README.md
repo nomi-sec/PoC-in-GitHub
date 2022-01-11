@@ -296,7 +296,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
 - [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
 - [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
-- [d3c3ptic0n/CVE-2021-3156](https://github.com/d3c3ptic0n/CVE-2021-3156)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
 
@@ -465,6 +464,7 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 </code>
 
 - [cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x)
+- [open-AIMS/log4j](https://github.com/open-AIMS/log4j)
 
 ### CVE-2021-4428
 - [CERT-hr/Log4Shell](https://github.com/CERT-hr/Log4Shell)
@@ -477,6 +477,14 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 
 ### CVE-2021-6901
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
+
+### CVE-2021-20038 (2021-12-08)
+
+<code>
+A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_cgi module environment variables allows a remote unauthenticated attacker to potentially execute code as a 'nobody' user in the appliance. This vulnerability affected SMA 200, 210, 400, 410 and 500v appliances firmware 10.2.0.8-37sv, 10.2.1.1-19sv, 10.2.1.2-24sv and earlier versions.
+</code>
+
+- [jbaines-r7/badblood](https://github.com/jbaines-r7/badblood)
 
 ### CVE-2021-20717 (2021-05-10)
 
@@ -1017,14 +1025,6 @@ Windows Console Driver Denial of Service Vulnerability
 </code>
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
-
-### CVE-2021-24145 (2021-03-18)
-
-<code>
-Arbitrary file upload in the Modern Events Calendar Lite WordPress plugin, versions before 5.16.5, did not properly check the imported file, allowing PHP ones to be uploaded by administrator by using the 'text/csv' content-type in the request.
-</code>
-
-- [dnr6419/CVE-2021-24145](https://github.com/dnr6419/CVE-2021-24145)
 
 ### CVE-2021-24307 (2021-05-24)
 
@@ -1620,7 +1620,6 @@ Hyper-V Remote Code Execution Vulnerability
 
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
 - [bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476)
-- [LaCeeKa/CVE-2021-28476-tools-env](https://github.com/LaCeeKa/CVE-2021-28476-tools-env)
 
 ### CVE-2021-28480 (2021-04-13)
 
@@ -2399,14 +2398,6 @@ Windows Elevation of Privilege Vulnerability
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
 
-### CVE-2021-36949 (2021-08-12)
-
-<code>
-Microsoft Azure Active Directory Connect Authentication Bypass Vulnerability
-</code>
-
-- [Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability](https://github.com/Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability)
-
 ### CVE-2021-37580 (2021-11-16)
 
 <code>
@@ -2541,8 +2532,6 @@ TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and 
 </code>
 
 - [HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS)
-- [HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS)
-- [Justin-1993/CVE-2021-38699](https://github.com/Justin-1993/CVE-2021-38699)
 
 ### CVE-2021-38704 (2021-09-07)
 
@@ -3955,6 +3944,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
+- [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [nix-xin/vuln4japi](https://github.com/nix-xin/vuln4japi)
 - [cryptoforcecommand/log4j-cve-2021-44228](https://github.com/cryptoforcecommand/log4j-cve-2021-44228)
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
