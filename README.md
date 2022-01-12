@@ -1147,14 +1147,6 @@ A security issue was discovered in kube-apiserver that could allow node updates 
 
 - [darryk10/CVE-2021-25735](https://github.com/darryk10/CVE-2021-25735)
 
-### CVE-2021-25790 (2021-07-23)
-
-<code>
-Multiple stored cross site scripting (XSS) vulnerabilities in the &quot;Register&quot; module of House Rental and Property Listing 1.0 allows authenticated attackers to execute arbitrary web scripts or HTML via crafted payloads in all text fields except for Phone Number and Alternate Phone Number.
-</code>
-
-- [MrCraniums/CVE-2021-25790-Multiple-Stored-XSS](https://github.com/MrCraniums/CVE-2021-25790-Multiple-Stored-XSS)
-
 ### CVE-2021-26084 (2021-08-30)
 
 <code>
@@ -2019,6 +2011,7 @@ A SQL injection vulnerability in the pandora_console component of Artica Pandora
 </code>
 
 - [zjicmDarkWing/CVE-2021-32099](https://github.com/zjicmDarkWing/CVE-2021-32099)
+- [ibnuuby/CVE-2021-32099](https://github.com/ibnuuby/CVE-2021-32099)
 
 ### CVE-2021-32202 (2021-09-14)
 
@@ -3614,7 +3607,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [StandB/CVE-2021-44228-poc](https://github.com/StandB/CVE-2021-44228-poc)
 - [seamus-dev/CVE-2021-44228](https://github.com/seamus-dev/CVE-2021-44228)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
-- [alerithe/log4noshell](https://github.com/alerithe/log4noshell)
+- [suhtiva/log4noshell](https://github.com/suhtiva/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
 - [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
@@ -7099,6 +7092,7 @@ A flaw was found in the Linux kernel before 5.9-rc4. Memory corruption can be ex
 </code>
 
 - [cgwalters/cve-2020-14386](https://github.com/cgwalters/cve-2020-14386)
+- [artsking/linux-4.19.72_CVE-2020-14386](https://github.com/artsking/linux-4.19.72_CVE-2020-14386)
 
 ### CVE-2020-14644 (2020-07-15)
 
@@ -7300,6 +7294,14 @@ containerd is an industry-standard container runtime and is available as a daemo
 </code>
 
 - [nccgroup/abstractshimmer](https://github.com/nccgroup/abstractshimmer)
+
+### CVE-2020-15261 (2020-10-19)
+
+<code>
+On Windows the Veyon Service before version 4.4.2 contains an unquoted service path vulnerability, allowing locally authenticated users with administrative privileges to run malicious executables with LocalSystem privileges. Since Veyon users (both students and teachers) usually don't have administrative privileges, this vulnerability is only dangerous in anyway unsafe setups. The problem has been fixed in version 4.4.2. As a workaround, the exploitation of the vulnerability can be prevented by revoking administrative privileges from all potentially untrustworthy users.
+</code>
+
+- [yaoyao-cool/CVE-2020-15261](https://github.com/yaoyao-cool/CVE-2020-15261)
 
 ### CVE-2020-15349 (2020-11-16)
 
@@ -12170,6 +12172,7 @@ An issue was discovered in disable_priv_mode in shell.c in GNU Bash through 5.0 
 </code>
 
 - [M-ensimag/CVE-2019-18276](https://github.com/M-ensimag/CVE-2019-18276)
+- [SABI-Ensimag/CVE-2019-18276](https://github.com/SABI-Ensimag/CVE-2019-18276)
 
 ### CVE-2019-18371 (2019-10-23)
 
