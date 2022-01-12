@@ -2525,14 +2525,6 @@ Remote Desktop Client Remote Code Execution Vulnerability
 - [DarkSprings/CVE-2021-38666-poc](https://github.com/DarkSprings/CVE-2021-38666-poc)
 - [JaneMandy/CVE-2021-38666](https://github.com/JaneMandy/CVE-2021-38666)
 
-### CVE-2021-38699 (2021-08-15)
-
-<code>
-TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and /admin/system_logs.
-</code>
-
-- [HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS)
-
 ### CVE-2021-38704 (2021-09-07)
 
 <code>
@@ -3130,6 +3122,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [jhye0n/CVE-2021-41773](https://github.com/jhye0n/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [Ming119/CVE-2021-41773_Exploit](https://github.com/Ming119/CVE-2021-41773_Exploit)
+- [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 
 ### CVE-2021-41822
 - [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
