@@ -1323,7 +1323,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [srvaccount/CVE-2021-26855-PoC](https://github.com/srvaccount/CVE-2021-26855-PoC)
 - [h4x0r-dz/CVE-2021-26855](https://github.com/h4x0r-dz/CVE-2021-26855)
 - [alt3kx/CVE-2021-26855_PoC](https://github.com/alt3kx/CVE-2021-26855_PoC)
-- [achabahe/CVE-2021-26855](https://github.com/achabahe/CVE-2021-26855)
 - [raheel0x01/CVE-2021-26855](https://github.com/raheel0x01/CVE-2021-26855)
 - [hackerschoice/CVE-2021-26855](https://github.com/hackerschoice/CVE-2021-26855)
 - [SCS-Labs/HAFNIUM-Microsoft-Exchange-0day](https://github.com/SCS-Labs/HAFNIUM-Microsoft-Exchange-0day)
@@ -1348,6 +1347,9 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522)
 - [yaoxiaoangry3/Flangvik](https://github.com/yaoxiaoangry3/Flangvik)
 - [thau0x01/poc_proxylogon](https://github.com/thau0x01/poc_proxylogon)
+
+### CVE-2021-26856
+- [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
 
 ### CVE-2021-26857 (2021-03-02)
 
@@ -3924,7 +3926,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
 - [c4dr01d/CVE-2021-44228](https://github.com/c4dr01d/CVE-2021-44228)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
-- [adamtheapiguy/log4jshellPoC](https://github.com/adamtheapiguy/log4jshellPoC)
+- [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
