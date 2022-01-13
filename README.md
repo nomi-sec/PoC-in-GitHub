@@ -1189,6 +1189,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
+- [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
 
 ### CVE-2021-26085 (2021-08-02)
 
