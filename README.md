@@ -814,14 +814,6 @@ Spring Security versions 5.5.x prior to 5.5.1, 5.4.x prior to 5.4.7, 5.3.x prior
 
 - [mari6274/oauth-client-exploit](https://github.com/mari6274/oauth-client-exploit)
 
-### CVE-2021-22123 (2021-06-01)
-
-<code>
-An OS command injection vulnerability in FortiWeb's management interface 6.3.7 and below, 6.2.3 and below, 6.1.x, 6.0.x, 5.9.x may allow a remote authenticated attacker to execute arbitrary commands on the system via the SAML server configuration page.
-</code>
-
-- [murataydemir/CVE-2021-22123](https://github.com/murataydemir/CVE-2021-22123)
-
 ### CVE-2021-22192 (2021-03-24)
 
 <code>
@@ -899,6 +891,14 @@ A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in n
 </code>
 
 - [daletoniris/CVE-2021-22555-esc-priv](https://github.com/daletoniris/CVE-2021-22555-esc-priv)
+
+### CVE-2021-22569 (2022-01-07)
+
+<code>
+An issue in protobuf-java allowed the interleaving of com.google.protobuf.UnknownFieldSet fields in such a way that would be processed out of order. A small malicious payload can occupy the parser for several minutes by creating large numbers of short-lived objects that cause frequent, repeated pauses. We recommend upgrading libraries beyond the vulnerable versions.
+</code>
+
+- [Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java](https://github.com/Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java)
 
 ### CVE-2021-22893 (2021-04-23)
 
@@ -2368,7 +2368,6 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSystems Cobalt Strike 4.2 and 4.3. It allows remote attackers to crash the C2 server thread and block beacons' communication with it.
 </code>
 
-- [M-Kings/CVE-2021-36798](https://github.com/M-Kings/CVE-2021-36798)
 - [JamVayne/CobaltStrikeDos](https://github.com/JamVayne/CobaltStrikeDos)
 
 ### CVE-2021-36799 (2021-07-19)
@@ -2580,9 +2579,6 @@ XStream is a simple library to serialize objects to XML and back again. In affec
 </code>
 
 - [zwjjustdoit/Xstream-1.4.17](https://github.com/zwjjustdoit/Xstream-1.4.17)
-
-### CVE-2021-39287
-- [Fearless523/CVE-2021-39287-Stored-XSS](https://github.com/Fearless523/CVE-2021-39287-Stored-XSS)
 
 ### CVE-2021-39316 (2021-08-31)
 
@@ -3927,6 +3923,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
 - [c4dr01d/CVE-2021-44228](https://github.com/c4dr01d/CVE-2021-44228)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
+- [adamtheapiguy/log4jshellPoC](https://github.com/adamtheapiguy/log4jshellPoC)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -3993,6 +3990,7 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [lijiejie/log4j2_vul_local_scanner](https://github.com/lijiejie/log4j2_vul_local_scanner)
 - [CaptanMoss/Log4Shell-Sandbox-Signature](https://github.com/CaptanMoss/Log4Shell-Sandbox-Signature)
 - [Yuji-Kakeya/log4j-CVE-2021-45046-poc](https://github.com/Yuji-Kakeya/log4j-CVE-2021-45046-poc)
+- [taise-hub/log4j-poc](https://github.com/taise-hub/log4j-poc)
 
 ### CVE-2021-45105 (2021-12-18)
 
