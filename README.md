@@ -2581,14 +2581,6 @@ XStream is a simple library to serialize objects to XML and back again. In affec
 
 - [zwjjustdoit/Xstream-1.4.17](https://github.com/zwjjustdoit/Xstream-1.4.17)
 
-### CVE-2021-39273 (2021-08-19)
-
-<code>
-In XeroSecurity Sn1per 9.0 (free version), insecure permissions (0777) are set upon application execution, allowing an unprivileged user to modify the application, modules, and configuration files. This leads to arbitrary code execution with root privileges.
-</code>
-
-- [nikip72/CVE-2021-39273-CVE-2021-39274](https://github.com/nikip72/CVE-2021-39273-CVE-2021-39274)
-
 ### CVE-2021-39287
 - [Fearless523/CVE-2021-39287-Stored-XSS](https://github.com/Fearless523/CVE-2021-39287-Stored-XSS)
 
@@ -3934,6 +3926,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [cryptoforcecommand/log4j-cve-2021-44228](https://github.com/cryptoforcecommand/log4j-cve-2021-44228)
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
 - [c4dr01d/CVE-2021-44228](https://github.com/c4dr01d/CVE-2021-44228)
+- [jxerome/log4shell](https://github.com/jxerome/log4shell)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
