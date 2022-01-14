@@ -2227,7 +2227,6 @@ Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
-- [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
 - [Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare)
 - [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
 
@@ -3927,6 +3926,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [c4dr01d/CVE-2021-44228](https://github.com/c4dr01d/CVE-2021-44228)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
+- [eliadbz/log4shell](https://github.com/eliadbz/log4shell)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -20320,6 +20320,14 @@ The htmlParseComment function in HTMLparser.c in libxml2 allows attackers to obt
 </code>
 
 - [Karm/CVE-2015-8710](https://github.com/Karm/CVE-2015-8710)
+
+### CVE-2015-9235 (2018-05-29)
+
+<code>
+In jsonwebtoken node module before 4.2.2 it is possible for an attacker to bypass verification when a token digitally signed with an asymmetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family).
+</code>
+
+- [aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc)
 
 ### CVE-2015-9251 (2018-01-18)
 
