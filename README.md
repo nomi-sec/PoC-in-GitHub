@@ -1808,14 +1808,6 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
-### CVE-2021-30551 (2021-06-15)
-
-<code>
-Type confusion in V8 in Google Chrome prior to 91.0.4472.101 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-</code>
-
-- [xmzyshypnc/CVE-2021-30551](https://github.com/xmzyshypnc/CVE-2021-30551)
-
 ### CVE-2021-30573 (2021-08-03)
 
 <code>
@@ -2048,6 +2040,14 @@ Ampache is an open source web based audio/video streaming application and file m
 </code>
 
 - [dnr6419/CVE-2021-32644](https://github.com/dnr6419/CVE-2021-32644)
+
+### CVE-2021-32648 (2021-08-26)
+
+<code>
+octobercms in a CMS platform based on the Laravel PHP Framework. In affected versions of the october/system package an attacker can request an account password reset and then gain access to the account using a specially crafted request. The issue has been patched in Build 472 and v1.1.5.
+</code>
+
+- [Immersive-Labs-Sec/CVE-2021-32648](https://github.com/Immersive-Labs-Sec/CVE-2021-32648)
 
 ### CVE-2021-32724 (2021-09-09)
 
@@ -2287,14 +2287,6 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 </code>
 
 - [LeoBreaker1411/CVE-2021-35448](https://github.com/LeoBreaker1411/CVE-2021-35448)
-
-### CVE-2021-35464 (2021-07-22)
-
-<code>
-ForgeRock AM server before 7.0 has a Java deserialization vulnerability in the jato.pageSession parameter on multiple pages. The exploitation does not require authentication, and remote code execution can be triggered by sending a single crafted /ccversion/* request to the server. The vulnerability exists due to the usage of Sun ONE Application Framework (JATO) found in versions of Java 8 or earlier
-</code>
-
-- [rood8008/CVE-2021-35464](https://github.com/rood8008/CVE-2021-35464)
 
 ### CVE-2021-35492 (2021-10-05)
 
@@ -2575,14 +2567,6 @@ Affected versions of Atlassian Jira Service Management Server and Data Center al
 
 - [PetrusViet/CVE-2021-39115](https://github.com/PetrusViet/CVE-2021-39115)
 
-### CVE-2021-39141 (2021-08-23)
-
-<code>
-XStream is a simple library to serialize objects to XML and back again. In affected versions this vulnerability may allow a remote attacker to load and execute arbitrary code from a remote host only by manipulating the processed input stream. No user is affected, who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. XStream 1.4.18 uses no longer a blacklist by default, since it cannot be secured for general purpose.
-</code>
-
-- [zwjjustdoit/Xstream-1.4.17](https://github.com/zwjjustdoit/Xstream-1.4.17)
-
 ### CVE-2021-39316 (2021-08-31)
 
 <code>
@@ -2590,30 +2574,6 @@ The Zoomsounds plugin &lt;= 6.45 for WordPress allows arbitrary files, including
 </code>
 
 - [anggoroexe/Mass_CVE-2021-39316](https://github.com/anggoroexe/Mass_CVE-2021-39316)
-
-### CVE-2021-39377 (2021-09-01)
-
-<code>
-A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is being used as the application database. A malicious attacker can issue SQL commands to the MySQL (MariaDB) database through the index.php username parameter.
-</code>
-
-- [security-n/CVE-2021-39377](https://github.com/security-n/CVE-2021-39377)
-
-### CVE-2021-39378 (2021-09-01)
-
-<code>
-A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is being used as the application database. A malicious attacker can issue SQL commands to the MySQL (MariaDB) database through the NamesList.php str parameter.
-</code>
-
-- [security-n/CVE-2021-39378](https://github.com/security-n/CVE-2021-39378)
-
-### CVE-2021-39379 (2021-09-01)
-
-<code>
-A SQL Injection vulnerability exists in openSIS 8.0 when MySQL (MariaDB) is being used as the application database. A malicious attacker can issue SQL commands to the MySQL (MariaDB) database through the ResetUserInfo.php password_stn_id parameter.
-</code>
-
-- [security-n/CVE-2021-39379](https://github.com/security-n/CVE-2021-39379)
 
 ### CVE-2021-39433 (2021-10-04)
 
@@ -3926,6 +3886,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
 - [eliadbz/log4shell](https://github.com/eliadbz/log4shell)
+- [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -4031,6 +3992,38 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 
 ### CVE-2021-45383
 - [nt1dr/CVE-2021-45383](https://github.com/nt1dr/CVE-2021-45383)
+
+### CVE-2021-45744 (2022-01-06)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in bludit 3.13.1 via the TAGS section in login panel.
+</code>
+
+- [plsanu/CVE-2021-45744](https://github.com/plsanu/CVE-2021-45744)
+
+### CVE-2021-45745 (2022-01-06)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Bludit 3.13.1 via the About Plugin in login panel.
+</code>
+
+- [plsanu/CVE-2021-45745](https://github.com/plsanu/CVE-2021-45745)
+
+### CVE-2021-46067 (2022-01-06)
+
+<code>
+In Vehicle Service Management System 1.0 an attacker can steal the cookies leading to Full Account Takeover.
+</code>
+
+- [plsanu/CVE-2021-46067](https://github.com/plsanu/CVE-2021-46067)
+
+### CVE-2021-46068 (2022-01-06)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the My Account Section in login panel.
+</code>
+
+- [plsanu/CVE-2021-46068](https://github.com/plsanu/CVE-2021-46068)
 
 
 ## 2020
@@ -15183,6 +15176,7 @@ ReadXBMImage in coders/xbm.c in ImageMagick before 7.0.8-9 leaves data uninitial
 
 ### CVE-2018-16341
 - [mpgn/CVE-2018-16341](https://github.com/mpgn/CVE-2018-16341)
+- [puckiestyle/CVE-2018-16341](https://github.com/puckiestyle/CVE-2018-16341)
 
 ### CVE-2018-16370 (2018-09-02)
 
