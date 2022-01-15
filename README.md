@@ -34,7 +34,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
-- [mstxq17/CVE-2021-1675_RDL_LPE](https://github.com/mstxq17/CVE-2021-1675_RDL_LPE)
 - [ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare)
 - [Wra7h/SharpPN](https://github.com/Wra7h/SharpPN)
 - [OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare)
@@ -76,7 +75,6 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 A validation issue was addressed with improved input sanitization. This issue is fixed in tvOS 14.4, watchOS 7.3, iOS 14.4 and iPadOS 14.4. Processing a maliciously crafted URL may lead to arbitrary javascript code execution.
 </code>
 
-- [Ivanhoe76zzzz/itmsBlock](https://github.com/Ivanhoe76zzzz/itmsBlock)
 - [ChiChou/mistune-patch-backport](https://github.com/ChiChou/mistune-patch-backport)
 
 ### CVE-2021-1782 (2021-04-02)
@@ -474,9 +472,6 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 
 ### CVE-2021-6857
 - [zi0n8/CVE-2021-6857](https://github.com/zi0n8/CVE-2021-6857)
-
-### CVE-2021-6901
-- [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
 
 ### CVE-2021-20038 (2021-12-08)
 
@@ -1153,21 +1148,9 @@ A security issue was discovered in kube-apiserver that could allow node updates 
 In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
 </code>
 
-- [carlosevieira/CVE-2021-26084](https://github.com/carlosevieira/CVE-2021-26084)
-- [alt3kx/CVE-2021-26084_PoC](https://github.com/alt3kx/CVE-2021-26084_PoC)
-- [dinhbaouit/CVE-2021-26084](https://github.com/dinhbaouit/CVE-2021-26084)
-- [JKme/CVE-2021-26084](https://github.com/JKme/CVE-2021-26084)
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
-- [r0ckysec/CVE-2021-26084_Confluence](https://github.com/r0ckysec/CVE-2021-26084_Confluence)
 - [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
-- [0xf4n9x/CVE-2021-26084](https://github.com/0xf4n9x/CVE-2021-26084)
-- [Vulnmachines/Confluence_CVE-2021-26084](https://github.com/Vulnmachines/Confluence_CVE-2021-26084)
-- [Osyanina/westone-CVE-2021-26084-scanner](https://github.com/Osyanina/westone-CVE-2021-26084-scanner)
-- [b1gw00d/CVE-2021-26084](https://github.com/b1gw00d/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
-- [bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC)
-- [smallpiggy/cve-2021-26084-confluence](https://github.com/smallpiggy/cve-2021-26084-confluence)
-- [maskerTUI/CVE-2021-26084](https://github.com/maskerTUI/CVE-2021-26084)
 - [BeRserKerSec/CVE-2021-26084-Nuclei-template](https://github.com/BeRserKerSec/CVE-2021-26084-Nuclei-template)
 - [p0nymc1/CVE-2021-26084](https://github.com/p0nymc1/CVE-2021-26084)
 - [mr-r3bot/Confluence-CVE-2021-26084](https://github.com/mr-r3bot/Confluence-CVE-2021-26084)
@@ -1723,7 +1706,6 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [motikan2010/CVE-2021-29447](https://github.com/motikan2010/CVE-2021-29447)
 - [Vulnmachines/wordpress_cve-2021-29447](https://github.com/Vulnmachines/wordpress_cve-2021-29447)
 - [dnr6419/CVE-2021-29447](https://github.com/dnr6419/CVE-2021-29447)
-- [AssassinUKG/CVE-2021-29447](https://github.com/AssassinUKG/CVE-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
 
@@ -2065,14 +2047,6 @@ woocommerce-gutenberg-products-block is a feature plugin for WooCommerce Gutenbe
 
 - [andnorack/CVE-2021-32789](https://github.com/andnorack/CVE-2021-32789)
 
-### CVE-2021-32804 (2021-08-03)
-
-<code>
-The npm package &quot;tar&quot; (aka node-tar) before versions 6.1.1, 5.0.6, 4.4.14, and 3.3.2 has a arbitrary File Creation/Overwrite vulnerability due to insufficient absolute path sanitization. node-tar aims to prevent extraction of absolute file paths by turning absolute paths into relative paths when the `preservePaths` flag is not set to `true`. This is achieved by stripping the absolute path root from any absolute file paths contained in a tar file. For example `/home/user/.bashrc` would turn into `home/user/.bashrc`. This logic was insufficient when file paths contained repeated path roots such as `////home/user/.bashrc`. `node-tar` would only strip a single path root from such paths. When given an absolute file path with repeating path roots, the resulting path (e.g. `///home/user/.bashrc`) would still resolve to an absolute path, thus allowing arbitrary file creation and overwrite. This issue was addressed in releases 3.2.2, 4.4.14, 5.0.6 and 6.1.1. Users may work around this vulnerability without upgrading by creating a custom `onentry` method which sanitizes the `entry.path` or a `filter` method which removes entries with absolute paths. See referenced GitHub Advisory for details. Be aware of CVE-2021-32803 which fixes a similar bug in later versions of tar.
-</code>
-
-- [yamory/CVE-2021-32804](https://github.com/yamory/CVE-2021-32804)
-
 ### CVE-2021-32819 (2021-05-14)
 
 <code>
@@ -2152,14 +2126,6 @@ Microsoft Exchange Information Disclosure Vulnerability
 - [bhdresh/CVE-2021-33766](https://github.com/bhdresh/CVE-2021-33766)
 - [demossl/CVE-2021-33766-ProxyToken](https://github.com/demossl/CVE-2021-33766-ProxyToken)
 
-### CVE-2021-33831 (2021-09-07)
-
-<code>
-api/account/register in the TH Wildau COVID-19 Contact Tracing application through 2021-09-01 has Incorrect Access Control. An attacker can interfere with tracing of infection chains by creating 500 random users within 2500 seconds.
-</code>
-
-- [lanmarc77/CVE-2021-33831](https://github.com/lanmarc77/CVE-2021-33831)
-
 ### CVE-2021-33879 (2021-06-06)
 
 <code>
@@ -2167,14 +2133,6 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 </code>
 
 - [mmiszczyk/cve-2021-33879](https://github.com/mmiszczyk/cve-2021-33879)
-
-### CVE-2021-33909 (2021-07-20)
-
-<code>
-fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not properly restrict seq buffer allocations, leading to an integer overflow, an Out-of-bounds Write, and escalation to root by an unprivileged user, aka CID-8cae8cd89f05.
-</code>
-
-- [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
 ### CVE-2021-34045
 - [MzzdToT/CVE-2021-34045](https://github.com/MzzdToT/CVE-2021-34045)
@@ -2317,9 +2275,6 @@ A command injection vulnerability in the web server of some Hikvision product. D
 - [Aiminsun/CVE-2021-36260](https://github.com/Aiminsun/CVE-2021-36260)
 - [TaroballzChen/CVE-2021-36260-metasploit](https://github.com/TaroballzChen/CVE-2021-36260-metasploit)
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
-
-### CVE-2021-36394
-- [dinhbaouit/CVE-2021-36394](https://github.com/dinhbaouit/CVE-2021-36394)
 
 ### CVE-2021-36563 (2021-07-26)
 
@@ -2583,13 +2538,12 @@ A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive 
 
 - [PinkDraconian/CVE-2021-39433](https://github.com/PinkDraconian/CVE-2021-39433)
 
-### CVE-2021-39475
-- [W4RCL0UD/CVE-2021-39475](https://github.com/W4RCL0UD/CVE-2021-39475)
+### CVE-2021-39623 (2022-01-14)
 
-### CVE-2021-39476
-- [W4RCL0UD/CVE-2021-39476](https://github.com/W4RCL0UD/CVE-2021-39476)
+<code>
+In doRead of SimpleDecodingSource.cpp, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-9Android ID: A-194105348
+</code>
 
-### CVE-2021-39623
 - [marcinguy/CVE-2021-39623](https://github.com/marcinguy/CVE-2021-39623)
 
 ### CVE-2021-39685
@@ -2646,14 +2600,6 @@ An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can
 - [alikarimi999/CVE-2021-40346](https://github.com/alikarimi999/CVE-2021-40346)
 - [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 
-### CVE-2021-40352 (2021-09-01)
-
-<code>
-OpenEMR 6.0.0 has a pnotes_print.php?noteid= Insecure Direct Object Reference vulnerability via which an attacker can read the messages of all users.
-</code>
-
-- [allenenosh/CVE-2021-40352](https://github.com/allenenosh/CVE-2021-40352)
-
 ### CVE-2021-40353 (2021-08-31)
 
 <code>
@@ -2661,20 +2607,6 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 </code>
 
 - [5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353)
-
-### CVE-2021-40373 (2021-09-10)
-
-<code>
-playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the #tabs-information-page of core_main_config, and then executing that code via the index.php?app=main&amp;inc=core_welcome URI.
-</code>
-
-- [maikroservice/CVE-2021-40373](https://github.com/maikroservice/CVE-2021-40373)
-
-### CVE-2021-40374
-- [DCKento/CVE-2021-40374](https://github.com/DCKento/CVE-2021-40374)
-
-### CVE-2021-40375
-- [DCKento/CVE-2021-40375](https://github.com/DCKento/CVE-2021-40375)
 
 ### CVE-2021-40438 (2021-09-16)
 
@@ -3999,6 +3931,7 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 A Stored Cross Site Scripting (XSS) vulnerability exists in bludit 3.13.1 via the TAGS section in login panel.
 </code>
 
+- [plsanu/Bludit-3.13.1-TAGS-Field-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Bludit-3.13.1-TAGS-Field-Stored-Cross-Site-Scripting-XSS)
 - [plsanu/CVE-2021-45744](https://github.com/plsanu/CVE-2021-45744)
 
 ### CVE-2021-45745 (2022-01-06)
@@ -4007,6 +3940,7 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in bludit 3.13.1 via th
 A Stored Cross Site Scripting (XSS) vulnerability exists in Bludit 3.13.1 via the About Plugin in login panel.
 </code>
 
+- [plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS)
 - [plsanu/CVE-2021-45745](https://github.com/plsanu/CVE-2021-45745)
 
 ### CVE-2021-46067 (2022-01-06)
@@ -4015,6 +3949,7 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Bludit 3.13.1 via th
 In Vehicle Service Management System 1.0 an attacker can steal the cookies leading to Full Account Takeover.
 </code>
 
+- [plsanu/Vehicle-Service-Management-System-Multiple-Cookie-Stealing-Leads-to-Full-Account-Takeover](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cookie-Stealing-Leads-to-Full-Account-Takeover)
 - [plsanu/CVE-2021-46067](https://github.com/plsanu/CVE-2021-46067)
 
 ### CVE-2021-46068 (2022-01-06)
@@ -4023,7 +3958,107 @@ In Vehicle Service Management System 1.0 an attacker can steal the cookies leadi
 A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the My Account Section in login panel.
 </code>
 
+- [plsanu/Vehicle-Service-Management-System-MyAccount-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-MyAccount-Stored-Cross-Site-Scripting-XSS)
 - [plsanu/CVE-2021-46068](https://github.com/plsanu/CVE-2021-46068)
+
+### CVE-2021-46069 (2022-01-06)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Mechanic List Section in login panel.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46069](https://github.com/plsanu/CVE-2021-46069)
+
+### CVE-2021-46070 (2022-01-06)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Service Requests Section in login panel.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Service-Requests-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Service-Requests-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46070](https://github.com/plsanu/CVE-2021-46070)
+
+### CVE-2021-46071 (2022-01-06)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Category List Section in login panel.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46071](https://github.com/plsanu/CVE-2021-46071)
+
+### CVE-2021-46072 (2022-01-06)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Service List Section in login panel.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Service-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Service-List-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46072](https://github.com/plsanu/CVE-2021-46072)
+
+### CVE-2021-46073 (2022-01-06)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the User List Section in login panel.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-User-List-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-User-List-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46073](https://github.com/plsanu/CVE-2021-46073)
+
+### CVE-2021-46074 (2022-01-06)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the Settings Section in login panel.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Settings-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Settings-Stored-Cross-Site-Scripting-XSS)
+- [plsanu/CVE-2021-46074](https://github.com/plsanu/CVE-2021-46074)
+
+### CVE-2021-46075 (2022-01-06)
+
+<code>
+A Privilege Escalation vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. Staff account users can access the admin resources and perform CRUD Operations.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Multiple-Privilege-Escalation-Leads-to-CRUD-Operations](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Privilege-Escalation-Leads-to-CRUD-Operations)
+- [plsanu/CVE-2021-46075](https://github.com/plsanu/CVE-2021-46075)
+
+### CVE-2021-46076 (2022-01-06)
+
+<code>
+Sourcecodester Vehicle Service Management System 1.0 is vulnerable to File upload. An attacker can upload a malicious php file in multiple endpoints it leading to Code Execution.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution)
+- [plsanu/CVE-2021-46076](https://github.com/plsanu/CVE-2021-46076)
+
+### CVE-2021-46078 (2022-01-06)
+
+<code>
+An Unrestricted File Upload vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. A remote attacker can upload malicious files leading to a Stored Cross-Site Scripting vulnerability.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Stored-Cross-Site-Scripting](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Stored-Cross-Site-Scripting)
+- [plsanu/CVE-2021-46078](https://github.com/plsanu/CVE-2021-46078)
+
+### CVE-2021-46079 (2022-01-06)
+
+<code>
+An Unrestricted File Upload vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. A remote attacker can upload malicious files leading to Html Injection.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Html-Injection](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Html-Injection)
+- [plsanu/CVE-2021-46079](https://github.com/plsanu/CVE-2021-46079)
+
+### CVE-2021-46080 (2022-01-06)
+
+<code>
+A Cross Site Request Forgery (CSRF) vulnerability exists in Vehicle Service Management System 1.0. An successful CSRF attacks leads to Stored Cross Site Scripting Vulnerability.
+</code>
+
+- [plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS)
+- [plsanu/CVE-2021-46080](https://github.com/plsanu/CVE-2021-46080)
 
 
 ## 2020
