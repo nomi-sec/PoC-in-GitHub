@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2022
+### CVE-2022-0236
+- [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
+
 ### CVE-2022-21660
 - [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
 
@@ -5915,7 +5918,7 @@ The AUEPLauncher service in Radeon AMD User Experience Program Launcher through 
 Guangzhou 1GE ONU V2801RW 1.9.1-181203 through 2.9.0-181024 and V2804RGW 1.9.1-181203 through 2.9.0-181024 devices allow remote attackers to execute arbitrary OS commands via shell metacharacters in the boaform/admin/formPing Dest IP Address field.
 </code>
 
-- [qurbat/gpon](https://github.com/qurbat/gpon)
+- [qurbat/CVE-2020-8958](https://github.com/qurbat/CVE-2020-8958)
 - [Asjidkalam/CVE-2020-8958](https://github.com/Asjidkalam/CVE-2020-8958)
 
 ### CVE-2020-9006 (2020-02-17)
@@ -12031,6 +12034,14 @@ This vulnerability allows network-adjacent attackers to bypass authentication on
 
 - [vncloudsco/CVE-2019-17137](https://github.com/vncloudsco/CVE-2019-17137)
 
+### CVE-2019-17147 (2020-01-07)
+
+<code>
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of TP-LINK TL-WR841N routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web service, which listens on TCP port 80 by default. When parsing the Host request header, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length static buffer. An attacker can leverage this vulnerability to execute code in the context of the admin user. Was ZDI-CAN-8457.
+</code>
+
+- [DrmnSamoLiu/CVE-2019-17147_Practice_Material](https://github.com/DrmnSamoLiu/CVE-2019-17147_Practice_Material)
+
 ### CVE-2019-17195 (2019-10-15)
 
 <code>
@@ -16488,7 +16499,6 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 
 - [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
-- [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
 - [mthbernardes/strutszeiro](https://github.com/mthbernardes/strutszeiro)
 - [xsscx/cve-2017-5638](https://github.com/xsscx/cve-2017-5638)
