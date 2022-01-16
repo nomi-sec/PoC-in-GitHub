@@ -1159,7 +1159,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
 - [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
-- [BeRserKerSec/CVE-2021-26084-Nuclei-template](https://github.com/BeRserKerSec/CVE-2021-26084-Nuclei-template)
 - [p0nymc1/CVE-2021-26084](https://github.com/p0nymc1/CVE-2021-26084)
 - [mr-r3bot/Confluence-CVE-2021-26084](https://github.com/mr-r3bot/Confluence-CVE-2021-26084)
 - [Loneyers/CVE-2021-26084](https://github.com/Loneyers/CVE-2021-26084)
@@ -1599,6 +1598,7 @@ Hyper-V Remote Code Execution Vulnerability
 
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
 - [bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476)
+- [australeo/CVE-2021-28476](https://github.com/australeo/CVE-2021-28476)
 
 ### CVE-2021-28480 (2021-04-13)
 
@@ -3058,6 +3058,14 @@ In Visual Tools DVR VX16 4.2.28.0, an unauthenticated attacker can achieve remot
 </code>
 
 - [adubaldo/CVE-2021-42071](https://github.com/adubaldo/CVE-2021-42071)
+
+### CVE-2021-42237 (2021-11-05)
+
+<code>
+Sitecore XP 7.5 Initial Release to Sitecore XP 8.2 Update-7 is vulnerable to an insecure deserialization attack where it is possible to achieve remote command execution on the machine. No authentication or special configuration is required to exploit this vulnerability.
+</code>
+
+- [PinkDev1/CVE-2021-42237](https://github.com/PinkDev1/CVE-2021-42237)
 
 ### CVE-2021-42261 (2021-10-19)
 
@@ -13766,7 +13774,7 @@ VMware NSX SD-WAN Edge by VeloCloud prior to version 3.1.0 contains a command in
 VMware ESXi 6.7 without ESXi670-201811401-BG and VMware ESXi 6.5 without ESXi650-201811301-BG, VMware ESXi 6.0 without ESXi600-201811401-BG, VMware Workstation 15, VMware Workstation 14.1.3 or below, VMware Fusion 11, VMware Fusion 10.1.3 or below contain uninitialized stack memory usage in the vmxnet3 virtual network adapter which may allow a guest to execute code on the host.
 </code>
 
-- [redteamnow/vmxnet3Hunter](https://github.com/redteamnow/vmxnet3Hunter)
+- [siovador/vmxnet3Hunter](https://github.com/siovador/vmxnet3Hunter)
 
 ### CVE-2018-7171 (2018-03-30)
 
