@@ -3,6 +3,7 @@
 ## 2022
 ### CVE-2022-0236
 - [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
+- [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
 ### CVE-2022-21660
 - [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
@@ -15,6 +16,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
 - [antx-code/CVE-2022-21907](https://github.com/antx-code/CVE-2022-21907)
+- [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 
 
 ## 2021
@@ -202,7 +204,6 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 - [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
 - [givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019)
-- [qiezi-maozi/CVE-2021-3019-Lanproxy](https://github.com/qiezi-maozi/CVE-2021-3019-Lanproxy)
 
 ### CVE-2021-3122 (2021-02-07)
 
@@ -1164,8 +1165,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
 - [p0nymc1/CVE-2021-26084](https://github.com/p0nymc1/CVE-2021-26084)
-- [mr-r3bot/Confluence-CVE-2021-26084](https://github.com/mr-r3bot/Confluence-CVE-2021-26084)
-- [Loneyers/CVE-2021-26084](https://github.com/Loneyers/CVE-2021-26084)
 - [Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084)
 - [march0s1as/CVE-2021-26084](https://github.com/march0s1as/CVE-2021-26084)
 - [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
@@ -2173,6 +2172,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
+- [jrgdiaz/ProxyShell-CVE-2021-34473](https://github.com/jrgdiaz/ProxyShell-CVE-2021-34473)
 
 ### CVE-2021-34486 (2021-08-12)
 
@@ -3306,6 +3306,15 @@ An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16.
 
 - [DarkSprings/CVE-2021-43267-POC](https://github.com/DarkSprings/CVE-2021-43267-POC)
 - [ohnonoyesyes/CVE-2021-43267](https://github.com/ohnonoyesyes/CVE-2021-43267)
+
+### CVE-2021-43297 (2022-01-10)
+
+<code>
+A deserialization vulnerability existed in dubbo hessian-lite 3.2.11 and its earlier versions, which could lead to malicious code execution. Most Dubbo users use Hessian2 as the default serialization/deserialization protocol, during Hessian catch unexpected exceptions, Hessian will log out some imformation for users, which may cause remote command execution. This issue affects Apache Dubbo Apache Dubbo 2.6.x versions prior to 2.6.12; Apache Dubbo 2.7.x versions prior to 2.7.15; Apache Dubbo 3.0.x versions prior to 3.0.5.
+</code>
+
+- [bitterzzZZ/CVE-2021-43297-POC](https://github.com/bitterzzZZ/CVE-2021-43297-POC)
+- [longofo/Apache-Dubbo-Hessian2-CVE-2021-43297](https://github.com/longofo/Apache-Dubbo-Hessian2-CVE-2021-43297)
 
 ### CVE-2021-43326 (2021-12-15)
 
@@ -8743,6 +8752,9 @@ The dashboard gadgets preference resource of the Atlassian gadgets plugin used i
 </code>
 
 - [f4rber/CVE-2020-36287](https://github.com/f4rber/CVE-2020-36287)
+
+### CVE-2020-44228
+- [arnaudluti/PS-CVE-2020-44228](https://github.com/arnaudluti/PS-CVE-2020-44228)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
