@@ -8961,7 +8961,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [RickGeex/msf-module-CVE-2019-0708](https://github.com/RickGeex/msf-module-CVE-2019-0708)
 - [wqsemc/CVE-2019-0708](https://github.com/wqsemc/CVE-2019-0708)
 - [Micr067/CVE-2019-0708RDP-MSF](https://github.com/Micr067/CVE-2019-0708RDP-MSF)
-- [cpkkcb/CVE-2019-0708-BlueKeep](https://github.com/cpkkcb/CVE-2019-0708-BlueKeep)
 - [FrostsaberX/CVE-2019-0708](https://github.com/FrostsaberX/CVE-2019-0708)
 - [0x6b7966/CVE-2019-0708-RCE](https://github.com/0x6b7966/CVE-2019-0708-RCE)
 - [qing-root/CVE-2019-0708-EXP-MSF-](https://github.com/qing-root/CVE-2019-0708-EXP-MSF-)
@@ -13538,7 +13537,7 @@ An issue was discovered in Mikrotik RouterOS. Crafting a packet that has a size 
 An issue was discovered in GitStack through 2.3.10. User controlled input is not sufficiently filtered, allowing an unauthenticated attacker to add a user to the server via the username and password fields to the rest/user/ URI.
 </code>
 
-- [cisp/GitStackRCE](https://github.com/cisp/GitStackRCE)
+- [b0bac/GitStackRCE](https://github.com/b0bac/GitStackRCE)
 - [YagamiiLight/Cerberus](https://github.com/YagamiiLight/Cerberus)
 
 ### CVE-2018-6065 (2018-11-14)
@@ -19003,6 +19002,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
 - [arttnba3/CVE-2016-5195](https://github.com/arttnba3/CVE-2016-5195)
+- [KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability)
 
 ### CVE-2016-5345 (2018-01-22)
 
