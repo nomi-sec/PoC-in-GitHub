@@ -14,6 +14,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 </code>
 
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
+- [antx-code/CVE-2022-21907](https://github.com/antx-code/CVE-2022-21907)
 
 
 ## 2021
@@ -7126,6 +7127,7 @@ A flaw was found in the Linux kernel before 5.9-rc4. Memory corruption can be ex
 
 - [cgwalters/cve-2020-14386](https://github.com/cgwalters/cve-2020-14386)
 - [artsking/linux-4.19.72_CVE-2020-14386](https://github.com/artsking/linux-4.19.72_CVE-2020-14386)
+- [artsking/linux-4.19.72_CVE-2020-14386_extrapatch](https://github.com/artsking/linux-4.19.72_CVE-2020-14386_extrapatch)
 
 ### CVE-2020-14644 (2020-07-15)
 
