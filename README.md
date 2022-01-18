@@ -479,6 +479,7 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 
 ### CVE-2021-4428
 - [CERT-hr/Log4Shell](https://github.com/CERT-hr/Log4Shell)
+- [z3bul0n/log4jtest](https://github.com/z3bul0n/log4jtest)
 
 ### CVE-2021-4438
 - [longnguyen-2k/log4j](https://github.com/longnguyen-2k/log4j)
@@ -1165,7 +1166,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
 - [p0nymc1/CVE-2021-26084](https://github.com/p0nymc1/CVE-2021-26084)
-- [Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084)
 - [march0s1as/CVE-2021-26084](https://github.com/march0s1as/CVE-2021-26084)
 - [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
 - [rootsmadi/CVE-2021-26084](https://github.com/rootsmadi/CVE-2021-26084)
