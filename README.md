@@ -25,6 +25,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
 - [antx-code/CVE-2022-21907](https://github.com/antx-code/CVE-2022-21907)
 - [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
+- [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 
 
 ## 2021
@@ -1085,6 +1086,14 @@ The Support Board WordPress plugin before 3.3.4 does not escape multiple POST pa
 
 - [itsjeffersonli/CVE-2021-24741](https://github.com/itsjeffersonli/CVE-2021-24741)
 
+### CVE-2021-24750 (2021-12-21)
+
+<code>
+The WP Visitor Statistics (Real Time Traffic) WordPress plugin before 4.8 does not properly sanitise and escape the refUrl in the refDetails AJAX action, available to any authenticated user, which could allow users with a role as low as subscriber to perform SQL injection attacks
+</code>
+
+- [fimtow/CVE-2021-24750](https://github.com/fimtow/CVE-2021-24750)
+
 ### CVE-2021-24807 (2021-11-08)
 
 <code>
@@ -1173,7 +1182,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
 - [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
-- [p0nymc1/CVE-2021-26084](https://github.com/p0nymc1/CVE-2021-26084)
 - [march0s1as/CVE-2021-26084](https://github.com/march0s1as/CVE-2021-26084)
 - [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
 - [rootsmadi/CVE-2021-26084](https://github.com/rootsmadi/CVE-2021-26084)
@@ -1628,14 +1636,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 - [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
 - [timb-machine-mirrors/CVE-2021-28482](https://github.com/timb-machine-mirrors/CVE-2021-28482)
-
-### CVE-2021-28663 (2021-05-10)
-
-<code>
-The Arm Mali GPU kernel driver allows privilege escalation or information disclosure because GPU memory operations are mishandled, leading to a use-after-free. This affects Bifrost r0p0 through r28p0 before r29p0, Valhall r19p0 through r28p0 before r29p0, and Midgard r4p0 through r30p0.
-</code>
-
-- [lntrx/CVE-2021-28663](https://github.com/lntrx/CVE-2021-28663)
 
 ### CVE-2021-28750
 - [PfalzPrince/CVE-2021-28750-site](https://github.com/PfalzPrince/CVE-2021-28750-site)
@@ -2207,6 +2207,9 @@ Windows Print Spooler Remote Code Execution Vulnerability
 
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
+
+### CVE-2021-34600
+- [x41sec/CVE-2021-34600](https://github.com/x41sec/CVE-2021-34600)
 
 ### CVE-2021-34646 (2021-08-30)
 
