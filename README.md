@@ -676,6 +676,7 @@ Grav Admin Plugin is an HTML user interface that provides a way to configure Gra
 </code>
 
 - [CsEnox/CVE-2021-21425](https://github.com/CsEnox/CVE-2021-21425)
+- [frknktlca/GravCMS_Nmap_Script](https://github.com/frknktlca/GravCMS_Nmap_Script)
 
 ### CVE-2021-21551 (2021-05-04)
 
@@ -1171,6 +1172,14 @@ A security issue was discovered in kube-apiserver that could allow node updates 
 </code>
 
 - [darryk10/CVE-2021-25735](https://github.com/darryk10/CVE-2021-25735)
+
+### CVE-2021-25741 (2021-09-20)
+
+<code>
+A security issue was discovered in Kubernetes where a user may be able to create a container with subpath volume mounts to access files &amp; directories outside of the volume, including on the host filesystem.
+</code>
+
+- [Betep0k/CVE-2021-25741](https://github.com/Betep0k/CVE-2021-25741)
 
 ### CVE-2021-26084 (2021-08-30)
 
@@ -2504,30 +2513,6 @@ Remote Desktop Client Remote Code Execution Vulnerability
 - [DarkSprings/CVE-2021-38666-poc](https://github.com/DarkSprings/CVE-2021-38666-poc)
 - [JaneMandy/CVE-2021-38666](https://github.com/JaneMandy/CVE-2021-38666)
 
-### CVE-2021-38705 (2021-09-07)
-
-<code>
-ClinicCases 7.3.3 is affected by Cross-Site Request Forgery (CSRF). A successful attack would consist of an authenticated user following a malicious link, resulting in arbitrary actions being carried out with the privilege level of the targeted user. This can be exploited to create a secondary administrator account for the attacker.
-</code>
-
-- [sudonoodle/CVE-2021-38705](https://github.com/sudonoodle/CVE-2021-38705)
-
-### CVE-2021-38706 (2021-09-07)
-
-<code>
-messages_load.php in ClinicCases 7.3.3 suffers from a blind SQL injection vulnerability, which allows low-privileged attackers to execute arbitrary SQL commands through a vulnerable parameter.
-</code>
-
-- [sudonoodle/CVE-2021-38706](https://github.com/sudonoodle/CVE-2021-38706)
-
-### CVE-2021-38707 (2021-09-07)
-
-<code>
-Persistent cross-site scripting (XSS) vulnerabilities in ClinicCases 7.3.3 allow low-privileged attackers to introduce arbitrary JavaScript to account parameters. The XSS payloads will execute in the browser of any user who views the relevant content. This can result in account takeover via session token theft.
-</code>
-
-- [sudonoodle/CVE-2021-38707](https://github.com/sudonoodle/CVE-2021-38707)
-
 ### CVE-2021-38759 (2021-12-07)
 
 <code>
@@ -2810,6 +2795,7 @@ Metabase is an open source data analytics platform. In affected versions a secur
 - [TheLastVvV/CVE-2021-41277](https://github.com/TheLastVvV/CVE-2021-41277)
 - [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
 - [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
+- [frknktlca/Metabase_Nmap_Script](https://github.com/frknktlca/Metabase_Nmap_Script)
 
 ### CVE-2021-41349 (2021-11-09)
 
@@ -3824,7 +3810,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Ravid-CheckMarx/CVE-2021-44228-Apache-Log4j-Rce-main](https://github.com/Ravid-CheckMarx/CVE-2021-44228-Apache-Log4j-Rce-main)
 - [yesspider-hacker/log4j-payload-generator](https://github.com/yesspider-hacker/log4j-payload-generator)
 - [LinkMJB/log4shell_scanner](https://github.com/LinkMJB/log4shell_scanner)
-- [tslenter/RS4LOGJ-CVE-2021-44228](https://github.com/tslenter/RS4LOGJ-CVE-2021-44228)
 - [a5tra/log4j-exploit-builder](https://github.com/a5tra/log4j-exploit-builder)
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
 - [romanutti/log4shell-vulnerable-app](https://github.com/romanutti/log4shell-vulnerable-app)
@@ -3845,6 +3830,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [c4dr01d/CVE-2021-44228](https://github.com/c4dr01d/CVE-2021-44228)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
+- [atlassion/RS4LOGJ-CVE-2021-44228](https://github.com/atlassion/RS4LOGJ-CVE-2021-44228)
 - [eliadbz/log4shell](https://github.com/eliadbz/log4shell)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
@@ -15576,6 +15562,14 @@ Gogs 0.11.66 allows remote code execution because it does not properly validate 
 </code>
 
 - [RyouYoo/CVE-2018-18925](https://github.com/RyouYoo/CVE-2018-18925)
+
+### CVE-2018-18955 (2018-11-16)
+
+<code>
+In the Linux kernel 4.15.x through 4.19.x before 4.19.2, map_write() in kernel/user_namespace.c allows privilege escalation because it mishandles nested user namespaces with more than 5 UID or GID ranges. A user who has CAP_SYS_ADMIN in an affected user namespace can bypass access controls on resources outside the namespace, as demonstrated by reading /etc/shadow. This occurs because an ID transformation takes place properly for the namespaced-to-kernel direction but not for the kernel-to-namespaced direction.
+</code>
+
+- [scheatkode/CVE-2018-18955](https://github.com/scheatkode/CVE-2018-18955)
 
 ### CVE-2018-19126 (2018-11-09)
 
