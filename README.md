@@ -97,14 +97,6 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
 - [BeneficialCode/CVE-2021-1732](https://github.com/BeneficialCode/CVE-2021-1732)
 
-### CVE-2021-1748 (2021-04-02)
-
-<code>
-A validation issue was addressed with improved input sanitization. This issue is fixed in tvOS 14.4, watchOS 7.3, iOS 14.4 and iPadOS 14.4. Processing a maliciously crafted URL may lead to arbitrary javascript code execution.
-</code>
-
-- [ChiChou/mistune-patch-backport](https://github.com/ChiChou/mistune-patch-backport)
-
 ### CVE-2021-1782 (2021-04-02)
 
 <code>
@@ -493,7 +485,6 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 
 ### CVE-2021-4428
 - [CERT-hr/Log4Shell](https://github.com/CERT-hr/Log4Shell)
-- [z3bul0n/log4jtest](https://github.com/z3bul0n/log4jtest)
 
 ### CVE-2021-4438
 - [longnguyen-2k/log4j](https://github.com/longnguyen-2k/log4j)
@@ -694,7 +685,6 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551)
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
-- [ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -895,6 +885,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [pizza-power/Golang-CVE-2021-22205-POC](https://github.com/pizza-power/Golang-CVE-2021-22205-POC)
 - [DIVD-NL/GitLab-cve-2021-22205-nse](https://github.com/DIVD-NL/GitLab-cve-2021-22205-nse)
 - [gardenWhy/Gitlab-CVE-2021-22205](https://github.com/gardenWhy/Gitlab-CVE-2021-22205)
+- [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -2014,6 +2005,7 @@ A SQL injection vulnerability in the pandora_console component of Artica Pandora
 
 - [zjicmDarkWing/CVE-2021-32099](https://github.com/zjicmDarkWing/CVE-2021-32099)
 - [ibnuuby/CVE-2021-32099](https://github.com/ibnuuby/CVE-2021-32099)
+- [nikn0laty/CVE-2021-32099_exploit](https://github.com/nikn0laty/CVE-2021-32099_exploit)
 
 ### CVE-2021-32202 (2021-09-14)
 
@@ -2628,14 +2620,6 @@ An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can
 - [alikarimi999/CVE-2021-40346](https://github.com/alikarimi999/CVE-2021-40346)
 - [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 
-### CVE-2021-40353 (2021-08-31)
-
-<code>
-A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or MariaDB is used as the application database. An attacker can then issue the SQL command through the index.php USERNAME parameter. NOTE: this issue may exist because of an incomplete fix for CVE-2020-6637.
-</code>
-
-- [5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353)
-
 ### CVE-2021-40438 (2021-09-16)
 
 <code>
@@ -2701,14 +2685,6 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 - [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
-
-### CVE-2021-40492 (2021-09-03)
-
-<code>
-A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibbon application that allows for arbitrary execution of JavaScript (gibbonCourseClassID, gibbonPersonID, subpage, currentDate, or allStudents to index.php).
-</code>
-
-- [5qu1n7/CVE-2021-40492](https://github.com/5qu1n7/CVE-2021-40492)
 
 ### CVE-2021-40512
 - [war4uthor/CVE-2021-40512](https://github.com/war4uthor/CVE-2021-40512)
@@ -3430,6 +3406,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [light-Life/CVE-2021-43798](https://github.com/light-Life/CVE-2021-43798)
 - [rnsss/CVE-2021-43798-poc](https://github.com/rnsss/CVE-2021-43798-poc)
 - [rodpwn/CVE-2021-43798-mass_scanner](https://github.com/rodpwn/CVE-2021-43798-mass_scanner)
+- [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 
 ### CVE-2021-43799
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
@@ -3869,9 +3846,18 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [eliadbz/log4shell](https://github.com/eliadbz/log4shell)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
+- [ColdFusionX/CVE-2021-44228-Log4Shell-POC](https://github.com/ColdFusionX/CVE-2021-44228-Log4Shell-POC)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
+
+### CVE-2021-44428 (2021-11-29)
+
+<code>
+Pinkie 2.15 allows remote attackers to cause a denial of service (daemon crash) via a TFTP read (RRQ) request, aka opcode 1.
+</code>
+
+- [z3bul0n/log4jtest](https://github.com/z3bul0n/log4jtest)
 
 ### CVE-2021-44659 (2021-12-22)
 
@@ -22391,6 +22377,7 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 - [1nf1n17yk1ng/CVE-2009-2265](https://github.com/1nf1n17yk1ng/CVE-2009-2265)
+- [0zvxr/CVE-2009-2265](https://github.com/0zvxr/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
