@@ -4,6 +4,14 @@
 ### CVE-2022-0185
 - [Crusaders-of-Rust/CVE-2022-0185](https://github.com/Crusaders-of-Rust/CVE-2022-0185)
 
+### CVE-2022-0219 (2022-01-20)
+
+<code>
+Improper Restriction of XML External Entity Reference in GitHub repository skylot/jadx prior to 1.3.2.
+</code>
+
+- [Haxatron/CVE-2022-0219](https://github.com/Haxatron/CVE-2022-0219)
+
 ### CVE-2022-0236 (2022-01-18)
 
 <code>
@@ -2231,7 +2239,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
 
-### CVE-2021-34600 (-)
+### CVE-2021-34600 (2022-01-20)
 
 <code>
 Telenot CompasX versions prior to 32.0 use a weak seed for random number generation leading to predictable AES keys used in the NFC tags used for authorization of users.
@@ -5143,7 +5151,6 @@ Waitress version 1.4.2 allows a DOS attack When waitress receives a header that 
 GLPI before before version 9.4.6 has a vulnerability involving a default encryption key. GLPIKEY is public and is used on every instance. This means anyone can decrypt sensitive data stored using this key. It is possible to change the key before installing GLPI. But on existing instances, data must be reencrypted with the new key. Problem is we can not know which columns or rows in the database are using that; espcially from plugins. Changing the key without updating data would lend in bad password sent from glpi; but storing them again from the UI will work.
 </code>
 
-- [indevi0us/CVE-2020-5248](https://github.com/indevi0us/CVE-2020-5248)
 - [Mkway/CVE-2020-5248](https://github.com/Mkway/CVE-2020-5248)
 
 ### CVE-2020-5250 (2020-03-05)
@@ -7672,7 +7679,6 @@ While investigating bug 64830 it was discovered that Apache Tomcat 10.0.0-M1 to 
 Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution. Affected software : Apache Struts 2.0.0 - Struts 2.5.25.
 </code>
 
-- [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
 - [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
@@ -7680,22 +7686,6 @@ Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may 
 - [CyborgSecurity/CVE-2020-17530](https://github.com/CyborgSecurity/CVE-2020-17530)
 - [uzzzval/CVE-2020-17530](https://github.com/uzzzval/CVE-2020-17530)
 - [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
-
-### CVE-2020-17531 (2020-12-08)
-
-<code>
-A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapestry 4 will attempt to deserialize the &quot;sp&quot; parameter even before invoking the page's validate method, leading to deserialization without authentication. Apache Tapestry 4 reached end of life in 2008 and no update to address this issue will be released. Apache Tapestry 5 versions are not vulnerable to this issue. Users of Apache Tapestry 4 should upgrade to the latest Apache Tapestry 5 version.
-</code>
-
-- [154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531)
-
-### CVE-2020-17533 (2020-12-29)
-
-<code>
-Apache Accumulo versions 1.5.0 through 1.10.0 and version 2.0.0 do not properly check the return value of some policy enforcement functions before permitting an authenticated user to perform certain administrative operations. Specifically, the return values of the 'canFlush' and 'canPerformSystemActions' security functions are not checked in some instances, therefore allowing an authenticated user with insufficient permissions to perform the following actions: flushing a table, shutting down Accumulo or an individual tablet server, and setting or removing system-wide Accumulo configuration properties.
-</code>
-
-- [pazeray/CVE-2020-17533](https://github.com/pazeray/CVE-2020-17533)
 
 ### CVE-2020-21224 (2021-02-22)
 
@@ -12996,6 +12986,14 @@ The PortletV3AnnotatedDemo Multipart Portlet war file code provided in Apache Pl
 </code>
 
 - [JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306](https://github.com/JJSO12/Apache-Pluto-3.0.0--CVE-2018-1306)
+
+### CVE-2018-1311 (2019-12-18)
+
+<code>
+The Apache Xerces-C 3.0.0 to 3.2.3 XML parser contains a use-after-free error triggered during the scanning of external DTDs. This flaw has not been addressed in the maintained version of the library and has no current mitigation other than to disable DTD processing. This can be accomplished via the DOM using a standard parser feature, or via SAX using the XERCES_DISABLE_DTD environment variable.
+</code>
+
+- [johnjamesmccann/xerces-3.2.3-DTD-hotfix](https://github.com/johnjamesmccann/xerces-3.2.3-DTD-hotfix)
 
 ### CVE-2018-1313 (2018-05-07)
 
