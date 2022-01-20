@@ -1190,8 +1190,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
 - [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
-- [march0s1as/CVE-2021-26084](https://github.com/march0s1as/CVE-2021-26084)
-- [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
 - [rootsmadi/CVE-2021-26084](https://github.com/rootsmadi/CVE-2021-26084)
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
@@ -2065,6 +2063,7 @@ octobercms in a CMS platform based on the Laravel PHP Framework. In affected ver
 </code>
 
 - [Immersive-Labs-Sec/CVE-2021-32648](https://github.com/Immersive-Labs-Sec/CVE-2021-32648)
+- [daftspunk/CVE-2021-32648](https://github.com/daftspunk/CVE-2021-32648)
 
 ### CVE-2021-32724 (2021-09-09)
 
@@ -2081,6 +2080,14 @@ woocommerce-gutenberg-products-block is a feature plugin for WooCommerce Gutenbe
 </code>
 
 - [andnorack/CVE-2021-32789](https://github.com/andnorack/CVE-2021-32789)
+
+### CVE-2021-32790 (2021-07-26)
+
+<code>
+Woocommerce is an open source eCommerce plugin for WordPress. An SQL injection vulnerability impacts all WooCommerce sites running the WooCommerce plugin between version 3.3.0 and 3.3.6. Malicious actors (already) having admin access, or API keys to the WooCommerce site can exploit vulnerable endpoints of `/wp-json/wc/v3/webhooks`, `/wp-json/wc/v2/webhooks` and other webhook listing API. Read-only SQL queries can be executed using this exploit, while data will not be returned, by carefully crafting `search` parameter information can be disclosed using timing and related attacks. Version 3.3.6 is the earliest version of Woocommerce with a patch for this vulnerability. There are no known workarounds other than upgrading.
+</code>
+
+- [LazyTitan33/CVE-2021-32790-PoC](https://github.com/LazyTitan33/CVE-2021-32790-PoC)
 
 ### CVE-2021-32819 (2021-05-14)
 
@@ -2224,16 +2231,13 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
 
-### CVE-2021-34600
-- [x41sec/CVE-2021-34600](https://github.com/x41sec/CVE-2021-34600)
-
-### CVE-2021-34646 (2021-08-30)
+### CVE-2021-34600 (-)
 
 <code>
-Versions up to, and including, 5.4.3, of the Booster for WooCommerce WordPress plugin are vulnerable to authentication bypass via the process_email_verification function due to a random token generation weakness in the reset_and_mail_activation_link function found in the ~/includes/class-wcj-emails-verification.php file. This allows attackers to impersonate users and trigger an email address verification for arbitrary accounts, including administrative accounts, and automatically be logged in as that user, including any site administrators. This requires the Email Verification module to be active in the plugin and the Login User After Successful Verification setting to be enabled, which it is by default.
+Telenot CompasX versions prior to 32.0 use a weak seed for random number generation leading to predictable AES keys used in the NFC tags used for authorization of users.
 </code>
 
-- [motikan2010/CVE-2021-34646](https://github.com/motikan2010/CVE-2021-34646)
+- [x41sec/CVE-2021-34600](https://github.com/x41sec/CVE-2021-34600)
 
 ### CVE-2021-34730 (2021-08-18)
 
@@ -2511,14 +2515,6 @@ Remote Desktop Client Remote Code Execution Vulnerability
 
 - [DarkSprings/CVE-2021-38666-poc](https://github.com/DarkSprings/CVE-2021-38666-poc)
 - [JaneMandy/CVE-2021-38666](https://github.com/JaneMandy/CVE-2021-38666)
-
-### CVE-2021-38706 (2021-09-07)
-
-<code>
-messages_load.php in ClinicCases 7.3.3 suffers from a blind SQL injection vulnerability, which allows low-privileged attackers to execute arbitrary SQL commands through a vulnerable parameter.
-</code>
-
-- [sudonoodle/CVE-2021-38706](https://github.com/sudonoodle/CVE-2021-38706)
 
 ### CVE-2021-38759 (2021-12-07)
 
@@ -3843,6 +3839,8 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [arnaudluti/PS-CVE-2021-44228](https://github.com/arnaudluti/PS-CVE-2021-44228)
 - [ColdFusionX/CVE-2021-44228-Log4Shell-POC](https://github.com/ColdFusionX/CVE-2021-44228-Log4Shell-POC)
+- [robrankin/cve-2021-44228-waf-tests](https://github.com/robrankin/cve-2021-44228-waf-tests)
+- [semelnyk/CVE-2021-44228-ScannersListFromRF](https://github.com/semelnyk/CVE-2021-44228-ScannersListFromRF)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
