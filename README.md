@@ -2025,7 +2025,6 @@ A SQL injection vulnerability in the pandora_console component of Artica Pandora
 
 - [zjicmDarkWing/CVE-2021-32099](https://github.com/zjicmDarkWing/CVE-2021-32099)
 - [ibnuuby/CVE-2021-32099](https://github.com/ibnuuby/CVE-2021-32099)
-- [nikn0laty/CVE-2021-32099_exploit](https://github.com/nikn0laty/CVE-2021-32099_exploit)
 
 ### CVE-2021-32202 (2021-09-14)
 
@@ -2512,6 +2511,14 @@ Remote Desktop Client Remote Code Execution Vulnerability
 
 - [DarkSprings/CVE-2021-38666-poc](https://github.com/DarkSprings/CVE-2021-38666-poc)
 - [JaneMandy/CVE-2021-38666](https://github.com/JaneMandy/CVE-2021-38666)
+
+### CVE-2021-38706 (2021-09-07)
+
+<code>
+messages_load.php in ClinicCases 7.3.3 suffers from a blind SQL injection vulnerability, which allows low-privileged attackers to execute arbitrary SQL commands through a vulnerable parameter.
+</code>
+
+- [sudonoodle/CVE-2021-38706](https://github.com/sudonoodle/CVE-2021-38706)
 
 ### CVE-2021-38759 (2021-12-07)
 
