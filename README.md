@@ -95,7 +95,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare)
 - [Wra7h/SharpPN](https://github.com/Wra7h/SharpPN)
 - [OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare)
-- [fumamatar/NimNightmare](https://github.com/fumamatar/NimNightmare)
+- [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -2100,14 +2100,6 @@ check-spelling is a github action which provides CI spell checking. In affected 
 
 - [MaximeSchlegel/CVE-2021-32724-Target](https://github.com/MaximeSchlegel/CVE-2021-32724-Target)
 
-### CVE-2021-32789 (2021-07-26)
-
-<code>
-woocommerce-gutenberg-products-block is a feature plugin for WooCommerce Gutenberg Blocks. An SQL injection vulnerability impacts all WooCommerce sites running the WooCommerce Blocks feature plugin between version 2.5.0 and prior to version 2.5.16. Via a carefully crafted URL, an exploit can be executed against the `wc/store/products/collection-data?calculate_attribute_counts[][taxonomy]` endpoint that allows the execution of a read only sql query. There are patches for many versions of this package, starting with version 2.5.16. There are no known workarounds aside from upgrading.
-</code>
-
-- [andnorack/CVE-2021-32789](https://github.com/andnorack/CVE-2021-32789)
-
 ### CVE-2021-32790 (2021-07-26)
 
 <code>
@@ -2702,6 +2694,9 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 - [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
+
+### CVE-2021-40512
+- [war4uthor/CVE-2021-40512](https://github.com/war4uthor/CVE-2021-40512)
 
 ### CVE-2021-40513
 - [war4uthor/CVE-2021-40513](https://github.com/war4uthor/CVE-2021-40513)
@@ -15370,6 +15365,14 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
 - [SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763)
 - [1nf1n17yk1ng/CVE-2018-16763](https://github.com/1nf1n17yk1ng/CVE-2018-16763)
+
+### CVE-2018-16809 (2019-03-07)
+
+<code>
+An issue was discovered in Dolibarr through 7.0.0. expensereport/card.php in the expense reports module allows SQL injection via the integer parameters qty and value_unit.
+</code>
+
+- [elkassimyhajar/CVE-2018-16809](https://github.com/elkassimyhajar/CVE-2018-16809)
 
 ### CVE-2018-16843 (2018-11-07)
 
