@@ -888,6 +888,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
+- [LazyTitan33/CVE-2021-22204](https://github.com/LazyTitan33/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -2694,9 +2695,6 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 - [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
-
-### CVE-2021-40512
-- [war4uthor/CVE-2021-40512](https://github.com/war4uthor/CVE-2021-40512)
 
 ### CVE-2021-40513
 - [war4uthor/CVE-2021-40513](https://github.com/war4uthor/CVE-2021-40513)
