@@ -50,9 +50,19 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [antx-code/CVE-2022-21907](https://github.com/antx-code/CVE-2022-21907)
 - [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
+- [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 
 ### CVE-2022-22296
 - [vlakhani28/CVE-2022-22296](https://github.com/vlakhani28/CVE-2022-22296)
+
+### CVE-2022-22850
+- [Sant268/CVE-2022-22850](https://github.com/Sant268/CVE-2022-22850)
+
+### CVE-2022-22851
+- [Sant268/CVE-2022-22851](https://github.com/Sant268/CVE-2022-22851)
+
+### CVE-2022-22852
+- [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
 
 ### CVE-2022-23305 (2022-01-18)
 
@@ -126,6 +136,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [Pai-Po/CVE-2021-1732](https://github.com/Pai-Po/CVE-2021-1732)
 - [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
 - [BeneficialCode/CVE-2021-1732](https://github.com/BeneficialCode/CVE-2021-1732)
+- [ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-)
 
 ### CVE-2021-1782 (2021-04-02)
 
@@ -345,6 +356,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
+- [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -2695,12 +2707,6 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 - [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
-
-### CVE-2021-40513
-- [war4uthor/CVE-2021-40513](https://github.com/war4uthor/CVE-2021-40513)
-
-### CVE-2021-40514
-- [war4uthor/CVE-2021-40514](https://github.com/war4uthor/CVE-2021-40514)
 
 ### CVE-2021-40531 (2021-09-06)
 
