@@ -21,9 +21,6 @@ The WP Import Export WordPress plugin (both free and premium versions) is vulner
 - [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
 - [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
-### CVE-2022-3666
-- [w1023913214/CVE-2022-3666](https://github.com/w1023913214/CVE-2022-3666)
-
 ### CVE-2022-21658 (2022-01-20)
 
 <code>
@@ -55,7 +52,12 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 
-### CVE-2022-22296
+### CVE-2022-22296 (2022-01-24)
+
+<code>
+Sourcecodester Hospital's Patient Records Management System 1.0 is vulnerable to Insecure Permissions via the id parameter in manage_user endpoint. Simply change the value and data of other users can be displayed.
+</code>
+
 - [vlakhani28/CVE-2022-22296](https://github.com/vlakhani28/CVE-2022-22296)
 
 ### CVE-2022-22850
@@ -67,12 +69,21 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 ### CVE-2022-22852
 - [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
 
+### CVE-2022-23046 (2022-01-19)
+
+<code>
+PhpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the &quot;subnet&quot; parameter while searching a subnet via app/admin/routing/edit-bgp-mapping-search.php
+</code>
+
+- [jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046)
+
 ### CVE-2022-23305 (2022-01-18)
 
 <code>
 By design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configuration parameter where the values to be inserted are converters from PatternLayout. The message converter, %m, is likely to always be included. This allows attackers to manipulate the SQL by entering crafted strings into input fields or headers of an application that are logged allowing unintended SQL queries to be executed. Note this issue only affects Log4j 1.x when specifically configured to use the JDBCAppender, which is not the default. Beginning in version 2.0-beta8, the JDBCAppender was re-introduced with proper support for parameterized SQL queries and further customization over the columns written to in logs. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.
 </code>
 
+- [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE)
 
 
@@ -355,6 +366,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
+- [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
 - [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
@@ -12191,6 +12203,7 @@ Included in Log4j 1.2 is a SocketServer class that is vulnerable to deserializat
 
 - [shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571)
 - [Al1ex/CVE-2019-17571](https://github.com/Al1ex/CVE-2019-17571)
+- [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 
 ### CVE-2019-17596 (2019-10-24)
 
@@ -16629,6 +16642,7 @@ In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket
 </code>
 
 - [pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645)
+- [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 
 ### CVE-2017-5674 (2017-03-13)
 
