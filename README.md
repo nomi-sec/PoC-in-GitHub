@@ -21,6 +21,9 @@ The WP Import Export WordPress plugin (both free and premium versions) is vulner
 - [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
 - [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
+### CVE-2022-3666
+- [w1023913214/CVE-2022-3666](https://github.com/w1023913214/CVE-2022-3666)
+
 ### CVE-2022-21658 (2022-01-20)
 
 <code>
@@ -352,7 +355,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
-- [Y3A/CVE-2021-3156](https://github.com/Y3A/CVE-2021-3156)
 - [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
