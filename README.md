@@ -2211,14 +2211,6 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 ### CVE-2021-34045
 - [MzzdToT/CVE-2021-34045](https://github.com/MzzdToT/CVE-2021-34045)
 
-### CVE-2021-34371 (2021-08-05)
-
-<code>
-Neo4j through 3.4.18 (with the shell server enabled) exposes an RMI service that arbitrarily deserializes Java objects, e.g., through setSessionVariable. An attacker can abuse this for remote code execution because there are dependencies with exploitable gadget chains.
-</code>
-
-- [zwjjustdoit/CVE-2021-34371.jar](https://github.com/zwjjustdoit/CVE-2021-34371.jar)
-
 ### CVE-2021-34429 (2021-07-15)
 
 <code>
@@ -3836,6 +3828,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Ravid-CheckMarx/CVE-2021-44228-Apache-Log4j-Rce-main](https://github.com/Ravid-CheckMarx/CVE-2021-44228-Apache-Log4j-Rce-main)
 - [yesspider-hacker/log4j-payload-generator](https://github.com/yesspider-hacker/log4j-payload-generator)
 - [LinkMJB/log4shell_scanner](https://github.com/LinkMJB/log4shell_scanner)
+- [NS-Sp4ce/Vm4J](https://github.com/NS-Sp4ce/Vm4J)
 - [a5tra/log4j-exploit-builder](https://github.com/a5tra/log4j-exploit-builder)
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
 - [romanutti/log4shell-vulnerable-app](https://github.com/romanutti/log4shell-vulnerable-app)
