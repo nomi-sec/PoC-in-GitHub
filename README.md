@@ -21,6 +21,14 @@ The WP Import Export WordPress plugin (both free and premium versions) is vulner
 - [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
 - [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
+### CVE-2022-21371 (2022-01-19)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Web Container). Supported versions that are affected are 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+</code>
+
+- [Mr-xn/CVE-2022-21371](https://github.com/Mr-xn/CVE-2022-21371)
+
 ### CVE-2022-21658 (2022-01-20)
 
 <code>
@@ -742,6 +750,14 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
 
+### CVE-2021-21571 (2021-06-24)
+
+<code>
+Dell UEFI BIOS https stack leveraged by the Dell BIOSConnect feature and Dell HTTPS Boot feature contains an improper certificate validation vulnerability. A remote unauthenticated attacker may exploit this vulnerability using a person-in-the-middle attack which may lead to a denial of service and payload tampering.
+</code>
+
+- [hawksj/dell-biosconnect-fix](https://github.com/hawksj/dell-biosconnect-fix)
+
 ### CVE-2021-21972 (2021-02-24)
 
 <code>
@@ -1241,7 +1257,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 </code>
 
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
-- [Udyz/CVE-2021-26084](https://github.com/Udyz/CVE-2021-26084)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
