@@ -3,6 +3,7 @@
 ## 2022
 ### CVE-2022-0185
 - [Crusaders-of-Rust/CVE-2022-0185](https://github.com/Crusaders-of-Rust/CVE-2022-0185)
+- [discordianfish/cve-2022-0185-crash-poc](https://github.com/discordianfish/cve-2022-0185-crash-poc)
 
 ### CVE-2022-0219 (2022-01-20)
 
@@ -80,7 +81,12 @@ Sourcecodester Hospital's Patient Records Management System 1.0 is vulnerable to
 ### CVE-2022-22850
 - [Sant268/CVE-2022-22850](https://github.com/Sant268/CVE-2022-22850)
 
-### CVE-2022-22851
+### CVE-2022-22851 (2022-01-26)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hospital's Patient Records Management System 1.0 via the specialization parameter in doctors.php
+</code>
+
 - [Sant268/CVE-2022-22851](https://github.com/Sant268/CVE-2022-22851)
 
 ### CVE-2022-22852
@@ -227,14 +233,6 @@ Vulnerability in the Recovery component of Oracle Database Server. Supported ver
 
 - [emad-almousa/CVE-2021-2173](https://github.com/emad-almousa/CVE-2021-2173)
 
-### CVE-2021-2302 (2021-04-22)
-
-<code>
-Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: OPSS). Supported versions that are affected are 11.1.1.9.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Platform Security for Java. Successful attacks of this vulnerability can result in takeover of Oracle Platform Security for Java. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-</code>
-
-- [quynhle7821/CVE-2021-2302](https://github.com/quynhle7821/CVE-2021-2302)
-
 ### CVE-2021-2394 (2021-07-20)
 
 <code>
@@ -243,14 +241,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [lz2y/CVE-2021-2394](https://github.com/lz2y/CVE-2021-2394)
 - [fasanhlieu/CVE-2021-2394](https://github.com/fasanhlieu/CVE-2021-2394)
-
-### CVE-2021-2456 (2021-07-20)
-
-<code>
-Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Fusion Middleware (component: Analytics Web General). The supported version that is affected is 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Business Intelligence Enterprise Edition. Successful attacks of this vulnerability can result in takeover of Oracle Business Intelligence Enterprise Edition. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-</code>
-
-- [peterjson31337/CVE-2021-2456](https://github.com/peterjson31337/CVE-2021-2456)
 
 ### CVE-2021-2471 (2021-10-20)
 
@@ -566,6 +556,7 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 - [0x05a/my-cve-2021-4034-poc](https://github.com/0x05a/my-cve-2021-4034-poc)
 - [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
 - [J0hnbX/CVE-2021-4034-new](https://github.com/J0hnbX/CVE-2021-4034-new)
+- [Immersive-Labs-Sec/CVE-2021-4034](https://github.com/Immersive-Labs-Sec/CVE-2021-4034)
 - [kimusan/pkwner](https://github.com/kimusan/pkwner)
 - [N1et/CVE-2021-4034](https://github.com/N1et/CVE-2021-4034)
 - [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
@@ -573,6 +564,23 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 - [aus-mate/CVE-2021-4034-POC](https://github.com/aus-mate/CVE-2021-4034-POC)
 - [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
 - [moldabekov/CVE-2021-4034](https://github.com/moldabekov/CVE-2021-4034)
+- [jostmart/-CVE-2021-4034](https://github.com/jostmart/-CVE-2021-4034)
+- [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
+- [1nf1n17yk1ng/CVE-2021-4034](https://github.com/1nf1n17yk1ng/CVE-2021-4034)
+- [binksjar/cve-2021-4034](https://github.com/binksjar/cve-2021-4034)
+- [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
+- [san3ncrypt3d/CVE-2021-4034-POC](https://github.com/san3ncrypt3d/CVE-2021-4034-POC)
+- [fdellwing/CVE-2021-4034](https://github.com/fdellwing/CVE-2021-4034)
+- [xcanwin/CVE-2021-4034-UniontechOS](https://github.com/xcanwin/CVE-2021-4034-UniontechOS)
+- [azminawwar/CVE-2021-4034](https://github.com/azminawwar/CVE-2021-4034)
+- [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
+- [sunny0day/CVE-2021-4034](https://github.com/sunny0day/CVE-2021-4034)
+- [mike-artemis/cve-2021-4034](https://github.com/mike-artemis/cve-2021-4034)
+- [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
+- [dadvlingd/-CVE-2021-4034](https://github.com/dadvlingd/-CVE-2021-4034)
+- [zcrosman/cve-2021-4034](https://github.com/zcrosman/cve-2021-4034)
+- [robemmerson/CVE-2021-4034](https://github.com/robemmerson/CVE-2021-4034)
+- [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -676,14 +684,6 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 
 - [Grayhaxor/CVE-2021-21148](https://github.com/Grayhaxor/CVE-2021-21148)
 
-### CVE-2021-21220 (2021-04-26)
-
-<code>
-Insufficient validation of untrusted input in V8 in Google Chrome prior to 89.0.4389.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-</code>
-
-- [security-dbg/CVE-2021-21220](https://github.com/security-dbg/CVE-2021-21220)
-
 ### CVE-2021-21224 (2021-04-26)
 
 <code>
@@ -717,7 +717,6 @@ Git is an open-source distributed revision control system. In affected versions 
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
 - [tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300)
-- [0ahu/CVE-2021-21300](https://github.com/0ahu/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -1754,14 +1753,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 ### CVE-2021-28750
 - [PfalzPrince/CVE-2021-28750-site](https://github.com/PfalzPrince/CVE-2021-28750-site)
 
-### CVE-2021-29003 (2021-04-13)
-
-<code>
-Genexis PLATINUM 4410 2.1 P4410-V2-1.28 devices allow remote attackers to execute arbitrary code via shell metacharacters to sys_config_valid.xgi, as demonstrated by the sys_config_valid.xgi?exeshell=%60telnetd%20%26%60 URI.
-</code>
-
-- [jaysharma786/CVE-2021-29003](https://github.com/jaysharma786/CVE-2021-29003)
-
 ### CVE-2021-29155 (2021-04-20)
 
 <code>
@@ -2125,14 +2116,6 @@ A SQL injection vulnerability in the pandora_console component of Artica Pandora
 - [ibnuuby/CVE-2021-32099](https://github.com/ibnuuby/CVE-2021-32099)
 - [l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi)
 
-### CVE-2021-32202 (2021-09-14)
-
-<code>
-In CS-Cart version 4.11.1, it is possible to induce copy-paste XSS by manipulating the &quot;post description&quot; filed in the blog post creation page.
-</code>
-
-- [l00neyhacker/CVE-2021-32202](https://github.com/l00neyhacker/CVE-2021-32202)
-
 ### CVE-2021-32471 (2021-05-10)
 
 <code>
@@ -2259,7 +2242,6 @@ Microsoft Exchange Information Disclosure Vulnerability
 </code>
 
 - [bhdresh/CVE-2021-33766](https://github.com/bhdresh/CVE-2021-33766)
-- [demossl/CVE-2021-33766-ProxyToken](https://github.com/demossl/CVE-2021-33766-ProxyToken)
 
 ### CVE-2021-33879 (2021-06-06)
 
@@ -2410,14 +2392,6 @@ The CheckMK management web console (versions 1.5.0 to 2.0.0) does not sanitise u
 
 - [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
 
-### CVE-2021-36582 (2021-09-14)
-
-<code>
-In Kooboo CMS 2.1.1.0, it is possible to upload a remote shell (e.g., aspx) to the server and then call upon it to receive a reverse shell from the victim server. The files are uploaded to /Content/Template/root/reverse-shell.aspx and can be simply triggered by browsing that URL.
-</code>
-
-- [l00neyhacker/CVE-2021-36582](https://github.com/l00neyhacker/CVE-2021-36582)
-
 ### CVE-2021-36749 (2021-09-24)
 
 <code>
@@ -2462,7 +2436,6 @@ Windows Elevation of Privilege Vulnerability
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
-- [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 
 ### CVE-2021-37580 (2021-11-16)
 
@@ -2570,9 +2543,6 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 </code>
 
 - [corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647)
-- [midoxnet/CVE-2021-38647](https://github.com/midoxnet/CVE-2021-38647)
-- [horizon3ai/CVE-2021-38647](https://github.com/horizon3ai/CVE-2021-38647)
-- [Immersive-Labs-Sec/cve-2021-38647](https://github.com/Immersive-Labs-Sec/cve-2021-38647)
 - [marcosimioni/omigood](https://github.com/marcosimioni/omigood)
 - [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
 - [SimenBai/CVE-2021-38647-POC-and-Demo-environment](https://github.com/SimenBai/CVE-2021-38647-POC-and-Demo-environment)
@@ -2679,15 +2649,10 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 </code>
 
 - [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
-- [Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis)
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
-- [amartinsec/MSHTMHell](https://github.com/amartinsec/MSHTMHell)
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
-- [js-on/CVE-2021-40444](https://github.com/js-on/CVE-2021-40444)
-- [k8gege/CVE-2021-40444](https://github.com/k8gege/CVE-2021-40444)
 - [vanhohen/MSHTML-CVE-2021-40444](https://github.com/vanhohen/MSHTML-CVE-2021-40444)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
-- [Udyz/CVE-2021-40444-CAB](https://github.com/Udyz/CVE-2021-40444-CAB)
 - [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
 - [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
@@ -20008,7 +19973,6 @@ The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write t
 - [cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC)
 - [m4udSec/ProFTPD_CVE-2015-3306](https://github.com/m4udSec/ProFTPD_CVE-2015-3306)
 - [jptr218/proftpd_bypass](https://github.com/jptr218/proftpd_bypass)
-- [7unn3l/CVE-2015-3306-PoC](https://github.com/7unn3l/CVE-2015-3306-PoC)
 
 ### CVE-2015-3337 (2015-05-01)
 
