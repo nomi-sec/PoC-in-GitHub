@@ -21,6 +21,14 @@ The WP Import Export WordPress plugin (both free and premium versions) is vulner
 - [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
 - [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
+### CVE-2022-0332 (2022-01-25)
+
+<code>
+A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was identified in the h5p activity web service responsible for fetching user attempt data.
+</code>
+
+- [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
+
 ### CVE-2022-21371 (2022-01-19)
 
 <code>
@@ -536,6 +544,11 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 </code>
 
 - [HadiMed/firmware-analysis](https://github.com/HadiMed/firmware-analysis)
+
+### CVE-2021-4034
+- [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
+- [lourkeur/cve-2021-4034-playground](https://github.com/lourkeur/cve-2021-4034-playground)
+- [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -1259,8 +1272,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
-- [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
-- [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
 - [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
 - [toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched)
 - [nizarbamida/CVE-2021-26084-patch-](https://github.com/nizarbamida/CVE-2021-26084-patch-)
@@ -2253,7 +2264,6 @@ For Eclipse Jetty versions 9.4.37-9.4.42, 10.0.1-10.0.5 &amp; 11.0.1-11.0.5, URI
 Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-31196, CVE-2021-31206.
 </code>
 
-- [horizon3ai/proxyshell](https://github.com/horizon3ai/proxyshell)
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
 - [jrgdiaz/ProxyShell-CVE-2021-34473](https://github.com/jrgdiaz/ProxyShell-CVE-2021-34473)
 
@@ -3443,7 +3453,12 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [rodpwn/CVE-2021-43798-mass_scanner](https://github.com/rodpwn/CVE-2021-43798-mass_scanner)
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 
-### CVE-2021-43799
+### CVE-2021-43799 (2022-01-25)
+
+<code>
+Zulip is an open-source team collaboration tool. Zulip Server installs RabbitMQ for internal message passing. In versions of Zulip Server prior to 4.9, the initial installation (until first reboot, or restart of RabbitMQ) does not successfully limit the default ports which RabbitMQ opens; this includes port 25672, the RabbitMQ distribution port, which is used as a management port. RabbitMQ's default &quot;cookie&quot; which protects this port is generated using a weak PRNG, which limits the entropy of the password to at most 36 bits; in practicality, the seed for the randomizer is biased, resulting in approximately 20 bits of entropy. If other firewalls (at the OS or network level) do not protect port 25672, a remote attacker can brute-force the 20 bits of entropy in the &quot;cookie&quot; and leverage it for arbitrary execution of code as the rabbitmq user. They can also read all data which is sent through RabbitMQ, which includes all message traffic sent by users. Version 4.9 contains a patch for this vulnerability. As a workaround, ensure that firewalls prevent access to ports 5672 and 25672 from outside the Zulip server.
+</code>
+
 - [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
 
 ### CVE-2021-43821 (2021-12-14)
