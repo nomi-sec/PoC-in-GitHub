@@ -62,6 +62,7 @@ WordPress is a free and open-source content management system written in PHP and
 HTTP Protocol Stack Remote Code Execution Vulnerability.
 </code>
 
+- [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
 - [antx-code/CVE-2022-21907](https://github.com/antx-code/CVE-2022-21907)
 - [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
@@ -508,7 +509,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
-- [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
 - [puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493)
 
 ### CVE-2021-3560
@@ -564,6 +564,15 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 - [ayypril/CVE-2021-4034](https://github.com/ayypril/CVE-2021-4034)
 - [wongwaituck/CVE-2021-4034](https://github.com/wongwaituck/CVE-2021-4034)
 - [0x05a/my-cve-2021-4034-poc](https://github.com/0x05a/my-cve-2021-4034-poc)
+- [zhzyker/CVE-2021-4034](https://github.com/zhzyker/CVE-2021-4034)
+- [J0hnbX/CVE-2021-4034-new](https://github.com/J0hnbX/CVE-2021-4034-new)
+- [kimusan/pkwner](https://github.com/kimusan/pkwner)
+- [N1et/CVE-2021-4034](https://github.com/N1et/CVE-2021-4034)
+- [Nero22k/CVE-2021-4034](https://github.com/Nero22k/CVE-2021-4034)
+- [LukeGix/CVE-2021-4034](https://github.com/LukeGix/CVE-2021-4034)
+- [aus-mate/CVE-2021-4034-POC](https://github.com/aus-mate/CVE-2021-4034-POC)
+- [chenaotian/CVE-2021-4034](https://github.com/chenaotian/CVE-2021-4034)
+- [moldabekov/CVE-2021-4034](https://github.com/moldabekov/CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -2303,7 +2312,6 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is un
 Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
-- [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
 
 ### CVE-2021-34600 (2022-01-20)
@@ -2401,14 +2409,6 @@ The CheckMK management web console (versions 1.5.0 to 2.0.0) does not sanitise u
 </code>
 
 - [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
-
-### CVE-2021-36581 (2021-09-14)
-
-<code>
-Kooboo CMS 2.1.1.0 is vulnerable to Insecure file upload. It is possible to upload any file extension to the server. The server does not verify the extension of the file and the tester was able to upload an aspx to the server.
-</code>
-
-- [l00neyhacker/CVE-2021-36581](https://github.com/l00neyhacker/CVE-2021-36581)
 
 ### CVE-2021-36582 (2021-09-14)
 
@@ -2650,22 +2650,6 @@ NXP LPC55S69 devices before A3 have a buffer over-read via a crafted wlength val
 
 - [Xen1thLabs-AE/CVE-2021-40154](https://github.com/Xen1thLabs-AE/CVE-2021-40154)
 
-### CVE-2021-40222 (2021-09-09)
-
-<code>
-Rittal CMC PU III Web management Version affected: V3.11.00_2. Version fixed: V3.17.10 is affected by a remote code execution vulnerablity. It is possible to introduce shell code to create a reverse shell in the PU-Hostname field of the TCP/IP Configuration dialog. Web application fails to sanitize user input on Network TCP/IP configuration page. This allows the attacker to inject commands as root on the device which will be executed once the data is received.
-</code>
-
-- [asang17/CVE-2021-40222](https://github.com/asang17/CVE-2021-40222)
-
-### CVE-2021-40223 (2021-09-09)
-
-<code>
-Rittal CMC PU III Web management (version V3.11.00_2) fails to sanitize user input on several parameters of the configuration (User Configuration dialog, Task Configuration dialog and set logging filter dialog). This allows an attacker to backdoor the device with HTML and browser-interpreted content (such as JavaScript or other client-side scripts). The XSS payload will be triggered when the user accesses some specific sections of the application.
-</code>
-
-- [asang17/CVE-2021-40223](https://github.com/asang17/CVE-2021-40223)
-
 ### CVE-2021-40346 (2021-09-08)
 
 <code>
@@ -2673,7 +2657,6 @@ An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can
 </code>
 
 - [donky16/CVE-2021-40346-POC](https://github.com/donky16/CVE-2021-40346-POC)
-- [alikarimi999/CVE-2021-40346](https://github.com/alikarimi999/CVE-2021-40346)
 - [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 - [alexOarga/CVE-2021-40346](https://github.com/alexOarga/CVE-2021-40346)
 
@@ -2699,10 +2682,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [Immersive-Labs-Sec/cve-2021-40444-analysis](https://github.com/Immersive-Labs-Sec/cve-2021-40444-analysis)
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [amartinsec/MSHTMHell](https://github.com/amartinsec/MSHTMHell)
-- [mansk1es/Caboom](https://github.com/mansk1es/Caboom)
-- [jamesrep/cve-2021-40444](https://github.com/jamesrep/cve-2021-40444)
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
-- [khoaduynu/CVE-2021-40444](https://github.com/khoaduynu/CVE-2021-40444)
 - [js-on/CVE-2021-40444](https://github.com/js-on/CVE-2021-40444)
 - [k8gege/CVE-2021-40444](https://github.com/k8gege/CVE-2021-40444)
 - [vanhohen/MSHTML-CVE-2021-40444](https://github.com/vanhohen/MSHTML-CVE-2021-40444)
@@ -3039,6 +3019,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [Ming119/CVE-2021-41773_Exploit](https://github.com/Ming119/CVE-2021-41773_Exploit)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
+- [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 
 ### CVE-2021-41822
 - [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
@@ -6187,6 +6168,14 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 </code>
 
 - [fairyming/CVE-2020-9548](https://github.com/fairyming/CVE-2020-9548)
+
+### CVE-2020-9715 (2020-08-19)
+
+<code>
+Adobe Acrobat and Reader versions 2020.009.20074 and earlier, 2020.001.30002, 2017.011.30171 and earlier, and 2015.006.30523 and earlier have an use-after-free vulnerability. Successful exploitation could lead to arbitrary code execution .
+</code>
+
+- [lsw29475/CVE-2020-9715](https://github.com/lsw29475/CVE-2020-9715)
 
 ### CVE-2020-9758 (2020-03-09)
 
@@ -19094,6 +19083,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
 - [arttnba3/CVE-2016-5195](https://github.com/arttnba3/CVE-2016-5195)
 - [KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability)
+- [SmithCGauss/CVE-2016-5195](https://github.com/SmithCGauss/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-22)
 
@@ -20018,6 +20008,7 @@ The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write t
 - [cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC)
 - [m4udSec/ProFTPD_CVE-2015-3306](https://github.com/m4udSec/ProFTPD_CVE-2015-3306)
 - [jptr218/proftpd_bypass](https://github.com/jptr218/proftpd_bypass)
+- [7unn3l/CVE-2015-3306-PoC](https://github.com/7unn3l/CVE-2015-3306-PoC)
 
 ### CVE-2015-3337 (2015-05-01)
 
