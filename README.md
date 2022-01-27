@@ -57,6 +57,14 @@ WordPress is a free and open-source content management system written in PHP and
 
 - [TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection](https://github.com/TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection)
 
+### CVE-2022-21882 (2022-01-11)
+
+<code>
+Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21887.
+</code>
+
+- [KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882)
+
 ### CVE-2022-21907 (2022-01-11)
 
 <code>
@@ -77,6 +85,14 @@ Sourcecodester Hospital's Patient Records Management System 1.0 is vulnerable to
 </code>
 
 - [vlakhani28/CVE-2022-22296](https://github.com/vlakhani28/CVE-2022-22296)
+
+### CVE-2022-22828 (-)
+
+<code>
+An insecure direct object reference for the file-download URL in Synametrics SynaMan before 5.0 allows a remote attacker to access unshared files via a modified base64-encoded filename string.
+</code>
+
+- [videnlabs/CVE-2022-22828](https://github.com/videnlabs/CVE-2022-22828)
 
 ### CVE-2022-22850 (2022-01-26)
 
@@ -129,6 +145,9 @@ In TightVNC 1.3.10, there is an integer signedness error and resultant heap-base
 </code>
 
 - [MaherAzzouzi/CVE-2022-23967](https://github.com/MaherAzzouzi/CVE-2022-23967)
+
+### CVE-2022-962322
+- [w1023913214/CVE-2022-962322](https://github.com/w1023913214/CVE-2022-962322)
 
 
 ## 2021
@@ -398,6 +417,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
+- [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -611,6 +631,8 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
 - [T3cnokarita/CVE-2021-4034](https://github.com/T3cnokarita/CVE-2021-4034)
 - [0xBruno/CVE-2021-4034](https://github.com/0xBruno/CVE-2021-4034)
+- [cd80-ctf/CVE-2021-4034](https://github.com/cd80-ctf/CVE-2021-4034)
+- [Al1ex/CVE-2021-4034](https://github.com/Al1ex/CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -756,7 +778,6 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
 - [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
-- [alikarimi999/CVE-2021-21315](https://github.com/alikarimi999/CVE-2021-21315)
 - [Ki11i0n4ir3/CVE-2021-21315](https://github.com/Ki11i0n4ir3/CVE-2021-21315)
 - [xMohamed0/CVE-2021-21315-POC](https://github.com/xMohamed0/CVE-2021-21315-POC)
 
@@ -1192,7 +1213,6 @@ The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Ran
 The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_uploader and workreap_temp_file_uploader did not perform nonce checks, or validate that the request is from a valid user in any other way. The endpoints allowed for uploading arbitrary files to the uploads/workreap-temp directory. Uploaded files were neither sanitized nor validated, allowing an unauthenticated visitor to upload executable code such as php scripts.
 </code>
 
-- [RyouYoo/CVE-2021-24499](https://github.com/RyouYoo/CVE-2021-24499)
 - [hh-hunter/cve-2021-24499](https://github.com/hh-hunter/cve-2021-24499)
 
 ### CVE-2021-24545 (2021-10-11)
@@ -2007,7 +2027,6 @@ A use after free issue was addressed with improved memory management. This issue
 An integer overflow was addressed with improved input validation. This issue is fixed in Security Update 2021-005 Catalina, iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6, watchOS 7.6.2. Processing a maliciously crafted PDF may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
 </code>
 
-- [Levilutz/CVE-2021-30860](https://github.com/Levilutz/CVE-2021-30860)
 - [jeffssh/CVE-2021-30860](https://github.com/jeffssh/CVE-2021-30860)
 
 ### CVE-2021-31159 (2021-06-16)
@@ -2672,7 +2691,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
-- [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
 - [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
 - [LazarusReborn/Docx-Exploit-2021](https://github.com/LazarusReborn/Docx-Exploit-2021)
@@ -3849,6 +3867,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ColdFusionX/CVE-2021-44228-Log4Shell-POC](https://github.com/ColdFusionX/CVE-2021-44228-Log4Shell-POC)
 - [robrankin/cve-2021-44228-waf-tests](https://github.com/robrankin/cve-2021-44228-waf-tests)
 - [semelnyk/CVE-2021-44228-ScannersListFromRF](https://github.com/semelnyk/CVE-2021-44228-ScannersListFromRF)
+- [ThanhHien98/Log4j](https://github.com/ThanhHien98/Log4j)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -8498,6 +8517,7 @@ In Progress MOVEit Transfer before 2020.1, a malicious user could craft and stor
 Zoho ManageEngine OpManager Stable build before 125203 (and Released build before 125233) allows Remote Code Execution via the Smart Update Manager (SUM) servlet.
 </code>
 
+- [tuo4n8/CVE-2020-28653](https://github.com/tuo4n8/CVE-2020-28653)
 - [intrigueio/cve-2020-28653-poc](https://github.com/intrigueio/cve-2020-28653-poc)
 
 ### CVE-2020-28874 (2021-01-21)
