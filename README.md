@@ -78,7 +78,12 @@ Sourcecodester Hospital's Patient Records Management System 1.0 is vulnerable to
 
 - [vlakhani28/CVE-2022-22296](https://github.com/vlakhani28/CVE-2022-22296)
 
-### CVE-2022-22850
+### CVE-2022-22850 (2022-01-26)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hospital's Patient Records Management System 1.0 via the description parameter in room_types.
+</code>
+
 - [Sant268/CVE-2022-22850](https://github.com/Sant268/CVE-2022-22850)
 
 ### CVE-2022-22851 (2022-01-26)
@@ -89,8 +94,16 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hosp
 
 - [Sant268/CVE-2022-22851](https://github.com/Sant268/CVE-2022-22851)
 
-### CVE-2022-22852
+### CVE-2022-22852 (2022-01-26)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hospital's Patient Records Management System 1.0 via the description parameter in room_list.
+</code>
+
 - [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
+
+### CVE-2022-22919
+- [jdordonezn/CVE-2022-22919](https://github.com/jdordonezn/CVE-2022-22919)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -108,6 +121,14 @@ By design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configu
 
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE)
+
+### CVE-2022-23967 (2022-01-26)
+
+<code>
+In TightVNC 1.3.10, there is an integer signedness error and resultant heap-based buffer overflow in InitialiseRFBConnection in rfbproto.c (for the vncviewer component). There is no check on the size given to malloc, e.g., -1 is accepted. This allocates a chunk of size zero, which will give a heap pointer. However, one can send 0xffffffff bytes of data, which can have a DoS impact or lead to remote code execution.
+</code>
+
+- [MaherAzzouzi/CVE-2022-23967](https://github.com/MaherAzzouzi/CVE-2022-23967)
 
 
 ## 2021
@@ -581,6 +602,15 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 - [zcrosman/cve-2021-4034](https://github.com/zcrosman/cve-2021-4034)
 - [robemmerson/CVE-2021-4034](https://github.com/robemmerson/CVE-2021-4034)
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
+- [luijait/PwnKit-Exploit](https://github.com/luijait/PwnKit-Exploit)
+- [Anonymous-Family/CVE-2021-4034](https://github.com/Anonymous-Family/CVE-2021-4034)
+- [phvilasboas/CVE-2021-4034](https://github.com/phvilasboas/CVE-2021-4034)
+- [hackingyseguridad/CVE-2021-4034](https://github.com/hackingyseguridad/CVE-2021-4034)
+- [vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034)
+- [nobelh/CVE-2020-4034](https://github.com/nobelh/CVE-2020-4034)
+- [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
+- [T3cnokarita/CVE-2021-4034](https://github.com/T3cnokarita/CVE-2021-4034)
+- [0xBruno/CVE-2021-4034](https://github.com/0xBruno/CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -1040,7 +1070,6 @@ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3
 </code>
 
 - [CsEnox/CVE-2021-22911](https://github.com/CsEnox/CVE-2021-22911)
-- [jayngng/CVE-2021-22911](https://github.com/jayngng/CVE-2021-22911)
 
 ### CVE-2021-22941 (2021-09-23)
 
@@ -1295,7 +1324,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
-- [toowoxx/docker-confluence-patched](https://github.com/toowoxx/docker-confluence-patched)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
 - [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
@@ -1929,7 +1957,6 @@ Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote a
 Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
 - [CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632)
 
 ### CVE-2021-30657 (2021-09-08)
@@ -2173,7 +2200,12 @@ Squirrelly is a template engine implemented in JavaScript that works out of the 
 
 - [Abady0x1/CVE-2021-32819](https://github.com/Abady0x1/CVE-2021-32819)
 
-### CVE-2021-32849
+### CVE-2021-32849 (2022-01-26)
+
+<code>
+Gerapy is a distributed crawler management framework. Prior to version 0.9.9, an authenticated user could execute arbitrary commands. This issue is fixed in version 0.9.9. There are no known workarounds.
+</code>
+
 - [ohnonoyesyes/CVE-2021-32849](https://github.com/ohnonoyesyes/CVE-2021-32849)
 
 ### CVE-2021-33026 (2021-05-13)
@@ -2318,7 +2350,6 @@ A vulnerability in the Universal Plug-and-Play (UPnP) service of Cisco Small Bus
 Django 3.1.x before 3.1.13 and 3.2.x before 3.2.5 allows QuerySet.order_by SQL injection if order_by is untrusted input from a client of a web application.
 </code>
 
-- [mrlihd/CVE-2021-35042](https://github.com/mrlihd/CVE-2021-35042)
 - [r4vi/CVE-2021-35042](https://github.com/r4vi/CVE-2021-35042)
 
 ### CVE-2021-35211 (2021-07-14)
@@ -2450,9 +2481,6 @@ A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdmin
 - [Liang2580/CVE-2021-37580](https://github.com/Liang2580/CVE-2021-37580)
 - [Wing-song/CVE-2021-37580](https://github.com/Wing-song/CVE-2021-37580)
 
-### CVE-2021-37589
-- [luca-regne/CVE-2021-37589](https://github.com/luca-regne/CVE-2021-37589)
-
 ### CVE-2021-37624 (2021-10-25)
 
 <code>
@@ -2527,14 +2555,6 @@ The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for Wor
 - [thomsdev/CVE-2021-38314](https://github.com/thomsdev/CVE-2021-38314)
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
-
-### CVE-2021-38639 (2021-09-15)
-
-<code>
-Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-36975.
-</code>
-
-- [DarkSprings/CVE-2021-38639](https://github.com/DarkSprings/CVE-2021-38639)
 
 ### CVE-2021-38647 (2021-09-15)
 
@@ -2651,7 +2671,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
-- [vanhohen/MSHTML-CVE-2021-40444](https://github.com/vanhohen/MSHTML-CVE-2021-40444)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [gh0stxplt/CVE-2021-40444-URL-Extractor](https://github.com/gh0stxplt/CVE-2021-40444-URL-Extractor)
 - [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
@@ -2693,7 +2712,6 @@ Sketch before 75 allows library feeds to be used to bypass file quarantine. File
 Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to REST API authentication bypass with resultant remote code execution.
 </code>
 
-- [DarkSprings/CVE-2021-40539](https://github.com/DarkSprings/CVE-2021-40539)
 - [synacktiv/CVE-2021-40539](https://github.com/synacktiv/CVE-2021-40539)
 
 ### CVE-2021-40839 (2021-09-09)
@@ -2756,9 +2774,6 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 </code>
 
 - [nisdn/CVE-2021-40978](https://github.com/nisdn/CVE-2021-40978)
-
-### CVE-2021-41074
-- [dillonkirsch/CVE-2021-41074](https://github.com/dillonkirsch/CVE-2021-41074)
 
 ### CVE-2021-41081 (2021-11-10)
 
@@ -5088,6 +5103,9 @@ OpenSLP as used in VMware ESXi (7.0 before ESXi_7.0.1-0.0.16850804, 6.7 before E
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
+
+### CVE-2020-4034
+- [nobelh/CVE-2020-4034](https://github.com/nobelh/CVE-2020-4034)
 
 ### CVE-2020-4040 (2020-06-08)
 
