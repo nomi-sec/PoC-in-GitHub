@@ -4,6 +4,7 @@
 ### CVE-2022-0185
 - [Crusaders-of-Rust/CVE-2022-0185](https://github.com/Crusaders-of-Rust/CVE-2022-0185)
 - [discordianfish/cve-2022-0185-crash-poc](https://github.com/discordianfish/cve-2022-0185-crash-poc)
+- [khaclep007/CVE-2022-0185](https://github.com/khaclep007/CVE-2022-0185)
 
 ### CVE-2022-0219 (2022-01-20)
 
@@ -410,7 +411,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 - [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
-- [redhawkeye/sudo-exploit](https://github.com/redhawkeye/sudo-exploit)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
@@ -571,7 +571,15 @@ Buffer overflow in Zephyr USB DFU DNLOAD. Zephyr versions &gt;= v2.5.0 contain H
 D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to unauthorized configuration modification. An unauthenticated attacker on the local network may exploit this, with CVE-2021-3708, to execute any OS commands on the vulnerable device.
 </code>
 
-- [HadiMed/firmware-analysis](https://github.com/HadiMed/firmware-analysis)
+- [HadiMed/DSL-2750U-Full-chain](https://github.com/HadiMed/DSL-2750U-Full-chain)
+
+### CVE-2021-4024 (2021-12-23)
+
+<code>
+A flaw was found in podman. The `podman machine` function (used to create and manage Podman virtual machine containing a Podman process) spawns a `gvproxy` process on the host system. The `gvproxy` API is accessible on port 7777 on all IP addresses on the host. If that port is open on the host's firewall, an attacker can potentially use the `gvproxy` API to forward ports on the host to ports in the VM, making private services on the VM accessible to the network. This issue could be also used to interrupt the host's services by forwarding all ports to the VM.
+</code>
+
+- [deoxykev/CVE-2021-4024-Rust](https://github.com/deoxykev/CVE-2021-4024-Rust)
 
 ### CVE-2021-4034
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
@@ -637,6 +645,11 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 - [luckythandel/CVE-2021-4034](https://github.com/luckythandel/CVE-2021-4034)
 - [Plethore/CVE-2021-4034](https://github.com/Plethore/CVE-2021-4034)
 - [evdenis/lsm_bpf_check_argc0](https://github.com/evdenis/lsm_bpf_check_argc0)
+- [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
+- [DosAmp/pkwned](https://github.com/DosAmp/pkwned)
+- [rayheffer/CVE-2021-4034](https://github.com/rayheffer/CVE-2021-4034)
+- [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
+- [Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -952,9 +965,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 The vCenter Server contains an arbitrary file upload vulnerability in the Analytics service. A malicious actor with network access to port 443 on vCenter Server may exploit this issue to execute code on vCenter Server by uploading a specially crafted file.
 </code>
 
-- [pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity)
-- [X1pe0/VMWare-CVE-Check](https://github.com/X1pe0/VMWare-CVE-Check)
-- [5gstudent/CVE-2021-22005-](https://github.com/5gstudent/CVE-2021-22005-)
 - [r0ckysec/CVE-2021-22005](https://github.com/r0ckysec/CVE-2021-22005)
 - [RedTeamExp/CVE-2021-22005_PoC](https://github.com/RedTeamExp/CVE-2021-22005_PoC)
 - [rwincey/CVE-2021-22005](https://github.com/rwincey/CVE-2021-22005)
@@ -2365,14 +2375,6 @@ A vulnerability in the Universal Plug-and-Play (UPnP) service of Cisco Small Bus
 
 - [badmonkey7/CVE-2021-34730](https://github.com/badmonkey7/CVE-2021-34730)
 
-### CVE-2021-35042 (2021-07-02)
-
-<code>
-Django 3.1.x before 3.1.13 and 3.2.x before 3.2.5 allows QuerySet.order_by SQL injection if order_by is untrusted input from a client of a web application.
-</code>
-
-- [r4vi/CVE-2021-35042](https://github.com/r4vi/CVE-2021-35042)
-
 ### CVE-2021-35211 (2021-07-14)
 
 <code>
@@ -2455,14 +2457,6 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
 - [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
 - [Jun-5heng/CVE-2021-36749](https://github.com/Jun-5heng/CVE-2021-36749)
-
-### CVE-2021-36798 (2021-08-09)
-
-<code>
-A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSystems Cobalt Strike 4.2 and 4.3. It allows remote attackers to crash the C2 server thread and block beacons' communication with it.
-</code>
-
-- [JamVayne/CobaltStrikeDos](https://github.com/JamVayne/CobaltStrikeDos)
 
 ### CVE-2021-36799 (2021-07-19)
 
@@ -2585,7 +2579,6 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 
 - [corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647)
 - [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
-- [AlteredSecurity/CVE-2021-38647](https://github.com/AlteredSecurity/CVE-2021-38647)
 - [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
 - [fr34kyy/omigod](https://github.com/fr34kyy/omigod)
 
@@ -3996,6 +3989,14 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Bludit 3.13.1 via th
 
 - [plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS)
 - [plsanu/CVE-2021-45745](https://github.com/plsanu/CVE-2021-45745)
+
+### CVE-2021-46005 (2022-01-18)
+
+<code>
+Sourcecodester Car Rental Management System 1.0 is vulnerable to Cross Site Scripting (XSS) via vehicalorcview parameter.
+</code>
+
+- [nawed20002/CVE-2021-46005](https://github.com/nawed20002/CVE-2021-46005)
 
 ### CVE-2021-46067 (2022-01-06)
 
@@ -14999,6 +15000,14 @@ A directory traversal vulnerability has been found in the Assets controller in P
 
 - [tafamace/CVE-2018-13864](https://github.com/tafamace/CVE-2018-13864)
 
+### CVE-2018-14009 (2018-07-12)
+
+<code>
+Codiad through 2.8.4 allows Remote Code Execution, a different vulnerability than CVE-2017-11366 and CVE-2017-15689.
+</code>
+
+- [hidog123/Codiad-CVE-2018-14009](https://github.com/hidog123/Codiad-CVE-2018-14009)
+
 ### CVE-2018-14083 (2018-07-25)
 
 <code>
@@ -15381,6 +15390,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
 - [SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763)
 - [1nf1n17yk1ng/CVE-2018-16763](https://github.com/1nf1n17yk1ng/CVE-2018-16763)
+- [BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust)
 
 ### CVE-2018-16809 (2019-03-07)
 
@@ -17541,6 +17551,14 @@ Telerik.Web.UI in Progress Telerik UI for ASP.NET AJAX before R1 2017 and R2 bef
 </code>
 
 - [bao7uo/RAU_crypto](https://github.com/bao7uo/RAU_crypto)
+
+### CVE-2017-11366 (2017-08-20)
+
+<code>
+components/filemanager/class.filemanager.php in Codiad before 2.8.4 is vulnerable to remote command execution because shell commands can be embedded in parameter values, as demonstrated by search_file_type.
+</code>
+
+- [hidog123/Codiad-CVE-2018-14009](https://github.com/hidog123/Codiad-CVE-2018-14009)
 
 ### CVE-2017-11427 (2019-04-17)
 
