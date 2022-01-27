@@ -86,7 +86,7 @@ Sourcecodester Hospital's Patient Records Management System 1.0 is vulnerable to
 
 - [vlakhani28/CVE-2022-22296](https://github.com/vlakhani28/CVE-2022-22296)
 
-### CVE-2022-22828 (-)
+### CVE-2022-22828 (2022-01-27)
 
 <code>
 An insecure direct object reference for the file-download URL in Synametrics SynaMan before 5.0 allows a remote attacker to access unshared files via a modified base64-encoded filename string.
@@ -145,9 +145,6 @@ In TightVNC 1.3.10, there is an integer signedness error and resultant heap-base
 </code>
 
 - [MaherAzzouzi/CVE-2022-23967](https://github.com/MaherAzzouzi/CVE-2022-23967)
-
-### CVE-2022-962322
-- [w1023913214/CVE-2022-962322](https://github.com/w1023913214/CVE-2022-962322)
 
 
 ## 2021
@@ -633,6 +630,13 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 - [0xBruno/CVE-2021-4034](https://github.com/0xBruno/CVE-2021-4034)
 - [cd80-ctf/CVE-2021-4034](https://github.com/cd80-ctf/CVE-2021-4034)
 - [Al1ex/CVE-2021-4034](https://github.com/Al1ex/CVE-2021-4034)
+- [puckiestyle/CVE-2021-4034](https://github.com/puckiestyle/CVE-2021-4034)
+- [nikip72/CVE-2021-4034](https://github.com/nikip72/CVE-2021-4034)
+- [NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034)
+- [0xTRAW/CVE-2021-4034](https://github.com/0xTRAW/CVE-2021-4034)
+- [luckythandel/CVE-2021-4034](https://github.com/luckythandel/CVE-2021-4034)
+- [Plethore/CVE-2021-4034](https://github.com/Plethore/CVE-2021-4034)
+- [evdenis/lsm_bpf_check_argc0](https://github.com/evdenis/lsm_bpf_check_argc0)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -948,7 +952,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 The vCenter Server contains an arbitrary file upload vulnerability in the Analytics service. A malicious actor with network access to port 443 on vCenter Server may exploit this issue to execute code on vCenter Server by uploading a specially crafted file.
 </code>
 
-- [1ZRR4H/CVE-2021-22005](https://github.com/1ZRR4H/CVE-2021-22005)
 - [pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-22005-scanning-activity)
 - [X1pe0/VMWare-CVE-Check](https://github.com/X1pe0/VMWare-CVE-Check)
 - [5gstudent/CVE-2021-22005-](https://github.com/5gstudent/CVE-2021-22005-)
@@ -1345,7 +1348,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
-- [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
 - [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
 - [thomsdev/CVE-2021-26084](https://github.com/thomsdev/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
@@ -2582,12 +2584,8 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 </code>
 
 - [corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647)
-- [marcosimioni/omigood](https://github.com/marcosimioni/omigood)
 - [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
-- [SimenBai/CVE-2021-38647-POC-and-Demo-environment](https://github.com/SimenBai/CVE-2021-38647-POC-and-Demo-environment)
 - [AlteredSecurity/CVE-2021-38647](https://github.com/AlteredSecurity/CVE-2021-38647)
-- [m1thryn/CVE-2021-38647](https://github.com/m1thryn/CVE-2021-38647)
-- [abousteif/cve-2021-38647](https://github.com/abousteif/cve-2021-38647)
 - [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
 - [fr34kyy/omigod](https://github.com/fr34kyy/omigod)
 
@@ -2691,7 +2689,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
-- [Edubr2020/CVE-2021-40444--CABless](https://github.com/Edubr2020/CVE-2021-40444--CABless)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
 - [LazarusReborn/Docx-Exploit-2021](https://github.com/LazarusReborn/Docx-Exploit-2021)
 - [H0j3n/CVE-2021-40444](https://github.com/H0j3n/CVE-2021-40444)
@@ -2767,14 +2764,6 @@ An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestr
 - [0xAgun/CVE-2021-40870](https://github.com/0xAgun/CVE-2021-40870)
 - [thomsdev/CVE-2021-40870](https://github.com/thomsdev/CVE-2021-40870)
 - [JoyGhoshs/CVE-2021-40870](https://github.com/JoyGhoshs/CVE-2021-40870)
-
-### CVE-2021-40875 (2021-09-22)
-
-<code>
-Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in sensitive information exposure. A threat actor can access the /files.md5 file on the client side of a Gurock TestRail application, disclosing a full list of application files and the corresponding file paths. The corresponding file paths can be tested, and in some cases, result in the disclosure of hardcoded credentials, API keys, or other sensitive data.
-</code>
-
-- [SakuraSamuraii/derailed](https://github.com/SakuraSamuraii/derailed)
 
 ### CVE-2021-40904
 - [Edgarloyola/CVE-2021-40904](https://github.com/Edgarloyola/CVE-2021-40904)
@@ -3868,6 +3857,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [robrankin/cve-2021-44228-waf-tests](https://github.com/robrankin/cve-2021-44228-waf-tests)
 - [semelnyk/CVE-2021-44228-ScannersListFromRF](https://github.com/semelnyk/CVE-2021-44228-ScannersListFromRF)
 - [ThanhHien98/Log4j](https://github.com/ThanhHien98/Log4j)
+- [ThanhHien98/CVE-2021-44228](https://github.com/ThanhHien98/CVE-2021-44228)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
