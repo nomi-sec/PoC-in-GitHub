@@ -580,6 +580,14 @@ A flaw was found in podman. The `podman machine` function (used to create and ma
 
 - [deoxykev/CVE-2021-4024-Rust](https://github.com/deoxykev/CVE-2021-4024-Rust)
 
+### CVE-2021-4032 (2022-01-21)
+
+<code>
+A vulnerability was found in the Linux kernel's KVM subsystem in arch/x86/kvm/lapic.c kvm_free_lapic when a failure allocation was detected. In this flaw the KVM subsystem may crash the kernel due to mishandling of memory errors that happens during VCPU construction, which allows an attacker with special user privilege to cause a denial of service. This flaw affects kernel versions prior to 5.15 rc7.
+</code>
+
+- [EstamelGG/CVE-2021-4032-NoGCC](https://github.com/EstamelGG/CVE-2021-4032-NoGCC)
+
 ### CVE-2021-4034
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
 - [lourkeur/cve-2021-4034-playground](https://github.com/lourkeur/cve-2021-4034-playground)
@@ -650,6 +658,9 @@ A flaw was found in podman. The `podman machine` function (used to create and ma
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit)
 - [MedKH1684/Pwnkit-CVE-2021-4034](https://github.com/MedKH1684/Pwnkit-CVE-2021-4034)
+- [pengalaman-1t/CVE-2021-4034](https://github.com/pengalaman-1t/CVE-2021-4034)
+- [n3onhacks/CVE-2021-4034-BASH-One-File-Exploit](https://github.com/n3onhacks/CVE-2021-4034-BASH-One-File-Exploit)
+- [jpmcb/pwnkit-go](https://github.com/jpmcb/pwnkit-go)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -966,7 +977,6 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 </code>
 
 - [r0ckysec/CVE-2021-22005](https://github.com/r0ckysec/CVE-2021-22005)
-- [RedTeamExp/CVE-2021-22005_PoC](https://github.com/RedTeamExp/CVE-2021-22005_PoC)
 - [rwincey/CVE-2021-22005](https://github.com/rwincey/CVE-2021-22005)
 - [TaroballzChen/CVE-2021-22005-metasploit](https://github.com/TaroballzChen/CVE-2021-22005-metasploit)
 - [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
@@ -1244,14 +1254,6 @@ The Frontend Uploader WordPress plugin through 1.3.2 does not prevent HTML files
 </code>
 
 - [V35HR4J/CVE-2021-24563](https://github.com/V35HR4J/CVE-2021-24563)
-
-### CVE-2021-24741 (2021-09-20)
-
-<code>
-The Support Board WordPress plugin before 3.3.4 does not escape multiple POST parameters (such as status_code, department, user_id, conversation_id, conversation_status_code, and recipient_id) before using them in SQL statements, leading to SQL injections which are exploitable by unauthenticated users.
-</code>
-
-- [itsjeffersonli/CVE-2021-24741](https://github.com/itsjeffersonli/CVE-2021-24741)
 
 ### CVE-2021-24750 (2021-12-21)
 
@@ -2438,14 +2440,6 @@ A command injection vulnerability in the web server of some Hikvision product. D
 - [TaroballzChen/CVE-2021-36260-metasploit](https://github.com/TaroballzChen/CVE-2021-36260-metasploit)
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 
-### CVE-2021-36563 (2021-07-26)
-
-<code>
-The CheckMK management web console (versions 1.5.0 to 2.0.0) does not sanitise user input in various parameters of the WATO module. This allows an attacker to open a backdoor on the device with HTML content and interpreted by the browser (such as JavaScript or other client-side scripts), the XSS payload will be triggered when the user accesses some specific sections of the application. In the same sense a very dangerous potential way would be when an attacker who has the monitor role (not administrator) manages to get a stored XSS to steal the secretAutomation (for the use of the API in administrator mode) and thus be able to create another administrator user who has high privileges on the CheckMK monitoring web console. Another way is that persistent XSS allows an attacker to modify the displayed content or change the victim's information. Successful exploitation requires access to the web management interface, either with valid credentials or with a hijacked session.
-</code>
-
-- [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
-
 ### CVE-2021-36749 (2021-09-24)
 
 <code>
@@ -2578,7 +2572,6 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 </code>
 
 - [corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647)
-- [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
 - [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
 
 ### CVE-2021-38666 (2021-11-09)
@@ -2655,7 +2648,6 @@ NXP LPC55S69 devices before A3 have a buffer over-read via a crafted wlength val
 An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can be exploited to perform an HTTP request smuggling attack, allowing an attacker to bypass all configured http-request HAProxy ACLs and possibly other ACLs.
 </code>
 
-- [donky16/CVE-2021-40346-POC](https://github.com/donky16/CVE-2021-40346-POC)
 - [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 - [alexOarga/CVE-2021-40346](https://github.com/alexOarga/CVE-2021-40346)
 
@@ -3363,6 +3355,14 @@ Barcode is a GLPI plugin for printing barcodes and QR codes. GLPI instances vers
 </code>
 
 - [AK-blank/CVE-2021-43778](https://github.com/AK-blank/CVE-2021-43778)
+
+### CVE-2021-43789 (2021-12-07)
+
+<code>
+PrestaShop is an Open Source e-commerce web application. Versions of PrestaShop prior to 1.7.8.2 are vulnerable to blind SQL injection using search filters with `orderBy` and `sortOrder` parameters. The problem is fixed in version 1.7.8.2.
+</code>
+
+- [numanturle/CVE-2021-43789](https://github.com/numanturle/CVE-2021-43789)
 
 ### CVE-2021-43798 (2021-12-07)
 
@@ -8588,6 +8588,14 @@ Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyf
 </code>
 
 - [ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583)
+
+### CVE-2020-29599 (2020-12-07)
+
+<code>
+ImageMagick before 6.9.11-40 and 7.x before 7.0.10-40 mishandles the -authenticate option, which allows setting a password for password-protected PDF files. The user-controlled password was not properly escaped/sanitized and it was therefore possible to inject additional shell commands via coders/pdf.c.
+</code>
+
+- [genjix2/CVE-2020-29599](https://github.com/genjix2/CVE-2020-29599)
 
 ### CVE-2020-29666 (2020-12-10)
 
