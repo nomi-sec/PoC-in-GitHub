@@ -178,7 +178,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
 - [ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare)
-- [Wra7h/SharpPN](https://github.com/Wra7h/SharpPN)
 - [OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare)
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
 
@@ -650,6 +649,7 @@ A flaw was found in podman. The `podman machine` function (used to create and ma
 - [rayheffer/CVE-2021-4034](https://github.com/rayheffer/CVE-2021-4034)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit)
+- [MedKH1684/Pwnkit-CVE-2021-4034](https://github.com/MedKH1684/Pwnkit-CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -1318,7 +1318,7 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 
 - [yaunsky/cve-2021-25646](https://github.com/yaunsky/cve-2021-25646)
 - [lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646)
-- [AirEvan/CVE-2021-25646-GUI](https://github.com/AirEvan/CVE-2021-25646-GUI)
+- [Ormicron/CVE-2021-25646-GUI](https://github.com/Ormicron/CVE-2021-25646-GUI)
 - [Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646)
 - [Yang0615777/PocList](https://github.com/Yang0615777/PocList)
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
@@ -2580,7 +2580,6 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 - [corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647)
 - [craig-m-unsw/omigod-lab](https://github.com/craig-m-unsw/omigod-lab)
 - [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
-- [fr34kyy/omigod](https://github.com/fr34kyy/omigod)
 
 ### CVE-2021-38666 (2021-11-09)
 
@@ -3971,6 +3970,9 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 
 ### CVE-2021-45383
 - [nt1dr/CVE-2021-45383](https://github.com/nt1dr/CVE-2021-45383)
+
+### CVE-2021-45416
+- [86x/CVE-2021-45416](https://github.com/86x/CVE-2021-45416)
 
 ### CVE-2021-45744 (2022-01-06)
 
@@ -7243,7 +7245,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [mmioimm/cve-2020-14882](https://github.com/mmioimm/cve-2020-14882)
 - [QmF0c3UK/CVE-2020-14882](https://github.com/QmF0c3UK/CVE-2020-14882)
 - [murataydemir/CVE-2020-14882](https://github.com/murataydemir/CVE-2020-14882)
-- [AirEvan/CVE-2020-14882-GUI-Test](https://github.com/AirEvan/CVE-2020-14882-GUI-Test)
+- [Ormicron/CVE-2020-14882-GUI-Test](https://github.com/Ormicron/CVE-2020-14882-GUI-Test)
 - [corelight/CVE-2020-14882-weblogicRCE](https://github.com/corelight/CVE-2020-14882-weblogicRCE)
 - [xfiftyone/CVE-2020-14882](https://github.com/xfiftyone/CVE-2020-14882)
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
@@ -15251,7 +15253,7 @@ Flash Player versions 31.0.0.153 and earlier, and 31.0.0.108 and earlier have a 
 </code>
 
 - [FlatL1neAPT/CVE-2018-15982](https://github.com/FlatL1neAPT/CVE-2018-15982)
-- [AirEvan/CVE-2018-15982_PoC](https://github.com/AirEvan/CVE-2018-15982_PoC)
+- [Ormicron/CVE-2018-15982_PoC](https://github.com/Ormicron/CVE-2018-15982_PoC)
 - [Ridter/CVE-2018-15982_EXP](https://github.com/Ridter/CVE-2018-15982_EXP)
 - [kphongagsorn/adobe-flash-cve2018-15982](https://github.com/kphongagsorn/adobe-flash-cve2018-15982)
 - [jas502n/CVE-2018-15982_EXP_IE](https://github.com/jas502n/CVE-2018-15982_EXP_IE)
