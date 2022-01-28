@@ -661,6 +661,8 @@ A vulnerability was found in the Linux kernel's KVM subsystem in arch/x86/kvm/la
 - [pengalaman-1t/CVE-2021-4034](https://github.com/pengalaman-1t/CVE-2021-4034)
 - [n3onhacks/CVE-2021-4034-BASH-One-File-Exploit](https://github.com/n3onhacks/CVE-2021-4034-BASH-One-File-Exploit)
 - [jpmcb/pwnkit-go](https://github.com/jpmcb/pwnkit-go)
+- [JoyGhoshs/CVE-2021-4034](https://github.com/JoyGhoshs/CVE-2021-4034)
+- [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -977,7 +979,6 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 </code>
 
 - [r0ckysec/CVE-2021-22005](https://github.com/r0ckysec/CVE-2021-22005)
-- [rwincey/CVE-2021-22005](https://github.com/rwincey/CVE-2021-22005)
 - [TaroballzChen/CVE-2021-22005-metasploit](https://github.com/TaroballzChen/CVE-2021-22005-metasploit)
 - [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
@@ -2674,7 +2675,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
-- [LazarusReborn/Docx-Exploit-2021](https://github.com/LazarusReborn/Docx-Exploit-2021)
 - [H0j3n/CVE-2021-40444](https://github.com/H0j3n/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
 - [TiagoSergio/CVE-2021-40444](https://github.com/TiagoSergio/CVE-2021-40444)
