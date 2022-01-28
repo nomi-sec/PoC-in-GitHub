@@ -663,6 +663,15 @@ A vulnerability was found in the Linux kernel's KVM subsystem in arch/x86/kvm/la
 - [jpmcb/pwnkit-go](https://github.com/jpmcb/pwnkit-go)
 - [JoyGhoshs/CVE-2021-4034](https://github.com/JoyGhoshs/CVE-2021-4034)
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
+- [Yakumwamba/POC-CVE-2021-4034](https://github.com/Yakumwamba/POC-CVE-2021-4034)
+- [Pr0f3ssor/CVE-2021-4034](https://github.com/Pr0f3ssor/CVE-2021-4034)
+- [Sakura-nee/CVE-2021-4034](https://github.com/Sakura-nee/CVE-2021-4034)
+- [oreosec/pwnkit](https://github.com/oreosec/pwnkit)
+- [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
+- [Rvn0xsy/CVE-2021-4034](https://github.com/Rvn0xsy/CVE-2021-4034)
+- [Kirill89/CVE-2021-4034](https://github.com/Kirill89/CVE-2021-4034)
+- [qq224015/CVE-2021-4034](https://github.com/qq224015/CVE-2021-4034)
+- [n3onhacks/CVE-2021-4034](https://github.com/n3onhacks/CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -985,14 +994,6 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
 - [timb-machine-mirrors/CVE-2021-22005](https://github.com/timb-machine-mirrors/CVE-2021-22005)
 
-### CVE-2021-22015 (2021-09-23)
-
-<code>
-The vCenter Server contains multiple local privilege escalation vulnerabilities due to improper permissions of files and directories. An authenticated local user with non-administrative privilege may exploit these issues to elevate their privileges to root on vCenter Server Appliance.
-</code>
-
-- [PenteraIO/vScalation-CVE-2021-22015](https://github.com/PenteraIO/vScalation-CVE-2021-22015)
-
 ### CVE-2021-22053 (2021-11-19)
 
 <code>
@@ -1081,14 +1082,6 @@ When requests to the internal network for webhooks are enabled, a server-side re
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 - [antx-code/CVE-2021-22214](https://github.com/antx-code/CVE-2021-22214)
 - [kh4sh3i/GitLab-SSRF-CVE-2021-22214](https://github.com/kh4sh3i/GitLab-SSRF-CVE-2021-22214)
-
-### CVE-2021-22555 (2021-07-07)
-
-<code>
-A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space
-</code>
-
-- [daletoniris/CVE-2021-22555-esc-priv](https://github.com/daletoniris/CVE-2021-22555-esc-priv)
 
 ### CVE-2021-22569 (2022-01-07)
 
@@ -1279,14 +1272,6 @@ The Formidable Form Builder WordPress plugin before 4.09.05 allows to inject cer
 </code>
 
 - [S1lkys/CVE-2021-24884](https://github.com/S1lkys/CVE-2021-24884)
-
-### CVE-2021-25162 (2021-03-29)
-
-<code>
-A remote execution of arbitrary commands vulnerability was discovered in some Aruba Instant Access Point (IAP) products in version(s): Aruba Instant 6.4.x: 6.4.4.8-4.2.4.17 and below; Aruba Instant 6.5.x: 6.5.4.18 and below; Aruba Instant 8.3.x: 8.3.0.14 and below; Aruba Instant 8.5.x: 8.5.0.11 and below; Aruba Instant 8.6.x: 8.6.0.7 and below; Aruba Instant 8.7.x: 8.7.1.1 and below. Aruba has released patches for Aruba Instant that address this security vulnerability.
-</code>
-
-- [twentybel0w/CVE-2021-25162](https://github.com/twentybel0w/CVE-2021-25162)
 
 ### CVE-2021-25281 (2021-02-26)
 
@@ -2370,21 +2355,12 @@ Telenot CompasX versions prior to 32.0 use a weak seed for random number generat
 
 - [x41sec/CVE-2021-34600](https://github.com/x41sec/CVE-2021-34600)
 
-### CVE-2021-34730 (2021-08-18)
-
-<code>
-A vulnerability in the Universal Plug-and-Play (UPnP) service of Cisco Small Business RV110W, RV130, RV130W, and RV215W Routers could allow an unauthenticated, remote attacker to execute arbitrary code or cause an affected device to restart unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to improper validation of incoming UPnP traffic. An attacker could exploit this vulnerability by sending a crafted UPnP request to an affected device. A successful exploit could allow the attacker to execute arbitrary code as the root user on the underlying operating system or cause the device to reload, resulting in a DoS condition. Cisco has not released software updates that address this vulnerability.
-</code>
-
-- [badmonkey7/CVE-2021-34730](https://github.com/badmonkey7/CVE-2021-34730)
-
 ### CVE-2021-35211 (2021-07-14)
 
 <code>
 Microsoft discovered a remote code execution (RCE) vulnerability in the SolarWinds Serv-U product utilizing a Remote Memory Escape Vulnerability. If exploited, a threat actor may be able to gain privileged access to the machine hosting Serv-U Only. SolarWinds Serv-U Managed File Transfer and Serv-U Secure FTP for Windows before 15.2.3 HF2 are affected by this vulnerability.
 </code>
 
-- [NattiSamson/Serv-U-CVE-2021-35211](https://github.com/NattiSamson/Serv-U-CVE-2021-35211)
 - [BishopFox/CVE-2021-35211](https://github.com/BishopFox/CVE-2021-35211)
 
 ### CVE-2021-35215 (2021-09-01)
@@ -2573,7 +2549,6 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 </code>
 
 - [corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647)
-- [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
 
 ### CVE-2021-38666 (2021-11-09)
 
@@ -2670,7 +2645,6 @@ A crafted request uri-path can cause mod_proxy to forward the request to an orig
 Microsoft MSHTML Remote Code Execution Vulnerability
 </code>
 
-- [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
@@ -2855,30 +2829,6 @@ Remote Code Execution (RCE) vulnerability exists in Sourcecodester Online Review
 </code>
 
 - [hax3xploit/CVE-2021-41646](https://github.com/hax3xploit/CVE-2021-41646)
-
-### CVE-2021-41647 (2021-10-01)
-
-<code>
-An un-authenticated error-based and time-based blind SQL injection vulnerability exists in Kaushik Jadhav Online Food Ordering Web App 1.0. An attacker can exploit the vulnerable &quot;username&quot; parameter in login.php and retrieve sensitive database information, as well as add an administrative user.
-</code>
-
-- [MobiusBinary/CVE-2021-41647](https://github.com/MobiusBinary/CVE-2021-41647)
-
-### CVE-2021-41648 (2021-10-01)
-
-<code>
-An un-authenticated SQL Injection exists in PuneethReddyHC online-shopping-system-advanced through the /action.php prId parameter. Using a post request does not sanitize the user input.
-</code>
-
-- [MobiusBinary/CVE-2021-41648](https://github.com/MobiusBinary/CVE-2021-41648)
-
-### CVE-2021-41649 (2021-10-01)
-
-<code>
-An un-authenticated SQL Injection exists in PuneethReddyHC online-shopping-system-advanced through the /homeaction.php cat_id parameter. Using a post request does not sanitize the user input.
-</code>
-
-- [MobiusBinary/CVE-2021-41649](https://github.com/MobiusBinary/CVE-2021-41649)
 
 ### CVE-2021-41651 (2021-10-04)
 
@@ -3850,6 +3800,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [semelnyk/CVE-2021-44228-ScannersListFromRF](https://github.com/semelnyk/CVE-2021-44228-ScannersListFromRF)
 - [ThanhHien98/Log4j](https://github.com/ThanhHien98/Log4j)
 - [ThanhHien98/CVE-2021-44228](https://github.com/ThanhHien98/CVE-2021-44228)
+- [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
