@@ -647,7 +647,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [nobelh/CVE-2020-4034](https://github.com/nobelh/CVE-2020-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
 - [T3cnokarita/CVE-2021-4034](https://github.com/T3cnokarita/CVE-2021-4034)
-- [0xBruno/CVE-2021-4034](https://github.com/0xBruno/CVE-2021-4034)
 - [cd80-ctf/CVE-2021-4034](https://github.com/cd80-ctf/CVE-2021-4034)
 - [Al1ex/CVE-2021-4034](https://github.com/Al1ex/CVE-2021-4034)
 - [puckiestyle/CVE-2021-4034](https://github.com/puckiestyle/CVE-2021-4034)
@@ -2835,6 +2834,14 @@ Remote Code Execution (RCE) vulnerability exists in Sourcecodester Online Review
 </code>
 
 - [hax3xploit/CVE-2021-41646](https://github.com/hax3xploit/CVE-2021-41646)
+
+### CVE-2021-41651 (2021-10-04)
+
+<code>
+A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel-mgmt-system. A malicious attacker can retrieve sensitive database information and interact with the database using the vulnerable cid parameter in process_update_profile.php.
+</code>
+
+- [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
 
 ### CVE-2021-41653 (2021-11-13)
 
@@ -12763,6 +12770,7 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 - [scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114)
 - [RyouYoo/CVE-2018-0114](https://github.com/RyouYoo/CVE-2018-0114)
 - [mmeza-developer/CVE-2018-0114](https://github.com/mmeza-developer/CVE-2018-0114)
+- [CyberSecurityUP/CVE-2018-0114-Exploit](https://github.com/CyberSecurityUP/CVE-2018-0114-Exploit)
 
 ### CVE-2018-0202 (2018-03-27)
 
@@ -16146,6 +16154,7 @@ Windows COM Aggregate Marshaler in Microsoft Windows Server 2008 SP2 and R2 SP1,
 - [jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213)
 - [eonrickity/CVE-2017-0213](https://github.com/eonrickity/CVE-2017-0213)
 - [Jos675/CVE-2017-0213-Exploit](https://github.com/Jos675/CVE-2017-0213-Exploit)
+- [Anonymous-Family/CVE-2017-0213](https://github.com/Anonymous-Family/CVE-2017-0213)
 
 ### CVE-2017-0248 (2017-05-12)
 
@@ -21518,6 +21527,14 @@ LOCKON EC-CUBE 2.11.2 through 2.12.4 allows remote attackers to conduct unspecif
 </code>
 
 - [motikan2010/CVE-2013-3651](https://github.com/motikan2010/CVE-2013-3651)
+
+### CVE-2013-3660 (2013-05-24)
+
+<code>
+The EPATHOBJ::pprFlattenRec function in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, and Windows Server 2012 does not properly initialize a pointer for the next object in a certain list, which allows local users to obtain write access to the PATHRECORD chain, and consequently gain privileges, by triggering excessive consumption of paged memory and then making many FlattenPath function calls, aka &quot;Win32k Read AV Vulnerability.&quot;
+</code>
+
+- [ExploitCN/CVE-2013-3660-x64-WIN7](https://github.com/ExploitCN/CVE-2013-3660-x64-WIN7)
 
 ### CVE-2013-3664 (2014-07-01)
 
