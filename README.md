@@ -147,6 +147,9 @@ In TightVNC 1.3.10, there is an integer signedness error and resultant heap-base
 
 - [MaherAzzouzi/CVE-2022-23967](https://github.com/MaherAzzouzi/CVE-2022-23967)
 
+### CVE-2022-24032
+- [jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032)
+
 
 ## 2021
 ### CVE-2021-0928 (2021-12-15)
@@ -687,6 +690,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [glowbase/CVE-2021-4034](https://github.com/glowbase/CVE-2021-4034)
 - [sofire/polkit-0.96-CVE-2021-4034](https://github.com/sofire/polkit-0.96-CVE-2021-4034)
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
+- [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -1002,7 +1006,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 The vCenter Server contains an arbitrary file upload vulnerability in the Analytics service. A malicious actor with network access to port 443 on vCenter Server may exploit this issue to execute code on vCenter Server by uploading a specially crafted file.
 </code>
 
-- [TaroballzChen/CVE-2021-22005-metasploit](https://github.com/TaroballzChen/CVE-2021-22005-metasploit)
 - [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
@@ -16120,7 +16123,7 @@ Microsoft Office 2007 SP3, Microsoft Office 2010 SP2, Microsoft Office 2013 SP1,
 - [NotAwful/CVE-2017-0199-Fix](https://github.com/NotAwful/CVE-2017-0199-Fix)
 - [haibara3839/CVE-2017-0199-master](https://github.com/haibara3839/CVE-2017-0199-master)
 - [Exploit-install/CVE-2017-0199](https://github.com/Exploit-install/CVE-2017-0199)
-- [zakybstrd21215/PoC-CVE-2017-0199](https://github.com/zakybstrd21215/PoC-CVE-2017-0199)
+- [mzakyz666/PoC-CVE-2017-0199](https://github.com/mzakyz666/PoC-CVE-2017-0199)
 - [n1shant-sinha/CVE-2017-0199](https://github.com/n1shant-sinha/CVE-2017-0199)
 - [kn0wm4d/htattack](https://github.com/kn0wm4d/htattack)
 - [joke998/Cve-2017-0199](https://github.com/joke998/Cve-2017-0199)
@@ -16452,7 +16455,7 @@ A vulnerability in the Cisco Cluster Management Protocol (CMP) processing code i
 - [artkond/cisco-rce](https://github.com/artkond/cisco-rce)
 - [homjxi0e/CVE-2017-3881-exploit-cisco-](https://github.com/homjxi0e/CVE-2017-3881-exploit-cisco-)
 - [homjxi0e/CVE-2017-3881-Cisco](https://github.com/homjxi0e/CVE-2017-3881-Cisco)
-- [zakybstrd21215/PoC-CVE-2017-3881](https://github.com/zakybstrd21215/PoC-CVE-2017-3881)
+- [mzakyz666/PoC-CVE-2017-3881](https://github.com/mzakyz666/PoC-CVE-2017-3881)
 - [1337g/CVE-2017-3881](https://github.com/1337g/CVE-2017-3881)
 
 ### CVE-2017-4490
@@ -18840,6 +18843,14 @@ server/LockSettingsService.java in LockSettingsService in Android 6.x before 201
 </code>
 
 - [nirdev/CVE-2016-3749-PoC](https://github.com/nirdev/CVE-2016-3749-PoC)
+
+### CVE-2016-3861 (2016-09-11)
+
+<code>
+LibUtils in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-09-01, and 7.0 before 2016-09-01 mishandles conversions between Unicode character encodings with different encoding widths, which allows remote attackers to execute arbitrary code or cause a denial of service (heap-based buffer overflow) via a crafted file, aka internal bug 29250543.
+</code>
+
+- [dropk1ck/CVE-2016-3861](https://github.com/dropk1ck/CVE-2016-3861)
 
 ### CVE-2016-3955 (2016-07-03)
 
