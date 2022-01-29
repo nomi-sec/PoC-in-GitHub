@@ -588,7 +588,12 @@ A vulnerability was found in the Linux kernel's KVM subsystem in arch/x86/kvm/la
 
 - [EstamelGG/CVE-2021-4032-NoGCC](https://github.com/EstamelGG/CVE-2021-4032-NoGCC)
 
-### CVE-2021-4034
+### CVE-2021-4034 (2022-01-28)
+
+<code>
+A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+</code>
+
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
 - [lourkeur/cve-2021-4034-playground](https://github.com/lourkeur/cve-2021-4034-playground)
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
@@ -628,7 +633,7 @@ A vulnerability was found in the Linux kernel's KVM subsystem in arch/x86/kvm/la
 - [azminawwar/CVE-2021-4034](https://github.com/azminawwar/CVE-2021-4034)
 - [PeterGottesman/pwnkit-exploit](https://github.com/PeterGottesman/pwnkit-exploit)
 - [sunny0day/CVE-2021-4034](https://github.com/sunny0day/CVE-2021-4034)
-- [mike-artemis/cve-2021-4034](https://github.com/mike-artemis/cve-2021-4034)
+- [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
 - [dadvlingd/-CVE-2021-4034](https://github.com/dadvlingd/-CVE-2021-4034)
 - [zcrosman/cve-2021-4034](https://github.com/zcrosman/cve-2021-4034)
@@ -672,6 +677,7 @@ A vulnerability was found in the Linux kernel's KVM subsystem in arch/x86/kvm/la
 - [Kirill89/CVE-2021-4034](https://github.com/Kirill89/CVE-2021-4034)
 - [qq224015/CVE-2021-4034](https://github.com/qq224015/CVE-2021-4034)
 - [n3onhacks/CVE-2021-4034](https://github.com/n3onhacks/CVE-2021-4034)
+- [glowbase/CVE-2021-4034](https://github.com/glowbase/CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -2829,14 +2835,6 @@ Remote Code Execution (RCE) vulnerability exists in Sourcecodester Online Review
 </code>
 
 - [hax3xploit/CVE-2021-41646](https://github.com/hax3xploit/CVE-2021-41646)
-
-### CVE-2021-41651 (2021-10-04)
-
-<code>
-A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel-mgmt-system. A malicious attacker can retrieve sensitive database information and interact with the database using the vulnerable cid parameter in process_update_profile.php.
-</code>
-
-- [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
 
 ### CVE-2021-41653 (2021-11-13)
 
@@ -15352,6 +15350,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763)
 - [1nf1n17yk1ng/CVE-2018-16763](https://github.com/1nf1n17yk1ng/CVE-2018-16763)
 - [BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust)
+- [NaturalT314/CVE-2018-16763](https://github.com/NaturalT314/CVE-2018-16763)
 
 ### CVE-2018-16809 (2019-03-07)
 
