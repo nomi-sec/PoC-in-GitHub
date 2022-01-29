@@ -149,6 +149,14 @@ In TightVNC 1.3.10, there is an integer signedness error and resultant heap-base
 
 
 ## 2021
+### CVE-2021-0928 (2021-12-15)
+
+<code>
+In createFromParcel of OutputConfiguration.java, there is a possible parcel serialization/deserialization mismatch due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-9Android ID: A-188675581
+</code>
+
+- [michalbednarski/ReparcelBug2](https://github.com/michalbednarski/ReparcelBug2)
+
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -677,6 +685,8 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [qq224015/CVE-2021-4034](https://github.com/qq224015/CVE-2021-4034)
 - [n3onhacks/CVE-2021-4034](https://github.com/n3onhacks/CVE-2021-4034)
 - [glowbase/CVE-2021-4034](https://github.com/glowbase/CVE-2021-4034)
+- [sofire/polkit-0.96-CVE-2021-4034](https://github.com/sofire/polkit-0.96-CVE-2021-4034)
+- [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -992,7 +1002,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 The vCenter Server contains an arbitrary file upload vulnerability in the Analytics service. A malicious actor with network access to port 443 on vCenter Server may exploit this issue to execute code on vCenter Server by uploading a specially crafted file.
 </code>
 
-- [r0ckysec/CVE-2021-22005](https://github.com/r0ckysec/CVE-2021-22005)
 - [TaroballzChen/CVE-2021-22005-metasploit](https://github.com/TaroballzChen/CVE-2021-22005-metasploit)
 - [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
@@ -1351,7 +1360,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
-- [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
 - [thomsdev/CVE-2021-26084](https://github.com/thomsdev/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
@@ -2834,14 +2842,6 @@ Remote Code Execution (RCE) vulnerability exists in Sourcecodester Online Review
 </code>
 
 - [hax3xploit/CVE-2021-41646](https://github.com/hax3xploit/CVE-2021-41646)
-
-### CVE-2021-41651 (2021-10-04)
-
-<code>
-A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel-mgmt-system. A malicious attacker can retrieve sensitive database information and interact with the database using the vulnerable cid parameter in process_update_profile.php.
-</code>
-
-- [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
 
 ### CVE-2021-41653 (2021-11-13)
 
