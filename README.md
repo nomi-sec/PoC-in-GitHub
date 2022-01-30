@@ -119,7 +119,12 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hosp
 
 - [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
 
-### CVE-2022-22919
+### CVE-2022-22919 (2022-01-29)
+
+<code>
+Adenza AxiomSL ControllerView through 10.8.1 allows redirection for SSO login URLs.
+</code>
+
 - [jdordonezn/CVE-2022-22919](https://github.com/jdordonezn/CVE-2022-22919)
 
 ### CVE-2022-23046 (2022-01-19)
@@ -147,7 +152,12 @@ In TightVNC 1.3.10, there is an integer signedness error and resultant heap-base
 
 - [MaherAzzouzi/CVE-2022-23967](https://github.com/MaherAzzouzi/CVE-2022-23967)
 
-### CVE-2022-24032
+### CVE-2022-24032 (2022-01-29)
+
+<code>
+Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. An attacker can identify valid usernames on the platform because a failed login attempt produces a different error message when the username is valid.
+</code>
+
 - [jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032)
 
 
@@ -191,6 +201,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare)
 - [OppressionBreedsResistance/CVE-2021-1675-PrintNightmare](https://github.com/OppressionBreedsResistance/CVE-2021-1675-PrintNightmare)
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
+- [AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -692,6 +703,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
 - [TW-D/PwnKit-Vulnerability_CVE-2021-4034](https://github.com/TW-D/PwnKit-Vulnerability_CVE-2021-4034)
 - [OxWeb4/CVE-2021-4034-](https://github.com/OxWeb4/CVE-2021-4034-)
+- [navisec/CVE-2021-4034-PwnKit](https://github.com/navisec/CVE-2021-4034-PwnKit)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -1060,6 +1072,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [LazyTitan33/CVE-2021-22204](https://github.com/LazyTitan33/CVE-2021-22204)
+- [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -1256,7 +1269,6 @@ The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_
 The WP HTML Author Bio WordPress plugin through 1.2.0 does not sanitise the HTML allowed in the Bio of users, allowing them to use malicious JavaScript code, which will be executed when anyone visit a post in the frontend made by such user. As a result, user with a role as low as author could perform Cross-Site Scripting attacks against users, which could potentially lead to privilege escalation when an admin view the related post/s.
 </code>
 
-- [V35HR4J/CVE-2021-24545](https://github.com/V35HR4J/CVE-2021-24545)
 - [dnr6419/CVE-2021-24545](https://github.com/dnr6419/CVE-2021-24545)
 
 ### CVE-2021-24563 (2021-10-11)
@@ -2592,14 +2604,6 @@ The Zoomsounds plugin &lt;= 6.45 for WordPress allows arbitrary files, including
 
 - [anggoroexe/Mass_CVE-2021-39316](https://github.com/anggoroexe/Mass_CVE-2021-39316)
 
-### CVE-2021-39433 (2021-10-04)
-
-<code>
-A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive v1.83 and below when sending a specific payload as the file parameter to download/index.php. This allows the attacker to read arbitrary files from the server with the permissions of the configured web-user.
-</code>
-
-- [PinkDraconian/CVE-2021-39433](https://github.com/PinkDraconian/CVE-2021-39433)
-
 ### CVE-2021-39623 (2022-01-14)
 
 <code>
@@ -2748,14 +2752,6 @@ An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestr
 
 ### CVE-2021-40906
 - [Edgarloyola/CVE-2021-40906](https://github.com/Edgarloyola/CVE-2021-40906)
-
-### CVE-2021-40978 (2021-10-07)
-
-<code>
-** DISPUTED ** The mkdocs 1.2.2 built-in dev-server allows directory traversal using the port 8000, enabling remote exploitation to obtain :sensitive information. NOTE: the vendor has disputed this as described in https://github.com/mkdocs/mkdocs/issues/2601.] and https://github.com/nisdn/CVE-2021-40978/issues/1.
-</code>
-
-- [nisdn/CVE-2021-40978](https://github.com/nisdn/CVE-2021-40978)
 
 ### CVE-2021-41081 (2021-11-10)
 
@@ -8596,6 +8592,14 @@ A remote code execution vulnerability in the installUpdateThemePluginAction func
 </code>
 
 - [ybdegit2020/wonderplugin](https://github.com/ybdegit2020/wonderplugin)
+
+### CVE-2020-35476 (2020-12-16)
+
+<code>
+A remote code execution vulnerability occurs in OpenTSDB through 2.4.0 via command injection in the yrange parameter. The yrange value is written to a gnuplot file in the /tmp directory. This file is then executed via the mygnuplot.sh shell script. (tsd/GraphHandler.java attempted to prevent command injections by blocking backticks but this is insufficient.)
+</code>
+
+- [glowbase/CVE-2020-35476](https://github.com/glowbase/CVE-2020-35476)
 
 ### CVE-2020-35488 (2021-01-05)
 
