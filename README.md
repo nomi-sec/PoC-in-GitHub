@@ -436,6 +436,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
 - [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
+- [litt1eb0yy/CVE-2021-3156](https://github.com/litt1eb0yy/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -697,13 +698,15 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Kirill89/CVE-2021-4034](https://github.com/Kirill89/CVE-2021-4034)
 - [qq224015/CVE-2021-4034](https://github.com/qq224015/CVE-2021-4034)
 - [n3onhacks/CVE-2021-4034](https://github.com/n3onhacks/CVE-2021-4034)
-- [glowbase/CVE-2021-4034](https://github.com/glowbase/CVE-2021-4034)
+- [glowbase/PwnKit-CVE-2021-4034](https://github.com/glowbase/PwnKit-CVE-2021-4034)
 - [sofire/polkit-0.96-CVE-2021-4034](https://github.com/sofire/polkit-0.96-CVE-2021-4034)
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
 - [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
 - [TW-D/PwnKit-Vulnerability_CVE-2021-4034](https://github.com/TW-D/PwnKit-Vulnerability_CVE-2021-4034)
+- [milot/dissecting-pkexec-cve-2021-4034](https://github.com/milot/dissecting-pkexec-cve-2021-4034)
 - [OxWeb4/CVE-2021-4034-](https://github.com/OxWeb4/CVE-2021-4034-)
 - [navisec/CVE-2021-4034-PwnKit](https://github.com/navisec/CVE-2021-4034-PwnKit)
+- [Almorabea/pkexec-exploit](https://github.com/Almorabea/pkexec-exploit)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -1071,7 +1074,6 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
-- [LazyTitan33/CVE-2021-22204](https://github.com/LazyTitan33/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
@@ -1270,14 +1272,6 @@ The WP HTML Author Bio WordPress plugin through 1.2.0 does not sanitise the HTML
 </code>
 
 - [dnr6419/CVE-2021-24545](https://github.com/dnr6419/CVE-2021-24545)
-
-### CVE-2021-24563 (2021-10-11)
-
-<code>
-The Frontend Uploader WordPress plugin through 1.3.2 does not prevent HTML files from being uploaded via its form, allowing unauthenticated user to upload a malicious HTML file containing JavaScript for example, which will be triggered when someone access the file directly
-</code>
-
-- [V35HR4J/CVE-2021-24563](https://github.com/V35HR4J/CVE-2021-24563)
 
 ### CVE-2021-24750 (2021-12-21)
 
@@ -2231,14 +2225,6 @@ check-spelling is a github action which provides CI spell checking. In affected 
 </code>
 
 - [MaximeSchlegel/CVE-2021-32724-Target](https://github.com/MaximeSchlegel/CVE-2021-32724-Target)
-
-### CVE-2021-32790 (2021-07-26)
-
-<code>
-Woocommerce is an open source eCommerce plugin for WordPress. An SQL injection vulnerability impacts all WooCommerce sites running the WooCommerce plugin between version 3.3.0 and 3.3.6. Malicious actors (already) having admin access, or API keys to the WooCommerce site can exploit vulnerable endpoints of `/wp-json/wc/v3/webhooks`, `/wp-json/wc/v2/webhooks` and other webhook listing API. Read-only SQL queries can be executed using this exploit, while data will not be returned, by carefully crafting `search` parameter information can be disclosed using timing and related attacks. Version 3.3.6 is the earliest version of Woocommerce with a patch for this vulnerability. There are no known workarounds other than upgrading.
-</code>
-
-- [LazyTitan33/CVE-2021-32790-PoC](https://github.com/LazyTitan33/CVE-2021-32790-PoC)
 
 ### CVE-2021-32819 (2021-05-14)
 
