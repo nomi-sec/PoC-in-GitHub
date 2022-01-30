@@ -602,14 +602,6 @@ A flaw was found in podman. The `podman machine` function (used to create and ma
 
 - [deoxykev/CVE-2021-4024-Rust](https://github.com/deoxykev/CVE-2021-4024-Rust)
 
-### CVE-2021-4032 (2022-01-21)
-
-<code>
-A vulnerability was found in the Linux kernel's KVM subsystem in arch/x86/kvm/lapic.c kvm_free_lapic when a failure allocation was detected. In this flaw the KVM subsystem may crash the kernel due to mishandling of memory errors that happens during VCPU construction, which allows an attacker with special user privilege to cause a denial of service. This flaw affects kernel versions prior to 5.15 rc7.
-</code>
-
-- [EstamelGG/CVE-2021-4032-NoGCC](https://github.com/EstamelGG/CVE-2021-4032-NoGCC)
-
 ### CVE-2021-4034 (2022-01-28)
 
 <code>
@@ -684,6 +676,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit)
 - [MedKH1684/Pwnkit-CVE-2021-4034](https://github.com/MedKH1684/Pwnkit-CVE-2021-4034)
+- [EstamelGG/CVE-2021-4034-NoGCC](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
 - [pengalaman-1t/CVE-2021-4034](https://github.com/pengalaman-1t/CVE-2021-4034)
 - [n3onhacks/CVE-2021-4034-BASH-One-File-Exploit](https://github.com/n3onhacks/CVE-2021-4034-BASH-One-File-Exploit)
 - [jpmcb/pwnkit-go](https://github.com/jpmcb/pwnkit-go)
@@ -703,6 +696,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
 - [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
 - [TW-D/PwnKit-Vulnerability_CVE-2021-4034](https://github.com/TW-D/PwnKit-Vulnerability_CVE-2021-4034)
+- [OXDBXKXO/go-PwnKit](https://github.com/OXDBXKXO/go-PwnKit)
 - [milot/dissecting-pkexec-cve-2021-4034](https://github.com/milot/dissecting-pkexec-cve-2021-4034)
 - [OxWeb4/CVE-2021-4034-](https://github.com/OxWeb4/CVE-2021-4034-)
 - [navisec/CVE-2021-4034-PwnKit](https://github.com/navisec/CVE-2021-4034-PwnKit)
@@ -1883,14 +1877,6 @@ Grav is a file based Web-platform. Twig processing of static pages can be enable
 </code>
 
 - [CsEnox/CVE-2021-29440](https://github.com/CsEnox/CVE-2021-29440)
-
-### CVE-2021-29441 (2021-04-27)
-
-<code>
-Nacos is a platform designed for dynamic service discovery and configuration and service management. In Nacos before version 1.4.1, when configured to use authentication (-Dnacos.core.auth.enabled=true) Nacos uses the AuthFilter servlet filter to enforce authentication. This filter has a backdoor that enables Nacos servers to bypass this filter and therefore skip authentication checks. This mechanism relies on the user-agent HTTP header so it can be easily spoofed. This issue may allow any user to carry out any administrative tasks on the Nacos server.
-</code>
-
-- [hh-hunter/nacos-cve-2021-29441](https://github.com/hh-hunter/nacos-cve-2021-29441)
 
 ### CVE-2021-29447 (2021-04-15)
 
@@ -18696,22 +18682,6 @@ The Qualcomm TrustZone component in Android before 2016-05-01 on Nexus 5, Nexus 
 - [laginimaineb/cve-2016-2431](https://github.com/laginimaineb/cve-2016-2431)
 - [laginimaineb/ExtractKeyMaster](https://github.com/laginimaineb/ExtractKeyMaster)
 
-### CVE-2016-2434 (2016-05-09)
-
-<code>
-The NVIDIA video driver in Android before 2016-05-01 on Nexus 9 devices allows attackers to gain privileges via a crafted application, aka internal bug 27251090.
-</code>
-
-- [jianqiangzhao/CVE-2016-2434](https://github.com/jianqiangzhao/CVE-2016-2434)
-
-### CVE-2016-2468 (2016-06-12)
-
-<code>
-The Qualcomm GPU driver in Android before 2016-06-01 on Nexus 5, 5X, 6, 6P, and 7 devices allows attackers to gain privileges via a crafted application, aka internal bug 27475454.
-</code>
-
-- [gitcollect/CVE-2016-2468](https://github.com/gitcollect/CVE-2016-2468)
-
 ### CVE-2016-2555 (2017-04-13)
 
 <code>
@@ -18859,14 +18829,6 @@ The Verify function in crypto/dsa/dsa.go in Go before 1.5.4 and 1.6.x before 1.6
 
 - [alexmullins/dsa](https://github.com/alexmullins/dsa)
 
-### CVE-2016-3962 (2016-07-03)
-
-<code>
-Stack-based buffer overflow in the NTP time-server interface on Meinberg IMS-LANTIME M3000, IMS-LANTIME M1000, IMS-LANTIME M500, LANTIME M900, LANTIME M600, LANTIME M400, LANTIME M300, LANTIME M200, LANTIME M100, SyncFire 1100, and LCES devices with firmware before 6.20.004 allows remote attackers to obtain sensitive information, modify data, or cause a denial of service via a crafted parameter in a POST request.
-</code>
-
-- [securifera/CVE-2016-3962-Exploit](https://github.com/securifera/CVE-2016-3962-Exploit)
-
 ### CVE-2016-4010 (2017-01-23)
 
 <code>
@@ -18996,7 +18958,6 @@ GNU wget before 1.18 allows remote servers to write to arbitrary files by redire
 </code>
 
 - [BlueCocoa/CVE-2016-4971](https://github.com/BlueCocoa/CVE-2016-4971)
-- [gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971)
 - [mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971)
 - [dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-)
 
