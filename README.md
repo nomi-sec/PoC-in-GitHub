@@ -9669,6 +9669,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [scumdestroy/CVE-2019-5420.rb](https://github.com/scumdestroy/CVE-2019-5420.rb)
 - [RyouYoo/CVE-2019-5420](https://github.com/RyouYoo/CVE-2019-5420)
 - [mmeza-developer/CVE-2019-5420-RCE](https://github.com/mmeza-developer/CVE-2019-5420-RCE)
+- [CyberSecurityUP/CVE-2019-5420-POC](https://github.com/CyberSecurityUP/CVE-2019-5420-POC)
 
 ### CVE-2019-5427 (2019-04-22)
 
@@ -18682,6 +18683,22 @@ The Qualcomm TrustZone component in Android before 2016-05-01 on Nexus 5, Nexus 
 - [laginimaineb/cve-2016-2431](https://github.com/laginimaineb/cve-2016-2431)
 - [laginimaineb/ExtractKeyMaster](https://github.com/laginimaineb/ExtractKeyMaster)
 
+### CVE-2016-2434 (2016-05-09)
+
+<code>
+The NVIDIA video driver in Android before 2016-05-01 on Nexus 9 devices allows attackers to gain privileges via a crafted application, aka internal bug 27251090.
+</code>
+
+- [jianqiangzhao/CVE-2016-2434](https://github.com/jianqiangzhao/CVE-2016-2434)
+
+### CVE-2016-2468 (2016-06-12)
+
+<code>
+The Qualcomm GPU driver in Android before 2016-06-01 on Nexus 5, 5X, 6, 6P, and 7 devices allows attackers to gain privileges via a crafted application, aka internal bug 27475454.
+</code>
+
+- [gitcollect/CVE-2016-2468](https://github.com/gitcollect/CVE-2016-2468)
+
 ### CVE-2016-2555 (2017-04-13)
 
 <code>
@@ -18829,6 +18846,14 @@ The Verify function in crypto/dsa/dsa.go in Go before 1.5.4 and 1.6.x before 1.6
 
 - [alexmullins/dsa](https://github.com/alexmullins/dsa)
 
+### CVE-2016-3962 (2016-07-03)
+
+<code>
+Stack-based buffer overflow in the NTP time-server interface on Meinberg IMS-LANTIME M3000, IMS-LANTIME M1000, IMS-LANTIME M500, LANTIME M900, LANTIME M600, LANTIME M400, LANTIME M300, LANTIME M200, LANTIME M100, SyncFire 1100, and LCES devices with firmware before 6.20.004 allows remote attackers to obtain sensitive information, modify data, or cause a denial of service via a crafted parameter in a POST request.
+</code>
+
+- [securifera/CVE-2016-3962-Exploit](https://github.com/securifera/CVE-2016-3962-Exploit)
+
 ### CVE-2016-4010 (2017-01-23)
 
 <code>
@@ -18958,6 +18983,7 @@ GNU wget before 1.18 allows remote servers to write to arbitrary files by redire
 </code>
 
 - [BlueCocoa/CVE-2016-4971](https://github.com/BlueCocoa/CVE-2016-4971)
+- [gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971)
 - [mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971)
 - [dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-)
 
