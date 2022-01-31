@@ -569,6 +569,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [curtishoughton/CVE-2021-3560](https://github.com/curtishoughton/CVE-2021-3560)
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
+- [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -701,6 +702,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [OxWeb4/CVE-2021-4034-](https://github.com/OxWeb4/CVE-2021-4034-)
 - [navisec/CVE-2021-4034-PwnKit](https://github.com/navisec/CVE-2021-4034-PwnKit)
 - [Almorabea/pkexec-exploit](https://github.com/Almorabea/pkexec-exploit)
+- [xuntitled/Polkit-pkexec-exploit-for-Linux](https://github.com/xuntitled/Polkit-pkexec-exploit-for-Linux)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -1709,7 +1711,6 @@ In versions 8.2.1 through 8.5.2 of Pega Infinity, the password reset functionali
 
 - [samwcyo/CVE-2021-27651-PoC](https://github.com/samwcyo/CVE-2021-27651-PoC)
 - [Vulnmachines/CVE-2021-27651](https://github.com/Vulnmachines/CVE-2021-27651)
-- [thomsdev/CVE-2021-27651](https://github.com/thomsdev/CVE-2021-27651)
 
 ### CVE-2021-27850 (2021-04-15)
 
@@ -2500,14 +2501,6 @@ A SQL injection vulnerability exists in version 3.0.2 of Hotel Druid when SQLite
 
 - [AK-blank/CVE-2021-37832](https://github.com/AK-blank/CVE-2021-37832)
 
-### CVE-2021-37850 (2021-11-08)
-
-<code>
-ESET was made aware of a vulnerability in its consumer and business products for macOS that enables a user logged on to the system to stop the ESET daemon, effectively disabling the protection of the ESET security product until a system reboot.
-</code>
-
-- [p1atdev/CVE-2021-37850](https://github.com/p1atdev/CVE-2021-37850)
-
 ### CVE-2021-37980 (2021-11-02)
 
 <code>
@@ -2542,6 +2535,9 @@ The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for Wor
 - [thomsdev/CVE-2021-38314](https://github.com/thomsdev/CVE-2021-38314)
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
+
+### CVE-2021-38560
+- [os909/iVANTI-CVE-2021-38560](https://github.com/os909/iVANTI-CVE-2021-38560)
 
 ### CVE-2021-38647 (2021-09-15)
 
@@ -2833,13 +2829,10 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 </code>
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
-- [numanturle/CVE-2021-41773](https://github.com/numanturle/CVE-2021-41773)
 - [knqyf263/CVE-2021-41773](https://github.com/knqyf263/CVE-2021-41773)
 - [ZephrFish/CVE-2021-41773-PoC](https://github.com/ZephrFish/CVE-2021-41773-PoC)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [masahiro331/CVE-2021-41773](https://github.com/masahiro331/CVE-2021-41773)
-- [RyouYoo/CVE-2021-41773](https://github.com/RyouYoo/CVE-2021-41773)
-- [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
@@ -3770,6 +3763,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ThanhHien98/Log4j](https://github.com/ThanhHien98/Log4j)
 - [ThanhHien98/CVE-2021-44228](https://github.com/ThanhHien98/CVE-2021-44228)
 - [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
+- [y-security/yLog4j](https://github.com/y-security/yLog4j)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -12091,6 +12085,14 @@ A Cascading Style Sheets (CSS) injection vulnerability in Swagger UI before 3.23
 </code>
 
 - [SecT0uch/CVE-2019-17495-test](https://github.com/SecT0uch/CVE-2019-17495-test)
+
+### CVE-2019-17497 (2019-10-10)
+
+<code>
+Tracker PDF-XChange Editor before 8.0.330.0 has an NTLM SSO hash theft vulnerability using crafted FDF or XFDF files (a related issue to CVE-2018-4993). For example, an NTLM hash is sent for a link to \\192.168.0.2\C$\file.pdf without user interaction.
+</code>
+
+- [JM-Lemmi/cve-2019-17497](https://github.com/JM-Lemmi/cve-2019-17497)
 
 ### CVE-2019-17525 (2020-04-21)
 
