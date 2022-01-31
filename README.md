@@ -8950,7 +8950,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [Cyb0r9/ispy](https://github.com/Cyb0r9/ispy)
 - [shishibabyq/CVE-2019-0708](https://github.com/shishibabyq/CVE-2019-0708)
 - [pwnhacker0x18/Wincrash](https://github.com/pwnhacker0x18/Wincrash)
-- [R4v3nG/CVE-2019-0708-DOS](https://github.com/R4v3nG/CVE-2019-0708-DOS)
+- [innxrmxst/CVE-2019-0708-DOS](https://github.com/innxrmxst/CVE-2019-0708-DOS)
 - [lwtz/CVE-2019-0708](https://github.com/lwtz/CVE-2019-0708)
 - [ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708)
 - [worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708)
