@@ -65,6 +65,7 @@ Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022
 </code>
 
 - [KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882)
+- [David-Honisch/CVE-2022-21882](https://github.com/David-Honisch/CVE-2022-21882)
 
 ### CVE-2022-21907 (2022-01-11)
 
@@ -2529,7 +2530,12 @@ The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for Wor
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
-### CVE-2021-38560
+### CVE-2021-38560 (2022-02-01)
+
+<code>
+Ivanti Service Manager 2021.1 allows reflected XSS via the appName parameter associated with ConfigDB calls, such as in RelocateAttachments.aspx.
+</code>
+
 - [os909/iVANTI-CVE-2021-38560](https://github.com/os909/iVANTI-CVE-2021-38560)
 
 ### CVE-2021-38647 (2021-09-15)
@@ -2825,7 +2831,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [knqyf263/CVE-2021-41773](https://github.com/knqyf263/CVE-2021-41773)
 - [ZephrFish/CVE-2021-41773-PoC](https://github.com/ZephrFish/CVE-2021-41773-PoC)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
-- [masahiro331/CVE-2021-41773](https://github.com/masahiro331/CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
@@ -3877,7 +3882,12 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 ### CVE-2021-45383
 - [nt1dr/CVE-2021-45383](https://github.com/nt1dr/CVE-2021-45383)
 
-### CVE-2021-45416
+### CVE-2021-45416 (2022-02-01)
+
+<code>
+Reflected Cross-site scripting (XSS) vulnerability in RosarioSIS 8.2.1 allows attackers to inject arbitrary HTML via the search_term parameter in the modules/Scheduling/Courses.php script.
+</code>
+
 - [86x/CVE-2021-45416](https://github.com/86x/CVE-2021-45416)
 
 ### CVE-2021-45744 (2022-01-06)
@@ -4030,6 +4040,9 @@ A Cross Site Request Forgery (CSRF) vulnerability exists in Vehicle Service Mana
 
 - [plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS)
 - [plsanu/CVE-2021-46080](https://github.com/plsanu/CVE-2021-46080)
+
+### CVE-2021-46108
+- [g-rubert/CVE-2021-46108](https://github.com/g-rubert/CVE-2021-46108)
 
 
 ## 2020
@@ -21347,6 +21360,14 @@ Mozilla Firefox before 22.0, Firefox ESR 17.x before 17.0.7, Thunderbird before 
 </code>
 
 - [vlad902/annotated-fbi-tbb-exploit](https://github.com/vlad902/annotated-fbi-tbb-exploit)
+
+### CVE-2013-1763 (2013-02-28)
+
+<code>
+Array index error in the __sock_diag_rcv_msg function in net/core/sock_diag.c in the Linux kernel before 3.7.10 allows local users to gain privileges via a large family value in a Netlink message.
+</code>
+
+- [qkrtjsrbs315/CVE-2013-1763](https://github.com/qkrtjsrbs315/CVE-2013-1763)
 
 ### CVE-2013-1775 (2013-03-04)
 
