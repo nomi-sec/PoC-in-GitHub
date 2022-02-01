@@ -2835,7 +2835,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [masahiro331/CVE-2021-41773](https://github.com/masahiro331/CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
-- [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
 - [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
 - [creadpag/CVE-2021-41773-POC](https://github.com/creadpag/CVE-2021-41773-POC)
 - [TAI-REx/cve-2021-41773-nse](https://github.com/TAI-REx/cve-2021-41773-nse)
@@ -3905,6 +3904,14 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Bludit 3.13.1 via th
 
 - [plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS](https://github.com/plsanu/Bludit-3.13.1-About-Plugin-Stored-Cross-Site-Scripting-XSS)
 - [plsanu/CVE-2021-45745](https://github.com/plsanu/CVE-2021-45745)
+
+### CVE-2021-45897 (2022-01-28)
+
+<code>
+SuiteCRM before 7.12.3 and 8.x before 8.0.2 allows remote code execution.
+</code>
+
+- [manuelz120/CVE-2021-45897](https://github.com/manuelz120/CVE-2021-45897)
 
 ### CVE-2021-46005 (2022-01-18)
 
