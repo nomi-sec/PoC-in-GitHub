@@ -703,6 +703,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [navisec/CVE-2021-4034-PwnKit](https://github.com/navisec/CVE-2021-4034-PwnKit)
 - [Almorabea/pkexec-exploit](https://github.com/Almorabea/pkexec-exploit)
 - [xuntitled/Polkit-pkexec-exploit-for-Linux](https://github.com/xuntitled/Polkit-pkexec-exploit-for-Linux)
+- [scent2d/PoC-CVE-2021-4034](https://github.com/scent2d/PoC-CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -906,14 +907,6 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551)
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
-
-### CVE-2021-21571 (2021-06-24)
-
-<code>
-Dell UEFI BIOS https stack leveraged by the Dell BIOSConnect feature and Dell HTTPS Boot feature contains an improper certificate validation vulnerability. A remote unauthenticated attacker may exploit this vulnerability using a person-in-the-middle attack which may lead to a denial of service and payload tampering.
-</code>
-
-- [hawksj/dell-biosconnect-fix](https://github.com/hawksj/dell-biosconnect-fix)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -20782,6 +20775,7 @@ The futex_requeue function in kernel/futex.c in the Linux kernel through 3.14.5 
 - [c3c/CVE-2014-3153](https://github.com/c3c/CVE-2014-3153)
 - [dangtunguyen/TowelRoot](https://github.com/dangtunguyen/TowelRoot)
 - [elongl/CVE-2014-3153](https://github.com/elongl/CVE-2014-3153)
+- [c4mx/Linux-kernel-code-injection_CVE-2014-3153](https://github.com/c4mx/Linux-kernel-code-injection_CVE-2014-3153)
 
 ### CVE-2014-3341 (2014-08-19)
 
