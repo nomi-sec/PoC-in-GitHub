@@ -7060,6 +7060,7 @@ A SQL injection issue in color.php in Cacti 1.2.12 allows an admin to inject SQL
 ### CVE-2020-14321
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
 - [lanzt/CVE-2020-14321](https://github.com/lanzt/CVE-2020-14321)
+- [f0ns1/CVE-2020-14321-modified-exploit](https://github.com/f0ns1/CVE-2020-14321-modified-exploit)
 
 ### CVE-2020-14343 (2021-02-09)
 
@@ -11850,7 +11851,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [zeroxninety/CVE-2019-16113-PoC](https://github.com/zeroxninety/CVE-2019-16113-PoC)
-- [0xk4sra/CVE-2019-16113](https://github.com/0xk4sra/CVE-2019-16113)
+- [nthR00t/CVE-2019-16113](https://github.com/nthR00t/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
 
 ### CVE-2019-16278 (2019-10-14)
@@ -12069,7 +12070,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [triple-octopus/Bludit-CVE-2019-17240-Fork](https://github.com/triple-octopus/Bludit-CVE-2019-17240-Fork)
-- [0xk4sra/CVE-2019-17240](https://github.com/0xk4sra/CVE-2019-17240)
+- [nthR00t/CVE-2019-17240](https://github.com/nthR00t/CVE-2019-17240)
 - [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
 - [jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240)
 - [brunosgio/bloodit](https://github.com/brunosgio/bloodit)
