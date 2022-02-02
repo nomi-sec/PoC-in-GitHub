@@ -705,6 +705,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Almorabea/pkexec-exploit](https://github.com/Almorabea/pkexec-exploit)
 - [xuntitled/Polkit-pkexec-exploit-for-Linux](https://github.com/xuntitled/Polkit-pkexec-exploit-for-Linux)
 - [scent2d/PoC-CVE-2021-4034](https://github.com/scent2d/PoC-CVE-2021-4034)
+- [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -747,7 +748,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 </code>
 
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
-- [thomsdev/CVE-2021-20837](https://github.com/thomsdev/CVE-2021-20837)
+- [byteofjoshua/CVE-2021-20837](https://github.com/byteofjoshua/CVE-2021-20837)
 - [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
 - [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
 
@@ -939,7 +940,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
-- [thomsdev/CVE-2021-21972](https://github.com/thomsdev/CVE-2021-21972)
+- [byteofjoshua/CVE-2021-21972](https://github.com/byteofjoshua/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -1122,7 +1123,7 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 
 - [ZephrFish/CVE-2021-22893_HoneyPoC2](https://github.com/ZephrFish/CVE-2021-22893_HoneyPoC2)
 - [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
-- [thomsdev/CVE-2021-22893](https://github.com/thomsdev/CVE-2021-22893)
+- [byteofjoshua/CVE-2021-22893](https://github.com/byteofjoshua/CVE-2021-22893)
 
 ### CVE-2021-22911 (2021-05-27)
 
@@ -1247,14 +1248,6 @@ The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Ran
 
 - [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
 
-### CVE-2021-24499 (2021-08-09)
-
-<code>
-The Workreap WordPress theme before 2.2.2 AJAX actions workreap_award_temp_file_uploader and workreap_temp_file_uploader did not perform nonce checks, or validate that the request is from a valid user in any other way. The endpoints allowed for uploading arbitrary files to the uploads/workreap-temp directory. Uploaded files were neither sanitized nor validated, allowing an unauthenticated visitor to upload executable code such as php scripts.
-</code>
-
-- [hh-hunter/cve-2021-24499](https://github.com/hh-hunter/cve-2021-24499)
-
 ### CVE-2021-24545 (2021-10-11)
 
 <code>
@@ -1360,7 +1353,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
-- [thomsdev/CVE-2021-26084](https://github.com/thomsdev/CVE-2021-26084)
+- [byteofjoshua/CVE-2021-26084](https://github.com/byteofjoshua/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
@@ -1972,7 +1965,7 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [thomsdev/CVE-2021-30573](https://github.com/thomsdev/CVE-2021-30573)
+- [byteofjoshua/CVE-2021-30573](https://github.com/byteofjoshua/CVE-2021-30573)
 - [kh4sh3i/CVE-2021-30573](https://github.com/kh4sh3i/CVE-2021-30573)
 
 ### CVE-2021-30632 (2021-10-08)
@@ -2526,7 +2519,7 @@ In Apache CouchDB, a malicious user with permission to create documents in a dat
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
-- [thomsdev/CVE-2021-38314](https://github.com/thomsdev/CVE-2021-38314)
+- [byteofjoshua/CVE-2021-38314](https://github.com/byteofjoshua/CVE-2021-38314)
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
@@ -2708,7 +2701,7 @@ An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestr
 </code>
 
 - [0xAgun/CVE-2021-40870](https://github.com/0xAgun/CVE-2021-40870)
-- [thomsdev/CVE-2021-40870](https://github.com/thomsdev/CVE-2021-40870)
+- [byteofjoshua/CVE-2021-40870](https://github.com/byteofjoshua/CVE-2021-40870)
 - [JoyGhoshs/CVE-2021-40870](https://github.com/JoyGhoshs/CVE-2021-40870)
 
 ### CVE-2021-40904
@@ -2849,7 +2842,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [fnatalucci/CVE-2021-41773-RCE](https://github.com/fnatalucci/CVE-2021-41773-RCE)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
-- [thomsdev/CVE-2021-41773](https://github.com/thomsdev/CVE-2021-41773)
+- [byteofjoshua/CVE-2021-41773](https://github.com/byteofjoshua/CVE-2021-41773)
 - [HightechSec/scarce-apache2](https://github.com/HightechSec/scarce-apache2)
 - [vinhjaxt/CVE-2021-41773-exploit](https://github.com/vinhjaxt/CVE-2021-41773-exploit)
 - [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
@@ -4412,7 +4405,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 - [Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796)
-- [thomsdev/CVE-2020-0796](https://github.com/thomsdev/CVE-2020-0796)
+- [byteofjoshua/CVE-2020-0796](https://github.com/byteofjoshua/CVE-2020-0796)
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
@@ -11808,7 +11801,7 @@ admin/includes/class.import.snippet.php in the &quot;Woody ad snippets&quot; plu
 </code>
 
 - [GeneralEG/CVE-2019-15858](https://github.com/GeneralEG/CVE-2019-15858)
-- [thomsdev/CVE-2019-15858](https://github.com/thomsdev/CVE-2019-15858)
+- [byteofjoshua/CVE-2019-15858](https://github.com/byteofjoshua/CVE-2019-15858)
 
 ### CVE-2019-15972 (2019-11-25)
 
@@ -15190,7 +15183,7 @@ Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlie
 - [cved-sources/cve-2018-15961](https://github.com/cved-sources/cve-2018-15961)
 - [0xAJ2K/CVE-2018-15961](https://github.com/0xAJ2K/CVE-2018-15961)
 - [xbufu/CVE-2018-15961](https://github.com/xbufu/CVE-2018-15961)
-- [thomsdev/CVE-2018-15961](https://github.com/thomsdev/CVE-2018-15961)
+- [byteofjoshua/CVE-2018-15961](https://github.com/byteofjoshua/CVE-2018-15961)
 
 ### CVE-2018-15968 (2018-10-12)
 
