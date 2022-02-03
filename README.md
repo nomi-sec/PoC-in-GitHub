@@ -608,14 +608,6 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 
 - [HadiMed/DSL-2750U-Full-chain](https://github.com/HadiMed/DSL-2750U-Full-chain)
 
-### CVE-2021-4024 (2021-12-23)
-
-<code>
-A flaw was found in podman. The `podman machine` function (used to create and manage Podman virtual machine containing a Podman process) spawns a `gvproxy` process on the host system. The `gvproxy` API is accessible on port 7777 on all IP addresses on the host. If that port is open on the host's firewall, an attacker can potentially use the `gvproxy` API to forward ports on the host to ports in the VM, making private services on the VM accessible to the network. This issue could be also used to interrupt the host's services by forwarding all ports to the VM.
-</code>
-
-- [deoxykev/CVE-2021-4024-Rust](https://github.com/deoxykev/CVE-2021-4024-Rust)
-
 ### CVE-2021-4034 (2022-01-28)
 
 <code>
@@ -687,6 +679,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
 - [DosAmp/pkwned](https://github.com/DosAmp/pkwned)
 - [rayheffer/CVE-2021-4034](https://github.com/rayheffer/CVE-2021-4034)
+- [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit)
 - [MedKH1684/Pwnkit-CVE-2021-4034](https://github.com/MedKH1684/Pwnkit-CVE-2021-4034)
@@ -9954,6 +9947,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [1nf1n17yk1ng/CVE-2019-6447](https://github.com/1nf1n17yk1ng/CVE-2019-6447)
 - [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
+- [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
 
 ### CVE-2019-6453 (2019-02-18)
 
