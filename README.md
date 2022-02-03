@@ -66,6 +66,7 @@ Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022
 
 - [KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882)
 - [David-Honisch/CVE-2022-21882](https://github.com/David-Honisch/CVE-2022-21882)
+- [L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882)
 
 ### CVE-2022-21907 (2022-01-11)
 
