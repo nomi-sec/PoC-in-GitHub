@@ -165,9 +165,6 @@ Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. 
 
 - [jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032)
 
-### CVE-2022-77777
-- [rezasarvani/CVE-2022-77777](https://github.com/rezasarvani/CVE-2022-77777)
-
 
 ## 2021
 ### CVE-2021-0928 (2021-12-15)
@@ -22767,6 +22764,7 @@ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function be
 
 - [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
 - [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
+- [xen00rw/CVE-2006-3392](https://github.com/xen00rw/CVE-2006-3392)
 - [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
 - [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
 - [windsormoreira/CVE-2006-3392](https://github.com/windsormoreira/CVE-2006-3392)
