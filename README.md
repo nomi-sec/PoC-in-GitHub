@@ -31,6 +31,9 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
+### CVE-2022-21241
+- [satoki/csv-plus_vulnerability](https://github.com/satoki/csv-plus_vulnerability)
+
 ### CVE-2022-21371 (2022-01-19)
 
 <code>
@@ -714,6 +717,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [Ph4nt0mh4x0r/auto-CVE-2021-4034](https://github.com/Ph4nt0mh4x0r/auto-CVE-2021-4034)
+- [drapl0n/dawnKit](https://github.com/drapl0n/dawnKit)
 
 ### CVE-2021-4043
 - [cyberark/PwnKit-Hunter](https://github.com/cyberark/PwnKit-Hunter)
@@ -2831,7 +2835,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [PentesterGuruji/CVE-2021-41773](https://github.com/PentesterGuruji/CVE-2021-41773)
 - [mohwahyudi/cve-2021-41773](https://github.com/mohwahyudi/cve-2021-41773)
 - [1nhann/CVE-2021-41773](https://github.com/1nhann/CVE-2021-41773)
-- [BlueTeamSteve/CVE-2021-41773](https://github.com/BlueTeamSteve/CVE-2021-41773)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [r00tVen0m/CVE-2021-41773](https://github.com/r00tVen0m/CVE-2021-41773)
 - [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
@@ -5548,6 +5551,7 @@ In LifeRay Portal CE 7.1.0 through 7.2.1 GA2, the First Name, Middle Name, and L
 </code>
 
 - [3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934](https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934)
+- [Sergio235705/audit-xss-cve-2020-7934](https://github.com/Sergio235705/audit-xss-cve-2020-7934)
 
 ### CVE-2020-7961 (2020-03-20)
 
