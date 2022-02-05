@@ -709,7 +709,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [OxWeb4/CVE-2021-4034-](https://github.com/OxWeb4/CVE-2021-4034-)
 - [navisec/CVE-2021-4034-PwnKit](https://github.com/navisec/CVE-2021-4034-PwnKit)
 - [Almorabea/pkexec-exploit](https://github.com/Almorabea/pkexec-exploit)
-- [xuntitled/Polkit-pkexec-exploit-for-Linux](https://github.com/xuntitled/Polkit-pkexec-exploit-for-Linux)
+- [teelrabbit/Polkit-pkexec-exploit-for-Linux](https://github.com/teelrabbit/Polkit-pkexec-exploit-for-Linux)
 - [scent2d/PoC-CVE-2021-4034](https://github.com/scent2d/PoC-CVE-2021-4034)
 - [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
