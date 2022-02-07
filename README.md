@@ -31,6 +31,9 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
+### CVE-2022-20699
+- [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
+
 ### CVE-2022-21241
 - [satoki/csv-plus_vulnerability](https://github.com/satoki/csv-plus_vulnerability)
 
@@ -726,6 +729,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [drapl0n/dawnKit](https://github.com/drapl0n/dawnKit)
 - [ravindubw/CVE-2021-4034](https://github.com/ravindubw/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
+- [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 
 ### CVE-2021-4043 (-)
 
@@ -2847,7 +2851,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [PentesterGuruji/CVE-2021-41773](https://github.com/PentesterGuruji/CVE-2021-41773)
 - [mohwahyudi/cve-2021-41773](https://github.com/mohwahyudi/cve-2021-41773)
 - [1nhann/CVE-2021-41773](https://github.com/1nhann/CVE-2021-41773)
-- [BlueTeamSteve/CVE-2021-41773](https://github.com/BlueTeamSteve/CVE-2021-41773)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [r00tVen0m/CVE-2021-41773](https://github.com/r00tVen0m/CVE-2021-41773)
 - [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
@@ -5440,6 +5443,7 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
 - [Sergio928/OpenSMTPD-6.6.1---Remote-Code-Execution---Linux-remote-Exploit](https://github.com/Sergio928/OpenSMTPD-6.6.1---Remote-Code-Execution---Linux-remote-Exploit)
 - [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
+- [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
 
 ### CVE-2020-7283 (2020-07-03)
 
@@ -19757,7 +19761,7 @@ The overlayfs implementation in the linux (aka Linux kernel) package before 3.19
 
 - [SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328)
 - [notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328)
-- [0x1ns4n3/CVE-2015-1328-Golden_Eye](https://github.com/0x1ns4n3/CVE-2015-1328-Golden_Eye)
+- [0x1ns4n3/CVE-2015-1328-GoldenEye](https://github.com/0x1ns4n3/CVE-2015-1328-GoldenEye)
 
 ### CVE-2015-1427 (2015-02-17)
 
