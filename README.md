@@ -8688,6 +8688,14 @@ KLog Server 2.4.1 allows OS command injection via shell metacharacters in the ac
 
 - [Al1ex/CVE-2020-35729](https://github.com/Al1ex/CVE-2020-35729)
 
+### CVE-2020-35749 (2021-01-15)
+
+<code>
+Directory traversal vulnerability in class-simple_job_board_resume_download_handler.php in the Simple Board Job plugin 2.9.3 and earlier for WordPress allows remote attackers to read arbitrary files via the sjb_file parameter to wp-admin/post.php.
+</code>
+
+- [M4xSec/Wordpress-CVE-2020-35749](https://github.com/M4xSec/Wordpress-CVE-2020-35749)
+
 ### CVE-2020-35846 (2020-12-29)
 
 <code>
@@ -19749,6 +19757,7 @@ The overlayfs implementation in the linux (aka Linux kernel) package before 3.19
 
 - [SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328)
 - [notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328)
+- [0x1ns4n3/CVE-2015-1328-Golden_Eye](https://github.com/0x1ns4n3/CVE-2015-1328-Golden_Eye)
 
 ### CVE-2015-1427 (2015-02-17)
 
