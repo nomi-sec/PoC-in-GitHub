@@ -70,6 +70,7 @@ Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022
 - [KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882)
 - [David-Honisch/CVE-2022-21882](https://github.com/David-Honisch/CVE-2022-21882)
 - [L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882)
+- [sailay1996/cve-2022-21882-poc](https://github.com/sailay1996/cve-2022-21882-poc)
 
 ### CVE-2022-21907 (2022-01-11)
 
@@ -868,7 +869,6 @@ Git is an open-source distributed revision control system. In affected versions 
 - [ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300)
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
-- [tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -8998,7 +8998,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [matiebarg/CVE-2019-0708](https://github.com/matiebarg/CVE-2019-0708)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
-- [c4dr01d/CVE-2019-0708](https://github.com/c4dr01d/CVE-2019-0708)
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
 - [lisinan988/CVE-2019-0708-scan](https://github.com/lisinan988/CVE-2019-0708-scan)
 - [offensity/CVE-2019-0708](https://github.com/offensity/CVE-2019-0708)
