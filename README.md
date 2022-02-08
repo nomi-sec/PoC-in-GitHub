@@ -64,6 +64,14 @@ WordPress is a free and open-source content management system written in PHP and
 
 - [TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection](https://github.com/TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection)
 
+### CVE-2022-21877 (2022-01-11)
+
+<code>
+Storage Spaces Controller Information Disclosure Vulnerability.
+</code>
+
+- [Big5-sec/cve-2022-21877](https://github.com/Big5-sec/cve-2022-21877)
+
 ### CVE-2022-21882 (2022-01-11)
 
 <code>
@@ -169,7 +177,7 @@ Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. 
 
 - [jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032)
 
-### CVE-2022-24348 (-)
+### CVE-2022-24348 (2022-02-04)
 
 <code>
 Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related to Helm charts because of an error in helmTemplate in repository.go. For example, an attacker may be able to discover credentials stored in a YAML file.
@@ -730,8 +738,9 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ravindubw/CVE-2021-4034](https://github.com/ravindubw/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
+- [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
 
-### CVE-2021-4043 (-)
+### CVE-2021-4043 (2022-02-04)
 
 <code>
 NULL Pointer Dereference in GitHub repository gpac/gpac prior to 1.1.0.
@@ -2845,7 +2854,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
-- [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [blasty/CVE-2021-41773](https://github.com/blasty/CVE-2021-41773)
 - [PentesterGuruji/CVE-2021-41773](https://github.com/PentesterGuruji/CVE-2021-41773)
