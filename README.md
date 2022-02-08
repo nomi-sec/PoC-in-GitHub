@@ -34,7 +34,12 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 ### CVE-2022-20699
 - [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
 
-### CVE-2022-21241
+### CVE-2022-21241 (2022-02-08)
+
+<code>
+Cross-site scripting vulnerability in CSV+ prior to 0.8.1 allows a remote unauthenticated attacker to inject an arbitrary script or an arbitrary OS command via a specially crafted CSV file that contains HTML a tag.
+</code>
+
 - [satoki/csv-plus_vulnerability](https://github.com/satoki/csv-plus_vulnerability)
 
 ### CVE-2022-21371 (2022-01-19)
