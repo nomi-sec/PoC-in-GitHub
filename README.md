@@ -734,11 +734,13 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [Ph4nt0mh4x0r/auto-CVE-2021-4034](https://github.com/Ph4nt0mh4x0r/auto-CVE-2021-4034)
-- [drapl0n/dawnKit](https://github.com/drapl0n/dawnKit)
+- [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
 - [ravindubw/CVE-2021-4034](https://github.com/ravindubw/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
+- [FDlucifer/Pwnkit-go](https://github.com/FDlucifer/Pwnkit-go)
+- [fireclasher/pwnkit-CVE-2021-4034-](https://github.com/fireclasher/pwnkit-CVE-2021-4034-)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -1406,7 +1408,6 @@ Affected versions of Atlassian Confluence Server allow remote attackers to view 
 </code>
 
 - [ColdFusionX/CVE-2021-26085](https://github.com/ColdFusionX/CVE-2021-26085)
-- [zeroc00I/CVE-2021-26085](https://github.com/zeroc00I/CVE-2021-26085)
 
 ### CVE-2021-26086 (2021-08-15)
 
@@ -2860,7 +2861,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mohwahyudi/cve-2021-41773](https://github.com/mohwahyudi/cve-2021-41773)
 - [1nhann/CVE-2021-41773](https://github.com/1nhann/CVE-2021-41773)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
-- [r00tVen0m/CVE-2021-41773](https://github.com/r00tVen0m/CVE-2021-41773)
 - [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
 - [fnatalucci/CVE-2021-41773-RCE](https://github.com/fnatalucci/CVE-2021-41773-RCE)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
@@ -8971,10 +8971,10 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [AdministratorGithub/CVE-2019-0708](https://github.com/AdministratorGithub/CVE-2019-0708)
 - [umarfarook882/CVE-2019-0708](https://github.com/umarfarook882/CVE-2019-0708)
 - [HynekPetrak/detect_bluekeep.py](https://github.com/HynekPetrak/detect_bluekeep.py)
-- [Wileysec/CVE-2019-0708-Batch-Blue-Screen](https://github.com/Wileysec/CVE-2019-0708-Batch-Blue-Screen)
 - [Pa55w0rd/CVE-2019-0708](https://github.com/Pa55w0rd/CVE-2019-0708)
 - [at0mik/CVE-2019-0708-PoC](https://github.com/at0mik/CVE-2019-0708-PoC)
 - [cream-sec/CVE-2019-0708-Msf--](https://github.com/cream-sec/CVE-2019-0708-Msf--)
+- [ZhaoYukai/CVE-2019-0708-Batch-Blue-Screen](https://github.com/ZhaoYukai/CVE-2019-0708-Batch-Blue-Screen)
 - [wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708)
 - [cvencoder/cve-2019-0708](https://github.com/cvencoder/cve-2019-0708)
 - [ze0r/CVE-2019-0708-exp](https://github.com/ze0r/CVE-2019-0708-exp)
