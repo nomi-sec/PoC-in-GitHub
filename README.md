@@ -166,6 +166,9 @@ By design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configu
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE)
 
+### CVE-2022-23378
+- [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
+
 ### CVE-2022-23967 (2022-01-26)
 
 <code>
@@ -21835,6 +21838,7 @@ Microsoft Internet Explorer 6 through 9, and 10 Consumer Preview, does not prope
 </code>
 
 - [WizardVan/CVE-2012-1876](https://github.com/WizardVan/CVE-2012-1876)
+- [ExploitCN/CVE-2012-1876-win7_x86_and_win7x64](https://github.com/ExploitCN/CVE-2012-1876-win7_x86_and_win7x64)
 
 ### CVE-2012-1889 (2012-06-12)
 
