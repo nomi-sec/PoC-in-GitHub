@@ -693,7 +693,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [phvilasboas/CVE-2021-4034](https://github.com/phvilasboas/CVE-2021-4034)
 - [hackingyseguridad/CVE-2021-4034](https://github.com/hackingyseguridad/CVE-2021-4034)
 - [vilasboasph/CVE-2021-4034](https://github.com/vilasboasph/CVE-2021-4034)
-- [nobelh/CVE-2020-4034](https://github.com/nobelh/CVE-2020-4034)
+- [nobelh/CVE-2021-4034](https://github.com/nobelh/CVE-2021-4034)
 - [callrbx/pkexec-lpe-poc](https://github.com/callrbx/pkexec-lpe-poc)
 - [T3cnokarita/CVE-2021-4034](https://github.com/T3cnokarita/CVE-2021-4034)
 - [cd80-ctf/CVE-2021-4034](https://github.com/cd80-ctf/CVE-2021-4034)
@@ -719,7 +719,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [JoyGhoshs/CVE-2021-4034](https://github.com/JoyGhoshs/CVE-2021-4034)
 - [galoget/PwnKit-CVE-2021-4034](https://github.com/galoget/PwnKit-CVE-2021-4034)
 - [Yakumwamba/POC-CVE-2021-4034](https://github.com/Yakumwamba/POC-CVE-2021-4034)
-- [Pr0f3ssor/CVE-2021-4034](https://github.com/Pr0f3ssor/CVE-2021-4034)
+- [Pr0f3ssor/CVE-2021-4034-Pwnkit](https://github.com/Pr0f3ssor/CVE-2021-4034-Pwnkit)
 - [Sakura-nee/CVE-2021-4034](https://github.com/Sakura-nee/CVE-2021-4034)
 - [oreosec/pwnkit](https://github.com/oreosec/pwnkit)
 - [CYB3RK1D/CVE-2021-4034-POC](https://github.com/CYB3RK1D/CVE-2021-4034-POC)
@@ -5076,9 +5076,6 @@ OpenSLP as used in VMware ESXi (7.0 before ESXi_7.0.1-0.0.16850804, 6.7 before E
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
-
-### CVE-2020-4034
-- [nobelh/CVE-2020-4034](https://github.com/nobelh/CVE-2020-4034)
 
 ### CVE-2020-4040 (2020-06-08)
 
