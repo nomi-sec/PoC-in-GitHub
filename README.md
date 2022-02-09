@@ -9416,6 +9416,14 @@ In Download Provider, there is a possible SQL injection vulnerability. This coul
 
 - [IOActive/AOSP-DownloadProviderDbDumperSQLiWhere](https://github.com/IOActive/AOSP-DownloadProviderDbDumperSQLiWhere)
 
+### CVE-2019-2205 (2019-11-13)
+
+<code>
+In ProxyResolverV8::SetPacScript of proxy_resolver_v8.cc, there is a possible memory corruption due to a use after free. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-139806216
+</code>
+
+- [aemmitt-ns/pacpoc](https://github.com/aemmitt-ns/pacpoc)
+
 ### CVE-2019-2215 (2019-10-11)
 
 <code>
