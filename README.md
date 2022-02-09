@@ -5228,6 +5228,14 @@ Symantec Endpoint Detection And Response, prior to 4.4, may be susceptible to an
 
 - [nasbench/CVE-2020-5839](https://github.com/nasbench/CVE-2020-5839)
 
+### CVE-2020-5842 (2020-01-07)
+
+<code>
+Codoforum 4.8.3 allows XSS in the user registration page: via the username field to the index.php?u=/user/register URI. The payload is, for example, executed on the admin/index.php?page=users/manage page.
+</code>
+
+- [prasanthc41m/codoforum](https://github.com/prasanthc41m/codoforum)
+
 ### CVE-2020-5844 (2020-03-16)
 
 <code>
