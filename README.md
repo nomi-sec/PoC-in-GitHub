@@ -101,6 +101,14 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 
+### CVE-2022-21999 (2022-02-09)
+
+<code>
+Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21997, CVE-2022-22717, CVE-2022-22718.
+</code>
+
+- [ly4k/SpoolFool](https://github.com/ly4k/SpoolFool)
+
 ### CVE-2022-22296 (2022-01-24)
 
 <code>
@@ -166,7 +174,12 @@ By design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configu
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE)
 
-### CVE-2022-23378
+### CVE-2022-23378 (2022-02-09)
+
+<code>
+A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of TastyIgniter. The &quot;items%5B0%5D%5Bpath%5D&quot; parameter of a request made to /admin/allergens/edit/1 is vulnerable.
+</code>
+
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
 
 ### CVE-2022-23967 (2022-01-26)
@@ -195,6 +208,14 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 
 
 ## 2021
+### CVE-2021-0326 (2021-02-10)
+
+<code>
+In p2p_copy_client_info of p2p.c, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution if the target device is performing a Wi-Fi Direct search, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-8.1 Android-9Android ID: A-172937525
+</code>
+
+- [aemmitt-ns/skeleton](https://github.com/aemmitt-ns/skeleton)
+
 ### CVE-2021-0928 (2021-12-15)
 
 <code>
@@ -2870,7 +2891,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [1nhann/CVE-2021-41773](https://github.com/1nhann/CVE-2021-41773)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
-- [fnatalucci/CVE-2021-41773-RCE](https://github.com/fnatalucci/CVE-2021-41773-RCE)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
 - [byteofjoshua/CVE-2021-41773](https://github.com/byteofjoshua/CVE-2021-41773)
@@ -19031,7 +19051,7 @@ WebKit in Apple iOS before 9.3.5 allows remote attackers to execute arbitrary co
 - [Mimoja/CVE-2016-4657-NintendoSwitch](https://github.com/Mimoja/CVE-2016-4657-NintendoSwitch)
 - [Traiver/CVE-2016-4657-Switch-Browser-Binary](https://github.com/Traiver/CVE-2016-4657-Switch-Browser-Binary)
 - [iDaN5x/Switcheroo](https://github.com/iDaN5x/Switcheroo)
-- [vigneshyaadav27/webkit-vulnerability](https://github.com/vigneshyaadav27/webkit-vulnerability)
+- [viai957/webkit-vulnerability](https://github.com/viai957/webkit-vulnerability)
 
 ### CVE-2016-4669 (2017-02-20)
 
