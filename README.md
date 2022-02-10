@@ -58,7 +58,12 @@ Rust is a multi-paradigm, general-purpose programming language designed for perf
 
 - [sagittarius-a/cve-2022-21658](https://github.com/sagittarius-a/cve-2022-21658)
 
-### CVE-2022-21660
+### CVE-2022-21660 (2022-02-09)
+
+<code>
+Gin-vue-admin is a backstage management system based on vue and gin. In versions prior to 2.4.7 low privilege users are able to modify higher privilege users. Authentication is missing on the `setUserInfo` function. Users are advised to update as soon as possible. There are no known workarounds.
+</code>
+
 - [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
 
 ### CVE-2022-21661 (2022-01-06)
@@ -205,6 +210,9 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 </code>
 
 - [jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2)
+
+### CVE-2022-24693
+- [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
 
 
 ## 2021
