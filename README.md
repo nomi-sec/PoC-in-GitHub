@@ -31,8 +31,14 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
-### CVE-2022-20699
+### CVE-2022-20699 (-)
+
+<code>
+Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code Elevate privileges Execute arbitrary commands Bypass authentication and authorization protections Fetch and run unsigned software Cause denial of service (DoS) For more information about these vulnerabilities, see the Details section of this advisory.
+</code>
+
 - [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
+- [puckiestyle/CVE-2022-20699](https://github.com/puckiestyle/CVE-2022-20699)
 
 ### CVE-2022-21241 (2022-02-08)
 
@@ -187,6 +193,14 @@ A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of Ta
 
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
 
+### CVE-2022-23808 (2022-01-21)
+
+<code>
+An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject malicious code into aspects of the setup script, which can allow XSS or HTML injection.
+</code>
+
+- [dipakpanchal456/CVE-2022-23808](https://github.com/dipakpanchal456/CVE-2022-23808)
+
 ### CVE-2022-23967 (2022-01-26)
 
 <code>
@@ -210,7 +224,6 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 </code>
 
 - [jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2)
-- [mochizuki875/helm-sample](https://github.com/mochizuki875/helm-sample)
 
 ### CVE-2022-24693
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
@@ -3976,7 +3989,12 @@ SuiteCRM before 7.12.3 and 8.x before 8.0.2 allows remote code execution.
 
 - [manuelz120/CVE-2021-45897](https://github.com/manuelz120/CVE-2021-45897)
 
-### CVE-2021-45901
+### CVE-2021-45901 (2022-02-10)
+
+<code>
+The password-reset form in ServiceNow Orlando provides different responses to invalid authentication attempts depending on whether the username exists.
+</code>
+
 - [9lyph/CVE-2021-45901](https://github.com/9lyph/CVE-2021-45901)
 
 ### CVE-2021-46005 (2022-01-18)
@@ -18324,7 +18342,6 @@ A malicious third-party can give a crafted &quot;ssh://...&quot; URL to an unsus
 - [shogo82148/Fix-CVE-2017-1000117](https://github.com/shogo82148/Fix-CVE-2017-1000117)
 - [sasairc/CVE-2017-1000117_wasawasa](https://github.com/sasairc/CVE-2017-1000117_wasawasa)
 - [Shadow5523/CVE-2017-1000117-test](https://github.com/Shadow5523/CVE-2017-1000117-test)
-- [bells17/CVE-2017-1000117](https://github.com/bells17/CVE-2017-1000117)
 - [ieee0824/CVE-2017-1000117](https://github.com/ieee0824/CVE-2017-1000117)
 - [rootclay/CVE-2017-1000117](https://github.com/rootclay/CVE-2017-1000117)
 - [ieee0824/CVE-2017-1000117-sl](https://github.com/ieee0824/CVE-2017-1000117-sl)
