@@ -31,7 +31,7 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
-### CVE-2022-20699 (-)
+### CVE-2022-20699 (2022-02-10)
 
 <code>
 Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code Elevate privileges Execute arbitrary commands Bypass authentication and authorization protections Fetch and run unsigned software Cause denial of service (DoS) For more information about these vulnerabilities, see the Details section of this advisory.
@@ -253,6 +253,14 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 </code>
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
+
+### CVE-2021-1585 (2021-07-08)
+
+<code>
+A vulnerability in the Cisco Adaptive Security Device Manager (ASDM) Launcher could allow an unauthenticated, remote attacker to execute arbitrary code on a user's operating system. This vulnerability is due to a lack of proper signature verification for specific code exchanged between the ASDM and the Launcher. An attacker could exploit this vulnerability by leveraging a man-in-the-middle position on the network to intercept the traffic between the Launcher and the ASDM and then inject arbitrary code. A successful exploit could allow the attacker to execute arbitrary code on the user's operating system with the level of privileges assigned to the ASDM Launcher. A successful exploit may require the attacker to perform a social engineering attack to persuade the user to initiate communication from the Launcher to the ASDM.
+</code>
+
+- [jbaines-r7/staystaystay](https://github.com/jbaines-r7/staystaystay)
 
 ### CVE-2021-1656 (2021-01-12)
 
@@ -799,6 +807,9 @@ NULL Pointer Dereference in GitHub repository gpac/gpac prior to 1.1.0.
 </code>
 
 - [cyberark/PwnKit-Hunter](https://github.com/cyberark/PwnKit-Hunter)
+
+### CVE-2021-4045
+- [hacefresko/CVE-2021-4045-PoC](https://github.com/hacefresko/CVE-2021-4045-PoC)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -2460,14 +2471,6 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 
 - [LeoBreaker1411/CVE-2021-35448](https://github.com/LeoBreaker1411/CVE-2021-35448)
 
-### CVE-2021-35492 (2021-10-05)
-
-<code>
-Wowza Streaming Engine through 4.8.11+5 could allow an authenticated, remote attacker to exhaust filesystem resources via the /enginemanager/server/vhost/historical.jsdata vhost parameter. This is due to the insufficient management of available filesystem resources. An attacker could exploit this vulnerability through the Virtual Host Monitoring section by requesting random virtual-host historical data and exhausting available filesystem resources. A successful exploit could allow the attacker to cause database errors and cause the device to become unresponsive to web-based management. (Manual intervention is required to free filesystem resources and return the application to an operational state.)
-</code>
-
-- [N4nj0/CVE-2021-35492](https://github.com/N4nj0/CVE-2021-35492)
-
 ### CVE-2021-35616 (2021-10-20)
 
 <code>
@@ -2915,7 +2918,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
-- [byteofjoshua/CVE-2021-41773](https://github.com/byteofjoshua/CVE-2021-41773)
 - [HightechSec/scarce-apache2](https://github.com/HightechSec/scarce-apache2)
 - [vinhjaxt/CVE-2021-41773-exploit](https://github.com/vinhjaxt/CVE-2021-41773-exploit)
 - [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
