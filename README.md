@@ -107,7 +107,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 
 - [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
-- [antx-code/CVE-2022-21907](https://github.com/antx-code/CVE-2022-21907)
+- [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
 - [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
@@ -693,6 +693,7 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 </code>
 
+- [mutur4/Hacking-Scripts](https://github.com/mutur4/Hacking-Scripts)
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
 - [lourkeur/cve-2021-4034-playground](https://github.com/lourkeur/cve-2021-4034-playground)
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
@@ -1367,14 +1368,6 @@ The WP Visitor Statistics (Real Time Traffic) WordPress plugin before 4.8 does n
 </code>
 
 - [fimtow/CVE-2021-24750](https://github.com/fimtow/CVE-2021-24750)
-
-### CVE-2021-24807 (2021-11-08)
-
-<code>
-The Support Board WordPress plugin before 3.3.5 allows Authenticated (Agent+) users to perform Cross-Site Scripting attacks by placing a payload in the notes field, when an administrator or any authenticated user go to the chat the XSS will be automatically executed.
-</code>
-
-- [itsjeffersonli/CVE-2021-24807](https://github.com/itsjeffersonli/CVE-2021-24807)
 
 ### CVE-2021-24884 (2021-10-25)
 
