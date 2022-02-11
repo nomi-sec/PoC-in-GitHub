@@ -325,6 +325,14 @@ A race condition was addressed with improved locking. This issue is fixed in mac
 
 - [synacktiv/CVE-2021-1782](https://github.com/synacktiv/CVE-2021-1782)
 
+### CVE-2021-1883 (2021-09-08)
+
+<code>
+This issue was addressed with improved checks. This issue is fixed in Security Update 2021-004 Mojave, iOS 14.5 and iPadOS 14.5, watchOS 7.4, Security Update 2021-003 Catalina, tvOS 14.5, macOS Big Sur 11.3. Processing maliciously crafted server messages may lead to heap corruption.
+</code>
+
+- [gabe-k/CVE-2021-1883](https://github.com/gabe-k/CVE-2021-1883)
+
 ### CVE-2021-1905 (2021-05-07)
 
 <code>
@@ -671,14 +679,6 @@ A flaw was found in python-pip in the way it handled Unicode separators in git r
 
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
 
-### CVE-2021-3625 (2021-10-05)
-
-<code>
-Buffer overflow in Zephyr USB DFU DNLOAD. Zephyr versions &gt;= v2.5.0 contain Heap-based Buffer Overflow (CWE-122). For more information, see https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-c3gr-hgvr-f363
-</code>
-
-- [szymonh/zephyr_cve-2021-3625](https://github.com/szymonh/zephyr_cve-2021-3625)
-
 ### CVE-2021-3707 (2021-08-16)
 
 <code>
@@ -807,6 +807,7 @@ NULL Pointer Dereference in GitHub repository gpac/gpac prior to 1.1.0.
 </code>
 
 - [cyberark/PwnKit-Hunter](https://github.com/cyberark/PwnKit-Hunter)
+- [cspshivam/cve-2021-4043](https://github.com/cspshivam/cve-2021-4043)
 
 ### CVE-2021-4045
 - [hacefresko/CVE-2021-4045-PoC](https://github.com/hacefresko/CVE-2021-4045-PoC)
@@ -2918,7 +2919,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
-- [HightechSec/scarce-apache2](https://github.com/HightechSec/scarce-apache2)
 - [vinhjaxt/CVE-2021-41773-exploit](https://github.com/vinhjaxt/CVE-2021-41773-exploit)
 - [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
 - [ComdeyOverflow/CVE-2021-41773](https://github.com/ComdeyOverflow/CVE-2021-41773)
@@ -8613,7 +8613,7 @@ Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyf
 ImageMagick before 6.9.11-40 and 7.x before 7.0.10-40 mishandles the -authenticate option, which allows setting a password for password-protected PDF files. The user-controlled password was not properly escaped/sanitized and it was therefore possible to inject additional shell commands via coders/pdf.c.
 </code>
 
-- [genjix2/CVE-2020-29599](https://github.com/genjix2/CVE-2020-29599)
+- [coco0x0a/CVE-2020-29599](https://github.com/coco0x0a/CVE-2020-29599)
 
 ### CVE-2020-29666 (2020-12-10)
 
