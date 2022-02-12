@@ -84,6 +84,7 @@ WordPress is a free and open-source content management system written in PHP and
 </code>
 
 - [TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection](https://github.com/TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection)
+- [purple-WL/wordpress-CVE-2022-21661](https://github.com/purple-WL/wordpress-CVE-2022-21661)
 
 ### CVE-2022-21877 (2022-01-11)
 
@@ -804,6 +805,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
 - [FDlucifer/Pwnkit-go](https://github.com/FDlucifer/Pwnkit-go)
 - [fireclasher/pwnkit-CVE-2021-4034-](https://github.com/fireclasher/pwnkit-CVE-2021-4034-)
+- [an0n7os/CVE-2021-4034](https://github.com/an0n7os/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2908,7 +2910,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
-- [blasty/CVE-2021-41773](https://github.com/blasty/CVE-2021-41773)
 - [PentesterGuruji/CVE-2021-41773](https://github.com/PentesterGuruji/CVE-2021-41773)
 - [mohwahyudi/cve-2021-41773](https://github.com/mohwahyudi/cve-2021-41773)
 - [1nhann/CVE-2021-41773](https://github.com/1nhann/CVE-2021-41773)
@@ -2921,7 +2922,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [ComdeyOverflow/CVE-2021-41773](https://github.com/ComdeyOverflow/CVE-2021-41773)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
-- [LetouRaphael/Poc-CVE-2021-41773](https://github.com/LetouRaphael/Poc-CVE-2021-41773)
 - [Sakura-nee/CVE-2021-41773](https://github.com/Sakura-nee/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [0xRar/CVE-2021-41773](https://github.com/0xRar/CVE-2021-41773)
@@ -3834,6 +3834,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
 - [y-security/yLog4j](https://github.com/y-security/yLog4j)
 - [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
+- [hotpotcookie/lol4j-white-box](https://github.com/hotpotcookie/lol4j-white-box)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -12815,6 +12816,7 @@ A sandbox bypass vulnerability exists in Script Security Plugin 1.49 and earlier
 - [adamyordan/cve-2019-1003000-jenkins-rce-poc](https://github.com/adamyordan/cve-2019-1003000-jenkins-rce-poc)
 - [0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins](https://github.com/0xtavian/CVE-2019-1003000-and-CVE-2018-1999002-Pre-Auth-RCE-Jenkins)
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
+- [purple-WL/Jenkins_CVE-2019-1003000](https://github.com/purple-WL/Jenkins_CVE-2019-1003000)
 
 ### CVE-2019-1010054 (2019-07-18)
 
@@ -20814,6 +20816,14 @@ Technicolor TC7200 with firmware STD6.01.12 could allow remote attackers to obta
 </code>
 
 - [tihmstar/freePW_tc7200Eploit](https://github.com/tihmstar/freePW_tc7200Eploit)
+
+### CVE-2014-1767 (2014-07-08)
+
+<code>
+Double free vulnerability in the Ancillary Function Driver (AFD) in afd.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
+</code>
+
+- [ExploitCN/CVE-2014-1767-EXP-PAPER](https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER)
 
 ### CVE-2014-1773 (2014-06-10)
 
