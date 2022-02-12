@@ -1373,14 +1373,6 @@ The WP Visitor Statistics (Real Time Traffic) WordPress plugin before 4.8 does n
 
 - [fimtow/CVE-2021-24750](https://github.com/fimtow/CVE-2021-24750)
 
-### CVE-2021-24807 (2021-11-08)
-
-<code>
-The Support Board WordPress plugin before 3.3.5 allows Authenticated (Agent+) users to perform Cross-Site Scripting attacks by placing a payload in the notes field, when an administrator or any authenticated user go to the chat the XSS will be automatically executed.
-</code>
-
-- [itsjeffersonli/CVE-2021-24807](https://github.com/itsjeffersonli/CVE-2021-24807)
-
 ### CVE-2021-24884 (2021-10-25)
 
 <code>
@@ -3732,7 +3724,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228](https://github.com/Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228)
 - [Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE](https://github.com/Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE)
 - [rohankumardubey/CVE-2021-44228_scanner](https://github.com/rohankumardubey/CVE-2021-44228_scanner)
-- [Heliferepo/log4j](https://github.com/Heliferepo/log4j)
+- [HelifeWasTaken/log4j](https://github.com/HelifeWasTaken/log4j)
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
 - [RenYuH/log4j-lookups-vulnerability](https://github.com/RenYuH/log4j-lookups-vulnerability)
 - [scheibling/py-log4shellscanner](https://github.com/scheibling/py-log4shellscanner)
@@ -3841,6 +3833,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ThanhHien98/CVE-2021-44228](https://github.com/ThanhHien98/CVE-2021-44228)
 - [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
 - [y-security/yLog4j](https://github.com/y-security/yLog4j)
+- [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
