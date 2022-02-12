@@ -1,7 +1,7 @@
 # PoC in GitHub
 
 ## 2022
-### CVE-2022-0185 (-)
+### CVE-2022-0185 (2022-02-11)
 
 <code>
 A heap-based buffer overflow flaw was found in the way the legacy_parse_param function in the Filesystem Context functionality of the Linux kernel verified the supplied parameters length. An unprivileged (in case of unprivileged user namespaces enabled, otherwise needs namespaced CAP_SYS_ADMIN privilege) local user able to open a filesystem that does not support the Filesystem Context API (and thus fallbacks to legacy handling) could use this flaw to escalate their privileges on the system.
@@ -730,7 +730,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [jostmart/-CVE-2021-4034](https://github.com/jostmart/-CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
 - [1nf1n17yk1ng/CVE-2021-4034](https://github.com/1nf1n17yk1ng/CVE-2021-4034)
-- [binksjar/cve-2021-4034](https://github.com/binksjar/cve-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [san3ncrypt3d/CVE-2021-4034-POC](https://github.com/san3ncrypt3d/CVE-2021-4034-POC)
 - [fdellwing/CVE-2021-4034](https://github.com/fdellwing/CVE-2021-4034)
@@ -1373,6 +1372,14 @@ The WP Visitor Statistics (Real Time Traffic) WordPress plugin before 4.8 does n
 </code>
 
 - [fimtow/CVE-2021-24750](https://github.com/fimtow/CVE-2021-24750)
+
+### CVE-2021-24807 (2021-11-08)
+
+<code>
+The Support Board WordPress plugin before 3.3.5 allows Authenticated (Agent+) users to perform Cross-Site Scripting attacks by placing a payload in the notes field, when an administrator or any authenticated user go to the chat the XSS will be automatically executed.
+</code>
+
+- [itsjeffersonli/CVE-2021-24807](https://github.com/itsjeffersonli/CVE-2021-24807)
 
 ### CVE-2021-24884 (2021-10-25)
 
