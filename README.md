@@ -806,6 +806,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [FDlucifer/Pwnkit-go](https://github.com/FDlucifer/Pwnkit-go)
 - [fireclasher/pwnkit-CVE-2021-4034-](https://github.com/fireclasher/pwnkit-CVE-2021-4034-)
 - [an0n7os/CVE-2021-4034](https://github.com/an0n7os/CVE-2021-4034)
+- [DanaEpp/pwncat_pwnkit](https://github.com/DanaEpp/pwncat_pwnkit)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2910,7 +2911,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
-- [PentesterGuruji/CVE-2021-41773](https://github.com/PentesterGuruji/CVE-2021-41773)
 - [mohwahyudi/cve-2021-41773](https://github.com/mohwahyudi/cve-2021-41773)
 - [1nhann/CVE-2021-41773](https://github.com/1nhann/CVE-2021-41773)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
