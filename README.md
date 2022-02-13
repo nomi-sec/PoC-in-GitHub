@@ -36,9 +36,6 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
-### CVE-2022-4034
-- [x04000/CVE-2022-4034](https://github.com/x04000/CVE-2022-4034)
-
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -792,7 +789,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [codiobert/pwnkit-scanner](https://github.com/codiobert/pwnkit-scanner)
 - [v-rzh/CVE-2021-4034](https://github.com/v-rzh/CVE-2021-4034)
 - [TW-D/PwnKit-Vulnerability_CVE-2021-4034](https://github.com/TW-D/PwnKit-Vulnerability_CVE-2021-4034)
-- [OXDBXKXO/go-PwnKit](https://github.com/OXDBXKXO/go-PwnKit)
+- [OXDBXKXO/ez-pwnkit](https://github.com/OXDBXKXO/ez-pwnkit)
 - [milot/dissecting-pkexec-cve-2021-4034](https://github.com/milot/dissecting-pkexec-cve-2021-4034)
 - [OxWeb4/CVE-2021-4034-](https://github.com/OxWeb4/CVE-2021-4034-)
 - [navisec/CVE-2021-4034-PwnKit](https://github.com/navisec/CVE-2021-4034-PwnKit)
@@ -811,6 +808,8 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [fireclasher/pwnkit-CVE-2021-4034-](https://github.com/fireclasher/pwnkit-CVE-2021-4034-)
 - [an0n7os/CVE-2021-4034](https://github.com/an0n7os/CVE-2021-4034)
 - [DanaEpp/pwncat_pwnkit](https://github.com/DanaEpp/pwncat_pwnkit)
+- [x04000/CVE-2021-4034](https://github.com/x04000/CVE-2021-4034)
+- [x04000/AutoPwnkit](https://github.com/x04000/AutoPwnkit)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2914,7 +2913,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
-- [mohwahyudi/cve-2021-41773](https://github.com/mohwahyudi/cve-2021-41773)
 - [1nhann/CVE-2021-41773](https://github.com/1nhann/CVE-2021-41773)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
@@ -2925,7 +2923,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [ComdeyOverflow/CVE-2021-41773](https://github.com/ComdeyOverflow/CVE-2021-41773)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
-- [Sakura-nee/CVE-2021-41773](https://github.com/Sakura-nee/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [0xRar/CVE-2021-41773](https://github.com/0xRar/CVE-2021-41773)
 - [pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt)
@@ -13831,6 +13828,8 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574)
 - [imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC)
 - [thpless/CVE-2018-6574](https://github.com/thpless/CVE-2018-6574)
+- [soffensive/-CVE-2018-6574](https://github.com/soffensive/-CVE-2018-6574)
+- [soffensive/CVE-2018-6574](https://github.com/soffensive/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -21854,6 +21853,14 @@ The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, 
 - [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
 - [pythonone/CVE-2012-0056](https://github.com/pythonone/CVE-2012-0056)
 
+### CVE-2012-0152 (2012-03-13)
+
+<code>
+The Remote Desktop Protocol (RDP) service in Microsoft Windows Server 2008 R2 and R2 SP1 and Windows 7 Gold and SP1 allows remote attackers to cause a denial of service (application hang) via a series of crafted packets, aka &quot;Terminal Server Denial of Service Vulnerability.&quot;
+</code>
+
+- [rutvijjethwa/RDP_jammer](https://github.com/rutvijjethwa/RDP_jammer)
+
 ### CVE-2012-0158 (2012-04-10)
 
 <code>
@@ -21959,6 +21966,7 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 The authentication protocol in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0.5, 11.1.0.7, 11.2.0.2, and 11.2.0.3 allows remote attackers to obtain the session key and salt for arbitrary users, which leaks information about the cryptographic hash and makes it easier to conduct brute force password guessing attacks, aka &quot;stealth password cracking vulnerability.&quot;
 </code>
 
+- [hantwister/o5logon-fetch](https://github.com/hantwister/o5logon-fetch)
 - [r1-/cve-2012-3137](https://github.com/r1-/cve-2012-3137)
 
 ### CVE-2012-3153 (2012-10-16)
@@ -21968,6 +21976,14 @@ Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fu
 </code>
 
 - [Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion)
+
+### CVE-2012-3716 (2012-09-20)
+
+<code>
+CoreText in Apple Mac OS X 10.7.x before 10.7.5 allows remote attackers to execute arbitrary code or cause a denial of service (out-of-bounds write or read) via a crafted text glyph.
+</code>
+
+- [d4rkcat/killosx](https://github.com/d4rkcat/killosx)
 
 ### CVE-2012-4220 (2012-11-30)
 
@@ -22053,6 +22069,9 @@ Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7
 - [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
 - [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
 
+### CVE-2012-5664
+- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
+
 ### CVE-2012-5958 (2013-01-31)
 
 <code>
@@ -22068,6 +22087,14 @@ Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_ser
 </code>
 
 - [finn79426/CVE-2012-5960-PoC](https://github.com/finn79426/CVE-2012-5960-PoC)
+
+### CVE-2012-6066 (2012-12-04)
+
+<code>
+freeSSHd.exe in freeSSHd through 1.2.6 allows remote attackers to bypass authentication via a crafted session, as demonstrated by an OpenSSH client with modified versions of ssh.c and sshconnect2.c.
+</code>
+
+- [bongbongco/CVE-2012-6066](https://github.com/bongbongco/CVE-2012-6066)
 
 ### CVE-2012-6636 (2014-03-02)
 
