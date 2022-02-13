@@ -36,6 +36,9 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
+### CVE-2022-4034
+- [x04000/CVE-2022-4034](https://github.com/x04000/CVE-2022-4034)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -676,6 +679,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
 - [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
 - [n3onhacks/CVE-2021-3560](https://github.com/n3onhacks/CVE-2021-3560)
+- [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -2789,7 +2793,6 @@ An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestr
 </code>
 
 - [0xAgun/CVE-2021-40870](https://github.com/0xAgun/CVE-2021-40870)
-- [byteofjoshua/CVE-2021-40870](https://github.com/byteofjoshua/CVE-2021-40870)
 - [JoyGhoshs/CVE-2021-40870](https://github.com/JoyGhoshs/CVE-2021-40870)
 
 ### CVE-2021-40904
@@ -21851,14 +21854,6 @@ The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, 
 - [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
 - [pythonone/CVE-2012-0056](https://github.com/pythonone/CVE-2012-0056)
 
-### CVE-2012-0152 (2012-03-13)
-
-<code>
-The Remote Desktop Protocol (RDP) service in Microsoft Windows Server 2008 R2 and R2 SP1 and Windows 7 Gold and SP1 allows remote attackers to cause a denial of service (application hang) via a series of crafted packets, aka &quot;Terminal Server Denial of Service Vulnerability.&quot;
-</code>
-
-- [rutvijjethwa/RDP_jammer](https://github.com/rutvijjethwa/RDP_jammer)
-
 ### CVE-2012-0158 (2012-04-10)
 
 <code>
@@ -21964,7 +21959,6 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 The authentication protocol in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0.5, 11.1.0.7, 11.2.0.2, and 11.2.0.3 allows remote attackers to obtain the session key and salt for arbitrary users, which leaks information about the cryptographic hash and makes it easier to conduct brute force password guessing attacks, aka &quot;stealth password cracking vulnerability.&quot;
 </code>
 
-- [hantwister/o5logon-fetch](https://github.com/hantwister/o5logon-fetch)
 - [r1-/cve-2012-3137](https://github.com/r1-/cve-2012-3137)
 
 ### CVE-2012-3153 (2012-10-16)
@@ -21974,14 +21968,6 @@ Unspecified vulnerability in the Oracle Reports Developer component in Oracle Fu
 </code>
 
 - [Mekanismen/pwnacle-fusion](https://github.com/Mekanismen/pwnacle-fusion)
-
-### CVE-2012-3716 (2012-09-20)
-
-<code>
-CoreText in Apple Mac OS X 10.7.x before 10.7.5 allows remote attackers to execute arbitrary code or cause a denial of service (out-of-bounds write or read) via a crafted text glyph.
-</code>
-
-- [d4rkcat/killosx](https://github.com/d4rkcat/killosx)
 
 ### CVE-2012-4220 (2012-11-30)
 
@@ -22067,9 +22053,6 @@ Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7
 - [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
 - [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
 
-### CVE-2012-5664
-- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
-
 ### CVE-2012-5958 (2013-01-31)
 
 <code>
@@ -22085,14 +22068,6 @@ Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_ser
 </code>
 
 - [finn79426/CVE-2012-5960-PoC](https://github.com/finn79426/CVE-2012-5960-PoC)
-
-### CVE-2012-6066 (2012-12-04)
-
-<code>
-freeSSHd.exe in freeSSHd through 1.2.6 allows remote attackers to bypass authentication via a crafted session, as demonstrated by an OpenSSH client with modified versions of ssh.c and sshconnect2.c.
-</code>
-
-- [bongbongco/CVE-2012-6066](https://github.com/bongbongco/CVE-2012-6066)
 
 ### CVE-2012-6636 (2014-03-02)
 
