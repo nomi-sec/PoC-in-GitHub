@@ -2847,14 +2847,6 @@ Microsoft Edge (Chrome based) Spoofing on IE Mode
 
 - [JaneMandy/CVE-2021-41351-POC](https://github.com/JaneMandy/CVE-2021-41351-POC)
 
-### CVE-2021-41381 (2021-09-23)
-
-<code>
-Payara Micro Community 5.2021.6 and below allows Directory Traversal.
-</code>
-
-- [Net-hunter121/CVE-2021-41381](https://github.com/Net-hunter121/CVE-2021-41381)
-
 ### CVE-2021-41643 (2021-10-29)
 
 <code>
@@ -3428,6 +3420,14 @@ Visual Studio Code Remote Code Execution Vulnerability
 </code>
 
 - [parsiya/code-wsl-rce](https://github.com/parsiya/code-wsl-rce)
+
+### CVE-2021-43893 (2021-12-15)
+
+<code>
+Windows Encrypting File System (EFS) Elevation of Privilege Vulnerability
+</code>
+
+- [jbaines-r7/blankspace](https://github.com/jbaines-r7/blankspace)
 
 ### CVE-2021-43936 (2021-12-06)
 
