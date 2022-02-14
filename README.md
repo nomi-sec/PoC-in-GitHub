@@ -542,6 +542,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
 - [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
 - [litt1eb0yy/CVE-2021-3156](https://github.com/litt1eb0yy/CVE-2021-3156)
+- [ret2basic/sudoscience](https://github.com/ret2basic/sudoscience)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -2925,7 +2926,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [0xRar/CVE-2021-41773](https://github.com/0xRar/CVE-2021-41773)
-- [pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-41773-and-CVE-2021-42013-exploitation-attempt)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [zeronine9/CVE-2021-41773](https://github.com/zeronine9/CVE-2021-41773)
 - [b1tsec/CVE-2021-41773](https://github.com/b1tsec/CVE-2021-41773)
