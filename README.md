@@ -44,6 +44,7 @@ Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 
 
 - [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
 - [puckiestyle/CVE-2022-20699](https://github.com/puckiestyle/CVE-2022-20699)
+- [rohankumardubey/CVE-2022-20699](https://github.com/rohankumardubey/CVE-2022-20699)
 
 ### CVE-2022-21241 (2022-02-08)
 
@@ -2914,12 +2915,10 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
-- [1nhann/CVE-2021-41773](https://github.com/1nhann/CVE-2021-41773)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [n3k00n3/CVE-2021-41773](https://github.com/n3k00n3/CVE-2021-41773)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
-- [vinhjaxt/CVE-2021-41773-exploit](https://github.com/vinhjaxt/CVE-2021-41773-exploit)
 - [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
 - [ComdeyOverflow/CVE-2021-41773](https://github.com/ComdeyOverflow/CVE-2021-41773)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
@@ -3599,6 +3598,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [sinakeshmiri/log4jScan](https://github.com/sinakeshmiri/log4jScan)
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
 - [LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228)
+- [0xsyr0/Log4Shell](https://github.com/0xsyr0/Log4Shell)
 - [ahmad4fifz/CVE-2021-44228](https://github.com/ahmad4fifz/CVE-2021-44228)
 - [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
 - [zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service](https://github.com/zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service)
@@ -3963,6 +3963,7 @@ Reflected Cross-site scripting (XSS) vulnerability in RosarioSIS 8.2.1 allows at
 </code>
 
 - [86x/CVE-2021-45416](https://github.com/86x/CVE-2021-45416)
+- [dnr6419/CVE-2021-45416](https://github.com/dnr6419/CVE-2021-45416)
 
 ### CVE-2021-45744 (2022-01-06)
 
