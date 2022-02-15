@@ -105,6 +105,7 @@ Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022
 - [David-Honisch/CVE-2022-21882](https://github.com/David-Honisch/CVE-2022-21882)
 - [L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882)
 - [sailay1996/cve-2022-21882-poc](https://github.com/sailay1996/cve-2022-21882-poc)
+- [r1l4-i3pur1l4/CVE-2022-21882](https://github.com/r1l4-i3pur1l4/CVE-2022-21882)
 
 ### CVE-2022-21907 (2022-01-11)
 
@@ -118,6 +119,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
+- [Ki11i0n4ir3/CVE-2022-21907](https://github.com/Ki11i0n4ir3/CVE-2022-21907)
 
 ### CVE-2022-21999 (2022-02-09)
 
@@ -182,6 +184,7 @@ PhpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the
 </code>
 
 - [jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046)
+- [dnr6419/CVE-2022-23046](https://github.com/dnr6419/CVE-2022-23046)
 
 ### CVE-2022-23305 (2022-01-18)
 
@@ -812,6 +815,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [DanaEpp/pwncat_pwnkit](https://github.com/DanaEpp/pwncat_pwnkit)
 - [x04000/CVE-2021-4034](https://github.com/x04000/CVE-2021-4034)
 - [x04000/AutoPwnkit](https://github.com/x04000/AutoPwnkit)
+- [hohn/codeql-sample-polkit](https://github.com/hohn/codeql-sample-polkit)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -959,6 +963,14 @@ Git is an open-source distributed revision control system. In affected versions 
 - [ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300)
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
+
+### CVE-2021-21311 (2021-02-11)
+
+<code>
+Adminer is an open-source database management in a single PHP file. In adminer from version 4.0.0 and before 4.7.9 there is a server-side request forgery vulnerability. Users of Adminer versions bundling all drivers (e.g. `adminer.php`) are affected. This is fixed in version 4.7.9.
+</code>
+
+- [llhala/CVE-2021-21311](https://github.com/llhala/CVE-2021-21311)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -2916,9 +2928,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
-- [0xRar/CVE-2021-41773](https://github.com/0xRar/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
-- [zeronine9/CVE-2021-41773](https://github.com/zeronine9/CVE-2021-41773)
 - [b1tsec/CVE-2021-41773](https://github.com/b1tsec/CVE-2021-41773)
 - [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
