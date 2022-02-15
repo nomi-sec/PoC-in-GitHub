@@ -119,7 +119,6 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
-- [Ki11i0n4ir3/CVE-2022-21907](https://github.com/Ki11i0n4ir3/CVE-2022-21907)
 
 ### CVE-2022-21999 (2022-02-09)
 
@@ -816,6 +815,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [x04000/CVE-2021-4034](https://github.com/x04000/CVE-2021-4034)
 - [x04000/AutoPwnkit](https://github.com/x04000/AutoPwnkit)
 - [hohn/codeql-sample-polkit](https://github.com/hohn/codeql-sample-polkit)
+- [ck00004/CVE-2021-4034](https://github.com/ck00004/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2924,7 +2924,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
 - [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
-- [ComdeyOverflow/CVE-2021-41773](https://github.com/ComdeyOverflow/CVE-2021-41773)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
@@ -4663,6 +4662,7 @@ An information disclosure vulnerability exists in the way that the Microsoft Ser
 - [ZecOps/CVE-2020-1206-POC](https://github.com/ZecOps/CVE-2020-1206-POC)
 - [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
 - [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
+- [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
 ### CVE-2020-1283 (2020-06-09)
 
@@ -16727,6 +16727,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638)
 - [Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638)
 - [jptr218/struts_hack](https://github.com/jptr218/struts_hack)
+- [testpilot031/vulnerability_struts-2.3.31](https://github.com/testpilot031/vulnerability_struts-2.3.31)
 
 ### CVE-2017-5645 (2017-04-17)
 
