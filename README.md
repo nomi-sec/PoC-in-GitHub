@@ -136,6 +136,14 @@ Sourcecodester Hospital's Patient Records Management System 1.0 is vulnerable to
 
 - [vlakhani28/CVE-2022-22296](https://github.com/vlakhani28/CVE-2022-22296)
 
+### CVE-2022-22536 (2022-02-09)
+
+<code>
+SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server 7.53 and SAP Web Dispatcher are vulnerable for request smuggling and request concatenation. An unauthenticated attacker can prepend a victim's request with arbitrary data. This way, the attacker can execute functions impersonating the victim or poison intermediary Web caches. A successful attack could result in complete compromise of Confidentiality, Integrity and Availability of the system.
+</code>
+
+- [antx-code/CVE-2022-22536](https://github.com/antx-code/CVE-2022-22536)
+
 ### CVE-2022-22828 (2022-01-27)
 
 <code>
@@ -209,6 +217,14 @@ An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject m
 </code>
 
 - [dipakpanchal456/CVE-2022-23808](https://github.com/dipakpanchal456/CVE-2022-23808)
+
+### CVE-2022-23888 (2022-01-28)
+
+<code>
+YzmCMS v6.3 was discovered to contain a Cross-Site Request Forgey (CSRF) via the component /yzmcms/comment/index/init.html.
+</code>
+
+- [MrShiF/CVE-2022-23888](https://github.com/MrShiF/CVE-2022-23888)
 
 ### CVE-2022-23967 (2022-01-26)
 
@@ -810,6 +826,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
 - [FDlucifer/Pwnkit-go](https://github.com/FDlucifer/Pwnkit-go)
 - [fireclasher/pwnkit-CVE-2021-4034-](https://github.com/fireclasher/pwnkit-CVE-2021-4034-)
+- [cspshivam/cve-2021-4034](https://github.com/cspshivam/cve-2021-4034)
 - [an0n7os/CVE-2021-4034](https://github.com/an0n7os/CVE-2021-4034)
 - [DanaEpp/pwncat_pwnkit](https://github.com/DanaEpp/pwncat_pwnkit)
 - [x04000/CVE-2021-4034](https://github.com/x04000/CVE-2021-4034)
@@ -824,7 +841,6 @@ NULL Pointer Dereference in GitHub repository gpac/gpac prior to 1.1.0.
 </code>
 
 - [cyberark/PwnKit-Hunter](https://github.com/cyberark/PwnKit-Hunter)
-- [cspshivam/cve-2021-4043](https://github.com/cspshivam/cve-2021-4043)
 
 ### CVE-2021-4045
 - [hacefresko/CVE-2021-4045-PoC](https://github.com/hacefresko/CVE-2021-4045-PoC)
@@ -2924,6 +2940,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
 - [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
+- [ComdeyOverflow/CVE-2021-41773](https://github.com/ComdeyOverflow/CVE-2021-41773)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
@@ -3048,6 +3065,7 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 </code>
 
 - [cube0x0/noPac](https://github.com/cube0x0/noPac)
+- [knightswd/NoPacScan](https://github.com/knightswd/NoPacScan)
 
 ### CVE-2021-42292 (2021-11-09)
 
@@ -3838,8 +3856,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ColdFusionX/CVE-2021-44228-Log4Shell-POC](https://github.com/ColdFusionX/CVE-2021-44228-Log4Shell-POC)
 - [robrankin/cve-2021-44228-waf-tests](https://github.com/robrankin/cve-2021-44228-waf-tests)
 - [semelnyk/CVE-2021-44228-ScannersListFromRF](https://github.com/semelnyk/CVE-2021-44228-ScannersListFromRF)
-- [ThanhHien98/Log4j](https://github.com/ThanhHien98/Log4j)
-- [ThanhHien98/CVE-2021-44228](https://github.com/ThanhHien98/CVE-2021-44228)
 - [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
 - [y-security/yLog4j](https://github.com/y-security/yLog4j)
 - [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
