@@ -218,14 +218,6 @@ An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject m
 
 - [dipakpanchal456/CVE-2022-23808](https://github.com/dipakpanchal456/CVE-2022-23808)
 
-### CVE-2022-23888 (2022-01-28)
-
-<code>
-YzmCMS v6.3 was discovered to contain a Cross-Site Request Forgey (CSRF) via the component /yzmcms/comment/index/init.html.
-</code>
-
-- [MrShiF/CVE-2022-23888](https://github.com/MrShiF/CVE-2022-23888)
-
 ### CVE-2022-23967 (2022-01-26)
 
 <code>
@@ -1827,7 +1819,6 @@ The module admin_ITSM in EyesOfNetwork 5.3-10 allows remote authenticated users 
 </code>
 
 - [ArianeBlow/CVE-2021-27513-CVE-2021-27514](https://github.com/ArianeBlow/CVE-2021-27513-CVE-2021-27514)
-- [ArianeBlow/CVE-2021-27513](https://github.com/ArianeBlow/CVE-2021-27513)
 
 ### CVE-2021-27651 (2021-04-29)
 
@@ -3860,6 +3851,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [y-security/yLog4j](https://github.com/y-security/yLog4j)
 - [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
 - [hotpotcookie/lol4j-white-box](https://github.com/hotpotcookie/lol4j-white-box)
+- [s-retlaw/l4srs](https://github.com/s-retlaw/l4srs)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -15257,6 +15249,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473)
 - [66quentin/shodan-CVE-2018-15473](https://github.com/66quentin/shodan-CVE-2018-15473)
 - [robiul-awal/CVE-2018-15473](https://github.com/robiul-awal/CVE-2018-15473)
+- [Goldenmonkeyy/SSHusernameEnum](https://github.com/Goldenmonkeyy/SSHusernameEnum)
 
 ### CVE-2018-15499 (2018-08-24)
 
@@ -18168,7 +18161,7 @@ Cross-site scripting (XSS) vulnerability in Logitech Media Server 7.9.0 allows r
 Roundcube Webmail before 1.1.10, 1.2.x before 1.2.7, and 1.3.x before 1.3.3 allows unauthorized access to arbitrary files on the host's filesystem, including configuration files, as exploited in the wild in November 2017. The attacker must be able to authenticate at the target system with a valid username/password as the attack requires an active session. The issue is related to file-based attachment plugins and _task=settings&amp;_action=upload-display&amp;_from=timezone requests.
 </code>
 
-- [stonepresto/CVE-2017-16651](https://github.com/stonepresto/CVE-2017-16651)
+- [nandalf/CVE-2017-16651](https://github.com/nandalf/CVE-2017-16651)
 
 ### CVE-2017-16744 (2018-08-20)
 
