@@ -234,7 +234,12 @@ Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. 
 
 - [jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032)
 
-### CVE-2022-24086
+### CVE-2022-24086 (2022-02-16)
+
+<code>
+Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout process. Exploitation of this issue does not require user interaction and could result in arbitrary code execution.
+</code>
+
 - [wambo-co/magento-1.9-cve-2022-24086](https://github.com/wambo-co/magento-1.9-cve-2022-24086)
 
 ### CVE-2022-24348 (2022-02-04)
