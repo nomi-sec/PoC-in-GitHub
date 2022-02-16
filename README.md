@@ -234,6 +234,9 @@ Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. 
 
 - [jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032)
 
+### CVE-2022-24086
+- [wambo-co/magento-1.9-cve-2022-24086](https://github.com/wambo-co/magento-1.9-cve-2022-24086)
+
 ### CVE-2022-24348 (2022-02-04)
 
 <code>
