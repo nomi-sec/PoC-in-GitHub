@@ -1392,6 +1392,14 @@ Windows Console Driver Denial of Service Vulnerability
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
 
+### CVE-2021-24145 (2021-03-18)
+
+<code>
+Arbitrary file upload in the Modern Events Calendar Lite WordPress plugin, versions before 5.16.5, did not properly check the imported file, allowing PHP ones to be uploaded by administrator by using the 'text/csv' content-type in the request.
+</code>
+
+- [dnr6419/CVE-2021-24145](https://github.com/dnr6419/CVE-2021-24145)
+
 ### CVE-2021-24307 (2021-05-24)
 
 <code>
@@ -3012,7 +3020,6 @@ The decode_data function in drivers/net/hamradio/6pack.c in the Linux kernel bef
 It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration &quot;require all denied&quot;, these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions.
 </code>
 
-- [andrea-mattioli/apache-exploit-CVE-2021-42013](https://github.com/andrea-mattioli/apache-exploit-CVE-2021-42013)
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/CVE-2021-42013-Docker-Lab](https://github.com/twseptian/CVE-2021-42013-Docker-Lab)
 - [LayarKacaSiber/CVE-2021-42013](https://github.com/LayarKacaSiber/CVE-2021-42013)
@@ -18174,7 +18181,7 @@ Cross-site scripting (XSS) vulnerability in Logitech Media Server 7.9.0 allows r
 Roundcube Webmail before 1.1.10, 1.2.x before 1.2.7, and 1.3.x before 1.3.3 allows unauthorized access to arbitrary files on the host's filesystem, including configuration files, as exploited in the wild in November 2017. The attacker must be able to authenticate at the target system with a valid username/password as the attack requires an active session. The issue is related to file-based attachment plugins and _task=settings&amp;_action=upload-display&amp;_from=timezone requests.
 </code>
 
-- [nandalf/CVE-2017-16651](https://github.com/nandalf/CVE-2017-16651)
+- [ropbear/CVE-2017-16651](https://github.com/ropbear/CVE-2017-16651)
 
 ### CVE-2017-16744 (2018-08-20)
 
@@ -23096,7 +23103,7 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
 </code>
 
-- [runtimed/cve-2003-0282](https://github.com/runtimed/cve-2003-0282)
+- [runtimem/cve-2003-0282](https://github.com/runtimem/cve-2003-0282)
 
 
 ## 2002
