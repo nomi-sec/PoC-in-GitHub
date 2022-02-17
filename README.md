@@ -234,14 +234,6 @@ Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. 
 
 - [jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032)
 
-### CVE-2022-24086 (2022-02-16)
-
-<code>
-Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout process. Exploitation of this issue does not require user interaction and could result in arbitrary code execution.
-</code>
-
-- [wambo-co/magento-1.9-cve-2022-24086](https://github.com/wambo-co/magento-1.9-cve-2022-24086)
-
 ### CVE-2022-24348 (2022-02-04)
 
 <code>
@@ -252,6 +244,17 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 
 ### CVE-2022-24693
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
+
+### CVE-2022-25256
+- [RobertDra/CVE-2022-25256](https://github.com/RobertDra/CVE-2022-25256)
+
+### CVE-2022-25258 (2022-02-16)
+
+<code>
+An issue was discovered in the Linux kernel before 5.16.10. The USB Gadget subsystem lacks certain validation of interface OS descriptor requests (ones with a large array index and ones associated with NULL function pointer retrieval). Memory corruption might occur.
+</code>
+
+- [szymonh/d-os-descriptor](https://github.com/szymonh/d-os-descriptor)
 
 
 ## 2021
@@ -17868,6 +17871,7 @@ Due to differences in the Erlang-based JSON parser and JavaScript-based JSON par
 
 - [assalielmehdi/CVE-2017-12635](https://github.com/assalielmehdi/CVE-2017-12635)
 - [cyberharsh/Apache-couchdb-CVE-2017-12635](https://github.com/cyberharsh/Apache-couchdb-CVE-2017-12635)
+- [tranmanhdat/couchdb_cve-2017-12635](https://github.com/tranmanhdat/couchdb_cve-2017-12635)
 
 ### CVE-2017-12636 (2017-11-14)
 
@@ -19217,6 +19221,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [arttnba3/CVE-2016-5195](https://github.com/arttnba3/CVE-2016-5195)
 - [KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability)
 - [SmithCGauss/CVE-2016-5195](https://github.com/SmithCGauss/CVE-2016-5195)
+- [th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC)
 
 ### CVE-2016-5345 (2018-01-22)
 
