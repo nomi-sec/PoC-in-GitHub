@@ -686,7 +686,12 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
 
-### CVE-2021-3560
+### CVE-2021-3560 (2022-02-16)
+
+<code>
+It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
+</code>
+
 - [aancw/polkit-auto-exploit](https://github.com/aancw/polkit-auto-exploit)
 - [swapravo/polkadots](https://github.com/swapravo/polkadots)
 - [hakivvi/CVE-2021-3560](https://github.com/hakivvi/CVE-2021-3560)
@@ -21986,6 +21991,7 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 - [Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982)
 - [JohnHammond/CVE-2012-2982](https://github.com/JohnHammond/CVE-2012-2982)
 - [R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982)
+- [blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
 
