@@ -176,6 +176,9 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hosp
 
 - [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
 
+### CVE-2022-22909
+- [0z09e/CVE-2022-22909](https://github.com/0z09e/CVE-2022-22909)
+
 ### CVE-2022-22919 (2022-01-29)
 
 <code>
@@ -247,6 +250,9 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 
 ### CVE-2022-25256
 - [RobertDra/CVE-2022-25256](https://github.com/RobertDra/CVE-2022-25256)
+
+### CVE-2022-25257
+- [RobertDra/CVE-2022-25257](https://github.com/RobertDra/CVE-2022-25257)
 
 ### CVE-2022-25258 (2022-02-16)
 
