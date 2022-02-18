@@ -196,6 +196,14 @@ PhpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the
 - [jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046)
 - [dnr6419/CVE-2022-23046](https://github.com/dnr6419/CVE-2022-23046)
 
+### CVE-2022-23131 (2022-01-13)
+
+<code>
+In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login stored in the session was not verified. Malicious unauthenticated actor may exploit this issue to escalate privileges and gain admin access to Zabbix Frontend. To perform the attack, SAML authentication is required to be enabled and the actor has to know the username of Zabbix user (or use the guest account, which is disabled by default).
+</code>
+
+- [qq1549176285/CVE-2022-23131](https://github.com/qq1549176285/CVE-2022-23131)
+
 ### CVE-2022-23305 (2022-01-18)
 
 <code>
@@ -4170,7 +4178,12 @@ A Cross Site Request Forgery (CSRF) vulnerability exists in Vehicle Service Mana
 - [plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS](https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS)
 - [plsanu/CVE-2021-46080](https://github.com/plsanu/CVE-2021-46080)
 
-### CVE-2021-46108
+### CVE-2021-46108 (2022-02-17)
+
+<code>
+D-Link DSL-2730E CT-20131125 devices allow XSS via the username parameter to the password page in the maintenance configuration.
+</code>
+
 - [g-rubert/CVE-2021-46108](https://github.com/g-rubert/CVE-2021-46108)
 
 
@@ -13787,6 +13800,7 @@ An issue was discovered on Netwave IP Camera devices. An unauthenticated attacke
 </code>
 
 - [dreadlocked/netwave-dosvulnerability](https://github.com/dreadlocked/netwave-dosvulnerability)
+- [LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479](https://github.com/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479)
 
 ### CVE-2018-6518 (2018-04-26)
 
@@ -14590,6 +14604,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [Saeed22487/CVE-2018-9995](https://github.com/Saeed22487/CVE-2018-9995)
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
 - [dearpan/cve-2018-9995](https://github.com/dearpan/cve-2018-9995)
+- [LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995](https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995)
 
 ### CVE-2018-10118 (2018-04-15)
 
