@@ -2865,14 +2865,6 @@ An Unsafe Deserialization vulnerability exists in the worker services of the Apa
 
 - [hktalent/CVE-2021-40865](https://github.com/hktalent/CVE-2021-40865)
 
-### CVE-2021-40870 (2021-09-13)
-
-<code>
-An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestricted upload of a file with a dangerous type is possible, which allows an unauthenticated user to execute arbitrary code via directory traversal.
-</code>
-
-- [JoyGhoshs/CVE-2021-40870](https://github.com/JoyGhoshs/CVE-2021-40870)
-
 ### CVE-2021-40904
 - [Edgarloyola/CVE-2021-40904](https://github.com/Edgarloyola/CVE-2021-40904)
 
@@ -3953,6 +3945,9 @@ Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases
 - [cckuailong/log4j_RCE_CVE-2021-44832](https://github.com/cckuailong/log4j_RCE_CVE-2021-44832)
 - [name/log4j](https://github.com/name/log4j)
 - [DanielRuf/CVE-2021-44832](https://github.com/DanielRuf/CVE-2021-44832)
+
+### CVE-2021-45007
+- [AS4mir/CVE-2021-45007](https://github.com/AS4mir/CVE-2021-45007)
 
 ### CVE-2021-45041 (2021-12-19)
 
