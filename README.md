@@ -8987,7 +8987,6 @@ When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in 
 - [jas502n/CVE-2019-0232](https://github.com/jas502n/CVE-2019-0232)
 - [CherishHair/CVE-2019-0232-EXP](https://github.com/CherishHair/CVE-2019-0232-EXP)
 - [setrus/CVE-2019-0232](https://github.com/setrus/CVE-2019-0232)
-- [0xmanjoos/CVE-2019-0232](https://github.com/0xmanjoos/CVE-2019-0232)
 - [Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-](https://github.com/Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-)
 - [Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232](https://github.com/Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232)
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
