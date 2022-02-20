@@ -249,6 +249,14 @@ Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. 
 
 - [jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032)
 
+### CVE-2022-24086 (2022-02-16)
+
+<code>
+Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout process. Exploitation of this issue does not require user interaction and could result in arbitrary code execution.
+</code>
+
+- [Mr-xn/CVE-2022-24086](https://github.com/Mr-xn/CVE-2022-24086)
+
 ### CVE-2022-24348 (2022-02-04)
 
 <code>
@@ -875,6 +883,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ck00004/CVE-2021-4034](https://github.com/ck00004/CVE-2021-4034)
 - [LJP-TW/CVE-2021-4034](https://github.com/LJP-TW/CVE-2021-4034)
 - [chenaotian/CVE-2022-0185](https://github.com/chenaotian/CVE-2022-0185)
+- [JoaoFukuda/CVE-2021-4034_POC](https://github.com/JoaoFukuda/CVE-2021-4034_POC)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2830,6 +2839,7 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 - [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
+- [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 
 ### CVE-2021-40531 (2021-09-06)
 
@@ -2988,7 +2998,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
-- [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
@@ -3849,7 +3858,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [rejupillai/log4j2-hack-springboot](https://github.com/rejupillai/log4j2-hack-springboot)
 - [lucab85/log4j-cve-2021-44228](https://github.com/lucab85/log4j-cve-2021-44228)
 - [BabooPan/Log4Shell-CVE-2021-44228-Demo](https://github.com/BabooPan/Log4Shell-CVE-2021-44228-Demo)
-- [NitinGavhane/CVE-2021-44228---Log4J](https://github.com/NitinGavhane/CVE-2021-44228---Log4J)
 - [ossie-git/log4shell_sentinel](https://github.com/ossie-git/log4shell_sentinel)
 - [r00thunter/Log4Shell](https://github.com/r00thunter/Log4Shell)
 - [asyzdykov/cve-2021-44228-fix-jars](https://github.com/asyzdykov/cve-2021-44228-fix-jars)
@@ -3957,7 +3965,7 @@ Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases
 - [name/log4j](https://github.com/name/log4j)
 - [DanielRuf/CVE-2021-44832](https://github.com/DanielRuf/CVE-2021-44832)
 
-### CVE-2021-45007 (-)
+### CVE-2021-45007 (2022-02-20)
 
 <code>
 Plesk 18.0.37 is affected by a Cross Site Request Forgery (CSRF) vulnerability that allows an attacker to insert data on the user and admin panel.
@@ -19812,7 +19820,7 @@ The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_sen
 ### CVE-2016-1000027 (2020-01-02)
 
 <code>
-Pivotal Spring Framework 4.1.4 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required.
+Pivotal Spring Framework through 5.3.16 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required. NOTE: the vendor's position is that untrusted data is not an intended use case. The product's behavior will not be changed because some users rely on deserialization of trusted data.
 </code>
 
 - [artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc)
