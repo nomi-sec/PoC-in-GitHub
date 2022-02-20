@@ -3957,7 +3957,12 @@ Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases
 - [name/log4j](https://github.com/name/log4j)
 - [DanielRuf/CVE-2021-44832](https://github.com/DanielRuf/CVE-2021-44832)
 
-### CVE-2021-45007
+### CVE-2021-45007 (-)
+
+<code>
+Plesk 18.0.37 is affected by a Cross Site Request Forgery (CSRF) vulnerability that allows an attacker to insert data on the user and admin panel.
+</code>
+
 - [AS4mir/CVE-2021-45007](https://github.com/AS4mir/CVE-2021-45007)
 
 ### CVE-2021-45041 (2021-12-19)
