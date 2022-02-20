@@ -400,6 +400,7 @@ Possible buffer overflow due to lack of parameter length check during MBSSID sca
 </code>
 
 - [parsdefense/CVE-2021-1965](https://github.com/parsdefense/CVE-2021-1965)
+- [foxtrot/CVE-2021-1965](https://github.com/foxtrot/CVE-2021-1965)
 
 ### CVE-2021-1994 (2021-01-20)
 
@@ -2809,7 +2810,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
-- [H0j3n/CVE-2021-40444](https://github.com/H0j3n/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
 - [TiagoSergio/CVE-2021-40444](https://github.com/TiagoSergio/CVE-2021-40444)
 - [0xK4gura/CVE-2021-40444-POC](https://github.com/0xK4gura/CVE-2021-40444-POC)
