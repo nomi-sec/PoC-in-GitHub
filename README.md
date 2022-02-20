@@ -513,7 +513,6 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
-- [knqyf263/CVE-2021-3129](https://github.com/knqyf263/CVE-2021-3129)
 - [Erikten/CVE-2021-3129](https://github.com/Erikten/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
@@ -904,6 +903,14 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 
 ### CVE-2021-6857
 - [zi0n8/CVE-2021-6857](https://github.com/zi0n8/CVE-2021-6857)
+
+### CVE-2021-20028 (2021-08-04)
+
+<code>
+** UNSUPPORTED WHEN ASSIGNED ** Improper neutralization of a SQL Command leading to SQL Injection vulnerability impacting end-of-life Secure Remote Access (SRA) products, specifically the SRA appliances running all 8.x firmware and 9.0.0.9-26sv or earlier.
+</code>
+
+- [Exploitspacks/CVE-2021-20028](https://github.com/Exploitspacks/CVE-2021-20028)
 
 ### CVE-2021-20038 (2021-12-08)
 
@@ -2514,6 +2521,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
 - [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
+- [Exploitspacks/CVE-2021-34527-CVE-2021-1675](https://github.com/Exploitspacks/CVE-2021-34527-CVE-2021-1675)
 
 ### CVE-2021-34600 (2022-01-20)
 
@@ -2979,15 +2987,12 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
-- [twseptian/CVE-2021-41773](https://github.com/twseptian/CVE-2021-41773)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [justakazh/mass_cve-2021-41773](https://github.com/justakazh/mass_cve-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
-- [5gstudent/cve-2021-41773-and-cve-2021-42013](https://github.com/5gstudent/cve-2021-41773-and-cve-2021-42013)
-- [EagleTube/CVE-2021-41773](https://github.com/EagleTube/CVE-2021-41773)
 - [cgddgc/CVE-2021-41773-42013](https://github.com/cgddgc/CVE-2021-41773-42013)
 - [apapedulimu/Apachuk](https://github.com/apapedulimu/Apachuk)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
@@ -3269,6 +3274,12 @@ The SyncThru Web Service on Samsung SCX-6x55X printers allows an attacker to gai
 </code>
 
 - [windsormoreira/CVE-2021-42913](https://github.com/windsormoreira/CVE-2021-42913)
+
+### CVE-2021-42948
+- [dhammon/HotelDruid-CVE-2021-42948](https://github.com/dhammon/HotelDruid-CVE-2021-42948)
+
+### CVE-2021-42949
+- [dhammon/HotelDruid-CVE-2021-42949](https://github.com/dhammon/HotelDruid-CVE-2021-42949)
 
 ### CVE-2021-43032 (2021-11-03)
 
@@ -4487,6 +4498,7 @@ An elevation of privilege vulnerability exists when the Windows Background Intel
 - [MasterSploit/CVE-2020-0787](https://github.com/MasterSploit/CVE-2020-0787)
 - [MasterSploit/CVE-2020-0787-BitsArbitraryFileMove-master](https://github.com/MasterSploit/CVE-2020-0787-BitsArbitraryFileMove-master)
 - [yanghaoi/CVE-2020-0787](https://github.com/yanghaoi/CVE-2020-0787)
+- [Exploitspacks/CVE-2020-0787](https://github.com/Exploitspacks/CVE-2020-0787)
 
 ### CVE-2020-0796 (2020-03-12)
 
@@ -4857,6 +4869,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Udyz/Zerologon](https://github.com/Udyz/Zerologon)
 - [itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472)
 - [NickSanzotta/zeroscan](https://github.com/NickSanzotta/zeroscan)
+- [Exploitspacks/CVE-2020-1472](https://github.com/Exploitspacks/CVE-2020-1472)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -6875,6 +6888,14 @@ The drag-and-drop-multiple-file-upload-contact-form-7 plugin before 1.3.3.3 for 
 </code>
 
 - [amartinsec/CVE-2020-12800](https://github.com/amartinsec/CVE-2020-12800)
+
+### CVE-2020-12812 (2020-07-24)
+
+<code>
+An improper authentication vulnerability in SSL VPN in FortiOS 6.4.0, 6.2.0 to 6.2.3, 6.0.9 and below may result in a user being able to log in successfully without being prompted for the second factor of authentication (FortiToken) if they changed the case of their username.
+</code>
+
+- [Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591](https://github.com/Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591)
 
 ### CVE-2020-12828 (2020-05-21)
 
@@ -9154,6 +9175,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
 - [lisinan988/CVE-2019-0708-scan](https://github.com/lisinan988/CVE-2019-0708-scan)
 - [offensity/CVE-2019-0708](https://github.com/offensity/CVE-2019-0708)
+- [Exploitspacks/CVE-2019-0708](https://github.com/Exploitspacks/CVE-2019-0708)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -9897,6 +9919,14 @@ OpenSLP as used in ESXi and the Horizon DaaS appliances has a heap overwrite iss
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
+
+### CVE-2019-5591 (2020-08-14)
+
+<code>
+A Default Configuration vulnerability in FortiOS may allow an unauthenticated attacker on the same subnet to intercept sensitive information by impersonating the LDAP server.
+</code>
+
+- [Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591](https://github.com/Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591)
 
 ### CVE-2019-5624 (2019-04-30)
 
@@ -12733,7 +12763,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
 - [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
 - [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
-- [JamesG-Zero/Shitrix-CVE-2019-19781](https://github.com/JamesG-Zero/Shitrix-CVE-2019-19781)
+- [jamesjguthrie/Shitrix-CVE-2019-19781](https://github.com/jamesjguthrie/Shitrix-CVE-2019-19781)
 - [x1sec/CVE-2019-19781](https://github.com/x1sec/CVE-2019-19781)
 - [hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781)
 - [aqhmal/CVE-2019-19781](https://github.com/aqhmal/CVE-2019-19781)
@@ -15095,6 +15125,7 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
 - [B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379)
 - [nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379)
+- [Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591](https://github.com/Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591)
 
 ### CVE-2018-13382 (2019-06-04)
 
@@ -16543,6 +16574,14 @@ An exploitable code execution vulnerability exists in the trapper command functi
 </code>
 
 - [listenquiet/cve-2017-2824-reverse-shell](https://github.com/listenquiet/cve-2017-2824-reverse-shell)
+
+### CVE-2017-2998 (2017-03-14)
+
+<code>
+Adobe Flash Player versions 24.0.0.221 and earlier have an exploitable memory corruption vulnerability in the Primetime TVSDK API functionality related to timeline interactions. Successful exploitation could lead to arbitrary code execution.
+</code>
+
+- [Exploitspacks/MS17-010-2017-2997-CVE-2017-2998-CVE-2017-2999-CVE-2017-3000-CVE-2017-3001-CVE-2017-3002-CVE-2017-3](https://github.com/Exploitspacks/MS17-010-2017-2997-CVE-2017-2998-CVE-2017-2999-CVE-2017-3000-CVE-2017-3001-CVE-2017-3002-CVE-2017-3)
 
 ### CVE-2017-3000 (2017-03-14)
 
