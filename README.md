@@ -259,6 +259,14 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 
 - [Mr-xn/CVE-2022-24086](https://github.com/Mr-xn/CVE-2022-24086)
 
+### CVE-2022-24112 (2022-02-11)
+
+<code>
+An attacker can abuse the batch-requests plugin to send requests to bypass the IP restriction of Admin API. A default configuration of Apache APISIX (with default API key) is vulnerable to remote code execution. When the admin key was changed or the port of Admin API was changed to a port different from the data panel, the impact is lower. But there is still a risk to bypass the IP restriction of Apache APISIX's data panel. There is a check in the batch-requests plugin which overrides the client IP with its real remote IP. But due to a bug in the code, this check can be bypassed.
+</code>
+
+- [shakeman8/CVE-2022-24112](https://github.com/shakeman8/CVE-2022-24112)
+
 ### CVE-2022-24348 (2022-02-04)
 
 <code>
@@ -1281,6 +1289,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
+- [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -3012,8 +3021,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
-- [cgddgc/CVE-2021-41773-42013](https://github.com/cgddgc/CVE-2021-41773-42013)
-- [apapedulimu/Apachuk](https://github.com/apapedulimu/Apachuk)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
 - [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
 - [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
@@ -3982,6 +3989,14 @@ Plesk 18.0.37 is affected by a Cross Site Request Forgery (CSRF) vulnerability t
 </code>
 
 - [AS4mir/CVE-2021-45007](https://github.com/AS4mir/CVE-2021-45007)
+
+### CVE-2021-45008 (-)
+
+<code>
+Plesk CMS 18.0.37 is affected by an insecure permissions vulnerability that allows privilege Escalation from user to admin rights.
+</code>
+
+- [AS4mir/CVE-2021-45008](https://github.com/AS4mir/CVE-2021-45008)
 
 ### CVE-2021-45041 (2021-12-19)
 
