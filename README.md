@@ -120,6 +120,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
+- [coconut20/CVE-2022-21907-RCE-POC](https://github.com/coconut20/CVE-2022-21907-RCE-POC)
 
 ### CVE-2022-21999 (2022-02-09)
 
@@ -902,6 +903,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [LJP-TW/CVE-2021-4034](https://github.com/LJP-TW/CVE-2021-4034)
 - [chenaotian/CVE-2022-0185](https://github.com/chenaotian/CVE-2022-0185)
 - [JoaoFukuda/CVE-2021-4034_POC](https://github.com/JoaoFukuda/CVE-2021-4034_POC)
+- [Tanmay-N/CVE-2021-4034](https://github.com/Tanmay-N/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2456,14 +2458,6 @@ The identity authentication bypass vulnerability found in some Dahua products du
 - [bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass)
 - [dorkerdevil/CVE-2021-33044](https://github.com/dorkerdevil/CVE-2021-33044)
 
-### CVE-2021-33045 (2021-09-15)
-
-<code>
-The identity authentication bypass vulnerability found in some Dahua products during the login process. Attackers can bypass device identity authentication by constructing malicious data packets.
-</code>
-
-- [dongpohezui/cve-2021-33045](https://github.com/dongpohezui/cve-2021-33045)
-
 ### CVE-2021-33558 (2021-05-27)
 
 <code>
@@ -3990,7 +3984,7 @@ Plesk 18.0.37 is affected by a Cross Site Request Forgery (CSRF) vulnerability t
 
 - [AS4mir/CVE-2021-45007](https://github.com/AS4mir/CVE-2021-45007)
 
-### CVE-2021-45008 (-)
+### CVE-2021-45008 (2022-02-21)
 
 <code>
 Plesk CMS 18.0.37 is affected by an insecure permissions vulnerability that allows privilege Escalation from user to admin rights.
@@ -17239,6 +17233,7 @@ In Eclipse Mosquitto 1.4.14, a user can shutdown the Mosquitto server simply by 
 </code>
 
 - [mukkul007/MqttAttack](https://github.com/mukkul007/MqttAttack)
+- [St3v3nsS/CVE-2017-7651](https://github.com/St3v3nsS/CVE-2017-7651)
 
 ### CVE-2017-7679 (2017-06-19)
 
@@ -17266,6 +17261,7 @@ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Serie
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
 - [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
 - [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
+- [NFIRBV/krijg-de-hik](https://github.com/NFIRBV/krijg-de-hik)
 
 ### CVE-2017-7998 (2018-01-08)
 
