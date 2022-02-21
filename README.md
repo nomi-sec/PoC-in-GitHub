@@ -282,10 +282,18 @@ SAS Web Report Studio 4.4 allows XSS. /SASWebReportStudio/logonAndRender.do has 
 ### CVE-2022-25258 (2022-02-16)
 
 <code>
-An issue was discovered in the Linux kernel before 5.16.10. The USB Gadget subsystem lacks certain validation of interface OS descriptor requests (ones with a large array index and ones associated with NULL function pointer retrieval). Memory corruption might occur.
+An issue was discovered in drivers/usb/gadget/composite.c in the Linux kernel before 5.16.10. The USB Gadget subsystem lacks certain validation of interface OS descriptor requests (ones with a large array index and ones associated with NULL function pointer retrieval). Memory corruption might occur.
 </code>
 
 - [szymonh/d-os-descriptor](https://github.com/szymonh/d-os-descriptor)
+
+### CVE-2022-25375 (2022-02-20)
+
+<code>
+An issue was discovered in drivers/usb/gadget/function/rndis.c in the Linux kernel before 5.16.10. The RNDIS USB gadget lacks validation of the size of the RNDIS_MSG_SET command. Attackers can obtain sensitive information from kernel memory.
+</code>
+
+- [szymonh/rndis-co](https://github.com/szymonh/rndis-co)
 
 
 ## 2021
