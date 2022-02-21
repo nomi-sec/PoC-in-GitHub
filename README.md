@@ -207,6 +207,8 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [jweny/zabbix-saml-bypass-exp](https://github.com/jweny/zabbix-saml-bypass-exp)
 - [Mr-xn/cve-2022-23131](https://github.com/Mr-xn/cve-2022-23131)
 - [1mxml/CVE-2022-23131](https://github.com/1mxml/CVE-2022-23131)
+- [0tt7/CVE-2022-23131](https://github.com/0tt7/CVE-2022-23131)
+- [zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131)
 
 ### CVE-2022-23305 (2022-01-18)
 
@@ -14297,7 +14299,6 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [unamer/CVE-2018-8120](https://github.com/unamer/CVE-2018-8120)
 - [ne1llee/cve-2018-8120](https://github.com/ne1llee/cve-2018-8120)
 - [alpha1ab/CVE-2018-8120](https://github.com/alpha1ab/CVE-2018-8120)
-- [areuu/CVE-2018-8120](https://github.com/areuu/CVE-2018-8120)
 - [EVOL4/CVE-2018-8120](https://github.com/EVOL4/CVE-2018-8120)
 - [ozkanbilge/CVE-2018-8120](https://github.com/ozkanbilge/CVE-2018-8120)
 - [qiantu88/CVE-2018-8120](https://github.com/qiantu88/CVE-2018-8120)
