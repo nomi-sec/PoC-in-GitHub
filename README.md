@@ -210,6 +210,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [1mxml/CVE-2022-23131](https://github.com/1mxml/CVE-2022-23131)
 - [0tt7/CVE-2022-23131](https://github.com/0tt7/CVE-2022-23131)
 - [zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131)
+- [L0ading-x/cve-2022-23131](https://github.com/L0ading-x/cve-2022-23131)
 
 ### CVE-2022-23305 (2022-01-18)
 
@@ -363,6 +364,8 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare)
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
 - [AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675)
+- [mtthwstffrd/cube0x0-CVE-2021-1675](https://github.com/mtthwstffrd/cube0x0-CVE-2021-1675)
+- [mtthwstffrd/calebstewart-CVE-2021-1675](https://github.com/mtthwstffrd/calebstewart-CVE-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -3017,7 +3020,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
-- [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
 - [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
@@ -4902,6 +4904,8 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472)
 - [NickSanzotta/zeroscan](https://github.com/NickSanzotta/zeroscan)
 - [Exploitspacks/CVE-2020-1472](https://github.com/Exploitspacks/CVE-2020-1472)
+- [mtthwstffrd/SecuraBV-CVE-2020-1472](https://github.com/mtthwstffrd/SecuraBV-CVE-2020-1472)
+- [mtthwstffrd/dirkjanm-CVE-2020-1472](https://github.com/mtthwstffrd/dirkjanm-CVE-2020-1472)
 
 ### CVE-2020-1493 (2020-08-17)
 
