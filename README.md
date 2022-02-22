@@ -764,6 +764,7 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
 - [n3onhacks/CVE-2021-3560](https://github.com/n3onhacks/CVE-2021-3560)
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
+- [Nosferatuvjr/Vivald0x6f](https://github.com/Nosferatuvjr/Vivald0x6f)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -1975,6 +1976,7 @@ The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 ha
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
 - [Crystalware/CVE-2021-27965](https://github.com/Crystalware/CVE-2021-27965)
+- [Leo-Security/CVE-2021-27965-Win10-20H2-x64](https://github.com/Leo-Security/CVE-2021-27965-Win10-20H2-x64)
 
 ### CVE-2021-28079 (2021-04-26)
 
@@ -2457,6 +2459,7 @@ The identity authentication bypass vulnerability found in some Dahua products du
 
 - [bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass)
 - [dorkerdevil/CVE-2021-33044](https://github.com/dorkerdevil/CVE-2021-33044)
+- [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
 
 ### CVE-2021-33558 (2021-05-27)
 
@@ -2829,7 +2832,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 </code>
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
-- [aslitsecurity/CVE-2021-40444_builders](https://github.com/aslitsecurity/CVE-2021-40444_builders)
 - [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
@@ -3013,7 +3015,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
-- [superzerosec/CVE-2021-41773](https://github.com/superzerosec/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
 - [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
@@ -3974,7 +3975,6 @@ Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases
 
 - [cckuailong/log4j_RCE_CVE-2021-44832](https://github.com/cckuailong/log4j_RCE_CVE-2021-44832)
 - [name/log4j](https://github.com/name/log4j)
-- [DanielRuf/CVE-2021-44832](https://github.com/DanielRuf/CVE-2021-44832)
 
 ### CVE-2021-45007 (2022-02-20)
 
@@ -5036,6 +5036,14 @@ An OS Command Injection vulnerability in the PAN-OS GlobalProtect portal allows 
 
 ### CVE-2020-2333
 - [section-c/CVE-2020-2333](https://github.com/section-c/CVE-2020-2333)
+
+### CVE-2020-2501 (2021-02-16)
+
+<code>
+A stack-based buffer overflow vulnerability has been reported to affect QNAP NAS devices running Surveillance Station. If exploited, this vulnerability allows attackers to execute arbitrary code. QNAP have already fixed this vulnerability in the following versions: Surveillance Station 5.1.5.4.3 (and later) for ARM CPU NAS (64bit OS) and x86 CPU NAS (64bit OS) Surveillance Station 5.1.5.3.3 (and later) for ARM CPU NAS (32bit OS) and x86 CPU NAS (32bit OS)
+</code>
+
+- [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
 
 ### CVE-2020-2546 (2020-01-15)
 
@@ -10311,6 +10319,9 @@ Subrion CMS 4.2.1 has CSRF in panel/modules/plugins/. The attacker can remotely 
 </code>
 
 - [ngpentest007/CVE-2019-7357](https://github.com/ngpentest007/CVE-2019-7357)
+
+### CVE-2019-7406
+- [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
 
 ### CVE-2019-7482 (2019-12-18)
 
