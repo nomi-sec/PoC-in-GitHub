@@ -4348,6 +4348,30 @@ In updateUidProcState of AppOpsService.java, there is a possible permission bypa
 
 - [mooneee/CVE-2020-0121](https://github.com/mooneee/CVE-2020-0121)
 
+### CVE-2020-0209 (2020-06-11)
+
+<code>
+In multiple functions of AccountManager.java, there is a possible permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-145206842
+</code>
+
+- [pazhanivel07/frameworks_base_CVE-2020-0209](https://github.com/pazhanivel07/frameworks_base_CVE-2020-0209)
+
+### CVE-2020-0219 (2020-06-11)
+
+<code>
+In onCreate of SliceDeepLinkSpringBoard.java there is a possible insecure Intent. This could lead to local elevation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-122836081
+</code>
+
+- [pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219](https://github.com/pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219)
+
+### CVE-2020-0242 (2020-08-11)
+
+<code>
+In reset of NuPlayerDriver.cpp, there is a possible use-after-free due to improper locking. This could lead to local escalation of privilege in the media server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-151643722
+</code>
+
+- [pazhanivel07/frameworks_av-10-r33_CVE-2020-0242](https://github.com/pazhanivel07/frameworks_av-10-r33_CVE-2020-0242)
+
 ### CVE-2020-0551 (2020-03-12)
 
 <code>
@@ -13962,8 +13986,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574)
 - [vishack/CVE-2018-6574](https://github.com/vishack/CVE-2018-6574)
 - [PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise)
-- [purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574)
-- [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
 - [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
 - [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
@@ -15335,7 +15357,6 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
-- [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 - [huydoppa/CVE-2018-15133](https://github.com/huydoppa/CVE-2018-15133)
 - [NatteeSetobol/CVE-2018-15133-Lavel-Expliot](https://github.com/NatteeSetobol/CVE-2018-15133-Lavel-Expliot)
 
@@ -22112,6 +22133,14 @@ Cross-site scripting (XSS) vulnerability in the administrative interface in Atma
 
 - [AndrewTrube/CVE-2012-2593](https://github.com/AndrewTrube/CVE-2012-2593)
 
+### CVE-2012-2661 (2012-06-22)
+
+<code>
+The Active Record component in Ruby on Rails 3.0.x before 3.0.13, 3.1.x before 3.1.5, and 3.2.x before 3.2.4 does not properly implement the passing of request data to a where method in an ActiveRecord class, which allows remote attackers to conduct certain SQL injection attacks via nested query parameters that leverage unintended recursion, a related issue to CVE-2012-2695.
+</code>
+
+- [Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-](https://github.com/Blackyguy/-CVE-2012-2661-ActiveRecord-SQL-injection-)
+
 ### CVE-2012-2688 (2012-07-20)
 
 <code>
@@ -22784,14 +22813,6 @@ The loadContentFromCookie function in core/Cookie.php in Piwik before 0.5 does n
 </code>
 
 - [Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137)
-
-### CVE-2009-4660 (2010-03-03)
-
-<code>
-Stack-based buffer overflow in the AntServer Module (AntServer.exe) in BigAnt IM Server 2.50 allows remote attackers to execute arbitrary code via a long GET request to TCP port 6660.
-</code>
-
-- [war4uthor/CVE-2009-4660](https://github.com/war4uthor/CVE-2009-4660)
 
 ### CVE-2009-5147 (2017-03-29)
 
