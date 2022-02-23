@@ -908,7 +908,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [hohn/codeql-sample-polkit](https://github.com/hohn/codeql-sample-polkit)
 - [ck00004/CVE-2021-4034](https://github.com/ck00004/CVE-2021-4034)
 - [LJP-TW/CVE-2021-4034](https://github.com/LJP-TW/CVE-2021-4034)
-- [chenaotian/CVE-2022-0185](https://github.com/chenaotian/CVE-2022-0185)
 - [JoaoFukuda/CVE-2021-4034_POC](https://github.com/JoaoFukuda/CVE-2021-4034_POC)
 - [Tanmay-N/CVE-2021-4034](https://github.com/Tanmay-N/CVE-2021-4034)
 
@@ -3023,6 +3022,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
+- [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
 - [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
