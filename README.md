@@ -37,6 +37,14 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
+### CVE-2022-0529 (2022-02-09)
+
+<code>
+A flaw was found in unzip 6.0. The vulnerability occurs during the conversion of wide string to local string that leads to a heap of out-of-bound writes. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution.
+</code>
+
+- [ByteHackr/unzip_poc](https://github.com/ByteHackr/unzip_poc)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -212,6 +220,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [0tt7/CVE-2022-23131](https://github.com/0tt7/CVE-2022-23131)
 - [zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131)
 - [L0ading-x/cve-2022-23131](https://github.com/L0ading-x/cve-2022-23131)
+- [random-robbie/cve-2022-23131-exp](https://github.com/random-robbie/cve-2022-23131-exp)
 
 ### CVE-2022-23305 (2022-01-18)
 
@@ -283,16 +292,8 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 ### CVE-2022-24693
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
 
-### CVE-2022-25256 (2022-02-18)
-
-<code>
-SAS Web Report Studio 4.4 allows XSS. /SASWebReportStudio/logonAndRender.do has two parameters: saspfs_request_backlabel_list and saspfs_request_backurl_list. The first one affects the content of the button placed in the top left. The second affects the page to which the user is directed after pressing the button, e.g., a malicious web page. In addition, the second parameter executes JavaScript, which means XSS is possible by adding a javascript: URL.
-</code>
-
-- [RobertDra/CVE-2022-25256](https://github.com/RobertDra/CVE-2022-25256)
-
 ### CVE-2022-25257
-- [RobertDra/CVE-2022-25257](https://github.com/RobertDra/CVE-2022-25257)
+- [polling-repo-continua/CVE-2022-25257](https://github.com/polling-repo-continua/CVE-2022-25257)
 
 ### CVE-2022-25258 (2022-02-16)
 
@@ -13986,6 +13987,8 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574)
 - [vishack/CVE-2018-6574](https://github.com/vishack/CVE-2018-6574)
 - [PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise)
+- [purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574)
+- [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
 - [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
 - [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
@@ -15357,6 +15360,7 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
+- [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 - [huydoppa/CVE-2018-15133](https://github.com/huydoppa/CVE-2018-15133)
 - [NatteeSetobol/CVE-2018-15133-Lavel-Expliot](https://github.com/NatteeSetobol/CVE-2018-15133-Lavel-Expliot)
 
@@ -22813,6 +22817,14 @@ The loadContentFromCookie function in core/Cookie.php in Piwik before 0.5 does n
 </code>
 
 - [Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137)
+
+### CVE-2009-4660 (2010-03-03)
+
+<code>
+Stack-based buffer overflow in the AntServer Module (AntServer.exe) in BigAnt IM Server 2.50 allows remote attackers to execute arbitrary code via a long GET request to TCP port 6660.
+</code>
+
+- [war4uthor/CVE-2009-4660](https://github.com/war4uthor/CVE-2009-4660)
 
 ### CVE-2009-5147 (2017-03-29)
 
