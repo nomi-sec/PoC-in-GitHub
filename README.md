@@ -7433,7 +7433,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [xfiftyone/CVE-2020-14882](https://github.com/xfiftyone/CVE-2020-14882)
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 - [adm1in/CodeTest](https://github.com/adm1in/CodeTest)
-- [ShmilySec/CVE-2020-14882](https://github.com/ShmilySec/CVE-2020-14882)
+- [3hm1ly/CVE-2020-14882](https://github.com/3hm1ly/CVE-2020-14882)
 - [pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic)
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
 - [nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui)
