@@ -221,6 +221,8 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131)
 - [L0ading-x/cve-2022-23131](https://github.com/L0ading-x/cve-2022-23131)
 - [random-robbie/cve-2022-23131-exp](https://github.com/random-robbie/cve-2022-23131-exp)
+- [trganda/CVE-2022-23131](https://github.com/trganda/CVE-2022-23131)
+- [pykiller/CVE-2022-23131](https://github.com/pykiller/CVE-2022-23131)
 
 ### CVE-2022-23305 (2022-01-18)
 
@@ -3945,6 +3947,14 @@ Pinkie 2.15 allows remote attackers to cause a denial of service (daemon crash) 
 
 - [z3bul0n/log4jtest](https://github.com/z3bul0n/log4jtest)
 
+### CVE-2021-44521 (2022-02-11)
+
+<code>
+When running Apache Cassandra with the following configuration: enable_user_defined_functions: true enable_scripted_user_defined_functions: true enable_user_defined_functions_threads: false it is possible for an attacker to execute arbitrary code on the host. The attacker would need to have enough permissions to create user defined functions in the cluster to be able to exploit this. Note that this configuration is documented as unsafe, and will continue to be considered unsafe after this CVE.
+</code>
+
+- [QHpix/CVE-2021-44521](https://github.com/QHpix/CVE-2021-44521)
+
 ### CVE-2021-44593 (2022-01-21)
 
 <code>
@@ -7357,8 +7367,6 @@ A flaw was found in the Linux kernel before 5.9-rc4. Memory corruption can be ex
 </code>
 
 - [cgwalters/cve-2020-14386](https://github.com/cgwalters/cve-2020-14386)
-- [artsking/linux-4.19.72_CVE-2020-14386](https://github.com/artsking/linux-4.19.72_CVE-2020-14386)
-- [artsking/linux-4.19.72_CVE-2020-14386_extrapatch](https://github.com/artsking/linux-4.19.72_CVE-2020-14386_extrapatch)
 
 ### CVE-2020-14644 (2020-07-15)
 
