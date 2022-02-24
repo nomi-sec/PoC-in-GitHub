@@ -163,6 +163,14 @@ An insecure direct object reference for the file-download URL in Synametrics Syn
 
 - [videnlabs/CVE-2022-22828](https://github.com/videnlabs/CVE-2022-22828)
 
+### CVE-2022-22845 (2022-01-09)
+
+<code>
+QXIP SIPCAPTURE homer-app before 1.4.28 for HOMER 7.x has the same 167f0db2-f83e-4baa-9736-d56064a5b415 JWT secret key across different customers' installations.
+</code>
+
+- [OmriBaso/CVE-2022-22845-Exploit](https://github.com/OmriBaso/CVE-2022-22845-Exploit)
+
 ### CVE-2022-22850 (2022-01-26)
 
 <code>
@@ -1531,6 +1539,14 @@ An improper authorization vulnerability in Samsung Members &quot;samsungrewards&
 </code>
 
 - [FSecureLABS/CVE-2021-25374_Samsung-Account-Access](https://github.com/FSecureLABS/CVE-2021-25374_Samsung-Account-Access)
+
+### CVE-2021-25461 (2021-09-09)
+
+<code>
+An improper length check in APAService prior to SMR Sep-2021 Release 1 results in stack based Buffer Overflow.
+</code>
+
+- [bkojusner/CVE-2021-25461](https://github.com/bkojusner/CVE-2021-25461)
 
 ### CVE-2021-25641 (2021-05-29)
 
@@ -3019,13 +3035,11 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
-- [jheeree/Simple-CVE-2021-41773-checker](https://github.com/jheeree/Simple-CVE-2021-41773-checker)
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
-- [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
 - [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
@@ -3935,6 +3949,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
 - [hotpotcookie/lol4j-white-box](https://github.com/hotpotcookie/lol4j-white-box)
 - [s-retlaw/l4srs](https://github.com/s-retlaw/l4srs)
+- [Ananya-0306/Log-4j-scanner](https://github.com/Ananya-0306/Log-4j-scanner)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -3994,7 +4009,7 @@ Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases
 ### CVE-2021-45007 (2022-02-20)
 
 <code>
-Plesk 18.0.37 is affected by a Cross Site Request Forgery (CSRF) vulnerability that allows an attacker to insert data on the user and admin panel.
+** DISPUTED ** Plesk 18.0.37 is affected by a Cross Site Request Forgery (CSRF) vulnerability that allows an attacker to insert data on the user and admin panel. NOTE: the vendor states that this is only a site-specific problem on websites of one or more Plesk users.
 </code>
 
 - [AS4mir/CVE-2021-45007](https://github.com/AS4mir/CVE-2021-45007)
@@ -4002,7 +4017,7 @@ Plesk 18.0.37 is affected by a Cross Site Request Forgery (CSRF) vulnerability t
 ### CVE-2021-45008 (2022-02-21)
 
 <code>
-Plesk CMS 18.0.37 is affected by an insecure permissions vulnerability that allows privilege Escalation from user to admin rights.
+** DISPUTED ** Plesk CMS 18.0.37 is affected by an insecure permissions vulnerability that allows privilege Escalation from user to admin rights. OTE: the vendor states that this is only a site-specific problem on websites of one or more Plesk users.
 </code>
 
 - [AS4mir/CVE-2021-45008](https://github.com/AS4mir/CVE-2021-45008)
@@ -7925,6 +7940,9 @@ Apache Accumulo versions 1.5.0 through 1.10.0 and version 2.0.0 do not properly 
 </code>
 
 - [pazeray/CVE-2020-17533](https://github.com/pazeray/CVE-2020-17533)
+
+### CVE-2020-18324
+- [hamm0nz/CVE-2020-18324](https://github.com/hamm0nz/CVE-2020-18324)
 
 ### CVE-2020-21224 (2021-02-22)
 
