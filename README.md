@@ -290,6 +290,7 @@ An attacker can abuse the batch-requests plugin to send requests to bypass the I
 - [shakeman8/CVE-2022-24112](https://github.com/shakeman8/CVE-2022-24112)
 - [Mr-xn/CVE-2022-24112](https://github.com/Mr-xn/CVE-2022-24112)
 - [Udyz/CVE-2022-24112](https://github.com/Udyz/CVE-2022-24112)
+- [Axx8/CVE-2022-24112](https://github.com/Axx8/CVE-2022-24112)
 
 ### CVE-2022-24124 (2022-01-29)
 
@@ -2563,6 +2564,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26425, CVE-2021-34487.
 </code>
 
+- [KaLendsi/CVE-2021-34486](https://github.com/KaLendsi/CVE-2021-34486)
 - [b1tg/CVE-2021-34486-exp](https://github.com/b1tg/CVE-2021-34486-exp)
 
 ### CVE-2021-34527 (2021-07-02)
@@ -3611,7 +3613,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
 - [StandB/CVE-2021-44228-poc](https://github.com/StandB/CVE-2021-44228-poc)
-- [seamus-dev/CVE-2021-44228](https://github.com/seamus-dev/CVE-2021-44228)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
 - [tivuhh/log4noshell](https://github.com/tivuhh/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
