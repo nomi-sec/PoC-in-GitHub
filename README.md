@@ -291,6 +291,14 @@ An attacker can abuse the batch-requests plugin to send requests to bypass the I
 - [Mr-xn/CVE-2022-24112](https://github.com/Mr-xn/CVE-2022-24112)
 - [Udyz/CVE-2022-24112](https://github.com/Udyz/CVE-2022-24112)
 
+### CVE-2022-24124 (2022-01-29)
+
+<code>
+The query API in Casdoor before 1.13.1 has a SQL injection vulnerability related to the field and value parameters, as demonstrated by api/get-organizations.
+</code>
+
+- [ColdFusionX/CVE-2022-24124](https://github.com/ColdFusionX/CVE-2022-24124)
+
 ### CVE-2022-24348 (2022-02-04)
 
 <code>
@@ -301,6 +309,15 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 
 ### CVE-2022-24693
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
+
+### CVE-2022-25018
+- [MoritzHuppert/CVE-2022-25018](https://github.com/MoritzHuppert/CVE-2022-25018)
+
+### CVE-2022-25020
+- [MoritzHuppert/CVE-2022-25020](https://github.com/MoritzHuppert/CVE-2022-25020)
+
+### CVE-2022-25022
+- [MoritzHuppert/CVE-2022-25022](https://github.com/MoritzHuppert/CVE-2022-25022)
 
 ### CVE-2022-25257
 - [polling-repo-continua/CVE-2022-25257](https://github.com/polling-repo-continua/CVE-2022-25257)
@@ -2546,7 +2563,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26425, CVE-2021-34487.
 </code>
 
-- [KaLendsi/CVE-2021-34486](https://github.com/KaLendsi/CVE-2021-34486)
 - [b1tg/CVE-2021-34486-exp](https://github.com/b1tg/CVE-2021-34486-exp)
 
 ### CVE-2021-34527 (2021-07-02)
@@ -3474,6 +3490,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [rnsss/CVE-2021-43798-poc](https://github.com/rnsss/CVE-2021-43798-poc)
 - [rodpwn/CVE-2021-43798-mass_scanner](https://github.com/rodpwn/CVE-2021-43798-mass_scanner)
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
+- [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 
 ### CVE-2021-43799 (2022-01-25)
 
