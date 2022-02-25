@@ -921,6 +921,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [LJP-TW/CVE-2021-4034](https://github.com/LJP-TW/CVE-2021-4034)
 - [JoaoFukuda/CVE-2021-4034_POC](https://github.com/JoaoFukuda/CVE-2021-4034_POC)
 - [Tanmay-N/CVE-2021-4034](https://github.com/Tanmay-N/CVE-2021-4034)
+- [hahaleyile/CVE-2021-4034](https://github.com/hahaleyile/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -1610,14 +1611,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
-
-### CVE-2021-26086 (2021-08-15)
-
-<code>
-Affected versions of Atlassian Jira Server and Data Center allow remote attackers to read particular files via a path traversal vulnerability in the /WEB-INF/web.xml endpoint. The affected versions are before version 8.5.14, from version 8.6.0 before 8.13.6, and from version 8.14.0 before 8.16.1.
-</code>
-
-- [ColdFusionX/CVE-2021-26086](https://github.com/ColdFusionX/CVE-2021-26086)
 
 ### CVE-2021-26102
 - [SleepyCofe/CVE-2021-26102](https://github.com/SleepyCofe/CVE-2021-26102)
