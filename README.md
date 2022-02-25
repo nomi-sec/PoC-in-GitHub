@@ -40,7 +40,7 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 ### CVE-2022-0529 (2022-02-09)
 
 <code>
-A flaw was found in unzip 6.0. The vulnerability occurs during the conversion of wide string to local string that leads to a heap of out-of-bound writes. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution.
+A flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution.
 </code>
 
 - [ByteHackr/unzip_poc](https://github.com/ByteHackr/unzip_poc)
@@ -1611,14 +1611,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
 
-### CVE-2021-26085 (2021-08-02)
-
-<code>
-Affected versions of Atlassian Confluence Server allow remote attackers to view restricted resources via a Pre-Authorization Arbitrary File Read vulnerability in the /s/ endpoint. The affected versions are before version 7.4.10, and from version 7.5.0 before 7.12.3.
-</code>
-
-- [ColdFusionX/CVE-2021-26085](https://github.com/ColdFusionX/CVE-2021-26085)
-
 ### CVE-2021-26086 (2021-08-15)
 
 <code>
@@ -2921,6 +2913,14 @@ An Unsafe Deserialization vulnerability exists in the worker services of the Apa
 </code>
 
 - [hktalent/CVE-2021-40865](https://github.com/hktalent/CVE-2021-40865)
+
+### CVE-2021-40875 (2021-09-22)
+
+<code>
+Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in sensitive information exposure. A threat actor can access the /files.md5 file on the client side of a Gurock TestRail application, disclosing a full list of application files and the corresponding file paths. The corresponding file paths can be tested, and in some cases, result in the disclosure of hardcoded credentials, API keys, or other sensitive data.
+</code>
+
+- [Lul/TestRail-files.md5-IAC-scanner](https://github.com/Lul/TestRail-files.md5-IAC-scanner)
 
 ### CVE-2021-40904
 - [Edgarloyola/CVE-2021-40904](https://github.com/Edgarloyola/CVE-2021-40904)
