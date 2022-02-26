@@ -280,6 +280,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 </code>
 
 - [Mr-xn/CVE-2022-24086](https://github.com/Mr-xn/CVE-2022-24086)
+- [shakeman8/CVE-2022-24086-RCE](https://github.com/shakeman8/CVE-2022-24086-RCE)
 
 ### CVE-2022-24112 (2022-02-11)
 
@@ -7250,7 +7251,6 @@ IceWarp Email Server 12.3.0.1 has Incorrect Access Control for user accounts.
 </code>
 
 - [networksecure/CVE-2020-14064](https://github.com/networksecure/CVE-2020-14064)
-- [masoud-zivari/CVE-2020-14064](https://github.com/masoud-zivari/CVE-2020-14064)
 - [pinpinsec/Icewarp-Mail-Server-12.3.0.1-incorrect_access_control-](https://github.com/pinpinsec/Icewarp-Mail-Server-12.3.0.1-incorrect_access_control-)
 
 ### CVE-2020-14065 (2020-07-15)
@@ -7260,7 +7260,6 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload files and consum
 </code>
 
 - [networksecure/CVE-2020-14065](https://github.com/networksecure/CVE-2020-14065)
-- [masoud-zivari/CVE-2020-14065](https://github.com/masoud-zivari/CVE-2020-14065)
 - [pinpinsec/Icewarp-Email-Server-12.3.0.1-unlimited_file_upload](https://github.com/pinpinsec/Icewarp-Email-Server-12.3.0.1-unlimited_file_upload)
 
 ### CVE-2020-14066 (2020-07-15)
@@ -7270,7 +7269,6 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files
 </code>
 
 - [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
-- [masoud-zivari/CVE-2020-14066](https://github.com/masoud-zivari/CVE-2020-14066)
 - [pinpinsec/Icewarp-Email-Server-12.3.0.1-insecure_permissions](https://github.com/pinpinsec/Icewarp-Email-Server-12.3.0.1-insecure_permissions)
 
 ### CVE-2020-14179 (2020-09-20)
