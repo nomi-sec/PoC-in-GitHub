@@ -2298,7 +2298,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 
 - [0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166)
 - [zha0gongz1/CVE-2021-31166](https://github.com/zha0gongz1/CVE-2021-31166)
-- [Frankmock/CVE-2021-31166-detection-rules](https://github.com/Frankmock/CVE-2021-31166-detection-rules)
+- [mvlnetdev/CVE-2021-31166-detection-rules](https://github.com/mvlnetdev/CVE-2021-31166-detection-rules)
 - [corelight/CVE-2021-31166](https://github.com/corelight/CVE-2021-31166)
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
@@ -3050,7 +3050,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
-- [im-hanzou/apachrot](https://github.com/im-hanzou/apachrot)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
 - [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
@@ -4281,6 +4280,14 @@ D-Link DSL-2730E CT-20131125 devices allow XSS via the username parameter to the
 </code>
 
 - [g-rubert/CVE-2021-46108](https://github.com/g-rubert/CVE-2021-46108)
+
+### CVE-2021-46702 (2022-02-25)
+
+<code>
+Tor Browser 9.0.7 on Windows 10 build 10586 is vulnerable to information disclosure. This could allow local attackers to bypass the intended anonymity feature and obtain information regarding the onion services visited by a local user. This can be accomplished by analyzing RAM memory even several hours after the local user used the product. This occurs because the product doesn't properly free memory.
+</code>
+
+- [malakkf/CVE-2021-46702](https://github.com/malakkf/CVE-2021-46702)
 
 
 ## 2020
@@ -7952,6 +7959,12 @@ Apache Accumulo versions 1.5.0 through 1.10.0 and version 2.0.0 do not properly 
 
 ### CVE-2020-18324
 - [hamm0nz/CVE-2020-18324](https://github.com/hamm0nz/CVE-2020-18324)
+
+### CVE-2020-18325
+- [hamm0nz/CVE-2020-18325](https://github.com/hamm0nz/CVE-2020-18325)
+
+### CVE-2020-18326
+- [hamm0nz/CVE-2020-18326](https://github.com/hamm0nz/CVE-2020-18326)
 
 ### CVE-2020-21224 (2021-02-22)
 
