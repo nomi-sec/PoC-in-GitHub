@@ -800,6 +800,7 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [n3onhacks/CVE-2021-3560](https://github.com/n3onhacks/CVE-2021-3560)
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
 - [Nosferatuvjr/Vivald0x6f](https://github.com/Nosferatuvjr/Vivald0x6f)
+- [innxrmxst/CVE-2021-3560](https://github.com/innxrmxst/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -2564,7 +2565,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26425, CVE-2021-34487.
 </code>
 
-- [KaLendsi/CVE-2021-34486](https://github.com/KaLendsi/CVE-2021-34486)
 - [b1tg/CVE-2021-34486-exp](https://github.com/b1tg/CVE-2021-34486-exp)
 
 ### CVE-2021-34527 (2021-07-02)
