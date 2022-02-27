@@ -247,6 +247,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [random-robbie/cve-2022-23131-exp](https://github.com/random-robbie/cve-2022-23131-exp)
 - [trganda/CVE-2022-23131](https://github.com/trganda/CVE-2022-23131)
 - [pykiller/CVE-2022-23131](https://github.com/pykiller/CVE-2022-23131)
+- [Fa1c0n35/zabbix-cve-2022-23131](https://github.com/Fa1c0n35/zabbix-cve-2022-23131)
 
 ### CVE-2022-23305 (2022-01-18)
 
