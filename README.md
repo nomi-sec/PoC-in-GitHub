@@ -131,6 +131,22 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [coconut20/CVE-2022-21907-RCE-POC](https://github.com/coconut20/CVE-2022-21907-RCE-POC)
 
+### CVE-2022-21971 (2022-02-09)
+
+<code>
+Windows Runtime Remote Code Execution Vulnerability.
+</code>
+
+- [0vercl0k/CVE-2022-21971](https://github.com/0vercl0k/CVE-2022-21971)
+
+### CVE-2022-21974 (2022-02-09)
+
+<code>
+Roaming Security Rights Management Services Remote Code Execution Vulnerability.
+</code>
+
+- [0vercl0k/CVE-2022-21974](https://github.com/0vercl0k/CVE-2022-21974)
+
 ### CVE-2022-21999 (2022-02-09)
 
 <code>
