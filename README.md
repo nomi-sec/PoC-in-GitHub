@@ -11,6 +11,7 @@ A heap-based buffer overflow flaw was found in the way the legacy_parse_param fu
 - [discordianfish/cve-2022-0185-crash-poc](https://github.com/discordianfish/cve-2022-0185-crash-poc)
 - [khaclep007/CVE-2022-0185](https://github.com/khaclep007/CVE-2022-0185)
 - [chenaotian/CVE-2022-0185](https://github.com/chenaotian/CVE-2022-0185)
+- [shahparkhan/cve-2022-0185](https://github.com/shahparkhan/cve-2022-0185)
 
 ### CVE-2022-0219 (2022-01-20)
 
