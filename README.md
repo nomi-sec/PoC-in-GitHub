@@ -47,6 +47,9 @@ A flaw was found in Unzip. The vulnerability occurs during the conversion of a w
 - [nanaao/unzip_poc](https://github.com/nanaao/unzip_poc)
 - [ByteHackr/unzip_poc](https://github.com/ByteHackr/unzip_poc)
 
+### CVE-2022-0725
+- [ByteHackr/keepass_poc](https://github.com/ByteHackr/keepass_poc)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -250,6 +253,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [trganda/CVE-2022-23131](https://github.com/trganda/CVE-2022-23131)
 - [pykiller/CVE-2022-23131](https://github.com/pykiller/CVE-2022-23131)
 - [Fa1c0n35/zabbix-cve-2022-23131](https://github.com/Fa1c0n35/zabbix-cve-2022-23131)
+- [kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131)
 
 ### CVE-2022-23305 (2022-01-18)
 
