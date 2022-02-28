@@ -363,17 +363,45 @@ An issue was discovered in drivers/usb/gadget/function/rndis.c in the Linux kern
 
 - [szymonh/rndis-co](https://github.com/szymonh/rndis-co)
 
-### CVE-2022-26155
+### CVE-2022-26155 (2022-02-28)
+
+<code>
+An issue was discovered in the web application in Cherwell Service Management (CSM) 10.2.3. XSS can occur via a payload in the SAMLResponse parameter of the HTTP request body.
+</code>
+
 - [l00neyhacker/CVE-2022-26155](https://github.com/l00neyhacker/CVE-2022-26155)
 
-### CVE-2022-26156
+### CVE-2022-26156 (2022-02-28)
+
+<code>
+An issue was discovered in the web application in Cherwell Service Management (CSM) 10.2.3. Injection of a malicious payload within the RelayState= parameter of the HTTP request body results in the hijacking of the form action. Form-action hijacking vulnerabilities arise when an application places user-supplied input into the action URL of an HTML form. An attacker can use this vulnerability to construct a URL that, if visited by another application user, will modify the action URL of a form to point to the attacker's server.
+</code>
+
 - [l00neyhacker/CVE-2022-26156](https://github.com/l00neyhacker/CVE-2022-26156)
 
-### CVE-2022-26157
+### CVE-2022-26157 (2022-02-28)
+
+<code>
+An issue was discovered in the web application in Cherwell Service Management (CSM) 10.2.3. The ASP.NET_Sessionid cookie is not protected by the Secure flag. This makes it prone to interception by an attacker if traffic is sent over unencrypted channels.
+</code>
+
 - [l00neyhacker/CVE-2022-26157](https://github.com/l00neyhacker/CVE-2022-26157)
 
-### CVE-2022-26158
+### CVE-2022-26158 (2022-02-28)
+
+<code>
+An issue was discovered in the web application in Cherwell Service Management (CSM) 10.2.3. It accepts and reflects arbitrary domains supplied via a client-controlled Host header. Injection of a malicious URL in the Host: header of the HTTP Request results in a 302 redirect to an attacker-controlled page.
+</code>
+
 - [l00neyhacker/CVE-2022-26158](https://github.com/l00neyhacker/CVE-2022-26158)
+
+### CVE-2022-26159 (2022-02-27)
+
+<code>
+The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenticated attacker to read documents such as plugins/web/service/search/auto-completion/&lt;domain&gt;/en.xml (and similar pathnames for other languages), which contain all characters typed by all users, including the content of private pages. For example, a private page may contain usernames, e-mail addresses, and possibly passwords.
+</code>
+
+- [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
 
 
 ## 2021
@@ -2317,6 +2345,14 @@ An integer overflow was addressed with improved input validation. This issue is 
 </code>
 
 - [jeffssh/CVE-2021-30860](https://github.com/jeffssh/CVE-2021-30860)
+
+### CVE-2021-30955 (2021-08-24)
+
+<code>
+A race condition was addressed with improved state handling. This issue is fixed in macOS Monterey 12.1, watchOS 8.3, iOS 15.2 and iPadOS 15.2, tvOS 15.2. A malicious application may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [timb-machine-mirrors/CVE-2021-30955](https://github.com/timb-machine-mirrors/CVE-2021-30955)
 
 ### CVE-2021-31159 (2021-06-16)
 
@@ -16981,6 +17017,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638)
 - [jptr218/struts_hack](https://github.com/jptr218/struts_hack)
 - [testpilot031/vulnerability_struts-2.3.31](https://github.com/testpilot031/vulnerability_struts-2.3.31)
+- [readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
