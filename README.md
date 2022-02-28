@@ -44,6 +44,7 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 A flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution.
 </code>
 
+- [nanaao/unzip_poc](https://github.com/nanaao/unzip_poc)
 - [ByteHackr/unzip_poc](https://github.com/ByteHackr/unzip_poc)
 
 ### CVE-2022-20699 (2022-02-10)
@@ -357,6 +358,18 @@ An issue was discovered in drivers/usb/gadget/function/rndis.c in the Linux kern
 </code>
 
 - [szymonh/rndis-co](https://github.com/szymonh/rndis-co)
+
+### CVE-2022-26155
+- [l00neyhacker/CVE-2022-26155](https://github.com/l00neyhacker/CVE-2022-26155)
+
+### CVE-2022-26156
+- [l00neyhacker/CVE-2022-26156](https://github.com/l00neyhacker/CVE-2022-26156)
+
+### CVE-2022-26157
+- [l00neyhacker/CVE-2022-26157](https://github.com/l00neyhacker/CVE-2022-26157)
+
+### CVE-2022-26158
+- [l00neyhacker/CVE-2022-26158](https://github.com/l00neyhacker/CVE-2022-26158)
 
 
 ## 2021
@@ -960,6 +973,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [JoaoFukuda/CVE-2021-4034_POC](https://github.com/JoaoFukuda/CVE-2021-4034_POC)
 - [Tanmay-N/CVE-2021-4034](https://github.com/Tanmay-N/CVE-2021-4034)
 - [hahaleyile/CVE-2021-4034](https://github.com/hahaleyile/CVE-2021-4034)
+- [movvamrocks/PwnKit-CVE-2021-4034](https://github.com/movvamrocks/PwnKit-CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -3150,14 +3164,6 @@ Sitecore XP 7.5 Initial Release to Sitecore XP 8.2 Update-7 is vulnerable to an 
 </code>
 
 - [PinkDev1/CVE-2021-42237](https://github.com/PinkDev1/CVE-2021-42237)
-
-### CVE-2021-42261 (2021-10-19)
-
-<code>
-Revisor Video Management System (VMS) before 2.0.0 has a directory traversal vulnerability. Successful exploitation could allow an attacker to traverse the file system to access files or directories that are outside of restricted directory on the remote server. This could lead to the disclosure of sensitive data on the vulnerable server.
-</code>
-
-- [jet-pentest/CVE-2021-42261](https://github.com/jet-pentest/CVE-2021-42261)
 
 ### CVE-2021-42278 (2021-11-09)
 
@@ -9729,6 +9735,7 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 - [c3r34lk1ll3r/CVE-2019-2215](https://github.com/c3r34lk1ll3r/CVE-2019-2215)
 - [Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215)
 - [mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215)
+- [nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0)
 
 ### CVE-2019-2525 (2019-01-16)
 
