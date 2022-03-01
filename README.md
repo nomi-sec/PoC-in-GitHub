@@ -264,6 +264,9 @@ By design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configu
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE)
 
+### CVE-2022-23361
+- [ViNi0608/CVE-2022-23361](https://github.com/ViNi0608/CVE-2022-23361)
+
 ### CVE-2022-23378 (2022-02-09)
 
 <code>
@@ -358,6 +361,14 @@ A cross-site scripting (XSS) vulnerability in Htmly v2.8.1 allows attackers to e
 </code>
 
 - [MoritzHuppert/CVE-2022-25022](https://github.com/MoritzHuppert/CVE-2022-25022)
+
+### CVE-2022-25064 (2022-02-25)
+
+<code>
+TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a remote code execution (RCE) vulnerability via the function oal_wan6_setIpAddr.
+</code>
+
+- [Mr-xn/CVE-2022-25064](https://github.com/Mr-xn/CVE-2022-25064)
 
 ### CVE-2022-25257
 - [polling-repo-continua/CVE-2022-25257](https://github.com/polling-repo-continua/CVE-2022-25257)
@@ -731,7 +742,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
-- [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
@@ -2361,6 +2371,7 @@ A race condition was addressed with improved state handling. This issue is fixed
 - [timb-machine-mirrors/CVE-2021-30955](https://github.com/timb-machine-mirrors/CVE-2021-30955)
 - [nickorlow/CVE-2021-30955-POC](https://github.com/nickorlow/CVE-2021-30955-POC)
 - [verygenericname/CVE-2021-30955-POC-IPA](https://github.com/verygenericname/CVE-2021-30955-POC-IPA)
+- [b1n4r1b01/desc_race](https://github.com/b1n4r1b01/desc_race)
 
 ### CVE-2021-31159 (2021-06-16)
 
@@ -14126,6 +14137,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574)
 - [imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC)
 - [thpless/CVE-2018-6574](https://github.com/thpless/CVE-2018-6574)
+- [twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
