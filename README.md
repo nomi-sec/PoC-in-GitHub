@@ -5005,7 +5005,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [0xkami/CVE-2020-1472](https://github.com/0xkami/CVE-2020-1472)
 - [NAXG/CVE-2020-1472](https://github.com/NAXG/CVE-2020-1472)
 - [R0B1NL1N/CVE-2020-1472](https://github.com/R0B1NL1N/CVE-2020-1472)
-- [harshil-shah004/zerologon-CVE-2020-1472](https://github.com/harshil-shah004/zerologon-CVE-2020-1472)
+- [thatonesecguy/zerologon-CVE-2020-1472](https://github.com/thatonesecguy/zerologon-CVE-2020-1472)
 - [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
 - [422926799/CVE-2020-1472](https://github.com/422926799/CVE-2020-1472)
 - [scv-m/zabbix-template-CVE-2020-1472](https://github.com/scv-m/zabbix-template-CVE-2020-1472)
