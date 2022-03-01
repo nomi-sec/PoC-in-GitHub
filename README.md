@@ -335,13 +335,28 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 ### CVE-2022-24693
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
 
-### CVE-2022-25018
+### CVE-2022-25018 (2022-02-28)
+
+<code>
+Pluxml v5.8.7 was discovered to allow attackers to execute arbitrary code via crafted PHP code inserted into static pages.
+</code>
+
 - [MoritzHuppert/CVE-2022-25018](https://github.com/MoritzHuppert/CVE-2022-25018)
 
-### CVE-2022-25020
+### CVE-2022-25020 (2022-02-28)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Pluxml v5.8.7 allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the thumbnail path of a blog post.
+</code>
+
 - [MoritzHuppert/CVE-2022-25020](https://github.com/MoritzHuppert/CVE-2022-25020)
 
-### CVE-2022-25022
+### CVE-2022-25022 (2022-02-28)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Htmly v2.8.1 allows attackers to excute arbitrary web scripts HTML via a crafted payload in the content field of a blog post.
+</code>
+
 - [MoritzHuppert/CVE-2022-25022](https://github.com/MoritzHuppert/CVE-2022-25022)
 
 ### CVE-2022-25257
@@ -716,6 +731,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
+- [0x7183/CVE-2021-3156](https://github.com/0x7183/CVE-2021-3156)
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [Bubleh21/CVE-2021-3156](https://github.com/Bubleh21/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
@@ -2060,7 +2076,6 @@ The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 ha
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
 - [Crystalware/CVE-2021-27965](https://github.com/Crystalware/CVE-2021-27965)
-- [Leo-Security/CVE-2021-27965-Win10-20H2-x64](https://github.com/Leo-Security/CVE-2021-27965-Win10-20H2-x64)
 
 ### CVE-2021-28079 (2021-04-26)
 
