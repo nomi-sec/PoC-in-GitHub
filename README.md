@@ -227,6 +227,9 @@ Adenza AxiomSL ControllerView through 10.8.1 allows redirection for SSO login UR
 
 - [jdordonezn/CVE-2022-22919](https://github.com/jdordonezn/CVE-2022-22919)
 
+### CVE-2022-22947
+- [lucksec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/lucksec/Spring-Cloud-Gateway-CVE-2022-22947)
+
 ### CVE-2022-23046 (2022-01-19)
 
 <code>
