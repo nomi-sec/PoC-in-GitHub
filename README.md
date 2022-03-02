@@ -376,6 +376,9 @@ TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a remote code execu
 ### CVE-2022-25089
 - [ComparedArray/printix-CVE-2022-25089](https://github.com/ComparedArray/printix-CVE-2022-25089)
 
+### CVE-2022-25090
+- [ComparedArray/printix-CVE-2022-25090](https://github.com/ComparedArray/printix-CVE-2022-25090)
+
 ### CVE-2022-25257
 - [polling-repo-continua/CVE-2022-25257](https://github.com/polling-repo-continua/CVE-2022-25257)
 
@@ -1037,6 +1040,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Tanmay-N/CVE-2021-4034](https://github.com/Tanmay-N/CVE-2021-4034)
 - [hahaleyile/CVE-2021-4034](https://github.com/hahaleyile/CVE-2021-4034)
 - [movvamrocks/PwnKit-CVE-2021-4034](https://github.com/movvamrocks/PwnKit-CVE-2021-4034)
+- [Xuanyaz/CVE-2021-4034](https://github.com/Xuanyaz/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -3148,7 +3152,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
-- [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
@@ -10194,6 +10197,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [4n0nym0u5dk/CVE-2019-5736](https://github.com/4n0nym0u5dk/CVE-2019-5736)
 - [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
+- [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 
 ### CVE-2019-5737 (2019-03-28)
 
@@ -15037,6 +15041,7 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [MohamedTarekq/test-CVE-2018-11235](https://github.com/MohamedTarekq/test-CVE-2018-11235)
 - [Yealid/CVE-2018-11235-Git-Submodule-RCE](https://github.com/Yealid/CVE-2018-11235-Git-Submodule-RCE)
 - [RyouYoo/CVE-2018-11235](https://github.com/RyouYoo/CVE-2018-11235)
+- [twseptian/CVE-2018-11235-Git-Submodule-CE-and-Docker-Ngrok-Configuration](https://github.com/twseptian/CVE-2018-11235-Git-Submodule-CE-and-Docker-Ngrok-Configuration)
 
 ### CVE-2018-11236 (2018-05-18)
 
