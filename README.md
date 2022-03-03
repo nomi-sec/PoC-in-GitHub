@@ -216,7 +216,7 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hosp
 
 - [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
 
-### CVE-2022-22909 (-)
+### CVE-2022-22909 (2022-03-02)
 
 <code>
 HotelDruid v3.0.3 was discovered to contain a remote code execution (RCE) vulnerability which is exploited via an attacker inserting a crafted payload into the name field under the Create New Room module.
@@ -378,7 +378,7 @@ TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a remote code execu
 
 - [Mr-xn/CVE-2022-25064](https://github.com/Mr-xn/CVE-2022-25064)
 
-### CVE-2022-25089 (-)
+### CVE-2022-25089 (2022-03-02)
 
 <code>
 Printix Secure Cloud Print Management 1.3.1035.0 incorrectly uses Privileged APIs.
@@ -5079,6 +5079,8 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Exploitspacks/CVE-2020-1472](https://github.com/Exploitspacks/CVE-2020-1472)
 - [mtthwstffrd/SecuraBV-CVE-2020-1472](https://github.com/mtthwstffrd/SecuraBV-CVE-2020-1472)
 - [mtthwstffrd/dirkjanm-CVE-2020-1472](https://github.com/mtthwstffrd/dirkjanm-CVE-2020-1472)
+- [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
+- [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 
 ### CVE-2020-1493 (2020-08-17)
 
