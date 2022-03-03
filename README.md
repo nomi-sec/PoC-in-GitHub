@@ -216,7 +216,12 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hosp
 
 - [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
 
-### CVE-2022-22909
+### CVE-2022-22909 (-)
+
+<code>
+HotelDruid v3.0.3 was discovered to contain a remote code execution (RCE) vulnerability which is exploited via an attacker inserting a crafted payload into the name field under the Create New Room module.
+</code>
+
 - [0z09e/CVE-2022-22909](https://github.com/0z09e/CVE-2022-22909)
 
 ### CVE-2022-22919 (2022-01-29)
@@ -373,7 +378,12 @@ TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a remote code execu
 
 - [Mr-xn/CVE-2022-25064](https://github.com/Mr-xn/CVE-2022-25064)
 
-### CVE-2022-25089
+### CVE-2022-25089 (-)
+
+<code>
+Printix Secure Cloud Print Management 1.3.1035.0 incorrectly uses Privileged APIs.
+</code>
+
 - [ComparedArray/printix-CVE-2022-25089](https://github.com/ComparedArray/printix-CVE-2022-25089)
 
 ### CVE-2022-25090
@@ -19521,6 +19531,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability)
 - [SmithCGauss/CVE-2016-5195](https://github.com/SmithCGauss/CVE-2016-5195)
 - [th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC)
+- [ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow)
 
 ### CVE-2016-5345 (2018-01-22)
 
