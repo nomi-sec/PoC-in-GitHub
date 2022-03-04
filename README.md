@@ -263,6 +263,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [dbgee/CVE-2022-22947](https://github.com/dbgee/CVE-2022-22947)
 - [nu0l/cve-2022-22947](https://github.com/nu0l/cve-2022-22947)
 - [chaosec2021/CVE-2022-22947-POC](https://github.com/chaosec2021/CVE-2022-22947-POC)
+- [Xd-tl/CVE-2022-22947-Rce_POC](https://github.com/Xd-tl/CVE-2022-22947-Rce_POC)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -804,6 +805,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
 - [litt1eb0yy/CVE-2021-3156](https://github.com/litt1eb0yy/CVE-2021-3156)
 - [ret2basic/sudoscience](https://github.com/ret2basic/sudoscience)
+- [puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -1033,6 +1035,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [evdenis/lsm_bpf_check_argc0](https://github.com/evdenis/lsm_bpf_check_argc0)
 - [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
 - [DosAmp/pkwned](https://github.com/DosAmp/pkwned)
+- [PwnFunction/CVE-2021-4034](https://github.com/PwnFunction/CVE-2021-4034)
 - [rayheffer/CVE-2021-4034](https://github.com/rayheffer/CVE-2021-4034)
 - [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
@@ -1090,6 +1093,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Xuanyaz/CVE-2021-4034](https://github.com/Xuanyaz/CVE-2021-4034)
 - [Jesrat/make_me_root](https://github.com/Jesrat/make_me_root)
 - [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
+- [PentesterSoham/CVE-2021-4034-exploit](https://github.com/PentesterSoham/CVE-2021-4034-exploit)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2404,14 +2408,6 @@ This issue was addressed with improved checks. This issue is fixed in macOS Big 
 
 - [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
 
-### CVE-2021-30858 (2021-08-24)
-
-<code>
-A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
-</code>
-
-- [kmeps4/CVEREV3](https://github.com/kmeps4/CVEREV3)
-
 ### CVE-2021-30860 (2021-08-24)
 
 <code>
@@ -2786,7 +2782,6 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 </code>
 
 - [Sma11New/PocList](https://github.com/Sma11New/PocList)
-- [BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749)
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
 - [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
 - [Jun-5heng/CVE-2021-36749](https://github.com/Jun-5heng/CVE-2021-36749)
@@ -3181,7 +3176,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
-- [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
 - [lopqto/CVE-2021-41773_Honeypot](https://github.com/lopqto/CVE-2021-41773_Honeypot)
@@ -8086,13 +8080,28 @@ Apache Accumulo versions 1.5.0 through 1.10.0 and version 2.0.0 do not properly 
 
 - [pazeray/CVE-2020-17533](https://github.com/pazeray/CVE-2020-17533)
 
-### CVE-2020-18324
+### CVE-2020-18324 (2022-03-04)
+
+<code>
+Cross Site Scripting (XSS) vulnerability exists in Subrion CMS 4.2.1 via the q parameter in the Kickstart template.
+</code>
+
 - [hamm0nz/CVE-2020-18324](https://github.com/hamm0nz/CVE-2020-18324)
 
-### CVE-2020-18325
+### CVE-2020-18325 (2022-03-04)
+
+<code>
+Multilple Cross Site Scripting (XSS) vulnerability exists in Intelliants Subrion CMS v4.2.1 in the Configuration panel.
+</code>
+
 - [hamm0nz/CVE-2020-18325](https://github.com/hamm0nz/CVE-2020-18325)
 
-### CVE-2020-18326
+### CVE-2020-18326 (2022-03-04)
+
+<code>
+Cross Site Request Forgery (CSRF) vulnerability exists in Intelliants Subrion CMS v4.2.1 via the Members administrator function, which could let a remote unauthenticated malicious user send an authorised request to victim and successfully create an arbitrary administrator user.
+</code>
+
 - [hamm0nz/CVE-2020-18326](https://github.com/hamm0nz/CVE-2020-18326)
 
 ### CVE-2020-21224 (2021-02-22)
@@ -11184,6 +11193,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [corifeo/CVE-2019-11043](https://github.com/corifeo/CVE-2019-11043)
 - [lindemer/CVE-2019-11043](https://github.com/lindemer/CVE-2019-11043)
 - [jptr218/php_hack](https://github.com/jptr218/php_hack)
+- [jas9reet/CVE-2019-11043](https://github.com/jas9reet/CVE-2019-11043)
 
 ### CVE-2019-11061 (2019-08-28)
 
