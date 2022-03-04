@@ -247,12 +247,17 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 </code>
 
 - [lucksec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/lucksec/Spring-Cloud-Gateway-CVE-2022-22947)
-- [cgddgc/cve-2022-22947](https://github.com/cgddgc/cve-2022-22947)
+- [scopion/cve-2022-22947](https://github.com/scopion/cve-2022-22947)
 - [shakeman8/CVE-2022-22947-RCE](https://github.com/shakeman8/CVE-2022-22947-RCE)
 - [Vulnmachines/spring-cve-2022-22947](https://github.com/Vulnmachines/spring-cve-2022-22947)
 - [Axx8/CVE-2022-22947_Rce_Exp](https://github.com/Axx8/CVE-2022-22947_Rce_Exp)
 - [carlosevieira/CVE-2022-22947](https://github.com/carlosevieira/CVE-2022-22947)
 - [Tas9er/SpringCloudGatewayRCE](https://github.com/Tas9er/SpringCloudGatewayRCE)
+- [Greetdawn/CVE-2022-22947](https://github.com/Greetdawn/CVE-2022-22947)
+- [helloexp/CVE-2022-22947](https://github.com/helloexp/CVE-2022-22947)
+- [Summer177/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947)
+- [BerMalBerIst/CVE-2022-22947](https://github.com/BerMalBerIst/CVE-2022-22947)
+- [york-cmd/CVE-2022-22947-goby](https://github.com/york-cmd/CVE-2022-22947-goby)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -1071,6 +1076,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [movvamrocks/PwnKit-CVE-2021-4034](https://github.com/movvamrocks/PwnKit-CVE-2021-4034)
 - [Xuanyaz/CVE-2021-4034](https://github.com/Xuanyaz/CVE-2021-4034)
 - [Jesrat/make_me_root](https://github.com/Jesrat/make_me_root)
+- [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2392,7 +2398,6 @@ A use after free issue was addressed with improved memory management. This issue
 </code>
 
 - [kmeps4/CVEREV3](https://github.com/kmeps4/CVEREV3)
-- [Jeromeyoung/ps4_8.00_vuln_poc](https://github.com/Jeromeyoung/ps4_8.00_vuln_poc)
 
 ### CVE-2021-30860 (2021-08-24)
 
@@ -2843,14 +2848,6 @@ A SQL injection vulnerability exists in version 3.0.2 of Hotel Druid when SQLite
 
 - [AK-blank/CVE-2021-37832](https://github.com/AK-blank/CVE-2021-37832)
 
-### CVE-2021-37980 (2021-11-02)
-
-<code>
-Inappropriate implementation in Sandbox in Google Chrome prior to 94.0.4606.81 allowed a remote attacker to potentially bypass site isolation via Windows.
-</code>
-
-- [ZeusBox/CVE-2021-37980](https://github.com/ZeusBox/CVE-2021-37980)
-
 ### CVE-2021-38001 (2021-11-23)
 
 <code>
@@ -2859,14 +2856,6 @@ Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote att
 
 - [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 - [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
-
-### CVE-2021-38295 (2021-10-14)
-
-<code>
-In Apache CouchDB, a malicious user with permission to create documents in a database is able to attach a HTML attachment to a document. If a CouchDB admin opens that attachment in a browser, e.g. via the CouchDB admin interface Fauxton, any JavaScript code embedded in that HTML attachment will be executed within the security context of that admin. A similar route is available with the already deprecated _show and _list functionality. This privilege escalation vulnerability allows an attacker to add or remove data in any database or make configuration changes. This issue affected Apache CouchDB prior to 3.1.2
-</code>
-
-- [ProfessionallyEvil/CVE-2021-38295-PoC](https://github.com/ProfessionallyEvil/CVE-2021-38295-PoC)
 
 ### CVE-2021-38314 (2021-09-02)
 
@@ -3584,6 +3573,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 </code>
 
 - [taythebot/CVE-2021-43798](https://github.com/taythebot/CVE-2021-43798)
+- [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
 - [zer0yu/CVE-2021-43798](https://github.com/zer0yu/CVE-2021-43798)
 - [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
@@ -3709,6 +3699,7 @@ In Ericsson CodeChecker through 6.18.0, a Stored Cross-site scripting (XSS) vuln
 Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
 </code>
 
+- [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jacobtread/L4J-Vuln-Patch](https://github.com/jacobtread/L4J-Vuln-Patch)
 - [UltraVanilla/LogJackFix](https://github.com/UltraVanilla/LogJackFix)
@@ -9237,7 +9228,7 @@ Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on r
 
 - [BH2UOL/CVE-2019-0230](https://github.com/BH2UOL/CVE-2019-0230)
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
-- [7vv7/CVE-2019-0230](https://github.com/7vv7/CVE-2019-0230)
+- [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 - [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
 - [Al1ex/CVE-2019-0230](https://github.com/Al1ex/CVE-2019-0230)
 - [tw-eason-tseng/CVE-2019-0230_Struts2S2-059](https://github.com/tw-eason-tseng/CVE-2019-0230_Struts2S2-059)
