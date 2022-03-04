@@ -258,6 +258,11 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Summer177/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947)
 - [BerMalBerIst/CVE-2022-22947](https://github.com/BerMalBerIst/CVE-2022-22947)
 - [york-cmd/CVE-2022-22947-goby](https://github.com/york-cmd/CVE-2022-22947-goby)
+- [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
+- [dingxiao77/-cve-2022-22947-](https://github.com/dingxiao77/-cve-2022-22947-)
+- [dbgee/CVE-2022-22947](https://github.com/dbgee/CVE-2022-22947)
+- [nu0l/cve-2022-22947](https://github.com/nu0l/cve-2022-22947)
+- [chaosec2021/CVE-2022-22947-POC](https://github.com/chaosec2021/CVE-2022-22947-POC)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -505,6 +510,14 @@ A vulnerability in the Cisco Adaptive Security Device Manager (ASDM) Launcher co
 </code>
 
 - [jbaines-r7/staystaystay](https://github.com/jbaines-r7/staystaystay)
+
+### CVE-2021-1636 (2021-01-12)
+
+<code>
+Microsoft SQL Elevation of Privilege Vulnerability
+</code>
+
+- [Nate0634034090/bug-free-memory](https://github.com/Nate0634034090/bug-free-memory)
 
 ### CVE-2021-1656 (2021-01-12)
 
@@ -3233,6 +3246,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp](https://github.com/asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp)
 - [rnsss/CVE-2021-42013](https://github.com/rnsss/CVE-2021-42013)
 - [jas9reet/CVE-2021-42013-LAB](https://github.com/jas9reet/CVE-2021-42013-LAB)
+- [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 
 ### CVE-2021-42071 (2021-10-07)
 
