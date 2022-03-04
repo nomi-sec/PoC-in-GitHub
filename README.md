@@ -38,7 +38,12 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
-### CVE-2022-0492
+### CVE-2022-0492 (2022-03-03)
+
+<code>
+A vulnerability was found in the Linux kernel’s cgroup_release_agent_write in the kernel/cgroup/cgroup-v1.c function. This flaw, under certain circumstances, allows the use of the cgroups v1 release_agent feature to escalate privileges and bypass the namespace isolation unexpectedly.
+</code>
+
 - [PaloAltoNetworks/can-ctr-escape-cve-2022-0492](https://github.com/PaloAltoNetworks/can-ctr-escape-cve-2022-0492)
 
 ### CVE-2022-0529 (2022-02-09)
@@ -235,12 +240,19 @@ Adenza AxiomSL ControllerView through 10.8.1 allows redirection for SSO login UR
 
 - [jdordonezn/CVE-2022-22919](https://github.com/jdordonezn/CVE-2022-22919)
 
-### CVE-2022-22947
+### CVE-2022-22947 (2022-03-03)
+
+<code>
+In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enabled, exposed and unsecured. A remote attacker could make a maliciously crafted request that could allow arbitrary remote execution on the remote host.
+</code>
+
 - [lucksec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/lucksec/Spring-Cloud-Gateway-CVE-2022-22947)
 - [cgddgc/cve-2022-22947](https://github.com/cgddgc/cve-2022-22947)
 - [shakeman8/CVE-2022-22947-RCE](https://github.com/shakeman8/CVE-2022-22947-RCE)
 - [Vulnmachines/spring-cve-2022-22947](https://github.com/Vulnmachines/spring-cve-2022-22947)
 - [Axx8/CVE-2022-22947_Rce_Exp](https://github.com/Axx8/CVE-2022-22947_Rce_Exp)
+- [carlosevieira/CVE-2022-22947](https://github.com/carlosevieira/CVE-2022-22947)
+- [Tas9er/SpringCloudGatewayRCE](https://github.com/Tas9er/SpringCloudGatewayRCE)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -1058,6 +1070,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [hahaleyile/CVE-2021-4034](https://github.com/hahaleyile/CVE-2021-4034)
 - [movvamrocks/PwnKit-CVE-2021-4034](https://github.com/movvamrocks/PwnKit-CVE-2021-4034)
 - [Xuanyaz/CVE-2021-4034](https://github.com/Xuanyaz/CVE-2021-4034)
+- [Jesrat/make_me_root](https://github.com/Jesrat/make_me_root)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2641,14 +2654,6 @@ Microsoft DWM Core Library Elevation of Privilege Vulnerability
 - [freeide2017/CVE-2021-33739-POC](https://github.com/freeide2017/CVE-2021-33739-POC)
 - [giwon9977/CVE-2021-33739_PoC_Analysis](https://github.com/giwon9977/CVE-2021-33739_PoC_Analysis)
 
-### CVE-2021-33766 (2021-07-14)
-
-<code>
-Microsoft Exchange Information Disclosure Vulnerability
-</code>
-
-- [bhdresh/CVE-2021-33766](https://github.com/bhdresh/CVE-2021-33766)
-
 ### CVE-2021-33879 (2021-06-06)
 
 <code>
@@ -3174,7 +3179,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
-- [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
@@ -3200,6 +3204,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Ming119/CVE-2021-41773_Exploit](https://github.com/Ming119/CVE-2021-41773_Exploit)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
+- [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
 
 ### CVE-2021-41822
 - [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
@@ -11371,6 +11376,7 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [Err0r-ICA/WhatsPayloadRCE](https://github.com/Err0r-ICA/WhatsPayloadRCE)
 - [starling021/CVE-2019-11932-SupportApp](https://github.com/starling021/CVE-2019-11932-SupportApp)
 - [Hacker-Yadav/CVE-2019-11932](https://github.com/Hacker-Yadav/CVE-2019-11932)
+- [BadAssAiras/hello](https://github.com/BadAssAiras/hello)
 - [kal1gh0st/WhatsAppHACK-RCE](https://github.com/kal1gh0st/WhatsAppHACK-RCE)
 - [zxn1/CVE-2019-11932](https://github.com/zxn1/CVE-2019-11932)
 - [Tabni/https-github.com-awakened1712-CVE-2019-11932](https://github.com/Tabni/https-github.com-awakened1712-CVE-2019-11932)
