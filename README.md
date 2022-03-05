@@ -265,6 +265,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [chaosec2021/CVE-2022-22947-POC](https://github.com/chaosec2021/CVE-2022-22947-POC)
 - [Xd-tl/CVE-2022-22947-Rce_POC](https://github.com/Xd-tl/CVE-2022-22947-Rce_POC)
 - [march0s1as/CVE-2022-22947](https://github.com/march0s1as/CVE-2022-22947)
+- [22ke/CVE-2022-22947](https://github.com/22ke/CVE-2022-22947)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -2563,6 +2564,7 @@ A SQL injection vulnerability in the pandora_console component of Artica Pandora
 - [zjicmDarkWing/CVE-2021-32099](https://github.com/zjicmDarkWing/CVE-2021-32099)
 - [ibnuuby/CVE-2021-32099](https://github.com/ibnuuby/CVE-2021-32099)
 - [l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi)
+- [akr3ch/CVE-2021-32099](https://github.com/akr3ch/CVE-2021-32099)
 
 ### CVE-2021-32471 (2021-05-10)
 
@@ -2786,7 +2788,6 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 </code>
 
 - [Sma11New/PocList](https://github.com/Sma11New/PocList)
-- [BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749)
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
 - [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
 - [Jun-5heng/CVE-2021-36749](https://github.com/Jun-5heng/CVE-2021-36749)
