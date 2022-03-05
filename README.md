@@ -4123,7 +4123,7 @@ A use-after-free exists in drivers/tee/tee_shm.c in the TEE subsystem in the Lin
 
 - [pjlantz/optee-qemu](https://github.com/pjlantz/optee-qemu)
 
-### CVE-2021-44827 (-)
+### CVE-2021-44827 (2022-03-04)
 
 <code>
 There is remote authenticated OS command injection on TP-Link Archer C20i 0.9.1 3.2 v003a.0 Build 170221 Rel.55462n devices vie the X_TP_ExternalIPv6Address HTTP parameter, allowing a remote attacker to run arbitrary commands on the router with root privileges.
@@ -18839,6 +18839,9 @@ In Kubernetes versions 1.3.x, 1.4.x, 1.5.x, 1.6.x and prior to versions 1.7.14, 
 </code>
 
 - [bgeesaman/subpath-exploit](https://github.com/bgeesaman/subpath-exploit)
+
+### CVE-2017-1279475
+- [thebatmanfuture/-Django-CVE-2017-1279475](https://github.com/thebatmanfuture/-Django-CVE-2017-1279475)
 
 
 ## 2016
