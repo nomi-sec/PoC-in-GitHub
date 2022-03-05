@@ -264,6 +264,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [nu0l/cve-2022-22947](https://github.com/nu0l/cve-2022-22947)
 - [chaosec2021/CVE-2022-22947-POC](https://github.com/chaosec2021/CVE-2022-22947-POC)
 - [Xd-tl/CVE-2022-22947-Rce_POC](https://github.com/Xd-tl/CVE-2022-22947-Rce_POC)
+- [march0s1as/CVE-2022-22947](https://github.com/march0s1as/CVE-2022-22947)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -372,6 +373,9 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 </code>
 
 - [jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2)
+
+### CVE-2022-24644
+- [gerr-re/cve-2022-24644](https://github.com/gerr-re/cve-2022-24644)
 
 ### CVE-2022-24693
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
@@ -2782,6 +2786,7 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 </code>
 
 - [Sma11New/PocList](https://github.com/Sma11New/PocList)
+- [BrucessKING/CVE-2021-36749](https://github.com/BrucessKING/CVE-2021-36749)
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
 - [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
 - [Jun-5heng/CVE-2021-36749](https://github.com/Jun-5heng/CVE-2021-36749)
@@ -2899,14 +2904,6 @@ Remote Desktop Client Remote Code Execution Vulnerability
 
 - [DarkSprings/CVE-2021-38666-poc](https://github.com/DarkSprings/CVE-2021-38666-poc)
 - [JaneMandy/CVE-2021-38666](https://github.com/JaneMandy/CVE-2021-38666)
-
-### CVE-2021-38759 (2021-12-07)
-
-<code>
-Raspberry Pi OS through 5.10 has the raspberry default password for the pi account. If not changed, attackers can gain administrator privileges.
-</code>
-
-- [joanbono/CVE-2021-38759](https://github.com/joanbono/CVE-2021-38759)
 
 ### CVE-2021-39316 (2021-08-31)
 
@@ -4126,7 +4123,12 @@ A use-after-free exists in drivers/tee/tee_shm.c in the TEE subsystem in the Lin
 
 - [pjlantz/optee-qemu](https://github.com/pjlantz/optee-qemu)
 
-### CVE-2021-44827
+### CVE-2021-44827 (-)
+
+<code>
+There is remote authenticated OS command injection on TP-Link Archer C20i 0.9.1 3.2 v003a.0 Build 170221 Rel.55462n devices vie the X_TP_ExternalIPv6Address HTTP parameter, allowing a remote attacker to run arbitrary commands on the router with root privileges.
+</code>
+
 - [full-disclosure/CVE-2021-44827](https://github.com/full-disclosure/CVE-2021-44827)
 
 ### CVE-2021-44832 (2021-12-28)
