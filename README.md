@@ -45,6 +45,7 @@ A vulnerability was found in the Linux kernel’s cgroup_release_agent_write in 
 </code>
 
 - [PaloAltoNetworks/can-ctr-escape-cve-2022-0492](https://github.com/PaloAltoNetworks/can-ctr-escape-cve-2022-0492)
+- [SofianeHamlaoui/CVE-2022-0492-Checker](https://github.com/SofianeHamlaoui/CVE-2022-0492-Checker)
 
 ### CVE-2022-0529 (2022-02-09)
 
@@ -15045,6 +15046,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933)
 - [JoSecMx/CVE-2018-10933_Scanner](https://github.com/JoSecMx/CVE-2018-10933_Scanner)
 - [cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933)
+- [Onurhan1337/CVE-2018-10933](https://github.com/Onurhan1337/CVE-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
 
