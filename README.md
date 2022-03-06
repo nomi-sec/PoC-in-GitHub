@@ -2169,7 +2169,7 @@ The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 ha
 </code>
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
-- [Crystalware/CVE-2021-27965](https://github.com/Crystalware/CVE-2021-27965)
+- [Jeromeyoung/CVE-2021-27965](https://github.com/Jeromeyoung/CVE-2021-27965)
 
 ### CVE-2021-28079 (2021-04-26)
 
@@ -6337,14 +6337,6 @@ Stored Cross-site scripting (XSS) vulnerability in Blackboard Learn/PeopleTool v
 
 - [kyletimmermans/blackboard-xss](https://github.com/kyletimmermans/blackboard-xss)
 
-### CVE-2020-9014 (2021-02-05)
-
-<code>
-In Epson iProjection v2.30, the driver file (EMP_NSAU.sys) allows local users to cause a denial of service (BSOD) via crafted input to the virtual audio device driver with IOCTL 0x9C402402, 0x9C402406, or 0x9C40240A. \Device\EMPNSAUIO and \DosDevices\EMPNSAU are similarly affected.
-</code>
-
-- [Crystalware/CVE-2020-9014](https://github.com/Crystalware/CVE-2020-9014)
-
 ### CVE-2020-9038 (2020-02-17)
 
 <code>
@@ -7656,14 +7648,6 @@ On TP-Link TL-WR740N v4 and TL-WR740ND v4 devices, an attacker with access to th
 </code>
 
 - [g-rubert/CVE-2020-14965](https://github.com/g-rubert/CVE-2020-14965)
-
-### CVE-2020-14979 (2020-08-11)
-
-<code>
-The WinRing0.sys and WinRing0x64.sys drivers 1.2.0 in EVGA Precision X1 through 1.0.6 allow local users, including low integrity processes, to read and write to arbitrary memory locations. This allows any user to gain NT AUTHORITY\SYSTEM privileges by mapping \Device\PhysicalMemory into the calling process.
-</code>
-
-- [Crystalware/CVE-2020-14979](https://github.com/Crystalware/CVE-2020-14979)
 
 ### CVE-2020-15002 (2020-10-23)
 
@@ -11893,9 +11877,6 @@ In lib/mini_magick/image.rb in MiniMagick before 4.9.4, a fetched remote image f
 
 - [masahiro331/CVE-2019-13574](https://github.com/masahiro331/CVE-2019-13574)
 
-### CVE-2019-13600
-- [Crystalware/CVE-2019-13600](https://github.com/Crystalware/CVE-2019-13600)
-
 ### CVE-2019-13633 (2020-10-19)
 
 <code>
@@ -14508,7 +14489,6 @@ HWiNFO AMD64 Kernel driver version 8.98 and lower allows an unprivileged user to
 </code>
 
 - [otavioarj/SIOCtl](https://github.com/otavioarj/SIOCtl)
-- [Crystalware/CVE-2018-8060](https://github.com/Crystalware/CVE-2018-8060)
 
 ### CVE-2018-8065 (2018-03-12)
 
