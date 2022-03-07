@@ -46,6 +46,7 @@ A vulnerability was found in the Linux kernel’s cgroup_release_agent_write in 
 
 - [PaloAltoNetworks/can-ctr-escape-cve-2022-0492](https://github.com/PaloAltoNetworks/can-ctr-escape-cve-2022-0492)
 - [SofianeHamlaoui/CVE-2022-0492-Checker](https://github.com/SofianeHamlaoui/CVE-2022-0492-Checker)
+- [puckiestyle/CVE-2022-0492](https://github.com/puckiestyle/CVE-2022-0492)
 
 ### CVE-2022-0529 (2022-02-09)
 
@@ -275,6 +276,9 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Xd-tl/CVE-2022-22947-Rce_POC](https://github.com/Xd-tl/CVE-2022-22947-Rce_POC)
 - [march0s1as/CVE-2022-22947](https://github.com/march0s1as/CVE-2022-22947)
 - [22ke/CVE-2022-22947](https://github.com/22ke/CVE-2022-22947)
+- [j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE](https://github.com/j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE)
+- [YutuSec/SpEL](https://github.com/YutuSec/SpEL)
+- [Jun-5heng/CVE-2022-22947](https://github.com/Jun-5heng/CVE-2022-22947)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -441,8 +445,17 @@ Printix Secure Cloud Print Management through 1.3.1106.0 incorrectly uses Privil
 ### CVE-2022-25090
 - [ComparedArray/printix-CVE-2022-25090](https://github.com/ComparedArray/printix-CVE-2022-25090)
 
+### CVE-2022-25256 (2022-02-18)
+
+<code>
+SAS Web Report Studio 4.4 allows XSS. /SASWebReportStudio/logonAndRender.do has two parameters: saspfs_request_backlabel_list and saspfs_request_backurl_list. The first one affects the content of the button placed in the top left. The second affects the page to which the user is directed after pressing the button, e.g., a malicious web page. In addition, the second parameter executes JavaScript, which means XSS is possible by adding a javascript: URL.
+</code>
+
+- [RobertDra/CVE-2022-25256](https://github.com/RobertDra/CVE-2022-25256)
+
 ### CVE-2022-25257
 - [polling-repo-continua/CVE-2022-25257](https://github.com/polling-repo-continua/CVE-2022-25257)
+- [RobertDra/CVE-2022-25257](https://github.com/RobertDra/CVE-2022-25257)
 
 ### CVE-2022-25258 (2022-02-16)
 
