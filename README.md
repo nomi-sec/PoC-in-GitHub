@@ -68,6 +68,11 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 
 - [faisalfs10x/Webmin-CVE-2022-0824-revshell](https://github.com/faisalfs10x/Webmin-CVE-2022-0824-revshell)
 
+### CVE-2022-0847
+- [Udyz/CVE-2022-0847](https://github.com/Udyz/CVE-2022-0847)
+- [bbaranoff/CVE-2022-0847](https://github.com/bbaranoff/CVE-2022-0847)
+- [xndpxs/CVE-2022-0847](https://github.com/xndpxs/CVE-2022-0847)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -279,6 +284,8 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE](https://github.com/j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE)
 - [YutuSec/SpEL](https://github.com/YutuSec/SpEL)
 - [Jun-5heng/CVE-2022-22947](https://github.com/Jun-5heng/CVE-2022-22947)
+- [darkb1rd/cve-2022-22947](https://github.com/darkb1rd/cve-2022-22947)
+- [mrknow001/CVE-2022-22947](https://github.com/mrknow001/CVE-2022-22947)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -343,6 +350,9 @@ An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject m
 </code>
 
 - [dipakpanchal456/CVE-2022-23808](https://github.com/dipakpanchal456/CVE-2022-23808)
+
+### CVE-2022-23940
+- [manuelz120/CVE-2022-23940](https://github.com/manuelz120/CVE-2022-23940)
 
 ### CVE-2022-23967 (2022-01-26)
 
@@ -472,6 +482,14 @@ An issue was discovered in drivers/usb/gadget/function/rndis.c in the Linux kern
 </code>
 
 - [szymonh/rndis-co](https://github.com/szymonh/rndis-co)
+
+### CVE-2022-25636 (2022-02-21)
+
+<code>
+net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows local users to gain privileges because of a heap out-of-bounds write. This is related to nf_tables_offload.
+</code>
+
+- [Bonfee/CVE-2022-25636](https://github.com/Bonfee/CVE-2022-25636)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -1130,6 +1148,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
 - [PentesterSoham/CVE-2021-4034-exploit](https://github.com/PentesterSoham/CVE-2021-4034-exploit)
 - [T369-Real/pwnkit-pwn](https://github.com/T369-Real/pwnkit-pwn)
+- [GatoGamer1155/CVE-2021-4034](https://github.com/GatoGamer1155/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -1191,7 +1210,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 </code>
 
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
-- [byteofjoshua/CVE-2021-20837](https://github.com/byteofjoshua/CVE-2021-20837)
+- [byteofandri/CVE-2021-20837](https://github.com/byteofandri/CVE-2021-20837)
 - [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
 - [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
 
@@ -1390,7 +1409,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
-- [byteofjoshua/CVE-2021-21972](https://github.com/byteofjoshua/CVE-2021-21972)
+- [byteofandri/CVE-2021-21972](https://github.com/byteofandri/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -1575,7 +1594,7 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 
 - [ZephrFish/CVE-2021-22893_HoneyPoC2](https://github.com/ZephrFish/CVE-2021-22893_HoneyPoC2)
 - [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
-- [byteofjoshua/CVE-2021-22893](https://github.com/byteofjoshua/CVE-2021-22893)
+- [byteofandri/CVE-2021-22893](https://github.com/byteofandri/CVE-2021-22893)
 
 ### CVE-2021-22911 (2021-05-27)
 
@@ -1806,7 +1825,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
-- [byteofjoshua/CVE-2021-26084](https://github.com/byteofjoshua/CVE-2021-26084)
+- [byteofandri/CVE-2021-26084](https://github.com/byteofandri/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
@@ -2400,7 +2419,7 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [byteofjoshua/CVE-2021-30573](https://github.com/byteofjoshua/CVE-2021-30573)
+- [byteofandri/CVE-2021-30573](https://github.com/byteofandri/CVE-2021-30573)
 - [kh4sh3i/CVE-2021-30573](https://github.com/kh4sh3i/CVE-2021-30573)
 
 ### CVE-2021-30632 (2021-10-08)
@@ -2908,7 +2927,7 @@ Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote att
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
-- [byteofjoshua/CVE-2021-38314](https://github.com/byteofjoshua/CVE-2021-38314)
+- [byteofandri/CVE-2021-38314](https://github.com/byteofandri/CVE-2021-38314)
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
@@ -3270,14 +3289,6 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [rnsss/CVE-2021-42013](https://github.com/rnsss/CVE-2021-42013)
 - [jas9reet/CVE-2021-42013-LAB](https://github.com/jas9reet/CVE-2021-42013-LAB)
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
-
-### CVE-2021-42071 (2021-10-07)
-
-<code>
-In Visual Tools DVR VX16 4.2.28.0, an unauthenticated attacker can achieve remote command execution via shell metacharacters in the cgi-bin/slogin/login.py User-Agent HTTP header.
-</code>
-
-- [adubaldo/CVE-2021-42071](https://github.com/adubaldo/CVE-2021-42071)
 
 ### CVE-2021-42237 (2021-11-05)
 
@@ -4837,7 +4848,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 - [Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796)
-- [byteofjoshua/CVE-2020-0796](https://github.com/byteofjoshua/CVE-2020-0796)
+- [byteofandri/CVE-2020-0796](https://github.com/byteofandri/CVE-2020-0796)
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
@@ -12295,7 +12306,7 @@ admin/includes/class.import.snippet.php in the &quot;Woody ad snippets&quot; plu
 </code>
 
 - [GeneralEG/CVE-2019-15858](https://github.com/GeneralEG/CVE-2019-15858)
-- [byteofjoshua/CVE-2019-15858](https://github.com/byteofjoshua/CVE-2019-15858)
+- [byteofandri/CVE-2019-15858](https://github.com/byteofandri/CVE-2019-15858)
 
 ### CVE-2019-15972 (2019-11-25)
 
@@ -15683,7 +15694,7 @@ Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlie
 - [cved-sources/cve-2018-15961](https://github.com/cved-sources/cve-2018-15961)
 - [0xAJ2K/CVE-2018-15961](https://github.com/0xAJ2K/CVE-2018-15961)
 - [xbufu/CVE-2018-15961](https://github.com/xbufu/CVE-2018-15961)
-- [byteofjoshua/CVE-2018-15961](https://github.com/byteofjoshua/CVE-2018-15961)
+- [byteofandri/CVE-2018-15961](https://github.com/byteofandri/CVE-2018-15961)
 
 ### CVE-2018-15968 (2018-10-12)
 
