@@ -1116,6 +1116,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Jesrat/make_me_root](https://github.com/Jesrat/make_me_root)
 - [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
 - [PentesterSoham/CVE-2021-4034-exploit](https://github.com/PentesterSoham/CVE-2021-4034-exploit)
+- [T369-Real/pwnkit-pwn](https://github.com/T369-Real/pwnkit-pwn)
 
 ### CVE-2021-4043 (2022-02-04)
 
