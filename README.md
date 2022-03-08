@@ -72,6 +72,10 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 - [Udyz/CVE-2022-0847](https://github.com/Udyz/CVE-2022-0847)
 - [bbaranoff/CVE-2022-0847](https://github.com/bbaranoff/CVE-2022-0847)
 - [xndpxs/CVE-2022-0847](https://github.com/xndpxs/CVE-2022-0847)
+- [imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847)
+- [Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit)
+- [2xYuan/CVE-2022-0847](https://github.com/2xYuan/CVE-2022-0847)
+- [carlosevieira/Dirty-Pipe](https://github.com/carlosevieira/Dirty-Pipe)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -158,6 +162,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [coconut20/CVE-2022-21907-RCE-POC](https://github.com/coconut20/CVE-2022-21907-RCE-POC)
+- [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
 ### CVE-2022-21971 (2022-02-09)
 
@@ -2505,6 +2510,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
 - [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 - [ConMiko/CVE-2021-31166-exploit](https://github.com/ConMiko/CVE-2021-31166-exploit)
+- [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
 ### CVE-2021-31184 (2021-05-11)
 
@@ -3221,7 +3227,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
-- [shiomiyan/CVE-2021-41773](https://github.com/shiomiyan/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
