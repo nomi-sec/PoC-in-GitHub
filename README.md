@@ -79,6 +79,9 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 - [lucksec/CVE-2022-0847](https://github.com/lucksec/CVE-2022-0847)
 - [rahul1406/cve-2022-0847dirtypipe-exploit](https://github.com/rahul1406/cve-2022-0847dirtypipe-exploit)
 - [si1ent-le/CVE-2022-0847](https://github.com/si1ent-le/CVE-2022-0847)
+- [antx-code/CVE-2022-0847](https://github.com/antx-code/CVE-2022-0847)
+- [cspshivam/CVE-2022-0847-dirty-pipe-exploit](https://github.com/cspshivam/CVE-2022-0847-dirty-pipe-exploit)
+- [febinrev/dirtypipez-exploit](https://github.com/febinrev/dirtypipez-exploit)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -294,6 +297,8 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Jun-5heng/CVE-2022-22947](https://github.com/Jun-5heng/CVE-2022-22947)
 - [darkb1rd/cve-2022-22947](https://github.com/darkb1rd/cve-2022-22947)
 - [mrknow001/CVE-2022-22947](https://github.com/mrknow001/CVE-2022-22947)
+- [aodsec/CVE-2022-22947](https://github.com/aodsec/CVE-2022-22947)
+- [ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code](https://github.com/ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -8107,6 +8112,7 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [givemefivw/CVE-2020-17519](https://github.com/givemefivw/CVE-2020-17519)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [thebatmanfuture/apacheflink----POC](https://github.com/thebatmanfuture/apacheflink----POC)
+- [zhangweijie11/CVE-2020-17519](https://github.com/zhangweijie11/CVE-2020-17519)
 
 ### CVE-2020-17523 (2021-02-03)
 
