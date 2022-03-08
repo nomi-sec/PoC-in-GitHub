@@ -82,6 +82,13 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 - [antx-code/CVE-2022-0847](https://github.com/antx-code/CVE-2022-0847)
 - [cspshivam/CVE-2022-0847-dirty-pipe-exploit](https://github.com/cspshivam/CVE-2022-0847-dirty-pipe-exploit)
 - [febinrev/dirtypipez-exploit](https://github.com/febinrev/dirtypipez-exploit)
+- [ahrixia/CVE_2022_0847](https://github.com/ahrixia/CVE_2022_0847)
+- [knqyf263/CVE-2022-0847](https://github.com/knqyf263/CVE-2022-0847)
+- [puckiestyle/CVE-2022-0847](https://github.com/puckiestyle/CVE-2022-0847)
+- [0xIronGoat/dirty-pipe](https://github.com/0xIronGoat/dirty-pipe)
+- [ITMarcin2211/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/ITMarcin2211/CVE-2022-0847-DirtyPipe-Exploit)
+- [mrchucu1/CVE-2022-0847-Docker](https://github.com/mrchucu1/CVE-2022-0847-Docker)
+- [basharkey/CVE-2022-0847-dirty-pipe-checker](https://github.com/basharkey/CVE-2022-0847-dirty-pipe-checker)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -535,6 +542,9 @@ net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows loca
 
 - [Bonfee/CVE-2022-25636](https://github.com/Bonfee/CVE-2022-25636)
 
+### CVE-2022-25943
+- [HadiMed/KINGSOFT-WPS-Office-LPE](https://github.com/HadiMed/KINGSOFT-WPS-Office-LPE)
+
 ### CVE-2022-26155 (2022-02-28)
 
 <code>
@@ -574,6 +584,9 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 </code>
 
 - [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
+
+### CVE-2022-244112
+- [Mah1ndra/CVE-2022-244112](https://github.com/Mah1ndra/CVE-2022-244112)
 
 
 ## 2021
@@ -2910,6 +2923,7 @@ Windows Elevation of Privilege Vulnerability
 </code>
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
+- [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 
 ### CVE-2021-37580 (2021-11-16)
 
@@ -3288,7 +3302,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
-- [Ming119/CVE-2021-41773_Exploit](https://github.com/Ming119/CVE-2021-41773_Exploit)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
@@ -7488,6 +7501,14 @@ IceWarp Email Server 12.3.0.1 allows remote attackers to upload JavaScript files
 
 - [networksecure/CVE-2020-14066](https://github.com/networksecure/CVE-2020-14066)
 - [pinpinsec/Icewarp-Email-Server-12.3.0.1-insecure_permissions](https://github.com/pinpinsec/Icewarp-Email-Server-12.3.0.1-insecure_permissions)
+
+### CVE-2020-14144 (2020-10-16)
+
+<code>
+** DISPUTED ** The git hook feature in Gitea 1.1.0 through 1.12.5 might allow for authenticated remote code execution in customer environments where the documentation was not understood (e.g., one viewpoint is that the dangerousness of this feature should be documented immediately above the ENABLE_GIT_HOOKS line in the config file). NOTE: The vendor has indicated this is not a vulnerability and states &quot;This is a functionality of the software that is limited to a very limited subset of accounts. If you give someone the privilege to execute arbitrary code on your server, they can execute arbitrary code on your server. We provide very clear warnings to users around this functionality and what it provides.&quot;
+</code>
+
+- [p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce](https://github.com/p0dalirius/CVE-2020-14144-GiTea-git-hooks-rce)
 
 ### CVE-2020-14179 (2020-09-20)
 
