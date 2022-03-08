@@ -76,6 +76,9 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 - [Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit)
 - [2xYuan/CVE-2022-0847](https://github.com/2xYuan/CVE-2022-0847)
 - [carlosevieira/Dirty-Pipe](https://github.com/carlosevieira/Dirty-Pipe)
+- [lucksec/CVE-2022-0847](https://github.com/lucksec/CVE-2022-0847)
+- [rahul1406/cve-2022-0847dirtypipe-exploit](https://github.com/rahul1406/cve-2022-0847dirtypipe-exploit)
+- [si1ent-le/CVE-2022-0847](https://github.com/si1ent-le/CVE-2022-0847)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -417,6 +420,9 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 ### CVE-2022-24693
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
 
+### CVE-2022-24990
+- [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
+
 ### CVE-2022-25018 (2022-02-28)
 
 <code>
@@ -441,12 +447,40 @@ A cross-site scripting (XSS) vulnerability in Htmly v2.8.1 allows attackers to e
 
 - [MoritzHuppert/CVE-2022-25022](https://github.com/MoritzHuppert/CVE-2022-25022)
 
+### CVE-2022-25060 (2022-02-25)
+
+<code>
+TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a command injection vulnerability via the component oal_startPing.
+</code>
+
+- [exploitwritter/CVE-2022-25060](https://github.com/exploitwritter/CVE-2022-25060)
+
+### CVE-2022-25061 (2022-02-25)
+
+<code>
+TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a command injection vulnerability via the component oal_setIp6DefaultRoute.
+</code>
+
+- [exploitwritter/CVE-2022-25061](https://github.com/exploitwritter/CVE-2022-25061)
+
+### CVE-2022-25062 (2022-02-25)
+
+<code>
+TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain an integer overflow via the function dm_checkString. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted HTTP request.
+</code>
+
+- [exploitwritter/CVE-2022-25062](https://github.com/exploitwritter/CVE-2022-25062)
+
+### CVE-2022-25063
+- [exploitwritter/CVE-2022-25063](https://github.com/exploitwritter/CVE-2022-25063)
+
 ### CVE-2022-25064 (2022-02-25)
 
 <code>
 TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a remote code execution (RCE) vulnerability via the function oal_wan6_setIpAddr.
 </code>
 
+- [exploitwritter/CVE-2022-25064](https://github.com/exploitwritter/CVE-2022-25064)
 - [Mr-xn/CVE-2022-25064](https://github.com/Mr-xn/CVE-2022-25064)
 
 ### CVE-2022-25089 (2022-03-02)
@@ -2871,7 +2905,6 @@ Windows Elevation of Privilege Vulnerability
 </code>
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
-- [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 
 ### CVE-2021-37580 (2021-11-16)
 
@@ -3737,6 +3770,14 @@ Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 105
 </code>
 
 - [horizon3ai/CVE-2021-44077](https://github.com/horizon3ai/CVE-2021-44077)
+
+### CVE-2021-44132 (2022-02-25)
+
+<code>
+A command injection vulnerability in the function formImportOMCIShell of C-DATA ONU4FERW V2.1.13_X139 allows attackers to execute arbitrary commands via a crafted file.
+</code>
+
+- [exploitwritter/CVE-2021-44132](https://github.com/exploitwritter/CVE-2021-44132)
 
 ### CVE-2021-44217 (2022-01-18)
 
@@ -19603,6 +19644,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [SmithCGauss/CVE-2016-5195](https://github.com/SmithCGauss/CVE-2016-5195)
 - [th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC)
 - [ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow)
+- [imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847)
 
 ### CVE-2016-5345 (2018-01-22)
 
