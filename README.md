@@ -97,6 +97,8 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 - [nanaao/Dirtypipe-exploit](https://github.com/nanaao/Dirtypipe-exploit)
 - [AyoubNajim/cve-2022-0847dirtypipe-exploit](https://github.com/AyoubNajim/cve-2022-0847dirtypipe-exploit)
 - [pentestblogin/pentestblog-CVE-2022-0847](https://github.com/pentestblogin/pentestblog-CVE-2022-0847)
+- [gyaansastra/CVE-2022-0847](https://github.com/gyaansastra/CVE-2022-0847)
+- [T4t4ru/CVE-2022-0847](https://github.com/T4t4ru/CVE-2022-0847)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -8559,6 +8561,7 @@ ThinkAdmin v6 is affected by a directory traversal vulnerability. An unauthorize
 </code>
 
 - [Schira4396/CVE-2020-25540](https://github.com/Schira4396/CVE-2020-25540)
+- [Rajchowdhury420/ThinkAdmin-CVE-2020-25540](https://github.com/Rajchowdhury420/ThinkAdmin-CVE-2020-25540)
 
 ### CVE-2020-25627 (2020-12-08)
 
