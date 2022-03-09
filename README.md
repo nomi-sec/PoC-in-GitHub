@@ -90,6 +90,11 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 - [mrchucu1/CVE-2022-0847-Docker](https://github.com/mrchucu1/CVE-2022-0847-Docker)
 - [basharkey/CVE-2022-0847-dirty-pipe-checker](https://github.com/basharkey/CVE-2022-0847-dirty-pipe-checker)
 - [4luc4rdr5290/CVE-2022-0847](https://github.com/4luc4rdr5290/CVE-2022-0847)
+- [dadhee/CVE-2022-0847_DirtyPipeExploit](https://github.com/dadhee/CVE-2022-0847_DirtyPipeExploit)
+- [Greetdawn/CVE-2022-0847-DirtyPipe](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe)
+- [Al1ex/CVE-2022-0847](https://github.com/Al1ex/CVE-2022-0847)
+- [MRNIKO1/Dirtypipe-exploit](https://github.com/MRNIKO1/Dirtypipe-exploit)
+- [Mustafa1986/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Mustafa1986/CVE-2022-0847-DirtyPipe-Exploit)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -410,6 +415,7 @@ An attacker can abuse the batch-requests plugin to send requests to bypass the I
 - [Mr-xn/CVE-2022-24112](https://github.com/Mr-xn/CVE-2022-24112)
 - [Udyz/CVE-2022-24112](https://github.com/Udyz/CVE-2022-24112)
 - [Axx8/CVE-2022-24112](https://github.com/Axx8/CVE-2022-24112)
+- [Mah1ndra/CVE-2022-24112](https://github.com/Mah1ndra/CVE-2022-24112)
 
 ### CVE-2022-24124 (2022-01-29)
 
@@ -543,7 +549,12 @@ net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows loca
 
 - [Bonfee/CVE-2022-25636](https://github.com/Bonfee/CVE-2022-25636)
 
-### CVE-2022-25943
+### CVE-2022-25943 (2022-03-08)
+
+<code>
+The installer of WPS Office for Windows versions prior to v11.2.0.10258 fails to configure properly the ACL for the directory where the service program is installed.
+</code>
+
 - [HadiMed/KINGSOFT-WPS-Office-LPE](https://github.com/HadiMed/KINGSOFT-WPS-Office-LPE)
 
 ### CVE-2022-26155 (2022-02-28)
@@ -585,9 +596,6 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 </code>
 
 - [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
-
-### CVE-2022-244112
-- [Mah1ndra/CVE-2022-244112](https://github.com/Mah1ndra/CVE-2022-244112)
 
 
 ## 2021
@@ -1207,6 +1215,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [PentesterSoham/CVE-2021-4034-exploit](https://github.com/PentesterSoham/CVE-2021-4034-exploit)
 - [T369-Real/pwnkit-pwn](https://github.com/T369-Real/pwnkit-pwn)
 - [GatoGamer1155/CVE-2021-4034](https://github.com/GatoGamer1155/CVE-2021-4034)
+- [bakhtiyarsierad/CVE-2021-4034-bug-root](https://github.com/bakhtiyarsierad/CVE-2021-4034-bug-root)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -3080,7 +3089,6 @@ An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can
 A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
 </code>
 
-- [xiaojiangxl/CVE-2021-40438](https://github.com/xiaojiangxl/CVE-2021-40438)
 - [sixpacksecurity/CVE-2021-40438](https://github.com/sixpacksecurity/CVE-2021-40438)
 - [BabyTeam1024/CVE-2021-40438](https://github.com/BabyTeam1024/CVE-2021-40438)
 - [ericmann/apache-cve-poc](https://github.com/ericmann/apache-cve-poc)
@@ -3290,7 +3298,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
-- [vulf/CVE-2021-41773_42013](https://github.com/vulf/CVE-2021-41773_42013)
 - [cloudbyteelias/CVE-2021-41773](https://github.com/cloudbyteelias/CVE-2021-41773)
 - [qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773)
 - [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
@@ -4194,6 +4201,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [s-retlaw/l4srs](https://github.com/s-retlaw/l4srs)
 - [Ananya-0306/Log-4j-scanner](https://github.com/Ananya-0306/Log-4j-scanner)
 - [micha3lcve/CVE-2021-44228-Mass-RCE](https://github.com/micha3lcve/CVE-2021-44228-Mass-RCE)
+- [paulvkitor/log4shellwithlog4j2_13_3](https://github.com/paulvkitor/log4shellwithlog4j2_13_3)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
