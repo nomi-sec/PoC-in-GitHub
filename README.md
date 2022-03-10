@@ -103,6 +103,9 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 - [edsonjt81/CVE-2022-0847-Linux](https://github.com/edsonjt81/CVE-2022-0847-Linux)
 - [chenaotian/CVE-2022-0847](https://github.com/chenaotian/CVE-2022-0847)
 
+### CVE-2022-0853
+- [ByteHackr/CVE-2022-0853](https://github.com/ByteHackr/CVE-2022-0853)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -187,7 +190,6 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [coconut20/CVE-2022-21907-RCE-POC](https://github.com/coconut20/CVE-2022-21907-RCE-POC)
-- [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
 ### CVE-2022-21971 (2022-02-09)
 
@@ -607,6 +609,9 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 </code>
 
 - [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
+
+### CVE-2022-31166
+- [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
 
 ## 2021
