@@ -226,6 +226,9 @@ SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, AB
 
 - [antx-code/CVE-2022-22536](https://github.com/antx-code/CVE-2022-22536)
 
+### CVE-2022-22588
+- [trevorspiniolas/homekitdos](https://github.com/trevorspiniolas/homekitdos)
+
 ### CVE-2022-22828 (2022-01-27)
 
 <code>
@@ -1805,6 +1808,14 @@ The WP Visitor Statistics (Real Time Traffic) WordPress plugin before 4.8 does n
 
 - [fimtow/CVE-2021-24750](https://github.com/fimtow/CVE-2021-24750)
 
+### CVE-2021-24884 (2021-10-25)
+
+<code>
+The Formidable Form Builder WordPress plugin before 4.09.05 allows to inject certain HTML Tags like &lt;audio&gt;,&lt;video&gt;,&lt;img&gt;,&lt;a&gt; and&lt;button&gt;.This could allow an unauthenticated, remote attacker to exploit a HTML-injection byinjecting a malicous link. The HTML-injection may trick authenticated users to follow the link. If the Link gets clicked, Javascript code can be executed. The vulnerability is due to insufficient sanitization of the &quot;data-frmverify&quot; tag for links in the web-based entry inspection page of affected systems. A successful exploitation incomibantion with CSRF could allow the attacker to perform arbitrary actions on an affected system with the privileges of the user. These actions include stealing the users account by changing their password or allowing attackers to submit their own code through an authenticated user resulting in Remote Code Execution. If an authenticated user who is able to edit Wordpress PHP Code in any kind, clicks the malicious link, PHP code can be edited.
+</code>
+
+- [S1lkys/CVE-2021-24884](https://github.com/S1lkys/CVE-2021-24884)
+
 ### CVE-2021-25281 (2021-02-26)
 
 <code>
@@ -1885,7 +1896,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
 - [0xf4n9x/CVE-2021-26084](https://github.com/0xf4n9x/CVE-2021-26084)
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
-- [dock0d1/CVE-2021-26084_Confluence](https://github.com/dock0d1/CVE-2021-26084_Confluence)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [byteofandri/CVE-2021-26084](https://github.com/byteofandri/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
