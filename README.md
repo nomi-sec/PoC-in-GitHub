@@ -47,6 +47,7 @@ A vulnerability was found in the Linux kernel’s cgroup_release_agent_write in 
 - [PaloAltoNetworks/can-ctr-escape-cve-2022-0492](https://github.com/PaloAltoNetworks/can-ctr-escape-cve-2022-0492)
 - [SofianeHamlaoui/CVE-2022-0492-Checker](https://github.com/SofianeHamlaoui/CVE-2022-0492-Checker)
 - [puckiestyle/CVE-2022-0492](https://github.com/puckiestyle/CVE-2022-0492)
+- [chenaotian/CVE-2022-0492](https://github.com/chenaotian/CVE-2022-0492)
 
 ### CVE-2022-0529 (2022-02-09)
 
@@ -116,6 +117,15 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [michaelklaan/CVE-2022-0847-Dirty-Pipe](https://github.com/michaelklaan/CVE-2022-0847-Dirty-Pipe)
 - [terabitSec/dirtyPipe-automaticRoot](https://github.com/terabitSec/dirtyPipe-automaticRoot)
 - [Greetdawn/CVE-2022-0847-DirtyPipe-](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-)
+- [crusoe112/DirtyPipePython](https://github.com/crusoe112/DirtyPipePython)
+
+### CVE-2022-0848 (2022-03-04)
+
+<code>
+OS Command Injection in GitHub repository part-db/part-db prior to 0.5.11.
+</code>
+
+- [dskmehra/CVE-2022-0848](https://github.com/dskmehra/CVE-2022-0848)
 
 ### CVE-2022-0853
 - [ByteHackr/CVE-2022-0853](https://github.com/ByteHackr/CVE-2022-0853)
@@ -480,7 +490,6 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
 - [VVeakee/CVE-2022-24990-POC](https://github.com/VVeakee/CVE-2022-24990-POC)
-- [VVeakee/CVE-2022-24990-EXP](https://github.com/VVeakee/CVE-2022-24990-EXP)
 
 ### CVE-2022-25018 (2022-02-28)
 
@@ -3266,6 +3275,7 @@ Metabase is an open source data analytics platform. In affected versions a secur
 - [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
 - [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
 - [frknktlca/Metabase_Nmap_Script](https://github.com/frknktlca/Metabase_Nmap_Script)
+- [Chen-ling-afk/CVE-2021-41277](https://github.com/Chen-ling-afk/CVE-2021-41277)
 
 ### CVE-2021-41349 (2021-11-09)
 
@@ -3368,9 +3378,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
 - [mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773)
-
-### CVE-2021-41822
-- [badboycxcc/CVE-2021-41822](https://github.com/badboycxcc/CVE-2021-41822)
 
 ### CVE-2021-41962 (2021-12-16)
 
@@ -13539,6 +13546,14 @@ Spring Data Commons, versions 1.13 prior to 1.13.12 and 2.0 prior to 2.0.7, used
 </code>
 
 - [tafamace/CVE-2018-1259](https://github.com/tafamace/CVE-2018-1259)
+
+### CVE-2018-1263 (2018-05-15)
+
+<code>
+Addresses partial fix in CVE-2018-1261. Pivotal spring-integration-zip, versions prior to 1.0.2, exposes an arbitrary file write vulnerability, that can be achieved using a specially crafted zip archive (affects other archives as well, bzip2, tar, xz, war, cpio, 7z), that holds path traversal filenames. So when the filename gets concatenated to the target extraction directory, the final path ends up outside of the target folder.
+</code>
+
+- [sakib570/CVE-2018-1263-Demo](https://github.com/sakib570/CVE-2018-1263-Demo)
 
 ### CVE-2018-1270 (2018-04-06)
 
