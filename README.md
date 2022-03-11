@@ -115,6 +115,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit)
 - [michaelklaan/CVE-2022-0847-Dirty-Pipe](https://github.com/michaelklaan/CVE-2022-0847-Dirty-Pipe)
 - [terabitSec/dirtyPipe-automaticRoot](https://github.com/terabitSec/dirtyPipe-automaticRoot)
+- [Greetdawn/CVE-2022-0847-DirtyPipe-](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-)
 
 ### CVE-2022-0853
 - [ByteHackr/CVE-2022-0853](https://github.com/ByteHackr/CVE-2022-0853)
@@ -339,6 +340,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [An0th3r/CVE-2022-22947-exp](https://github.com/An0th3r/CVE-2022-22947-exp)
 - [PaoPaoLong-lab/Spring-CVE-2022-22947-](https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-)
 - [michaelklaan/CVE-2022-22947-Spring-Cloud](https://github.com/michaelklaan/CVE-2022-22947-Spring-Cloud)
+- [hh-hunter/cve-2022-22947-docker](https://github.com/hh-hunter/cve-2022-22947-docker)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -478,6 +480,7 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
 - [VVeakee/CVE-2022-24990-POC](https://github.com/VVeakee/CVE-2022-24990-POC)
+- [VVeakee/CVE-2022-24990-EXP](https://github.com/VVeakee/CVE-2022-24990-EXP)
 
 ### CVE-2022-25018 (2022-02-28)
 
