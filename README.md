@@ -127,7 +127,12 @@ OS Command Injection in GitHub repository part-db/part-db prior to 0.5.11.
 
 - [dskmehra/CVE-2022-0848](https://github.com/dskmehra/CVE-2022-0848)
 
-### CVE-2022-0853
+### CVE-2022-0853 (-)
+
+<code>
+A flaw was found in JBoss-client. The vulnerability occurs due to a memory leak on the JBoss client-side, when using UserTransaction repeatedly and leads to information leakage vulnerability.
+</code>
+
 - [ByteHackr/CVE-2022-0853](https://github.com/ByteHackr/CVE-2022-0853)
 
 ### CVE-2022-20699 (2022-02-10)
@@ -1668,6 +1673,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 - [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
+- [GatoGamer1155/CVE-2021-22204](https://github.com/GatoGamer1155/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -3354,11 +3360,9 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
-- [AssassinUKG/CVE-2021-41773](https://github.com/AssassinUKG/CVE-2021-41773)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
-- [qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773)
 - [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
 - [BabyTeam1024/CVE-2021-41773](https://github.com/BabyTeam1024/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
@@ -4259,6 +4263,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [paulvkitor/log4shellwithlog4j2_13_3](https://github.com/paulvkitor/log4shellwithlog4j2_13_3)
 - [cryst4lliz3/CVE-2021-44228](https://github.com/cryst4lliz3/CVE-2021-44228)
 - [MiguelM001/vulescanjndilookup](https://github.com/MiguelM001/vulescanjndilookup)
+- [Jun-5heng/CVE-2021-44228](https://github.com/Jun-5heng/CVE-2021-44228)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -8160,6 +8165,7 @@ SEOWON INTECH SLC-130 And SLR-120S devices allow Remote Code Execution via the i
 </code>
 
 - [Al1ex/CVE-2020-17456](https://github.com/Al1ex/CVE-2020-17456)
+- [TAPESH-TEAM/CVE-2020-17456-Seowon-SLR-120S42G-RCE-Exploit-Unauthenticated](https://github.com/TAPESH-TEAM/CVE-2020-17456-Seowon-SLR-120S42G-RCE-Exploit-Unauthenticated)
 
 ### CVE-2020-17496 (2020-08-12)
 
@@ -14357,6 +14363,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC)
 - [thpless/CVE-2018-6574](https://github.com/thpless/CVE-2018-6574)
 - [twseptian/CVE-2018-6574](https://github.com/twseptian/CVE-2018-6574)
+- [frarinha/CVE-2018-6574](https://github.com/frarinha/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -15786,6 +15793,7 @@ Grafana 2.x, 3.x, and 4.x before 4.6.4 and 5.x before 5.2.3 allows authenticatio
 </code>
 
 - [u238/grafana-CVE-2018-15727](https://github.com/u238/grafana-CVE-2018-15727)
+- [svnsyn/CVE-2018-15727](https://github.com/svnsyn/CVE-2018-15727)
 
 ### CVE-2018-15832 (2018-09-20)
 
@@ -18542,6 +18550,14 @@ Certain D-Link products are affected by: Buffer Overflow. This affects DIR-880L 
 </code>
 
 - [badnack/d_link_880_bug](https://github.com/badnack/d_link_880_bug)
+
+### CVE-2017-14954 (2017-09-30)
+
+<code>
+The waitid implementation in kernel/exit.c in the Linux kernel through 4.13.4 accesses rusage data structures in unintended cases, which allows local users to obtain sensitive information, and bypass the KASLR protection mechanism, via a crafted system call.
+</code>
+
+- [echo-devim/exploit_linux_kernel4.13](https://github.com/echo-devim/exploit_linux_kernel4.13)
 
 ### CVE-2017-15120 (2018-07-27)
 
