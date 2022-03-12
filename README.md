@@ -127,7 +127,7 @@ OS Command Injection in GitHub repository part-db/part-db prior to 0.5.11.
 
 - [dskmehra/CVE-2022-0848](https://github.com/dskmehra/CVE-2022-0848)
 
-### CVE-2022-0853 (-)
+### CVE-2022-0853 (2022-03-11)
 
 <code>
 A flaw was found in JBoss-client. The vulnerability occurs due to a memory leak on the JBoss client-side, when using UserTransaction repeatedly and leads to information leakage vulnerability.
@@ -3362,7 +3362,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Zeop-CyberSec/apache_normalize_path](https://github.com/Zeop-CyberSec/apache_normalize_path)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
-- [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
 - [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
 - [BabyTeam1024/CVE-2021-41773](https://github.com/BabyTeam1024/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
@@ -3382,6 +3381,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
 - [mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773)
+- [the29a/CVE-2021-41773](https://github.com/the29a/CVE-2021-41773)
 
 ### CVE-2021-41962 (2021-12-16)
 
