@@ -118,6 +118,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [terabitSec/dirtyPipe-automaticRoot](https://github.com/terabitSec/dirtyPipe-automaticRoot)
 - [Greetdawn/CVE-2022-0847-DirtyPipe-](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-)
 - [crusoe112/DirtyPipePython](https://github.com/crusoe112/DirtyPipePython)
+- [arttnba3/CVE-2022-0847](https://github.com/arttnba3/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -3188,6 +3189,7 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
+- [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
 
 ### CVE-2021-40531 (2021-09-06)
 
@@ -4246,7 +4248,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
 - [atlassion/RS4LOGJ-CVE-2021-44228](https://github.com/atlassion/RS4LOGJ-CVE-2021-44228)
-- [eliadbz/log4shell](https://github.com/eliadbz/log4shell)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [arnaudluti/PS-CVE-2021-44228](https://github.com/arnaudluti/PS-CVE-2021-44228)
