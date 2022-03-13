@@ -120,6 +120,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [crusoe112/DirtyPipePython](https://github.com/crusoe112/DirtyPipePython)
 - [arttnba3/CVE-2022-0847](https://github.com/arttnba3/CVE-2022-0847)
 - [AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
+- [sa-infinity8888/Dirty-Pipe-CVE-2022-0847](https://github.com/sa-infinity8888/Dirty-Pipe-CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
