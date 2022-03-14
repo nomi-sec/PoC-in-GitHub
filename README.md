@@ -2622,6 +2622,7 @@ A race condition was addressed with improved state handling. This issue is fixed
 - [nickorlow/CVE-2021-30955-POC](https://github.com/nickorlow/CVE-2021-30955-POC)
 - [verygenericname/CVE-2021-30955-POC-IPA](https://github.com/verygenericname/CVE-2021-30955-POC-IPA)
 - [b1n4r1b01/desc_race](https://github.com/b1n4r1b01/desc_race)
+- [markie-dev/desc_race_A15](https://github.com/markie-dev/desc_race_A15)
 
 ### CVE-2021-31159 (2021-06-16)
 
@@ -3421,7 +3422,6 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/cve-2021-42013-docker-lab](https://github.com/twseptian/cve-2021-42013-docker-lab)
-- [TheLastVvV/CVE-2021-42013](https://github.com/TheLastVvV/CVE-2021-42013)
 - [TheLastVvV/CVE-2021-42013_Reverse-Shell](https://github.com/TheLastVvV/CVE-2021-42013_Reverse-Shell)
 - [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
 - [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
@@ -15592,6 +15592,14 @@ An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.
 </code>
 
 - [shinecome/zip](https://github.com/shinecome/zip)
+
+### CVE-2018-13784 (2018-07-09)
+
+<code>
+PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption in Cookie.php, Rinjdael.php, and Blowfish.php.
+</code>
+
+- [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits)
 
 ### CVE-2018-13797 (2018-07-10)
 
