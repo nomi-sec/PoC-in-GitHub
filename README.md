@@ -122,6 +122,8 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
 - [sa-infinity8888/Dirty-Pipe-CVE-2022-0847](https://github.com/sa-infinity8888/Dirty-Pipe-CVE-2022-0847)
 - [realbatuhan/dirtypipetester](https://github.com/realbatuhan/dirtypipetester)
+- [CYB3RK1D/CVE-2022-0847-POC](https://github.com/CYB3RK1D/CVE-2022-0847-POC)
+- [breachnix/dirty-pipe-poc](https://github.com/breachnix/dirty-pipe-poc)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -314,6 +316,7 @@ HotelDruid v3.0.3 was discovered to contain a remote code execution (RCE) vulner
 </code>
 
 - [0z09e/CVE-2022-22909](https://github.com/0z09e/CVE-2022-22909)
+- [kaal18/CVE-2022-22909](https://github.com/kaal18/CVE-2022-22909)
 
 ### CVE-2022-22919 (2022-01-29)
 
@@ -1284,7 +1287,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034](https://github.com/ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034)
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [Kashiki078/CVE-2021-4034](https://github.com/Kashiki078/CVE-2021-4034)
-- [Nel0x/PWNKITVulnerability](https://github.com/Nel0x/PWNKITVulnerability)
+- [nel0x/PWNKITVulnerability](https://github.com/nel0x/PWNKITVulnerability)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2832,6 +2835,14 @@ The identity authentication bypass vulnerability found in some Dahua products du
 - [dorkerdevil/CVE-2021-33044](https://github.com/dorkerdevil/CVE-2021-33044)
 - [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
 
+### CVE-2021-33193 (2021-08-16)
+
+<code>
+A crafted method sent through HTTP/2 will bypass validation and be forwarded by mod_proxy, which can lead to request splitting or cache poisoning. This issue affects Apache HTTP Server 2.4.17 to 2.4.48.
+</code>
+
+- [jeremy-cxf/CVE-2021-33193](https://github.com/jeremy-cxf/CVE-2021-33193)
+
 ### CVE-2021-33558 (2021-05-27)
 
 <code>
@@ -3168,7 +3179,6 @@ An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can
 A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
 </code>
 
-- [sixpacksecurity/CVE-2021-40438](https://github.com/sixpacksecurity/CVE-2021-40438)
 - [BabyTeam1024/CVE-2021-40438](https://github.com/BabyTeam1024/CVE-2021-40438)
 - [ericmann/apache-cve-poc](https://github.com/ericmann/apache-cve-poc)
 - [pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt)
@@ -3393,6 +3403,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [the29a/CVE-2021-41773](https://github.com/the29a/CVE-2021-41773)
 - [thehackersbrain/CVE-2021-41773](https://github.com/thehackersbrain/CVE-2021-41773)
 - [cryst4lliz3/CVE-2021-41773](https://github.com/cryst4lliz3/CVE-2021-41773)
+- [Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773)
 
 ### CVE-2021-41777
 - [awsassets/CVE-2021-41777](https://github.com/awsassets/CVE-2021-41777)
@@ -3422,7 +3433,6 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/cve-2021-42013-docker-lab](https://github.com/twseptian/cve-2021-42013-docker-lab)
-- [TheLastVvV/CVE-2021-42013_Reverse-Shell](https://github.com/TheLastVvV/CVE-2021-42013_Reverse-Shell)
 - [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
 - [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
 - [xMohamed0/CVE-2021-42013-ApacheRCE](https://github.com/xMohamed0/CVE-2021-42013-ApacheRCE)
@@ -10323,6 +10333,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [j4k0m/CVE-2019-5420](https://github.com/j4k0m/CVE-2019-5420)
 - [mmeza-developer/CVE-2019-5420-RCE](https://github.com/mmeza-developer/CVE-2019-5420-RCE)
 - [CyberSecurityUP/CVE-2019-5420-POC](https://github.com/CyberSecurityUP/CVE-2019-5420-POC)
+- [trickstersec/CVE-2019-5420](https://github.com/trickstersec/CVE-2019-5420)
 
 ### CVE-2019-5427 (2019-04-22)
 
