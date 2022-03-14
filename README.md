@@ -121,6 +121,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [arttnba3/CVE-2022-0847](https://github.com/arttnba3/CVE-2022-0847)
 - [AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
 - [sa-infinity8888/Dirty-Pipe-CVE-2022-0847](https://github.com/sa-infinity8888/Dirty-Pipe-CVE-2022-0847)
+- [realbatuhan/dirtypipetester](https://github.com/realbatuhan/dirtypipetester)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -862,7 +863,6 @@ Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connec
 
 - [SecCoder-Security-Lab/jdbc-sqlxml-xxe](https://github.com/SecCoder-Security-Lab/jdbc-sqlxml-xxe)
 - [cckuailong/CVE-2021-2471](https://github.com/cckuailong/CVE-2021-2471)
-- [DrunkenShells/CVE-2021-2471](https://github.com/DrunkenShells/CVE-2021-2471)
 
 ### CVE-2021-3007 (2021-01-03)
 
@@ -1285,6 +1285,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034](https://github.com/ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034)
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [Kashiki078/CVE-2021-4034](https://github.com/Kashiki078/CVE-2021-4034)
+- [Nel0x/pwnkit-vulnerability](https://github.com/Nel0x/pwnkit-vulnerability)
 
 ### CVE-2021-4043 (2022-02-04)
 
