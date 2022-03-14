@@ -862,7 +862,6 @@ Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connec
 </code>
 
 - [SecCoder-Security-Lab/jdbc-sqlxml-xxe](https://github.com/SecCoder-Security-Lab/jdbc-sqlxml-xxe)
-- [cckuailong/CVE-2021-2471](https://github.com/cckuailong/CVE-2021-2471)
 
 ### CVE-2021-3007 (2021-01-03)
 
@@ -1285,7 +1284,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034](https://github.com/ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034)
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [Kashiki078/CVE-2021-4034](https://github.com/Kashiki078/CVE-2021-4034)
-- [Nel0x/pwnkit-vulnerability](https://github.com/Nel0x/pwnkit-vulnerability)
+- [Nel0x/PWNKITVulnerability](https://github.com/Nel0x/PWNKITVulnerability)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -1703,12 +1702,20 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
 - [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
 - [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
-- [ahmad4fifz/CVE-2021-22205](https://github.com/ahmad4fifz/CVE-2021-22205)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
 - [pizza-power/Golang-CVE-2021-22205-POC](https://github.com/pizza-power/Golang-CVE-2021-22205-POC)
 - [DIVD-NL/GitLab-cve-2021-22205-nse](https://github.com/DIVD-NL/GitLab-cve-2021-22205-nse)
 - [gardenWhy/Gitlab-CVE-2021-22205](https://github.com/gardenWhy/Gitlab-CVE-2021-22205)
 - [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
+- [cryst4lliz3/CVE-2021-22205](https://github.com/cryst4lliz3/CVE-2021-22205)
+
+### CVE-2021-22210 (2021-05-06)
+
+<code>
+An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.2. When querying the repository branches through API, GitLab was ignoring a query parameter and returning a considerable amount of results.
+</code>
+
+- [awsassets/CVE-2021-22210](https://github.com/awsassets/CVE-2021-22210)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -2927,14 +2934,6 @@ Microsoft discovered a remote code execution (RCE) vulnerability in the SolarWin
 
 - [BishopFox/CVE-2021-35211](https://github.com/BishopFox/CVE-2021-35211)
 
-### CVE-2021-35215 (2021-09-01)
-
-<code>
-Insecure deserialization leading to Remote Code Execution was detected in the Orion Platform version 2020.2.5. Authentication is required to exploit this vulnerability.
-</code>
-
-- [Y4er/CVE-2021-35215](https://github.com/Y4er/CVE-2021-35215)
-
 ### CVE-2021-35296 (2021-10-04)
 
 <code>
@@ -2950,6 +2949,14 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 </code>
 
 - [LeoBreaker1411/CVE-2021-35448](https://github.com/LeoBreaker1411/CVE-2021-35448)
+
+### CVE-2021-35587 (2022-01-19)
+
+<code>
+Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: OpenSSO Agent). Supported versions that are affected are 11.1.2.3.0, 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager. Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [antx-code/CVE-2021-35587](https://github.com/antx-code/CVE-2021-35587)
 
 ### CVE-2021-35616 (2021-10-20)
 
@@ -3367,9 +3374,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
-- [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
-- [TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773)
 - [MazX0p/CVE-2021-41773](https://github.com/MazX0p/CVE-2021-41773)
 - [vida00/Scanner-CVE-2021-41773](https://github.com/vida00/Scanner-CVE-2021-41773)
 - [mr-exo/CVE-2021-41773](https://github.com/mr-exo/CVE-2021-41773)
@@ -3377,7 +3382,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
 - [Hydragyrum/CVE-2021-41773-Playground](https://github.com/Hydragyrum/CVE-2021-41773-Playground)
 - [IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit)
-- [ahmad4fifz/CVE-2021-41773](https://github.com/ahmad4fifz/CVE-2021-41773)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
@@ -3387,6 +3391,10 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773)
 - [the29a/CVE-2021-41773](https://github.com/the29a/CVE-2021-41773)
 - [thehackersbrain/CVE-2021-41773](https://github.com/thehackersbrain/CVE-2021-41773)
+- [cryst4lliz3/CVE-2021-41773](https://github.com/cryst4lliz3/CVE-2021-41773)
+
+### CVE-2021-41777
+- [awsassets/CVE-2021-41777](https://github.com/awsassets/CVE-2021-41777)
 
 ### CVE-2021-41962 (2021-12-16)
 
@@ -3412,19 +3420,19 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 </code>
 
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
-- [twseptian/CVE-2021-42013-Docker-Lab](https://github.com/twseptian/CVE-2021-42013-Docker-Lab)
-- [LayarKacaSiber/CVE-2021-42013](https://github.com/LayarKacaSiber/CVE-2021-42013)
+- [twseptian/cve-2021-42013-docker-lab](https://github.com/twseptian/cve-2021-42013-docker-lab)
 - [TheLastVvV/CVE-2021-42013](https://github.com/TheLastVvV/CVE-2021-42013)
 - [TheLastVvV/CVE-2021-42013_Reverse-Shell](https://github.com/TheLastVvV/CVE-2021-42013_Reverse-Shell)
 - [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
 - [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
 - [xMohamed0/CVE-2021-42013-ApacheRCE](https://github.com/xMohamed0/CVE-2021-42013-ApacheRCE)
-- [ahmad4fifz/CVE-2021-42013](https://github.com/ahmad4fifz/CVE-2021-42013)
+- [awsassets/CVE-2021-42013](https://github.com/awsassets/CVE-2021-42013)
 - [asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp](https://github.com/asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp)
 - [rnsss/CVE-2021-42013](https://github.com/rnsss/CVE-2021-42013)
 - [jas9reet/CVE-2021-42013-LAB](https://github.com/jas9reet/CVE-2021-42013-LAB)
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 - [mauricelambert/CVE-2021-42013](https://github.com/mauricelambert/CVE-2021-42013)
+- [cryst4lliz3/CVE-2021-42013](https://github.com/cryst4lliz3/CVE-2021-42013)
 
 ### CVE-2021-42237 (2021-11-05)
 
@@ -3991,7 +3999,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [qingtengyun/cve-2021-44228-qingteng-online-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-online-patch)
 - [tasooshi/horrors-log4shell](https://github.com/tasooshi/horrors-log4shell)
 - [Hydragyrum/evil-rmi-server](https://github.com/Hydragyrum/evil-rmi-server)
-- [twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab](https://github.com/twseptian/Spring-Boot-Log4j-CVE-2021-44228-Docker-Lab)
+- [twseptian/spring-boot-log4j-cve-2021-44228-docker-lab](https://github.com/twseptian/spring-boot-log4j-cve-2021-44228-docker-lab)
 - [OlafHaalstra/log4jcheck](https://github.com/OlafHaalstra/log4jcheck)
 - [psychose-club/Saturn](https://github.com/psychose-club/Saturn)
 - [Panyaprach/Proof-CVE-2021-44228](https://github.com/Panyaprach/Proof-CVE-2021-44228)
@@ -4030,7 +4038,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
 - [LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228)
 - [0xsyr0/Log4Shell](https://github.com/0xsyr0/Log4Shell)
-- [ahmad4fifz/CVE-2021-44228](https://github.com/ahmad4fifz/CVE-2021-44228)
 - [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
 - [zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service](https://github.com/zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service)
 - [manuel-alvarez-alvarez/log4j-cve-2021-44228](https://github.com/manuel-alvarez-alvarez/log4j-cve-2021-44228)
@@ -4265,10 +4272,14 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Ananya-0306/Log-4j-scanner](https://github.com/Ananya-0306/Log-4j-scanner)
 - [micha3lcve/CVE-2021-44228-Mass-RCE](https://github.com/micha3lcve/CVE-2021-44228-Mass-RCE)
 - [paulvkitor/log4shellwithlog4j2_13_3](https://github.com/paulvkitor/log4shellwithlog4j2_13_3)
-- [cryst4lliz3/CVE-2021-44228](https://github.com/cryst4lliz3/CVE-2021-44228)
 - [MiguelM001/vulescanjndilookup](https://github.com/MiguelM001/vulescanjndilookup)
 - [Jun-5heng/CVE-2021-44228](https://github.com/Jun-5heng/CVE-2021-44228)
 - [micha3lcve/LOG4J-mass-rce-CVE-2021-44228](https://github.com/micha3lcve/LOG4J-mass-rce-CVE-2021-44228)
+- [cryst4lliz3/CVE-2021-44228](https://github.com/cryst4lliz3/CVE-2021-44228)
+- [cryst4lliz3/CVE-2021-44228-vuln-app](https://github.com/cryst4lliz3/CVE-2021-44228-vuln-app)
+
+### CVE-2021-44229
+- [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -15581,14 +15592,6 @@ An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.
 </code>
 
 - [shinecome/zip](https://github.com/shinecome/zip)
-
-### CVE-2018-13784 (2018-07-09)
-
-<code>
-PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption in Cookie.php, Rinjdael.php, and Blowfish.php.
-</code>
-
-- [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits)
 
 ### CVE-2018-13797 (2018-07-10)
 
