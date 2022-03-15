@@ -125,6 +125,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [CYB3RK1D/CVE-2022-0847-POC](https://github.com/CYB3RK1D/CVE-2022-0847-POC)
 - [breachnix/dirty-pipe-poc](https://github.com/breachnix/dirty-pipe-poc)
 - [Shotokhan/cve_2022_0847_shellcode](https://github.com/Shotokhan/cve_2022_0847_shellcode)
+- [phuonguno98/CVE-2022-0847](https://github.com/phuonguno98/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -461,6 +462,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 
 - [Mr-xn/CVE-2022-24086](https://github.com/Mr-xn/CVE-2022-24086)
 - [shakeman8/CVE-2022-24086-RCE](https://github.com/shakeman8/CVE-2022-24086-RCE)
+- [k0zulzr/CVE-2022-24086-RCE](https://github.com/k0zulzr/CVE-2022-24086-RCE)
 
 ### CVE-2022-24112 (2022-02-11)
 
@@ -1297,6 +1299,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [Kashiki078/CVE-2021-4034](https://github.com/Kashiki078/CVE-2021-4034)
 - [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
+- [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -1635,7 +1638,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 The vCenter Server contains an arbitrary file upload vulnerability in the Analytics service. A malicious actor with network access to port 443 on vCenter Server may exploit this issue to execute code on vCenter Server by uploading a specially crafted file.
 </code>
 
-- [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
 - [timb-machine-mirrors/CVE-2021-22005](https://github.com/timb-machine-mirrors/CVE-2021-22005)
@@ -4758,6 +4760,14 @@ In reset of NuPlayerDriver.cpp, there is a possible use-after-free due to improp
 </code>
 
 - [pazhanivel07/frameworks_av-10-r33_CVE-2020-0242](https://github.com/pazhanivel07/frameworks_av-10-r33_CVE-2020-0242)
+
+### CVE-2020-0443 (2020-11-10)
+
+<code>
+In LocaleList of LocaleList.java, there is a possible forced reboot due to an uncaught exception. This could lead to local denial of service requiring factory reset to restore with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-152410253
+</code>
+
+- [Supersonic/CVE-2020-0443](https://github.com/Supersonic/CVE-2020-0443)
 
 ### CVE-2020-0551 (2020-03-12)
 
