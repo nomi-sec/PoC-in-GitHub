@@ -2649,6 +2649,7 @@ A race condition was addressed with improved state handling. This issue is fixed
 - [verygenericname/CVE-2021-30955-POC-IPA](https://github.com/verygenericname/CVE-2021-30955-POC-IPA)
 - [b1n4r1b01/desc_race](https://github.com/b1n4r1b01/desc_race)
 - [markie-dev/desc_race_A15](https://github.com/markie-dev/desc_race_A15)
+- [Dylbin/desc_race](https://github.com/Dylbin/desc_race)
 
 ### CVE-2021-31159 (2021-06-16)
 
@@ -3130,6 +3131,14 @@ Remote Desktop Client Remote Code Execution Vulnerability
 
 - [JaneMandy/CVE-2021-38666](https://github.com/JaneMandy/CVE-2021-38666)
 
+### CVE-2021-39165 (2021-08-26)
+
+<code>
+Cachet is an open source status page. With Cachet prior to and including 2.3.18, there is a SQL injection which is in the `SearchableTrait#scopeSearch()`. Attackers without authentication can utilize this vulnerability to exfiltrate sensitive data from the database such as administrator's password and session. The original repository of Cachet &lt;https://github.com/CachetHQ/Cachet&gt; is not active, the stable version 2.3.18 and it's developing 2.4 branch is affected.
+</code>
+
+- [W0rty/CVE-2021-39165](https://github.com/W0rty/CVE-2021-39165)
+
 ### CVE-2021-39316 (2021-08-31)
 
 <code>
@@ -3400,8 +3409,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
-- [MazX0p/CVE-2021-41773](https://github.com/MazX0p/CVE-2021-41773)
-- [vida00/Scanner-CVE-2021-41773](https://github.com/vida00/Scanner-CVE-2021-41773)
 - [mr-exo/CVE-2021-41773](https://github.com/mr-exo/CVE-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
 - [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
@@ -15306,6 +15313,7 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [Yealid/CVE-2018-11235-Git-Submodule-RCE](https://github.com/Yealid/CVE-2018-11235-Git-Submodule-RCE)
 - [j4k0m/CVE-2018-11235](https://github.com/j4k0m/CVE-2018-11235)
 - [twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration](https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration)
+- [SenSecurity/exploit](https://github.com/SenSecurity/exploit)
 
 ### CVE-2018-11236 (2018-05-18)
 
@@ -22825,6 +22833,7 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 - [Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523)
 - [padsalatushal/CVE-2011-2523](https://github.com/padsalatushal/CVE-2011-2523)
 - [whoamins/vsFTPd-2.3.4-exploit](https://github.com/whoamins/vsFTPd-2.3.4-exploit)
+- [PrestaDZ/vsftpd-2.3.4](https://github.com/PrestaDZ/vsftpd-2.3.4)
 
 ### CVE-2011-2894 (2011-10-04)
 
@@ -23407,7 +23416,6 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 - [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
-- [nickvourd/smb-usermap-destroyer](https://github.com/nickvourd/smb-usermap-destroyer)
 - [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
@@ -23551,14 +23559,6 @@ viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sens
 </code>
 
 - [Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure)
-
-### CVE-2005-1125 (2005-04-16)
-
-<code>
-Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded applications, allows attackers to bypass libsafe protection and exploit other vulnerabilities before the _libsafe_die function call is completed.
-</code>
-
-- [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
 
 ### CVE-2005-2428 (2005-08-03)
 
