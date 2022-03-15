@@ -124,6 +124,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [realbatuhan/dirtypipetester](https://github.com/realbatuhan/dirtypipetester)
 - [CYB3RK1D/CVE-2022-0847-POC](https://github.com/CYB3RK1D/CVE-2022-0847-POC)
 - [breachnix/dirty-pipe-poc](https://github.com/breachnix/dirty-pipe-poc)
+- [Shotokhan/cve_2022_0847_shellcode](https://github.com/Shotokhan/cve_2022_0847_shellcode)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -472,6 +473,14 @@ An attacker can abuse the batch-requests plugin to send requests to bypass the I
 - [Udyz/CVE-2022-24112](https://github.com/Udyz/CVE-2022-24112)
 - [Axx8/CVE-2022-24112](https://github.com/Axx8/CVE-2022-24112)
 - [Mah1ndra/CVE-2022-24112](https://github.com/Mah1ndra/CVE-2022-24112)
+
+### CVE-2022-24122 (2022-01-29)
+
+<code>
+kernel/ucount.c in the Linux kernel 5.14 through 5.16.4, when unprivileged user namespaces are enabled, allows a use-after-free and privilege escalation because a ucounts object can outlive its namespace.
+</code>
+
+- [meowmeowxw/CVE-2022-24122](https://github.com/meowmeowxw/CVE-2022-24122)
 
 ### CVE-2022-24124 (2022-01-29)
 
@@ -1287,7 +1296,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034](https://github.com/ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034)
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [Kashiki078/CVE-2021-4034](https://github.com/Kashiki078/CVE-2021-4034)
-- [nel0x/PWNKITVulnerability](https://github.com/nel0x/PWNKITVulnerability)
+- [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
 
 ### CVE-2021-4043 (2022-02-04)
 
