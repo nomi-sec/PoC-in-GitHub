@@ -66,6 +66,14 @@ A flaw was found in KeePass. The vulnerability occurs due to logging the plain t
 
 - [ByteHackr/keepass_poc](https://github.com/ByteHackr/keepass_poc)
 
+### CVE-2022-0778 (2022-03-15)
+
+<code>
+The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).
+</code>
+
+- [drago-96/CVE-2022-0778](https://github.com/drago-96/CVE-2022-0778)
+
 ### CVE-2022-0824 (2022-03-02)
 
 <code>
@@ -23560,6 +23568,14 @@ viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sens
 
 - [Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure](https://github.com/Parcer0/CVE-2005-0603-phpBB-2.0.12-Full-path-disclosure)
 
+### CVE-2005-1125 (2005-04-16)
+
+<code>
+Race condition in libsafe 2.0.16 and earlier, when running in multi-threaded applications, allows attackers to bypass libsafe protection and exploit other vulnerabilities before the _libsafe_die function call is completed.
+</code>
+
+- [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
+
 ### CVE-2005-2428 (2005-08-03)
 
 <code>
@@ -23632,7 +23648,6 @@ distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict acc
 
 - [4n0nym0u5dk/distccd_rce_CVE-2004-2687](https://github.com/4n0nym0u5dk/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
-- [sukraken/distcc_exploit.py](https://github.com/sukraken/distcc_exploit.py)
 
 
 ## 2003
