@@ -58,6 +58,14 @@ A flaw was found in Unzip. The vulnerability occurs during the conversion of a w
 - [nanaao/unzip_poc](https://github.com/nanaao/unzip_poc)
 - [ByteHackr/unzip_poc](https://github.com/ByteHackr/unzip_poc)
 
+### CVE-2022-0543 (2022-02-18)
+
+<code>
+It was discovered, that redis, a persistent key-value database, due to a packaging issue, is prone to a (Debian-specific) Lua sandbox escape, which could result in remote code execution.
+</code>
+
+- [aodsec/CVE-2022-0543](https://github.com/aodsec/CVE-2022-0543)
+
 ### CVE-2022-0725 (2022-03-07)
 
 <code>
@@ -73,6 +81,7 @@ The BN_mod_sqrt() function, which computes a modular square root, contains a bug
 </code>
 
 - [drago-96/CVE-2022-0778](https://github.com/drago-96/CVE-2022-0778)
+- [BobTheShoplifter/CVE-2022-0778-POC](https://github.com/BobTheShoplifter/CVE-2022-0778-POC)
 
 ### CVE-2022-0824 (2022-03-02)
 
@@ -486,6 +495,7 @@ An attacker can abuse the batch-requests plugin to send requests to bypass the I
 - [Udyz/CVE-2022-24112](https://github.com/Udyz/CVE-2022-24112)
 - [Axx8/CVE-2022-24112](https://github.com/Axx8/CVE-2022-24112)
 - [Mah1ndra/CVE-2022-24112](https://github.com/Mah1ndra/CVE-2022-24112)
+- [M4xSec/Apache-APISIX-CVE-2022-24112](https://github.com/M4xSec/Apache-APISIX-CVE-2022-24112)
 
 ### CVE-2022-24122 (2022-01-29)
 
@@ -686,6 +696,9 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 
 - [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
 
+### CVE-2022-26503
+- [sinsinology/CVE-2022-26503](https://github.com/sinsinology/CVE-2022-26503)
+
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
@@ -698,6 +711,15 @@ In p2p_copy_client_info of p2p.c, there is a possible out of bounds write due to
 </code>
 
 - [aemmitt-ns/skeleton](https://github.com/aemmitt-ns/skeleton)
+
+### CVE-2021-0595 (2021-10-06)
+
+<code>
+In lockAllProfileTasks of RootWindowContainer.java, there is a possible way to access the work profile without the profile PIN, after logging in. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11 Android-8.1Android ID: A-177457096
+</code>
+
+- [pazhanivel07/Settings-CVE-2021-0595](https://github.com/pazhanivel07/Settings-CVE-2021-0595)
+- [pazhanivel07/frameworks_base-CVE-2021-0595](https://github.com/pazhanivel07/frameworks_base-CVE-2021-0595)
 
 ### CVE-2021-0928 (2021-12-15)
 
@@ -1376,7 +1398,6 @@ Cross-site scripting vulnerability in EC-CUBE 4.0.0 to 4.0.5 allows a remote att
 Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 and earlier (Movable Type 6 Series), Movable Type Advanced 7 r.5002 and earlier (Movable Type Advanced 7 Series), Movable Type Advanced 6.8.2 and earlier (Movable Type Advanced 6 Series), Movable Type Premium 1.46 and earlier, and Movable Type Premium Advanced 1.46 and earlier allow remote attackers to execute arbitrary OS commands via unspecified vectors. Note that all versions of Movable Type 4.0 or later including unsupported (End-of-Life, EOL) versions are also affected by this vulnerability.
 </code>
 
-- [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
 - [byteofandri/CVE-2021-20837](https://github.com/byteofandri/CVE-2021-20837)
 - [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
 - [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
@@ -1469,6 +1490,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300)
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
+- [Jiang59991/cve-2021-21300](https://github.com/Jiang59991/cve-2021-21300)
 
 ### CVE-2021-21311 (2021-02-11)
 
@@ -1628,6 +1650,14 @@ The vSphere Web Client (FLEX/Flash) contains an unauthorized arbitrary file read
 
 - [Osyanina/westone-CVE-2021-21980-scanner](https://github.com/Osyanina/westone-CVE-2021-21980-scanner)
 
+### CVE-2021-21983 (2021-03-31)
+
+<code>
+Arbitrary file write vulnerability in vRealize Operations Manager API (CVE-2021-21983) prior to 8.4 may allow an authenticated malicious actor with network access to the vRealize Operations Manager API can write files to arbitrary locations on the underlying photon operating system.
+</code>
+
+- [murataydemir/CVE-2021-21983](https://github.com/murataydemir/CVE-2021-21983)
+
 ### CVE-2021-21985 (2021-05-26)
 
 <code>
@@ -1698,7 +1728,6 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [convisolabs/CVE-2021-22204-exiftool](https://github.com/convisolabs/CVE-2021-22204-exiftool)
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
-- [AssassinUKG/CVE-2021-22204](https://github.com/AssassinUKG/CVE-2021-22204)
 - [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
@@ -2595,7 +2624,6 @@ Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote a
 </code>
 
 - [byteofandri/CVE-2021-30573](https://github.com/byteofandri/CVE-2021-30573)
-- [kh4sh3i/CVE-2021-30573](https://github.com/kh4sh3i/CVE-2021-30573)
 
 ### CVE-2021-30632 (2021-10-08)
 
@@ -3417,7 +3445,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
-- [mr-exo/CVE-2021-41773](https://github.com/mr-exo/CVE-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
 - [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
 - [Hydragyrum/CVE-2021-41773-Playground](https://github.com/Hydragyrum/CVE-2021-41773-Playground)
@@ -3673,6 +3700,9 @@ The SyncThru Web Service on Samsung SCX-6x55X printers allows an attacker to gai
 
 ### CVE-2021-42949
 - [dhammon/HotelDruid-CVE-2021-42949](https://github.com/dhammon/HotelDruid-CVE-2021-42949)
+
+### CVE-2021-43008
+- [p0dalirius/CVE-2021-43008-AdminerRead](https://github.com/p0dalirius/CVE-2021-43008-AdminerRead)
 
 ### CVE-2021-43032 (2021-11-03)
 
@@ -10480,6 +10510,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
+- [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
 
 ### CVE-2019-5737 (2019-03-28)
 
