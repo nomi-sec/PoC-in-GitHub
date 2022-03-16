@@ -648,6 +648,14 @@ net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows loca
 
 - [Bonfee/CVE-2022-25636](https://github.com/Bonfee/CVE-2022-25636)
 
+### CVE-2022-25640 (2022-02-23)
+
+<code>
+In wolfSSL before 5.2.0, a TLS 1.3 server cannot properly enforce a requirement for mutual authentication. A client can simply omit the certificate_verify message from the handshake, and never present a certificate.
+</code>
+
+- [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
+
 ### CVE-2022-25943 (2022-03-08)
 
 <code>
@@ -655,6 +663,9 @@ The installer of WPS Office for Windows versions prior to v11.2.0.10258 fails to
 </code>
 
 - [HadiMed/KINGSOFT-WPS-Office-LPE](https://github.com/HadiMed/KINGSOFT-WPS-Office-LPE)
+
+### CVE-2022-25949
+- [tandasat/CVE-2022-25949](https://github.com/tandasat/CVE-2022-25949)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -3191,7 +3202,12 @@ In doRead of SimpleDecodingSource.cpp, there is a possible out of bounds write d
 
 - [marcinguy/CVE-2021-39623](https://github.com/marcinguy/CVE-2021-39623)
 
-### CVE-2021-39685
+### CVE-2021-39685 (2022-03-16)
+
+<code>
+In various setup methods of the USB gadget subsystem, there is a possible out of bounds write due to an incorrect flag check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-210292376References: Upstream kernel
+</code>
+
 - [szymonh/inspector-gadget](https://github.com/szymonh/inspector-gadget)
 
 ### CVE-2021-39863 (2021-09-29)
@@ -9455,6 +9471,9 @@ The dashboard gadgets preference resource of the Atlassian gadgets plugin used i
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
 
+### CVE-2020-256480
+- [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
+
 
 ## 2019
 ### CVE-2019-0053 (2019-07-11)
@@ -14304,6 +14323,7 @@ Integer overflow in computing the required allocation size when instantiating a 
 Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer overflow vulnerability in BootROM Recovery Mode (RCM). An attacker with physical access to the device's USB and the ability to force the device to reboot into RCM could exploit the vulnerability to execute unverified code.
 </code>
 
+- [DavidBuchanan314/NXLoader](https://github.com/DavidBuchanan314/NXLoader)
 - [reswitched/rcm-modchips](https://github.com/reswitched/rcm-modchips)
 - [ChrisFigura/react-tegra-payload-launcher](https://github.com/ChrisFigura/react-tegra-payload-launcher)
 - [austinhartzheim/fusee-gelee](https://github.com/austinhartzheim/fusee-gelee)
@@ -18149,7 +18169,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
-- [incogbyte/laravel-phpunit-rce-masscaner](https://github.com/incogbyte/laravel-phpunit-rce-masscaner)
+- [rodnt/laravel-phpunit-rce-masscaner](https://github.com/rodnt/laravel-phpunit-rce-masscaner)
 
 ### CVE-2017-9934 (2017-07-17)
 
