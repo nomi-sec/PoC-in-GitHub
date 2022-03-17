@@ -14056,6 +14056,7 @@ In iOS before 11.3, tvOS before 11.3, watchOS before 4.3, and macOS before High 
 </code>
 
 - [bazad/x18-leak](https://github.com/bazad/x18-leak)
+- [xigexbh/bazad1](https://github.com/xigexbh/bazad1)
 
 ### CVE-2018-4193 (2018-06-08)
 
