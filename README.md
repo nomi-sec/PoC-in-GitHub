@@ -1344,6 +1344,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Kashiki078/CVE-2021-4034](https://github.com/Kashiki078/CVE-2021-4034)
 - [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
 - [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
+- [Hifumi1337/CVE-2021-4034](https://github.com/Hifumi1337/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2034,7 +2035,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [byteofandri/CVE-2021-26084](https://github.com/byteofandri/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
-- [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
 
