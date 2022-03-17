@@ -145,6 +145,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [githublihaha/DirtyPIPE-CVE-2022-0847](https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847)
 - [phuonguno98/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/phuonguno98/CVE-2022-0847-DirtyPipe-Exploits)
 - [MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker](https://github.com/MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker)
+- [LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits](https://github.com/LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -287,6 +288,9 @@ SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, AB
 
 - [antx-code/CVE-2022-22536](https://github.com/antx-code/CVE-2022-22536)
 
+### CVE-2022-22582
+- [poizon-box/CVE-2022-22582](https://github.com/poizon-box/CVE-2022-22582)
+
 ### CVE-2022-22588
 - [trevorspiniolas/homekitdos](https://github.com/trevorspiniolas/homekitdos)
 
@@ -386,6 +390,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [hh-hunter/cve-2022-22947-docker](https://github.com/hh-hunter/cve-2022-22947-docker)
 - [k3rwin/spring-cloud-gateway-rce](https://github.com/k3rwin/spring-cloud-gateway-rce)
 - [bysinks/CVE-2022-22947](https://github.com/bysinks/CVE-2022-22947)
+- [Wrin9/CVE-2022-22947](https://github.com/Wrin9/CVE-2022-22947)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -496,6 +501,7 @@ An attacker can abuse the batch-requests plugin to send requests to bypass the I
 - [Axx8/CVE-2022-24112](https://github.com/Axx8/CVE-2022-24112)
 - [Mah1ndra/CVE-2022-24112](https://github.com/Mah1ndra/CVE-2022-24112)
 - [M4xSec/Apache-APISIX-CVE-2022-24112](https://github.com/M4xSec/Apache-APISIX-CVE-2022-24112)
+- [kavishkagihan/CVE-2022-24112-POC](https://github.com/kavishkagihan/CVE-2022-24112-POC)
 
 ### CVE-2022-24122 (2022-01-29)
 
