@@ -391,6 +391,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [k3rwin/spring-cloud-gateway-rce](https://github.com/k3rwin/spring-cloud-gateway-rce)
 - [bysinks/CVE-2022-22947](https://github.com/bysinks/CVE-2022-22947)
 - [Wrin9/CVE-2022-22947](https://github.com/Wrin9/CVE-2022-22947)
+- [viemsr/spring_cloud_gateway_memshell](https://github.com/viemsr/spring_cloud_gateway_memshell)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -14513,6 +14514,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [thpless/CVE-2018-6574](https://github.com/thpless/CVE-2018-6574)
 - [twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574)
 - [frarinha/CVE-2018-6574](https://github.com/frarinha/CVE-2018-6574)
+- [dmlino/cve-2018-6574](https://github.com/dmlino/cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -19431,6 +19433,7 @@ The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, an
 </code>
 
 - [bazad/rootsh](https://github.com/bazad/rootsh)
+- [berritus163t/bazad5](https://github.com/berritus163t/bazad5)
 
 ### CVE-2016-2067 (2016-07-10)
 
