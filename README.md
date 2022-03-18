@@ -65,6 +65,7 @@ It was discovered, that redis, a persistent key-value database, due to a packagi
 </code>
 
 - [aodsec/CVE-2022-0543](https://github.com/aodsec/CVE-2022-0543)
+- [Newbee740/REDIS-CVE-2022-0543](https://github.com/Newbee740/REDIS-CVE-2022-0543)
 
 ### CVE-2022-0725 (2022-03-07)
 
@@ -291,7 +292,12 @@ SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, AB
 ### CVE-2022-22582
 - [poizon-box/CVE-2022-22582](https://github.com/poizon-box/CVE-2022-22582)
 
-### CVE-2022-22588
+### CVE-2022-22588 (-)
+
+<code>
+A resource exhaustion issue was addressed with improved input validation. This issue is fixed in iOS 15.2.1 and iPadOS 15.2.1. Processing a maliciously crafted HomeKit accessory name may cause a denial of service.
+</code>
+
 - [trevorspiniolas/homekitdos](https://github.com/trevorspiniolas/homekitdos)
 
 ### CVE-2022-22828 (2022-01-27)
@@ -2722,6 +2728,7 @@ A race condition was addressed with improved state handling. This issue is fixed
 - [b1n4r1b01/desc_race](https://github.com/b1n4r1b01/desc_race)
 - [markie-dev/desc_race_A15](https://github.com/markie-dev/desc_race_A15)
 - [Dylbin/desc_race](https://github.com/Dylbin/desc_race)
+- [GeoSn0w/Pentagram-exploit-tester](https://github.com/GeoSn0w/Pentagram-exploit-tester)
 
 ### CVE-2021-31159 (2021-06-16)
 
@@ -3000,14 +3007,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
 - [jrgdiaz/ProxyShell-CVE-2021-34473](https://github.com/jrgdiaz/ProxyShell-CVE-2021-34473)
-
-### CVE-2021-34486 (2021-08-12)
-
-<code>
-Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26425, CVE-2021-34487.
-</code>
-
-- [b1tg/CVE-2021-34486-exp](https://github.com/b1tg/CVE-2021-34486-exp)
 
 ### CVE-2021-34527 (2021-07-02)
 
@@ -3462,14 +3461,6 @@ The PING function on the TP-Link TL-WR840N EU v5 router with firmware through TL
 </code>
 
 - [ohnonoyesyes/CVE-2021-41653](https://github.com/ohnonoyesyes/CVE-2021-41653)
-
-### CVE-2021-41728 (2021-10-28)
-
-<code>
-Cross Site Scripting (XSS) vulnerability exists in Sourcecodester News247 CMS 1.0 via the search function in articles.
-</code>
-
-- [Dir0x/CVE-2021-41728](https://github.com/Dir0x/CVE-2021-41728)
 
 ### CVE-2021-41730
 - [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
@@ -4466,6 +4457,14 @@ Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases
 </code>
 
 - [AS4mir/CVE-2021-45008](https://github.com/AS4mir/CVE-2021-45008)
+
+### CVE-2021-45010 (2022-03-15)
+
+<code>
+A Path traversal vulnerability in the file upload functionality in tinyfilemanager.php in Tiny File Manager Project's Tiny File Manager &lt;= 2.4.6 allows remote attackers with valid user accounts to upload malicious PHP files to the webroot and achieve code execution on the target server.
+</code>
+
+- [febinrev/CVE-2021-45010-TinyFileManager-Exploit](https://github.com/febinrev/CVE-2021-45010-TinyFileManager-Exploit)
 
 ### CVE-2021-45041 (2021-12-19)
 
@@ -15364,7 +15363,6 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933)
 - [JoSecMx/CVE-2018-10933_Scanner](https://github.com/JoSecMx/CVE-2018-10933_Scanner)
 - [cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933)
-- [Onurhan1337/CVE-2018-10933](https://github.com/Onurhan1337/CVE-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
 
