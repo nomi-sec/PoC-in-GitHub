@@ -678,7 +678,7 @@ The installer of WPS Office for Windows versions prior to v11.2.0.10258 fails to
 
 - [HadiMed/KINGSOFT-WPS-Office-LPE](https://github.com/HadiMed/KINGSOFT-WPS-Office-LPE)
 
-### CVE-2022-25949 (-)
+### CVE-2022-25949 (2022-03-17)
 
 <code>
 The kernel mode driver kwatch3 of KINGSOFT Internet Security 9 Plus Version 2010.06.23.247 fails to properly handle crafted inputs, leading to stack-based buffer overflow.
