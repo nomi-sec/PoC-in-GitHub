@@ -301,6 +301,14 @@ A resource exhaustion issue was addressed with improved input validation. This i
 
 - [trevorspiniolas/homekitdos](https://github.com/trevorspiniolas/homekitdos)
 
+### CVE-2022-22600 (2022-03-18)
+
+<code>
+The issue was addressed with improved permissions logic. This issue is fixed in tvOS 15.4, iOS 15.4 and iPadOS 15.4, macOS Monterey 12.3, watchOS 8.5. A malicious application may be able to bypass certain Privacy preferences.
+</code>
+
+- [acheong08/MSF-screenrecord-on-MacOS](https://github.com/acheong08/MSF-screenrecord-on-MacOS)
+
 ### CVE-2022-22828 (2022-01-27)
 
 <code>
@@ -557,6 +565,7 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
 - [VVeakee/CVE-2022-24990-POC](https://github.com/VVeakee/CVE-2022-24990-POC)
+- [VVeakee/CVE-2022-24990-EXP](https://github.com/VVeakee/CVE-2022-24990-EXP)
 
 ### CVE-2022-25018 (2022-02-28)
 
@@ -741,6 +750,14 @@ Deserialization of untrusted data in Veeam Agent for Windows 2.0, 2.1, 2.2, 3.0.
 </code>
 
 - [sinsinology/CVE-2022-26503](https://github.com/sinsinology/CVE-2022-26503)
+
+### CVE-2022-27226 (2022-03-18)
+
+<code>
+A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a threat actor to create a crontab entry in the router administration panel. The cronjob will consequently execute the entry on the threat actor's defined interval, leading to remote code execution, allowing the threat actor to gain filesystem access. In addition, if the router's default credentials aren't rotated or a threat actor discovers valid credentials, remote code execution can be achieved without user interaction.
+</code>
+
+- [SakuraSamuraii/ez-iRZ](https://github.com/SakuraSamuraii/ez-iRZ)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -2477,6 +2494,7 @@ Hyper-V Remote Code Execution Vulnerability
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
 - [bluefrostsecurity/CVE-2021-28476](https://github.com/bluefrostsecurity/CVE-2021-28476)
 - [australeo/CVE-2021-28476](https://github.com/australeo/CVE-2021-28476)
+- [2273852279qqs/0vercl0k](https://github.com/2273852279qqs/0vercl0k)
 
 ### CVE-2021-28480 (2021-04-13)
 
@@ -3306,7 +3324,6 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 </code>
 
 - [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
-- [KaLendsi/CVE-2021-40449-Exploit](https://github.com/KaLendsi/CVE-2021-40449-Exploit)
 - [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
@@ -19890,6 +19907,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC)
 - [ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow)
 - [imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847)
+- [vinspiert/scumjrs](https://github.com/vinspiert/scumjrs)
 
 ### CVE-2016-5345 (2018-01-22)
 
