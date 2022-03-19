@@ -147,6 +147,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [phuonguno98/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/phuonguno98/CVE-2022-0847-DirtyPipe-Exploits)
 - [MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker](https://github.com/MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker)
 - [LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits](https://github.com/LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits)
+- [LudovicPatho/CVE-2022-0847](https://github.com/LudovicPatho/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -292,7 +293,7 @@ SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, AB
 ### CVE-2022-22582
 - [poizon-box/CVE-2022-22582](https://github.com/poizon-box/CVE-2022-22582)
 
-### CVE-2022-22588 (-)
+### CVE-2022-22588 (2022-03-18)
 
 <code>
 A resource exhaustion issue was addressed with improved input validation. This issue is fixed in iOS 15.2.1 and iPadOS 15.2.1. Processing a maliciously crafted HomeKit accessory name may cause a denial of service.
