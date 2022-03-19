@@ -38,6 +38,9 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
+### CVE-2022-0337
+- [Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera](https://github.com/Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera)
+
 ### CVE-2022-0492 (2022-03-03)
 
 <code>
@@ -3493,7 +3496,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
-- [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
 - [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
