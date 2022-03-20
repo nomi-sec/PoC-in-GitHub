@@ -782,6 +782,9 @@ A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a t
 
 - [SakuraSamuraii/ez-iRZ](https://github.com/SakuraSamuraii/ez-iRZ)
 
+### CVE-2022-27251
+- [TheCyberGeek/CVE-2022-27251](https://github.com/TheCyberGeek/CVE-2022-27251)
+
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
@@ -1116,9 +1119,9 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
 - [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
-- [litt1eb0yy/CVE-2021-3156](https://github.com/litt1eb0yy/CVE-2021-3156)
 - [ret2basic/sudoscience](https://github.com/ret2basic/sudoscience)
 - [puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156)
+- [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
 - [GatoGamer1155/CVE-2021-3156](https://github.com/GatoGamer1155/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 
@@ -18248,6 +18251,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
 - [rodnt/laravel-phpunit-rce-masscaner](https://github.com/rodnt/laravel-phpunit-rce-masscaner)
+- [akr3ch/CVE-2017-9841](https://github.com/akr3ch/CVE-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
