@@ -524,6 +524,9 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [shakeman8/CVE-2022-24086-RCE](https://github.com/shakeman8/CVE-2022-24086-RCE)
 - [k0zulzr/CVE-2022-24086-RCE](https://github.com/k0zulzr/CVE-2022-24086-RCE)
 
+### CVE-2022-24087
+- [Sam00rx/CVE-2022-24087](https://github.com/Sam00rx/CVE-2022-24087)
+
 ### CVE-2022-24112 (2022-02-11)
 
 <code>
@@ -553,6 +556,9 @@ The query API in Casdoor before 1.13.1 has a SQL injection vulnerability related
 </code>
 
 - [ColdFusionX/CVE-2022-24124](https://github.com/ColdFusionX/CVE-2022-24124)
+
+### CVE-2022-24125
+- [tremwil/ds3-nrssr-rce](https://github.com/tremwil/ds3-nrssr-rce)
 
 ### CVE-2022-24348 (2022-02-04)
 
