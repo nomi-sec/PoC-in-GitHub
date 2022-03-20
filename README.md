@@ -540,6 +540,7 @@ An attacker can abuse the batch-requests plugin to send requests to bypass the I
 - [Mah1ndra/CVE-2022-24112](https://github.com/Mah1ndra/CVE-2022-24112)
 - [M4xSec/Apache-APISIX-CVE-2022-24112](https://github.com/M4xSec/Apache-APISIX-CVE-2022-24112)
 - [kavishkagihan/CVE-2022-24112-POC](https://github.com/kavishkagihan/CVE-2022-24112-POC)
+- [twseptian/cve-2022-24112](https://github.com/twseptian/cve-2022-24112)
 
 ### CVE-2022-24122 (2022-01-29)
 
