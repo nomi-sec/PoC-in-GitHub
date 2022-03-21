@@ -87,6 +87,14 @@ The BN_mod_sqrt() function, which computes a modular square root, contains a bug
 - [drago-96/CVE-2022-0778](https://github.com/drago-96/CVE-2022-0778)
 - [BobTheShoplifter/CVE-2022-0778-POC](https://github.com/BobTheShoplifter/CVE-2022-0778-POC)
 
+### CVE-2022-0811 (2022-03-16)
+
+<code>
+A flaw was found in CRI-O in the way it set kernel options for a pod. This issue allows anyone with rights to deploy a pod on a Kubernetes cluster that uses the CRI-O runtime to achieve a container escape and arbitrary code execution as root on the cluster node, where the malicious pod was deployed.
+</code>
+
+- [spiarh/webhook-cve-2022-0811](https://github.com/spiarh/webhook-cve-2022-0811)
+
 ### CVE-2022-0824 (2022-03-02)
 
 <code>
@@ -1392,7 +1400,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [Ph4nt0mh4x0r/auto-CVE-2021-4034](https://github.com/Ph4nt0mh4x0r/auto-CVE-2021-4034)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
-- [ravindubw/CVE-2021-4034](https://github.com/ravindubw/CVE-2021-4034)
+- [rvizz/CVE-2021-4034](https://github.com/rvizz/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
@@ -19941,6 +19949,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow)
 - [imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847)
 - [vinspiert/scumjrs](https://github.com/vinspiert/scumjrs)
+- [gurpreetsinghsaluja/dirtycow](https://github.com/gurpreetsinghsaluja/dirtycow)
 
 ### CVE-2016-5345 (2018-01-22)
 
@@ -20704,6 +20713,8 @@ Win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Vist
 </code>
 
 - [hfiref0x/CVE-2015-1701](https://github.com/hfiref0x/CVE-2015-1701)
+- [Anonymous-Family/CVE-2015-1701](https://github.com/Anonymous-Family/CVE-2015-1701)
+- [Anonymous-Family/CVE-2015-1701-download](https://github.com/Anonymous-Family/CVE-2015-1701-download)
 
 ### CVE-2015-1769 (2015-08-14)
 
