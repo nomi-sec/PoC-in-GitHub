@@ -151,6 +151,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker](https://github.com/MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker)
 - [LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits](https://github.com/LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits)
 - [LudovicPatho/CVE-2022-0847](https://github.com/LudovicPatho/CVE-2022-0847)
+- [DanaEpp/pwncat_dirtypipe](https://github.com/DanaEpp/pwncat_dirtypipe)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -1291,7 +1292,6 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 </code>
 
-- [mutur4/Hacking-Scripts](https://github.com/mutur4/Hacking-Scripts)
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
 - [lourkeur/cve-2021-4034-playground](https://github.com/lourkeur/cve-2021-4034-playground)
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
@@ -3521,6 +3521,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
+- [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
 - [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
@@ -22172,6 +22173,7 @@ active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.
 - [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
 - [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
+- [Atreb92/CVE-2013-0156](https://github.com/Atreb92/CVE-2013-0156)
 
 ### CVE-2013-0229 (2013-01-31)
 
