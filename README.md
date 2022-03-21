@@ -1330,7 +1330,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [moldabekov/CVE-2021-4034](https://github.com/moldabekov/CVE-2021-4034)
 - [jostmart/-CVE-2021-4034](https://github.com/jostmart/-CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
-- [4n0nym0u5dk/CVE-2021-4034](https://github.com/4n0nym0u5dk/CVE-2021-4034)
+- [k4u5h41/CVE-2021-4034](https://github.com/k4u5h41/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [san3ncrypt3d/CVE-2021-4034-POC](https://github.com/san3ncrypt3d/CVE-2021-4034-POC)
 - [fdellwing/CVE-2021-4034](https://github.com/fdellwing/CVE-2021-4034)
@@ -10613,7 +10613,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
-- [4n0nym0u5dk/CVE-2019-5736](https://github.com/4n0nym0u5dk/CVE-2019-5736)
+- [k4u5h41/CVE-2019-5736](https://github.com/k4u5h41/CVE-2019-5736)
 - [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
@@ -10786,7 +10786,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 - [N3H4L/CVE-2019-6447](https://github.com/N3H4L/CVE-2019-6447)
 - [sidhawkss/ES-File-Explorer-Vulnerability](https://github.com/sidhawkss/ES-File-Explorer-Vulnerability)
-- [4n0nym0u5dk/CVE-2019-6447](https://github.com/4n0nym0u5dk/CVE-2019-6447)
+- [k4u5h41/CVE-2019-6447](https://github.com/k4u5h41/CVE-2019-6447)
 - [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
 - [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
@@ -11183,7 +11183,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 </code>
 
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
-- [4n0nym0u5dk/CVE-2019-9053](https://github.com/4n0nym0u5dk/CVE-2019-9053)
+- [k4u5h41/CVE-2019-9053](https://github.com/k4u5h41/CVE-2019-9053)
 - [padsalatushal/CVE-2019-9053](https://github.com/padsalatushal/CVE-2019-9053)
 - [Marbocatcat/46635.py](https://github.com/Marbocatcat/46635.py)
 - [4nner/CVE-2019-9053](https://github.com/4nner/CVE-2019-9053)
@@ -12343,7 +12343,7 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287)
 - [edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-)
 - [DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights](https://github.com/DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights)
-- [4n0nym0u5dk/CVE-2019-14287](https://github.com/4n0nym0u5dk/CVE-2019-14287)
+- [k4u5h41/CVE-2019-14287](https://github.com/k4u5h41/CVE-2019-14287)
 - [Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287](https://github.com/Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287)
 
 ### CVE-2019-14314 (2019-08-27)
@@ -12705,7 +12705,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
-- [4n0nym0u5dk/CVE-2019-16278](https://github.com/4n0nym0u5dk/CVE-2019-16278)
+- [k4u5h41/CVE-2019-16278](https://github.com/k4u5h41/CVE-2019-16278)
 
 ### CVE-2019-16279 (2019-10-14)
 
@@ -16198,7 +16198,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [NeKroFR/CVE-2018-16763](https://github.com/NeKroFR/CVE-2018-16763)
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
 - [SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/SlizBinksman/THM-Vulnerability_Capstone-CVE-2018-16763)
-- [4n0nym0u5dk/CVE-2018-16763](https://github.com/4n0nym0u5dk/CVE-2018-16763)
+- [k4u5h41/CVE-2018-16763](https://github.com/k4u5h41/CVE-2018-16763)
 - [BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust)
 - [NaturalT314/CVE-2018-16763](https://github.com/NaturalT314/CVE-2018-16763)
 
@@ -16217,6 +16217,14 @@ nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementatio
 </code>
 
 - [flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5)
+
+### CVE-2018-16845 (2018-11-07)
+
+<code>
+nginx before versions 1.15.6, 1.14.1 has a vulnerability in the ngx_http_mp4_module, which might allow an attacker to cause infinite loop in a worker process, cause a worker process crash, or might result in worker process memory disclosure by using a specially crafted mp4 file. The issue only affects nginx if it is built with the ngx_http_mp4_module (the module is not built by default) and the .mp4. directive is used in the configuration file. Further, the attack is only possible if an attacker is able to trigger processing of a specially crafted mp4 file with the ngx_http_mp4_module.
+</code>
+
+- [T4t4ru/CVE-2018-16845](https://github.com/T4t4ru/CVE-2018-16845)
 
 ### CVE-2018-16854 (2018-11-26)
 
@@ -16922,7 +16930,7 @@ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 
 
 - [valarauco/wannafind](https://github.com/valarauco/wannafind)
 - [NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker)
-- [4n0nym0u5dk/MS17-010_CVE-2017-0143](https://github.com/4n0nym0u5dk/MS17-010_CVE-2017-0143)
+- [k4u5h41/MS17-010_CVE-2017-0143](https://github.com/k4u5h41/MS17-010_CVE-2017-0143)
 
 ### CVE-2017-0144 (2017-03-16)
 
@@ -17746,7 +17754,7 @@ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in In
 - [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
-- [4n0nym0u5dk/CVE-2017-7269](https://github.com/4n0nym0u5dk/CVE-2017-7269)
+- [k4u5h41/CVE-2017-7269](https://github.com/k4u5h41/CVE-2017-7269)
 
 ### CVE-2017-7374 (2017-03-31)
 
@@ -20695,8 +20703,8 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
 - [limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635)
-- [4n0nym0u5dk/CVE-2015-1635-POC](https://github.com/4n0nym0u5dk/CVE-2015-1635-POC)
-- [4n0nym0u5dk/CVE-2015-1635](https://github.com/4n0nym0u5dk/CVE-2015-1635)
+- [k4u5h41/CVE-2015-1635-POC](https://github.com/k4u5h41/CVE-2015-1635-POC)
+- [k4u5h41/CVE-2015-1635](https://github.com/k4u5h41/CVE-2015-1635)
 
 ### CVE-2015-1641 (2015-04-14)
 
@@ -21160,7 +21168,7 @@ The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY
 The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
 </code>
 
-- [4n0nym0u5dk/CVE-2015-6668](https://github.com/4n0nym0u5dk/CVE-2015-6668)
+- [k4u5h41/CVE-2015-6668](https://github.com/k4u5h41/CVE-2015-6668)
 
 ### CVE-2015-6835 (2016-05-16)
 
@@ -22912,7 +22920,7 @@ The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and S
 </code>
 
 - [Madusanka99/OHTS](https://github.com/Madusanka99/OHTS)
-- [4n0nym0u5dk/CVE-2011-1249](https://github.com/4n0nym0u5dk/CVE-2011-1249)
+- [k4u5h41/CVE-2011-1249](https://github.com/k4u5h41/CVE-2011-1249)
 
 ### CVE-2011-1473 (2012-06-16)
 
@@ -23336,7 +23344,7 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 </code>
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
-- [4n0nym0u5dk/CVE-2009-2265](https://github.com/4n0nym0u5dk/CVE-2009-2265)
+- [k4u5h41/CVE-2009-2265](https://github.com/k4u5h41/CVE-2009-2265)
 - [0zvxr/CVE-2009-2265](https://github.com/0zvxr/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
@@ -23470,7 +23478,7 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 </code>
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
-- [4n0nym0u5dk/MS08_067_CVE-2008-4250](https://github.com/4n0nym0u5dk/MS08_067_CVE-2008-4250)
+- [k4u5h41/MS08_067_CVE-2008-4250](https://github.com/k4u5h41/MS08_067_CVE-2008-4250)
 
 ### CVE-2008-4609 (2008-10-20)
 
@@ -23584,7 +23592,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster)
 - [cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447)
 - [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
-- [4n0nym0u5dk/usermap_script_CVE-2007-2447](https://github.com/4n0nym0u5dk/usermap_script_CVE-2007-2447)
+- [k4u5h41/usermap_script_CVE-2007-2447](https://github.com/k4u5h41/usermap_script_CVE-2007-2447)
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 - [xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447)
 - [SamHackingArticles/CVE-2007-2447](https://github.com/SamHackingArticles/CVE-2007-2447)
@@ -23797,7 +23805,7 @@ Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote a
 distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
 </code>
 
-- [4n0nym0u5dk/distccd_rce_CVE-2004-2687](https://github.com/4n0nym0u5dk/distccd_rce_CVE-2004-2687)
+- [k4u5h41/distccd_rce_CVE-2004-2687](https://github.com/k4u5h41/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
 
 
