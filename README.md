@@ -102,6 +102,7 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 </code>
 
 - [faisalfs10x/Webmin-CVE-2022-0824-revshell](https://github.com/faisalfs10x/Webmin-CVE-2022-0824-revshell)
+- [cryst4lliz3/CVE-2022-0824](https://github.com/cryst4lliz3/CVE-2022-0824)
 
 ### CVE-2022-0847 (2022-03-07)
 
