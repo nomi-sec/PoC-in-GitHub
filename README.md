@@ -419,6 +419,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [bysinks/CVE-2022-22947](https://github.com/bysinks/CVE-2022-22947)
 - [Wrin9/CVE-2022-22947](https://github.com/Wrin9/CVE-2022-22947)
 - [viemsr/spring_cloud_gateway_memshell](https://github.com/viemsr/spring_cloud_gateway_memshell)
+- [Enokiy/cve-2022-22947-springcloud-gateway](https://github.com/Enokiy/cve-2022-22947-springcloud-gateway)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -3592,7 +3593,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 Sitecore XP 7.5 Initial Release to Sitecore XP 8.2 Update-7 is vulnerable to an insecure deserialization attack where it is possible to achieve remote command execution on the machine. No authentication or special configuration is required to exploit this vulnerability.
 </code>
 
-- [PinkDev1/CVE-2021-42237](https://github.com/PinkDev1/CVE-2021-42237)
+- [ItsIgnacioPortal/CVE-2021-42237](https://github.com/ItsIgnacioPortal/CVE-2021-42237)
 
 ### CVE-2021-42278 (2021-11-09)
 
@@ -6105,6 +6106,7 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
 - [ulexec/ChromeSHELFLoader](https://github.com/ulexec/ChromeSHELFLoader)
+- [SivaPriyaRanganatha/CVE-2020-6418](https://github.com/SivaPriyaRanganatha/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-20)
 
@@ -9555,6 +9557,14 @@ The dashboard gadgets preference resource of the Atlassian gadgets plugin used i
 </code>
 
 - [f4rber/CVE-2020-36287](https://github.com/f4rber/CVE-2020-36287)
+
+### CVE-2020-36518 (2022-03-11)
+
+<code>
+jackson-databind before 2.13.0 allows a Java StackOverflow exception and denial of service via a large depth of nested objects.
+</code>
+
+- [ghillert/boot-jackson-cve](https://github.com/ghillert/boot-jackson-cve)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -19082,6 +19092,14 @@ An XSS vulnerability was discovered in noVNC before 0.6.2 in which the remote VN
 
 ### CVE-2017-1000000
 - [smythtech/DWF-CVE-2017-1000000](https://github.com/smythtech/DWF-CVE-2017-1000000)
+
+### CVE-2017-1000004 (2017-07-13)
+
+<code>
+ATutor version 2.2.1 and earlier are vulnerable to a SQL injection in the Assignment Dropbox, BasicLTI, Blog Post, Blog, Group Course Email, Course Alumni, Course Enrolment, Group Membership, Course unenrolment, Course Enrolment List Search, Glossary, Social Group Member Search, Social Friend Search, Social Group Search, File Comment, Gradebook Test Title, User Group Membership, Inbox/Sent Items, Sent Messages, Links, Photo Album, Poll, Social Application, Social Profile, Test, Content Menu, Auto-Login, and Gradebook components resulting in information disclosure, database modification, or potential code execution.
+</code>
+
+- [yazan828/CVE-2017-1000004](https://github.com/yazan828/CVE-2017-1000004)
 
 ### CVE-2017-1000083 (2017-09-05)
 
