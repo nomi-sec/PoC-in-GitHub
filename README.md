@@ -600,6 +600,7 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
 - [VVeakee/CVE-2022-24990-POC](https://github.com/VVeakee/CVE-2022-24990-POC)
 - [VVeakee/CVE-2022-24990-EXP](https://github.com/VVeakee/CVE-2022-24990-EXP)
+- [0xf4n9x/CVE-2022-24990](https://github.com/0xf4n9x/CVE-2022-24990)
 - [lishang520/CVE-2022-24990](https://github.com/lishang520/CVE-2022-24990)
 
 ### CVE-2022-25018 (2022-02-28)
@@ -3140,7 +3141,6 @@ A command injection vulnerability in the web server of some Hikvision product. D
 </code>
 
 - [rabbitsafe/CVE-2021-36260](https://github.com/rabbitsafe/CVE-2021-36260)
-- [Aiminsun/CVE-2021-36260](https://github.com/Aiminsun/CVE-2021-36260)
 - [TaroballzChen/CVE-2021-36260-metasploit](https://github.com/TaroballzChen/CVE-2021-36260-metasploit)
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 
@@ -4776,6 +4776,14 @@ D-Link DSL-2730E CT-20131125 devices allow XSS via the username parameter to the
 </code>
 
 - [g-rubert/CVE-2021-46108](https://github.com/g-rubert/CVE-2021-46108)
+
+### CVE-2021-46398 (2022-02-04)
+
+<code>
+A Cross-Site Request Forgery vulnerability exists in Filebrowser &lt; 2.18.0 that allows attackers to create a backdoor user with admin privilege and get access to the filesystem via a malicious HTML webpage that is sent to the victim. An admin can run commands using the FileBrowser and hence it leads to RCE.
+</code>
+
+- [febinrev/CVE-2021-46398_Chamilo-LMS-RCE](https://github.com/febinrev/CVE-2021-46398_Chamilo-LMS-RCE)
 
 ### CVE-2021-46702 (2022-02-25)
 
