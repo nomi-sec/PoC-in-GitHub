@@ -3531,7 +3531,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
-- [corelight/CVE-2021-41773](https://github.com/corelight/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
 - [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
@@ -3873,6 +3872,14 @@ In Canon LBP223 printers, the System Manager Mode login does not require an acco
 </code>
 
 - [cxaqhq/CVE-2021-43471](https://github.com/cxaqhq/CVE-2021-43471)
+
+### CVE-2021-43530 (2021-12-08)
+
+<code>
+A Universal XSS vulnerability was present in Firefox for Android resulting from improper sanitization when processing a URL scanned from a QR code. *This bug only affects Firefox for Android. Other operating systems are unaffected.*. This vulnerability affects Firefox &lt; 94.
+</code>
+
+- [hfh86/CVE-2021-43530-UXSS-On-QRcode-Reader-](https://github.com/hfh86/CVE-2021-43530-UXSS-On-QRcode-Reader-)
 
 ### CVE-2021-43557 (2021-11-22)
 
