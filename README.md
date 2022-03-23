@@ -1434,6 +1434,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
 - [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
 - [Hifumi1337/CVE-2021-4034](https://github.com/Hifumi1337/CVE-2021-4034)
+- [mtthwstffrd/berdav-CVE-2021-4034](https://github.com/mtthwstffrd/berdav-CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -3335,7 +3336,6 @@ An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can
 A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
 </code>
 
-- [BabyTeam1024/CVE-2021-40438](https://github.com/BabyTeam1024/CVE-2021-40438)
 - [ericmann/apache-cve-poc](https://github.com/ericmann/apache-cve-poc)
 - [pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt)
 
@@ -6847,6 +6847,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 
 - [threedr3am/tomcat-cluster-session-sync-exp](https://github.com/threedr3am/tomcat-cluster-session-sync-exp)
 - [masahiro331/CVE-2020-9484](https://github.com/masahiro331/CVE-2020-9484)
+- [seanachao/CVE-2020-9484](https://github.com/seanachao/CVE-2020-9484)
 - [IdealDreamLast/CVE-2020-9484](https://github.com/IdealDreamLast/CVE-2020-9484)
 - [qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484)
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
@@ -14600,7 +14601,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Devang-Solanki/CVE-2018-6574](https://github.com/Devang-Solanki/CVE-2018-6574)
 - [ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574)
 - [imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC)
-- [thpless/CVE-2018-6574](https://github.com/thpless/CVE-2018-6574)
 - [twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574)
 - [frarinha/CVE-2018-6574](https://github.com/frarinha/CVE-2018-6574)
 - [dmlino/cve-2018-6574](https://github.com/dmlino/cve-2018-6574)
