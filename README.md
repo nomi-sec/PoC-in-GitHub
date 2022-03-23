@@ -19531,6 +19531,7 @@ The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, an
 </code>
 
 - [bazad/flow_divert-heap-overflow](https://github.com/bazad/flow_divert-heap-overflow)
+- [domain9065v/bazad3](https://github.com/domain9065v/bazad3)
 
 ### CVE-2016-1828 (2016-05-20)
 
