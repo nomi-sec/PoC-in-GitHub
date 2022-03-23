@@ -798,6 +798,9 @@ A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a t
 ### CVE-2022-27251
 - [TheCyberGeek/CVE-2022-27251](https://github.com/TheCyberGeek/CVE-2022-27251)
 
+### CVE-2022-27254
+- [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
+
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
