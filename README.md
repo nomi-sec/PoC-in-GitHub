@@ -798,7 +798,12 @@ A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a t
 ### CVE-2022-27251
 - [TheCyberGeek/CVE-2022-27251](https://github.com/TheCyberGeek/CVE-2022-27251)
 
-### CVE-2022-27254
+### CVE-2022-27254 (2022-03-23)
+
+<code>
+The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal for each door-open request, which allows for a replay attack, a related issue to CVE-2019-20626.
+</code>
+
 - [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
 
 ### CVE-2022-31166
