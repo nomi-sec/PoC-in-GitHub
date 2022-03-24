@@ -178,6 +178,9 @@ A flaw was found in JBoss-client. The vulnerability occurs due to a memory leak 
 
 - [ByteHackr/CVE-2022-0853](https://github.com/ByteHackr/CVE-2022-0853)
 
+### CVE-2022-10249
+- [buff07/CVE-2022-10249](https://github.com/buff07/CVE-2022-10249)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -1411,7 +1414,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [Ph4nt0mh4x0r/auto-CVE-2021-4034](https://github.com/Ph4nt0mh4x0r/auto-CVE-2021-4034)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
-- [rvizz/CVE-2021-4034](https://github.com/rvizz/CVE-2021-4034)
+- [rvizw/CVE-2021-4034](https://github.com/rvizw/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
@@ -1851,7 +1854,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 </code>
 
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
-- [r0eXpeR/CVE-2021-22205](https://github.com/r0eXpeR/CVE-2021-22205)
 - [antx-code/CVE-2021-22205](https://github.com/antx-code/CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [whwlsfb/CVE-2021-22205](https://github.com/whwlsfb/CVE-2021-22205)
@@ -4478,6 +4480,14 @@ When running Apache Cassandra with the following configuration: enable_user_defi
 </code>
 
 - [QHpix/CVE-2021-44521](https://github.com/QHpix/CVE-2021-44521)
+
+### CVE-2021-44529 (2021-12-08)
+
+<code>
+A code injection vulnerability in the Ivanti EPM Cloud Services Appliance (CSA) allows an unauthenticated user to execute arbitrary code with limited permissions (nobody).
+</code>
+
+- [jkana/CVE-2021-44529](https://github.com/jkana/CVE-2021-44529)
 
 ### CVE-2021-44593 (2022-01-21)
 
