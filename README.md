@@ -3709,7 +3709,7 @@ An issue was discovered in the Bidirectional Algorithm in the Unicode Specificat
 A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Online Event Booking and Reservation System in PHP/MySQL via the Holiday reason parameter. An attacker can leverage this vulnerability in order to run javascript commands on the web server surfers behalf, which can lead to cookie stealing and more.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42662](https://github.com/TheHackingRabbi/CVE-2021-42662)
+- [0xDeku/CVE-2021-42662](https://github.com/0xDeku/CVE-2021-42662)
 
 ### CVE-2021-42663 (2021-11-05)
 
@@ -3717,7 +3717,7 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Onlin
 An HTML injection vulnerability exists in Sourcecodester Online Event Booking and Reservation System in PHP/MySQL via the msg parameter to /event-management/index.php. An attacker can leverage this vulnerability in order to change the visibility of the website. Once the target user clicks on a given link he will display the content of the HTML code of the attacker's choice.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42663](https://github.com/TheHackingRabbi/CVE-2021-42663)
+- [0xDeku/CVE-2021-42663](https://github.com/0xDeku/CVE-2021-42663)
 
 ### CVE-2021-42664 (2021-11-05)
 
@@ -3725,7 +3725,7 @@ An HTML injection vulnerability exists in Sourcecodester Online Event Booking an
 A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engineers Online Portal in PHP via the (1) Quiz title and (2) quiz description parameters to add_quiz.php. An attacker can leverage this vulnerability in order to run javascript commands on the web server surfers behalf, which can lead to cookie stealing and more.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42664](https://github.com/TheHackingRabbi/CVE-2021-42664)
+- [0xDeku/CVE-2021-42664](https://github.com/0xDeku/CVE-2021-42664)
 
 ### CVE-2021-42665 (2021-11-05)
 
@@ -3733,7 +3733,7 @@ A Stored Cross Site Scripting (XSS) Vulneraibiilty exists in Sourcecodester Engi
 An SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the login form inside of index.php, which can allow an attacker to bypass authentication.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42665](https://github.com/TheHackingRabbi/CVE-2021-42665)
+- [0xDeku/CVE-2021-42665](https://github.com/0xDeku/CVE-2021-42665)
 
 ### CVE-2021-42666 (2021-11-05)
 
@@ -3741,7 +3741,7 @@ An SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal 
 A SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the id parameter to quiz_question.php, which could let a malicious user extract sensitive data from the web server and in some cases use this vulnerability in order to get a remote code execution on the remote web server.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42666](https://github.com/TheHackingRabbi/CVE-2021-42666)
+- [0xDeku/CVE-2021-42666](https://github.com/0xDeku/CVE-2021-42666)
 
 ### CVE-2021-42667 (2021-11-05)
 
@@ -3749,7 +3749,7 @@ A SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal i
 A SQL Injection vulnerability exists in Sourcecodester Online Event Booking and Reservation System in PHP in event-management/views. An attacker can leverage this vulnerability in order to manipulate the sql query performed. As a result he can extract sensitive data from the web server and in some cases he can use this vulnerability in order to get a remote code execution on the remote web server.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42667](https://github.com/TheHackingRabbi/CVE-2021-42667)
+- [0xDeku/CVE-2021-42667](https://github.com/0xDeku/CVE-2021-42667)
 
 ### CVE-2021-42668 (2021-11-05)
 
@@ -3757,7 +3757,7 @@ A SQL Injection vulnerability exists in Sourcecodester Online Event Booking and 
 A SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the id parameter in the my_classmates.php web page.. As a result, an attacker can extract sensitive data from the web server and in some cases can use this vulnerability in order to get a remote code execution on the remote web server.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42668](https://github.com/TheHackingRabbi/CVE-2021-42668)
+- [0xDeku/CVE-2021-42668](https://github.com/0xDeku/CVE-2021-42668)
 
 ### CVE-2021-42669 (2021-11-05)
 
@@ -3765,7 +3765,7 @@ A SQL Injection vulnerability exists in Sourcecodester Engineers Online Portal i
 A file upload vulnerability exists in Sourcecodester Engineers Online Portal in PHP via dashboard_teacher.php, which allows changing the avatar through teacher_avatar.php. Once an avatar gets uploaded it is getting uploaded to the /admin/uploads/ directory, and is accessible by all users. By uploading a php webshell containing &quot;&lt;?php system($_GET[&quot;cmd&quot;]); ?&gt;&quot; the attacker can execute commands on the web server with - /admin/uploads/php-webshell?cmd=id.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42669](https://github.com/TheHackingRabbi/CVE-2021-42669)
+- [0xDeku/CVE-2021-42669](https://github.com/0xDeku/CVE-2021-42669)
 
 ### CVE-2021-42670 (2021-11-05)
 
@@ -3773,7 +3773,7 @@ A file upload vulnerability exists in Sourcecodester Engineers Online Portal in 
 A SQL injection vulnerability exists in Sourcecodester Engineers Online Portal in PHP via the id parameter to the announcements_student.php web page. As a result a malicious user can extract sensitive data from the web server and in some cases use this vulnerability in order to get a remote code execution on the remote web server.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42670](https://github.com/TheHackingRabbi/CVE-2021-42670)
+- [0xDeku/CVE-2021-42670](https://github.com/0xDeku/CVE-2021-42670)
 
 ### CVE-2021-42671 (2021-11-05)
 
@@ -3781,7 +3781,7 @@ A SQL injection vulnerability exists in Sourcecodester Engineers Online Portal i
 An incorrect access control vulnerability exists in Sourcecodester Engineers Online Portal in PHP in nia_munoz_monitoring_system/admin/uploads. An attacker can leverage this vulnerability in order to bypass access controls and access all the files uploaded to the web server without the need of authentication or authorization.
 </code>
 
-- [TheHackingRabbi/CVE-2021-42671](https://github.com/TheHackingRabbi/CVE-2021-42671)
+- [0xDeku/CVE-2021-42671](https://github.com/0xDeku/CVE-2021-42671)
 
 ### CVE-2021-42694 (2021-10-31)
 
