@@ -423,7 +423,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [bysinks/CVE-2022-22947](https://github.com/bysinks/CVE-2022-22947)
 - [Wrin9/CVE-2022-22947](https://github.com/Wrin9/CVE-2022-22947)
 - [viemsr/spring_cloud_gateway_memshell](https://github.com/viemsr/spring_cloud_gateway_memshell)
-- [Enokiy/cve-2022-22947-springcloud-gateway](https://github.com/Enokiy/cve-2022-22947-springcloud-gateway)
+- [Enokiy/cve-2022-22947-spring-cloud-gateway](https://github.com/Enokiy/cve-2022-22947-spring-cloud-gateway)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -717,6 +717,7 @@ net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows loca
 </code>
 
 - [Bonfee/CVE-2022-25636](https://github.com/Bonfee/CVE-2022-25636)
+- [chenaotian/CVE-2022-25636](https://github.com/chenaotian/CVE-2022-25636)
 
 ### CVE-2022-25640 (2022-02-23)
 
@@ -1010,7 +1011,6 @@ Vulnerability in the Database Vault component of Oracle Database Server. Support
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [lz2y/CVE-2021-2394](https://github.com/lz2y/CVE-2021-2394)
 - [fasanhlieu/CVE-2021-2394](https://github.com/fasanhlieu/CVE-2021-2394)
 
 ### CVE-2021-2471 (2021-10-20)
@@ -3333,6 +3333,14 @@ An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can
 
 - [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 - [alexOarga/CVE-2021-40346](https://github.com/alexOarga/CVE-2021-40346)
+
+### CVE-2021-40373 (2021-09-10)
+
+<code>
+playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the #tabs-information-page of core_main_config, and then executing that code via the index.php?app=main&amp;inc=core_welcome URI.
+</code>
+
+- [maikroservice/CVE-2021-40373](https://github.com/maikroservice/CVE-2021-40373)
 
 ### CVE-2021-40374
 - [DCKento/CVE-2021-40374](https://github.com/DCKento/CVE-2021-40374)
@@ -5820,6 +5828,7 @@ Multiple vulnerabilities in the web services interface of Cisco Adaptive Securit
 
 - [Hudi233/CVE-2020-3580](https://github.com/Hudi233/CVE-2020-3580)
 - [adarshvs/CVE-2020-3580](https://github.com/adarshvs/CVE-2020-3580)
+- [nxtexploit/CVE-2020-3580](https://github.com/nxtexploit/CVE-2020-3580)
 
 ### CVE-2020-3766 (2020-03-25)
 
@@ -6434,6 +6443,7 @@ The is a code injection vulnerability in versions of Rails prior to 5.0.1 that w
 
 - [lucasallan/CVE-2020-8163](https://github.com/lucasallan/CVE-2020-8163)
 - [h4ms1k/CVE-2020-8163](https://github.com/h4ms1k/CVE-2020-8163)
+- [TKLinux966/CVE-2020-8163](https://github.com/TKLinux966/CVE-2020-8163)
 
 ### CVE-2020-8165 (2020-06-19)
 
@@ -12758,6 +12768,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
 - [k4u5h41/CVE-2019-16278](https://github.com/k4u5h41/CVE-2019-16278)
+- [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 
 ### CVE-2019-16279 (2019-10-14)
 
@@ -14622,6 +14633,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574)
 - [frarinha/CVE-2018-6574](https://github.com/frarinha/CVE-2018-6574)
 - [dmlino/cve-2018-6574](https://github.com/dmlino/cve-2018-6574)
+- [the-valluvarsploit/CVE-2018-6574](https://github.com/the-valluvarsploit/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
