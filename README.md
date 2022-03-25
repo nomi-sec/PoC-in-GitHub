@@ -791,6 +791,14 @@ Deserialization of untrusted data in Veeam Agent for Windows 2.0, 2.1, 2.2, 3.0.
 
 - [sinsinology/CVE-2022-26503](https://github.com/sinsinology/CVE-2022-26503)
 
+### CVE-2022-26629 (2022-03-24)
+
+<code>
+An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the Lock Screen Security Feature function due to insufficient permissions and privileges, which allows a malicious attacker bypass the lock screen function.
+</code>
+
+- [sysenter-eip/CVE-2022-26629](https://github.com/sysenter-eip/CVE-2022-26629)
+
 ### CVE-2022-27226 (2022-03-18)
 
 <code>
@@ -1604,6 +1612,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
 - [Jiang59991/cve-2021-21300](https://github.com/Jiang59991/cve-2021-21300)
+- [Jiang59991/cve-2021-21300-plus](https://github.com/Jiang59991/cve-2021-21300-plus)
 
 ### CVE-2021-21311 (2021-02-11)
 
@@ -3558,7 +3567,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
-- [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
 - [Hydragyrum/CVE-2021-41773-Playground](https://github.com/Hydragyrum/CVE-2021-41773-Playground)
 - [IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
@@ -15689,6 +15697,14 @@ Buffer overflow in OPC UA applications allows remote attackers to trigger a stac
 
 - [kevinherron/stack-overflow-poc](https://github.com/kevinherron/stack-overflow-poc)
 
+### CVE-2018-12326 (2018-06-17)
+
+<code>
+Buffer overflow in redis-cli of Redis before 4.0.10 and 5.x before 5.0 RC3 allows an attacker to achieve code execution and escalate to higher privileges via a crafted command line. NOTE: It is unclear whether there are any common situations in which redis-cli is used with, for example, a -h (aka hostname) argument from an untrusted source.
+</code>
+
+- [spasm5/CVE-2018-12326](https://github.com/spasm5/CVE-2018-12326)
+
 ### CVE-2018-12386 (2018-10-18)
 
 <code>
@@ -19663,14 +19679,6 @@ The Qualcomm TrustZone component in Android before 2016-05-01 on Nexus 5, Nexus 
 - [laginimaineb/cve-2016-2431](https://github.com/laginimaineb/cve-2016-2431)
 - [laginimaineb/ExtractKeyMaster](https://github.com/laginimaineb/ExtractKeyMaster)
 
-### CVE-2016-2434 (2016-05-09)
-
-<code>
-The NVIDIA video driver in Android before 2016-05-01 on Nexus 9 devices allows attackers to gain privileges via a crafted application, aka internal bug 27251090.
-</code>
-
-- [jianqiangzhao/CVE-2016-2434](https://github.com/jianqiangzhao/CVE-2016-2434)
-
 ### CVE-2016-2555 (2017-04-13)
 
 <code>
@@ -19826,14 +19834,6 @@ The Verify function in crypto/dsa/dsa.go in Go before 1.5.4 and 1.6.x before 1.6
 
 - [alexmullins/dsa](https://github.com/alexmullins/dsa)
 
-### CVE-2016-3962 (2016-07-03)
-
-<code>
-Stack-based buffer overflow in the NTP time-server interface on Meinberg IMS-LANTIME M3000, IMS-LANTIME M1000, IMS-LANTIME M500, LANTIME M900, LANTIME M600, LANTIME M400, LANTIME M300, LANTIME M200, LANTIME M100, SyncFire 1100, and LCES devices with firmware before 6.20.004 allows remote attackers to obtain sensitive information, modify data, or cause a denial of service via a crafted parameter in a POST request.
-</code>
-
-- [securifera/CVE-2016-3962-Exploit](https://github.com/securifera/CVE-2016-3962-Exploit)
-
 ### CVE-2016-4010 (2017-01-23)
 
 <code>
@@ -19904,14 +19904,6 @@ WebKit in Apple iOS before 9.3.3, Safari before 9.1.2, and tvOS before 9.2.2 all
 - [saelo/jscpwn](https://github.com/saelo/jscpwn)
 - [hdbreaker/WebKit-CVE-2016-4622](https://github.com/hdbreaker/WebKit-CVE-2016-4622)
 
-### CVE-2016-4631 (2016-07-21)
-
-<code>
-ImageIO in Apple iOS before 9.3.3, OS X before 10.11.6, tvOS before 9.2.2, and watchOS before 2.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted TIFF file.
-</code>
-
-- [hansnielsen/tiffdisabler](https://github.com/hansnielsen/tiffdisabler)
-
 ### CVE-2016-4655 (2016-08-25)
 
 <code>
@@ -19940,14 +19932,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 - [i-o-s/CVE-2016-4669](https://github.com/i-o-s/CVE-2016-4669)
 
-### CVE-2016-4845 (2016-09-24)
-
-<code>
-Cross-site request forgery (CSRF) vulnerability on I-O DATA DEVICE HVL-A2.0, HVL-A3.0, HVL-A4.0, HVL-AT1.0S, HVL-AT2.0, HVL-AT3.0, HVL-AT4.0, HVL-AT2.0A, HVL-AT3.0A, and HVL-AT4.0A devices with firmware before 2.04 allows remote attackers to hijack the authentication of arbitrary users for requests that delete content.
-</code>
-
-- [kaito834/cve-2016-4845_csrf](https://github.com/kaito834/cve-2016-4845_csrf)
-
 ### CVE-2016-4861 (2017-02-16)
 
 <code>
@@ -19963,7 +19947,6 @@ GNU wget before 1.18 allows remote servers to write to arbitrary files by redire
 </code>
 
 - [BlueCocoa/CVE-2016-4971](https://github.com/BlueCocoa/CVE-2016-4971)
-- [gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971)
 - [mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971)
 - [dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-)
 
@@ -20070,10 +20053,7 @@ Directory traversal vulnerability in cgi-bin/rftest.cgi on Crestron AirMedia AM-
 net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine the rate of challenge ACK segments, which makes it easier for remote attackers to hijack TCP sessions via a blind in-window attack.
 </code>
 
-- [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
-- [violentshell/rover](https://github.com/violentshell/rover)
 - [jduck/challack](https://github.com/jduck/challack)
-- [bplinux/chackd](https://github.com/bplinux/chackd)
 - [nogoegst/grill](https://github.com/nogoegst/grill)
 
 ### CVE-2016-5699 (2016-09-02)
@@ -20083,7 +20063,6 @@ CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2
 </code>
 
 - [bunseokbot/CVE-2016-5699-poc](https://github.com/bunseokbot/CVE-2016-5699-poc)
-- [shajinzheng/cve-2016-5699-jinzheng-sha](https://github.com/shajinzheng/cve-2016-5699-jinzheng-sha)
 
 ### CVE-2016-5734 (2016-07-02)
 
@@ -20091,7 +20070,6 @@ CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2
 phpMyAdmin 4.0.x before 4.0.10.16, 4.4.x before 4.4.15.7, and 4.6.x before 4.6.3 does not properly choose delimiters to prevent use of the preg_replace e (aka eval) modifier, which might allow remote attackers to execute arbitrary PHP code via a crafted string, as demonstrated by the table search-and-replace implementation.
 </code>
 
-- [KosukeShimofuji/CVE-2016-5734](https://github.com/KosukeShimofuji/CVE-2016-5734)
 - [HKirito/phpmyadmin4.4_cve-2016-5734](https://github.com/HKirito/phpmyadmin4.4_cve-2016-5734)
 
 ### CVE-2016-5983 (2016-10-05)
