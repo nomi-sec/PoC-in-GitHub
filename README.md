@@ -599,6 +599,14 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 ### CVE-2022-24693
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
 
+### CVE-2022-24934 (2022-03-23)
+
+<code>
+wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code execution by modifying HKEY_CURRENT_USER in the registry.
+</code>
+
+- [shakeman8/CVE-2022-24934](https://github.com/shakeman8/CVE-2022-24934)
+
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
 - [VVeakee/CVE-2022-24990-POC](https://github.com/VVeakee/CVE-2022-24990-POC)
@@ -9861,6 +9869,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708)
 - [cbwang505/CVE-2019-0708-EXP-Windows](https://github.com/cbwang505/CVE-2019-0708-EXP-Windows)
 - [eastmountyxz/CVE-2019-0708-Windows](https://github.com/eastmountyxz/CVE-2019-0708-Windows)
+- [RICSecLab/CVE-2019-0708](https://github.com/RICSecLab/CVE-2019-0708)
 - [JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708)
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [GryllsAaron/CVE-2019-0708-POC](https://github.com/GryllsAaron/CVE-2019-0708-POC)
@@ -19679,6 +19688,14 @@ The Qualcomm TrustZone component in Android before 2016-05-01 on Nexus 5, Nexus 
 - [laginimaineb/cve-2016-2431](https://github.com/laginimaineb/cve-2016-2431)
 - [laginimaineb/ExtractKeyMaster](https://github.com/laginimaineb/ExtractKeyMaster)
 
+### CVE-2016-2434 (2016-05-09)
+
+<code>
+The NVIDIA video driver in Android before 2016-05-01 on Nexus 9 devices allows attackers to gain privileges via a crafted application, aka internal bug 27251090.
+</code>
+
+- [jianqiangzhao/CVE-2016-2434](https://github.com/jianqiangzhao/CVE-2016-2434)
+
 ### CVE-2016-2555 (2017-04-13)
 
 <code>
@@ -19834,6 +19851,14 @@ The Verify function in crypto/dsa/dsa.go in Go before 1.5.4 and 1.6.x before 1.6
 
 - [alexmullins/dsa](https://github.com/alexmullins/dsa)
 
+### CVE-2016-3962 (2016-07-03)
+
+<code>
+Stack-based buffer overflow in the NTP time-server interface on Meinberg IMS-LANTIME M3000, IMS-LANTIME M1000, IMS-LANTIME M500, LANTIME M900, LANTIME M600, LANTIME M400, LANTIME M300, LANTIME M200, LANTIME M100, SyncFire 1100, and LCES devices with firmware before 6.20.004 allows remote attackers to obtain sensitive information, modify data, or cause a denial of service via a crafted parameter in a POST request.
+</code>
+
+- [securifera/CVE-2016-3962-Exploit](https://github.com/securifera/CVE-2016-3962-Exploit)
+
 ### CVE-2016-4010 (2017-01-23)
 
 <code>
@@ -19904,6 +19929,14 @@ WebKit in Apple iOS before 9.3.3, Safari before 9.1.2, and tvOS before 9.2.2 all
 - [saelo/jscpwn](https://github.com/saelo/jscpwn)
 - [hdbreaker/WebKit-CVE-2016-4622](https://github.com/hdbreaker/WebKit-CVE-2016-4622)
 
+### CVE-2016-4631 (2016-07-21)
+
+<code>
+ImageIO in Apple iOS before 9.3.3, OS X before 10.11.6, tvOS before 9.2.2, and watchOS before 2.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted TIFF file.
+</code>
+
+- [hansnielsen/tiffdisabler](https://github.com/hansnielsen/tiffdisabler)
+
 ### CVE-2016-4655 (2016-08-25)
 
 <code>
@@ -19932,6 +19965,14 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 - [i-o-s/CVE-2016-4669](https://github.com/i-o-s/CVE-2016-4669)
 
+### CVE-2016-4845 (2016-09-24)
+
+<code>
+Cross-site request forgery (CSRF) vulnerability on I-O DATA DEVICE HVL-A2.0, HVL-A3.0, HVL-A4.0, HVL-AT1.0S, HVL-AT2.0, HVL-AT3.0, HVL-AT4.0, HVL-AT2.0A, HVL-AT3.0A, and HVL-AT4.0A devices with firmware before 2.04 allows remote attackers to hijack the authentication of arbitrary users for requests that delete content.
+</code>
+
+- [kaito834/cve-2016-4845_csrf](https://github.com/kaito834/cve-2016-4845_csrf)
+
 ### CVE-2016-4861 (2017-02-16)
 
 <code>
@@ -19947,6 +19988,7 @@ GNU wget before 1.18 allows remote servers to write to arbitrary files by redire
 </code>
 
 - [BlueCocoa/CVE-2016-4971](https://github.com/BlueCocoa/CVE-2016-4971)
+- [gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971)
 - [mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971)
 - [dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-)
 
@@ -20053,7 +20095,10 @@ Directory traversal vulnerability in cgi-bin/rftest.cgi on Crestron AirMedia AM-
 net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine the rate of challenge ACK segments, which makes it easier for remote attackers to hijack TCP sessions via a blind in-window attack.
 </code>
 
+- [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
+- [violentshell/rover](https://github.com/violentshell/rover)
 - [jduck/challack](https://github.com/jduck/challack)
+- [bplinux/chackd](https://github.com/bplinux/chackd)
 - [nogoegst/grill](https://github.com/nogoegst/grill)
 
 ### CVE-2016-5699 (2016-09-02)
@@ -20063,6 +20108,7 @@ CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2
 </code>
 
 - [bunseokbot/CVE-2016-5699-poc](https://github.com/bunseokbot/CVE-2016-5699-poc)
+- [shajinzheng/cve-2016-5699-jinzheng-sha](https://github.com/shajinzheng/cve-2016-5699-jinzheng-sha)
 
 ### CVE-2016-5734 (2016-07-02)
 
@@ -20070,6 +20116,7 @@ CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2
 phpMyAdmin 4.0.x before 4.0.10.16, 4.4.x before 4.4.15.7, and 4.6.x before 4.6.3 does not properly choose delimiters to prevent use of the preg_replace e (aka eval) modifier, which might allow remote attackers to execute arbitrary PHP code via a crafted string, as demonstrated by the table search-and-replace implementation.
 </code>
 
+- [KosukeShimofuji/CVE-2016-5734](https://github.com/KosukeShimofuji/CVE-2016-5734)
 - [HKirito/phpmyadmin4.4_cve-2016-5734](https://github.com/HKirito/phpmyadmin4.4_cve-2016-5734)
 
 ### CVE-2016-5983 (2016-10-05)
