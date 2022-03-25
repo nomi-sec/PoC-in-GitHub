@@ -140,6 +140,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [pentestblogin/pentestblog-CVE-2022-0847](https://github.com/pentestblogin/pentestblog-CVE-2022-0847)
 - [gyaansastra/CVE-2022-0847](https://github.com/gyaansastra/CVE-2022-0847)
 - [T4t4ru/CVE-2022-0847](https://github.com/T4t4ru/CVE-2022-0847)
+- [DataDog/dirtypipe-container-breakout-poc](https://github.com/DataDog/dirtypipe-container-breakout-poc)
 - [babyshen/CVE-2022-0847](https://github.com/babyshen/CVE-2022-0847)
 - [edsonjt81/CVE-2022-0847-Linux](https://github.com/edsonjt81/CVE-2022-0847-Linux)
 - [chenaotian/CVE-2022-0847](https://github.com/chenaotian/CVE-2022-0847)
@@ -424,6 +425,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Wrin9/CVE-2022-22947](https://github.com/Wrin9/CVE-2022-22947)
 - [viemsr/spring_cloud_gateway_memshell](https://github.com/viemsr/spring_cloud_gateway_memshell)
 - [Enokiy/cve-2022-22947-spring-cloud-gateway](https://github.com/Enokiy/cve-2022-22947-spring-cloud-gateway)
+- [Nathaniel1025/CVE-2022-22947](https://github.com/Nathaniel1025/CVE-2022-22947)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -3575,6 +3577,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
+- [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
 - [Hydragyrum/CVE-2021-41773-Playground](https://github.com/Hydragyrum/CVE-2021-41773-Playground)
 - [IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
@@ -4177,7 +4180,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Ghost-chu/CVE-2021-44228-quickfix-script](https://github.com/Ghost-chu/CVE-2021-44228-quickfix-script)
 - [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
 - [creamIcec/CVE-2021-44228-Apache-Log4j-Rce__review](https://github.com/creamIcec/CVE-2021-44228-Apache-Log4j-Rce__review)
-- [bchaber/CVE-2021-44228](https://github.com/bchaber/CVE-2021-44228)
 - [uint0/cve-2021-44228-helpers](https://github.com/uint0/cve-2021-44228-helpers)
 - [RK800-DEV/apache-log4j-poc](https://github.com/RK800-DEV/apache-log4j-poc)
 - [sud0x00/log4j-CVE-2021-44228](https://github.com/sud0x00/log4j-CVE-2021-44228)
@@ -16752,6 +16754,7 @@ In WinRAR versions prior to and including 5.61, There is path traversal vulnerab
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250)
 - [zeronohacker/CVE-2018-20250](https://github.com/zeronohacker/CVE-2018-20250)
+- [tzwlhack/CVE-2018-20250](https://github.com/tzwlhack/CVE-2018-20250)
 
 ### CVE-2018-20343 (2020-03-02)
 
