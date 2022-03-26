@@ -116,7 +116,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847)
 - [Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit)
 - [2xYuan/CVE-2022-0847](https://github.com/2xYuan/CVE-2022-0847)
-- [carlosevieira/Dirty-Pipe](https://github.com/carlosevieira/Dirty-Pipe)
+- [crowsec-edtech/Dirty-Pipe](https://github.com/crowsec-edtech/Dirty-Pipe)
 - [lucksec/CVE-2022-0847](https://github.com/lucksec/CVE-2022-0847)
 - [rahul1406/cve-2022-0847dirtypipe-exploit](https://github.com/rahul1406/cve-2022-0847dirtypipe-exploit)
 - [si1ent-le/CVE-2022-0847](https://github.com/si1ent-le/CVE-2022-0847)
@@ -162,6 +162,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits](https://github.com/LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits)
 - [LudovicPatho/CVE-2022-0847](https://github.com/LudovicPatho/CVE-2022-0847)
 - [DanaEpp/pwncat_dirtypipe](https://github.com/DanaEpp/pwncat_dirtypipe)
+- [tmoneypenny/CVE-2022-0847](https://github.com/tmoneypenny/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -394,7 +395,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [shakeman8/CVE-2022-22947-RCE](https://github.com/shakeman8/CVE-2022-22947-RCE)
 - [Vulnmachines/spring-cve-2022-22947](https://github.com/Vulnmachines/spring-cve-2022-22947)
 - [Axx8/CVE-2022-22947_Rce_Exp](https://github.com/Axx8/CVE-2022-22947_Rce_Exp)
-- [carlosevieira/CVE-2022-22947](https://github.com/carlosevieira/CVE-2022-22947)
+- [crowsec-edtech/CVE-2022-22947](https://github.com/crowsec-edtech/CVE-2022-22947)
 - [Tas9er/SpringCloudGatewayRCE](https://github.com/Tas9er/SpringCloudGatewayRCE)
 - [Greetdawn/CVE-2022-22947](https://github.com/Greetdawn/CVE-2022-22947)
 - [helloexp/CVE-2022-22947](https://github.com/helloexp/CVE-2022-22947)
@@ -473,6 +474,14 @@ A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of Ta
 </code>
 
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
+
+### CVE-2022-23648 (2022-03-03)
+
+<code>
+containerd is a container runtime available as a daemon for Linux and Windows. A bug was found in containerd prior to versions 1.6.1, 1.5.10, and 1.14.12 where containers launched through containerd’s CRI implementation on Linux with a specially-crafted image configuration could gain access to read-only copies of arbitrary files and directories on the host. This may bypass any policy-based enforcement on container setup (including a Kubernetes Pod Security Policy) and expose potentially sensitive information. Kubernetes and crictl can both be configured to use containerd’s CRI implementation. This bug has been fixed in containerd 1.6.1, 1.5.10, and 1.4.12. Users should update to these versions to resolve the issue.
+</code>
+
+- [raesene/CVE-2022-23648-POC](https://github.com/raesene/CVE-2022-23648-POC)
 
 ### CVE-2022-23731 (2022-03-11)
 
@@ -3454,13 +3463,28 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 
 - [Lul/TestRail-files.md5-IAC-scanner](https://github.com/Lul/TestRail-files.md5-IAC-scanner)
 
-### CVE-2021-40904
+### CVE-2021-40904 (2022-03-25)
+
+<code>
+The web management console of CheckMK Raw Edition (versions 1.5.0 to 1.6.0) allows a misconfiguration of the web-app Dokuwiki (installed by default), which allows embedded php code. As a result, remote code execution is achieved. Successful exploitation requires access to the web management interface, either with valid credentials or with a hijacked session by a user with the role of administrator.
+</code>
+
 - [Edgarloyola/CVE-2021-40904](https://github.com/Edgarloyola/CVE-2021-40904)
 
-### CVE-2021-40905
+### CVE-2021-40905 (2022-03-25)
+
+<code>
+The web management console of CheckMK Enterprise Edition (versions 1.5.0 to 2.0.0p9) does not properly sanitise the uploading of &quot;.mkp&quot; files, which are Extension Packages, making remote code execution possible. Successful exploitation requires access to the web management interface, either with valid credentials or with a hijacked session of a user with administrator role.
+</code>
+
 - [Edgarloyola/CVE-2021-40905](https://github.com/Edgarloyola/CVE-2021-40905)
 
-### CVE-2021-40906
+### CVE-2021-40906 (2022-03-25)
+
+<code>
+CheckMK Raw Edition software (versions 1.5.0 to 1.6.0) does not sanitise the input of a web service parameter that is in an unauthenticated zone. This Reflected XSS allows an attacker to open a backdoor on the device with HTML content and interpreted by the browser (such as JavaScript or other client-side scripts) or to steal the session cookies of a user who has previously authenticated via a man in the middle. Successful exploitation requires access to the web service resource without authentication.
+</code>
+
 - [Edgarloyola/CVE-2021-40906](https://github.com/Edgarloyola/CVE-2021-40906)
 
 ### CVE-2021-41073 (2021-09-19)
