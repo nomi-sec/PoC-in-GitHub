@@ -816,6 +816,7 @@ Deserialization of untrusted data in Veeam Agent for Windows 2.0, 2.1, 2.2, 3.0.
 An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the Lock Screen Security Feature function due to insufficient permissions and privileges, which allows a malicious attacker bypass the lock screen function.
 </code>
 
+- [scopion/CVE-2022-26629](https://github.com/scopion/CVE-2022-26629)
 - [sysenter-eip/CVE-2022-26629](https://github.com/sysenter-eip/CVE-2022-26629)
 
 ### CVE-2022-27226 (2022-03-18)
