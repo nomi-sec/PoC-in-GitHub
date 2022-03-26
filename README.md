@@ -1474,6 +1474,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
 - [Hifumi1337/CVE-2021-4034](https://github.com/Hifumi1337/CVE-2021-4034)
 - [mtthwstffrd/berdav-CVE-2021-4034](https://github.com/mtthwstffrd/berdav-CVE-2021-4034)
+- [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -3602,7 +3603,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
-- [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
 - [Hydragyrum/CVE-2021-41773-Playground](https://github.com/Hydragyrum/CVE-2021-41773-Playground)
 - [IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
