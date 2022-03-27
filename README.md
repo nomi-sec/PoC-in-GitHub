@@ -819,6 +819,14 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 
 - [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
 
+### CVE-2022-26318 (2022-03-04)
+
+<code>
+On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute arbitrary code, aka FBX-22786. This vulnerability impacts Fireware OS before 12.7.2_U2, 12.x before 12.1.3_U8, and 12.2.x through 12.5.x before 12.5.9_U2.
+</code>
+
+- [Throns1956/watchguard_cve-2022-26318](https://github.com/Throns1956/watchguard_cve-2022-26318)
+
 ### CVE-2022-26503 (2022-03-17)
 
 <code>
