@@ -180,6 +180,14 @@ A flaw was found in JBoss-client. The vulnerability occurs due to a memory leak 
 
 - [ByteHackr/CVE-2022-0853](https://github.com/ByteHackr/CVE-2022-0853)
 
+### CVE-2022-0995 (2022-03-25)
+
+<code>
+An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch_queue event notification subsystem. This flaw can overwrite parts of the kernel state, potentially allowing a local user to gain privileged access or cause a denial of service on the system.
+</code>
+
+- [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
+
 ### CVE-2022-10249
 - [buff07/CVE-2022-10249](https://github.com/buff07/CVE-2022-10249)
 
@@ -625,6 +633,7 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 </code>
 
 - [shakeman8/CVE-2022-24934](https://github.com/shakeman8/CVE-2022-24934)
+- [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
 
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
@@ -20018,7 +20027,6 @@ The (1) order and (2) group methods in Zend_Db_Select in the Zend Framework befo
 GNU wget before 1.18 allows remote servers to write to arbitrary files by redirecting a request from HTTP to a crafted FTP resource.
 </code>
 
-- [BlueCocoa/CVE-2016-4971](https://github.com/BlueCocoa/CVE-2016-4971)
 - [gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971)
 - [mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971)
 - [dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-)
