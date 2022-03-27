@@ -3868,14 +3868,6 @@ The SyncThru Web Service on Samsung SCX-6x55X printers allows an attacker to gai
 ### CVE-2021-43008
 - [p0dalirius/CVE-2021-43008-AdminerRead](https://github.com/p0dalirius/CVE-2021-43008-AdminerRead)
 
-### CVE-2021-43032 (2021-11-03)
-
-<code>
-In XenForo through 2.2.7, a threat actor with access to the admin panel can create a new Advertisement via the Advertising function, and save an XSS payload in the body of the HTML document. This payload will execute globally on the client side.
-</code>
-
-- [SakuraSamuraii/CVE-2021-43032](https://github.com/SakuraSamuraii/CVE-2021-43032)
-
 ### CVE-2021-43140 (2021-11-03)
 
 <code>
@@ -4116,6 +4108,9 @@ Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 105
 </code>
 
 - [horizon3ai/CVE-2021-44077](https://github.com/horizon3ai/CVE-2021-44077)
+
+### CVE-2021-44117
+- [warmachine-57/CVE-2021-44117](https://github.com/warmachine-57/CVE-2021-44117)
 
 ### CVE-2021-44132 (2022-02-25)
 
