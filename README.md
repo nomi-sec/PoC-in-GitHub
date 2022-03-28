@@ -68,7 +68,6 @@ It was discovered, that redis, a persistent key-value database, due to a packagi
 </code>
 
 - [aodsec/CVE-2022-0543](https://github.com/aodsec/CVE-2022-0543)
-- [Newbee740/REDIS-CVE-2022-0543](https://github.com/Newbee740/REDIS-CVE-2022-0543)
 
 ### CVE-2022-0725 (2022-03-07)
 
@@ -2547,6 +2546,7 @@ A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.
 
 - [Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928)
 - [shamo0/CVE-2021-27928-POC](https://github.com/shamo0/CVE-2021-27928-POC)
+- [GatoGamer1155/CVE-2021-27928](https://github.com/GatoGamer1155/CVE-2021-27928)
 
 ### CVE-2021-27963 (2021-03-04)
 
@@ -3573,30 +3573,6 @@ Microsoft Edge (Chrome based) Spoofing on IE Mode
 
 - [JaneMandy/CVE-2021-41351-POC](https://github.com/JaneMandy/CVE-2021-41351-POC)
 
-### CVE-2021-41643 (2021-10-29)
-
-<code>
-Remote Code Execution (RCE) vulnerability exists in Sourcecodester Church Management System 1.0 via the image upload field.
-</code>
-
-- [hax3xploit/CVE-2021-41643](https://github.com/hax3xploit/CVE-2021-41643)
-
-### CVE-2021-41644 (2021-10-29)
-
-<code>
-Remote Code Exection (RCE) vulnerability exists in Sourcecodester Online Food Ordering System 2.0 via a maliciously crafted PHP file that bypasses the image upload filters.
-</code>
-
-- [hax3xploit/CVE-2021-41644](https://github.com/hax3xploit/CVE-2021-41644)
-
-### CVE-2021-41645 (2021-10-29)
-
-<code>
-Remote Code Execution (RCE) vulnerability exists in Sourcecodester Budget and Expense Tracker System 1.0 that allows a remote malicious user to inject arbitrary code via the image upload field. .
-</code>
-
-- [hax3xploit/CVE-2021-41645](https://github.com/hax3xploit/CVE-2021-41645)
-
 ### CVE-2021-41646 (2021-10-29)
 
 <code>
@@ -3641,6 +3617,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [thehackersbrain/CVE-2021-41773](https://github.com/thehackersbrain/CVE-2021-41773)
 - [cryst4lliz3/CVE-2021-41773](https://github.com/cryst4lliz3/CVE-2021-41773)
 - [Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773)
+- [N3w-elf/CVE-2021-41773-](https://github.com/N3w-elf/CVE-2021-41773-)
 
 ### CVE-2021-41777
 - [awsassets/CVE-2021-41777](https://github.com/awsassets/CVE-2021-41777)
@@ -5401,6 +5378,7 @@ An elevation of privilege vulnerability exists in the way that the Windows Kerne
 </code>
 
 - [yardenshafir/CVE-2020-1034](https://github.com/yardenshafir/CVE-2020-1034)
+- [GeorgyFirsov/CVE-2020-1034](https://github.com/GeorgyFirsov/CVE-2020-1034)
 
 ### CVE-2020-1048 (2020-05-21)
 
