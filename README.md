@@ -1625,6 +1625,14 @@ Heap buffer overflow in V8 in Google Chrome prior to 88.0.4324.150 allowed a rem
 
 - [Grayhaxor/CVE-2021-21148](https://github.com/Grayhaxor/CVE-2021-21148)
 
+### CVE-2021-21193 (2021-03-16)
+
+<code>
+Use after free in Blink in Google Chrome prior to 89.0.4389.90 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [mehrzad1994/CVE-2021-21193](https://github.com/mehrzad1994/CVE-2021-21193)
+
 ### CVE-2021-21224 (2021-04-26)
 
 <code>
@@ -3573,14 +3581,6 @@ Microsoft Edge (Chrome based) Spoofing on IE Mode
 
 - [JaneMandy/CVE-2021-41351-POC](https://github.com/JaneMandy/CVE-2021-41351-POC)
 
-### CVE-2021-41646 (2021-10-29)
-
-<code>
-Remote Code Execution (RCE) vulnerability exists in Sourcecodester Online Reviewer System 1.0 by uploading a maliciously crafted PHP file that bypasses the image upload filters..
-</code>
-
-- [hax3xploit/CVE-2021-41646](https://github.com/hax3xploit/CVE-2021-41646)
-
 ### CVE-2021-41653 (2021-11-13)
 
 <code>
@@ -5272,6 +5272,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
 - [5l1v3r1/CVE-2020-0796-PoC-3](https://github.com/5l1v3r1/CVE-2020-0796-PoC-3)
+- [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -16986,6 +16987,14 @@ The Graphics Device Interface (GDI) in Microsoft Windows Vista SP2; Windows Serv
 </code>
 
 - [sheri31/0005poc](https://github.com/sheri31/0005poc)
+
+### CVE-2017-0037 (2017-02-26)
+
+<code>
+Microsoft Internet Explorer 10 and 11 and Microsoft Edge have a type confusion issue in the Layout::MultiColumnBoxBuilder::HandleColumnBreakOnColumnSpanningElement function in mshtml.dll, which allows remote attackers to execute arbitrary code via vectors involving a crafted Cascading Style Sheets (CSS) token sequence and crafted JavaScript code that operates on a TH element.
+</code>
+
+- [chattopadhyaykittu/CVE-2017-0037](https://github.com/chattopadhyaykittu/CVE-2017-0037)
 
 ### CVE-2017-0038 (2017-02-20)
 
