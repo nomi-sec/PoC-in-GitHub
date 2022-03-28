@@ -187,6 +187,9 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
 
+### CVE-2022-10086
+- [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
+
 ### CVE-2022-10249
 - [buff07/CVE-2022-10249](https://github.com/buff07/CVE-2022-10249)
 
@@ -825,6 +828,7 @@ On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute ar
 </code>
 
 - [Throns1956/watchguard_cve-2022-26318](https://github.com/Throns1956/watchguard_cve-2022-26318)
+- [misterxid/watchguard_cve-2022-26318](https://github.com/misterxid/watchguard_cve-2022-26318)
 
 ### CVE-2022-26503 (2022-03-17)
 
@@ -861,6 +865,9 @@ The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal 
 </code>
 
 - [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
+
+### CVE-2022-27927
+- [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -1564,7 +1571,7 @@ Cross-site scripting vulnerability in EC-CUBE 4.0.0 to 4.0.5 allows a remote att
 Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 and earlier (Movable Type 6 Series), Movable Type Advanced 7 r.5002 and earlier (Movable Type Advanced 7 Series), Movable Type Advanced 6.8.2 and earlier (Movable Type Advanced 6 Series), Movable Type Premium 1.46 and earlier, and Movable Type Premium Advanced 1.46 and earlier allow remote attackers to execute arbitrary OS commands via unspecified vectors. Note that all versions of Movable Type 4.0 or later including unsupported (End-of-Life, EOL) versions are also affected by this vulnerability.
 </code>
 
-- [byteofandri/CVE-2021-20837](https://github.com/byteofandri/CVE-2021-20837)
+- [orangmuda/CVE-2021-20837](https://github.com/orangmuda/CVE-2021-20837)
 - [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
 - [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
 
@@ -1774,7 +1781,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
-- [byteofandri/CVE-2021-21972](https://github.com/byteofandri/CVE-2021-21972)
+- [orangmuda/CVE-2021-21972](https://github.com/orangmuda/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -1918,7 +1925,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
 - [antx-code/CVE-2021-22205](https://github.com/antx-code/CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
-- [whwlsfb/CVE-2021-22205](https://github.com/whwlsfb/CVE-2021-22205)
 - [findneo/GitLab-preauth-RCE_CVE-2021-22205](https://github.com/findneo/GitLab-preauth-RCE_CVE-2021-22205)
 - [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
@@ -1971,7 +1977,7 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 
 - [ZephrFish/CVE-2021-22893_HoneyPoC2](https://github.com/ZephrFish/CVE-2021-22893_HoneyPoC2)
 - [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
-- [byteofandri/CVE-2021-22893](https://github.com/byteofandri/CVE-2021-22893)
+- [orangmuda/CVE-2021-22893](https://github.com/orangmuda/CVE-2021-22893)
 
 ### CVE-2021-22911 (2021-05-27)
 
@@ -2193,7 +2199,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [0xf4n9x/CVE-2021-26084](https://github.com/0xf4n9x/CVE-2021-26084)
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
-- [byteofandri/CVE-2021-26084](https://github.com/byteofandri/CVE-2021-26084)
+- [orangmuda/CVE-2021-26084](https://github.com/orangmuda/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
@@ -2796,7 +2802,7 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [byteofandri/CVE-2021-30573](https://github.com/byteofandri/CVE-2021-30573)
+- [orangmuda/CVE-2021-30573](https://github.com/orangmuda/CVE-2021-30573)
 
 ### CVE-2021-30632 (2021-10-08)
 
@@ -3304,7 +3310,7 @@ Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote att
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
-- [byteofandri/CVE-2021-38314](https://github.com/byteofandri/CVE-2021-38314)
+- [orangmuda/CVE-2021-38314](https://github.com/orangmuda/CVE-2021-38314)
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
@@ -3618,6 +3624,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [cryst4lliz3/CVE-2021-41773](https://github.com/cryst4lliz3/CVE-2021-41773)
 - [Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773)
 - [N3w-elf/CVE-2021-41773-](https://github.com/N3w-elf/CVE-2021-41773-)
+- [puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773)
 
 ### CVE-2021-41777
 - [awsassets/CVE-2021-41777](https://github.com/awsassets/CVE-2021-41777)
@@ -5267,7 +5274,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 - [Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796)
-- [byteofandri/CVE-2020-0796](https://github.com/byteofandri/CVE-2020-0796)
+- [orangmuda/CVE-2020-0796](https://github.com/orangmuda/CVE-2020-0796)
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
@@ -6725,7 +6732,7 @@ index.php?p=/dashboard/settings/branding in Vanilla 2.6.3 allows stored XSS.
 In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) did not properly restrict the register bounds for 32-bit operations, leading to out-of-bounds reads and writes in kernel memory. The vulnerability also affects the Linux 5.4 stable series, starting with v5.4.7, as the introducing commit was backported to that branch. This vulnerability was fixed in 5.6.1, 5.5.14, and 5.4.29. (issue is aka ZDI-CAN-10780)
 </code>
 
-- [Prabhashaka/IT19147192-CVE-2020-8835](https://github.com/Prabhashaka/IT19147192-CVE-2020-8835)
+- [Prabhashaka/Exploitation-CVE-2020-8835](https://github.com/Prabhashaka/Exploitation-CVE-2020-8835)
 - [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
 - [zilong3033/CVE-2020-8835](https://github.com/zilong3033/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
@@ -12749,7 +12756,7 @@ admin/includes/class.import.snippet.php in the &quot;Woody ad snippets&quot; plu
 </code>
 
 - [GeneralEG/CVE-2019-15858](https://github.com/GeneralEG/CVE-2019-15858)
-- [byteofandri/CVE-2019-15858](https://github.com/byteofandri/CVE-2019-15858)
+- [orangmuda/CVE-2019-15858](https://github.com/orangmuda/CVE-2019-15858)
 
 ### CVE-2019-15972 (2019-11-25)
 
@@ -16158,7 +16165,7 @@ Adobe ColdFusion versions July 12 release (2018.0.0.310739), Update 6 and earlie
 - [cved-sources/cve-2018-15961](https://github.com/cved-sources/cve-2018-15961)
 - [0xAJ2K/CVE-2018-15961](https://github.com/0xAJ2K/CVE-2018-15961)
 - [xbufu/CVE-2018-15961](https://github.com/xbufu/CVE-2018-15961)
-- [byteofandri/CVE-2018-15961](https://github.com/byteofandri/CVE-2018-15961)
+- [orangmuda/CVE-2018-15961](https://github.com/orangmuda/CVE-2018-15961)
 
 ### CVE-2018-15968 (2018-10-12)
 
@@ -17601,6 +17608,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [jptr218/struts_hack](https://github.com/jptr218/struts_hack)
 - [testpilot031/vulnerability_struts-2.3.31](https://github.com/testpilot031/vulnerability_struts-2.3.31)
 - [readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638)
+- [Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
