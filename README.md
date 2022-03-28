@@ -821,6 +821,9 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 
 - [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
 
+### CVE-2022-26269
+- [nsbogam/CVE-2022-26269](https://github.com/nsbogam/CVE-2022-26269)
+
 ### CVE-2022-26318 (2022-03-04)
 
 <code>
@@ -9863,13 +9866,13 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [Gh0st0ne/rdpscan-BlueKeep](https://github.com/Gh0st0ne/rdpscan-BlueKeep)
 - [algo7/bluekeep_CVE-2019-0708_poc_to_exploit](https://github.com/algo7/bluekeep_CVE-2019-0708_poc_to_exploit)
 - [JasonLOU/CVE-2019-0708](https://github.com/JasonLOU/CVE-2019-0708)
-- [shun-gg/CVE-2019-0708](https://github.com/shun-gg/CVE-2019-0708)
 - [AdministratorGithub/CVE-2019-0708](https://github.com/AdministratorGithub/CVE-2019-0708)
 - [umarfarook882/CVE-2019-0708](https://github.com/umarfarook882/CVE-2019-0708)
 - [HynekPetrak/detect_bluekeep.py](https://github.com/HynekPetrak/detect_bluekeep.py)
 - [Pa55w0rd/CVE-2019-0708](https://github.com/Pa55w0rd/CVE-2019-0708)
 - [at0mik/CVE-2019-0708-PoC](https://github.com/at0mik/CVE-2019-0708-PoC)
 - [cream-sec/CVE-2019-0708-Msf--](https://github.com/cream-sec/CVE-2019-0708-Msf--)
+- [ZhaoYukai/CVE-2019-0708](https://github.com/ZhaoYukai/CVE-2019-0708)
 - [ZhaoYukai/CVE-2019-0708-Batch-Blue-Screen](https://github.com/ZhaoYukai/CVE-2019-0708-Batch-Blue-Screen)
 - [wdfcc/CVE-2019-0708](https://github.com/wdfcc/CVE-2019-0708)
 - [cvencoder/cve-2019-0708](https://github.com/cvencoder/cve-2019-0708)
@@ -22332,7 +22335,6 @@ active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.
 - [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
 - [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
-- [Atreb92/CVE-2013-0156](https://github.com/Atreb92/CVE-2013-0156)
 
 ### CVE-2013-0229 (2013-01-31)
 
