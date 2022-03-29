@@ -445,6 +445,15 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [viemsr/spring_cloud_gateway_memshell](https://github.com/viemsr/spring_cloud_gateway_memshell)
 - [Enokiy/cve-2022-22947-spring-cloud-gateway](https://github.com/Enokiy/cve-2022-22947-spring-cloud-gateway)
 - [Nathaniel1025/CVE-2022-22947](https://github.com/Nathaniel1025/CVE-2022-22947)
+- [Vancomycin-g/CVE-2022-22947](https://github.com/Vancomycin-g/CVE-2022-22947)
+
+### CVE-2022-22948 (-)
+
+<code>
+The vCenter Server contains an information disclosure vulnerability due to improper permission of files. A malicious actor with non-administrative access to the vCenter Server may exploit this issue to gain access to sensitive information.
+</code>
+
+- [PenteraIO/CVE-2022-22948](https://github.com/PenteraIO/CVE-2022-22948)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -634,8 +643,10 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code execution by modifying HKEY_CURRENT_USER in the registry.
 </code>
 
-- [shakeman8/CVE-2022-24934](https://github.com/shakeman8/CVE-2022-24934)
+- [nanaao/CVE-2022-24934](https://github.com/nanaao/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
+- [tzwlhack/WPS-CVE-2022-24934](https://github.com/tzwlhack/WPS-CVE-2022-24934)
+- [tzwlhack/CVE-2022-24934](https://github.com/tzwlhack/CVE-2022-24934)
 
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
@@ -836,6 +847,14 @@ On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute ar
 </code>
 
 - [misterxid/watchguard_cve-2022-26318](https://github.com/misterxid/watchguard_cve-2022-26318)
+
+### CVE-2022-26500 (2022-03-17)
+
+<code>
+Improper limitation of path names in Veeam Backup &amp; Replication 9.5U3, 9.5U4,10.x, and 11.x allows remote authenticated users access to internal API functions that allows attackers to upload and execute arbitrary code.
+</code>
+
+- [sinsinology/CVE-2022-26500](https://github.com/sinsinology/CVE-2022-26500)
 
 ### CVE-2022-26503 (2022-03-17)
 
@@ -1607,6 +1626,7 @@ Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018
 </code>
 
 - [ZeusBox/CVE-2021-21017](https://github.com/ZeusBox/CVE-2021-21017)
+- [tzwlhack/CVE-2021-21017](https://github.com/tzwlhack/CVE-2021-21017)
 
 ### CVE-2021-21042 (2021-02-11)
 
@@ -2595,7 +2615,6 @@ The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 ha
 </code>
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
-- [Jeromeyoung/CVE-2021-27965](https://github.com/Jeromeyoung/CVE-2021-27965)
 
 ### CVE-2021-28079 (2021-04-26)
 
@@ -3429,9 +3448,6 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 
 - [maikroservice/CVE-2021-40373](https://github.com/maikroservice/CVE-2021-40373)
 
-### CVE-2021-40375
-- [DCKento/CVE-2021-40375](https://github.com/DCKento/CVE-2021-40375)
-
 ### CVE-2021-40438 (2021-09-16)
 
 <code>
@@ -4135,6 +4151,14 @@ A command injection vulnerability in the function formImportOMCIShell of C-DATA 
 </code>
 
 - [exploitwritter/CVE-2021-44132](https://github.com/exploitwritter/CVE-2021-44132)
+
+### CVE-2021-44142 (2022-02-21)
+
+<code>
+The Samba vfs_fruit module uses extended file attributes (EA, xattr) to provide &quot;...enhanced compatibility with Apple SMB clients and interoperability with a Netatalk 3 AFP fileserver.&quot; Samba versions prior to 4.13.17, 4.14.12 and 4.15.5 with vfs_fruit configured allow out-of-bounds heap read and write via specially crafted extended file attributes. A remote attacker with write access to extended file attributes can execute arbitrary code with the privileges of smbd, typically root.
+</code>
+
+- [hrsman/Samba-CVE-2021-44142](https://github.com/hrsman/Samba-CVE-2021-44142)
 
 ### CVE-2021-44217 (2022-01-18)
 
@@ -5015,6 +5039,9 @@ In reset of NuPlayerDriver.cpp, there is a possible use-after-free due to improp
 
 - [pazhanivel07/frameworks_av-10-r33_CVE-2020-0242](https://github.com/pazhanivel07/frameworks_av-10-r33_CVE-2020-0242)
 
+### CVE-2020-029370
+- [nanopathi/CVE-2020-029370_AFTPATCH](https://github.com/nanopathi/CVE-2020-029370_AFTPATCH)
+
 ### CVE-2020-0443 (2020-11-10)
 
 <code>
@@ -5859,6 +5886,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [CrackerCat/CVE-2020-3187](https://github.com/CrackerCat/CVE-2020-3187)
 - [1337in/CVE-2020-3187](https://github.com/1337in/CVE-2020-3187)
 - [sujaygr8/CVE-2020-3187](https://github.com/sujaygr8/CVE-2020-3187)
+- [T4t4ru/CVE-2020-3187](https://github.com/T4t4ru/CVE-2020-3187)
 
 ### CVE-2020-3433 (2020-08-17)
 
@@ -9455,6 +9483,7 @@ An issue was discovered in kmem_cache_alloc_bulk in mm/slub.c in the Linux kerne
 </code>
 
 - [nanopathi/kERNEL_GIT_TORVALDS_AFP_CVE-2020-29370](https://github.com/nanopathi/kERNEL_GIT_TORVALDS_AFP_CVE-2020-29370)
+- [nanopathi/CVE-2020-29370_AFTERFIX](https://github.com/nanopathi/CVE-2020-29370_AFTERFIX)
 
 ### CVE-2020-29583 (2020-12-22)
 
@@ -15708,7 +15737,7 @@ Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remo
 
 - [trbpnd/CVE-2018-11776](https://github.com/trbpnd/CVE-2018-11776)
 - [xfox64x/CVE-2018-11776](https://github.com/xfox64x/CVE-2018-11776)
-- [jiguangfuture/CVE-2018-11776](https://github.com/jiguangfuture/CVE-2018-11776)
+- [jiguangsdf/CVE-2018-11776](https://github.com/jiguangsdf/CVE-2018-11776)
 - [hook-s3c/CVE-2018-11776-Python-PoC](https://github.com/hook-s3c/CVE-2018-11776-Python-PoC)
 - [mazen160/struts-pwn_CVE-2018-11776](https://github.com/mazen160/struts-pwn_CVE-2018-11776)
 - [bhdresh/CVE-2018-11776](https://github.com/bhdresh/CVE-2018-11776)
