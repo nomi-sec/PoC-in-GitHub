@@ -821,7 +821,12 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 
 - [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
 
-### CVE-2022-26269
+### CVE-2022-26269 (2022-03-28)
+
+<code>
+Suzuki Connect v1.0.15 allows attackers to tamper with displayed messages via spoofed CAN messages.
+</code>
+
 - [nsbogam/CVE-2022-26269](https://github.com/nsbogam/CVE-2022-26269)
 
 ### CVE-2022-26318 (2022-03-04)
@@ -1517,6 +1522,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [mtthwstffrd/berdav-CVE-2021-4034](https://github.com/mtthwstffrd/berdav-CVE-2021-4034)
 - [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
+- [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -3422,9 +3428,6 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 </code>
 
 - [maikroservice/CVE-2021-40373](https://github.com/maikroservice/CVE-2021-40373)
-
-### CVE-2021-40374
-- [DCKento/CVE-2021-40374](https://github.com/DCKento/CVE-2021-40374)
 
 ### CVE-2021-40375
 - [DCKento/CVE-2021-40375](https://github.com/DCKento/CVE-2021-40375)
