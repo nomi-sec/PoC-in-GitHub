@@ -830,7 +830,6 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute arbitrary code, aka FBX-22786. This vulnerability impacts Fireware OS before 12.7.2_U2, 12.x before 12.1.3_U8, and 12.2.x through 12.5.x before 12.5.9_U2.
 </code>
 
-- [Throns1956/watchguard_cve-2022-26318](https://github.com/Throns1956/watchguard_cve-2022-26318)
 - [misterxid/watchguard_cve-2022-26318](https://github.com/misterxid/watchguard_cve-2022-26318)
 
 ### CVE-2022-26503 (2022-03-17)
@@ -868,6 +867,14 @@ The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal 
 </code>
 
 - [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
+
+### CVE-2022-27666 (2022-03-23)
+
+<code>
+A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ipv4/esp4.c and net/ipv6/esp6.c. This flaw allows a local attacker with a normal user privilege to overwrite kernel heap objects and may cause a local privilege escalation threat.
+</code>
+
+- [plummm/CVE-2022-27666](https://github.com/plummm/CVE-2022-27666)
 
 ### CVE-2022-27927
 - [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
@@ -1509,6 +1516,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Hifumi1337/CVE-2021-4034](https://github.com/Hifumi1337/CVE-2021-4034)
 - [mtthwstffrd/berdav-CVE-2021-4034](https://github.com/mtthwstffrd/berdav-CVE-2021-4034)
 - [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
+- [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -1928,7 +1936,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
 - [antx-code/CVE-2021-22205](https://github.com/antx-code/CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
-- [findneo/GitLab-preauth-RCE_CVE-2021-22205](https://github.com/findneo/GitLab-preauth-RCE_CVE-2021-22205)
 - [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
 - [AkBanner/CVE-2021-22205](https://github.com/AkBanner/CVE-2021-22205)
@@ -2120,6 +2127,9 @@ The WP Visitor Statistics (Real Time Traffic) WordPress plugin before 4.8 does n
 </code>
 
 - [fimtow/CVE-2021-24750](https://github.com/fimtow/CVE-2021-24750)
+
+### CVE-2021-25094
+- [darkpills/CVE-2021-25094-tatsu-preauth-rce](https://github.com/darkpills/CVE-2021-25094-tatsu-preauth-rce)
 
 ### CVE-2021-25281 (2021-02-26)
 
@@ -2353,7 +2363,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [Flangvik/SharpProxyLogon](https://github.com/Flangvik/SharpProxyLogon)
 - [hosch3n/ProxyVulns](https://github.com/hosch3n/ProxyVulns)
 - [Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522)
-- [yaoxiaoangry3/Flangvik](https://github.com/yaoxiaoangry3/Flangvik)
 - [thau0x01/poc_proxylogon](https://github.com/thau0x01/poc_proxylogon)
 
 ### CVE-2021-26856
@@ -16869,6 +16878,7 @@ In glibc 2.26 and earlier there is confusion in the usage of getcwd() by realpat
 </code>
 
 - [0x00-0x00/CVE-2018-1000001](https://github.com/0x00-0x00/CVE-2018-1000001)
+- [usernameid0/tools-for-CVE-2018-1000001](https://github.com/usernameid0/tools-for-CVE-2018-1000001)
 
 ### CVE-2018-1000006 (2018-01-24)
 
