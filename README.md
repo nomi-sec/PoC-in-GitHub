@@ -5023,6 +5023,16 @@ In LocaleList of LocaleList.java, there is a possible forced reboot due to an un
 
 - [Supersonic/CVE-2020-0443](https://github.com/Supersonic/CVE-2020-0443)
 
+### CVE-2020-0453 (2020-11-10)
+
+<code>
+In updateNotification of BeamTransferManager.java, there is a possible permission bypass due to an unsafe PendingIntent. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-8.0 Android-8.1Android ID: A-159060474
+</code>
+
+- [pazhanivel07/Nfc_CVE-2020-0453](https://github.com/pazhanivel07/Nfc_CVE-2020-0453)
+- [nanopathi/Packages_apps_Nfc_CVE-2020-0453](https://github.com/nanopathi/Packages_apps_Nfc_CVE-2020-0453)
+- [Trinadh465/Nfc-CVE-2020-0453](https://github.com/Trinadh465/Nfc-CVE-2020-0453)
+
 ### CVE-2020-0551 (2020-03-12)
 
 <code>
@@ -5651,7 +5661,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Umesh2807/Ghostcat](https://github.com/Umesh2807/Ghostcat)
 - [MateoSec/ghostcatch](https://github.com/MateoSec/ghostcatch)
 - [kukudechen-chen/cve-2020-1938](https://github.com/kukudechen-chen/cve-2020-1938)
-- [YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE](https://github.com/YU5Z8X2CvH1fv4ep/CVE-2020-1938-MSF-MODULE)
+- [acodervic/CVE-2020-1938-MSF-MODULE](https://github.com/acodervic/CVE-2020-1938-MSF-MODULE)
 - [Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat](https://github.com/Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat)
 - [streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938)
 - [Neko-chanQwQ/CVE-2020-1938](https://github.com/Neko-chanQwQ/CVE-2020-1938)
@@ -9437,6 +9447,14 @@ In NetArt News Lister 1.0.0, the news headlines vulnerable to stored xss attacks
 </code>
 
 - [aslanemre/CVE-2020-29364](https://github.com/aslanemre/CVE-2020-29364)
+
+### CVE-2020-29370 (2020-11-28)
+
+<code>
+An issue was discovered in kmem_cache_alloc_bulk in mm/slub.c in the Linux kernel before 5.5.11. The slowpath lacks the required TID increment, aka CID-fd4d9c7d0c71.
+</code>
+
+- [nanopathi/kERNEL_GIT_TORVALDS_AFP_CVE-2020-29370](https://github.com/nanopathi/kERNEL_GIT_TORVALDS_AFP_CVE-2020-29370)
 
 ### CVE-2020-29583 (2020-12-22)
 
