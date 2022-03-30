@@ -84,7 +84,6 @@ The BN_mod_sqrt() function, which computes a modular square root, contains a bug
 </code>
 
 - [drago-96/CVE-2022-0778](https://github.com/drago-96/CVE-2022-0778)
-- [BobTheShoplifter/CVE-2022-0778-POC](https://github.com/BobTheShoplifter/CVE-2022-0778-POC)
 
 ### CVE-2022-0811 (2022-03-16)
 
@@ -461,6 +460,7 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 
 ### CVE-2022-22963
 - [dinosn/CVE-2022-22963](https://github.com/dinosn/CVE-2022-22963)
+- [RanDengShiFu/CVE-2022-22963](https://github.com/RanDengShiFu/CVE-2022-22963)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -548,6 +548,14 @@ This affects the package node-ipc from 10.1.1 and before 10.1.3. This package co
 </code>
 
 - [scriptzteam/node-ipc-malware-protestware-CVE-2022-23812](https://github.com/scriptzteam/node-ipc-malware-protestware-CVE-2022-23812)
+
+### CVE-2022-23884 (2022-03-28)
+
+<code>
+Mojang Bedrock Dedicated Server 1.18.2 is affected by an integer overflow leading to a bound check bypass caused by PurchaseReceiptPacket::_read (packet deserializer).
+</code>
+
+- [LuckyDogDog/CVE-2022-23884](https://github.com/LuckyDogDog/CVE-2022-23884)
 
 ### CVE-2022-23940 (2022-03-07)
 
@@ -656,7 +664,6 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 
 - [nanaao/CVE-2022-24934](https://github.com/nanaao/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
-- [tzwlhack/WPS-CVE-2022-24934](https://github.com/tzwlhack/WPS-CVE-2022-24934)
 
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
@@ -910,9 +917,6 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 
 - [plummm/CVE-2022-27666](https://github.com/plummm/CVE-2022-27666)
 
-### CVE-2022-27927
-- [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
-
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
@@ -985,7 +989,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675)
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
-- [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
 - [AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675)
@@ -2627,14 +2630,6 @@ The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 ha
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
 
-### CVE-2021-28079 (2021-04-26)
-
-<code>
-Jamovi &lt;=1.6.18 is affected by a cross-site scripting (XSS) vulnerability. The column-name is vulnerable to XSS in the ElectronJS Framework. An attacker can make a .omv (Jamovi) document containing a payload. When opened by victim, the payload is triggered.
-</code>
-
-- [g33xter/CVE-2021-28079](https://github.com/g33xter/CVE-2021-28079)
-
 ### CVE-2021-28310 (2021-04-13)
 
 <code>
@@ -2669,6 +2664,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 </code>
 
 - [ZephrFish/CVE-2021-28480_HoneyPoC3](https://github.com/ZephrFish/CVE-2021-28480_HoneyPoC3)
+- [Threonic/CVE-2021-28480](https://github.com/Threonic/CVE-2021-28480)
 
 ### CVE-2021-28482 (2021-04-13)
 
@@ -3627,6 +3623,14 @@ Microsoft Edge (Chrome based) Spoofing on IE Mode
 </code>
 
 - [JaneMandy/CVE-2021-41351-POC](https://github.com/JaneMandy/CVE-2021-41351-POC)
+
+### CVE-2021-41652 (2022-03-01)
+
+<code>
+Insecure permissions in the file database.sdb of BatFlat CMS v1.3.6 allows attackers to dump the entire database.
+</code>
+
+- [LeoBreaker1411/CVE-2021-41652](https://github.com/LeoBreaker1411/CVE-2021-41652)
 
 ### CVE-2021-41653 (2021-11-13)
 
@@ -5048,9 +5052,7 @@ In reset of NuPlayerDriver.cpp, there is a possible use-after-free due to improp
 </code>
 
 - [pazhanivel07/frameworks_av-10-r33_CVE-2020-0242](https://github.com/pazhanivel07/frameworks_av-10-r33_CVE-2020-0242)
-
-### CVE-2020-029370
-- [nanopathi/CVE-2020-029370_AFTPATCH](https://github.com/nanopathi/CVE-2020-029370_AFTPATCH)
+- [pazhanivel07/frameworks_av-CVE-2020-0242_CVE-2020-0243](https://github.com/pazhanivel07/frameworks_av-CVE-2020-0242_CVE-2020-0243)
 
 ### CVE-2020-0443 (2020-11-10)
 
@@ -6669,6 +6671,14 @@ The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the 
 - [Rapidsafeguard/codesnippets_CVE-2020-8417](https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417)
 - [Vulnmachines/WordPress_CVE-2020-8417](https://github.com/Vulnmachines/WordPress_CVE-2020-8417)
 
+### CVE-2020-8428 (2020-01-28)
+
+<code>
+fs/namei.c in the Linux kernel before 5.5 has a may_create_in_sticky use-after-free, which allows local users to cause a denial of service (OOPS) or possibly obtain sensitive information from kernel memory, aka CID-d0cb50185ae9. One attack vector may be an open system call for a UNIX domain socket, if the socket is being moved to a new parent directory and its old parent directory is being removed.
+</code>
+
+- [Satheesh575555/linux-4.19.72_CVE-2020-8428](https://github.com/Satheesh575555/linux-4.19.72_CVE-2020-8428)
+
 ### CVE-2020-8437 (2020-03-02)
 
 <code>
@@ -7234,6 +7244,14 @@ A vulnerability was found in all versions of containernetworking/plugins before 
 </code>
 
 - [knqyf263/CVE-2020-10749](https://github.com/knqyf263/CVE-2020-10749)
+
+### CVE-2020-10757 (2020-06-09)
+
+<code>
+A flaw was found in the Linux Kernel in versions after 4.5-rc1 in the way mremap handled DAX Huge Pages. This flaw allows a local attacker with access to a DAX enabled storage to escalate their privileges on the system.
+</code>
+
+- [ShaikUsaf/linux-4.19.72_CVE-2020-10757](https://github.com/ShaikUsaf/linux-4.19.72_CVE-2020-10757)
 
 ### CVE-2020-10759 (2020-09-15)
 
@@ -9030,6 +9048,7 @@ A flaw in ICMP packets in the Linux kernel may allow an attacker to quickly scan
 </code>
 
 - [tdwyer/CVE-2020-25705](https://github.com/tdwyer/CVE-2020-25705)
+- [nanopathi/linux-4.19.72_CVE-2020-25705](https://github.com/nanopathi/linux-4.19.72_CVE-2020-25705)
 
 ### CVE-2020-25747 (2020-09-24)
 
@@ -9495,15 +9514,21 @@ In NetArt News Lister 1.0.0, the news headlines vulnerable to stored xss attacks
 
 - [aslanemre/CVE-2020-29364](https://github.com/aslanemre/CVE-2020-29364)
 
+### CVE-2020-29368 (2020-11-28)
+
+<code>
+An issue was discovered in __split_huge_pmd in mm/huge_memory.c in the Linux kernel before 5.7.5. The copy-on-write implementation can grant unintended write access because of a race condition in a THP mapcount check, aka CID-c444eb564fb1.
+</code>
+
+- [Satheesh575555/linux-4.19.72_CVE-2020-29368](https://github.com/Satheesh575555/linux-4.19.72_CVE-2020-29368)
+
 ### CVE-2020-29370 (2020-11-28)
 
 <code>
 An issue was discovered in kmem_cache_alloc_bulk in mm/slub.c in the Linux kernel before 5.5.11. The slowpath lacks the required TID increment, aka CID-fd4d9c7d0c71.
 </code>
 
-- [nanopathi/kERNEL_GIT_TORVALDS_AFP_CVE-2020-29370](https://github.com/nanopathi/kERNEL_GIT_TORVALDS_AFP_CVE-2020-29370)
-- [nanopathi/CVE-2020-29370_AFTERFIX](https://github.com/nanopathi/CVE-2020-29370_AFTERFIX)
-- [nanopathi/KERNEL_CVE-2020-29370_FIX](https://github.com/nanopathi/KERNEL_CVE-2020-29370_FIX)
+- [nanopathi/linux-4.19.72_CVE-2020-29370](https://github.com/nanopathi/linux-4.19.72_CVE-2020-29370)
 
 ### CVE-2020-29583 (2020-12-22)
 
@@ -13408,6 +13433,14 @@ An insecure file access vulnerability exists in CA Client Automation 14.0, 14.1,
 </code>
 
 - [hessandrew/CVE-2019-19231](https://github.com/hessandrew/CVE-2019-19231)
+
+### CVE-2019-19252 (2019-11-25)
+
+<code>
+vcs_write in drivers/tty/vt/vc_screen.c in the Linux kernel through 5.3.13 does not prevent write access to vcsu devices, aka CID-0c9acb1af77a.
+</code>
+
+- [Satheesh575555/linux-4.19.72_CVE-2019-19252](https://github.com/Satheesh575555/linux-4.19.72_CVE-2019-19252)
 
 ### CVE-2019-19268
 - [TheCyberGeek/CVE-2019-19268](https://github.com/TheCyberGeek/CVE-2019-19268)
