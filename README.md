@@ -187,6 +187,9 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
 
+### CVE-2022-1096
+- [Maverick-cmd/Chrome-and-Edge-Version-Dumper](https://github.com/Maverick-cmd/Chrome-and-Edge-Version-Dumper)
+
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
 
@@ -410,7 +413,6 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 
 - [lucksec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/lucksec/Spring-Cloud-Gateway-CVE-2022-22947)
 - [scopion/cve-2022-22947](https://github.com/scopion/cve-2022-22947)
-- [shakeman8/CVE-2022-22947-RCE](https://github.com/shakeman8/CVE-2022-22947-RCE)
 - [Vulnmachines/spring-cve-2022-22947](https://github.com/Vulnmachines/spring-cve-2022-22947)
 - [Axx8/CVE-2022-22947_Rce_Exp](https://github.com/Axx8/CVE-2022-22947_Rce_Exp)
 - [crowsec-edtech/CVE-2022-22947](https://github.com/crowsec-edtech/CVE-2022-22947)
@@ -420,6 +422,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Summer177/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947)
 - [BerMalBerIst/CVE-2022-22947](https://github.com/BerMalBerIst/CVE-2022-22947)
 - [york-cmd/CVE-2022-22947-goby](https://github.com/york-cmd/CVE-2022-22947-goby)
+- [awsassets/CVE-2022-22947-RCE](https://github.com/awsassets/CVE-2022-22947-RCE)
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 - [dingxiao77/-cve-2022-22947-](https://github.com/dingxiao77/-cve-2022-22947-)
 - [dbgee/CVE-2022-22947](https://github.com/dbgee/CVE-2022-22947)
@@ -447,7 +450,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Nathaniel1025/CVE-2022-22947](https://github.com/Nathaniel1025/CVE-2022-22947)
 - [Vancomycin-g/CVE-2022-22947](https://github.com/Vancomycin-g/CVE-2022-22947)
 
-### CVE-2022-22948 (-)
+### CVE-2022-22948 (2022-03-29)
 
 <code>
 The vCenter Server contains an information disclosure vulnerability due to improper permission of files. A malicious actor with non-administrative access to the vCenter Server may exploit this issue to gain access to sensitive information.
@@ -573,7 +576,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 </code>
 
 - [Mr-xn/CVE-2022-24086](https://github.com/Mr-xn/CVE-2022-24086)
-- [shakeman8/CVE-2022-24086-RCE](https://github.com/shakeman8/CVE-2022-24086-RCE)
+- [nanaao/CVE-2022-24086-RCE](https://github.com/nanaao/CVE-2022-24086-RCE)
 - [k0zulzr/CVE-2022-24086-RCE](https://github.com/k0zulzr/CVE-2022-24086-RCE)
 
 ### CVE-2022-24087
@@ -585,7 +588,6 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 An attacker can abuse the batch-requests plugin to send requests to bypass the IP restriction of Admin API. A default configuration of Apache APISIX (with default API key) is vulnerable to remote code execution. When the admin key was changed or the port of Admin API was changed to a port different from the data panel, the impact is lower. But there is still a risk to bypass the IP restriction of Apache APISIX's data panel. There is a check in the batch-requests plugin which overrides the client IP with its real remote IP. But due to a bug in the code, this check can be bypassed.
 </code>
 
-- [shakeman8/CVE-2022-24112](https://github.com/shakeman8/CVE-2022-24112)
 - [Mr-xn/CVE-2022-24112](https://github.com/Mr-xn/CVE-2022-24112)
 - [Udyz/CVE-2022-24112](https://github.com/Udyz/CVE-2022-24112)
 - [Axx8/CVE-2022-24112](https://github.com/Axx8/CVE-2022-24112)
@@ -646,7 +648,6 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 - [nanaao/CVE-2022-24934](https://github.com/nanaao/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
 - [tzwlhack/WPS-CVE-2022-24934](https://github.com/tzwlhack/WPS-CVE-2022-24934)
-- [tzwlhack/CVE-2022-24934](https://github.com/tzwlhack/CVE-2022-24934)
 
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
@@ -1072,6 +1073,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
 - [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
+- [coco0x0a/CVE-2021-2109](https://github.com/coco0x0a/CVE-2021-2109)
 
 ### CVE-2021-2119 (2021-01-20)
 
@@ -3465,7 +3467,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
-- [0xK4gura/CVE-2021-40444-POC](https://github.com/0xK4gura/CVE-2021-40444-POC)
 - [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
 - [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
 - [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
@@ -4159,6 +4160,7 @@ The Samba vfs_fruit module uses extended file attributes (EA, xattr) to provide 
 </code>
 
 - [hrsman/Samba-CVE-2021-44142](https://github.com/hrsman/Samba-CVE-2021-44142)
+- [horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142)
 
 ### CVE-2021-44217 (2022-01-18)
 
@@ -4452,7 +4454,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [immunityinc/Log4j-JNDIServer](https://github.com/immunityinc/Log4j-JNDIServer)
 - [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
 - [Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce)
-- [shakeman8/log4j_getshell](https://github.com/shakeman8/log4j_getshell)
 - [suniastar/scan-log4shell](https://github.com/suniastar/scan-log4shell)
 - [shivakumarjayaraman/log4jvulnerability-CVE-2021-44228](https://github.com/shivakumarjayaraman/log4jvulnerability-CVE-2021-44228)
 - [j3kz/CVE-2021-44228-PoC](https://github.com/j3kz/CVE-2021-44228-PoC)
@@ -4706,9 +4707,9 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 
 - [Osyanina/westone-CVE-2021-45232-scanner](https://github.com/Osyanina/westone-CVE-2021-45232-scanner)
 - [badboycxcc/CVE-2021-45232-POC](https://github.com/badboycxcc/CVE-2021-45232-POC)
-- [shakeman8/CVE-2021-45232-RCE](https://github.com/shakeman8/CVE-2021-45232-RCE)
 - [LTiDi2000/CVE-2021-45232](https://github.com/LTiDi2000/CVE-2021-45232)
 - [Ilovewomen/cve-2021-45232](https://github.com/Ilovewomen/cve-2021-45232)
+- [jxpsx/CVE-2021-45232-RCE](https://github.com/jxpsx/CVE-2021-45232-RCE)
 - [Ifory885/CVE-2021-45232](https://github.com/Ifory885/CVE-2021-45232)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
 - [itxfahdi/-cve-2021-45232](https://github.com/itxfahdi/-cve-2021-45232)
@@ -5626,6 +5627,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [mtthwstffrd/dirkjanm-CVE-2020-1472](https://github.com/mtthwstffrd/dirkjanm-CVE-2020-1472)
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
+- [Nekoox/zerologon](https://github.com/Nekoox/zerologon)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -11394,6 +11396,7 @@ SQL injection vulnerability in the J2Store plugin 3.x before 3.3.7 for Joomla! a
 </code>
 
 - [wkjung0624/CVE-2019-9193](https://github.com/wkjung0624/CVE-2019-9193)
+- [b4keSn4ke/CVE-2019-9193](https://github.com/b4keSn4ke/CVE-2019-9193)
 
 ### CVE-2019-9194 (2019-02-26)
 
