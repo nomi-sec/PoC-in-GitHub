@@ -449,6 +449,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Enokiy/cve-2022-22947-spring-cloud-gateway](https://github.com/Enokiy/cve-2022-22947-spring-cloud-gateway)
 - [Nathaniel1025/CVE-2022-22947](https://github.com/Nathaniel1025/CVE-2022-22947)
 - [Vancomycin-g/CVE-2022-22947](https://github.com/Vancomycin-g/CVE-2022-22947)
+- [bigbigban1/CVE-2022-22947-exp](https://github.com/bigbigban1/CVE-2022-22947-exp)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -457,6 +458,9 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 </code>
 
 - [PenteraIO/CVE-2022-22948](https://github.com/PenteraIO/CVE-2022-22948)
+
+### CVE-2022-22963
+- [dinosn/CVE-2022-22963](https://github.com/dinosn/CVE-2022-22963)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -636,7 +640,12 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 
 - [gerr-re/cve-2022-24644](https://github.com/gerr-re/cve-2022-24644)
 
-### CVE-2022-24693
+### CVE-2022-24693 (2022-03-29)
+
+<code>
+Baicells Nova436Q and Neutrino 430 devices with firmware through QRTB 2.7.8 have hardcoded credentials that are easily discovered, and can be used by remote attackers to authenticate via ssh. (The credentials are stored in the firmware, encrypted by the crypt function.)
+</code>
+
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
 
 ### CVE-2022-24934 (2022-03-23)
@@ -8982,6 +8991,14 @@ ThinkAdmin v6 is affected by a directory traversal vulnerability. An unauthorize
 - [Schira4396/CVE-2020-25540](https://github.com/Schira4396/CVE-2020-25540)
 - [Rajchowdhury420/ThinkAdmin-CVE-2020-25540](https://github.com/Rajchowdhury420/ThinkAdmin-CVE-2020-25540)
 
+### CVE-2020-25613 (2020-10-06)
+
+<code>
+An issue was discovered in Ruby through 2.5.8, 2.6.x through 2.6.6, and 2.7.x through 2.7.1. WEBrick, a simple HTTP server bundled with Ruby, had not checked the transfer-encoding header value rigorously. An attacker may potentially exploit this issue to bypass a reverse proxy (which also has a poor header check), which may lead to an HTTP Request Smuggling attack.
+</code>
+
+- [metapox/CVE-2020-25613](https://github.com/metapox/CVE-2020-25613)
+
 ### CVE-2020-25627 (2020-12-08)
 
 <code>
@@ -9486,6 +9503,7 @@ An issue was discovered in kmem_cache_alloc_bulk in mm/slub.c in the Linux kerne
 
 - [nanopathi/kERNEL_GIT_TORVALDS_AFP_CVE-2020-29370](https://github.com/nanopathi/kERNEL_GIT_TORVALDS_AFP_CVE-2020-29370)
 - [nanopathi/CVE-2020-29370_AFTERFIX](https://github.com/nanopathi/CVE-2020-29370_AFTERFIX)
+- [nanopathi/KERNEL_CVE-2020-29370_FIX](https://github.com/nanopathi/KERNEL_CVE-2020-29370_FIX)
 
 ### CVE-2020-29583 (2020-12-22)
 
