@@ -417,14 +417,13 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [crowsec-edtech/CVE-2022-22947](https://github.com/crowsec-edtech/CVE-2022-22947)
 - [Tas9er/SpringCloudGatewayRCE](https://github.com/Tas9er/SpringCloudGatewayRCE)
 - [Greetdawn/CVE-2022-22947](https://github.com/Greetdawn/CVE-2022-22947)
-- [helloexp/CVE-2022-22947](https://github.com/helloexp/CVE-2022-22947)
 - [Summer177/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947)
 - [BerMalBerIst/CVE-2022-22947](https://github.com/BerMalBerIst/CVE-2022-22947)
 - [york-cmd/CVE-2022-22947-goby](https://github.com/york-cmd/CVE-2022-22947-goby)
 - [awsassets/CVE-2022-22947-RCE](https://github.com/awsassets/CVE-2022-22947-RCE)
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 - [dingxiao77/-cve-2022-22947-](https://github.com/dingxiao77/-cve-2022-22947-)
-- [dbgee/CVE-2022-22947](https://github.com/dbgee/CVE-2022-22947)
+- [debug4you/CVE-2022-22947](https://github.com/debug4you/CVE-2022-22947)
 - [nu0l/cve-2022-22947](https://github.com/nu0l/cve-2022-22947)
 - [chaosec2021/CVE-2022-22947-POC](https://github.com/chaosec2021/CVE-2022-22947-POC)
 - [Xd-tl/CVE-2022-22947-Rce_POC](https://github.com/Xd-tl/CVE-2022-22947-Rce_POC)
@@ -461,6 +460,9 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 ### CVE-2022-22963
 - [dinosn/CVE-2022-22963](https://github.com/dinosn/CVE-2022-22963)
 - [RanDengShiFu/CVE-2022-22963](https://github.com/RanDengShiFu/CVE-2022-22963)
+- [darryk10/CVE-2022-22963](https://github.com/darryk10/CVE-2022-22963)
+- [TheGejr/SpringShell](https://github.com/TheGejr/SpringShell)
+- [Kirill89/CVE-2022-22963-PoC](https://github.com/Kirill89/CVE-2022-22963-PoC)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -2840,14 +2842,6 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
 
-### CVE-2021-30573 (2021-08-03)
-
-<code>
-Use after free in GPU in Google Chrome prior to 92.0.4515.107 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-</code>
-
-- [orangmuda/CVE-2021-30573](https://github.com/orangmuda/CVE-2021-30573)
-
 ### CVE-2021-30632 (2021-10-08)
 
 <code>
@@ -3670,6 +3664,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773)
 - [N3w-elf/CVE-2021-41773-](https://github.com/N3w-elf/CVE-2021-41773-)
 - [puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773)
+- [spiderz0ne/CVE-2021-41773](https://github.com/spiderz0ne/CVE-2021-41773)
 
 ### CVE-2021-41777
 - [awsassets/CVE-2021-41777](https://github.com/awsassets/CVE-2021-41777)
@@ -4196,7 +4191,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
 - [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [boundaryx/cloudrasp-log4j2](https://github.com/boundaryx/cloudrasp-log4j2)
-- [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
+- [debug4you/CVE-2021-44228](https://github.com/debug4you/CVE-2021-44228)
 - [y35uishere/Log4j2-CVE-2021-44228](https://github.com/y35uishere/Log4j2-CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
@@ -5053,6 +5048,14 @@ In reset of NuPlayerDriver.cpp, there is a possible use-after-free due to improp
 
 - [pazhanivel07/frameworks_av-10-r33_CVE-2020-0242](https://github.com/pazhanivel07/frameworks_av-10-r33_CVE-2020-0242)
 - [pazhanivel07/frameworks_av-CVE-2020-0242_CVE-2020-0243](https://github.com/pazhanivel07/frameworks_av-CVE-2020-0242_CVE-2020-0243)
+
+### CVE-2020-0391 (2020-09-17)
+
+<code>
+In applyPolicy of PackageManagerService.java, there is possible arbitrary command execution as System due to an unenforced protected-broadcast. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11Android ID: A-158570769
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2020-0391](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0391)
 
 ### CVE-2020-0443 (2020-11-10)
 
@@ -7679,14 +7682,6 @@ The drag-and-drop-multiple-file-upload-contact-form-7 plugin before 1.3.3.3 for 
 </code>
 
 - [amartinsec/CVE-2020-12800](https://github.com/amartinsec/CVE-2020-12800)
-
-### CVE-2020-12812 (2020-07-24)
-
-<code>
-An improper authentication vulnerability in SSL VPN in FortiOS 6.4.0, 6.2.0 to 6.2.3, 6.0.9 and below may result in a user being able to log in successfully without being prompted for the second factor of authentication (FortiToken) if they changed the case of their username.
-</code>
-
-- [Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591](https://github.com/Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591)
 
 ### CVE-2020-12828 (2020-05-21)
 
@@ -10770,14 +10765,6 @@ OpenSLP as used in ESXi and the Horizon DaaS appliances has a heap overwrite iss
 
 - [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
-
-### CVE-2019-5591 (2020-08-14)
-
-<code>
-A Default Configuration vulnerability in FortiOS may allow an unauthenticated attacker on the same subnet to intercept sensitive information by impersonating the LDAP server.
-</code>
-
-- [Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591](https://github.com/Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591)
 
 ### CVE-2019-5624 (2019-04-30)
 
@@ -16002,7 +15989,6 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
 - [B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379)
 - [nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379)
-- [Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591](https://github.com/Exploitspacks/CVE-2018-13379-CVE-2020-12812-CVE-2019-5591)
 
 ### CVE-2018-13382 (2019-06-04)
 
@@ -23625,6 +23611,14 @@ Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft 
 </code>
 
 - [sooklalad/ms09050](https://github.com/sooklalad/ms09050)
+
+### CVE-2009-3555 (2009-11-09)
+
+<code>
+The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a &quot;plaintext injection&quot; attack, aka the &quot;Project Mogul&quot; issue.
+</code>
+
+- [johnwchadwick/cve-2009-3555-test-server](https://github.com/johnwchadwick/cve-2009-3555-test-server)
 
 ### CVE-2009-4092 (2009-11-27)
 
