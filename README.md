@@ -448,6 +448,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Nathaniel1025/CVE-2022-22947](https://github.com/Nathaniel1025/CVE-2022-22947)
 - [Vancomycin-g/CVE-2022-22947](https://github.com/Vancomycin-g/CVE-2022-22947)
 - [bigbigban1/CVE-2022-22947-exp](https://github.com/bigbigban1/CVE-2022-22947-exp)
+- [sagaryadav8742/springcloudRCE](https://github.com/sagaryadav8742/springcloudRCE)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -461,8 +462,8 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 - [dinosn/CVE-2022-22963](https://github.com/dinosn/CVE-2022-22963)
 - [RanDengShiFu/CVE-2022-22963](https://github.com/RanDengShiFu/CVE-2022-22963)
 - [darryk10/CVE-2022-22963](https://github.com/darryk10/CVE-2022-22963)
-- [TheGejr/SpringShell](https://github.com/TheGejr/SpringShell)
 - [Kirill89/CVE-2022-22963-PoC](https://github.com/Kirill89/CVE-2022-22963-PoC)
+- [stevemats/Spring0DayCoreExploit](https://github.com/stevemats/Spring0DayCoreExploit)
 
 ### CVE-2022-23046 (2022-01-19)
 
