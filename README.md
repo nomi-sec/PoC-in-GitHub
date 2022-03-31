@@ -161,6 +161,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [LudovicPatho/CVE-2022-0847](https://github.com/LudovicPatho/CVE-2022-0847)
 - [DanaEpp/pwncat_dirtypipe](https://github.com/DanaEpp/pwncat_dirtypipe)
 - [tmoneypenny/CVE-2022-0847](https://github.com/tmoneypenny/CVE-2022-0847)
+- [Nekoox/dirty-pipe](https://github.com/Nekoox/dirty-pipe)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -464,6 +465,7 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 - [darryk10/CVE-2022-22963](https://github.com/darryk10/CVE-2022-22963)
 - [Kirill89/CVE-2022-22963-PoC](https://github.com/Kirill89/CVE-2022-22963-PoC)
 - [stevemats/Spring0DayCoreExploit](https://github.com/stevemats/Spring0DayCoreExploit)
+- [puckiestyle/CVE-2022-22963](https://github.com/puckiestyle/CVE-2022-22963)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -667,6 +669,7 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 
 - [nanaao/CVE-2022-24934](https://github.com/nanaao/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
+- [webraybtl/CVE-2022-24934](https://github.com/webraybtl/CVE-2022-24934)
 
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
@@ -932,6 +935,14 @@ In p2p_copy_client_info of p2p.c, there is a possible out of bounds write due to
 </code>
 
 - [aemmitt-ns/skeleton](https://github.com/aemmitt-ns/skeleton)
+
+### CVE-2021-0330 (2021-02-10)
+
+<code>
+In add_user_ce and remove_user_ce of storaged.cpp, there is a possible use-after-free due to improper locking. This could lead to local escalation of privilege in storaged with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11Android ID: A-170732441
+</code>
+
+- [Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330](https://github.com/Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330)
 
 ### CVE-2021-0595 (2021-10-06)
 
@@ -1981,7 +1992,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
-- [shang159/CVE-2021-22205-getshell](https://github.com/shang159/CVE-2021-22205-getshell)
 - [devdanqtuan/CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205)
 - [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
@@ -5041,6 +5051,22 @@ In onCreate of SliceDeepLinkSpringBoard.java there is a possible insecure Intent
 
 - [pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219](https://github.com/pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219)
 
+### CVE-2020-0225 (2020-07-17)
+
+<code>
+In a2dp_vendor_ldac_decoder_decode_packet of a2dp_vendor_ldac_decoder.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-142546668
+</code>
+
+- [nanopathi/system_bt_AOSP10_r33_CVE-2020-0225](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2020-0225)
+
+### CVE-2020-0226 (2020-07-17)
+
+<code>
+In createWithSurfaceParent of Client.cpp, there is a possible out of bounds write due to type confusion. This could lead to local escalation of privilege in the graphics server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-150226994
+</code>
+
+- [Trinadh465/frameworks_native_CVE-2020-0226](https://github.com/Trinadh465/frameworks_native_CVE-2020-0226)
+
 ### CVE-2020-0242 (2020-08-11)
 
 <code>
@@ -5058,6 +5084,14 @@ In applyPolicy of PackageManagerService.java, there is possible arbitrary comman
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2020-0391](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0391)
 
+### CVE-2020-0421 (2020-10-14)
+
+<code>
+In appendFormatV of String8.cpp, there is a possible out of bounds write due to incorrect error handling. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11 Android-8.0Android ID: A-161894517
+</code>
+
+- [nanopathi/system_core_AOSP10_r33_CVE-2020-0421](https://github.com/nanopathi/system_core_AOSP10_r33_CVE-2020-0421)
+
 ### CVE-2020-0443 (2020-11-10)
 
 <code>
@@ -5065,6 +5099,14 @@ In LocaleList of LocaleList.java, there is a possible forced reboot due to an un
 </code>
 
 - [Supersonic/CVE-2020-0443](https://github.com/Supersonic/CVE-2020-0443)
+
+### CVE-2020-0449 (2020-11-10)
+
+<code>
+In btm_sec_disconnected of btm_sec.cc, there is a possible memory corruption due to a use after free. This could lead to remote code execution in the Bluetooth server with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11 Android-8.0 Android-8.1Android ID: A-162497143
+</code>
+
+- [Satheesh575555/System_bt_AOSP10-r33_CVE-2020-0449](https://github.com/Satheesh575555/System_bt_AOSP10-r33_CVE-2020-0449)
 
 ### CVE-2020-0453 (2020-11-10)
 
@@ -5075,6 +5117,14 @@ In updateNotification of BeamTransferManager.java, there is a possible permissio
 - [pazhanivel07/Nfc_CVE-2020-0453](https://github.com/pazhanivel07/Nfc_CVE-2020-0453)
 - [nanopathi/Packages_apps_Nfc_CVE-2020-0453](https://github.com/nanopathi/Packages_apps_Nfc_CVE-2020-0453)
 - [Trinadh465/Nfc-CVE-2020-0453](https://github.com/Trinadh465/Nfc-CVE-2020-0453)
+
+### CVE-2020-0463 (2020-12-14)
+
+<code>
+In sdp_server_handle_client_req of sdp_server.cc, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure from the bluetooth server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-8.0 Android-8.1 Android-9Android ID: A-169342531
+</code>
+
+- [nanopathi/system_bt_AOSP10_r33_CVE-2020-0463](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2020-0463)
 
 ### CVE-2020-0551 (2020-03-12)
 
@@ -7006,7 +7056,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [IdealDreamLast/CVE-2020-9484](https://github.com/IdealDreamLast/CVE-2020-9484)
 - [qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484)
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
-- [Xslover/CVE-2020-9484-Scanner](https://github.com/Xslover/CVE-2020-9484-Scanner)
+- [ClearLover77/CVE-2020-9484-Scanner](https://github.com/ClearLover77/CVE-2020-9484-Scanner)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
@@ -12895,7 +12945,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [zeroxninety/CVE-2019-16113-PoC](https://github.com/zeroxninety/CVE-2019-16113-PoC)
-- [nthR00t/CVE-2019-16113](https://github.com/nthR00t/CVE-2019-16113)
+- [persian64/CVE-2019-16113](https://github.com/persian64/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
 
 ### CVE-2019-16278 (2019-10-14)
@@ -13115,7 +13165,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [triple-octopus/Bludit-CVE-2019-17240-Fork](https://github.com/triple-octopus/Bludit-CVE-2019-17240-Fork)
-- [nthR00t/CVE-2019-17240](https://github.com/nthR00t/CVE-2019-17240)
+- [persian64/CVE-2019-17240](https://github.com/persian64/CVE-2019-17240)
 - [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
 - [jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240)
 - [0xbrunosergio/bloodit](https://github.com/0xbrunosergio/bloodit)
@@ -14785,7 +14835,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574)
 - [imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC)
 - [twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574)
-- [frarinha/CVE-2018-6574](https://github.com/frarinha/CVE-2018-6574)
 - [dmlino/cve-2018-6574](https://github.com/dmlino/cve-2018-6574)
 - [the-valluvarsploit/CVE-2018-6574](https://github.com/the-valluvarsploit/CVE-2018-6574)
 
@@ -18314,7 +18363,7 @@ SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to ex
 - [brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917)
 - [stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla)
 - [cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917)
-- [SiopySh/CVE-2017-8917](https://github.com/SiopySh/CVE-2017-8917)
+- [Siopsec/CVE-2017-8917](https://github.com/Siopsec/CVE-2017-8917)
 
 ### CVE-2017-9097 (2017-06-15)
 
@@ -23374,6 +23423,14 @@ Multiple integer overflows in the Fax3SetupState function in tif_fax3.c in the F
 
 - [MAVProxyUser/httpfuzz-robomiller](https://github.com/MAVProxyUser/httpfuzz-robomiller)
 
+### CVE-2010-1622 (2010-06-21)
+
+<code>
+SpringSource Spring Framework 2.5.x before 2.5.6.SEC02, 2.5.7 before 2.5.7.SR01, and 3.0.x before 3.0.3 allows remote attackers to execute arbitrary code via an HTTP request containing class.classLoader.URLs[0]=jar: followed by a URL of a crafted .jar file.
+</code>
+
+- [DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc)
+
 ### CVE-2010-2075 (2010-06-14)
 
 <code>
@@ -23588,6 +23645,7 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 - [k4u5h41/CVE-2009-2265](https://github.com/k4u5h41/CVE-2009-2265)
 - [0zvxr/CVE-2009-2265](https://github.com/0zvxr/CVE-2009-2265)
+- [persian64/CVE-2009-2265](https://github.com/persian64/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
