@@ -466,6 +466,17 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 - [Kirill89/CVE-2022-22963-PoC](https://github.com/Kirill89/CVE-2022-22963-PoC)
 - [stevemats/Spring0DayCoreExploit](https://github.com/stevemats/Spring0DayCoreExploit)
 - [puckiestyle/CVE-2022-22963](https://github.com/puckiestyle/CVE-2022-22963)
+- [exploitbin/CVE-2022-22963-Spring-Core-RCE](https://github.com/exploitbin/CVE-2022-22963-Spring-Core-RCE)
+
+### CVE-2022-22965
+- [Mr-xn/spring-core-rce](https://github.com/Mr-xn/spring-core-rce)
+- [TheGejr/SpringShell](https://github.com/TheGejr/SpringShell)
+- [light-Life/CVE-2022-22965-GUItools](https://github.com/light-Life/CVE-2022-22965-GUItools)
+- [DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc)
+- [Kirill89/CVE-2022-22965-PoC](https://github.com/Kirill89/CVE-2022-22965-PoC)
+- [alt3kx/CVE-2022-22965_PoC](https://github.com/alt3kx/CVE-2022-22965_PoC)
+- [GuayoyoCyber/CVE-2022-22965](https://github.com/GuayoyoCyber/CVE-2022-22965)
+- [colincowie/Safer_PoC_CVE-2022-22965](https://github.com/colincowie/Safer_PoC_CVE-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -943,6 +954,14 @@ In add_user_ce and remove_user_ce of storaged.cpp, there is a possible use-after
 </code>
 
 - [Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330](https://github.com/Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330)
+
+### CVE-2021-0472 (2021-06-11)
+
+<code>
+In shouldLockKeyguard of LockTaskController.java, there is a possible way to exit App Pinning without a PIN due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-9 Android-10Android ID: A-176801033
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2021-0472](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0472)
 
 ### CVE-2021-0595 (2021-10-06)
 
@@ -3013,14 +3032,6 @@ A SQL Injection vulnerability in the REST API in Layer5 Meshery 0.5.2 allows an 
 </code>
 
 - [ssst0n3/CVE-2021-31856](https://github.com/ssst0n3/CVE-2021-31856)
-
-### CVE-2021-31862 (2021-10-29)
-
-<code>
-SysAid 20.4.74 allows XSS via the KeepAlive.jsp stamp parameter without any authentication.
-</code>
-
-- [RobertDra/CVE-2021-31862](https://github.com/RobertDra/CVE-2021-31862)
 
 ### CVE-2021-31955 (2021-06-08)
 
@@ -23430,6 +23441,7 @@ SpringSource Spring Framework 2.5.x before 2.5.6.SEC02, 2.5.7 before 2.5.7.SR01,
 </code>
 
 - [DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc)
+- [strainerart/Spring4Shell](https://github.com/strainerart/Spring4Shell)
 
 ### CVE-2010-2075 (2010-06-14)
 
