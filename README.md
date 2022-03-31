@@ -1981,7 +1981,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
-- [AkBanner/CVE-2021-22205](https://github.com/AkBanner/CVE-2021-22205)
 - [shang159/CVE-2021-22205-getshell](https://github.com/shang159/CVE-2021-22205-getshell)
 - [devdanqtuan/CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205)
 - [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
@@ -3666,6 +3665,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [N3w-elf/CVE-2021-41773-](https://github.com/N3w-elf/CVE-2021-41773-)
 - [puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773)
 - [spiderz0ne/CVE-2021-41773](https://github.com/spiderz0ne/CVE-2021-41773)
+- [DoTuan1/Reserch-CVE-2021-41773](https://github.com/DoTuan1/Reserch-CVE-2021-41773)
 
 ### CVE-2021-41777
 - [awsassets/CVE-2021-41777](https://github.com/awsassets/CVE-2021-41777)
