@@ -467,16 +467,20 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 - [stevemats/Spring0DayCoreExploit](https://github.com/stevemats/Spring0DayCoreExploit)
 - [puckiestyle/CVE-2022-22963](https://github.com/puckiestyle/CVE-2022-22963)
 - [exploitbin/CVE-2022-22963-Spring-Core-RCE](https://github.com/exploitbin/CVE-2022-22963-Spring-Core-RCE)
+- [kh4sh3i/Spring-CVE](https://github.com/kh4sh3i/Spring-CVE)
 
 ### CVE-2022-22965
+- [BobTheShoplifter/Spring4Shell-POC](https://github.com/BobTheShoplifter/Spring4Shell-POC)
 - [Mr-xn/spring-core-rce](https://github.com/Mr-xn/spring-core-rce)
 - [TheGejr/SpringShell](https://github.com/TheGejr/SpringShell)
+- [reznok/Spring4Shell-POC](https://github.com/reznok/Spring4Shell-POC)
 - [light-Life/CVE-2022-22965-GUItools](https://github.com/light-Life/CVE-2022-22965-GUItools)
 - [DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc)
 - [Kirill89/CVE-2022-22965-PoC](https://github.com/Kirill89/CVE-2022-22965-PoC)
 - [alt3kx/CVE-2022-22965_PoC](https://github.com/alt3kx/CVE-2022-22965_PoC)
 - [GuayoyoCyber/CVE-2022-22965](https://github.com/GuayoyoCyber/CVE-2022-22965)
 - [colincowie/Safer_PoC_CVE-2022-22965](https://github.com/colincowie/Safer_PoC_CVE-2022-22965)
+- [viniciuspereiras/CVE-2022-22965-poc](https://github.com/viniciuspereiras/CVE-2022-22965-poc)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -1447,6 +1451,9 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 </code>
 
 - [HadiMed/DSL-2750U-Full-chain](https://github.com/HadiMed/DSL-2750U-Full-chain)
+
+### CVE-2021-3864
+- [walac/cve-2021-3864](https://github.com/walac/cve-2021-3864)
 
 ### CVE-2021-4034 (2022-01-28)
 
@@ -3811,7 +3818,6 @@ The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as param
 An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers.
 </code>
 
-- [shiomiyan/CVE-2021-42574](https://github.com/shiomiyan/CVE-2021-42574)
 - [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
