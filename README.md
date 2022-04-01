@@ -472,6 +472,7 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 - [stevemats/Spring0DayCoreExploit](https://github.com/stevemats/Spring0DayCoreExploit)
 - [puckiestyle/CVE-2022-22963](https://github.com/puckiestyle/CVE-2022-22963)
 - [exploitbin/CVE-2022-22963-Spring-Core-RCE](https://github.com/exploitbin/CVE-2022-22963-Spring-Core-RCE)
+- [me2nuk/CVE-2022-22963](https://github.com/me2nuk/CVE-2022-22963)
 - [kh4sh3i/Spring-CVE](https://github.com/kh4sh3i/Spring-CVE)
 - [AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963)
 
@@ -496,6 +497,8 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 - [chaosec2021/CVE-2022-22965-POC](https://github.com/chaosec2021/CVE-2022-22965-POC)
 - [helsecert/CVE-2022-22965](https://github.com/helsecert/CVE-2022-22965)
 - [lcarea/CVE-2022-22965](https://github.com/lcarea/CVE-2022-22965)
+- [Joe1sn/CVE-2022-22965](https://github.com/Joe1sn/CVE-2022-22965)
+- [wshon/spring-framework-rce](https://github.com/wshon/spring-framework-rce)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -953,11 +956,23 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 
 - [plummm/CVE-2022-27666](https://github.com/plummm/CVE-2022-27666)
 
+### CVE-2022-28251
+- [mubix/CVE-2022-28251-POC](https://github.com/mubix/CVE-2022-28251-POC)
+- [ZephrFish/CVE-2022-28251-POC](https://github.com/ZephrFish/CVE-2022-28251-POC)
+
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
 
 ## 2021
+### CVE-2021-0325 (2021-02-10)
+
+<code>
+In ih264d_parse_pslice of ih264d_parse_pslice.c, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11Android ID: A-174238784
+</code>
+
+- [nanopathi/external_libavc_AOSP10_r33_CVE-2021-0325](https://github.com/nanopathi/external_libavc_AOSP10_r33_CVE-2021-0325)
+
 ### CVE-2021-0326 (2021-02-10)
 
 <code>
@@ -3114,14 +3129,6 @@ Realtek HAD contains a driver crashed vulnerability which allows local side atta
 
 - [0vercl0k/CVE-2021-32537](https://github.com/0vercl0k/CVE-2021-32537)
 
-### CVE-2021-32644 (2021-06-22)
-
-<code>
-Ampache is an open source web based audio/video streaming application and file manager. Due to a lack of input filtering versions 4.x.y are vulnerable to code injection in random.php. The attack requires user authentication to access the random.php page unless the site is running in demo mode. This issue has been resolved in 4.4.3.
-</code>
-
-- [dnr6419/CVE-2021-32644](https://github.com/dnr6419/CVE-2021-32644)
-
 ### CVE-2021-32648 (2021-08-26)
 
 <code>
@@ -3317,7 +3324,6 @@ A command injection vulnerability in the web server of some Hikvision product. D
 </code>
 
 - [rabbitsafe/CVE-2021-36260](https://github.com/rabbitsafe/CVE-2021-36260)
-- [TaroballzChen/CVE-2021-36260-metasploit](https://github.com/TaroballzChen/CVE-2021-36260-metasploit)
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 
 ### CVE-2021-36749 (2021-09-24)
@@ -3383,6 +3389,9 @@ TensorFlow is an end-to-end open source platform for machine learning. In affect
 </code>
 
 - [fran-CICS/ExploitTensorflowCVE-2021-37678](https://github.com/fran-CICS/ExploitTensorflowCVE-2021-37678)
+
+### CVE-2021-37740
+- [robertguetzkow/CVE-2021-37740](https://github.com/robertguetzkow/CVE-2021-37740)
 
 ### CVE-2021-37832 (2021-08-03)
 
