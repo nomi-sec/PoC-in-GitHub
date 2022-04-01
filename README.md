@@ -454,6 +454,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Vancomycin-g/CVE-2022-22947](https://github.com/Vancomycin-g/CVE-2022-22947)
 - [bigbigban1/CVE-2022-22947-exp](https://github.com/bigbigban1/CVE-2022-22947-exp)
 - [sagaryadav8742/springcloudRCE](https://github.com/sagaryadav8742/springcloudRCE)
+- [talentsec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/talentsec/Spring-Cloud-Gateway-CVE-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -472,6 +473,7 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 - [puckiestyle/CVE-2022-22963](https://github.com/puckiestyle/CVE-2022-22963)
 - [exploitbin/CVE-2022-22963-Spring-Core-RCE](https://github.com/exploitbin/CVE-2022-22963-Spring-Core-RCE)
 - [kh4sh3i/Spring-CVE](https://github.com/kh4sh3i/Spring-CVE)
+- [AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963)
 
 ### CVE-2022-22965
 - [BobTheShoplifter/Spring4Shell-POC](https://github.com/BobTheShoplifter/Spring4Shell-POC)
@@ -489,6 +491,11 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 - [likewhite/CVE-2022-22965](https://github.com/likewhite/CVE-2022-22965)
 - [Axx8/SpringFramework_CVE-2022-22965_RCE](https://github.com/Axx8/SpringFramework_CVE-2022-22965_RCE)
 - [snicoll-scratches/spring-boot-cve-2022-22965](https://github.com/snicoll-scratches/spring-boot-cve-2022-22965)
+- [nu0l/CVE-2022-22965](https://github.com/nu0l/CVE-2022-22965)
+- [tangxiaofeng7/CVE-2022-22965-Spring-CachedintrospectionResults-Rce](https://github.com/tangxiaofeng7/CVE-2022-22965-Spring-CachedintrospectionResults-Rce)
+- [chaosec2021/CVE-2022-22965-POC](https://github.com/chaosec2021/CVE-2022-22965-POC)
+- [helsecert/CVE-2022-22965](https://github.com/helsecert/CVE-2022-22965)
+- [lcarea/CVE-2022-22965](https://github.com/lcarea/CVE-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -966,6 +973,14 @@ In add_user_ce and remove_user_ce of storaged.cpp, there is a possible use-after
 </code>
 
 - [Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330](https://github.com/Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330)
+
+### CVE-2021-0334 (2021-02-10)
+
+<code>
+In onTargetSelected of ResolverActivity.java, there is a possible settings bypass allowing an app to become the default handler for arbitrary domains. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11Android ID: A-163358811
+</code>
+
+- [ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0334](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0334)
 
 ### CVE-2021-0397 (2021-03-10)
 
@@ -1989,14 +2004,6 @@ Applications using both `spring-cloud-netflix-hystrix-dashboard` and `spring-boo
 - [SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053](https://github.com/SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053)
 - [Vulnmachines/CVE-2021-22053](https://github.com/Vulnmachines/CVE-2021-22053)
 
-### CVE-2021-22119 (2021-06-29)
-
-<code>
-Spring Security versions 5.5.x prior to 5.5.1, 5.4.x prior to 5.4.7, 5.3.x prior to 5.3.10 and 5.2.x prior to 5.2.11 are susceptible to a Denial-of-Service (DoS) attack via the initiation of the Authorization Request in an OAuth 2.0 Client Web and WebFlux application. A malicious user or attacker can send multiple requests initiating the Authorization Request for the Authorization Code Grant, which has the potential of exhausting system resources using a single session or multiple sessions.
-</code>
-
-- [mari6274/oauth-client-exploit](https://github.com/mari6274/oauth-client-exploit)
-
 ### CVE-2021-22192 (2021-03-24)
 
 <code>
@@ -2213,14 +2220,6 @@ The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Ran
 </code>
 
 - [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
-
-### CVE-2021-24545 (2021-10-11)
-
-<code>
-The WP HTML Author Bio WordPress plugin through 1.2.0 does not sanitise the HTML allowed in the Bio of users, allowing them to use malicious JavaScript code, which will be executed when anyone visit a post in the frontend made by such user. As a result, user with a role as low as author could perform Cross-Site Scripting attacks against users, which could potentially lead to privilege escalation when an admin view the related post/s.
-</code>
-
-- [dnr6419/CVE-2021-24545](https://github.com/dnr6419/CVE-2021-24545)
 
 ### CVE-2021-24750 (2021-12-21)
 
@@ -3091,6 +3090,14 @@ A SQL injection vulnerability in the pandora_console component of Artica Pandora
 - [l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi)
 - [akr3ch/CVE-2021-32099](https://github.com/akr3ch/CVE-2021-32099)
 
+### CVE-2021-32399 (2021-05-10)
+
+<code>
+net/bluetooth/hci_request.c in the Linux kernel through 5.12.2 has a race condition for removal of the HCI controller.
+</code>
+
+- [nanopathi/linux-4.19.72_CVE-2021-32399](https://github.com/nanopathi/linux-4.19.72_CVE-2021-32399)
+
 ### CVE-2021-32471 (2021-05-10)
 
 <code>
@@ -3786,6 +3793,7 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 
 - [cube0x0/noPac](https://github.com/cube0x0/noPac)
 - [knightswd/NoPacScan](https://github.com/knightswd/NoPacScan)
+- [XiaoliChan/Invoke-sAMSpoofing](https://github.com/XiaoliChan/Invoke-sAMSpoofing)
 
 ### CVE-2021-42292 (2021-11-09)
 
@@ -5107,6 +5115,14 @@ In createWithSurfaceParent of Client.cpp, there is a possible out of bounds writ
 
 - [Trinadh465/frameworks_native_CVE-2020-0226](https://github.com/Trinadh465/frameworks_native_CVE-2020-0226)
 
+### CVE-2020-0241 (2020-08-11)
+
+<code>
+In NuPlayerStreamListener of NuPlayerStreamListener.cpp, there is possible memory corruption due to a double free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-151456667
+</code>
+
+- [nanopathi/frameworks_av_AOSP10_r33_CVE-2020-0241](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2020-0241)
+
 ### CVE-2020-0242 (2020-08-11)
 
 <code>
@@ -5116,6 +5132,14 @@ In reset of NuPlayerDriver.cpp, there is a possible use-after-free due to improp
 - [pazhanivel07/frameworks_av-10-r33_CVE-2020-0242](https://github.com/pazhanivel07/frameworks_av-10-r33_CVE-2020-0242)
 - [pazhanivel07/frameworks_av-CVE-2020-0242_CVE-2020-0243](https://github.com/pazhanivel07/frameworks_av-CVE-2020-0242_CVE-2020-0243)
 
+### CVE-2020-0245 (2020-09-17)
+
+<code>
+In DecodeFrameCombinedMode of combined_decode.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-11 Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-152496149
+</code>
+
+- [Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245](https://github.com/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245)
+
 ### CVE-2020-0391 (2020-09-17)
 
 <code>
@@ -5123,6 +5147,14 @@ In applyPolicy of PackageManagerService.java, there is possible arbitrary comman
 </code>
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2020-0391](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0391)
+
+### CVE-2020-0392 (2020-09-17)
+
+<code>
+In getLayerDebugInfo of SurfaceFlinger.cpp, there is a possible code execution due to a double free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11Android ID: A-150226608
+</code>
+
+- [Satheesh575555/frameworks_native_AOSP10_r33_CVE-2020-0392](https://github.com/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2020-0392)
 
 ### CVE-2020-0421 (2020-10-14)
 
@@ -5147,6 +5179,14 @@ In btm_sec_disconnected of btm_sec.cc, there is a possible memory corruption due
 </code>
 
 - [Satheesh575555/System_bt_AOSP10-r33_CVE-2020-0449](https://github.com/Satheesh575555/System_bt_AOSP10-r33_CVE-2020-0449)
+
+### CVE-2020-0451 (2020-11-10)
+
+<code>
+In sbrDecoder_AssignQmfChannels2SbrChannels of sbrdecoder.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-9 Android-8.0 Android-8.1Android ID: A-158762825
+</code>
+
+- [nanopathi/external_aac_AOSP10_r33_CVE-2020-0451](https://github.com/nanopathi/external_aac_AOSP10_r33_CVE-2020-0451)
 
 ### CVE-2020-0453 (2020-11-10)
 
@@ -8241,6 +8281,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [xfiftyone/CVE-2020-14882](https://github.com/xfiftyone/CVE-2020-14882)
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 - [adm1in/CodeTest](https://github.com/adm1in/CodeTest)
+- [securitysqs/Web_Poc](https://github.com/securitysqs/Web_Poc)
 - [3hm1ly/CVE-2020-14882](https://github.com/3hm1ly/CVE-2020-14882)
 - [pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic)
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
@@ -9926,6 +9967,7 @@ A Server Side Request Forgery (SSRF) vulnerability affected the Apache Axis 1.4 
 Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution.
 </code>
 
+- [303donatello/CVE-2019-0230](https://github.com/303donatello/CVE-2019-0230)
 - [BH2UOL/CVE-2019-0230](https://github.com/BH2UOL/CVE-2019-0230)
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
