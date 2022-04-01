@@ -162,6 +162,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [DanaEpp/pwncat_dirtypipe](https://github.com/DanaEpp/pwncat_dirtypipe)
 - [tmoneypenny/CVE-2022-0847](https://github.com/tmoneypenny/CVE-2022-0847)
 - [Nekoox/dirty-pipe](https://github.com/Nekoox/dirty-pipe)
+- [stfnw/Debugging_Dirty_Pipe_CVE-2022-0847](https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -189,6 +190,9 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 
 ### CVE-2022-1096
 - [Maverick-cmd/Chrome-and-Edge-Version-Dumper](https://github.com/Maverick-cmd/Chrome-and-Edge-Version-Dumper)
+
+### CVE-2022-3000
+- [l4fu/CVE-2022-3000](https://github.com/l4fu/CVE-2022-3000)
 
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
@@ -481,6 +485,10 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 - [GuayoyoCyber/CVE-2022-22965](https://github.com/GuayoyoCyber/CVE-2022-22965)
 - [colincowie/Safer_PoC_CVE-2022-22965](https://github.com/colincowie/Safer_PoC_CVE-2022-22965)
 - [viniciuspereiras/CVE-2022-22965-poc](https://github.com/viniciuspereiras/CVE-2022-22965-poc)
+- [mebibite/springhound](https://github.com/mebibite/springhound)
+- [likewhite/CVE-2022-22965](https://github.com/likewhite/CVE-2022-22965)
+- [Axx8/SpringFramework_CVE-2022-22965_RCE](https://github.com/Axx8/SpringFramework_CVE-2022-22965_RCE)
+- [snicoll-scratches/spring-boot-cve-2022-22965](https://github.com/snicoll-scratches/spring-boot-cve-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -959,6 +967,14 @@ In add_user_ce and remove_user_ce of storaged.cpp, there is a possible use-after
 
 - [Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330](https://github.com/Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330)
 
+### CVE-2021-0397 (2021-03-10)
+
+<code>
+In sdp_copy_raw_data of sdp_discovery.cc, there is a possible system compromise due to a double free. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-174052148
+</code>
+
+- [Satheesh575555/System_bt_AOSP10-r33_CVE-2021-0397](https://github.com/Satheesh575555/System_bt_AOSP10-r33_CVE-2021-0397)
+
 ### CVE-2021-0472 (2021-06-11)
 
 <code>
@@ -975,6 +991,14 @@ In lockAllProfileTasks of RootWindowContainer.java, there is a possible way to a
 
 - [pazhanivel07/Settings-CVE-2021-0595](https://github.com/pazhanivel07/Settings-CVE-2021-0595)
 - [pazhanivel07/frameworks_base-CVE-2021-0595](https://github.com/pazhanivel07/frameworks_base-CVE-2021-0595)
+
+### CVE-2021-0652 (2021-10-22)
+
+<code>
+In VectorDrawable::VectorDrawable of VectorDrawable.java, there is a possible way to introduce a memory corruption due to sharing of not thread-safe objects. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11Android ID: A-185178568
+</code>
+
+- [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0652](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0652)
 
 ### CVE-2021-0928 (2021-12-15)
 
@@ -1663,7 +1687,6 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 
 - [orangmuda/CVE-2021-20837](https://github.com/orangmuda/CVE-2021-20837)
 - [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
-- [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
 
 ### CVE-2021-21014 (2021-02-11)
 
@@ -2091,6 +2114,7 @@ On BIG-IP versions 16.0.x before 16.0.1.1, 15.1.x before 15.1.2.1, 14.1.x before
 - [yaunsky/CVE-202122986-EXP](https://github.com/yaunsky/CVE-202122986-EXP)
 - [Tas9er/CVE-2021-22986](https://github.com/Tas9er/CVE-2021-22986)
 - [dotslashed/CVE-2021-22986](https://github.com/dotslashed/CVE-2021-22986)
+- [DDestinys/CVE-2021-22986](https://github.com/DDestinys/CVE-2021-22986)
 
 ### CVE-2021-23017 (2021-06-01)
 
@@ -3818,7 +3842,6 @@ The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as param
 An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers.
 </code>
 
-- [hffaust/CVE-2021-42574_and_CVE-2021-42694](https://github.com/hffaust/CVE-2021-42574_and_CVE-2021-42694)
 - [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
 - [pierDipi/unicode-control-characters-action](https://github.com/pierDipi/unicode-control-characters-action)
@@ -22281,7 +22304,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271)
 - [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
-- [b4keSn4ke/shellshock](https://github.com/b4keSn4ke/shellshock)
+- [b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271)
 - [0bfxgh0st-secondary/ShellShock](https://github.com/0bfxgh0st-secondary/ShellShock)
 
 ### CVE-2014-6287 (2014-10-07)
