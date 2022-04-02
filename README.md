@@ -163,6 +163,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [tmoneypenny/CVE-2022-0847](https://github.com/tmoneypenny/CVE-2022-0847)
 - [Nekoox/dirty-pipe](https://github.com/Nekoox/dirty-pipe)
 - [stfnw/Debugging_Dirty_Pipe_CVE-2022-0847](https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847)
+- [drapl0n/dirtypipe](https://github.com/drapl0n/dirtypipe)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -335,6 +336,7 @@ SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, AB
 </code>
 
 - [antx-code/CVE-2022-22536](https://github.com/antx-code/CVE-2022-22536)
+- [asurti6783/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536](https://github.com/asurti6783/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536)
 
 ### CVE-2022-22582
 - [poizon-box/CVE-2022-22582](https://github.com/poizon-box/CVE-2022-22582)
@@ -2797,14 +2799,6 @@ An issue was discovered in the Linux kernel through 5.11.x. kernel/bpf/verifier.
 
 - [Kakashiiiiy/CVE-2021-29155](https://github.com/Kakashiiiiy/CVE-2021-29155)
 
-### CVE-2021-29156 (2021-03-25)
-
-<code>
-ForgeRock OpenAM before 13.5.1 allows LDAP injection via the Webfinger protocol. For example, an unauthenticated attacker can perform character-by-character retrieval of password hashes, or retrieve a session token or a private key.
-</code>
-
-- [guidepointsecurity/CVE-2021-29156](https://github.com/guidepointsecurity/CVE-2021-29156)
-
 ### CVE-2021-29200 (2021-04-27)
 
 <code>
@@ -4638,6 +4632,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [atlassion/RS4LOGJ-CVE-2021-44228](https://github.com/atlassion/RS4LOGJ-CVE-2021-44228)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
+- [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
 - [arnaudluti/PS-CVE-2021-44228](https://github.com/arnaudluti/PS-CVE-2021-44228)
 - [ColdFusionX/CVE-2021-44228-Log4Shell-POC](https://github.com/ColdFusionX/CVE-2021-44228-Log4Shell-POC)
 - [robrankin/cve-2021-44228-waf-tests](https://github.com/robrankin/cve-2021-44228-waf-tests)
