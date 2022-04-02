@@ -157,7 +157,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [githublihaha/DirtyPIPE-CVE-2022-0847](https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847)
 - [phuonguno98/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/phuonguno98/CVE-2022-0847-DirtyPipe-Exploits)
 - [MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker](https://github.com/MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker)
-- [LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits](https://github.com/LP-H4cmilo/CVE-2022-0847_DirtyPipe_Exploits)
+- [logm1lo/CVE-2022-0847_DirtyPipe_Exploits](https://github.com/logm1lo/CVE-2022-0847_DirtyPipe_Exploits)
 - [LudovicPatho/CVE-2022-0847](https://github.com/LudovicPatho/CVE-2022-0847)
 - [DanaEpp/pwncat_dirtypipe](https://github.com/DanaEpp/pwncat_dirtypipe)
 - [tmoneypenny/CVE-2022-0847](https://github.com/tmoneypenny/CVE-2022-0847)
@@ -355,6 +355,14 @@ The issue was addressed with improved permissions logic. This issue is fixed in 
 
 - [KlinKlinKlin/MSF-screenrecord-on-MacOS](https://github.com/KlinKlinKlin/MSF-screenrecord-on-MacOS)
 
+### CVE-2022-22639 (2022-03-18)
+
+<code>
+A logic issue was addressed with improved state management. This issue is fixed in iOS 15.4 and iPadOS 15.4, macOS Monterey 12.3. An application may be able to gain elevated privileges.
+</code>
+
+- [jhftss/CVE-2022-22639](https://github.com/jhftss/CVE-2022-22639)
+
 ### CVE-2022-22828 (2022-01-27)
 
 <code>
@@ -515,6 +523,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Joe1sn/CVE-2022-22965](https://github.com/Joe1sn/CVE-2022-22965)
 - [wshon/spring-framework-rce](https://github.com/wshon/spring-framework-rce)
 - [Wrin9/CVE-2022-22965](https://github.com/Wrin9/CVE-2022-22965)
+- [wjl110/CVE-2022-22965_Spring_Core_RCE](https://github.com/wjl110/CVE-2022-22965_Spring_Core_RCE)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -685,6 +694,14 @@ The matchmaking servers of Bandai Namco FromSoftware Dark Souls III through 2022
 </code>
 
 - [tremwil/ds3-nrssr-rce](https://github.com/tremwil/ds3-nrssr-rce)
+
+### CVE-2022-24181 (2022-04-01)
+
+<code>
+Cross-site scripting (XSS) via Host Header injection in PKP Open Journals System 2.4.8 &gt;= 3.3 allows remote attackers to inject arbitary code via the X-Forwarded-Host Header.
+</code>
+
+- [comrade99/CVE-2022-24181](https://github.com/comrade99/CVE-2022-24181)
 
 ### CVE-2022-24348 (2022-02-04)
 
@@ -10159,7 +10176,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [GryllsAaron/CVE-2019-0708-POC](https://github.com/GryllsAaron/CVE-2019-0708-POC)
 - [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
-- [sinlee1/CVE-2019-0708](https://github.com/sinlee1/CVE-2019-0708)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [Haruster/Haruster-CVE-2019-0708-Exploit](https://github.com/Haruster/Haruster-CVE-2019-0708-Exploit)
 - [SurrealSky/CVE20190708SCAN](https://github.com/SurrealSky/CVE20190708SCAN)
@@ -20038,6 +20054,7 @@ The Fileserver web application in Apache ActiveMQ 5.x before 5.14.0 allows remot
 - [cyberaguiar/CVE-2016-3088](https://github.com/cyberaguiar/CVE-2016-3088)
 - [vonderchild/CVE-2016-3088](https://github.com/vonderchild/CVE-2016-3088)
 - [cl4ym0re/CVE-2016-3088](https://github.com/cl4ym0re/CVE-2016-3088)
+- [YutuSec/ActiveMQ_Crack](https://github.com/YutuSec/ActiveMQ_Crack)
 
 ### CVE-2016-3113 (2017-08-07)
 
@@ -22366,6 +22383,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
 - [b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271)
 - [0bfxgh0st-secondary/ShellShock](https://github.com/0bfxgh0st-secondary/ShellShock)
+- [akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
