@@ -188,6 +188,9 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
 
+### CVE-2022-1015
+- [pqlx/CVE-2022-1015](https://github.com/pqlx/CVE-2022-1015)
+
 ### CVE-2022-1096
 - [Maverick-cmd/Chrome-and-Edge-Version-Dumper](https://github.com/Maverick-cmd/Chrome-and-Edge-Version-Dumper)
 
@@ -464,7 +467,7 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 
 - [PenteraIO/CVE-2022-22948](https://github.com/PenteraIO/CVE-2022-22948)
 
-### CVE-2022-22963 (-)
+### CVE-2022-22963 (2022-04-01)
 
 <code>
 In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.
@@ -481,7 +484,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [kh4sh3i/Spring-CVE](https://github.com/kh4sh3i/Spring-CVE)
 - [AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963)
 
-### CVE-2022-22965 (-)
+### CVE-2022-22965 (2022-04-01)
 
 <code>
 A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.
@@ -493,6 +496,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [reznok/Spring4Shell-POC](https://github.com/reznok/Spring4Shell-POC)
 - [light-Life/CVE-2022-22965-GUItools](https://github.com/light-Life/CVE-2022-22965-GUItools)
 - [DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc)
+- [k3rwin/spring-core-rce](https://github.com/k3rwin/spring-core-rce)
 - [Kirill89/CVE-2022-22965-PoC](https://github.com/Kirill89/CVE-2022-22965-PoC)
 - [alt3kx/CVE-2022-22965_PoC](https://github.com/alt3kx/CVE-2022-22965_PoC)
 - [GuayoyoCyber/CVE-2022-22965](https://github.com/GuayoyoCyber/CVE-2022-22965)
@@ -510,6 +514,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [lcarea/CVE-2022-22965](https://github.com/lcarea/CVE-2022-22965)
 - [Joe1sn/CVE-2022-22965](https://github.com/Joe1sn/CVE-2022-22965)
 - [wshon/spring-framework-rce](https://github.com/wshon/spring-framework-rce)
+- [Wrin9/CVE-2022-22965](https://github.com/Wrin9/CVE-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -8294,7 +8299,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [xfiftyone/CVE-2020-14882](https://github.com/xfiftyone/CVE-2020-14882)
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 - [adm1in/CodeTest](https://github.com/adm1in/CodeTest)
-- [securitysqs/Web_Poc](https://github.com/securitysqs/Web_Poc)
 - [3hm1ly/CVE-2020-14882](https://github.com/3hm1ly/CVE-2020-14882)
 - [pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic)
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
@@ -19887,6 +19891,7 @@ The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, an
 
 - [bazad/rootsh](https://github.com/bazad/rootsh)
 - [berritus163t/bazad5](https://github.com/berritus163t/bazad5)
+- [SideGreenHand100/bazad5](https://github.com/SideGreenHand100/bazad5)
 
 ### CVE-2016-2067 (2016-07-10)
 
