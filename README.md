@@ -191,6 +191,7 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 
 ### CVE-2022-1015
 - [pqlx/CVE-2022-1015](https://github.com/pqlx/CVE-2022-1015)
+- [zanezhub/CVE-2022-1015-1016](https://github.com/zanezhub/CVE-2022-1015-1016)
 
 ### CVE-2022-1096
 - [Maverick-cmd/Chrome-and-Edge-Version-Dumper](https://github.com/Maverick-cmd/Chrome-and-Edge-Version-Dumper)
@@ -526,6 +527,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [wshon/spring-framework-rce](https://github.com/wshon/spring-framework-rce)
 - [Wrin9/CVE-2022-22965](https://github.com/Wrin9/CVE-2022-22965)
 - [wjl110/CVE-2022-22965_Spring_Core_RCE](https://github.com/wjl110/CVE-2022-22965_Spring_Core_RCE)
+- [mwojterski/cve-2022-22965](https://github.com/mwojterski/cve-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -553,6 +555,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [pykiller/CVE-2022-23131](https://github.com/pykiller/CVE-2022-23131)
 - [Fa1c0n35/zabbix-cve-2022-23131](https://github.com/Fa1c0n35/zabbix-cve-2022-23131)
 - [kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131)
+- [Kazaf6s/CVE-2022-23131](https://github.com/Kazaf6s/CVE-2022-23131)
 
 ### CVE-2022-23305 (2022-01-18)
 
@@ -992,7 +995,6 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 - [plummm/CVE-2022-27666](https://github.com/plummm/CVE-2022-27666)
 
 ### CVE-2022-28251
-- [mubix/CVE-2022-28251-POC](https://github.com/mubix/CVE-2022-28251-POC)
 - [ZephrFish/CVE-2022-28251-POC](https://github.com/ZephrFish/CVE-2022-28251-POC)
 
 ### CVE-2022-31166
