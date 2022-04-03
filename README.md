@@ -494,6 +494,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [me2nuk/CVE-2022-22963](https://github.com/me2nuk/CVE-2022-22963)
 - [kh4sh3i/Spring-CVE](https://github.com/kh4sh3i/Spring-CVE)
 - [AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963)
+- [twseptian/cve-2022-22963](https://github.com/twseptian/cve-2022-22963)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -509,6 +510,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc)
 - [k3rwin/spring-core-rce](https://github.com/k3rwin/spring-core-rce)
 - [Kirill89/CVE-2022-22965-PoC](https://github.com/Kirill89/CVE-2022-22965-PoC)
+- [FourCoreLabs/spring4shell-exploit-poc](https://github.com/FourCoreLabs/spring4shell-exploit-poc)
 - [alt3kx/CVE-2022-22965_PoC](https://github.com/alt3kx/CVE-2022-22965_PoC)
 - [GuayoyoCyber/CVE-2022-22965](https://github.com/GuayoyoCyber/CVE-2022-22965)
 - [colincowie/Safer_PoC_CVE-2022-22965](https://github.com/colincowie/Safer_PoC_CVE-2022-22965)
@@ -528,6 +530,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Wrin9/CVE-2022-22965](https://github.com/Wrin9/CVE-2022-22965)
 - [wjl110/CVE-2022-22965_Spring_Core_RCE](https://github.com/wjl110/CVE-2022-22965_Spring_Core_RCE)
 - [mwojterski/cve-2022-22965](https://github.com/mwojterski/cve-2022-22965)
+- [itsecurityco/CVE-2022-22965](https://github.com/itsecurityco/CVE-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -1223,6 +1226,7 @@ Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (comp
 
 - [Sauercloud/RWCTF21-VirtualBox-61-escape](https://github.com/Sauercloud/RWCTF21-VirtualBox-61-escape)
 - [chatbottesisgmailh/Sauercloude](https://github.com/chatbottesisgmailh/Sauercloude)
+- [shi10587s/Sauercloude](https://github.com/shi10587s/Sauercloude)
 
 ### CVE-2021-2173 (2021-04-22)
 
@@ -1754,7 +1758,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 </code>
 
 - [orangmuda/CVE-2021-20837](https://github.com/orangmuda/CVE-2021-20837)
-- [ohnonoyesyes/CVE-2021-20837](https://github.com/ohnonoyesyes/CVE-2021-20837)
+- [avboy1337/CVE-2021-20837](https://github.com/avboy1337/CVE-2021-20837)
 
 ### CVE-2021-21014 (2021-02-11)
 
@@ -1828,7 +1832,7 @@ Use after free in Blink in Google Chrome prior to 89.0.4389.90 allowed a remote 
 Type confusion in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
 </code>
 
-- [ohnonoyesyes/CVE-2021-21224](https://github.com/ohnonoyesyes/CVE-2021-21224)
+- [lnfernal/CVE-2021-21224](https://github.com/lnfernal/CVE-2021-21224)
 
 ### CVE-2021-21234 (2021-01-05)
 
@@ -2222,7 +2226,7 @@ A cache configuration issue prior to WhatsApp for Android v2.21.4.18 and WhatsAp
 Windows Mobile Device Management Information Disclosure Vulnerability
 </code>
 
-- [ohnonoyesyes/CVE-2021-24084](https://github.com/ohnonoyesyes/CVE-2021-24084)
+- [Jeromeyoung/CVE-2021-24084](https://github.com/Jeromeyoung/CVE-2021-24084)
 - [exploitblizzard/WindowsMDM-LPE-0Day](https://github.com/exploitblizzard/WindowsMDM-LPE-0Day)
 
 ### CVE-2021-24085 (2021-02-25)
@@ -3190,7 +3194,7 @@ Squirrelly is a template engine implemented in JavaScript that works out of the 
 Gerapy is a distributed crawler management framework. Prior to version 0.9.9, an authenticated user could execute arbitrary commands. This issue is fixed in version 0.9.9. There are no known workarounds.
 </code>
 
-- [ohnonoyesyes/CVE-2021-32849](https://github.com/ohnonoyesyes/CVE-2021-32849)
+- [avboy1337/CVE-2021-32849](https://github.com/avboy1337/CVE-2021-32849)
 
 ### CVE-2021-33026 (2021-05-13)
 
@@ -3722,7 +3726,7 @@ Insecure permissions in the file database.sdb of BatFlat CMS v1.3.6 allows attac
 The PING function on the TP-Link TL-WR840N EU v5 router with firmware through TL-WR840N(EU)_V5_171211 is vulnerable to remote code execution via a crafted payload in an IP address input field.
 </code>
 
-- [ohnonoyesyes/CVE-2021-41653](https://github.com/ohnonoyesyes/CVE-2021-41653)
+- [likeww/CVE-2021-41653](https://github.com/likeww/CVE-2021-41653)
 
 ### CVE-2021-41730
 - [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
@@ -3756,6 +3760,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773)
 - [spiderz0ne/CVE-2021-41773](https://github.com/spiderz0ne/CVE-2021-41773)
 - [DoTuan1/Reserch-CVE-2021-41773](https://github.com/DoTuan1/Reserch-CVE-2021-41773)
+- [bernardas/netsec-polygon](https://github.com/bernardas/netsec-polygon)
 
 ### CVE-2021-41777
 - [awsassets/CVE-2021-41777](https://github.com/awsassets/CVE-2021-41777)
@@ -4006,22 +4011,6 @@ The SyncThru Web Service on Samsung SCX-6x55X printers allows an attacker to gai
 ### CVE-2021-43008
 - [p0dalirius/CVE-2021-43008-AdminerRead](https://github.com/p0dalirius/CVE-2021-43008-AdminerRead)
 
-### CVE-2021-43140 (2021-11-03)
-
-<code>
-SQL Injection vulnerability exists in Sourcecodester. Simple Subscription Website 1.0. via the login.
-</code>
-
-- [Dir0x/CVE-2021-43140](https://github.com/Dir0x/CVE-2021-43140)
-
-### CVE-2021-43141 (2021-11-03)
-
-<code>
-Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Simple Subscription Website 1.0 via the id parameter in plan_application.
-</code>
-
-- [Dir0x/CVE-2021-43141](https://github.com/Dir0x/CVE-2021-43141)
-
 ### CVE-2021-43224 (2021-12-15)
 
 <code>
@@ -4037,7 +4026,7 @@ An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16.
 </code>
 
 - [DarkSprings/CVE-2021-43267-POC](https://github.com/DarkSprings/CVE-2021-43267-POC)
-- [ohnonoyesyes/CVE-2021-43267](https://github.com/ohnonoyesyes/CVE-2021-43267)
+- [zzhacked/CVE-2021-43267](https://github.com/zzhacked/CVE-2021-43267)
 
 ### CVE-2021-43297 (2022-01-10)
 
