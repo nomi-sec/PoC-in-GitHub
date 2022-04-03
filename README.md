@@ -3786,7 +3786,6 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/cve-2021-42013-docker-lab](https://github.com/twseptian/cve-2021-42013-docker-lab)
 - [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
-- [robotsense1337/CVE-2021-42013](https://github.com/robotsense1337/CVE-2021-42013)
 - [xMohamed0/CVE-2021-42013-ApacheRCE](https://github.com/xMohamed0/CVE-2021-42013-ApacheRCE)
 - [awsassets/CVE-2021-42013](https://github.com/awsassets/CVE-2021-42013)
 - [asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp](https://github.com/asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp)
@@ -3795,6 +3794,14 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 - [mauricelambert/CVE-2021-42013](https://github.com/mauricelambert/CVE-2021-42013)
 - [cryst4lliz3/CVE-2021-42013](https://github.com/cryst4lliz3/CVE-2021-42013)
+
+### CVE-2021-42171 (2022-03-14)
+
+<code>
+Zenario CMS 9.0.54156 is vulnerable to File Upload. The web server can be compromised by uploading and executing a web-shell which can run commands, browse system files, browse local resources, attack other servers, and exploit the local vulnerabilities, and so forth.
+</code>
+
+- [minhnq22/CVE-2021-42171](https://github.com/minhnq22/CVE-2021-42171)
 
 ### CVE-2021-42237 (2021-11-05)
 
