@@ -164,6 +164,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [Nekoox/dirty-pipe](https://github.com/Nekoox/dirty-pipe)
 - [stfnw/Debugging_Dirty_Pipe_CVE-2022-0847](https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847)
 - [drapl0n/dirtypipe](https://github.com/drapl0n/dirtypipe)
+- [xnderLAN/CVE-2022-0847](https://github.com/xnderLAN/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -1304,6 +1305,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
 - [Erikten/CVE-2021-3129](https://github.com/Erikten/CVE-2021-3129)
+- [selectarget/laravel-CVE-2021-3129-EXP](https://github.com/selectarget/laravel-CVE-2021-3129-EXP)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -2101,7 +2103,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 </code>
 
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
-- [antx-code/CVE-2021-22205](https://github.com/antx-code/CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
@@ -2133,7 +2134,6 @@ When requests to the internal network for webhooks are enabled, a server-side re
 
 - [r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
-- [antx-code/CVE-2021-22214](https://github.com/antx-code/CVE-2021-22214)
 - [kh4sh3i/GitLab-SSRF-CVE-2021-22214](https://github.com/kh4sh3i/GitLab-SSRF-CVE-2021-22214)
 
 ### CVE-2021-22569 (2022-01-07)
@@ -3551,6 +3551,7 @@ A crafted request uri-path can cause mod_proxy to forward the request to an orig
 
 - [ericmann/apache-cve-poc](https://github.com/ericmann/apache-cve-poc)
 - [pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt)
+- [Kashkovsky/CVE-2021-40438](https://github.com/Kashkovsky/CVE-2021-40438)
 
 ### CVE-2021-40444 (2021-09-15)
 
@@ -18534,6 +18535,7 @@ The IconUriServlet of the Atlassian OAuth Plugin from version 1.3.0 before versi
 
 - [random-robbie/Jira-Scan](https://github.com/random-robbie/Jira-Scan)
 - [pwn1sher/jira-ssrf](https://github.com/pwn1sher/jira-ssrf)
+- [labsbots/CVE-2017-9506](https://github.com/labsbots/CVE-2017-9506)
 
 ### CVE-2017-9544 (2017-06-12)
 
