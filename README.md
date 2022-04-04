@@ -524,7 +524,6 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [nu0l/CVE-2022-22965](https://github.com/nu0l/CVE-2022-22965)
 - [tangxiaofeng7/CVE-2022-22965-Spring-CachedintrospectionResults-Rce](https://github.com/tangxiaofeng7/CVE-2022-22965-Spring-CachedintrospectionResults-Rce)
 - [chaosec2021/CVE-2022-22965-POC](https://github.com/chaosec2021/CVE-2022-22965-POC)
-- [helsecert/CVE-2022-22965](https://github.com/helsecert/CVE-2022-22965)
 - [lcarea/CVE-2022-22965](https://github.com/lcarea/CVE-2022-22965)
 - [Joe1sn/CVE-2022-22965](https://github.com/Joe1sn/CVE-2022-22965)
 - [me2nuk/CVE-2022-22965](https://github.com/me2nuk/CVE-2022-22965)
@@ -534,6 +533,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [mwojterski/cve-2022-22965](https://github.com/mwojterski/cve-2022-22965)
 - [gpiechnik2/nmap-spring4shell](https://github.com/gpiechnik2/nmap-spring4shell)
 - [itsecurityco/CVE-2022-22965](https://github.com/itsecurityco/CVE-2022-22965)
+- [daniel0x00/Invoke-CVE-2022-22965-SafeCheck](https://github.com/daniel0x00/Invoke-CVE-2022-22965-SafeCheck)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -1000,9 +1000,6 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 
 - [plummm/CVE-2022-27666](https://github.com/plummm/CVE-2022-27666)
 
-### CVE-2022-28251
-- [ZephrFish/CVE-2022-28251-POC](https://github.com/ZephrFish/CVE-2022-28251-POC)
-
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
@@ -1055,6 +1052,14 @@ In shouldLockKeyguard of LockTaskController.java, there is a possible way to exi
 </code>
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0472](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0472)
+
+### CVE-2021-0476 (2021-06-11)
+
+<code>
+In FindOrCreatePeer of btif_av.cc, there is a possible use after free due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-9 Android-10Android ID: A-169252501
+</code>
+
+- [nanopathi/system_bt_AOSP10_r33_CVE-2021-0476](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0476)
 
 ### CVE-2021-0595 (2021-10-06)
 
@@ -3036,7 +3041,6 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
-- [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
 ### CVE-2021-31184 (2021-05-11)
@@ -5252,6 +5256,14 @@ In sdp_server_handle_client_req of sdp_server.cc, there is a possible out of bou
 </code>
 
 - [nanopathi/system_bt_AOSP10_r33_CVE-2020-0463](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2020-0463)
+
+### CVE-2020-0471 (2021-01-11)
+
+<code>
+In reassemble_and_dispatch of packet_fragmenter.cc, there is a possible way to inject packets into an encrypted Bluetooth connection due to improper input validation. This could lead to remote escalation of privilege between two Bluetooth devices by a proximal attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Product: Android; Versions: Android-8.0, Android-8.1, Android-9, Android-10, Android-11; Android ID: A-169327567.
+</code>
+
+- [nanopathi/system_bt_AOSP10_r33_CVE-2020-0471](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2020-0471)
 
 ### CVE-2020-0551 (2020-03-12)
 
