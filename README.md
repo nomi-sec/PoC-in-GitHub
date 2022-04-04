@@ -527,10 +527,12 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [helsecert/CVE-2022-22965](https://github.com/helsecert/CVE-2022-22965)
 - [lcarea/CVE-2022-22965](https://github.com/lcarea/CVE-2022-22965)
 - [Joe1sn/CVE-2022-22965](https://github.com/Joe1sn/CVE-2022-22965)
+- [me2nuk/CVE-2022-22965](https://github.com/me2nuk/CVE-2022-22965)
 - [wshon/spring-framework-rce](https://github.com/wshon/spring-framework-rce)
 - [Wrin9/CVE-2022-22965](https://github.com/Wrin9/CVE-2022-22965)
 - [wjl110/CVE-2022-22965_Spring_Core_RCE](https://github.com/wjl110/CVE-2022-22965_Spring_Core_RCE)
 - [mwojterski/cve-2022-22965](https://github.com/mwojterski/cve-2022-22965)
+- [gpiechnik2/nmap-spring4shell](https://github.com/gpiechnik2/nmap-spring4shell)
 - [itsecurityco/CVE-2022-22965](https://github.com/itsecurityco/CVE-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
@@ -5169,6 +5171,14 @@ In DecodeFrameCombinedMode of combined_decode.cpp, there is a possible out of bo
 
 - [Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245](https://github.com/Satheesh575555/frameworks_av_AOSP10_r33_CVE-2020-0245)
 
+### CVE-2020-0377 (2020-10-14)
+
+<code>
+In gatt_process_read_by_type_rsp of gatt_cl.cc, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure in the Bluetooth server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11 Android-8.0Android ID: A-158833854
+</code>
+
+- [Satheesh575555/system_bt_AOSP10_r33_CVE-2020-0377](https://github.com/Satheesh575555/system_bt_AOSP10_r33_CVE-2020-0377)
+
 ### CVE-2020-0391 (2020-09-17)
 
 <code>
@@ -5184,6 +5194,14 @@ In getLayerDebugInfo of SurfaceFlinger.cpp, there is a possible code execution d
 </code>
 
 - [Satheesh575555/frameworks_native_AOSP10_r33_CVE-2020-0392](https://github.com/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2020-0392)
+
+### CVE-2020-0413 (2020-10-14)
+
+<code>
+In gatt_process_read_by_type_rsp of gatt_cl.cc, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure in the Bluetooth server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11 Android-8.0Android ID: A-158778659
+</code>
+
+- [Satheesh575555/system_bt_AOSP10_r33_CVE-2020-0413](https://github.com/Satheesh575555/system_bt_AOSP10_r33_CVE-2020-0413)
 
 ### CVE-2020-0421 (2020-10-14)
 
