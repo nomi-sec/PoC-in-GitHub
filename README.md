@@ -84,6 +84,7 @@ The BN_mod_sqrt() function, which computes a modular square root, contains a bug
 </code>
 
 - [drago-96/CVE-2022-0778](https://github.com/drago-96/CVE-2022-0778)
+- [yywing/cve-2022-0778](https://github.com/yywing/cve-2022-0778)
 
 ### CVE-2022-0811 (2022-03-16)
 
@@ -534,6 +535,9 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [gpiechnik2/nmap-spring4shell](https://github.com/gpiechnik2/nmap-spring4shell)
 - [itsecurityco/CVE-2022-22965](https://github.com/itsecurityco/CVE-2022-22965)
 - [daniel0x00/Invoke-CVE-2022-22965-SafeCheck](https://github.com/daniel0x00/Invoke-CVE-2022-22965-SafeCheck)
+- [fracturelabs/spring4shell_victim](https://github.com/fracturelabs/spring4shell_victim)
+- [sunnyvale-it/CVE-2022-22965-PoC](https://github.com/sunnyvale-it/CVE-2022-22965-PoC)
+- [twseptian/cve-2022-22965](https://github.com/twseptian/cve-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -19924,6 +19928,7 @@ The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, an
 
 - [bazad/flow_divert-heap-overflow](https://github.com/bazad/flow_divert-heap-overflow)
 - [domain9065v/bazad3](https://github.com/domain9065v/bazad3)
+- [superMan7912002/bazad3](https://github.com/superMan7912002/bazad3)
 
 ### CVE-2016-1828 (2016-05-20)
 
