@@ -15108,7 +15108,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [thehappydinoa/CVE-2018-7600](https://github.com/thehappydinoa/CVE-2018-7600)
 - [sl4cky/CVE-2018-7600](https://github.com/sl4cky/CVE-2018-7600)
 - [sl4cky/CVE-2018-7600-Masschecker](https://github.com/sl4cky/CVE-2018-7600-Masschecker)
-- [FireFart/CVE-2018-7600](https://github.com/FireFart/CVE-2018-7600)
+- [firefart/CVE-2018-7600](https://github.com/firefart/CVE-2018-7600)
 - [pimps/CVE-2018-7600](https://github.com/pimps/CVE-2018-7600)
 - [lorddemon/drupalgeddon2](https://github.com/lorddemon/drupalgeddon2)
 - [Hestat/drupal-check](https://github.com/Hestat/drupal-check)
@@ -15130,6 +15130,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600)
 - [rafaelcaria/drupalgeddon2-CVE-2018-7600](https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600)
 - [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
+- [persian64/CVE-2018-7600](https://github.com/persian64/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
