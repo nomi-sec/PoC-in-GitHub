@@ -4021,7 +4021,12 @@ The SyncThru Web Service on Samsung SCX-6x55X printers allows an attacker to gai
 ### CVE-2021-42949
 - [dhammon/HotelDruid-CVE-2021-42949](https://github.com/dhammon/HotelDruid-CVE-2021-42949)
 
-### CVE-2021-43008
+### CVE-2021-43008 (2022-04-04)
+
+<code>
+Improper Access Control in Adminer versions 1.12.0 to 4.6.2 (fixed in version 4.6.3) allows an attacker to achieve Arbitrary File Read on the remote server by requesting the Adminer to connect to a remote MySQL database.
+</code>
+
 - [p0dalirius/CVE-2021-43008-AdminerRead](https://github.com/p0dalirius/CVE-2021-43008-AdminerRead)
 
 ### CVE-2021-43224 (2021-12-15)
