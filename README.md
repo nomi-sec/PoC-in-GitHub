@@ -12,6 +12,7 @@ A heap-based buffer overflow flaw was found in the way the legacy_parse_param fu
 - [khaclep007/CVE-2022-0185](https://github.com/khaclep007/CVE-2022-0185)
 - [chenaotian/CVE-2022-0185](https://github.com/chenaotian/CVE-2022-0185)
 - [shahparkhan/cve-2022-0185](https://github.com/shahparkhan/cve-2022-0185)
+- [veritas501/CVE-2022-0185-PipeVersion](https://github.com/veritas501/CVE-2022-0185-PipeVersion)
 
 ### CVE-2022-0219 (2022-01-20)
 
@@ -471,6 +472,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [bigbigban1/CVE-2022-22947-exp](https://github.com/bigbigban1/CVE-2022-22947-exp)
 - [sagaryadav8742/springcloudRCE](https://github.com/sagaryadav8742/springcloudRCE)
 - [talentsec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/talentsec/Spring-Cloud-Gateway-CVE-2022-22947)
+- [aesm1p/CVE-2022-22947-POC-Reproduce](https://github.com/aesm1p/CVE-2022-22947-POC-Reproduce)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -540,6 +542,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [twseptian/cve-2022-22965](https://github.com/twseptian/cve-2022-22965)
 - [netcode/Spring4shell-CVE-2022-22965-POC](https://github.com/netcode/Spring4shell-CVE-2022-22965-POC)
 - [fracturelabs/go-scan-spring](https://github.com/fracturelabs/go-scan-spring)
+- [Snip3R69/spring-shell-vuln](https://github.com/Snip3R69/spring-shell-vuln)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -757,7 +760,6 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
 - [VVeakee/CVE-2022-24990-POC](https://github.com/VVeakee/CVE-2022-24990-POC)
-- [VVeakee/CVE-2022-24990-EXP](https://github.com/VVeakee/CVE-2022-24990-EXP)
 - [0xf4n9x/CVE-2022-24990](https://github.com/0xf4n9x/CVE-2022-24990)
 - [lishang520/CVE-2022-24990](https://github.com/lishang520/CVE-2022-24990)
 
@@ -873,6 +875,7 @@ net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows loca
 
 - [Bonfee/CVE-2022-25636](https://github.com/Bonfee/CVE-2022-25636)
 - [chenaotian/CVE-2022-25636](https://github.com/chenaotian/CVE-2022-25636)
+- [veritas501/CVE-2022-25636-PipeVersion](https://github.com/veritas501/CVE-2022-25636-PipeVersion)
 
 ### CVE-2022-25640 (2022-02-23)
 
@@ -2117,7 +2120,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
-- [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
 - [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
@@ -2147,6 +2149,14 @@ When requests to the internal network for webhooks are enabled, a server-side re
 - [r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 - [kh4sh3i/GitLab-SSRF-CVE-2021-22214](https://github.com/kh4sh3i/GitLab-SSRF-CVE-2021-22214)
+
+### CVE-2021-22555 (2021-07-07)
+
+<code>
+A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in net/netfilter/x_tables.c. This allows an attacker to gain privileges or cause a DoS (via heap memory corruption) through user name space
+</code>
+
+- [veritas501/CVE-2021-22555-PipeVersion](https://github.com/veritas501/CVE-2021-22555-PipeVersion)
 
 ### CVE-2021-22569 (2022-01-07)
 
@@ -8978,6 +8988,7 @@ A Remote Code Execution vulnerability exists in the gVectors wpDiscuz plugin 7.0
 
 - [h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE](https://github.com/h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE)
 - [meicookies/CVE-2020-24186](https://github.com/meicookies/CVE-2020-24186)
+- [Sakura-501/CVE-2020-24186-exploit](https://github.com/Sakura-501/CVE-2020-24186-exploit)
 
 ### CVE-2020-24227 (2020-11-23)
 
