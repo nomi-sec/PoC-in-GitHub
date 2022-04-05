@@ -538,6 +538,8 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [fracturelabs/spring4shell_victim](https://github.com/fracturelabs/spring4shell_victim)
 - [sunnyvale-it/CVE-2022-22965-PoC](https://github.com/sunnyvale-it/CVE-2022-22965-PoC)
 - [twseptian/cve-2022-22965](https://github.com/twseptian/cve-2022-22965)
+- [netcode/Spring4shell-CVE-2022-22965-POC](https://github.com/netcode/Spring4shell-CVE-2022-22965-POC)
+- [fracturelabs/go-scan-spring](https://github.com/fracturelabs/go-scan-spring)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -2117,7 +2119,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
-- [devdanqtuan/CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205)
 - [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
 - [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
@@ -3772,6 +3773,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [spiderz0ne/CVE-2021-41773](https://github.com/spiderz0ne/CVE-2021-41773)
 - [DoTuan1/Reserch-CVE-2021-41773](https://github.com/DoTuan1/Reserch-CVE-2021-41773)
 - [bernardas/netsec-polygon](https://github.com/bernardas/netsec-polygon)
+- [CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit](https://github.com/CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit)
 
 ### CVE-2021-41777
 - [awsassets/CVE-2021-41777](https://github.com/awsassets/CVE-2021-41777)
