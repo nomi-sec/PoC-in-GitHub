@@ -499,6 +499,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [kh4sh3i/Spring-CVE](https://github.com/kh4sh3i/Spring-CVE)
 - [AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963)
 - [twseptian/cve-2022-22963](https://github.com/twseptian/cve-2022-22963)
+- [SealPaPaPa/SpringCloudFunction-Research](https://github.com/SealPaPaPa/SpringCloudFunction-Research)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -543,6 +544,9 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [netcode/Spring4shell-CVE-2022-22965-POC](https://github.com/netcode/Spring4shell-CVE-2022-22965-POC)
 - [fracturelabs/go-scan-spring](https://github.com/fracturelabs/go-scan-spring)
 - [Snip3R69/spring-shell-vuln](https://github.com/Snip3R69/spring-shell-vuln)
+- [xnderLAN/CVE-2022-22965](https://github.com/xnderLAN/CVE-2022-22965)
+- [luoqianlin/CVE-2022-22965](https://github.com/luoqianlin/CVE-2022-22965)
+- [robiul-awal/CVE-2022-22965](https://github.com/robiul-awal/CVE-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -10573,6 +10577,7 @@ A vulnerability in the web-based management interface of Cisco Small Business RV
 
 - [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
+- [helGayhub233/CVE-2019-1653](https://github.com/helGayhub233/CVE-2019-1653)
 
 ### CVE-2019-1759 (2019-03-27)
 
