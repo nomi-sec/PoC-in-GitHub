@@ -160,7 +160,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [phuonguno98/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/phuonguno98/CVE-2022-0847-DirtyPipe-Exploits)
 - [MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker](https://github.com/MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker)
 - [logm1lo/CVE-2022-0847_DirtyPipe_Exploits](https://github.com/logm1lo/CVE-2022-0847_DirtyPipe_Exploits)
-- [LudovicPatho/CVE-2022-0847](https://github.com/LudovicPatho/CVE-2022-0847)
+- [LudovicPatho/CVE-2022-0847_dirty-pipe](https://github.com/LudovicPatho/CVE-2022-0847_dirty-pipe)
 - [DanaEpp/pwncat_dirtypipe](https://github.com/DanaEpp/pwncat_dirtypipe)
 - [tmoneypenny/CVE-2022-0847](https://github.com/tmoneypenny/CVE-2022-0847)
 - [Nekoox/dirty-pipe](https://github.com/Nekoox/dirty-pipe)
@@ -547,6 +547,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [xnderLAN/CVE-2022-22965](https://github.com/xnderLAN/CVE-2022-22965)
 - [luoqianlin/CVE-2022-22965](https://github.com/luoqianlin/CVE-2022-22965)
 - [robiul-awal/CVE-2022-22965](https://github.com/robiul-awal/CVE-2022-22965)
+- [LudovicPatho/CVE-2022-22965_Spring4Shell](https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell)
 
 ### CVE-2022-23046 (2022-01-19)
 
