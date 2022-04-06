@@ -167,6 +167,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [stfnw/Debugging_Dirty_Pipe_CVE-2022-0847](https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847)
 - [drapl0n/dirtypipe](https://github.com/drapl0n/dirtypipe)
 - [xnderLAN/CVE-2022-0847](https://github.com/xnderLAN/CVE-2022-0847)
+- [mhanief/dirtypipe](https://github.com/mhanief/dirtypipe)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -548,6 +549,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [luoqianlin/CVE-2022-22965](https://github.com/luoqianlin/CVE-2022-22965)
 - [robiul-awal/CVE-2022-22965](https://github.com/robiul-awal/CVE-2022-22965)
 - [LudovicPatho/CVE-2022-22965_Spring4Shell](https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell)
+- [datawiza-inc/spring-rec-demo](https://github.com/datawiza-inc/spring-rec-demo)
 
 ### CVE-2022-23046 (2022-01-19)
 
