@@ -648,6 +648,14 @@ Mojang Bedrock Dedicated Server 1.18.2 is affected by an integer overflow leadin
 
 - [LuckyDogDog/CVE-2022-23884](https://github.com/LuckyDogDog/CVE-2022-23884)
 
+### CVE-2022-23909 (2022-04-05)
+
+<code>
+There is an unquoted service path in Sherpa Connector Service (SherpaConnectorService.exe) 2020.2.20328.2050. This might allow a local user to escalate privileges by creating a &quot;C:\Program Files\Sherpa Software\Sherpa.exe&quot; file.
+</code>
+
+- [netsectuna/CVE-2022-23909](https://github.com/netsectuna/CVE-2022-23909)
+
 ### CVE-2022-23940 (2022-03-07)
 
 <code>
@@ -989,6 +997,9 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 
 - [scopion/CVE-2022-26629](https://github.com/scopion/CVE-2022-26629)
 - [sysenter-eip/CVE-2022-26629](https://github.com/sysenter-eip/CVE-2022-26629)
+
+### CVE-2022-26631
+- [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -2125,7 +2136,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
-- [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
 - [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
@@ -3790,6 +3800,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [DoTuan1/Reserch-CVE-2021-41773](https://github.com/DoTuan1/Reserch-CVE-2021-41773)
 - [bernardas/netsec-polygon](https://github.com/bernardas/netsec-polygon)
 - [CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit](https://github.com/CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit)
+- [vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773)
 
 ### CVE-2021-41777
 - [awsassets/CVE-2021-41777](https://github.com/awsassets/CVE-2021-41777)
@@ -13943,6 +13954,14 @@ There was a flaw in the WordPress plugin, Email Subscribers &amp; Newsletters be
 
 - [jerrylewis9/CVE-2019-20361-EXPLOIT](https://github.com/jerrylewis9/CVE-2019-20361-EXPLOIT)
 
+### CVE-2019-20372 (2020-01-09)
+
+<code>
+NGINX before 1.17.7, with certain error_page configurations, allows HTTP request smuggling, as demonstrated by the ability of an attacker to read unauthorized web pages in environments where NGINX is being fronted by a load balancer.
+</code>
+
+- [vuongnv3389-sec/CVE-2019-20372](https://github.com/vuongnv3389-sec/CVE-2019-20372)
+
 ### CVE-2019-20933 (2020-11-18)
 
 <code>
@@ -23613,7 +23632,7 @@ UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 th
 </code>
 
 - [XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE)
-- [0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit](https://github.com/0bfxgh0st/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit)
+- [0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit](https://github.com/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit)
 
 ### CVE-2010-3332 (2010-09-22)
 
