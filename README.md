@@ -516,6 +516,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [light-Life/CVE-2022-22965-GUItools](https://github.com/light-Life/CVE-2022-22965-GUItools)
 - [DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc)
 - [k3rwin/spring-core-rce](https://github.com/k3rwin/spring-core-rce)
+- [liangyueliangyue/spring-core-rce](https://github.com/liangyueliangyue/spring-core-rce)
 - [Kirill89/CVE-2022-22965-PoC](https://github.com/Kirill89/CVE-2022-22965-PoC)
 - [FourCoreLabs/spring4shell-exploit-poc](https://github.com/FourCoreLabs/spring4shell-exploit-poc)
 - [alt3kx/CVE-2022-22965_PoC](https://github.com/alt3kx/CVE-2022-22965_PoC)
@@ -552,6 +553,9 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [LudovicPatho/CVE-2022-22965_Spring4Shell](https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell)
 - [irgoncalves/irule-cve-2022-22965](https://github.com/irgoncalves/irule-cve-2022-22965)
 - [datawiza-inc/spring-rec-demo](https://github.com/datawiza-inc/spring-rec-demo)
+- [alt3kx/CVE-2022-22965](https://github.com/alt3kx/CVE-2022-22965)
+- [wikiZ/springboot_CVE-2022-22965](https://github.com/wikiZ/springboot_CVE-2022-22965)
+- [4nth0ny1130/spring4shell_behinder](https://github.com/4nth0ny1130/spring4shell_behinder)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -13151,6 +13155,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [zeroxninety/CVE-2019-16113-PoC](https://github.com/zeroxninety/CVE-2019-16113-PoC)
 - [persian64/CVE-2019-16113](https://github.com/persian64/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
+- [persian64/CVE-2019-16113_](https://github.com/persian64/CVE-2019-16113_)
 
 ### CVE-2019-16278 (2019-10-14)
 
@@ -15762,6 +15767,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
 - [dearpan/cve-2018-9995](https://github.com/dearpan/cve-2018-9995)
 - [LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995](https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995)
+- [hoaan1995/CVE-2018-9995](https://github.com/hoaan1995/CVE-2018-9995)
 
 ### CVE-2018-10118 (2018-04-15)
 
@@ -23326,6 +23332,7 @@ The callme_startcall function in recordings/misc/callme_page.php in FreePBX 2.9,
 </code>
 
 - [bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution)
+- [persian64/CVE-2012-4869](https://github.com/persian64/CVE-2012-4869)
 
 ### CVE-2012-4929 (2012-09-15)
 
