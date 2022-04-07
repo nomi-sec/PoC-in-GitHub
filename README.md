@@ -550,6 +550,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [luoqianlin/CVE-2022-22965](https://github.com/luoqianlin/CVE-2022-22965)
 - [robiul-awal/CVE-2022-22965](https://github.com/robiul-awal/CVE-2022-22965)
 - [LudovicPatho/CVE-2022-22965_Spring4Shell](https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell)
+- [irgoncalves/irule-cve-2022-22965](https://github.com/irgoncalves/irule-cve-2022-22965)
 - [datawiza-inc/spring-rec-demo](https://github.com/datawiza-inc/spring-rec-demo)
 
 ### CVE-2022-23046 (2022-01-19)
@@ -1027,6 +1028,9 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 </code>
 
 - [plummm/CVE-2022-27666](https://github.com/plummm/CVE-2022-27666)
+
+### CVE-2022-28113
+- [code-byter/CVE-2022-28113](https://github.com/code-byter/CVE-2022-28113)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -3175,6 +3179,27 @@ A SQL injection vulnerability in the pandora_console component of Artica Pandora
 - [ibnuuby/CVE-2021-32099](https://github.com/ibnuuby/CVE-2021-32099)
 - [l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi)
 - [akr3ch/CVE-2021-32099](https://github.com/akr3ch/CVE-2021-32099)
+
+### CVE-2021-32156
+- [Mesh3l911/CVE-2021-32156](https://github.com/Mesh3l911/CVE-2021-32156)
+
+### CVE-2021-32157
+- [Mesh3l911/CVE-2021-32157](https://github.com/Mesh3l911/CVE-2021-32157)
+
+### CVE-2021-32158
+- [Mesh3l911/CVE-2021-32158](https://github.com/Mesh3l911/CVE-2021-32158)
+
+### CVE-2021-32159
+- [Mesh3l911/CVE-2021-32159](https://github.com/Mesh3l911/CVE-2021-32159)
+
+### CVE-2021-32160
+- [Mesh3l911/CVE-2021-32160](https://github.com/Mesh3l911/CVE-2021-32160)
+
+### CVE-2021-32161
+- [Mesh3l911/CVE-2021-32161](https://github.com/Mesh3l911/CVE-2021-32161)
+
+### CVE-2021-32162
+- [Mesh3l911/CVE-2021-32162](https://github.com/Mesh3l911/CVE-2021-32162)
 
 ### CVE-2021-32399 (2021-05-10)
 
