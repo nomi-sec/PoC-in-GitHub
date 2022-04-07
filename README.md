@@ -1098,6 +1098,14 @@ In FindOrCreatePeer of btif_av.cc, there is a possible use after free due to a r
 
 - [nanopathi/system_bt_AOSP10_r33_CVE-2021-0476](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0476)
 
+### CVE-2021-0520 (2021-06-21)
+
+<code>
+In several functions of MemoryFileSystem.cpp and related files, there is a possible use after free due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-10Android ID: A-176237595
+</code>
+
+- [nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520)
+
 ### CVE-2021-0595 (2021-10-06)
 
 <code>
@@ -2130,7 +2138,6 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [convisolabs/CVE-2021-22204-exiftool](https://github.com/convisolabs/CVE-2021-22204-exiftool)
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
-- [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
@@ -9707,6 +9714,7 @@ Zoho ManageEngine OpManager Stable build before 125203 (and Released build befor
 
 - [tuo4n8/CVE-2020-28653](https://github.com/tuo4n8/CVE-2020-28653)
 - [intrigueio/cve-2020-28653-poc](https://github.com/intrigueio/cve-2020-28653-poc)
+- [mr-r3bot/ManageEngine-CVE-2020-28653](https://github.com/mr-r3bot/ManageEngine-CVE-2020-28653)
 
 ### CVE-2020-28874 (2021-01-21)
 
@@ -10893,6 +10901,7 @@ Spring Cloud Config, versions 2.1.x prior to 2.1.2, versions 2.0.x prior to 2.0.
 </code>
 
 - [mpgn/CVE-2019-3799](https://github.com/mpgn/CVE-2019-3799)
+- [Corgizz/SpringCloud](https://github.com/Corgizz/SpringCloud)
 
 ### CVE-2019-3810 (2019-03-25)
 
@@ -21147,6 +21156,14 @@ The overlayfs implementation in the linux (aka Linux kernel) package before 3.19
 - [SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328)
 - [notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328)
 - [0x1ns4n3/CVE-2015-1328-GoldenEye](https://github.com/0x1ns4n3/CVE-2015-1328-GoldenEye)
+
+### CVE-2015-1397 (2015-04-29)
+
+<code>
+SQL injection vulnerability in the getCsvFile function in the Mage_Adminhtml_Block_Widget_Grid class in Magento Community Edition (CE) 1.9.1.0 and Enterprise Edition (EE) 1.14.1.0 allows remote administrators to execute arbitrary SQL commands via the popularity[field_expr] parameter when the popularity[from] or popularity[to] parameter is set.
+</code>
+
+- [tmatejicek/CVE-2015-1397](https://github.com/tmatejicek/CVE-2015-1397)
 
 ### CVE-2015-1427 (2015-02-17)
 
