@@ -556,6 +556,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [alt3kx/CVE-2022-22965](https://github.com/alt3kx/CVE-2022-22965)
 - [wikiZ/springboot_CVE-2022-22965](https://github.com/wikiZ/springboot_CVE-2022-22965)
 - [4nth0ny1130/spring4shell_behinder](https://github.com/4nth0ny1130/spring4shell_behinder)
+- [t3amj3ff/Spring4ShellPoC](https://github.com/t3amj3ff/Spring4ShellPoC)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -8325,6 +8326,14 @@ A flaw was found in grub2 in versions prior to 2.06, where it incorrectly enable
 </code>
 
 - [kukrimate/CVE-2020-14372](https://github.com/kukrimate/CVE-2020-14372)
+
+### CVE-2020-14381 (2020-12-03)
+
+<code>
+A flaw was found in the Linux kernel’s futex implementation. This flaw allows a local attacker to corrupt system memory or escalate their privileges when creating a futex on a filesystem that is about to be unmounted. The highest threat from this vulnerability is to confidentiality, integrity, as well as system availability.
+</code>
+
+- [nanopathi/linux-4.19.72_CVE-2020-14381](https://github.com/nanopathi/linux-4.19.72_CVE-2020-14381)
 
 ### CVE-2020-14386 (2020-09-16)
 
