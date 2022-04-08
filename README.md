@@ -301,6 +301,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [coconut20/CVE-2022-21907-RCE-POC](https://github.com/coconut20/CVE-2022-21907-RCE-POC)
+- [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
 
 ### CVE-2022-21971 (2022-02-09)
 
@@ -557,6 +558,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [wikiZ/springboot_CVE-2022-22965](https://github.com/wikiZ/springboot_CVE-2022-22965)
 - [4nth0ny1130/spring4shell_behinder](https://github.com/4nth0ny1130/spring4shell_behinder)
 - [t3amj3ff/Spring4ShellPoC](https://github.com/t3amj3ff/Spring4ShellPoC)
+- [CalumHutton/CVE-2022-22965-PoC_Payara](https://github.com/CalumHutton/CVE-2022-22965-PoC_Payara)
 - [Will-Beninger/CVE-2022-22965_SpringShell](https://github.com/Will-Beninger/CVE-2022-22965_SpringShell)
 
 ### CVE-2022-23046 (2022-01-19)
@@ -1037,6 +1039,9 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 
 ### CVE-2022-28113
 - [code-byter/CVE-2022-28113](https://github.com/code-byter/CVE-2022-28113)
+
+### CVE-2022-28281
+- [0vercl0k/CVE-2022-28281](https://github.com/0vercl0k/CVE-2022-28281)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -1680,7 +1685,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit)
-- [MedKH1684/Pwnkit-CVE-2021-4034](https://github.com/MedKH1684/Pwnkit-CVE-2021-4034)
 - [EstamelGG/CVE-2021-4034-NoGCC](https://github.com/EstamelGG/CVE-2021-4034-NoGCC)
 - [pengalaman-1t/CVE-2021-4034](https://github.com/pengalaman-1t/CVE-2021-4034)
 - [n3onhacks/CVE-2021-4034-BASH-One-File-Exploit](https://github.com/n3onhacks/CVE-2021-4034-BASH-One-File-Exploit)
@@ -1748,6 +1752,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
 - [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
+- [ArkAngeL43/CVE-2021-4034](https://github.com/ArkAngeL43/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
