@@ -529,7 +529,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Axx8/SpringFramework_CVE-2022-22965_RCE](https://github.com/Axx8/SpringFramework_CVE-2022-22965_RCE)
 - [snicoll-scratches/spring-boot-cve-2022-22965](https://github.com/snicoll-scratches/spring-boot-cve-2022-22965)
 - [nu0l/CVE-2022-22965](https://github.com/nu0l/CVE-2022-22965)
-- [tangxiaofeng7/CVE-2022-22965-Spring-CachedintrospectionResults-Rce](https://github.com/tangxiaofeng7/CVE-2022-22965-Spring-CachedintrospectionResults-Rce)
+- [tangxiaofeng7/CVE-2022-22965-Spring-Core-Rce](https://github.com/tangxiaofeng7/CVE-2022-22965-Spring-Core-Rce)
 - [chaosec2021/CVE-2022-22965-POC](https://github.com/chaosec2021/CVE-2022-22965-POC)
 - [lcarea/CVE-2022-22965](https://github.com/lcarea/CVE-2022-22965)
 - [Joe1sn/CVE-2022-22965](https://github.com/Joe1sn/CVE-2022-22965)
@@ -1359,6 +1359,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
 - [Erikten/CVE-2021-3129](https://github.com/Erikten/CVE-2021-3129)
 - [selectarget/laravel-CVE-2021-3129-EXP](https://github.com/selectarget/laravel-CVE-2021-3129-EXP)
+- [cuongtop4598/CVE-2021-3129-Script](https://github.com/cuongtop4598/CVE-2021-3129-Script)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -1437,7 +1438,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
 - [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
-- [ret2basic/sudoscience](https://github.com/ret2basic/sudoscience)
+- [ret2basic/SudoScience](https://github.com/ret2basic/SudoScience)
 - [puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156)
 - [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
 - [GatoGamer1155/CVE-2021-3156](https://github.com/GatoGamer1155/CVE-2021-3156)
@@ -3819,7 +3820,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [Balgogan/CVE-2021-41773](https://github.com/Balgogan/CVE-2021-41773)
-- [Hydragyrum/CVE-2021-41773-Playground](https://github.com/Hydragyrum/CVE-2021-41773-Playground)
 - [IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
