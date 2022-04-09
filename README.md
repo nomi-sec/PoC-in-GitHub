@@ -10363,6 +10363,7 @@ An elevation of privilege vulnerability exists when Windows AppX Deployment Serv
 - [rogue-kdc/CVE-2019-0841](https://github.com/rogue-kdc/CVE-2019-0841)
 - [likescam/CVE-2019-0841](https://github.com/likescam/CVE-2019-0841)
 - [0x00-0x00/CVE-2019-0841-BYPASS](https://github.com/0x00-0x00/CVE-2019-0841-BYPASS)
+- [mappl3/CVE-2019-0841](https://github.com/mappl3/CVE-2019-0841)
 
 ### CVE-2019-0859 (2019-04-09)
 
