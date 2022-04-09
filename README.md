@@ -4779,7 +4779,7 @@ Simple College Website 1.0 is vulnerable to unauthenticated file upload &amp; re
 ### CVE-2021-44659 (2021-12-22)
 
 <code>
-Adding a new pipeline in GoCD server version 21.3.0 has a functionality that could be abused to do an un-intended action in order to achieve a Server Side Request Forgery (SSRF)
+** DISPUTED ** Adding a new pipeline in GoCD server version 21.3.0 has a functionality that could be abused to do an un-intended action in order to achieve a Server Side Request Forgery (SSRF). NOTE: the vendor's position is that the observed behavior is not a vulnerability, because the product's design allows an admin to configure outbound requests.
 </code>
 
 - [Mesh3l911/CVE-2021-44659](https://github.com/Mesh3l911/CVE-2021-44659)
@@ -18800,6 +18800,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
 - [rodnt/laravel-phpunit-rce-masscaner](https://github.com/rodnt/laravel-phpunit-rce-masscaner)
 - [akr3ch/CVE-2017-9841](https://github.com/akr3ch/CVE-2017-9841)
+- [0zvxr/CVE-2017-9841](https://github.com/0zvxr/CVE-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
