@@ -20496,6 +20496,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847)
 - [vinspiert/scumjrs](https://github.com/vinspiert/scumjrs)
 - [gurpreetsinghsaluja/dirtycow](https://github.com/gurpreetsinghsaluja/dirtycow)
+- [ArkAngeL43/CVE-2016-5195](https://github.com/ArkAngeL43/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-22)
 
