@@ -3518,14 +3518,6 @@ A SQL injection vulnerability exists in version 3.0.2 of Hotel Druid when SQLite
 
 - [AK-blank/CVE-2021-37832](https://github.com/AK-blank/CVE-2021-37832)
 
-### CVE-2021-38001 (2021-11-23)
-
-<code>
-Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-</code>
-
-- [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
-
 ### CVE-2021-38314 (2021-09-02)
 
 <code>
@@ -4696,6 +4688,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [CrashOverflow/Log4Shell_PoC](https://github.com/CrashOverflow/Log4Shell_PoC)
 - [bsigouin/log4shell-vulnerable-app](https://github.com/bsigouin/log4shell-vulnerable-app)
 - [ToxicEnvelope/XSYS-Log4J2Shell-Ex](https://github.com/ToxicEnvelope/XSYS-Log4J2Shell-Ex)
+- [felipe8398/ModSec-log4j2](https://github.com/felipe8398/ModSec-log4j2)
 - [ceyhuncamli/Log4j_Attacker_IPList](https://github.com/ceyhuncamli/Log4j_Attacker_IPList)
 - [mazhar-hassan/log4j-vulnerability](https://github.com/mazhar-hassan/log4j-vulnerability)
 - [cungts/VTI-IOCs-CVE-2021-44228](https://github.com/cungts/VTI-IOCs-CVE-2021-44228)
@@ -11480,6 +11473,14 @@ ColdFusion versions Update 3 and earlier, Update 10 and earlier, and Update 18 a
 
 - [securifera/CVE-2019-7839](https://github.com/securifera/CVE-2019-7839)
 
+### CVE-2019-8014 (2019-08-20)
+
+<code>
+Adobe Acrobat and Reader versions 2019.012.20035 and earlier, 2019.012.20035 and earlier, 2017.011.30142 and earlier, 2017.011.30143 and earlier, 2015.006.30497 and earlier, and 2015.006.30498 and earlier have a heap overflow vulnerability. Successful exploitation could lead to arbitrary code execution .
+</code>
+
+- [f01965/CVE-2019-8014](https://github.com/f01965/CVE-2019-8014)
+
 ### CVE-2019-8389 (2019-02-16)
 
 <code>
@@ -14842,6 +14843,14 @@ An issue was discovered in Adobe Acrobat Reader 2018.009.20050 and earlier versi
 </code>
 
 - [bigric3/CVE-2018-4901](https://github.com/bigric3/CVE-2018-4901)
+
+### CVE-2018-5146 (2018-06-11)
+
+<code>
+An out of bounds memory write while processing Vorbis audio data was reported through the Pwn2Own contest. This vulnerability affects Firefox &lt; 59.0.1, Firefox ESR &lt; 52.7.2, and Thunderbird &lt; 52.7.
+</code>
+
+- [f01965/CVE-2018-5146](https://github.com/f01965/CVE-2018-5146)
 
 ### CVE-2018-5158 (2018-06-11)
 
