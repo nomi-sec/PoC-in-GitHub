@@ -1106,6 +1106,14 @@ In FindOrCreatePeer of btif_av.cc, there is a possible use after free due to a r
 
 - [nanopathi/system_bt_AOSP10_r33_CVE-2021-0476](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0476)
 
+### CVE-2021-0507 (2021-06-21)
+
+<code>
+In handle_rc_metamsg_cmd of btif_rc.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution over Bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-181860042
+</code>
+
+- [nanopathi/system_bt_AOSP10_r33_CVE-2021-0507](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0507)
+
 ### CVE-2021-0520 (2021-06-21)
 
 <code>
@@ -3656,7 +3664,6 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 </code>
 
 - [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
-- [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
