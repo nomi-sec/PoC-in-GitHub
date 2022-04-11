@@ -371,6 +371,14 @@ A logic issue was addressed with improved state management. This issue is fixed 
 
 - [jhftss/CVE-2022-22639](https://github.com/jhftss/CVE-2022-22639)
 
+### CVE-2022-22822 (2022-01-07)
+
+<code>
+addBinding in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.
+</code>
+
+- [nanopathi/external_expat_AOSP10_r33_CVE-2022-22822toCVE-2022-22827](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2022-22822toCVE-2022-22827)
+
 ### CVE-2022-22828 (2022-01-27)
 
 <code>
@@ -486,6 +494,9 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 
 - [PenteraIO/CVE-2022-22948](https://github.com/PenteraIO/CVE-2022-22948)
 
+### CVE-2022-22954
+- [sherlocksecurity/VMware-CVE-2022-22954](https://github.com/sherlocksecurity/VMware-CVE-2022-22954)
+
 ### CVE-2022-22963 (2022-04-01)
 
 <code>
@@ -535,6 +546,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [chaosec2021/CVE-2022-22965-POC](https://github.com/chaosec2021/CVE-2022-22965-POC)
 - [lcarea/CVE-2022-22965](https://github.com/lcarea/CVE-2022-22965)
 - [Joe1sn/CVE-2022-22965](https://github.com/Joe1sn/CVE-2022-22965)
+- [zer0yu/CVE-2022-22965](https://github.com/zer0yu/CVE-2022-22965)
 - [me2nuk/CVE-2022-22965](https://github.com/me2nuk/CVE-2022-22965)
 - [wshon/spring-framework-rce](https://github.com/wshon/spring-framework-rce)
 - [Wrin9/CVE-2022-22965](https://github.com/Wrin9/CVE-2022-22965)
@@ -563,7 +575,6 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Will-Beninger/CVE-2022-22965_SpringShell](https://github.com/Will-Beninger/CVE-2022-22965_SpringShell)
 - [fransvanbuul/CVE-2022-22965-susceptibility](https://github.com/fransvanbuul/CVE-2022-22965-susceptibility)
 - [jrgdiaz/Spring4Shell-CVE-2022-22965.py](https://github.com/jrgdiaz/Spring4Shell-CVE-2022-22965.py)
-- [Loneyers/Spring4Shell](https://github.com/Loneyers/Spring4Shell)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -3345,14 +3356,6 @@ Gerapy is a distributed crawler management framework. Prior to version 0.9.9, an
 
 - [avboy1337/CVE-2021-32849](https://github.com/avboy1337/CVE-2021-32849)
 
-### CVE-2021-33026 (2021-05-13)
-
-<code>
-The Flask-Caching extension through 1.10.1 for Flask relies on Pickle for serialization, which may lead to remote code execution or local privilege escalation. If an attacker gains access to cache storage (e.g., filesystem, Memcached, Redis, etc.), they can construct a crafted payload, poison the cache, and execute Python code.
-</code>
-
-- [CarlosG13/CVE-2021-33026](https://github.com/CarlosG13/CVE-2021-33026)
-
 ### CVE-2021-33044 (2021-09-15)
 
 <code>
@@ -5013,6 +5016,14 @@ The password-reset form in ServiceNow Orlando provides different responses to in
 
 - [9lyph/CVE-2021-45901](https://github.com/9lyph/CVE-2021-45901)
 
+### CVE-2021-45960 (2022-01-01)
+
+<code>
+In Expat (aka libexpat) before 2.4.3, a left shift by 29 (or more) places in the storeAtts function in xmlparse.c can lead to realloc misbehavior (e.g., allocating too few bytes, or only freeing memory).
+</code>
+
+- [nanopathi/external_expat_AOSP10_r33_CVE-2021-45960](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-45960)
+
 ### CVE-2021-46005 (2022-01-18)
 
 <code>
@@ -5145,6 +5156,14 @@ D-Link DSL-2730E CT-20131125 devices allow XSS via the username parameter to the
 </code>
 
 - [g-rubert/CVE-2021-46108](https://github.com/g-rubert/CVE-2021-46108)
+
+### CVE-2021-46143 (2022-01-05)
+
+<code>
+In doProlog in xmlparse.c in Expat (aka libexpat) before 2.4.3, an integer overflow exists for m_groupSize.
+</code>
+
+- [nanopathi/external_expat_AOSP10_r33_CVE-2021-46143](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-46143)
 
 ### CVE-2021-46398 (2022-02-04)
 
@@ -23613,14 +23632,6 @@ The STARTTLS implementation in ftp_parser.c in Pure-FTPd before 1.0.30 does not 
 
 - [masamoon/cve-2011-1575-poc](https://github.com/masamoon/cve-2011-1575-poc)
 
-### CVE-2011-1720 (2011-05-13)
-
-<code>
-The SMTP server in Postfix before 2.5.13, 2.6.x before 2.6.10, 2.7.x before 2.7.4, and 2.8.x before 2.8.3, when certain Cyrus SASL authentication methods are enabled, does not create a new server handle after client authentication fails, which allows remote attackers to cause a denial of service (heap memory corruption and daemon crash) or possibly execute arbitrary code via an invalid AUTH command with one method followed by an AUTH command with a different method.
-</code>
-
-- [nbeguier/postfix_exploit](https://github.com/nbeguier/postfix_exploit)
-
 ### CVE-2011-1974 (2011-08-10)
 
 <code>
@@ -23636,7 +23647,6 @@ Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x befor
 </code>
 
 - [ikkisoft/ParrotNG](https://github.com/ikkisoft/ParrotNG)
-- [u-maxx/magento-swf-patched-CVE-2011-2461](https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461)
 - [edmondscommerce/CVE-2011-2461_Magento_Patch](https://github.com/edmondscommerce/CVE-2011-2461_Magento_Patch)
 
 ### CVE-2011-2523 (2019-11-27)
