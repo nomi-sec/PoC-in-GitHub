@@ -782,7 +782,6 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 
 - [nanaao/CVE-2022-24934](https://github.com/nanaao/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
-- [webraybtl/CVE-2022-24934](https://github.com/webraybtl/CVE-2022-24934)
 
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
