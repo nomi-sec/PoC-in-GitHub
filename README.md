@@ -476,6 +476,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [talentsec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/talentsec/Spring-Cloud-Gateway-CVE-2022-22947)
 - [aesm1p/CVE-2022-22947-POC-Reproduce](https://github.com/aesm1p/CVE-2022-22947-POC-Reproduce)
 - [Ha0Liu/CVE-2022-22947](https://github.com/Ha0Liu/CVE-2022-22947)
+- [F6JO/Burp_VulPscan](https://github.com/F6JO/Burp_VulPscan)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -562,6 +563,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Will-Beninger/CVE-2022-22965_SpringShell](https://github.com/Will-Beninger/CVE-2022-22965_SpringShell)
 - [fransvanbuul/CVE-2022-22965-susceptibility](https://github.com/fransvanbuul/CVE-2022-22965-susceptibility)
 - [jrgdiaz/Spring4Shell-CVE-2022-22965.py](https://github.com/jrgdiaz/Spring4Shell-CVE-2022-22965.py)
+- [Loneyers/Spring4Shell](https://github.com/Loneyers/Spring4Shell)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -1050,6 +1052,14 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 
 
 ## 2021
+### CVE-2021-0314 (2021-02-10)
+
+<code>
+In onCreate of UninstallerActivity, there is a possible way to uninstall an all without informed user consent due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-8.1 Android-9Android ID: A-171221302
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2021-0314](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0314)
+
 ### CVE-2021-0325 (2021-02-10)
 
 <code>
@@ -1074,6 +1084,14 @@ In add_user_ce and remove_user_ce of storaged.cpp, there is a possible use-after
 
 - [Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330](https://github.com/Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330)
 
+### CVE-2021-0333 (2021-02-10)
+
+<code>
+In onCreate of BluetoothPermissionActivity.java, there is a possible permissions bypass due to a tapjacking overlay that obscures the phonebook permissions dialog when a Bluetooth device is connecting. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11Android ID: A-168504491
+</code>
+
+- [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2021-0333](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2021-0333)
+
 ### CVE-2021-0334 (2021-02-10)
 
 <code>
@@ -1081,6 +1099,14 @@ In onTargetSelected of ResolverActivity.java, there is a possible settings bypas
 </code>
 
 - [ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0334](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0334)
+
+### CVE-2021-0391 (2021-03-10)
+
+<code>
+In onCreate() of ChooseTypeAndAccountActivity.java, there is a possible way to learn the existence of an account, without permissions, due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-172841550
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2021-0391](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0391)
 
 ### CVE-2021-0397 (2021-03-10)
 
@@ -2170,8 +2196,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
-- [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
-- [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
 - [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
 - [pizza-power/Golang-CVE-2021-22205-POC](https://github.com/pizza-power/Golang-CVE-2021-22205-POC)
@@ -3208,7 +3232,7 @@ A SQL injection vulnerability in the pandora_console component of Artica Pandora
 - [l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi)
 - [akr3ch/CVE-2021-32099](https://github.com/akr3ch/CVE-2021-32099)
 
-### CVE-2021-32156 (-)
+### CVE-2021-32156 (2022-04-11)
 
 <code>
 A cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the Scheduled Cron Jobs feature.
@@ -3216,7 +3240,7 @@ A cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the
 
 - [Mesh3l911/CVE-2021-32156](https://github.com/Mesh3l911/CVE-2021-32156)
 
-### CVE-2021-32157 (-)
+### CVE-2021-32157 (2022-04-11)
 
 <code>
 A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 via the Scheduled Cron Jobs feature.
@@ -3224,7 +3248,7 @@ A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 via the Schedu
 
 - [Mesh3l911/CVE-2021-32157](https://github.com/Mesh3l911/CVE-2021-32157)
 
-### CVE-2021-32158 (-)
+### CVE-2021-32158 (2022-04-11)
 
 <code>
 A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 via the Upload and Download feature.
@@ -3232,7 +3256,7 @@ A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 via the Upload
 
 - [Mesh3l911/CVE-2021-32158](https://github.com/Mesh3l911/CVE-2021-32158)
 
-### CVE-2021-32159 (-)
+### CVE-2021-32159 (2022-04-11)
 
 <code>
 A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the Upload and Download feature.
@@ -3240,7 +3264,7 @@ A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the
 
 - [Mesh3l911/CVE-2021-32159](https://github.com/Mesh3l911/CVE-2021-32159)
 
-### CVE-2021-32160 (-)
+### CVE-2021-32160 (2022-04-11)
 
 <code>
 A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the Add Users feature.
@@ -3248,7 +3272,7 @@ A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the Ad
 
 - [Mesh3l911/CVE-2021-32160](https://github.com/Mesh3l911/CVE-2021-32160)
 
-### CVE-2021-32161 (-)
+### CVE-2021-32161 (2022-04-11)
 
 <code>
 A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the File Manager feature.
@@ -3256,7 +3280,7 @@ A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the Fi
 
 - [Mesh3l911/CVE-2021-32161](https://github.com/Mesh3l911/CVE-2021-32161)
 
-### CVE-2021-32162 (-)
+### CVE-2021-32162 (2022-04-11)
 
 <code>
 A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 through the File Manager feature.
@@ -4027,7 +4051,6 @@ The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as param
 An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers.
 </code>
 
-- [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
 - [pierDipi/unicode-control-characters-action](https://github.com/pierDipi/unicode-control-characters-action)
 - [waseeld/CVE-2021-42574](https://github.com/waseeld/CVE-2021-42574)
@@ -4111,14 +4134,6 @@ An incorrect access control vulnerability exists in Sourcecodester Engineers Onl
 </code>
 
 - [0xDeku/CVE-2021-42671](https://github.com/0xDeku/CVE-2021-42671)
-
-### CVE-2021-42694 (2021-10-31)
-
-<code>
-An issue was discovered in the character definitions of the Unicode Specification through 14.0. The specification allows an adversary to produce source code identifiers such as function names using homoglyphs that render visually identical to a target identifier. Adversaries can leverage this to inject code via adversarial identifier definitions in upstream software dependencies invoked deceptively in downstream software.
-</code>
-
-- [js-on/CVE-2021-42694](https://github.com/js-on/CVE-2021-42694)
 
 ### CVE-2021-42835 (2021-12-08)
 
@@ -5250,6 +5265,14 @@ In updateUidProcState of AppOpsService.java, there is a possible permission bypa
 
 - [mooneee/CVE-2020-0121](https://github.com/mooneee/CVE-2020-0121)
 
+### CVE-2020-0138 (2020-06-11)
+
+<code>
+In get_element_attr_rsp of btif_rc.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution if bluetoothtbd were used, which it isn't in typical Android platforms, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-142878416
+</code>
+
+- [Satheesh575555/system_bt_AOSP10_r33-CVE-2020-0138](https://github.com/Satheesh575555/system_bt_AOSP10_r33-CVE-2020-0138)
+
 ### CVE-2020-0209 (2020-06-11)
 
 <code>
@@ -5346,6 +5369,14 @@ In appendFormatV of String8.cpp, there is a possible out of bounds write due to 
 </code>
 
 - [nanopathi/system_core_AOSP10_r33_CVE-2020-0421](https://github.com/nanopathi/system_core_AOSP10_r33_CVE-2020-0421)
+
+### CVE-2020-0439 (2020-11-10)
+
+<code>
+In generatePackageInfo of PackageManagerService.java, there is a possible permissions bypass due to an incorrect permission check. This could lead to local escalation of privilege that allows instant apps access to permissions not allowed for instant apps, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11 Android-8.0Android ID: A-140256621
+</code>
+
+- [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0439](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0439)
 
 ### CVE-2020-0443 (2020-11-10)
 
