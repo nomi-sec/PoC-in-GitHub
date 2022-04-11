@@ -782,6 +782,7 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 
 - [nanaao/CVE-2022-24934](https://github.com/nanaao/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
+- [webraybtl/CVE-2022-24934](https://github.com/webraybtl/CVE-2022-24934)
 
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
@@ -2169,7 +2170,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
 - [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
-- [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
 - [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
 - [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
 - [faisalfs10x/GitLab-CVE-2021-22205-scanner](https://github.com/faisalfs10x/GitLab-CVE-2021-22205-scanner)
@@ -3208,25 +3208,60 @@ A SQL injection vulnerability in the pandora_console component of Artica Pandora
 - [l3eol3eo/CVE-2021-32099_SQLi](https://github.com/l3eol3eo/CVE-2021-32099_SQLi)
 - [akr3ch/CVE-2021-32099](https://github.com/akr3ch/CVE-2021-32099)
 
-### CVE-2021-32156
+### CVE-2021-32156 (-)
+
+<code>
+A cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the Scheduled Cron Jobs feature.
+</code>
+
 - [Mesh3l911/CVE-2021-32156](https://github.com/Mesh3l911/CVE-2021-32156)
 
-### CVE-2021-32157
+### CVE-2021-32157 (-)
+
+<code>
+A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 via the Scheduled Cron Jobs feature.
+</code>
+
 - [Mesh3l911/CVE-2021-32157](https://github.com/Mesh3l911/CVE-2021-32157)
 
-### CVE-2021-32158
+### CVE-2021-32158 (-)
+
+<code>
+A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 via the Upload and Download feature.
+</code>
+
 - [Mesh3l911/CVE-2021-32158](https://github.com/Mesh3l911/CVE-2021-32158)
 
-### CVE-2021-32159
+### CVE-2021-32159 (-)
+
+<code>
+A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 via the Upload and Download feature.
+</code>
+
 - [Mesh3l911/CVE-2021-32159](https://github.com/Mesh3l911/CVE-2021-32159)
 
-### CVE-2021-32160
+### CVE-2021-32160 (-)
+
+<code>
+A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the Add Users feature.
+</code>
+
 - [Mesh3l911/CVE-2021-32160](https://github.com/Mesh3l911/CVE-2021-32160)
 
-### CVE-2021-32161
+### CVE-2021-32161 (-)
+
+<code>
+A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 through the File Manager feature.
+</code>
+
 - [Mesh3l911/CVE-2021-32161](https://github.com/Mesh3l911/CVE-2021-32161)
 
-### CVE-2021-32162
+### CVE-2021-32162 (-)
+
+<code>
+A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 through the File Manager feature.
+</code>
+
 - [Mesh3l911/CVE-2021-32162](https://github.com/Mesh3l911/CVE-2021-32162)
 
 ### CVE-2021-32399 (2021-05-10)
@@ -3800,6 +3835,14 @@ Microsoft Edge (Chrome based) Spoofing on IE Mode
 </code>
 
 - [JaneMandy/CVE-2021-41351-POC](https://github.com/JaneMandy/CVE-2021-41351-POC)
+
+### CVE-2021-41560 (2021-12-15)
+
+<code>
+OpenCATS through 0.9.6 allows remote attackers to execute arbitrary code by uploading an executable file via lib/FileUtility.php.
+</code>
+
+- [Nickguitar/RevCAT](https://github.com/Nickguitar/RevCAT)
 
 ### CVE-2021-41652 (2022-03-01)
 
