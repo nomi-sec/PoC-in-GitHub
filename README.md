@@ -503,6 +503,8 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [sherlocksecurity/VMware-CVE-2022-22954](https://github.com/sherlocksecurity/VMware-CVE-2022-22954)
 - [Vulnmachines/VMWare_CVE-2022-22954](https://github.com/Vulnmachines/VMWare_CVE-2022-22954)
 - [aniqfakhrul/CVE-2022-22954](https://github.com/aniqfakhrul/CVE-2022-22954)
+- [jax7sec/CVE-2022-22954](https://github.com/jax7sec/CVE-2022-22954)
+- [chaosec2021/CVE-2022-22954-VMware-RCE](https://github.com/chaosec2021/CVE-2022-22954-VMware-RCE)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -809,6 +811,7 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 - [VVeakee/CVE-2022-24990-POC](https://github.com/VVeakee/CVE-2022-24990-POC)
 - [0xf4n9x/CVE-2022-24990](https://github.com/0xf4n9x/CVE-2022-24990)
 - [lishang520/CVE-2022-24990](https://github.com/lishang520/CVE-2022-24990)
+- [antx-code/CVE-2022-24990](https://github.com/antx-code/CVE-2022-24990)
 
 ### CVE-2022-25018 (2022-02-28)
 
@@ -1502,6 +1505,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
 - [GatoGamer1155/CVE-2021-3156](https://github.com/GatoGamer1155/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
+- [ypl6/heaplens](https://github.com/ypl6/heaplens)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -3574,14 +3578,6 @@ FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformati
 </code>
 
 - [0xInfection/PewSWITCH](https://github.com/0xInfection/PewSWITCH)
-
-### CVE-2021-37678 (2021-08-12)
-
-<code>
-TensorFlow is an end-to-end open source platform for machine learning. In affected versions TensorFlow and Keras can be tricked to perform arbitrary code execution when deserializing a Keras model from YAML format. The [implementation](https://github.com/tensorflow/tensorflow/blob/460e000de3a83278fb00b61a16d161b1964f15f4/tensorflow/python/keras/saving/model_config.py#L66-L104) uses `yaml.unsafe_load` which can perform arbitrary code execution on the input. Given that YAML format support requires a significant amount of work, we have removed it for now. We have patched the issue in GitHub commit 23d6383eb6c14084a8fc3bdf164043b974818012. The fix will be included in TensorFlow 2.6.0. We will also cherrypick this commit on TensorFlow 2.5.1, TensorFlow 2.4.3, and TensorFlow 2.3.4, as these are also affected and still in supported range.
-</code>
-
-- [fran-CICS/ExploitTensorflowCVE-2021-37678](https://github.com/fran-CICS/ExploitTensorflowCVE-2021-37678)
 
 ### CVE-2021-37740
 - [robertguetzkow/CVE-2021-37740](https://github.com/robertguetzkow/CVE-2021-37740)
@@ -20163,6 +20159,7 @@ The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, an
 - [bazad/rootsh](https://github.com/bazad/rootsh)
 - [berritus163t/bazad5](https://github.com/berritus163t/bazad5)
 - [SideGreenHand100/bazad5](https://github.com/SideGreenHand100/bazad5)
+- [zqlblingzs/bazad5](https://github.com/zqlblingzs/bazad5)
 
 ### CVE-2016-2067 (2016-07-10)
 
