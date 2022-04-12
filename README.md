@@ -494,8 +494,15 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 
 - [PenteraIO/CVE-2022-22948](https://github.com/PenteraIO/CVE-2022-22948)
 
-### CVE-2022-22954
+### CVE-2022-22954 (2022-04-11)
+
+<code>
+VMware Workspace ONE Access and Identity Manager contain a remote code execution vulnerability due to server-side template injection. A malicious actor with network access can trigger a server-side template injection that may result in remote code execution.
+</code>
+
 - [sherlocksecurity/VMware-CVE-2022-22954](https://github.com/sherlocksecurity/VMware-CVE-2022-22954)
+- [Vulnmachines/VMWare_CVE-2022-22954](https://github.com/Vulnmachines/VMWare_CVE-2022-22954)
+- [aniqfakhrul/CVE-2022-22954](https://github.com/aniqfakhrul/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -12223,7 +12230,6 @@ An issue was discovered in CutePHP CuteNews 2.1.2. An attacker can infiltrate th
 - [khuntor/CVE-2019-11447-EXP](https://github.com/khuntor/CVE-2019-11447-EXP)
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
-- [iainr/CuteNewsRCE](https://github.com/iainr/CuteNewsRCE)
 
 ### CVE-2019-11477 (2019-06-18)
 
@@ -23632,6 +23638,14 @@ The STARTTLS implementation in ftp_parser.c in Pure-FTPd before 1.0.30 does not 
 
 - [masamoon/cve-2011-1575-poc](https://github.com/masamoon/cve-2011-1575-poc)
 
+### CVE-2011-1720 (2011-05-13)
+
+<code>
+The SMTP server in Postfix before 2.5.13, 2.6.x before 2.6.10, 2.7.x before 2.7.4, and 2.8.x before 2.8.3, when certain Cyrus SASL authentication methods are enabled, does not create a new server handle after client authentication fails, which allows remote attackers to cause a denial of service (heap memory corruption and daemon crash) or possibly execute arbitrary code via an invalid AUTH command with one method followed by an AUTH command with a different method.
+</code>
+
+- [nbeguier/postfix_exploit](https://github.com/nbeguier/postfix_exploit)
+
 ### CVE-2011-1974 (2011-08-10)
 
 <code>
@@ -23647,6 +23661,7 @@ Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x befor
 </code>
 
 - [ikkisoft/ParrotNG](https://github.com/ikkisoft/ParrotNG)
+- [u-maxx/magento-swf-patched-CVE-2011-2461](https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461)
 - [edmondscommerce/CVE-2011-2461_Magento_Patch](https://github.com/edmondscommerce/CVE-2011-2461_Magento_Patch)
 
 ### CVE-2011-2523 (2019-11-27)
