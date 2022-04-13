@@ -42,6 +42,14 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 ### CVE-2022-0337
 - [Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera](https://github.com/Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera)
 
+### CVE-2022-0482 (2022-03-09)
+
+<code>
+Exposure of Private Personal Information to an Unauthorized Actor in GitHub repository alextselegidis/easyappointments prior to 1.4.3.
+</code>
+
+- [Acceis/exploit-CVE-2022-0482](https://github.com/Acceis/exploit-CVE-2022-0482)
+
 ### CVE-2022-0492 (2022-03-03)
 
 <code>
@@ -527,6 +535,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [MSeymenD/CVE-2022-22954-Testi](https://github.com/MSeymenD/CVE-2022-22954-Testi)
 - [DrorDvash/CVE-2022-22954_VMware_PoC](https://github.com/DrorDvash/CVE-2022-22954_VMware_PoC)
 - [Jun-5heng/CVE-2022-22954](https://github.com/Jun-5heng/CVE-2022-22954)
+- [tunelko/CVE-2022-22954-PoC](https://github.com/tunelko/CVE-2022-22954-PoC)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -607,6 +616,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Will-Beninger/CVE-2022-22965_SpringShell](https://github.com/Will-Beninger/CVE-2022-22965_SpringShell)
 - [fransvanbuul/CVE-2022-22965-susceptibility](https://github.com/fransvanbuul/CVE-2022-22965-susceptibility)
 - [jrgdiaz/Spring4Shell-CVE-2022-22965.py](https://github.com/jrgdiaz/Spring4Shell-CVE-2022-22965.py)
+- [Loneyers/Spring4Shell](https://github.com/Loneyers/Spring4Shell)
 - [Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-](https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-)
 
 ### CVE-2022-23046 (2022-01-19)
@@ -811,6 +821,9 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 </code>
 
 - [gerr-re/cve-2022-24644](https://github.com/gerr-re/cve-2022-24644)
+
+### CVE-2022-24675
+- [jfrog/jfrog-CVE-2022-24675](https://github.com/jfrog/jfrog-CVE-2022-24675)
 
 ### CVE-2022-24693 (2022-03-29)
 
