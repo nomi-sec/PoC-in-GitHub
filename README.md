@@ -536,6 +536,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [DrorDvash/CVE-2022-22954_VMware_PoC](https://github.com/DrorDvash/CVE-2022-22954_VMware_PoC)
 - [Jun-5heng/CVE-2022-22954](https://github.com/Jun-5heng/CVE-2022-22954)
 - [tunelko/CVE-2022-22954-PoC](https://github.com/tunelko/CVE-2022-22954-PoC)
+- [bewhale/CVE-2022-22954](https://github.com/bewhale/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -617,6 +618,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [fransvanbuul/CVE-2022-22965-susceptibility](https://github.com/fransvanbuul/CVE-2022-22965-susceptibility)
 - [jrgdiaz/Spring4Shell-CVE-2022-22965.py](https://github.com/jrgdiaz/Spring4Shell-CVE-2022-22965.py)
 - [Loneyers/Spring4Shell](https://github.com/Loneyers/Spring4Shell)
+- [0zvxr/CVE-2022-22965](https://github.com/0zvxr/CVE-2022-22965)
 - [Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-](https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-)
 
 ### CVE-2022-23046 (2022-01-19)
@@ -813,6 +815,9 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 </code>
 
 - [jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2)
+
+### CVE-2022-24483
+- [waleedassar/CVE-2022-24483](https://github.com/waleedassar/CVE-2022-24483)
 
 ### CVE-2022-24644 (2022-03-07)
 
@@ -1072,6 +1077,9 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 ### CVE-2022-26631
 - [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
 
+### CVE-2022-26809
+- [f8al/CVE-2022-26809](https://github.com/f8al/CVE-2022-26809)
+
 ### CVE-2022-27226 (2022-03-18)
 
 <code>
@@ -1117,6 +1125,14 @@ In onCreate of UninstallerActivity, there is a possible way to uninstall an all 
 </code>
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0314](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0314)
+
+### CVE-2021-0316 (2021-01-11)
+
+<code>
+In avrc_pars_vendor_cmd of avrc_pars_tg.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution over Bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation. Product: Android; Versions: Android-11, Android-8.0, Android-8.1, Android-9, Android-10; Android ID: A-168802990.
+</code>
+
+- [Satheesh575555/system_bt_AOSP_10_r33_CVE-2021-0316](https://github.com/Satheesh575555/system_bt_AOSP_10_r33_CVE-2021-0316)
 
 ### CVE-2021-0325 (2021-02-10)
 
@@ -4084,14 +4100,6 @@ Froxlor through 0.10.29.1 allows SQL injection in Database/Manager/DbManagerMySQ
 </code>
 
 - [AK-blank/CVE-2021-42325-](https://github.com/AK-blank/CVE-2021-42325-)
-
-### CVE-2021-42327 (2021-10-21)
-
-<code>
-dp_link_settings_write in drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_debugfs.c in the Linux kernel through 5.14.14 allows a heap-based buffer overflow by an attacker who can write a string to the AMD GPU display drivers debug filesystem. There are no checks on size within parse_write_buffer_into_params when it uses the size of copy_from_user to copy a userspace buffer into a 40-byte heap buffer.
-</code>
-
-- [docfate111/CVE-2021-42327](https://github.com/docfate111/CVE-2021-42327)
 
 ### CVE-2021-42342 (2021-10-14)
 
@@ -9760,6 +9768,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS)
 - [FrostsaberX/CVE-2020-27955](https://github.com/FrostsaberX/CVE-2020-27955)
 - [whitetea2424/CVE-2020-27955-LFS-main](https://github.com/whitetea2424/CVE-2020-27955-LFS-main)
+- [userxfan/cve-2020-27955](https://github.com/userxfan/cve-2020-27955)
 
 ### CVE-2020-27976 (2020-10-28)
 
