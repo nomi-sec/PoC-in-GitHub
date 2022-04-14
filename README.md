@@ -503,7 +503,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Enokiy/cve-2022-22947-spring-cloud-gateway](https://github.com/Enokiy/cve-2022-22947-spring-cloud-gateway)
 - [Nathaniel1025/CVE-2022-22947](https://github.com/Nathaniel1025/CVE-2022-22947)
 - [Vancomycin-g/CVE-2022-22947](https://github.com/Vancomycin-g/CVE-2022-22947)
-- [bigbigban1/CVE-2022-22947-exp](https://github.com/bigbigban1/CVE-2022-22947-exp)
+- [scopion/CVE-2022-22947-exp](https://github.com/scopion/CVE-2022-22947-exp)
 - [sagaryadav8742/springcloudRCE](https://github.com/sagaryadav8742/springcloudRCE)
 - [talentsec/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/talentsec/Spring-Cloud-Gateway-CVE-2022-22947)
 - [aesm1p/CVE-2022-22947-POC-Reproduce](https://github.com/aesm1p/CVE-2022-22947-POC-Reproduce)
@@ -1078,7 +1078,7 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 - [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
 
 ### CVE-2022-26809
-- [f8al/CVE-2022-26809](https://github.com/f8al/CVE-2022-26809)
+- [sherlocksecurity/Microsoft-CVE-2022-26809](https://github.com/sherlocksecurity/Microsoft-CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -3768,6 +3768,7 @@ An issue was discovered in Nagios XI 5.8.5. In the Manage Dashlets section of th
 An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can be exploited to perform an HTTP request smuggling attack, allowing an attacker to bypass all configured http-request HAProxy ACLs and possibly other ACLs.
 </code>
 
+- [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 - [alexOarga/CVE-2021-40346](https://github.com/alexOarga/CVE-2021-40346)
 
 ### CVE-2021-40373 (2021-09-10)
@@ -4779,7 +4780,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ankur-katiyar/log4j-docker](https://github.com/ankur-katiyar/log4j-docker)
 - [immunityinc/Log4j-JNDIServer](https://github.com/immunityinc/Log4j-JNDIServer)
 - [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
-- [Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/Pengfei-Lu/CVE-2021-44228-Apache-Log4j-Rce)
 - [suniastar/scan-log4shell](https://github.com/suniastar/scan-log4shell)
 - [shivakumarjayaraman/log4jvulnerability-CVE-2021-44228](https://github.com/shivakumarjayaraman/log4jvulnerability-CVE-2021-44228)
 - [j3kz/CVE-2021-44228-PoC](https://github.com/j3kz/CVE-2021-44228-PoC)
@@ -12308,6 +12308,7 @@ An issue was discovered in CutePHP CuteNews 2.1.2. An attacker can infiltrate th
 - [khuntor/CVE-2019-11447-EXP](https://github.com/khuntor/CVE-2019-11447-EXP)
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
+- [0xkasra/CVE-2019-11447](https://github.com/0xkasra/CVE-2019-11447)
 
 ### CVE-2019-11477 (2019-06-18)
 
@@ -13370,9 +13371,9 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [zeroxninety/CVE-2019-16113-PoC](https://github.com/zeroxninety/CVE-2019-16113-PoC)
-- [persian64/CVE-2019-16113](https://github.com/persian64/CVE-2019-16113)
+- [0xkasra/CVE-2019-16113](https://github.com/0xkasra/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
-- [persian64/CVE-2019-16113_](https://github.com/persian64/CVE-2019-16113_)
+- [0xkasra/CVE-2019-16113_](https://github.com/0xkasra/CVE-2019-16113_)
 
 ### CVE-2019-16278 (2019-10-14)
 
@@ -13591,7 +13592,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
 - [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [triple-octopus/Bludit-CVE-2019-17240-Fork](https://github.com/triple-octopus/Bludit-CVE-2019-17240-Fork)
-- [persian64/CVE-2019-17240](https://github.com/persian64/CVE-2019-17240)
+- [0xkasra/CVE-2019-17240](https://github.com/0xkasra/CVE-2019-17240)
 - [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
 - [jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240)
 - [0xbrunosergio/bloodit](https://github.com/0xbrunosergio/bloodit)
@@ -15464,7 +15465,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600)
 - [rafaelcaria/drupalgeddon2-CVE-2018-7600](https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600)
 - [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
-- [persian64/CVE-2018-7600](https://github.com/persian64/CVE-2018-7600)
+- [0xkasra/CVE-2018-7600](https://github.com/0xkasra/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
@@ -17625,6 +17626,7 @@ Hyper-V in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2; Windows 
 
 - [4B5F5F4B/HyperV](https://github.com/4B5F5F4B/HyperV)
 - [belyakovvitagmailt/4B5F5F4Bp](https://github.com/belyakovvitagmailt/4B5F5F4Bp)
+- [MarkusCarelli1/4B5F5F4Bp](https://github.com/MarkusCarelli1/4B5F5F4Bp)
 
 ### CVE-2017-0100 (2017-03-16)
 
@@ -18215,6 +18217,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [testpilot031/vulnerability_struts-2.3.31](https://github.com/testpilot031/vulnerability_struts-2.3.31)
 - [readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638)
 - [Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638)
+- [0xkasra/CVE-2017-5638](https://github.com/0xkasra/CVE-2017-5638)
 
 ### CVE-2017-5645 (2017-04-17)
 
@@ -21947,6 +21950,7 @@ Unrestricted file upload vulnerability in the My Image plugin in Nibbleblog befo
 
 - [VanTekken/CVE-2015-6967](https://github.com/VanTekken/CVE-2015-6967)
 - [dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967)
+- [0xkasra/CVE-2015-6967](https://github.com/0xkasra/CVE-2015-6967)
 
 ### CVE-2015-7214 (2015-12-16)
 
@@ -22736,7 +22740,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271)
 - [0bfxgh0st-secondary/ShellShock](https://github.com/0bfxgh0st-secondary/ShellShock)
 - [akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271)
-- [persian64/CVE-2014-6271](https://github.com/persian64/CVE-2014-6271)
+- [0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
@@ -23579,7 +23583,7 @@ The callme_startcall function in recordings/misc/callme_page.php in FreePBX 2.9,
 </code>
 
 - [bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution)
-- [persian64/CVE-2012-4869](https://github.com/persian64/CVE-2012-4869)
+- [0xkasra/CVE-2012-4869](https://github.com/0xkasra/CVE-2012-4869)
 
 ### CVE-2012-4929 (2012-09-15)
 
@@ -24118,7 +24122,7 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 - [k4u5h41/CVE-2009-2265](https://github.com/k4u5h41/CVE-2009-2265)
 - [0zvxr/CVE-2009-2265](https://github.com/0zvxr/CVE-2009-2265)
-- [persian64/CVE-2009-2265](https://github.com/persian64/CVE-2009-2265)
+- [0xkasra/CVE-2009-2265](https://github.com/0xkasra/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
@@ -24377,7 +24381,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 - [xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447)
 - [SamHackingArticles/CVE-2007-2447](https://github.com/SamHackingArticles/CVE-2007-2447)
-- [persian64/CVE-2007-2447](https://github.com/persian64/CVE-2007-2447)
+- [0xkasra/CVE-2007-2447](https://github.com/0xkasra/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
