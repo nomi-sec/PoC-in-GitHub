@@ -763,6 +763,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 
 ### CVE-2022-24087
 - [Sam00rx/CVE-2022-24087](https://github.com/Sam00rx/CVE-2022-24087)
+- [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
 
 ### CVE-2022-24112 (2022-02-11)
 
@@ -3773,7 +3774,6 @@ An issue was discovered in Nagios XI 5.8.5. In the Manage Dashlets section of th
 An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can be exploited to perform an HTTP request smuggling attack, allowing an attacker to bypass all configured http-request HAProxy ACLs and possibly other ACLs.
 </code>
 
-- [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 - [alexOarga/CVE-2021-40346](https://github.com/alexOarga/CVE-2021-40346)
 
 ### CVE-2021-40373 (2021-09-10)
@@ -3908,6 +3908,14 @@ Zoho ManageEngine Network Configuration Manager before ﻿﻿125465 is vulnerabl
 </code>
 
 - [sudaiv/CVE-2021-41081](https://github.com/sudaiv/CVE-2021-41081)
+
+### CVE-2021-41184 (2021-10-26)
+
+<code>
+jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0, accepting the value of the `of` option of the `.position()` util from untrusted sources may execute untrusted code. The issue is fixed in jQuery UI 1.13.0. Any string value passed to the `of` option is now treated as a CSS selector. A workaround is to not accept the value of the `of` option from untrusted sources.
+</code>
+
+- [astyn9/Exploit-Medium-CVE-2021-41184](https://github.com/astyn9/Exploit-Medium-CVE-2021-41184)
 
 ### CVE-2021-41277 (2021-11-17)
 
@@ -19810,6 +19818,14 @@ The Joomanager component through 2.0.0 for Joomla! has an arbitrary file downloa
 </code>
 
 - [Luth1er/CVE-2017-18345-COM_JOOMANAGER-ARBITRARY-FILE-DOWNLOAD](https://github.com/Luth1er/CVE-2017-18345-COM_JOOMANAGER-ARBITRARY-FILE-DOWNLOAD)
+
+### CVE-2017-18349 (2018-10-23)
+
+<code>
+parseObject in Fastjson before 1.2.25, as used in FastjsonEngine in Pippo 1.11.0 and other products, allows remote attackers to execute arbitrary code via a crafted JSON request, as demonstrated by a crafted rmi:// URI in the dataSourceName field of HTTP POST data to the Pippo /json URI, which is mishandled in AjaxApplication.java.
+</code>
+
+- [h0cksr/Fastjson--CVE-2017-18349-](https://github.com/h0cksr/Fastjson--CVE-2017-18349-)
 
 ### CVE-2017-18486 (2019-08-09)
 
