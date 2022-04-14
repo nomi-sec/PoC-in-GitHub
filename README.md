@@ -3164,6 +3164,14 @@ A logic issue was addressed with improved restrictions. This issue is fixed in t
 
 - [threatnix/csp-playground](https://github.com/threatnix/csp-playground)
 
+### CVE-2021-30731 (2021-09-08)
+
+<code>
+This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.4, Security Update 2021-004 Catalina. An unprivileged application may be able to capture USB devices.
+</code>
+
+- [osy/WebcamViewer](https://github.com/osy/WebcamViewer)
+
 ### CVE-2021-30807 (2021-10-19)
 
 <code>
@@ -3760,7 +3768,6 @@ An issue was discovered in Nagios XI 5.8.5. In the Manage Dashlets section of th
 An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can be exploited to perform an HTTP request smuggling attack, allowing an attacker to bypass all configured http-request HAProxy ACLs and possibly other ACLs.
 </code>
 
-- [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 - [alexOarga/CVE-2021-40346](https://github.com/alexOarga/CVE-2021-40346)
 
 ### CVE-2021-40373 (2021-09-10)
@@ -18810,6 +18817,7 @@ SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to ex
 - [stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla)
 - [cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917)
 - [Siopsec/CVE-2017-8917](https://github.com/Siopsec/CVE-2017-8917)
+- [AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection](https://github.com/AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection)
 
 ### CVE-2017-9097 (2017-06-15)
 
