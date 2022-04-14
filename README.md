@@ -13,6 +13,7 @@ A heap-based buffer overflow flaw was found in the way the legacy_parse_param fu
 - [chenaotian/CVE-2022-0185](https://github.com/chenaotian/CVE-2022-0185)
 - [shahparkhan/cve-2022-0185](https://github.com/shahparkhan/cve-2022-0185)
 - [veritas501/CVE-2022-0185-PipeVersion](https://github.com/veritas501/CVE-2022-0185-PipeVersion)
+- [featherL/CVE-2022-0185-exploit](https://github.com/featherL/CVE-2022-0185-exploit)
 
 ### CVE-2022-0219 (2022-01-20)
 
@@ -557,6 +558,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963)
 - [twseptian/cve-2022-22963](https://github.com/twseptian/cve-2022-22963)
 - [SealPaPaPa/SpringCloudFunction-Research](https://github.com/SealPaPaPa/SpringCloudFunction-Research)
+- [k3rwin/spring-cloud-function-rce](https://github.com/k3rwin/spring-cloud-function-rce)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -1079,6 +1081,9 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 
 ### CVE-2022-26809
 - [sherlocksecurity/Microsoft-CVE-2022-26809](https://github.com/sherlocksecurity/Microsoft-CVE-2022-26809)
+- [mr-r3b00t/cve-2022-26809](https://github.com/mr-r3b00t/cve-2022-26809)
+- [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
+- [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -17573,6 +17578,7 @@ In all Kubernetes versions prior to v1.10.11, v1.11.5, and v1.12.3, incorrect ha
 - [evict/poc_CVE-2018-1002105](https://github.com/evict/poc_CVE-2018-1002105)
 - [imlzw/Kubernetes-1.12.3-all-auto-install](https://github.com/imlzw/Kubernetes-1.12.3-all-auto-install)
 - [bgeesaman/cve-2018-1002105](https://github.com/bgeesaman/cve-2018-1002105)
+- [sh-ubh/CVE-2018-1002105](https://github.com/sh-ubh/CVE-2018-1002105)
 
 ### CVE-2018-1999002 (2018-07-23)
 
@@ -19260,6 +19266,7 @@ In Jboss Application Server as shipped with Red Hat Enterprise Application Platf
 - [1337g/CVE-2017-12149](https://github.com/1337g/CVE-2017-12149)
 - [jreppiks/CVE-2017-12149](https://github.com/jreppiks/CVE-2017-12149)
 - [Xcatolin/jboss-deserialization](https://github.com/Xcatolin/jboss-deserialization)
+- [VVeakee/CVE-2017-12149](https://github.com/VVeakee/CVE-2017-12149)
 
 ### CVE-2017-12426 (2017-08-14)
 
