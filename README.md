@@ -539,6 +539,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [tunelko/CVE-2022-22954-PoC](https://github.com/tunelko/CVE-2022-22954-PoC)
 - [bewhale/CVE-2022-22954](https://github.com/bewhale/CVE-2022-22954)
 - [tyleraharrison/VMware-CVE-2022-22954-Command-Injector](https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector)
+- [3SsFuck/CVE-2022-22954-POC](https://github.com/3SsFuck/CVE-2022-22954-POC)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -1086,6 +1087,9 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
 - [SeptS0/CVE-2022-26809-RCE](https://github.com/SeptS0/CVE-2022-26809-RCE)
+- [genieyou/CVE-2022-26809-RCE](https://github.com/genieyou/CVE-2022-26809-RCE)
+- [gitcomit/scemer2](https://github.com/gitcomit/scemer2)
+- [SeptS9119/CVE-2022-26809](https://github.com/SeptS9119/CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1164,6 +1168,14 @@ In add_user_ce and remove_user_ce of storaged.cpp, there is a possible use-after
 </code>
 
 - [Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330](https://github.com/Satheesh575555/system_core_AOSP10_r33-CVE-2021-0330)
+
+### CVE-2021-0331 (2021-02-10)
+
+<code>
+In onCreate of NotificationAccessConfirmationActivity.java, there is a possible overlay attack due to an insecure default value. This could lead to local escalation of privilege and notification access with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11 Android-8.1Android ID: A-170731783
+</code>
+
+- [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2021-0331](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2021-0331)
 
 ### CVE-2021-0333 (2021-02-10)
 
@@ -3155,14 +3167,6 @@ Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remot
 
 - [CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632)
 
-### CVE-2021-30657 (2021-09-08)
-
-<code>
-A logic issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.3, Security Update 2021-002 Catalina. A malicious application may bypass Gatekeeper checks. Apple is aware of a report that this issue may have been actively exploited..
-</code>
-
-- [shubham0d/CVE-2021-30657](https://github.com/shubham0d/CVE-2021-30657)
-
 ### CVE-2021-30682 (2021-09-08)
 
 <code>
@@ -3307,6 +3311,15 @@ An inadequate encryption vulnerability discovered in CyberArk Credential Provide
 </code>
 
 - [unmanarc/CACredDecoder](https://github.com/unmanarc/CACredDecoder)
+
+### CVE-2021-31805 (2022-04-12)
+
+<code>
+The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to 2.5.29, still some of the tag’s attributes could perform a double evaluation if a developer applied forced OGNL evaluation by using the %{...} syntax. Using forced OGNL evaluation on untrusted user input can lead to a Remote Code Execution and security degradation.
+</code>
+
+- [YanMu2020/s2-062](https://github.com/YanMu2020/s2-062)
+- [Wrin9/CVE-2021-31805](https://github.com/Wrin9/CVE-2021-31805)
 
 ### CVE-2021-31856 (2021-04-28)
 
@@ -3862,6 +3875,14 @@ An Unsafe Deserialization vulnerability exists in the worker services of the Apa
 
 - [hktalent/CVE-2021-40865](https://github.com/hktalent/CVE-2021-40865)
 
+### CVE-2021-40870 (2021-09-13)
+
+<code>
+An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestricted upload of a file with a dangerous type is possible, which allows an unauthenticated user to execute arbitrary code via directory traversal.
+</code>
+
+- [JoyGhoshs/CVE-2021-40870](https://github.com/JoyGhoshs/CVE-2021-40870)
+
 ### CVE-2021-40875 (2021-09-22)
 
 <code>
@@ -3999,7 +4020,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
-- [IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit)
 - [pirenga/CVE-2021-41773](https://github.com/pirenga/CVE-2021-41773)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
@@ -4273,7 +4293,6 @@ Windows Common Log File System Driver Information Disclosure Vulnerability
 An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16. The Transparent Inter-Process Communication (TIPC) functionality allows remote attackers to exploit insufficient validation of user-supplied sizes for the MSG_CRYPTO message type.
 </code>
 
-- [DarkSprings/CVE-2021-43267-POC](https://github.com/DarkSprings/CVE-2021-43267-POC)
 - [zzhacked/CVE-2021-43267](https://github.com/zzhacked/CVE-2021-43267)
 
 ### CVE-2021-43297 (2022-01-10)
@@ -4292,14 +4311,6 @@ Automox Agent before 32 on Windows incorrectly sets permissions on a temporary d
 </code>
 
 - [gfoss/CVE-2021-43326_Exploit](https://github.com/gfoss/CVE-2021-43326_Exploit)
-
-### CVE-2021-43361 (-)
-
-<code>
-Due to improper sanitization MedData HBYS software suffers from a remote SQL injection vulnerability. An unauthenticated attacker with the web access is able to extract critical information from the system.\n
-</code>
-
-- [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
 
 ### CVE-2021-43469 (2021-12-06)
 
