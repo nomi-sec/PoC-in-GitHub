@@ -512,6 +512,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [aesm1p/CVE-2022-22947-POC-Reproduce](https://github.com/aesm1p/CVE-2022-22947-POC-Reproduce)
 - [Ha0Liu/CVE-2022-22947](https://github.com/Ha0Liu/CVE-2022-22947)
 - [F6JO/Burp_VulPscan](https://github.com/F6JO/Burp_VulPscan)
+- [twseptian/cve-2022-22947](https://github.com/twseptian/cve-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -3813,6 +3814,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
+- [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
 - [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
 - [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
@@ -4536,7 +4538,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [y35uishere/Log4j2-CVE-2021-44228](https://github.com/y35uishere/Log4j2-CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
-- [Szczurowsky/Log4j-0Day-Fix](https://github.com/Szczurowsky/Log4j-0Day-Fix)
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
 - [zlepper/CVE-2021-44228-Test-Server](https://github.com/zlepper/CVE-2021-44228-Test-Server)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
@@ -23798,7 +23799,7 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 - [Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523)
 - [padsalatushal/CVE-2011-2523](https://github.com/padsalatushal/CVE-2011-2523)
 - [whoamins/vsFTPd-2.3.4-exploit](https://github.com/whoamins/vsFTPd-2.3.4-exploit)
-- [PrestaDZ/vsftpd-2.3.4](https://github.com/PrestaDZ/vsftpd-2.3.4)
+- [Prestaa/vsftpd-2.3.4](https://github.com/Prestaa/vsftpd-2.3.4)
 
 ### CVE-2011-2894 (2011-10-04)
 
