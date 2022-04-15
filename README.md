@@ -538,6 +538,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [Jun-5heng/CVE-2022-22954](https://github.com/Jun-5heng/CVE-2022-22954)
 - [tunelko/CVE-2022-22954-PoC](https://github.com/tunelko/CVE-2022-22954-PoC)
 - [bewhale/CVE-2022-22954](https://github.com/bewhale/CVE-2022-22954)
+- [tyleraharrison/VMware-CVE-2022-22954-Command-Injector](https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -762,7 +763,6 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [k0zulzr/CVE-2022-24086-RCE](https://github.com/k0zulzr/CVE-2022-24086-RCE)
 
 ### CVE-2022-24087
-- [Sam00rx/CVE-2022-24087](https://github.com/Sam00rx/CVE-2022-24087)
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
 
 ### CVE-2022-24112 (2022-02-11)
@@ -1085,6 +1085,7 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 - [mr-r3b00t/cve-2022-26809](https://github.com/mr-r3b00t/cve-2022-26809)
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
+- [SeptS0/CVE-2022-26809-RCE](https://github.com/SeptS0/CVE-2022-26809-RCE)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -4013,7 +4014,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773)
 - [N3w-elf/CVE-2021-41773-](https://github.com/N3w-elf/CVE-2021-41773-)
 - [puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773)
-- [spiderz0ne/CVE-2021-41773](https://github.com/spiderz0ne/CVE-2021-41773)
+- [WynSon/CVE-2021-41773](https://github.com/WynSon/CVE-2021-41773)
 - [DoTuan1/Reserch-CVE-2021-41773](https://github.com/DoTuan1/Reserch-CVE-2021-41773)
 - [bernardas/netsec-polygon](https://github.com/bernardas/netsec-polygon)
 - [CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit](https://github.com/CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit)
