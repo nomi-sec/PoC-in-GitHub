@@ -177,6 +177,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [drapl0n/dirtypipe](https://github.com/drapl0n/dirtypipe)
 - [xnderLAN/CVE-2022-0847](https://github.com/xnderLAN/CVE-2022-0847)
 - [mhanief/dirtypipe](https://github.com/mhanief/dirtypipe)
+- [tufanturhan/CVE-2022-0847-L-nux-PrivEsc](https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -335,6 +336,7 @@ Windows Runtime Remote Code Execution Vulnerability.
 </code>
 
 - [0vercl0k/CVE-2022-21971](https://github.com/0vercl0k/CVE-2022-21971)
+- [tufanturhan/CVE-2022-21971-Windows-Runtime-RCE](https://github.com/tufanturhan/CVE-2022-21971-Windows-Runtime-RCE)
 
 ### CVE-2022-21974 (2022-02-09)
 
@@ -849,8 +851,9 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 </code>
 
 - [nanaao/CVE-2022-24934](https://github.com/nanaao/CVE-2022-24934)
-- [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
+- [ASkyeye/WPS-CVE-2022-24934](https://github.com/ASkyeye/WPS-CVE-2022-24934)
 - [webraybtl/CVE-2022-24934](https://github.com/webraybtl/CVE-2022-24934)
+- [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
 
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
@@ -3320,6 +3323,8 @@ The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to
 
 - [YanMu2020/s2-062](https://github.com/YanMu2020/s2-062)
 - [Wrin9/CVE-2021-31805](https://github.com/Wrin9/CVE-2021-31805)
+- [Axx8/Struts2_S2-062_CVE-2021-31805](https://github.com/Axx8/Struts2_S2-062_CVE-2021-31805)
+- [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
 
 ### CVE-2021-31856 (2021-04-28)
 
@@ -3644,14 +3649,6 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 
 - [robertguetzkow/ets5-password-recovery](https://github.com/robertguetzkow/ets5-password-recovery)
 
-### CVE-2021-36808 (2021-10-30)
-
-<code>
-A local attacker could bypass the app password using a race condition in Sophos Secure Workspace for Android before version 9.7.3115.
-</code>
-
-- [ctuIhu/CVE-2021-36808](https://github.com/ctuIhu/CVE-2021-36808)
-
 ### CVE-2021-36934 (2021-07-22)
 
 <code>
@@ -3816,7 +3813,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
-- [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
 - [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
 - [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
