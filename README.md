@@ -1107,6 +1107,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
 - [genieyou/CVE-2022-26809-RCE](https://github.com/genieyou/CVE-2022-26809-RCE)
 - [gitcomit/scemer2](https://github.com/gitcomit/scemer2)
+- [XmasSnow/CVE-2022-26809-RCE](https://github.com/XmasSnow/CVE-2022-26809-RCE)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1546,6 +1547,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
 - [selectarget/laravel-CVE-2021-3129-EXP](https://github.com/selectarget/laravel-CVE-2021-3129-EXP)
 - [cuongtop4598/CVE-2021-3129-Script](https://github.com/cuongtop4598/CVE-2021-3129-Script)
+- [joshuavanderpoll/CVE-2021-3129](https://github.com/joshuavanderpoll/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -1898,7 +1900,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [Ph4nt0mh4x0r/auto-CVE-2021-4034](https://github.com/Ph4nt0mh4x0r/auto-CVE-2021-4034)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
-- [rvizw/CVE-2021-4034](https://github.com/rvizw/CVE-2021-4034)
+- [rvizx/CVE-2021-4034](https://github.com/rvizx/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
@@ -2280,7 +2282,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [xnianq/cve-2021-21985_exp](https://github.com/xnianq/cve-2021-21985_exp)
 - [daedalus/CVE-2021-21985](https://github.com/daedalus/CVE-2021-21985)
 - [testanull/Project_CVE-2021-21985_PoC](https://github.com/testanull/Project_CVE-2021-21985_PoC)
-- [sknux/CVE-2021-21985_PoC](https://github.com/sknux/CVE-2021-21985_PoC)
 
 ### CVE-2021-22005 (2021-09-23)
 
@@ -3783,6 +3784,14 @@ In various setup methods of the USB gadget subsystem, there is a possible out of
 
 - [szymonh/inspector-gadget](https://github.com/szymonh/inspector-gadget)
 
+### CVE-2021-39749 (2022-03-30)
+
+<code>
+In WindowManager, there is a possible way to start non-exported and protected activities due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12LAndroid ID: A-205996115
+</code>
+
+- [michalbednarski/OrganizerTransaction](https://github.com/michalbednarski/OrganizerTransaction)
+
 ### CVE-2021-39863 (2021-09-29)
 
 <code>
@@ -4036,7 +4045,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
-- [pirenga/CVE-2021-41773](https://github.com/pirenga/CVE-2021-41773)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
@@ -4133,14 +4141,6 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 - [cube0x0/noPac](https://github.com/cube0x0/noPac)
 - [knightswd/NoPacScan](https://github.com/knightswd/NoPacScan)
 - [XiaoliChan/Invoke-sAMSpoofing](https://github.com/XiaoliChan/Invoke-sAMSpoofing)
-
-### CVE-2021-42292 (2021-11-09)
-
-<code>
-Microsoft Excel Security Feature Bypass Vulnerability
-</code>
-
-- [corelight/CVE-2021-42292](https://github.com/corelight/CVE-2021-42292)
 
 ### CVE-2021-42321 (2021-11-09)
 
@@ -4954,6 +4954,7 @@ A code injection vulnerability in the Ivanti EPM Cloud Services Appliance (CSA) 
 </code>
 
 - [jkana/CVE-2021-44529](https://github.com/jkana/CVE-2021-44529)
+- [jax7sec/CVE-2021-44529](https://github.com/jax7sec/CVE-2021-44529)
 
 ### CVE-2021-44593 (2022-01-21)
 
