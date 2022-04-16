@@ -14,6 +14,7 @@ A heap-based buffer overflow flaw was found in the way the legacy_parse_param fu
 - [shahparkhan/cve-2022-0185](https://github.com/shahparkhan/cve-2022-0185)
 - [veritas501/CVE-2022-0185-PipeVersion](https://github.com/veritas501/CVE-2022-0185-PipeVersion)
 - [featherL/CVE-2022-0185-exploit](https://github.com/featherL/CVE-2022-0185-exploit)
+- [E1efuntik/CVE-2022-0185](https://github.com/E1efuntik/CVE-2022-0185)
 
 ### CVE-2022-0219 (2022-01-20)
 
@@ -543,6 +544,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [bewhale/CVE-2022-22954](https://github.com/bewhale/CVE-2022-22954)
 - [tyleraharrison/VMware-CVE-2022-22954-Command-Injector](https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector)
 - [3SsFuck/CVE-2022-22954-POC](https://github.com/3SsFuck/CVE-2022-22954-POC)
+- [MLX15/CVE-2022-22954](https://github.com/MLX15/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -823,7 +825,12 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 
 - [jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2)
 
-### CVE-2022-24483
+### CVE-2022-24483 (2022-04-15)
+
+<code>
+Windows Kernel Information Disclosure Vulnerability.
+</code>
+
 - [waleedassar/CVE-2022-24483](https://github.com/waleedassar/CVE-2022-24483)
 
 ### CVE-2022-24644 (2022-03-07)
@@ -1085,15 +1092,18 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 ### CVE-2022-26631
 - [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
 
-### CVE-2022-26809
+### CVE-2022-26809 (2022-04-15)
+
+<code>
+Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24492, CVE-2022-24528.
+</code>
+
 - [sherlocksecurity/Microsoft-CVE-2022-26809](https://github.com/sherlocksecurity/Microsoft-CVE-2022-26809)
 - [mr-r3b00t/cve-2022-26809](https://github.com/mr-r3b00t/cve-2022-26809)
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
-- [SeptS0/CVE-2022-26809-RCE](https://github.com/SeptS0/CVE-2022-26809-RCE)
 - [genieyou/CVE-2022-26809-RCE](https://github.com/genieyou/CVE-2022-26809-RCE)
 - [gitcomit/scemer2](https://github.com/gitcomit/scemer2)
-- [SeptS9119/CVE-2022-26809](https://github.com/SeptS9119/CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1122,11 +1132,24 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 
 - [plummm/CVE-2022-27666](https://github.com/plummm/CVE-2022-27666)
 
-### CVE-2022-28113
+### CVE-2022-28113 (2022-04-15)
+
+<code>
+An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attackers to write files and reset the user passwords without having a valid session cookie.
+</code>
+
 - [code-byter/CVE-2022-28113](https://github.com/code-byter/CVE-2022-28113)
 
 ### CVE-2022-28281
 - [0vercl0k/CVE-2022-28281](https://github.com/0vercl0k/CVE-2022-28281)
+
+### CVE-2022-29072 (2022-04-15)
+
+<code>
+7-Zip through 21.07 on Windows allows privilege escalation and command execution when a file with the .7z extension is dragged to the Help&gt;Contents area.
+</code>
+
+- [kagancapar/CVE-2022-29072](https://github.com/kagancapar/CVE-2022-29072)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
