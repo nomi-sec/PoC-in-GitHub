@@ -1146,7 +1146,7 @@ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attac
 ### CVE-2022-29072 (2022-04-15)
 
 <code>
-7-Zip through 21.07 on Windows allows privilege escalation and command execution when a file with the .7z extension is dragged to the Help&gt;Contents area.
+7-Zip through 21.07 on Windows allows privilege escalation and command execution when a file with the .7z extension is dragged to the Help&gt;Contents area. This is caused by misconfiguration of 7z.dll and a heap overflow. The command runs in a child process under the 7zFM.exe process,
 </code>
 
 - [kagancapar/CVE-2022-29072](https://github.com/kagancapar/CVE-2022-29072)
@@ -3349,6 +3349,7 @@ The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to
 - [Wrin9/CVE-2021-31805](https://github.com/Wrin9/CVE-2021-31805)
 - [Axx8/Struts2_S2-062_CVE-2021-31805](https://github.com/Axx8/Struts2_S2-062_CVE-2021-31805)
 - [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
+- [aeyesec/CVE-2021-31805](https://github.com/aeyesec/CVE-2021-31805)
 
 ### CVE-2021-31856 (2021-04-28)
 
@@ -3837,7 +3838,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
-- [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
 - [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
 - [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
@@ -3861,14 +3861,6 @@ Sketch before 75 allows library feeds to be used to bypass file quarantine. File
 </code>
 
 - [jonpalmisc/CVE-2021-40531](https://github.com/jonpalmisc/CVE-2021-40531)
-
-### CVE-2021-40539 (2021-09-07)
-
-<code>
-Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to REST API authentication bypass with resultant remote code execution.
-</code>
-
-- [synacktiv/CVE-2021-40539](https://github.com/synacktiv/CVE-2021-40539)
 
 ### CVE-2021-40839 (2021-09-09)
 
@@ -4299,6 +4291,9 @@ Improper Access Control in Adminer versions 1.12.0 to 4.6.2 (fixed in version 4.
 </code>
 
 - [p0dalirius/CVE-2021-43008-AdminerRead](https://github.com/p0dalirius/CVE-2021-43008-AdminerRead)
+
+### CVE-2021-43129
+- [Skotizo/CVE-2021-43129](https://github.com/Skotizo/CVE-2021-43129)
 
 ### CVE-2021-43224 (2021-12-15)
 
