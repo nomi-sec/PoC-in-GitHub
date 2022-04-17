@@ -4053,7 +4053,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
-- [shellreaper/CVE-2021-41773](https://github.com/shellreaper/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
@@ -4942,6 +4941,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [micha3lcve/LOG4J-mass-rce-CVE-2021-44228](https://github.com/micha3lcve/LOG4J-mass-rce-CVE-2021-44228)
 - [cryst4lliz3/CVE-2021-44228](https://github.com/cryst4lliz3/CVE-2021-44228)
 - [cryst4lliz3/CVE-2021-44228-vuln-app](https://github.com/cryst4lliz3/CVE-2021-44228-vuln-app)
+- [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
@@ -4981,14 +4981,6 @@ Simple College Website 1.0 is vulnerable to unauthenticated file upload &amp; re
 </code>
 
 - [Mister-Joe/CVE-2021-44593](https://github.com/Mister-Joe/CVE-2021-44593)
-
-### CVE-2021-44659 (2021-12-22)
-
-<code>
-** DISPUTED ** Adding a new pipeline in GoCD server version 21.3.0 has a functionality that could be abused to do an un-intended action in order to achieve a Server Side Request Forgery (SSRF). NOTE: the vendor's position is that the observed behavior is not a vulnerability, because the product's design allows an admin to configure outbound requests.
-</code>
-
-- [Mesh3l911/CVE-2021-44659](https://github.com/Mesh3l911/CVE-2021-44659)
 
 ### CVE-2021-44733 (2021-12-22)
 
@@ -7522,9 +7514,9 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [IdealDreamLast/CVE-2020-9484](https://github.com/IdealDreamLast/CVE-2020-9484)
 - [qerogram/CVE-2020-9484](https://github.com/qerogram/CVE-2020-9484)
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
-- [ClearLover77/CVE-2020-9484-Scanner](https://github.com/ClearLover77/CVE-2020-9484-Scanner)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
+- [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
