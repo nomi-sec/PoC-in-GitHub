@@ -332,6 +332,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [coconut20/CVE-2022-21907-RCE-POC](https://github.com/coconut20/CVE-2022-21907-RCE-POC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
+- [gpiechnik2/nmap-CVE-2022-21907](https://github.com/gpiechnik2/nmap-CVE-2022-21907)
 
 ### CVE-2022-21971 (2022-02-09)
 
@@ -854,6 +855,14 @@ Baicells Nova436Q and Neutrino 430 devices with firmware through QRTB 2.7.8 have
 </code>
 
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
+
+### CVE-2022-24853 (2022-04-14)
+
+<code>
+Metabase is an open source business intelligence and analytics application. Metabase has a proxy to load arbitrary URLs for JSON maps as part of our GeoJSON support. While we do validation to not return contents of arbitrary URLs, there is a case where a particularly crafted request could result in file access on windows, which allows enabling an `NTLM relay attack`, potentially allowing an attacker to receive the system password hash. If you use Windows and are on this version of Metabase, please upgrade immediately. The following patches (or greater versions) are available: 0.42.4 and 1.42.4, 0.41.7 and 1.41.7, 0.40.8 and 1.40.8.
+</code>
+
+- [secure-77/CVE-2022-24853](https://github.com/secure-77/CVE-2022-24853)
 
 ### CVE-2022-24934 (2022-03-23)
 
@@ -2333,6 +2342,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 - [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
 - [GatoGamer1155/CVE-2021-22204](https://github.com/GatoGamer1155/CVE-2021-22204)
+- [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -3838,7 +3848,6 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
 </code>
 
-- [ericmann/apache-cve-poc](https://github.com/ericmann/apache-cve-poc)
 - [pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt)
 - [Kashkovsky/CVE-2021-40438](https://github.com/Kashkovsky/CVE-2021-40438)
 
@@ -3861,7 +3870,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-40450, CVE-2021-41357.
 </code>
 
-- [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
@@ -4111,6 +4119,14 @@ Zenario CMS 9.0.54156 is vulnerable to File Upload. The web server can be compro
 </code>
 
 - [minhnq22/CVE-2021-42171](https://github.com/minhnq22/CVE-2021-42171)
+
+### CVE-2021-42230 (2022-04-15)
+
+<code>
+Seowon 130-SLC router all versions as of 2021-09-15 is vulnerable to Remote Code Execution via the queriesCnt parameter.
+</code>
+
+- [TAPESH-TEAM/CVE-2021-42230-Seowon-130-SLC-router-queriesCnt-Remote-Code-Execution-Unauthenticated](https://github.com/TAPESH-TEAM/CVE-2021-42230-Seowon-130-SLC-router-queriesCnt-Remote-Code-Execution-Unauthenticated)
 
 ### CVE-2021-42237 (2021-11-05)
 
