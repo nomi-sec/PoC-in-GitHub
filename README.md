@@ -179,6 +179,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [xnderLAN/CVE-2022-0847](https://github.com/xnderLAN/CVE-2022-0847)
 - [mhanief/dirtypipe](https://github.com/mhanief/dirtypipe)
 - [tufanturhan/CVE-2022-0847-L-nux-PrivEsc](https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc)
+- [rexpository/linux-privilege-escalation](https://github.com/rexpository/linux-privilege-escalation)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -229,6 +230,7 @@ Improper neutralization of user input in GitLab CE/EE versions 14.4 before 14.7.
 
 ### CVE-2022-1329
 - [AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit](https://github.com/AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit)
+- [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
 
 ### CVE-2022-3000
 - [l4fu/CVE-2022-3000](https://github.com/l4fu/CVE-2022-3000)
