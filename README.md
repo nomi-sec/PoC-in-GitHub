@@ -96,6 +96,7 @@ The BN_mod_sqrt() function, which computes a modular square root, contains a bug
 
 - [drago-96/CVE-2022-0778](https://github.com/drago-96/CVE-2022-0778)
 - [yywing/cve-2022-0778](https://github.com/yywing/cve-2022-0778)
+- [jkakavas/CVE-2022-0778-POC](https://github.com/jkakavas/CVE-2022-0778-POC)
 
 ### CVE-2022-0811 (2022-03-16)
 
@@ -1188,6 +1189,14 @@ In avrc_pars_vendor_cmd of avrc_pars_tg.cc, there is a possible out of bounds wr
 
 - [Satheesh575555/system_bt_AOSP_10_r33_CVE-2021-0316](https://github.com/Satheesh575555/system_bt_AOSP_10_r33_CVE-2021-0316)
 
+### CVE-2021-0319 (2021-01-11)
+
+<code>
+In checkCallerIsSystemOr of CompanionDeviceManagerService.java, there is a possible way to get a nearby Bluetooth device's MAC address without appropriate permissions due to a permissions bypass. This could lead to local escalation of privilege that grants access to nearby MAC addresses, with User execution privileges needed. User interaction is needed for exploitation. Product: Android; Versions: Android-8.0, Android-8.1, Android-9, Android-10, Android-11; Android ID: A-167244818.
+</code>
+
+- [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0319](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0319)
+
 ### CVE-2021-0325 (2021-02-10)
 
 <code>
@@ -1268,6 +1277,14 @@ In FindOrCreatePeer of btif_av.cc, there is a possible use after free due to a r
 
 - [nanopathi/system_bt_AOSP10_r33_CVE-2021-0476](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0476)
 
+### CVE-2021-0478 (2021-06-21)
+
+<code>
+In updateDrawable of StatusBarIconView.java, there is a possible permission bypass due to an uncaught exception. This could lead to local escalation of privilege by running foreground services without notifying the user, with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-8.1 Android-9Android ID: A-169255797
+</code>
+
+- [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0478](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0478)
+
 ### CVE-2021-0506 (2021-06-21)
 
 <code>
@@ -1332,6 +1349,14 @@ In lockNow of PhoneWindowManager.java, there is a possible lock screen bypass du
 </code>
 
 - [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0688](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0688)
+
+### CVE-2021-0705 (2021-10-22)
+
+<code>
+In sanitizeSbn of NotificationManagerService.java, there is a possible way to keep service running in foreground and keep granted permissions due to Bypass of Background Service Restrictions. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-10Android ID: A-185388103
+</code>
+
+- [ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0705](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0705)
 
 ### CVE-2021-0928 (2021-12-15)
 
@@ -3715,7 +3740,6 @@ Windows Elevation of Privilege Vulnerability
 A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdminBootstrap allows an attacker to bypass authentication. This issue affected Apache ShenYu 2.3.0 and 2.4.0
 </code>
 
-- [rabbitsafe/CVE-2021-37580](https://github.com/rabbitsafe/CVE-2021-37580)
 - [fengwenhua/CVE-2021-37580](https://github.com/fengwenhua/CVE-2021-37580)
 - [Osyanina/westone-CVE-2021-37580-scanner](https://github.com/Osyanina/westone-CVE-2021-37580-scanner)
 - [ZororoZ/CVE-2021-37580](https://github.com/ZororoZ/CVE-2021-37580)
@@ -4056,7 +4080,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
-- [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
@@ -4104,7 +4127,6 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/cve-2021-42013-docker-lab](https://github.com/twseptian/cve-2021-42013-docker-lab)
 - [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
-- [xMohamed0/CVE-2021-42013-ApacheRCE](https://github.com/xMohamed0/CVE-2021-42013-ApacheRCE)
 - [awsassets/CVE-2021-42013](https://github.com/awsassets/CVE-2021-42013)
 - [asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp](https://github.com/asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp)
 - [rnsss/CVE-2021-42013](https://github.com/rnsss/CVE-2021-42013)
@@ -4380,14 +4402,6 @@ The uri-block plugin in Apache APISIX before 2.10.2 uses $request_uri without ve
 </code>
 
 - [xvnpw/k8s-CVE-2021-43557-poc](https://github.com/xvnpw/k8s-CVE-2021-43557-poc)
-
-### CVE-2021-43616 (2021-11-13)
-
-<code>
-The npm ci command in npm 7.x and 8.x through 8.1.3 proceeds with an installation even if dependency information in package-lock.json differs from package.json. This behavior is inconsistent with the documentation, and makes it easier for attackers to install malware that was supposed to have been blocked by an exact version match requirement in package-lock.json.
-</code>
-
-- [icatalina/CVE-2021-43616](https://github.com/icatalina/CVE-2021-43616)
 
 ### CVE-2021-43617 (2021-11-14)
 
@@ -4943,9 +4957,18 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [cryst4lliz3/CVE-2021-44228](https://github.com/cryst4lliz3/CVE-2021-44228)
 - [cryst4lliz3/CVE-2021-44228-vuln-app](https://github.com/cryst4lliz3/CVE-2021-44228-vuln-app)
 - [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
+- [ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j](https://github.com/ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
+
+### CVE-2021-44255 (2022-01-31)
+
+<code>
+Authenticated remote code execution in MotionEye &lt;= 0.42.1 and MotioneEyeOS &lt;= 20200606 allows a remote attacker to upload a configuration backup file containing a malicious python pickle file which will execute arbitrary code on the server.
+</code>
+
+- [pizza-power/motioneye-authenticated-RCE](https://github.com/pizza-power/motioneye-authenticated-RCE)
 
 ### CVE-2021-44270
 - [pinpinsec/Anviz-Access-Control-Authentication-Bypass](https://github.com/pinpinsec/Anviz-Access-Control-Authentication-Bypass)
@@ -5446,6 +5469,7 @@ In onCreate of SliceDeepLinkSpringBoard.java there is a possible insecure Intent
 </code>
 
 - [pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219](https://github.com/pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219)
+- [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219)
 
 ### CVE-2020-0225 (2020-07-17)
 
@@ -13280,6 +13304,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107)
 - [hacknotes/CVE-2019-15107-Exploit](https://github.com/hacknotes/CVE-2019-15107-Exploit)
 - [Tuz-Wwsd/CVE-2019-15107_detection](https://github.com/Tuz-Wwsd/CVE-2019-15107_detection)
+- [f0rkr/CVE-2019-15107](https://github.com/f0rkr/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
