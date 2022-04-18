@@ -1078,6 +1078,7 @@ On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute ar
 </code>
 
 - [misterxid/watchguard_cve-2022-26318](https://github.com/misterxid/watchguard_cve-2022-26318)
+- [h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318](https://github.com/h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318)
 
 ### CVE-2022-26500 (2022-03-17)
 
@@ -1104,7 +1105,12 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 - [scopion/CVE-2022-26629](https://github.com/scopion/CVE-2022-26629)
 - [sysenter-eip/CVE-2022-26629](https://github.com/sysenter-eip/CVE-2022-26629)
 
-### CVE-2022-26631
+### CVE-2022-26631 (2022-04-18)
+
+<code>
+Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injection vulnerability via the id GET parameter.
+</code>
+
 - [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
 
 ### CVE-2022-26809 (2022-04-15)
@@ -1149,6 +1155,14 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 
 - [plummm/CVE-2022-27666](https://github.com/plummm/CVE-2022-27666)
 
+### CVE-2022-27772 (2022-03-30)
+
+<code>
+** UNSUPPORTED WHEN ASSIGNED ** spring-boot versions prior to version v2.2.11.RELEASE was vulnerable to temporary directory hijacking. This vulnerability impacted the org.springframework.boot.web.server.AbstractConfigurableWebServerFactory.createTempDir method. NOTE: This vulnerability only affects products and/or versions that are no longer supported by the maintainer.
+</code>
+
+- [puneetbehl/grails3-cve-2022-27772](https://github.com/puneetbehl/grails3-cve-2022-27772)
+
 ### CVE-2022-28113 (2022-04-15)
 
 <code>
@@ -1167,6 +1181,7 @@ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attac
 </code>
 
 - [kagancapar/CVE-2022-29072](https://github.com/kagancapar/CVE-2022-29072)
+- [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -5486,6 +5501,7 @@ In createWithSurfaceParent of Client.cpp, there is a possible out of bounds writ
 </code>
 
 - [Trinadh465/frameworks_native_CVE-2020-0226](https://github.com/Trinadh465/frameworks_native_CVE-2020-0226)
+- [ShaikUsaf/frameworks_native_AOSP10_r33_ShaikUsaf-frameworks_native_AOSP10_r33_CVE-2020-0226](https://github.com/ShaikUsaf/frameworks_native_AOSP10_r33_ShaikUsaf-frameworks_native_AOSP10_r33_CVE-2020-0226)
 
 ### CVE-2020-0241 (2020-08-11)
 
@@ -5567,14 +5583,6 @@ In LocaleList of LocaleList.java, there is a possible forced reboot due to an un
 </code>
 
 - [Supersonic/CVE-2020-0443](https://github.com/Supersonic/CVE-2020-0443)
-
-### CVE-2020-0449 (2020-11-10)
-
-<code>
-In btm_sec_disconnected of btm_sec.cc, there is a possible memory corruption due to a use after free. This could lead to remote code execution in the Bluetooth server with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11 Android-8.0 Android-8.1Android ID: A-162497143
-</code>
-
-- [Satheesh575555/System_bt_AOSP10-r33_CVE-2020-0449](https://github.com/Satheesh575555/System_bt_AOSP10-r33_CVE-2020-0449)
 
 ### CVE-2020-0451 (2020-11-10)
 
@@ -7207,14 +7215,6 @@ The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the 
 - [waleweewe12/CVE-2020-8417](https://github.com/waleweewe12/CVE-2020-8417)
 - [Rapidsafeguard/codesnippets_CVE-2020-8417](https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417)
 - [Vulnmachines/WordPress_CVE-2020-8417](https://github.com/Vulnmachines/WordPress_CVE-2020-8417)
-
-### CVE-2020-8428 (2020-01-28)
-
-<code>
-fs/namei.c in the Linux kernel before 5.5 has a may_create_in_sticky use-after-free, which allows local users to cause a denial of service (OOPS) or possibly obtain sensitive information from kernel memory, aka CID-d0cb50185ae9. One attack vector may be an open system call for a UNIX domain socket, if the socket is being moved to a new parent directory and its old parent directory is being removed.
-</code>
-
-- [Satheesh575555/linux-4.19.72_CVE-2020-8428](https://github.com/Satheesh575555/linux-4.19.72_CVE-2020-8428)
 
 ### CVE-2020-8437 (2020-03-02)
 
@@ -10053,14 +10053,6 @@ In NetArt News Lister 1.0.0, the news headlines vulnerable to stored xss attacks
 </code>
 
 - [aslanemre/CVE-2020-29364](https://github.com/aslanemre/CVE-2020-29364)
-
-### CVE-2020-29368 (2020-11-28)
-
-<code>
-An issue was discovered in __split_huge_pmd in mm/huge_memory.c in the Linux kernel before 5.7.5. The copy-on-write implementation can grant unintended write access because of a race condition in a THP mapcount check, aka CID-c444eb564fb1.
-</code>
-
-- [Satheesh575555/linux-4.19.72_CVE-2020-29368](https://github.com/Satheesh575555/linux-4.19.72_CVE-2020-29368)
 
 ### CVE-2020-29370 (2020-11-28)
 
@@ -13978,14 +13970,6 @@ An insecure file access vulnerability exists in CA Client Automation 14.0, 14.1,
 
 - [hessandrew/CVE-2019-19231](https://github.com/hessandrew/CVE-2019-19231)
 
-### CVE-2019-19252 (2019-11-25)
-
-<code>
-vcs_write in drivers/tty/vt/vc_screen.c in the Linux kernel through 5.3.13 does not prevent write access to vcsu devices, aka CID-0c9acb1af77a.
-</code>
-
-- [Satheesh575555/linux-4.19.72_CVE-2019-19252](https://github.com/Satheesh575555/linux-4.19.72_CVE-2019-19252)
-
 ### CVE-2019-19268
 - [TheCyberGeek/CVE-2019-19268](https://github.com/TheCyberGeek/CVE-2019-19268)
 
@@ -15903,14 +15887,6 @@ Diagnostics functionality on D-Link DSL-3782 devices with firmware EU v. 1.01 ha
 </code>
 
 - [SECFORCE/CVE-2018-8941](https://github.com/SECFORCE/CVE-2018-8941)
-
-### CVE-2018-8943 (2018-03-22)
-
-<code>
-There is a SQL injection in the PHPSHE 1.6 userbank parameter.
-</code>
-
-- [coolboy0816/CVE-2018-8943](https://github.com/coolboy0816/CVE-2018-8943)
 
 ### CVE-2018-8947 (2018-03-25)
 
