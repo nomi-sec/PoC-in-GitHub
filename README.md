@@ -1112,13 +1112,14 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24492, CVE-2022-24528.
 </code>
 
-- [sherlocksecurity/Microsoft-CVE-2022-26809](https://github.com/sherlocksecurity/Microsoft-CVE-2022-26809)
+- [sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy](https://github.com/sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy)
 - [mr-r3b00t/cve-2022-26809](https://github.com/mr-r3b00t/cve-2022-26809)
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
 - [genieyou/CVE-2022-26809-RCE](https://github.com/genieyou/CVE-2022-26809-RCE)
 - [gitcomit/scemer2](https://github.com/gitcomit/scemer2)
 - [XmasSnow/CVE-2022-26809-RCE](https://github.com/XmasSnow/CVE-2022-26809-RCE)
+- [F1uk369/CVE-2022-26809](https://github.com/F1uk369/CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1290,6 +1291,14 @@ In several functions of MemoryFileSystem.cpp and related files, there is a possi
 </code>
 
 - [nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520)
+
+### CVE-2021-0594 (2021-07-14)
+
+<code>
+In onCreate of ConfirmConnectActivity, there is a possible remote bypass of user consent due to improper input validation. This could lead to remote (proximal, NFC) escalation of privilege allowing an attacker to deceive a user into allowing a Bluetooth connection with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-176445224
+</code>
+
+- [Satheesh575555/packages_apps_Nfc_AOSP10_r33_CVE-2021-0594](https://github.com/Satheesh575555/packages_apps_Nfc_AOSP10_r33_CVE-2021-0594)
 
 ### CVE-2021-0595 (2021-10-06)
 
@@ -1948,6 +1957,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
 - [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
 - [ArkAngeL43/CVE-2021-4034](https://github.com/ArkAngeL43/CVE-2021-4034)
+- [qasj/CVE-2021-4034](https://github.com/qasj/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2130,7 +2140,6 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
 - [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
 - [Ki11i0n4ir3/CVE-2021-21315](https://github.com/Ki11i0n4ir3/CVE-2021-21315)
-- [xMohamed0/CVE-2021-21315-POC](https://github.com/xMohamed0/CVE-2021-21315-POC)
 
 ### CVE-2021-21341 (2021-03-22)
 
@@ -2360,6 +2369,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [gardenWhy/Gitlab-CVE-2021-22205](https://github.com/gardenWhy/Gitlab-CVE-2021-22205)
 - [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
 - [cryst4lliz3/CVE-2021-22205](https://github.com/cryst4lliz3/CVE-2021-22205)
+- [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
 
 ### CVE-2021-22210 (2021-05-06)
 
@@ -3366,6 +3376,7 @@ The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to
 - [Axx8/Struts2_S2-062_CVE-2021-31805](https://github.com/Axx8/Struts2_S2-062_CVE-2021-31805)
 - [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
 - [aeyesec/CVE-2021-31805](https://github.com/aeyesec/CVE-2021-31805)
+- [3SsFuck/CVE-2021-31805-POC](https://github.com/3SsFuck/CVE-2021-31805-POC)
 
 ### CVE-2021-31856 (2021-04-28)
 
@@ -3872,7 +3883,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-40450, CVE-2021-41357.
 </code>
 
-- [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
 
@@ -4009,14 +4019,6 @@ Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-
 
 - [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
 
-### CVE-2021-41351 (2021-11-09)
-
-<code>
-Microsoft Edge (Chrome based) Spoofing on IE Mode
-</code>
-
-- [JaneMandy/CVE-2021-41351-POC](https://github.com/JaneMandy/CVE-2021-41351-POC)
-
 ### CVE-2021-41560 (2021-12-15)
 
 <code>
@@ -4055,7 +4057,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [kubota/POC-CVE-2021-41773](https://github.com/kubota/POC-CVE-2021-41773)
-- [xMohamed0/CVE-2021-41773](https://github.com/xMohamed0/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
