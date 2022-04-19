@@ -1130,6 +1130,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [hemazoher/CVE-2022-26809-RCE](https://github.com/hemazoher/CVE-2022-26809-RCE)
 - [BugHunter010/CVE-2022-26809](https://github.com/BugHunter010/CVE-2022-26809)
 - [XmasSnow1/cve-2022-26809](https://github.com/XmasSnow1/cve-2022-26809)
+- [XHSecurity/CVE-2022-26809](https://github.com/XHSecurity/CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1166,6 +1167,14 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 
 - [puneetbehl/grails3-cve-2022-27772](https://github.com/puneetbehl/grails3-cve-2022-27772)
 
+### CVE-2022-27927 (2022-04-19)
+
+<code>
+A SQL injection vulnerability exists in Microfinance Management System 1.0 when MySQL is being used as the application database. An attacker can issue SQL commands to the MySQL database through the vulnerable course_code and/or customer_number parameter.
+</code>
+
+- [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
+
 ### CVE-2022-28113 (2022-04-15)
 
 <code>
@@ -1180,7 +1189,7 @@ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attac
 ### CVE-2022-29072 (2022-04-15)
 
 <code>
-7-Zip through 21.07 on Windows allows privilege escalation and command execution when a file with the .7z extension is dragged to the Help&gt;Contents area. This is caused by misconfiguration of 7z.dll and a heap overflow. The command runs in a child process under the 7zFM.exe process,
+** DISPUTED ** 7-Zip through 21.07 on Windows allows privilege escalation and command execution when a file with the .7z extension is dragged to the Help&gt;Contents area. This is caused by misconfiguration of 7z.dll and a heap overflow. The command runs in a child process under the 7zFM.exe process, NOTE: multiple third parties have reported that no privilege escalation can occur.
 </code>
 
 - [kagancapar/CVE-2022-29072](https://github.com/kagancapar/CVE-2022-29072)
@@ -1271,6 +1280,14 @@ In onTargetSelected of ResolverActivity.java, there is a possible settings bypas
 </code>
 
 - [ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0334](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0334)
+
+### CVE-2021-0340 (2021-02-10)
+
+<code>
+In parseNextBox of IsoInterface.java, there is a possible leak of unredacted location information due to improper input validation. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-134155286
+</code>
+
+- [Satheesh575555/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340](https://github.com/Satheesh575555/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340)
 
 ### CVE-2021-0391 (2021-03-10)
 
@@ -3767,8 +3784,6 @@ Windows Elevation of Privilege Vulnerability
 A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdminBootstrap allows an attacker to bypass authentication. This issue affected Apache ShenYu 2.3.0 and 2.4.0
 </code>
 
-- [Osyanina/westone-CVE-2021-37580-scanner](https://github.com/Osyanina/westone-CVE-2021-37580-scanner)
-- [ZororoZ/CVE-2021-37580](https://github.com/ZororoZ/CVE-2021-37580)
 - [Liang2580/CVE-2021-37580](https://github.com/Liang2580/CVE-2021-37580)
 - [Wing-song/CVE-2021-37580](https://github.com/Wing-song/CVE-2021-37580)
 
@@ -4361,7 +4376,12 @@ Improper Access Control in Adminer versions 1.12.0 to 4.6.2 (fixed in version 4.
 
 - [p0dalirius/CVE-2021-43008-AdminerRead](https://github.com/p0dalirius/CVE-2021-43008-AdminerRead)
 
-### CVE-2021-43129
+### CVE-2021-43129 (2022-04-19)
+
+<code>
+An Access Control vulnerability exists in Desire2Learn/D2L Learning Management System (LMS) 20.21.7 via the quizzing feature, which allows a remote malicious user to disable the Disable right click control.
+</code>
+
 - [Skotizo/CVE-2021-43129](https://github.com/Skotizo/CVE-2021-43129)
 
 ### CVE-2021-43224 (2021-12-15)
@@ -4412,6 +4432,14 @@ In Canon LBP223 printers, the System Manager Mode login does not require an acco
 </code>
 
 - [cxaqhq/CVE-2021-43471](https://github.com/cxaqhq/CVE-2021-43471)
+
+### CVE-2021-43515 (2022-04-08)
+
+<code>
+CSV Injection (aka Excel Macro Injection or Formula Injection) exists in creating new timesheet in Kimai. By filling the Description field with malicious payload, it will be mistreated while exporting to a CSV file.
+</code>
+
+- [ixSly/CVE-2021-43515](https://github.com/ixSly/CVE-2021-43515)
 
 ### CVE-2021-43530 (2021-12-08)
 
@@ -5586,6 +5614,14 @@ In gatt_process_read_by_type_rsp of gatt_cl.cc, there is a possible out of bound
 </code>
 
 - [Satheesh575555/system_bt_AOSP10_r33_CVE-2020-0413](https://github.com/Satheesh575555/system_bt_AOSP10_r33_CVE-2020-0413)
+
+### CVE-2020-0416 (2020-10-14)
+
+<code>
+In multiple settings screens, there are possible tapjacking attacks due to an insecure default value. This could lead to local escalation of privilege and permissions with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11 Android-8.0 Android-8.1Android ID: A-155288585
+</code>
+
+- [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0416](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0416)
 
 ### CVE-2020-0421 (2020-10-14)
 
@@ -10408,8 +10444,6 @@ A Server Side Request Forgery (SSRF) vulnerability affected the Apache Axis 1.4 
 Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution.
 </code>
 
-- [303donatello/CVE-2019-0230](https://github.com/303donatello/CVE-2019-0230)
-- [BH2UOL/CVE-2019-0230](https://github.com/BH2UOL/CVE-2019-0230)
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 - [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
@@ -15289,6 +15323,14 @@ An issue was discovered on Netwave IP Camera devices. An unauthenticated attacke
 
 - [dreadlocked/netwave-dosvulnerability](https://github.com/dreadlocked/netwave-dosvulnerability)
 - [LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479](https://github.com/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479)
+
+### CVE-2018-6481 (2018-02-27)
+
+<code>
+A buffer overflow vulnerability in the control protocol of Disk Savvy Enterprise v10.4.18 allows remote attackers to execute arbitrary code by sending a crafted packet to TCP port 9124.
+</code>
+
+- [gerbsec/CVE-2018-6481-Reverse-shell-instead-of-bind.](https://github.com/gerbsec/CVE-2018-6481-Reverse-shell-instead-of-bind.)
 
 ### CVE-2018-6518 (2018-04-26)
 
@@ -21571,6 +21613,7 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [k4u5h41/CVE-2015-1635-POC](https://github.com/k4u5h41/CVE-2015-1635-POC)
 - [k4u5h41/CVE-2015-1635](https://github.com/k4u5h41/CVE-2015-1635)
 - [w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC)
+- [SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan)
 
 ### CVE-2015-1641 (2015-04-14)
 
