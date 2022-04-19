@@ -1129,6 +1129,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [F1uk369/CVE-2022-26809](https://github.com/F1uk369/CVE-2022-26809)
 - [HellKnightsCrew/CVE-2022-26809](https://github.com/HellKnightsCrew/CVE-2022-26809)
 - [hemazoher/CVE-2022-26809-RCE](https://github.com/hemazoher/CVE-2022-26809-RCE)
+- [XmasSnow-is-scammer/CVE-2022-26809](https://github.com/XmasSnow-is-scammer/CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1246,6 +1247,14 @@ In onCreate of NotificationAccessConfirmationActivity.java, there is a possible 
 </code>
 
 - [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2021-0331](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2021-0331)
+
+### CVE-2021-0332 (2021-02-10)
+
+<code>
+In bootFinished of SurfaceFlinger.cpp, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-10Android ID: A-169256435
+</code>
+
+- [Satheesh575555/frameworks_native_AOSP10_r33_CVE-2021-0332](https://github.com/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2021-0332)
 
 ### CVE-2021-0333 (2021-02-10)
 
@@ -2001,6 +2010,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
 - [ArkAngeL43/CVE-2021-4034](https://github.com/ArkAngeL43/CVE-2021-4034)
 - [qasj/CVE-2021-4034](https://github.com/qasj/CVE-2021-4034)
+- [rhin0cer0s/CVE-2021-4034](https://github.com/rhin0cer0s/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2396,7 +2406,6 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 - [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
 - [GatoGamer1155/CVE-2021-22204](https://github.com/GatoGamer1155/CVE-2021-22204)
-- [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -3758,7 +3767,6 @@ Windows Elevation of Privilege Vulnerability
 A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdminBootstrap allows an attacker to bypass authentication. This issue affected Apache ShenYu 2.3.0 and 2.4.0
 </code>
 
-- [fengwenhua/CVE-2021-37580](https://github.com/fengwenhua/CVE-2021-37580)
 - [Osyanina/westone-CVE-2021-37580-scanner](https://github.com/Osyanina/westone-CVE-2021-37580-scanner)
 - [ZororoZ/CVE-2021-37580](https://github.com/ZororoZ/CVE-2021-37580)
 - [Liang2580/CVE-2021-37580](https://github.com/Liang2580/CVE-2021-37580)
@@ -8580,6 +8588,7 @@ A vulnerability was discovered in the PyYAML library in versions before 5.4, whe
 </code>
 
 - [raul23/pyyaml-CVE-2020-14343](https://github.com/raul23/pyyaml-CVE-2020-14343)
+- [j4k0m/loader-CVE-2020-14343](https://github.com/j4k0m/loader-CVE-2020-14343)
 
 ### CVE-2020-14364 (2020-08-31)
 
@@ -18545,7 +18554,6 @@ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in In
 - [M1a0rz/CVE-2017-7269](https://github.com/M1a0rz/CVE-2017-7269)
 - [whiteHat001/cve-2017-7269picture](https://github.com/whiteHat001/cve-2017-7269picture)
 - [zcgonvh/cve-2017-7269](https://github.com/zcgonvh/cve-2017-7269)
-- [jrrombaldo/CVE-2017-7269](https://github.com/jrrombaldo/CVE-2017-7269)
 - [g0rx/iis6-exploit-2017-CVE-2017-7269](https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269)
 - [slimpagey/IIS_6.0_WebDAV_Ruby](https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby)
 - [homjxi0e/cve-2017-7269](https://github.com/homjxi0e/cve-2017-7269)
@@ -18553,6 +18561,7 @@ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in In
 - [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
+- [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
 - [k4u5h41/CVE-2017-7269](https://github.com/k4u5h41/CVE-2017-7269)
 
 ### CVE-2017-7374 (2017-03-31)
