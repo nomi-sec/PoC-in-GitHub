@@ -1124,12 +1124,12 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
 - [genieyou/CVE-2022-26809-RCE](https://github.com/genieyou/CVE-2022-26809-RCE)
-- [gitcomit/scemer2](https://github.com/gitcomit/scemer2)
 - [XmasSnow/CVE-2022-26809-RCE](https://github.com/XmasSnow/CVE-2022-26809-RCE)
 - [F1uk369/CVE-2022-26809](https://github.com/F1uk369/CVE-2022-26809)
 - [HellKnightsCrew/CVE-2022-26809](https://github.com/HellKnightsCrew/CVE-2022-26809)
 - [hemazoher/CVE-2022-26809-RCE](https://github.com/hemazoher/CVE-2022-26809-RCE)
-- [XmasSnow-is-scammer/CVE-2022-26809](https://github.com/XmasSnow-is-scammer/CVE-2022-26809)
+- [BugHunter010/CVE-2022-26809](https://github.com/BugHunter010/CVE-2022-26809)
+- [XmasSnow1/cve-2022-26809](https://github.com/XmasSnow1/cve-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1336,6 +1336,14 @@ In several functions of MemoryFileSystem.cpp and related files, there is a possi
 
 - [nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520)
 
+### CVE-2021-0589 (2021-07-14)
+
+<code>
+In BTM_TryAllocateSCN of btm_scn.cc, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-180939982
+</code>
+
+- [Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589](https://github.com/Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589)
+
 ### CVE-2021-0594 (2021-07-14)
 
 <code>
@@ -1435,7 +1443,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675)
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
-- [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
 - [eversinc33/NimNightmare](https://github.com/eversinc33/NimNightmare)
 - [AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675)
 - [TheJoyOfHacking/cube0x0-CVE-2021-1675](https://github.com/TheJoyOfHacking/cube0x0-CVE-2021-1675)
@@ -2011,6 +2018,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ArkAngeL43/CVE-2021-4034](https://github.com/ArkAngeL43/CVE-2021-4034)
 - [qasj/CVE-2021-4034](https://github.com/qasj/CVE-2021-4034)
 - [rhin0cer0s/CVE-2021-4034](https://github.com/rhin0cer0s/CVE-2021-4034)
+- [karaname/pkexec-exploit](https://github.com/karaname/pkexec-exploit)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2722,14 +2730,6 @@ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated at
 - [coolyin001/CVE-2021-26295--](https://github.com/coolyin001/CVE-2021-26295--)
 - [S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP)
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
-
-### CVE-2021-26411 (2021-03-11)
-
-<code>
-Internet Explorer Memory Corruption Vulnerability
-</code>
-
-- [CrackerCat/CVE-2021-26411](https://github.com/CrackerCat/CVE-2021-26411)
 
 ### CVE-2021-26415 (2021-04-13)
 
@@ -5562,6 +5562,22 @@ In getLayerDebugInfo of SurfaceFlinger.cpp, there is a possible code execution d
 </code>
 
 - [Satheesh575555/frameworks_native_AOSP10_r33_CVE-2020-0392](https://github.com/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2020-0392)
+
+### CVE-2020-0394 (2020-09-17)
+
+<code>
+In onCreate of BluetoothPairingDialog.java, there is a possible tapjacking vector due to an insecure default value. This could lead to local escalation of privilege and untrusted devices accessing contact lists with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10 Android-11Android ID: A-155648639
+</code>
+
+- [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0394)
+
+### CVE-2020-0401 (2020-09-17)
+
+<code>
+In setInstallerPackageName of PackageManagerService.java, there is a missing permission check. This could lead to local escalation of privilege and granting spurious permissions with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10 Android-11Android ID: A-150857253
+</code>
+
+- [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0401](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0401)
 
 ### CVE-2020-0413 (2020-10-14)
 
@@ -9801,6 +9817,14 @@ An issue was discovered in Click Studios Passwordstate 8.9 (Build 8973).If the u
 </code>
 
 - [jet-pentest/CVE-2020-27747](https://github.com/jet-pentest/CVE-2020-27747)
+
+### CVE-2020-27824 (2021-05-13)
+
+<code>
+A flaw was found in OpenJPEG’s encoder in the opj_dwt_calc_explicit_stepsizes() function. This flaw allows an attacker who can supply crafted input to decomposition levels to cause a buffer overflow. The highest threat from this vulnerability is to system availability.
+</code>
+
+- [pazhanivel07/openjpeg-2.3.0_CVE-2020-27824](https://github.com/pazhanivel07/openjpeg-2.3.0_CVE-2020-27824)
 
 ### CVE-2020-27904 (2020-12-08)
 
