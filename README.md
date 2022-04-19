@@ -1127,6 +1127,8 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [gitcomit/scemer2](https://github.com/gitcomit/scemer2)
 - [XmasSnow/CVE-2022-26809-RCE](https://github.com/XmasSnow/CVE-2022-26809-RCE)
 - [F1uk369/CVE-2022-26809](https://github.com/F1uk369/CVE-2022-26809)
+- [HellKnightsCrew/CVE-2022-26809](https://github.com/HellKnightsCrew/CVE-2022-26809)
+- [hemazoher/CVE-2022-26809-RCE](https://github.com/hemazoher/CVE-2022-26809-RCE)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1182,6 +1184,7 @@ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attac
 
 - [kagancapar/CVE-2022-29072](https://github.com/kagancapar/CVE-2022-29072)
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
+- [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
