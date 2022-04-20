@@ -1380,6 +1380,14 @@ In handle_rc_metamsg_cmd of btif_rc.cc, there is a possible out of bounds write 
 
 - [nanopathi/system_bt_AOSP10_r33_CVE-2021-0507](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0507)
 
+### CVE-2021-0510 (2021-06-21)
+
+<code>
+In decrypt_1_2 of CryptoPlugin.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11 Android-8.1Android ID: A-176444622
+</code>
+
+- [pazhanivel07/hardware_interfaces-A10_r33_CVE-2021-0510](https://github.com/pazhanivel07/hardware_interfaces-A10_r33_CVE-2021-0510)
+
 ### CVE-2021-0520 (2021-06-21)
 
 <code>
@@ -3793,8 +3801,15 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 
 - [Sma11New/PocList](https://github.com/Sma11New/PocList)
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
-- [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
 - [Jun-5heng/CVE-2021-36749](https://github.com/Jun-5heng/CVE-2021-36749)
+
+### CVE-2021-36798 (2021-08-09)
+
+<code>
+A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSystems Cobalt Strike 4.2 and 4.3. It allows remote attackers to crash the C2 server thread and block beacons' communication with it.
+</code>
+
+- [hariomenkel/CobaltSploit](https://github.com/hariomenkel/CobaltSploit)
 
 ### CVE-2021-36799 (2021-07-19)
 
@@ -3811,6 +3826,14 @@ Windows Elevation of Privilege Vulnerability
 </code>
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
+
+### CVE-2021-36981 (2021-08-30)
+
+<code>
+In the server in SerNet verinice before 1.22.2, insecure Java deserialization allows remote authenticated attackers to execute arbitrary code.
+</code>
+
+- [0xBrAinsTorM/CVE-2021-36981](https://github.com/0xBrAinsTorM/CVE-2021-36981)
 
 ### CVE-2021-37624 (2021-10-25)
 
@@ -4080,9 +4103,7 @@ jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0
 Metabase is an open source data analytics platform. In affected versions a security issue has been discovered with the custom GeoJSON map (`admin-&gt;settings-&gt;maps-&gt;custom maps-&gt;add a map`) support and potential local file inclusion (including environment variables). URLs were not validated prior to being loaded. This issue is fixed in a new maintenance release (0.40.5 and 1.40.5), and any subsequent release after that. If you’re unable to upgrade immediately, you can mitigate this by including rules in your reverse proxy or load balancer or WAF to provide a validation filter before the application.
 </code>
 
-- [Seals6/CVE-2021-41277](https://github.com/Seals6/CVE-2021-41277)
 - [tahtaciburak/CVE-2021-41277](https://github.com/tahtaciburak/CVE-2021-41277)
-- [Henry4E36/Metabase-cve-2021-41277](https://github.com/Henry4E36/Metabase-cve-2021-41277)
 - [kap1ush0n/CVE-2021-41277](https://github.com/kap1ush0n/CVE-2021-41277)
 - [z3n70/CVE-2021-41277](https://github.com/z3n70/CVE-2021-41277)
 - [kaizensecurity/CVE-2021-41277](https://github.com/kaizensecurity/CVE-2021-41277)
@@ -5524,6 +5545,14 @@ In get_element_attr_rsp of btif_rc.cc, there is a possible out of bounds write d
 </code>
 
 - [Satheesh575555/system_bt_AOSP10_r33-CVE-2020-0138](https://github.com/Satheesh575555/system_bt_AOSP10_r33-CVE-2020-0138)
+
+### CVE-2020-0176 (2020-06-11)
+
+<code>
+In avdt_msg_prs_rej of avdt_msg.cc, there is a possible out-of-bounds read due to improper input validation. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-79702484
+</code>
+
+- [pazhanivel07/system_bt_A10-r33_CVE-2020-0176](https://github.com/pazhanivel07/system_bt_A10-r33_CVE-2020-0176)
 
 ### CVE-2020-0188 (2020-06-11)
 
@@ -7997,7 +8026,6 @@ Sonatype Nexus Repository Manager 3.x up to and including 3.21.2 has Incorrect A
 An issue was discovered in Docker Desktop through 2.2.0.5 on Windows. If a local attacker sets up their own named pipe prior to starting Docker with the same name, this attacker can intercept a connection attempt from Docker Service (which runs as SYSTEM), and then impersonate their privileges.
 </code>
 
-- [joshfinley/CVE-2020-11492](https://github.com/joshfinley/CVE-2020-11492)
 - [CrackerCat/CVE-2020-11492](https://github.com/CrackerCat/CVE-2020-11492)
 
 ### CVE-2020-11493 (2020-09-03)
@@ -15463,6 +15491,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574)
 - [dmlino/cve-2018-6574](https://github.com/dmlino/cve-2018-6574)
 - [the-valluvarsploit/CVE-2018-6574](https://github.com/the-valluvarsploit/CVE-2018-6574)
+- [yavolo/CVE-2018-6574](https://github.com/yavolo/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
