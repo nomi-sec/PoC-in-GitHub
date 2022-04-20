@@ -236,6 +236,7 @@ The Elementor Website Builder plugin for WordPress is vulnerable to unauthorized
 
 - [AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit](https://github.com/AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit)
 - [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
+- [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
 
 ### CVE-2022-3000
 - [l4fu/CVE-2022-3000](https://github.com/l4fu/CVE-2022-3000)
