@@ -272,6 +272,15 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [Mr-xn/CVE-2022-21371](https://github.com/Mr-xn/CVE-2022-21371)
 
+### CVE-2022-21449 (2022-04-19)
+
+<code>
+Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u331, 8u321, 11.0.14, 17.0.2, 18; Oracle GraalVM Enterprise Edition: 20.3.5, 21.3.1 and 22.0.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 7.5 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).
+</code>
+
+- [jfrog/jfrog-CVE-2022-21449](https://github.com/jfrog/jfrog-CVE-2022-21449)
+- [jmiettinen/CVE-2022-21449-vuln-test](https://github.com/jmiettinen/CVE-2022-21449-vuln-test)
+
 ### CVE-2022-21658 (2022-01-20)
 
 <code>
@@ -853,7 +862,12 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 
 - [gerr-re/cve-2022-24644](https://github.com/gerr-re/cve-2022-24644)
 
-### CVE-2022-24675
+### CVE-2022-24675 (2022-04-20)
+
+<code>
+encoding/pem in Go before 1.17.9 and 1.8.x before 1.8.1 has a Decode stack overflow via a large amount of PEM data.
+</code>
+
 - [jfrog/jfrog-CVE-2022-24675](https://github.com/jfrog/jfrog-CVE-2022-24675)
 
 ### CVE-2022-24693 (2022-03-29)
@@ -1310,6 +1324,14 @@ In sdp_copy_raw_data of sdp_discovery.cc, there is a possible system compromise 
 
 - [Satheesh575555/System_bt_AOSP10-r33_CVE-2021-0397](https://github.com/Satheesh575555/System_bt_AOSP10-r33_CVE-2021-0397)
 
+### CVE-2021-0433 (2021-04-13)
+
+<code>
+In onCreate of DeviceChooserActivity.java, there is a possible way to bypass user consent when pairing a Bluetooth device due to a tapjacking/overlay attack. This could lead to local escalation of privilege and pairing malicious devices with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11Android ID: A-171221090
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2021-0433](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2021-0433)
+
 ### CVE-2021-0472 (2021-06-11)
 
 <code>
@@ -1317,6 +1339,14 @@ In shouldLockKeyguard of LockTaskController.java, there is a possible way to exi
 </code>
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0472](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0472)
+
+### CVE-2021-0475 (2021-06-11)
+
+<code>
+In on_l2cap_data_ind of btif_sock_l2cap.cc, there is possible memory corruption due to a use after free. This could lead to remote code execution over Bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-10Android ID: A-175686168
+</code>
+
+- [ShaikUsaf/system_bt_AOSP10_r33_CVE-2021-0475](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2021-0475)
 
 ### CVE-2021-0476 (2021-06-11)
 
@@ -2402,7 +2432,6 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 Applications using both `spring-cloud-netflix-hystrix-dashboard` and `spring-boot-starter-thymeleaf` expose a way to execute code submitted within the request URI path during the resolution of view templates. When a request is made at `/hystrix/monitor;[user-provided data]`, the path elements following `hystrix/monitor` are being evaluated as SpringEL expressions, which can lead to code execution.
 </code>
 
-- [SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053](https://github.com/SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053)
 - [Vulnmachines/CVE-2021-22053](https://github.com/Vulnmachines/CVE-2021-22053)
 
 ### CVE-2021-22192 (2021-03-24)
@@ -3782,15 +3811,6 @@ Windows Elevation of Privilege Vulnerability
 </code>
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
-
-### CVE-2021-37580 (2021-11-16)
-
-<code>
-A flaw was found in Apache ShenYu Admin. The incorrect use of JWT in ShenyuAdminBootstrap allows an attacker to bypass authentication. This issue affected Apache ShenYu 2.3.0 and 2.4.0
-</code>
-
-- [Liang2580/CVE-2021-37580](https://github.com/Liang2580/CVE-2021-37580)
-- [Wing-song/CVE-2021-37580](https://github.com/Wing-song/CVE-2021-37580)
 
 ### CVE-2021-37624 (2021-10-25)
 
@@ -5579,6 +5599,14 @@ In gatt_process_read_by_type_rsp of gatt_cl.cc, there is a possible out of bound
 </code>
 
 - [Satheesh575555/system_bt_AOSP10_r33_CVE-2020-0377](https://github.com/Satheesh575555/system_bt_AOSP10_r33_CVE-2020-0377)
+
+### CVE-2020-0380 (2020-09-17)
+
+<code>
+In allocExcessBits of bitalloc.c, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-146398979
+</code>
+
+- [ShaikUsaf/system_bt_AOSP10_r33_CVE-2020-0380](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2020-0380)
 
 ### CVE-2020-0391 (2020-09-17)
 
@@ -17860,6 +17888,7 @@ Microsoft Office 2007 SP3, Microsoft Office 2010 SP2, Microsoft Office 2013 SP1,
 - [jacobsoo/RTF-Cleaner](https://github.com/jacobsoo/RTF-Cleaner)
 - [likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199)
 - [stealth-ronin/CVE-2017-0199-PY-KIT](https://github.com/stealth-ronin/CVE-2017-0199-PY-KIT)
+- [Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199)
 
 ### CVE-2017-0204 (2017-04-12)
 
@@ -19161,6 +19190,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [rodnt/laravel-phpunit-rce-masscaner](https://github.com/rodnt/laravel-phpunit-rce-masscaner)
 - [akr3ch/CVE-2017-9841](https://github.com/akr3ch/CVE-2017-9841)
 - [0zvxr/CVE-2017-9841](https://github.com/0zvxr/CVE-2017-9841)
+- [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
