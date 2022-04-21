@@ -284,12 +284,13 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 ### CVE-2022-21449 (2022-04-19)
 
 <code>
-Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 7u331, 8u321, 11.0.14, 17.0.2, 18; Oracle GraalVM Enterprise Edition: 20.3.5, 21.3.1 and 22.0.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 7.5 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).
+Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries). Supported versions that are affected are Oracle Java SE: 17.0.2 and 18; Oracle GraalVM Enterprise Edition: 21.3.1 and 22.0.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 7.5 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).
 </code>
 
 - [jfrog/jfrog-CVE-2022-21449](https://github.com/jfrog/jfrog-CVE-2022-21449)
 - [jmiettinen/CVE-2022-21449-vuln-test](https://github.com/jmiettinen/CVE-2022-21449-vuln-test)
 - [khalednassar/CVE-2022-21449-TLS-PoC](https://github.com/khalednassar/CVE-2022-21449-TLS-PoC)
+- [marschall/psychic-signatures](https://github.com/marschall/psychic-signatures)
 
 ### CVE-2022-21658 (2022-01-20)
 
@@ -865,6 +866,22 @@ Windows Kernel Information Disclosure Vulnerability.
 
 - [waleedassar/CVE-2022-24483](https://github.com/waleedassar/CVE-2022-24483)
 
+### CVE-2022-24491 (2022-04-15)
+
+<code>
+Windows Network File System Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24497.
+</code>
+
+- [corelight/CVE-2022-24491](https://github.com/corelight/CVE-2022-24491)
+
+### CVE-2022-24497 (2022-04-15)
+
+<code>
+Windows Network File System Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24491.
+</code>
+
+- [corelight/CVE-2022-24497](https://github.com/corelight/CVE-2022-24497)
+
 ### CVE-2022-24644 (2022-03-07)
 
 <code>
@@ -1150,17 +1167,8 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 </code>
 
 - [sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy](https://github.com/sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy)
-- [mr-r3b00t/cve-2022-26809](https://github.com/mr-r3b00t/cve-2022-26809)
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
-- [genieyou/CVE-2022-26809-RCE](https://github.com/genieyou/CVE-2022-26809-RCE)
-- [XmasSnow/CVE-2022-26809-RCE](https://github.com/XmasSnow/CVE-2022-26809-RCE)
-- [F1uk369/CVE-2022-26809](https://github.com/F1uk369/CVE-2022-26809)
-- [HellKnightsCrew/CVE-2022-26809](https://github.com/HellKnightsCrew/CVE-2022-26809)
-- [hemazoher/CVE-2022-26809-RCE](https://github.com/hemazoher/CVE-2022-26809-RCE)
-- [BugHunter010/CVE-2022-26809](https://github.com/BugHunter010/CVE-2022-26809)
-- [XmasSnow1/cve-2022-26809](https://github.com/XmasSnow1/cve-2022-26809)
-- [XHSecurity/CVE-2022-26809](https://github.com/XHSecurity/CVE-2022-26809)
 - [DESC0N0C1D0/CVE-2022-26809-RCE](https://github.com/DESC0N0C1D0/CVE-2022-26809-RCE)
 
 ### CVE-2022-27226 (2022-03-18)
@@ -1235,6 +1243,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 
 - [hakivvi/CVE-2022-29464](https://github.com/hakivvi/CVE-2022-29464)
 - [tufanturhan/wso2-rce-cve-2022-29464](https://github.com/tufanturhan/wso2-rce-cve-2022-29464)
+- [mr-r3bot/WSO2-CVE-2022-29464](https://github.com/mr-r3bot/WSO2-CVE-2022-29464)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -3899,14 +3908,6 @@ Windows Elevation of Privilege Vulnerability
 </code>
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
-
-### CVE-2021-36981 (2021-08-30)
-
-<code>
-In the server in SerNet verinice before 1.22.2, insecure Java deserialization allows remote authenticated attackers to execute arbitrary code.
-</code>
-
-- [0xBrAinsTorM/CVE-2021-36981](https://github.com/0xBrAinsTorM/CVE-2021-36981)
 
 ### CVE-2021-37624 (2021-10-25)
 
@@ -14114,7 +14115,7 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 TeamViewer Desktop through 14.7.1965 allows a bypass of remote-login access control because the same key is used for different customers' installations. It used a shared AES key for all installations since at least as far back as v7.0.43148, and used it for at least OptionsPasswordAES in the current version of the product. If an attacker were to know this key, they could decrypt protect information stored in the registry or configuration files of TeamViewer. With versions before v9.x , this allowed for attackers to decrypt the Unattended Access password to the system (which allows for remote login to the system as well as headless file browsing). The latest version still uses the same key for OptionPasswordAES but appears to have changed how the Unattended Access password is stored. While in most cases an attacker requires an existing session on a system, if the registry/configuration keys were stored off of the machine (such as in a file share or online), an attacker could then decrypt the required password to login to the system.
 </code>
 
-- [ReverseBrain/CVE-2019-18988](https://github.com/ReverseBrain/CVE-2019-18988)
+- [reversebrain/CVE-2019-18988](https://github.com/reversebrain/CVE-2019-18988)
 - [mr-r3b00t/CVE-2019-18988](https://github.com/mr-r3b00t/CVE-2019-18988)
 
 ### CVE-2019-19012 (2019-11-16)
@@ -16623,7 +16624,7 @@ Archive.java in Junrar before 1.0.1, as used in Apache Tika and other products, 
 LTB (aka LDAP Tool Box) Self Service Password before 1.3 allows a change to a user password (without knowing the old password) via a crafted POST request, because the ldap_bind return value is mishandled and the PHP data type is not constrained to be a string.
 </code>
 
-- [ReverseBrain/CVE-2018-12421](https://github.com/ReverseBrain/CVE-2018-12421)
+- [reversebrain/CVE-2018-12421](https://github.com/reversebrain/CVE-2018-12421)
 
 ### CVE-2018-12463 (2018-07-12)
 
