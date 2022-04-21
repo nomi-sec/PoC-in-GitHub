@@ -96,6 +96,7 @@ The BN_mod_sqrt() function, which computes a modular square root, contains a bug
 - [drago-96/CVE-2022-0778](https://github.com/drago-96/CVE-2022-0778)
 - [yywing/cve-2022-0778](https://github.com/yywing/cve-2022-0778)
 - [jkakavas/CVE-2022-0778-POC](https://github.com/jkakavas/CVE-2022-0778-POC)
+- [0xUhaw/CVE-2022-0778](https://github.com/0xUhaw/CVE-2022-0778)
 
 ### CVE-2022-0811 (2022-03-16)
 
@@ -5742,6 +5743,14 @@ In updateNotification of BeamTransferManager.java, there is a possible permissio
 - [nanopathi/Packages_apps_Nfc_CVE-2020-0453](https://github.com/nanopathi/Packages_apps_Nfc_CVE-2020-0453)
 - [Trinadh465/Nfc-CVE-2020-0453](https://github.com/Trinadh465/Nfc-CVE-2020-0453)
 
+### CVE-2020-0458 (2020-12-14)
+
+<code>
+In SPDIFEncoder::writeBurstBufferBytes and related methods of SPDIFEncoder.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-8.0 Android-8.1Android ID: A-160265164
+</code>
+
+- [nanopathi/system_media_AOSP10_r33_CVE-2020-0458](https://github.com/nanopathi/system_media_AOSP10_r33_CVE-2020-0458)
+
 ### CVE-2020-0463 (2020-12-14)
 
 <code>
@@ -10281,14 +10290,6 @@ A remote code execution vulnerability in the installUpdateThemePluginAction func
 </code>
 
 - [ybdegit2020/wonderplugin](https://github.com/ybdegit2020/wonderplugin)
-
-### CVE-2020-35476 (2020-12-16)
-
-<code>
-A remote code execution vulnerability occurs in OpenTSDB through 2.4.0 via command injection in the yrange parameter. The yrange value is written to a gnuplot file in the /tmp directory. This file is then executed via the mygnuplot.sh shell script. (tsd/GraphHandler.java attempted to prevent command injections by blocking backticks but this is insufficient.)
-</code>
-
-- [glowbase/CVE-2020-35476](https://github.com/glowbase/CVE-2020-35476)
 
 ### CVE-2020-35488 (2021-01-05)
 
