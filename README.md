@@ -280,6 +280,7 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 
 - [jfrog/jfrog-CVE-2022-21449](https://github.com/jfrog/jfrog-CVE-2022-21449)
 - [jmiettinen/CVE-2022-21449-vuln-test](https://github.com/jmiettinen/CVE-2022-21449-vuln-test)
+- [khalednassar/CVE-2022-21449-TLS-PoC](https://github.com/khalednassar/CVE-2022-21449-TLS-PoC)
 
 ### CVE-2022-21658 (2022-01-20)
 
@@ -1150,6 +1151,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [BugHunter010/CVE-2022-26809](https://github.com/BugHunter010/CVE-2022-26809)
 - [XmasSnow1/cve-2022-26809](https://github.com/XmasSnow1/cve-2022-26809)
 - [XHSecurity/CVE-2022-26809](https://github.com/XHSecurity/CVE-2022-26809)
+- [DESC0N0C1D0/CVE-2022-26809-RCE](https://github.com/DESC0N0C1D0/CVE-2022-26809-RCE)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1214,6 +1216,14 @@ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attac
 - [kagancapar/CVE-2022-29072](https://github.com/kagancapar/CVE-2022-29072)
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 - [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
+
+### CVE-2022-29464 (2022-04-18)
+
+<code>
+Certain WSO2 products allow unrestricted file upload with resultant remote code execution. This affects WSO2 API Manager 2.2.0 and above through 4.0.0; WSO2 Identity Server 5.2.0 and above through 5.11.0; WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0, and 5.6.0; WSO2 Identity Server as Key Manager 5.3.0 and above through 5.10.0; and WSO2 Enterprise Integrator 6.2.0 and above through 6.6.0.
+</code>
+
+- [hakivvi/CVE-2022-29464](https://github.com/hakivvi/CVE-2022-29464)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -3843,7 +3853,12 @@ FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformati
 
 - [0xInfection/PewSWITCH](https://github.com/0xInfection/PewSWITCH)
 
-### CVE-2021-37740
+### CVE-2021-37740 (2022-04-20)
+
+<code>
+A denial of service vulnerability exists in MDT's firmware for the KNXnet/IP Secure router SCN-IP100.03 and KNX IP interface SCN-IP000.03 before v3.0.4, that allows a remote attacker to turn the device unresponsive to all requests on the KNXnet/IP Secure layer, until the device is rebooted, via a SESSION_REQUEST frame with a modified total length field.
+</code>
+
 - [robertguetzkow/CVE-2021-37740](https://github.com/robertguetzkow/CVE-2021-37740)
 
 ### CVE-2021-37832 (2021-08-03)
@@ -10406,6 +10421,7 @@ ASUS RT-AX86U router firmware below version under 9.0.0.4_386 has a buffer overf
 </code>
 
 - [tin-z/CVE-2020-36109-POC](https://github.com/tin-z/CVE-2020-36109-POC)
+- [sunn1day/CVE-2020-36109-POC](https://github.com/sunn1day/CVE-2020-36109-POC)
 
 ### CVE-2020-36179 (2021-01-06)
 
@@ -16793,6 +16809,7 @@ System command injection in appGet.cgi on ASUS RT-AC3200 version 3.0.0.4.382.500
 </code>
 
 - [tin-z/CVE-2018-14714-POC](https://github.com/tin-z/CVE-2018-14714-POC)
+- [sunn1day/CVE-2018-14714-POC](https://github.com/sunn1day/CVE-2018-14714-POC)
 
 ### CVE-2018-14729 (2019-05-22)
 
