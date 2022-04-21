@@ -32,6 +32,14 @@ The WP Import Export WordPress plugin (both free and premium versions) is vulner
 - [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
 - [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
+### CVE-2022-0265 (2022-03-03)
+
+<code>
+Improper Restriction of XML External Entity Reference in GitHub repository hazelcast/hazelcast in 5.1-BETA-1.
+</code>
+
+- [achuna33/CVE-2022-0265](https://github.com/achuna33/CVE-2022-0265)
+
 ### CVE-2022-0332 (2022-01-25)
 
 <code>
@@ -113,7 +121,7 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 </code>
 
 - [faisalfs10x/Webmin-CVE-2022-0824-revshell](https://github.com/faisalfs10x/Webmin-CVE-2022-0824-revshell)
-- [cryst4lliz3/CVE-2022-0824](https://github.com/cryst4lliz3/CVE-2022-0824)
+- [honypot/CVE-2022-0824](https://github.com/honypot/CVE-2022-0824)
 
 ### CVE-2022-0847 (2022-03-07)
 
@@ -652,6 +660,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Loneyers/Spring4Shell](https://github.com/Loneyers/Spring4Shell)
 - [0zvxr/CVE-2022-22965](https://github.com/0zvxr/CVE-2022-22965)
 - [Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-](https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-)
+- [c4mx/CVE-2022-22965_PoC](https://github.com/c4mx/CVE-2022-22965_PoC)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -1225,6 +1234,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 </code>
 
 - [hakivvi/CVE-2022-29464](https://github.com/hakivvi/CVE-2022-29464)
+- [tufanturhan/wso2-rce-cve-2022-29464](https://github.com/tufanturhan/wso2-rce-cve-2022-29464)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -1335,6 +1345,15 @@ In sdp_copy_raw_data of sdp_discovery.cc, there is a possible system compromise 
 
 - [Satheesh575555/System_bt_AOSP10-r33_CVE-2021-0397](https://github.com/Satheesh575555/System_bt_AOSP10-r33_CVE-2021-0397)
 
+### CVE-2021-0431 (2021-04-13)
+
+<code>
+In avrc_msg_cback of avrc_api.cc, there is a possible out of bounds read due to a missing bounds check. This could lead to remote information disclosure to a paired device with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-174149901
+</code>
+
+- [ShaikUsaf/system_bt_AOSP10_r33_CVE-2021-0431](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2021-0431)
+- [nanopathi/system_bt_AOSP10_r33_CVE-2021-0431](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0431)
+
 ### CVE-2021-0433 (2021-04-13)
 
 <code>
@@ -1343,6 +1362,23 @@ In onCreate of DeviceChooserActivity.java, there is a possible way to bypass use
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2021-0433](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2021-0433)
 
+### CVE-2021-0435 (2021-04-13)
+
+<code>
+In avrc_proc_vendor_command of avrc_api.cc, there is a possible leak of heap data due to uninitialized data. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-174150451
+</code>
+
+- [nanopathi/system_bt_AOSP10_r33_CVE-2021-0435](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0435)
+- [ShaikUsaf/system_bt_AOSP10_r33_CVE-2021-0435](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2021-0435)
+
+### CVE-2021-0437 (2021-04-13)
+
+<code>
+In setPlayPolicy of DrmPlugin.cpp, there is a possible double free. This could lead to local escalation of privilege in a privileged process with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-176168330
+</code>
+
+- [nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0437](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0437)
+
 ### CVE-2021-0472 (2021-06-11)
 
 <code>
@@ -1350,6 +1386,15 @@ In shouldLockKeyguard of LockTaskController.java, there is a possible way to exi
 </code>
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0472](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0472)
+
+### CVE-2021-0474 (2021-06-11)
+
+<code>
+In avrc_msg_cback of avrc_api.cc, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-177611958
+</code>
+
+- [pazhanivel07/system_bt_A10-r33_CVE-2021-0474](https://github.com/pazhanivel07/system_bt_A10-r33_CVE-2021-0474)
+- [pazhanivel07/system_bt_A10_r33_CVE-2021-0474](https://github.com/pazhanivel07/system_bt_A10_r33_CVE-2021-0474)
 
 ### CVE-2021-0475 (2021-06-11)
 
@@ -1390,6 +1435,22 @@ In handle_rc_metamsg_cmd of btif_rc.cc, there is a possible out of bounds write 
 </code>
 
 - [nanopathi/system_bt_AOSP10_r33_CVE-2021-0507](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0507)
+
+### CVE-2021-0508 (2021-06-21)
+
+<code>
+In various functions of DrmPlugin.cpp, there is a possible use after free due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11Android ID: A-176444154
+</code>
+
+- [nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0508](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0508)
+
+### CVE-2021-0509 (2021-06-21)
+
+<code>
+In various functions of CryptoPlugin.cpp, there is a possible use after free due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11 Android-8.1Android ID: A-176444161
+</code>
+
+- [Trinadh465/frameworks_av_AOSP10_r33_CVE-2021-0509](https://github.com/Trinadh465/frameworks_av_AOSP10_r33_CVE-2021-0509)
 
 ### CVE-2021-0510 (2021-06-21)
 
@@ -1439,6 +1500,14 @@ In onCreate of DeviceAdminAdd.java, there is a possible way to mislead a user to
 </code>
 
 - [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2021-0600](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2021-0600)
+
+### CVE-2021-0640 (2021-08-17)
+
+<code>
+In noteAtomLogged of StatsdStats.cpp, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-9Android ID: A-187957589
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2021-0640](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2021-0640)
 
 ### CVE-2021-0652 (2021-10-22)
 
@@ -1945,6 +2014,9 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 ### CVE-2021-3864
 - [walac/cve-2021-3864](https://github.com/walac/cve-2021-3864)
 
+### CVE-2021-3972
+- [killvxk/CVE-2021-3972](https://github.com/killvxk/CVE-2021-3972)
+
 ### CVE-2021-4034 (2022-01-28)
 
 <code>
@@ -2445,14 +2517,6 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [timb-machine-mirrors/CVE-2021-22005](https://github.com/timb-machine-mirrors/CVE-2021-22005)
 - [chaosec2021/CVE-2021-22005poc](https://github.com/chaosec2021/CVE-2021-22005poc)
 
-### CVE-2021-22053 (2021-11-19)
-
-<code>
-Applications using both `spring-cloud-netflix-hystrix-dashboard` and `spring-boot-starter-thymeleaf` expose a way to execute code submitted within the request URI path during the resolution of view templates. When a request is made at `/hystrix/monitor;[user-provided data]`, the path elements following `hystrix/monitor` are being evaluated as SpringEL expressions, which can lead to code execution.
-</code>
-
-- [Vulnmachines/CVE-2021-22053](https://github.com/Vulnmachines/CVE-2021-22053)
-
 ### CVE-2021-22192 (2021-03-24)
 
 <code>
@@ -2498,7 +2562,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [DIVD-NL/GitLab-cve-2021-22205-nse](https://github.com/DIVD-NL/GitLab-cve-2021-22205-nse)
 - [gardenWhy/Gitlab-CVE-2021-22205](https://github.com/gardenWhy/Gitlab-CVE-2021-22205)
 - [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
-- [cryst4lliz3/CVE-2021-22205](https://github.com/cryst4lliz3/CVE-2021-22205)
+- [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
 
 ### CVE-2021-22210 (2021-05-06)
@@ -3716,7 +3780,6 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-31196, CVE-2021-31206.
 </code>
 
-- [je6k/CVE-2021-34473-Exchange-ProxyShell](https://github.com/je6k/CVE-2021-34473-Exchange-ProxyShell)
 - [jrgdiaz/ProxyShell-CVE-2021-34473](https://github.com/jrgdiaz/ProxyShell-CVE-2021-34473)
 
 ### CVE-2021-34527 (2021-07-02)
@@ -3793,7 +3856,6 @@ Vulnerability in the Oracle Transportation Management product of Oracle Supply C
 A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation, attacker can exploit the vulnerability to launch a command injection attack by sending some messages with malicious commands.
 </code>
 
-- [rabbitsafe/CVE-2021-36260](https://github.com/rabbitsafe/CVE-2021-36260)
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 
 ### CVE-2021-36563 (2021-07-26)
@@ -3952,14 +4014,6 @@ Acrobat Reader DC versions 2021.005.20060 (and earlier), 2020.004.30006 (and ear
 
 - [lsw29475/CVE-2021-39863](https://github.com/lsw29475/CVE-2021-39863)
 
-### CVE-2021-40154 (2021-12-01)
-
-<code>
-NXP LPC55S69 devices before A3 have a buffer over-read via a crafted wlength value in a GET Descriptor Configuration request during use of USB In-System Programming (ISP) mode. This discloses protected flash memory.
-</code>
-
-- [Xen1thLabs-AE/CVE-2021-40154](https://github.com/Xen1thLabs-AE/CVE-2021-40154)
-
 ### CVE-2021-40345 (2021-10-26)
 
 <code>
@@ -4001,7 +4055,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
-- [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
 - [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
 - [MRacumen/CVE-2021-40444](https://github.com/MRacumen/CVE-2021-40444)
@@ -4014,14 +4067,6 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
-
-### CVE-2021-40531 (2021-09-06)
-
-<code>
-Sketch before 75 allows library feeds to be used to bypass file quarantine. Files are automatically downloaded and opened, without the com.apple.quarantine extended attribute. This results in remote code execution, as demonstrated by CommandString in a terminal profile to Terminal.app.
-</code>
-
-- [jonpalmisc/CVE-2021-40531](https://github.com/jonpalmisc/CVE-2021-40531)
 
 ### CVE-2021-40839 (2021-09-09)
 
@@ -4120,8 +4165,6 @@ Metabase is an open source data analytics platform. In affected versions a secur
 </code>
 
 - [tahtaciburak/CVE-2021-41277](https://github.com/tahtaciburak/CVE-2021-41277)
-- [kap1ush0n/CVE-2021-41277](https://github.com/kap1ush0n/CVE-2021-41277)
-- [z3n70/CVE-2021-41277](https://github.com/z3n70/CVE-2021-41277)
 - [kaizensecurity/CVE-2021-41277](https://github.com/kaizensecurity/CVE-2021-41277)
 - [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [TheLastVvV/CVE-2021-41277](https://github.com/TheLastVvV/CVE-2021-41277)
@@ -4190,7 +4233,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mauricelambert/CVE-2021-41773](https://github.com/mauricelambert/CVE-2021-41773)
 - [the29a/CVE-2021-41773](https://github.com/the29a/CVE-2021-41773)
 - [thehackersbrain/CVE-2021-41773](https://github.com/thehackersbrain/CVE-2021-41773)
-- [cryst4lliz3/CVE-2021-41773](https://github.com/cryst4lliz3/CVE-2021-41773)
+- [honypot/CVE-2021-41773](https://github.com/honypot/CVE-2021-41773)
 - [Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773)
 - [N3w-elf/CVE-2021-41773-](https://github.com/N3w-elf/CVE-2021-41773-)
 - [puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773)
@@ -4236,7 +4279,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [jas9reet/CVE-2021-42013-LAB](https://github.com/jas9reet/CVE-2021-42013-LAB)
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 - [mauricelambert/CVE-2021-42013](https://github.com/mauricelambert/CVE-2021-42013)
-- [cryst4lliz3/CVE-2021-42013](https://github.com/cryst4lliz3/CVE-2021-42013)
+- [honypot/CVE-2021-42013](https://github.com/honypot/CVE-2021-42013)
 - [Adash7/CVE-2021-42013](https://github.com/Adash7/CVE-2021-42013)
 
 ### CVE-2021-42171 (2022-03-14)
@@ -4291,7 +4334,6 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
-- [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
 - [timb-machine-mirrors/CVE-2021-42321_poc](https://github.com/timb-machine-mirrors/CVE-2021-42321_poc)
 
 ### CVE-2021-42325 (2021-10-12)
@@ -4510,22 +4552,6 @@ A Universal XSS vulnerability was present in Firefox for Android resulting from 
 </code>
 
 - [hfh86/CVE-2021-43530-UXSS-On-QRcode-Reader-](https://github.com/hfh86/CVE-2021-43530-UXSS-On-QRcode-Reader-)
-
-### CVE-2021-43557 (2021-11-22)
-
-<code>
-The uri-block plugin in Apache APISIX before 2.10.2 uses $request_uri without verification. The $request_uri is the full original request URI without normalization. This makes it possible to construct a URI to bypass the block list on some occasions. For instance, when the block list contains &quot;^/internal/&quot;, a URI like `//internal/` can be used to bypass it. Some other plugins also have the same issue. And it may affect the developer's custom plugin.
-</code>
-
-- [xvnpw/k8s-CVE-2021-43557-poc](https://github.com/xvnpw/k8s-CVE-2021-43557-poc)
-
-### CVE-2021-43617 (2021-11-14)
-
-<code>
-Laravel Framework through 8.70.2 does not sufficiently block the upload of executable PHP content because Illuminate/Validation/Concerns/ValidatesAttributes.php lacks a check for .phar files, which are handled as application/x-httpd-php on systems based on Debian. NOTE: this CVE Record is for Laravel Framework, and is unrelated to any reports concerning incorrectly written user applications for image upload.
-</code>
-
-- [kombat1/CVE-2021-43617](https://github.com/kombat1/CVE-2021-43617)
 
 ### CVE-2021-43778 (2021-11-24)
 
@@ -5070,8 +5096,8 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [MiguelM001/vulescanjndilookup](https://github.com/MiguelM001/vulescanjndilookup)
 - [Jun-5heng/CVE-2021-44228](https://github.com/Jun-5heng/CVE-2021-44228)
 - [micha3lcve/LOG4J-mass-rce-CVE-2021-44228](https://github.com/micha3lcve/LOG4J-mass-rce-CVE-2021-44228)
-- [cryst4lliz3/CVE-2021-44228](https://github.com/cryst4lliz3/CVE-2021-44228)
-- [cryst4lliz3/CVE-2021-44228-vuln-app](https://github.com/cryst4lliz3/CVE-2021-44228-vuln-app)
+- [honypot/CVE-2021-44228](https://github.com/honypot/CVE-2021-44228)
+- [honypot/CVE-2021-44228-vuln-app](https://github.com/honypot/CVE-2021-44228-vuln-app)
 - [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
 - [ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j](https://github.com/ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j)
 
@@ -5562,13 +5588,13 @@ In get_element_attr_rsp of btif_rc.cc, there is a possible out of bounds write d
 
 - [Satheesh575555/system_bt_AOSP10_r33-CVE-2020-0138](https://github.com/Satheesh575555/system_bt_AOSP10_r33-CVE-2020-0138)
 
-### CVE-2020-0176 (2020-06-11)
+### CVE-2020-0160 (2020-06-11)
 
 <code>
-In avdt_msg_prs_rej of avdt_msg.cc, there is a possible out-of-bounds read due to improper input validation. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-79702484
+In setSyncSampleParams of SampleTable.cpp, there is possible resource exhaustion due to a missing bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-124771364
 </code>
 
-- [pazhanivel07/system_bt_A10-r33_CVE-2020-0176](https://github.com/pazhanivel07/system_bt_A10-r33_CVE-2020-0176)
+- [nanopathi/frameworks_av_AOSP10_r33_CVE-2020-0160](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2020-0160)
 
 ### CVE-2020-0188 (2020-06-11)
 
@@ -5684,6 +5710,14 @@ In setInstallerPackageName of PackageManagerService.java, there is a missing per
 </code>
 
 - [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0401](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2020-0401)
+
+### CVE-2020-0409 (2020-11-10)
+
+<code>
+In create of FileMap.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-8.0 Android-8.1 Android-9Android ID: A-156997193
+</code>
+
+- [nanopathi/system_core_AOSP10_r33_CVE-2020-0409](https://github.com/nanopathi/system_core_AOSP10_r33_CVE-2020-0409)
 
 ### CVE-2020-0413 (2020-10-14)
 
@@ -12688,7 +12722,7 @@ A heap buffer overflow bug in libpl_droidsonroids_gif before 1.2.19, as used in 
 A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x before 2.9.9. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint, the service has the mysql-connector-java jar (8.0.14 or earlier) in the classpath, and an attacker can host a crafted MySQL server reachable by the victim, an attacker can send a crafted JSON message that allows them to read arbitrary local files on the server. This occurs because of missing com.mysql.cj.jdbc.admin.MiniAdmin validation.
 </code>
 
-- [codeplutos/CVE-2019-12086-jackson-databind-file-read](https://github.com/codeplutos/CVE-2019-12086-jackson-databind-file-read)
+- [SimoLin/CVE-2019-12086-jackson-databind-file-read](https://github.com/SimoLin/CVE-2019-12086-jackson-databind-file-read)
 - [Al1ex/CVE-2019-12086](https://github.com/Al1ex/CVE-2019-12086)
 
 ### CVE-2019-12169 (2019-06-03)
@@ -21451,6 +21485,14 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 </code>
 
 - [ISSAPolska/CVE-2016-10761](https://github.com/ISSAPolska/CVE-2016-10761)
+
+### CVE-2016-10924 (2019-08-22)
+
+<code>
+The ebook-download plugin before 1.2 for WordPress has directory traversal.
+</code>
+
+- [rvizx/CVE-2016-10924](https://github.com/rvizx/CVE-2016-10924)
 
 ### CVE-2016-10956 (2019-09-16)
 
