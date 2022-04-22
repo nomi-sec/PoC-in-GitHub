@@ -1469,6 +1469,14 @@ In decrypt_1_2 of CryptoPlugin.cpp, there is a possible out of bounds write due 
 
 - [pazhanivel07/hardware_interfaces-A10_r33_CVE-2021-0510](https://github.com/pazhanivel07/hardware_interfaces-A10_r33_CVE-2021-0510)
 
+### CVE-2021-0519 (2021-08-17)
+
+<code>
+In BITSTREAM_FLUSH of ih264e_bitstream.h, there is a possible out of bounds write due to a heap buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-8.1 Android-9Android ID: A-176533109
+</code>
+
+- [nanopathi/external_libavc_AOSP10_r33_CVE-2021-0519](https://github.com/nanopathi/external_libavc_AOSP10_r33_CVE-2021-0519)
+
 ### CVE-2021-0520 (2021-06-21)
 
 <code>
@@ -3789,7 +3797,7 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-31196, CVE-2021-31206.
 </code>
 
-- [jrgdiaz/ProxyShell-CVE-2021-34473](https://github.com/jrgdiaz/ProxyShell-CVE-2021-34473)
+- [jrgdiaz/ProxyShell-CVE-2021-34473.py](https://github.com/jrgdiaz/ProxyShell-CVE-2021-34473.py)
 
 ### CVE-2021-34527 (2021-07-02)
 
@@ -4168,7 +4176,6 @@ Metabase is an open source data analytics platform. In affected versions a secur
 - [tahtaciburak/CVE-2021-41277](https://github.com/tahtaciburak/CVE-2021-41277)
 - [kaizensecurity/CVE-2021-41277](https://github.com/kaizensecurity/CVE-2021-41277)
 - [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
-- [TheLastVvV/CVE-2021-41277](https://github.com/TheLastVvV/CVE-2021-41277)
 - [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
 - [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
 - [frknktlca/Metabase_Nmap_Script](https://github.com/frknktlca/Metabase_Nmap_Script)
@@ -4484,7 +4491,7 @@ Improper Access Control in Adminer versions 1.12.0 to 4.6.2 (fixed in version 4.
 ### CVE-2021-43129 (2022-04-19)
 
 <code>
-An Access Control vulnerability exists in Desire2Learn/D2L Learning Management System (LMS) 20.21.7 via the quizzing feature, which allows a remote malicious user to disable the Disable right click control.
+A bypass exists for Desire2Learn/D2L Brightspace’s “Disable Right Click” option in the quizzing feature, which allows a quiz-taker to access print and copy functionality via the browser’s right click menu even when “Disable Right Click” is enabled on the quiz.
 </code>
 
 - [Skotizo/CVE-2021-43129](https://github.com/Skotizo/CVE-2021-43129)
