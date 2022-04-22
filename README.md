@@ -1231,7 +1231,7 @@ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attac
 ### CVE-2022-29072 (2022-04-15)
 
 <code>
-** DISPUTED ** 7-Zip through 21.07 on Windows allows privilege escalation and command execution when a file with the .7z extension is dragged to the Help&gt;Contents area. This is caused by misconfiguration of 7z.dll and a heap overflow. The command runs in a child process under the 7zFM.exe process, NOTE: multiple third parties have reported that no privilege escalation can occur.
+** DISPUTED ** 7-Zip through 21.07 on Windows allows privilege escalation and command execution when a file with the .7z extension is dragged to the Help&gt;Contents area. This is caused by misconfiguration of 7z.dll and a heap overflow. The command runs in a child process under the 7zFM.exe process. NOTE: multiple third parties have reported that no privilege escalation can occur.
 </code>
 
 - [kagancapar/CVE-2022-29072](https://github.com/kagancapar/CVE-2022-29072)
