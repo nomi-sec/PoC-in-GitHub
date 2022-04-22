@@ -1061,6 +1061,7 @@ The installer of WPS Office for Windows versions prior to v11.2.0.10258 fails to
 </code>
 
 - [HadiMed/KINGSOFT-WPS-Office-LPE](https://github.com/HadiMed/KINGSOFT-WPS-Office-LPE)
+- [webraybtl/CVE-2022-25943](https://github.com/webraybtl/CVE-2022-25943)
 
 ### CVE-2022-25949 (2022-03-17)
 
@@ -1166,10 +1167,12 @@ Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injectio
 Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24492, CVE-2022-24528.
 </code>
 
+- [CberryAIRDROP/CVE-2022-26809-RCE](https://github.com/CberryAIRDROP/CVE-2022-26809-RCE)
 - [sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy](https://github.com/sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy)
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
 - [DESC0N0C1D0/CVE-2022-26809-RCE](https://github.com/DESC0N0C1D0/CVE-2022-26809-RCE)
+- [jones199023/CVE-2022-26809](https://github.com/jones199023/CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -1332,6 +1335,14 @@ In onTargetSelected of ResolverActivity.java, there is a possible settings bypas
 
 - [ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0334](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0334)
 
+### CVE-2021-0336 (2021-02-10)
+
+<code>
+In onReceive of BluetoothPermissionRequest.java, there is a possible permissions bypass due to a mutable PendingIntent. This could lead to local escalation of privilege that bypasses a permission check, with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11 Android-8.1Android ID: A-158219161
+</code>
+
+- [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2021-0336](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2021-0336)
+
 ### CVE-2021-0340 (2021-02-10)
 
 <code>
@@ -1339,6 +1350,7 @@ In parseNextBox of IsoInterface.java, there is a possible leak of unredacted loc
 </code>
 
 - [Satheesh575555/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340](https://github.com/Satheesh575555/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340)
+- [nanopathi/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340](https://github.com/nanopathi/packages_providers_MediaProvider_AOSP10_r33_CVE-2021-0340)
 
 ### CVE-2021-0391 (2021-03-10)
 
@@ -1430,6 +1442,14 @@ In updateDrawable of StatusBarIconView.java, there is a possible permission bypa
 </code>
 
 - [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0478](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0478)
+
+### CVE-2021-0481 (2021-06-11)
+
+<code>
+In onActivityResult of EditUserPhotoController.java, there is a possible access of unauthorized files due to an unexpected URI handler. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11Android ID: A-172939189
+</code>
+
+- [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2021-0481](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2021-0481)
 
 ### CVE-2021-0506 (2021-06-21)
 
@@ -1543,6 +1563,14 @@ In VectorDrawable::VectorDrawable of VectorDrawable.java, there is a possible wa
 </code>
 
 - [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0652](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2021-0652)
+
+### CVE-2021-0683 (2021-10-06)
+
+<code>
+In runTraceIpcStop of ActivityManagerShellCommand.java, there is a possible deletion of system files due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-185398942
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2021-0683_CVE-2021-0708](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0683_CVE-2021-0708)
 
 ### CVE-2021-0688 (2021-10-06)
 
@@ -2726,7 +2754,6 @@ Windows TCP/IP Denial of Service Vulnerability
 </code>
 
 - [0vercl0k/CVE-2021-24086](https://github.com/0vercl0k/CVE-2021-24086)
-- [lisinan988/CVE-2021-24086-exp](https://github.com/lisinan988/CVE-2021-24086-exp)
 
 ### CVE-2021-24096 (2021-02-25)
 
@@ -3884,6 +3911,9 @@ A command injection vulnerability in the web server of some Hikvision product. D
 
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 
+### CVE-2021-36460
+- [martinfrancois/CVE-2021-36460](https://github.com/martinfrancois/CVE-2021-36460)
+
 ### CVE-2021-36563 (2021-07-26)
 
 <code>
@@ -4073,7 +4103,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
-- [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
 - [MRacumen/CVE-2021-40444](https://github.com/MRacumen/CVE-2021-40444)
 
@@ -4183,7 +4212,6 @@ Metabase is an open source data analytics platform. In affected versions a secur
 </code>
 
 - [tahtaciburak/CVE-2021-41277](https://github.com/tahtaciburak/CVE-2021-41277)
-- [kaizensecurity/CVE-2021-41277](https://github.com/kaizensecurity/CVE-2021-41277)
 - [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
 - [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
@@ -4241,7 +4269,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
-- [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
@@ -4288,7 +4315,6 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/cve-2021-42013-docker-lab](https://github.com/twseptian/cve-2021-42013-docker-lab)
-- [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
 - [awsassets/CVE-2021-42013](https://github.com/awsassets/CVE-2021-42013)
 - [asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp](https://github.com/asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp)
 - [rnsss/CVE-2021-42013](https://github.com/rnsss/CVE-2021-42013)
@@ -5628,6 +5654,15 @@ In onCreatePermissionRequest of SettingsSliceProvider.java, there is a possible 
 </code>
 
 - [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0188](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0188)
+- [ShaikUsaf/ShaikUsaf-packages_apps_settings_AOSP10_r33_CVE-2020-0188](https://github.com/ShaikUsaf/ShaikUsaf-packages_apps_settings_AOSP10_r33_CVE-2020-0188)
+
+### CVE-2020-0203 (2020-06-11)
+
+<code>
+In freeIsolatedUidLocked of ProcessList.java, there is a possible UID reuse due to improper cleanup. This could lead to local escalation of privilege between constrained processes with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-146313311
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2020-0203](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2020-0203)
 
 ### CVE-2020-0209 (2020-06-11)
 
@@ -5636,6 +5671,14 @@ In multiple functions of AccountManager.java, there is a possible permissions by
 </code>
 
 - [pazhanivel07/frameworks_base_CVE-2020-0209](https://github.com/pazhanivel07/frameworks_base_CVE-2020-0209)
+
+### CVE-2020-0218 (2020-06-11)
+
+<code>
+In loadSoundModel and related functions of SoundTriggerHwService.cpp, there is possible out of bounds write due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-136005905
+</code>
+
+- [pazhanivel07/frameworks_av-CVE-2020-0218](https://github.com/pazhanivel07/frameworks_av-CVE-2020-0218)
 
 ### CVE-2020-0219 (2020-06-11)
 
@@ -13531,6 +13574,14 @@ An issue was discovered on Broadcom Wi-Fi client devices. Specifically timed and
 - [hexway/r00kie-kr00kie](https://github.com/hexway/r00kie-kr00kie)
 - [akabe1/kr00ker](https://github.com/akabe1/kr00ker)
 - [5l1v3r1/kr00k-vulnerability](https://github.com/5l1v3r1/kr00k-vulnerability)
+
+### CVE-2019-15166 (2019-10-03)
+
+<code>
+lmp_print_data_link_subobjs() in print-lmp.c in tcpdump before 4.9.3 lacks certain bounds checks.
+</code>
+
+- [Satheesh575555/external_tcpdump_AOSP10_r33_CVE-2019-15166](https://github.com/Satheesh575555/external_tcpdump_AOSP10_r33_CVE-2019-15166)
 
 ### CVE-2019-15224 (2019-08-19)
 
