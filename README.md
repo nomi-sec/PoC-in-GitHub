@@ -1244,6 +1244,8 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [hakivvi/CVE-2022-29464](https://github.com/hakivvi/CVE-2022-29464)
 - [tufanturhan/wso2-rce-cve-2022-29464](https://github.com/tufanturhan/wso2-rce-cve-2022-29464)
 - [mr-r3bot/WSO2-CVE-2022-29464](https://github.com/mr-r3bot/WSO2-CVE-2022-29464)
+- [Lidong-io/cve-2022-29464](https://github.com/Lidong-io/cve-2022-29464)
+- [h3v0x/CVE-2022-29464](https://github.com/h3v0x/CVE-2022-29464)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -1485,6 +1487,14 @@ In several functions of MemoryFileSystem.cpp and related files, there is a possi
 
 - [nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520)
 
+### CVE-2021-0522 (2021-06-21)
+
+<code>
+In ConnectionHandler::SdpCb of connection_handler.cc, there is a possible out of bounds read due to a use after free. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-9 Android-10Android ID: A-174182139
+</code>
+
+- [nanopathi/system_bt_AOSP10_r33_CVE-2021-0522](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0522)
+
 ### CVE-2021-0589 (2021-07-14)
 
 <code>
@@ -1508,7 +1518,7 @@ In lockAllProfileTasks of RootWindowContainer.java, there is a possible way to a
 </code>
 
 - [pazhanivel07/Settings-CVE-2021-0595](https://github.com/pazhanivel07/Settings-CVE-2021-0595)
-- [pazhanivel07/frameworks_base-CVE-2021-0595](https://github.com/pazhanivel07/frameworks_base-CVE-2021-0595)
+- [pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0595](https://github.com/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0595)
 
 ### CVE-2021-0600 (2021-07-14)
 
@@ -2844,7 +2854,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [orangmuda/CVE-2021-26084](https://github.com/orangmuda/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
-- [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
 
 ### CVE-2021-26102
@@ -4231,7 +4240,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 </code>
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
-- [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
@@ -4715,6 +4723,7 @@ The Samba vfs_fruit module uses extended file attributes (EA, xattr) to provide 
 
 - [hrsman/Samba-CVE-2021-44142](https://github.com/hrsman/Samba-CVE-2021-44142)
 - [horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142)
+- [gudyrmik/CVE-2021-44142](https://github.com/gudyrmik/CVE-2021-44142)
 
 ### CVE-2021-44217 (2022-01-18)
 
@@ -5603,6 +5612,14 @@ In setSyncSampleParams of SampleTable.cpp, there is possible resource exhaustion
 </code>
 
 - [nanopathi/frameworks_av_AOSP10_r33_CVE-2020-0160](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2020-0160)
+
+### CVE-2020-0183 (2020-06-11)
+
+<code>
+In handleMessage of BluetoothManagerService, there is an incomplete reset. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-110181479
+</code>
+
+- [nanopathi/packages_apps_Bluetooth_AOSP10_r33_CVE-2020-0183](https://github.com/nanopathi/packages_apps_Bluetooth_AOSP10_r33_CVE-2020-0183)
 
 ### CVE-2020-0188 (2020-06-11)
 
