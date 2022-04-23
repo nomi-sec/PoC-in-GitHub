@@ -1249,6 +1249,8 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [mr-r3bot/WSO2-CVE-2022-29464](https://github.com/mr-r3bot/WSO2-CVE-2022-29464)
 - [Lidong-io/cve-2022-29464](https://github.com/Lidong-io/cve-2022-29464)
 - [h3v0x/CVE-2022-29464](https://github.com/h3v0x/CVE-2022-29464)
+- [gpiechnik2/nmap-CVE-2022-29464](https://github.com/gpiechnik2/nmap-CVE-2022-29464)
+- [0xAgun/CVE-2022-29464](https://github.com/0xAgun/CVE-2022-29464)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -2069,7 +2071,12 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 ### CVE-2021-3864
 - [walac/cve-2021-3864](https://github.com/walac/cve-2021-3864)
 
-### CVE-2021-3972
+### CVE-2021-3972 (2022-04-22)
+
+<code>
+A potential vulnerability by a driver used during manufacturing process on some consumer Lenovo Notebook devices' BIOS that was mistakenly not deactivated may allow an attacker with elevated privileges to modify secure boot setting by modifying an NVRAM variable.
+</code>
+
 - [killvxk/CVE-2021-3972](https://github.com/killvxk/CVE-2021-3972)
 
 ### CVE-2021-4034 (2022-01-28)
@@ -18046,6 +18053,7 @@ Microsoft Office 2007 SP3, Microsoft Office 2010 SP2, Microsoft Office 2013 SP1,
 - [likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199)
 - [stealth-ronin/CVE-2017-0199-PY-KIT](https://github.com/stealth-ronin/CVE-2017-0199-PY-KIT)
 - [Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199)
+- [BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199)
 
 ### CVE-2017-0204 (2017-04-12)
 
