@@ -292,6 +292,7 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 - [jmiettinen/CVE-2022-21449-vuln-test](https://github.com/jmiettinen/CVE-2022-21449-vuln-test)
 - [khalednassar/CVE-2022-21449-TLS-PoC](https://github.com/khalednassar/CVE-2022-21449-TLS-PoC)
 - [marschall/psychic-signatures](https://github.com/marschall/psychic-signatures)
+- [thack1/CVE-2022-21449](https://github.com/thack1/CVE-2022-21449)
 
 ### CVE-2022-21658 (2022-01-20)
 
@@ -23387,6 +23388,14 @@ active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
 - [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
 
+### CVE-2013-0212 (2013-02-24)
+
+<code>
+store/swift.py in OpenStack Glance Essex (2012.1), Folsom (2012.2) before 2012.2.3, and Grizzly, when in Swift single tenant mode, logs the Swift endpoint's user name and password in cleartext when the endpoint is misconfigured or unusable, allows remote authenticated users to obtain sensitive information by reading the error messages.
+</code>
+
+- [LogSec/CVE-2013-0212](https://github.com/LogSec/CVE-2013-0212)
+
 ### CVE-2013-0229 (2013-01-31)
 
 <code>
@@ -23485,6 +23494,14 @@ Apache Struts Showcase App 2.0.0 through 2.3.13, as used in Struts 2 before 2.3.
 </code>
 
 - [cinno/CVE-2013-1965](https://github.com/cinno/CVE-2013-1965)
+
+### CVE-2013-2006 (2013-05-21)
+
+<code>
+OpenStack Identity (Keystone) Grizzly 2013.1.1, when DEBUG mode logging is enabled, logs the (1) admin_token and (2) LDAP password in plaintext, which allows local users to obtain sensitive by reading the log file.
+</code>
+
+- [LogSec/CVE-2013-2006](https://github.com/LogSec/CVE-2013-2006)
 
 ### CVE-2013-2028 (2013-07-17)
 
