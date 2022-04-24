@@ -1258,6 +1258,14 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [gpiechnik2/nmap-CVE-2022-29464](https://github.com/gpiechnik2/nmap-CVE-2022-29464)
 - [0xAgun/CVE-2022-29464](https://github.com/0xAgun/CVE-2022-29464)
 
+### CVE-2022-29548 (2022-04-20)
+
+<code>
+A reflected XSS issue exists in the Management Console of several WSO2 products. This affects API Manager 2.2.0, 2.5.0, 2.6.0, 3.0.0, 3.1.0, 3.2.0, and 4.0.0; API Manager Analytics 2.2.0, 2.5.0, and 2.6.0; API Microgateway 2.2.0; Data Analytics Server 3.2.0; Enterprise Integrator 6.2.0, 6.3.0, 6.4.0, 6.5.0, and 6.6.0; IS as Key Manager 5.5.0, 5.6.0, 5.7.0, 5.9.0, and 5.10.0; Identity Server 5.5.0, 5.6.0, 5.7.0, 5.9.0, 5.10.0, and 5.11.0; Identity Server Analytics 5.5.0 and 5.6.0; and WSO2 Micro Integrator 1.0.0.
+</code>
+
+- [cxosmo/CVE-2022-29548](https://github.com/cxosmo/CVE-2022-29548)
+
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
 
@@ -2326,6 +2334,7 @@ A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_
 </code>
 
 - [jbaines-r7/badblood](https://github.com/jbaines-r7/badblood)
+- [ExploitPwner/CVE-2021-20038-Mass-RCE](https://github.com/ExploitPwner/CVE-2021-20038-Mass-RCE)
 
 ### CVE-2021-20717 (2021-05-10)
 
@@ -2342,7 +2351,6 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 </code>
 
 - [orangmuda/CVE-2021-20837](https://github.com/orangmuda/CVE-2021-20837)
-- [avboy1337/CVE-2021-20837](https://github.com/avboy1337/CVE-2021-20837)
 
 ### CVE-2021-21014 (2021-02-11)
 
@@ -2368,7 +2376,6 @@ Acrobat Reader DC versions 2020.013.20074 (and earlier), 2020.001.30018 (and ear
 </code>
 
 - [NattiSamson/CVE-2021-21042](https://github.com/NattiSamson/CVE-2021-21042)
-- [r1l4-i3pur1l4/CVE-2021-21042](https://github.com/r1l4-i3pur1l4/CVE-2021-21042)
 
 ### CVE-2021-21086 (2021-09-02)
 
@@ -4538,6 +4545,14 @@ An incorrect access control vulnerability exists in Sourcecodester Engineers Onl
 </code>
 
 - [0xDeku/CVE-2021-42671](https://github.com/0xDeku/CVE-2021-42671)
+
+### CVE-2021-42697 (2021-11-02)
+
+<code>
+Akka HTTP 10.1.x before 10.1.15 and 10.2.x before 10.2.7 can encounter stack exhaustion while parsing HTTP headers, which allows a remote attacker to conduct a Denial of Service attack by sending a User-Agent header with deeply nested comments.
+</code>
+
+- [cxosmo/CVE-2021-42697](https://github.com/cxosmo/CVE-2021-42697)
 
 ### CVE-2021-42835 (2021-12-08)
 
