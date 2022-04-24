@@ -2204,6 +2204,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [cd80-ctf/CVE-2021-4034](https://github.com/cd80-ctf/CVE-2021-4034)
 - [Al1ex/CVE-2021-4034](https://github.com/Al1ex/CVE-2021-4034)
 - [puckiestyle/CVE-2021-4034](https://github.com/puckiestyle/CVE-2021-4034)
+- [ashutoshrohilla/CVE-2021-4034](https://github.com/ashutoshrohilla/CVE-2021-4034)
 - [nikip72/CVE-2021-4034](https://github.com/nikip72/CVE-2021-4034)
 - [NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034)
 - [0xTRAW/CVE-2021-4034](https://github.com/0xTRAW/CVE-2021-4034)
@@ -2288,6 +2289,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [qasj/CVE-2021-4034](https://github.com/qasj/CVE-2021-4034)
 - [rhin0cer0s/CVE-2021-4034](https://github.com/rhin0cer0s/CVE-2021-4034)
 - [karaname/pkexec-exploit](https://github.com/karaname/pkexec-exploit)
+- [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -2417,14 +2419,6 @@ Use after free in Blink in Google Chrome prior to 89.0.4389.90 allowed a remote 
 </code>
 
 - [mehrzad1994/CVE-2021-21193](https://github.com/mehrzad1994/CVE-2021-21193)
-
-### CVE-2021-21224 (2021-04-26)
-
-<code>
-Type confusion in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
-</code>
-
-- [lnfernal/CVE-2021-21224](https://github.com/lnfernal/CVE-2021-21224)
 
 ### CVE-2021-21234 (2021-01-05)
 
@@ -2683,7 +2677,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
-- [DIVD-NL/GitLab-cve-2021-22205-nse](https://github.com/DIVD-NL/GitLab-cve-2021-22205-nse)
 - [gardenWhy/Gitlab-CVE-2021-22205](https://github.com/gardenWhy/Gitlab-CVE-2021-22205)
 - [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
 - [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
