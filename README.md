@@ -248,6 +248,9 @@ The Elementor Website Builder plugin for WordPress is vulnerable to unauthorized
 - [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
 - [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
 
+### CVE-2022-2333
+- [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
+
 ### CVE-2022-3000
 - [l4fu/CVE-2022-3000](https://github.com/l4fu/CVE-2022-3000)
 
@@ -1235,6 +1238,14 @@ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attac
 ### CVE-2022-28281
 - [0vercl0k/CVE-2022-28281](https://github.com/0vercl0k/CVE-2022-28281)
 
+### CVE-2022-28346 (2022-04-12)
+
+<code>
+An issue was discovered in Django 2.2 before 2.2.28, 3.2 before 3.2.13, and 4.0 before 4.0.4. QuerySet.annotate(), aggregate(), and extra() methods are subject to SQL injection in column aliases via a crafted dictionary (with dictionary expansion) as the passed **kwargs.
+</code>
+
+- [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
+
 ### CVE-2022-29072 (2022-04-15)
 
 <code>
@@ -1393,6 +1404,14 @@ In moveInMediaStore of FileSystemProvider.java, there is a possible file exposur
 </code>
 
 - [ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0337](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-0337)
+
+### CVE-2021-0339 (2021-02-10)
+
+<code>
+In loadAnimation of WindowContainer.java, there is a possible way to keep displaying a malicious app while a target app is brought to the foreground. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-8.1 Android-9Android ID: A-145728687
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2021-0339](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0339)
 
 ### CVE-2021-0340 (2021-02-10)
 
@@ -1573,6 +1592,14 @@ In ConnectionHandler::SdpCb of connection_handler.cc, there is a possible out of
 </code>
 
 - [nanopathi/system_bt_AOSP10_r33_CVE-2021-0522](https://github.com/nanopathi/system_bt_AOSP10_r33_CVE-2021-0522)
+
+### CVE-2021-0586 (2021-07-14)
+
+<code>
+In onCreate of DevicePickerFragment.java, there is a possible way to trick the user to select an unwanted bluetooth device due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-182584940
+</code>
+
+- [nanopathi/packages_apps_Settings_CVE-2021-0586](https://github.com/nanopathi/packages_apps_Settings_CVE-2021-0586)
 
 ### CVE-2021-0589 (2021-07-14)
 
@@ -3551,7 +3578,6 @@ This issue was addressed with improved checks. This issue is fixed in macOS Big 
 A memory corruption issue was addressed with improved memory handling. This issue is fixed in macOS Big Sur 11.5.1, iOS 14.7.1 and iPadOS 14.7.1, watchOS 7.6.1. An application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.
 </code>
 
-- [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
 
 ### CVE-2021-30853 (2021-08-24)
@@ -3833,7 +3859,7 @@ Squirrelly is a template engine implemented in JavaScript that works out of the 
 Gerapy is a distributed crawler management framework. Prior to version 0.9.9, an authenticated user could execute arbitrary commands. This issue is fixed in version 0.9.9. There are no known workarounds.
 </code>
 
-- [avboy1337/CVE-2021-32849](https://github.com/avboy1337/CVE-2021-32849)
+- [lowkey0808/cve-2021-32849](https://github.com/lowkey0808/cve-2021-32849)
 
 ### CVE-2021-33044 (2021-09-15)
 
@@ -4163,7 +4189,6 @@ playSMS before 1.4.5 allows Arbitrary Code Execution by entering PHP code at the
 A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier.
 </code>
 
-- [pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt)
 - [Kashkovsky/CVE-2021-40438](https://github.com/Kashkovsky/CVE-2021-40438)
 
 ### CVE-2021-40444 (2021-09-15)
@@ -5763,6 +5788,14 @@ In createWithSurfaceParent of Client.cpp, there is a possible out of bounds writ
 
 - [Trinadh465/frameworks_native_CVE-2020-0226](https://github.com/Trinadh465/frameworks_native_CVE-2020-0226)
 - [ShaikUsaf/frameworks_native_AOSP10_r33_ShaikUsaf-frameworks_native_AOSP10_r33_CVE-2020-0226](https://github.com/ShaikUsaf/frameworks_native_AOSP10_r33_ShaikUsaf-frameworks_native_AOSP10_r33_CVE-2020-0226)
+
+### CVE-2020-0227 (2020-07-17)
+
+<code>
+In onCommand of CompanionDeviceManagerService.java, there is a possible permissions bypass due to a missing permission check. This could lead to local escalation of privilege allowing background data usage or launching from the background, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-129476618
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2020-0227](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2020-0227)
 
 ### CVE-2020-0241 (2020-08-11)
 
@@ -15871,6 +15904,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [rafaelcaria/drupalgeddon2-CVE-2018-7600](https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600)
 - [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
 - [0xkasra/CVE-2018-7600](https://github.com/0xkasra/CVE-2018-7600)
+- [anldori/Drupal-CVE-2018-7600](https://github.com/anldori/Drupal-CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
