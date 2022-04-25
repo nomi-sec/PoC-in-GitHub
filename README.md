@@ -1656,6 +1656,14 @@ In createFromParcel of OutputConfiguration.java, there is a possible parcel seri
 
 - [michalbednarski/ReparcelBug2](https://github.com/michalbednarski/ReparcelBug2)
 
+### CVE-2021-0954 (2021-12-15)
+
+<code>
+In ResolverActivity, there is a possible user interaction bypass due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11Android ID: A-143559931
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2021-0954](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0954)
+
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -2677,7 +2685,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 </code>
 
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
-- [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
 - [gardenWhy/Gitlab-CVE-2021-22205](https://github.com/gardenWhy/Gitlab-CVE-2021-22205)
 - [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
@@ -3922,6 +3929,7 @@ Django 3.1.x before 3.1.13 and 3.2.x before 3.2.5 allows QuerySet.order_by SQL i
 </code>
 
 - [r4vi/CVE-2021-35042](https://github.com/r4vi/CVE-2021-35042)
+- [WynSon/CVE-2021-35042](https://github.com/WynSon/CVE-2021-35042)
 
 ### CVE-2021-35211 (2021-07-14)
 
@@ -4303,14 +4311,6 @@ Insecure permissions in the file database.sdb of BatFlat CMS v1.3.6 allows attac
 </code>
 
 - [LeoBreaker1411/CVE-2021-41652](https://github.com/LeoBreaker1411/CVE-2021-41652)
-
-### CVE-2021-41653 (2021-11-13)
-
-<code>
-The PING function on the TP-Link TL-WR840N EU v5 router with firmware through TL-WR840N(EU)_V5_171211 is vulnerable to remote code execution via a crafted payload in an IP address input field.
-</code>
-
-- [likeww/CVE-2021-41653](https://github.com/likeww/CVE-2021-41653)
 
 ### CVE-2021-41730
 - [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
@@ -25277,5 +25277,6 @@ Land IP denial of service.
 
 ### CVE-1999-0532
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
+- [Rodney-O-C-Melby/dns-zone-transfer-test](https://github.com/Rodney-O-C-Melby/dns-zone-transfer-test)
 
 
