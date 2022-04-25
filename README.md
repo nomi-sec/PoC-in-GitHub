@@ -296,6 +296,7 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 - [khalednassar/CVE-2022-21449-TLS-PoC](https://github.com/khalednassar/CVE-2022-21449-TLS-PoC)
 - [marschall/psychic-signatures](https://github.com/marschall/psychic-signatures)
 - [thack1/CVE-2022-21449](https://github.com/thack1/CVE-2022-21449)
+- [Damok82/SignChecker](https://github.com/Damok82/SignChecker)
 
 ### CVE-2022-21658 (2022-01-20)
 
@@ -1279,6 +1280,12 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 </code>
 
 - [cxosmo/CVE-2022-29548](https://github.com/cxosmo/CVE-2022-29548)
+
+### CVE-2022-29597
+- [TheGetch/CVE-2022-29597](https://github.com/TheGetch/CVE-2022-29597)
+
+### CVE-2022-29598
+- [TheGetch/CVE-2022-29598](https://github.com/TheGetch/CVE-2022-29598)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -2892,7 +2899,12 @@ The WP Visitor Statistics (Real Time Traffic) WordPress plugin before 4.8 does n
 
 - [fimtow/CVE-2021-24750](https://github.com/fimtow/CVE-2021-24750)
 
-### CVE-2021-25094
+### CVE-2021-25094 (2022-04-25)
+
+<code>
+The Tatsu WordPress plugin before 3.3.12 add_custom_font action can be used without prior authentication to upload a rogue zip file which is uncompressed under the WordPress's upload directory. By adding a PHP shell with a filename starting with a dot &quot;.&quot;, this can bypass extension control implemented in the plugin. Moreover, there is a race condition in the zip extraction process which makes the shell file live long enough on the filesystem to be callable by an attacker.
+</code>
+
 - [darkpills/CVE-2021-25094-tatsu-preauth-rce](https://github.com/darkpills/CVE-2021-25094-tatsu-preauth-rce)
 
 ### CVE-2021-25281 (2021-02-26)
@@ -4008,7 +4020,12 @@ A command injection vulnerability in the web server of some Hikvision product. D
 
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 
-### CVE-2021-36460
+### CVE-2021-36460 (2022-04-25)
+
+<code>
+VeryFitPro (com.veryfit2hr.second) 3.2.8 hashes the account's password locally on the device and uses the hash to authenticate in all communication with the backend API, including login, registration and changing of passwords. This allows an attacker in possession of a hash to takeover a user's account, rendering the benefits of storing hashed passwords in the database useless.
+</code>
+
 - [martinfrancois/CVE-2021-36460](https://github.com/martinfrancois/CVE-2021-36460)
 
 ### CVE-2021-36563 (2021-07-26)
