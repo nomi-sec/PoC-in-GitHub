@@ -553,6 +553,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Ha0Liu/CVE-2022-22947](https://github.com/Ha0Liu/CVE-2022-22947)
 - [F6JO/Burp_VulPscan](https://github.com/F6JO/Burp_VulPscan)
 - [twseptian/cve-2022-22947](https://github.com/twseptian/cve-2022-22947)
+- [whwlsfb/cve-2022-22947-godzilla-memshell](https://github.com/whwlsfb/cve-2022-22947-godzilla-memshell)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -1273,6 +1274,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [0xAgun/CVE-2022-29464](https://github.com/0xAgun/CVE-2022-29464)
 - [oppsec/WSOB](https://github.com/oppsec/WSOB)
 - [k4u5h41/CVE-2022-29464](https://github.com/k4u5h41/CVE-2022-29464)
+- [lowkey0808/cve-2022-29464](https://github.com/lowkey0808/cve-2022-29464)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -2000,7 +2002,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
-- [musergi/CVE-2021-3156](https://github.com/musergi/CVE-2021-3156)
 - [sharkmoos/Baron-Samedit](https://github.com/sharkmoos/Baron-Samedit)
 - [chenaotian/CVE-2021-3156](https://github.com/chenaotian/CVE-2021-3156)
 - [ret2basic/SudoScience](https://github.com/ret2basic/SudoScience)
@@ -2383,6 +2384,7 @@ A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_
 
 - [jbaines-r7/badblood](https://github.com/jbaines-r7/badblood)
 - [ExploitPwner/CVE-2021-20038-Mass-RCE](https://github.com/ExploitPwner/CVE-2021-20038-Mass-RCE)
+- [XmasSnowREAL/CVE-2021-20038-Mass-RCE](https://github.com/XmasSnowREAL/CVE-2021-20038-Mass-RCE)
 
 ### CVE-2021-20717 (2021-05-10)
 
@@ -3776,6 +3778,7 @@ A Cross-Site Scripting (XSS) vulnerability exists in Webmin 1.973 via the Schedu
 </code>
 
 - [Mesh3l911/CVE-2021-32157](https://github.com/Mesh3l911/CVE-2021-32157)
+- [dnr6419/CVE-2021-32157](https://github.com/dnr6419/CVE-2021-32157)
 
 ### CVE-2021-32158 (2022-04-11)
 
@@ -4479,14 +4482,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability
 
 - [timb-machine-mirrors/CVE-2021-42321_poc](https://github.com/timb-machine-mirrors/CVE-2021-42321_poc)
 
-### CVE-2021-42325 (2021-10-12)
-
-<code>
-Froxlor through 0.10.29.1 allows SQL injection in Database/Manager/DbManagerMySQL.php via a custom DB name.
-</code>
-
-- [AK-blank/CVE-2021-42325-](https://github.com/AK-blank/CVE-2021-42325-)
-
 ### CVE-2021-42342 (2021-10-14)
 
 <code>
@@ -4696,14 +4691,6 @@ A Universal XSS vulnerability was present in Firefox for Android resulting from 
 
 - [hfh86/CVE-2021-43530-UXSS-On-QRcode-Reader-](https://github.com/hfh86/CVE-2021-43530-UXSS-On-QRcode-Reader-)
 
-### CVE-2021-43778 (2021-11-24)
-
-<code>
-Barcode is a GLPI plugin for printing barcodes and QR codes. GLPI instances version 2.x prior to version 2.6.1 with the barcode plugin installed are vulnerable to a path traversal vulnerability. This issue was patched in version 2.6.1. As a workaround, delete the `front/send.php` file.
-</code>
-
-- [AK-blank/CVE-2021-43778](https://github.com/AK-blank/CVE-2021-43778)
-
 ### CVE-2021-43789 (2021-12-07)
 
 <code>
@@ -4782,6 +4769,7 @@ Gerapy is a distributed crawler management framework. Gerapy prior to version 0.
 </code>
 
 - [LongWayHomie/CVE-2021-43857](https://github.com/LongWayHomie/CVE-2021-43857)
+- [lowkey0808/CVE-2021-43857](https://github.com/lowkey0808/CVE-2021-43857)
 
 ### CVE-2021-43858 (2021-12-27)
 
