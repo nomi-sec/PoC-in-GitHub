@@ -1311,6 +1311,14 @@ In onCreate of UninstallerActivity, there is a possible way to uninstall an all 
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0314](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0314)
 
+### CVE-2021-0315 (2021-01-11)
+
+<code>
+In onCreate of GrantCredentialsPermissionActivity.java, there is a possible way to convince the user to grant an app access to an account due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation. Product: Android; Versions: Android-8.1, Android-9, Android-10, Android-11, Android-8.0; Android ID: A-169763814.
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2021-0315](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0315)
+
 ### CVE-2021-0316 (2021-01-11)
 
 <code>
@@ -2078,6 +2086,14 @@ _gcry_md_block_write in cipher/hash-common.c in Libgcrypt version 1.9.0 has a he
 
 - [MLGRadish/CVE-2021-3345](https://github.com/MLGRadish/CVE-2021-3345)
 
+### CVE-2021-3347 (2021-01-29)
+
+<code>
+An issue was discovered in the Linux kernel through 5.10.11. PI futexes have a kernel stack use-after-free during fault handling, allowing local users to execute code in the kernel, aka CID-34b1a1ce1458.
+</code>
+
+- [nanopathi/linux-4.19.72_CVE-2021-3347](https://github.com/nanopathi/linux-4.19.72_CVE-2021-3347)
+
 ### CVE-2021-3360
 - [tcbutler320/CVE-2021-3360](https://github.com/tcbutler320/CVE-2021-3360)
 
@@ -2427,14 +2443,6 @@ Acrobat Reader DC versions 2020.013.20074 (and earlier), 2020.001.30018 (and ear
 
 - [NattiSamson/CVE-2021-21042](https://github.com/NattiSamson/CVE-2021-21042)
 
-### CVE-2021-21086 (2021-09-02)
-
-<code>
-Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by an Out-of-bounds Write vulnerability in the CoolType library. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
-</code>
-
-- [infobyte/Exploit-CVE-2021-21086](https://github.com/infobyte/Exploit-CVE-2021-21086)
-
 ### CVE-2021-21110 (2021-01-08)
 
 <code>
@@ -2641,14 +2649,6 @@ VMware View Planner 4.x prior to 4.6 Security Patch 1 contains a remote code exe
 - [GreyOrder/CVE-2021-21978](https://github.com/GreyOrder/CVE-2021-21978)
 - [me1ons/CVE-2021-21978](https://github.com/me1ons/CVE-2021-21978)
 - [skytina/CVE-2021-21978](https://github.com/skytina/CVE-2021-21978)
-
-### CVE-2021-21980 (2021-11-24)
-
-<code>
-The vSphere Web Client (FLEX/Flash) contains an unauthorized arbitrary file read vulnerability. A malicious actor with network access to port 443 on vCenter Server may exploit this issue to gain access to sensitive information.
-</code>
-
-- [Osyanina/westone-CVE-2021-21980-scanner](https://github.com/Osyanina/westone-CVE-2021-21980-scanner)
 
 ### CVE-2021-21983 (2021-03-31)
 
@@ -4024,6 +4024,9 @@ A command injection vulnerability in the web server of some Hikvision product. D
 
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 
+### CVE-2021-36394
+- [lavclash75/CVE-2021-36394-Pre-Auth-RCE-in-Moodle](https://github.com/lavclash75/CVE-2021-36394-Pre-Auth-RCE-in-Moodle)
+
 ### CVE-2021-36460 (2022-04-25)
 
 <code>
@@ -4090,14 +4093,6 @@ A denial of service vulnerability exists in MDT's firmware for the KNXnet/IP Sec
 
 - [robertguetzkow/CVE-2021-37740](https://github.com/robertguetzkow/CVE-2021-37740)
 
-### CVE-2021-37832 (2021-08-03)
-
-<code>
-A SQL injection vulnerability exists in version 3.0.2 of Hotel Druid when SQLite is being used as the application database. A malicious attacker can issue SQL commands to the SQLite database through the vulnerable idappartamenti parameter.
-</code>
-
-- [AK-blank/CVE-2021-37832](https://github.com/AK-blank/CVE-2021-37832)
-
 ### CVE-2021-38314 (2021-09-02)
 
 <code>
@@ -4163,6 +4158,14 @@ In various setup methods of the USB gadget subsystem, there is a possible out of
 </code>
 
 - [szymonh/inspector-gadget](https://github.com/szymonh/inspector-gadget)
+
+### CVE-2021-39704 (2022-03-16)
+
+<code>
+In deleteNotificationChannelGroup of NotificationManagerService.java, there is a possible way to run foreground service without user notification due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12Android ID: A-209965481
+</code>
+
+- [nanopathi/framework_base_AOSP10_r33_CVE-2021-39704](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-39704)
 
 ### CVE-2021-39749 (2022-03-30)
 
@@ -5397,9 +5400,6 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [Kuibagit/CVE-2021-45232-RCE](https://github.com/Kuibagit/CVE-2021-45232-RCE)
 - [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
 - [yggcwhat/CVE-2021-45232](https://github.com/yggcwhat/CVE-2021-45232)
-
-### CVE-2021-45383
-- [nt1dr/CVE-2021-45383](https://github.com/nt1dr/CVE-2021-45383)
 
 ### CVE-2021-45416 (2022-02-01)
 
@@ -15684,7 +15684,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [mekhalleh/cve-2018-6574](https://github.com/mekhalleh/cve-2018-6574)
 - [veter069/go-get-rce](https://github.com/veter069/go-get-rce)
 - [duckzsc2/CVE-2018-6574-POC](https://github.com/duckzsc2/CVE-2018-6574-POC)
-- [ivnnn1/CVE-2018-6574](https://github.com/ivnnn1/CVE-2018-6574)
 - [dollyptm/cve-2018-6574](https://github.com/dollyptm/cve-2018-6574)
 - [qweraqq/CVE-2018-6574](https://github.com/qweraqq/CVE-2018-6574)
 - [d4rkshell/go-get-rce](https://github.com/d4rkshell/go-get-rce)
@@ -21182,6 +21181,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [vinspiert/scumjrs](https://github.com/vinspiert/scumjrs)
 - [gurpreetsinghsaluja/dirtycow](https://github.com/gurpreetsinghsaluja/dirtycow)
 - [ArkAngeL43/CVE-2016-5195](https://github.com/ArkAngeL43/CVE-2016-5195)
+- [passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs)
 
 ### CVE-2016-5345 (2018-01-22)
 
