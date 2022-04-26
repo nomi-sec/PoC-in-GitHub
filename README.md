@@ -1248,6 +1248,7 @@ An issue was discovered in Django 2.2 before 2.2.28, 3.2 before 3.2.13, and 4.0 
 </code>
 
 - [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
+- [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
 
 ### CVE-2022-29072 (2022-04-15)
 
@@ -1318,6 +1319,7 @@ In onCreate of GrantCredentialsPermissionActivity.java, there is a possible way 
 </code>
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0315](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0315)
+- [pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315](https://github.com/pazhanivel07/frameworks_base_Aosp10_r33_CVE-2021-0315)
 
 ### CVE-2021-0316 (2021-01-11)
 
@@ -1358,6 +1360,9 @@ In p2p_copy_client_info of p2p.c, there is a possible out of bounds write due to
 </code>
 
 - [aemmitt-ns/skeleton](https://github.com/aemmitt-ns/skeleton)
+- [nanopathi/wpa_supplicant_8_CVE-2021-0326.](https://github.com/nanopathi/wpa_supplicant_8_CVE-2021-0326.)
+- [Satheesh575555/external_wpa_supplicant_8_AOSP10_r33_CVE-2021-0326](https://github.com/Satheesh575555/external_wpa_supplicant_8_AOSP10_r33_CVE-2021-0326)
+- [nanopathi/Packages_wpa_supplicant8_CVE-2021-0326](https://github.com/nanopathi/Packages_wpa_supplicant8_CVE-2021-0326)
 
 ### CVE-2021-0327 (2021-02-10)
 
@@ -2351,6 +2356,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [qasj/CVE-2021-4034](https://github.com/qasj/CVE-2021-4034)
 - [rhin0cer0s/CVE-2021-4034](https://github.com/rhin0cer0s/CVE-2021-4034)
 - [karaname/pkexec-exploit](https://github.com/karaname/pkexec-exploit)
+- [0x4ndy/CVE-2021-4034-PoC](https://github.com/0x4ndy/CVE-2021-4034-PoC)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
@@ -2987,7 +2993,6 @@ A security issue was discovered in Kubernetes where a user may be able to create
 In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are before version 6.13.23, from version 6.14.0 before 7.4.11, from version 7.5.0 before 7.11.6, and from version 7.12.0 before 7.12.5.
 </code>
 
-- [h3v0x/CVE-2021-26084_Confluence](https://github.com/h3v0x/CVE-2021-26084_Confluence)
 - [0xf4n9x/CVE-2021-26084](https://github.com/0xf4n9x/CVE-2021-26084)
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
@@ -3071,7 +3076,6 @@ Wazuh API in Wazuh from 4.0.0 to 4.0.3 allows authenticated users to execute arb
 
 - [WickdDavid/CVE-2021-26814](https://github.com/WickdDavid/CVE-2021-26814)
 - [CYS4srl/CVE-2021-26814](https://github.com/CYS4srl/CVE-2021-26814)
-- [paolorabbito/Internet-Security-Project---CVE-2021-26814](https://github.com/paolorabbito/Internet-Security-Project---CVE-2021-26814)
 
 ### CVE-2021-26828 (2021-06-11)
 
@@ -4005,14 +4009,6 @@ Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (
 
 - [antx-code/CVE-2021-35587](https://github.com/antx-code/CVE-2021-35587)
 
-### CVE-2021-35616 (2021-10-20)
-
-<code>
-Vulnerability in the Oracle Transportation Management product of Oracle Supply Chain (component: UI Infrastructure). The supported version that is affected is 6.4.3. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Transportation Management. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Transportation Management accessible data as well as unauthorized read access to a subset of Oracle Transportation Management accessible data. CVSS 3.1 Base Score 5.4 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N).
-</code>
-
-- [Ofirhamam/OracleOTM](https://github.com/Ofirhamam/OracleOTM)
-
 ### CVE-2021-35975
 - [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
 
@@ -4099,7 +4095,6 @@ A denial of service vulnerability exists in MDT's firmware for the KNXnet/IP Sec
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
-- [orangmuda/CVE-2021-38314](https://github.com/orangmuda/CVE-2021-38314)
 - [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
@@ -4158,6 +4153,14 @@ In various setup methods of the USB gadget subsystem, there is a possible out of
 </code>
 
 - [szymonh/inspector-gadget](https://github.com/szymonh/inspector-gadget)
+
+### CVE-2021-39692 (2022-03-16)
+
+<code>
+In onCreate of SetupLayoutActivity.java, there is a possible way to setup a work profile bypassing user consent due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12Android ID: A-209611539
+</code>
+
+- [nanopathi/packages_apps_ManagedProvisioning_CVE-2021-39692](https://github.com/nanopathi/packages_apps_ManagedProvisioning_CVE-2021-39692)
 
 ### CVE-2021-39704 (2022-03-16)
 
@@ -4397,15 +4400,6 @@ Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Servic
 </code>
 
 - [lohyt/-CVE-2021-41962](https://github.com/lohyt/-CVE-2021-41962)
-
-### CVE-2021-42008 (2021-10-04)
-
-<code>
-The decode_data function in drivers/net/hamradio/6pack.c in the Linux kernel before 5.13.13 has a slab out-of-bounds write. Input from a process that has the CAP_NET_ADMIN capability can lead to root access.
-</code>
-
-- [numanturle/CVE-2021-42008](https://github.com/numanturle/CVE-2021-42008)
-- [0xdevil/CVE-2021-42008](https://github.com/0xdevil/CVE-2021-42008)
 
 ### CVE-2021-42013 (2021-10-07)
 
