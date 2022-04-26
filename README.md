@@ -1184,6 +1184,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [jones199023/CVE-2022-26809](https://github.com/jones199023/CVE-2022-26809)
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
 - [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
+- [XmasSnowREAL/CVE-2022-26809-RCE](https://github.com/XmasSnowREAL/CVE-2022-26809-RCE)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -4461,6 +4462,14 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 - [cube0x0/noPac](https://github.com/cube0x0/noPac)
 - [knightswd/NoPacScan](https://github.com/knightswd/NoPacScan)
 - [XiaoliChan/Invoke-sAMSpoofing](https://github.com/XiaoliChan/Invoke-sAMSpoofing)
+
+### CVE-2021-42292 (2021-11-09)
+
+<code>
+Microsoft Excel Security Feature Bypass Vulnerability
+</code>
+
+- [XmasSnowREAL/CVE-2021-42292](https://github.com/XmasSnowREAL/CVE-2021-42292)
 
 ### CVE-2021-42321 (2021-11-09)
 
@@ -9250,6 +9259,14 @@ An issue was discovered in INNEO Startup TOOLS 2017 M021 12.0.66.3784 through 20
 
 ### CVE-2020-15808
 - [manucuf/CVE202015808](https://github.com/manucuf/CVE202015808)
+
+### CVE-2020-15823 (2020-08-08)
+
+<code>
+JetBrains YouTrack before 2020.2.8873 is vulnerable to SSRF in the Workflow component.
+</code>
+
+- [XmasSnowREAL/CVE-2020-15823](https://github.com/XmasSnowREAL/CVE-2020-15823)
 
 ### CVE-2020-15873 (2020-07-21)
 
