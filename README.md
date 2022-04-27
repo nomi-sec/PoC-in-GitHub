@@ -4321,7 +4321,6 @@ Metabase is an open source data analytics platform. In affected versions a secur
 </code>
 
 - [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
-- [zer0yu/CVE-2021-41277](https://github.com/zer0yu/CVE-2021-41277)
 - [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
 - [frknktlca/Metabase_Nmap_Script](https://github.com/frknktlca/Metabase_Nmap_Script)
 - [Chen-ling-afk/CVE-2021-41277](https://github.com/Chen-ling-afk/CVE-2021-41277)
@@ -4386,6 +4385,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit](https://github.com/CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit)
 - [vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773)
 - [Chocapikk/CVE-2021-41773](https://github.com/Chocapikk/CVE-2021-41773)
+- [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
 
 ### CVE-2021-41962 (2021-12-16)
 
@@ -12564,7 +12564,7 @@ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation 
 - [darsigovrustam/CVE-2019-10149](https://github.com/darsigovrustam/CVE-2019-10149)
 - [Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149)
 - [Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149)
-- [area1/exim-cve-2019-10149-data](https://github.com/area1/exim-cve-2019-10149-data)
+- [cloudflare/exim-cve-2019-10149-data](https://github.com/cloudflare/exim-cve-2019-10149-data)
 - [Stick-U235/CVE-2019-10149-Exploit](https://github.com/Stick-U235/CVE-2019-10149-Exploit)
 
 ### CVE-2019-10172 (2019-11-18)
