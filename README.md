@@ -671,6 +671,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-](https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-)
 - [c4mx/CVE-2022-22965_PoC](https://github.com/c4mx/CVE-2022-22965_PoC)
 - [mariomamo/CVE-2022-22965](https://github.com/mariomamo/CVE-2022-22965)
+- [khidottrivi/CVE-2022-22965](https://github.com/khidottrivi/CVE-2022-22965)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -1181,6 +1182,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy](https://github.com/sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy)
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
+- [nanaao/CVE-2022-26809](https://github.com/nanaao/CVE-2022-26809)
 - [DESC0N0C1D0/CVE-2022-26809-RCE](https://github.com/DESC0N0C1D0/CVE-2022-26809-RCE)
 - [jones199023/CVE-2022-26809](https://github.com/jones199023/CVE-2022-26809)
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
@@ -4303,14 +4305,6 @@ loop_rw_iter in fs/io_uring.c in the Linux kernel 5.10 through 5.14.6 allows loc
 </code>
 
 - [chompie1337/Linux_LPE_io_uring_CVE-2021-41073](https://github.com/chompie1337/Linux_LPE_io_uring_CVE-2021-41073)
-
-### CVE-2021-41081 (2021-11-10)
-
-<code>
-Zoho ManageEngine Network Configuration Manager before ﻿﻿125465 is vulnerable to SQL Injection in a configuration search.
-</code>
-
-- [sudaiv/CVE-2021-41081](https://github.com/sudaiv/CVE-2021-41081)
 
 ### CVE-2021-41184 (2021-10-26)
 
@@ -21066,6 +21060,7 @@ The kernel in Apple iOS before 9.3.5 allows attackers to obtain sensitive inform
 
 - [jndok/PegasusX](https://github.com/jndok/PegasusX)
 - [Cryptiiiic/skybreak](https://github.com/Cryptiiiic/skybreak)
+- [liangle1986126z/jndok](https://github.com/liangle1986126z/jndok)
 
 ### CVE-2016-4657 (2016-08-25)
 
