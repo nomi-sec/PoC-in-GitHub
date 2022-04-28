@@ -1386,6 +1386,22 @@ In getContentProviderImpl of ActivityManagerService.java, there is a possible pe
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0327](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0327)
 
+### CVE-2021-0328 (2021-02-10)
+
+<code>
+In onBatchScanReports and deliverBatchScan of GattService.java, there is a possible way to retrieve Bluetooth scan results without permissions due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-8.1 Android-9Android ID: A-172670415
+</code>
+
+- [ShaikUsaf/packages_apps_Bluetooth_AOSP10_r33_CVE-2021-0328](https://github.com/ShaikUsaf/packages_apps_Bluetooth_AOSP10_r33_CVE-2021-0328)
+
+### CVE-2021-0329 (2021-02-10)
+
+<code>
+In several native functions called by AdvertiseManager.java, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege in the Bluetooth server with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11 Android-8.1Android ID: A-171400004
+</code>
+
+- [ShaikUsaf/packages_apps_Bluetooth_AOSP10_r33_CVE-2021-0329](https://github.com/ShaikUsaf/packages_apps_Bluetooth_AOSP10_r33_CVE-2021-0329)
+
 ### CVE-2021-0330 (2021-02-10)
 
 <code>
@@ -1810,7 +1826,6 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [linuxdy/CVE-2021-1732_exp](https://github.com/linuxdy/CVE-2021-1732_exp)
 - [Pai-Po/CVE-2021-1732](https://github.com/Pai-Po/CVE-2021-1732)
 - [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
-- [BeneficialCode/CVE-2021-1732](https://github.com/BeneficialCode/CVE-2021-1732)
 - [ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-)
 - [r1l4-i3pur1l4/CVE-2021-1732](https://github.com/r1l4-i3pur1l4/CVE-2021-1732)
 
@@ -1959,7 +1974,6 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
-- [Erikten/CVE-2021-3129](https://github.com/Erikten/CVE-2021-3129)
 - [selectarget/laravel-CVE-2021-3129-EXP](https://github.com/selectarget/laravel-CVE-2021-3129-EXP)
 - [cuongtop4598/CVE-2021-3129-Script](https://github.com/cuongtop4598/CVE-2021-3129-Script)
 - [joshuavanderpoll/CVE-2021-3129](https://github.com/joshuavanderpoll/CVE-2021-3129)
@@ -2701,7 +2715,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [xnianq/cve-2021-21985_exp](https://github.com/xnianq/cve-2021-21985_exp)
 - [daedalus/CVE-2021-21985](https://github.com/daedalus/CVE-2021-21985)
 - [testanull/Project_CVE-2021-21985_PoC](https://github.com/testanull/Project_CVE-2021-21985_PoC)
-- [sknux/CVE-2021-21985_PoC](https://github.com/sknux/CVE-2021-21985_PoC)
 
 ### CVE-2021-22005 (2021-09-23)
 
@@ -2739,7 +2752,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [convisolabs/CVE-2021-22204-exiftool](https://github.com/convisolabs/CVE-2021-22204-exiftool)
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
-- [ph-arm/CVE-2021-22204-Gitlab](https://github.com/ph-arm/CVE-2021-22204-Gitlab)
+- [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 - [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
@@ -2752,18 +2765,19 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 </code>
 
 - [mr-r3bot/Gitlab-CVE-2021-22205](https://github.com/mr-r3bot/Gitlab-CVE-2021-22205)
-- [antx-code/CVE-2021-22205](https://github.com/antx-code/CVE-2021-22205)
-- [Al1ex/CVE-2021-22205](https://github.com/Al1ex/CVE-2021-22205)
-- [Seals6/CVE-2021-22205](https://github.com/Seals6/CVE-2021-22205)
-- [devdanqtuan/CVE-2021-22205](https://github.com/devdanqtuan/CVE-2021-22205)
-- [hh-hunter/cve-2021-22205](https://github.com/hh-hunter/cve-2021-22205)
-- [X1pe0/Automated-Gitlab-RCE](https://github.com/X1pe0/Automated-Gitlab-RCE)
-- [runsel/GitLab-CVE-2021-22205-](https://github.com/runsel/GitLab-CVE-2021-22205-)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
 - [gardenWhy/Gitlab-CVE-2021-22205](https://github.com/gardenWhy/Gitlab-CVE-2021-22205)
 - [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
 - [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
+
+### CVE-2021-22210 (2021-05-06)
+
+<code>
+An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.2. When querying the repository branches through API, GitLab was ignoring a query parameter and returning a considerable amount of results.
+</code>
+
+- [awsassets/CVE-2021-22210](https://github.com/awsassets/CVE-2021-22210)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -2773,7 +2787,6 @@ When requests to the internal network for webhooks are enabled, a server-side re
 
 - [r0ckysec/CVE-2021-22214](https://github.com/r0ckysec/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
-- [antx-code/CVE-2021-22214](https://github.com/antx-code/CVE-2021-22214)
 - [kh4sh3i/GitLab-SSRF-CVE-2021-22214](https://github.com/kh4sh3i/GitLab-SSRF-CVE-2021-22214)
 
 ### CVE-2021-22555 (2021-07-07)
@@ -3369,6 +3382,7 @@ A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.
 </code>
 
 - [Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928)
+- [shamo0/CVE-2021-27928-POC](https://github.com/shamo0/CVE-2021-27928-POC)
 - [GatoGamer1155/CVE-2021-27928](https://github.com/GatoGamer1155/CVE-2021-27928)
 
 ### CVE-2021-27963 (2021-03-04)
@@ -3597,14 +3611,6 @@ Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remot
 </code>
 
 - [CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632)
-
-### CVE-2021-30657 (2021-09-08)
-
-<code>
-A logic issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.3, Security Update 2021-002 Catalina. A malicious application may bypass Gatekeeper checks. Apple is aware of a report that this issue may have been actively exploited..
-</code>
-
-- [shubham0d/CVE-2021-30657](https://github.com/shubham0d/CVE-2021-30657)
 
 ### CVE-2021-30682 (2021-09-08)
 
@@ -3888,6 +3894,14 @@ octobercms in a CMS platform based on the Laravel PHP Framework. In affected ver
 - [Immersive-Labs-Sec/CVE-2021-32648](https://github.com/Immersive-Labs-Sec/CVE-2021-32648)
 - [daftspunk/CVE-2021-32648](https://github.com/daftspunk/CVE-2021-32648)
 
+### CVE-2021-32724 (2021-09-09)
+
+<code>
+check-spelling is a github action which provides CI spell checking. In affected versions and for a repository with the [check-spelling action](https://github.com/marketplace/actions/check-spelling) enabled that triggers on `pull_request_target` (or `schedule`), an attacker can send a crafted Pull Request that causes a `GITHUB_TOKEN` to be exposed. With the `GITHUB_TOKEN`, it's possible to push commits to the repository bypassing standard approval processes. Commits to the repository could then steal any/all secrets available to the repository. As a workaround users may can either: [Disable the workflow](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow) until you've fixed all branches or Set repository to [Allow specific actions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository#allowing-specific-actions-to-run). check-spelling isn't a verified creator and it certainly won't be anytime soon. You could then explicitly add other actions that your repository uses. Set repository [Workflow permissions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository#setting-the-permissions-of-the-github_token-for-your-repository) to `Read repository contents permission`. Workflows using `check-spelling/check-spelling@main` will get the fix automatically. Workflows using a pinned sha or tagged version will need to change the affected workflows for all repository branches to the latest version. Users can verify who and which Pull Requests have been running the action by looking up the spelling.yml action in the Actions tab of their repositories, e.g., https://github.com/check-spelling/check-spelling/actions/workflows/spelling.yml - you can filter PRs by adding ?query=event%3Apull_request_target, e.g., https://github.com/check-spelling/check-spelling/actions/workflows/spelling.yml?query=event%3Apull_request_target.
+</code>
+
+- [MaximeSchlegel/CVE-2021-32724-Target](https://github.com/MaximeSchlegel/CVE-2021-32724-Target)
+
 ### CVE-2021-32819 (2021-05-14)
 
 <code>
@@ -3903,6 +3917,14 @@ Gerapy is a distributed crawler management framework. Prior to version 0.9.9, an
 </code>
 
 - [lowkey0808/cve-2021-32849](https://github.com/lowkey0808/cve-2021-32849)
+
+### CVE-2021-33034 (2021-05-14)
+
+<code>
+In the Linux kernel before 5.12.4, net/bluetooth/hci_event.c has a use-after-free when destroying an hci_chan, aka CID-5c4c8c954409. This leads to writing an arbitrary value.
+</code>
+
+- [Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2021-33034](https://github.com/Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2021-33034)
 
 ### CVE-2021-33044 (2021-09-15)
 
@@ -4088,14 +4110,6 @@ A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSys
 
 - [robertguetzkow/ets5-password-recovery](https://github.com/robertguetzkow/ets5-password-recovery)
 
-### CVE-2021-36808 (2021-10-30)
-
-<code>
-A local attacker could bypass the app password using a race condition in Sophos Secure Workspace for Android before version 9.7.3115.
-</code>
-
-- [ctuIhu/CVE-2021-36808](https://github.com/ctuIhu/CVE-2021-36808)
-
 ### CVE-2021-36934 (2021-07-22)
 
 <code>
@@ -4104,14 +4118,6 @@ Windows Elevation of Privilege Vulnerability
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 
-### CVE-2021-37678 (2021-08-12)
-
-<code>
-TensorFlow is an end-to-end open source platform for machine learning. In affected versions TensorFlow and Keras can be tricked to perform arbitrary code execution when deserializing a Keras model from YAML format. The [implementation](https://github.com/tensorflow/tensorflow/blob/460e000de3a83278fb00b61a16d161b1964f15f4/tensorflow/python/keras/saving/model_config.py#L66-L104) uses `yaml.unsafe_load` which can perform arbitrary code execution on the input. Given that YAML format support requires a significant amount of work, we have removed it for now. We have patched the issue in GitHub commit 23d6383eb6c14084a8fc3bdf164043b974818012. The fix will be included in TensorFlow 2.6.0. We will also cherrypick this commit on TensorFlow 2.5.1, TensorFlow 2.4.3, and TensorFlow 2.3.4, as these are also affected and still in supported range.
-</code>
-
-- [fran-CICS/ExploitTensorflowCVE-2021-37678](https://github.com/fran-CICS/ExploitTensorflowCVE-2021-37678)
-
 ### CVE-2021-37740 (2022-04-20)
 
 <code>
@@ -4119,14 +4125,6 @@ A denial of service vulnerability exists in MDT's firmware for the KNXnet/IP Sec
 </code>
 
 - [robertguetzkow/CVE-2021-37740](https://github.com/robertguetzkow/CVE-2021-37740)
-
-### CVE-2021-38001 (2021-11-23)
-
-<code>
-Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-</code>
-
-- [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 
 ### CVE-2021-38314 (2021-09-02)
 
@@ -4168,6 +4166,14 @@ Cachet is an open source status page. With Cachet prior to and including 2.3.18,
 
 - [W0rty/CVE-2021-39165](https://github.com/W0rty/CVE-2021-39165)
 
+### CVE-2021-39316 (2021-08-31)
+
+<code>
+The Zoomsounds plugin &lt;= 6.45 for WordPress allows arbitrary files, including sensitive configuration files such as wp-config.php, to be downloaded via the `dzsap_download` action using directory traversal in the `link` parameter.
+</code>
+
+- [anggoroexe/Mass_CVE-2021-39316](https://github.com/anggoroexe/Mass_CVE-2021-39316)
+
 ### CVE-2021-39623 (2022-01-14)
 
 <code>
@@ -4200,6 +4206,14 @@ In deleteNotificationChannelGroup of NotificationManagerService.java, there is a
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-39704](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-39704)
 
+### CVE-2021-39706 (2022-03-16)
+
+<code>
+In onResume of CredentialStorage.java, there is a possible way to cleanup content of credentials storage due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12Android ID: A-200164168
+</code>
+
+- [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2021-39706](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2021-39706)
+
 ### CVE-2021-39749 (2022-03-30)
 
 <code>
@@ -4230,7 +4244,6 @@ An issue was discovered in Nagios XI 5.8.5. In the Manage Dashlets section of th
 An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can be exploited to perform an HTTP request smuggling attack, allowing an attacker to bypass all configured http-request HAProxy ACLs and possibly other ACLs.
 </code>
 
-- [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 - [alexOarga/CVE-2021-40346](https://github.com/alexOarga/CVE-2021-40346)
 
 ### CVE-2021-40373 (2021-09-10)
@@ -4256,7 +4269,6 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 </code>
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
-- [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
 - [MRacumen/CVE-2021-40444](https://github.com/MRacumen/CVE-2021-40444)
 - [QwertyStack/CVE-2021-40444_PoC](https://github.com/QwertyStack/CVE-2021-40444_PoC)
@@ -4268,17 +4280,8 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-40450, CVE-2021-41357.
 </code>
 
-- [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
-
-### CVE-2021-40539 (2021-09-07)
-
-<code>
-Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to REST API authentication bypass with resultant remote code execution.
-</code>
-
-- [synacktiv/CVE-2021-40539](https://github.com/synacktiv/CVE-2021-40539)
 
 ### CVE-2021-40839 (2021-09-09)
 
@@ -4380,6 +4383,14 @@ Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-
 
 - [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
 
+### CVE-2021-41560 (2021-12-15)
+
+<code>
+OpenCATS through 0.9.6 allows remote attackers to execute arbitrary code by uploading an executable file via lib/FileUtility.php.
+</code>
+
+- [Nickguitar/RevCAT](https://github.com/Nickguitar/RevCAT)
+
 ### CVE-2021-41652 (2022-03-01)
 
 <code>
@@ -4399,8 +4410,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
-- [IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit](https://github.com/IcmpOff/Apache-2.4.49-2.4.50-Traversal-Remote-Code-Execution-Exploit)
-- [pirenga/CVE-2021-41773](https://github.com/pirenga/CVE-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
@@ -4496,7 +4505,6 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 Microsoft Excel Security Feature Bypass Vulnerability
 </code>
 
-- [corelight/CVE-2021-42292](https://github.com/corelight/CVE-2021-42292)
 - [XmasSnowREAL/CVE-2021-42292](https://github.com/XmasSnowREAL/CVE-2021-42292)
 
 ### CVE-2021-42321 (2021-11-09)
@@ -4506,14 +4514,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [timb-machine-mirrors/CVE-2021-42321_poc](https://github.com/timb-machine-mirrors/CVE-2021-42321_poc)
-
-### CVE-2021-42327 (2021-10-21)
-
-<code>
-dp_link_settings_write in drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_debugfs.c in the Linux kernel through 5.14.14 allows a heap-based buffer overflow by an attacker who can write a string to the AMD GPU display drivers debug filesystem. There are no checks on size within parse_write_buffer_into_params when it uses the size of copy_from_user to copy a userspace buffer into a 40-byte heap buffer.
-</code>
-
-- [docfate111/CVE-2021-42327](https://github.com/docfate111/CVE-2021-42327)
 
 ### CVE-2021-42342 (2021-10-14)
 
@@ -4537,7 +4537,6 @@ The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as param
 An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers.
 </code>
 
-- [js-on/CVE-2021-42574](https://github.com/js-on/CVE-2021-42574)
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
 - [pierDipi/unicode-control-characters-action](https://github.com/pierDipi/unicode-control-characters-action)
 - [waseeld/CVE-2021-42574](https://github.com/waseeld/CVE-2021-42574)
@@ -4622,14 +4621,6 @@ An incorrect access control vulnerability exists in Sourcecodester Engineers Onl
 
 - [0xDeku/CVE-2021-42671](https://github.com/0xDeku/CVE-2021-42671)
 
-### CVE-2021-42694 (2021-10-31)
-
-<code>
-An issue was discovered in the character definitions of the Unicode Specification through 14.0. The specification allows an adversary to produce source code identifiers such as function names using homoglyphs that render visually identical to a target identifier. Adversaries can leverage this to inject code via adversarial identifier definitions in upstream software dependencies invoked deceptively in downstream software.
-</code>
-
-- [js-on/CVE-2021-42694](https://github.com/js-on/CVE-2021-42694)
-
 ### CVE-2021-42697 (2021-11-02)
 
 <code>
@@ -4676,22 +4667,6 @@ A bypass exists for Desire2Learn/D2L Brightspace’s “Disable Right Click” o
 
 - [Skotizo/CVE-2021-43129](https://github.com/Skotizo/CVE-2021-43129)
 
-### CVE-2021-43140 (2021-11-03)
-
-<code>
-SQL Injection vulnerability exists in Sourcecodester. Simple Subscription Website 1.0. via the login.
-</code>
-
-- [Dir0x/CVE-2021-43140](https://github.com/Dir0x/CVE-2021-43140)
-
-### CVE-2021-43141 (2021-11-03)
-
-<code>
-Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Simple Subscription Website 1.0 via the id parameter in plan_application.
-</code>
-
-- [Dir0x/CVE-2021-43141](https://github.com/Dir0x/CVE-2021-43141)
-
 ### CVE-2021-43224 (2021-12-15)
 
 <code>
@@ -4699,14 +4674,6 @@ Windows Common Log File System Driver Information Disclosure Vulnerability
 </code>
 
 - [KaLendsi/CVE-2021-43224-POC](https://github.com/KaLendsi/CVE-2021-43224-POC)
-
-### CVE-2021-43267 (2021-11-02)
-
-<code>
-An issue was discovered in net/tipc/crypto.c in the Linux kernel before 5.14.16. The Transparent Inter-Process Communication (TIPC) functionality allows remote attackers to exploit insufficient validation of user-supplied sizes for the MSG_CRYPTO message type.
-</code>
-
-- [DarkSprings/CVE-2021-43267-POC](https://github.com/DarkSprings/CVE-2021-43267-POC)
 
 ### CVE-2021-43297 (2022-01-10)
 
@@ -4724,14 +4691,6 @@ Automox Agent before 32 on Windows incorrectly sets permissions on a temporary d
 </code>
 
 - [gfoss/CVE-2021-43326_Exploit](https://github.com/gfoss/CVE-2021-43326_Exploit)
-
-### CVE-2021-43361 (-)
-
-<code>
-Due to improper sanitization MedData HBYS software suffers from a remote SQL injection vulnerability. An unauthenticated attacker with the web access is able to extract critical information from the system.\n
-</code>
-
-- [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
 
 ### CVE-2021-43515 (2022-04-08)
 
@@ -4763,13 +4722,21 @@ PrestaShop is an Open Source e-commerce web application. Versions of PrestaShop 
 Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
 </code>
 
+- [taythebot/CVE-2021-43798](https://github.com/taythebot/CVE-2021-43798)
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
+- [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
+- [Mr-xn/CVE-2021-43798](https://github.com/Mr-xn/CVE-2021-43798)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
+- [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
+- [lfz97/CVE-2021-43798-Grafana-File-Read](https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
+- [z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798)
+- [culprits/Grafana_POC-CVE-2021-43798](https://github.com/culprits/Grafana_POC-CVE-2021-43798)
+- [julesbozouklian/CVE-2021-43798](https://github.com/julesbozouklian/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
 - [pedrohavay/exploit-grafana-CVE-2021-43798](https://github.com/pedrohavay/exploit-grafana-CVE-2021-43798)
@@ -4785,6 +4752,14 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
+
+### CVE-2021-43799 (2022-01-25)
+
+<code>
+Zulip is an open-source team collaboration tool. Zulip Server installs RabbitMQ for internal message passing. In versions of Zulip Server prior to 4.9, the initial installation (until first reboot, or restart of RabbitMQ) does not successfully limit the default ports which RabbitMQ opens; this includes port 25672, the RabbitMQ distribution port, which is used as a management port. RabbitMQ's default &quot;cookie&quot; which protects this port is generated using a weak PRNG, which limits the entropy of the password to at most 36 bits; in practicality, the seed for the randomizer is biased, resulting in approximately 20 bits of entropy. If other firewalls (at the OS or network level) do not protect port 25672, a remote attacker can brute-force the 20 bits of entropy in the &quot;cookie&quot; and leverage it for arbitrary execution of code as the rabbitmq user. They can also read all data which is sent through RabbitMQ, which includes all message traffic sent by users. Version 4.9 contains a patch for this vulnerability. As a workaround, ensure that firewalls prevent access to ports 5672 and 25672 from outside the Zulip server.
+</code>
+
+- [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
 
 ### CVE-2021-43821 (2021-12-14)
 
@@ -4851,6 +4826,14 @@ The software allows the attacker to upload or transfer files of dangerous types 
 
 - [LongWayHomie/CVE-2021-43936](https://github.com/LongWayHomie/CVE-2021-43936)
 
+### CVE-2021-44077 (2021-11-28)
+
+<code>
+Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 10530, and SupportCenter Plus before 11014 are vulnerable to unauthenticated remote code execution. This is related to /RestAPI URLs in a servlet, and ImportTechnicians in the Struts configuration.
+</code>
+
+- [horizon3ai/CVE-2021-44077](https://github.com/horizon3ai/CVE-2021-44077)
+
 ### CVE-2021-44117
 - [warmachine-57/CVE-2021-44117](https://github.com/warmachine-57/CVE-2021-44117)
 
@@ -4889,25 +4872,34 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jacobtread/L4J-Vuln-Patch](https://github.com/jacobtread/L4J-Vuln-Patch)
+- [UltraVanilla/LogJackFix](https://github.com/UltraVanilla/LogJackFix)
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
 - [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [boundaryx/cloudrasp-log4j2](https://github.com/boundaryx/cloudrasp-log4j2)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
+- [y35uishere/Log4j2-CVE-2021-44228](https://github.com/y35uishere/Log4j2-CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
+- [zlepper/CVE-2021-44228-Test-Server](https://github.com/zlepper/CVE-2021-44228-Test-Server)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck)
+- [nkoneko/VictimApp](https://github.com/nkoneko/VictimApp)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
+- [1in9e/Apache-Log4j2-RCE](https://github.com/1in9e/Apache-Log4j2-RCE)
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
+- [OopsieWoopsie/mc-log4j-patcher](https://github.com/OopsieWoopsie/mc-log4j-patcher)
+- [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
+- [StandB/CVE-2021-44228-poc](https://github.com/StandB/CVE-2021-44228-poc)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
 - [tivuhh/log4noshell](https://github.com/tivuhh/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
 - [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
+- [alexandreroman/cve-2021-44228-workaround-buildpack](https://github.com/alexandreroman/cve-2021-44228-workaround-buildpack)
 - [Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot)
 - [racoon-rac/CVE-2021-44228](https://github.com/racoon-rac/CVE-2021-44228)
 - [TheArqsz/CVE-2021-44228-PoC](https://github.com/TheArqsz/CVE-2021-44228-PoC)
@@ -5429,6 +5421,14 @@ Reflected Cross-site scripting (XSS) vulnerability in RosarioSIS 8.2.1 allows at
 
 - [86x/CVE-2021-45416](https://github.com/86x/CVE-2021-45416)
 - [dnr6419/CVE-2021-45416](https://github.com/dnr6419/CVE-2021-45416)
+
+### CVE-2021-45485 (2021-12-24)
+
+<code>
+In the IPv6 implementation in the Linux kernel before 5.13.3, net/ipv6/output_core.c has an information leak because of certain use of a hash table which, although big, doesn't properly consider that IPv6-based attackers can typically choose among many IPv6 source addresses.
+</code>
+
+- [Satheesh575555/linux-4.19.72_CVE-2021-45485](https://github.com/Satheesh575555/linux-4.19.72_CVE-2021-45485)
 
 ### CVE-2021-45744 (2022-01-06)
 
@@ -5962,6 +5962,14 @@ In sbrDecoder_AssignQmfChannels2SbrChannels of sbrdecoder.cpp, there is a possib
 </code>
 
 - [nanopathi/external_aac_AOSP10_r33_CVE-2020-0451](https://github.com/nanopathi/external_aac_AOSP10_r33_CVE-2020-0451)
+
+### CVE-2020-0452 (2020-11-10)
+
+<code>
+In exif_entry_get_value of exif-entry.c, there is a possible out of bounds write due to an integer overflow. This could lead to remote code execution if a third party app used this library to process remote image data with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10 Android-11 Android-8.0Android ID: A-159625731
+</code>
+
+- [ShaikUsaf/external_libexif_AOSP10_CVE-2020-0452](https://github.com/ShaikUsaf/external_libexif_AOSP10_CVE-2020-0452)
 
 ### CVE-2020-0453 (2020-11-10)
 
