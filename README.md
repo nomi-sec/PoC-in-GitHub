@@ -4230,6 +4230,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
 - [MRacumen/CVE-2021-40444](https://github.com/MRacumen/CVE-2021-40444)
+- [QwertyStack/CVE-2021-40444_PoC](https://github.com/QwertyStack/CVE-2021-40444_PoC)
 
 ### CVE-2021-40449 (2021-10-12)
 
@@ -4657,14 +4658,6 @@ VINGA WR-N300U 77.102.1.4853 is affected by a command execution vulnerability in
 </code>
 
 - [badboycxcc/CVE-2021-43469](https://github.com/badboycxcc/CVE-2021-43469)
-
-### CVE-2021-43471 (2021-12-06)
-
-<code>
-In Canon LBP223 printers, the System Manager Mode login does not require an account password or PIN. An attacker can remotely shut down the device after entering the background, creating a denial of service vulnerability.
-</code>
-
-- [cxaqhq/CVE-2021-43471](https://github.com/cxaqhq/CVE-2021-43471)
 
 ### CVE-2021-43515 (2022-04-08)
 
