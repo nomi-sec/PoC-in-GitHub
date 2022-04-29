@@ -215,7 +215,12 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
 - [B0nfee/CVE-2022-0995](https://github.com/B0nfee/CVE-2022-0995)
 
-### CVE-2022-1015
+### CVE-2022-1015 (2022-04-29)
+
+<code>
+A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of the netfilter subsystem. This flaw allows a local user to cause an out-of-bounds write issue.
+</code>
+
 - [pqlx/CVE-2022-1015](https://github.com/pqlx/CVE-2022-1015)
 - [zanezhub/CVE-2022-1015-1016](https://github.com/zanezhub/CVE-2022-1015-1016)
 
@@ -1277,7 +1282,12 @@ An issue was discovered in Django 2.2 before 2.2.28, 3.2 before 3.2.13, and 4.0 
 - [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
 
-### CVE-2022-28452
+### CVE-2022-28452 (2022-04-29)
+
+<code>
+Red Planet Laundry Management System 1.0 is vulnerable to SQL Injection.
+</code>
+
 - [YavuzSahbaz/Red-Planet-Laundry-Management-System-1.0-is-vulnerable-to-SQL](https://github.com/YavuzSahbaz/Red-Planet-Laundry-Management-System-1.0-is-vulnerable-to-SQL)
 
 ### CVE-2022-28454 (2022-04-28)
@@ -1810,6 +1820,14 @@ In ResolverActivity, there is a possible user interaction bypass due to a tapjac
 </code>
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0954](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0954)
+
+### CVE-2021-0963 (2021-12-15)
+
+<code>
+In onCreate of KeyChainActivity.java, there is a possible way to use an app certificate stored in keychain due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-9Android ID: A-199754277
+</code>
+
+- [Trinadh465/packages_apps_KeyChain_AOSP10_r33_CVE-2021-0963](https://github.com/Trinadh465/packages_apps_KeyChain_AOSP10_r33_CVE-2021-0963)
 
 ### CVE-2021-1056 (2021-01-07)
 
@@ -4811,7 +4829,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
-- [z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798)
 - [julesbozouklian/CVE-2021-43798](https://github.com/julesbozouklian/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
@@ -17811,6 +17828,7 @@ The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRA
 </code>
 
 - [h3v0x/CVE-2018-19422-SubrionCMS-RCE](https://github.com/h3v0x/CVE-2018-19422-SubrionCMS-RCE)
+- [Swammers8/SubrionCMS-4.2.1-File-upload-RCE-auth-](https://github.com/Swammers8/SubrionCMS-4.2.1-File-upload-RCE-auth-)
 
 ### CVE-2018-19466 (2019-03-27)
 
