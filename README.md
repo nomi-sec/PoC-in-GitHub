@@ -332,6 +332,14 @@ pipenv is a Python development workflow tool. Starting with version 2018.10.9 an
 
 - [sreeram281997/CVE-2022-21668-Pipenv-RCE-vulnerability](https://github.com/sreeram281997/CVE-2022-21668-Pipenv-RCE-vulnerability)
 
+### CVE-2022-21728 (2022-02-03)
+
+<code>
+Tensorflow is an Open Source Machine Learning Framework. The implementation of shape inference for `ReverseSequence` does not fully validate the value of `batch_dim` and can result in a heap OOB read. There is a check to make sure the value of `batch_dim` does not go over the rank of the input, but there is no check for negative values. Negative dimensions are allowed in some cases to mimic Python's negative indexing (i.e., indexing from the end of the array), however if the value is too negative then the implementation of `Dim` would access elements before the start of an array. The fix will be included in TensorFlow 2.8.0. We will also cherrypick this commit on TensorFlow 2.7.1, TensorFlow 2.6.3, and TensorFlow 2.5.3, as these are also affected and still in supported range.
+</code>
+
+- [mwina/CVE-2022-21728-test](https://github.com/mwina/CVE-2022-21728-test)
+
 ### CVE-2022-21877 (2022-01-11)
 
 <code>
@@ -876,7 +884,12 @@ Argo CD before 2.1.9 and 2.2.x before 2.2.4 allows directory traversal related t
 
 - [jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2)
 
-### CVE-2022-24449
+### CVE-2022-24449 (2022-04-28)
+
+<code>
+Solar appScreener through 3.10.4, when a valid license is not present, allows XXE and SSRF attacks via a crafted XML document.
+</code>
+
 - [jet-pentest/CVE-2022-24449](https://github.com/jet-pentest/CVE-2022-24449)
 
 ### CVE-2022-24483 (2022-04-15)
@@ -1263,7 +1276,12 @@ An issue was discovered in Django 2.2 before 2.2.28, 3.2 before 3.2.13, and 4.0 
 - [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
 
-### CVE-2022-28454
+### CVE-2022-28454 (2022-04-28)
+
+<code>
+Limbas 4.3.36.1319 is vulnerable to Cross Site Scripting (XSS).
+</code>
+
 - [YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-](https://github.com/YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-)
 
 ### CVE-2022-29072 (2022-04-15)
@@ -4740,7 +4758,6 @@ PrestaShop is an Open Source e-commerce web application. Versions of PrestaShop 
 Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
 </code>
 
-- [taythebot/CVE-2021-43798](https://github.com/taythebot/CVE-2021-43798)
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
 - [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
@@ -5264,6 +5281,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [honypot/CVE-2021-44228-vuln-app](https://github.com/honypot/CVE-2021-44228-vuln-app)
 - [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
 - [ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j](https://github.com/ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j)
+- [digital-dev/Log4j-CVE-2021-44228-Remediation](https://github.com/digital-dev/Log4j-CVE-2021-44228-Remediation)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
