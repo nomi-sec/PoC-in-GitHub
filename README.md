@@ -1262,6 +1262,9 @@ A SQL injection vulnerability exists in Microfinance Management System 1.0 when 
 
 - [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
+### CVE-2022-28099
+- [IbrahimEkimIsik/CVE-2022-28099](https://github.com/IbrahimEkimIsik/CVE-2022-28099)
+
 ### CVE-2022-28113 (2022-04-15)
 
 <code>
@@ -1298,6 +1301,9 @@ Limbas 4.3.36.1319 is vulnerable to Cross Site Scripting (XSS).
 
 - [YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-](https://github.com/YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-)
 
+### CVE-2022-28508
+- [YavuzSahbaz/CVE-2022-28508](https://github.com/YavuzSahbaz/CVE-2022-28508)
+
 ### CVE-2022-29072 (2022-04-15)
 
 <code>
@@ -1325,6 +1331,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [k4u5h41/CVE-2022-29464](https://github.com/k4u5h41/CVE-2022-29464)
 - [lowkey0808/cve-2022-29464](https://github.com/lowkey0808/cve-2022-29464)
 - [superzerosec/CVE-2022-29464](https://github.com/superzerosec/CVE-2022-29464)
+- [UUFR/CVE-2022-29464](https://github.com/UUFR/CVE-2022-29464)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -1682,6 +1689,14 @@ In decrypt_1_2 of CryptoPlugin.cpp, there is a possible out of bounds write due 
 </code>
 
 - [pazhanivel07/hardware_interfaces-A10_r33_CVE-2021-0510](https://github.com/pazhanivel07/hardware_interfaces-A10_r33_CVE-2021-0510)
+
+### CVE-2021-0511 (2021-06-21)
+
+<code>
+In Dex2oat of dex2oat.cc, there is a possible way to inject bytecode into an app due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-9 Android-10 Android-11Android ID: A-178055795
+</code>
+
+- [Trinadh465/platform_art_AOSP10_r33_CVE-2021-0511](https://github.com/Trinadh465/platform_art_AOSP10_r33_CVE-2021-0511)
 
 ### CVE-2021-0513 (2021-06-21)
 
@@ -2900,6 +2915,14 @@ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3
 
 - [CsEnox/CVE-2021-22911](https://github.com/CsEnox/CVE-2021-22911)
 
+### CVE-2021-22924 (2021-08-05)
+
+<code>
+libcurl keeps previously used connections in a connection pool for subsequenttransfers to reuse, if one of them matches the setup.Due to errors in the logic, the config matching function did not take 'issuercert' into account and it compared the involved paths *case insensitively*,which could lead to libcurl reusing wrong connections.File paths are, or can be, case sensitive on many systems but not all, and caneven vary depending on used file systems.The comparison also didn't include the 'issuer cert' which a transfer can setto qualify how to verify the server certificate.
+</code>
+
+- [Trinadh465/external_curl_AOSP10_r33_CVE-2021-22924](https://github.com/Trinadh465/external_curl_AOSP10_r33_CVE-2021-22924)
+
 ### CVE-2021-22986 (2021-03-31)
 
 <code>
@@ -3483,7 +3506,6 @@ A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.
 </code>
 
 - [Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928)
-- [shamo0/CVE-2021-27928-POC](https://github.com/shamo0/CVE-2021-27928-POC)
 - [GatoGamer1155/CVE-2021-27928](https://github.com/GatoGamer1155/CVE-2021-27928)
 
 ### CVE-2021-27963 (2021-03-04)
@@ -4267,14 +4289,6 @@ Cachet is an open source status page. With Cachet prior to and including 2.3.18,
 
 - [W0rty/CVE-2021-39165](https://github.com/W0rty/CVE-2021-39165)
 
-### CVE-2021-39316 (2021-08-31)
-
-<code>
-The Zoomsounds plugin &lt;= 6.45 for WordPress allows arbitrary files, including sensitive configuration files such as wp-config.php, to be downloaded via the `dzsap_download` action using directory traversal in the `link` parameter.
-</code>
-
-- [anggoroexe/Mass_CVE-2021-39316](https://github.com/anggoroexe/Mass_CVE-2021-39316)
-
 ### CVE-2021-39623 (2022-01-14)
 
 <code>
@@ -4829,7 +4843,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
-- [julesbozouklian/CVE-2021-43798](https://github.com/julesbozouklian/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
 - [pedrohavay/exploit-grafana-CVE-2021-43798](https://github.com/pedrohavay/exploit-grafana-CVE-2021-43798)
@@ -4949,7 +4962,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jacobtread/L4J-Vuln-Patch](https://github.com/jacobtread/L4J-Vuln-Patch)
-- [UltraVanilla/LogJackFix](https://github.com/UltraVanilla/LogJackFix)
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
 - [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [boundaryx/cloudrasp-log4j2](https://github.com/boundaryx/cloudrasp-log4j2)
@@ -5281,6 +5293,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [yesspider-hacker/log4j-payload-generator](https://github.com/yesspider-hacker/log4j-payload-generator)
 - [LinkMJB/log4shell_scanner](https://github.com/LinkMJB/log4shell_scanner)
 - [NS-Sp4ce/Vm4J](https://github.com/NS-Sp4ce/Vm4J)
+- [PoneyClairDeLune/LogJackFix](https://github.com/PoneyClairDeLune/LogJackFix)
 - [a5tra/log4j-exploit-builder](https://github.com/a5tra/log4j-exploit-builder)
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
 - [romanutti/log4shell-vulnerable-app](https://github.com/romanutti/log4shell-vulnerable-app)
@@ -5325,6 +5338,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
 - [ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j](https://github.com/ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j)
 - [digital-dev/Log4j-CVE-2021-44228-Remediation](https://github.com/digital-dev/Log4j-CVE-2021-44228-Remediation)
+- [TPower2112/Writing-Sample-1](https://github.com/TPower2112/Writing-Sample-1)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
@@ -6040,6 +6054,14 @@ In multiple settings screens, there are possible tapjacking attacks due to an in
 </code>
 
 - [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0416](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0416)
+
+### CVE-2020-0418 (2020-11-10)
+
+<code>
+In getPermissionInfosForGroup of Utils.java, there is a logic error. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-153879813
+</code>
+
+- [Trinadh465/packages_apps_PackageInstaller_AOSP10_r33_CVE-2020-0418](https://github.com/Trinadh465/packages_apps_PackageInstaller_AOSP10_r33_CVE-2020-0418)
 
 ### CVE-2020-0421 (2020-10-14)
 
