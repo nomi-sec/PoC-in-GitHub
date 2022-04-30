@@ -5996,6 +5996,14 @@ In allocExcessBits of bitalloc.c, there is a possible out of bounds write due to
 
 - [ShaikUsaf/system_bt_AOSP10_r33_CVE-2020-0380](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2020-0380)
 
+### CVE-2020-0381 (2020-09-17)
+
+<code>
+In Parse_wave of eas_mdls.c, there is a possible out of bounds write due to an integer overflow. This could lead to remote information disclosure in a highly constrained process with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10 Android-11Android ID: A-150159669
+</code>
+
+- [Trinadh465/external_sonivox_AOSP10_r33_CVE-2020-0381](https://github.com/Trinadh465/external_sonivox_AOSP10_r33_CVE-2020-0381)
+
 ### CVE-2020-0391 (2020-09-17)
 
 <code>
