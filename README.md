@@ -583,6 +583,7 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 </code>
 
 - [PenteraIO/CVE-2022-22948](https://github.com/PenteraIO/CVE-2022-22948)
+- [kaanymz/vcenter-cve-fix](https://github.com/kaanymz/vcenter-cve-fix)
 
 ### CVE-2022-22954 (2022-04-11)
 
@@ -4249,6 +4250,7 @@ Windows Elevation of Privilege Vulnerability
 </code>
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
+- [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
 
 ### CVE-2021-37740 (2022-04-20)
 
@@ -4975,7 +4977,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [boundaryx/cloudrasp-log4j2](https://github.com/boundaryx/cloudrasp-log4j2)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
-- [y35uishere/Log4j2-CVE-2021-44228](https://github.com/y35uishere/Log4j2-CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
