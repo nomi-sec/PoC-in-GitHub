@@ -1228,6 +1228,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
 - [XmasSnowREAL/CVE-2022-26809-RCE](https://github.com/XmasSnowREAL/CVE-2022-26809-RCE)
 - [ZyxelTeam/CVE-2022-26809-RCE](https://github.com/ZyxelTeam/CVE-2022-26809-RCE)
+- [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -2872,14 +2873,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
 - [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
-
-### CVE-2021-22210 (2021-05-06)
-
-<code>
-An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.2. When querying the repository branches through API, GitLab was ignoring a query parameter and returning a considerable amount of results.
-</code>
-
-- [awsassets/CVE-2021-22210](https://github.com/awsassets/CVE-2021-22210)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -4561,6 +4554,14 @@ Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Servic
 </code>
 
 - [lohyt/-CVE-2021-41962](https://github.com/lohyt/-CVE-2021-41962)
+
+### CVE-2021-42008 (2021-10-04)
+
+<code>
+The decode_data function in drivers/net/hamradio/6pack.c in the Linux kernel before 5.13.13 has a slab out-of-bounds write. Input from a process that has the CAP_NET_ADMIN capability can lead to root access.
+</code>
+
+- [0xdevil/CVE-2021-42008](https://github.com/0xdevil/CVE-2021-42008)
 
 ### CVE-2021-42013 (2021-10-07)
 
