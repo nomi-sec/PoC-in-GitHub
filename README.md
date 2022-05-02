@@ -583,7 +583,7 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 </code>
 
 - [PenteraIO/CVE-2022-22948](https://github.com/PenteraIO/CVE-2022-22948)
-- [kaanymz/vcenter-cve-fix](https://github.com/kaanymz/vcenter-cve-fix)
+- [kaanymz/cve-2022-22948-vcenter](https://github.com/kaanymz/cve-2022-22948-vcenter)
 
 ### CVE-2022-22954 (2022-04-11)
 
@@ -607,6 +607,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [tyleraharrison/VMware-CVE-2022-22954-Command-Injector](https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector)
 - [3SsFuck/CVE-2022-22954-POC](https://github.com/3SsFuck/CVE-2022-22954-POC)
 - [MLX15/CVE-2022-22954](https://github.com/MLX15/CVE-2022-22954)
+- [kaanymz/2022-04-06-critical-vmware-fix](https://github.com/kaanymz/2022-04-06-critical-vmware-fix)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -4993,7 +4994,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [OopsieWoopsie/mc-log4j-patcher](https://github.com/OopsieWoopsie/mc-log4j-patcher)
 - [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
-- [StandB/CVE-2021-44228-poc](https://github.com/StandB/CVE-2021-44228-poc)
+- [standb/CVE-2021-44228-poc](https://github.com/standb/CVE-2021-44228-poc)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
 - [tivuhh/log4noshell](https://github.com/tivuhh/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
