@@ -2546,7 +2546,7 @@ A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_
 </code>
 
 - [jbaines-r7/badblood](https://github.com/jbaines-r7/badblood)
-- [ExploitPwner/CVE-2021-20038-Mass-RCE](https://github.com/ExploitPwner/CVE-2021-20038-Mass-RCE)
+- [ExploitPwner/CVE-2021-20038-Mass-RCE-SonicWall](https://github.com/ExploitPwner/CVE-2021-20038-Mass-RCE-SonicWall)
 - [XmasSnowREAL/CVE-2021-20038-Mass-RCE](https://github.com/XmasSnowREAL/CVE-2021-20038-Mass-RCE)
 
 ### CVE-2021-20717 (2021-05-10)
@@ -25318,14 +25318,6 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
 - [SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT)
 - [nobodyatall648/CVE-2003-0264](https://github.com/nobodyatall648/CVE-2003-0264)
-
-### CVE-2003-0282 (2003-05-14)
-
-<code>
-Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
-</code>
-
-- [runtimme/cve-2003-0282](https://github.com/runtimme/cve-2003-0282)
 
 
 ## 2002
