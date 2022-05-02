@@ -1285,6 +1285,9 @@ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attac
 
 - [code-byter/CVE-2022-28113](https://github.com/code-byter/CVE-2022-28113)
 
+### CVE-2022-28118
+- [Richard-Tang/SSCMS-PluginShell](https://github.com/Richard-Tang/SSCMS-PluginShell)
+
 ### CVE-2022-28281
 - [0vercl0k/CVE-2022-28281](https://github.com/0vercl0k/CVE-2022-28281)
 
@@ -4982,7 +4985,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
-- [zlepper/CVE-2021-44228-Test-Server](https://github.com/zlepper/CVE-2021-44228-Test-Server)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck)
 - [nkoneko/VictimApp](https://github.com/nkoneko/VictimApp)
@@ -5351,6 +5353,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j](https://github.com/ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j)
 - [digital-dev/Log4j-Remediation](https://github.com/digital-dev/Log4j-Remediation)
 - [TPower2112/Writing-Sample-1](https://github.com/TPower2112/Writing-Sample-1)
+- [Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228](https://github.com/Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
@@ -25318,6 +25321,14 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
 - [SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT)
 - [nobodyatall648/CVE-2003-0264](https://github.com/nobodyatall648/CVE-2003-0264)
+
+### CVE-2003-0282 (2003-05-14)
+
+<code>
+Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
+</code>
+
+- [runtimme/cve-2003-0282](https://github.com/runtimme/cve-2003-0282)
 
 
 ## 2002
