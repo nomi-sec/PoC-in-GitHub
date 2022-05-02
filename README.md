@@ -20511,7 +20511,6 @@ A malicious third-party can give a crafted &quot;ssh://...&quot; URL to an unsus
 </code>
 
 - [timwr/CVE-2017-1000117](https://github.com/timwr/CVE-2017-1000117)
-- [GrahamMThomas/test-git-vuln_CVE-2017-1000117](https://github.com/GrahamMThomas/test-git-vuln_CVE-2017-1000117)
 - [Manouchehri/CVE-2017-1000117](https://github.com/Manouchehri/CVE-2017-1000117)
 - [thelastbyte/CVE-2017-1000117](https://github.com/thelastbyte/CVE-2017-1000117)
 - [alilangtest/CVE-2017-1000117](https://github.com/alilangtest/CVE-2017-1000117)
@@ -25326,7 +25325,7 @@ Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execut
 Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
 </code>
 
-- [runtimem/cve-2003-0282](https://github.com/runtimem/cve-2003-0282)
+- [runtimme/cve-2003-0282](https://github.com/runtimme/cve-2003-0282)
 
 
 ## 2002
