@@ -583,7 +583,7 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 </code>
 
 - [PenteraIO/CVE-2022-22948](https://github.com/PenteraIO/CVE-2022-22948)
-- [kaanymz/cve-2022-22948-vcenter](https://github.com/kaanymz/cve-2022-22948-vcenter)
+- [kaanymz/researching-cve-2022-22948-vcenter](https://github.com/kaanymz/researching-cve-2022-22948-vcenter)
 
 ### CVE-2022-22954 (2022-04-11)
 
@@ -943,7 +943,7 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 ### CVE-2022-24675 (2022-04-20)
 
 <code>
-encoding/pem in Go before 1.17.9 and 1.8.x before 1.8.1 has a Decode stack overflow via a large amount of PEM data.
+encoding/pem in Go before 1.17.9 and 1.18.x before 1.18.1 has a Decode stack overflow via a large amount of PEM data.
 </code>
 
 - [jfrog/jfrog-CVE-2022-24675](https://github.com/jfrog/jfrog-CVE-2022-24675)
@@ -2888,6 +2888,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
 - [GatoGamer1155/CVE-2021-22204](https://github.com/GatoGamer1155/CVE-2021-22204)
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
+- [BBurgarella/CVE-2021-22204](https://github.com/BBurgarella/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -4528,14 +4529,6 @@ Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-
 </code>
 
 - [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
-
-### CVE-2021-41560 (2021-12-15)
-
-<code>
-OpenCATS through 0.9.6 allows remote attackers to execute arbitrary code by uploading an executable file via lib/FileUtility.php.
-</code>
-
-- [Nickguitar/RevCAT](https://github.com/Nickguitar/RevCAT)
 
 ### CVE-2021-41652 (2022-03-01)
 
