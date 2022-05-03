@@ -20776,7 +20776,7 @@ Incomplete blacklist vulnerability in the servlet filter restriction mechanism i
 The SSLv2 protocol, as used in OpenSSL before 1.0.1s and 1.0.2 before 1.0.2g and other products, requires a server to send a ServerVerify message before establishing that a client possesses certain plaintext RSA data, which makes it easier for remote attackers to decrypt TLS ciphertext data by leveraging a Bleichenbacher RSA padding oracle, aka a &quot;DROWN&quot; attack.
 </code>
 
-- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
+- [clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan)
 
 ### CVE-2016-0801 (2016-02-06)
 
@@ -21934,7 +21934,7 @@ The ssl3_get_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8zd, 1.0.0
 - [scottjpack/Freak-Scanner](https://github.com/scottjpack/Freak-Scanner)
 - [AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script](https://github.com/AbhishekGhosh/FREAK-Attack-CVE-2015-0204-Testing-Script)
 - [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
-- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
+- [clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan)
 
 ### CVE-2015-0231 (2015-01-27)
 
@@ -22893,7 +22893,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [rouze-d/heartbleed](https://github.com/rouze-d/heartbleed)
 - [WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed](https://github.com/WildfootW/CVE-2014-0160_OpenSSL_1.0.1f_Heartbleed)
 - [GuillermoEscobero/heartbleed](https://github.com/GuillermoEscobero/heartbleed)
-- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
+- [clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan)
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
@@ -24274,7 +24274,7 @@ The TLS protocol 1.2 and earlier, as used in Mozilla Firefox, Google Chrome, Qt,
 </code>
 
 - [mpgn/CRIME-poc](https://github.com/mpgn/CRIME-poc)
-- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
+- [clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan)
 
 ### CVE-2012-5106 (2014-06-20)
 
@@ -25045,7 +25045,7 @@ Stack-based buffer overflow in War FTP Daemon 1.65, and possibly earlier, allows
 The default SSL cipher configuration in Apache Tomcat 4.1.28 through 4.1.31, 5.0.0 through 5.0.30, and 5.5.0 through 5.5.17 uses certain insecure ciphers, including the anonymous cipher, which allows remote attackers to obtain sensitive information or have other, unspecified impacts.
 </code>
 
-- [nyc-tophile/A2SV--SSL-VUL-Scan](https://github.com/nyc-tophile/A2SV--SSL-VUL-Scan)
+- [clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan)
 
 ### CVE-2007-2447 (2007-05-14)
 
