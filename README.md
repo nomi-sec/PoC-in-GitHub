@@ -956,6 +956,14 @@ Baicells Nova436Q and Neutrino 430 devices with firmware through QRTB 2.7.8 have
 
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
 
+### CVE-2022-24707 (2022-02-23)
+
+<code>
+Anuko Time Tracker is an open source, web-based time tracking application written in PHP. UNION SQL injection and time-based blind injection vulnerabilities existed in Time Tracker Puncher plugin in versions of anuko timetracker prior to 1.20.0.5642. This was happening because the Puncher plugin was reusing code from other places and was relying on an unsanitized date parameter in POST requests. Because the parameter was not checked, it was possible to craft POST requests with malicious SQL for Time Tracker database. This issue has been resolved in in version 1.20.0.5642. Users unable to upgrade are advised to add their own checks to input.
+</code>
+
+- [Altelus1/CVE-2022-24707](https://github.com/Altelus1/CVE-2022-24707)
+
 ### CVE-2022-24853 (2022-04-14)
 
 <code>
@@ -1285,7 +1293,12 @@ An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attac
 
 - [code-byter/CVE-2022-28113](https://github.com/code-byter/CVE-2022-28113)
 
-### CVE-2022-28118
+### CVE-2022-28118 (2022-05-02)
+
+<code>
+SiteServer CMS v7.x allows attackers to execute arbitrary code via a crafted plug-in.
+</code>
+
 - [Richard-Tang/SSCMS-PluginShell](https://github.com/Richard-Tang/SSCMS-PluginShell)
 
 ### CVE-2022-28281
@@ -1318,6 +1331,14 @@ Limbas 4.3.36.1319 is vulnerable to Cross Site Scripting (XSS).
 
 ### CVE-2022-28508
 - [YavuzSahbaz/CVE-2022-28508](https://github.com/YavuzSahbaz/CVE-2022-28508)
+
+### CVE-2022-28571 (2022-05-02)
+
+<code>
+D-link 882 DIR882A1_FW130B06 was discovered to contain a command injection vulnerability in`/usr/bin/cli.
+</code>
+
+- [F0und-icu/CVE-2022-28571-28573](https://github.com/F0und-icu/CVE-2022-28571-28573)
 
 ### CVE-2022-29072 (2022-04-15)
 
@@ -5919,6 +5940,14 @@ In multiple functions of AccountManager.java, there is a possible permissions by
 </code>
 
 - [pazhanivel07/frameworks_base_CVE-2020-0209](https://github.com/pazhanivel07/frameworks_base_CVE-2020-0209)
+
+### CVE-2020-0215 (2020-06-11)
+
+<code>
+In onCreate of ConfirmConnectActivity.java, there is a possible leak of Bluetooth information due to a permissions bypass. This could lead to local escalation of privilege that exposes a pairing Bluetooth MAC address with no additional execution privileges needed. User interaction is needed for exploitation. Product: Android Versions: Android-9 Android-10 Android-11 Android-8.0 Android-8.1 Android ID: A-140417248
+</code>
+
+- [Trinadh465/packages_apps_Nfc_AOSP10_r33_CVE-2020-0215](https://github.com/Trinadh465/packages_apps_Nfc_AOSP10_r33_CVE-2020-0215)
 
 ### CVE-2020-0218 (2020-06-11)
 
@@ -17712,6 +17741,14 @@ Incorrect side effect annotation in V8 in Google Chrome prior to 70.0.3538.64 al
 
 - [kdmarti2/CVE-2018-17463](https://github.com/kdmarti2/CVE-2018-17463)
 
+### CVE-2018-17553 (2018-10-03)
+
+<code>
+An &quot;Unrestricted Upload of File with Dangerous Type&quot; issue with directory traversal in navigate_upload.php in Naviwebs Navigate CMS 2.8 allows authenticated attackers to achieve remote code execution via a POST request with engine=picnik and id=../../../navigate_info.php.
+</code>
+
+- [MidwintersTomb/CVE-2018-17553](https://github.com/MidwintersTomb/CVE-2018-17553)
+
 ### CVE-2018-17873 (2018-10-23)
 
 <code>
@@ -21362,7 +21399,6 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
 - [arttnba3/CVE-2016-5195](https://github.com/arttnba3/CVE-2016-5195)
 - [KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability)
-- [SmithCGauss/CVE-2016-5195](https://github.com/SmithCGauss/CVE-2016-5195)
 - [th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC)
 - [ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow)
 - [imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847)
