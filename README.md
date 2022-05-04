@@ -962,6 +962,14 @@ Anuko Time Tracker is an open source, web-based time tracking application writte
 
 - [Altelus1/CVE-2022-24707](https://github.com/Altelus1/CVE-2022-24707)
 
+### CVE-2022-24760 (2022-03-11)
+
+<code>
+Parse Server is an open source http web server backend. In versions prior to 4.10.7 there is a Remote Code Execution (RCE) vulnerability in Parse Server. This vulnerability affects Parse Server in the default configuration with MongoDB. The main weakness that leads to RCE is the Prototype Pollution vulnerable code in the file `DatabaseController.js`, so it is likely to affect Postgres and any other database backend as well. This vulnerability has been confirmed on Linux (Ubuntu) and Windows. Users are advised to upgrade as soon as possible. The only known workaround is to manually patch your installation with code referenced at the source GHSA-p6h4-93qp-jhcm.
+</code>
+
+- [tuo4n8/CVE-2022-24760](https://github.com/tuo4n8/CVE-2022-24760)
+
 ### CVE-2022-24853 (2022-04-14)
 
 <code>
@@ -1288,7 +1296,12 @@ A SQL injection vulnerability exists in Microfinance Management System 1.0 when 
 
 - [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
-### CVE-2022-28099
+### CVE-2022-28099 (2022-05-04)
+
+<code>
+Poultry Farm Management System v1.0 was discovered to contain a SQL injection vulnerability via the Item parameter at /farm/store.php.
+</code>
+
 - [IbrahimEkimIsik/CVE-2022-28099](https://github.com/IbrahimEkimIsik/CVE-2022-28099)
 
 ### CVE-2022-28113 (2022-04-15)
@@ -1335,7 +1348,12 @@ Limbas 4.3.36.1319 is vulnerable to Cross Site Scripting (XSS).
 
 - [YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-](https://github.com/YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-)
 
-### CVE-2022-28508
+### CVE-2022-28508 (2022-05-04)
+
+<code>
+An XSS issue was discovered in browser_search_plugin.php in MantisBT before 2.25.2. Unescaped output of the return parameter allows an attacker to inject code into a hidden input field.
+</code>
+
 - [YavuzSahbaz/CVE-2022-28508](https://github.com/YavuzSahbaz/CVE-2022-28508)
 
 ### CVE-2022-28571 (2022-05-02)
