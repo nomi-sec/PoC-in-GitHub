@@ -583,7 +583,6 @@ The vCenter Server contains an information disclosure vulnerability due to impro
 </code>
 
 - [PenteraIO/CVE-2022-22948](https://github.com/PenteraIO/CVE-2022-22948)
-- [kaanymz/researching-cve-2022-22948-vcenter](https://github.com/kaanymz/researching-cve-2022-22948-vcenter)
 
 ### CVE-2022-22954 (2022-04-11)
 
@@ -607,7 +606,6 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [tyleraharrison/VMware-CVE-2022-22954-Command-Injector](https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector)
 - [3SsFuck/CVE-2022-22954-POC](https://github.com/3SsFuck/CVE-2022-22954-POC)
 - [MLX15/CVE-2022-22954](https://github.com/MLX15/CVE-2022-22954)
-- [kaanymz/2022-04-06-critical-vmware-fix](https://github.com/kaanymz/2022-04-06-critical-vmware-fix)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -1390,6 +1388,9 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 
 ### CVE-2022-29598
 - [TheGetch/CVE-2022-29598](https://github.com/TheGetch/CVE-2022-29598)
+
+### CVE-2022-29932
+- [Off3nS3c/CVE-2022-29932](https://github.com/Off3nS3c/CVE-2022-29932)
 
 ### CVE-2022-31166
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -11258,6 +11259,9 @@ An elevation of privilege vulnerability exists when the Windows User Profile Ser
 
 - [padovah4ck/CVE-2019-0986](https://github.com/padovah4ck/CVE-2019-0986)
 
+### CVE-2019-905
+- [xtafnull/CMS-made-simple-sqli-python3](https://github.com/xtafnull/CMS-made-simple-sqli-python3)
+
 ### CVE-2019-1040 (2019-06-12)
 
 <code>
@@ -20098,7 +20102,6 @@ An elevation of privilege vulnerability in the Android system (art). Product: An
 - [caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156)
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
-- [ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-POC](https://github.com/ari5ti/Janus-Vulnerability-CVE-2017-13156-Exploit-with-POC)
 
 ### CVE-2017-13208 (2018-01-12)
 
