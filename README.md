@@ -1086,6 +1086,14 @@ An issue was discovered in drivers/usb/gadget/composite.c in the Linux kernel be
 
 - [szymonh/d-os-descriptor](https://github.com/szymonh/d-os-descriptor)
 
+### CVE-2022-25262 (2022-02-25)
+
+<code>
+In JetBrains Hub before 2022.1.14434, SAML request takeover was possible.
+</code>
+
+- [yuriisanin/CVE-2022-25262](https://github.com/yuriisanin/CVE-2022-25262)
+
 ### CVE-2022-25375 (2022-02-20)
 
 <code>
@@ -2888,7 +2896,6 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
 - [GatoGamer1155/CVE-2021-22204](https://github.com/GatoGamer1155/CVE-2021-22204)
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
-- [BBurgarella/CVE-2021-22204](https://github.com/BBurgarella/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -4321,6 +4328,14 @@ Cachet is an open source status page. With Cachet prior to and including 2.3.18,
 </code>
 
 - [W0rty/CVE-2021-39165](https://github.com/W0rty/CVE-2021-39165)
+
+### CVE-2021-39174 (2021-08-27)
+
+<code>
+Cachet is an open source status page system. Prior to version 2.5.1, authenticated users, regardless of their privileges (User or Admin), can leak the value of any configuration entry of the dotenv file, e.g. the application secret (`APP_KEY`) and various passwords (email, database, etc). This issue was addressed in version 2.5.1 by improving `UpdateConfigCommandHandler` and preventing the use of nested variables in the resulting dotenv configuration file. As a workaround, only allow trusted source IP addresses to access to the administration dashboard.
+</code>
+
+- [narkopolo/CVE-2021-39174-PoC](https://github.com/narkopolo/CVE-2021-39174-PoC)
 
 ### CVE-2021-39623 (2022-01-14)
 
