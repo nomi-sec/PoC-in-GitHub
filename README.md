@@ -269,8 +269,15 @@ The Elementor Website Builder plugin for WordPress is vulnerable to unauthorized
 - [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
 - [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
 
-### CVE-2022-1388
+### CVE-2022-1388 (2022-05-05)
+
+<code>
+On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all 12.1.x and 11.6.x versions, undisclosed requests may bypass iControl REST authentication. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated
+</code>
+
 - [numanturle/CVE-2022-1388](https://github.com/numanturle/CVE-2022-1388)
+- [TomArni680/CVE-2022-1388-POC](https://github.com/TomArni680/CVE-2022-1388-POC)
+- [jheeree/CVE-2022-1388-checker](https://github.com/jheeree/CVE-2022-1388-checker)
 
 ### CVE-2022-1444 (2022-04-23)
 
@@ -1316,6 +1323,22 @@ A SQL injection vulnerability exists in Microfinance Management System 1.0 when 
 </code>
 
 - [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
+
+### CVE-2022-28079 (2022-05-05)
+
+<code>
+College Management System v1.0 was discovered to contain a SQL injection vulnerability via the course_code parameter.
+</code>
+
+- [erengozaydin/College-Management-System-course_code-SQL-Injection-Authenticated](https://github.com/erengozaydin/College-Management-System-course_code-SQL-Injection-Authenticated)
+
+### CVE-2022-28080 (2022-05-05)
+
+<code>
+Royal Event Management System v1.0 was discovered to contain a SQL injection vulnerability via the todate parameter.
+</code>
+
+- [erengozaydin/Royal-Event-Management-System-todate-SQL-Injection-Authenticated](https://github.com/erengozaydin/Royal-Event-Management-System-todate-SQL-Injection-Authenticated)
 
 ### CVE-2022-28099 (2022-05-04)
 
@@ -4669,6 +4692,14 @@ Zenario CMS 9.0.54156 is vulnerable to File Upload. The web server can be compro
 
 - [minhnq22/CVE-2021-42171](https://github.com/minhnq22/CVE-2021-42171)
 
+### CVE-2021-42183 (2022-05-05)
+
+<code>
+MasaCMS 7.2.1 is affected by a path traversal vulnerability in /index.cfm/_api/asset/image/.
+</code>
+
+- [0xRaw/CVE-2021-42183](https://github.com/0xRaw/CVE-2021-42183)
+
 ### CVE-2021-42230 (2022-04-15)
 
 <code>
@@ -5070,7 +5101,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
-- [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
 - [standb/CVE-2021-44228-poc](https://github.com/standb/CVE-2021-44228-poc)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
