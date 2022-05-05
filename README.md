@@ -224,6 +224,14 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 - [pqlx/CVE-2022-1015](https://github.com/pqlx/CVE-2022-1015)
 - [zanezhub/CVE-2022-1015-1016](https://github.com/zanezhub/CVE-2022-1015-1016)
 
+### CVE-2022-1040 (2022-03-25)
+
+<code>
+An authentication bypass vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v18.5 MR3 and older.
+</code>
+
+- [cve-hunter/CVE-2022-1040-sophos-rce](https://github.com/cve-hunter/CVE-2022-1040-sophos-rce)
+
 ### CVE-2022-1077 (2022-03-29)
 
 <code>
@@ -260,6 +268,17 @@ The Elementor Website Builder plugin for WordPress is vulnerable to unauthorized
 - [AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit](https://github.com/AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit)
 - [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
 - [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
+
+### CVE-2022-1388
+- [numanturle/CVE-2022-1388](https://github.com/numanturle/CVE-2022-1388)
+
+### CVE-2022-1444 (2022-04-23)
+
+<code>
+heap-use-after-free in GitHub repository radareorg/radare2 prior to 5.7.0. This vulnerability is capable of inducing denial of service.
+</code>
+
+- [KrungSalad/POC-CVE-2022-1444](https://github.com/KrungSalad/POC-CVE-2022-1444)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -606,6 +625,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [tyleraharrison/VMware-CVE-2022-22954-Command-Injector](https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector)
 - [3SsFuck/CVE-2022-22954-POC](https://github.com/3SsFuck/CVE-2022-22954-POC)
 - [MLX15/CVE-2022-22954](https://github.com/MLX15/CVE-2022-22954)
+- [nguyenv1nK/CVE-2022-22954](https://github.com/nguyenv1nK/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -1252,6 +1272,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [XmasSnowREAL/CVE-2022-26809-RCE](https://github.com/XmasSnowREAL/CVE-2022-26809-RCE)
 - [ZyxelTeam/CVE-2022-26809-RCE](https://github.com/ZyxelTeam/CVE-2022-26809-RCE)
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
+- [crypt0r00t/CVE-2022-26809](https://github.com/crypt0r00t/CVE-2022-26809)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -4298,6 +4319,14 @@ Windows Elevation of Privilege Vulnerability
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 - [chron1k/oxide_hive](https://github.com/chron1k/oxide_hive)
 
+### CVE-2021-36981 (2021-08-30)
+
+<code>
+In the server in SerNet verinice before 1.22.2, insecure Java deserialization allows remote authenticated attackers to execute arbitrary code.
+</code>
+
+- [0xBrAinsTorM/CVE-2021-36981](https://github.com/0xBrAinsTorM/CVE-2021-36981)
+
 ### CVE-2021-37740 (2022-04-20)
 
 <code>
@@ -5041,7 +5070,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
-- [OopsieWoopsie/mc-log4j-patcher](https://github.com/OopsieWoopsie/mc-log4j-patcher)
 - [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
 - [standb/CVE-2021-44228-poc](https://github.com/standb/CVE-2021-44228-poc)
@@ -6553,6 +6581,7 @@ A denial of service vulnerability exists when Microsoft Hyper-V on a host server
 
 - [gerhart01/hyperv_local_dos_poc](https://github.com/gerhart01/hyperv_local_dos_poc)
 - [skasanagottu57gmailv/gerhart01](https://github.com/skasanagottu57gmailv/gerhart01)
+- [MarcelloTinocor/gerhart01](https://github.com/MarcelloTinocor/gerhart01)
 
 ### CVE-2020-0905 (2020-03-12)
 
