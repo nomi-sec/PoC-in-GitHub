@@ -430,7 +430,7 @@ SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, AB
 </code>
 
 - [antx-code/CVE-2022-22536](https://github.com/antx-code/CVE-2022-22536)
-- [asurti6783/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536](https://github.com/asurti6783/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536)
+- [tes5hacks/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536](https://github.com/tes5hacks/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536)
 
 ### CVE-2022-22582
 - [poizon-box/CVE-2022-22582](https://github.com/poizon-box/CVE-2022-22582)
@@ -978,6 +978,14 @@ Metabase is an open source business intelligence and analytics application. Meta
 
 - [secure-77/CVE-2022-24853](https://github.com/secure-77/CVE-2022-24853)
 
+### CVE-2022-24924 (2022-02-11)
+
+<code>
+An improper access control in LiveWallpaperService prior to versions 3.0.9.0 allows to create a specific named system directory without a proper permission.
+</code>
+
+- [heegong/CVE-2022-24924](https://github.com/heegong/CVE-2022-24924)
+
 ### CVE-2022-24934 (2022-03-23)
 
 <code>
@@ -1384,6 +1392,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [lowkey0808/cve-2022-29464](https://github.com/lowkey0808/cve-2022-29464)
 - [superzerosec/CVE-2022-29464](https://github.com/superzerosec/CVE-2022-29464)
 - [UUFR/CVE-2022-29464](https://github.com/UUFR/CVE-2022-29464)
+- [axin2019/CVE-2022-29464](https://github.com/axin2019/CVE-2022-29464)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -14982,6 +14991,7 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 - [zi0Black/POC-CVE-2018-0114](https://github.com/zi0Black/POC-CVE-2018-0114)
 - [Logeirs/CVE-2018-0114](https://github.com/Logeirs/CVE-2018-0114)
 - [adityathebe/POC-CVE-2018-0114](https://github.com/adityathebe/POC-CVE-2018-0114)
+- [Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114)
 - [Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114)
 - [scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114)
 - [j4k0m/CVE-2018-0114](https://github.com/j4k0m/CVE-2018-0114)
@@ -15365,6 +15375,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [111ddea/cve-2018-2894](https://github.com/111ddea/cve-2018-2894)
 - [LandGrey/CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894)
 - [jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894)
+- [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
 
 ### CVE-2018-3191 (2018-10-16)
 
@@ -15948,6 +15959,11 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC)
 - [Yashrk078/Test_CVE-2018-6574](https://github.com/Yashrk078/Test_CVE-2018-6574)
 - [azzzzzzzzzzzzzzzzz/CVE-2018-6574](https://github.com/azzzzzzzzzzzzzzzzz/CVE-2018-6574)
+- [FilipeFraqueiro/CVE-2018-6574](https://github.com/FilipeFraqueiro/CVE-2018-6574)
+- [shadofren/CVE-2018-6574](https://github.com/shadofren/CVE-2018-6574)
+- [NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574)
+- [vishack/CVE-2018-6574](https://github.com/vishack/CVE-2018-6574)
+- [PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise)
 - [purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574)
 - [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
@@ -16589,6 +16605,7 @@ An issue was discovered in PRTG Network Monitor before 18.2.39. An attacker who 
 </code>
 
 - [wildkindcc/CVE-2018-9276](https://github.com/wildkindcc/CVE-2018-9276)
+- [AndyFeiLi/CVE-2018-9276](https://github.com/AndyFeiLi/CVE-2018-9276)
 - [A1vinSmith/CVE-2018-9276](https://github.com/A1vinSmith/CVE-2018-9276)
 
 ### CVE-2018-9375
@@ -17164,6 +17181,7 @@ An Improper Limitation of a Pathname to a Restricted Directory (&quot;Path Trave
 - [pwn3z/CVE-2018-13379-FortinetVPN](https://github.com/pwn3z/CVE-2018-13379-FortinetVPN)
 - [k4nfr3/CVE-2018-13379-Fortinet](https://github.com/k4nfr3/CVE-2018-13379-Fortinet)
 - [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
+- [B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379)
 - [nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379)
 
 ### CVE-2018-13382 (2019-06-04)
@@ -17322,6 +17340,8 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [Bilelxdz/Laravel-CVE-2018-15133](https://github.com/Bilelxdz/Laravel-CVE-2018-15133)
 - [Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader](https://github.com/Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader)
 - [iansangaji/laravel-rce-cve-2018-15133](https://github.com/iansangaji/laravel-rce-cve-2018-15133)
+- [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
+- [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
 - [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 - [huydoppa/CVE-2018-15133](https://github.com/huydoppa/CVE-2018-15133)
@@ -17368,6 +17388,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [coollce/CVE-2018-15473_burte](https://github.com/coollce/CVE-2018-15473_burte)
 - [Dirty-Racoon/CVE-2018-15473-py3](https://github.com/Dirty-Racoon/CVE-2018-15473-py3)
 - [Sait-Nuri/CVE-2018-15473](https://github.com/Sait-Nuri/CVE-2018-15473)
+- [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
 - [MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473)
 - [66quentin/shodan-CVE-2018-15473](https://github.com/66quentin/shodan-CVE-2018-15473)
 - [robiul-awal/CVE-2018-15473](https://github.com/robiul-awal/CVE-2018-15473)
@@ -17606,6 +17627,14 @@ An issue was discovered in Dolibarr through 7.0.0. expensereport/card.php in the
 </code>
 
 - [elkassimyhajar/CVE-2018-16809](https://github.com/elkassimyhajar/CVE-2018-16809)
+
+### CVE-2018-16843 (2018-11-07)
+
+<code>
+nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive memory consumption. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the 'http2' option of the 'listen' directive is used in a configuration file.
+</code>
+
+- [flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5)
 
 ### CVE-2018-16845 (2018-11-07)
 
@@ -18071,6 +18100,14 @@ Multiple buffer overflow vulnerabilities have been found in Ken Silverman Build 
 </code>
 
 - [Alexandre-Bartel/CVE-2018-20343](https://github.com/Alexandre-Bartel/CVE-2018-20343)
+
+### CVE-2018-20433 (2018-12-24)
+
+<code>
+c3p0 0.9.5.2 allows XXE in extractXmlConfigFromInputStream in com/mchange/v2/c3p0/cfg/C3P0ConfigXmlUtils.java during initialization.
+</code>
+
+- [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
 ### CVE-2018-20434 (2019-04-24)
 
@@ -20923,7 +20960,6 @@ The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, an
 </code>
 
 - [bazad/flow_divert-heap-overflow](https://github.com/bazad/flow_divert-heap-overflow)
-- [domain9065v/bazad3](https://github.com/domain9065v/bazad3)
 - [superMan7912002/bazad3](https://github.com/superMan7912002/bazad3)
 
 ### CVE-2016-1828 (2016-05-20)
