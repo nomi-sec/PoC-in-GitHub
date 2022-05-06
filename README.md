@@ -51,6 +51,14 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 ### CVE-2022-0337
 - [Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera](https://github.com/Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera)
 
+### CVE-2022-0441 (2022-03-07)
+
+<code>
+The MasterStudy LMS WordPress plugin before 2.7.6 does to validate some parameters given when registering a new account, allowing unauthenticated users to register as an admin
+</code>
+
+- [biulove0x/CVE-2022-0441](https://github.com/biulove0x/CVE-2022-0441)
+
 ### CVE-2022-0482 (2022-03-09)
 
 <code>
@@ -434,6 +442,14 @@ Roaming Security Rights Management Services Remote Code Execution Vulnerability.
 </code>
 
 - [0vercl0k/CVE-2022-21974](https://github.com/0vercl0k/CVE-2022-21974)
+
+### CVE-2022-21984 (2022-02-09)
+
+<code>
+Windows DNS Server Remote Code Execution Vulnerability.
+</code>
+
+- [u201424348/CVE-2022-21984](https://github.com/u201424348/CVE-2022-21984)
 
 ### CVE-2022-21999 (2022-02-09)
 
