@@ -231,6 +231,7 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 </code>
 
 - [cve-hunter/CVE-2022-1040-sophos-rce](https://github.com/cve-hunter/CVE-2022-1040-sophos-rce)
+- [killvxk/CVE-2022-1040](https://github.com/killvxk/CVE-2022-1040)
 
 ### CVE-2022-1077 (2022-03-29)
 
@@ -278,6 +279,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [numanturle/CVE-2022-1388](https://github.com/numanturle/CVE-2022-1388)
 - [TomArni680/CVE-2022-1388-POC](https://github.com/TomArni680/CVE-2022-1388-POC)
 - [jheeree/CVE-2022-1388-checker](https://github.com/jheeree/CVE-2022-1388-checker)
+- [MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed](https://github.com/MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed)
 
 ### CVE-2022-1444 (2022-04-23)
 
