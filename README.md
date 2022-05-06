@@ -1107,6 +1107,14 @@ Printix Secure Cloud Print Management through 1.3.1106.0 creates a temporary tem
 
 - [ComparedArray/printix-CVE-2022-25090](https://github.com/ComparedArray/printix-CVE-2022-25090)
 
+### CVE-2022-25236 (2022-02-15)
+
+<code>
+xmlparse.c in Expat (aka libexpat) before 2.4.5 allows attackers to insert namespace-separator characters into namespace URIs.
+</code>
+
+- [Satheesh575555/external_expat_AOSP10_r33_CVE-2022-25236](https://github.com/Satheesh575555/external_expat_AOSP10_r33_CVE-2022-25236)
+
 ### CVE-2022-25256 (2022-02-18)
 
 <code>
@@ -22392,6 +22400,14 @@ Adobe Reader and Acrobat 10.x before 10.1.14 and 11.x before 11.0.11 on Windows 
 </code>
 
 - [reigningshells/CVE-2015-3073](https://github.com/reigningshells/CVE-2015-3073)
+
+### CVE-2015-3090 (2015-05-13)
+
+<code>
+Adobe Flash Player before 13.0.0.289 and 14.x through 17.x before 17.0.0.188 on Windows and OS X and before 11.2.202.460 on Linux, Adobe AIR before 17.0.0.172, Adobe AIR SDK before 17.0.0.172, and Adobe AIR SDK &amp; Compiler before 17.0.0.172 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2015-3078, CVE-2015-3089, and CVE-2015-3093.
+</code>
+
+- [Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18)
 
 ### CVE-2015-3152 (2016-05-16)
 
