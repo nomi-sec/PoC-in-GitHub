@@ -1109,6 +1109,14 @@ TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a remote code execu
 - [exploitwritter/CVE-2022-25064](https://github.com/exploitwritter/CVE-2022-25064)
 - [Mr-xn/CVE-2022-25064](https://github.com/Mr-xn/CVE-2022-25064)
 
+### CVE-2022-25075 (2022-02-22)
+
+<code>
+TOTOLink A3000RU V5.9c.2280_B20180512 was discovered to contain a command injection vulnerability in the &quot;Main&quot; function. This vulnerability allows attackers to execute arbitrary commands via the QUERY_STRING parameter.
+</code>
+
+- [kuznyJan1972/CVE-2022-25075-RCE](https://github.com/kuznyJan1972/CVE-2022-25075-RCE)
+
 ### CVE-2022-25089 (2022-03-02)
 
 <code>
@@ -7167,6 +7175,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452)
 - [Aviksaikat/CVE-2020-3452](https://github.com/Aviksaikat/CVE-2020-3452)
 - [Veids/CVE-2020-3452_auto](https://github.com/Veids/CVE-2020-3452_auto)
+- [iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452)
 
 ### CVE-2020-3580 (2020-10-21)
 
@@ -19342,6 +19351,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux)
 - [yinyinmeimei/CVE-2017-7494-payload](https://github.com/yinyinmeimei/CVE-2017-7494-payload)
 - [adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC)
+- [eulercode/exploit-CVE-2017-7494](https://github.com/eulercode/exploit-CVE-2017-7494)
 
 ### CVE-2017-7525 (2018-02-06)
 
@@ -21991,6 +22001,14 @@ Information disclosure and authentication bypass vulnerability exists in the Apa
 </code>
 
 - [asaotomo/CVE-2016-10140-Zoneminder-Poc](https://github.com/asaotomo/CVE-2016-10140-Zoneminder-Poc)
+
+### CVE-2016-10190 (2017-02-09)
+
+<code>
+Heap-based buffer overflow in libavformat/http.c in FFmpeg before 2.8.10, 3.0.x before 3.0.5, 3.1.x before 3.1.6, and 3.2.x before 3.2.2 allows remote web servers to execute arbitrary code via a negative chunk size in an HTTP response.
+</code>
+
+- [muzalam/FFMPEG-exploit](https://github.com/muzalam/FFMPEG-exploit)
 
 ### CVE-2016-10277 (2017-05-12)
 
