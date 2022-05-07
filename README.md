@@ -173,9 +173,9 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [chenaotian/CVE-2022-0847](https://github.com/chenaotian/CVE-2022-0847)
 - [V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit)
 - [michaelklaan/CVE-2022-0847-Dirty-Pipe](https://github.com/michaelklaan/CVE-2022-0847-Dirty-Pipe)
-- [terabitSec/dirtyPipe-automaticRoot](https://github.com/terabitSec/dirtyPipe-automaticRoot)
 - [Greetdawn/CVE-2022-0847-DirtyPipe-](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-)
 - [crusoe112/DirtyPipePython](https://github.com/crusoe112/DirtyPipePython)
+- [nanaao/dirtyPipe-automaticRoot](https://github.com/nanaao/dirtyPipe-automaticRoot)
 - [arttnba3/CVE-2022-0847](https://github.com/arttnba3/CVE-2022-0847)
 - [AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
 - [sa-infinity8888/Dirty-Pipe-CVE-2022-0847](https://github.com/sa-infinity8888/Dirty-Pipe-CVE-2022-0847)
@@ -1463,6 +1463,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [superzerosec/CVE-2022-29464](https://github.com/superzerosec/CVE-2022-29464)
 - [UUFR/CVE-2022-29464](https://github.com/UUFR/CVE-2022-29464)
 - [axin2019/CVE-2022-29464](https://github.com/axin2019/CVE-2022-29464)
+- [LinJacck/CVE-2022-29464](https://github.com/LinJacck/CVE-2022-29464)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -4937,6 +4938,14 @@ Windows Common Log File System Driver Information Disclosure Vulnerability
 
 - [KaLendsi/CVE-2021-43224-POC](https://github.com/KaLendsi/CVE-2021-43224-POC)
 
+### CVE-2021-43287 (2022-04-14)
+
+<code>
+An issue was discovered in ThoughtWorks GoCD before 21.3.0. The business continuity add-on, which is enabled by default, leaks all secrets known to the GoCD server to unauthenticated attackers.
+</code>
+
+- [Wrin9/CVE-2021-43287](https://github.com/Wrin9/CVE-2021-43287)
+
 ### CVE-2021-43297 (2022-01-10)
 
 <code>
@@ -5125,7 +5134,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
-- [standb/CVE-2021-44228-poc](https://github.com/standb/CVE-2021-44228-poc)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
 - [tivuhh/log4noshell](https://github.com/tivuhh/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
@@ -15466,7 +15474,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 </code>
 
 - [arongmh/CVE-2018-3191](https://github.com/arongmh/CVE-2018-3191)
-- [pyn3rd/CVE-2018-3191](https://github.com/pyn3rd/CVE-2018-3191)
+- [m00zh33/CVE-2018-3191](https://github.com/m00zh33/CVE-2018-3191)
 - [Libraggbond/CVE-2018-3191](https://github.com/Libraggbond/CVE-2018-3191)
 - [jas502n/CVE-2018-3191](https://github.com/jas502n/CVE-2018-3191)
 - [mackleadmire/CVE-2018-3191-Rce-Exploit](https://github.com/mackleadmire/CVE-2018-3191-Rce-Exploit)
@@ -21162,7 +21170,6 @@ SQL injection vulnerability in include/lib/mysql_connect.inc.php in ATutor 2.2.1
 
 - [shadofren/CVE-2016-2555](https://github.com/shadofren/CVE-2016-2555)
 - [maximilianmarx/atutor-blind-sqli](https://github.com/maximilianmarx/atutor-blind-sqli)
-- [jrgdiaz/CVE-2016-2555](https://github.com/jrgdiaz/CVE-2016-2555)
 
 ### CVE-2016-2569 (2016-02-26)
 
@@ -23043,6 +23050,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
+- [GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing)
 
 ### CVE-2014-0166 (2014-04-09)
 
@@ -23327,6 +23335,7 @@ The expandArguments function in the database abstraction API in Drupal core 7.x 
 </code>
 
 - [happynote3966/CVE-2014-3704](https://github.com/happynote3966/CVE-2014-3704)
+- [WTSTiNy/CVE-2014-3704](https://github.com/WTSTiNy/CVE-2014-3704)
 
 ### CVE-2014-4014 (2014-06-23)
 
