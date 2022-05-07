@@ -288,6 +288,9 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [TomArni680/CVE-2022-1388-POC](https://github.com/TomArni680/CVE-2022-1388-POC)
 - [jheeree/CVE-2022-1388-checker](https://github.com/jheeree/CVE-2022-1388-checker)
 - [MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed](https://github.com/MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed)
+- [Osyanina/westone-CVE-2022-1388-scanner](https://github.com/Osyanina/westone-CVE-2022-1388-scanner)
+- [bytecaps/F5-BIG-IP-RCE-Check](https://github.com/bytecaps/F5-BIG-IP-RCE-Check)
+- [TomArni680/CVE-2022-1388-RCE](https://github.com/TomArni680/CVE-2022-1388-RCE)
 
 ### CVE-2022-1444 (2022-04-23)
 
@@ -2925,6 +2928,14 @@ VMware View Planner 4.x prior to 4.6 Security Patch 1 contains a remote code exe
 - [me1ons/CVE-2021-21978](https://github.com/me1ons/CVE-2021-21978)
 - [skytina/CVE-2021-21978](https://github.com/skytina/CVE-2021-21978)
 
+### CVE-2021-21980 (2021-11-24)
+
+<code>
+The vSphere Web Client (FLEX/Flash) contains an unauthorized arbitrary file read vulnerability. A malicious actor with network access to port 443 on vCenter Server may exploit this issue to gain access to sensitive information.
+</code>
+
+- [Osyanina/westone-CVE-2022-1388-scanner](https://github.com/Osyanina/westone-CVE-2022-1388-scanner)
+
 ### CVE-2021-21983 (2021-03-31)
 
 <code>
@@ -5136,7 +5147,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck)
-- [nkoneko/VictimApp](https://github.com/nkoneko/VictimApp)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
