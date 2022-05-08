@@ -1337,6 +1337,9 @@ The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal 
 
 - [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
 
+### CVE-2022-27434
+- [LongWayHomie/CVE-2022-27434](https://github.com/LongWayHomie/CVE-2022-27434)
+
 ### CVE-2022-27666 (2022-03-23)
 
 <code>
@@ -22149,6 +22152,14 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
 - [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
+
+### CVE-2015-0311 (2015-01-23)
+
+<code>
+Unspecified vulnerability in Adobe Flash Player through 13.0.0.262 and 14.x, 15.x, and 16.x through 16.0.0.287 on Windows and OS X and through 11.2.202.438 on Linux allows remote attackers to execute arbitrary code via unknown vectors, as exploited in the wild in January 2015.
+</code>
+
+- [jr64/CVE-2015-0311](https://github.com/jr64/CVE-2015-0311)
 
 ### CVE-2015-0313 (2015-02-02)
 
