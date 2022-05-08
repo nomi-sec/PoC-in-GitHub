@@ -1011,6 +1011,14 @@ Anuko Time Tracker is an open source, web-based time tracking application writte
 
 - [Altelus1/CVE-2022-24707](https://github.com/Altelus1/CVE-2022-24707)
 
+### CVE-2022-24734 (2022-03-09)
+
+<code>
+MyBB is a free and open source forum software. In affected versions the Admin CP's Settings management module does not validate setting types correctly on insertion and update, making it possible to add settings of supported type `php` with PHP code, executed on on _Change Settings_ pages. This results in a Remote Code Execution (RCE) vulnerability. The vulnerable module requires Admin CP access with the `Can manage settings?` permission. MyBB's Settings module, which allows administrators to add, edit, and delete non-default settings, stores setting data in an options code string ($options_code; mybb_settings.optionscode database column) that identifies the setting type and its options, separated by a new line character (\n). In MyBB 1.2.0, support for setting type php was added, for which the remaining part of the options code is PHP code executed on Change Settings pages (reserved for plugins and internal use). MyBB 1.8.30 resolves this issue. There are no known workarounds.
+</code>
+
+- [Altelus1/CVE-2022-24734](https://github.com/Altelus1/CVE-2022-24734)
+
 ### CVE-2022-24760 (2022-03-11)
 
 <code>
@@ -1318,6 +1326,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [ZyxelTeam/CVE-2022-26809-RCE](https://github.com/ZyxelTeam/CVE-2022-26809-RCE)
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [crypt0r00t/CVE-2022-26809](https://github.com/crypt0r00t/CVE-2022-26809)
+- [seciurdt/CVE-2022-26809-POC](https://github.com/seciurdt/CVE-2022-26809-POC)
 
 ### CVE-2022-27226 (2022-03-18)
 
