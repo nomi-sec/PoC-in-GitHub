@@ -291,6 +291,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Osyanina/westone-CVE-2022-1388-scanner](https://github.com/Osyanina/westone-CVE-2022-1388-scanner)
 - [bytecaps/F5-BIG-IP-RCE-Check](https://github.com/bytecaps/F5-BIG-IP-RCE-Check)
 - [TomArni680/CVE-2022-1388-RCE](https://github.com/TomArni680/CVE-2022-1388-RCE)
+- [blind-intruder/CVE-2022-1388-RCE-checker](https://github.com/blind-intruder/CVE-2022-1388-RCE-checker)
 
 ### CVE-2022-1444 (2022-04-23)
 
