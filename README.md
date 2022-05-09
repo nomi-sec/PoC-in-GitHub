@@ -293,6 +293,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [bytecaps/F5-BIG-IP-RCE-Check](https://github.com/bytecaps/F5-BIG-IP-RCE-Check)
 - [TomArni680/CVE-2022-1388-RCE](https://github.com/TomArni680/CVE-2022-1388-RCE)
 - [blind-intruder/CVE-2022-1388-RCE-checker](https://github.com/blind-intruder/CVE-2022-1388-RCE-checker)
+- [Hudi233/CVE-2022-1388](https://github.com/Hudi233/CVE-2022-1388)
 
 ### CVE-2022-1444 (2022-04-23)
 
@@ -304,9 +305,6 @@ heap-use-after-free in GitHub repository radareorg/radare2 prior to 5.7.0. This 
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
-
-### CVE-2022-3000
-- [l4fu/CVE-2022-3000](https://github.com/l4fu/CVE-2022-3000)
 
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
