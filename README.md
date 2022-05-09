@@ -197,6 +197,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [mhanief/dirtypipe](https://github.com/mhanief/dirtypipe)
 - [tufanturhan/CVE-2022-0847-L-nux-PrivEsc](https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc)
 - [rexpository/linux-privilege-escalation](https://github.com/rexpository/linux-privilege-escalation)
+- [isaiahsimeone/COMP3320-VAPT](https://github.com/isaiahsimeone/COMP3320-VAPT)
 
 ### CVE-2022-0848 (2022-03-04)
 
