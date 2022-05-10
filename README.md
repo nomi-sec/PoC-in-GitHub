@@ -51,6 +51,14 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 ### CVE-2022-0337
 - [Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera](https://github.com/Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera)
 
+### CVE-2022-0441 (2022-03-07)
+
+<code>
+The MasterStudy LMS WordPress plugin before 2.7.6 does to validate some parameters given when registering a new account, allowing unauthenticated users to register as an admin
+</code>
+
+- [biulove0x/CVE-2022-0441](https://github.com/biulove0x/CVE-2022-0441)
+
 ### CVE-2022-0482 (2022-03-09)
 
 <code>
@@ -281,12 +289,16 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [crowsec-edtech/CVE-2022-1388](https://github.com/crowsec-edtech/CVE-2022-1388)
 - [Al1ex/CVE-2022-1388](https://github.com/Al1ex/CVE-2022-1388)
 - [Henry4E36/CVE-2022-1388](https://github.com/Henry4E36/CVE-2022-1388)
-- [Angus-Team/F5-BIG-IP-RCE-CVE-2022-1388](https://github.com/Angus-Team/F5-BIG-IP-RCE-CVE-2022-1388)
 - [cve-hunter/CVE-2022-1388-mass](https://github.com/cve-hunter/CVE-2022-1388-mass)
 - [savior-only/CVE-2022-1388](https://github.com/savior-only/CVE-2022-1388)
 - [saucer-man/CVE-2022-1388](https://github.com/saucer-man/CVE-2022-1388)
 - [superzerosec/CVE-2022-1388](https://github.com/superzerosec/CVE-2022-1388)
 - [trhacknon/CVE-2022-1388-RCE-checker](https://github.com/trhacknon/CVE-2022-1388-RCE-checker)
+- [Stonzyy/Exploit-F5-CVE-2022-1388](https://github.com/Stonzyy/Exploit-F5-CVE-2022-1388)
+- [MrCl0wnLab/Nuclei-Template-Exploit-F5-BIG-IP-iControl-REST-Auth-Bypass-RCE-Command-Parameter](https://github.com/MrCl0wnLab/Nuclei-Template-Exploit-F5-BIG-IP-iControl-REST-Auth-Bypass-RCE-Command-Parameter)
+- [qusaialhaddad/F5-BigIP-CVE-2022-1388](https://github.com/qusaialhaddad/F5-BigIP-CVE-2022-1388)
+- [chesterblue/CVE-2022-1388](https://github.com/chesterblue/CVE-2022-1388)
+- [Angus-Team/F5-BIG-IP-RCE-CVE-2022-1388](https://github.com/Angus-Team/F5-BIG-IP-RCE-CVE-2022-1388)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -10156,6 +10168,7 @@ ThinkAdmin v6 is affected by a directory traversal vulnerability. An unauthorize
 
 - [Schira4396/CVE-2020-25540](https://github.com/Schira4396/CVE-2020-25540)
 - [Rajchowdhury420/ThinkAdmin-CVE-2020-25540](https://github.com/Rajchowdhury420/ThinkAdmin-CVE-2020-25540)
+- [lowkey0808/cve-2020-25540](https://github.com/lowkey0808/cve-2020-25540)
 
 ### CVE-2020-25613 (2020-10-06)
 
