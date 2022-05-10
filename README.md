@@ -278,7 +278,9 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 </code>
 
 - [numanturle/CVE-2022-1388](https://github.com/numanturle/CVE-2022-1388)
+- [TomArni680/CVE-2022-1388-POC](https://github.com/TomArni680/CVE-2022-1388-POC)
 - [bytecaps/CVE-2022-1388-EXP](https://github.com/bytecaps/CVE-2022-1388-EXP)
+- [TomArni680/CVE-2022-1388-RCE](https://github.com/TomArni680/CVE-2022-1388-RCE)
 - [blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit](https://github.com/blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit)
 - [Hudi233/CVE-2022-1388](https://github.com/Hudi233/CVE-2022-1388)
 - [sherlocksecurity/CVE-2022-1388_F5_BIG-IP_RCE](https://github.com/sherlocksecurity/CVE-2022-1388_F5_BIG-IP_RCE)
@@ -306,6 +308,9 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [iveresk/cve-2022-1388-1veresk](https://github.com/iveresk/cve-2022-1388-1veresk)
 - [shamo0/CVE-2022-1388](https://github.com/shamo0/CVE-2022-1388)
 - [vesperp/CVE-2022-1388-F5-BIG-IP-](https://github.com/vesperp/CVE-2022-1388-F5-BIG-IP-)
+- [thatonesecguy/CVE-2022-1388-Exploit](https://github.com/thatonesecguy/CVE-2022-1388-Exploit)
+- [bandit92/CVE2022-1388_TestAPI](https://github.com/bandit92/CVE2022-1388_TestAPI)
+- [aodsec/CVE-2022-1388-PocExp](https://github.com/aodsec/CVE-2022-1388-PocExp)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -430,6 +435,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [coconut20/CVE-2022-21907-RCE-POC](https://github.com/coconut20/CVE-2022-21907-RCE-POC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
 - [gpiechnik2/nmap-CVE-2022-21907](https://github.com/gpiechnik2/nmap-CVE-2022-21907)
+- [iveresk/cve-2022-21907-http.sys](https://github.com/iveresk/cve-2022-21907-http.sys)
 
 ### CVE-2022-21971 (2022-02-09)
 
@@ -887,6 +893,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [Mr-xn/CVE-2022-24086](https://github.com/Mr-xn/CVE-2022-24086)
 - [nanaao/CVE-2022-24086-RCE](https://github.com/nanaao/CVE-2022-24086-RCE)
 - [k0zulzr/CVE-2022-24086-RCE](https://github.com/k0zulzr/CVE-2022-24086-RCE)
+- [TomArni680/CVE-2022-24086-rce](https://github.com/TomArni680/CVE-2022-24086-rce)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -1399,6 +1406,9 @@ A Remote Code Execution (RCE) vulnerability exists in Pixelimity 1.0 via admin/a
 ### CVE-2022-28601
 - [FlaviuPopescu/CVE-2022-28601](https://github.com/FlaviuPopescu/CVE-2022-28601)
 
+### CVE-2022-28944
+- [gerr-re/cve-2022-28944](https://github.com/gerr-re/cve-2022-28944)
+
 ### CVE-2022-28986
 - [FlaviuPopescu/CVE-2022-28986](https://github.com/FlaviuPopescu/CVE-2022-28986)
 
@@ -1438,11 +1448,31 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 
 - [cxosmo/CVE-2022-29548](https://github.com/cxosmo/CVE-2022-29548)
 
+### CVE-2022-29551
+- [ComparedArray/printix-CVE-2022-29551](https://github.com/ComparedArray/printix-CVE-2022-29551)
+
+### CVE-2022-29552
+- [ComparedArray/printix-CVE-2022-29552](https://github.com/ComparedArray/printix-CVE-2022-29552)
+
+### CVE-2022-29553
+- [ComparedArray/printix-CVE-2022-29553](https://github.com/ComparedArray/printix-CVE-2022-29553)
+
+### CVE-2022-29554
+- [ComparedArray/printix-CVE-2022-29554](https://github.com/ComparedArray/printix-CVE-2022-29554)
+
 ### CVE-2022-29597
 - [TheGetch/CVE-2022-29597](https://github.com/TheGetch/CVE-2022-29597)
 
 ### CVE-2022-29598
 - [TheGetch/CVE-2022-29598](https://github.com/TheGetch/CVE-2022-29598)
+
+### CVE-2022-30292 (2022-05-04)
+
+<code>
+thread_call in sqbaselib.cpp in SQUIRREL 3.2 lacks a certain sq_reservestack call.
+</code>
+
+- [sprushed/CVE-2022-30292](https://github.com/sprushed/CVE-2022-30292)
 
 
 ## 2021
@@ -3307,7 +3337,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [conjojo/Microsoft_Exchange_Server_SSRF_CVE-2021-26855](https://github.com/conjojo/Microsoft_Exchange_Server_SSRF_CVE-2021-26855)
 - [pussycat0x/CVE-2021-26855-SSRF](https://github.com/pussycat0x/CVE-2021-26855-SSRF)
 - [0xAbdullah/CVE-2021-26855](https://github.com/0xAbdullah/CVE-2021-26855)
-- [Th3eCrow/CVE-2021-26855-SSRF-Exchange](https://github.com/Th3eCrow/CVE-2021-26855-SSRF-Exchange)
+- [La3B0z/CVE-2021-26855-SSRF-Exchange](https://github.com/La3B0z/CVE-2021-26855-SSRF-Exchange)
 - [mekhalleh/exchange_proxylogon](https://github.com/mekhalleh/exchange_proxylogon)
 - [Yt1g3r/CVE-2021-26855_SSRF](https://github.com/Yt1g3r/CVE-2021-26855_SSRF)
 - [charlottelatest/CVE-2021-26855](https://github.com/charlottelatest/CVE-2021-26855)
@@ -5401,7 +5431,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [0xalwayslucky/log4j-polkit-poc](https://github.com/0xalwayslucky/log4j-polkit-poc)
 - [y-security/yLog4j](https://github.com/y-security/yLog4j)
 - [FeryaelJustice/Log4Shell](https://github.com/FeryaelJustice/Log4Shell)
-- [hotpotcookie/lol4j-white-box](https://github.com/hotpotcookie/lol4j-white-box)
+- [hotpotcookie/log4shell-white-box](https://github.com/hotpotcookie/log4shell-white-box)
 - [s-retlaw/l4srs](https://github.com/s-retlaw/l4srs)
 - [Ananya-0306/Log-4j-scanner](https://github.com/Ananya-0306/Log-4j-scanner)
 - [micha3lcve/CVE-2021-44228-Mass-RCE](https://github.com/micha3lcve/CVE-2021-44228-Mass-RCE)
