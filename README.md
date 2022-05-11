@@ -311,6 +311,8 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [aodsec/CVE-2022-1388-PocExp](https://github.com/aodsec/CVE-2022-1388-PocExp)
 - [0xAgun/CVE-2022-1388](https://github.com/0xAgun/CVE-2022-1388)
 - [ExploitPwner/CVE-2022-1388](https://github.com/ExploitPwner/CVE-2022-1388)
+- [kuznyJan1972/cve-2022-1388-mass](https://github.com/kuznyJan1972/cve-2022-1388-mass)
+- [AmirHoseinTangsiriNET/CVE-2022-1388-Scanner](https://github.com/AmirHoseinTangsiriNET/CVE-2022-1388-Scanner)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1104,6 +1106,14 @@ TP-LINK TL-WR840N(ES)_V6.20_180709 was discovered to contain a remote code execu
 - [exploitwritter/CVE-2022-25064](https://github.com/exploitwritter/CVE-2022-25064)
 - [Mr-xn/CVE-2022-25064](https://github.com/Mr-xn/CVE-2022-25064)
 
+### CVE-2022-25075 (2022-02-22)
+
+<code>
+TOTOLink A3000RU V5.9c.2280_B20180512 was discovered to contain a command injection vulnerability in the &quot;Main&quot; function. This vulnerability allows attackers to execute arbitrary commands via the QUERY_STRING parameter.
+</code>
+
+- [kuznyJan1972/CVE-2022-25075-rce-POC](https://github.com/kuznyJan1972/CVE-2022-25075-rce-POC)
+
 ### CVE-2022-25089 (2022-03-02)
 
 <code>
@@ -1350,10 +1360,20 @@ A SQL injection vulnerability exists in Microfinance Management System 1.0 when 
 
 - [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
-### CVE-2022-28077
+### CVE-2022-28077 (2022-05-11)
+
+<code>
+Home Owners Collection Management v1 was discovered to contain a reflected cross-site scripting (XSS) vulnerability in the Admin panel via the $_GET['s'] parameter.
+</code>
+
 - [bigzooooz/CVE-2022-28077](https://github.com/bigzooooz/CVE-2022-28077)
 
-### CVE-2022-28078
+### CVE-2022-28078 (2022-05-11)
+
+<code>
+Home Owners Collection Management v1 was discovered to contain a reflected cross-site scripting (XSS) vulnerability in the Admin panel via the $_GET['page'] parameter.
+</code>
+
 - [bigzooooz/CVE-2022-28078](https://github.com/bigzooooz/CVE-2022-28078)
 
 ### CVE-2022-28079 (2022-05-05)
@@ -1505,7 +1525,12 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 ### CVE-2022-29598
 - [TheGetch/CVE-2022-29598](https://github.com/TheGetch/CVE-2022-29598)
 
-### CVE-2022-29932
+### CVE-2022-29932 (2022-05-11)
+
+<code>
+The HTTP Server in PRIMEUR SPAZIO 2.5.1.954 (File Transfer) allows an unauthenticated attacker to obtain sensitive data (related to the content of transferred files) via a crafted HTTP request.
+</code>
+
 - [Off3nS3c/CVE-2022-29932](https://github.com/Off3nS3c/CVE-2022-29932)
 
 ### CVE-2022-30292 (2022-05-04)
@@ -8497,7 +8522,6 @@ A flaw was found in Keycloak before 13.0.0, where it is possible to force the se
 </code>
 
 - [ColdFusionX/Keycloak-12.0.1-CVE-2020-10770](https://github.com/ColdFusionX/Keycloak-12.0.1-CVE-2020-10770)
-- [CrowX500x0/CVE-2020-10770](https://github.com/CrowX500x0/CVE-2020-10770)
 
 ### CVE-2020-10915 (2020-04-22)
 
