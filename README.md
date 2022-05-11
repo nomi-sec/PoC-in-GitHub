@@ -278,9 +278,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 </code>
 
 - [numanturle/CVE-2022-1388](https://github.com/numanturle/CVE-2022-1388)
-- [TomArni680/CVE-2022-1388-POC](https://github.com/TomArni680/CVE-2022-1388-POC)
 - [bytecaps/CVE-2022-1388-EXP](https://github.com/bytecaps/CVE-2022-1388-EXP)
-- [TomArni680/CVE-2022-1388-RCE](https://github.com/TomArni680/CVE-2022-1388-RCE)
 - [blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit](https://github.com/blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit)
 - [Hudi233/CVE-2022-1388](https://github.com/Hudi233/CVE-2022-1388)
 - [sherlocksecurity/CVE-2022-1388_F5_BIG-IP_RCE](https://github.com/sherlocksecurity/CVE-2022-1388_F5_BIG-IP_RCE)
@@ -895,7 +893,6 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [Mr-xn/CVE-2022-24086](https://github.com/Mr-xn/CVE-2022-24086)
 - [nanaao/CVE-2022-24086-RCE](https://github.com/nanaao/CVE-2022-24086-RCE)
 - [k0zulzr/CVE-2022-24086-RCE](https://github.com/k0zulzr/CVE-2022-24086-RCE)
-- [TomArni680/CVE-2022-24086-rce](https://github.com/TomArni680/CVE-2022-24086-rce)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
