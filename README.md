@@ -311,6 +311,8 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [thatonesecguy/CVE-2022-1388-Exploit](https://github.com/thatonesecguy/CVE-2022-1388-Exploit)
 - [bandit92/CVE2022-1388_TestAPI](https://github.com/bandit92/CVE2022-1388_TestAPI)
 - [aodsec/CVE-2022-1388-PocExp](https://github.com/aodsec/CVE-2022-1388-PocExp)
+- [0xAgun/CVE-2022-1388](https://github.com/0xAgun/CVE-2022-1388)
+- [ExploitPwner/CVE-2022-1388](https://github.com/ExploitPwner/CVE-2022-1388)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1403,13 +1405,23 @@ A Remote Code Execution (RCE) vulnerability exists in Pixelimity 1.0 via admin/a
 
 - [jcarabantes/CVE-2022-28590](https://github.com/jcarabantes/CVE-2022-28590)
 
-### CVE-2022-28601
+### CVE-2022-28601 (2022-05-10)
+
+<code>
+A Two-Factor Authentication (2FA) bypass vulnerability in &quot;Simple 2FA Plugin for Moodle&quot; by LMS Doctor allows remote attackers to overwrite the phone number used for confirmation via the profile.php file. Therefore, allowing them to bypass the phone verification mechanism.
+</code>
+
 - [FlaviuPopescu/CVE-2022-28601](https://github.com/FlaviuPopescu/CVE-2022-28601)
 
 ### CVE-2022-28944
 - [gerr-re/cve-2022-28944](https://github.com/gerr-re/cve-2022-28944)
 
-### CVE-2022-28986
+### CVE-2022-28986 (2022-05-10)
+
+<code>
+LMS Doctor Simple 2 Factor Authentication Plugin For Moodle Affected: 2021072900 has an Insecure direct object references (IDOR) vulnerability, which allows remote attackers to update sensitive records such as email, password and phone number of other user accounts.
+</code>
+
 - [FlaviuPopescu/CVE-2022-28986](https://github.com/FlaviuPopescu/CVE-2022-28986)
 
 ### CVE-2022-29072 (2022-04-15)
@@ -4332,7 +4344,6 @@ A denial of service vulnerability exists in MDT's firmware for the KNXnet/IP Sec
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
-- [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 
 ### CVE-2021-38560 (2022-02-01)
@@ -4660,6 +4671,14 @@ Zenario CMS 9.0.54156 is vulnerable to File Upload. The web server can be compro
 </code>
 
 - [minhnq22/CVE-2021-42171](https://github.com/minhnq22/CVE-2021-42171)
+
+### CVE-2021-42183 (2022-05-05)
+
+<code>
+MasaCMS 7.2.1 is affected by a path traversal vulnerability in /index.cfm/_api/asset/image/.
+</code>
+
+- [0xRaw/CVE-2021-42183](https://github.com/0xRaw/CVE-2021-42183)
 
 ### CVE-2021-42230 (2022-04-15)
 
@@ -23515,6 +23534,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
 - [b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271)
+- [aphiliotis1/ShellShock](https://github.com/aphiliotis1/ShellShock)
 - [0bfxgh0st-secondary/ShellShock](https://github.com/0bfxgh0st-secondary/ShellShock)
 - [akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271)
 - [0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271)
