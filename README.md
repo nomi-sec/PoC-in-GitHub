@@ -146,8 +146,8 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [2xYuan/CVE-2022-0847](https://github.com/2xYuan/CVE-2022-0847)
 - [crowsec-edtech/Dirty-Pipe](https://github.com/crowsec-edtech/Dirty-Pipe)
 - [lucksec/CVE-2022-0847](https://github.com/lucksec/CVE-2022-0847)
-- [rahul1406/cve-2022-0847dirtypipe-exploit](https://github.com/rahul1406/cve-2022-0847dirtypipe-exploit)
 - [si1ent-le/CVE-2022-0847](https://github.com/si1ent-le/CVE-2022-0847)
+- [bohr777/cve-2022-0847dirtypipe-exploit](https://github.com/bohr777/cve-2022-0847dirtypipe-exploit)
 - [antx-code/CVE-2022-0847](https://github.com/antx-code/CVE-2022-0847)
 - [cspshivam/CVE-2022-0847-dirty-pipe-exploit](https://github.com/cspshivam/CVE-2022-0847-dirty-pipe-exploit)
 - [febinrev/dirtypipez-exploit](https://github.com/febinrev/dirtypipez-exploit)
@@ -1140,6 +1140,30 @@ An issue was discovered in drivers/usb/gadget/composite.c in the Linux kernel be
 
 - [szymonh/d-os-descriptor](https://github.com/szymonh/d-os-descriptor)
 
+### CVE-2022-25313 (2022-02-17)
+
+<code>
+In Expat (aka libexpat) before 2.4.5, an attacker can trigger stack exhaustion in build_model via a large nesting depth in the DTD element.
+</code>
+
+- [ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25313](https://github.com/ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25313)
+
+### CVE-2022-25314 (2022-02-17)
+
+<code>
+In Expat (aka libexpat) before 2.4.5, there is an integer overflow in copyString.
+</code>
+
+- [ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25314](https://github.com/ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25314)
+
+### CVE-2022-25315 (2022-02-17)
+
+<code>
+In Expat (aka libexpat) before 2.4.5, there is an integer overflow in storeRawNames.
+</code>
+
+- [ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25315](https://github.com/ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25315)
+
 ### CVE-2022-25375 (2022-02-20)
 
 <code>
@@ -1326,6 +1350,12 @@ A SQL injection vulnerability exists in Microfinance Management System 1.0 when 
 
 - [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
+### CVE-2022-28077
+- [bigzooooz/CVE-2022-28077](https://github.com/bigzooooz/CVE-2022-28077)
+
+### CVE-2022-28078
+- [bigzooooz/CVE-2022-28078](https://github.com/bigzooooz/CVE-2022-28078)
+
 ### CVE-2022-28079 (2022-05-05)
 
 <code>
@@ -1474,6 +1504,9 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 
 ### CVE-2022-29598
 - [TheGetch/CVE-2022-29598](https://github.com/TheGetch/CVE-2022-29598)
+
+### CVE-2022-29932
+- [Off3nS3c/CVE-2022-29932](https://github.com/Off3nS3c/CVE-2022-29932)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -10117,6 +10150,7 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
 - [piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213)
+- [adminsec5247/CVE-2020-25213-wordpress-wp-file-manager-fileupload](https://github.com/adminsec5247/CVE-2020-25213-wordpress-wp-file-manager-fileupload)
 
 ### CVE-2020-25223 (2020-09-24)
 
@@ -24090,6 +24124,14 @@ nginx 0.8.41 through 1.4.3 and 1.5.x before 1.5.7 allows remote attackers to byp
 
 - [cyberharsh/Nginx-CVE-2013-4547](https://github.com/cyberharsh/Nginx-CVE-2013-4547)
 
+### CVE-2013-4710 (2014-03-02)
+
+<code>
+Android 3.0 through 4.1.x on Disney Mobile, eAccess, KDDI, NTT DOCOMO, SoftBank, and other devices does not properly implement the WebView class, which allows remote attackers to execute arbitrary methods of Java objects or cause a denial of service (reboot) via a crafted web page, as demonstrated by use of the WebView.addJavascriptInterface method, a related issue to CVE-2012-6636.
+</code>
+
+- [Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability](https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability)
+
 ### CVE-2013-4730 (2014-05-15)
 
 <code>
@@ -24470,6 +24512,7 @@ The Android API before 17 does not properly restrict the WebView.addJavascriptIn
 </code>
 
 - [xckevin/AndroidWebviewInjectDemo](https://github.com/xckevin/AndroidWebviewInjectDemo)
+- [Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability](https://github.com/Snip3R69/CVE-2013-4710-WebView-RCE-Vulnerability)
 
 
 ## 2011
