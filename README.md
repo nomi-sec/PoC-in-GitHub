@@ -319,6 +319,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [omnigodz/CVE-2022-1388](https://github.com/omnigodz/CVE-2022-1388)
 - [pauloink/CVE-2022-1388](https://github.com/pauloink/CVE-2022-1388)
 - [SecTheBit/CVE-2022-1388](https://github.com/SecTheBit/CVE-2022-1388)
+- [Zeyad-Azima/CVE-2022-1388](https://github.com/Zeyad-Azima/CVE-2022-1388)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -775,6 +776,14 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [Fa1c0n35/zabbix-cve-2022-23131](https://github.com/Fa1c0n35/zabbix-cve-2022-23131)
 - [kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131)
 - [Kazaf6s/CVE-2022-23131](https://github.com/Kazaf6s/CVE-2022-23131)
+
+### CVE-2022-23253 (2022-03-09)
+
+<code>
+Point-to-Point Tunneling Protocol Denial of Service Vulnerability.
+</code>
+
+- [nettitude/CVE-2022-23253-PoC](https://github.com/nettitude/CVE-2022-23253-PoC)
 
 ### CVE-2022-23305 (2022-01-18)
 
@@ -1567,6 +1576,14 @@ thread_call in sqbaselib.cpp in SQUIRREL 3.2 lacks a certain sq_reservestack cal
 </code>
 
 - [sprushed/CVE-2022-30292](https://github.com/sprushed/CVE-2022-30292)
+
+### CVE-2022-30525 (2022-05-12)
+
+<code>
+A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W) firmware versions 5.00 through 5.21 Patch 1, USG FLEX 200 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 500 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 700 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 50(W) firmware versions 5.10 through 5.21 Patch 1, USG20(W)-VPN firmware versions 5.10 through 5.21 Patch 1, ATP series firmware versions 5.10 through 5.21 Patch 1, VPN series firmware versions 4.60 through 5.21 Patch 1, which could allow an attacker to modify specific files and then execute some OS commands on a vulnerable device.
+</code>
+
+- [jbaines-r7/victorian_machinery](https://github.com/jbaines-r7/victorian_machinery)
 
 
 ## 2021
@@ -4836,7 +4853,7 @@ The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as param
 ### CVE-2021-42574 (2021-10-31)
 
 <code>
-An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers.
+** DISPUTED ** An issue was discovered in the Bidirectional Algorithm in the Unicode Specification through 14.0. It permits the visual reordering of characters via control sequences, which can be used to craft source code that renders different logic than the logical ordering of tokens ingested by compilers and interpreters. Adversaries can leverage this to encode source code for compilers accepting Unicode such that targeted vulnerabilities are introduced invisibly to human reviewers. NOTE: the Unicode Consortium offers the following alternative approach to presenting this concern. An issue is noted in the nature of international text that can affect applications that implement support for The Unicode Standard and the Unicode Bidirectional Algorithm (all versions). Due to text display behavior when text includes left-to-right and right-to-left characters, the visual order of tokens may be different from their logical order. Additionally, control characters needed to fully support the requirements of bidirectional text can further obfuscate the logical order of tokens. Unless mitigated, an adversary could craft source code such that the ordering of tokens perceived by human reviewers does not match what will be processed by a compiler/interpreter/etc. The Unicode Consortium has documented this class of vulnerability in its document, Unicode Technical Report #36, Unicode Security Considerations. The Unicode Consortium also provides guidance on mitigations for this class of issues in Unicode Technical Standard #39, Unicode Security Mechanisms, and in Unicode Standard Annex #31, Unicode Identifier and Pattern Syntax. Also, the BIDI specification allows applications to tailor the implementation in ways that can mitigate misleading visual reordering in program text; see HL4 in Unicode Standard Annex #9, Unicode Bidirectional Algorithm.
 </code>
 
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
@@ -24030,14 +24047,6 @@ The device-initialization functionality in the MSM camera driver for the Linux k
 </code>
 
 - [fi01/libmsm_cameraconfig_exploit](https://github.com/fi01/libmsm_cameraconfig_exploit)
-
-### CVE-2013-2596 (2013-04-12)
-
-<code>
-Integer overflow in the fb_mmap function in drivers/video/fbmem.c in the Linux kernel before 3.8.9, as used in a certain Motorola build of Android 4.1.2 and other products, allows local users to create a read-write memory mapping for the entirety of kernel memory, and consequently gain privileges, via crafted /dev/graphics/fb0 mmap2 system calls, as demonstrated by the Motochopper pwn program.
-</code>
-
-- [hiikezoe/libfb_mem_exploit](https://github.com/hiikezoe/libfb_mem_exploit)
 
 ### CVE-2013-2597 (2014-08-31)
 
