@@ -1330,6 +1330,18 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [XmasSnowREAL/CVE-2022-26809-RCE](https://github.com/XmasSnowREAL/CVE-2022-26809-RCE)
 - [ExploitPwner/CVE-2022-26809-RCE-POC](https://github.com/ExploitPwner/CVE-2022-26809-RCE-POC)
 - [seciurdt/CVE-2022-26809-RCE](https://github.com/seciurdt/CVE-2022-26809-RCE)
+- [Calvitz/CVE-2022-26809](https://github.com/Calvitz/CVE-2022-26809)
+
+### CVE-2022-26923 (2022-05-10)
+
+<code>
+Active Directory Domain Services Elevation of Privilege Vulnerability.
+</code>
+
+- [r1skkam/TryHackMe-CVE-2022-26923](https://github.com/r1skkam/TryHackMe-CVE-2022-26923)
+
+### CVE-2022-27134
+- [Kenun99/CVE-batdappboomx](https://github.com/Kenun99/CVE-batdappboomx)
 
 ### CVE-2022-27226 (2022-03-18)
 
@@ -4708,6 +4720,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773)
 - [Chocapikk/CVE-2021-41773](https://github.com/Chocapikk/CVE-2021-41773)
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
+- [anldori/CVE-2021-41773-Scanner](https://github.com/anldori/CVE-2021-41773-Scanner)
 
 ### CVE-2021-41962 (2021-12-16)
 
@@ -5014,7 +5027,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
 - [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
-- [Mr-xn/CVE-2021-43798](https://github.com/Mr-xn/CVE-2021-43798)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
@@ -6498,6 +6510,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [SLSteff/CVE-2020-0688-Scanner](https://github.com/SLSteff/CVE-2020-0688-Scanner)
 - [MrTiz/CVE-2020-0688](https://github.com/MrTiz/CVE-2020-0688)
 - [ann0906/proxylogon](https://github.com/ann0906/proxylogon)
+- [7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688)
 
 ### CVE-2020-0692 (2020-02-11)
 
