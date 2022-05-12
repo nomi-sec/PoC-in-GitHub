@@ -278,6 +278,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 </code>
 
 - [numanturle/CVE-2022-1388](https://github.com/numanturle/CVE-2022-1388)
+- [hackeyes/CVE-2022-1388-POC](https://github.com/hackeyes/CVE-2022-1388-POC)
 - [bytecaps/CVE-2022-1388-EXP](https://github.com/bytecaps/CVE-2022-1388-EXP)
 - [blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit](https://github.com/blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit)
 - [Hudi233/CVE-2022-1388](https://github.com/Hudi233/CVE-2022-1388)
@@ -313,6 +314,10 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [ExploitPwner/CVE-2022-1388](https://github.com/ExploitPwner/CVE-2022-1388)
 - [kuznyJan1972/cve-2022-1388-mass](https://github.com/kuznyJan1972/cve-2022-1388-mass)
 - [AmirHoseinTangsiriNET/CVE-2022-1388-Scanner](https://github.com/AmirHoseinTangsiriNET/CVE-2022-1388-Scanner)
+- [EvilLizard666/CVE-2022-1388](https://github.com/EvilLizard666/CVE-2022-1388)
+- [mr-vill4in/CVE-2022-1388](https://github.com/mr-vill4in/CVE-2022-1388)
+- [omnigodz/CVE-2022-1388](https://github.com/omnigodz/CVE-2022-1388)
+- [pauloink/CVE-2022-1388](https://github.com/pauloink/CVE-2022-1388)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1028,6 +1033,14 @@ Metabase is an open source business intelligence and analytics application. Meta
 
 - [secure-77/CVE-2022-24853](https://github.com/secure-77/CVE-2022-24853)
 
+### CVE-2022-24924 (2022-02-11)
+
+<code>
+An improper access control in LiveWallpaperService prior to versions 3.0.9.0 allows to create a specific named system directory without a proper permission.
+</code>
+
+- [heegong/CVE-2022-24924](https://github.com/heegong/CVE-2022-24924)
+
 ### CVE-2022-24934 (2022-03-23)
 
 <code>
@@ -1316,6 +1329,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
 - [XmasSnowREAL/CVE-2022-26809-RCE](https://github.com/XmasSnowREAL/CVE-2022-26809-RCE)
 - [ExploitPwner/CVE-2022-26809-RCE-POC](https://github.com/ExploitPwner/CVE-2022-26809-RCE-POC)
+- [seciurdt/CVE-2022-26809-RCE](https://github.com/seciurdt/CVE-2022-26809-RCE)
 
 ### CVE-2022-27226 (2022-03-18)
 
