@@ -242,6 +242,9 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 
 - [Seatwe/CVE-2022-1040-rce](https://github.com/Seatwe/CVE-2022-1040-rce)
 
+### CVE-2022-1051
+- [V35HR4J/CVE-2022-1051](https://github.com/V35HR4J/CVE-2022-1051)
+
 ### CVE-2022-1096
 - [Maverick-cmd/Chrome-and-Edge-Version-Dumper](https://github.com/Maverick-cmd/Chrome-and-Edge-Version-Dumper)
 
@@ -320,6 +323,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [pauloink/CVE-2022-1388](https://github.com/pauloink/CVE-2022-1388)
 - [SecTheBit/CVE-2022-1388](https://github.com/SecTheBit/CVE-2022-1388)
 - [Zeyad-Azima/CVE-2022-1388](https://github.com/Zeyad-Azima/CVE-2022-1388)
+- [justakazh/CVE-2022-1388](https://github.com/justakazh/CVE-2022-1388)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1601,6 +1605,7 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 </code>
 
 - [jbaines-r7/victorian_machinery](https://github.com/jbaines-r7/victorian_machinery)
+- [Henry4E36/CVE-2022-30525](https://github.com/Henry4E36/CVE-2022-30525)
 
 
 ## 2021
@@ -5088,14 +5093,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
 
-### CVE-2021-43799 (2022-01-25)
-
-<code>
-Zulip is an open-source team collaboration tool. Zulip Server installs RabbitMQ for internal message passing. In versions of Zulip Server prior to 4.9, the initial installation (until first reboot, or restart of RabbitMQ) does not successfully limit the default ports which RabbitMQ opens; this includes port 25672, the RabbitMQ distribution port, which is used as a management port. RabbitMQ's default &quot;cookie&quot; which protects this port is generated using a weak PRNG, which limits the entropy of the password to at most 36 bits; in practicality, the seed for the randomizer is biased, resulting in approximately 20 bits of entropy. If other firewalls (at the OS or network level) do not protect port 25672, a remote attacker can brute-force the 20 bits of entropy in the &quot;cookie&quot; and leverage it for arbitrary execution of code as the rabbitmq user. They can also read all data which is sent through RabbitMQ, which includes all message traffic sent by users. Version 4.9 contains a patch for this vulnerability. As a workaround, ensure that firewalls prevent access to ports 5672 and 25672 from outside the Zulip server.
-</code>
-
-- [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
-
 ### CVE-2021-43821 (2021-12-14)
 
 <code>
@@ -5579,6 +5576,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
 - [ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j](https://github.com/ExploitPwner/CVE-2021-44228-Mass-RCE-Log4j)
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
+- [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
@@ -6479,6 +6477,7 @@ A remote code execution vulnerability exists in Microsoft SQL Server Reporting S
 
 - [euphrat1ca/CVE-2020-0618](https://github.com/euphrat1ca/CVE-2020-0618)
 - [wortell/cve-2020-0618](https://github.com/wortell/cve-2020-0618)
+- [itstarsec/CVE-2020-0618](https://github.com/itstarsec/CVE-2020-0618)
 
 ### CVE-2020-0624 (2020-01-14)
 
@@ -11336,7 +11335,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [Haruster/Haruster-CVE-2019-0708-Exploit](https://github.com/Haruster/Haruster-CVE-2019-0708-Exploit)
-- [SurrealSky/CVE20190708SCAN](https://github.com/SurrealSky/CVE20190708SCAN)
 - [ORCA666/CVE-2019--0708-SCANNER](https://github.com/ORCA666/CVE-2019--0708-SCANNER)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
