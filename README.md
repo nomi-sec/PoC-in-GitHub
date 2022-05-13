@@ -749,6 +749,14 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [mariomamo/CVE-2022-22965](https://github.com/mariomamo/CVE-2022-22965)
 - [khidottrivi/CVE-2022-22965](https://github.com/khidottrivi/CVE-2022-22965)
 
+### CVE-2022-22968 (2022-04-14)
+
+<code>
+In Spring Framework versions 5.3.0 - 5.3.18, 5.2.0 - 5.2.20, and older unsupported versions, the patterns for disallowedFields on a DataBinder are case sensitive which means a field is not effectively protected unless it is listed with both upper and lower case for the first character of the field, including upper and lower case for the first character of all nested fields within the property path.
+</code>
+
+- [MarcinGadz/spring-rce-poc](https://github.com/MarcinGadz/spring-rce-poc)
+
 ### CVE-2022-23046 (2022-01-19)
 
 <code>
@@ -757,6 +765,9 @@ PhpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the
 
 - [jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046)
 - [dnr6419/CVE-2022-23046](https://github.com/dnr6419/CVE-2022-23046)
+
+### CVE-2022-23121
+- [kuznyJan1972/CVE-2022-23121-RCE](https://github.com/kuznyJan1972/CVE-2022-23121-RCE)
 
 ### CVE-2022-23131 (2022-01-13)
 
@@ -1350,7 +1361,12 @@ Active Directory Domain Services Elevation of Privilege Vulnerability.
 
 - [r1skkam/TryHackMe-CVE-2022-26923](https://github.com/r1skkam/TryHackMe-CVE-2022-26923)
 
-### CVE-2022-27134
+### CVE-2022-27134 (2022-05-12)
+
+<code>
+EOSIO batdappboomx v327c04cf has an Access-control vulnerability in the `transfer` function of the smart contract which allows remote attackers to win the cryptocurrency without paying ticket fee via the `std::string memo` parameter.
+</code>
+
 - [Kenun99/CVE-batdappboomx](https://github.com/Kenun99/CVE-batdappboomx)
 
 ### CVE-2022-27226 (2022-03-18)
@@ -24047,6 +24063,14 @@ The device-initialization functionality in the MSM camera driver for the Linux k
 </code>
 
 - [fi01/libmsm_cameraconfig_exploit](https://github.com/fi01/libmsm_cameraconfig_exploit)
+
+### CVE-2013-2596 (2013-04-12)
+
+<code>
+Integer overflow in the fb_mmap function in drivers/video/fbmem.c in the Linux kernel before 3.8.9, as used in a certain Motorola build of Android 4.1.2 and other products, allows local users to create a read-write memory mapping for the entirety of kernel memory, and consequently gain privileges, via crafted /dev/graphics/fb0 mmap2 system calls, as demonstrated by the Motochopper pwn program.
+</code>
+
+- [hiikezoe/libfb_mem_exploit](https://github.com/hiikezoe/libfb_mem_exploit)
 
 ### CVE-2013-2597 (2014-08-31)
 
