@@ -1349,6 +1349,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
 - [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
 - [XmasSnowREAL/CVE-2022-26809-RCE](https://github.com/XmasSnowREAL/CVE-2022-26809-RCE)
+- [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [ExploitPwner/CVE-2022-26809-RCE-POC](https://github.com/ExploitPwner/CVE-2022-26809-RCE-POC)
 - [seciurdt/CVE-2022-26809-RCE](https://github.com/seciurdt/CVE-2022-26809-RCE)
 - [Calvitz/CVE-2022-26809](https://github.com/Calvitz/CVE-2022-26809)
@@ -4755,6 +4756,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Chocapikk/CVE-2021-41773](https://github.com/Chocapikk/CVE-2021-41773)
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
 - [anldori/CVE-2021-41773-Scanner](https://github.com/anldori/CVE-2021-41773-Scanner)
+- [iosifache/ApacheRCEEssay](https://github.com/iosifache/ApacheRCEEssay)
 
 ### CVE-2021-41962 (2021-12-16)
 
@@ -5057,7 +5059,6 @@ PrestaShop is an Open Source e-commerce web application. Versions of PrestaShop 
 Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
 </code>
 
-- [taythebot/CVE-2021-43798](https://github.com/taythebot/CVE-2021-43798)
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
 - [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
