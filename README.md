@@ -292,7 +292,6 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Vulnmachines/F5-Big-IP-CVE-2022-1388](https://github.com/Vulnmachines/F5-Big-IP-CVE-2022-1388)
 - [ZephrFish/F5-CVE-2022-1388-Exploit](https://github.com/ZephrFish/F5-CVE-2022-1388-Exploit)
 - [horizon3ai/CVE-2022-1388](https://github.com/horizon3ai/CVE-2022-1388)
-- [crowsec-edtech/CVE-2022-1388](https://github.com/crowsec-edtech/CVE-2022-1388)
 - [Al1ex/CVE-2022-1388](https://github.com/Al1ex/CVE-2022-1388)
 - [Henry4E36/CVE-2022-1388](https://github.com/Henry4E36/CVE-2022-1388)
 - [cve-hunter/CVE-2022-1388-mass](https://github.com/cve-hunter/CVE-2022-1388-mass)
@@ -1606,6 +1605,8 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 
 - [jbaines-r7/victorian_machinery](https://github.com/jbaines-r7/victorian_machinery)
 - [Henry4E36/CVE-2022-30525](https://github.com/Henry4E36/CVE-2022-30525)
+- [shuai06/CVE-2022-30525](https://github.com/shuai06/CVE-2022-30525)
+- [savior-only/CVE-2022-30525](https://github.com/savior-only/CVE-2022-30525)
 
 
 ## 2021
@@ -25327,6 +25328,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [SamHackingArticles/CVE-2007-2447](https://github.com/SamHackingArticles/CVE-2007-2447)
 - [0xkasra/CVE-2007-2447](https://github.com/0xkasra/CVE-2007-2447)
 - [Nosferatuvjr/Samba-Usermap-exploit](https://github.com/Nosferatuvjr/Samba-Usermap-exploit)
+- [testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
