@@ -1364,6 +1364,7 @@ Active Directory Domain Services Elevation of Privilege Vulnerability.
 </code>
 
 - [r1skkam/TryHackMe-CVE-2022-26923](https://github.com/r1skkam/TryHackMe-CVE-2022-26923)
+- [LudovicPatho/CVE-2022-26923_AD-Certificate-Services](https://github.com/LudovicPatho/CVE-2022-26923_AD-Certificate-Services)
 
 ### CVE-2022-26927 (2022-05-10)
 
@@ -1545,6 +1546,15 @@ LMS Doctor Simple 2 Factor Authentication Plugin For Moodle Affected: 2021072900
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 - [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
 
+### CVE-2022-29383 (2022-05-13)
+
+<code>
+NETGEAR ProSafe SSL VPN firmware FVS336Gv2 and FVS336Gv3 was discovered to contain a SQL injection vulnerability via USERDBDomains.Domainname at cgi-bin/platform.cgi.
+</code>
+
+- [badboycxcc/Netgear-ssl-vpn-20211222-CVE-2022-29383](https://github.com/badboycxcc/Netgear-ssl-vpn-20211222-CVE-2022-29383)
+- [cxaqhq/netgear-to-CVE-2022-29383](https://github.com/cxaqhq/netgear-to-CVE-2022-29383)
+
 ### CVE-2022-29464 (2022-04-18)
 
 <code>
@@ -1604,6 +1614,14 @@ thread_call in sqbaselib.cpp in SQUIRREL 3.2 lacks a certain sq_reservestack cal
 </code>
 
 - [sprushed/CVE-2022-30292](https://github.com/sprushed/CVE-2022-30292)
+
+### CVE-2022-30489 (2022-05-13)
+
+<code>
+WAVLINK WN535 G3 was discovered to contain a cross-site scripting (XSS) vulnerability via the hostname parameter at /cgi-bin/login.cgi.
+</code>
+
+- [badboycxcc/XSS-CVE-2022-30489](https://github.com/badboycxcc/XSS-CVE-2022-30489)
 
 ### CVE-2022-30525 (2022-05-12)
 
@@ -18543,6 +18561,7 @@ The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 
 - [valarauco/wannafind](https://github.com/valarauco/wannafind)
 - [NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker)
 - [k4u5h41/MS17-010_CVE-2017-0143](https://github.com/k4u5h41/MS17-010_CVE-2017-0143)
+- [SampatDhakal/Metasploit-Attack-Report](https://github.com/SampatDhakal/Metasploit-Attack-Report)
 
 ### CVE-2017-0144 (2017-03-16)
 
@@ -23434,7 +23453,6 @@ The expandArguments function in the database abstraction API in Drupal core 7.x 
 </code>
 
 - [happynote3966/CVE-2014-3704](https://github.com/happynote3966/CVE-2014-3704)
-- [WTSTiNy/CVE-2014-3704](https://github.com/WTSTiNy/CVE-2014-3704)
 
 ### CVE-2014-4014 (2014-06-23)
 
