@@ -323,6 +323,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Zeyad-Azima/CVE-2022-1388](https://github.com/Zeyad-Azima/CVE-2022-1388)
 - [justakazh/CVE-2022-1388](https://github.com/justakazh/CVE-2022-1388)
 - [PsychoSec2/CVE-2022-1388-POC](https://github.com/PsychoSec2/CVE-2022-1388-POC)
+- [iveresk/cve-2022-1388-iveresk-command-shell](https://github.com/iveresk/cve-2022-1388-iveresk-command-shell)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1573,6 +1574,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [k4u5h41/CVE-2022-29464](https://github.com/k4u5h41/CVE-2022-29464)
 - [lowkey0808/cve-2022-29464](https://github.com/lowkey0808/cve-2022-29464)
 - [LinJacck/CVE-2022-29464](https://github.com/LinJacck/CVE-2022-29464)
+- [Inplex-sys/CVE-2022-29464-loader](https://github.com/Inplex-sys/CVE-2022-29464-loader)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -1634,6 +1636,7 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [Henry4E36/CVE-2022-30525](https://github.com/Henry4E36/CVE-2022-30525)
 - [shuai06/CVE-2022-30525](https://github.com/shuai06/CVE-2022-30525)
 - [savior-only/CVE-2022-30525](https://github.com/savior-only/CVE-2022-30525)
+- [M4fiaB0y/CVE-2022-30525](https://github.com/M4fiaB0y/CVE-2022-30525)
 
 
 ## 2021
@@ -2128,14 +2131,6 @@ A vulnerability in the Cisco Adaptive Security Device Manager (ASDM) Launcher co
 
 - [jbaines-r7/staystaystay](https://github.com/jbaines-r7/staystaystay)
 
-### CVE-2021-1636 (2021-01-12)
-
-<code>
-Microsoft SQL Elevation of Privilege Vulnerability
-</code>
-
-- [Nate0634034090/bug-free-memory](https://github.com/Nate0634034090/bug-free-memory)
-
 ### CVE-2021-1656 (2021-01-12)
 
 <code>
@@ -2417,7 +2412,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ret2basic/SudoScience](https://github.com/ret2basic/SudoScience)
 - [puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156)
 - [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
-- [GatoGamer1155/CVE-2021-3156](https://github.com/GatoGamer1155/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
 
@@ -2578,7 +2572,6 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
 - [Nosferatuvjr/Vivald0x6f](https://github.com/Nosferatuvjr/Vivald0x6f)
 - [innxrmxst/CVE-2021-3560](https://github.com/innxrmxst/CVE-2021-3560)
-- [GatoGamer1155/CVE-2021-3560](https://github.com/GatoGamer1155/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -2735,7 +2728,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
 - [PentesterSoham/CVE-2021-4034-exploit](https://github.com/PentesterSoham/CVE-2021-4034-exploit)
 - [T369-Real/pwnkit-pwn](https://github.com/T369-Real/pwnkit-pwn)
-- [GatoGamer1155/CVE-2021-4034](https://github.com/GatoGamer1155/CVE-2021-4034)
 - [bakhtiyarsierad/CVE-2021-4034-bug-root](https://github.com/bakhtiyarsierad/CVE-2021-4034-bug-root)
 - [ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034](https://github.com/ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034)
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
@@ -3111,11 +3103,11 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [convisolabs/CVE-2021-22204-exiftool](https://github.com/convisolabs/CVE-2021-22204-exiftool)
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
+- [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 - [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
 - [GatoGamer1155/CVE-2021-22204](https://github.com/GatoGamer1155/CVE-2021-22204)
-- [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -4259,6 +4251,14 @@ octobercms in a CMS platform based on the Laravel PHP Framework. In affected ver
 - [Immersive-Labs-Sec/CVE-2021-32648](https://github.com/Immersive-Labs-Sec/CVE-2021-32648)
 - [daftspunk/CVE-2021-32648](https://github.com/daftspunk/CVE-2021-32648)
 
+### CVE-2021-32724 (2021-09-09)
+
+<code>
+check-spelling is a github action which provides CI spell checking. In affected versions and for a repository with the [check-spelling action](https://github.com/marketplace/actions/check-spelling) enabled that triggers on `pull_request_target` (or `schedule`), an attacker can send a crafted Pull Request that causes a `GITHUB_TOKEN` to be exposed. With the `GITHUB_TOKEN`, it's possible to push commits to the repository bypassing standard approval processes. Commits to the repository could then steal any/all secrets available to the repository. As a workaround users may can either: [Disable the workflow](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow) until you've fixed all branches or Set repository to [Allow specific actions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository#allowing-specific-actions-to-run). check-spelling isn't a verified creator and it certainly won't be anytime soon. You could then explicitly add other actions that your repository uses. Set repository [Workflow permissions](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository#setting-the-permissions-of-the-github_token-for-your-repository) to `Read repository contents permission`. Workflows using `check-spelling/check-spelling@main` will get the fix automatically. Workflows using a pinned sha or tagged version will need to change the affected workflows for all repository branches to the latest version. Users can verify who and which Pull Requests have been running the action by looking up the spelling.yml action in the Actions tab of their repositories, e.g., https://github.com/check-spelling/check-spelling/actions/workflows/spelling.yml - you can filter PRs by adding ?query=event%3Apull_request_target, e.g., https://github.com/check-spelling/check-spelling/actions/workflows/spelling.yml?query=event%3Apull_request_target.
+</code>
+
+- [MaximeSchlegel/CVE-2021-32724-Target](https://github.com/MaximeSchlegel/CVE-2021-32724-Target)
+
 ### CVE-2021-32819 (2021-05-14)
 
 <code>
@@ -4486,8 +4486,8 @@ A denial of service vulnerability exists in MDT's firmware for the KNXnet/IP Sec
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
+- [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
-- [twseptian/cve-2021-38314](https://github.com/twseptian/cve-2021-38314)
 
 ### CVE-2021-38560 (2022-02-01)
 
@@ -4624,6 +4624,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 </code>
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
+- [factionsypho/TIC4301_Project](https://github.com/factionsypho/TIC4301_Project)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
 - [MRacumen/CVE-2021-40444](https://github.com/MRacumen/CVE-2021-40444)
 - [RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444)
@@ -4703,6 +4704,14 @@ loop_rw_iter in fs/io_uring.c in the Linux kernel 5.10 through 5.14.6 allows loc
 
 - [chompie1337/Linux_LPE_io_uring_CVE-2021-41073](https://github.com/chompie1337/Linux_LPE_io_uring_CVE-2021-41073)
 
+### CVE-2021-41117 (2021-10-11)
+
+<code>
+keypair is a a RSA PEM key generator written in javascript. keypair implements a lot of cryptographic primitives on its own or by borrowing from other libraries where possible, including node-forge. An issue was discovered where this library was generating identical RSA keys used in SSH. This would mean that the library is generating identical P, Q (and thus N) values which, in practical terms, is impossible with RSA-2048 keys. Generating identical values, repeatedly, usually indicates an issue with poor random number generation, or, poor handling of CSPRNG output. Issue 1: Poor random number generation (`GHSL-2021-1012`). The library does not rely entirely on a platform provided CSPRNG, rather, it uses it's own counter-based CMAC approach. Where things go wrong is seeding the CMAC implementation with &quot;true&quot; random data in the function `defaultSeedFile`. In order to seed the AES-CMAC generator, the library will take two different approaches depending on the JavaScript execution environment. In a browser, the library will use [`window.crypto.getRandomValues()`](https://github.com/juliangruber/keypair/blob/87c62f255baa12c1ec4f98a91600f82af80be6db/index.js#L971). However, in a nodeJS execution environment, the `window` object is not defined, so it goes down a much less secure solution, also of which has a bug in it. It does look like the library tries to use node's CSPRNG when possible unfortunately, it looks like the `crypto` object is null because a variable was declared with the same name, and set to `null`. So the node CSPRNG path is never taken. However, when `window.crypto.getRandomValues()` is not available, a Lehmer LCG random number generator is used to seed the CMAC counter, and the LCG is seeded with `Math.random`. While this is poor and would likely qualify in a security bug in itself, it does not explain the extreme frequency in which duplicate keys occur. The main flaw: The output from the Lehmer LCG is encoded incorrectly. The specific [line][https://github.com/juliangruber/keypair/blob/87c62f255baa12c1ec4f98a91600f82af80be6db/index.js#L1008] with the flaw is: `b.putByte(String.fromCharCode(next &amp; 0xFF))` The [definition](https://github.com/juliangruber/keypair/blob/87c62f255baa12c1ec4f98a91600f82af80be6db/index.js#L350-L352) of `putByte` is `util.ByteBuffer.prototype.putByte = function(b) {this.data += String.fromCharCode(b);};`. Simplified, this is `String.fromCharCode(String.fromCharCode(next &amp; 0xFF))`. The double `String.fromCharCode` is almost certainly unintentional and the source of weak seeding. Unfortunately, this does not result in an error. Rather, it results most of the buffer containing zeros. Since we are masking with 0xFF, we can determine that 97% of the output from the LCG are converted to zeros. The only outputs that result in meaningful values are outputs 48 through 57, inclusive. The impact is that each byte in the RNG seed has a 97% chance of being 0 due to incorrect conversion. When it is not, the bytes are 0 through 9. In summary, there are three immediate concerns: 1. The library has an insecure random number fallback path. Ideally the library would require a strong CSPRNG instead of attempting to use a LCG and `Math.random`. 2. The library does not correctly use a strong random number generator when run in NodeJS, even though a strong CSPRNG is available. 3. The fallback path has an issue in the implementation where a majority of the seed data is going to effectively be zero. Due to the poor random number generation, keypair generates RSA keys that are relatively easy to guess. This could enable an attacker to decrypt confidential messages or gain authorized access to an account belonging to the victim.
+</code>
+
+- [badkeys/keypairvuln](https://github.com/badkeys/keypairvuln)
+
 ### CVE-2021-41184 (2021-10-26)
 
 <code>
@@ -4717,6 +4726,7 @@ jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0
 Metabase is an open source data analytics platform. In affected versions a security issue has been discovered with the custom GeoJSON map (`admin-&gt;settings-&gt;maps-&gt;custom maps-&gt;add a map`) support and potential local file inclusion (including environment variables). URLs were not validated prior to being loaded. This issue is fixed in a new maintenance release (0.40.5 and 1.40.5), and any subsequent release after that. If you’re unable to upgrade immediately, you can mitigate this by including rules in your reverse proxy or load balancer or WAF to provide a validation filter before the application.
 </code>
 
+- [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
 - [frknktlca/Metabase_Nmap_Script](https://github.com/frknktlca/Metabase_Nmap_Script)
 - [Chen-ling-afk/CVE-2021-41277](https://github.com/Chen-ling-afk/CVE-2021-41277)
@@ -4782,8 +4792,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773)
 - [Chocapikk/CVE-2021-41773](https://github.com/Chocapikk/CVE-2021-41773)
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
-- [anldori/CVE-2021-41773-Scanner](https://github.com/anldori/CVE-2021-41773-Scanner)
-- [iosifache/ApacheRCEEssay](https://github.com/iosifache/ApacheRCEEssay)
 
 ### CVE-2021-41962 (2021-12-16)
 
@@ -5086,11 +5094,15 @@ PrestaShop is an Open Source e-commerce web application. Versions of PrestaShop 
 Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
 </code>
 
+- [taythebot/CVE-2021-43798](https://github.com/taythebot/CVE-2021-43798)
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
+- [zer0yu/CVE-2021-43798](https://github.com/zer0yu/CVE-2021-43798)
 - [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
+- [Mr-xn/CVE-2021-43798](https://github.com/Mr-xn/CVE-2021-43798)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
+- [kenuosec/grafanaExp](https://github.com/kenuosec/grafanaExp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
 - [lfz97/CVE-2021-43798-Grafana-File-Read](https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read)
@@ -5114,6 +5126,14 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
+
+### CVE-2021-43799 (2022-01-25)
+
+<code>
+Zulip is an open-source team collaboration tool. Zulip Server installs RabbitMQ for internal message passing. In versions of Zulip Server prior to 4.9, the initial installation (until first reboot, or restart of RabbitMQ) does not successfully limit the default ports which RabbitMQ opens; this includes port 25672, the RabbitMQ distribution port, which is used as a management port. RabbitMQ's default &quot;cookie&quot; which protects this port is generated using a weak PRNG, which limits the entropy of the password to at most 36 bits; in practicality, the seed for the randomizer is biased, resulting in approximately 20 bits of entropy. If other firewalls (at the OS or network level) do not protect port 25672, a remote attacker can brute-force the 20 bits of entropy in the &quot;cookie&quot; and leverage it for arbitrary execution of code as the rabbitmq user. They can also read all data which is sent through RabbitMQ, which includes all message traffic sent by users. Version 4.9 contains a patch for this vulnerability. As a workaround, ensure that firewalls prevent access to ports 5672 and 25672 from outside the Zulip server.
+</code>
+
+- [scopion/CVE-2021-43799](https://github.com/scopion/CVE-2021-43799)
 
 ### CVE-2021-43821 (2021-12-14)
 
@@ -5555,10 +5575,8 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [PoneyClairDeLune/LogJackFix](https://github.com/PoneyClairDeLune/LogJackFix)
 - [a5tra/log4j-exploit-builder](https://github.com/a5tra/log4j-exploit-builder)
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
-- [romanutti/log4shell-vulnerable-app](https://github.com/romanutti/log4shell-vulnerable-app)
 - [marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.](https://github.com/marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.)
 - [marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV](https://github.com/marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV)
-- [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
 - [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
@@ -11823,7 +11841,6 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Web Services). Supported versions that are affected are 10.3.6.0.0 and 12.1.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
 - [SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961](https://github.com/SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961)
 - [iceMatcha/CNTA-2019-0014xCVE-2019-2725](https://github.com/iceMatcha/CNTA-2019-0014xCVE-2019-2725)
 - [davidmthomsen/CVE-2019-2725](https://github.com/davidmthomsen/CVE-2019-2725)
@@ -18266,7 +18283,6 @@ In WinRAR versions prior to and including 5.61, There is path traversal vulnerab
 - [easis/CVE-2018-20250-WinRAR-ACE](https://github.com/easis/CVE-2018-20250-WinRAR-ACE)
 - [STP5940/CVE-2018-20250](https://github.com/STP5940/CVE-2018-20250)
 - [n4r1b/WinAce-POC](https://github.com/n4r1b/WinAce-POC)
-- [technicaldada/hack-winrar](https://github.com/technicaldada/hack-winrar)
 - [Ektoplasma/ezwinrar](https://github.com/Ektoplasma/ezwinrar)
 - [arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI](https://github.com/arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI)
 - [AeolusTF/CVE-2018-20250](https://github.com/AeolusTF/CVE-2018-20250)
@@ -19953,7 +19969,6 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp)
 - [R0B1NL1N/Oracle-WebLogic-WLS-WSAT](https://github.com/R0B1NL1N/Oracle-WebLogic-WLS-WSAT)
 - [lonehand/Oracle-WebLogic-CVE-2017-10271-master](https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master)
-- [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
 - [nhwuxiaojun/CVE-2017-10271](https://github.com/nhwuxiaojun/CVE-2017-10271)
 - [ETOCheney/JavaDeserialization](https://github.com/ETOCheney/JavaDeserialization)
 - [cved-sources/cve-2017-10271](https://github.com/cved-sources/cve-2017-10271)
@@ -25180,6 +25195,7 @@ OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating system
 
 - [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
+- [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
 
 ### CVE-2008-0228 (2008-01-10)
 
