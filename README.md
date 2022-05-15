@@ -323,6 +323,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [SecTheBit/CVE-2022-1388](https://github.com/SecTheBit/CVE-2022-1388)
 - [Zeyad-Azima/CVE-2022-1388](https://github.com/Zeyad-Azima/CVE-2022-1388)
 - [justakazh/CVE-2022-1388](https://github.com/justakazh/CVE-2022-1388)
+- [PsychoSec2/CVE-2022-1388-POC](https://github.com/PsychoSec2/CVE-2022-1388-POC)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
