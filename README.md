@@ -324,6 +324,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [justakazh/CVE-2022-1388](https://github.com/justakazh/CVE-2022-1388)
 - [PsychoSec2/CVE-2022-1388-POC](https://github.com/PsychoSec2/CVE-2022-1388-POC)
 - [iveresk/cve-2022-1388-iveresk-command-shell](https://github.com/iveresk/cve-2022-1388-iveresk-command-shell)
+- [Wrin9/CVE-2022-1388](https://github.com/Wrin9/CVE-2022-1388)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1645,6 +1646,7 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [shuai06/CVE-2022-30525](https://github.com/shuai06/CVE-2022-30525)
 - [savior-only/CVE-2022-30525](https://github.com/savior-only/CVE-2022-30525)
 - [M4fiaB0y/CVE-2022-30525](https://github.com/M4fiaB0y/CVE-2022-30525)
+- [YGoldking/CVE-2022-30525](https://github.com/YGoldking/CVE-2022-30525)
 
 
 ## 2021
@@ -2580,6 +2582,7 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
 - [Nosferatuvjr/Vivald0x6f](https://github.com/Nosferatuvjr/Vivald0x6f)
 - [innxrmxst/CVE-2021-3560](https://github.com/innxrmxst/CVE-2021-3560)
+- [UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -3116,6 +3119,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 - [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
 - [GatoGamer1155/CVE-2021-22204](https://github.com/GatoGamer1155/CVE-2021-22204)
+- [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -4734,7 +4738,6 @@ jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0
 Metabase is an open source data analytics platform. In affected versions a security issue has been discovered with the custom GeoJSON map (`admin-&gt;settings-&gt;maps-&gt;custom maps-&gt;add a map`) support and potential local file inclusion (including environment variables). URLs were not validated prior to being loaded. This issue is fixed in a new maintenance release (0.40.5 and 1.40.5), and any subsequent release after that. If you’re unable to upgrade immediately, you can mitigate this by including rules in your reverse proxy or load balancer or WAF to provide a validation filter before the application.
 </code>
 
-- [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
 - [frknktlca/Metabase_Nmap_Script](https://github.com/frknktlca/Metabase_Nmap_Script)
 - [Chen-ling-afk/CVE-2021-41277](https://github.com/Chen-ling-afk/CVE-2021-41277)
@@ -5104,7 +5107,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 
 - [taythebot/CVE-2021-43798](https://github.com/taythebot/CVE-2021-43798)
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
-- [zer0yu/CVE-2021-43798](https://github.com/zer0yu/CVE-2021-43798)
 - [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [Mr-xn/CVE-2021-43798](https://github.com/Mr-xn/CVE-2021-43798)
@@ -25542,6 +25544,7 @@ Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute 
 </code>
 
 - [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
+- [ratiros01/CVE-2004-1561](https://github.com/ratiros01/CVE-2004-1561)
 - [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
 - [thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes)
 
