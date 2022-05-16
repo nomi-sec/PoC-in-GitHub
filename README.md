@@ -1528,6 +1528,9 @@ A Remote Code Execution (RCE) vulnerability exists in Pixelimity 1.0 via admin/a
 
 - [jcarabantes/CVE-2022-28590](https://github.com/jcarabantes/CVE-2022-28590)
 
+### CVE-2022-28598
+- [patrickdeanramos/CVE-2022-28598](https://github.com/patrickdeanramos/CVE-2022-28598)
+
 ### CVE-2022-28601 (2022-05-10)
 
 <code>
@@ -1647,6 +1650,7 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [savior-only/CVE-2022-30525](https://github.com/savior-only/CVE-2022-30525)
 - [M4fiaB0y/CVE-2022-30525](https://github.com/M4fiaB0y/CVE-2022-30525)
 - [YGoldking/CVE-2022-30525](https://github.com/YGoldking/CVE-2022-30525)
+- [superzerosec/CVE-2022-30525](https://github.com/superzerosec/CVE-2022-30525)
 
 
 ## 2021
@@ -2923,6 +2927,7 @@ The System Information Library for Node.JS (npm package &quot;systeminformation&
 - [ForbiddenProgrammer/CVE-2021-21315-PoC](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
 - [cherrera0001/CVE-2021-21315v2](https://github.com/cherrera0001/CVE-2021-21315v2)
 - [Ki11i0n4ir3/CVE-2021-21315](https://github.com/Ki11i0n4ir3/CVE-2021-21315)
+- [H3rmesk1t/CVE-2021-21315-ENV](https://github.com/H3rmesk1t/CVE-2021-21315-ENV)
 
 ### CVE-2021-21341 (2021-03-22)
 
@@ -3013,6 +3018,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
 - [orangmuda/CVE-2021-21972](https://github.com/orangmuda/CVE-2021-21972)
+- [user16-et/cve-2021-21972_PoC](https://github.com/user16-et/cve-2021-21972_PoC)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -4498,7 +4504,6 @@ A denial of service vulnerability exists in MDT's firmware for the KNXnet/IP Sec
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
-- [phrantom/cve-2021-38314](https://github.com/phrantom/cve-2021-38314)
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 - [twseptian/cve-2021-38314](https://github.com/twseptian/cve-2021-38314)
 
@@ -5112,7 +5117,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [Mr-xn/CVE-2021-43798](https://github.com/Mr-xn/CVE-2021-43798)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
-- [kenuosec/grafanaExp](https://github.com/kenuosec/grafanaExp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
 - [lfz97/CVE-2021-43798-Grafana-File-Read](https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read)
