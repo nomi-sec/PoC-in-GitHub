@@ -242,7 +242,12 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 
 - [Seatwe/CVE-2022-1040-rce](https://github.com/Seatwe/CVE-2022-1040-rce)
 
-### CVE-2022-1051
+### CVE-2022-1051 (2022-05-16)
+
+<code>
+The WPQA Builder Plugin WordPress plugin before 5.2, used as a companion plugin for the Discy and Himer , does not sanitise and escape the city, phone or profile credentials fields when outputting it in the profile page, allowing any authenticated user to perform Cross-Site Scripting attacks.
+</code>
+
 - [V35HR4J/CVE-2022-1051](https://github.com/V35HR4J/CVE-2022-1051)
 
 ### CVE-2022-1096
@@ -325,6 +330,9 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [PsychoSec2/CVE-2022-1388-POC](https://github.com/PsychoSec2/CVE-2022-1388-POC)
 - [iveresk/cve-2022-1388-iveresk-command-shell](https://github.com/iveresk/cve-2022-1388-iveresk-command-shell)
 - [Wrin9/CVE-2022-1388](https://github.com/Wrin9/CVE-2022-1388)
+
+### CVE-2022-1598
+- [V35HR4J/CVE-2022-1598](https://github.com/V35HR4J/CVE-2022-1598)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -450,6 +458,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
 - [gpiechnik2/nmap-CVE-2022-21907](https://github.com/gpiechnik2/nmap-CVE-2022-21907)
 - [iveresk/cve-2022-21907-http.sys](https://github.com/iveresk/cve-2022-21907-http.sys)
+- [iveresk/cve-2022-21907](https://github.com/iveresk/cve-2022-21907)
 
 ### CVE-2022-21971 (2022-02-09)
 
@@ -635,6 +644,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Ha0Liu/CVE-2022-22947](https://github.com/Ha0Liu/CVE-2022-22947)
 - [twseptian/cve-2022-22947](https://github.com/twseptian/cve-2022-22947)
 - [whwlsfb/cve-2022-22947-godzilla-memshell](https://github.com/whwlsfb/cve-2022-22947-godzilla-memshell)
+- [0730Nophone/CVE-2022-22947-](https://github.com/0730Nophone/CVE-2022-22947-)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -1621,6 +1631,9 @@ The HTTP Server in PRIMEUR SPAZIO 2.5.1.954 (File Transfer) allows an unauthenti
 </code>
 
 - [Off3nS3c/CVE-2022-29932](https://github.com/Off3nS3c/CVE-2022-29932)
+
+### CVE-2022-30006
+- [ComparedArray/printix-CVE-2022-30006](https://github.com/ComparedArray/printix-CVE-2022-30006)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -23820,6 +23833,7 @@ The addAccount method in src/com/android/settings/accounts/AddAccountSettings.ja
 
 - [locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609)
 - [MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC)
+- [ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit)
 
 ### CVE-2014-8682 (2014-11-21)
 
