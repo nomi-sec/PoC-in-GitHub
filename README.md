@@ -331,6 +331,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [iveresk/cve-2022-1388-iveresk-command-shell](https://github.com/iveresk/cve-2022-1388-iveresk-command-shell)
 - [Wrin9/CVE-2022-1388](https://github.com/Wrin9/CVE-2022-1388)
 - [getdrive/F5-BIG-IP-exploit](https://github.com/getdrive/F5-BIG-IP-exploit)
+- [aancw/CVE-2022-1388-rs](https://github.com/aancw/CVE-2022-1388-rs)
 
 ### CVE-2022-1598
 - [V35HR4J/CVE-2022-1598](https://github.com/V35HR4J/CVE-2022-1598)
@@ -1030,6 +1031,9 @@ Windows Network File System Remote Code Execution Vulnerability. This CVE ID is 
 
 - [corelight/CVE-2022-24497](https://github.com/corelight/CVE-2022-24497)
 
+### CVE-2022-24611
+- [ITSecLab-HSEL/CVE-2022-24611](https://github.com/ITSecLab-HSEL/CVE-2022-24611)
+
 ### CVE-2022-24644 (2022-03-07)
 
 <code>
@@ -1641,6 +1645,14 @@ The HTTP Server in PRIMEUR SPAZIO 2.5.1.954 (File Transfer) allows an unauthenti
 
 ### CVE-2022-30006
 - [ComparedArray/printix-CVE-2022-30006](https://github.com/ComparedArray/printix-CVE-2022-30006)
+
+### CVE-2022-30040 (2022-05-11)
+
+<code>
+Tenda AX1803 v1.0.0.1_2890 is vulnerable to Buffer Overflow. The vulnerability lies in rootfs_ In / goform / setsystimecfg of / bin / tdhttpd in ubif file system, attackers can access http://ip/goform/SetSysTimeCfg, and by setting the ntpserve parameter, the stack buffer overflow can be caused to achieve the effect of router denial of service.
+</code>
+
+- [Le1a/CVE-2022-30040](https://github.com/Le1a/CVE-2022-30040)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -10124,7 +10136,6 @@ An issue was discovered in RiteCMS 2.2.1. An authenticated user can directly exe
 </code>
 
 - [H0j3n/CVE-2020-23934](https://github.com/H0j3n/CVE-2020-23934)
-- [zyeinn/CVE-2020-23934](https://github.com/zyeinn/CVE-2020-23934)
 
 ### CVE-2020-23968 (2020-11-10)
 
