@@ -772,6 +772,9 @@ In Spring Framework versions 5.3.0 - 5.3.18, 5.2.0 - 5.2.20, and older unsupport
 
 - [MarcinGadz/spring-rce-poc](https://github.com/MarcinGadz/spring-rce-poc)
 
+### CVE-2022-22976
+- [spring-io/cve-2022-22976-bcrypt-skips-salt](https://github.com/spring-io/cve-2022-22976-bcrypt-skips-salt)
+
 ### CVE-2022-23046 (2022-01-19)
 
 <code>
@@ -1355,6 +1358,9 @@ Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injectio
 </code>
 
 - [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
+
+### CVE-2022-26726
+- [acheong08/CVE-2022-26726-POC](https://github.com/acheong08/CVE-2022-26726-POC)
 
 ### CVE-2022-26809 (2022-04-15)
 
