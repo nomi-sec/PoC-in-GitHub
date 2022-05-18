@@ -807,6 +807,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [Fa1c0n35/zabbix-cve-2022-23131](https://github.com/Fa1c0n35/zabbix-cve-2022-23131)
 - [kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131)
 - [Kazaf6s/CVE-2022-23131](https://github.com/Kazaf6s/CVE-2022-23131)
+- [trhacknon/CVE-2022-23131](https://github.com/trhacknon/CVE-2022-23131)
 
 ### CVE-2022-23253 (2022-03-09)
 
@@ -1683,6 +1684,11 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [superzerosec/CVE-2022-30525](https://github.com/superzerosec/CVE-2022-30525)
 - [ExploitPwner/CVE-2022-30525-Zyxel-Mass-Exploiter](https://github.com/ExploitPwner/CVE-2022-30525-Zyxel-Mass-Exploiter)
 - [kuznyJan1972/CVE-2022-30525-mass](https://github.com/kuznyJan1972/CVE-2022-30525-mass)
+- [Chocapikk/CVE-2022-30525-Reverse-Shell](https://github.com/Chocapikk/CVE-2022-30525-Reverse-Shell)
+- [trhacknon/CVE-2022-30525-Reverse-Shell](https://github.com/trhacknon/CVE-2022-30525-Reverse-Shell)
+
+### CVE-2022-30780
+- [p0dalirius/CVE-2022-30780-lighttpd-denial-of-service](https://github.com/p0dalirius/CVE-2022-30780-lighttpd-denial-of-service)
 
 
 ## 2021
@@ -2229,6 +2235,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
 - [ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-)
 - [r1l4-i3pur1l4/CVE-2021-1732](https://github.com/r1l4-i3pur1l4/CVE-2021-1732)
+- [reccoon-dev/CVE-2021-1732](https://github.com/reccoon-dev/CVE-2021-1732)
 
 ### CVE-2021-1782 (2021-04-02)
 
@@ -5156,7 +5163,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
-- [lfz97/CVE-2021-43798-Grafana-File-Read](https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798)
@@ -5242,14 +5248,6 @@ The software allows the attacker to upload or transfer files of dangerous types 
 </code>
 
 - [LongWayHomie/CVE-2021-43936](https://github.com/LongWayHomie/CVE-2021-43936)
-
-### CVE-2021-44077 (2021-11-28)
-
-<code>
-Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 10530, and SupportCenter Plus before 11014 are vulnerable to unauthenticated remote code execution. This is related to /RestAPI URLs in a servlet, and ImportTechnicians in the Struts configuration.
-</code>
-
-- [horizon3ai/CVE-2021-44077](https://github.com/horizon3ai/CVE-2021-44077)
 
 ### CVE-2021-44117
 - [warmachine-57/CVE-2021-44117](https://github.com/warmachine-57/CVE-2021-44117)
@@ -5660,6 +5658,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228](https://github.com/Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228)
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
+- [kuznyJan1972/CVE-2021-44228-mass](https://github.com/kuznyJan1972/CVE-2021-44228-mass)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
