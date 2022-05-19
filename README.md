@@ -942,6 +942,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [Mr-xn/CVE-2022-24086](https://github.com/Mr-xn/CVE-2022-24086)
 - [nanaao/CVE-2022-24086-RCE](https://github.com/nanaao/CVE-2022-24086-RCE)
 - [k0zulzr/CVE-2022-24086-RCE](https://github.com/k0zulzr/CVE-2022-24086-RCE)
+- [oK0mo/CVE-2022-24086-RCE-PoC](https://github.com/oK0mo/CVE-2022-24086-RCE-PoC)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -1031,6 +1032,14 @@ Windows Network File System Remote Code Execution Vulnerability. This CVE ID is 
 </code>
 
 - [corelight/CVE-2022-24497](https://github.com/corelight/CVE-2022-24497)
+
+### CVE-2022-24500 (2022-04-15)
+
+<code>
+Windows SMB Remote Code Execution Vulnerability.
+</code>
+
+- [rkxxz/CVE-2022-24500](https://github.com/rkxxz/CVE-2022-24500)
 
 ### CVE-2022-24611 (2022-05-17)
 
@@ -1362,6 +1371,9 @@ Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injectio
 
 - [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
 
+### CVE-2022-26717
+- [theori-io/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/theori-io/CVE-2022-26717-Safari-WebGL-Exploit)
+
 ### CVE-2022-26726
 - [acheong08/CVE-2022-26726-POC](https://github.com/acheong08/CVE-2022-26726-POC)
 
@@ -1386,6 +1398,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [ExploitPwner/CVE-2022-26809-RCE-POC](https://github.com/ExploitPwner/CVE-2022-26809-RCE-POC)
 - [seciurdt/CVE-2022-26809-RCE](https://github.com/seciurdt/CVE-2022-26809-RCE)
 - [Calvitz/CVE-2022-26809](https://github.com/Calvitz/CVE-2022-26809)
+- [rkxxz/CVE-2022-26809](https://github.com/rkxxz/CVE-2022-26809)
 
 ### CVE-2022-26923 (2022-05-10)
 
