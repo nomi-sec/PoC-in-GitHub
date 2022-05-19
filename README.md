@@ -141,7 +141,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [Udyz/CVE-2022-0847](https://github.com/Udyz/CVE-2022-0847)
 - [bbaranoff/CVE-2022-0847](https://github.com/bbaranoff/CVE-2022-0847)
 - [xndpxs/CVE-2022-0847](https://github.com/xndpxs/CVE-2022-0847)
-- [imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847)
+- [r1is/CVE-2022-0847](https://github.com/r1is/CVE-2022-0847)
 - [Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit)
 - [2xYuan/CVE-2022-0847](https://github.com/2xYuan/CVE-2022-0847)
 - [crowsec-edtech/Dirty-Pipe](https://github.com/crowsec-edtech/Dirty-Pipe)
@@ -199,6 +199,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [tufanturhan/CVE-2022-0847-L-nux-PrivEsc](https://github.com/tufanturhan/CVE-2022-0847-L-nux-PrivEsc)
 - [rexpository/linux-privilege-escalation](https://github.com/rexpository/linux-privilege-escalation)
 - [isaiahsimeone/COMP3320-VAPT](https://github.com/isaiahsimeone/COMP3320-VAPT)
+- [VinuKalana/DirtyPipe-CVE-2022-0847](https://github.com/VinuKalana/DirtyPipe-CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -647,6 +648,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [twseptian/cve-2022-22947](https://github.com/twseptian/cve-2022-22947)
 - [whwlsfb/cve-2022-22947-godzilla-memshell](https://github.com/whwlsfb/cve-2022-22947-godzilla-memshell)
 - [0730Nophone/CVE-2022-22947-](https://github.com/0730Nophone/CVE-2022-22947-)
+- [anansec/CVE-2022-22947_EXP](https://github.com/anansec/CVE-2022-22947_EXP)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -774,7 +776,12 @@ In Spring Framework versions 5.3.0 - 5.3.18, 5.2.0 - 5.2.20, and older unsupport
 
 - [MarcinGadz/spring-rce-poc](https://github.com/MarcinGadz/spring-rce-poc)
 
-### CVE-2022-22976
+### CVE-2022-22976 (2022-05-19)
+
+<code>
+Spring Security versions 5.5.x prior to 5.5.7, 5.6.x prior to 5.6.4, and earlier unsupported versions contain an integer overflow vulnerability. When using the BCrypt class with the maximum work factor (31), the encoder does not perform any salt rounds, due to an integer overflow error. The default settings are not affected by this CVE.
+</code>
+
 - [spring-io/cve-2022-22976-bcrypt-skips-salt](https://github.com/spring-io/cve-2022-22976-bcrypt-skips-salt)
 
 ### CVE-2022-23046 (2022-01-19)
@@ -1032,14 +1039,6 @@ Windows Network File System Remote Code Execution Vulnerability. This CVE ID is 
 </code>
 
 - [corelight/CVE-2022-24497](https://github.com/corelight/CVE-2022-24497)
-
-### CVE-2022-24500 (2022-04-15)
-
-<code>
-Windows SMB Remote Code Execution Vulnerability.
-</code>
-
-- [rkxxz/CVE-2022-24500](https://github.com/rkxxz/CVE-2022-24500)
 
 ### CVE-2022-24611 (2022-05-17)
 
@@ -1397,7 +1396,6 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [ExploitPwner/CVE-2022-26809-RCE-POC](https://github.com/ExploitPwner/CVE-2022-26809-RCE-POC)
 - [seciurdt/CVE-2022-26809-RCE](https://github.com/seciurdt/CVE-2022-26809-RCE)
 - [Calvitz/CVE-2022-26809](https://github.com/Calvitz/CVE-2022-26809)
-- [rkxxz/CVE-2022-26809](https://github.com/rkxxz/CVE-2022-26809)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -5171,7 +5169,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 </code>
 
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
-- [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
@@ -5673,6 +5670,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
 - [kuznyJan1972/CVE-2021-44228-mass](https://github.com/kuznyJan1972/CVE-2021-44228-mass)
+- [caiquebaracho/CVE-2021-44228](https://github.com/caiquebaracho/CVE-2021-44228)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
@@ -21704,7 +21702,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability](https://github.com/KasunPriyashan/Y2S1-Project-Linux-Exploitaion-using-CVE-2016-5195-Vulnerability)
 - [th3-5had0w/DirtyCOW-PoC](https://github.com/th3-5had0w/DirtyCOW-PoC)
 - [ellietoulabi/Dirty-Cow](https://github.com/ellietoulabi/Dirty-Cow)
-- [imfiver/CVE-2022-0847](https://github.com/imfiver/CVE-2022-0847)
+- [r1is/CVE-2022-0847](https://github.com/r1is/CVE-2022-0847)
 - [vinspiert/scumjrs](https://github.com/vinspiert/scumjrs)
 - [gurpreetsinghsaluja/dirtycow](https://github.com/gurpreetsinghsaluja/dirtycow)
 - [ArkAngeL43/CVE-2016-5195](https://github.com/ArkAngeL43/CVE-2016-5195)
