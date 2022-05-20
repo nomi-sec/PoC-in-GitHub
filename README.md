@@ -673,6 +673,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [lucksec/VMware-CVE-2022-22954](https://github.com/lucksec/VMware-CVE-2022-22954)
 - [mumu2020629/-CVE-2022-22954-scanner](https://github.com/mumu2020629/-CVE-2022-22954-scanner)
 - [MSeymenD/CVE-2022-22954-Testi](https://github.com/MSeymenD/CVE-2022-22954-Testi)
+- [corelight/cve-2022-22954](https://github.com/corelight/cve-2022-22954)
 - [DrorDvash/CVE-2022-22954_VMware_PoC](https://github.com/DrorDvash/CVE-2022-22954_VMware_PoC)
 - [Jun-5heng/CVE-2022-22954](https://github.com/Jun-5heng/CVE-2022-22954)
 - [tunelko/CVE-2022-22954-PoC](https://github.com/tunelko/CVE-2022-22954-PoC)
@@ -767,6 +768,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [c4mx/CVE-2022-22965_PoC](https://github.com/c4mx/CVE-2022-22965_PoC)
 - [mariomamo/CVE-2022-22965](https://github.com/mariomamo/CVE-2022-22965)
 - [khidottrivi/CVE-2022-22965](https://github.com/khidottrivi/CVE-2022-22965)
+- [cxzero/CVE-2022-22965-spring4shell](https://github.com/cxzero/CVE-2022-22965-spring4shell)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -1391,7 +1393,6 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [jones199023/CVE-2022-26809](https://github.com/jones199023/CVE-2022-26809)
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
 - [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
-- [XmasSnowREAL/CVE-2022-26809-RCE](https://github.com/XmasSnowREAL/CVE-2022-26809-RCE)
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [ExploitPwner/CVE-2022-26809-RCE-POC](https://github.com/ExploitPwner/CVE-2022-26809-RCE-POC)
 - [seciurdt/CVE-2022-26809-RCE](https://github.com/seciurdt/CVE-2022-26809-RCE)
@@ -1557,6 +1558,7 @@ A Remote Code Execution (RCE) vulnerability exists in Pixelimity 1.0 via admin/a
 </code>
 
 - [jcarabantes/CVE-2022-28590](https://github.com/jcarabantes/CVE-2022-28590)
+- [trhacknon/CVE-2022-28590](https://github.com/trhacknon/CVE-2022-28590)
 
 ### CVE-2022-28598
 - [patrickdeanramos/CVE-2022-28598](https://github.com/patrickdeanramos/CVE-2022-28598)
@@ -1617,6 +1619,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [lowkey0808/cve-2022-29464](https://github.com/lowkey0808/cve-2022-29464)
 - [LinJacck/CVE-2022-29464](https://github.com/LinJacck/CVE-2022-29464)
 - [Inplex-sys/CVE-2022-29464-loader](https://github.com/Inplex-sys/CVE-2022-29464-loader)
+- [trhacknon/CVE-2022-29464](https://github.com/trhacknon/CVE-2022-29464)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -2860,7 +2863,6 @@ A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_
 
 - [jbaines-r7/badblood](https://github.com/jbaines-r7/badblood)
 - [ExploitPwner/CVE-2021-20038-Mass-RCE-SonicWall](https://github.com/ExploitPwner/CVE-2021-20038-Mass-RCE-SonicWall)
-- [XmasSnowREAL/CVE-2021-20038-Mass-RCE](https://github.com/XmasSnowREAL/CVE-2021-20038-Mass-RCE)
 
 ### CVE-2021-20717 (2021-05-10)
 
@@ -4945,14 +4947,6 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 - [knightswd/NoPacScan](https://github.com/knightswd/NoPacScan)
 - [XiaoliChan/Invoke-sAMSpoofing](https://github.com/XiaoliChan/Invoke-sAMSpoofing)
 
-### CVE-2021-42292 (2021-11-09)
-
-<code>
-Microsoft Excel Security Feature Bypass Vulnerability
-</code>
-
-- [XmasSnowREAL/CVE-2021-42292](https://github.com/XmasSnowREAL/CVE-2021-42292)
-
 ### CVE-2021-42321 (2021-11-09)
 
 <code>
@@ -5169,11 +5163,13 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 </code>
 
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
+- [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
+- [lfz97/CVE-2021-43798-Grafana-File-Read](https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798)
@@ -9778,14 +9774,6 @@ An issue was discovered in INNEO Startup TOOLS 2017 M021 12.0.66.3784 through 20
 
 ### CVE-2020-15808
 - [manucuf/CVE202015808](https://github.com/manucuf/CVE202015808)
-
-### CVE-2020-15823 (2020-08-08)
-
-<code>
-JetBrains YouTrack before 2020.2.8873 is vulnerable to SSRF in the Workflow component.
-</code>
-
-- [XmasSnowREAL/CVE-2020-15823](https://github.com/XmasSnowREAL/CVE-2020-15823)
 
 ### CVE-2020-15873 (2020-07-21)
 
