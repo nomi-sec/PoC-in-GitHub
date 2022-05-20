@@ -1713,8 +1713,19 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 ### CVE-2022-30780
 - [p0dalirius/CVE-2022-30780-lighttpd-denial-of-service](https://github.com/p0dalirius/CVE-2022-30780-lighttpd-denial-of-service)
 
+### CVE-2022-31245
+- [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
+
 
 ## 2021
+### CVE-2021-0302 (2021-02-10)
+
+<code>
+In PackageInstaller, there is a possible tapjacking attack due to an insecure default value. This could lead to local escalation of privilege and permissions with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.1 Android-9 Android-10Android ID: A-155287782
+</code>
+
+- [ShaikUsaf/packages_apps_PackageInstaller_AOSP10_r33_CVE-2021-0302](https://github.com/ShaikUsaf/packages_apps_PackageInstaller_AOSP10_r33_CVE-2021-0302)
+
 ### CVE-2021-0306 (2021-01-11)
 
 <code>
@@ -5177,7 +5188,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
-- [lfz97/CVE-2021-43798-Grafana-File-Read](https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798)
@@ -5263,14 +5273,6 @@ The software allows the attacker to upload or transfer files of dangerous types 
 </code>
 
 - [LongWayHomie/CVE-2021-43936](https://github.com/LongWayHomie/CVE-2021-43936)
-
-### CVE-2021-44077 (2021-11-28)
-
-<code>
-Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 10530, and SupportCenter Plus before 11014 are vulnerable to unauthenticated remote code execution. This is related to /RestAPI URLs in a servlet, and ImportTechnicians in the Struts configuration.
-</code>
-
-- [horizon3ai/CVE-2021-44077](https://github.com/horizon3ai/CVE-2021-44077)
 
 ### CVE-2021-44117
 - [warmachine-57/CVE-2021-44117](https://github.com/warmachine-57/CVE-2021-44117)
