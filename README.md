@@ -1405,6 +1405,8 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [ExploitPwner/CVE-2022-26809-RCE-POC](https://github.com/ExploitPwner/CVE-2022-26809-RCE-POC)
 - [seciurdt/CVE-2022-26809-RCE](https://github.com/seciurdt/CVE-2022-26809-RCE)
 - [Calvitz/CVE-2022-26809](https://github.com/Calvitz/CVE-2022-26809)
+- [XmasSnowISBACK/CVE-2022-26809](https://github.com/XmasSnowISBACK/CVE-2022-26809)
+- [seciurdt/CVE-2022-26809-MASS](https://github.com/seciurdt/CVE-2022-26809-MASS)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -1713,7 +1715,12 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 ### CVE-2022-30780
 - [p0dalirius/CVE-2022-30780-lighttpd-denial-of-service](https://github.com/p0dalirius/CVE-2022-30780-lighttpd-denial-of-service)
 
-### CVE-2022-31245
+### CVE-2022-31245 (2022-05-20)
+
+<code>
+mailcow before 2022-05d allows a remote authenticated user to inject OS commands and escalate privileges to domain admin via the --debug option in conjunction with the ---PIPEMESS option in Sync Jobs.
+</code>
+
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
 
 
@@ -20960,6 +20967,7 @@ Primetek Primefaces 5.x is vulnerable to a weak encryption flaw resulting in rem
 - [mogwailabs/CVE-2017-1000486](https://github.com/mogwailabs/CVE-2017-1000486)
 - [cved-sources/cve-2017-1000486](https://github.com/cved-sources/cve-2017-1000486)
 - [Pastea/CVE-2017-1000486](https://github.com/Pastea/CVE-2017-1000486)
+- [prok3z/Nuclei-Template-Primefaces-RCE](https://github.com/prok3z/Nuclei-Template-Primefaces-RCE)
 
 ### CVE-2017-1000499 (2018-01-03)
 
