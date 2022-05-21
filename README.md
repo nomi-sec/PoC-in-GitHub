@@ -1354,6 +1354,7 @@ On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute ar
 
 - [misterxid/watchguard_cve-2022-26318](https://github.com/misterxid/watchguard_cve-2022-26318)
 - [h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318](https://github.com/h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318)
+- [BabyTeam1024/CVE-2022-26318](https://github.com/BabyTeam1024/CVE-2022-26318)
 
 ### CVE-2022-26503 (2022-03-17)
 
@@ -1592,6 +1593,44 @@ LMS Doctor Simple 2 Factor Authentication Plugin For Moodle Affected: 2021072900
 </code>
 
 - [FlaviuPopescu/CVE-2022-28986](https://github.com/FlaviuPopescu/CVE-2022-28986)
+
+### CVE-2022-29004
+- [sudoninja-noob/CVE-2022-29004](https://github.com/sudoninja-noob/CVE-2022-29004)
+
+### CVE-2022-29005
+- [sudoninja-noob/CVE-2022-29005](https://github.com/sudoninja-noob/CVE-2022-29005)
+
+### CVE-2022-29006 (2022-05-11)
+
+<code>
+Multiple SQL injection vulnerabilities via the username and password parameters in the Admin panel of Directory Management System v1.0 allows attackers to bypass authentication.
+</code>
+
+- [sudoninja-noob/CVE-2022-29006](https://github.com/sudoninja-noob/CVE-2022-29006)
+
+### CVE-2022-29007 (2022-05-11)
+
+<code>
+Multiple SQL injection vulnerabilities via the username and password parameters in the Admin panel of Dairy Farm Shop Management System v1.0 allows attackers to bypass authentication.
+</code>
+
+- [sudoninja-noob/CVE-2022-29007](https://github.com/sudoninja-noob/CVE-2022-29007)
+
+### CVE-2022-29008 (2022-05-11)
+
+<code>
+An insecure direct object reference (IDOR) vulnerability in the viewid parameter of Bus Pass Management System v1.0 allows attackers to access sensitive information.
+</code>
+
+- [sudoninja-noob/CVE-2022-29008](https://github.com/sudoninja-noob/CVE-2022-29008)
+
+### CVE-2022-29009 (2022-05-11)
+
+<code>
+Multiple SQL injection vulnerabilities via the username and password parameters in the Admin panel of Cyber Cafe Management System Project v1.0 allows attackers to bypass authentication.
+</code>
+
+- [sudoninja-noob/CVE-2022-29009](https://github.com/sudoninja-noob/CVE-2022-29009)
 
 ### CVE-2022-29072 (2022-04-15)
 
