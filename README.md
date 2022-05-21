@@ -1382,6 +1382,7 @@ Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injectio
 
 ### CVE-2022-26717
 - [theori-io/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/theori-io/CVE-2022-26717-Safari-WebGL-Exploit)
+- [trhacknon/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/trhacknon/CVE-2022-26717-Safari-WebGL-Exploit)
 
 ### CVE-2022-26726
 - [acheong08/CVE-2022-26726-POC](https://github.com/acheong08/CVE-2022-26726-POC)
@@ -2686,6 +2687,9 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 
 ### CVE-2021-3864
 - [walac/cve-2021-3864](https://github.com/walac/cve-2021-3864)
+
+### CVE-2021-3929
+- [QiuhaoLi/CVE-2021-3929-3947](https://github.com/QiuhaoLi/CVE-2021-3929-3947)
 
 ### CVE-2021-3972 (2022-04-22)
 
@@ -5189,7 +5193,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 </code>
 
 - [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
-- [jas502n/Grafana-CVE-2021-43798](https://github.com/jas502n/Grafana-CVE-2021-43798)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
@@ -20967,7 +20970,6 @@ Primetek Primefaces 5.x is vulnerable to a weak encryption flaw resulting in rem
 - [mogwailabs/CVE-2017-1000486](https://github.com/mogwailabs/CVE-2017-1000486)
 - [cved-sources/cve-2017-1000486](https://github.com/cved-sources/cve-2017-1000486)
 - [Pastea/CVE-2017-1000486](https://github.com/Pastea/CVE-2017-1000486)
-- [prok3z/Nuclei-Template-Primefaces-RCE](https://github.com/prok3z/Nuclei-Template-Primefaces-RCE)
 
 ### CVE-2017-1000499 (2018-01-03)
 
