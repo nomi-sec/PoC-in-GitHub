@@ -200,6 +200,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [rexpository/linux-privilege-escalation](https://github.com/rexpository/linux-privilege-escalation)
 - [isaiahsimeone/COMP3320-VAPT](https://github.com/isaiahsimeone/COMP3320-VAPT)
 - [VinuKalana/DirtyPipe-CVE-2022-0847](https://github.com/VinuKalana/DirtyPipe-CVE-2022-0847)
+- [IHenakaarachchi/debian11-dirty_pipe-patcher](https://github.com/IHenakaarachchi/debian11-dirty_pipe-patcher)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -588,6 +589,14 @@ HotelDruid v3.0.3 was discovered to contain a remote code execution (RCE) vulner
 
 - [0z09e/CVE-2022-22909](https://github.com/0z09e/CVE-2022-22909)
 - [kaal18/CVE-2022-22909](https://github.com/kaal18/CVE-2022-22909)
+
+### CVE-2022-22916 (2022-02-17)
+
+<code>
+O2OA v6.4.7 was discovered to contain a remote code execution (RCE) vulnerability via /x_program_center/jaxrs/invoke.
+</code>
+
+- [aodsec/CVE-2022-22916](https://github.com/aodsec/CVE-2022-22916)
 
 ### CVE-2022-22919 (2022-01-29)
 
@@ -14784,6 +14793,7 @@ An issue was discovered on Xiaomi Mi WiFi R3G devices before 2.28.23-stable. The
 
 - [UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC](https://github.com/UltramanGaia/Xiaomi_Mi_WiFi_R3G_Vulnerability_POC)
 - [AjayMT6/UltramanGaia](https://github.com/AjayMT6/UltramanGaia)
+- [jsnhcuan1997/UltramanGaia](https://github.com/jsnhcuan1997/UltramanGaia)
 
 ### CVE-2019-18426 (2020-01-21)
 
