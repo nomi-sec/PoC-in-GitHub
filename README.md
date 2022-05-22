@@ -242,7 +242,10 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 An authentication bypass vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v18.5 MR3 and older.
 </code>
 
+- [cve-hunter/CVE-2022-1040-sophos-rce](https://github.com/cve-hunter/CVE-2022-1040-sophos-rce)
 - [Seatwe/CVE-2022-1040-rce](https://github.com/Seatwe/CVE-2022-1040-rce)
+- [cve-hunter/CVE-2022-1040-RCE](https://github.com/cve-hunter/CVE-2022-1040-RCE)
+- [XmasSnowISBACK/CVE-2022-1040](https://github.com/XmasSnowISBACK/CVE-2022-1040)
 
 ### CVE-2022-1051 (2022-05-16)
 
@@ -335,6 +338,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [getdrive/F5-BIG-IP-exploit](https://github.com/getdrive/F5-BIG-IP-exploit)
 - [aancw/CVE-2022-1388-rs](https://github.com/aancw/CVE-2022-1388-rs)
 - [seciurdt/CVE-2022-1388-mass](https://github.com/seciurdt/CVE-2022-1388-mass)
+- [XmasSnowISBACK/CVE-2022-1388](https://github.com/XmasSnowISBACK/CVE-2022-1388)
 
 ### CVE-2022-1597
 - [V35HR4J/CVE-2022-1597](https://github.com/V35HR4J/CVE-2022-1597)
@@ -473,6 +477,7 @@ Windows Runtime Remote Code Execution Vulnerability.
 
 - [0vercl0k/CVE-2022-21971](https://github.com/0vercl0k/CVE-2022-21971)
 - [tufanturhan/CVE-2022-21971-Windows-Runtime-RCE](https://github.com/tufanturhan/CVE-2022-21971-Windows-Runtime-RCE)
+- [XmasSnowISBACK/CVE-2022-21971](https://github.com/XmasSnowISBACK/CVE-2022-21971)
 
 ### CVE-2022-21974 (2022-02-09)
 
@@ -1095,6 +1100,7 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 </code>
 
 - [sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit)
+- [XmasSnowISBACK/CVE-2022-24706](https://github.com/XmasSnowISBACK/CVE-2022-24706)
 
 ### CVE-2022-24734 (2022-03-09)
 
@@ -1398,6 +1404,7 @@ Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injectio
 
 ### CVE-2022-26726
 - [acheong08/CVE-2022-26726-POC](https://github.com/acheong08/CVE-2022-26726-POC)
+- [XmasSnowISBACK/CVE-2022-26726](https://github.com/XmasSnowISBACK/CVE-2022-26726)
 
 ### CVE-2022-26809 (2022-04-15)
 
@@ -5216,6 +5223,14 @@ Automox Agent before 32 on Windows incorrectly sets permissions on a temporary d
 
 - [gfoss/CVE-2021-43326_Exploit](https://github.com/gfoss/CVE-2021-43326_Exploit)
 
+### CVE-2021-43503 (2022-04-08)
+
+<code>
+A Remote Code Execution (RCE) vulnerability exists in h laravel 5.8.38 via an unserialize pop chain in (1) __destruct in \Routing\PendingResourceRegistration.php, (2) __cal in Queue\Capsule\Manager.php, and (3) __invoke in mockery\library\Mockery\ClosureWrapper.php.
+</code>
+
+- [kang8/CVE-2021-43503](https://github.com/kang8/CVE-2021-43503)
+
 ### CVE-2021-43515 (2022-04-08)
 
 <code>
@@ -5253,7 +5268,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
-- [z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798)
 - [julesbozouklian/CVE-2021-43798](https://github.com/julesbozouklian/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
@@ -25664,6 +25678,14 @@ Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; en
 </code>
 
 - [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
+
+### CVE-2005-3299 (2005-10-23)
+
+<code>
+PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
+</code>
+
+- [RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299)
 
 
 ## 2004
