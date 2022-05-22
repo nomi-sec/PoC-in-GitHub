@@ -334,6 +334,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Wrin9/CVE-2022-1388](https://github.com/Wrin9/CVE-2022-1388)
 - [getdrive/F5-BIG-IP-exploit](https://github.com/getdrive/F5-BIG-IP-exploit)
 - [aancw/CVE-2022-1388-rs](https://github.com/aancw/CVE-2022-1388-rs)
+- [seciurdt/CVE-2022-1388-mass](https://github.com/seciurdt/CVE-2022-1388-mass)
 
 ### CVE-2022-1597
 - [V35HR4J/CVE-2022-1597](https://github.com/V35HR4J/CVE-2022-1597)
@@ -2874,7 +2875,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Tanmay-N/CVE-2021-4034](https://github.com/Tanmay-N/CVE-2021-4034)
 - [hahaleyile/CVE-2021-4034](https://github.com/hahaleyile/CVE-2021-4034)
 - [movvamrocks/PwnKit-CVE-2021-4034](https://github.com/movvamrocks/PwnKit-CVE-2021-4034)
-- [Xuanyaz/CVE-2021-4034](https://github.com/Xuanyaz/CVE-2021-4034)
+- [Ler2sq/CVE-2021-4034](https://github.com/Ler2sq/CVE-2021-4034)
 - [Jesrat/make_me_root](https://github.com/Jesrat/make_me_root)
 - [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
 - [PentesterSoham/CVE-2021-4034-exploit](https://github.com/PentesterSoham/CVE-2021-4034-exploit)
@@ -8018,6 +8019,7 @@ Deserialization of Untrusted Data in Liferay Portal prior to 7.2.1 CE GA2 allows
 - [shacojx/POC-CVE-2020-7961-Token-iterate](https://github.com/shacojx/POC-CVE-2020-7961-Token-iterate)
 - [Udyz/CVE-2020-7961-Mass](https://github.com/Udyz/CVE-2020-7961-Mass)
 - [ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961)
+- [pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass)
 
 ### CVE-2020-7980 (2020-01-25)
 
