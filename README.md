@@ -711,6 +711,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [twseptian/cve-2022-22963](https://github.com/twseptian/cve-2022-22963)
 - [SealPaPaPa/SpringCloudFunction-Research](https://github.com/SealPaPaPa/SpringCloudFunction-Research)
 - [k3rwin/spring-cloud-function-rce](https://github.com/k3rwin/spring-cloud-function-rce)
+- [trhacknon/CVE-2022-22963](https://github.com/trhacknon/CVE-2022-22963)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -7655,6 +7656,7 @@ index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v
 </code>
 
 - [TheCyberGeek/CVE-2020-5844](https://github.com/TheCyberGeek/CVE-2020-5844)
+- [UNICORDev/exploit-CVE-2020-5844](https://github.com/UNICORDev/exploit-CVE-2020-5844)
 
 ### CVE-2020-5902 (2020-07-01)
 
@@ -19862,7 +19864,7 @@ SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to ex
 - [brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917)
 - [stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla)
 - [cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917)
-- [Siopsec/CVE-2017-8917](https://github.com/Siopsec/CVE-2017-8917)
+- [SiopySec/CVE-2017-8917](https://github.com/SiopySec/CVE-2017-8917)
 - [AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection](https://github.com/AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection)
 
 ### CVE-2017-9096 (2017-11-08)
