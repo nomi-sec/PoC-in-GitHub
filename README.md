@@ -1601,7 +1601,12 @@ A Two-Factor Authentication (2FA) bypass vulnerability in &quot;Simple 2FA Plugi
 
 - [FlaviuPopescu/CVE-2022-28601](https://github.com/FlaviuPopescu/CVE-2022-28601)
 
-### CVE-2022-28944
+### CVE-2022-28944 (2022-05-23)
+
+<code>
+Certain EMCO Software products are affected by: CWE-494: Download of Code Without Integrity Check. This affects MSI Package Builder for Windows 9.1.4 and Remote Installer for Windows 6.0.13 and Ping Monitor for Windows 8.0.18 and Remote Shutdown for Windows 7.2.2 and WakeOnLan 2.0.8 and Network Inventory for Windows 5.8.22 and Network Software Scanner for Windows 2.0.8 and UnLock IT for Windows 6.1.1. The impact is: execute arbitrary code (remote). The component is: Updater. The attack vector is: To exploit this vulnerability, a user must trigger an update of an affected installation of EMCO Software. ¶¶ Multiple products from EMCO Software are affected by a remote code execution vulnerability during the update process.
+</code>
+
 - [gerr-re/cve-2022-28944](https://github.com/gerr-re/cve-2022-28944)
 
 ### CVE-2022-28986 (2022-05-10)
@@ -1612,10 +1617,20 @@ LMS Doctor Simple 2 Factor Authentication Plugin For Moodle Affected: 2021072900
 
 - [FlaviuPopescu/CVE-2022-28986](https://github.com/FlaviuPopescu/CVE-2022-28986)
 
-### CVE-2022-29004
+### CVE-2022-29004 (2022-05-23)
+
+<code>
+Diary Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the Name parameter in search-result.php.
+</code>
+
 - [sudoninja-noob/CVE-2022-29004](https://github.com/sudoninja-noob/CVE-2022-29004)
 
-### CVE-2022-29005
+### CVE-2022-29005 (2022-05-23)
+
+<code>
+Multiple cross-site scripting (XSS) vulnerabilities in the component /obcs/user/profile.php of Online Birth Certificate System v1.2 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the fname or lname parameters.
+</code>
+
 - [sudoninja-noob/CVE-2022-29005](https://github.com/sudoninja-noob/CVE-2022-29005)
 
 ### CVE-2022-29006 (2022-05-11)
@@ -1769,6 +1784,7 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [Chocapikk/CVE-2022-30525-Reverse-Shell](https://github.com/Chocapikk/CVE-2022-30525-Reverse-Shell)
 - [trhacknon/CVE-2022-30525-Reverse-Shell](https://github.com/trhacknon/CVE-2022-30525-Reverse-Shell)
 - [160Team/CVE-2022-30525](https://github.com/160Team/CVE-2022-30525)
+- [iveresk/cve-2022-30525](https://github.com/iveresk/cve-2022-30525)
 
 ### CVE-2022-30778 (2022-05-15)
 
@@ -2903,6 +2919,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
 - [PentesterSoham/CVE-2021-4034-exploit](https://github.com/PentesterSoham/CVE-2021-4034-exploit)
 - [T369-Real/pwnkit-pwn](https://github.com/T369-Real/pwnkit-pwn)
+- [GatoGamer1155/CVE-2021-4034](https://github.com/GatoGamer1155/CVE-2021-4034)
 - [bakhtiyarsierad/CVE-2021-4034-bug-root](https://github.com/bakhtiyarsierad/CVE-2021-4034-bug-root)
 - [ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034](https://github.com/ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034)
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
@@ -5283,7 +5300,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
-- [julesbozouklian/CVE-2021-43798](https://github.com/julesbozouklian/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
 - [pedrohavay/exploit-grafana-CVE-2021-43798](https://github.com/pedrohavay/exploit-grafana-CVE-2021-43798)
@@ -8832,6 +8848,14 @@ In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML f
 
 - [0xAJ2K/CVE-2020-11022-CVE-2020-11023](https://github.com/0xAJ2K/CVE-2020-11022-CVE-2020-11023)
 - [korestreet/https-nj.gov---CVE-2020-11022](https://github.com/korestreet/https-nj.gov---CVE-2020-11022)
+
+### CVE-2020-11023 (2020-04-29)
+
+<code>
+In jQuery versions greater than or equal to 1.0.3 and before 3.5.0, passing HTML containing &lt;option&gt; elements from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.
+</code>
+
+- [korestreet/https-nj.gov---CVE-2020-11023](https://github.com/korestreet/https-nj.gov---CVE-2020-11023)
 
 ### CVE-2020-11060 (2020-05-12)
 
@@ -13365,6 +13389,7 @@ jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishan
 - [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 - [chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020](https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020)
+- [korestreet/https-nj.gov---CVE-2019-11358](https://github.com/korestreet/https-nj.gov---CVE-2019-11358)
 
 ### CVE-2019-11447 (2019-04-22)
 
@@ -17605,6 +17630,30 @@ Codiad through 2.8.4 allows Remote Code Execution, a different vulnerability tha
 </code>
 
 - [hidog123/Codiad-CVE-2018-14009](https://github.com/hidog123/Codiad-CVE-2018-14009)
+
+### CVE-2018-14040 (2018-07-13)
+
+<code>
+In Bootstrap before 4.1.2, XSS is possible in the collapse data-parent attribute.
+</code>
+
+- [korestreet/https-nj.gov---CVE-2018-14040](https://github.com/korestreet/https-nj.gov---CVE-2018-14040)
+
+### CVE-2018-14041 (2018-07-13)
+
+<code>
+In Bootstrap before 4.1.2, XSS is possible in the data-target property of scrollspy.
+</code>
+
+- [korestreet/https-nj.gov---CVE-2018-14041](https://github.com/korestreet/https-nj.gov---CVE-2018-14041)
+
+### CVE-2018-14042 (2018-07-13)
+
+<code>
+In Bootstrap before 4.1.2, XSS is possible in the data-container property of tooltip.
+</code>
+
+- [korestreet/https-nj.gov---CVE-2018-14042](https://github.com/korestreet/https-nj.gov---CVE-2018-14042)
 
 ### CVE-2018-14083 (2018-07-25)
 
