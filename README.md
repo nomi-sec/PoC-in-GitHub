@@ -1770,6 +1770,14 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [trhacknon/CVE-2022-30525-Reverse-Shell](https://github.com/trhacknon/CVE-2022-30525-Reverse-Shell)
 - [160Team/CVE-2022-30525](https://github.com/160Team/CVE-2022-30525)
 
+### CVE-2022-30778 (2022-05-15)
+
+<code>
+Laravel 9.1.8, when processing attacker-controlled data for deserialization, allows Remote Code Execution via an unserialize pop chain in __destruct in Illuminate\Broadcasting\PendingBroadcast.php and dispatch($command) in Illuminate\Bus\QueueingDispatcher.php.
+</code>
+
+- [kang8/CVE-2022-30778](https://github.com/kang8/CVE-2022-30778)
+
 ### CVE-2022-30780
 - [p0dalirius/CVE-2022-30780-lighttpd-denial-of-service](https://github.com/p0dalirius/CVE-2022-30780-lighttpd-denial-of-service)
 
@@ -8823,6 +8831,7 @@ In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML f
 </code>
 
 - [0xAJ2K/CVE-2020-11022-CVE-2020-11023](https://github.com/0xAJ2K/CVE-2020-11022-CVE-2020-11023)
+- [korestreet/https-nj.gov---CVE-2020-11022](https://github.com/korestreet/https-nj.gov---CVE-2020-11022)
 
 ### CVE-2020-11060 (2020-05-12)
 
@@ -12715,6 +12724,14 @@ Adobe Acrobat and Reader versions 2019.012.20035 and earlier, 2019.012.20035 and
 </code>
 
 - [f01965/CVE-2019-8014](https://github.com/f01965/CVE-2019-8014)
+
+### CVE-2019-8331 (2019-02-20)
+
+<code>
+In Bootstrap before 3.4.1 and 4.3.x before 4.3.1, XSS is possible in the tooltip or popover data-template attribute.
+</code>
+
+- [korestreet/https-nj.gov---CVE-2019-8331](https://github.com/korestreet/https-nj.gov---CVE-2019-8331)
 
 ### CVE-2019-8389 (2019-02-16)
 
