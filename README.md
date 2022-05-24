@@ -4724,14 +4724,6 @@ Cachet is an open source status page. With Cachet prior to and including 2.3.18,
 
 - [W0rty/CVE-2021-39165](https://github.com/W0rty/CVE-2021-39165)
 
-### CVE-2021-39316 (2021-08-31)
-
-<code>
-The Zoomsounds plugin &lt;= 6.45 for WordPress allows arbitrary files, including sensitive configuration files such as wp-config.php, to be downloaded via the `dzsap_download` action using directory traversal in the `link` parameter.
-</code>
-
-- [anggoroexe/Mass_CVE-2021-39316](https://github.com/anggoroexe/Mass_CVE-2021-39316)
-
 ### CVE-2021-39623 (2022-01-14)
 
 <code>
@@ -6191,6 +6183,14 @@ Insecure handling of a download function leads to disclosure of internal files d
 </code>
 
 - [Henry4E36/CVE-2021-46417](https://github.com/Henry4E36/CVE-2021-46417)
+
+### CVE-2021-46422 (2022-04-27)
+
+<code>
+Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability that allows a remote attacker to execute OS commands without any authentication.
+</code>
+
+- [nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422)
 
 ### CVE-2021-46702 (2022-02-25)
 
@@ -10479,6 +10479,7 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
 - [piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213)
 - [adminsec5247/CVE-2020-25213-wordpress-wp-file-manager-fileupload](https://github.com/adminsec5247/CVE-2020-25213-wordpress-wp-file-manager-fileupload)
+- [b1ackros337/CVE-2020-25213](https://github.com/b1ackros337/CVE-2020-25213)
 
 ### CVE-2020-25223 (2020-09-24)
 
