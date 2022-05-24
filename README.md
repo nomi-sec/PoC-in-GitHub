@@ -810,6 +810,7 @@ PhpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the
 
 - [jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046)
 - [dnr6419/CVE-2022-23046](https://github.com/dnr6419/CVE-2022-23046)
+- [bernauers/CVE-2022-23046](https://github.com/bernauers/CVE-2022-23046)
 
 ### CVE-2022-23121
 - [kuznyJan1972/CVE-2022-23121-RCE](https://github.com/kuznyJan1972/CVE-2022-23121-RCE)
@@ -19626,7 +19627,6 @@ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in In
 - [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
-- [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
 - [k4u5h41/CVE-2017-7269](https://github.com/k4u5h41/CVE-2017-7269)
 
 ### CVE-2017-7374 (2017-03-31)
