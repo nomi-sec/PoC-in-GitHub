@@ -274,6 +274,14 @@ Improper neutralization of user input in GitLab CE/EE versions 14.4 before 14.7.
 
 - [Greenwolf/CVE-2022-1175](https://github.com/Greenwolf/CVE-2022-1175)
 
+### CVE-2022-1292 (2022-05-03)
+
+<code>
+The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).
+</code>
+
+- [li8u99/CVE-2022-1292](https://github.com/li8u99/CVE-2022-1292)
+
 ### CVE-2022-1329 (2022-04-19)
 
 <code>
@@ -1237,6 +1245,14 @@ Printix Secure Cloud Print Management through 1.3.1106.0 creates a temporary tem
 </code>
 
 - [ComparedArray/printix-CVE-2022-25090](https://github.com/ComparedArray/printix-CVE-2022-25090)
+
+### CVE-2022-25235 (2022-02-15)
+
+<code>
+xmltok_impl.c in Expat (aka libexpat) before 2.4.5 lacks certain validation of encoding, such as checks for whether a UTF-8 character is valid in a certain context.
+</code>
+
+- [Satheesh575555/external_expat_AOSP10_r33_CVE-2022-25235](https://github.com/Satheesh575555/external_expat_AOSP10_r33_CVE-2022-25235)
 
 ### CVE-2022-25256 (2022-02-18)
 
@@ -8849,7 +8865,7 @@ In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML f
 </code>
 
 - [0xAJ2K/CVE-2020-11022-CVE-2020-11023](https://github.com/0xAJ2K/CVE-2020-11022-CVE-2020-11023)
-- [korestreet/https-nj.gov---CVE-2020-11022](https://github.com/korestreet/https-nj.gov---CVE-2020-11022)
+- [Snorlyd/https-nj.gov---CVE-2020-11022](https://github.com/Snorlyd/https-nj.gov---CVE-2020-11022)
 
 ### CVE-2020-11023 (2020-04-29)
 
@@ -8857,7 +8873,7 @@ In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML f
 In jQuery versions greater than or equal to 1.0.3 and before 3.5.0, passing HTML containing &lt;option&gt; elements from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.
 </code>
 
-- [korestreet/https-nj.gov---CVE-2020-11023](https://github.com/korestreet/https-nj.gov---CVE-2020-11023)
+- [Snorlyd/https-nj.gov---CVE-2020-11023](https://github.com/Snorlyd/https-nj.gov---CVE-2020-11023)
 
 ### CVE-2020-11060 (2020-05-12)
 
@@ -10693,6 +10709,14 @@ XStream before version 1.4.14 is vulnerable to Remote Code Execution.The vulnera
 
 - [novysodope/CVE-2020-26217-XStream-RCE-POC](https://github.com/novysodope/CVE-2020-26217-XStream-RCE-POC)
 - [Al1ex/CVE-2020-26217](https://github.com/Al1ex/CVE-2020-26217)
+
+### CVE-2020-26233 (2020-12-08)
+
+<code>
+Git Credential Manager Core (GCM Core) is a secure Git credential helper built on .NET Core that runs on Windows and macOS. In Git Credential Manager Core before version 2.0.289, when recursively cloning a Git repository on Windows with submodules, Git will first clone the top-level repository and then recursively clone all submodules by starting new Git processes from the top-level working directory. If a malicious git.exe executable is present in the top-level repository then this binary will be started by Git Credential Manager Core when attempting to read configuration, and not git.exe as found on the %PATH%. This only affects GCM Core on Windows, not macOS or Linux-based distributions. GCM Core version 2.0.289 contains the fix for this vulnerability, and is available from the project's GitHub releases page. GCM Core 2.0.289 is also bundled in the latest Git for Windows release; version 2.29.2(3). As a workaround, users should avoid recursively cloning untrusted repositories with the --recurse-submodules option.
+</code>
+
+- [whr819987540/test_CVE-2020-26233](https://github.com/whr819987540/test_CVE-2020-26233)
 
 ### CVE-2020-26258 (2020-12-15)
 
@@ -12757,7 +12781,7 @@ Adobe Acrobat and Reader versions 2019.012.20035 and earlier, 2019.012.20035 and
 In Bootstrap before 3.4.1 and 4.3.x before 4.3.1, XSS is possible in the tooltip or popover data-template attribute.
 </code>
 
-- [korestreet/https-nj.gov---CVE-2019-8331](https://github.com/korestreet/https-nj.gov---CVE-2019-8331)
+- [Snorlyd/https-nj.gov---CVE-2019-8331](https://github.com/Snorlyd/https-nj.gov---CVE-2019-8331)
 
 ### CVE-2019-8389 (2019-02-16)
 
@@ -13391,7 +13415,7 @@ jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishan
 - [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 - [chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020](https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020)
-- [korestreet/https-nj.gov---CVE-2019-11358](https://github.com/korestreet/https-nj.gov---CVE-2019-11358)
+- [Snorlyd/https-nj.gov---CVE-2019-11358](https://github.com/Snorlyd/https-nj.gov---CVE-2019-11358)
 
 ### CVE-2019-11447 (2019-04-22)
 
@@ -17639,7 +17663,7 @@ Codiad through 2.8.4 allows Remote Code Execution, a different vulnerability tha
 In Bootstrap before 4.1.2, XSS is possible in the collapse data-parent attribute.
 </code>
 
-- [korestreet/https-nj.gov---CVE-2018-14040](https://github.com/korestreet/https-nj.gov---CVE-2018-14040)
+- [Snorlyd/https-nj.gov---CVE-2018-14040](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14040)
 
 ### CVE-2018-14041 (2018-07-13)
 
@@ -17647,7 +17671,7 @@ In Bootstrap before 4.1.2, XSS is possible in the collapse data-parent attribute
 In Bootstrap before 4.1.2, XSS is possible in the data-target property of scrollspy.
 </code>
 
-- [korestreet/https-nj.gov---CVE-2018-14041](https://github.com/korestreet/https-nj.gov---CVE-2018-14041)
+- [Snorlyd/https-nj.gov---CVE-2018-14041](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14041)
 
 ### CVE-2018-14042 (2018-07-13)
 
@@ -17655,7 +17679,7 @@ In Bootstrap before 4.1.2, XSS is possible in the data-target property of scroll
 In Bootstrap before 4.1.2, XSS is possible in the data-container property of tooltip.
 </code>
 
-- [korestreet/https-nj.gov---CVE-2018-14042](https://github.com/korestreet/https-nj.gov---CVE-2018-14042)
+- [Snorlyd/https-nj.gov---CVE-2018-14042](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14042)
 
 ### CVE-2018-14083 (2018-07-25)
 
