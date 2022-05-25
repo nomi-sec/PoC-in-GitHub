@@ -861,6 +861,14 @@ Point-to-Point Tunneling Protocol Denial of Service Vulnerability.
 
 - [nettitude/CVE-2022-23253-PoC](https://github.com/nettitude/CVE-2022-23253-PoC)
 
+### CVE-2022-23270 (2022-05-10)
+
+<code>
+Point-to-Point Tunneling Protocol Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-21972.
+</code>
+
+- [corelight/CVE-2022-23270-PPTP](https://github.com/corelight/CVE-2022-23270-PPTP)
+
 ### CVE-2022-23305 (2022-01-18)
 
 <code>
@@ -1472,6 +1480,14 @@ Windows Graphics Component Remote Code Execution Vulnerability.
 
 - [Exploitables/CVE-2022-26927](https://github.com/Exploitables/CVE-2022-26927)
 
+### CVE-2022-26937 (2022-05-10)
+
+<code>
+Windows Network File System Remote Code Execution Vulnerability.
+</code>
+
+- [corelight/CVE-2022-26937](https://github.com/corelight/CVE-2022-26937)
+
 ### CVE-2022-27134 (2022-05-12)
 
 <code>
@@ -1710,6 +1726,14 @@ Smarty is a template engine for PHP, facilitating the separation of presentation
 
 - [sbani/CVE-2022-29221-PoC](https://github.com/sbani/CVE-2022-29221-PoC)
 
+### CVE-2022-29337 (2022-05-24)
+
+<code>
+C-DATA FD702XW-X-R430 v2.1.13_X001 was discovered to contain a command injection vulnerability via the va_cmd parameter in formlanipv6. This vulnerability allows attackers to execute arbitrary commands via a crafted HTTP request.
+</code>
+
+- [exploitwritter/CVE-2022-29337](https://github.com/exploitwritter/CVE-2022-29337)
+
 ### CVE-2022-29359 (2022-05-24)
 
 <code>
@@ -1808,6 +1832,21 @@ WAVLINK WN535 G3 was discovered to contain a cross-site scripting (XSS) vulnerab
 
 - [badboycxcc/XSS-CVE-2022-30489](https://github.com/badboycxcc/XSS-CVE-2022-30489)
 - [trhacknon/XSS-CVE-2022-30489](https://github.com/trhacknon/XSS-CVE-2022-30489)
+
+### CVE-2022-30510
+- [bigzooooz/CVE-2022-30510](https://github.com/bigzooooz/CVE-2022-30510)
+
+### CVE-2022-30511
+- [bigzooooz/CVE-2022-30511](https://github.com/bigzooooz/CVE-2022-30511)
+
+### CVE-2022-30512
+- [bigzooooz/CVE-2022-30512](https://github.com/bigzooooz/CVE-2022-30512)
+
+### CVE-2022-30513
+- [bigzooooz/CVE-2022-30513](https://github.com/bigzooooz/CVE-2022-30513)
+
+### CVE-2022-30514
+- [bigzooooz/CVE-2022-30514](https://github.com/bigzooooz/CVE-2022-30514)
 
 ### CVE-2022-30525 (2022-05-12)
 
