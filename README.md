@@ -88,6 +88,14 @@ A flaw was found in Unzip. The vulnerability occurs during the conversion of a w
 - [nanaao/unzip_poc](https://github.com/nanaao/unzip_poc)
 - [ByteHackr/unzip_poc](https://github.com/ByteHackr/unzip_poc)
 
+### CVE-2022-0540 (2022-04-20)
+
+<code>
+A vulnerability in Jira Seraph allows a remote, unauthenticated attacker to bypass authentication by sending a specially crafted HTTP request. This affects Atlassian Jira Server and Data Center versions before 8.13.18, versions 8.14.0 and later before 8.20.6, and versions 8.21.0 and later before 8.22.0. This also affects Atlassian Jira Service Management Server and Data Center versions before 4.13.18, versions 4.14.0 and later before 4.20.6, and versions 4.21.0 and later before 4.22.0.
+</code>
+
+- [Pear1y/CVE-2022-0540-Preauth-RCE](https://github.com/Pear1y/CVE-2022-0540-Preauth-RCE)
+
 ### CVE-2022-0543 (2022-02-18)
 
 <code>
@@ -281,6 +289,7 @@ The c_rehash script does not properly sanitise shell metacharacters to prevent c
 </code>
 
 - [li8u99/CVE-2022-1292](https://github.com/li8u99/CVE-2022-1292)
+- [trhacknon/CVE-2022-1292](https://github.com/trhacknon/CVE-2022-1292)
 
 ### CVE-2022-1329 (2022-04-19)
 
@@ -1701,6 +1710,14 @@ Smarty is a template engine for PHP, facilitating the separation of presentation
 
 - [sbani/CVE-2022-29221-PoC](https://github.com/sbani/CVE-2022-29221-PoC)
 
+### CVE-2022-29359 (2022-05-24)
+
+<code>
+A stored cross-site scripting (XSS) vulnerability in /scas/?page=clubs/application_form&amp;id=7 of School Club Application System v0.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the firstname parameter.
+</code>
+
+- [ZSECURE/CVE-2022-29359](https://github.com/ZSECURE/CVE-2022-29359)
+
 ### CVE-2022-29383 (2022-05-13)
 
 <code>
@@ -1856,6 +1873,14 @@ In addAllPermissions of PermissionManagerService.java, there is a possible permi
 </code>
 
 - [nanopathi/framework_base_AOSP10_r33_CVE-2021-0306_CVE-2021-0317](https://github.com/nanopathi/framework_base_AOSP10_r33_CVE-2021-0306_CVE-2021-0317)
+
+### CVE-2021-0308 (2021-01-11)
+
+<code>
+In ReadLogicalParts of basicmbr.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. Product: Android; Versions: Android-8.1, Android-9, Android-10, Android-11, Android-8.0; Android ID: A-158063095.
+</code>
+
+- [Trinadh465/platform_external_gptfdisk_AOSP10_r33_CVE-2021-0308](https://github.com/Trinadh465/platform_external_gptfdisk_AOSP10_r33_CVE-2021-0308)
 
 ### CVE-2021-0313 (2021-01-11)
 
@@ -3349,14 +3374,6 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
 - [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
-
-### CVE-2021-22210 (2021-05-06)
-
-<code>
-An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.2. When querying the repository branches through API, GitLab was ignoring a query parameter and returning a considerable amount of results.
-</code>
-
-- [awsassets/CVE-2021-22210](https://github.com/awsassets/CVE-2021-22210)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -5452,7 +5469,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
-- [zlepper/CVE-2021-44228-Test-Server](https://github.com/zlepper/CVE-2021-44228-Test-Server)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck)
 - [nkoneko/VictimApp](https://github.com/nkoneko/VictimApp)
@@ -6042,6 +6058,7 @@ In Expat (aka libexpat) before 2.4.3, a left shift by 29 (or more) places in the
 </code>
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2021-45960](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-45960)
+- [Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-](https://github.com/Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-)
 
 ### CVE-2021-46005 (2022-01-18)
 
@@ -6375,6 +6392,7 @@ In onCreatePermissionRequest of SettingsSliceProvider.java, there is a possible 
 
 - [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0188](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0188)
 - [ShaikUsaf/ShaikUsaf-packages_apps_settings_AOSP10_r33_CVE-2020-0188](https://github.com/ShaikUsaf/ShaikUsaf-packages_apps_settings_AOSP10_r33_CVE-2020-0188)
+- [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0188_CVE-0219](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0188_CVE-0219)
 
 ### CVE-2020-0198 (2020-06-11)
 
@@ -6424,6 +6442,8 @@ In onCreate of SliceDeepLinkSpringBoard.java there is a possible insecure Intent
 
 - [pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219](https://github.com/pazhanivel07/Settings_10-r33_CVE-CVE-2020-0219)
 - [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0219)
+- [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old)
+- [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old-one](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2020-0219_CVE-2020-0188_old-one)
 
 ### CVE-2020-0225 (2020-07-17)
 
