@@ -3861,6 +3861,14 @@ Yeastar NeoGate TG400 91.3.0.3 devices are affected by Directory Traversal. An a
 
 - [SQSamir/CVE-2021-27328](https://github.com/SQSamir/CVE-2021-27328)
 
+### CVE-2021-27330 (2021-02-25)
+
+<code>
+Triconsole Datepicker Calendar &lt;3.77 is affected by cross-site scripting (XSS) in calendar_form.php. Attackers can read authentication cookies that are still active, which can be used to perform further attacks such as reading browser history, directory listings, and file contents.
+</code>
+
+- [trhacknon/CVE-2021-27330](https://github.com/trhacknon/CVE-2021-27330)
+
 ### CVE-2021-27338 (2021-07-20)
 
 <code>
@@ -5433,7 +5441,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [boundaryx/cloudrasp-log4j2](https://github.com/boundaryx/cloudrasp-log4j2)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
-- [y35uishere/Log4j2-CVE-2021-44228](https://github.com/y35uishere/Log4j2-CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
