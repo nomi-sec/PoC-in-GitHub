@@ -1693,6 +1693,14 @@ Multiple SQL injection vulnerabilities via the username and password parameters 
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 - [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
 
+### CVE-2022-29221 (2022-05-24)
+
+<code>
+Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. Prior to versions 3.1.45 and 4.1.1, template authors could inject php code by choosing a malicious {block} name or {include} file name. Sites that cannot fully trust template authors should upgrade to versions 3.1.45 or 4.1.1 to receive a patch for this issue. There are currently no known workarounds.
+</code>
+
+- [sbani/CVE-2022-29221-PoC](https://github.com/sbani/CVE-2022-29221-PoC)
+
 ### CVE-2022-29383 (2022-05-13)
 
 <code>
@@ -1814,6 +1822,14 @@ Laravel 9.1.8, when processing attacker-controlled data for deserialization, all
 
 ### CVE-2022-30780
 - [p0dalirius/CVE-2022-30780-lighttpd-denial-of-service](https://github.com/p0dalirius/CVE-2022-30780-lighttpd-denial-of-service)
+
+### CVE-2022-30781 (2022-05-15)
+
+<code>
+Gitea before 1.16.7 does not escape git fetch remote.
+</code>
+
+- [wuhan005/CVE-2022-30781](https://github.com/wuhan005/CVE-2022-30781)
 
 ### CVE-2022-31245 (2022-05-20)
 
@@ -3861,14 +3877,6 @@ Yeastar NeoGate TG400 91.3.0.3 devices are affected by Directory Traversal. An a
 
 - [SQSamir/CVE-2021-27328](https://github.com/SQSamir/CVE-2021-27328)
 
-### CVE-2021-27330 (2021-02-25)
-
-<code>
-Triconsole Datepicker Calendar &lt;3.77 is affected by cross-site scripting (XSS) in calendar_form.php. Attackers can read authentication cookies that are still active, which can be used to perform further attacks such as reading browser history, directory listings, and file contents.
-</code>
-
-- [trhacknon/CVE-2021-27330](https://github.com/trhacknon/CVE-2021-27330)
-
 ### CVE-2021-27338 (2021-07-20)
 
 <code>
@@ -5808,6 +5816,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
 - [kuznyJan1972/CVE-2021-44228-mass](https://github.com/kuznyJan1972/CVE-2021-44228-mass)
+- [yuuki1967/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/yuuki1967/CVE-2021-44228-Apache-Log4j-Rce)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
@@ -11123,6 +11132,14 @@ Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyf
 </code>
 
 - [ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583)
+
+### CVE-2020-29597 (2020-12-07)
+
+<code>
+IncomCMS 2.0 has a modules/uploader/showcase/script.php insecure file upload vulnerability. This vulnerability allows unauthenticated attackers to upload files into the server.
+</code>
+
+- [trhacknon/CVE-2020-29597](https://github.com/trhacknon/CVE-2020-29597)
 
 ### CVE-2020-29599 (2020-12-07)
 
