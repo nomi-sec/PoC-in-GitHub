@@ -2696,6 +2696,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
+- [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -5512,7 +5513,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck)
 - [nkoneko/VictimApp](https://github.com/nkoneko/VictimApp)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
-- [1in9e/Apache-Log4j2-RCE](https://github.com/1in9e/Apache-Log4j2-RCE)
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
@@ -14431,6 +14431,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [hacknotes/CVE-2019-15107-Exploit](https://github.com/hacknotes/CVE-2019-15107-Exploit)
 - [Tuz-Wwsd/CVE-2019-15107_detection](https://github.com/Tuz-Wwsd/CVE-2019-15107_detection)
 - [f0rkr/CVE-2019-15107](https://github.com/f0rkr/CVE-2019-15107)
+- [trhacknon/CVE-2019-15107](https://github.com/trhacknon/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -14517,6 +14518,7 @@ rpc.cgi in Webmin through 1.920 allows authenticated Remote Code Execution via a
 </code>
 
 - [jas502n/CVE-2019-15642](https://github.com/jas502n/CVE-2019-15642)
+- [trhacknon/CVE-2019-15642](https://github.com/trhacknon/CVE-2019-15642)
 
 ### CVE-2019-15813 (2019-09-04)
 
