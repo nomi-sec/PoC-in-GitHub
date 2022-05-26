@@ -813,6 +813,14 @@ In Spring Framework versions 5.3.0 - 5.3.18, 5.2.0 - 5.2.20, and older unsupport
 
 - [MarcinGadz/spring-rce-poc](https://github.com/MarcinGadz/spring-rce-poc)
 
+### CVE-2022-22972 (2022-05-20)
+
+<code>
+VMware Workspace ONE Access, Identity Manager and vRealize Automation contain an authentication bypass vulnerability affecting local domain users. A malicious actor with network access to the UI may be able to obtain administrative access without the need to authenticate.
+</code>
+
+- [horizon3ai/CVE-2022-22972](https://github.com/horizon3ai/CVE-2022-22972)
+
 ### CVE-2022-22976 (2022-05-19)
 
 <code>
@@ -20272,6 +20280,14 @@ Missing CSRF token checks and improper input validation in Joomla! CMS 1.7.3 thr
 </code>
 
 - [xyringe/CVE-2017-9934](https://github.com/xyringe/CVE-2017-9934)
+
+### CVE-2017-9947 (2017-10-23)
+
+<code>
+A vulnerability has been identified in Siemens APOGEE PXC and TALON TC BACnet Automation Controllers in all versions &lt;V3.5. A directory traversal vulnerability could allow a remote attacker with network access to the integrated web server (80/tcp and 443/tcp) to obtain information on the structure of the file system of the affected devices.
+</code>
+
+- [RoseSecurity/APOLOGEE](https://github.com/RoseSecurity/APOLOGEE)
 
 ### CVE-2017-9999
 - [homjxi0e/CVE-2017-9999_bypassing_General_Firefox](https://github.com/homjxi0e/CVE-2017-9999_bypassing_General_Firefox)
