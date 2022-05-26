@@ -803,6 +803,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [mariomamo/CVE-2022-22965](https://github.com/mariomamo/CVE-2022-22965)
 - [khidottrivi/CVE-2022-22965](https://github.com/khidottrivi/CVE-2022-22965)
 - [cxzero/CVE-2022-22965-spring4shell](https://github.com/cxzero/CVE-2022-22965-spring4shell)
+- [gog1071/Spring4Shell-CVE-2022-22965](https://github.com/gog1071/Spring4Shell-CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -5021,14 +5022,6 @@ Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-
 
 - [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
 
-### CVE-2021-41560 (2021-12-15)
-
-<code>
-OpenCATS through 0.9.6 allows remote attackers to execute arbitrary code by uploading an executable file via lib/FileUtility.php.
-</code>
-
-- [Nickguitar/RevCAT](https://github.com/Nickguitar/RevCAT)
-
 ### CVE-2021-41652 (2022-03-01)
 
 <code>
@@ -5048,6 +5041,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
+- [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
@@ -5091,6 +5085,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 
 - [Vulnmachines/cve-2021-42013](https://github.com/Vulnmachines/cve-2021-42013)
 - [twseptian/cve-2021-42013-docker-lab](https://github.com/twseptian/cve-2021-42013-docker-lab)
+- [walnutsecurity/cve-2021-42013](https://github.com/walnutsecurity/cve-2021-42013)
 - [asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp](https://github.com/asaotomo/CVE-2021-42013-Apache-RCE-Poc-Exp)
 - [rnsss/CVE-2021-42013](https://github.com/rnsss/CVE-2021-42013)
 - [jas9reet/CVE-2021-42013-LAB](https://github.com/jas9reet/CVE-2021-42013-LAB)
@@ -5516,12 +5511,11 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
-- [OopsieWoopsie/mc-log4j-patcher](https://github.com/OopsieWoopsie/mc-log4j-patcher)
 - [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
 - [standb/CVE-2021-44228-poc](https://github.com/standb/CVE-2021-44228-poc)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
-- [tivuhh/log4noshell](https://github.com/tivuhh/log4noshell)
+- [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
 - [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
