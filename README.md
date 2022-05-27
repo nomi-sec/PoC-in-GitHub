@@ -1094,6 +1094,14 @@ Windows Network File System Remote Code Execution Vulnerability. This CVE ID is 
 
 - [corelight/CVE-2022-24491](https://github.com/corelight/CVE-2022-24491)
 
+### CVE-2022-24494 (2022-04-15)
+
+<code>
+Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability.
+</code>
+
+- [vportal/AFD](https://github.com/vportal/AFD)
+
 ### CVE-2022-24497 (2022-04-15)
 
 <code>
@@ -2879,6 +2887,8 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
 - [Nosferatuvjr/Vivald0x6f](https://github.com/Nosferatuvjr/Vivald0x6f)
 - [innxrmxst/CVE-2021-3560](https://github.com/innxrmxst/CVE-2021-3560)
+- [RicterZ/CVE-2021-3560-Authentication-Agent](https://github.com/RicterZ/CVE-2021-3560-Authentication-Agent)
+- [WinMin/CVE-2021-3560](https://github.com/WinMin/CVE-2021-3560)
 - [UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
@@ -5534,9 +5544,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
-- [wheez-y/CVE-2021-44228-kusto](https://github.com/wheez-y/CVE-2021-44228-kusto)
 - [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
-- [standb/CVE-2021-44228-poc](https://github.com/standb/CVE-2021-44228-poc)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
@@ -18314,6 +18322,7 @@ Git before 2.14.5, 2.15.x before 2.15.3, 2.16.x before 2.16.5, 2.17.x before 2.1
 - [matlink/CVE-2018-17456](https://github.com/matlink/CVE-2018-17456)
 - [799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456)
 - [AnonymKing/CVE-2018-17456](https://github.com/AnonymKing/CVE-2018-17456)
+- [jiahuiLeee/test](https://github.com/jiahuiLeee/test)
 
 ### CVE-2018-17463 (2018-11-14)
 
@@ -19635,6 +19644,14 @@ TYPO3 7.6.15 sends an http request to an index.php?loginProvider URI in cases wi
 </code>
 
 - [faizzaidi/TYPO3-v7.6.15-Unencrypted-Login-Request](https://github.com/faizzaidi/TYPO3-v7.6.15-Unencrypted-Login-Request)
+
+### CVE-2017-6516 (2017-03-14)
+
+<code>
+A Local Privilege Escalation Vulnerability in MagniComp's Sysinfo before 10-H64 for Linux and UNIX platforms could allow a local attacker to gain elevated privileges. Parts of SysInfo require setuid-to-root access in order to access restricted system files and make restricted kernel calls. This access could be exploited by a local attacker to gain a root shell prompt using the right combination of environment variables and command line arguments.
+</code>
+
+- [Rubytox/CVE-2017-6516-mcsiwrapper-](https://github.com/Rubytox/CVE-2017-6516-mcsiwrapper-)
 
 ### CVE-2017-6558 (2017-03-09)
 
