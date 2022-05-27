@@ -813,6 +813,14 @@ In Spring Framework versions 5.3.0 - 5.3.18, 5.2.0 - 5.2.20, and older unsupport
 
 - [MarcinGadz/spring-rce-poc](https://github.com/MarcinGadz/spring-rce-poc)
 
+### CVE-2022-22970 (2022-05-12)
+
+<code>
+In spring framework versions prior to 5.3.20+ , 5.2.22+ and old unsupported versions, applications that handle file uploads are vulnerable to DoS attack if they rely on data binding to set a MultipartFile or javax.servlet.Part to a field in a model object.
+</code>
+
+- [dapdelivery/spring-petclinic-template-with-CVE-2022-22970](https://github.com/dapdelivery/spring-petclinic-template-with-CVE-2022-22970)
+
 ### CVE-2022-22972 (2022-05-20)
 
 <code>
