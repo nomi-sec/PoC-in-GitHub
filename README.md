@@ -1446,7 +1446,12 @@ Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injectio
 - [theori-io/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/theori-io/CVE-2022-26717-Safari-WebGL-Exploit)
 - [trhacknon/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/trhacknon/CVE-2022-26717-Safari-WebGL-Exploit)
 
-### CVE-2022-26726
+### CVE-2022-26726 (2022-05-26)
+
+<code>
+This issue was addressed with improved checks. This issue is fixed in Security Update 2022-004 Catalina, watchOS 8.6, macOS Monterey 12.4, macOS Big Sur 11.6.6. An app may be able to capture a user's screen.
+</code>
+
 - [acheong08/CVE-2022-26726-POC](https://github.com/acheong08/CVE-2022-26726-POC)
 - [XmasSnowISBACK/CVE-2022-26726](https://github.com/XmasSnowISBACK/CVE-2022-26726)
 
@@ -1779,6 +1784,8 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [LinJacck/CVE-2022-29464](https://github.com/LinJacck/CVE-2022-29464)
 - [Inplex-sys/CVE-2022-29464-loader](https://github.com/Inplex-sys/CVE-2022-29464-loader)
 - [trhacknon/CVE-2022-29464](https://github.com/trhacknon/CVE-2022-29464)
+- [Chocapikk/CVE-2022-29464](https://github.com/Chocapikk/CVE-2022-29464)
+- [trhacknon/CVE-2022-29464-mass](https://github.com/trhacknon/CVE-2022-29464-mass)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -18700,6 +18707,14 @@ Tautulli versions 2.1.38 and below allows remote attackers to bypass intended ac
 </code>
 
 - [manmolecular/tautulli-cve-2018-21031](https://github.com/manmolecular/tautulli-cve-2018-21031)
+
+### CVE-2018-25031 (2022-03-11)
+
+<code>
+Swagger UI before 4.1.3 could allow a remote attacker to conduct spoofing attacks. By persuading a victim to open a crafted URL, an attacker could exploit this vulnerability to display remote OpenAPI definitions.
+</code>
+
+- [afine-com/CVE-2018-25031](https://github.com/afine-com/CVE-2018-25031)
 
 ### CVE-2018-1000001 (2018-01-31)
 
