@@ -852,6 +852,7 @@ PhpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the
 
 ### CVE-2022-23121
 - [kuznyJan1972/CVE-2022-23121-MASS](https://github.com/kuznyJan1972/CVE-2022-23121-MASS)
+- [kuznyJan1972/CVE-2022-23121-MASS-RCE](https://github.com/kuznyJan1972/CVE-2022-23121-MASS-RCE)
 
 ### CVE-2022-23131 (2022-01-13)
 
@@ -25292,6 +25293,7 @@ UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 th
 
 - [XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE)
 - [0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit](https://github.com/0bfxgh0st-secondary/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit)
+- [MFernstrom/Offensive-Pascal-CVE-2010-2075](https://github.com/MFernstrom/Offensive-Pascal-CVE-2010-2075)
 
 ### CVE-2010-2387 (2012-12-20)
 
