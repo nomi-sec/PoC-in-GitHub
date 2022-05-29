@@ -837,6 +837,7 @@ VMware Workspace ONE Access, Identity Manager and vRealize Automation contain an
 </code>
 
 - [horizon3ai/CVE-2022-22972](https://github.com/horizon3ai/CVE-2022-22972)
+- [Dghpi9/CVE-2022-22972](https://github.com/Dghpi9/CVE-2022-22972)
 
 ### CVE-2022-22976 (2022-05-19)
 
