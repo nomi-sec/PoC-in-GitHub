@@ -1505,6 +1505,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [XmasSnowISBACK/CVE-2022-26809](https://github.com/XmasSnowISBACK/CVE-2022-26809)
 - [seciurdt/CVE-2022-26809-MASS](https://github.com/seciurdt/CVE-2022-26809-MASS)
 - [ChrisopherJohanso/CVE-2022-26809-RCE](https://github.com/ChrisopherJohanso/CVE-2022-26809-RCE)
+- [seciurdt/CVE-2022-26809-MASS-RCE](https://github.com/seciurdt/CVE-2022-26809-MASS-RCE)
 
 ### CVE-2022-26923 (2022-05-10)
 
