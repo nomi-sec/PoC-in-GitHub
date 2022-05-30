@@ -366,6 +366,9 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 ### CVE-2022-1597
 - [V35HR4J/CVE-2022-1597](https://github.com/V35HR4J/CVE-2022-1597)
 
+### CVE-2022-1598
+- [V35HR4J/CVE-2022-1598](https://github.com/V35HR4J/CVE-2022-1598)
+
 ### CVE-2022-1609
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 
@@ -1499,6 +1502,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
 - [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
+- [seciurdt/CVE-2022-26809-POC](https://github.com/seciurdt/CVE-2022-26809-POC)
 - [ExploitPwner/CVE-2022-26809-RCE-POC](https://github.com/ExploitPwner/CVE-2022-26809-RCE-POC)
 - [seciurdt/CVE-2022-26809-RCE](https://github.com/seciurdt/CVE-2022-26809-RCE)
 - [Calvitz/CVE-2022-26809](https://github.com/Calvitz/CVE-2022-26809)
@@ -2353,6 +2357,7 @@ In BTM_TryAllocateSCN of btm_scn.cc, there is a possible out of bounds write due
 </code>
 
 - [Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589](https://github.com/Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589)
+- [Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589](https://github.com/Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589)
 
 ### CVE-2021-0594 (2021-07-14)
 
@@ -5576,7 +5581,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot)
 - [TheArqsz/CVE-2021-44228-PoC](https://github.com/TheArqsz/CVE-2021-44228-PoC)
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
-- [binganao/Log4j2-RCE](https://github.com/binganao/Log4j2-RCE)
 - [phoswald/sample-ldap-exploit](https://github.com/phoswald/sample-ldap-exploit)
 - [rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server)
 - [uint0/cve-2021-44228--spring-hibernate](https://github.com/uint0/cve-2021-44228--spring-hibernate)
