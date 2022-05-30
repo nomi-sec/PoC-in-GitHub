@@ -290,6 +290,8 @@ The c_rehash script does not properly sanitise shell metacharacters to prevent c
 
 - [li8u99/CVE-2022-1292](https://github.com/li8u99/CVE-2022-1292)
 - [trhacknon/CVE-2022-1292](https://github.com/trhacknon/CVE-2022-1292)
+- [alcaparra/CVE-2022-1292](https://github.com/alcaparra/CVE-2022-1292)
+- [rama291041610/CVE-2022-1292](https://github.com/rama291041610/CVE-2022-1292)
 
 ### CVE-2022-1329 (2022-04-19)
 
@@ -2746,6 +2748,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ret2basic/SudoScience](https://github.com/ret2basic/SudoScience)
 - [puckiestyle/CVE-2021-3156](https://github.com/puckiestyle/CVE-2021-3156)
 - [barebackbandit/CVE-2021-3156](https://github.com/barebackbandit/CVE-2021-3156)
+- [GatoGamer1155/CVE-2021-3156](https://github.com/GatoGamer1155/CVE-2021-3156)
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
 - [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
@@ -2907,6 +2910,7 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
 - [Nosferatuvjr/Vivald0x6f](https://github.com/Nosferatuvjr/Vivald0x6f)
 - [innxrmxst/CVE-2021-3560](https://github.com/innxrmxst/CVE-2021-3560)
+- [GatoGamer1155/CVE-2021-3560](https://github.com/GatoGamer1155/CVE-2021-3560)
 - [RicterZ/CVE-2021-3560-Authentication-Agent](https://github.com/RicterZ/CVE-2021-3560-Authentication-Agent)
 - [WinMin/CVE-2021-3560](https://github.com/WinMin/CVE-2021-3560)
 - [UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560)
@@ -5243,7 +5247,6 @@ The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as param
 
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
 - [pierDipi/unicode-control-characters-action](https://github.com/pierDipi/unicode-control-characters-action)
-- [waseeld/CVE-2021-42574](https://github.com/waseeld/CVE-2021-42574)
 
 ### CVE-2021-42662 (2021-11-05)
 
@@ -5583,7 +5586,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
 - [phoswald/sample-ldap-exploit](https://github.com/phoswald/sample-ldap-exploit)
 - [rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server)
-- [uint0/cve-2021-44228--spring-hibernate](https://github.com/uint0/cve-2021-44228--spring-hibernate)
 - [saharNooby/log4j-vulnerability-patcher-agent](https://github.com/saharNooby/log4j-vulnerability-patcher-agent)
 - [M1ngGod/CVE-2021-44228-Log4j-lookup-Rce](https://github.com/M1ngGod/CVE-2021-44228-Log4j-lookup-Rce)
 - [byteboycn/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/byteboycn/CVE-2021-44228-Apache-Log4j-Rce)
@@ -6870,7 +6872,7 @@ An elevation of privilege vulnerability exists in the way that the Windows Kerne
 A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-0673, CVE-2020-0710, CVE-2020-0711, CVE-2020-0712, CVE-2020-0713, CVE-2020-0767.
 </code>
 
-- [binaryfigments/CVE-2020-0674](https://github.com/binaryfigments/CVE-2020-0674)
+- [sbroekhoven/CVE-2020-0674](https://github.com/sbroekhoven/CVE-2020-0674)
 - [maxpl0it/CVE-2020-0674-Exploit](https://github.com/maxpl0it/CVE-2020-0674-Exploit)
 - [Ken-Abruzzi/CVE-2020-0674](https://github.com/Ken-Abruzzi/CVE-2020-0674)
 - [Neko-chanQwQ/CVE-2020-0674-PoC](https://github.com/Neko-chanQwQ/CVE-2020-0674-PoC)
