@@ -1881,6 +1881,10 @@ Tenda AX1803 v1.0.0.1_2890 is vulnerable to Buffer Overflow. The vulnerability l
 - [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
 - [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
 - [bytecaps/CVE-2022-30190](https://github.com/bytecaps/CVE-2022-30190)
+- [archanchoudhury/MSDT_CVE-2022-30190](https://github.com/archanchoudhury/MSDT_CVE-2022-30190)
+- [rickhenderson/cve-2022-30190](https://github.com/rickhenderson/cve-2022-30190)
+- [DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup](https://github.com/DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup)
+- [kdk2933/msdt-follina-office](https://github.com/kdk2933/msdt-follina-office)
 
 ### CVE-2022-30292 (2022-05-04)
 
