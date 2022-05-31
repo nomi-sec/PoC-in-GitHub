@@ -853,6 +853,14 @@ Spring Security versions 5.5.x prior to 5.5.7, 5.6.x prior to 5.6.4, and earlier
 
 - [spring-io/cve-2022-22976-bcrypt-skips-salt](https://github.com/spring-io/cve-2022-22976-bcrypt-skips-salt)
 
+### CVE-2022-22978 (2022-05-19)
+
+<code>
+In Spring Security versions 5.5.6 and 5.5.7 and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
+</code>
+
+- [DeEpinGh0st/CVE-2022-22978](https://github.com/DeEpinGh0st/CVE-2022-22978)
+
 ### CVE-2022-23046 (2022-01-19)
 
 <code>
@@ -5160,6 +5168,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [mauricelambert/CVE-2021-42013](https://github.com/mauricelambert/CVE-2021-42013)
 - [honypot/CVE-2021-42013](https://github.com/honypot/CVE-2021-42013)
 - [Adash7/CVE-2021-42013](https://github.com/Adash7/CVE-2021-42013)
+- [viliuspovilaika/cve-2021-42013](https://github.com/viliuspovilaika/cve-2021-42013)
 
 ### CVE-2021-42171 (2022-03-14)
 
@@ -5399,6 +5408,14 @@ Automox Agent before 32 on Windows incorrectly sets permissions on a temporary d
 
 - [gfoss/CVE-2021-43326_Exploit](https://github.com/gfoss/CVE-2021-43326_Exploit)
 
+### CVE-2021-43408 (2021-11-19)
+
+<code>
+The &quot;Duplicate Post&quot; WordPress plugin up to and including version 1.1.9 is vulnerable to SQL Injection. SQL injection vulnerabilities occur when client supplied data is included within an SQL Query insecurely. SQL Injection can typically be exploited to read, modify and delete SQL table data. In many cases it also possible to exploit features of SQL server to execute system commands and/or access the local file system. This particular vulnerability can be exploited by any authenticated user who has been granted access to use the Duplicate Post plugin. By default, this is limited to Administrators, however the plugin presents the option to permit access to the Editor, Author, Contributor and Subscriber roles.
+</code>
+
+- [tuannq2299/CVE-2021-43408](https://github.com/tuannq2299/CVE-2021-43408)
+
 ### CVE-2021-43503 (2022-04-08)
 
 <code>
@@ -5586,8 +5603,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
 - [phoswald/sample-ldap-exploit](https://github.com/phoswald/sample-ldap-exploit)
 - [rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server)
-- [saharNooby/log4j-vulnerability-patcher-agent](https://github.com/saharNooby/log4j-vulnerability-patcher-agent)
-- [M1ngGod/CVE-2021-44228-Log4j-lookup-Rce](https://github.com/M1ngGod/CVE-2021-44228-Log4j-lookup-Rce)
 - [byteboycn/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/byteboycn/CVE-2021-44228-Apache-Log4j-Rce)
 - [lhotari/log4shell-mitigation-tester](https://github.com/lhotari/log4shell-mitigation-tester)
 - [toramanemre/log4j-rce-detect-waf-bypass](https://github.com/toramanemre/log4j-rce-detect-waf-bypass)
@@ -13073,6 +13088,7 @@ WordPress before 4.9.9 and 5.x before 5.0.1 allows remote code execution because
 - [brianwrf/WordPress_4.9.8_RCE_POC](https://github.com/brianwrf/WordPress_4.9.8_RCE_POC)
 - [synacktiv/CVE-2019-8942](https://github.com/synacktiv/CVE-2019-8942)
 - [synod2/WP_CROP_RCE](https://github.com/synod2/WP_CROP_RCE)
+- [tuannq2299/CVE-2019-8942](https://github.com/tuannq2299/CVE-2019-8942)
 
 ### CVE-2019-8943 (2019-02-19)
 
