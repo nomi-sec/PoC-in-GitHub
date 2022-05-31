@@ -1877,6 +1877,11 @@ Tenda AX1803 v1.0.0.1_2890 is vulnerable to Buffer Overflow. The vulnerability l
 
 - [Le1a/CVE-2022-30040](https://github.com/Le1a/CVE-2022-30040)
 
+### CVE-2022-30190
+- [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
+- [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
+- [bytecaps/CVE-2022-30190](https://github.com/bytecaps/CVE-2022-30190)
+
 ### CVE-2022-30292 (2022-05-04)
 
 <code>
@@ -4857,14 +4862,6 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 
 - [corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647)
 
-### CVE-2021-38666 (2021-11-09)
-
-<code>
-Remote Desktop Client Remote Code Execution Vulnerability
-</code>
-
-- [JaneMandy/CVE-2021-38666](https://github.com/JaneMandy/CVE-2021-38666)
-
 ### CVE-2021-39165 (2021-08-26)
 
 <code>
@@ -4968,6 +4965,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 </code>
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
+- [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
 - [MRacumen/CVE-2021-40444](https://github.com/MRacumen/CVE-2021-40444)
 - [RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444)
@@ -5454,7 +5452,6 @@ PrestaShop is an Open Source e-commerce web application. Versions of PrestaShop 
 Grafana is an open-source platform for monitoring and observability. Grafana versions 8.0.0-beta1 through 8.3.0 (except for patched versions) iss vulnerable to directory traversal, allowing access to local files. The vulnerable URL path is: `&lt;grafana_host_url&gt;/public/plugins//`, where is the plugin ID for any installed plugin. At no time has Grafana Cloud been vulnerable. Users are advised to upgrade to patched versions 8.0.7, 8.1.8, 8.2.7, or 8.3.1. The GitHub Security Advisory contains more information about vulnerable URL paths, mitigation, and the disclosure timeline.
 </code>
 
-- [tangxiaofeng7/CVE-2021-43798-Grafana-File-Read](https://github.com/tangxiaofeng7/CVE-2021-43798-Grafana-File-Read)
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
@@ -6306,6 +6303,14 @@ In doProlog in xmlparse.c in Expat (aka libexpat) before 2.4.3, an integer overf
 </code>
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2021-46143](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-46143)
+
+### CVE-2021-46381 (2022-03-04)
+
+<code>
+Local File Inclusion due to path traversal in D-Link DAP-1620 leads to unauthorized internal files reading [/etc/passwd] and [/etc/shadow].
+</code>
+
+- [JCPpeiqi/-cve-2021-46381](https://github.com/JCPpeiqi/-cve-2021-46381)
 
 ### CVE-2021-46398 (2022-02-04)
 
@@ -16569,6 +16574,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [ThaFWord/pentesterlab](https://github.com/ThaFWord/pentesterlab)
 - [Cypheer/exploit_CVE-2018-6574](https://github.com/Cypheer/exploit_CVE-2018-6574)
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
+- [Exzh34/PentestLab-CVE-2018-6574-go-get-RCE](https://github.com/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE)
 
 ### CVE-2018-6622 (2018-08-17)
 
