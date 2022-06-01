@@ -282,6 +282,14 @@ Improper neutralization of user input in GitLab CE/EE versions 14.4 before 14.7.
 
 - [Greenwolf/CVE-2022-1175](https://github.com/Greenwolf/CVE-2022-1175)
 
+### CVE-2022-1192 (2022-05-23)
+
+<code>
+The Turn off all comments WordPress plugin through 1.0 does not sanitise and escape the rows parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting
+</code>
+
+- [Mouhamedtec/CVE-2022-1192](https://github.com/Mouhamedtec/CVE-2022-1192)
+
 ### CVE-2022-1292 (2022-05-03)
 
 <code>
@@ -1785,6 +1793,15 @@ Smarty is a template engine for PHP, facilitating the separation of presentation
 
 - [sbani/CVE-2022-29221-PoC](https://github.com/sbani/CVE-2022-29221-PoC)
 
+### CVE-2022-29303 (2022-05-12)
+
+<code>
+SolarView Compact ver.6.00 was discovered to contain a command injection vulnerability via conf_mail.php.
+</code>
+
+- [Chocapikk/CVE-2022-29303](https://github.com/Chocapikk/CVE-2022-29303)
+- [trhacknon/CVE-2022-29303](https://github.com/trhacknon/CVE-2022-29303)
+
 ### CVE-2022-29337 (2022-05-24)
 
 <code>
@@ -1885,6 +1902,10 @@ Tenda AX1803 v1.0.0.1_2890 is vulnerable to Buffer Overflow. The vulnerability l
 - [rickhenderson/cve-2022-30190](https://github.com/rickhenderson/cve-2022-30190)
 - [DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup](https://github.com/DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup)
 - [kdk2933/msdt-follina-office](https://github.com/kdk2933/msdt-follina-office)
+- [sentinelblue/CVE-2022-30190](https://github.com/sentinelblue/CVE-2022-30190)
+- [aymankhder/MSDT_CVE-2022-30190-follina-](https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-)
+- [trhacknon/CVE-2022-30190](https://github.com/trhacknon/CVE-2022-30190)
+- [PaddlingCode/cve-2022-30190](https://github.com/PaddlingCode/cve-2022-30190)
 
 ### CVE-2022-30292 (2022-05-04)
 
