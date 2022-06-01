@@ -1581,6 +1581,9 @@ The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal 
 
 - [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
 
+### CVE-2022-27438
+- [gerr-re/cve-2022-27438](https://github.com/gerr-re/cve-2022-27438)
+
 ### CVE-2022-27666 (2022-03-23)
 
 <code>
@@ -1907,6 +1910,11 @@ Tenda AX1803 v1.0.0.1_2890 is vulnerable to Buffer Overflow. The vulnerability l
 - [trhacknon/CVE-2022-30190](https://github.com/trhacknon/CVE-2022-30190)
 - [PaddlingCode/cve-2022-30190](https://github.com/PaddlingCode/cve-2022-30190)
 - [ExploitPwner/CVE-2022-30190](https://github.com/ExploitPwner/CVE-2022-30190)
+- [dwisiswant0/gollina](https://github.com/dwisiswant0/gollina)
+- [Kesinger57/CVE-2022-30190-mass](https://github.com/Kesinger57/CVE-2022-30190-mass)
+- [Icare1337/CVE-2022-30190](https://github.com/Icare1337/CVE-2022-30190)
+- [hscorpion/CVE-2022-30190](https://github.com/hscorpion/CVE-2022-30190)
+- [drgreenthumb93/CVE-2022-30190-follina](https://github.com/drgreenthumb93/CVE-2022-30190-follina)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -4417,6 +4425,14 @@ A race condition was addressed with improved state handling. This issue is fixed
 - [Dylbin/desc_race](https://github.com/Dylbin/desc_race)
 - [GeoSn0w/Pentagram-exploit-tester](https://github.com/GeoSn0w/Pentagram-exploit-tester)
 
+### CVE-2021-30956 (2021-08-24)
+
+<code>
+A lock screen issue allowed access to contacts on a locked device. This issue was addressed with improved state management. This issue is fixed in iOS 15.2 and iPadOS 15.2. An attacker with physical access to a device may be able to see private contact information.
+</code>
+
+- [fordsham/CVE-2021-30956](https://github.com/fordsham/CVE-2021-30956)
+
 ### CVE-2021-31159 (2021-06-16)
 
 <code>
@@ -5629,7 +5645,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
 - [phoswald/sample-ldap-exploit](https://github.com/phoswald/sample-ldap-exploit)
 - [rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server)
-- [byteboycn/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/byteboycn/CVE-2021-44228-Apache-Log4j-Rce)
 - [lhotari/log4shell-mitigation-tester](https://github.com/lhotari/log4shell-mitigation-tester)
 - [toramanemre/log4j-rce-detect-waf-bypass](https://github.com/toramanemre/log4j-rce-detect-waf-bypass)
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
@@ -24105,14 +24120,27 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 
 - [dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes)
 - [npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse)
+- [ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3)
+- [jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271)
 - [rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec)
 - [scottjpack/shellshock_scanner](https://github.com/scottjpack/shellshock_scanner)
 - [Anklebiter87/Cgi-bin_bash_Reverse](https://github.com/Anklebiter87/Cgi-bin_bash_Reverse)
+- [justzx2011/bash-up](https://github.com/justzx2011/bash-up)
+- [mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271)
 - [ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check)
+- [RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm)
 - [gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww)
+- [woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271)
 - [ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock)
+- [themson/shellshock](https://github.com/themson/shellshock)
+- [securusglobal/BadBash](https://github.com/securusglobal/BadBash)
+- [villadora/CVE-2014-6271](https://github.com/villadora/CVE-2014-6271)
+- [APSL/salt-shellshock](https://github.com/APSL/salt-shellshock)
 - [teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit)
+- [internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271)
 - [pwnGuy/shellshock-shell](https://github.com/pwnGuy/shellshock-shell)
+- [x2c3z4/shellshock_crawler](https://github.com/x2c3z4/shellshock_crawler)
+- [u20024804/bash-3.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271)
 - [u20024804/bash-4.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271)
 - [u20024804/bash-4.3-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271)
 - [francisck/shellshock-cgi](https://github.com/francisck/shellshock-cgi)
