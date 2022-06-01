@@ -1906,6 +1906,7 @@ Tenda AX1803 v1.0.0.1_2890 is vulnerable to Buffer Overflow. The vulnerability l
 - [aymankhder/MSDT_CVE-2022-30190-follina-](https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-)
 - [trhacknon/CVE-2022-30190](https://github.com/trhacknon/CVE-2022-30190)
 - [PaddlingCode/cve-2022-30190](https://github.com/PaddlingCode/cve-2022-30190)
+- [ExploitPwner/CVE-2022-30190](https://github.com/ExploitPwner/CVE-2022-30190)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -1986,6 +1987,9 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 </code>
 
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
+
+### CVE-2022-193372
+- [Ran-Xing/cve-2022-193372](https://github.com/Ran-Xing/cve-2022-193372)
 
 
 ## 2021
@@ -24101,27 +24105,14 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 
 - [dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes)
 - [npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse)
-- [ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3)
-- [jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271)
 - [rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec)
 - [scottjpack/shellshock_scanner](https://github.com/scottjpack/shellshock_scanner)
 - [Anklebiter87/Cgi-bin_bash_Reverse](https://github.com/Anklebiter87/Cgi-bin_bash_Reverse)
-- [justzx2011/bash-up](https://github.com/justzx2011/bash-up)
-- [mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271)
 - [ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check)
-- [RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm)
 - [gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww)
-- [woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271)
 - [ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock)
-- [themson/shellshock](https://github.com/themson/shellshock)
-- [securusglobal/BadBash](https://github.com/securusglobal/BadBash)
-- [villadora/CVE-2014-6271](https://github.com/villadora/CVE-2014-6271)
-- [APSL/salt-shellshock](https://github.com/APSL/salt-shellshock)
 - [teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit)
-- [internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271)
 - [pwnGuy/shellshock-shell](https://github.com/pwnGuy/shellshock-shell)
-- [x2c3z4/shellshock_crawler](https://github.com/x2c3z4/shellshock_crawler)
-- [u20024804/bash-3.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271)
 - [u20024804/bash-4.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271)
 - [u20024804/bash-4.3-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271)
 - [francisck/shellshock-cgi](https://github.com/francisck/shellshock-cgi)
