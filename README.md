@@ -1161,6 +1161,7 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 </code>
 
 - [gerr-re/cve-2022-24644](https://github.com/gerr-re/cve-2022-24644)
+- [ThanhThuy2908/ATHDH_CVE_2022_24644](https://github.com/ThanhThuy2908/ATHDH_CVE_2022_24644)
 
 ### CVE-2022-24675 (2022-04-20)
 
@@ -1931,6 +1932,9 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [ImproveCybersecurityJaro/2022_PoC-MSDT-Follina-CVE-2022-30190](https://github.com/ImproveCybersecurityJaro/2022_PoC-MSDT-Follina-CVE-2022-30190)
 - [sudoaza/CVE-2022-30190](https://github.com/sudoaza/CVE-2022-30190)
 - [gamingwithevets/msdt-disable](https://github.com/gamingwithevets/msdt-disable)
+- [ErrorNoInternet/FollinaScanner](https://github.com/ErrorNoInternet/FollinaScanner)
+- [ITMarcin2211/CVE-2022-30190](https://github.com/ITMarcin2211/CVE-2022-30190)
+- [derco0n/mitigate-folina](https://github.com/derco0n/mitigate-folina)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -16640,6 +16644,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Cypheer/exploit_CVE-2018-6574](https://github.com/Cypheer/exploit_CVE-2018-6574)
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
 - [Exzh34/PentestLab-CVE-2018-6574-go-get-RCE](https://github.com/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE)
+- [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
