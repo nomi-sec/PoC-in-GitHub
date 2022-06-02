@@ -867,7 +867,7 @@ Spring Security versions 5.5.x prior to 5.5.7, 5.6.x prior to 5.6.4, and earlier
 ### CVE-2022-22978 (2022-05-19)
 
 <code>
-In Spring Security versions 5.5.6 and 5.5.7 and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
+In Spring Security versions 5.5.6 and 5.6.3 and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass
 </code>
 
 - [DeEpinGh0st/CVE-2022-22978](https://github.com/DeEpinGh0st/CVE-2022-22978)
@@ -1179,7 +1179,12 @@ Baicells Nova436Q and Neutrino 430 devices with firmware through QRTB 2.7.8 have
 
 - [lukejenkins/CVE-2022-24693](https://github.com/lukejenkins/CVE-2022-24693)
 
-### CVE-2022-24702
+### CVE-2022-24702 (2022-05-31)
+
+<code>
+** UNSUPPORTED WHEN ASSIGNED ** An issue was discovered in WinAPRS 2.9.0. A buffer overflow in the VHF KISS TNC component allows a remote attacker to achieve remote code execution via malicious AX.25 packets over the air. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+</code>
+
 - [Coalfire-Research/WinAPRS-Exploits](https://github.com/Coalfire-Research/WinAPRS-Exploits)
 
 ### CVE-2022-24706 (2022-04-26)
@@ -1876,10 +1881,20 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 ### CVE-2022-29554
 - [ComparedArray/printix-CVE-2022-29554](https://github.com/ComparedArray/printix-CVE-2022-29554)
 
-### CVE-2022-29597
+### CVE-2022-29597 (-)
+
+<code>
+Solutions Atlantic Regulatory Reporting System (RRS) v500 is vulnerable to Local File Inclusion (LFI). Any authenticated user has the ability to reference internal system files within requests made to the RRSWeb/maint/ShowDocument/ShowDocument.aspx page. The server will successfully respond with the file contents of the internal system file requested. This ability could allow for adversaries to extract sensitive data and/or files from the underlying file system, gain knowledge about the internal workings of the system, or access source code of the application.
+</code>
+
 - [TheGetch/CVE-2022-29597](https://github.com/TheGetch/CVE-2022-29597)
 
-### CVE-2022-29598
+### CVE-2022-29598 (2022-05-27)
+
+<code>
+Solutions Atlantic Regulatory Reporting System (RRS) v500 is vulnerable to an reflected Cross-Site Scripting (XSS) vulnerability via RRSWeb/maint/ShowDocument/ShowDocument.aspx .
+</code>
+
 - [TheGetch/CVE-2022-29598](https://github.com/TheGetch/CVE-2022-29598)
 
 ### CVE-2022-29932 (2022-05-11)
@@ -1935,6 +1950,14 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [ErrorNoInternet/FollinaScanner](https://github.com/ErrorNoInternet/FollinaScanner)
 - [ITMarcin2211/CVE-2022-30190](https://github.com/ITMarcin2211/CVE-2022-30190)
 - [derco0n/mitigate-folina](https://github.com/derco0n/mitigate-folina)
+- [komomon/CVE-2022-30190-follina-Office-MSDT-Fixed](https://github.com/komomon/CVE-2022-30190-follina-Office-MSDT-Fixed)
+- [gyaansastra/CVE-2022-30190](https://github.com/gyaansastra/CVE-2022-30190)
+- [swaiist/CVE-2022-30190-Fix](https://github.com/swaiist/CVE-2022-30190-Fix)
+- [suegdu/CVE-2022-30190-Follina-Patch](https://github.com/suegdu/CVE-2022-30190-Follina-Patch)
+- [castlesmadeofsand/ms-msdt-vulnerability-pdq-package](https://github.com/castlesmadeofsand/ms-msdt-vulnerability-pdq-package)
+- [WesyHub/CVE-2022-30190---Follina---Poc-Exploit](https://github.com/WesyHub/CVE-2022-30190---Follina---Poc-Exploit)
+- [AchocolatechipPancake/MS-MSDT-Office-RCE-Follina](https://github.com/AchocolatechipPancake/MS-MSDT-Office-RCE-Follina)
+- [Kesinger57/CVE-2022-30190-mass-rce](https://github.com/Kesinger57/CVE-2022-30190-mass-rce)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -1953,19 +1976,44 @@ WAVLINK WN535 G3 was discovered to contain a cross-site scripting (XSS) vulnerab
 - [badboycxcc/XSS-CVE-2022-30489](https://github.com/badboycxcc/XSS-CVE-2022-30489)
 - [trhacknon/XSS-CVE-2022-30489](https://github.com/trhacknon/XSS-CVE-2022-30489)
 
-### CVE-2022-30510
+### CVE-2022-30510 (2022-05-27)
+
+<code>
+School Dormitory Management System 1.0 is vulnerable to SQL Injection via reports/daily_collection_report.php:59.
+</code>
+
 - [bigzooooz/CVE-2022-30510](https://github.com/bigzooooz/CVE-2022-30510)
 
-### CVE-2022-30511
+### CVE-2022-30511 (2022-05-27)
+
+<code>
+School Dormitory Management System 1.0 is vulnerable to SQL Injection via accounts/view_details.php:4.
+</code>
+
 - [bigzooooz/CVE-2022-30511](https://github.com/bigzooooz/CVE-2022-30511)
 
-### CVE-2022-30512
+### CVE-2022-30512 (2022-05-27)
+
+<code>
+School Dormitory Management System 1.0 is vulnerable to SQL Injection via accounts/payment_history.php:31.
+</code>
+
 - [bigzooooz/CVE-2022-30512](https://github.com/bigzooooz/CVE-2022-30512)
 
-### CVE-2022-30513
+### CVE-2022-30513 (2022-05-27)
+
+<code>
+School Dormitory Management System v1.0 is vulnerable to reflected cross-site scripting (XSS) via admin/inc/navigation.php:125
+</code>
+
 - [bigzooooz/CVE-2022-30513](https://github.com/bigzooooz/CVE-2022-30513)
 
-### CVE-2022-30514
+### CVE-2022-30514 (2022-05-27)
+
+<code>
+School Dormitory Management System v1.0 is vulnerable to reflected cross-site scripting (XSS) via admin/inc/navigation.php:126.
+</code>
+
 - [bigzooooz/CVE-2022-30514](https://github.com/bigzooooz/CVE-2022-30514)
 
 ### CVE-2022-30525 (2022-05-12)
@@ -2007,6 +2055,9 @@ Gitea before 1.16.7 does not escape git fetch remote.
 </code>
 
 - [wuhan005/CVE-2022-30781](https://github.com/wuhan005/CVE-2022-30781)
+
+### CVE-2022-30910
+- [arozx/CVE-2022-30910](https://github.com/arozx/CVE-2022-30910)
 
 ### CVE-2022-31245 (2022-05-20)
 
@@ -5679,7 +5730,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
 - [js-on/jndiRep](https://github.com/js-on/jndiRep)
 - [leetxyz/CVE-2021-44228-Advisories](https://github.com/leetxyz/CVE-2021-44228-Advisories)
-- [cado-security/log4shell](https://github.com/cado-security/log4shell)
 - [Mormoroth/log4j-vulnerable-app-cve-2021-44228-terraform](https://github.com/Mormoroth/log4j-vulnerable-app-cve-2021-44228-terraform)
 - [Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs](https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs)
 - [zzzz0317/log4j2-vulnerable-spring-app](https://github.com/zzzz0317/log4j2-vulnerable-spring-app)
@@ -5853,6 +5903,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [alenazi90/log4j](https://github.com/alenazi90/log4j)
 - [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
 - [LiveOverflow/log4shell](https://github.com/LiveOverflow/log4shell)
+- [tabern/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/tabern/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
 - [ubitech/cve-2021-44228-rce-poc](https://github.com/ubitech/cve-2021-44228-rce-poc)
@@ -7581,6 +7632,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
 - [LTiDi2000/CVE-2020-2551](https://github.com/LTiDi2000/CVE-2020-2551)
+- [0xAbbarhSF/CVE-Exploit](https://github.com/0xAbbarhSF/CVE-Exploit)
 
 ### CVE-2020-2553 (2020-04-15)
 
@@ -9659,6 +9711,7 @@ The payload length in a WebSocket frame was not correctly validated in Apache To
 </code>
 
 - [RedTeamPentesting/CVE-2020-13935](https://github.com/RedTeamPentesting/CVE-2020-13935)
+- [aabbcc19191/CVE-2020-13935](https://github.com/aabbcc19191/CVE-2020-13935)
 
 ### CVE-2020-13937 (2020-10-19)
 
@@ -25530,6 +25583,14 @@ Multiple untrusted search path vulnerabilities in MicroStation 7.1 allow local u
 </code>
 
 - [otofoto/CVE-2010-5230](https://github.com/otofoto/CVE-2010-5230)
+
+### CVE-2010-5301 (2014-06-13)
+
+<code>
+Stack-based buffer overflow in Kolibri 2.0 allows remote attackers to execute arbitrary code via a long URI in a HEAD request.
+</code>
+
+- [lem0nSec/CVE-2010-5301](https://github.com/lem0nSec/CVE-2010-5301)
 
 
 ## 2009
