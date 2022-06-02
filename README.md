@@ -737,6 +737,8 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [tyleraharrison/VMware-CVE-2022-22954-Command-Injector](https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector)
 - [3SsFuck/CVE-2022-22954-POC](https://github.com/3SsFuck/CVE-2022-22954-POC)
 - [MLX15/CVE-2022-22954](https://github.com/MLX15/CVE-2022-22954)
+- [trhacknon/CVE-2022-22954-PoC](https://github.com/trhacknon/CVE-2022-22954-PoC)
+- [Chocapikk/CVE-2022-22954](https://github.com/Chocapikk/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -1897,9 +1899,15 @@ Tenda AX1803 v1.0.0.1_2890 is vulnerable to Buffer Overflow. The vulnerability l
 
 - [Le1a/CVE-2022-30040](https://github.com/Le1a/CVE-2022-30040)
 
-### CVE-2022-30190
+### CVE-2022-30190 (2022-06-01)
+
+<code>
+Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability.
+</code>
+
 - [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
 - [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
+- [2867a0/CVE-2022-30190](https://github.com/2867a0/CVE-2022-30190)
 - [bytecaps/CVE-2022-30190](https://github.com/bytecaps/CVE-2022-30190)
 - [archanchoudhury/MSDT_CVE-2022-30190](https://github.com/archanchoudhury/MSDT_CVE-2022-30190)
 - [rickhenderson/cve-2022-30190](https://github.com/rickhenderson/cve-2022-30190)
@@ -1916,6 +1924,11 @@ Tenda AX1803 v1.0.0.1_2890 is vulnerable to Buffer Overflow. The vulnerability l
 - [drgreenthumb93/CVE-2022-30190-follina](https://github.com/drgreenthumb93/CVE-2022-30190-follina)
 - [mitespsoc/CVE-2022-30190-POC](https://github.com/mitespsoc/CVE-2022-30190-POC)
 - [Vaisakhkm2625/MSDT-0-Day-CVE-2022-30190-Poc](https://github.com/Vaisakhkm2625/MSDT-0-Day-CVE-2022-30190-Poc)
+- [rouben/CVE-2022-30190-NSIS](https://github.com/rouben/CVE-2022-30190-NSIS)
+- [Cosmo121/Follina-Remediation](https://github.com/Cosmo121/Follina-Remediation)
+- [rayorole/CVE-2022-30190](https://github.com/rayorole/CVE-2022-30190)
+- [ImproveCybersecurityJaro/2022_PoC-MSDT-Follina-CVE-2022-30190](https://github.com/ImproveCybersecurityJaro/2022_PoC-MSDT-Follina-CVE-2022-30190)
+- [sudoaza/CVE-2022-30190](https://github.com/sudoaza/CVE-2022-30190)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -1996,9 +2009,6 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 </code>
 
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
-
-### CVE-2022-193372
-- [Ran-Xing/cve-2022-193372](https://github.com/Ran-Xing/cve-2022-193372)
 
 
 ## 2021
@@ -14811,6 +14821,7 @@ vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig
 - [sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759)
 - [ludy-dev/vBulletin_Routestring-RCE](https://github.com/ludy-dev/vBulletin_Routestring-RCE)
 - [apidotmy/CVE-2019-16759](https://github.com/apidotmy/CVE-2019-16759)
+- [trhacknon/CVE-2019-16759](https://github.com/trhacknon/CVE-2019-16759)
 
 ### CVE-2019-16784 (2020-01-14)
 
@@ -18277,6 +18288,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [k4u5h41/CVE-2018-16763](https://github.com/k4u5h41/CVE-2018-16763)
 - [BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust)
 - [NaturalT314/CVE-2018-16763](https://github.com/NaturalT314/CVE-2018-16763)
+- [p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE)
 
 ### CVE-2018-16809 (2019-03-07)
 
