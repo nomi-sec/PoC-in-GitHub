@@ -1881,7 +1881,7 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 ### CVE-2022-29554
 - [ComparedArray/printix-CVE-2022-29554](https://github.com/ComparedArray/printix-CVE-2022-29554)
 
-### CVE-2022-29597 (-)
+### CVE-2022-29597 (2022-06-02)
 
 <code>
 Solutions Atlantic Regulatory Reporting System (RRS) v500 is vulnerable to Local File Inclusion (LFI). Any authenticated user has the ability to reference internal system files within requests made to the RRSWeb/maint/ShowDocument/ShowDocument.aspx page. The server will successfully respond with the file contents of the internal system file requested. This ability could allow for adversaries to extract sensitive data and/or files from the underlying file system, gain knowledge about the internal workings of the system, or access source code of the application.
@@ -1929,7 +1929,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [archanchoudhury/MSDT_CVE-2022-30190](https://github.com/archanchoudhury/MSDT_CVE-2022-30190)
 - [rickhenderson/cve-2022-30190](https://github.com/rickhenderson/cve-2022-30190)
 - [DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup](https://github.com/DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup)
-- [kdk2933/msdt-follina-office](https://github.com/kdk2933/msdt-follina-office)
+- [kdk2933/msdt-CVE-2022-30190](https://github.com/kdk2933/msdt-CVE-2022-30190)
 - [sentinelblue/CVE-2022-30190](https://github.com/sentinelblue/CVE-2022-30190)
 - [aymankhder/MSDT_CVE-2022-30190-follina-](https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-)
 - [trhacknon/CVE-2022-30190](https://github.com/trhacknon/CVE-2022-30190)
@@ -24261,6 +24261,8 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [0bfxgh0st-secondary/ShellShock](https://github.com/0bfxgh0st-secondary/ShellShock)
 - [akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271)
 - [0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271)
+- [trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271)
+- [trhacknon/exploit-CVE-2014-6271](https://github.com/trhacknon/exploit-CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
