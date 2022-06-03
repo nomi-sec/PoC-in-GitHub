@@ -67,6 +67,14 @@ Exposure of Private Personal Information to an Unauthorized Actor in GitHub repo
 
 - [Acceis/exploit-CVE-2022-0482](https://github.com/Acceis/exploit-CVE-2022-0482)
 
+### CVE-2022-0486 (2022-05-17)
+
+<code>
+Improper file permissions in the CommandPost, Collector, Sensor, and Sandbox components of Fidelis Network and Deception enables an attacker with local, administrative access to the CLI to modify affected files and enable escalation of privileges equivalent to the root user. The vulnerability is present in Fidelis Network and Deception versions prior to 9.4.5. Patches and updates are available to address this vulnerability.
+</code>
+
+- [henryreed/CVE-2022-0486](https://github.com/henryreed/CVE-2022-0486)
+
 ### CVE-2022-0492 (2022-03-03)
 
 <code>
@@ -235,6 +243,14 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
 - [B0nfee/CVE-2022-0995](https://github.com/B0nfee/CVE-2022-0995)
 
+### CVE-2022-0997 (2022-05-17)
+
+<code>
+Improper file permissions in the CommandPost, Collector, and Sensor components of Fidelis Network and Deception enables an attacker with local, administrative access to the CLI to modify affected script files, which could result in arbitrary commands being run as root upon subsequent logon by a root user. The vulnerability is present in Fidelis Network and Deception versions prior to 9.4.5. Patches and updates are available to address this vulnerability.
+</code>
+
+- [henryreed/CVE-2022-0997](https://github.com/henryreed/CVE-2022-0997)
+
 ### CVE-2022-1015 (2022-04-29)
 
 <code>
@@ -381,6 +397,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 
 ### CVE-2022-1609
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
+- [NullBrunk/CVE-2022-1609](https://github.com/NullBrunk/CVE-2022-1609)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1958,6 +1975,9 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [WesyHub/CVE-2022-30190---Follina---Poc-Exploit](https://github.com/WesyHub/CVE-2022-30190---Follina---Poc-Exploit)
 - [AchocolatechipPancake/MS-MSDT-Office-RCE-Follina](https://github.com/AchocolatechipPancake/MS-MSDT-Office-RCE-Follina)
 - [Kesinger57/CVE-2022-30190-mass-rce](https://github.com/Kesinger57/CVE-2022-30190-mass-rce)
+- [Noxtal/follina](https://github.com/Noxtal/follina)
+- [droidrzrlover/CVE-2022-30190](https://github.com/droidrzrlover/CVE-2022-30190)
+- [hilt86/cve-2022-30190-mitigate](https://github.com/hilt86/cve-2022-30190-mitigate)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -25314,8 +25334,8 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 - [Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523)
 - [padsalatushal/CVE-2011-2523](https://github.com/padsalatushal/CVE-2011-2523)
 - [whoamins/vsFTPd-2.3.4-exploit](https://github.com/whoamins/vsFTPd-2.3.4-exploit)
-- [Prestaa/vsftpd-2.3.4](https://github.com/Prestaa/vsftpd-2.3.4)
 - [MFernstrom/OffensivePascal-CVE-2011-2523](https://github.com/MFernstrom/OffensivePascal-CVE-2011-2523)
+- [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
