@@ -408,6 +408,14 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 ### CVE-2022-10249
 - [buff07/CVE-2022-10249](https://github.com/buff07/CVE-2022-10249)
 
+### CVE-2022-20004 (2022-05-10)
+
+<code>
+In checkSlicePermission of SliceManagerService.java, it is possible to access any slice URI due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-179699767
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20004](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20004)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -757,6 +765,8 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [trhacknon/CVE-2022-22954-PoC](https://github.com/trhacknon/CVE-2022-22954-PoC)
 - [Chocapikk/CVE-2022-22954](https://github.com/Chocapikk/CVE-2022-22954)
 - [trhacknon/CVE-2022-22954](https://github.com/trhacknon/CVE-2022-22954)
+- [orwagodfather/CVE-2022-22954](https://github.com/orwagodfather/CVE-2022-22954)
+- [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -1442,6 +1452,11 @@ SharedSecretClusterAuthenticator in Atlassian Bitbucket Data Center versions 5.1
 
 - [Pear1y/CVE-2022-26133](https://github.com/Pear1y/CVE-2022-26133)
 
+### CVE-2022-26134
+- [offlinehoster/CVE-2022-26134](https://github.com/offlinehoster/CVE-2022-26134)
+- [CyberDonkyx0/CVE-2022-26134](https://github.com/CyberDonkyx0/CVE-2022-26134)
+- [s0rtega/CVE-2022-26134_vuln](https://github.com/s0rtega/CVE-2022-26134_vuln)
+
 ### CVE-2022-26155 (2022-02-28)
 
 <code>
@@ -1978,6 +1993,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Noxtal/follina](https://github.com/Noxtal/follina)
 - [droidrzrlover/CVE-2022-30190](https://github.com/droidrzrlover/CVE-2022-30190)
 - [hilt86/cve-2022-30190-mitigate](https://github.com/hilt86/cve-2022-30190-mitigate)
+- [SrikeshMaharaj/CVE-2022-30190](https://github.com/SrikeshMaharaj/CVE-2022-30190)
 
 ### CVE-2022-30292 (2022-05-04)
 
