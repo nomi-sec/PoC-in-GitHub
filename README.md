@@ -893,6 +893,7 @@ In Spring Security versions 5.5.6 and 5.6.3 and older unsupported versions, Rege
 </code>
 
 - [DeEpinGh0st/CVE-2022-22978](https://github.com/DeEpinGh0st/CVE-2022-22978)
+- [ducluongtran9121/CVE-2022-22978-PoC](https://github.com/ducluongtran9121/CVE-2022-22978-PoC)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -1443,18 +1444,19 @@ SharedSecretClusterAuthenticator in Atlassian Bitbucket Data Center versions 5.1
 In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbitrary code on a Confluence Server or Data Center instance. The affected versions are from 1.3.0 before 7.4.17, from 7.13.0 before 7.13.7, from 7.14.0 before 7.14.3, from 7.15.0 before 7.15.2, from 7.16.0 before 7.16.4, from 7.17.0 before 7.17.4, and from 7.18.0 before 7.18.1.
 </code>
 
+- [W01fh4cker/Serein](https://github.com/W01fh4cker/Serein)
 - [offlinehoster/CVE-2022-26134](https://github.com/offlinehoster/CVE-2022-26134)
 - [CyberDonkyx0/CVE-2022-26134](https://github.com/CyberDonkyx0/CVE-2022-26134)
 - [s0rtega/CVE-2022-26134_vuln](https://github.com/s0rtega/CVE-2022-26134_vuln)
 - [th3b3ginn3r/CVE-2022-26134-Exploit-Detection](https://github.com/th3b3ginn3r/CVE-2022-26134-Exploit-Detection)
 - [jbaines-r7/through_the_wire](https://github.com/jbaines-r7/through_the_wire)
-- [oturu/CVE-2022-26134-POC](https://github.com/oturu/CVE-2022-26134-POC)
 - [crowsec-edtech/CVE-2022-26134](https://github.com/crowsec-edtech/CVE-2022-26134)
 - [Nwqda/CVE-2022-26134](https://github.com/Nwqda/CVE-2022-26134)
 - [kyxiaxiang/CVE-2022-26134](https://github.com/kyxiaxiang/CVE-2022-26134)
 - [Brucetg/CVE-2022-26134](https://github.com/Brucetg/CVE-2022-26134)
 - [shamo0/CVE-2022-26134](https://github.com/shamo0/CVE-2022-26134)
 - [SNCKER/CVE-2022-26134](https://github.com/SNCKER/CVE-2022-26134)
+- [Sakura-nee/CVE-2022-26134](https://github.com/Sakura-nee/CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -1886,6 +1888,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [trhacknon/CVE-2022-29464](https://github.com/trhacknon/CVE-2022-29464)
 - [Chocapikk/CVE-2022-29464](https://github.com/Chocapikk/CVE-2022-29464)
 - [trhacknon/CVE-2022-29464-mass](https://github.com/trhacknon/CVE-2022-29464-mass)
+- [jimidk/Better-CVE-2022-29464](https://github.com/jimidk/Better-CVE-2022-29464)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -4443,6 +4446,14 @@ Composr 10.0.36 allows XSS in an XML script.
 
 - [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
 
+### CVE-2021-30190 (2021-05-25)
+
+<code>
+CODESYS V2 Web-Server before 1.1.9.20 has Improper Access Control.
+</code>
+
+- [CyberTitus/Follina](https://github.com/CyberTitus/Follina)
+
 ### CVE-2021-30461 (2021-05-29)
 
 <code>
@@ -5940,7 +5951,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
 - [LiveOverflow/log4shell](https://github.com/LiveOverflow/log4shell)
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
-- [tabern/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/tabern/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
 - [ubitech/cve-2021-44228-rce-poc](https://github.com/ubitech/cve-2021-44228-rce-poc)
