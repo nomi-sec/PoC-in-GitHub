@@ -1435,6 +1435,7 @@ SharedSecretClusterAuthenticator in Atlassian Bitbucket Data Center versions 5.1
 
 - [Pear1y/CVE-2022-26133](https://github.com/Pear1y/CVE-2022-26133)
 - [Trhackno/CVE-2022-26133](https://github.com/Trhackno/CVE-2022-26133)
+- [0xAbbarhSF/CVE-2022-26133](https://github.com/0xAbbarhSF/CVE-2022-26133)
 
 ### CVE-2022-26134 (2022-06-03)
 
@@ -1451,6 +1452,9 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [crowsec-edtech/CVE-2022-26134](https://github.com/crowsec-edtech/CVE-2022-26134)
 - [Nwqda/CVE-2022-26134](https://github.com/Nwqda/CVE-2022-26134)
 - [kyxiaxiang/CVE-2022-26134](https://github.com/kyxiaxiang/CVE-2022-26134)
+- [Brucetg/CVE-2022-26134](https://github.com/Brucetg/CVE-2022-26134)
+- [shamo0/CVE-2022-26134](https://github.com/shamo0/CVE-2022-26134)
+- [SNCKER/CVE-2022-26134](https://github.com/SNCKER/CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -2810,6 +2814,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [selectarget/laravel-CVE-2021-3129-EXP](https://github.com/selectarget/laravel-CVE-2021-3129-EXP)
 - [cuongtop4598/CVE-2021-3129-Script](https://github.com/cuongtop4598/CVE-2021-3129-Script)
 - [joshuavanderpoll/CVE-2021-3129](https://github.com/joshuavanderpoll/CVE-2021-3129)
+- [914525753/Laravel-CVE-2021-3129](https://github.com/914525753/Laravel-CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -5744,7 +5749,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
-- [izzyacademy/log4shell-mitigation](https://github.com/izzyacademy/log4shell-mitigation)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
