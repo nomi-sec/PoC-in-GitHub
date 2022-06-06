@@ -831,7 +831,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Snip3R69/spring-shell-vuln](https://github.com/Snip3R69/spring-shell-vuln)
 - [xnderLAN/CVE-2022-22965](https://github.com/xnderLAN/CVE-2022-22965)
 - [luoqianlin/CVE-2022-22965](https://github.com/luoqianlin/CVE-2022-22965)
-- [robiul-awal/CVE-2022-22965](https://github.com/robiul-awal/CVE-2022-22965)
+- [0xrobiul/CVE-2022-22965](https://github.com/0xrobiul/CVE-2022-22965)
 - [LudovicPatho/CVE-2022-22965_Spring4Shell](https://github.com/LudovicPatho/CVE-2022-22965_Spring4Shell)
 - [irgoncalves/irule-cve-2022-22965](https://github.com/irgoncalves/irule-cve-2022-22965)
 - [datawiza-inc/spring-rec-demo](https://github.com/datawiza-inc/spring-rec-demo)
@@ -1471,6 +1471,8 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [1rm/Confluence-CVE-2022-26134](https://github.com/1rm/Confluence-CVE-2022-26134)
 - [0xAgun/CVE-2022-26134](https://github.com/0xAgun/CVE-2022-26134)
 - [abhishekmorla/CVE-2022-26134](https://github.com/abhishekmorla/CVE-2022-26134)
+- [h3v0x/CVE-2022-26134](https://github.com/h3v0x/CVE-2022-26134)
+- [archanchoudhury/Confluence-CVE-2022-26134](https://github.com/archanchoudhury/Confluence-CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -18215,7 +18217,7 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
 - [MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473)
 - [66quentin/shodan-CVE-2018-15473](https://github.com/66quentin/shodan-CVE-2018-15473)
-- [robiul-awal/CVE-2018-15473](https://github.com/robiul-awal/CVE-2018-15473)
+- [0xrobiul/CVE-2018-15473](https://github.com/0xrobiul/CVE-2018-15473)
 - [Goldenmonkeyy/SSHusernameEnum](https://github.com/Goldenmonkeyy/SSHusernameEnum)
 
 ### CVE-2018-15499 (2018-08-24)
@@ -26202,6 +26204,14 @@ PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and
 
 
 ## 2004
+### CVE-2004-0230 (2004-05-05)
+
+<code>
+TCP, when using a large Window Size, makes it easier for remote attackers to guess sequence numbers and cause a denial of service (connection loss) to persistent TCP connections by repeatedly injecting a TCP RST packet, especially in protocols that use long-lived connections, such as BGP.
+</code>
+
+- [RakeshShinde97/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service](https://github.com/RakeshShinde97/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service)
+
 ### CVE-2004-0558 (2004-09-17)
 
 <code>
