@@ -2016,6 +2016,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [DerZiad/CVE-2022-30190](https://github.com/DerZiad/CVE-2022-30190)
 - [tej7gandhi/CVE-2022-30190-Zero-Click-Zero-Day-in-msdt](https://github.com/tej7gandhi/CVE-2022-30190-Zero-Click-Zero-Day-in-msdt)
 - [ItsNee/Folina-CVE-2022-30190-POC](https://github.com/ItsNee/Folina-CVE-2022-30190-POC)
+- [IamVSM/msdt-follina](https://github.com/IamVSM/msdt-follina)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -2534,8 +2535,8 @@ In onCreate of DevicePickerFragment.java, there is a possible way to trick the u
 In BTM_TryAllocateSCN of btm_scn.cc, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-8.1 Android-9 Android-10Android ID: A-180939982
 </code>
 
-- [Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589](https://github.com/Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589)
 - [Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589](https://github.com/Trinadh465/System_bt_AOSP10_r33_CVE-2021-0589)
+- [Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589](https://github.com/Satheesh575555/system_bt_AOSP10_r33_CVE-2021-0589)
 
 ### CVE-2021-0594 (2021-07-14)
 
@@ -12669,6 +12670,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [mmeza-developer/CVE-2019-5420-RCE](https://github.com/mmeza-developer/CVE-2019-5420-RCE)
 - [CyberSecurityUP/CVE-2019-5420-POC](https://github.com/CyberSecurityUP/CVE-2019-5420-POC)
 - [trickstersec/CVE-2019-5420](https://github.com/trickstersec/CVE-2019-5420)
+- [PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420)
 
 ### CVE-2019-5427 (2019-04-22)
 
