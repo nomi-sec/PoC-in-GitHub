@@ -1216,6 +1216,14 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 - [sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit)
 - [XmasSnowISBACK/CVE-2022-24706](https://github.com/XmasSnowISBACK/CVE-2022-24706)
 
+### CVE-2022-24713 (2022-03-08)
+
+<code>
+regex is an implementation of regular expressions for the Rust language. The regex crate features built-in mitigations to prevent denial of service attacks caused by untrusted regexes, or untrusted input matched by trusted regexes. Those (tunable) mitigations already provide sane defaults to prevent attacks. This guarantee is documented and it's considered part of the crate's API. Unfortunately a bug was discovered in the mitigations designed to prevent untrusted regexes to take an arbitrary amount of time during parsing, and it's possible to craft regexes that bypass such mitigations. This makes it possible to perform denial of service attacks by sending specially crafted regexes to services accepting user-controlled, untrusted regexes. All versions of the regex crate before or equal to 1.5.4 are affected by this issue. The fix is include starting from regex 1.5.5. All users accepting user-controlled regexes are recommended to upgrade immediately to the latest version of the regex crate. Unfortunately there is no fixed set of problematic regexes, as there are practically infinite regexes that could be crafted to exploit this vulnerability. Because of this, it us not recommend to deny known problematic regexes.
+</code>
+
+- [ItzSwirlz/CVE-2022-24713-POC](https://github.com/ItzSwirlz/CVE-2022-24713-POC)
+
 ### CVE-2022-24734 (2022-03-09)
 
 <code>
@@ -1461,6 +1469,8 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [Vulnmachines/Confluence-CVE-2022-26134](https://github.com/Vulnmachines/Confluence-CVE-2022-26134)
 - [axingde/CVE-2022-26134](https://github.com/axingde/CVE-2022-26134)
 - [1rm/Confluence-CVE-2022-26134](https://github.com/1rm/Confluence-CVE-2022-26134)
+- [0xAgun/CVE-2022-26134](https://github.com/0xAgun/CVE-2022-26134)
+- [abhishekmorla/CVE-2022-26134](https://github.com/abhishekmorla/CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -1929,6 +1939,14 @@ Solutions Atlantic Regulatory Reporting System (RRS) v500 is vulnerable to an re
 </code>
 
 - [TheGetch/CVE-2022-29598](https://github.com/TheGetch/CVE-2022-29598)
+
+### CVE-2022-29622 (2022-05-16)
+
+<code>
+An arbitrary file upload vulnerability in formidable v3.1.4 allows attackers to execute arbitrary code via a crafted filename. NOTE: some third parties dispute this issue because the product has common use cases in which uploading arbitrary files is the desired behavior. Also, there are configuration options in all versions that can change the default behavior of how files are handled.
+</code>
+
+- [keymandll/CVE-2022-29622](https://github.com/keymandll/CVE-2022-29622)
 
 ### CVE-2022-29932 (2022-05-11)
 
@@ -4920,6 +4938,7 @@ KramerAV VIAWare, all tested versions, allow privilege escalation through miscon
 
 - [Chocapikk/CVE-2021-35064](https://github.com/Chocapikk/CVE-2021-35064)
 - [trhacknon/CVE-2021-35064](https://github.com/trhacknon/CVE-2021-35064)
+- [Trhackno/CVE-2021-35064](https://github.com/Trhackno/CVE-2021-35064)
 
 ### CVE-2021-35211 (2021-07-14)
 
@@ -5645,7 +5664,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
-- [pedrohavay/exploit-grafana-CVE-2021-43798](https://github.com/pedrohavay/exploit-grafana-CVE-2021-43798)
 - [gixxyboy/CVE-2021-43798](https://github.com/gixxyboy/CVE-2021-43798)
 - [Awrrays/Grafana-CVE-2021-43798](https://github.com/Awrrays/Grafana-CVE-2021-43798)
 - [Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798)
