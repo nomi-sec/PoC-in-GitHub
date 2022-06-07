@@ -1475,6 +1475,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [h3v0x/CVE-2022-26134](https://github.com/h3v0x/CVE-2022-26134)
 - [archanchoudhury/Confluence-CVE-2022-26134](https://github.com/archanchoudhury/Confluence-CVE-2022-26134)
 - [PsykoDev/CVE-2022-26134](https://github.com/PsykoDev/CVE-2022-26134)
+- [vesperp/CVE-2022-26134-Confluence](https://github.com/vesperp/CVE-2022-26134-Confluence)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -1636,7 +1637,7 @@ The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal 
 
 - [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
 
-### CVE-2022-27438 (-)
+### CVE-2022-27438 (2022-06-06)
 
 <code>
 Caphyon Ltd Advanced Installer 19.2 was discovered to contain a remote code execution (RCE) vulnerability via the Update Check function.
@@ -4079,6 +4080,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [hosch3n/ProxyVulns](https://github.com/hosch3n/ProxyVulns)
 - [Nick-Yin12/106362522](https://github.com/Nick-Yin12/106362522)
 - [thau0x01/poc_proxylogon](https://github.com/thau0x01/poc_proxylogon)
+- [1342486672/Flangvik](https://github.com/1342486672/Flangvik)
 
 ### CVE-2021-26856
 - [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
@@ -5829,7 +5831,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
 - [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
 - [irgoncalves/f5-waf-enforce-sig-CVE-2021-44228](https://github.com/irgoncalves/f5-waf-enforce-sig-CVE-2021-44228)
-- [jeffbryner/log4j-docker-vaccine](https://github.com/jeffbryner/log4j-docker-vaccine)
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [unlimitedsola/log4j2-rce-poc](https://github.com/unlimitedsola/log4j2-rce-poc)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
