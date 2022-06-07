@@ -1482,6 +1482,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [abhishekmorla/CVE-2022-26134](https://github.com/abhishekmorla/CVE-2022-26134)
 - [h3v0x/CVE-2022-26134](https://github.com/h3v0x/CVE-2022-26134)
 - [archanchoudhury/Confluence-CVE-2022-26134](https://github.com/archanchoudhury/Confluence-CVE-2022-26134)
+- [SIFalcon/confluencePot](https://github.com/SIFalcon/confluencePot)
 - [PsykoDev/CVE-2022-26134](https://github.com/PsykoDev/CVE-2022-26134)
 - [vesperp/CVE-2022-26134-Confluence](https://github.com/vesperp/CVE-2022-26134-Confluence)
 - [li8u99/CVE-2022-26134](https://github.com/li8u99/CVE-2022-26134)
@@ -1490,6 +1491,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [alcaparra/CVE-2022-26134](https://github.com/alcaparra/CVE-2022-26134)
 - [whokilleddb/CVE-2022-26134-Confluence-RCE](https://github.com/whokilleddb/CVE-2022-26134-Confluence-RCE)
 - [hab1b0x/CVE-2022-26134](https://github.com/hab1b0x/CVE-2022-26134)
+- [Y000o/Confluence-CVE-2022-26134](https://github.com/Y000o/Confluence-CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -2041,6 +2043,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [IamVSM/msdt-follina](https://github.com/IamVSM/msdt-follina)
 - [Rojacur/FollinaPatcherCLI](https://github.com/Rojacur/FollinaPatcherCLI)
 - [joshuavanderpoll/CVE-2022-30190](https://github.com/joshuavanderpoll/CVE-2022-30190)
+- [abhirules27/Follina](https://github.com/abhirules27/Follina)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -7278,6 +7281,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
 - [5l1v3r1/CVE-2020-0796-PoC-3](https://github.com/5l1v3r1/CVE-2020-0796-PoC-3)
 - [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
+- [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -8188,6 +8192,7 @@ SAP NetWeaver AS JAVA (LM Configuration Wizard), versions - 7.30, 7.31, 7.40, 7.
 - [chipik/SAP_RECON](https://github.com/chipik/SAP_RECON)
 - [duc-nt/CVE-2020-6287-exploit](https://github.com/duc-nt/CVE-2020-6287-exploit)
 - [Onapsis/CVE-2020-6287_RECON-scanner](https://github.com/Onapsis/CVE-2020-6287_RECON-scanner)
+- [ynsmroztas/CVE-2020-6287-Sap-Add-User](https://github.com/ynsmroztas/CVE-2020-6287-Sap-Add-User)
 - [murataydemir/CVE-2020-6287](https://github.com/murataydemir/CVE-2020-6287)
 
 ### CVE-2020-6308 (2020-10-20)
@@ -10738,7 +10743,6 @@ A Remote Code Execution vulnerability exists in the gVectors wpDiscuz plugin 7.0
 - [h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE](https://github.com/h3v0x/CVE-2020-24186-WordPress-wpDiscuz-7.0.4-RCE)
 - [meicookies/CVE-2020-24186](https://github.com/meicookies/CVE-2020-24186)
 - [Sakura-501/CVE-2020-24186-exploit](https://github.com/Sakura-501/CVE-2020-24186-exploit)
-- [diurs/CVE-2020-24186-wordpress-wpDiscuz](https://github.com/diurs/CVE-2020-24186-wordpress-wpDiscuz)
 
 ### CVE-2020-24227 (2020-11-23)
 
