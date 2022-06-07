@@ -1636,7 +1636,12 @@ The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal 
 
 - [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
 
-### CVE-2022-27438
+### CVE-2022-27438 (-)
+
+<code>
+Caphyon Ltd Advanced Installer 19.2 was discovered to contain a remote code execution (RCE) vulnerability via the Update Check function.
+</code>
+
 - [gerr-re/cve-2022-27438](https://github.com/gerr-re/cve-2022-27438)
 
 ### CVE-2022-27666 (2022-03-23)
@@ -2903,7 +2908,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [voidlsd/CVE-2021-3156](https://github.com/voidlsd/CVE-2021-3156)
 - [Ashish-dawani/CVE-2021-3156-Patch](https://github.com/Ashish-dawani/CVE-2021-3156-Patch)
 - [SantiagoSerrao/ScannerCVE-2021-3156](https://github.com/SantiagoSerrao/ScannerCVE-2021-3156)
-- [DanielAzulay9/CTF-2021](https://github.com/DanielAzulay9/CTF-2021)
+- [DanielAzulayy/CTF-2021](https://github.com/DanielAzulayy/CTF-2021)
 - [cdeletre/Serpentiel-CVE-2021-3156](https://github.com/cdeletre/Serpentiel-CVE-2021-3156)
 - [dinhbaouit/CVE-2021-3156](https://github.com/dinhbaouit/CVE-2021-3156)
 - [CptGibbon/CVE-2021-3156](https://github.com/CptGibbon/CVE-2021-3156)
