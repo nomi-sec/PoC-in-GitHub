@@ -384,15 +384,26 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [trhacknon/CVE-2022-1388-PocExp](https://github.com/trhacknon/CVE-2022-1388-PocExp)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 
-### CVE-2022-1597
+### CVE-2022-1597 (2022-06-06)
+
+<code>
+The WPQA Builder WordPress plugin before 5.4, used as a companion for the Discy and Himer , does not sanitise and escape a parameter on its reset password form which makes it possible to perform Reflected Cross-Site Scripting attacks
+</code>
+
 - [V35HR4J/CVE-2022-1597](https://github.com/V35HR4J/CVE-2022-1597)
 
-### CVE-2022-1598
+### CVE-2022-1598 (2022-06-06)
+
+<code>
+The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy and Himer , lacks authentication in a REST API endpoint, allowing unauthenticated users to discover private questions sent between users on the site.
+</code>
+
 - [V35HR4J/CVE-2022-1598](https://github.com/V35HR4J/CVE-2022-1598)
 
 ### CVE-2022-1609
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [NullBrunk/CVE-2022-1609](https://github.com/NullBrunk/CVE-2022-1609)
+- [Trhackno/CVE-2022-1609](https://github.com/Trhackno/CVE-2022-1609)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -726,6 +737,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [0730Nophone/CVE-2022-22947-](https://github.com/0730Nophone/CVE-2022-22947-)
 - [anansec/CVE-2022-22947_EXP](https://github.com/anansec/CVE-2022-22947_EXP)
 - [Wrong-pixel/CVE-2022-22947-exp](https://github.com/Wrong-pixel/CVE-2022-22947-exp)
+- [YDH777/CVE-2022-22947-POC](https://github.com/YDH777/CVE-2022-22947-POC)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -1494,6 +1506,8 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [hab1b0x/CVE-2022-26134](https://github.com/hab1b0x/CVE-2022-26134)
 - [Y000o/Confluence-CVE-2022-26134](https://github.com/Y000o/Confluence-CVE-2022-26134)
 - [PyterSmithDarkGhost/0DAYEXPLOITAtlassianConfluenceCVE-2022-26134](https://github.com/PyterSmithDarkGhost/0DAYEXPLOITAtlassianConfluenceCVE-2022-26134)
+- [redhuntlabs/ConfluentPwn](https://github.com/redhuntlabs/ConfluentPwn)
+- [hou5/CVE-2022-26134](https://github.com/hou5/CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -2050,6 +2064,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [joshuavanderpoll/CVE-2022-30190](https://github.com/joshuavanderpoll/CVE-2022-30190)
 - [abhirules27/Follina](https://github.com/abhirules27/Follina)
 - [dsibilio/follina-spring](https://github.com/dsibilio/follina-spring)
+- [Malwareman007/Deathnote](https://github.com/Malwareman007/Deathnote)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -7281,6 +7296,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [5l1v3r1/CVE-2020-0796-PoC-3](https://github.com/5l1v3r1/CVE-2020-0796-PoC-3)
 - [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
 - [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
+- [motherfucker12138/CVE-2020-0796_SMBGhost](https://github.com/motherfucker12138/CVE-2020-0796_SMBGhost)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -10115,9 +10131,9 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [xfiftyone/CVE-2020-14882](https://github.com/xfiftyone/CVE-2020-14882)
 - [BabyTeam1024/CVE-2020-14882](https://github.com/BabyTeam1024/CVE-2020-14882)
 - [adm1in/CodeTest](https://github.com/adm1in/CodeTest)
-- [3hm1ly/CVE-2020-14882](https://github.com/3hm1ly/CVE-2020-14882)
 - [pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic)
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
+- [kk98kk0/CVE-2020-14882](https://github.com/kk98kk0/CVE-2020-14882)
 - [nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui)
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
