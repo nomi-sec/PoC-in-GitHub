@@ -1492,6 +1492,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [whokilleddb/CVE-2022-26134-Confluence-RCE](https://github.com/whokilleddb/CVE-2022-26134-Confluence-RCE)
 - [hab1b0x/CVE-2022-26134](https://github.com/hab1b0x/CVE-2022-26134)
 - [Y000o/Confluence-CVE-2022-26134](https://github.com/Y000o/Confluence-CVE-2022-26134)
+- [PyterSmithDarkGhost/0DAYEXPLOITAtlassianConfluenceCVE-2022-26134](https://github.com/PyterSmithDarkGhost/0DAYEXPLOITAtlassianConfluenceCVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -1993,6 +1994,9 @@ Tenda AX1803 v1.0.0.1_2890 is vulnerable to Buffer Overflow. The vulnerability l
 
 - [Le1a/CVE-2022-30040](https://github.com/Le1a/CVE-2022-30040)
 
+### CVE-2022-30075
+- [aaronsvk/CVE-2022-30075](https://github.com/aaronsvk/CVE-2022-30075)
+
 ### CVE-2022-30190 (2022-06-01)
 
 <code>
@@ -2044,6 +2048,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Rojacur/FollinaPatcherCLI](https://github.com/Rojacur/FollinaPatcherCLI)
 - [joshuavanderpoll/CVE-2022-30190](https://github.com/joshuavanderpoll/CVE-2022-30190)
 - [abhirules27/Follina](https://github.com/abhirules27/Follina)
+- [dsibilio/follina-spring](https://github.com/dsibilio/follina-spring)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -5857,7 +5862,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
 - [RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs](https://github.com/RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs)
-- [Ghost-chu/CVE-2021-44228-quickfix-script](https://github.com/Ghost-chu/CVE-2021-44228-quickfix-script)
 - [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
 - [creamIcec/CVE-2021-44228-Apache-Log4j-Rce__review](https://github.com/creamIcec/CVE-2021-44228-Apache-Log4j-Rce__review)
 - [uint0/cve-2021-44228-helpers](https://github.com/uint0/cve-2021-44228-helpers)
@@ -6165,6 +6169,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
 - [yuuki1967/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/yuuki1967/CVE-2021-44228-Apache-Log4j-Rce)
+- [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
