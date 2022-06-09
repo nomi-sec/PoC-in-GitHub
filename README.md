@@ -404,6 +404,7 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [NullBrunk/CVE-2022-1609](https://github.com/NullBrunk/CVE-2022-1609)
 - [Trhackno/CVE-2022-1609](https://github.com/Trhackno/CVE-2022-1609)
+- [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1014,6 +1015,7 @@ An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject m
 </code>
 
 - [dipakpanchal456/CVE-2022-23808](https://github.com/dipakpanchal456/CVE-2022-23808)
+- [Trhackno/CVE-2022-23808](https://github.com/Trhackno/CVE-2022-23808)
 
 ### CVE-2022-23812 (2022-03-16)
 
@@ -2082,7 +2084,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 ### CVE-2022-30292 (2022-05-04)
 
 <code>
-thread_call in sqbaselib.cpp in SQUIRREL 3.2 lacks a certain sq_reservestack call.
+Heap-based buffer overflow in sqbaselib.cpp in SQUIRREL 3.2 due to lack of a certain sq_reservestack call.
 </code>
 
 - [sprushed/CVE-2022-30292](https://github.com/sprushed/CVE-2022-30292)
@@ -9480,6 +9482,14 @@ The Treck TCP/IP stack before 6.0.1.66 allows Remote Code Execution, related to 
 
 - [Fans0n-Fan/Treck20-Related](https://github.com/Fans0n-Fan/Treck20-Related)
 
+### CVE-2020-11898 (2020-06-17)
+
+<code>
+The Treck TCP/IP stack before 6.0.1.66 improperly handles an IPv4/ICMPv4 Length Parameter Inconsistency, which might allow remote attackers to trigger an information leak.
+</code>
+
+- [SamuelGaudemer/POC_CVE-2020-11898](https://github.com/SamuelGaudemer/POC_CVE-2020-11898)
+
 ### CVE-2020-11932 (2020-05-12)
 
 <code>
@@ -12243,14 +12253,6 @@ A remote code execution vulnerability exists in the way that the scripting engin
 
 - [ZwCreatePhoton/CVE-2019-1221](https://github.com/ZwCreatePhoton/CVE-2019-1221)
 
-### CVE-2019-1246 (2019-09-11)
-
-<code>
-A remote code execution vulnerability exists when the Windows Jet Database Engine improperly handles objects in memory, aka 'Jet Database Engine Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1240, CVE-2019-1241, CVE-2019-1242, CVE-2019-1243, CVE-2019-1247, CVE-2019-1248, CVE-2019-1249, CVE-2019-1250.
-</code>
-
-- [emrekara369/cve-2019-1246](https://github.com/emrekara369/cve-2019-1246)
-
 ### CVE-2019-1253 (2019-09-11)
 
 <code>
@@ -13871,9 +13873,9 @@ jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishan
 An issue was discovered in CutePHP CuteNews 2.1.2. An attacker can infiltrate the server through the avatar upload process in the profile area via the avatar_file field to index.php?mod=main&amp;opt=personal. There is no effective control of $imgsize in /core/modules/dashboard.php. The header content of a file can be changed and the control can be bypassed for code execution. (An attacker can use the GIF header for this.)
 </code>
 
-- [CRFSlick/CVE-2019-11447-POC](https://github.com/CRFSlick/CVE-2019-11447-POC)
 - [mt-code/CVE-2019-11447](https://github.com/mt-code/CVE-2019-11447)
 - [khuntor/CVE-2019-11447-EXP](https://github.com/khuntor/CVE-2019-11447-EXP)
+- [dinesh876/CVE-2019-11447-POC](https://github.com/dinesh876/CVE-2019-11447-POC)
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
 - [0xkasra/CVE-2019-11447](https://github.com/0xkasra/CVE-2019-11447)
@@ -14138,14 +14140,6 @@ Web Port 1.19.1 allows XSS via the /access/setup type parameter.
 </code>
 
 - [EmreOvunc/WebPort-v1.19.1-Reflected-XSS](https://github.com/EmreOvunc/WebPort-v1.19.1-Reflected-XSS)
-
-### CVE-2019-12461 (2019-05-30)
-
-<code>
-Web Port 1.19.1 allows XSS via the /log type parameter.
-</code>
-
-- [emrekara369/cve-2019-12461](https://github.com/emrekara369/cve-2019-12461)
 
 ### CVE-2019-12475 (2019-07-17)
 
@@ -19510,7 +19504,6 @@ IBM Tivoli Monitoring V6 6.2.2.x could allow a remote attacker to execute arbitr
 </code>
 
 - [emcalv/tivoli-poc](https://github.com/emcalv/tivoli-poc)
-- [bcdannyboy/cve-2017-1635-PoC](https://github.com/bcdannyboy/cve-2017-1635-PoC)
 
 ### CVE-2017-2368 (2017-02-20)
 
@@ -20210,7 +20203,6 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
 - [cyberk1w1/CVE-2017-7529](https://github.com/cyberk1w1/CVE-2017-7529)
 - [cyberharsh/nginx-CVE-2017-7529](https://github.com/cyberharsh/nginx-CVE-2017-7529)
 - [daehee/nginx-overflow](https://github.com/daehee/nginx-overflow)
-- [ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3)
 - [fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability)
 - [Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability)
 - [fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit](https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit)
@@ -20257,8 +20249,6 @@ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Serie
 
 - [JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP)
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
-- [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
-- [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 
 ### CVE-2017-7998 (2018-01-08)
 
@@ -20831,7 +20821,6 @@ The XML-RPC server in supervisor before 3.0.1, 3.1.x before 3.1.4, 3.2.x before 
 </code>
 
 - [ivanitlearning/CVE-2017-11610](https://github.com/ivanitlearning/CVE-2017-11610)
-- [yaunsky/CVE-2017-11610](https://github.com/yaunsky/CVE-2017-11610)
 
 ### CVE-2017-11611 (2017-09-08)
 
@@ -20897,7 +20886,6 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 - [5l1v3r1/rtfkit](https://github.com/5l1v3r1/rtfkit)
 - [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
-- [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 - [lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp)
 - [tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882)
 
@@ -20963,7 +20951,6 @@ When running Apache Tomcat 7.0.0 to 7.0.79 on Windows with HTTP PUTs enabled (e.
 - [cved-sources/cve-2017-12615](https://github.com/cved-sources/cve-2017-12615)
 - [ianxtianxt/CVE-2017-12615](https://github.com/ianxtianxt/CVE-2017-12615)
 - [cyberharsh/Tomcat-CVE-2017-12615](https://github.com/cyberharsh/Tomcat-CVE-2017-12615)
-- [w0x68y/CVE-2017-12615-EXP](https://github.com/w0x68y/CVE-2017-12615-EXP)
 
 ### CVE-2017-12617 (2017-10-03)
 
@@ -21310,14 +21297,6 @@ Cross-site scripting (XSS) vulnerability in Logitech Media Server 7.9.0 allows r
 
 - [dewankpant/CVE-2017-16568](https://github.com/dewankpant/CVE-2017-16568)
 
-### CVE-2017-16651 (2017-11-09)
-
-<code>
-Roundcube Webmail before 1.1.10, 1.2.x before 1.2.7, and 1.3.x before 1.3.3 allows unauthorized access to arbitrary files on the host's filesystem, including configuration files, as exploited in the wild in November 2017. The attacker must be able to authenticate at the target system with a valid username/password as the attack requires an active session. The issue is related to file-based attachment plugins and _task=settings&amp;_action=upload-display&amp;_from=timezone requests.
-</code>
-
-- [ropbear/CVE-2017-16651](https://github.com/ropbear/CVE-2017-16651)
-
 ### CVE-2017-16744 (2018-08-20)
 
 <code>
@@ -21342,14 +21321,6 @@ The Process function in RemoteTaskServer/WebServer/HttpServer.cs in Ulterius bef
 
 - [rickoooooo/ulteriusExploit](https://github.com/rickoooooo/ulteriusExploit)
 
-### CVE-2017-16894 (2017-11-19)
-
-<code>
-In Laravel framework through 5.5.21, remote attackers can obtain sensitive information (such as externally usable passwords) via a direct request for the /.env URI. NOTE: this CVE is only about Laravel framework's writeNewEnvironmentFileWith function in src/Illuminate/Foundation/Console/KeyGenerateCommand.php, which uses file_put_contents without restricting the .env permissions. The .env filename is not used exclusively by Laravel framework.
-</code>
-
-- [ahacker15/CVE-2017-16894](https://github.com/ahacker15/CVE-2017-16894)
-
 ### CVE-2017-16943 (2017-11-25)
 
 <code>
@@ -21371,7 +21342,6 @@ The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4
 - [vnik5287/CVE-2017-16995](https://github.com/vnik5287/CVE-2017-16995)
 - [littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995)
 - [Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-](https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-)
-- [ph4ntonn/CVE-2017-16995](https://github.com/ph4ntonn/CVE-2017-16995)
 
 ### CVE-2017-16997 (2017-12-17)
 
@@ -25492,6 +25462,7 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 - [whoamins/vsFTPd-2.3.4-exploit](https://github.com/whoamins/vsFTPd-2.3.4-exploit)
 - [MFernstrom/OffensivePascal-CVE-2011-2523](https://github.com/MFernstrom/OffensivePascal-CVE-2011-2523)
 - [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
+- [0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
