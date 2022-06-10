@@ -1512,7 +1512,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [W01fh4cker/Serein](https://github.com/W01fh4cker/Serein)
 - [offlinehoster/CVE-2022-26134](https://github.com/offlinehoster/CVE-2022-26134)
 - [CyberDonkyx0/CVE-2022-26134](https://github.com/CyberDonkyx0/CVE-2022-26134)
-- [s0rtega/CVE-2022-26134_vuln](https://github.com/s0rtega/CVE-2022-26134_vuln)
 - [th3b3ginn3r/CVE-2022-26134-Exploit-Detection](https://github.com/th3b3ginn3r/CVE-2022-26134-Exploit-Detection)
 - [jbaines-r7/through_the_wire](https://github.com/jbaines-r7/through_the_wire)
 - [crowsec-edtech/CVE-2022-26134](https://github.com/crowsec-edtech/CVE-2022-26134)
@@ -1544,7 +1543,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [hou5/CVE-2022-26134](https://github.com/hou5/CVE-2022-26134)
 - [cai-niao98/CVE-2022-26134](https://github.com/cai-niao98/CVE-2022-26134)
 - [sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134)
-- [murataydemir/CVE-2022-26134](https://github.com/murataydemir/CVE-2022-26134)
+- [KeepWannabe/BotCon](https://github.com/KeepWannabe/BotCon)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -2116,6 +2115,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Hrishikesh7665/Follina_Exploiter_CLI](https://github.com/Hrishikesh7665/Follina_Exploiter_CLI)
 - [b401/Clickstudio-compromised-certificate](https://github.com/b401/Clickstudio-compromised-certificate)
 - [k508/CVE-2022-30190](https://github.com/k508/CVE-2022-30190)
+- [Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab](https://github.com/Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -2230,7 +2230,12 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
 
-### CVE-2022-31402
+### CVE-2022-31402 (-)
+
+<code>
+ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability via /itop/webservices/export-v2.php.
+</code>
+
 - [YavuzSahbaz/CVE-2022-31402](https://github.com/YavuzSahbaz/CVE-2022-31402)
 
 ### CVE-2022-31403
@@ -5854,7 +5859,12 @@ The software allows the attacker to upload or transfer files of dangerous types 
 
 - [LongWayHomie/CVE-2021-43936](https://github.com/LongWayHomie/CVE-2021-43936)
 
-### CVE-2021-44117
+### CVE-2021-44117 (2022-06-10)
+
+<code>
+A Cross Site Request Forgery (CSRF) vulnerability exists in TheDayLightStudio Fuel CMS 1.5.0 via a POST call to /fuel/sitevariables/delete/4.
+</code>
+
 - [warmachine-57/CVE-2021-44117](https://github.com/warmachine-57/CVE-2021-44117)
 
 ### CVE-2021-44132 (2022-02-25)
@@ -6280,7 +6290,12 @@ A code injection vulnerability in the Ivanti EPM Cloud Services Appliance (CSA) 
 - [jkana/CVE-2021-44529](https://github.com/jkana/CVE-2021-44529)
 - [jax7sec/CVE-2021-44529](https://github.com/jax7sec/CVE-2021-44529)
 
-### CVE-2021-44582
+### CVE-2021-44582 (2022-06-10)
+
+<code>
+A Privilege Escalation vulnerability exists in Sourcecodester Money Transfer Management System 1.0, which allows a remote malicious user to gain elevated privileges to the Admin role via any URL.
+</code>
+
 - [warmachine-57/CVE-2021-44582](https://github.com/warmachine-57/CVE-2021-44582)
 
 ### CVE-2021-44593 (2022-01-21)
@@ -17530,7 +17545,6 @@ Unauthenticated arbitrary file upload vulnerability in jQuery Picture Cut &lt;= 
 An issue was discovered in PRTG Network Monitor before 18.2.39. An attacker who has access to the PRTG System Administrator web console with administrative privileges can exploit an OS command injection vulnerability (both on the server and on devices) by sending malformed parameters in sensor or notification management scenarios.
 </code>
 
-- [wildkindcc/CVE-2018-9276](https://github.com/wildkindcc/CVE-2018-9276)
 - [AndyFeiLi/CVE-2018-9276](https://github.com/AndyFeiLi/CVE-2018-9276)
 - [A1vinSmith/CVE-2018-9276](https://github.com/A1vinSmith/CVE-2018-9276)
 
@@ -18290,7 +18304,6 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [Bilelxdz/Laravel-CVE-2018-15133](https://github.com/Bilelxdz/Laravel-CVE-2018-15133)
 - [Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader](https://github.com/Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader)
 - [iansangaji/laravel-rce-cve-2018-15133](https://github.com/iansangaji/laravel-rce-cve-2018-15133)
-- [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
 - [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
@@ -18671,7 +18684,12 @@ An issue was discovered in Snap Creek Duplicator before 1.2.42. By accessing lef
 
 - [cved-sources/cve-2018-17207](https://github.com/cved-sources/cve-2018-17207)
 
-### CVE-2018-17240
+### CVE-2018-17240 (-)
+
+<code>
+There is a memory dump vulnerability on Netwave IP camera devices at //proc/kcore that allows an unauthenticated attacker to exfiltrate sensitive information from the network configuration (e.g., username and password).
+</code>
+
 - [BBge/CVE-2018-17240](https://github.com/BBge/CVE-2018-17240)
 
 ### CVE-2018-17246 (2018-12-20)
@@ -18887,7 +18905,7 @@ The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRA
 </code>
 
 - [ASkyeye/CVE-2018-19320](https://github.com/ASkyeye/CVE-2018-19320)
-- [hmthabit/CVE-2018-19320-LPE](https://github.com/hmthabit/CVE-2018-19320-LPE)
+- [hmnthabit/CVE-2018-19320-LPE](https://github.com/hmnthabit/CVE-2018-19320-LPE)
 
 ### CVE-2018-19422 (2018-11-21)
 
