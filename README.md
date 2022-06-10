@@ -406,6 +406,14 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 - [Trhackno/CVE-2022-1609](https://github.com/Trhackno/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
 
+### CVE-2022-1966 (2022-06-06)
+
+<code>
+A use-after-free vulnerability was found in the Linux kernel's Netfilter subsystem in net/netfilter/nf_tables_api.c. This flaw allows a local attacker with user access to cause a privilege escalation issue.
+</code>
+
+- [google-mirror/CVE-2022-1966](https://github.com/google-mirror/CVE-2022-1966)
+
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
 
@@ -422,6 +430,14 @@ In checkSlicePermission of SliceManagerService.java, it is possible to access an
 </code>
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20004](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20004)
+
+### CVE-2022-20005 (2022-05-10)
+
+<code>
+In validateApkInstallLocked of PackageInstallerSession.java, there is a way to force a mismatch between running code and a parsed APK . This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-219044664
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20005](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20005)
 
 ### CVE-2022-20007 (2022-05-10)
 
@@ -1527,6 +1543,8 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [redhuntlabs/ConfluentPwn](https://github.com/redhuntlabs/ConfluentPwn)
 - [hou5/CVE-2022-26134](https://github.com/hou5/CVE-2022-26134)
 - [cai-niao98/CVE-2022-26134](https://github.com/cai-niao98/CVE-2022-26134)
+- [sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134)
+- [murataydemir/CVE-2022-26134](https://github.com/murataydemir/CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -2039,6 +2057,7 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 </code>
 
 - [aaronsvk/CVE-2022-30075](https://github.com/aaronsvk/CVE-2022-30075)
+- [SAJIDAMINE/CVE-2022-30075](https://github.com/SAJIDAMINE/CVE-2022-30075)
 
 ### CVE-2022-30190 (2022-06-01)
 
@@ -5910,7 +5929,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
 - [irgoncalves/f5-waf-enforce-sig-CVE-2021-44228](https://github.com/irgoncalves/f5-waf-enforce-sig-CVE-2021-44228)
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
-- [unlimitedsola/log4j2-rce-poc](https://github.com/unlimitedsola/log4j2-rce-poc)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
 - [RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs](https://github.com/RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs)
@@ -6261,6 +6279,9 @@ A code injection vulnerability in the Ivanti EPM Cloud Services Appliance (CSA) 
 
 - [jkana/CVE-2021-44529](https://github.com/jkana/CVE-2021-44529)
 - [jax7sec/CVE-2021-44529](https://github.com/jax7sec/CVE-2021-44529)
+
+### CVE-2021-44582
+- [warmachine-57/CVE-2021-44582](https://github.com/warmachine-57/CVE-2021-44582)
 
 ### CVE-2021-44593 (2022-01-21)
 
@@ -7930,6 +7951,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner](https://github.com/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner)
 - [sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452)
 - [Aviksaikat/CVE-2020-3452](https://github.com/Aviksaikat/CVE-2020-3452)
+- [Veids/CVE-2020-3452_auto](https://github.com/Veids/CVE-2020-3452_auto)
 - [iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452)
 
 ### CVE-2020-3580 (2020-10-21)
@@ -8441,6 +8463,14 @@ In certain situations, all versions of Citrix ShareFile StorageZones (aka storag
 </code>
 
 - [DimitriNL/CTX-CVE-2020-7473](https://github.com/DimitriNL/CTX-CVE-2020-7473)
+
+### CVE-2020-7661 (2020-06-04)
+
+<code>
+all versions of url-regex are vulnerable to Regular Expression Denial of Service. An attacker providing a very long string in String.test can cause a Denial of Service.
+</code>
+
+- [spamscanner/url-regex-safe](https://github.com/spamscanner/url-regex-safe)
 
 ### CVE-2020-7693 (2020-07-09)
 
@@ -10429,6 +10459,7 @@ The NetConfig UI administrative interface in Extreme Networks ExtremeWireless Ae
 </code>
 
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
+- [Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e](https://github.com/Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e)
 
 ### CVE-2020-16270 (2020-10-16)
 
