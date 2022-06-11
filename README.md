@@ -1653,6 +1653,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [Calvitz/CVE-2022-26809](https://github.com/Calvitz/CVE-2022-26809)
 - [XmasSnowISBACK/CVE-2022-26809](https://github.com/XmasSnowISBACK/CVE-2022-26809)
 - [scoobydoobi/CVE-2022-26809-RCE-POC](https://github.com/scoobydoobi/CVE-2022-26809-RCE-POC)
+- [scoobydoobi/CVE-2022-26809-RCE](https://github.com/scoobydoobi/CVE-2022-26809-RCE)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -2116,6 +2117,8 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Hrishikesh7665/Follina_Exploiter_CLI](https://github.com/Hrishikesh7665/Follina_Exploiter_CLI)
 - [b401/Clickstudio-compromised-certificate](https://github.com/b401/Clickstudio-compromised-certificate)
 - [k508/CVE-2022-30190](https://github.com/k508/CVE-2022-30190)
+- [safakTamsesCS/PicusSecurity4.Week.Repo](https://github.com/safakTamsesCS/PicusSecurity4.Week.Repo)
+- [AmitNiz/follina_cve_2022-30190](https://github.com/AmitNiz/follina_cve_2022-30190)
 - [Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab](https://github.com/Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab)
 
 ### CVE-2022-30292 (2022-05-04)
@@ -2204,7 +2207,12 @@ Laravel 9.1.8, when processing attacker-controlled data for deserialization, all
 
 - [kang8/CVE-2022-30778](https://github.com/kang8/CVE-2022-30778)
 
-### CVE-2022-30780
+### CVE-2022-30780 (2022-06-11)
+
+<code>
+Lighttpd 1.4.56 through 1.4.58 allows a remote attacker to cause a denial of service (CPU consumption from stuck connections) because connection_read_header_more in connections.c has a typo that disrupts use of multiple read operations on large headers.
+</code>
+
 - [p0dalirius/CVE-2022-30780-lighttpd-denial-of-service](https://github.com/p0dalirius/CVE-2022-30780-lighttpd-denial-of-service)
 
 ### CVE-2022-30781 (2022-05-15)
@@ -3378,7 +3386,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ArkAngeL43/CVE-2021-4034](https://github.com/ArkAngeL43/CVE-2021-4034)
 - [qasj/CVE-2021-4034](https://github.com/qasj/CVE-2021-4034)
 - [rhin0cer0s/CVE-2021-4034](https://github.com/rhin0cer0s/CVE-2021-4034)
-- [karaname/pkexec-exploit](https://github.com/karaname/pkexec-exploit)
 - [0x4ndy/CVE-2021-4034-PoC](https://github.com/0x4ndy/CVE-2021-4034-PoC)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
 - [wudicainiao/cve-2021-4034](https://github.com/wudicainiao/cve-2021-4034)
@@ -5080,6 +5087,14 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 
 - [LeoBreaker1411/CVE-2021-35448](https://github.com/LeoBreaker1411/CVE-2021-35448)
 
+### CVE-2021-35576 (2021-10-20)
+
+<code>
+Vulnerability in the Oracle Database Enterprise Edition Unified Audit component of Oracle Database Server. Supported versions that are affected are 12.1.0.2, 12.2.0.1 and 19c. Easily exploitable vulnerability allows high privileged attacker having Local Logon privilege with network access via Oracle Net to compromise Oracle Database Enterprise Edition Unified Audit. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Database Enterprise Edition Unified Audit accessible data. CVSS 3.1 Base Score 2.7 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N).
+</code>
+
+- [emad-almousa/CVE-2021-35576](https://github.com/emad-almousa/CVE-2021-35576)
+
 ### CVE-2021-35587 (2022-01-19)
 
 <code>
@@ -5435,6 +5450,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
+- [ranggaggngntt/CVE-2021-41773](https://github.com/ranggaggngntt/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
@@ -5945,7 +5961,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs](https://github.com/RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs)
 - [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
 - [uint0/cve-2021-44228-helpers](https://github.com/uint0/cve-2021-44228-helpers)
-- [RK800-DEV/apache-log4j-poc](https://github.com/RK800-DEV/apache-log4j-poc)
 - [sud0x00/log4j-CVE-2021-44228](https://github.com/sud0x00/log4j-CVE-2021-44228)
 - [DiCanio/CVE-2021-44228-docker-example](https://github.com/DiCanio/CVE-2021-44228-docker-example)
 - [mute1997/CVE-2021-44228-research](https://github.com/mute1997/CVE-2021-44228-research)
