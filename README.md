@@ -2057,6 +2057,7 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 
 - [aaronsvk/CVE-2022-30075](https://github.com/aaronsvk/CVE-2022-30075)
 - [SAJIDAMINE/CVE-2022-30075](https://github.com/SAJIDAMINE/CVE-2022-30075)
+- [trhacknon/CVE-2022-30075](https://github.com/trhacknon/CVE-2022-30075)
 
 ### CVE-2022-30190 (2022-06-01)
 
@@ -20999,6 +21000,14 @@ A authentication bypass and execution of code vulnerability in HPE Integrated Li
 
 - [skelsec/CVE-2017-12542](https://github.com/skelsec/CVE-2017-12542)
 - [sk1dish/ilo4-rce-vuln-scanner](https://github.com/sk1dish/ilo4-rce-vuln-scanner)
+
+### CVE-2017-12561 (2018-02-15)
+
+<code>
+A remote code execution vulnerability in HPE intelligent Management Center (iMC) PLAT version Plat 7.3 E0504P4 and earlier was found.
+</code>
+
+- [whokilleddb/CVE-2017-12561-Exploit](https://github.com/whokilleddb/CVE-2017-12561-Exploit)
 
 ### CVE-2017-12611 (2017-09-20)
 
