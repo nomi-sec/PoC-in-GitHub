@@ -3228,6 +3228,14 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 
 - [HadiMed/DSL-2750U-Full-chain](https://github.com/HadiMed/DSL-2750U-Full-chain)
 
+### CVE-2021-3749 (2021-08-31)
+
+<code>
+axios is vulnerable to Inefficient Regular Expression Complexity
+</code>
+
+- [T-Guerrero/axios-redos](https://github.com/T-Guerrero/axios-redos)
+
 ### CVE-2021-3864
 - [walac/cve-2021-3864](https://github.com/walac/cve-2021-3864)
 
@@ -5927,7 +5935,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
-- [simonis/Log4jPatch](https://github.com/simonis/Log4jPatch)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
