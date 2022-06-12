@@ -800,6 +800,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [trhacknon/CVE-2022-22954](https://github.com/trhacknon/CVE-2022-22954)
 - [orwagodfather/CVE-2022-22954](https://github.com/orwagodfather/CVE-2022-22954)
 - [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
+- [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -2252,6 +2253,22 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 
 ### CVE-2022-31403
 - [buff07/CVE-2022-31403](https://github.com/buff07/CVE-2022-31403)
+
+### CVE-2022-31983 (2022-06-01)
+
+<code>
+Online Fire Reporting System v1.0 is vulnerable to SQL Injection via /ofrs/admin/?page=requests/manage_request&amp;id=.
+</code>
+
+- [mel1huc4r/CVE-2022-31983](https://github.com/mel1huc4r/CVE-2022-31983)
+
+### CVE-2022-32013 (2022-06-02)
+
+<code>
+Complete Online Job Search System v1.0 is vulnerable to SQL Injection via eris/admin/category/index.php?view=edit&amp;id=.
+</code>
+
+- [heavenswill/CVE-2022-32013](https://github.com/heavenswill/CVE-2022-32013)
 
 
 ## 2021
@@ -14883,6 +14900,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [Tuz-Wwsd/CVE-2019-15107_detection](https://github.com/Tuz-Wwsd/CVE-2019-15107_detection)
 - [f0rkr/CVE-2019-15107](https://github.com/f0rkr/CVE-2019-15107)
 - [trhacknon/CVE-2019-15107](https://github.com/trhacknon/CVE-2019-15107)
+- [NullBrunk/Webmin-RCE](https://github.com/NullBrunk/Webmin-RCE)
 
 ### CVE-2019-15120 (2019-08-16)
 
