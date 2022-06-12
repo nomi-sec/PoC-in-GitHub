@@ -1296,6 +1296,9 @@ Parse Server is an open source http web server backend. In versions prior to 4.1
 
 - [tuo4n8/CVE-2022-24760](https://github.com/tuo4n8/CVE-2022-24760)
 
+### CVE-2022-24806
+- [oturu/CVE-2022-24806-MASS-RCE](https://github.com/oturu/CVE-2022-24806-MASS-RCE)
+
 ### CVE-2022-24853 (2022-04-14)
 
 <code>
