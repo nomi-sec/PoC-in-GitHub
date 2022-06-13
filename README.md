@@ -483,6 +483,7 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 - [khalednassar/CVE-2022-21449-TLS-PoC](https://github.com/khalednassar/CVE-2022-21449-TLS-PoC)
 - [marschall/psychic-signatures](https://github.com/marschall/psychic-signatures)
 - [Damok82/SignChecker](https://github.com/Damok82/SignChecker)
+- [fundaergn/CVE-2022-21449](https://github.com/fundaergn/CVE-2022-21449)
 
 ### CVE-2022-21658 (2022-01-20)
 
@@ -634,6 +635,14 @@ A logic issue was addressed with improved state management. This issue is fixed 
 </code>
 
 - [jhftss/CVE-2022-22639](https://github.com/jhftss/CVE-2022-22639)
+
+### CVE-2022-22718 (2022-02-09)
+
+<code>
+Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21997, CVE-2022-21999, CVE-2022-22717.
+</code>
+
+- [ahmetfurkans/CVE-2022-22718](https://github.com/ahmetfurkans/CVE-2022-22718)
 
 ### CVE-2022-22822 (2022-01-07)
 
@@ -801,6 +810,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [orwagodfather/CVE-2022-22954](https://github.com/orwagodfather/CVE-2022-22954)
 - [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
+- [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -1124,6 +1134,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [nanaao/CVE-2022-24086-RCE](https://github.com/nanaao/CVE-2022-24086-RCE)
 - [k0zulzr/CVE-2022-24086-RCE](https://github.com/k0zulzr/CVE-2022-24086-RCE)
 - [oK0mo/CVE-2022-24086-RCE-PoC](https://github.com/oK0mo/CVE-2022-24086-RCE-PoC)
+- [seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -1548,6 +1559,9 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [cai-niao98/CVE-2022-26134](https://github.com/cai-niao98/CVE-2022-26134)
 - [sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134)
 - [KeepWannabe/BotCon](https://github.com/KeepWannabe/BotCon)
+- [trhacknon/CVE-2022-26134](https://github.com/trhacknon/CVE-2022-26134)
+- [trhacknon/CVE-2022-26134-bis](https://github.com/trhacknon/CVE-2022-26134-bis)
+- [Chocapikk/CVE-2022-26134](https://github.com/Chocapikk/CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -1674,7 +1688,7 @@ Active Directory Domain Services Elevation of Privilege Vulnerability.
 Windows Graphics Component Remote Code Execution Vulnerability.
 </code>
 
-- [Exploitables/CVE-2022-26927](https://github.com/Exploitables/CVE-2022-26927)
+- [CrackerCat/CVE-2022-26927](https://github.com/CrackerCat/CVE-2022-26927)
 
 ### CVE-2022-26937 (2022-05-10)
 
@@ -2202,6 +2216,7 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [160Team/CVE-2022-30525](https://github.com/160Team/CVE-2022-30525)
 - [iveresk/cve-2022-30525](https://github.com/iveresk/cve-2022-30525)
 - [west9b/CVE-2022-30525](https://github.com/west9b/CVE-2022-30525)
+- [furkanzengin/CVE-2022-30525](https://github.com/furkanzengin/CVE-2022-30525)
 
 ### CVE-2022-30778 (2022-05-15)
 
