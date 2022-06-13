@@ -403,7 +403,6 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 ### CVE-2022-1609
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [NullBrunk/CVE-2022-1609](https://github.com/NullBrunk/CVE-2022-1609)
-- [Trhackno/CVE-2022-1609](https://github.com/Trhackno/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
 
 ### CVE-2022-1966 (2022-06-06)
@@ -413,6 +412,9 @@ A use-after-free vulnerability was found in the Linux kernel's Netfilter subsyst
 </code>
 
 - [google-mirror/CVE-2022-1966](https://github.com/google-mirror/CVE-2022-1966)
+
+### CVE-2022-1972
+- [randorisec/CVE-2022-1972-infoleak-PoC](https://github.com/randorisec/CVE-2022-1972-infoleak-PoC)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1058,7 +1060,6 @@ An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject m
 </code>
 
 - [dipakpanchal456/CVE-2022-23808](https://github.com/dipakpanchal456/CVE-2022-23808)
-- [Trhackno/CVE-2022-23808](https://github.com/Trhackno/CVE-2022-23808)
 
 ### CVE-2022-23812 (2022-03-16)
 
@@ -1516,7 +1517,6 @@ SharedSecretClusterAuthenticator in Atlassian Bitbucket Data Center versions 5.1
 </code>
 
 - [Pear1y/CVE-2022-26133](https://github.com/Pear1y/CVE-2022-26133)
-- [Trhackno/CVE-2022-26133](https://github.com/Trhackno/CVE-2022-26133)
 - [0xAbbarhSF/CVE-2022-26133](https://github.com/0xAbbarhSF/CVE-2022-26133)
 
 ### CVE-2022-26134 (2022-06-03)
@@ -2157,7 +2157,6 @@ WAVLINK WN535 G3 was discovered to contain a cross-site scripting (XSS) vulnerab
 
 - [badboycxcc/XSS-CVE-2022-30489](https://github.com/badboycxcc/XSS-CVE-2022-30489)
 - [trhacknon/XSS-CVE-2022-30489](https://github.com/trhacknon/XSS-CVE-2022-30489)
-- [Trhackno/XSS-CVE-2022-30489](https://github.com/Trhackno/XSS-CVE-2022-30489)
 
 ### CVE-2022-30510 (2022-05-27)
 
@@ -5108,7 +5107,6 @@ KramerAV VIAWare, all tested versions, allow privilege escalation through miscon
 
 - [Chocapikk/CVE-2021-35064](https://github.com/Chocapikk/CVE-2021-35064)
 - [trhacknon/CVE-2021-35064](https://github.com/trhacknon/CVE-2021-35064)
-- [Trhackno/CVE-2021-35064](https://github.com/Trhackno/CVE-2021-35064)
 
 ### CVE-2021-35211 (2021-07-14)
 
@@ -5560,6 +5558,9 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [honypot/CVE-2021-42013](https://github.com/honypot/CVE-2021-42013)
 - [Adash7/CVE-2021-42013](https://github.com/Adash7/CVE-2021-42013)
 - [viliuspovilaika/cve-2021-42013](https://github.com/viliuspovilaika/cve-2021-42013)
+
+### CVE-2021-42056
+- [z00z00z00/Safenet_SAC_CVE-2021-42056](https://github.com/z00z00z00/Safenet_SAC_CVE-2021-42056)
 
 ### CVE-2021-42171 (2022-03-14)
 
@@ -7198,6 +7199,7 @@ Race condition in the Intel(R) Driver and Support Assistant before version 20.1.
 A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates.An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'.
 </code>
 
+- [nissan-sudo/CVE-2020-0601](https://github.com/nissan-sudo/CVE-2020-0601)
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
 - [SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601)
 - [JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601)
@@ -8223,6 +8225,7 @@ In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the use
 PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
 </code>
 
+- [FULLSHADE/CVE-2020-5509](https://github.com/FULLSHADE/CVE-2020-5509)
 - [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
 
 ### CVE-2020-5837 (2020-05-11)
@@ -11678,7 +11681,6 @@ IncomCMS 2.0 has a modules/uploader/showcase/script.php insecure file upload vul
 </code>
 
 - [trhacknon/CVE-2020-29597](https://github.com/trhacknon/CVE-2020-29597)
-- [Trhackno/CVE-2020-29597](https://github.com/Trhackno/CVE-2020-29597)
 
 ### CVE-2020-29599 (2020-12-07)
 
@@ -21209,6 +21211,7 @@ An elevation of privilege vulnerability in the Android system (art). Product: An
 - [caxmd/CVE-2017-13156](https://github.com/caxmd/CVE-2017-13156)
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
+- [M507/CVE-2017-13156](https://github.com/M507/CVE-2017-13156)
 
 ### CVE-2017-13208 (2018-01-12)
 
