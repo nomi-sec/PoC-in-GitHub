@@ -23871,7 +23871,6 @@ Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functio
 - [eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public)
 - [bluebluelan/CVE-2015-7547-proj-master](https://github.com/bluebluelan/CVE-2015-7547-proj-master)
 - [miracle03/CVE-2015-7547-master](https://github.com/miracle03/CVE-2015-7547-master)
-- [Stick-U235/CVE-2015-7547](https://github.com/Stick-U235/CVE-2015-7547)
 - [Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547](https://github.com/Amilaperera12/Glibc-Vulnerability-Exploit-CVE-2015-7547)
 
 ### CVE-2015-7755 (2015-12-19)
