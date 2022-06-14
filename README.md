@@ -1284,6 +1284,7 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 
 - [sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit)
 - [XmasSnowISBACK/CVE-2022-24706](https://github.com/XmasSnowISBACK/CVE-2022-24706)
+- [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
 
 ### CVE-2022-24713 (2022-03-08)
 
@@ -2141,6 +2142,8 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab](https://github.com/Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab)
 - [SonicWave21/Follina-CVE-2022-30190-Unofficial-patch](https://github.com/SonicWave21/Follina-CVE-2022-30190-Unofficial-patch)
 - [XxToxicScriptxX/CVE-2022-30190](https://github.com/XxToxicScriptxX/CVE-2022-30190)
+- [ernestak/CVE-2022-30190](https://github.com/ernestak/CVE-2022-30190)
+- [ernestak/Sigma-Rule-for-CVE-2022-30190](https://github.com/ernestak/Sigma-Rule-for-CVE-2022-30190)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -5394,10 +5397,20 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
 
-### CVE-2021-40649
+### CVE-2021-40649 (2022-06-14)
+
+<code>
+In Connx Version 6.2.0.1269 (20210623), a cookie can be issued by the application and not have the HttpOnly flag set.
+</code>
+
 - [l00neyhacker/CVE-2021-40649](https://github.com/l00neyhacker/CVE-2021-40649)
 
-### CVE-2021-40650
+### CVE-2021-40650 (2022-06-14)
+
+<code>
+In Connx Version 6.2.0.1269 (20210623), a cookie can be issued by the application and not have the secure flag set.
+</code>
+
 - [l00neyhacker/CVE-2021-40650](https://github.com/l00neyhacker/CVE-2021-40650)
 
 ### CVE-2021-40822 (2022-05-01)
