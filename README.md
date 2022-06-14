@@ -1674,6 +1674,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [XmasSnowISBACK/CVE-2022-26809](https://github.com/XmasSnowISBACK/CVE-2022-26809)
 - [scoobydoobi/CVE-2022-26809-RCE-POC](https://github.com/scoobydoobi/CVE-2022-26809-RCE-POC)
 - [scoobydoobi/CVE-2022-26809-RCE](https://github.com/scoobydoobi/CVE-2022-26809-RCE)
+- [scoobydoobi/CVE-2022-26809-POC-RCE](https://github.com/scoobydoobi/CVE-2022-26809-POC-RCE)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -1730,7 +1731,7 @@ The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal 
 ### CVE-2022-27438 (2022-06-06)
 
 <code>
-Caphyon Ltd Advanced Installer 19.2 was discovered to contain a remote code execution (RCE) vulnerability via the Update Check function.
+Caphyon Ltd Advanced Installer 19.3 and earlier and many products that use the updater from Advanced Installer (Advanced Updater) are affected by a remote code execution vulnerability via the CustomDetection parameter in the update check function. To exploit this vulnerability, a user must start an affected installation to trigger the update check.
 </code>
 
 - [gerr-re/cve-2022-27438](https://github.com/gerr-re/cve-2022-27438)
@@ -2296,7 +2297,12 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 
 - [YavuzSahbaz/CVE-2022-31402](https://github.com/YavuzSahbaz/CVE-2022-31402)
 
-### CVE-2022-31403
+### CVE-2022-31403 (-)
+
+<code>
+ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability via /itop/pages/ajax.render.php.
+</code>
+
 - [buff07/CVE-2022-31403](https://github.com/buff07/CVE-2022-31403)
 
 ### CVE-2022-31983 (2022-06-01)
@@ -3878,6 +3884,14 @@ An issue in protobuf-java allowed the interleaving of com.google.protobuf.Unknow
 </code>
 
 - [Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java](https://github.com/Mario-Kart-Felix/A-potential-Denial-of-Service-issue-in-protobuf-java)
+
+### CVE-2021-22893 (2021-04-23)
+
+<code>
+Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication bypass vulnerability exposed by the Windows File Share Browser and Pulse Secure Collaboration features of Pulse Connect Secure that can allow an unauthenticated user to perform remote arbitrary code execution on the Pulse Connect Secure gateway. This vulnerability has been exploited in the wild.
+</code>
+
+- [ZephrFish/CVE-2021-22893_HoneyPoC2](https://github.com/ZephrFish/CVE-2021-22893_HoneyPoC2)
 
 ### CVE-2021-22911 (2021-05-27)
 
@@ -14475,6 +14489,14 @@ In Webmin through 1.910, any user authorized to the &quot;Package Updates&quot; 
 - [zAbuQasem/CVE-2019-12840](https://github.com/zAbuQasem/CVE-2019-12840)
 - [WizzzStark/CVE-2019-12840.py](https://github.com/WizzzStark/CVE-2019-12840.py)
 
+### CVE-2019-12874 (2019-06-18)
+
+<code>
+An issue was discovered in zlib_decompress_extra in modules/demux/mkv/util.cpp in VideoLAN VLC media player 3.x through 3.0.7. The Matroska demuxer, while parsing a malformed MKV file type, has a double free.
+</code>
+
+- [ahaShiyu/CVE-2019-12874](https://github.com/ahaShiyu/CVE-2019-12874)
+
 ### CVE-2019-12889 (2019-08-20)
 
 <code>
@@ -16016,6 +16038,14 @@ Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Buffer Overflow. The impa
 </code>
 
 - [RKX1209/CVE-2019-1010298](https://github.com/RKX1209/CVE-2019-1010298)
+
+### CVE-2019-1010319 (2019-07-11)
+
+<code>
+WavPack 5.1.0 and earlier is affected by: CWE-457: Use of Uninitialized Variable. The impact is: Unexpected control flow, crashes, and segfaults. The component is: ParseWave64HeaderConfig (wave64.c:211). The attack vector is: Maliciously crafted .wav file. The fixed version is: After commit https://github.com/dbry/WavPack/commit/33a0025d1d63ccd05d9dbaa6923d52b1446a62fe.
+</code>
+
+- [ahaShiyu/CVE-2019-1010319](https://github.com/ahaShiyu/CVE-2019-1010319)
 
 ### CVE-2019-1020010 (2019-07-29)
 
@@ -20908,6 +20938,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [testwc/CVE-2017-10271](https://github.com/testwc/CVE-2017-10271)
 - [Al1ex/CVE-2017-10271](https://github.com/Al1ex/CVE-2017-10271)
 - [pizza-power/weblogic-CVE-2019-2729-POC](https://github.com/pizza-power/weblogic-CVE-2019-2729-POC)
+- [KKsdall/7kbstormq](https://github.com/KKsdall/7kbstormq)
 
 ### CVE-2017-10352 (2017-10-19)
 
