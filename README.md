@@ -2140,6 +2140,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [AmitNiz/follina_cve_2022-30190](https://github.com/AmitNiz/follina_cve_2022-30190)
 - [Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab](https://github.com/Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab)
 - [SonicWave21/Follina-CVE-2022-30190-Unofficial-patch](https://github.com/SonicWave21/Follina-CVE-2022-30190-Unofficial-patch)
+- [XxToxicScriptxX/CVE-2022-30190](https://github.com/XxToxicScriptxX/CVE-2022-30190)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -2218,6 +2219,7 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [iveresk/cve-2022-30525](https://github.com/iveresk/cve-2022-30525)
 - [west9b/CVE-2022-30525](https://github.com/west9b/CVE-2022-30525)
 - [furkanzengin/CVE-2022-30525](https://github.com/furkanzengin/CVE-2022-30525)
+- [ProngedFork/CVE-2022-30525](https://github.com/ProngedFork/CVE-2022-30525)
 
 ### CVE-2022-30778 (2022-05-15)
 
@@ -2258,6 +2260,30 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 </code>
 
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
+
+### CVE-2022-31294
+- [bigzooooz/CVE-2022-31294](https://github.com/bigzooooz/CVE-2022-31294)
+
+### CVE-2022-31295
+- [bigzooooz/CVE-2022-31295](https://github.com/bigzooooz/CVE-2022-31295)
+
+### CVE-2022-31296
+- [bigzooooz/CVE-2022-31296](https://github.com/bigzooooz/CVE-2022-31296)
+
+### CVE-2022-31297
+- [bigzooooz/CVE-2022-31297](https://github.com/bigzooooz/CVE-2022-31297)
+
+### CVE-2022-31298
+- [bigzooooz/CVE-2022-31298](https://github.com/bigzooooz/CVE-2022-31298)
+
+### CVE-2022-31299
+- [bigzooooz/CVE-2022-31299](https://github.com/bigzooooz/CVE-2022-31299)
+
+### CVE-2022-31300
+- [bigzooooz/CVE-2022-31300](https://github.com/bigzooooz/CVE-2022-31300)
+
+### CVE-2022-31301
+- [bigzooooz/CVE-2022-31301](https://github.com/bigzooooz/CVE-2022-31301)
 
 ### CVE-2022-31402 (2022-06-10)
 
@@ -5368,6 +5394,12 @@ Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
 
+### CVE-2021-40649
+- [l00neyhacker/CVE-2021-40649](https://github.com/l00neyhacker/CVE-2021-40649)
+
+### CVE-2021-40650
+- [l00neyhacker/CVE-2021-40650](https://github.com/l00neyhacker/CVE-2021-40650)
+
 ### CVE-2021-40822 (2022-05-01)
 
 <code>
@@ -6022,9 +6054,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
 - [dtact/divd-2021-00038--log4j-scanner](https://github.com/dtact/divd-2021-00038--log4j-scanner)
 - [kali-dass/CVE-2021-44228-log4Shell](https://github.com/kali-dass/CVE-2021-44228-log4Shell)
-- [pravin-pp/log4j2-CVE-2021-44228](https://github.com/pravin-pp/log4j2-CVE-2021-44228)
 - [Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228](https://github.com/Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228)
-- [urholaukkarinen/docker-log4shell](https://github.com/urholaukkarinen/docker-log4shell)
 - [ssl/scan4log4j](https://github.com/ssl/scan4log4j)
 - [infiniroot/nginx-mitigate-log4shell](https://github.com/infiniroot/nginx-mitigate-log4shell)
 - [lohanichaten/log4j-cve-2021-44228](https://github.com/lohanichaten/log4j-cve-2021-44228)
