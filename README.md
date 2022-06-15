@@ -630,6 +630,14 @@ The issue was addressed with improved permissions logic. This issue is fixed in 
 
 - [KlinKlinKlin/MSF-screenrecord-on-MacOS](https://github.com/KlinKlinKlin/MSF-screenrecord-on-MacOS)
 
+### CVE-2022-22620 (2022-03-18)
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in macOS Monterey 12.2.1, iOS 15.3.1 and iPadOS 15.3.1, Safari 15.3 (v. 16612.4.9.1.8 and 15612.4.9.1.8). Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited..
+</code>
+
+- [kmeps4/CVE-2022-22620](https://github.com/kmeps4/CVE-2022-22620)
+
 ### CVE-2022-22639 (2022-03-18)
 
 <code>
@@ -2297,7 +2305,7 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 
 - [YavuzSahbaz/CVE-2022-31402](https://github.com/YavuzSahbaz/CVE-2022-31402)
 
-### CVE-2022-31403 (-)
+### CVE-2022-31403 (2022-06-14)
 
 <code>
 ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability via /itop/pages/ajax.render.php.
@@ -12811,6 +12819,14 @@ Incorrect sanitation of the 302 redirect field in HTTP transport method of apt v
 - [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
+### CVE-2019-3560 (2019-04-29)
+
+<code>
+An improperly performed length calculation on a buffer in PlaintextRecordLayer could lead to an infinite loop and denial-of-service based on user input. This issue affected versions of fizz prior to v2019.03.04.00.
+</code>
+
+- [ahaShiyu/CVE-2019-3560](https://github.com/ahaShiyu/CVE-2019-3560)
+
 ### CVE-2019-3663 (2019-11-13)
 
 <code>
@@ -18549,6 +18565,14 @@ Android 1.0 through 9.0 has Insecure Permissions. The Android bug ID is 77286983
 
 - [Chirantar7004/Android-Passive-Location-Tracker](https://github.com/Chirantar7004/Android-Passive-Location-Tracker)
 
+### CVE-2018-15856 (2018-08-25)
+
+<code>
+An infinite loop when reaching EOL unexpectedly in compose/parser.c (aka the keymap parser) in xkbcommon before 0.8.1 could be used by local attackers to cause a denial of service during parsing of crafted keymap files.
+</code>
+
+- [ahaShiyu/CVE-2018-15856](https://github.com/ahaShiyu/CVE-2018-15856)
+
 ### CVE-2018-15877 (2018-08-26)
 
 <code>
@@ -18983,6 +19007,14 @@ ACME mini_httpd before 1.30 lets remote users read arbitrary files.
 
 - [cyberharsh/Mini_httpd-CVE-2018-18778](https://github.com/cyberharsh/Mini_httpd-CVE-2018-18778)
 
+### CVE-2018-18839 (2019-06-18)
+
+<code>
+** DISPUTED ** An issue was discovered in Netdata 1.10.0. Full Path Disclosure (FPD) exists via api/v1/alarms. NOTE: the vendor says &quot;is intentional.&quot;
+</code>
+
+- [ahaShiyu/CVE-2018-18839](https://github.com/ahaShiyu/CVE-2018-18839)
+
 ### CVE-2018-18852 (2019-06-18)
 
 <code>
@@ -19128,6 +19160,14 @@ A flaw was found in PolicyKit (aka polkit) 0.115 that allows a user with a uid g
 - [Ekultek/PoC](https://github.com/Ekultek/PoC)
 - [jhlongjr/CVE-2018-19788](https://github.com/jhlongjr/CVE-2018-19788)
 
+### CVE-2018-19854 (2018-12-04)
+
+<code>
+An issue was discovered in the Linux kernel before 4.19.3. crypto_report_one() and related functions in crypto/crypto_user.c (the crypto user configuration API) do not fully initialize structures that are copied to userspace, potentially leaking sensitive memory to user programs. NOTE: this is a CVE-2013-2547 regression but with easier exploitability because the attacker does not need a capability (however, the system must have the CONFIG_CRYPTO_USER kconfig option).
+</code>
+
+- [ahaShiyu/CVE-2018-19854](https://github.com/ahaShiyu/CVE-2018-19854)
+
 ### CVE-2018-19859 (2018-12-05)
 
 <code>
@@ -19191,6 +19231,14 @@ Cross-site scripting (XSS) vulnerability in OpenText Portal 7.4.4 allows remote 
 </code>
 
 - [hect0rS/Reflected-XSS-on-Opentext-Portal-v7.4.4](https://github.com/hect0rS/Reflected-XSS-on-Opentext-Portal-v7.4.4)
+
+### CVE-2018-20175 (2019-03-15)
+
+<code>
+rdesktop versions up to and including v1.8.3 contains several Integer Signedness errors that lead to Out-Of-Bounds Reads in the file mcs.c and result in a Denial of Service (segfault).
+</code>
+
+- [ahaShiyu/CVE-2018-20175](https://github.com/ahaShiyu/CVE-2018-20175)
 
 ### CVE-2018-20250 (2019-02-05)
 
