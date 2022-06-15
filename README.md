@@ -217,7 +217,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [isaiahsimeone/COMP3320-VAPT](https://github.com/isaiahsimeone/COMP3320-VAPT)
 - [VinuKalana/DirtyPipe-CVE-2022-0847](https://github.com/VinuKalana/DirtyPipe-CVE-2022-0847)
 - [IHenakaarachchi/debian11-dirty_pipe-patcher](https://github.com/IHenakaarachchi/debian11-dirty_pipe-patcher)
-- [greenhandatsjtu/CVE-2022-0847](https://github.com/greenhandatsjtu/CVE-2022-0847)
+- [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -2153,6 +2153,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [XxToxicScriptxX/CVE-2022-30190](https://github.com/XxToxicScriptxX/CVE-2022-30190)
 - [ernestak/CVE-2022-30190](https://github.com/ernestak/CVE-2022-30190)
 - [ernestak/Sigma-Rule-for-CVE-2022-30190](https://github.com/ernestak/Sigma-Rule-for-CVE-2022-30190)
+- [MalwareTech/FollinaExtractor](https://github.com/MalwareTech/FollinaExtractor)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -13230,6 +13231,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
 - [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
+- [VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer](https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer)
 
 ### CVE-2019-6453 (2019-02-18)
 
@@ -20517,6 +20519,7 @@ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Serie
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
 - [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
 - [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
+- [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 
 ### CVE-2017-7998 (2018-01-08)
 
@@ -21197,14 +21200,6 @@ A authentication bypass and execution of code vulnerability in HPE Integrated Li
 
 - [skelsec/CVE-2017-12542](https://github.com/skelsec/CVE-2017-12542)
 - [sk1dish/ilo4-rce-vuln-scanner](https://github.com/sk1dish/ilo4-rce-vuln-scanner)
-
-### CVE-2017-12561 (2018-02-15)
-
-<code>
-A remote code execution vulnerability in HPE intelligent Management Center (iMC) PLAT version Plat 7.3 E0504P4 and earlier was found.
-</code>
-
-- [whokilleddb/CVE-2017-12561-Exploit](https://github.com/whokilleddb/CVE-2017-12561-Exploit)
 
 ### CVE-2017-12611 (2017-09-20)
 
