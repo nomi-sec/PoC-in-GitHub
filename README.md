@@ -937,6 +937,7 @@ VMware Workspace ONE Access, Identity Manager and vRealize Automation contain an
 
 - [horizon3ai/CVE-2022-22972](https://github.com/horizon3ai/CVE-2022-22972)
 - [Dghpi9/CVE-2022-22972](https://github.com/Dghpi9/CVE-2022-22972)
+- [bengisugun/CVE-2022-22972-](https://github.com/bengisugun/CVE-2022-22972-)
 
 ### CVE-2022-22976 (2022-05-19)
 
@@ -2071,6 +2072,9 @@ The HTTP Server in PRIMEUR SPAZIO 2.5.1.954 (File Transfer) allows an unauthenti
 ### CVE-2022-30006
 - [ComparedArray/printix-CVE-2022-30006](https://github.com/ComparedArray/printix-CVE-2022-30006)
 
+### CVE-2022-30023
+- [Haniwa0x01/CVE-2022-30023](https://github.com/Haniwa0x01/CVE-2022-30023)
+
 ### CVE-2022-30040 (2022-05-11)
 
 <code>
@@ -2236,6 +2240,14 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [west9b/CVE-2022-30525](https://github.com/west9b/CVE-2022-30525)
 - [furkanzengin/CVE-2022-30525](https://github.com/furkanzengin/CVE-2022-30525)
 - [ProngedFork/CVE-2022-30525](https://github.com/ProngedFork/CVE-2022-30525)
+
+### CVE-2022-30709 (2022-06-07)
+
+<code>
+Improper input validation check logic vulnerability in SECRIL prior to SMR Jun-2022 Release 1 allows attackers to trigger crash.
+</code>
+
+- [bl4ckmenace/CVE-2022-30709](https://github.com/bl4ckmenace/CVE-2022-30709)
 
 ### CVE-2022-30778 (2022-05-15)
 
