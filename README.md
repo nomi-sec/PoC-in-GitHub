@@ -411,7 +411,7 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 A use-after-free vulnerability was found in the Linux kernel's Netfilter subsystem in net/netfilter/nf_tables_api.c. This flaw allows a local attacker with user access to cause a privilege escalation issue.
 </code>
 
-- [google-mirror/CVE-2022-1966](https://github.com/google-mirror/CVE-2022-1966)
+- [ASkyeye/CVE-2022-1966](https://github.com/ASkyeye/CVE-2022-1966)
 
 ### CVE-2022-1972
 - [randorisec/CVE-2022-1972-infoleak-PoC](https://github.com/randorisec/CVE-2022-1972-infoleak-PoC)
@@ -2149,11 +2149,14 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [safakTamsesCS/PicusSecurity4.Week.Repo](https://github.com/safakTamsesCS/PicusSecurity4.Week.Repo)
 - [AmitNiz/follina_cve_2022-30190](https://github.com/AmitNiz/follina_cve_2022-30190)
 - [Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab](https://github.com/Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab)
+- [SrCroqueta/CVE-2022-30190_Temporary_Fix](https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix)
+- [SrCroqueta/CVE-2022-30190_Temporary_Fix_Source_Code](https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix_Source_Code)
 - [SonicWave21/Follina-CVE-2022-30190-Unofficial-patch](https://github.com/SonicWave21/Follina-CVE-2022-30190-Unofficial-patch)
 - [XxToxicScriptxX/CVE-2022-30190](https://github.com/XxToxicScriptxX/CVE-2022-30190)
 - [ernestak/CVE-2022-30190](https://github.com/ernestak/CVE-2022-30190)
 - [ernestak/Sigma-Rule-for-CVE-2022-30190](https://github.com/ernestak/Sigma-Rule-for-CVE-2022-30190)
 - [MalwareTech/FollinaExtractor](https://github.com/MalwareTech/FollinaExtractor)
+- [notherealhazard/follina-CVE-2022-30190](https://github.com/notherealhazard/follina-CVE-2022-30190)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -7992,6 +7995,7 @@ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (compo
 - [Maskhe/cve-2020-2555](https://github.com/Maskhe/cve-2020-2555)
 - [Uvemode/CVE-2020-2555](https://github.com/Uvemode/CVE-2020-2555)
 - [Qynklee/POC_CVE-2020-2555](https://github.com/Qynklee/POC_CVE-2020-2555)
+- [minhangxiaohui/Weblogic_Coherence_exploit](https://github.com/minhangxiaohui/Weblogic_Coherence_exploit)
 
 ### CVE-2020-2556 (2020-01-15)
 
