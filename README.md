@@ -419,6 +419,9 @@ A use-after-free vulnerability was found in the Linux kernel's Netfilter subsyst
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
 
+### CVE-2022-6969
+- [piaoliangshu/piaoliangshusb](https://github.com/piaoliangshu/piaoliangshusb)
+
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
 
@@ -2241,14 +2244,6 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [west9b/CVE-2022-30525](https://github.com/west9b/CVE-2022-30525)
 - [furkanzengin/CVE-2022-30525](https://github.com/furkanzengin/CVE-2022-30525)
 - [ProngedFork/CVE-2022-30525](https://github.com/ProngedFork/CVE-2022-30525)
-
-### CVE-2022-30709 (2022-06-07)
-
-<code>
-Improper input validation check logic vulnerability in SECRIL prior to SMR Jun-2022 Release 1 allows attackers to trigger crash.
-</code>
-
-- [bl4ckmenace/CVE-2022-30709](https://github.com/bl4ckmenace/CVE-2022-30709)
 
 ### CVE-2022-30778 (2022-05-15)
 
@@ -20951,6 +20946,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [akr3ch/CVE-2017-9841](https://github.com/akr3ch/CVE-2017-9841)
 - [0zvxr/CVE-2017-9841](https://github.com/0zvxr/CVE-2017-9841)
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
+- [Invertebr4do/cve-2017-9841](https://github.com/Invertebr4do/cve-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
