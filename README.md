@@ -1665,6 +1665,14 @@ This issue was addressed with improved checks. This issue is fixed in Security U
 - [acheong08/CVE-2022-26726-POC](https://github.com/acheong08/CVE-2022-26726-POC)
 - [XmasSnowISBACK/CVE-2022-26726](https://github.com/XmasSnowISBACK/CVE-2022-26726)
 
+### CVE-2022-26757 (2022-05-26)
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. An application may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [Dylbin/flow_divert](https://github.com/Dylbin/flow_divert)
+
 ### CVE-2022-26809 (2022-04-15)
 
 <code>
@@ -2075,7 +2083,12 @@ The HTTP Server in PRIMEUR SPAZIO 2.5.1.954 (File Transfer) allows an unauthenti
 ### CVE-2022-30006
 - [ComparedArray/printix-CVE-2022-30006](https://github.com/ComparedArray/printix-CVE-2022-30006)
 
-### CVE-2022-30023
+### CVE-2022-30023 (2022-06-16)
+
+<code>
+Tenda ONT GPON AC1200 Dual band WiFi HG9 v1.0.1 is vulnerable to Command Injection via the Ping function.
+</code>
+
 - [Haniwa0x01/CVE-2022-30023](https://github.com/Haniwa0x01/CVE-2022-30023)
 
 ### CVE-2022-30040 (2022-05-11)
@@ -2285,7 +2298,12 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
 
-### CVE-2022-31294
+### CVE-2022-31294 (-)
+
+<code>
+An issue in the save_users() function of Online Discussion Forum Site 1 allows unauthenticated attackers to arbitrarily create or update user accounts.
+</code>
+
 - [bigzooooz/CVE-2022-31294](https://github.com/bigzooooz/CVE-2022-31294)
 
 ### CVE-2022-31295
@@ -2297,16 +2315,31 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 ### CVE-2022-31297
 - [bigzooooz/CVE-2022-31297](https://github.com/bigzooooz/CVE-2022-31297)
 
-### CVE-2022-31298
+### CVE-2022-31298 (-)
+
+<code>
+A cross-site scripting vulnerability in the ads comment section of Haraj v3.7 allows attackers to execute arbitrary web scripts or HTML via a crafted POST request.
+</code>
+
 - [bigzooooz/CVE-2022-31298](https://github.com/bigzooooz/CVE-2022-31298)
 
 ### CVE-2022-31299
 - [bigzooooz/CVE-2022-31299](https://github.com/bigzooooz/CVE-2022-31299)
 
-### CVE-2022-31300
+### CVE-2022-31300 (2022-06-16)
+
+<code>
+A cross-site scripting vulnerability in the DM Section component of Haraj v3.7 allows attackers to execute arbitrary web scripts or HTML via a crafted POST request.
+</code>
+
 - [bigzooooz/CVE-2022-31300](https://github.com/bigzooooz/CVE-2022-31300)
 
-### CVE-2022-31301
+### CVE-2022-31301 (-)
+
+<code>
+Haraj v3.7 was discovered to contain a stored cross-site scripting (XSS) vulnerability in the Post Ads component.
+</code>
+
 - [bigzooooz/CVE-2022-31301](https://github.com/bigzooooz/CVE-2022-31301)
 
 ### CVE-2022-31402 (2022-06-10)
@@ -5075,14 +5108,6 @@ The identity authentication bypass vulnerability found in some Dahua products du
 - [dorkerdevil/CVE-2021-33044](https://github.com/dorkerdevil/CVE-2021-33044)
 - [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
 
-### CVE-2021-33193 (2021-08-16)
-
-<code>
-A crafted method sent through HTTP/2 will bypass validation and be forwarded by mod_proxy, which can lead to request splitting or cache poisoning. This issue affects Apache HTTP Server 2.4.17 to 2.4.48.
-</code>
-
-- [jeremy-cxf/CVE-2021-33193](https://github.com/jeremy-cxf/CVE-2021-33193)
-
 ### CVE-2021-33558 (2021-05-27)
 
 <code>
@@ -6110,6 +6135,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [dtact/divd-2021-00038--log4j-scanner](https://github.com/dtact/divd-2021-00038--log4j-scanner)
 - [kali-dass/CVE-2021-44228-log4Shell](https://github.com/kali-dass/CVE-2021-44228-log4Shell)
 - [Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228](https://github.com/Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228)
+- [ssl/scan4log4j](https://github.com/ssl/scan4log4j)
 - [infiniroot/nginx-mitigate-log4shell](https://github.com/infiniroot/nginx-mitigate-log4shell)
 - [lohanichaten/log4j-cve-2021-44228](https://github.com/lohanichaten/log4j-cve-2021-44228)
 - [authomize/log4j-log4shell-affected](https://github.com/authomize/log4j-log4shell-affected)
