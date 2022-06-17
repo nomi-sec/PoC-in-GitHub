@@ -1720,6 +1720,7 @@ Windows Network File System Remote Code Execution Vulnerability.
 </code>
 
 - [corelight/CVE-2022-26937](https://github.com/corelight/CVE-2022-26937)
+- [omair2084/CVE-2022-26937](https://github.com/omair2084/CVE-2022-26937)
 
 ### CVE-2022-27134 (2022-05-12)
 
@@ -26065,6 +26066,14 @@ The Double.parseDouble method in Java Runtime Environment (JRE) in Oracle Java S
 </code>
 
 - [grzegorzblaszczyk/CVE-2010-4476-check](https://github.com/grzegorzblaszczyk/CVE-2010-4476-check)
+
+### CVE-2010-4502 (2010-12-08)
+
+<code>
+Integer overflow in KmxSbx.sys 6.2.0.22 in CA Internet Security Suite Plus 2010 allows local users to cause a denial of service (pool corruption) and execute arbitrary code via crafted arguments to the 0x88000080 IOCTL, which triggers a buffer overflow.
+</code>
+
+- [Exploitables/CVE-2010-4502](https://github.com/Exploitables/CVE-2010-4502)
 
 ### CVE-2010-4669 (2011-01-07)
 
