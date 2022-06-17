@@ -2109,6 +2109,14 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 - [SAJIDAMINE/CVE-2022-30075](https://github.com/SAJIDAMINE/CVE-2022-30075)
 - [trhacknon/CVE-2022-30075](https://github.com/trhacknon/CVE-2022-30075)
 
+### CVE-2022-30136 (2022-06-15)
+
+<code>
+Windows Network File System Remote Code Execution Vulnerability.
+</code>
+
+- [oturu/Cve-2022-30136-RCE](https://github.com/oturu/Cve-2022-30136-RCE)
+
 ### CVE-2022-30190 (2022-06-01)
 
 <code>
@@ -2298,7 +2306,7 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
 
-### CVE-2022-31294 (-)
+### CVE-2022-31294 (2022-06-16)
 
 <code>
 An issue in the save_users() function of Online Discussion Forum Site 1 allows unauthenticated attackers to arbitrarily create or update user accounts.
@@ -2306,7 +2314,12 @@ An issue in the save_users() function of Online Discussion Forum Site 1 allows u
 
 - [bigzooooz/CVE-2022-31294](https://github.com/bigzooooz/CVE-2022-31294)
 
-### CVE-2022-31295
+### CVE-2022-31295 (2022-06-16)
+
+<code>
+An issue in the delete_post() function of Online Discussion Forum Site 1 allows unauthenticated attackers to arbitrarily delete posts.
+</code>
+
 - [bigzooooz/CVE-2022-31295](https://github.com/bigzooooz/CVE-2022-31295)
 
 ### CVE-2022-31296
@@ -2315,7 +2328,7 @@ An issue in the save_users() function of Online Discussion Forum Site 1 allows u
 ### CVE-2022-31297
 - [bigzooooz/CVE-2022-31297](https://github.com/bigzooooz/CVE-2022-31297)
 
-### CVE-2022-31298 (-)
+### CVE-2022-31298 (2022-06-16)
 
 <code>
 A cross-site scripting vulnerability in the ads comment section of Haraj v3.7 allows attackers to execute arbitrary web scripts or HTML via a crafted POST request.
@@ -2323,7 +2336,12 @@ A cross-site scripting vulnerability in the ads comment section of Haraj v3.7 al
 
 - [bigzooooz/CVE-2022-31298](https://github.com/bigzooooz/CVE-2022-31298)
 
-### CVE-2022-31299
+### CVE-2022-31299 (2022-06-16)
+
+<code>
+Haraj v3.7 was discovered to contain a reflected cross-site scripting (XSS) vulnerability in the User Upgrade Form.
+</code>
+
 - [bigzooooz/CVE-2022-31299](https://github.com/bigzooooz/CVE-2022-31299)
 
 ### CVE-2022-31300 (2022-06-16)
@@ -2334,7 +2352,7 @@ A cross-site scripting vulnerability in the DM Section component of Haraj v3.7 a
 
 - [bigzooooz/CVE-2022-31300](https://github.com/bigzooooz/CVE-2022-31300)
 
-### CVE-2022-31301 (-)
+### CVE-2022-31301 (2022-06-16)
 
 <code>
 Haraj v3.7 was discovered to contain a stored cross-site scripting (XSS) vulnerability in the Post Ads component.
