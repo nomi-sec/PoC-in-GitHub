@@ -419,9 +419,6 @@ A use-after-free vulnerability was found in the Linux kernel's Netfilter subsyst
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
 
-### CVE-2022-6969
-- [piaoliangshu/piaoliangshusb](https://github.com/piaoliangshu/piaoliangshusb)
-
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
 
@@ -13540,14 +13537,6 @@ The /plugins/servlet/gadgets/makeRequest resource in Jira before version 8.4.0 a
 - [jas502n/CVE-2019-8451](https://github.com/jas502n/CVE-2019-8451)
 - [h0ffayyy/Jira-CVE-2019-8451](https://github.com/h0ffayyy/Jira-CVE-2019-8451)
 
-### CVE-2019-8513 (2019-12-18)
-
-<code>
-This issue was addressed with improved checks. This issue is fixed in macOS Mojave 10.14.4. A local user may be able to execute arbitrary shell commands.
-</code>
-
-- [genknife/cve-2019-8513](https://github.com/genknife/cve-2019-8513)
-
 ### CVE-2019-8540 (2019-12-18)
 
 <code>
@@ -13563,14 +13552,6 @@ A logic issue was addressed with improved validation. This issue is fixed in mac
 </code>
 
 - [0xmachos/CVE-2019-8561](https://github.com/0xmachos/CVE-2019-8561)
-
-### CVE-2019-8565 (2019-12-18)
-
-<code>
-A race condition was addressed with additional validation. This issue is fixed in iOS 12.2, macOS Mojave 10.14.4. A malicious application may be able to gain root privileges.
-</code>
-
-- [genknife/cve-2019-8565](https://github.com/genknife/cve-2019-8565)
 
 ### CVE-2019-8591 (2019-12-18)
 
@@ -15080,6 +15061,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [f0rkr/CVE-2019-15107](https://github.com/f0rkr/CVE-2019-15107)
 - [trhacknon/CVE-2019-15107](https://github.com/trhacknon/CVE-2019-15107)
 - [NullBrunk/Webmin-RCE](https://github.com/NullBrunk/Webmin-RCE)
+- [psw01/CVE-2019-15107_webminRCE](https://github.com/psw01/CVE-2019-15107_webminRCE)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -23308,11 +23290,11 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
-- [JustDenisYT/ghosttester](https://github.com/JustDenisYT/ghosttester)
 - [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
+- [1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
 - [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
@@ -24016,7 +23998,6 @@ Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functio
 - [fjserna/CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547)
 - [cakuzo/CVE-2015-7547](https://github.com/cakuzo/CVE-2015-7547)
 - [t0r0t0r0/CVE-2015-7547](https://github.com/t0r0t0r0/CVE-2015-7547)
-- [JustDenisYT/glibc-patcher](https://github.com/JustDenisYT/glibc-patcher)
 - [rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc)
 - [babykillerblack/CVE-2015-7547](https://github.com/babykillerblack/CVE-2015-7547)
 - [jgajek/cve-2015-7547](https://github.com/jgajek/cve-2015-7547)
