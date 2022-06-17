@@ -2320,7 +2320,12 @@ An issue in the delete_post() function of Online Discussion Forum Site 1 allows 
 
 - [bigzooooz/CVE-2022-31295](https://github.com/bigzooooz/CVE-2022-31295)
 
-### CVE-2022-31296
+### CVE-2022-31296 (2022-06-17)
+
+<code>
+Online Discussion Forum Site 1 was discovered to contain a blind SQL injection vulnerability via the component /odfs/posts/view_post.php.
+</code>
+
 - [bigzooooz/CVE-2022-31296](https://github.com/bigzooooz/CVE-2022-31296)
 
 ### CVE-2022-31297
@@ -5644,6 +5649,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Chocapikk/CVE-2021-41773](https://github.com/Chocapikk/CVE-2021-41773)
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
 - [hab1b0x/CVE-2021-41773](https://github.com/hab1b0x/CVE-2021-41773)
+- [pwn3z/CVE-2021-41773-Apache-RCE](https://github.com/pwn3z/CVE-2021-41773-Apache-RCE)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -5903,6 +5909,14 @@ Windows Common Log File System Driver Information Disclosure Vulnerability
 
 - [KaLendsi/CVE-2021-43224-POC](https://github.com/KaLendsi/CVE-2021-43224-POC)
 
+### CVE-2021-43229 (2021-12-15)
+
+<code>
+Windows NTFS Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-43230, CVE-2021-43231.
+</code>
+
+- [Citizen13X/CVE-2021-43229](https://github.com/Citizen13X/CVE-2021-43229)
+
 ### CVE-2021-43287 (2022-04-14)
 
 <code>
@@ -6151,9 +6165,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [dtact/divd-2021-00038--log4j-scanner](https://github.com/dtact/divd-2021-00038--log4j-scanner)
 - [kali-dass/CVE-2021-44228-log4Shell](https://github.com/kali-dass/CVE-2021-44228-log4Shell)
 - [Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228](https://github.com/Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228)
-- [ssl/scan4log4j](https://github.com/ssl/scan4log4j)
 - [infiniroot/nginx-mitigate-log4shell](https://github.com/infiniroot/nginx-mitigate-log4shell)
-- [lohanichaten/log4j-cve-2021-44228](https://github.com/lohanichaten/log4j-cve-2021-44228)
 - [authomize/log4j-log4shell-affected](https://github.com/authomize/log4j-log4shell-affected)
 - [guardicode/CVE-2021-44228_IoCs](https://github.com/guardicode/CVE-2021-44228_IoCs)
 - [fireflyingup/log4j-poc](https://github.com/fireflyingup/log4j-poc)
