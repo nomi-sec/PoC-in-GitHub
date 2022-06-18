@@ -1019,6 +1019,9 @@ By design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configu
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE)
 
+### CVE-2022-23342
+- [InitRoot/CVE-2022-23342](https://github.com/InitRoot/CVE-2022-23342)
+
 ### CVE-2022-23361
 - [ViNi0608/CVE-2022-23361](https://github.com/ViNi0608/CVE-2022-23361)
 
@@ -1692,6 +1695,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [scoobydoobi/CVE-2022-26809-RCE-POC](https://github.com/scoobydoobi/CVE-2022-26809-RCE-POC)
 - [scoobydoobi/CVE-2022-26809-RCE](https://github.com/scoobydoobi/CVE-2022-26809-RCE)
 - [scoobydoobi/CVE-2022-26809-POC-RCE](https://github.com/scoobydoobi/CVE-2022-26809-POC-RCE)
+- [Ziggy78/CVE-2022-26809-POC](https://github.com/Ziggy78/CVE-2022-26809-POC)
 
 ### CVE-2022-26923 (2022-05-10)
 
