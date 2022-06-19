@@ -622,6 +622,7 @@ A resource exhaustion issue was addressed with improved input validation. This i
 </code>
 
 - [trevorspiniolas/homekitdos](https://github.com/trevorspiniolas/homekitdos)
+- [PyterSmithDarkGhost/0DAYIPHONE13IOS15.2CVE-2022-22588](https://github.com/PyterSmithDarkGhost/0DAYIPHONE13IOS15.2CVE-2022-22588)
 
 ### CVE-2022-22600 (2022-03-18)
 
