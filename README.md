@@ -2121,6 +2121,7 @@ Windows Network File System Remote Code Execution Vulnerability.
 </code>
 
 - [oturu/Cve-2022-30136-RCE](https://github.com/oturu/Cve-2022-30136-RCE)
+- [zir0x00/CVE-2022-30136-MASS-RCE](https://github.com/zir0x00/CVE-2022-30136-MASS-RCE)
 
 ### CVE-2022-30190 (2022-06-01)
 
@@ -2180,7 +2181,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [b401/Clickstudio-compromised-certificate](https://github.com/b401/Clickstudio-compromised-certificate)
 - [k508/CVE-2022-30190](https://github.com/k508/CVE-2022-30190)
 - [safakTamsesCS/PicusSecurity4.Week.Repo](https://github.com/safakTamsesCS/PicusSecurity4.Week.Repo)
-- [AmitNiz/follina_cve_2022-30190](https://github.com/AmitNiz/follina_cve_2022-30190)
+- [amitniz/follina_cve_2022-30190](https://github.com/amitniz/follina_cve_2022-30190)
 - [Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab](https://github.com/Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab)
 - [SrCroqueta/CVE-2022-30190_Temporary_Fix](https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix)
 - [SrCroqueta/CVE-2022-30190_Temporary_Fix_Source_Code](https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix_Source_Code)
@@ -2191,6 +2192,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [MalwareTech/FollinaExtractor](https://github.com/MalwareTech/FollinaExtractor)
 - [notherealhazard/follina-CVE-2022-30190](https://github.com/notherealhazard/follina-CVE-2022-30190)
 - [Cerebrovinny/follina-CVE-2022-30190](https://github.com/Cerebrovinny/follina-CVE-2022-30190)
+- [zir0x00/CVE-2022-30190-MASS-RCE](https://github.com/zir0x00/CVE-2022-30190-MASS-RCE)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -5542,6 +5544,14 @@ Improper Access Control in Gurock TestRail versions &lt; 7.2.0.3014 resulted in 
 
 - [Lul/TestRail-files.md5-IAC-scanner](https://github.com/Lul/TestRail-files.md5-IAC-scanner)
 
+### CVE-2021-40903 (2022-06-17)
+
+<code>
+A vulnerability in Antminer Monitor 0.50.0 exists because of backdoor or misconfiguration inside a settings file in flask server. Settings file has a predefined secret string, which would be randomly generated, however it is static.
+</code>
+
+- [vulnz/CVE-2021-40903](https://github.com/vulnz/CVE-2021-40903)
+
 ### CVE-2021-40904 (2022-03-25)
 
 <code>
@@ -6165,7 +6175,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs](https://github.com/RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs)
 - [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
 - [uint0/cve-2021-44228-helpers](https://github.com/uint0/cve-2021-44228-helpers)
-- [sud0x00/log4j-CVE-2021-44228](https://github.com/sud0x00/log4j-CVE-2021-44228)
 - [DiCanio/CVE-2021-44228-docker-example](https://github.com/DiCanio/CVE-2021-44228-docker-example)
 - [0-x-2-2/CVE-2021-44228](https://github.com/0-x-2-2/CVE-2021-44228)
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
