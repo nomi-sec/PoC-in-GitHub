@@ -26819,6 +26819,14 @@ Buffer overflows in the cifslogin command for HP CIFS/9000 Client A.01.06 and ea
 
 - [alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991)
 
+### CVE-2002-1614 (2005-03-25)
+
+<code>
+Buffer overflow in HP Tru64 UNIX allows local users to execute arbitrary code via a long argument to /usr/bin/at.
+</code>
+
+- [wlensinas/CVE-2002-1614](https://github.com/wlensinas/CVE-2002-1614)
+
 ### CVE-2002-20001 (2021-11-11)
 
 <code>
