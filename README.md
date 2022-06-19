@@ -1578,6 +1578,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [trhacknon/CVE-2022-26134](https://github.com/trhacknon/CVE-2022-26134)
 - [trhacknon/CVE-2022-26134-bis](https://github.com/trhacknon/CVE-2022-26134-bis)
 - [Chocapikk/CVE-2022-26134](https://github.com/Chocapikk/CVE-2022-26134)
+- [AmoloHT/CVE-2022-26134](https://github.com/AmoloHT/CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
