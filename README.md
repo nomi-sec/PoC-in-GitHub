@@ -383,6 +383,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [trhacknon/Exploit-F5-CVE-2022-1388](https://github.com/trhacknon/Exploit-F5-CVE-2022-1388)
 - [trhacknon/CVE-2022-1388-PocExp](https://github.com/trhacknon/CVE-2022-1388-PocExp)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
+- [Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388)
 
 ### CVE-2022-1597 (2022-06-06)
 
@@ -914,6 +915,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [cxzero/CVE-2022-22965-spring4shell](https://github.com/cxzero/CVE-2022-22965-spring4shell)
 - [gog1071/Spring4Shell-CVE-2022-22965](https://github.com/gog1071/Spring4Shell-CVE-2022-22965)
 - [Expl0desploit/CVE-2022-22965](https://github.com/Expl0desploit/CVE-2022-22965)
+- [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -22662,6 +22664,7 @@ When processing authorization requests using the whitelabel views in Spring Secu
 </code>
 
 - [N0b1e6/CVE-2016-4977-POC](https://github.com/N0b1e6/CVE-2016-4977-POC)
+- [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 
 ### CVE-2016-4999 (2016-08-05)
 
