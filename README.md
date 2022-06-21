@@ -1022,7 +1022,12 @@ By design, the JDBCAppender in Log4j 1.2.x accepts an SQL statement as a configu
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE)
 
-### CVE-2022-23342
+### CVE-2022-23342 (2022-06-21)
+
+<code>
+The Hyland Onbase Application Server releases prior to 20.3.58.1000 and OnBase releases 21.1.1.1000 through 21.1.15.1000 are vulnerable to a username enumeration vulnerability. An attacker can obtain valid users based on the response returned for invalid and valid users by sending a POST login request to the /mobilebroker/ServiceToBroker.svc/Json/Connect endpoint. This can lead to user enumeration against the underlying Active Directory integrated systems.
+</code>
+
 - [InitRoot/CVE-2022-23342](https://github.com/InitRoot/CVE-2022-23342)
 
 ### CVE-2022-23361
@@ -2407,6 +2412,9 @@ Complete Online Job Search System v1.0 is vulnerable to SQL Injection via eris/a
 </code>
 
 - [heavenswill/CVE-2022-32013](https://github.com/heavenswill/CVE-2022-32013)
+
+### CVE-2022-111111
+- [thelostworldFree/CVE-2022-111111](https://github.com/thelostworldFree/CVE-2022-111111)
 
 
 ## 2021
