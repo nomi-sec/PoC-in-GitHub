@@ -955,6 +955,10 @@ In Spring Security versions 5.5.6 and 5.6.3 and older unsupported versions, Rege
 - [DeEpinGh0st/CVE-2022-22978](https://github.com/DeEpinGh0st/CVE-2022-22978)
 - [ducluongtran9121/CVE-2022-22978-PoC](https://github.com/ducluongtran9121/CVE-2022-22978-PoC)
 
+### CVE-2022-22980
+- [trganda/CVE-2022-22980](https://github.com/trganda/CVE-2022-22980)
+- [kuron3k0/Spring-Data-Mongodb-Example](https://github.com/kuron3k0/Spring-Data-Mongodb-Example)
+
 ### CVE-2022-23046 (2022-01-19)
 
 <code>
@@ -1576,6 +1580,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [trhacknon/CVE-2022-26134-bis](https://github.com/trhacknon/CVE-2022-26134-bis)
 - [Chocapikk/CVE-2022-26134](https://github.com/Chocapikk/CVE-2022-26134)
 - [AmoloHT/CVE-2022-26134](https://github.com/AmoloHT/CVE-2022-26134)
+- [kh4sh3i/CVE-2022-26134](https://github.com/kh4sh3i/CVE-2022-26134)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -3553,7 +3558,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
 - [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
 - [ArkAngeL43/CVE-2021-4034](https://github.com/ArkAngeL43/CVE-2021-4034)
-- [qasj/CVE-2021-4034](https://github.com/qasj/CVE-2021-4034)
+- [1izardd/CVE-2021-4034](https://github.com/1izardd/CVE-2021-4034)
 - [rhin0cer0s/CVE-2021-4034](https://github.com/rhin0cer0s/CVE-2021-4034)
 - [0x4ndy/CVE-2021-4034-PoC](https://github.com/0x4ndy/CVE-2021-4034-PoC)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
@@ -3894,6 +3899,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
 - [timb-machine-mirrors/CVE-2021-22005](https://github.com/timb-machine-mirrors/CVE-2021-22005)
+- [InventorMAO/cve-2021-22005](https://github.com/InventorMAO/cve-2021-22005)
 
 ### CVE-2021-22054 (2021-12-17)
 
@@ -4191,7 +4197,6 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646)
 - [1n7erface/PocList](https://github.com/1n7erface/PocList)
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
-- [j2ekim/CVE-2021-25646](https://github.com/j2ekim/CVE-2021-25646)
 
 ### CVE-2021-25679 (2021-04-20)
 
@@ -16025,6 +16030,14 @@ The HTTP service in quickweb.exe in Pablo Quick 'n Easy Web Server 3.3.8 allows 
 </code>
 
 - [5l1v3r1/CVE-2019-19943](https://github.com/5l1v3r1/CVE-2019-19943)
+
+### CVE-2019-19945 (2020-03-16)
+
+<code>
+uhttpd in OpenWrt through 18.06.5 and 19.x through 19.07.0-rc2 has an integer signedness error. This leads to out-of-bounds access to a heap buffer and a subsequent crash. It can be triggered with an HTTP POST request to a CGI script, specifying both &quot;Transfer-Encoding: chunked&quot; and a large negative Content-Length value.
+</code>
+
+- [delicateByte/CVE-2019-19945_Test](https://github.com/delicateByte/CVE-2019-19945_Test)
 
 ### CVE-2019-20059 (2020-02-10)
 
