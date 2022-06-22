@@ -216,7 +216,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [rexpository/linux-privilege-escalation](https://github.com/rexpository/linux-privilege-escalation)
 - [isaiahsimeone/COMP3320-VAPT](https://github.com/isaiahsimeone/COMP3320-VAPT)
 - [VinuKalana/DirtyPipe-CVE-2022-0847](https://github.com/VinuKalana/DirtyPipe-CVE-2022-0847)
-- [IHenakaarachchi/debian11-dirty_pipe-patcher](https://github.com/IHenakaarachchi/debian11-dirty_pipe-patcher)
+- [ih3na/debian11-dirty_pipe-patcher](https://github.com/ih3na/debian11-dirty_pipe-patcher)
 - [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
 
 ### CVE-2022-0848 (2022-03-04)
@@ -414,6 +414,9 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
+
+### CVE-2022-9673
+- [CVE-2099-2222/CVE-2022-9673](https://github.com/CVE-2099-2222/CVE-2022-9673)
 
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
@@ -958,6 +961,8 @@ In Spring Security versions 5.5.6 and 5.6.3 and older unsupported versions, Rege
 ### CVE-2022-22980
 - [trganda/CVE-2022-22980](https://github.com/trganda/CVE-2022-22980)
 - [kuron3k0/Spring-Data-Mongodb-Example](https://github.com/kuron3k0/Spring-Data-Mongodb-Example)
+- [li8u99/Spring-Data-Mongodb-Demo](https://github.com/li8u99/Spring-Data-Mongodb-Demo)
+- [jweny/cve-2022-22980-exp](https://github.com/jweny/cve-2022-22980-exp)
 
 ### CVE-2022-23046 (2022-01-19)
 
@@ -8105,7 +8110,6 @@ Vulnerability in the Oracle Coherence product of Oracle Fusion Middleware (compo
 - [Maskhe/cve-2020-2555](https://github.com/Maskhe/cve-2020-2555)
 - [Uvemode/CVE-2020-2555](https://github.com/Uvemode/CVE-2020-2555)
 - [Qynklee/POC_CVE-2020-2555](https://github.com/Qynklee/POC_CVE-2020-2555)
-- [minhangxiaohui/Weblogic_Coherence_exploit](https://github.com/minhangxiaohui/Weblogic_Coherence_exploit)
 
 ### CVE-2020-2556 (2020-01-15)
 
@@ -8964,6 +8968,14 @@ The bencoding parser in BitTorrent uTorrent through 3.5.5 (build 45505) misparse
 </code>
 
 - [guywhataguy/uTorrent-CVE-2020-8437](https://github.com/guywhataguy/uTorrent-CVE-2020-8437)
+
+### CVE-2020-8512 (2020-01-31)
+
+<code>
+In IceWarp Webmail Server through 11.4.4.1, there is XSS in the /webmail/ color parameter.
+</code>
+
+- [trhacknon/CVE-2020-8512](https://github.com/trhacknon/CVE-2020-8512)
 
 ### CVE-2020-8515 (2020-02-01)
 
