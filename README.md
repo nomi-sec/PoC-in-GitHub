@@ -2421,9 +2421,6 @@ Complete Online Job Search System v1.0 is vulnerable to SQL Injection via eris/a
 
 - [heavenswill/CVE-2022-32013](https://github.com/heavenswill/CVE-2022-32013)
 
-### CVE-2022-111111
-- [thelostworldFree/CVE-2022-111111](https://github.com/thelostworldFree/CVE-2022-111111)
-
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -5734,7 +5731,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 - [mauricelambert/CVE-2021-42013](https://github.com/mauricelambert/CVE-2021-42013)
 - [honypot/CVE-2021-42013](https://github.com/honypot/CVE-2021-42013)
-- [Adash7/CVE-2021-42013](https://github.com/Adash7/CVE-2021-42013)
+- [Adashz/CVE-2021-42013](https://github.com/Adashz/CVE-2021-42013)
 - [viliuspovilaika/cve-2021-42013](https://github.com/viliuspovilaika/cve-2021-42013)
 
 ### CVE-2021-42056
@@ -10900,6 +10897,7 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [thebatmanfuture/apacheflink----POC](https://github.com/thebatmanfuture/apacheflink----POC)
 - [zhangweijie11/CVE-2020-17519](https://github.com/zhangweijie11/CVE-2020-17519)
+- [trhacknon/CVE-2020-17519](https://github.com/trhacknon/CVE-2020-17519)
 
 ### CVE-2020-17523 (2021-02-03)
 
@@ -13416,7 +13414,7 @@ SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrus
 </code>
 
 - [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
-- [AndyFeiLi/-CVE-2019-7214](https://github.com/AndyFeiLi/-CVE-2019-7214)
+- [andyfeili/-CVE-2019-7214](https://github.com/andyfeili/-CVE-2019-7214)
 
 ### CVE-2019-7216 (2019-01-31)
 
@@ -17832,7 +17830,7 @@ An issue was discovered in PRTG Network Monitor before 18.2.39. An attacker who 
 </code>
 
 - [wildkindcc/CVE-2018-9276](https://github.com/wildkindcc/CVE-2018-9276)
-- [AndyFeiLi/CVE-2018-9276](https://github.com/AndyFeiLi/CVE-2018-9276)
+- [andyfeili/CVE-2018-9276](https://github.com/andyfeili/CVE-2018-9276)
 - [A1vinSmith/CVE-2018-9276](https://github.com/A1vinSmith/CVE-2018-9276)
 
 ### CVE-2018-9375
@@ -23627,6 +23625,7 @@ The saveObject function in moadmin.php in phpMoAdmin 1.1.2 allows remote attacke
 </code>
 
 - [Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291)
+- [Exploitables/CVE-2015-2291](https://github.com/Exploitables/CVE-2015-2291)
 
 ### CVE-2015-2315 (2015-03-17)
 
@@ -24716,7 +24715,7 @@ Adobe Flash Player before 13.0.0.231 and 14.x before 14.0.0.145 on Windows and O
 pfSense before 2.1.4 allows remote authenticated users to execute arbitrary commands via (1) the hostname value to diag_dns.php in a Create Alias action, (2) the smartmonemail value to diag_smart.php, or (3) the database value to status_rrd_graph_img.php.
 </code>
 
-- [AndyFeiLi/CVE-2014-4688](https://github.com/AndyFeiLi/CVE-2014-4688)
+- [andyfeili/CVE-2014-4688](https://github.com/andyfeili/CVE-2014-4688)
 
 ### CVE-2014-4699 (2014-07-09)
 
