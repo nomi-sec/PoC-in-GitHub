@@ -7921,6 +7921,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 - [Nekoox/zerologon](https://github.com/Nekoox/zerologon)
+- [lele8/CVE-2020-1472](https://github.com/lele8/CVE-2020-1472)
 
 ### CVE-2020-1493 (2020-08-17)
 
