@@ -384,6 +384,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [trhacknon/CVE-2022-1388-PocExp](https://github.com/trhacknon/CVE-2022-1388-PocExp)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388)
+- [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
 
 ### CVE-2022-1597 (2022-06-06)
 
@@ -558,6 +559,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
 - [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
 - [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
+- [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [coconut20/CVE-2022-21907-RCE-POC](https://github.com/coconut20/CVE-2022-21907-RCE-POC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
@@ -8242,6 +8244,7 @@ Multiple vulnerabilities in the web services interface of Cisco Adaptive Securit
 - [Hudi233/CVE-2020-3580](https://github.com/Hudi233/CVE-2020-3580)
 - [adarshvs/CVE-2020-3580](https://github.com/adarshvs/CVE-2020-3580)
 - [nxtexploit/CVE-2020-3580](https://github.com/nxtexploit/CVE-2020-3580)
+- [cruxN3T/CVE-2020-3580](https://github.com/cruxN3T/CVE-2020-3580)
 
 ### CVE-2020-3766 (2020-03-25)
 
