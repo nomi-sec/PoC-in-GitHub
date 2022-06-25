@@ -267,6 +267,7 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 An authentication bypass vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v18.5 MR3 and older.
 </code>
 
+- [killvxk/CVE-2022-1040](https://github.com/killvxk/CVE-2022-1040)
 - [XmasSnowISBACK/CVE-2022-1040](https://github.com/XmasSnowISBACK/CVE-2022-1040)
 
 ### CVE-2022-1051 (2022-05-16)
@@ -782,6 +783,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [anansec/CVE-2022-22947_EXP](https://github.com/anansec/CVE-2022-22947_EXP)
 - [Wrong-pixel/CVE-2022-22947-exp](https://github.com/Wrong-pixel/CVE-2022-22947-exp)
 - [stayfoolish777/CVE-2022-22947-POC](https://github.com/stayfoolish777/CVE-2022-22947-POC)
+- [B0rn2d/Spring-Cloud-Gateway-Nacos](https://github.com/B0rn2d/Spring-Cloud-Gateway-Nacos)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -2435,6 +2437,14 @@ Complete Online Job Search System v1.0 is vulnerable to SQL Injection via eris/a
 </code>
 
 - [heavenswill/CVE-2022-32013](https://github.com/heavenswill/CVE-2022-32013)
+
+### CVE-2022-34305 (2022-06-23)
+
+<code>
+In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64 and 8.5.50 to 8.5.81 the Form authentication example in the examples web application displayed user provided data without filtering, exposing a XSS vulnerability.
+</code>
+
+- [zeroc00I/CVE-2022-34305](https://github.com/zeroc00I/CVE-2022-34305)
 
 
 ## 2021
@@ -8695,7 +8705,6 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247)
 - [QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit)
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
-- [Sergio928/OpenSMTPD-6.6.1---Remote-Code-Execution---Linux-remote-Exploit](https://github.com/Sergio928/OpenSMTPD-6.6.1---Remote-Code-Execution---Linux-remote-Exploit)
 - [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
 
