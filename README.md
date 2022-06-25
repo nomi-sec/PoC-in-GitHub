@@ -5417,7 +5417,7 @@ Cachet is an open source status page. With Cachet prior to and including 2.3.18,
 
 - [W0rty/CVE-2021-39165](https://github.com/W0rty/CVE-2021-39165)
 
-### CVE-2021-39408 (-)
+### CVE-2021-39408 (2022-06-24)
 
 <code>
 Cross Site Scripting (XSS) vulnerability exists in Online Student Rate System 1.0 via the page parameter on the index.php file
@@ -5425,7 +5425,7 @@ Cross Site Scripting (XSS) vulnerability exists in Online Student Rate System 1.
 
 - [StefanDorresteijn/CVE-2021-39408](https://github.com/StefanDorresteijn/CVE-2021-39408)
 
-### CVE-2021-39409 (-)
+### CVE-2021-39409 (2022-06-24)
 
 <code>
 A vulnerability exists in Online Student Rate System v1.0 that allows any user to register as an administrator without needing to be authenticated.
@@ -5767,7 +5767,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [Adashz/CVE-2021-42013](https://github.com/Adashz/CVE-2021-42013)
 - [viliuspovilaika/cve-2021-42013](https://github.com/viliuspovilaika/cve-2021-42013)
 
-### CVE-2021-42056 (-)
+### CVE-2021-42056 (2022-06-24)
 
 <code>
 Thales Safenet Authentication Client (SAC) for Linux and Windows through 10.7.7 creates insecure temporary hid and lock files allowing a local attacker, through a symlink attack, to overwrite arbitrary files, and potentially achieve arbitrary command execution with high privileges.
@@ -18707,7 +18707,7 @@ Grafana 2.x, 3.x, and 4.x before 4.6.4 and 5.x before 5.2.3 allows authenticatio
 </code>
 
 - [u238/grafana-CVE-2018-15727](https://github.com/u238/grafana-CVE-2018-15727)
-- [svnsyn/CVE-2018-15727](https://github.com/svnsyn/CVE-2018-15727)
+- [grimbelhax/CVE-2018-15727](https://github.com/grimbelhax/CVE-2018-15727)
 
 ### CVE-2018-15832 (2018-09-20)
 
@@ -19391,14 +19391,6 @@ Cross-site scripting (XSS) vulnerability in OpenText Portal 7.4.4 allows remote 
 </code>
 
 - [hect0rS/Reflected-XSS-on-Opentext-Portal-v7.4.4](https://github.com/hect0rS/Reflected-XSS-on-Opentext-Portal-v7.4.4)
-
-### CVE-2018-20175 (2019-03-15)
-
-<code>
-rdesktop versions up to and including v1.8.3 contains several Integer Signedness errors that lead to Out-Of-Bounds Reads in the file mcs.c and result in a Denial of Service (segfault).
-</code>
-
-- [ahaShiyu/CVE-2018-20175](https://github.com/ahaShiyu/CVE-2018-20175)
 
 ### CVE-2018-20250 (2019-02-05)
 
