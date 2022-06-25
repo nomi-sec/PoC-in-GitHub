@@ -2225,6 +2225,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [notherealhazard/follina-CVE-2022-30190](https://github.com/notherealhazard/follina-CVE-2022-30190)
 - [Cerebrovinny/follina-CVE-2022-30190](https://github.com/Cerebrovinny/follina-CVE-2022-30190)
 - [zir0x00/CVE-2022-30190-MASS-RCE](https://github.com/zir0x00/CVE-2022-30190-MASS-RCE)
+- [ethicalblue/Follina-CVE-2022-30190-PoC-sample](https://github.com/ethicalblue/Follina-CVE-2022-30190-PoC-sample)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -27016,6 +27017,7 @@ IIS 4.0 allows remote attackers to obtain the internal IP address of the server 
 </code>
 
 - [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
+- [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
 
 ### CVE-2000-0979 (2001-01-22)
 
