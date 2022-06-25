@@ -1343,7 +1343,7 @@ Parse Server is an open source http web server backend. In versions prior to 4.1
 - [tuo4n8/CVE-2022-24760](https://github.com/tuo4n8/CVE-2022-24760)
 
 ### CVE-2022-24806
-- [oturu/CVE-2022-24806-MASS-RCE](https://github.com/oturu/CVE-2022-24806-MASS-RCE)
+- [oturu/RCE-CVE-2022-24806](https://github.com/oturu/RCE-CVE-2022-24806)
 
 ### CVE-2022-24853 (2022-04-14)
 
@@ -2151,8 +2151,9 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 Windows Network File System Remote Code Execution Vulnerability.
 </code>
 
-- [oturu/Cve-2022-30136-RCE](https://github.com/oturu/Cve-2022-30136-RCE)
+- [oturu/Cve-2022-30136-RCE-POC](https://github.com/oturu/Cve-2022-30136-RCE-POC)
 - [zir0x00/CVE-2022-30136-MASS-RCE](https://github.com/zir0x00/CVE-2022-30136-MASS-RCE)
+- [oturu/Cve-2022-30136-RCE](https://github.com/oturu/Cve-2022-30136-RCE)
 
 ### CVE-2022-30190 (2022-06-01)
 
@@ -3831,6 +3832,7 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
 - [ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551)
+- [tijme/kernel-mii](https://github.com/tijme/kernel-mii)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -6245,7 +6247,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
 - [RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs](https://github.com/RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs)
 - [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
-- [uint0/cve-2021-44228-helpers](https://github.com/uint0/cve-2021-44228-helpers)
 - [DiCanio/CVE-2021-44228-docker-example](https://github.com/DiCanio/CVE-2021-44228-docker-example)
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
 - [dtact/divd-2021-00038--log4j-scanner](https://github.com/dtact/divd-2021-00038--log4j-scanner)
@@ -6266,7 +6267,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [palominoinc/cve-2021-44228-log4j-mitigation](https://github.com/palominoinc/cve-2021-44228-log4j-mitigation)
 - [cyberxml/log4j-poc](https://github.com/cyberxml/log4j-poc)
 - [Diverto/nse-log4shell](https://github.com/Diverto/nse-log4shell)
-- [dotPY-hax/log4py](https://github.com/dotPY-hax/log4py)
 - [sunnyvale-it/CVE-2021-44228-PoC](https://github.com/sunnyvale-it/CVE-2021-44228-PoC)
 - [maxant/log4j2-CVE-2021-44228](https://github.com/maxant/log4j2-CVE-2021-44228)
 - [atnetws/fail2ban-log4j](https://github.com/atnetws/fail2ban-log4j)
@@ -15424,7 +15424,7 @@ vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig
 - [mas1337/CVE-2019-16759](https://github.com/mas1337/CVE-2019-16759)
 - [sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759)
 - [ludy-dev/vBulletin_Routestring-RCE](https://github.com/ludy-dev/vBulletin_Routestring-RCE)
-- [apidotmy/CVE-2019-16759](https://github.com/apidotmy/CVE-2019-16759)
+- [fxp0-4tx/CVE-2019-16759](https://github.com/fxp0-4tx/CVE-2019-16759)
 - [trhacknon/CVE-2019-16759](https://github.com/trhacknon/CVE-2019-16759)
 
 ### CVE-2019-16784 (2020-01-14)
@@ -27016,7 +27016,6 @@ IIS 4.0 allows remote attackers to obtain the internal IP address of the server 
 </code>
 
 - [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
-- [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
 
 ### CVE-2000-0979 (2001-01-22)
 
