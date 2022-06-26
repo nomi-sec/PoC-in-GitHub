@@ -7963,6 +7963,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 - [Nekoox/zerologon](https://github.com/Nekoox/zerologon)
 - [lele8/CVE-2020-1472](https://github.com/lele8/CVE-2020-1472)
+- [hadhub/ad-scanner](https://github.com/hadhub/ad-scanner)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -24068,7 +24069,6 @@ The session deserializer in PHP before 5.4.45, 5.5.x before 5.5.29, and 5.6.x be
 Unrestricted file upload vulnerability in the My Image plugin in Nibbleblog before 4.0.5 allows remote administrators to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in content/private/plugins/my_image/image.php.
 </code>
 
-- [VanTekken/CVE-2015-6967](https://github.com/VanTekken/CVE-2015-6967)
 - [dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967)
 - [0xkasra/CVE-2015-6967](https://github.com/0xkasra/CVE-2015-6967)
 
