@@ -2154,6 +2154,7 @@ Windows Network File System Remote Code Execution Vulnerability.
 - [oturu/Cve-2022-30136-RCE-POC](https://github.com/oturu/Cve-2022-30136-RCE-POC)
 - [zir0x00/CVE-2022-30136-MASS-RCE](https://github.com/zir0x00/CVE-2022-30136-MASS-RCE)
 - [oturu/Cve-2022-30136-RCE](https://github.com/oturu/Cve-2022-30136-RCE)
+- [oturu/CVE-2022-30136-POC](https://github.com/oturu/CVE-2022-30136-POC)
 
 ### CVE-2022-30190 (2022-06-01)
 
