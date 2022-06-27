@@ -11578,7 +11578,7 @@ In Eclipse Jetty 9.4.6.v20170531 to 9.4.36.v20210114 (inclusive), 10.0.0, and 11
 A stack buffer overflow in Realtek RTL8710 (and other Ameba-based devices) can lead to remote code execution via the &quot;AES_UnWRAP&quot; function, when an attacker in Wi-Fi range sends a crafted &quot;Encrypted GTK&quot; value as part of the WPA2 4-way-handshake.
 </code>
 
-- [khalednassar/CVE-2020-27301-hostapd](https://github.com/khalednassar/CVE-2020-27301-hostapd)
+- [chertoGUN/CVE-2020-27301-hostapd](https://github.com/chertoGUN/CVE-2020-27301-hostapd)
 
 ### CVE-2020-27358 (2020-10-31)
 
@@ -15809,6 +15809,7 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 
 - [bao7uo/RAU_crypto](https://github.com/bao7uo/RAU_crypto)
 - [noperator/CVE-2019-18935](https://github.com/noperator/CVE-2019-18935)
+- [becrevex/Telerik_CVE-2019-18935](https://github.com/becrevex/Telerik_CVE-2019-18935)
 - [ThanHuuTuan/Telerik_CVE-2019-18935](https://github.com/ThanHuuTuan/Telerik_CVE-2019-18935)
 - [ThanHuuTuan/CVE_2019_18935](https://github.com/ThanHuuTuan/CVE_2019_18935)
 - [murataydemir/CVE-2019-18935](https://github.com/murataydemir/CVE-2019-18935)
@@ -16044,6 +16045,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [ianxtianxt/CVE-2019-19781](https://github.com/ianxtianxt/CVE-2019-19781)
 - [mpgn/CVE-2019-19781](https://github.com/mpgn/CVE-2019-19781)
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
+- [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
 - [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
 - [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
 - [jamesjguthrie/Shitrix-CVE-2019-19781](https://github.com/jamesjguthrie/Shitrix-CVE-2019-19781)
@@ -24879,7 +24881,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271)
 - [trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271)
 - [trhacknon/exploit-CVE-2014-6271](https://github.com/trhacknon/exploit-CVE-2014-6271)
-- [Gurguii/shellshock.sh](https://github.com/Gurguii/shellshock.sh)
+- [Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock)
 
 ### CVE-2014-6287 (2014-10-07)
 
