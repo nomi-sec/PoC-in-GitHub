@@ -408,6 +408,14 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 - [NullBrunk/CVE-2022-1609](https://github.com/NullBrunk/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
 
+### CVE-2022-1903 (2022-06-27)
+
+<code>
+The ARMember WordPress plugin before 3.4.8 is vulnerable to account takeover (even the administrator) due to missing nonce and authorization checks in an AJAX action available to unauthenticated users, allowing them to change the password of arbitrary users by knowing their username
+</code>
+
+- [biulove0x/CVE-2022-1903](https://github.com/biulove0x/CVE-2022-1903)
+
 ### CVE-2022-1966
 - [ASkyeye/CVE-2022-1966](https://github.com/ASkyeye/CVE-2022-1966)
 
@@ -416,6 +424,15 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
+
+### CVE-2022-5555
+- [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
+
+### CVE-2022-5561
+- [Kvi74/CVE-2022-5561](https://github.com/Kvi74/CVE-2022-5561)
+
+### CVE-2022-8475
+- [Kvi74/CVE-2022-8475](https://github.com/Kvi74/CVE-2022-8475)
 
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
@@ -22834,6 +22851,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [passionchenjianyegmail8/scumjrs](https://github.com/passionchenjianyegmail8/scumjrs)
 - [malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195)
 - [1equeneRise/scumjr9](https://github.com/1equeneRise/scumjr9)
+- [flux10n/dirtycow](https://github.com/flux10n/dirtycow)
 
 ### CVE-2016-5345 (2018-01-22)
 
