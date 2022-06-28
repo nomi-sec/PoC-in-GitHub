@@ -16764,6 +16764,14 @@ SQL Injection vulnerability in the Oturia Smart Google Code Inserter plugin befo
 
 - [cved-sources/cve-2018-3811](https://github.com/cved-sources/cve-2018-3811)
 
+### CVE-2018-3990 (2019-02-05)
+
+<code>
+An exploitable pool corruption vulnerability exists in the 0x8200E804 IOCTL handler functionality of WIBU-SYSTEMS WibuKey.sys Version 6.40 (Build 2400). A specially crafted IRP request can cause a buffer overflow, resulting in kernel memory corruption and, potentially, privilege escalation. An attacker can send an IRP request to trigger this vulnerability.
+</code>
+
+- [Exploitables/CVE-2018-3990-TALOS-2018-0658](https://github.com/Exploitables/CVE-2018-3990-TALOS-2018-0658)
+
 ### CVE-2018-4013 (2018-10-19)
 
 <code>
