@@ -8636,6 +8636,7 @@ Type confusion in V8 in Google Chrome prior to 83.0.4103.61 allowed a remote att
 </code>
 
 - [Goyotan/CVE-2020-6468-PoC](https://github.com/Goyotan/CVE-2020-6468-PoC)
+- [kiks7/CVE-2020-6468-Chrome-Exploit](https://github.com/kiks7/CVE-2020-6468-Chrome-Exploit)
 
 ### CVE-2020-6514 (2020-07-22)
 
@@ -17306,6 +17307,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
 - [Exzh34/PentestLab-CVE-2018-6574-go-get-RCE](https://github.com/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE)
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
+- [NBAquicknut/CVE-2018-6574](https://github.com/NBAquicknut/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
