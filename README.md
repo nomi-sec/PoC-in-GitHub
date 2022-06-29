@@ -2458,7 +2458,7 @@ Complete Online Job Search System v1.0 is vulnerable to SQL Injection via eris/a
 
 - [heavenswill/CVE-2022-32013](https://github.com/heavenswill/CVE-2022-32013)
 
-### CVE-2022-32532 (-)
+### CVE-2022-32532 (2022-06-28)
 
 <code>
 Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypassed on some servlet containers. Applications using RegExPatternMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
