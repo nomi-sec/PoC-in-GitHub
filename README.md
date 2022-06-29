@@ -2458,6 +2458,17 @@ Complete Online Job Search System v1.0 is vulnerable to SQL Injection via eris/a
 
 - [heavenswill/CVE-2022-32013](https://github.com/heavenswill/CVE-2022-32013)
 
+### CVE-2022-32532 (-)
+
+<code>
+Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypassed on some servlet containers. Applications using RegExPatternMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
+</code>
+
+- [4ra1n/CVE-2022-32532](https://github.com/4ra1n/CVE-2022-32532)
+
+### CVE-2022-32988
+- [FedericoHeichou/CVE-2022-32988](https://github.com/FedericoHeichou/CVE-2022-32988)
+
 ### CVE-2022-34305 (2022-06-23)
 
 <code>
@@ -13947,6 +13958,7 @@ mailboxd component in Synacor Zimbra Collaboration Suite 8.7.x before 8.7.11p10 
 
 - [rek7/Zimbra-RCE](https://github.com/rek7/Zimbra-RCE)
 - [attackgithub/Zimbra-RCE](https://github.com/attackgithub/Zimbra-RCE)
+- [oppsec/arbimz](https://github.com/oppsec/arbimz)
 
 ### CVE-2019-9673 (2019-06-05)
 
@@ -17307,7 +17319,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
 - [Exzh34/PentestLab-CVE-2018-6574-go-get-RCE](https://github.com/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE)
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
-- [NBAquicknut/CVE-2018-6574](https://github.com/NBAquicknut/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
