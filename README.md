@@ -923,7 +923,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [fransvanbuul/CVE-2022-22965-susceptibility](https://github.com/fransvanbuul/CVE-2022-22965-susceptibility)
 - [jrgdiaz/Spring4Shell-CVE-2022-22965.py](https://github.com/jrgdiaz/Spring4Shell-CVE-2022-22965.py)
 - [Loneyers/Spring4Shell](https://github.com/Loneyers/Spring4Shell)
-- [0zvxr/CVE-2022-22965](https://github.com/0zvxr/CVE-2022-22965)
+- [p1ckzi/CVE-2022-22965](https://github.com/p1ckzi/CVE-2022-22965)
 - [Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-](https://github.com/Omaraitbenhaddi/-Spring4Shell-CVE-2022-22965-)
 - [c4mx/CVE-2022-22965_PoC](https://github.com/c4mx/CVE-2022-22965_PoC)
 - [mariomamo/CVE-2022-22965](https://github.com/mariomamo/CVE-2022-22965)
@@ -4453,7 +4453,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon)
 - [Immersive-Labs-Sec/ProxyLogon](https://github.com/Immersive-Labs-Sec/ProxyLogon)
 - [shacojx/Scan-Vuln-CVE-2021-26855](https://github.com/shacojx/Scan-Vuln-CVE-2021-26855)
-- [SotirisKar/CVE-2021-26855](https://github.com/SotirisKar/CVE-2021-26855)
+- [sotiriskar/CVE-2021-26855](https://github.com/sotiriskar/CVE-2021-26855)
 - [TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit](https://github.com/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit)
 - [p0wershe11/ProxyLogon](https://github.com/p0wershe11/ProxyLogon)
 - [r0ckysec/CVE-2021-26855_Exchange](https://github.com/r0ckysec/CVE-2021-26855_Exchange)
@@ -4902,14 +4902,6 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 </code>
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
-
-### CVE-2021-30632 (2021-10-08)
-
-<code>
-Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-</code>
-
-- [CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632)
 
 ### CVE-2021-30682 (2021-09-08)
 
@@ -5871,6 +5863,7 @@ Sitecore XP 7.5 Initial Release to Sitecore XP 8.2 Update-7 is vulnerable to an 
 </code>
 
 - [ItsIgnacioPortal/CVE-2021-42237](https://github.com/ItsIgnacioPortal/CVE-2021-42237)
+- [vesperp/CVE-2021-42237-SiteCore-XP](https://github.com/vesperp/CVE-2021-42237-SiteCore-XP)
 
 ### CVE-2021-42278 (2021-11-09)
 
@@ -11567,6 +11560,14 @@ XStream is a Java library to serialize objects to XML and back again. In XStream
 - [jas502n/CVE-2020-26259](https://github.com/jas502n/CVE-2020-26259)
 - [Al1ex/CVE-2020-26259](https://github.com/Al1ex/CVE-2020-26259)
 
+### CVE-2020-26413 (2020-12-10)
+
+<code>
+An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.4 before 13.6.2. Information disclosure via GraphQL results in user email being unexpectedly visible.
+</code>
+
+- [Kento-Sec/GitLab-Graphql-CVE-2020-26413](https://github.com/Kento-Sec/GitLab-Graphql-CVE-2020-26413)
+
 ### CVE-2020-26732 (2021-01-14)
 
 <code>
@@ -12774,7 +12775,7 @@ An elevation of privilege vulnerability exists when Windows AppX Deployment Serv
 An elevation of privilege vulnerability exists when the Windows Printer Service improperly validates file paths while loading printer drivers, aka 'Windows Printer Service Elevation of Privilege Vulnerability'.
 </code>
 
-- [ooo111222/CVE-2019-1477](https://github.com/ooo111222/CVE-2019-1477)
+- [2yong1/CVE-2019-1477](https://github.com/2yong1/CVE-2019-1477)
 
 ### CVE-2019-1579 (2019-07-19)
 
@@ -21146,7 +21147,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
 - [rodnt/laravel-phpunit-rce-masscaner](https://github.com/rodnt/laravel-phpunit-rce-masscaner)
 - [akr3ch/CVE-2017-9841](https://github.com/akr3ch/CVE-2017-9841)
-- [0zvxr/CVE-2017-9841](https://github.com/0zvxr/CVE-2017-9841)
+- [p1ckzi/CVE-2017-9841](https://github.com/p1ckzi/CVE-2017-9841)
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
 - [Invertebr4do/cve-2017-9841](https://github.com/Invertebr4do/cve-2017-9841)
 
@@ -25819,7 +25820,7 @@ Stack-based buffer overflow in FreeFloat FTP Server 1.0 allows remote authentica
 CUPS 1.4.4, when running in certain Linux distributions such as Debian GNU/Linux, stores the web interface administrator key in /var/run/cups/certs/0 using certain permissions, which allows local users in the lpadmin group to read or write arbitrary files as root by leveraging the web interface.
 </code>
 
-- [0zvxr/CVE-2012-5519](https://github.com/0zvxr/CVE-2012-5519)
+- [p1ckzi/CVE-2012-5519](https://github.com/p1ckzi/CVE-2012-5519)
 
 ### CVE-2012-5575 (2013-08-19)
 
@@ -26368,7 +26369,7 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 - [k4u5h41/CVE-2009-2265](https://github.com/k4u5h41/CVE-2009-2265)
-- [0zvxr/CVE-2009-2265](https://github.com/0zvxr/CVE-2009-2265)
+- [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
 - [0xkasra/CVE-2009-2265](https://github.com/0xkasra/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
