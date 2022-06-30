@@ -4103,6 +4103,7 @@ A security issue in nginx resolver was identified, which might allow an attacker
 </code>
 
 - [niandy/nginx-patch](https://github.com/niandy/nginx-patch)
+- [M507/CVE-2021-23017-PoC](https://github.com/M507/CVE-2021-23017-PoC)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -6305,7 +6306,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [infiniroot/nginx-mitigate-log4shell](https://github.com/infiniroot/nginx-mitigate-log4shell)
 - [authomize/log4j-log4shell-affected](https://github.com/authomize/log4j-log4shell-affected)
 - [guardicode/CVE-2021-44228_IoCs](https://github.com/guardicode/CVE-2021-44228_IoCs)
-- [fireflyingup/log4j-poc](https://github.com/fireflyingup/log4j-poc)
 - [nccgroup/log4j-jndi-be-gone](https://github.com/nccgroup/log4j-jndi-be-gone)
 - [qingtengyun/cve-2021-44228-qingteng-online-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-online-patch)
 - [tasooshi/horrors-log4shell](https://github.com/tasooshi/horrors-log4shell)
