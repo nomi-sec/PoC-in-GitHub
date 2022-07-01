@@ -387,6 +387,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
+- [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 
 ### CVE-2022-1597 (2022-06-06)
 
@@ -464,6 +465,14 @@ In startActivityForAttachedApplicationIfNeeded of RootWindowContainer.java, ther
 </code>
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007)
+
+### CVE-2022-20130 (2022-06-15)
+
+<code>
+In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-224314979
+</code>
+
+- [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -931,7 +940,6 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [khidottrivi/CVE-2022-22965](https://github.com/khidottrivi/CVE-2022-22965)
 - [cxzero/CVE-2022-22965-spring4shell](https://github.com/cxzero/CVE-2022-22965-spring4shell)
 - [gog1071/Spring4Shell-CVE-2022-22965](https://github.com/gog1071/Spring4Shell-CVE-2022-22965)
-- [Expl0desploit/CVE-2022-22965](https://github.com/Expl0desploit/CVE-2022-22965)
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 
 ### CVE-2022-22968 (2022-04-14)
@@ -6155,7 +6163,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
-- [Awrrays/Grafana-CVE-2021-43798](https://github.com/Awrrays/Grafana-CVE-2021-43798)
 - [Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798)
 - [k3rwin/CVE-2021-43798-Grafana](https://github.com/k3rwin/CVE-2021-43798-Grafana)
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
@@ -6257,6 +6264,14 @@ The Samba vfs_fruit module uses extended file attributes (EA, xattr) to provide 
 - [hrsman/Samba-CVE-2021-44142](https://github.com/hrsman/Samba-CVE-2021-44142)
 - [horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142)
 - [gudyrmik/CVE-2021-44142](https://github.com/gudyrmik/CVE-2021-44142)
+
+### CVE-2021-44158 (2022-01-03)
+
+<code>
+ASUS RT-AX56U Wi-Fi Router is vulnerable to stack-based buffer overflow due to improper validation for httpd parameter length. An authenticated local area network attacker can launch arbitrary code execution to control the system or disrupt service.
+</code>
+
+- [Expl0desploit/CVE-2021-44158](https://github.com/Expl0desploit/CVE-2021-44158)
 
 ### CVE-2021-44217 (2022-01-18)
 
@@ -20042,6 +20057,14 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 </code>
 
 - [bazad/IOFireWireFamily-null-deref](https://github.com/bazad/IOFireWireFamily-null-deref)
+
+### CVE-2017-2606 (2018-05-08)
+
+<code>
+Jenkins before versions 2.44, 2.32.2 is vulnerable to an information exposure in the internal API that allows access to item names that should not be visible (SECURITY-380). This only affects anonymous users (other users legitimately have access) that were able to get a list of items via an UnprotectedRootAction.
+</code>
+
+- [Davi-afk/jenkins-cve-CVE-2017-2606](https://github.com/Davi-afk/jenkins-cve-CVE-2017-2606)
 
 ### CVE-2017-2636 (2017-03-07)
 
