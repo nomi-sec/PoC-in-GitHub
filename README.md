@@ -219,7 +219,6 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [ih3na/debian11-dirty_pipe-patcher](https://github.com/ih3na/debian11-dirty_pipe-patcher)
 - [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
 - [flux10n/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/flux10n/CVE-2022-0847-DirtyPipe-Exploits)
-- [Asbatel/CBDS_CVE-2022-0847_POC](https://github.com/Asbatel/CBDS_CVE-2022-0847_POC)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -3849,6 +3848,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
 - [Jiang59991/cve-2021-21300](https://github.com/Jiang59991/cve-2021-21300)
 - [Jiang59991/cve-2021-21300-plus](https://github.com/Jiang59991/cve-2021-21300-plus)
+- [macilin/CVE-2021-21300](https://github.com/macilin/CVE-2021-21300)
 
 ### CVE-2021-21311 (2021-02-11)
 
@@ -6339,7 +6339,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [lhotari/log4shell-mitigation-tester](https://github.com/lhotari/log4shell-mitigation-tester)
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
-- [gauthamg/log4j2021_vul_test](https://github.com/gauthamg/log4j2021_vul_test)
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
 - [js-on/jndiRep](https://github.com/js-on/jndiRep)
 - [Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs](https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs)
@@ -13236,6 +13235,7 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [CyberSecurityUP/CVE-2019-5420-POC](https://github.com/CyberSecurityUP/CVE-2019-5420-POC)
 - [trickstersec/CVE-2019-5420](https://github.com/trickstersec/CVE-2019-5420)
 - [PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420)
+- [laffray/ruby-RCE-CVE-2019-5420-](https://github.com/laffray/ruby-RCE-CVE-2019-5420-)
 
 ### CVE-2019-5427 (2019-04-22)
 
