@@ -1729,6 +1729,22 @@ A use after free issue was addressed with improved memory management. This issue
 
 - [Dylbin/flow_divert](https://github.com/Dylbin/flow_divert)
 
+### CVE-2022-26763 (2022-05-26)
+
+<code>
+An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. A malicious application may be able to execute arbitrary code with system privileges.
+</code>
+
+- [zhuowei/PCICrash](https://github.com/zhuowei/PCICrash)
+
+### CVE-2022-26766 (2022-05-26)
+
+<code>
+A certificate parsing issue was addressed with improved checks. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. A malicious app may be able to bypass signature validation.
+</code>
+
+- [zhuowei/CoreTrustDemo](https://github.com/zhuowei/CoreTrustDemo)
+
 ### CVE-2022-26809 (2022-04-15)
 
 <code>
