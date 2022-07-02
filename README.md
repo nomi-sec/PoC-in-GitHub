@@ -1901,7 +1901,7 @@ SiteServer CMS v7.x allows attackers to execute arbitrary code via a crafted plu
 ### CVE-2022-28219 (2022-04-05)
 
 <code>
-Zoho ManageEngine ADAudit Plus before 7060 is vulnerable to an unauthenticated XXE attack that leads to Remote Code Execution.
+Cewolf in Zoho ManageEngine ADAudit Plus before 7060 is vulnerable to an unauthenticated XXE attack that leads to Remote Code Execution.
 </code>
 
 - [horizon3ai/CVE-2022-28219](https://github.com/horizon3ai/CVE-2022-28219)
