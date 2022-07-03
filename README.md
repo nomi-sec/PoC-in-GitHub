@@ -13517,6 +13517,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
 - [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
 - [VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer](https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer)
+- [Osuni-99/CVE-2019-6447](https://github.com/Osuni-99/CVE-2019-6447)
 
 ### CVE-2019-6453 (2019-02-18)
 
