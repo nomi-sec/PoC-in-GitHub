@@ -1253,6 +1253,14 @@ Cross-site scripting (XSS) via Host Header injection in PKP Open Journals System
 
 - [comrade99/CVE-2022-24181](https://github.com/comrade99/CVE-2022-24181)
 
+### CVE-2022-24342 (2022-02-25)
+
+<code>
+In JetBrains TeamCity before 2021.2.1, URL injection leading to CSRF was possible.
+</code>
+
+- [yuriisanin/CVE-2022-24342](https://github.com/yuriisanin/CVE-2022-24342)
+
 ### CVE-2022-24348 (2022-02-04)
 
 <code>
@@ -24987,7 +24995,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
 - [b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271)
-- [aphiliotis1/ShellShock](https://github.com/aphiliotis1/ShellShock)
+- [JBince/ShellShock](https://github.com/JBince/ShellShock)
 - [abandonedship/ShellShock](https://github.com/abandonedship/ShellShock)
 - [akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271)
 - [0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271)
