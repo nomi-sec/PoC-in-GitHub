@@ -1359,6 +1359,7 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 - [sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit)
 - [XmasSnowISBACK/CVE-2022-24706](https://github.com/XmasSnowISBACK/CVE-2022-24706)
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
+- [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
 
 ### CVE-2022-24713 (2022-03-08)
 
@@ -2414,6 +2415,9 @@ H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerabi
 </code>
 
 - [arozx/CVE-2022-30910](https://github.com/arozx/CVE-2022-30910)
+
+### CVE-2022-30929
+- [AgainstTheLight/CVE-2022-30929](https://github.com/AgainstTheLight/CVE-2022-30929)
 
 ### CVE-2022-31245 (2022-05-20)
 
@@ -8559,7 +8563,6 @@ In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the use
 PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
 </code>
 
-- [FULLSHADE/CVE-2020-5509](https://github.com/FULLSHADE/CVE-2020-5509)
 - [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
 
 ### CVE-2020-5837 (2020-05-11)
@@ -18109,6 +18112,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [dearpan/cve-2018-9995](https://github.com/dearpan/cve-2018-9995)
 - [LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995](https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995)
 - [hoaan1995/CVE-2018-9995](https://github.com/hoaan1995/CVE-2018-9995)
+- [TonightRanger/cve-2018-9995](https://github.com/TonightRanger/cve-2018-9995)
 
 ### CVE-2018-10118 (2018-04-15)
 
