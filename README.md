@@ -219,6 +219,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [ih3na/debian11-dirty_pipe-patcher](https://github.com/ih3na/debian11-dirty_pipe-patcher)
 - [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
 - [flux10n/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/flux10n/CVE-2022-0847-DirtyPipe-Exploits)
+- [airbus-cert/dirtypipe-ebpf_detection](https://github.com/airbus-cert/dirtypipe-ebpf_detection)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -1550,6 +1551,14 @@ An issue was discovered in drivers/usb/gadget/composite.c in the Linux kernel be
 
 - [szymonh/d-os-descriptor](https://github.com/szymonh/d-os-descriptor)
 
+### CVE-2022-25262 (2022-02-25)
+
+<code>
+In JetBrains Hub before 2022.1.14434, SAML request takeover was possible.
+</code>
+
+- [yuriisanin/CVE-2022-25262](https://github.com/yuriisanin/CVE-2022-25262)
+
 ### CVE-2022-25313 (2022-02-17)
 
 <code>
@@ -2142,6 +2151,14 @@ NETGEAR ProSafe SSL VPN firmware FVS336Gv2 and FVS336Gv3 was discovered to conta
 
 - [badboycxcc/Netgear-ssl-vpn-20211222-CVE-2022-29383](https://github.com/badboycxcc/Netgear-ssl-vpn-20211222-CVE-2022-29383)
 - [cxaqhq/netgear-to-CVE-2022-29383](https://github.com/cxaqhq/netgear-to-CVE-2022-29383)
+
+### CVE-2022-29455 (2022-06-13)
+
+<code>
+DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elementor Website Builder plugin &lt;= 3.5.5 versions.
+</code>
+
+- [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
 
 ### CVE-2022-29464 (2022-04-18)
 
@@ -11700,7 +11717,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 ### CVE-2020-26732 (2021-01-14)
 
 <code>
-Skyworth GN542VF Boa version 0.94.13 does not set the Secure flag for the session cookie in an HTTPS session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an HTTP session.
+SKYWORTH GN542VF Boa version 0.94.13 does not set the Secure flag for the session cookie in an HTTPS session, which makes it easier for remote attackers to capture this cookie by intercepting its transmission within an HTTP session.
 </code>
 
 - [swzhouu/CVE-2020-26732](https://github.com/swzhouu/CVE-2020-26732)
@@ -21284,7 +21301,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
-- [rodnt/laravel-phpunit-rce-masscaner](https://github.com/rodnt/laravel-phpunit-rce-masscaner)
+- [rdpwn/laravel-phpunit-rce-masscaner](https://github.com/rdpwn/laravel-phpunit-rce-masscaner)
 - [akr3ch/CVE-2017-9841](https://github.com/akr3ch/CVE-2017-9841)
 - [p1ckzi/CVE-2017-9841](https://github.com/p1ckzi/CVE-2017-9841)
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
