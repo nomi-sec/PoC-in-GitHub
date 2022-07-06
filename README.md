@@ -111,6 +111,7 @@ It was discovered, that redis, a persistent key-value database, due to a packagi
 </code>
 
 - [aodsec/CVE-2022-0543](https://github.com/aodsec/CVE-2022-0543)
+- [z92g/CVE-2022-0543](https://github.com/z92g/CVE-2022-0543)
 
 ### CVE-2022-0725 (2022-03-07)
 
@@ -1689,6 +1690,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [r1skkam/TryHackMe-Atlassian-CVE-2022-26134](https://github.com/r1skkam/TryHackMe-Atlassian-CVE-2022-26134)
 - [nxtexploit/CVE-2022-26134](https://github.com/nxtexploit/CVE-2022-26134)
 - [Debajyoti0-0/CVE-2022-26134](https://github.com/Debajyoti0-0/CVE-2022-26134)
+- [f4yd4-s3c/cve-2022-26134](https://github.com/f4yd4-s3c/cve-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -12898,6 +12900,7 @@ An elevation of privilege vulnerability exists when the Windows Universal Plug a
 </code>
 
 - [apt69/COMahawk](https://github.com/apt69/COMahawk)
+- [signfind/COMahawk](https://github.com/signfind/COMahawk)
 
 ### CVE-2019-1422 (2019-11-12)
 
