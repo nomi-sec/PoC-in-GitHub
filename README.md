@@ -493,6 +493,14 @@ In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a possible out of bou
 
 - [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
 
+### CVE-2022-20133 (2022-06-15)
+
+<code>
+In setDiscoverableTimeout of AdapterService.java, there is a possible bypass of user interaction due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-206807679
+</code>
+
+- [nidhi7598/packages_apps_Bluetooth_AOSP_10_r33_CVE-2022-20133](https://github.com/nidhi7598/packages_apps_Bluetooth_AOSP_10_r33_CVE-2022-20133)
+
 ### CVE-2022-20135 (2022-06-15)
 
 <code>
@@ -500,6 +508,14 @@ In writeToParcel of GateKeeperResponse.java, there is a possible parcel format m
 </code>
 
 - [nidhi7598/frameworks_base_AOSP10_r33_CVE-2022-20135-](https://github.com/nidhi7598/frameworks_base_AOSP10_r33_CVE-2022-20135-)
+
+### CVE-2022-20138 (2022-06-15)
+
+<code>
+In ACTION_MANAGED_PROFILE_PROVISIONED of DevicePolicyManagerService.java, there is a possible way for unprivileged app to send MANAGED_PROFILE_PROVISIONED intent due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-210469972
+</code>
+
+- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20138](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20138)
 
 ### CVE-2022-20142 (2022-06-15)
 
@@ -2590,6 +2606,7 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
+- [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
 
 ### CVE-2022-31983 (2022-06-01)
 
@@ -8650,7 +8667,6 @@ In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the use
 PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
 </code>
 
-- [FULLSHADE/CVE-2020-5509](https://github.com/FULLSHADE/CVE-2020-5509)
 - [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
 
 ### CVE-2020-5837 (2020-05-11)
@@ -23422,14 +23438,6 @@ The register method in the UsersModelRegistration class in controllers/user.php 
 </code>
 
 - [cved-sources/cve-2016-8870](https://github.com/cved-sources/cve-2016-8870)
-
-### CVE-2016-9066 (2018-06-11)
-
-<code>
-A buffer overflow resulting in a potentially exploitable crash due to memory allocation issues when handling large amounts of incoming data. This vulnerability affects Thunderbird &lt; 45.5, Firefox ESR &lt; 45.5, and Firefox &lt; 50.
-</code>
-
-- [saelo/foxpwn](https://github.com/saelo/foxpwn)
 
 ### CVE-2016-9079 (2018-06-11)
 
