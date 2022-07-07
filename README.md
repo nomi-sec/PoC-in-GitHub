@@ -198,6 +198,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
 - [sa-infinity8888/Dirty-Pipe-CVE-2022-0847](https://github.com/sa-infinity8888/Dirty-Pipe-CVE-2022-0847)
 - [realbatuhan/dirtypipetester](https://github.com/realbatuhan/dirtypipetester)
+- [notl0cal/dpipe](https://github.com/notl0cal/dpipe)
 - [CYB3RK1D/CVE-2022-0847-POC](https://github.com/CYB3RK1D/CVE-2022-0847-POC)
 - [breachnix/dirty-pipe-poc](https://github.com/breachnix/dirty-pipe-poc)
 - [Shotokhan/cve_2022_0847_shellcode](https://github.com/Shotokhan/cve_2022_0847_shellcode)
@@ -2624,6 +2625,14 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 - [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
+
+### CVE-2022-31854 (2022-07-07)
+
+<code>
+Codoforum v5.1 was discovered to contain an arbitrary file upload vulnerability via the logo change option in the admin panel.
+</code>
+
+- [Vikaran101/CVE-2022-31854](https://github.com/Vikaran101/CVE-2022-31854)
 
 ### CVE-2022-31983 (2022-06-01)
 
@@ -8795,6 +8804,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [faisalfs10x/F5-BIG-IP-CVE-2020-5902-shodan-scanner](https://github.com/faisalfs10x/F5-BIG-IP-CVE-2020-5902-shodan-scanner)
 - [haisenberg/CVE-2020-5902](https://github.com/haisenberg/CVE-2020-5902)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
+- [z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -15219,7 +15229,6 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [n0w4n/CVE-2019-14287](https://github.com/n0w4n/CVE-2019-14287)
 - [gurneesh/CVE-2019-14287-write-up](https://github.com/gurneesh/CVE-2019-14287-write-up)
 - [shallvhack/Sudo-Security-Bypass-CVE-2019-14287](https://github.com/shallvhack/Sudo-Security-Bypass-CVE-2019-14287)
-- [Janette88/cve-2019-14287sudoexp](https://github.com/Janette88/cve-2019-14287sudoexp)
 - [huang919/cve-2019-14287-PPT](https://github.com/huang919/cve-2019-14287-PPT)
 - [wenyu1999/sudo-](https://github.com/wenyu1999/sudo-)
 - [Sindadziy/cve-2019-14287](https://github.com/Sindadziy/cve-2019-14287)
@@ -15238,6 +15247,7 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights](https://github.com/DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights)
 - [k4u5h41/CVE-2019-14287](https://github.com/k4u5h41/CVE-2019-14287)
 - [Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287](https://github.com/Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287)
+- [5l1v3r1/cve-2019-14287sudoexp](https://github.com/5l1v3r1/cve-2019-14287sudoexp)
 
 ### CVE-2019-14314 (2019-08-27)
 
