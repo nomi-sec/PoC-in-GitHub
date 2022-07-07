@@ -4836,6 +4836,7 @@ A critical unauthenticated remote code execution vulnerability was found all rec
 
 - [kahla-sec/CVE-2021-27850_POC](https://github.com/kahla-sec/CVE-2021-27850_POC)
 - [dorkerdevil/CVE-2021-27850_POC](https://github.com/dorkerdevil/CVE-2021-27850_POC)
+- [novysodope/CVE-2021-27850](https://github.com/novysodope/CVE-2021-27850)
 
 ### CVE-2021-27890 (2021-03-15)
 
@@ -6519,7 +6520,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [sourcegraph/log4j-cve-code-search-resources](https://github.com/sourcegraph/log4j-cve-code-search-resources)
 - [thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832](https://github.com/thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832)
 - [helsecert/CVE-2021-44228](https://github.com/helsecert/CVE-2021-44228)
-- [tuyenee/Log4shell](https://github.com/tuyenee/Log4shell)
 - [JiuBanSec/Log4j-CVE-2021-44228](https://github.com/JiuBanSec/Log4j-CVE-2021-44228)
 - [ycdxsb/Log4Shell-CVE-2021-44228-ENV](https://github.com/ycdxsb/Log4Shell-CVE-2021-44228-ENV)
 - [avwolferen/Sitecore.Solr-log4j-mitigation](https://github.com/avwolferen/Sitecore.Solr-log4j-mitigation)
@@ -7292,6 +7292,14 @@ In updateUidProcState of AppOpsService.java, there is a possible permission bypa
 </code>
 
 - [mooneee/CVE-2020-0121](https://github.com/mooneee/CVE-2020-0121)
+
+### CVE-2020-0136 (2020-06-11)
+
+<code>
+In multiple locations of Parcel.cpp, there is a possible out-of-bounds write due to an integer overflow. This could lead to local escalation of privilege in the system server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-120078455
+</code>
+
+- [Satheesh575555/libhwbinder_AOSP10_r33_CVE-2020-0136](https://github.com/Satheesh575555/libhwbinder_AOSP10_r33_CVE-2020-0136)
 
 ### CVE-2020-0137 (2020-06-11)
 
