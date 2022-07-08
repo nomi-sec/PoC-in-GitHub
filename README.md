@@ -2693,6 +2693,15 @@ In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64
 
 - [zeroc00I/CVE-2022-34305](https://github.com/zeroc00I/CVE-2022-34305)
 
+### CVE-2022-34961
+- [bypazs/CVE-2022-34961](https://github.com/bypazs/CVE-2022-34961)
+
+### CVE-2022-34962
+- [bypazs/CVE-2022-34962](https://github.com/bypazs/CVE-2022-34962)
+
+### CVE-2022-34963
+- [bypazs/CVE-2022-34963](https://github.com/bypazs/CVE-2022-34963)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
