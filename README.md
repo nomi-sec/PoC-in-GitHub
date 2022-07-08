@@ -2247,6 +2247,9 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 ### CVE-2022-29554
 - [ComparedArray/printix-CVE-2022-29554](https://github.com/ComparedArray/printix-CVE-2022-29554)
 
+### CVE-2022-29593
+- [9lyph/CVE-2022-29593](https://github.com/9lyph/CVE-2022-29593)
+
 ### CVE-2022-29597 (2022-06-02)
 
 <code>
