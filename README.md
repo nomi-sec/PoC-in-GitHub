@@ -2669,6 +2669,14 @@ Cross Site Scripting (XSS) vulnerability in router Asus DSL-N14U-B1 1.1.2.3_805 
 
 - [FedericoHeichou/CVE-2022-32988](https://github.com/FedericoHeichou/CVE-2022-32988)
 
+### CVE-2022-33980 (2022-07-06)
+
+<code>
+Apache Commons Configuration performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is &quot;${prefix:name}&quot;, where &quot;prefix&quot; is used to locate an instance of org.apache.commons.configuration2.interpol.Lookup that performs the interpolation. Starting with version 2.4 and continuing through 2.7, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - &quot;script&quot; - execute expressions using the JVM script execution engine (javax.script) - &quot;dns&quot; - resolve dns records - &quot;url&quot; - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Configuration 2.8.0, which disables the problematic interpolators by default.
+</code>
+
+- [tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE](https://github.com/tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE)
+
 ### CVE-2022-34265 (2022-07-04)
 
 <code>
@@ -20790,14 +20798,6 @@ An issue was discovered in certain Apple products. iOS before 10.3.3 is affected
 - [JosephShenton/Triple_Fetch-Kernel-Creds](https://github.com/JosephShenton/Triple_Fetch-Kernel-Creds)
 - [q1f3/Triple_fetch](https://github.com/q1f3/Triple_fetch)
 
-### CVE-2017-7061 (2017-07-20)
-
-<code>
-An issue was discovered in certain Apple products. iOS before 10.3.3 is affected. Safari before 10.1.2 is affected. iCloud before 6.2.2 on Windows is affected. iTunes before 12.6.2 on Windows is affected. tvOS before 10.2.2 is affected. The issue involves the &quot;WebKit&quot; component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.
-</code>
-
-- [TheLoneHaxor/jailbreakme103](https://github.com/TheLoneHaxor/jailbreakme103)
-
 ### CVE-2017-7089 (2017-10-22)
 
 <code>
@@ -25439,9 +25439,6 @@ lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 an
 
 - [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
 
-### CVE-2013-225
-- [ninj4c0d3r/ShellEvil](https://github.com/ninj4c0d3r/ShellEvil)
-
 ### CVE-2013-1081 (2013-03-11)
 
 <code>
@@ -25521,7 +25518,6 @@ The ngx_http_parse_chunked function in http/ngx_http_parse.c in nginx 1.3.9 thro
 </code>
 
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
-- [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
 - [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 - [mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028)
@@ -25719,14 +25715,6 @@ Cross-site scripting (XSS) vulnerability in HtmlSessionInformationsReport.java i
 
 - [theratpack/grails-javamelody-sample-app](https://github.com/theratpack/grails-javamelody-sample-app)
 
-### CVE-2013-4434 (2013-10-25)
-
-<code>
-Dropbear SSH Server before 2013.59 generates error messages for a failed logon attempt with different time delays depending on whether the user account exists, which allows remote attackers to discover valid usernames.
-</code>
-
-- [styx00/Dropbear_CVE-2013-4434](https://github.com/styx00/Dropbear_CVE-2013-4434)
-
 ### CVE-2013-4547 (2013-11-23)
 
 <code>
@@ -25758,14 +25746,6 @@ The HP Integrated Lights-Out (iLO) BMC implementation allows remote attackers to
 </code>
 
 - [alexoslabs/ipmitest](https://github.com/alexoslabs/ipmitest)
-
-### CVE-2013-5065 (2013-11-27)
-
-<code>
-NDProxy.sys in the kernel in Microsoft Windows XP SP2 and SP3 and Server 2003 SP2 allows local users to gain privileges via a crafted application, as exploited in the wild in November 2013.
-</code>
-
-- [Friarfukd/RobbinHood](https://github.com/Friarfukd/RobbinHood)
 
 ### CVE-2013-5211 (2014-01-02)
 
