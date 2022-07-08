@@ -1716,6 +1716,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [nxtexploit/CVE-2022-26134](https://github.com/nxtexploit/CVE-2022-26134)
 - [Debajyoti0-0/CVE-2022-26134](https://github.com/Debajyoti0-0/CVE-2022-26134)
 - [f4yd4-s3c/cve-2022-26134](https://github.com/f4yd4-s3c/cve-2022-26134)
+- [coskper-papa/CVE-2022-26134](https://github.com/coskper-papa/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -13690,6 +13691,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
 - [VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer](https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer)
 - [Osuni-99/CVE-2019-6447](https://github.com/Osuni-99/CVE-2019-6447)
+- [Chethine/EsFileExplorer-CVE-2019-6447](https://github.com/Chethine/EsFileExplorer-CVE-2019-6447)
 
 ### CVE-2019-6453 (2019-02-18)
 
@@ -25439,6 +25441,9 @@ lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 an
 
 - [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
 
+### CVE-2013-225
+- [ninj4c0d3r/ShellEvil](https://github.com/ninj4c0d3r/ShellEvil)
+
 ### CVE-2013-1081 (2013-03-11)
 
 <code>
@@ -25518,6 +25523,7 @@ The ngx_http_parse_chunked function in http/ngx_http_parse.c in nginx 1.3.9 thro
 </code>
 
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
+- [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
 - [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 - [mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028)
@@ -25715,6 +25721,14 @@ Cross-site scripting (XSS) vulnerability in HtmlSessionInformationsReport.java i
 
 - [theratpack/grails-javamelody-sample-app](https://github.com/theratpack/grails-javamelody-sample-app)
 
+### CVE-2013-4434 (2013-10-25)
+
+<code>
+Dropbear SSH Server before 2013.59 generates error messages for a failed logon attempt with different time delays depending on whether the user account exists, which allows remote attackers to discover valid usernames.
+</code>
+
+- [styx00/Dropbear_CVE-2013-4434](https://github.com/styx00/Dropbear_CVE-2013-4434)
+
 ### CVE-2013-4547 (2013-11-23)
 
 <code>
@@ -25746,6 +25760,14 @@ The HP Integrated Lights-Out (iLO) BMC implementation allows remote attackers to
 </code>
 
 - [alexoslabs/ipmitest](https://github.com/alexoslabs/ipmitest)
+
+### CVE-2013-5065 (2013-11-27)
+
+<code>
+NDProxy.sys in the kernel in Microsoft Windows XP SP2 and SP3 and Server 2003 SP2 allows local users to gain privileges via a crafted application, as exploited in the wild in November 2013.
+</code>
+
+- [Friarfukd/RobbinHood](https://github.com/Friarfukd/RobbinHood)
 
 ### CVE-2013-5211 (2014-01-02)
 
