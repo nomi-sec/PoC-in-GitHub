@@ -26836,6 +26836,14 @@ Stack-based buffer overflow in the animated cursor code in Microsoft Windows 200
 
 - [Axua/CVE-2007-0038](https://github.com/Axua/CVE-2007-0038)
 
+### CVE-2007-0843 (2007-02-22)
+
+<code>
+The ReadDirectoryChangesW API function on Microsoft Windows 2000, XP, Server 2003, and Vista does not check permissions for child objects, which allows local users to bypass permissions by opening a directory with LIST (READ) access and using ReadDirectoryChangesW to monitor changes of files that do not have LIST permissions, which can be leveraged to determine filenames, access times, and other sensitive information.
+</code>
+
+- [z3APA3A/spydir](https://github.com/z3APA3A/spydir)
+
 ### CVE-2007-1567 (2007-03-21)
 
 <code>
@@ -26919,6 +26927,14 @@ Stack-based buffer overflow in the PassThru functionality in ext.dll in BadBlue 
 </code>
 
 - [Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377](https://github.com/Nicoslo/Windows-exploitation-BadBlue-2.7-CVE-2007-6377)
+
+### CVE-2007-6638 (2008-01-03)
+
+<code>
+March Networks DVR 3204 stores sensitive information under the web root with insufficient access control, which allows remote attackers to obtain usernames, passwords, device names, and IP addresses via a direct request for scripts/logfiles.tar.gz.
+</code>
+
+- [alt3kx/CVE-2007-6638](https://github.com/alt3kx/CVE-2007-6638)
 
 
 ## 2006
