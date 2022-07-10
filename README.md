@@ -1098,6 +1098,7 @@ kernel/bpf/verifier.c in the Linux kernel through 5.15.14 allows local users to 
 
 - [tr3ee/CVE-2022-23222](https://github.com/tr3ee/CVE-2022-23222)
 - [PenteraIO/CVE-2022-23222-POC](https://github.com/PenteraIO/CVE-2022-23222-POC)
+- [RafaelOrtizRC/CVE-2022-23222](https://github.com/RafaelOrtizRC/CVE-2022-23222)
 
 ### CVE-2022-23253 (2022-03-09)
 
@@ -1637,6 +1638,14 @@ In wolfSSL before 5.2.0, a TLS 1.3 server cannot properly enforce a requirement 
 </code>
 
 - [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
+
+### CVE-2022-25845 (2022-06-10)
+
+<code>
+The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization of Untrusted Data by bypassing the default autoType shutdown restrictions, which is possible under certain conditions. Exploiting this vulnerability allows attacking remote servers. Workaround: If upgrading is not possible, you can enable [safeMode](https://github.com/alibaba/fastjson/wiki/fastjson_safemode).
+</code>
+
+- [Expl0desploit/CVE-2022-25845](https://github.com/Expl0desploit/CVE-2022-25845)
 
 ### CVE-2022-25943 (2022-03-08)
 
@@ -9400,7 +9409,7 @@ Pi-hole Web v4.3.2 (aka AdminLTE) allows Remote Code Execution by privileged das
 </code>
 
 - [AndreyRainchik/CVE-2020-8816](https://github.com/AndreyRainchik/CVE-2020-8816)
-- [MartinSohn/CVE-2020-8816](https://github.com/MartinSohn/CVE-2020-8816)
+- [martinsohn/CVE-2020-8816](https://github.com/martinsohn/CVE-2020-8816)
 - [cybervaca/CVE-2020-8816](https://github.com/cybervaca/CVE-2020-8816)
 - [team0se7en/CVE-2020-8816](https://github.com/team0se7en/CVE-2020-8816)
 
