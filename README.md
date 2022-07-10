@@ -2290,7 +2290,7 @@ An arbitrary file upload vulnerability in formidable v3.1.4 allows attackers to 
 The documentation of Apache Tomcat 10.1.0-M1 to 10.1.0-M14, 10.0.0-M1 to 10.0.20, 9.0.13 to 9.0.62 and 8.5.38 to 8.5.78 for the EncryptInterceptor incorrectly stated it enabled Tomcat clustering to run over an untrusted network. This was not correct. While the EncryptInterceptor does provide confidentiality and integrity protection, it does not protect against all risks associated with running over any untrusted network, particularly DoS risks.
 </code>
 
-- [4ra1n/CVE-2022-29885](https://github.com/4ra1n/CVE-2022-29885)
+- [quynhlab/CVE-2022-29885](https://github.com/quynhlab/CVE-2022-29885)
 - [iveresk/CVE-2022-29885](https://github.com/iveresk/CVE-2022-29885)
 
 ### CVE-2022-29932 (2022-05-11)
@@ -2669,7 +2669,7 @@ Complete Online Job Search System v1.0 is vulnerable to SQL Injection via eris/a
 Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypassed on some servlet containers. Applications using RegExPatternMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
 </code>
 
-- [4ra1n/CVE-2022-32532](https://github.com/4ra1n/CVE-2022-32532)
+- [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
 
 ### CVE-2022-32988 (2022-06-30)
 
@@ -4476,6 +4476,7 @@ The Tatsu WordPress plugin before 3.3.12 add_custom_font action can be used with
 </code>
 
 - [darkpills/CVE-2021-25094-tatsu-preauth-rce](https://github.com/darkpills/CVE-2021-25094-tatsu-preauth-rce)
+- [TUANB4DUT/typehub-exploiter](https://github.com/TUANB4DUT/typehub-exploiter)
 
 ### CVE-2021-25281 (2021-02-26)
 
@@ -4926,6 +4927,7 @@ The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 ha
 </code>
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
+- [Exploitables/CVE-2021-27965](https://github.com/Exploitables/CVE-2021-27965)
 
 ### CVE-2021-28310 (2021-04-13)
 
@@ -6563,11 +6565,9 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan)
 - [rubo77/log4j_checker_beta](https://github.com/rubo77/log4j_checker_beta)
 - [thecyberneh/Log4j-RCE-Exploiter](https://github.com/thecyberneh/Log4j-RCE-Exploiter)
-- [halibobor/log4j2](https://github.com/halibobor/log4j2)
 - [sourcegraph/log4j-cve-code-search-resources](https://github.com/sourcegraph/log4j-cve-code-search-resources)
 - [thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832](https://github.com/thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832)
 - [helsecert/CVE-2021-44228](https://github.com/helsecert/CVE-2021-44228)
-- [tuyenee/Log4shell](https://github.com/tuyenee/Log4shell)
 - [JiuBanSec/Log4j-CVE-2021-44228](https://github.com/JiuBanSec/Log4j-CVE-2021-44228)
 - [ycdxsb/Log4Shell-CVE-2021-44228-ENV](https://github.com/ycdxsb/Log4Shell-CVE-2021-44228-ENV)
 - [avwolferen/Sitecore.Solr-log4j-mitigation](https://github.com/avwolferen/Sitecore.Solr-log4j-mitigation)
@@ -16072,6 +16072,14 @@ strapi before 3.0.0-beta.17.5 mishandles password resets within packages/strapi-
 
 - [guglia001/CVE-2019-18818](https://github.com/guglia001/CVE-2019-18818)
 - [rasyidfox/CVE-2019-18818](https://github.com/rasyidfox/CVE-2019-18818)
+
+### CVE-2019-18845 (2019-11-09)
+
+<code>
+The MsIo64.sys and MsIo32.sys drivers in Patriot Viper RGB before 1.1 allow local users (including low integrity processes) to read and write to arbitrary memory locations, and consequently gain NT AUTHORITY\SYSTEM privileges, by mapping \Device\PhysicalMemory into the calling process via ZwOpenSection and ZwMapViewOfSection.
+</code>
+
+- [Exploitables/CVE-2019-18845](https://github.com/Exploitables/CVE-2019-18845)
 
 ### CVE-2019-18873 (2019-11-11)
 
@@ -26666,6 +26674,14 @@ The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Micr
 </code>
 
 - [johnwchadwick/cve-2009-3555-test-server](https://github.com/johnwchadwick/cve-2009-3555-test-server)
+
+### CVE-2009-4049 (2009-11-23)
+
+<code>
+Heap-based buffer overflow in aswRdr.sys (aka the TDI RDR driver) in avast! Home and Professional 4.8.1356.0 allows local users to cause a denial of service (memory corruption) or possibly gain privileges via crafted arguments to IOCTL 0x80002024.
+</code>
+
+- [Exploitables/CVE-2009-4049](https://github.com/Exploitables/CVE-2009-4049)
 
 ### CVE-2009-4092 (2009-11-27)
 
