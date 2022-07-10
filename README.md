@@ -4477,6 +4477,7 @@ The Tatsu WordPress plugin before 3.3.12 add_custom_font action can be used with
 
 - [darkpills/CVE-2021-25094-tatsu-preauth-rce](https://github.com/darkpills/CVE-2021-25094-tatsu-preauth-rce)
 - [TUANB4DUT/typehub-exploiter](https://github.com/TUANB4DUT/typehub-exploiter)
+- [xdx57/CVE-2021-25094](https://github.com/xdx57/CVE-2021-25094)
 
 ### CVE-2021-25281 (2021-02-26)
 
@@ -5312,6 +5313,7 @@ The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to
 - [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
 - [aeyesec/CVE-2021-31805](https://github.com/aeyesec/CVE-2021-31805)
 - [3SsFuck/CVE-2021-31805-POC](https://github.com/3SsFuck/CVE-2021-31805-POC)
+- [z92g/CVE-2021-31805](https://github.com/z92g/CVE-2021-31805)
 
 ### CVE-2021-31856 (2021-04-28)
 
@@ -5531,7 +5533,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
-- [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
 - [Exploitspacks/CVE-2021-34527-CVE-2021-1675](https://github.com/Exploitspacks/CVE-2021-34527-CVE-2021-1675)
 - [cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527)
 
@@ -5863,14 +5864,6 @@ GeoServer through 2.18.5 and 2.19.x through 2.19.2 allows SSRF via the option fo
 </code>
 
 - [phor3nsic/CVE-2021-40822](https://github.com/phor3nsic/CVE-2021-40822)
-
-### CVE-2021-40839 (2021-09-09)
-
-<code>
-The rencode package through 1.0.6 for Python allows an infinite loop in typecode decoding (such as via ;\x2f\x7f), enabling a remote attack that consumes CPU and memory.
-</code>
-
-- [itlabbet/CVE-2021-40839](https://github.com/itlabbet/CVE-2021-40839)
 
 ### CVE-2021-40859 (2021-12-07)
 
@@ -8739,8 +8732,15 @@ In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the use
 PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
 </code>
 
-- [FULLSHADE/CVE-2020-5509](https://github.com/FULLSHADE/CVE-2020-5509)
 - [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
+
+### CVE-2020-5510 (2020-01-08)
+
+<code>
+PHPGurukul Hostel Management System v2.0 allows SQL injection via the id parameter in the full-profile.php file.
+</code>
+
+- [5l1v3r1/CVE-2020-5510](https://github.com/5l1v3r1/CVE-2020-5510)
 
 ### CVE-2020-5837 (2020-05-11)
 
