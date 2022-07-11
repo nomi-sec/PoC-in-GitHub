@@ -2686,6 +2686,7 @@ Apache Commons Configuration performs variable interpolation, allowing propertie
 </code>
 
 - [tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE](https://github.com/tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE)
+- [trhacknon/CVE-2022-33980-Apache-Commons-Configuration-RCE](https://github.com/trhacknon/CVE-2022-33980-Apache-Commons-Configuration-RCE)
 
 ### CVE-2022-34265 (2022-07-04)
 
