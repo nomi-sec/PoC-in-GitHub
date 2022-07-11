@@ -1098,7 +1098,7 @@ kernel/bpf/verifier.c in the Linux kernel through 5.15.14 allows local users to 
 
 - [tr3ee/CVE-2022-23222](https://github.com/tr3ee/CVE-2022-23222)
 - [PenteraIO/CVE-2022-23222-POC](https://github.com/PenteraIO/CVE-2022-23222-POC)
-- [RafaelOrtizRC/CVE-2022-23222](https://github.com/RafaelOrtizRC/CVE-2022-23222)
+- [FridayOrtiz/CVE-2022-23222](https://github.com/FridayOrtiz/CVE-2022-23222)
 
 ### CVE-2022-23253 (2022-03-09)
 
@@ -2552,6 +2552,9 @@ Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
 
 - [AgainstTheLight/CVE-2022-30929](https://github.com/AgainstTheLight/CVE-2022-30929)
 
+### CVE-2022-31138
+- [ly1g3/Mailcow-CVE-2022-31138](https://github.com/ly1g3/Mailcow-CVE-2022-31138)
+
 ### CVE-2022-31245 (2022-05-20)
 
 <code>
@@ -2695,6 +2698,7 @@ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Tr
 </code>
 
 - [aeyesec/CVE-2022-34265](https://github.com/aeyesec/CVE-2022-34265)
+- [NopFault/CVE-2022-34265](https://github.com/NopFault/CVE-2022-34265)
 
 ### CVE-2022-34298 (2022-06-22)
 
