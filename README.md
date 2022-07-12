@@ -848,7 +848,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [mrknow001/CVE-2022-22947](https://github.com/mrknow001/CVE-2022-22947)
 - [aodsec/CVE-2022-22947](https://github.com/aodsec/CVE-2022-22947)
 - [ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code](https://github.com/ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code)
-- [An0th3r/CVE-2022-22947-exp](https://github.com/An0th3r/CVE-2022-22947-exp)
+- [Arrnitage/CVE-2022-22947-exp](https://github.com/Arrnitage/CVE-2022-22947-exp)
 - [PaoPaoLong-lab/Spring-CVE-2022-22947-](https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-)
 - [michaelklaan/CVE-2022-22947-Spring-Cloud](https://github.com/michaelklaan/CVE-2022-22947-Spring-Cloud)
 - [hh-hunter/cve-2022-22947-docker](https://github.com/hh-hunter/cve-2022-22947-docker)
@@ -1726,6 +1726,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [Debajyoti0-0/CVE-2022-26134](https://github.com/Debajyoti0-0/CVE-2022-26134)
 - [f4yd4-s3c/cve-2022-26134](https://github.com/f4yd4-s3c/cve-2022-26134)
 - [coskper-papa/CVE-2022-26134](https://github.com/coskper-papa/CVE-2022-26134)
+- [p4b3l1t0/confusploit](https://github.com/p4b3l1t0/confusploit)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -2729,6 +2730,14 @@ In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64
 
 ### CVE-2022-34963
 - [bypazs/CVE-2022-34963](https://github.com/bypazs/CVE-2022-34963)
+
+### CVE-2022-35416 (2022-07-10)
+
+<code>
+H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.
+</code>
+
+- [safe3s/CVE-2022-35416](https://github.com/safe3s/CVE-2022-35416)
 
 
 ## 2021
@@ -3881,7 +3890,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
 - [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
 - [ArkAngeL43/CVE-2021-4034](https://github.com/ArkAngeL43/CVE-2021-4034)
-- [1izardd/CVE-2021-4034](https://github.com/1izardd/CVE-2021-4034)
+- [42lizard/CVE-2021-4034](https://github.com/42lizard/CVE-2021-4034)
 - [rhin0cer0s/CVE-2021-4034](https://github.com/rhin0cer0s/CVE-2021-4034)
 - [0x4ndy/CVE-2021-4034-PoC](https://github.com/0x4ndy/CVE-2021-4034-PoC)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
