@@ -17603,7 +17603,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
 - [Exzh34/PentestLab-CVE-2018-6574-go-get-RCE](https://github.com/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE)
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
-- [mmeza-developer/go--CVE-2018-6574](https://github.com/mmeza-developer/go--CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -20292,14 +20291,6 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 </code>
 
 - [bazad/IOFireWireFamily-null-deref](https://github.com/bazad/IOFireWireFamily-null-deref)
-
-### CVE-2017-2606 (2018-05-08)
-
-<code>
-Jenkins before versions 2.44, 2.32.2 is vulnerable to an information exposure in the internal API that allows access to item names that should not be visible (SECURITY-380). This only affects anonymous users (other users legitimately have access) that were able to get a list of items via an UnprotectedRootAction.
-</code>
-
-- [Davi-afk/jenkins-cve-CVE-2017-2606](https://github.com/Davi-afk/jenkins-cve-CVE-2017-2606)
 
 ### CVE-2017-2636 (2017-03-07)
 
