@@ -393,6 +393,14 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 
+### CVE-2022-1421 (2022-06-06)
+
+<code>
+The Discy WordPress theme before 5.2 lacks CSRF checks in some AJAX actions, allowing an attacker to make a logged in admin change arbitrary 's settings including payment methods via a CSRF attack
+</code>
+
+- [nb1b3k/CVE-2022-1421](https://github.com/nb1b3k/CVE-2022-1421)
+
 ### CVE-2022-1597 (2022-06-06)
 
 <code>
@@ -3456,7 +3464,6 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
 - [simonlee-hello/CVE-2021-3129](https://github.com/simonlee-hello/CVE-2021-3129)
-- [selectarget/laravel-CVE-2021-3129-EXP](https://github.com/selectarget/laravel-CVE-2021-3129-EXP)
 - [cuongtop4598/CVE-2021-3129-Script](https://github.com/cuongtop4598/CVE-2021-3129-Script)
 - [joshuavanderpoll/CVE-2021-3129](https://github.com/joshuavanderpoll/CVE-2021-3129)
 - [914525753/Laravel-CVE-2021-3129](https://github.com/914525753/Laravel-CVE-2021-3129)
@@ -5553,6 +5560,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
+- [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
 - [Exploitspacks/CVE-2021-34527-CVE-2021-1675](https://github.com/Exploitspacks/CVE-2021-34527-CVE-2021-1675)
 - [cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527)
 
@@ -22214,6 +22222,14 @@ Samsung Internet Browser 5.4.02.3 allows remote attackers to bypass the Same Ori
 </code>
 
 - [specloli/CVE-2017-17692](https://github.com/specloli/CVE-2017-17692)
+
+### CVE-2017-17736 (2018-03-23)
+
+<code>
+Kentico 9.0 before 9.0.51 and 10.0 before 10.0.48 allows remote attackers to obtain Global Administrator access by visiting CMSInstall/install.aspx and then navigating to the CMS Administration Dashboard.
+</code>
+
+- [0xSojalSec/Nuclei-TemplatesNuclei-Templates-CVE-2017-17736](https://github.com/0xSojalSec/Nuclei-TemplatesNuclei-Templates-CVE-2017-17736)
 
 ### CVE-2017-18044 (2018-01-19)
 
