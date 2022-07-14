@@ -5881,14 +5881,6 @@ GeoServer through 2.18.5 and 2.19.x through 2.19.2 allows SSRF via the option fo
 
 - [phor3nsic/CVE-2021-40822](https://github.com/phor3nsic/CVE-2021-40822)
 
-### CVE-2021-40839 (2021-09-09)
-
-<code>
-The rencode package through 1.0.6 for Python allows an infinite loop in typecode decoding (such as via ;\x2f\x7f), enabling a remote attack that consumes CPU and memory.
-</code>
-
-- [itlabbet/CVE-2021-40839](https://github.com/itlabbet/CVE-2021-40839)
-
 ### CVE-2021-40859 (2021-12-07)
 
 <code>
@@ -7245,6 +7237,7 @@ Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability 
 
 - [nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422)
 - [Chocapikk/CVE-2021-46422](https://github.com/Chocapikk/CVE-2021-46422)
+- [twoning/CVE-2021-46422_PoC](https://github.com/twoning/CVE-2021-46422_PoC)
 
 ### CVE-2021-46702 (2022-02-25)
 
