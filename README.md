@@ -5600,7 +5600,7 @@ An issue in the administrator authentication panel of PTCL HG150-Ub v3.0 allows 
 Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbitrary programs as Administrator by using the Image Transfer Folder feature to navigate to cmd.exe. It binds to local ports to listen for incoming connections.
 </code>
 
-- [LeoBreaker1411/CVE-2021-35448](https://github.com/LeoBreaker1411/CVE-2021-35448)
+- [deathflash1411/CVE-2021-35448](https://github.com/deathflash1411/CVE-2021-35448)
 
 ### CVE-2021-35576 (2021-10-20)
 
@@ -5995,7 +5995,7 @@ Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-
 Insecure permissions in the file database.sdb of BatFlat CMS v1.3.6 allows attackers to dump the entire database.
 </code>
 
-- [LeoBreaker1411/CVE-2021-41652](https://github.com/LeoBreaker1411/CVE-2021-41652)
+- [deathflash1411/CVE-2021-41652](https://github.com/deathflash1411/CVE-2021-41652)
 
 ### CVE-2021-41730
 - [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
@@ -13022,7 +13022,6 @@ An elevation of privilege vulnerability exists in the way that the iphlpsvc.dll 
 An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
 </code>
 
-- [piotrflorczyk/cve-2019-1458_POC](https://github.com/piotrflorczyk/cve-2019-1458_POC)
 - [unamer/CVE-2019-1458](https://github.com/unamer/CVE-2019-1458)
 - [DreamoneOnly/CVE-2019-1458-malware](https://github.com/DreamoneOnly/CVE-2019-1458-malware)
 - [Eternit7/CVE-2019-1458](https://github.com/Eternit7/CVE-2019-1458)
