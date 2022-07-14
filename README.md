@@ -575,7 +575,7 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 
 - [jfrog/jfrog-CVE-2022-21449](https://github.com/jfrog/jfrog-CVE-2022-21449)
 - [jmiettinen/CVE-2022-21449-vuln-test](https://github.com/jmiettinen/CVE-2022-21449-vuln-test)
-- [khalednassar/CVE-2022-21449-TLS-PoC](https://github.com/khalednassar/CVE-2022-21449-TLS-PoC)
+- [notkmhn/CVE-2022-21449-TLS-PoC](https://github.com/notkmhn/CVE-2022-21449-TLS-PoC)
 - [marschall/psychic-signatures](https://github.com/marschall/psychic-signatures)
 - [Damok82/SignChecker](https://github.com/Damok82/SignChecker)
 - [fundaergn/CVE-2022-21449](https://github.com/fundaergn/CVE-2022-21449)
@@ -815,14 +815,6 @@ O2OA v6.4.7 was discovered to contain a remote code execution (RCE) vulnerabilit
 </code>
 
 - [aodsec/CVE-2022-22916](https://github.com/aodsec/CVE-2022-22916)
-
-### CVE-2022-22919 (2022-01-29)
-
-<code>
-Adenza AxiomSL ControllerView through 10.8.1 allows redirection for SSO login URLs.
-</code>
-
-- [jdordonezn/CVE-2022-22919](https://github.com/jdordonezn/CVE-2022-22919)
 
 ### CVE-2022-22947 (2022-03-03)
 
@@ -1250,14 +1242,6 @@ Expat (aka libexpat) before 2.4.4 has an integer overflow in the doProlog functi
 </code>
 
 - [Satheesh575555/external_expat_AOSP10_r33_CVE-2022-23990](https://github.com/Satheesh575555/external_expat_AOSP10_r33_CVE-2022-23990)
-
-### CVE-2022-24032 (2022-01-29)
-
-<code>
-Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to user enumeration. An attacker can identify valid usernames on the platform because a failed login attempt produces a different error message when the username is valid.
-</code>
-
-- [jdordonezn/CVE-2022-24032](https://github.com/jdordonezn/CVE-2022-24032)
 
 ### CVE-2022-24086 (2022-02-16)
 
