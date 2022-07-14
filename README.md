@@ -2254,7 +2254,12 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 ### CVE-2022-29554
 - [ComparedArray/printix-CVE-2022-29554](https://github.com/ComparedArray/printix-CVE-2022-29554)
 
-### CVE-2022-29593
+### CVE-2022-29593 (2022-07-14)
+
+<code>
+relay_cgi.cgi on Dingtian DT-R002 2CH relay devices with firmware 3.1.276A allows an attacker to replay HTTP post requests without the need for authentication or a valid signed/authorized request.
+</code>
+
 - [9lyph/CVE-2022-29593](https://github.com/9lyph/CVE-2022-29593)
 
 ### CVE-2022-29597 (2022-06-02)
@@ -3851,6 +3856,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [Ph4nt0mh4x0r/auto-CVE-2021-4034](https://github.com/Ph4nt0mh4x0r/auto-CVE-2021-4034)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
+- [rvizx/CVE-2021-4034](https://github.com/rvizx/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
@@ -5548,7 +5554,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
-- [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
 - [Exploitspacks/CVE-2021-34527-CVE-2021-1675](https://github.com/Exploitspacks/CVE-2021-34527-CVE-2021-1675)
 - [cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527)
 
@@ -13022,6 +13027,7 @@ An elevation of privilege vulnerability exists in the way that the iphlpsvc.dll 
 An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
 </code>
 
+- [piotrflorczyk/cve-2019-1458_POC](https://github.com/piotrflorczyk/cve-2019-1458_POC)
 - [unamer/CVE-2019-1458](https://github.com/unamer/CVE-2019-1458)
 - [DreamoneOnly/CVE-2019-1458-malware](https://github.com/DreamoneOnly/CVE-2019-1458-malware)
 - [Eternit7/CVE-2019-1458](https://github.com/Eternit7/CVE-2019-1458)
@@ -16273,6 +16279,7 @@ The Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Executi
 - [diego-tella/CVE-2019-19609-EXPLOIT](https://github.com/diego-tella/CVE-2019-19609-EXPLOIT)
 - [guglia001/CVE-2019-19609](https://github.com/guglia001/CVE-2019-19609)
 - [D3m0nicw0lf/CVE-2019-19609](https://github.com/D3m0nicw0lf/CVE-2019-19609)
+- [n000xy/CVE-2019-19609-POC-Python](https://github.com/n000xy/CVE-2019-19609-POC-Python)
 - [RamPanic/CVE-2019-19609-EXPLOIT](https://github.com/RamPanic/CVE-2019-19609-EXPLOIT)
 - [glowbase/CVE-2019-19609](https://github.com/glowbase/CVE-2019-19609)
 
@@ -24097,7 +24104,7 @@ request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, 
 
 - [0x00-0x00/CVE-2015-3224](https://github.com/0x00-0x00/CVE-2015-3224)
 - [0xEval/cve-2015-3224](https://github.com/0xEval/cve-2015-3224)
-- [xda3m00n/CVE-2015-3224-](https://github.com/xda3m00n/CVE-2015-3224-)
+- [n000xy/CVE-2015-3224-](https://github.com/n000xy/CVE-2015-3224-)
 
 ### CVE-2015-3306 (2015-05-18)
 
