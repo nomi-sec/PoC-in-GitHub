@@ -2232,7 +2232,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [trhacknon/CVE-2022-29464-mass](https://github.com/trhacknon/CVE-2022-29464-mass)
 - [jimidk/Better-CVE-2022-29464](https://github.com/jimidk/Better-CVE-2022-29464)
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
-- [Pasch0/WSO2RCE](https://github.com/Pasch0/WSO2RCE)
+- [awsassets/WSO2RCE](https://github.com/awsassets/WSO2RCE)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -8574,6 +8574,7 @@ Multiple vulnerabilities in the web services interface of Cisco Adaptive Securit
 - [Hudi233/CVE-2020-3580](https://github.com/Hudi233/CVE-2020-3580)
 - [adarshvs/CVE-2020-3580](https://github.com/adarshvs/CVE-2020-3580)
 - [cruxN3T/CVE-2020-3580](https://github.com/cruxN3T/CVE-2020-3580)
+- [catatonicprime/CVE-2020-3580](https://github.com/catatonicprime/CVE-2020-3580)
 
 ### CVE-2020-3766 (2020-03-25)
 
