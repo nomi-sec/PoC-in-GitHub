@@ -2441,6 +2441,9 @@ WAVLINK WN535 G3 was discovered to contain a cross-site scripting (XSS) vulnerab
 - [badboycxcc/XSS-CVE-2022-30489](https://github.com/badboycxcc/XSS-CVE-2022-30489)
 - [trhacknon/XSS-CVE-2022-30489](https://github.com/trhacknon/XSS-CVE-2022-30489)
 
+### CVE-2022-30507
+- [yosef0x01/CVE-2022-30507](https://github.com/yosef0x01/CVE-2022-30507)
+
 ### CVE-2022-30510 (2022-05-27)
 
 <code>
@@ -5687,7 +5690,12 @@ The CheckMK management web console (versions 1.5.0 to 2.0.0) does not sanitise u
 
 - [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
 
-### CVE-2021-36711
+### CVE-2021-36711 (-)
+
+<code>
+WebInterface in OctoBot before 0.4.4 allows remote code execution because Tentacles upload is mishandled.
+</code>
+
 - [Nwqda/Sashimi-Evil-OctoBot-Tentacle](https://github.com/Nwqda/Sashimi-Evil-OctoBot-Tentacle)
 
 ### CVE-2021-36749 (2021-09-24)
