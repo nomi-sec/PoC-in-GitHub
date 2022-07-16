@@ -2661,6 +2661,14 @@ Codoforum v5.1 was discovered to contain an arbitrary file upload vulnerability 
 
 - [Vikaran101/CVE-2022-31854](https://github.com/Vikaran101/CVE-2022-31854)
 
+### CVE-2022-31897 (2022-06-28)
+
+<code>
+SourceCodester Zoo Management System 1.0 is vulnerable to Cross Site Scripting (XSS) via public_html/register_visitor?msg=.
+</code>
+
+- [AngeloPioAmirante/CVE-2022-31897](https://github.com/AngeloPioAmirante/CVE-2022-31897)
+
 ### CVE-2022-31983 (2022-06-01)
 
 <code>
@@ -2708,6 +2716,14 @@ Cross Site Scripting (XSS) vulnerability in router Asus DSL-N14U-B1 1.1.2.3_805 
 </code>
 
 - [FedericoHeichou/CVE-2022-32988](https://github.com/FedericoHeichou/CVE-2022-32988)
+
+### CVE-2022-33075 (2022-07-05)
+
+<code>
+A stored cross-site scripting (XSS) vulnerability in the Add Classification function of Zoo Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via unspecified vectors.
+</code>
+
+- [AngeloPioAmirante/CVE-2022-33075](https://github.com/AngeloPioAmirante/CVE-2022-33075)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -8828,7 +8844,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [ar0dd/CVE-2020-5902](https://github.com/ar0dd/CVE-2020-5902)
 - [yassineaboukir/CVE-2020-5902](https://github.com/yassineaboukir/CVE-2020-5902)
 - [rwincey/CVE-2020-5902-NSE](https://github.com/rwincey/CVE-2020-5902-NSE)
-- [Un4gi/CVE-2020-5902](https://github.com/Un4gi/CVE-2020-5902)
+- [zzzL0ki/CVE-2020-5902](https://github.com/zzzL0ki/CVE-2020-5902)
 - [nsflabs/CVE-2020-5902](https://github.com/nsflabs/CVE-2020-5902)
 - [yasserjanah/CVE-2020-5902](https://github.com/yasserjanah/CVE-2020-5902)
 - [JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902)
@@ -26940,7 +26956,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
 - [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
 - [ozuma/CVE-2007-2447](https://github.com/ozuma/CVE-2007-2447)
-- [Un4gi/CVE-2007-2447](https://github.com/Un4gi/CVE-2007-2447)
+- [zzzL0ki/CVE-2007-2447](https://github.com/zzzL0ki/CVE-2007-2447)
 - [Ki11i0n4ir3/Sambaster](https://github.com/Ki11i0n4ir3/Sambaster)
 - [cherrera0001/CVE-2007-2447](https://github.com/cherrera0001/CVE-2007-2447)
 - [Alien0ne/CVE-2007-2447](https://github.com/Alien0ne/CVE-2007-2447)
