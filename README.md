@@ -1363,6 +1363,14 @@ Windows Network File System Remote Code Execution Vulnerability. This CVE ID is 
 
 - [corelight/CVE-2022-24497](https://github.com/corelight/CVE-2022-24497)
 
+### CVE-2022-24500 (2022-04-15)
+
+<code>
+Windows SMB Remote Code Execution Vulnerability.
+</code>
+
+- [Daro1967/CVE-2022-24500-RCE](https://github.com/Daro1967/CVE-2022-24500-RCE)
+
 ### CVE-2022-24611 (2022-05-17)
 
 <code>
