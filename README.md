@@ -2704,6 +2704,9 @@ Arox School ERP Pro v1.0 was discovered to contain multiple arbitrary file uploa
 
 - [JC175/CVE-2022-32119](https://github.com/JC175/CVE-2022-32119)
 
+### CVE-2022-32224
+- [ooooooo-q/cve-2022-32224-rails](https://github.com/ooooooo-q/cve-2022-32224-rails)
+
 ### CVE-2022-32532 (2022-06-28)
 
 <code>
@@ -4873,6 +4876,14 @@ steghide 0.5.1 relies on a certain 32-bit seed value, which makes it easier for 
 
 - [b4shfire/stegcrack](https://github.com/b4shfire/stegcrack)
 
+### CVE-2021-27239 (2021-03-29)
+
+<code>
+This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR R6400 and R6700 firmware version 1.0.4.98 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the upnpd service, which listens on UDP port 1900 by default. A crafted MX header field in an SSDP message can trigger an overflow of a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-11851.
+</code>
+
+- [WizardsOfTheInternet/CVE-2021-27239](https://github.com/WizardsOfTheInternet/CVE-2021-27239)
+
 ### CVE-2021-27246 (2021-04-14)
 
 <code>
@@ -6427,7 +6438,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
-- [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
@@ -6651,7 +6661,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [taurusxin/CVE-2021-44228](https://github.com/taurusxin/CVE-2021-44228)
-- [rodfer20/log4j2-prosecutor](https://github.com/rodfer20/log4j2-prosecutor)
+- [trevalkov/log4j2-prosecutor](https://github.com/trevalkov/log4j2-prosecutor)
 - [yanghaoi/CVE-2021-44228_Log4Shell](https://github.com/yanghaoi/CVE-2021-44228_Log4Shell)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
 - [threatmonit/Log4j-IOCs](https://github.com/threatmonit/Log4j-IOCs)
