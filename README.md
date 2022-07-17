@@ -2060,14 +2060,6 @@ Limbas 4.3.36.1319 is vulnerable to Cross Site Scripting (XSS).
 
 - [YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-](https://github.com/YavuzSahbaz/Limbas-4.3.36.1319-is-vulnerable-to-Cross-Site-Scripting-XSS-)
 
-### CVE-2022-28571 (2022-05-02)
-
-<code>
-D-link 882 DIR882A1_FW130B06 was discovered to contain a command injection vulnerability in`/usr/bin/cli.
-</code>
-
-- [F0und-icu/CVE-2022-28571-28573](https://github.com/F0und-icu/CVE-2022-28571-28573)
-
 ### CVE-2022-28590 (2022-05-03)
 
 <code>
