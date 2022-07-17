@@ -5690,7 +5690,7 @@ The CheckMK management web console (versions 1.5.0 to 2.0.0) does not sanitise u
 
 - [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
 
-### CVE-2021-36711 (-)
+### CVE-2021-36711 (2022-07-16)
 
 <code>
 WebInterface in OctoBot before 0.4.4 allows remote code execution because Tentacles upload is mishandled.
