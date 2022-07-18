@@ -1273,6 +1273,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [NHPT/CVE-2022-24086-RCE](https://github.com/NHPT/CVE-2022-24086-RCE)
 - [oK0mo/CVE-2022-24086-RCE-PoC](https://github.com/oK0mo/CVE-2022-24086-RCE-PoC)
 - [seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087)
+- [Cory65/CVE-2022-24086-POC](https://github.com/Cory65/CVE-2022-24086-POC)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -2448,6 +2449,7 @@ RARLAB UnRAR before 6.12 on Linux and UNIX allows directory traversal to write t
 </code>
 
 - [TheL1ghtVn/CVE-2022-30333-PoC](https://github.com/TheL1ghtVn/CVE-2022-30333-PoC)
+- [rbowes-r7/unrar-cve-2022-30333-poc](https://github.com/rbowes-r7/unrar-cve-2022-30333-poc)
 
 ### CVE-2022-30489 (2022-05-13)
 
@@ -2748,6 +2750,14 @@ A stored cross-site scripting (XSS) vulnerability in the Add Classification func
 </code>
 
 - [AngeloPioAmirante/CVE-2022-33075](https://github.com/AngeloPioAmirante/CVE-2022-33075)
+
+### CVE-2022-33891 (2022-07-18)
+
+<code>
+The Apache Spark UI offers the possibility to enable ACLs via the configuration option spark.acls.enable. With an authentication filter, this checks whether a user has access permissions to view or modify the application. If ACLs are enabled, a code path in HttpSecurityFilter can allow someone to perform impersonation by providing an arbitrary user name. A malicious user might then be able to reach a permission check function that will ultimately build a Unix shell command based on their input, and execute it. This will result in arbitrary shell command execution as the user Spark is currently running as. This affects Apache Spark versions 3.0.3 and earlier, versions 3.1.1 to 3.1.2, and versions 3.2.0 to 3.2.1.
+</code>
+
+- [W01fh4cker/cve-2022-33891](https://github.com/W01fh4cker/cve-2022-33891)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -22584,6 +22594,14 @@ Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbi
 </code>
 
 - [LeoonZHANG/CVE-2016-0199](https://github.com/LeoonZHANG/CVE-2016-0199)
+
+### CVE-2016-0451 (2016-01-20)
+
+<code>
+Unspecified vulnerability in the Oracle GoldenGate component in Oracle GoldenGate 11.2 and 12.1.2 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors, a different vulnerability than CVE-2016-0452.
+</code>
+
+- [rwincey/Oracle-GoldenGate---CVE-2016-0451](https://github.com/rwincey/Oracle-GoldenGate---CVE-2016-0451)
 
 ### CVE-2016-0638 (2016-04-21)
 
