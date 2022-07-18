@@ -2703,6 +2703,7 @@ Arox School ERP Pro v1.0 was discovered to contain multiple arbitrary file uploa
 </code>
 
 - [JC175/CVE-2022-32119](https://github.com/JC175/CVE-2022-32119)
+- [trhacknon/CVE-2022-32119](https://github.com/trhacknon/CVE-2022-32119)
 
 ### CVE-2022-32224
 - [ooooooo-q/cve-2022-32224-rails](https://github.com/ooooooo-q/cve-2022-32224-rails)
