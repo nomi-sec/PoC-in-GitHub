@@ -535,6 +535,7 @@ In ACTION_MANAGED_PROFILE_PROVISIONED of DevicePolicyManagerService.java, there 
 </code>
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20138](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20138)
+- [ShaikUsaf/ShaikUsaf-frameworks_base_AOSP10_r33_CVE-2022-20138](https://github.com/ShaikUsaf/ShaikUsaf-frameworks_base_AOSP10_r33_CVE-2022-20138)
 
 ### CVE-2022-20142 (2022-06-15)
 
@@ -691,6 +692,14 @@ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is uniqu
 </code>
 
 - [ly4k/SpoolFool](https://github.com/ly4k/SpoolFool)
+
+### CVE-2022-22029 (2022-07-12)
+
+<code>
+Windows Network File System Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-22039.
+</code>
+
+- [mchoudhary15/CVE-2022-22029-NFS-Server-](https://github.com/mchoudhary15/CVE-2022-22029-NFS-Server-)
 
 ### CVE-2022-22296 (2022-01-24)
 
@@ -1148,6 +1157,14 @@ A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of Ta
 </code>
 
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
+
+### CVE-2022-23614 (2022-02-04)
+
+<code>
+Twig is an open source template language for PHP. When in a sandbox mode, the `arrow` parameter of the `sort` filter must be a closure to avoid attackers being able to run arbitrary PHP functions. In affected versions this constraint was not properly enforced and could lead to code injection of arbitrary PHP code. Patched versions now disallow calling non Closure in the `sort` filter as is the case for some other filters. Users are advised to upgrade.
+</code>
+
+- [davwwwx/CVE-2022-23614](https://github.com/davwwwx/CVE-2022-23614)
 
 ### CVE-2022-23642 (2022-02-18)
 
@@ -3994,6 +4011,14 @@ A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_
 
 - [jbaines-r7/badblood](https://github.com/jbaines-r7/badblood)
 
+### CVE-2021-20138 (2021-12-09)
+
+<code>
+An unauthenticated command injection vulnerability exists in multiple parameters in the Gryphon Tower router’s web interface at /cgi-bin/luci/rc. An unauthenticated remote attacker on the same network can execute commands as root on the device by sending a specially crafted malicious packet to the web interface.
+</code>
+
+- [ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-20138](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-20138)
+
 ### CVE-2021-20717 (2021-05-10)
 
 <code>
@@ -5743,6 +5768,14 @@ Windows Elevation of Privilege Vulnerability
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 
+### CVE-2021-36955 (2021-09-15)
+
+<code>
+Windows Common Log File System Driver Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-36963, CVE-2021-38633.
+</code>
+
+- [JiaJinRong12138/CVE-2021-36955-EXP](https://github.com/JiaJinRong12138/CVE-2021-36955-EXP)
+
 ### CVE-2021-37740 (2022-04-20)
 
 <code>
@@ -6638,12 +6671,10 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [sourcegraph/log4j-cve-code-search-resources](https://github.com/sourcegraph/log4j-cve-code-search-resources)
 - [thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832](https://github.com/thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832)
 - [helsecert/CVE-2021-44228](https://github.com/helsecert/CVE-2021-44228)
-- [JiuBanSec/Log4j-CVE-2021-44228](https://github.com/JiuBanSec/Log4j-CVE-2021-44228)
 - [ycdxsb/Log4Shell-CVE-2021-44228-ENV](https://github.com/ycdxsb/Log4Shell-CVE-2021-44228-ENV)
 - [avwolferen/Sitecore.Solr-log4j-mitigation](https://github.com/avwolferen/Sitecore.Solr-log4j-mitigation)
 - [kek-Sec/log4j-scanner-CVE-2021-44228](https://github.com/kek-Sec/log4j-scanner-CVE-2021-44228)
 - [Camphul/log4shell-spring-framework-research](https://github.com/Camphul/log4shell-spring-framework-research)
-- [sinakeshmiri/log4jScan](https://github.com/sinakeshmiri/log4jScan)
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
 - [LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228)
 - [0xsyr0/Log4Shell](https://github.com/0xsyr0/Log4Shell)
@@ -25233,6 +25264,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [u20024804/bash-4.3-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271)
 - [francisck/shellshock-cgi](https://github.com/francisck/shellshock-cgi)
 - [proclnas/ShellShock-CGI-Scan](https://github.com/proclnas/ShellShock-CGI-Scan)
+- [sch3m4/RIS](https://github.com/sch3m4/RIS)
 - [ryeyao/CVE-2014-6271_Test](https://github.com/ryeyao/CVE-2014-6271_Test)
 - [cj1324/CGIShell](https://github.com/cj1324/CGIShell)
 - [renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock)
