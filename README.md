@@ -2811,6 +2811,9 @@ H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.
 
 - [safe3s/CVE-2022-35416](https://github.com/safe3s/CVE-2022-35416)
 
+### CVE-2022-35899
+- [AngeloPioAmirante/CVE-2022-35899](https://github.com/AngeloPioAmirante/CVE-2022-35899)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
