@@ -2230,7 +2230,7 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 </code>
 
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
-- [alyrezo/cve-2022-29455](https://github.com/alyrezo/cve-2022-29455)
+- [alirezasalehizadeh/cve-2022-29455](https://github.com/alirezasalehizadeh/cve-2022-29455)
 
 ### CVE-2022-29464 (2022-04-18)
 
@@ -6694,7 +6694,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [0xsyr0/Log4Shell](https://github.com/0xsyr0/Log4Shell)
 - [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
 - [manuel-alvarez-alvarez/log4j-cve-2021-44228](https://github.com/manuel-alvarez-alvarez/log4j-cve-2021-44228)
-- [justakazh/Log4j-CVE-2021-44228](https://github.com/justakazh/Log4j-CVE-2021-44228)
 - [madCdan/JndiLookup](https://github.com/madCdan/JndiLookup)
 - [Koupah/MC-Log4j-Patcher](https://github.com/Koupah/MC-Log4j-Patcher)
 - [AlexandreHeroux/Fix-CVE-2021-44228](https://github.com/AlexandreHeroux/Fix-CVE-2021-44228)
@@ -14200,6 +14199,14 @@ Kohana through 3.3.6 has SQL Injection when the order_by() parameter can be cont
 </code>
 
 - [elttam/ko7demo](https://github.com/elttam/ko7demo)
+
+### CVE-2019-8985 (2019-02-21)
+
+<code>
+On Netis WF2411 with firmware 2.1.36123 and other Netis WF2xxx devices (possibly WF2411 through WF2880), there is a stack-based buffer overflow that does not require authentication. This can cause denial of service (device restart) or remote code execution. This vulnerability can be triggered by a GET request with a long HTTP &quot;Authorization: Basic&quot; header that is mishandled by user_auth-&gt;user_ok in /bin/boa.
+</code>
+
+- [Ler2sq/CVE-2019-8985](https://github.com/Ler2sq/CVE-2019-8985)
 
 ### CVE-2019-8997 (2019-03-21)
 
