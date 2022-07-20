@@ -4398,6 +4398,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
 - [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
+- [keven1z/CVE-2021-22205](https://github.com/keven1z/CVE-2021-22205)
 
 ### CVE-2021-22214 (2021-06-08)
 
@@ -6644,7 +6645,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
-- [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
@@ -19736,6 +19736,14 @@ The Van Ons WP GDPR Compliance (aka wp-gdpr-compliance) plugin before 1.4.3 for 
 - [aeroot/WP-GDPR-Compliance-Plugin-Exploit](https://github.com/aeroot/WP-GDPR-Compliance-Plugin-Exploit)
 - [cved-sources/cve-2018-19207](https://github.com/cved-sources/cve-2018-19207)
 
+### CVE-2018-19246 (2018-11-13)
+
+<code>
+PHP-Proxy 5.1.0 allows remote attackers to read local files if the default &quot;pre-installed version&quot; (intended for users who lack shell access to their web server) is used. This occurs because the aeb067ca0aa9a3193dce3a7264c90187 app_key value from the default config.php is in place, and this value can be easily used to calculate the authorization data needed for local file inclusion.
+</code>
+
+- [NeoWans/CVE-2018-19246](https://github.com/NeoWans/CVE-2018-19246)
+
 ### CVE-2018-19276 (2019-03-17)
 
 <code>
@@ -20698,6 +20706,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
 - [mthbernardes/strutszeiro](https://github.com/mthbernardes/strutszeiro)
 - [xsscx/cve-2017-5638](https://github.com/xsscx/cve-2017-5638)
+- [immunio/apache-struts2-CVE-2017-5638](https://github.com/immunio/apache-struts2-CVE-2017-5638)
 - [Masahiro-Yamada/OgnlContentTypeRejectorValve](https://github.com/Masahiro-Yamada/OgnlContentTypeRejectorValve)
 - [aljazceru/CVE-2017-5638-Apache-Struts2](https://github.com/aljazceru/CVE-2017-5638-Apache-Struts2)
 - [sjitech/test_struts2_vulnerability_CVE-2017-5638](https://github.com/sjitech/test_struts2_vulnerability_CVE-2017-5638)
