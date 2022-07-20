@@ -2181,6 +2181,14 @@ Multiple SQL injection vulnerabilities via the username and password parameters 
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 - [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
 
+### CVE-2022-29078 (2022-04-25)
+
+<code>
+The ejs (aka Embedded JavaScript templates) package 3.1.6 for Node.js allows server-side template injection in settings[view options][outputFunctionName]. This is parsed as an internal option, and overwrites the outputFunctionName option with an arbitrary OS command (which is executed upon template compilation).
+</code>
+
+- [miko550/CVE-2022-29078](https://github.com/miko550/CVE-2022-29078)
+
 ### CVE-2022-29221 (2022-05-24)
 
 <code>
@@ -2796,6 +2804,14 @@ In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64
 </code>
 
 - [zeroc00I/CVE-2022-34305](https://github.com/zeroc00I/CVE-2022-34305)
+
+### CVE-2022-34918 (2022-07-04)
+
+<code>
+An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug in nft_set_elem_init (leading to a buffer overflow) could be used by a local attacker to escalate privileges, a different vulnerability than CVE-2022-32250. (The attacker can obtain root access, but must start with an unprivileged user namespace to obtain CAP_NET_ADMIN access.) This can be fixed in nft_setelem_parse_data in net/netfilter/nf_tables_api.c.
+</code>
+
+- [randorisec/CVE-2022-34918-LPE-PoC](https://github.com/randorisec/CVE-2022-34918-LPE-PoC)
 
 ### CVE-2022-34961
 - [bypazs/CVE-2022-34961](https://github.com/bypazs/CVE-2022-34961)
@@ -16091,6 +16107,14 @@ Go before 1.12.11 and 1.3.x before 1.13.2 can panic upon an attempt to process n
 
 - [pquerna/poc-dsa-verify-CVE-2019-17596](https://github.com/pquerna/poc-dsa-verify-CVE-2019-17596)
 
+### CVE-2019-17621 (2019-12-30)
+
+<code>
+The UPnP endpoint URL /gena.cgi in the D-Link DIR-859 Wi-Fi router 1.05 and 1.06B01 Beta01 allows an Unauthenticated remote attacker to execute system commands as root, by sending a specially crafted HTTP SUBSCRIBE request to the UPnP service when connecting to the local network.
+</code>
+
+- [Ler2sq/CVE-2019-17621](https://github.com/Ler2sq/CVE-2019-17621)
+
 ### CVE-2019-17625 (2019-10-16)
 
 <code>
@@ -21133,6 +21157,7 @@ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Serie
 - [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
 - [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
+- [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
 
 ### CVE-2017-7998 (2018-01-08)
 
@@ -25428,6 +25453,7 @@ luni/src/main/java/java/io/ObjectInputStream.java in the java.io.ObjectInputStre
 mediaserver in Android 2.2 through 5.x before 5.1 allows attackers to gain privileges.  NOTE: This is a different vulnerability than CVE-2014-7921.
 </code>
 
+- [laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921)
 - [Vinc3nt4H/cve-2014-7920-7921_update](https://github.com/Vinc3nt4H/cve-2014-7920-7921_update)
 
 ### CVE-2014-8110 (2015-02-12)
@@ -27057,6 +27083,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [0xkasra/CVE-2007-2447](https://github.com/0xkasra/CVE-2007-2447)
 - [Nosferatuvjr/Samba-Usermap-exploit](https://github.com/Nosferatuvjr/Samba-Usermap-exploit)
 - [testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447)
+- [mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
