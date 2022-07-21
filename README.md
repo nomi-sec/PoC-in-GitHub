@@ -1907,6 +1907,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [Ziggy78/CVE-2022-26809-POC](https://github.com/Ziggy78/CVE-2022-26809-POC)
 - [Ziggy78/CVE-2022-26809-RCE](https://github.com/Ziggy78/CVE-2022-26809-RCE)
 - [cybersecurityresearcher/CVE-2022-26809-RCE-POC](https://github.com/cybersecurityresearcher/CVE-2022-26809-RCE-POC)
+- [ToomArni65/CVE-2022-26809-POC](https://github.com/ToomArni65/CVE-2022-26809-POC)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -2840,7 +2841,12 @@ H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.
 
 - [safe3s/CVE-2022-35416](https://github.com/safe3s/CVE-2022-35416)
 
-### CVE-2022-35899
+### CVE-2022-35899 (-)
+
+<code>
+There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSDK.exe) 1.0.0.4. This might allow a local user to escalate privileges by creating a %PROGRAMFILES(X86)%\ASUS\GameSDK.exe file.
+</code>
+
 - [AngeloPioAmirante/CVE-2022-35899](https://github.com/AngeloPioAmirante/CVE-2022-35899)
 
 
@@ -23926,10 +23932,8 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
-- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
-- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
@@ -25341,7 +25345,6 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [APSL/salt-shellshock](https://github.com/APSL/salt-shellshock)
 - [teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit)
 - [internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271)
-- [pwnGuy/shellshock-shell](https://github.com/pwnGuy/shellshock-shell)
 - [x2c3z4/shellshock_crawler](https://github.com/x2c3z4/shellshock_crawler)
 - [u20024804/bash-3.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271)
 - [u20024804/bash-4.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271)
@@ -25363,6 +25366,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [opsxcq/exploit-CVE-2014-6271](https://github.com/opsxcq/exploit-CVE-2014-6271)
 - [Pilou-Pilou/docker_CVE-2014-6271.](https://github.com/Pilou-Pilou/docker_CVE-2014-6271.)
 - [zalalov/CVE-2014-6271](https://github.com/zalalov/CVE-2014-6271)
+- [heikipikker/shellshock-shell](https://github.com/heikipikker/shellshock-shell)
 - [0x00-0x00/CVE-2014-6271](https://github.com/0x00-0x00/CVE-2014-6271)
 - [kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271)
 - [w4fz5uck5/ShockZaum-CVE-2014-6271](https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271)
