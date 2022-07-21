@@ -8429,8 +8429,6 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC](https://github.com/nibiwodong/CNVD-2020-10487-Tomcat-ajp-POC)
 - [bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner](https://github.com/bkfish/CNVD-2020-10487-Tomcat-Ajp-lfi-Scanner)
 - [laolisafe/CVE-2020-1938](https://github.com/laolisafe/CVE-2020-1938)
-- [DaemonShao/CVE-2020-1938](https://github.com/DaemonShao/CVE-2020-1938)
-- [sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read](https://github.com/sv3nbeast/CVE-2020-1938-Tomact-file_include-file_read)
 - [fairyming/CVE-2020-1938](https://github.com/fairyming/CVE-2020-1938)
 - [dacade/CVE-2020-1938](https://github.com/dacade/CVE-2020-1938)
 - [woaiqiukui/CVE-2020-1938TomcatAjpScanner](https://github.com/woaiqiukui/CVE-2020-1938TomcatAjpScanner)
@@ -9240,7 +9238,6 @@ An issue was discovered in FusionAuth before 1.11.0. An authenticated user, allo
 </code>
 
 - [Pikaqi/cve-2020-7799](https://github.com/Pikaqi/cve-2020-7799)
-- [ianxtianxt/CVE-2020-7799](https://github.com/ianxtianxt/CVE-2020-7799)
 
 ### CVE-2020-7897
 - [mooneee/cve-2020-7897](https://github.com/mooneee/cve-2020-7897)
