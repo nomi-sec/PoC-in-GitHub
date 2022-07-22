@@ -2754,6 +2754,9 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
 
+### CVE-2022-32832
+- [Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832)
+
 ### CVE-2022-32988 (2022-06-30)
 
 <code>
@@ -2823,6 +2826,7 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 </code>
 
 - [randorisec/CVE-2022-34918-LPE-PoC](https://github.com/randorisec/CVE-2022-34918-LPE-PoC)
+- [trhacknon/CVE-2022-34918-LPE-PoC](https://github.com/trhacknon/CVE-2022-34918-LPE-PoC)
 
 ### CVE-2022-34961
 - [bypazs/CVE-2022-34961](https://github.com/bypazs/CVE-2022-34961)
@@ -2841,7 +2845,7 @@ H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.
 
 - [safe3s/CVE-2022-35416](https://github.com/safe3s/CVE-2022-35416)
 
-### CVE-2022-35899 (-)
+### CVE-2022-35899 (2022-07-21)
 
 <code>
 There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSDK.exe) 1.0.0.4. This might allow a local user to escalate privileges by creating a %PROGRAMFILES(X86)%\ASUS\GameSDK.exe file.
@@ -23932,8 +23936,10 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
+- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
