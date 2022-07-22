@@ -1103,6 +1103,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131)
 - [Kazaf6s/CVE-2022-23131](https://github.com/Kazaf6s/CVE-2022-23131)
 - [trhacknon/CVE-2022-23131](https://github.com/trhacknon/CVE-2022-23131)
+- [1324132494/CVE-2022-23131poc-exp-zabbix-](https://github.com/1324132494/CVE-2022-23131poc-exp-zabbix-)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -1769,6 +1770,7 @@ The Atlassian Questions For Confluence app for Confluence Server and Data Center
 </code>
 
 - [alcaparra/CVE-2022-26138](https://github.com/alcaparra/CVE-2022-26138)
+- [1mxml/CVE-2022-26138](https://github.com/1mxml/CVE-2022-26138)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -2469,6 +2471,7 @@ RARLAB UnRAR before 6.12 on Linux and UNIX allows directory traversal to write t
 
 - [TheL1ghtVn/CVE-2022-30333-PoC](https://github.com/TheL1ghtVn/CVE-2022-30333-PoC)
 - [rbowes-r7/unrar-cve-2022-30333-poc](https://github.com/rbowes-r7/unrar-cve-2022-30333-poc)
+- [J0hnbX/CVE-2022-30333](https://github.com/J0hnbX/CVE-2022-30333)
 
 ### CVE-2022-30489 (2022-05-13)
 
