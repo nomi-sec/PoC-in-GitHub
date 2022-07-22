@@ -1918,6 +1918,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [Ziggy78/CVE-2022-26809-RCE](https://github.com/Ziggy78/CVE-2022-26809-RCE)
 - [cybersecurityresearcher/CVE-2022-26809-RCE-POC](https://github.com/cybersecurityresearcher/CVE-2022-26809-RCE-POC)
 - [ToomArni65/CVE-2022-26809-POC](https://github.com/ToomArni65/CVE-2022-26809-POC)
+- [ToomArni65/CVE-2022-26809-FINAL-POC](https://github.com/ToomArni65/CVE-2022-26809-FINAL-POC)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -2767,6 +2768,7 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 
 ### CVE-2022-32832
 - [Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832)
+- [AkbarTrilaksana/CVE-2022-32832](https://github.com/AkbarTrilaksana/CVE-2022-32832)
 
 ### CVE-2022-32988 (2022-06-30)
 
@@ -5755,6 +5757,14 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 </code>
 
 - [deathflash1411/CVE-2021-35448](https://github.com/deathflash1411/CVE-2021-35448)
+
+### CVE-2021-35475 (2021-06-25)
+
+<code>
+SAS Environment Manager 2.5 allows XSS through the Name field when creating/editing a server. The XSS will prompt when editing the Configuration Properties.
+</code>
+
+- [saitamang/CVE-2021-35475](https://github.com/saitamang/CVE-2021-35475)
 
 ### CVE-2021-35576 (2021-10-20)
 
