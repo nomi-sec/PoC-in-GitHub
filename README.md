@@ -113,6 +113,14 @@ It was discovered, that redis, a persistent key-value database, due to a packagi
 - [aodsec/CVE-2022-0543](https://github.com/aodsec/CVE-2022-0543)
 - [z92g/CVE-2022-0543](https://github.com/z92g/CVE-2022-0543)
 
+### CVE-2022-0666 (2022-02-18)
+
+<code>
+CRLF Injection leads to Stack Trace Exposure due to lack of filtering at https://demo.microweber.org/ in Packagist microweber/microweber prior to 1.2.11.
+</code>
+
+- [d4rkduck/CVE-2022-0666](https://github.com/d4rkduck/CVE-2022-0666)
+
 ### CVE-2022-0725 (2022-03-07)
 
 <code>
@@ -6181,6 +6189,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
 - [hab1b0x/CVE-2021-41773](https://github.com/hab1b0x/CVE-2021-41773)
 - [pwn3z/CVE-2021-41773-Apache-RCE](https://github.com/pwn3z/CVE-2021-41773-Apache-RCE)
+- [EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-](https://github.com/EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -6273,7 +6282,6 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 
 - [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
 - [Ridter/noPac](https://github.com/Ridter/noPac)
-- [waterrr/noPac](https://github.com/waterrr/noPac)
 - [ly4k/Pachine](https://github.com/ly4k/Pachine)
 - [cybersecurityworks553/noPac-detection](https://github.com/cybersecurityworks553/noPac-detection)
 
