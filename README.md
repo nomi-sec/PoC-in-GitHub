@@ -293,7 +293,12 @@ The WPQA Builder Plugin WordPress plugin before 5.2, used as a companion plugin 
 
 - [V35HR4J/CVE-2022-1051](https://github.com/V35HR4J/CVE-2022-1051)
 
-### CVE-2022-1096
+### CVE-2022-1096 (-)
+
+<code>
+Type confusion in V8 in Google Chrome prior to 99.0.4844.84 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
 - [Maverick-cmd/Chrome-and-Edge-Version-Dumper](https://github.com/Maverick-cmd/Chrome-and-Edge-Version-Dumper)
 
 ### CVE-2022-1162 (2022-04-04)
@@ -27491,6 +27496,14 @@ Buffer overflow in HP Tru64 UNIX allows local users to execute arbitrary code vi
 </code>
 
 - [wlensinas/CVE-2002-1614](https://github.com/wlensinas/CVE-2002-1614)
+
+### CVE-2002-2420 (2007-11-01)
+
+<code>
+site_searcher.cgi in Super Site Searcher allows remote attackers to execute arbitrary commands via shell metacharacters in the page parameter.
+</code>
+
+- [krdsploit/CVE-2002-2420](https://github.com/krdsploit/CVE-2002-2420)
 
 ### CVE-2002-20001 (2021-11-11)
 
