@@ -293,7 +293,7 @@ The WPQA Builder Plugin WordPress plugin before 5.2, used as a companion plugin 
 
 - [V35HR4J/CVE-2022-1051](https://github.com/V35HR4J/CVE-2022-1051)
 
-### CVE-2022-1096 (-)
+### CVE-2022-1096 (2022-07-22)
 
 <code>
 Type confusion in V8 in Google Chrome prior to 99.0.4844.84 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
@@ -4022,7 +4022,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
 - [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
 - [ArkAngeL43/CVE-2021-4034](https://github.com/ArkAngeL43/CVE-2021-4034)
-- [42lizard/CVE-2021-4034](https://github.com/42lizard/CVE-2021-4034)
+- [hAV9sad/CVE-2021-4034](https://github.com/hAV9sad/CVE-2021-4034)
 - [rhin0cer0s/CVE-2021-4034](https://github.com/rhin0cer0s/CVE-2021-4034)
 - [0x4ndy/CVE-2021-4034-PoC](https://github.com/0x4ndy/CVE-2021-4034-PoC)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
