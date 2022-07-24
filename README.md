@@ -6768,7 +6768,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [taurusxin/CVE-2021-44228](https://github.com/taurusxin/CVE-2021-44228)
-- [trevalkov/log4j2-prosecutor](https://github.com/trevalkov/log4j2-prosecutor)
+- [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [yanghaoi/CVE-2021-44228_Log4Shell](https://github.com/yanghaoi/CVE-2021-44228_Log4Shell)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
 - [threatmonit/Log4j-IOCs](https://github.com/threatmonit/Log4j-IOCs)
