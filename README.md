@@ -2744,6 +2744,14 @@ Complete Online Job Search System v1.0 is vulnerable to SQL Injection via eris/a
 
 - [heavenswill/CVE-2022-32013](https://github.com/heavenswill/CVE-2022-32013)
 
+### CVE-2022-32114 (2022-07-13)
+
+<code>
+An unrestricted file upload vulnerability in the Add New Assets function of Strapi v4.1.12 allows attackers to execute arbitrary code via a crafted file.
+</code>
+
+- [bypazs/CVE-2022-32114](https://github.com/bypazs/CVE-2022-32114)
+
 ### CVE-2022-32118 (2022-07-15)
 
 <code>
@@ -2802,6 +2810,7 @@ The Apache Spark UI offers the possibility to enable ACLs via the configuration 
 - [HuskyHacks/cve-2022-33891](https://github.com/HuskyHacks/cve-2022-33891)
 - [west-wind/CVE-2022-33891](https://github.com/west-wind/CVE-2022-33891)
 - [AkbarTrilaksana/cve-2022-33891](https://github.com/AkbarTrilaksana/cve-2022-33891)
+- [llraudseppll/cve-2022-33891](https://github.com/llraudseppll/cve-2022-33891)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -6135,7 +6144,7 @@ keypair is a a RSA PEM key generator written in javascript. keypair implements a
 jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0, accepting the value of the `of` option of the `.position()` util from untrusted sources may execute untrusted code. The issue is fixed in jQuery UI 1.13.0. Any string value passed to the `of` option is now treated as a CSS selector. A workaround is to not accept the value of the `of` option from untrusted sources.
 </code>
 
-- [astyn9/Exploit-Medium-CVE-2021-41184](https://github.com/astyn9/Exploit-Medium-CVE-2021-41184)
+- [gabrielolivra/Exploit-Medium-CVE-2021-41184](https://github.com/gabrielolivra/Exploit-Medium-CVE-2021-41184)
 
 ### CVE-2021-41277 (2021-11-17)
 
