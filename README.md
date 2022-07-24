@@ -1469,6 +1469,7 @@ regex is an implementation of regular expressions for the Rust language. The reg
 MyBB is a free and open source forum software. In affected versions the Admin CP's Settings management module does not validate setting types correctly on insertion and update, making it possible to add settings of supported type `php` with PHP code, executed on on _Change Settings_ pages. This results in a Remote Code Execution (RCE) vulnerability. The vulnerable module requires Admin CP access with the `Can manage settings?` permission. MyBB's Settings module, which allows administrators to add, edit, and delete non-default settings, stores setting data in an options code string ($options_code; mybb_settings.optionscode database column) that identifies the setting type and its options, separated by a new line character (\n). In MyBB 1.2.0, support for setting type php was added, for which the remaining part of the options code is PHP code executed on Change Settings pages (reserved for plugins and internal use). MyBB 1.8.30 resolves this issue. There are no known workarounds.
 </code>
 
+- [Altelus1/CVE-2022-24734](https://github.com/Altelus1/CVE-2022-24734)
 - [lavclash75/mybb-CVE-2022-24734](https://github.com/lavclash75/mybb-CVE-2022-24734)
 
 ### CVE-2022-24760 (2022-03-11)
@@ -2855,6 +2856,8 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 
 - [randorisec/CVE-2022-34918-LPE-PoC](https://github.com/randorisec/CVE-2022-34918-LPE-PoC)
 - [trhacknon/CVE-2022-34918-LPE-PoC](https://github.com/trhacknon/CVE-2022-34918-LPE-PoC)
+- [merlinepedra25/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra25/CVE-2022-34918-LPE-PoC)
+- [merlinepedra/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra/CVE-2022-34918-LPE-PoC)
 
 ### CVE-2022-34961
 - [bypazs/CVE-2022-34961](https://github.com/bypazs/CVE-2022-34961)
@@ -25480,6 +25483,7 @@ GNU Bash through 4.3 bash43-025 processes trailing strings after certain malform
 
 - [chef-boneyard/bash-shellshock](https://github.com/chef-boneyard/bash-shellshock)
 - [gina-alaska/bash-cve-2014-7169-cookbook](https://github.com/gina-alaska/bash-cve-2014-7169-cookbook)
+- [prince-stark/SHELL-SCHOCK](https://github.com/prince-stark/SHELL-SCHOCK)
 
 ### CVE-2014-7205 (2014-10-08)
 
