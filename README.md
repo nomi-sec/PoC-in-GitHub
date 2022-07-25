@@ -2618,6 +2618,14 @@ Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
 
 - [AgainstTheLight/CVE-2022-30929](https://github.com/AgainstTheLight/CVE-2022-30929)
 
+### CVE-2022-31101 (2022-06-27)
+
+<code>
+prestashop/blockwishlist is a prestashop extension which adds a block containing the customer's wishlists. In affected versions an authenticated customer can perform SQL injection. This issue is fixed in version 2.1.1. Users are advised to upgrade. There are no known workarounds for this issue.
+</code>
+
+- [MathiasReker/blm-vlun](https://github.com/MathiasReker/blm-vlun)
+
 ### CVE-2022-31138 (2022-07-11)
 
 <code>
@@ -17446,14 +17454,6 @@ In iOS before 11.4, a memory corruption issue exists and was addressed with impr
 
 - [omerporze/toothfairy](https://github.com/omerporze/toothfairy)
 
-### CVE-2018-4331 (2019-04-03)
-
-<code>
-A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12, macOS Mojave 10.14, tvOS 12, watchOS 5.
-</code>
-
-- [bazad/gsscred-race](https://github.com/bazad/gsscred-race)
-
 ### CVE-2018-4343 (2019-04-03)
 
 <code>
@@ -17523,8 +17523,6 @@ A use-after-free vulnerability was discovered in Adobe Flash Player before 28.0.
 </code>
 
 - [ydl555/CVE-2018-4878-](https://github.com/ydl555/CVE-2018-4878-)
-- [mdsecactivebreach/CVE-2018-4878](https://github.com/mdsecactivebreach/CVE-2018-4878)
-- [hybridious/CVE-2018-4878](https://github.com/hybridious/CVE-2018-4878)
 - [vysecurity/CVE-2018-4878](https://github.com/vysecurity/CVE-2018-4878)
 - [KathodeN/CVE-2018-4878](https://github.com/KathodeN/CVE-2018-4878)
 - [SyFi/CVE-2018-4878](https://github.com/SyFi/CVE-2018-4878)
@@ -17672,7 +17670,6 @@ In WordPress through 4.9.2, unauthenticated attackers can cause a denial of serv
 - [rastating/modsecurity-cve-2018-6389](https://github.com/rastating/modsecurity-cve-2018-6389)
 - [knqyf263/CVE-2018-6389](https://github.com/knqyf263/CVE-2018-6389)
 - [JulienGadanho/cve-2018-6389-php-patcher](https://github.com/JulienGadanho/cve-2018-6389-php-patcher)
-- [dsfau/wordpress-CVE-2018-6389](https://github.com/dsfau/wordpress-CVE-2018-6389)
 - [Jetserver/CVE-2018-6389-FIX](https://github.com/Jetserver/CVE-2018-6389-FIX)
 - [thechrono13/PoC---CVE-2018-6389](https://github.com/thechrono13/PoC---CVE-2018-6389)
 - [BlackRouter/cve-2018-6389](https://github.com/BlackRouter/cve-2018-6389)
