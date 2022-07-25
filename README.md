@@ -2870,13 +2870,28 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 - [merlinepedra/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra/CVE-2022-34918-LPE-PoC)
 - [linulinu/CVE-2022-34918](https://github.com/linulinu/CVE-2022-34918)
 
-### CVE-2022-34961
+### CVE-2022-34961 (2022-07-25)
+
+<code>
+OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK v6.3 LTS was discovered to contain a stored cross-site scripting (XSS) vulnerability via the Users Timeline module.
+</code>
+
 - [bypazs/CVE-2022-34961](https://github.com/bypazs/CVE-2022-34961)
 
-### CVE-2022-34962
+### CVE-2022-34962 (-)
+
+<code>
+OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK v6.3 LTS was discovered to contain a stored cross-site scripting (XSS) vulnerability via the Group Timeline module.
+</code>
+
 - [bypazs/CVE-2022-34962](https://github.com/bypazs/CVE-2022-34962)
 
-### CVE-2022-34963
+### CVE-2022-34963 (2022-07-25)
+
+<code>
+OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK v6.3 LTS was discovered to contain a stored cross-site scripting (XSS) vulnerability via the News Feed module.
+</code>
+
 - [bypazs/CVE-2022-34963](https://github.com/bypazs/CVE-2022-34963)
 
 ### CVE-2022-35131
@@ -7932,7 +7947,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
 - [BlueTeamSteve/CVE-2020-0601](https://github.com/BlueTeamSteve/CVE-2020-0601)
-- [apmunch/CVE-2020-0601](https://github.com/apmunch/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell)
@@ -7957,6 +7971,14 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey)
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 - [okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC)
+
+### CVE-2020-0606 (2020-01-14)
+
+<code>
+A remote code execution vulnerability exists in .NET software when the software fails to check the source markup of a file.An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user, aka '.NET Framework Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0605.
+</code>
+
+- [5l1v3r1/CVE-2020-0606](https://github.com/5l1v3r1/CVE-2020-0606)
 
 ### CVE-2020-0609 (2020-01-14)
 
@@ -15682,6 +15704,7 @@ The &quot;HTML Include and replace macro&quot; plugin before 1.5.0 for Confluenc
 An issue was discovered in Webmin &lt;=1.920. The parameter old in password_change.cgi contains a command injection vulnerability.
 </code>
 
+- [jas502n/CVE-2019-15107](https://github.com/jas502n/CVE-2019-15107)
 - [HACHp1/webmin_docker_and_exp](https://github.com/HACHp1/webmin_docker_and_exp)
 - [ketlerd/CVE-2019-15107](https://github.com/ketlerd/CVE-2019-15107)
 - [AdministratorGithub/CVE-2019-15107](https://github.com/AdministratorGithub/CVE-2019-15107)
