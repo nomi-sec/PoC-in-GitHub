@@ -1786,6 +1786,7 @@ The Atlassian Questions For Confluence app for Confluence Server and Data Center
 
 - [alcaparra/CVE-2022-26138](https://github.com/alcaparra/CVE-2022-26138)
 - [1mxml/CVE-2022-26138](https://github.com/1mxml/CVE-2022-26138)
+- [Daro1967/CVE-2022-26138-RCE](https://github.com/Daro1967/CVE-2022-26138-RCE)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -1926,6 +1927,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [cybersecurityresearcher/CVE-2022-26809-RCE-POC](https://github.com/cybersecurityresearcher/CVE-2022-26809-RCE-POC)
 - [ToomArni65/CVE-2022-26809-POC](https://github.com/ToomArni65/CVE-2022-26809-POC)
 - [ToomArni65/CVE-2022-26809-FINAL-POC](https://github.com/ToomArni65/CVE-2022-26809-FINAL-POC)
+- [Ziggy78/CVE-2022-26809-RCE-POC](https://github.com/Ziggy78/CVE-2022-26809-RCE-POC)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -2624,7 +2626,7 @@ Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
 prestashop/blockwishlist is a prestashop extension which adds a block containing the customer's wishlists. In affected versions an authenticated customer can perform SQL injection. This issue is fixed in version 2.1.1. Users are advised to upgrade. There are no known workarounds for this issue.
 </code>
 
-- [MathiasReker/blm-vlun](https://github.com/MathiasReker/blm-vlun)
+- [MathiasReker/blmvuln](https://github.com/MathiasReker/blmvuln)
 
 ### CVE-2022-31138 (2022-07-11)
 
@@ -2876,6 +2878,9 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 
 ### CVE-2022-34963
 - [bypazs/CVE-2022-34963](https://github.com/bypazs/CVE-2022-34963)
+
+### CVE-2022-35131
+- [ly1g3/Joplin-CVE-2022-35131](https://github.com/ly1g3/Joplin-CVE-2022-35131)
 
 ### CVE-2022-35416 (2022-07-10)
 
@@ -3279,6 +3284,8 @@ In several functions of MemoryFileSystem.cpp and related files, there is a possi
 </code>
 
 - [nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520)
+- [ShaikUsaf/frameworks_av_AOSP10_r33_CVE-2021-0520](https://github.com/ShaikUsaf/frameworks_av_AOSP10_r33_CVE-2021-0520)
+- [nidhi7598/frameworks_av_AOSP_10_r33_CVE-2021-0520](https://github.com/nidhi7598/frameworks_av_AOSP_10_r33_CVE-2021-0520)
 
 ### CVE-2021-0522 (2021-06-21)
 
@@ -6318,7 +6325,6 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 
 - [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
 - [Ridter/noPac](https://github.com/Ridter/noPac)
-- [waterrr/noPac](https://github.com/waterrr/noPac)
 - [ly4k/Pachine](https://github.com/ly4k/Pachine)
 - [cybersecurityworks553/noPac-detection](https://github.com/cybersecurityworks553/noPac-detection)
 
@@ -6474,6 +6480,14 @@ The SyncThru Web Service on Samsung SCX-6x55X printers allows an attacker to gai
 
 ### CVE-2021-42949
 - [dhammon/HotelDruid-CVE-2021-42949](https://github.com/dhammon/HotelDruid-CVE-2021-42949)
+
+### CVE-2021-43008 (2022-04-04)
+
+<code>
+Improper Access Control in Adminer versions 1.12.0 to 4.6.2 (fixed in version 4.6.3) allows an attacker to achieve Arbitrary File Read on the remote server by requesting the Adminer to connect to a remote MySQL database.
+</code>
+
+- [p0dalirius/CVE-2021-43008-AdminerRead](https://github.com/p0dalirius/CVE-2021-43008-AdminerRead)
 
 ### CVE-2021-43129 (2022-04-19)
 
@@ -6722,7 +6736,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot)
 - [TheArqsz/CVE-2021-44228-PoC](https://github.com/TheArqsz/CVE-2021-44228-PoC)
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
-- [rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server)
 - [f0ng/log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)
 - [lhotari/log4shell-mitigation-tester](https://github.com/lhotari/log4shell-mitigation-tester)
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
@@ -6762,7 +6775,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [atnetws/fail2ban-log4j](https://github.com/atnetws/fail2ban-log4j)
 - [kimobu/cve-2021-44228](https://github.com/kimobu/cve-2021-44228)
 - [KainsRache/anti-jndi](https://github.com/KainsRache/anti-jndi)
-- [pedrohavay/exploit-CVE-2021-44228](https://github.com/pedrohavay/exploit-CVE-2021-44228)
 - [0xRyan/log4j-nullroute](https://github.com/0xRyan/log4j-nullroute)
 - [fireeye/CVE-2021-44228](https://github.com/fireeye/CVE-2021-44228)
 - [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan)
@@ -12856,7 +12868,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [oneoy/BlueKeep](https://github.com/oneoy/BlueKeep)
 - [infiniti-team/CVE-2019-0708](https://github.com/infiniti-team/CVE-2019-0708)
 - [haishanzheng/CVE-2019-0708-generate-hosts](https://github.com/haishanzheng/CVE-2019-0708-generate-hosts)
-- [Ekultek/BlueKeep](https://github.com/Ekultek/BlueKeep)
 - [UraSecTeam/CVE-2019-0708](https://github.com/UraSecTeam/CVE-2019-0708)
 - [Gh0st0ne/rdpscan-BlueKeep](https://github.com/Gh0st0ne/rdpscan-BlueKeep)
 - [algo7/bluekeep_CVE-2019-0708_poc_to_exploit](https://github.com/algo7/bluekeep_CVE-2019-0708_poc_to_exploit)
@@ -13984,14 +13995,6 @@ SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrus
 
 - [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
 - [andyfeili/-CVE-2019-7214](https://github.com/andyfeili/-CVE-2019-7214)
-
-### CVE-2019-7216 (2019-01-31)
-
-<code>
-An issue was discovered in FileChucker 4.99e-free-e02. filechucker.cgi has a filter bypass that allows a malicious user to upload any type of file by using % characters within the extension, e.g., file.%ph%p becomes file.php.
-</code>
-
-- [Ekultek/CVE-2019-7216](https://github.com/Ekultek/CVE-2019-7216)
 
 ### CVE-2019-7219 (2019-04-11)
 
@@ -16183,14 +16186,6 @@ The UPnP endpoint URL /gena.cgi in the D-Link DIR-859 Wi-Fi router 1.05 and 1.06
 </code>
 
 - [Ler2sq/CVE-2019-17621](https://github.com/Ler2sq/CVE-2019-17621)
-
-### CVE-2019-17625 (2019-10-16)
-
-<code>
-There is a stored XSS in Rambox 0.6.9 that can lead to code execution. The XSS is in the name field while adding/editing a service. The problem occurs due to incorrect sanitization of the name field when being processed and stored. This allows a user to craft a payload for Node.js and Electron, such as an exec of OS commands within the onerror attribute of an IMG element.
-</code>
-
-- [Ekultek/CVE-2019-17625](https://github.com/Ekultek/CVE-2019-17625)
 
 ### CVE-2019-17633 (2019-12-19)
 
@@ -18816,7 +18811,6 @@ Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remo
 - [mazen160/struts-pwn_CVE-2018-11776](https://github.com/mazen160/struts-pwn_CVE-2018-11776)
 - [bhdresh/CVE-2018-11776](https://github.com/bhdresh/CVE-2018-11776)
 - [knqyf263/CVE-2018-11776](https://github.com/knqyf263/CVE-2018-11776)
-- [Ekultek/Strutter](https://github.com/Ekultek/Strutter)
 - [tuxotron/cve-2018-11776-docker](https://github.com/tuxotron/cve-2018-11776-docker)
 - [brianwrf/S2-057-CVE-2018-11776](https://github.com/brianwrf/S2-057-CVE-2018-11776)
 - [649/Apache-Struts-Shodan-Exploit](https://github.com/649/Apache-Struts-Shodan-Exploit)
@@ -19255,7 +19249,6 @@ OpenSSH through 7.7 is prone to a user enumeration vulnerability due to not dela
 - [MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473)
 - [66quentin/shodan-CVE-2018-15473](https://github.com/66quentin/shodan-CVE-2018-15473)
 - [0xrobiul/CVE-2018-15473](https://github.com/0xrobiul/CVE-2018-15473)
-- [Goldenmonkeyy/SSHusernameEnum](https://github.com/Goldenmonkeyy/SSHusernameEnum)
 
 ### CVE-2018-15499 (2018-08-24)
 
@@ -19897,7 +19890,6 @@ A flaw was found in PolicyKit (aka polkit) 0.115 that allows a user with a uid g
 
 - [AbsoZed/CVE-2018-19788](https://github.com/AbsoZed/CVE-2018-19788)
 - [d4gh0s7/CVE-2018-19788](https://github.com/d4gh0s7/CVE-2018-19788)
-- [Ekultek/PoC](https://github.com/Ekultek/PoC)
 - [jhlongjr/CVE-2018-19788](https://github.com/jhlongjr/CVE-2018-19788)
 
 ### CVE-2018-19854 (2018-12-04)
