@@ -2878,7 +2878,7 @@ OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK v6.3 LTS was discovered to contai
 
 - [bypazs/CVE-2022-34961](https://github.com/bypazs/CVE-2022-34961)
 
-### CVE-2022-34962 (-)
+### CVE-2022-34962 (2022-07-25)
 
 <code>
 OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK v6.3 LTS was discovered to contain a stored cross-site scripting (XSS) vulnerability via the Group Timeline module.
@@ -2894,7 +2894,12 @@ OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK v6.3 LTS was discovered to contai
 
 - [bypazs/CVE-2022-34963](https://github.com/bypazs/CVE-2022-34963)
 
-### CVE-2022-35131
+### CVE-2022-35131 (2022-07-25)
+
+<code>
+Joplin v2.8.8 allows attackers to execute arbitrary commands via a crafted payload injected into the Node titles.
+</code>
+
 - [ly1g3/Joplin-CVE-2022-35131](https://github.com/ly1g3/Joplin-CVE-2022-35131)
 
 ### CVE-2022-35416 (2022-07-10)
