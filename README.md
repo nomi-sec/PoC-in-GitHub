@@ -335,6 +335,7 @@ The c_rehash script does not properly sanitise shell metacharacters to prevent c
 - [trhacknon/CVE-2022-1292](https://github.com/trhacknon/CVE-2022-1292)
 - [alcaparra/CVE-2022-1292](https://github.com/alcaparra/CVE-2022-1292)
 - [rama291041610/CVE-2022-1292](https://github.com/rama291041610/CVE-2022-1292)
+- [nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292](https://github.com/nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292)
 
 ### CVE-2022-1329 (2022-04-19)
 
@@ -469,6 +470,9 @@ A critical issue has been discovered in GitLab affecting all versions starting f
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
+
+### CVE-2022-2466
+- [yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL](https://github.com/yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL)
 
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
@@ -15176,6 +15180,7 @@ getchar.c in Vim before 8.1.1365 and Neovim before 0.3.6 allows remote attackers
 - [pcy190/ace-vim-neovim](https://github.com/pcy190/ace-vim-neovim)
 - [oldthree3/CVE-2019-12735-VIM-NEOVIM](https://github.com/oldthree3/CVE-2019-12735-VIM-NEOVIM)
 - [nickylimjj/cve-2019-12735](https://github.com/nickylimjj/cve-2019-12735)
+- [st9007a/CVE-2019-12735](https://github.com/st9007a/CVE-2019-12735)
 
 ### CVE-2019-12744 (2019-06-20)
 
@@ -15744,6 +15749,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [trhacknon/CVE-2019-15107](https://github.com/trhacknon/CVE-2019-15107)
 - [NullBrunk/CVE-2019-15107](https://github.com/NullBrunk/CVE-2019-15107)
 - [psw01/CVE-2019-15107_webminRCE](https://github.com/psw01/CVE-2019-15107_webminRCE)
+- [TheAlpha19/MiniExploit](https://github.com/TheAlpha19/MiniExploit)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -16118,7 +16124,6 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 </code>
 
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
-- [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [triple-octopus/Bludit-CVE-2019-17240-Fork](https://github.com/triple-octopus/Bludit-CVE-2019-17240-Fork)
 - [0xkasra/CVE-2019-17240](https://github.com/0xkasra/CVE-2019-17240)
 - [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
@@ -24924,9 +24929,11 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [isgroup/openmagic](https://github.com/isgroup/openmagic)
 - [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
 - [takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse)
+- [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
 - [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
 - [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
+- [amerine/coronary](https://github.com/amerine/coronary)
 - [0x90/CVE-2014-0160](https://github.com/0x90/CVE-2014-0160)
 - [ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160)
 - [waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker)
@@ -25067,6 +25074,7 @@ The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExcha
 </code>
 
 - [landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266)
+- [linusyang/SSLPatch](https://github.com/linusyang/SSLPatch)
 - [gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc)
 
 ### CVE-2014-1303 (2014-03-26)
@@ -25164,6 +25172,7 @@ Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, all
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
+- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-2815 (2014-08-12)
 
