@@ -2494,6 +2494,7 @@ RARLAB UnRAR before 6.12 on Linux and UNIX allows directory traversal to write t
 - [TheL1ghtVn/CVE-2022-30333-PoC](https://github.com/TheL1ghtVn/CVE-2022-30333-PoC)
 - [rbowes-r7/unrar-cve-2022-30333-poc](https://github.com/rbowes-r7/unrar-cve-2022-30333-poc)
 - [J0hnbX/CVE-2022-30333](https://github.com/J0hnbX/CVE-2022-30333)
+- [aslitsecurity/Zimbra-CVE-2022-30333](https://github.com/aslitsecurity/Zimbra-CVE-2022-30333)
 
 ### CVE-2022-30489 (2022-05-13)
 
@@ -8813,6 +8814,7 @@ Multiple vulnerabilities in the web services interface of Cisco Adaptive Securit
 - [Hudi233/CVE-2020-3580](https://github.com/Hudi233/CVE-2020-3580)
 - [adarshvs/CVE-2020-3580](https://github.com/adarshvs/CVE-2020-3580)
 - [cruxN3T/CVE-2020-3580](https://github.com/cruxN3T/CVE-2020-3580)
+- [catatonicprime/CVE-2020-3580](https://github.com/catatonicprime/CVE-2020-3580)
 
 ### CVE-2020-3766 (2020-03-25)
 
