@@ -2636,6 +2636,9 @@ mailcow is a mailserver suite. Prior to mailcow-dockerized version 2022-06a, an 
 
 - [ly1g3/Mailcow-CVE-2022-31138](https://github.com/ly1g3/Mailcow-CVE-2022-31138)
 
+### CVE-2022-31181
+- [drkbcn/lblfixer_cve_2022_31181](https://github.com/drkbcn/lblfixer_cve_2022_31181)
+
 ### CVE-2022-31245 (2022-05-20)
 
 <code>
@@ -4431,6 +4434,14 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [timb-machine-mirrors/CVE-2021-22005](https://github.com/timb-machine-mirrors/CVE-2021-22005)
 - [InventorMAO/cve-2021-22005](https://github.com/InventorMAO/cve-2021-22005)
 
+### CVE-2021-22053 (2021-11-19)
+
+<code>
+Applications using both `spring-cloud-netflix-hystrix-dashboard` and `spring-boot-starter-thymeleaf` expose a way to execute code submitted within the request URI path during the resolution of view templates. When a request is made at `/hystrix/monitor;[user-provided data]`, the path elements following `hystrix/monitor` are being evaluated as SpringEL expressions, which can lead to code execution.
+</code>
+
+- [Vulnmachines/CVE-2021-22053](https://github.com/Vulnmachines/CVE-2021-22053)
+
 ### CVE-2021-22054 (2021-12-17)
 
 <code>
@@ -5944,6 +5955,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 </code>
 
 - [corelight/CVE-2021-38647](https://github.com/corelight/CVE-2021-38647)
+- [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
 
 ### CVE-2021-39165 (2021-08-26)
 
@@ -6039,6 +6051,7 @@ An issue was discovered in Nagios XI 5.8.5. In the Manage Dashlets section of th
 An integer overflow exists in HAProxy 2.0 through 2.5 in htx_add_header that can be exploited to perform an HTTP request smuggling attack, allowing an attacker to bypass all configured http-request HAProxy ACLs and possibly other ACLs.
 </code>
 
+- [Vulnmachines/HAProxy_CVE-2021-40346](https://github.com/Vulnmachines/HAProxy_CVE-2021-40346)
 - [alexOarga/CVE-2021-40346](https://github.com/alexOarga/CVE-2021-40346)
 
 ### CVE-2021-40373 (2021-09-10)
@@ -6191,6 +6204,7 @@ jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0
 Metabase is an open source data analytics platform. In affected versions a security issue has been discovered with the custom GeoJSON map (`admin-&gt;settings-&gt;maps-&gt;custom maps-&gt;add a map`) support and potential local file inclusion (including environment variables). URLs were not validated prior to being loaded. This issue is fixed in a new maintenance release (0.40.5 and 1.40.5), and any subsequent release after that. If you’re unable to upgrade immediately, you can mitigate this by including rules in your reverse proxy or load balancer or WAF to provide a validation filter before the application.
 </code>
 
+- [Vulnmachines/Metabase_CVE-2021-41277](https://github.com/Vulnmachines/Metabase_CVE-2021-41277)
 - [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
 - [frknktlca/Metabase_Nmap_Script](https://github.com/frknktlca/Metabase_Nmap_Script)
 - [Chen-ling-afk/CVE-2021-41277](https://github.com/Chen-ling-afk/CVE-2021-41277)
@@ -6757,7 +6771,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [TheArqsz/CVE-2021-44228-PoC](https://github.com/TheArqsz/CVE-2021-44228-PoC)
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
 - [f0ng/log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)
-- [lhotari/log4shell-mitigation-tester](https://github.com/lhotari/log4shell-mitigation-tester)
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
@@ -6775,7 +6788,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
 - [dtact/divd-2021-00038--log4j-scanner](https://github.com/dtact/divd-2021-00038--log4j-scanner)
-- [kali-dass/CVE-2021-44228-log4Shell](https://github.com/kali-dass/CVE-2021-44228-log4Shell)
 - [Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228](https://github.com/Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228)
 - [infiniroot/nginx-mitigate-log4shell](https://github.com/infiniroot/nginx-mitigate-log4shell)
 - [authomize/log4j-log4shell-affected](https://github.com/authomize/log4j-log4shell-affected)
@@ -6812,7 +6824,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [0xsyr0/Log4Shell](https://github.com/0xsyr0/Log4Shell)
 - [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
 - [manuel-alvarez-alvarez/log4j-cve-2021-44228](https://github.com/manuel-alvarez-alvarez/log4j-cve-2021-44228)
-- [madCdan/JndiLookup](https://github.com/madCdan/JndiLookup)
 - [Koupah/MC-Log4j-Patcher](https://github.com/Koupah/MC-Log4j-Patcher)
 - [AlexandreHeroux/Fix-CVE-2021-44228](https://github.com/AlexandreHeroux/Fix-CVE-2021-44228)
 - [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
@@ -6820,7 +6831,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [hackinghippo/log4shell_ioc_ips](https://github.com/hackinghippo/log4shell_ioc_ips)
 - [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
-- [taurusxin/CVE-2021-44228](https://github.com/taurusxin/CVE-2021-44228)
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [yanghaoi/CVE-2021-44228_Log4Shell](https://github.com/yanghaoi/CVE-2021-44228_Log4Shell)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
@@ -18753,6 +18763,14 @@ A hardcoded FTP username of myscada and password of Vikuk63 in 'myscadagate.exe'
 
 - [EmreOvunc/mySCADA-myPRO-7-Hardcoded-FTP-Username-and-Password](https://github.com/EmreOvunc/mySCADA-myPRO-7-Hardcoded-FTP-Username-and-Password)
 
+### CVE-2018-11321 (2018-05-22)
+
+<code>
+An issue was discovered in com_fields in Joomla! Core before 3.8.8. Inadequate filtering allows users authorised to create custom fields to manipulate the filtering options and inject an unvalidated option.
+</code>
+
+- [ExploitCN/CVE-2018-11321](https://github.com/ExploitCN/CVE-2018-11321)
+
 ### CVE-2018-11450 (2018-07-09)
 
 <code>
@@ -24906,11 +24924,9 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [isgroup/openmagic](https://github.com/isgroup/openmagic)
 - [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
 - [takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse)
-- [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
 - [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
 - [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
-- [amerine/coronary](https://github.com/amerine/coronary)
 - [0x90/CVE-2014-0160](https://github.com/0x90/CVE-2014-0160)
 - [ice-security88/CVE-2014-0160](https://github.com/ice-security88/CVE-2014-0160)
 - [waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker)
@@ -25051,7 +25067,6 @@ The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExcha
 </code>
 
 - [landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266)
-- [linusyang/SSLPatch](https://github.com/linusyang/SSLPatch)
 - [gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc)
 
 ### CVE-2014-1303 (2014-03-26)
@@ -25149,7 +25164,6 @@ Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, all
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
-- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-2815 (2014-08-12)
 
