@@ -293,6 +293,14 @@ The WPQA Builder Plugin WordPress plugin before 5.2, used as a companion plugin 
 
 - [V35HR4J/CVE-2022-1051](https://github.com/V35HR4J/CVE-2022-1051)
 
+### CVE-2022-1077 (2022-03-29)
+
+<code>
+A vulnerability was found in TEM FLEX-1080 and FLEX-1085 1.6.0. It has been declared as problematic. This vulnerability log.cgi of the component Log Handler. A direct request leads to information disclosure of hardware information. The attack can be initiated remotely and does not require any form of authentication.
+</code>
+
+- [MrEmpy/CVE-2022-1077](https://github.com/MrEmpy/CVE-2022-1077)
+
 ### CVE-2022-1096 (2022-07-22)
 
 <code>
