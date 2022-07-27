@@ -4094,6 +4094,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
 - [CronoX1/CVE-2021-4034](https://github.com/CronoX1/CVE-2021-4034)
 - [n0v4mx/cve-2021-4034](https://github.com/n0v4mx/cve-2021-4034)
+- [carloscast1llo/CVE-2021-4034](https://github.com/carloscast1llo/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -5978,6 +5979,14 @@ Cachet is an open source status page. With Cachet prior to and including 2.3.18,
 
 - [W0rty/CVE-2021-39165](https://github.com/W0rty/CVE-2021-39165)
 
+### CVE-2021-39174 (2021-08-27)
+
+<code>
+Cachet is an open source status page system. Prior to version 2.5.1, authenticated users, regardless of their privileges (User or Admin), can leak the value of any configuration entry of the dotenv file, e.g. the application secret (`APP_KEY`) and various passwords (email, database, etc). This issue was addressed in version 2.5.1 by improving `UpdateConfigCommandHandler` and preventing the use of nested variables in the resulting dotenv configuration file. As a workaround, only allow trusted source IP addresses to access to the administration dashboard.
+</code>
+
+- [narkopolo/CVE-2021-39174-PoC](https://github.com/narkopolo/CVE-2021-39174-PoC)
+
 ### CVE-2021-39408 (2022-06-24)
 
 <code>
@@ -6845,9 +6854,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
-- [yanghaoi/CVE-2021-44228_Log4Shell](https://github.com/yanghaoi/CVE-2021-44228_Log4Shell)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
-- [threatmonit/Log4j-IOCs](https://github.com/threatmonit/Log4j-IOCs)
 - [ben-smash/l4j-info](https://github.com/ben-smash/l4j-info)
 - [strawhatasif/log4j-test](https://github.com/strawhatasif/log4j-test)
 - [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
