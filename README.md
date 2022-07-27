@@ -17189,6 +17189,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 - [seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628)
 - [BabyTeam1024/cve-2018-2628](https://github.com/BabyTeam1024/cve-2018-2628)
+- [cscadoge/weblogic-cve-2018-2628](https://github.com/cscadoge/weblogic-cve-2018-2628)
 
 ### CVE-2018-2636 (2018-01-17)
 
