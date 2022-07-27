@@ -1940,6 +1940,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [ToomArni65/CVE-2022-26809-POC](https://github.com/ToomArni65/CVE-2022-26809-POC)
 - [ToomArni65/CVE-2022-26809-FINAL-POC](https://github.com/ToomArni65/CVE-2022-26809-FINAL-POC)
 - [Ziggy78/CVE-2022-26809-RCE-POC](https://github.com/Ziggy78/CVE-2022-26809-RCE-POC)
+- [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -24895,6 +24896,14 @@ The compat_sys_recvmmsg function in net/compat.c in the Linux kernel before 3.13
 
 - [saelo/cve-2014-0038](https://github.com/saelo/cve-2014-0038)
 - [kiruthikan99/IT19115276](https://github.com/kiruthikan99/IT19115276)
+
+### CVE-2014-0043 (2017-10-02)
+
+<code>
+In Apache Wicket 1.5.10 or 6.13.0, by issuing requests to special urls handled by Wicket, it is possible to check for the existence of particular classes in the classpath and thus check whether a third party library with a known security vulnerability is in use.
+</code>
+
+- [JJK96/JavaClasspathEnum](https://github.com/JJK96/JavaClasspathEnum)
 
 ### CVE-2014-0050 (2014-03-28)
 
