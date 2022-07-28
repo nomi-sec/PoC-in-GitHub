@@ -8666,6 +8666,14 @@ A stack-based buffer overflow vulnerability has been reported to affect QNAP NAS
 
 - [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
 
+### CVE-2020-2509 (2021-04-16)
+
+<code>
+A command injection vulnerability has been reported to affect QTS and QuTS hero. If exploited, this vulnerability allows attackers to execute arbitrary commands in a compromised application. We have already fixed this vulnerability in the following versions: QTS 4.5.2.1566 Build 20210202 and later QTS 4.5.1.1495 Build 20201123 and later QTS 4.3.6.1620 Build 20210322 and later QTS 4.3.4.1632 Build 20210324 and later QTS 4.3.3.1624 Build 20210416 and later QTS 4.2.6 Build 20210327 and later QuTS hero h4.5.1.1491 build 20201119 and later
+</code>
+
+- [jbaines-r7/overkill](https://github.com/jbaines-r7/overkill)
+
 ### CVE-2020-2546 (2020-01-15)
 
 <code>
