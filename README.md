@@ -644,6 +644,7 @@ WordPress is a free and open-source content management system written in PHP and
 - [purple-WL/wordpress-CVE-2022-21661](https://github.com/purple-WL/wordpress-CVE-2022-21661)
 - [0x4E0x650x6F/Wordpress-cve-CVE-2022-21661](https://github.com/0x4E0x650x6F/Wordpress-cve-CVE-2022-21661)
 - [PyterSmithDarkGhost/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection-main](https://github.com/PyterSmithDarkGhost/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection-main)
+- [z92g/CVE-2022-21661](https://github.com/z92g/CVE-2022-21661)
 
 ### CVE-2022-21668 (2022-01-10)
 
@@ -12957,6 +12958,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [oneoy/BlueKeep](https://github.com/oneoy/BlueKeep)
 - [infiniti-team/CVE-2019-0708](https://github.com/infiniti-team/CVE-2019-0708)
 - [haishanzheng/CVE-2019-0708-generate-hosts](https://github.com/haishanzheng/CVE-2019-0708-generate-hosts)
+- [Ekultek/BlueKeep](https://github.com/Ekultek/BlueKeep)
 - [UraSecTeam/CVE-2019-0708](https://github.com/UraSecTeam/CVE-2019-0708)
 - [Gh0st0ne/rdpscan-BlueKeep](https://github.com/Gh0st0ne/rdpscan-BlueKeep)
 - [algo7/bluekeep_CVE-2019-0708_poc_to_exploit](https://github.com/algo7/bluekeep_CVE-2019-0708_poc_to_exploit)
@@ -14084,6 +14086,14 @@ SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrus
 
 - [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
 - [andyfeili/-CVE-2019-7214](https://github.com/andyfeili/-CVE-2019-7214)
+
+### CVE-2019-7216 (2019-01-31)
+
+<code>
+An issue was discovered in FileChucker 4.99e-free-e02. filechucker.cgi has a filter bypass that allows a malicious user to upload any type of file by using % characters within the extension, e.g., file.%ph%p becomes file.php.
+</code>
+
+- [Ekultek/CVE-2019-7216](https://github.com/Ekultek/CVE-2019-7216)
 
 ### CVE-2019-7219 (2019-04-11)
 
@@ -16277,6 +16287,14 @@ The UPnP endpoint URL /gena.cgi in the D-Link DIR-859 Wi-Fi router 1.05 and 1.06
 </code>
 
 - [Ler2sq/CVE-2019-17621](https://github.com/Ler2sq/CVE-2019-17621)
+
+### CVE-2019-17625 (2019-10-16)
+
+<code>
+There is a stored XSS in Rambox 0.6.9 that can lead to code execution. The XSS is in the name field while adding/editing a service. The problem occurs due to incorrect sanitization of the name field when being processed and stored. This allows a user to craft a payload for Node.js and Electron, such as an exec of OS commands within the onerror attribute of an IMG element.
+</code>
+
+- [Ekultek/CVE-2019-17625](https://github.com/Ekultek/CVE-2019-17625)
 
 ### CVE-2019-17633 (2019-12-19)
 
@@ -18756,6 +18774,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933)
 - [JoSecMx/CVE-2018-10933_Scanner](https://github.com/JoSecMx/CVE-2018-10933_Scanner)
 - [cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933)
+- [EmmanuelCruzL/CVE-2018-10933](https://github.com/EmmanuelCruzL/CVE-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
 
@@ -18911,6 +18930,7 @@ Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remo
 - [mazen160/struts-pwn_CVE-2018-11776](https://github.com/mazen160/struts-pwn_CVE-2018-11776)
 - [bhdresh/CVE-2018-11776](https://github.com/bhdresh/CVE-2018-11776)
 - [knqyf263/CVE-2018-11776](https://github.com/knqyf263/CVE-2018-11776)
+- [Ekultek/Strutter](https://github.com/Ekultek/Strutter)
 - [tuxotron/cve-2018-11776-docker](https://github.com/tuxotron/cve-2018-11776-docker)
 - [brianwrf/S2-057-CVE-2018-11776](https://github.com/brianwrf/S2-057-CVE-2018-11776)
 - [649/Apache-Struts-Shodan-Exploit](https://github.com/649/Apache-Struts-Shodan-Exploit)
@@ -19990,6 +20010,7 @@ A flaw was found in PolicyKit (aka polkit) 0.115 that allows a user with a uid g
 
 - [AbsoZed/CVE-2018-19788](https://github.com/AbsoZed/CVE-2018-19788)
 - [d4gh0s7/CVE-2018-19788](https://github.com/d4gh0s7/CVE-2018-19788)
+- [Ekultek/PoC](https://github.com/Ekultek/PoC)
 - [jhlongjr/CVE-2018-19788](https://github.com/jhlongjr/CVE-2018-19788)
 
 ### CVE-2018-19854 (2018-12-04)
@@ -20601,8 +20622,6 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 </code>
 
 - [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
-- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
-- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -20861,7 +20880,6 @@ Multiple cross-site request forgery (CSRF) vulnerabilities on the D-Link DI-524 
 The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
-- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
 - [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
@@ -22066,7 +22084,7 @@ Apache CXF supports sending and receiving attachments via either the JAX-WS or J
 Remote code execution occurs in Apache Solr before 7.1 with Apache Lucene before 7.1 by exploiting XXE in conjunction with use of a Config API add-listener command to reach the RunExecutableListener class. Elasticsearch, although it uses Lucene, is NOT vulnerable to this. Note that the XML external entity expansion vulnerability occurs in the XML Query Parser which is available, by default, for any query request with parameters deftype=xmlparser and can be exploited to upload malicious data to the /upload request handler or as Blind XXE using ftp wrapper in order to read arbitrary local files from the Solr server. Note also that the second vulnerability relates to remote code execution using the RunExecutableListener available on all affected versions of Solr.
 </code>
 
-- [77Huan/-Wiki](https://github.com/77Huan/-Wiki)
+- [Ranwu0/-Wiki](https://github.com/Ranwu0/-Wiki)
 
 ### CVE-2017-12635 (2017-11-14)
 
