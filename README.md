@@ -102,7 +102,7 @@ A flaw was found in Unzip. The vulnerability occurs during the conversion of a w
 A vulnerability in Jira Seraph allows a remote, unauthenticated attacker to bypass authentication by sending a specially crafted HTTP request. This affects Atlassian Jira Server and Data Center versions before 8.13.18, versions 8.14.0 and later before 8.20.6, and versions 8.21.0 and later before 8.22.0. This also affects Atlassian Jira Service Management Server and Data Center versions before 4.13.18, versions 4.14.0 and later before 4.20.6, and versions 4.21.0 and later before 4.22.0.
 </code>
 
-- [Pear1y/CVE-2022-0540-Preauth-RCE](https://github.com/Pear1y/CVE-2022-0540-Preauth-RCE)
+- [Pear1y/CVE-2022-0540-RCE](https://github.com/Pear1y/CVE-2022-0540-RCE)
 
 ### CVE-2022-0543 (2022-02-18)
 
@@ -1923,7 +1923,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [websecnl/CVE-2022-26809](https://github.com/websecnl/CVE-2022-26809)
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
 - [corelight/cve-2022-26809](https://github.com/corelight/cve-2022-26809)
-- [DESC0N0C1D0/CVE-2022-26809-RCE](https://github.com/DESC0N0C1D0/CVE-2022-26809-RCE)
+- [UNDESC0N0CID0/CVE-2022-26809-RCE](https://github.com/UNDESC0N0CID0/CVE-2022-26809-RCE)
 - [jones199023/CVE-2022-26809](https://github.com/jones199023/CVE-2022-26809)
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
 - [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
@@ -27616,6 +27616,14 @@ The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the clie
 
 
 ## 2001
+### CVE-2001-0550 (2002-06-25)
+
+<code>
+wu-ftpd 2.6.1 allows remote attackers to execute arbitrary commands via a &quot;~{&quot; argument to commands such as CWD, which is not properly handled by the glob function (ftpglob).
+</code>
+
+- [gilberto47831/Network-Filesystem-Forensics](https://github.com/gilberto47831/Network-Filesystem-Forensics)
+
 ### CVE-2001-0680 (2002-03-09)
 
 <code>
