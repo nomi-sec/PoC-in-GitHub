@@ -460,6 +460,14 @@ The ARMember WordPress plugin before 3.4.8 is vulnerable to account takeover (ev
 ### CVE-2022-1972
 - [randorisec/CVE-2022-1972-infoleak-PoC](https://github.com/randorisec/CVE-2022-1972-infoleak-PoC)
 
+### CVE-2022-2022 (2022-06-07)
+
+<code>
+Cross-site Scripting (XSS) - Stored in GitHub repository nocodb/nocodb prior to 0.91.7.
+</code>
+
+- [GREENHAT7/pxplan](https://github.com/GREENHAT7/pxplan)
+
 ### CVE-2022-2097 (2022-07-05)
 
 <code>
@@ -1799,6 +1807,7 @@ The Atlassian Questions For Confluence app for Confluence Server and Data Center
 - [alcaparra/CVE-2022-26138](https://github.com/alcaparra/CVE-2022-26138)
 - [1mxml/CVE-2022-26138](https://github.com/1mxml/CVE-2022-26138)
 - [Daro1967/CVE-2022-26138-RCE](https://github.com/Daro1967/CVE-2022-26138-RCE)
+- [Vulnmachines/Confluence-Question-CVE-2022-26138-](https://github.com/Vulnmachines/Confluence-Question-CVE-2022-26138-)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -2650,9 +2659,6 @@ mailcow is a mailserver suite. Prior to mailcow-dockerized version 2022-06a, an 
 
 - [ly1g3/Mailcow-CVE-2022-31138](https://github.com/ly1g3/Mailcow-CVE-2022-31138)
 
-### CVE-2022-31181
-- [drkbcn/lblfixer_cve_2022_31181](https://github.com/drkbcn/lblfixer_cve_2022_31181)
-
 ### CVE-2022-31245 (2022-05-20)
 
 <code>
@@ -2934,6 +2940,22 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 </code>
 
 - [AngeloPioAmirante/CVE-2022-35899](https://github.com/AngeloPioAmirante/CVE-2022-35899)
+
+### CVE-2022-36408 (2022-07-22)
+
+<code>
+PrestaShop 1.6.0.10 through 1.7.x before 1.7.8.7 allows remote attackers to execute arbitrary code, aka a &quot;previously unknown vulnerability chain&quot; related to SQL injection and MySQL Smarty cache storage injection, as exploited in the wild in July 2022.
+</code>
+
+- [drkbcn/lblfixer_cve_2022_36408](https://github.com/drkbcn/lblfixer_cve_2022_36408)
+
+### CVE-2022-36946 (2022-07-27)
+
+<code>
+nfqnl_mangle in net/netfilter/nfnetlink_queue.c in the Linux kernel through 5.18.14 allows remote attackers to cause a denial of service (panic) because, in the case of an nf_queue verdict with a one-byte nfta_payload attribute, an skb_pull can encounter a negative skb-&gt;len.
+</code>
+
+- [Pwnzer0tt1/CVE-2022-36946](https://github.com/Pwnzer0tt1/CVE-2022-36946)
 
 
 ## 2021
@@ -6332,6 +6354,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [honypot/CVE-2021-42013](https://github.com/honypot/CVE-2021-42013)
 - [Adashz/CVE-2021-42013](https://github.com/Adashz/CVE-2021-42013)
 - [viliuspovilaika/cve-2021-42013](https://github.com/viliuspovilaika/cve-2021-42013)
+- [theykillmeslowly/CVE-2021-42013](https://github.com/theykillmeslowly/CVE-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -6857,7 +6880,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
 - [ben-smash/l4j-info](https://github.com/ben-smash/l4j-info)
-- [strawhatasif/log4j-test](https://github.com/strawhatasif/log4j-test)
 - [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
 - [tica506/Siem-queries-for-CVE-2021-44228](https://github.com/tica506/Siem-queries-for-CVE-2021-44228)
 - [chilit-nl/log4shell-example](https://github.com/chilit-nl/log4shell-example)
@@ -20948,6 +20970,7 @@ Firmware in the Intel Puma 5, 6, and 7 Series might experience resource depletio
 Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
+- [opsxcq/exploit-cve-2017-5715](https://github.com/opsxcq/exploit-cve-2017-5715)
 - [mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list)
 - [GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment)
 - [dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit)
@@ -26245,6 +26268,7 @@ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured
 - [tardummy01/oscp_scripts-1](https://github.com/tardummy01/oscp_scripts-1)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
+- [theykillmeslowly/CVE-2012-1823](https://github.com/theykillmeslowly/CVE-2012-1823)
 
 ### CVE-2012-1870 (2012-07-10)
 
