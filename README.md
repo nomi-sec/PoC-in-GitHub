@@ -309,6 +309,14 @@ Type confusion in V8 in Google Chrome prior to 99.0.4844.84 allowed a remote att
 
 - [Maverick-cmd/Chrome-and-Edge-Version-Dumper](https://github.com/Maverick-cmd/Chrome-and-Edge-Version-Dumper)
 
+### CVE-2022-1119 (2022-04-19)
+
+<code>
+The Simple File List WordPress plugin is vulnerable to Arbitrary File Download via the eeFile parameter found in the ~/includes/ee-downloader.php file due to missing controls which makes it possible unauthenticated attackers to supply a path to a file that will subsequently be downloaded, in versions up to and including 3.2.7.
+</code>
+
+- [z92g/CVE-2022-1119](https://github.com/z92g/CVE-2022-1119)
+
 ### CVE-2022-1162 (2022-04-04)
 
 <code>
@@ -3747,7 +3755,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [oneoy/CVE-2021-3156](https://github.com/oneoy/CVE-2021-3156)
 - [worawit/CVE-2021-3156](https://github.com/worawit/CVE-2021-3156)
 - [lmol/CVE-2021-3156](https://github.com/lmol/CVE-2021-3156)
-- [Nokialinux/CVE-2021-3156](https://github.com/Nokialinux/CVE-2021-3156)
+- [BearCat4/CVE-2021-3156](https://github.com/BearCat4/CVE-2021-3156)
 - [password520/CVE-2021-3156](https://github.com/password520/CVE-2021-3156)
 - [capturingcats/CVE-2021-3156](https://github.com/capturingcats/CVE-2021-3156)
 - [LiveOverflow/pwnedit](https://github.com/LiveOverflow/pwnedit)
@@ -12902,7 +12910,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [yetiddbb/CVE-2019-0708-PoC](https://github.com/yetiddbb/CVE-2019-0708-PoC)
 - [p0p0p0/CVE-2019-0708-exploit](https://github.com/p0p0p0/CVE-2019-0708-exploit)
 - [rockmelodies/CVE-2019-0708-Exploit](https://github.com/rockmelodies/CVE-2019-0708-Exploit)
-- [matengfei000/CVE-2019-0708](https://github.com/matengfei000/CVE-2019-0708)
+- [anquanscan/CVE-2019-0708](https://github.com/anquanscan/CVE-2019-0708)
 - [xiyangzuishuai/Dark-Network-CVE-2019-0708](https://github.com/xiyangzuishuai/Dark-Network-CVE-2019-0708)
 - [temp-user-2014/CVE-2019-0708](https://github.com/temp-user-2014/CVE-2019-0708)
 - [areusecure/CVE-2019-0708](https://github.com/areusecure/CVE-2019-0708)
