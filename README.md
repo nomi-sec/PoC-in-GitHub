@@ -392,7 +392,6 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [qusaialhaddad/F5-BigIP-CVE-2022-1388](https://github.com/qusaialhaddad/F5-BigIP-CVE-2022-1388)
 - [chesterblue/CVE-2022-1388](https://github.com/chesterblue/CVE-2022-1388)
 - [Angus-Team/F5-BIG-IP-RCE-CVE-2022-1388](https://github.com/Angus-Team/F5-BIG-IP-RCE-CVE-2022-1388)
-- [hou5/CVE-2022-1388](https://github.com/hou5/CVE-2022-1388)
 - [LinJacck/CVE-2022-1388-EXP](https://github.com/LinJacck/CVE-2022-1388-EXP)
 - [iveresk/cve-2022-1388-1veresk](https://github.com/iveresk/cve-2022-1388-1veresk)
 - [shamo0/CVE-2022-1388](https://github.com/shamo0/CVE-2022-1388)
@@ -491,6 +490,7 @@ A critical issue has been discovered in GitLab affecting all versions starting f
 </code>
 
 - [safe3s/CVE-2022-2185-poc](https://github.com/safe3s/CVE-2022-2185-poc)
+- [ESUAdmin/CVE-2022-2185](https://github.com/ESUAdmin/CVE-2022-2185)
 
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
@@ -1777,7 +1777,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [Y000o/Confluence-CVE-2022-26134](https://github.com/Y000o/Confluence-CVE-2022-26134)
 - [PyterSmithDarkGhost/0DAYEXPLOITAtlassianConfluenceCVE-2022-26134](https://github.com/PyterSmithDarkGhost/0DAYEXPLOITAtlassianConfluenceCVE-2022-26134)
 - [redhuntlabs/ConfluentPwn](https://github.com/redhuntlabs/ConfluentPwn)
-- [hou5/CVE-2022-26134](https://github.com/hou5/CVE-2022-26134)
 - [cai-niao98/CVE-2022-26134](https://github.com/cai-niao98/CVE-2022-26134)
 - [sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134)
 - [KeepWannabe/BotCon](https://github.com/KeepWannabe/BotCon)
@@ -4830,6 +4829,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 </code>
 
 - [0xf4n9x/CVE-2021-26084](https://github.com/0xf4n9x/CVE-2021-26084)
+- [Vulnmachines/Confluence_CVE-2021-26084](https://github.com/Vulnmachines/Confluence_CVE-2021-26084)
 - [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [orangmuda/CVE-2021-26084](https://github.com/orangmuda/CVE-2021-26084)
@@ -6890,7 +6890,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
 - [ben-smash/l4j-info](https://github.com/ben-smash/l4j-info)
 - [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
-- [tica506/Siem-queries-for-CVE-2021-44228](https://github.com/tica506/Siem-queries-for-CVE-2021-44228)
 - [chilit-nl/log4shell-example](https://github.com/chilit-nl/log4shell-example)
 - [Occamsec/log4j-checker](https://github.com/Occamsec/log4j-checker)
 - [snatalius/log4j2-CVE-2021-44228-poc-local](https://github.com/snatalius/log4j2-CVE-2021-44228-poc-local)
@@ -18123,7 +18122,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [rafaelcaria/drupalgeddon2-CVE-2018-7600](https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600)
 - [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
 - [0xkasra/CVE-2018-7600](https://github.com/0xkasra/CVE-2018-7600)
-- [anldori/Drupal-CVE-2018-7600](https://github.com/anldori/Drupal-CVE-2018-7600)
+- [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
@@ -24210,6 +24209,7 @@ The Groovy scripting engine in Elasticsearch before 1.3.8 and 1.4.x before 1.4.3
 - [t0kx/exploit-CVE-2015-1427](https://github.com/t0kx/exploit-CVE-2015-1427)
 - [cved-sources/cve-2015-1427](https://github.com/cved-sources/cve-2015-1427)
 - [cyberharsh/Groovy-scripting-engine-CVE-2015-1427](https://github.com/cyberharsh/Groovy-scripting-engine-CVE-2015-1427)
+- [xpgdgit/CVE-2015-1427](https://github.com/xpgdgit/CVE-2015-1427)
 
 ### CVE-2015-1474 (2015-02-15)
 
