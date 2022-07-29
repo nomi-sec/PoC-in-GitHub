@@ -624,6 +624,7 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 - [Damok82/SignChecker](https://github.com/Damok82/SignChecker)
 - [fundaergn/CVE-2022-21449](https://github.com/fundaergn/CVE-2022-21449)
 - [PyterSmithDarkGhost/CVE-2022-21449-I2P-TLS-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-21449-I2P-TLS-POC)
+- [Skipper7718/CVE-2022-21449-showcase](https://github.com/Skipper7718/CVE-2022-21449-showcase)
 
 ### CVE-2022-21658 (2022-01-20)
 
@@ -2594,6 +2595,14 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [west9b/CVE-2022-30525](https://github.com/west9b/CVE-2022-30525)
 - [furkanzengin/CVE-2022-30525](https://github.com/furkanzengin/CVE-2022-30525)
 - [ProngedFork/CVE-2022-30525](https://github.com/ProngedFork/CVE-2022-30525)
+
+### CVE-2022-30591 (2022-07-06)
+
+<code>
+** DISPUTED ** quic-go through 0.27.0 allows remote attackers to cause a denial of service (CPU consumption) via a Slowloris variant in which incomplete QUIC or HTTP/3 requests are sent. This occurs because mtu_discoverer.go misparses the MTU Discovery service and consequently overflows the probe timer. NOTE: the vendor's position is that this behavior should not be listed as a vulnerability on the CVE List.
+</code>
+
+- [efchatz/QUIC-attacks](https://github.com/efchatz/QUIC-attacks)
 
 ### CVE-2022-30594 (2022-05-12)
 
@@ -6888,7 +6897,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
-- [ben-smash/l4j-info](https://github.com/ben-smash/l4j-info)
 - [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
 - [chilit-nl/log4shell-example](https://github.com/chilit-nl/log4shell-example)
 - [Occamsec/log4j-checker](https://github.com/Occamsec/log4j-checker)
