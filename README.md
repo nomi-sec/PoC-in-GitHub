@@ -17019,6 +17019,14 @@ A remote code execution vulnerability exists in Microsoft Office software when t
 
 - [ymgh96/Detecting-the-CVE-2018-1026-and-its-patch](https://github.com/ymgh96/Detecting-the-CVE-2018-1026-and-its-patch)
 
+### CVE-2018-1042 (2018-01-22)
+
+<code>
+Moodle 3.x has Server Side Request Forgery in the filepicker.
+</code>
+
+- [UDPsycho/Moodle-CVE-2018-1042](https://github.com/UDPsycho/Moodle-CVE-2018-1042)
+
 ### CVE-2018-1088 (2018-04-18)
 
 <code>
@@ -17937,7 +17945,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [ThaFWord/pentesterlab](https://github.com/ThaFWord/pentesterlab)
 - [Cypheer/exploit_CVE-2018-6574](https://github.com/Cypheer/exploit_CVE-2018-6574)
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
-- [Exzh34/PentestLab-CVE-2018-6574-go-get-RCE](https://github.com/Exzh34/PentestLab-CVE-2018-6574-go-get-RCE)
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
