@@ -1817,6 +1817,7 @@ The Atlassian Questions For Confluence app for Confluence Server and Data Center
 - [1mxml/CVE-2022-26138](https://github.com/1mxml/CVE-2022-26138)
 - [Daro1967/CVE-2022-26138-RCE](https://github.com/Daro1967/CVE-2022-26138-RCE)
 - [Vulnmachines/Confluence-Question-CVE-2022-26138-](https://github.com/Vulnmachines/Confluence-Question-CVE-2022-26138-)
+- [z92g/CVE-2022-26138](https://github.com/z92g/CVE-2022-26138)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -6279,6 +6280,7 @@ Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-
 </code>
 
 - [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
+- [0xrobiul/CVE-2021-41349](https://github.com/0xrobiul/CVE-2021-41349)
 
 ### CVE-2021-41652 (2022-03-01)
 
@@ -6889,7 +6891,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
-- [ben-smash/l4j-info](https://github.com/ben-smash/l4j-info)
 - [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
 - [chilit-nl/log4shell-example](https://github.com/chilit-nl/log4shell-example)
 - [Occamsec/log4j-checker](https://github.com/Occamsec/log4j-checker)
