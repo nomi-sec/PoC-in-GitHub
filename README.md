@@ -2863,6 +2863,7 @@ The Apache Spark UI offers the possibility to enable ACLs via the configuration 
 - [west-wind/CVE-2022-33891](https://github.com/west-wind/CVE-2022-33891)
 - [AkbarTrilaksana/cve-2022-33891](https://github.com/AkbarTrilaksana/cve-2022-33891)
 - [llraudseppll/cve-2022-33891](https://github.com/llraudseppll/cve-2022-33891)
+- [AmoloHT/CVE-2022-33891](https://github.com/AmoloHT/CVE-2022-33891)
 
 ### CVE-2022-33980 (2022-07-06)
 
