@@ -1851,6 +1851,14 @@ An issue was discovered in the web application in Cherwell Service Management (C
 
 - [l00neyhacker/CVE-2022-26158](https://github.com/l00neyhacker/CVE-2022-26158)
 
+### CVE-2022-26159 (2022-02-27)
+
+<code>
+The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenticated attacker to read documents such as plugins/web/service/search/auto-completion/&lt;domain&gt;/en.xml (and similar pathnames for other languages), which contain all characters typed by all users, including the content of private pages. For example, a private page may contain usernames, e-mail addresses, and possibly passwords.
+</code>
+
+- [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
+
 ### CVE-2022-26269 (2022-03-28)
 
 <code>
