@@ -7243,7 +7243,7 @@ SuiteCRM before 7.12.2 and 8.x before 8.0.1 allows authenticated SQL injection v
 HD-Network Real-time Monitoring System 2.0 allows ../ directory traversal to read /etc/shadow via the /language/lang s_Language parameter.
 </code>
 
-- [g30rgyth3d4rk/cve-2021-45043](https://github.com/g30rgyth3d4rk/cve-2021-45043)
+- [crypt0g30rgy/cve-2021-45043](https://github.com/crypt0g30rgy/cve-2021-45043)
 
 ### CVE-2021-45046 (2021-12-14)
 
@@ -22894,6 +22894,7 @@ The join_session_keyring function in security/keys/process_keys.c in the Linux k
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
 - [th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit)
+- [tndud042713/cve-2016-0728](https://github.com/tndud042713/cve-2016-0728)
 
 ### CVE-2016-0752 (2016-02-15)
 
