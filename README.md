@@ -25290,6 +25290,7 @@ The default configuration in Elasticsearch before 1.2 enables dynamic scripting,
 
 - [jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject)
 - [echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120)
+- [xpgdgit/CVE-2014-3120](https://github.com/xpgdgit/CVE-2014-3120)
 
 ### CVE-2014-3153 (2014-06-07)
 
