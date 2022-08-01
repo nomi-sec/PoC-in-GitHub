@@ -231,6 +231,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [Asbatel/CBDS_CVE-2022-0847_POC](https://github.com/Asbatel/CBDS_CVE-2022-0847_POC)
 - [airbus-cert/dirtypipe-ebpf_detection](https://github.com/airbus-cert/dirtypipe-ebpf_detection)
 - [edr1412/Dirty-Pipe](https://github.com/edr1412/Dirty-Pipe)
+- [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -2024,7 +2025,7 @@ The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal 
 
 - [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
 
-### CVE-2022-27255 (-)
+### CVE-2022-27255 (2022-08-01)
 
 <code>
 In Realtek eCos RSDK 1.5.7p1 and MSDK 4.9.4p1, the SIP ALG function that rewrites SDP data has a stack-based buffer overflow. This allows an attacker to remotely execute code without authentication via a crafted SIP packet that contains malicious SDP data.
@@ -3959,6 +3960,7 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [GatoGamer1155/CVE-2021-3560](https://github.com/GatoGamer1155/CVE-2021-3560)
 - [RicterZ/CVE-2021-3560-Authentication-Agent](https://github.com/RicterZ/CVE-2021-3560-Authentication-Agent)
 - [WinMin/CVE-2021-3560](https://github.com/WinMin/CVE-2021-3560)
+- [UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -5001,6 +5003,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [thau0x01/poc_proxylogon](https://github.com/thau0x01/poc_proxylogon)
 - [1342486672/Flangvik](https://github.com/1342486672/Flangvik)
 - [TheDudeD6/ExchangeSmash](https://github.com/TheDudeD6/ExchangeSmash)
+- [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
 
 ### CVE-2021-26856
 - [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
@@ -6148,6 +6151,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 </code>
 
 - [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
+- [klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444)
 - [34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit](https://github.com/34zY/Microsoft-Office-Word-MSHTML-Remote-Code-Execution-Exploit)
 - [MRacumen/CVE-2021-40444](https://github.com/MRacumen/CVE-2021-40444)
 - [RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444)
@@ -7534,6 +7538,7 @@ Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability 
 </code>
 
 - [nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422)
+- [Chocapikk/CVE-2021-46422](https://github.com/Chocapikk/CVE-2021-46422)
 - [twoning/CVE-2021-46422_PoC](https://github.com/twoning/CVE-2021-46422_PoC)
 
 ### CVE-2021-46702 (2022-02-25)
@@ -8052,6 +8057,14 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 - [okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC)
 
+### CVE-2020-0606 (2020-01-14)
+
+<code>
+A remote code execution vulnerability exists in .NET software when the software fails to check the source markup of a file.An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user, aka '.NET Framework Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0605.
+</code>
+
+- [5l1v3r1/CVE-2020-0606](https://github.com/5l1v3r1/CVE-2020-0606)
+
 ### CVE-2020-0609 (2020-01-14)
 
 <code>
@@ -8258,6 +8271,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
+- [5l1v3r1/CVE-2020-0796-PoC-3](https://github.com/5l1v3r1/CVE-2020-0796-PoC-3)
 - [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
 - [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
 - [motherfucker12138/CVE-2020-0796_SMBGhost](https://github.com/motherfucker12138/CVE-2020-0796_SMBGhost)
@@ -8415,6 +8429,8 @@ An information disclosure vulnerability exists in the way that the Microsoft Ser
 </code>
 
 - [ZecOps/CVE-2020-1206-POC](https://github.com/ZecOps/CVE-2020-1206-POC)
+- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
+- [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
 ### CVE-2020-1283 (2020-06-09)
@@ -8644,6 +8660,8 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
+- [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
+- [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1956 (2020-05-22)
@@ -9043,6 +9061,22 @@ In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the use
 
 - [xMohamed0/CVE-2020-5504-phpMyAdmin](https://github.com/xMohamed0/CVE-2020-5504-phpMyAdmin)
 
+### CVE-2020-5509 (2020-01-14)
+
+<code>
+PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
+</code>
+
+- [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
+
+### CVE-2020-5510 (2020-01-08)
+
+<code>
+PHPGurukul Hostel Management System v2.0 allows SQL injection via the id parameter in the full-profile.php file.
+</code>
+
+- [5l1v3r1/CVE-2020-5510](https://github.com/5l1v3r1/CVE-2020-5510)
+
 ### CVE-2020-5837 (2020-05-11)
 
 <code>
@@ -9082,8 +9116,10 @@ index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v
 In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.1.5.1, and 11.6.1-11.6.5.1, the Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages.
 </code>
 
+- [dwisiswant0/CVE-2020-5902](https://github.com/dwisiswant0/CVE-2020-5902)
 - [aqhmal/CVE-2020-5902-Scanner](https://github.com/aqhmal/CVE-2020-5902-Scanner)
 - [jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902)
+- [ar0dd/CVE-2020-5902](https://github.com/ar0dd/CVE-2020-5902)
 - [yassineaboukir/CVE-2020-5902](https://github.com/yassineaboukir/CVE-2020-5902)
 - [rwincey/CVE-2020-5902-NSE](https://github.com/rwincey/CVE-2020-5902-NSE)
 - [un4gi/CVE-2020-5902](https://github.com/un4gi/CVE-2020-5902)
@@ -9275,6 +9311,14 @@ LinuxKI v6.0-1 and earlier is vulnerable to an remote code execution which is re
 </code>
 
 - [awsassets/CVE-2020-7209](https://github.com/awsassets/CVE-2020-7209)
+
+### CVE-2020-7246 (2020-01-21)
+
+<code>
+A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An attacker can upload a malicious PHP code file via the profile photo functionality, by leveraging a path traversal vulnerability in the users['photop_preview'] delete photo feature, allowing bypass of .htaccess protection. NOTE: this issue exists because of an incomplete fix for CVE-2015-3884.
+</code>
+
+- [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
 
 ### CVE-2020-7247 (2020-01-29)
 
@@ -9719,6 +9763,7 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 </code>
 
 - [Prabhashaka/Exploitation-CVE-2020-8835](https://github.com/Prabhashaka/Exploitation-CVE-2020-8835)
+- [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
 - [zilong3033/CVE-2020-8835](https://github.com/zilong3033/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
 - [digamma-ai/CVE-2020-8835-verification](https://github.com/digamma-ai/CVE-2020-8835-verification)
@@ -9915,6 +9960,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
+- [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
@@ -9982,6 +10028,14 @@ A vulnerability related to Dynamic-link Library (“DLL”) loading in the Zoom 
 </code>
 
 - [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
+
+### CVE-2020-9768 (2020-04-01)
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
+</code>
+
+- [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
 
 ### CVE-2020-9781 (2020-04-01)
 
@@ -10060,6 +10114,9 @@ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
 </code>
 
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
+
+### CVE-2020-10205
+- [5l1v3r1/CVE-2020-10205](https://github.com/5l1v3r1/CVE-2020-10205)
 
 ### CVE-2020-10238 (2020-03-16)
 
@@ -10709,6 +10766,14 @@ The XCloner component before 3.5.4 for Joomla! allows Authenticated Local File D
 ### CVE-2020-13457
 - [alt3kx/CVE-2020-13457](https://github.com/alt3kx/CVE-2020-13457)
 
+### CVE-2020-13640 (2020-06-18)
+
+<code>
+A SQL injection issue in the gVectors wpDiscuz plugin 5.3.5 and earlier for WordPress allows remote attackers to execute arbitrary SQL commands via the order parameter of a wpdLoadMoreComments request. (No 7.x versions are affected.)
+</code>
+
+- [asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640)
+
 ### CVE-2020-13699 (2020-07-29)
 
 <code>
@@ -11097,6 +11162,14 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
 - [1n7erface/PocList](https://github.com/1n7erface/PocList)
+
+### CVE-2020-14947 (2020-06-30)
+
+<code>
+OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to require/commandLine/CommandLine.php because mib_file in plugins/main_sections/ms_config/ms_snmp_config.php is mishandled in get_mib_oid.
+</code>
+
+- [mhaskar/CVE-2020-14947](https://github.com/mhaskar/CVE-2020-14947)
 
 ### CVE-2020-14955 (2020-06-26)
 
