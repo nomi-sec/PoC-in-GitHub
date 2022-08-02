@@ -21786,7 +21786,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
-- [incogbyte/laravel-phpunit-rce-masscaner](https://github.com/incogbyte/laravel-phpunit-rce-masscaner)
+- [rodnt/laravel-phpunit-rce-masscaner](https://github.com/rodnt/laravel-phpunit-rce-masscaner)
 - [akr3ch/CVE-2017-9841](https://github.com/akr3ch/CVE-2017-9841)
 - [p1ckzi/CVE-2017-9841](https://github.com/p1ckzi/CVE-2017-9841)
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
