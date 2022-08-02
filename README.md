@@ -2927,6 +2927,7 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 - [merlinepedra25/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra25/CVE-2022-34918-LPE-PoC)
 - [merlinepedra/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra/CVE-2022-34918-LPE-PoC)
 - [linulinu/CVE-2022-34918](https://github.com/linulinu/CVE-2022-34918)
+- [veritas501/CVE-2022-34918](https://github.com/veritas501/CVE-2022-34918)
 
 ### CVE-2022-34961 (2022-07-25)
 
@@ -7011,7 +7012,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [RenYuH/log4j-lookups-vulnerability](https://github.com/RenYuH/log4j-lookups-vulnerability)
 - [scheibling/py-log4shellscanner](https://github.com/scheibling/py-log4shellscanner)
 - [GroupePSA/log4shell-honeypot](https://github.com/GroupePSA/log4shell-honeypot)
-- [zane00/CVE-2021-44228](https://github.com/zane00/CVE-2021-44228)
+- [zaneeef/CVE-2021-44228](https://github.com/zaneeef/CVE-2021-44228)
 - [metodidavidovic/log4j-quick-scan](https://github.com/metodidavidovic/log4j-quick-scan)
 - [WatchGuard-Threat-Lab/log4shell-iocs](https://github.com/WatchGuard-Threat-Lab/log4shell-iocs)
 - [Aschen/log4j-patched](https://github.com/Aschen/log4j-patched)
