@@ -930,6 +930,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [stayfoolish777/CVE-2022-22947-POC](https://github.com/stayfoolish777/CVE-2022-22947-POC)
 - [B0rn2d/Spring-Cloud-Gateway-Nacos](https://github.com/B0rn2d/Spring-Cloud-Gateway-Nacos)
 - [kmahyyg/CVE-2022-22947](https://github.com/kmahyyg/CVE-2022-22947)
+- [LY613313/CVE-2022-22947](https://github.com/LY613313/CVE-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -2981,12 +2982,7 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 
 - [AngeloPioAmirante/CVE-2022-35899](https://github.com/AngeloPioAmirante/CVE-2022-35899)
 
-### CVE-2022-36408 (2022-07-22)
-
-<code>
-PrestaShop 1.6.0.10 through 1.7.x before 1.7.8.7 allows remote attackers to execute arbitrary code, aka a &quot;previously unknown vulnerability chain&quot; related to SQL injection and MySQL Smarty cache storage injection, as exploited in the wild in July 2022.
-</code>
-
+### CVE-2022-36408
 - [drkbcn/lblfixer_cve_2022_36408](https://github.com/drkbcn/lblfixer_cve_2022_36408)
 
 ### CVE-2022-36946 (2022-07-27)
