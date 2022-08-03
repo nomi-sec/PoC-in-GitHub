@@ -1490,6 +1490,14 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
 - [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
 
+### CVE-2022-24707 (2022-02-23)
+
+<code>
+Anuko Time Tracker is an open source, web-based time tracking application written in PHP. UNION SQL injection and time-based blind injection vulnerabilities existed in Time Tracker Puncher plugin in versions of anuko timetracker prior to 1.20.0.5642. This was happening because the Puncher plugin was reusing code from other places and was relying on an unsanitized date parameter in POST requests. Because the parameter was not checked, it was possible to craft POST requests with malicious SQL for Time Tracker database. This issue has been resolved in in version 1.20.0.5642. Users unable to upgrade are advised to add their own checks to input.
+</code>
+
+- [Altelus1/CVE-2022-24707](https://github.com/Altelus1/CVE-2022-24707)
+
 ### CVE-2022-24713 (2022-03-08)
 
 <code>
@@ -3653,6 +3661,14 @@ Vulnerability in the Database Vault component of Oracle Database Server. Support
 
 - [emad-almousa/CVE-2021-2175](https://github.com/emad-almousa/CVE-2021-2175)
 
+### CVE-2021-2394 (2021-07-20)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [fasanhlieu/CVE-2021-2394](https://github.com/fasanhlieu/CVE-2021-2394)
+
 ### CVE-2021-2456 (2021-07-20)
 
 <code>
@@ -3681,6 +3697,14 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 - [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
 - [givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019)
+
+### CVE-2021-3060 (2021-11-10)
+
+<code>
+An OS command injection vulnerability in the Simple Certificate Enrollment Protocol (SCEP) feature of PAN-OS software allows an unauthenticated network-based attacker with specific knowledge of the firewall configuration to execute arbitrary code with root user privileges. The attacker must have network access to the GlobalProtect interfaces to exploit this issue. This issue impacts: PAN-OS 8.1 versions earlier than PAN-OS 8.1.20-h1; PAN-OS 9.0 versions earlier than PAN-OS 9.0.14-h3; PAN-OS 9.1 versions earlier than PAN-OS 9.1.11-h2; PAN-OS 10.0 versions earlier than PAN-OS 10.0.8; PAN-OS 10.1 versions earlier than PAN-OS 10.1.3. Prisma Access customers with Prisma Access 2.1 Preferred and Prisma Access 2.1 Innovation firewalls are impacted by this issue.
+</code>
+
+- [timb-machine-mirrors/cve-2021-3060.py](https://github.com/timb-machine-mirrors/cve-2021-3060.py)
 
 ### CVE-2021-3122 (2021-02-07)
 
@@ -4648,6 +4672,14 @@ The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when s
 </code>
 
 - [dn9uy3n/Check-CVE-2021-23383](https://github.com/dn9uy3n/Check-CVE-2021-23383)
+
+### CVE-2021-23758 (2021-12-03)
+
+<code>
+All versions of package ajaxpro.2 are vulnerable to Deserialization of Untrusted Data due to the possibility of deserialization of arbitrary .NET classes, which can be abused to gain remote code execution.
+</code>
+
+- [numanturle/CVE-2021-23758-POC](https://github.com/numanturle/CVE-2021-23758-POC)
 
 ### CVE-2021-24027 (2021-04-06)
 
@@ -5802,6 +5834,9 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 
 - [mmiszczyk/cve-2021-33879](https://github.com/mmiszczyk/cve-2021-33879)
 
+### CVE-2021-34045
+- [MzzdToT/CVE-2021-34045](https://github.com/MzzdToT/CVE-2021-34045)
+
 ### CVE-2021-34473 (2021-07-14)
 
 <code>
@@ -5817,7 +5852,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
-- [Amaranese/CVE-2021-34527](https://github.com/Amaranese/CVE-2021-34527)
 - [Exploitspacks/CVE-2021-34527-CVE-2021-1675](https://github.com/Exploitspacks/CVE-2021-34527-CVE-2021-1675)
 - [cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527)
 
@@ -5904,7 +5938,7 @@ Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (
 A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation, attacker can exploit the vulnerability to launch a command injection attack by sending some messages with malicious commands.
 </code>
 
-- [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
+- [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
 
 ### CVE-2021-36460 (2022-04-25)
 
@@ -6181,14 +6215,6 @@ GeoServer through 2.18.5 and 2.19.x through 2.19.2 allows SSRF via the option fo
 
 - [phor3nsic/CVE-2021-40822](https://github.com/phor3nsic/CVE-2021-40822)
 
-### CVE-2021-40839 (2021-09-09)
-
-<code>
-The rencode package through 1.0.6 for Python allows an infinite loop in typecode decoding (such as via ;\x2f\x7f), enabling a remote attack that consumes CPU and memory.
-</code>
-
-- [itlabbet/CVE-2021-40839](https://github.com/itlabbet/CVE-2021-40839)
-
 ### CVE-2021-40859 (2021-12-07)
 
 <code>
@@ -6320,6 +6346,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [ranggaggngntt/CVE-2021-41773](https://github.com/ranggaggngntt/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
+- [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
@@ -6433,7 +6460,6 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 
 - [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
 - [Ridter/noPac](https://github.com/Ridter/noPac)
-- [waterrr/noPac](https://github.com/waterrr/noPac)
 - [ly4k/Pachine](https://github.com/ly4k/Pachine)
 - [cybersecurityworks553/noPac-detection](https://github.com/cybersecurityworks553/noPac-detection)
 
@@ -6704,9 +6730,11 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
-- [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
+- [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
+- [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
+- [Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798)
 - [k3rwin/CVE-2021-43798-Grafana](https://github.com/k3rwin/CVE-2021-43798-Grafana)
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
@@ -6832,6 +6860,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
+- [jacobtread/L4J-Vuln-Patch](https://github.com/jacobtread/L4J-Vuln-Patch)
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
 - [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
@@ -6841,7 +6870,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
-- [greymd/CVE-2021-44228](https://github.com/greymd/CVE-2021-44228)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
 - [takito1812/log4j-detect](https://github.com/takito1812/log4j-detect)
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
@@ -6851,9 +6879,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot)
 - [TheArqsz/CVE-2021-44228-PoC](https://github.com/TheArqsz/CVE-2021-44228-PoC)
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
-- [rakutentech/jndi-ldap-test-server](https://github.com/rakutentech/jndi-ldap-test-server)
 - [f0ng/log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)
-- [lhotari/log4shell-mitigation-tester](https://github.com/lhotari/log4shell-mitigation-tester)
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
@@ -6862,13 +6888,17 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
 - [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
+- [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
+- [irgoncalves/f5-waf-enforce-sig-CVE-2021-44228](https://github.com/irgoncalves/f5-waf-enforce-sig-CVE-2021-44228)
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
+- [RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs](https://github.com/RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs)
+- [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
 - [dtact/divd-2021-00038--log4j-scanner](https://github.com/dtact/divd-2021-00038--log4j-scanner)
-- [kali-dass/CVE-2021-44228-log4Shell](https://github.com/kali-dass/CVE-2021-44228-log4Shell)
 - [Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228](https://github.com/Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228)
+- [infiniroot/nginx-mitigate-log4shell](https://github.com/infiniroot/nginx-mitigate-log4shell)
 - [authomize/log4j-log4shell-affected](https://github.com/authomize/log4j-log4shell-affected)
 - [guardicode/CVE-2021-44228_IoCs](https://github.com/guardicode/CVE-2021-44228_IoCs)
 - [nccgroup/log4j-jndi-be-gone](https://github.com/nccgroup/log4j-jndi-be-gone)
@@ -6884,66 +6914,49 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [maxant/log4j2-CVE-2021-44228](https://github.com/maxant/log4j2-CVE-2021-44228)
 - [atnetws/fail2ban-log4j](https://github.com/atnetws/fail2ban-log4j)
 - [kimobu/cve-2021-44228](https://github.com/kimobu/cve-2021-44228)
-- [KainsRache/anti-jndi](https://github.com/KainsRache/anti-jndi)
-- [bigsizeme/Log4j-check](https://github.com/bigsizeme/Log4j-check)
-- [pedrohavay/exploit-CVE-2021-44228](https://github.com/pedrohavay/exploit-CVE-2021-44228)
 - [0xRyan/log4j-nullroute](https://github.com/0xRyan/log4j-nullroute)
 - [fireeye/CVE-2021-44228](https://github.com/fireeye/CVE-2021-44228)
 - [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan)
 - [rubo77/log4j_checker_beta](https://github.com/rubo77/log4j_checker_beta)
 - [thecyberneh/Log4j-RCE-Exploiter](https://github.com/thecyberneh/Log4j-RCE-Exploiter)
-- [halibobor/log4j2](https://github.com/halibobor/log4j2)
 - [sourcegraph/log4j-cve-code-search-resources](https://github.com/sourcegraph/log4j-cve-code-search-resources)
 - [thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832](https://github.com/thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832)
 - [helsecert/CVE-2021-44228](https://github.com/helsecert/CVE-2021-44228)
-- [markuman/aws-log4j-mitigations](https://github.com/markuman/aws-log4j-mitigations)
-- [tuyenee/Log4shell](https://github.com/tuyenee/Log4shell)
-- [JiuBanSec/Log4j-CVE-2021-44228](https://github.com/JiuBanSec/Log4j-CVE-2021-44228)
 - [ycdxsb/Log4Shell-CVE-2021-44228-ENV](https://github.com/ycdxsb/Log4Shell-CVE-2021-44228-ENV)
 - [avwolferen/Sitecore.Solr-log4j-mitigation](https://github.com/avwolferen/Sitecore.Solr-log4j-mitigation)
 - [kek-Sec/log4j-scanner-CVE-2021-44228](https://github.com/kek-Sec/log4j-scanner-CVE-2021-44228)
-- [lov3r/cve-2021-44228-log4j-exploits](https://github.com/lov3r/cve-2021-44228-log4j-exploits)
-- [sinakeshmiri/log4jScan](https://github.com/sinakeshmiri/log4jScan)
+- [Camphul/log4shell-spring-framework-research](https://github.com/Camphul/log4shell-spring-framework-research)
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
 - [LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228)
 - [0xsyr0/Log4Shell](https://github.com/0xsyr0/Log4Shell)
-- [jeffli1024/log4j-rce-test](https://github.com/jeffli1024/log4j-rce-test)
-- [zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service](https://github.com/zsolt-halo/Log4J-Log4Shell-CVE-2021-44228-Spring-Boot-Test-Service)
 - [manuel-alvarez-alvarez/log4j-cve-2021-44228](https://github.com/manuel-alvarez-alvarez/log4j-cve-2021-44228)
-- [VNYui/CVE-2021-44228](https://github.com/VNYui/CVE-2021-44228)
-- [flxhaas/Scan-CVE-2021-44228](https://github.com/flxhaas/Scan-CVE-2021-44228)
-- [justakazh/Log4j-CVE-2021-44228](https://github.com/justakazh/Log4j-CVE-2021-44228)
-- [madCdan/JndiLookup](https://github.com/madCdan/JndiLookup)
 - [Koupah/MC-Log4j-Patcher](https://github.com/Koupah/MC-Log4j-Patcher)
+- [AlexandreHeroux/Fix-CVE-2021-44228](https://github.com/AlexandreHeroux/Fix-CVE-2021-44228)
 - [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
 - [tobiasoed/log4j-CVE-2021-44228](https://github.com/tobiasoed/log4j-CVE-2021-44228)
 - [hackinghippo/log4shell_ioc_ips](https://github.com/hackinghippo/log4shell_ioc_ips)
 - [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
-- [taurusxin/CVE-2021-44228](https://github.com/taurusxin/CVE-2021-44228)
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
-- [yanghaoi/CVE-2021-44228_Log4Shell](https://github.com/yanghaoi/CVE-2021-44228_Log4Shell)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
-- [threatmonit/Log4j-IOCs](https://github.com/threatmonit/Log4j-IOCs)
-- [ben-smash/l4j-info](https://github.com/ben-smash/l4j-info)
-- [strawhatasif/log4j-test](https://github.com/strawhatasif/log4j-test)
 - [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
-- [tica506/Siem-queries-for-CVE-2021-44228](https://github.com/tica506/Siem-queries-for-CVE-2021-44228)
 - [chilit-nl/log4shell-example](https://github.com/chilit-nl/log4shell-example)
 - [Occamsec/log4j-checker](https://github.com/Occamsec/log4j-checker)
-- [snatalius/log4j2-CVE-2021-44228-poc-local](https://github.com/snatalius/log4j2-CVE-2021-44228-poc-local)
 - [Contrast-Security-OSS/CVE-2021-44228](https://github.com/Contrast-Security-OSS/CVE-2021-44228)
 - [back2root/log4shell-rex](https://github.com/back2root/log4shell-rex)
 - [alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools)
 - [perryflynn/find-log4j](https://github.com/perryflynn/find-log4j)
 - [alpacamybags118/log4j-cve-2021-44228-sample](https://github.com/alpacamybags118/log4j-cve-2021-44228-sample)
 - [sandarenu/log4j2-issue-check](https://github.com/sandarenu/log4j2-issue-check)
+- [roticagas/CVE-2021-44228-Demo](https://github.com/roticagas/CVE-2021-44228-Demo)
 - [archongum/cve-2021-44228-log4j](https://github.com/archongum/cve-2021-44228-log4j)
+- [Woahd/log4j-urlscanner](https://github.com/Woahd/log4j-urlscanner)
 - [faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell)
 - [zjx/CVE-2021-44228](https://github.com/zjx/CVE-2021-44228)
 - [gcmurphy/chk_log4j](https://github.com/gcmurphy/chk_log4j)
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [toramanemre/apache-solr-log4j-CVE-2021-44228](https://github.com/toramanemre/apache-solr-log4j-CVE-2021-44228)
+- [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
 - [cbuschka/log4j2-rce-recap](https://github.com/cbuschka/log4j2-rce-recap)
 - [andrii-kovalenko-celonis/log4j-vulnerability-demo](https://github.com/andrii-kovalenko-celonis/log4j-vulnerability-demo)
 - [jan-muhammad-zaidi/Log4j-CVE-2021-44228](https://github.com/jan-muhammad-zaidi/Log4j-CVE-2021-44228)
@@ -6958,6 +6971,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
 - [mufeedvh/log4jail](https://github.com/mufeedvh/log4jail)
 - [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
+- [ab0x90/CVE-2021-44228_PoC](https://github.com/ab0x90/CVE-2021-44228_PoC)
 - [stripe/log4j-remediation-tools](https://github.com/stripe/log4j-remediation-tools)
 - [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
@@ -6968,19 +6982,27 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [dbzoo/log4j_scanner](https://github.com/dbzoo/log4j_scanner)
 - [jeremyrsellars/CVE-2021-44228_scanner](https://github.com/jeremyrsellars/CVE-2021-44228_scanner)
 - [JustinDPerkins/C1-WS-LOG4SHELL](https://github.com/JustinDPerkins/C1-WS-LOG4SHELL)
+- [VinniMarcon/Log4j-Updater](https://github.com/VinniMarcon/Log4j-Updater)
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
+- [avirahul007/CVE-2021-44228](https://github.com/avirahul007/CVE-2021-44228)
+- [rgl/log4j-log4shell-playground](https://github.com/rgl/log4j-log4shell-playground)
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
 - [KeysAU/Get-log4j-Windows.ps1](https://github.com/KeysAU/Get-log4j-Windows.ps1)
+- [kubearmor/log4j-CVE-2021-44228](https://github.com/kubearmor/log4j-CVE-2021-44228)
+- [jyotisahu98/logpresso-CVE-2021-44228-Scanner](https://github.com/jyotisahu98/logpresso-CVE-2021-44228-Scanner)
 - [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
 - [redhuntlabs/Log4JHunt](https://github.com/redhuntlabs/Log4JHunt)
 - [mss/log4shell-hotfix-side-effect](https://github.com/mss/log4shell-hotfix-side-effect)
 - [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
 - [MeterianHQ/log4j-vuln-coverage-check](https://github.com/MeterianHQ/log4j-vuln-coverage-check)
+- [sebiboga/jmeter-fix-cve-2021-44228-windows](https://github.com/sebiboga/jmeter-fix-cve-2021-44228-windows)
 - [mitiga/log4shell-cloud-scanner](https://github.com/mitiga/log4shell-cloud-scanner)
+- [isuruwa/Log4j](https://github.com/isuruwa/Log4j)
 - [honeynet/log4shell-data](https://github.com/honeynet/log4shell-data)
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
 - [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
 - [VerveIndustrialProtection/CVE-2021-44228-Log4j](https://github.com/VerveIndustrialProtection/CVE-2021-44228-Log4j)
+- [alenazi90/log4j](https://github.com/alenazi90/log4j)
 - [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
 - [LiveOverflow/log4shell](https://github.com/LiveOverflow/log4shell)
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
@@ -7253,6 +7275,14 @@ SuiteCRM before 7.12.2 and 8.x before 8.0.1 allows authenticated SQL injection v
 
 - [manuelz120/CVE-2021-45041](https://github.com/manuelz120/CVE-2021-45041)
 
+### CVE-2021-45043 (2021-12-15)
+
+<code>
+HD-Network Real-time Monitoring System 2.0 allows ../ directory traversal to read /etc/shadow via the /language/lang s_Language parameter.
+</code>
+
+- [crypt0g30rgy/cve-2021-45043](https://github.com/crypt0g30rgy/cve-2021-45043)
+
 ### CVE-2021-45046 (2021-12-14)
 
 <code>
@@ -7261,7 +7291,9 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 
 - [X1pe0/Log4J-Scan-Win](https://github.com/X1pe0/Log4J-Scan-Win)
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
+- [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 - [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
+- [pravin-pp/log4j2-CVE-2021-45046](https://github.com/pravin-pp/log4j2-CVE-2021-45046)
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
 - [lukepasek/log4jjndilookupremove](https://github.com/lukepasek/log4jjndilookupremove)
 - [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
@@ -8702,6 +8734,14 @@ An OS Command Injection vulnerability in the PAN-OS GlobalProtect portal allows 
 </code>
 
 - [blackhatethicalhacking/CVE-2020-2034-POC](https://github.com/blackhatethicalhacking/CVE-2020-2034-POC)
+
+### CVE-2020-2038 (2020-09-09)
+
+<code>
+An OS Command Injection vulnerability in the PAN-OS management interface that allows authenticated administrators to execute arbitrary OS commands with root privileges. This issue impacts: PAN-OS 9.0 versions earlier than 9.0.10; PAN-OS 9.1 versions earlier than 9.1.4; PAN-OS 10.0 versions earlier than 10.0.1.
+</code>
+
+- [und3sc0n0c1d0/CVE-2020-2038](https://github.com/und3sc0n0c1d0/CVE-2020-2038)
 
 ### CVE-2020-2333
 - [section-c/CVE-2020-2333](https://github.com/section-c/CVE-2020-2333)
@@ -25615,7 +25655,7 @@ The findMacroMarker function in parserLib.pas in Rejetto HTTP File Server (aks H
 - [roughiz/cve-2014-6287.py](https://github.com/roughiz/cve-2014-6287.py)
 - [Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287](https://github.com/Nicoslo/Windows-exploitation-Rejetto-HTTP-File-Server-HFS-2.3.x-CVE-2014-6287)
 - [SlizBinksman/THM-Steel_Mountain-CVE-2014-6287](https://github.com/SlizBinksman/THM-Steel_Mountain-CVE-2014-6287)
-- [Mr-Intern/thm_steelmountain_CVE-2014-6287](https://github.com/Mr-Intern/thm_steelmountain_CVE-2014-6287)
+- [mrintern/thm_steelmountain_CVE-2014-6287](https://github.com/mrintern/thm_steelmountain_CVE-2014-6287)
 
 ### CVE-2014-6332 (2014-11-11)
 
@@ -27390,6 +27430,7 @@ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function be
 
 - [0xtz/CVE-2006-3392](https://github.com/0xtz/CVE-2006-3392)
 - [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
+- [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
 - [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
 - [windsormoreira/CVE-2006-3392](https://github.com/windsormoreira/CVE-2006-3392)
 
