@@ -276,6 +276,7 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 
 - [pqlx/CVE-2022-1015](https://github.com/pqlx/CVE-2022-1015)
 - [zanezhub/CVE-2022-1015-1016](https://github.com/zanezhub/CVE-2022-1015-1016)
+- [pr0ln/bob_kern_exp1](https://github.com/pr0ln/bob_kern_exp1)
 
 ### CVE-2022-1040 (2022-03-25)
 
@@ -9201,6 +9202,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [jiansiting/CVE-2020-5902](https://github.com/jiansiting/CVE-2020-5902)
 - [wdlid/CVE-2020-5902-fix](https://github.com/wdlid/CVE-2020-5902-fix)
 - [Any3ite/CVE-2020-5902-F5BIG](https://github.com/Any3ite/CVE-2020-5902-F5BIG)
+- [k3nundrum/CVE-2020-5902](https://github.com/k3nundrum/CVE-2020-5902)
 - [inho28/CVE-2020-5902-F5-BIGIP](https://github.com/inho28/CVE-2020-5902-F5-BIGIP)
 - [cristiano-corrado/f5_scanner](https://github.com/cristiano-corrado/f5_scanner)
 - [ajdumanhug/CVE-2020-5902](https://github.com/ajdumanhug/CVE-2020-5902)
@@ -10663,6 +10665,7 @@ The Open Connectivity Foundation UPnP specification before 2020-04-17 does not f
 
 - [yunuscadirci/CallStranger](https://github.com/yunuscadirci/CallStranger)
 - [corelight/callstranger-detector](https://github.com/corelight/callstranger-detector)
+- [Xcod3bughunt3r/CallStranger](https://github.com/Xcod3bughunt3r/CallStranger)
 
 ### CVE-2020-12696 (2020-05-07)
 
