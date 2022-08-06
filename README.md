@@ -22547,7 +22547,7 @@ The Process function in RemoteTaskServer/WebServer/HttpServer.cs in Ulterius bef
 In Laravel framework through 5.5.21, remote attackers can obtain sensitive information (such as externally usable passwords) via a direct request for the /.env URI. NOTE: this CVE is only about Laravel framework's writeNewEnvironmentFileWith function in src/Illuminate/Foundation/Console/KeyGenerateCommand.php, which uses file_put_contents without restricting the .env permissions. The .env filename is not used exclusively by Laravel framework.
 </code>
 
-- [ahacker15/CVE-2017-16894](https://github.com/ahacker15/CVE-2017-16894)
+- [asfdc/CVE-2017-16894](https://github.com/asfdc/CVE-2017-16894)
 
 ### CVE-2017-16943 (2017-11-25)
 
