@@ -2698,6 +2698,14 @@ Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
 
 - [AgainstTheLight/CVE-2022-30929](https://github.com/AgainstTheLight/CVE-2022-30929)
 
+### CVE-2022-31061 (2022-06-28)
+
+<code>
+GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing. In affected versions there is a SQL injection vulnerability which is possible on login page. No user credentials are required to exploit this vulnerability. Users are advised to upgrade as soon as possible. There are no known workarounds for this issue.
+</code>
+
+- [Vu0r1/CVE-2022-31061](https://github.com/Vu0r1/CVE-2022-31061)
+
 ### CVE-2022-31101 (2022-06-27)
 
 <code>
