@@ -12953,6 +12953,14 @@ When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in 
 - [Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232](https://github.com/Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232)
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
 
+### CVE-2019-0539 (2019-01-08)
+
+<code>
+A remote code execution vulnerability exists in the way that the Chakra scripting engine handles objects in memory in Microsoft Edge, aka &quot;Chakra Scripting Engine Memory Corruption Vulnerability.&quot; This affects Microsoft Edge, ChakraCore. This CVE ID is unique from CVE-2019-0567, CVE-2019-0568.
+</code>
+
+- [0x43434343/CVE-2019-0539](https://github.com/0x43434343/CVE-2019-0539)
+
 ### CVE-2019-0604 (2019-03-05)
 
 <code>
@@ -12973,6 +12981,14 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 </code>
 
 - [DreamoneOnly/CVE-2019-0623-32-exp](https://github.com/DreamoneOnly/CVE-2019-0623-32-exp)
+
+### CVE-2019-0678 (2019-04-08)
+
+<code>
+An elevation of privilege vulnerability exists when Microsoft Edge does not properly enforce cross-domain policies, which could allow an attacker to access information from one domain and inject it into another domain.In a web-based attack scenario, an attacker could host a website that is used to attempt to exploit the vulnerability, aka 'Microsoft Edge Elevation of Privilege Vulnerability'.
+</code>
+
+- [c0d3G33k/CVE-2019-0678](https://github.com/c0d3G33k/CVE-2019-0678)
 
 ### CVE-2019-0708 (2019-05-16)
 
@@ -13058,6 +13074,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [cvencoder/cve-2019-0708](https://github.com/cvencoder/cve-2019-0708)
 - [ze0r/CVE-2019-0708-exp](https://github.com/ze0r/CVE-2019-0708-exp)
 - [mekhalleh/cve-2019-0708](https://github.com/mekhalleh/cve-2019-0708)
+- [cve-2019-0708-poc/cve-2019-0708](https://github.com/cve-2019-0708-poc/cve-2019-0708)
 - [andripwn/CVE-2019-0708](https://github.com/andripwn/CVE-2019-0708)
 - [0xeb-bp/bluekeep](https://github.com/0xeb-bp/bluekeep)
 - [ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708)
@@ -14850,6 +14867,14 @@ Path Traversal and Unrestricted File Upload exists in the Ninja Forms plugin bef
 
 - [KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869)
 
+### CVE-2019-10915 (2019-07-11)
+
+<code>
+A vulnerability has been identified in TIA Administrator (All versions &lt; V1.0 SP1 Upd1). The integrated configuration web application (TIA Administrator) allows to execute certain application commands without proper authentication. The vulnerability could be exploited by an attacker with local access to the affected system. Successful exploitation requires no privileges and no user interaction. An attacker could use the vulnerability to compromise confidentiality and integrity and availability of the affected system. At the time of advisory publication no public exploitation of this security vulnerability was known.
+</code>
+
+- [jiansiting/CVE-2019-10915](https://github.com/jiansiting/CVE-2019-10915)
+
 ### CVE-2019-10999 (2019-05-06)
 
 <code>
@@ -14934,6 +14959,7 @@ jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishan
 </code>
 
 - [DanielRuf/snyk-js-jquery-174006](https://github.com/DanielRuf/snyk-js-jquery-174006)
+- [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 - [chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020](https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020)
 - [Snorlyd/https-nj.gov---CVE-2019-11358](https://github.com/Snorlyd/https-nj.gov---CVE-2019-11358)
@@ -14950,6 +14976,14 @@ An issue was discovered in CutePHP CuteNews 2.1.2. An attacker can infiltrate th
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
 - [0xkasra/CVE-2019-11447](https://github.com/0xkasra/CVE-2019-11447)
+
+### CVE-2019-11477 (2019-06-18)
+
+<code>
+Jonathan Looney discovered that the TCP_SKB_CB(skb)-&gt;tcp_gso_segs value was subject to an integer overflow in the Linux kernel when handling TCP Selective Acknowledgments (SACKs). A remote attacker could use this to cause a denial of service. This has been fixed in stable kernel releases 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11, and is fixed in commit 3b4929f65b0d8249f19a50245cd88ed1a2f78cff.
+</code>
+
+- [sasqwatch/cve-2019-11477-poc](https://github.com/sasqwatch/cve-2019-11477-poc)
 
 ### CVE-2019-11510 (2019-05-08)
 
@@ -14992,6 +15026,7 @@ In Pulse Secure Pulse Connect Secure version 9.0RX before 9.0R3.4, 8.3RX before 
 Atlassian Crowd and Crowd Data Center had the pdkinstall development plugin incorrectly enabled in release builds. Attackers who can send unauthenticated or authenticated requests to a Crowd or Crowd Data Center instance can exploit this vulnerability to install arbitrary plugins, which permits remote code execution on systems running a vulnerable version of Crowd or Crowd Data Center. All versions of Crowd from version 2.1.0 before 3.0.5 (the fixed version for 3.0.x), from version 3.1.0 before 3.1.6 (the fixed version for 3.1.x), from version 3.2.0 before 3.2.8 (the fixed version for 3.2.x), from version 3.3.0 before 3.3.5 (the fixed version for 3.3.x), and from version 3.4.0 before 3.4.4 (the fixed version for 3.4.x) are affected by this vulnerability.
 </code>
 
+- [jas502n/CVE-2019-11580](https://github.com/jas502n/CVE-2019-11580)
 - [shelld3v/CVE-2019-11580](https://github.com/shelld3v/CVE-2019-11580)
 
 ### CVE-2019-11581 (2019-08-09)
@@ -15000,6 +15035,7 @@ Atlassian Crowd and Crowd Data Center had the pdkinstall development plugin inco
 There was a server-side template injection vulnerability in Jira Server and Data Center, in the ContactAdministrators and the SendBulkMail actions. An attacker is able to remotely execute code on systems that run a vulnerable version of Jira Server or Data Center. All versions of Jira Server and Data Center from 4.4.0 before 7.6.14, from 7.7.0 before 7.13.5, from 8.0.0 before 8.0.3, from 8.1.0 before 8.1.2, and from 8.2.0 before 8.2.3 are affected by this vulnerability.
 </code>
 
+- [jas502n/CVE-2019-11581](https://github.com/jas502n/CVE-2019-11581)
 - [kobs0N/CVE-2019-11581](https://github.com/kobs0N/CVE-2019-11581)
 - [PetrusViet/CVE-2019-11581](https://github.com/PetrusViet/CVE-2019-11581)
 
@@ -15186,6 +15222,14 @@ The 8.1.1 and 8.2.0 releases of Apache Solr contain an insecure setting for the 
 
 - [jas502n/CVE-2019-12409](https://github.com/jas502n/CVE-2019-12409)
 
+### CVE-2019-12453 (2019-07-19)
+
+<code>
+In MicroStrategy Web before 10.1 patch 10, stored XSS is possible in the FLTB parameter due to missing input validation.
+</code>
+
+- [undefinedmode/CVE-2019-12453](https://github.com/undefinedmode/CVE-2019-12453)
+
 ### CVE-2019-12460 (2019-05-30)
 
 <code>
@@ -15193,6 +15237,14 @@ Web Port 1.19.1 allows XSS via the /access/setup type parameter.
 </code>
 
 - [EmreOvunc/WebPort-v1.19.1-Reflected-XSS](https://github.com/EmreOvunc/WebPort-v1.19.1-Reflected-XSS)
+
+### CVE-2019-12475 (2019-07-17)
+
+<code>
+In MicroStrategy Web before 10.4.6, there is stored XSS in metric due to insufficient input validation.
+</code>
+
+- [undefinedmode/CVE-2019-12475](https://github.com/undefinedmode/CVE-2019-12475)
 
 ### CVE-2019-12476 (2019-06-17)
 
@@ -15409,6 +15461,14 @@ Compal CH7465LG CH7465LG-NCIP-6.12.18.24-5p8-NOSH devices have Incorrect Access 
 
 - [x1tan/CVE-2019-13025](https://github.com/x1tan/CVE-2019-13025)
 
+### CVE-2019-13027 (2019-07-12)
+
+<code>
+Realization Concerto Critical Chain Planner (aka CCPM) 5.10.8071 has SQL Injection in at least in the taskupdt/taskdetails.aspx webpage via the projectname parameter.
+</code>
+
+- [IckoGZ/CVE-2019-13027](https://github.com/IckoGZ/CVE-2019-13027)
+
 ### CVE-2019-13051 (2019-10-09)
 
 <code>
@@ -15485,6 +15545,14 @@ Smanos W100 1.0.0 devices have Insecure Permissions, exploitable by an attacker 
 </code>
 
 - [lodi-g/CVE-2019-13361](https://github.com/lodi-g/CVE-2019-13361)
+
+### CVE-2019-13403 (2019-07-17)
+
+<code>
+Temenos CWX version 8.9 has an Broken Access Control vulnerability in the module /CWX/Employee/EmployeeEdit2.aspx, leading to the viewing of user information.
+</code>
+
+- [B3Bo1d/CVE-2019-13403](https://github.com/B3Bo1d/CVE-2019-13403)
 
 ### CVE-2019-13404 (2019-07-07)
 
@@ -21310,7 +21378,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux)
 - [yinyinmeimei/CVE-2017-7494-payload](https://github.com/yinyinmeimei/CVE-2017-7494-payload)
 - [adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC)
-- [elellacode/exploit-CVE-2017-7494](https://github.com/elellacode/exploit-CVE-2017-7494)
+- [00mjk/exploit-CVE-2017-7494](https://github.com/00mjk/exploit-CVE-2017-7494)
 
 ### CVE-2017-7525 (2018-02-06)
 
@@ -22475,14 +22543,6 @@ The Process function in RemoteTaskServer/WebServer/HttpServer.cs in Ulterius bef
 </code>
 
 - [rickoooooo/ulteriusExploit](https://github.com/rickoooooo/ulteriusExploit)
-
-### CVE-2017-16894 (2017-11-19)
-
-<code>
-In Laravel framework through 5.5.21, remote attackers can obtain sensitive information (such as externally usable passwords) via a direct request for the /.env URI. NOTE: this CVE is only about Laravel framework's writeNewEnvironmentFileWith function in src/Illuminate/Foundation/Console/KeyGenerateCommand.php, which uses file_put_contents without restricting the .env permissions. The .env filename is not used exclusively by Laravel framework.
-</code>
-
-- [yyyyfffff/CVE-2017-16894](https://github.com/yyyyfffff/CVE-2017-16894)
 
 ### CVE-2017-16943 (2017-11-25)
 
