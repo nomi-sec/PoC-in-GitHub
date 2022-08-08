@@ -4594,7 +4594,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
-- [tuhin81/CVE-2021-22204-exiftool](https://github.com/tuhin81/CVE-2021-22204-exiftool)
+- [tuhinGsg/CVE-2021-22204-exiftool](https://github.com/tuhinGsg/CVE-2021-22204-exiftool)
 - [GatoGamer1155/CVE-2021-22204](https://github.com/GatoGamer1155/CVE-2021-22204)
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 
