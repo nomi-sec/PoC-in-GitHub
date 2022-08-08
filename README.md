@@ -792,6 +792,7 @@ A use after free issue was addressed with improved memory management. This issue
 </code>
 
 - [kmeps4/CVE-2022-22620](https://github.com/kmeps4/CVE-2022-22620)
+- [springsec/CVE-2022-22620](https://github.com/springsec/CVE-2022-22620)
 
 ### CVE-2022-22639 (2022-03-18)
 
