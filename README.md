@@ -1153,7 +1153,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131)
 - [Kazaf6s/CVE-2022-23131](https://github.com/Kazaf6s/CVE-2022-23131)
 - [trhacknon/CVE-2022-23131](https://github.com/trhacknon/CVE-2022-23131)
-- [1324132494/CVE-2022-23131poc-exp-zabbix-](https://github.com/1324132494/CVE-2022-23131poc-exp-zabbix-)
+- [SCAMagic/CVE-2022-23131poc-exp-zabbix-](https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -2928,7 +2928,6 @@ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Tr
 </code>
 
 - [aeyesec/CVE-2022-34265](https://github.com/aeyesec/CVE-2022-34265)
-- [NopFault/CVE-2022-34265](https://github.com/NopFault/CVE-2022-34265)
 - [not-xences/CVE-2022-34265](https://github.com/not-xences/CVE-2022-34265)
 
 ### CVE-2022-34298 (2022-06-22)
@@ -24295,6 +24294,7 @@ The overlayfs implementation in the linux (aka Linux kernel) package before 3.19
 - [SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328)
 - [notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328)
 - [0x1ns4n3/CVE-2015-1328-GoldenEye](https://github.com/0x1ns4n3/CVE-2015-1328-GoldenEye)
+- [poxicity/CVE-2015-1328](https://github.com/poxicity/CVE-2015-1328)
 
 ### CVE-2015-1397 (2015-04-29)
 
