@@ -2714,6 +2714,7 @@ prestashop/blockwishlist is a prestashop extension which adds a block containing
 </code>
 
 - [MathiasReker/blmvuln](https://github.com/MathiasReker/blmvuln)
+- [karthikuj/CVE-2022-31101](https://github.com/karthikuj/CVE-2022-31101)
 
 ### CVE-2022-31138 (2022-07-11)
 
