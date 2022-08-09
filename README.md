@@ -2987,7 +2987,7 @@ OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK v6.3 LTS was discovered to contai
 ### CVE-2022-34970 (2022-08-04)
 
 <code>
-Crow before v1.0+4 was discovered to contain a buffer overflow via the function qs_parse at query_string.h. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.
+Crow before 1.0+4 has a heap-based buffer overflow via the function qs_parse in query_string.h. On successful exploitation this vulnerability allows attackers to remotely execute arbitrary code in the context of the vulnerable service.
 </code>
 
 - [0xhebi/CVE-2022-34970](https://github.com/0xhebi/CVE-2022-34970)
