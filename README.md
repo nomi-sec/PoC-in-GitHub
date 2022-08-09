@@ -683,6 +683,14 @@ Storage Spaces Controller Information Disclosure Vulnerability.
 
 - [Big5-sec/cve-2022-21877](https://github.com/Big5-sec/cve-2022-21877)
 
+### CVE-2022-21881 (2022-01-11)
+
+<code>
+Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21879.
+</code>
+
+- [theabysslabs/CVE-2022-21881](https://github.com/theabysslabs/CVE-2022-21881)
+
 ### CVE-2022-21882 (2022-01-11)
 
 <code>
@@ -2543,6 +2551,14 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-)
 - [jeffymcjeffface/five-nights-at-follina-s](https://github.com/jeffymcjeffface/five-nights-at-follina-s)
 
+### CVE-2022-30216 (2022-07-12)
+
+<code>
+Windows Server Service Tampering Vulnerability.
+</code>
+
+- [corelight/CVE-2022-30216](https://github.com/corelight/CVE-2022-30216)
+
 ### CVE-2022-30292 (2022-05-04)
 
 <code>
@@ -4197,6 +4213,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [CronoX1/CVE-2021-4034](https://github.com/CronoX1/CVE-2021-4034)
 - [n0v4mx/cve-2021-4034](https://github.com/n0v4mx/cve-2021-4034)
 - [carloscast1llo/CVE-2021-4034](https://github.com/carloscast1llo/CVE-2021-4034)
+- [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -6985,7 +7002,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [archongum/cve-2021-44228-log4j](https://github.com/archongum/cve-2021-44228-log4j)
 - [Woahd/log4j-urlscanner](https://github.com/Woahd/log4j-urlscanner)
 - [faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell)
-- [zjx/CVE-2021-44228](https://github.com/zjx/CVE-2021-44228)
 - [gcmurphy/chk_log4j](https://github.com/gcmurphy/chk_log4j)
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [toramanemre/apache-solr-log4j-CVE-2021-44228](https://github.com/toramanemre/apache-solr-log4j-CVE-2021-44228)
