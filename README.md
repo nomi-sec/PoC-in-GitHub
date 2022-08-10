@@ -2449,6 +2449,14 @@ The HTTP Server in PRIMEUR SPAZIO 2.5.1.954 (File Transfer) allows an unauthenti
 
 - [Off3nS3c/CVE-2022-29932](https://github.com/Off3nS3c/CVE-2022-29932)
 
+### CVE-2022-29968 (2022-05-02)
+
+<code>
+An issue was discovered in the Linux kernel through 5.17.5. io_rw_init_file in fs/io_uring.c lacks initialization of kiocb-&gt;private.
+</code>
+
+- [jprx/CVE-2022-29968](https://github.com/jprx/CVE-2022-29968)
+
 ### CVE-2022-30006
 - [ComparedArray/printix-CVE-2022-30006](https://github.com/ComparedArray/printix-CVE-2022-30006)
 
@@ -18062,6 +18070,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Cypheer/exploit_CVE-2018-6574](https://github.com/Cypheer/exploit_CVE-2018-6574)
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
+- [markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
