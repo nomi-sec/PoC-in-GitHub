@@ -286,6 +286,7 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 
 - [killvxk/CVE-2022-1040](https://github.com/killvxk/CVE-2022-1040)
 - [XmasSnowISBACK/CVE-2022-1040](https://github.com/XmasSnowISBACK/CVE-2022-1040)
+- [APTIRAN/CVE-2022-1040](https://github.com/APTIRAN/CVE-2022-1040)
 
 ### CVE-2022-1051 (2022-05-16)
 
@@ -4196,7 +4197,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Tanmay-N/CVE-2021-4034](https://github.com/Tanmay-N/CVE-2021-4034)
 - [hahaleyile/CVE-2021-4034](https://github.com/hahaleyile/CVE-2021-4034)
 - [movvamrocks/PwnKit-CVE-2021-4034](https://github.com/movvamrocks/PwnKit-CVE-2021-4034)
-- [Ler2sq/CVE-2021-4034](https://github.com/Ler2sq/CVE-2021-4034)
+- [Squirre17/CVE-2021-4034](https://github.com/Squirre17/CVE-2021-4034)
 - [Jesrat/make_me_root](https://github.com/Jesrat/make_me_root)
 - [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
 - [PentesterSoham/CVE-2021-4034-exploit](https://github.com/PentesterSoham/CVE-2021-4034-exploit)
@@ -14537,7 +14538,7 @@ Kohana through 3.3.6 has SQL Injection when the order_by() parameter can be cont
 On Netis WF2411 with firmware 2.1.36123 and other Netis WF2xxx devices (possibly WF2411 through WF2880), there is a stack-based buffer overflow that does not require authentication. This can cause denial of service (device restart) or remote code execution. This vulnerability can be triggered by a GET request with a long HTTP &quot;Authorization: Basic&quot; header that is mishandled by user_auth-&gt;user_ok in /bin/boa.
 </code>
 
-- [Ler2sq/CVE-2019-8985](https://github.com/Ler2sq/CVE-2019-8985)
+- [Squirre17/CVE-2019-8985](https://github.com/Squirre17/CVE-2019-8985)
 
 ### CVE-2019-8997 (2019-03-21)
 
@@ -16420,7 +16421,7 @@ Go before 1.12.11 and 1.3.x before 1.13.2 can panic upon an attempt to process n
 The UPnP endpoint URL /gena.cgi in the D-Link DIR-859 Wi-Fi router 1.05 and 1.06B01 Beta01 allows an Unauthenticated remote attacker to execute system commands as root, by sending a specially crafted HTTP SUBSCRIBE request to the UPnP service when connecting to the local network.
 </code>
 
-- [Ler2sq/CVE-2019-17621](https://github.com/Ler2sq/CVE-2019-17621)
+- [Squirre17/CVE-2019-17621](https://github.com/Squirre17/CVE-2019-17621)
 
 ### CVE-2019-17625 (2019-10-16)
 
