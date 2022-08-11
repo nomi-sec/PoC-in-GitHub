@@ -501,6 +501,9 @@ A critical issue has been discovered in GitLab affecting all versions starting f
 ### CVE-2022-2466
 - [yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL](https://github.com/yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL)
 
+### CVE-2022-2588
+- [Markakd/CVE-2022-2588](https://github.com/Markakd/CVE-2022-2588)
+
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
 
@@ -4266,6 +4269,14 @@ JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when
 - [cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x)
 - [open-AIMS/log4j](https://github.com/open-AIMS/log4j)
 
+### CVE-2021-4154 (2022-02-04)
+
+<code>
+A use-after-free flaw was found in cgroup1_parse_param in kernel/cgroup/cgroup-v1.c in the Linux kernel's cgroup v1 parser. A local attacker with a user privilege could cause a privilege escalation by exploiting the fsconfig syscall parameter leading to a container breakout and a denial of service on the system.
+</code>
+
+- [Markakd/CVE-2021-4154](https://github.com/Markakd/CVE-2021-4154)
+
 ### CVE-2021-4204
 - [tr3ee/CVE-2021-4204](https://github.com/tr3ee/CVE-2021-4204)
 
@@ -7009,7 +7020,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832](https://github.com/thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832)
 - [helsecert/CVE-2021-44228](https://github.com/helsecert/CVE-2021-44228)
 - [avwolferen/Sitecore.Solr-log4j-mitigation](https://github.com/avwolferen/Sitecore.Solr-log4j-mitigation)
-- [kek-Sec/log4j-scanner-CVE-2021-44228](https://github.com/kek-Sec/log4j-scanner-CVE-2021-44228)
 - [Camphul/log4shell-spring-framework-research](https://github.com/Camphul/log4shell-spring-framework-research)
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
 - [LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228)
@@ -7037,7 +7047,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell)
 - [gcmurphy/chk_log4j](https://github.com/gcmurphy/chk_log4j)
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
-- [toramanemre/apache-solr-log4j-CVE-2021-44228](https://github.com/toramanemre/apache-solr-log4j-CVE-2021-44228)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
 - [cbuschka/log4j2-rce-recap](https://github.com/cbuschka/log4j2-rce-recap)
 - [andrii-kovalenko-celonis/log4j-vulnerability-demo](https://github.com/andrii-kovalenko-celonis/log4j-vulnerability-demo)
@@ -16853,9 +16862,9 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
 - [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
 - [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
-- [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
+- [robhax/citrixmash_scanner](https://github.com/robhax/citrixmash_scanner)
 - [jamesjguthrie/Shitrix-CVE-2019-19781](https://github.com/jamesjguthrie/Shitrix-CVE-2019-19781)
-- [x1sec/CVE-2019-19781](https://github.com/x1sec/CVE-2019-19781)
+- [robhax/CVE-2019-19781](https://github.com/robhax/CVE-2019-19781)
 - [hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781)
 - [aqhmal/CVE-2019-19781](https://github.com/aqhmal/CVE-2019-19781)
 - [MalwareTech/CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot)
@@ -16873,7 +16882,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [digitalgangst/massCitrix](https://github.com/digitalgangst/massCitrix)
 - [mandiant/ioc-scanner-CVE-2019-19781](https://github.com/mandiant/ioc-scanner-CVE-2019-19781)
 - [citrix/ioc-scanner-CVE-2019-19781](https://github.com/citrix/ioc-scanner-CVE-2019-19781)
-- [x1sec/citrix-honeypot](https://github.com/x1sec/citrix-honeypot)
+- [robhax/citrix-honeypot](https://github.com/robhax/citrix-honeypot)
 - [L4r1k/CitrixNetscalerAnalysis](https://github.com/L4r1k/CitrixNetscalerAnalysis)
 - [Azeemering/CVE-2019-19781-DFIR-Notes](https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes)
 - [0xams/citrixvulncheck](https://github.com/0xams/citrixvulncheck)
@@ -21146,7 +21155,7 @@ An unprivileged network attacker could gain system privileges to provisioned Int
 </code>
 
 - [CerberusSecurity/CVE-2017-5689](https://github.com/CerberusSecurity/CVE-2017-5689)
-- [x1sec/amthoneypot](https://github.com/x1sec/amthoneypot)
+- [robhax/amthoneypot](https://github.com/robhax/amthoneypot)
 - [Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass)
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 - [TheWay-hue/CVE-2017-5689-Checker](https://github.com/TheWay-hue/CVE-2017-5689-Checker)
