@@ -1491,6 +1491,9 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 - [gerr-re/cve-2022-24644](https://github.com/gerr-re/cve-2022-24644)
 - [ThanhThuy2908/ATHDH_CVE_2022_24644](https://github.com/ThanhThuy2908/ATHDH_CVE_2022_24644)
 
+### CVE-2022-24654
+- [leonardobg/CVE-2022-24654](https://github.com/leonardobg/CVE-2022-24654)
+
 ### CVE-2022-24675 (2022-04-20)
 
 <code>
@@ -2773,6 +2776,14 @@ mailcow is a mailserver suite. Prior to mailcow-dockerized version 2022-06a, an 
 
 - [ly1g3/Mailcow-CVE-2022-31138](https://github.com/ly1g3/Mailcow-CVE-2022-31138)
 
+### CVE-2022-31181 (2022-08-01)
+
+<code>
+PrestaShop is an Open Source e-commerce platform. In versions from 1.6.0.10 and before 1.7.8.7 PrestaShop is subject to an SQL injection vulnerability which can be chained to call PHP's Eval function on attacker input. The problem is fixed in version 1.7.8.7. Users are advised to upgrade. Users unable to upgrade may delete the MySQL Smarty cache feature.
+</code>
+
+- [drkbcn/lblfixer_cve_2022_31181](https://github.com/drkbcn/lblfixer_cve_2022_31181)
+
 ### CVE-2022-31245 (2022-05-20)
 
 <code>
@@ -3066,8 +3077,13 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 
 - [AngeloPioAmirante/CVE-2022-35899](https://github.com/AngeloPioAmirante/CVE-2022-35899)
 
-### CVE-2022-36408
-- [drkbcn/lblfixer_cve_2022_36408](https://github.com/drkbcn/lblfixer_cve_2022_36408)
+### CVE-2022-36446 (2022-07-25)
+
+<code>
+software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
+</code>
+
+- [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -4248,6 +4264,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [n0v4mx/cve-2021-4034](https://github.com/n0v4mx/cve-2021-4034)
 - [carloscast1llo/CVE-2021-4034](https://github.com/carloscast1llo/CVE-2021-4034)
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
+- [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -7040,7 +7057,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
 - [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
-- [chilit-nl/log4shell-example](https://github.com/chilit-nl/log4shell-example)
 - [Occamsec/log4j-checker](https://github.com/Occamsec/log4j-checker)
 - [Contrast-Security-OSS/CVE-2021-44228](https://github.com/Contrast-Security-OSS/CVE-2021-44228)
 - [back2root/log4shell-rex](https://github.com/back2root/log4shell-rex)
