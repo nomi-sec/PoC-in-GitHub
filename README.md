@@ -258,7 +258,6 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 </code>
 
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
-- [B0nfee/CVE-2022-0995](https://github.com/B0nfee/CVE-2022-0995)
 
 ### CVE-2022-0997 (2022-05-17)
 
@@ -601,6 +600,14 @@ Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 
 - [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
 - [rohankumardubey/CVE-2022-20699](https://github.com/rohankumardubey/CVE-2022-20699)
 
+### CVE-2022-20829 (2022-06-24)
+
+<code>
+A vulnerability in the packaging of Cisco Adaptive Security Device Manager (ASDM) images and the validation of those images by Cisco Adaptive Security Appliance (ASA) Software could allow an authenticated, remote attacker with administrative privileges to upload an ASDM image that contains malicious code to a device that is running Cisco ASA Software. This vulnerability is due to insufficient validation of the authenticity of an ASDM image during its installation on a device that is running Cisco ASA Software. An attacker could exploit this vulnerability by installing a crafted ASDM image on the device that is running Cisco ASA Software and then waiting for a targeted user to access that device using ASDM. A successful exploit could allow the attacker to execute arbitrary code on the machine of the targeted user with the privileges of that user on that machine. Notes: To successfully exploit this vulnerability, the attacker must have administrative privileges on the device that is running Cisco ASA Software. Potential targets are limited to users who manage the same device that is running Cisco ASA Software using ASDM. Cisco has released and will release software updates that address this vulnerability.
+</code>
+
+- [jbaines-r7/theway](https://github.com/jbaines-r7/theway)
+
 ### CVE-2022-20866 (2022-08-10)
 
 <code>
@@ -714,7 +721,6 @@ Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022
 - [L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882)
 - [sailay1996/cve-2022-21882-poc](https://github.com/sailay1996/cve-2022-21882-poc)
 - [r1l4-i3pur1l4/CVE-2022-21882](https://github.com/r1l4-i3pur1l4/CVE-2022-21882)
-- [B0nfee/CVE-2022-21882](https://github.com/B0nfee/CVE-2022-21882)
 
 ### CVE-2022-21894 (2022-01-11)
 
@@ -1740,7 +1746,6 @@ net/netfilter/nf_dup_netdev.c in the Linux kernel 5.4 through 5.6.10 allows loca
 - [Bonfee/CVE-2022-25636](https://github.com/Bonfee/CVE-2022-25636)
 - [chenaotian/CVE-2022-25636](https://github.com/chenaotian/CVE-2022-25636)
 - [veritas501/CVE-2022-25636-PipeVersion](https://github.com/veritas501/CVE-2022-25636-PipeVersion)
-- [B0nfee/CVE-2022-25636](https://github.com/B0nfee/CVE-2022-25636)
 
 ### CVE-2022-25640 (2022-02-23)
 
