@@ -2703,12 +2703,7 @@ The Linux kernel before 5.17.2 mishandles seccomp permissions. The PTRACE_SEIZE 
 
 - [nidhi7598/linux-4.19.72_CVE-2022-30594](https://github.com/nidhi7598/linux-4.19.72_CVE-2022-30594)
 
-### CVE-2022-30778 (2022-05-15)
-
-<code>
-Laravel 9.1.8, when processing attacker-controlled data for deserialization, allows Remote Code Execution via an unserialize pop chain in __destruct in Illuminate\Broadcasting\PendingBroadcast.php and dispatch($command) in Illuminate\Bus\QueueingDispatcher.php.
-</code>
-
+### CVE-2022-30778
 - [kang8/CVE-2022-30778](https://github.com/kang8/CVE-2022-30778)
 
 ### CVE-2022-30780 (2022-06-11)
@@ -3071,6 +3066,9 @@ H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.
 </code>
 
 - [safe3s/CVE-2022-35416](https://github.com/safe3s/CVE-2022-35416)
+
+### CVE-2022-35513
+- [p1ckzi/CVE-2022-35513](https://github.com/p1ckzi/CVE-2022-35513)
 
 ### CVE-2022-35899 (2022-07-21)
 
@@ -6804,12 +6802,7 @@ The &quot;Duplicate Post&quot; WordPress plugin up to and including version 1.1.
 
 - [tuannq2299/CVE-2021-43408](https://github.com/tuannq2299/CVE-2021-43408)
 
-### CVE-2021-43503 (2022-04-08)
-
-<code>
-A Remote Code Execution (RCE) vulnerability exists in h laravel 5.8.38 via an unserialize pop chain in (1) __destruct in \Routing\PendingResourceRegistration.php, (2) __cal in Queue\Capsule\Manager.php, and (3) __invoke in mockery\library\Mockery\ClosureWrapper.php.
-</code>
-
+### CVE-2021-43503
 - [kang8/CVE-2021-43503](https://github.com/kang8/CVE-2021-43503)
 
 ### CVE-2021-43515 (2022-04-08)
