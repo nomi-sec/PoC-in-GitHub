@@ -232,6 +232,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [edr1412/Dirty-Pipe](https://github.com/edr1412/Dirty-Pipe)
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
 - [XmasSnowISBACK/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/XmasSnowISBACK/CVE-2022-0847-DirtyPipe-Exploits)
+- [EagleTube/CVE-2022-0847](https://github.com/EagleTube/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -4448,6 +4449,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [Jiang59991/cve-2021-21300](https://github.com/Jiang59991/cve-2021-21300)
 - [Jiang59991/cve-2021-21300-plus](https://github.com/Jiang59991/cve-2021-21300-plus)
 - [macilin/CVE-2021-21300](https://github.com/macilin/CVE-2021-21300)
+- [Roboterh/CVE-2021-21300](https://github.com/Roboterh/CVE-2021-21300)
 
 ### CVE-2021-21311 (2021-02-11)
 
@@ -7073,8 +7075,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
 - [cbuschka/log4j2-rce-recap](https://github.com/cbuschka/log4j2-rce-recap)
-- [andrii-kovalenko-celonis/log4j-vulnerability-demo](https://github.com/andrii-kovalenko-celonis/log4j-vulnerability-demo)
-- [jan-muhammad-zaidi/Log4j-CVE-2021-44228](https://github.com/jan-muhammad-zaidi/Log4j-CVE-2021-44228)
 - [fox-it/log4j-finder](https://github.com/fox-it/log4j-finder)
 - [34zY/JNDI-Exploit-1.2-log4shell](https://github.com/34zY/JNDI-Exploit-1.2-log4shell)
 - [didoatanasov/cve-2021-44228](https://github.com/didoatanasov/cve-2021-44228)
@@ -7277,6 +7277,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [cybersecurityresearcher/CVE-2021-44228-Mass-RCE-Log4j](https://github.com/cybersecurityresearcher/CVE-2021-44228-Mass-RCE-Log4j)
 - [vidrez/Ethical-Hacking-Report-Log4j](https://github.com/vidrez/Ethical-Hacking-Report-Log4j)
 - [vino-theva/CVE-2021-44228](https://github.com/vino-theva/CVE-2021-44228)
+- [nemesi-ita/autoL4s](https://github.com/nemesi-ita/autoL4s)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
