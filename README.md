@@ -2806,6 +2806,9 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 ### CVE-2022-31262
 - [secure-77/CVE-2022-31262](https://github.com/secure-77/CVE-2022-31262)
 
+### CVE-2022-31269
+- [Henry4E36/CVE-2022-31269](https://github.com/Henry4E36/CVE-2022-31269)
+
 ### CVE-2022-31294 (2022-06-16)
 
 <code>
@@ -4283,6 +4286,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [carloscast1llo/CVE-2021-4034](https://github.com/carloscast1llo/CVE-2021-4034)
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
+- [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -6936,6 +6940,14 @@ Windows Encrypting File System (EFS) Elevation of Privilege Vulnerability
 
 - [jbaines-r7/blankspace](https://github.com/jbaines-r7/blankspace)
 
+### CVE-2021-43908 (2021-12-15)
+
+<code>
+Visual Studio Code Spoofing Vulnerability
+</code>
+
+- [Sudistark/vscode-rce-electrovolt](https://github.com/Sudistark/vscode-rce-electrovolt)
+
 ### CVE-2021-43936 (2021-12-06)
 
 <code>
@@ -7066,7 +7078,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
 - [tobiasoed/log4j-CVE-2021-44228](https://github.com/tobiasoed/log4j-CVE-2021-44228)
 - [hackinghippo/log4shell_ioc_ips](https://github.com/hackinghippo/log4shell_ioc_ips)
-- [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
@@ -7083,7 +7094,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [gcmurphy/chk_log4j](https://github.com/gcmurphy/chk_log4j)
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
-- [cbuschka/log4j2-rce-recap](https://github.com/cbuschka/log4j2-rce-recap)
 - [fox-it/log4j-finder](https://github.com/fox-it/log4j-finder)
 - [34zY/JNDI-Exploit-1.2-log4shell](https://github.com/34zY/JNDI-Exploit-1.2-log4shell)
 - [didoatanasov/cve-2021-44228](https://github.com/didoatanasov/cve-2021-44228)
