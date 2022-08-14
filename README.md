@@ -1056,7 +1056,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [snicoll-scratches/spring-boot-cve-2022-22965](https://github.com/snicoll-scratches/spring-boot-cve-2022-22965)
 - [nu0l/CVE-2022-22965](https://github.com/nu0l/CVE-2022-22965)
 - [tangxiaofeng7/CVE-2022-22965-Spring-Core-Rce](https://github.com/tangxiaofeng7/CVE-2022-22965-Spring-Core-Rce)
-- [iwarsong/CVE-2022-22965-POC](https://github.com/iwarsong/CVE-2022-22965-POC)
+- [whoami0622/CVE-2022-22965-POC](https://github.com/whoami0622/CVE-2022-22965-POC)
 - [lcarea/CVE-2022-22965](https://github.com/lcarea/CVE-2022-22965)
 - [Joe1sn/CVE-2022-22965](https://github.com/Joe1sn/CVE-2022-22965)
 - [zer0yu/CVE-2022-22965](https://github.com/zer0yu/CVE-2022-22965)
@@ -2467,6 +2467,14 @@ An arbitrary file upload vulnerability in formidable v3.1.4 allows attackers to 
 </code>
 
 - [keymandll/CVE-2022-29622](https://github.com/keymandll/CVE-2022-29622)
+
+### CVE-2022-29778 (2022-06-03)
+
+<code>
+** UNSUPPORTED WHEN ASSIGNED ** D-Link DIR-890L 1.20b01 allows attackers to execute arbitrary code due to the hardcoded option Wake-On-Lan for the parameter 'descriptor' at SetVirtualServerSettings.php.
+</code>
+
+- [TyeYeah/DIR-890L-1.20-RCE](https://github.com/TyeYeah/DIR-890L-1.20-RCE)
 
 ### CVE-2022-29885 (2022-05-12)
 
@@ -9980,7 +9988,7 @@ Guangzhou 1GE ONU V2801RW 1.9.1-181203 through 2.9.0-181024 and V2804RGW 1.9.1-1
 The Popup Builder plugin 2.2.8 through 2.6.7.6 for WordPress is vulnerable to SQL injection (in the sgImportPopups function in sg_popup_ajax.php) via PHP Deserialization on attacker-controlled data with the attachmentUrl POST variable. This allows creation of an arbitrary WordPress Administrator account, leading to possible Remote Code Execution because Administrators can run PHP code on Wordpress instances. (This issue has been fixed in the 3.x branch of popup-builder.)
 </code>
 
-- [tz4678/cve-2020-9006](https://github.com/tz4678/cve-2020-9006)
+- [mich3s/cve-2020-9006](https://github.com/mich3s/cve-2020-9006)
 
 ### CVE-2020-9008 (2020-02-25)
 
