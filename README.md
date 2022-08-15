@@ -1181,6 +1181,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [0tt7/CVE-2022-23131](https://github.com/0tt7/CVE-2022-23131)
 - [zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131)
 - [L0ading-x/cve-2022-23131](https://github.com/L0ading-x/cve-2022-23131)
+- [random-robbie/cve-2022-23131-exp](https://github.com/random-robbie/cve-2022-23131-exp)
 - [trganda/CVE-2022-23131](https://github.com/trganda/CVE-2022-23131)
 - [pykiller/CVE-2022-23131](https://github.com/pykiller/CVE-2022-23131)
 - [Fa1c0n35/zabbix-cve-2022-23131](https://github.com/Fa1c0n35/zabbix-cve-2022-23131)
@@ -4161,7 +4162,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Audiobahn/CVE-2021-4034](https://github.com/Audiobahn/CVE-2021-4034)
 - [dzonerzy/poc-cve-2021-4034](https://github.com/dzonerzy/poc-cve-2021-4034)
 - [nikaiw/CVE-2021-4034](https://github.com/nikaiw/CVE-2021-4034)
-- [signfind/CVE-2021-4034](https://github.com/signfind/CVE-2021-4034)
 - [mebeim/CVE-2021-4034](https://github.com/mebeim/CVE-2021-4034)
 - [Ayrx/CVE-2021-4034](https://github.com/Ayrx/CVE-2021-4034)
 - [Y3A/CVE-2021-4034](https://github.com/Y3A/CVE-2021-4034)
@@ -7088,6 +7088,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
 - [tobiasoed/log4j-CVE-2021-44228](https://github.com/tobiasoed/log4j-CVE-2021-44228)
 - [hackinghippo/log4shell_ioc_ips](https://github.com/hackinghippo/log4shell_ioc_ips)
+- [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
@@ -10181,6 +10182,7 @@ XML-RPC request are vulnerable to unsafe deserialization and Cross-Site Scriptin
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
 - [ambalabanov/CVE-2020-9496](https://github.com/ambalabanov/CVE-2020-9496)
 - [s4dbrd/CVE-2020-9496](https://github.com/s4dbrd/CVE-2020-9496)
+- [Ly0nt4r/CVE-2020-9496](https://github.com/Ly0nt4r/CVE-2020-9496)
 
 ### CVE-2020-9547 (2020-03-01)
 
@@ -13535,7 +13537,6 @@ An elevation of privilege vulnerability exists when the Windows Universal Plug a
 </code>
 
 - [apt69/COMahawk](https://github.com/apt69/COMahawk)
-- [signfind/COMahawk](https://github.com/signfind/COMahawk)
 
 ### CVE-2019-1422 (2019-11-12)
 
@@ -23100,7 +23101,7 @@ The join_session_keyring function in security/keys/process_keys.c in the Linux k
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
 - [th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit)
-- [tndud042713/cve-2016-0728](https://github.com/tndud042713/cve-2016-0728)
+- [tndud042713/cve](https://github.com/tndud042713/cve)
 
 ### CVE-2016-0752 (2016-02-15)
 
@@ -25806,6 +25807,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [trhacknon/exploit-CVE-2014-6271](https://github.com/trhacknon/exploit-CVE-2014-6271)
 - [Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock)
 - [anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host)
+- [sidd3009/PenTesting](https://github.com/sidd3009/PenTesting)
 
 ### CVE-2014-6287 (2014-10-07)
 
