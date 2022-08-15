@@ -2121,6 +2121,7 @@ Zimbra Collaboration (aka ZCS) 8.8.15 and 9.0 has mboximport functionality that 
 </code>
 
 - [vnhacker1337/CVE-2022-27925-PoC](https://github.com/vnhacker1337/CVE-2022-27925-PoC)
+- [MeDx64/CVE-2022-27925](https://github.com/MeDx64/CVE-2022-27925)
 
 ### CVE-2022-27927 (2022-04-19)
 
