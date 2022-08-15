@@ -9999,7 +9999,7 @@ Guangzhou 1GE ONU V2801RW 1.9.1-181203 through 2.9.0-181024 and V2804RGW 1.9.1-1
 The Popup Builder plugin 2.2.8 through 2.6.7.6 for WordPress is vulnerable to SQL injection (in the sgImportPopups function in sg_popup_ajax.php) via PHP Deserialization on attacker-controlled data with the attachmentUrl POST variable. This allows creation of an arbitrary WordPress Administrator account, leading to possible Remote Code Execution because Administrators can run PHP code on Wordpress instances. (This issue has been fixed in the 3.x branch of popup-builder.)
 </code>
 
-- [mich3s/cve-2020-9006](https://github.com/mich3s/cve-2020-9006)
+- [s3rgeym/cve-2020-9006](https://github.com/s3rgeym/cve-2020-9006)
 
 ### CVE-2020-9008 (2020-02-25)
 
@@ -14769,6 +14769,7 @@ mailboxd component in Synacor Zimbra Collaboration Suite 8.7.x before 8.7.11p10 
 - [rek7/Zimbra-RCE](https://github.com/rek7/Zimbra-RCE)
 - [attackgithub/Zimbra-RCE](https://github.com/attackgithub/Zimbra-RCE)
 - [oppsec/arbimz](https://github.com/oppsec/arbimz)
+- [oppsec/zaber](https://github.com/oppsec/zaber)
 
 ### CVE-2019-9673 (2019-06-05)
 
