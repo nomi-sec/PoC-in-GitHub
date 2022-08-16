@@ -503,6 +503,9 @@ A critical issue has been discovered in GitLab affecting all versions starting f
 ### CVE-2022-2588
 - [Markakd/CVE-2022-2588](https://github.com/Markakd/CVE-2022-2588)
 
+### CVE-2022-3452
+- [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
+
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
 
@@ -590,6 +593,14 @@ In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possib
 </code>
 
 - [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142)
+
+### CVE-2022-20223 (2022-07-13)
+
+<code>
+In assertSafeToStartCustomActivity of AppRestrictionsFragment.java, there is a possible way to start a phone call without permissions due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-223578534
+</code>
+
+- [nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20223](https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20223)
 
 ### CVE-2022-20224 (2022-07-13)
 
@@ -2371,6 +2382,14 @@ Smarty is a template engine for PHP, facilitating the separation of presentation
 </code>
 
 - [sbani/CVE-2022-29221-PoC](https://github.com/sbani/CVE-2022-29221-PoC)
+
+### CVE-2022-29247 (2022-06-13)
+
+<code>
+Electron is a framework for writing cross-platform desktop applications using JavaScript (JS), HTML, and CSS. A vulnerability in versions prior to 18.0.0-beta.6, 17.2.0, 16.2.6, and 15.5.5 allows a renderer with JS execution to obtain access to a new renderer process with `nodeIntegrationInSubFrames` enabled which in turn allows effective access to `ipcRenderer`. The `nodeIntegrationInSubFrames` option does not implicitly grant Node.js access. Rather, it depends on the existing sandbox setting. If an application is sandboxed, then `nodeIntegrationInSubFrames` just gives access to the sandboxed renderer APIs, which include `ipcRenderer`. If the application then additionally exposes IPC messages without IPC `senderFrame` validation that perform privileged actions or return confidential data this access to `ipcRenderer` can in turn compromise your application / user even with the sandbox enabled. Electron versions 18.0.0-beta.6, 17.2.0, 16.2.6, and 15.5.5 contain a fix for this issue. As a workaround, ensure that all IPC message handlers appropriately validate `senderFrame`.
+</code>
+
+- [a1ise/CVE-2022-29247](https://github.com/a1ise/CVE-2022-29247)
 
 ### CVE-2022-29303 (2022-05-12)
 
