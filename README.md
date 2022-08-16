@@ -1493,7 +1493,12 @@ ZZ Inc. KeyMouse Windows 3.08 and prior is affected by a remote code execution v
 - [gerr-re/cve-2022-24644](https://github.com/gerr-re/cve-2022-24644)
 - [ThanhThuy2908/ATHDH_CVE_2022_24644](https://github.com/ThanhThuy2908/ATHDH_CVE_2022_24644)
 
-### CVE-2022-24654
+### CVE-2022-24654 (2022-08-15)
+
+<code>
+Authenticated stored cross-site scripting (XSS) vulnerability in &quot;Field Server Address&quot; field in INTELBRAS ATA 200 Firmware 74.19.10.21 allows attackers to inject JavaScript code through a crafted payload.
+</code>
+
 - [leonardobg/CVE-2022-24654](https://github.com/leonardobg/CVE-2022-24654)
 
 ### CVE-2022-24675 (2022-04-20)
@@ -3109,6 +3114,12 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 </code>
 
 - [AngeloPioAmirante/CVE-2022-35899](https://github.com/AngeloPioAmirante/CVE-2022-35899)
+
+### CVE-2022-36162
+- [MaherAzzouzi/CVE-2022-36162](https://github.com/MaherAzzouzi/CVE-2022-36162)
+
+### CVE-2022-36163
+- [MaherAzzouzi/CVE-2022-36163](https://github.com/MaherAzzouzi/CVE-2022-36163)
 
 ### CVE-2022-36446 (2022-07-25)
 
