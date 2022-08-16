@@ -591,6 +591,22 @@ In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possib
 
 - [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142)
 
+### CVE-2022-20224 (2022-07-13)
+
+<code>
+In AT_SKIP_REST of bta_hf_client_at.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote information disclosure in the Bluetooth stack with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-220732646
+</code>
+
+- [ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20224)
+
+### CVE-2022-20229 (2022-07-13)
+
+<code>
+In bta_hf_client_handle_cind_list_item of bta_hf_client_at.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-224536184
+</code>
+
+- [ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -2727,6 +2743,14 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 </code>
 
 - [efchatz/QUIC-attacks](https://github.com/efchatz/QUIC-attacks)
+
+### CVE-2022-30592 (2022-05-11)
+
+<code>
+liblsquic/lsquic_qenc_hdl.c in LiteSpeed QUIC (aka LSQUIC) before 3.1.0 mishandles MAX_TABLE_CAPACITY.
+</code>
+
+- [efchatz/HTTP3-attacks](https://github.com/efchatz/HTTP3-attacks)
 
 ### CVE-2022-30594 (2022-05-12)
 
@@ -15742,7 +15766,7 @@ One Identity Cloud Access Manager 8.1.3 does not use HTTP Strict Transport Secur
 There is an out-of-bounds read in Exiv2::MrwImage::readMetadata in mrwimage.cpp in Exiv2 through 0.27.2.
 </code>
 
-- [hazedic/fuzzenv-exiv2](https://github.com/hazedic/fuzzenv-exiv2)
+- [5l1v3r1/fuzzenv-exiv2](https://github.com/5l1v3r1/fuzzenv-exiv2)
 
 ### CVE-2019-13574 (2019-07-11)
 
