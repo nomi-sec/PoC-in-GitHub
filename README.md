@@ -694,6 +694,14 @@ Tensorflow is an Open Source Machine Learning Framework. The implementation of s
 
 - [mwina/CVE-2022-21728-test](https://github.com/mwina/CVE-2022-21728-test)
 
+### CVE-2022-21789 (2022-08-01)
+
+<code>
+In audio ipi, there is a possible memory corruption due to a race condition. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS06478101; Issue ID: ALPS06478101.
+</code>
+
+- [docfate111/CVE-2022-21789](https://github.com/docfate111/CVE-2022-21789)
+
 ### CVE-2022-21877 (2022-01-11)
 
 <code>
