@@ -3172,6 +3172,9 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 ### CVE-2022-36163
 - [MaherAzzouzi/CVE-2022-36163](https://github.com/MaherAzzouzi/CVE-2022-36163)
 
+### CVE-2022-36271
+- [SaumyajeetDas/POC-of-CVE-2022-36271](https://github.com/SaumyajeetDas/POC-of-CVE-2022-36271)
+
 ### CVE-2022-36446 (2022-07-25)
 
 <code>
@@ -11266,7 +11269,12 @@ A SQL injection issue in color.php in Cacti 1.2.12 allows an admin to inject SQL
 - [0z09e/CVE-2020-14295](https://github.com/0z09e/CVE-2020-14295)
 - [mrg3ntl3m4n/CVE-2020-14295](https://github.com/mrg3ntl3m4n/CVE-2020-14295)
 
-### CVE-2020-14321
+### CVE-2020-14321 (2022-08-16)
+
+<code>
+In Moodle before 3.9.1, 3.8.4, 3.7.7 and 3.5.13, teachers of a course were able to assign themselves the manager role within that course.
+</code>
+
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
 - [lanzt/CVE-2020-14321](https://github.com/lanzt/CVE-2020-14321)
 - [f0ns1/CVE-2020-14321-modified-exploit](https://github.com/f0ns1/CVE-2020-14321-modified-exploit)
