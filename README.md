@@ -2863,7 +2863,12 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
 
-### CVE-2022-31262
+### CVE-2022-31262 (2022-08-17)
+
+<code>
+An exploitable local privilege escalation vulnerability exists in GOG Galaxy 2.0.46. Due to insufficient folder permissions, an attacker can hijack the %ProgramData%\GOG.com folder structure and change the GalaxyCommunication service executable to a malicious file, resulting in code execution as SYSTEM.
+</code>
+
 - [secure-77/CVE-2022-31262](https://github.com/secure-77/CVE-2022-31262)
 
 ### CVE-2022-31269
@@ -6230,6 +6235,14 @@ A denial of service vulnerability exists in MDT's firmware for the KNXnet/IP Sec
 
 - [robertguetzkow/CVE-2021-37740](https://github.com/robertguetzkow/CVE-2021-37740)
 
+### CVE-2021-37910 (2021-11-11)
+
+<code>
+ASUS routers Wi-Fi protected access protocol (WPA2 and WPA3-SAE) has improper control of Interaction frequency vulnerability, an unauthenticated attacker can remotely disconnect other users' connections by sending specially crafted SAE authentication frames.
+</code>
+
+- [efchatz/easy-exploits](https://github.com/efchatz/easy-exploits)
+
 ### CVE-2021-38314 (2021-09-02)
 
 <code>
@@ -7153,7 +7166,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
 - [tobiasoed/log4j-CVE-2021-44228](https://github.com/tobiasoed/log4j-CVE-2021-44228)
 - [hackinghippo/log4shell_ioc_ips](https://github.com/hackinghippo/log4shell_ioc_ips)
-- [p3dr16k/log4j-1.2.15-mod](https://github.com/p3dr16k/log4j-1.2.15-mod)
 - [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
@@ -9475,6 +9487,14 @@ SAP BusinessObjects Business Intelligence Platform (Web Services) versions - 410
 - [InitRoot/CVE-2020-6308-PoC](https://github.com/InitRoot/CVE-2020-6308-PoC)
 - [freeFV/CVE-2020-6308-mass-exploiter](https://github.com/freeFV/CVE-2020-6308-mass-exploiter)
 - [TheMMMdev/CVE-2020-6308](https://github.com/TheMMMdev/CVE-2020-6308)
+
+### CVE-2020-6364 (2020-10-14)
+
+<code>
+SAP Solution Manager and SAP Focused Run (update provided in WILY_INTRO_ENTERPRISE 9.7, 10.1, 10.5, 10.7), allows an attacker to modify a cookie in a way that OS commands can be executed and potentially gain control over the host running the CA Introscope Enterprise Manager,leading to Code Injection. With this, the attacker is able to read and modify all system files and also impact system availability.
+</code>
+
+- [gquere/CVE-2020-6364](https://github.com/gquere/CVE-2020-6364)
 
 ### CVE-2020-6418 (2020-02-27)
 
