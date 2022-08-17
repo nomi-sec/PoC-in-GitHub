@@ -11793,7 +11793,7 @@ The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x8
 WSO2 Management Console through 5.10 allows XSS via the carbon/admin/login.jsp msgId parameter.
 </code>
 
-- [JHHAX/CVE-2020-17453-PoC](https://github.com/JHHAX/CVE-2020-17453-PoC)
+- [ydycjz6j/CVE-2020-17453-PoC](https://github.com/ydycjz6j/CVE-2020-17453-PoC)
 
 ### CVE-2020-17456 (2020-08-19)
 
@@ -28085,7 +28085,12 @@ Land IP denial of service.
 - [pexmee/CVE-1999-0016-Land-DOS-tool](https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool)
 - [Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC)
 
-### CVE-1999-0532
+### CVE-1999-0532 (2000-02-04)
+
+<code>
+A DNS server allows zone transfers.
+</code>
+
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
 - [Rodney-O-C-Melby/dns-zone-transfer-test](https://github.com/Rodney-O-C-Melby/dns-zone-transfer-test)
 
