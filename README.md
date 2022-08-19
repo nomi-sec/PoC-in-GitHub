@@ -2191,6 +2191,7 @@ Zimbra Collaboration (aka ZCS) 8.8.15 and 9.0 has mboximport functionality that 
 
 - [vnhacker1337/CVE-2022-27925-PoC](https://github.com/vnhacker1337/CVE-2022-27925-PoC)
 - [MeDx64/CVE-2022-27925](https://github.com/MeDx64/CVE-2022-27925)
+- [miko550/CVE-2022-27925](https://github.com/miko550/CVE-2022-27925)
 
 ### CVE-2022-27927 (2022-04-19)
 
@@ -2978,6 +2979,14 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 - [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
+
+### CVE-2022-31793 (2022-08-04)
+
+<code>
+do_request in request.c in muhttpd before 1.1.7 allows remote attackers to read arbitrary files by constructing a URL with a single character before a desired path on the filesystem. This occurs because the code skips over the first character when serving files. Arris NVG443, NVG599, NVG589, and NVG510 devices and Arris-derived BGW210 and BGW320 devices are affected.
+</code>
+
+- [xpgdgit/CVE-2022-31793](https://github.com/xpgdgit/CVE-2022-31793)
 
 ### CVE-2022-31854 (2022-07-07)
 
@@ -17316,6 +17325,14 @@ Command injection vulnerability in networking of QNAP Q'center Virtual Appliance
 </code>
 
 - [ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708)
+
+### CVE-2018-0798 (2018-01-09)
+
+<code>
+Equation Editor in Microsoft Office 2007, Microsoft Office 2010, Microsoft Office 2013, and Microsoft Office 2016 allows a remote code execution vulnerability due to the way objects are handled in memory, aka &quot;Microsoft Office Memory Corruption Vulnerability&quot;.
+</code>
+
+- [Sunqiz/CVE-2018-0798-reproduction](https://github.com/Sunqiz/CVE-2018-0798-reproduction)
 
 ### CVE-2018-0802 (2018-01-09)
 
