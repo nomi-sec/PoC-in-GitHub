@@ -28070,6 +28070,14 @@ The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the clie
 
 
 ## 2001
+### CVE-2001-0550 (2002-06-25)
+
+<code>
+wu-ftpd 2.6.1 allows remote attackers to execute arbitrary commands via a &quot;~{&quot; argument to commands such as CWD, which is not properly handled by the glob function (ftpglob).
+</code>
+
+- [gilberto47831/Network-Filesystem-Forensics](https://github.com/gilberto47831/Network-Filesystem-Forensics)
+
 ### CVE-2001-0680 (2002-03-09)
 
 <code>
