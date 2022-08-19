@@ -505,6 +505,14 @@ A critical issue has been discovered in GitLab affecting all versions starting f
 ### CVE-2022-2333
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
 
+### CVE-2022-2414 (2022-07-29)
+
+<code>
+Access to external entities when parsing XML documents can lead to XML external entity (XXE) attacks. This flaw allows a remote attacker to potentially retrieve the content of arbitrary files by sending specially crafted HTTP requests.
+</code>
+
+- [superhac/CVE-2022-2414-POC](https://github.com/superhac/CVE-2022-2414-POC)
+
 ### CVE-2022-2466
 - [yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL](https://github.com/yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL)
 
@@ -3099,7 +3107,7 @@ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Tr
 </code>
 
 - [aeyesec/CVE-2022-34265](https://github.com/aeyesec/CVE-2022-34265)
-- [not-xences/CVE-2022-34265](https://github.com/not-xences/CVE-2022-34265)
+- [traumatising/CVE-2022-34265](https://github.com/traumatising/CVE-2022-34265)
 
 ### CVE-2022-34298 (2022-06-22)
 
@@ -3214,6 +3222,14 @@ nfqnl_mangle in net/netfilter/nfnetlink_queue.c in the Linux kernel through 5.18
 
 - [Pwnzer0tt1/CVE-2022-36946](https://github.com/Pwnzer0tt1/CVE-2022-36946)
 - [XmasSnowISBACK/CVE-2022-36946](https://github.com/XmasSnowISBACK/CVE-2022-36946)
+
+### CVE-2022-37042 (2022-08-11)
+
+<code>
+Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authentication (i.e., not having an authtoken), an attacker can upload arbitrary files to the system, leading to directory traversal and remote code execution. NOTE: this issue exists because of an incomplete fix for CVE-2022-27925.
+</code>
+
+- [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
 
 
 ## 2021
@@ -13183,6 +13199,8 @@ Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on r
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 - [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
+- [Al1ex/CVE-2019-0230](https://github.com/Al1ex/CVE-2019-0230)
+- [tw-eason-tseng/CVE-2019-0230_Struts2S2-059](https://github.com/tw-eason-tseng/CVE-2019-0230_Struts2S2-059)
 
 ### CVE-2019-0232 (2019-04-15)
 
@@ -14018,6 +14036,7 @@ The Crestron AM-100 firmware 1.6.0.2, Crestron AM-101 firmware 2.7.0.1, Barco we
 The Solarwinds Dameware Mini Remote Client agent v12.1.0.89 supports smart card authentication which can allow a user to upload an executable to be executed on the DWRCS.exe host. An unauthenticated, remote attacker can request smart card login and upload and execute an arbitrary executable run under the Local System account.
 </code>
 
+- [warferik/CVE-2019-3980](https://github.com/warferik/CVE-2019-3980)
 - [Barbarisch/CVE-2019-3980](https://github.com/Barbarisch/CVE-2019-3980)
 
 ### CVE-2019-5010 (2019-10-31)
@@ -14086,6 +14105,22 @@ A remote code execution vulnerability in development mode Rails &lt;5.2.2.1, &lt
 - [PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420)
 - [laffray/ruby-RCE-CVE-2019-5420-](https://github.com/laffray/ruby-RCE-CVE-2019-5420-)
 
+### CVE-2019-5427 (2019-04-22)
+
+<code>
+c3p0 version &lt; 0.9.5.4 may be exploited by a billion laughs attack when loading XML configuration due to missing protections against recursive entity expansion when loading configuration.
+</code>
+
+- [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
+
+### CVE-2019-5454 (2019-07-30)
+
+<code>
+SQL Injection in the Nextcloud Android app prior to version 3.0.0 allows to destroy a local cache when a harmful query is executed requiring to resetup the account.
+</code>
+
+- [shanika04/nextcloud_android](https://github.com/shanika04/nextcloud_android)
+
 ### CVE-2019-5475 (2019-09-03)
 
 <code>
@@ -14110,6 +14145,7 @@ The mincore() implementation in mm/mincore.c in the Linux kernel through 4.19.13
 OpenSLP as used in ESXi and the Horizon DaaS appliances has a heap overwrite issue. VMware has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8.
 </code>
 
+- [HynekPetrak/CVE-2019-5544_CVE-2020-3992](https://github.com/HynekPetrak/CVE-2019-5544_CVE-2020-3992)
 - [dgh05t/VMware_ESXI_OpenSLP_PoCs](https://github.com/dgh05t/VMware_ESXI_OpenSLP_PoCs)
 
 ### CVE-2019-5624 (2019-04-30)
@@ -15982,6 +16018,14 @@ A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.x befo
 
 - [jas502n/CVE-2019-14439](https://github.com/jas502n/CVE-2019-14439)
 
+### CVE-2019-14450 (2019-10-28)
+
+<code>
+A directory traversal vulnerability was discovered in RepetierServer.exe in Repetier-Server 0.8 through 0.91 that allows for the creation of a user controlled XML file at an unintended location. When this is combined with CVE-2019-14451, an attacker can upload an &quot;external command&quot; configuration as a printer configuration, and achieve remote code execution. After exploitation, loading of the external command configuration is dependent on a system reboot or service restart.
+</code>
+
+- [securifera/CVE-2019-14450](https://github.com/securifera/CVE-2019-14450)
+
 ### CVE-2019-14514 (2020-02-10)
 
 <code>
@@ -16116,6 +16160,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [n0obit4/Webmin_1.890-POC](https://github.com/n0obit4/Webmin_1.890-POC)
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
+- [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
 - [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 - [puckiestyle/CVE-2019-15107](https://github.com/puckiestyle/CVE-2019-15107)
 - [darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107)
@@ -16428,6 +16473,14 @@ Incorrect alias information in IonMonkey JIT compiler for setting array elements
 - [maxpl0it/CVE-2019-17026-Exploit](https://github.com/maxpl0it/CVE-2019-17026-Exploit)
 - [lsw29475/CVE-2019-17026](https://github.com/lsw29475/CVE-2019-17026)
 
+### CVE-2019-17041 (2019-10-07)
+
+<code>
+An issue was discovered in Rsyslog v8.1908.0. contrib/pmaixforwardedfrom/pmaixforwardedfrom.c has a heap overflow in the parser for AIX log messages. The parser tries to locate a log message delimiter (in this case, a space or a colon) but fails to account for strings that do not satisfy this constraint. If the string does not match, then the variable lenMsg will reach the value zero and will skip the sanity check that detects invalid log messages. The message will then be considered valid, and the parser will eat up the nonexistent colon delimiter. In doing so, it will decrement lenMsg, a signed integer, whose value was zero and now becomes minus one. The following step in the parser is to shift left the contents of the message. To do this, it will call memmove with the right pointers to the target and destination strings, but the lenMsg will now be interpreted as a huge value, causing a heap overflow.
+</code>
+
+- [Resery/CVE-2019-17041](https://github.com/Resery/CVE-2019-17041)
+
 ### CVE-2019-17080 (2019-10-02)
 
 <code>
@@ -16548,6 +16601,7 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
+- [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
 
 ### CVE-2019-17564 (2020-04-01)
 
