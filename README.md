@@ -27472,6 +27472,14 @@ The loadContentFromCookie function in core/Cookie.php in Piwik before 0.5 does n
 
 - [Alexeyan/CVE-2009-4137](https://github.com/Alexeyan/CVE-2009-4137)
 
+### CVE-2009-4623 (2010-01-18)
+
+<code>
+Multiple PHP remote file inclusion vulnerabilities in Advanced Comment System 1.0 allow remote attackers to execute arbitrary PHP code via a URL in the ACS_path parameter to (1) index.php and (2) admin.php in advanced_comment_system/. NOTE: this might only be a vulnerability when the administrator has not followed installation instructions in install.php. NOTE: this might be the same as CVE-2020-35598.
+</code>
+
+- [hupe1980/CVE-2009-4623](https://github.com/hupe1980/CVE-2009-4623)
+
 ### CVE-2009-4660 (2010-03-03)
 
 <code>
@@ -28062,14 +28070,6 @@ The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the clie
 
 
 ## 2001
-### CVE-2001-0550 (2002-06-25)
-
-<code>
-wu-ftpd 2.6.1 allows remote attackers to execute arbitrary commands via a &quot;~{&quot; argument to commands such as CWD, which is not properly handled by the glob function (ftpglob).
-</code>
-
-- [gilberto47831/Network-Filesystem-Forensics](https://github.com/gilberto47831/Network-Filesystem-Forensics)
-
 ### CVE-2001-0680 (2002-03-09)
 
 <code>
