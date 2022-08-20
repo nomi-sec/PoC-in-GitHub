@@ -14796,12 +14796,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 - [Marbocatcat/46635.py](https://github.com/Marbocatcat/46635.py)
 - [4nner/CVE-2019-9053](https://github.com/4nner/CVE-2019-9053)
 
-### CVE-2019-9081 (2019-02-24)
-
-<code>
-The Illuminate component of Laravel Framework 5.7.x has a deserialization vulnerability that can lead to remote code execution if the content is controllable, related to the __destruct method of the PendingCommand class in PendingCommand.php.
-</code>
-
+### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
 - [scopion/cve-2019-9081](https://github.com/scopion/cve-2019-9081)
 
