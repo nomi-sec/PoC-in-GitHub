@@ -233,6 +233,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
 - [XmasSnowISBACK/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/XmasSnowISBACK/CVE-2022-0847-DirtyPipe-Exploits)
 - [EagleTube/CVE-2022-0847](https://github.com/EagleTube/CVE-2022-0847)
+- [yoeelingBin/CVE-2022-0847-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape)
 
 ### CVE-2022-0848 (2022-03-04)
 
