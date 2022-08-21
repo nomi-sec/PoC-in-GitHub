@@ -4441,7 +4441,6 @@ TP-Link Tapo C200 IP camera, on its 1.1.15 firmware version and below, is affect
 JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data when the attacker has write access to the Log4j configuration. The attacker can provide TopicBindingName and TopicConnectionFactoryBindingName configurations causing JMSAppender to perform JNDI requests that result in remote code execution in a similar fashion to CVE-2021-44228. Note this issue only affects Log4j 1.2 when specifically configured to use JMSAppender, which is not the default. Apache Log4j 1.2 reached end of life in August 2015. Users should upgrade to Log4j 2 as it addresses numerous other issues from the previous versions.
 </code>
 
-- [cckuailong/log4shell_1.x](https://github.com/cckuailong/log4shell_1.x)
 - [open-AIMS/log4j](https://github.com/open-AIMS/log4j)
 
 ### CVE-2021-4154 (2022-02-04)
@@ -7021,6 +7020,14 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
+
+### CVE-2021-43811 (2021-12-08)
+
+<code>
+Sockeye is an open-source sequence-to-sequence framework for Neural Machine Translation built on PyTorch. Sockeye uses YAML to store model and data configurations on disk. Versions below 2.3.24 use unsafe YAML loading, which can be made to execute arbitrary code embedded in config files. An attacker can add malicious code to the config file of a trained model and attempt to convince users to download and run it. If users run the model, the embedded code will run locally. The issue is fixed in version 2.3.24.
+</code>
+
+- [s-index/CVE-2021-43811](https://github.com/s-index/CVE-2021-43811)
 
 ### CVE-2021-43821 (2021-12-14)
 
