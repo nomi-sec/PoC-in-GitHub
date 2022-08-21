@@ -2077,6 +2077,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
 - [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
+- [crypt0r00t/CVE-2022-26809](https://github.com/crypt0r00t/CVE-2022-26809)
 - [Calvitz/CVE-2022-26809](https://github.com/Calvitz/CVE-2022-26809)
 - [XmasSnowISBACK/CVE-2022-26809](https://github.com/XmasSnowISBACK/CVE-2022-26809)
 - [scoobydoobi/CVE-2022-26809-RCE-POC](https://github.com/scoobydoobi/CVE-2022-26809-RCE-POC)
@@ -8957,6 +8958,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Neko-chanQwQ/CVE-2020-1938](https://github.com/Neko-chanQwQ/CVE-2020-1938)
 - [jptr218/ghostcat](https://github.com/jptr218/ghostcat)
 - [einzbernnn/CVE-2020-1938Scan](https://github.com/einzbernnn/CVE-2020-1938Scan)
+- [YounesTasra-R4z3rSw0rd/CVE-2020-1938](https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
