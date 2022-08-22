@@ -1919,6 +1919,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [twoning/CVE-2022-26134-PoC](https://github.com/twoning/CVE-2022-26134-PoC)
 - [iveresk/cve-2022-26134](https://github.com/iveresk/cve-2022-26134)
 - [keven1z/CVE-2022-26134](https://github.com/keven1z/CVE-2022-26134)
+- [shiftsansan/CVE-2022-26134-Console](https://github.com/shiftsansan/CVE-2022-26134-Console)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -3229,6 +3230,7 @@ software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
 </code>
 
 - [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
+- [peanut-cc/CVE-2022-36446](https://github.com/peanut-cc/CVE-2022-36446)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -4063,6 +4065,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [trhacknon/CVE-2021-3156](https://github.com/trhacknon/CVE-2021-3156)
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [FrancescoMarchiori/CVE-2021-3156](https://github.com/FrancescoMarchiori/CVE-2021-3156)
+- [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -7240,7 +7243,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
 - [fox-it/log4j-finder](https://github.com/fox-it/log4j-finder)
 - [34zY/JNDI-Exploit-1.2-log4shell](https://github.com/34zY/JNDI-Exploit-1.2-log4shell)
-- [didoatanasov/cve-2021-44228](https://github.com/didoatanasov/cve-2021-44228)
 - [ReynerGonzalez/Security-Log4J-Tester](https://github.com/ReynerGonzalez/Security-Log4J-Tester)
 - [ShaneKingBlog/org.shaneking.demo.cve.y2021.s44228](https://github.com/ShaneKingBlog/org.shaneking.demo.cve.y2021.s44228)
 - [wortell/log4j](https://github.com/wortell/log4j)
