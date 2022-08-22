@@ -2093,6 +2093,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [Ziggy78/CVE-2022-26809-RCE-POC](https://github.com/Ziggy78/CVE-2022-26809-RCE-POC)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
 - [Ziggy78/CVE-2022-26809-MASS-RCE](https://github.com/Ziggy78/CVE-2022-26809-MASS-RCE)
+- [ToomArni65/CVE-2022-26809-RCE](https://github.com/ToomArni65/CVE-2022-26809-RCE)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -2317,7 +2318,12 @@ A Remote Code Execution (RCE) vulnerability exists in Pixelimity 1.0 via admin/a
 - [jcarabantes/CVE-2022-28590](https://github.com/jcarabantes/CVE-2022-28590)
 - [trhacknon/CVE-2022-28590](https://github.com/trhacknon/CVE-2022-28590)
 
-### CVE-2022-28598
+### CVE-2022-28598 (-)
+
+<code>
+Frappe ERPNext 12.29.0 is vulnerable to XSS where the software does not neutralize or incorrectly neutralize user-controllable input before it is placed in output that is used as a web page that is served to other users.
+</code>
+
 - [patrickdeanramos/CVE-2022-28598](https://github.com/patrickdeanramos/CVE-2022-28598)
 
 ### CVE-2022-28601 (2022-05-10)
@@ -3154,6 +3160,9 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 - [merlinepedra/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra/CVE-2022-34918-LPE-PoC)
 - [linulinu/CVE-2022-34918](https://github.com/linulinu/CVE-2022-34918)
 - [veritas501/CVE-2022-34918](https://github.com/veritas501/CVE-2022-34918)
+
+### CVE-2022-34919
+- [ahajnik/CVE-2022-34919](https://github.com/ahajnik/CVE-2022-34919)
 
 ### CVE-2022-34961 (2022-07-25)
 
@@ -5080,7 +5089,7 @@ An issue was discovered in through SaltStack Salt before 3002.5. salt-api does n
 An improper authorization vulnerability in Samsung Members &quot;samsungrewards&quot; scheme for deeplink in versions 2.4.83.9 in Android O(8.1) and below, and 3.9.00.9 in Android P(9.0) and above allows remote attackers to access a user data related with Samsung Account.
 </code>
 
-- [FSecureLABS/CVE-2021-25374_Samsung-Account-Access](https://github.com/FSecureLABS/CVE-2021-25374_Samsung-Account-Access)
+- [WithSecureLabs/CVE-2021-25374_Samsung-Account-Access](https://github.com/WithSecureLabs/CVE-2021-25374_Samsung-Account-Access)
 
 ### CVE-2021-25461 (2021-09-09)
 
