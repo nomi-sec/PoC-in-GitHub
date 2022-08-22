@@ -7167,7 +7167,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
 - [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
-- [Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot)
 - [TheArqsz/CVE-2021-44228-PoC](https://github.com/TheArqsz/CVE-2021-44228-PoC)
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
 - [f0ng/log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)
