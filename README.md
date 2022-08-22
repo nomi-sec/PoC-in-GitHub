@@ -20529,6 +20529,14 @@ LibreNMS 1.46 allows remote attackers to execute arbitrary OS commands by using 
 
 - [mhaskar/CVE-2018-20434](https://github.com/mhaskar/CVE-2018-20434)
 
+### CVE-2018-20463 (2018-12-25)
+
+<code>
+An issue was discovered in the JSmol2WP plugin 1.07 for WordPress. There is an arbitrary file read vulnerability via ../ directory traversal in query=php://filter/resource= in the jsmol.php query string. This can also be used for SSRF.
+</code>
+
+- [Henry4E36/CVE-2018-20463](https://github.com/Henry4E36/CVE-2018-20463)
+
 ### CVE-2018-20555 (2019-03-18)
 
 <code>
