@@ -523,6 +523,7 @@ Access to external entities when parsing XML documents can lead to XML external 
 ### CVE-2022-2588
 - [Markakd/CVE-2022-2588](https://github.com/Markakd/CVE-2022-2588)
 - [greek0x0/2022-LPE-UAF](https://github.com/greek0x0/2022-LPE-UAF)
+- [ASkyeye/2022-LPE-UAF](https://github.com/ASkyeye/2022-LPE-UAF)
 
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
@@ -1032,6 +1033,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [B0rn2d/Spring-Cloud-Gateway-Nacos](https://github.com/B0rn2d/Spring-Cloud-Gateway-Nacos)
 - [kmahyyg/CVE-2022-22947](https://github.com/kmahyyg/CVE-2022-22947)
 - [LY613313/CVE-2022-22947](https://github.com/LY613313/CVE-2022-22947)
+- [SiJiDo/CVE-2022-22947](https://github.com/SiJiDo/CVE-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
 
