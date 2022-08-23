@@ -3162,7 +3162,12 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 - [linulinu/CVE-2022-34918](https://github.com/linulinu/CVE-2022-34918)
 - [veritas501/CVE-2022-34918](https://github.com/veritas501/CVE-2022-34918)
 
-### CVE-2022-34919
+### CVE-2022-34919 (2022-08-22)
+
+<code>
+The file upload wizard in Zengenti Contensis Classic before 15.2.1.79 does not correctly check that a user has authenticated. By uploading a crafted aspx file, it is possible to execute arbitrary commands.
+</code>
+
 - [ahajnik/CVE-2022-34919](https://github.com/ahajnik/CVE-2022-34919)
 
 ### CVE-2022-34961 (2022-07-25)
@@ -3240,7 +3245,6 @@ software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
 </code>
 
 - [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
-- [peanut-cc/CVE-2022-36446](https://github.com/peanut-cc/CVE-2022-36446)
 
 ### CVE-2022-36946 (2022-07-27)
 
