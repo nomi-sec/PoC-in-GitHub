@@ -522,6 +522,7 @@ Access to external entities when parsing XML documents can lead to XML external 
 
 ### CVE-2022-2588
 - [Markakd/CVE-2022-2588](https://github.com/Markakd/CVE-2022-2588)
+- [greek0x0/2022-LPE-UAF](https://github.com/greek0x0/2022-LPE-UAF)
 
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
@@ -2318,7 +2319,7 @@ A Remote Code Execution (RCE) vulnerability exists in Pixelimity 1.0 via admin/a
 - [jcarabantes/CVE-2022-28590](https://github.com/jcarabantes/CVE-2022-28590)
 - [trhacknon/CVE-2022-28590](https://github.com/trhacknon/CVE-2022-28590)
 
-### CVE-2022-28598 (-)
+### CVE-2022-28598 (2022-08-22)
 
 <code>
 Frappe ERPNext 12.29.0 is vulnerable to XSS where the software does not neutralize or incorrectly neutralize user-controllable input before it is placed in output that is used as a web page that is served to other users.
