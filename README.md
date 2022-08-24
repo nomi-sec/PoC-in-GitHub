@@ -1352,6 +1352,7 @@ Zoho ManageEngine Desktop Central before 10.1.2137.8 exposes the installed serve
 </code>
 
 - [fbusr/CVE-2022-23779](https://github.com/fbusr/CVE-2022-23779)
+- [Vulnmachines/Zoho_CVE-2022-23779](https://github.com/Vulnmachines/Zoho_CVE-2022-23779)
 
 ### CVE-2022-23808 (2022-01-21)
 
@@ -3136,6 +3137,7 @@ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Tr
 
 - [aeyesec/CVE-2022-34265](https://github.com/aeyesec/CVE-2022-34265)
 - [traumatising/CVE-2022-34265](https://github.com/traumatising/CVE-2022-34265)
+- [ZhaoQi99/CVE-2022-34265](https://github.com/ZhaoQi99/CVE-2022-34265)
 
 ### CVE-2022-34298 (2022-06-22)
 
