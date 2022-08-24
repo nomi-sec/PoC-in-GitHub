@@ -234,6 +234,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [XmasSnowISBACK/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/XmasSnowISBACK/CVE-2022-0847-DirtyPipe-Exploits)
 - [EagleTube/CVE-2022-0847](https://github.com/EagleTube/CVE-2022-0847)
 - [yoeelingBin/CVE-2022-0847-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape)
+- [irwx777/CVE-2022-0847](https://github.com/irwx777/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -524,6 +525,7 @@ Access to external entities when parsing XML documents can lead to XML external 
 - [Markakd/CVE-2022-2588](https://github.com/Markakd/CVE-2022-2588)
 - [greek0x0/2022-LPE-UAF](https://github.com/greek0x0/2022-LPE-UAF)
 - [ASkyeye/2022-LPE-UAF](https://github.com/ASkyeye/2022-LPE-UAF)
+- [pirenga/2022-LPE-UAF](https://github.com/pirenga/2022-LPE-UAF)
 
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
@@ -4243,6 +4245,7 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [RicterZ/CVE-2021-3560-Authentication-Agent](https://github.com/RicterZ/CVE-2021-3560-Authentication-Agent)
 - [WinMin/CVE-2021-3560](https://github.com/WinMin/CVE-2021-3560)
 - [UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560)
+- [mikefak/XDR-PoC](https://github.com/mikefak/XDR-PoC)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -7259,7 +7262,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
 - [fox-it/log4j-finder](https://github.com/fox-it/log4j-finder)
 - [34zY/JNDI-Exploit-1.2-log4shell](https://github.com/34zY/JNDI-Exploit-1.2-log4shell)
-- [ReynerGonzalez/Security-Log4J-Tester](https://github.com/ReynerGonzalez/Security-Log4J-Tester)
 - [ShaneKingBlog/org.shaneking.demo.cve.y2021.s44228](https://github.com/ShaneKingBlog/org.shaneking.demo.cve.y2021.s44228)
 - [wortell/log4j](https://github.com/wortell/log4j)
 - [municipalparkingservices/CVE-2021-44228-Scanner](https://github.com/municipalparkingservices/CVE-2021-44228-Scanner)
