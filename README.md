@@ -3267,6 +3267,12 @@ Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality tha
 
 - [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
 
+### CVE-2022-37150
+- [Fjowel/CVE-2022-37150-CVE-2022-37151-CVE-2022-37152](https://github.com/Fjowel/CVE-2022-37150-CVE-2022-37151-CVE-2022-37152)
+
+### CVE-2022-37153
+- [Fjowel/CVE-2022-37153](https://github.com/Fjowel/CVE-2022-37153)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -6267,6 +6273,7 @@ In the Druid ingestion system, the InputSource is used for reading data from a c
 
 - [Sma11New/PocList](https://github.com/Sma11New/PocList)
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
+- [hanch7274/CVE-2021-36749](https://github.com/hanch7274/CVE-2021-36749)
 
 ### CVE-2021-36798 (2021-08-09)
 
@@ -7182,7 +7189,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
-- [NorthwaveSecurity/log4jcheck](https://github.com/NorthwaveSecurity/log4jcheck)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
