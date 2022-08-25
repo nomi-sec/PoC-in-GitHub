@@ -2092,7 +2092,6 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [scoobydoobi/CVE-2022-26809-POC-RCE](https://github.com/scoobydoobi/CVE-2022-26809-POC-RCE)
 - [Ziggy78/CVE-2022-26809-POC](https://github.com/Ziggy78/CVE-2022-26809-POC)
-- [Ziggy78/CVE-2022-26809-RCE](https://github.com/Ziggy78/CVE-2022-26809-RCE)
 - [cybersecurityresearcher/CVE-2022-26809-RCE-POC](https://github.com/cybersecurityresearcher/CVE-2022-26809-RCE-POC)
 - [ToomArni65/CVE-2022-26809-POC](https://github.com/ToomArni65/CVE-2022-26809-POC)
 - [ToomArni65/CVE-2022-26809-FINAL-POC](https://github.com/ToomArni65/CVE-2022-26809-FINAL-POC)
@@ -3068,6 +3067,14 @@ Arox School ERP Pro v1.0 was discovered to contain multiple arbitrary file uploa
 ### CVE-2022-32224
 - [ooooooo-q/cve-2022-32224-rails](https://github.com/ooooooo-q/cve-2022-32224-rails)
 
+### CVE-2022-32250 (2022-06-02)
+
+<code>
+net/netfilter/nf_tables_api.c in the Linux kernel through 5.18.1 allows a local user (able to create user/net namespaces) to escalate privileges to root because an incorrect NFT_STATEFUL_EXPR check leads to a use-after-free.
+</code>
+
+- [theori-io/CVE-2022-32250-exploit](https://github.com/theori-io/CVE-2022-32250-exploit)
+
 ### CVE-2022-32532 (2022-06-28)
 
 <code>
@@ -3270,7 +3277,13 @@ Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality tha
 - [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
 
 ### CVE-2022-37150
-- [Fjowel/CVE-2022-37150-CVE-2022-37151-CVE-2022-37152](https://github.com/Fjowel/CVE-2022-37150-CVE-2022-37151-CVE-2022-37152)
+- [Fjowel/CVE-2022-37150](https://github.com/Fjowel/CVE-2022-37150)
+
+### CVE-2022-37151
+- [Fjowel/CVE-2022-37151](https://github.com/Fjowel/CVE-2022-37151)
+
+### CVE-2022-37152
+- [Fjowel/CVE-2022-37152](https://github.com/Fjowel/CVE-2022-37152)
 
 ### CVE-2022-37153 (2022-08-24)
 
