@@ -2092,6 +2092,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [scoobydoobi/CVE-2022-26809-POC-RCE](https://github.com/scoobydoobi/CVE-2022-26809-POC-RCE)
 - [Ziggy78/CVE-2022-26809-POC](https://github.com/Ziggy78/CVE-2022-26809-POC)
+- [Ziggy78/CVE-2022-26809-RCE](https://github.com/Ziggy78/CVE-2022-26809-RCE)
 - [cybersecurityresearcher/CVE-2022-26809-RCE-POC](https://github.com/cybersecurityresearcher/CVE-2022-26809-RCE-POC)
 - [ToomArni65/CVE-2022-26809-POC](https://github.com/ToomArni65/CVE-2022-26809-POC)
 - [ToomArni65/CVE-2022-26809-FINAL-POC](https://github.com/ToomArni65/CVE-2022-26809-FINAL-POC)
@@ -3275,6 +3276,7 @@ Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality tha
 </code>
 
 - [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
+- [aels/CVE-2022-37042](https://github.com/aels/CVE-2022-37042)
 
 ### CVE-2022-37150
 - [Fjowel/CVE-2022-37150](https://github.com/Fjowel/CVE-2022-37150)
