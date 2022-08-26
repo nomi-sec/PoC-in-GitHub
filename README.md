@@ -1433,7 +1433,6 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [NHPT/CVE-2022-24086-RCE](https://github.com/NHPT/CVE-2022-24086-RCE)
 - [oK0mo/CVE-2022-24086-RCE-PoC](https://github.com/oK0mo/CVE-2022-24086-RCE-PoC)
 - [seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087)
-- [Cory65/CVE-2022-24086-POC](https://github.com/Cory65/CVE-2022-24086-POC)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -1540,15 +1539,6 @@ Windows Network File System Remote Code Execution Vulnerability. This CVE ID is 
 </code>
 
 - [corelight/CVE-2022-24497](https://github.com/corelight/CVE-2022-24497)
-
-### CVE-2022-24500 (2022-04-15)
-
-<code>
-Windows SMB Remote Code Execution Vulnerability.
-</code>
-
-- [Daro1967/CVE-2022-24500-RCE](https://github.com/Daro1967/CVE-2022-24500-RCE)
-- [Daro1967/CVE-2022-24500-MASS-RCE](https://github.com/Daro1967/CVE-2022-24500-MASS-RCE)
 
 ### CVE-2022-24611 (2022-05-17)
 
@@ -1949,7 +1939,6 @@ The Atlassian Questions For Confluence app for Confluence Server and Data Center
 
 - [alcaparra/CVE-2022-26138](https://github.com/alcaparra/CVE-2022-26138)
 - [1mxml/CVE-2022-26138](https://github.com/1mxml/CVE-2022-26138)
-- [Daro1967/CVE-2022-26138-RCE](https://github.com/Daro1967/CVE-2022-26138-RCE)
 - [Vulnmachines/Confluence-Question-CVE-2022-26138-](https://github.com/Vulnmachines/Confluence-Question-CVE-2022-26138-)
 - [z92g/CVE-2022-26138](https://github.com/z92g/CVE-2022-26138)
 
@@ -2099,12 +2088,9 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [Ziggy78/CVE-2022-26809-POC](https://github.com/Ziggy78/CVE-2022-26809-POC)
 - [Ziggy78/CVE-2022-26809-RCE](https://github.com/Ziggy78/CVE-2022-26809-RCE)
 - [cybersecurityresearcher/CVE-2022-26809-RCE-POC](https://github.com/cybersecurityresearcher/CVE-2022-26809-RCE-POC)
-- [ToomArni65/CVE-2022-26809-POC](https://github.com/ToomArni65/CVE-2022-26809-POC)
-- [ToomArni65/CVE-2022-26809-FINAL-POC](https://github.com/ToomArni65/CVE-2022-26809-FINAL-POC)
 - [Ziggy78/CVE-2022-26809-RCE-POC](https://github.com/Ziggy78/CVE-2022-26809-RCE-POC)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
 - [Ziggy78/CVE-2022-26809-MASS-RCE](https://github.com/Ziggy78/CVE-2022-26809-MASS-RCE)
-- [ToomArni65/CVE-2022-26809-RCE](https://github.com/ToomArni65/CVE-2022-26809-RCE)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -3288,13 +3274,28 @@ Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality tha
 - [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
 - [aels/CVE-2022-37042](https://github.com/aels/CVE-2022-37042)
 
-### CVE-2022-37150
+### CVE-2022-37150 (2022-08-26)
+
+<code>
+An issue was discovered in Online Diagnostic Lab Management System 1.0. There is a stored XSS vulnerability via firstname, address, middlename, lastname , gender, email, contact parameters.
+</code>
+
 - [Fjowel/CVE-2022-37150](https://github.com/Fjowel/CVE-2022-37150)
 
-### CVE-2022-37151
+### CVE-2022-37151 (2022-08-26)
+
+<code>
+There is an unauthorized access vulnerability in Online Diagnostic Lab Management System 1.0.
+</code>
+
 - [Fjowel/CVE-2022-37151](https://github.com/Fjowel/CVE-2022-37151)
 
-### CVE-2022-37152
+### CVE-2022-37152 (2022-08-26)
+
+<code>
+An issue was discovered in Online Diagnostic Lab Management System 1.0, There is a SQL injection vulnerability via &quot;dob&quot; parameter in &quot;/classes/Users.php?f=save_client&quot;
+</code>
+
 - [Fjowel/CVE-2022-37152](https://github.com/Fjowel/CVE-2022-37152)
 
 ### CVE-2022-37153 (2022-08-24)
@@ -3304,6 +3305,9 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 </code>
 
 - [5l1v3r1/CVE-2022-37153](https://github.com/5l1v3r1/CVE-2022-37153)
+
+### CVE-2022-38766
+- [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
 
 
 ## 2021
@@ -4309,7 +4313,12 @@ axios is vulnerable to Inefficient Regular Expression Complexity
 
 - [T-Guerrero/axios-redos](https://github.com/T-Guerrero/axios-redos)
 
-### CVE-2021-3864
+### CVE-2021-3864 (2022-08-26)
+
+<code>
+A flaw was found in the way the dumpable flag setting was handled when certain SUID binaries executed its descendants. The prerequisite is a SUID binary that sets real UID equal to effective UID, and real GID equal to effective GID. The descendant will then have a dumpable value set to 1. As a result, if the descendant process crashes and core_pattern is set to a relative value, its core dump is stored in the current directory with uid:gid permissions. An unprivileged local user with eligible root SUID binary could use this flaw to place core dumps into root-owned directories, potentially resulting in escalation of privileges.
+</code>
+
 - [walac/cve-2021-3864](https://github.com/walac/cve-2021-3864)
 
 ### CVE-2021-3899
@@ -27624,6 +27633,7 @@ OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating system
 - [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
+- [demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166](https://github.com/demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166)
 
 ### CVE-2008-0228 (2008-01-10)
 
