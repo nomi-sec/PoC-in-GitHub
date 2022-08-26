@@ -569,6 +569,7 @@ In startActivityForAttachedApplicationIfNeeded of RootWindowContainer.java, ther
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007)
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20007](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20007)
+- [pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20007](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20007)
 
 ### CVE-2022-20124 (2022-06-15)
 
@@ -618,6 +619,7 @@ In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possib
 </code>
 
 - [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142)
+- [pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142)
 
 ### CVE-2022-20223 (2022-07-13)
 
@@ -1928,6 +1930,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [iveresk/cve-2022-26134](https://github.com/iveresk/cve-2022-26134)
 - [keven1z/CVE-2022-26134](https://github.com/keven1z/CVE-2022-26134)
 - [shiftsansan/CVE-2022-26134-Console](https://github.com/shiftsansan/CVE-2022-26134-Console)
+- [1337in/CVE-2022-26134web](https://github.com/1337in/CVE-2022-26134web)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -8960,8 +8963,16 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 - [Nekoox/zerologon](https://github.com/Nekoox/zerologon)
-- [lele8/CVE-2020-1472](https://github.com/lele8/CVE-2020-1472)
 - [hadhub/ad-scanner](https://github.com/hadhub/ad-scanner)
+- [lele8/CVE-2020-1472](https://github.com/lele8/CVE-2020-1472)
+
+### CVE-2020-1473 (2020-08-17)
+
+<code>
+A remote code execution vulnerability exists when the Windows Jet Database Engine improperly handles objects in memory, aka 'Jet Database Engine Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-1557, CVE-2020-1558, CVE-2020-1564.
+</code>
+
+- [30579096/CVE-2020-1473](https://github.com/30579096/CVE-2020-1473)
 
 ### CVE-2020-1493 (2020-08-17)
 
