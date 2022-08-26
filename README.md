@@ -2919,7 +2919,12 @@ An exploitable local privilege escalation vulnerability exists in GOG Galaxy 2.0
 
 - [secure-77/CVE-2022-31262](https://github.com/secure-77/CVE-2022-31262)
 
-### CVE-2022-31269
+### CVE-2022-31269 (2022-08-25)
+
+<code>
+Nortek Linear eMerge E3-Series devices through 0.32-09c place admin credentials in /test.txt that allow an attacker to open a building's doors. (This occurs in situations where the CVE-2019-7271 default credentials have been changed.)
+</code>
+
 - [Henry4E36/CVE-2022-31269](https://github.com/Henry4E36/CVE-2022-31269)
 
 ### CVE-2022-31294 (2022-06-16)
@@ -4306,7 +4311,12 @@ axios is vulnerable to Inefficient Regular Expression Complexity
 ### CVE-2021-3899
 - [liumuqing/CVE-2021-3899_PoC](https://github.com/liumuqing/CVE-2021-3899_PoC)
 
-### CVE-2021-3929
+### CVE-2021-3929 (2022-08-25)
+
+<code>
+A DMA reentrancy issue was found in the NVM Express Controller (NVME) emulation in QEMU. This CVE is similar to CVE-2021-3750 and, just like it, when the reentrancy write triggers the reset function nvme_ctrl_reset(), data structs will be freed leading to a use-after-free issue. A malicious guest could use this flaw to crash the QEMU process on the host, resulting in a denial of service condition or, potentially, executing arbitrary code within the context of the QEMU process on the host.
+</code>
+
 - [QiuhaoLi/CVE-2021-3929-3947](https://github.com/QiuhaoLi/CVE-2021-3929-3947)
 
 ### CVE-2021-3972 (2022-04-22)
@@ -7261,7 +7271,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Diverto/nse-log4shell](https://github.com/Diverto/nse-log4shell)
 - [maxant/log4j2-CVE-2021-44228](https://github.com/maxant/log4j2-CVE-2021-44228)
 - [atnetws/fail2ban-log4j](https://github.com/atnetws/fail2ban-log4j)
-- [kimobu/cve-2021-44228](https://github.com/kimobu/cve-2021-44228)
 - [0xRyan/log4j-nullroute](https://github.com/0xRyan/log4j-nullroute)
 - [fireeye/CVE-2021-44228](https://github.com/fireeye/CVE-2021-44228)
 - [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan)
@@ -7494,6 +7503,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [vino-theva/CVE-2021-44228](https://github.com/vino-theva/CVE-2021-44228)
 - [nemesi-ita/autoL4s](https://github.com/nemesi-ita/autoL4s)
 - [tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228](https://github.com/tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228)
+- [eurogig/jankybank](https://github.com/eurogig/jankybank)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
