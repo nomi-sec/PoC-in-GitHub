@@ -568,6 +568,7 @@ In startActivityForAttachedApplicationIfNeeded of RootWindowContainer.java, ther
 </code>
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007)
+- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20007](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20007)
 
 ### CVE-2022-20124 (2022-06-15)
 
@@ -3299,7 +3300,7 @@ Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality tha
 An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerability via the password parameter in /fw.login.php.
 </code>
 
-- [Fjowel/CVE-2022-37153](https://github.com/Fjowel/CVE-2022-37153)
+- [5l1v3r1/CVE-2022-37153](https://github.com/5l1v3r1/CVE-2022-37153)
 
 
 ## 2021
@@ -5160,6 +5161,14 @@ Each Apache Dubbo server will set a serialization id to tell the clients which s
 </code>
 
 - [Dor-Tumarkin/CVE-2021-25641-Proof-of-Concept](https://github.com/Dor-Tumarkin/CVE-2021-25641-Proof-of-Concept)
+
+### CVE-2021-25642 (2022-08-25)
+
+<code>
+ZKConfigurationStore which is optionally used by CapacityScheduler of Apache Hadoop YARN deserializes data obtained from ZooKeeper without validation. An attacker having access to ZooKeeper can run arbitrary commands as YARN user by exploiting this. Users should upgrade to Apache Hadoop 2.10.2, 3.2.4, 3.3.4 or later (containing YARN-11126) if ZKConfigurationStore is used.
+</code>
+
+- [safe3s/CVE-2021-25642](https://github.com/safe3s/CVE-2021-25642)
 
 ### CVE-2021-25646 (2021-01-29)
 
@@ -7298,7 +7307,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Contrast-Security-OSS/CVE-2021-44228](https://github.com/Contrast-Security-OSS/CVE-2021-44228)
 - [back2root/log4shell-rex](https://github.com/back2root/log4shell-rex)
 - [alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools)
-- [perryflynn/find-log4j](https://github.com/perryflynn/find-log4j)
 - [alpacamybags118/log4j-cve-2021-44228-sample](https://github.com/alpacamybags118/log4j-cve-2021-44228-sample)
 - [roticagas/CVE-2021-44228-Demo](https://github.com/roticagas/CVE-2021-44228-Demo)
 - [Woahd/log4j-urlscanner](https://github.com/Woahd/log4j-urlscanner)
@@ -8291,6 +8299,7 @@ In multiple settings screens, there are possible tapjacking attacks due to an in
 </code>
 
 - [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0416](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2020-0416)
+- [Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0416](https://github.com/Satheesh575555/packages_apps_Settings_AOSP10_r33_CVE-2020-0416)
 
 ### CVE-2020-0418 (2020-11-10)
 
@@ -13092,6 +13101,14 @@ Arbitrary command execution can occur in Webmin through 1.962. Any user authoriz
 
 - [anasbousselham/webminscan](https://github.com/anasbousselham/webminscan)
 - [puckiestyle/CVE-2020-35606](https://github.com/puckiestyle/CVE-2020-35606)
+
+### CVE-2020-35669 (2020-12-23)
+
+<code>
+An issue was discovered in the http package through 0.12.2 for Dart. If the attacker controls the HTTP method and the app is using Request directly, it's possible to achieve CRLF injection in an HTTP request.
+</code>
+
+- [n0npax/CVE-2020-35669](https://github.com/n0npax/CVE-2020-35669)
 
 ### CVE-2020-35682 (2021-03-13)
 
