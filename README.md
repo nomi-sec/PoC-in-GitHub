@@ -86,6 +86,7 @@ A vulnerability was found in the Linux kernel’s cgroup_release_agent_write in 
 - [puckiestyle/CVE-2022-0492](https://github.com/puckiestyle/CVE-2022-0492)
 - [chenaotian/CVE-2022-0492](https://github.com/chenaotian/CVE-2022-0492)
 - [Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2022-0492](https://github.com/Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2022-0492)
+- [yoeelingBin/CVE-2022-0492-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0492-Container-Escape)
 
 ### CVE-2022-0529 (2022-02-09)
 
@@ -3274,30 +3275,6 @@ Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality tha
 
 - [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
 - [aels/CVE-2022-37042](https://github.com/aels/CVE-2022-37042)
-
-### CVE-2022-37150 (2022-08-26)
-
-<code>
-An issue was discovered in Online Diagnostic Lab Management System 1.0. There is a stored XSS vulnerability via firstname, address, middlename, lastname , gender, email, contact parameters.
-</code>
-
-- [Fjowel/CVE-2022-37150](https://github.com/Fjowel/CVE-2022-37150)
-
-### CVE-2022-37151 (2022-08-26)
-
-<code>
-There is an unauthorized access vulnerability in Online Diagnostic Lab Management System 1.0.
-</code>
-
-- [Fjowel/CVE-2022-37151](https://github.com/Fjowel/CVE-2022-37151)
-
-### CVE-2022-37152 (2022-08-26)
-
-<code>
-An issue was discovered in Online Diagnostic Lab Management System 1.0, There is a SQL injection vulnerability via &quot;dob&quot; parameter in &quot;/classes/Users.php?f=save_client&quot;
-</code>
-
-- [Fjowel/CVE-2022-37152](https://github.com/Fjowel/CVE-2022-37152)
 
 ### CVE-2022-37153 (2022-08-24)
 
