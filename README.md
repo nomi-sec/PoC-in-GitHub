@@ -2155,6 +2155,7 @@ In Realtek eCos RSDK 1.5.7p1 and MSDK 4.9.4p1, the SIP ALG function that rewrite
 </code>
 
 - [infobyte/cve-2022-27255](https://github.com/infobyte/cve-2022-27255)
+- [stryker-project/CVE-2022-27255-checker](https://github.com/stryker-project/CVE-2022-27255-checker)
 
 ### CVE-2022-27434 (2022-07-17)
 
@@ -3283,6 +3284,9 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 </code>
 
 - [5l1v3r1/CVE-2022-37153](https://github.com/5l1v3r1/CVE-2022-37153)
+
+### CVE-2022-37177
+- [JC175/CVE-2022-37177](https://github.com/JC175/CVE-2022-37177)
 
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
@@ -19725,7 +19729,6 @@ A flaw was found in xorg-x11-server before 1.20.3. An incorrect permission check
 
 - [jas502n/CVE-2018-14665](https://github.com/jas502n/CVE-2018-14665)
 - [bolonobolo/CVE-2018-14665](https://github.com/bolonobolo/CVE-2018-14665)
-- [sang-chu/cve-2018-14665](https://github.com/sang-chu/cve-2018-14665)
 
 ### CVE-2018-14667 (2018-11-06)
 
