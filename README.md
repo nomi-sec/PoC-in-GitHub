@@ -2198,6 +2198,7 @@ Zimbra Collaboration (aka ZCS) 8.8.15 and 9.0 has mboximport functionality that 
 - [miko550/CVE-2022-27925](https://github.com/miko550/CVE-2022-27925)
 - [navokus/CVE-2022-27925](https://github.com/navokus/CVE-2022-27925)
 - [Josexv1/CVE-2022-27925](https://github.com/Josexv1/CVE-2022-27925)
+- [Chocapikk/CVE-2022-27925-Revshell](https://github.com/Chocapikk/CVE-2022-27925-Revshell)
 
 ### CVE-2022-27927 (2022-04-19)
 
@@ -17688,6 +17689,14 @@ From Apache Tika versions 1.7 to 1.17, clients could send carefully crafted head
 - [N0b1e6/CVE-2018-1335-Python3](https://github.com/N0b1e6/CVE-2018-1335-Python3)
 - [canumay/cve-2018-1335](https://github.com/canumay/cve-2018-1335)
 - [siramk/CVE-2018-1335](https://github.com/siramk/CVE-2018-1335)
+
+### CVE-2018-1932 (2019-01-08)
+
+<code>
+IBM API Connect 5.0.0.0 through 5.0.8.4 is affected by a vulnerability in the role-based access control in the management server that could allow an authenticated user to obtain highly sensitive information. IBM X-Force ID: 153175.
+</code>
+
+- [BKreisel/CVE-2018-1932X](https://github.com/BKreisel/CVE-2018-1932X)
 
 ### CVE-2018-2019 (2019-01-18)
 
