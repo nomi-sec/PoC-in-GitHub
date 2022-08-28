@@ -9729,6 +9729,7 @@ A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An a
 </code>
 
 - [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
+- [arafatansari/SecAssignment](https://github.com/arafatansari/SecAssignment)
 
 ### CVE-2020-7247 (2020-01-29)
 
