@@ -1434,6 +1434,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [NHPT/CVE-2022-24086-RCE](https://github.com/NHPT/CVE-2022-24086-RCE)
 - [oK0mo/CVE-2022-24086-RCE-PoC](https://github.com/oK0mo/CVE-2022-24086-RCE-PoC)
 - [seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087)
+- [jturner786/magento-CVE-2022-24086](https://github.com/jturner786/magento-CVE-2022-24086)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -4432,7 +4433,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
 - [FDlucifer/Pwnkit-go](https://github.com/FDlucifer/Pwnkit-go)
-- [fireclasher/pwnkit-CVE-2021-4034-](https://github.com/fireclasher/pwnkit-CVE-2021-4034-)
+- [HaythmKenway/pwnkit-CVE-2021-4034-](https://github.com/HaythmKenway/pwnkit-CVE-2021-4034-)
 - [cspshivam/cve-2021-4034](https://github.com/cspshivam/cve-2021-4034)
 - [an0n7os/CVE-2021-4034](https://github.com/an0n7os/CVE-2021-4034)
 - [DanaEpp/pwncat_pwnkit](https://github.com/DanaEpp/pwncat_pwnkit)
