@@ -13470,7 +13470,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [coolboy4me/cve-2019-0708_bluekeep_rce](https://github.com/coolboy4me/cve-2019-0708_bluekeep_rce)
 - [Cyb0r9/ispy](https://github.com/Cyb0r9/ispy)
 - [shishibabyq/CVE-2019-0708](https://github.com/shishibabyq/CVE-2019-0708)
-- [innxrmxst/CVE-2019-0708-DOS](https://github.com/innxrmxst/CVE-2019-0708-DOS)
 - [lwtz/CVE-2019-0708](https://github.com/lwtz/CVE-2019-0708)
 - [ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708)
 - [worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708)
@@ -13489,6 +13488,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
 - [lisinan988/CVE-2019-0708-scan](https://github.com/lisinan988/CVE-2019-0708-scan)
+- [5l1v3r1/CVE-2019-0708-DOS](https://github.com/5l1v3r1/CVE-2019-0708-DOS)
 - [offensity/CVE-2019-0708](https://github.com/offensity/CVE-2019-0708)
 - [Exploitspacks/CVE-2019-0708](https://github.com/Exploitspacks/CVE-2019-0708)
 
