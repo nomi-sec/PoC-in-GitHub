@@ -2343,6 +2343,9 @@ A Two-Factor Authentication (2FA) bypass vulnerability in &quot;Simple 2FA Plugi
 
 - [FlaviuPopescu/CVE-2022-28601](https://github.com/FlaviuPopescu/CVE-2022-28601)
 
+### CVE-2022-28943
+- [zhefox/CVE-2022-28943](https://github.com/zhefox/CVE-2022-28943)
+
 ### CVE-2022-28944 (2022-05-23)
 
 <code>
@@ -21738,6 +21741,7 @@ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in In
 - [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
 - [k4u5h41/CVE-2017-7269](https://github.com/k4u5h41/CVE-2017-7269)
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
+- [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
 
 ### CVE-2017-7374 (2017-03-31)
 
