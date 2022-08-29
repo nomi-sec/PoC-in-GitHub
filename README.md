@@ -3129,6 +3129,7 @@ The Apache Spark UI offers the possibility to enable ACLs via the configuration 
 - [AmoloHT/CVE-2022-33891](https://github.com/AmoloHT/CVE-2022-33891)
 - [XmasSnowISBACK/CVE-2022-33891](https://github.com/XmasSnowISBACK/CVE-2022-33891)
 - [DrLinuxOfficial/CVE-2022-33891](https://github.com/DrLinuxOfficial/CVE-2022-33891)
+- [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -3259,6 +3260,9 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 
 ### CVE-2022-36163
 - [MaherAzzouzi/CVE-2022-36163](https://github.com/MaherAzzouzi/CVE-2022-36163)
+
+### CVE-2022-36200
+- [afaq1337/CVE-2022-36200](https://github.com/afaq1337/CVE-2022-36200)
 
 ### CVE-2022-36271
 - [SaumyajeetDas/POC-of-CVE-2022-36271](https://github.com/SaumyajeetDas/POC-of-CVE-2022-36271)
@@ -22070,8 +22074,9 @@ SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to ex
 - [brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917)
 - [stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla)
 - [cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917)
-- [SiopySec/CVE-2017-8917](https://github.com/SiopySec/CVE-2017-8917)
+- [gmohlamo/CVE-2017-8917](https://github.com/gmohlamo/CVE-2017-8917)
 - [AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection](https://github.com/AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection)
+- [Siopy/CVE-2017-8917](https://github.com/Siopy/CVE-2017-8917)
 
 ### CVE-2017-9096 (2017-11-08)
 
