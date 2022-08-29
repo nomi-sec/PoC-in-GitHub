@@ -1550,6 +1550,14 @@ Denial of Service (DoS) in the Z-Wave S0 NonceGet protocol specification in Sili
 
 - [ITSecLab-HSEL/CVE-2022-24611](https://github.com/ITSecLab-HSEL/CVE-2022-24611)
 
+### CVE-2022-24637 (2022-03-18)
+
+<code>
+Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker to obtain sensitive user information, which can be used to gain admin privileges by leveraging cache hashes. This occurs because files generated with '&lt;?php (instead of the intended &quot;&lt;?php sequence) aren't handled by the PHP interpreter.
+</code>
+
+- [watchdog2000/cve-2022-24637_open-web-analytics-info-disclosure-to-rce](https://github.com/watchdog2000/cve-2022-24637_open-web-analytics-info-disclosure-to-rce)
+
 ### CVE-2022-24644 (2022-03-07)
 
 <code>
@@ -21729,6 +21737,7 @@ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in In
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
 - [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
 - [k4u5h41/CVE-2017-7269](https://github.com/k4u5h41/CVE-2017-7269)
+- [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 
 ### CVE-2017-7374 (2017-03-31)
 
