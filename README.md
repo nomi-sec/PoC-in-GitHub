@@ -214,6 +214,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [githublihaha/DirtyPIPE-CVE-2022-0847](https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847)
 - [phuonguno98/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/phuonguno98/CVE-2022-0847-DirtyPipe-Exploits)
 - [MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker](https://github.com/MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker)
+- [jpts/CVE-2022-0847-DirtyPipe-Container-Breakout](https://github.com/jpts/CVE-2022-0847-DirtyPipe-Container-Breakout)
 - [logm1lo/CVE-2022-0847_DirtyPipe_Exploits](https://github.com/logm1lo/CVE-2022-0847_DirtyPipe_Exploits)
 - [LudovicPatho/CVE-2022-0847_dirty-pipe](https://github.com/LudovicPatho/CVE-2022-0847_dirty-pipe)
 - [DanaEpp/pwncat_dirtypipe](https://github.com/DanaEpp/pwncat_dirtypipe)
@@ -917,6 +918,14 @@ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is uniqu
 
 - [ahmetfurkans/CVE-2022-22718](https://github.com/ahmetfurkans/CVE-2022-22718)
 
+### CVE-2022-22814 (2022-03-10)
+
+<code>
+The System Diagnosis service of MyASUS before 3.1.2.0 allows privilege escalation.
+</code>
+
+- [DShankle/CVE-2022-22814_PoC](https://github.com/DShankle/CVE-2022-22814_PoC)
+
 ### CVE-2022-22822 (2022-01-07)
 
 <code>
@@ -1173,7 +1182,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [iyamrotrix/CVE-2022-22965](https://github.com/iyamrotrix/CVE-2022-22965)
+- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -1549,14 +1558,6 @@ Denial of Service (DoS) in the Z-Wave S0 NonceGet protocol specification in Sili
 </code>
 
 - [ITSecLab-HSEL/CVE-2022-24611](https://github.com/ITSecLab-HSEL/CVE-2022-24611)
-
-### CVE-2022-24637 (2022-03-18)
-
-<code>
-Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker to obtain sensitive user information, which can be used to gain admin privileges by leveraging cache hashes. This occurs because files generated with '&lt;?php (instead of the intended &quot;&lt;?php sequence) aren't handled by the PHP interpreter.
-</code>
-
-- [watchdog2000/cve-2022-24637_open-web-analytics-info-disclosure-to-rce](https://github.com/watchdog2000/cve-2022-24637_open-web-analytics-info-disclosure-to-rce)
 
 ### CVE-2022-24644 (2022-03-07)
 
@@ -2301,6 +2302,14 @@ An issue was discovered in Django 2.2 before 2.2.28, 3.2 before 3.2.13, and 4.0 
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
 - [ahsentekdemir/CVE-2022-28346](https://github.com/ahsentekdemir/CVE-2022-28346)
 - [pthlong9991/CVE-2022-28346](https://github.com/pthlong9991/CVE-2022-28346)
+
+### CVE-2022-28381 (2022-04-03)
+
+<code>
+Mediaserver.exe in ALLMediaServer 1.6 has a stack-based buffer overflow that allows remote attackers to execute arbitrary code via a long string to TCP port 888, a related issue to CVE-2017-17932.
+</code>
+
+- [DShankle/CVE-2022-28381_PoC](https://github.com/DShankle/CVE-2022-28381_PoC)
 
 ### CVE-2022-28452 (2022-04-29)
 
@@ -3261,7 +3270,12 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 ### CVE-2022-36163
 - [MaherAzzouzi/CVE-2022-36163](https://github.com/MaherAzzouzi/CVE-2022-36163)
 
-### CVE-2022-36200
+### CVE-2022-36200 (2022-08-29)
+
+<code>
+In FiberHome VDSL2 Modem HG150-Ub_V3.0, Credentials of Admin are submitted in URL, which can be logged/sniffed.
+</code>
+
 - [afaq1337/CVE-2022-36200](https://github.com/afaq1337/CVE-2022-36200)
 
 ### CVE-2022-36271
@@ -5217,6 +5231,22 @@ A security issue was discovered in Kubernetes where a user may be able to create
 
 - [Betep0k/CVE-2021-25741](https://github.com/Betep0k/CVE-2021-25741)
 
+### CVE-2021-25801 (2021-07-26)
+
+<code>
+A buffer overflow vulnerability in the __Parse_indx component of VideoLAN VLC Media Player 3.0.11 allows attackers to cause an out-of-bounds read via a crafted .avi file.
+</code>
+
+- [DShankle/VLC_CVE-2021-25801_Analysis](https://github.com/DShankle/VLC_CVE-2021-25801_Analysis)
+
+### CVE-2021-25804 (2021-07-26)
+
+<code>
+A NULL-pointer dereference in &quot;Open&quot; in avi.c of VideoLAN VLC Media Player 3.0.11 can a denial of service (DOS) in the application.
+</code>
+
+- [DShankle/VLC_CVE-2021-25804_Analysis](https://github.com/DShankle/VLC_CVE-2021-25804_Analysis)
+
 ### CVE-2021-25837 (2021-02-08)
 
 <code>
@@ -6298,6 +6328,7 @@ A command injection vulnerability in the web server of some Hikvision product. D
 </code>
 
 - [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
+- [TakenoSite/Simple-CVE-2021-36260](https://github.com/TakenoSite/Simple-CVE-2021-36260)
 
 ### CVE-2021-36460 (2022-04-25)
 
@@ -7298,7 +7329,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Diverto/nse-log4shell](https://github.com/Diverto/nse-log4shell)
 - [maxant/log4j2-CVE-2021-44228](https://github.com/maxant/log4j2-CVE-2021-44228)
 - [atnetws/fail2ban-log4j](https://github.com/atnetws/fail2ban-log4j)
-- [0xRyan/log4j-nullroute](https://github.com/0xRyan/log4j-nullroute)
 - [fireeye/CVE-2021-44228](https://github.com/fireeye/CVE-2021-44228)
 - [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan)
 - [rubo77/log4j_checker_beta](https://github.com/rubo77/log4j_checker_beta)
@@ -7313,7 +7343,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [0xsyr0/Log4Shell](https://github.com/0xsyr0/Log4Shell)
 - [manuel-alvarez-alvarez/log4j-cve-2021-44228](https://github.com/manuel-alvarez-alvarez/log4j-cve-2021-44228)
 - [Koupah/MC-Log4j-Patcher](https://github.com/Koupah/MC-Log4j-Patcher)
-- [AlexandreHeroux/Fix-CVE-2021-44228](https://github.com/AlexandreHeroux/Fix-CVE-2021-44228)
 - [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
 - [tobiasoed/log4j-CVE-2021-44228](https://github.com/tobiasoed/log4j-CVE-2021-44228)
 - [hackinghippo/log4shell_ioc_ips](https://github.com/hackinghippo/log4shell_ioc_ips)
@@ -7342,7 +7371,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
-- [0xThiebaut/CVE-2021-44228](https://github.com/0xThiebaut/CVE-2021-44228)
 - [CERTCC/CVE-2021-44228_scanner](https://github.com/CERTCC/CVE-2021-44228_scanner)
 - [dbzoo/log4j_scanner](https://github.com/dbzoo/log4j_scanner)
 - [jeremyrsellars/CVE-2021-44228_scanner](https://github.com/jeremyrsellars/CVE-2021-44228_scanner)
@@ -10447,6 +10475,7 @@ Adobe Acrobat and Reader versions 2020.009.20074 and earlier, 2020.001.30002, 20
 </code>
 
 - [lsw29475/CVE-2020-9715](https://github.com/lsw29475/CVE-2020-9715)
+- [WonjunChun/CVE-2020-9715](https://github.com/WonjunChun/CVE-2020-9715)
 
 ### CVE-2020-9758 (2020-03-09)
 
