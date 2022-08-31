@@ -523,7 +523,12 @@ Access to external entities when parsing XML documents can lead to XML external 
 
 - [superhac/CVE-2022-2414-POC](https://github.com/superhac/CVE-2022-2414-POC)
 
-### CVE-2022-2466
+### CVE-2022-2466 (2022-08-31)
+
+<code>
+It was found that Quarkus 2.10.x does not terminate HTTP requests header context which may lead to unpredictable behavior.
+</code>
+
 - [yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL](https://github.com/yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL)
 
 ### CVE-2022-2588
@@ -1482,6 +1487,7 @@ The query API in Casdoor before 1.13.1 has a SQL injection vulnerability related
 
 - [ColdFusionX/CVE-2022-24124](https://github.com/ColdFusionX/CVE-2022-24124)
 - [0xAbbarhSF/CVE-2022-24124](https://github.com/0xAbbarhSF/CVE-2022-24124)
+- [cukw/CVE-2022-24124_POC](https://github.com/cukw/CVE-2022-24124_POC)
 
 ### CVE-2022-24125 (2022-03-19)
 
