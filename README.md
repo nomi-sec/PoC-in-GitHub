@@ -7746,8 +7746,8 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [LTiDi2000/CVE-2021-45232](https://github.com/LTiDi2000/CVE-2021-45232)
 - [Ilovewomen/cve-2021-45232](https://github.com/Ilovewomen/cve-2021-45232)
 - [jxpsx/CVE-2021-45232-RCE](https://github.com/jxpsx/CVE-2021-45232-RCE)
-- [Ifory885/CVE-2021-45232](https://github.com/Ifory885/CVE-2021-45232)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
+- [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
 - [itxfahdi/-cve-2021-45232](https://github.com/itxfahdi/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [Kuibagit/CVE-2021-45232-RCE](https://github.com/Kuibagit/CVE-2021-45232-RCE)
@@ -17783,6 +17783,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628)
 - [jas502n/CVE-2018-2628](https://github.com/jas502n/CVE-2018-2628)
 - [stevenlinfeng/CVE-2018-2628](https://github.com/stevenlinfeng/CVE-2018-2628)
+- [likescam/CVE-2018-2628](https://github.com/likescam/CVE-2018-2628)
 - [Nervous/WebLogic-RCE-exploit](https://github.com/Nervous/WebLogic-RCE-exploit)
 - [Lighird/CVE-2018-2628](https://github.com/Lighird/CVE-2018-2628)
 - [0xMJ/CVE-2018-2628](https://github.com/0xMJ/CVE-2018-2628)
@@ -17824,6 +17825,8 @@ Vulnerability in the Oracle Access Manager component of Oracle Fusion Middleware
 Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [sry309/CVE-2018-2893](https://github.com/sry309/CVE-2018-2893)
+- [ryanInf/CVE-2018-2893](https://github.com/ryanInf/CVE-2018-2893)
 - [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
 - [qianl0ng/CVE-2018-2893](https://github.com/qianl0ng/CVE-2018-2893)
@@ -17836,6 +17839,8 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS - Web Services). Supported versions that are affected are 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [111ddea/cve-2018-2894](https://github.com/111ddea/cve-2018-2894)
+- [LandGrey/CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894)
 - [jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894)
 - [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
 
@@ -17995,6 +18000,7 @@ An issue was discovered in certain Apple products. iOS before 11.3 is affected. 
 </code>
 
 - [FSecureLABS/CVE-2018-4121](https://github.com/FSecureLABS/CVE-2018-4121)
+- [likescam/CVE-2018-4121](https://github.com/likescam/CVE-2018-4121)
 - [jezzus/CVE-2018-4121](https://github.com/jezzus/CVE-2018-4121)
 
 ### CVE-2018-4124 (2018-04-03)
@@ -18638,6 +18644,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [fyraiga/CVE-2018-7600-drupalgeddon2-scanner](https://github.com/fyraiga/CVE-2018-7600-drupalgeddon2-scanner)
 - [Damian972/drupalgeddon-2](https://github.com/Damian972/drupalgeddon-2)
 - [jyo-zi/CVE-2018-7600](https://github.com/jyo-zi/CVE-2018-7600)
+- [happynote3966/CVE-2018-7600](https://github.com/happynote3966/CVE-2018-7600)
 - [shellord/CVE-2018-7600-Drupal-RCE](https://github.com/shellord/CVE-2018-7600-Drupal-RCE)
 - [r3dxpl0it/CVE-2018-7600](https://github.com/r3dxpl0it/CVE-2018-7600)
 - [cved-sources/cve-2018-7600](https://github.com/cved-sources/cve-2018-7600)
@@ -18662,6 +18669,7 @@ A remote code execution vulnerability exists within multiple subsystems of Drupa
 </code>
 
 - [1337g/Drupalgedon3](https://github.com/1337g/Drupalgedon3)
+- [happynote3966/CVE-2018-7602](https://github.com/happynote3966/CVE-2018-7602)
 - [kastellanos/CVE-2018-7602](https://github.com/kastellanos/CVE-2018-7602)
 - [cyberharsh/DrupalCVE-2018-7602](https://github.com/cyberharsh/DrupalCVE-2018-7602)
 
@@ -18840,6 +18848,7 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [Yt1g3r/CVE-2018-8174_EXP](https://github.com/Yt1g3r/CVE-2018-8174_EXP)
 - [SyFi/CVE-2018-8174](https://github.com/SyFi/CVE-2018-8174)
 - [orf53975/Rig-Exploit-for-CVE-2018-8174](https://github.com/orf53975/Rig-Exploit-for-CVE-2018-8174)
+- [piotrflorczyk/cve-2018-8174_analysis](https://github.com/piotrflorczyk/cve-2018-8174_analysis)
 - [likescam/CVE-2018-8174-msf](https://github.com/likescam/CVE-2018-8174-msf)
 - [ruthlezs/ie11_vbscript_exploit](https://github.com/ruthlezs/ie11_vbscript_exploit)
 - [ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP)
@@ -18850,6 +18859,14 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
 - [lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp)
 - [sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP)
+
+### CVE-2018-8208 (2018-06-14)
+
+<code>
+An elevation of privilege vulnerability exists in Windows when Desktop Bridge does not properly manage the virtual registry, aka &quot;Windows Desktop Bridge Elevation of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8214.
+</code>
+
+- [kaisaryousuf/CVE-2018-8208](https://github.com/kaisaryousuf/CVE-2018-8208)
 
 ### CVE-2018-8214 (2018-06-14)
 
@@ -19550,6 +19567,14 @@ LTB (aka LDAP Tool Box) Self Service Password before 1.3 allows a change to a us
 
 - [reversebrain/CVE-2018-12421](https://github.com/reversebrain/CVE-2018-12421)
 
+### CVE-2018-12463 (2018-07-12)
+
+<code>
+An XML external entity (XXE) vulnerability in Fortify Software Security Center (SSC), version 17.1, 17.2, 18.1 allows remote unauthenticated users to read arbitrary files or conduct server-side request forgery (SSRF) attacks via a crafted DTD in an XML request.
+</code>
+
+- [alt3kx/CVE-2018-12463](https://github.com/alt3kx/CVE-2018-12463)
+
 ### CVE-2018-12533 (2018-06-18)
 
 <code>
@@ -19673,6 +19698,14 @@ An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.
 </code>
 
 - [shinecome/zip](https://github.com/shinecome/zip)
+
+### CVE-2018-13784 (2018-07-09)
+
+<code>
+PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption in Cookie.php, Rinjdael.php, and Blowfish.php.
+</code>
+
+- [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits)
 
 ### CVE-2018-13797 (2018-07-10)
 
