@@ -113,6 +113,7 @@ It was discovered, that redis, a persistent key-value database, due to a packagi
 
 - [aodsec/CVE-2022-0543](https://github.com/aodsec/CVE-2022-0543)
 - [z92g/CVE-2022-0543](https://github.com/z92g/CVE-2022-0543)
+- [JacobEbben/CVE-2022-0543](https://github.com/JacobEbben/CVE-2022-0543)
 
 ### CVE-2022-0666 (2022-02-18)
 
@@ -1867,6 +1868,7 @@ The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization
 </code>
 
 - [Expl0desploit/CVE-2022-25845](https://github.com/Expl0desploit/CVE-2022-25845)
+- [hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns)
 
 ### CVE-2022-25943 (2022-03-08)
 
@@ -3192,6 +3194,7 @@ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Tr
 </code>
 
 - [aeyesec/CVE-2022-34265](https://github.com/aeyesec/CVE-2022-34265)
+- [raheel0x01/CVE-2022-34265-modified](https://github.com/raheel0x01/CVE-2022-34265-modified)
 - [traumatising/CVE-2022-34265](https://github.com/traumatising/CVE-2022-34265)
 - [ZhaoQi99/CVE-2022-34265](https://github.com/ZhaoQi99/CVE-2022-34265)
 
@@ -26126,7 +26129,6 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
 - [b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271)
-- [JBince/ShellShock](https://github.com/JBince/ShellShock)
 - [abandonedship/ShellShock](https://github.com/abandonedship/ShellShock)
 - [akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271)
 - [0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271)
