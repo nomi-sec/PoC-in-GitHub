@@ -1665,6 +1665,14 @@ Parse Server is an open source http web server backend. In versions prior to 4.1
 
 - [tuo4n8/CVE-2022-24760](https://github.com/tuo4n8/CVE-2022-24760)
 
+### CVE-2022-24780 (2022-04-05)
+
+<code>
+Combodo iTop is a web based IT Service Management tool. In versions prior to 2.7.6 and 3.0.0, users of the iTop user portal can send TWIG code to the server by forging specific http queries, and execute arbitrary code on the server using http server user privileges. This issue is fixed in versions 2.7.6 and 3.0.0. There are currently no known workarounds.
+</code>
+
+- [Acceis/exploit-CVE-2022-24780](https://github.com/Acceis/exploit-CVE-2022-24780)
+
 ### CVE-2022-24853 (2022-04-14)
 
 <code>
@@ -3370,6 +3378,9 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
+
+### CVE-2022-39196
+- [DayiliWaseem/CVE-2022-39196-](https://github.com/DayiliWaseem/CVE-2022-39196-)
 
 
 ## 2021
@@ -6057,6 +6068,14 @@ An inadequate encryption vulnerability discovered in CyberArk Credential Provide
 
 - [unmanarc/CACredDecoder](https://github.com/unmanarc/CACredDecoder)
 
+### CVE-2021-31800 (2021-05-05)
+
+<code>
+Multiple path traversal vulnerabilities exist in smbserver.py in Impacket through 0.9.22. An attacker that connects to a running smbserver instance can list and write to arbitrary files via ../ directory traversal. This could potentially be abused to achieve arbitrary code execution by replacing /etc/shadow or an SSH authorized key.
+</code>
+
+- [Louzogh/CVE-2021-31800](https://github.com/Louzogh/CVE-2021-31800)
+
 ### CVE-2021-31805 (2022-04-12)
 
 <code>
@@ -6094,6 +6113,7 @@ Windows NTFS Elevation of Privilege Vulnerability
 </code>
 
 - [aazhuliang/CVE-2021-31956-EXP](https://github.com/aazhuliang/CVE-2021-31956-EXP)
+- [Y3A/CVE-2021-31956](https://github.com/Y3A/CVE-2021-31956)
 
 ### CVE-2021-32099 (2021-05-06)
 
@@ -7181,7 +7201,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
-- [Ryze-T/CVE-2021-43798](https://github.com/Ryze-T/CVE-2021-43798)
 - [k3rwin/CVE-2021-43798-Grafana](https://github.com/k3rwin/CVE-2021-43798-Grafana)
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
@@ -7323,7 +7342,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
-- [jacobtread/L4J-Vuln-Patch](https://github.com/jacobtread/L4J-Vuln-Patch)
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
 - [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
@@ -24414,7 +24432,7 @@ The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the P
 Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
 </code>
 
-- [rerugan/CVE-2016-8776](https://github.com/rerugan/CVE-2016-8776)
+- [akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776)
 
 ### CVE-2016-8858 (2016-12-09)
 
