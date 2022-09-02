@@ -1578,7 +1578,7 @@ Denial of Service (DoS) in the Z-Wave S0 NonceGet protocol specification in Sili
 Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker to obtain sensitive user information, which can be used to gain admin privileges by leveraging cache hashes. This occurs because files generated with '&lt;?php (instead of the intended &quot;&lt;?php sequence) aren't handled by the PHP interpreter.
 </code>
 
-- [JacobEbben/CVE-2022-24637](https://github.com/JacobEbben/CVE-2022-24637)
+- [Lay0us1/CVE-2022-24637](https://github.com/Lay0us1/CVE-2022-24637)
 
 ### CVE-2022-24644 (2022-03-07)
 
@@ -1802,6 +1802,14 @@ An issue was discovered in drivers/usb/gadget/composite.c in the Linux kernel be
 </code>
 
 - [szymonh/d-os-descriptor](https://github.com/szymonh/d-os-descriptor)
+
+### CVE-2022-25260 (2022-02-25)
+
+<code>
+JetBrains Hub before 2021.1.14276 was vulnerable to blind Server-Side Request Forgery (SSRF).
+</code>
+
+- [yuriisanin/CVE-2022-25260](https://github.com/yuriisanin/CVE-2022-25260)
 
 ### CVE-2022-25262 (2022-02-25)
 
@@ -3194,7 +3202,6 @@ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Tr
 </code>
 
 - [aeyesec/CVE-2022-34265](https://github.com/aeyesec/CVE-2022-34265)
-- [raheel0x01/CVE-2022-34265-modified](https://github.com/raheel0x01/CVE-2022-34265-modified)
 - [traumatising/CVE-2022-34265](https://github.com/traumatising/CVE-2022-34265)
 - [ZhaoQi99/CVE-2022-34265](https://github.com/ZhaoQi99/CVE-2022-34265)
 
@@ -3348,7 +3355,7 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 ### CVE-2022-37177 (2022-08-29)
 
 <code>
-HireVue Hiring Platform V1.0 suffers from Use of a Broken or Risky Cryptographic Algorithm.
+** DISPUTED ** HireVue Hiring Platform V1.0 suffers from Use of a Broken or Risky Cryptographic Algorithm. NOTE: the is disputed by the vendor for multiple reasons, e.g., it is inconsistent with CVE ID assignment rules for cloud services and no product with version V1.0 exists.
 </code>
 
 - [JC175/CVE-2022-37177](https://github.com/JC175/CVE-2022-37177)
@@ -4541,6 +4548,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
 - [Naughty-SEC/pkexec-shell-executor](https://github.com/Naughty-SEC/pkexec-shell-executor)
+- [1337Rin/CVE-2021-4034](https://github.com/1337Rin/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -7384,7 +7392,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools)
 - [alpacamybags118/log4j-cve-2021-44228-sample](https://github.com/alpacamybags118/log4j-cve-2021-44228-sample)
 - [roticagas/CVE-2021-44228-Demo](https://github.com/roticagas/CVE-2021-44228-Demo)
-- [Woahd/log4j-urlscanner](https://github.com/Woahd/log4j-urlscanner)
 - [faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell)
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
