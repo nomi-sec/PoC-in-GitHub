@@ -533,6 +533,9 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 
 - [yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL](https://github.com/yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL)
 
+### CVE-2022-2586
+- [aels/CVE-2022-2586-LPE](https://github.com/aels/CVE-2022-2586-LPE)
+
 ### CVE-2022-2588
 - [Markakd/CVE-2022-2588](https://github.com/Markakd/CVE-2022-2588)
 - [ASkyeye/2022-LPE-UAF](https://github.com/ASkyeye/2022-LPE-UAF)
@@ -22163,7 +22166,6 @@ SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to ex
 
 - [brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917)
 - [stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla)
-- [cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917)
 - [gmohlamo/CVE-2017-8917](https://github.com/gmohlamo/CVE-2017-8917)
 - [AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection](https://github.com/AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection)
 - [Siopy/CVE-2017-8917](https://github.com/Siopy/CVE-2017-8917)
