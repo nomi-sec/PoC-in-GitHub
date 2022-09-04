@@ -9022,6 +9022,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 </code>
 
 - [Tobey123/CVE-2020-1472-visualizer](https://github.com/Tobey123/CVE-2020-1472-visualizer)
+- [SecuraBV/CVE-2020-1472](https://github.com/SecuraBV/CVE-2020-1472)
 - [cube0x0/CVE-2020-1472](https://github.com/cube0x0/CVE-2020-1472)
 - [dirkjanm/CVE-2020-1472](https://github.com/dirkjanm/CVE-2020-1472)
 - [VoidSec/CVE-2020-1472](https://github.com/VoidSec/CVE-2020-1472)
@@ -11037,6 +11038,14 @@ We have resolved a security issue in the camera plugin that could have affected 
 </code>
 
 - [forse01/CVE-2020-11990-Cordova](https://github.com/forse01/CVE-2020-11990-Cordova)
+
+### CVE-2020-11996 (2020-06-26)
+
+<code>
+A specially crafted sequence of HTTP/2 requests sent to Apache Tomcat 10.0.0-M1 to 10.0.0-M5, 9.0.0.M1 to 9.0.35 and 8.5.0 to 8.5.55 could trigger high CPU usage for several seconds. If a sufficient number of such requests were made on concurrent HTTP/2 connections, the server could become unresponsive.
+</code>
+
+- [rusakovichma/tomcat-embed-core-9.0.31-CVE-2020-11996](https://github.com/rusakovichma/tomcat-embed-core-9.0.31-CVE-2020-11996)
 
 ### CVE-2020-12078 (2020-04-28)
 
