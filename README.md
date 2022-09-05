@@ -2535,6 +2535,7 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 </code>
 
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
+- [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
 
 ### CVE-2022-29464 (2022-04-18)
 
@@ -9083,7 +9084,6 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 - [Nekoox/zerologon](https://github.com/Nekoox/zerologon)
-- [hadhub/ad-scanner](https://github.com/hadhub/ad-scanner)
 - [lele8/CVE-2020-1472](https://github.com/lele8/CVE-2020-1472)
 - [Rvn0xsy/ZeroLogon](https://github.com/Rvn0xsy/ZeroLogon)
 
@@ -9591,6 +9591,14 @@ In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the use
 </code>
 
 - [xMohamed0/CVE-2020-5504-phpMyAdmin](https://github.com/xMohamed0/CVE-2020-5504-phpMyAdmin)
+
+### CVE-2020-5509 (2020-01-14)
+
+<code>
+PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
+</code>
+
+- [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
 
 ### CVE-2020-5837 (2020-05-11)
 
@@ -18916,7 +18924,6 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [ruthlezs/ie11_vbscript_exploit](https://github.com/ruthlezs/ie11_vbscript_exploit)
 - [ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP)
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP)
-- [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-)
 - [delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174)
 - [delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP)
 - [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
