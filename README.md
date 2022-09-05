@@ -554,9 +554,6 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 ### CVE-2022-8475
 - [Kvi74/CVE-2022-8475](https://github.com/Kvi74/CVE-2022-8475)
 
-### CVE-2022-9099
-- [gnaw1ng/cve-2022-9099](https://github.com/gnaw1ng/cve-2022-9099)
-
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
 
@@ -3394,7 +3391,7 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
 
-### CVE-2022-39196 (-)
+### CVE-2022-39196 (2022-09-04)
 
 <code>
 Blackboard Learn 1.10.1 allows remote authenticated users to read unintended files by entering student credentials and then directly visiting a certain webapps/bbcms/execute/ URL.
