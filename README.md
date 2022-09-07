@@ -3336,7 +3336,12 @@ H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.
 
 - [safe3s/CVE-2022-35416](https://github.com/safe3s/CVE-2022-35416)
 
-### CVE-2022-35513
+### CVE-2022-35513 (2022-09-07)
+
+<code>
+The Blink1Control2 application &lt;= 2.2.7 uses weak password encryption and an insecure method of storage.
+</code>
+
 - [p1ckzi/CVE-2022-35513](https://github.com/p1ckzi/CVE-2022-35513)
 
 ### CVE-2022-35899 (2022-07-21)
@@ -3361,7 +3366,12 @@ In FiberHome VDSL2 Modem HG150-Ub_V3.0, Credentials of Admin are submitted in UR
 
 - [afaq1337/CVE-2022-36200](https://github.com/afaq1337/CVE-2022-36200)
 
-### CVE-2022-36271
+### CVE-2022-36271 (2022-09-07)
+
+<code>
+Outbyte PC Repair Installation File 1.7.112.7856 is vulnerable to Dll Hijacking. iertutil.dll is missing so an attacker can use a malicious dll with same name and can get admin privileges.
+</code>
+
 - [SaumyajeetDas/POC-of-CVE-2022-36271](https://github.com/SaumyajeetDas/POC-of-CVE-2022-36271)
 
 ### CVE-2022-36446 (2022-07-25)
@@ -3372,7 +3382,12 @@ software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
 
 - [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
 
-### CVE-2022-36539
+### CVE-2022-36539 (-)
+
+<code>
+WeDayCare B.V Ouderapp before v1.1.22 allows attackers to alter the ID value within intercepted calls to gain access to data of other parents and children.
+</code>
+
 - [Fopje/CVE-2022-36539](https://github.com/Fopje/CVE-2022-36539)
 
 ### CVE-2022-36804 (2022-08-25)
@@ -6790,6 +6805,14 @@ CheckMK Raw Edition software (versions 1.5.0 to 1.6.0) does not sanitise the inp
 
 - [Edgarloyola/CVE-2021-40906](https://github.com/Edgarloyola/CVE-2021-40906)
 
+### CVE-2021-40978 (2021-10-07)
+
+<code>
+** DISPUTED ** The mkdocs 1.2.2 built-in dev-server allows directory traversal using the port 8000, enabling remote exploitation to obtain :sensitive information. NOTE: the vendor has disputed this as described in https://github.com/mkdocs/mkdocs/issues/2601.] and https://github.com/nisdn/CVE-2021-40978/issues/1.
+</code>
+
+- [nisdn/CVE-2021-40978](https://github.com/nisdn/CVE-2021-40978)
+
 ### CVE-2021-41073 (2021-09-19)
 
 <code>
@@ -7472,7 +7495,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools)
 - [alpacamybags118/log4j-cve-2021-44228-sample](https://github.com/alpacamybags118/log4j-cve-2021-44228-sample)
 - [roticagas/CVE-2021-44228-Demo](https://github.com/roticagas/CVE-2021-44228-Demo)
-- [Woahd/log4j-urlscanner](https://github.com/Woahd/log4j-urlscanner)
 - [faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell)
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
@@ -16811,6 +16833,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 </code>
 
 - [pingport80/CVE-2019-17240](https://github.com/pingport80/CVE-2019-17240)
+- [LucaReggiannini/Bludit-3-9-2-bb](https://github.com/LucaReggiannini/Bludit-3-9-2-bb)
 - [triple-octopus/Bludit-CVE-2019-17240-Fork](https://github.com/triple-octopus/Bludit-CVE-2019-17240-Fork)
 - [0xkasra/CVE-2019-17240](https://github.com/0xkasra/CVE-2019-17240)
 - [ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass](https://github.com/ColdFusionX/CVE-2019-17240_Bludit-BF-Bypass)
@@ -18583,6 +18606,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
 - [markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574)
+- [hasharmujahid/CVE-2018-6574-go-get-RCE](https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE)
 
 ### CVE-2018-6622 (2018-08-17)
 
