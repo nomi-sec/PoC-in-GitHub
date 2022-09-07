@@ -3372,6 +3372,9 @@ software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
 
 - [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
 
+### CVE-2022-36539
+- [Fopje/CVE-2022-36539](https://github.com/Fopje/CVE-2022-36539)
+
 ### CVE-2022-36804 (2022-08-25)
 
 <code>
