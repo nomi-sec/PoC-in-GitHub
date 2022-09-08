@@ -602,6 +602,14 @@ In deletePackageX of DeletePackageHelper.java, there is a possible way for a Gue
 
 - [nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-](https://github.com/nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-)
 
+### CVE-2022-20126 (2022-06-15)
+
+<code>
+In setScanMode of AdapterService.java, there is a possible way to enable Bluetooth discovery mode without user interaction due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-203431023
+</code>
+
+- [Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126](https://github.com/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126)
+
 ### CVE-2022-20130 (2022-06-15)
 
 <code>
@@ -6553,6 +6561,7 @@ The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for Wor
 - [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 - [twseptian/cve-2021-38314](https://github.com/twseptian/cve-2021-38314)
 - [c0ff33b34n/CVE-2021-38314](https://github.com/c0ff33b34n/CVE-2021-38314)
+- [akhilkoradiya/CVE-2021-38314](https://github.com/akhilkoradiya/CVE-2021-38314)
 
 ### CVE-2021-38540 (2021-09-09)
 
@@ -6618,6 +6627,14 @@ In doRead of SimpleDecodingSource.cpp, there is a possible out of bounds write d
 </code>
 
 - [marcinguy/CVE-2021-39623](https://github.com/marcinguy/CVE-2021-39623)
+
+### CVE-2021-39674 (2022-02-11)
+
+<code>
+In btm_sec_connected and btm_sec_disconnected of btm_sec.cc file , there is a possible use after free. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12Android ID: A-201083442
+</code>
+
+- [nidhi7598/system_bt_AOSP_10_r33_CVE-2021-39674](https://github.com/nidhi7598/system_bt_AOSP_10_r33_CVE-2021-39674)
 
 ### CVE-2021-39685 (2022-03-16)
 
@@ -7501,7 +7518,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [back2root/log4shell-rex](https://github.com/back2root/log4shell-rex)
 - [alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools)
 - [alpacamybags118/log4j-cve-2021-44228-sample](https://github.com/alpacamybags118/log4j-cve-2021-44228-sample)
-- [roticagas/CVE-2021-44228-Demo](https://github.com/roticagas/CVE-2021-44228-Demo)
 - [faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell)
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [codiobert/log4j-scanner](https://github.com/codiobert/log4j-scanner)
@@ -7521,7 +7537,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [jeremyrsellars/CVE-2021-44228_scanner](https://github.com/jeremyrsellars/CVE-2021-44228_scanner)
 - [JustinDPerkins/C1-WS-LOG4SHELL](https://github.com/JustinDPerkins/C1-WS-LOG4SHELL)
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
-- [avirahul007/CVE-2021-44228](https://github.com/avirahul007/CVE-2021-44228)
 - [rgl/log4j-log4shell-playground](https://github.com/rgl/log4j-log4shell-playground)
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
 - [KeysAU/Get-log4j-Windows.ps1](https://github.com/KeysAU/Get-log4j-Windows.ps1)
@@ -9472,6 +9487,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner](https://github.com/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner)
 - [sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452)
 - [Aviksaikat/CVE-2020-3452](https://github.com/Aviksaikat/CVE-2020-3452)
+- [Veids/CVE-2020-3452_auto](https://github.com/Veids/CVE-2020-3452_auto)
 - [iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452)
 
 ### CVE-2020-3580 (2020-10-21)
@@ -9656,14 +9672,6 @@ In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the use
 </code>
 
 - [xMohamed0/CVE-2020-5504-phpMyAdmin](https://github.com/xMohamed0/CVE-2020-5504-phpMyAdmin)
-
-### CVE-2020-5509 (2020-01-14)
-
-<code>
-PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
-</code>
-
-- [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
 
 ### CVE-2020-5837 (2020-05-11)
 
@@ -9930,6 +9938,7 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247)
 - [QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit)
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
+- [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
 
 ### CVE-2020-7283 (2020-07-03)
@@ -9939,6 +9948,14 @@ Privilege Escalation vulnerability in McAfee Total Protection (MTP) before 16.0.
 </code>
 
 - [RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP](https://github.com/RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP)
+
+### CVE-2020-7352 (2020-08-06)
+
+<code>
+The GalaxyClientService component of GOG Galaxy runs with elevated SYSTEM privileges in a Windows environment. Due to the software shipping with embedded, static RSA private key, an attacker with this key material and local user permissions can effectively send any operating system command to the service for execution in this elevated context. The service listens for such commands on a locally-bound network port, localhost:9978. A Metasploit module has been published which exploits this vulnerability. This issue affects the 2.0.x branch of the software (2.0.12 and earlier) as well as the 1.2.x branch (1.2.64 and earlier). A fix was issued for the 2.0.x branch of the affected software.
+</code>
+
+- [szerszen199/PS-CVE-2020-7352](https://github.com/szerszen199/PS-CVE-2020-7352)
 
 ### CVE-2020-7378 (2020-11-24)
 
@@ -10001,6 +10018,14 @@ Incorrect handling of Upgrade header with the value websocket leads in crashing 
 </code>
 
 - [andsnw/sockjs-dos-py](https://github.com/andsnw/sockjs-dos-py)
+
+### CVE-2020-7699 (2020-07-30)
+
+<code>
+This affects the package express-fileupload before 1.1.8. If the parseNested option is enabled, sending a corrupt HTTP request can lead to denial of service or arbitrary code execution.
+</code>
+
+- [hemaoqi-Tom/CVE-2020-7699_reproduce](https://github.com/hemaoqi-Tom/CVE-2020-7699_reproduce)
 
 ### CVE-2020-7740 (2020-10-06)
 
@@ -10240,6 +10265,7 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 Kubernetes API server in all versions allow an attacker who is able to create a ClusterIP service and set the spec.externalIPs field, to intercept traffic to that IP address. Additionally, an attacker who is able to patch the status (which is considered a privileged operation and should not typically be granted to users) of a LoadBalancer service can set the status.loadBalancer.ingress.ip to similar effect.
 </code>
 
+- [rancher/externalip-webhook](https://github.com/rancher/externalip-webhook)
 - [jrmurray000/CVE-2020-8554](https://github.com/jrmurray000/CVE-2020-8554)
 - [twistlock/k8s-cve-2020-8554-mitigations](https://github.com/twistlock/k8s-cve-2020-8554-mitigations)
 - [Dviejopomata/CVE-2020-8554](https://github.com/Dviejopomata/CVE-2020-8554)
@@ -11099,6 +11125,14 @@ We have resolved a security issue in the camera plugin that could have affected 
 
 - [forse01/CVE-2020-11990-Cordova](https://github.com/forse01/CVE-2020-11990-Cordova)
 
+### CVE-2020-11996 (2020-06-26)
+
+<code>
+A specially crafted sequence of HTTP/2 requests sent to Apache Tomcat 10.0.0-M1 to 10.0.0-M5, 9.0.0.M1 to 9.0.35 and 8.5.0 to 8.5.55 could trigger high CPU usage for several seconds. If a sufficient number of such requests were made on concurrent HTTP/2 connections, the server could become unresponsive.
+</code>
+
+- [rusakovichma/tomcat-embed-core-9.0.31-CVE-2020-11996](https://github.com/rusakovichma/tomcat-embed-core-9.0.31-CVE-2020-11996)
+
 ### CVE-2020-12078 (2020-04-28)
 
 <code>
@@ -11851,6 +11885,14 @@ containerd is an industry-standard container runtime and is available as a daemo
 
 - [nccgroup/abstractshimmer](https://github.com/nccgroup/abstractshimmer)
 
+### CVE-2020-15261 (2020-10-19)
+
+<code>
+On Windows the Veyon Service before version 4.4.2 contains an unquoted service path vulnerability, allowing locally authenticated users with administrative privileges to run malicious executables with LocalSystem privileges. Since Veyon users (both students and teachers) usually don't have administrative privileges, this vulnerability is only dangerous in anyway unsafe setups. The problem has been fixed in version 4.4.2. As a workaround, the exploitation of the vulnerability can be prevented by revoking administrative privileges from all potentially untrustworthy users.
+</code>
+
+- [yaoyao-cool/CVE-2020-15261](https://github.com/yaoyao-cool/CVE-2020-15261)
+
 ### CVE-2020-15349 (2020-11-16)
 
 <code>
@@ -11979,6 +12021,7 @@ The NetConfig UI administrative interface in Extreme Networks ExtremeWireless Ae
 </code>
 
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
+- [Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e](https://github.com/Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e)
 
 ### CVE-2020-16270 (2020-10-16)
 
@@ -12239,6 +12282,14 @@ A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.
 </code>
 
 - [MzzdToT/CVE-2020-21224](https://github.com/MzzdToT/CVE-2020-21224)
+
+### CVE-2020-21378 (2020-12-21)
+
+<code>
+SQL injection vulnerability in SeaCMS 10.1 (2020.02.08) via the id parameter in an edit action to admin_members_group.php.
+</code>
+
+- [sukusec301/SeaCMS-v10.1](https://github.com/sukusec301/SeaCMS-v10.1)
 
 ### CVE-2020-23160 (2021-01-22)
 
@@ -12529,6 +12580,9 @@ Stored XSS in InterMind iMind Server through 3.13.65 allows any user to hijack a
 </code>
 
 - [h3llraiser/CVE-2020-25399](https://github.com/h3llraiser/CVE-2020-25399)
+
+### CVE-2020-25478
+- [santokum/CVE-2020-25478--ASUS-RT-AC87U-TFTP-is-vulnerable-to-Denial-of-Service-DoS-attack](https://github.com/santokum/CVE-2020-25478--ASUS-RT-AC87U-TFTP-is-vulnerable-to-Denial-of-Service-DoS-attack)
 
 ### CVE-2020-25487 (2020-09-22)
 
@@ -24186,7 +24240,7 @@ net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine 
 - [violentshell/rover](https://github.com/violentshell/rover)
 - [jduck/challack](https://github.com/jduck/challack)
 - [bplinux/chackd](https://github.com/bplinux/chackd)
-- [nogoegst/grill](https://github.com/nogoegst/grill)
+- [unkaktus/grill](https://github.com/unkaktus/grill)
 
 ### CVE-2016-5699 (2016-09-02)
 
@@ -24807,14 +24861,6 @@ Buffer overflow in IOHIDFamily in Apple OS X before 10.10.3 allows local users t
 
 - [kpwn/vpwn](https://github.com/kpwn/vpwn)
 
-### CVE-2015-1157 (2015-05-27)
-
-<code>
-CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
-</code>
-
-- [perillamint/CVE-2015-1157](https://github.com/perillamint/CVE-2015-1157)
-
 ### CVE-2015-1318 (2015-04-17)
 
 <code>
@@ -24867,7 +24913,6 @@ Multiple integer overflows in the GraphicBuffer::unflatten function in platform/
 Integer overflow in the native_handle_create function in libcutils/native_handle.c in Android before 5.1.1 LMY48M allows attackers to obtain a different application's privileges or cause a denial of service (Binder heap memory corruption) via a crafted application, aka internal bug 19334482.
 </code>
 
-- [secmob/PoCForCVE-2015-1528](https://github.com/secmob/PoCForCVE-2015-1528)
 - [kanpol/PoCForCVE-2015-1528](https://github.com/kanpol/PoCForCVE-2015-1528)
 
 ### CVE-2015-1538 (2015-09-30)
@@ -24876,9 +24921,6 @@ Integer overflow in the native_handle_create function in libcutils/native_handle
 Integer overflow in the SampleTable::setSampleToChunkParams function in SampleTable.cpp in libstagefright in Android before 5.1.1 LMY48I allows remote attackers to execute arbitrary code via crafted atoms in MP4 data that trigger an unchecked multiplication, aka internal bug 20139950, a related issue to CVE-2015-4496.
 </code>
 
-- [oguzhantopgul/cve-2015-1538-1](https://github.com/oguzhantopgul/cve-2015-1538-1)
-- [renjithsasidharan/cve-2015-1538-1](https://github.com/renjithsasidharan/cve-2015-1538-1)
-- [jduck/cve-2015-1538-1](https://github.com/jduck/cve-2015-1538-1)
 - [niranjanshr13/Stagefright-cve-2015-1538-1](https://github.com/niranjanshr13/Stagefright-cve-2015-1538-1)
 - [Tharana/Android-vulnerability-exploitation](https://github.com/Tharana/Android-vulnerability-exploitation)
 - [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
@@ -24917,7 +24959,6 @@ HTTP.sys in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Wind
 - [xPaw/HTTPsys](https://github.com/xPaw/HTTPsys)
 - [Zx7ffa4512-Python/Project-CVE-2015-1635](https://github.com/Zx7ffa4512-Python/Project-CVE-2015-1635)
 - [technion/erlvulnscan](https://github.com/technion/erlvulnscan)
-- [wiredaem0n/chk-ms15-034](https://github.com/wiredaem0n/chk-ms15-034)
 - [u0pattern/Remove-IIS-RIIS](https://github.com/u0pattern/Remove-IIS-RIIS)
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
@@ -24980,14 +25021,6 @@ The exception handling code in Eclipse Jetty before 9.2.9.v20150224 allows remot
 
 - [6a6f6a6f/CVE-2015-2080](https://github.com/6a6f6a6f/CVE-2015-2080)
 
-### CVE-2015-2153 (2015-03-24)
-
-<code>
-The rpki_rtr_pdu_print function in print-rpki-rtr.c in the TCP printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read or write and crash) via a crafted header length in an RPKI-RTR Protocol Data Unit (PDU).
-</code>
-
-- [arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153)
-
 ### CVE-2015-2208 (2015-03-12)
 
 <code>
@@ -24995,9 +25028,6 @@ The saveObject function in moadmin.php in phpMoAdmin 1.1.2 allows remote attacke
 </code>
 
 - [ptantiku/cve-2015-2208](https://github.com/ptantiku/cve-2015-2208)
-
-### CVE-2015-2231
-- [rednaga/adups-get-super-serial](https://github.com/rednaga/adups-get-super-serial)
 
 ### CVE-2015-2291 (2017-08-09)
 
@@ -25056,14 +25086,6 @@ Adobe Flash Player before 13.0.0.281 and 14.x through 17.x before 17.0.0.169 on 
 </code>
 
 - [whitehairman/Exploit](https://github.com/whitehairman/Exploit)
-
-### CVE-2015-3073 (2015-05-13)
-
-<code>
-Adobe Reader and Acrobat 10.x before 10.1.14 and 11.x before 11.0.11 on Windows and OS X allow attackers to bypass intended restrictions on JavaScript API execution via unspecified vectors, a different vulnerability than CVE-2015-3060, CVE-2015-3061, CVE-2015-3062, CVE-2015-3063, CVE-2015-3064, CVE-2015-3065, CVE-2015-3066, CVE-2015-3067, CVE-2015-3068, CVE-2015-3069, CVE-2015-3071, CVE-2015-3072, and CVE-2015-3074.
-</code>
-
-- [reigningshells/CVE-2015-3073](https://github.com/reigningshells/CVE-2015-3073)
 
 ### CVE-2015-3090 (2015-05-13)
 
@@ -25132,8 +25154,6 @@ The ping_unhash function in net/ipv4/ping.c in the Linux kernel before 4.0.3 doe
 </code>
 
 - [betalphafai/cve-2015-3636_crash](https://github.com/betalphafai/cve-2015-3636_crash)
-- [askk/libping_unhash_exploit_POC](https://github.com/askk/libping_unhash_exploit_POC)
-- [ludongxu/cve-2015-3636](https://github.com/ludongxu/cve-2015-3636)
 - [fi01/CVE-2015-3636](https://github.com/fi01/CVE-2015-3636)
 - [android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit)
 - [debugfan/rattle_root](https://github.com/debugfan/rattle_root)
@@ -25210,7 +25230,6 @@ Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) 
 </code>
 
 - [jvazquez-r7/CVE-2015-5119](https://github.com/jvazquez-r7/CVE-2015-5119)
-- [CiscoCXSecurity/CVE-2015-5119_walkthrough](https://github.com/CiscoCXSecurity/CVE-2015-5119_walkthrough)
 - [dangokyo/CVE-2015-5119](https://github.com/dangokyo/CVE-2015-5119)
 
 ### CVE-2015-5195 (2017-07-21)
@@ -25264,7 +25283,6 @@ named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote 
 - [elceef/tkeypoc](https://github.com/elceef/tkeypoc)
 - [hmlio/vaas-cve-2015-5477](https://github.com/hmlio/vaas-cve-2015-5477)
 - [knqyf263/cve-2015-5477](https://github.com/knqyf263/cve-2015-5477)
-- [ilanyu/cve-2015-5477](https://github.com/ilanyu/cve-2015-5477)
 - [likescam/ShareDoc_cve-2015-5477](https://github.com/likescam/ShareDoc_cve-2015-5477)
 - [xycloops123/TKEY-remote-DoS-vulnerability-exploit](https://github.com/xycloops123/TKEY-remote-DoS-vulnerability-exploit)
 
@@ -25431,7 +25449,6 @@ Mozilla Firefox before 43.0 and Firefox ESR 38.x before 38.5 allow remote attack
 SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7858.
 </code>
 
-- [CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory)
 - [areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla)
 
 ### CVE-2015-7501 (2017-11-09)
@@ -25475,14 +25492,6 @@ Juniper ScreenOS 6.2.0r15 through 6.2.0r18, 6.3.0r12 before 6.3.0r12b, 6.3.0r13 
 
 - [hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755)
 - [cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC)
-
-### CVE-2015-7808 (2015-11-24)
-
-<code>
-The vB_Api_Hook::decodeArguments method in vBulletin 5 Connect 5.1.2 through 5.1.9 allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via a crafted serialized object in the arguments parameter to ajax/api/hook/decodeArguments.
-</code>
-
-- [Prajithp/CVE-2015-7808](https://github.com/Prajithp/CVE-2015-7808)
 
 ### CVE-2015-8088 (2016-01-12)
 
