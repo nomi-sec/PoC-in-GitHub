@@ -6895,7 +6895,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [creadpag/CVE-2021-41773-POC](https://github.com/creadpag/CVE-2021-41773-POC)
 - [ranggaggngntt/CVE-2021-41773](https://github.com/ranggaggngntt/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
-- [i6c/MASS_CVE-2021-41773](https://github.com/i6c/MASS_CVE-2021-41773)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
 - [m96dg/CVE-2021-41773-exercise](https://github.com/m96dg/CVE-2021-41773-exercise)
 - [skentagon/CVE-2021-41773](https://github.com/skentagon/CVE-2021-41773)
@@ -7030,6 +7029,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [timb-machine-mirrors/CVE-2021-42321_poc](https://github.com/timb-machine-mirrors/CVE-2021-42321_poc)
+
+### CVE-2021-42327 (2021-10-21)
+
+<code>
+dp_link_settings_write in drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm_debugfs.c in the Linux kernel through 5.14.14 allows a heap-based buffer overflow by an attacker who can write a string to the AMD GPU display drivers debug filesystem. There are no checks on size within parse_write_buffer_into_params when it uses the size of copy_from_user to copy a userspace buffer into a 40-byte heap buffer.
+</code>
+
+- [docfate111/CVE-2021-42327](https://github.com/docfate111/CVE-2021-42327)
 
 ### CVE-2021-42342 (2021-10-14)
 
@@ -7513,7 +7520,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [dbzoo/log4j_scanner](https://github.com/dbzoo/log4j_scanner)
 - [jeremyrsellars/CVE-2021-44228_scanner](https://github.com/jeremyrsellars/CVE-2021-44228_scanner)
 - [JustinDPerkins/C1-WS-LOG4SHELL](https://github.com/JustinDPerkins/C1-WS-LOG4SHELL)
-- [VinniMarcon/Log4j-Updater](https://github.com/VinniMarcon/Log4j-Updater)
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
 - [avirahul007/CVE-2021-44228](https://github.com/avirahul007/CVE-2021-44228)
 - [rgl/log4j-log4shell-playground](https://github.com/rgl/log4j-log4shell-playground)
@@ -7695,6 +7701,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [nemesi-ita/autoL4s](https://github.com/nemesi-ita/autoL4s)
 - [tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228](https://github.com/tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228)
 - [eurogig/jankybank](https://github.com/eurogig/jankybank)
+- [digital-dev/Log4j-CVE-2021-44228-Remediation](https://github.com/digital-dev/Log4j-CVE-2021-44228-Remediation)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
@@ -9465,7 +9472,6 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner](https://github.com/faisalfs10x/Cisco-CVE-2020-3452-shodan-scanner)
 - [sujaygr8/CVE-2020-3452](https://github.com/sujaygr8/CVE-2020-3452)
 - [Aviksaikat/CVE-2020-3452](https://github.com/Aviksaikat/CVE-2020-3452)
-- [Veids/CVE-2020-3452_auto](https://github.com/Veids/CVE-2020-3452_auto)
 - [iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452)
 
 ### CVE-2020-3580 (2020-10-21)
@@ -9924,7 +9930,6 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247)
 - [QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit)
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
-- [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
 
 ### CVE-2020-7283 (2020-07-03)
@@ -9934,14 +9939,6 @@ Privilege Escalation vulnerability in McAfee Total Protection (MTP) before 16.0.
 </code>
 
 - [RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP](https://github.com/RedyOpsResearchLabs/CVE-2020-7283-McAfee-Total-Protection-MTP-16.0.R26-EoP)
-
-### CVE-2020-7352 (2020-08-06)
-
-<code>
-The GalaxyClientService component of GOG Galaxy runs with elevated SYSTEM privileges in a Windows environment. Due to the software shipping with embedded, static RSA private key, an attacker with this key material and local user permissions can effectively send any operating system command to the service for execution in this elevated context. The service listens for such commands on a locally-bound network port, localhost:9978. A Metasploit module has been published which exploits this vulnerability. This issue affects the 2.0.x branch of the software (2.0.12 and earlier) as well as the 1.2.x branch (1.2.64 and earlier). A fix was issued for the 2.0.x branch of the affected software.
-</code>
-
-- [szerszen199/PS-CVE-2020-7352](https://github.com/szerszen199/PS-CVE-2020-7352)
 
 ### CVE-2020-7378 (2020-11-24)
 
@@ -10004,14 +10001,6 @@ Incorrect handling of Upgrade header with the value websocket leads in crashing 
 </code>
 
 - [andsnw/sockjs-dos-py](https://github.com/andsnw/sockjs-dos-py)
-
-### CVE-2020-7699 (2020-07-30)
-
-<code>
-This affects the package express-fileupload before 1.1.8. If the parseNested option is enabled, sending a corrupt HTTP request can lead to denial of service or arbitrary code execution.
-</code>
-
-- [hemaoqi-Tom/CVE-2020-7699_reproduce](https://github.com/hemaoqi-Tom/CVE-2020-7699_reproduce)
 
 ### CVE-2020-7740 (2020-10-06)
 
@@ -10251,7 +10240,6 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 Kubernetes API server in all versions allow an attacker who is able to create a ClusterIP service and set the spec.externalIPs field, to intercept traffic to that IP address. Additionally, an attacker who is able to patch the status (which is considered a privileged operation and should not typically be granted to users) of a LoadBalancer service can set the status.loadBalancer.ingress.ip to similar effect.
 </code>
 
-- [rancher/externalip-webhook](https://github.com/rancher/externalip-webhook)
 - [jrmurray000/CVE-2020-8554](https://github.com/jrmurray000/CVE-2020-8554)
 - [twistlock/k8s-cve-2020-8554-mitigations](https://github.com/twistlock/k8s-cve-2020-8554-mitigations)
 - [Dviejopomata/CVE-2020-8554](https://github.com/Dviejopomata/CVE-2020-8554)
@@ -11111,14 +11099,6 @@ We have resolved a security issue in the camera plugin that could have affected 
 
 - [forse01/CVE-2020-11990-Cordova](https://github.com/forse01/CVE-2020-11990-Cordova)
 
-### CVE-2020-11996 (2020-06-26)
-
-<code>
-A specially crafted sequence of HTTP/2 requests sent to Apache Tomcat 10.0.0-M1 to 10.0.0-M5, 9.0.0.M1 to 9.0.35 and 8.5.0 to 8.5.55 could trigger high CPU usage for several seconds. If a sufficient number of such requests were made on concurrent HTTP/2 connections, the server could become unresponsive.
-</code>
-
-- [rusakovichma/tomcat-embed-core-9.0.31-CVE-2020-11996](https://github.com/rusakovichma/tomcat-embed-core-9.0.31-CVE-2020-11996)
-
 ### CVE-2020-12078 (2020-04-28)
 
 <code>
@@ -11871,14 +11851,6 @@ containerd is an industry-standard container runtime and is available as a daemo
 
 - [nccgroup/abstractshimmer](https://github.com/nccgroup/abstractshimmer)
 
-### CVE-2020-15261 (2020-10-19)
-
-<code>
-On Windows the Veyon Service before version 4.4.2 contains an unquoted service path vulnerability, allowing locally authenticated users with administrative privileges to run malicious executables with LocalSystem privileges. Since Veyon users (both students and teachers) usually don't have administrative privileges, this vulnerability is only dangerous in anyway unsafe setups. The problem has been fixed in version 4.4.2. As a workaround, the exploitation of the vulnerability can be prevented by revoking administrative privileges from all potentially untrustworthy users.
-</code>
-
-- [yaoyao-cool/CVE-2020-15261](https://github.com/yaoyao-cool/CVE-2020-15261)
-
 ### CVE-2020-15349 (2020-11-16)
 
 <code>
@@ -12007,7 +11979,6 @@ The NetConfig UI administrative interface in Extreme Networks ExtremeWireless Ae
 </code>
 
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
-- [Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e](https://github.com/Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e)
 
 ### CVE-2020-16270 (2020-10-16)
 
@@ -12268,14 +12239,6 @@ A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.
 </code>
 
 - [MzzdToT/CVE-2020-21224](https://github.com/MzzdToT/CVE-2020-21224)
-
-### CVE-2020-21378 (2020-12-21)
-
-<code>
-SQL injection vulnerability in SeaCMS 10.1 (2020.02.08) via the id parameter in an edit action to admin_members_group.php.
-</code>
-
-- [sukusec301/SeaCMS-v10.1](https://github.com/sukusec301/SeaCMS-v10.1)
 
 ### CVE-2020-23160 (2021-01-22)
 
