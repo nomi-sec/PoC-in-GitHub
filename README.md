@@ -3382,7 +3382,7 @@ software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
 
 - [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
 
-### CVE-2022-36539 (-)
+### CVE-2022-36539 (2022-09-07)
 
 <code>
 WeDayCare B.V Ouderapp before v1.1.22 allows attackers to alter the ID value within intercepted calls to gain access to data of other parents and children.
