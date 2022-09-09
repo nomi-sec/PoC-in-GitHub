@@ -685,6 +685,14 @@ In bta_hf_client_handle_cind_list_item of bta_hf_client_at.cc, there is a possib
 
 - [ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229)
 
+### CVE-2022-20360 (2022-08-09)
+
+<code>
+In setChecked of SecureNfcPreferenceController.java, there is a missing permission check. This could lead to local escalation of privilege from the guest user with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-228314987
+</code>
+
+- [nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360](https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360)
+
 ### CVE-2022-20361 (2022-08-09)
 
 <code>
@@ -21644,7 +21652,6 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638)
 - [pasannirmana/Aspire](https://github.com/pasannirmana/Aspire)
 - [ludy-dev/XworkStruts-RCE](https://github.com/ludy-dev/XworkStruts-RCE)
-- [jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638)
 - [Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638)
 - [jptr218/struts_hack](https://github.com/jptr218/struts_hack)
 - [testpilot031/vulnerability_struts-2.3.31](https://github.com/testpilot031/vulnerability_struts-2.3.31)
@@ -22697,7 +22704,6 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 - [5l1v3r1/rtfkit](https://github.com/5l1v3r1/rtfkit)
-- [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
 - [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 - [lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp)
 - [tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882)
