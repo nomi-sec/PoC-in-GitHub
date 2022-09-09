@@ -550,6 +550,9 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 
 - [avboy1337/CVE-2022-2639-PipeVersion](https://github.com/avboy1337/CVE-2022-2639-PipeVersion)
 
+### CVE-2022-3168
+- [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
+
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
 
@@ -609,6 +612,9 @@ In setScanMode of AdapterService.java, there is a possible way to enable Bluetoo
 </code>
 
 - [Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126](https://github.com/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126)
+
+### CVE-2022-20128
+- [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
 
 ### CVE-2022-20130 (2022-06-15)
 
@@ -3477,6 +3483,22 @@ Systematic FIX Adapter (ALFAFX) 2.4.0.25 13/09/2017 allows remote file inclusion
 </code>
 
 - [jet-pentest/CVE-2022-39838](https://github.com/jet-pentest/CVE-2022-39838)
+
+### CVE-2022-40297 (2022-09-08)
+
+<code>
+UBports Ubuntu Touch 16.04 allows the screen-unlock passcode to be used for a privileged shell via Sudo. This passcode is only four digits, far below typical length/complexity for a user account's password.
+</code>
+
+- [filipkarc/PoC-ubuntutouch-pin-privesc](https://github.com/filipkarc/PoC-ubuntutouch-pin-privesc)
+
+### CVE-2022-40317 (2022-09-09)
+
+<code>
+OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring in an A element.
+</code>
+
+- [izdiwho/CVE-2022-40317](https://github.com/izdiwho/CVE-2022-40317)
 
 
 ## 2021
