@@ -1625,6 +1625,7 @@ Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker 
 </code>
 
 - [Lay0us1/CVE-2022-24637](https://github.com/Lay0us1/CVE-2022-24637)
+- [garySec/CVE-2022-24637](https://github.com/garySec/CVE-2022-24637)
 
 ### CVE-2022-24644 (2022-03-07)
 
@@ -3433,6 +3434,7 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 
 - [cryptolakk/CVE-2022-36804-RCE](https://github.com/cryptolakk/CVE-2022-36804-RCE)
 - [CEOrbey/CVE-2022-36804-POC](https://github.com/CEOrbey/CVE-2022-36804-POC)
+- [CEOrbey/CVE-2022-36804-MASS-RCE](https://github.com/CEOrbey/CVE-2022-36804-MASS-RCE)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -7844,7 +7846,7 @@ Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases
 </code>
 
 - [cckuailong/log4j_RCE_CVE-2021-44832](https://github.com/cckuailong/log4j_RCE_CVE-2021-44832)
-- [name/log4j](https://github.com/name/log4j)
+- [charliemaddex/log4j](https://github.com/charliemaddex/log4j)
 
 ### CVE-2021-44852 (2022-01-01)
 
