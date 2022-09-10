@@ -955,6 +955,9 @@ A use after free issue was addressed with improved memory management. This issue
 - [kmeps4/CVE-2022-22620](https://github.com/kmeps4/CVE-2022-22620)
 - [springsec/CVE-2022-22620](https://github.com/springsec/CVE-2022-22620)
 
+### CVE-2022-22629
+- [parsdefense/CVE-2022-22629](https://github.com/parsdefense/CVE-2022-22629)
+
 ### CVE-2022-22639 (2022-03-18)
 
 <code>
