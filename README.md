@@ -6413,9 +6413,6 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 
 - [mmiszczyk/cve-2021-33879](https://github.com/mmiszczyk/cve-2021-33879)
 
-### CVE-2021-34045
-- [MzzdToT/CVE-2021-34045](https://github.com/MzzdToT/CVE-2021-34045)
-
 ### CVE-2021-34473 (2021-07-14)
 
 <code>
@@ -6594,6 +6591,14 @@ ASUS routers Wi-Fi protected access protocol (WPA2 and WPA3-SAE) has improper co
 </code>
 
 - [efchatz/easy-exploits](https://github.com/efchatz/easy-exploits)
+
+### CVE-2021-38163 (2021-09-14)
+
+<code>
+SAP NetWeaver (Visual Composer 7.0 RT) versions - 7.30, 7.31, 7.40, 7.50, without restriction, an attacker authenticated as a non-administrative user can upload a malicious file over a network and trigger its processing, which is capable of running operating system commands with the privilege of the Java Server process. These commands can be used to read or modify any information on the server or shut the server down making it unavailable.
+</code>
+
+- [core1impact/CVE-2021-38163](https://github.com/core1impact/CVE-2021-38163)
 
 ### CVE-2021-38314 (2021-09-02)
 
@@ -24309,6 +24314,7 @@ phpMyAdmin 4.0.x before 4.0.10.16, 4.4.x before 4.4.15.7, and 4.6.x before 4.6.3
 
 - [KosukeShimofuji/CVE-2016-5734](https://github.com/KosukeShimofuji/CVE-2016-5734)
 - [HKirito/phpmyadmin4.4_cve-2016-5734](https://github.com/HKirito/phpmyadmin4.4_cve-2016-5734)
+- [miko550/CVE-2016-5734-docker](https://github.com/miko550/CVE-2016-5734-docker)
 
 ### CVE-2016-5983 (2016-10-05)
 
