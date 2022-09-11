@@ -2187,6 +2187,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [Ziggy78/CVE-2022-26809-RCE-POC](https://github.com/Ziggy78/CVE-2022-26809-RCE-POC)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
 - [Ziggy78/CVE-2022-26809-MASS-RCE](https://github.com/Ziggy78/CVE-2022-26809-MASS-RCE)
+- [Ziggy78/CVE-2022-26809-RCE-MASS](https://github.com/Ziggy78/CVE-2022-26809-RCE-MASS)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -3212,6 +3213,14 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 </code>
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
+
+### CVE-2022-32548 (2022-08-29)
+
+<code>
+An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
+</code>
+
+- [Expl0desploit/CVE-2022-32548](https://github.com/Expl0desploit/CVE-2022-32548)
 
 ### CVE-2022-32832
 - [Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832)
@@ -20016,6 +20025,14 @@ The RichFaces Framework 3.X through 3.3.4 is vulnerable to Expression Language (
 - [quandqn/cve-2018-14667](https://github.com/quandqn/cve-2018-14667)
 - [Venscor/CVE-2018-14667-poc](https://github.com/Venscor/CVE-2018-14667-poc)
 
+### CVE-2018-14699 (2018-12-03)
+
+<code>
+System command injection in the /DroboAccess/enable_user endpoint in Drobo 5N2 NAS version 4.0.5-13.28.96115 allows unauthenticated attackers to execute system commands via the &quot;username&quot; URL parameter.
+</code>
+
+- [RevoCain/CVE-2018-14699](https://github.com/RevoCain/CVE-2018-14699)
+
 ### CVE-2018-14714 (2019-05-13)
 
 <code>
@@ -21724,14 +21741,6 @@ In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket
 
 - [pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
-
-### CVE-2017-5674 (2017-03-13)
-
-<code>
-A vulnerability in a custom-built GoAhead web server used on Foscam, Vstarcam, and multiple white-label IP camera models allows an attacker to craft a malformed HTTP (&quot;GET system.ini HTTP/1.1\n\n&quot; - note the lack of &quot;/&quot; in the path field of the request) request that will disclose the configuration file with the login password.
-</code>
-
-- [eR072391/cve-2017-5674](https://github.com/eR072391/cve-2017-5674)
 
 ### CVE-2017-5689 (2017-05-02)
 
