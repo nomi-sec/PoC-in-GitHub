@@ -556,6 +556,9 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
 
+### CVE-2022-3506
+- [hackthebox-writeups/Sekhmet-HackTheBox-Writeup](https://github.com/hackthebox-writeups/Sekhmet-HackTheBox-Writeup)
+
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
 
