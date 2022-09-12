@@ -667,6 +667,14 @@ In bta_hf_client_handle_cind_list_item of bta_hf_client_at.cc, there is a possib
 
 - [ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229)
 
+### CVE-2022-20344 (2022-08-09)
+
+<code>
+In stealReceiveChannel of EventThread.cpp, there is a possible way to interfere with process communication due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-232541124
+</code>
+
+- [nidhi7598/frameworks_native_AOSP_10_r33_CVE-2022-20344](https://github.com/nidhi7598/frameworks_native_AOSP_10_r33_CVE-2022-20344)
+
 ### CVE-2022-20360 (2022-08-09)
 
 <code>
@@ -682,6 +690,7 @@ In btif_dm_auth_cmpl_evt of btif_dm.cc, there is a possible vulnerability in Cro
 </code>
 
 - [francozappa/blur](https://github.com/francozappa/blur)
+- [nidhi7598/system_bt_AOSP_10_r33_CVE-2022-20361](https://github.com/nidhi7598/system_bt_AOSP_10_r33_CVE-2022-20361)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -2272,6 +2281,7 @@ Zimbra Collaboration (aka ZCS) 8.8.15 and 9.0 has mboximport functionality that 
 - [navokus/CVE-2022-27925](https://github.com/navokus/CVE-2022-27925)
 - [Josexv1/CVE-2022-27925](https://github.com/Josexv1/CVE-2022-27925)
 - [Chocapikk/CVE-2022-27925-Revshell](https://github.com/Chocapikk/CVE-2022-27925-Revshell)
+- [akincibor/CVE-2022-27925](https://github.com/akincibor/CVE-2022-27925)
 
 ### CVE-2022-27927 (2022-04-19)
 
@@ -2695,6 +2705,7 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 - [aaronsvk/CVE-2022-30075](https://github.com/aaronsvk/CVE-2022-30075)
 - [SAJIDAMINE/CVE-2022-30075](https://github.com/SAJIDAMINE/CVE-2022-30075)
 - [trhacknon/CVE-2022-30075](https://github.com/trhacknon/CVE-2022-30075)
+- [M4fiaB0y/CVE-2022-30075](https://github.com/M4fiaB0y/CVE-2022-30075)
 
 ### CVE-2022-30190 (2022-06-01)
 
@@ -2966,7 +2977,6 @@ GLPI is a Free Asset and IT Management Software package, Data center management,
 prestashop/blockwishlist is a prestashop extension which adds a block containing the customer's wishlists. In affected versions an authenticated customer can perform SQL injection. This issue is fixed in version 2.1.1. Users are advised to upgrade. There are no known workarounds for this issue.
 </code>
 
-- [MathiasReker/blmvuln](https://github.com/MathiasReker/blmvuln)
 - [karthikuj/CVE-2022-31101](https://github.com/karthikuj/CVE-2022-31101)
 
 ### CVE-2022-31138 (2022-07-11)
@@ -3187,6 +3197,7 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 </code>
 
 - [Expl0desploit/CVE-2022-32548](https://github.com/Expl0desploit/CVE-2022-32548)
+- [rftg1000/CVE-2022-32548-RCE-POC](https://github.com/rftg1000/CVE-2022-32548-RCE-POC)
 
 ### CVE-2022-32832
 - [Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832)
@@ -3281,6 +3292,7 @@ In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64
 An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug in nft_set_elem_init (leading to a buffer overflow) could be used by a local attacker to escalate privileges, a different vulnerability than CVE-2022-32250. (The attacker can obtain root access, but must start with an unprivileged user namespace to obtain CAP_NET_ADMIN access.) This can be fixed in nft_setelem_parse_data in net/netfilter/nf_tables_api.c.
 </code>
 
+- [randorisec/CVE-2022-34918-LPE-PoC](https://github.com/randorisec/CVE-2022-34918-LPE-PoC)
 - [trhacknon/CVE-2022-34918-LPE-PoC](https://github.com/trhacknon/CVE-2022-34918-LPE-PoC)
 - [merlinepedra25/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra25/CVE-2022-34918-LPE-PoC)
 - [merlinepedra/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra/CVE-2022-34918-LPE-PoC)
