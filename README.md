@@ -3335,6 +3335,14 @@ Joplin v2.8.8 allows attackers to execute arbitrary commands via a crafted paylo
 
 - [ly1g3/Joplin-CVE-2022-35131](https://github.com/ly1g3/Joplin-CVE-2022-35131)
 
+### CVE-2022-35405 (2022-07-19)
+
+<code>
+Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are vulnerable to unauthenticated remote code execution. (This also affects ManageEngine Access Manager Plus before 4303 with authentication.)
+</code>
+
+- [viniciuspereiras/CVE-2022-35405](https://github.com/viniciuspereiras/CVE-2022-35405)
+
 ### CVE-2022-35416 (2022-07-10)
 
 <code>
@@ -7051,6 +7059,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [timb-machine-mirrors/CVE-2021-42321_poc](https://github.com/timb-machine-mirrors/CVE-2021-42321_poc)
+- [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 
 ### CVE-2021-42327 (2021-10-21)
 
@@ -7304,7 +7313,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
-- [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
