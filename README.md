@@ -238,6 +238,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [yoeelingBin/CVE-2022-0847-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape)
 - [irwx777/CVE-2022-0847](https://github.com/irwx777/CVE-2022-0847)
 - [notl0cal/dpipe](https://github.com/notl0cal/dpipe)
+- [Gustavo-Nogueira/Dirty-Pipe-Exploits](https://github.com/Gustavo-Nogueira/Dirty-Pipe-Exploits)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -542,14 +543,6 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 - [pirenga/2022-LPE-UAF](https://github.com/pirenga/2022-LPE-UAF)
 - [konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF)
 
-### CVE-2022-2639 (2022-09-01)
-
-<code>
-An integer coercion error was found in the openvswitch kernel module. Given a sufficiently large number of actions, while copying and reserving memory for a new action of a new flow, the reserve_sfa_size() function does not return -EMSGSIZE as expected, potentially leading to an out-of-bounds write access. This flaw allows a local user to crash or potentially escalate their privileges on the system.
-</code>
-
-- [avboy1337/CVE-2022-2639-PipeVersion](https://github.com/avboy1337/CVE-2022-2639-PipeVersion)
-
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
@@ -605,14 +598,6 @@ In deletePackageX of DeletePackageHelper.java, there is a possible way for a Gue
 
 - [nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-](https://github.com/nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-)
 
-### CVE-2022-20126 (2022-06-15)
-
-<code>
-In setScanMode of AdapterService.java, there is a possible way to enable Bluetooth discovery mode without user interaction due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-203431023
-</code>
-
-- [Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126](https://github.com/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126)
-
 ### CVE-2022-20128
 - [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
 
@@ -657,15 +642,6 @@ In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possib
 
 - [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142)
 - [pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142)
-
-### CVE-2022-20186 (2022-06-15)
-
-<code>
-In kbase_mem_alias of mali_kbase_mem_linux.c, there is a possible arbitrary code execution due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-215001024References: N/A
-</code>
-
-- [s1204-inspect/CVE-2022-20186_CTXZ](https://github.com/s1204-inspect/CVE-2022-20186_CTXZ)
-- [SmileTabLabo/CVE-2022-20186_CTXZ](https://github.com/SmileTabLabo/CVE-2022-20186_CTXZ)
 
 ### CVE-2022-20223 (2022-07-13)
 
@@ -1678,7 +1654,6 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 - [XmasSnowISBACK/CVE-2022-24706](https://github.com/XmasSnowISBACK/CVE-2022-24706)
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
 - [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
-- [trhacknon/CVE-2022-24706-CouchDB-Exploit](https://github.com/trhacknon/CVE-2022-24706-CouchDB-Exploit)
 
 ### CVE-2022-24707 (2022-02-23)
 
@@ -2515,14 +2490,6 @@ Multiple SQL injection vulnerabilities via the username and password parameters 
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 - [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
 
-### CVE-2022-29078 (2022-04-25)
-
-<code>
-The ejs (aka Embedded JavaScript templates) package 3.1.6 for Node.js allows server-side template injection in settings[view options][outputFunctionName]. This is parsed as an internal option, and overwrites the outputFunctionName option with an arbitrary OS command (which is executed upon template compilation).
-</code>
-
-- [miko550/CVE-2022-29078](https://github.com/miko550/CVE-2022-29078)
-
 ### CVE-2022-29221 (2022-05-24)
 
 <code>
@@ -2580,7 +2547,6 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 </code>
 
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
-- [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
 
 ### CVE-2022-29464 (2022-04-18)
 
@@ -3257,7 +3223,6 @@ The Apache Spark UI offers the possibility to enable ACLs via the configuration 
 </code>
 
 - [W01fh4cker/cve-2022-33891](https://github.com/W01fh4cker/cve-2022-33891)
-- [HuskyHacks/cve-2022-33891](https://github.com/HuskyHacks/cve-2022-33891)
 - [west-wind/CVE-2022-33891](https://github.com/west-wind/CVE-2022-33891)
 - [AkbarTrilaksana/cve-2022-33891](https://github.com/AkbarTrilaksana/cve-2022-33891)
 - [llraudseppll/cve-2022-33891](https://github.com/llraudseppll/cve-2022-33891)
@@ -3293,7 +3258,6 @@ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Tr
 - [aeyesec/CVE-2022-34265](https://github.com/aeyesec/CVE-2022-34265)
 - [traumatising/CVE-2022-34265](https://github.com/traumatising/CVE-2022-34265)
 - [ZhaoQi99/CVE-2022-34265](https://github.com/ZhaoQi99/CVE-2022-34265)
-- [coco0x0a/CTF_CVE-2022-34265](https://github.com/coco0x0a/CTF_CVE-2022-34265)
 
 ### CVE-2022-34298 (2022-06-22)
 
@@ -3317,7 +3281,6 @@ In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64
 An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug in nft_set_elem_init (leading to a buffer overflow) could be used by a local attacker to escalate privileges, a different vulnerability than CVE-2022-32250. (The attacker can obtain root access, but must start with an unprivileged user namespace to obtain CAP_NET_ADMIN access.) This can be fixed in nft_setelem_parse_data in net/netfilter/nf_tables_api.c.
 </code>
 
-- [randorisec/CVE-2022-34918-LPE-PoC](https://github.com/randorisec/CVE-2022-34918-LPE-PoC)
 - [trhacknon/CVE-2022-34918-LPE-PoC](https://github.com/trhacknon/CVE-2022-34918-LPE-PoC)
 - [merlinepedra25/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra25/CVE-2022-34918-LPE-PoC)
 - [merlinepedra/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra/CVE-2022-34918-LPE-PoC)
@@ -3372,14 +3335,6 @@ Joplin v2.8.8 allows attackers to execute arbitrary commands via a crafted paylo
 
 - [ly1g3/Joplin-CVE-2022-35131](https://github.com/ly1g3/Joplin-CVE-2022-35131)
 
-### CVE-2022-35405 (2022-07-19)
-
-<code>
-Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are vulnerable to unauthenticated remote code execution. (This also affects ManageEngine Access Manager Plus before 4303 with authentication.)
-</code>
-
-- [viniciuspereiras/CVE-2022-35405](https://github.com/viniciuspereiras/CVE-2022-35405)
-
 ### CVE-2022-35416 (2022-07-10)
 
 <code>
@@ -3433,15 +3388,6 @@ software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
 </code>
 
 - [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
-- [emirpolatt/CVE-2022-36446](https://github.com/emirpolatt/CVE-2022-36446)
-
-### CVE-2022-36539 (2022-09-07)
-
-<code>
-WeDayCare B.V Ouderapp before v1.1.22 allows attackers to alter the ID value within intercepted calls to gain access to data of other parents and children.
-</code>
-
-- [Fopje/CVE-2022-36539](https://github.com/Fopje/CVE-2022-36539)
 
 ### CVE-2022-36804 (2022-08-25)
 
@@ -3497,14 +3443,6 @@ Blackboard Learn 1.10.1 allows remote authenticated users to read unintended fil
 </code>
 
 - [DayiliWaseem/CVE-2022-39196-](https://github.com/DayiliWaseem/CVE-2022-39196-)
-
-### CVE-2022-39838 (2022-09-05)
-
-<code>
-Systematic FIX Adapter (ALFAFX) 2.4.0.25 13/09/2017 allows remote file inclusion via a UNC share pathname, and also allows absolute path traversal to local pathnames.
-</code>
-
-- [jet-pentest/CVE-2022-39838](https://github.com/jet-pentest/CVE-2022-39838)
 
 ### CVE-2022-40297 (2022-09-08)
 
@@ -14823,6 +14761,14 @@ This improper access control vulnerability allows remote attackers to gain unaut
 
 - [cycraft-corp/cve-2019-7192-check](https://github.com/cycraft-corp/cve-2019-7192-check)
 - [th3gundy/CVE-2019-7192_QNAP_Exploit](https://github.com/th3gundy/CVE-2019-7192_QNAP_Exploit)
+
+### CVE-2019-7213 (2019-04-24)
+
+<code>
+SmarterTools SmarterMail 16.x before build 6985 allows directory traversal. An authenticated user could delete arbitrary files or could create files in new folders in arbitrary locations on the mail server. This could lead to command execution on the server for instance by putting files inside the web directories.
+</code>
+
+- [secunnix/CVE-2019-7213](https://github.com/secunnix/CVE-2019-7213)
 
 ### CVE-2019-7214 (2019-04-24)
 
