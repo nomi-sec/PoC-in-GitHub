@@ -3284,6 +3284,14 @@ In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64
 
 - [zeroc00I/CVE-2022-34305](https://github.com/zeroc00I/CVE-2022-34305)
 
+### CVE-2022-34715 (2022-08-09)
+
+<code>
+Windows Network File System Remote Code Execution Vulnerability.
+</code>
+
+- [Starssgo/CVE-2022-34715-POC](https://github.com/Starssgo/CVE-2022-34715-POC)
+
 ### CVE-2022-34918 (2022-07-04)
 
 <code>
@@ -13517,6 +13525,7 @@ In Apache Solr, the DataImportHandler, an optional but popular module to pull in
 - [jas502n/CVE-2019-0193](https://github.com/jas502n/CVE-2019-0193)
 - [1135/solr_exploit](https://github.com/1135/solr_exploit)
 - [jaychouzzk/CVE-2019-0193-exp](https://github.com/jaychouzzk/CVE-2019-0193-exp)
+- [jdr2021/ApacheSolrRCE](https://github.com/jdr2021/ApacheSolrRCE)
 
 ### CVE-2019-0211 (2019-04-08)
 
@@ -17042,6 +17051,7 @@ ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise 
 - [whokilleddb/CVE-2019-17662](https://github.com/whokilleddb/CVE-2019-17662)
 - [rajendrakumaryadav/CVE-2019-17662-Exploit](https://github.com/rajendrakumaryadav/CVE-2019-17662-Exploit)
 - [Tamagaft/CVE-2019-17662](https://github.com/Tamagaft/CVE-2019-17662)
+- [bl4ck574r/CVE-2019-17662](https://github.com/bl4ck574r/CVE-2019-17662)
 
 ### CVE-2019-17671 (2019-10-17)
 
