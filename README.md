@@ -126,7 +126,7 @@ CRLF Injection leads to Stack Trace Exposure due to lack of filtering at https:/
 ### CVE-2022-0725 (2022-03-07)
 
 <code>
-A flaw was found in KeePass. The vulnerability occurs due to logging the plain text passwords in the system log and leads to an Information Exposure vulnerability. This flaw allows an attacker to interact and read sensitive passwords and logs.
+A flaw was found in keepass. The vulnerability occurs due to logging the plain text passwords in system log and leads to an Information Exposure vulnerability. This flaw allows an attacker to interact and read sensitive passwords and logs.
 </code>
 
 - [ByteHackr/keepass_poc](https://github.com/ByteHackr/keepass_poc)
@@ -3376,6 +3376,9 @@ The Blink1Control2 application &lt;= 2.2.7 uses weak password encryption and an 
 </code>
 
 - [p1ckzi/CVE-2022-35513](https://github.com/p1ckzi/CVE-2022-35513)
+
+### CVE-2022-35841
+- [Wack0/CVE-2022-35841](https://github.com/Wack0/CVE-2022-35841)
 
 ### CVE-2022-35899 (2022-07-21)
 
