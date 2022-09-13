@@ -3406,6 +3406,7 @@ software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
 </code>
 
 - [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
+- [emirpolatt/CVE-2022-36446](https://github.com/emirpolatt/CVE-2022-36446)
 
 ### CVE-2022-36804 (2022-08-25)
 
@@ -3450,6 +3451,9 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 </code>
 
 - [JC175/CVE-2022-37177](https://github.com/JC175/CVE-2022-37177)
+
+### CVE-2022-37706
+- [MaherAzzouzi/CVE-2022-37706-LPE-exploit](https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit)
 
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
