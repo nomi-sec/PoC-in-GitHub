@@ -2516,6 +2516,14 @@ Multiple SQL injection vulnerabilities via the username and password parameters 
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 - [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
 
+### CVE-2022-29154 (2022-08-02)
+
+<code>
+An issue was discovered in rsync before 3.2.5 that allows malicious remote servers to write arbitrary files inside the directories of connecting peers. The server chooses which files/directories are sent to the client. However, the rsync client performs insufficient validation of file names. A malicious rsync server (or Man-in-The-Middle attacker) can overwrite arbitrary files in the rsync client target directory and subdirectories (for example, overwrite the .ssh/authorized_keys file).
+</code>
+
+- [EgeBalci/CVE-2022-29154](https://github.com/EgeBalci/CVE-2022-29154)
+
 ### CVE-2022-29221 (2022-05-24)
 
 <code>
@@ -3507,6 +3515,9 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
+
+### CVE-2022-38789
+- [ProxyStaffy/Airties-CVE-2022-38789](https://github.com/ProxyStaffy/Airties-CVE-2022-38789)
 
 ### CVE-2022-39196 (2022-09-04)
 
