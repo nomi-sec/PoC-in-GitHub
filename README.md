@@ -8712,14 +8712,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 - [okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC)
 
-### CVE-2020-0606 (2020-01-14)
-
-<code>
-A remote code execution vulnerability exists in .NET software when the software fails to check the source markup of a file.An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user, aka '.NET Framework Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0605.
-</code>
-
-- [5l1v3r1/CVE-2020-0606](https://github.com/5l1v3r1/CVE-2020-0606)
-
 ### CVE-2020-0609 (2020-01-14)
 
 <code>
@@ -9314,7 +9306,7 @@ In Apache ShardingSphere(incubator) 4.0.0-RC3 and 4.0.0, the ShardingSphere's we
 - [jas502n/CVE-2020-1947](https://github.com/jas502n/CVE-2020-1947)
 - [wsfengfan/CVE-2020-1947](https://github.com/wsfengfan/CVE-2020-1947)
 - [shadowsock5/ShardingSphere_CVE-2020-1947](https://github.com/shadowsock5/ShardingSphere_CVE-2020-1947)
-- [CraigChristmas/CVE-2020-1947](https://github.com/CraigChristmas/CVE-2020-1947)
+- [EdwardChristmas/CVE-2020-1947](https://github.com/EdwardChristmas/CVE-2020-1947)
 
 ### CVE-2020-1948 (2020-07-14)
 
@@ -9731,14 +9723,6 @@ In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the use
 </code>
 
 - [xMohamed0/CVE-2020-5504-phpMyAdmin](https://github.com/xMohamed0/CVE-2020-5504-phpMyAdmin)
-
-### CVE-2020-5509 (2020-01-14)
-
-<code>
-PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
-</code>
-
-- [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
 
 ### CVE-2020-5837 (2020-05-11)
 
@@ -10325,6 +10309,8 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 - [imjdl/CVE-2020-8515-PoC](https://github.com/imjdl/CVE-2020-8515-PoC)
 - [truerandom/nmap_draytek_rce](https://github.com/truerandom/nmap_draytek_rce)
 - [darrenmartyn/CVE-2020-8515](https://github.com/darrenmartyn/CVE-2020-8515)
+- [trhacknon/CVE-2020-8515](https://github.com/trhacknon/CVE-2020-8515)
+- [trhacknon/CVE-2020-8515-PoC](https://github.com/trhacknon/CVE-2020-8515-PoC)
 
 ### CVE-2020-8554 (2021-01-21)
 
@@ -12336,10 +12322,20 @@ Cross Site Request Forgery (CSRF) vulnerability exists in Intelliants Subrion CM
 
 - [hamm0nz/CVE-2020-18326](https://github.com/hamm0nz/CVE-2020-18326)
 
-### CVE-2020-19586
+### CVE-2020-19586 (2022-09-13)
+
+<code>
+Incorrect Access Control issue in Yellowfin Business Intelligence 7.3 allows remote attackers to escalate privilege via MIAdminStyles.i4 Admin UI.
+</code>
+
 - [Deepak983/CVE-2020-19586](https://github.com/Deepak983/CVE-2020-19586)
 
-### CVE-2020-19587
+### CVE-2020-19587 (2022-09-13)
+
+<code>
+Cross Site Scripting (XSS) vulnerability in configMap parameters in Yellowfin Business Intelligence 7.3 allows remote attackers to run arbitrary code via MIAdminStyles.i4 Admin UI.
+</code>
+
 - [Deepak983/CVE-2020-19587](https://github.com/Deepak983/CVE-2020-19587)
 
 ### CVE-2020-21224 (2021-02-22)
@@ -15336,6 +15332,7 @@ Stack-based buffer overflow in Free MP3 CD Ripper 2.6, when converting a file, a
 </code>
 
 - [moonheadobj/CVE-2019-9766](https://github.com/moonheadobj/CVE-2019-9766)
+- [zeronohacker/CVE-2019-9766](https://github.com/zeronohacker/CVE-2019-9766)
 
 ### CVE-2019-9787 (2019-03-14)
 
@@ -24965,7 +24962,6 @@ The overlayfs implementation in the linux (aka Linux kernel) package before 3.19
 - [SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328)
 - [notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328)
 - [0x1ns4n3/CVE-2015-1328-GoldenEye](https://github.com/0x1ns4n3/CVE-2015-1328-GoldenEye)
-- [poxicity/CVE-2015-1328](https://github.com/poxicity/CVE-2015-1328)
 
 ### CVE-2015-1397 (2015-04-29)
 
@@ -25792,7 +25788,6 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
 - [takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse)
 - [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
-- [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
 - [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
 - [amerine/coronary](https://github.com/amerine/coronary)
@@ -25801,7 +25796,6 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker)
 - [siddolo/knockbleed](https://github.com/siddolo/knockbleed)
 - [sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix)
-- [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
 - [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
 - [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
@@ -25927,7 +25921,6 @@ Buffer overflow in the Vcl.Graphics.TPicture.Bitmap implementation in the Visual
 
 ### CVE-2014-160
 - [menrcom/CVE-2014-160](https://github.com/menrcom/CVE-2014-160)
-- [GitMirar/heartbleed_exploit](https://github.com/GitMirar/heartbleed_exploit)
 
 ### CVE-2014-1266 (2014-02-22)
 
@@ -26034,7 +26027,6 @@ Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, all
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
-- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-2815 (2014-08-12)
 
