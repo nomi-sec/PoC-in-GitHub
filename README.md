@@ -692,6 +692,14 @@ In stealReceiveChannel of EventThread.cpp, there is a possible way to interfere 
 
 - [nidhi7598/frameworks_native_AOSP_10_r33_CVE-2022-20344](https://github.com/nidhi7598/frameworks_native_AOSP_10_r33_CVE-2022-20344)
 
+### CVE-2022-20347 (2022-08-09)
+
+<code>
+In onAttach of ConnectedDeviceDashboardFragment.java, there is a possible permission bypass due to a confused deputy. This could lead to remote escalation of privilege in Bluetooth settings with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-228450811
+</code>
+
+- [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347)
+
 ### CVE-2022-20360 (2022-08-09)
 
 <code>
@@ -3205,6 +3213,7 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 </code>
 
 - [Expl0desploit/CVE-2022-32548](https://github.com/Expl0desploit/CVE-2022-32548)
+- [Administrative2022/CVE-2022-32548-RCE](https://github.com/Administrative2022/CVE-2022-32548-RCE)
 
 ### CVE-2022-32832
 - [Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832)
@@ -3476,6 +3485,14 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 </code>
 
 - [JC175/CVE-2022-37177](https://github.com/JC175/CVE-2022-37177)
+
+### CVE-2022-37434 (2022-08-05)
+
+<code>
+zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).
+</code>
+
+- [nidhi7598/external_zlib-1.2.11_AOSP_10_r33_CVE-2022-37434](https://github.com/nidhi7598/external_zlib-1.2.11_AOSP_10_r33_CVE-2022-37434)
 
 ### CVE-2022-37703 (2022-09-13)
 
@@ -4111,6 +4128,14 @@ Possible use after free due to improper handling of memory mapping of multiple p
 </code>
 
 - [TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664](https://github.com/TAKIANFIF/CVE-2021-1905-CVE-2021-1906-CVE-2021-28663-CVE-2021-28664)
+
+### CVE-2021-1961 (2021-09-09)
+
+<code>
+Possible buffer overflow due to lack of offset length check while updating the buffer value in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
+</code>
+
+- [tamirzb/CVE-2021-1961](https://github.com/tamirzb/CVE-2021-1961)
 
 ### CVE-2021-1965 (2021-07-13)
 
@@ -7537,7 +7562,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
 - [dtact/divd-2021-00038--log4j-scanner](https://github.com/dtact/divd-2021-00038--log4j-scanner)
 - [Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228](https://github.com/Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228)
-- [infiniroot/nginx-mitigate-log4shell](https://github.com/infiniroot/nginx-mitigate-log4shell)
 - [authomize/log4j-log4shell-affected](https://github.com/authomize/log4j-log4shell-affected)
 - [guardicode/CVE-2021-44228_IoCs](https://github.com/guardicode/CVE-2021-44228_IoCs)
 - [nccgroup/log4j-jndi-be-gone](https://github.com/nccgroup/log4j-jndi-be-gone)
@@ -25788,6 +25812,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
 - [takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse)
 - [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
+- [zouguangxian/heartbleed](https://github.com/zouguangxian/heartbleed)
 - [sensepost/heartbleed-poc](https://github.com/sensepost/heartbleed-poc)
 - [proactiveRISK/heartbleed-extention](https://github.com/proactiveRISK/heartbleed-extention)
 - [amerine/coronary](https://github.com/amerine/coronary)
@@ -25796,6 +25821,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [waqasjamal-zz/HeartBleed-Vulnerability-Checker](https://github.com/waqasjamal-zz/HeartBleed-Vulnerability-Checker)
 - [siddolo/knockbleed](https://github.com/siddolo/knockbleed)
 - [sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix)
+- [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
 - [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
 - [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
@@ -25921,6 +25947,7 @@ Buffer overflow in the Vcl.Graphics.TPicture.Bitmap implementation in the Visual
 
 ### CVE-2014-160
 - [menrcom/CVE-2014-160](https://github.com/menrcom/CVE-2014-160)
+- [GitMirar/heartbleed_exploit](https://github.com/GitMirar/heartbleed_exploit)
 
 ### CVE-2014-1266 (2014-02-22)
 
@@ -26027,6 +26054,7 @@ Unspecified vulnerability in HP Operations Agent 11.00, when Glance is used, all
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
+- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-2815 (2014-08-12)
 
