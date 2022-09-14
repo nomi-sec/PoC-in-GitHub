@@ -369,6 +369,7 @@ The c_rehash script does not properly sanitise shell metacharacters to prevent c
 - [rama291041610/CVE-2022-1292](https://github.com/rama291041610/CVE-2022-1292)
 - [nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292](https://github.com/nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292)
 - [greek0x0/CVE-2022-1292](https://github.com/greek0x0/CVE-2022-1292)
+- [und3sc0n0c1d0/CVE-2022-1292](https://github.com/und3sc0n0c1d0/CVE-2022-1292)
 
 ### CVE-2022-1329 (2022-04-19)
 
@@ -650,6 +651,14 @@ In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possib
 
 - [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142)
 - [pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142)
+
+### CVE-2022-20186 (2022-06-15)
+
+<code>
+In kbase_mem_alias of mali_kbase_mem_linux.c, there is a possible arbitrary code execution due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-215001024References: N/A
+</code>
+
+- [SmileTabLabo/CVE-2022-20186_CTXZ](https://github.com/SmileTabLabo/CVE-2022-20186_CTXZ)
 
 ### CVE-2022-20223 (2022-07-13)
 
@@ -3377,7 +3386,12 @@ The Blink1Control2 application &lt;= 2.2.7 uses weak password encryption and an 
 
 - [p1ckzi/CVE-2022-35513](https://github.com/p1ckzi/CVE-2022-35513)
 
-### CVE-2022-35841
+### CVE-2022-35841 (2022-09-13)
+
+<code>
+Windows Enterprise App Management Service Remote Code Execution Vulnerability.
+</code>
+
 - [Wack0/CVE-2022-35841](https://github.com/Wack0/CVE-2022-35841)
 
 ### CVE-2022-35899 (2022-07-21)
@@ -3462,6 +3476,14 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 </code>
 
 - [JC175/CVE-2022-37177](https://github.com/JC175/CVE-2022-37177)
+
+### CVE-2022-37703 (2022-09-13)
+
+<code>
+In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUID binary. An attacker can abuse this vulnerability to know if a directory exists or not anywhere in the fs. The binary will use `opendir()` as root directly without checking the path, letting the attacker provide an arbitrary path.
+</code>
+
+- [MaherAzzouzi/CVE-2022-37703](https://github.com/MaherAzzouzi/CVE-2022-37703)
 
 ### CVE-2022-37706
 - [MaherAzzouzi/CVE-2022-37706-LPE-exploit](https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit)
