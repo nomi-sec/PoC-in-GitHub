@@ -2679,6 +2679,14 @@ An arbitrary file upload vulnerability in formidable v3.1.4 allows attackers to 
 
 - [TyeYeah/DIR-890L-1.20-RCE](https://github.com/TyeYeah/DIR-890L-1.20-RCE)
 
+### CVE-2022-29856 (2022-04-29)
+
+<code>
+A hardcoded cryptographic key in Automation360 22 allows an attacker to decrypt exported RPA packages.
+</code>
+
+- [Flo451/CVE-2022-29856-PoC](https://github.com/Flo451/CVE-2022-29856-PoC)
+
 ### CVE-2022-29885 (2022-05-12)
 
 <code>
@@ -3497,6 +3505,30 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 
 - [JC175/CVE-2022-37177](https://github.com/JC175/CVE-2022-37177)
 
+### CVE-2022-37201
+- [AgainstTheLight/CVE-2022-37201](https://github.com/AgainstTheLight/CVE-2022-37201)
+
+### CVE-2022-37202
+- [AgainstTheLight/CVE-2022-37202](https://github.com/AgainstTheLight/CVE-2022-37202)
+
+### CVE-2022-37203
+- [AgainstTheLight/CVE-2022-37203](https://github.com/AgainstTheLight/CVE-2022-37203)
+
+### CVE-2022-37204
+- [AgainstTheLight/CVE-2022-37204](https://github.com/AgainstTheLight/CVE-2022-37204)
+
+### CVE-2022-37205
+- [AgainstTheLight/CVE-2022-37205](https://github.com/AgainstTheLight/CVE-2022-37205)
+
+### CVE-2022-37206
+- [AgainstTheLight/CVE-2022-37206](https://github.com/AgainstTheLight/CVE-2022-37206)
+
+### CVE-2022-37207
+- [AgainstTheLight/CVE-2022-37207](https://github.com/AgainstTheLight/CVE-2022-37207)
+
+### CVE-2022-37208
+- [AgainstTheLight/CVE-2022-37208](https://github.com/AgainstTheLight/CVE-2022-37208)
+
 ### CVE-2022-37434 (2022-08-05)
 
 <code>
@@ -3519,7 +3551,12 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
 
-### CVE-2022-38789
+### CVE-2022-38789 (-)
+
+<code>
+An issue was discovered in Airties Smart Wi-Fi before 2020-08-04. It allows attackers to change the main/guest SSID and the PSK to arbitrary values, and map the LAN, because of Insecure Direct Object Reference.
+</code>
+
 - [ProxyStaffy/Airties-CVE-2022-38789](https://github.com/ProxyStaffy/Airties-CVE-2022-38789)
 
 ### CVE-2022-39196 (2022-09-04)
@@ -7040,6 +7077,12 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [pwn3z/CVE-2021-41773-Apache-RCE](https://github.com/pwn3z/CVE-2021-41773-Apache-RCE)
 - [EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-](https://github.com/EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-)
 - [Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773)
+- [mightysai1997/cve-2021-41773](https://github.com/mightysai1997/cve-2021-41773)
+- [mightysai1997/CVE-2021-41773h](https://github.com/mightysai1997/CVE-2021-41773h)
+- [mightysai1997/cve-2021-41773-v-](https://github.com/mightysai1997/cve-2021-41773-v-)
+- [mightysai1997/CVE-2021-41773-i-](https://github.com/mightysai1997/CVE-2021-41773-i-)
+- [mightysai1997/CVE-2021-41773-L-](https://github.com/mightysai1997/CVE-2021-41773-L-)
+- [mightysai1997/CVE-2021-41773-PoC](https://github.com/mightysai1997/CVE-2021-41773-PoC)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -7083,6 +7126,9 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [Adashz/CVE-2021-42013](https://github.com/Adashz/CVE-2021-42013)
 - [viliuspovilaika/cve-2021-42013](https://github.com/viliuspovilaika/cve-2021-42013)
 - [theykillmeslowly/CVE-2021-42013](https://github.com/theykillmeslowly/CVE-2021-42013)
+- [mightysai1997/cve-2021-42013](https://github.com/mightysai1997/cve-2021-42013)
+- [mightysai1997/cve-2021-42013L](https://github.com/mightysai1997/cve-2021-42013L)
+- [mightysai1997/cve-2021-42013.get](https://github.com/mightysai1997/cve-2021-42013.get)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -7579,8 +7625,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
-- [RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs](https://github.com/RedDrip7/Log4Shell_CVE-2021-44228_related_attacks_IOCs)
-- [blake-fm/vcenter-log4j](https://github.com/blake-fm/vcenter-log4j)
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
 - [dtact/divd-2021-00038--log4j-scanner](https://github.com/dtact/divd-2021-00038--log4j-scanner)
 - [Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228](https://github.com/Malwar3Ninja/Exploitation-of-Log4j2-CVE-2021-44228)
@@ -7606,7 +7650,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832](https://github.com/thedevappsecguy/Log4J-Mitigation-CVE-2021-44228--CVE-2021-45046--CVE-2021-45105--CVE-2021-44832)
 - [helsecert/CVE-2021-44228](https://github.com/helsecert/CVE-2021-44228)
 - [avwolferen/Sitecore.Solr-log4j-mitigation](https://github.com/avwolferen/Sitecore.Solr-log4j-mitigation)
-- [Camphul/log4shell-spring-framework-research](https://github.com/Camphul/log4shell-spring-framework-research)
 - [0xDexter0us/Log4J-Scanner](https://github.com/0xDexter0us/Log4J-Scanner)
 - [LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228](https://github.com/LutziGoz/Log4J_Exploitation-Vulnerabiliy__CVE-2021-44228)
 - [0xsyr0/Log4Shell](https://github.com/0xsyr0/Log4Shell)
@@ -7633,7 +7676,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
 - [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
-- [ab0x90/CVE-2021-44228_PoC](https://github.com/ab0x90/CVE-2021-44228_PoC)
 - [stripe/log4j-remediation-tools](https://github.com/stripe/log4j-remediation-tools)
 - [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
@@ -7643,17 +7685,14 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [jeremyrsellars/CVE-2021-44228_scanner](https://github.com/jeremyrsellars/CVE-2021-44228_scanner)
 - [JustinDPerkins/C1-WS-LOG4SHELL](https://github.com/JustinDPerkins/C1-WS-LOG4SHELL)
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
-- [rgl/log4j-log4shell-playground](https://github.com/rgl/log4j-log4shell-playground)
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
 - [KeysAU/Get-log4j-Windows.ps1](https://github.com/KeysAU/Get-log4j-Windows.ps1)
 - [kubearmor/log4j-CVE-2021-44228](https://github.com/kubearmor/log4j-CVE-2021-44228)
-- [jyotisahu98/logpresso-CVE-2021-44228-Scanner](https://github.com/jyotisahu98/logpresso-CVE-2021-44228-Scanner)
 - [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
 - [redhuntlabs/Log4JHunt](https://github.com/redhuntlabs/Log4JHunt)
 - [mss/log4shell-hotfix-side-effect](https://github.com/mss/log4shell-hotfix-side-effect)
 - [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
 - [MeterianHQ/log4j-vuln-coverage-check](https://github.com/MeterianHQ/log4j-vuln-coverage-check)
-- [sebiboga/jmeter-fix-cve-2021-44228-windows](https://github.com/sebiboga/jmeter-fix-cve-2021-44228-windows)
 - [mitiga/log4shell-cloud-scanner](https://github.com/mitiga/log4shell-cloud-scanner)
 - [isuruwa/Log4j](https://github.com/isuruwa/Log4j)
 - [honeynet/log4shell-data](https://github.com/honeynet/log4shell-data)
@@ -7944,14 +7983,6 @@ SuiteCRM before 7.12.2 and 8.x before 8.0.1 allows authenticated SQL injection v
 
 - [manuelz120/CVE-2021-45041](https://github.com/manuelz120/CVE-2021-45041)
 
-### CVE-2021-45043 (2021-12-15)
-
-<code>
-HD-Network Real-time Monitoring System 2.0 allows ../ directory traversal to read /etc/shadow via the /language/lang s_Language parameter.
-</code>
-
-- [crypt0g30rgy/cve-2021-45043](https://github.com/crypt0g30rgy/cve-2021-45043)
-
 ### CVE-2021-45046 (2021-12-14)
 
 <code>
@@ -7960,7 +7991,6 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 
 - [X1pe0/Log4J-Scan-Win](https://github.com/X1pe0/Log4J-Scan-Win)
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
-- [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 - [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
 - [pravin-pp/log4j2-CVE-2021-45046](https://github.com/pravin-pp/log4j2-CVE-2021-45046)
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
@@ -20047,6 +20077,15 @@ Foxit Reader before 9.2 and PhantomPDF before 9.2 have a Use-After-Free that lea
 
 - [payatu/CVE-2018-14442](https://github.com/payatu/CVE-2018-14442)
 - [sharmasandeepkr/PS-2018-002---CVE-2018-14442](https://github.com/sharmasandeepkr/PS-2018-002---CVE-2018-14442)
+
+### CVE-2018-14463 (2019-10-03)
+
+<code>
+The VRRP parser in tcpdump before 4.9.3 has a buffer over-read in print-vrrp.c:vrrp_print() for VRRP version 2, a different vulnerability than CVE-2019-15167.
+</code>
+
+- [nidhi7598/external_tcpdump_AOSP_10_r33_CVE-2018-14463](https://github.com/nidhi7598/external_tcpdump_AOSP_10_r33_CVE-2018-14463)
+- [nidhi7598/external_tcpdump-4.9.2_AOSP_10_r33_CVE-2018-14463](https://github.com/nidhi7598/external_tcpdump-4.9.2_AOSP_10_r33_CVE-2018-14463)
 
 ### CVE-2018-14634 (2018-09-25)
 
