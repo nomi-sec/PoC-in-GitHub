@@ -561,6 +561,9 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
 
+### CVE-2022-3506
+- [hackthebox-writeups/Sekhmet-HackTheBox-Writeup](https://github.com/hackthebox-writeups/Sekhmet-HackTheBox-Writeup)
+
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
 
@@ -2814,6 +2817,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Gra3s/CVE-2022-30190-Follina-PowerPoint-Version](https://github.com/Gra3s/CVE-2022-30190-Follina-PowerPoint-Version)
 - [EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-)
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
+- [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -3505,7 +3509,12 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 
 - [JC175/CVE-2022-37177](https://github.com/JC175/CVE-2022-37177)
 
-### CVE-2022-37201
+### CVE-2022-37201 (2022-09-15)
+
+<code>
+JFinal CMS 5.1.0 is vulnerable to SQL Injection.
+</code>
+
 - [AgainstTheLight/CVE-2022-37201](https://github.com/AgainstTheLight/CVE-2022-37201)
 
 ### CVE-2022-37202
@@ -3523,7 +3532,12 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 ### CVE-2022-37206
 - [AgainstTheLight/CVE-2022-37206](https://github.com/AgainstTheLight/CVE-2022-37206)
 
-### CVE-2022-37207
+### CVE-2022-37207 (2022-09-15)
+
+<code>
+JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection
+</code>
+
 - [AgainstTheLight/CVE-2022-37207](https://github.com/AgainstTheLight/CVE-2022-37207)
 
 ### CVE-2022-37208
@@ -3551,7 +3565,7 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
 
-### CVE-2022-38789 (-)
+### CVE-2022-38789 (2022-09-15)
 
 <code>
 An issue was discovered in Airties Smart Wi-Fi before 2020-08-04. It allows attackers to change the main/guest SSID and the PSK to arbitrary values, and map the LAN, because of Insecure Direct Object Reference.
@@ -3566,6 +3580,9 @@ Blackboard Learn 1.10.1 allows remote authenticated users to read unintended fil
 </code>
 
 - [DayiliWaseem/CVE-2022-39196-](https://github.com/DayiliWaseem/CVE-2022-39196-)
+
+### CVE-2022-39841
+- [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
 
 ### CVE-2022-40297 (2022-09-08)
 
@@ -4250,14 +4267,6 @@ Vulnerability in the Database Vault component of Oracle Database Server. Support
 </code>
 
 - [emad-almousa/CVE-2021-2175](https://github.com/emad-almousa/CVE-2021-2175)
-
-### CVE-2021-2394 (2021-07-20)
-
-<code>
-Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
-</code>
-
-- [fasanhlieu/CVE-2021-2394](https://github.com/fasanhlieu/CVE-2021-2394)
 
 ### CVE-2021-2456 (2021-07-20)
 
@@ -5291,14 +5300,6 @@ The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when s
 </code>
 
 - [dn9uy3n/Check-CVE-2021-23383](https://github.com/dn9uy3n/Check-CVE-2021-23383)
-
-### CVE-2021-23758 (2021-12-03)
-
-<code>
-All versions of package ajaxpro.2 are vulnerable to Deserialization of Untrusted Data due to the possibility of deserialization of arbitrary .NET classes, which can be abused to gain remote code execution.
-</code>
-
-- [numanturle/CVE-2021-23758-POC](https://github.com/numanturle/CVE-2021-23758-POC)
 
 ### CVE-2021-23841 (2021-02-16)
 
@@ -7083,6 +7084,9 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mightysai1997/CVE-2021-41773-i-](https://github.com/mightysai1997/CVE-2021-41773-i-)
 - [mightysai1997/CVE-2021-41773-L-](https://github.com/mightysai1997/CVE-2021-41773-L-)
 - [mightysai1997/CVE-2021-41773-PoC](https://github.com/mightysai1997/CVE-2021-41773-PoC)
+- [mightysai1997/CVE-2021-41773.git1](https://github.com/mightysai1997/CVE-2021-41773.git1)
+- [mightysai1997/CVE-2021-41773m](https://github.com/mightysai1997/CVE-2021-41773m)
+- [mightysai1997/CVE-2021-41773S](https://github.com/mightysai1997/CVE-2021-41773S)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -7336,7 +7340,7 @@ An issue was discovered in Plex Media Server through 1.24.4.5081-e362dc1ee. An a
 The SyncThru Web Service on Samsung SCX-6x55X printers allows an attacker to gain access to a list of SMB users and cleartext passwords by reading the HTML source code. Authentication is not required.
 </code>
 
-- [windsormoreira/CVE-2021-42913](https://github.com/windsormoreira/CVE-2021-42913)
+- [kernel-cyber/CVE-2021-42913](https://github.com/kernel-cyber/CVE-2021-42913)
 
 ### CVE-2021-42948
 - [dhammon/HotelDruid-CVE-2021-42948](https://github.com/dhammon/HotelDruid-CVE-2021-42948)
@@ -7687,7 +7691,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
 - [KeysAU/Get-log4j-Windows.ps1](https://github.com/KeysAU/Get-log4j-Windows.ps1)
-- [kubearmor/log4j-CVE-2021-44228](https://github.com/kubearmor/log4j-CVE-2021-44228)
 - [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
 - [redhuntlabs/Log4JHunt](https://github.com/redhuntlabs/Log4JHunt)
 - [mss/log4shell-hotfix-side-effect](https://github.com/mss/log4shell-hotfix-side-effect)
@@ -27971,6 +27974,7 @@ Multiple PHP remote file inclusion vulnerabilities in Advanced Comment System 1.
 </code>
 
 - [hupe1980/CVE-2009-4623](https://github.com/hupe1980/CVE-2009-4623)
+- [kernel-cyber/CVE-2009-4623](https://github.com/kernel-cyber/CVE-2009-4623)
 
 ### CVE-2009-4660 (2010-03-03)
 
@@ -28257,7 +28261,7 @@ Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function be
 - [IvanGlinkin/CVE-2006-3392](https://github.com/IvanGlinkin/CVE-2006-3392)
 - [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
 - [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
-- [windsormoreira/CVE-2006-3392](https://github.com/windsormoreira/CVE-2006-3392)
+- [kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392)
 
 ### CVE-2006-3592 (2006-07-14)
 
