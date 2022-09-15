@@ -535,6 +535,9 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 
 - [yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL](https://github.com/yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL)
 
+### CVE-2022-2546
+- [0xvinix/CVE-2022-2546](https://github.com/0xvinix/CVE-2022-2546)
+
 ### CVE-2022-2586
 - [aels/CVE-2022-2586-LPE](https://github.com/aels/CVE-2022-2586-LPE)
 
