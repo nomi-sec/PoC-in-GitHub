@@ -6113,6 +6113,14 @@ This issue was addressed with improved checks. This issue is fixed in macOS Big 
 
 - [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
 
+### CVE-2021-30858 (2021-08-24)
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in iOS 14.8 and iPadOS 14.8, macOS Big Sur 11.6. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
+</code>
+
+- [FitTerminator/PS4-CVE-202130858](https://github.com/FitTerminator/PS4-CVE-202130858)
+
 ### CVE-2021-30860 (2021-08-24)
 
 <code>
@@ -9254,7 +9262,6 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 - [Nekoox/zerologon](https://github.com/Nekoox/zerologon)
-- [lele8/CVE-2020-1472](https://github.com/lele8/CVE-2020-1472)
 - [Rvn0xsy/ZeroLogon](https://github.com/Rvn0xsy/ZeroLogon)
 
 ### CVE-2020-1473 (2020-08-17)
@@ -9264,6 +9271,14 @@ A remote code execution vulnerability exists when the Windows Jet Database Engin
 </code>
 
 - [30579096/CVE-2020-1473](https://github.com/30579096/CVE-2020-1473)
+
+### CVE-2020-1474 (2020-08-17)
+
+<code>
+An information disclosure vulnerability exists when the Windows Image Acquisition (WIA) Service improperly discloses contents of its memory, aka 'Windows Image Acquisition Service Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2020-1485.
+</code>
+
+- [zha0/CVE-2020-1474](https://github.com/zha0/CVE-2020-1474)
 
 ### CVE-2020-1493 (2020-08-17)
 
