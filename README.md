@@ -3333,6 +3333,14 @@ Windows Network File System Remote Code Execution Vulnerability.
 
 - [Starssgo/CVE-2022-34715-POC](https://github.com/Starssgo/CVE-2022-34715-POC)
 
+### CVE-2022-34729 (2022-09-13)
+
+<code>
+Windows GDI Elevation of Privilege Vulnerability.
+</code>
+
+- [Pwnrin/CVE-2022-34729](https://github.com/Pwnrin/CVE-2022-34729)
+
 ### CVE-2022-34918 (2022-07-04)
 
 <code>
