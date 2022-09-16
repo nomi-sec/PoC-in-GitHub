@@ -1434,6 +1434,15 @@ V8 javascript engine (heap vulnerability) can cause privilege escalation ,which 
 
 - [DavidBuchanan314/WAMpage](https://github.com/DavidBuchanan314/WAMpage)
 
+### CVE-2022-23773 (2022-02-10)
+
+<code>
+cmd/go in Go before 1.16.14 and 1.17.x before 1.17.7 can misinterpret branch names that falsely appear to be version tags. This can lead to incorrect access control if an actor is supposed to be able to create branches but not tags.
+</code>
+
+- [danbudris/CVE-2022-23773-repro](https://github.com/danbudris/CVE-2022-23773-repro)
+- [danbudris/CVE-2022-23773-repro-target](https://github.com/danbudris/CVE-2022-23773-repro-target)
+
 ### CVE-2022-23779 (2022-03-02)
 
 <code>
@@ -3253,6 +3262,9 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 - [Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832)
 - [AkbarTrilaksana/CVE-2022-32832](https://github.com/AkbarTrilaksana/CVE-2022-32832)
 
+### CVE-2022-32917
+- [Administrative2022/CVE-2022-32917-POC](https://github.com/Administrative2022/CVE-2022-32917-POC)
+
 ### CVE-2022-32988 (2022-06-30)
 
 <code>
@@ -3343,6 +3355,14 @@ Windows Network File System Remote Code Execution Vulnerability.
 </code>
 
 - [Starssgo/CVE-2022-34715-POC](https://github.com/Starssgo/CVE-2022-34715-POC)
+
+### CVE-2022-34718 (2022-09-13)
+
+<code>
+Windows TCP/IP Remote Code Execution Vulnerability.
+</code>
+
+- [Administrative2022/CVE-2022-34718-RCE-POC](https://github.com/Administrative2022/CVE-2022-34718-RCE-POC)
 
 ### CVE-2022-34729 (2022-09-13)
 
@@ -3483,6 +3503,14 @@ software/apt-lib.pl in Webmin before 1.997 lacks HTML escaping for a UI command.
 
 - [p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE](https://github.com/p0dalirius/CVE-2022-36446-Webmin-Software-Package-Updates-RCE)
 - [emirpolatt/CVE-2022-36446](https://github.com/emirpolatt/CVE-2022-36446)
+
+### CVE-2022-36532 (2022-09-15)
+
+<code>
+Bolt CMS contains a vulnerability in version 5.1.12 and below that allows an authenticated user with the ROLE_EDITOR privileges to upload and rename a malicious file to achieve remote code execution.
+</code>
+
+- [lutrasecurity/CVE-2022-36532](https://github.com/lutrasecurity/CVE-2022-36532)
 
 ### CVE-2022-36804 (2022-08-25)
 
@@ -7376,10 +7404,20 @@ The SyncThru Web Service on Samsung SCX-6x55X printers allows an attacker to gai
 
 - [kernel-cyber/CVE-2021-42913](https://github.com/kernel-cyber/CVE-2021-42913)
 
-### CVE-2021-42948
+### CVE-2021-42948 (2022-09-16)
+
+<code>
+HotelDruid Hotel Management Software v3.0.3 and below was discovered to have exposed session tokens in multiple links via GET parameters, allowing attackers to access user session id's.
+</code>
+
 - [dhammon/HotelDruid-CVE-2021-42948](https://github.com/dhammon/HotelDruid-CVE-2021-42948)
 
-### CVE-2021-42949
+### CVE-2021-42949 (2022-09-16)
+
+<code>
+The component controlla_login function in HotelDruid Hotel Management Software v3.0.3 generates a predictable session token, allowing attackers to bypass authentication via bruteforce attacks.
+</code>
+
 - [dhammon/HotelDruid-CVE-2021-42949](https://github.com/dhammon/HotelDruid-CVE-2021-42949)
 
 ### CVE-2021-43008 (2022-04-04)
@@ -9090,6 +9128,14 @@ A remote code execution vulnerability exists in the way that the Windows Graphic
 
 - [awsassets/CVE-2020-0883](https://github.com/awsassets/CVE-2020-0883)
 
+### CVE-2020-0887 (2020-03-12)
+
+<code>
+An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0788, CVE-2020-0877.
+</code>
+
+- [vinhthp1712/CVE-2020-0887](https://github.com/vinhthp1712/CVE-2020-0887)
+
 ### CVE-2020-0890 (2020-09-11)
 
 <code>
@@ -10093,7 +10139,6 @@ LinuxKI v6.0-1 and earlier is vulnerable to an remote code execution which is re
 A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An attacker can upload a malicious PHP code file via the profile photo functionality, by leveraging a path traversal vulnerability in the users['photop_preview'] delete photo feature, allowing bypass of .htaccess protection. NOTE: this issue exists because of an incomplete fix for CVE-2015-3884.
 </code>
 
-- [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
 - [arafatansari/SecAssignment](https://github.com/arafatansari/SecAssignment)
 
 ### CVE-2020-7247 (2020-01-29)
