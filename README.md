@@ -13918,6 +13918,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [5l1v3r1/CVE-2019-0708-DOS](https://github.com/5l1v3r1/CVE-2019-0708-DOS)
 - [offensity/CVE-2019-0708](https://github.com/offensity/CVE-2019-0708)
 - [Exploitspacks/CVE-2019-0708](https://github.com/Exploitspacks/CVE-2019-0708)
+- [Ravaan21/Bluekeep-Hunter](https://github.com/Ravaan21/Bluekeep-Hunter)
 
 ### CVE-2019-0709 (2019-06-12)
 
