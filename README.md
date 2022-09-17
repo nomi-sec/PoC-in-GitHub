@@ -517,7 +517,12 @@ A critical issue has been discovered in GitLab affecting all versions starting f
 - [safe3s/CVE-2022-2185-poc](https://github.com/safe3s/CVE-2022-2185-poc)
 - [ESUAdmin/CVE-2022-2185](https://github.com/ESUAdmin/CVE-2022-2185)
 
-### CVE-2022-2333
+### CVE-2022-2333 (2022-09-16)
+
+<code>
+If an attacker manages to trick a valid user into loading a malicious DLL, the attacker may be able to achieve code execution in Honeywell SoftMaster version 4.51 application’s context and permissions.
+</code>
+
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
 
 ### CVE-2022-2414 (2022-07-29)
@@ -561,9 +566,6 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
-
-### CVE-2022-3506
-- [hackthebox-writeups/Sekhmet-HackTheBox-Writeup](https://github.com/hackthebox-writeups/Sekhmet-HackTheBox-Writeup)
 
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
