@@ -3268,6 +3268,9 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 - [Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832)
 - [AkbarTrilaksana/CVE-2022-32832](https://github.com/AkbarTrilaksana/CVE-2022-32832)
 
+### CVE-2022-32883
+- [breakpointHQ/CVE-2022-32883](https://github.com/breakpointHQ/CVE-2022-32883)
+
 ### CVE-2022-32917
 - [Administrative2022/CVE-2022-32917-POC](https://github.com/Administrative2022/CVE-2022-32917-POC)
 
