@@ -1530,6 +1530,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [oK0mo/CVE-2022-24086-RCE-PoC](https://github.com/oK0mo/CVE-2022-24086-RCE-PoC)
 - [seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087)
 - [jturner786/magento-CVE-2022-24086](https://github.com/jturner786/magento-CVE-2022-24086)
+- [N0pch/CVE-2022-24086-magento-rce](https://github.com/N0pch/CVE-2022-24086-magento-rce)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -1706,6 +1707,7 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 - [XmasSnowISBACK/CVE-2022-24706](https://github.com/XmasSnowISBACK/CVE-2022-24706)
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
 - [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
+- [trhacknon/CVE-2022-24706-CouchDB-Exploit](https://github.com/trhacknon/CVE-2022-24706-CouchDB-Exploit)
 
 ### CVE-2022-24707 (2022-02-23)
 
@@ -3619,6 +3621,7 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 
 ### CVE-2022-37706
 - [MaherAzzouzi/CVE-2022-37706-LPE-exploit](https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit)
+- [ECU-10525611-Xander/CVE-2022-37706](https://github.com/ECU-10525611-Xander/CVE-2022-37706)
 
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
