@@ -552,6 +552,7 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 - [ASkyeye/2022-LPE-UAF](https://github.com/ASkyeye/2022-LPE-UAF)
 - [pirenga/2022-LPE-UAF](https://github.com/pirenga/2022-LPE-UAF)
 - [konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF)
+- [sang-chu/CVE-2022-2588](https://github.com/sang-chu/CVE-2022-2588)
 
 ### CVE-2022-2639 (2022-09-01)
 
@@ -615,6 +616,14 @@ In deletePackageX of DeletePackageHelper.java, there is a possible way for a Gue
 </code>
 
 - [nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-](https://github.com/nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-)
+
+### CVE-2022-20126 (2022-06-15)
+
+<code>
+In setScanMode of AdapterService.java, there is a possible way to enable Bluetooth discovery mode without user interaction due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-203431023
+</code>
+
+- [Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126](https://github.com/Trinadh465/packages_apps_Bluetooth_AOSP10_r33_CVE-2022-20126)
 
 ### CVE-2022-20128
 - [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
