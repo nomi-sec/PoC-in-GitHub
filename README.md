@@ -239,6 +239,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [irwx777/CVE-2022-0847](https://github.com/irwx777/CVE-2022-0847)
 - [notl0cal/dpipe](https://github.com/notl0cal/dpipe)
 - [Gustavo-Nogueira/Dirty-Pipe-Exploits](https://github.com/Gustavo-Nogueira/Dirty-Pipe-Exploits)
+- [trhacknon/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/trhacknon/CVE-2022-0847-DirtyPipe-Exploit)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -3174,6 +3175,9 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 
 - [buff07/CVE-2022-31403](https://github.com/buff07/CVE-2022-31403)
 
+### CVE-2022-31474
+- [Administrative2022/CVE-2022-31474-wordpress](https://github.com/Administrative2022/CVE-2022-31474-wordpress)
+
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 - [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
@@ -3634,6 +3638,9 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 ### CVE-2022-37706
 - [MaherAzzouzi/CVE-2022-37706-LPE-exploit](https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit)
 - [ECU-10525611-Xander/CVE-2022-37706](https://github.com/ECU-10525611-Xander/CVE-2022-37706)
+
+### CVE-2022-38217
+- [SupremacyTeam/evilReveal](https://github.com/SupremacyTeam/evilReveal)
 
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
@@ -6686,6 +6693,7 @@ Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (
 A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation, attacker can exploit the vulnerability to launch a command injection attack by sending some messages with malicious commands.
 </code>
 
+- [rabbitsafe/CVE-2021-36260](https://github.com/rabbitsafe/CVE-2021-36260)
 - [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
 
 ### CVE-2021-36460 (2022-04-25)
@@ -7798,7 +7806,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
 - [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
 - [VerveIndustrialProtection/CVE-2021-44228-Log4j](https://github.com/VerveIndustrialProtection/CVE-2021-44228-Log4j)
-- [alenazi90/log4j](https://github.com/alenazi90/log4j)
 - [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
 - [LiveOverflow/log4shell](https://github.com/LiveOverflow/log4shell)
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
