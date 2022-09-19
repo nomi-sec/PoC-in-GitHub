@@ -3190,6 +3190,14 @@ do_request in request.c in muhttpd before 1.1.7 allows remote attackers to read 
 
 - [xpgdgit/CVE-2022-31793](https://github.com/xpgdgit/CVE-2022-31793)
 
+### CVE-2022-31814 (2022-09-05)
+
+<code>
+pfSense pfBlockerNG through 2.1.4_26 allows remote attackers to execute arbitrary OS commands as root via shell metacharacters in the HTTP Host header. NOTE: 3.x is unaffected.
+</code>
+
+- [EvergreenCartoons/SenselessViolence](https://github.com/EvergreenCartoons/SenselessViolence)
+
 ### CVE-2022-31854 (2022-07-07)
 
 <code>
@@ -3543,8 +3551,11 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 
 - [cryptolakk/CVE-2022-36804-RCE](https://github.com/cryptolakk/CVE-2022-36804-RCE)
 - [CEOrbey/CVE-2022-36804-POC](https://github.com/CEOrbey/CVE-2022-36804-POC)
+- [notdls/CVE-2022-36804](https://github.com/notdls/CVE-2022-36804)
 - [CEOrbey/CVE-2022-36804-MASS-RCE](https://github.com/CEOrbey/CVE-2022-36804-MASS-RCE)
 - [CEOrbey/CVE-2022-36804-RCE](https://github.com/CEOrbey/CVE-2022-36804-RCE)
+- [CEOrbey/CVE-2022-36804-POC-RCE](https://github.com/CEOrbey/CVE-2022-36804-POC-RCE)
+- [notxesh/CVE-2022-36804-PoC](https://github.com/notxesh/CVE-2022-36804-PoC)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -3591,7 +3602,12 @@ JFinal CMS 5.1.0 is vulnerable to SQL Injection.
 ### CVE-2022-37202
 - [AgainstTheLight/CVE-2022-37202](https://github.com/AgainstTheLight/CVE-2022-37202)
 
-### CVE-2022-37203
+### CVE-2022-37203 (2022-09-19)
+
+<code>
+JFinal CMS 5.1.0 is vulnerable to SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection.
+</code>
+
 - [AgainstTheLight/CVE-2022-37203](https://github.com/AgainstTheLight/CVE-2022-37203)
 
 ### CVE-2022-37204
