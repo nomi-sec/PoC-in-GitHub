@@ -719,6 +719,7 @@ In onAttach of ConnectedDeviceDashboardFragment.java, there is a possible permis
 
 - [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347)
 - [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347)
+- [nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20347](https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20347)
 
 ### CVE-2022-20360 (2022-08-09)
 
@@ -3557,6 +3558,8 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [CEOrbey/CVE-2022-36804-POC-RCE](https://github.com/CEOrbey/CVE-2022-36804-POC-RCE)
 - [notxesh/CVE-2022-36804-PoC](https://github.com/notxesh/CVE-2022-36804-PoC)
 - [BenHays142/CVE-2022-36804-PoC-Exploit](https://github.com/BenHays142/CVE-2022-36804-PoC-Exploit)
+- [Vulnmachines/bitbucket-cve-2022-36804](https://github.com/Vulnmachines/bitbucket-cve-2022-36804)
+- [N0pch/CVE-2022-36804-mass-rce](https://github.com/N0pch/CVE-2022-36804-mass-rce)
 
 ### CVE-2022-36946 (2022-07-27)
 
