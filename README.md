@@ -755,6 +755,15 @@ A vulnerability in the packaging of Cisco Adaptive Security Device Manager (ASDM
 
 - [jbaines-r7/theway](https://github.com/jbaines-r7/theway)
 
+### CVE-2022-20841 (2022-08-10)
+
+<code>
+Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an unauthenticated, remote attacker to execute arbitrary code or cause a denial of service (DoS) condition on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.
+</code>
+
+- [Expl0desploit/CVE-2022-20841](https://github.com/Expl0desploit/CVE-2022-20841)
+- [Zerf0X/CVE-2022-20841-RCE](https://github.com/Zerf0X/CVE-2022-20841-RCE)
+
 ### CVE-2022-20866 (2022-08-10)
 
 <code>
@@ -3579,6 +3588,14 @@ Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality tha
 - [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
 - [aels/CVE-2022-37042](https://github.com/aels/CVE-2022-37042)
 
+### CVE-2022-37059 (2022-08-29)
+
+<code>
+Cross Site Scripting (XSS) in Admin Panel of Subrion CMS 4.2.1 allows attacker to inject arbitrary code via Login Field
+</code>
+
+- [RashidKhanPathan/Security-Research](https://github.com/RashidKhanPathan/Security-Research)
+
 ### CVE-2022-37153 (2022-08-24)
 
 <code>
@@ -3614,10 +3631,20 @@ JFinal CMS 5.1.0 is vulnerable to SQL Injection. These interfaces do not use the
 
 - [AgainstTheLight/CVE-2022-37203](https://github.com/AgainstTheLight/CVE-2022-37203)
 
-### CVE-2022-37204
+### CVE-2022-37204 (2022-09-20)
+
+<code>
+Final CMS 5.1.0 is vulnerable to SQL Injection.
+</code>
+
 - [AgainstTheLight/CVE-2022-37204](https://github.com/AgainstTheLight/CVE-2022-37204)
 
-### CVE-2022-37205
+### CVE-2022-37205 (-)
+
+<code>
+JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection.
+</code>
+
 - [AgainstTheLight/CVE-2022-37205](https://github.com/AgainstTheLight/CVE-2022-37205)
 
 ### CVE-2022-37206
@@ -3662,6 +3689,9 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 
 ### CVE-2022-38217
 - [SupremacyTeam/evilReveal](https://github.com/SupremacyTeam/evilReveal)
+
+### CVE-2022-38553
+- [4websecurity/CVE-2022-38553](https://github.com/4websecurity/CVE-2022-38553)
 
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
@@ -5310,7 +5340,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [c0okB/CVE-2021-22205](https://github.com/c0okB/CVE-2021-22205)
 - [inspiringz/CVE-2021-22205](https://github.com/inspiringz/CVE-2021-22205)
 - [w0x68y/Gitlab-CVE-2021-22205](https://github.com/w0x68y/Gitlab-CVE-2021-22205)
-- [GitLab-Red-Team/cve-2021-22205-hash-harvester](https://github.com/GitLab-Red-Team/cve-2021-22205-hash-harvester)
+- [GitLab-Red-Team/cve-hash-harvester](https://github.com/GitLab-Red-Team/cve-hash-harvester)
 - [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
 - [keven1z/CVE-2021-22205](https://github.com/keven1z/CVE-2021-22205)
@@ -15414,7 +15444,7 @@ SQL injection vulnerability in the J2Store plugin 3.x before 3.3.7 for Joomla! a
 ** DISPUTED ** In PostgreSQL 9.3 through 11.2, the &quot;COPY TO/FROM PROGRAM&quot; function allows superusers and users in the 'pg_execute_server_program' group to execute arbitrary code in the context of the database's operating system user. This functionality is enabled by default and can be abused to run arbitrary operating system commands on Windows, Linux, and macOS. NOTE: Third parties claim/state this is not an issue because PostgreSQL functionality for ‘COPY TO/FROM PROGRAM’ is acting as intended. References state that in PostgreSQL, a superuser can execute commands as the server user without using the ‘COPY FROM PROGRAM’.
 </code>
 
-- [wkjung0624/CVE-2019-9193](https://github.com/wkjung0624/CVE-2019-9193)
+- [wkjung0624/cve-2019-9193](https://github.com/wkjung0624/cve-2019-9193)
 - [b4keSn4ke/CVE-2019-9193](https://github.com/b4keSn4ke/CVE-2019-9193)
 
 ### CVE-2019-9194 (2019-02-26)
