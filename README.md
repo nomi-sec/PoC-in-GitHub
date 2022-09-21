@@ -3703,6 +3703,14 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 ### CVE-2022-38553
 - [4websecurity/CVE-2022-38553](https://github.com/4websecurity/CVE-2022-38553)
 
+### CVE-2022-38577 (2022-09-19)
+
+<code>
+ProcessMaker before v3.5.4 was discovered to contain insecure permissions in the user profile page. This vulnerability allows attackers to escalate normal users to Administrators.
+</code>
+
+- [sornram9254/CVE-2022-38577-Processmaker](https://github.com/sornram9254/CVE-2022-38577-Processmaker)
+
 ### CVE-2022-38766
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
 
@@ -3721,6 +3729,9 @@ Blackboard Learn 1.10.1 allows remote authenticated users to read unintended fil
 </code>
 
 - [DayiliWaseem/CVE-2022-39196-](https://github.com/DayiliWaseem/CVE-2022-39196-)
+
+### CVE-2022-39197
+- [safe3s/CVE-2022-39197](https://github.com/safe3s/CVE-2022-39197)
 
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
