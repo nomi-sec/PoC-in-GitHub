@@ -3300,10 +3300,20 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 - [Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832)
 - [AkbarTrilaksana/CVE-2022-32832](https://github.com/AkbarTrilaksana/CVE-2022-32832)
 
-### CVE-2022-32883
+### CVE-2022-32883 (2022-09-20)
+
+<code>
+A logic issue was addressed with improved restrictions. This issue is fixed in macOS Monterey 12.6, iOS 15.7 and iPadOS 15.7, iOS 16, macOS Big Sur 11.7. An app may be able to read sensitive location information.
+</code>
+
 - [breakpointHQ/CVE-2022-32883](https://github.com/breakpointHQ/CVE-2022-32883)
 
-### CVE-2022-32917
+### CVE-2022-32917 (2022-09-20)
+
+<code>
+The issue was addressed with improved bounds checks. This issue is fixed in macOS Monterey 12.6, iOS 15.7 and iPadOS 15.7, iOS 16, macOS Big Sur 11.7. An application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited..
+</code>
+
 - [Administrative2022/CVE-2022-32917-POC](https://github.com/Administrative2022/CVE-2022-32917-POC)
 
 ### CVE-2022-32988 (2022-06-30)
@@ -3639,7 +3649,7 @@ Final CMS 5.1.0 is vulnerable to SQL Injection.
 
 - [AgainstTheLight/CVE-2022-37204](https://github.com/AgainstTheLight/CVE-2022-37204)
 
-### CVE-2022-37205 (-)
+### CVE-2022-37205 (2022-09-20)
 
 <code>
 JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection.
