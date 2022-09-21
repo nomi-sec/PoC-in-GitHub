@@ -3579,6 +3579,7 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [BenHays142/CVE-2022-36804-PoC-Exploit](https://github.com/BenHays142/CVE-2022-36804-PoC-Exploit)
 - [Vulnmachines/bitbucket-cve-2022-36804](https://github.com/Vulnmachines/bitbucket-cve-2022-36804)
 - [N0pch/CVE-2022-36804-mass-rce](https://github.com/N0pch/CVE-2022-36804-mass-rce)
+- [kljunowsky/CVE-2022-36804-POC](https://github.com/kljunowsky/CVE-2022-36804-POC)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -7803,7 +7804,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
 - [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
-- [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
@@ -8042,6 +8042,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [eurogig/jankybank](https://github.com/eurogig/jankybank)
 - [digital-dev/Log4j-CVE-2021-44228-Remediation](https://github.com/digital-dev/Log4j-CVE-2021-44228-Remediation)
 - [Administrative2022/CVE-2021-44228-RCE](https://github.com/Administrative2022/CVE-2021-44228-RCE)
+- [ocastel/log4j-shell-poc](https://github.com/ocastel/log4j-shell-poc)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
@@ -19857,6 +19858,7 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [j4k0m/CVE-2018-11235](https://github.com/j4k0m/CVE-2018-11235)
 - [twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration](https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration)
 - [SenSecurity/exploit](https://github.com/SenSecurity/exploit)
+- [EmaVirgRep/CVE-2018-11235](https://github.com/EmaVirgRep/CVE-2018-11235)
 
 ### CVE-2018-11236 (2018-05-18)
 
@@ -25683,6 +25685,7 @@ Directory traversal vulnerability in Elasticsearch before 1.6.1 allows remote at
 </code>
 
 - [xpgdgit/CVE-2015-5531](https://github.com/xpgdgit/CVE-2015-5531)
+- [j-jasson/CVE-2015-5531-POC](https://github.com/j-jasson/CVE-2015-5531-POC)
 
 ### CVE-2015-5602 (2015-11-17)
 
@@ -25955,6 +25958,7 @@ Joomla! 1.5.x, 2.x, and 3.x before 3.4.6 allow remote attackers to conduct PHP o
 - [xnorkl/Joomla_Payload](https://github.com/xnorkl/Joomla_Payload)
 - [guanjivip/CVE-2015-8562](https://github.com/guanjivip/CVE-2015-8562)
 - [lorenzodegiorgi/setup-cve-2015-8562](https://github.com/lorenzodegiorgi/setup-cve-2015-8562)
+- [Caihuar/Joomla-cve-2015-8562](https://github.com/Caihuar/Joomla-cve-2015-8562)
 
 ### CVE-2015-8651 (2015-12-28)
 
