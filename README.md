@@ -3382,6 +3382,7 @@ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Tr
 - [aeyesec/CVE-2022-34265](https://github.com/aeyesec/CVE-2022-34265)
 - [traumatising/CVE-2022-34265](https://github.com/traumatising/CVE-2022-34265)
 - [ZhaoQi99/CVE-2022-34265](https://github.com/ZhaoQi99/CVE-2022-34265)
+- [coco0x0a/CTF_Django_CVE-2022-34265](https://github.com/coco0x0a/CTF_Django_CVE-2022-34265)
 
 ### CVE-2022-34298 (2022-06-22)
 
@@ -10247,6 +10248,7 @@ A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An a
 
 - [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
 - [arafatansari/SecAssignment](https://github.com/arafatansari/SecAssignment)
+- [pswalia2u/CVE-2020-7246](https://github.com/pswalia2u/CVE-2020-7246)
 
 ### CVE-2020-7247 (2020-01-29)
 
@@ -11890,14 +11892,6 @@ FasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-14195](https://github.com/Al1ex/CVE-2020-14195)
-
-### CVE-2020-14199 (2020-06-16)
-
-<code>
-BIP-143 in the Bitcoin protocol specification mishandles the signing of a Segwit transaction, which allows attackers to trick a user into making two signatures in certain cases, potentially leading to a huge transaction fee. NOTE: this affects all hardware wallets. It was fixed in 1.9.1 for the Trezor One and 2.3.1 for the Trezor Model T.
-</code>
-
-- [nondejus/CVE-2020-14199](https://github.com/nondejus/CVE-2020-14199)
 
 ### CVE-2020-14210 (2020-06-16)
 
@@ -14217,7 +14211,7 @@ A remote code execution vulnerability exists in Remote Desktop Services â€“
 A remote code execution vulnerability exists in Microsoft Word software when it fails to properly handle objects in memory, aka 'Microsoft Word Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1201.
 </code>
 
-- [razordeveloper/CVE-2019-1205](https://github.com/razordeveloper/CVE-2019-1205)
+- [info4mationprivate8tools/CVE-2019-1205](https://github.com/info4mationprivate8tools/CVE-2019-1205)
 
 ### CVE-2019-1215 (2019-09-11)
 
@@ -21214,14 +21208,6 @@ The WSDL import functionality in SmartBear ReadyAPI 2.5.0 and 2.6.0 allows remot
 
 - [gscamelo/CVE-2018-20580](https://github.com/gscamelo/CVE-2018-20580)
 
-### CVE-2018-20586 (2020-03-12)
-
-<code>
-bitcoind and Bitcoin-Qt prior to 0.17.1 allow injection of arbitrary data into the debug log via an RPC call.
-</code>
-
-- [nondejus/CVE-2018-20586](https://github.com/nondejus/CVE-2018-20586)
-
 ### CVE-2018-20718 (2019-01-15)
 
 <code>
@@ -23169,14 +23155,6 @@ Multiple cross-site request forgery (CSRF) vulnerabilities in NexusPHP 1.5 allow
 </code>
 
 - [ZZS2017/cve-2017-12792](https://github.com/ZZS2017/cve-2017-12792)
-
-### CVE-2017-12842 (2020-03-16)
-
-<code>
-Bitcoin Core before 0.14 allows an attacker to create an ostensibly valid SPV proof for a payment to a victim who uses an SPV wallet, even if that payment did not actually occur. Completing the attack would cost more than a million dollars, and is relevant mainly only in situations where an autonomous system relies solely on an SPV proof for transactions of a greater dollar amount.
-</code>
-
-- [nondejus/CVE-2017-12842](https://github.com/nondejus/CVE-2017-12842)
 
 ### CVE-2017-12852 (2017-08-15)
 
@@ -27242,14 +27220,6 @@ Cross-site scripting (XSS) vulnerability in the web-based device-management API 
 
 - [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
 
-### CVE-2013-5700 (2013-09-10)
-
-<code>
-The Bloom Filter implementation in bitcoind and Bitcoin-Qt 0.8.x before 0.8.4rc1 allows remote attackers to cause a denial of service (divide-by-zero error and daemon crash) via a crafted sequence of messages.
-</code>
-
-- [nondejus/CVE-2013-5700](https://github.com/nondejus/CVE-2013-5700)
-
 ### CVE-2013-5842 (2013-10-16)
 
 <code>
@@ -28389,6 +28359,14 @@ PHP remote file inclusion in main.php in ISS Proventia Network IPS GX5108 1.3 an
 </code>
 
 - [alt3kx/CVE-2007-3831](https://github.com/alt3kx/CVE-2007-3831)
+
+### CVE-2007-4559 (2007-08-27)
+
+<code>
+Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
+</code>
+
+- [advanced-threat-research/Creosote](https://github.com/advanced-threat-research/Creosote)
 
 ### CVE-2007-4607 (2007-08-30)
 
