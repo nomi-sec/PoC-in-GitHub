@@ -7858,7 +7858,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
 - [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
-- [stripe/log4j-remediation-tools](https://github.com/stripe/log4j-remediation-tools)
 - [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
@@ -8044,6 +8043,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [digital-dev/Log4j-CVE-2021-44228-Remediation](https://github.com/digital-dev/Log4j-CVE-2021-44228-Remediation)
 - [Administrative2022/CVE-2021-44228-RCE](https://github.com/Administrative2022/CVE-2021-44228-RCE)
 - [ocastel/log4j-shell-poc](https://github.com/ocastel/log4j-shell-poc)
+- [bcdunbar/CVE-2021-44228-poc](https://github.com/bcdunbar/CVE-2021-44228-poc)
 
 ### CVE-2021-44229
 - [awsassets/CVE-2021-44229](https://github.com/awsassets/CVE-2021-44229)
@@ -19016,7 +19016,6 @@ An issue was discovered in CloudMe before 1.11.0. An unauthenticated remote atta
 - [manojcode/CloudMe-Sync-1.10.9---Buffer-Overflow-SEH-DEP-Bypass](https://github.com/manojcode/CloudMe-Sync-1.10.9---Buffer-Overflow-SEH-DEP-Bypass)
 - [manojcode/-Win10-x64-CloudMe-Sync-1.10.9-Buffer-Overflow-SEH-DEP-Bypass](https://github.com/manojcode/-Win10-x64-CloudMe-Sync-1.10.9-Buffer-Overflow-SEH-DEP-Bypass)
 - [latortuga71/CVE-2018-6892-Golang](https://github.com/latortuga71/CVE-2018-6892-Golang)
-- [crypticq/CLOUDME_B0F](https://github.com/crypticq/CLOUDME_B0F)
 
 ### CVE-2018-6905 (2018-04-08)
 
