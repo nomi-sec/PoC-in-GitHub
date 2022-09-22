@@ -3732,7 +3732,13 @@ Blackboard Learn 1.10.1 allows remote authenticated users to read unintended fil
 
 - [DayiliWaseem/CVE-2022-39196-](https://github.com/DayiliWaseem/CVE-2022-39196-)
 
-### CVE-2022-39197
+### CVE-2022-39197 (2022-09-21)
+
+<code>
+An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Strike through 4.7 that allowed a remote attacker to execute HTML on the Cobalt Strike teamserver. To exploit the vulnerability, one must first inspect a Cobalt Strike payload, and then modify the username field in the payload (or create a new payload with the extracted information and then modify that username field to be malformed).
+</code>
+
+- [lovechoudoufu/cobaltstrike4.5_cdf](https://github.com/lovechoudoufu/cobaltstrike4.5_cdf)
 - [safe3s/CVE-2022-39197](https://github.com/safe3s/CVE-2022-39197)
 
 ### CVE-2022-39841
