@@ -2654,6 +2654,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
 - [awsassets/WSO2RCE](https://github.com/awsassets/WSO2RCE)
 - [Blackyguy/-CVE-2022-29464](https://github.com/Blackyguy/-CVE-2022-29464)
+- [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -3545,15 +3546,14 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 </code>
 
 - [cryptolakk/CVE-2022-36804-RCE](https://github.com/cryptolakk/CVE-2022-36804-RCE)
-- [CEOrbey/CVE-2022-36804-POC](https://github.com/CEOrbey/CVE-2022-36804-POC)
 - [notdls/CVE-2022-36804](https://github.com/notdls/CVE-2022-36804)
 - [CEOrbey/CVE-2022-36804-MASS-RCE](https://github.com/CEOrbey/CVE-2022-36804-MASS-RCE)
-- [CEOrbey/CVE-2022-36804-RCE](https://github.com/CEOrbey/CVE-2022-36804-RCE)
-- [CEOrbey/CVE-2022-36804-POC-RCE](https://github.com/CEOrbey/CVE-2022-36804-POC-RCE)
+- [CEOrbey/CVE-2022-36804-POC](https://github.com/CEOrbey/CVE-2022-36804-POC)
 - [notxesh/CVE-2022-36804-PoC](https://github.com/notxesh/CVE-2022-36804-PoC)
 - [BenHays142/CVE-2022-36804-PoC-Exploit](https://github.com/BenHays142/CVE-2022-36804-PoC-Exploit)
 - [Vulnmachines/bitbucket-cve-2022-36804](https://github.com/Vulnmachines/bitbucket-cve-2022-36804)
 - [N0pch/CVE-2022-36804-mass-rce](https://github.com/N0pch/CVE-2022-36804-mass-rce)
+- [awsassets/CVE-2022-36804-RCE](https://github.com/awsassets/CVE-2022-36804-RCE)
 - [kljunowsky/CVE-2022-36804-POC](https://github.com/kljunowsky/CVE-2022-36804-POC)
 
 ### CVE-2022-36946 (2022-07-27)
@@ -3714,6 +3714,7 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 
 - [lovechoudoufu/cobaltstrike4.5_cdf](https://github.com/lovechoudoufu/cobaltstrike4.5_cdf)
 - [safe3s/CVE-2022-39197](https://github.com/safe3s/CVE-2022-39197)
+- [burpheart/cve-2022-39197](https://github.com/burpheart/cve-2022-39197)
 
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
@@ -4913,7 +4914,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
 - [CronoX1/CVE-2021-4034](https://github.com/CronoX1/CVE-2021-4034)
 - [n0v4mx/cve-2021-4034](https://github.com/n0v4mx/cve-2021-4034)
-- [carloscast1llo/CVE-2021-4034](https://github.com/carloscast1llo/CVE-2021-4034)
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
@@ -7326,6 +7326,7 @@ Sitecore XP 7.5 Initial Release to Sitecore XP 8.2 Update-7 is vulnerable to an 
 
 - [ItsIgnacioPortal/CVE-2021-42237](https://github.com/ItsIgnacioPortal/CVE-2021-42237)
 - [vesperp/CVE-2021-42237-SiteCore-XP](https://github.com/vesperp/CVE-2021-42237-SiteCore-XP)
+- [crankyyash/SiteCore-RCE-Detection](https://github.com/crankyyash/SiteCore-RCE-Detection)
 
 ### CVE-2021-42278 (2021-11-09)
 
