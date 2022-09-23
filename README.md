@@ -2080,9 +2080,9 @@ The Atlassian Questions For Confluence app for Confluence Server and Data Center
 </code>
 
 - [alcaparra/CVE-2022-26138](https://github.com/alcaparra/CVE-2022-26138)
-- [1mxml/CVE-2022-26138](https://github.com/1mxml/CVE-2022-26138)
 - [Vulnmachines/Confluence-Question-CVE-2022-26138-](https://github.com/Vulnmachines/Confluence-Question-CVE-2022-26138-)
 - [z92g/CVE-2022-26138](https://github.com/z92g/CVE-2022-26138)
+- [shavchen/CVE-2022-26138](https://github.com/shavchen/CVE-2022-26138)
 
 ### CVE-2022-26155 (2022-02-28)
 
@@ -3107,6 +3107,7 @@ Nortek Linear eMerge E3-Series devices through 0.32-09c place admin credentials 
 </code>
 
 - [Henry4E36/CVE-2022-31269](https://github.com/Henry4E36/CVE-2022-31269)
+- [omarhashem123/CVE-2022-31269](https://github.com/omarhashem123/CVE-2022-31269)
 
 ### CVE-2022-31294 (2022-06-16)
 
@@ -3183,6 +3184,14 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 
 - [buff07/CVE-2022-31403](https://github.com/buff07/CVE-2022-31403)
 
+### CVE-2022-31499 (2022-08-25)
+
+<code>
+Nortek Linear eMerge E3-Series devices before 0.32-08f allow an unauthenticated attacker to inject OS commands via ReaderNo. NOTE: this issue exists because of an incomplete fix for CVE-2019-7256.
+</code>
+
+- [omarhashem123/CVE-2022-31499](https://github.com/omarhashem123/CVE-2022-31499)
+
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 - [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
@@ -3194,6 +3203,14 @@ do_request in request.c in muhttpd before 1.1.7 allows remote attackers to read 
 </code>
 
 - [xpgdgit/CVE-2022-31793](https://github.com/xpgdgit/CVE-2022-31793)
+
+### CVE-2022-31798 (2022-08-25)
+
+<code>
+Nortek Linear eMerge E3-Series 0.32-07p devices are vulnerable to /card_scan.php?CardFormatNo= XSS with session fixation (via PHPSESSID) when they are chained together. This would allow an attacker to take over an admin account or a user account.
+</code>
+
+- [omarhashem123/CVE-2022-31798](https://github.com/omarhashem123/CVE-2022-31798)
 
 ### CVE-2022-31814 (2022-09-05)
 
@@ -3557,6 +3574,7 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [kljunowsky/CVE-2022-36804-POC](https://github.com/kljunowsky/CVE-2022-36804-POC)
 - [CEOrbey/CVE-2022-36804-MASS-RCE](https://github.com/CEOrbey/CVE-2022-36804-MASS-RCE)
 - [Chocapikk/CVE-2022-36804-ReverseShell](https://github.com/Chocapikk/CVE-2022-36804-ReverseShell)
+- [trhacknon/CVE-2022-36804-ReverseShell](https://github.com/trhacknon/CVE-2022-36804-ReverseShell)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -6812,6 +6830,7 @@ Windows Elevation of Privilege Vulnerability
 </code>
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
+- [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
 
 ### CVE-2021-36955 (2021-09-15)
 
@@ -7791,7 +7810,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
 - [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
-- [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
@@ -10246,8 +10264,8 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [FiroSolutions/cve-2020-7247-exploit](https://github.com/FiroSolutions/cve-2020-7247-exploit)
 - [superzerosec/cve-2020-7247](https://github.com/superzerosec/cve-2020-7247)
 - [r0lh/CVE-2020-7247](https://github.com/r0lh/CVE-2020-7247)
-- [jopraveen/CVE-2020-7247](https://github.com/jopraveen/CVE-2020-7247)
 - [QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit)
+- [bytescrappers/CVE-2020-7247](https://github.com/bytescrappers/CVE-2020-7247)
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
 - [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
