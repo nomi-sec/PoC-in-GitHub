@@ -760,7 +760,7 @@ A vulnerability in the packaging of Cisco Adaptive Security Device Manager (ASDM
 Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an unauthenticated, remote attacker to execute arbitrary code or cause a denial of service (DoS) condition on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.
 </code>
 
-- [Zerf0X/CVE-2022-20841-RCE](https://github.com/Zerf0X/CVE-2022-20841-RCE)
+- [expl0despl0it/CVE-2022-20841](https://github.com/expl0despl0it/CVE-2022-20841)
 
 ### CVE-2022-20866 (2022-08-10)
 
@@ -992,7 +992,12 @@ A use after free issue was addressed with improved memory management. This issue
 - [kmeps4/CVE-2022-22620](https://github.com/kmeps4/CVE-2022-22620)
 - [springsec/CVE-2022-22620](https://github.com/springsec/CVE-2022-22620)
 
-### CVE-2022-22629
+### CVE-2022-22629 (2022-09-23)
+
+<code>
+A buffer overflow issue was addressed with improved memory handling. This issue is fixed in macOS Monterey 12.3, Safari 15.4, watchOS 8.5, iTunes 12.12.3 for Windows, iOS 15.4 and iPadOS 15.4, tvOS 15.4. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
 - [parsdefense/CVE-2022-22629](https://github.com/parsdefense/CVE-2022-22629)
 
 ### CVE-2022-22639 (2022-03-18)
@@ -1548,7 +1553,6 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [oK0mo/CVE-2022-24086-RCE-PoC](https://github.com/oK0mo/CVE-2022-24086-RCE-PoC)
 - [seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087)
 - [jturner786/magento-CVE-2022-24086](https://github.com/jturner786/magento-CVE-2022-24086)
-- [N0pch/CVE-2022-24086-magento-rce](https://github.com/N0pch/CVE-2022-24086-magento-rce)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -1979,6 +1983,7 @@ The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization
 </code>
 
 - [hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns)
+- [expl0despl0it/CVE-2022-25845](https://github.com/expl0despl0it/CVE-2022-25845)
 
 ### CVE-2022-25943 (2022-03-08)
 
@@ -3303,8 +3308,14 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 </code>
 
 - [alexmention/CVE-2022-32548-RCE-POC](https://github.com/alexmention/CVE-2022-32548-RCE-POC)
+- [expl0despl0it/CVE-2022-32548](https://github.com/expl0despl0it/CVE-2022-32548)
 
-### CVE-2022-32832
+### CVE-2022-32832 (2022-09-23)
+
+<code>
+The issue was addressed with improved memory handling. This issue is fixed in iOS 15.6 and iPadOS 15.6, macOS Big Sur 11.6.8, watchOS 8.7, tvOS 15.6, macOS Monterey 12.5, Security Update 2022-005 Catalina. An app with root privileges may be able to execute arbitrary code with kernel privileges.
+</code>
+
 - [Muirey03/CVE-2022-32832](https://github.com/Muirey03/CVE-2022-32832)
 - [AkbarTrilaksana/CVE-2022-32832](https://github.com/AkbarTrilaksana/CVE-2022-32832)
 
@@ -3564,17 +3575,13 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 
 - [cryptolakk/CVE-2022-36804-RCE](https://github.com/cryptolakk/CVE-2022-36804-RCE)
 - [notdls/CVE-2022-36804](https://github.com/notdls/CVE-2022-36804)
-- [CEOrbey/CVE-2022-36804-POC-RCE](https://github.com/CEOrbey/CVE-2022-36804-POC-RCE)
 - [notxesh/CVE-2022-36804-PoC](https://github.com/notxesh/CVE-2022-36804-PoC)
 - [JRandomSage/CVE-2022-36804-MASS-RCE](https://github.com/JRandomSage/CVE-2022-36804-MASS-RCE)
 - [BenHays142/CVE-2022-36804-PoC-Exploit](https://github.com/BenHays142/CVE-2022-36804-PoC-Exploit)
 - [Vulnmachines/bitbucket-cve-2022-36804](https://github.com/Vulnmachines/bitbucket-cve-2022-36804)
-- [N0pch/CVE-2022-36804-mass-rce](https://github.com/N0pch/CVE-2022-36804-mass-rce)
 - [awsassets/CVE-2022-36804-RCE](https://github.com/awsassets/CVE-2022-36804-RCE)
 - [kljunowsky/CVE-2022-36804-POC](https://github.com/kljunowsky/CVE-2022-36804-POC)
-- [CEOrbey/CVE-2022-36804-MASS-RCE](https://github.com/CEOrbey/CVE-2022-36804-MASS-RCE)
 - [Chocapikk/CVE-2022-36804-ReverseShell](https://github.com/Chocapikk/CVE-2022-36804-ReverseShell)
-- [trhacknon/CVE-2022-36804-ReverseShell](https://github.com/trhacknon/CVE-2022-36804-ReverseShell)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -3593,14 +3600,6 @@ Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality tha
 
 - [GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925](https://github.com/GreyNoise-Intelligence/Zimbra_CVE-2022-37042-_CVE-2022-27925)
 - [aels/CVE-2022-37042](https://github.com/aels/CVE-2022-37042)
-
-### CVE-2022-37059 (2022-08-29)
-
-<code>
-Cross Site Scripting (XSS) in Admin Panel of Subrion CMS 4.2.1 allows attacker to inject arbitrary code via Login Field
-</code>
-
-- [RashidKhanPathan/Security-Research](https://github.com/RashidKhanPathan/Security-Research)
 
 ### CVE-2022-37153 (2022-08-24)
 
@@ -7771,6 +7770,14 @@ The Samba vfs_fruit module uses extended file attributes (EA, xattr) to provide 
 - [horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142)
 - [gudyrmik/CVE-2021-44142](https://github.com/gudyrmik/CVE-2021-44142)
 
+### CVE-2021-44158 (2022-01-03)
+
+<code>
+ASUS RT-AX56U Wi-Fi Router is vulnerable to stack-based buffer overflow due to improper validation for httpd parameter length. An authenticated local area network attacker can launch arbitrary code execution to control the system or disrupt service.
+</code>
+
+- [expl0despl0it/CVE-2021-44158](https://github.com/expl0despl0it/CVE-2021-44158)
+
 ### CVE-2021-44217 (2022-01-18)
 
 <code>
@@ -7863,7 +7870,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
 - [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
-- [stripe/log4j-remediation-tools](https://github.com/stripe/log4j-remediation-tools)
 - [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
