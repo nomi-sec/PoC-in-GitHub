@@ -754,14 +754,6 @@ A vulnerability in the packaging of Cisco Adaptive Security Device Manager (ASDM
 
 - [jbaines-r7/theway](https://github.com/jbaines-r7/theway)
 
-### CVE-2022-20841 (2022-08-10)
-
-<code>
-Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an unauthenticated, remote attacker to execute arbitrary code or cause a denial of service (DoS) condition on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.
-</code>
-
-- [expl0despl0it/CVE-2022-20841](https://github.com/expl0despl0it/CVE-2022-20841)
-
 ### CVE-2022-20866 (2022-08-10)
 
 <code>
@@ -1983,7 +1975,6 @@ The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization
 </code>
 
 - [hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns)
-- [expl0despl0it/CVE-2022-25845](https://github.com/expl0despl0it/CVE-2022-25845)
 
 ### CVE-2022-25943 (2022-03-08)
 
@@ -3308,7 +3299,6 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 </code>
 
 - [alexmention/CVE-2022-32548-RCE-POC](https://github.com/alexmention/CVE-2022-32548-RCE-POC)
-- [expl0despl0it/CVE-2022-32548](https://github.com/expl0despl0it/CVE-2022-32548)
 
 ### CVE-2022-32832 (2022-09-23)
 
@@ -3735,17 +3725,11 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 </code>
 
 - [safe3s/CVE-2022-39197](https://github.com/safe3s/CVE-2022-39197)
-- [X-Team-Robots/cobaltstrike4.5_cdf](https://github.com/X-Team-Robots/cobaltstrike4.5_cdf)
-- [LztCode/cobaltstrike4.5_cdf](https://github.com/LztCode/cobaltstrike4.5_cdf)
-- [wwl012345/cobaltstrike4.5_cdf](https://github.com/wwl012345/cobaltstrike4.5_cdf)
 - [zeoday/cobaltstrike4.5_cdf-1](https://github.com/zeoday/cobaltstrike4.5_cdf-1)
-- [ginipropro/cobaltstrike4.5_cdf](https://github.com/ginipropro/cobaltstrike4.5_cdf)
-- [shen771/cobaltstrike4.5_cdf](https://github.com/shen771/cobaltstrike4.5_cdf)
-- [atomxw/cobaltstrike4.5_cdf](https://github.com/atomxw/cobaltstrike4.5_cdf)
-- [Security-Rules/cobaltstrike4.5_cdf](https://github.com/Security-Rules/cobaltstrike4.5_cdf)
 - [burpheart/cve-2022-39197](https://github.com/burpheart/cve-2022-39197)
 - [xzajyjs/CVE-2022-39197-POC](https://github.com/xzajyjs/CVE-2022-39197-POC)
 - [yqcs/CSPOC](https://github.com/yqcs/CSPOC)
+- [purple-WL/Cobaltstrike-RCE-CVE-2022-39197](https://github.com/purple-WL/Cobaltstrike-RCE-CVE-2022-39197)
 
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
@@ -7771,14 +7755,6 @@ The Samba vfs_fruit module uses extended file attributes (EA, xattr) to provide 
 - [horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142)
 - [gudyrmik/CVE-2021-44142](https://github.com/gudyrmik/CVE-2021-44142)
 
-### CVE-2021-44158 (2022-01-03)
-
-<code>
-ASUS RT-AX56U Wi-Fi Router is vulnerable to stack-based buffer overflow due to improper validation for httpd parameter length. An authenticated local area network attacker can launch arbitrary code execution to control the system or disrupt service.
-</code>
-
-- [expl0despl0it/CVE-2021-44158](https://github.com/expl0despl0it/CVE-2021-44158)
-
 ### CVE-2021-44217 (2022-01-18)
 
 <code>
@@ -8135,7 +8111,7 @@ Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases
 </code>
 
 - [cckuailong/log4j_RCE_CVE-2021-44832](https://github.com/cckuailong/log4j_RCE_CVE-2021-44832)
-- [charliemaddex/log4j](https://github.com/charliemaddex/log4j)
+- [name/log4j](https://github.com/name/log4j)
 
 ### CVE-2021-44852 (2022-01-01)
 
@@ -18809,7 +18785,7 @@ Some NVIDIA Tegra mobile processors released prior to 2016 contain a buffer over
 - [reswitched/rcm-modchips](https://github.com/reswitched/rcm-modchips)
 - [ChrisFigura/react-tegra-payload-launcher](https://github.com/ChrisFigura/react-tegra-payload-launcher)
 - [austinhartzheim/fusee-gelee](https://github.com/austinhartzheim/fusee-gelee)
-- [Haruster/Nephael-Nintendo-CVE-2018-6242](https://github.com/Haruster/Nephael-Nintendo-CVE-2018-6242)
+- [Haruster/Haruster-Nintendo-CVE-2018-6242](https://github.com/Haruster/Haruster-Nintendo-CVE-2018-6242)
 - [Swiftloke/fusee-toy](https://github.com/Swiftloke/fusee-toy)
 
 ### CVE-2018-6376 (2018-01-30)
