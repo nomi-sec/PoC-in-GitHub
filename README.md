@@ -4943,6 +4943,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
 - [Naughty-SEC/pkexec-shell-executor](https://github.com/Naughty-SEC/pkexec-shell-executor)
 - [1337Rin/CVE-2021-4034](https://github.com/1337Rin/CVE-2021-4034)
+- [flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -7877,7 +7878,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
 - [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
 - [VerveIndustrialProtection/CVE-2021-44228-Log4j](https://github.com/VerveIndustrialProtection/CVE-2021-44228-Log4j)
-- [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
 - [LiveOverflow/log4shell](https://github.com/LiveOverflow/log4shell)
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
