@@ -2423,6 +2423,9 @@ Cewolf in Zoho ManageEngine ADAudit Plus before 7060 is vulnerable to an unauthe
 ### CVE-2022-28281
 - [0vercl0k/CVE-2022-28281](https://github.com/0vercl0k/CVE-2022-28281)
 
+### CVE-2022-28282
+- [Pwnrin/CVE-2022-28282](https://github.com/Pwnrin/CVE-2022-28282)
+
 ### CVE-2022-28346 (2022-04-12)
 
 <code>
@@ -22462,7 +22465,7 @@ Windows Shell in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Wi
 
 - [Elm0D/CVE-2017-8464](https://github.com/Elm0D/CVE-2017-8464)
 - [3gstudent/CVE-2017-8464-EXP](https://github.com/3gstudent/CVE-2017-8464-EXP)
-- [Securitykid/CVE-2017-8464-exp-generator](https://github.com/Securitykid/CVE-2017-8464-exp-generator)
+- [doudouhala/CVE-2017-8464-exp-generator](https://github.com/doudouhala/CVE-2017-8464-exp-generator)
 - [X-Vector/usbhijacking](https://github.com/X-Vector/usbhijacking)
 - [xssfile/CVE-2017-8464-EXP](https://github.com/xssfile/CVE-2017-8464-EXP)
 - [TrG-1999/DetectPacket-CVE-2017-8464](https://github.com/TrG-1999/DetectPacket-CVE-2017-8464)
