@@ -517,6 +517,14 @@ A critical issue has been discovered in GitLab affecting all versions starting f
 - [safe3s/CVE-2022-2185-poc](https://github.com/safe3s/CVE-2022-2185-poc)
 - [ESUAdmin/CVE-2022-2185](https://github.com/ESUAdmin/CVE-2022-2185)
 
+### CVE-2022-2274 (2022-07-01)
+
+<code>
+The OpenSSL 3.0.4 release introduced a serious bug in the RSA implementation for X86_64 CPUs supporting the AVX512IFMA instructions. This issue makes the RSA implementation with 2048 bit private keys incorrect on such machines and memory corruption will happen during the computation. As a consequence of the memory corruption an attacker may be able to trigger a remote code execution on the machine performing the computation. SSL/TLS servers or other servers using 2048 bit RSA private keys running on machines supporting AVX512IFMA instructions of the X86_64 architecture are affected by this issue.
+</code>
+
+- [Malwareman007/CVE-2022-2274](https://github.com/Malwareman007/CVE-2022-2274)
+
 ### CVE-2022-2333 (2022-09-16)
 
 <code>
@@ -2222,6 +2230,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [cybersecurityresearcher/CVE-2022-26809-RCE-POC](https://github.com/cybersecurityresearcher/CVE-2022-26809-RCE-POC)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
+- [scoobyd00bi/CVE-2022-26809-RCE](https://github.com/scoobyd00bi/CVE-2022-26809-RCE)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -24079,6 +24088,7 @@ Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x bef
 - [DanielCodex/CVE-2016-2098-my-first-exploit](https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit)
 - [Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098)
 - [j4k0m/CVE-2016-2098](https://github.com/j4k0m/CVE-2016-2098)
+- [Shakun8/CVE-2016-2098](https://github.com/Shakun8/CVE-2016-2098)
 
 ### CVE-2016-2107 (2016-05-04)
 
