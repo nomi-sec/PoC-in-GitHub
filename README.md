@@ -2685,6 +2685,14 @@ A reflected XSS issue exists in the Management Console of several WSO2 products.
 ### CVE-2022-29554
 - [ComparedArray/printix-CVE-2022-29554](https://github.com/ComparedArray/printix-CVE-2022-29554)
 
+### CVE-2022-29581 (2022-05-17)
+
+<code>
+Improper Update of Reference Count vulnerability in net/sched of Linux Kernel allows local attacker to cause privilege escalation to root. This issue affects: Linux Kernel versions prior to 5.18; version 4.14 and later versions.
+</code>
+
+- [nidhi7598/linux-4.19.72_CVE-2022-29581](https://github.com/nidhi7598/linux-4.19.72_CVE-2022-29581)
+
 ### CVE-2022-29582 (2022-04-22)
 
 <code>
@@ -3745,6 +3753,7 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [xzajyjs/CVE-2022-39197-POC](https://github.com/xzajyjs/CVE-2022-39197-POC)
 - [yqcs/CSPOC](https://github.com/yqcs/CSPOC)
 - [purple-WL/Cobaltstrike-RCE-CVE-2022-39197](https://github.com/purple-WL/Cobaltstrike-RCE-CVE-2022-39197)
+- [lovechoudoufu/about_cobaltstrike4.5_cdf](https://github.com/lovechoudoufu/about_cobaltstrike4.5_cdf)
 
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
