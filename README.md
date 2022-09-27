@@ -2885,6 +2885,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is uniqu
 </code>
 
 - [Pwnrin/CVE-2022-30206](https://github.com/Pwnrin/CVE-2022-30206)
+- [Malwareman007/CVE-2022-30206](https://github.com/Malwareman007/CVE-2022-30206)
 
 ### CVE-2022-30216 (2022-07-12)
 
