@@ -763,6 +763,14 @@ A vulnerability in the packaging of Cisco Adaptive Security Device Manager (ASDM
 
 - [jbaines-r7/theway](https://github.com/jbaines-r7/theway)
 
+### CVE-2022-20841 (2022-08-10)
+
+<code>
+Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an unauthenticated, remote attacker to execute arbitrary code or cause a denial of service (DoS) condition on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.
+</code>
+
+- [c0resploit/CVE-2022-20841](https://github.com/c0resploit/CVE-2022-20841)
+
 ### CVE-2022-20866 (2022-08-10)
 
 <code>
@@ -1984,6 +1992,7 @@ The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization
 </code>
 
 - [hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns)
+- [c0resploit/CVE-2022-25845](https://github.com/c0resploit/CVE-2022-25845)
 
 ### CVE-2022-25943 (2022-03-08)
 
@@ -3323,6 +3332,7 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 - [alexmention/CVE-2022-32548-RCE-POC](https://github.com/alexmention/CVE-2022-32548-RCE-POC)
 - [Xu0Tex1/CVE-2022-32548-Mass-Rce](https://github.com/Xu0Tex1/CVE-2022-32548-Mass-Rce)
 - [MaX0dexpoit/CVE-2022-32548](https://github.com/MaX0dexpoit/CVE-2022-32548)
+- [c0resploit/CVE-2022-32548](https://github.com/c0resploit/CVE-2022-32548)
 
 ### CVE-2022-32832 (2022-09-23)
 
@@ -7792,6 +7802,14 @@ The Samba vfs_fruit module uses extended file attributes (EA, xattr) to provide 
 - [horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142)
 - [gudyrmik/CVE-2021-44142](https://github.com/gudyrmik/CVE-2021-44142)
 
+### CVE-2021-44158 (2022-01-03)
+
+<code>
+ASUS RT-AX56U Wi-Fi Router is vulnerable to stack-based buffer overflow due to improper validation for httpd parameter length. An authenticated local area network attacker can launch arbitrary code execution to control the system or disrupt service.
+</code>
+
+- [c0resploit/CVE-2021-44158](https://github.com/c0resploit/CVE-2021-44158)
+
 ### CVE-2021-44217 (2022-01-18)
 
 <code>
@@ -7826,7 +7844,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
-- [js-on/jndiRep](https://github.com/js-on/jndiRep)
 - [Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs](https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs)
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
