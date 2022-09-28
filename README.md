@@ -574,6 +574,14 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
+### CVE-2022-3236 (2022-09-23)
+
+<code>
+A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
+</code>
+
+- [Xu0Tex1/CVE-2022-3236](https://github.com/Xu0Tex1/CVE-2022-3236)
+
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
 
@@ -2809,6 +2817,7 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability.
 </code>
 
+- [flux10n/CVE-2022-30190](https://github.com/flux10n/CVE-2022-30190)
 - [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
 - [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
 - [2867a0/CVE-2022-30190](https://github.com/2867a0/CVE-2022-30190)
@@ -3322,6 +3331,7 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 - [alexmention/CVE-2022-32548-RCE-POC](https://github.com/alexmention/CVE-2022-32548-RCE-POC)
 - [Xu0Tex1/CVE-2022-32548-Mass-Rce](https://github.com/Xu0Tex1/CVE-2022-32548-Mass-Rce)
 - [MaX0dexpoit/CVE-2022-32548](https://github.com/MaX0dexpoit/CVE-2022-32548)
+- [Xu0Tex1/CVE-2022-32548-RCE-POC](https://github.com/Xu0Tex1/CVE-2022-32548-RCE-POC)
 
 ### CVE-2022-32832 (2022-09-23)
 
@@ -3598,6 +3608,15 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [trhacknon/CVE-2022-36804-ReverseShell](https://github.com/trhacknon/CVE-2022-36804-ReverseShell)
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
 - [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
+
+### CVE-2022-36934 (2022-09-22)
+
+<code>
+An integer overflow in WhatsApp could result in remote code execution in an established video call.
+</code>
+
+- [F1uk369/CVE-2022-36934](https://github.com/F1uk369/CVE-2022-36934)
+- [d4rk0x00/CVE-2022-36934-POC](https://github.com/d4rk0x00/CVE-2022-36934-POC)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -25232,6 +25251,14 @@ Buffer overflow in IOHIDFamily in Apple OS X before 10.10.3 allows local users t
 
 - [kpwn/vpwn](https://github.com/kpwn/vpwn)
 
+### CVE-2015-1157 (2015-05-27)
+
+<code>
+CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
+</code>
+
+- [perillamint/CVE-2015-1157](https://github.com/perillamint/CVE-2015-1157)
+
 ### CVE-2015-1318 (2015-04-17)
 
 <code>
@@ -25284,6 +25311,7 @@ Integer overflow in the native_handle_create function in libcutils/native_handle
 </code>
 
 - [secmob/PoCForCVE-2015-1528](https://github.com/secmob/PoCForCVE-2015-1528)
+- [kanpol/PoCForCVE-2015-1528](https://github.com/kanpol/PoCForCVE-2015-1528)
 
 ### CVE-2015-1538 (2015-09-30)
 
@@ -25471,6 +25499,14 @@ Adobe Flash Player before 13.0.0.281 and 14.x through 17.x before 17.0.0.169 on 
 </code>
 
 - [whitehairman/Exploit](https://github.com/whitehairman/Exploit)
+
+### CVE-2015-3073 (2015-05-13)
+
+<code>
+Adobe Reader and Acrobat 10.x before 10.1.14 and 11.x before 11.0.11 on Windows and OS X allow attackers to bypass intended restrictions on JavaScript API execution via unspecified vectors, a different vulnerability than CVE-2015-3060, CVE-2015-3061, CVE-2015-3062, CVE-2015-3063, CVE-2015-3064, CVE-2015-3065, CVE-2015-3066, CVE-2015-3067, CVE-2015-3068, CVE-2015-3069, CVE-2015-3071, CVE-2015-3072, and CVE-2015-3074.
+</code>
+
+- [reigningshells/CVE-2015-3073](https://github.com/reigningshells/CVE-2015-3073)
 
 ### CVE-2015-3090 (2015-05-13)
 
@@ -25839,6 +25875,7 @@ Mozilla Firefox before 43.0 and Firefox ESR 38.x before 38.5 allow remote attack
 SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7858.
 </code>
 
+- [CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory)
 - [areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla)
 
 ### CVE-2015-7501 (2017-11-09)
@@ -25882,6 +25919,14 @@ Juniper ScreenOS 6.2.0r15 through 6.2.0r18, 6.3.0r12 before 6.3.0r12b, 6.3.0r13 
 
 - [hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755)
 - [cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC)
+
+### CVE-2015-7808 (2015-11-24)
+
+<code>
+The vB_Api_Hook::decodeArguments method in vBulletin 5 Connect 5.1.2 through 5.1.9 allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via a crafted serialized object in the arguments parameter to ajax/api/hook/decodeArguments.
+</code>
+
+- [Prajithp/CVE-2015-7808](https://github.com/Prajithp/CVE-2015-7808)
 
 ### CVE-2015-8088 (2016-01-12)
 
