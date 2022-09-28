@@ -3693,7 +3693,12 @@ JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the 
 ### CVE-2022-37208
 - [AgainstTheLight/CVE-2022-37208](https://github.com/AgainstTheLight/CVE-2022-37208)
 
-### CVE-2022-37209
+### CVE-2022-37209 (2022-09-27)
+
+<code>
+JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection.
+</code>
+
 - [AgainstTheLight/CVE-2022-37209](https://github.com/AgainstTheLight/CVE-2022-37209)
 
 ### CVE-2022-37210
