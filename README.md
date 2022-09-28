@@ -763,14 +763,6 @@ A vulnerability in the packaging of Cisco Adaptive Security Device Manager (ASDM
 
 - [jbaines-r7/theway](https://github.com/jbaines-r7/theway)
 
-### CVE-2022-20841 (2022-08-10)
-
-<code>
-Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an unauthenticated, remote attacker to execute arbitrary code or cause a denial of service (DoS) condition on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.
-</code>
-
-- [c0resploit/CVE-2022-20841](https://github.com/c0resploit/CVE-2022-20841)
-
 ### CVE-2022-20866 (2022-08-10)
 
 <code>
@@ -1992,7 +1984,6 @@ The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization
 </code>
 
 - [hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns)
-- [c0resploit/CVE-2022-25845](https://github.com/c0resploit/CVE-2022-25845)
 
 ### CVE-2022-25943 (2022-03-08)
 
@@ -2267,7 +2258,6 @@ Windows Network File System Remote Code Execution Vulnerability.
 
 - [corelight/CVE-2022-26937](https://github.com/corelight/CVE-2022-26937)
 - [omair2084/CVE-2022-26937](https://github.com/omair2084/CVE-2022-26937)
-- [i6c/CVE-2022-26937](https://github.com/i6c/CVE-2022-26937)
 
 ### CVE-2022-27134 (2022-05-12)
 
@@ -3332,7 +3322,6 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 - [alexmention/CVE-2022-32548-RCE-POC](https://github.com/alexmention/CVE-2022-32548-RCE-POC)
 - [Xu0Tex1/CVE-2022-32548-Mass-Rce](https://github.com/Xu0Tex1/CVE-2022-32548-Mass-Rce)
 - [MaX0dexpoit/CVE-2022-32548](https://github.com/MaX0dexpoit/CVE-2022-32548)
-- [c0resploit/CVE-2022-32548](https://github.com/c0resploit/CVE-2022-32548)
 
 ### CVE-2022-32832 (2022-09-23)
 
@@ -7806,14 +7795,6 @@ The Samba vfs_fruit module uses extended file attributes (EA, xattr) to provide 
 - [hrsman/Samba-CVE-2021-44142](https://github.com/hrsman/Samba-CVE-2021-44142)
 - [horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142)
 - [gudyrmik/CVE-2021-44142](https://github.com/gudyrmik/CVE-2021-44142)
-
-### CVE-2021-44158 (2022-01-03)
-
-<code>
-ASUS RT-AX56U Wi-Fi Router is vulnerable to stack-based buffer overflow due to improper validation for httpd parameter length. An authenticated local area network attacker can launch arbitrary code execution to control the system or disrupt service.
-</code>
-
-- [c0resploit/CVE-2021-44158](https://github.com/c0resploit/CVE-2021-44158)
 
 ### CVE-2021-44217 (2022-01-18)
 
@@ -23834,6 +23815,14 @@ In Kubernetes versions 1.3.x, 1.4.x, 1.5.x, 1.6.x and prior to versions 1.7.14, 
 
 
 ## 2016
+### CVE-2016-0010 (2016-01-12)
+
+<code>
+Microsoft Office 2007 SP3, Office 2010 SP2, Office 2013 SP1, Office 2013 RT SP1, Office 2016, Excel for Mac 2011, PowerPoint for Mac 2011, Word for Mac 2011, Excel 2016 for Mac, PowerPoint 2016 for Mac, Word 2016 for Mac, and Word Viewer allow remote attackers to execute arbitrary code via a crafted Office document, aka &quot;Microsoft Office Memory Corruption Vulnerability.&quot;
+</code>
+
+- [Sunqiz/CVE-2016-0010-reproduction](https://github.com/Sunqiz/CVE-2016-0010-reproduction)
+
 ### CVE-2016-0034 (2016-01-12)
 
 <code>
@@ -25243,14 +25232,6 @@ Buffer overflow in IOHIDFamily in Apple OS X before 10.10.3 allows local users t
 
 - [kpwn/vpwn](https://github.com/kpwn/vpwn)
 
-### CVE-2015-1157 (2015-05-27)
-
-<code>
-CoreText in Apple iOS 8.x through 8.3 allows remote attackers to cause a denial of service (reboot and messaging disruption) via crafted Unicode text that is not properly handled during display truncation in the Notifications feature, as demonstrated by Arabic characters in (1) an SMS message or (2) a WhatsApp message.
-</code>
-
-- [perillamint/CVE-2015-1157](https://github.com/perillamint/CVE-2015-1157)
-
 ### CVE-2015-1318 (2015-04-17)
 
 <code>
@@ -25303,7 +25284,6 @@ Integer overflow in the native_handle_create function in libcutils/native_handle
 </code>
 
 - [secmob/PoCForCVE-2015-1528](https://github.com/secmob/PoCForCVE-2015-1528)
-- [kanpol/PoCForCVE-2015-1528](https://github.com/kanpol/PoCForCVE-2015-1528)
 
 ### CVE-2015-1538 (2015-09-30)
 
@@ -25491,14 +25471,6 @@ Adobe Flash Player before 13.0.0.281 and 14.x through 17.x before 17.0.0.169 on 
 </code>
 
 - [whitehairman/Exploit](https://github.com/whitehairman/Exploit)
-
-### CVE-2015-3073 (2015-05-13)
-
-<code>
-Adobe Reader and Acrobat 10.x before 10.1.14 and 11.x before 11.0.11 on Windows and OS X allow attackers to bypass intended restrictions on JavaScript API execution via unspecified vectors, a different vulnerability than CVE-2015-3060, CVE-2015-3061, CVE-2015-3062, CVE-2015-3063, CVE-2015-3064, CVE-2015-3065, CVE-2015-3066, CVE-2015-3067, CVE-2015-3068, CVE-2015-3069, CVE-2015-3071, CVE-2015-3072, and CVE-2015-3074.
-</code>
-
-- [reigningshells/CVE-2015-3073](https://github.com/reigningshells/CVE-2015-3073)
 
 ### CVE-2015-3090 (2015-05-13)
 
@@ -25867,7 +25839,6 @@ Mozilla Firefox before 43.0 and Firefox ESR 38.x before 38.5 allow remote attack
 SQL injection vulnerability in Joomla! 3.2 before 3.4.4 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, a different vulnerability than CVE-2015-7858.
 </code>
 
-- [CCrashBandicot/ContentHistory](https://github.com/CCrashBandicot/ContentHistory)
 - [areaventuno/exploit-joomla](https://github.com/areaventuno/exploit-joomla)
 
 ### CVE-2015-7501 (2017-11-09)
@@ -25911,14 +25882,6 @@ Juniper ScreenOS 6.2.0r15 through 6.2.0r18, 6.3.0r12 before 6.3.0r12b, 6.3.0r13 
 
 - [hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755)
 - [cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC)
-
-### CVE-2015-7808 (2015-11-24)
-
-<code>
-The vB_Api_Hook::decodeArguments method in vBulletin 5 Connect 5.1.2 through 5.1.9 allows remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via a crafted serialized object in the arguments parameter to ajax/api/hook/decodeArguments.
-</code>
-
-- [Prajithp/CVE-2015-7808](https://github.com/Prajithp/CVE-2015-7808)
 
 ### CVE-2015-8088 (2016-01-12)
 
