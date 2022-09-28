@@ -3807,6 +3807,12 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 - [izdiwho/CVE-2022-40317](https://github.com/izdiwho/CVE-2022-40317)
 
+### CVE-2022-40490
+- [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
+
+### CVE-2022-40916
+- [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
