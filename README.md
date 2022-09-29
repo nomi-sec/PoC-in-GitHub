@@ -2884,7 +2884,6 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Gra3s/CVE-2022-30190-Follina-PowerPoint-Version](https://github.com/Gra3s/CVE-2022-30190-Follina-PowerPoint-Version)
 - [EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-)
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
-- [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -3791,6 +3790,14 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
+
+### CVE-2022-40126 (2022-09-29)
+
+<code>
+A misconfiguration in the Service Mode profile directory of Clash for Windows v0.19.9 allows attackers to escalate privileges and execute arbitrary commands when Service Mode is activated.
+</code>
+
+- [LovelyWei/CVE-2022-40126](https://github.com/LovelyWei/CVE-2022-40126)
 
 ### CVE-2022-40297 (2022-09-08)
 
@@ -7797,6 +7804,14 @@ The software allows the attacker to upload or transfer files of dangerous types 
 
 - [LongWayHomie/CVE-2021-43936](https://github.com/LongWayHomie/CVE-2021-43936)
 
+### CVE-2021-44077 (2021-11-28)
+
+<code>
+Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 10530, and SupportCenter Plus before 11014 are vulnerable to unauthenticated remote code execution. This is related to /RestAPI URLs in a servlet, and ImportTechnicians in the Struts configuration.
+</code>
+
+- [pizza-power/Golang-CVE-2021-44077-POC](https://github.com/pizza-power/Golang-CVE-2021-44077-POC)
+
 ### CVE-2021-44117 (2022-06-10)
 
 <code>
@@ -7840,7 +7855,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
-- [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
@@ -19717,7 +19731,7 @@ TBK DVR4104 and DVR4216 devices, as well as Novo, CeNova, QSee, Pulnix, XVR 5 in
 - [IHA114/CVE-2018-9995_dvr_credentials](https://github.com/IHA114/CVE-2018-9995_dvr_credentials)
 - [likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool](https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool)
 - [b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC)
-- [trustsect/HTC](https://github.com/trustsect/HTC)
+- [awesome-consumer-iot/HTC](https://github.com/awesome-consumer-iot/HTC)
 - [Saeed22487/CVE-2018-9995](https://github.com/Saeed22487/CVE-2018-9995)
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
 - [dearpan/cve-2018-9995](https://github.com/dearpan/cve-2018-9995)
