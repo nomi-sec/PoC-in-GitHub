@@ -5179,6 +5179,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [Jiang59991/cve-2021-21300-plus](https://github.com/Jiang59991/cve-2021-21300-plus)
 - [macilin/CVE-2021-21300](https://github.com/macilin/CVE-2021-21300)
 - [Roboterh/CVE-2021-21300](https://github.com/Roboterh/CVE-2021-21300)
+- [ruifi47/cve-2021-21300-PoC](https://github.com/ruifi47/cve-2021-21300-PoC)
 
 ### CVE-2021-21311 (2021-02-11)
 
@@ -7936,7 +7937,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
-- [ubitech/cve-2021-44228-rce-poc](https://github.com/ubitech/cve-2021-44228-rce-poc)
 - [rv4l3r3/log4v-vuln-check](https://github.com/rv4l3r3/log4v-vuln-check)
 - [dpomnean/log4j_scanner_wrapper](https://github.com/dpomnean/log4j_scanner_wrapper)
 - [roxas-tan/CVE-2021-44228](https://github.com/roxas-tan/CVE-2021-44228)
