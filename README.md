@@ -3332,6 +3332,7 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 - [Xu0Tex1/CVE-2022-32548-Mass-Rce](https://github.com/Xu0Tex1/CVE-2022-32548-Mass-Rce)
 - [MaX0dexpoit/CVE-2022-32548](https://github.com/MaX0dexpoit/CVE-2022-32548)
 - [Xu0Tex1/CVE-2022-32548-RCE-POC](https://github.com/Xu0Tex1/CVE-2022-32548-RCE-POC)
+- [d4rk0x00/CVE-2022-32548-batch](https://github.com/d4rk0x00/CVE-2022-32548-batch)
 
 ### CVE-2022-32832 (2022-09-23)
 
@@ -11666,7 +11667,7 @@ OpenTrace, as used in COVIDSafe through v1.0.17, TraceTogether, ABTraceTogether,
 A vulnerability in a dynamically loaded AMD driver in AMD Ryzen Master V15 may allow any authenticated user to escalate privileges to NT authority system.
 </code>
 
-- [ekknod/EC_PRO-LAN](https://github.com/ekknod/EC_PRO-LAN)
+- [ekknod/AmdRyzenMasterCheat](https://github.com/ekknod/AmdRyzenMasterCheat)
 
 ### CVE-2020-13094 (2020-05-18)
 
@@ -21284,6 +21285,14 @@ Swagger UI before 4.1.3 could allow a remote attacker to conduct spoofing attack
 
 - [afine-com/CVE-2018-25031](https://github.com/afine-com/CVE-2018-25031)
 
+### CVE-2018-25032 (2022-03-25)
+
+<code>
+zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.
+</code>
+
+- [Trinadh465/external_zlib_4.4_CVE-2018-25032](https://github.com/Trinadh465/external_zlib_4.4_CVE-2018-25032)
+
 ### CVE-2018-1000001 (2018-01-31)
 
 <code>
@@ -23840,14 +23849,6 @@ In Kubernetes versions 1.3.x, 1.4.x, 1.5.x, 1.6.x and prior to versions 1.7.14, 
 
 
 ## 2016
-### CVE-2016-0010 (2016-01-12)
-
-<code>
-Microsoft Office 2007 SP3, Office 2010 SP2, Office 2013 SP1, Office 2013 RT SP1, Office 2016, Excel for Mac 2011, PowerPoint for Mac 2011, Word for Mac 2011, Excel 2016 for Mac, PowerPoint 2016 for Mac, Word 2016 for Mac, and Word Viewer allow remote attackers to execute arbitrary code via a crafted Office document, aka &quot;Microsoft Office Memory Corruption Vulnerability.&quot;
-</code>
-
-- [Sunqiz/CVE-2016-0010-reproduction](https://github.com/Sunqiz/CVE-2016-0010-reproduction)
-
 ### CVE-2016-0034 (2016-01-12)
 
 <code>
@@ -27341,7 +27342,6 @@ Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows 
 </code>
 
 - [k0keoyo/CVE-2012-0003_eXP](https://github.com/k0keoyo/CVE-2012-0003_eXP)
-- [Sunqiz/CVE-2012-0003-reproduction](https://github.com/Sunqiz/CVE-2012-0003-reproduction)
 
 ### CVE-2012-0056 (2012-01-27)
 
@@ -28289,7 +28289,7 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 The TCP implementation in (1) Linux, (2) platforms based on BSD Unix, (3) Microsoft Windows, (4) Cisco products, and probably other operating systems allows remote attackers to cause a denial of service (connection queue exhaustion) via multiple vectors that manipulate information in the TCP state table, as demonstrated by sockstress.
 </code>
 
-- [marcelki/sockstress](https://github.com/marcelki/sockstress)
+- [mrclki/sockstress](https://github.com/mrclki/sockstress)
 
 ### CVE-2008-4654 (2008-10-21)
 
