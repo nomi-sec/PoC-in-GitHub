@@ -561,7 +561,7 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 - [ASkyeye/2022-LPE-UAF](https://github.com/ASkyeye/2022-LPE-UAF)
 - [pirenga/2022-LPE-UAF](https://github.com/pirenga/2022-LPE-UAF)
 - [konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF)
-- [sang-chu/CVE-2022-2588](https://github.com/sang-chu/CVE-2022-2588)
+- [ida-bro/CVE-2022-2588](https://github.com/ida-bro/CVE-2022-2588)
 
 ### CVE-2022-2639 (2022-09-01)
 
@@ -3825,6 +3825,9 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 ### CVE-2022-41082
 - [revers0id/CVE-2022-41082-PoC](https://github.com/revers0id/CVE-2022-41082-PoC)
+- [TimWallbey/CVE-2022-41082-RCE](https://github.com/TimWallbey/CVE-2022-41082-RCE)
+- [TimWallbey/CVE-2022-41082-PoC](https://github.com/TimWallbey/CVE-2022-41082-PoC)
+- [R007er/CVE-2022-41082-POC](https://github.com/R007er/CVE-2022-41082-POC)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -4482,7 +4485,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.18. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 6.0 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N).
 </code>
 
-- [Sauercloud/RWCTF21-VirtualBox-61-escape](https://github.com/Sauercloud/RWCTF21-VirtualBox-61-escape)
 - [chatbottesisgmailh/Sauercloude](https://github.com/chatbottesisgmailh/Sauercloude)
 - [shi10587s/Sauercloude](https://github.com/shi10587s/Sauercloude)
 
@@ -4554,9 +4556,6 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 </code>
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
-- [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
-- [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
-- [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
 - [nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit)
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
@@ -4596,14 +4595,9 @@ In Discourse 2.7.0 through beta1, a rate-limit bypass leads to a bypass of the 2
 Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
 </code>
 
-- [mr-r3b00t/CVE-2021-3156](https://github.com/mr-r3b00t/CVE-2021-3156)
-- [nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156)
 - [reverse-ex/CVE-2021-3156](https://github.com/reverse-ex/CVE-2021-3156)
-- [unauth401/CVE-2021-3156](https://github.com/unauth401/CVE-2021-3156)
 - [ymrsmns/CVE-2021-3156](https://github.com/ymrsmns/CVE-2021-3156)
-- [elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER)
 - [kernelzeroday/CVE-2021-3156-Baron-Samedit](https://github.com/kernelzeroday/CVE-2021-3156-Baron-Samedit)
-- [yaunsky/cve-2021-3156](https://github.com/yaunsky/cve-2021-3156)
 - [baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp)
 - [ph4ntonn/CVE-2021-3156](https://github.com/ph4ntonn/CVE-2021-3156)
 - [binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT)
@@ -4652,9 +4646,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [FrancescoMarchiori/CVE-2021-3156](https://github.com/FrancescoMarchiori/CVE-2021-3156)
 - [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
-
-### CVE-2021-3157
-- [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
 
 ### CVE-2021-3164 (2021-01-21)
 
