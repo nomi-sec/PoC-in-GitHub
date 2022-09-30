@@ -5758,7 +5758,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 
 - [0xf4n9x/CVE-2021-26084](https://github.com/0xf4n9x/CVE-2021-26084)
 - [Vulnmachines/Confluence_CVE-2021-26084](https://github.com/Vulnmachines/Confluence_CVE-2021-26084)
-- [z0edff0x3d/CVE-2021-26084-Confluence-OGNL](https://github.com/z0edff0x3d/CVE-2021-26084-Confluence-OGNL)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [orangmuda/CVE-2021-26084](https://github.com/orangmuda/CVE-2021-26084)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
@@ -5872,7 +5871,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [La3B0z/CVE-2021-26855-SSRF-Exchange](https://github.com/La3B0z/CVE-2021-26855-SSRF-Exchange)
 - [mekhalleh/exchange_proxylogon](https://github.com/mekhalleh/exchange_proxylogon)
 - [Yt1g3r/CVE-2021-26855_SSRF](https://github.com/Yt1g3r/CVE-2021-26855_SSRF)
-- [charlottelatest/CVE-2021-26855](https://github.com/charlottelatest/CVE-2021-26855)
+- [hackerxj007/CVE-2021-26855](https://github.com/hackerxj007/CVE-2021-26855)
 - [dwisiswant0/proxylogscan](https://github.com/dwisiswant0/proxylogscan)
 - [mauricelambert/ExchangeWeaknessTest](https://github.com/mauricelambert/ExchangeWeaknessTest)
 - [DCScoder/Exchange_IOC_Hunter](https://github.com/DCScoder/Exchange_IOC_Hunter)
@@ -7712,6 +7711,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
+- [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
 - [k3rwin/CVE-2021-43798-Grafana](https://github.com/k3rwin/CVE-2021-43798-Grafana)
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
@@ -19007,7 +19007,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
 - [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
 - [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
-- [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
 - [OLAOLAOLA789/CVE-2018-6574](https://github.com/OLAOLAOLA789/CVE-2018-6574)
 - [repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574)
 - [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
@@ -19031,6 +19030,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574)
 - [hasharmujahid/CVE-2018-6574-go-get-RCE](https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE)
 - [moorada/goGetRCE](https://github.com/moorada/goGetRCE)
+- [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -22164,7 +22164,7 @@ A Remote Code Execution vulnerability in HPE Intelligent Management Center (iMC)
 An issue was discovered in the node-serialize package 0.0.4 for Node.js. Untrusted data passed into the unserialize() function can be exploited to achieve arbitrary code execution by passing a JavaScript Object with an Immediately Invoked Function Expression (IIFE).
 </code>
 
-- [z0edff0x3d/CVE-2017-5941-NodeJS-RCE](https://github.com/z0edff0x3d/CVE-2017-5941-NodeJS-RCE)
+- [Frivolous-scholar/CVE-2017-5941-NodeJS-RCE](https://github.com/Frivolous-scholar/CVE-2017-5941-NodeJS-RCE)
 
 ### CVE-2017-6008 (2017-09-13)
 
@@ -26638,7 +26638,6 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [APSL/salt-shellshock](https://github.com/APSL/salt-shellshock)
 - [teedeedubya/bash-fix-exploit](https://github.com/teedeedubya/bash-fix-exploit)
 - [internero/debian-lenny-bash_3.2.52-cve-2014-6271](https://github.com/internero/debian-lenny-bash_3.2.52-cve-2014-6271)
-- [x2c3z4/shellshock_crawler](https://github.com/x2c3z4/shellshock_crawler)
 - [u20024804/bash-3.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-3.2-fixed-CVE-2014-6271)
 - [u20024804/bash-4.2-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.2-fixed-CVE-2014-6271)
 - [u20024804/bash-4.3-fixed-CVE-2014-6271](https://github.com/u20024804/bash-4.3-fixed-CVE-2014-6271)
@@ -26651,6 +26650,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [indiandragon/Shellshock-Vulnerability-Scan](https://github.com/indiandragon/Shellshock-Vulnerability-Scan)
 - [ramnes/pyshellshock](https://github.com/ramnes/pyshellshock)
 - [akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python)
+- [352926/shellshock_crawler](https://github.com/352926/shellshock_crawler)
 - [kelleykong/cve-2014-6271-mengjia-kong](https://github.com/kelleykong/cve-2014-6271-mengjia-kong)
 - [huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu)
 - [sunnyjiang/shellshocker-android](https://github.com/sunnyjiang/shellshocker-android)
