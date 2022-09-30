@@ -3332,6 +3332,7 @@ An issue was discovered on certain DrayTek Vigor routers before July 2022 such a
 - [MaX0dexpoit/CVE-2022-32548](https://github.com/MaX0dexpoit/CVE-2022-32548)
 - [Xu0Tex1/CVE-2022-32548-RCE-POC](https://github.com/Xu0Tex1/CVE-2022-32548-RCE-POC)
 - [d4rk0x00/CVE-2022-32548-batch](https://github.com/d4rk0x00/CVE-2022-32548-batch)
+- [d4rk0x00/CVE-2022-32548-RCE](https://github.com/d4rk0x00/CVE-2022-32548-RCE)
 
 ### CVE-2022-32832 (2022-09-23)
 
@@ -3719,6 +3720,7 @@ zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in infl
 </code>
 
 - [nidhi7598/external_zlib-1.2.11_AOSP_10_r33_CVE-2022-37434](https://github.com/nidhi7598/external_zlib-1.2.11_AOSP_10_r33_CVE-2022-37434)
+- [nidhi7598/external_zlib-1.2.7_CVE-2022-37434](https://github.com/nidhi7598/external_zlib-1.2.7_CVE-2022-37434)
 
 ### CVE-2022-37703 (2022-09-13)
 
@@ -3820,6 +3822,17 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
+
+### CVE-2022-41082
+- [revers0id/CVE-2022-41082-PoC](https://github.com/revers0id/CVE-2022-41082-PoC)
+
+### CVE-2022-41218 (2022-09-21)
+
+<code>
+In drivers/media/dvb-core/dmxdev.c in the Linux kernel through 5.19.10, there is a use-after-free caused by refcount races, affecting dvb_demux_open and dvb_dmxdev_release.
+</code>
+
+- [V4bel/CVE-2022-41218](https://github.com/V4bel/CVE-2022-41218)
 
 
 ## 2021
