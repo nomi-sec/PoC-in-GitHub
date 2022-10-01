@@ -571,6 +571,14 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
+### CVE-2022-3236 (2022-09-23)
+
+<code>
+A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
+</code>
+
+- [sevous/CVE-2022-3236-RCE](https://github.com/sevous/CVE-2022-3236-RCE)
+
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
 
@@ -2334,6 +2342,7 @@ Zimbra Collaboration (aka ZCS) 8.8.15 and 9.0 has mboximport functionality that 
 - [akincibor/CVE-2022-27925](https://github.com/akincibor/CVE-2022-27925)
 - [touchmycrazyredhat/CVE-2022-27925-Revshell](https://github.com/touchmycrazyredhat/CVE-2022-27925-Revshell)
 - [jam620/Zimbra](https://github.com/jam620/Zimbra)
+- [Inplex-sys/CVE-2022-27925](https://github.com/Inplex-sys/CVE-2022-27925)
 
 ### CVE-2022-27927 (2022-04-19)
 
@@ -3522,6 +3531,14 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 
 - [AngeloPioAmirante/CVE-2022-35899](https://github.com/AngeloPioAmirante/CVE-2022-35899)
 
+### CVE-2022-35914 (2022-09-19)
+
+<code>
+/vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection.
+</code>
+
+- [cactuschibre/CVE-2022-35914-poc](https://github.com/cactuschibre/CVE-2022-35914-poc)
+
 ### CVE-2022-36162
 - [MaherAzzouzi/CVE-2022-36162](https://github.com/MaherAzzouzi/CVE-2022-36162)
 
@@ -3760,6 +3777,14 @@ A misconfiguration in the Service Mode profile directory of Clash for Windows v0
 
 - [LovelyWei/CVE-2022-40126](https://github.com/LovelyWei/CVE-2022-40126)
 
+### CVE-2022-40140 (2022-09-19)
+
+<code>
+An origin validation error vulnerability in Trend Micro Apex One and Apex One as a Service could allow a local attacker to cause a denial-of-service on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.
+</code>
+
+- [0daylabin/ProxyNotShell](https://github.com/0daylabin/ProxyNotShell)
+
 ### CVE-2022-40297 (2022-09-08)
 
 <code>
@@ -3784,6 +3809,8 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 ### CVE-2022-41082
 - [jml4da/CVE-2022-41082-POC](https://github.com/jml4da/CVE-2022-41082-POC)
+- [spher0X/CVE-2022-41082-RCE](https://github.com/spher0X/CVE-2022-41082-RCE)
+- [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 
 ### CVE-2022-41218 (2022-09-21)
 
