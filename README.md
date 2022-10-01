@@ -233,7 +233,6 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [airbus-cert/dirtypipe-ebpf_detection](https://github.com/airbus-cert/dirtypipe-ebpf_detection)
 - [edr1412/Dirty-Pipe](https://github.com/edr1412/Dirty-Pipe)
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
-- [XmasSnowISBACK/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/XmasSnowISBACK/CVE-2022-0847-DirtyPipe-Exploits)
 - [EagleTube/CVE-2022-0847](https://github.com/EagleTube/CVE-2022-0847)
 - [yoeelingBin/CVE-2022-0847-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape)
 - [irwx777/CVE-2022-0847](https://github.com/irwx777/CVE-2022-0847)
@@ -299,7 +298,6 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 </code>
 
 - [killvxk/CVE-2022-1040](https://github.com/killvxk/CVE-2022-1040)
-- [XmasSnowISBACK/CVE-2022-1040](https://github.com/XmasSnowISBACK/CVE-2022-1040)
 - [APTIRAN/CVE-2022-1040](https://github.com/APTIRAN/CVE-2022-1040)
 - [jam620/Sophos-Vulnerability](https://github.com/jam620/Sophos-Vulnerability)
 
@@ -433,7 +431,6 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Wrin9/CVE-2022-1388](https://github.com/Wrin9/CVE-2022-1388)
 - [getdrive/F5-BIG-IP-exploit](https://github.com/getdrive/F5-BIG-IP-exploit)
 - [aancw/CVE-2022-1388-rs](https://github.com/aancw/CVE-2022-1388-rs)
-- [XmasSnowISBACK/CVE-2022-1388](https://github.com/XmasSnowISBACK/CVE-2022-1388)
 - [trhacknon/CVE-2022-1388](https://github.com/trhacknon/CVE-2022-1388)
 - [trhacknon/F5-CVE-2022-1388-Exploit](https://github.com/trhacknon/F5-CVE-2022-1388-Exploit)
 - [trhacknon/Exploit-F5-CVE-2022-1388](https://github.com/trhacknon/Exploit-F5-CVE-2022-1388)
@@ -573,14 +570,6 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
-
-### CVE-2022-3236 (2022-09-23)
-
-<code>
-A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
-</code>
-
-- [Xu0Tex1/CVE-2022-3236](https://github.com/Xu0Tex1/CVE-2022-3236)
 
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
@@ -841,7 +830,6 @@ WordPress is a free and open-source content management system written in PHP and
 - [PyterSmithDarkGhost/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection-main](https://github.com/PyterSmithDarkGhost/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection-main)
 - [z92g/CVE-2022-21661](https://github.com/z92g/CVE-2022-21661)
 - [QWERTYisme/CVE-2022-21661](https://github.com/QWERTYisme/CVE-2022-21661)
-- [XmasSnowISBACK/CVE-2022-21661](https://github.com/XmasSnowISBACK/CVE-2022-21661)
 
 ### CVE-2022-21668 (2022-01-10)
 
@@ -929,7 +917,6 @@ Windows Runtime Remote Code Execution Vulnerability.
 
 - [0vercl0k/CVE-2022-21971](https://github.com/0vercl0k/CVE-2022-21971)
 - [tufanturhan/CVE-2022-21971-Windows-Runtime-RCE](https://github.com/tufanturhan/CVE-2022-21971-Windows-Runtime-RCE)
-- [XmasSnowISBACK/CVE-2022-21971](https://github.com/XmasSnowISBACK/CVE-2022-21971)
 
 ### CVE-2022-21974 (2022-02-09)
 
@@ -1735,7 +1722,6 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 </code>
 
 - [sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit)
-- [XmasSnowISBACK/CVE-2022-24706](https://github.com/XmasSnowISBACK/CVE-2022-24706)
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
 - [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
 - [trhacknon/CVE-2022-24706-CouchDB-Exploit](https://github.com/trhacknon/CVE-2022-24706-CouchDB-Exploit)
@@ -2191,7 +2177,6 @@ This issue was addressed with improved checks. This issue is fixed in Security U
 </code>
 
 - [acheong08/CVE-2022-26726-POC](https://github.com/acheong08/CVE-2022-26726-POC)
-- [XmasSnowISBACK/CVE-2022-26726](https://github.com/XmasSnowISBACK/CVE-2022-26726)
 
 ### CVE-2022-26757 (2022-05-26)
 
@@ -2235,7 +2220,6 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [crypt0r00t/CVE-2022-26809](https://github.com/crypt0r00t/CVE-2022-26809)
 - [Calvitz/CVE-2022-26809](https://github.com/Calvitz/CVE-2022-26809)
-- [XmasSnowISBACK/CVE-2022-26809](https://github.com/XmasSnowISBACK/CVE-2022-26809)
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [cybersecurityresearcher/CVE-2022-26809-RCE-POC](https://github.com/cybersecurityresearcher/CVE-2022-26809-RCE-POC)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
@@ -3321,19 +3305,6 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
 
-### CVE-2022-32548 (2022-08-29)
-
-<code>
-An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
-</code>
-
-- [alexmention/CVE-2022-32548-RCE-POC](https://github.com/alexmention/CVE-2022-32548-RCE-POC)
-- [Xu0Tex1/CVE-2022-32548-Mass-Rce](https://github.com/Xu0Tex1/CVE-2022-32548-Mass-Rce)
-- [MaX0dexpoit/CVE-2022-32548](https://github.com/MaX0dexpoit/CVE-2022-32548)
-- [Xu0Tex1/CVE-2022-32548-RCE-POC](https://github.com/Xu0Tex1/CVE-2022-32548-RCE-POC)
-- [d4rk0x00/CVE-2022-32548-batch](https://github.com/d4rk0x00/CVE-2022-32548-batch)
-- [d4rk0x00/CVE-2022-32548-RCE](https://github.com/d4rk0x00/CVE-2022-32548-RCE)
-
 ### CVE-2022-32832 (2022-09-23)
 
 <code>
@@ -3386,7 +3357,6 @@ The Apache Spark UI offers the possibility to enable ACLs via the configuration 
 - [AkbarTrilaksana/cve-2022-33891](https://github.com/AkbarTrilaksana/cve-2022-33891)
 - [llraudseppll/cve-2022-33891](https://github.com/llraudseppll/cve-2022-33891)
 - [AmoloHT/CVE-2022-33891](https://github.com/AmoloHT/CVE-2022-33891)
-- [XmasSnowISBACK/CVE-2022-33891](https://github.com/XmasSnowISBACK/CVE-2022-33891)
 - [DrLinuxOfficial/CVE-2022-33891](https://github.com/DrLinuxOfficial/CVE-2022-33891)
 - [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
 
@@ -3597,7 +3567,6 @@ Bolt CMS contains a vulnerability in version 5.1.12 and below that allows an aut
 Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 before version 7.6.17, from version 7.7.0 before version 7.17.10, from version 7.18.0 before version 7.21.4, from version 8.0.0 before version 8.0.3, from version 8.1.0 before version 8.1.3, and from version 8.2.0 before version 8.2.2, and from version 8.3.0 before 8.3.1 allows remote attackers with read permissions to a public or private Bitbucket repository to execute arbitrary code by sending a malicious HTTP request. This vulnerability was reported via our Bug Bounty Program by TheGrandPew.
 </code>
 
-- [cryptolakk/CVE-2022-36804-RCE](https://github.com/cryptolakk/CVE-2022-36804-RCE)
 - [notdls/CVE-2022-36804](https://github.com/notdls/CVE-2022-36804)
 - [notxesh/CVE-2022-36804-PoC](https://github.com/notxesh/CVE-2022-36804-PoC)
 - [JRandomSage/CVE-2022-36804-MASS-RCE](https://github.com/JRandomSage/CVE-2022-36804-MASS-RCE)
@@ -3610,15 +3579,6 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
 - [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
 
-### CVE-2022-36934 (2022-09-22)
-
-<code>
-An integer overflow in WhatsApp could result in remote code execution in an established video call.
-</code>
-
-- [F1uk369/CVE-2022-36934](https://github.com/F1uk369/CVE-2022-36934)
-- [d4rk0x00/CVE-2022-36934-POC](https://github.com/d4rk0x00/CVE-2022-36934-POC)
-
 ### CVE-2022-36946 (2022-07-27)
 
 <code>
@@ -3626,7 +3586,6 @@ nfqnl_mangle in net/netfilter/nfnetlink_queue.c in the Linux kernel through 5.18
 </code>
 
 - [Pwnzer0tt1/CVE-2022-36946](https://github.com/Pwnzer0tt1/CVE-2022-36946)
-- [XmasSnowISBACK/CVE-2022-36946](https://github.com/XmasSnowISBACK/CVE-2022-36946)
 
 ### CVE-2022-37042 (2022-08-11)
 
@@ -3822,12 +3781,6 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
-
-### CVE-2022-41082
-- [revers0id/CVE-2022-41082-PoC](https://github.com/revers0id/CVE-2022-41082-PoC)
-- [TimWallbey/CVE-2022-41082-RCE](https://github.com/TimWallbey/CVE-2022-41082-RCE)
-- [TimWallbey/CVE-2022-41082-PoC](https://github.com/TimWallbey/CVE-2022-41082-PoC)
-- [R007er/CVE-2022-41082-POC](https://github.com/R007er/CVE-2022-41082-POC)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -4485,6 +4438,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.18. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 6.0 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N).
 </code>
 
+- [Sauercloud/RWCTF21-VirtualBox-61-escape](https://github.com/Sauercloud/RWCTF21-VirtualBox-61-escape)
 - [chatbottesisgmailh/Sauercloude](https://github.com/chatbottesisgmailh/Sauercloude)
 - [shi10587s/Sauercloude](https://github.com/shi10587s/Sauercloude)
 
@@ -4556,6 +4510,9 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 </code>
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
+- [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
+- [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
+- [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
 - [nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit)
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
@@ -4564,6 +4521,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [joshuavanderpoll/CVE-2021-3129](https://github.com/joshuavanderpoll/CVE-2021-3129)
 - [shadowabi/Laravel-CVE-2021-3129](https://github.com/shadowabi/Laravel-CVE-2021-3129)
 - [JacobEbben/CVE-2021-3129](https://github.com/JacobEbben/CVE-2021-3129)
+- [hupe1980/CVE-2021-3129](https://github.com/hupe1980/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -4595,9 +4553,14 @@ In Discourse 2.7.0 through beta1, a rate-limit bypass leads to a bypass of the 2
 Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
 </code>
 
+- [mr-r3b00t/CVE-2021-3156](https://github.com/mr-r3b00t/CVE-2021-3156)
+- [nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156)
 - [reverse-ex/CVE-2021-3156](https://github.com/reverse-ex/CVE-2021-3156)
+- [unauth401/CVE-2021-3156](https://github.com/unauth401/CVE-2021-3156)
 - [ymrsmns/CVE-2021-3156](https://github.com/ymrsmns/CVE-2021-3156)
+- [elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER)
 - [kernelzeroday/CVE-2021-3156-Baron-Samedit](https://github.com/kernelzeroday/CVE-2021-3156-Baron-Samedit)
+- [yaunsky/cve-2021-3156](https://github.com/yaunsky/cve-2021-3156)
 - [baka9moe/CVE-2021-3156-Exp](https://github.com/baka9moe/CVE-2021-3156-Exp)
 - [ph4ntonn/CVE-2021-3156](https://github.com/ph4ntonn/CVE-2021-3156)
 - [binw2018/CVE-2021-3156-SCRIPT](https://github.com/binw2018/CVE-2021-3156-SCRIPT)
@@ -4646,6 +4609,9 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [FrancescoMarchiori/CVE-2021-3156](https://github.com/FrancescoMarchiori/CVE-2021-3156)
 - [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
+
+### CVE-2021-3157
+- [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -5073,7 +5039,6 @@ A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_
 
 - [jbaines-r7/badblood](https://github.com/jbaines-r7/badblood)
 - [vesperp/CVE-2021-20038-SonicWall-RCE](https://github.com/vesperp/CVE-2021-20038-SonicWall-RCE)
-- [MaX0dexpoit/CVE-2021-20038](https://github.com/MaX0dexpoit/CVE-2021-20038)
 
 ### CVE-2021-20138 (2021-12-09)
 
@@ -5919,7 +5884,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 </code>
 
 - [sirpedrotavares/Proxylogon-exploit](https://github.com/sirpedrotavares/Proxylogon-exploit)
-- [cryptolakk/ProxyLogon-Mass-RCE](https://github.com/cryptolakk/ProxyLogon-Mass-RCE)
 
 ### CVE-2021-26868 (2021-03-11)
 
@@ -7859,6 +7823,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
+- [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
@@ -7932,7 +7897,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
 - [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
-- [razz0r/CVE-2021-44228-Mass-RCE](https://github.com/razz0r/CVE-2021-44228-Mass-RCE)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [CERTCC/CVE-2021-44228_scanner](https://github.com/CERTCC/CVE-2021-44228_scanner)
@@ -7956,6 +7920,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
+- [ubitech/cve-2021-44228-rce-poc](https://github.com/ubitech/cve-2021-44228-rce-poc)
 - [rv4l3r3/log4v-vuln-check](https://github.com/rv4l3r3/log4v-vuln-check)
 - [dpomnean/log4j_scanner_wrapper](https://github.com/dpomnean/log4j_scanner_wrapper)
 - [roxas-tan/CVE-2021-44228](https://github.com/roxas-tan/CVE-2021-44228)
