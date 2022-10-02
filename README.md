@@ -3002,6 +3002,14 @@ The Linux kernel before 5.17.2 mishandles seccomp permissions. The PTRACE_SEIZE 
 
 - [nidhi7598/linux-4.19.72_CVE-2022-30594](https://github.com/nidhi7598/linux-4.19.72_CVE-2022-30594)
 
+### CVE-2022-30600 (2022-05-18)
+
+<code>
+A flaw was found in moodle where logic used to count failed login attempts could result in the account lockout threshold being bypassed.
+</code>
+
+- [Boonjune/POC-CVE-2022-30600](https://github.com/Boonjune/POC-CVE-2022-30600)
+
 ### CVE-2022-30778
 - [kang8/CVE-2022-30778](https://github.com/kang8/CVE-2022-30778)
 
@@ -3748,6 +3756,14 @@ A misconfiguration in the Service Mode profile directory of Clash for Windows v0
 
 - [LovelyWei/CVE-2022-40126](https://github.com/LovelyWei/CVE-2022-40126)
 
+### CVE-2022-40140 (2022-09-19)
+
+<code>
+An origin validation error vulnerability in Trend Micro Apex One and Apex One as a Service could allow a local attacker to cause a denial-of-service on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.
+</code>
+
+- [mr-r3b00t/NotProxyShellHunter](https://github.com/mr-r3b00t/NotProxyShellHunter)
+
 ### CVE-2022-40297 (2022-09-08)
 
 <code>
@@ -3770,8 +3786,15 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
 
+### CVE-2022-41040
+- [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
+
 ### CVE-2022-41082
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
+- [krc0m/CVE-2022-41082](https://github.com/krc0m/CVE-2022-41082)
+
+### CVE-2022-41208
+- [L34ked/CVE-2022-41208](https://github.com/L34ked/CVE-2022-41208)
 
 ### CVE-2022-41218 (2022-09-21)
 
