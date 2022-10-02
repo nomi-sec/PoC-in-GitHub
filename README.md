@@ -3528,7 +3528,7 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection.
 </code>
 
-- [cactuschibre/CVE-2022-35914-poc](https://github.com/cactuschibre/CVE-2022-35914-poc)
+- [cosad3s/CVE-2022-35914-poc](https://github.com/cosad3s/CVE-2022-35914-poc)
 
 ### CVE-2022-36162
 - [MaherAzzouzi/CVE-2022-36162](https://github.com/MaherAzzouzi/CVE-2022-36162)
