@@ -571,14 +571,6 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
-### CVE-2022-3236 (2022-09-23)
-
-<code>
-A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
-</code>
-
-- [sevous/CVE-2022-3236-RCE](https://github.com/sevous/CVE-2022-3236-RCE)
-
 ### CVE-2022-3452
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
 
@@ -3756,14 +3748,6 @@ A misconfiguration in the Service Mode profile directory of Clash for Windows v0
 
 - [LovelyWei/CVE-2022-40126](https://github.com/LovelyWei/CVE-2022-40126)
 
-### CVE-2022-40140 (2022-09-19)
-
-<code>
-An origin validation error vulnerability in Trend Micro Apex One and Apex One as a Service could allow a local attacker to cause a denial-of-service on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.
-</code>
-
-- [0daylabin/ProxyNotShell](https://github.com/0daylabin/ProxyNotShell)
-
 ### CVE-2022-40297 (2022-09-08)
 
 <code>
@@ -3787,8 +3771,6 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
 
 ### CVE-2022-41082
-- [jml4da/CVE-2022-41082-POC](https://github.com/jml4da/CVE-2022-41082-POC)
-- [spher0X/CVE-2022-41082-RCE](https://github.com/spher0X/CVE-2022-41082-RCE)
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 
 ### CVE-2022-41218 (2022-09-21)
@@ -7929,7 +7911,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
-- [ubitech/cve-2021-44228-rce-poc](https://github.com/ubitech/cve-2021-44228-rce-poc)
 - [rv4l3r3/log4v-vuln-check](https://github.com/rv4l3r3/log4v-vuln-check)
 - [dpomnean/log4j_scanner_wrapper](https://github.com/dpomnean/log4j_scanner_wrapper)
 - [roxas-tan/CVE-2021-44228](https://github.com/roxas-tan/CVE-2021-44228)
@@ -8217,6 +8198,7 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 
 - [X1pe0/Log4J-Scan-Win](https://github.com/X1pe0/Log4J-Scan-Win)
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
+- [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 - [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
 - [lukepasek/log4jjndilookupremove](https://github.com/lukepasek/log4jjndilookupremove)
@@ -20391,6 +20373,7 @@ MikroTik RouterOS through 6.42 allows unauthenticated remote attackers to read a
 - [sinichi449/Python-MikrotikLoginExploit](https://github.com/sinichi449/Python-MikrotikLoginExploit)
 - [yukar1z0e/CVE-2018-14847](https://github.com/yukar1z0e/CVE-2018-14847)
 - [hacker30468/Mikrotik-router-hack](https://github.com/hacker30468/Mikrotik-router-hack)
+- [flux10n/CVE-2018-14847](https://github.com/flux10n/CVE-2018-14847)
 
 ### CVE-2018-15131 (2019-05-30)
 
