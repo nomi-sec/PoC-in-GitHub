@@ -3002,14 +3002,6 @@ The Linux kernel before 5.17.2 mishandles seccomp permissions. The PTRACE_SEIZE 
 
 - [nidhi7598/linux-4.19.72_CVE-2022-30594](https://github.com/nidhi7598/linux-4.19.72_CVE-2022-30594)
 
-### CVE-2022-30600 (2022-05-18)
-
-<code>
-A flaw was found in moodle where logic used to count failed login attempts could result in the account lockout threshold being bypassed.
-</code>
-
-- [Boonjune/POC-CVE-2022-30600](https://github.com/Boonjune/POC-CVE-2022-30600)
-
 ### CVE-2022-30778
 - [kang8/CVE-2022-30778](https://github.com/kang8/CVE-2022-30778)
 
@@ -4761,6 +4753,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
+- [Senz4wa/CVE-2021-3493](https://github.com/Senz4wa/CVE-2021-3493)
 
 ### CVE-2021-3560 (2022-02-16)
 
@@ -4990,6 +4983,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Naughty-SEC/pkexec-shell-executor](https://github.com/Naughty-SEC/pkexec-shell-executor)
 - [1337Rin/CVE-2021-4034](https://github.com/1337Rin/CVE-2021-4034)
 - [flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034)
+- [Senz4wa/CVE-2021-4034](https://github.com/Senz4wa/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -5682,7 +5676,6 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646)
 - [Ormicron/CVE-2021-25646-GUI](https://github.com/Ormicron/CVE-2021-25646-GUI)
 - [Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646)
-- [1n7erface/PocList](https://github.com/1n7erface/PocList)
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
 
 ### CVE-2021-25679 (2021-04-20)
@@ -7693,7 +7686,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
-- [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
 - [k3rwin/CVE-2021-43798-Grafana](https://github.com/k3rwin/CVE-2021-43798-Grafana)
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
@@ -7837,7 +7829,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
-- [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
@@ -10296,6 +10287,7 @@ LinuxKI v6.0-1 and earlier is vulnerable to an remote code execution which is re
 A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An attacker can upload a malicious PHP code file via the profile photo functionality, by leveraging a path traversal vulnerability in the users['photop_preview'] delete photo feature, allowing bypass of .htaccess protection. NOTE: this issue exists because of an incomplete fix for CVE-2015-3884.
 </code>
 
+- [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
 - [arafatansari/SecAssignment](https://github.com/arafatansari/SecAssignment)
 - [pswalia2u/CVE-2020-7246](https://github.com/pswalia2u/CVE-2020-7246)
 
@@ -12102,7 +12094,6 @@ Vulnerability in the Oracle Solaris product of Oracle Systems (component: Plugga
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [jas502n/CVE-2020-14882](https://github.com/jas502n/CVE-2020-14882)
 - [s1kr10s/CVE-2020-14882](https://github.com/s1kr10s/CVE-2020-14882)
 - [Umarovm/-Patched-McMaster-University-Blind-Command-Injection](https://github.com/Umarovm/-Patched-McMaster-University-Blind-Command-Injection)
@@ -12140,7 +12131,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [B1anda0/CVE-2020-14883](https://github.com/B1anda0/CVE-2020-14883)
 - [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
-- [1n7erface/PocList](https://github.com/1n7erface/PocList)
 
 ### CVE-2020-14947 (2020-06-30)
 
@@ -17292,7 +17282,6 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 </code>
 
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
-- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
 - [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
 
