@@ -3778,12 +3778,25 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
 
-### CVE-2022-41040
-- [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
+### CVE-2022-41040 (2022-10-02)
 
-### CVE-2022-41082
+<code>
+Microsoft Exchange Server Elevation of Privilege Vulnerability.
+</code>
+
+- [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
+- [k1vin-beaumont/CVE-2022-41040-RCE-POC](https://github.com/k1vin-beaumont/CVE-2022-41040-RCE-POC)
+
+### CVE-2022-41082 (2022-10-02)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability.
+</code>
+
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 - [krc0m/CVE-2022-41082](https://github.com/krc0m/CVE-2022-41082)
+- [k1vin-beaumont/CVE-2022-41082-RCE-POC](https://github.com/k1vin-beaumont/CVE-2022-41082-RCE-POC)
+- [krc0m/CVE-2022-41082-POC](https://github.com/krc0m/CVE-2022-41082-POC)
 
 ### CVE-2022-41208
 - [L34ked/CVE-2022-41208](https://github.com/L34ked/CVE-2022-41208)
@@ -22819,6 +22832,7 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [jongmartinez/-CVE-2017-9805-](https://github.com/jongmartinez/-CVE-2017-9805-)
 - [z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805)
 - [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
+- [Shakun8/CVE-2017-9805](https://github.com/Shakun8/CVE-2017-9805)
 
 ### CVE-2017-9822 (2017-07-20)
 
