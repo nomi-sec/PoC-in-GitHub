@@ -3526,6 +3526,7 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 </code>
 
 - [cosad3s/CVE-2022-35914-poc](https://github.com/cosad3s/CVE-2022-35914-poc)
+- [AruiBlog/CVE-2022-35914-GUI](https://github.com/AruiBlog/CVE-2022-35914-GUI)
 
 ### CVE-2022-36162
 - [MaherAzzouzi/CVE-2022-36162](https://github.com/MaherAzzouzi/CVE-2022-36162)
@@ -3795,6 +3796,8 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
 - [CentarisCyber/CVE-2022-41040_Mitigation](https://github.com/CentarisCyber/CVE-2022-41040_Mitigation)
+- [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
+- [kevin-beaum0nt/CVE-2022-41040-RCE-POC](https://github.com/kevin-beaum0nt/CVE-2022-41040-RCE-POC)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -3803,6 +3806,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
+- [kevin-beaum0nt/CVE-2022-41082-RCE-POC](https://github.com/kevin-beaum0nt/CVE-2022-41082-RCE-POC)
 
 ### CVE-2022-41218 (2022-09-21)
 
