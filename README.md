@@ -2207,7 +2207,6 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [jones199023/CVE-2022-26809](https://github.com/jones199023/CVE-2022-26809)
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
 - [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
-- [ZyxelTeam/CVE-2022-26809-RCE](https://github.com/ZyxelTeam/CVE-2022-26809-RCE)
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
@@ -3583,6 +3582,7 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [trhacknon/CVE-2022-36804-ReverseShell](https://github.com/trhacknon/CVE-2022-36804-ReverseShell)
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
 - [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
+- [ColdFusionX/CVE-2022-36804](https://github.com/ColdFusionX/CVE-2022-36804)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -3795,7 +3795,6 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
 - [CentarisCyber/CVE-2022-41040_Mitigation](https://github.com/CentarisCyber/CVE-2022-41040_Mitigation)
-- [kevin-beaumont/CVE-2022-41040-RCE-POC](https://github.com/kevin-beaumont/CVE-2022-41040-RCE-POC)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -3804,7 +3803,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
-- [kevin-beaumont/CVE-2022-41082-RCE-POC](https://github.com/kevin-beaumont/CVE-2022-41082-RCE-POC)
 
 ### CVE-2022-41218 (2022-09-21)
 
