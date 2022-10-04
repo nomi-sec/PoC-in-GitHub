@@ -2036,6 +2036,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [KeepWannabe/BotCon](https://github.com/KeepWannabe/BotCon)
 - [trhacknon/CVE-2022-26134](https://github.com/trhacknon/CVE-2022-26134)
 - [trhacknon/CVE-2022-26134-bis](https://github.com/trhacknon/CVE-2022-26134-bis)
+- [trhacknon/CVE-2022-26134-miam](https://github.com/trhacknon/CVE-2022-26134-miam)
 - [Chocapikk/CVE-2022-26134](https://github.com/Chocapikk/CVE-2022-26134)
 - [AmoloHT/CVE-2022-26134](https://github.com/AmoloHT/CVE-2022-26134)
 - [kh4sh3i/CVE-2022-26134](https://github.com/kh4sh3i/CVE-2022-26134)
@@ -2856,6 +2857,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Gra3s/CVE-2022-30190-Follina-PowerPoint-Version](https://github.com/Gra3s/CVE-2022-30190-Follina-PowerPoint-Version)
 - [EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-)
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
+- [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -3793,6 +3795,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
 - [CentarisCyber/CVE-2022-41040_Mitigation](https://github.com/CentarisCyber/CVE-2022-41040_Mitigation)
+- [kevin-beaumont/CVE-2022-41040-RCE-POC](https://github.com/kevin-beaumont/CVE-2022-41040-RCE-POC)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -3801,7 +3804,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
-- [b3w7/CVE-2022-41082-Scanner](https://github.com/b3w7/CVE-2022-41082-Scanner)
+- [kevin-beaumont/CVE-2022-41082-RCE-POC](https://github.com/kevin-beaumont/CVE-2022-41082-RCE-POC)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -5283,6 +5286,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
 - [orangmuda/CVE-2021-21972](https://github.com/orangmuda/CVE-2021-21972)
 - [user16-et/cve-2021-21972_PoC](https://github.com/user16-et/cve-2021-21972_PoC)
+- [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -7915,7 +7919,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [CERTCC/CVE-2021-44228_scanner](https://github.com/CERTCC/CVE-2021-44228_scanner)
 - [dbzoo/log4j_scanner](https://github.com/dbzoo/log4j_scanner)
-- [jeremyrsellars/CVE-2021-44228_scanner](https://github.com/jeremyrsellars/CVE-2021-44228_scanner)
 - [JustinDPerkins/C1-WS-LOG4SHELL](https://github.com/JustinDPerkins/C1-WS-LOG4SHELL)
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
