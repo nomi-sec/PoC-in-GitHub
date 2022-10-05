@@ -3526,7 +3526,6 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 </code>
 
 - [cosad3s/CVE-2022-35914-poc](https://github.com/cosad3s/CVE-2022-35914-poc)
-- [AruiBlog/CVE-2022-35914-GUI](https://github.com/AruiBlog/CVE-2022-35914-GUI)
 
 ### CVE-2022-36162
 - [MaherAzzouzi/CVE-2022-36162](https://github.com/MaherAzzouzi/CVE-2022-36162)
@@ -3584,6 +3583,7 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
 - [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
 - [ColdFusionX/CVE-2022-36804](https://github.com/ColdFusionX/CVE-2022-36804)
+- [qiwentaidi/CVE-2022-36804](https://github.com/qiwentaidi/CVE-2022-36804)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -3795,7 +3795,6 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 </code>
 
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
-- [CentarisCyber/CVE-2022-41040_Mitigation](https://github.com/CentarisCyber/CVE-2022-41040_Mitigation)
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
 
 ### CVE-2022-41082 (2022-10-02)
@@ -3805,7 +3804,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
-- [V1v3ns/CVE-2022-41082-RCE](https://github.com/V1v3ns/CVE-2022-41082-RCE)
 
 ### CVE-2022-41218 (2022-09-21)
 
