@@ -3797,7 +3797,6 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
 - [CentarisCyber/CVE-2022-41040_Mitigation](https://github.com/CentarisCyber/CVE-2022-41040_Mitigation)
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
-- [kevin-beaum0nt/CVE-2022-41040-RCE-POC](https://github.com/kevin-beaum0nt/CVE-2022-41040-RCE-POC)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -3806,7 +3805,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
-- [kevin-beaum0nt/CVE-2022-41082-RCE-POC](https://github.com/kevin-beaum0nt/CVE-2022-41082-RCE-POC)
+- [V1v3ns/CVE-2022-41082-RCE](https://github.com/V1v3ns/CVE-2022-41082-RCE)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -4773,7 +4772,6 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
-- [Senz4wa/CVE-2021-3493](https://github.com/Senz4wa/CVE-2021-3493)
 
 ### CVE-2021-3560 (2022-02-16)
 
@@ -4860,7 +4858,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [clubby789/CVE-2021-4034](https://github.com/clubby789/CVE-2021-4034)
 - [gbrsh/CVE-2021-4034](https://github.com/gbrsh/CVE-2021-4034)
-- [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [JohnHammond/CVE-2021-4034](https://github.com/JohnHammond/CVE-2021-4034)
 - [Audiobahn/CVE-2021-4034](https://github.com/Audiobahn/CVE-2021-4034)
 - [dzonerzy/poc-cve-2021-4034](https://github.com/dzonerzy/poc-cve-2021-4034)
@@ -5003,7 +5000,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Naughty-SEC/pkexec-shell-executor](https://github.com/Naughty-SEC/pkexec-shell-executor)
 - [1337Rin/CVE-2021-4034](https://github.com/1337Rin/CVE-2021-4034)
 - [flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034)
-- [Senz4wa/CVE-2021-4034](https://github.com/Senz4wa/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -7316,7 +7312,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mightysai1997/CVE-2021-41773S](https://github.com/mightysai1997/CVE-2021-41773S)
 - [dileepdkumar/LayarKacaSiber-CVE-2021-41773](https://github.com/dileepdkumar/LayarKacaSiber-CVE-2021-41773)
 - [sne4ker/apache-CVE-2021-41773-CVE-2021-42013](https://github.com/sne4ker/apache-CVE-2021-41773-CVE-2021-42013)
-- [Juuso1337/CVE-2021-41773](https://github.com/Juuso1337/CVE-2021-41773)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -7791,14 +7786,6 @@ The software allows the attacker to upload or transfer files of dangerous types 
 
 - [LongWayHomie/CVE-2021-43936](https://github.com/LongWayHomie/CVE-2021-43936)
 
-### CVE-2021-44077 (2021-11-28)
-
-<code>
-Zoho ManageEngine ServiceDesk Plus before 11306, ServiceDesk Plus MSP before 10530, and SupportCenter Plus before 11014 are vulnerable to unauthenticated remote code execution. This is related to /RestAPI URLs in a servlet, and ImportTechnicians in the Struts configuration.
-</code>
-
-- [pizza-power/Golang-CVE-2021-44077-POC](https://github.com/pizza-power/Golang-CVE-2021-44077-POC)
-
 ### CVE-2021-44117 (2022-06-10)
 
 <code>
@@ -7864,6 +7851,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
 - [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
+- [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
@@ -7917,10 +7905,12 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
 - [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
+- [stripe/log4j-remediation-tools](https://github.com/stripe/log4j-remediation-tools)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [CERTCC/CVE-2021-44228_scanner](https://github.com/CERTCC/CVE-2021-44228_scanner)
 - [dbzoo/log4j_scanner](https://github.com/dbzoo/log4j_scanner)
+- [jeremyrsellars/CVE-2021-44228_scanner](https://github.com/jeremyrsellars/CVE-2021-44228_scanner)
 - [JustinDPerkins/C1-WS-LOG4SHELL](https://github.com/JustinDPerkins/C1-WS-LOG4SHELL)
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
@@ -7936,6 +7926,8 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
 - [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
 - [VerveIndustrialProtection/CVE-2021-44228-Log4j](https://github.com/VerveIndustrialProtection/CVE-2021-44228-Log4j)
+- [alenazi90/log4j](https://github.com/alenazi90/log4j)
+- [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
 - [LiveOverflow/log4shell](https://github.com/LiveOverflow/log4shell)
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
@@ -8045,7 +8037,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
 - [marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.](https://github.com/marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.)
 - [marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV](https://github.com/marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV)
-- [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
 - [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
@@ -8227,6 +8218,7 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
 - [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 - [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
+- [pravin-pp/log4j2-CVE-2021-45046](https://github.com/pravin-pp/log4j2-CVE-2021-45046)
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
 - [lukepasek/log4jjndilookupremove](https://github.com/lukepasek/log4jjndilookupremove)
 - [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
@@ -12113,7 +12105,6 @@ Vulnerability in the Oracle Solaris product of Oracle Systems (component: Plugga
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [jas502n/CVE-2020-14882](https://github.com/jas502n/CVE-2020-14882)
 - [s1kr10s/CVE-2020-14882](https://github.com/s1kr10s/CVE-2020-14882)
 - [Umarovm/-Patched-McMaster-University-Blind-Command-Injection](https://github.com/Umarovm/-Patched-McMaster-University-Blind-Command-Injection)
@@ -17302,7 +17293,6 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 </code>
 
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
-- [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
 - [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
 
