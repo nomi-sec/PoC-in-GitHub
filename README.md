@@ -23129,6 +23129,14 @@ A authentication bypass and execution of code vulnerability in HPE Integrated Li
 - [skelsec/CVE-2017-12542](https://github.com/skelsec/CVE-2017-12542)
 - [sk1dish/ilo4-rce-vuln-scanner](https://github.com/sk1dish/ilo4-rce-vuln-scanner)
 
+### CVE-2017-12561 (2018-02-15)
+
+<code>
+A remote code execution vulnerability in HPE intelligent Management Center (iMC) PLAT version Plat 7.3 E0504P4 and earlier was found.
+</code>
+
+- [Everdoh/CVE-2017-12561](https://github.com/Everdoh/CVE-2017-12561)
+
 ### CVE-2017-12611 (2017-09-20)
 
 <code>
@@ -27303,6 +27311,14 @@ Xen 4.2.x and 4.3.x, when using Intel VT-d for PCI passthrough, does not properl
 </code>
 
 - [bl4ck5un/cve-2013-6375](https://github.com/bl4ck5un/cve-2013-6375)
+
+### CVE-2013-6490 (2014-02-06)
+
+<code>
+The SIMPLE protocol functionality in Pidgin before 2.10.8 allows remote attackers to have an unspecified impact via a negative Content-Length header, which triggers a buffer overflow.
+</code>
+
+- [Everdoh/CVE-2013-6490](https://github.com/Everdoh/CVE-2013-6490)
 
 ### CVE-2013-6668 (2014-03-04)
 
