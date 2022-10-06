@@ -2857,6 +2857,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-)
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
 - [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
+- [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -3797,6 +3798,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
 - [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
+- [kev-beaumont/CVE-2022-41040-RCE-POC](https://github.com/kev-beaumont/CVE-2022-41040-RCE-POC)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -3805,6 +3807,8 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
+- [kev-beaumont/CVE-2022-41082-RCE-POC](https://github.com/kev-beaumont/CVE-2022-41082-RCE-POC)
+- [V1rpo/CVE-2022-41082-MASS-RCE](https://github.com/V1rpo/CVE-2022-41082-MASS-RCE)
 
 ### CVE-2022-41218 (2022-09-21)
 
