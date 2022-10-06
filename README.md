@@ -3796,6 +3796,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
+- [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
 
 ### CVE-2022-41082 (2022-10-02)
 
