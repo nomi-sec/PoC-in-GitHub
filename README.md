@@ -3798,7 +3798,6 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
 - [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
-- [kev-beaumont/CVE-2022-41040-RCE-POC](https://github.com/kev-beaumont/CVE-2022-41040-RCE-POC)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -3807,8 +3806,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
-- [kev-beaumont/CVE-2022-41082-RCE-POC](https://github.com/kev-beaumont/CVE-2022-41082-RCE-POC)
-- [V1rpo/CVE-2022-41082-MASS-RCE](https://github.com/V1rpo/CVE-2022-41082-MASS-RCE)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -7316,6 +7313,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mightysai1997/CVE-2021-41773S](https://github.com/mightysai1997/CVE-2021-41773S)
 - [dileepdkumar/LayarKacaSiber-CVE-2021-41773](https://github.com/dileepdkumar/LayarKacaSiber-CVE-2021-41773)
 - [sne4ker/apache-CVE-2021-41773-CVE-2021-42013](https://github.com/sne4ker/apache-CVE-2021-41773-CVE-2021-42013)
+- [Juuso1337/CVE-2021-41773](https://github.com/Juuso1337/CVE-2021-41773)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -7855,7 +7853,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
 - [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
-- [chilliwebs/CVE-2021-44228_Example](https://github.com/chilliwebs/CVE-2021-44228_Example)
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [alexandre-lavoie/python-log4rce](https://github.com/alexandre-lavoie/python-log4rce)
@@ -8221,7 +8218,6 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
 - [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 - [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
-- [pravin-pp/log4j2-CVE-2021-45046](https://github.com/pravin-pp/log4j2-CVE-2021-45046)
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
 - [lukepasek/log4jjndilookupremove](https://github.com/lukepasek/log4jjndilookupremove)
 - [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
@@ -9461,9 +9457,9 @@ A remote code execution vulnerability exists in Windows Domain Name System serve
 - [connormcgarr/CVE-2020-1350](https://github.com/connormcgarr/CVE-2020-1350)
 - [graph-inc/CVE-2020-1350](https://github.com/graph-inc/CVE-2020-1350)
 - [CVEmaster/CVE-2020-1350](https://github.com/CVEmaster/CVE-2020-1350)
-- [Secuora-Org/CVE-2020-1350-checker.ps1](https://github.com/Secuora-Org/CVE-2020-1350-checker.ps1)
 - [gdwnet/cve-2020-1350](https://github.com/gdwnet/cve-2020-1350)
 - [simeononsecurity/CVE-2020-1350-Fix](https://github.com/simeononsecurity/CVE-2020-1350-Fix)
+- [5l1v3r1/CVE-2020-1350-checker.ps1](https://github.com/5l1v3r1/CVE-2020-1350-checker.ps1)
 
 ### CVE-2020-1362 (2020-07-14)
 
@@ -16476,6 +16472,14 @@ An HTTP parameter pollution issue was discovered on Shenzhen Dragon Brothers Fin
 </code>
 
 - [securelayer7/pwnfb50](https://github.com/securelayer7/pwnfb50)
+
+### CVE-2019-13144 (2019-07-05)
+
+<code>
+myTinyTodo 1.3.3 through 1.4.3 allows CSV Injection. This is fixed in 1.5.
+</code>
+
+- [cccaaasser/CVE-2019-13144](https://github.com/cccaaasser/CVE-2019-13144)
 
 ### CVE-2019-13272 (2019-07-17)
 
