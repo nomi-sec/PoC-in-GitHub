@@ -2204,9 +2204,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [auduongxuan/CVE-2022-26809](https://github.com/auduongxuan/CVE-2022-26809)
 - [corelight/cve-2022-26809](https://github.com/corelight/cve-2022-26809)
 - [UNDESC0N0CID0/CVE-2022-26809-RCE](https://github.com/UNDESC0N0CID0/CVE-2022-26809-RCE)
-- [jones199023/CVE-2022-26809](https://github.com/jones199023/CVE-2022-26809)
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
-- [roger109/CVE-2022-26809-RCE-POC](https://github.com/roger109/CVE-2022-26809-RCE-POC)
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
@@ -3199,6 +3197,14 @@ Nortek Linear eMerge E3-Series devices before 0.32-08f allow an unauthenticated 
 
 - [omarhashem123/CVE-2022-31499](https://github.com/omarhashem123/CVE-2022-31499)
 
+### CVE-2022-31629 (2022-09-28)
+
+<code>
+In PHP versions before 7.4.31, 8.0.24 and 8.1.11, the vulnerability enables network and same-site attackers to set a standard insecure cookie in the victim's browser which is treated as a `__Host-` or `__Secure-` cookie by PHP applications.
+</code>
+
+- [SilNex/CVE-2022-31629-poc](https://github.com/SilNex/CVE-2022-31629-poc)
+
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 - [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
@@ -3431,6 +3437,7 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 - [merlinepedra/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra/CVE-2022-34918-LPE-PoC)
 - [linulinu/CVE-2022-34918](https://github.com/linulinu/CVE-2022-34918)
 - [veritas501/CVE-2022-34918](https://github.com/veritas501/CVE-2022-34918)
+- [Sechack06/CVE-2022-34918](https://github.com/Sechack06/CVE-2022-34918)
 
 ### CVE-2022-34919 (2022-08-22)
 
@@ -3766,6 +3773,7 @@ An origin validation error vulnerability in Trend Micro Apex One and Apex One as
 </code>
 
 - [mr-r3b00t/NotProxyShellHunter](https://github.com/mr-r3b00t/NotProxyShellHunter)
+- [ZephrFish/NotProxyShellScanner](https://github.com/ZephrFish/NotProxyShellScanner)
 
 ### CVE-2022-40297 (2022-09-08)
 
@@ -6173,6 +6181,14 @@ An issue was discovered in the Linux kernel through 5.11.x. kernel/bpf/verifier.
 
 - [Kakashiiiiy/CVE-2021-29155](https://github.com/Kakashiiiiy/CVE-2021-29155)
 
+### CVE-2021-29156 (2021-03-25)
+
+<code>
+ForgeRock OpenAM before 13.5.1 allows LDAP injection via the Webfinger protocol. For example, an unauthenticated attacker can perform character-by-character retrieval of password hashes, or retrieve a session token or a private key.
+</code>
+
+- [5amu/CVE-2021-29156](https://github.com/5amu/CVE-2021-29156)
+
 ### CVE-2021-29200 (2021-04-27)
 
 <code>
@@ -7906,7 +7922,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
 - [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
-- [stripe/log4j-remediation-tools](https://github.com/stripe/log4j-remediation-tools)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [CERTCC/CVE-2021-44228_scanner](https://github.com/CERTCC/CVE-2021-44228_scanner)
