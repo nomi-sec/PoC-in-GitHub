@@ -300,6 +300,7 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 - [killvxk/CVE-2022-1040](https://github.com/killvxk/CVE-2022-1040)
 - [APTIRAN/CVE-2022-1040](https://github.com/APTIRAN/CVE-2022-1040)
 - [jam620/Sophos-Vulnerability](https://github.com/jam620/Sophos-Vulnerability)
+- [Keith-amateur/cve-2022-1040](https://github.com/Keith-amateur/cve-2022-1040)
 
 ### CVE-2022-1051 (2022-05-16)
 
@@ -907,6 +908,7 @@ Windows Runtime Remote Code Execution Vulnerability.
 
 - [0vercl0k/CVE-2022-21971](https://github.com/0vercl0k/CVE-2022-21971)
 - [tufanturhan/CVE-2022-21971-Windows-Runtime-RCE](https://github.com/tufanturhan/CVE-2022-21971-Windows-Runtime-RCE)
+- [Malwareman007/CVE-2022-21971](https://github.com/Malwareman007/CVE-2022-21971)
 
 ### CVE-2022-21974 (2022-02-09)
 
@@ -1267,7 +1269,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [Iyamroshan/CVE-2022-22965](https://github.com/Iyamroshan/CVE-2022-22965)
+- [Iyamnabeen/CVE-2022-22965](https://github.com/Iyamnabeen/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -2235,6 +2237,7 @@ Windows Network File System Remote Code Execution Vulnerability.
 
 - [corelight/CVE-2022-26937](https://github.com/corelight/CVE-2022-26937)
 - [omair2084/CVE-2022-26937](https://github.com/omair2084/CVE-2022-26937)
+- [Malwareman007/CVE-2022-26937](https://github.com/Malwareman007/CVE-2022-26937)
 
 ### CVE-2022-27134 (2022-05-12)
 
@@ -3804,6 +3807,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 </code>
 
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
+- [CentarisCyber/CVE-2022-41040_Mitigation](https://github.com/CentarisCyber/CVE-2022-41040_Mitigation)
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
 - [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
 
