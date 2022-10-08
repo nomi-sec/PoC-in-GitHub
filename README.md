@@ -1272,7 +1272,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
+- [c5pider/CVE-2022-22965](https://github.com/c5pider/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -3831,6 +3831,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
 - [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
 - [kevibeaumont/CVE-2022-41040-RCE-POC](https://github.com/kevibeaumont/CVE-2022-41040-RCE-POC)
+- [gitzero0/ProxyNotShell](https://github.com/gitzero0/ProxyNotShell)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -4670,6 +4671,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [FrancescoMarchiori/CVE-2021-3156](https://github.com/FrancescoMarchiori/CVE-2021-3156)
 - [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
+- [c5pider/CVE-2021-3156](https://github.com/c5pider/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -7479,6 +7481,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability
 
 - [timb-machine-mirrors/CVE-2021-42321_poc](https://github.com/timb-machine-mirrors/CVE-2021-42321_poc)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
+- [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
 
 ### CVE-2021-42327 (2021-10-21)
 
@@ -7753,6 +7756,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
+- [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
 
 ### CVE-2021-43811 (2021-12-08)
 
@@ -7878,7 +7882,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
-- [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
@@ -7895,7 +7898,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
-- [js-on/jndiRep](https://github.com/js-on/jndiRep)
 - [Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs](https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs)
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
@@ -7976,7 +7978,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
-- [ubitech/cve-2021-44228-rce-poc](https://github.com/ubitech/cve-2021-44228-rce-poc)
 - [rv4l3r3/log4v-vuln-check](https://github.com/rv4l3r3/log4v-vuln-check)
 - [dpomnean/log4j_scanner_wrapper](https://github.com/dpomnean/log4j_scanner_wrapper)
 - [roxas-tan/CVE-2021-44228](https://github.com/roxas-tan/CVE-2021-44228)
@@ -15528,6 +15529,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 - [padsalatushal/CVE-2019-9053](https://github.com/padsalatushal/CVE-2019-9053)
 - [maraspiras/46635.py](https://github.com/maraspiras/46635.py)
 - [4nner/CVE-2019-9053](https://github.com/4nner/CVE-2019-9053)
+- [zmiddle/Simple_CMS_SQLi](https://github.com/zmiddle/Simple_CMS_SQLi)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
