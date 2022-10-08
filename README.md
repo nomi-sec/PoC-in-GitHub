@@ -569,6 +569,9 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 
 - [avboy1337/CVE-2022-2639-PipeVersion](https://github.com/avboy1337/CVE-2022-2639-PipeVersion)
 
+### CVE-2022-2992
+- [CsEnox/CVE-2022-2992](https://github.com/CsEnox/CVE-2022-2992)
+
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
@@ -1269,7 +1272,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [Iyamnabeen/CVE-2022-22965](https://github.com/Iyamnabeen/CVE-2022-22965)
+- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -1792,6 +1795,9 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 - [0xf4n9x/CVE-2022-24990](https://github.com/0xf4n9x/CVE-2022-24990)
 - [lishang520/CVE-2022-24990](https://github.com/lishang520/CVE-2022-24990)
 - [antx-code/CVE-2022-24990](https://github.com/antx-code/CVE-2022-24990)
+
+### CVE-2022-24999
+- [n8tz/CVE-2022-24999](https://github.com/n8tz/CVE-2022-24999)
 
 ### CVE-2022-25018 (2022-02-28)
 
@@ -3313,6 +3319,14 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
 
+### CVE-2022-32548 (2022-08-29)
+
+<code>
+An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
+</code>
+
+- [uisvit/CVE-2022-32548-MASS-RCE](https://github.com/uisvit/CVE-2022-32548-MASS-RCE)
+
 ### CVE-2022-32832 (2022-09-23)
 
 <code>
@@ -3816,6 +3830,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [CentarisCyber/CVE-2022-41040_Mitigation](https://github.com/CentarisCyber/CVE-2022-41040_Mitigation)
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
 - [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
+- [kevibeaumont/CVE-2022-41040-RCE-POC](https://github.com/kevibeaumont/CVE-2022-41040-RCE-POC)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -3824,6 +3839,9 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
+- [kevibeaumont/CVE-2022-41082-RCE-POC](https://github.com/kevibeaumont/CVE-2022-41082-RCE-POC)
+- [b3wT/CVE-2022-41082-MASS-SCANNER](https://github.com/b3wT/CVE-2022-41082-MASS-SCANNER)
+- [t0mby/CVE-2022-41082-RCE](https://github.com/t0mby/CVE-2022-41082-RCE)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -9039,14 +9057,6 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 - [okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC)
 
-### CVE-2020-0606 (2020-01-14)
-
-<code>
-A remote code execution vulnerability exists in .NET software when the software fails to check the source markup of a file.An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user, aka '.NET Framework Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0605.
-</code>
-
-- [5l1v3r1/CVE-2020-0606](https://github.com/5l1v3r1/CVE-2020-0606)
-
 ### CVE-2020-0609 (2020-01-14)
 
 <code>
@@ -13208,6 +13218,14 @@ Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Ve
 </code>
 
 - [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
+
+### CVE-2020-26878 (2020-10-26)
+
+<code>
+Ruckus through 1.5.1.0.21 is affected by remote command injection. An authenticated user can submit a query to the API (/service/v1/createUser endpoint), injecting arbitrary commands that will be executed as root user via web.py.
+</code>
+
+- [htarsoo/CVE-2020-26878](https://github.com/htarsoo/CVE-2020-26878)
 
 ### CVE-2020-27190
 - [qlh831/x-CVE-2020-27190](https://github.com/qlh831/x-CVE-2020-27190)
