@@ -3066,6 +3066,7 @@ GLPI is a Free Asset and IT Management Software package, Data center management,
 prestashop/blockwishlist is a prestashop extension which adds a block containing the customer's wishlists. In affected versions an authenticated customer can perform SQL injection. This issue is fixed in version 2.1.1. Users are advised to upgrade. There are no known workarounds for this issue.
 </code>
 
+- [MathiasReker/blmvuln](https://github.com/MathiasReker/blmvuln)
 - [karthikuj/CVE-2022-31101](https://github.com/karthikuj/CVE-2022-31101)
 
 ### CVE-2022-31138 (2022-07-11)
@@ -3758,7 +3759,12 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
 
-### CVE-2022-39959
+### CVE-2022-39959 (2022-10-07)
+
+<code>
+Panini Everest Engine 2.0.4 allows unprivileged users to create a file named Everest.exe in the %PROGRAMDATA%\Panini folder. This leads to privilege escalation because a service, running as SYSTEM, uses the unquoted path of %PROGRAMDATA%\Panini\Everest Engine\EverestEngine.exe and therefore a Trojan horse %PROGRAMDATA%\Panini\Everest.exe may be executed instead of the intended vendor-supplied EverestEngine.exe file.
+</code>
+
 - [usmarine2141/CVE-2022-39959](https://github.com/usmarine2141/CVE-2022-39959)
 
 ### CVE-2022-40126 (2022-09-29)
@@ -3776,7 +3782,6 @@ An origin validation error vulnerability in Trend Micro Apex One and Apex One as
 </code>
 
 - [mr-r3b00t/NotProxyShellHunter](https://github.com/mr-r3b00t/NotProxyShellHunter)
-- [ZephrFish/NotProxyShellScanner](https://github.com/ZephrFish/NotProxyShellScanner)
 
 ### CVE-2022-40297 (2022-09-08)
 
@@ -7298,6 +7303,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
+- [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
 - [creadpag/CVE-2021-41773-POC](https://github.com/creadpag/CVE-2021-41773-POC)
 - [ranggaggngntt/CVE-2021-41773](https://github.com/ranggaggngntt/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
@@ -7946,7 +7952,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
 - [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
 - [VerveIndustrialProtection/CVE-2021-44228-Log4j](https://github.com/VerveIndustrialProtection/CVE-2021-44228-Log4j)
-- [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
 - [LiveOverflow/log4shell](https://github.com/LiveOverflow/log4shell)
 - [aws-samples/kubernetes-log4j-cve-2021-44228-node-agent](https://github.com/aws-samples/kubernetes-log4j-cve-2021-44228-node-agent)
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
