@@ -1272,7 +1272,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [c5pider/CVE-2022-22965](https://github.com/c5pider/CVE-2022-22965)
+- [dynarps/CVE-2022-22965](https://github.com/dynarps/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -1668,6 +1668,7 @@ Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker 
 
 - [Lay0us1/CVE-2022-24637](https://github.com/Lay0us1/CVE-2022-24637)
 - [garySec/CVE-2022-24637](https://github.com/garySec/CVE-2022-24637)
+- [hupe1980/CVE-2022-24637](https://github.com/hupe1980/CVE-2022-24637)
 
 ### CVE-2022-24644 (2022-03-07)
 
@@ -4671,7 +4672,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [FrancescoMarchiori/CVE-2021-3156](https://github.com/FrancescoMarchiori/CVE-2021-3156)
 - [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
-- [c5pider/CVE-2021-3156](https://github.com/c5pider/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -7882,6 +7882,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
+- [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
