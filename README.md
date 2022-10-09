@@ -1272,7 +1272,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [dynarps/CVE-2022-22965](https://github.com/dynarps/CVE-2022-22965)
+- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -2062,6 +2062,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [keven1z/CVE-2022-26134](https://github.com/keven1z/CVE-2022-26134)
 - [shiftsansan/CVE-2022-26134-Console](https://github.com/shiftsansan/CVE-2022-26134-Console)
 - [1337in/CVE-2022-26134web](https://github.com/1337in/CVE-2022-26134web)
+- [skhalsa-sigsci/CVE-2022-26134-LAB](https://github.com/skhalsa-sigsci/CVE-2022-26134-LAB)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -3838,6 +3839,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
 - [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
 - [gitzero0/ProxyNotShell](https://github.com/gitzero0/ProxyNotShell)
+- [kljunowsky/CVE-2022-41040-POC](https://github.com/kljunowsky/CVE-2022-41040-POC)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -28943,6 +28945,14 @@ IIS 4.0 allows remote attackers to obtain the internal IP address of the server 
 
 - [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
 - [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
+
+### CVE-2000-0979 (2001-01-22)
+
+<code>
+File and Print Sharing service in Windows 95, Windows 98, and Windows Me does not properly check the password for a file share, which allows remote attackers to bypass share access controls by sending a 1-byte password that matches the first character of the real password, aka the &quot;Share Level Password&quot; vulnerability.
+</code>
+
+- [Z6543/CVE-2000-0979](https://github.com/Z6543/CVE-2000-0979)
 
 
 ## 1999
