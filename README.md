@@ -3865,6 +3865,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 - [b3wT/CVE-2022-41082-MASS-SCANNER](https://github.com/b3wT/CVE-2022-41082-MASS-SCANNER)
 - [t0mby/CVE-2022-41082-RCE](https://github.com/t0mby/CVE-2022-41082-RCE)
+- [t0mby/CVE-2022-41082-MASS-RCE](https://github.com/t0mby/CVE-2022-41082-MASS-RCE)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -3873,6 +3874,14 @@ In drivers/media/dvb-core/dmxdev.c in the Linux kernel through 5.19.10, there is
 </code>
 
 - [V4bel/CVE-2022-41218](https://github.com/V4bel/CVE-2022-41218)
+
+### CVE-2022-41352 (2022-09-25)
+
+<code>
+An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavisd via a cpio loophole (extraction to /opt/zimbra/jetty/webapps/zimbra/public) that can lead to incorrect access to any other user accounts. Zimbra recommends pax over cpio. Also, pax is in the prerequisites of Zimbra on Ubuntu; however, pax is no longer part of a default Red Hat installation after RHEL 6 (or CentOS 6). Once pax is installed, amavisd automatically prefers it over cpio.
+</code>
+
+- [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 
 
 ## 2021
