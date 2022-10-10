@@ -1178,6 +1178,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
+- [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -3446,6 +3447,14 @@ Windows Network File System Remote Code Execution Vulnerability.
 
 - [Starssgo/CVE-2022-34715-POC](https://github.com/Starssgo/CVE-2022-34715-POC)
 
+### CVE-2022-34718 (2022-09-13)
+
+<code>
+Windows TCP/IP Remote Code Execution Vulnerability.
+</code>
+
+- [SecLabResearchBV/CVE-2022-34718-PoC](https://github.com/SecLabResearchBV/CVE-2022-34718-PoC)
+
 ### CVE-2022-34729 (2022-09-13)
 
 <code>
@@ -3829,9 +3838,6 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
-
-### CVE-2022-40684
-- [dickson0day/CVE-2022-40684](https://github.com/dickson0day/CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -17217,7 +17223,7 @@ Ubiquiti EdgeMAX devices before 2.0.3 allow remote attackers to cause a denial o
 Unauthenticated remote code execution occurs in D-Link products such as DIR-655C, DIR-866L, DIR-652, and DHP-1565. The issue occurs when the attacker sends an arbitrary input to a &quot;PingTest&quot; device common gateway interface that could lead to common injection. An attacker who successfully triggers the command injection could achieve full system compromise. Later, it was independently found that these are also affected: DIR-855L, DAP-1533, DIR-862L, DIR-615, DIR-835, and DIR-825.
 </code>
 
-- [avavav777/CVE-2019-16920-MassPwn3r](https://github.com/avavav777/CVE-2019-16920-MassPwn3r)
+- [eniac888/CVE-2019-16920-MassPwn3r](https://github.com/eniac888/CVE-2019-16920-MassPwn3r)
 
 ### CVE-2019-16941 (2019-09-28)
 
