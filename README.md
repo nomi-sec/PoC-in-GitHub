@@ -3201,6 +3201,14 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 
 - [buff07/CVE-2022-31403](https://github.com/buff07/CVE-2022-31403)
 
+### CVE-2022-31479 (2022-06-06)
+
+<code>
+An unauthenticated attacker can update the hostname with a specially crafted name that will allow for shell commands to be executed during the core collection process. This vulnerability impacts products based on HID Mercury Intelligent Controllers LP1501, LP1502, LP2500, LP4502, and EP4502 which contain firmware versions prior to 1.302 for the LP series and 1.296 for the EP series. An attacker with this level of access on the device can monitor all communications sent to and from this device, modify onboard relays, change configuration files, or cause the device to become unstable. The injected commands only get executed during start up or when unsafe calls regarding the hostname are used. This allows the attacker to gain remote access to the device and can make their persistence permanent by modifying the filesystem.
+</code>
+
+- [realyme/CVE-2022-31479-test](https://github.com/realyme/CVE-2022-31479-test)
+
 ### CVE-2022-31499 (2022-08-25)
 
 <code>
@@ -19559,6 +19567,14 @@ An elevation of privilege vulnerability exists in Microsoft Exchange Server, aka
 - [qiantu88/CVE-2018-8581](https://github.com/qiantu88/CVE-2018-8581)
 - [Ridter/Exchange2domain](https://github.com/Ridter/Exchange2domain)
 
+### CVE-2018-8587 (2018-12-11)
+
+<code>
+A remote code execution vulnerability exists in Microsoft Outlook software when it fails to properly handle objects in memory, aka &quot;Microsoft Outlook Remote Code Execution Vulnerability.&quot; This affects Office 365 ProPlus, Microsoft Office, Microsoft Outlook.
+</code>
+
+- [Sunqiz/CVE-2018-8587-reproduction](https://github.com/Sunqiz/CVE-2018-8587-reproduction)
+
 ### CVE-2018-8611 (2018-12-11)
 
 <code>
@@ -26732,6 +26748,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host)
 - [sidd3009/PenTesting](https://github.com/sidd3009/PenTesting)
 - [FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-)
+- [0bfxgh0st/cve-2014-6271](https://github.com/0bfxgh0st/cve-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
@@ -27761,6 +27778,22 @@ The STARTTLS implementation in ftp_parser.c in Pure-FTPd before 1.0.30 does not 
 
 - [masamoon/cve-2011-1575-poc](https://github.com/masamoon/cve-2011-1575-poc)
 
+### CVE-2011-1720 (2011-05-13)
+
+<code>
+The SMTP server in Postfix before 2.5.13, 2.6.x before 2.6.10, 2.7.x before 2.7.4, and 2.8.x before 2.8.3, when certain Cyrus SASL authentication methods are enabled, does not create a new server handle after client authentication fails, which allows remote attackers to cause a denial of service (heap memory corruption and daemon crash) or possibly execute arbitrary code via an invalid AUTH command with one method followed by an AUTH command with a different method.
+</code>
+
+- [nbeguier/postfix_exploit](https://github.com/nbeguier/postfix_exploit)
+
+### CVE-2011-1974 (2011-08-10)
+
+<code>
+NDISTAPI.sys in the NDISTAPI driver in Remote Access Service (RAS) in Microsoft Windows XP SP2 and SP3 and Windows Server 2003 SP2 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;NDISTAPI Elevation of Privilege Vulnerability.&quot;
+</code>
+
+- [hittlle/CVE-2011-1974-PoC](https://github.com/hittlle/CVE-2011-1974-PoC)
+
 ### CVE-2011-2461 (2011-12-01)
 
 <code>
@@ -27768,6 +27801,7 @@ Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x befor
 </code>
 
 - [ikkisoft/ParrotNG](https://github.com/ikkisoft/ParrotNG)
+- [u-maxx/magento-swf-patched-CVE-2011-2461](https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461)
 - [edmondscommerce/CVE-2011-2461_Magento_Patch](https://github.com/edmondscommerce/CVE-2011-2461_Magento_Patch)
 
 ### CVE-2011-2523 (2019-11-27)
@@ -27807,6 +27841,7 @@ Integer overflow in libpng, as used in Google Chrome before 17.0.963.56, allows 
 The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
 </code>
 
+- [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
 - [limkokholefork/CVE-2011-3192](https://github.com/limkokholefork/CVE-2011-3192)
 - [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
 
@@ -27816,6 +27851,7 @@ The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 
 The mod_proxy module in the Apache HTTP Server 1.3.x through 1.3.42, 2.0.x through 2.0.64, and 2.2.x through 2.2.21 does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers via a malformed URI containing an initial @ (at sign) character.
 </code>
 
+- [SECFORCE/CVE-2011-3368](https://github.com/SECFORCE/CVE-2011-3368)
 - [colorblindpentester/CVE-2011-3368](https://github.com/colorblindpentester/CVE-2011-3368)
 
 ### CVE-2011-3389 (2011-09-06)
@@ -27856,6 +27892,7 @@ The simplexml_load_string function in the XML import plug-in (libraries/import/x
 Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MIT Kerberos Version 5 Applications (aka krb5-appl) 1.0.2 and earlier, Heimdal 1.5.1 and earlier, GNU inetutils, and possibly other products allows remote attackers to execute arbitrary code via a long encryption key, as exploited in the wild in December 2011.
 </code>
 
+- [hdbreaker/GO-CVE-2011-4862](https://github.com/hdbreaker/GO-CVE-2011-4862)
 - [lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862)
 - [kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862)
 
