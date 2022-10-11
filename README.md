@@ -4615,6 +4615,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [shadowabi/Laravel-CVE-2021-3129](https://github.com/shadowabi/Laravel-CVE-2021-3129)
 - [JacobEbben/CVE-2021-3129](https://github.com/JacobEbben/CVE-2021-3129)
 - [hupe1980/CVE-2021-3129](https://github.com/hupe1980/CVE-2021-3129)
+- [0nion1/CVE-2021-3129](https://github.com/0nion1/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -8293,7 +8294,6 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [X1pe0/Log4J-Scan-Win](https://github.com/X1pe0/Log4J-Scan-Win)
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
 - [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
-- [tejas-nagchandi/CVE-2021-45046](https://github.com/tejas-nagchandi/CVE-2021-45046)
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
 - [lukepasek/log4jjndilookupremove](https://github.com/lukepasek/log4jjndilookupremove)
 - [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
@@ -17829,9 +17829,9 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
 - [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
 - [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
-- [robhax/citrixmash_scanner](https://github.com/robhax/citrixmash_scanner)
+- [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
 - [jamesjguthrie/Shitrix-CVE-2019-19781](https://github.com/jamesjguthrie/Shitrix-CVE-2019-19781)
-- [robhax/CVE-2019-19781](https://github.com/robhax/CVE-2019-19781)
+- [x1sec/CVE-2019-19781](https://github.com/x1sec/CVE-2019-19781)
 - [hollerith/CVE-2019-19781](https://github.com/hollerith/CVE-2019-19781)
 - [aqhmal/CVE-2019-19781](https://github.com/aqhmal/CVE-2019-19781)
 - [MalwareTech/CitrixHoneypot](https://github.com/MalwareTech/CitrixHoneypot)
@@ -17849,7 +17849,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [digitalgangst/massCitrix](https://github.com/digitalgangst/massCitrix)
 - [mandiant/ioc-scanner-CVE-2019-19781](https://github.com/mandiant/ioc-scanner-CVE-2019-19781)
 - [citrix/ioc-scanner-CVE-2019-19781](https://github.com/citrix/ioc-scanner-CVE-2019-19781)
-- [robhax/citrix-honeypot](https://github.com/robhax/citrix-honeypot)
+- [x1sec/citrix-honeypot](https://github.com/x1sec/citrix-honeypot)
 - [L4r1k/CitrixNetscalerAnalysis](https://github.com/L4r1k/CitrixNetscalerAnalysis)
 - [Azeemering/CVE-2019-19781-DFIR-Notes](https://github.com/Azeemering/CVE-2019-19781-DFIR-Notes)
 - [0xams/citrixvulncheck](https://github.com/0xams/citrixvulncheck)
@@ -22159,7 +22159,7 @@ An unprivileged network attacker could gain system privileges to provisioned Int
 </code>
 
 - [CerberusSecurity/CVE-2017-5689](https://github.com/CerberusSecurity/CVE-2017-5689)
-- [robhax/amthoneypot](https://github.com/robhax/amthoneypot)
+- [x1sec/amthoneypot](https://github.com/x1sec/amthoneypot)
 - [Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass)
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 - [TheWay-hue/CVE-2017-5689-Checker](https://github.com/TheWay-hue/CVE-2017-5689-Checker)
