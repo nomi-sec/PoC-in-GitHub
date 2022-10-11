@@ -239,6 +239,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [notl0cal/dpipe](https://github.com/notl0cal/dpipe)
 - [Gustavo-Nogueira/Dirty-Pipe-Exploits](https://github.com/Gustavo-Nogueira/Dirty-Pipe-Exploits)
 - [trhacknon/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/trhacknon/CVE-2022-0847-DirtyPipe-Exploit)
+- [badboy-sft/Dirty-Pipe-Oneshot](https://github.com/badboy-sft/Dirty-Pipe-Oneshot)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -575,7 +576,12 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
-### CVE-2022-3452
+### CVE-2022-3452 (-)
+
+<code>
+A vulnerability was found in SourceCodester Book Store Management System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file /category.php. The manipulation of the argument category_name leads to cross site scripting. The attack can be initiated remotely. The identifier of this vulnerability is VDB-210436.
+</code>
+
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
 
 ### CVE-2022-5555
@@ -1273,7 +1279,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
+- [Pygosce/CVE-2022-22965](https://github.com/Pygosce/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -7395,7 +7401,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mightysai1997/CVE-2021-41773S](https://github.com/mightysai1997/CVE-2021-41773S)
 - [dileepdkumar/LayarKacaSiber-CVE-2021-41773](https://github.com/dileepdkumar/LayarKacaSiber-CVE-2021-41773)
 - [sne4ker/apache-CVE-2021-41773-CVE-2021-42013](https://github.com/sne4ker/apache-CVE-2021-41773-CVE-2021-42013)
-- [Juuso1337/CVE-2021-41773](https://github.com/Juuso1337/CVE-2021-41773)
+- [256o/CVE-2021-41773](https://github.com/256o/CVE-2021-41773)
 
 ### CVE-2021-41946 (2022-05-18)
 
