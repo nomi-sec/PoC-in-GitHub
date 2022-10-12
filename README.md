@@ -576,7 +576,7 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
-### CVE-2022-3452 (-)
+### CVE-2022-3452 (2022-10-11)
 
 <code>
 A vulnerability was found in SourceCodester Book Store Management System 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file /category.php. The manipulation of the argument category_name leads to cross site scripting. The attack can be initiated remotely. The identifier of this vulnerability is VDB-210436.
@@ -3789,7 +3789,6 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 </code>
 
 - [safe3s/CVE-2022-39197](https://github.com/safe3s/CVE-2022-39197)
-- [zeoday/cobaltstrike4.5_cdf-1](https://github.com/zeoday/cobaltstrike4.5_cdf-1)
 - [burpheart/cve-2022-39197](https://github.com/burpheart/cve-2022-39197)
 - [xzajyjs/CVE-2022-39197-POC](https://github.com/xzajyjs/CVE-2022-39197-POC)
 - [yqcs/CSPOC](https://github.com/yqcs/CSPOC)
@@ -3845,6 +3844,9 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
 
+### CVE-2022-40684
+- [CarlosV1e1ra/CVE-2022-40684-RCE-POC](https://github.com/CarlosV1e1ra/CVE-2022-40684-RCE-POC)
+
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
 
@@ -3858,7 +3860,6 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [CentarisCyber/CVE-2022-41040_Mitigation](https://github.com/CentarisCyber/CVE-2022-41040_Mitigation)
 - [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
 - [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
-- [gitzero0/ProxyNotShell](https://github.com/gitzero0/ProxyNotShell)
 - [kljunowsky/CVE-2022-41040-POC](https://github.com/kljunowsky/CVE-2022-41040-POC)
 - [rjsudlow/proxynotshell-IOC-Checker](https://github.com/rjsudlow/proxynotshell-IOC-Checker)
 
@@ -26760,7 +26761,6 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
 - [b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271)
-- [abandonedship/ShellShock](https://github.com/abandonedship/ShellShock)
 - [akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271)
 - [0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271)
 - [trhacknon/CVE-2014-6271](https://github.com/trhacknon/CVE-2014-6271)
@@ -27994,7 +27994,6 @@ UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 th
 </code>
 
 - [XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE)
-- [abandonedship/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit](https://github.com/abandonedship/UnrealIrcd-3.2.8.1-cve-2010-2075-exploit)
 - [MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075)
 - [0bfxgh0st/cve-2010-2075](https://github.com/0bfxgh0st/cve-2010-2075)
 
