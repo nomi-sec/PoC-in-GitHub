@@ -3789,6 +3789,7 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 </code>
 
 - [safe3s/CVE-2022-39197](https://github.com/safe3s/CVE-2022-39197)
+- [zeoday/cobaltstrike4.5_cdf-1](https://github.com/zeoday/cobaltstrike4.5_cdf-1)
 - [burpheart/cve-2022-39197](https://github.com/burpheart/cve-2022-39197)
 - [xzajyjs/CVE-2022-39197-POC](https://github.com/xzajyjs/CVE-2022-39197-POC)
 - [yqcs/CSPOC](https://github.com/yqcs/CSPOC)
