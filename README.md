@@ -1,6 +1,14 @@
 # PoC in GitHub
 
 ## 2022
+### CVE-2022-0002 (2022-03-11)
+
+<code>
+Non-transparent sharing of branch predictor within a context in some Intel(R) Processors may allow an authorized user to potentially enable information disclosure via local access.
+</code>
+
+- [nikokosm/CVE-2022-0002--s-1](https://github.com/nikokosm/CVE-2022-0002--s-1)
+
 ### CVE-2022-0185 (2022-02-11)
 
 <code>
@@ -3845,6 +3853,9 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
+
+### CVE-2022-40684
+- [Br4velwd/CVE-2022-40684-RCE-POC](https://github.com/Br4velwd/CVE-2022-40684-RCE-POC)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
