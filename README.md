@@ -3579,6 +3579,7 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 
 - [cosad3s/CVE-2022-35914-poc](https://github.com/cosad3s/CVE-2022-35914-poc)
 - [xiaobaiakai/CVE-2022-35914](https://github.com/xiaobaiakai/CVE-2022-35914)
+- [6E6L6F/CVE-2022-35914](https://github.com/6E6L6F/CVE-2022-35914)
 
 ### CVE-2022-36162
 - [MaherAzzouzi/CVE-2022-36162](https://github.com/MaherAzzouzi/CVE-2022-36162)
@@ -3845,9 +3846,6 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
 
-### CVE-2022-40684
-- [CarlosV1e1ra/CVE-2022-40684-RCE-POC](https://github.com/CarlosV1e1ra/CVE-2022-40684-RCE-POC)
-
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
 
@@ -3872,8 +3870,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 - [b3wT/CVE-2022-41082-MASS-SCANNER](https://github.com/b3wT/CVE-2022-41082-MASS-SCANNER)
-- [t0mby/CVE-2022-41082-RCE](https://github.com/t0mby/CVE-2022-41082-RCE)
-- [t0mby/CVE-2022-41082-MASS-RCE](https://github.com/t0mby/CVE-2022-41082-MASS-RCE)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -23888,6 +23884,7 @@ Jenkins versions 2.56 and earlier as well as 2.46.1 LTS and earlier are vulnerab
 </code>
 
 - [vulhub/CVE-2017-1000353](https://github.com/vulhub/CVE-2017-1000353)
+- [r00t4dm/Jenkins-CVE-2017-1000353](https://github.com/r00t4dm/Jenkins-CVE-2017-1000353)
 
 ### CVE-2017-1000367 (2017-06-05)
 
@@ -25102,6 +25099,14 @@ A BIG-IP virtual server configured with a Client SSL profile that has the non-de
 - [EgeBalci/Ticketbleed](https://github.com/EgeBalci/Ticketbleed)
 - [glestel/minion-ticket-bleed-plugin](https://github.com/glestel/minion-ticket-bleed-plugin)
 
+### CVE-2016-9299 (2017-01-12)
+
+<code>
+The remoting module in Jenkins before 2.32 and LTS before 2.19.3 allows remote attackers to execute arbitrary code via a crafted serialized Java object, which triggers an LDAP query to a third-party server.
+</code>
+
+- [r00t4dm/Jenkins-CVE-2016-9299](https://github.com/r00t4dm/Jenkins-CVE-2016-9299)
+
 ### CVE-2016-9795 (2017-01-27)
 
 <code>
@@ -26049,6 +26054,7 @@ The Jenkins CLI subsystem in Jenkins before 1.638 and LTS before 1.625.2 allows 
 </code>
 
 - [cved-sources/cve-2015-8103](https://github.com/cved-sources/cve-2015-8103)
+- [r00t4dm/Jenkins-CVE-2015-8103](https://github.com/r00t4dm/Jenkins-CVE-2015-8103)
 
 ### CVE-2015-8239 (2017-10-10)
 
@@ -28302,6 +28308,7 @@ Multiple PHP remote file inclusion vulnerabilities in Advanced Comment System 1.
 
 - [hupe1980/CVE-2009-4623](https://github.com/hupe1980/CVE-2009-4623)
 - [kernel-cyber/CVE-2009-4623](https://github.com/kernel-cyber/CVE-2009-4623)
+- [MonsempesSamuel/CVE-2009-4623](https://github.com/MonsempesSamuel/CVE-2009-4623)
 
 ### CVE-2009-4660 (2010-03-03)
 
