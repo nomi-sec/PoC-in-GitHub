@@ -1399,6 +1399,14 @@ Point-to-Point Tunneling Protocol Remote Code Execution Vulnerability. This CVE 
 
 - [corelight/CVE-2022-23270-PPTP](https://github.com/corelight/CVE-2022-23270-PPTP)
 
+### CVE-2022-23277 (2022-03-09)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability.
+</code>
+
+- [7BitsTeam/CVE-2022-23277](https://github.com/7BitsTeam/CVE-2022-23277)
+
 ### CVE-2022-23305 (2022-01-18)
 
 <code>
@@ -3720,7 +3728,7 @@ JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the 
 
 - [AgainstTheLight/CVE-2022-37207](https://github.com/AgainstTheLight/CVE-2022-37207)
 
-### CVE-2022-37208 (-)
+### CVE-2022-37208 (2022-10-13)
 
 <code>
 JFinal CMS 5.1.0 is vulnerable to SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection.
@@ -3855,6 +3863,10 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
+
+### CVE-2022-40684
+- [horizon3ai/CVE-2022-40684](https://github.com/horizon3ai/CVE-2022-40684)
+- [carlosevieira/CVE-2022-40684](https://github.com/carlosevieira/CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -8026,7 +8038,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
 - [rv4l3r3/log4v-vuln-check](https://github.com/rv4l3r3/log4v-vuln-check)
 - [dpomnean/log4j_scanner_wrapper](https://github.com/dpomnean/log4j_scanner_wrapper)
-- [roxas-tan/CVE-2021-44228](https://github.com/roxas-tan/CVE-2021-44228)
 - [shamo0/CVE-2021-44228](https://github.com/shamo0/CVE-2021-44228)
 - [snow0715/log4j-Scan-Burpsuite](https://github.com/snow0715/log4j-Scan-Burpsuite)
 - [Joefreedy/Log4j-Windows-Scanner](https://github.com/Joefreedy/Log4j-Windows-Scanner)
@@ -8314,6 +8325,14 @@ It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was i
 - [lijiejie/log4j2_vul_local_scanner](https://github.com/lijiejie/log4j2_vul_local_scanner)
 - [CaptanMoss/Log4Shell-Sandbox-Signature](https://github.com/CaptanMoss/Log4Shell-Sandbox-Signature)
 - [taise-hub/log4j-poc](https://github.com/taise-hub/log4j-poc)
+
+### CVE-2021-45067 (2022-01-14)
+
+<code>
+Acrobat Reader DC version 21.007.20099 (and earlier), 20.004.30017 (and earlier) and 17.011.30204 (and earlier) are affected by an Access of Memory Location After End of Buffer vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [hacksysteam/CVE-2021-45067](https://github.com/hacksysteam/CVE-2021-45067)
 
 ### CVE-2021-45105 (2021-12-18)
 
@@ -17612,6 +17631,7 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 - [appliedi/Telerik_CVE-2019-18935](https://github.com/appliedi/Telerik_CVE-2019-18935)
 - [random-robbie/CVE-2019-18935](https://github.com/random-robbie/CVE-2019-18935)
 - [0xAgun/CVE-2019-18935-checker](https://github.com/0xAgun/CVE-2019-18935-checker)
+- [KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation](https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation)
 
 ### CVE-2019-18988 (2020-02-07)
 
@@ -23091,6 +23111,8 @@ Telerik.Web.UI in Progress Telerik UI for ASP.NET AJAX before R1 2017 and R2 bef
 </code>
 
 - [bao7uo/RAU_crypto](https://github.com/bao7uo/RAU_crypto)
+- [KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut](https://github.com/KasunPriyashan/Unrestricted-File-Upload-by-Weak-Encryption-affected-versions-CVE-2017-11317-Remote-Code-Execut)
+- [KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation](https://github.com/KasunPriyashan/Telerik-UI-ASP.NET-AJAX-Exploitation)
 
 ### CVE-2017-11366 (2017-08-20)
 
