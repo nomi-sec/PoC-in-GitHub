@@ -248,6 +248,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [Gustavo-Nogueira/Dirty-Pipe-Exploits](https://github.com/Gustavo-Nogueira/Dirty-Pipe-Exploits)
 - [trhacknon/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/trhacknon/CVE-2022-0847-DirtyPipe-Exploit)
 - [badboy-sft/Dirty-Pipe-Oneshot](https://github.com/badboy-sft/Dirty-Pipe-Oneshot)
+- [edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -3850,6 +3851,9 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 </code>
 
 - [izdiwho/CVE-2022-40317](https://github.com/izdiwho/CVE-2022-40317)
+
+### CVE-2022-40471
+- [RashidKhanPathan/CVE-2022-40471](https://github.com/RashidKhanPathan/CVE-2022-40471)
 
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
@@ -16761,6 +16765,7 @@ In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can
 - [k4u5h41/CVE-2019-14287](https://github.com/k4u5h41/CVE-2019-14287)
 - [Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287](https://github.com/Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287)
 - [5l1v3r1/cve-2019-14287sudoexp](https://github.com/5l1v3r1/cve-2019-14287sudoexp)
+- [MariliaMeira/CVE-2019-14287](https://github.com/MariliaMeira/CVE-2019-14287)
 
 ### CVE-2019-14314 (2019-08-27)
 
