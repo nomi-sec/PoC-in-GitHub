@@ -573,6 +573,7 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 
 ### CVE-2022-2992
 - [CsEnox/CVE-2022-2992](https://github.com/CsEnox/CVE-2022-2992)
+- [RealAlphaMan/CVE-2022-2992](https://github.com/RealAlphaMan/CVE-2022-2992)
 
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
@@ -3719,7 +3720,12 @@ JFinal CMS 5.1.0 is affected by: SQL Injection. These interfaces do not use the 
 
 - [AgainstTheLight/CVE-2022-37207](https://github.com/AgainstTheLight/CVE-2022-37207)
 
-### CVE-2022-37208
+### CVE-2022-37208 (-)
+
+<code>
+JFinal CMS 5.1.0 is vulnerable to SQL Injection. These interfaces do not use the same component, nor do they have filters, but each uses its own SQL concatenation method, resulting in SQL injection.
+</code>
+
 - [AgainstTheLight/CVE-2022-37208](https://github.com/AgainstTheLight/CVE-2022-37208)
 
 ### CVE-2022-37434 (2022-08-05)
