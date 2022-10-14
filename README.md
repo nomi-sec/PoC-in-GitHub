@@ -573,7 +573,6 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 
 ### CVE-2022-2992
 - [CsEnox/CVE-2022-2992](https://github.com/CsEnox/CVE-2022-2992)
-- [RealAlphaMan/CVE-2022-2992](https://github.com/RealAlphaMan/CVE-2022-2992)
 
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
@@ -1201,7 +1200,6 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [Kirill89/CVE-2022-22963-PoC](https://github.com/Kirill89/CVE-2022-22963-PoC)
 - [stevemats/Spring0DayCoreExploit](https://github.com/stevemats/Spring0DayCoreExploit)
 - [puckiestyle/CVE-2022-22963](https://github.com/puckiestyle/CVE-2022-22963)
-- [exploitbin/CVE-2022-22963-Spring-Core-RCE](https://github.com/exploitbin/CVE-2022-22963-Spring-Core-RCE)
 - [me2nuk/CVE-2022-22963](https://github.com/me2nuk/CVE-2022-22963)
 - [kh4sh3i/Spring-CVE](https://github.com/kh4sh3i/Spring-CVE)
 - [AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963)
@@ -3870,12 +3868,23 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
 
+### CVE-2022-40648 (2022-09-15)
+
+<code>
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ansys SpaceClaim 2022 R1. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of X_B files. The issue results from the lack of proper validation of user-supplied data, which can result in a write before the start of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-17563.
+</code>
+
+- [b3wT/CVE-2022-40648-MASS](https://github.com/b3wT/CVE-2022-40648-MASS)
+
 ### CVE-2022-40684
 - [horizon3ai/CVE-2022-40684](https://github.com/horizon3ai/CVE-2022-40684)
 - [carlosevieira/CVE-2022-40684](https://github.com/carlosevieira/CVE-2022-40684)
 - [Filiplain/Fortinet-PoC-Auth-Bypass](https://github.com/Filiplain/Fortinet-PoC-Auth-Bypass)
 - [kljunowsky/CVE-2022-40684-POC](https://github.com/kljunowsky/CVE-2022-40684-POC)
 - [secunnix/CVE-2022-40684](https://github.com/secunnix/CVE-2022-40684)
+- [Carl0sV1e1ra/CVE-2022-40684](https://github.com/Carl0sV1e1ra/CVE-2022-40684)
+- [iveresk/CVE-2022-40684](https://github.com/iveresk/CVE-2022-40684)
+- [mhd108/CVE-2022-40684](https://github.com/mhd108/CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -28560,6 +28569,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447)
 - [mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447)
 - [HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE)
+- [Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
