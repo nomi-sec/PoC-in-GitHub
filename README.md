@@ -3901,6 +3901,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
 - [kljunowsky/CVE-2022-41040-POC](https://github.com/kljunowsky/CVE-2022-41040-POC)
 - [rjsudlow/proxynotshell-IOC-Checker](https://github.com/rjsudlow/proxynotshell-IOC-Checker)
+- [ITPATJIDR/CVE-2022-41040](https://github.com/ITPATJIDR/CVE-2022-41040)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -3926,6 +3927,14 @@ An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacke
 </code>
 
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
+
+### CVE-2022-41852 (2022-10-06)
+
+<code>
+Those using JXPath to interpret untrusted XPath expressions may be vulnerable to a remote code execution attack. All JXPathContext class functions processing a XPath string are vulnerable except compile() and compilePath() function. The XPath expression can be used by an attacker to load any Java class from the classpath resulting in code execution.
+</code>
+
+- [Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852)
 
 
 ## 2021
@@ -19140,7 +19149,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574)
 - [imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC)
 - [twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574)
-- [dmlino/cve-2018-6574](https://github.com/dmlino/cve-2018-6574)
 - [the-valluvarsploit/CVE-2018-6574](https://github.com/the-valluvarsploit/CVE-2018-6574)
 - [yavolo/CVE-2018-6574](https://github.com/yavolo/CVE-2018-6574)
 - [ThaFWord/pentesterlab](https://github.com/ThaFWord/pentesterlab)
@@ -29024,6 +29032,9 @@ Buffer overflow in innfeed for ISC InterNetNews (INN) before 2.3.0 allows local 
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
+
+### CVE-2001-3389
+- [becrevex/Gaston](https://github.com/becrevex/Gaston)
 
 
 ## 2000
