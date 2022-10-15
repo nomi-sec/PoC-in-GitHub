@@ -578,6 +578,14 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
+### CVE-2022-3236 (2022-09-23)
+
+<code>
+A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
+</code>
+
+- [n0npro/CVE-2022-3236-RCE-POC](https://github.com/n0npro/CVE-2022-3236-RCE-POC)
+
 ### CVE-2022-3452 (2022-10-11)
 
 <code>
@@ -2079,6 +2087,8 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [shiftsansan/CVE-2022-26134-Console](https://github.com/shiftsansan/CVE-2022-26134-Console)
 - [1337in/CVE-2022-26134web](https://github.com/1337in/CVE-2022-26134web)
 - [skhalsa-sigsci/CVE-2022-26134-LAB](https://github.com/skhalsa-sigsci/CVE-2022-26134-LAB)
+- [yigexioabai/CVE-2022-26134-cve1](https://github.com/yigexioabai/CVE-2022-26134-cve1)
+- [kailing0220/CVE-2022-26134](https://github.com/kailing0220/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -3744,7 +3754,7 @@ JFinal CMS 5.1.0 is vulnerable to SQL Injection. These interfaces do not use the
 - [AgainstTheLight/CVE-2022-37208](https://github.com/AgainstTheLight/CVE-2022-37208)
 
 ### CVE-2022-37298
-- [dbyio/cve-2022-37298-shinken](https://github.com/dbyio/cve-2022-37298-shinken)
+- [dbyio/cve-2022-37298](https://github.com/dbyio/cve-2022-37298)
 
 ### CVE-2022-37434 (2022-08-05)
 
@@ -3893,6 +3903,8 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 - [iveresk/CVE-2022-40684](https://github.com/iveresk/CVE-2022-40684)
 - [mhd108/CVE-2022-40684](https://github.com/mhd108/CVE-2022-40684)
 - [ClickCyber/cve-2022-40684](https://github.com/ClickCyber/cve-2022-40684)
+- [Chocapikk/CVE-2022-40684](https://github.com/Chocapikk/CVE-2022-40684)
+- [mohamedbenchikh/CVE-2022-40684](https://github.com/mohamedbenchikh/CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -3935,6 +3947,9 @@ An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacke
 </code>
 
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
+
+### CVE-2022-41358
+- [thecasual/CVE-2022-41358](https://github.com/thecasual/CVE-2022-41358)
 
 ### CVE-2022-41852 (2022-10-06)
 
@@ -7448,7 +7463,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mightysai1997/CVE-2021-41773S](https://github.com/mightysai1997/CVE-2021-41773S)
 - [dileepdkumar/LayarKacaSiber-CVE-2021-41773](https://github.com/dileepdkumar/LayarKacaSiber-CVE-2021-41773)
 - [sne4ker/apache-CVE-2021-41773-CVE-2021-42013](https://github.com/sne4ker/apache-CVE-2021-41773-CVE-2021-42013)
-- [256o/CVE-2021-41773](https://github.com/256o/CVE-2021-41773)
+- [juuso0/CVE-2021-41773](https://github.com/juuso0/CVE-2021-41773)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -7555,7 +7570,6 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 Active Directory Domain Services Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-42278, CVE-2021-42282, CVE-2021-42291.
 </code>
 
-- [cube0x0/noPac](https://github.com/cube0x0/noPac)
 - [knightswd/NoPacScan](https://github.com/knightswd/NoPacScan)
 - [XiaoliChan/Invoke-sAMSpoofing](https://github.com/XiaoliChan/Invoke-sAMSpoofing)
 
@@ -8065,7 +8079,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
 - [rv4l3r3/log4v-vuln-check](https://github.com/rv4l3r3/log4v-vuln-check)
 - [dpomnean/log4j_scanner_wrapper](https://github.com/dpomnean/log4j_scanner_wrapper)
-- [shamo0/CVE-2021-44228](https://github.com/shamo0/CVE-2021-44228)
 - [snow0715/log4j-Scan-Burpsuite](https://github.com/snow0715/log4j-Scan-Burpsuite)
 - [Joefreedy/Log4j-Windows-Scanner](https://github.com/Joefreedy/Log4j-Windows-Scanner)
 - [Nanitor/log4fix](https://github.com/Nanitor/log4fix)
@@ -8631,6 +8644,8 @@ Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability 
 - [nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422)
 - [Chocapikk/CVE-2021-46422](https://github.com/Chocapikk/CVE-2021-46422)
 - [twoning/CVE-2021-46422_PoC](https://github.com/twoning/CVE-2021-46422_PoC)
+- [Awei507/CVE-2021-46422](https://github.com/Awei507/CVE-2021-46422)
+- [yigexioabai/CVE-2021-46422_RCE](https://github.com/yigexioabai/CVE-2021-46422_RCE)
 
 ### CVE-2021-46702 (2022-02-25)
 
