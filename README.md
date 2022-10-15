@@ -3892,6 +3892,7 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 - [Carl0sV1e1ra/CVE-2022-40684](https://github.com/Carl0sV1e1ra/CVE-2022-40684)
 - [iveresk/CVE-2022-40684](https://github.com/iveresk/CVE-2022-40684)
 - [mhd108/CVE-2022-40684](https://github.com/mhd108/CVE-2022-40684)
+- [ClickCyber/cve-2022-40684](https://github.com/ClickCyber/cve-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -4492,14 +4493,6 @@ Windows (modem.sys) Information Disclosure Vulnerability
 </code>
 
 - [waleedassar/CVE-2021-1699](https://github.com/waleedassar/CVE-2021-1699)
-
-### CVE-2021-1727 (2021-02-25)
-
-<code>
-Windows Installer Elevation of Privilege Vulnerability
-</code>
-
-- [klinix5/CVE-2021-1727](https://github.com/klinix5/CVE-2021-1727)
 
 ### CVE-2021-1732 (2021-02-25)
 
@@ -9404,14 +9397,6 @@ An elevation of privilege vulnerability exists in the way that the Windows Netwo
 </code>
 
 - [5l1v3r1/cve-2020-0802](https://github.com/5l1v3r1/cve-2020-0802)
-
-### CVE-2020-0814 (2020-03-12)
-
-<code>
-An elevation of privilege vulnerability exists in Windows Installer because of the way Windows Installer handles certain filesystem operations.To exploit the vulnerability, an attacker would require unprivileged execution on the victim system, aka 'Windows Installer Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0779, CVE-2020-0798, CVE-2020-0842, CVE-2020-0843.
-</code>
-
-- [klinix5/CVE-2020-0814](https://github.com/klinix5/CVE-2020-0814)
 
 ### CVE-2020-0883 (2020-03-12)
 
@@ -14471,7 +14456,6 @@ A remote code execution vulnerability exists in the way that the scripting engin
 An elevation of privilege vulnerability exists when the Windows AppX Deployment Extensions improperly performs privilege management, resulting in access to system files.To exploit this vulnerability, an authenticated attacker would need to run a specially crafted application to elevate privileges.The security update addresses the vulnerability by correcting how AppX Deployment Extensions manages privileges., aka 'Windows AppX Deployment Extensions Elevation of Privilege Vulnerability'.
 </code>
 
-- [klinix5/CVE-2019-1385](https://github.com/klinix5/CVE-2019-1385)
 - [0x413x4/CVE-2019-1385](https://github.com/0x413x4/CVE-2019-1385)
 
 ### CVE-2019-1388 (2019-11-12)
@@ -26840,7 +26824,6 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [trhacknon/exploit-CVE-2014-6271](https://github.com/trhacknon/exploit-CVE-2014-6271)
 - [Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock)
 - [anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host)
-- [sidd3009/PenTesting](https://github.com/sidd3009/PenTesting)
 - [FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-)
 - [0bfxgh0st/cve-2014-6271](https://github.com/0bfxgh0st/cve-2014-6271)
 
