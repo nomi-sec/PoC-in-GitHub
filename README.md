@@ -3754,6 +3754,7 @@ zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in infl
 
 - [nidhi7598/external_zlib-1.2.11_AOSP_10_r33_CVE-2022-37434](https://github.com/nidhi7598/external_zlib-1.2.11_AOSP_10_r33_CVE-2022-37434)
 - [nidhi7598/external_zlib-1.2.7_CVE-2022-37434](https://github.com/nidhi7598/external_zlib-1.2.7_CVE-2022-37434)
+- [xen0bit/CVE-2022-37434_poc](https://github.com/xen0bit/CVE-2022-37434_poc)
 
 ### CVE-2022-37703 (2022-09-13)
 
