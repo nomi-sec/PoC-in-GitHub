@@ -1288,7 +1288,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [Pygosce/CVE-2022-22965](https://github.com/Pygosce/CVE-2022-22965)
+- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -2093,7 +2093,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [CJ-0107/cve-2022-26134](https://github.com/CJ-0107/cve-2022-26134)
 - [latings/CVE-2022-26134](https://github.com/latings/CVE-2022-26134)
 - [yyqxi/CVE-2022-26134](https://github.com/yyqxi/CVE-2022-26134)
-- [polerstar/cve-2022-26134-poc](https://github.com/polerstar/cve-2022-26134-poc)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -3897,6 +3896,14 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 </code>
 
 - [b3wT/CVE-2022-40648-MASS](https://github.com/b3wT/CVE-2022-40648-MASS)
+
+### CVE-2022-40664 (2022-10-12)
+
+<code>
+Apache Shiro before 1.10.0, Authentication Bypass Vulnerability in Shiro when forwarding or including via RequestDispatcher.
+</code>
+
+- [Jackey0/CVE-2022-40664](https://github.com/Jackey0/CVE-2022-40664)
 
 ### CVE-2022-40684
 - [horizon3ai/CVE-2022-40684](https://github.com/horizon3ai/CVE-2022-40684)
@@ -7066,7 +7073,6 @@ SAP NetWeaver (Visual Composer 7.0 RT) versions - 7.30, 7.31, 7.40, 7.50, withou
 The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 </code>
 
-- [shubhayu-64/CVE-2021-38314](https://github.com/shubhayu-64/CVE-2021-38314)
 - [twseptian/cve-2021-38314](https://github.com/twseptian/cve-2021-38314)
 - [c0ff33b34n/CVE-2021-38314](https://github.com/c0ff33b34n/CVE-2021-38314)
 - [akhilkoradiya/CVE-2021-38314](https://github.com/akhilkoradiya/CVE-2021-38314)
@@ -7936,6 +7942,9 @@ The software allows the attacker to upload or transfer files of dangerous types 
 
 - [LongWayHomie/CVE-2021-43936](https://github.com/LongWayHomie/CVE-2021-43936)
 
+### CVE-2021-44103
+- [paulotrindadec/CVE-2021-44103](https://github.com/paulotrindadec/CVE-2021-44103)
+
 ### CVE-2021-44117 (2022-06-10)
 
 <code>
@@ -8014,7 +8023,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [OlafHaalstra/log4jcheck](https://github.com/OlafHaalstra/log4jcheck)
 - [psychose-club/Saturn](https://github.com/psychose-club/Saturn)
 - [Panyaprach/Proof-CVE-2021-44228](https://github.com/Panyaprach/Proof-CVE-2021-44228)
-- [palominoinc/cve-2021-44228-log4j-mitigation](https://github.com/palominoinc/cve-2021-44228-log4j-mitigation)
 - [cyberxml/log4j-poc](https://github.com/cyberxml/log4j-poc)
 - [Diverto/nse-log4shell](https://github.com/Diverto/nse-log4shell)
 - [maxant/log4j2-CVE-2021-44228](https://github.com/maxant/log4j2-CVE-2021-44228)
@@ -8066,7 +8074,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
 - [mitiga/log4shell-cloud-scanner](https://github.com/mitiga/log4shell-cloud-scanner)
 - [isuruwa/Log4j](https://github.com/isuruwa/Log4j)
-- [honeynet/log4shell-data](https://github.com/honeynet/log4shell-data)
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
 - [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
 - [VerveIndustrialProtection/CVE-2021-44228-Log4j](https://github.com/VerveIndustrialProtection/CVE-2021-44228-Log4j)
@@ -8645,6 +8652,8 @@ Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability 
 - [CJ-0107/cve-2021-46422](https://github.com/CJ-0107/cve-2021-46422)
 - [kelemaoya/CVE-2021-46422](https://github.com/kelemaoya/CVE-2021-46422)
 - [yyqxi/CVE-2021-46422](https://github.com/yyqxi/CVE-2021-46422)
+- [polerstar/CVE-2021-46422-poc](https://github.com/polerstar/CVE-2021-46422-poc)
+- [kailing0220/CVE-2021-46422](https://github.com/kailing0220/CVE-2021-46422)
 
 ### CVE-2021-46702 (2022-02-25)
 
@@ -15173,7 +15182,7 @@ Some field types do not properly sanitize data from non-form sources in Drupal 8
 - [DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass](https://github.com/DevDungeon/CVE-2019-6340-Drupal-8.6.9-REST-Auth-Bypass)
 - [oways/CVE-2019-6340](https://github.com/oways/CVE-2019-6340)
 - [cved-sources/cve-2019-6340](https://github.com/cved-sources/cve-2019-6340)
-- [d1vious/cve-2019-6340-bits](https://github.com/d1vious/cve-2019-6340-bits)
+- [josehelps/cve-2019-6340-bits](https://github.com/josehelps/cve-2019-6340-bits)
 - [jas502n/CVE-2019-6340](https://github.com/jas502n/CVE-2019-6340)
 - [ludy-dev/drupal8-REST-RCE](https://github.com/ludy-dev/drupal8-REST-RCE)
 - [nobodyatall648/CVE-2019-6340](https://github.com/nobodyatall648/CVE-2019-6340)
