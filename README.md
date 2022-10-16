@@ -3905,6 +3905,7 @@ This vulnerability allows remote attackers to execute arbitrary code on affected
 - [ClickCyber/cve-2022-40684](https://github.com/ClickCyber/cve-2022-40684)
 - [Chocapikk/CVE-2022-40684](https://github.com/Chocapikk/CVE-2022-40684)
 - [mohamedbenchikh/CVE-2022-40684](https://github.com/mohamedbenchikh/CVE-2022-40684)
+- [NeriaBasha/CVE-2022-40684](https://github.com/NeriaBasha/CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
