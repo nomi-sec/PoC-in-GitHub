@@ -2089,6 +2089,11 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [skhalsa-sigsci/CVE-2022-26134-LAB](https://github.com/skhalsa-sigsci/CVE-2022-26134-LAB)
 - [yigexioabai/CVE-2022-26134-cve1](https://github.com/yigexioabai/CVE-2022-26134-cve1)
 - [kailing0220/CVE-2022-26134](https://github.com/kailing0220/CVE-2022-26134)
+- [kelemaoya/CVE-2022-26134](https://github.com/kelemaoya/CVE-2022-26134)
+- [CJ-0107/cve-2022-26134](https://github.com/CJ-0107/cve-2022-26134)
+- [latings/CVE-2022-26134](https://github.com/latings/CVE-2022-26134)
+- [yyqxi/CVE-2022-26134](https://github.com/yyqxi/CVE-2022-26134)
+- [polerstar/cve-2022-26134-poc](https://github.com/polerstar/cve-2022-26134-poc)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -7474,14 +7479,6 @@ In FiberHome VDSL2 Modem HG150-Ub_V3.0, a stored cross-site scripting (XSS) vuln
 
 - [afaq1337/CVE-2021-41946](https://github.com/afaq1337/CVE-2021-41946)
 
-### CVE-2021-41962 (2021-12-16)
-
-<code>
-Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the Owner fullname parameter in a Send Service Request in vehicle_service.
-</code>
-
-- [lohyt/-CVE-2021-41962](https://github.com/lohyt/-CVE-2021-41962)
-
 ### CVE-2021-42008 (2021-10-04)
 
 <code>
@@ -8067,7 +8064,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [redhuntlabs/Log4JHunt](https://github.com/redhuntlabs/Log4JHunt)
 - [mss/log4shell-hotfix-side-effect](https://github.com/mss/log4shell-hotfix-side-effect)
 - [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
-- [MeterianHQ/log4j-vuln-coverage-check](https://github.com/MeterianHQ/log4j-vuln-coverage-check)
 - [mitiga/log4shell-cloud-scanner](https://github.com/mitiga/log4shell-cloud-scanner)
 - [isuruwa/Log4j](https://github.com/isuruwa/Log4j)
 - [honeynet/log4shell-data](https://github.com/honeynet/log4shell-data)
@@ -8079,16 +8075,13 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [michaelsanford/Log4Shell-Honeypot](https://github.com/michaelsanford/Log4Shell-Honeypot)
 - [thomaspatzke/Log4Pot](https://github.com/thomaspatzke/Log4Pot)
 - [rv4l3r3/log4v-vuln-check](https://github.com/rv4l3r3/log4v-vuln-check)
-- [dpomnean/log4j_scanner_wrapper](https://github.com/dpomnean/log4j_scanner_wrapper)
 - [snow0715/log4j-Scan-Burpsuite](https://github.com/snow0715/log4j-Scan-Burpsuite)
 - [Joefreedy/Log4j-Windows-Scanner](https://github.com/Joefreedy/Log4j-Windows-Scanner)
 - [Nanitor/log4fix](https://github.com/Nanitor/log4fix)
 - [Gyrfalc0n/scanlist-log4j](https://github.com/Gyrfalc0n/scanlist-log4j)
 - [korteke/log4shell-demo](https://github.com/korteke/log4shell-demo)
-- [recanavar/vuln_spring_log4j2](https://github.com/recanavar/vuln_spring_log4j2)
 - [DXC-StrikeForce/Burp-Log4j-HammerTime](https://github.com/DXC-StrikeForce/Burp-Log4j-HammerTime)
 - [andalik/log4j-filescan](https://github.com/andalik/log4j-filescan)
-- [lonecloud/CVE-2021-44228-Apache-Log4j](https://github.com/lonecloud/CVE-2021-44228-Apache-Log4j)
 - [gyaansastra/CVE-2021-44228](https://github.com/gyaansastra/CVE-2021-44228)
 - [axisops/CVE-2021-44228](https://github.com/axisops/CVE-2021-44228)
 - [kal1gh0st/MyLog4Shell](https://github.com/kal1gh0st/MyLog4Shell)
@@ -8647,6 +8640,11 @@ Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability 
 - [twoning/CVE-2021-46422_PoC](https://github.com/twoning/CVE-2021-46422_PoC)
 - [Awei507/CVE-RCE](https://github.com/Awei507/CVE-RCE)
 - [yigexioabai/CVE-2021-46422_RCE](https://github.com/yigexioabai/CVE-2021-46422_RCE)
+- [ZAxyr/CVE-2021-46422](https://github.com/ZAxyr/CVE-2021-46422)
+- [latings/CVE-2021-46422](https://github.com/latings/CVE-2021-46422)
+- [CJ-0107/cve-2021-46422](https://github.com/CJ-0107/cve-2021-46422)
+- [kelemaoya/CVE-2021-46422](https://github.com/kelemaoya/CVE-2021-46422)
+- [yyqxi/CVE-2021-46422](https://github.com/yyqxi/CVE-2021-46422)
 
 ### CVE-2021-46702 (2022-02-25)
 
