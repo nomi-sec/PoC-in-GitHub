@@ -8645,7 +8645,7 @@ Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability 
 - [nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422)
 - [Chocapikk/CVE-2021-46422](https://github.com/Chocapikk/CVE-2021-46422)
 - [twoning/CVE-2021-46422_PoC](https://github.com/twoning/CVE-2021-46422_PoC)
-- [Awei507/CVE-2021-46422](https://github.com/Awei507/CVE-2021-46422)
+- [Awei507/CVE-RCE](https://github.com/Awei507/CVE-RCE)
 - [yigexioabai/CVE-2021-46422_RCE](https://github.com/yigexioabai/CVE-2021-46422_RCE)
 
 ### CVE-2021-46702 (2022-02-25)
