@@ -158,6 +158,7 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 
 - [faisalfs10x/Webmin-CVE-2022-0824-revshell](https://github.com/faisalfs10x/Webmin-CVE-2022-0824-revshell)
 - [honypot/CVE-2022-0824](https://github.com/honypot/CVE-2022-0824)
+- [pizza-power/golang-webmin-CVE-2022-0824-revshell](https://github.com/pizza-power/golang-webmin-CVE-2022-0824-revshell)
 
 ### CVE-2022-0847 (2022-03-07)
 
@@ -585,6 +586,7 @@ A code injection vulnerability in the User Portal and Webadmin allows a remote a
 </code>
 
 - [n0npro/CVE-2022-3236-RCE-POC](https://github.com/n0npro/CVE-2022-3236-RCE-POC)
+- [n0npro/CVE-2022-3236-MASS-RCE](https://github.com/n0npro/CVE-2022-3236-MASS-RCE)
 
 ### CVE-2022-3452 (2022-10-11)
 
@@ -1820,6 +1822,7 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 - [0xf4n9x/CVE-2022-24990](https://github.com/0xf4n9x/CVE-2022-24990)
 - [lishang520/CVE-2022-24990](https://github.com/lishang520/CVE-2022-24990)
 - [antx-code/CVE-2022-24990](https://github.com/antx-code/CVE-2022-24990)
+- [jsongmax/terraMaster-CVE-2022-24990](https://github.com/jsongmax/terraMaster-CVE-2022-24990)
 
 ### CVE-2022-24999
 - [n8tz/CVE-2022-24999](https://github.com/n8tz/CVE-2022-24999)
@@ -2089,6 +2092,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [skhalsa-sigsci/CVE-2022-26134-LAB](https://github.com/skhalsa-sigsci/CVE-2022-26134-LAB)
 - [yigexioabai/CVE-2022-26134-cve1](https://github.com/yigexioabai/CVE-2022-26134-cve1)
 - [kailing0220/CVE-2022-26134](https://github.com/kailing0220/CVE-2022-26134)
+- [xanszZZ/ATLASSIAN-Confluence_rce](https://github.com/xanszZZ/ATLASSIAN-Confluence_rce)
 - [kelemaoya/CVE-2022-26134](https://github.com/kelemaoya/CVE-2022-26134)
 - [CJ-0107/cve-2022-26134](https://github.com/CJ-0107/cve-2022-26134)
 - [latings/CVE-2022-26134](https://github.com/latings/CVE-2022-26134)
@@ -3612,6 +3616,14 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 - [xiaobaiakai/CVE-2022-35914](https://github.com/xiaobaiakai/CVE-2022-35914)
 - [6E6L6F/CVE-2022-35914](https://github.com/6E6L6F/CVE-2022-35914)
 
+### CVE-2022-36067 (2022-09-06)
+
+<code>
+vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. In versions prior to version 3.9.11, a threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.11 of vm2. There are no known workarounds.
+</code>
+
+- [backcr4t/CVE-2022-36067-MASS-RCE](https://github.com/backcr4t/CVE-2022-36067-MASS-RCE)
+
 ### CVE-2022-36162
 - [MaherAzzouzi/CVE-2022-36162](https://github.com/MaherAzzouzi/CVE-2022-36162)
 
@@ -3838,6 +3850,7 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [lovechoudoufu/about_cobaltstrike4.5_cdf](https://github.com/lovechoudoufu/about_cobaltstrike4.5_cdf)
 - [burpheart/CVE-2022-39197-patch](https://github.com/burpheart/CVE-2022-39197-patch)
 - [4nth0ny1130/CVE-2022-39197-fix_patch](https://github.com/4nth0ny1130/CVE-2022-39197-fix_patch)
+- [PyterSmithDarkGhost/CVE-2022-39197-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-39197-POC)
 
 ### CVE-2022-39802 (2022-10-11)
 
@@ -3927,6 +3940,8 @@ Apache Shiro before 1.10.0, Authentication Bypass Vulnerability in Shiro when fo
 - [Chocapikk/CVE-2022-40684](https://github.com/Chocapikk/CVE-2022-40684)
 - [mohamedbenchikh/CVE-2022-40684](https://github.com/mohamedbenchikh/CVE-2022-40684)
 - [NeriaBasha/CVE-2022-40684](https://github.com/NeriaBasha/CVE-2022-40684)
+- [puckiestyle/CVE-2022-40684](https://github.com/puckiestyle/CVE-2022-40684)
+- [jsongmax/Fortinet-CVE-2022-40684](https://github.com/jsongmax/Fortinet-CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -3953,6 +3968,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 - [b3wT/CVE-2022-41082-MASS-SCANNER](https://github.com/b3wT/CVE-2022-41082-MASS-SCANNER)
+- [backcr4t/CVE-2022-41082-RCE](https://github.com/backcr4t/CVE-2022-41082-RCE)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -8099,7 +8115,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [DXC-StrikeForce/Burp-Log4j-HammerTime](https://github.com/DXC-StrikeForce/Burp-Log4j-HammerTime)
 - [andalik/log4j-filescan](https://github.com/andalik/log4j-filescan)
 - [gyaansastra/CVE-2021-44228](https://github.com/gyaansastra/CVE-2021-44228)
-- [axisops/CVE-2021-44228](https://github.com/axisops/CVE-2021-44228)
 - [kal1gh0st/MyLog4Shell](https://github.com/kal1gh0st/MyLog4Shell)
 - [hozyx/log4shell](https://github.com/hozyx/log4shell)
 - [Vulnmachines/log4j-cve-2021-44228](https://github.com/Vulnmachines/log4j-cve-2021-44228)
@@ -8657,6 +8672,7 @@ Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability 
 - [Awei507/CVE-RCE](https://github.com/Awei507/CVE-RCE)
 - [yigexioabai/CVE-2021-46422_RCE](https://github.com/yigexioabai/CVE-2021-46422_RCE)
 - [ZAxyr/CVE-2021-46422](https://github.com/ZAxyr/CVE-2021-46422)
+- [xanszZZ/SDT_CW3B1_rce](https://github.com/xanszZZ/SDT_CW3B1_rce)
 - [latings/CVE-2021-46422](https://github.com/latings/CVE-2021-46422)
 - [CJ-0107/cve-2021-46422](https://github.com/CJ-0107/cve-2021-46422)
 - [kelemaoya/CVE-2021-46422](https://github.com/kelemaoya/CVE-2021-46422)
@@ -14935,6 +14951,7 @@ There is a File Content Disclosure vulnerability in Action View &lt;5.2.2.1, &lt
 - [Bad3r/RailroadBandit](https://github.com/Bad3r/RailroadBandit)
 - [ztgrace/CVE-2019-5418-Rails3](https://github.com/ztgrace/CVE-2019-5418-Rails3)
 - [random-robbie/CVE-2019-5418](https://github.com/random-robbie/CVE-2019-5418)
+- [kailing0220/CVE-2019-5418](https://github.com/kailing0220/CVE-2019-5418)
 
 ### CVE-2019-5420 (2019-03-27)
 
@@ -28909,14 +28926,6 @@ Directory traversal vulnerability in Phusion web server 1.0 allows remote attack
 </code>
 
 - [alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288)
-
-### CVE-2002-0289 (2002-05-03)
-
-<code>
-Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289)
 
 ### CVE-2002-0346 (2002-05-03)
 
