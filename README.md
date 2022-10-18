@@ -593,6 +593,14 @@ A code injection vulnerability in the User Portal and Webadmin allows a remote a
 - [n0npro/CVE-2022-3236-RCE-POC](https://github.com/n0npro/CVE-2022-3236-RCE-POC)
 - [n0npro/CVE-2022-3236-MASS-RCE](https://github.com/n0npro/CVE-2022-3236-MASS-RCE)
 
+### CVE-2022-3368 (2022-10-17)
+
+<code>
+A vulnerability within the Software Updater functionality of Avira Security for Windows allowed an attacker with write access to the filesystem, to escalate his privileges in certain scenarios. The issue was fixed with Avira Security version 1.1.72.30556.
+</code>
+
+- [Wh04m1001/CVE-2022-3368](https://github.com/Wh04m1001/CVE-2022-3368)
+
 ### CVE-2022-3452 (2022-10-11)
 
 <code>
@@ -2338,6 +2346,14 @@ Caphyon Ltd Advanced Installer 19.3 and earlier and many products that use the u
 
 - [gerr-re/cve-2022-27438](https://github.com/gerr-re/cve-2022-27438)
 
+### CVE-2022-27502 (2022-06-10)
+
+<code>
+RealVNC VNC Server 6.9.0 through 5.1.0 for Windows allows local privilege escalation because an installer repair operation executes %TEMP% files as SYSTEM.
+</code>
+
+- [alirezac0/CVE-2022-27502](https://github.com/alirezac0/CVE-2022-27502)
+
 ### CVE-2022-27666 (2022-03-23)
 
 <code>
@@ -4011,8 +4027,10 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 </code>
 
 - [standb/CVE-2022-42889](https://github.com/standb/CVE-2022-42889)
-- [pr0n3d/CVE-2022-42889-MASS-RCE](https://github.com/pr0n3d/CVE-2022-42889-MASS-RCE)
 - [SeanWrightSec/CVE-2022-42889-PoC](https://github.com/SeanWrightSec/CVE-2022-42889-PoC)
+- [chainguard-dev/text4shell-policy](https://github.com/chainguard-dev/text4shell-policy)
+- [tulhan/commons-text-goat](https://github.com/tulhan/commons-text-goat)
+- [karthikuj/cve-2022-42889-text4shell-docker](https://github.com/karthikuj/cve-2022-42889-text4shell-docker)
 
 
 ## 2021
