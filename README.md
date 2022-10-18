@@ -584,15 +584,6 @@ A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
-### CVE-2022-3236 (2022-09-23)
-
-<code>
-A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
-</code>
-
-- [n0npro/CVE-2022-3236-RCE-POC](https://github.com/n0npro/CVE-2022-3236-RCE-POC)
-- [n0npro/CVE-2022-3236-MASS-RCE](https://github.com/n0npro/CVE-2022-3236-MASS-RCE)
-
 ### CVE-2022-3368 (2022-10-17)
 
 <code>
@@ -3638,14 +3629,6 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 - [xiaobaiakai/CVE-2022-35914](https://github.com/xiaobaiakai/CVE-2022-35914)
 - [6E6L6F/CVE-2022-35914](https://github.com/6E6L6F/CVE-2022-35914)
 
-### CVE-2022-36067 (2022-09-06)
-
-<code>
-vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. In versions prior to version 3.9.11, a threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.11 of vm2. There are no known workarounds.
-</code>
-
-- [backcr4t/CVE-2022-36067-MASS-RCE](https://github.com/backcr4t/CVE-2022-36067-MASS-RCE)
-
 ### CVE-2022-36162
 - [MaherAzzouzi/CVE-2022-36162](https://github.com/MaherAzzouzi/CVE-2022-36162)
 
@@ -3950,7 +3933,12 @@ Apache Shiro before 1.10.0, Authentication Bypass Vulnerability in Shiro when fo
 
 - [Jackey0/CVE-2022-40664](https://github.com/Jackey0/CVE-2022-40664)
 
-### CVE-2022-40684
+### CVE-2022-40684 (2022-10-18)
+
+<code>
+An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy version 7.2.0 and version 7.0.0 through 7.0.6 and FortiSwitchManager version 7.2.0 and 7.0.0 allows an unauthenticated atttacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests.
+</code>
+
 - [horizon3ai/CVE-2022-40684](https://github.com/horizon3ai/CVE-2022-40684)
 - [carlosevieira/CVE-2022-40684](https://github.com/carlosevieira/CVE-2022-40684)
 - [Filiplain/Fortinet-PoC-Auth-Bypass](https://github.com/Filiplain/Fortinet-PoC-Auth-Bypass)
@@ -3961,7 +3949,7 @@ Apache Shiro before 1.10.0, Authentication Bypass Vulnerability in Shiro when fo
 - [mhd108/CVE-2022-40684](https://github.com/mhd108/CVE-2022-40684)
 - [ClickCyber/cve-2022-40684](https://github.com/ClickCyber/cve-2022-40684)
 - [Chocapikk/CVE-2022-40684](https://github.com/Chocapikk/CVE-2022-40684)
-- [mohamedbenchikh/FortiPWN](https://github.com/mohamedbenchikh/FortiPWN)
+- [mohamedbenchikh/CVE-2022-40684](https://github.com/mohamedbenchikh/CVE-2022-40684)
 - [NeriaBasha/CVE-2022-40684](https://github.com/NeriaBasha/CVE-2022-40684)
 - [puckiestyle/CVE-2022-40684](https://github.com/puckiestyle/CVE-2022-40684)
 - [jsongmax/Fortinet-CVE-2022-40684](https://github.com/jsongmax/Fortinet-CVE-2022-40684)
@@ -3991,7 +3979,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 - [b3wT/CVE-2022-41082-MASS-SCANNER](https://github.com/b3wT/CVE-2022-41082-MASS-SCANNER)
-- [backcr4t/CVE-2022-41082-RCE](https://github.com/backcr4t/CVE-2022-41082-RCE)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -4012,6 +3999,14 @@ An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacke
 ### CVE-2022-41358
 - [thecasual/CVE-2022-41358](https://github.com/thecasual/CVE-2022-41358)
 
+### CVE-2022-41540 (2022-10-18)
+
+<code>
+The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic keys when communicating with the router. Attackers who are able to intercept the communications between the web client and router through a man-in-the-middle attack can then obtain the sequence key via a brute-force attack, and access sensitive information.
+</code>
+
+- [efchatz/easy-exploits](https://github.com/efchatz/easy-exploits)
+
 ### CVE-2022-41852 (2022-10-06)
 
 <code>
@@ -4031,6 +4026,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [chainguard-dev/text4shell-policy](https://github.com/chainguard-dev/text4shell-policy)
 - [tulhan/commons-text-goat](https://github.com/tulhan/commons-text-goat)
 - [karthikuj/cve-2022-42889-text4shell-docker](https://github.com/karthikuj/cve-2022-42889-text4shell-docker)
+- [ClickCyber/cve-2022-42889](https://github.com/ClickCyber/cve-2022-42889)
 
 
 ## 2021
@@ -10499,7 +10495,6 @@ LinuxKI v6.0-1 and earlier is vulnerable to an remote code execution which is re
 A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An attacker can upload a malicious PHP code file via the profile photo functionality, by leveraging a path traversal vulnerability in the users['photop_preview'] delete photo feature, allowing bypass of .htaccess protection. NOTE: this issue exists because of an incomplete fix for CVE-2015-3884.
 </code>
 
-- [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
 - [arafatansari/SecAssignment](https://github.com/arafatansari/SecAssignment)
 - [pswalia2u/CVE-2020-7246](https://github.com/pswalia2u/CVE-2020-7246)
 
@@ -12045,6 +12040,7 @@ Apache Kylin 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.3.2, 2.4.0, 2.4.1, 2.5.0, 2.5.
 
 - [yaunsky/CVE-2020-13937](https://github.com/yaunsky/CVE-2020-13937)
 - [Al1ex/CVE-2020-13937](https://github.com/Al1ex/CVE-2020-13937)
+- [kailing0220/CVE-2020-13937](https://github.com/kailing0220/CVE-2020-13937)
 
 ### CVE-2020-13942 (2020-11-24)
 
@@ -19231,7 +19227,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
 - [markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574)
 - [hasharmujahid/CVE-2018-6574-go-get-RCE](https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE)
-- [moorada/goGetRCE](https://github.com/moorada/goGetRCE)
 - [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
@@ -26679,6 +26674,7 @@ The expandArguments function in the database abstraction API in Drupal core 7.x 
 </code>
 
 - [happynote3966/CVE-2014-3704](https://github.com/happynote3966/CVE-2014-3704)
+- [AleDiBen/Drupalgeddon](https://github.com/AleDiBen/Drupalgeddon)
 
 ### CVE-2014-4014 (2014-06-23)
 
