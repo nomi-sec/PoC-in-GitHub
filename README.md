@@ -4030,6 +4030,14 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [Goss1TheDog/CVE-2022-42889-RCE-POC](https://github.com/Goss1TheDog/CVE-2022-42889-RCE-POC)
 - [korteke/CVE-2022-42889-POC](https://github.com/korteke/CVE-2022-42889-POC)
 
+### CVE-2022-42899 (2022-10-12)
+
+<code>
+Bentley MicroStation and MicroStation-based applications may be affected by out-of-bounds read and stack overflow issues when opening crafted SKP files. Exploiting these issues could lead to information disclosure and code execution. The fixed versions are 10.17.01.58* for MicroStation and 10.17.01.19* for Bentley View.
+</code>
+
+- [iamsanjay/CVE-2022-42899](https://github.com/iamsanjay/CVE-2022-42899)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
