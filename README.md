@@ -3933,6 +3933,14 @@ Apache Shiro before 1.10.0, Authentication Bypass Vulnerability in Shiro when fo
 
 - [Jackey0/CVE-2022-40664](https://github.com/Jackey0/CVE-2022-40664)
 
+### CVE-2022-40674 (2022-09-14)
+
+<code>
+libexpat before 2.4.9 has a use-after-free in the doContent function in xmlparse.c.
+</code>
+
+- [nidhi7598/-expat_2.1.0_CVE-2022-40674](https://github.com/nidhi7598/-expat_2.1.0_CVE-2022-40674)
+
 ### CVE-2022-40684 (2022-10-18)
 
 <code>
@@ -4029,6 +4037,8 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [ClickCyber/cve-2022-42889](https://github.com/ClickCyber/cve-2022-42889)
 - [Goss1TheDog/CVE-2022-42889-RCE-POC](https://github.com/Goss1TheDog/CVE-2022-42889-RCE-POC)
 - [korteke/CVE-2022-42889-POC](https://github.com/korteke/CVE-2022-42889-POC)
+- [eunomie/cve-2022-42889-check](https://github.com/eunomie/cve-2022-42889-check)
+- [kljunowsky/CVE-2022-42889-text4shell](https://github.com/kljunowsky/CVE-2022-42889-text4shell)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -9326,6 +9336,7 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [MrTiz/CVE-2020-0688](https://github.com/MrTiz/CVE-2020-0688)
 - [ann0906/proxylogon](https://github.com/ann0906/proxylogon)
 - [7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688)
+- [TheKickPuncher/CVE-2020-0688-Python3](https://github.com/TheKickPuncher/CVE-2020-0688-Python3)
 
 ### CVE-2020-0692 (2020-02-11)
 
@@ -11219,14 +11230,6 @@ A vulnerability related to Dynamic-link Library (“DLL”) loading in the Zoom 
 </code>
 
 - [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
-
-### CVE-2020-9768 (2020-04-01)
-
-<code>
-A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
-</code>
-
-- [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
 
 ### CVE-2020-9781 (2020-04-01)
 
