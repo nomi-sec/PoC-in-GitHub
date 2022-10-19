@@ -4027,6 +4027,8 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [tulhan/commons-text-goat](https://github.com/tulhan/commons-text-goat)
 - [karthikuj/cve-2022-42889-text4shell-docker](https://github.com/karthikuj/cve-2022-42889-text4shell-docker)
 - [ClickCyber/cve-2022-42889](https://github.com/ClickCyber/cve-2022-42889)
+- [Goss1TheDog/CVE-2022-42889-RCE-POC](https://github.com/Goss1TheDog/CVE-2022-42889-RCE-POC)
+- [korteke/CVE-2022-42889-POC](https://github.com/korteke/CVE-2022-42889-POC)
 
 
 ## 2021
@@ -5894,6 +5896,7 @@ Apache Druid includes the ability to execute user-provided JavaScript code embed
 - [lp008/CVE-2021-25646](https://github.com/lp008/CVE-2021-25646)
 - [Ormicron/CVE-2021-25646-GUI](https://github.com/Ormicron/CVE-2021-25646-GUI)
 - [Vulnmachines/Apache-Druid-CVE-2021-25646](https://github.com/Vulnmachines/Apache-Druid-CVE-2021-25646)
+- [1n7erface/PocList](https://github.com/1n7erface/PocList)
 - [givemefivw/CVE-2021-25646](https://github.com/givemefivw/CVE-2021-25646)
 
 ### CVE-2021-25679 (2021-04-20)
@@ -9432,7 +9435,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
-- [5l1v3r1/CVE-2020-0796-PoC-3](https://github.com/5l1v3r1/CVE-2020-0796-PoC-3)
 - [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
 - [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
 
@@ -12340,6 +12342,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [B1anda0/CVE-2020-14883](https://github.com/B1anda0/CVE-2020-14883)
 - [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
+- [1n7erface/PocList](https://github.com/1n7erface/PocList)
 
 ### CVE-2020-14947 (2020-06-30)
 
