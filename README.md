@@ -2321,6 +2321,9 @@ In Realtek eCos RSDK 1.5.7p1 and MSDK 4.9.4p1, the SIP ALG function that rewrite
 - [infobyte/cve-2022-27255](https://github.com/infobyte/cve-2022-27255)
 - [stryker-project/CVE-2022-27255-checker](https://github.com/stryker-project/CVE-2022-27255-checker)
 
+### CVE-2022-27414
+- [lus33rr/CVE-2022-27414](https://github.com/lus33rr/CVE-2022-27414)
+
 ### CVE-2022-27434 (2022-07-17)
 
 <code>
@@ -2689,6 +2692,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [oppsec/WSOB](https://github.com/oppsec/WSOB)
 - [k4u5h41/CVE-2022-29464](https://github.com/k4u5h41/CVE-2022-29464)
 - [lowkey0808/cve-2022-29464](https://github.com/lowkey0808/cve-2022-29464)
+- [UUFR/CVE-2022-29464](https://github.com/UUFR/CVE-2022-29464)
 - [LinJacck/CVE-2022-29464](https://github.com/LinJacck/CVE-2022-29464)
 - [Inplex-sys/CVE-2022-29464-loader](https://github.com/Inplex-sys/CVE-2022-29464-loader)
 - [trhacknon/CVE-2022-29464](https://github.com/trhacknon/CVE-2022-29464)
@@ -3954,6 +3958,7 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [NeriaBasha/CVE-2022-40684](https://github.com/NeriaBasha/CVE-2022-40684)
 - [puckiestyle/CVE-2022-40684](https://github.com/puckiestyle/CVE-2022-40684)
 - [jsongmax/Fortinet-CVE-2022-40684](https://github.com/jsongmax/Fortinet-CVE-2022-40684)
+- [und3sc0n0c1d0/CVE-2022-40684](https://github.com/und3sc0n0c1d0/CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -4031,6 +4036,8 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [korteke/CVE-2022-42889-POC](https://github.com/korteke/CVE-2022-42889-POC)
 - [eunomie/cve-2022-42889-check](https://github.com/eunomie/cve-2022-42889-check)
 - [kljunowsky/CVE-2022-42889-text4shell](https://github.com/kljunowsky/CVE-2022-42889-text4shell)
+- [securekomodo/text4shell-scan](https://github.com/securekomodo/text4shell-scan)
+- [neerazz/CVE-2022-42889](https://github.com/neerazz/CVE-2022-42889)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -9214,6 +9221,7 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [ly4k/CurveBall](https://github.com/ly4k/CurveBall)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
+- [BlueTeamSteve/CVE-2020-0601](https://github.com/BlueTeamSteve/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell)
