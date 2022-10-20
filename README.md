@@ -1295,7 +1295,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [pwnsac/CVE-2022-22965](https://github.com/pwnsac/CVE-2022-22965)
+- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -4050,6 +4050,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [kljunowsky/CVE-2022-42889-text4shell](https://github.com/kljunowsky/CVE-2022-42889-text4shell)
 - [securekomodo/text4shell-scan](https://github.com/securekomodo/text4shell-scan)
 - [neerazz/CVE-2022-42889](https://github.com/neerazz/CVE-2022-42889)
+- [uk0/cve-2022-42889-intercept](https://github.com/uk0/cve-2022-42889-intercept)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -23872,6 +23873,7 @@ FasterXML jackson-databind through 2.8.10 and 2.9.x through 2.9.3 allows unauthe
 - [tafamace/CVE-2017-17485](https://github.com/tafamace/CVE-2017-17485)
 - [x7iaob/cve-2017-17485](https://github.com/x7iaob/cve-2017-17485)
 - [Al1ex/CVE-2017-17485](https://github.com/Al1ex/CVE-2017-17485)
+- [mattysaints/CVE-2017-17485](https://github.com/mattysaints/CVE-2017-17485)
 
 ### CVE-2017-17562 (2017-12-12)
 
