@@ -3780,7 +3780,12 @@ JFinal CMS 5.1.0 is vulnerable to SQL Injection. These interfaces do not use the
 
 - [AgainstTheLight/CVE-2022-37208](https://github.com/AgainstTheLight/CVE-2022-37208)
 
-### CVE-2022-37298
+### CVE-2022-37298 (-)
+
+<code>
+Shinken Solutions Shinken Monitoring Version 2.4.3 affected is vulnerable to Incorrect Access Control. The SafeUnpickler class found in shinken/safepickle.py implements a weak authentication scheme when unserializing objects passed from monitoring nodes to the Shinken monitoring server.
+</code>
+
 - [dbyio/cve-2022-37298](https://github.com/dbyio/cve-2022-37298)
 
 ### CVE-2022-37434 (2022-08-05)
