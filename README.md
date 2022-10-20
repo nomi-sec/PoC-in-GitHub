@@ -1195,12 +1195,13 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [MLX15/CVE-2022-22954](https://github.com/MLX15/CVE-2022-22954)
 - [trhacknon/CVE-2022-22954-PoC](https://github.com/trhacknon/CVE-2022-22954-PoC)
 - [Chocapikk/CVE-2022-22954](https://github.com/Chocapikk/CVE-2022-22954)
-- [trhacknon/CVE-2022-22954](https://github.com/trhacknon/CVE-2022-22954)
 - [orwagodfather/CVE-2022-22954](https://github.com/orwagodfather/CVE-2022-22954)
 - [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
+- [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
+- [trhacknon/CVE-2022-22954_](https://github.com/trhacknon/CVE-2022-22954_)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -3976,6 +3977,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [kljunowsky/CVE-2022-41040-POC](https://github.com/kljunowsky/CVE-2022-41040-POC)
 - [rjsudlow/proxynotshell-IOC-Checker](https://github.com/rjsudlow/proxynotshell-IOC-Checker)
 - [ITPATJIDR/CVE-2022-41040](https://github.com/ITPATJIDR/CVE-2022-41040)
+- [TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -4002,7 +4004,12 @@ An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacke
 
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 
-### CVE-2022-41358
+### CVE-2022-41358 (-)
+
+<code>
+A stored cross-site scripting (XSS) vulnerability in Garage Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the categoriesName parameter in createCategories.php.
+</code>
+
 - [thecasual/CVE-2022-41358](https://github.com/thecasual/CVE-2022-41358)
 
 ### CVE-2022-41540 (2022-10-18)
@@ -11230,6 +11237,14 @@ A vulnerability related to Dynamic-link Library (“DLL”) loading in the Zoom 
 
 - [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
 
+### CVE-2020-9768 (2020-04-01)
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
+</code>
+
+- [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
+
 ### CVE-2020-9781 (2020-04-01)
 
 <code>
@@ -13101,7 +13116,6 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
 - [piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213)
-- [adminsec5247/CVE-2020-25213-wordpress-wp-file-manager-fileupload](https://github.com/adminsec5247/CVE-2020-25213-wordpress-wp-file-manager-fileupload)
 - [b1ackros337/CVE-2020-25213](https://github.com/b1ackros337/CVE-2020-25213)
 
 ### CVE-2020-25223 (2020-09-24)
