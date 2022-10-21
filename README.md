@@ -3973,6 +3973,7 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [puckiestyle/CVE-2022-40684](https://github.com/puckiestyle/CVE-2022-40684)
 - [jsongmax/Fortinet-CVE-2022-40684](https://github.com/jsongmax/Fortinet-CVE-2022-40684)
 - [und3sc0n0c1d0/CVE-2022-40684](https://github.com/und3sc0n0c1d0/CVE-2022-40684)
+- [Bendalledj/CVE-2022-40684](https://github.com/Bendalledj/CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -28875,7 +28876,7 @@ PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and
 TCP, when using a large Window Size, makes it easier for remote attackers to guess sequence numbers and cause a denial of service (connection loss) to persistent TCP connections by repeatedly injecting a TCP RST packet, especially in protocols that use long-lived connections, such as BGP.
 </code>
 
-- [RakeshShinde97/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service](https://github.com/RakeshShinde97/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service)
+- [Maratha-KT/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service](https://github.com/Maratha-KT/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service)
 
 ### CVE-2004-0558 (2004-09-17)
 
