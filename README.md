@@ -925,6 +925,14 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [iveresk/cve-2022-21907-http.sys](https://github.com/iveresk/cve-2022-21907-http.sys)
 - [iveresk/cve-2022-21907](https://github.com/iveresk/cve-2022-21907)
 
+### CVE-2022-21970 (2022-01-11)
+
+<code>
+Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21954.
+</code>
+
+- [Malwareman007/CVE-2022-21970](https://github.com/Malwareman007/CVE-2022-21970)
+
 ### CVE-2022-21971 (2022-02-09)
 
 <code>
@@ -1161,6 +1169,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [kmahyyg/CVE-2022-22947](https://github.com/kmahyyg/CVE-2022-22947)
 - [LY613313/CVE-2022-22947](https://github.com/LY613313/CVE-2022-22947)
 - [SiJiDo/CVE-2022-22947](https://github.com/SiJiDo/CVE-2022-22947)
+- [trhacknon/CVE-2022-22947](https://github.com/trhacknon/CVE-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -1201,7 +1210,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
 - [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
-- [trhacknon/CVE-2022-22954_](https://github.com/trhacknon/CVE-2022-22954_)
+- [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -3955,7 +3964,6 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [Filiplain/Fortinet-PoC-Auth-Bypass](https://github.com/Filiplain/Fortinet-PoC-Auth-Bypass)
 - [kljunowsky/CVE-2022-40684-POC](https://github.com/kljunowsky/CVE-2022-40684-POC)
 - [secunnix/CVE-2022-40684](https://github.com/secunnix/CVE-2022-40684)
-- [Carl0sV1e1ra/CVE-2022-40684](https://github.com/Carl0sV1e1ra/CVE-2022-40684)
 - [iveresk/CVE-2022-40684](https://github.com/iveresk/CVE-2022-40684)
 - [mhd108/CVE-2022-40684](https://github.com/mhd108/CVE-2022-40684)
 - [ClickCyber/cve-2022-40684](https://github.com/ClickCyber/cve-2022-40684)
@@ -3983,6 +3991,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [rjsudlow/proxynotshell-IOC-Checker](https://github.com/rjsudlow/proxynotshell-IOC-Checker)
 - [ITPATJIDR/CVE-2022-41040](https://github.com/ITPATJIDR/CVE-2022-41040)
 - [TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell)
+- [trhacknon/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/trhacknon/CVE-2022-41040-metasploit-ProxyNotShell)
 
 ### CVE-2022-41082 (2022-10-02)
 
@@ -3992,6 +4001,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 - [b3wT/CVE-2022-41082-MASS-SCANNER](https://github.com/b3wT/CVE-2022-41082-MASS-SCANNER)
+- [trhacknon/CVE-2022-41082-MASS-SCANNER](https://github.com/trhacknon/CVE-2022-41082-MASS-SCANNER)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -4051,6 +4061,8 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [securekomodo/text4shell-scan](https://github.com/securekomodo/text4shell-scan)
 - [neerazz/CVE-2022-42889](https://github.com/neerazz/CVE-2022-42889)
 - [uk0/cve-2022-42889-intercept](https://github.com/uk0/cve-2022-42889-intercept)
+- [securekomodo/text4shell-poc](https://github.com/securekomodo/text4shell-poc)
+- [RIP-Network/cve-2022-42889-scanner](https://github.com/RIP-Network/cve-2022-42889-scanner)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -23115,6 +23127,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
 - [Invertebr4do/cve-2017-9841](https://github.com/Invertebr4do/cve-2017-9841)
 - [yoloskr/CVE-2017-9841-Scan](https://github.com/yoloskr/CVE-2017-9841-Scan)
+- [mileticluka1/eval-stdin](https://github.com/mileticluka1/eval-stdin)
 
 ### CVE-2017-9934 (2017-07-17)
 
