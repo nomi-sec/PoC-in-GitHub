@@ -3789,7 +3789,7 @@ JFinal CMS 5.1.0 is vulnerable to SQL Injection. These interfaces do not use the
 
 - [AgainstTheLight/CVE-2022-37208](https://github.com/AgainstTheLight/CVE-2022-37208)
 
-### CVE-2022-37298 (-)
+### CVE-2022-37298 (2022-10-20)
 
 <code>
 Shinken Solutions Shinken Monitoring Version 2.4.3 affected is vulnerable to Incorrect Access Control. The SafeUnpickler class found in shinken/safepickle.py implements a weak authentication scheme when unserializing objects passed from monitoring nodes to the Shinken monitoring server.
@@ -4020,7 +4020,7 @@ An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacke
 
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 
-### CVE-2022-41358 (-)
+### CVE-2022-41358 (2022-10-19)
 
 <code>
 A stored cross-site scripting (XSS) vulnerability in Garage Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the categoriesName parameter in createCategories.php.
@@ -4064,6 +4064,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [uk0/cve-2022-42889-intercept](https://github.com/uk0/cve-2022-42889-intercept)
 - [securekomodo/text4shell-poc](https://github.com/securekomodo/text4shell-poc)
 - [RIP-Network/cve-2022-42889-scanner](https://github.com/RIP-Network/cve-2022-42889-scanner)
+- [humbss/CVE-2022-42889](https://github.com/humbss/CVE-2022-42889)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -28870,14 +28871,6 @@ PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and
 
 
 ## 2004
-### CVE-2004-0230 (2004-05-05)
-
-<code>
-TCP, when using a large Window Size, makes it easier for remote attackers to guess sequence numbers and cause a denial of service (connection loss) to persistent TCP connections by repeatedly injecting a TCP RST packet, especially in protocols that use long-lived connections, such as BGP.
-</code>
-
-- [Maratha-KT/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service](https://github.com/Maratha-KT/CVE-2004-0230-TCP-Sequence-Number-Approximation-Based-Denial-of-Service)
-
 ### CVE-2004-0558 (2004-09-17)
 
 <code>
