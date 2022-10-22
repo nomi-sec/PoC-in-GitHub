@@ -535,6 +535,14 @@ If an attacker manages to trick a valid user into loading a malicious DLL, the a
 
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
 
+### CVE-2022-2402 (2022-09-06)
+
+<code>
+The vulnerability in the driver dlpfde.sys enables a user logged into the system to perform system calls leading to kernel stack overflow, resulting in a system crash, for instance, a BSOD.
+</code>
+
+- [SecurityAndStuff/CVE-2022-2402](https://github.com/SecurityAndStuff/CVE-2022-2402)
+
 ### CVE-2022-2414 (2022-07-29)
 
 <code>
@@ -3970,6 +3978,7 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [Chocapikk/CVE-2022-40684](https://github.com/Chocapikk/CVE-2022-40684)
 - [mohamedbenchikh/CVE-2022-40684](https://github.com/mohamedbenchikh/CVE-2022-40684)
 - [NeriaBasha/CVE-2022-40684](https://github.com/NeriaBasha/CVE-2022-40684)
+- [Grapphy/fortipwn](https://github.com/Grapphy/fortipwn)
 - [puckiestyle/CVE-2022-40684](https://github.com/puckiestyle/CVE-2022-40684)
 - [jsongmax/Fortinet-CVE-2022-40684](https://github.com/jsongmax/Fortinet-CVE-2022-40684)
 - [und3sc0n0c1d0/CVE-2022-40684](https://github.com/und3sc0n0c1d0/CVE-2022-40684)
@@ -4065,6 +4074,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [securekomodo/text4shell-poc](https://github.com/securekomodo/text4shell-poc)
 - [RIP-Network/cve-2022-42889-scanner](https://github.com/RIP-Network/cve-2022-42889-scanner)
 - [humbss/CVE-2022-42889](https://github.com/humbss/CVE-2022-42889)
+- [stavrosgns/Text4ShellPayloads](https://github.com/stavrosgns/Text4ShellPayloads)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -19460,6 +19470,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
 - [0xkasra/CVE-2018-7600](https://github.com/0xkasra/CVE-2018-7600)
 - [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
+- [trhacknon/CVE-2018-7600](https://github.com/trhacknon/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
