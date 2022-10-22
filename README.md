@@ -3893,6 +3893,7 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [4nth0ny1130/CVE-2022-39197-fix_patch](https://github.com/4nth0ny1130/CVE-2022-39197-fix_patch)
 - [its-arun/CVE-2022-39197](https://github.com/its-arun/CVE-2022-39197)
 - [PyterSmithDarkGhost/CVE-2022-39197-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-39197-POC)
+- [TheCryingGame/CVE-2022-39197-RCE](https://github.com/TheCryingGame/CVE-2022-39197-RCE)
 
 ### CVE-2022-39802 (2022-10-11)
 
@@ -4084,6 +4085,8 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [humbss/CVE-2022-42889](https://github.com/humbss/CVE-2022-42889)
 - [stavrosgns/Text4ShellPayloads](https://github.com/stavrosgns/Text4ShellPayloads)
 - [s3l33/CVE-2022-42889](https://github.com/s3l33/CVE-2022-42889)
+- [galoget/CVE-2022-42889-Text4Shell-Docker](https://github.com/galoget/CVE-2022-42889-Text4Shell-Docker)
+- [rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC](https://github.com/rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC)
 
 ### CVE-2022-42899 (2022-10-12)
 
