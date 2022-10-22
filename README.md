@@ -284,6 +284,14 @@ Improper file permissions in the CommandPost, Collector, and Sensor components o
 
 - [henryreed/CVE-2022-0997](https://github.com/henryreed/CVE-2022-0997)
 
+### CVE-2022-1000 (2022-03-17)
+
+<code>
+Path Traversal in GitHub repository prasathmani/tinyfilemanager prior to 2.4.7.
+</code>
+
+- [yonggui-li/CVE-2022-1000_poc](https://github.com/yonggui-li/CVE-2022-1000_poc)
+
 ### CVE-2022-1015 (2022-04-29)
 
 <code>
@@ -4075,6 +4083,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [RIP-Network/cve-2022-42889-scanner](https://github.com/RIP-Network/cve-2022-42889-scanner)
 - [humbss/CVE-2022-42889](https://github.com/humbss/CVE-2022-42889)
 - [stavrosgns/Text4ShellPayloads](https://github.com/stavrosgns/Text4ShellPayloads)
+- [s3l33/CVE-2022-42889](https://github.com/s3l33/CVE-2022-42889)
 
 ### CVE-2022-42899 (2022-10-12)
 
