@@ -2944,6 +2944,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
 - [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
+- [WilsonFung414/CVE-2022-30190](https://github.com/WilsonFung414/CVE-2022-30190)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -3882,6 +3883,9 @@ An issue was discovered in Airties Smart Wi-Fi before 2020-08-04. It allows atta
 
 - [ProxyStaffy/Airties-CVE-2022-38789](https://github.com/ProxyStaffy/Airties-CVE-2022-38789)
 
+### CVE-2022-38813
+- [RashidKhanPathan/CVE-2022-38813](https://github.com/RashidKhanPathan/CVE-2022-38813)
+
 ### CVE-2022-39196 (2022-09-04)
 
 <code>
@@ -4076,6 +4080,9 @@ Those using JXPath to interpret untrusted XPath expressions may be vulnerable to
 
 - [Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852)
 
+### CVE-2022-42045
+- [ReCryptLLC/CVE-2022-42045](https://github.com/ReCryptLLC/CVE-2022-42045)
+
 ### CVE-2022-42889 (2022-10-13)
 
 <code>
@@ -4105,6 +4112,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [akshayithape-devops/CVE-2022-42889-POC](https://github.com/akshayithape-devops/CVE-2022-42889-POC)
 - [0xmaximus/Apache-Commons-Text-CVE-2022-42889](https://github.com/0xmaximus/Apache-Commons-Text-CVE-2022-42889)
 - [smileostrich/Text4Shell-Scanner](https://github.com/smileostrich/Text4Shell-Scanner)
+- [cxzero/CVE-2022-42889-text4shell](https://github.com/cxzero/CVE-2022-42889-text4shell)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -24334,6 +24342,15 @@ The performance event manager for Qualcomm ARM processors in Android 4.x before 
 
 - [hulovebin/cve-2016-0805](https://github.com/hulovebin/cve-2016-0805)
 
+### CVE-2016-0846 (2016-04-17)
+
+<code>
+libs/binder/IMemory.cpp in the IMemory Native Interface in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-04-01 does not properly consider the heap size, which allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 26877992.
+</code>
+
+- [secmob/CVE-2016-0846](https://github.com/secmob/CVE-2016-0846)
+- [b0b0505/CVE-2016-0846-PoC](https://github.com/b0b0505/CVE-2016-0846-PoC)
+
 ### CVE-2016-0974 (2016-02-10)
 
 <code>
@@ -24401,6 +24418,14 @@ Race condition in the kernel in Apple iOS before 9.3 and OS X before 10.11.4 all
 
 - [gdbinit/mach_race](https://github.com/gdbinit/mach_race)
 
+### CVE-2016-1764 (2016-03-23)
+
+<code>
+The Content Security Policy (CSP) implementation in Messages in Apple OS X before 10.11.4 allows remote attackers to obtain sensitive information via a javascript: URL.
+</code>
+
+- [moloch--/cve-2016-1764](https://github.com/moloch--/cve-2016-1764)
+
 ### CVE-2016-1825 (2016-05-20)
 
 <code>
@@ -24462,6 +24487,14 @@ The AES-NI implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h does 
 
 - [FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107)
 - [tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107)
+
+### CVE-2016-2118 (2016-04-12)
+
+<code>
+The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka &quot;BADLOCK.&quot;
+</code>
+
+- [nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118)
 
 ### CVE-2016-2173 (2017-04-21)
 
@@ -24583,6 +24616,14 @@ CRLF injection vulnerability in Dropbear SSH before 2016.72 allows remote authen
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
+
+### CVE-2016-3141 (2016-03-31)
+
+<code>
+Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
+</code>
+
+- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
