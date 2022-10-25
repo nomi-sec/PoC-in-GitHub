@@ -453,6 +453,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
+- [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -482,6 +483,14 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [NullBrunk/CVE-2022-1609](https://github.com/NullBrunk/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
+
+### CVE-2022-1679 (2022-05-16)
+
+<code>
+A use-after-free flaw was found in the Linux kernel’s Atheros wireless adapter driver in the way a user forces the ath9k_htc_wait_for_target function to fail with some input messages. This flaw allows a local user to crash or potentially escalate their privileges on the system.
+</code>
+
+- [EkamSinghWalia/-Detection-and-Mitigation-for-CVE-2022-1679](https://github.com/EkamSinghWalia/-Detection-and-Mitigation-for-CVE-2022-1679)
 
 ### CVE-2022-1802
 - [mistymntncop/CVE-2022-1802](https://github.com/mistymntncop/CVE-2022-1802)
@@ -588,6 +597,7 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 </code>
 
 - [avboy1337/CVE-2022-2639-PipeVersion](https://github.com/avboy1337/CVE-2022-2639-PipeVersion)
+- [EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639](https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639)
 
 ### CVE-2022-2992 (2022-10-17)
 
@@ -4135,6 +4145,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [smileostrich/Text4Shell-Scanner](https://github.com/smileostrich/Text4Shell-Scanner)
 - [cxzero/CVE-2022-42889-text4shell](https://github.com/cxzero/CVE-2022-42889-text4shell)
 - [west-wind/CVE-2022-42889](https://github.com/west-wind/CVE-2022-42889)
+- [Vulnmachines/text4shell-CVE-2022-42889](https://github.com/Vulnmachines/text4shell-CVE-2022-42889)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -6109,6 +6120,14 @@ Apache OFBiz has unsafe deserialization prior to 17.12.06. An unauthenticated at
 - [coolyin001/CVE-2021-26295--](https://github.com/coolyin001/CVE-2021-26295--)
 - [S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP)
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
+
+### CVE-2021-26414 (2021-06-08)
+
+<code>
+Windows DCOM Server Security Feature Bypass
+</code>
+
+- [Nels2/dcom_10036_Solver](https://github.com/Nels2/dcom_10036_Solver)
 
 ### CVE-2021-26415 (2021-04-13)
 
@@ -8528,7 +8547,6 @@ SuiteCRM before 7.12.2 and 8.x before 8.0.1 allows authenticated SQL injection v
 It was found that the fix to address CVE-2021-44228 in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allows attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in an information leak and remote code execution in some environments and local code execution in all environments. Log4j 2.16.0 (Java 8) and 2.12.2 (Java 7) fix this issue by removing support for message lookup patterns and disabling JNDI functionality by default.
 </code>
 
-- [X1pe0/Log4J-Scan-Win](https://github.com/X1pe0/Log4J-Scan-Win)
 - [cckuailong/Log4j_CVE-2021-45046](https://github.com/cckuailong/Log4j_CVE-2021-45046)
 - [BobTheShoplifter/CVE-2021-45046-Info](https://github.com/BobTheShoplifter/CVE-2021-45046-Info)
 - [mergebase/log4j-samples](https://github.com/mergebase/log4j-samples)
@@ -26520,6 +26538,7 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
+- [k4u5h41/CVE-2014-0160_Heartbleed](https://github.com/k4u5h41/CVE-2014-0160_Heartbleed)
 - [GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing)
 
 ### CVE-2014-0166 (2014-04-09)
@@ -28788,6 +28807,7 @@ The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote 
 - [mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447)
 - [HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE)
 - [Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447)
+- [k4u5h41/CVE-2007-2447](https://github.com/k4u5h41/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
