@@ -2127,6 +2127,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [CJ-0107/cve-2022-26134](https://github.com/CJ-0107/cve-2022-26134)
 - [latings/CVE-2022-26134](https://github.com/latings/CVE-2022-26134)
 - [yyqxi/CVE-2022-26134](https://github.com/yyqxi/CVE-2022-26134)
+- [badboy-sft/CVE-2022-26134](https://github.com/badboy-sft/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -3656,7 +3657,7 @@ Adobe Commerce versions 2.4.4-p1 (and earlier) and 2.4.5 (and earlier) are affec
 SQLite 1.0.12 through 3.39.x before 3.39.2 sometimes allows an array-bounds overflow if billions of bytes are used in a string argument to a C API.
 </code>
 
-- [trailofbits/CVE-2022-35737](https://github.com/trailofbits/CVE-2022-35737)
+- [gmh5225/CVE-2022-35737](https://github.com/gmh5225/CVE-2022-35737)
 
 ### CVE-2022-35841 (2022-09-13)
 
@@ -24276,6 +24277,14 @@ The Microsoft (1) JScript 5.8 and (2) VBScript 5.7 and 5.8 engines, as used in I
 - [theori-io/cve-2016-0189](https://github.com/theori-io/cve-2016-0189)
 - [deamwork/MS16-051-poc](https://github.com/deamwork/MS16-051-poc)
 
+### CVE-2016-0199 (2016-06-15)
+
+<code>
+Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-0200 and CVE-2016-3211.
+</code>
+
+- [LeoonZHANG/CVE-2016-0199](https://github.com/LeoonZHANG/CVE-2016-0199)
+
 ### CVE-2016-0451 (2016-01-20)
 
 <code>
@@ -24601,6 +24610,15 @@ Squid 3.x before 3.5.15 and 4.x before 4.0.7 does not properly append data to St
 
 - [amit-raut/CVE-2016-2569](https://github.com/amit-raut/CVE-2016-2569)
 
+### CVE-2016-2776 (2016-09-28)
+
+<code>
+buffer.c in named in ISC BIND 9 before 9.9.9-P3, 9.10.x before 9.10.4-P3, and 9.11.x before 9.11.0rc3 does not properly construct responses, which allows remote attackers to cause a denial of service (assertion failure and daemon exit) via a crafted query.
+</code>
+
+- [KosukeShimofuji/CVE-2016-2776](https://github.com/KosukeShimofuji/CVE-2016-2776)
+- [infobyte/CVE-2016-2776](https://github.com/infobyte/CVE-2016-2776)
+
 ### CVE-2016-2783 (2017-01-23)
 
 <code>
@@ -24822,6 +24840,7 @@ ImageIO in Apple iOS before 9.3.3, OS X before 10.11.6, tvOS before 9.2.2, and w
 The kernel in Apple iOS before 9.3.5 allows attackers to obtain sensitive information from memory via a crafted app.
 </code>
 
+- [jndok/PegasusX](https://github.com/jndok/PegasusX)
 - [Cryptiiiic/skybreak](https://github.com/Cryptiiiic/skybreak)
 - [liangle1986126z/jndok](https://github.com/liangle1986126z/jndok)
 
@@ -24851,6 +24870,14 @@ Cross-site request forgery (CSRF) vulnerability on I-O DATA DEVICE HVL-A2.0, HVL
 </code>
 
 - [kaito834/cve-2016-4845_csrf](https://github.com/kaito834/cve-2016-4845_csrf)
+
+### CVE-2016-4861 (2017-02-16)
+
+<code>
+The (1) order and (2) group methods in Zend_Db_Select in the Zend Framework before 1.12.20 might allow remote attackers to conduct SQL injection attacks by leveraging failure to remove comments from an SQL statement before validation.
+</code>
+
+- [KosukeShimofuji/CVE-2016-4861](https://github.com/KosukeShimofuji/CVE-2016-4861)
 
 ### CVE-2016-4971 (2016-06-30)
 
@@ -24885,7 +24912,12 @@ SQL injection vulnerability in the getStringParameterSQL method in main/java/org
 Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping, as exploited in the wild in October 2016, aka &quot;Dirty COW.&quot;
 </code>
 
+- [KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195)
+- [ASRTeam/CVE-2016-5195](https://github.com/ASRTeam/CVE-2016-5195)
 - [timwr/CVE-2016-5195](https://github.com/timwr/CVE-2016-5195)
+- [xlucas/dirtycow.cr](https://github.com/xlucas/dirtycow.cr)
+- [istenrot/centos-dirty-cow-ansible](https://github.com/istenrot/centos-dirty-cow-ansible)
+- [pgporada/ansible-role-cve](https://github.com/pgporada/ansible-role-cve)
 - [sideeffect42/DirtyCOWTester](https://github.com/sideeffect42/DirtyCOWTester)
 - [scumjr/dirtycow-vdso](https://github.com/scumjr/dirtycow-vdso)
 - [gbonacini/CVE-2016-5195](https://github.com/gbonacini/CVE-2016-5195)
@@ -25064,6 +25096,9 @@ Race condition in the ioctl_file_dedupe_range function in fs/ioctl.c in the Linu
 
 - [wpengfei/CVE-2016-6516-exploit](https://github.com/wpengfei/CVE-2016-6516-exploit)
 
+### CVE-2016-6584
+- [ViralSecurityGroup/KNOXout](https://github.com/ViralSecurityGroup/KNOXout)
+
 ### CVE-2016-6662 (2016-09-20)
 
 <code>
@@ -25071,7 +25106,9 @@ Oracle MySQL through 5.5.52, 5.6.x through 5.6.33, and 5.7.x through 5.7.15; Mar
 </code>
 
 - [konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch](https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch)
+- [meersjo/ansible-mysql-cve-2016-6662](https://github.com/meersjo/ansible-mysql-cve-2016-6662)
 - [KosukeShimofuji/CVE-2016-6662](https://github.com/KosukeShimofuji/CVE-2016-6662)
+- [Ashrafdev/MySQL-Remote-Root-Code-Execution](https://github.com/Ashrafdev/MySQL-Remote-Root-Code-Execution)
 - [boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662)
 - [MAYASEVEN/CVE-2016-6662](https://github.com/MAYASEVEN/CVE-2016-6662)
 
@@ -25106,6 +25143,14 @@ Cross-site request forgery (CSRF) vulnerability in the CSRF content-type check i
 </code>
 
 - [TSNGL21/CVE-2016-6801](https://github.com/TSNGL21/CVE-2016-6801)
+
+### CVE-2016-7117 (2016-10-10)
+
+<code>
+Use-after-free vulnerability in the __sys_recvmmsg function in net/socket.c in the Linux kernel before 4.5.2 allows remote attackers to execute arbitrary code via vectors involving a recvmmsg system call that is mishandled during error processing.
+</code>
+
+- [KosukeShimofuji/CVE-2016-7117](https://github.com/KosukeShimofuji/CVE-2016-7117)
 
 ### CVE-2016-7190 (2016-10-13)
 
@@ -25152,6 +25197,14 @@ An issue was discovered in certain Apple products. macOS before 10.12.2 is affec
 </code>
 
 - [bazad/IOFireWireFamily-overflow](https://github.com/bazad/IOFireWireFamily-overflow)
+
+### CVE-2016-7855 (2016-11-01)
+
+<code>
+Use-after-free vulnerability in Adobe Flash Player before 23.0.0.205 on Windows and OS X and before 11.2.202.643 on Linux allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in October 2016.
+</code>
+
+- [swagatbora90/CheckFlashPlayerVersion](https://github.com/swagatbora90/CheckFlashPlayerVersion)
 
 ### CVE-2016-8007 (2017-03-14)
 
