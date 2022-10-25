@@ -452,6 +452,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
 - [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
+- [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -3416,15 +3417,6 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
 
-### CVE-2022-32548 (2022-08-29)
-
-<code>
-An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
-</code>
-
-- [uisvit/CVE-2022-32548-MASS-RCE](https://github.com/uisvit/CVE-2022-32548-MASS-RCE)
-- [uisvit/CVE-2022-32548-RCE-MASS](https://github.com/uisvit/CVE-2022-32548-RCE-MASS)
-
 ### CVE-2022-32832 (2022-09-23)
 
 <code>
@@ -4040,7 +4032,6 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [puckiestyle/CVE-2022-40684](https://github.com/puckiestyle/CVE-2022-40684)
 - [jsongmax/Fortinet-CVE-2022-40684](https://github.com/jsongmax/Fortinet-CVE-2022-40684)
 - [und3sc0n0c1d0/CVE-2022-40684](https://github.com/und3sc0n0c1d0/CVE-2022-40684)
-- [Bendalledj/CVE-2022-40684](https://github.com/Bendalledj/CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -4139,7 +4130,6 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [s3l33/CVE-2022-42889](https://github.com/s3l33/CVE-2022-42889)
 - [galoget/CVE-2022-42889-Text4Shell-Docker](https://github.com/galoget/CVE-2022-42889-Text4Shell-Docker)
 - [rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC](https://github.com/rhitikwadhvana/CVE-2022-42889-Text4Shell-Exploit-POC)
-- [jayaram-yalla/CVE-2022-42889-POC_TEXT4SHELL](https://github.com/jayaram-yalla/CVE-2022-42889-POC_TEXT4SHELL)
 - [akshayithape-devops/CVE-2022-42889-POC](https://github.com/akshayithape-devops/CVE-2022-42889-POC)
 - [0xmaximus/Apache-Commons-Text-CVE-2022-42889](https://github.com/0xmaximus/Apache-Commons-Text-CVE-2022-42889)
 - [smileostrich/Text4Shell-Scanner](https://github.com/smileostrich/Text4Shell-Scanner)
@@ -4695,6 +4685,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [AndrewTrube/CVE-2021-1675](https://github.com/AndrewTrube/CVE-2021-1675)
 - [TheJoyOfHacking/cube0x0-CVE-2021-1675](https://github.com/TheJoyOfHacking/cube0x0-CVE-2021-1675)
 - [TheJoyOfHacking/calebstewart-CVE-2021-1675](https://github.com/TheJoyOfHacking/calebstewart-CVE-2021-1675)
+- [jj4152/cve-2021-1675](https://github.com/jj4152/cve-2021-1675)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -8045,6 +8036,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
+- [0bfxgh0st/cve-2021-43798](https://github.com/0bfxgh0st/cve-2021-43798)
 
 ### CVE-2021-43811 (2021-12-08)
 
@@ -8273,8 +8265,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [andalik/log4j-filescan](https://github.com/andalik/log4j-filescan)
 - [gyaansastra/CVE-2021-44228](https://github.com/gyaansastra/CVE-2021-44228)
 - [kal1gh0st/MyLog4Shell](https://github.com/kal1gh0st/MyLog4Shell)
-- [hozyx/log4shell](https://github.com/hozyx/log4shell)
-- [Vulnmachines/log4j-cve-2021-44228](https://github.com/Vulnmachines/log4j-cve-2021-44228)
 - [kannthu/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/kannthu/CVE-2021-44228-Apache-Log4j-Rce)
 - [Kr0ff/CVE-2021-44228](https://github.com/Kr0ff/CVE-2021-44228)
 - [suuhm/log4shell4shell](https://github.com/suuhm/log4shell4shell)
