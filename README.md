@@ -3804,7 +3804,7 @@ JFinal CMS 5.1.0 is vulnerable to SQL Injection.
 
 - [AgainstTheLight/CVE-2022-37201](https://github.com/AgainstTheLight/CVE-2022-37201)
 
-### CVE-2022-37202 (-)
+### CVE-2022-37202 (2022-10-26)
 
 <code>
 JFinal CMS 5.1.0 is vulnerable to SQL Injection via /admin/advicefeedback/list
