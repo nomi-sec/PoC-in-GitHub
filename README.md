@@ -4051,6 +4051,8 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [jsongmax/Fortinet-CVE-2022-40684](https://github.com/jsongmax/Fortinet-CVE-2022-40684)
 - [und3sc0n0c1d0/CVE-2022-40684](https://github.com/und3sc0n0c1d0/CVE-2022-40684)
 - [qingsiweisan/CVE-2022-40684](https://github.com/qingsiweisan/CVE-2022-40684)
+- [TaroballzChen/CVE-2022-40684-metasploit-scanner](https://github.com/TaroballzChen/CVE-2022-40684-metasploit-scanner)
+- [gustavorobertux/gotigate](https://github.com/gustavorobertux/gotigate)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
