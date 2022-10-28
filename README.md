@@ -284,14 +284,6 @@ Improper file permissions in the CommandPost, Collector, and Sensor components o
 
 - [henryreed/CVE-2022-0997](https://github.com/henryreed/CVE-2022-0997)
 
-### CVE-2022-1000 (2022-03-17)
-
-<code>
-Path Traversal in GitHub repository prasathmani/tinyfilemanager prior to 2.4.7.
-</code>
-
-- [yonggui-li/CVE-2022-1000_poc](https://github.com/yonggui-li/CVE-2022-1000_poc)
-
 ### CVE-2022-1015 (2022-04-29)
 
 <code>
@@ -4053,6 +4045,7 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [qingsiweisan/CVE-2022-40684](https://github.com/qingsiweisan/CVE-2022-40684)
 - [TaroballzChen/CVE-2022-40684-metasploit-scanner](https://github.com/TaroballzChen/CVE-2022-40684-metasploit-scanner)
 - [gustavorobertux/gotigate](https://github.com/gustavorobertux/gotigate)
+- [hughink/CVE-2022-40684](https://github.com/hughink/CVE-2022-40684)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -8118,6 +8111,14 @@ Windows Installer Elevation of Privilege Vulnerability
 
 - [jbaines-r7/shakeitoff](https://github.com/jbaines-r7/shakeitoff)
 
+### CVE-2021-43890 (2021-12-15)
+
+<code>
+Windows AppX Installer Spoofing Vulnerability
+</code>
+
+- [yonggui-li/CVE-2021-43890_poc](https://github.com/yonggui-li/CVE-2021-43890_poc)
+
 ### CVE-2021-43891 (2021-12-15)
 
 <code>
@@ -8275,7 +8276,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
 - [KeysAU/Get-log4j-Windows.ps1](https://github.com/KeysAU/Get-log4j-Windows.ps1)
 - [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
-- [redhuntlabs/Log4JHunt](https://github.com/redhuntlabs/Log4JHunt)
 - [mss/log4shell-hotfix-side-effect](https://github.com/mss/log4shell-hotfix-side-effect)
 - [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
 - [mitiga/log4shell-cloud-scanner](https://github.com/mitiga/log4shell-cloud-scanner)
@@ -11434,9 +11434,6 @@ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
 
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
 
-### CVE-2020-10205
-- [5l1v3r1/CVE-2020-10205](https://github.com/5l1v3r1/CVE-2020-10205)
-
 ### CVE-2020-10238 (2020-03-16)
 
 <code>
@@ -13485,6 +13482,7 @@ Git Credential Manager Core (GCM Core) is a secure Git credential helper built o
 </code>
 
 - [whr819987540/test_CVE-2020-26233](https://github.com/whr819987540/test_CVE-2020-26233)
+- [an1p3lg5/CVE-2020-26233](https://github.com/an1p3lg5/CVE-2020-26233)
 
 ### CVE-2020-26258 (2020-12-15)
 
