@@ -19280,14 +19280,6 @@ An issue was discovered on Netwave IP Camera devices. An unauthenticated attacke
 - [dreadlocked/netwave-dosvulnerability](https://github.com/dreadlocked/netwave-dosvulnerability)
 - [LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479](https://github.com/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479)
 
-### CVE-2018-6481 (2018-02-27)
-
-<code>
-A buffer overflow vulnerability in the control protocol of Disk Savvy Enterprise v10.4.18 allows remote attackers to execute arbitrary code by sending a crafted packet to TCP port 9124.
-</code>
-
-- [gerbsec/CVE-2018-6481-Reverse-shell-instead-of-bind.](https://github.com/gerbsec/CVE-2018-6481-Reverse-shell-instead-of-bind.)
-
 ### CVE-2018-6518 (2018-04-26)
 
 <code>
