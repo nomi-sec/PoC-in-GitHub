@@ -3150,7 +3150,7 @@ H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerabi
 Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
 </code>
 
-- [AgainstTheLight/CVE-2022-30929](https://github.com/AgainstTheLight/CVE-2022-30929)
+- [nanaao/CVE-2022-30929](https://github.com/nanaao/CVE-2022-30929)
 
 ### CVE-2022-31061 (2022-06-28)
 
