@@ -131,6 +131,14 @@ A flaw was found in keepass. The vulnerability occurs due to logging the plain t
 
 - [ByteHackr/keepass_poc](https://github.com/ByteHackr/keepass_poc)
 
+### CVE-2022-0739 (2022-03-21)
+
+<code>
+The BookingPress WordPress plugin before 1.0.11 fails to properly sanitize user supplied POST data before it is used in a dynamically constructed SQL query via the bookingpress_front_get_category_services AJAX action (available to unauthenticated users), leading to an unauthenticated SQL Injection
+</code>
+
+- [destr4ct/CVE-2022-0739](https://github.com/destr4ct/CVE-2022-0739)
+
 ### CVE-2022-0778 (2022-03-15)
 
 <code>
@@ -5343,6 +5351,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [1337Rin/CVE-2021-4034](https://github.com/1337Rin/CVE-2021-4034)
 - [flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034)
 - [Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034)
+- [jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -8309,7 +8318,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [obscuritylabs/log4shell-poc-lab](https://github.com/obscuritylabs/log4shell-poc-lab)
 - [Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228](https://github.com/Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228)
 - [Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE](https://github.com/Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE)
-- [rohankumardubey/CVE-2021-44228_scanner](https://github.com/rohankumardubey/CVE-2021-44228_scanner)
 - [HelifeWasTaken/log4j](https://github.com/HelifeWasTaken/log4j)
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
 - [RenYuH/log4j-lookups-vulnerability](https://github.com/RenYuH/log4j-lookups-vulnerability)
