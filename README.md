@@ -627,6 +627,14 @@ A vulnerability was found in SourceCodester Book Store Management System 1.0. It
 
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
 
+### CVE-2022-3518 (2022-10-15)
+
+<code>
+A vulnerability classified as problematic has been found in SourceCodester Sanitization Management System 1.0. Affected is an unknown function of the component User Creation Handler. The manipulation of the argument First Name/Middle Name/Last Name leads to cross site scripting. It is possible to launch the attack remotely. VDB-211014 is the identifier assigned to this vulnerability.
+</code>
+
+- [lohith19/CVE-2022-3518](https://github.com/lohith19/CVE-2022-3518)
+
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
 
@@ -5001,7 +5009,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
 - [trhacknon/CVE-2021-3156](https://github.com/trhacknon/CVE-2021-3156)
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
-- [FrancescoMarchiori/CVE-2021-3156](https://github.com/FrancescoMarchiori/CVE-2021-3156)
+- [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
 - [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
 
 ### CVE-2021-3157
@@ -7721,6 +7729,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [sne4ker/apache-CVE-2021-41773-CVE-2021-42013](https://github.com/sne4ker/apache-CVE-2021-41773-CVE-2021-42013)
 - [juuso0/CVE-2021-41773](https://github.com/juuso0/CVE-2021-41773)
 - [aqiao-jashell/CVE-2021-41773](https://github.com/aqiao-jashell/CVE-2021-41773)
+- [aqiao-jashell/py-CVE-2021-41773](https://github.com/aqiao-jashell/py-CVE-2021-41773)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -8295,7 +8304,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [kossatzd/log4j-CVE-2021-44228-test](https://github.com/kossatzd/log4j-CVE-2021-44228-test)
 - [tobiasoed/log4j-CVE-2021-44228](https://github.com/tobiasoed/log4j-CVE-2021-44228)
 - [hackinghippo/log4shell_ioc_ips](https://github.com/hackinghippo/log4shell_ioc_ips)
-- [claranet/ansible-role-log4shell](https://github.com/claranet/ansible-role-log4shell)
 - [rodfer0x80/log4j2-prosecutor](https://github.com/rodfer0x80/log4j2-prosecutor)
 - [lfama/log4j_checker](https://github.com/lfama/log4j_checker)
 - [giterlizzi/nmap-log4shell](https://github.com/giterlizzi/nmap-log4shell)
