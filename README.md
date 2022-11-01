@@ -635,6 +635,15 @@ A vulnerability classified as problematic has been found in SourceCodester Sanit
 
 - [lohith19/CVE-2022-3518](https://github.com/lohith19/CVE-2022-3518)
 
+### CVE-2022-3602 (-)
+
+<code>
+A buffer overrun can be triggered in X.509 certificate verification, specifically in name constraint checking. Note that this occurs after certificate chain signature verification and requires either a CA to have signed the malicious certificate or for the application to continue certificate verification despite failure to construct a path to a trusted issuer. An attacker can craft a malicious email address to overflow four attacker-controlled bytes on the stack. This buffer overflow could result in a crash (causing a denial of service) or potentially remote code execution. Many platforms implement stack overflow protections which would mitigate against the risk of remote code execution. The risk may be further mitigated based on stack layout for any given platform/compiler. Pre-announcements of CVE-2022-3602 described this issue as CRITICAL. Further analysis based on some of the mitigating factors described above have led this to be downgraded to HIGH. Users are still encouraged to upgrade to a new version as soon as possible. In a TLS client, this can be triggered by connecting to a malicious server. In a TLS server, this can be triggered if the server requests client authentication and a malicious client connects. Fixed in OpenSSL 3.0.7 (Affected 3.0.0,3.0.1,3.0.2,3.0.3,3.0.4,3.0.5,3.0.6).
+</code>
+
+- [colmmacc/CVE-2022-3602](https://github.com/colmmacc/CVE-2022-3602)
+- [eatscrayon/CVE-2022-3602-poc](https://github.com/eatscrayon/CVE-2022-3602-poc)
+
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
 
@@ -2923,6 +2932,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [castlesmadeofsand/ms-msdt-vulnerability-pdq-package](https://github.com/castlesmadeofsand/ms-msdt-vulnerability-pdq-package)
 - [WesyHub/CVE-2022-30190---Follina---Poc-Exploit](https://github.com/WesyHub/CVE-2022-30190---Follina---Poc-Exploit)
 - [AchocolatechipPancake/MS-MSDT-Office-RCE-Follina](https://github.com/AchocolatechipPancake/MS-MSDT-Office-RCE-Follina)
+- [arozx/CVE-2022-30190](https://github.com/arozx/CVE-2022-30190)
 - [Noxtal/follina](https://github.com/Noxtal/follina)
 - [droidrzrlover/CVE-2022-30190](https://github.com/droidrzrlover/CVE-2022-30190)
 - [hilt86/cve-2022-30190-mitigate](https://github.com/hilt86/cve-2022-30190-mitigate)
@@ -3135,14 +3145,6 @@ Pharmacy Management System v1.0 was discovered to contain a remote code executio
 </code>
 
 - [MuallimNaci/CVE-2022-30887](https://github.com/MuallimNaci/CVE-2022-30887)
-
-### CVE-2022-30910 (2022-06-08)
-
-<code>
-H3C Magic R100 R100V100R005 was discovered to contain a stack overflow vulnerability via the GO parameter at /goform/aspForm.
-</code>
-
-- [arozx/CVE-2022-30910](https://github.com/arozx/CVE-2022-30910)
 
 ### CVE-2022-30929 (2022-07-06)
 
@@ -4763,6 +4765,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732](https://github.com/exploitblizzard/Windows-Privilege-Escalation-CVE-2021-1732)
 - [ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-)
 - [r1l4-i3pur1l4/CVE-2021-1732](https://github.com/r1l4-i3pur1l4/CVE-2021-1732)
+- [ratw/CVE-2021-1732](https://github.com/ratw/CVE-2021-1732)
 
 ### CVE-2021-1782 (2021-04-02)
 
@@ -8266,7 +8269,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
-- [Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs](https://github.com/Sh0ckFR/log4j-CVE-2021-44228-Public-IoCs)
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
 - [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
