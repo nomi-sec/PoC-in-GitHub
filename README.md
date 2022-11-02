@@ -635,7 +635,7 @@ A vulnerability classified as problematic has been found in SourceCodester Sanit
 
 - [lohith19/CVE-2022-3518](https://github.com/lohith19/CVE-2022-3518)
 
-### CVE-2022-3602 (-)
+### CVE-2022-3602 (2022-11-01)
 
 <code>
 A buffer overrun can be triggered in X.509 certificate verification, specifically in name constraint checking. Note that this occurs after certificate chain signature verification and requires either a CA to have signed the malicious certificate or for the application to continue certificate verification despite failure to construct a path to a trusted issuer. An attacker can craft a malicious email address to overflow four attacker-controlled bytes on the stack. This buffer overflow could result in a crash (causing a denial of service) or potentially remote code execution. Many platforms implement stack overflow protections which would mitigate against the risk of remote code execution. The risk may be further mitigated based on stack layout for any given platform/compiler. Pre-announcements of CVE-2022-3602 described this issue as CRITICAL. Further analysis based on some of the mitigating factors described above have led this to be downgraded to HIGH. Users are still encouraged to upgrade to a new version as soon as possible. In a TLS client, this can be triggered by connecting to a malicious server. In a TLS server, this can be triggered if the server requests client authentication and a malicious client connects. Fixed in OpenSSL 3.0.7 (Affected 3.0.0,3.0.1,3.0.2,3.0.3,3.0.4,3.0.5,3.0.6).
@@ -643,6 +643,7 @@ A buffer overrun can be triggered in X.509 certificate verification, specificall
 
 - [colmmacc/CVE-2022-3602](https://github.com/colmmacc/CVE-2022-3602)
 - [eatscrayon/CVE-2022-3602-poc](https://github.com/eatscrayon/CVE-2022-3602-poc)
+- [attilaszia/cve-2022-3602](https://github.com/attilaszia/cve-2022-3602)
 
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
@@ -2262,7 +2263,12 @@ Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injectio
 
 - [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
 
-### CVE-2022-26717
+### CVE-2022-26717 (2022-11-01)
+
+<code>
+A use after free issue was addressed with improved memory management. This issue is fixed in tvOS 15.5, watchOS 8.6, iOS 15.5 and iPadOS 15.5, macOS Monterey 12.4, Safari 15.5, iTunes 12.12.4 for Windows. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
 - [theori-io/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/theori-io/CVE-2022-26717-Safari-WebGL-Exploit)
 - [trhacknon/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/trhacknon/CVE-2022-26717-Safari-WebGL-Exploit)
 
@@ -22780,6 +22786,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [yinyinmeimei/CVE-2017-7494-payload](https://github.com/yinyinmeimei/CVE-2017-7494-payload)
 - [adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC)
 - [00mjk/exploit-CVE-2017-7494](https://github.com/00mjk/exploit-CVE-2017-7494)
+- [caique-garbim/CVE-2017-7494_SambaCry](https://github.com/caique-garbim/CVE-2017-7494_SambaCry)
 
 ### CVE-2017-7525 (2018-02-06)
 
@@ -28727,7 +28734,6 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 </code>
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
-- [k4u5h41/MS08_067_CVE-2008-4250](https://github.com/k4u5h41/MS08_067_CVE-2008-4250)
 
 ### CVE-2008-4609 (2008-10-20)
 
