@@ -645,6 +645,7 @@ A buffer overrun can be triggered in X.509 certificate verification, specificall
 - [colmmacc/CVE-2022-3602](https://github.com/colmmacc/CVE-2022-3602)
 - [eatscrayon/CVE-2022-3602-poc](https://github.com/eatscrayon/CVE-2022-3602-poc)
 - [attilaszia/cve-2022-3602](https://github.com/attilaszia/cve-2022-3602)
+- [alicangnll/SpookySSL-Scanner](https://github.com/alicangnll/SpookySSL-Scanner)
 
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
@@ -3325,6 +3326,14 @@ In PHP versions before 7.4.31, 8.0.24 and 8.1.11, the vulnerability enables netw
 </code>
 
 - [silnex/CVE-2022-31629-poc](https://github.com/silnex/CVE-2022-31629-poc)
+
+### CVE-2022-31692 (2022-10-31)
+
+<code>
+Spring Security, versions 5.7 prior to 5.7.5 and 5.6 prior to 5.6.9 could be susceptible to authorization rules bypass via forward or include dispatcher types. Specifically, an application is vulnerable when all of the following are true: The application expects that Spring Security applies security to forward and include dispatcher types. The application uses the AuthorizationFilter either manually or via the authorizeHttpRequests() method. The application configures the FilterChainProxy to apply to forward and/or include requests (e.g. spring.security.filter.dispatcher-types = request, error, async, forward, include). The application may forward or include the request to a higher privilege-secured endpoint.The application configures Spring Security to apply to every dispatcher type via authorizeHttpRequests().shouldFilterAllDispatcherTypes(true)
+</code>
+
+- [SpindleSec/CVE-2022-31692](https://github.com/SpindleSec/CVE-2022-31692)
 
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
@@ -21992,7 +22001,6 @@ Windows COM Aggregate Marshaler in Microsoft Windows Server 2008 SP2 and R2 SP1,
 </code>
 
 - [shaheemirza/CVE-2017-0213-](https://github.com/shaheemirza/CVE-2017-0213-)
-- [zcgonvh/CVE-2017-0213](https://github.com/zcgonvh/CVE-2017-0213)
 - [billa3283/CVE-2017-0213](https://github.com/billa3283/CVE-2017-0213)
 - [likescam/CVE-2017-0213](https://github.com/likescam/CVE-2017-0213)
 - [jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213)
@@ -22162,14 +22170,6 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 - [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
-### CVE-2017-2388 (2017-04-01)
-
-<code>
-An issue was discovered in certain Apple products. macOS before 10.12.4 is affected. The issue involves the &quot;IOFireWireFamily&quot; component. It allows attackers to cause a denial of service (NULL pointer dereference) via a crafted app.
-</code>
-
-- [bazad/IOFireWireFamily-null-deref](https://github.com/bazad/IOFireWireFamily-null-deref)
-
 ### CVE-2017-2636 (2017-03-07)
 
 <code>
@@ -22265,7 +22265,6 @@ An attacker who is able to send and receive messages to an authoritative DNS ser
 Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java SE (subcomponent: RMI). Supported versions that are affected are Java SE: 6u131, 7u121 and 8u112; Java SE Embedded: 8u111; JRockit: R28.3.12. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Java SE, Java SE Embedded, JRockit. While the vulnerability is in Java SE, Java SE Embedded, JRockit, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Java SE, Java SE Embedded, JRockit. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS v3.0 Base Score 9.0 (Confidentiality, Integrity and Availability impacts).
 </code>
 
-- [xfei3/CVE-2017-3241-POC](https://github.com/xfei3/CVE-2017-3241-POC)
 - [scopion/CVE-2017-3241](https://github.com/scopion/CVE-2017-3241)
 
 ### CVE-2017-3248 (2017-01-27)
@@ -22318,7 +22317,6 @@ A vulnerability in the Cisco Cluster Management Protocol (CMP) processing code i
 
 ### CVE-2017-4490
 - [homjxi0e/CVE-2017-4490-](https://github.com/homjxi0e/CVE-2017-4490-)
-- [homjxi0e/CVE-2017-4490-install-Script-Python-in-Terminal-](https://github.com/homjxi0e/CVE-2017-4490-install-Script-Python-in-Terminal-)
 
 ### CVE-2017-4878
 - [brianwrf/CVE-2017-4878-Samples](https://github.com/brianwrf/CVE-2017-4878-Samples)
@@ -22389,7 +22387,6 @@ An attack can use a blob URL and script to spoof an arbitrary addressbar URL pre
 wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php in the REST API implementation in WordPress 4.7 before 4.7.1 does not properly restrict listings of post authors, which allows remote attackers to obtain sensitive information via a wp-json/wp/v2/users request.
 </code>
 
-- [teambugsbunny/wpUsersScan](https://github.com/teambugsbunny/wpUsersScan)
 - [R3K1NG/wpUsersScan](https://github.com/R3K1NG/wpUsersScan)
 - [GeunSam2/CVE-2017-5487](https://github.com/GeunSam2/CVE-2017-5487)
 - [patilkr/wp-CVE-2017-5487-exploit](https://github.com/patilkr/wp-CVE-2017-5487-exploit)
@@ -22447,12 +22444,10 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [eeehit/CVE-2017-5638](https://github.com/eeehit/CVE-2017-5638)
 - [sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/sUbc0ol/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
 - [sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638](https://github.com/sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638)
-- [R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-](https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-)
 - [Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638)
 - [TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
-- [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
 - [donaldashdown/Common-Vulnerability-and-Exploit](https://github.com/donaldashdown/Common-Vulnerability-and-Exploit)
 - [pr0x1ma-byte/cybersecurity-struts2](https://github.com/pr0x1ma-byte/cybersecurity-struts2)
 - [cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638)
@@ -22494,7 +22489,6 @@ An unprivileged network attacker could gain system privileges to provisioned Int
 - [CerberusSecurity/CVE-2017-5689](https://github.com/CerberusSecurity/CVE-2017-5689)
 - [x1sec/amthoneypot](https://github.com/x1sec/amthoneypot)
 - [Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass)
-- [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 - [TheWay-hue/CVE-2017-5689-Checker](https://github.com/TheWay-hue/CVE-2017-5689-Checker)
 
 ### CVE-2017-5693 (2018-07-31)
@@ -22673,15 +22667,6 @@ A DOMParser XSS issue was discovered in certain Apple products. iOS before 10.3.
 
 - [ansjdnakjdnajkd/CVE-2017-7038](https://github.com/ansjdnakjdnajkd/CVE-2017-7038)
 
-### CVE-2017-7047 (2017-07-20)
-
-<code>
-An issue was discovered in certain Apple products. iOS before 10.3.3 is affected. macOS before 10.12.6 is affected. tvOS before 10.2.2 is affected. watchOS before 3.2.3 is affected. The issue involves the &quot;libxpc&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
-</code>
-
-- [JosephShenton/Triple_Fetch-Kernel-Creds](https://github.com/JosephShenton/Triple_Fetch-Kernel-Creds)
-- [q1f3/Triple_fetch](https://github.com/q1f3/Triple_fetch)
-
 ### CVE-2017-7089 (2017-10-22)
 
 <code>
@@ -22743,7 +22728,6 @@ Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in In
 - [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
-- [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
 - [k4u5h41/CVE-2017-7269](https://github.com/k4u5h41/CVE-2017-7269)
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
@@ -22815,7 +22799,6 @@ A deserialization flaw was discovered in the jackson-databind, versions before 2
 Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer overflow vulnerability in nginx range filter module resulting into leak of potentially sensitive information triggered by specially crafted request.
 </code>
 
-- [liusec/CVE-2017-7529](https://github.com/liusec/CVE-2017-7529)
 - [en0f/CVE-2017-7529_PoC](https://github.com/en0f/CVE-2017-7529_PoC)
 - [cved-sources/cve-2017-7529](https://github.com/cved-sources/cve-2017-7529)
 - [MaxSecurity/CVE-2017-7529-POC](https://github.com/MaxSecurity/CVE-2017-7529-POC)
@@ -22942,7 +22925,6 @@ Windows Shell in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Wi
 
 - [Elm0D/CVE-2017-8464](https://github.com/Elm0D/CVE-2017-8464)
 - [3gstudent/CVE-2017-8464-EXP](https://github.com/3gstudent/CVE-2017-8464-EXP)
-- [doudouhala/CVE-2017-8464-exp-generator](https://github.com/doudouhala/CVE-2017-8464-exp-generator)
 - [X-Vector/usbhijacking](https://github.com/X-Vector/usbhijacking)
 - [xssfile/CVE-2017-8464-EXP](https://github.com/xssfile/CVE-2017-8464-EXP)
 - [TrG-1999/DetectPacket-CVE-2017-8464](https://github.com/TrG-1999/DetectPacket-CVE-2017-8464)
@@ -23216,8 +23198,6 @@ OCaml compiler allows attackers to have unspecified impact via unknown vectors, 
 The Struts 1 plugin in Apache Struts 2.1.x and 2.3.x might allow remote code execution via a malicious field value passed in a raw message to the ActionMessage.
 </code>
 
-- [IanSmith123/s2-048](https://github.com/IanSmith123/s2-048)
-- [dragoneeg/Struts2-048](https://github.com/dragoneeg/Struts2-048)
 - [xfer0/CVE-2017-9791](https://github.com/xfer0/CVE-2017-9791)
 
 ### CVE-2017-9798 (2017-09-18)
@@ -23374,14 +23354,6 @@ The ifmap service that comes bundled with Contrail has an XML External Entity (X
 </code>
 
 - [gteissier/CVE-2017-10617](https://github.com/gteissier/CVE-2017-10617)
-
-### CVE-2017-10661 (2017-08-19)
-
-<code>
-Race condition in fs/timerfd.c in the Linux kernel before 4.10.15 allows local users to gain privileges or cause a denial of service (list corruption or use-after-free) via simultaneous file-descriptor operations that leverage improper might_cancel queueing.
-</code>
-
-- [GeneBlue/CVE-2017-10661_POC](https://github.com/GeneBlue/CVE-2017-10661_POC)
 
 ### CVE-2017-10797
 - [n4xh4ck5/CVE-2017-10797](https://github.com/n4xh4ck5/CVE-2017-10797)
@@ -23546,14 +23518,6 @@ In Jboss Application Server as shipped with Red Hat Enterprise Application Platf
 - [jreppiks/CVE-2017-12149](https://github.com/jreppiks/CVE-2017-12149)
 - [Xcatolin/jboss-deserialization](https://github.com/Xcatolin/jboss-deserialization)
 - [VVeakee/CVE-2017-12149](https://github.com/VVeakee/CVE-2017-12149)
-
-### CVE-2017-12426 (2017-08-14)
-
-<code>
-GitLab Community Edition (CE) and Enterprise Edition (EE) before 8.17.8, 9.0.x before 9.0.13, 9.1.x before 9.1.10, 9.2.x before 9.2.10, 9.3.x before 9.3.10, and 9.4.x before 9.4.4 might allow remote attackers to execute arbitrary code via a crafted SSH URL in a project import.
-</code>
-
-- [sm-paul-schuette/CVE-2017-12426](https://github.com/sm-paul-schuette/CVE-2017-12426)
 
 ### CVE-2017-12542 (2018-02-15)
 
@@ -24154,18 +24118,9 @@ Linux kernel: Exploitable memory corruption due to UFO to non-UFO path switch. W
 A malicious third-party can give a crafted &quot;ssh://...&quot; URL to an unsuspecting victim, and an attempt to visit the URL can result in any program that exists on the victim's machine being executed. Such a URL could be placed in the .gitmodules file of a malicious project, and an unsuspecting victim could be tricked into running &quot;git clone --recurse-submodules&quot; to trigger the vulnerability.
 </code>
 
-- [timwr/CVE-2017-1000117](https://github.com/timwr/CVE-2017-1000117)
-- [Manouchehri/CVE-2017-1000117](https://github.com/Manouchehri/CVE-2017-1000117)
 - [thelastbyte/CVE-2017-1000117](https://github.com/thelastbyte/CVE-2017-1000117)
-- [alilangtest/CVE-2017-1000117](https://github.com/alilangtest/CVE-2017-1000117)
-- [VulApps/CVE-2017-1000117](https://github.com/VulApps/CVE-2017-1000117)
-- [greymd/CVE-2017-1000117](https://github.com/greymd/CVE-2017-1000117)
 - [shogo82148/Fix-CVE-2017-1000117](https://github.com/shogo82148/Fix-CVE-2017-1000117)
-- [sasairc/CVE-2017-1000117_wasawasa](https://github.com/sasairc/CVE-2017-1000117_wasawasa)
 - [Shadow5523/CVE-2017-1000117-test](https://github.com/Shadow5523/CVE-2017-1000117-test)
-- [ieee0824/CVE-2017-1000117](https://github.com/ieee0824/CVE-2017-1000117)
-- [rootclay/CVE-2017-1000117](https://github.com/rootclay/CVE-2017-1000117)
-- [ieee0824/CVE-2017-1000117-sl](https://github.com/ieee0824/CVE-2017-1000117-sl)
 - [takehaya/CVE-2017-1000117](https://github.com/takehaya/CVE-2017-1000117)
 - [ikmski/CVE-2017-1000117](https://github.com/ikmski/CVE-2017-1000117)
 - [nkoneko/CVE-2017-1000117](https://github.com/nkoneko/CVE-2017-1000117)
@@ -24456,6 +24411,7 @@ libs/binder/IMemory.cpp in the IMemory Native Interface in Android 4.x before 4.
 </code>
 
 - [secmob/CVE-2016-0846](https://github.com/secmob/CVE-2016-0846)
+- [b0b0505/CVE-2016-0846-PoC](https://github.com/b0b0505/CVE-2016-0846-PoC)
 
 ### CVE-2016-0974 (2016-02-10)
 
@@ -24524,6 +24480,14 @@ Race condition in the kernel in Apple iOS before 9.3 and OS X before 10.11.4 all
 
 - [gdbinit/mach_race](https://github.com/gdbinit/mach_race)
 
+### CVE-2016-1764 (2016-03-23)
+
+<code>
+The Content Security Policy (CSP) implementation in Messages in Apple OS X before 10.11.4 allows remote attackers to obtain sensitive information via a javascript: URL.
+</code>
+
+- [moloch--/cve-2016-1764](https://github.com/moloch--/cve-2016-1764)
+
 ### CVE-2016-1825 (2016-05-20)
 
 <code>
@@ -24585,6 +24549,14 @@ The AES-NI implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h does 
 
 - [FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107)
 - [tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107)
+
+### CVE-2016-2118 (2016-04-12)
+
+<code>
+The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka &quot;BADLOCK.&quot;
+</code>
+
+- [nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118)
 
 ### CVE-2016-2173 (2017-04-21)
 
@@ -24706,6 +24678,14 @@ CRLF injection vulnerability in Dropbear SSH before 2016.72 allows remote authen
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
+
+### CVE-2016-3141 (2016-03-31)
+
+<code>
+Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
+</code>
+
+- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
