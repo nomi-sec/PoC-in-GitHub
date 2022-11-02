@@ -138,6 +138,7 @@ The BookingPress WordPress plugin before 1.0.11 fails to properly sanitize user 
 </code>
 
 - [destr4ct/CVE-2022-0739](https://github.com/destr4ct/CVE-2022-0739)
+- [Chris01s/CVE-2022-0739](https://github.com/Chris01s/CVE-2022-0739)
 
 ### CVE-2022-0778 (2022-03-15)
 
@@ -4166,6 +4167,14 @@ Those using JXPath to interpret untrusted XPath expressions may be vulnerable to
 
 ### CVE-2022-42098
 - [bypazs/CVE-2022-42098](https://github.com/bypazs/CVE-2022-42098)
+
+### CVE-2022-42176 (2022-10-20)
+
+<code>
+In PCTechSoft PCSecure V5.0.8.xw, use of Hard-coded Credentials in configuration files leads to admin panel access.
+</code>
+
+- [soy-oreocato/CVE-2022-42176](https://github.com/soy-oreocato/CVE-2022-42176)
 
 ### CVE-2022-42889 (2022-10-13)
 
@@ -21109,7 +21118,6 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 </code>
 
 - [dinhbaouit/CVE-2018-16763](https://github.com/dinhbaouit/CVE-2018-16763)
-- [SalimAlk/CVE-2018-16763-](https://github.com/SalimAlk/CVE-2018-16763-)
 - [ecebotarosh/CVE-2018-16763-exploit](https://github.com/ecebotarosh/CVE-2018-16763-exploit)
 - [n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3)
 - [uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r)
@@ -24448,7 +24456,6 @@ libs/binder/IMemory.cpp in the IMemory Native Interface in Android 4.x before 4.
 </code>
 
 - [secmob/CVE-2016-0846](https://github.com/secmob/CVE-2016-0846)
-- [b0b0505/CVE-2016-0846-PoC](https://github.com/b0b0505/CVE-2016-0846-PoC)
 
 ### CVE-2016-0974 (2016-02-10)
 
@@ -24517,14 +24524,6 @@ Race condition in the kernel in Apple iOS before 9.3 and OS X before 10.11.4 all
 
 - [gdbinit/mach_race](https://github.com/gdbinit/mach_race)
 
-### CVE-2016-1764 (2016-03-23)
-
-<code>
-The Content Security Policy (CSP) implementation in Messages in Apple OS X before 10.11.4 allows remote attackers to obtain sensitive information via a javascript: URL.
-</code>
-
-- [moloch--/cve-2016-1764](https://github.com/moloch--/cve-2016-1764)
-
 ### CVE-2016-1825 (2016-05-20)
 
 <code>
@@ -24586,14 +24585,6 @@ The AES-NI implementation in OpenSSL before 1.0.1t and 1.0.2 before 1.0.2h does 
 
 - [FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107)
 - [tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107)
-
-### CVE-2016-2118 (2016-04-12)
-
-<code>
-The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka &quot;BADLOCK.&quot;
-</code>
-
-- [nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118)
 
 ### CVE-2016-2173 (2017-04-21)
 
@@ -24715,14 +24706,6 @@ CRLF injection vulnerability in Dropbear SSH before 2016.72 allows remote authen
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
-
-### CVE-2016-3141 (2016-03-31)
-
-<code>
-Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
-</code>
-
-- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
