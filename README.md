@@ -3463,6 +3463,9 @@ A stored cross-site scripting (XSS) vulnerability in the Add Classification func
 
 - [AngeloPioAmirante/CVE-2022-33075](https://github.com/AngeloPioAmirante/CVE-2022-33075)
 
+### CVE-2022-33079
+- [Bdenneu/CVE-2022-33079](https://github.com/Bdenneu/CVE-2022-33079)
+
 ### CVE-2022-33174 (2022-06-13)
 
 <code>
@@ -4198,6 +4201,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [cxzero/CVE-2022-42889-text4shell](https://github.com/cxzero/CVE-2022-42889-text4shell)
 - [west-wind/CVE-2022-42889](https://github.com/west-wind/CVE-2022-42889)
 - [Vulnmachines/text4shell-CVE-2022-42889](https://github.com/Vulnmachines/text4shell-CVE-2022-42889)
+- [Hack4rLIFE/CVE-2022-42889](https://github.com/Hack4rLIFE/CVE-2022-42889)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -25981,7 +25985,7 @@ request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, 
 The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
 </code>
 
-- [chcx/cpx_proftpd](https://github.com/chcx/cpx_proftpd)
+- [shk0x/cpx_proftpd](https://github.com/shk0x/cpx_proftpd)
 - [nootropics/propane](https://github.com/nootropics/propane)
 - [t0kx/exploit-CVE-2015-3306](https://github.com/t0kx/exploit-CVE-2015-3306)
 - [davidtavarez/CVE-2015-3306](https://github.com/davidtavarez/CVE-2015-3306)
