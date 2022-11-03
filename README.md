@@ -3318,6 +3318,14 @@ In PHP versions before 7.4.31, 8.0.24 and 8.1.11, the vulnerability enables netw
 
 - [silnex/CVE-2022-31629-poc](https://github.com/silnex/CVE-2022-31629-poc)
 
+### CVE-2022-31692 (2022-10-31)
+
+<code>
+Spring Security, versions 5.7 prior to 5.7.5 and 5.6 prior to 5.6.9 could be susceptible to authorization rules bypass via forward or include dispatcher types. Specifically, an application is vulnerable when all of the following are true: The application expects that Spring Security applies security to forward and include dispatcher types. The application uses the AuthorizationFilter either manually or via the authorizeHttpRequests() method. The application configures the FilterChainProxy to apply to forward and/or include requests (e.g. spring.security.filter.dispatcher-types = request, error, async, forward, include). The application may forward or include the request to a higher privilege-secured endpoint.The application configures Spring Security to apply to every dispatcher type via authorizeHttpRequests().shouldFilterAllDispatcherTypes(true)
+</code>
+
+- [SpindleSec/cve-2022-31692-demo](https://github.com/SpindleSec/cve-2022-31692-demo)
+
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 - [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
@@ -3463,9 +3471,6 @@ A stored cross-site scripting (XSS) vulnerability in the Add Classification func
 
 - [AngeloPioAmirante/CVE-2022-33075](https://github.com/AngeloPioAmirante/CVE-2022-33075)
 
-### CVE-2022-33079
-- [Bdenneu/CVE-2022-33079](https://github.com/Bdenneu/CVE-2022-33079)
-
 ### CVE-2022-33174 (2022-06-13)
 
 <code>
@@ -3473,6 +3478,16 @@ Power Distribution Units running on Powertek firmware (multiple brands) before 3
 </code>
 
 - [Henry4E36/CVE-2022-33174](https://github.com/Henry4E36/CVE-2022-33174)
+
+### CVE-2022-33679 (2022-09-13)
+
+<code>
+Windows Kerberos Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-33647.
+</code>
+
+- [Bdenneu/CVE-2022-33679](https://github.com/Bdenneu/CVE-2022-33679)
+- [Blyth0He/CVE-2022-33679](https://github.com/Blyth0He/CVE-2022-33679)
+- [Amulab/CVE-2022-33679](https://github.com/Amulab/CVE-2022-33679)
 
 ### CVE-2022-33891 (2022-07-18)
 
@@ -3776,6 +3791,7 @@ nfqnl_mangle in net/netfilter/nfnetlink_queue.c in the Linux kernel through 5.18
 </code>
 
 - [Pwnzer0tt1/CVE-2022-36946](https://github.com/Pwnzer0tt1/CVE-2022-36946)
+- [Satheesh575555/linux-4.19.72_CVE-2022-36946](https://github.com/Satheesh575555/linux-4.19.72_CVE-2022-36946)
 
 ### CVE-2022-37042 (2022-08-11)
 
@@ -4131,6 +4147,12 @@ A stored cross-site scripting (XSS) vulnerability in Garage Management System v1
 </code>
 
 - [thecasual/CVE-2022-41358](https://github.com/thecasual/CVE-2022-41358)
+
+### CVE-2022-41445
+- [RashidKhanPathan/CVE-2022-41445](https://github.com/RashidKhanPathan/CVE-2022-41445)
+
+### CVE-2022-41446
+- [RashidKhanPathan/CVE-2022-41446](https://github.com/RashidKhanPathan/CVE-2022-41446)
 
 ### CVE-2022-41540 (2022-10-18)
 
