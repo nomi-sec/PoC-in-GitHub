@@ -1344,7 +1344,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
+- [mrfossbrain/CVE-2022-22965](https://github.com/mrfossbrain/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -5047,6 +5047,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
 - [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
+- [PhuketIsland/CVE-2021-3156-centos7](https://github.com/PhuketIsland/CVE-2021-3156-centos7)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -5908,7 +5909,6 @@ On BIG-IP versions 16.0.x before 16.0.1.1, 15.1.x before 15.1.2.1, 14.1.x before
 A security issue in nginx resolver was identified, which might allow an attacker who is able to forge UDP packets from the DNS server to cause 1-byte memory overwrite, resulting in worker process crash or potential other impact.
 </code>
 
-- [niandy/nginx-patch](https://github.com/niandy/nginx-patch)
 - [M507/CVE-2021-23017-PoC](https://github.com/M507/CVE-2021-23017-PoC)
 
 ### CVE-2021-23132 (2021-03-04)
