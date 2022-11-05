@@ -4226,6 +4226,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [Vulnmachines/text4shell-CVE-2022-42889](https://github.com/Vulnmachines/text4shell-CVE-2022-42889)
 - [Hack4rLIFE/CVE-2022-42889](https://github.com/Hack4rLIFE/CVE-2022-42889)
 - [cryxnet/CVE-2022-42889-PoC](https://github.com/cryxnet/CVE-2022-42889-PoC)
+- [sunnyvale-it/CVE-2022-42889-PoC](https://github.com/sunnyvale-it/CVE-2022-42889-PoC)
 
 ### CVE-2022-42899 (2022-10-12)
 
