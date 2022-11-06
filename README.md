@@ -4245,6 +4245,9 @@ Bentley MicroStation and MicroStation-based applications may be affected by out-
 
 - [iamsanjay/CVE-2022-42899](https://github.com/iamsanjay/CVE-2022-42899)
 
+### CVE-2022-43144
+- [mudassiruddin/CVE-2022-43144-Stored-XSS](https://github.com/mudassiruddin/CVE-2022-43144-Stored-XSS)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -6612,7 +6615,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 An issue was discovered in the Linux kernel through 5.11.x. kernel/bpf/verifier.c performs undesirable out-of-bounds speculation on pointer arithmetic, leading to side-channel attacks that defeat Spectre mitigations and obtain sensitive information from kernel memory. Specifically, for sequences of pointer arithmetic operations, the pointer modification performed by the first operation is not correctly accounted for when restricting subsequent operations.
 </code>
 
-- [Kakashiiiiy/CVE-2021-29155](https://github.com/Kakashiiiiy/CVE-2021-29155)
+- [benschlueter/CVE-2021-29155](https://github.com/benschlueter/CVE-2021-29155)
 
 ### CVE-2021-29156 (2021-03-25)
 
@@ -6683,6 +6686,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [motikan2010/CVE-2021-29447](https://github.com/motikan2010/CVE-2021-29447)
 - [Vulnmachines/wordpress_cve-2021-29447](https://github.com/Vulnmachines/wordpress_cve-2021-29447)
 - [dnr6419/CVE-2021-29447](https://github.com/dnr6419/CVE-2021-29447)
+- [b-abderrahmane/CVE-2021-29447-POC](https://github.com/b-abderrahmane/CVE-2021-29447-POC)
 
 ### CVE-2021-29505 (2021-05-28)
 
@@ -7147,7 +7151,7 @@ An argument injection vulnerability in the Dragonfly gem before 1.4.0 for Ruby a
 In kernel/bpf/verifier.c in the Linux kernel before 5.12.13, a branch can be mispredicted (e.g., because of type confusion) and consequently an unprivileged BPF program can read arbitrary memory locations via a side-channel attack, aka CID-9183671af6db.
 </code>
 
-- [Kakashiiiiy/CVE-2021-33624](https://github.com/Kakashiiiiy/CVE-2021-33624)
+- [benschlueter/CVE-2021-33624](https://github.com/benschlueter/CVE-2021-33624)
 
 ### CVE-2021-33739 (2021-06-08)
 
@@ -8321,7 +8325,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [nccgroup/log4j-jndi-be-gone](https://github.com/nccgroup/log4j-jndi-be-gone)
 - [qingtengyun/cve-2021-44228-qingteng-online-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-online-patch)
 - [tasooshi/horrors-log4shell](https://github.com/tasooshi/horrors-log4shell)
-- [twseptian/spring-boot-log4j-cve-2021-44228-docker-lab](https://github.com/twseptian/spring-boot-log4j-cve-2021-44228-docker-lab)
 - [OlafHaalstra/log4jcheck](https://github.com/OlafHaalstra/log4jcheck)
 - [psychose-club/Saturn](https://github.com/psychose-club/Saturn)
 - [Panyaprach/Proof-CVE-2021-44228](https://github.com/Panyaprach/Proof-CVE-2021-44228)
@@ -22163,7 +22166,6 @@ IBM Tivoli Monitoring V6 6.2.2.x could allow a remote attacker to execute arbitr
 </code>
 
 - [emcalv/tivoli-poc](https://github.com/emcalv/tivoli-poc)
-- [bcdannyboy/cve-2017-1635-PoC](https://github.com/bcdannyboy/cve-2017-1635-PoC)
 
 ### CVE-2017-2368 (2017-02-20)
 
@@ -22892,7 +22894,6 @@ An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Serie
 - [JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP)
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
 - [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
-- [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
 - [inj3ction/CVE-2017-7921-EXP](https://github.com/inj3ction/CVE-2017-7921-EXP)
@@ -23272,7 +23273,6 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [wifido/CVE-2017-9805-Exploit](https://github.com/wifido/CVE-2017-9805-Exploit)
 - [rvermeulen/apache-struts-cve-2017-9805](https://github.com/rvermeulen/apache-struts-cve-2017-9805)
 - [jongmartinez/-CVE-2017-9805-](https://github.com/jongmartinez/-CVE-2017-9805-)
-- [z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805)
 - [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
 - [Shakun8/CVE-2017-9805](https://github.com/Shakun8/CVE-2017-9805)
 
