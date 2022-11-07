@@ -646,6 +646,7 @@ A buffer overrun can be triggered in X.509 certificate verification, specificall
 - [attilaszia/cve-2022-3602](https://github.com/attilaszia/cve-2022-3602)
 - [alicangnll/SpookySSL-Scanner](https://github.com/alicangnll/SpookySSL-Scanner)
 - [rbowes-r7/cve-2022-3602-and-cve-2022-3786-openssl-poc](https://github.com/rbowes-r7/cve-2022-3602-and-cve-2022-3786-openssl-poc)
+- [cybersecurityworks553/CVE-2022-3602-and-CVE-2022-3786](https://github.com/cybersecurityworks553/CVE-2022-3602-and-CVE-2022-3786)
 
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
@@ -4255,6 +4256,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [cryxnet/CVE-2022-42889-PoC](https://github.com/cryxnet/CVE-2022-42889-PoC)
 - [sunnyvale-it/CVE-2022-42889-PoC](https://github.com/sunnyvale-it/CVE-2022-42889-PoC)
 - [QAInsights/cve-2022-42889-jmeter](https://github.com/QAInsights/cve-2022-42889-jmeter)
+- [adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889](https://github.com/adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -15930,7 +15932,6 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
 - [k4u5h41/CVE-2019-9053](https://github.com/k4u5h41/CVE-2019-9053)
-- [padsalatushal/CVE-2019-9053](https://github.com/padsalatushal/CVE-2019-9053)
 - [maraspiras/46635.py](https://github.com/maraspiras/46635.py)
 - [e-renna/CVE-2019-9053](https://github.com/e-renna/CVE-2019-9053)
 - [zmiddle/Simple_CMS_SQLi](https://github.com/zmiddle/Simple_CMS_SQLi)
@@ -21627,6 +21628,7 @@ An issue was discovered in NoneCms V1.3. thinkphp/library/think/App.php allows r
 </code>
 
 - [NS-Sp4ce/thinkphp5.XRce](https://github.com/NS-Sp4ce/thinkphp5.XRce)
+- [yilin1203/CVE-2018-20062](https://github.com/yilin1203/CVE-2018-20062)
 
 ### CVE-2018-20148 (2018-12-14)
 
