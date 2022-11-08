@@ -8163,6 +8163,9 @@ Laravel Framework through 8.70.2 does not sufficiently block the upload of execu
 
 - [aweiiy/CVE-2021-43617](https://github.com/aweiiy/CVE-2021-43617)
 
+### CVE-2021-43657
+- [c0n5n3d/CVE-2021-43657](https://github.com/c0n5n3d/CVE-2021-43657)
+
 ### CVE-2021-43789 (2021-12-07)
 
 <code>
@@ -8424,7 +8427,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
 - [zaneef/CVE-2021-44228](https://github.com/zaneef/CVE-2021-44228)
 - [metodidavidovic/log4j-quick-scan](https://github.com/metodidavidovic/log4j-quick-scan)
-- [WatchGuard-Threat-Lab/log4shell-iocs](https://github.com/WatchGuard-Threat-Lab/log4shell-iocs)
 - [Aschen/log4j-patched](https://github.com/Aschen/log4j-patched)
 - [Nikolas-Charalambidis/cve-2021-44228](https://github.com/Nikolas-Charalambidis/cve-2021-44228)
 - [m0rath/detect-log4j-exploitable](https://github.com/m0rath/detect-log4j-exploitable)
