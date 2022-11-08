@@ -602,14 +602,6 @@ A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
-### CVE-2022-3236 (2022-09-23)
-
-<code>
-A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
-</code>
-
-- [g01f/CVE-2022-3236-POC](https://github.com/g01f/CVE-2022-3236-POC)
-
 ### CVE-2022-3368 (2022-10-17)
 
 <code>
@@ -16517,7 +16509,7 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [dashtic172/https-github.com-awakened171](https://github.com/dashtic172/https-github.com-awakened171)
 - [Err0r-ICA/WhatsPayloadRCE](https://github.com/Err0r-ICA/WhatsPayloadRCE)
 - [starling021/CVE-2019-11932-SupportApp](https://github.com/starling021/CVE-2019-11932-SupportApp)
-- [Hacker-Yadav/CVE-2019-11932](https://github.com/Hacker-Yadav/CVE-2019-11932)
+- [primebeast/CVE-2019-11932](https://github.com/primebeast/CVE-2019-11932)
 - [BadAssAiras/hello](https://github.com/BadAssAiras/hello)
 - [kal1gh0st/WhatsAppHACK-RCE](https://github.com/kal1gh0st/WhatsAppHACK-RCE)
 - [zxn1/CVE-2019-11932](https://github.com/zxn1/CVE-2019-11932)
@@ -25065,6 +25057,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [jas502n/CVE-2016-5195](https://github.com/jas502n/CVE-2016-5195)
 - [imust6226/dirtcow](https://github.com/imust6226/dirtcow)
 - [zakariamaaraki/Dirty-COW-CVE-2016-5195-](https://github.com/zakariamaaraki/Dirty-COW-CVE-2016-5195-)
+- [shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-](https://github.com/shanuka-ashen/Dirty-Cow-Explanation-CVE-2016-5195-)
 - [dulanjaya23/Dirty-Cow-CVE-2016-5195-](https://github.com/dulanjaya23/Dirty-Cow-CVE-2016-5195-)
 - [KaviDk/dirtyCow](https://github.com/KaviDk/dirtyCow)
 - [DanielEbert/CVE-2016-5195](https://github.com/DanielEbert/CVE-2016-5195)
@@ -27884,22 +27877,6 @@ The (1) ListView, (2) ListView2, (3) TreeView, and (4) TreeView2 ActiveX control
 - [RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc](https://github.com/RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc)
 - [Sunqiz/CVE-2012-0158-reproduction](https://github.com/Sunqiz/CVE-2012-0158-reproduction)
 
-### CVE-2012-1675 (2012-05-08)
-
-<code>
-The TNS Listener, as used in Oracle Database 11g 11.1.0.7, 11.2.0.2, and 11.2.0.3, and 10g 10.2.0.3, 10.2.0.4, and 10.2.0.5, as used in Oracle Fusion Middleware, Enterprise Manager, E-Business Suite, and possibly other products, allows remote attackers to execute arbitrary database commands by performing a remote registration of a database (1) instance or (2) service name that already exists, then conducting a man-in-the-middle (MITM) attack to hijack database connections, aka &quot;TNS Poison.&quot;
-</code>
-
-- [bongbongco/CVE-2012-1675](https://github.com/bongbongco/CVE-2012-1675)
-
-### CVE-2012-1723 (2012-06-16)
-
-<code>
-Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 update 4 and earlier, 6 update 32 and earlier, 5 update 35 and earlier, and 1.4.2_37 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot.
-</code>
-
-- [EthanNJC/CVE-2012-1723](https://github.com/EthanNJC/CVE-2012-1723)
-
 ### CVE-2012-1823 (2012-05-11)
 
 <code>
@@ -27907,8 +27884,6 @@ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured
 </code>
 
 - [drone789/CVE-2012-1823](https://github.com/drone789/CVE-2012-1823)
-- [tardummy01/oscp_scripts-1](https://github.com/tardummy01/oscp_scripts-1)
-- [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [theykillmeslowly/CVE-2012-1823](https://github.com/theykillmeslowly/CVE-2012-1823)
 
@@ -28020,23 +27995,6 @@ diagchar_core.c in the Qualcomm Innovation Center (QuIC) Diagnostics (aka DIAG) 
 - [hiikezoe/diaggetroot](https://github.com/hiikezoe/diaggetroot)
 - [poliva/root-zte-open](https://github.com/poliva/root-zte-open)
 
-### CVE-2012-4431 (2012-12-19)
-
-<code>
-org/apache/catalina/filters/CsrfPreventionFilter.java in Apache Tomcat 6.x before 6.0.36 and 7.x before 7.0.32 allows remote attackers to bypass the cross-site request forgery (CSRF) protection mechanism via a request that lacks a session identifier.
-</code>
-
-- [imjdl/CVE-2012-4431](https://github.com/imjdl/CVE-2012-4431)
-
-### CVE-2012-4681 (2012-08-27)
-
-<code>
-Multiple vulnerabilities in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 6 and earlier allow remote attackers to execute arbitrary code via a crafted applet that bypasses SecurityManager restrictions by (1) using com.sun.beans.finder.ClassFinder.findClass and leveraging an exception with the forName method to access restricted classes from arbitrary packages such as sun.awt.SunToolkit, then (2) using &quot;reflection with a trusted immediate caller&quot; to leverage the getField method to access and modify private fields, as exploited in the wild in August 2012 using Gondzz.class and Gondvv.class.
-</code>
-
-- [benjholla/CVE-2012-4681-Armoring](https://github.com/benjholla/CVE-2012-4681-Armoring)
-- [ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681)
-
 ### CVE-2012-4792 (2012-12-30)
 
 <code>
@@ -28063,14 +28021,6 @@ The TLS protocol 1.2 and earlier, as used in Mozilla Firefox, Google Chrome, Qt,
 - [mpgn/CRIME-poc](https://github.com/mpgn/CRIME-poc)
 - [clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan)
 
-### CVE-2012-5106 (2014-06-20)
-
-<code>
-Stack-based buffer overflow in FreeFloat FTP Server 1.0 allows remote authenticated users to execute arbitrary code via a long string in a PUT command.
-</code>
-
-- [war4uthor/CVE-2012-5106](https://github.com/war4uthor/CVE-2012-5106)
-
 ### CVE-2012-5519 (2012-11-19)
 
 <code>
@@ -28079,14 +28029,6 @@ CUPS 1.4.4, when running in certain Linux distributions such as Debian GNU/Linux
 
 - [p1ckzi/CVE-2012-5519](https://github.com/p1ckzi/CVE-2012-5519)
 
-### CVE-2012-5575 (2013-08-19)
-
-<code>
-Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7.4 does not verify that a specified cryptographic algorithm is allowed by the WS-SecurityPolicy AlgorithmSuite definition before decrypting, which allows remote attackers to force CXF to use weaker cryptographic algorithms than intended and makes it easier to decrypt communications, aka &quot;XML Encryption backwards compatibility attack.&quot;
-</code>
-
-- [tafamace/CVE-2012-5575](https://github.com/tafamace/CVE-2012-5575)
-
 ### CVE-2012-5613 (2012-12-03)
 
 <code>
@@ -28094,18 +28036,9 @@ Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7
 </code>
 
 - [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
-- [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
 
 ### CVE-2012-5664
 - [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
-
-### CVE-2012-5958 (2013-01-31)
-
-<code>
-Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.
-</code>
-
-- [lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp)
 
 ### CVE-2012-5960 (2013-01-31)
 
@@ -28114,14 +28047,6 @@ Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_ser
 </code>
 
 - [finn79426/CVE-2012-5960-PoC](https://github.com/finn79426/CVE-2012-5960-PoC)
-
-### CVE-2012-6066 (2012-12-04)
-
-<code>
-freeSSHd.exe in freeSSHd through 1.2.6 allows remote attackers to bypass authentication via a crafted session, as demonstrated by an OpenSSH client with modified versions of ssh.c and sshconnect2.c.
-</code>
-
-- [bongbongco/CVE-2012-6066](https://github.com/bongbongco/CVE-2012-6066)
 
 ### CVE-2012-6636 (2014-03-02)
 
