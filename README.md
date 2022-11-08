@@ -168,6 +168,7 @@ Improper Access Control to Remote Code Execution in GitHub repository webmin/web
 - [faisalfs10x/Webmin-CVE-2022-0824-revshell](https://github.com/faisalfs10x/Webmin-CVE-2022-0824-revshell)
 - [honypot/CVE-2022-0824](https://github.com/honypot/CVE-2022-0824)
 - [pizza-power/golang-webmin-CVE-2022-0824-revshell](https://github.com/pizza-power/golang-webmin-CVE-2022-0824-revshell)
+- [gokul-ramesh/WebminRCE-exploit](https://github.com/gokul-ramesh/WebminRCE-exploit)
 
 ### CVE-2022-0847 (2022-03-07)
 
@@ -732,6 +733,7 @@ In ACTION_MANAGED_PROFILE_PROVISIONED of DevicePolicyManagerService.java, there 
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20138](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20138)
 - [ShaikUsaf/ShaikUsaf-frameworks_base_AOSP10_r33_CVE-2022-20138](https://github.com/ShaikUsaf/ShaikUsaf-frameworks_base_AOSP10_r33_CVE-2022-20138)
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20138](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20138)
 
 ### CVE-2022-20142 (2022-06-15)
 
@@ -1348,6 +1350,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
 - [mrfossbrain/CVE-2022-22965](https://github.com/mrfossbrain/CVE-2022-22965)
+- [iloveflag/Fast-CVE-2022-22965](https://github.com/iloveflag/Fast-CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -3440,14 +3443,6 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 </code>
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
-
-### CVE-2022-32548 (2022-08-29)
-
-<code>
-An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
-</code>
-
-- [HarleyDoo/CVE-2022-32548-RCE-POC](https://github.com/HarleyDoo/CVE-2022-32548-RCE-POC)
 
 ### CVE-2022-32832 (2022-09-23)
 
@@ -7413,6 +7408,9 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 ### CVE-2021-38817
 - [HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection](https://github.com/HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection)
 
+### CVE-2021-38819
+- [m4sk0ff/CVE-2021-38819](https://github.com/m4sk0ff/CVE-2021-38819)
+
 ### CVE-2021-39144 (2021-08-23)
 
 <code>
@@ -8320,7 +8318,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
 - [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
-- [mubix/CVE-2021-44228-Log4Shell-Hashes](https://github.com/mubix/CVE-2021-44228-Log4Shell-Hashes)
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
 - [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
@@ -8391,7 +8388,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
 - [mss/log4shell-hotfix-side-effect](https://github.com/mss/log4shell-hotfix-side-effect)
 - [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
-- [mitiga/log4shell-cloud-scanner](https://github.com/mitiga/log4shell-cloud-scanner)
 - [isuruwa/Log4j](https://github.com/isuruwa/Log4j)
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
 - [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
@@ -8538,6 +8534,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [digital-dev/Log4j-CVE-2021-44228-Remediation](https://github.com/digital-dev/Log4j-CVE-2021-44228-Remediation)
 - [ocastel/log4j-shell-poc](https://github.com/ocastel/log4j-shell-poc)
 - [bcdunbar/CVE-2021-44228-poc](https://github.com/bcdunbar/CVE-2021-44228-poc)
+- [srcporter/CVE-2021-44228](https://github.com/srcporter/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -27877,6 +27874,22 @@ The (1) ListView, (2) ListView2, (3) TreeView, and (4) TreeView2 ActiveX control
 - [RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc](https://github.com/RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc)
 - [Sunqiz/CVE-2012-0158-reproduction](https://github.com/Sunqiz/CVE-2012-0158-reproduction)
 
+### CVE-2012-1675 (2012-05-08)
+
+<code>
+The TNS Listener, as used in Oracle Database 11g 11.1.0.7, 11.2.0.2, and 11.2.0.3, and 10g 10.2.0.3, 10.2.0.4, and 10.2.0.5, as used in Oracle Fusion Middleware, Enterprise Manager, E-Business Suite, and possibly other products, allows remote attackers to execute arbitrary database commands by performing a remote registration of a database (1) instance or (2) service name that already exists, then conducting a man-in-the-middle (MITM) attack to hijack database connections, aka &quot;TNS Poison.&quot;
+</code>
+
+- [bongbongco/CVE-2012-1675](https://github.com/bongbongco/CVE-2012-1675)
+
+### CVE-2012-1723 (2012-06-16)
+
+<code>
+Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 update 4 and earlier, 6 update 32 and earlier, 5 update 35 and earlier, and 1.4.2_37 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot.
+</code>
+
+- [EthanNJC/CVE-2012-1723](https://github.com/EthanNJC/CVE-2012-1723)
+
 ### CVE-2012-1823 (2012-05-11)
 
 <code>
@@ -27884,6 +27897,8 @@ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured
 </code>
 
 - [drone789/CVE-2012-1823](https://github.com/drone789/CVE-2012-1823)
+- [tardummy01/oscp_scripts-1](https://github.com/tardummy01/oscp_scripts-1)
+- [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [theykillmeslowly/CVE-2012-1823](https://github.com/theykillmeslowly/CVE-2012-1823)
 
@@ -27995,6 +28010,23 @@ diagchar_core.c in the Qualcomm Innovation Center (QuIC) Diagnostics (aka DIAG) 
 - [hiikezoe/diaggetroot](https://github.com/hiikezoe/diaggetroot)
 - [poliva/root-zte-open](https://github.com/poliva/root-zte-open)
 
+### CVE-2012-4431 (2012-12-19)
+
+<code>
+org/apache/catalina/filters/CsrfPreventionFilter.java in Apache Tomcat 6.x before 6.0.36 and 7.x before 7.0.32 allows remote attackers to bypass the cross-site request forgery (CSRF) protection mechanism via a request that lacks a session identifier.
+</code>
+
+- [imjdl/CVE-2012-4431](https://github.com/imjdl/CVE-2012-4431)
+
+### CVE-2012-4681 (2012-08-27)
+
+<code>
+Multiple vulnerabilities in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 6 and earlier allow remote attackers to execute arbitrary code via a crafted applet that bypasses SecurityManager restrictions by (1) using com.sun.beans.finder.ClassFinder.findClass and leveraging an exception with the forName method to access restricted classes from arbitrary packages such as sun.awt.SunToolkit, then (2) using &quot;reflection with a trusted immediate caller&quot; to leverage the getField method to access and modify private fields, as exploited in the wild in August 2012 using Gondzz.class and Gondvv.class.
+</code>
+
+- [benjholla/CVE-2012-4681-Armoring](https://github.com/benjholla/CVE-2012-4681-Armoring)
+- [ZH3FENG/PoCs-CVE_2012_4681](https://github.com/ZH3FENG/PoCs-CVE_2012_4681)
+
 ### CVE-2012-4792 (2012-12-30)
 
 <code>
@@ -28021,6 +28053,14 @@ The TLS protocol 1.2 and earlier, as used in Mozilla Firefox, Google Chrome, Qt,
 - [mpgn/CRIME-poc](https://github.com/mpgn/CRIME-poc)
 - [clic-kbait/A2SV--SSL-VUL-Scan](https://github.com/clic-kbait/A2SV--SSL-VUL-Scan)
 
+### CVE-2012-5106 (2014-06-20)
+
+<code>
+Stack-based buffer overflow in FreeFloat FTP Server 1.0 allows remote authenticated users to execute arbitrary code via a long string in a PUT command.
+</code>
+
+- [war4uthor/CVE-2012-5106](https://github.com/war4uthor/CVE-2012-5106)
+
 ### CVE-2012-5519 (2012-11-19)
 
 <code>
@@ -28029,6 +28069,14 @@ CUPS 1.4.4, when running in certain Linux distributions such as Debian GNU/Linux
 
 - [p1ckzi/CVE-2012-5519](https://github.com/p1ckzi/CVE-2012-5519)
 
+### CVE-2012-5575 (2013-08-19)
+
+<code>
+Apache CXF 2.5.x before 2.5.10, 2.6.x before CXF 2.6.7, and 2.7.x before CXF 2.7.4 does not verify that a specified cryptographic algorithm is allowed by the WS-SecurityPolicy AlgorithmSuite definition before decrypting, which allows remote attackers to force CXF to use weaker cryptographic algorithms than intended and makes it easier to decrypt communications, aka &quot;XML Encryption backwards compatibility attack.&quot;
+</code>
+
+- [tafamace/CVE-2012-5575](https://github.com/tafamace/CVE-2012-5575)
+
 ### CVE-2012-5613 (2012-12-03)
 
 <code>
@@ -28036,9 +28084,18 @@ CUPS 1.4.4, when running in certain Linux distributions such as Debian GNU/Linux
 </code>
 
 - [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
+- [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
 
 ### CVE-2012-5664
 - [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
+
+### CVE-2012-5958 (2013-01-31)
+
+<code>
+Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.
+</code>
+
+- [lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp)
 
 ### CVE-2012-5960 (2013-01-31)
 
@@ -28047,6 +28104,14 @@ Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_ser
 </code>
 
 - [finn79426/CVE-2012-5960-PoC](https://github.com/finn79426/CVE-2012-5960-PoC)
+
+### CVE-2012-6066 (2012-12-04)
+
+<code>
+freeSSHd.exe in freeSSHd through 1.2.6 allows remote attackers to bypass authentication via a crafted session, as demonstrated by an OpenSSH client with modified versions of ssh.c and sshconnect2.c.
+</code>
+
+- [bongbongco/CVE-2012-6066](https://github.com/bongbongco/CVE-2012-6066)
 
 ### CVE-2012-6636 (2014-03-02)
 
