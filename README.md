@@ -4220,6 +4220,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [SeanWrightSec/CVE-2022-42889-PoC](https://github.com/SeanWrightSec/CVE-2022-42889-PoC)
 - [chainguard-dev/text4shell-policy](https://github.com/chainguard-dev/text4shell-policy)
 - [tulhan/commons-text-goat](https://github.com/tulhan/commons-text-goat)
+- [karthikuj/cve-2022-42889-text4shell-docker](https://github.com/karthikuj/cve-2022-42889-text4shell-docker)
 - [ClickCyber/cve-2022-42889](https://github.com/ClickCyber/cve-2022-42889)
 - [korteke/CVE-2022-42889-POC](https://github.com/korteke/CVE-2022-42889-POC)
 - [eunomie/cve-2022-42889-check](https://github.com/eunomie/cve-2022-42889-check)
@@ -20693,6 +20694,14 @@ An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.
 
 - [milo2012/CVE-2018-13382](https://github.com/milo2012/CVE-2018-13382)
 - [tumikoto/exploit-fortinetmagicbackdoor](https://github.com/tumikoto/exploit-fortinetmagicbackdoor)
+
+### CVE-2018-13405 (2018-07-06)
+
+<code>
+The inode_init_owner function in fs/inode.c in the Linux kernel through 3.16 allows local users to create files with an unintended group ownership, in a scenario where a directory is SGID to a certain group and is writable by a user who is not a member of that group. Here, the non-member can trigger creation of a plain file whose group ownership is that group. The intended behavior was that the non-member can trigger creation of a directory (but not a plain file) whose group ownership is that group. The non-member can escalate privileges by making the plain file executable and SGID.
+</code>
+
+- [nidhi7598/linux-3.0.35_CVE-2018-13405](https://github.com/nidhi7598/linux-3.0.35_CVE-2018-13405)
 
 ### CVE-2018-13410 (2018-07-06)
 
