@@ -402,6 +402,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 
 - [numanturle/CVE-2022-1388](https://github.com/numanturle/CVE-2022-1388)
 - [jheeree/CVE-2022-1388-checker](https://github.com/jheeree/CVE-2022-1388-checker)
+- [MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed](https://github.com/MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed)
 - [bytecaps/CVE-2022-1388-EXP](https://github.com/bytecaps/CVE-2022-1388-EXP)
 - [blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit](https://github.com/blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit)
 - [Hudi233/CVE-2022-1388](https://github.com/Hudi233/CVE-2022-1388)
@@ -642,6 +643,9 @@ A buffer overrun can be triggered in X.509 certificate verification, specificall
 - [rbowes-r7/cve-2022-3602-and-cve-2022-3786-openssl-poc](https://github.com/rbowes-r7/cve-2022-3602-and-cve-2022-3786-openssl-poc)
 - [corelight/CVE-2022-3602](https://github.com/corelight/CVE-2022-3602)
 - [cybersecurityworks553/CVE-2022-3602-and-CVE-2022-3786](https://github.com/cybersecurityworks553/CVE-2022-3602-and-CVE-2022-3786)
+
+### CVE-2022-3699
+- [alfarom256/CVE-2022-3699](https://github.com/alfarom256/CVE-2022-3699)
 
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
@@ -1172,7 +1176,6 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Summer177/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947)
 - [BerMalBerIst/CVE-2022-22947](https://github.com/BerMalBerIst/CVE-2022-22947)
 - [york-cmd/CVE-2022-22947-goby](https://github.com/york-cmd/CVE-2022-22947-goby)
-- [awsassets/CVE-2022-22947-RCE](https://github.com/awsassets/CVE-2022-22947-RCE)
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 - [dingxiao77/-cve-2022-22947-](https://github.com/dingxiao77/-cve-2022-22947-)
 - [dbgee/CVE-2022-22947](https://github.com/dbgee/CVE-2022-22947)
@@ -2385,6 +2388,14 @@ In Realtek eCos RSDK 1.5.7p1 and MSDK 4.9.4p1, the SIP ALG function that rewrite
 - [infobyte/cve-2022-27255](https://github.com/infobyte/cve-2022-27255)
 - [stryker-project/CVE-2022-27255-checker](https://github.com/stryker-project/CVE-2022-27255-checker)
 
+### CVE-2022-27413 (2022-05-03)
+
+<code>
+Hospital Management System v1.0 was discovered to contain a SQL injection vulnerability via the adminname parameter in admin.php.
+</code>
+
+- [HH1F/CVE-2022-27413](https://github.com/HH1F/CVE-2022-27413)
+
 ### CVE-2022-27414
 - [lus33rr/CVE-2022-27414](https://github.com/lus33rr/CVE-2022-27414)
 
@@ -2756,7 +2767,6 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [trhacknon/CVE-2022-29464-mass](https://github.com/trhacknon/CVE-2022-29464-mass)
 - [jimidk/Better-CVE-2022-29464](https://github.com/jimidk/Better-CVE-2022-29464)
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
-- [awsassets/WSO2RCE](https://github.com/awsassets/WSO2RCE)
 - [Blackyguy/-CVE-2022-29464](https://github.com/Blackyguy/-CVE-2022-29464)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 
@@ -3791,7 +3801,6 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [notxesh/CVE-2022-36804-PoC](https://github.com/notxesh/CVE-2022-36804-PoC)
 - [BenHays142/CVE-2022-36804-PoC-Exploit](https://github.com/BenHays142/CVE-2022-36804-PoC-Exploit)
 - [Vulnmachines/bitbucket-cve-2022-36804](https://github.com/Vulnmachines/bitbucket-cve-2022-36804)
-- [awsassets/CVE-2022-36804-RCE](https://github.com/awsassets/CVE-2022-36804-RCE)
 - [kljunowsky/CVE-2022-36804-POC](https://github.com/kljunowsky/CVE-2022-36804-POC)
 - [Chocapikk/CVE-2022-36804-ReverseShell](https://github.com/Chocapikk/CVE-2022-36804-ReverseShell)
 - [trhacknon/CVE-2022-36804-ReverseShell](https://github.com/trhacknon/CVE-2022-36804-ReverseShell)
@@ -4069,14 +4078,6 @@ Remote Code Execution in Clinic's Patient Management System v 1.0 allows Attacke
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
 
-### CVE-2022-40648 (2022-09-15)
-
-<code>
-This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ansys SpaceClaim 2022 R1. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of X_B files. The issue results from the lack of proper validation of user-supplied data, which can result in a write before the start of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-17563.
-</code>
-
-- [b3wT/CVE-2022-40648-MASS](https://github.com/b3wT/CVE-2022-40648-MASS)
-
 ### CVE-2022-40674 (2022-09-14)
 
 <code>
@@ -4130,6 +4131,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [kljunowsky/CVE-2022-41040-POC](https://github.com/kljunowsky/CVE-2022-41040-POC)
 - [rjsudlow/proxynotshell-IOC-Checker](https://github.com/rjsudlow/proxynotshell-IOC-Checker)
 - [ITPATJIDR/CVE-2022-41040](https://github.com/ITPATJIDR/CVE-2022-41040)
+- [TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell)
 - [trhacknon/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/trhacknon/CVE-2022-41040-metasploit-ProxyNotShell)
 
 ### CVE-2022-41082 (2022-10-02)
@@ -4139,7 +4141,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
-- [b3wT/CVE-2022-41082-MASS-SCANNER](https://github.com/b3wT/CVE-2022-41082-MASS-SCANNER)
 - [trhacknon/CVE-2022-41082-MASS-SCANNER](https://github.com/trhacknon/CVE-2022-41082-MASS-SCANNER)
 
 ### CVE-2022-41218 (2022-09-21)
@@ -5907,6 +5908,7 @@ Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication b
 </code>
 
 - [ZephrFish/CVE-2021-22893_HoneyPoC2](https://github.com/ZephrFish/CVE-2021-22893_HoneyPoC2)
+- [Mad-robot/CVE-2021-22893](https://github.com/Mad-robot/CVE-2021-22893)
 - [orangmuda/CVE-2021-22893](https://github.com/orangmuda/CVE-2021-22893)
 
 ### CVE-2021-22911 (2021-05-27)
@@ -6558,6 +6560,7 @@ A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.
 
 - [Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928)
 - [WilsonFung414/CVE-2021-27928_Docker](https://github.com/WilsonFung414/CVE-2021-27928_Docker)
+- [WilsonFung414/CVE-2021-27928_Docker_2](https://github.com/WilsonFung414/CVE-2021-27928_Docker_2)
 
 ### CVE-2021-27963 (2021-03-04)
 
@@ -7420,14 +7423,6 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 ### CVE-2021-38819
 - [m4sk0ff/CVE-2021-38819](https://github.com/m4sk0ff/CVE-2021-38819)
 
-### CVE-2021-39144 (2021-08-23)
-
-<code>
-XStream is a simple library to serialize objects to XML and back again. In affected versions this vulnerability may allow a remote attacker has sufficient rights to execute commands of the host only by manipulating the processed input stream. No user is affected, who followed the recommendation to setup XStream's security framework with a whitelist limited to the minimal required types. XStream 1.4.18 uses no longer a blacklist by default, since it cannot be secured for general purpose.
-</code>
-
-- [b3wT/CVE-2021-39144-XSTREAM-RCE](https://github.com/b3wT/CVE-2021-39144-XSTREAM-RCE)
-
 ### CVE-2021-39165 (2021-08-26)
 
 <code>
@@ -7574,6 +7569,7 @@ A crafted request uri-path can cause mod_proxy to forward the request to an orig
 - [Kashkovsky/CVE-2021-40438](https://github.com/Kashkovsky/CVE-2021-40438)
 - [gassara-kys/CVE-2021-40438](https://github.com/gassara-kys/CVE-2021-40438)
 - [WilsonFung414/CVE-2021-40438_Docker](https://github.com/WilsonFung414/CVE-2021-40438_Docker)
+- [WilsonFung414/CVE-2021-40438_Docker_2](https://github.com/WilsonFung414/CVE-2021-40438_Docker_2)
 
 ### CVE-2021-40444 (2021-09-15)
 
@@ -8326,7 +8322,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
-- [KosmX/CVE-2021-44228-example](https://github.com/KosmX/CVE-2021-44228-example)
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
 - [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
@@ -9571,14 +9566,6 @@ A remote code execution vulnerability exists in Microsoft Exchange software when
 - [7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688)
 - [TheKickPuncher/CVE-2020-0688-Python3](https://github.com/TheKickPuncher/CVE-2020-0688-Python3)
 
-### CVE-2020-0692 (2020-02-11)
-
-<code>
-An elevation of privilege vulnerability exists in Microsoft Exchange Server, aka 'Microsoft Exchange Server Elevation of Privilege Vulnerability'.
-</code>
-
-- [awsassets/CVE-2020-0692](https://github.com/awsassets/CVE-2020-0692)
-
 ### CVE-2020-0728 (2020-02-11)
 
 <code>
@@ -9689,6 +9676,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
 - [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
 - [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
+- [SEHandler/CVE-2020-0796](https://github.com/SEHandler/CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -9697,14 +9685,6 @@ An elevation of privilege vulnerability exists when the Windows Work Folder Serv
 </code>
 
 - [bonesg/CVE-2020-0797](https://github.com/bonesg/CVE-2020-0797)
-
-### CVE-2020-0798 (2020-03-12)
-
-<code>
-An elevation of privilege vulnerability exists in the Windows Installer when the Windows Installer fails to properly sanitize input leading to an insecure library loading behavior.A locally authenticated attacker could run arbitrary code with elevated system privileges, aka 'Windows Installer Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0779, CVE-2020-0814, CVE-2020-0842, CVE-2020-0843.
-</code>
-
-- [awsassets/CVE-2020-0798](https://github.com/awsassets/CVE-2020-0798)
 
 ### CVE-2020-0799 (2020-03-12)
 
@@ -9730,14 +9710,6 @@ An elevation of privilege vulnerability exists in the way that the Windows Netwo
 
 - [5l1v3r1/cve-2020-0802](https://github.com/5l1v3r1/cve-2020-0802)
 
-### CVE-2020-0883 (2020-03-12)
-
-<code>
-A remote code execution vulnerability exists in the way that the Windows Graphics Device Interface (GDI) handles objects in the memory, aka 'GDI+ Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0881.
-</code>
-
-- [awsassets/CVE-2020-0883](https://github.com/awsassets/CVE-2020-0883)
-
 ### CVE-2020-0887 (2020-03-12)
 
 <code>
@@ -9755,14 +9727,6 @@ A denial of service vulnerability exists when Microsoft Hyper-V on a host server
 - [gerhart01/hyperv_local_dos_poc](https://github.com/gerhart01/hyperv_local_dos_poc)
 - [skasanagottu57gmailv/gerhart01](https://github.com/skasanagottu57gmailv/gerhart01)
 - [MarcelloTinocor/gerhart01](https://github.com/MarcelloTinocor/gerhart01)
-
-### CVE-2020-0905 (2020-03-12)
-
-<code>
-An remote code execution vulnerability exists in Microsoft Dynamics Business Central, aka 'Dynamics Business Central Remote Code Execution Vulnerability'.
-</code>
-
-- [awsassets/CVE-2020-0905](https://github.com/awsassets/CVE-2020-0905)
 
 ### CVE-2020-0976 (2020-04-15)
 
@@ -10725,14 +10689,6 @@ A potential security vulnerability has been identified in HPE Systems Insight Ma
 </code>
 
 - [alexfrancow/CVE-2020-7200](https://github.com/alexfrancow/CVE-2020-7200)
-
-### CVE-2020-7209 (2020-02-12)
-
-<code>
-LinuxKI v6.0-1 and earlier is vulnerable to an remote code execution which is resolved in release 6.0-2.
-</code>
-
-- [awsassets/CVE-2020-7209](https://github.com/awsassets/CVE-2020-7209)
 
 ### CVE-2020-7246 (2020-01-21)
 
@@ -12949,7 +12905,6 @@ The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x8
 </code>
 
 - [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
-- [awsassets/CVE-2020-17382](https://github.com/awsassets/CVE-2020-17382)
 
 ### CVE-2020-17453 (2021-04-05)
 
@@ -14495,7 +14450,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [1aa87148377/CVE-2019-0708](https://github.com/1aa87148377/CVE-2019-0708)
 - [coolboy4me/cve-2019-0708_bluekeep_rce](https://github.com/coolboy4me/cve-2019-0708_bluekeep_rce)
 - [Cyb0r9/ispy](https://github.com/Cyb0r9/ispy)
-- [shishibabyq/CVE-2019-0708](https://github.com/shishibabyq/CVE-2019-0708)
 - [lwtz/CVE-2019-0708](https://github.com/lwtz/CVE-2019-0708)
 - [ulisesrc/-2-CVE-2019-0708](https://github.com/ulisesrc/-2-CVE-2019-0708)
 - [worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708)
@@ -21214,6 +21168,7 @@ It was found that libreoffice before versions 6.0.7 and 6.1.3 was vulnerable to 
 
 - [4nimanegra/libreofficeExploit1](https://github.com/4nimanegra/libreofficeExploit1)
 - [phongld97/detect-cve-2018-16858](https://github.com/phongld97/detect-cve-2018-16858)
+- [bantu2301/CVE-2018-16858](https://github.com/bantu2301/CVE-2018-16858)
 
 ### CVE-2018-16875 (2018-12-14)
 
