@@ -352,6 +352,7 @@ A hardcoded password was set for accounts registered using an OmniAuth provider 
 </code>
 
 - [Greenwolf/CVE-2022-1162](https://github.com/Greenwolf/CVE-2022-1162)
+- [ipsBruno/CVE-2022-1162](https://github.com/ipsBruno/CVE-2022-1162)
 
 ### CVE-2022-1175 (2022-04-04)
 
@@ -19470,6 +19471,9 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574)
 - [hasharmujahid/CVE-2018-6574-go-get-RCE](https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE)
 - [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
+- [jeyaseelans86/CVE-2018-6574](https://github.com/jeyaseelans86/CVE-2018-6574)
+- [jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574)
+- [chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
