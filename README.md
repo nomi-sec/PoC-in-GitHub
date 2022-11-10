@@ -2994,6 +2994,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 - [WilsonFung414/CVE-2022-30190](https://github.com/WilsonFung414/CVE-2022-30190)
+- [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -4011,9 +4012,6 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [PyterSmithDarkGhost/CVE-2022-39197-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-39197-POC)
 - [TheCryingGame/CVE-2022-39197-RCE](https://github.com/TheCryingGame/CVE-2022-39197-RCE)
 
-### CVE-2022-39395
-- [harry1osborn/CVE-2022-39395](https://github.com/harry1osborn/CVE-2022-39395)
-
 ### CVE-2022-39802 (2022-10-11)
 
 <code>
@@ -4195,7 +4193,7 @@ The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic key
 ### CVE-2022-41852 (2022-10-06)
 
 <code>
-Those using JXPath to interpret untrusted XPath expressions may be vulnerable to a remote code execution attack. All JXPathContext class functions processing a XPath string are vulnerable except compile() and compilePath() function. The XPath expression can be used by an attacker to load any Java class from the classpath resulting in code execution.
+** DISPUTED ** This record was originally reported by the oss-fuzz project who failed to consider the security context in which JXPath is intended to be used and failed to contact the JXPath maintainers prior to requesting the CVE allocation. The CVE was then allocated by Google in breach of the CNA rules. After review by the JXPath maintainers, the original report was found to be invalid.
 </code>
 
 - [Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852)
@@ -4821,7 +4819,6 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [TheJoyOfHacking/cube0x0-CVE-2021-1675](https://github.com/TheJoyOfHacking/cube0x0-CVE-2021-1675)
 - [TheJoyOfHacking/calebstewart-CVE-2021-1675](https://github.com/TheJoyOfHacking/calebstewart-CVE-2021-1675)
 - [jj4152/cve-2021-1675](https://github.com/jj4152/cve-2021-1675)
-- [sai-reddy2021/CVE-2021-1675-LPE](https://github.com/sai-reddy2021/CVE-2021-1675-LPE)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -8427,6 +8424,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [suuhm/log4shell4shell](https://github.com/suuhm/log4shell4shell)
 - [AnYi-Sec/Log4j-CVE-2021-44228-EXP](https://github.com/AnYi-Sec/Log4j-CVE-2021-44228-EXP)
 - [wajda/log4shell-test-exploit](https://github.com/wajda/log4shell-test-exploit)
+- [obscuritylabs/log4shell-poc-lab](https://github.com/obscuritylabs/log4shell-poc-lab)
 - [Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228](https://github.com/Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228)
 - [Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE](https://github.com/Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE)
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
@@ -22140,6 +22138,7 @@ A information disclosure vulnerability in the Android system (bluetooth). Produc
 - [sigbitsadmin/diff](https://github.com/sigbitsadmin/diff)
 - [RavSS/Bluetooth-Crash-CVE-2017-0785](https://github.com/RavSS/Bluetooth-Crash-CVE-2017-0785)
 - [sh4rknado/BlueBorn](https://github.com/sh4rknado/BlueBorn)
+- [Joanmei/CVE-2017-0785](https://github.com/Joanmei/CVE-2017-0785)
 
 ### CVE-2017-0806 (2017-10-03)
 
