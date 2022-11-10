@@ -292,6 +292,14 @@ Improper file permissions in the CommandPost, Collector, and Sensor components o
 
 - [henryreed/CVE-2022-0997](https://github.com/henryreed/CVE-2022-0997)
 
+### CVE-2022-1012 (2022-08-05)
+
+<code>
+A memory leak problem was found in the TCP source port generation algorithm in net/ipv4/tcp.c due to the small table perturb size. This flaw may allow an attacker to information leak and may cause a denial of service problem.
+</code>
+
+- [nanopathi/Linux-4.19.72_CVE-2022-1012](https://github.com/nanopathi/Linux-4.19.72_CVE-2022-1012)
+
 ### CVE-2022-1015 (2022-04-29)
 
 <code>
@@ -4268,6 +4276,9 @@ A cross-site scripting (XSS) vulnerability in Canteen Management System v1.0 all
 
 - [mudassiruddin/CVE-2022-43144-Stored-XSS](https://github.com/mudassiruddin/CVE-2022-43144-Stored-XSS)
 
+### CVE-2022-43332
+- [maikroservice/CVE-2022-43332](https://github.com/maikroservice/CVE-2022-43332)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -6121,6 +6132,7 @@ Each Apache Dubbo server will set a serialization id to tell the clients which s
 </code>
 
 - [Dor-Tumarkin/CVE-2021-25641-Proof-of-Concept](https://github.com/Dor-Tumarkin/CVE-2021-25641-Proof-of-Concept)
+- [l0n3rs/CVE-2021-25641](https://github.com/l0n3rs/CVE-2021-25641)
 
 ### CVE-2021-25642 (2022-08-25)
 
@@ -8415,7 +8427,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [suuhm/log4shell4shell](https://github.com/suuhm/log4shell4shell)
 - [AnYi-Sec/Log4j-CVE-2021-44228-EXP](https://github.com/AnYi-Sec/Log4j-CVE-2021-44228-EXP)
 - [wajda/log4shell-test-exploit](https://github.com/wajda/log4shell-test-exploit)
-- [obscuritylabs/log4shell-poc-lab](https://github.com/obscuritylabs/log4shell-poc-lab)
 - [Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228](https://github.com/Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228)
 - [Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE](https://github.com/Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE)
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
@@ -8567,7 +8578,7 @@ Pinkie 2.15 allows remote attackers to cause a denial of service (daemon crash) 
 When running Apache Cassandra with the following configuration: enable_user_defined_functions: true enable_scripted_user_defined_functions: true enable_user_defined_functions_threads: false it is possible for an attacker to execute arbitrary code on the host. The attacker would need to have enough permissions to create user defined functions in the cluster to be able to exploit this. Note that this configuration is documented as unsafe, and will continue to be considered unsafe after this CVE.
 </code>
 
-- [QHpix/CVE-2021-44521](https://github.com/QHpix/CVE-2021-44521)
+- [WoodenKlaas/CVE-2021-44521](https://github.com/WoodenKlaas/CVE-2021-44521)
 
 ### CVE-2021-44529 (2021-12-08)
 
