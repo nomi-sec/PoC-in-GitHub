@@ -3397,6 +3397,14 @@ SourceCodester Zoo Management System 1.0 is vulnerable to Cross Site Scripting (
 
 - [AngeloPioAmirante/CVE-2022-31897](https://github.com/AngeloPioAmirante/CVE-2022-31897)
 
+### CVE-2022-31898 (2022-10-27)
+
+<code>
+gl-inet GL-MT300N-V2 Mango v3.212 and GL-AX1800 Flint v3.214 were discovered to contain multiple command injection vulnerabilities via the ping_addr and trace_addr function parameters.
+</code>
+
+- [gigaryte/cve-2022-31898](https://github.com/gigaryte/cve-2022-31898)
+
 ### CVE-2022-31983 (2022-06-01)
 
 <code>
