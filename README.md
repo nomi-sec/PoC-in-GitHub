@@ -309,6 +309,7 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 - [pqlx/CVE-2022-1015](https://github.com/pqlx/CVE-2022-1015)
 - [zanezhub/CVE-2022-1015-1016](https://github.com/zanezhub/CVE-2022-1015-1016)
 - [shuttterman/bob_kern_exp1](https://github.com/shuttterman/bob_kern_exp1)
+- [ysanatomic/CVE-2022-1015](https://github.com/ysanatomic/CVE-2022-1015)
 
 ### CVE-2022-1040 (2022-03-25)
 
@@ -654,6 +655,17 @@ A buffer overrun can be triggered in X.509 certificate verification, specificall
 
 ### CVE-2022-3699
 - [alfarom256/CVE-2022-3699](https://github.com/alfarom256/CVE-2022-3699)
+
+### CVE-2022-3942 (2022-11-11)
+
+<code>
+A vulnerability was found in SourceCodester Sanitization Management System and classified as problematic. This issue affects some unknown processing of the file php-sms/?p=request_quote. The manipulation leads to cross site scripting. The attack may be initiated remotely. The identifier VDB-213449 was assigned to this vulnerability.
+</code>
+
+- [maikroservice/CVE-2022-3942](https://github.com/maikroservice/CVE-2022-3942)
+
+### CVE-2022-3949
+- [maikroservice/CVE-2022-3949](https://github.com/maikroservice/CVE-2022-3949)
 
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
@@ -1070,6 +1082,7 @@ A use after free issue was addressed with improved memory management. This issue
 
 - [kmeps4/CVE-2022-22620](https://github.com/kmeps4/CVE-2022-22620)
 - [springsec/CVE-2022-22620](https://github.com/springsec/CVE-2022-22620)
+- [dkjiayu/dkjiayu.github.io](https://github.com/dkjiayu/dkjiayu.github.io)
 
 ### CVE-2022-22629 (2022-09-23)
 
@@ -28782,6 +28795,7 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 </code>
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
+- [hasanMohammed96/ms08-067](https://github.com/hasanMohammed96/ms08-067)
 
 ### CVE-2008-4609 (2008-10-20)
 
