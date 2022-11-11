@@ -292,6 +292,12 @@ Improper file permissions in the CommandPost, Collector, and Sensor components o
 
 - [henryreed/CVE-2022-0997](https://github.com/henryreed/CVE-2022-0997)
 
+### CVE-2022-1
+- [mike-develop-root/cve-2022-1](https://github.com/mike-develop-root/cve-2022-1)
+
+### CVE-2022-5
+- [mike-develop-root/cve-2022-5](https://github.com/mike-develop-root/cve-2022-5)
+
 ### CVE-2022-1012 (2022-08-05)
 
 <code>
@@ -495,6 +501,14 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 - [NullBrunk/CVE-2022-1609](https://github.com/NullBrunk/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
 
+### CVE-2022-1679 (2022-05-16)
+
+<code>
+A use-after-free flaw was found in the Linux kernel’s Atheros wireless adapter driver in the way a user forces the ath9k_htc_wait_for_target function to fail with some input messages. This flaw allows a local user to crash or potentially escalate their privileges on the system.
+</code>
+
+- [EkamSinghWalia/-Detection-and-Mitigation-for-CVE-2022-1679](https://github.com/EkamSinghWalia/-Detection-and-Mitigation-for-CVE-2022-1679)
+
 ### CVE-2022-1802
 - [mistymntncop/CVE-2022-1802](https://github.com/mistymntncop/CVE-2022-1802)
 
@@ -547,6 +561,7 @@ The OpenSSL 3.0.4 release introduced a serious bug in the RSA implementation for
 </code>
 
 - [Malwareman007/CVE-2022-2274](https://github.com/Malwareman007/CVE-2022-2274)
+- [EkamSinghWalia/OpenSSL-Vulnerability-Detection-Script](https://github.com/EkamSinghWalia/OpenSSL-Vulnerability-Detection-Script)
 
 ### CVE-2022-2333 (2022-09-16)
 
@@ -601,6 +616,7 @@ An integer coercion error was found in the openvswitch kernel module. Given a su
 </code>
 
 - [avboy1337/CVE-2022-2639-PipeVersion](https://github.com/avboy1337/CVE-2022-2639-PipeVersion)
+- [EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639](https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639)
 
 ### CVE-2022-2992 (2022-10-17)
 
@@ -664,7 +680,12 @@ A vulnerability was found in SourceCodester Sanitization Management System and c
 
 - [maikroservice/CVE-2022-3942](https://github.com/maikroservice/CVE-2022-3942)
 
-### CVE-2022-3949
+### CVE-2022-3949 (2022-11-11)
+
+<code>
+A vulnerability, which was classified as problematic, has been found in Sourcecodester Simple Cashiering System. This issue affects some unknown processing of the component User Account Handler. The manipulation of the argument fullname leads to cross site scripting. The attack may be initiated remotely. The associated identifier of this vulnerability is VDB-213455.
+</code>
+
 - [maikroservice/CVE-2022-3949](https://github.com/maikroservice/CVE-2022-3949)
 
 ### CVE-2022-5555
@@ -4069,6 +4090,7 @@ An origin validation error vulnerability in Trend Micro Apex One and Apex One as
 
 - [mr-r3b00t/NotProxyShellHunter](https://github.com/mr-r3b00t/NotProxyShellHunter)
 - [ZephrFish/NotProxyShellScanner](https://github.com/ZephrFish/NotProxyShellScanner)
+- [ipsBruno/CVE-2022-40140-SCANNER](https://github.com/ipsBruno/CVE-2022-40140-SCANNER)
 
 ### CVE-2022-40146 (2022-09-22)
 
@@ -17834,6 +17856,7 @@ ThinVNC 1.0b1 is vulnerable to arbitrary file read, which leads to a compromise 
 - [whokilleddb/CVE-2019-17662](https://github.com/whokilleddb/CVE-2019-17662)
 - [rajendrakumaryadav/CVE-2019-17662-Exploit](https://github.com/rajendrakumaryadav/CVE-2019-17662-Exploit)
 - [Tamagaft/CVE-2019-17662](https://github.com/Tamagaft/CVE-2019-17662)
+- [bl4ck574r/CVE-2019-17662](https://github.com/bl4ck574r/CVE-2019-17662)
 
 ### CVE-2019-17671 (2019-10-17)
 
@@ -28795,7 +28818,6 @@ The Server service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP
 </code>
 
 - [thunderstrike9090/Conflicker_analysis_scripts](https://github.com/thunderstrike9090/Conflicker_analysis_scripts)
-- [hasanMohammed96/ms08-067](https://github.com/hasanMohammed96/ms08-067)
 
 ### CVE-2008-4609 (2008-10-20)
 
