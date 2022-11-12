@@ -700,9 +700,6 @@ A vulnerability, which was classified as problematic, has been found in Sourceco
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
 
-### CVE-2022-10249
-- [buff07/CVE-2022-10249](https://github.com/buff07/CVE-2022-10249)
-
 ### CVE-2022-20004 (2022-05-10)
 
 <code>
@@ -3346,14 +3343,6 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 </code>
 
 - [YavuzSahbaz/CVE-2022-31402](https://github.com/YavuzSahbaz/CVE-2022-31402)
-
-### CVE-2022-31403 (2022-06-14)
-
-<code>
-ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability via /itop/pages/ajax.render.php.
-</code>
-
-- [buff07/CVE-2022-31403](https://github.com/buff07/CVE-2022-31403)
 
 ### CVE-2022-31479 (2022-06-06)
 
