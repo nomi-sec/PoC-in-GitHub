@@ -24054,6 +24054,7 @@ The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4
 - [littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995)
 - [Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-](https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-)
 - [ph4ntonn/CVE-2017-16995](https://github.com/ph4ntonn/CVE-2017-16995)
+- [ivilpez/cve-2017-16995.c](https://github.com/ivilpez/cve-2017-16995.c)
 
 ### CVE-2017-16997 (2017-12-17)
 
