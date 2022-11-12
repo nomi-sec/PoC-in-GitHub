@@ -4210,6 +4210,7 @@ An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacke
 </code>
 
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
+- [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
 
 ### CVE-2022-41358 (2022-10-19)
 
@@ -6764,6 +6765,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [b-abderrahmane/CVE-2021-29447-POC](https://github.com/b-abderrahmane/CVE-2021-29447-POC)
 - [akhils911dev/blind-xxe-controller-CVE-2021-29447](https://github.com/akhils911dev/blind-xxe-controller-CVE-2021-29447)
 - [Val-Resh/CVE-2021-29447-POC](https://github.com/Val-Resh/CVE-2021-29447-POC)
+- [M3l0nPan/wordpress-cve-2021-29447](https://github.com/M3l0nPan/wordpress-cve-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
 
@@ -8467,7 +8469,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [suuhm/log4shell4shell](https://github.com/suuhm/log4shell4shell)
 - [AnYi-Sec/Log4j-CVE-2021-44228-EXP](https://github.com/AnYi-Sec/Log4j-CVE-2021-44228-EXP)
 - [wajda/log4shell-test-exploit](https://github.com/wajda/log4shell-test-exploit)
-- [obscuritylabs/log4shell-poc-lab](https://github.com/obscuritylabs/log4shell-poc-lab)
 - [Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228](https://github.com/Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228)
 - [Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE](https://github.com/Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE)
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
