@@ -22174,6 +22174,7 @@ A information disclosure vulnerability in the Android system (bluetooth). Produc
 - [RavSS/Bluetooth-Crash-CVE-2017-0785](https://github.com/RavSS/Bluetooth-Crash-CVE-2017-0785)
 - [sh4rknado/BlueBorn](https://github.com/sh4rknado/BlueBorn)
 - [Joanmei/CVE-2017-0785](https://github.com/Joanmei/CVE-2017-0785)
+- [CyberKimathi/Py3-CVE-2017-0785](https://github.com/CyberKimathi/Py3-CVE-2017-0785)
 
 ### CVE-2017-0806 (2017-10-03)
 
