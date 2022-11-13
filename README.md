@@ -15963,6 +15963,7 @@ SQL injection vulnerability in the J2Store plugin 3.x before 3.3.7 for Joomla! a
 
 - [wkjung0624/cve-2019-9193](https://github.com/wkjung0624/cve-2019-9193)
 - [b4keSn4ke/CVE-2019-9193](https://github.com/b4keSn4ke/CVE-2019-9193)
+- [chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7](https://github.com/chromanite/CVE-2019-9193-PostgreSQL-9.3-11.7)
 
 ### CVE-2019-9194 (2019-02-26)
 
