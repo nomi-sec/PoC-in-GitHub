@@ -4183,6 +4183,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 - [trhacknon/CVE-2022-41082-MASS-SCANNER](https://github.com/trhacknon/CVE-2022-41082-MASS-SCANNER)
+- [notareaperbutDR34P3r/http-vuln-CVE-2022-41082](https://github.com/notareaperbutDR34P3r/http-vuln-CVE-2022-41082)
 
 ### CVE-2022-41218 (2022-09-21)
 
