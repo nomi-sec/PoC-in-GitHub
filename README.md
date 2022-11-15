@@ -6758,6 +6758,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [Val-Resh/CVE-2021-29447-POC](https://github.com/Val-Resh/CVE-2021-29447-POC)
 - [M3l0nPan/wordpress-cve-2021-29447](https://github.com/M3l0nPan/wordpress-cve-2021-29447)
 - [mega8bit/exploit_cve-2021-29447](https://github.com/mega8bit/exploit_cve-2021-29447)
+- [thomas-osgood/CVE-2021-29447](https://github.com/thomas-osgood/CVE-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
 
@@ -8465,7 +8466,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
 - [zaneef/CVE-2021-44228](https://github.com/zaneef/CVE-2021-44228)
 - [metodidavidovic/log4j-quick-scan](https://github.com/metodidavidovic/log4j-quick-scan)
-- [Aschen/log4j-patched](https://github.com/Aschen/log4j-patched)
 - [Nikolas-Charalambidis/cve-2021-44228](https://github.com/Nikolas-Charalambidis/cve-2021-44228)
 - [m0rath/detect-log4j-exploitable](https://github.com/m0rath/detect-log4j-exploitable)
 - [nu11secur1ty/CVE-2021-44228-VULN-APP](https://github.com/nu11secur1ty/CVE-2021-44228-VULN-APP)
@@ -16143,6 +16143,7 @@ The social-warfare plugin before 3.5.3 for WordPress has stored XSS via the wp-a
 - [hash3liZer/CVE-2019-9978](https://github.com/hash3liZer/CVE-2019-9978)
 - [KTN1990/CVE-2019-9978](https://github.com/KTN1990/CVE-2019-9978)
 - [cved-sources/cve-2019-9978](https://github.com/cved-sources/cve-2019-9978)
+- [caique-garbim/CVE-2019-9978_Exploit](https://github.com/caique-garbim/CVE-2019-9978_Exploit)
 
 ### CVE-2019-10008 (2019-04-24)
 
@@ -16313,6 +16314,7 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [lindemer/CVE-2019-11043](https://github.com/lindemer/CVE-2019-11043)
 - [jptr218/php_hack](https://github.com/jptr218/php_hack)
 - [jas9reet/CVE-2019-11043](https://github.com/jas9reet/CVE-2019-11043)
+- [trhacknon/CVE-2019-11043](https://github.com/trhacknon/CVE-2019-11043)
 
 ### CVE-2019-11061 (2019-08-28)
 
