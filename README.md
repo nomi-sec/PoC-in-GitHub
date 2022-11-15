@@ -292,12 +292,6 @@ Improper file permissions in the CommandPost, Collector, and Sensor components o
 
 - [henryreed/CVE-2022-0997](https://github.com/henryreed/CVE-2022-0997)
 
-### CVE-2022-1
-- [mike-develop-root/cve-2022-1](https://github.com/mike-develop-root/cve-2022-1)
-
-### CVE-2022-5
-- [mike-develop-root/cve-2022-5](https://github.com/mike-develop-root/cve-2022-5)
-
 ### CVE-2022-1012 (2022-08-05)
 
 <code>
@@ -1259,6 +1253,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [SiJiDo/CVE-2022-22947](https://github.com/SiJiDo/CVE-2022-22947)
 - [trhacknon/CVE-2022-22947](https://github.com/trhacknon/CVE-2022-22947)
 - [savior-only/CVE-2022-22947](https://github.com/savior-only/CVE-2022-22947)
+- [qq87234770/CVE-2022-22947](https://github.com/qq87234770/CVE-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
 
@@ -7815,6 +7810,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
 - [creadpag/CVE-2021-41773-POC](https://github.com/creadpag/CVE-2021-41773-POC)
 - [ranggaggngntt/CVE-2021-41773](https://github.com/ranggaggngntt/CVE-2021-41773)
+- [noflowpls/CVE-2021-41773](https://github.com/noflowpls/CVE-2021-41773)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [norrig/CVE-2021-41773-exploiter](https://github.com/norrig/CVE-2021-41773-exploiter)
@@ -8376,7 +8372,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
 - [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
-- [f0ng/log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
