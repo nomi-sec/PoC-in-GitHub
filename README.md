@@ -4224,6 +4224,9 @@ The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic key
 
 - [efchatz/easy-exploits](https://github.com/efchatz/easy-exploits)
 
+### CVE-2022-41622
+- [rbowes-r7/refreshing-soap-exploit](https://github.com/rbowes-r7/refreshing-soap-exploit)
+
 ### CVE-2022-41852 (2022-10-06)
 
 <code>
@@ -4310,6 +4313,9 @@ A cross-site scripting (XSS) vulnerability in Canteen Management System v1.0 all
 
 ### CVE-2022-43332
 - [maikroservice/CVE-2022-43332](https://github.com/maikroservice/CVE-2022-43332)
+
+### CVE-2022-43959
+- [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
 
 
 ## 2021
@@ -26690,7 +26696,6 @@ The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14
 </code>
 
 - [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
-- [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
 
 ### CVE-2014-0224 (2014-06-05)
 
@@ -26699,10 +26704,7 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
-- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
-- [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
-- [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
 
 ### CVE-2014-0226 (2014-07-20)
 
@@ -26881,7 +26883,6 @@ The default configuration in Elasticsearch before 1.2 enables dynamic scripting,
 </code>
 
 - [jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject)
-- [echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120)
 - [xpgdgit/CVE-2014-3120](https://github.com/xpgdgit/CVE-2014-3120)
 
 ### CVE-2014-3153 (2014-06-07)
