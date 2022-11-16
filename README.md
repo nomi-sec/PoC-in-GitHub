@@ -1794,6 +1794,7 @@ Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker 
 - [Lay0us1/CVE-2022-24637](https://github.com/Lay0us1/CVE-2022-24637)
 - [garySec/CVE-2022-24637](https://github.com/garySec/CVE-2022-24637)
 - [hupe1980/CVE-2022-24637](https://github.com/hupe1980/CVE-2022-24637)
+- [icebreack/CVE-2022-24637](https://github.com/icebreack/CVE-2022-24637)
 
 ### CVE-2022-24644 (2022-03-07)
 
@@ -3769,6 +3770,7 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. In versions prior to version 3.9.11, a threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.11 of vm2. There are no known workarounds.
 </code>
 
+- [0x1nsomnia/CVE-2022-36067-vm2-POC-webapp](https://github.com/0x1nsomnia/CVE-2022-36067-vm2-POC-webapp)
 - [Prathamrajgor/Exploit-For-CVE-2022-36067](https://github.com/Prathamrajgor/Exploit-For-CVE-2022-36067)
 
 ### CVE-2022-36162
@@ -7848,6 +7850,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [juuso0/CVE-2021-41773](https://github.com/juuso0/CVE-2021-41773)
 - [aqiao-jashell/CVE-2021-41773](https://github.com/aqiao-jashell/CVE-2021-41773)
 - [aqiao-jashell/py-CVE-2021-41773](https://github.com/aqiao-jashell/py-CVE-2021-41773)
+- [WebApache/CVE-2021-41773-Apache-RCE](https://github.com/WebApache/CVE-2021-41773-Apache-RCE)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -8424,7 +8427,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [wortell/log4j](https://github.com/wortell/log4j)
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
-- [guerzon/log4shellpoc](https://github.com/guerzon/log4shellpoc)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 - [CERTCC/CVE-2021-44228_scanner](https://github.com/CERTCC/CVE-2021-44228_scanner)
@@ -20890,6 +20892,7 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [Bilelxdz/Laravel-CVE-2018-15133](https://github.com/Bilelxdz/Laravel-CVE-2018-15133)
 - [Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader](https://github.com/Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader)
 - [bukitbarisan/laravel-rce-cve-2018-15133](https://github.com/bukitbarisan/laravel-rce-cve-2018-15133)
+- [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
 - [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
