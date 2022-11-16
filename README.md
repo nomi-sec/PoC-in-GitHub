@@ -3544,6 +3544,7 @@ Windows Kerberos Elevation of Privilege Vulnerability. This CVE ID is unique fro
 - [Bdenneu/CVE-2022-33679](https://github.com/Bdenneu/CVE-2022-33679)
 - [Blyth0He/CVE-2022-33679](https://github.com/Blyth0He/CVE-2022-33679)
 - [Amulab/CVE-2022-33679](https://github.com/Amulab/CVE-2022-33679)
+- [notareaperbutDR34P3r/Kerberos_CVE-2022-33679](https://github.com/notareaperbutDR34P3r/Kerberos_CVE-2022-33679)
 
 ### CVE-2022-33891 (2022-07-18)
 
@@ -7249,6 +7250,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [cyberheartmi9/Proxyshell-Scanner](https://github.com/cyberheartmi9/Proxyshell-Scanner)
 - [jrgdiaz/ProxyShell-CVE-2021-34473.py](https://github.com/jrgdiaz/ProxyShell-CVE-2021-34473.py)
 - [kh4sh3i/ProxyShell](https://github.com/kh4sh3i/ProxyShell)
+- [ipsBruno/CVE-2021-34473-NMAP-SCANNER](https://github.com/ipsBruno/CVE-2021-34473-NMAP-SCANNER)
 
 ### CVE-2021-34527 (2021-07-02)
 
