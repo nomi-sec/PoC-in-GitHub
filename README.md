@@ -1389,7 +1389,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [mrfossbrain/CVE-2022-22965](https://github.com/mrfossbrain/CVE-2022-22965)
+- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
 - [iloveflag/Fast-CVE-2022-22965](https://github.com/iloveflag/Fast-CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
@@ -1848,6 +1848,7 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
 - [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
 - [trhacknon/CVE-2022-24706-CouchDB-Exploit](https://github.com/trhacknon/CVE-2022-24706-CouchDB-Exploit)
+- [LightningGod7/CVE-2022-24706-POC](https://github.com/LightningGod7/CVE-2022-24706-POC)
 
 ### CVE-2022-24707 (2022-02-23)
 
@@ -3800,7 +3801,12 @@ Outbyte PC Repair Installation File 1.7.112.7856 is vulnerable to Dll Hijacking.
 
 - [SaumyajeetDas/POC-of-CVE-2022-36271](https://github.com/SaumyajeetDas/POC-of-CVE-2022-36271)
 
-### CVE-2022-36432
+### CVE-2022-36432 (2022-11-16)
+
+<code>
+The Preview functionality in the Amasty Blog Pro 2.10.3 plugin for Magento 2 uses eval unsafely. This allows attackers to perform Cross-site Scripting attacks on admin panel users by manipulating the generated preview application response.
+</code>
+
 - [afine-com/CVE-2022-36432](https://github.com/afine-com/CVE-2022-36432)
 
 ### CVE-2022-36433
@@ -7476,7 +7482,7 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 ### CVE-2021-38817
 - [HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection](https://github.com/HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection)
 
-### CVE-2021-38819 (-)
+### CVE-2021-38819 (2022-11-16)
 
 <code>
 A SQL injection vulnerability exits on the Simple Image Gallery System 1.0 application through &quot;id&quot; parameter on the album page.
@@ -8388,6 +8394,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
 - [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
 - [1lann/log4shelldetect](https://github.com/1lann/log4shelldetect)
+- [f0ng/log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner)
 - [logpresso/CVE-2021-44228-Scanner](https://github.com/logpresso/CVE-2021-44228-Scanner)
 - [vorburger/Log4j_CVE-2021-44228](https://github.com/vorburger/Log4j_CVE-2021-44228)
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
@@ -28500,14 +28507,6 @@ The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Socke
 </code>
 
 - [redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report)
-
-### CVE-2010-3971 (2010-12-22)
-
-<code>
-Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka &quot;CSS Memory Corruption Vulnerability.&quot;
-</code>
-
-- [nektra/CVE-2010-3971-hotpatch](https://github.com/nektra/CVE-2010-3971-hotpatch)
 
 ### CVE-2010-4221 (2010-11-09)
 
