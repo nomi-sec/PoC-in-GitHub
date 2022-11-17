@@ -7476,7 +7476,12 @@ Open Management Infrastructure Remote Code Execution Vulnerability
 ### CVE-2021-38817
 - [HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection](https://github.com/HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection)
 
-### CVE-2021-38819
+### CVE-2021-38819 (-)
+
+<code>
+A SQL injection vulnerability exits on the Simple Image Gallery System 1.0 application through &quot;id&quot; parameter on the album page.
+</code>
+
 - [m4sk0ff/CVE-2021-38819](https://github.com/m4sk0ff/CVE-2021-38819)
 
 ### CVE-2021-39165 (2021-08-26)
@@ -7859,7 +7864,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [juuso0/CVE-2021-41773](https://github.com/juuso0/CVE-2021-41773)
 - [aqiao-jashell/CVE-2021-41773](https://github.com/aqiao-jashell/CVE-2021-41773)
 - [aqiao-jashell/py-CVE-2021-41773](https://github.com/aqiao-jashell/py-CVE-2021-41773)
-- [WebApache/CVE-2021-41773-Apache-RCE](https://github.com/WebApache/CVE-2021-41773-Apache-RCE)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -26696,6 +26700,7 @@ The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14
 </code>
 
 - [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
+- [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
 
 ### CVE-2014-0224 (2014-06-05)
 
@@ -26704,7 +26709,10 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
+- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
+- [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
+- [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
 
 ### CVE-2014-0226 (2014-07-20)
 
@@ -26883,6 +26891,7 @@ The default configuration in Elasticsearch before 1.2 enables dynamic scripting,
 </code>
 
 - [jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject)
+- [echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120)
 - [xpgdgit/CVE-2014-3120](https://github.com/xpgdgit/CVE-2014-3120)
 
 ### CVE-2014-3153 (2014-06-07)
