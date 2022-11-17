@@ -252,6 +252,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [badboy-sft/Dirty-Pipe-Oneshot](https://github.com/badboy-sft/Dirty-Pipe-Oneshot)
 - [edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-)
 - [Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits)
+- [siholley/CVE-2022-0847-Dirty-Pipe-Vulnerability-](https://github.com/siholley/CVE-2022-0847-Dirty-Pipe-Vulnerability-)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -3366,6 +3367,14 @@ In PHP versions before 7.4.31, 8.0.24 and 8.1.11, the vulnerability enables netw
 </code>
 
 - [silnex/CVE-2022-31629-poc](https://github.com/silnex/CVE-2022-31629-poc)
+
+### CVE-2022-31691 (2022-11-04)
+
+<code>
+Spring Tools 4 for Eclipse version 4.16.0 and below as well as VSCode extensions such as Spring Boot Tools, Concourse CI Pipeline Editor, Bosh Editor and Cloudfoundry Manifest YML Support version 1.39.0 and below all use Snakeyaml library for YAML editing support. This library allows for some special syntax in the YAML that under certain circumstances allows for potentially harmful remote code execution by the attacker.
+</code>
+
+- [SpindleSec/CVE-2022-31691](https://github.com/SpindleSec/CVE-2022-31691)
 
 ### CVE-2022-31692 (2022-10-31)
 
@@ -6778,6 +6787,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [M3l0nPan/wordpress-cve-2021-29447](https://github.com/M3l0nPan/wordpress-cve-2021-29447)
 - [mega8bit/exploit_cve-2021-29447](https://github.com/mega8bit/exploit_cve-2021-29447)
 - [thomas-osgood/CVE-2021-29447](https://github.com/thomas-osgood/CVE-2021-29447)
+- [Abdulazizalsewedy/CVE-2021-29447](https://github.com/Abdulazizalsewedy/CVE-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
 
@@ -8462,7 +8472,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
 - [KeysAU/Get-log4j-Windows.ps1](https://github.com/KeysAU/Get-log4j-Windows.ps1)
-- [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
 - [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
 - [isuruwa/Log4j](https://github.com/isuruwa/Log4j)
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
