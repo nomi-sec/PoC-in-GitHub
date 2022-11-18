@@ -58,6 +58,7 @@ The MasterStudy LMS WordPress plugin before 2.7.6 does to validate some paramete
 </code>
 
 - [biulove0x/CVE-2022-0441](https://github.com/biulove0x/CVE-2022-0441)
+- [SDragon1205/cve-2022-0441](https://github.com/SDragon1205/cve-2022-0441)
 
 ### CVE-2022-0482 (2022-03-09)
 
@@ -26325,6 +26326,14 @@ Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, 
 </code>
 
 - [hexx0r/CVE-2015-6132](https://github.com/hexx0r/CVE-2015-6132)
+
+### CVE-2015-6357 (2015-11-18)
+
+<code>
+The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.4.0.1 does not verify the X.509 certificate of the support.sourcefire.com SSL server, which allows man-in-the-middle attackers to spoof this server and provide an invalid package, and consequently execute arbitrary code, via a crafted certificate, aka Bug ID CSCuw06444.
+</code>
+
+- [mattimustang/firepwner](https://github.com/mattimustang/firepwner)
 
 ### CVE-2015-6576 (2017-10-02)
 
