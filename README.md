@@ -4318,7 +4318,12 @@ Bentley MicroStation and MicroStation-based applications may be affected by out-
 
 - [iamsanjay/CVE-2022-42899](https://github.com/iamsanjay/CVE-2022-42899)
 
-### CVE-2022-43096
+### CVE-2022-43096 (2022-11-17)
+
+<code>
+Mediatrix 4102 before v48.5.2718 allows local attackers to gain root access via the UART port.
+</code>
+
 - [ProxyStaffy/Mediatrix-CVE-2022-43096](https://github.com/ProxyStaffy/Mediatrix-CVE-2022-43096)
 
 ### CVE-2022-43144 (2022-11-08)
@@ -4329,7 +4334,12 @@ A cross-site scripting (XSS) vulnerability in Canteen Management System v1.0 all
 
 - [mudassiruddin/CVE-2022-43144-Stored-XSS](https://github.com/mudassiruddin/CVE-2022-43144-Stored-XSS)
 
-### CVE-2022-43332
+### CVE-2022-43332 (2022-11-17)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Wondercms v3.3.4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Site title field of the Configuration Panel.
+</code>
+
 - [maikroservice/CVE-2022-43332](https://github.com/maikroservice/CVE-2022-43332)
 
 ### CVE-2022-43959
@@ -6718,6 +6728,7 @@ An issue was discovered in the Linux kernel through 5.11.x. kernel/bpf/verifier.
 ForgeRock OpenAM before 13.5.1 allows LDAP injection via the Webfinger protocol. For example, an unauthenticated attacker can perform character-by-character retrieval of password hashes, or retrieve a session token or a private key.
 </code>
 
+- [guidepointsecurity/CVE-2021-29156](https://github.com/guidepointsecurity/CVE-2021-29156)
 - [5amu/CVE-2021-29156](https://github.com/5amu/CVE-2021-29156)
 
 ### CVE-2021-29200 (2021-04-27)
@@ -8505,7 +8516,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [immunityinc/Log4j-JNDIServer](https://github.com/immunityinc/Log4j-JNDIServer)
 - [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
 - [suniastar/scan-log4shell](https://github.com/suniastar/scan-log4shell)
-- [shivakumarjayaraman/log4jvulnerability-CVE-2021-44228](https://github.com/shivakumarjayaraman/log4jvulnerability-CVE-2021-44228)
 - [Apipia/log4j-pcap-activity](https://github.com/Apipia/log4j-pcap-activity)
 - [axelcurmi/log4shell-docker-lab](https://github.com/axelcurmi/log4shell-docker-lab)
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
