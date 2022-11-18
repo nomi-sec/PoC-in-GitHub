@@ -4087,6 +4087,14 @@ A misconfiguration in the Service Mode profile directory of Clash for Windows v0
 
 - [LovelyWei/CVE-2022-40126](https://github.com/LovelyWei/CVE-2022-40126)
 
+### CVE-2022-40127 (2022-11-14)
+
+<code>
+A vulnerability in Example Dags of Apache Airflow allows an attacker with UI access who can trigger DAGs, to execute arbitrary commands via manually provided run_id parameter. This issue affects Apache Airflow Apache Airflow versions prior to 2.4.0.
+</code>
+
+- [Mr-xn/CVE-2022-40127](https://github.com/Mr-xn/CVE-2022-40127)
+
 ### CVE-2022-40140 (2022-09-19)
 
 <code>
@@ -7900,6 +7908,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [juuso0/CVE-2021-41773](https://github.com/juuso0/CVE-2021-41773)
 - [aqiao-jashell/CVE-2021-41773](https://github.com/aqiao-jashell/CVE-2021-41773)
 - [aqiao-jashell/py-CVE-2021-41773](https://github.com/aqiao-jashell/py-CVE-2021-41773)
+- [12345qwert123456/CVE-2021-41773](https://github.com/12345qwert123456/CVE-2021-41773)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -7938,6 +7947,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [mightysai1997/cve-2021-42013](https://github.com/mightysai1997/cve-2021-42013)
 - [mightysai1997/cve-2021-42013L](https://github.com/mightysai1997/cve-2021-42013L)
 - [mightysai1997/cve-2021-42013.get](https://github.com/mightysai1997/cve-2021-42013.get)
+- [12345qwert123456/CVE-2021-42013](https://github.com/12345qwert123456/CVE-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -8485,7 +8495,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
 - [KeysAU/Get-log4j-Windows.ps1](https://github.com/KeysAU/Get-log4j-Windows.ps1)
-- [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
 - [isuruwa/Log4j](https://github.com/isuruwa/Log4j)
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
 - [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
@@ -8517,7 +8526,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ankur-katiyar/log4j-docker](https://github.com/ankur-katiyar/log4j-docker)
 - [immunityinc/Log4j-JNDIServer](https://github.com/immunityinc/Log4j-JNDIServer)
 - [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
-- [Apipia/log4j-pcap-activity](https://github.com/Apipia/log4j-pcap-activity)
 - [axelcurmi/log4shell-docker-lab](https://github.com/axelcurmi/log4shell-docker-lab)
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
 - [kkyehit/log4j_CVE-2021-44228](https://github.com/kkyehit/log4j_CVE-2021-44228)
@@ -27966,6 +27974,7 @@ sapi/cgi/cgi_main.c in PHP before 5.3.12 and 5.4.x before 5.4.2, when configured
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [theykillmeslowly/CVE-2012-1823](https://github.com/theykillmeslowly/CVE-2012-1823)
+- [daai1/CVE-2012-1823](https://github.com/daai1/CVE-2012-1823)
 
 ### CVE-2012-1870 (2012-07-10)
 
