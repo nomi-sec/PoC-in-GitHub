@@ -8286,6 +8286,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
 - [0bfxgh0st/cve-2021-43798](https://github.com/0bfxgh0st/cve-2021-43798)
+- [trhacknon/exploit-grafana-CVE-2021-43798](https://github.com/trhacknon/exploit-grafana-CVE-2021-43798)
 
 ### CVE-2021-43811 (2021-12-08)
 
@@ -8515,7 +8516,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ankur-katiyar/log4j-docker](https://github.com/ankur-katiyar/log4j-docker)
 - [immunityinc/Log4j-JNDIServer](https://github.com/immunityinc/Log4j-JNDIServer)
 - [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
-- [suniastar/scan-log4shell](https://github.com/suniastar/scan-log4shell)
 - [Apipia/log4j-pcap-activity](https://github.com/Apipia/log4j-pcap-activity)
 - [axelcurmi/log4shell-docker-lab](https://github.com/axelcurmi/log4shell-docker-lab)
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
@@ -25595,6 +25595,7 @@ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might a
 - [cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033)
 - [j4k0m/CVE-2016-10033](https://github.com/j4k0m/CVE-2016-10033)
 - [zeeshanbhattined/exploit-CVE-2016-10033](https://github.com/zeeshanbhattined/exploit-CVE-2016-10033)
+- [CAOlvchonger/CVE-2016-10033](https://github.com/CAOlvchonger/CVE-2016-10033)
 
 ### CVE-2016-10034 (2016-12-30)
 
@@ -26324,14 +26325,6 @@ Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, 
 </code>
 
 - [hexx0r/CVE-2015-6132](https://github.com/hexx0r/CVE-2015-6132)
-
-### CVE-2015-6357 (2015-11-18)
-
-<code>
-The rule-update feature in Cisco FireSIGHT Management Center (MC) 5.2 through 5.4.0.1 does not verify the X.509 certificate of the support.sourcefire.com SSL server, which allows man-in-the-middle attackers to spoof this server and provide an invalid package, and consequently execute arbitrary code, via a crafted certificate, aka Bug ID CSCuw06444.
-</code>
-
-- [mattimustang/firepwner](https://github.com/mattimustang/firepwner)
 
 ### CVE-2015-6576 (2017-10-02)
 
