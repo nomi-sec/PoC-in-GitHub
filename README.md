@@ -685,6 +685,14 @@ A vulnerability, which was classified as problematic, has been found in Sourceco
 
 - [maikroservice/CVE-2022-3949](https://github.com/maikroservice/CVE-2022-3949)
 
+### CVE-2022-3992 (2022-11-14)
+
+<code>
+A vulnerability classified as problematic was found in SourceCodester Sanitization Management System. Affected by this vulnerability is an unknown functionality of the file admin/?page=system_info of the component Banner Image Handler. The manipulation leads to cross site scripting. The attack can be launched remotely. The associated identifier of this vulnerability is VDB-213571.
+</code>
+
+- [Urban4/CVE-2022-3992](https://github.com/Urban4/CVE-2022-3992)
+
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
 
