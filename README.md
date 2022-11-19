@@ -3035,6 +3035,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 - [WilsonFung414/CVE-2022-30190](https://github.com/WilsonFung414/CVE-2022-30190)
 - [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
+- [0xAbbarhSF/FollinaXploit](https://github.com/0xAbbarhSF/FollinaXploit)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -7347,7 +7348,7 @@ Django 3.1.x before 3.1.13 and 3.2.x before 3.2.5 allows QuerySet.order_by SQL i
 </code>
 
 - [r4vi/CVE-2021-35042](https://github.com/r4vi/CVE-2021-35042)
-- [WynSon/CVE-2021-35042](https://github.com/WynSon/CVE-2021-35042)
+- [n3utr1n00/CVE-2021-35042](https://github.com/n3utr1n00/CVE-2021-35042)
 
 ### CVE-2021-35064 (2021-07-12)
 
@@ -7903,7 +7904,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773)
 - [Evil-d0Zz/CVE-2021-41773-](https://github.com/Evil-d0Zz/CVE-2021-41773-)
 - [puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773)
-- [WynSon/CVE-2021-41773](https://github.com/WynSon/CVE-2021-41773)
+- [n3utr1n00/CVE-2021-41773](https://github.com/n3utr1n00/CVE-2021-41773)
 - [DoTuan1/Reserch-CVE-2021-41773](https://github.com/DoTuan1/Reserch-CVE-2021-41773)
 - [bernardas/netsec-polygon](https://github.com/bernardas/netsec-polygon)
 - [CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit](https://github.com/CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit)
