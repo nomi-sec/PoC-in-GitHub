@@ -4177,7 +4177,12 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [gustavorobertux/gotigate](https://github.com/gustavorobertux/gotigate)
 - [hughink/CVE-2022-40684](https://github.com/hughink/CVE-2022-40684)
 
-### CVE-2022-40687
+### CVE-2022-40687 (2022-11-18)
+
+<code>
+Cross-Site Request Forgery (CSRF) vulnerability in Creative Mail plugin &lt;= 1.5.4 on WordPress.
+</code>
+
 - [williamkhepri/CVE-2022-40687-metasploit-scanner](https://github.com/williamkhepri/CVE-2022-40687-metasploit-scanner)
 
 ### CVE-2022-40916
@@ -5192,6 +5197,14 @@ SmartAgent 3.1.0 allows a ViewOnly attacker to create a SuperUser account via th
 
 - [orionhridoy/CVE-2021-3165](https://github.com/orionhridoy/CVE-2021-3165)
 
+### CVE-2021-3166 (2021-01-17)
+
+<code>
+An issue was discovered on ASUS DSL-N14U-B1 1.1.2.3_805 devices. An attacker can upload arbitrary file content as a firmware update when the filename Settings_DSL-N14U-B1.trx is used. Once this file is loaded, shutdown measures on a wide range of services are triggered as if it were a real update, resulting in a persistent outage of those services.
+</code>
+
+- [kaisersource/CVE-2021-3166](https://github.com/kaisersource/CVE-2021-3166)
+
 ### CVE-2021-3229 (2021-02-05)
 
 <code>
@@ -5332,7 +5345,6 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [RicterZ/CVE-2021-3560-Authentication-Agent](https://github.com/RicterZ/CVE-2021-3560-Authentication-Agent)
 - [WinMin/CVE-2021-3560](https://github.com/WinMin/CVE-2021-3560)
 - [UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560)
-- [mikefak/XDR-PoC](https://github.com/mikefak/XDR-PoC)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -9717,7 +9729,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [laolisafe/CVE-2020-0796](https://github.com/laolisafe/CVE-2020-0796)
 - [gabimarti/SMBScanner](https://github.com/gabimarti/SMBScanner)
 - [Almorabea/SMBGhost-WorkaroundApplier](https://github.com/Almorabea/SMBGhost-WorkaroundApplier)
-- [IAreKyleW00t/SMBGhosts](https://github.com/IAreKyleW00t/SMBGhosts)
 - [vysecurity/CVE-2020-0796](https://github.com/vysecurity/CVE-2020-0796)
 - [marcinguy/CVE-2020-0796](https://github.com/marcinguy/CVE-2020-0796)
 - [BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796](https://github.com/BinaryShadow94/SMBv3.1.1-scan---CVE-2020-0796)
