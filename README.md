@@ -652,6 +652,14 @@ A vulnerability classified as problematic has been found in SourceCodester Sanit
 
 - [lohith19/CVE-2022-3518](https://github.com/lohith19/CVE-2022-3518)
 
+### CVE-2022-3546 (2022-10-17)
+
+<code>
+A vulnerability was found in SourceCodester Simple Cold Storage Management System 1.0 and classified as problematic. Affected by this issue is some unknown functionality of the file /csms/admin/?page=user/list of the component Create User Handler. The manipulation of the argument First Name/Last Name leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-211046 is the identifier assigned to this vulnerability.
+</code>
+
+- [thehackingverse/CVE-2022-3546](https://github.com/thehackingverse/CVE-2022-3546)
+
 ### CVE-2022-3602 (2022-11-01)
 
 <code>
@@ -4350,6 +4358,9 @@ Mediatrix 4102 before v48.5.2718 allows local attackers to gain root access via 
 
 - [ProxyStaffy/Mediatrix-CVE-2022-43096](https://github.com/ProxyStaffy/Mediatrix-CVE-2022-43096)
 
+### CVE-2022-43117
+- [RashidKhanPathan/CVE-2022-43117](https://github.com/RashidKhanPathan/CVE-2022-43117)
+
 ### CVE-2022-43144 (2022-11-08)
 
 <code>
@@ -4368,6 +4379,9 @@ A cross-site scripting (XSS) vulnerability in Wondercms v3.3.4 allows attackers 
 
 ### CVE-2022-43959
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
+
+### CVE-2022-44830
+- [RashidKhanPathan/CVE-2022-44830](https://github.com/RashidKhanPathan/CVE-2022-44830)
 
 
 ## 2021
