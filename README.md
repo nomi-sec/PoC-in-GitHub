@@ -253,6 +253,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [badboy-sft/Dirty-Pipe-Oneshot](https://github.com/badboy-sft/Dirty-Pipe-Oneshot)
 - [edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-)
 - [Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits)
+- [Turzum/ps-lab-cve-2022-0847](https://github.com/Turzum/ps-lab-cve-2022-0847)
 - [siholley/CVE-2022-0847-Dirty-Pipe-Vulnerability-](https://github.com/siholley/CVE-2022-0847-Dirty-Pipe-Vulnerability-)
 
 ### CVE-2022-0848 (2022-03-04)
@@ -8529,7 +8530,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Joefreedy/Log4j-Windows-Scanner](https://github.com/Joefreedy/Log4j-Windows-Scanner)
 - [Nanitor/log4fix](https://github.com/Nanitor/log4fix)
 - [Gyrfalc0n/scanlist-log4j](https://github.com/Gyrfalc0n/scanlist-log4j)
-- [korteke/log4shell-demo](https://github.com/korteke/log4shell-demo)
 - [andalik/log4j-filescan](https://github.com/andalik/log4j-filescan)
 - [gyaansastra/CVE-2021-44228](https://github.com/gyaansastra/CVE-2021-44228)
 - [kal1gh0st/MyLog4Shell](https://github.com/kal1gh0st/MyLog4Shell)
@@ -8639,6 +8639,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [honypot/CVE-2021-44228](https://github.com/honypot/CVE-2021-44228)
 - [honypot/CVE-2021-44228-vuln-app](https://github.com/honypot/CVE-2021-44228-vuln-app)
 - [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
+- [TPower2112/Writing-Sample-1](https://github.com/TPower2112/Writing-Sample-1)
 - [Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228](https://github.com/Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228)
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
