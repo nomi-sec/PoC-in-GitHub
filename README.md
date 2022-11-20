@@ -1408,7 +1408,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
+- [ros1090x/CVE-2022-22965](https://github.com/ros1090x/CVE-2022-22965)
 - [iloveflag/Fast-CVE-2022-22965](https://github.com/iloveflag/Fast-CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
@@ -8178,6 +8178,14 @@ Akka HTTP 10.1.x before 10.1.15 and 10.2.x before 10.2.7 can encounter stack exh
 
 - [cxosmo/CVE-2021-42697](https://github.com/cxosmo/CVE-2021-42697)
 
+### CVE-2021-42717 (2021-12-07)
+
+<code>
+ModSecurity 3.x through 3.0.5 mishandles excessively nested JSON objects. Crafted JSON objects with nesting tens-of-thousands deep could result in the web server being unable to service legitimate requests. Even a moderately large (e.g., 300KB) HTTP request can occupy one of the limited NGINX worker processes for minutes and consume almost all of the available CPU on the machine. Modsecurity 2 is similarly vulnerable: the affected versions include 2.8.0 through 2.9.4.
+</code>
+
+- [EkamSinghWalia/Detection-and-Mitigation-script-for-CVE-2021-42717](https://github.com/EkamSinghWalia/Detection-and-Mitigation-script-for-CVE-2021-42717)
+
 ### CVE-2021-42835 (2021-12-08)
 
 <code>
@@ -8489,7 +8497,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [qingtengyun/cve-2021-44228-qingteng-online-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-online-patch)
 - [tasooshi/horrors-log4shell](https://github.com/tasooshi/horrors-log4shell)
 - [OlafHaalstra/log4jcheck](https://github.com/OlafHaalstra/log4jcheck)
-- [psychose-club/Saturn](https://github.com/psychose-club/Saturn)
 - [Panyaprach/Proof-CVE-2021-44228](https://github.com/Panyaprach/Proof-CVE-2021-44228)
 - [cyberxml/log4j-poc](https://github.com/cyberxml/log4j-poc)
 - [Diverto/nse-log4shell](https://github.com/Diverto/nse-log4shell)
@@ -9931,8 +9938,6 @@ An information disclosure vulnerability exists in the way that the Microsoft Ser
 </code>
 
 - [ZecOps/CVE-2020-1206-POC](https://github.com/ZecOps/CVE-2020-1206-POC)
-- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
-- [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
 ### CVE-2020-1283 (2020-06-09)
@@ -10178,7 +10183,6 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
-- [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1956 (2020-05-22)
@@ -10625,22 +10629,15 @@ index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v
 In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.1.5.1, and 11.6.1-11.6.5.1, the Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages.
 </code>
 
-- [dwisiswant0/CVE-2020-5902](https://github.com/dwisiswant0/CVE-2020-5902)
 - [aqhmal/CVE-2020-5902-Scanner](https://github.com/aqhmal/CVE-2020-5902-Scanner)
 - [jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902)
-- [ar0dd/CVE-2020-5902](https://github.com/ar0dd/CVE-2020-5902)
 - [yassineaboukir/CVE-2020-5902](https://github.com/yassineaboukir/CVE-2020-5902)
 - [rwincey/CVE-2020-5902-NSE](https://github.com/rwincey/CVE-2020-5902-NSE)
 - [un4gi/CVE-2020-5902](https://github.com/un4gi/CVE-2020-5902)
-- [nsflabs/CVE-2020-5902](https://github.com/nsflabs/CVE-2020-5902)
 - [yasserjanah/CVE-2020-5902](https://github.com/yasserjanah/CVE-2020-5902)
-- [JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902)
 - [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
 - [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
-- [sv3nbeast/CVE-2020-5902_RCE](https://github.com/sv3nbeast/CVE-2020-5902_RCE)
-- [cybersecurityworks553/scanner-CVE-2020-5902](https://github.com/cybersecurityworks553/scanner-CVE-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
-- [qlkwej/poc-CVE-2020-5902](https://github.com/qlkwej/poc-CVE-2020-5902)
 - [Zinkuth/F5-BIG-IP-CVE-2020-5902](https://github.com/Zinkuth/F5-BIG-IP-CVE-2020-5902)
 - [0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902)
 - [jinnywc/CVE-2020-5902](https://github.com/jinnywc/CVE-2020-5902)
@@ -11277,7 +11274,6 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 </code>
 
 - [Prabhashaka/Exploitation-CVE-2020-8835](https://github.com/Prabhashaka/Exploitation-CVE-2020-8835)
-- [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
 - [zilong3033/CVE-2020-8835](https://github.com/zilong3033/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
 - [digamma-ai/CVE-2020-8835-verification](https://github.com/digamma-ai/CVE-2020-8835-verification)
@@ -12271,14 +12267,6 @@ The XCloner component before 3.5.4 for Joomla! allows Authenticated Local File D
 ### CVE-2020-13457
 - [alt3kx/CVE-2020-13457](https://github.com/alt3kx/CVE-2020-13457)
 
-### CVE-2020-13640 (2020-06-18)
-
-<code>
-A SQL injection issue in the gVectors wpDiscuz plugin 5.3.5 and earlier for WordPress allows remote attackers to execute arbitrary SQL commands via the order parameter of a wpdLoadMoreComments request. (No 7.x versions are affected.)
-</code>
-
-- [asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640)
-
 ### CVE-2020-13699 (2020-07-29)
 
 <code>
@@ -13213,6 +13201,42 @@ The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion 
 </code>
 
 - [ahussam/AVideo3xploit](https://github.com/ahussam/AVideo3xploit)
+
+### CVE-2020-23582
+- [huzaifahussain98/CVE-2020-23582](https://github.com/huzaifahussain98/CVE-2020-23582)
+
+### CVE-2020-23583
+- [huzaifahussain98/CVE-2020-23583](https://github.com/huzaifahussain98/CVE-2020-23583)
+
+### CVE-2020-23584
+- [huzaifahussain98/CVE-2020-23584](https://github.com/huzaifahussain98/CVE-2020-23584)
+
+### CVE-2020-23585
+- [huzaifahussain98/CVE-2020-23585](https://github.com/huzaifahussain98/CVE-2020-23585)
+
+### CVE-2020-23586
+- [huzaifahussain98/CVE-2020-23586](https://github.com/huzaifahussain98/CVE-2020-23586)
+
+### CVE-2020-23587
+- [huzaifahussain98/CVE-2020-23587](https://github.com/huzaifahussain98/CVE-2020-23587)
+
+### CVE-2020-23588
+- [huzaifahussain98/CVE-2020-23588](https://github.com/huzaifahussain98/CVE-2020-23588)
+
+### CVE-2020-23589
+- [huzaifahussain98/CVE-2020-23589](https://github.com/huzaifahussain98/CVE-2020-23589)
+
+### CVE-2020-23590
+- [huzaifahussain98/CVE-2020-23590](https://github.com/huzaifahussain98/CVE-2020-23590)
+
+### CVE-2020-23591
+- [huzaifahussain98/CVE-2020-23591](https://github.com/huzaifahussain98/CVE-2020-23591)
+
+### CVE-2020-23592
+- [huzaifahussain98/CVE-2020-23592](https://github.com/huzaifahussain98/CVE-2020-23592)
+
+### CVE-2020-23593
+- [huzaifahussain98/CVE-2020-23593](https://github.com/huzaifahussain98/CVE-2020-23593)
 
 ### CVE-2020-23839 (2020-09-01)
 
