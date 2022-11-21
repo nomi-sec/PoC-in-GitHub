@@ -4249,6 +4249,7 @@ An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacke
 
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 - [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
+- [aryrz/cve-2022-41352-zimbra-rce](https://github.com/aryrz/cve-2022-41352-zimbra-rce)
 
 ### CVE-2022-41358 (2022-10-19)
 
@@ -29540,5 +29541,13 @@ A DNS server allows zone transfers.
 
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
 - [Rodney-O-C-Melby/dns-zone-transfer-test](https://github.com/Rodney-O-C-Melby/dns-zone-transfer-test)
+
+### CVE-1999-1053 (2001-09-12)
+
+<code>
+guestbook.pl cleanses user-inserted SSI commands by removing text between &quot;&lt;!--&quot; and &quot;--&gt;&quot; separators, which allows remote attackers to execute arbitrary commands when guestbook.pl is run on Apache 1.3.9 and possibly other versions, since Apache allows other closing sequences besides &quot;--&gt;&quot;.
+</code>
+
+- [siunam321/CVE-1999-1053-PoC](https://github.com/siunam321/CVE-1999-1053-PoC)
 
 
