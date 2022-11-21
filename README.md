@@ -2827,6 +2827,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [Blackyguy/-CVE-2022-29464](https://github.com/Blackyguy/-CVE-2022-29464)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
+- [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -4148,7 +4149,12 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 - [izdiwho/CVE-2022-40317](https://github.com/izdiwho/CVE-2022-40317)
 
-### CVE-2022-40470
+### CVE-2022-40470 (2022-11-21)
+
+<code>
+Phpgurukul Blood Donor Management System 1.0 allows Cross Site Scripting via Add Blood Group Name Feature.
+</code>
+
 - [RashidKhanPathan/CVE-2022-40470](https://github.com/RashidKhanPathan/CVE-2022-40470)
 
 ### CVE-2022-40471 (2022-10-31)
@@ -4343,6 +4349,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [sunnyvale-it/CVE-2022-42889-PoC](https://github.com/sunnyvale-it/CVE-2022-42889-PoC)
 - [QAInsights/cve-2022-42889-jmeter](https://github.com/QAInsights/cve-2022-42889-jmeter)
 - [adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889](https://github.com/adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889)
+- [pwnb0y/Text4shell-exploit](https://github.com/pwnb0y/Text4shell-exploit)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -4360,7 +4367,12 @@ Mediatrix 4102 before v48.5.2718 allows local attackers to gain root access via 
 
 - [ProxyStaffy/Mediatrix-CVE-2022-43096](https://github.com/ProxyStaffy/Mediatrix-CVE-2022-43096)
 
-### CVE-2022-43117
+### CVE-2022-43117 (2022-11-21)
+
+<code>
+Sourcecodester Password Storage Application in PHP/OOP and MySQL 1.0 was discovered to contain multiple cross-site scripting (XSS) vulnerabilities via the Name, Username, Description and Site Feature parameters.
+</code>
+
 - [RashidKhanPathan/CVE-2022-43117](https://github.com/RashidKhanPathan/CVE-2022-43117)
 
 ### CVE-2022-43144 (2022-11-08)
@@ -4382,7 +4394,12 @@ A cross-site scripting (XSS) vulnerability in Wondercms v3.3.4 allows attackers 
 ### CVE-2022-43959
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
 
-### CVE-2022-44830
+### CVE-2022-44830 (2022-11-21)
+
+<code>
+Sourcecodester Event Registration App v1.0 was discovered to contain multiple CSV injection vulnerabilities via the First Name, Contact and Remarks fields. These vulnerabilities allow attackers to execute arbitrary code via a crafted excel file.
+</code>
+
 - [RashidKhanPathan/CVE-2022-44830](https://github.com/RashidKhanPathan/CVE-2022-44830)
 
 
@@ -23462,6 +23479,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [Invertebr4do/cve-2017-9841](https://github.com/Invertebr4do/cve-2017-9841)
 - [yoloskr/CVE-2017-9841-Scan](https://github.com/yoloskr/CVE-2017-9841-Scan)
 - [mileticluka1/eval-stdin](https://github.com/mileticluka1/eval-stdin)
+- [Jhonsonwannaa/CVE-2017-9841-](https://github.com/Jhonsonwannaa/CVE-2017-9841-)
 
 ### CVE-2017-9934 (2017-07-17)
 
