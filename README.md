@@ -255,6 +255,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits)
 - [Turzum/ps-lab-cve-2022-0847](https://github.com/Turzum/ps-lab-cve-2022-0847)
 - [siholley/CVE-2022-0847-Dirty-Pipe-Vulnerability-](https://github.com/siholley/CVE-2022-0847-Dirty-Pipe-Vulnerability-)
+- [qwert419/linux-](https://github.com/qwert419/linux-)
 
 ### CVE-2022-0848 (2022-03-04)
 
