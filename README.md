@@ -3046,7 +3046,6 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
 - [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
-- [WilsonFung414/CVE-2022-30190](https://github.com/WilsonFung414/CVE-2022-30190)
 - [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
 - [0xAbbarhSF/FollinaXploit](https://github.com/0xAbbarhSF/FollinaXploit)
 
@@ -4267,7 +4266,12 @@ A stored cross-site scripting (XSS) vulnerability in Garage Management System v1
 
 - [thecasual/CVE-2022-41358](https://github.com/thecasual/CVE-2022-41358)
 
-### CVE-2022-41445
+### CVE-2022-41445 (2022-11-22)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Record Management System using CodeIgniter 1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Add Subject page.
+</code>
+
 - [RashidKhanPathan/CVE-2022-41445](https://github.com/RashidKhanPathan/CVE-2022-41445)
 
 ### CVE-2022-41446
@@ -4290,7 +4294,12 @@ The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic key
 ### CVE-2022-42045
 - [ReCryptLLC/CVE-2022-42045](https://github.com/ReCryptLLC/CVE-2022-42045)
 
-### CVE-2022-42094
+### CVE-2022-42094 (2022-11-22)
+
+<code>
+Backdrop CMS version 1.23.0 was discovered to contain a stored cross-site scripting (XSS) vulnerability via the 'Card' content.
+</code>
+
 - [bypazs/CVE-2022-42094](https://github.com/bypazs/CVE-2022-42094)
 
 ### CVE-2022-42096 (2022-11-21)
@@ -4301,10 +4310,20 @@ Backdrop CMS version 1.23.0 was discovered to contain a stored cross-site script
 
 - [bypazs/CVE-2022-42096](https://github.com/bypazs/CVE-2022-42096)
 
-### CVE-2022-42097
+### CVE-2022-42097 (2022-11-22)
+
+<code>
+Backdrop CMS version 1.23.0 was discovered to contain a stored cross-site scripting (XSS) vulnerability via 'Comment.' .
+</code>
+
 - [bypazs/CVE-2022-42097](https://github.com/bypazs/CVE-2022-42097)
 
-### CVE-2022-42098
+### CVE-2022-42098 (2022-11-22)
+
+<code>
+KLiK SocialMediaWebsite version v1.0.1 is vulnerable to SQL Injection via the profile.php.
+</code>
+
 - [bypazs/CVE-2022-42098](https://github.com/bypazs/CVE-2022-42098)
 
 ### CVE-2022-42176 (2022-10-20)
@@ -6710,8 +6729,6 @@ A remote code execution issue was discovered in MariaDB 10.2 before 10.2.37, 10.
 </code>
 
 - [Al1ex/CVE-2021-27928](https://github.com/Al1ex/CVE-2021-27928)
-- [WilsonFung414/CVE-2021-27928_Docker](https://github.com/WilsonFung414/CVE-2021-27928_Docker)
-- [WilsonFung414/CVE-2021-27928_Docker_2](https://github.com/WilsonFung414/CVE-2021-27928_Docker_2)
 
 ### CVE-2021-27963 (2021-03-04)
 
@@ -7731,8 +7748,6 @@ A crafted request uri-path can cause mod_proxy to forward the request to an orig
 
 - [Kashkovsky/CVE-2021-40438](https://github.com/Kashkovsky/CVE-2021-40438)
 - [gassara-kys/CVE-2021-40438](https://github.com/gassara-kys/CVE-2021-40438)
-- [WilsonFung414/CVE-2021-40438_Docker](https://github.com/WilsonFung414/CVE-2021-40438_Docker)
-- [WilsonFung414/CVE-2021-40438_Docker_2](https://github.com/WilsonFung414/CVE-2021-40438_Docker_2)
 
 ### CVE-2021-40444 (2021-09-15)
 
@@ -7967,6 +7982,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [aqiao-jashell/CVE-2021-41773](https://github.com/aqiao-jashell/CVE-2021-41773)
 - [aqiao-jashell/py-CVE-2021-41773](https://github.com/aqiao-jashell/py-CVE-2021-41773)
 - [12345qwert123456/CVE-2021-41773](https://github.com/12345qwert123456/CVE-2021-41773)
+- [blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution](https://github.com/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution)
 
 ### CVE-2021-41946 (2022-05-18)
 
@@ -8507,6 +8523,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
+- [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
@@ -8518,6 +8535,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [qingtengyun/cve-2021-44228-qingteng-online-patch](https://github.com/qingtengyun/cve-2021-44228-qingteng-online-patch)
 - [tasooshi/horrors-log4shell](https://github.com/tasooshi/horrors-log4shell)
 - [OlafHaalstra/log4jcheck](https://github.com/OlafHaalstra/log4jcheck)
+- [psychose-club/Saturn](https://github.com/psychose-club/Saturn)
 - [Panyaprach/Proof-CVE-2021-44228](https://github.com/Panyaprach/Proof-CVE-2021-44228)
 - [cyberxml/log4j-poc](https://github.com/cyberxml/log4j-poc)
 - [Diverto/nse-log4shell](https://github.com/Diverto/nse-log4shell)
@@ -8572,6 +8590,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Joefreedy/Log4j-Windows-Scanner](https://github.com/Joefreedy/Log4j-Windows-Scanner)
 - [Nanitor/log4fix](https://github.com/Nanitor/log4fix)
 - [Gyrfalc0n/scanlist-log4j](https://github.com/Gyrfalc0n/scanlist-log4j)
+- [korteke/log4shell-demo](https://github.com/korteke/log4shell-demo)
 - [andalik/log4j-filescan](https://github.com/andalik/log4j-filescan)
 - [gyaansastra/CVE-2021-44228](https://github.com/gyaansastra/CVE-2021-44228)
 - [kal1gh0st/MyLog4Shell](https://github.com/kal1gh0st/MyLog4Shell)
