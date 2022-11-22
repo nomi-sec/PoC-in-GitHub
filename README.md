@@ -1410,7 +1410,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [ros1090x/CVE-2022-22965](https://github.com/ros1090x/CVE-2022-22965)
+- [iyamroshan/CVE-2022-22965](https://github.com/iyamroshan/CVE-2022-22965)
 - [iloveflag/Fast-CVE-2022-22965](https://github.com/iloveflag/Fast-CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
@@ -10098,6 +10098,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Nekoox/zerologon](https://github.com/Nekoox/zerologon)
 - [Rvn0xsy/ZeroLogon](https://github.com/Rvn0xsy/ZeroLogon)
 - [guglia001/MassZeroLogon](https://github.com/guglia001/MassZeroLogon)
+- [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
 
 ### CVE-2020-1473 (2020-08-17)
 
@@ -10658,7 +10659,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
 - [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
-- [Zinkuth/F5-BIG-IP-CVE-2020-5902](https://github.com/Zinkuth/F5-BIG-IP-CVE-2020-5902)
 - [0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902)
 - [jinnywc/CVE-2020-5902](https://github.com/jinnywc/CVE-2020-5902)
 - [GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch)
