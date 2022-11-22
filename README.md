@@ -1316,6 +1316,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
+- [Jhonsonwannaa/CVE-2022-22954](https://github.com/Jhonsonwannaa/CVE-2022-22954)
 
 ### CVE-2022-22963 (2022-04-01)
 
@@ -4282,12 +4283,7 @@ The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic key
 ### CVE-2022-41622
 - [rbowes-r7/refreshing-soap-exploit](https://github.com/rbowes-r7/refreshing-soap-exploit)
 
-### CVE-2022-41852 (2022-10-06)
-
-<code>
-** DISPUTED ** This record was originally reported by the oss-fuzz project who failed to consider the security context in which JXPath is intended to be used and failed to contact the JXPath maintainers prior to requesting the CVE allocation. The CVE was then allocated by Google in breach of the CNA rules. After review by the JXPath maintainers, the original report was found to be invalid.
-</code>
-
+### CVE-2022-41852
 - [Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852)
 
 ### CVE-2022-42045
@@ -4296,7 +4292,12 @@ The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic key
 ### CVE-2022-42094
 - [bypazs/CVE-2022-42094](https://github.com/bypazs/CVE-2022-42094)
 
-### CVE-2022-42096
+### CVE-2022-42096 (2022-11-21)
+
+<code>
+Backdrop CMS version 1.23.0 was discovered to contain a stored cross-site scripting (XSS) vulnerability via Post content.
+</code>
+
 - [bypazs/CVE-2022-42096](https://github.com/bypazs/CVE-2022-42096)
 
 ### CVE-2022-42097
@@ -13221,7 +13222,12 @@ The import.json.php file before 8.9 for Avideo is vulnerable to a File Deletion 
 
 - [ahussam/AVideo3xploit](https://github.com/ahussam/AVideo3xploit)
 
-### CVE-2020-23582
+### CVE-2020-23582 (2022-11-21)
+
+<code>
+A vulnerability in the &quot;/admin/wlmultipleap.asp&quot; of optilink OP-XT71000N version: V2.2 could allow an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack to create Multiple WLAN BSSID.
+</code>
+
 - [huzaifahussain98/CVE-2020-23582](https://github.com/huzaifahussain98/CVE-2020-23582)
 
 ### CVE-2020-23583
