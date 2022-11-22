@@ -1027,6 +1027,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [iveresk/cve-2022-21907-http.sys](https://github.com/iveresk/cve-2022-21907-http.sys)
 - [iveresk/cve-2022-21907](https://github.com/iveresk/cve-2022-21907)
 - [Malwareman007/CVE-2022-21907](https://github.com/Malwareman007/CVE-2022-21907)
+- [0xmaximus/Home-Demolisher](https://github.com/0xmaximus/Home-Demolisher)
 
 ### CVE-2022-21970 (2022-01-11)
 
@@ -7056,6 +7057,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
+- [0xmaximus/Home-Demolisher](https://github.com/0xmaximus/Home-Demolisher)
 
 ### CVE-2021-31184 (2021-05-11)
 
@@ -8505,7 +8507,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [b-abderrahmane/CVE-2021-44228-playground](https://github.com/b-abderrahmane/CVE-2021-44228-playground)
 - [datadavev/test-44228](https://github.com/datadavev/test-44228)
 - [LemonCraftRu/JndiRemover](https://github.com/LemonCraftRu/JndiRemover)
-- [darkarnium/Log4j-CVE-Detect](https://github.com/darkarnium/Log4j-CVE-Detect)
 - [mergebase/log4j-detector](https://github.com/mergebase/log4j-detector)
 - [corretto/hotpatch-for-apache-log4j2](https://github.com/corretto/hotpatch-for-apache-log4j2)
 - [CodeShield-Security/Log4JShell-Bytecode-Detector](https://github.com/CodeShield-Security/Log4JShell-Bytecode-Detector)
