@@ -246,7 +246,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
 - [EagleTube/CVE-2022-0847](https://github.com/EagleTube/CVE-2022-0847)
 - [yoeelingBin/CVE-2022-0847-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape)
-- [icontempt/CVE-2022-0847](https://github.com/icontempt/CVE-2022-0847)
+- [c0ntempt/CVE-2022-0847](https://github.com/c0ntempt/CVE-2022-0847)
 - [notl0cal/dpipe](https://github.com/notl0cal/dpipe)
 - [Gustavo-Nogueira/Dirty-Pipe-Exploits](https://github.com/Gustavo-Nogueira/Dirty-Pipe-Exploits)
 - [trhacknon/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/trhacknon/CVE-2022-0847-DirtyPipe-Exploit)
@@ -3741,7 +3741,12 @@ H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.
 
 - [safe3s/CVE-2022-35416](https://github.com/safe3s/CVE-2022-35416)
 
-### CVE-2022-35500
+### CVE-2022-35500 (2022-11-22)
+
+<code>
+Amasty Blog 2.10.3 is vulnerable to Cross Site Scripting (XSS) via leave comment functionality.
+</code>
+
 - [afine-com/CVE-2022-35500](https://github.com/afine-com/CVE-2022-35500)
 
 ### CVE-2022-35501
@@ -4274,7 +4279,12 @@ A cross-site scripting (XSS) vulnerability in Record Management System using Cod
 
 - [RashidKhanPathan/CVE-2022-41445](https://github.com/RashidKhanPathan/CVE-2022-41445)
 
-### CVE-2022-41446
+### CVE-2022-41446 (2022-11-22)
+
+<code>
+An access control issue in /Admin/dashboard.php of Record Management System using CodeIgniter v1.0 allows attackers to access and modify user data.
+</code>
+
 - [RashidKhanPathan/CVE-2022-41446](https://github.com/RashidKhanPathan/CVE-2022-41446)
 
 ### CVE-2022-41540 (2022-10-18)
@@ -4418,6 +4428,9 @@ A cross-site scripting (XSS) vulnerability in Wondercms v3.3.4 allows attackers 
 ### CVE-2022-43959
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
 
+### CVE-2022-44789
+- [alalng/CVE-2022-44789](https://github.com/alalng/CVE-2022-44789)
+
 ### CVE-2022-44830 (2022-11-21)
 
 <code>
@@ -4426,7 +4439,12 @@ Sourcecodester Event Registration App v1.0 was discovered to contain multiple CS
 
 - [RashidKhanPathan/CVE-2022-44830](https://github.com/RashidKhanPathan/CVE-2022-44830)
 
-### CVE-2022-45472
+### CVE-2022-45472 (-)
+
+<code>
+CAE LearningSpace Enterprise (with Intuity License) image 267r patch 639 allows DOM XSS, related to ontouchmove and onpointerup.
+</code>
+
 - [nicbrinkley/CVE-2022-45472](https://github.com/nicbrinkley/CVE-2022-45472)
 
 
@@ -13256,37 +13274,92 @@ A vulnerability in the &quot;/admin/wlmultipleap.asp&quot; of optilink OP-XT7100
 
 - [huzaifahussain98/CVE-2020-23582](https://github.com/huzaifahussain98/CVE-2020-23582)
 
-### CVE-2020-23583
+### CVE-2020-23583 (2022-11-22)
+
+<code>
+OPTILINK OP-XT71000N V2.2 is vulnerable to Remote Code Execution. The issue occurs when the attacker sends an arbitrary code on &quot;/diag_ping_admin.asp&quot; to &quot;PingTest&quot; interface that leads to COMMAND EXECUTION. An attacker can successfully trigger the COMMAND and can compromise full system.
+</code>
+
 - [huzaifahussain98/CVE-2020-23583](https://github.com/huzaifahussain98/CVE-2020-23583)
 
-### CVE-2020-23584
+### CVE-2020-23584 (2022-11-22)
+
+<code>
+Unauthenticated remote code execution in OPTILINK OP-XT71000N, Hardware Version: V2.2 occurs when the attacker passes arbitrary commands with IP-ADDRESS using &quot; | &quot; to execute commands on &quot; /diag_tracert_admin.asp &quot; in the &quot;PingTest&quot; parameter that leads to command execution.
+</code>
+
 - [huzaifahussain98/CVE-2020-23584](https://github.com/huzaifahussain98/CVE-2020-23584)
 
-### CVE-2020-23585
+### CVE-2020-23585 (2022-11-22)
+
+<code>
+A remote attacker can conduct a cross-site request forgery (CSRF) attack on OPTILINK OP-XT71000N Hardware Version: V2.2 , Firmware Version: OP_V3.3.1-191028. The vulnerability is due to insufficient CSRF protections for the &quot;mgm_config_file.asp&quot; because of which attacker can create a crafted &quot;csrf form&quot; which sends &quot; malicious xml data&quot; to &quot;/boaform/admin/formMgmConfigUpload&quot;. the exploit allows attacker to &quot;gain full privileges&quot; and to &quot;fully compromise of router &amp; network&quot;.
+</code>
+
 - [huzaifahussain98/CVE-2020-23585](https://github.com/huzaifahussain98/CVE-2020-23585)
 
-### CVE-2020-23586
+### CVE-2020-23586 (2022-11-22)
+
+<code>
+A vulnerability found in OPTILINK OP-XT71000N Hardware Version: V2.2 , Firmware Version: OP_V3.3.1-191028 allows an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack to Add Network Traffic Control Type Rule.
+</code>
+
 - [huzaifahussain98/CVE-2020-23586](https://github.com/huzaifahussain98/CVE-2020-23586)
 
-### CVE-2020-23587
+### CVE-2020-23587 (2022-11-22)
+
+<code>
+A vulnerability found in the OPTILINK OP-XT71000N Hardware Version: V2.2 , Firmware Version: OP_V3.3.1-191028 allows an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack to men in the middle attack by adding New Routes in RoutingConfiguration on &quot; /routing.asp &quot;.
+</code>
+
 - [huzaifahussain98/CVE-2020-23587](https://github.com/huzaifahussain98/CVE-2020-23587)
 
-### CVE-2020-23588
+### CVE-2020-23588 (2022-11-22)
+
+<code>
+A vulnerability in OPTILINK OP-XT71000N Hardware Version: V2.2 , Firmware Version: OP_V3.3.1-191028 allows an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack to &quot;Enable or Disable Ports&quot; and to &quot;Change port number&quot; through &quot; /rmtacc.asp &quot;.
+</code>
+
 - [huzaifahussain98/CVE-2020-23588](https://github.com/huzaifahussain98/CVE-2020-23588)
 
-### CVE-2020-23589
+### CVE-2020-23589 (2022-11-22)
+
+<code>
+A vulnerability in OPTILINK OP-XT71000N Hardware Version: V2.2 , Firmware Version: OP_V3.3.1-191028 allows an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack to cause a Denial of Service by Rebooting the router through &quot; /mgm_dev_reboot.asp.&quot;
+</code>
+
 - [huzaifahussain98/CVE-2020-23589](https://github.com/huzaifahussain98/CVE-2020-23589)
 
-### CVE-2020-23590
+### CVE-2020-23590 (2022-11-22)
+
+<code>
+A vulnerability in Optilink OP-XT71000N Hardware version: V2.2 , Firmware Version: OP_V3.3.1-191028 allows an unauthenticated remote attacker to conduct a cross-site request forgery (CSRF) attack to change the Password for &quot;WLAN SSID&quot; through &quot;wlwpa.asp&quot;.
+</code>
+
 - [huzaifahussain98/CVE-2020-23590](https://github.com/huzaifahussain98/CVE-2020-23590)
 
-### CVE-2020-23591
+### CVE-2020-23591 (2022-11-22)
+
+<code>
+A vulnerability in OPTILINK OP-XT71000N Hardware Version: V2.2 , Firmware Version: OP_V3.3.1-191028 allows an attacker to upload arbitrary files through &quot; /mgm_dev_upgrade.asp &quot; which can &quot;delete every file for Denial of Service (using 'rm -rf *.*' in the code), reverse connection (using '.asp' webshell), backdoor.
+</code>
+
 - [huzaifahussain98/CVE-2020-23591](https://github.com/huzaifahussain98/CVE-2020-23591)
 
-### CVE-2020-23592
+### CVE-2020-23592 (2022-11-22)
+
+<code>
+A vulnerability in OPTILINK OP-XT71000N Hardware Version: V2.2 , Firmware Version: OP_V3.3.1-191028 allows an unauthenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack to Reset ONU to Factory Default through ' /mgm_dev_reset.asp.' Resetting to default leads to Escalation of Privileges by logging-in with default credentials.
+</code>
+
 - [huzaifahussain98/CVE-2020-23592](https://github.com/huzaifahussain98/CVE-2020-23592)
 
-### CVE-2020-23593
+### CVE-2020-23593 (2022-11-22)
+
+<code>
+A vulnerability in OPTILINK OP-XT71000N Hardware Version: V2.2, Firmware Version: OP_V3.3.1-191028 allows an unauthenticated, remote attacker to conduct a cross site request forgery (CSRF) attack to enable syslog mode through ' /mgm_log_cfg.asp.' The system starts to log events, 'Remote' mode or 'Both' mode on &quot;Syslog -- Configuration page&quot; logs events and sends to remote syslog server IP and Port.
+</code>
+
 - [huzaifahussain98/CVE-2020-23593](https://github.com/huzaifahussain98/CVE-2020-23593)
 
 ### CVE-2020-23839 (2020-09-01)
