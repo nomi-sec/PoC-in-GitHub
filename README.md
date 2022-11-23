@@ -349,7 +349,7 @@ A vulnerability was found in TEM FLEX-1080 and FLEX-1085 1.6.0. It has been decl
 Type confusion in V8 in Google Chrome prior to 99.0.4844.84 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
-- [Maverick-cmd/Chrome-and-Edge-Version-Dumper](https://github.com/Maverick-cmd/Chrome-and-Edge-Version-Dumper)
+- [Mav3r1ck0x1/Chrome-and-Edge-Version-Dumper](https://github.com/Mav3r1ck0x1/Chrome-and-Edge-Version-Dumper)
 
 ### CVE-2022-1119 (2022-04-19)
 
@@ -4291,6 +4291,9 @@ The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic key
 ### CVE-2022-41852
 - [Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852)
 
+### CVE-2022-41923
+- [grails/GSSC-CVE-2022-41923](https://github.com/grails/GSSC-CVE-2022-41923)
+
 ### CVE-2022-42045
 - [ReCryptLLC/CVE-2022-42045](https://github.com/ReCryptLLC/CVE-2022-42045)
 
@@ -4422,6 +4425,9 @@ Sourcecodester Event Registration App v1.0 was discovered to contain multiple CS
 </code>
 
 - [RashidKhanPathan/CVE-2022-44830](https://github.com/RashidKhanPathan/CVE-2022-44830)
+
+### CVE-2022-45472
+- [nicbrinkley/CVE-2022-45472](https://github.com/nicbrinkley/CVE-2022-45472)
 
 
 ## 2021
@@ -28413,7 +28419,6 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 - [nobodyatall648/CVE-2011-2523](https://github.com/nobodyatall648/CVE-2011-2523)
 - [Gr4ykt/CVE-2011-2523](https://github.com/Gr4ykt/CVE-2011-2523)
 - [padsalatushal/CVE-2011-2523](https://github.com/padsalatushal/CVE-2011-2523)
-- [whoamins/vsFTPd-2.3.4-exploit](https://github.com/whoamins/vsFTPd-2.3.4-exploit)
 - [MFernstrom/OffensivePascal-CVE-2011-2523](https://github.com/MFernstrom/OffensivePascal-CVE-2011-2523)
 - [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
 - [0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523)
