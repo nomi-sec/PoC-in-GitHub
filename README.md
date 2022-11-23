@@ -3474,6 +3474,14 @@ Complete Online Job Search System v1.0 is vulnerable to SQL Injection via eris/a
 
 - [heavenswill/CVE-2022-32013](https://github.com/heavenswill/CVE-2022-32013)
 
+### CVE-2022-32060 (2022-07-07)
+
+<code>
+An arbitrary file upload vulnerability in the Update Branding Settings component of Snipe-IT v6.0.2 allows attackers to execute arbitrary code via a crafted file.
+</code>
+
+- [bypazs/CVE-2022-32060](https://github.com/bypazs/CVE-2022-32060)
+
 ### CVE-2022-32114 (2022-07-13)
 
 <code>
@@ -3749,7 +3757,12 @@ Amasty Blog 2.10.3 is vulnerable to Cross Site Scripting (XSS) via leave comment
 
 - [afine-com/CVE-2022-35500](https://github.com/afine-com/CVE-2022-35500)
 
-### CVE-2022-35501
+### CVE-2022-35501 (2022-11-23)
+
+<code>
+Stored Cross-site Scripting in Amasty Blog Pro 2.10.4 and 2.10.4 creates post functionality and lower versions.
+</code>
+
 - [afine-com/CVE-2022-35501](https://github.com/afine-com/CVE-2022-35501)
 
 ### CVE-2022-35513 (2022-09-07)
@@ -4085,6 +4098,14 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [PyterSmithDarkGhost/CVE-2022-39197-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-39197-POC)
 - [TheCryingGame/CVE-2022-39197-RCE](https://github.com/TheCryingGame/CVE-2022-39197-RCE)
 
+### CVE-2022-39425 (2022-10-18)
+
+<code>
+Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). Supported versions that are affected are Prior to 6.1.40. Difficult to exploit vulnerability allows unauthenticated attacker with network access via VRDP to compromise Oracle VM VirtualBox. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [bob11vrdp/CVE-2022-39425](https://github.com/bob11vrdp/CVE-2022-39425)
+
 ### CVE-2022-39802 (2022-10-11)
 
 <code>
@@ -4314,6 +4335,14 @@ Backdrop CMS version 1.23.0 was discovered to contain a stored cross-site script
 </code>
 
 - [bypazs/CVE-2022-42094](https://github.com/bypazs/CVE-2022-42094)
+
+### CVE-2022-42095 (2022-11-22)
+
+<code>
+Backdrop CMS version 1.23.0 was discovered to contain a stored cross-site scripting (XSS) vulnerability via the Page content.
+</code>
+
+- [bypazs/CVE-2022-42095](https://github.com/bypazs/CVE-2022-42095)
 
 ### CVE-2022-42096 (2022-11-21)
 
@@ -8003,7 +8032,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mightysai1997/CVE-2021-41773S](https://github.com/mightysai1997/CVE-2021-41773S)
 - [dileepdkumar/LayarKacaSiber-CVE-2021-41773](https://github.com/dileepdkumar/LayarKacaSiber-CVE-2021-41773)
 - [sne4ker/apache-CVE-2021-41773-CVE-2021-42013](https://github.com/sne4ker/apache-CVE-2021-41773-CVE-2021-42013)
-- [juuso0/CVE-2021-41773](https://github.com/juuso0/CVE-2021-41773)
+- [systemcaller/CVE-2021-41773](https://github.com/systemcaller/CVE-2021-41773)
 - [aqiao-jashell/CVE-2021-41773](https://github.com/aqiao-jashell/CVE-2021-41773)
 - [aqiao-jashell/py-CVE-2021-41773](https://github.com/aqiao-jashell/py-CVE-2021-41773)
 - [12345qwert123456/CVE-2021-41773](https://github.com/12345qwert123456/CVE-2021-41773)
@@ -21011,6 +21040,14 @@ LICA miniCMTS E8K(u/i/...) devices allow remote attackers to obtain sensitive in
 
 - [pudding2/CVE-2018-14083](https://github.com/pudding2/CVE-2018-14083)
 
+### CVE-2018-14371 (2018-07-18)
+
+<code>
+The getLocalePrefix function in ResourceManager.java in Eclipse Mojarra before 2.3.7 is affected by Directory Traversal via the loc parameter. A remote attacker can download configuration files or Java bytecodes from applications.
+</code>
+
+- [mattysaints/CVE-2018-14371](https://github.com/mattysaints/CVE-2018-14371)
+
 ### CVE-2018-14442 (2018-07-20)
 
 <code>
@@ -24345,7 +24382,6 @@ FasterXML jackson-databind through 2.8.10 and 2.9.x through 2.9.3 allows unauthe
 - [tafamace/CVE-2017-17485](https://github.com/tafamace/CVE-2017-17485)
 - [x7iaob/cve-2017-17485](https://github.com/x7iaob/cve-2017-17485)
 - [Al1ex/CVE-2017-17485](https://github.com/Al1ex/CVE-2017-17485)
-- [mattysaints/CVE-2017-17485](https://github.com/mattysaints/CVE-2017-17485)
 
 ### CVE-2017-17562 (2017-12-12)
 
@@ -26925,6 +26961,7 @@ The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14
 </code>
 
 - [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
+- [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
 
 ### CVE-2014-0224 (2014-06-05)
 
@@ -26933,7 +26970,10 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
+- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
+- [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
+- [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
 
 ### CVE-2014-0226 (2014-07-20)
 
@@ -27112,6 +27152,7 @@ The default configuration in Elasticsearch before 1.2 enables dynamic scripting,
 </code>
 
 - [jeffgeiger/es_inject](https://github.com/jeffgeiger/es_inject)
+- [echohtp/ElasticSearch-CVE-2014-3120](https://github.com/echohtp/ElasticSearch-CVE-2014-3120)
 - [xpgdgit/CVE-2014-3120](https://github.com/xpgdgit/CVE-2014-3120)
 
 ### CVE-2014-3153 (2014-06-07)
