@@ -4041,6 +4041,14 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 ### CVE-2022-38217
 - [SupremacyTeam/evilReveal](https://github.com/SupremacyTeam/evilReveal)
 
+### CVE-2022-38374 (2022-11-02)
+
+<code>
+A improper neutralization of input during web page generation ('cross-site scripting') in Fortinet FortiADC 7.0.0 - 7.0.2 and 6.2.0 - 6.2.4 allows an attacker to execute unauthorized code or commands via the URL and User fields observed in the traffic and event logviews.
+</code>
+
+- [azhurtanov/CVE-2022-38374](https://github.com/azhurtanov/CVE-2022-38374)
+
 ### CVE-2022-38553 (2022-09-26)
 
 <code>
@@ -4097,6 +4105,7 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [its-arun/CVE-2022-39197](https://github.com/its-arun/CVE-2022-39197)
 - [PyterSmithDarkGhost/CVE-2022-39197-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-39197-POC)
 - [TheCryingGame/CVE-2022-39197-RCE](https://github.com/TheCryingGame/CVE-2022-39197-RCE)
+- [adeljck/CVE-2022-39197](https://github.com/adeljck/CVE-2022-39197)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -4465,7 +4474,7 @@ A cross-site scripting (XSS) vulnerability in Wondercms v3.3.4 allows attackers 
 ### CVE-2022-44789 (2022-11-23)
 
 <code>
-A logical issue in O_getOwnPropertyDescriptor() in Artifex MuJS 1.0.0 through 1.3.1 allows an attacker to achieve Remote Code Execution through memory corruption, via the loading of a crafted JavaScript file.
+A logical issue in O_getOwnPropertyDescriptor() in Artifex MuJS 1.0.0 through 1.3.x before 1.3.2 allows an attacker to achieve Remote Code Execution through memory corruption, via the loading of a crafted JavaScript file.
 </code>
 
 - [alalng/CVE-2022-44789](https://github.com/alalng/CVE-2022-44789)
