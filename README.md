@@ -3769,7 +3769,7 @@ Amasty Blog 2.10.3 is vulnerable to Cross Site Scripting (XSS) via leave comment
 ### CVE-2022-35501 (2022-11-23)
 
 <code>
-Stored Cross-site Scripting in Amasty Blog Pro 2.10.4 and 2.10.4 creates post functionality and lower versions.
+Stored Cross-site Scripting (XSS) exists in the Amasty Blog Pro 2.10.3 and 2.10.4 plugin for Magento 2 because of the duplicate post function.
 </code>
 
 - [afine-com/CVE-2022-35501](https://github.com/afine-com/CVE-2022-35501)
