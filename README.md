@@ -23639,6 +23639,14 @@ Remote Code Execution is possible in Code42 CrashPlan 5.4.x via the org.apache.c
 
 - [securifera/CVE-2017-9830](https://github.com/securifera/CVE-2017-9830)
 
+### CVE-2017-9833 (2017-06-23)
+
+<code>
+/cgi-bin/wapopen in BOA Webserver 0.94.14rc21 allows the injection of &quot;../..&quot; using the FILECAMERA variable (sent by GET) to read files with root privileges.
+</code>
+
+- [anldori/CVE-2017-9833](https://github.com/anldori/CVE-2017-9833)
+
 ### CVE-2017-9841 (2017-06-27)
 
 <code>
