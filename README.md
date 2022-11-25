@@ -1348,6 +1348,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [k3rwin/spring-cloud-function-rce](https://github.com/k3rwin/spring-cloud-function-rce)
 - [trhacknon/CVE-2022-22963](https://github.com/trhacknon/CVE-2022-22963)
 - [75ACOL/CVE-2022-22963](https://github.com/75ACOL/CVE-2022-22963)
+- [dr6817/CVE-2022-22963](https://github.com/dr6817/CVE-2022-22963)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -4085,7 +4086,12 @@ An issue was discovered in Airties Smart Wi-Fi before 2020-08-04. It allows atta
 
 - [ProxyStaffy/Airties-CVE-2022-38789](https://github.com/ProxyStaffy/Airties-CVE-2022-38789)
 
-### CVE-2022-38813
+### CVE-2022-38813 (2022-11-25)
+
+<code>
+PHPGurukul Blood Donor Management System 1.0 does not properly restrict access to admin/dashboard.php, which allows attackers to access all data of users, delete the users, add and manage Blood Group, and Submit Report.
+</code>
+
 - [RashidKhanPathan/CVE-2022-38813](https://github.com/RashidKhanPathan/CVE-2022-38813)
 
 ### CVE-2022-39196 (2022-09-04)
