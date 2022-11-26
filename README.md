@@ -2996,6 +2996,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 
 - [flux10n/CVE-2022-30190](https://github.com/flux10n/CVE-2022-30190)
 - [JMousqueton/PoC-CVE-2022-30190](https://github.com/JMousqueton/PoC-CVE-2022-30190)
+- [zkl21hoang/msdt-follina-office-rce](https://github.com/zkl21hoang/msdt-follina-office-rce)
 - [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
 - [2867a0/CVE-2022-30190](https://github.com/2867a0/CVE-2022-30190)
 - [bytecaps/CVE-2022-30190](https://github.com/bytecaps/CVE-2022-30190)
@@ -8392,6 +8393,14 @@ Windows NTFS Elevation of Privilege Vulnerability This CVE ID is unique from CVE
 
 - [Citizen13X/CVE-2021-43229](https://github.com/Citizen13X/CVE-2021-43229)
 
+### CVE-2021-43258 (2022-11-23)
+
+<code>
+CartView.php in ChurchInfo 1.3.0 allows attackers to achieve remote code execution through insecure uploads. This requires authenticated access tot he ChurchInfo application. Once authenticated, a user can add names to their cart, and compose an email. Uploading an attachment for the email stores the attachment on the site in the /tmp_attach/ folder where it can be accessed with a GET request. There are no limitations on files that can be attached, allowing for malicious PHP code to be uploaded and interpreted by the server.
+</code>
+
+- [MRvirusIR/CVE-2021-43258](https://github.com/MRvirusIR/CVE-2021-43258)
+
 ### CVE-2021-43287 (2022-04-14)
 
 <code>
@@ -8743,7 +8752,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [r00thunter/Log4Shell](https://github.com/r00thunter/Log4Shell)
 - [asyzdykov/cve-2021-44228-fix-jars](https://github.com/asyzdykov/cve-2021-44228-fix-jars)
 - [NatteeSetobol/Log4JPOC](https://github.com/NatteeSetobol/Log4JPOC)
-- [BJLIYANLIANG/log4j-scanner](https://github.com/BJLIYANLIANG/log4j-scanner)
 - [0x3SC4L4T3/Apache-Log4j-POC](https://github.com/0x3SC4L4T3/Apache-Log4j-POC)
 - [TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit](https://github.com/TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit)
 - [lucab85/ansible-role-log4shell](https://github.com/lucab85/ansible-role-log4shell)
