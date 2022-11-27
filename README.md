@@ -2833,7 +2833,6 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
-- [trhacknon/CVE-2022-29455-XSS](https://github.com/trhacknon/CVE-2022-29455-XSS)
 
 ### CVE-2022-29464 (2022-04-18)
 
