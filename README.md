@@ -19806,7 +19806,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jeyaseelans86/CVE-2018-6574](https://github.com/jeyaseelans86/CVE-2018-6574)
 - [jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574)
 - [chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574)
-- [gman0x00/gogetRCE](https://github.com/gman0x00/gogetRCE)
 
 ### CVE-2018-6622 (2018-08-17)
 
