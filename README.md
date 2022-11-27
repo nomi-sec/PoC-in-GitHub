@@ -1447,6 +1447,14 @@ In spring framework versions prior to 5.3.20+ , 5.2.22+ and old unsupported vers
 
 - [dapdelivery/spring-petclinic-template-with-CVE-2022-22970](https://github.com/dapdelivery/spring-petclinic-template-with-CVE-2022-22970)
 
+### CVE-2022-22971 (2022-05-12)
+
+<code>
+In spring framework versions prior to 5.3.20+ , 5.2.22+ and old unsupported versions, application with a STOMP over WebSocket endpoint is vulnerable to a denial of service attack by an authenticated user.
+</code>
+
+- [tchize/CVE-2022-22971](https://github.com/tchize/CVE-2022-22971)
+
 ### CVE-2022-22972 (2022-05-20)
 
 <code>
@@ -1966,7 +1974,12 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 - [antx-code/CVE-2022-24990](https://github.com/antx-code/CVE-2022-24990)
 - [jsongmax/terraMaster-CVE-2022-24990](https://github.com/jsongmax/terraMaster-CVE-2022-24990)
 
-### CVE-2022-24999
+### CVE-2022-24999 (2022-11-26)
+
+<code>
+qs before 6.10.3, as used in Express before 4.17.3 and other products, allows attackers to cause a Node process hang for an Express application because an __ proto__ key can be used. In many typical Express use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as a[__proto__]=b&amp;a[__proto__]&amp;a[length]=100000000. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4 (and therefore Express 4.17.3, which has &quot;deps: qs@6.9.7&quot; in its release description, is not vulnerable).
+</code>
+
 - [n8tz/CVE-2022-24999](https://github.com/n8tz/CVE-2022-24999)
 
 ### CVE-2022-25018 (2022-02-28)
@@ -2819,6 +2832,8 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 </code>
 
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
+- [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
+- [trhacknon/CVE-2022-29455-XSS](https://github.com/trhacknon/CVE-2022-29455-XSS)
 
 ### CVE-2022-29464 (2022-04-18)
 
