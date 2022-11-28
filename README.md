@@ -2833,6 +2833,7 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
+- [Chocapikk/CVE-2022-29455](https://github.com/Chocapikk/CVE-2022-29455)
 
 ### CVE-2022-29464 (2022-04-18)
 
@@ -4132,7 +4133,6 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 </code>
 
 - [safe3s/CVE-2022-39197](https://github.com/safe3s/CVE-2022-39197)
-- [zeoday/cobaltstrike4.5_cdf-1](https://github.com/zeoday/cobaltstrike4.5_cdf-1)
 - [burpheart/cve-2022-39197](https://github.com/burpheart/cve-2022-39197)
 - [xzajyjs/CVE-2022-39197-POC](https://github.com/xzajyjs/CVE-2022-39197-POC)
 - [yqcs/CSPOC](https://github.com/yqcs/CSPOC)
@@ -29556,6 +29556,14 @@ Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite ar
 </code>
 
 - [runtimme/cve-2003-0282](https://github.com/runtimme/cve-2003-0282)
+
+### CVE-2003-0358 (2003-05-30)
+
+<code>
+Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
+</code>
+
+- [snowcra5h/CVE-2003-0358](https://github.com/snowcra5h/CVE-2003-0358)
 
 
 ## 2002
