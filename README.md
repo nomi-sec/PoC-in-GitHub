@@ -3902,7 +3902,12 @@ The Preview functionality in the Amasty Blog Pro 2.10.3 plugin for Magento 2 use
 
 - [afine-com/CVE-2022-36432](https://github.com/afine-com/CVE-2022-36432)
 
-### CVE-2022-36433
+### CVE-2022-36433 (2022-11-29)
+
+<code>
+The blog-post creation functionality in the Amasty Blog Pro 2.10.3 plugin for Magento 2 allows injection of JavaScript code in the short_content and full_content fields, leading to XSS attacks against admin panel users via posts/preview or posts/save.
+</code>
+
 - [afine-com/CVE-2022-36433](https://github.com/afine-com/CVE-2022-36433)
 
 ### CVE-2022-36446 (2022-07-25)
@@ -4523,6 +4528,9 @@ A cross-site scripting (XSS) vulnerability in Wondercms v3.3.4 allows attackers 
 
 - [maikroservice/CVE-2022-43332](https://github.com/maikroservice/CVE-2022-43332)
 
+### CVE-2022-43369
+- [sudoninja-noob/CVE-2022-43369](https://github.com/sudoninja-noob/CVE-2022-43369)
+
 ### CVE-2022-43959
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
 
@@ -4541,6 +4549,9 @@ Sourcecodester Event Registration App v1.0 was discovered to contain multiple CS
 </code>
 
 - [RashidKhanPathan/CVE-2022-44830](https://github.com/RashidKhanPathan/CVE-2022-44830)
+
+### CVE-2022-45217
+- [sudoninja-noob/CVE-2022-45217](https://github.com/sudoninja-noob/CVE-2022-45217)
 
 ### CVE-2022-45472 (2022-11-23)
 
@@ -5514,6 +5525,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
 - [AmIAHuman/OverlayFS-CVE-2021-3493](https://github.com/AmIAHuman/OverlayFS-CVE-2021-3493)
 - [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
+- [fei9747/CVE-2021-3493](https://github.com/fei9747/CVE-2021-3493)
 
 ### CVE-2021-3560 (2022-02-16)
 
@@ -8754,7 +8766,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
 - [axelcurmi/log4shell-docker-lab](https://github.com/axelcurmi/log4shell-docker-lab)
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
-- [trickyearlobe/inspec-log4j](https://github.com/trickyearlobe/inspec-log4j)
 - [TheInterception/Log4J-Simulation-Tool](https://github.com/TheInterception/Log4J-Simulation-Tool)
 - [KeysAU/Get-log4j-Windows-local](https://github.com/KeysAU/Get-log4j-Windows-local)
 - [mschmnet/Log4Shell-demo](https://github.com/mschmnet/Log4Shell-demo)
