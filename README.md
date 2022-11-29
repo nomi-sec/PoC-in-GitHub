@@ -4342,6 +4342,12 @@ A stored cross-site scripting (XSS) vulnerability in Garage Management System v1
 
 - [thecasual/CVE-2022-41358](https://github.com/thecasual/CVE-2022-41358)
 
+### CVE-2022-41412
+- [renmizo/CVE-2022-41412](https://github.com/renmizo/CVE-2022-41412)
+
+### CVE-2022-41413
+- [renmizo/CVE-2022-41413](https://github.com/renmizo/CVE-2022-41413)
+
 ### CVE-2022-41445 (2022-11-22)
 
 <code>
@@ -11189,7 +11195,7 @@ The is a code injection vulnerability in versions of Rails prior to 5.0.1 that w
 
 - [lucasallan/CVE-2020-8163](https://github.com/lucasallan/CVE-2020-8163)
 - [h4ms1k/CVE-2020-8163](https://github.com/h4ms1k/CVE-2020-8163)
-- [TKLinux966/CVE-2020-8163](https://github.com/TKLinux966/CVE-2020-8163)
+- [TK-Elliot/CVE-2020-8163](https://github.com/TK-Elliot/CVE-2020-8163)
 
 ### CVE-2020-8165 (2020-06-19)
 
