@@ -637,14 +637,6 @@ A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
-### CVE-2022-3236 (2022-09-23)
-
-<code>
-A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
-</code>
-
-- [Adynervi/CVE-2022-3236-MASS-RCE](https://github.com/Adynervi/CVE-2022-3236-MASS-RCE)
-
 ### CVE-2022-3368 (2022-10-17)
 
 <code>
@@ -2154,6 +2146,14 @@ In wolfSSL before 5.2.0, a TLS 1.3 server cannot properly enforce a requirement 
 
 - [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
 
+### CVE-2022-25765 (2022-09-09)
+
+<code>
+The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL is not properly sanitized.
+</code>
+
+- [Atsukoro1/PDFKitExploit](https://github.com/Atsukoro1/PDFKitExploit)
+
 ### CVE-2022-25845 (2022-06-10)
 
 <code>
@@ -3517,6 +3517,14 @@ An arbitrary file upload vulnerability in the Update Branding Settings component
 </code>
 
 - [bypazs/CVE-2022-32060](https://github.com/bypazs/CVE-2022-32060)
+
+### CVE-2022-32073 (2022-07-13)
+
+<code>
+WolfSSH v1.4.7 was discovered to contain an integer overflow via the function wolfSSH_SFTP_RecvRMDIR.
+</code>
+
+- [mgregus/project_BIT_nmap_script](https://github.com/mgregus/project_BIT_nmap_script)
 
 ### CVE-2022-32114 (2022-07-13)
 
@@ -5736,6 +5744,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034)
 - [Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034)
 - [jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit)
+- [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -8745,7 +8754,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [DANSI/PowerShell-Log4J-Scanner](https://github.com/DANSI/PowerShell-Log4J-Scanner)
 - [axelcurmi/log4shell-docker-lab](https://github.com/axelcurmi/log4shell-docker-lab)
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
-- [kkyehit/log4j_CVE-2021-44228](https://github.com/kkyehit/log4j_CVE-2021-44228)
 - [trickyearlobe/inspec-log4j](https://github.com/trickyearlobe/inspec-log4j)
 - [TheInterception/Log4J-Simulation-Tool](https://github.com/TheInterception/Log4J-Simulation-Tool)
 - [KeysAU/Get-log4j-Windows-local](https://github.com/KeysAU/Get-log4j-Windows-local)
@@ -24414,6 +24422,7 @@ The check_alu_op function in kernel/bpf/verifier.c in the Linux kernel through 4
 - [Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-](https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-)
 - [ph4ntonn/CVE-2017-16995](https://github.com/ph4ntonn/CVE-2017-16995)
 - [ivilpez/cve-2017-16995.c](https://github.com/ivilpez/cve-2017-16995.c)
+- [fei9747/CVE-2017-16995](https://github.com/fei9747/CVE-2017-16995)
 
 ### CVE-2017-16997 (2017-12-17)
 
@@ -25450,6 +25459,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195](https://github.com/malinthag62/The-exploitation-of-Dirty-Cow-CVE-2016-5195)
 - [1equeneRise/scumjr9](https://github.com/1equeneRise/scumjr9)
 - [flux10n/dirtycow](https://github.com/flux10n/dirtycow)
+- [fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-22)
 
