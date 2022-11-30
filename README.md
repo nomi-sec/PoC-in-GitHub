@@ -23269,7 +23269,7 @@ Nginx versions since 0.5.6 up to and including 1.13.2 are vulnerable to integer 
 - [daehee/nginx-overflow](https://github.com/daehee/nginx-overflow)
 - [ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3)
 - [fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability)
-- [Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/Moazj8/Nginx-Remote-Integer-Overflow-Vulnerability)
+- [mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability)
 - [fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit](https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit)
 - [Shehzadcyber/CVE-2017-7529](https://github.com/Shehzadcyber/CVE-2017-7529)
 
@@ -26423,6 +26423,14 @@ Adobe Flash Player before 13.0.0.289 and 14.x through 17.x before 17.0.0.188 on 
 </code>
 
 - [Xattam1/Adobe-Flash-Exploits_17-18](https://github.com/Xattam1/Adobe-Flash-Exploits_17-18)
+
+### CVE-2015-3145 (2015-04-24)
+
+<code>
+The sanitize_cookie_path function in cURL and libcurl 7.31.0 through 7.41.0 does not properly calculate an index, which allows remote attackers to cause a denial of service (out-of-bounds write and crash) or possibly have other unspecified impact via a cookie path containing only a double-quote character.
+</code>
+
+- [Serz999/CVE-2015-3145](https://github.com/Serz999/CVE-2015-3145)
 
 ### CVE-2015-3152 (2016-05-16)
 
