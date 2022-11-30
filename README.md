@@ -3708,14 +3708,6 @@ Windows TCP/IP Remote Code Execution Vulnerability.
 
 - [SecLabResearchBV/CVE-2022-34718-PoC](https://github.com/SecLabResearchBV/CVE-2022-34718-PoC)
 
-### CVE-2022-34721 (2022-09-13)
-
-<code>
-Windows Internet Key Exchange (IKE) Protocol Extensions Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-34722.
-</code>
-
-- [sandpix/CVE-2022-34721-RCE-POC](https://github.com/sandpix/CVE-2022-34721-RCE-POC)
-
 ### CVE-2022-34729 (2022-09-13)
 
 <code>
@@ -4169,6 +4161,7 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [PyterSmithDarkGhost/CVE-2022-39197-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-39197-POC)
 - [TheCryingGame/CVE-2022-39197-RCE](https://github.com/TheCryingGame/CVE-2022-39197-RCE)
 - [adeljck/CVE-2022-39197](https://github.com/adeljck/CVE-2022-39197)
+- [Trinity-SYT-SECURITY/coablt_strike_4.5](https://github.com/Trinity-SYT-SECURITY/coablt_strike_4.5)
 
 ### CVE-2022-39425 (2022-10-18)
 
@@ -4327,6 +4320,14 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [ITPATJIDR/CVE-2022-41040](https://github.com/ITPATJIDR/CVE-2022-41040)
 - [TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell)
 - [trhacknon/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/trhacknon/CVE-2022-41040-metasploit-ProxyNotShell)
+
+### CVE-2022-41049 (2022-11-09)
+
+<code>
+Windows Mark of the Web Security Feature Bypass Vulnerability. This CVE ID is unique from CVE-2022-41091.
+</code>
+
+- [NathanScottGithub/CVE-2022-41049-POC](https://github.com/NathanScottGithub/CVE-2022-41049-POC)
 
 ### CVE-2022-41082 (2022-10-02)
 
