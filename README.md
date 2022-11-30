@@ -470,6 +470,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
+- [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -4363,10 +4364,20 @@ A stored cross-site scripting (XSS) vulnerability in Garage Management System v1
 
 - [thecasual/CVE-2022-41358](https://github.com/thecasual/CVE-2022-41358)
 
-### CVE-2022-41412
+### CVE-2022-41412 (2022-11-29)
+
+<code>
+An issue in the graphData.cgi component of perfSONAR v4.4.5 and prior allows attackers to access sensitive data and execute Server-Side Request Forgery (SSRF) attacks.
+</code>
+
 - [renmizo/CVE-2022-41412](https://github.com/renmizo/CVE-2022-41412)
 
-### CVE-2022-41413
+### CVE-2022-41413 (2022-11-29)
+
+<code>
+perfSONAR v4.x &lt;= v4.4.5 was discovered to contain a Cross-Site Request Forgery (CSRF) which is triggered when an attacker injects crafted input into the Search function.
+</code>
+
 - [renmizo/CVE-2022-41413](https://github.com/renmizo/CVE-2022-41413)
 
 ### CVE-2022-41445 (2022-11-22)
@@ -10016,6 +10027,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
 - [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
 - [SEHandler/CVE-2020-0796](https://github.com/SEHandler/CVE-2020-0796)
+- [NetJBS/-CVE-2020-0796-RCE](https://github.com/NetJBS/-CVE-2020-0796-RCE)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -10311,14 +10323,6 @@ A Local File Inclusion vulnerability in Juniper Networks Junos Space allows an a
 </code>
 
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
-
-### CVE-2020-1764 (2020-03-26)
-
-<code>
-A hard-coded cryptographic key vulnerability in the default configuration file was found in Kiali, all versions prior to 1.15.1. A remote attacker could abuse this flaw by creating their own JWT signed tokens and bypass Kiali authentication mechanisms, possibly gaining privileges to view and alter the Istio configuration.
-</code>
-
-- [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
 
 ### CVE-2020-1937 (2020-02-24)
 
