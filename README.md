@@ -10643,7 +10643,7 @@ Adobe Genuine Integrity Service versions Version 6.4 and earlier have an insecur
 An inconsistent user interface issue was addressed with improved state management. This issue is fixed in Safari 13.0.5. Visiting a malicious website may lead to address bar spoofing.
 </code>
 
-- [c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-](https://github.com/c0d3G33k/Safari-Address-Bar-Spoof-CVE-2020-3833-)
+- [5l1v3r1/Safari-Address-Bar-Spoof-CVE-2020-3833-](https://github.com/5l1v3r1/Safari-Address-Bar-Spoof-CVE-2020-3833-)
 
 ### CVE-2020-3952 (2020-04-10)
 
@@ -11757,14 +11757,6 @@ A vulnerability related to Dynamic-link Library (“DLL”) loading in the Zoom 
 </code>
 
 - [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
-
-### CVE-2020-9781 (2020-04-01)
-
-<code>
-The issue was addressed by clearing website permission prompts after navigation. This issue is fixed in iOS 13.4 and iPadOS 13.4. A user may grant website permissions to a site they didn't intend to.
-</code>
-
-- [c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781](https://github.com/c0d3G33k/Safari-Video-Permission-Spoof-CVE-2020-9781)
 
 ### CVE-2020-9922 (2020-12-08)
 
@@ -14772,7 +14764,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 An elevation of privilege vulnerability exists when Microsoft Edge does not properly enforce cross-domain policies, which could allow an attacker to access information from one domain and inject it into another domain.In a web-based attack scenario, an attacker could host a website that is used to attempt to exploit the vulnerability, aka 'Microsoft Edge Elevation of Privilege Vulnerability'.
 </code>
 
-- [c0d3G33k/CVE-2019-0678](https://github.com/c0d3G33k/CVE-2019-0678)
+- [sharmasandeepkr/CVE-2019-0678](https://github.com/sharmasandeepkr/CVE-2019-0678)
 
 ### CVE-2019-0708 (2019-05-16)
 
@@ -20713,6 +20705,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [JoSecMx/CVE-2018-10933_Scanner](https://github.com/JoSecMx/CVE-2018-10933_Scanner)
 - [cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933)
 - [EmmanuelCruzL/CVE-2018-10933](https://github.com/EmmanuelCruzL/CVE-2018-10933)
+- [SilasSpringer/CVE-2018-10933](https://github.com/SilasSpringer/CVE-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
 
@@ -21461,7 +21454,7 @@ Stack-based buffer overflow in the httpd server of TP-Link WR1043nd (Firmware Ve
 - [hdbreaker/CVE-2018-16119](https://github.com/hdbreaker/CVE-2018-16119)
 
 ### CVE-2018-16135
-- [c0d3G33k/CVE-2018-16135](https://github.com/c0d3G33k/CVE-2018-16135)
+- [5l1v3r1/CVE-2018-16135](https://github.com/5l1v3r1/CVE-2018-16135)
 
 ### CVE-2018-16156 (2019-05-17)
 
