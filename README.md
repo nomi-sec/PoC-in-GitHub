@@ -21359,6 +21359,14 @@ A vulnerability in unit_deserialize of systemd allows an attacker to supply arbi
 
 - [hpcprofessional/remediate_cesa_2019_2091](https://github.com/hpcprofessional/remediate_cesa_2019_2091)
 
+### CVE-2018-15708 (2018-11-14)
+
+<code>
+Snoopy 1.0 in Nagios XI 5.5.6 allows remote unauthenticated attackers to execute arbitrary commands via a crafted HTTP request.
+</code>
+
+- [lkduy2602/Detecting-CVE-2018-15708-Vulnerabilities](https://github.com/lkduy2602/Detecting-CVE-2018-15708-Vulnerabilities)
+
 ### CVE-2018-15727 (2018-08-29)
 
 <code>
