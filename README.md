@@ -2317,6 +2317,14 @@ The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenti
 
 - [p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML](https://github.com/p0dalirius/CVE-2022-26159-Ametys-Autocompletion-XML)
 
+### CVE-2022-26265 (2022-03-18)
+
+<code>
+Contao Managed Edition v1.5.0 was discovered to contain a remote command execution (RCE) vulnerability via the component php_cli parameter.
+</code>
+
+- [Inplex-sys/CVE-2022-26265](https://github.com/Inplex-sys/CVE-2022-26265)
+
 ### CVE-2022-26269 (2022-03-28)
 
 <code>
@@ -3269,6 +3277,14 @@ Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
 </code>
 
 - [nanaao/CVE-2022-30929](https://github.com/nanaao/CVE-2022-30929)
+
+### CVE-2022-31007 (2022-05-31)
+
+<code>
+eLabFTW is an electronic lab notebook manager for research teams. Prior to version 4.3.0, a vulnerability allows an authenticated user with an administrator role in a team to assign itself system administrator privileges within the application, or create a new system administrator account. The issue has been corrected in eLabFTW version 4.3.0. In the context of eLabFTW, an administrator is a user account with certain privileges to manage users and content in their assigned team/teams. A system administrator account can manage all accounts, teams and edit system-wide settings within the application. The impact is not deemed as high, as it requires the attacker to have access to an administrator account. Regular user accounts cannot exploit this to gain admin rights. A workaround for one if the issues is removing the ability of administrators to create accounts.
+</code>
+
+- [gscharf/CVE-2022-31007-Python-POC](https://github.com/gscharf/CVE-2022-31007-Python-POC)
 
 ### CVE-2022-31061 (2022-06-28)
 
@@ -27115,6 +27131,7 @@ The n_tty_write function in drivers/tty/n_tty.c in the Linux kernel through 3.14
 
 - [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
 - [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
+- [netwid/CVE-2014-0196](https://github.com/netwid/CVE-2014-0196)
 
 ### CVE-2014-0224 (2014-06-05)
 
