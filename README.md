@@ -17733,8 +17733,8 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [Tuz-Wwsd/CVE-2019-15107_detection](https://github.com/Tuz-Wwsd/CVE-2019-15107_detection)
 - [f0rkr/CVE-2019-15107](https://github.com/f0rkr/CVE-2019-15107)
 - [trhacknon/CVE-2019-15107](https://github.com/trhacknon/CVE-2019-15107)
-- [NullBrunk/CVE-2019-15107](https://github.com/NullBrunk/CVE-2019-15107)
 - [psw01/CVE-2019-15107_webminRCE](https://github.com/psw01/CVE-2019-15107_webminRCE)
+- [lolminerxmrig/CVE-2019-15107](https://github.com/lolminerxmrig/CVE-2019-15107)
 - [TheAlpha19/MiniExploit](https://github.com/TheAlpha19/MiniExploit)
 
 ### CVE-2019-15120 (2019-08-16)
@@ -19888,6 +19888,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jeyaseelans86/CVE-2018-6574](https://github.com/jeyaseelans86/CVE-2018-6574)
 - [jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574)
 - [chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574)
+- [mux0x/CVE-2018-6574](https://github.com/mux0x/CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -28722,6 +28723,7 @@ vsftpd 2.3.4 downloaded between 20110630 and 20110703 contains a backdoor which 
 - [MFernstrom/OffensivePascal-CVE-2011-2523](https://github.com/MFernstrom/OffensivePascal-CVE-2011-2523)
 - [NullBrunk/CVE-2011-2523](https://github.com/NullBrunk/CVE-2011-2523)
 - [0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523)
+- [XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
