@@ -8778,7 +8778,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell)
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [fox-it/log4j-finder](https://github.com/fox-it/log4j-finder)
-- [34zY/JNDI-Exploit-1.2-log4shell](https://github.com/34zY/JNDI-Exploit-1.2-log4shell)
 - [wortell/log4j](https://github.com/wortell/log4j)
 - [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
@@ -8954,6 +8953,7 @@ When running Apache Cassandra with the following configuration: enable_user_defi
 </code>
 
 - [WoodenKlaas/CVE-2021-44521](https://github.com/WoodenKlaas/CVE-2021-44521)
+- [Yeyvo/poc-CVE-2021-44521](https://github.com/Yeyvo/poc-CVE-2021-44521)
 
 ### CVE-2021-44529 (2021-12-08)
 
