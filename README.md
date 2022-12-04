@@ -1730,6 +1730,7 @@ An attacker can abuse the batch-requests plugin to send requests to bypass the I
 - [M4xSec/Apache-APISIX-CVE-2022-24112](https://github.com/M4xSec/Apache-APISIX-CVE-2022-24112)
 - [kavishkagihan/CVE-2022-24112-POC](https://github.com/kavishkagihan/CVE-2022-24112-POC)
 - [twseptian/cve-2022-24112](https://github.com/twseptian/cve-2022-24112)
+- [Acczdy/CVE-2022-24112_POC](https://github.com/Acczdy/CVE-2022-24112_POC)
 
 ### CVE-2022-24122 (2022-01-29)
 
@@ -4541,6 +4542,9 @@ Mediatrix 4102 before v48.5.2718 allows local attackers to gain root access via 
 
 - [ProxyStaffy/Mediatrix-CVE-2022-43096](https://github.com/ProxyStaffy/Mediatrix-CVE-2022-43096)
 
+### CVE-2022-43097
+- [nibin-m/CVE-2022-43097](https://github.com/nibin-m/CVE-2022-43097)
+
 ### CVE-2022-43117 (2022-11-21)
 
 <code>
@@ -4579,7 +4583,12 @@ In libexpat through 2.4.9, there is a use-after free caused by overeager destruc
 ### CVE-2022-43959
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
 
-### CVE-2022-44721
+### CVE-2022-44721 (2022-12-03)
+
+<code>
+CrowdStrike Falcon 6.44.15806 allows an administrative attacker to uninstall Falcon Sensor, bypassing the intended protection mechanism in which uninstallation requires possessing a one-time token. (The sensor is managed at the kernel level.)
+</code>
+
 - [purplededa/CVE-2022-44721-CsFalconUninstaller](https://github.com/purplededa/CVE-2022-44721-CsFalconUninstaller)
 
 ### CVE-2022-44789 (2022-11-23)
@@ -24905,6 +24914,7 @@ The join_session_keyring function in security/keys/process_keys.c in the Linux k
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
 - [th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit)
 - [tndud042713/cve](https://github.com/tndud042713/cve)
+- [sidrk01/cve-2016-0728](https://github.com/sidrk01/cve-2016-0728)
 
 ### CVE-2016-0752 (2016-02-15)
 
