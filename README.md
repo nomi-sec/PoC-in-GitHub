@@ -4494,7 +4494,7 @@ In PCTechSoft PCSecure V5.0.8.xw, use of Hard-coded Credentials in configuration
 Apache Commons Text performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is &quot;${prefix:name}&quot;, where &quot;prefix&quot; is used to locate an instance of org.apache.commons.text.lookup.StringLookup that performs the interpolation. Starting with version 1.5 and continuing through 1.9, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - &quot;script&quot; - execute expressions using the JVM script execution engine (javax.script) - &quot;dns&quot; - resolve dns records - &quot;url&quot; - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Text 1.10.0, which disables the problematic interpolators by default.
 </code>
 
-- [standb/CVE-2022-42889](https://github.com/standb/CVE-2022-42889)
+- [0xst4n/CVE-2022-42889](https://github.com/0xst4n/CVE-2022-42889)
 - [SeanWrightSec/CVE-2022-42889-PoC](https://github.com/SeanWrightSec/CVE-2022-42889-PoC)
 - [chainguard-dev/text4shell-policy](https://github.com/chainguard-dev/text4shell-policy)
 - [tulhan/commons-text-goat](https://github.com/tulhan/commons-text-goat)
