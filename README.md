@@ -609,6 +609,7 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 - [pirenga/2022-LPE-UAF](https://github.com/pirenga/2022-LPE-UAF)
 - [konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF)
 - [ida-bro/CVE-2022-2588](https://github.com/ida-bro/CVE-2022-2588)
+- [BassamGraini/CVE-2022-2588](https://github.com/BassamGraini/CVE-2022-2588)
 
 ### CVE-2022-2639 (2022-09-01)
 
@@ -2156,6 +2157,7 @@ The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL 
 </code>
 
 - [Atsukoro1/PDFKitExploit](https://github.com/Atsukoro1/PDFKitExploit)
+- [CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell](https://github.com/CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell)
 
 ### CVE-2022-25845 (2022-06-10)
 
