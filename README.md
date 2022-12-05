@@ -28883,6 +28883,7 @@ SpringSource Spring Framework 2.5.x before 2.5.6.SEC02, 2.5.7 before 2.5.7.SR01,
 
 - [DDuarte/springshell-rce-poc](https://github.com/DDuarte/springshell-rce-poc)
 - [strainerart/Spring4Shell](https://github.com/strainerart/Spring4Shell)
+- [HandsomeCat00/Spring-CVE-2010-1622](https://github.com/HandsomeCat00/Spring-CVE-2010-1622)
 
 ### CVE-2010-2075 (2010-06-14)
 
