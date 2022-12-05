@@ -534,6 +534,7 @@ Cross-site Scripting (XSS) - Stored in GitHub repository nocodb/nocodb prior to 
 </code>
 
 - [GREENHAT7/pxplan](https://github.com/GREENHAT7/pxplan)
+- [sdfbjaksff/CVE-2022-2022](https://github.com/sdfbjaksff/CVE-2022-2022)
 
 ### CVE-2022-2097 (2022-07-05)
 
@@ -4581,6 +4582,7 @@ In libexpat through 2.4.9, there is a use-after free caused by overeager destruc
 </code>
 
 - [nidhi7598/G3_expat-2.2.6_CVE-2022-43680](https://github.com/nidhi7598/G3_expat-2.2.6_CVE-2022-43680)
+- [nidhi7598/expat_2.1.0-_CVE-2022-43680](https://github.com/nidhi7598/expat_2.1.0-_CVE-2022-43680)
 
 ### CVE-2022-43959
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
