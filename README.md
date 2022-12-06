@@ -472,6 +472,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
 - [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
+- [amitlttwo/CVE-2022-1388](https://github.com/amitlttwo/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -588,6 +589,7 @@ Access to external entities when parsing XML documents can lead to XML external 
 </code>
 
 - [superhac/CVE-2022-2414-POC](https://github.com/superhac/CVE-2022-2414-POC)
+- [amitlttwo/CVE-2022-2414-Proof-Of-Concept](https://github.com/amitlttwo/CVE-2022-2414-Proof-Of-Concept)
 
 ### CVE-2022-2466 (2022-08-31)
 
@@ -3439,6 +3441,14 @@ Nortek Linear eMerge E3-Series devices before 0.32-08f allow an unauthenticated 
 </code>
 
 - [omarhashem123/CVE-2022-31499](https://github.com/omarhashem123/CVE-2022-31499)
+
+### CVE-2022-31626 (2022-06-16)
+
+<code>
+In PHP versions 7.4.x below 7.4.30, 8.0.x below 8.0.20, and 8.1.x below 8.1.7, when pdo_mysql extension with mysqlnd driver, if the third party is allowed to supply host to connect to and the password for the connection, password of excessive length can trigger a buffer overflow in PHP, which can lead to a remote code execution vulnerability.
+</code>
+
+- [amitlttwo/CVE-2022-31626](https://github.com/amitlttwo/CVE-2022-31626)
 
 ### CVE-2022-31629 (2022-09-28)
 
