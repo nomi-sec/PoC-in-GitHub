@@ -4363,7 +4363,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 - [trhacknon/CVE-2022-41082-MASS-SCANNER](https://github.com/trhacknon/CVE-2022-41082-MASS-SCANNER)
 - [notareaperbutDR34P3r/http-vuln-CVE-2022-41082](https://github.com/notareaperbutDR34P3r/http-vuln-CVE-2022-41082)
-- [Adynervi/CVE-2022-41082-RCE-PoC](https://github.com/Adynervi/CVE-2022-41082-RCE-PoC)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -4631,6 +4630,9 @@ CAE LearningSpace Enterprise (with Intuity License) image 267r patch 639 allows 
 </code>
 
 - [nicbrinkley/CVE-2022-45472](https://github.com/nicbrinkley/CVE-2022-45472)
+
+### CVE-2022-11111111
+- [sdfbjaksff/CVE-2022-11111111](https://github.com/sdfbjaksff/CVE-2022-11111111)
 
 
 ## 2021
@@ -16648,6 +16650,14 @@ A flaw was found in the Linux kernel's Bluetooth implementation of UART, all ver
 </code>
 
 - [butterflyhack/CVE-2019-10207](https://github.com/butterflyhack/CVE-2019-10207)
+
+### CVE-2019-10220 (2019-11-27)
+
+<code>
+Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative paths injection in directory entry lists.
+</code>
+
+- [nidhi7598/linux-4.1.15_CVE-2019-10220](https://github.com/nidhi7598/linux-4.1.15_CVE-2019-10220)
 
 ### CVE-2019-10392 (2019-09-12)
 
