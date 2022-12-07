@@ -3681,6 +3681,7 @@ The Apache Spark UI offers the possibility to enable ACLs via the configuration 
 - [AmoloHT/CVE-2022-33891](https://github.com/AmoloHT/CVE-2022-33891)
 - [DrLinuxOfficial/CVE-2022-33891](https://github.com/DrLinuxOfficial/CVE-2022-33891)
 - [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
+- [ps-interactive/lab_security_apache_spark_emulation_detection](https://github.com/ps-interactive/lab_security_apache_spark_emulation_detection)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -4591,7 +4592,12 @@ A cross-site scripting (XSS) vulnerability in Wondercms v3.3.4 allows attackers 
 
 - [maikroservice/CVE-2022-43332](https://github.com/maikroservice/CVE-2022-43332)
 
-### CVE-2022-43369
+### CVE-2022-43369 (2022-12-06)
+
+<code>
+AutoTaxi Stand Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the component search.php.
+</code>
+
 - [sudoninja-noob/CVE-2022-43369](https://github.com/sudoninja-noob/CVE-2022-43369)
 
 ### CVE-2022-43680 (2022-10-23)
@@ -20075,6 +20081,7 @@ A Local File Inclusion vulnerability in the Site Editor plugin through 1.1.1 for
 
 - [0x00-0x00/CVE-2018-7422](https://github.com/0x00-0x00/CVE-2018-7422)
 - [jessisec/CVE-2018-7422](https://github.com/jessisec/CVE-2018-7422)
+- [JacobEbben/CVE-2018-7422](https://github.com/JacobEbben/CVE-2018-7422)
 
 ### CVE-2018-7489 (2018-02-26)
 
