@@ -3029,6 +3029,14 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 - [trhacknon/CVE-2022-30075](https://github.com/trhacknon/CVE-2022-30075)
 - [M4fiaB0y/CVE-2022-30075](https://github.com/M4fiaB0y/CVE-2022-30075)
 
+### CVE-2022-30129 (2022-05-10)
+
+<code>
+Visual Studio Code Remote Code Execution Vulnerability.
+</code>
+
+- [RoccoPearce/CVE-2022-30129](https://github.com/RoccoPearce/CVE-2022-30129)
+
 ### CVE-2022-30190 (2022-06-01)
 
 <code>
@@ -3100,7 +3108,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [MalwareTech/FollinaExtractor](https://github.com/MalwareTech/FollinaExtractor)
 - [notherealhazard/follina-CVE-2022-30190](https://github.com/notherealhazard/follina-CVE-2022-30190)
 - [Cerebrovinny/follina-CVE-2022-30190](https://github.com/Cerebrovinny/follina-CVE-2022-30190)
-- [ethicalblue/Follina-CVE-2022-30190-PoC-sample](https://github.com/ethicalblue/Follina-CVE-2022-30190-PoC-sample)
+- [ethicalblue/Follina-CVE-2022-30190-Sample](https://github.com/ethicalblue/Follina-CVE-2022-30190-Sample)
 - [Gra3s/CVE-2022-30190-Follina-PowerPoint-Version](https://github.com/Gra3s/CVE-2022-30190-Follina-PowerPoint-Version)
 - [EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-)
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
@@ -3307,7 +3315,7 @@ eLabFTW is an electronic lab notebook manager for research teams. Prior to versi
 GLPI is a Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing. In affected versions there is a SQL injection vulnerability which is possible on login page. No user credentials are required to exploit this vulnerability. Users are advised to upgrade as soon as possible. There are no known workarounds for this issue.
 </code>
 
-- [Vu0r1-sec/CVE-2022-31061](https://github.com/Vu0r1-sec/CVE-2022-31061)
+- [Wangyanan131/CVE-2022-31061](https://github.com/Wangyanan131/CVE-2022-31061)
 
 ### CVE-2022-31101 (2022-06-27)
 
@@ -4649,7 +4657,12 @@ Sourcecodester Event Registration App v1.0 was discovered to contain multiple CS
 
 - [RashidKhanPathan/CVE-2022-44830](https://github.com/RashidKhanPathan/CVE-2022-44830)
 
-### CVE-2022-45217
+### CVE-2022-45217 (2022-12-07)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Book Store Management System v1.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Level parameter under the Add New System User module.
+</code>
+
 - [sudoninja-noob/CVE-2022-45217](https://github.com/sudoninja-noob/CVE-2022-45217)
 
 ### CVE-2022-45472 (2022-11-23)
@@ -20984,7 +20997,7 @@ Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remo
 - [cved-sources/cve-2018-11776](https://github.com/cved-sources/cve-2018-11776)
 - [OzNetNerd/apche-struts-vuln-demo-cve-2018-11776](https://github.com/OzNetNerd/apche-struts-vuln-demo-cve-2018-11776)
 - [cucadili/CVE-2018-11776](https://github.com/cucadili/CVE-2018-11776)
-- [LightC0der/Apache-Struts-0Day-Exploit](https://github.com/LightC0der/Apache-Struts-0Day-Exploit)
+- [showerlemon/Apache-Struts-0Day-Exploit](https://github.com/showerlemon/Apache-Struts-0Day-Exploit)
 - [freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776)
 
 ### CVE-2018-11788 (2019-01-07)
