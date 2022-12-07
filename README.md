@@ -874,6 +874,14 @@ In btif_dm_auth_cmpl_evt of btif_dm.cc, there is a possible vulnerability in Cro
 
 - [francozappa/blur](https://github.com/francozappa/blur)
 
+### CVE-2022-20441 (2022-11-08)
+
+<code>
+In navigateUpTo of Task.java, there is a possible way to launch an unexported intent handler due to a logic error in the code. This could lead to local escalation of privilege if the targeted app has an intent trampoline, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-238605611
+</code>
+
+- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20441](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20441)
+
 ### CVE-2022-20699 (2022-02-10)
 
 <code>
@@ -4441,7 +4449,12 @@ The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic key
 
 - [efchatz/easy-exploits](https://github.com/efchatz/easy-exploits)
 
-### CVE-2022-41622
+### CVE-2022-41622 (2022-12-06)
+
+<code>
+In all versions, BIG-IP and BIG-IQ are vulnerable to cross-site request forgery (CSRF) attacks through iControl SOAP. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+</code>
+
 - [rbowes-r7/refreshing-soap-exploit](https://github.com/rbowes-r7/refreshing-soap-exploit)
 
 ### CVE-2022-41852
