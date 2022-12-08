@@ -8683,7 +8683,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
-- [0bfxgh0st/cve-2021-43798](https://github.com/0bfxgh0st/cve-2021-43798)
 - [trhacknon/exploit-grafana-CVE-2021-43798](https://github.com/trhacknon/exploit-grafana-CVE-2021-43798)
 
 ### CVE-2021-43811 (2021-12-08)
@@ -8912,6 +8911,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
 - [TheInterception/Log4J-Simulation-Tool](https://github.com/TheInterception/Log4J-Simulation-Tool)
 - [mschmnet/Log4Shell-demo](https://github.com/mschmnet/Log4Shell-demo)
+- [Rk-000/Log4j_scan_Advance](https://github.com/Rk-000/Log4j_scan_Advance)
 - [puzzlepeaches/Log4jCenter](https://github.com/puzzlepeaches/Log4jCenter)
 - [Labout/log4shell-rmi-poc](https://github.com/Labout/log4shell-rmi-poc)
 - [djungeldan/Log4Me](https://github.com/djungeldan/Log4Me)
@@ -27744,7 +27744,6 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock)
 - [anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host)
 - [FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-)
-- [0bfxgh0st/cve-2014-6271](https://github.com/0bfxgh0st/cve-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
@@ -28980,7 +28979,6 @@ UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 th
 
 - [XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE)
 - [MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075)
-- [0bfxgh0st/cve-2010-2075](https://github.com/0bfxgh0st/cve-2010-2075)
 
 ### CVE-2010-2387 (2012-12-20)
 
