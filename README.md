@@ -5945,6 +5945,14 @@ A flaw was found in grub2 in versions prior to 2.06. Setparam_prefix() in the me
 
 - [pauljrowland/BootHoleFix](https://github.com/pauljrowland/BootHoleFix)
 
+### CVE-2021-20323 (2022-03-25)
+
+<code>
+A POST based reflected Cross Site Scripting vulnerability on has been identified in Keycloak.
+</code>
+
+- [ndmalc/CVE-2021-20323](https://github.com/ndmalc/CVE-2021-20323)
+
 ### CVE-2021-20717 (2021-05-10)
 
 <code>
@@ -7599,7 +7607,7 @@ The identity authentication bypass vulnerability found in some Dahua products du
 ### CVE-2021-33558 (2021-05-27)
 
 <code>
-Boa 0.94.13 allows remote attackers to obtain sensitive information via a misconfiguration involving backup.html, preview.html, js/log.js, log.html, email.html, online-users.html, and config.js.
+** DISPUTED ** Boa 0.94.13 allows remote attackers to obtain sensitive information via a misconfiguration involving backup.html, preview.html, js/log.js, log.html, email.html, online-users.html, and config.js. NOTE: multiple third parties report that this is a site-specific issue because those files are not part of Boa.
 </code>
 
 - [mdanzaruddin/CVE-2021-33558.](https://github.com/mdanzaruddin/CVE-2021-33558.)
@@ -8904,7 +8912,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
 - [TheInterception/Log4J-Simulation-Tool](https://github.com/TheInterception/Log4J-Simulation-Tool)
 - [mschmnet/Log4Shell-demo](https://github.com/mschmnet/Log4Shell-demo)
-- [Rk-000/Log4j_scan_Advance](https://github.com/Rk-000/Log4j_scan_Advance)
 - [puzzlepeaches/Log4jCenter](https://github.com/puzzlepeaches/Log4jCenter)
 - [Labout/log4shell-rmi-poc](https://github.com/Labout/log4shell-rmi-poc)
 - [djungeldan/Log4Me](https://github.com/djungeldan/Log4Me)
@@ -23860,7 +23867,7 @@ Remote Code Execution is possible in Code42 CrashPlan 5.4.x via the org.apache.c
 ### CVE-2017-9833 (2017-06-23)
 
 <code>
-/cgi-bin/wapopen in BOA Webserver 0.94.14rc21 allows the injection of &quot;../..&quot; using the FILECAMERA variable (sent by GET) to read files with root privileges.
+** DISPUTED ** /cgi-bin/wapopen in Boa 0.94.14rc21 allows the injection of &quot;../..&quot; using the FILECAMERA variable (sent by GET) to read files with root privileges. NOTE: multiple third parties report that this is a system-integrator issue (e.g., a vulnerability on one type of camera) because Boa does not include any wapopen program or any code to read a FILECAMERA variable.
 </code>
 
 - [anldori/CVE-2017-9833](https://github.com/anldori/CVE-2017-9833)
