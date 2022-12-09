@@ -473,6 +473,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
 - [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
 - [amitlttwo/CVE-2022-1388](https://github.com/amitlttwo/CVE-2022-1388)
+- [M4fiaB0y/CVE-2022-1388](https://github.com/M4fiaB0y/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -3988,6 +3989,14 @@ Bolt CMS contains a vulnerability in version 5.1.12 and below that allows an aut
 
 - [lutrasecurity/CVE-2022-36532](https://github.com/lutrasecurity/CVE-2022-36532)
 
+### CVE-2022-36537 (2022-08-26)
+
+<code>
+ZK Framework v9.6.1, 9.6.0.1, 9.5.1.3, 9.0.1.2 and 8.6.4.1 allows attackers to access sensitive information via a crafted POST request sent to the component AuUploader.
+</code>
+
+- [agnihackers/CVE-2022-36537-EXPLOIT](https://github.com/agnihackers/CVE-2022-36537-EXPLOIT)
+
 ### CVE-2022-36663 (2022-09-06)
 
 <code>
@@ -4579,6 +4588,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [QAInsights/cve-2022-42889-jmeter](https://github.com/QAInsights/cve-2022-42889-jmeter)
 - [adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889](https://github.com/adarshpv9746/Text4shell--Automated-exploit---CVE-2022-42889)
 - [pwnb0y/Text4shell-exploit](https://github.com/pwnb0y/Text4shell-exploit)
+- [f0ng/text4shellburpscanner](https://github.com/f0ng/text4shellburpscanner)
 
 ### CVE-2022-42899 (2022-10-12)
 
