@@ -3442,6 +3442,14 @@ ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability
 
 - [YavuzSahbaz/CVE-2022-31402](https://github.com/YavuzSahbaz/CVE-2022-31402)
 
+### CVE-2022-31403 (2022-06-14)
+
+<code>
+ITOP v3.0.1 was discovered to contain a cross-site scripting (XSS) vulnerability via /itop/pages/ajax.render.php.
+</code>
+
+- [IbrahimEkimIsik/CVE-2022-31403](https://github.com/IbrahimEkimIsik/CVE-2022-31403)
+
 ### CVE-2022-31479 (2022-06-06)
 
 <code>
@@ -4664,6 +4672,9 @@ A cross-site scripting (XSS) vulnerability in Book Store Management System v1.0.
 </code>
 
 - [sudoninja-noob/CVE-2022-45217](https://github.com/sudoninja-noob/CVE-2022-45217)
+
+### CVE-2022-45265
+- [maikroservice/CVE-2022-45265](https://github.com/maikroservice/CVE-2022-45265)
 
 ### CVE-2022-45472 (2022-11-23)
 
