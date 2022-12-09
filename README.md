@@ -255,7 +255,6 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-)
 - [Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits)
 - [Turzum/ps-lab-cve-2022-0847](https://github.com/Turzum/ps-lab-cve-2022-0847)
-- [siholley/CVE-2022-0847-Dirty-Pipe-Vulnerability-](https://github.com/siholley/CVE-2022-0847-Dirty-Pipe-Vulnerability-)
 - [qwert419/linux-](https://github.com/qwert419/linux-)
 
 ### CVE-2022-0848 (2022-03-04)
@@ -3996,6 +3995,7 @@ ZK Framework v9.6.1, 9.6.0.1, 9.5.1.3, 9.0.1.2 and 8.6.4.1 allows attackers to a
 </code>
 
 - [agnihackers/CVE-2022-36537-EXPLOIT](https://github.com/agnihackers/CVE-2022-36537-EXPLOIT)
+- [Malwareman007/CVE-2022-36537](https://github.com/Malwareman007/CVE-2022-36537)
 
 ### CVE-2022-36663 (2022-09-06)
 
