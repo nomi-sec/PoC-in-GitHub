@@ -4682,6 +4682,14 @@ Sourcecodester Event Registration App v1.0 was discovered to contain multiple CS
 
 - [RashidKhanPathan/CVE-2022-44830](https://github.com/RashidKhanPathan/CVE-2022-44830)
 
+### CVE-2022-45025 (2022-12-06)
+
+<code>
+Markdown Preview Enhanced v0.6.5 and v0.19.6 for VSCode and Atom was discovered to contain a command injection vulnerability via the PDF file import function.
+</code>
+
+- [yuriisanin/CVE-2022-45025](https://github.com/yuriisanin/CVE-2022-45025)
+
 ### CVE-2022-45217 (2022-12-07)
 
 <code>
@@ -7689,6 +7697,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
+- [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
 - [cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527)
 - [m8sec/CVE-2021-34527](https://github.com/m8sec/CVE-2021-34527)
 - [hackerhouse-opensource/cve-2021-34527](https://github.com/hackerhouse-opensource/cve-2021-34527)
@@ -8936,7 +8945,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [otaviokr/log4j-2021-vulnerability-study](https://github.com/otaviokr/log4j-2021-vulnerability-study)
 - [TheInterception/Log4J-Simulation-Tool](https://github.com/TheInterception/Log4J-Simulation-Tool)
 - [mschmnet/Log4Shell-demo](https://github.com/mschmnet/Log4Shell-demo)
-- [Rk-000/Log4j_scan_Advance](https://github.com/Rk-000/Log4j_scan_Advance)
 - [puzzlepeaches/Log4jCenter](https://github.com/puzzlepeaches/Log4jCenter)
 - [Labout/log4shell-rmi-poc](https://github.com/Labout/log4shell-rmi-poc)
 - [djungeldan/Log4Me](https://github.com/djungeldan/Log4Me)
