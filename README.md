@@ -5439,6 +5439,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [JacobEbben/CVE-2021-3129](https://github.com/JacobEbben/CVE-2021-3129)
 - [hupe1980/CVE-2021-3129](https://github.com/hupe1980/CVE-2021-3129)
 - [0nion1/CVE-2021-3129](https://github.com/0nion1/CVE-2021-3129)
+- [MadExploits/Laravel-debug-Checker](https://github.com/MadExploits/Laravel-debug-Checker)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -8873,7 +8874,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Panyaprach/Proof-CVE-2021-44228](https://github.com/Panyaprach/Proof-CVE-2021-44228)
 - [cyberxml/log4j-poc](https://github.com/cyberxml/log4j-poc)
 - [Diverto/nse-log4shell](https://github.com/Diverto/nse-log4shell)
-- [maxant/log4j2-CVE-2021-44228](https://github.com/maxant/log4j2-CVE-2021-44228)
 - [atnetws/fail2ban-log4j](https://github.com/atnetws/fail2ban-log4j)
 - [fireeye/CVE-2021-44228](https://github.com/fireeye/CVE-2021-44228)
 - [fullhunt/log4j-scan](https://github.com/fullhunt/log4j-scan)
