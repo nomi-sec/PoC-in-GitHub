@@ -264,6 +264,7 @@ OS Command Injection in GitHub repository part-db/part-db prior to 0.5.11.
 </code>
 
 - [dskmehra/CVE-2022-0848](https://github.com/dskmehra/CVE-2022-0848)
+- [Lay0us1/CVE-2022-0848-RCE](https://github.com/Lay0us1/CVE-2022-0848-RCE)
 
 ### CVE-2022-0853 (2022-03-11)
 
