@@ -643,6 +643,14 @@ A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
+### CVE-2022-3236 (2022-09-23)
+
+<code>
+A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
+</code>
+
+- [subvers1on/CVE-2022-3236-RCE-PoC](https://github.com/subvers1on/CVE-2022-3236-RCE-PoC)
+
 ### CVE-2022-3368 (2022-10-17)
 
 <code>
@@ -2177,6 +2185,7 @@ The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL 
 
 - [Atsukoro1/PDFKitExploit](https://github.com/Atsukoro1/PDFKitExploit)
 - [CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell](https://github.com/CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell)
+- [LordRNA/CVE-2022-25765](https://github.com/LordRNA/CVE-2022-25765)
 
 ### CVE-2022-25845 (2022-06-10)
 
@@ -9045,7 +9054,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [yuuki1967/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/yuuki1967/CVE-2021-44228-Apache-Log4j-Rce)
 - [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 - [jaehnri/CVE-2021-44228](https://github.com/jaehnri/CVE-2021-44228)
-- [ra890927/Log4Shell-CVE-2121-44228-Demo](https://github.com/ra890927/Log4Shell-CVE-2121-44228-Demo)
+- [ra890927/Log4Shell-CVE-2021-44228-Demo](https://github.com/ra890927/Log4Shell-CVE-2021-44228-Demo)
 - [bughuntar/log4j-scan](https://github.com/bughuntar/log4j-scan)
 - [vidrez/Ethical-Hacking-Report-Log4j](https://github.com/vidrez/Ethical-Hacking-Report-Log4j)
 - [vino-theva/CVE-2021-44228](https://github.com/vino-theva/CVE-2021-44228)
