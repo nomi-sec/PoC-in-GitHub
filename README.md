@@ -16069,6 +16069,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [Osuni-99/CVE-2019-6447](https://github.com/Osuni-99/CVE-2019-6447)
 - [Chethine/EsFileExplorer-CVE-2019-6447](https://github.com/Chethine/EsFileExplorer-CVE-2019-6447)
 - [vino-theva/CVE-2019-6447](https://github.com/vino-theva/CVE-2019-6447)
+- [KaviDk/CVE-2019-6447-in-Mobile-Application](https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application)
 
 ### CVE-2019-6453 (2019-02-18)
 
@@ -26184,6 +26185,14 @@ Heap-based buffer overflow in libavformat/http.c in FFmpeg before 2.8.10, 3.0.x 
 
 - [muzalam/FFMPEG-exploit](https://github.com/muzalam/FFMPEG-exploit)
 
+### CVE-2016-10191 (2017-02-09)
+
+<code>
+Heap-based buffer overflow in libavformat/rtmppkt.c in FFmpeg before 2.8.10, 3.0.x before 3.0.5, 3.1.x before 3.1.6, and 3.2.x before 3.2.2 allows remote attackers to execute arbitrary code by leveraging failure to check for RTMP packet size mismatches.
+</code>
+
+- [KaviDk/Heap-Over-Flow-with-CVE-2016-10191](https://github.com/KaviDk/Heap-Over-Flow-with-CVE-2016-10191)
+
 ### CVE-2016-10277 (2017-05-12)
 
 <code>
@@ -29473,14 +29482,6 @@ SQL injection vulnerability in dosearch.inc.php in UBB.threads 7.3.1 and earlier
 </code>
 
 - [KyomaHooin/CVE-2008-6970](https://github.com/KyomaHooin/CVE-2008-6970)
-
-### CVE-2008-7220 (2009-09-13)
-
-<code>
-Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before 1.6.0.2 allows attackers to make &quot;cross-site ajax requests&quot; via unknown vectors.
-</code>
-
-- [followboy1999/CVE-2008-7220](https://github.com/followboy1999/CVE-2008-7220)
 
 
 ## 2007
