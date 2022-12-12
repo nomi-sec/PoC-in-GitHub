@@ -643,14 +643,6 @@ A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
-### CVE-2022-3236 (2022-09-23)
-
-<code>
-A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
-</code>
-
-- [subvers1on/CVE-2022-3236-RCE-PoC](https://github.com/subvers1on/CVE-2022-3236-RCE-PoC)
-
 ### CVE-2022-3368 (2022-10-17)
 
 <code>
@@ -1454,6 +1446,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [iloveflag/Fast-CVE-2022-22965](https://github.com/iloveflag/Fast-CVE-2022-22965)
 - [ClemExp/CVE-2022-22965-PoC](https://github.com/ClemExp/CVE-2022-22965-PoC)
 - [clemoregan/SSE4-CVE-2022-22965](https://github.com/clemoregan/SSE4-CVE-2022-22965)
+- [devengpk/CVE-2022-22965](https://github.com/devengpk/CVE-2022-22965)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -4220,6 +4213,14 @@ PHPGurukul Blood Donor Management System 1.0 does not properly restrict access t
 </code>
 
 - [RashidKhanPathan/CVE-2022-38813](https://github.com/RashidKhanPathan/CVE-2022-38813)
+
+### CVE-2022-39066 (2022-11-22)
+
+<code>
+There is a SQL injection vulnerability in ZTE MF286R. Due to insufficient validation of the input parameters of the phonebook interface, an authenticated attacker could use the vulnerability to execute arbitrary SQL injection.
+</code>
+
+- [v0lp3/CVE-2022-39066](https://github.com/v0lp3/CVE-2022-39066)
 
 ### CVE-2022-39196 (2022-09-04)
 
@@ -10185,7 +10186,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [Barriuso/SMBGhost_AutomateExploitation](https://github.com/Barriuso/SMBGhost_AutomateExploitation)
 - [1060275195/SMBGhost](https://github.com/1060275195/SMBGhost)
 - [Almorabea/SMBGhost-LPE-Metasploit-Module](https://github.com/Almorabea/SMBGhost-LPE-Metasploit-Module)
-- [ZecOps/SMBGhost-SMBleed-scanner](https://github.com/ZecOps/SMBGhost-SMBleed-scanner)
 - [5l1v3r1/smbghost-5](https://github.com/5l1v3r1/smbghost-5)
 - [rsmudge/CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)
 - [codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-)
@@ -13302,6 +13302,7 @@ An issue was discovered in SaltStack Salt through 3002. Sending crafted web requ
 </code>
 
 - [zomy22/CVE-2020-16846-Saltstack-Salt-API](https://github.com/zomy22/CVE-2020-16846-Saltstack-Salt-API)
+- [hamza-boudouche/projet-secu](https://github.com/hamza-boudouche/projet-secu)
 
 ### CVE-2020-16898 (2020-10-16)
 
@@ -20000,7 +20001,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [lsnakazone/cve-2018-6574](https://github.com/lsnakazone/cve-2018-6574)
 - [pswalia2u/CVE-2018-6574](https://github.com/pswalia2u/CVE-2018-6574)
 - [jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC)
-- [Yashrk078/Test_CVE-2018-6574](https://github.com/Yashrk078/Test_CVE-2018-6574)
 - [azzzzzzzzzzzzzzzzz/CVE-2018-6574](https://github.com/azzzzzzzzzzzzzzzzz/CVE-2018-6574)
 - [FilipeFraqueiro/CVE-2018-6574](https://github.com/FilipeFraqueiro/CVE-2018-6574)
 - [shadofren/CVE-2018-6574](https://github.com/shadofren/CVE-2018-6574)
@@ -29482,6 +29482,14 @@ SQL injection vulnerability in dosearch.inc.php in UBB.threads 7.3.1 and earlier
 </code>
 
 - [KyomaHooin/CVE-2008-6970](https://github.com/KyomaHooin/CVE-2008-6970)
+
+### CVE-2008-7220 (2009-09-13)
+
+<code>
+Unspecified vulnerability in Prototype JavaScript framework (prototypejs) before 1.6.0.2 allows attackers to make &quot;cross-site ajax requests&quot; via unknown vectors.
+</code>
+
+- [followboy1999/CVE-2008-7220](https://github.com/followboy1999/CVE-2008-7220)
 
 
 ## 2007
