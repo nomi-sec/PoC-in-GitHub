@@ -3930,7 +3930,7 @@ There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSD
 - [cosad3s/CVE-2022-35914-poc](https://github.com/cosad3s/CVE-2022-35914-poc)
 - [xiaobaiakai/CVE-2022-35914](https://github.com/xiaobaiakai/CVE-2022-35914)
 - [6E6L6F/CVE-2022-35914](https://github.com/6E6L6F/CVE-2022-35914)
-- [Gabriel-Lima232/CVE-2022-35914](https://github.com/Gabriel-Lima232/CVE-2022-35914)
+- [0xGabe/CVE-2022-35914](https://github.com/0xGabe/CVE-2022-35914)
 
 ### CVE-2022-36067 (2022-09-06)
 
@@ -28192,7 +28192,7 @@ ResourceBuilderImpl.java in the RichFaces 3.x through 5.x implementation in Red 
 The vm_map_lookup function in sys/vm/vm_map.c in the mmap implementation in the kernel in FreeBSD 9.0 through 9.1-RELEASE-p4 does not properly determine whether a task should have write access to a memory location, which allows local users to bypass filesystem write permissions and consequently gain privileges via a crafted application that leverages read permissions, and makes mmap and ptrace system calls.
 </code>
 
-- [Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation](https://github.com/Gabriel-Lima232/FreeBSD-9.0-9.1-Privilege-Escalation)
+- [0xGabe/FreeBSD-9.0-9.1-Privilege-Escalation](https://github.com/0xGabe/FreeBSD-9.0-9.1-Privilege-Escalation)
 
 ### CVE-2013-2186 (2013-10-28)
 
