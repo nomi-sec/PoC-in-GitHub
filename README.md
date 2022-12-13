@@ -693,6 +693,14 @@ A buffer overrun can be triggered in X.509 certificate verification, specificall
 ### CVE-2022-3699
 - [alfarom256/CVE-2022-3699](https://github.com/alfarom256/CVE-2022-3699)
 
+### CVE-2022-3786 (2022-11-01)
+
+<code>
+A buffer overrun can be triggered in X.509 certificate verification, specifically in name constraint checking. Note that this occurs after certificate chain signature verification and requires either a CA to have signed a malicious certificate or for an application to continue certificate verification despite failure to construct a path to a trusted issuer. An attacker can craft a malicious email address in a certificate to overflow an arbitrary number of bytes containing the `.' character (decimal 46) on the stack. This buffer overflow could result in a crash (causing a denial of service). In a TLS client, this can be triggered by connecting to a malicious server. In a TLS server, this can be triggered if the server requests client authentication and a malicious client connects.
+</code>
+
+- [plharraud/cve-2022-3786](https://github.com/plharraud/cve-2022-3786)
+
 ### CVE-2022-3942 (2022-11-11)
 
 <code>
@@ -758,7 +766,7 @@ In startActivityForAttachedApplicationIfNeeded of RootWindowContainer.java, ther
 ### CVE-2022-20124 (2022-06-15)
 
 <code>
-In deletePackageX of DeletePackageHelper.java, there is a possible way for a Guest user to reset pre-loaded applications for other users due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-170646036
+In deletePackageX of DeletePackageHelper.java, there is a possible way for a Guest user to reset pre-loaded applications for other users due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-170646036
 </code>
 
 - [nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-](https://github.com/nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-)
@@ -4508,6 +4516,14 @@ In all versions, BIG-IP and BIG-IQ are vulnerable to cross-site request forgery 
 </code>
 
 - [rbowes-r7/refreshing-soap-exploit](https://github.com/rbowes-r7/refreshing-soap-exploit)
+
+### CVE-2022-41717 (2022-12-08)
+
+<code>
+An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.
+</code>
+
+- [domdom82/h2conn-exploit](https://github.com/domdom82/h2conn-exploit)
 
 ### CVE-2022-41852
 - [Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852)
