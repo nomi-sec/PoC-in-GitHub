@@ -5277,14 +5277,6 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
-### CVE-2021-1497 (2021-05-06)
-
-<code>
-Multiple vulnerabilities in the web-based management interface of Cisco HyperFlex HX could allow an unauthenticated, remote attacker to perform command injection attacks against an affected device. For more information about these vulnerabilities, see the Details section of this advisory.
-</code>
-
-- [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
-
 ### CVE-2021-1585 (2021-07-08)
 
 <code>
@@ -8919,6 +8911,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
+- [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
@@ -11078,6 +11071,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [un4gi/CVE-2020-5902](https://github.com/un4gi/CVE-2020-5902)
 - [yasserjanah/CVE-2020-5902](https://github.com/yasserjanah/CVE-2020-5902)
 - [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
+- [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
 - [0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902)
 - [jiansiting/CVE-2020-5902](https://github.com/jiansiting/CVE-2020-5902)
@@ -11116,7 +11110,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902)
 - [trhacknon/CVE-2020-5902-Scanner](https://github.com/trhacknon/CVE-2020-5902-Scanner)
-- [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -15533,6 +15526,7 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 
 - [timwr/CVE-2019-2215](https://github.com/timwr/CVE-2019-2215)
 - [raystyle/CVE-2019-2215](https://github.com/raystyle/CVE-2019-2215)
+- [kangtastic/cve-2019-2215](https://github.com/kangtastic/cve-2019-2215)
 - [marcinguy/CVE-2019-2215](https://github.com/marcinguy/CVE-2019-2215)
 - [LIznzn/CVE-2019-2215](https://github.com/LIznzn/CVE-2019-2215)
 - [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
@@ -16815,7 +16809,6 @@ Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative path
 </code>
 
 - [nidhi7598/linux-4.1.15_CVE-2019-10220](https://github.com/nidhi7598/linux-4.1.15_CVE-2019-10220)
-- [Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2019-10220](https://github.com/Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2019-10220)
 
 ### CVE-2019-10392 (2019-09-12)
 
@@ -17020,7 +17013,6 @@ In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7
 - [andripwn/pulse-exploit](https://github.com/andripwn/pulse-exploit)
 - [pwn3z/CVE-2019-11510-PulseVPN](https://github.com/pwn3z/CVE-2019-11510-PulseVPN)
 - [trhacknon/CVE-2019-11510](https://github.com/trhacknon/CVE-2019-11510)
-- [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 
 ### CVE-2019-11523 (2019-06-06)
 
@@ -22402,6 +22394,7 @@ zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressi
 </code>
 
 - [Trinadh465/external_zlib_4.4_CVE-2018-25032](https://github.com/Trinadh465/external_zlib_4.4_CVE-2018-25032)
+- [Satheesh575555/external_zlib-1.2.7_CVE-2018-25032](https://github.com/Satheesh575555/external_zlib-1.2.7_CVE-2018-25032)
 
 ### CVE-2018-1000001 (2018-01-31)
 
