@@ -8788,6 +8788,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
 - [trhacknon/exploit-grafana-CVE-2021-43798](https://github.com/trhacknon/exploit-grafana-CVE-2021-43798)
+- [YourKeeper/SunScope](https://github.com/YourKeeper/SunScope)
 
 ### CVE-2021-43811 (2021-12-08)
 
@@ -8918,7 +8919,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
 - [CreeperHost/Log4jPatcher](https://github.com/CreeperHost/Log4jPatcher)
-- [DragonSurvivalEU/RCE](https://github.com/DragonSurvivalEU/RCE)
 - [christophetd/log4shell-vulnerable-app](https://github.com/christophetd/log4shell-vulnerable-app)
 - [lhotari/pulsar-docker-images-patch-CVE-2021-44228](https://github.com/lhotari/pulsar-docker-images-patch-CVE-2021-44228)
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
@@ -15533,7 +15533,6 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 
 - [timwr/CVE-2019-2215](https://github.com/timwr/CVE-2019-2215)
 - [raystyle/CVE-2019-2215](https://github.com/raystyle/CVE-2019-2215)
-- [kangtastic/cve-2019-2215](https://github.com/kangtastic/cve-2019-2215)
 - [marcinguy/CVE-2019-2215](https://github.com/marcinguy/CVE-2019-2215)
 - [LIznzn/CVE-2019-2215](https://github.com/LIznzn/CVE-2019-2215)
 - [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
@@ -16816,6 +16815,7 @@ Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative path
 </code>
 
 - [nidhi7598/linux-4.1.15_CVE-2019-10220](https://github.com/nidhi7598/linux-4.1.15_CVE-2019-10220)
+- [Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2019-10220](https://github.com/Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2019-10220)
 
 ### CVE-2019-10392 (2019-09-12)
 
