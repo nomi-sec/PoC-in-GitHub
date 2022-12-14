@@ -4451,6 +4451,14 @@ In drivers/media/dvb-core/dmxdev.c in the Linux kernel through 5.19.10, there is
 
 - [V4bel/CVE-2022-41218](https://github.com/V4bel/CVE-2022-41218)
 
+### CVE-2022-41272 (2022-12-12)
+
+<code>
+An unauthenticated attacker over the network can attach to an open interface exposed through JNDI by the User Defined Search (UDS) of SAP NetWeaver Process Integration (PI) - version 7.50 and make use of an open naming and directory API to access services which can be used to perform unauthorized operations affecting users and data across the entire system. This allows the attacker to have full read access to user data, make limited modifications to user data, and degrade the performance of the system, leading to a high impact on confidentiality and a limited impact on the availability and integrity of the application.
+</code>
+
+- [redrays-io/CVE-2022-41272](https://github.com/redrays-io/CVE-2022-41272)
+
 ### CVE-2022-41352 (2022-09-25)
 
 <code>
@@ -4745,6 +4753,14 @@ CAE LearningSpace Enterprise (with Intuity License) image 267r patch 639 allows 
 </code>
 
 - [nicbrinkley/CVE-2022-45472](https://github.com/nicbrinkley/CVE-2022-45472)
+
+### CVE-2022-45771 (2022-12-05)
+
+<code>
+An issue in the /api/audits component of Pwndoc v0.5.3 allows attackers to escalate privileges and execute arbitrary code via uploading a crafted audit file.
+</code>
+
+- [p0dalirius/CVE-2022-45771-Pwndoc-LFI-to-RCE](https://github.com/p0dalirius/CVE-2022-45771-Pwndoc-LFI-to-RCE)
 
 ### CVE-2022-46169 (2022-12-05)
 
