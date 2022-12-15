@@ -643,6 +643,9 @@ A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
+### CVE-2022-3328
+- [Mr-xn/CVE-2022-3328](https://github.com/Mr-xn/CVE-2022-3328)
+
 ### CVE-2022-3368 (2022-10-17)
 
 <code>
@@ -7823,6 +7826,14 @@ Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbi
 
 - [deathflash1411/CVE-2021-35448](https://github.com/deathflash1411/CVE-2021-35448)
 
+### CVE-2021-35464 (2021-07-22)
+
+<code>
+ForgeRock AM server before 7.0 has a Java deserialization vulnerability in the jato.pageSession parameter on multiple pages. The exploitation does not require authentication, and remote code execution can be triggered by sending a single crafted /ccversion/* request to the server. The vulnerability exists due to the usage of Sun ONE Application Framework (JATO) found in versions of Java 8 or earlier
+</code>
+
+- [Y4er/openam-CVE-2021-35464](https://github.com/Y4er/openam-CVE-2021-35464)
+
 ### CVE-2021-35475 (2021-06-25)
 
 <code>
@@ -9026,7 +9037,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [puzzlepeaches/Log4jCenter](https://github.com/puzzlepeaches/Log4jCenter)
 - [djungeldan/Log4Me](https://github.com/djungeldan/Log4Me)
 - [ArkAngeL43/f-for-java](https://github.com/ArkAngeL43/f-for-java)
-- [spasam/log4j2-exploit](https://github.com/spasam/log4j2-exploit)
 - [bumheehan/cve-2021-44228-log4j-test](https://github.com/bumheehan/cve-2021-44228-log4j-test)
 - [JagarYousef/log4j-dork-scanner](https://github.com/JagarYousef/log4j-dork-scanner)
 - [dmitsuo/log4shell-war-fixer](https://github.com/dmitsuo/log4shell-war-fixer)
@@ -10259,6 +10269,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
 - [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
 - [SEHandler/CVE-2020-0796](https://github.com/SEHandler/CVE-2020-0796)
+- [TweatherQ/CVE-2020-0796](https://github.com/TweatherQ/CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -11086,7 +11097,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [un4gi/CVE-2020-5902](https://github.com/un4gi/CVE-2020-5902)
 - [yasserjanah/CVE-2020-5902](https://github.com/yasserjanah/CVE-2020-5902)
 - [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
-- [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
 - [0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902)
 - [jiansiting/CVE-2020-5902](https://github.com/jiansiting/CVE-2020-5902)
@@ -16824,6 +16834,7 @@ Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative path
 </code>
 
 - [nidhi7598/linux-4.1.15_CVE-2019-10220](https://github.com/nidhi7598/linux-4.1.15_CVE-2019-10220)
+- [Trinadh465/linux-3.0.35_CVE-2019-10220](https://github.com/Trinadh465/linux-3.0.35_CVE-2019-10220)
 
 ### CVE-2019-10392 (2019-09-12)
 
