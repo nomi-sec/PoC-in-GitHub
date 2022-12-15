@@ -28677,6 +28677,7 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 - [R00tendo/CVE-2012-2982](https://github.com/R00tendo/CVE-2012-2982)
 - [blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982)
 - [0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982)
+- [0xTas/CVE-2012-2982](https://github.com/0xTas/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
 
