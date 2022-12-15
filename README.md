@@ -4702,6 +4702,7 @@ In libexpat through 2.4.9, there is a use-after free caused by overeager destruc
 
 - [nidhi7598/G3_expat-2.2.6_CVE-2022-43680](https://github.com/nidhi7598/G3_expat-2.2.6_CVE-2022-43680)
 - [nidhi7598/expat_2.1.0-_CVE-2022-43680](https://github.com/nidhi7598/expat_2.1.0-_CVE-2022-43680)
+- [Trinadh465/external_expat-2.1.0_CVE-2022-43680](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-43680)
 
 ### CVE-2022-43959
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
@@ -6371,6 +6372,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 Applications using both `spring-cloud-netflix-hystrix-dashboard` and `spring-boot-starter-thymeleaf` expose a way to execute code submitted within the request URI path during the resolution of view templates. When a request is made at `/hystrix/monitor;[user-provided data]`, the path elements following `hystrix/monitor` are being evaluated as SpringEL expressions, which can lead to code execution.
 </code>
 
+- [SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053](https://github.com/SecCoder-Security-Lab/spring-cloud-netflix-hystrix-dashboard-cve-2021-22053)
 - [Vulnmachines/CVE-2021-22053](https://github.com/Vulnmachines/CVE-2021-22053)
 
 ### CVE-2021-22054 (2021-12-17)
@@ -7818,14 +7820,6 @@ An issue in the administrator authentication panel of PTCL HG150-Ub v3.0 allows 
 
 - [afaq1337/CVE-2021-35296](https://github.com/afaq1337/CVE-2021-35296)
 
-### CVE-2021-35448 (2021-06-24)
-
-<code>
-Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbitrary programs as Administrator by using the Image Transfer Folder feature to navigate to cmd.exe. It binds to local ports to listen for incoming connections.
-</code>
-
-- [deathflash1411/CVE-2021-35448](https://github.com/deathflash1411/CVE-2021-35448)
-
 ### CVE-2021-35464 (2021-07-22)
 
 <code>
@@ -8332,14 +8326,6 @@ Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-
 
 - [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
 - [0xrobiul/CVE-2021-41349](https://github.com/0xrobiul/CVE-2021-41349)
-
-### CVE-2021-41652 (2022-03-01)
-
-<code>
-Insecure permissions in the file database.sdb of BatFlat CMS v1.3.6 allows attackers to dump the entire database.
-</code>
-
-- [deathflash1411/CVE-2021-41652](https://github.com/deathflash1411/CVE-2021-41652)
 
 ### CVE-2021-41730
 - [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
@@ -9037,6 +9023,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [puzzlepeaches/Log4jCenter](https://github.com/puzzlepeaches/Log4jCenter)
 - [djungeldan/Log4Me](https://github.com/djungeldan/Log4Me)
 - [ArkAngeL43/f-for-java](https://github.com/ArkAngeL43/f-for-java)
+- [spasam/log4j2-exploit](https://github.com/spasam/log4j2-exploit)
 - [bumheehan/cve-2021-44228-log4j-test](https://github.com/bumheehan/cve-2021-44228-log4j-test)
 - [JagarYousef/log4j-dork-scanner](https://github.com/JagarYousef/log4j-dork-scanner)
 - [dmitsuo/log4shell-war-fixer](https://github.com/dmitsuo/log4shell-war-fixer)
