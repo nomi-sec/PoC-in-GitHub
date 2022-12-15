@@ -4770,6 +4770,14 @@ Cacti is an open source platform which provides a robust and extensible operatio
 
 - [0xf4n9x/CVE-2022-46169](https://github.com/0xf4n9x/CVE-2022-46169)
 
+### CVE-2022-46381 (2022-12-13)
+
+<code>
+Certain Linear eMerge E3-Series devices are vulnerable to XSS via the type parameter (e.g., to the badging/badge_template_v0.php component). This affects 0.32-08f, 0.32-07p, 0.32-07e, 0.32-09c, 0.32-09b, 0.32-09a, and 0.32-08e.
+</code>
+
+- [amitlttwo/CVE-2022-46381](https://github.com/amitlttwo/CVE-2022-46381)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -5944,7 +5952,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Kashiki078/CVE-2021-4034](https://github.com/Kashiki078/CVE-2021-4034)
 - [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
 - [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
-- [Hifumi1337/CVE-2021-4034](https://github.com/Hifumi1337/CVE-2021-4034)
+- [hifumi1337/CVE-2021-4034](https://github.com/hifumi1337/CVE-2021-4034)
 - [TheJoyOfHacking/berdav-CVE-2021-4034](https://github.com/TheJoyOfHacking/berdav-CVE-2021-4034)
 - [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
 - [Pajarraco4444/CVE-2021-4034](https://github.com/Pajarraco4444/CVE-2021-4034)
