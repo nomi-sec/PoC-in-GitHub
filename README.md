@@ -4750,6 +4750,9 @@ A cross-site scripting (XSS) vulnerability in Book Store Management System v1.0.
 ### CVE-2022-45265
 - [maikroservice/CVE-2022-45265](https://github.com/maikroservice/CVE-2022-45265)
 
+### CVE-2022-45451
+- [alfarom256/CVE-2022-45451](https://github.com/alfarom256/CVE-2022-45451)
+
 ### CVE-2022-45472 (2022-11-23)
 
 <code>
