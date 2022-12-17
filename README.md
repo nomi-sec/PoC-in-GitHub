@@ -4794,6 +4794,14 @@ Certain Linear eMerge E3-Series devices are vulnerable to XSS via the type param
 
 - [amitlttwo/CVE-2022-46381](https://github.com/amitlttwo/CVE-2022-46381)
 
+### CVE-2022-46689 (2022-12-15)
+
+<code>
+A race condition was addressed with additional validation. This issue is fixed in tvOS 16.2, macOS Monterey 12.6.2, macOS Ventura 13.1, macOS Big Sur 11.7.2, iOS 15.7.2 and iPadOS 15.7.2, iOS 16.2 and iPadOS 16.2, watchOS 9.2. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [zhuowei/MacDirtyCowDemo](https://github.com/zhuowei/MacDirtyCowDemo)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -23902,6 +23910,14 @@ Infotecs ViPNet Client and Coordinator before 4.3.2-42442 allow local users to g
 </code>
 
 - [Houl777/CVE-2017-9606](https://github.com/Houl777/CVE-2017-9606)
+
+### CVE-2017-9608 (2017-12-27)
+
+<code>
+The dnxhd decoder in FFmpeg before 3.2.6, and 3.3.x before 3.3.3 allows remote attackers to cause a denial of service (NULL pointer dereference) via a crafted mov file.
+</code>
+
+- [LaCinquette/practice-22-23](https://github.com/LaCinquette/practice-22-23)
 
 ### CVE-2017-9609 (2017-07-17)
 
