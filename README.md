@@ -29185,14 +29185,6 @@ The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Socke
 
 - [redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report)
 
-### CVE-2010-3971 (2010-12-22)
-
-<code>
-Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka &quot;CSS Memory Corruption Vulnerability.&quot;
-</code>
-
-- [nektra/CVE-2010-3971-hotpatch](https://github.com/nektra/CVE-2010-3971-hotpatch)
-
 ### CVE-2010-4221 (2010-11-09)
 
 <code>
