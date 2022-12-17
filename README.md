@@ -20300,6 +20300,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [0xkasra/CVE-2018-7600](https://github.com/0xkasra/CVE-2018-7600)
 - [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
 - [trhacknon/CVE-2018-7600](https://github.com/trhacknon/CVE-2018-7600)
+- [r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
