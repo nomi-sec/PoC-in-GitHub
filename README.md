@@ -4375,6 +4375,9 @@ Remote Code Execution in Clinic's Patient Management System v 1.0 allows Attacke
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
 
+### CVE-2022-40624
+- [dhammon/pfBlockerNg-CVE-2022-40624](https://github.com/dhammon/pfBlockerNg-CVE-2022-40624)
+
 ### CVE-2022-40674 (2022-09-14)
 
 <code>
