@@ -2918,6 +2918,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
+- [devengpk/CVE-2022-29464](https://github.com/devengpk/CVE-2022-29464)
 
 ### CVE-2022-29548 (2022-04-20)
 
