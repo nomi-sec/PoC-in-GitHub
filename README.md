@@ -4720,6 +4720,10 @@ In libexpat through 2.4.9, there is a use-after free caused by overeager destruc
 ### CVE-2022-43959
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
 
+### CVE-2022-44215
+- [JBalanza/CVE-2022-44215](https://github.com/JBalanza/CVE-2022-44215)
+- [wh-gov/CVE-2022-44215](https://github.com/wh-gov/CVE-2022-44215)
+
 ### CVE-2022-44721 (2022-12-03)
 
 <code>
@@ -11118,7 +11122,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
 - [0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902)
-- [wdlid/CVE-2020-5902-fix](https://github.com/wdlid/CVE-2020-5902-fix)
 - [Any3ite/CVE-2020-5902-F5BIG](https://github.com/Any3ite/CVE-2020-5902-F5BIG)
 - [k3nundrum/CVE-2020-5902](https://github.com/k3nundrum/CVE-2020-5902)
 - [inho28/CVE-2020-5902-F5-BIGIP](https://github.com/inho28/CVE-2020-5902-F5-BIGIP)
@@ -13489,6 +13492,7 @@ The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x8
 </code>
 
 - [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
+- [Exploitables/CVE-2020-17382](https://github.com/Exploitables/CVE-2020-17382)
 
 ### CVE-2020-17453 (2021-04-05)
 
@@ -25385,6 +25389,14 @@ Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile meth
 </code>
 
 - [icewall/CVE-2016-2334](https://github.com/icewall/CVE-2016-2334)
+
+### CVE-2016-2338 (2020-02-14)
+
+<code>
+An exploitable heap overflow vulnerability exists in the Psych::Emitter start_document function of Ruby. In Psych::Emitter start_document function heap buffer &quot;head&quot; allocation is made based on tags array length. Specially constructed object passed as element of tags array can increase this array size after mentioned allocation and cause heap overflow.
+</code>
+
+- [SpiralBL0CK/CVE-2016-2338-nday](https://github.com/SpiralBL0CK/CVE-2016-2338-nday)
 
 ### CVE-2016-2386 (2016-02-16)
 
