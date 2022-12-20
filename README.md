@@ -1,6 +1,14 @@
 # PoC in GitHub
 
 ## 2022
+### CVE-2022-0123 (2022-03-28)
+
+<code>
+An issue has been discovered affecting GitLab versions prior to 14.4.5, between 14.5.0 and 14.5.3, and between 14.6.0 and 14.6.1. GitLab does not validate SSL certificates for some of external CI services which makes it possible to perform MitM attacks on connections to these external services.
+</code>
+
+- [SURENKUMAR-0212/CVE-2022-0123](https://github.com/SURENKUMAR-0212/CVE-2022-0123)
+
 ### CVE-2022-0185 (2022-02-11)
 
 <code>
@@ -5998,7 +6006,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [wudicainiao/cve-2021-4034](https://github.com/wudicainiao/cve-2021-4034)
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
 - [CronoX1/CVE-2021-4034](https://github.com/CronoX1/CVE-2021-4034)
-- [n0v4mx/cve-2021-4034](https://github.com/n0v4mx/cve-2021-4034)
+- [supportingmx/cve-2021-4034](https://github.com/supportingmx/cve-2021-4034)
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
@@ -6284,6 +6292,14 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
 - [ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551)
 - [tijme/kernel-mii](https://github.com/tijme/kernel-mii)
+
+### CVE-2021-21809 (2021-06-23)
+
+<code>
+A command execution vulnerability exists in the default legacy spellchecker plugin in Moodle 3.10. A specially crafted series of HTTP requests can lead to command execution. An attacker must have administrator privileges to exploit this vulnerabilities.
+</code>
+
+- [anldori/CVE-2021-21809](https://github.com/anldori/CVE-2021-21809)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -9022,7 +9038,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [dbzoo/log4j_scanner](https://github.com/dbzoo/log4j_scanner)
 - [bhprin/log4j-vul](https://github.com/bhprin/log4j-vul)
 - [anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228](https://github.com/anuvindhs/how-to-check-patch-secure-log4j-CVE-2021-44228)
-- [KeysAU/Get-log4j-Windows.ps1](https://github.com/KeysAU/Get-log4j-Windows.ps1)
 - [isuruwa/Log4j](https://github.com/isuruwa/Log4j)
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
 - [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
@@ -9267,6 +9282,7 @@ A path traversal vulnerability in the file upload functionality in tinyfilemanag
 </code>
 
 - [febinrev/CVE-2021-45010-TinyFileManager-Exploit](https://github.com/febinrev/CVE-2021-45010-TinyFileManager-Exploit)
+- [BKreisel/CVE-2021-45010](https://github.com/BKreisel/CVE-2021-45010)
 
 ### CVE-2021-45041 (2021-12-19)
 
