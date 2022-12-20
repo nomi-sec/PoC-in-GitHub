@@ -7,7 +7,7 @@
 An issue has been discovered affecting GitLab versions prior to 14.4.5, between 14.5.0 and 14.5.3, and between 14.6.0 and 14.6.1. GitLab does not validate SSL certificates for some of external CI services which makes it possible to perform MitM attacks on connections to these external services.
 </code>
 
-- [SURENKUMAR-0212/CVE-2022-0123](https://github.com/SURENKUMAR-0212/CVE-2022-0123)
+- [SURENKUMAR-0212/cve-2022-0123](https://github.com/SURENKUMAR-0212/cve-2022-0123)
 
 ### CVE-2022-0185 (2022-02-11)
 
@@ -621,6 +621,9 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 - [konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF)
 - [ida-bro/CVE-2022-2588](https://github.com/ida-bro/CVE-2022-2588)
 - [BassamGraini/CVE-2022-2588](https://github.com/BassamGraini/CVE-2022-2588)
+
+### CVE-2022-2602
+- [kiks7/CVE-2022-2602-Kernel-Exploit](https://github.com/kiks7/CVE-2022-2602-Kernel-Exploit)
 
 ### CVE-2022-2639 (2022-09-01)
 
@@ -4197,6 +4200,14 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 ### CVE-2022-37708
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
 
+### CVE-2022-37958 (2022-09-13)
+
+<code>
+SPNEGO Extended Negotiation (NEGOEX) Security Mechanism Information Disclosure Vulnerability.
+</code>
+
+- [RCEman01/CVE-2022-37958-Windows-Server-RCE](https://github.com/RCEman01/CVE-2022-37958-Windows-Server-RCE)
+
 ### CVE-2022-38217
 - [SupremacyTeam/evilReveal](https://github.com/SupremacyTeam/evilReveal)
 
@@ -4637,7 +4648,6 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [neerazz/CVE-2022-42889](https://github.com/neerazz/CVE-2022-42889)
 - [uk0/cve-2022-42889-intercept](https://github.com/uk0/cve-2022-42889-intercept)
 - [securekomodo/text4shell-poc](https://github.com/securekomodo/text4shell-poc)
-- [RIP-Network/cve-2022-42889-scanner](https://github.com/RIP-Network/cve-2022-42889-scanner)
 - [humbss/CVE-2022-42889](https://github.com/humbss/CVE-2022-42889)
 - [stavrosgns/Text4ShellPayloads](https://github.com/stavrosgns/Text4ShellPayloads)
 - [s3l33/CVE-2022-42889](https://github.com/s3l33/CVE-2022-42889)
@@ -5325,6 +5335,14 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 </code>
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
+
+### CVE-2021-1497 (2021-05-06)
+
+<code>
+Multiple vulnerabilities in the web-based management interface of Cisco HyperFlex HX could allow an unauthenticated, remote attacker to perform command injection attacks against an affected device. For more information about these vulnerabilities, see the Details section of this advisory.
+</code>
+
+- [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 
 ### CVE-2021-1585 (2021-07-08)
 
@@ -9076,7 +9094,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [djungeldan/Log4Me](https://github.com/djungeldan/Log4Me)
 - [ArkAngeL43/f-for-java](https://github.com/ArkAngeL43/f-for-java)
 - [bumheehan/cve-2021-44228-log4j-test](https://github.com/bumheehan/cve-2021-44228-log4j-test)
-- [JagarYousef/log4j-dork-scanner](https://github.com/JagarYousef/log4j-dork-scanner)
 - [dmitsuo/log4shell-war-fixer](https://github.com/dmitsuo/log4shell-war-fixer)
 - [Y0-kan/Log4jShell-Scan](https://github.com/Y0-kan/Log4jShell-Scan)
 - [julian911015/Log4j-Scanner-Exploit](https://github.com/julian911015/Log4j-Scanner-Exploit)
@@ -11138,7 +11155,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
 - [0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902)
-- [Any3ite/CVE-2020-5902-F5BIG](https://github.com/Any3ite/CVE-2020-5902-F5BIG)
 - [k3nundrum/CVE-2020-5902](https://github.com/k3nundrum/CVE-2020-5902)
 - [inho28/CVE-2020-5902-F5-BIGIP](https://github.com/inho28/CVE-2020-5902-F5-BIGIP)
 - [cristiano-corrado/f5_scanner](https://github.com/cristiano-corrado/f5_scanner)
@@ -11172,6 +11188,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902)
 - [trhacknon/CVE-2020-5902-Scanner](https://github.com/trhacknon/CVE-2020-5902-Scanner)
+- [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -17078,6 +17095,7 @@ In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7
 - [andripwn/pulse-exploit](https://github.com/andripwn/pulse-exploit)
 - [pwn3z/CVE-2019-11510-PulseVPN](https://github.com/pwn3z/CVE-2019-11510-PulseVPN)
 - [trhacknon/CVE-2019-11510](https://github.com/trhacknon/CVE-2019-11510)
+- [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 
 ### CVE-2019-11523 (2019-06-06)
 
