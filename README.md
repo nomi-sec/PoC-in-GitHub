@@ -4086,7 +4086,7 @@ An issue was discovered in Artica Proxy 4.30.000000. There is a XSS vulnerabilit
 ### CVE-2022-37177 (2022-08-29)
 
 <code>
-** DISPUTED ** HireVue Hiring Platform V1.0 suffers from Use of a Broken or Risky Cryptographic Algorithm. NOTE: this is disputed by the vendor for multiple reasons, e.g., it is inconsistent with CVE ID assignment rules for cloud services, and no product with version V1.0 exists.
+** DISPUTED ** HireVue Hiring Platform V1.0 suffers from Use of a Broken or Risky Cryptographic Algorithm. NOTE: this is disputed by the vendor for multiple reasons, e.g., it is inconsistent with CVE ID assignment rules for cloud services, and no product with version V1.0 exists. Furthermore, the rail-fence cipher has been removed, and TLS 1.2 is now used for encryption.
 </code>
 
 - [JC175/CVE-2022-37177](https://github.com/JC175/CVE-2022-37177)
@@ -21565,7 +21565,7 @@ In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execut
 - [bukitbarisan/laravel-rce-cve-2018-15133](https://github.com/bukitbarisan/laravel-rce-cve-2018-15133)
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
-- [PwnedShell/Larascript](https://github.com/PwnedShell/Larascript)
+- [pwnedshell/Larascript](https://github.com/pwnedshell/Larascript)
 - [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 - [huydoppa/CVE-2018-15133](https://github.com/huydoppa/CVE-2018-15133)
 - [NatteeSetobol/CVE-2018-15133-Lavel-Expliot](https://github.com/NatteeSetobol/CVE-2018-15133-Lavel-Expliot)
@@ -25564,7 +25564,7 @@ server/LockSettingsService.java in LockSettingsService in Android 6.x before 201
 LibUtils in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-09-01, and 7.0 before 2016-09-01 mishandles conversions between Unicode character encodings with different encoding widths, which allows remote attackers to execute arbitrary code or cause a denial of service (heap-based buffer overflow) via a crafted file, aka internal bug 29250543.
 </code>
 
-- [dropk1ck/CVE-2016-3861](https://github.com/dropk1ck/CVE-2016-3861)
+- [ionraider/CVE-2016-3861](https://github.com/ionraider/CVE-2016-3861)
 
 ### CVE-2016-3955 (2016-07-03)
 
