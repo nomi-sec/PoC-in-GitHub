@@ -1756,6 +1756,7 @@ Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are af
 - [oK0mo/CVE-2022-24086-RCE-PoC](https://github.com/oK0mo/CVE-2022-24086-RCE-PoC)
 - [seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087)
 - [akr3ch/CVE-2022-24086](https://github.com/akr3ch/CVE-2022-24086)
+- [pescepilota/CVE-2022-24086](https://github.com/pescepilota/CVE-2022-24086)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -2824,6 +2825,7 @@ Multiple SQL injection vulnerabilities via the username and password parameters 
 - [kagancapar/CVE-2022-29072](https://github.com/kagancapar/CVE-2022-29072)
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 - [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
+- [Phantomiman/7-Zip.chm-mitigiation](https://github.com/Phantomiman/7-Zip.chm-mitigiation)
 
 ### CVE-2022-29078 (2022-04-25)
 
@@ -4066,6 +4068,7 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [ColdFusionX/CVE-2022-36804](https://github.com/ColdFusionX/CVE-2022-36804)
 - [qiwentaidi/CVE-2022-36804](https://github.com/qiwentaidi/CVE-2022-36804)
 - [Jhonsonwannaa/CVE-2022-36804](https://github.com/Jhonsonwannaa/CVE-2022-36804)
+- [devengpk/CVE-2022-36804](https://github.com/devengpk/CVE-2022-36804)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -4395,7 +4398,12 @@ Remote Code Execution in Clinic's Patient Management System v 1.0 allows Attacke
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
 
-### CVE-2022-40624
+### CVE-2022-40624 (-)
+
+<code>
+pfSense pfBlockerNG through 2.1.4_27 allows remote attackers to execute arbitrary OS commands as root via the HTTP Host header, a different vulnerability than CVE-2022-31814.
+</code>
+
 - [dhammon/pfBlockerNg-CVE-2022-40624](https://github.com/dhammon/pfBlockerNg-CVE-2022-40624)
 
 ### CVE-2022-40674 (2022-09-14)
