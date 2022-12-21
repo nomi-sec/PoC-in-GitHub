@@ -665,6 +665,14 @@ A vulnerability within the Software Updater functionality of Avira Security for 
 
 - [Wh04m1001/CVE-2022-3368](https://github.com/Wh04m1001/CVE-2022-3368)
 
+### CVE-2022-3382 (2022-10-17)
+
+<code>
+HIWIN Robot System Software version 3.3.21.9869 does not properly address the terminated command source. As a result, an attacker could craft code to disconnect HRSS and the controller and cause a denial-of-service condition.
+</code>
+
+- [PyterSmithDarkGhost/CVE-2022-3382ROBOTICAEXPLOITPOC](https://github.com/PyterSmithDarkGhost/CVE-2022-3382ROBOTICAEXPLOITPOC)
+
 ### CVE-2022-3452 (2022-10-11)
 
 <code>
@@ -1360,13 +1368,13 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [tyleraharrison/VMware-CVE-2022-22954-Command-Injector](https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector)
 - [MLX15/CVE-2022-22954](https://github.com/MLX15/CVE-2022-22954)
 - [mhurts/CVE-2022-22954-POC](https://github.com/mhurts/CVE-2022-22954-POC)
-- [trhacknon/CVE-2022-22954-PoC](https://github.com/trhacknon/CVE-2022-22954-PoC)
 - [Chocapikk/CVE-2022-22954](https://github.com/Chocapikk/CVE-2022-22954)
 - [orwagodfather/CVE-2022-22954](https://github.com/orwagodfather/CVE-2022-22954)
 - [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
 - [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
+- [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
 - [Jhonsonwannaa/CVE-2022-22954](https://github.com/Jhonsonwannaa/CVE-2022-22954)
@@ -2825,7 +2833,7 @@ Multiple SQL injection vulnerabilities via the username and password parameters 
 - [kagancapar/CVE-2022-29072](https://github.com/kagancapar/CVE-2022-29072)
 - [tiktb8/CVE-2022-29072](https://github.com/tiktb8/CVE-2022-29072)
 - [sentinelblue/CVE-2022-29072](https://github.com/sentinelblue/CVE-2022-29072)
-- [Phantomiman/7-Zip.chm-mitigiation](https://github.com/Phantomiman/7-Zip.chm-mitigiation)
+- [Phantomiman/7-Zip.chm-Mitigation](https://github.com/Phantomiman/7-Zip.chm-Mitigation)
 
 ### CVE-2022-29078 (2022-04-25)
 
@@ -4398,7 +4406,7 @@ Remote Code Execution in Clinic's Patient Management System v 1.0 allows Attacke
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
 
-### CVE-2022-40624 (-)
+### CVE-2022-40624 (2022-12-20)
 
 <code>
 pfSense pfBlockerNG through 2.1.4_27 allows remote attackers to execute arbitrary OS commands as root via the HTTP Host header, a different vulnerability than CVE-2022-31814.
@@ -4715,6 +4723,9 @@ A cross-site scripting (XSS) vulnerability in Canteen Management System v1.0 all
 </code>
 
 - [mudassiruddin/CVE-2022-43144-Stored-XSS](https://github.com/mudassiruddin/CVE-2022-43144-Stored-XSS)
+
+### CVE-2022-43271
+- [SecurityWillCheck/CVE-2022-43271](https://github.com/SecurityWillCheck/CVE-2022-43271)
 
 ### CVE-2022-43332 (2022-11-17)
 
@@ -7865,6 +7876,14 @@ Telenot CompasX versions prior to 32.0 use a weak seed for random number generat
 
 - [x41sec/CVE-2021-34600](https://github.com/x41sec/CVE-2021-34600)
 
+### CVE-2021-34767 (2021-09-22)
+
+<code>
+A vulnerability in IPv6 traffic processing of Cisco IOS XE Wireless Controller Software for Cisco Catalyst 9000 Family Wireless Controllers could allow an unauthenticated, adjacent attacker to cause a Layer 2 (L2) loop in a configured VLAN, resulting in a denial of service (DoS) condition for that VLAN. The vulnerability is due to a logic error when processing specific link-local IPv6 traffic. An attacker could exploit this vulnerability by sending a crafted IPv6 packet that would flow inbound through the wired interface of an affected device. A successful exploit could allow the attacker to cause traffic drops in the affected VLAN, thus triggering the DoS condition.
+</code>
+
+- [lukejenkins/CVE-2021-34767](https://github.com/lukejenkins/CVE-2021-34767)
+
 ### CVE-2021-35042 (2021-07-02)
 
 <code>
@@ -9056,7 +9075,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [0xInfection/LogMePwn](https://github.com/0xInfection/LogMePwn)
 - [fox-it/log4j-finder](https://github.com/fox-it/log4j-finder)
 - [wortell/log4j](https://github.com/wortell/log4j)
-- [BinaryDefense/log4j-honeypot-flask](https://github.com/BinaryDefense/log4j-honeypot-flask)
 - [MalwareTech/Log4jTools](https://github.com/MalwareTech/Log4jTools)
 - [xsultan/log4jshield](https://github.com/xsultan/log4jshield)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
