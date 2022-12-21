@@ -2932,10 +2932,10 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [Inplex-sys/CVE-2022-29464-loader](https://github.com/Inplex-sys/CVE-2022-29464-loader)
 - [trhacknon/CVE-2022-29464](https://github.com/trhacknon/CVE-2022-29464)
 - [Chocapikk/CVE-2022-29464](https://github.com/Chocapikk/CVE-2022-29464)
-- [trhacknon/CVE-2022-29464-mass](https://github.com/trhacknon/CVE-2022-29464-mass)
 - [jimidk/Better-CVE-2022-29464](https://github.com/jimidk/Better-CVE-2022-29464)
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
 - [Blackyguy/-CVE-2022-29464](https://github.com/Blackyguy/-CVE-2022-29464)
+- [amit-pathak009/CVE-2022-29464-mass](https://github.com/amit-pathak009/CVE-2022-29464-mass)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
@@ -4847,6 +4847,9 @@ A race condition was addressed with additional validation. This issue is fixed i
 </code>
 
 - [zhuowei/MacDirtyCowDemo](https://github.com/zhuowei/MacDirtyCowDemo)
+
+### CVE-2022-48870
+- [Cedric1314/CVE-2022-48870](https://github.com/Cedric1314/CVE-2022-48870)
 
 
 ## 2021
