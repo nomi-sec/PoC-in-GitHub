@@ -1,14 +1,6 @@
 # PoC in GitHub
 
 ## 2022
-### CVE-2022-0123 (2022-03-28)
-
-<code>
-An issue has been discovered affecting GitLab versions prior to 14.4.5, between 14.5.0 and 14.5.3, and between 14.6.0 and 14.6.1. GitLab does not validate SSL certificates for some of external CI services which makes it possible to perform MitM attacks on connections to these external services.
-</code>
-
-- [SURENKUMAR-0212/cve-2022-0123](https://github.com/SURENKUMAR-0212/cve-2022-0123)
-
 ### CVE-2022-0185 (2022-02-11)
 
 <code>
@@ -623,6 +615,7 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 - [BassamGraini/CVE-2022-2588](https://github.com/BassamGraini/CVE-2022-2588)
 
 ### CVE-2022-2602
+- [LukeGix/CVE-2022-2602](https://github.com/LukeGix/CVE-2022-2602)
 - [kiks7/CVE-2022-2602-Kernel-Exploit](https://github.com/kiks7/CVE-2022-2602-Kernel-Exploit)
 
 ### CVE-2022-2639 (2022-09-01)
@@ -758,6 +751,9 @@ A vulnerability classified as problematic was found in SourceCodester Sanitizati
 
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
+
+### CVE-2022-14733
+- [hkzck/CVE-2022-14733](https://github.com/hkzck/CVE-2022-14733)
 
 ### CVE-2022-20004 (2022-05-10)
 
@@ -3591,7 +3587,7 @@ Codoforum v5.1 was discovered to contain an arbitrary file upload vulnerability 
 SourceCodester Zoo Management System 1.0 is vulnerable to Cross Site Scripting (XSS) via public_html/register_visitor?msg=.
 </code>
 
-- [AngeloPioAmirante/CVE-2022-31897](https://github.com/AngeloPioAmirante/CVE-2022-31897)
+- [angelopioamirante/CVE-2022-31897](https://github.com/angelopioamirante/CVE-2022-31897)
 
 ### CVE-2022-31898 (2022-10-27)
 
@@ -3721,7 +3717,7 @@ Cross Site Scripting (XSS) vulnerability in router Asus DSL-N14U-B1 1.1.2.3_805 
 A stored cross-site scripting (XSS) vulnerability in the Add Classification function of Zoo Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via unspecified vectors.
 </code>
 
-- [AngeloPioAmirante/CVE-2022-33075](https://github.com/AngeloPioAmirante/CVE-2022-33075)
+- [angelopioamirante/CVE-2022-33075](https://github.com/angelopioamirante/CVE-2022-33075)
 
 ### CVE-2022-33174 (2022-06-13)
 
@@ -3960,7 +3956,7 @@ Windows Enterprise App Management Service Remote Code Execution Vulnerability.
 There is an unquoted service path in ASUSTeK Aura Ready Game SDK service (GameSDK.exe) 1.0.0.4. This might allow a local user to escalate privileges by creating a %PROGRAMFILES(X86)%\ASUS\GameSDK.exe file.
 </code>
 
-- [AngeloPioAmirante/CVE-2022-35899](https://github.com/AngeloPioAmirante/CVE-2022-35899)
+- [angelopioamirante/CVE-2022-35899](https://github.com/angelopioamirante/CVE-2022-35899)
 
 ### CVE-2022-35914 (2022-09-19)
 
@@ -4210,14 +4206,6 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 
 ### CVE-2022-37708
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
-
-### CVE-2022-37958 (2022-09-13)
-
-<code>
-SPNEGO Extended Negotiation (NEGOEX) Security Mechanism Information Disclosure Vulnerability.
-</code>
-
-- [RCEman01/CVE-2022-37958-Windows-Server-RCE](https://github.com/RCEman01/CVE-2022-37958-Windows-Server-RCE)
 
 ### CVE-2022-38217
 - [SupremacyTeam/evilReveal](https://github.com/SupremacyTeam/evilReveal)
@@ -8490,7 +8478,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 HashiCorp Consul Enterprise before 1.8.17, 1.9.x before 1.9.11, and 1.10.x before 1.10.4 has Incorrect Access Control. An ACL token (with the default operator:write permissions) in one namespace can be used for unintended privilege escalation in a different namespace.
 </code>
 
-- [I-Am-Nelson/CVE-2021-41805](https://github.com/I-Am-Nelson/CVE-2021-41805)
+- [nelsondurairaj/CVE-2021-41805](https://github.com/nelsondurairaj/CVE-2021-41805)
 
 ### CVE-2021-41946 (2022-05-18)
 
