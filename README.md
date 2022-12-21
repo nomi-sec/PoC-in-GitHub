@@ -256,6 +256,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits)
 - [Turzum/ps-lab-cve-2022-0847](https://github.com/Turzum/ps-lab-cve-2022-0847)
 - [qwert419/linux-](https://github.com/qwert419/linux-)
+- [DataFox/CVE-2022-0847](https://github.com/DataFox/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -474,6 +475,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
 - [amitlttwo/CVE-2022-1388](https://github.com/amitlttwo/CVE-2022-1388)
 - [M4fiaB0y/CVE-2022-1388](https://github.com/M4fiaB0y/CVE-2022-1388)
+- [devengpk/CVE-2022-1388](https://github.com/devengpk/CVE-2022-1388)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -2206,6 +2208,7 @@ The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL 
 - [Atsukoro1/PDFKitExploit](https://github.com/Atsukoro1/PDFKitExploit)
 - [CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell](https://github.com/CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell)
 - [LordRNA/CVE-2022-25765](https://github.com/LordRNA/CVE-2022-25765)
+- [shamo0/PDFkit-CMD-Injection](https://github.com/shamo0/PDFkit-CMD-Injection)
 
 ### CVE-2022-25845 (2022-06-10)
 
@@ -4802,6 +4805,14 @@ CAE LearningSpace Enterprise (with Intuity License) image 267r patch 639 allows 
 </code>
 
 - [nicbrinkley/CVE-2022-45472](https://github.com/nicbrinkley/CVE-2022-45472)
+
+### CVE-2022-45511 (2022-12-08)
+
+<code>
+Tenda W30E V1.0.1.25(633) was discovered to contain a stack overflow via the PPPOEPassword parameter at /goform/QuickIndex.
+</code>
+
+- [kinderscsaa/cve-2022-45511](https://github.com/kinderscsaa/cve-2022-45511)
 
 ### CVE-2022-45771 (2022-12-05)
 
@@ -20181,6 +20192,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574)
 - [chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574)
 - [mux0x/CVE-2018-6574](https://github.com/mux0x/CVE-2018-6574)
+- [cristiandrami/pentesterlab_CVE-2018-6574](https://github.com/cristiandrami/pentesterlab_CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -29434,25 +29446,8 @@ Multiple directory traversal vulnerabilities in FCKeditor before 2.6.4.1 allow r
 </code>
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
-- [k4u5h41/CVE-2009-2265](https://github.com/k4u5h41/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
 - [0xkasra/CVE-2009-2265](https://github.com/0xkasra/CVE-2009-2265)
-
-### CVE-2009-2692 (2009-08-14)
-
-<code>
-The Linux kernel 2.6.0 through 2.6.30.4, and 2.4.4 through 2.4.37.4, does not initialize all function pointers for socket operations in proto_ops structures, which allows local users to trigger a NULL pointer dereference and gain privileges by using mmap to map page zero, placing arbitrary code on this page, and then invoking an unavailable operation, as demonstrated by the sendpage operation (sock_sendpage function) on a PF_PPPOX socket.
-</code>
-
-- [jdvalentini/CVE-2009-2692](https://github.com/jdvalentini/CVE-2009-2692)
-
-### CVE-2009-2698 (2009-08-27)
-
-<code>
-The udp_sendmsg function in the UDP implementation in (1) net/ipv4/udp.c and (2) net/ipv6/udp.c in the Linux kernel before 2.6.19 allows local users to gain privileges or cause a denial of service (NULL pointer dereference and system crash) via vectors involving the MSG_MORE flag and a UDP socket.
-</code>
-
-- [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
 
 ### CVE-2009-3103 (2009-09-08)
 
