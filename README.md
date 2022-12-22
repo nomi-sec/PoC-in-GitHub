@@ -4715,7 +4715,12 @@ A cross-site scripting (XSS) vulnerability in Canteen Management System v1.0 all
 
 - [mudassiruddin/CVE-2022-43144-Stored-XSS](https://github.com/mudassiruddin/CVE-2022-43144-Stored-XSS)
 
-### CVE-2022-43271
+### CVE-2022-43271 (2022-12-21)
+
+<code>
+Inhabit Systems Pty Ltd Move CRM version 4, build 260 was discovered to contain a cross-site scripting (XSS) vulnerability via the User profile component.
+</code>
+
 - [SecurityWillCheck/CVE-2022-43271](https://github.com/SecurityWillCheck/CVE-2022-43271)
 
 ### CVE-2022-43332 (2022-11-17)
@@ -8863,7 +8868,12 @@ Laravel Framework through 8.70.2 does not sufficiently block the upload of execu
 
 - [aweiiy/CVE-2021-43617](https://github.com/aweiiy/CVE-2021-43617)
 
-### CVE-2021-43657
+### CVE-2021-43657 (2022-12-21)
+
+<code>
+A Stored Cross-site scripting (XSS) vulnerability via MAster.php in Sourcecodetester Simple Client Management System (SCMS) 1.0 allows remote attackers to inject arbitrary web script or HTML via the vulnerable input fields.
+</code>
+
 - [c0n5n3d/CVE-2021-43657](https://github.com/c0n5n3d/CVE-2021-43657)
 
 ### CVE-2021-43789 (2021-12-07)
