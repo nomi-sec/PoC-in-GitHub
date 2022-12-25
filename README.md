@@ -1496,6 +1496,9 @@ A vulnerability, which was classified as problematic, has been found in SourceCo
 
 - [Live-Hack-CVE/CVE-2022-3493](https://github.com/Live-Hack-CVE/CVE-2022-3493)
 
+### CVE-2022-3699
+- [estimated1337/lenovo_exec](https://github.com/estimated1337/lenovo_exec)
+
 ### CVE-2022-5555
 - [huihuo123/CVE-2022-5555](https://github.com/huihuo123/CVE-2022-5555)
 
@@ -6463,14 +6466,6 @@ OTFCC commit 617837b was discovered to contain a heap buffer overflow via /relea
 
 - [Live-Hack-CVE/CVE-2022-35046](https://github.com/Live-Hack-CVE/CVE-2022-35046)
 
-### CVE-2022-35056 (2022-10-14)
-
-<code>
-OTFCC commit 617837b was discovered to contain a heap buffer overflow via /release-x64/otfccdump+0x6b0478.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-35056](https://github.com/Live-Hack-CVE/CVE-2022-35056)
-
 ### CVE-2022-35058 (2022-10-14)
 
 <code>
@@ -11265,6 +11260,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
 - [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
+- [meowhua15/CVE-2021-3156](https://github.com/meowhua15/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -15007,14 +15003,6 @@ An RFC enabled function module SPI_WAIT_MILLIS in SAP NetWeaver AS ABAP, version
 </code>
 
 - [Live-Hack-CVE/CVE-2021-27603](https://github.com/Live-Hack-CVE/CVE-2021-27603)
-
-### CVE-2021-27607 (2021-06-09)
-
-<code>
-SAP NetWeaver ABAP Server and ABAP Platform (Dispatcher), versions - KRNL32NUC - 7.22,7.22EXT, KRNL32UC - 7.22,7.22EXT, KRNL64NUC - 7.22,7.22EXT,7.49, KRNL64UC - 8.04,7.22,7.22EXT,7.49,7.53,7.73, KERNEL - 7.22,8.04,7.49,7.53,7.73,7.77,7.81,7.82,7.83, allows an unauthenticated attacker without specific knowledge of the system to send a specially crafted packet over a network which will trigger an internal error in the system due to improper input validation in method ThSncIn() causing the system to crash and rendering it unavailable. In this attack, no data in the system can be viewed or modified.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-27607](https://github.com/Live-Hack-CVE/CVE-2021-27607)
 
 ### CVE-2021-27610 (2021-06-16)
 
