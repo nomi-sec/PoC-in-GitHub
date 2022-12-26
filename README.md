@@ -1,6 +1,22 @@
 # PoC in GitHub
 
 ## 2022
+### CVE-2022-0001 (2022-03-11)
+
+<code>
+Non-transparent sharing of branch predictor selectors between contexts in some Intel(R) Processors may allow an authorized user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-0001](https://github.com/Live-Hack-CVE/CVE-2022-0001)
+
+### CVE-2022-0002 (2022-03-11)
+
+<code>
+Non-transparent sharing of branch predictor within a context in some Intel(R) Processors may allow an authorized user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-0002](https://github.com/Live-Hack-CVE/CVE-2022-0002)
+
 ### CVE-2022-0028 (2022-08-10)
 
 <code>
@@ -63,14 +79,6 @@ A race condition was found in vdsm. Functionality to obfuscate sensitive values 
 
 - [Live-Hack-CVE/CVE-2022-0207](https://github.com/Live-Hack-CVE/CVE-2022-0207)
 
-### CVE-2022-0217 (2022-08-26)
-
-<code>
-It was discovered that an internal Prosody library to load XML based on libexpat does not properly restrict the XML features allowed in parsed XML data. Given suitable attacker input, this results in expansion of recursive entity references from DTDs (CWE-776). In addition, depending on the libexpat version used, it may also allow injections using XML External Entity References (CWE-611).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0217](https://github.com/Live-Hack-CVE/CVE-2022-0217)
-
 ### CVE-2022-0219 (2022-01-20)
 
 <code>
@@ -78,14 +86,6 @@ Improper Restriction of XML External Entity Reference in GitHub repository skylo
 </code>
 
 - [Haxatron/CVE-2022-0219](https://github.com/Haxatron/CVE-2022-0219)
-
-### CVE-2022-0225 (2022-08-26)
-
-<code>
-A flaw was found in Keycloak. This flaw allows a privileged attacker to use the malicious payload as the group name while creating a new group from the admin console, leading to a stored Cross-site scripting (XSS) attack.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0225](https://github.com/Live-Hack-CVE/CVE-2022-0225)
 
 ### CVE-2022-0236 (2022-01-18)
 
@@ -104,14 +104,6 @@ Improper Restriction of XML External Entity Reference in GitHub repository hazel
 
 - [achuna33/CVE-2022-0265](https://github.com/achuna33/CVE-2022-0265)
 
-### CVE-2022-0284 (2022-08-29)
-
-<code>
-A heap-based-buffer-over-read flaw was found in ImageMagick's GetPixelAlpha() function of 'pixel-accessor.h'. This vulnerability is triggered when an attacker passes a specially crafted Tagged Image File Format (TIFF) image to convert it into a PICON file format. This issue can potentially lead to a denial of service and information disclosure.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0284](https://github.com/Live-Hack-CVE/CVE-2022-0284)
-
 ### CVE-2022-0332 (2022-01-25)
 
 <code>
@@ -120,24 +112,8 @@ A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was
 
 - [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
-### CVE-2022-0336 (2022-08-29)
-
-<code>
-The Samba AD DC includes checks when adding service principals names (SPNs) to an account to ensure that SPNs do not alias with those already in the database. Some of these checks are able to be bypassed if an account modification re-adds an SPN that was previously present on that account, such as one added when a computer is joined to a domain. An attacker who has the ability to write to an account can exploit this to perform a denial-of-service attack by adding an SPN that matches an existing service. Additionally, an attacker who can intercept traffic can impersonate existing services, resulting in a loss of confidentiality and integrity.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0336](https://github.com/Live-Hack-CVE/CVE-2022-0336)
-
 ### CVE-2022-0337
 - [Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera](https://github.com/Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera)
-
-### CVE-2022-0367 (2022-08-29)
-
-<code>
-A heap-based buffer overflow flaw was found in libmodbus in function modbus_reply() in src/modbus.c.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0367](https://github.com/Live-Hack-CVE/CVE-2022-0367)
 
 ### CVE-2022-0393 (2022-01-28)
 
@@ -146,14 +122,6 @@ Out-of-bounds Read in GitHub repository vim/vim prior to 8.2.
 </code>
 
 - [Live-Hack-CVE/CVE-2022-0393](https://github.com/Live-Hack-CVE/CVE-2022-0393)
-
-### CVE-2022-0400 (2022-08-29)
-
-<code>
-An out-of-bounds read vulnerability was discovered in linux kernel in the smc protocol stack, causing remote dos.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0400](https://github.com/Live-Hack-CVE/CVE-2022-0400)
 
 ### CVE-2022-0407 (2022-01-30)
 
@@ -178,14 +146,6 @@ The Simple Banner WordPress plugin before 2.12.0 does not properly sanitize its 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-0446](https://github.com/Live-Hack-CVE/CVE-2022-0446)
-
-### CVE-2022-0480 (2022-08-29)
-
-<code>
-A flaw was found in the filelock_init in fs/locks.c function in the Linux kernel. This issue can lead to host memory exhaustion due to memcg not limiting the number of Portable Operating System Interface (POSIX) file locks.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0480](https://github.com/Live-Hack-CVE/CVE-2022-0480)
 
 ### CVE-2022-0482 (2022-03-09)
 
@@ -214,22 +174,6 @@ A vulnerability was found in the Linux kernel’s cgroup_release_agent_write in 
 - [puckiestyle/CVE-2022-0492](https://github.com/puckiestyle/CVE-2022-0492)
 - [chenaotian/CVE-2022-0492](https://github.com/chenaotian/CVE-2022-0492)
 - [Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2022-0492](https://github.com/Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2022-0492)
-
-### CVE-2022-0496 (2022-08-29)
-
-<code>
-A vulnerbiility was found in Openscad, where a DXF-format drawing with particular (not necessarily malformed!) properties may cause an out-of-bounds memory access when imported using import().
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0496](https://github.com/Live-Hack-CVE/CVE-2022-0496)
-
-### CVE-2022-0497 (2022-08-29)
-
-<code>
-A vulnerbiility was found in Openscad, where a .scad file with no trailing newline could cause an out-of-bounds read during parsing of annotations.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0497](https://github.com/Live-Hack-CVE/CVE-2022-0497)
 
 ### CVE-2022-0529 (2022-02-09)
 
@@ -264,14 +208,6 @@ It was discovered, that redis, a persistent key-value database, due to a packagi
 
 - [aodsec/CVE-2022-0543](https://github.com/aodsec/CVE-2022-0543)
 
-### CVE-2022-0669 (2022-08-29)
-
-<code>
-A flaw was found in dpdk. This flaw allows a malicious vhost-user master to attach an unexpected number of fds as ancillary data to VHOST_USER_GET_INFLIGHT_FD / VHOST_USER_SET_INFLIGHT_FD messages that are not closed by the vhost-user slave. By sending such messages continuously, the vhost-user master exhausts available fd in the vhost-user slave process, leading to a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0669](https://github.com/Live-Hack-CVE/CVE-2022-0669)
-
 ### CVE-2022-0725 (2022-03-07)
 
 <code>
@@ -298,14 +234,6 @@ A flaw was found in CRI-O in the way it set kernel options for a pod. This issue
 </code>
 
 - [spiarh/webhook-cve-2022-0811](https://github.com/spiarh/webhook-cve-2022-0811)
-
-### CVE-2022-0812 (2022-08-29)
-
-<code>
-An information leak flaw was found in NFS over RDMA in the net/sunrpc/xprtrdma/rpc_rdma.c in the Linux Kernel. This flaw allows an attacker with normal user privileges to leak kernel information.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0812](https://github.com/Live-Hack-CVE/CVE-2022-0812)
 
 ### CVE-2022-0824 (2022-03-02)
 
@@ -395,30 +323,6 @@ OS Command Injection in GitHub repository part-db/part-db prior to 0.5.11.
 
 - [dskmehra/CVE-2022-0848](https://github.com/dskmehra/CVE-2022-0848)
 
-### CVE-2022-0850 (2022-08-29)
-
-<code>
-A vulnerability was found in linux kernel, where an information leak occurs via ext4_extent_header to userspace.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0850](https://github.com/Live-Hack-CVE/CVE-2022-0850)
-
-### CVE-2022-0851 (2022-08-29)
-
-<code>
-There is a flaw in convert2rhel. When the --activationkey option is used with convert2rhel, the activation key is subsequently passed to subscription-manager via the command line, which could allow unauthorized users locally on the machine to view the activation key via the process command line via e.g. htop or ps. The specific impact varies upon the subscription, but generally this would allow an attacker to register systems purchased by the victim until discovered; a form of fraud. This could occur regardless of how the activation key is supplied to convert2rhel because it involves how convert2rhel provides it to subscription-manager.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0851](https://github.com/Live-Hack-CVE/CVE-2022-0851)
-
-### CVE-2022-0852 (2022-08-29)
-
-<code>
-There is a flaw in convert2rhel. convert2rhel passes the Red Hat account password to subscription-manager via the command line, which could allow unauthorized users locally on the machine to view the password via the process command line via e.g. htop or ps. The specific impact varies upon the privileges of the Red Hat account in question, but it could affect the integrity, availability, and/or data confidentiality of other systems that are administered by that account. This occurs regardless of how the password is supplied to convert2rhel.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0852](https://github.com/Live-Hack-CVE/CVE-2022-0852)
-
 ### CVE-2022-0853 (2022-03-11)
 
 <code>
@@ -435,14 +339,6 @@ A vulnerability was discovered in the 389 Directory Server that allows an unauth
 
 - [NathanMulbrook/CVE-2022-0918](https://github.com/NathanMulbrook/CVE-2022-0918)
 
-### CVE-2022-0934 (2022-08-29)
-
-<code>
-A single-byte, non-arbitrary write/use-after-free flaw was found in dnsmasq. This flaw allows an attacker who sends a crafted packet processed by dnsmasq, potentially causing a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-0934](https://github.com/Live-Hack-CVE/CVE-2022-0934)
-
 ### CVE-2022-0995 (2022-03-25)
 
 <code>
@@ -450,6 +346,14 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 </code>
 
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
+
+### CVE-2022-0996 (2022-03-23)
+
+<code>
+A vulnerability was found in the 389 Directory Server that allows expired passwords to access the database to cause improper authentication.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-0996](https://github.com/Live-Hack-CVE/CVE-2022-0996)
 
 ### CVE-2022-0997 (2022-05-17)
 
@@ -468,13 +372,13 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 - [pqlx/CVE-2022-1015](https://github.com/pqlx/CVE-2022-1015)
 - [zanezhub/CVE-2022-1015-1016](https://github.com/zanezhub/CVE-2022-1015-1016)
 
-### CVE-2022-1016 (2022-08-29)
+### CVE-2022-1021 (2022-08-19)
 
 <code>
-A flaw was found in the Linux kernel in net/netfilter/nf_tables_core.c:nft_do_chain, which can cause a use-after-free. This issue needs to handle 'return' with proper preconditions, as it can lead to a kernel information leak problem caused by a local, unprivileged attacker.
+Insecure Storage of Sensitive Information in GitHub repository chatwoot/chatwoot prior to 2.6.0.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-1016](https://github.com/Live-Hack-CVE/CVE-2022-1016)
+- [Live-Hack-CVE/CVE-2022-1021](https://github.com/Live-Hack-CVE/CVE-2022-1021)
 
 ### CVE-2022-1040 (2022-03-25)
 
@@ -492,6 +396,14 @@ The WPQA Builder Plugin WordPress plugin before 5.2, used as a companion plugin 
 
 - [V35HR4J/CVE-2022-1051](https://github.com/V35HR4J/CVE-2022-1051)
 
+### CVE-2022-1069 (2022-08-17)
+
+<code>
+A crafted HTTP packet with a large content-length header can create a denial-of-service condition in Softing Secure Integration Server V1.22.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-1069](https://github.com/Live-Hack-CVE/CVE-2022-1069)
+
 ### CVE-2022-1077 (2022-03-29)
 
 <code>
@@ -507,22 +419,6 @@ Type confusion in V8 in Google Chrome prior to 99.0.4844.84 allowed a remote att
 </code>
 
 - [Mav3r1ck0x1/Chrome-and-Edge-Version-Dumper](https://github.com/Mav3r1ck0x1/Chrome-and-Edge-Version-Dumper)
-
-### CVE-2022-1115 (2022-08-29)
-
-<code>
-A heap-buffer-overflow flaw was found in ImageMagick’s PushShortPixel() function of quantum-private.h file. This vulnerability is triggered when an attacker passes a specially crafted TIFF image file to ImageMagick for conversion, potentially leading to a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1115](https://github.com/Live-Hack-CVE/CVE-2022-1115)
-
-### CVE-2022-1117 (2022-08-29)
-
-<code>
-A vulnerability was found in fapolicyd. The vulnerability occurs due to an assumption on how glibc names the runtime linker, a build time regular expression may not correctly detect the runtime linker. The consequence is that the pattern detection for applications launched by the run time linker may fail to detect the pattern and allow execution.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1117](https://github.com/Live-Hack-CVE/CVE-2022-1117)
 
 ### CVE-2022-1123 (2022-08-29)
 
@@ -612,38 +508,6 @@ The Turn off all comments WordPress plugin through 1.0 does not sanitise and esc
 
 - [Mouhamedtec/CVE-2022-1192](https://github.com/Mouhamedtec/CVE-2022-1192)
 
-### CVE-2022-1198 (2022-08-29)
-
-<code>
-A use-after-free vulnerabilitity was discovered in drivers/net/hamradio/6pack.c of linux that allows an attacker to crash linux kernel by simulating ax25 device using 6pack driver from user space.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1198](https://github.com/Live-Hack-CVE/CVE-2022-1198)
-
-### CVE-2022-1199 (2022-08-29)
-
-<code>
-A flaw was found in the Linux kernel. This flaw allows an attacker to crash the Linux kernel by simulating amateur radio from the user space, resulting in a null-ptr-deref vulnerability and a use-after-free vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1199](https://github.com/Live-Hack-CVE/CVE-2022-1199)
-
-### CVE-2022-1204 (2022-08-29)
-
-<code>
-A use-after-free flaw was found in the Linux kernel’s Amateur Radio AX.25 protocol functionality in the way a user connects with the protocol. This flaw allows a local user to crash the system.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1204](https://github.com/Live-Hack-CVE/CVE-2022-1204)
-
-### CVE-2022-1205 (2022-08-31)
-
-<code>
-A NULL pointer dereference flaw was found in the Linux kernel’s Amateur Radio AX.25 protocol functionality in the way a user connects with the protocol. This flaw allows a local user to crash the system.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1205](https://github.com/Live-Hack-CVE/CVE-2022-1205)
-
 ### CVE-2022-1232 (2022-07-25)
 
 <code>
@@ -652,14 +516,6 @@ Type confusion in V8 in Google Chrome prior to 100.0.4896.75 allowed a remote at
 
 - [Live-Hack-CVE/CVE-2022-1232](https://github.com/Live-Hack-CVE/CVE-2022-1232)
 
-### CVE-2022-1247 (2022-08-31)
-
-<code>
-An issue found in linux-kernel that leads to a race condition in rose_connect(). The rose driver uses rose_neigh-&gt;use to represent how many objects are using the rose_neigh. When a user wants to delete a rose_route via rose_ioctl(), the rose driver calls rose_del_node() and removes neighbours only if their “count” and “use” are zero.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1247](https://github.com/Live-Hack-CVE/CVE-2022-1247)
-
 ### CVE-2022-1251 (2022-08-22)
 
 <code>
@@ -667,14 +523,6 @@ The Ask me WordPress theme before 6.8.4 does not perform nonce checks when proce
 </code>
 
 - [Live-Hack-CVE/CVE-2022-1251](https://github.com/Live-Hack-CVE/CVE-2022-1251)
-
-### CVE-2022-1263 (2022-08-31)
-
-<code>
-A NULL pointer dereference issue was found in KVM when releasing a vCPU with dirty ring support enabled. This flaw allows an unprivileged local attacker on the host to issue specific ioctl calls, causing a kernel oops condition that results in a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1263](https://github.com/Live-Hack-CVE/CVE-2022-1263)
 
 ### CVE-2022-1292 (2022-05-03)
 
@@ -775,14 +623,6 @@ The Coming Soon - Under Construction WordPress plugin through 1.1.9 does not san
 
 - [Live-Hack-CVE/CVE-2022-1322](https://github.com/Live-Hack-CVE/CVE-2022-1322)
 
-### CVE-2022-1325 (2022-08-31)
-
-<code>
-A flaw was found in Clmg, where with the help of a maliciously crafted pandore or bmp file with modified dx and dy header field values it is possible to trick the application into allocating huge buffer sizes like 64 Gigabyte upon reading the file from disk or from a virtual buffer.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1325](https://github.com/Live-Hack-CVE/CVE-2022-1325)
-
 ### CVE-2022-1329 (2022-04-19)
 
 <code>
@@ -808,6 +648,14 @@ Type confusion in V8 Turbofan in Google Chrome prior to 100.0.4896.127 allowed a
 </code>
 
 - [Live-Hack-CVE/CVE-2022-1364](https://github.com/Live-Hack-CVE/CVE-2022-1364)
+
+### CVE-2022-1373 (2022-08-17)
+
+<code>
+The “restore configuration” feature of Softing Secure Integration Server V1.22 is vulnerable to a directory traversal vulnerability when processing zip files. An attacker can craft a zip file to load an arbitrary dll and execute code. Using the &quot;restore configuration&quot; feature to upload a zip file containing a path traversal file may cause a file to be created and executed upon touching the disk.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-1373](https://github.com/Live-Hack-CVE/CVE-2022-1373)
 
 ### CVE-2022-1388 (2022-05-05)
 
@@ -868,21 +716,29 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
 
-### CVE-2022-1404 (2022-08-31)
+### CVE-2022-1399 (2022-08-16)
 
 <code>
-Delta Electronics CNCSoft (All versions prior to 1.01.32) does not properly sanitize input while processing a specific project file, allowing a possible out-of-bounds read condition.
+An Argument Injection or Modification vulnerability in the &quot;Change Secret&quot; username field as used in the Discovery component of Device42 CMDB allows a local attacker to run arbitrary code on the appliance with root privileges. This issue affects: Device42 CMDB version 18.01.00 and prior versions.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-1404](https://github.com/Live-Hack-CVE/CVE-2022-1404)
+- [Live-Hack-CVE/CVE-2022-1399](https://github.com/Live-Hack-CVE/CVE-2022-1399)
 
-### CVE-2022-1405 (2022-08-31)
+### CVE-2022-1400 (2022-08-16)
 
 <code>
-CNCSoft: All versions prior to 1.01.32 does not properly sanitize input while processing a specific project file, allowing a possible stack-based buffer overflow condition.
+Use of Hard-coded Cryptographic Key vulnerability in the WebReportsApi.dll of Exago Web Reports, as used in the Device42 Asset Management Appliance, allows an attacker to leak session IDs and elevate privileges. This issue affects: Device42 CMDB versions prior to 18.01.00.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-1405](https://github.com/Live-Hack-CVE/CVE-2022-1405)
+- [Live-Hack-CVE/CVE-2022-1400](https://github.com/Live-Hack-CVE/CVE-2022-1400)
+
+### CVE-2022-1410 (2022-08-16)
+
+<code>
+OS Command Injection vulnerability in the db_optimize component of Device42 Asset Management Appliance allows an authenticated attacker to execute remote code on the device. This issue affects: Device42 CMDB version 18.01.00 and prior versions.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-1410](https://github.com/Live-Hack-CVE/CVE-2022-1410)
 
 ### CVE-2022-1477 (2022-07-26)
 
@@ -1020,14 +876,6 @@ Insufficient data validation in Trusted Types in Google Chrome prior to 101.0.49
 
 - [Live-Hack-CVE/CVE-2022-1494](https://github.com/Live-Hack-CVE/CVE-2022-1494)
 
-### CVE-2022-1508 (2022-08-31)
-
-<code>
-An out-of-bounds read flaw was found in the Linux kernel’s io_uring module in the way a user triggers the io_read() function with some special parameters. This flaw allows a local user to read some memory out of bounds.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1508](https://github.com/Live-Hack-CVE/CVE-2022-1508)
-
 ### CVE-2022-1513 (2022-08-23)
 
 <code>
@@ -1057,14 +905,6 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 - [NullBrunk/CVE-2022-1609](https://github.com/NullBrunk/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
 
-### CVE-2022-1651 (2022-07-26)
-
-<code>
-A memory leak flaw was found in the Linux kernel in acrn_dev_ioctl in the drivers/virt/acrn/hsm.c function in how the ACRN Device Model emulates virtual NICs in VM. This flaw allows a local privileged attacker to leak unauthorized kernel information, causing a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1651](https://github.com/Live-Hack-CVE/CVE-2022-1651)
-
 ### CVE-2022-1663 (2022-08-29)
 
 <code>
@@ -1073,29 +913,21 @@ The Stop Spam Comments WordPress plugin through 0.2.1.2 does not properly genera
 
 - [Live-Hack-CVE/CVE-2022-1663](https://github.com/Live-Hack-CVE/CVE-2022-1663)
 
-### CVE-2022-1671 (2022-07-26)
+### CVE-2022-1665 (2022-06-21)
 
 <code>
-A NULL pointer dereference flaw was found in rxrpc_preparse_s in net/rxrpc/server_key.c in the Linux kernel. This flaw allows a local attacker to crash the system or leak internal kernel information.
+A set of pre-production kernel packages of Red Hat Enterprise Linux for IBM Power architecture can be booted by the grub in Secure Boot mode even though it shouldn't. These kernel builds don't have the secure boot lockdown patches applied to it and can bypass the secure boot validations, allowing the attacker to load another non-trusted code.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-1671](https://github.com/Live-Hack-CVE/CVE-2022-1671)
+- [Live-Hack-CVE/CVE-2022-1665](https://github.com/Live-Hack-CVE/CVE-2022-1665)
 
-### CVE-2022-1677 (2022-09-01)
+### CVE-2022-1748 (2022-08-17)
 
 <code>
-In OpenShift Container Platform, a user with permissions to create or modify Routes can craft a payload that inserts a malformed entry into one of the cluster router's HAProxy configuration files. This malformed entry can match any arbitrary hostname, or all hostnames in the cluster, and direct traffic to an arbitrary application within the cluster, including one under attacker control.
+Softing OPC UA C++ Server SDK, Secure Integration Server, edgeConnector, edgeAggregator, OPC Suite, and uaGate are affected by a NULL pointer dereference vulnerability.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-1677](https://github.com/Live-Hack-CVE/CVE-2022-1677)
-
-### CVE-2022-1729 (2022-09-01)
-
-<code>
-A race condition was found the Linux kernel in perf_event_open() which can be exploited by an unprivileged user to gain root privileges. The bug allows to build several exploit primitives such as kernel address information leak, arbitrary execution, etc.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1729](https://github.com/Live-Hack-CVE/CVE-2022-1729)
+- [Live-Hack-CVE/CVE-2022-1748](https://github.com/Live-Hack-CVE/CVE-2022-1748)
 
 ### CVE-2022-1771 (2022-05-18)
 
@@ -1113,29 +945,13 @@ Use After Free in GitHub repository vim/vim prior to 8.2.4979.
 
 - [Live-Hack-CVE/CVE-2022-1796](https://github.com/Live-Hack-CVE/CVE-2022-1796)
 
-### CVE-2022-1841 (2022-08-31)
+### CVE-2022-1901 (2022-08-19)
 
 <code>
-In subsys/net/ip/tcp.c , function tcp_flags , when the incoming parameter flags is ECN or CWR , the buf will out-of-bounds write a byte zero.
+In affected versions of Octopus Deploy it is possible to unmask sensitive variables by using variable preview.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-1841](https://github.com/Live-Hack-CVE/CVE-2022-1841)
-
-### CVE-2022-1888 (2022-08-31)
-
-<code>
-Alpha7 PC Loader (All versions) is vulnerable to a stack-based buffer overflow while processing a specifically crafted project file, which may allow an attacker to execute arbitrary code.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1888](https://github.com/Live-Hack-CVE/CVE-2022-1888)
-
-### CVE-2022-1902 (2022-09-01)
-
-<code>
-A flaw was found in the Red Hat Advanced Cluster Security for Kubernetes. Notifier secrets were not properly sanitized in the GraphQL API. This flaw allows authenticated ACS users to retrieve Notifiers from the GraphQL API, revealing secrets that can escalate their privileges.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1902](https://github.com/Live-Hack-CVE/CVE-2022-1902)
+- [Live-Hack-CVE/CVE-2022-1901](https://github.com/Live-Hack-CVE/CVE-2022-1901)
 
 ### CVE-2022-1903 (2022-06-27)
 
@@ -1167,22 +983,6 @@ The Rezgo Online Booking WordPress plugin before 4.1.8 does not sanitise and esc
 ### CVE-2022-1972
 - [randorisec/CVE-2022-1972-infoleak-PoC](https://github.com/randorisec/CVE-2022-1972-infoleak-PoC)
 
-### CVE-2022-1974 (2022-08-31)
-
-<code>
-A use-after-free flaw was found in the Linux kernel's NFC core functionality due to a race condition between kobject creation and delete. This vulnerability allows a local attacker with CAP_NET_ADMIN privilege to leak kernel information.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1974](https://github.com/Live-Hack-CVE/CVE-2022-1974)
-
-### CVE-2022-1975 (2022-08-31)
-
-<code>
-There is a sleep-in-atomic bug in /net/nfc/netlink.c that allows an attacker to crash the Linux kernel by simulating a nfc device from user-space.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-1975](https://github.com/Live-Hack-CVE/CVE-2022-1975)
-
 ### CVE-2022-1989 (2022-08-23)
 
 <code>
@@ -1190,30 +990,6 @@ All CODESYS Visualization versions before V4.2.0.0 generate a login dialog vulne
 </code>
 
 - [Live-Hack-CVE/CVE-2022-1989](https://github.com/Live-Hack-CVE/CVE-2022-1989)
-
-### CVE-2022-2004 (2022-08-31)
-
-<code>
-AutomationDirect DirectLOGIC is vulnerable to a a specially crafted packet can be sent continuously to the PLC to prevent access from DirectSoft and other devices, causing a denial-of-service condition. This issue affects: AutomationDirect DirectLOGIC D0-06 series CPUs D0-06DD1 versions prior to 2.72; D0-06DD2 versions prior to 2.72; D0-06DR versions prior to 2.72; D0-06DA versions prior to 2.72; D0-06AR versions prior to 2.72; D0-06AA versions prior to 2.72; D0-06DD1-D versions prior to 2.72; D0-06DD2-D versions prior to 2.72; D0-06DR-D versions prior to 2.72;
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2004](https://github.com/Live-Hack-CVE/CVE-2022-2004)
-
-### CVE-2022-2005 (2022-08-31)
-
-<code>
-AutomationDirect C-more EA9 HTTP webserver uses an insecure mechanism to transport credentials from client to web server, which may allow an attacker to obtain the login credentials and login as a valid user. This issue affects: AutomationDirect C-more EA9 EA9-T6CL versions prior to 6.73; EA9-T6CL-R versions prior to 6.73; EA9-T7CL versions prior to 6.73; EA9-T7CL-R versions prior to 6.73; EA9-T8CL versions prior to 6.73; EA9-T10CL versions prior to 6.73; EA9-T10WCL versions prior to 6.73; EA9-T12CL versions prior to 6.73; EA9-T15CL versions prior to 6.73; EA9-RHMI versions prior to 6.73; EA9-PGMSW versions prior to 6.73;
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2005](https://github.com/Live-Hack-CVE/CVE-2022-2005)
-
-### CVE-2022-2006 (2022-08-31)
-
-<code>
-AutomationDirect DirectLOGIC has a DLL vulnerability in the install directory that may allow an attacker to execute code during the installation process. This issue affects: AutomationDirect C-more EA9 EA9-T6CL versions prior to 6.73; EA9-T6CL-R versions prior to 6.73; EA9-T7CL versions prior to 6.73; EA9-T7CL-R versions prior to 6.73; EA9-T8CL versions prior to 6.73; EA9-T10CL versions prior to 6.73; EA9-T10WCL versions prior to 6.73; EA9-T12CL versions prior to 6.73; EA9-T15CL versions prior to 6.73; EA9-RHMI versions prior to 6.73; EA9-PGMSW versions prior to 6.73;
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2006](https://github.com/Live-Hack-CVE/CVE-2022-2006)
 
 ### CVE-2022-2022 (2022-06-07)
 
@@ -1239,21 +1015,13 @@ The Sensei LMS WordPress plugin before 4.5.0 does not have proper permissions se
 
 - [Live-Hack-CVE/CVE-2022-2034](https://github.com/Live-Hack-CVE/CVE-2022-2034)
 
-### CVE-2022-2043 (2022-08-31)
+### CVE-2022-2049 (2022-08-19)
 
 <code>
-MOXA NPort 5110: Firmware Versions 2.10 is vulnerable to an out-of-bounds write that can cause the device to become unresponsive.
+In affected versions of Octopus Deploy it is possible to perform a Regex Denial of Service via the package upload function.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2043](https://github.com/Live-Hack-CVE/CVE-2022-2043)
-
-### CVE-2022-2044 (2022-08-31)
-
-<code>
-MOXA NPort 5110: Firmware Versions 2.10 is vulnerable to an out-of-bounds write that may allow an attacker to overwrite values in memory, causing a denial-of-service condition or potentially bricking the device.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2044](https://github.com/Live-Hack-CVE/CVE-2022-2044)
+- [Live-Hack-CVE/CVE-2022-2049](https://github.com/Live-Hack-CVE/CVE-2022-2049)
 
 ### CVE-2022-2058 (2022-06-30)
 
@@ -1263,6 +1031,22 @@ Divide By Zero error in tiffcrop in libtiff 4.4.0 allows attackers to cause a de
 
 - [Live-Hack-CVE/CVE-2022-2058](https://github.com/Live-Hack-CVE/CVE-2022-2058)
 
+### CVE-2022-2074 (2022-08-19)
+
+<code>
+In affected versions of Octopus Deploy it is possible to perform a Regex Denial of Service using the Variable Project Template.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2074](https://github.com/Live-Hack-CVE/CVE-2022-2074)
+
+### CVE-2022-2075 (2022-08-19)
+
+<code>
+In affected versions of Octopus Deploy it is possible to perform a Regex Denial of Service targeting the build information request validation.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2075](https://github.com/Live-Hack-CVE/CVE-2022-2075)
+
 ### CVE-2022-2080 (2022-08-29)
 
 <code>
@@ -1271,13 +1055,37 @@ The Sensei LMS WordPress plugin before 4.5.2 does not ensure that the sender of 
 
 - [Live-Hack-CVE/CVE-2022-2080](https://github.com/Live-Hack-CVE/CVE-2022-2080)
 
-### CVE-2022-2132 (2022-08-31)
+### CVE-2022-2116 (2022-08-15)
 
 <code>
-A permissive list of allowed inputs flaw was found in DPDK. This issue allows a remote attacker to cause a denial of service triggered by sending a crafted Vhost header to DPDK.
+The Contact Form DB WordPress plugin before 1.8.0 does not sanitise and escape some parameters before outputting them back in attributes, leading to Reflected Cross-Site Scripting
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2132](https://github.com/Live-Hack-CVE/CVE-2022-2132)
+- [Live-Hack-CVE/CVE-2022-2116](https://github.com/Live-Hack-CVE/CVE-2022-2116)
+
+### CVE-2022-2162 (2022-07-27)
+
+<code>
+Insufficient policy enforcement in File System API in Google Chrome on Windows prior to 103.0.5060.53 allowed a remote attacker to bypass file system access via a crafted HTML page.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2162](https://github.com/Live-Hack-CVE/CVE-2022-2162)
+
+### CVE-2022-2164 (2022-07-27)
+
+<code>
+Inappropriate implementation in Extensions API in Google Chrome prior to 103.0.5060.53 allowed an attacker who convinced a user to install a malicious extension to bypass discretionary access control via a crafted HTML page.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2164](https://github.com/Live-Hack-CVE/CVE-2022-2164)
+
+### CVE-2022-2165 (2022-07-27)
+
+<code>
+Insufficient data validation in URL formatting in Google Chrome prior to 103.0.5060.53 allowed a remote attacker to perform domain spoofing via IDN homographs via a crafted domain name.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2165](https://github.com/Live-Hack-CVE/CVE-2022-2165)
 
 ### CVE-2022-2172 (2022-08-22)
 
@@ -1294,6 +1102,14 @@ Buffer Over-read in GitHub repository vim/vim prior to 8.2.
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2175](https://github.com/Live-Hack-CVE/CVE-2022-2175)
+
+### CVE-2022-2180 (2022-08-15)
+
+<code>
+The GREYD.SUITE WordPress theme does not properly validate uploaded custom font packages, and does not perform any authorization or csrf checks, allowing an unauthenticated attacker to upload arbitrary files including php source files, leading to possible remote code execution (RCE).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2180](https://github.com/Live-Hack-CVE/CVE-2022-2180)
 
 ### CVE-2022-2182 (2022-06-23)
 
@@ -1335,30 +1151,6 @@ NULL Pointer Dereference in GitHub repository vim/vim prior to 8.2.5163.
 
 - [Live-Hack-CVE/CVE-2022-2208](https://github.com/Live-Hack-CVE/CVE-2022-2208)
 
-### CVE-2022-2220 (2022-08-31)
-
-<code>
-OpenShift doesn't properly verify subdomain ownership, which allows route takeover. Once a custom route is created, the user must update the DNS provider by creating a canonical name (CNAME) record (if he likes to expose this route externally). The CNAME record should point the custom domain to the OpenShift router as the alias. In a case that the CNAME is not removed when the route is not in use anymore we are dealing with a dangling route. A malicious actor may take over the route.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2220](https://github.com/Live-Hack-CVE/CVE-2022-2220)
-
-### CVE-2022-2231 (2022-06-28)
-
-<code>
-NULL Pointer Dereference in GitHub repository vim/vim prior to 8.2.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2231](https://github.com/Live-Hack-CVE/CVE-2022-2231)
-
-### CVE-2022-2233 (2022-09-06)
-
-<code>
-The Banner Cycler plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including 1.4. This is due to missing nonce protection on the pabc_admin_slides_postback() function found in the ~/admin/admin.php file. This makes it possible for unauthenticated attackers to inject malicious web scripts into the page, granted they can trick a site’s administrator into performing an action such as clicking on a link.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2233](https://github.com/Live-Hack-CVE/CVE-2022-2233)
-
 ### CVE-2022-2234 (2022-08-24)
 
 <code>
@@ -1366,14 +1158,6 @@ An authenticated mySCADA myPRO 8.26.0 user may be able to modify parameters to r
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2234](https://github.com/Live-Hack-CVE/CVE-2022-2234)
-
-### CVE-2022-2238 (2022-09-01)
-
-<code>
-A vulnerability was found in the search-api container in Red Hat Advanced Cluster Management for Kubernetes when a query in the search filter gets parsed by the backend. This flaw allows an attacker to craft specific strings containing special characters that lead to crashing the pod and affects system availability while restarting.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2238](https://github.com/Live-Hack-CVE/CVE-2022-2238)
 
 ### CVE-2022-2257 (2022-06-30)
 
@@ -1406,14 +1190,6 @@ The Mailchimp for WooCommerce WordPress plugin before 2.7.1 has an AJAX action t
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2267](https://github.com/Live-Hack-CVE/CVE-2022-2267)
-
-### CVE-2022-2271 (2022-09-05)
-
-<code>
-The WP Database Backup WordPress plugin before 5.9 does not escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks when the unfiltered_html capability is disallowed (for example in multisite setup)
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2271](https://github.com/Live-Hack-CVE/CVE-2022-2271)
 
 ### CVE-2022-2275 (2022-08-22)
 
@@ -1487,6 +1263,46 @@ If an attacker manages to trick a valid user into loading a malicious DLL, the a
 
 - [shirouQwQ/CVE-2022-2333](https://github.com/shirouQwQ/CVE-2022-2333)
 
+### CVE-2022-2334 (2022-08-17)
+
+<code>
+The application searches for a library dll that is not found. If an attacker can place a dll with this name, then the attacker can leverage it to execute arbitrary code on the targeted Softing Secure Integration Server V1.22.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2334](https://github.com/Live-Hack-CVE/CVE-2022-2334)
+
+### CVE-2022-2335 (2022-08-17)
+
+<code>
+A crafted HTTP packet with a -1 content-length header can create a denial-of-service condition in Softing Secure Integration Server V1.22.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2335](https://github.com/Live-Hack-CVE/CVE-2022-2335)
+
+### CVE-2022-2336 (2022-08-17)
+
+<code>
+Softing Secure Integration Server, edgeConnector, and edgeAggregator software ships with the default administrator credentials as `admin` and password as `admin`. This allows Softing to log in to the server directly to perform administrative functions. Upon installation or upon first login, the application does not ask the user to change the `admin` password. There is no warning or prompt to ask the user to change the default password, and to change the password, many steps are required.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2336](https://github.com/Live-Hack-CVE/CVE-2022-2336)
+
+### CVE-2022-2337 (2022-08-17)
+
+<code>
+A crafted HTTP packet with a missing HTTP URI can create a denial-of-service condition in Softing Secure Integration Server V1.22.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2337](https://github.com/Live-Hack-CVE/CVE-2022-2337)
+
+### CVE-2022-2338 (2022-08-17)
+
+<code>
+Softing Secure Integration Server V1.22 is vulnerable to authentication bypass via a machine-in-the-middle attack. The default the administration interface is accessible via plaintext HTTP protocol, facilitating the attack. The HTTP request may contain the session cookie in the request, which may be captured for use in authenticating to the server.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2338](https://github.com/Live-Hack-CVE/CVE-2022-2338)
+
 ### CVE-2022-2343 (2022-07-08)
 
 <code>
@@ -1502,6 +1318,14 @@ Use After Free in GitHub repository vim/vim prior to 9.0.0046.
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2345](https://github.com/Live-Hack-CVE/CVE-2022-2345)
+
+### CVE-2022-2354 (2022-08-15)
+
+<code>
+The WP-DBManager WordPress plugin before 2.80.8 does not prevent administrators from running arbitrary commands on the server in multisite installations, where only super-administrators should.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2354](https://github.com/Live-Hack-CVE/CVE-2022-2354)
 
 ### CVE-2022-2361 (2022-08-22)
 
@@ -1543,14 +1367,6 @@ The WP Sticky Button WordPress plugin before 1.4.1 does not have authorisation a
 
 - [Live-Hack-CVE/CVE-2022-2375](https://github.com/Live-Hack-CVE/CVE-2022-2375)
 
-### CVE-2022-2376 (2022-09-05)
-
-<code>
-The Directorist WordPress plugin before 7.3.1 discloses the email address of all users in an AJAX action available to both unauthenticated and any authenticated users
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2376](https://github.com/Live-Hack-CVE/CVE-2022-2376)
-
 ### CVE-2022-2377 (2022-08-22)
 
 <code>
@@ -1558,6 +1374,30 @@ The Directorist WordPress plugin before 7.3.0 does not have authorisation and CS
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2377](https://github.com/Live-Hack-CVE/CVE-2022-2377)
+
+### CVE-2022-2378 (2022-08-15)
+
+<code>
+The Easy Student Results WordPress plugin through 2.2.8 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2378](https://github.com/Live-Hack-CVE/CVE-2022-2378)
+
+### CVE-2022-2379 (2022-08-15)
+
+<code>
+The Easy Student Results WordPress plugin through 2.2.8 lacks authorisation in its REST API, allowing unauthenticated users to retrieve information related to the courses, exams, departments as well as student's grades and PII such as email address, physical address, phone number etc
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2379](https://github.com/Live-Hack-CVE/CVE-2022-2379)
+
+### CVE-2022-2381 (2022-08-15)
+
+<code>
+The E Unlocked - Student Result WordPress plugin through 1.0.4 is lacking CSRF and validation when uploading the School logo, which could allow attackers to make a logged in admin upload arbitrary files, such as PHP via a CSRF attack
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2381](https://github.com/Live-Hack-CVE/CVE-2022-2381)
 
 ### CVE-2022-2382 (2022-08-22)
 
@@ -1575,6 +1415,14 @@ The Feed Them Social WordPress plugin before 3.0.1 does not sanitise and escape 
 
 - [Live-Hack-CVE/CVE-2022-2383](https://github.com/Live-Hack-CVE/CVE-2022-2383)
 
+### CVE-2022-2384 (2022-08-15)
+
+<code>
+The Digital Publications by Supsystic WordPress plugin before 1.7.4 does not sanitise and escape its settings, allowing high privilege users such as admin to perform cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2384](https://github.com/Live-Hack-CVE/CVE-2022-2384)
+
 ### CVE-2022-2388 (2022-08-22)
 
 <code>
@@ -1591,6 +1439,14 @@ The Abandoned Cart Recovery for WooCommerce, Follow Up Emails, Newsletter Builde
 
 - [Live-Hack-CVE/CVE-2022-2389](https://github.com/Live-Hack-CVE/CVE-2022-2389)
 
+### CVE-2022-2390 (2022-08-12)
+
+<code>
+Apps developed with Google Play Services SDK incorrectly had the mutability flag set to PendingIntents that were passed to the Notification service. As Google Play services SDK is so widely used, this bug affects many applications. For an application affected, this bug will let the attacker, gain the access to all non-exported providers and/or gain the access to other providers the victim has permissions. We recommend upgrading to version 18.0.2 of the Play Service SDK as well as rebuilding and redeploying apps.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2390](https://github.com/Live-Hack-CVE/CVE-2022-2390)
+
 ### CVE-2022-2392 (2022-08-22)
 
 <code>
@@ -1599,22 +1455,6 @@ The Lana Downloads Manager WordPress plugin before 1.8.0 is affected by an arbit
 
 - [Live-Hack-CVE/CVE-2022-2392](https://github.com/Live-Hack-CVE/CVE-2022-2392)
 
-### CVE-2022-2402 (2022-09-06)
-
-<code>
-The vulnerability in the driver dlpfde.sys enables a user logged into the system to perform system calls leading to kernel stack overflow, resulting in a system crash, for instance, a BSOD.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2402](https://github.com/Live-Hack-CVE/CVE-2022-2402)
-
-### CVE-2022-2403 (2022-09-01)
-
-<code>
-A credentials leak was found in the OpenShift Container Platform. The private key for the external cluster certificate was stored incorrectly in the oauth-serving-cert ConfigMaps, and accessible to any authenticated OpenShift user or service-account. A malicious user could exploit this flaw by reading the oauth-serving-cert ConfigMap in the openshift-config-managed namespace, compromising any web traffic secured using that certificate.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2403](https://github.com/Live-Hack-CVE/CVE-2022-2403)
-
 ### CVE-2022-2407 (2022-08-22)
 
 <code>
@@ -1622,22 +1462,6 @@ The WP phpMyAdmin WordPress plugin before 5.2.0.4 does not escape some of its se
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2407](https://github.com/Live-Hack-CVE/CVE-2022-2407)
-
-### CVE-2022-2431 (2022-09-06)
-
-<code>
-The Download Manager plugin for WordPress is vulnerable to arbitrary file deletion in versions up to, and including 3.2.50. This is due to insufficient file type and path validation on the deleteFiles() function found in the ~/Admin/Menu/Packages.php file that triggers upon download post deletion. This makes it possible for contributor level users and above to supply an arbitrary file path via the 'file[files]' parameter when creating a download post and once the user deletes the post the supplied arbitrary file will be deleted. This can be used by attackers to delete the /wp-config.php file which will reset the installation and make it possible for an attacker to achieve remote code execution on the server.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2431](https://github.com/Live-Hack-CVE/CVE-2022-2431)
-
-### CVE-2022-2432 (2022-09-06)
-
-<code>
-The Ecwid Ecommerce Shopping Cart plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 6.10.23. This is due to missing or incorrect nonce validation on the ecwid_update_plugin_params function. This makes it possible for unauthenticated attackers to update plugin options granted they can trick a site administrator into performing an action such as clicking on a link.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2432](https://github.com/Live-Hack-CVE/CVE-2022-2432)
 
 ### CVE-2022-2463 (2022-08-25)
 
@@ -1662,14 +1486,6 @@ Rockwell Automation ISaGRAF Workbench software versions 6.0 through 6.6.9 are af
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2465](https://github.com/Live-Hack-CVE/CVE-2022-2465)
-
-### CVE-2022-2466 (2022-08-31)
-
-<code>
-It was found that Quarkus 2.10.x does not terminate HTTP requests header context which may lead to unpredictable behavior.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2466](https://github.com/Live-Hack-CVE/CVE-2022-2466)
 
 ### CVE-2022-2477 (2022-07-27)
 
@@ -1703,37 +1519,21 @@ Use after free in Views in Google Chrome prior to 103.0.5060.134 allowed a remot
 
 - [Live-Hack-CVE/CVE-2022-2481](https://github.com/Live-Hack-CVE/CVE-2022-2481)
 
-### CVE-2022-2485 (2022-08-31)
+### CVE-2022-2503 (2022-08-12)
 
 <code>
-Any attempt (good or bad) to log into AutomationDirect Stride Field I/O with a web browser may result in the device responding with its password in the communication packets.
+Dm-verity is used for extending root-of-trust to root filesystems. LoadPin builds on this property to restrict module/firmware loads to just the trusted root filesystem. Device-mapper table reloads currently allow users with root privileges to switch out the target with an equivalent dm-linear target and bypass verification till reboot. This allows root to bypass LoadPin and can be used to load untrusted and unverified kernel modules and firmware, which implies arbitrary kernel execution and persistence for peripherals that do not verify firmware updates. We recommend upgrading past commit 4caae58406f8ceb741603eee460d79bacca9b1b5
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2485](https://github.com/Live-Hack-CVE/CVE-2022-2485)
+- [Live-Hack-CVE/CVE-2022-2503](https://github.com/Live-Hack-CVE/CVE-2022-2503)
 
-### CVE-2022-2519 (2022-08-31)
+### CVE-2022-2509 (2022-08-01)
 
 <code>
-There is a double free or corruption in rotateImage() at tiffcrop.c:8839 found in libtiff 4.4.0rc1
+A vulnerability found in gnutls. This security flaw happens because of a double free error occurs during verification of pkcs7 signatures in gnutls_pkcs7_verify function.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2519](https://github.com/Live-Hack-CVE/CVE-2022-2519)
-
-### CVE-2022-2520 (2022-08-31)
-
-<code>
-A flaw was found in libtiff 4.4.0rc1. There is a sysmalloc assertion fail in rotateImage() at tiffcrop.c:8621 that can cause program crash when reading a crafted input.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2520](https://github.com/Live-Hack-CVE/CVE-2022-2520)
-
-### CVE-2022-2521 (2022-08-31)
-
-<code>
-It was found in libtiff 4.4.0rc1 that there is an invalid pointer free operation in TIFFClose() at tif_close.c:131 called by tiffcrop.c:2522 that can cause a program crash and denial of service while processing crafted input.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2521](https://github.com/Live-Hack-CVE/CVE-2022-2521)
+- [Live-Hack-CVE/CVE-2022-2509](https://github.com/Live-Hack-CVE/CVE-2022-2509)
 
 ### CVE-2022-2532 (2022-08-22)
 
@@ -1742,6 +1542,14 @@ The Feed Them Social WordPress plugin before 3.0.1 does not sanitise and escape 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2532](https://github.com/Live-Hack-CVE/CVE-2022-2532)
+
+### CVE-2022-2535 (2022-08-15)
+
+<code>
+The SearchWP Live Ajax Search WordPress plugin before 1.6.2 does not ensure that users making a live search are limited to published posts only, allowing unauthenticated users to make a crafted query disclosing private/draft/pending post titles along with their permalink
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2535](https://github.com/Live-Hack-CVE/CVE-2022-2535)
 
 ### CVE-2022-2537 (2022-08-29)
 
@@ -1759,14 +1567,6 @@ The WP Hide &amp; Security Enhancer WordPress plugin before 1.8 does not escape 
 
 - [Live-Hack-CVE/CVE-2022-2538](https://github.com/Live-Hack-CVE/CVE-2022-2538)
 
-### CVE-2022-2543 (2022-09-05)
-
-<code>
-The Visual Portfolio, Photo Gallery &amp; Post Grid WordPress plugin before 2.18.0 does not have proper authorisation checks in some of its REST endpoints, allowing unauthenticated users to call them and inject arbitrary CSS in arbitrary saved layouts
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2543](https://github.com/Live-Hack-CVE/CVE-2022-2543)
-
 ### CVE-2022-2544 (2022-08-22)
 
 <code>
@@ -1774,6 +1574,14 @@ The Ninja Job Board WordPress plugin before 1.3.3 does not protect the directory
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2544](https://github.com/Live-Hack-CVE/CVE-2022-2544)
+
+### CVE-2022-2547 (2022-08-17)
+
+<code>
+A crafted HTTP packet without a content-type header can create a denial-of-service condition in Softing Secure Integration Server V1.22.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2547](https://github.com/Live-Hack-CVE/CVE-2022-2547)
 
 ### CVE-2022-2551 (2022-08-22)
 
@@ -1823,14 +1631,6 @@ The Fluent Support WordPress plugin before 1.5.8 does not properly sanitise, val
 
 - [Live-Hack-CVE/CVE-2022-2559](https://github.com/Live-Hack-CVE/CVE-2022-2559)
 
-### CVE-2022-2565 (2022-09-05)
-
-<code>
-The Simple Payment Donations &amp; Subscriptions WordPress plugin before 4.2.1 does not sanitise and escape user input given in its forms, which could allow unauthenticated attackers to perform Cross-Site Scripting attacks against admins
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2565](https://github.com/Live-Hack-CVE/CVE-2022-2565)
-
 ### CVE-2022-2569 (2022-08-24)
 
 <code>
@@ -1838,14 +1638,6 @@ The affected device stores sensitive information in cleartext, which may allow a
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2569](https://github.com/Live-Hack-CVE/CVE-2022-2569)
-
-### CVE-2022-2590 (2022-08-31)
-
-<code>
-A race condition was found in the way the Linux kernel's memory subsystem handled the copy-on-write (COW) breakage of private read-only shared memory mappings. This flaw allows an unprivileged, local user to gain write access to read-only memory mappings, increasing their privileges on the system.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2590](https://github.com/Live-Hack-CVE/CVE-2022-2590)
 
 ### CVE-2022-2593 (2022-08-22)
 
@@ -1879,53 +1671,37 @@ The Auto-hyperlink URLs WordPress plugin through 5.4.1 does not set rel=&quot;no
 
 - [Live-Hack-CVE/CVE-2022-2600](https://github.com/Live-Hack-CVE/CVE-2022-2600)
 
-### CVE-2022-2638 (2022-08-29)
+### CVE-2022-2661 (2022-08-16)
 
 <code>
-The Export All URLs WordPress plugin before 4.4 does not validate the path of the file to be removed on the system which is supposed to be the CSV file. This could allow high privilege users to delete arbitrary file from the server
+Sequi PortBloque S has an improper authorization vulnerability, which may allow a low-privileged user to perform administrative functions using specifically crafted requests.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2638](https://github.com/Live-Hack-CVE/CVE-2022-2638)
+- [Live-Hack-CVE/CVE-2022-2661](https://github.com/Live-Hack-CVE/CVE-2022-2661)
 
-### CVE-2022-2639 (2022-09-01)
+### CVE-2022-2662 (2022-08-16)
 
 <code>
-An integer coercion error was found in the openvswitch kernel module. Given a sufficiently large number of actions, while copying and reserving memory for a new action of a new flow, the reserve_sfa_size() function does not return -EMSGSIZE as expected, potentially leading to an out-of-bounds write access. This flaw allows a local user to crash or potentially escalate their privileges on the system.
+Sequi PortBloque S has a improper authentication issues which may allow an attacker to bypass the authentication process and gain user-level access to the device.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2639](https://github.com/Live-Hack-CVE/CVE-2022-2639)
+- [Live-Hack-CVE/CVE-2022-2662](https://github.com/Live-Hack-CVE/CVE-2022-2662)
 
-### CVE-2022-2657 (2022-09-05)
+### CVE-2022-2719 (2022-08-09)
 
 <code>
-The Multivendor Marketplace Solution for WooCommerce WordPress plugin before 3.8.12 is lacking authorisation and CSRF in multiple AJAX actions, which could allow any authenticated users, such as subscriber to call them and suspend vendors (reporter by the submitter) or update arbitrary order status (identified by WPScan when verifying the issue) for example. Other unauthenticated attacks are also possible, either directly or via CSRF
+In ImageMagick, a crafted file could trigger an assertion failure when a call to WriteImages was made in MagickWand/operation.c, due to a NULL image list. This could potentially cause a denial of service. This was fixed in upstream ImageMagick version 7.1.0-30.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2657](https://github.com/Live-Hack-CVE/CVE-2022-2657)
+- [Live-Hack-CVE/CVE-2022-2719](https://github.com/Live-Hack-CVE/CVE-2022-2719)
 
-### CVE-2022-2739 (2022-09-01)
+### CVE-2022-2779 (2022-08-12)
 
 <code>
-The version of podman as released for Red Hat Enterprise Linux 7 Extras via RHSA-2022:2190 advisory included an incorrect version of podman missing the fix for CVE-2020-14370, which was previously fixed via RHSA-2020:5056. This issue could possibly allow an attacker to gain access to sensitive information stored in environment variables.
+A vulnerability classified as critical was found in SourceCodester Gas Agency Management System. Affected by this vulnerability is an unknown functionality of the file /gasmark/assets/myimages/oneWord.php. The manipulation of the argument shell leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-206173 was assigned to this vulnerability.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2739](https://github.com/Live-Hack-CVE/CVE-2022-2739)
-
-### CVE-2022-2759 (2022-08-31)
-
-<code>
-Delta Electronics Delta Robot Automation Studio (DRAS) versions prior to 1.13.20 are affected by improper restrictions where the software processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output. This may allow an attacker to view sensitive documents and information on the affected host.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2759](https://github.com/Live-Hack-CVE/CVE-2022-2759)
-
-### CVE-2022-2775 (2022-09-05)
-
-<code>
-The Fast Flow WordPress plugin before 1.2.13 does not sanitise and escape some of its Widget settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2775](https://github.com/Live-Hack-CVE/CVE-2022-2775)
+- [Live-Hack-CVE/CVE-2022-2779](https://github.com/Live-Hack-CVE/CVE-2022-2779)
 
 ### CVE-2022-2788 (2022-08-19)
 
@@ -1975,13 +1751,109 @@ Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/pimcore prior t
 
 - [Live-Hack-CVE/CVE-2022-2796](https://github.com/Live-Hack-CVE/CVE-2022-2796)
 
-### CVE-2022-2806 (2022-09-01)
+### CVE-2022-2800 (2022-08-12)
 
 <code>
-It was found that the ovirt-log-collector/sosreport collects the RHV admin password unfiltered. Fixed in: sos-4.2-20.el8_6, ovirt-log-collector-4.4.7-2.el8ev
+A vulnerability, which was classified as problematic, has been found in SourceCodester Gym Management System. Affected by this issue is some unknown functionality. The manipulation leads to clickjacking. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-206246 is the identifier assigned to this vulnerability.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2806](https://github.com/Live-Hack-CVE/CVE-2022-2806)
+- [Live-Hack-CVE/CVE-2022-2800](https://github.com/Live-Hack-CVE/CVE-2022-2800)
+
+### CVE-2022-2801 (2022-08-12)
+
+<code>
+A vulnerability, which was classified as critical, was found in SourceCodester Automated Beer Parlour Billing System. This affects an unknown part of the component Login. The manipulation of the argument username leads to sql injection. It is possible to initiate the attack remotely. The associated identifier of this vulnerability is VDB-206247.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2801](https://github.com/Live-Hack-CVE/CVE-2022-2801)
+
+### CVE-2022-2802 (2022-08-12)
+
+<code>
+A vulnerability has been found in SourceCodester Gas Agency Management System and classified as critical. This vulnerability affects unknown code of the file gasmark/login.php. The manipulation of the argument username leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-206248.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2802](https://github.com/Live-Hack-CVE/CVE-2022-2802)
+
+### CVE-2022-2803 (2022-08-12)
+
+<code>
+A vulnerability was found in SourceCodester Zoo Management System and classified as critical. This issue affects some unknown processing of the file /pages/animals.php. The manipulation of the argument class_id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-206249 was assigned to this vulnerability.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2803](https://github.com/Live-Hack-CVE/CVE-2022-2803)
+
+### CVE-2022-2804 (2022-08-12)
+
+<code>
+A vulnerability was found in SourceCodester Zoo Management System. It has been classified as critical. Affected is an unknown function of the file /pages/apply_vacancy.php. The manipulation of the argument filename leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-206250 is the identifier assigned to this vulnerability.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2804](https://github.com/Live-Hack-CVE/CVE-2022-2804)
+
+### CVE-2022-2811 (2022-08-14)
+
+<code>
+A vulnerability classified as problematic has been found in SourceCodester Guest Management System. This affects an unknown part of the file myform.php. The manipulation of the argument name leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-206397 was assigned to this vulnerability.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2811](https://github.com/Live-Hack-CVE/CVE-2022-2811)
+
+### CVE-2022-2812 (2022-08-14)
+
+<code>
+A vulnerability classified as critical was found in SourceCodester Guest Management System. This vulnerability affects unknown code of the file index.php. The manipulation of the argument username/pass leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-206398 is the identifier assigned to this vulnerability.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2812](https://github.com/Live-Hack-CVE/CVE-2022-2812)
+
+### CVE-2022-2813 (2022-08-14)
+
+<code>
+A vulnerability, which was classified as problematic, was found in SourceCodester Guest Management System. Affected is an unknown function. The manipulation leads to cleartext storage of passwords in the database. The identifier of this vulnerability is VDB-206400.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2813](https://github.com/Live-Hack-CVE/CVE-2022-2813)
+
+### CVE-2022-2814 (2022-08-15)
+
+<code>
+A vulnerability has been found in SourceCodester Simple and Nice Shopping Cart Script and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /mkshope/login.php. The manipulation of the argument msg leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-206401 was assigned to this vulnerability.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2814](https://github.com/Live-Hack-CVE/CVE-2022-2814)
+
+### CVE-2022-2820 (2022-08-15)
+
+<code>
+Improper Access Control in GitHub repository namelessmc/nameless prior to v2.0.2.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2820](https://github.com/Live-Hack-CVE/CVE-2022-2820)
+
+### CVE-2022-2821 (2022-08-15)
+
+<code>
+Missing Critical Step in Authentication in GitHub repository namelessmc/nameless prior to v2.0.2.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2821](https://github.com/Live-Hack-CVE/CVE-2022-2821)
+
+### CVE-2022-2822 (2022-08-15)
+
+<code>
+An attacker can freely brute force username and password and can takeover any account. An attacker could easily guess user passwords and gain access to user and administrative accounts.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2822](https://github.com/Live-Hack-CVE/CVE-2022-2822)
+
+### CVE-2022-2824 (2022-08-15)
+
+<code>
+Improper Access Control in GitHub repository openemr/openemr prior to 7.0.0.1.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2824](https://github.com/Live-Hack-CVE/CVE-2022-2824)
 
 ### CVE-2022-2829 (2022-08-23)
 
@@ -1991,21 +1863,21 @@ Cross-site Scripting (XSS) - Stored in GitHub repository yetiforcecompany/yetifo
 
 - [Live-Hack-CVE/CVE-2022-2829](https://github.com/Live-Hack-CVE/CVE-2022-2829)
 
-### CVE-2022-2831 (2022-08-16)
+### CVE-2022-2833 (2022-08-16)
 
 <code>
-A flaw was found in Blender 3.3.0. An interger overflow in source/blender/blendthumb/src/blendthumb_extract.cc may lead to program crash or memory corruption.
+Endless Infinite loop in Blender-thumnailing due to logical bugs.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2831](https://github.com/Live-Hack-CVE/CVE-2022-2831)
+- [Live-Hack-CVE/CVE-2022-2833](https://github.com/Live-Hack-CVE/CVE-2022-2833)
 
-### CVE-2022-2832 (2022-08-16)
+### CVE-2022-2838 (2022-08-16)
 
 <code>
-A flaw was found in Blender 3.3.0. A null pointer dereference exists in source/blender/gpu/opengl/gl_backend.cc that may lead to loss of confidentiality and integrity.
+In Eclipse Sphinx™ before version 0.13.1, Apache Xerces XML Parser was used without disabling processing of referenced external entities allowing the injection of arbitrary definitions which is able to access local files and expose their contents via HTTP requests.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2832](https://github.com/Live-Hack-CVE/CVE-2022-2832)
+- [Live-Hack-CVE/CVE-2022-2838](https://github.com/Live-Hack-CVE/CVE-2022-2838)
 
 ### CVE-2022-2841 (2022-08-22)
 
@@ -2023,13 +1895,45 @@ A vulnerability classified as critical has been found in SourceCodester Gym Mana
 
 - [Live-Hack-CVE/CVE-2022-2842](https://github.com/Live-Hack-CVE/CVE-2022-2842)
 
-### CVE-2022-2866 (2022-08-31)
+### CVE-2022-2843 (2022-08-16)
 
 <code>
-FATEK FvDesigner version 1.5.103 and prior is vulnerable to an out-of-bounds write while processing project files. If a valid user is tricked into using maliciously crafted project files, an attacker could achieve arbitrary code execution.
+A vulnerability was found in MotoPress Timetable and Event Schedule. It has been rated as problematic. Affected by this issue is some unknown functionality of the file /wp-admin/admin-ajax.php of the component Quick Edit. The manipulation of the argument post_title with the input &lt;img src=x onerror=alert`2`&gt; leads to cross site scripting. The attack may be launched remotely. VDB-206486 is the identifier assigned to this vulnerability.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-2866](https://github.com/Live-Hack-CVE/CVE-2022-2866)
+- [Live-Hack-CVE/CVE-2022-2843](https://github.com/Live-Hack-CVE/CVE-2022-2843)
+
+### CVE-2022-2844 (2022-08-16)
+
+<code>
+A vulnerability classified as problematic has been found in MotoPress Timetable and Event Schedule up to 1.4.06. This affects an unknown part of the file /wp/?cpmvc_id=1&amp;cpmvc_do_action=mvparse&amp;f=datafeed&amp;calid=1&amp;month_index=1&amp;method=adddetails&amp;id=2 of the component Calendar Handler. The manipulation of the argument Subject/Location/Description leads to cross site scripting. It is possible to initiate the attack remotely. The associated identifier of this vulnerability is VDB-206487.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2844](https://github.com/Live-Hack-CVE/CVE-2022-2844)
+
+### CVE-2022-2847 (2022-08-16)
+
+<code>
+A vulnerability, which was classified as critical, has been found in SourceCodester Guest Management System. This issue affects some unknown processing of the file /guestmanagement/front.php. The manipulation of the argument rid leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-206489 was assigned to this vulnerability.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2847](https://github.com/Live-Hack-CVE/CVE-2022-2847)
+
+### CVE-2022-2870 (2022-08-17)
+
+<code>
+A vulnerability was found in laravel 5.1 and classified as problematic. This issue affects some unknown processing. The manipulation leads to deserialization. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-206501 was assigned to this vulnerability.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2870](https://github.com/Live-Hack-CVE/CVE-2022-2870)
+
+### CVE-2022-2871 (2022-08-17)
+
+<code>
+Cross-site Scripting (XSS) - Stored in GitHub repository notrinos/notrinoserp prior to 0.7.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2871](https://github.com/Live-Hack-CVE/CVE-2022-2871)
 
 ### CVE-2022-2873 (2022-08-22)
 
@@ -2038,6 +1942,14 @@ An out-of-bounds memory access flaw was found in the Linux kernel Intel’s iSMT
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2873](https://github.com/Live-Hack-CVE/CVE-2022-2873)
+
+### CVE-2022-2876 (2022-08-18)
+
+<code>
+A vulnerability, which was classified as critical, was found in SourceCodester Student Management System. Affected is an unknown function of the file index.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-206634 is the identifier assigned to this vulnerability.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-2876](https://github.com/Live-Hack-CVE/CVE-2022-2876)
 
 ### CVE-2022-2885 (2022-08-21)
 
@@ -2055,14 +1967,6 @@ A vulnerability, which was classified as critical, was found in Laravel 5.1. Aff
 
 - [Live-Hack-CVE/CVE-2022-2886](https://github.com/Live-Hack-CVE/CVE-2022-2886)
 
-### CVE-2022-2889 (2022-08-19)
-
-<code>
-Use After Free in GitHub repository vim/vim prior to 9.0.0225.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2889](https://github.com/Live-Hack-CVE/CVE-2022-2889)
-
 ### CVE-2022-2890 (2022-08-22)
 
 <code>
@@ -2070,46 +1974,6 @@ Cross-site Scripting (XSS) - Stored in GitHub repository yetiforcecompany/yetifo
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2890](https://github.com/Live-Hack-CVE/CVE-2022-2890)
-
-### CVE-2022-2892 (2022-08-31)
-
-<code>
-Measuresoft ScadaPro Server (Versions prior to 6.8.0.1) uses an unmaintained ActiveX control, which may allow an out-of-bounds write condition while processing a specific project file.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2892](https://github.com/Live-Hack-CVE/CVE-2022-2892)
-
-### CVE-2022-2894 (2022-08-31)
-
-<code>
-Measuresoft ScadaPro Server (All Versions) uses unmaintained ActiveX controls. The controls may allow seven untrusted pointer deference instances while processing a specific project file.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2894](https://github.com/Live-Hack-CVE/CVE-2022-2894)
-
-### CVE-2022-2896 (2022-08-31)
-
-<code>
-Measuresoft ScadaPro Server (All Versions) allows use after free while processing a specific project file.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2896](https://github.com/Live-Hack-CVE/CVE-2022-2896)
-
-### CVE-2022-2897 (2022-08-31)
-
-<code>
-Measuresoft ScadaPro Server and Client (All Versions) do not properly resolve links before file access; this could allow privilege escalation..
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2897](https://github.com/Live-Hack-CVE/CVE-2022-2897)
-
-### CVE-2022-2898 (2022-08-31)
-
-<code>
-Measuresoft ScadaPro Server and Client (All Versions) do not properly resolve links before file access; this could allow a denial-of-service condition.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2898](https://github.com/Live-Hack-CVE/CVE-2022-2898)
 
 ### CVE-2022-2909 (2022-08-20)
 
@@ -2119,14 +1983,6 @@ A vulnerability was found in SourceCodester Simple and Nice Shopping Cart Script
 
 - [Live-Hack-CVE/CVE-2022-2909](https://github.com/Live-Hack-CVE/CVE-2022-2909)
 
-### CVE-2022-2915 (2022-08-26)
-
-<code>
-A Heap-based Buffer Overflow vulnerability in the SonicWall SMA100 appliance allows a remote authenticated attacker to cause Denial of Service (DoS) on the appliance or potentially lead to code execution. This vulnerability impacts 10.2.1.5-34sv and earlier versions.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2915](https://github.com/Live-Hack-CVE/CVE-2022-2915)
-
 ### CVE-2022-2921 (2022-08-20)
 
 <code>
@@ -2134,14 +1990,6 @@ Exposure of Private Personal Information to an Unauthorized Actor in GitHub repo
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2921](https://github.com/Live-Hack-CVE/CVE-2022-2921)
-
-### CVE-2022-2923 (2022-08-22)
-
-<code>
-NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0240.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2923](https://github.com/Live-Hack-CVE/CVE-2022-2923)
 
 ### CVE-2022-2927 (2022-08-22)
 
@@ -2190,14 +2038,6 @@ A race condition was found in the Linux kernel's watch queue due to a missing lo
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2959](https://github.com/Live-Hack-CVE/CVE-2022-2959)
-
-### CVE-2022-2961 (2022-08-29)
-
-<code>
-A use-after-free flaw was found in the Linux kernel’s PLP Rose functionality in the way a user triggers a race condition by calling bind while simultaneously triggering the rose_bind() function. This flaw allows a local user to crash or potentially escalate their privileges on the system.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2961](https://github.com/Live-Hack-CVE/CVE-2022-2961)
 
 ### CVE-2022-2965 (2022-08-23)
 
@@ -2255,30 +2095,6 @@ A vulnerability, which was classified as problematic, has been found in oretnom2
 
 - [Live-Hack-CVE/CVE-2022-3015](https://github.com/Live-Hack-CVE/CVE-2022-3015)
 
-### CVE-2022-3017 (2022-08-28)
-
-<code>
-Cross-Site Request Forgery (CSRF) in GitHub repository froxlor/froxlor prior to 0.10.38.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-3017](https://github.com/Live-Hack-CVE/CVE-2022-3017)
-
-### CVE-2022-3019 (2022-08-29)
-
-<code>
-The forgot password token basically just makes us capable of taking over the account of whoever comment in an app that we can see (bruteforcing comment id's might also be an option but I wouldn't count on it, since it would take a long time to find a valid one).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-3019](https://github.com/Live-Hack-CVE/CVE-2022-3019)
-
-### CVE-2022-3026 (2022-09-06)
-
-<code>
-The WP Users Exporter plugin for WordPress is vulnerable to CSV Injection in versions up to, and including, 1.4.2 via the 'Export Users' functionality. This makes it possible for authenticated attackers, such as a subscriber, to add untrusted input into profile information like First Names that will embed into the exported CSV file triggered by an administrator and can result in code execution when these files are downloaded and opened on a local system with a vulnerable configuration.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-3026](https://github.com/Live-Hack-CVE/CVE-2022-3026)
-
 ### CVE-2022-3035 (2022-08-29)
 
 <code>
@@ -2286,54 +2102,6 @@ Cross-site Scripting (XSS) - Stored in GitHub repository snipe/snipe-it prior to
 </code>
 
 - [Live-Hack-CVE/CVE-2022-3035](https://github.com/Live-Hack-CVE/CVE-2022-3035)
-
-### CVE-2022-3065 (2022-09-02)
-
-<code>
-Improper Access Control in GitHub repository jgraph/drawio prior to 20.2.8.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-3065](https://github.com/Live-Hack-CVE/CVE-2022-3065)
-
-### CVE-2022-3072 (2022-09-01)
-
-<code>
-Cross-site Scripting (XSS) - Stored in GitHub repository francoisjacquet/rosariosis prior to 8.9.3.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-3072](https://github.com/Live-Hack-CVE/CVE-2022-3072)
-
-### CVE-2022-3078 (2022-09-01)
-
-<code>
-An issue was discovered in the Linux kernel through 5.16-rc6. There is a lack of check after calling vzalloc() and lack of free after allocation in drivers/media/test-drivers/vidtv/vidtv_s302m.c.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-3078](https://github.com/Live-Hack-CVE/CVE-2022-3078)
-
-### CVE-2022-3120 (2022-09-05)
-
-<code>
-A vulnerability classified as critical was found in SourceCodester Clinics Patient Management System. Affected by this vulnerability is an unknown functionality of the file index.php of the component Login. The manipulation of the argument user_name leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-207847.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-3120](https://github.com/Live-Hack-CVE/CVE-2022-3120)
-
-### CVE-2022-3121 (2022-09-05)
-
-<code>
-A vulnerability was found in SourceCodester Online Employee Leave Management System 1.0. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /admin/addemployee.php. The manipulation leads to cross-site request forgery. The attack can be launched remotely. The identifier VDB-207853 was assigned to this vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-3121](https://github.com/Live-Hack-CVE/CVE-2022-3121)
-
-### CVE-2022-3127 (2022-09-05)
-
-<code>
-Cross-site Scripting (XSS) - Stored in GitHub repository jgraph/drawio prior to 20.2.8.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-3127](https://github.com/Live-Hack-CVE/CVE-2022-3127)
 
 ### CVE-2022-4731 (2022-12-25)
 
@@ -2443,21 +2211,269 @@ The PowerVR GPU driver allows unprivileged apps to allocated pinned memory, unpi
 
 - [Live-Hack-CVE/CVE-2022-20122](https://github.com/Live-Hack-CVE/CVE-2022-20122)
 
-### CVE-2022-20141 (2022-06-15)
+### CVE-2022-20269 (2022-08-11)
 
 <code>
-In ip_check_mc_rcu of igmp.c, there is a possible use after free due to improper locking. This could lead to local escalation of privilege when opening and closing inet sockets with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-112551163References: Upstream kernel
+In Bluetooth, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-209062898
 </code>
 
-- [Live-Hack-CVE/CVE-2022-20141](https://github.com/Live-Hack-CVE/CVE-2022-20141)
+- [Live-Hack-CVE/CVE-2022-20269](https://github.com/Live-Hack-CVE/CVE-2022-20269)
 
-### CVE-2022-20368 (2022-08-11)
+### CVE-2022-20271 (2022-08-11)
 
 <code>
-Product: AndroidVersions: Android kernelAndroid ID: A-224546354References: Upstream kernel
+In PermissionController, there is a possible way to grant some permissions without user consent due to misleading or insufficient UI. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-207672635
 </code>
 
-- [Live-Hack-CVE/CVE-2022-20368](https://github.com/Live-Hack-CVE/CVE-2022-20368)
+- [Live-Hack-CVE/CVE-2022-20271](https://github.com/Live-Hack-CVE/CVE-2022-20271)
+
+### CVE-2022-20272 (2022-08-11)
+
+<code>
+In PermissionController, there is a possible misunderstanding about the default SMS application's permission set due to misleading text. This could lead to local information disclosure with User privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-207672568
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20272](https://github.com/Live-Hack-CVE/CVE-2022-20272)
+
+### CVE-2022-20273 (2022-08-11)
+
+<code>
+In Bluetooth, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-206478022
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20273](https://github.com/Live-Hack-CVE/CVE-2022-20273)
+
+### CVE-2022-20280 (2022-08-11)
+
+<code>
+In MMSProvider, there is a possible read of protected data due to improper input validationSQL injection. This could lead to local information disclosure of sms/mms data with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-204117261
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20280](https://github.com/Live-Hack-CVE/CVE-2022-20280)
+
+### CVE-2022-20282 (2022-08-11)
+
+<code>
+In AppWidget, there is a possible way to start an activity from the background due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-204083104
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20282](https://github.com/Live-Hack-CVE/CVE-2022-20282)
+
+### CVE-2022-20283 (2022-08-11)
+
+<code>
+In Bluetooth, there is a possible out of bounds write due to an integer overflow. This could lead to remote code execution over Bluetooth with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-233069336
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20283](https://github.com/Live-Hack-CVE/CVE-2022-20283)
+
+### CVE-2022-20284 (2022-08-11)
+
+<code>
+In Telephony, there is a possible information disclosure due to a missing permission check. This could lead to local information disclosure of phone accounts with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-231986341
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20284](https://github.com/Live-Hack-CVE/CVE-2022-20284)
+
+### CVE-2022-20285 (2022-08-11)
+
+<code>
+In PackageManager, there is a possible way to determine whether an app is installed, without query permissions, due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-230868108
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20285](https://github.com/Live-Hack-CVE/CVE-2022-20285)
+
+### CVE-2022-20286 (2022-08-11)
+
+<code>
+In Connectivity, there is a possible bypass the restriction of starting activity from background due to a logic error in the code. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-230866011
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20286](https://github.com/Live-Hack-CVE/CVE-2022-20286)
+
+### CVE-2022-20287 (2022-08-11)
+
+<code>
+In AppSearchManagerService, there is a possible way to determine whether an app is installed, without query permissions, due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-204082784
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20287](https://github.com/Live-Hack-CVE/CVE-2022-20287)
+
+### CVE-2022-20288 (2022-08-11)
+
+<code>
+In AppSearchManagerService, there is a possible way to determine whether an app is installed, without query permissions, due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-204082360
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20288](https://github.com/Live-Hack-CVE/CVE-2022-20288)
+
+### CVE-2022-20289 (2022-08-11)
+
+<code>
+In PackageInstaller, there is a possible way to determine whether an app is installed, without query permissions, due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-203683960
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20289](https://github.com/Live-Hack-CVE/CVE-2022-20289)
+
+### CVE-2022-20290 (2022-08-11)
+
+<code>
+In Midi, there is a possible way to learn about private midi devices due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-203549963
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20290](https://github.com/Live-Hack-CVE/CVE-2022-20290)
+
+### CVE-2022-20317 (2022-08-11)
+
+<code>
+In SystemUI, there is a possible way to unexpectedly enable the external speaker due to a logic error in the code. This could lead to local information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-190199063
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20317](https://github.com/Live-Hack-CVE/CVE-2022-20317)
+
+### CVE-2022-20318 (2022-08-11)
+
+<code>
+In PackageInstaller, there is a possible way to determine whether an app is installed, without query permissions, due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-194694069
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20318](https://github.com/Live-Hack-CVE/CVE-2022-20318)
+
+### CVE-2022-20319 (2022-08-11)
+
+<code>
+In DreamServices, there is a possible way to launch arbitrary protected activities due to a confused deputy. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-189574230
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20319](https://github.com/Live-Hack-CVE/CVE-2022-20319)
+
+### CVE-2022-20320 (2022-08-11)
+
+<code>
+In ActivityManager, there is a possible way to determine whether an app is installed, without query permissions, due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-187956596
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20320](https://github.com/Live-Hack-CVE/CVE-2022-20320)
+
+### CVE-2022-20321 (2022-08-11)
+
+<code>
+In Settings, there is a possible way for an application without permissions to read content of WiFi QR codes due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-187176859
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20321](https://github.com/Live-Hack-CVE/CVE-2022-20321)
+
+### CVE-2022-20322 (2022-08-11)
+
+<code>
+In PackageManager, there is a possible installed package disclosure due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-187176993
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20322](https://github.com/Live-Hack-CVE/CVE-2022-20322)
+
+### CVE-2022-20323 (2022-08-11)
+
+<code>
+In PackageManager, there is a possible package installation disclosure due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-187176203
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20323](https://github.com/Live-Hack-CVE/CVE-2022-20323)
+
+### CVE-2022-20324 (2022-08-11)
+
+<code>
+In Framework, there is a possible way to determine whether an app is installed, without query permissions, due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-187042120
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20324](https://github.com/Live-Hack-CVE/CVE-2022-20324)
+
+### CVE-2022-20325 (2022-08-11)
+
+<code>
+In Media, there is a possible code execution due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-186473060
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20325](https://github.com/Live-Hack-CVE/CVE-2022-20325)
+
+### CVE-2022-20326 (2022-08-11)
+
+<code>
+In Telephony, there is a possible disclosure of SIM identifiers due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-185235527
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20326](https://github.com/Live-Hack-CVE/CVE-2022-20326)
+
+### CVE-2022-20327 (2022-08-11)
+
+<code>
+In Wi-Fi, there is a possible way to retrieve the WiFi SSID without location permissions due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-185126813
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20327](https://github.com/Live-Hack-CVE/CVE-2022-20327)
+
+### CVE-2022-20328 (2022-08-11)
+
+<code>
+In PackageManager, there is a possible way to determine whether an app is installed due to a missing permission check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-184948501
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20328](https://github.com/Live-Hack-CVE/CVE-2022-20328)
+
+### CVE-2022-20329 (2022-08-11)
+
+<code>
+In Wifi, there is a possible way to enable Wifi without permissions due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-183410556
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20329](https://github.com/Live-Hack-CVE/CVE-2022-20329)
+
+### CVE-2022-20330 (2022-08-11)
+
+<code>
+In Bluetooth, there is a possible way to connect or disconnect bluetooth devices without user awareness due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-181962588
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20330](https://github.com/Live-Hack-CVE/CVE-2022-20330)
+
+### CVE-2022-20331 (2022-08-11)
+
+<code>
+In the Framework, there is a possible way to enable a work profile without user consent due to a tapjacking/overlay attack. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-181785557
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20331](https://github.com/Live-Hack-CVE/CVE-2022-20331)
+
+### CVE-2022-20332 (2022-08-11)
+
+<code>
+In PackageManager, there is a possible way to determine whether an app is installed, without query permissions, due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-180019130
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20332](https://github.com/Live-Hack-CVE/CVE-2022-20332)
+
+### CVE-2022-20333 (2022-08-11)
+
+<code>
+In Bluetooth, there is a possible crash due to a missing null check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-179161657
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20333](https://github.com/Live-Hack-CVE/CVE-2022-20333)
+
+### CVE-2022-20334 (2022-08-11)
+
+<code>
+In Bluetooth, there are possible process crashes due to dereferencing a null pointer. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-178800552
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20334](https://github.com/Live-Hack-CVE/CVE-2022-20334)
+
+### CVE-2022-20651 (2022-06-22)
+
+<code>
+A vulnerability in the logging component of Cisco Adaptive Security Device Manager (ASDM) could allow an authenticated, local attacker to view sensitive information in clear text on an affected system. Cisco ADSM must be deployed in a shared workstation environment for this issue to be exploited. This vulnerability is due to the storage of unencrypted credentials in certain logs. An attacker could exploit this vulnerability by accessing the logs on an affected system. A successful exploit could allow the attacker to view the credentials of other users of the shared device.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-20651](https://github.com/Live-Hack-CVE/CVE-2022-20651)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -2468,14 +2484,6 @@ Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 
 - [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
 - [rohankumardubey/CVE-2022-20699](https://github.com/rohankumardubey/CVE-2022-20699)
 
-### CVE-2022-20823 (2022-08-25)
-
-<code>
-A vulnerability in the OSPF version 3 (OSPFv3) feature of Cisco NX-OS Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. This vulnerability is due to incomplete input validation of specific OSPFv3 packets. An attacker could exploit this vulnerability by sending a malicious OSPFv3 link-state advertisement (LSA) to an affected device. A successful exploit could allow the attacker to cause the OSPFv3 process to crash and restart multiple times, causing the affected device to reload and resulting in a DoS condition. Note: The OSPFv3 feature is disabled by default. To exploit this vulnerability, an attacker must be able to establish a full OSPFv3 neighbor state with an affected device. For more information about exploitation conditions, see the Details section of this advisory.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-20823](https://github.com/Live-Hack-CVE/CVE-2022-20823)
-
 ### CVE-2022-20829 (2022-06-24)
 
 <code>
@@ -2483,14 +2491,6 @@ A vulnerability in the packaging of Cisco Adaptive Security Device Manager (ASDM
 </code>
 
 - [jbaines-r7/theway](https://github.com/jbaines-r7/theway)
-
-### CVE-2022-20865 (2022-08-25)
-
-<code>
-A vulnerability in the CLI of Cisco FXOS Software could allow an authenticated, local attacker to inject arbitrary commands that are executed with root privileges. The attacker would need to have Administrator privileges on the device. This vulnerability is due to insufficient input validation of commands supplied by the user. An attacker could exploit this vulnerability by authenticating to a device and submitting crafted input to the affected command. A successful exploit could allow the attacker to execute commands on the underlying operating system with root privileges.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-20865](https://github.com/Live-Hack-CVE/CVE-2022-20865)
 
 ### CVE-2022-20921 (2022-08-25)
 
@@ -2500,6 +2500,22 @@ A vulnerability in the API implementation of Cisco ACI Multi-Site Orchestrator (
 
 - [Live-Hack-CVE/CVE-2022-20921](https://github.com/Live-Hack-CVE/CVE-2022-20921)
 
+### CVE-2022-21123 (2022-06-15)
+
+<code>
+Incomplete cleanup of multi-core shared buffers for some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-21123](https://github.com/Live-Hack-CVE/CVE-2022-21123)
+
+### CVE-2022-21125 (2022-06-15)
+
+<code>
+Incomplete cleanup of microarchitectural fill buffers on some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-21125](https://github.com/Live-Hack-CVE/CVE-2022-21125)
+
 ### CVE-2022-21139 (2022-08-18)
 
 <code>
@@ -2507,6 +2523,30 @@ Inadequate encryption strength for some Intel(R) PROSet/Wireless WiFi products m
 </code>
 
 - [Live-Hack-CVE/CVE-2022-21139](https://github.com/Live-Hack-CVE/CVE-2022-21139)
+
+### CVE-2022-21140 (2022-08-18)
+
+<code>
+Improper access control for some Intel(R) PROSet/Wireless WiFi and Killer(TM) WiFi products may allow a privileged user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-21140](https://github.com/Live-Hack-CVE/CVE-2022-21140)
+
+### CVE-2022-21148 (2022-08-18)
+
+<code>
+Improper access control in the Intel(R) Edge Insights for Industrial software before version 2.6.1 may allow an authenticated user to potentially enable escalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-21148](https://github.com/Live-Hack-CVE/CVE-2022-21148)
+
+### CVE-2022-21152 (2022-08-18)
+
+<code>
+Improper access control in the Intel(R) Edge Insights for Industrial software before version 2.6.1 may allow an authenticated user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-21152](https://github.com/Live-Hack-CVE/CVE-2022-21152)
 
 ### CVE-2022-21160 (2022-08-18)
 
@@ -2516,13 +2556,13 @@ Improper buffer restrictions for some Intel(R) PROSet/Wireless WiFi products may
 
 - [Live-Hack-CVE/CVE-2022-21160](https://github.com/Live-Hack-CVE/CVE-2022-21160)
 
-### CVE-2022-21165 (2022-08-29)
+### CVE-2022-21166 (2022-06-15)
 
 <code>
-All versions of package font-converter are vulnerable to Arbitrary Command Injection due to missing sanitization of input that potentially flows into the child_process.exec() function.
+Incomplete cleanup in specific special register write operations for some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via local access.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-21165](https://github.com/Live-Hack-CVE/CVE-2022-21165)
+- [Live-Hack-CVE/CVE-2022-21166](https://github.com/Live-Hack-CVE/CVE-2022-21166)
 
 ### CVE-2022-21172 (2022-08-18)
 
@@ -2531,6 +2571,14 @@ Out of bounds write for some Intel(R) PROSet/Wireless WiFi products may allow a 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-21172](https://github.com/Live-Hack-CVE/CVE-2022-21172)
+
+### CVE-2022-21181 (2022-08-18)
+
+<code>
+Improper input validation for some Intel(R) PROSet/Wireless WiFi and Killer(TM) WiFi products may allow a privileged user to potentially enable escalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-21181](https://github.com/Live-Hack-CVE/CVE-2022-21181)
 
 ### CVE-2022-21197 (2022-08-18)
 
@@ -2580,14 +2628,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [Mr-xn/CVE-2022-21371](https://github.com/Mr-xn/CVE-2022-21371)
 
-### CVE-2022-21385 (2022-08-29)
-
-<code>
-A flaw in net_rds_alloc_sgs() in Oracle Linux kernels allows unprivileged local users to crash the machine. CVSS 3.1 Base Score 6.2 (Availability impacts). CVSS Vector (CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21385](https://github.com/Live-Hack-CVE/CVE-2022-21385)
-
 ### CVE-2022-21449 (2022-04-19)
 
 <code>
@@ -2600,142 +2640,6 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 - [marschall/psychic-signatures](https://github.com/marschall/psychic-signatures)
 - [Damok82/SignChecker](https://github.com/Damok82/SignChecker)
 - [fundaergn/CVE-2022-21449](https://github.com/fundaergn/CVE-2022-21449)
-
-### CVE-2022-21455 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: PAM Auth Plugin). Supported versions that are affected are 8.0.28 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all MySQL Server accessible data. CVSS 3.1 Base Score 4.9 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21455](https://github.com/Live-Hack-CVE/CVE-2022-21455)
-
-### CVE-2022-21509 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.1 Base Score 5.5 (Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21509](https://github.com/Live-Hack-CVE/CVE-2022-21509)
-
-### CVE-2022-21515 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Options). Supported versions that are affected are 5.7.38 and prior and 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21515](https://github.com/Live-Hack-CVE/CVE-2022-21515)
-
-### CVE-2022-21517 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21517](https://github.com/Live-Hack-CVE/CVE-2022-21517)
-
-### CVE-2022-21519 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Cluster product of Oracle MySQL (component: Cluster: General). Supported versions that are affected are 8.0.29 and prior. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Cluster. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Cluster. CVSS 3.1 Base Score 5.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21519](https://github.com/Live-Hack-CVE/CVE-2022-21519)
-
-### CVE-2022-21522 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Stored Procedure). Supported versions that are affected are 8.0.29 and prior. Difficult to exploit vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.4 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21522](https://github.com/Live-Hack-CVE/CVE-2022-21522)
-
-### CVE-2022-21525 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21525](https://github.com/Live-Hack-CVE/CVE-2022-21525)
-
-### CVE-2022-21526 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21526](https://github.com/Live-Hack-CVE/CVE-2022-21526)
-
-### CVE-2022-21527 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.1 Base Score 5.5 (Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21527](https://github.com/Live-Hack-CVE/CVE-2022-21527)
-
-### CVE-2022-21528 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.1 Base Score 5.5 (Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21528](https://github.com/Live-Hack-CVE/CVE-2022-21528)
-
-### CVE-2022-21529 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21529](https://github.com/Live-Hack-CVE/CVE-2022-21529)
-
-### CVE-2022-21530 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21530](https://github.com/Live-Hack-CVE/CVE-2022-21530)
-
-### CVE-2022-21531 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21531](https://github.com/Live-Hack-CVE/CVE-2022-21531)
-
-### CVE-2022-21534 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Stored Procedure). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21534](https://github.com/Live-Hack-CVE/CVE-2022-21534)
-
-### CVE-2022-21537 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21537](https://github.com/Live-Hack-CVE/CVE-2022-21537)
-
-### CVE-2022-21538 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Security: Encryption). Supported versions that are affected are 8.0.29 and prior. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Server. CVSS 3.1 Base Score 3.1 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21538](https://github.com/Live-Hack-CVE/CVE-2022-21538)
-
-### CVE-2022-21539 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB). Supported versions that are affected are 8.0.29 and prior. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of MySQL Server accessible data as well as unauthorized read access to a subset of MySQL Server accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of MySQL Server. CVSS 3.1 Base Score 5.0 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21539](https://github.com/Live-Hack-CVE/CVE-2022-21539)
 
 ### CVE-2022-21540 (2022-07-19)
 
@@ -2753,14 +2657,6 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 
 - [Live-Hack-CVE/CVE-2022-21541](https://github.com/Live-Hack-CVE/CVE-2022-21541)
 
-### CVE-2022-21547 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Federated). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21547](https://github.com/Live-Hack-CVE/CVE-2022-21547)
-
 ### CVE-2022-21549 (2022-07-19)
 
 <code>
@@ -2768,38 +2664,6 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 </code>
 
 - [Live-Hack-CVE/CVE-2022-21549](https://github.com/Live-Hack-CVE/CVE-2022-21549)
-
-### CVE-2022-21550 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Cluster product of Oracle MySQL (component: Cluster: General). Supported versions that are affected are 7.4.36 and prior, 7.5.26 and prior, 7.6.22 and prior and and 8.0.29 and prior. Difficult to exploit vulnerability allows high privileged attacker with access to the physical communication segment attached to the hardware where the MySQL Cluster executes to compromise MySQL Cluster. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of MySQL Cluster. CVSS 3.1 Base Score 6.3 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21550](https://github.com/Live-Hack-CVE/CVE-2022-21550)
-
-### CVE-2022-21553 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21553](https://github.com/Live-Hack-CVE/CVE-2022-21553)
-
-### CVE-2022-21556 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.28 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all MySQL Server accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 6.5 (Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21556](https://github.com/Live-Hack-CVE/CVE-2022-21556)
-
-### CVE-2022-21569 (2022-07-19)
-
-<code>
-Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer). Supported versions that are affected are 8.0.29 and prior. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 6.5 (Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21569](https://github.com/Live-Hack-CVE/CVE-2022-21569)
 
 ### CVE-2022-21658 (2022-01-20)
 
@@ -2869,29 +2733,13 @@ Uncontrolled search path elements in the Intel(R) VTune(TM) Profiler software be
 
 - [Live-Hack-CVE/CVE-2022-21807](https://github.com/Live-Hack-CVE/CVE-2022-21807)
 
-### CVE-2022-21814 (2022-02-07)
+### CVE-2022-21812 (2022-08-18)
 
 <code>
-NVIDIA GPU Display Driver for Linux contains a vulnerability in the kernel driver package, where improper handling of insufficient permissions or privileges may allow an unprivileged local user limited write access to protected memory, which can lead to denial of service.
+Improper access control in the Intel(R) HAXM software before version 7.7.1 may allow an authenticated user to potentially enable escalation of privilege via local access.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-21814](https://github.com/Live-Hack-CVE/CVE-2022-21814)
-
-### CVE-2022-21815 (2022-02-07)
-
-<code>
-NVIDIA GPU Display Driver for Windows contains a vulnerability in the kernel mode layer (nvlddmkm.sys) handler for private IOCTLs where a NULL pointer dereference in the kernel, created within user mode code, may lead to a denial of service in the form of a system crash.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21815](https://github.com/Live-Hack-CVE/CVE-2022-21815)
-
-### CVE-2022-21816 (2022-02-07)
-
-<code>
-NVIDIA vGPU software contains a vulnerability in the Virtual GPU Manager (nvidia.ko), where a user in the guest OS can cause a GPU interrupt storm on the hypervisor host, leading to a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-21816](https://github.com/Live-Hack-CVE/CVE-2022-21816)
+- [Live-Hack-CVE/CVE-2022-21812](https://github.com/Live-Hack-CVE/CVE-2022-21812)
 
 ### CVE-2022-21877 (2022-01-11)
 
@@ -2900,6 +2748,14 @@ Storage Spaces Controller Information Disclosure Vulnerability.
 </code>
 
 - [Big5-sec/cve-2022-21877](https://github.com/Big5-sec/cve-2022-21877)
+
+### CVE-2022-21881 (2022-01-11)
+
+<code>
+Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21879.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-21881](https://github.com/Live-Hack-CVE/CVE-2022-21881)
 
 ### CVE-2022-21882 (2022-01-11)
 
@@ -2956,133 +2812,13 @@ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is uniqu
 
 - [ly4k/SpoolFool](https://github.com/ly4k/SpoolFool)
 
-### CVE-2022-22059 (2022-09-02)
+### CVE-2022-22021 (2022-06-15)
 
 <code>
-Memory corruption due to out of bound read while parsing a video file in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile
+Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-22059](https://github.com/Live-Hack-CVE/CVE-2022-22059)
-
-### CVE-2022-22061 (2022-09-02)
-
-<code>
-Out of bounds writing is possible while verifying device IDs due to improper length check before copying the data in Snapdragon Compute, Snapdragon Connectivity, Snapdragon Mobile
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22061](https://github.com/Live-Hack-CVE/CVE-2022-22061)
-
-### CVE-2022-22062 (2022-09-02)
-
-<code>
-An out-of-bounds read can occur while parsing a server certificate due to improper length check in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22062](https://github.com/Live-Hack-CVE/CVE-2022-22062)
-
-### CVE-2022-22067 (2022-09-02)
-
-<code>
-Potential memory leak in modem during the processing of NSA RRC Reconfiguration with invalid Radio Bearer Config in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Mobile
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22067](https://github.com/Live-Hack-CVE/CVE-2022-22067)
-
-### CVE-2022-22069 (2022-09-02)
-
-<code>
-Devices with keyprotect off may store unencrypted keybox in RPMB and cause cryptographic issue in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22069](https://github.com/Live-Hack-CVE/CVE-2022-22069)
-
-### CVE-2022-22070 (2022-09-02)
-
-<code>
-Memory corruption in audio due to lack of check of invalid routing address into APR Routing table in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22070](https://github.com/Live-Hack-CVE/CVE-2022-22070)
-
-### CVE-2022-22080 (2022-09-02)
-
-<code>
-Improper validation of backend id in PCM routing process can lead to memory corruption in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22080](https://github.com/Live-Hack-CVE/CVE-2022-22080)
-
-### CVE-2022-22096 (2022-09-02)
-
-<code>
-Memory corruption in Bluetooth HOST due to stack-based buffer overflow when when extracting data using command length parameter in Snapdragon Connectivity, Snapdragon Mobile
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22096](https://github.com/Live-Hack-CVE/CVE-2022-22096)
-
-### CVE-2022-22097 (2022-09-02)
-
-<code>
-Memory corruption in graphic driver due to use after free while calling multiple threads application to driver. in Snapdragon Consumer IOT
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22097](https://github.com/Live-Hack-CVE/CVE-2022-22097)
-
-### CVE-2022-22098 (2022-09-02)
-
-<code>
-Memory corruption in multimedia driver due to untrusted pointer dereference while reading data from socket in Snapdragon Auto
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22098](https://github.com/Live-Hack-CVE/CVE-2022-22098)
-
-### CVE-2022-22099 (2022-09-02)
-
-<code>
-Memory corruption in multimedia due to improper validation of array index in Snapdragon Auto
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22099](https://github.com/Live-Hack-CVE/CVE-2022-22099)
-
-### CVE-2022-22100 (2022-09-02)
-
-<code>
-Memory corruption in multimedia due to improper check on received export descriptors in Snapdragon Auto
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22100](https://github.com/Live-Hack-CVE/CVE-2022-22100)
-
-### CVE-2022-22101 (2022-09-02)
-
-<code>
-Denial of service in multimedia due to uncontrolled resource consumption while parsing an incoming HAB message in Snapdragon Auto
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22101](https://github.com/Live-Hack-CVE/CVE-2022-22101)
-
-### CVE-2022-22102 (2022-09-02)
-
-<code>
-Memory corruption in multimedia due to incorrect type conversion while adding data in Snapdragon Auto
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22102](https://github.com/Live-Hack-CVE/CVE-2022-22102)
-
-### CVE-2022-22104 (2022-09-02)
-
-<code>
-Memory corruption in multimedia due to improper check on the messages received. in Snapdragon Auto
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22104](https://github.com/Live-Hack-CVE/CVE-2022-22104)
-
-### CVE-2022-22106 (2022-09-02)
-
-<code>
-Memory corruption in multimedia due to improper length check while copying the data in Snapdragon Auto
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22106](https://github.com/Live-Hack-CVE/CVE-2022-22106)
+- [Live-Hack-CVE/CVE-2022-22021](https://github.com/Live-Hack-CVE/CVE-2022-22021)
 
 ### CVE-2022-22296 (2022-01-24)
 
@@ -3091,6 +2827,30 @@ Sourcecodester Hospital's Patient Records Management System 1.0 is vulnerable to
 </code>
 
 - [vlakhani28/CVE-2022-22296](https://github.com/vlakhani28/CVE-2022-22296)
+
+### CVE-2022-22411 (2022-08-10)
+
+<code>
+IBM Spectrum Scale Data Access Services (DAS) 5.1.3.1 could allow an authenticated user to insert code which could allow the attacker to manipulate cluster resources due to excessive permissions. IBM X-Force ID: 223016.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-22411](https://github.com/Live-Hack-CVE/CVE-2022-22411)
+
+### CVE-2022-22455 (2022-08-17)
+
+<code>
+IBM Security Verify Governance Identity Manager 10.0 virtual appliance component performs an operation at a privilege level that is higher than the minimum level required, which creates new weaknesses or amplifies the consequences of other weaknesses. IBM X-Force ID: 224989.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-22455](https://github.com/Live-Hack-CVE/CVE-2022-22455)
+
+### CVE-2022-22489 (2022-08-19)
+
+<code>
+IBM MQ 8.0, (9.0, 9.1, 9.2 LTS), and (9.1 and 9.2 CD) are vulnerable to an XML External Entity Injection (XXE) attack when processing XML data. A remote attacker could exploit this vulnerability to expose sensitive information or consume memory resources. IBM X-Force ID: 226339.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-22489](https://github.com/Live-Hack-CVE/CVE-2022-22489)
 
 ### CVE-2022-22532 (2022-02-09)
 
@@ -3108,14 +2868,6 @@ SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, AB
 
 - [antx-code/CVE-2022-22536](https://github.com/antx-code/CVE-2022-22536)
 - [tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536](https://github.com/tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536)
-
-### CVE-2022-22558 (2022-04-21)
-
-<code>
-Dell PowerEdge Server BIOS and Dell Precision Workstation 7910 and 7920 Rack BIOS contain an Improper SMM communication buffer verification vulnerability. A Local High Privileged attacker could potentially exploit this vulnerability leading to arbitrary writes or denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22558](https://github.com/Live-Hack-CVE/CVE-2022-22558)
 
 ### CVE-2022-22582
 - [poizon-box/CVE-2022-22582](https://github.com/poizon-box/CVE-2022-22582)
@@ -3153,14 +2905,6 @@ A logic issue was addressed with improved state management. This issue is fixed 
 
 - [jhftss/CVE-2022-22639](https://github.com/jhftss/CVE-2022-22639)
 
-### CVE-2022-22662 (2022-05-26)
-
-<code>
-A cookie management issue was addressed with improved state management. This issue is fixed in Security Update 2022-003 Catalina, macOS Big Sur 11.6.5. Processing maliciously crafted web content may disclose sensitive user information.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22662](https://github.com/Live-Hack-CVE/CVE-2022-22662)
-
 ### CVE-2022-22718 (2022-02-09)
 
 <code>
@@ -3169,13 +2913,13 @@ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is uniqu
 
 - [ahmetfurkans/CVE-2022-22718](https://github.com/ahmetfurkans/CVE-2022-22718)
 
-### CVE-2022-22809 (2022-02-09)
+### CVE-2022-22730 (2022-08-18)
 
 <code>
-A CWE-306: Missing Authentication for Critical Function vulnerability exists that could allow modifications of the touch configurations in an unauthorized manner when an attacker attempts to modify the touch configurations. Affected Product: spaceLYnk (V2.6.2 and prior), Wiser for KNX (formerly homeLYnk) (V2.6.2 and prior), fellerLYnk (V2.6.2 and prior)
+Improper authentication in the Intel(R) Edge Insights for Industrial software before version 2.6.1 may allow an unauthenticated user to potentially enable escalation of privilege via network access.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-22809](https://github.com/Live-Hack-CVE/CVE-2022-22809)
+- [Live-Hack-CVE/CVE-2022-22730](https://github.com/Live-Hack-CVE/CVE-2022-22730)
 
 ### CVE-2022-22814 (2022-03-10)
 
@@ -3200,22 +2944,6 @@ An insecure direct object reference for the file-download URL in Synametrics Syn
 </code>
 
 - [videnlabs/CVE-2022-22828](https://github.com/videnlabs/CVE-2022-22828)
-
-### CVE-2022-22834 (2022-03-07)
-
-<code>
-An issue was discovered in OverIT Geocall before 8.0. An authenticated user who has the Test Trasformazione XSL functionality enabled can exploit a XSLT Injection vulnerability. Attackers could exploit this issue to achieve remote code execution.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22834](https://github.com/Live-Hack-CVE/CVE-2022-22834)
-
-### CVE-2022-22835 (2022-03-07)
-
-<code>
-An issue was discovered in OverIT Geocall before version 8.0. An authenticated user who has the Test Trasformazione XSL functionality enabled can exploit a XXE vulnerability to read arbitrary files from the filesystem.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22835](https://github.com/Live-Hack-CVE/CVE-2022-22835)
 
 ### CVE-2022-22845 (2022-01-09)
 
@@ -3248,14 +2976,6 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hosp
 </code>
 
 - [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
-
-### CVE-2022-22897 (2022-08-29)
-
-<code>
-A SQL injection vulnerability in the product_all_one_img and image_product parameters of the ApolloTheme AP PageBuilder component through 2.4.4 for PrestaShop allows unauthenticated attackers to exfiltrate database data.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-22897](https://github.com/Live-Hack-CVE/CVE-2022-22897)
 
 ### CVE-2022-22909 (2022-03-02)
 
@@ -3512,6 +3232,30 @@ A Spring Data MongoDB application is vulnerable to SpEL Injection when using @Qu
 - [jweny/cve-2022-22980-exp](https://github.com/jweny/cve-2022-22980-exp)
 - [murataydemir/CVE-2022-22980](https://github.com/murataydemir/CVE-2022-22980)
 
+### CVE-2022-23033 (2022-01-25)
+
+<code>
+arm: guest_physmap_remove_page not removing the p2m mappings The functions to remove one or more entries from a guest p2m pagetable on Arm (p2m_remove_mapping, guest_physmap_remove_page, and p2m_set_entry with mfn set to INVALID_MFN) do not actually clear the pagetable entry if the entry doesn't have the valid bit set. It is possible to have a valid pagetable entry without the valid bit set when a guest operating system uses set/way cache maintenance instructions. For instance, a guest issuing a set/way cache maintenance instruction, then calling the XENMEM_decrease_reservation hypercall to give back memory pages to Xen, might be able to retain access to those pages even after Xen started reusing them for other purposes.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-23033](https://github.com/Live-Hack-CVE/CVE-2022-23033)
+
+### CVE-2022-23034 (2022-01-25)
+
+<code>
+A PV guest could DoS Xen while unmapping a grant To address XSA-380, reference counting was introduced for grant mappings for the case where a PV guest would have the IOMMU enabled. PV guests can request two forms of mappings. When both are in use for any individual mapping, unmapping of such a mapping can be requested in two steps. The reference count for such a mapping would then mistakenly be decremented twice. Underflow of the counters gets detected, resulting in the triggering of a hypervisor bug check.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-23034](https://github.com/Live-Hack-CVE/CVE-2022-23034)
+
+### CVE-2022-23035 (2022-01-25)
+
+<code>
+Insufficient cleanup of passed-through device IRQs The management of IRQs associated with physical devices exposed to x86 HVM guests involves an iterative operation in particular when cleaning up after the guest's use of the device. In the case where an interrupt is not quiescent yet at the time this cleanup gets invoked, the cleanup attempt may be scheduled to be retried. When multiple interrupts are involved, this scheduling of a retry may get erroneously skipped. At the same time pointers may get cleared (resulting in a de-reference of NULL) and freed (resulting in a use-after-free), while other code would continue to assume them to be valid.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-23035](https://github.com/Live-Hack-CVE/CVE-2022-23035)
+
 ### CVE-2022-23046 (2022-01-19)
 
 <code>
@@ -3542,6 +3286,14 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131)
 - [Kazaf6s/CVE-2022-23131](https://github.com/Kazaf6s/CVE-2022-23131)
 - [trhacknon/CVE-2022-23131](https://github.com/trhacknon/CVE-2022-23131)
+
+### CVE-2022-23182 (2022-08-18)
+
+<code>
+Improper access control in the Intel(R) Data Center Manager software before version 4.1 may allow an unauthenticated user to potentially enable escalation of privilege via adjacent access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-23182](https://github.com/Live-Hack-CVE/CVE-2022-23182)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -3612,13 +3364,13 @@ A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of Ta
 
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
 
-### CVE-2022-23452 (2022-09-01)
+### CVE-2022-23403 (2022-08-18)
 
 <code>
-An authorization flaw was found in openstack-barbican, where anyone with an admin role could add secrets to a different project container. This flaw allows an attacker on the network to consume protected resources and cause a denial of service.
+Improper input validation in the Intel(R) Data Center Manager software before version 4.1 may allow an authenticated user to potentially enable denial of service via local access.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-23452](https://github.com/Live-Hack-CVE/CVE-2022-23452)
+- [Live-Hack-CVE/CVE-2022-23403](https://github.com/Live-Hack-CVE/CVE-2022-23403)
 
 ### CVE-2022-23459 (2022-08-19)
 
@@ -3635,14 +3387,6 @@ Jsonxx or Json++ is a JSON parser, writer and reader written in C++. In affected
 </code>
 
 - [Live-Hack-CVE/CVE-2022-23460](https://github.com/Live-Hack-CVE/CVE-2022-23460)
-
-### CVE-2022-23633 (2022-02-11)
-
-<code>
-Action Pack is a framework for handling and responding to web requests. Under certain circumstances response bodies will not be closed. In the event a response is *not* notified of a `close`, `ActionDispatch::Executor` will not know to reset thread local state for the next request. This can lead to data being leaked to subsequent requests.This has been fixed in Rails 7.0.2.1, 6.1.4.5, 6.0.4.5, and 5.2.6.1. Upgrading is highly recommended, but to work around this problem a middleware described in GHSA-wh98-p28r-vrc9 can be used.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-23633](https://github.com/Live-Hack-CVE/CVE-2022-23633)
 
 ### CVE-2022-23642 (2022-02-18)
 
@@ -3668,46 +3412,6 @@ A authenticated remote command injection vulnerability was discovered in Aruba C
 
 - [Live-Hack-CVE/CVE-2022-23663](https://github.com/Live-Hack-CVE/CVE-2022-23663)
 
-### CVE-2022-23669 (2022-05-17)
-
-<code>
-A remote authorization bypass vulnerability was discovered in Aruba ClearPass Policy Manager version(s): 6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below. Aruba has released updates to ClearPass Policy Manager that address this security vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-23669](https://github.com/Live-Hack-CVE/CVE-2022-23669)
-
-### CVE-2022-23671 (2022-05-17)
-
-<code>
-A remote authenticated information disclosure vulnerability was discovered in Aruba ClearPass Policy Manager version(s): 6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below. Aruba has released updates to ClearPass Policy Manager that address this security vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-23671](https://github.com/Live-Hack-CVE/CVE-2022-23671)
-
-### CVE-2022-23672 (2022-05-17)
-
-<code>
-A authenticated remote command injection vulnerability was discovered in Aruba ClearPass Policy Manager version(s): 6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below. Aruba has released updates to ClearPass Policy Manager that address this security vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-23672](https://github.com/Live-Hack-CVE/CVE-2022-23672)
-
-### CVE-2022-23673 (2022-05-17)
-
-<code>
-A authenticated remote command injection vulnerability was discovered in Aruba ClearPass Policy Manager version(s): 6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below. Aruba has released updates to ClearPass Policy Manager that address this security vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-23673](https://github.com/Live-Hack-CVE/CVE-2022-23673)
-
-### CVE-2022-23674 (2022-05-17)
-
-<code>
-A remote authenticated stored cross-site scripting (xss) vulnerability was discovered in Aruba ClearPass Policy Manager version(s): 6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below. Aruba has released updates to ClearPass Policy Manager that address this security vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-23674](https://github.com/Live-Hack-CVE/CVE-2022-23674)
-
 ### CVE-2022-23715 (2022-08-25)
 
 <code>
@@ -3716,14 +3420,6 @@ A flaw was discovered in ECE before 3.4.0 that might lead to the disclosure of s
 
 - [Live-Hack-CVE/CVE-2022-23715](https://github.com/Live-Hack-CVE/CVE-2022-23715)
 
-### CVE-2022-23723 (2022-05-02)
-
-<code>
-An MFA bypass vulnerability exists in the PingFederate PingOne MFA Integration Kit when adapter HTML templates are used as part of an authentication flow.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-23723](https://github.com/Live-Hack-CVE/CVE-2022-23723)
-
 ### CVE-2022-23731 (2022-03-11)
 
 <code>
@@ -3731,6 +3427,30 @@ V8 javascript engine (heap vulnerability) can cause privilege escalation ,which 
 </code>
 
 - [DavidBuchanan314/WAMpage](https://github.com/DavidBuchanan314/WAMpage)
+
+### CVE-2022-23747 (2022-08-17)
+
+<code>
+In Sony Xperia series 1, 5, and Pro, an out of bound memory access can occur due to lack of validation of the number of frames being passed during music playback.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-23747](https://github.com/Live-Hack-CVE/CVE-2022-23747)
+
+### CVE-2022-23764 (2022-08-17)
+
+<code>
+The vulnerability causing from insufficient verification procedures for downloaded files during WebCube update. Remote attackers can bypass this verification logic to update both digitally signed and unauthorized files, enabling remote code execution.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-23764](https://github.com/Live-Hack-CVE/CVE-2022-23764)
+
+### CVE-2022-23765 (2022-08-17)
+
+<code>
+This vulnerability occured by sending a malicious POST request to a specific page while logged in random user from some family of IPTIME NAS. Remote attackers can steal root privileges by changing the password of the root through a POST request.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-23765](https://github.com/Live-Hack-CVE/CVE-2022-23765)
 
 ### CVE-2022-23779 (2022-03-02)
 
@@ -3930,6 +3650,14 @@ The matchmaking servers of Bandai Namco FromSoftware Dark Souls III through 2022
 
 - [tremwil/ds3-nrssr-rce](https://github.com/tremwil/ds3-nrssr-rce)
 
+### CVE-2022-24130 (2022-01-31)
+
+<code>
+xterm through Patch 370, when Sixel support is enabled, allows attackers to trigger a buffer overflow in set_sixel in graphics_sixel.c via crafted text.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-24130](https://github.com/Live-Hack-CVE/CVE-2022-24130)
+
 ### CVE-2022-24181 (2022-04-01)
 
 <code>
@@ -3937,14 +3665,6 @@ Cross-site scripting (XSS) via Host Header injection in PKP Open Journals System
 </code>
 
 - [comrade99/CVE-2022-24181](https://github.com/comrade99/CVE-2022-24181)
-
-### CVE-2022-24193 (2022-03-07)
-
-<code>
-CasaOS before v0.2.7 was discovered to contain a command injection vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-24193](https://github.com/Live-Hack-CVE/CVE-2022-24193)
 
 ### CVE-2022-24298 (2022-08-23)
 
@@ -3969,6 +3689,14 @@ The package node-opcua before 2.74.0 are vulnerable to Denial of Service (DoS) w
 </code>
 
 - [Live-Hack-CVE/CVE-2022-24375](https://github.com/Live-Hack-CVE/CVE-2022-24375)
+
+### CVE-2022-24378 (2022-08-18)
+
+<code>
+Improper initialization in the Intel(R) Data Center Manager software before version 4.1 may allow an authenticated user to potentially enable denial of service via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-24378](https://github.com/Live-Hack-CVE/CVE-2022-24378)
 
 ### CVE-2022-24381 (2022-08-23)
 
@@ -4144,6 +3872,46 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 - [webraybtl/CVE-2022-24934](https://github.com/webraybtl/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
 
+### CVE-2022-24946 (2022-06-15)
+
+<code>
+Improper Resource Locking vulnerability in Mitsubishi Electric MELSEC iQ-R Series R12CCPU-V firmware versions &quot;16&quot; and prior, Mitsubishi Electric MELSEC-Q Series Q03UDECPU the first 5 digits of serial No. &quot;24061&quot; and prior, Mitsubishi Electric MELSEC-Q Series Q04/06/10/13/20/26/50/100UDEHCPU the first 5 digits of serial No. &quot;24061&quot; and prior, Mitsubishi Electric MELSEC-Q Series Q03/04/06/13/26UDVCPU the first 5 digits of serial number &quot;24051&quot; and prior, Mitsubishi Electric MELSEC-Q Series Q04/06/13/26UDPVCPU the first 5 digits of serial number &quot;24051&quot; and prior, Mitsubishi Electric MELSEC-Q Series Q12DCCPU-V all versions, Mitsubishi Electric MELSEC-Q Series Q24DHCCPU-V(G) all versions, Mitsubishi Electric MELSEC-Q Series Q24/26DHCCPU-LS all versions, Mitsubishi Electric MELSEC-L series L02/06/26CPU(-P) the first 5 digits of serial number &quot;24051&quot; and prior, Mitsubishi Electric MELSEC-L series L26CPU-(P)BT the first 5 digits of serial number &quot;24051&quot; and prior and Mitsubishi Electric MELIPC Series MI5122-VW firmware versions &quot;05&quot; and prior allows a remote unauthenticated attacker to cause a denial of service (DoS) condition in Ethernet communications by sending specially crafted packets. A system reset of the products is required for recovery.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-24946](https://github.com/Live-Hack-CVE/CVE-2022-24946)
+
+### CVE-2022-24949 (2022-08-15)
+
+<code>
+A privilege escalation to root exists in Eternal Terminal prior to version 6.2.0. This is due to the combination of a race condition, buffer overflow, and logic bug all in PipeSocketHandler::listen().
+</code>
+
+- [Live-Hack-CVE/CVE-2022-24949](https://github.com/Live-Hack-CVE/CVE-2022-24949)
+
+### CVE-2022-24950 (2022-08-15)
+
+<code>
+A race condition exists in Eternal Terminal prior to version 6.2.0 that allows an authenticated attacker to hijack other users' SSH authorization socket, enabling the attacker to login to other systems as the targeted users. The bug is in UserTerminalRouter::getInfoForId().
+</code>
+
+- [Live-Hack-CVE/CVE-2022-24950](https://github.com/Live-Hack-CVE/CVE-2022-24950)
+
+### CVE-2022-24951 (2022-08-15)
+
+<code>
+A race condition exists in Eternal Terminal prior to version 6.2.0 which allows a local attacker to hijack Eternal Terminal's IPC socket, enabling access to Eternal Terminal clients which attempt to connect in the future.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-24951](https://github.com/Live-Hack-CVE/CVE-2022-24951)
+
+### CVE-2022-24952 (2022-08-15)
+
+<code>
+Several denial of service vulnerabilities exist in Eternal Terminal prior to version 6.2.0, including a DoS triggered remotely by an invalid sequence number and a local bug triggered by invalid input sent directly to the IPC socket.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-24952](https://github.com/Live-Hack-CVE/CVE-2022-24952)
+
 ### CVE-2022-24990
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
 - [VVeakee/CVE-2022-24990-POC](https://github.com/VVeakee/CVE-2022-24990-POC)
@@ -4226,7 +3994,6 @@ Printix Secure Cloud Print Management through 1.3.1106.0 incorrectly uses Privil
 </code>
 
 - [ComparedArray/printix-CVE-2022-25089](https://github.com/ComparedArray/printix-CVE-2022-25089)
-- [Live-Hack-CVE/CVE-2022-25089](https://github.com/Live-Hack-CVE/CVE-2022-25089)
 
 ### CVE-2022-25090 (2022-03-09)
 
@@ -4235,7 +4002,14 @@ Printix Secure Cloud Print Management through 1.3.1106.0 creates a temporary tem
 </code>
 
 - [ComparedArray/printix-CVE-2022-25090](https://github.com/ComparedArray/printix-CVE-2022-25090)
-- [Live-Hack-CVE/CVE-2022-25090](https://github.com/Live-Hack-CVE/CVE-2022-25090)
+
+### CVE-2022-25228 (2022-08-18)
+
+<code>
+CandidATS Version 3.0.0 Beta allows an authenticated user to inject SQL queries in '/index.php?m=settings&amp;a=show' via the 'userID' parameter, in '/index.php?m=candidates&amp;a=show' via the 'candidateID', in '/index.php?m=joborders&amp;a=show' via the 'jobOrderID' and '/index.php?m=companies&amp;a=show' via the 'companyID' parameter
+</code>
+
+- [Live-Hack-CVE/CVE-2022-25228](https://github.com/Live-Hack-CVE/CVE-2022-25228)
 
 ### CVE-2022-25231 (2022-08-23)
 
@@ -4289,22 +4063,6 @@ All versions of package asneg/opcuastack are vulnerable to Denial of Service (Do
 
 - [Live-Hack-CVE/CVE-2022-25302](https://github.com/Live-Hack-CVE/CVE-2022-25302)
 
-### CVE-2022-25304 (2022-08-23)
-
-<code>
-All versions of package opcua; all versions of package asyncua are vulnerable to Denial of Service (DoS) due to a missing limitation on the number of received chunks - per single session or in total for all concurrent sessions. An attacker can exploit this vulnerability by sending an unlimited number of huge chunks (e.g. 2GB each) without sending the Final closing chunk.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25304](https://github.com/Live-Hack-CVE/CVE-2022-25304)
-
-### CVE-2022-25308 (2022-09-06)
-
-<code>
-A stack-based buffer overflow flaw was found in the Fribidi package. This flaw allows an attacker to pass a specially crafted file to the Fribidi application, which leads to a possible memory leak or a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25308](https://github.com/Live-Hack-CVE/CVE-2022-25308)
-
 ### CVE-2022-25313 (2022-02-17)
 
 <code>
@@ -4329,14 +4087,6 @@ In Expat (aka libexpat) before 2.4.5, there is an integer overflow in storeRawNa
 
 - [ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25315](https://github.com/ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25315)
 
-### CVE-2022-25370 (2022-09-02)
-
-<code>
-Apache OFBiz uses the Birt plugin (https://eclipse.github.io/birt-website/) to create data visualizations and reports. In Apache OFBiz release 18.12.05, and earlier versions, by leveraging a vulnerability in Birt (https://bugs.eclipse.org/bugs/show_bug.cgi?id=538142), an unauthenticated malicious user could perform a stored XSS attack in order to inject a malicious payload and execute it using the stored XSS.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25370](https://github.com/Live-Hack-CVE/CVE-2022-25370)
-
 ### CVE-2022-25375 (2022-02-20)
 
 <code>
@@ -4352,14 +4102,6 @@ A malicious unauthorized PAM user can access the administration configuration da
 </code>
 
 - [Live-Hack-CVE/CVE-2022-25625](https://github.com/Live-Hack-CVE/CVE-2022-25625)
-
-### CVE-2022-25635 (2022-08-30)
-
-<code>
-Realtek Linux/Android Bluetooth Mesh SDK has a buffer overflow vulnerability due to insufficient validation for broadcast network packet length. An unauthenticated attacker in the adjacent network can exploit this vulnerability to disrupt service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25635](https://github.com/Live-Hack-CVE/CVE-2022-25635)
 
 ### CVE-2022-25636 (2022-02-21)
 
@@ -4378,70 +4120,6 @@ In wolfSSL before 5.2.0, a TLS 1.3 server cannot properly enforce a requirement 
 </code>
 
 - [dim0x69/cve-2022-25640-exploit](https://github.com/dim0x69/cve-2022-25640-exploit)
-
-### CVE-2022-25641 (2022-08-29)
-
-<code>
-Foxit PDF Reader before 11.2.2 and PDF Editor before 11.2.2, and PhantomPDF before 10.1.8, mishandle cross-reference information during compressed-object parsing within signed documents. This leads to delivery of incorrect signature information via an Incremental Saving Attack and a Shadow Attack.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25641](https://github.com/Live-Hack-CVE/CVE-2022-25641)
-
-### CVE-2022-25644 (2022-08-29)
-
-<code>
-All versions of package @pendo324/get-process-by-name are vulnerable to Arbitrary Code Execution due to improper sanitization of getProcessByName function.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25644](https://github.com/Live-Hack-CVE/CVE-2022-25644)
-
-### CVE-2022-25646 (2022-08-30)
-
-<code>
-All versions of package x-data-spreadsheet are vulnerable to Cross-site Scripting (XSS) due to missing sanitization of values inserted into the cells.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25646](https://github.com/Live-Hack-CVE/CVE-2022-25646)
-
-### CVE-2022-25657 (2022-09-02)
-
-<code>
-Memory corruption due to buffer overflow occurs while processing invalid MKV clip which has invalid seek header in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25657](https://github.com/Live-Hack-CVE/CVE-2022-25657)
-
-### CVE-2022-25658 (2022-09-02)
-
-<code>
-Memory corruption due to incorrect pointer arithmetic when attempting to change the endianness in video parser function in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25658](https://github.com/Live-Hack-CVE/CVE-2022-25658)
-
-### CVE-2022-25659 (2022-09-02)
-
-<code>
-Memory corruption due to buffer overflow while parsing MKV clips with invalid bitmap size in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25659](https://github.com/Live-Hack-CVE/CVE-2022-25659)
-
-### CVE-2022-25668 (2022-09-02)
-
-<code>
-Memory corruption in video driver due to double free while parsing ASF clip in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice &amp; Music, Snapdragon Wearables
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25668](https://github.com/Live-Hack-CVE/CVE-2022-25668)
-
-### CVE-2022-25680 (2022-09-02)
-
-<code>
-Memory corruption in multimedia due to buffer overflow while processing count variable from client in Snapdragon Auto
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25680](https://github.com/Live-Hack-CVE/CVE-2022-25680)
 
 ### CVE-2022-25761 (2022-08-23)
 
@@ -4475,14 +4153,6 @@ The Transposh WordPress Translation WordPress plugin before 1.0.8 does not valid
 
 - [Live-Hack-CVE/CVE-2022-25812](https://github.com/Live-Hack-CVE/CVE-2022-25812)
 
-### CVE-2022-25813 (2022-09-02)
-
-<code>
-In Apache OFBiz, versions 18.12.05 and earlier, an attacker acting as an anonymous user of the ecommerce plugin, can insert a malicious content in a message “Subject” field from the &quot;Contact us&quot; page. Then a party manager needs to list the communications in the party component to activate the SSTI. A RCE is then possible.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25813](https://github.com/Live-Hack-CVE/CVE-2022-25813)
-
 ### CVE-2022-25841 (2022-08-18)
 
 <code>
@@ -4490,14 +4160,6 @@ Uncontrolled search path elements in the Intel(R) Datacenter Group Event Android
 </code>
 
 - [Live-Hack-CVE/CVE-2022-25841](https://github.com/Live-Hack-CVE/CVE-2022-25841)
-
-### CVE-2022-25887 (2022-08-30)
-
-<code>
-The package sanitize-html before 2.7.1 are vulnerable to Regular Expression Denial of Service (ReDoS) due to insecure global regular expression replacement logic of HTML comment removal.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25887](https://github.com/Live-Hack-CVE/CVE-2022-25887)
 
 ### CVE-2022-25888 (2022-08-23)
 
@@ -4522,14 +4184,6 @@ The package opcua from 0.0.0 are vulnerable to Denial of Service (DoS) via the E
 </code>
 
 - [Live-Hack-CVE/CVE-2022-25903](https://github.com/Live-Hack-CVE/CVE-2022-25903)
-
-### CVE-2022-25921 (2022-08-29)
-
-<code>
-All versions of package morgan-json are vulnerable to Arbitrary Code Execution due to missing sanitization of input passed to the Function constructor.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-25921](https://github.com/Live-Hack-CVE/CVE-2022-25921)
 
 ### CVE-2022-25942 (2022-08-22)
 
@@ -4556,6 +4210,14 @@ The kernel mode driver kwatch3 of KINGSOFT Internet Security 9 Plus Version 2010
 
 - [tandasat/CVE-2022-25949](https://github.com/tandasat/CVE-2022-25949)
 
+### CVE-2022-25966 (2022-08-18)
+
+<code>
+Improper access control in the Intel(R) Edge Insights for Industrial software before version 2.6.1 may allow an authenticated user to potentially enable escalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-25966](https://github.com/Live-Hack-CVE/CVE-2022-25966)
+
 ### CVE-2022-25972 (2022-08-22)
 
 <code>
@@ -4563,6 +4225,14 @@ An out-of-bounds write vulnerability exists in the gif2h5 functionality of HDF5 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-25972](https://github.com/Live-Hack-CVE/CVE-2022-25972)
+
+### CVE-2022-25986 (2022-08-18)
+
+<code>
+Browse restriction bypass vulnerability in Scheduler of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to obtain the data of Scheduler.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-25986](https://github.com/Live-Hack-CVE/CVE-2022-25986)
 
 ### CVE-2022-25999 (2022-08-18)
 
@@ -4587,22 +4257,6 @@ A heap-based buffer overflow vulnerability exists in the gif2h5 functionality of
 </code>
 
 - [Live-Hack-CVE/CVE-2022-26061](https://github.com/Live-Hack-CVE/CVE-2022-26061)
-
-### CVE-2022-26110 (2022-04-05)
-
-<code>
-An issue was discovered in HTCondor 8.8.x before 8.8.16, 9.0.x before 9.0.10, and 9.1.x before 9.6.0. When a user authenticates to an HTCondor daemon via the CLAIMTOBE method, the user can then impersonate any entity when issuing additional commands to that daemon.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26110](https://github.com/Live-Hack-CVE/CVE-2022-26110)
-
-### CVE-2022-26114 (2022-09-06)
-
-<code>
-An improper neutralization of input during web page generation vulnerability [CWE-79] in the Webmail of FortiMail before 7.2.0 may allow an unauthenticated attacker to trigger a cross-site scripting (XSS) attack via sending specially crafted mail messages.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26114](https://github.com/Live-Hack-CVE/CVE-2022-26114)
 
 ### CVE-2022-26133 (2022-04-20)
 
@@ -4718,6 +4372,14 @@ Suzuki Connect v1.0.15 allows attackers to tamper with displayed messages via sp
 
 - [nsbogam/CVE-2022-26269](https://github.com/nsbogam/CVE-2022-26269)
 
+### CVE-2022-26305 (2022-07-25)
+
+<code>
+An Improper Certificate Validation vulnerability in LibreOffice existed where determining if a macro was signed by a trusted author was done by only matching the serial number and issuer string of the used certificate with that of a trusted certificate. This is not sufficient to verify that the macro was actually signed with the certificate. An adversary could therefore create an arbitrary certificate with a serial number and an issuer string identical to a trusted certificate which LibreOffice would present as belonging to the trusted author, potentially leading to the user to execute arbitrary code contained in macros improperly trusted. This issue affects: The Document Foundation LibreOffice 7.2 versions prior to 7.2.7; 7.3 versions prior to 7.3.1.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-26305](https://github.com/Live-Hack-CVE/CVE-2022-26305)
+
 ### CVE-2022-26318 (2022-03-04)
 
 <code>
@@ -4727,22 +4389,6 @@ On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute ar
 - [misterxid/watchguard_cve-2022-26318](https://github.com/misterxid/watchguard_cve-2022-26318)
 - [h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318](https://github.com/h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318)
 - [BabyTeam1024/CVE-2022-26318](https://github.com/BabyTeam1024/CVE-2022-26318)
-
-### CVE-2022-26330 (2022-08-31)
-
-<code>
-Potential vulnerabilities have been identified in Micro Focus ArcSight Logger. The vulnerabilities could be remotely exploited resulting in Information Disclosure, or Self Cross-Site Scripting (XSS). This issue affects: Micro Focus ArcSight Logger versions prior to v7.2.2 version and prior versions.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26330](https://github.com/Live-Hack-CVE/CVE-2022-26330)
-
-### CVE-2022-26331 (2022-08-31)
-
-<code>
-Potential vulnerabilities have been identified in Micro Focus ArcSight Logger. The vulnerabilities could be remotely exploited resulting in Information Disclosure, or Self Cross-Site Scripting (XSS). This issue affects: Micro Focus ArcSight Logger versions prior to v7.2.2 version and prior versions.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26331](https://github.com/Live-Hack-CVE/CVE-2022-26331)
 
 ### CVE-2022-26344 (2022-08-18)
 
@@ -4792,46 +4438,6 @@ Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') vulnerab
 
 - [Live-Hack-CVE/CVE-2022-26377](https://github.com/Live-Hack-CVE/CVE-2022-26377)
 
-### CVE-2022-26467 (2022-09-06)
-
-<code>
-In rpmb, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07167738; Issue ID: ALPS07167738.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26467](https://github.com/Live-Hack-CVE/CVE-2022-26467)
-
-### CVE-2022-26468 (2022-09-06)
-
-<code>
-In preloader (usb), there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege, for an attacker who has physical access to the device, with no additional execution privileges needed. User interaction is needed for exploitation. Patch ID: ALPS07168125; Issue ID: ALPS07168125.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26468](https://github.com/Live-Hack-CVE/CVE-2022-26468)
-
-### CVE-2022-26469 (2022-09-06)
-
-<code>
-In MtkEmail, there is a possible escalation of privilege due to fragment injection. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07216598; Issue ID: ALPS07216598.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26469](https://github.com/Live-Hack-CVE/CVE-2022-26469)
-
-### CVE-2022-26470 (2022-09-06)
-
-<code>
-In aie, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07116037; Issue ID: ALPS07116037.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26470](https://github.com/Live-Hack-CVE/CVE-2022-26470)
-
-### CVE-2022-26488 (2022-03-07)
-
-<code>
-In Python before 3.10.3 on Windows, local users can gain privileges because the search path is inadequately secured. The installer may allow a local attacker to add user-writable directories to the system search path. To exploit, an administrator must have installed Python for all users and enabled PATH entries. A non-administrative user can trigger a repair that incorrectly adds user-writable paths into PATH, enabling search-path hijacking of other users and system services. This affects Python (CPython) through 3.7.12, 3.8.x through 3.8.12, 3.9.x through 3.9.10, and 3.10.x through 3.10.2.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26488](https://github.com/Live-Hack-CVE/CVE-2022-26488)
-
 ### CVE-2022-26503 (2022-03-17)
 
 <code>
@@ -4839,30 +4445,6 @@ Deserialization of untrusted data in Veeam Agent for Windows 2.0, 2.1, 2.2, 3.0.
 </code>
 
 - [sinsinology/CVE-2022-26503](https://github.com/sinsinology/CVE-2022-26503)
-
-### CVE-2022-26527 (2022-08-30)
-
-<code>
-Realtek Linux/Android Bluetooth Mesh SDK has a buffer overflow vulnerability due to insufficient validation for the size of segmented packets’ reference parameter. An unauthenticated attacker in the adjacent network can exploit this vulnerability to cause buffer overflow and disrupt service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26527](https://github.com/Live-Hack-CVE/CVE-2022-26527)
-
-### CVE-2022-26528 (2022-08-30)
-
-<code>
-Realtek Linux/Android Bluetooth Mesh SDK has a buffer overflow vulnerability due to insufficient validation for the length of segmented packets’ shift parameter. An unauthenticated attacker in the adjacent network can exploit this vulnerability to cause buffer overflow and disrupt service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26528](https://github.com/Live-Hack-CVE/CVE-2022-26528)
-
-### CVE-2022-26529 (2022-08-30)
-
-<code>
-Realtek Linux/Android Bluetooth Mesh SDK has a buffer overflow vulnerability due to insufficient validation for segmented packets’ link parameter. An unauthenticated attacker in the adjacent network can exploit this vulnerability to cause buffer overflow and disrupt service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26529](https://github.com/Live-Hack-CVE/CVE-2022-26529)
 
 ### CVE-2022-26629 (2022-03-24)
 
@@ -4880,14 +4462,6 @@ Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injectio
 </code>
 
 - [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
-
-### CVE-2022-26665 (2022-04-18)
-
-<code>
-An Insecure Direct Object Reference issue exists in the Tyler Odyssey Portal platform before 17.1.20. This may allow an external party to access sensitive case records.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-26665](https://github.com/Live-Hack-CVE/CVE-2022-26665)
 
 ### CVE-2022-26717 (2022-11-01)
 
@@ -4928,7 +4502,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [oppongjohn/CVE-2022-26809-RCE](https://github.com/oppongjohn/CVE-2022-26809-RCE)
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
-- [anonymouss1276/Cve-2022-26809](https://github.com/anonymouss1276/Cve-2022-26809)
+- [dianaross20/Cve-2022-26809](https://github.com/dianaross20/Cve-2022-26809)
 
 ### CVE-2022-26842 (2022-08-22)
 
@@ -4937,6 +4511,14 @@ A reflected cross-site scripting (xss) vulnerability exists in the charts tab se
 </code>
 
 - [Live-Hack-CVE/CVE-2022-26842](https://github.com/Live-Hack-CVE/CVE-2022-26842)
+
+### CVE-2022-26844 (2022-08-18)
+
+<code>
+Insufficiently protected credentials in the installation binaries for Intel(R) SEAPI in all versions may allow an authenticated user to potentially enable escalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-26844](https://github.com/Live-Hack-CVE/CVE-2022-26844)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -4991,14 +4573,6 @@ The remote keyless system on Honda Civic 2018 vehicles sends the same RF signal 
 
 - [nonamecoder/CVE-2022-27254](https://github.com/nonamecoder/CVE-2022-27254)
 
-### CVE-2022-27255 (2022-08-01)
-
-<code>
-In Realtek eCos RSDK 1.5.7p1 and MSDK 4.9.4p1, the SIP ALG function that rewrites SDP data has a stack-based buffer overflow. This allows an attacker to remotely execute code without authentication via a crafted SIP packet that contains malicious SDP data.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-27255](https://github.com/Live-Hack-CVE/CVE-2022-27255)
-
 ### CVE-2022-27413 (2022-05-03)
 
 <code>
@@ -5023,14 +4597,6 @@ Caphyon Ltd Advanced Installer 19.3 and earlier and many products that use the u
 
 - [gerr-re/cve-2022-27438](https://github.com/gerr-re/cve-2022-27438)
 
-### CVE-2022-27491 (2022-09-06)
-
-<code>
-A improper verification of source of a communication channel in Fortinet FortiOS with IPS engine version 7.201 through 7.214, 7.001 through 7.113, 6.001 through 6.121, 5.001 through 5.258 and before 4.086 allows a remote and unauthenticated attacker to trigger the sending of &quot;blocked page&quot; HTML data to an arbitrary victim via crafted TCP requests, potentially flooding the victim.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-27491](https://github.com/Live-Hack-CVE/CVE-2022-27491)
-
 ### CVE-2022-27493 (2022-08-18)
 
 <code>
@@ -5047,46 +4613,6 @@ Incorrect default permissions for the Intel(R) Support Android application befor
 
 - [Live-Hack-CVE/CVE-2022-27500](https://github.com/Live-Hack-CVE/CVE-2022-27500)
 
-### CVE-2022-27546 (2022-08-29)
-
-<code>
-HCL iNotes is susceptible to a Reflected Cross-site Scripting (XSS) vulnerability caused by improper validation of user-supplied input supplied with a form POST request. A remote attacker could exploit this vulnerability using a specially-crafted URL to execute script in a victim's web browser within the security context of the hosting web site and/or steal the victim's cookie-based authentication credentials.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-27546](https://github.com/Live-Hack-CVE/CVE-2022-27546)
-
-### CVE-2022-27547 (2022-08-29)
-
-<code>
-HCL iNotes is susceptible to a link to non-existent domain vulnerability. An attacker could use this vulnerability to trick a user into supplying sensitive information such as username, password, credit card number, etc.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-27547](https://github.com/Live-Hack-CVE/CVE-2022-27547)
-
-### CVE-2022-27558 (2022-08-29)
-
-<code>
-HCL iNotes is susceptible to a Broken Password Strength Checks vulnerability. Custom password policies are not enforced on certain iNotes forms which could allow users to set weak passwords, leading to easier cracking.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-27558](https://github.com/Live-Hack-CVE/CVE-2022-27558)
-
-### CVE-2022-27560 (2022-08-30)
-
-<code>
-HCL VersionVault Express exposes administrator credentials.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-27560](https://github.com/Live-Hack-CVE/CVE-2022-27560)
-
-### CVE-2022-27563 (2022-08-30)
-
-<code>
-An unauthenticated user can overload a part of HCL VersionVault Express and cause a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-27563](https://github.com/Live-Hack-CVE/CVE-2022-27563)
-
 ### CVE-2022-27637 (2022-08-23)
 
 <code>
@@ -5094,14 +4620,6 @@ Reflected cross-site scripting vulnerability in PukiWiki versions 1.5.1 to 1.5.3
 </code>
 
 - [Live-Hack-CVE/CVE-2022-27637](https://github.com/Live-Hack-CVE/CVE-2022-27637)
-
-### CVE-2022-27651 (2022-04-04)
-
-<code>
-A flaw was found in buildah where containers were incorrectly started with non-empty default permissions. A bug was found in Moby (Docker Engine) where containers were incorrectly started with non-empty inheritable Linux process capabilities, enabling an attacker with access to programs with inheritable file capabilities to elevate those capabilities to the permitted set when execve(2) runs. This has the potential to impact confidentiality and integrity.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-27651](https://github.com/Live-Hack-CVE/CVE-2022-27651)
 
 ### CVE-2022-27666 (2022-03-23)
 
@@ -5118,14 +4636,6 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 </code>
 
 - [puneetbehl/grails3-cve-2022-27772](https://github.com/puneetbehl/grails3-cve-2022-27772)
-
-### CVE-2022-27911 (2022-08-31)
-
-<code>
-An issue was discovered in Joomla! 4.2.0. Multiple Full Path Disclosures because of missing '_JEXEC or die check' caused by the PSR12 changes.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-27911](https://github.com/Live-Hack-CVE/CVE-2022-27911)
 
 ### CVE-2022-27927 (2022-04-19)
 
@@ -5194,14 +4704,6 @@ SiteServer CMS v7.x allows attackers to execute arbitrary code via a crafted plu
 ### CVE-2022-28132
 - [alpernae/CVE-2022-28132](https://github.com/alpernae/CVE-2022-28132)
 
-### CVE-2022-28199 (2022-09-01)
-
-<code>
-NVIDIA’s distribution of the Data Plane Development Kit (MLNX_DPDK) contains a vulnerability in the network stack, where error recovery is not handled properly, which can allow a remote attacker to cause denial of service and some impact to data integrity and confidentiality.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-28199](https://github.com/Live-Hack-CVE/CVE-2022-28199)
-
 ### CVE-2022-28219 (2022-04-05)
 
 <code>
@@ -5228,14 +4730,6 @@ An issue was discovered in Django 2.2 before 2.2.28, 3.2 before 3.2.13, and 4.0 
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
 - [ahsentekdemir/CVE-2022-28346](https://github.com/ahsentekdemir/CVE-2022-28346)
 - [pthlong9991/CVE-2022-28346](https://github.com/pthlong9991/CVE-2022-28346)
-
-### CVE-2022-28356 (2022-04-02)
-
-<code>
-In the Linux kernel before 5.17.1, a refcount leak bug was found in net/llc/af_llc.c.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-28356](https://github.com/Live-Hack-CVE/CVE-2022-28356)
 
 ### CVE-2022-28452 (2022-04-29)
 
@@ -5295,13 +4789,93 @@ Apache HTTP Server 2.4.53 and earlier may crash or disclose information due to a
 
 - [Live-Hack-CVE/CVE-2022-28615](https://github.com/Live-Hack-CVE/CVE-2022-28615)
 
-### CVE-2022-28625 (2022-08-31)
+### CVE-2022-28626 (2022-08-11)
 
 <code>
-A local disclosure of sensitive information vulnerability was discovered in HPE OneView version(s): Prior to 7.0 or 6.60.01. A low privileged user could locally exploit this vulnerability to disclose sensitive information resulting in a complete loss of confidentiality, integrity, and availability. To exploit this vulnerability, HPE OneView must be configured with credential access to external repositories. HPE has provided a software update to resolve this vulnerability in HPE OneView.
+A local arbitrary code execution vulnerability was discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. A highly privileged user could locally exploit this vulnerability to execute arbitrary code resulting in a complete loss of confidentiality, integrity, and availability. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
 </code>
 
-- [Live-Hack-CVE/CVE-2022-28625](https://github.com/Live-Hack-CVE/CVE-2022-28625)
+- [Live-Hack-CVE/CVE-2022-28626](https://github.com/Live-Hack-CVE/CVE-2022-28626)
+
+### CVE-2022-28627 (2022-08-11)
+
+<code>
+A local arbitrary code execution vulnerability was discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. An unprivileged user could locally exploit this vulnerability to execute arbitrary code resulting in a complete loss of confidentiality, integrity, and availability. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28627](https://github.com/Live-Hack-CVE/CVE-2022-28627)
+
+### CVE-2022-28628 (2022-08-11)
+
+<code>
+A local arbitrary code execution vulnerability was discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. An unprivileged user could locally exploit this vulnerability to execute arbitrary code resulting in a complete loss of confidentiality, integrity, and availability. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28628](https://github.com/Live-Hack-CVE/CVE-2022-28628)
+
+### CVE-2022-28629 (2022-08-11)
+
+<code>
+A local arbitrary code execution vulnerability was discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. A low privileged user could locally exploit this vulnerability to execute arbitrary code resulting in a complete loss of confidentiality, integrity, and availability. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28629](https://github.com/Live-Hack-CVE/CVE-2022-28629)
+
+### CVE-2022-28630 (2022-08-11)
+
+<code>
+A local arbitrary code execution vulnerability was discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. An unprivileged user could locally exploit this vulnerability to execute arbitrary code resulting in a complete loss of confidentiality and integrity, and a partial loss of availability. User interaction is required to exploit this vulnerability. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28630](https://github.com/Live-Hack-CVE/CVE-2022-28630)
+
+### CVE-2022-28631 (2022-08-11)
+
+<code>
+A potential arbitrary code execution and a denial of service (DoS) vulnerability within an isolated process were discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. An unprivileged user could exploit this vulnerability in an adjacent network to potentially execute arbitrary code in an isolated process resulting in a complete loss of confidentiality, integrity, and availability within that process. In addition, an unprivileged user could exploit a denial of service (DoS) vulnerability in an isolated process resulting in a complete loss of availability within that process. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28631](https://github.com/Live-Hack-CVE/CVE-2022-28631)
+
+### CVE-2022-28632 (2022-08-11)
+
+<code>
+A potential arbitrary code execution and a denial of service (DoS) vulnerability within an isolated process were discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. An unprivileged user could exploit this vulnerability in an adjacent network to potentially execute arbitrary code in an isolated process resulting in a complete loss of confidentiality, integrity, and availability within that process. In addition, an unprivileged user could exploit a denial of service (DoS) vulnerability in an isolated process resulting in a complete loss of availability within that process. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28632](https://github.com/Live-Hack-CVE/CVE-2022-28632)
+
+### CVE-2022-28633 (2022-08-11)
+
+<code>
+A local disclosure of sensitive information and a local unauthorized data modification vulnerability were discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. An unprivileged user could locally exploit this vulnerability to read and write to the iLO 5 firmware file system resulting in a complete loss of confidentiality and a partial loss of integrity and availability. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28633](https://github.com/Live-Hack-CVE/CVE-2022-28633)
+
+### CVE-2022-28634 (2022-08-11)
+
+<code>
+A local arbitrary code execution vulnerability was discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. A highly privileged user could locally exploit this vulnerability to execute arbitrary code resulting in a complete loss of confidentiality, integrity, and availability. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28634](https://github.com/Live-Hack-CVE/CVE-2022-28634)
+
+### CVE-2022-28635 (2022-08-11)
+
+<code>
+A potential local arbitrary code execution and a local denial of service (DoS) vulnerability within an isolated process were discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. An unprivileged user could locally exploit this vulnerability to potentially execute arbitrary code in an isolated process resulting in a complete loss of confidentiality, integrity, and availability within that process. In addition, an unprivileged user could exploit a denial of service (DoS) vulnerability in an isolated process resulting in a complete loss of availability within that process. A successful attack depends on conditions beyond the attackers control. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28635](https://github.com/Live-Hack-CVE/CVE-2022-28635)
+
+### CVE-2022-28636 (2022-08-11)
+
+<code>
+A potential local arbitrary code execution and a local denial of service (DoS) vulnerability within an isolated process were discovered in HPE Integrated Lights-Out 5 (iLO 5) firmware version(s): Prior to 2.71. An unprivileged user could locally exploit this vulnerability to potentially execute arbitrary code in an isolated process resulting in a complete loss of confidentiality, integrity, and availability within that process. In addition, an unprivileged user could exploit a denial of service (DoS) vulnerability in an isolated process resulting in a complete loss of availability within that process. A successful attack depends on conditions beyond the attackers control. HPE has provided a firmware update to resolve this vulnerability in HPE Integrated Lights-Out 5 (iLO 5).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28636](https://github.com/Live-Hack-CVE/CVE-2022-28636)
 
 ### CVE-2022-28670 (2022-07-18)
 
@@ -5375,13 +4949,69 @@ A cross-site scripting (xss) vulnerability exists in the videoAddNew functionali
 
 - [Live-Hack-CVE/CVE-2022-28712](https://github.com/Live-Hack-CVE/CVE-2022-28712)
 
-### CVE-2022-28747 (2022-08-25)
+### CVE-2022-28715 (2022-08-18)
 
 <code>
-Key reuse in GoSecure Titan Inbox Detection &amp; Response (IDR) through 2022-04-05 leads to remote code execution. To exploit this vulnerability, an attacker must craft and sign a serialized payload.
+Cross-site scripting vulnerability in the specific parameters of Cybozu Office 10.0.0 to 10.8.5 allows a remote attacker to inject an arbitrary script via unspecified vectors.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-28747](https://github.com/Live-Hack-CVE/CVE-2022-28747)
+- [Live-Hack-CVE/CVE-2022-28715](https://github.com/Live-Hack-CVE/CVE-2022-28715)
+
+### CVE-2022-28750 (2022-08-11)
+
+<code>
+Zoom On-Premise Meeting Connector Zone Controller (ZC) before version 4.8.20220419.112 fails to properly parse STUN error codes, which can result in memory corruption and could allow a malicious actor to crash the application. In versions older than 4.8.12.20211115, this vulnerability could also be leveraged to execute arbitrary code.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28750](https://github.com/Live-Hack-CVE/CVE-2022-28750)
+
+### CVE-2022-28751 (2022-08-17)
+
+<code>
+The Zoom Client for Meetings for MacOS (Standard and for IT Admin) before version 5.11.3 contains a vulnerability in the package signature validation during the update process. A local low-privileged user could exploit this vulnerability to escalate their privileges to root.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28751](https://github.com/Live-Hack-CVE/CVE-2022-28751)
+
+### CVE-2022-28752 (2022-08-17)
+
+<code>
+Zoom Rooms for Conference Rooms for Windows versions before 5.11.0 are susceptible to a Local Privilege Escalation vulnerability. A local low-privileged malicious user could exploit this vulnerability to escalate their privileges to the SYSTEM user.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28752](https://github.com/Live-Hack-CVE/CVE-2022-28752)
+
+### CVE-2022-28753 (2022-08-11)
+
+<code>
+Zoom On-Premise Meeting Connector MMR before version 4.8.129.20220714 contains an improper access control vulnerability. As a result, a malicious actor can join a meeting which they are authorized to join without appearing to the other participants, can admit themselves into the meeting from the waiting room, and can become host and cause other meeting disruptions.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28753](https://github.com/Live-Hack-CVE/CVE-2022-28753)
+
+### CVE-2022-28754 (2022-08-11)
+
+<code>
+Zoom On-Premise Meeting Connector MMR before version 4.8.129.20220714 contains an improper access control vulnerability. As a result, a malicious actor can join a meeting which they are authorized to join without appearing to the other participants, can admit themselves into the meeting from the waiting room, and can become host and cause other meeting disruptions.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28754](https://github.com/Live-Hack-CVE/CVE-2022-28754)
+
+### CVE-2022-28755 (2022-08-11)
+
+<code>
+The Zoom Client for Meetings (for Android, iOS, Linux, macOS, and Windows) before version 5.11.0 are susceptible to a URL parsing vulnerability. If a malicious Zoom meeting URL is opened, the malicious link may direct the user to connect to an arbitrary network address, leading to additional attacks including the potential for remote code execution through launching executables from arbitrary paths.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28755](https://github.com/Live-Hack-CVE/CVE-2022-28755)
+
+### CVE-2022-28756 (2022-08-15)
+
+<code>
+The Zoom Client for Meetings for macOS (Standard and for IT Admin) starting with version 5.7.3 and before 5.11.5 contains a vulnerability in the auto update process. A local low-privileged user could exploit this vulnerability to escalate their privileges to root.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-28756](https://github.com/Live-Hack-CVE/CVE-2022-28756)
 
 ### CVE-2022-28757 (2022-08-18)
 
@@ -5398,14 +5028,6 @@ Improper buffer restriction in the firmware for some Intel(R) NUC Laptop Kits be
 </code>
 
 - [Live-Hack-CVE/CVE-2022-28858](https://github.com/Live-Hack-CVE/CVE-2022-28858)
-
-### CVE-2022-28871 (2022-04-25)
-
-<code>
-A Denial-of-Service (DoS) vulnerability was discovered in F-Secure Atlant whereby the fsicapd component used in certain F-Secure products while scanning larger packages/fuzzed files consume too much memory eventually can crash the scanning engine. The exploit can be triggered remotely by an attacker.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-28871](https://github.com/Live-Hack-CVE/CVE-2022-28871)
 
 ### CVE-2022-28882 (2022-08-23)
 
@@ -5489,30 +5111,6 @@ Multiple SQL injection vulnerabilities via the username and password parameters 
 </code>
 
 - [sudoninja-noob/CVE-2022-29009](https://github.com/sudoninja-noob/CVE-2022-29009)
-
-### CVE-2022-29053 (2022-09-06)
-
-<code>
-A missing cryptographic steps vulnerability [CWE-325] in the functions that encrypt the keytab files in FortiOS version 7.2.0, 7.0.0 through 7.0.5 and below 7.0.0 may allow an attacker in possession of the encrypted file to decipher it.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-29053](https://github.com/Live-Hack-CVE/CVE-2022-29053)
-
-### CVE-2022-29062 (2022-09-06)
-
-<code>
-Multiple relative path traversal vulnerabilities [CWE-23] in Fortinet FortiSOAR before 7.2.1 allows an authenticated attacker to write to the underlying filesystem with nginx permissions via crafted HTTP requests.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-29062](https://github.com/Live-Hack-CVE/CVE-2022-29062)
-
-### CVE-2022-29063 (2022-09-02)
-
-<code>
-The Solr plugin of Apache OFBiz is configured by default to automatically make a RMI request on localhost, port 1099. In version 18.12.05 and earlier, by hosting a malicious RMI server on localhost, an attacker may exploit this behavior, at server start-up or on a server restart, in order to run arbitrary code. Upgrade to at least 18.12.06 or apply patches at https://issues.apache.org/jira/browse/OFBIZ-12646.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-29063](https://github.com/Live-Hack-CVE/CVE-2022-29063)
 
 ### CVE-2022-29072 (2022-04-15)
 
@@ -5613,6 +5211,30 @@ Unauthenticated Stored Cross-Site Scripting (XSS) vulnerability in 8 Degree Them
 
 - [Live-Hack-CVE/CVE-2022-29476](https://github.com/Live-Hack-CVE/CVE-2022-29476)
 
+### CVE-2022-29487 (2022-08-18)
+
+<code>
+Cross-site scripting vulnerability in Cybozu Office 10.0.0 to 10.8.5 allows a remote attacker to inject an arbitrary script via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-29487](https://github.com/Live-Hack-CVE/CVE-2022-29487)
+
+### CVE-2022-29507 (2022-08-18)
+
+<code>
+Insufficiently protected credentials in the Intel(R) Team Blue mobile application in all versions may allow an authenticated user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-29507](https://github.com/Live-Hack-CVE/CVE-2022-29507)
+
+### CVE-2022-29526 (2022-06-22)
+
+<code>
+Go before 1.17.10 and 1.18.x before 1.18.2 has Incorrect Privilege Assignment. When called with a non-zero flags parameter, the Faccessat function could incorrectly report that a file is accessible.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-29526](https://github.com/Live-Hack-CVE/CVE-2022-29526)
+
 ### CVE-2022-29548 (2022-04-20)
 
 <code>
@@ -5673,14 +5295,6 @@ An arbitrary file upload vulnerability in formidable v3.1.4 allows attackers to 
 
 - [TyeYeah/DIR-890L-1.20-RCE](https://github.com/TyeYeah/DIR-890L-1.20-RCE)
 
-### CVE-2022-29804 (2022-08-09)
-
-<code>
-In filepath.Clean in path/filepath in Go before 1.17.11 and 1.18.x before 1.18.3 on Windows, invalid paths such as .\c: could be converted to valid paths (such as c: in this example).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-29804](https://github.com/Live-Hack-CVE/CVE-2022-29804)
-
 ### CVE-2022-29805 (2022-08-19)
 
 <code>
@@ -5713,6 +5327,14 @@ The documentation of Apache Tomcat 10.1.0-M1 to 10.1.0-M14, 10.0.0-M1 to 10.0.20
 
 - [quynhlab/CVE-2022-29885](https://github.com/quynhlab/CVE-2022-29885)
 
+### CVE-2022-29891 (2022-08-18)
+
+<code>
+Browse restriction bypass vulnerability in Custom Ap of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to obtain the data of Custom App via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-29891](https://github.com/Live-Hack-CVE/CVE-2022-29891)
+
 ### CVE-2022-29932 (2022-05-11)
 
 <code>
@@ -5720,6 +5342,14 @@ The HTTP Server in PRIMEUR SPAZIO 2.5.1.954 (File Transfer) allows an unauthenti
 </code>
 
 - [Off3nS3c/CVE-2022-29932](https://github.com/Off3nS3c/CVE-2022-29932)
+
+### CVE-2022-29960 (2022-07-26)
+
+<code>
+Emerson OpenBSI through 2022-04-29 uses weak cryptography. It is an engineering environment for the ControlWave and Bristol Babcock line of RTUs. DES with hardcoded cryptographic keys is used for protection of certain system credentials, engineering files, and sensitive utilities.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-29960](https://github.com/Live-Hack-CVE/CVE-2022-29960)
 
 ### CVE-2022-29968 (2022-05-02)
 
@@ -5839,7 +5469,23 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Cerebrovinny/follina-CVE-2022-30190](https://github.com/Cerebrovinny/follina-CVE-2022-30190)
 - [ethicalblue/Follina-CVE-2022-30190-Sample](https://github.com/ethicalblue/Follina-CVE-2022-30190-Sample)
 - [Gra3s/CVE-2022-30190-Follina-PowerPoint-Version](https://github.com/Gra3s/CVE-2022-30190-Follina-PowerPoint-Version)
-- [anonymouss1276/Cve-2022-30190](https://github.com/anonymouss1276/Cve-2022-30190)
+- [dianaross20/Cve-2022-30190](https://github.com/dianaross20/Cve-2022-30190)
+
+### CVE-2022-30262 (2022-08-17)
+
+<code>
+The Emerson ControlWave 'Next Generation' RTUs through 2022-05-02 mishandle firmware integrity. They utilize the BSAP-IP protocol to transmit firmware updates. Firmware updates are supplied as CAB archive files containing a binary firmware image. In all cases, firmware images were found to have no authentication (in the form of firmware signing) and only relied on insecure checksums for regular integrity checks.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-30262](https://github.com/Live-Hack-CVE/CVE-2022-30262)
+
+### CVE-2022-30264 (2022-08-16)
+
+<code>
+The Emerson ROC and FloBoss RTU product lines through 2022-05-02 perform insecure filesystem operations. They utilize the ROC protocol (4000/TCP, 5000/TCP) for communications between a master terminal and RTUs. Opcode 203 of this protocol allows a master terminal to transfer files to and from the flash filesystem and carrying out arbitrary file and directory read, write, and delete operations.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-30264](https://github.com/Live-Hack-CVE/CVE-2022-30264)
 
 ### CVE-2022-30292 (2022-05-04)
 
@@ -5849,21 +5495,13 @@ Heap-based buffer overflow in sqbaselib.cpp in SQUIRREL 3.2 due to lack of a cer
 
 - [sprushed/CVE-2022-30292](https://github.com/sprushed/CVE-2022-30292)
 
-### CVE-2022-30298 (2022-09-06)
+### CVE-2022-30296 (2022-08-18)
 
 <code>
-An improper privilege management vulnerability [CWE-269] in Fortinet FortiSOAR before 7.2.1 allows a GUI user who has already found a way to modify system files (via another, unrelated and hypothetical exploit) to execute arbitrary Python commands as root.
+Insufficiently protected credentials in the Intel(R) Datacenter Group Event iOS application, all versions, may allow an unauthenticated user to potentially enable information disclosure via network access.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-30298](https://github.com/Live-Hack-CVE/CVE-2022-30298)
-
-### CVE-2022-30318 (2022-08-31)
-
-<code>
-Honeywell ControlEdge through R151.1 uses Hard-coded Credentials. According to FSCT-2022-0056, there is a Honeywell ControlEdge hardcoded credentials issue. The affected components are characterized as: SSH. The potential impact is: Remote code execution, manipulate configuration, denial of service. The Honeywell ControlEdge PLC and RTU product line exposes an SSH service on port 22/TCP. Login as root to this service is permitted and credentials for the root user are hardcoded without automatically changing them upon first commissioning. The credentials for the SSH service are hardcoded in the firmware. The credentials grant an attacker access to a root shell on the PLC/RTU, allowing for remote code execution, configuration manipulation and denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-30318](https://github.com/Live-Hack-CVE/CVE-2022-30318)
+- [Live-Hack-CVE/CVE-2022-30296](https://github.com/Live-Hack-CVE/CVE-2022-30296)
 
 ### CVE-2022-30489 (2022-05-13)
 
@@ -5914,14 +5552,6 @@ School Dormitory Management System v1.0 is vulnerable to reflected cross-site sc
 
 - [bigzooooz/CVE-2022-30514](https://github.com/bigzooooz/CVE-2022-30514)
 
-### CVE-2022-30522 (2022-06-08)
-
-<code>
-If Apache HTTP Server 2.4.53 is configured to do transformations with mod_sed in contexts where the input to mod_sed may be very large, mod_sed may make excessively large memory allocations and trigger an abort.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-30522](https://github.com/Live-Hack-CVE/CVE-2022-30522)
-
 ### CVE-2022-30525 (2022-05-12)
 
 <code>
@@ -5943,6 +5573,14 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [furkanzengin/CVE-2022-30525](https://github.com/furkanzengin/CVE-2022-30525)
 - [ProngedFork/CVE-2022-30525](https://github.com/ProngedFork/CVE-2022-30525)
 
+### CVE-2022-30532 (2022-07-19)
+
+<code>
+In affected versions of Octopus Deploy, there is no logging of changes to artifacts within Octopus Deploy.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-30532](https://github.com/Live-Hack-CVE/CVE-2022-30532)
+
 ### CVE-2022-30534 (2022-08-22)
 
 <code>
@@ -5959,6 +5597,30 @@ A directory traversal vulnerability exists in the unzipDirectory functionality o
 
 - [Live-Hack-CVE/CVE-2022-30547](https://github.com/Live-Hack-CVE/CVE-2022-30547)
 
+### CVE-2022-30556 (2022-06-08)
+
+<code>
+Apache HTTP Server 2.4.53 and earlier may return lengths to applications calling r:wsread() that point past the end of the storage allocated for the buffer.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-30556](https://github.com/Live-Hack-CVE/CVE-2022-30556)
+
+### CVE-2022-30575 (2022-08-16)
+
+<code>
+The Web Console component of TIBCO Software Inc.'s TIBCO Data Science - Workbench, TIBCO Statistica, TIBCO Statistica - Estore Edition, and TIBCO Statistica Trial contains easily exploitable Reflected Cross Site Scripting (XSS) vulnerabilities that allow a low privileged attacker with network access to execute scripts targeting the affected system or the victim's local system. Affected releases are TIBCO Software Inc.'s TIBCO Data Science - Workbench: versions 14.0.0 and below, TIBCO Statistica: versions 14.0.0 and below, TIBCO Statistica - Estore Edition: versions 14.0.0 and below, and TIBCO Statistica Trial: versions 14.0.0 and below.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-30575](https://github.com/Live-Hack-CVE/CVE-2022-30575)
+
+### CVE-2022-30576 (2022-08-16)
+
+<code>
+The Web Console component of TIBCO Software Inc.'s TIBCO Data Science - Workbench, TIBCO Statistica, TIBCO Statistica - Estore Edition, and TIBCO Statistica Trial contains an easily exploitable vulnerability that allows a low privileged attacker with network access to execute Stored Cross Site Scripting (XSS) on the affected system. A successful attack using this vulnerability requires human interaction from a person other than the attacker. Affected releases are TIBCO Software Inc.'s TIBCO Data Science - Workbench: versions 14.0.0 and below, TIBCO Statistica: versions 14.0.0 and below, TIBCO Statistica - Estore Edition: versions 14.0.0 and below, and TIBCO Statistica Trial: versions 14.0.0 and below.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-30576](https://github.com/Live-Hack-CVE/CVE-2022-30576)
+
 ### CVE-2022-30591 (2022-07-06)
 
 <code>
@@ -5966,6 +5628,14 @@ A directory traversal vulnerability exists in the unzipDirectory functionality o
 </code>
 
 - [efchatz/QUIC-attacks](https://github.com/efchatz/QUIC-attacks)
+
+### CVE-2022-30604 (2022-08-18)
+
+<code>
+Cross-site scripting vulnerability in the specific parameters of Cybozu Office 10.0.0 to 10.8.5 allows a remote attacker to inject an arbitrary script via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-30604](https://github.com/Live-Hack-CVE/CVE-2022-30604)
 
 ### CVE-2022-30605 (2022-08-22)
 
@@ -5982,6 +5652,14 @@ A cross-site scripting (xss) vulnerability exists in the image403 functionality 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-30690](https://github.com/Live-Hack-CVE/CVE-2022-30690)
+
+### CVE-2022-30693 (2022-08-18)
+
+<code>
+Information disclosure vulnerability in the system configuration of Cybozu Office 10.0.0 to 10.8.5 allows a remote attacker to obtain the data of the product via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-30693](https://github.com/Live-Hack-CVE/CVE-2022-30693)
 
 ### CVE-2022-30778
 - [kang8/CVE-2022-30778](https://github.com/kang8/CVE-2022-30778)
@@ -6001,46 +5679,6 @@ Gitea before 1.16.7 does not escape git fetch remote.
 </code>
 
 - [wuhan005/CVE-2022-30781](https://github.com/wuhan005/CVE-2022-30781)
-
-### CVE-2022-30984 (2022-08-25)
-
-<code>
-A buffer overflow vulnerability in the Rubrik Backup Service (RBS) Agent for Linux or Unix-based systems in Rubrik CDM 7.0.1, 7.0.1-p1, 7.0.1-p2 or 7.0.1-p3 before CDM 7.0.2-p2 could allow a local attacker to obtain root privileges by sending a crafted message to the RBS agent.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-30984](https://github.com/Live-Hack-CVE/CVE-2022-30984)
-
-### CVE-2022-31152 (2022-09-02)
-
-<code>
-Synapse is an open-source Matrix homeserver written and maintained by the Matrix.org Foundation. The Matrix specification specifies a list of [event authorization rules](https://spec.matrix.org/v1.2/rooms/v9/#authorization-rules) which must be checked when determining if an event should be accepted into a room. In versions of Synapse up to and including version 1.61.0, some of these rules are not correctly applied. An attacker could craft events which would be accepted by Synapse but not a spec-conformant server, potentially causing divergence in the room state between servers. Administrators of homeservers with federation enabled are advised to upgrade to version 1.62.0 or higher. Federation can be disabled by setting [`federation_domain_whitelist`](https://matrix-org.github.io/synapse/latest/usage/configuration/config_documentation.html#federation_domain_whitelist) to an empty list (`[]`) as a workaround.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31152](https://github.com/Live-Hack-CVE/CVE-2022-31152)
-
-### CVE-2022-31196 (2022-09-02)
-
-<code>
-Databasir is a database metadata management platform. Databasir &lt;= 1.06 has Server-Side Request Forgery (SSRF) vulnerability. The SSRF is triggered by a sending a **single** HTTP POST request to create a databaseType. By supplying a `jdbcDriverFileUrl` that returns a non `200` response code, the url is executed, the response is logged (both in terminal and in database) and is included in the response. This would allow an attackers to obtain the real IP address and scan Intranet information. This issue was fixed in version 1.0.7.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31196](https://github.com/Live-Hack-CVE/CVE-2022-31196)
-
-### CVE-2022-31232 (2022-08-30)
-
-<code>
-SmartFabric storage software version 1.0.0 contains a Command-Injection vulnerability. A remote unauthenticated attacker may potentially exploit this vulnerability to gain access and perform actions on the affected system.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31232](https://github.com/Live-Hack-CVE/CVE-2022-31232)
-
-### CVE-2022-31233 (2022-08-31)
-
-<code>
-Unisphere for PowerMax versions before 9.2.3.15 contain a privilege escalation vulnerability. An adjacent malicious user may potentially exploit this vulnerability to escalate their privileges and access functionalities they do not have access to.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31233](https://github.com/Live-Hack-CVE/CVE-2022-31233)
 
 ### CVE-2022-31237 (2022-08-22)
 
@@ -6065,14 +5703,6 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 </code>
 
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
-
-### CVE-2022-31269 (2022-08-25)
-
-<code>
-Nortek Linear eMerge E3-Series devices through 0.32-09c place admin credentials in /test.txt that allow an attacker to open a building's doors. (This occurs in situations where the CVE-2019-7271 default credentials have been changed.)
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31269](https://github.com/Live-Hack-CVE/CVE-2022-31269)
 
 ### CVE-2022-31294 (2022-06-16)
 
@@ -6165,22 +5795,6 @@ OX App Suite through 7.10.6 allows XSS via a deep link, as demonstrated by class
 
 - [Live-Hack-CVE/CVE-2022-31469](https://github.com/Live-Hack-CVE/CVE-2022-31469)
 
-### CVE-2022-31499 (2022-08-25)
-
-<code>
-Nortek Linear eMerge E3-Series devices before 0.32-08f allow an unauthenticated attacker to inject OS commands via ReaderNo. NOTE: this issue exists because of an incomplete fix for CVE-2019-7256.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31499](https://github.com/Live-Hack-CVE/CVE-2022-31499)
-
-### CVE-2022-31677 (2022-08-29)
-
-<code>
-An Insufficient Session Expiration issue was discovered in the Pinniped Supervisor (before v0.19.0). A user authenticating to Kubernetes clusters via the Pinniped Supervisor could potentially use their access token to continue their session beyond what proper use of their refresh token might allow.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31677](https://github.com/Live-Hack-CVE/CVE-2022-31677)
-
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 
@@ -6192,21 +5806,13 @@ IBM DataPower Gateway V10CD, 10.0.1, and 2018.4.1 is vulnerable to cross-site re
 
 - [Live-Hack-CVE/CVE-2022-31773](https://github.com/Live-Hack-CVE/CVE-2022-31773)
 
-### CVE-2022-31798 (2022-08-25)
+### CVE-2022-31813 (2022-06-08)
 
 <code>
-Nortek Linear eMerge E3-Series 0.32-07p devices are vulnerable to /card_scan.php?CardFormatNo= XSS with session fixation (via PHPSESSID) when they are chained together. This would allow an attacker to take over an admin account or a user account.
+Apache HTTP Server 2.4.53 and earlier may not send the X-Forwarded-* headers to the origin server based on client side Connection header hop-by-hop mechanism. This may be used to bypass IP based authentication on the origin server/application.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-31798](https://github.com/Live-Hack-CVE/CVE-2022-31798)
-
-### CVE-2022-31860 (2022-09-06)
-
-<code>
-An issue was discovered in OpenRemote through 1.0.4 allows attackers to execute arbitrary code via a crafted Groovy rule.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31860](https://github.com/Live-Hack-CVE/CVE-2022-31860)
+- [Live-Hack-CVE/CVE-2022-31813](https://github.com/Live-Hack-CVE/CVE-2022-31813)
 
 ### CVE-2022-31983 (2022-06-01)
 
@@ -6248,13 +5854,13 @@ Arox School ERP Pro v1.0 was discovered to contain multiple arbitrary file uploa
 
 - [JC175/CVE-2022-32119](https://github.com/JC175/CVE-2022-32119)
 
-### CVE-2022-32264 (2022-09-06)
+### CVE-2022-32148 (2022-08-09)
 
 <code>
-** UNSUPPORTED WHEN ASSIGNED ** sys/netinet/tcp_timer.h in FreeBSD before 7.0 contains a denial-of-service (DoS) vulnerability due to improper handling of TSopt on TCP connections. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+Improper exposure of client IP addresses in net/http before Go 1.17.12 and Go 1.18.4 can be triggered by calling httputil.ReverseProxy.ServeHTTP with a Request.Header map containing a nil value for the X-Forwarded-For header, which causes ReverseProxy to set the client IP as the value of the X-Forwarded-For header.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-32264](https://github.com/Live-Hack-CVE/CVE-2022-32264)
+- [Live-Hack-CVE/CVE-2022-32148](https://github.com/Live-Hack-CVE/CVE-2022-32148)
 
 ### CVE-2022-32282 (2022-08-22)
 
@@ -6264,6 +5870,14 @@ An improper password check exists in the login functionality of WWBN AVideo 11.6
 
 - [Live-Hack-CVE/CVE-2022-32282](https://github.com/Live-Hack-CVE/CVE-2022-32282)
 
+### CVE-2022-32283 (2022-08-18)
+
+<code>
+Browse restriction bypass vulnerability in Cabinet of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to obtain the data of Cabinet via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-32283](https://github.com/Live-Hack-CVE/CVE-2022-32283)
+
 ### CVE-2022-32427 (2022-08-24)
 
 <code>
@@ -6271,6 +5885,14 @@ PrinterLogic Windows Client through 25.0.0.676 allows attackers to execute direc
 </code>
 
 - [Live-Hack-CVE/CVE-2022-32427](https://github.com/Live-Hack-CVE/CVE-2022-32427)
+
+### CVE-2022-32453 (2022-08-18)
+
+<code>
+HTTP header injection vulnerability in Cybozu Office 10.0.0 to 10.8.5 may allow a remote attacker to obtain and/or alter the data of the product via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-32453](https://github.com/Live-Hack-CVE/CVE-2022-32453)
 
 ### CVE-2022-32480 (2022-08-22)
 
@@ -6288,13 +5910,13 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
 
-### CVE-2022-32548 (2022-08-29)
+### CVE-2022-32544 (2022-08-18)
 
 <code>
-An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
+Operation restriction bypass vulnerability in Project of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to alter the data of Project via unspecified vectors.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-32548](https://github.com/Live-Hack-CVE/CVE-2022-32548)
+- [Live-Hack-CVE/CVE-2022-32544](https://github.com/Live-Hack-CVE/CVE-2022-32544)
 
 ### CVE-2022-32572 (2022-08-22)
 
@@ -6311,6 +5933,14 @@ Improper initialization in the firmware for some Intel(R) NUC Laptop Kits before
 </code>
 
 - [Live-Hack-CVE/CVE-2022-32579](https://github.com/Live-Hack-CVE/CVE-2022-32579)
+
+### CVE-2022-32583 (2022-08-18)
+
+<code>
+Operation restriction bypass vulnerability in Scheduler of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to alter the data of Scheduler via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-32583](https://github.com/Live-Hack-CVE/CVE-2022-32583)
 
 ### CVE-2022-32742 (2022-08-25)
 
@@ -6432,14 +6062,6 @@ Cross Site Scripting (XSS) vulnerability in router Asus DSL-N14U-B1 1.1.2.3_805 
 
 - [FedericoHeichou/CVE-2022-32988](https://github.com/FedericoHeichou/CVE-2022-32988)
 
-### CVE-2022-32993 (2022-08-29)
-
-<code>
-TOTOLINK A7000R V4.1cu.4134 was discovered to contain an access control issue via /cgi-bin/ExportSettings.sh.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-32993](https://github.com/Live-Hack-CVE/CVE-2022-32993)
-
 ### CVE-2022-33142 (2022-08-23)
 
 <code>
@@ -6472,6 +6094,14 @@ A sql injection vulnerability exists in the ObjectYPT functionality of WWBN AVid
 
 - [Live-Hack-CVE/CVE-2022-33149](https://github.com/Live-Hack-CVE/CVE-2022-33149)
 
+### CVE-2022-33151 (2022-08-18)
+
+<code>
+Cross-site scripting vulnerability in the specific parameters of Cybozu Office 10.0.0 to 10.8.5 allows remote attackers to inject an arbitrary script via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-33151](https://github.com/Live-Hack-CVE/CVE-2022-33151)
+
 ### CVE-2022-33172 (2022-08-24)
 
 <code>
@@ -6480,14 +6110,6 @@ de.fac2 1.34 allows bypassing the User Presence protection mechanism when there 
 
 - [Live-Hack-CVE/CVE-2022-33172](https://github.com/Live-Hack-CVE/CVE-2022-33172)
 
-### CVE-2022-33177 (2022-09-06)
-
-<code>
-Cross-Site Request Forgery (CSRF) vulnerability in WPdevelop/Oplugins Booking Calendar plugin &lt;= 9.2.1 at WordPress leading to Translations Update.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-33177](https://github.com/Live-Hack-CVE/CVE-2022-33177)
-
 ### CVE-2022-33209 (2022-08-18)
 
 <code>
@@ -6495,6 +6117,14 @@ Improper input validation in the firmware for some Intel(R) NUC Laptop Kits befo
 </code>
 
 - [Live-Hack-CVE/CVE-2022-33209](https://github.com/Live-Hack-CVE/CVE-2022-33209)
+
+### CVE-2022-33311 (2022-08-18)
+
+<code>
+Browse restriction bypass vulnerability in Address Book of Cybozu Office 10.0.0 to 10.8.5 allows a remote authenticated attacker to obtain the data of Address Book via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-33311](https://github.com/Live-Hack-CVE/CVE-2022-33311)
 
 ### CVE-2022-33636 (2022-08-09)
 
@@ -6536,14 +6166,6 @@ OPC UA .NET Standard Reference Server 1.04.368 allows a remote attacker to cause
 
 - [Live-Hack-CVE/CVE-2022-33916](https://github.com/Live-Hack-CVE/CVE-2022-33916)
 
-### CVE-2022-33917 (2022-08-02)
-
-<code>
-An issue was discovered in the Arm Mali GPU Kernel Driver (Valhall r29p0 through r38p0). A non-privileged user can make improper GPU processing operations to gain access to already freed memory.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-33917](https://github.com/Live-Hack-CVE/CVE-2022-33917)
-
 ### CVE-2022-33932 (2022-08-22)
 
 <code>
@@ -6552,13 +6174,69 @@ Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.19, 9.2.1.12, 9.
 
 - [Live-Hack-CVE/CVE-2022-33932](https://github.com/Live-Hack-CVE/CVE-2022-33932)
 
-### CVE-2022-33935 (2022-08-30)
+### CVE-2022-33939 (2022-08-16)
 
 <code>
-Dell EMC Data Protection Advisor versions 19.6 and earlier, contains a Stored Cross Site Scripting, an attacker could potentially exploit this vulnerability, leading to the storage of malicious HTML or JavaScript codes in a trusted application data store. When a victim user accesses the data store through their browsers, the malicious code gets executed by the web browser in the context of the vulnerable web application. Exploitation may lead to information disclosure, session theft, or client-side request forgery.
+CENTUM VP / CS 3000 controller FCS (CP31, CP33, CP345, CP401, and CP451) contains an issue in processing communication packets, which may lead to resource consumption. If this vulnerability is exploited, an attacker may cause a denial of service (DoS) condition in ADL communication by sending a specially crafted packet to the affected product.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-33935](https://github.com/Live-Hack-CVE/CVE-2022-33935)
+- [Live-Hack-CVE/CVE-2022-33939](https://github.com/Live-Hack-CVE/CVE-2022-33939)
+
+### CVE-2022-33988 (2022-08-15)
+
+<code>
+dproxy-nexgen (aka dproxy nexgen) re-uses the DNS transaction id (TXID) value from client queries, which allows attackers (able to send queries to the resolver) to conduct DNS cache-poisoning attacks because the TXID value is known to the attacker.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-33988](https://github.com/Live-Hack-CVE/CVE-2022-33988)
+
+### CVE-2022-33989 (2022-08-15)
+
+<code>
+dproxy-nexgen (aka dproxy nexgen) uses a static UDP source port (selected randomly only at boot time) in upstream queries sent to DNS resolvers. This allows DNS cache poisoning because there is not enough entropy to prevent traffic injection attacks.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-33989](https://github.com/Live-Hack-CVE/CVE-2022-33989)
+
+### CVE-2022-33990 (2022-08-15)
+
+<code>
+Misinterpretation of special domain name characters in dproxy-nexgen (aka dproxy nexgen) leads to cache poisoning because domain names and their associated IP addresses are cached in their misinterpreted form.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-33990](https://github.com/Live-Hack-CVE/CVE-2022-33990)
+
+### CVE-2022-33991 (2022-08-15)
+
+<code>
+dproxy-nexgen (aka dproxy nexgen) forwards and caches DNS queries with the CD (aka checking disabled) bit set to 1. This leads to disabling of DNSSEC protection provided by upstream resolvers.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-33991](https://github.com/Live-Hack-CVE/CVE-2022-33991)
+
+### CVE-2022-33992 (2022-08-15)
+
+<code>
+DNRD (aka Domain Name Relay Daemon) 2.20.3 forwards and caches DNS queries with the CD (aka checking disabled) bit set to 1. This leads to disabling of DNSSEC protection provided by upstream resolvers.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-33992](https://github.com/Live-Hack-CVE/CVE-2022-33992)
+
+### CVE-2022-33993 (2022-08-15)
+
+<code>
+Misinterpretation of special domain name characters in DNRD (aka Domain Name Relay Daemon) 2.20.3 leads to cache poisoning because domain names and their associated IP addresses are cached in their misinterpreted form.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-33993](https://github.com/Live-Hack-CVE/CVE-2022-33993)
+
+### CVE-2022-33994 (2022-07-30)
+
+<code>
+The Gutenberg plugin through 13.7.3 for WordPress allows stored XSS by the Contributor role via an SVG document to the &quot;Insert from URL&quot; feature. NOTE: the XSS payload does not execute in the context of the WordPress instance's domain; however, analogous attempts by low-privileged users to reference SVG documents are blocked by some similar products, and this behavioral difference might have security relevance to some WordPress site administrators.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-33994](https://github.com/Live-Hack-CVE/CVE-2022-33994)
 
 ### CVE-2022-34149 (2022-08-22)
 
@@ -6568,6 +6246,30 @@ Authentication Bypass vulnerability in miniOrange WP OAuth Server plugin &lt;= 3
 
 - [Live-Hack-CVE/CVE-2022-34149](https://github.com/Live-Hack-CVE/CVE-2022-34149)
 
+### CVE-2022-34156 (2022-08-16)
+
+<code>
+'Hulu / フールー' App for iOS versions prior to 3.0.81 improperly verifies server certificates, which may allow an attacker to eavesdrop on an encrypted communication via a man-in-the-middle attack.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-34156](https://github.com/Live-Hack-CVE/CVE-2022-34156)
+
+### CVE-2022-34253 (2022-08-16)
+
+<code>
+Adobe Commerce versions 2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4 (and earlier) are affected by an XML Injection vulnerability in the Widgets Module. An attacker with admin privileges can trigger a specially crafted script to achieve remote code execution. Exploitation of this issue does not require user interaction.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-34253](https://github.com/Live-Hack-CVE/CVE-2022-34253)
+
+### CVE-2022-34254 (2022-08-16)
+
+<code>
+Adobe Commerce versions 2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4 (and earlier) are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could be abused by an attacker to inject malicious scripts into the vulnerable endpoint. A low privileged attacker could leverage this vulnerability to read local files and to perform Stored XSS. Exploitation of this issue does not require user interaction.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-34254](https://github.com/Live-Hack-CVE/CVE-2022-34254)
+
 ### CVE-2022-34256 (2022-08-16)
 
 <code>
@@ -6576,6 +6278,22 @@ Adobe Commerce versions 2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4
 
 - [Live-Hack-CVE/CVE-2022-34256](https://github.com/Live-Hack-CVE/CVE-2022-34256)
 
+### CVE-2022-34259 (2022-08-16)
+
+<code>
+Adobe Commerce versions 2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4 (and earlier) are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to impact the availability of a user's minor feature. Exploitation of this issue does not require user interaction.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-34259](https://github.com/Live-Hack-CVE/CVE-2022-34259)
+
+### CVE-2022-34294 (2022-08-15)
+
+<code>
+totd 1.5.3 uses a fixed UDP source port in upstream queries sent to DNS resolvers. This allows DNS cache poisoning because there is not enough entropy to prevent traffic injection attacks.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-34294](https://github.com/Live-Hack-CVE/CVE-2022-34294)
+
 ### CVE-2022-34298 (2022-06-22)
 
 <code>
@@ -6583,30 +6301,6 @@ The NT auth module in OpenAM before 14.6.6 allows a &quot;replace Samba username
 </code>
 
 - [watchtowrlabs/CVE-2022-34298](https://github.com/watchtowrlabs/CVE-2022-34298)
-
-### CVE-2022-34301 (2022-08-26)
-
-<code>
-A flaw was found in CryptoPro Secure Disk bootloaders before 2022-06-01. An attacker may use this bootloader to bypass or tamper with Secure Boot protections. In order to load and execute arbitrary code in the pre-boot stage, an attacker simply needs to replace the existing signed bootloader currently in use with this bootloader. Access to the EFI System Partition is required for booting using external media.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34301](https://github.com/Live-Hack-CVE/CVE-2022-34301)
-
-### CVE-2022-34302 (2022-08-26)
-
-<code>
-A flaw was found in New Horizon Datasys bootloaders before 2022-06-01. An attacker may use this bootloader to bypass or tamper with Secure Boot protections. In order to load and execute arbitrary code in the pre-boot stage, an attacker simply needs to replace the existing signed bootloader currently in use with this bootloader. Access to the EFI System Partition is required for booting using external media.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34302](https://github.com/Live-Hack-CVE/CVE-2022-34302)
-
-### CVE-2022-34303 (2022-08-26)
-
-<code>
-A flaw was found in Eurosoft bootloaders before 2022-06-01. An attacker may use this bootloader to bypass or tamper with Secure Boot protections. In order to load and execute arbitrary code in the pre-boot stage, an attacker simply needs to replace the existing signed bootloader currently in use with this bootloader. Access to the EFI System Partition is required for booting using external media.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34303](https://github.com/Live-Hack-CVE/CVE-2022-34303)
 
 ### CVE-2022-34305 (2022-06-23)
 
@@ -6631,102 +6325,6 @@ Cross-Site Request Forgery (CSRF) vulnerability in W3 Eden Download Manager plug
 </code>
 
 - [Live-Hack-CVE/CVE-2022-34347](https://github.com/Live-Hack-CVE/CVE-2022-34347)
-
-### CVE-2022-34368 (2022-08-30)
-
-<code>
-Dell EMC NetWorker 19.2.1.x 19.3.x, 19.4.x, 19.5.x, 19.6.x and 19.7.0.0 contain an Improper Handling of Insufficient Permissions or Privileges vulnerability. Authenticated non admin user could exploit this vulnerability and gain access to restricted resources.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34368](https://github.com/Live-Hack-CVE/CVE-2022-34368)
-
-### CVE-2022-34369 (2022-09-02)
-
-<code>
-Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.20, 9.2.1.13, 9.3.0.6, and 9.4.0.3 , contain an insertion of sensitive information in log files vulnerability. A remote unprivileged attacker could potentially exploit this vulnerability, leading to exposure of this sensitive data.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34369](https://github.com/Live-Hack-CVE/CVE-2022-34369)
-
-### CVE-2022-34371 (2022-09-02)
-
-<code>
-Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.19, 9.2.1.12, 9.3.0.6, and 9.4.0.3, contain an unprotected transport of credentials vulnerability. A malicious unprivileged network attacker could potentially exploit this vulnerability, leading to full system compromise.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34371](https://github.com/Live-Hack-CVE/CVE-2022-34371)
-
-### CVE-2022-34372 (2022-09-01)
-
-<code>
-Dell PowerProtect Cyber Recovery versions before 19.11.0.2 contain an authentication bypass vulnerability. A remote unauthenticated attacker may potentially access and interact with the docker registry API leading to an authentication bypass. The attacker may potentially alter the docker images leading to a loss of integrity and confidentiality
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34372](https://github.com/Live-Hack-CVE/CVE-2022-34372)
-
-### CVE-2022-34373 (2022-08-31)
-
-<code>
-Dell Command | Integration Suite for System Center, versions prior to 6.2.0, contains arbitrary file write vulnerability. A locally authenticated malicious user could potentially exploit this vulnerability in order to perform an arbitrary write as system.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34373](https://github.com/Live-Hack-CVE/CVE-2022-34373)
-
-### CVE-2022-34374 (2022-08-30)
-
-<code>
-Dell Container Storage Modules 1.2 contains an OS command injection in goiscsi and gobrick libraries. A remote authenticated malicious user with low privileges could exploit this vulnerability leading to to execute arbitrary OS commands on the affected system.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34374](https://github.com/Live-Hack-CVE/CVE-2022-34374)
-
-### CVE-2022-34375 (2022-08-30)
-
-<code>
-Dell Container Storage Modules 1.2 contains a path traversal vulnerability in goiscsi and gobrick libraries. A remote authenticated malicious user with low privileges could exploit this vulnerability leading to unintentional access to path outside of restricted directory.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34375](https://github.com/Live-Hack-CVE/CVE-2022-34375)
-
-### CVE-2022-34378 (2022-09-02)
-
-<code>
-Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.20, 9.2.1.13, 9.3.0.6, and 9.4.0.3, contain a relative path traversal vulnerability. A low privileged local attacker could potentially exploit this vulnerability, leading to denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34378](https://github.com/Live-Hack-CVE/CVE-2022-34378)
-
-### CVE-2022-34379 (2022-09-01)
-
-<code>
-Dell EMC CloudLink 7.1.2 and all prior versions contain an Authentication Bypass Vulnerability. A remote attacker, with the knowledge of the active directory usernames, could potentially exploit this vulnerability to gain unauthorized access to the system.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34379](https://github.com/Live-Hack-CVE/CVE-2022-34379)
-
-### CVE-2022-34380 (2022-09-01)
-
-<code>
-Dell CloudLink 7.1.3 and all earlier versions contain an Authentication Bypass Using an Alternate Path or Channel Vulnerability. A high privileged local attacker may potentially exploit this vulnerability leading to authentication bypass and access the CloudLink system console. This is critical severity vulnerability as it allows attacker to take control of the system.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34380](https://github.com/Live-Hack-CVE/CVE-2022-34380)
-
-### CVE-2022-34382 (2022-09-02)
-
-<code>
-Dell Command Update, Dell Update and Alienware Update versions prior to 4.6.0 contains a Local Privilege Escalation Vulnerability in the custom catalog configuration. A local malicious user may potentially exploit this vulnerability in order to elevate their privileges.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34382](https://github.com/Live-Hack-CVE/CVE-2022-34382)
-
-### CVE-2022-34383 (2022-08-31)
-
-<code>
-Dell Edge Gateway 5200 (EGW) versions before 1.03.10 contain an operating system command injection vulnerability. A local malicious user may potentially exploit this vulnerability by using an SMI to bypass PMC mitigation and gain arbitrary code execution during SMM.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34383](https://github.com/Live-Hack-CVE/CVE-2022-34383)
 
 ### CVE-2022-34486 (2022-08-23)
 
@@ -6792,14 +6390,6 @@ A sql injection vulnerability exists in the ObjectYPT functionality of WWBN AVid
 
 - [Live-Hack-CVE/CVE-2022-34652](https://github.com/Live-Hack-CVE/CVE-2022-34652)
 
-### CVE-2022-34656 (2022-09-06)
-
-<code>
-Authenticated (admin+) Cross-Site Scripting (XSS) vulnerability in wpdevart Poll, Survey, Questionnaire and Voting system plugin &lt;= 1.7.4 at WordPress.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34656](https://github.com/Live-Hack-CVE/CVE-2022-34656)
-
 ### CVE-2022-34658 (2022-08-23)
 
 <code>
@@ -6808,37 +6398,13 @@ Multiple Authenticated (contributor+) Persistent Cross-Site Scripting (XSS) vuln
 
 - [Live-Hack-CVE/CVE-2022-34658](https://github.com/Live-Hack-CVE/CVE-2022-34658)
 
-### CVE-2022-34668 (2022-08-28)
+### CVE-2022-34659 (2022-08-10)
 
 <code>
-NVFLARE, versions prior to 2.1.4, contains a vulnerability that deserialization of Untrusted Data due to Pickle usage may allow an unprivileged network attacker to cause Remote Code Execution, Denial Of Service, and Impact to both Confidentiality and Integrity.
+A vulnerability has been identified in Simcenter STAR-CCM+ (All versions only if the Power-on-Demand public license server is used). Affected applications expose user, host and display name of users, when the public license server is used. This could allow an attacker to retrieve this information.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-34668](https://github.com/Live-Hack-CVE/CVE-2022-34668)
-
-### CVE-2022-34747 (2022-09-05)
-
-<code>
-A format string vulnerability in Zyxel NAS326 firmware versions prior to V5.21(AAZF.12)C0 could allow an attacker to achieve unauthorized remote code execution via a crafted UDP packet.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34747](https://github.com/Live-Hack-CVE/CVE-2022-34747)
-
-### CVE-2022-34768 (2022-08-05)
-
-<code>
-insert HTML / js code inside input how to get to the vulnerable input : Workers &amp;gt; worker nickname &amp;gt; inject in this input the code.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34768](https://github.com/Live-Hack-CVE/CVE-2022-34768)
-
-### CVE-2022-34769 (2022-08-05)
-
-<code>
-PROSCEND - PROSCEND / ADVICE .Ltd - G/5G Industrial Cellular Router (with GPS)4 Unauthenticated OS Command Injection Proscend M330-w / M33-W5 / M350-5G / M350-W5G / M350-6 / M350-W6 / M301-G / M301-GW ADVICE ICR 111WG / https://www.proscend.com/en/category/industrial-Cellular-Router/industrial-Cellular-Router.html https://cdn.shopify.com/s/files/1/0036/9413/3297/files/ADVICE_Industrial_4G_LTE_Cellular_Router_ICR111WG.pdf?v=1620814301
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34769](https://github.com/Live-Hack-CVE/CVE-2022-34769)
+- [Live-Hack-CVE/CVE-2022-34659](https://github.com/Live-Hack-CVE/CVE-2022-34659)
 
 ### CVE-2022-34770 (2022-08-22)
 
@@ -6936,14 +6502,6 @@ Authentication Bypass vulnerability in miniOrange OAuth 2.0 client for SSO plugi
 
 - [Live-Hack-CVE/CVE-2022-34858](https://github.com/Live-Hack-CVE/CVE-2022-34858)
 
-### CVE-2022-34867 (2022-09-06)
-
-<code>
-Unauthenticated Sensitive Information Disclosure vulnerability in WP Libre Form 2 plugin &lt;= 2.0.8 at WordPress allows attackers to list and delete submissions. Affects only versions from 2.0.0 to 2.0.8.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-34867](https://github.com/Live-Hack-CVE/CVE-2022-34867)
-
 ### CVE-2022-34868 (2022-08-23)
 
 <code>
@@ -6991,6 +6549,54 @@ OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK v6.3 LTS was discovered to contai
 </code>
 
 - [bypazs/CVE-2022-34963](https://github.com/bypazs/CVE-2022-34963)
+
+### CVE-2022-34998 (2022-08-16)
+
+<code>
+JPEGDEC commit be4843c was discovered to contain a global buffer overflow via JPEGDecodeMCU at /src/jpeg.inl.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-34998](https://github.com/Live-Hack-CVE/CVE-2022-34998)
+
+### CVE-2022-34999 (2022-08-16)
+
+<code>
+JPEGDEC commit be4843c was discovered to contain a FPE via DecodeJPEG at /src/jpeg.inl.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-34999](https://github.com/Live-Hack-CVE/CVE-2022-34999)
+
+### CVE-2022-35000 (2022-08-16)
+
+<code>
+JPEGDEC commit be4843c was discovered to contain a segmentation fault via fseek at /libio/fseek.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35000](https://github.com/Live-Hack-CVE/CVE-2022-35000)
+
+### CVE-2022-35002 (2022-08-16)
+
+<code>
+JPEGDEC commit be4843c was discovered to contain a segmentation fault via TIFFSHORT at /src/jpeg.inl.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35002](https://github.com/Live-Hack-CVE/CVE-2022-35002)
+
+### CVE-2022-35003 (2022-08-16)
+
+<code>
+JPEGDEC commit be4843c was discovered to contain a global buffer overflow via ucDitherBuffer at /src/jpeg.inl.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35003](https://github.com/Live-Hack-CVE/CVE-2022-35003)
+
+### CVE-2022-35004 (2022-08-16)
+
+<code>
+JPEGDEC commit be4843c was discovered to contain a FPE via TIFFSHORT at /src/jpeg.inl.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35004](https://github.com/Live-Hack-CVE/CVE-2022-35004)
 
 ### CVE-2022-35007 (2022-08-16)
 
@@ -7048,6 +6654,102 @@ PNGDec commit 8abf6be was discovered to contain a FPE via SaveBMP at /linux/main
 
 - [Live-Hack-CVE/CVE-2022-35013](https://github.com/Live-Hack-CVE/CVE-2022-35013)
 
+### CVE-2022-35100 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a segmentation violation via gfxline_getbbox at /lib/gfxtools.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35100](https://github.com/Live-Hack-CVE/CVE-2022-35100)
+
+### CVE-2022-35101 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a segmentation violation via /multiarch/memset-vec-unaligned-erms.S.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35101](https://github.com/Live-Hack-CVE/CVE-2022-35101)
+
+### CVE-2022-35104 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a heap-buffer overflow via DCTStream::reset() at /xpdf/Stream.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35104](https://github.com/Live-Hack-CVE/CVE-2022-35104)
+
+### CVE-2022-35105 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a heap-buffer overflow via /bin/png2swf+0x552cea.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35105](https://github.com/Live-Hack-CVE/CVE-2022-35105)
+
+### CVE-2022-35106 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a segmentation violation via FoFiTrueType::computeTableChecksum(unsigned char*, int) at /xpdf/FoFiTrueType.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35106](https://github.com/Live-Hack-CVE/CVE-2022-35106)
+
+### CVE-2022-35107 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a stack overflow via vfprintf at /stdio-common/vfprintf.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35107](https://github.com/Live-Hack-CVE/CVE-2022-35107)
+
+### CVE-2022-35108 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a segmentation violation via DCTStream::getChar() at /xpdf/Stream.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35108](https://github.com/Live-Hack-CVE/CVE-2022-35108)
+
+### CVE-2022-35109 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a heap-buffer overflow via draw_stroke at /gfxpoly/stroke.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35109](https://github.com/Live-Hack-CVE/CVE-2022-35109)
+
+### CVE-2022-35110 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a memory leak via /lib/mem.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35110](https://github.com/Live-Hack-CVE/CVE-2022-35110)
+
+### CVE-2022-35111 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a stack overflow via __sanitizer::StackDepotNode::hash(__sanitizer::StackTrace const&amp;) at /sanitizer_common/sanitizer_stackdepot.cpp.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35111](https://github.com/Live-Hack-CVE/CVE-2022-35111)
+
+### CVE-2022-35113 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a heap-buffer overflow via swf_DefineLosslessBitsTagToImage at /modules/swfbits.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35113](https://github.com/Live-Hack-CVE/CVE-2022-35113)
+
+### CVE-2022-35114 (2022-08-16)
+
+<code>
+SWFTools commit 772e55a2 was discovered to contain a segmentation violation via extractFrame at /readers/swf.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35114](https://github.com/Live-Hack-CVE/CVE-2022-35114)
+
 ### CVE-2022-35115 (2022-08-23)
 
 <code>
@@ -7055,6 +6757,46 @@ IceWarp WebClient DC2 - Update 2 Build 9 (13.0.2.9) was discovered to contain a 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-35115](https://github.com/Live-Hack-CVE/CVE-2022-35115)
+
+### CVE-2022-35117 (2022-08-17)
+
+<code>
+Clinic's Patient Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via update_medicine_details.php. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Packing text box under the Update Medical Details module.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35117](https://github.com/Live-Hack-CVE/CVE-2022-35117)
+
+### CVE-2022-35121 (2022-08-17)
+
+<code>
+Novel-Plus v3.6.1 was discovered to contain a SQL injection vulnerability via the keyword parameter at /service/impl/BookServiceImpl.java.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35121](https://github.com/Live-Hack-CVE/CVE-2022-35121)
+
+### CVE-2022-35122 (2022-08-17)
+
+<code>
+An access control issue in Ecowitt GW1100 Series Weather Stations &lt;=GW1100B_v2.1.5 allows unauthenticated attackers to access sensitive information including device and local WiFi passwords.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35122](https://github.com/Live-Hack-CVE/CVE-2022-35122)
+
+### CVE-2022-35133 (2022-08-17)
+
+<code>
+A cross-site scripting (XSS) vulnerability in CherryTree v0.99.30 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Name text field when creating a node.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35133](https://github.com/Live-Hack-CVE/CVE-2022-35133)
+
+### CVE-2022-35147 (2022-08-17)
+
+<code>
+DoraCMS v2.18 and earlier allows attackers to bypass login authentication via a crafted HTTP request.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35147](https://github.com/Live-Hack-CVE/CVE-2022-35147)
 
 ### CVE-2022-35148 (2022-08-17)
 
@@ -7072,6 +6814,62 @@ Baijicms v4 was discovered to contain an arbitrary file upload vulnerability.
 
 - [Live-Hack-CVE/CVE-2022-35150](https://github.com/Live-Hack-CVE/CVE-2022-35150)
 
+### CVE-2022-35151 (2022-08-17)
+
+<code>
+kkFileView v4.1.0 was discovered to contain multiple cross-site scripting (XSS) vulnerabilities via the urls and currentUrl parameters at /controller/OnlinePreviewController.java.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35151](https://github.com/Live-Hack-CVE/CVE-2022-35151)
+
+### CVE-2022-35153 (2022-08-18)
+
+<code>
+FusionPBX 5.0.1 was discovered to contain a command injection vulnerability via /fax/fax_send.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35153](https://github.com/Live-Hack-CVE/CVE-2022-35153)
+
+### CVE-2022-35154 (2022-08-18)
+
+<code>
+Shopro Mall System v1.3.8 was discovered to contain a SQL injection vulnerability via the value parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35154](https://github.com/Live-Hack-CVE/CVE-2022-35154)
+
+### CVE-2022-35164 (2022-08-18)
+
+<code>
+LibreDWG v0.12.4.4608 &amp; commit f2dea29 was discovered to contain a heap use-after-free via bit_copy_chain.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35164](https://github.com/Live-Hack-CVE/CVE-2022-35164)
+
+### CVE-2022-35165 (2022-08-18)
+
+<code>
+An issue in AP4_SgpdAtom::AP4_SgpdAtom() of Bento4-1.6.0-639 allows attackers to cause a Denial of Service (DoS) via a crafted mp4 input.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35165](https://github.com/Live-Hack-CVE/CVE-2022-35165)
+
+### CVE-2022-35166 (2022-08-18)
+
+<code>
+libjpeg commit 842c7ba was discovered to contain an infinite loop via the component JPEG::ReadInternal.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35166](https://github.com/Live-Hack-CVE/CVE-2022-35166)
+
+### CVE-2022-35167 (2022-08-18)
+
+<code>
+Printix Cloud Print Management v1.3.1149.0 for Windows was discovered to contain insecure permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35167](https://github.com/Live-Hack-CVE/CVE-2022-35167)
+
 ### CVE-2022-35173 (2022-08-18)
 
 <code>
@@ -7080,6 +6878,22 @@ An issue was discovered in Nginx NJS v0.7.5. The JUMP offset for a break instruc
 
 - [Live-Hack-CVE/CVE-2022-35173](https://github.com/Live-Hack-CVE/CVE-2022-35173)
 
+### CVE-2022-35174 (2022-08-18)
+
+<code>
+A stored cross-site scripting (XSS) vulnerability in Kirby's Starterkit v3.7.0.2 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Tags field.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35174](https://github.com/Live-Hack-CVE/CVE-2022-35174)
+
+### CVE-2022-35175 (2022-08-18)
+
+<code>
+Barangay Management System v1.0 was discovered to contain a SQL injection vulnerability via the hidden_id parameter at /blotter/blotter.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35175](https://github.com/Live-Hack-CVE/CVE-2022-35175)
+
 ### CVE-2022-35191 (2022-08-22)
 
 <code>
@@ -7087,14 +6901,6 @@ D-Link Wireless AC1200 Dual Band VDSL ADSL Modem Router DSL-3782 Firmware v1.01 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-35191](https://github.com/Live-Hack-CVE/CVE-2022-35191)
-
-### CVE-2022-35192 (2022-08-25)
-
-<code>
-D-Link Wireless AC1200 Dual Band VDSL ADSL Modem Router DSL-3782 Firmware v1.01 allows unauthenticated attackers to cause a Denial of Service (DoS) via the User parameter or Pwd parameter to Login.asp.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-35192](https://github.com/Live-Hack-CVE/CVE-2022-35192)
 
 ### CVE-2022-35198 (2022-08-18)
 
@@ -7120,6 +6926,22 @@ An access control issue in TrendNet TV-IP572PI v1.0 allows unauthenticated attac
 
 - [Live-Hack-CVE/CVE-2022-35203](https://github.com/Live-Hack-CVE/CVE-2022-35203)
 
+### CVE-2022-35204 (2022-08-18)
+
+<code>
+Vitejs Vite before v2.9.13 was discovered to allow attackers to perform a directory traversal via a crafted URL to the victim's service.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35204](https://github.com/Live-Hack-CVE/CVE-2022-35204)
+
+### CVE-2022-35212 (2022-08-18)
+
+<code>
+osCommerce2 before v2.3.4.1 was discovered to contain a cross-site scripting (XSS) vulnerability via the function tep_db_error().
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35212](https://github.com/Live-Hack-CVE/CVE-2022-35212)
+
 ### CVE-2022-35213 (2022-08-18)
 
 <code>
@@ -7135,6 +6957,14 @@ Authenticated (admin+) Arbitrary File Read vulnerability in XplodedThemes WPide 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-35235](https://github.com/Live-Hack-CVE/CVE-2022-35235)
+
+### CVE-2022-35239 (2022-08-16)
+
+<code>
+The image file management page of SolarView Compact SV-CPT-MC310 Ver.7.23 and earlier, and SV-CPT-MC310F Ver.7.23 and earlier contains an insufficient verification vulnerability when uploading files. If this vulnerability is exploited, arbitrary PHP code may be executed if a remote authenticated attacker uploads a specially crafted PHP file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35239](https://github.com/Live-Hack-CVE/CVE-2022-35239)
 
 ### CVE-2022-35242 (2022-08-23)
 
@@ -7152,6 +6982,398 @@ An issue was discovered in Mbed TLS before 2.28.1 and 3.x before 3.2.0. In some 
 
 - [Live-Hack-CVE/CVE-2022-35409](https://github.com/Live-Hack-CVE/CVE-2022-35409)
 
+### CVE-2022-35433 (2022-08-16)
+
+<code>
+ffjpeg commit caade60a69633d74100bd3c2528bddee0b6a1291 was discovered to contain a memory leak via /src/jfif.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35433](https://github.com/Live-Hack-CVE/CVE-2022-35433)
+
+### CVE-2022-35434 (2022-08-16)
+
+<code>
+jpeg-quantsmooth before commit 8879454 contained a floating point exception (FPE) via /jpeg-quantsmooth/jpegqs+0x4f5d6c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35434](https://github.com/Live-Hack-CVE/CVE-2022-35434)
+
+### CVE-2022-35447 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b04de.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35447](https://github.com/Live-Hack-CVE/CVE-2022-35447)
+
+### CVE-2022-35448 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b55af.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35448](https://github.com/Live-Hack-CVE/CVE-2022-35448)
+
+### CVE-2022-35449 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b0466.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35449](https://github.com/Live-Hack-CVE/CVE-2022-35449)
+
+### CVE-2022-35450 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b84b1.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35450](https://github.com/Live-Hack-CVE/CVE-2022-35450)
+
+### CVE-2022-35451 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b03b5.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35451](https://github.com/Live-Hack-CVE/CVE-2022-35451)
+
+### CVE-2022-35452 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b0b2c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35452](https://github.com/Live-Hack-CVE/CVE-2022-35452)
+
+### CVE-2022-35453 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6c08a6.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35453](https://github.com/Live-Hack-CVE/CVE-2022-35453)
+
+### CVE-2022-35454 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b05aa.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35454](https://github.com/Live-Hack-CVE/CVE-2022-35454)
+
+### CVE-2022-35455 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b0d63.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35455](https://github.com/Live-Hack-CVE/CVE-2022-35455)
+
+### CVE-2022-35456 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x617087.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35456](https://github.com/Live-Hack-CVE/CVE-2022-35456)
+
+### CVE-2022-35458 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b05ce.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35458](https://github.com/Live-Hack-CVE/CVE-2022-35458)
+
+### CVE-2022-35459 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6e412a.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35459](https://github.com/Live-Hack-CVE/CVE-2022-35459)
+
+### CVE-2022-35460 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x61731f.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35460](https://github.com/Live-Hack-CVE/CVE-2022-35460)
+
+### CVE-2022-35461 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6c0a32.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35461](https://github.com/Live-Hack-CVE/CVE-2022-35461)
+
+### CVE-2022-35462 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6c0bc3.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35462](https://github.com/Live-Hack-CVE/CVE-2022-35462)
+
+### CVE-2022-35463 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b0478.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35463](https://github.com/Live-Hack-CVE/CVE-2022-35463)
+
+### CVE-2022-35464 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6171b2.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35464](https://github.com/Live-Hack-CVE/CVE-2022-35464)
+
+### CVE-2022-35465 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6c0414.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35465](https://github.com/Live-Hack-CVE/CVE-2022-35465)
+
+### CVE-2022-35466 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6c0473.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35466](https://github.com/Live-Hack-CVE/CVE-2022-35466)
+
+### CVE-2022-35467 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6e41b8.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35467](https://github.com/Live-Hack-CVE/CVE-2022-35467)
+
+### CVE-2022-35468 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6e420d.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35468](https://github.com/Live-Hack-CVE/CVE-2022-35468)
+
+### CVE-2022-35469 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /x86_64-linux-gnu/libc.so.6+0xbb384.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35469](https://github.com/Live-Hack-CVE/CVE-2022-35469)
+
+### CVE-2022-35470 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x65fc97.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35470](https://github.com/Live-Hack-CVE/CVE-2022-35470)
+
+### CVE-2022-35471 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6e41b0.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35471](https://github.com/Live-Hack-CVE/CVE-2022-35471)
+
+### CVE-2022-35472 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a global overflow via /release-x64/otfccdump+0x718693.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35472](https://github.com/Live-Hack-CVE/CVE-2022-35472)
+
+### CVE-2022-35473 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x4fe9a7.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35473](https://github.com/Live-Hack-CVE/CVE-2022-35473)
+
+### CVE-2022-35474 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6b544e.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35474](https://github.com/Live-Hack-CVE/CVE-2022-35474)
+
+### CVE-2022-35475 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a heap-buffer overflow via /release-x64/otfccdump+0x6e41a8.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35475](https://github.com/Live-Hack-CVE/CVE-2022-35475)
+
+### CVE-2022-35476 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x4fbc0b.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35476](https://github.com/Live-Hack-CVE/CVE-2022-35476)
+
+### CVE-2022-35477 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x4fe954.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35477](https://github.com/Live-Hack-CVE/CVE-2022-35477)
+
+### CVE-2022-35478 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x6babea.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35478](https://github.com/Live-Hack-CVE/CVE-2022-35478)
+
+### CVE-2022-35479 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x4fbbb6.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35479](https://github.com/Live-Hack-CVE/CVE-2022-35479)
+
+### CVE-2022-35481 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /multiarch/memmove-vec-unaligned-erms.S.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35481](https://github.com/Live-Hack-CVE/CVE-2022-35481)
+
+### CVE-2022-35482 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x65f724.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35482](https://github.com/Live-Hack-CVE/CVE-2022-35482)
+
+### CVE-2022-35483 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x5266a8.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35483](https://github.com/Live-Hack-CVE/CVE-2022-35483)
+
+### CVE-2022-35484 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x6b6a8f.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35484](https://github.com/Live-Hack-CVE/CVE-2022-35484)
+
+### CVE-2022-35485 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x703969.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35485](https://github.com/Live-Hack-CVE/CVE-2022-35485)
+
+### CVE-2022-35486 (2022-08-16)
+
+<code>
+OTFCC v0.10.4 was discovered to contain a segmentation violation via /release-x64/otfccdump+0x6badae.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35486](https://github.com/Live-Hack-CVE/CVE-2022-35486)
+
+### CVE-2022-35516 (2022-08-17)
+
+<code>
+DedeCMS v5.7.93 - v5.7.96 was discovered to contain a remote code execution vulnerability in login.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35516](https://github.com/Live-Hack-CVE/CVE-2022-35516)
+
+### CVE-2022-35540 (2022-08-18)
+
+<code>
+Hardcoded JWT Secret in AgileConfig &lt;1.6.8 Server allows remote attackers to use the generated JWT token to gain administrator access.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35540](https://github.com/Live-Hack-CVE/CVE-2022-35540)
+
+### CVE-2022-35554 (2022-08-19)
+
+<code>
+Multiple reflected XSS vulnerabilities occur when handling error message of BPC SmartVista version 3.28.0 allowing an attacker to execute javascript code at client side.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35554](https://github.com/Live-Hack-CVE/CVE-2022-35554)
+
+### CVE-2022-35555 (2022-08-11)
+
+<code>
+A command injection vulnerability exists in /goform/exeCommand in Tenda W6 V1.0.0.9(4122), which allows attackers to construct cmdinput parameters for arbitrary command execution.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35555](https://github.com/Live-Hack-CVE/CVE-2022-35555)
+
+### CVE-2022-35557 (2022-08-11)
+
+<code>
+A stack overflow vulnerability exists in /goform/wifiSSIDget in Tenda W6 V1.0.0.9(4122) version, which can be exploited by attackers to cause a denial of service (DoS) via the index parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35557](https://github.com/Live-Hack-CVE/CVE-2022-35557)
+
+### CVE-2022-35558 (2022-08-11)
+
+<code>
+A stack overflow vulnerability exists in /goform/WifiMacFilterGet in Tenda W6 V1.0.0.9(4122) version, which can be exploited by attackers to cause a denial of service (DoS) via the index parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35558](https://github.com/Live-Hack-CVE/CVE-2022-35558)
+
+### CVE-2022-35559 (2022-08-11)
+
+<code>
+A stack overflow vulnerability exists in /goform/setAutoPing in Tenda W6 V1.0.0.9(4122), which allows an attacker to construct ping1 parameters and ping2 parameters for a stack overflow attack. An attacker can use this vulnerability to execute arbitrary code execution.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35559](https://github.com/Live-Hack-CVE/CVE-2022-35559)
+
+### CVE-2022-35560 (2022-08-11)
+
+<code>
+A stack overflow vulnerability exists in /goform/wifiSSIDset in Tenda W6 V1.0.0.9(4122) version, which can be exploited by attackers to cause a denial of service (DoS) via the index parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35560](https://github.com/Live-Hack-CVE/CVE-2022-35560)
+
+### CVE-2022-35561 (2022-08-11)
+
+<code>
+A stack overflow vulnerability exists in /goform/WifiMacFilterSet in Tenda W6 V1.0.0.9(4122) version, which can be exploited by attackers to cause a denial of service (DoS) via the index parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35561](https://github.com/Live-Hack-CVE/CVE-2022-35561)
+
 ### CVE-2022-35583 (2022-08-22)
 
 <code>
@@ -7159,6 +7381,86 @@ wkhtmlTOpdf 0.12.6 is vulnerable to SSRF which allows an attacker to get initial
 </code>
 
 - [Live-Hack-CVE/CVE-2022-35583](https://github.com/Live-Hack-CVE/CVE-2022-35583)
+
+### CVE-2022-35598 (2022-08-17)
+
+<code>
+A SQL injection vulnerability in ConnectionFactoryDAO.java in sazanrjb InventoryManagementSystem 1.0 allows attackers to execute arbitrary SQL commands via parameter username.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35598](https://github.com/Live-Hack-CVE/CVE-2022-35598)
+
+### CVE-2022-35599 (2022-08-17)
+
+<code>
+A SQL injection vulnerability in Stocks.java in sazanrjb InventoryManagementSystem 1.0 allows attackers to execute arbitrary SQL commands via parameter productcode.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35599](https://github.com/Live-Hack-CVE/CVE-2022-35599)
+
+### CVE-2022-35601 (2022-08-17)
+
+<code>
+A SQL injection vulnerability in SupplierDAO.java in sazanrjb InventoryManagementSystem 1.0 allows attackers to execute arbitrary SQL commands via parameter searchTxt.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35601](https://github.com/Live-Hack-CVE/CVE-2022-35601)
+
+### CVE-2022-35602 (2022-08-17)
+
+<code>
+A SQL injection vulnerability in UserDAO.java in sazanrjb InventoryManagementSystem 1.0 allows attackers to execute arbitrary SQL commands via parameter user.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35602](https://github.com/Live-Hack-CVE/CVE-2022-35602)
+
+### CVE-2022-35603 (2022-08-17)
+
+<code>
+A SQL injection vulnerability in CustomerDAO.java in sazanrjb InventoryManagementSystem 1.0 allows attackers to execute arbitrary SQL commands via parameter searchTxt.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35603](https://github.com/Live-Hack-CVE/CVE-2022-35603)
+
+### CVE-2022-35604 (2022-08-17)
+
+<code>
+A SQL injection vulnerability in SupplierDAO.java in sazanrjb InventoryManagementSystem 1.0 allows attackers to execute arbitrary SQL commands via parameter 'searchTxt'.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35604](https://github.com/Live-Hack-CVE/CVE-2022-35604)
+
+### CVE-2022-35605 (2022-08-17)
+
+<code>
+A SQL injection vulnerability in UserDAO.java in sazanrjb InventoryManagementSystem 1.0 allows attackers to execute arbitrary SQL commands via the parameters such as 'users', 'pass', etc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35605](https://github.com/Live-Hack-CVE/CVE-2022-35605)
+
+### CVE-2022-35606 (2022-08-17)
+
+<code>
+A SQL injection vulnerability in CustomerDAO.java in sazanrjb InventoryManagementSystem 1.0 allows attackers to execute arbitrary SQL commands via the parameter 'customerCode.'
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35606](https://github.com/Live-Hack-CVE/CVE-2022-35606)
+
+### CVE-2022-35623 (2022-08-15)
+
+<code>
+In Nordic nRF5 SDK for Mesh 5.0, a heap overflow vulnerability can be triggered by sending a series of segmented control packets and access packets with the same SeqAuth
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35623](https://github.com/Live-Hack-CVE/CVE-2022-35623)
+
+### CVE-2022-35624 (2022-08-15)
+
+<code>
+In Nordic nRF5 SDK for Mesh 5.0, a heap overflow vulnerability can be triggered by sending a series of segmented packets with SegO &gt; SegN
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35624](https://github.com/Live-Hack-CVE/CVE-2022-35624)
 
 ### CVE-2022-35654 (2022-08-22)
 
@@ -7184,13 +7486,61 @@ Pega Platform from 8.3 to 8.7.3 vulnerability may allow authenticated security a
 
 - [Live-Hack-CVE/CVE-2022-35656](https://github.com/Live-Hack-CVE/CVE-2022-35656)
 
-### CVE-2022-35692 (2022-08-19)
+### CVE-2022-35665 (2022-08-11)
 
 <code>
-Adobe Commerce versions 2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4 (and earlier) are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to leak minor information of another user's account detials. Exploitation of this issue does not require user interaction.
+Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-35692](https://github.com/Live-Hack-CVE/CVE-2022-35692)
+- [Live-Hack-CVE/CVE-2022-35665](https://github.com/Live-Hack-CVE/CVE-2022-35665)
+
+### CVE-2022-35666 (2022-08-11)
+
+<code>
+Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35666](https://github.com/Live-Hack-CVE/CVE-2022-35666)
+
+### CVE-2022-35667 (2022-08-11)
+
+<code>
+Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35667](https://github.com/Live-Hack-CVE/CVE-2022-35667)
+
+### CVE-2022-35668 (2022-08-11)
+
+<code>
+Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by an Improper Input Validation vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35668](https://github.com/Live-Hack-CVE/CVE-2022-35668)
+
+### CVE-2022-35670 (2022-08-11)
+
+<code>
+Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by a Use After Free vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35670](https://github.com/Live-Hack-CVE/CVE-2022-35670)
+
+### CVE-2022-35671 (2022-08-11)
+
+<code>
+Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35671](https://github.com/Live-Hack-CVE/CVE-2022-35671)
+
+### CVE-2022-35678 (2022-08-11)
+
+<code>
+Adobe Acrobat Reader versions 22.001.20169 (and earlier), 20.005.30362 (and earlier) and 17.012.30249 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35678](https://github.com/Live-Hack-CVE/CVE-2022-35678)
 
 ### CVE-2022-35714 (2022-08-26)
 
@@ -7216,6 +7566,14 @@ Missing authentication for critical function vulnerability in UNIMO Technology d
 
 - [Live-Hack-CVE/CVE-2022-35733](https://github.com/Live-Hack-CVE/CVE-2022-35733)
 
+### CVE-2022-35734 (2022-08-16)
+
+<code>
+'Hulu / フールー' App for Android from version 3.0.47 to the version prior to 3.1.2 uses a hard-coded API key for an external service. By exploiting this vulnerability, API key for an external service may be obtained by analyzing data in the app.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35734](https://github.com/Live-Hack-CVE/CVE-2022-35734)
+
 ### CVE-2022-35796 (2022-08-09)
 
 <code>
@@ -7224,53 +7582,69 @@ Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability.
 
 - [Live-Hack-CVE/CVE-2022-35796](https://github.com/Live-Hack-CVE/CVE-2022-35796)
 
-### CVE-2022-35847 (2022-09-06)
+### CVE-2022-35909 (2022-08-19)
 
 <code>
-An improper neutralization of special elements used in a template engine vulnerability [CWE-1336] in FortiSOAR management interface 7.2.0, 7.0.0 through 7.0.3, 6.4.0 through 6.4.4 may allow a remote and authenticated attacker to execute arbitrary code via a crafted payload.
+In Jellyfin before 10.8, the /users endpoint has incorrect access control for admin functionality.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-35847](https://github.com/Live-Hack-CVE/CVE-2022-35847)
+- [Live-Hack-CVE/CVE-2022-35909](https://github.com/Live-Hack-CVE/CVE-2022-35909)
 
-### CVE-2022-35911 (2022-07-27)
+### CVE-2022-35910 (2022-08-19)
 
 <code>
-** DISPUTED ** On Patlite NH-FB series devices through 1.46, remote attackers can cause a denial of service by omitting the query string. NOTE: the vendor's perspective is that &quot;omitting the query string does not cause a denial of service and the indicated event can not be reproduced.&quot;
+In Jellyfin before 10.8, stored XSS allows theft of an admin access token.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-35911](https://github.com/Live-Hack-CVE/CVE-2022-35911)
+- [Live-Hack-CVE/CVE-2022-35910](https://github.com/Live-Hack-CVE/CVE-2022-35910)
 
-### CVE-2022-35931 (2022-09-06)
+### CVE-2022-35942 (2022-08-12)
 
 <code>
-Nextcloud Password Policy is an app that enables a Nextcloud server admin to define certain rules for passwords. Prior to versions 22.2.10, 23.0.7, and 24.0.3 the random password generator may, in very rare cases, generate common passwords that the validator itself would block. Upgrade Nextcloud Server to 22.2.10, 23.0.7 or 24.0.3 to receive a patch for the issue in Password Policy. There are no known workarounds available.
+Improper input validation on the `contains` LoopBack filter may allow for arbitrary SQL injection. When the extended filter property `contains` is permitted to be interpreted by the Postgres connector, it is possible to inject arbitrary SQL which may affect the confidentiality and integrity of data stored on the connected database. A patch was released in version 5.5.1. This affects users who does any of the following: - Connect to the database via the DataSource with `allowExtendedProperties: true` setting OR - Uses the connector's CRUD methods directly OR - Uses the connector's other methods to interpret the LoopBack filter. Users who are unable to upgrade should do the following if applicable: - Remove `allowExtendedProperties: true` DataSource setting - Add `allowExtendedProperties: false` DataSource setting - When passing directly to the connector functions, manually sanitize the user input for the `contains` LoopBack filter beforehand.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-35931](https://github.com/Live-Hack-CVE/CVE-2022-35931)
+- [Live-Hack-CVE/CVE-2022-35942](https://github.com/Live-Hack-CVE/CVE-2022-35942)
 
-### CVE-2022-35933 (2022-09-02)
+### CVE-2022-35943 (2022-08-12)
 
 <code>
-This package is a PrestaShop module that allows users to post reviews and rate products. There is a vulnerability where the attacker could steal an administrator's cookie. The issue is fixed in version 5.0.2.
+Shield is an authentication and authorization framework for CodeIgniter 4. This vulnerability may allow [SameSite Attackers](https://canitakeyoursubdomain.name/) to bypass the [CodeIgniter4 CSRF protection](https://codeigniter4.github.io/userguide/libraries/security.html) mechanism with CodeIgniter Shield. For this attack to succeed, the attacker must have direct (or indirect, e.g., XSS) control over a subdomain site (e.g., `https://a.example.com/`) of the target site (e.g., `http://example.com/`). Upgrade to **CodeIgniter v4.2.3 or later** and **Shield v1.0.0-beta.2 or later**. As a workaround: set `Config\Security::$csrfProtection` to `'session,'`remove old session data right after login (immediately after ID and password match) and regenerate CSRF token right after login (immediately after ID and password match)
 </code>
 
-- [Live-Hack-CVE/CVE-2022-35933](https://github.com/Live-Hack-CVE/CVE-2022-35933)
+- [Live-Hack-CVE/CVE-2022-35943](https://github.com/Live-Hack-CVE/CVE-2022-35943)
 
-### CVE-2022-35948 (2022-08-13)
+### CVE-2022-35949 (2022-08-12)
 
 <code>
-undici is an HTTP/1.1 client, written from scratch for Node.js.`=&lt; undici@5.8.0` users are vulnerable to _CRLF Injection_ on headers when using unsanitized input as request headers, more specifically, inside the `content-type` header. Example: ``` import { request } from 'undici' const unsanitizedContentTypeInput = 'application/json\r\n\r\nGET /foo2 HTTP/1.1' await request('http://localhost:3000, { method: 'GET', headers: { 'content-type': unsanitizedContentTypeInput }, }) ``` The above snippet will perform two requests in a single `request` API call: 1) `http://localhost:3000/` 2) `http://localhost:3000/foo2` This issue was patched in Undici v5.8.1. Sanitize input when sending content-type headers using user input as a workaround.
+undici is an HTTP/1.1 client, written from scratch for Node.js.`undici` is vulnerable to SSRF (Server-side Request Forgery) when an application takes in **user input** into the `path/pathname` option of `undici.request`. If a user specifies a URL such as `http://127.0.0.1` or `//127.0.0.1` ```js const undici = require(&quot;undici&quot;) undici.request({origin: &quot;http://example.com&quot;, pathname: &quot;//127.0.0.1&quot;}) ``` Instead of processing the request as `http://example.org//127.0.0.1` (or `http://example.org/http://127.0.0.1` when `http://127.0.0.1 is used`), it actually processes the request as `http://127.0.0.1/` and sends it to `http://127.0.0.1`. If a developer passes in user input into `path` parameter of `undici.request`, it can result in an _SSRF_ as they will assume that the hostname cannot change, when in actual fact it can change because the specified path parameter is combined with the base URL. This issue was fixed in `undici@5.8.1`. The best workaround is to validate user input before passing it to the `undici.request` call.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-35948](https://github.com/Live-Hack-CVE/CVE-2022-35948)
+- [Live-Hack-CVE/CVE-2022-35949](https://github.com/Live-Hack-CVE/CVE-2022-35949)
 
-### CVE-2022-35962 (2022-08-29)
+### CVE-2022-35953 (2022-08-12)
 
 <code>
-Zulip is an open source team chat and Zulip Mobile is an app for iOS and Andriod users. In Zulip Mobile through version 27.189, a crafted link in a message sent by an authenticated user could lead to credential disclosure if a user follows the link. A patch was released in version 27.190.
+BookWyrm is a social network for tracking your reading, talking about books, writing reviews, and discovering what to read next. Some links in BookWyrm may be vulnerable to tabnabbing, a form of phishing that gives attackers an opportunity to redirect a user to a malicious site. The issue was patched in version 0.4.5.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-35962](https://github.com/Live-Hack-CVE/CVE-2022-35962)
+- [Live-Hack-CVE/CVE-2022-35953](https://github.com/Live-Hack-CVE/CVE-2022-35953)
+
+### CVE-2022-35954 (2022-08-13)
+
+<code>
+The GitHub Actions ToolKit provides a set of packages to make creating actions easier. The `core.exportVariable` function uses a well known delimiter that attackers can use to break out of that specific variable and assign values to other arbitrary variables. Workflows that write untrusted values to the `GITHUB_ENV` file may cause the path or other environment variables to be modified without the intention of the workflow or action author. Users should upgrade to `@actions/core v1.9.1`. If you are unable to upgrade the `@actions/core` package, you can modify your action to ensure that any user input does not contain the delimiter `_GitHubActionsFileCommandDelimeter_` before calling `core.exportVariable`.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35954](https://github.com/Live-Hack-CVE/CVE-2022-35954)
+
+### CVE-2022-35956 (2022-08-12)
+
+<code>
+This Rails gem adds two methods to the ActiveRecord::Base class that allow you to update many records on a single database hit, using a case sql statement for it. Before version 0.1.3 `update_by_case` gem used custom sql strings, and it was not sanitized, making it vulnerable to sql injection. Upgrade to version &gt;= 0.1.3 that uses `Arel` instead to construct the resulting sql statement, with sanitized sql.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35956](https://github.com/Live-Hack-CVE/CVE-2022-35956)
 
 ### CVE-2022-35975 (2022-08-18)
 
@@ -7288,6 +7662,38 @@ The GitOps Tools Extension for VSCode relies on kubeconfigs in order to communic
 
 - [Live-Hack-CVE/CVE-2022-35976](https://github.com/Live-Hack-CVE/CVE-2022-35976)
 
+### CVE-2022-35978 (2022-08-15)
+
+<code>
+Minetest is a free open-source voxel game engine with easy modding and game creation. In **single player**, a mod can set a global setting that controls the Lua script loaded to display the main menu. The script is then loaded as soon as the game session is exited. The Lua environment the menu runs in is not sandboxed and can directly interfere with the user's system. There are currently no known workarounds.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35978](https://github.com/Live-Hack-CVE/CVE-2022-35978)
+
+### CVE-2022-35980 (2022-08-12)
+
+<code>
+OpenSearch Security is a plugin for OpenSearch that offers encryption, authentication and authorization. Versions 2.0.0.0 and 2.1.0.0 of the security plugin are affected by an information disclosure vulnerability. Requests to an OpenSearch cluster configured with advanced access control features document level security (DLS), field level security (FLS), and/or field masking will not be filtered when the query's search pattern matches an aliased index. OpenSearch Dashboards creates an alias to `.kibana` by default, so filters with the index pattern of `*` to restrict access to documents or fields will not be applied. This issue allows requests to access sensitive information when customer have acted to restrict access that specific information. OpenSearch 2.2.0, which is compatible with OpenSearch Security 2.2.0.0, contains the fix for this issue. There is no recommended work around.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-35980](https://github.com/Live-Hack-CVE/CVE-2022-35980)
+
+### CVE-2022-36006 (2022-08-13)
+
+<code>
+Arvados is an open source platform for managing, processing, and sharing genomic and other large scientific and biomedical data. A remote code execution (RCE) vulnerability in the Arvados Workbench allows authenticated attackers to execute arbitrary code via specially crafted JSON payloads. This exists in all versions up to 2.4.1 and is fixed in 2.4.2. This vulnerability is specific to the Ruby on Rails Workbench application (“Workbench 1”). We do not believe any other Arvados components, including the TypesScript browser-based Workbench application (“Workbench 2”) or API Server, are vulnerable to this attack. For versions of Arvados earlier than 2.4.2: remove the Ruby-based &quot;Workbench 1&quot; app (&quot;apt-get remove arvados-workbench&quot;) from your installation as a workaround.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36006](https://github.com/Live-Hack-CVE/CVE-2022-36006)
+
+### CVE-2022-36007 (2022-08-13)
+
+<code>
+Venice is a Clojure inspired sandboxed Lisp dialect with excellent Java interoperability. A partial path traversal issue exists within the functions `load-file` and `load-resource`. These functions can be limited to load files from a list of load paths. Assuming Venice has been configured with the load paths: `[ &quot;/Users/foo/resources&quot; ]` When passing **relative** paths to these two vulnerable functions everything is fine: `(load-resource &quot;test.png&quot;)` =&gt; loads the file &quot;/Users/foo/resources/test.png&quot; `(load-resource &quot;../resources-alt/test.png&quot;)` =&gt; rejected, outside the load path When passing **absolute** paths to these two vulnerable functions Venice may return files outside the configured load paths: `(load-resource &quot;/Users/foo/resources/test.png&quot;)` =&gt; loads the file &quot;/Users/foo/resources/test.png&quot; `(load-resource &quot;/Users/foo/resources-alt/test.png&quot;)` =&gt; loads the file &quot;/Users/foo/resources-alt/test.png&quot; !!! The latter call suffers from the _Partial Path Traversal_ vulnerability. This issue’s scope is limited to absolute paths whose name prefix matches a load path. E.g. for a load-path `&quot;/Users/foo/resources&quot;`, the actor can cause loading a resource also from `&quot;/Users/foo/resources-alt&quot;`, but not from `&quot;/Users/foo/images&quot;`. Versions of Venice before and including v1.10.17 are affected by this issue. Upgrade to Venice &gt;= 1.10.18, if you are on a version &lt; 1.10.18. There are currently no known workarounds.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36007](https://github.com/Live-Hack-CVE/CVE-2022-36007)
+
 ### CVE-2022-36008 (2022-08-19)
 
 <code>
@@ -7303,6 +7709,14 @@ gomatrixserverlib is a Go library for matrix protocol federation. Dendrite is a 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-36009](https://github.com/Live-Hack-CVE/CVE-2022-36009)
+
+### CVE-2022-36010 (2022-08-15)
+
+<code>
+This library allows strings to be parsed as functions and stored as a specialized component, [`JsonFunctionValue`](https://github.com/oxyno-zeta/react-editable-json-tree/blob/09a0ca97835b0834ad054563e2fddc6f22bc5d8c/src/components/JsonFunctionValue.js). To do this, Javascript's [`eval`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) function is used to execute strings that begin with &quot;function&quot; as Javascript. This unfortunately could allow arbitrary code to be executed if it exists as a value within the JSON structure being displayed. Given that this component may often be used to display data from arbitrary, untrusted sources, this is extremely dangerous. One important note is that users who have defined a custom [`onSubmitValueParser`](https://github.com/oxyno-zeta/react-editable-json-tree/tree/09a0ca97835b0834ad054563e2fddc6f22bc5d8c#onsubmitvalueparser) callback prop on the [`JsonTree`](https://github.com/oxyno-zeta/react-editable-json-tree/blob/09a0ca97835b0834ad054563e2fddc6f22bc5d8c/src/JsonTree.js) component should be ***unaffected***. This vulnerability exists in the default `onSubmitValueParser` prop which calls [`parse`](https://github.com/oxyno-zeta/react-editable-json-tree/blob/master/src/utils/parse.js#L30). Prop is added to `JsonTree` called `allowFunctionEvaluation`. This prop will be set to `true` in v2.2.2, which allows upgrade without losing backwards-compatibility. In v2.2.2, we switched from using `eval` to using [`Function`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) to construct anonymous functions. This is better than `eval` for the following reasons: - Arbitrary code should not be able to execute immediately, since the `Function` constructor explicitly *only creates* anonymous functions - Functions are created without local closures, so they only have access to the global scope If you use: - **Version `&lt;2.2.2`**, you must upgrade as soon as possible. - **Version `^2.2.2`**, you must explicitly set `JsonTree`'s `allowFunctionEvaluation` prop to `false` to fully mitigate this vulnerability. - **Version `&gt;=3.0.0`**, `allowFunctionEvaluation` is already set to `false` by default, so no further steps are necessary.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36010](https://github.com/Live-Hack-CVE/CVE-2022-36010)
 
 ### CVE-2022-36030 (2022-08-19)
 
@@ -7320,165 +7734,13 @@ Directus is a free and open-source data platform for headless content management
 
 - [Live-Hack-CVE/CVE-2022-36031](https://github.com/Live-Hack-CVE/CVE-2022-36031)
 
-### CVE-2022-36034 (2022-08-29)
+### CVE-2022-36067 (2022-09-06)
 
 <code>
-nitrado.js is a type safe wrapper for the Nitrado API. Possible ReDoS with lib input of `{{` and with many repetitions of `{{|`. This issue has been patched in all versions above `0.2.5`. There are currently no known workarounds.
+vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. In versions prior to version 3.9.11, a threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.11 of vm2. There are no known workarounds.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-36034](https://github.com/Live-Hack-CVE/CVE-2022-36034)
-
-### CVE-2022-36035 (2022-08-31)
-
-<code>
-Flux is a tool for keeping Kubernetes clusters in sync with sources of configuration (like Git repositories), and automating updates to configuration when there is new code to deploy. Flux CLI allows users to deploy Flux components into a Kubernetes cluster via command-line. The vulnerability allows other applications to replace the Flux deployment information with arbitrary content which is deployed into the target Kubernetes cluster instead. The vulnerability is due to the improper handling of user-supplied input, which results in a path traversal that can be controlled by the attacker. Users sharing the same shell between other applications and the Flux CLI commands could be affected by this vulnerability. In some scenarios no errors may be presented, which may cause end users not to realize that something is amiss. A safe workaround is to execute Flux CLI in ephemeral and isolated shell environments, which can ensure no persistent values exist from previous processes. However, upgrading to the latest version of the CLI is still the recommended mitigation strategy.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36035](https://github.com/Live-Hack-CVE/CVE-2022-36035)
-
-### CVE-2022-36036 (2022-08-29)
-
-<code>
-mdx-mermaid provides plug and play access to Mermaid in MDX. There is a potential for an arbitrary javascript injection in versions less than 1.3.0 and 2.0.0-rc1. Modify any mermaid code blocks with arbitrary code and it will execute when the component is loaded by MDXjs. This vulnerability was patched in version(s) 1.3.0 and 2.0.0-rc2. There are currently no known workarounds.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36036](https://github.com/Live-Hack-CVE/CVE-2022-36036)
-
-### CVE-2022-36037 (2022-08-29)
-
-<code>
-kirby is a content management system (CMS) that adapts to many different projects and helps you build your own ideal interface. Cross-site scripting (XSS) is a type of vulnerability that allows execution of any kind of JavaScript code inside the Panel session of the same or other users. In the Panel, a harmful script can for example trigger requests to Kirby's API with the permissions of the victim. If bad actors gain access to your group of authenticated Panel users they can escalate their privileges via the Panel session of an admin user. Depending on your site, other JavaScript-powered attacks are possible. The multiselect field allows selection of tags from an autocompleted list. Unfortunately, the Panel in Kirby 3.5 used HTML rendering for the raw option value. This allowed **attackers with influence on the options source** to store HTML code. The browser of the victim who visited a page with manipulated multiselect options in the Panel will then have rendered this malicious HTML code when the victim opened the autocomplete dropdown. Users are *not* affected by this vulnerability if you don't use the multiselect field or don't use it with options that can be manipulated by attackers. The problem has been patched in Kirby 3.5.8.1.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36037](https://github.com/Live-Hack-CVE/CVE-2022-36037)
-
-### CVE-2022-36045 (2022-08-31)
-
-<code>
-NodeBB Forum Software is powered by Node.js and supports either Redis, MongoDB, or a PostgreSQL database. It utilizes web sockets for instant interactions and real-time notifications. `utils.generateUUID`, a helper function available in essentially all versions of NodeBB (as far back as v1.0.1 and potentially earlier) used a cryptographically insecure Pseudo-random number generator (`Math.random()`), which meant that a specially crafted script combined with multiple invocations of the password reset functionality could enable an attacker to correctly calculate the reset code for an account they do not have access to. This vulnerability impacts all installations of NodeBB. The vulnerability allows for an attacker to take over any account without the involvement of the victim, and as such, the remediation should be applied immediately (either via NodeBB upgrade or cherry-pick of the specific changeset. The vulnerability has been patched in version 2.x and 1.19.x. There is no known workaround, but the patch sets listed above will fully patch the vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36045](https://github.com/Live-Hack-CVE/CVE-2022-36045)
-
-### CVE-2022-36046 (2022-08-31)
-
-<code>
-Next.js is a React framework that can provide building blocks to create web applications. All of the following must be true to be affected by this CVE: Next.js version 12.2.3, Node.js version above v15.0.0 being used with strict `unhandledRejection` exiting AND using next start or a [custom server](https://nextjs.org/docs/advanced-features/custom-server). Deployments on Vercel ([vercel.com](https://vercel.com/)) are not affected along with similar environments where `next-server` isn't being shared across requests.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36046](https://github.com/Live-Hack-CVE/CVE-2022-36046)
-
-### CVE-2022-36048 (2022-08-31)
-
-<code>
-Zulip is an open-source team collaboration tool with topic-based threading that combines email and chat. When displaying messages with embedded remote images, Zulip normally loads the image preview via a go-camo proxy server. However, an attacker who can send messages could include a crafted URL that tricks the server into embedding a remote image reference directly. This could allow the attacker to infer the viewer’s IP address and browser fingerprinting information. This vulnerability is fixed in Zulip Server 5.6. Zulip organizations with image and link previews [disabled](https://zulip.com/help/allow-image-link-previews) are not affected.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36048](https://github.com/Live-Hack-CVE/CVE-2022-36048)
-
-### CVE-2022-36052 (2022-09-01)
-
-<code>
-Contiki-NG is an open-source, cross-platform operating system for Next-Generation IoT devices. The 6LoWPAN implementation in Contiki-NG may cast a UDP header structure at a certain offset in a packet buffer. The code does not check whether the packet buffer is large enough to fit a full UDP header structure from the offset where the casting is made. Hence, it is possible to cause an out-of-bounds read beyond the packet buffer. The problem affects anyone running devices with Contiki-NG versions previous to 4.8, and which may receive 6LoWPAN packets from external parties. The problem has been patched in Contiki-NG version 4.8.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36052](https://github.com/Live-Hack-CVE/CVE-2022-36052)
-
-### CVE-2022-36053 (2022-09-01)
-
-<code>
-Contiki-NG is an open-source, cross-platform operating system for Next-Generation IoT devices. The low-power IPv6 network stack of Contiki-NG has a buffer module (os/net/ipv6/uipbuf.c) that processes IPv6 extension headers in incoming data packets. As part of this processing, the function uipbuf_get_next_header casts a pointer to a uip_ext_hdr structure into the packet buffer at different offsets where extension headers are expected to be found, and then reads from this structure. Because of a lack of bounds checking, the casting can be done so that the structure extends beyond the packet's end. Hence, with a carefully crafted packet, it is possible to cause the Contiki-NG system to read data outside the packet buffer. A patch that fixes the vulnerability is included in Contiki-NG 4.8.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36053](https://github.com/Live-Hack-CVE/CVE-2022-36053)
-
-### CVE-2022-36054 (2022-09-01)
-
-<code>
-Contiki-NG is an open-source, cross-platform operating system for Next-Generation IoT devices. The 6LoWPAN implementation in the Contiki-NG operating system (file os/net/ipv6/sicslowpan.c) contains an input function that processes incoming packets and copies them into a packet buffer. Because of a missing length check in the input function, it is possible to write outside the packet buffer's boundary. The vulnerability can be exploited by anyone who has the possibility to send 6LoWPAN packets to a Contiki-NG system. In particular, the vulnerability is exposed when sending either of two types of 6LoWPAN packets: an unfragmented packet or the first fragment of a fragmented packet. If the packet is sufficiently large, a subsequent memory copy will cause an out-of-bounds write with data supplied by the attacker.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36054](https://github.com/Live-Hack-CVE/CVE-2022-36054)
-
-### CVE-2022-36055 (2022-09-01)
-
-<code>
-Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources. Fuzz testing, provided by the CNCF, identified input to functions in the _strvals_ package that can cause an out of memory panic. The _strvals_ package contains a parser that turns strings in to Go structures. The _strvals_ package converts these strings into structures Go can work with. Some string inputs can cause array data structures to be created causing an out of memory panic. Applications that use the _strvals_ package in the Helm SDK to parse user supplied input can suffer a Denial of Service when that input causes a panic that cannot be recovered from. The Helm Client will panic with input to `--set`, `--set-string`, and other value setting flags that causes an out of memory panic. Helm is not a long running service so the panic will not affect future uses of the Helm client. This issue has been resolved in 3.9.4. SDK users can validate strings supplied by users won't create large arrays causing significant memory usage before passing them to the _strvals_ functions.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36055](https://github.com/Live-Hack-CVE/CVE-2022-36055)
-
-### CVE-2022-36076 (2022-09-02)
-
-<code>
-NodeBB Forum Software is powered by Node.js and supports either Redis, MongoDB, or a PostgreSQL database. Due to an unnecessarily strict conditional in the code handling the first step of the SSO process, the pre-existing logic that added (and later checked) a nonce was inadvertently rendered opt-in instead of opt-out. This re-exposed a vulnerability in that a specially crafted Man-in-the-Middle (MITM) attack could theoretically take over another user account during the single sign-on process. The issue has been fully patched in version 1.17.2.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36076](https://github.com/Live-Hack-CVE/CVE-2022-36076)
-
-### CVE-2022-36115 (2022-08-25)
-
-<code>
-An issue was discovered in Blue Prism Enterprise 6.0 through 7.01. In a misconfigured environment that exposes the Blue Prism Application server, it is possible for an authenticated user to reverse engineer the Blue Prism software and circumvent access controls for unintended functionality. An attacker can abuse the CreateProcessAutosave() method to inject their own functionality into a development process. If (upon a warning) a user decides to recover unsaved work by using the last saved version, the malicious code could enter the workflow. Should the process action stages not be fully reviewed before publishing, this could result in the malicious code being run in a production environment.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36115](https://github.com/Live-Hack-CVE/CVE-2022-36115)
-
-### CVE-2022-36116 (2022-08-25)
-
-<code>
-An issue was discovered in Blue Prism Enterprise 6.0 through 7.01. In a misconfigured environment that exposes the Blue Prism Application server, it is possible for an authenticated user to reverse engineer the Blue Prism software and circumvent access controls for the setValidationInfo administrative function. Removing the validation applied to newly designed processes increases the chance of successfully hiding malicious code that could be executed in a production environment.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36116](https://github.com/Live-Hack-CVE/CVE-2022-36116)
-
-### CVE-2022-36117 (2022-08-25)
-
-<code>
-An issue was discovered in Blue Prism Enterprise 6.0 through 7.01. In a misconfigured environment that exposes the Blue Prism Application server, it is possible for an authenticated user to reverse engineer the Blue Prism software and circumvent access controls for an administrative function. If credential access is configured to be accessible by a machine or the runtime resource security group, using further reverse engineering, an attacker can spoof a known machine and request known encrypted credentials to decrypt later.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36117](https://github.com/Live-Hack-CVE/CVE-2022-36117)
-
-### CVE-2022-36118 (2022-08-25)
-
-<code>
-An issue was discovered in Blue Prism Enterprise 6.0 through 7.01. In a misconfigured environment that exposes the Blue Prism Application server, it is possible for an authenticated user to reverse engineer the Blue Prism software and circumvent access controls for the SetProcessAttributes administrative function. Abusing this function will allow any Blue Prism user to publish, unpublish, or retire processes. Using this function, any logged-in user can change the status of a process, an action allowed only intended for users with the Edit Process permission.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36118](https://github.com/Live-Hack-CVE/CVE-2022-36118)
-
-### CVE-2022-36119 (2022-08-25)
-
-<code>
-An issue was discovered in Blue Prism Enterprise 6.0 through 7.01. In a misconfigured environment that exposes the Blue Prism Application server, it is possible for a domain authenticated user to send a crafted message to the Blue Prism Server and accomplish a remote code execution attack that is possible because of insecure deserialization. Exploitation of this vulnerability allows for code to be executed in the context of the Blue Prism Server service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36119](https://github.com/Live-Hack-CVE/CVE-2022-36119)
-
-### CVE-2022-36120 (2022-08-25)
-
-<code>
-An issue was discovered in Blue Prism Enterprise 6.0 through 7.01. In a misconfigured environment that exposes the Blue Prism Application server, it is possible for an authenticated user to reverse engineer the Blue Prism software and circumvent access controls for the getChartData administrative function. Using a low/no privilege Blue Prism user account, the attacker can alter the server's settings by abusing the getChartData method, allowing the Blue Prism server to execute any MSSQL stored procedure by name.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36120](https://github.com/Live-Hack-CVE/CVE-2022-36120)
-
-### CVE-2022-36121 (2022-08-25)
-
-<code>
-An issue was discovered in Blue Prism Enterprise 6.0 through 7.01. In a misconfigured environment that exposes the Blue Prism Application server, it is possible for an authenticated user to reverse engineer the Blue Prism software and circumvent access controls for the UpdateOfflineHelpData administrative function. Abusing this function will allow any Blue Prism user to change the offline help URL to one of their choice, opening the possibility of spoofing the help page or executing a local file.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36121](https://github.com/Live-Hack-CVE/CVE-2022-36121)
-
-### CVE-2022-36123 (2022-07-29)
-
-<code>
-The Linux kernel before 5.18.13 lacks a certain clear operation for the block starting symbol (.bss). This allows Xen PV guest OS users to cause a denial of service or gain privileges.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36123](https://github.com/Live-Hack-CVE/CVE-2022-36123)
+- [Prathamrajgor/Exploit-For-CVE-2022-36067](https://github.com/Prathamrajgor/Exploit-For-CVE-2022-36067)
 
 ### CVE-2022-36129 (2022-07-26)
 
@@ -7487,6 +7749,126 @@ HashiCorp Vault Enterprise 1.7.0 through 1.9.7, 1.10.4, and 1.11.0 clusters usin
 </code>
 
 - [Live-Hack-CVE/CVE-2022-36129](https://github.com/Live-Hack-CVE/CVE-2022-36129)
+
+### CVE-2022-36139 (2022-08-16)
+
+<code>
+SWFMill commit 53d7690 was discovered to contain a heap-buffer overflow via SWF::Writer::writeByte(unsigned char).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36139](https://github.com/Live-Hack-CVE/CVE-2022-36139)
+
+### CVE-2022-36140 (2022-08-16)
+
+<code>
+SWFMill commit 53d7690 was discovered to contain a segmentation violation via SWF::DeclareFunction2::write(SWF::Writer*, SWF::Context*).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36140](https://github.com/Live-Hack-CVE/CVE-2022-36140)
+
+### CVE-2022-36141 (2022-08-16)
+
+<code>
+SWFMill commit 53d7690 was discovered to contain a segmentation violation via SWF::MethodBody::write(SWF::Writer*, SWF::Context*).
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36141](https://github.com/Live-Hack-CVE/CVE-2022-36141)
+
+### CVE-2022-36142 (2022-08-16)
+
+<code>
+SWFMill commit 53d7690 was discovered to contain a heap-buffer overflow via SWF::Reader::getU30().
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36142](https://github.com/Live-Hack-CVE/CVE-2022-36142)
+
+### CVE-2022-36143 (2022-08-16)
+
+<code>
+SWFMill commit 53d7690 was discovered to contain a heap-buffer overflow via __interceptor_strlen.part at /sanitizer_common/sanitizer_common_interceptors.inc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36143](https://github.com/Live-Hack-CVE/CVE-2022-36143)
+
+### CVE-2022-36144 (2022-08-16)
+
+<code>
+SWFMill commit 53d7690 was discovered to contain a heap-buffer overflow via base64_encode.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36144](https://github.com/Live-Hack-CVE/CVE-2022-36144)
+
+### CVE-2022-36145 (2022-08-16)
+
+<code>
+SWFMill commit 53d7690 was discovered to contain a segmentation violation via SWF::Reader::getWord().
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36145](https://github.com/Live-Hack-CVE/CVE-2022-36145)
+
+### CVE-2022-36146 (2022-08-16)
+
+<code>
+SWFMill commit 53d7690 was discovered to contain a memory allocation issue via operator new[](unsigned long) at asan_new_delete.cpp.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36146](https://github.com/Live-Hack-CVE/CVE-2022-36146)
+
+### CVE-2022-36148 (2022-08-16)
+
+<code>
+fdkaac commit 53fe239 was discovered to contain a floating point exception (FPE) via wav_open at /src/wav_reader.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36148](https://github.com/Live-Hack-CVE/CVE-2022-36148)
+
+### CVE-2022-36149 (2022-08-16)
+
+<code>
+tifig v0.2.2 was discovered to contain a heap-use-after-free via temInfoEntry().
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36149](https://github.com/Live-Hack-CVE/CVE-2022-36149)
+
+### CVE-2022-36150 (2022-08-16)
+
+<code>
+tifig v0.2.2 was discovered to contain a heap-buffer overflow via __asan_memmove at /asan/asan_interceptors_memintrinsics.cpp.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36150](https://github.com/Live-Hack-CVE/CVE-2022-36150)
+
+### CVE-2022-36151 (2022-08-16)
+
+<code>
+tifig v0.2.2 was discovered to contain a segmentation violation via getType() at /common/bbox.cpp.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36151](https://github.com/Live-Hack-CVE/CVE-2022-36151)
+
+### CVE-2022-36152 (2022-08-16)
+
+<code>
+tifig v0.2.2 was discovered to contain a memory leak via operator new[](unsigned long) at /asan/asan_new_delete.cpp.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36152](https://github.com/Live-Hack-CVE/CVE-2022-36152)
+
+### CVE-2022-36153 (2022-08-16)
+
+<code>
+tifig v0.2.2 was discovered to contain a segmentation violation via std::vector&lt;unsigned int, std::allocator&lt;unsigned int&gt; &gt;::size() const at /bits/stl_vector.h.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36153](https://github.com/Live-Hack-CVE/CVE-2022-36153)
+
+### CVE-2022-36155 (2022-08-16)
+
+<code>
+tifig v0.2.2 was discovered to contain a resource allocation issue via operator new(unsigned long) at asan_new_delete.cpp.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36155](https://github.com/Live-Hack-CVE/CVE-2022-36155)
 
 ### CVE-2022-36157 (2022-08-19)
 
@@ -7520,13 +7902,29 @@ MapGIS IGServer 10.5.6.11 is vulnerable to Arbitrary file deletion.
 
 - [Live-Hack-CVE/CVE-2022-36171](https://github.com/Live-Hack-CVE/CVE-2022-36171)
 
-### CVE-2022-36194 (2022-08-29)
+### CVE-2022-36186 (2022-08-17)
 
 <code>
-Centreon 22.04.0 is vulnerable to Cross Site Scripting (XSS) from the function Pollers &gt; Broker Configuration by adding a crafted payload into the name parameter.
+A Null Pointer dereference vulnerability exists in GPAC 2.1-DEV-revUNKNOWN-master via the function gf_filter_pid_set_property_full () at filter_core/filter_pid.c:5250,which causes a Denial of Service (DoS). This vulnerability was fixed in commit b43f9d1.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-36194](https://github.com/Live-Hack-CVE/CVE-2022-36194)
+- [Live-Hack-CVE/CVE-2022-36186](https://github.com/Live-Hack-CVE/CVE-2022-36186)
+
+### CVE-2022-36190 (2022-08-17)
+
+<code>
+GPAC mp4box 2.1-DEV-revUNKNOWN-master has a use-after-free vulnerability in function gf_isom_dovi_config_get. This vulnerability was fixed in commit fef6242.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36190](https://github.com/Live-Hack-CVE/CVE-2022-36190)
+
+### CVE-2022-36191 (2022-08-17)
+
+<code>
+A heap-buffer-overflow had occurred in function gf_isom_dovi_config_get of isomedia/avc_ext.c:2490, as demonstrated by MP4Box. This vulnerability was fixed in commit fef6242.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36191](https://github.com/Live-Hack-CVE/CVE-2022-36191)
 
 ### CVE-2022-36198 (2022-08-21)
 
@@ -7536,29 +7934,21 @@ Multiple SQL injections detected in Bus Pass Management System 1.0 via buspassms
 
 - [Live-Hack-CVE/CVE-2022-36198](https://github.com/Live-Hack-CVE/CVE-2022-36198)
 
-### CVE-2022-36200 (2022-08-29)
+### CVE-2022-36215 (2022-08-17)
 
 <code>
-In FiberHome VDSL2 Modem HG150-Ub_V3.0, Credentials of Admin are submitted in URL, which can be logged/sniffed.
+DedeBIZ v6 was discovered to contain a remote code execution vulnerability in sys_info.php.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-36200](https://github.com/Live-Hack-CVE/CVE-2022-36200)
+- [Live-Hack-CVE/CVE-2022-36215](https://github.com/Live-Hack-CVE/CVE-2022-36215)
 
-### CVE-2022-36202 (2022-08-31)
+### CVE-2022-36216 (2022-08-17)
 
 <code>
-Doctor's Appointment System1.0 is vulnerable to Incorrect Access Control via edoc/patient/settings.php. The settings.php is affected by Broken Access Control (IDOR) via id= parameter.
+DedeCMS v5.7.94 - v5.7.97 was discovered to contain a remote code execution vulnerability in member_toadmin.php.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-36202](https://github.com/Live-Hack-CVE/CVE-2022-36202)
-
-### CVE-2022-36203 (2022-08-31)
-
-<code>
-Doctor's Appointment System 1.0 is vulnerable to Cross Site Scripting (XSS) via the admin panel. In addition, it leads to takeover the administrator account by stealing the cookie via XSS.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36203](https://github.com/Live-Hack-CVE/CVE-2022-36203)
+- [Live-Hack-CVE/CVE-2022-36216](https://github.com/Live-Hack-CVE/CVE-2022-36216)
 
 ### CVE-2022-36220 (2022-08-19)
 
@@ -7592,6 +7982,22 @@ SiteServerCMS 5.X has a Remote-download-Getshell-vulnerability via /SiteServer/A
 
 - [Live-Hack-CVE/CVE-2022-36226](https://github.com/Live-Hack-CVE/CVE-2022-36226)
 
+### CVE-2022-36233 (2022-08-19)
+
+<code>
+Tenda AC9 V15.03.2.13 is vulnerable to Buffer Overflow via httpd, form_fast_setting_wifi_set. httpd.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36233](https://github.com/Live-Hack-CVE/CVE-2022-36233)
+
+### CVE-2022-36242 (2022-08-16)
+
+<code>
+Clinic's Patient Management System v1.0 is vulnerable to SQL Injection via /pms/update_medicine.php?id=.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36242](https://github.com/Live-Hack-CVE/CVE-2022-36242)
+
 ### CVE-2022-36251 (2022-08-21)
 
 <code>
@@ -7615,6 +8021,22 @@ StreamLabs Desktop Application 1.9.0 is vulnerable to Incorrect Access Control v
 </code>
 
 - [Live-Hack-CVE/CVE-2022-36263](https://github.com/Live-Hack-CVE/CVE-2022-36263)
+
+### CVE-2022-36272 (2022-08-16)
+
+<code>
+Mingsoft MCMS 5.2.8 was discovered to contain a SQL injection vulnerability in /mdiy/page/verify URI via fieldName parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36272](https://github.com/Live-Hack-CVE/CVE-2022-36272)
+
+### CVE-2022-36273 (2022-08-16)
+
+<code>
+Tenda AC9 V15.03.2.21_cn is vulnerable to command injection via goform/SetSysTimeCfg.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36273](https://github.com/Live-Hack-CVE/CVE-2022-36273)
 
 ### CVE-2022-36282 (2022-08-23)
 
@@ -7647,6 +8069,70 @@ Cross-Site Request Forgery (CSRF) vulnerabilities in WPChill Gallery PhotoBlocks
 </code>
 
 - [Live-Hack-CVE/CVE-2022-36292](https://github.com/Live-Hack-CVE/CVE-2022-36292)
+
+### CVE-2022-36293 (2022-08-16)
+
+<code>
+Buffer overflow vulnerability in Nintendo Wi-Fi Network Adaptor WAP-001 All versions allows an attacker with an administrative privilege to execute arbitrary code via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36293](https://github.com/Live-Hack-CVE/CVE-2022-36293)
+
+### CVE-2022-36306 (2022-08-15)
+
+<code>
+An authenticated attacker can enumerate and download sensitive files, including the eNodeB's web management UI's TLS private key, the web server binary, and the web server configuration file. These vulnerabilities were found in AirVelocity 1500 running software version 9.3.0.01249, were still present in 15.18.00.2511, and may affect other AirVelocity and AirSpeed models.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36306](https://github.com/Live-Hack-CVE/CVE-2022-36306)
+
+### CVE-2022-36307 (2022-08-15)
+
+<code>
+The AirVelocity 1500 prints SNMP credentials on its physically accessible serial port during boot. This was fixed in AirVelocity 1500 software version 15.18.00.2511 and may affect other AirVelocity and AirSpeed models.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36307](https://github.com/Live-Hack-CVE/CVE-2022-36307)
+
+### CVE-2022-36308 (2022-08-15)
+
+<code>
+Airspan AirVelocity 1500 web management UI displays SNMP credentials in plaintext on software versions older than 15.18.00.2511, and stores SNMPv3 credentials unhashed on the filesystem, enabling anyone with web access to use these credentials to manipulate the eNodeB over SNMP. This issue may affect other AirVelocity and AirSpeed models.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36308](https://github.com/Live-Hack-CVE/CVE-2022-36308)
+
+### CVE-2022-36309 (2022-08-15)
+
+<code>
+Airspan AirVelocity 1500 software versions prior to 15.18.00.2511 have a root command injection vulnerability in the ActiveBank parameter of the recoverySubmit.cgi script running on the eNodeB's web management UI. This issue may affect other AirVelocity and AirSpeed models.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36309](https://github.com/Live-Hack-CVE/CVE-2022-36309)
+
+### CVE-2022-36310 (2022-08-15)
+
+<code>
+Airspan AirVelocity 1500 software prior to version 15.18.00.2511 had NET-SNMP-EXTEND-MIB enabled on its snmpd service, enabling an attacker with SNMP write abilities to execute commands as root on the eNodeB. This issue may affect other AirVelocity and AirSpeed models.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36310](https://github.com/Live-Hack-CVE/CVE-2022-36310)
+
+### CVE-2022-36311 (2022-08-15)
+
+<code>
+Airspan AirVelocity 1500 prior to software version 15.18.00.2511 is vulnerable to injection leading to XSS in the SNMP community field in the eNodeB's web management UI. This issue may affect other AirVelocity and AirSpeed models.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36311](https://github.com/Live-Hack-CVE/CVE-2022-36311)
+
+### CVE-2022-36312 (2022-08-15)
+
+<code>
+Airspan AirVelocity 1500 software version 15.18.00.2511 lacks CSRF protections in the eNodeB's web management UI. This issue may affect other AirVelocity and AirSpeed models.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36312](https://github.com/Live-Hack-CVE/CVE-2022-36312)
 
 ### CVE-2022-36341 (2022-08-23)
 
@@ -7688,14 +8174,6 @@ Stored cross-site scripting vulnerability in PukiWiki versions 1.3.1 to 1.5.3 al
 
 - [Live-Hack-CVE/CVE-2022-36350](https://github.com/Live-Hack-CVE/CVE-2022-36350)
 
-### CVE-2022-36355 (2022-09-01)
-
-<code>
-Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in PluginlySpeaking Easy Org Chart plugin &lt;= 3.1 at WordPress.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36355](https://github.com/Live-Hack-CVE/CVE-2022-36355)
-
 ### CVE-2022-36358 (2022-08-25)
 
 <code>
@@ -7703,14 +8181,6 @@ Cross-Site Request Forgery (CSRF) vulnerability in SEO Scout plugin &lt;= 0.9.83
 </code>
 
 - [Live-Hack-CVE/CVE-2022-36358](https://github.com/Live-Hack-CVE/CVE-2022-36358)
-
-### CVE-2022-36373 (2022-09-01)
-
-<code>
-Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in Simon Ward MP3 jPlayer plugin &lt;= 2.7.3 at WordPress.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36373](https://github.com/Live-Hack-CVE/CVE-2022-36373)
 
 ### CVE-2022-36379 (2022-08-23)
 
@@ -7720,13 +8190,13 @@ Cross-Site Request Forgery (CSRF) leading to plugin settings update in YooMoney 
 
 - [Live-Hack-CVE/CVE-2022-36379](https://github.com/Live-Hack-CVE/CVE-2022-36379)
 
-### CVE-2022-36387 (2022-09-06)
+### CVE-2022-36381 (2022-08-16)
 
 <code>
-Broken Access Control vulnerability in Alessio Caiazza's About Me plugin &lt;= 1.0.12 at WordPress.
+OS command injection vulnerability in Nintendo Wi-Fi Network Adaptor WAP-001 All versions allows an attacker with an administrative privilege to execute arbitrary OS commands via unspecified vectors.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-36387](https://github.com/Live-Hack-CVE/CVE-2022-36387)
+- [Live-Hack-CVE/CVE-2022-36381](https://github.com/Live-Hack-CVE/CVE-2022-36381)
 
 ### CVE-2022-36389 (2022-08-23)
 
@@ -7751,22 +8221,6 @@ Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-36405](https://github.com/Live-Hack-CVE/CVE-2022-36405)
-
-### CVE-2022-36425 (2022-09-06)
-
-<code>
-Broken Access Control vulnerability in Beaver Builder plugin &lt;= 2.5.4.3 at WordPress.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36425](https://github.com/Live-Hack-CVE/CVE-2022-36425)
-
-### CVE-2022-36427 (2022-09-06)
-
-<code>
-Missing Access Control vulnerability in About Rentals. Inc. About Rentals plugin &lt;= 1.5 at WordPress.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36427](https://github.com/Live-Hack-CVE/CVE-2022-36427)
 
 ### CVE-2022-36455 (2022-08-25)
 
@@ -8280,13 +8734,37 @@ Insecure permissions in cskefu v7.0.1 allows unauthenticated attackers to arbitr
 
 - [Live-Hack-CVE/CVE-2022-36521](https://github.com/Live-Hack-CVE/CVE-2022-36521)
 
-### CVE-2022-36522 (2022-08-26)
+### CVE-2022-36523 (2022-08-15)
 
 <code>
-Mikrotik RouterOs through stable v6.48.3 was discovered to contain an assertion failure in the component /advanced-tools/nova/bin/netwatch. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted packet.
+D-Link Go-RT-AC750 GORTAC750_revA_v101b03 &amp; GO-RT-AC750_revB_FWv200b02 is vulnerable to command injection via /htdocs/upnpinc/gena.php.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-36522](https://github.com/Live-Hack-CVE/CVE-2022-36522)
+- [Live-Hack-CVE/CVE-2022-36523](https://github.com/Live-Hack-CVE/CVE-2022-36523)
+
+### CVE-2022-36524 (2022-08-15)
+
+<code>
+D-Link GO-RT-AC750 GORTAC750_revA_v101b03 &amp; GO-RT-AC750_revB_FWv200b02 is vulnerable to Static Default Credentials via /etc/init0.d/S80telnetd.sh.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36524](https://github.com/Live-Hack-CVE/CVE-2022-36524)
+
+### CVE-2022-36525 (2022-08-15)
+
+<code>
+D-Link Go-RT-AC750 GORTAC750_revA_v101b03 &amp; GO-RT-AC750_revB_FWv200b02 is vulnerable to Buffer Overflow via authenticationcgi_main.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36525](https://github.com/Live-Hack-CVE/CVE-2022-36525)
+
+### CVE-2022-36526 (2022-08-15)
+
+<code>
+D-Link GO-RT-AC750 GORTAC750_revA_v101b03 &amp; GO-RT-AC750_revB_FWv200b02 is vulnerable to Authentication Bypass via function phpcgi_main in cgibin.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36526](https://github.com/Live-Hack-CVE/CVE-2022-36526)
 
 ### CVE-2022-36527 (2022-08-25)
 
@@ -8304,13 +8782,13 @@ Kensite CMS v1.0 was discovered to contain multiple SQL injection vulnerabilitie
 
 - [Live-Hack-CVE/CVE-2022-36529](https://github.com/Live-Hack-CVE/CVE-2022-36529)
 
-### CVE-2022-36537 (2022-08-26)
+### CVE-2022-36530 (2022-08-16)
 
 <code>
-ZK Framework v9.6.1, 9.6.0.1, 9.5.1.3, 9.0.1.2 and 8.6.4.1 allows attackers to access sensitive information via a crafted POST request sent to the component AuUploader.
+An issue was discovered in rageframe2 2.6.37. There is a XSS vulnerability in the user agent related parameters of the info.php page.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-36537](https://github.com/Live-Hack-CVE/CVE-2022-36537)
+- [Live-Hack-CVE/CVE-2022-36530](https://github.com/Live-Hack-CVE/CVE-2022-36530)
 
 ### CVE-2022-36542 (2022-08-26)
 
@@ -8368,158 +8846,6 @@ Edoc-doctor-appointment-system v1.0.1 was discovered to contain a stored cross-s
 
 - [Live-Hack-CVE/CVE-2022-36548](https://github.com/Live-Hack-CVE/CVE-2022-36548)
 
-### CVE-2022-36552 (2022-08-30)
-
-<code>
-Tenda AC6(AC1200) v5.0 Firmware v02.03.01.114 and below contains an issue in the component /cgi-bin/DownloadFlash which allows attackers to steal all data such as source code and system files via a crafted GET request.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36552](https://github.com/Live-Hack-CVE/CVE-2022-36552)
-
-### CVE-2022-36553 (2022-08-29)
-
-<code>
-Hytec Inter HWL-2511-SS v1.05 and below was discovered to contain a command injection vulnerability via the component /www/cgi-bin/popen.cgi.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36553](https://github.com/Live-Hack-CVE/CVE-2022-36553)
-
-### CVE-2022-36554 (2022-08-29)
-
-<code>
-A command injection vulnerability in the CLI (Command Line Interface) implementation of Hytec Inter HWL-2511-SS v1.05 and below allows attackers to execute arbitrary commands with root privileges.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36554](https://github.com/Live-Hack-CVE/CVE-2022-36554)
-
-### CVE-2022-36555 (2022-08-29)
-
-<code>
-Hytec Inter HWL-2511-SS v1.05 and below implements a SHA512crypt hash for the root account which can be easily cracked via a brute-force attack.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36555](https://github.com/Live-Hack-CVE/CVE-2022-36555)
-
-### CVE-2022-36556 (2022-08-29)
-
-<code>
-Seiko SkyBridge MB-A100/A110 v4.2.0 and below was discovered to contain a command injection vulnerability via the ipAddress parameter at 07system08execute_ping_01.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36556](https://github.com/Live-Hack-CVE/CVE-2022-36556)
-
-### CVE-2022-36557 (2022-08-29)
-
-<code>
-Seiko SkyBridge MB-A100/A110 v4.2.0 and below was discovered to contain an arbitrary file upload vulnerability via the restore backup function. This vulnerability allows attackers to execute arbitrary code via a crafted html file.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36557](https://github.com/Live-Hack-CVE/CVE-2022-36557)
-
-### CVE-2022-36558 (2022-08-29)
-
-<code>
-Seiko SkyBridge MB-A100/A110 v4.2.0 and below implements a hard-coded passcode for the root account. Attackers are able to access the passcord via the file /etc/ciel.cfg.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36558](https://github.com/Live-Hack-CVE/CVE-2022-36558)
-
-### CVE-2022-36559 (2022-08-29)
-
-<code>
-Seiko SkyBridge MB-A200 v01.00.04 and below was discovered to contain a command injection vulnerability via the Ping parameter at ping_exec.cgi.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36559](https://github.com/Live-Hack-CVE/CVE-2022-36559)
-
-### CVE-2022-36560 (2022-08-29)
-
-<code>
-Seiko SkyBridge MB-A200 v01.00.04 and below was discovered to contain multiple hard-coded passcodes for root. Attackers are able to access the passcodes at /etc/srapi/config/system.conf and /usr/sbin/ssol-sshd.sh.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36560](https://github.com/Live-Hack-CVE/CVE-2022-36560)
-
-### CVE-2022-36561 (2022-08-30)
-
-<code>
-XPDF v4.0.4 was discovered to contain a segmentation violation via the component /xpdf/AcroForm.cc:538.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36561](https://github.com/Live-Hack-CVE/CVE-2022-36561)
-
-### CVE-2022-36562 (2022-08-30)
-
-<code>
-Incorrect access control in the install directory (C:\Ruby31-x64) of Rubyinstaller2 v3.1.2 and below allows authenticated attackers to execute arbitrary code via overwriting binaries located in the directory.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36562](https://github.com/Live-Hack-CVE/CVE-2022-36562)
-
-### CVE-2022-36563 (2022-08-30)
-
-<code>
-Incorrect access control in the install directory (C:\RailsInstaller) of Rubyinstaller2 v3.1.2 and below allows authenticated attackers to execute arbitrary code via overwriting binaries located in the directory.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36563](https://github.com/Live-Hack-CVE/CVE-2022-36563)
-
-### CVE-2022-36564 (2022-08-30)
-
-<code>
-Incorrect access control in the install directory (C:\Strawberry) of StrawberryPerl v5.32.1.1 and below allows authenticated attackers to execute arbitrary code via overwriting binaries located in the directory.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36564](https://github.com/Live-Hack-CVE/CVE-2022-36564)
-
-### CVE-2022-36565 (2022-08-30)
-
-<code>
-Incorrect access control in the install directory (C:\Wamp64) of Wamp v3.2.6 and below allows authenticated attackers to execute arbitrary code via overwriting binaries located in the directory.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36565](https://github.com/Live-Hack-CVE/CVE-2022-36565)
-
-### CVE-2022-36566 (2022-08-31)
-
-<code>
-Rengine v1.3.0 was discovered to contain a command injection vulnerability via the scan engine function.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36566](https://github.com/Live-Hack-CVE/CVE-2022-36566)
-
-### CVE-2022-36568 (2022-08-31)
-
-<code>
-Tenda AC9 V15.03.05.19 was discovered to contain a stack overflow via the list parameter at /goform/setPptpUserList.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36568](https://github.com/Live-Hack-CVE/CVE-2022-36568)
-
-### CVE-2022-36569 (2022-08-31)
-
-<code>
-Tenda AC9 V15.03.05.19 was discovered to contain a stack overflow via the deviceList parameter at /goform/setMacFilterCfg.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36569](https://github.com/Live-Hack-CVE/CVE-2022-36569)
-
-### CVE-2022-36570 (2022-08-31)
-
-<code>
-Tenda AC9 V15.03.05.19 was discovered to contain a stack overflow via the time parameter at /goform/SetLEDCfg.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36570](https://github.com/Live-Hack-CVE/CVE-2022-36570)
-
-### CVE-2022-36571 (2022-08-31)
-
-<code>
-Tenda AC9 V15.03.05.19 was discovered to contain a stack overflow via the mask parameter at /goform/WanParameterSetting.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36571](https://github.com/Live-Hack-CVE/CVE-2022-36571)
-
 ### CVE-2022-36572 (2022-08-28)
 
 <code>
@@ -8544,6 +8870,14 @@ An issue was discovered in jizhicms v2.3.1. There is a CSRF vulnerability that c
 
 - [Live-Hack-CVE/CVE-2022-36577](https://github.com/Live-Hack-CVE/CVE-2022-36577)
 
+### CVE-2022-36578 (2022-08-19)
+
+<code>
+jizhicms v2.3.1 has SQL injection in the background.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36578](https://github.com/Live-Hack-CVE/CVE-2022-36578)
+
 ### CVE-2022-36579 (2022-08-19)
 
 <code>
@@ -8552,101 +8886,13 @@ Wellcms 2.2.0 is vulnerable to Cross Site Request Forgery (CSRF).
 
 - [Live-Hack-CVE/CVE-2022-36579](https://github.com/Live-Hack-CVE/CVE-2022-36579)
 
-### CVE-2022-36580 (2022-08-31)
+### CVE-2022-36599 (2022-08-16)
 
 <code>
-An arbitrary file upload vulnerability in the component /admin/products/controller.php?action=add of Online Ordering System v2.3.2 allows attackers to execute arbitrary code via a crafted PHP file.
+Mingsoft MCMS 5.2.8 was discovered to contain a SQL injection vulnerability in /mdiy/model/delete URI via models Lists.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-36580](https://github.com/Live-Hack-CVE/CVE-2022-36580)
-
-### CVE-2022-36581 (2022-08-31)
-
-<code>
-Online Ordering System v2.3.2 was discovered to contain a SQL injection vulnerability via the user_email parameter at /admin/login.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36581](https://github.com/Live-Hack-CVE/CVE-2022-36581)
-
-### CVE-2022-36582 (2022-08-31)
-
-<code>
-An arbitrary file upload vulnerability in the component /php_action/createProduct.php of Garage Management System v1.0 allows attackers to execute arbitrary code via a crafted PHP file.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36582](https://github.com/Live-Hack-CVE/CVE-2022-36582)
-
-### CVE-2022-36583 (2022-09-01)
-
-<code>
-DedeCMS V5.7.97 was discovered to contain multiple cross-site scripting (XSS) vulnerabilities at /dede/co_do.php via the dopost, rpok, and aid parameters.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36583](https://github.com/Live-Hack-CVE/CVE-2022-36583)
-
-### CVE-2022-36584 (2022-09-06)
-
-<code>
-In Tenda G3 US_G3V3.0br_V15.11.0.6(7663)_EN_TDE, the getsinglepppuser function has a buffer overflow caused by sscanf.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36584](https://github.com/Live-Hack-CVE/CVE-2022-36584)
-
-### CVE-2022-36593 (2022-09-01)
-
-<code>
-kkFileView v4.0.0 was discovered to contain an arbitrary file deletion vulnerability via the fileName parameter at /controller/FileController.java.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36593](https://github.com/Live-Hack-CVE/CVE-2022-36593)
-
-### CVE-2022-36594 (2022-09-01)
-
-<code>
-Mapper v4.0.0 to v4.2.0 was discovered to contain a SQL injection vulnerability via the ids parameter at the selectByIds function.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36594](https://github.com/Live-Hack-CVE/CVE-2022-36594)
-
-### CVE-2022-36600 (2022-09-02)
-
-<code>
-BlogEngine v3.3.8.0 was discovered to contain a cross-site scripting (XSS) vulnerability in the component /blogengine/api/posts. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Description field.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36600](https://github.com/Live-Hack-CVE/CVE-2022-36600)
-
-### CVE-2022-36601 (2022-09-01)
-
-<code>
-The Eclipse TCF debug interface in JasMiner-X4-Server-20220621-090907 and below is open on port 1534. This issue allows unauthenticated attackers to gain root privileges on the affected device and access sensitive data or execute arbitrary commands.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36601](https://github.com/Live-Hack-CVE/CVE-2022-36601)
-
-### CVE-2022-36602 (2022-09-01)
-
-<code>
-InnoSilicon A10 a10_20200924_120556 was discovered to contain a remote code execution (RCE) vulnerability in the setPlatformAPI function.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36602](https://github.com/Live-Hack-CVE/CVE-2022-36602)
-
-### CVE-2022-36603 (2022-09-01)
-
-<code>
-InnoSilicon T3T+ t2t+_soc_20190911_151433.swu was discovered to contain a remote code execution (RCE) vulnerability in the checkUrl function.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36603](https://github.com/Live-Hack-CVE/CVE-2022-36603)
-
-### CVE-2022-36604 (2022-09-01)
-
-<code>
-An access control issue in Canaan Avalon ASIC Miner 2020.3.30 and below allows unauthenticated attackers to arbitrarily change user passwords via a crafted POST request.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36604](https://github.com/Live-Hack-CVE/CVE-2022-36604)
+- [Live-Hack-CVE/CVE-2022-36599](https://github.com/Live-Hack-CVE/CVE-2022-36599)
 
 ### CVE-2022-36605 (2022-08-19)
 
@@ -8664,142 +8910,6 @@ Ywoa before v6.1 was discovered to contain a SQL injection vulnerability via /oa
 
 - [Live-Hack-CVE/CVE-2022-36606](https://github.com/Live-Hack-CVE/CVE-2022-36606)
 
-### CVE-2022-36609 (2022-09-02)
-
-<code>
-Clinic's Patient Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /pms/update_patient.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36609](https://github.com/Live-Hack-CVE/CVE-2022-36609)
-
-### CVE-2022-36610 (2022-08-28)
-
-<code>
-TOTOLINK A720R V4.1.5cu.532_B20210610 was discovered to contain a hardcoded password for root at /etc/shadow.sample.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36610](https://github.com/Live-Hack-CVE/CVE-2022-36610)
-
-### CVE-2022-36611 (2022-08-28)
-
-<code>
-TOTOLINK A800R V4.1.2cu.5137_B20200730 was discovered to contain a hardcoded password for root at /etc/shadow.sample.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36611](https://github.com/Live-Hack-CVE/CVE-2022-36611)
-
-### CVE-2022-36612 (2022-08-28)
-
-<code>
-TOTOLINK A950RG V4.1.2cu.5204_B20210112 was discovered to contain a hardcoded password for root at /etc/shadow.sample.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36612](https://github.com/Live-Hack-CVE/CVE-2022-36612)
-
-### CVE-2022-36613 (2022-08-28)
-
-<code>
-TOTOLINK N600R V4.3.0cu.7647_B20210106 was discovered to contain a hardcoded password for root at /etc/shadow.sample.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36613](https://github.com/Live-Hack-CVE/CVE-2022-36613)
-
-### CVE-2022-36614 (2022-08-28)
-
-<code>
-TOTOLINK A860R V4.1.2cu.5182_B20201027 was discovered to contain a hardcoded password for root at /etc/shadow.sample.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36614](https://github.com/Live-Hack-CVE/CVE-2022-36614)
-
-### CVE-2022-36615 (2022-08-28)
-
-<code>
-TOTOLINK A3000RU V4.1.2cu.5185_B20201128 was discovered to contain a hardcoded password for root at /etc/shadow.sample.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36615](https://github.com/Live-Hack-CVE/CVE-2022-36615)
-
-### CVE-2022-36616 (2022-08-28)
-
-<code>
-TOTOLINK A810R V4.1.2cu.5182_B20201026 and V5.9c.4050_B20190424 was discovered to contain a hardcoded password for root at /etc/shadow.sample.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36616](https://github.com/Live-Hack-CVE/CVE-2022-36616)
-
-### CVE-2022-36619 (2022-08-31)
-
-<code>
-In D-link DIR-816 A2_v1.10CNB04.img,the network can be reset without authentication via /goform/setMAC.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36619](https://github.com/Live-Hack-CVE/CVE-2022-36619)
-
-### CVE-2022-36621 (2022-09-01)
-
-<code>
-Samsung Electronics mTower v0.3.0 and earlier was discovered to contain a NULL pointer dereference via the function TEE_AllocateTransientObject.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36621](https://github.com/Live-Hack-CVE/CVE-2022-36621)
-
-### CVE-2022-36622 (2022-09-01)
-
-<code>
-Samsung Electronics mTower v0.3.0 and earlier was discovered to contain a NULL pointer dereference via the function TEE_GetObjectInfo1.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36622](https://github.com/Live-Hack-CVE/CVE-2022-36622)
-
-### CVE-2022-36636 (2022-09-02)
-
-<code>
-Garage Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /print.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36636](https://github.com/Live-Hack-CVE/CVE-2022-36636)
-
-### CVE-2022-36637 (2022-09-02)
-
-<code>
-Garage Management System v1.0 was discovered to contain a persistent cross-site scripting (XSS) vulnerability via the brand_name parameter at /brand.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36637](https://github.com/Live-Hack-CVE/CVE-2022-36637)
-
-### CVE-2022-36638 (2022-09-02)
-
-<code>
-An access control issue in the component print.php of Garage Management System v1.0 allows unauthenticated attackers to access data for all existing orders.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36638](https://github.com/Live-Hack-CVE/CVE-2022-36638)
-
-### CVE-2022-36639 (2022-09-02)
-
-<code>
-A stored cross-site scripting (XSS) vulnerability in /client.php of Garage Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36639](https://github.com/Live-Hack-CVE/CVE-2022-36639)
-
-### CVE-2022-36640 (2022-09-02)
-
-<code>
-** DISPUTED ** influxData influxDB before v1.8.10 contains no authentication mechanism or controls, allowing unauthenticated attackers to execute arbitrary commands. NOTE: the CVE ID assignment is disputed because the vendor's documentation states &quot;If InfluxDB is being deployed on a publicly accessible endpoint, we strongly recommend authentication be enabled. Otherwise the data will be publicly available to any unauthenticated user. The default settings do NOT enable authentication and authorization.&quot;
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36640](https://github.com/Live-Hack-CVE/CVE-2022-36640)
-
-### CVE-2022-36647 (2022-09-02)
-
-<code>
-PKUVCL davs2 v1.6.205 was discovered to contain a global buffer overflow via the function parse_sequence_header() at source/common/header.cc:269.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36647](https://github.com/Live-Hack-CVE/CVE-2022-36647)
-
 ### CVE-2022-36657 (2022-08-30)
 
 <code>
@@ -8807,30 +8917,6 @@ Library Management System v1.0 was discovered to contain a cross-site scripting 
 </code>
 
 - [Live-Hack-CVE/CVE-2022-36657](https://github.com/Live-Hack-CVE/CVE-2022-36657)
-
-### CVE-2022-36674 (2022-08-31)
-
-<code>
-Simple Task Scheduling System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /schedules/view_schedule.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36674](https://github.com/Live-Hack-CVE/CVE-2022-36674)
-
-### CVE-2022-36675 (2022-08-31)
-
-<code>
-Simple Task Scheduling System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /schedules/manage_schedule.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36675](https://github.com/Live-Hack-CVE/CVE-2022-36675)
-
-### CVE-2022-36676 (2022-08-31)
-
-<code>
-Simple Task Scheduling System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /categories/view_category.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36676](https://github.com/Live-Hack-CVE/CVE-2022-36676)
 
 ### CVE-2022-36678 (2022-08-26)
 
@@ -9104,6 +9190,46 @@ Library Management System v1.0 was discovered to contain a SQL injection vulnera
 
 - [Live-Hack-CVE/CVE-2022-36721](https://github.com/Live-Hack-CVE/CVE-2022-36721)
 
+### CVE-2022-36722 (2022-08-18)
+
+<code>
+Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the title parameter at /librarian/history.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36722](https://github.com/Live-Hack-CVE/CVE-2022-36722)
+
+### CVE-2022-36725 (2022-08-18)
+
+<code>
+Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the M_Id parameter at /student/dele.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36725](https://github.com/Live-Hack-CVE/CVE-2022-36725)
+
+### CVE-2022-36727 (2022-08-18)
+
+<code>
+Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the bookId parameter at /staff/delete.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36727](https://github.com/Live-Hack-CVE/CVE-2022-36727)
+
+### CVE-2022-36728 (2022-08-18)
+
+<code>
+Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the RollNo parameter at /staff/delstu.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36728](https://github.com/Live-Hack-CVE/CVE-2022-36728)
+
+### CVE-2022-36729 (2022-08-18)
+
+<code>
+Library Management System v1.0 was discovered to contain a SQL injection vulnerability via the M_Id parameter at /librarian/del.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-36729](https://github.com/Live-Hack-CVE/CVE-2022-36729)
+
 ### CVE-2022-36730 (2022-08-30)
 
 <code>
@@ -9168,53 +9294,13 @@ LibreNMS v22.6.0 was discovered to contain a cross-site scripting (XSS) vulnerab
 
 - [Live-Hack-CVE/CVE-2022-36746](https://github.com/Live-Hack-CVE/CVE-2022-36746)
 
-### CVE-2022-36749 (2022-08-30)
+### CVE-2022-36923 (2022-08-10)
 
 <code>
-RPi-Jukebox-RFID v2.3.0 was discovered to contain a command injection vulnerability via the component /htdocs/utils/Files.php. This vulnerability is exploited via a crafted payload injected into the file name of an uploaded file.
+Zoho ManageEngine OpManager, OpManager Plus, OpManager MSP, Network Configuration Manager, NetFlow Analyzer, Firewall Analyzer, and OpUtils before 2022-07-27 through 2022-07-28 (125657, 126002, 126104, and 126118) allow unauthenticated attackers to obtain a user's API key, and then access external APIs.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-36749](https://github.com/Live-Hack-CVE/CVE-2022-36749)
-
-### CVE-2022-36754 (2022-09-02)
-
-<code>
-Expense Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /Home/debit_credit_p.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36754](https://github.com/Live-Hack-CVE/CVE-2022-36754)
-
-### CVE-2022-36755 (2022-08-28)
-
-<code>
-D-Link DIR845L A1 contains a authentication vulnerability via an AUTHORIZED_GROUP=1 value, as demonstrated by a request for getcfg.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36755](https://github.com/Live-Hack-CVE/CVE-2022-36755)
-
-### CVE-2022-36756 (2022-08-28)
-
-<code>
-DIR845L A1 v1.00-v1.03 is vulnerable to command injection via /htdocs/upnpinc/gena.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36756](https://github.com/Live-Hack-CVE/CVE-2022-36756)
-
-### CVE-2022-36759 (2022-09-01)
-
-<code>
-Online Food Ordering System v1.0 was discovered to contain a SQL injection vulnerability via the component /dishes.php?res_id=.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36759](https://github.com/Live-Hack-CVE/CVE-2022-36759)
-
-### CVE-2022-36796 (2022-09-01)
-
-<code>
-Cross-Site Request Forgery (CSRF) vulnerability leading to Stored Cross-Site Scripting (XSS) in CallRail, Inc. CallRail Phone Call Tracking plugin &lt;= 0.4.9 at WordPress.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36796](https://github.com/Live-Hack-CVE/CVE-2022-36796)
+- [Live-Hack-CVE/CVE-2022-36923](https://github.com/Live-Hack-CVE/CVE-2022-36923)
 
 ### CVE-2022-36945 (2022-08-24)
 
@@ -9224,61 +9310,53 @@ The Remote Keyless Entry (RKE) receiving unit on certain Mazda vehicles through 
 
 - [Live-Hack-CVE/CVE-2022-36945](https://github.com/Live-Hack-CVE/CVE-2022-36945)
 
-### CVE-2022-37021 (2022-08-31)
+### CVE-2022-36947 (2022-08-18)
 
 <code>
-Apache Geode versions up to 1.12.5, 1.13.4 and 1.14.0 are vulnerable to a deserialization of untrusted data flaw when using JMX over RMI on Java 8. Any user still on Java 8 who wishes to protect against deserialization attacks involving JMX or RMI should upgrade to Apache Geode 1.15 and Java 11. If upgrading to Java 11 is not possible, then upgrade to Apache Geode 1.15 and specify &quot;--J=-Dgeode.enableGlobalSerialFilter=true&quot; when starting any Locators or Servers. Follow the documentation for details on specifying any user classes that may be serialized/deserialized with the &quot;serializable-object-filter&quot; configuration option. Using a global serial filter will impact performance.
+Unsafe Parsing of a PNG tRNS chunk in FastStone Image Viewer through 7.5 results in a stack buffer overflow.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37021](https://github.com/Live-Hack-CVE/CVE-2022-37021)
+- [Live-Hack-CVE/CVE-2022-36947](https://github.com/Live-Hack-CVE/CVE-2022-36947)
 
-### CVE-2022-37022 (2022-08-31)
+### CVE-2022-37024 (2022-08-09)
 
 <code>
-Apache Geode versions up to 1.12.2 and 1.13.2 are vulnerable to a deserialization of untrusted data flaw when using JMX over RMI on Java 11. Any user wishing to protect against deserialization attacks involving JMX or RMI should upgrade to Apache Geode 1.15. Use of 1.15 on Java 11 will automatically protect JMX over RMI against deserialization attacks. This should have no impact on performance since it only affects JMX/RMI which Gfsh uses to communicate with the JMX Manager which is hosted on a Locator.
+Zoho ManageEngine OpManager, OpManager Plus, OpManager MSP, Network Configuration Manager, NetFlow Analyzer, and OpUtils before 2022-07-29 through 2022-07-30 ( 125658, 126003, 126105, and 126120) allow authenticated users to make database changes that lead to remote code execution.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37022](https://github.com/Live-Hack-CVE/CVE-2022-37022)
+- [Live-Hack-CVE/CVE-2022-37024](https://github.com/Live-Hack-CVE/CVE-2022-37024)
 
-### CVE-2022-37023 (2022-08-31)
+### CVE-2022-37025 (2022-08-18)
 
 <code>
-Apache Geode versions prior to 1.15.0 are vulnerable to a deserialization of untrusted data flaw when using REST API on Java 8 or Java 11. Any user wishing to protect against deserialization attacks involving REST APIs should upgrade to Apache Geode 1.15 and follow the documentation for details on enabling &quot;validate-serializable-objects=true&quot; and specifying any user classes that may be serialized/deserialized with &quot;serializable-object-filter&quot;. Enabling &quot;validate-serializable-objects&quot; may impact performance.
+An improper privilege management vulnerability in McAfee Security Scan Plus (MSS+) before 4.1.262.1 could allow a local user to modify a configuration file and perform a LOLBin (Living off the land) attack. This could result in the user gaining elevated permissions and being able to execute arbitrary code due to lack of an integrity check of the configuration file.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37023](https://github.com/Live-Hack-CVE/CVE-2022-37023)
+- [Live-Hack-CVE/CVE-2022-37025](https://github.com/Live-Hack-CVE/CVE-2022-37025)
 
-### CVE-2022-37053 (2022-08-28)
+### CVE-2022-37041 (2022-08-11)
 
 <code>
-TRENDnet TEW733GR v1.03B01 is vulnerable to Command injection via /htdocs/upnpinc/gena.php.
+An issue was discovered in ProxyServlet.java in the /proxy servlet in Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0. The value of the X-Forwarded-Host header overwrites the value of the Host header in proxied requests. The value of X-Forwarded-Host header is not checked against the whitelist of hosts that ZCS is allowed to proxy to (the zimbraProxyAllowedDomains setting).
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37053](https://github.com/Live-Hack-CVE/CVE-2022-37053)
+- [Live-Hack-CVE/CVE-2022-37041](https://github.com/Live-Hack-CVE/CVE-2022-37041)
 
-### CVE-2022-37055 (2022-08-28)
+### CVE-2022-37043 (2022-08-11)
 
 <code>
-D-Link Go-RT-AC750 GORTAC750_revA_v101b03 and GO-RT-AC750_revB_FWv200b02 are vulnerable to Buffer Overflow via cgibin, hnap_main,
+An issue was discovered in the webmail component in Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0. When using preauth, CSRF tokens are not checked on some POST endpoints. Thus, when an authenticated user views an attacker-controlled page, a request will be sent to the application that appears to be intended. The CSRF token is omitted from the request, but the request still succeeds.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37055](https://github.com/Live-Hack-CVE/CVE-2022-37055)
+- [Live-Hack-CVE/CVE-2022-37043](https://github.com/Live-Hack-CVE/CVE-2022-37043)
 
-### CVE-2022-37056 (2022-08-28)
+### CVE-2022-37044 (2022-08-11)
 
 <code>
-D-Link GO-RT-AC750 GORTAC750_revA_v101b03 and GO-RT-AC750_revB_FWv200b02 is vulnerable to Command Injection via /cgibin, hnap_main,
+In Zimbra Collaboration Suite (ZCS) 8.8.15, the URL at /h/search?action accepts parameters called extra, title, and onload that are partially sanitised and lead to reflected XSS that allows executing arbitrary JavaScript on the victim's machine.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37056](https://github.com/Live-Hack-CVE/CVE-2022-37056)
-
-### CVE-2022-37057 (2022-08-28)
-
-<code>
-D-Link Go-RT-AC750 GORTAC750_revA_v101b03 and GO-RT-AC750_revB_FWv200b02 are vulnerable to Command Injection via cgibin, ssdpcgi_main.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37057](https://github.com/Live-Hack-CVE/CVE-2022-37057)
+- [Live-Hack-CVE/CVE-2022-37044](https://github.com/Live-Hack-CVE/CVE-2022-37044)
 
 ### CVE-2022-37059 (2022-08-29)
 
@@ -9592,46 +9670,6 @@ Bluecms 1.6 has SQL injection in line 132 of admin/area.php
 
 - [Live-Hack-CVE/CVE-2022-37113](https://github.com/Live-Hack-CVE/CVE-2022-37113)
 
-### CVE-2022-37122 (2022-08-31)
-
-<code>
-Carel pCOWeb HVAC BACnet Gateway 2.1.0, Firmware: A2.1.0 - B2.1.0, Application Software: 2.15.4A Software v16 13020200 suffers from an unauthenticated arbitrary file disclosure vulnerability. Input passed through the 'file' GET parameter through the 'logdownload.cgi' Bash script is not properly verified before being used to download log files. This can be exploited to disclose the contents of arbitrary and sensitive files via directory traversal attacks.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37122](https://github.com/Live-Hack-CVE/CVE-2022-37122)
-
-### CVE-2022-37123 (2022-08-31)
-
-<code>
-D-link DIR-816 A2_v1.10CNB04.img is vulnerable to Command injection via /goform/form2userconfig.cgi.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37123](https://github.com/Live-Hack-CVE/CVE-2022-37123)
-
-### CVE-2022-37128 (2022-08-31)
-
-<code>
-In D-Link DIR-816 A2_v1.10CNB04.img the network can be initialized without authentication via /goform/wizard_end.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37128](https://github.com/Live-Hack-CVE/CVE-2022-37128)
-
-### CVE-2022-37129 (2022-08-31)
-
-<code>
-D-Link DIR-816 A2_v1.10CNB04.img is vulnerable to Command Injection via /goform/SystemCommand. After the user passes in the command parameter, it will be spliced into byte_4836B0 by snprintf, and finally doSystem(&amp;byte_4836B0); will be executed, resulting in a command injection.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37129](https://github.com/Live-Hack-CVE/CVE-2022-37129)
-
-### CVE-2022-37130 (2022-08-31)
-
-<code>
-In D-Link DIR-816 A2_v1.10CNB04.img a command injection vulnerability occurs in /goform/Diagnosis, after the condition is met, setnum will be spliced into v10 by snprintf, and the system will be executed, resulting in a command injection vulnerability
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37130](https://github.com/Live-Hack-CVE/CVE-2022-37130)
-
 ### CVE-2022-37133 (2022-08-22)
 
 <code>
@@ -9647,14 +9685,6 @@ D-link DIR-816 A2_v1.10CNB04.img is vulnerable to Buffer Overflow via /goform/fo
 </code>
 
 - [Live-Hack-CVE/CVE-2022-37134](https://github.com/Live-Hack-CVE/CVE-2022-37134)
-
-### CVE-2022-37149 (2022-08-30)
-
-<code>
-WAVLINK WL-WN575A3 RPT75A3.V4300.201217 was discovered to contain a command injection vulnerability when operating the file adm.cgi. This vulnerability allows attackers to execute arbitrary commands via the username parameter.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37149](https://github.com/Live-Hack-CVE/CVE-2022-37149)
 
 ### CVE-2022-37150 (2022-08-26)
 
@@ -9728,22 +9758,6 @@ Claroline 13.5.7 and prior is vulnerable to Cross Site Scripting (XSS). An attac
 
 - [Live-Hack-CVE/CVE-2022-37162](https://github.com/Live-Hack-CVE/CVE-2022-37162)
 
-### CVE-2022-37172 (2022-08-30)
-
-<code>
-Incorrect access control in the install directory (C:\msys64) of Msys2 v20220603 and below allows authenticated attackers to execute arbitrary code via overwriting binaries located in the directory.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37172](https://github.com/Live-Hack-CVE/CVE-2022-37172)
-
-### CVE-2022-37173 (2022-08-30)
-
-<code>
-An issue in the installer of gvim 9.0.0000 allows authenticated attackers to execute arbitrary code via a binary hijacking attack on C:\Program.exe.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37173](https://github.com/Live-Hack-CVE/CVE-2022-37173)
-
 ### CVE-2022-37175 (2022-08-19)
 
 <code>
@@ -9751,14 +9765,6 @@ Tenda ac15 firmware V15.03.05.18 httpd server has stack buffer overflow in /gofo
 </code>
 
 - [Live-Hack-CVE/CVE-2022-37175](https://github.com/Live-Hack-CVE/CVE-2022-37175)
-
-### CVE-2022-37176 (2022-08-30)
-
-<code>
-Tenda AC6(AC1200) v5.0 Firmware v02.03.01.114 and below contains a vulnerability which allows attackers to remove the Wi-Fi password and force the device into open security mode via a crafted packet sent to goform/setWizard.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37176](https://github.com/Live-Hack-CVE/CVE-2022-37176)
 
 ### CVE-2022-37178 (2022-08-24)
 
@@ -9776,22 +9782,6 @@ An issue was discovered in 72crm 9.0. There is a SQL Injection vulnerability in 
 
 - [Live-Hack-CVE/CVE-2022-37181](https://github.com/Live-Hack-CVE/CVE-2022-37181)
 
-### CVE-2022-37183 (2022-08-31)
-
-<code>
-Piwigo 12.3.0 is vulnerable to Cross Site Scripting (XSS) via /search/1940/created-monthly-list.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37183](https://github.com/Live-Hack-CVE/CVE-2022-37183)
-
-### CVE-2022-37184 (2022-08-31)
-
-<code>
-The application manage_website.php on Garage Management System 1.0 is vulnerable to Shell File Upload. The already authenticated malicious user, can upload a dangerous RCE or LCE exploit file.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37184](https://github.com/Live-Hack-CVE/CVE-2022-37184)
-
 ### CVE-2022-37199 (2022-08-23)
 
 <code>
@@ -9807,14 +9797,6 @@ JFinal CMS 5.1.0 is vulnerable to SQL Injection via /jfinal_cms/system/role/list
 </code>
 
 - [Live-Hack-CVE/CVE-2022-37223](https://github.com/Live-Hack-CVE/CVE-2022-37223)
-
-### CVE-2022-37237 (2022-08-30)
-
-<code>
-An attacker can send malicious RTMP requests to make the ZLMediaKit server crash remotely. Affected version is below commit 7d8b212a3c3368bc2f6507cb74664fc419eb9327.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37237](https://github.com/Live-Hack-CVE/CVE-2022-37237)
 
 ### CVE-2022-37238 (2022-08-25)
 
@@ -9879,14 +9861,6 @@ MDaemon Technologies SecurityGateway for Email Servers 8.5.2 is vulnerable to Cr
 </code>
 
 - [Live-Hack-CVE/CVE-2022-37245](https://github.com/Live-Hack-CVE/CVE-2022-37245)
-
-### CVE-2022-37253 (2022-09-06)
-
-<code>
-Persistent cross-site scripting (XSS) in Crime Reporting System 1.0 allows a remote attacker to introduce arbitary Javascript via manipulation of an unsanitized POST parameter
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37253](https://github.com/Live-Hack-CVE/CVE-2022-37253)
 
 ### CVE-2022-37254 (2022-08-19)
 
@@ -10000,13 +9974,29 @@ SQL injection vulnerability in the Exment ((PHP8) exceedone/exment v5.0.2 and ea
 
 - [Live-Hack-CVE/CVE-2022-37333](https://github.com/Live-Hack-CVE/CVE-2022-37333)
 
-### CVE-2022-37344 (2022-09-06)
+### CVE-2022-37393 (2022-08-16)
 
 <code>
-Missing Access Control vulnerability in PHP Crafts Accommodation System plugin &lt;= 1.0.1 at WordPress.
+Zimbra's sudo configuration permits the zimbra user to execute the zmslapd binary as root with arbitrary parameters. As part of its intended functionality, zmslapd can load a user-defined configuration file, which includes plugins in the form of .so files, which also execute as root.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37344](https://github.com/Live-Hack-CVE/CVE-2022-37344)
+- [Live-Hack-CVE/CVE-2022-37393](https://github.com/Live-Hack-CVE/CVE-2022-37393)
+
+### CVE-2022-37397 (2022-08-12)
+
+<code>
+An issue was discovered in the YugabyteDB 2.6.1 when using LDAP-based authentication in YCQL with Microsoft’s Active Directory. When anonymous or unauthenticated LDAP binding is enabled, it allows bypass of authentication with an empty password.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-37397](https://github.com/Live-Hack-CVE/CVE-2022-37397)
+
+### CVE-2022-37400 (2022-08-13)
+
+<code>
+Apache OpenOffice supports the storage of passwords for web connections in the user's configuration database. The stored passwords are encrypted with a single master key provided by the user. A flaw in OpenOffice existed where the required initialization vector for encryption was always the same which weakens the security of the encryption making them vulnerable if an attacker has access to the user's configuration data. This issue affects: Apache OpenOffice versions prior to 4.1.13. Reference: CVE-2022-26306 - LibreOffice
+</code>
+
+- [Live-Hack-CVE/CVE-2022-37400](https://github.com/Live-Hack-CVE/CVE-2022-37400)
 
 ### CVE-2022-37418 (2022-08-24)
 
@@ -10016,29 +10006,53 @@ The Remote Keyless Entry (RKE) receiving unit on certain Nissan, Kia, and Hyunda
 
 - [Live-Hack-CVE/CVE-2022-37418](https://github.com/Live-Hack-CVE/CVE-2022-37418)
 
-### CVE-2022-37431 (2022-08-05)
+### CVE-2022-37422 (2022-08-18)
 
 <code>
-** DISPUTED ** A Reflected Cross-site scripting (XSS) issue was discovered in dotCMS Core through 22.06. This occurs in the admin portal when the configuration has XSS_PROTECTION_ENABLED=false. NOTE: the vendor disputes this because the current product behavior, in effect, has XSS_PROTECTION_ENABLED=true in all configurations.
+Payara through 5.2022.2 allows directory traversal without authentication. This affects Payara Server, Payara Micro, and Payara Server Embedded.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37431](https://github.com/Live-Hack-CVE/CVE-2022-37431)
+- [Live-Hack-CVE/CVE-2022-37422](https://github.com/Live-Hack-CVE/CVE-2022-37422)
 
-### CVE-2022-37458 (2022-09-02)
+### CVE-2022-37423 (2022-08-12)
 
 <code>
-Discourse through 2.8.7 allows admins to send invitations to arbitrary email addresses at an unlimited rate.
+Neo4j APOC (Awesome Procedures on Cypher) before 4.3.0.7 and 4.x before 4.4.0.8 allows Directory Traversal to sibling directories via apoc.log.stream.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37458](https://github.com/Live-Hack-CVE/CVE-2022-37458)
+- [Live-Hack-CVE/CVE-2022-37423](https://github.com/Live-Hack-CVE/CVE-2022-37423)
 
-### CVE-2022-37679 (2022-09-02)
+### CVE-2022-37437 (2022-08-16)
 
 <code>
-Miniblog.Core v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability in the component /blog/edit. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Excerpt field.
+When using Ingest Actions to configure a destination that resides on Amazon Simple Storage Service (S3) in Splunk Web, TLS certificate validation is not correctly performed and tested for the destination. The vulnerability only affects connections between Splunk Enterprise and an Ingest Actions Destination through Splunk Web and only applies to environments that have configured TLS certificate validation. It does not apply to Destinations configured directly in the outputs.conf configuration file. The vulnerability affects Splunk Enterprise version 9.0.0 and does not affect versions below 9.0.0, including the 8.1.x and 8.2.x versions.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-37679](https://github.com/Live-Hack-CVE/CVE-2022-37679)
+- [Live-Hack-CVE/CVE-2022-37437](https://github.com/Live-Hack-CVE/CVE-2022-37437)
+
+### CVE-2022-37438 (2022-08-16)
+
+<code>
+In Splunk Enterprise versions in the following table, an authenticated user can craft a dashboard that could potentially leak information (for example, username, email, and real name) about Splunk users, when visited by another user through the drilldown component. The vulnerability requires user access to create and share dashboards using Splunk Web.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-37438](https://github.com/Live-Hack-CVE/CVE-2022-37438)
+
+### CVE-2022-37439 (2022-08-16)
+
+<code>
+In Splunk Enterprise and Universal Forwarder versions in the following table, indexing a specially crafted ZIP file using the file monitoring input can result in a crash of the application. Attempts to restart the application would result in a crash and would require manually removing the malformed file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-37439](https://github.com/Live-Hack-CVE/CVE-2022-37439)
+
+### CVE-2022-37459 (2022-08-17)
+
+<code>
+Ampere Altra devices before 1.08g and Ampere Altra Max devices before 2.05a allow attackers to control the predictions for return addresses and potentially hijack code flow to execute arbitrary code via a side-channel attack, aka a &quot;Retbleed&quot; issue.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-37459](https://github.com/Live-Hack-CVE/CVE-2022-37459)
 
 ### CVE-2022-37706 (2022-12-25)
 
@@ -10047,6 +10061,38 @@ enlightenment_sys in Enlightenment before 0.25.4 allows local users to gain priv
 </code>
 
 - [Live-Hack-CVE/CVE-2022-37706](https://github.com/Live-Hack-CVE/CVE-2022-37706)
+
+### CVE-2022-37768 (2022-08-18)
+
+<code>
+libjpeg commit 281daa9 was discovered to contain an infinite loop via the component Frame::ParseTrailer.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-37768](https://github.com/Live-Hack-CVE/CVE-2022-37768)
+
+### CVE-2022-37769 (2022-08-18)
+
+<code>
+libjpeg commit 281daa9 was discovered to contain a segmentation fault via HuffmanDecoder::Get at huffmandecoder.hpp. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-37769](https://github.com/Live-Hack-CVE/CVE-2022-37769)
+
+### CVE-2022-37770 (2022-08-18)
+
+<code>
+libjpeg commit 281daa9 was discovered to contain a segmentation fault via LineMerger::GetNextLowpassLine at linemerger.cpp. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted file.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-37770](https://github.com/Live-Hack-CVE/CVE-2022-37770)
+
+### CVE-2022-37781 (2022-08-16)
+
+<code>
+fdkaac v1.0.3 was discovered to contain a heap buffer overflow via __interceptor_memcpy.part.46 at /sanitizer_common/sanitizer_common_interceptors.inc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-37781](https://github.com/Live-Hack-CVE/CVE-2022-37781)
 
 ### CVE-2022-37798 (2022-08-25)
 
@@ -10264,46 +10310,6 @@ Tenda AX1803 v1.0.0.1 was discovered to contain a stack overflow via the shareSp
 
 - [Live-Hack-CVE/CVE-2022-37824](https://github.com/Live-Hack-CVE/CVE-2022-37824)
 
-### CVE-2022-37839 (2022-09-06)
-
-<code>
-TOTOLINK A860R V4.1.2cu.5182_B20201027 is vulnerable to Buffer Overflow via Cstecgi.cgi.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37839](https://github.com/Live-Hack-CVE/CVE-2022-37839)
-
-### CVE-2022-37840 (2022-09-06)
-
-<code>
-In TOTOLINK A860R V4.1.2cu.5182_B20201027, the main function in downloadfile.cgi has a buffer overflow vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37840](https://github.com/Live-Hack-CVE/CVE-2022-37840)
-
-### CVE-2022-37841 (2022-09-06)
-
-<code>
-In TOTOLINK A860R V4.1.2cu.5182_B20201027 there is a hard coded password for root in /etc/shadow.sample.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37841](https://github.com/Live-Hack-CVE/CVE-2022-37841)
-
-### CVE-2022-37842 (2022-09-06)
-
-<code>
-In TOTOLINK A860R V4.1.2cu.5182_B20201027, the parameters in infostat.cgi are not filtered, causing a buffer overflow vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37842](https://github.com/Live-Hack-CVE/CVE-2022-37842)
-
-### CVE-2022-37843 (2022-09-06)
-
-<code>
-In TOTOLINK A860R V4.1.2cu.5182_B20201027 in cstecgi.cgi, the acquired parameters are directly put into the system for execution without filtering, resulting in a command injection vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-37843](https://github.com/Live-Hack-CVE/CVE-2022-37843)
-
 ### CVE-2022-37952 (2022-08-25)
 
 <code>
@@ -10344,14 +10350,6 @@ Stored cross-site scripting vulnerability in Exment ((PHP8) exceedone/exment v5.
 
 - [Live-Hack-CVE/CVE-2022-38089](https://github.com/Live-Hack-CVE/CVE-2022-38089)
 
-### CVE-2022-38116 (2022-08-30)
-
-<code>
-Le-yan Personnel and Salary Management System has hard-coded database account and password within the website source code. An unauthenticated remote attacker can access, modify system data or disrupt service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38116](https://github.com/Live-Hack-CVE/CVE-2022-38116)
-
 ### CVE-2022-38132 (2022-08-23)
 
 <code>
@@ -10368,22 +10366,6 @@ HashiCorp Consul Template up to 0.27.2, 0.28.2, and 0.29.1 may expose the conten
 
 - [Live-Hack-CVE/CVE-2022-38149](https://github.com/Live-Hack-CVE/CVE-2022-38149)
 
-### CVE-2022-38152 (2022-08-31)
-
-<code>
-An issue was discovered in wolfSSL before 5.5.0. When a TLS 1.3 client connects to a wolfSSL server and SSL_clear is called on its session, the server crashes with a segmentation fault. This occurs in the second session, which is created through TLS session resumption and reuses the initial struct WOLFSSL. If the server reuses the previous session structure (struct WOLFSSL) by calling wolfSSL_clear(WOLFSSL* ssl) on it, the next received Client Hello (that resumes the previous session) crashes the server. Note that this bug is only triggered when resuming sessions using TLS session resumption. Only servers that use wolfSSL_clear instead of the recommended SSL_free; SSL_new sequence are affected. Furthermore, wolfSSL_clear is part of wolfSSL's compatibility layer and is not enabled by default. It is not part of wolfSSL's native API.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38152](https://github.com/Live-Hack-CVE/CVE-2022-38152)
-
-### CVE-2022-38153 (2022-08-31)
-
-<code>
-An issue was discovered in wolfSSL before 5.5.0 (when --enable-session-ticket is used); however, only version 5.3.0 is exploitable. Man-in-the-middle attackers or a malicious server can crash TLS 1.2 clients during a handshake. If an attacker injects a large ticket (more than 256 bytes) into a NewSessionTicket message in a TLS 1.2 handshake, and the client has a non-empty session cache, the session cache frees a pointer that points to unallocated memory, causing the client to crash with a &quot;free(): invalid pointer&quot; message. NOTE: It is likely that this is also exploitable during TLS 1.3 handshakes between a client and a malicious server. With TLS 1.3, it is not possible to exploit this as a man-in-the-middle.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38153](https://github.com/Live-Hack-CVE/CVE-2022-38153)
-
 ### CVE-2022-38172 (2022-08-23)
 
 <code>
@@ -10391,6 +10373,62 @@ ServiceNow through San Diego Patch 3 allows XSS via the name field during creati
 </code>
 
 - [Live-Hack-CVE/CVE-2022-38172](https://github.com/Live-Hack-CVE/CVE-2022-38172)
+
+### CVE-2022-38184 (2022-08-16)
+
+<code>
+There is an improper access control vulnerability in Portal for ArcGIS versions 10.8.1 and below which could allow a remote, unauthenticated attacker to access an API that may induce Esri Portal for ArcGIS to read arbitrary URLs.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38184](https://github.com/Live-Hack-CVE/CVE-2022-38184)
+
+### CVE-2022-38186 (2022-08-15)
+
+<code>
+There is a reflected XSS vulnerability in Esri Portal for ArcGIS versions 10.8.1 and below which may allow a remote attacker able to convince a user to click on a crafted link which could potentially execute arbitrary JavaScript code in the victim’s browser.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38186](https://github.com/Live-Hack-CVE/CVE-2022-38186)
+
+### CVE-2022-38187 (2022-08-15)
+
+<code>
+Prior to version 10.9.0, the sharing/rest/content/features/analyze endpoint is always accessible to anonymous users, which could allow an unauthenticated attacker to induce Esri Portal for ArcGIS to read arbitrary URLs.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38187](https://github.com/Live-Hack-CVE/CVE-2022-38187)
+
+### CVE-2022-38188 (2022-08-15)
+
+<code>
+There is a reflected XSS vulnerability in Esri Portal for ArcGIS versions 10.9.1 which may allow a remote attacker able to convince a user to click on a crafted link which could potentially execute arbitrary JavaScript code in the victim’s browser.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38188](https://github.com/Live-Hack-CVE/CVE-2022-38188)
+
+### CVE-2022-38190 (2022-08-15)
+
+<code>
+A stored Cross Site Scripting (XSS) vulnerability in Esri Portal for ArcGIS configurable apps may allow a remote, unauthenticated attacker to pass and store malicious strings via crafted queries which when accessed could potentially execute arbitrary JavaScript code in the user’s browser
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38190](https://github.com/Live-Hack-CVE/CVE-2022-38190)
+
+### CVE-2022-38191 (2022-08-15)
+
+<code>
+There is an HTML injection issue in Esri Portal for ArcGIS versions 10.9.0 and below which may allow a remote, authenticated attacker to inject HTML into some locations in the home application.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38191](https://github.com/Live-Hack-CVE/CVE-2022-38191)
+
+### CVE-2022-38192 (2022-08-16)
+
+<code>
+A stored Cross Site Scripting (XSS) vulnerability in Esri Portal for ArcGIS may allow a remote, authenticated attacker to pass and store malicious strings via crafted queries which when accessed could potentially execute arbitrary JavaScript code in the user’s browser.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38192](https://github.com/Live-Hack-CVE/CVE-2022-38192)
 
 ### CVE-2022-38193 (2022-08-16)
 
@@ -10400,13 +10438,157 @@ There is a code injection vulnerability in Esri Portal for ArcGIS versions 10.8.
 
 - [Live-Hack-CVE/CVE-2022-38193](https://github.com/Live-Hack-CVE/CVE-2022-38193)
 
-### CVE-2022-38367 (2022-09-05)
+### CVE-2022-38194 (2022-08-16)
 
 <code>
-The Netic User Export add-on before 2.0.6 for Atlassian Jira does not perform authorization checks. This might allow an unauthenticated user to export all users from Jira by making an HTTP request to the affected endpoint.
+In Esri Portal for ArcGIS versions 10.8.1, a system property is not properly encrypted. This may lead to a local user reading sensitive information from a properties file.
 </code>
 
-- [Live-Hack-CVE/CVE-2022-38367](https://github.com/Live-Hack-CVE/CVE-2022-38367)
+- [Live-Hack-CVE/CVE-2022-38194](https://github.com/Live-Hack-CVE/CVE-2022-38194)
+
+### CVE-2022-38216 (2022-08-15)
+
+<code>
+An integer overflow exists in Mapbox's closed source gl-native library prior to version 10.6.1, which is bundled with multiple Mapbox products including open source libraries. The overflow is caused by large image height and width values when creating a new Image and allows for out of bounds writes, potentially crashing the Mapbox process.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38216](https://github.com/Live-Hack-CVE/CVE-2022-38216)
+
+### CVE-2022-38221 (2022-08-15)
+
+<code>
+A buffer overflow in the FTcpListener thread in The Isle Evrima (the dedicated server on Windows and Linux) 0.9.88.07 before 2022-08-12 allows a remote attacker to crash any server with an accessible RCON port, or possibly execute arbitrary code.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38221](https://github.com/Live-Hack-CVE/CVE-2022-38221)
+
+### CVE-2022-38223 (2022-08-15)
+
+<code>
+There is an out-of-bounds write in checkType located in etc.c in w3m 0.5.3. It can be triggered by sending a crafted HTML file to the w3m binary. It allows an attacker to cause Denial of Service or possibly have unspecified other impact.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38223](https://github.com/Live-Hack-CVE/CVE-2022-38223)
+
+### CVE-2022-38227 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a stack overflow via __asan_memcpy at asan_interceptors_memintrinsics.cpp.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38227](https://github.com/Live-Hack-CVE/CVE-2022-38227)
+
+### CVE-2022-38228 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a heap-buffer overflow via DCTStream::transformDataUnit at /xpdf/Stream.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38228](https://github.com/Live-Hack-CVE/CVE-2022-38228)
+
+### CVE-2022-38230 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a floating point exception (FPE) via DCTStream::decodeImage() at /xpdf/Stream.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38230](https://github.com/Live-Hack-CVE/CVE-2022-38230)
+
+### CVE-2022-38231 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a heap-buffer overflow via DCTStream::getChar() at /xpdf/Stream.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38231](https://github.com/Live-Hack-CVE/CVE-2022-38231)
+
+### CVE-2022-38233 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a segmentation violation via DCTStream::readMCURow() at /xpdf/Stream.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38233](https://github.com/Live-Hack-CVE/CVE-2022-38233)
+
+### CVE-2022-38234 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a segmentation violation via Lexer::getObj(Object*) at /xpdf/Lexer.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38234](https://github.com/Live-Hack-CVE/CVE-2022-38234)
+
+### CVE-2022-38235 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a segmentation violation via DCTStream::getChar() at /xpdf/Stream.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38235](https://github.com/Live-Hack-CVE/CVE-2022-38235)
+
+### CVE-2022-38236 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a global-buffer overflow via Lexer::getObj(Object*) at /xpdf/Lexer.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38236](https://github.com/Live-Hack-CVE/CVE-2022-38236)
+
+### CVE-2022-38237 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a heap-buffer overflow via DCTStream::readScan() at /xpdf/Stream.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38237](https://github.com/Live-Hack-CVE/CVE-2022-38237)
+
+### CVE-2022-38238 (2022-08-16)
+
+<code>
+XPDF commit ffaf11c was discovered to contain a heap-buffer overflow via DCTStream::lookChar() at /xpdf/Stream.cc.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38238](https://github.com/Live-Hack-CVE/CVE-2022-38238)
+
+### CVE-2022-38357 (2022-08-15)
+
+<code>
+Improper neutralization of special elements leaves the Eyes of Network Web application vulnerable to an iFrame injection attack, via the url parameter of /module/module_frame/index.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38357](https://github.com/Live-Hack-CVE/CVE-2022-38357)
+
+### CVE-2022-38358 (2022-08-15)
+
+<code>
+Improper neutralization of input during web page generation leaves the Eyes of Network web application vulnerable to cross-site scripting attacks at /module/admin_notifiers/rules.php and /module/report_event/indext.php via the parameters rule_notification, rule_name, and rule_name_old, and at /module/admin_user/add_modify_user.php via the parameters user_name and user_email.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38358](https://github.com/Live-Hack-CVE/CVE-2022-38358)
+
+### CVE-2022-38359 (2022-08-15)
+
+<code>
+Cross-site request forgery attacks can be carried out against the Eyes of Network web application, due to an absence of adequate protections. An attacker can, for instance, delete the admin user by directing an authenticated user to the URL https://&lt;target-address&gt;/module/admin_user/index.php?DataTables_Table_0_length=10&amp;user_selected%5B%5D=1&amp;user_mgt_list=delete_user&amp;action=submit by means of a crafted link.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38359](https://github.com/Live-Hack-CVE/CVE-2022-38359)
+
+### CVE-2022-38362 (2022-08-16)
+
+<code>
+Apache Airflow Docker's Provider prior to 3.0.0 shipped with an example DAG that was vulnerable to (authenticated) remote code exploit of code on the Airflow worker host.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38362](https://github.com/Live-Hack-CVE/CVE-2022-38362)
+
+### CVE-2022-38368 (2022-08-15)
+
+<code>
+An issue was discovered in Aviatrix Gateway before 6.6.5712 and 6.7.x before 6.7.1376. Because Gateway API functions mishandle authentication, an authenticated VPN user can inject arbitrary commands.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-38368](https://github.com/Live-Hack-CVE/CVE-2022-38368)
 
 ### CVE-2022-38392 (2022-08-17)
 
@@ -10432,22 +10614,6 @@ Rhonabwy 0.9.99 through 1.1.x before 1.1.7 doesn't check the RSA private key len
 
 - [Live-Hack-CVE/CVE-2022-38493](https://github.com/Live-Hack-CVE/CVE-2022-38493)
 
-### CVE-2022-38510 (2022-08-28)
-
-<code>
-Tenda_TX9pro V22.03.02.10 was discovered to contain a buffer overflow via the component httpd/SetNetControlList.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38510](https://github.com/Live-Hack-CVE/CVE-2022-38510)
-
-### CVE-2022-38511 (2022-08-28)
-
-<code>
-TOTOLINK A810R V5.9c.4050_B20190424 was discovered to contain a command injection vulnerability via the component downloadFile.cgi.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38511](https://github.com/Live-Hack-CVE/CVE-2022-38511)
-
 ### CVE-2022-38555 (2022-08-28)
 
 <code>
@@ -10455,14 +10621,6 @@ Linksys E1200 v1.0.04 is vulnerable to Buffer Overflow via ej_get_web_page_name.
 </code>
 
 - [Live-Hack-CVE/CVE-2022-38555](https://github.com/Live-Hack-CVE/CVE-2022-38555)
-
-### CVE-2022-38556 (2022-08-28)
-
-<code>
-Trendnet TEW733GR v1.03B01 contains a Static Default Credential vulnerability in /etc/init0.d/S80telnetd.sh.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38556](https://github.com/Live-Hack-CVE/CVE-2022-38556)
 
 ### CVE-2022-38557 (2022-08-28)
 
@@ -10552,14 +10710,6 @@ Tenda M3 V1.0.0.12(4856) was discovered to contain a buffer overflow in the func
 
 - [Live-Hack-CVE/CVE-2022-38571](https://github.com/Live-Hack-CVE/CVE-2022-38571)
 
-### CVE-2022-38625 (2022-08-29)
-
-<code>
-** DISPUTED ** Patlite NH-FB v1.46 and below was discovered to contain insufficient firmware validation during the upgrade firmware file upload process. This vulnerability allows authenticated attackers to create and upload their own custom-built firmware and inject malicious code. NOTE: the vendor's position is that this is a design choice, not a vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38625](https://github.com/Live-Hack-CVE/CVE-2022-38625)
-
 ### CVE-2022-38663 (2022-08-23)
 
 <code>
@@ -10584,134 +10734,6 @@ Jenkins CollabNet Plugins Plugin 2.0.8 and earlier stores a RabbitMQ password un
 
 - [Live-Hack-CVE/CVE-2022-38665](https://github.com/Live-Hack-CVE/CVE-2022-38665)
 
-### CVE-2022-38772 (2022-08-29)
-
-<code>
-Zoho ManageEngine OpManager, OpManager Plus, OpManager MSP, Network Configuration Manager, NetFlow Analyzer, and OpUtils before 125658, 126003, 126105, and 126120 allow authenticated users to make database changes that lead to remote code execution in the NMAP feature.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38772](https://github.com/Live-Hack-CVE/CVE-2022-38772)
-
-### CVE-2022-38790 (2022-09-01)
-
-<code>
-Weave GitOps Enterprise before 0.9.0-rc.5 has a cross-site scripting (XSS) bug allowing a malicious user to inject a javascript: link in the UI. When clicked by a victim user, the script will execute with the victim's permission. The exposure appears in Weave GitOps Enterprise UI via a GitopsCluster dashboard link. An annotation can be added to a GitopsCluster custom resource.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38790](https://github.com/Live-Hack-CVE/CVE-2022-38790)
-
-### CVE-2022-38792 (2022-08-27)
-
-<code>
-The exotel (aka exotel-py) package in PyPI as of 0.1.6 includes a code execution backdoor inserted by a third party.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38792](https://github.com/Live-Hack-CVE/CVE-2022-38792)
-
-### CVE-2022-38794 (2022-08-27)
-
-<code>
-Zaver through 2020-12-15 allows directory traversal via the GET /.. substring.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38794](https://github.com/Live-Hack-CVE/CVE-2022-38794)
-
-### CVE-2022-38812 (2022-08-31)
-
-<code>
-AeroCMS 0.1.1 is vulnerable to SQL Injection via the author parameter.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-38812](https://github.com/Live-Hack-CVE/CVE-2022-38812)
-
-### CVE-2022-39047 (2022-08-31)
-
-<code>
-Freeciv before 2.6.7 and before 3.0.3 is prone to a buffer overflow vulnerability in the Modpack Installer utility's handling of the modpack URL.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39047](https://github.com/Live-Hack-CVE/CVE-2022-39047)
-
-### CVE-2022-39049 (2022-09-05)
-
-<code>
-An attacker who is logged into OTRS as an admin user may manipulate the URL to cause execution of JavaScript in the context of OTRS.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39049](https://github.com/Live-Hack-CVE/CVE-2022-39049)
-
-### CVE-2022-39050 (2022-09-05)
-
-<code>
-An attacker who is logged into OTRS as an admin user may manipulate customer URL field to store JavaScript code to be run later by any other agent when clicking the customer URL link. Then the stored JavaScript is executed in the context of OTRS. The same issue applies for the usage of external data sources e.g. database or ldap
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39050](https://github.com/Live-Hack-CVE/CVE-2022-39050)
-
-### CVE-2022-39051 (2022-09-05)
-
-<code>
-Attacker might be able to execute malicious Perl code in the Template toolkit, by having the admin installing an unverified 3th party package
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39051](https://github.com/Live-Hack-CVE/CVE-2022-39051)
-
-### CVE-2022-39189 (2022-09-02)
-
-<code>
-An issue was discovered the x86 KVM subsystem in the Linux kernel before 5.18.17. Unprivileged guest users can compromise the guest kernel because TLB flush operations are mishandled in certain KVM_VCPU_PREEMPTED situations.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39189](https://github.com/Live-Hack-CVE/CVE-2022-39189)
-
-### CVE-2022-39194 (2022-09-02)
-
-<code>
-An issue was discovered in the MediaWiki through 1.38.2. The community configuration pages for the GrowthExperiments extension could cause a site to become unavailable due to insufficient validation when certain actions (including page moves) were performed.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39194](https://github.com/Live-Hack-CVE/CVE-2022-39194)
-
-### CVE-2022-39828 (2022-09-04)
-
-<code>
-sign_pFwInfo in Samsung mTower through 0.3.0 has a missing check on the return value of EC_KEY_set_private_key, leading to a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39828](https://github.com/Live-Hack-CVE/CVE-2022-39828)
-
-### CVE-2022-39829 (2022-09-04)
-
-<code>
-There is a NULL pointer dereference in aes256_encrypt in Samsung mTower through 0.3.0 due to a missing check on the return value of EVP_CIPHER_CTX_new.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39829](https://github.com/Live-Hack-CVE/CVE-2022-39829)
-
-### CVE-2022-39830 (2022-09-04)
-
-<code>
-sign_pFwInfo in Samsung mTower through 0.3.0 has a missing check on the return value of EC_KEY_set_public_key_affine_coordinates, leading to a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39830](https://github.com/Live-Hack-CVE/CVE-2022-39830)
-
-### CVE-2022-39839 (2022-09-05)
-
-<code>
-Cotonti Siena 0.9.20 allows admins to conduct stored XSS attacks via a forum post.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39839](https://github.com/Live-Hack-CVE/CVE-2022-39839)
-
-### CVE-2022-39840 (2022-09-05)
-
-<code>
-Cotonti Siena 0.9.20 allows admins to conduct stored XSS attacks via a direct message (DM).
-</code>
-
-- [Live-Hack-CVE/CVE-2022-39840](https://github.com/Live-Hack-CVE/CVE-2022-39840)
-
 ### CVE-2022-40005 (2022-12-25)
 
 <code>
@@ -10719,14 +10741,6 @@ Intelbras WiFiber 120AC inMesh before 1-1-220826 allows command injection by aut
 </code>
 
 - [Live-Hack-CVE/CVE-2022-40005](https://github.com/Live-Hack-CVE/CVE-2022-40005)
-
-### CVE-2022-40110 (2022-09-06)
-
-<code>
-TOTOLINK A3002R TOTOLINK-A3002R-He-V1.1.1-B20200824.0128 is vulnerable to Buffer Overflow via /bin/boa.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-40110](https://github.com/Live-Hack-CVE/CVE-2022-40110)
 
 ### CVE-2022-41317 (2022-12-25)
 
@@ -10770,6 +10784,46 @@ A race condition was addressed with additional validation. This issue is fixed i
 
 
 ## 2021
+### CVE-2021-0153 (2022-05-12)
+
+<code>
+Out-of-bounds write in the BIOS firmware for some Intel(R) Processors may allow a privileged user to potentially enable aescalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-0153](https://github.com/Live-Hack-CVE/CVE-2021-0153)
+
+### CVE-2021-0154 (2022-05-12)
+
+<code>
+Improper input validation in the BIOS firmware for some Intel(R) Processors may allow a privileged user to potentially enable aescalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-0154](https://github.com/Live-Hack-CVE/CVE-2021-0154)
+
+### CVE-2021-0155 (2022-05-12)
+
+<code>
+Unchecked return value in the BIOS firmware for some Intel(R) Processors may allow a privileged user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-0155](https://github.com/Live-Hack-CVE/CVE-2021-0155)
+
+### CVE-2021-0159 (2022-05-12)
+
+<code>
+Improper input validation in the BIOS authenticated code module for some Intel(R) Processors may allow a privileged user to potentially enable aescalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-0159](https://github.com/Live-Hack-CVE/CVE-2021-0159)
+
+### CVE-2021-0189 (2022-05-12)
+
+<code>
+Use of out-of-range pointer offset in the BIOS firmware for some Intel(R) Processors may allow a privileged user to potentially enable aescalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-0189](https://github.com/Live-Hack-CVE/CVE-2021-0189)
+
 ### CVE-2021-0204 (2021-01-15)
 
 <code>
@@ -11169,6 +11223,14 @@ A vulnerability in the fabric infrastructure file system access control of Cisco
 </code>
 
 - [Live-Hack-CVE/CVE-2021-1583](https://github.com/Live-Hack-CVE/CVE-2021-1583)
+
+### CVE-2021-1585 (2021-07-08)
+
+<code>
+A vulnerability in the Cisco Adaptive Security Device Manager (ASDM) Launcher could allow an unauthenticated, remote attacker to execute arbitrary code on a user's operating system. This vulnerability is due to a lack of proper signature verification for specific code exchanged between the ASDM and the Launcher. An attacker could exploit this vulnerability by leveraging a man-in-the-middle position on the network to intercept the traffic between the Launcher and the ASDM and then inject arbitrary code. A successful exploit could allow the attacker to execute arbitrary code on the user's operating system with the level of privileges assigned to the ASDM Launcher. A successful exploit may require the attacker to perform a social engineering attack to persuade the user to initiate communication from the Launcher to the ASDM.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-1585](https://github.com/Live-Hack-CVE/CVE-2021-1585)
 
 ### CVE-2021-1589 (2021-09-22)
 
@@ -12286,7 +12348,6 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 </code>
 
 - [HadiMed/DSL-2750U-Full-chain](https://github.com/HadiMed/DSL-2750U-Full-chain)
-- [Live-Hack-CVE/CVE-2021-3707](https://github.com/Live-Hack-CVE/CVE-2021-3707)
 
 ### CVE-2021-3714 (2022-08-23)
 
@@ -13211,6 +13272,14 @@ In Weidmüller u-controls and IoT-Gateways in versions up to 1.12.1 a network po
 
 - [Live-Hack-CVE/CVE-2021-20999](https://github.com/Live-Hack-CVE/CVE-2021-20999)
 
+### CVE-2021-21012 (2021-01-13)
+
+<code>
+Magento versions 2.4.1 (and earlier), 2.4.0-p1 (and earlier) and 2.3.6 (and earlier) are vulnerable to an insecure direct object vulnerability (IDOR) in the checkout module. Successful exploitation could lead to sensitive information disclosure.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-21012](https://github.com/Live-Hack-CVE/CVE-2021-21012)
+
 ### CVE-2021-21014 (2021-02-11)
 
 <code>
@@ -13235,6 +13304,14 @@ Magento versions 2.4.1 (and earlier), 2.4.0-p1 (and earlier) and 2.3.6 (and earl
 
 - [Live-Hack-CVE/CVE-2021-21020](https://github.com/Live-Hack-CVE/CVE-2021-21020)
 
+### CVE-2021-21022 (2021-02-11)
+
+<code>
+Magento versions 2.4.1 (and earlier), 2.4.0-p1 (and earlier) and 2.3.6 (and earlier) are vulnerable to an insecure direct object reference (IDOR) in the product module. Successful exploitation could lead to unauthorized access to restricted resources.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-21022](https://github.com/Live-Hack-CVE/CVE-2021-21022)
+
 ### CVE-2021-21026 (2021-02-11)
 
 <code>
@@ -13258,6 +13335,46 @@ Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018
 </code>
 
 - [Live-Hack-CVE/CVE-2021-21045](https://github.com/Live-Hack-CVE/CVE-2021-21045)
+
+### CVE-2021-21046 (2021-02-11)
+
+<code>
+Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by an memory corruption vulnerability. An unauthenticated attacker could leverage this vulnerability to cause an application denial-of-service. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-21046](https://github.com/Live-Hack-CVE/CVE-2021-21046)
+
+### CVE-2021-21048 (2021-02-11)
+
+<code>
+Adobe Photoshop versions 21.2.4 (and earlier) and 22.1.1 (and earlier) are affected by a Memory Corruption vulnerability when parsing a specially crafted file. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file
+</code>
+
+- [Live-Hack-CVE/CVE-2021-21048](https://github.com/Live-Hack-CVE/CVE-2021-21048)
+
+### CVE-2021-21058 (2021-02-11)
+
+<code>
+Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by a Memory corruption vulnerability when parsing a specially crafted PDF file. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-21058](https://github.com/Live-Hack-CVE/CVE-2021-21058)
+
+### CVE-2021-21059 (2021-02-11)
+
+<code>
+Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by a Memory corruption vulnerability when parsing a specially crafted PDF file. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-21059](https://github.com/Live-Hack-CVE/CVE-2021-21059)
+
+### CVE-2021-21062 (2021-02-11)
+
+<code>
+Acrobat Reader DC versions versions 2020.013.20074 (and earlier), 2020.001.30018 (and earlier) and 2017.011.30188 (and earlier) are affected by a Memory corruption vulnerability when parsing a specially crafted PDF file. An unauthenticated attacker could leverage this vulnerability to achieve arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-21062](https://github.com/Live-Hack-CVE/CVE-2021-21062)
 
 ### CVE-2021-21082 (2021-03-12)
 
@@ -13411,14 +13528,6 @@ October is a free, open-source, self-hosted CMS platform based on the Laravel PH
 
 - [Live-Hack-CVE/CVE-2021-21264](https://github.com/Live-Hack-CVE/CVE-2021-21264)
 
-### CVE-2021-21272 (2021-01-25)
-
-<code>
-ORAS is open source software which enables a way to push OCI Artifacts to OCI Conformant registries. ORAS is both a CLI for initial testing and a Go Module. In ORAS from version 0.4.0 and before version 0.9.0, there is a &quot;zip-slip&quot; vulnerability. The directory support feature allows the downloaded gzipped tarballs to be automatically extracted to the user-specified directory where the tarball can have symbolic links and hard links. A well-crafted tarball or tarballs allow malicious artifact providers linking, writing, or overwriting specific files on the host filesystem outside of the user-specified directory unexpectedly with the same permissions as the user who runs `oras pull`. Users of the affected versions are impacted if they are `oras` CLI users who runs `oras pull`, or if they are Go programs, which invoke `github.com/deislabs/oras/pkg/content.FileStore`. The problem has been fixed in version 0.9.0. For `oras` CLI users, there is no workarounds other than pulling from a trusted artifact provider. For `oras` package users, the workaround is to not use `github.com/deislabs/oras/pkg/content.FileStore`, and use other content stores instead, or pull from a trusted artifact provider.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21272](https://github.com/Live-Hack-CVE/CVE-2021-21272)
-
 ### CVE-2021-21274 (2021-02-26)
 
 <code>
@@ -13467,14 +13576,6 @@ Fleet is an open source osquery manager. In Fleet before version 3.7.0 a malicio
 
 - [Live-Hack-CVE/CVE-2021-21296](https://github.com/Live-Hack-CVE/CVE-2021-21296)
 
-### CVE-2021-21297 (2021-02-26)
-
-<code>
-Node-Red is a low-code programming for event-driven applications built using nodejs. Node-RED 1.2.7 and earlier contains a Prototype Pollution vulnerability in the admin API. A badly formed request can modify the prototype of the default JavaScript Object with the potential to affect the default behaviour of the Node-RED runtime. The vulnerability is patched in the 1.2.8 release. A workaround is to ensure only authorized users are able to access the editor url.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21297](https://github.com/Live-Hack-CVE/CVE-2021-21297)
-
 ### CVE-2021-21300 (2021-03-09)
 
 <code>
@@ -13490,22 +13591,6 @@ Git is an open-source distributed revision control system. In affected versions 
 - [ETOCheney/cve-2021-21300](https://github.com/ETOCheney/cve-2021-21300)
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
-
-### CVE-2021-21303 (2021-02-05)
-
-<code>
-Helm is open-source software which is essentially &quot;The Kubernetes Package Manager&quot;. Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources. In Helm from version 3.0 and before version 3.5.2, there a few cases where data loaded from potentially untrusted sources was not properly sanitized. When a SemVer in the `version` field of a chart is invalid, in some cases Helm allows the string to be used &quot;as is&quot; without sanitizing. Helm fails to properly sanitized some fields present on Helm repository `index.yaml` files. Helm does not properly sanitized some fields in the `plugin.yaml` file for plugins In some cases, Helm does not properly sanitize the fields in the `Chart.yaml` file. By exploiting these attack vectors, core maintainers were able to send deceptive information to a terminal screen running the `helm` command, as well as obscure or alter information on the screen. In some cases, we could send codes that terminals used to execute higher-order logic, like clearing a terminal screen. Further, during evaluation, the Helm maintainers discovered a few other fields that were not properly sanitized when read out of repository index files. This fix remedies all such cases, and once again enforces SemVer2 policies on version fields. All users of the Helm 3 should upgrade to the fixed version 3.5.2 or later. Those who use Helm as a library should verify that they either sanitize this data on their own, or use the proper Helm API calls to sanitize the data.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21303](https://github.com/Live-Hack-CVE/CVE-2021-21303)
-
-### CVE-2021-21304 (2021-02-08)
-
-<code>
-Dynamoose is an open-source modeling tool for Amazon's DynamoDB. In Dynamoose from version 2.0.0 and before version 2.7.0 there was a prototype pollution vulnerability in the internal utility method &quot;lib/utils/object/set.ts&quot;. This method is used throughout the codebase for various operations throughout Dynamoose. We have not seen any evidence of this vulnerability being exploited. There is no evidence this vulnerability impacts versions 1.x.x since the vulnerable method was added as part of the v2 rewrite. This vulnerability also impacts v2.x.x beta/alpha versions. Version 2.7.0 includes a patch for this vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21304](https://github.com/Live-Hack-CVE/CVE-2021-21304)
 
 ### CVE-2021-21309 (2021-02-26)
 
@@ -13804,14 +13889,6 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
 
-### CVE-2021-21564 (2021-08-09)
-
-<code>
-Dell OpenManage Enterprise versions prior to 3.6.1 contain an improper authentication vulnerability. A remote unauthenticated attacker may potentially exploit this vulnerability to hijack an elevated session or perform unauthorized actions by sending malformed data.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21564](https://github.com/Live-Hack-CVE/CVE-2021-21564)
-
 ### CVE-2021-21565 (2021-08-02)
 
 <code>
@@ -13851,14 +13928,6 @@ Jenkins 2.274 and earlier, LTS 2.263.1 and earlier allows users with Agent/Confi
 </code>
 
 - [Live-Hack-CVE/CVE-2021-21605](https://github.com/Live-Hack-CVE/CVE-2021-21605)
-
-### CVE-2021-21621 (2021-02-24)
-
-<code>
-Jenkins Support Core Plugin 2.72 and earlier provides the serialized user authentication as part of the &quot;About user (basic authentication details only)&quot; information, which can include the session ID of the user creating the support bundle in some configurations.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21621](https://github.com/Live-Hack-CVE/CVE-2021-21621)
 
 ### CVE-2021-21689 (2021-11-04)
 
@@ -13931,14 +14000,6 @@ An out-of-bounds write vulnerability exists in the TIF bits_per_sample processin
 </code>
 
 - [Live-Hack-CVE/CVE-2021-21794](https://github.com/Live-Hack-CVE/CVE-2021-21794)
-
-### CVE-2021-21798 (2021-09-15)
-
-<code>
-An exploitable return of stack variable address vulnerability exists in the JavaScript implementation of Nitro Pro PDF. A specially crafted document can cause a stack variable to go out of scope, resulting in the application dereferencing a stale pointer. This can lead to code execution under the context of the application. An attacker can convince a user to open a document to trigger the vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21798](https://github.com/Live-Hack-CVE/CVE-2021-21798)
 
 ### CVE-2021-21799 (2021-07-16)
 
@@ -14051,22 +14112,6 @@ An out-of-bounds write vulnerability exists in the JPG Handle_JPEG420 functional
 </code>
 
 - [Live-Hack-CVE/CVE-2021-21824](https://github.com/Live-Hack-CVE/CVE-2021-21824)
-
-### CVE-2021-21829 (2021-08-13)
-
-<code>
-A heap-based buffer overflow vulnerability exists in the XML Decompression EnumerationUncompressor::UncompressItem functionality of AT&amp;T Labs’ Xmill 0.7. A specially crafted XMI file can lead to remote code execution. An attacker can provide a malicious file to trigger this vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21829](https://github.com/Live-Hack-CVE/CVE-2021-21829)
-
-### CVE-2021-21830 (2021-08-13)
-
-<code>
-A heap-based buffer overflow vulnerability exists in the XML Decompression LabelDict::Load functionality of AT&amp;T Labs’ Xmill 0.7. A specially crafted XMI file can lead to remote code execution. An attacker can provide a malicious file to trigger this vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21830](https://github.com/Live-Hack-CVE/CVE-2021-21830)
 
 ### CVE-2021-21833 (2021-06-11)
 
@@ -14331,14 +14376,6 @@ A privilege escalation vulnerability exists in the Remote Server functionality o
 </code>
 
 - [Live-Hack-CVE/CVE-2021-21957](https://github.com/Live-Hack-CVE/CVE-2021-21957)
-
-### CVE-2021-21964 (2022-02-04)
-
-<code>
-A denial of service vulnerability exists in the Modbus configuration functionality of Sealevel Systems, Inc. SeaConnect 370W v1.3.34. Specially-crafted network packets can lead to denial of service. An attacker can send a malicious packet to trigger this vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-21964](https://github.com/Live-Hack-CVE/CVE-2021-21964)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -14728,14 +14765,6 @@ An improper access control vulnerability exists in Citrix Workspace App for Wind
 
 - [Live-Hack-CVE/CVE-2021-22907](https://github.com/Live-Hack-CVE/CVE-2021-22907)
 
-### CVE-2021-22910 (2021-08-09)
-
-<code>
-A sanitization vulnerability exists in Rocket.Chat server versions &lt;3.13.2, &lt;3.12.4, &lt;3.11.4 that allowed queries to an endpoint which could result in a NoSQL injection, potentially leading to RCE.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-22910](https://github.com/Live-Hack-CVE/CVE-2021-22910)
-
 ### CVE-2021-22911 (2021-05-27)
 
 <code>
@@ -14874,6 +14903,14 @@ A vulnerability was found in SoX, where a heap-buffer-overflow occurs in functio
 
 - [Live-Hack-CVE/CVE-2021-23159](https://github.com/Live-Hack-CVE/CVE-2021-23159)
 
+### CVE-2021-23168 (2022-08-18)
+
+<code>
+Out of bounds read for some Intel(R) PROSet/Wireless WiFi and Killer(TM) WiFi products may allow an unauthenticated user to potentially enable denial of service via adjacent access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-23168](https://github.com/Live-Hack-CVE/CVE-2021-23168)
+
 ### CVE-2021-23172 (2022-08-25)
 
 <code>
@@ -14889,6 +14926,14 @@ Out of bounds read in firmware for some Intel(R) Wireless Bluetooth(R) and Kille
 </code>
 
 - [Live-Hack-CVE/CVE-2021-23179](https://github.com/Live-Hack-CVE/CVE-2021-23179)
+
+### CVE-2021-23188 (2022-08-18)
+
+<code>
+Improper access control for some Intel(R) PROSet/Wireless WiFi and Killer(TM) WiFi products may allow an authenticated user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-23188](https://github.com/Live-Hack-CVE/CVE-2021-23188)
 
 ### CVE-2021-23192 (2022-03-02)
 
@@ -14937,6 +14982,14 @@ Cleartext Storage of Sensitive Information in Memory vulnerability in Gallagher 
 </code>
 
 - [Live-Hack-CVE/CVE-2021-23211](https://github.com/Live-Hack-CVE/CVE-2021-23211)
+
+### CVE-2021-23223 (2022-08-18)
+
+<code>
+Improper initialization for some Intel(R) PROSet/Wireless WiFi and Killer(TM) WiFi products may allow a privileged user to potentially enable escalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-23223](https://github.com/Live-Hack-CVE/CVE-2021-23223)
 
 ### CVE-2021-23263 (2021-12-02)
 
@@ -15147,14 +15200,6 @@ The Kaswara Modern VC Addons WordPress plugin through 3.0.1 allows unauthenticat
 
 - [Live-Hack-CVE/CVE-2021-24284](https://github.com/Live-Hack-CVE/CVE-2021-24284)
 
-### CVE-2021-24500 (2021-08-09)
-
-<code>
-Several AJAX actions available in the Workreap WordPress theme before 2.2.2 lacked CSRF protections, as well as allowing insecure direct object references that were not validated. This allows an attacker to trick a logged in user to submit a POST request to the vulnerable site, potentially modifying or deleting arbitrary objects on the target site.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-24500](https://github.com/Live-Hack-CVE/CVE-2021-24500)
-
 ### CVE-2021-24703 (2021-11-23)
 
 <code>
@@ -15162,14 +15207,6 @@ The Download Plugin WordPress plugin before 1.6.1 does not have capability and C
 </code>
 
 - [Live-Hack-CVE/CVE-2021-24703](https://github.com/Live-Hack-CVE/CVE-2021-24703)
-
-### CVE-2021-24752 (2021-10-18)
-
-<code>
-Multiple Plugins from the CatchThemes vendor do not perform capability and CSRF checks in the ctp_switch AJAX action, which could allow any authenticated users, such as Subscriber to change the Essential Widgets WordPress plugin before 1.9, To Top WordPress plugin before 2.3, Header Enhancement WordPress plugin before 1.5, Generate Child Theme WordPress plugin before 1.6, Essential Content Types WordPress plugin before 1.9, Catch Web Tools WordPress plugin before 2.7, Catch Under Construction WordPress plugin before 1.4, Catch Themes Demo Import WordPress plugin before 1.6, Catch Sticky Menu WordPress plugin before 1.7, Catch Scroll Progress Bar WordPress plugin before 1.6, Social Gallery and Widget WordPress plugin before 2.3, Catch Infinite Scroll WordPress plugin before 1.9, Catch Import Export WordPress plugin before 1.9, Catch Gallery WordPress plugin before 1.7, Catch Duplicate Switcher WordPress plugin before 1.6, Catch Breadcrumb WordPress plugin before 1.7, Catch IDs WordPress plugin before 2.4's configurations.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-24752](https://github.com/Live-Hack-CVE/CVE-2021-24752)
 
 ### CVE-2021-24779 (2021-10-25)
 
@@ -15585,14 +15622,6 @@ A security issue was discovered in kube-apiserver that could allow node updates 
 
 - [darryk10/CVE-2021-25735](https://github.com/darryk10/CVE-2021-25735)
 
-### CVE-2021-25954 (2021-08-09)
-
-<code>
-In “Dolibarr” application, 2.8.1 to 13.0.4 don’t restrict or incorrectly restricts access to a resource from an unauthorized actor. A low privileged attacker can modify the Private Note which only an administrator has rights to do, the affected field is at “/adherents/note.php?id=1” endpoint.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-25954](https://github.com/Live-Hack-CVE/CVE-2021-25954)
-
 ### CVE-2021-26119 (2021-02-21)
 
 <code>
@@ -15612,6 +15641,14 @@ Smarty before 3.1.39 allows code injection via an unexpected function name after
 
 ### CVE-2021-26121
 - [sourceincite/CVE-2021-26121](https://github.com/sourceincite/CVE-2021-26121)
+
+### CVE-2021-26254 (2022-08-18)
+
+<code>
+Out of bounds read for some Intel(R) PROSet/Wireless WiFi and Killer(TM) WiFi products may allow a privileged user to potentially enable denial of service via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-26254](https://github.com/Live-Hack-CVE/CVE-2021-26254)
 
 ### CVE-2021-26257 (2022-08-18)
 
@@ -15860,6 +15897,14 @@ An integer overflow leading to a heap-buffer overflow was found in OpenEXR in ve
 </code>
 
 - [Live-Hack-CVE/CVE-2021-26945](https://github.com/Live-Hack-CVE/CVE-2021-26945)
+
+### CVE-2021-26950 (2022-08-18)
+
+<code>
+Out of bounds read in firmware for some Intel(R) Wireless Bluetooth(R) and Killer(TM) Bluetooth(R) products before version 22.120 may allow an authenticated user to potentially enable denial of service via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-26950](https://github.com/Live-Hack-CVE/CVE-2021-26950)
 
 ### CVE-2021-27038 (2021-07-09)
 
@@ -16537,6 +16582,14 @@ In JetBrains PyCharm before 2020.3.4, local code execution was possible because 
 
 - [atorralba/CVE-2021-30005-POC](https://github.com/atorralba/CVE-2021-30005-POC)
 
+### CVE-2021-30070 (2022-08-18)
+
+<code>
+An issue was discovered in HestiaCP before v1.3.5. Attackers are able to arbitrarily install packages due to values taken from the pgk [] parameter in the update request being transmitted to the operating system's package manager.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-30070](https://github.com/Live-Hack-CVE/CVE-2021-30070)
+
 ### CVE-2021-30071 (2022-08-18)
 
 <code>
@@ -16611,6 +16664,14 @@ Valve Steam through 2021-04-10, when a Source engine game is installed, allows r
 </code>
 
 - [floesen/CVE-2021-30481](https://github.com/floesen/CVE-2021-30481)
+
+### CVE-2021-30490 (2022-08-16)
+
+<code>
+upsMonitor in ViewPower (aka ViewPowerHTML) 1.04-21012 through 1.04-21353 has insecure permissions for the service binary that enable an Authenticated User to modify files, allowing for privilege escalation.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-30490](https://github.com/Live-Hack-CVE/CVE-2021-30490)
 
 ### CVE-2021-30496 (2021-04-20)
 
@@ -16801,22 +16862,6 @@ A vulnerability has been identified in SIMATIC RF166C (All versions &gt; V1.1 an
 </code>
 
 - [Live-Hack-CVE/CVE-2021-31340](https://github.com/Live-Hack-CVE/CVE-2021-31340)
-
-### CVE-2021-31349 (2021-10-19)
-
-<code>
-The usage of an internal HTTP header created an authentication bypass vulnerability (CWE-287), allowing an attacker to view internal files, change settings, manipulate services and execute arbitrary code. This issue affects all Juniper Networks 128 Technology Session Smart Router versions prior to 4.5.11, and all versions of 5.0 up to and including 5.0.1.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-31349](https://github.com/Live-Hack-CVE/CVE-2021-31349)
-
-### CVE-2021-31356 (2021-10-19)
-
-<code>
-A command injection vulnerability in command processing on Juniper Networks Junos OS Evolved allows an attacker with authenticated CLI access to be able to bypass configured access protections to execute arbitrary shell commands within the context of the current user. The vulnerability allows an attacker to bypass command authorization restrictions assigned to their specific user account and execute commands that are available to the privilege level for which the user is assigned. For example, a user that is in the super-user login class, but restricted to executing specific CLI commands could exploit the vulnerability to execute any other command available to an unrestricted admin user. This vulnerability does not increase the privilege level of the user, but rather bypasses any CLI command restrictions by allowing full access to the shell. This issue affects Juniper Networks Junos OS Evolved: All versions prior to 20.4R3-S1-EVO; All versions of 21.1-EVO and 21.2-EVO.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-31356](https://github.com/Live-Hack-CVE/CVE-2021-31356)
 
 ### CVE-2021-31357 (2021-10-19)
 
@@ -17045,21 +17090,13 @@ Cranelift is an open-source code generator maintained by Bytecode Alliance. It t
 
 - [Live-Hack-CVE/CVE-2021-32629](https://github.com/Live-Hack-CVE/CVE-2021-32629)
 
-### CVE-2021-32656 (2021-06-01)
+### CVE-2021-32642 (2021-05-28)
 
 <code>
-Nextcloud Server is a Nextcloud package that handles data storage. A vulnerability in federated share exists in versions prior to 19.0.11, 20.0.10, and 21.0.2. An attacker can gain access to basic information about users of a server by accessing a public link that a legitimate server user added as a federated share. This happens because Nextcloud supports sharing registered users with other Nextcloud servers, which can be done automatically when selecting the &quot;Add server automatically once a federated share was created successfully&quot; setting. The vulnerability is patched in versions 19.0.11, 20.0.10, and 21.0.2 As a workaround, disable &quot;Add server automatically once a federated share was created successfully&quot; in the Nextcloud settings.
+radsecproxy is a generic RADIUS proxy that supports both UDP and TLS (RadSec) RADIUS transports. Missing input validation in radsecproxy's `naptr-eduroam.sh` and `radsec-dynsrv.sh` scripts can lead to configuration injection via crafted radsec peer discovery DNS records. Users are subject to Information disclosure, Denial of Service, Redirection of Radius connection to a non-authenticated server leading to non-authenticated network access. Updated example scripts are available in the master branch and 1.9 release. Note that the scripts are not part of the installation package and are not updated automatically. If you are using the examples, you have to update them manually. The dyndisc scripts work independently of the radsecproxy code. The updated scripts can be used with any version of radsecproxy.
 </code>
 
-- [Live-Hack-CVE/CVE-2021-32656](https://github.com/Live-Hack-CVE/CVE-2021-32656)
-
-### CVE-2021-32658 (2021-06-08)
-
-<code>
-Nextcloud Android is the Android client for the Nextcloud open source home cloud system. Due to a timeout issue the Android client may not properly clean all sensitive data on account removal. This could include sensitive key material such as the End-to-End encryption keys. It is recommended that the Nextcloud Android App is upgraded to 3.16.1
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32658](https://github.com/Live-Hack-CVE/CVE-2021-32658)
+- [Live-Hack-CVE/CVE-2021-32642](https://github.com/Live-Hack-CVE/CVE-2021-32642)
 
 ### CVE-2021-32672 (2021-10-04)
 
@@ -17085,14 +17122,6 @@ Redis is an open source, in-memory database that persists on disk. An integer ov
 
 - [Live-Hack-CVE/CVE-2021-32687](https://github.com/Live-Hack-CVE/CVE-2021-32687)
 
-### CVE-2021-32690 (2021-06-16)
-
-<code>
-Helm is a tool for managing Charts (packages of pre-configured Kubernetes resources). In versions of helm prior to 3.6.1, a vulnerability exists where the username and password credentials associated with a Helm repository could be passed on to another domain referenced by that Helm repository. This issue has been resolved in 3.6.1. There is a workaround through which one may check for improperly passed credentials. One may use a username and password for a Helm repository and may audit the Helm repository in order to check for another domain being used that could have received the credentials. In the `index.yaml` file for that repository, one may look for another domain in the `urls` list for the chart versions. If there is another domain found and that chart version was pulled or installed, the credentials would be passed on.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32690](https://github.com/Live-Hack-CVE/CVE-2021-32690)
-
 ### CVE-2021-32692 (2022-12-22)
 
 <code>
@@ -17100,30 +17129,6 @@ Activity Watch is a free and open-source automated time tracker. Versions prior 
 </code>
 
 - [Live-Hack-CVE/CVE-2021-32692](https://github.com/Live-Hack-CVE/CVE-2021-32692)
-
-### CVE-2021-32695 (2021-06-17)
-
-<code>
-Nextcloud Android app is the Android client for Nextcloud. In versions prior to 3.16.1, a malicious app on the same device could have gotten access to the shared preferences of the Nextcloud Android application. This required user-interaction as a victim had to initiate the sharing flow and choose the malicious app. The shared preferences contain some limited private data such as push tokens and the account name. The vulnerability is patched in version 3.16.1.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32695](https://github.com/Live-Hack-CVE/CVE-2021-32695)
-
-### CVE-2021-32699 (2021-06-22)
-
-<code>
-Wings is the control plane software for the open source Pterodactyl game management system. All versions of Pterodactyl Wings prior to `1.4.4` are vulnerable to system resource exhaustion due to improper container process limits being defined. A malicious user can consume more resources than intended and cause downstream impacts to other clients on the same hardware, eventually causing the physical server to stop responding. Users should upgrade to `1.4.4` to mitigate the issue. There is no non-code based workaround for impacted versions of the software. Users running customized versions of this software can manually set a PID limit for containers created.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32699](https://github.com/Live-Hack-CVE/CVE-2021-32699)
-
-### CVE-2021-32707 (2021-07-12)
-
-<code>
-Nextcloud Mail is a mail app for Nextcloud. In versions prior to 1.9.6, the Nextcloud Mail application does not, by default, render images in emails to not leak the read state. The privacy filter failed to filter images with a `background-image` CSS attribute. Note that the images were still passed through the Nextcloud image proxy, and thus there was no IP leakage. The issue was patched in version 1.9.6 and 1.10.0. No workarounds are known to exist.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32707](https://github.com/Live-Hack-CVE/CVE-2021-32707)
 
 ### CVE-2021-32716 (2021-06-24)
 
@@ -17141,14 +17146,6 @@ Shopware is an open source eCommerce platform. In versions prior to 6.4.1.1 priv
 
 - [Live-Hack-CVE/CVE-2021-32717](https://github.com/Live-Hack-CVE/CVE-2021-32717)
 
-### CVE-2021-32726 (2021-07-12)
-
-<code>
-Nextcloud Server is a Nextcloud package that handles data storage. In versions prior to 19.0.13, 20.011, and 21.0.3, webauthn tokens were not deleted after a user has been deleted. If a victim reused an earlier used username, the previous user could gain access to their account. The issue was fixed in versions 19.0.13, 20.0.11, and 21.0.3. There are no known workarounds.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32726](https://github.com/Live-Hack-CVE/CVE-2021-32726)
-
 ### CVE-2021-32728 (2021-08-18)
 
 <code>
@@ -17156,22 +17153,6 @@ The Nextcloud Desktop Client is a tool to synchronize files from Nextcloud Serve
 </code>
 
 - [Live-Hack-CVE/CVE-2021-32728](https://github.com/Live-Hack-CVE/CVE-2021-32728)
-
-### CVE-2021-32731 (2021-07-01)
-
-<code>
-XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Between (and including) versions 13.1RC1 and 13.1, the reset password form reveals the email address of users just by giving their username. The problem has been patched on XWiki 13.2RC1. As a workaround, it is possible to manually modify the `resetpasswordinline.vm` to perform the changes made to mitigate the vulnerability.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32731](https://github.com/Live-Hack-CVE/CVE-2021-32731)
-
-### CVE-2021-32760 (2021-07-19)
-
-<code>
-containerd is a container runtime. A bug was found in containerd versions prior to 1.4.8 and 1.5.4 where pulling and extracting a specially-crafted container image can result in Unix file permission changes for existing files in the host’s filesystem. Changes to file permissions can deny access to the expected owner of the file, widen access to others, or set extended bits like setuid, setgid, and sticky. This bug does not directly allow files to be read, modified, or executed without an additional cooperating process. This bug has been fixed in containerd 1.5.4 and 1.4.8. As a workaround, ensure that users only pull images from trusted sources. Linux security modules (LSMs) like SELinux and AppArmor can limit the files potentially affected by this bug through policies and profiles that prevent containerd from interacting with specific files.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32760](https://github.com/Live-Hack-CVE/CVE-2021-32760)
 
 ### CVE-2021-32761 (2021-07-21)
 
@@ -17196,30 +17177,6 @@ Nextcloud Text is an open source plaintext editing application which ships with 
 </code>
 
 - [Live-Hack-CVE/CVE-2021-32766](https://github.com/Live-Hack-CVE/CVE-2021-32766)
-
-### CVE-2021-32770 (2021-07-15)
-
-<code>
-Gatsby is a framework for building websites. The gatsby-source-wordpress plugin prior to versions 4.0.8 and 5.9.2 leaks .htaccess HTTP Basic Authentication variables into the app.js bundle during build-time. Users who are not initializing basic authentication credentials in the gatsby-config.js are not affected. A patch has been introduced in gatsby-source-wordpress@4.0.8 and gatsby-source-wordpress@5.9.2 which mitigates the issue by filtering all variables specified in the `auth: { }` section. Users that depend on this functionality are advised to upgrade to the latest release of gatsby-source-wordpress, run `gatsby clean` followed by a `gatsby build`. One may manually edit the app.js file post-build as a workaround.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32770](https://github.com/Live-Hack-CVE/CVE-2021-32770)
-
-### CVE-2021-32779 (2021-08-24)
-
-<code>
-Envoy is an open source L7 proxy and communication bus designed for large modern service oriented architectures. In affected versions envoy incorrectly handled a URI '#fragment' element as part of the path element. Envoy is configured with an RBAC filter for authorization or similar mechanism with an explicit case of a final &quot;/admin&quot; path element, or is using a negative assertion with final path element of &quot;/admin&quot;. The client sends request to &quot;/app1/admin#foo&quot;. In Envoy prior to 1.18.0, or 1.18.0+ configured with path_normalization=false. Envoy treats fragment as a suffix of the query string when present, or as a suffix of the path when query string is absent, so it evaluates the final path element as &quot;/admin#foo&quot; and mismatches with the configured &quot;/admin&quot; path element. In Envoy 1.18.0+ configured with path_normalization=true. Envoy transforms this to /app1/admin%23foo and mismatches with the configured /admin prefix. The resulting URI is sent to the next server-agent with the offending &quot;#foo&quot; fragment which violates RFC3986 or with the nonsensical &quot;%23foo&quot; text appended. A specifically constructed request with URI containing '#fragment' element delivered by an untrusted client in the presence of path based request authorization resulting in escalation of Privileges when path based request authorization extensions. Envoy versions 1.19.1, 1.18.4, 1.17.4, 1.16.5 contain fixes that removes fragment from URI path in incoming requests.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32779](https://github.com/Live-Hack-CVE/CVE-2021-32779)
-
-### CVE-2021-32791 (2021-07-26)
-
-<code>
-mod_auth_openidc is an authentication/authorization module for the Apache 2.x HTTP server that functions as an OpenID Connect Relying Party, authenticating users against an OpenID Connect Provider. In mod_auth_openidc before version 2.4.9, the AES GCM encryption in mod_auth_openidc uses a static IV and AAD. It is important to fix because this creates a static nonce and since aes-gcm is a stream cipher, this can lead to known cryptographic issues, since the same key is being reused. From 2.4.9 onwards this has been patched to use dynamic values through usage of cjose AES encryption routines.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32791](https://github.com/Live-Hack-CVE/CVE-2021-32791)
 
 ### CVE-2021-32800 (2021-09-07)
 
@@ -17261,13 +17218,13 @@ In the bindata RubyGem before version 2.4.10 there is a potential denial-of-serv
 
 - [Live-Hack-CVE/CVE-2021-32823](https://github.com/Live-Hack-CVE/CVE-2021-32823)
 
-### CVE-2021-32829 (2021-08-17)
+### CVE-2021-32862 (2022-08-18)
 
 <code>
-ZStack is open source IaaS(infrastructure as a service) software aiming to automate datacenters, managing resources of compute, storage, and networking all by APIs. Affected versions of ZStack REST API are vulnerable to post-authentication Remote Code Execution (RCE) via bypass of the Groovy shell sandbox. The REST API exposes the GET zstack/v1/batch-queries?script endpoint which is backed up by the BatchQueryAction class. Messages are represented by the APIBatchQueryMsg, dispatched to the QueryFacadeImpl facade and handled by the BatchQuery class. The HTTP request parameter script is mapped to the APIBatchQueryMsg.script property and evaluated as a Groovy script in BatchQuery.query the evaluation of the user-controlled Groovy script is sandboxed by SandboxTransformer which will apply the restrictions defined in the registered (sandbox.register()) GroovyInterceptor. Even though the sandbox heavily restricts the receiver types to a small set of allowed types, the sandbox is non effective at controlling any code placed in Java annotations and therefore vulnerable to meta-programming escapes. This issue leads to post-authenticated remote code execution. For more details see the referenced GHSL-2021-065. This issue is patched in versions 3.8.21, 3.10.8, and 4.1.0.
+The GitHub Security Lab discovered sixteen ways to exploit a cross-site scripting vulnerability in nbconvert. When using nbconvert to generate an HTML version of a user-controllable notebook, it is possible to inject arbitrary HTML which may lead to cross-site scripting (XSS) vulnerabilities if these HTML notebooks are served by a web server (eg: nbviewer).
 </code>
 
-- [Live-Hack-CVE/CVE-2021-32829](https://github.com/Live-Hack-CVE/CVE-2021-32829)
+- [Live-Hack-CVE/CVE-2021-32862](https://github.com/Live-Hack-CVE/CVE-2021-32862)
 
 ### CVE-2021-33069 (2022-05-12)
 
@@ -17405,6 +17362,22 @@ Cross Site Scripting (XSS) vulnerability in New equipment page in EasyVista Serv
 
 - [Live-Hack-CVE/CVE-2021-33231](https://github.com/Live-Hack-CVE/CVE-2021-33231)
 
+### CVE-2021-33235 (2022-08-15)
+
+<code>
+Buffer overflow vulnerability in write_node in htmldoc through 1.9.11 allows attackers to cause a denial of service via htmldoc/htmldoc/html.cxx:588.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-33235](https://github.com/Live-Hack-CVE/CVE-2021-33235)
+
+### CVE-2021-33236 (2022-08-15)
+
+<code>
+Buffer Overflow vulnerability in write_header in htmldoc through 1.9.11 allows attackers to casue a denial of service via /htmldoc/htmldoc/html.cxx:273.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-33236](https://github.com/Live-Hack-CVE/CVE-2021-33236)
+
 ### CVE-2021-33515 (2021-06-28)
 
 <code>
@@ -17533,6 +17506,14 @@ A floating point exception (divide-by-zero) issue was discovered in SoX in funct
 </code>
 
 - [Live-Hack-CVE/CVE-2021-33844](https://github.com/Live-Hack-CVE/CVE-2021-33844)
+
+### CVE-2021-33847 (2022-08-18)
+
+<code>
+Improper buffer restrictions in firmware for some Intel(R) Wireless Bluetooth(R) and Killer(TM) Bluetooth(R) products before version 22.120 may allow an authenticated user to potentially enable escalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-33847](https://github.com/Live-Hack-CVE/CVE-2021-33847)
 
 ### CVE-2021-33879 (2021-06-06)
 
@@ -17773,30 +17754,6 @@ Telenot CompasX versions prior to 32.0 use a weak seed for random number generat
 </code>
 
 - [Live-Hack-CVE/CVE-2021-34600](https://github.com/Live-Hack-CVE/CVE-2021-34600)
-
-### CVE-2021-34629 (2021-07-30)
-
-<code>
-The SendGrid WordPress plugin is vulnerable to authorization bypass via the get_ajax_statistics function found in the ~/lib/class-sendgrid-statistics.php file which allows authenticated users to export statistic for a WordPress multi-site main site, in versions up to and including 1.11.8.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-34629](https://github.com/Live-Hack-CVE/CVE-2021-34629)
-
-### CVE-2021-34702 (2021-10-06)
-
-<code>
-A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to obtain sensitive information. This vulnerability is due to improper enforcement of administrator privilege levels for low-value sensitive data. An attacker with read-only administrator access to the web-based management interface could exploit this vulnerability by browsing to the page that contains the sensitive data. A successful exploit could allow the attacker to collect sensitive information regarding the configuration of the system.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-34702](https://github.com/Live-Hack-CVE/CVE-2021-34702)
-
-### CVE-2021-34710 (2021-10-06)
-
-<code>
-Multiple vulnerabilities in the Cisco ATA 190 Series Analog Telephone Adapter Software could allow an attacker to perform a command injection attack resulting in remote code execution or cause a denial of service (DoS) condition on an affected device. For more information about these vulnerabilities, see the Details section of this advisory.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-34710](https://github.com/Live-Hack-CVE/CVE-2021-34710)
 
 ### CVE-2021-34725 (2021-09-22)
 
@@ -18465,6 +18422,14 @@ Insecure Permissions in administration interface in Planex MZK-DP150N 1.42 and 1
 
 - [Live-Hack-CVE/CVE-2021-37289](https://github.com/Live-Hack-CVE/CVE-2021-37289)
 
+### CVE-2021-37409 (2022-08-18)
+
+<code>
+Improper access control for some Intel(R) PROSet/Wireless WiFi and Killer(TM) WiFi products may allow a privileged user to potentially enable escalation of privilege via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-37409](https://github.com/Live-Hack-CVE/CVE-2021-37409)
+
 ### CVE-2021-37412 (2021-09-15)
 
 <code>
@@ -18472,22 +18437,6 @@ The TechRadar app 1.1 for Confluence Server allows XSS via the Title field of a 
 </code>
 
 - [Live-Hack-CVE/CVE-2021-37412](https://github.com/Live-Hack-CVE/CVE-2021-37412)
-
-### CVE-2021-37652 (2021-08-12)
-
-<code>
-TensorFlow is an end-to-end open source platform for machine learning. In affected versions the implementation for `tf.raw_ops.BoostedTreesCreateEnsemble` can result in a use after free error if an attacker supplies specially crafted arguments. The [implementation](https://github.com/tensorflow/tensorflow/blob/f24faa153ad31a4b51578f8181d3aaab77a1ddeb/tensorflow/core/kernels/boosted_trees/resource_ops.cc#L55) uses a reference counted resource and decrements the refcount if the initialization fails, as it should. However, when the code was written, the resource was represented as a naked pointer but later refactoring has changed it to be a smart pointer. Thus, when the pointer leaves the scope, a subsequent `free`-ing of the resource occurs, but this fails to take into account that the refcount has already reached 0, thus the resource has been already freed. During this double-free process, members of the resource object are accessed for cleanup but they are invalid as the entire resource has been freed. We have patched the issue in GitHub commit 5ecec9c6fbdbc6be03295685190a45e7eee726ab. The fix will be included in TensorFlow 2.6.0. We will also cherrypick this commit on TensorFlow 2.5.1, TensorFlow 2.4.3, and TensorFlow 2.3.4, as these are also affected and still in supported range.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-37652](https://github.com/Live-Hack-CVE/CVE-2021-37652)
-
-### CVE-2021-37708 (2021-08-16)
-
-<code>
-Shopware is an open source eCommerce platform. Versions prior to 6.4.3.1 contain a command injection vulnerability in mail agent settings. Version 6.4.3.1 contains a patch. As workarounds for older versions of 6.1, 6.2, and 6.3, corresponding security measures are also available via a plugin.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-37708](https://github.com/Live-Hack-CVE/CVE-2021-37708)
 
 ### CVE-2021-37819 (2022-09-09)
 
@@ -18512,14 +18461,6 @@ Some components in Apache Kafka use `Arrays.equals` to validate a password or ke
 </code>
 
 - [Live-Hack-CVE/CVE-2021-38153](https://github.com/Live-Hack-CVE/CVE-2021-38153)
-
-### CVE-2021-38161 (2021-11-03)
-
-<code>
-Improper Authentication vulnerability in TLS origin verification of Apache Traffic Server allows for man in the middle attacks. This issue affects Apache Traffic Server 8.0.0 to 8.0.8.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-38161](https://github.com/Live-Hack-CVE/CVE-2021-38161)
 
 ### CVE-2021-38162 (2021-09-14)
 
@@ -18568,38 +18509,6 @@ The affected device uses off-the-shelf software components that contain unpatche
 </code>
 
 - [Live-Hack-CVE/CVE-2021-38398](https://github.com/Live-Hack-CVE/CVE-2021-38398)
-
-### CVE-2021-38436 (2021-10-18)
-
-<code>
-FATEK Automation WinProladder versions 3.30 and prior lacks proper validation of user-supplied data when parsing project files, which could result in a memory-corruption condition. An attacker could leverage this vulnerability to execute arbitrary code in the context of the current process.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-38436](https://github.com/Live-Hack-CVE/CVE-2021-38436)
-
-### CVE-2021-38442 (2021-10-18)
-
-<code>
-FATEK Automation WinProladder versions 3.30 and prior lacks proper validation of user-supplied data when parsing project files, which could result in a heap-corruption condition. An attacker could leverage this vulnerability to execute code in the context of the current process.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-38442](https://github.com/Live-Hack-CVE/CVE-2021-38442)
-
-### CVE-2021-38454 (2021-10-12)
-
-<code>
-A path traversal vulnerability in the Moxa MXview Network Management software Versions 3.x to 3.2.2 may allow an attacker to create or overwrite critical files used to execute code, such as programs or libraries.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-38454](https://github.com/Live-Hack-CVE/CVE-2021-38454)
-
-### CVE-2021-38460 (2021-10-12)
-
-<code>
-A path traversal vulnerability in the Moxa MXview Network Management software Versions 3.x to 3.2.2 may allow an attacker to create or overwrite critical files used to execute code, such as programs or libraries.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-38460](https://github.com/Live-Hack-CVE/CVE-2021-38460)
 
 ### CVE-2021-38475 (2021-10-22)
 
@@ -18673,6 +18582,14 @@ IBM Cognos Analytics 11.1.7, 11.2.0, and 11.1.7 is vulnerable to cross-site scri
 
 - [Live-Hack-CVE/CVE-2021-38946](https://github.com/Live-Hack-CVE/CVE-2021-38946)
 
+### CVE-2021-39035 (2022-08-16)
+
+<code>
+IBM Sterling B2B Integrator Standard Edition 6.0.0.0 through 6.0.3.5, 6.1.0.0 through 6.1.0.4, and 6.1.1.0 through 6.1.1.1 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session. IBM X-Force ID: 213965.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-39035](https://github.com/Live-Hack-CVE/CVE-2021-39035)
+
 ### CVE-2021-39048 (2021-12-13)
 
 <code>
@@ -18680,6 +18597,30 @@ IBM Spectrum Protect Client 7.1 and 8.1 is vulnerable to a stack based buffer ov
 </code>
 
 - [Live-Hack-CVE/CVE-2021-39048](https://github.com/Live-Hack-CVE/CVE-2021-39048)
+
+### CVE-2021-39085 (2022-08-16)
+
+<code>
+IBM Sterling B2B Integrator Standard Edition 6.0.0.0 through 6.0.3.5, 6.1.0.0 through 6.1.0.4, and 6.1.1.0 through 6.1.1.1 is vulnerable to SQL injection. A remote attacker could send specially crafted SQL statements, which could allow the attacker to view, add, modify or delete information in the back-end database. IBM X-Force ID: 215888.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-39085](https://github.com/Live-Hack-CVE/CVE-2021-39085)
+
+### CVE-2021-39086 (2022-08-16)
+
+<code>
+IBM Sterling File Gateway 6.0.0.0 through 6.0.3.5, 6.1.0.0 through 6.1.0.4, and 6.1.1.0 through 6.1.1.1 could allow a remote attacker to obtain sensitive information when a detailed technical error message is returned in the browser. This information could be used in further attacks against the system. IBM X-Force ID: 215889.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-39086](https://github.com/Live-Hack-CVE/CVE-2021-39086)
+
+### CVE-2021-39087 (2022-08-16)
+
+<code>
+IBM Sterling B2B Integrator Standard Edition 6.0.0.0 through 6.0.3.5, 6.1.0.0 through 6.1.0.4, and 6.1.1.0 through 6.1.1.1 could allow an authenticated user to obtain sensitive information due to improper permission controls. IBM X-Force ID: 216109.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-39087](https://github.com/Live-Hack-CVE/CVE-2021-39087)
 
 ### CVE-2021-39146 (2021-08-23)
 
@@ -19617,6 +19558,14 @@ An issue was discovered in the Translate extension in MediaWiki through 1.36.2. 
 
 - [Live-Hack-CVE/CVE-2021-42049](https://github.com/Live-Hack-CVE/CVE-2021-42049)
 
+### CVE-2021-42052 (2022-08-16)
+
+<code>
+IPESA e-Flow 3.3.6 allows path traversal for reading any file within the web root directory via the lib/js/build/STEResource.res path and the R query parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-42052](https://github.com/Live-Hack-CVE/CVE-2021-42052)
+
 ### CVE-2021-42067 (2022-01-14)
 
 <code>
@@ -20057,6 +20006,14 @@ A vulnerability has been identified in JT Utilities (All versions &lt; V13.1.1.0
 
 - [Live-Hack-CVE/CVE-2021-44444](https://github.com/Live-Hack-CVE/CVE-2021-44444)
 
+### CVE-2021-44470 (2022-08-18)
+
+<code>
+Incorrect default permissions for the Intel(R) Connect M Android application before version 1.7.4 may allow an authenticated user to potentially enable information disclosure via local access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-44470](https://github.com/Live-Hack-CVE/CVE-2021-44470)
+
 ### CVE-2021-44531 (2022-02-24)
 
 <code>
@@ -20089,6 +20046,14 @@ ownCloud owncloud/client before 2.9.2 allows Resource Injection by a server into
 
 - [Live-Hack-CVE/CVE-2021-44537](https://github.com/Live-Hack-CVE/CVE-2021-44537)
 
+### CVE-2021-44545 (2022-08-18)
+
+<code>
+Improper input validation for some Intel(R) PROSet/Wireless WiFi and Killer(TM) WiFi products may allow an unauthenticated user to potentially enable denial of service via adjacent access.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-44545](https://github.com/Live-Hack-CVE/CVE-2021-44545)
+
 ### CVE-2021-44595 (2022-04-29)
 
 <code>
@@ -20112,6 +20077,14 @@ wolfSSL through 5.0.0 allows an attacker to cause a denial of service and infini
 </code>
 
 - [Live-Hack-CVE/CVE-2021-44718](https://github.com/Live-Hack-CVE/CVE-2021-44718)
+
+### CVE-2021-44720 (2022-08-11)
+
+<code>
+In Ivanti Pulse Secure Pulse Connect Secure (PCS) before 9.1R12, the administrator password is stored in the HTML source code of the &quot;Maintenance &gt; Push Configuration &gt; Targets &gt; Target Name&quot; targets.cgi screen. A read-only administrative user can escalate to a read-write administrative role.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-44720](https://github.com/Live-Hack-CVE/CVE-2021-44720)
 
 ### CVE-2021-44732 (2021-12-20)
 
@@ -20193,6 +20166,30 @@ stab_xcoff_builtin_type in stabs.c in GNU Binutils through 2.37 allows attackers
 
 - [Live-Hack-CVE/CVE-2021-45078](https://github.com/Live-Hack-CVE/CVE-2021-45078)
 
+### CVE-2021-45085 (2021-12-15)
+
+<code>
+XSS can occur in GNOME Web (aka Epiphany) before 40.4 and 41.x before 41.1 via an about: page, as demonstrated by ephy-about:overview when a user visits an XSS payload page often enough to place that page on the Most Visited list.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-45085](https://github.com/Live-Hack-CVE/CVE-2021-45085)
+
+### CVE-2021-45087 (2021-12-15)
+
+<code>
+XSS can occur in GNOME Web (aka Epiphany) before 40.4 and 41.x before 41.1 when View Source mode or Reader mode is used, as demonstrated by a a page title.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-45087](https://github.com/Live-Hack-CVE/CVE-2021-45087)
+
+### CVE-2021-45088 (2021-12-15)
+
+<code>
+XSS can occur in GNOME Web (aka Epiphany) before 40.4 and 41.x before 41.1 via an error page.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-45088](https://github.com/Live-Hack-CVE/CVE-2021-45088)
+
 ### CVE-2021-45105 (2021-12-18)
 
 <code>
@@ -20224,6 +20221,14 @@ In zsh before 5.8.1, an attacker can achieve code execution if they control a co
 </code>
 
 - [Live-Hack-CVE/CVE-2021-45444](https://github.com/Live-Hack-CVE/CVE-2021-45444)
+
+### CVE-2021-45454 (2022-08-17)
+
+<code>
+Ampere Altra before SRP 1.08b and Altra Max​ before SRP 2.05 allow information disclosure of power telemetry via HWmon.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-45454](https://github.com/Live-Hack-CVE/CVE-2021-45454)
 
 ### CVE-2021-45466 (2022-12-25)
 
@@ -20345,6 +20350,14 @@ DLink DIR850 ET850-1.08TRb03 is affected by an incorrect access control vulnerab
 
 - [Live-Hack-CVE/CVE-2021-46379](https://github.com/Live-Hack-CVE/CVE-2021-46379)
 
+### CVE-2021-46426 (2022-03-25)
+
+<code>
+phpIPAM 1.4.4 allows Reflected XSS and CSRF via app/admin/subnets/find_free_section_subnets.php of the subnets functionality.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-46426](https://github.com/Live-Hack-CVE/CVE-2021-46426)
+
 ### CVE-2021-46665 (2022-01-31)
 
 <code>
@@ -20384,6 +20397,14 @@ options.c in atftp before 0.7.5 reads past the end of an array, and consequently
 </code>
 
 - [Live-Hack-CVE/CVE-2021-46671](https://github.com/Live-Hack-CVE/CVE-2021-46671)
+
+### CVE-2021-46778 (2022-08-09)
+
+<code>
+Execution unit scheduler contention may lead to a side channel vulnerability found on AMD CPU microarchitectures codenamed “Zen 1”, “Zen 2” and “Zen 3” that use simultaneous multithreading (SMT). By measuring the contention level on scheduler queues an attacker may potentially leak sensitive information.
+</code>
+
+- [Live-Hack-CVE/CVE-2021-46778](https://github.com/Live-Hack-CVE/CVE-2021-46778)
 
 ### CVE-2021-46784 (2022-07-17)
 
@@ -20482,7 +20503,6 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 </code>
 
 - [marcinguy/CVE-2020-0022](https://github.com/marcinguy/CVE-2020-0022)
-- [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 
 ### CVE-2020-0041 (2020-03-10)
 
@@ -20993,22 +21013,6 @@ A flaw was found in Keycloak Gatekeeper (Louketo). The logout endpoint can be ab
 
 - [Live-Hack-CVE/CVE-2020-1723](https://github.com/Live-Hack-CVE/CVE-2020-1723)
 
-### CVE-2020-1730 (2020-04-13)
-
-<code>
-A flaw was found in libssh versions before 0.8.9 and before 0.9.4 in the way it handled AES-CTR (or DES ciphers if enabled) ciphers. The server or client could crash when the connection hasn't been fully initialized and the system tries to cleanup the ciphers when closing the connection. The biggest threat from this vulnerability is system availability.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-1730](https://github.com/Live-Hack-CVE/CVE-2020-1730)
-
-### CVE-2020-1744 (2020-03-24)
-
-<code>
-A flaw was found in keycloak before version 9.0.1. When configuring an Conditional OTP Authentication Flow as a post login flow of an IDP, the failure login events for OTP are not being sent to the brute force protection event queue. So BruteForceProtector does not handle this events.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-1744](https://github.com/Live-Hack-CVE/CVE-2020-1744)
-
 ### CVE-2020-1752 (2020-04-30)
 
 <code>
@@ -21024,6 +21028,22 @@ A security flaw was found in Ansible Engine, all Ansible 2.7.x versions prior to
 </code>
 
 - [Live-Hack-CVE/CVE-2020-1753](https://github.com/Live-Hack-CVE/CVE-2020-1753)
+
+### CVE-2020-1755 (2022-08-16)
+
+<code>
+In Moodle before 3.8.2, 3.7.5, 3.6.9 and 3.5.11, X-Forwarded-For headers could be used to spoof a user's IP, in order to bypass remote address checks.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-1755](https://github.com/Live-Hack-CVE/CVE-2020-1755)
+
+### CVE-2020-1756 (2022-08-16)
+
+<code>
+In Moodle before 3.8.2, 3.7.5, 3.6.9 and 3.5.11, insufficient input escaping was applied to the PHP unit webrunner admin tool.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-1756](https://github.com/Live-Hack-CVE/CVE-2020-1756)
 
 ### CVE-2020-1920 (2021-06-01)
 
@@ -21137,14 +21157,6 @@ The X.509 GeneralName type is a generic type for representing different types of
 
 - [Live-Hack-CVE/CVE-2020-1971](https://github.com/Live-Hack-CVE/CVE-2020-1971)
 
-### CVE-2020-2026 (2020-06-10)
-
-<code>
-A malicious guest compromised before a container creation (e.g. a malicious guest image or a guest running multiple containers) can trick the kata runtime into mounting the untrusted container filesystem on any host path, potentially allowing for code execution on the host. This issue affects: Kata Containers 1.11 versions earlier than 1.11.1; Kata Containers 1.10 versions earlier than 1.10.5; Kata Containers 1.9 and earlier versions.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-2026](https://github.com/Live-Hack-CVE/CVE-2020-2026)
-
 ### CVE-2020-2038 (2020-09-09)
 
 <code>
@@ -21152,14 +21164,6 @@ An OS Command Injection vulnerability in the PAN-OS management interface that al
 </code>
 
 - [Live-Hack-CVE/CVE-2020-2038](https://github.com/Live-Hack-CVE/CVE-2020-2038)
-
-### CVE-2020-2091 (2020-01-15)
-
-<code>
-A missing permission check in Jenkins Amazon EC2 Plugin 1.47 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL within the AWS region using attacker-specified credentials IDs obtained through another method.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-2091](https://github.com/Live-Hack-CVE/CVE-2020-2091)
 
 ### CVE-2020-2094 (2020-01-15)
 
@@ -22053,14 +22057,6 @@ Valve's Game Networking Sockets prior to version v1.2.0 improperly handles inlin
 
 - [Live-Hack-CVE/CVE-2020-6019](https://github.com/Live-Hack-CVE/CVE-2020-6019)
 
-### CVE-2020-6020 (2020-09-24)
-
-<code>
-Check Point Security Management's Internal CA web management before Jumbo HFAs R80.10 Take 278, R80.20 Take 160, R80.30 Take 210, and R80.40 Take 38, can be manipulated to run commands as a high privileged user or crash, due to weak input validation on inputs by a trusted management administrator.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-6020](https://github.com/Live-Hack-CVE/CVE-2020-6020)
-
 ### CVE-2020-6066 (2020-02-11)
 
 <code>
@@ -22598,22 +22594,6 @@ GNU LibreDWG 0.9.3.2564 has an invalid pointer dereference in dwg_dynapi_entity_
 
 - [Live-Hack-CVE/CVE-2020-6615](https://github.com/Live-Hack-CVE/CVE-2020-6615)
 
-### CVE-2020-6624 (2020-01-08)
-
-<code>
-jhead through 3.04 has a heap-based buffer over-read in process_DQT in jpgqguess.c.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-6624](https://github.com/Live-Hack-CVE/CVE-2020-6624)
-
-### CVE-2020-6625 (2020-01-08)
-
-<code>
-jhead through 3.04 has a heap-based buffer over-read in Get32s when called from ProcessGpsInfo in gpsinfo.c.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-6625](https://github.com/Live-Hack-CVE/CVE-2020-6625)
-
 ### CVE-2020-6650 (2020-03-23)
 
 <code>
@@ -22697,14 +22677,6 @@ Potential security vulnerabilities including compromise of integrity, and allowe
 
 - [Live-Hack-CVE/CVE-2020-6922](https://github.com/Live-Hack-CVE/CVE-2020-6922)
 
-### CVE-2020-7016 (2020-07-27)
-
-<code>
-Kibana versions before 6.8.11 and 7.8.1 contain a denial of service (DoS) flaw in Timelion. An attacker can construct a URL that when viewed by a Kibana user can lead to the Kibana process consuming large amounts of CPU and becoming unresponsive.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-7016](https://github.com/Live-Hack-CVE/CVE-2020-7016)
-
 ### CVE-2020-7017 (2020-07-27)
 
 <code>
@@ -22736,14 +22708,6 @@ In PHP versions 7.3.x below 7.3.26, 7.4.x below 7.4.14 and 8.0.0, when validatin
 </code>
 
 - [Live-Hack-CVE/CVE-2020-7071](https://github.com/Live-Hack-CVE/CVE-2020-7071)
-
-### CVE-2020-7246 (2020-01-21)
-
-<code>
-A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An attacker can upload a malicious PHP code file via the profile photo functionality, by leveraging a path traversal vulnerability in the users['photop_preview'] delete photo feature, allowing bypass of .htaccess protection. NOTE: this issue exists because of an incomplete fix for CVE-2015-3884.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-7246](https://github.com/Live-Hack-CVE/CVE-2020-7246)
 
 ### CVE-2020-7247 (2020-01-29)
 
@@ -22837,14 +22801,6 @@ A CWE-284 Improper Access Control vulnerability exists in EcoStruxure Building O
 
 - [Live-Hack-CVE/CVE-2020-7573](https://github.com/Live-Hack-CVE/CVE-2020-7573)
 
-### CVE-2020-7608 (2020-03-16)
-
-<code>
-yargs-parser could be tricked into adding or modifying properties of Object.prototype using a &quot;__proto__&quot; payload.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-7608](https://github.com/Live-Hack-CVE/CVE-2020-7608)
-
 ### CVE-2020-7677 (2022-07-25)
 
 <code>
@@ -22852,14 +22808,6 @@ This affects the package thenify before 3.3.1. The name argument provided to the
 </code>
 
 - [Live-Hack-CVE/CVE-2020-7677](https://github.com/Live-Hack-CVE/CVE-2020-7677)
-
-### CVE-2020-7729 (2020-09-03)
-
-<code>
-The package grunt before 1.3.0 are vulnerable to Arbitrary Code Execution due to the default usage of the function load() instead of its secure replacement safeLoad() of the package js-yaml inside grunt.file.readYAML.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-7729](https://github.com/Live-Hack-CVE/CVE-2020-7729)
 
 ### CVE-2020-7733 (2020-09-16)
 
@@ -23210,14 +23158,6 @@ Kubernetes API server in all versions allow an attacker who is able to create a 
 </code>
 
 - [Live-Hack-CVE/CVE-2020-8554](https://github.com/Live-Hack-CVE/CVE-2020-8554)
-
-### CVE-2020-8555 (2020-06-04)
-
-<code>
-The Kubernetes kube-controller-manager in versions v1.0-1.14, versions prior to v1.15.12, v1.16.9, v1.17.5, and version v1.18.0 are vulnerable to a Server Side Request Forgery (SSRF) that allows certain authorized users to leak up to 500 bytes of arbitrary information from unprotected endpoints within the master's host network (such as link-local or loopback services).
-</code>
-
-- [Live-Hack-CVE/CVE-2020-8555](https://github.com/Live-Hack-CVE/CVE-2020-8555)
 
 ### CVE-2020-8558 (2020-07-27)
 
@@ -23944,6 +23884,478 @@ A stored cross-site scripting (XSS) vulnerability exists in the WPForms Contact 
 
 - [Live-Hack-CVE/CVE-2020-10385](https://github.com/Live-Hack-CVE/CVE-2020-10385)
 
+### CVE-2020-10387 (2020-03-12)
+
+<code>
+Path Traversal in admin/download.php in Chadha PHPKB Standard Multi-Language 9 allows remote attackers to download files from the server using a dot-dot-slash sequence (../) via the GET parameter file.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10387](https://github.com/Live-Hack-CVE/CVE-2020-10387)
+
+### CVE-2020-10388 (2020-03-12)
+
+<code>
+The way the Referer header in article.php is handled in Chadha PHPKB Standard Multi-Language 9 allows attackers to execute Stored (Blind) XSS (injecting arbitrary web script or HTML) in admin/report-referrers.php (vulnerable file admin/include/functions-articles.php).
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10388](https://github.com/Live-Hack-CVE/CVE-2020-10388)
+
+### CVE-2020-10390 (2020-03-12)
+
+<code>
+OS Command Injection in export.php (vulnerable function called from include/functions-article.php) in Chadha PHPKB Standard Multi-Language 9 allows remote attackers to achieve Code Execution by saving the code to be executed as the wkhtmltopdf path via admin/save-settings.php.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10390](https://github.com/Live-Hack-CVE/CVE-2020-10390)
+
+### CVE-2020-10391 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/add-article.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10391](https://github.com/Live-Hack-CVE/CVE-2020-10391)
+
+### CVE-2020-10392 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/add-category.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10392](https://github.com/Live-Hack-CVE/CVE-2020-10392)
+
+### CVE-2020-10393 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/add-field.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10393](https://github.com/Live-Hack-CVE/CVE-2020-10393)
+
+### CVE-2020-10394 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/add-glossary.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10394](https://github.com/Live-Hack-CVE/CVE-2020-10394)
+
+### CVE-2020-10395 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/add-group.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10395](https://github.com/Live-Hack-CVE/CVE-2020-10395)
+
+### CVE-2020-10396 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/add-language.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10396](https://github.com/Live-Hack-CVE/CVE-2020-10396)
+
+### CVE-2020-10397 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/add-news.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10397](https://github.com/Live-Hack-CVE/CVE-2020-10397)
+
+### CVE-2020-10398 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/add-template.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10398](https://github.com/Live-Hack-CVE/CVE-2020-10398)
+
+### CVE-2020-10399 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/add-user.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10399](https://github.com/Live-Hack-CVE/CVE-2020-10399)
+
+### CVE-2020-10400 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/article-collaboration.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10400](https://github.com/Live-Hack-CVE/CVE-2020-10400)
+
+### CVE-2020-10401 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-article.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10401](https://github.com/Live-Hack-CVE/CVE-2020-10401)
+
+### CVE-2020-10402 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-category.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10402](https://github.com/Live-Hack-CVE/CVE-2020-10402)
+
+### CVE-2020-10403 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-comment.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10403](https://github.com/Live-Hack-CVE/CVE-2020-10403)
+
+### CVE-2020-10404 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-field.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10404](https://github.com/Live-Hack-CVE/CVE-2020-10404)
+
+### CVE-2020-10405 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-glossary.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10405](https://github.com/Live-Hack-CVE/CVE-2020-10405)
+
+### CVE-2020-10406 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-group.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10406](https://github.com/Live-Hack-CVE/CVE-2020-10406)
+
+### CVE-2020-10407 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-news.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10407](https://github.com/Live-Hack-CVE/CVE-2020-10407)
+
+### CVE-2020-10408 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-subscriber.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10408](https://github.com/Live-Hack-CVE/CVE-2020-10408)
+
+### CVE-2020-10409 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-template.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10409](https://github.com/Live-Hack-CVE/CVE-2020-10409)
+
+### CVE-2020-10410 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/edit-user.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10410](https://github.com/Live-Hack-CVE/CVE-2020-10410)
+
+### CVE-2020-10411 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/email-harvester.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10411](https://github.com/Live-Hack-CVE/CVE-2020-10411)
+
+### CVE-2020-10412 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/import-csv.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10412](https://github.com/Live-Hack-CVE/CVE-2020-10412)
+
+### CVE-2020-10413 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/import-html.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10413](https://github.com/Live-Hack-CVE/CVE-2020-10413)
+
+### CVE-2020-10414 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/index-attachments.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10414](https://github.com/Live-Hack-CVE/CVE-2020-10414)
+
+### CVE-2020-10415 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/index.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10415](https://github.com/Live-Hack-CVE/CVE-2020-10415)
+
+### CVE-2020-10416 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/kb-backup.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10416](https://github.com/Live-Hack-CVE/CVE-2020-10416)
+
+### CVE-2020-10417 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-articles.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10417](https://github.com/Live-Hack-CVE/CVE-2020-10417)
+
+### CVE-2020-10418 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-attachments.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10418](https://github.com/Live-Hack-CVE/CVE-2020-10418)
+
+### CVE-2020-10419 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-categories.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10419](https://github.com/Live-Hack-CVE/CVE-2020-10419)
+
+### CVE-2020-10420 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-comments.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10420](https://github.com/Live-Hack-CVE/CVE-2020-10420)
+
+### CVE-2020-10421 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-departments.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10421](https://github.com/Live-Hack-CVE/CVE-2020-10421)
+
+### CVE-2020-10422 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-drafts.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10422](https://github.com/Live-Hack-CVE/CVE-2020-10422)
+
+### CVE-2020-10423 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-feedbacks.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10423](https://github.com/Live-Hack-CVE/CVE-2020-10423)
+
+### CVE-2020-10424 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-fields.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10424](https://github.com/Live-Hack-CVE/CVE-2020-10424)
+
+### CVE-2020-10425 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-glossary.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10425](https://github.com/Live-Hack-CVE/CVE-2020-10425)
+
+### CVE-2020-10426 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-groups.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10426](https://github.com/Live-Hack-CVE/CVE-2020-10426)
+
+### CVE-2020-10427 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-languages.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10427](https://github.com/Live-Hack-CVE/CVE-2020-10427)
+
+### CVE-2020-10428 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-news.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10428](https://github.com/Live-Hack-CVE/CVE-2020-10428)
+
+### CVE-2020-10429 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-settings.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10429](https://github.com/Live-Hack-CVE/CVE-2020-10429)
+
+### CVE-2020-10430 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-subscribers.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10430](https://github.com/Live-Hack-CVE/CVE-2020-10430)
+
+### CVE-2020-10431 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-templates.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10431](https://github.com/Live-Hack-CVE/CVE-2020-10431)
+
+### CVE-2020-10432 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-tickets.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10432](https://github.com/Live-Hack-CVE/CVE-2020-10432)
+
+### CVE-2020-10433 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-users.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10433](https://github.com/Live-Hack-CVE/CVE-2020-10433)
+
+### CVE-2020-10434 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/manage-versions.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10434](https://github.com/Live-Hack-CVE/CVE-2020-10434)
+
+### CVE-2020-10435 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/my-languages.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10435](https://github.com/Live-Hack-CVE/CVE-2020-10435)
+
+### CVE-2020-10436 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/my-profile.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10436](https://github.com/Live-Hack-CVE/CVE-2020-10436)
+
+### CVE-2020-10437 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/optimize-database.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10437](https://github.com/Live-Hack-CVE/CVE-2020-10437)
+
+### CVE-2020-10438 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/reply-ticket.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10438](https://github.com/Live-Hack-CVE/CVE-2020-10438)
+
+### CVE-2020-10439 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/report-article-discussed.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10439](https://github.com/Live-Hack-CVE/CVE-2020-10439)
+
+### CVE-2020-10440 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/report-article-mailed.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10440](https://github.com/Live-Hack-CVE/CVE-2020-10440)
+
+### CVE-2020-10441 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/report-article-monthly.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10441](https://github.com/Live-Hack-CVE/CVE-2020-10441)
+
+### CVE-2020-10442 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/report-article-popular.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10442](https://github.com/Live-Hack-CVE/CVE-2020-10442)
+
+### CVE-2020-10443 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/report-article-printed.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10443](https://github.com/Live-Hack-CVE/CVE-2020-10443)
+
+### CVE-2020-10444 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/report-article-rated.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10444](https://github.com/Live-Hack-CVE/CVE-2020-10444)
+
+### CVE-2020-10445 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/report-article.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10445](https://github.com/Live-Hack-CVE/CVE-2020-10445)
+
+### CVE-2020-10446 (2020-03-12)
+
+<code>
+The way URIs are handled in admin/header.php in Chadha PHPKB Standard Multi-Language 9 allows Reflected XSS (injecting arbitrary web script or HTML) in admin/report-category.php by adding a question mark (?) followed by the payload.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10446](https://github.com/Live-Hack-CVE/CVE-2020-10446)
+
 ### CVE-2020-10447 (2020-03-12)
 
 <code>
@@ -24384,6 +24796,14 @@ CSRF in admin/manage-comments.php in Chadha PHPKB Standard Multi-Language 9 allo
 
 - [Live-Hack-CVE/CVE-2020-10503](https://github.com/Live-Hack-CVE/CVE-2020-10503)
 
+### CVE-2020-10504 (2020-03-12)
+
+<code>
+CSRF in admin/edit-comments.php in Chadha PHPKB Standard Multi-Language 9 allows attackers to edit a comment, given the id, via a crafted request.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-10504](https://github.com/Live-Hack-CVE/CVE-2020-10504)
+
 ### CVE-2020-10551 (2020-04-09)
 
 <code>
@@ -24459,14 +24879,6 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 - [harry1080/CVE-2020-10673](https://github.com/harry1080/CVE-2020-10673)
 - [Al1ex/CVE-2020-10673](https://github.com/Al1ex/CVE-2020-10673)
 
-### CVE-2020-10684 (2020-03-24)
-
-<code>
-A flaw was found in Ansible Engine, all versions 2.7.x, 2.8.x and 2.9.x prior to 2.7.17, 2.8.9 and 2.9.6 respectively, when using ansible_facts as a subkey of itself and promoting it to a variable when inject is enabled, overwriting the ansible_facts after the clean. An attacker could take advantage of this by altering the ansible_facts, such as ansible_hosts, users and any other key data which would lead into privilege escalation or code injection.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10684](https://github.com/Live-Hack-CVE/CVE-2020-10684)
-
 ### CVE-2020-10697 (2021-05-27)
 
 <code>
@@ -24474,14 +24886,6 @@ A flaw was found in Ansible Tower when running Openshift. Tower runs a memcached
 </code>
 
 - [Live-Hack-CVE/CVE-2020-10697](https://github.com/Live-Hack-CVE/CVE-2020-10697)
-
-### CVE-2020-10699 (2020-04-15)
-
-<code>
-A flaw was found in Linux, in targetcli-fb versions 2.1.50 and 2.1.51 where the socket used by targetclid was world-writable. If a system enables the targetclid socket, a local attacker can use this flaw to modify the iSCSI configuration and escalate their privileges to root.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10699](https://github.com/Live-Hack-CVE/CVE-2020-10699)
 
 ### CVE-2020-10700 (2020-05-04)
 
@@ -24499,22 +24903,6 @@ A security flaw was found in Ansible Tower when requesting an OAuth2 token with 
 
 - [Live-Hack-CVE/CVE-2020-10709](https://github.com/Live-Hack-CVE/CVE-2020-10709)
 
-### CVE-2020-10713 (2020-07-30)
-
-<code>
-A flaw was found in grub2, prior to version 2.06. An attacker may use the GRUB 2 flaw to hijack and tamper the GRUB verification process. This flaw also allows the bypass of Secure Boot protections. In order to load an untrusted or modified kernel, an attacker would first need to establish access to the system such as gaining physical access, obtain the ability to alter a pxe-boot network, or have remote access to a networked system with root access. With this access, an attacker could then craft a string to cause a buffer overflow by injecting a malicious payload that leads to arbitrary code execution within GRUB. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10713](https://github.com/Live-Hack-CVE/CVE-2020-10713)
-
-### CVE-2020-10714 (2020-09-23)
-
-<code>
-A flaw was found in WildFly Elytron version 1.11.3.Final and before. When using WildFly Elytron FORM authentication with a session ID in the URL, an attacker could perform a session fixation attack. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10714](https://github.com/Live-Hack-CVE/CVE-2020-10714)
-
 ### CVE-2020-10716 (2021-05-27)
 
 <code>
@@ -24522,14 +24910,6 @@ A flaw was found in Red Hat Satellite's Job Invocation, where the &quot;User Inp
 </code>
 
 - [Live-Hack-CVE/CVE-2020-10716](https://github.com/Live-Hack-CVE/CVE-2020-10716)
-
-### CVE-2020-10717 (2020-05-04)
-
-<code>
-A potential DoS flaw was found in the virtio-fs shared file system daemon (virtiofsd) implementation of the QEMU version &gt;= v5.0. Virtio-fs is meant to share a host file system directory with a guest via virtio-fs device. If the guest opens the maximum number of file descriptors under the shared directory, a denial of service may occur. This flaw allows a guest user/process to cause this denial of service on the host.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10717](https://github.com/Live-Hack-CVE/CVE-2020-10717)
 
 ### CVE-2020-10722 (2020-05-19)
 
@@ -24563,21 +24943,13 @@ A vulnerability was found in DPDK versions 19.11 and above. A malicious containe
 
 - [Live-Hack-CVE/CVE-2020-10726](https://github.com/Live-Hack-CVE/CVE-2020-10726)
 
-### CVE-2020-10732 (2020-06-12)
+### CVE-2020-10728 (2022-08-16)
 
 <code>
-A flaw was found in the Linux kernel's implementation of Userspace core dumps. This flaw allows an attacker with a local account to crash a trivial program and exfiltrate private kernel data.
+A flaw was found in automationbroker/apb container in versions up to and including 2.0.4-1. This container grants all users sudoer permissions allowing an unauthorized user with access to the running container the ability to escalate their own privileges. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
 </code>
 
-- [Live-Hack-CVE/CVE-2020-10732](https://github.com/Live-Hack-CVE/CVE-2020-10732)
-
-### CVE-2020-10735 (2022-09-09)
-
-<code>
-A flaw was found in python. In algorithms with quadratic time complexity using non-binary bases, when using int(&quot;text&quot;), a system could take 50ms to parse an int string with 100,000 digits and 5s for 1,000,000 digits (float, decimal, int.from_bytes(), and int() for binary bases 2, 4, 8, 16, and 32 are not affected). The highest threat from this vulnerability is to system availability.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10735](https://github.com/Live-Hack-CVE/CVE-2020-10735)
+- [Live-Hack-CVE/CVE-2020-10728](https://github.com/Live-Hack-CVE/CVE-2020-10728)
 
 ### CVE-2020-10744 (2020-05-15)
 
@@ -24603,22 +24975,6 @@ A PGP signature bypass flaw was found in fwupd (all versions), which could lead 
 
 - [justinsteven/CVE-2020-10759-poc](https://github.com/justinsteven/CVE-2020-10759-poc)
 
-### CVE-2020-10761 (2020-06-09)
-
-<code>
-An assertion failure issue was found in the Network Block Device(NBD) Server in all QEMU versions before QEMU 5.0.1. This flaw occurs when an nbd-client sends a spec-compliant request that is near the boundary of maximum permitted request length. A remote nbd-client could use this flaw to crash the qemu-nbd server resulting in a denial of service.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10761](https://github.com/Live-Hack-CVE/CVE-2020-10761)
-
-### CVE-2020-10770 (2020-12-15)
-
-<code>
-A flaw was found in Keycloak before 13.0.0, where it is possible to force the server to call out an unverified URL using the OIDC parameter request_uri. This flaw allows an attacker to use this parameter to execute a Server-side request forgery (SSRF) attack.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10770](https://github.com/Live-Hack-CVE/CVE-2020-10770)
-
 ### CVE-2020-10781 (2020-09-16)
 
 <code>
@@ -24626,30 +24982,6 @@ A flaw was found in the Linux Kernel before 5.8-rc6 in the ZRAM kernel module, w
 </code>
 
 - [Live-Hack-CVE/CVE-2020-10781](https://github.com/Live-Hack-CVE/CVE-2020-10781)
-
-### CVE-2020-10802 (2020-03-21)
-
-<code>
-In phpMyAdmin 4.x before 4.9.5 and 5.x before 5.0.2, a SQL injection vulnerability has been discovered where certain parameters are not properly escaped when generating certain queries for search actions in libraries/classes/Controllers/Table/TableSearchController.php. An attacker can generate a crafted database or table name. The attack can be performed if a user attempts certain search operations on the malicious database or table.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10802](https://github.com/Live-Hack-CVE/CVE-2020-10802)
-
-### CVE-2020-10803 (2020-03-21)
-
-<code>
-In phpMyAdmin 4.x before 4.9.5 and 5.x before 5.0.2, a SQL injection vulnerability was discovered where malicious code could be used to trigger an XSS attack through retrieving and displaying results (in tbl_get_field.php and libraries/classes/Display/Results.php). The attacker must be able to insert crafted data into certain database tables, which when retrieved (for instance, through the Browse tab) can trigger the XSS attack.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10803](https://github.com/Live-Hack-CVE/CVE-2020-10803)
-
-### CVE-2020-10804 (2020-03-21)
-
-<code>
-In phpMyAdmin 4.x before 4.9.5 and 5.x before 5.0.2, a SQL injection vulnerability was found in retrieval of the current username (in libraries/classes/Server/Privileges.php and libraries/classes/UserPassword.php). A malicious user with access to the server could create a crafted username, and then trick the victim into performing specific actions with that user account (such as editing its privileges).
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10804](https://github.com/Live-Hack-CVE/CVE-2020-10804)
 
 ### CVE-2020-10919 (2020-07-23)
 
@@ -24666,14 +24998,6 @@ An issue was discovered in Arm Mbed TLS before 2.16.6 and 2.7.x before 2.7.15. A
 </code>
 
 - [Live-Hack-CVE/CVE-2020-10932](https://github.com/Live-Hack-CVE/CVE-2020-10932)
-
-### CVE-2020-10936 (2020-05-27)
-
-<code>
-Sympa before 6.2.56 allows privilege escalation.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-10936](https://github.com/Live-Hack-CVE/CVE-2020-10936)
 
 ### CVE-2020-10941 (2020-03-24)
 
@@ -24887,54 +25211,6 @@ An issue was discovered in Sonatype Nexus Repository Manager in versions 3.21.1 
 
 - [Live-Hack-CVE/CVE-2020-11753](https://github.com/Live-Hack-CVE/CVE-2020-11753)
 
-### CVE-2020-11759 (2020-04-14)
-
-<code>
-An issue was discovered in OpenEXR before 2.4.1. Because of integer overflows in CompositeDeepScanLine::Data::handleDeepFrameBuffer and readSampleCountForLineBlock, an attacker can write to an out-of-bounds pointer.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-11759](https://github.com/Live-Hack-CVE/CVE-2020-11759)
-
-### CVE-2020-11760 (2020-04-14)
-
-<code>
-An issue was discovered in OpenEXR before 2.4.1. There is an out-of-bounds read during RLE uncompression in rleUncompress in ImfRle.cpp.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-11760](https://github.com/Live-Hack-CVE/CVE-2020-11760)
-
-### CVE-2020-11761 (2020-04-14)
-
-<code>
-An issue was discovered in OpenEXR before 2.4.1. There is an out-of-bounds read during Huffman uncompression, as demonstrated by FastHufDecoder::refill in ImfFastHuf.cpp.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-11761](https://github.com/Live-Hack-CVE/CVE-2020-11761)
-
-### CVE-2020-11762 (2020-04-14)
-
-<code>
-An issue was discovered in OpenEXR before 2.4.1. There is an out-of-bounds read and write in DwaCompressor::uncompress in ImfDwaCompressor.cpp when handling the UNKNOWN compression case.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-11762](https://github.com/Live-Hack-CVE/CVE-2020-11762)
-
-### CVE-2020-11763 (2020-04-14)
-
-<code>
-An issue was discovered in OpenEXR before 2.4.1. There is an std::vector out-of-bounds read and write, as demonstrated by ImfTileOffsets.cpp.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-11763](https://github.com/Live-Hack-CVE/CVE-2020-11763)
-
-### CVE-2020-11764 (2020-04-14)
-
-<code>
-An issue was discovered in OpenEXR before 2.4.1. There is an out-of-bounds write in copyIntoFrameBuffer in ImfMisc.cpp.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-11764](https://github.com/Live-Hack-CVE/CVE-2020-11764)
-
 ### CVE-2020-11794
 - [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
 
@@ -25077,14 +25353,6 @@ Zoho ManageEngine OpManager Stable build before 124196 and Released build before
 
 - [BeetleChunks/CVE-2020-12116](https://github.com/BeetleChunks/CVE-2020-12116)
 
-### CVE-2020-12137 (2020-04-24)
-
-<code>
-GNU Mailman 2.x before 2.1.30 uses the .obj extension for scrubbed application/octet-stream MIME parts. This behavior may contribute to XSS attacks against list-archive visitors, because an HTTP reply from an archive web server may lack a MIME type, and a web browser may perform MIME sniffing, conclude that the MIME type should have been text/html, and execute JavaScript code.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12137](https://github.com/Live-Hack-CVE/CVE-2020-12137)
-
 ### CVE-2020-12271 (2020-04-27)
 
 <code>
@@ -25093,14 +25361,6 @@ A SQL injection issue was found in SFOS 17.0, 17.1, 17.5, and 18.0 before 2020-0
 
 - [Live-Hack-CVE/CVE-2020-12271](https://github.com/Live-Hack-CVE/CVE-2020-12271)
 
-### CVE-2020-12272 (2020-04-27)
-
-<code>
-OpenDMARC through 1.3.2 and 1.4.x allows attacks that inject authentication results to provide false information about the domain that originated an e-mail message. This is caused by incorrect parsing and interpretation of SPF/DKIM authentication results, as demonstrated by the example.net(.example.com substring.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12272](https://github.com/Live-Hack-CVE/CVE-2020-12272)
-
 ### CVE-2020-12501 (2020-10-15)
 
 <code>
@@ -25108,14 +25368,6 @@ Improper Authorization vulnerability of Pepperl+Fuchs P+F Comtrol RocketLinx ES7
 </code>
 
 - [Live-Hack-CVE/CVE-2020-12501](https://github.com/Live-Hack-CVE/CVE-2020-12501)
-
-### CVE-2020-12509 (2022-11-07)
-
-<code>
-In s::can moni::tools in versions below 4.2 an unauthenticated attacker could get any file from the device by path traversal in the camera-file module.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12509](https://github.com/Live-Hack-CVE/CVE-2020-12509)
 
 ### CVE-2020-12516 (2020-12-09)
 
@@ -25172,14 +25424,6 @@ macaron before 1.3.7 has an open redirect in the static handler, as demonstrated
 </code>
 
 - [Live-Hack-CVE/CVE-2020-12666](https://github.com/Live-Hack-CVE/CVE-2020-12666)
-
-### CVE-2020-12672 (2020-05-05)
-
-<code>
-GraphicsMagick through 1.3.35 has a heap-based buffer overflow in ReadMNGImage in coders/png.c.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12672](https://github.com/Live-Hack-CVE/CVE-2020-12672)
 
 ### CVE-2020-12688
 - [TheCyberGeek/Centreon-20.04](https://github.com/TheCyberGeek/Centreon-20.04)
@@ -25241,22 +25485,6 @@ An issue was discovered on LG mobile devices with Android OS 7.2, 8.0, 8.1, 9, a
 
 - [shinyquagsire23/CVE-2020-12753-PoC](https://github.com/shinyquagsire23/CVE-2020-12753-PoC)
 
-### CVE-2020-12762 (2020-05-09)
-
-<code>
-json-c through 0.14 has an integer overflow and out-of-bounds write via a large JSON file, as demonstrated by printbuf_memappend.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12762](https://github.com/Live-Hack-CVE/CVE-2020-12762)
-
-### CVE-2020-12783 (2020-05-11)
-
-<code>
-Exim through 4.93 has an out-of-bounds read in the SPA authenticator that could result in SPA/NTLM authentication bypass in auths/spa.c and auths/auth-spa.c.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12783](https://github.com/Live-Hack-CVE/CVE-2020-12783)
-
 ### CVE-2020-12800 (2020-06-08)
 
 <code>
@@ -25296,46 +25524,6 @@ OpenTrace, as used in COVIDSafe through v1.0.17, TraceTogether, ABTraceTogether,
 </code>
 
 - [alwentiu/COVIDSafe-CVE-2020-12856](https://github.com/alwentiu/COVIDSafe-CVE-2020-12856)
-
-### CVE-2020-12862 (2020-06-24)
-
-<code>
-An out-of-bounds read in SANE Backends before 1.0.30 may allow a malicious device connected to the same local network as the victim to read important information, such as the ASLR offsets of the program, aka GHSL-2020-082.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12862](https://github.com/Live-Hack-CVE/CVE-2020-12862)
-
-### CVE-2020-12863 (2020-06-24)
-
-<code>
-An out-of-bounds read in SANE Backends before 1.0.30 may allow a malicious device connected to the same local network as the victim to read important information, such as the ASLR offsets of the program, aka GHSL-2020-083.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12863](https://github.com/Live-Hack-CVE/CVE-2020-12863)
-
-### CVE-2020-12865 (2020-06-24)
-
-<code>
-A heap buffer overflow in SANE Backends before 1.0.30 may allow a malicious device connected to the same local network as the victim to execute arbitrary code, aka GHSL-2020-084.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12865](https://github.com/Live-Hack-CVE/CVE-2020-12865)
-
-### CVE-2020-12867 (2020-06-01)
-
-<code>
-A NULL pointer dereference in sanei_epson_net_read in SANE Backends before 1.0.30 allows a malicious device connected to the same local network as the victim to cause a denial of service, aka GHSL-2020-075.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12867](https://github.com/Live-Hack-CVE/CVE-2020-12867)
-
-### CVE-2020-12888 (2020-05-15)
-
-<code>
-The VFIO PCI driver in the Linux kernel through 5.6.13 mishandles attempts to access disabled memory space.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-12888](https://github.com/Live-Hack-CVE/CVE-2020-12888)
 
 ### CVE-2020-12944 (2021-11-16)
 
@@ -25385,14 +25573,6 @@ The web server in the Teradici Managament console versions 20.04 and 20.01.1 did
 
 - [Live-Hack-CVE/CVE-2020-13174](https://github.com/Live-Hack-CVE/CVE-2020-13174)
 
-### CVE-2020-13249 (2020-05-20)
-
-<code>
-libmariadb/mariadb_lib.c in MariaDB Connector/C before 3.1.8 does not properly validate the content of an OK packet received from a server. NOTE: although mariadb_lib.c was originally based on code shipped for MySQL, this issue does not affect any MySQL components supported by Oracle.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-13249](https://github.com/Live-Hack-CVE/CVE-2020-13249)
-
 ### CVE-2020-13253 (2020-05-27)
 
 <code>
@@ -25409,14 +25589,6 @@ An issue was discovered in Django 2.2 before 2.2.13 and 3.0 before 3.0.7. In cas
 
 - [danpalmer/django-cve-2020-13254](https://github.com/danpalmer/django-cve-2020-13254)
 - [Live-Hack-CVE/CVE-2020-13254](https://github.com/Live-Hack-CVE/CVE-2020-13254)
-
-### CVE-2020-13285 (2020-08-13)
-
-<code>
-For GitLab before 13.0.12, 13.1.6, 13.2.3 a cross-site scripting (XSS) vulnerability exists in the issue reference number tooltip.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-13285](https://github.com/Live-Hack-CVE/CVE-2020-13285)
 
 ### CVE-2020-13299 (2020-09-14)
 
@@ -25693,22 +25865,6 @@ An issue was discovered in Django 2.2 before 2.2.13 and 3.0 before 3.0.7. Query 
 
 - [Live-Hack-CVE/CVE-2020-13596](https://github.com/Live-Hack-CVE/CVE-2020-13596)
 
-### CVE-2020-13614 (2020-05-26)
-
-<code>
-An issue was discovered in ssl.c in Axel before 2.17.8. The TLS implementation lacks hostname verification.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-13614](https://github.com/Live-Hack-CVE/CVE-2020-13614)
-
-### CVE-2020-13659 (2020-06-02)
-
-<code>
-address_space_map in exec.c in QEMU 4.2.0 can trigger a NULL pointer dereference related to BounceBuffer.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-13659](https://github.com/Live-Hack-CVE/CVE-2020-13659)
-
 ### CVE-2020-13765 (2020-06-04)
 
 <code>
@@ -25807,14 +25963,6 @@ SOPlanning before 1.47 has Incorrect Access Control because certain secret key i
 
 - [Live-Hack-CVE/CVE-2020-13963](https://github.com/Live-Hack-CVE/CVE-2020-13963)
 
-### CVE-2020-14004 (2020-06-12)
-
-<code>
-An issue was discovered in Icinga2 before v2.12.0-rc1. The prepare-dirs script (run as part of the icinga2 systemd service) executes chmod 2750 /run/icinga2/cmd. /run/icinga2 is under control of an unprivileged user by default. If /run/icinga2/cmd is a symlink, then it will by followed and arbitrary files can be changed to mode 2750 by the unprivileged icinga2 user.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14004](https://github.com/Live-Hack-CVE/CVE-2020-14004)
-
 ### CVE-2020-14005 (2020-06-24)
 
 <code>
@@ -25871,14 +26019,6 @@ FasterXML jackson-databind 2.x before 2.9.10.5 mishandles the interaction betwee
 
 - [Al1ex/CVE-2020-14195](https://github.com/Al1ex/CVE-2020-14195)
 
-### CVE-2020-14295 (2020-06-17)
-
-<code>
-A SQL injection issue in color.php in Cacti 1.2.12 allows an admin to inject SQL via the filter parameter. This can lead to remote command execution because the product accepts stacked queries.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14295](https://github.com/Live-Hack-CVE/CVE-2020-14295)
-
 ### CVE-2020-14305 (2020-12-01)
 
 <code>
@@ -25895,14 +26035,6 @@ An incorrect access control flaw was found in the operator, openshift-service-me
 
 - [Live-Hack-CVE/CVE-2020-14306](https://github.com/Live-Hack-CVE/CVE-2020-14306)
 
-### CVE-2020-14307 (2020-07-24)
-
-<code>
-A vulnerability was found in Wildfly's Enterprise Java Beans (EJB) versions shipped with Red Hat JBoss EAP 7, where SessionOpenInvocations are never removed from the remote InvocationTracker after a response is received in the EJB Client, as well as the server. This flaw allows an attacker to craft a denial of service attack to make the service unavailable.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14307](https://github.com/Live-Hack-CVE/CVE-2020-14307)
-
 ### CVE-2020-14314 (2020-09-15)
 
 <code>
@@ -25911,6 +26043,14 @@ A memory out-of-bounds read flaw was found in the Linux kernel before 5.9-rc2 wi
 
 - [Live-Hack-CVE/CVE-2020-14314](https://github.com/Live-Hack-CVE/CVE-2020-14314)
 
+### CVE-2020-14320 (2022-08-16)
+
+<code>
+In Moodle before 3.9.1, 3.8.4 and 3.7.7, the filter in the admin task log required extra sanitizing to prevent a reflected XSS risk.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-14320](https://github.com/Live-Hack-CVE/CVE-2020-14320)
+
 ### CVE-2020-14323 (2020-10-29)
 
 <code>
@@ -25918,22 +26058,6 @@ A null pointer dereference flaw was found in samba's Winbind service in versions
 </code>
 
 - [Live-Hack-CVE/CVE-2020-14323](https://github.com/Live-Hack-CVE/CVE-2020-14323)
-
-### CVE-2020-14330 (2020-09-11)
-
-<code>
-An Improper Output Neutralization for Logs flaw was found in Ansible when using the uri module, where sensitive data is exposed to content and json output. This flaw allows an attacker to access the logs or outputs of performed tasks to read keys used in playbooks from other users within the uri module. The highest threat from this vulnerability is to data confidentiality.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14330](https://github.com/Live-Hack-CVE/CVE-2020-14330)
-
-### CVE-2020-14334 (2020-07-31)
-
-<code>
-A flaw was found in Red Hat Satellite 6 which allows privileged attacker to read cache files. These cache credentials could help attacker to gain complete control of the Satellite instance.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14334](https://github.com/Live-Hack-CVE/CVE-2020-14334)
 
 ### CVE-2020-14339 (2020-12-03)
 
@@ -25951,14 +26075,6 @@ A flaw was found in X.Org Server before xorg-x11-server 1.20.9. An Out-Of-Bounds
 
 - [Live-Hack-CVE/CVE-2020-14345](https://github.com/Live-Hack-CVE/CVE-2020-14345)
 
-### CVE-2020-14346 (2020-09-15)
-
-<code>
-A flaw was found in xorg-x11-server before 1.20.9. An integer underflow in the X input extension protocol decoding in the X server may lead to arbitrary access of memory contents. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14346](https://github.com/Live-Hack-CVE/CVE-2020-14346)
-
 ### CVE-2020-14361 (2020-09-15)
 
 <code>
@@ -25974,14 +26090,6 @@ A flaw was found in X.Org Server before xorg-x11-server 1.20.9. An Integer under
 </code>
 
 - [Live-Hack-CVE/CVE-2020-14362](https://github.com/Live-Hack-CVE/CVE-2020-14362)
-
-### CVE-2020-14364 (2020-08-31)
-
-<code>
-An out-of-bounds read/write access flaw was found in the USB emulator of the QEMU in versions before 5.2.0. This issue occurs while processing USB packets from a guest when USBDevice 'setup_len' exceeds its 'data_buf[4096]' in the do_token_in, do_token_out routines. This flaw allows a guest user to crash the QEMU process, resulting in a denial of service, or the potential execution of arbitrary code with the privileges of the QEMU process on the host.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14364](https://github.com/Live-Hack-CVE/CVE-2020-14364)
 
 ### CVE-2020-14368 (2020-12-14)
 
@@ -26015,6 +26123,14 @@ An integer underflow in dpdk versions before 18.11.10 and before 19.11.5 in the 
 
 - [Live-Hack-CVE/CVE-2020-14378](https://github.com/Live-Hack-CVE/CVE-2020-14378)
 
+### CVE-2020-14379 (2022-08-16)
+
+<code>
+A flaw was found in Red Hat AMQ Broker in a way that a XEE attack can be done via Broker's configuration files, leading to denial of service and information disclosure.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-14379](https://github.com/Live-Hack-CVE/CVE-2020-14379)
+
 ### CVE-2020-14409 (2021-01-19)
 
 <code>
@@ -26022,30 +26138,6 @@ SDL (Simple DirectMedia Layer) through 2.0.12 has an Integer Overflow (and resul
 </code>
 
 - [Live-Hack-CVE/CVE-2020-14409](https://github.com/Live-Hack-CVE/CVE-2020-14409)
-
-### CVE-2020-14444 (2020-06-18)
-
-<code>
-An issue was discovered in WSO2 Identity Server through 5.9.0 and WSO2 IS as Key Manager through 5.9.0. A potential Reflected Cross-Site Scripting (XSS) vulnerability has been identified in the Management Console Policy Administration user interface.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14444](https://github.com/Live-Hack-CVE/CVE-2020-14444)
-
-### CVE-2020-14445 (2020-06-18)
-
-<code>
-An issue was discovered in WSO2 Identity Server through 5.9.0 and WSO2 IS as Key Manager through 5.9.0. A potential Reflected Cross-Site Scripting (XSS) vulnerability has been identified in the Management Console Basic Policy Editor user Interface.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14445](https://github.com/Live-Hack-CVE/CVE-2020-14445)
-
-### CVE-2020-14446 (2020-06-18)
-
-<code>
-An issue was discovered in WSO2 Identity Server through 5.10.0 and WSO2 IS as Key Manager through 5.10.0. An open redirect exists.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-14446](https://github.com/Live-Hack-CVE/CVE-2020-14446)
 
 ### CVE-2020-14550 (2020-07-15)
 
@@ -26199,14 +26291,6 @@ In Synergy before version 1.12.0, a Synergy server can be crashed by receiving a
 
 - [Live-Hack-CVE/CVE-2020-15117](https://github.com/Live-Hack-CVE/CVE-2020-15117)
 
-### CVE-2020-15166 (2020-09-11)
-
-<code>
-In ZeroMQ before version 4.3.3, there is a denial-of-service vulnerability. Users with TCP transport public endpoints, even with CURVE/ZAP enabled, are impacted. If a raw TCP socket is opened and connected to an endpoint that is fully configured with CURVE/ZAP, legitimate clients will not be able to exchange any message. Handshakes complete successfully, and messages are delivered to the library, but the server application never receives them. This is patched in version 4.3.3.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-15166](https://github.com/Live-Hack-CVE/CVE-2020-15166)
-
 ### CVE-2020-15223 (2020-09-24)
 
 <code>
@@ -26270,14 +26354,6 @@ An issue was discovered in OpenEXR before v2.5.2. Invalid chunkCount attributes 
 </code>
 
 - [Live-Hack-CVE/CVE-2020-15306](https://github.com/Live-Hack-CVE/CVE-2020-15306)
-
-### CVE-2020-15309 (2020-08-21)
-
-<code>
-An issue was discovered in wolfSSL before 4.5.0, when single precision is not employed. Local attackers can conduct a cache-timing attack against public key operations. These attackers may already have obtained sensitive information if the affected system has been used for private key operations (e.g., signing with a private key).
-</code>
-
-- [Live-Hack-CVE/CVE-2020-15309](https://github.com/Live-Hack-CVE/CVE-2020-15309)
 
 ### CVE-2020-15325 (2020-06-26)
 
@@ -26471,14 +26547,6 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 
 - [inflixim4be/CVE-2020-15392](https://github.com/inflixim4be/CVE-2020-15392)
 
-### CVE-2020-15395 (2020-06-30)
-
-<code>
-In MediaInfoLib in MediaArea MediaInfo 20.03, there is a stack-based buffer over-read in Streams_Fill_PerStream in Multiple/File_MpegPs.cpp (aka an off-by-one during MpegPs parsing).
-</code>
-
-- [Live-Hack-CVE/CVE-2020-15395](https://github.com/Live-Hack-CVE/CVE-2020-15395)
-
 ### CVE-2020-15436 (2020-11-23)
 
 <code>
@@ -26511,14 +26579,6 @@ In nDPI through 3.2, the Oracle protocol dissector has a heap-based buffer over-
 
 - [Live-Hack-CVE/CVE-2020-15476](https://github.com/Live-Hack-CVE/CVE-2020-15476)
 
-### CVE-2020-15500 (2020-07-01)
-
-<code>
-An issue was discovered in server.js in TileServer GL through 3.0.0. The content of the key GET parameter is reflected unsanitized in an HTTP response for the application's main page, causing reflected XSS.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-15500](https://github.com/Live-Hack-CVE/CVE-2020-15500)
-
 ### CVE-2020-15591 (2022-03-17)
 
 <code>
@@ -26542,14 +26602,6 @@ During the plaintext phase of the STARTTLS connection setup, protocol commands c
 </code>
 
 - [Live-Hack-CVE/CVE-2020-15685](https://github.com/Live-Hack-CVE/CVE-2020-15685)
-
-### CVE-2020-15706 (2020-07-29)
-
-<code>
-GRUB2 contains a race condition in grub_script_function_create() leading to a use-after-free vulnerability which can be triggered by redefining a function whilst the same function is already executing, leading to arbitrary code execution and secure boot restriction bypass. This issue affects GRUB2 version 2.04 and prior versions.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-15706](https://github.com/Live-Hack-CVE/CVE-2020-15706)
 
 ### CVE-2020-15768 (2020-09-18)
 
@@ -26630,22 +26682,6 @@ QEMU 4.2.0 has a use-after-free in hw/net/e1000e_core.c because a guest OS user 
 </code>
 
 - [Live-Hack-CVE/CVE-2020-15859](https://github.com/Live-Hack-CVE/CVE-2020-15859)
-
-### CVE-2020-15902 (2020-07-22)
-
-<code>
-Graph Explorer in Nagios XI before 5.7.2 allows XSS via the link url option.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-15902](https://github.com/Live-Hack-CVE/CVE-2020-15902)
-
-### CVE-2020-15917 (2020-07-23)
-
-<code>
-common/session.c in Claws Mail before 3.17.6 has a protocol violation because suffix data after STARTTLS is mishandled.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-15917](https://github.com/Live-Hack-CVE/CVE-2020-15917)
 
 ### CVE-2020-16116 (2020-08-03)
 
@@ -26894,14 +26930,6 @@ Firejail through 0.9.62 mishandles shell metacharacters during use of the --outp
 </code>
 
 - [Live-Hack-CVE/CVE-2020-17368](https://github.com/Live-Hack-CVE/CVE-2020-17368)
-
-### CVE-2020-17373 (2020-08-12)
-
-<code>
-SugarCRM before 10.1.0 (Q3 2020) allows SQL Injection.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-17373](https://github.com/Live-Hack-CVE/CVE-2020-17373)
 
 ### CVE-2020-17380 (2021-01-30)
 
@@ -27182,14 +27210,6 @@ Cross Site Scripting (XSS) vulnerability in configMap parameters in Yellowfin Bu
 </code>
 
 - [Live-Hack-CVE/CVE-2020-19587](https://github.com/Live-Hack-CVE/CVE-2020-19587)
-
-### CVE-2020-19716 (2021-07-13)
-
-<code>
-A buffer overflow vulnerability in the Databuf function in types.cpp of Exiv2 v0.27.1 leads to a denial of service (DOS).
-</code>
-
-- [Live-Hack-CVE/CVE-2020-19716](https://github.com/Live-Hack-CVE/CVE-2020-19716)
 
 ### CVE-2020-19721 (2021-07-13)
 
@@ -27511,6 +27531,22 @@ libde265 v1.0.4 contains a heap buffer overflow fault in the put_epel_16_fallbac
 
 - [Live-Hack-CVE/CVE-2020-21606](https://github.com/Live-Hack-CVE/CVE-2020-21606)
 
+### CVE-2020-21641 (2022-08-15)
+
+<code>
+Out-of-Band XML External Entity (OOB-XXE) vulnerability in Zoho ManageEngine Analytics Plus before 4.3.5 allows remote attackers to read arbitrary files, enumerate folders and scan internal ports via crafted XML license file.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-21641](https://github.com/Live-Hack-CVE/CVE-2020-21641)
+
+### CVE-2020-21642 (2022-08-15)
+
+<code>
+Directory Traversal vulnerability ZDBQAREFSUBDIR parameter in /zropusermgmt API in Zoho ManageEngine Analytics Plus before 4350 allows remote attackers to run arbitrary code.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-21642](https://github.com/Live-Hack-CVE/CVE-2020-21642)
+
 ### CVE-2020-21650 (2021-10-06)
 
 <code>
@@ -27534,14 +27570,6 @@ Myucms v2.2.1 contains a remote code execution (RCE) vulnerability in the compon
 </code>
 
 - [Live-Hack-CVE/CVE-2020-21652](https://github.com/Live-Hack-CVE/CVE-2020-21652)
-
-### CVE-2020-21675 (2021-08-10)
-
-<code>
-A stack-based buffer overflow in the genptk_text component in genptk.c of fig2dev 3.2.7b allows attackers to cause a denial of service (DOS) via converting a xfig file into ptk format.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-21675](https://github.com/Live-Hack-CVE/CVE-2020-21675)
 
 ### CVE-2020-21784 (2021-06-24)
 
@@ -27791,6 +27819,14 @@ NoneCMS v1.3 has a CSRF vulnerability in public/index.php/admin/nav/add.html, as
 
 - [Live-Hack-CVE/CVE-2020-23376](https://github.com/Live-Hack-CVE/CVE-2020-23376)
 
+### CVE-2020-23466 (2022-08-18)
+
+<code>
+Cross Site Scripting (XSS) vulnerability exists in the phpgurukul Online Marriage Registration System 1.0 allows attackers to run arbitrary code via the wzipcode field.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-23466](https://github.com/Live-Hack-CVE/CVE-2020-23466)
+
 ### CVE-2020-23469 (2021-09-22)
 
 <code>
@@ -27903,6 +27939,14 @@ IrfanView 4.54 allows a user-mode write access violation starting at FORMATS!Sho
 
 - [Live-Hack-CVE/CVE-2020-23560](https://github.com/Live-Hack-CVE/CVE-2020-23560)
 
+### CVE-2020-23622 (2022-08-15)
+
+<code>
+** UNSUPPORTED WHEN ASSIGNED ** An issue in the UPnP protocol in 4thline cling 2.0.0 through 2.1.2 allows remote attackers to cause a denial of service via an unchecked CALLBACK parameter in the request header.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-23622](https://github.com/Live-Hack-CVE/CVE-2020-23622)
+
 ### CVE-2020-23648 (2022-10-19)
 
 <code>
@@ -28007,14 +28051,6 @@ A heap buffer overflow vulnerability in the r_asm_swf_disass function of Radare2
 
 - [Live-Hack-CVE/CVE-2020-24133](https://github.com/Live-Hack-CVE/CVE-2020-24133)
 
-### CVE-2020-24223 (2020-08-30)
-
-<code>
-Mara CMS 7.5 allows cross-site scripting (XSS) in contact.php via the theme or pagetheme parameters.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-24223](https://github.com/Live-Hack-CVE/CVE-2020-24223)
-
 ### CVE-2020-24349 (2020-08-13)
 
 <code>
@@ -28022,22 +28058,6 @@ njs through 0.4.3, used in NGINX, allows control-flow hijack in njs_value_proper
 </code>
 
 - [Live-Hack-CVE/CVE-2020-24349](https://github.com/Live-Hack-CVE/CVE-2020-24349)
-
-### CVE-2020-24374 (2020-09-16)
-
-<code>
-A DNS rebinding vulnerability in Freebox v5 before 1.5.29.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-24374](https://github.com/Live-Hack-CVE/CVE-2020-24374)
-
-### CVE-2020-24377 (2020-09-16)
-
-<code>
-A DNS rebinding vulnerability in the Freebox OS web interface in Freebox Server before 4.2.3.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-24377](https://github.com/Live-Hack-CVE/CVE-2020-24377)
 
 ### CVE-2020-24386 (2021-01-04)
 
@@ -28062,6 +28082,14 @@ homee Brain Cube v2 (2.28.2 and 2.28.4) devices have sensitive SSH keys within d
 </code>
 
 - [Live-Hack-CVE/CVE-2020-24396](https://github.com/Live-Hack-CVE/CVE-2020-24396)
+
+### CVE-2020-24402 (2020-11-08)
+
+<code>
+Magento version 2.4.0 and 2.3.5p1 (and earlier) are affected by an incorrect permissions vulnerability in the Integrations component. This vulnerability could be abused by authenticated users with permissions to the Resource Access API to delete customer details via the REST API without authorization.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-24402](https://github.com/Live-Hack-CVE/CVE-2020-24402)
 
 ### CVE-2020-24404 (2020-11-08)
 
@@ -28455,14 +28483,6 @@ A divide by zero issue was found to occur in libvncserver-0.9.12. A malicious cl
 
 - [Live-Hack-CVE/CVE-2020-25708](https://github.com/Live-Hack-CVE/CVE-2020-25708)
 
-### CVE-2020-25711 (2020-12-03)
-
-<code>
-A flaw was found in infinispan 10 REST API, where authorization permissions are not checked while performing some server management operations. When authz is enabled, any user with authentication can perform operations like shutting down the server without the ADMIN role.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-25711](https://github.com/Live-Hack-CVE/CVE-2020-25711)
-
 ### CVE-2020-25713 (2021-05-13)
 
 <code>
@@ -28711,14 +28731,6 @@ ARC Informatique PcVue prior to version 12.0.17 is vulnerable to a denial-of-ser
 
 - [Live-Hack-CVE/CVE-2020-26868](https://github.com/Live-Hack-CVE/CVE-2020-26868)
 
-### CVE-2020-26932 (2020-10-10)
-
-<code>
-debian/sympa.postinst for the Debian Sympa package before 6.2.40~dfsg-7 uses mode 4755 for sympa_newaliases-wrapper, whereas the intended permissions are mode 4750 (for access by the sympa group)
-</code>
-
-- [Live-Hack-CVE/CVE-2020-26932](https://github.com/Live-Hack-CVE/CVE-2020-26932)
-
 ### CVE-2020-26938 (2022-08-29)
 
 <code>
@@ -28894,6 +28906,14 @@ An off-by-one overflow flaw was found in radare2 due to mismatched array length 
 </code>
 
 - [Live-Hack-CVE/CVE-2020-27793](https://github.com/Live-Hack-CVE/CVE-2020-27793)
+
+### CVE-2020-27794 (2022-08-19)
+
+<code>
+A double free issue was discovered in radare2 in cmd_info.c:cmd_info(). Successful exploitation could lead to modification of unexpected memory locations and potentially causing a crash.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-27794](https://github.com/Live-Hack-CVE/CVE-2020-27794)
 
 ### CVE-2020-27795 (2022-08-19)
 
@@ -29414,14 +29434,6 @@ jsonparser 1.0.0 allows attackers to cause a denial of service (panic: runtime e
 </code>
 
 - [Live-Hack-CVE/CVE-2020-35381](https://github.com/Live-Hack-CVE/CVE-2020-35381)
-
-### CVE-2020-35473 (2022-11-08)
-
-<code>
-An information leakage vulnerability in the Bluetooth Low Energy advertisement scan response in Bluetooth Core Specifications 4.0 through 5.2, and extended scan response in Bluetooth Core Specifications 5.0 through 5.2, may be used to identify devices using Resolvable Private Addressing (RPA) by their response or non-response to specific scan requests from remote addresses. RPAs that have been associated with a specific remote device may also be used to identify a peer in the same manner by using its reaction to an active scan request. This has also been called an allowlist-based side channel.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-35473](https://github.com/Live-Hack-CVE/CVE-2020-35473)
 
 ### CVE-2020-35476 (2020-12-16)
 
@@ -29983,6 +29995,14 @@ An out-of-bounds read was addressed with improved input validation. This issue i
 
 - [Live-Hack-CVE/CVE-2020-36521](https://github.com/Live-Hack-CVE/CVE-2020-36521)
 
+### CVE-2020-36599 (2022-08-18)
+
+<code>
+lib/omniauth/failure_endpoint.rb in OmniAuth before 1.9.2 (and before 2.0) does not escape the message_key value.
+</code>
+
+- [Live-Hack-CVE/CVE-2020-36599](https://github.com/Live-Hack-CVE/CVE-2020-36599)
+
 ### CVE-2020-36600 (2022-09-16)
 
 <code>
@@ -30497,6 +30517,14 @@ OpenSSL has internal defaults for a directory tree where it can find a configura
 
 - [Live-Hack-CVE/CVE-2019-1552](https://github.com/Live-Hack-CVE/CVE-2019-1552)
 
+### CVE-2019-1559 (2019-02-27)
+
+<code>
+If an application encounters a fatal protocol error and then calls SSL_shutdown() twice (once to send a close_notify, and once to receive one) then OpenSSL can respond differently to the calling application if a 0 byte record is received with invalid padding compared to if a 0 byte record is received with an invalid MAC. If the application then behaves differently based on that in a way that is detectable to the remote peer, then this amounts to a padding oracle that could be used to decrypt data. In order for this to be exploitable &quot;non-stitched&quot; ciphersuites must be in use. Stitched ciphersuites are optimised implementations of certain commonly used ciphersuites. Also the application must call SSL_shutdown() twice even if a protocol error has occurred (applications should not do this but some do anyway). Fixed in OpenSSL 1.0.2r (Affected 1.0.2-1.0.2q).
+</code>
+
+- [Live-Hack-CVE/CVE-2019-1559](https://github.com/Live-Hack-CVE/CVE-2019-1559)
+
 ### CVE-2019-1649 (2019-05-13)
 
 <code>
@@ -30574,6 +30602,22 @@ Vulnerability in the Java SE component of Oracle Java SE (subcomponent: Networki
 </code>
 
 - [Live-Hack-CVE/CVE-2019-2426](https://github.com/Live-Hack-CVE/CVE-2019-2426)
+
+### CVE-2019-2481 (2019-01-16)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Optimizer). Supported versions that are affected are 5.6.42 and prior, 5.7.24 and prior and 8.0.13 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2019-2481](https://github.com/Live-Hack-CVE/CVE-2019-2481)
+
+### CVE-2019-2510 (2019-01-16)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: InnoDB). Supported versions that are affected are 5.7.24 and prior and 8.0.13 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2019-2510](https://github.com/Live-Hack-CVE/CVE-2019-2510)
 
 ### CVE-2019-2602 (2019-04-23)
 
@@ -34677,6 +34721,14 @@ Zimbra Collaboration Suite before 8.6 patch 13, 8.7.x before 8.7.11 patch 10, an
 
 - [k8gege/ZimbraExploit](https://github.com/k8gege/ZimbraExploit)
 
+### CVE-2019-9634 (2019-03-08)
+
+<code>
+Go through 1.12 on Windows misuses certain LoadLibrary functionality, leading to DLL injection.
+</code>
+
+- [Live-Hack-CVE/CVE-2019-9634](https://github.com/Live-Hack-CVE/CVE-2019-9634)
+
 ### CVE-2019-9653 (2019-05-31)
 
 <code>
@@ -34736,6 +34788,14 @@ Incorrect access control in the CxUtilSvc component of the Synaptics Sound Devic
 </code>
 
 - [jthuraisamy/CVE-2019-9730](https://github.com/jthuraisamy/CVE-2019-9730)
+
+### CVE-2019-9740 (2019-03-12)
+
+<code>
+An issue was discovered in urllib2 in Python 2.x through 2.7.16 and urllib in Python 3.x through 3.7.3. CRLF injection is possible if the attacker controls a url parameter, as demonstrated by the first argument to urllib.request.urlopen with \r\n (specifically in the query string after a ? character) followed by an HTTP header or a Redis command. This is fixed in: v2.7.17, v2.7.17rc1, v2.7.18, v2.7.18rc1; v3.5.10, v3.5.10rc1, v3.5.8, v3.5.8rc1, v3.5.8rc2, v3.5.9; v3.6.10, v3.6.10rc1, v3.6.11, v3.6.11rc1, v3.6.12, v3.6.9, v3.6.9rc1; v3.7.4, v3.7.4rc1, v3.7.4rc2, v3.7.5, v3.7.5rc1, v3.7.6, v3.7.6rc1, v3.7.7, v3.7.7rc1, v3.7.8, v3.7.8rc1, v3.7.9.
+</code>
+
+- [Live-Hack-CVE/CVE-2019-9740](https://github.com/Live-Hack-CVE/CVE-2019-9740)
 
 ### CVE-2019-9787 (2019-03-14)
 
@@ -34812,6 +34872,14 @@ PDFDoc::markObject in PDFDoc.cc in Poppler 0.74.0 mishandles dict marking, leadi
 </code>
 
 - [Live-Hack-CVE/CVE-2019-9903](https://github.com/Live-Hack-CVE/CVE-2019-9903)
+
+### CVE-2019-9947 (2019-03-23)
+
+<code>
+An issue was discovered in urllib2 in Python 2.x through 2.7.16 and urllib in Python 3.x through 3.7.3. CRLF injection is possible if the attacker controls a url parameter, as demonstrated by the first argument to urllib.request.urlopen with \r\n (specifically in the path component of a URL that lacks a ? character) followed by an HTTP header or a Redis command. This is similar to the CVE-2019-9740 query string issue. This is fixed in: v2.7.17, v2.7.17rc1, v2.7.18, v2.7.18rc1; v3.5.10, v3.5.10rc1, v3.5.8, v3.5.8rc1, v3.5.8rc2, v3.5.9; v3.6.10, v3.6.10rc1, v3.6.11, v3.6.11rc1, v3.6.12, v3.6.9, v3.6.9rc1; v3.7.4, v3.7.4rc1, v3.7.4rc2, v3.7.5, v3.7.5rc1, v3.7.6, v3.7.6rc1, v3.7.7, v3.7.7rc1, v3.7.8, v3.7.8rc1, v3.7.9.
+</code>
+
+- [Live-Hack-CVE/CVE-2019-9947](https://github.com/Live-Hack-CVE/CVE-2019-9947)
 
 ### CVE-2019-9959 (2019-07-22)
 
@@ -35085,22 +35153,6 @@ In PHP versions 7.2.x below 7.2.26, 7.3.x below 7.3.13 and 7.4.0 on Windows, PHP
 
 - [Live-Hack-CVE/CVE-2019-11044](https://github.com/Live-Hack-CVE/CVE-2019-11044)
 
-### CVE-2019-11045 (2019-12-22)
-
-<code>
-In PHP versions 7.2.x below 7.2.26, 7.3.x below 7.3.13 and 7.4.0, PHP DirectoryIterator class accepts filenames with embedded \0 byte and treats them as terminating at that byte. This could lead to security vulnerabilities, e.g. in applications checking paths that the code is allowed to access.
-</code>
-
-- [Live-Hack-CVE/CVE-2019-11045](https://github.com/Live-Hack-CVE/CVE-2019-11045)
-
-### CVE-2019-11046 (2019-12-22)
-
-<code>
-In PHP versions 7.2.x below 7.2.26, 7.3.x below 7.3.13 and 7.4.0, PHP bcmath extension functions on some systems, including Windows, can be tricked into reading beyond the allocated space by supplying it with string containing characters that are identified as numeric by the OS but aren't ASCII numbers. This can read to disclosure of the content of some memory locations.
-</code>
-
-- [Live-Hack-CVE/CVE-2019-11046](https://github.com/Live-Hack-CVE/CVE-2019-11046)
-
 ### CVE-2019-11047 (2019-12-22)
 
 <code>
@@ -35108,22 +35160,6 @@ When PHP EXIF extension is parsing EXIF information from an image, e.g. via exif
 </code>
 
 - [Live-Hack-CVE/CVE-2019-11047](https://github.com/Live-Hack-CVE/CVE-2019-11047)
-
-### CVE-2019-11049 (2019-12-22)
-
-<code>
-In PHP versions 7.3.x below 7.3.13 and 7.4.0 on Windows, when supplying custom headers to mail() function, due to mistake introduced in commit 78f4b4a2dcf92ddbccea1bb95f8390a18ac3342e, if the header is supplied in lowercase, this can result in double-freeing certain memory locations.
-</code>
-
-- [Live-Hack-CVE/CVE-2019-11049](https://github.com/Live-Hack-CVE/CVE-2019-11049)
-
-### CVE-2019-11050 (2019-12-22)
-
-<code>
-When PHP EXIF extension is parsing EXIF information from an image, e.g. via exif_read_data() function, in PHP versions 7.2.x below 7.2.26, 7.3.x below 7.3.13 and 7.4.0 it is possible to supply it with data what will cause it to read past the allocated buffer. This may lead to information disclosure or crash.
-</code>
-
-- [Live-Hack-CVE/CVE-2019-11050](https://github.com/Live-Hack-CVE/CVE-2019-11050)
 
 ### CVE-2019-11061 (2019-08-28)
 
@@ -35385,6 +35421,22 @@ An issue was discovered in Zoho ManageEngine ServiceDesk Plus 9.3. There is XSS 
 </code>
 
 - [falconz/CVE-2019-12189](https://github.com/falconz/CVE-2019-12189)
+
+### CVE-2019-12256 (2019-08-09)
+
+<code>
+Wind River VxWorks 6.9 and vx7 has a Buffer Overflow in the IPv4 component. There is an IPNET security vulnerability: Stack overflow in the parsing of IPv4 packets’ IP options.
+</code>
+
+- [Live-Hack-CVE/CVE-2019-12256](https://github.com/Live-Hack-CVE/CVE-2019-12256)
+
+### CVE-2019-12257 (2019-08-09)
+
+<code>
+Wind River VxWorks 6.6 through 6.9 has a Buffer Overflow in the DHCP client component. There is an IPNET security vulnerability: Heap overflow in DHCP Offer/ACK parsing inside ipdhcpc.
+</code>
+
+- [Live-Hack-CVE/CVE-2019-12257](https://github.com/Live-Hack-CVE/CVE-2019-12257)
 
 ### CVE-2019-12384 (2019-06-24)
 
@@ -37294,14 +37346,6 @@ In GraphicsMagick 1.4 snapshot-20191208 Q8, there is a heap-based buffer over-re
 
 - [Live-Hack-CVE/CVE-2019-19953](https://github.com/Live-Hack-CVE/CVE-2019-19953)
 
-### CVE-2019-19966 (2019-12-24)
-
-<code>
-In the Linux kernel before 5.1.6, there is a use-after-free in cpia2_exit() in drivers/media/usb/cpia2/cpia2_v4l.c that will cause denial of service, aka CID-dea37a972655.
-</code>
-
-- [Live-Hack-CVE/CVE-2019-19966](https://github.com/Live-Hack-CVE/CVE-2019-19966)
-
 ### CVE-2019-20041 (2019-12-27)
 
 <code>
@@ -37349,14 +37393,6 @@ Kernel/VM/MemoryManager.cpp in SerenityOS before 2019-12-30 does not reject sysc
 </code>
 
 - [Live-Hack-CVE/CVE-2019-20172](https://github.com/Live-Hack-CVE/CVE-2019-20172)
-
-### CVE-2019-20180 (2020-01-09)
-
-<code>
-The TablePress plugin 1.9.2 for WordPress allows tablepress[data] CSV injection by Editor users.
-</code>
-
-- [Live-Hack-CVE/CVE-2019-20180](https://github.com/Live-Hack-CVE/CVE-2019-20180)
 
 ### CVE-2019-20218 (2020-01-01)
 
@@ -37536,14 +37572,6 @@ The TSS (Tuple Space Search) algorithm in Open vSwitch 2.x through 2.17.2 and 3.
 
 - [Live-Hack-CVE/CVE-2019-25076](https://github.com/Live-Hack-CVE/CVE-2019-25076)
 
-### CVE-2019-25078 (2022-12-13)
-
-<code>
-A vulnerability classified as problematic was found in pacparser up to 1.3.x. Affected by this vulnerability is the function pacparser_find_proxy of the file src/pacparser.c. The manipulation of the argument url leads to buffer overflow. Attacking locally is a requirement. Upgrading to version 1.4.0 is able to address this issue. The name of the patch is 853e8f45607cb07b877ffd270c63dbcdd5201ad9. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-215443.
-</code>
-
-- [Live-Hack-CVE/CVE-2019-25078](https://github.com/Live-Hack-CVE/CVE-2019-25078)
-
 ### CVE-2019-25084 (2022-12-25)
 
 <code>
@@ -37708,6 +37736,14 @@ Command injection vulnerability in networking of QNAP Q'center Virtual Appliance
 </code>
 
 - [ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708)
+
+### CVE-2018-0732 (2018-06-12)
+
+<code>
+During key agreement in a TLS handshake using a DH(E) based ciphersuite a malicious server can send a very large prime value to the client. This will cause the client to spend an unreasonably long period of time generating a key for this prime resulting in a hang until the client has finished. This could be exploited in a Denial Of Service attack. Fixed in OpenSSL 1.1.0i-dev (Affected 1.1.0-1.1.0h). Fixed in OpenSSL 1.0.2p-dev (Affected 1.0.2-1.0.2o).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-0732](https://github.com/Live-Hack-CVE/CVE-2018-0732)
 
 ### CVE-2018-0734 (2018-10-30)
 
@@ -38108,6 +38144,14 @@ Vulnerability in the Oracle Hospitality Simphony component of Oracle Hospitality
 - [erpscanteam/CVE-2018-2636](https://github.com/erpscanteam/CVE-2018-2636)
 - [Cymmetria/micros_honeypot](https://github.com/Cymmetria/micros_honeypot)
 
+### CVE-2018-2759 (2018-04-18)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: InnoDB). Supported versions that are affected are 5.7.21 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-2759](https://github.com/Live-Hack-CVE/CVE-2018-2759)
+
 ### CVE-2018-2767 (2018-07-18)
 
 <code>
@@ -38124,6 +38168,22 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Serve
 
 - [Live-Hack-CVE/CVE-2018-2771](https://github.com/Live-Hack-CVE/CVE-2018-2771)
 
+### CVE-2018-2777 (2018-04-18)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: InnoDB). Supported versions that are affected are 5.7.21 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-2777](https://github.com/Live-Hack-CVE/CVE-2018-2777)
+
+### CVE-2018-2781 (2018-04-18)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Optimizer). Supported versions that are affected are 5.5.59 and prior, 5.6.39 and prior and 5.7.21 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-2781](https://github.com/Live-Hack-CVE/CVE-2018-2781)
+
 ### CVE-2018-2783 (2018-04-18)
 
 <code>
@@ -38139,6 +38199,14 @@ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java
 </code>
 
 - [Live-Hack-CVE/CVE-2018-2799](https://github.com/Live-Hack-CVE/CVE-2018-2799)
+
+### CVE-2018-2810 (2018-04-18)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: InnoDB). Supported versions that are affected are 5.7.21 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-2810](https://github.com/Live-Hack-CVE/CVE-2018-2810)
 
 ### CVE-2018-2813 (2018-04-18)
 
@@ -38223,6 +38291,14 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: MyISA
 
 - [Live-Hack-CVE/CVE-2018-3058](https://github.com/Live-Hack-CVE/CVE-2018-3058)
 
+### CVE-2018-3063 (2018-07-18)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Server: Security: Privileges). Supported versions that are affected are 5.5.60 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-3063](https://github.com/Live-Hack-CVE/CVE-2018-3063)
+
 ### CVE-2018-3066 (2018-07-18)
 
 <code>
@@ -38230,6 +38306,22 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Serve
 </code>
 
 - [Live-Hack-CVE/CVE-2018-3066](https://github.com/Live-Hack-CVE/CVE-2018-3066)
+
+### CVE-2018-3162 (2018-10-16)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: InnoDB). Supported versions that are affected are 5.7.23 and prior and 8.0.12 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-3162](https://github.com/Live-Hack-CVE/CVE-2018-3162)
+
+### CVE-2018-3173 (2018-10-16)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: InnoDB). Supported versions that are affected are 5.7.23 and prior and 8.0.12 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-3173](https://github.com/Live-Hack-CVE/CVE-2018-3173)
 
 ### CVE-2018-3174 (2018-10-16)
 
@@ -38250,6 +38342,14 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [Libraggbond/CVE-2018-3191](https://github.com/Libraggbond/CVE-2018-3191)
 - [jas502n/CVE-2018-3191](https://github.com/jas502n/CVE-2018-3191)
 - [mackleadmire/CVE-2018-3191-Rce-Exploit](https://github.com/mackleadmire/CVE-2018-3191-Rce-Exploit)
+
+### CVE-2018-3200 (2018-10-16)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: InnoDB). Supported versions that are affected are 5.7.23 and prior and 8.0.12 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-3200](https://github.com/Live-Hack-CVE/CVE-2018-3200)
 
 ### CVE-2018-3245 (2018-10-16)
 
@@ -38273,6 +38373,14 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 
 ### CVE-2018-3260
 - [ionescu007/SpecuCheck](https://github.com/ionescu007/SpecuCheck)
+
+### CVE-2018-3277 (2018-10-16)
+
+<code>
+Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: InnoDB). Supported versions that are affected are 5.7.23 and prior and 8.0.12 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.0 Base Score 4.9 (Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).
+</code>
+
+- [Live-Hack-CVE/CVE-2018-3277](https://github.com/Live-Hack-CVE/CVE-2018-3277)
 
 ### CVE-2018-3282 (2018-10-16)
 
@@ -39226,6 +39334,30 @@ The `'path'` module in the Node.js 4.x release line contains a potential regular
 
 - [Live-Hack-CVE/CVE-2018-7158](https://github.com/Live-Hack-CVE/CVE-2018-7158)
 
+### CVE-2018-7160 (2018-05-17)
+
+<code>
+The Node.js inspector, in 6.x and later is vulnerable to a DNS rebinding attack which could be exploited to perform remote code execution. An attack is possible from malicious websites open in a web browser on the same computer, or another computer with network access to the computer running the Node.js process. A malicious website could use a DNS rebinding attack to trick the web browser to bypass same-origin-policy checks and to allow HTTP connections to localhost or to hosts on the local network. If a Node.js process with the debug port active is running on localhost or on a host on the local network, the malicious website could connect to it as a debugger, and get full code execution access.
+</code>
+
+- [Live-Hack-CVE/CVE-2018-7160](https://github.com/Live-Hack-CVE/CVE-2018-7160)
+
+### CVE-2018-7161 (2018-06-13)
+
+<code>
+All versions of Node.js 8.x, 9.x, and 10.x are vulnerable and the severity is HIGH. An attacker can cause a denial of service (DoS) by causing a node server providing an http2 server to crash. This can be accomplished by interacting with the http2 server in a manner that triggers a cleanup bug where objects are used in native code after they are no longer available. This has been addressed by updating the http2 implementation.
+</code>
+
+- [Live-Hack-CVE/CVE-2018-7161](https://github.com/Live-Hack-CVE/CVE-2018-7161)
+
+### CVE-2018-7162 (2018-06-13)
+
+<code>
+All versions of Node.js 9.x and 10.x are vulnerable and the severity is HIGH. An attacker can cause a denial of service (DoS) by causing a node process which provides an http server supporting TLS server to crash. This can be accomplished by sending duplicate/unexpected messages during the handshake. This vulnerability has been addressed by updating the TLS implementation.
+</code>
+
+- [Live-Hack-CVE/CVE-2018-7162](https://github.com/Live-Hack-CVE/CVE-2018-7162)
+
 ### CVE-2018-7164 (2018-06-13)
 
 <code>
@@ -39249,6 +39381,14 @@ Directory traversal vulnerability in Twonky Server 7.0.11 through 8.5 allows rem
 </code>
 
 - [mechanico/sharingIsCaring](https://github.com/mechanico/sharingIsCaring)
+
+### CVE-2018-7187 (2018-02-16)
+
+<code>
+The &quot;go get&quot; implementation in Go 1.9.4, when the -insecure command-line option is used, does not validate the import path (get/vcs.go only checks for &quot;://&quot; anywhere in the string), which allows remote attackers to execute arbitrary OS commands via a crafted web site.
+</code>
+
+- [Live-Hack-CVE/CVE-2018-7187](https://github.com/Live-Hack-CVE/CVE-2018-7187)
 
 ### CVE-2018-7197 (2018-02-17)
 
@@ -41831,6 +41971,14 @@ A flaw was found in PolicyKit (aka polkit) 0.115 that allows a user with a uid g
 - [Ekultek/PoC](https://github.com/Ekultek/PoC)
 - [jhlongjr/CVE-2018-19788](https://github.com/jhlongjr/CVE-2018-19788)
 
+### CVE-2018-19841 (2018-12-04)
+
+<code>
+The function WavpackVerifySingleBlock in open_utils.c in libwavpack.a in WavPack through 5.1.0 allows attackers to cause a denial-of-service (out-of-bounds read and application crash) via a crafted WavPack Lossless Audio file, as demonstrated by wvunpack.
+</code>
+
+- [Live-Hack-CVE/CVE-2018-19841](https://github.com/Live-Hack-CVE/CVE-2018-19841)
+
 ### CVE-2018-19854 (2018-12-04)
 
 <code>
@@ -42228,6 +42376,14 @@ rsyslog librelp version 1.2.14 and earlier contains a Buffer Overflow vulnerabil
 
 - [s0/rsyslog-librelp-CVE-2018-1000140](https://github.com/s0/rsyslog-librelp-CVE-2018-1000140)
 - [s0/rsyslog-librelp-CVE-2018-1000140-fixed](https://github.com/s0/rsyslog-librelp-CVE-2018-1000140-fixed)
+
+### CVE-2018-1000168 (2018-05-08)
+
+<code>
+nghttp2 version &gt;= 1.10.0 and nghttp2 &lt;= v1.31.0 contains an Improper Input Validation CWE-20 vulnerability in ALTSVC frame handling that can result in segmentation fault leading to denial of service. This attack appears to be exploitable via network client. This vulnerability appears to have been fixed in &gt;= 1.31.1.
+</code>
+
+- [Live-Hack-CVE/CVE-2018-1000168](https://github.com/Live-Hack-CVE/CVE-2018-1000168)
 
 ### CVE-2018-1000199 (2018-05-24)
 
@@ -43131,6 +43287,14 @@ In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters fo
 
 - [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
 
+### CVE-2017-3731 (2017-05-04)
+
+<code>
+If an SSL/TLS server or client is running on a 32-bit host, and a specific cipher is being used, then a truncated packet can cause that server or client to perform an out-of-bounds read, usually resulting in a crash. For OpenSSL 1.1.0, the crash can be triggered when using CHACHA20/POLY1305; users should upgrade to 1.1.0d. For Openssl 1.0.2, the crash can be triggered when using RC4-MD5; users who have not disabled that algorithm should update to 1.0.2k.
+</code>
+
+- [Live-Hack-CVE/CVE-2017-3731](https://github.com/Live-Hack-CVE/CVE-2017-3731)
+
 ### CVE-2017-3732 (2017-05-04)
 
 <code>
@@ -43146,6 +43310,14 @@ While parsing an IPAddressFamily extension in an X.509 certificate, it is possib
 </code>
 
 - [Live-Hack-CVE/CVE-2017-3735](https://github.com/Live-Hack-CVE/CVE-2017-3735)
+
+### CVE-2017-3738 (2017-12-07)
+
+<code>
+There is an overflow bug in the AVX2 Montgomery multiplication procedure used in exponentiation with 1024-bit moduli. No EC algorithms are affected. Analysis suggests that attacks against RSA and DSA as a result of this defect would be very difficult to perform and are not believed likely. Attacks against DH1024 are considered just feasible, because most of the work necessary to deduce information about a private key may be performed offline. The amount of resources required for such an attack would be significant. However, for an attack on TLS to be meaningful, the server would have to share the DH1024 private key among multiple clients, which is no longer an option since CVE-2016-0701. This only affects processors that support the AVX2 but not ADX extensions like Intel Haswell (4th generation). Note: The impact from this issue is similar to CVE-2017-3736, CVE-2017-3732 and CVE-2015-3193. OpenSSL version 1.0.2-1.0.2m and 1.1.0-1.1.0g are affected. Fixed in OpenSSL 1.0.2n. Due to the low severity of this issue we are not issuing a new release of OpenSSL 1.1.0 at this time. The fix will be included in OpenSSL 1.1.0h when it becomes available. The fix is also available in commit e502cc86d in the OpenSSL git repository.
+</code>
+
+- [Live-Hack-CVE/CVE-2017-3738](https://github.com/Live-Hack-CVE/CVE-2017-3738)
 
 ### CVE-2017-3881 (2017-03-17)
 
@@ -43665,6 +43837,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC)
 - [00mjk/exploit-CVE-2017-7494](https://github.com/00mjk/exploit-CVE-2017-7494)
 - [caique-garbim/CVE-2017-7494_SambaCry](https://github.com/caique-garbim/CVE-2017-7494_SambaCry)
+- [Live-Hack-CVE/CVE-2017-7494](https://github.com/Live-Hack-CVE/CVE-2017-7494)
 
 ### CVE-2017-7517 (2022-10-17)
 
@@ -45569,6 +45742,14 @@ Stack-based buffer overflow in dnsmasq before 2.78 allows remote attackers to ca
 
 - [pupiles/bof-dnsmasq-cve-2017-14493](https://github.com/pupiles/bof-dnsmasq-cve-2017-14493)
 
+### CVE-2017-14611 (2018-04-10)
+
+<code>
+SSRF (Server Side Request Forgery) in Cockpit 0.13.0 allows remote attackers to read arbitrary files or send TCP traffic to intranet hosts via the url parameter, related to use of the discontinued aheinze/fetch_url_contents component.
+</code>
+
+- [Live-Hack-CVE/CVE-2017-14611](https://github.com/Live-Hack-CVE/CVE-2017-14611)
+
 ### CVE-2017-14719 (2017-09-23)
 
 <code>
@@ -45576,6 +45757,14 @@ Before version 4.8.2, WordPress was vulnerable to a directory traversal attack d
 </code>
 
 - [PalmTreeForest/CodePath_Week_7-8](https://github.com/PalmTreeForest/CodePath_Week_7-8)
+
+### CVE-2017-14746 (2017-11-27)
+
+<code>
+Use-after-free vulnerability in Samba 4.x before 4.7.3 allows remote attackers to execute arbitrary code via a crafted SMB1 request.
+</code>
+
+- [Live-Hack-CVE/CVE-2017-14746](https://github.com/Live-Hack-CVE/CVE-2017-14746)
 
 ### CVE-2017-14948 (2019-10-14)
 
@@ -45677,6 +45866,14 @@ In Apache httpd 2.4.0 to 2.4.29, the expression specified in &lt;FilesMatch&gt; 
 </code>
 
 - [whisp1830/CVE-2017-15715](https://github.com/whisp1830/CVE-2017-15715)
+
+### CVE-2017-15896 (2017-12-11)
+
+<code>
+Node.js was affected by OpenSSL vulnerability CVE-2017-3737 in regards to the use of SSL_read() due to TLS handshake failure. The result was that an active network attacker could send application data to Node.js using the TLS or HTTP2 modules in a way that bypassed TLS authentication and encryption.
+</code>
+
+- [Live-Hack-CVE/CVE-2017-15896](https://github.com/Live-Hack-CVE/CVE-2017-15896)
 
 ### CVE-2017-15897 (2017-12-11)
 
@@ -46247,6 +46444,22 @@ backend/comics/comics-document.c (aka the comic book backend) in GNOME Evince be
 - [matlink/evince-cve-2017-1000083](https://github.com/matlink/evince-cve-2017-1000083)
 - [matlink/cve-2017-1000083-atril-nautilus](https://github.com/matlink/cve-2017-1000083-atril-nautilus)
 
+### CVE-2017-1000097 (2017-10-03)
+
+<code>
+On Darwin, user's trust preferences for root certificates were not honored. If the user had a root certificate loaded in their Keychain that was explicitly not trusted, a Go program would still verify a connection using that root certificate.
+</code>
+
+- [Live-Hack-CVE/CVE-2017-1000097](https://github.com/Live-Hack-CVE/CVE-2017-1000097)
+
+### CVE-2017-1000098 (2017-10-03)
+
+<code>
+The net/http package's Request.ParseMultipartForm method starts writing to temporary files once the request body size surpasses the given &quot;maxMemory&quot; limit. It was possible for an attacker to generate a multipart request crafted such that the server ran out of file descriptors.
+</code>
+
+- [Live-Hack-CVE/CVE-2017-1000098](https://github.com/Live-Hack-CVE/CVE-2017-1000098)
+
 ### CVE-2017-1000112 (2017-10-03)
 
 <code>
@@ -46342,6 +46555,14 @@ Todd Miller's sudo version 1.8.20 and earlier is vulnerable to an input validati
 - [homjxi0e/CVE-2017-1000367](https://github.com/homjxi0e/CVE-2017-1000367)
 - [pucerpocok/sudo_exploit](https://github.com/pucerpocok/sudo_exploit)
 - [Live-Hack-CVE/CVE-2017-1000367](https://github.com/Live-Hack-CVE/CVE-2017-1000367)
+
+### CVE-2017-1000381 (2017-07-07)
+
+<code>
+The c-ares function `ares_parse_naptr_reply()`, which is used for parsing NAPTR responses, could be triggered to read memory outside of the given input buffer if the passed in DNS response packet was crafted in a particular way.
+</code>
+
+- [Live-Hack-CVE/CVE-2017-1000381](https://github.com/Live-Hack-CVE/CVE-2017-1000381)
 
 ### CVE-2017-1000405 (2017-11-30)
 
@@ -46926,6 +47147,14 @@ The RPC API in RSCD agent in BMC BladeLogic Server Automation (BSA) 8.2.x, 8.3.x
 
 - [ide0x90/cve-2016-1555](https://github.com/ide0x90/cve-2016-1555)
 
+### CVE-2016-1669 (2016-05-14)
+
+<code>
+The Zone::New function in zone.cc in Google V8 before 5.0.71.47, as used in Google Chrome before 50.0.2661.102, does not properly determine when to expand certain memory allocations, which allows remote attackers to cause a denial of service (buffer overflow) or possibly have unspecified other impact via crafted JavaScript code.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-1669](https://github.com/Live-Hack-CVE/CVE-2016-1669)
+
 ### CVE-2016-1734 (2016-03-23)
 
 <code>
@@ -47312,6 +47541,14 @@ Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.3
 
 - [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
+### CVE-2016-3189 (2016-06-30)
+
+<code>
+Use-after-free vulnerability in bzip2recover in bzip2 1.0.6 allows remote attackers to cause a denial of service (crash) via a crafted bzip2 file, related to block ends set to before the start of the block.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-3189](https://github.com/Live-Hack-CVE/CVE-2016-3189)
+
 ### CVE-2016-3238 (2016-07-12)
 
 <code>
@@ -47413,6 +47650,14 @@ The secure_load function in gluon/utils.py in web2py before 2.14.2 uses pickle.l
 </code>
 
 - [sj/web2py-e94946d-CVE-2016-3957](https://github.com/sj/web2py-e94946d-CVE-2016-3957)
+
+### CVE-2016-3958 (2016-05-23)
+
+<code>
+Untrusted search path vulnerability in Go before 1.5.4 and 1.6.x before 1.6.1 on Windows allows local users to gain privileges via a Trojan horse DLL in the current working directory, related to use of the LoadLibrary function.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-3958](https://github.com/Live-Hack-CVE/CVE-2016-3958)
 
 ### CVE-2016-3959 (2016-05-23)
 
@@ -47772,6 +48017,14 @@ The parser in Google V8, as used in Google Chrome before 53.0.2785.113, mishandl
 
 - [Live-Hack-CVE/CVE-2016-5172](https://github.com/Live-Hack-CVE/CVE-2016-5172)
 
+### CVE-2016-5180 (2016-10-03)
+
+<code>
+Heap-based buffer overflow in the ares_create_query function in c-ares 1.x before 1.12.0 allows remote attackers to cause a denial of service (out-of-bounds write) or possibly execute arbitrary code via a hostname with an escaped trailing dot.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-5180](https://github.com/Live-Hack-CVE/CVE-2016-5180)
+
 ### CVE-2016-5195 (2016-11-10)
 
 <code>
@@ -47842,6 +48095,14 @@ PHP through 7.0.8 does not attempt to address RFC 3875 section 4.1.18 namespace 
 
 - [Live-Hack-CVE/CVE-2016-5385](https://github.com/Live-Hack-CVE/CVE-2016-5385)
 
+### CVE-2016-5386 (2016-07-18)
+
+<code>
+The net/http package in Go through 1.6 does not attempt to address RFC 3875 section 4.1.18 namespace conflicts and therefore does not protect CGI applications from the presence of untrusted client data in the HTTP_PROXY environment variable, which might allow remote attackers to redirect a CGI application's outbound HTTP traffic to an arbitrary proxy server via a crafted Proxy header in an HTTP request, aka an &quot;httpoxy&quot; issue.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-5386](https://github.com/Live-Hack-CVE/CVE-2016-5386)
+
 ### CVE-2016-5387 (2016-07-18)
 
 <code>
@@ -47849,6 +48110,14 @@ The Apache HTTP Server through 2.4.23 follows RFC 3875 section 4.1.18 and theref
 </code>
 
 - [Live-Hack-CVE/CVE-2016-5387](https://github.com/Live-Hack-CVE/CVE-2016-5387)
+
+### CVE-2016-5399 (2017-04-21)
+
+<code>
+The bzread function in ext/bz2/bz2.c in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9 allows remote attackers to cause a denial of service (out-of-bounds write) or execute arbitrary code via a crafted bz2 archive.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-5399](https://github.com/Live-Hack-CVE/CVE-2016-5399)
 
 ### CVE-2016-5507 (2016-10-25)
 
@@ -48293,6 +48562,14 @@ Adobe Flash Player before 18.0.0.382 and 19.x through 23.x before 23.0.0.185 on 
 </code>
 
 - [Live-Hack-CVE/CVE-2016-6992](https://github.com/Live-Hack-CVE/CVE-2016-6992)
+
+### CVE-2016-7052 (2016-09-26)
+
+<code>
+crypto/x509/x509_vfy.c in OpenSSL 1.0.2i allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) by triggering a CRL operation.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-7052](https://github.com/Live-Hack-CVE/CVE-2016-7052)
 
 ### CVE-2016-7055 (2017-05-04)
 
@@ -49135,6 +49412,38 @@ An issue was discovered in components/com_users/models/registration.php in Jooml
 
 - [cved-sources/cve-2016-9838](https://github.com/cved-sources/cve-2016-9838)
 
+### CVE-2016-9840 (2017-05-22)
+
+<code>
+inftrees.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-9840](https://github.com/Live-Hack-CVE/CVE-2016-9840)
+
+### CVE-2016-9841 (2017-05-22)
+
+<code>
+inffast.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-9841](https://github.com/Live-Hack-CVE/CVE-2016-9841)
+
+### CVE-2016-9842 (2017-05-22)
+
+<code>
+The inflateMark function in inflate.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact via vectors involving left shifts of negative integers.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-9842](https://github.com/Live-Hack-CVE/CVE-2016-9842)
+
+### CVE-2016-9843 (2017-05-22)
+
+<code>
+The crc32_big function in crc32.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact via vectors involving big-endian CRC calculation.
+</code>
+
+- [Live-Hack-CVE/CVE-2016-9843](https://github.com/Live-Hack-CVE/CVE-2016-9843)
+
 ### CVE-2016-9920 (2016-12-08)
 
 <code>
@@ -49447,6 +49756,14 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
 - [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
+
+### CVE-2015-0278 (2015-05-18)
+
+<code>
+libuv before 0.10.34 does not properly drop group privileges, which allows context-dependent attackers to gain privileges via unspecified vectors.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-0278](https://github.com/Live-Hack-CVE/CVE-2015-0278)
 
 ### CVE-2015-0285 (2015-03-19)
 
@@ -49945,6 +50262,22 @@ The saveObject function in moadmin.php in phpMoAdmin 1.1.2 allows remote attacke
 - [Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291)
 - [Exploitables/CVE-2015-2291](https://github.com/Exploitables/CVE-2015-2291)
 
+### CVE-2015-2301 (2015-03-30)
+
+<code>
+Use-after-free vulnerability in the phar_rename_archive function in phar_object.c in PHP before 5.5.22 and 5.6.x before 5.6.6 allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors that trigger an attempted renaming of a Phar archive to the name of an existing file.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-2301](https://github.com/Live-Hack-CVE/CVE-2015-2301)
+
+### CVE-2015-2305 (2015-03-30)
+
+<code>
+Integer overflow in the regcomp implementation in the Henry Spencer BSD regex library (aka rxspencer) alpha3.8.g5 on 32-bit platforms, as used in NetBSD through 6.1.5 and other products, might allow context-dependent attackers to execute arbitrary code via a large regular expression that leads to a heap-based buffer overflow.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-2305](https://github.com/Live-Hack-CVE/CVE-2015-2305)
+
 ### CVE-2015-2315 (2015-03-17)
 
 <code>
@@ -50149,6 +50482,30 @@ Directory traversal vulnerability in Elasticsearch before 1.4.5 and 1.5.x before
 </code>
 
 - [jas502n/CVE-2015-3337](https://github.com/jas502n/CVE-2015-3337)
+
+### CVE-2015-3414 (2015-04-24)
+
+<code>
+SQLite before 3.8.9 does not properly implement the dequoting of collation-sequence names, which allows context-dependent attackers to cause a denial of service (uninitialized memory access and application crash) or possibly have unspecified other impact via a crafted COLLATE clause, as demonstrated by COLLATE&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot; at the end of a SELECT statement.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-3414](https://github.com/Live-Hack-CVE/CVE-2015-3414)
+
+### CVE-2015-3415 (2015-04-24)
+
+<code>
+The sqlite3VdbeExec function in vdbe.c in SQLite before 3.8.9 does not properly implement comparison operators, which allows context-dependent attackers to cause a denial of service (invalid free operation) or possibly have unspecified other impact via a crafted CHECK clause, as demonstrated by CHECK(0&amp;O&gt;O) in a CREATE TABLE statement.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-3415](https://github.com/Live-Hack-CVE/CVE-2015-3415)
+
+### CVE-2015-3416 (2015-04-24)
+
+<code>
+The sqlite3VXPrintf function in printf.c in SQLite before 3.8.9 does not properly handle precision and width values during floating-point conversions, which allows context-dependent attackers to cause a denial of service (integer overflow and stack-based buffer overflow) or possibly have unspecified other impact via large integers in a crafted printf function call in a SELECT statement.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-3416](https://github.com/Live-Hack-CVE/CVE-2015-3416)
 
 ### CVE-2015-3456 (2015-05-13)
 
@@ -50677,6 +51034,14 @@ The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary C
 
 - [k4u5h41/CVE-2015-6668](https://github.com/k4u5h41/CVE-2015-6668)
 
+### CVE-2015-6764 (2015-12-05)
+
+<code>
+The BasicJsonStringifier::SerializeJSArray function in json-stringifier.h in the JSON stringifier in Google V8, as used in Google Chrome before 47.0.2526.73, improperly loads array elements, which allows remote attackers to cause a denial of service (out-of-bounds memory access) or possibly have unspecified other impact via crafted JavaScript code.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-6764](https://github.com/Live-Hack-CVE/CVE-2015-6764)
+
 ### CVE-2015-6835 (2016-05-16)
 
 <code>
@@ -50835,6 +51200,46 @@ The do_setup_env function in session.c in sshd in OpenSSH through 7.2p2, when th
 
 - [Live-Hack-CVE/CVE-2015-8325](https://github.com/Live-Hack-CVE/CVE-2015-8325)
 
+### CVE-2015-8383 (2015-12-01)
+
+<code>
+PCRE before 8.38 mishandles certain repeated conditional groups, which allows remote attackers to cause a denial of service (buffer overflow) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-8383](https://github.com/Live-Hack-CVE/CVE-2015-8383)
+
+### CVE-2015-8386 (2015-12-01)
+
+<code>
+PCRE before 8.38 mishandles the interaction of lookbehind assertions and mutually recursive subpatterns, which allows remote attackers to cause a denial of service (buffer overflow) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-8386](https://github.com/Live-Hack-CVE/CVE-2015-8386)
+
+### CVE-2015-8387 (2015-12-01)
+
+<code>
+PCRE before 8.38 mishandles (?123) subroutine calls and related subroutine calls, which allows remote attackers to cause a denial of service (integer overflow) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-8387](https://github.com/Live-Hack-CVE/CVE-2015-8387)
+
+### CVE-2015-8389 (2015-12-01)
+
+<code>
+PCRE before 8.38 mishandles the /(?:|a|){100}x/ pattern and related patterns, which allows remote attackers to cause a denial of service (infinite recursion) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-8389](https://github.com/Live-Hack-CVE/CVE-2015-8389)
+
+### CVE-2015-8390 (2015-12-01)
+
+<code>
+PCRE before 8.38 mishandles the [: and \\ substrings in character classes, which allows remote attackers to cause a denial of service (uninitialized memory read) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-8390](https://github.com/Live-Hack-CVE/CVE-2015-8390)
+
 ### CVE-2015-8393 (2015-12-01)
 
 <code>
@@ -50842,6 +51247,14 @@ pcregrep in PCRE before 8.38 mishandles the -q option for binary files, which mi
 </code>
 
 - [Live-Hack-CVE/CVE-2015-8393](https://github.com/Live-Hack-CVE/CVE-2015-8393)
+
+### CVE-2015-8394 (2015-12-01)
+
+<code>
+PCRE before 8.38 mishandles the (?(&lt;digits&gt;) and (?(R&lt;digits&gt;) conditions, which allows remote attackers to cause a denial of service (integer overflow) or possibly have unspecified other impact via a crafted regular expression, as demonstrated by a JavaScript RegExp object encountered by Konqueror.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-8394](https://github.com/Live-Hack-CVE/CVE-2015-8394)
 
 ### CVE-2015-8467 (2015-12-29)
 
@@ -50915,6 +51328,14 @@ The odbc_bindcols function in ext/odbc/php_odbc.c in PHP before 5.6.12 mishandle
 </code>
 
 - [Live-Hack-CVE/CVE-2015-8879](https://github.com/Live-Hack-CVE/CVE-2015-8879)
+
+### CVE-2015-8994 (2017-03-02)
+
+<code>
+An issue was discovered in PHP 5.x and 7.x, when the configuration uses apache2handler/mod_php or php-fpm with OpCache enabled. With 5.x after 5.6.28 or 7.x after 7.0.13, the issue is resolved in a non-default configuration with the opcache.validate_permission=1 setting. The vulnerability details are as follows. In PHP SAPIs where PHP interpreters share a common parent process, Zend OpCache creates a shared memory object owned by the common parent during initialization. Child PHP processes inherit the SHM descriptor, using it to cache and retrieve compiled script bytecode (&quot;opcode&quot; in PHP jargon). Cache keys vary depending on configuration, but filename is a central key component, and compiled opcode can generally be run if a script's filename is known or can be guessed. Many common shared-hosting configurations change EUID in child processes to enforce privilege separation among hosted users (for example using mod_ruid2 for the Apache HTTP Server, or php-fpm user settings). In these scenarios, the default Zend OpCache behavior defeats script file permissions by sharing a single SHM cache among all child PHP processes. PHP scripts often contain sensitive information: Think of CMS configurations where reading or running another user's script usually means gaining privileges to the CMS database.
+</code>
+
+- [Live-Hack-CVE/CVE-2015-8994](https://github.com/Live-Hack-CVE/CVE-2015-8994)
 
 ### CVE-2015-9235 (2018-05-29)
 
@@ -51122,6 +51543,14 @@ Samba 3.6.6 through 3.6.23, 4.0.x before 4.0.18, and 4.1.x before 4.1.8, when a 
 
 - [Live-Hack-CVE/CVE-2014-0178](https://github.com/Live-Hack-CVE/CVE-2014-0178)
 
+### CVE-2014-0185 (2014-05-06)
+
+<code>
+sapi/fpm/fpm/fpm_unix.c in the FastCGI Process Manager (FPM) in PHP before 5.4.28 and 5.5.x before 5.5.12 uses 0666 permissions for the UNIX socket, which allows local users to gain privileges via a crafted FastCGI client.
+</code>
+
+- [Live-Hack-CVE/CVE-2014-0185](https://github.com/Live-Hack-CVE/CVE-2014-0185)
+
 ### CVE-2014-0195 (2014-06-05)
 
 <code>
@@ -51175,6 +51604,7 @@ OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h does not pr
 - [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
 - [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
+- [Live-Hack-CVE/CVE-2014-0224](https://github.com/Live-Hack-CVE/CVE-2014-0224)
 
 ### CVE-2014-0226 (2014-07-20)
 
@@ -53030,6 +53460,14 @@ Use-after-free vulnerability in Google Chrome before 27.0.1453.93 allows remote 
 
 - [173210/spider](https://github.com/173210/spider)
 
+### CVE-2013-2882 (2013-07-30)
+
+<code>
+Google V8, as used in Google Chrome before 28.0.1500.95, allows remote attackers to cause a denial of service or possibly have unspecified other impact via vectors that leverage &quot;type confusion.&quot;
+</code>
+
+- [Live-Hack-CVE/CVE-2013-2882](https://github.com/Live-Hack-CVE/CVE-2013-2882)
+
 ### CVE-2013-2977 (2013-05-10)
 
 <code>
@@ -53175,6 +53613,14 @@ XMLscanner.java in Apache Xerces2 Java Parser before 2.12.0, as used in the Java
 </code>
 
 - [tafamace/CVE-2013-4002](https://github.com/tafamace/CVE-2013-4002)
+
+### CVE-2013-4113 (2013-07-13)
+
+<code>
+ext/xml/xml.c in PHP before 5.3.27 does not properly consider parsing depth, which allows remote attackers to cause a denial of service (heap memory corruption) or possibly have unspecified other impact via a crafted document that is processed by the xml_parse_into_struct function.
+</code>
+
+- [Live-Hack-CVE/CVE-2013-4113](https://github.com/Live-Hack-CVE/CVE-2013-4113)
 
 ### CVE-2013-4175 (2020-01-23)
 
@@ -53445,6 +53891,7 @@ Multiple unspecified vulnerabilities in Google V8 before 3.24.35.10, as used in 
 </code>
 
 - [sdneon/CveTest](https://github.com/sdneon/CveTest)
+- [Live-Hack-CVE/CVE-2013-6668](https://github.com/Live-Hack-CVE/CVE-2013-6668)
 
 ### CVE-2013-6712 (2013-11-27)
 
@@ -53577,6 +54024,14 @@ The JavaScript API in Adobe Reader and Acrobat 9.x before 9.5.1 and 10.x before 
 </code>
 
 - [Live-Hack-CVE/CVE-2012-0777](https://github.com/Live-Hack-CVE/CVE-2012-0777)
+
+### CVE-2012-0831 (2012-02-10)
+
+<code>
+PHP before 5.3.10 does not properly perform a temporary change to the magic_quotes_gpc directive during the importing of environment variables, which makes it easier for remote attackers to conduct SQL injection attacks via a crafted request, related to main/php_variables.c, sapi/cgi/cgi_main.c, and sapi/fpm/fpm/fpm_main.c.
+</code>
+
+- [Live-Hack-CVE/CVE-2012-0831](https://github.com/Live-Hack-CVE/CVE-2012-0831)
 
 ### CVE-2012-0883 (2012-04-18)
 
@@ -54513,6 +54968,14 @@ UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 th
 - [XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE)
 - [MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075)
 
+### CVE-2010-2089 (2010-05-27)
+
+<code>
+The audioop module in Python 2.7 and 3.2 does not verify the relationships between size arguments and byte string lengths, which allows context-dependent attackers to cause a denial of service (memory corruption and application crash) via crafted arguments, as demonstrated by a call to audioop.reverse with a one-byte string, a different vulnerability than CVE-2010-1634.
+</code>
+
+- [Live-Hack-CVE/CVE-2010-2089](https://github.com/Live-Hack-CVE/CVE-2010-2089)
+
 ### CVE-2010-2179 (2010-06-15)
 
 <code>
@@ -54601,6 +55064,14 @@ elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2,
 </code>
 
 - [magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847)
+
+### CVE-2010-3870 (2010-11-12)
+
+<code>
+The utf8_decode function in PHP before 5.3.4 does not properly handle non-shortest form UTF-8 encoding and ill-formed subsequences in UTF-8 data, which makes it easier for remote attackers to bypass cross-site scripting (XSS) and SQL injection protection mechanisms via a crafted string.
+</code>
+
+- [Live-Hack-CVE/CVE-2010-3870](https://github.com/Live-Hack-CVE/CVE-2010-3870)
 
 ### CVE-2010-3904 (2010-12-06)
 
@@ -55800,6 +56271,30 @@ Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and e
 
 - [snowcra5h/CVE-2003-0358](https://github.com/snowcra5h/CVE-2003-0358)
 
+### CVE-2003-0658 (2003-09-03)
+
+<code>
+Docview before 1.1-18 in Caldera OpenLinux 3.1.1, SCO Linux 4.0, OpenServer 5.0.7, configures the Apache web server in a way that allows remote attackers to read arbitrary publicly readable files via a certain URL, possibly related to rewrite rules.
+</code>
+
+- [Live-Hack-CVE/CVE-2003-0658](https://github.com/Live-Hack-CVE/CVE-2003-0658)
+
+### CVE-2003-0742 (2003-09-19)
+
+<code>
+SCO Internet Manager (mana) allows local users to execute arbitrary programs by setting the REMOTE_ADDR environment variable to cause menu.mana to run as if it were called from ncsa_httpd, then modifying the PATH environment variable to point to a malicious &quot;hostname&quot; program.
+</code>
+
+- [Live-Hack-CVE/CVE-2003-0742](https://github.com/Live-Hack-CVE/CVE-2003-0742)
+
+### CVE-2003-0769 (2003-09-12)
+
+<code>
+Cross-site scripting (XSS) vulnerability in the ICQ Web Front guestbook (guestbook.html) allows remote attackers to insert arbitrary web script and HTML via the message field.
+</code>
+
+- [Live-Hack-CVE/CVE-2003-0769](https://github.com/Live-Hack-CVE/CVE-2003-0769)
+
 ### CVE-2003-0789 (2003-10-30)
 
 <code>
@@ -55807,6 +56302,14 @@ mod_cgid in Apache before 2.0.48, when using a threaded MPM, does not properly h
 </code>
 
 - [Live-Hack-CVE/CVE-2003-0789](https://github.com/Live-Hack-CVE/CVE-2003-0789)
+
+### CVE-2003-0836 (2003-10-08)
+
+<code>
+Stack-based buffer overflow in IBM DB2 Universal Data Base 7.2 before Fixpak 10 and 10a, and 8.1 before Fixpak 2, allows attackers with &quot;Connect&quot; privileges to execute arbitrary code via a LOAD command.
+</code>
+
+- [Live-Hack-CVE/CVE-2003-0836](https://github.com/Live-Hack-CVE/CVE-2003-0836)
 
 ### CVE-2003-1229 (2005-08-17)
 
@@ -55941,6 +56444,14 @@ The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the clie
 
 
 ## 2001
+### CVE-2001-0352 (2001-07-27)
+
+<code>
+SNMP agents in 3Com AirConnect AP-4111 and Symbol 41X1 Access Point allow remote attackers to obtain the WEP encryption key by reading it from a MIB when the value should be write-only, via (1) dot11WEPDefaultKeyValue in the dot11WEPDefaultKeysTable of the IEEE 802.11b MIB, or (2) ap128bWepKeyValue in the ap128bWEPKeyTable in the Symbol MIB.
+</code>
+
+- [Live-Hack-CVE/CVE-2001-0352](https://github.com/Live-Hack-CVE/CVE-2001-0352)
+
 ### CVE-2001-0550 (2002-06-25)
 
 <code>
@@ -56018,6 +56529,326 @@ lpd daemon (in.lpd) in Solaris 8 and earlier allows remote attackers to execute 
 
 
 ## 2000
+### CVE-2000-0008 (2000-02-04)
+
+<code>
+FTPPro allows local users to read sensitive information, which is stored in plain text.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0008](https://github.com/Live-Hack-CVE/CVE-2000-0008)
+
+### CVE-2000-0010 (2000-04-25)
+
+<code>
+WebWho+ whois.cgi program allows remote attackers to execute commands via shell metacharacters in the TLD parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0010](https://github.com/Live-Hack-CVE/CVE-2000-0010)
+
+### CVE-2000-0017 (2000-02-04)
+
+<code>
+Buffer overflow in Linux linuxconf package allows remote attackers to gain root privileges via a long parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0017](https://github.com/Live-Hack-CVE/CVE-2000-0017)
+
+### CVE-2000-0019 (2000-02-04)
+
+<code>
+IMail POP3 daemon uses weak encryption, which allows local users to read files.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0019](https://github.com/Live-Hack-CVE/CVE-2000-0019)
+
+### CVE-2000-0020 (2000-04-25)
+
+<code>
+DNS PRO allows remote attackers to conduct a denial of service via a large number of connections.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0020](https://github.com/Live-Hack-CVE/CVE-2000-0020)
+
+### CVE-2000-0028 (2000-02-04)
+
+<code>
+Internet Explorer 5.0 and 5.01 allows remote attackers to bypass the cross frame security policy and read files via the external.NavigateAndFind function.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0028](https://github.com/Live-Hack-CVE/CVE-2000-0028)
+
+### CVE-2000-0031 (2000-03-22)
+
+<code>
+The initscripts package in Red Hat Linux allows local users to gain privileges via a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0031](https://github.com/Live-Hack-CVE/CVE-2000-0031)
+
+### CVE-2000-0034 (2000-07-12)
+
+<code>
+Netscape 4.7 records user passwords in the preferences.js file during an IMAP or POP session, even if the user has not enabled &quot;remember passwords.&quot;
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0034](https://github.com/Live-Hack-CVE/CVE-2000-0034)
+
+### CVE-2000-0038 (2000-02-04)
+
+<code>
+glFtpD includes a default glftpd user account with a default password and a UID of 0.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0038](https://github.com/Live-Hack-CVE/CVE-2000-0038)
+
+### CVE-2000-0040 (2000-03-22)
+
+<code>
+glFtpD allows local users to gain privileges via metacharacters in the SITE ZIPCHK command.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0040](https://github.com/Live-Hack-CVE/CVE-2000-0040)
+
+### CVE-2000-0047 (2000-02-04)
+
+<code>
+Buffer overflow in Yahoo Pager/Messenger client allows remote attackers to cause a denial of service via a long URL within a message.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0047](https://github.com/Live-Hack-CVE/CVE-2000-0047)
+
+### CVE-2000-0065 (2000-10-13)
+
+<code>
+Buffer overflow in InetServ 3.0 allows remote attackers to execute commands via a long GET request.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0065](https://github.com/Live-Hack-CVE/CVE-2000-0065)
+
+### CVE-2000-0066 (2000-02-04)
+
+<code>
+WebSite Pro allows remote attackers to determine the real pathname of webdirectories via a malformed URL request.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0066](https://github.com/Live-Hack-CVE/CVE-2000-0066)
+
+### CVE-2000-0067 (2000-02-04)
+
+<code>
+CyberCash Merchant Connection Kit (MCK) allows local users to modify files via a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0067](https://github.com/Live-Hack-CVE/CVE-2000-0067)
+
+### CVE-2000-0069 (2000-02-04)
+
+<code>
+The recover program in Solstice Backup allows local users to restore sensitive files.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0069](https://github.com/Live-Hack-CVE/CVE-2000-0069)
+
+### CVE-2000-0074 (2000-02-04)
+
+<code>
+PowerScripts PlusMail CGI program allows remote attackers to execute commands via a password file with improper permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0074](https://github.com/Live-Hack-CVE/CVE-2000-0074)
+
+### CVE-2000-0081 (2000-02-04)
+
+<code>
+Hotmail does not properly filter JavaScript code from a user's mailbox, which allows a remote attacker to execute the code by using hexadecimal codes to specify the javascript: protocol, e.g. j&amp;#x41;vascript.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0081](https://github.com/Live-Hack-CVE/CVE-2000-0081)
+
+### CVE-2000-0084 (2000-02-04)
+
+<code>
+CuteFTP uses weak encryption to store password information in its tree.dat file.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0084](https://github.com/Live-Hack-CVE/CVE-2000-0084)
+
+### CVE-2000-0085 (2000-02-04)
+
+<code>
+Hotmail does not properly filter JavaScript code from a user's mailbox, which allows a remote attacker to execute code via the LOWSRC or DYNRC parameters in the IMG tag.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0085](https://github.com/Live-Hack-CVE/CVE-2000-0085)
+
+### CVE-2000-0093 (2000-02-08)
+
+<code>
+An installation of Red Hat uses DES password encryption with crypt() for the initial password, instead of md5.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0093](https://github.com/Live-Hack-CVE/CVE-2000-0093)
+
+### CVE-2000-0101 (2000-02-08)
+
+<code>
+The Make-a-Store OrderPage shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0101](https://github.com/Live-Hack-CVE/CVE-2000-0101)
+
+### CVE-2000-0102 (2000-02-08)
+
+<code>
+The SalesCart shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0102](https://github.com/Live-Hack-CVE/CVE-2000-0102)
+
+### CVE-2000-0103 (2000-02-08)
+
+<code>
+The SmartCart shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0103](https://github.com/Live-Hack-CVE/CVE-2000-0103)
+
+### CVE-2000-0104 (2000-02-08)
+
+<code>
+The Shoptron shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0104](https://github.com/Live-Hack-CVE/CVE-2000-0104)
+
+### CVE-2000-0106 (2000-02-08)
+
+<code>
+The EasyCart shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0106](https://github.com/Live-Hack-CVE/CVE-2000-0106)
+
+### CVE-2000-0108 (2000-02-08)
+
+<code>
+The Intellivend shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0108](https://github.com/Live-Hack-CVE/CVE-2000-0108)
+
+### CVE-2000-0109 (2000-02-08)
+
+<code>
+The mcsp Client Site Processor system (MultiCSP) in Standard and Poor's ComStock is installed with several accounts that have no passwords or easily guessable default passwords.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0109](https://github.com/Live-Hack-CVE/CVE-2000-0109)
+
+### CVE-2000-0110 (2000-02-08)
+
+<code>
+The WebSiteTool shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0110](https://github.com/Live-Hack-CVE/CVE-2000-0110)
+
+### CVE-2000-0114 (2000-02-08)
+
+<code>
+Frontpage Server Extensions allows remote attackers to determine the name of the anonymous account via an RPC POST request to shtml.dll in the /_vti_bin/ virtual directory.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0114](https://github.com/Live-Hack-CVE/CVE-2000-0114)
+
+### CVE-2000-0115 (2000-02-08)
+
+<code>
+IIS allows local users to cause a denial of service via invalid regular expressions in a Visual Basic script in an ASP page.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0115](https://github.com/Live-Hack-CVE/CVE-2000-0115)
+
+### CVE-2000-0123 (2000-02-08)
+
+<code>
+The shopping cart application provided with Filemaker allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0123](https://github.com/Live-Hack-CVE/CVE-2000-0123)
+
+### CVE-2000-0126 (2000-02-08)
+
+<code>
+Sample Internet Data Query (IDQ) scripts in IIS 3 and 4 allow remote attackers to read files via a .. (dot dot) attack.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0126](https://github.com/Live-Hack-CVE/CVE-2000-0126)
+
+### CVE-2000-0129 (2000-02-08)
+
+<code>
+Buffer overflow in the SHGetPathFromIDList function of the Serv-U FTP server allows attackers to cause a denial of service by performing a LIST command on a malformed .lnk file.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0129](https://github.com/Live-Hack-CVE/CVE-2000-0129)
+
+### CVE-2000-0134 (2000-02-08)
+
+<code>
+The Check It Out shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0134](https://github.com/Live-Hack-CVE/CVE-2000-0134)
+
+### CVE-2000-0135 (2000-02-08)
+
+<code>
+The @Retail shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0135](https://github.com/Live-Hack-CVE/CVE-2000-0135)
+
+### CVE-2000-0136 (2000-02-08)
+
+<code>
+The Cart32 shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0136](https://github.com/Live-Hack-CVE/CVE-2000-0136)
+
+### CVE-2000-0137 (2000-02-08)
+
+<code>
+The CartIt shopping cart application allows remote users to modify sensitive purchase information via hidden form fields.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0137](https://github.com/Live-Hack-CVE/CVE-2000-0137)
+
+### CVE-2000-0142 (2000-02-16)
+
+<code>
+The authentication protocol in Timbuktu Pro 2.0b650 allows remote attackers to cause a denial of service via connections to port 407 and 1417.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0142](https://github.com/Live-Hack-CVE/CVE-2000-0142)
+
+### CVE-2000-0143 (2000-02-16)
+
+<code>
+The SSH protocol server sshd allows local users without shell access to redirect a TCP connection through a service that uses the standard system password database for authentication, such as POP or FTP.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0143](https://github.com/Live-Hack-CVE/CVE-2000-0143)
+
+### CVE-2000-0145 (2000-03-22)
+
+<code>
+The libguile.so library file used by gnucash in Debian GNU/Linux is installed with world-writable permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0145](https://github.com/Live-Hack-CVE/CVE-2000-0145)
+
 ### CVE-2000-0170 (2000-04-10)
 
 <code>
@@ -56025,6 +56856,22 @@ Buffer overflow in the man program in Linux allows local users to gain privilege
 </code>
 
 - [mike182/exploit](https://github.com/mike182/exploit)
+
+### CVE-2000-0182 (2000-04-10)
+
+<code>
+iPlanet Web Server 4.1 allows remote attackers to cause a denial of service via a large number of GET commands, which consumes memory and causes a kernel panic.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0182](https://github.com/Live-Hack-CVE/CVE-2000-0182)
+
+### CVE-2000-0220 (2000-03-22)
+
+<code>
+ZoneAlarm sends sensitive system and network information in cleartext to the Zone Labs server if a user requests more information about an event.
+</code>
+
+- [Live-Hack-CVE/CVE-2000-0220](https://github.com/Live-Hack-CVE/CVE-2000-0220)
 
 ### CVE-2000-0649 (2000-08-03)
 
@@ -56045,6 +56892,22 @@ File and Print Sharing service in Windows 95, Windows 98, and Windows Me does no
 
 
 ## 1999
+### CVE-1999-0012 (1999-09-29)
+
+<code>
+Some web servers under Microsoft Windows allow remote attackers to bypass access restrictions for files with long file names.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0012](https://github.com/Live-Hack-CVE/CVE-1999-0012)
+
+### CVE-1999-0013 (1999-09-29)
+
+<code>
+Stolen credentials from SSH clients via ssh-agent program, allowing other local users to access remote accounts belonging to the ssh-agent user.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0013](https://github.com/Live-Hack-CVE/CVE-1999-0013)
+
 ### CVE-1999-0016 (1999-09-29)
 
 <code>
@@ -56054,6 +56917,2230 @@ Land IP denial of service.
 - [pexmee/CVE-1999-0016-Land-DOS-tool](https://github.com/pexmee/CVE-1999-0016-Land-DOS-tool)
 - [Pommaq/CVE-1999-0016-POC](https://github.com/Pommaq/CVE-1999-0016-POC)
 
+### CVE-1999-0017 (1999-09-29)
+
+<code>
+FTP servers can allow an attacker to connect to arbitrary ports on machines other than the FTP client, aka FTP bounce.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0017](https://github.com/Live-Hack-CVE/CVE-1999-0017)
+
+### CVE-1999-0023 (1999-09-29)
+
+<code>
+Local user gains root privileges via buffer overflow in rdist, via lookup() function.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0023](https://github.com/Live-Hack-CVE/CVE-1999-0023)
+
+### CVE-1999-0024 (1999-09-29)
+
+<code>
+DNS cache poisoning via BIND, by predictable query IDs.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0024](https://github.com/Live-Hack-CVE/CVE-1999-0024)
+
+### CVE-1999-0026 (1999-09-29)
+
+<code>
+root privileges via buffer overflow in pset command on SGI IRIX systems.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0026](https://github.com/Live-Hack-CVE/CVE-1999-0026)
+
+### CVE-1999-0027 (1999-09-29)
+
+<code>
+root privileges via buffer overflow in eject command on SGI IRIX systems.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0027](https://github.com/Live-Hack-CVE/CVE-1999-0027)
+
+### CVE-1999-0028 (1999-09-29)
+
+<code>
+root privileges via buffer overflow in login/scheme command on SGI IRIX systems.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0028](https://github.com/Live-Hack-CVE/CVE-1999-0028)
+
+### CVE-1999-0029 (1999-09-29)
+
+<code>
+root privileges via buffer overflow in ordist command on SGI IRIX systems.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0029](https://github.com/Live-Hack-CVE/CVE-1999-0029)
+
+### CVE-1999-0030 (2000-02-04)
+
+<code>
+root privileges via buffer overflow in xlock command on SGI IRIX systems.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0030](https://github.com/Live-Hack-CVE/CVE-1999-0030)
+
+### CVE-1999-0033 (2000-02-04)
+
+<code>
+Command execution in Sun systems via buffer overflow in the at program.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0033](https://github.com/Live-Hack-CVE/CVE-1999-0033)
+
+### CVE-1999-0034 (1999-09-29)
+
+<code>
+Buffer overflow in suidperl (sperl), Perl 4.x and 5.x.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0034](https://github.com/Live-Hack-CVE/CVE-1999-0034)
+
+### CVE-1999-0035 (1999-09-29)
+
+<code>
+Race condition in signal handling routine in ftpd, allowing read/write arbitrary files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0035](https://github.com/Live-Hack-CVE/CVE-1999-0035)
+
+### CVE-1999-0037 (1999-09-29)
+
+<code>
+Arbitrary command execution via metamail package using message headers, when user processes attacker's message using metamail.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0037](https://github.com/Live-Hack-CVE/CVE-1999-0037)
+
+### CVE-1999-0038 (1999-09-29)
+
+<code>
+Buffer overflow in xlock program allows local users to execute commands as root.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0038](https://github.com/Live-Hack-CVE/CVE-1999-0038)
+
+### CVE-1999-0041 (1999-09-29)
+
+<code>
+Buffer overflow in NLS (Natural Language Service).
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0041](https://github.com/Live-Hack-CVE/CVE-1999-0041)
+
+### CVE-1999-0042 (1999-09-29)
+
+<code>
+Buffer overflow in University of Washington's implementation of IMAP and POP servers.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0042](https://github.com/Live-Hack-CVE/CVE-1999-0042)
+
+### CVE-1999-0043 (1999-09-29)
+
+<code>
+Command execution via shell metachars in INN daemon (innd) 1.5 using &quot;newgroup&quot; and &quot;rmgroup&quot; control messages, and others.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0043](https://github.com/Live-Hack-CVE/CVE-1999-0043)
+
+### CVE-1999-0045 (1999-09-29)
+
+<code>
+List of arbitrary files on Web host via nph-test-cgi script.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0045](https://github.com/Live-Hack-CVE/CVE-1999-0045)
+
+### CVE-1999-0046 (1999-09-29)
+
+<code>
+Buffer overflow of rlogin program using TERM environmental variable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0046](https://github.com/Live-Hack-CVE/CVE-1999-0046)
+
+### CVE-1999-0049 (1999-09-29)
+
+<code>
+Csetup under IRIX allows arbitrary file creation or overwriting.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0049](https://github.com/Live-Hack-CVE/CVE-1999-0049)
+
+### CVE-1999-0050 (1999-09-29)
+
+<code>
+Buffer overflow in HP-UX newgrp program.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0050](https://github.com/Live-Hack-CVE/CVE-1999-0050)
+
+### CVE-1999-0051 (1999-09-29)
+
+<code>
+Arbitrary file creation and program execution using FLEXlm LicenseManager, from versions 4.0 to 5.0, in IRIX.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0051](https://github.com/Live-Hack-CVE/CVE-1999-0051)
+
+### CVE-1999-0060 (1999-09-29)
+
+<code>
+Attackers can cause a denial of service in Ascend MAX and Pipeline routers with a malformed packet to the discard port, which is used by the Java Configurator tool.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0060](https://github.com/Live-Hack-CVE/CVE-1999-0060)
+
+### CVE-1999-0061 (2000-02-04)
+
+<code>
+File creation and deletion, and remote execution, in the BSD line printer daemon (lpd).
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0061](https://github.com/Live-Hack-CVE/CVE-1999-0061)
+
+### CVE-1999-0063 (1999-09-29)
+
+<code>
+Cisco IOS 12.0 and other versions can be crashed by malicious UDP packets to the syslog port.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0063](https://github.com/Live-Hack-CVE/CVE-1999-0063)
+
+### CVE-1999-0064 (1999-09-29)
+
+<code>
+Buffer overflow in AIX lquerylv program gives root access to local users.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0064](https://github.com/Live-Hack-CVE/CVE-1999-0064)
+
+### CVE-1999-0071 (1999-09-29)
+
+<code>
+Apache httpd cookie buffer overflow for versions 1.1.1 and earlier.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0071](https://github.com/Live-Hack-CVE/CVE-1999-0071)
+
+### CVE-1999-0072 (1999-09-29)
+
+<code>
+Buffer overflow in AIX xdat gives root access to local users.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0072](https://github.com/Live-Hack-CVE/CVE-1999-0072)
+
+### CVE-1999-0073 (1999-09-29)
+
+<code>
+Telnet allows a remote client to specify environment variables including LD_LIBRARY_PATH, allowing an attacker to bypass the normal system libraries and gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0073](https://github.com/Live-Hack-CVE/CVE-1999-0073)
+
+### CVE-1999-0074 (1999-09-29)
+
+<code>
+Listening TCP ports are sequentially allocated, allowing spoofing attacks.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0074](https://github.com/Live-Hack-CVE/CVE-1999-0074)
+
+### CVE-1999-0076 (2000-02-04)
+
+<code>
+Buffer overflow in wu-ftp from PASV command causes a core dump.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0076](https://github.com/Live-Hack-CVE/CVE-1999-0076)
+
+### CVE-1999-0078 (2000-02-04)
+
+<code>
+pcnfsd (aka rpc.pcnfsd) allows local users to change file permissions, or execute arbitrary commands through arguments in the RPC call.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0078](https://github.com/Live-Hack-CVE/CVE-1999-0078)
+
+### CVE-1999-0079 (1999-09-29)
+
+<code>
+Remote attackers can cause a denial of service in FTP by issuing multiple PASV commands, causing the server to run out of available ports.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0079](https://github.com/Live-Hack-CVE/CVE-1999-0079)
+
+### CVE-1999-0080 (1999-09-29)
+
+<code>
+Certain configurations of wu-ftp FTP server 2.4 use a _PATH_EXECPATH setting to a directory with dangerous commands, such as /bin, which allows remote authenticated users to gain root access via the &quot;site exec&quot; command.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0080](https://github.com/Live-Hack-CVE/CVE-1999-0080)
+
+### CVE-1999-0081 (1999-09-29)
+
+<code>
+wu-ftp allows files to be overwritten via the rnfr command.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0081](https://github.com/Live-Hack-CVE/CVE-1999-0081)
+
+### CVE-1999-0083 (1999-09-29)
+
+<code>
+getcwd() file descriptor leak in FTP.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0083](https://github.com/Live-Hack-CVE/CVE-1999-0083)
+
+### CVE-1999-0086 (2000-02-04)
+
+<code>
+AIX routed allows remote users to modify sensitive files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0086](https://github.com/Live-Hack-CVE/CVE-1999-0086)
+
+### CVE-1999-0089 (2000-02-04)
+
+<code>
+Buffer overflow in AIX libDtSvc library can allow local users to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0089](https://github.com/Live-Hack-CVE/CVE-1999-0089)
+
+### CVE-1999-0090 (1999-09-29)
+
+<code>
+Buffer overflow in AIX rcp command allows local users to obtain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0090](https://github.com/Live-Hack-CVE/CVE-1999-0090)
+
+### CVE-1999-0091 (1999-09-29)
+
+<code>
+Buffer overflow in AIX writesrv command allows local users to obtain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0091](https://github.com/Live-Hack-CVE/CVE-1999-0091)
+
+### CVE-1999-0092 (2000-02-04)
+
+<code>
+Various vulnerabilities in the AIX portmir command allows local users to obtain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0092](https://github.com/Live-Hack-CVE/CVE-1999-0092)
+
+### CVE-1999-0093 (1999-09-29)
+
+<code>
+AIX nslookup command allows local users to obtain root access by not dropping privileges correctly.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0093](https://github.com/Live-Hack-CVE/CVE-1999-0093)
+
+### CVE-1999-0094 (1999-09-29)
+
+<code>
+AIX piodmgrsu command allows local users to gain additional group privileges.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0094](https://github.com/Live-Hack-CVE/CVE-1999-0094)
+
+### CVE-1999-0097 (1999-09-29)
+
+<code>
+The AIX FTP client can be forced to execute commands from a malicious server through shell metacharacters (e.g. a pipe character).
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0097](https://github.com/Live-Hack-CVE/CVE-1999-0097)
+
+### CVE-1999-0098 (2000-02-04)
+
+<code>
+Buffer overflow in SMTP HELO command in Sendmail allows a remote attacker to hide activities.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0098](https://github.com/Live-Hack-CVE/CVE-1999-0098)
+
+### CVE-1999-0099 (1999-09-29)
+
+<code>
+Buffer overflow in syslog utility allows local or remote attackers to gain root privileges.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0099](https://github.com/Live-Hack-CVE/CVE-1999-0099)
+
+### CVE-1999-0100 (1999-09-29)
+
+<code>
+Remote access in AIX innd 1.5.1, using control messages.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0100](https://github.com/Live-Hack-CVE/CVE-1999-0100)
+
+### CVE-1999-0102 (1999-09-29)
+
+<code>
+Buffer overflow in SLmail 3.x allows attackers to execute commands using a large FROM line.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0102](https://github.com/Live-Hack-CVE/CVE-1999-0102)
+
+### CVE-1999-0105 (2000-02-04)
+
+<code>
+finger allows recursive searches by using a long string of @ symbols.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0105](https://github.com/Live-Hack-CVE/CVE-1999-0105)
+
+### CVE-1999-0106 (2000-02-04)
+
+<code>
+Finger redirection allows finger bombs.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0106](https://github.com/Live-Hack-CVE/CVE-1999-0106)
+
+### CVE-1999-0107 (2000-02-04)
+
+<code>
+Buffer overflow in Apache 1.2.5 and earlier allows a remote attacker to cause a denial of service with a large number of GET requests containing a large number of / characters.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0107](https://github.com/Live-Hack-CVE/CVE-1999-0107)
+
+### CVE-1999-0111 (1999-09-29)
+
+<code>
+RIP v1 is susceptible to spoofing.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0111](https://github.com/Live-Hack-CVE/CVE-1999-0111)
+
+### CVE-1999-0114 (2000-02-04)
+
+<code>
+Local users can execute commands as other users, and read other users' files, through the filter command in the Elm elm-2.4 mail package using a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0114](https://github.com/Live-Hack-CVE/CVE-1999-0114)
+
+### CVE-1999-0117 (1999-09-29)
+
+<code>
+AIX passwd allows local users to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0117](https://github.com/Live-Hack-CVE/CVE-1999-0117)
+
+### CVE-1999-0119 (2000-02-04)
+
+<code>
+Windows NT 4.0 beta allows users to read and delete shares.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0119](https://github.com/Live-Hack-CVE/CVE-1999-0119)
+
+### CVE-1999-0121 (2000-02-04)
+
+<code>
+Buffer overflow in dtaction command gives root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0121](https://github.com/Live-Hack-CVE/CVE-1999-0121)
+
+### CVE-1999-0122 (1999-09-29)
+
+<code>
+Buffer overflow in AIX lchangelv gives root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0122](https://github.com/Live-Hack-CVE/CVE-1999-0122)
+
+### CVE-1999-0123 (2000-02-04)
+
+<code>
+Race condition in Linux mailx command allows local users to read user files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0123](https://github.com/Live-Hack-CVE/CVE-1999-0123)
+
+### CVE-1999-0124 (2000-06-02)
+
+<code>
+Vulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files that can be accessed by the gopher daemon.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0124](https://github.com/Live-Hack-CVE/CVE-1999-0124)
+
+### CVE-1999-0127 (2000-02-04)
+
+<code>
+swinstall and swmodify commands in SD-UX package in HP-UX systems allow local users to create or overwrite arbitrary files to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0127](https://github.com/Live-Hack-CVE/CVE-1999-0127)
+
+### CVE-1999-0128 (1999-09-29)
+
+<code>
+Oversized ICMP ping packets can result in a denial of service, aka Ping o' Death.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0128](https://github.com/Live-Hack-CVE/CVE-1999-0128)
+
+### CVE-1999-0129 (1999-09-29)
+
+<code>
+Sendmail allows local users to write to a file and gain group permissions via a .forward or :include: file.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0129](https://github.com/Live-Hack-CVE/CVE-1999-0129)
+
+### CVE-1999-0133 (1999-09-29)
+
+<code>
+fm_fls license server for Adobe Framemaker allows local users to overwrite arbitrary files and gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0133](https://github.com/Live-Hack-CVE/CVE-1999-0133)
+
+### CVE-1999-0135 (1999-09-29)
+
+<code>
+admintool in Solaris allows a local user to write to arbitrary files and gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0135](https://github.com/Live-Hack-CVE/CVE-1999-0135)
+
+### CVE-1999-0136 (1999-09-29)
+
+<code>
+Kodak Color Management System (KCMS) on Solaris allows a local user to write to arbitrary files and gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0136](https://github.com/Live-Hack-CVE/CVE-1999-0136)
+
+### CVE-1999-0137 (1999-09-29)
+
+<code>
+The dip program on many Linux systems allows local users to gain root access via a buffer overflow.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0137](https://github.com/Live-Hack-CVE/CVE-1999-0137)
+
+### CVE-1999-0138 (1999-09-29)
+
+<code>
+The suidperl and sperl program do not give up root privileges when changing UIDs back to the original users, allowing root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0138](https://github.com/Live-Hack-CVE/CVE-1999-0138)
+
+### CVE-1999-0140 (2000-02-04)
+
+<code>
+Denial of service in RAS/PPTP on NT systems.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0140](https://github.com/Live-Hack-CVE/CVE-1999-0140)
+
+### CVE-1999-0142 (2000-06-02)
+
+<code>
+The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0142](https://github.com/Live-Hack-CVE/CVE-1999-0142)
+
+### CVE-1999-0143 (1999-09-29)
+
+<code>
+Kerberos 4 key servers allow a user to masquerade as another by breaking and generating session keys.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0143](https://github.com/Live-Hack-CVE/CVE-1999-0143)
+
+### CVE-1999-0147 (1999-09-29)
+
+<code>
+The aglimpse CGI program of the Glimpse package allows remote execution of arbitrary commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0147](https://github.com/Live-Hack-CVE/CVE-1999-0147)
+
+### CVE-1999-0150 (1999-09-29)
+
+<code>
+The Perl fingerd program allows arbitrary command execution from remote users.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0150](https://github.com/Live-Hack-CVE/CVE-1999-0150)
+
+### CVE-1999-0151 (2000-01-04)
+
+<code>
+The SATAN session key may be disclosed if the user points the web browser to other sites, possibly allowing root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0151](https://github.com/Live-Hack-CVE/CVE-1999-0151)
+
+### CVE-1999-0152 (1999-09-29)
+
+<code>
+The DG/UX finger daemon allows remote command execution through shell metacharacters.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0152](https://github.com/Live-Hack-CVE/CVE-1999-0152)
+
+### CVE-1999-0154 (2001-09-12)
+
+<code>
+IIS 2.0 and 3.0 allows remote attackers to read the source code for ASP pages by appending a . (dot) to the end of the URL.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0154](https://github.com/Live-Hack-CVE/CVE-1999-0154)
+
+### CVE-1999-0155 (1999-09-29)
+
+<code>
+The ghostscript command with the -dSAFER option allows remote attackers to execute commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0155](https://github.com/Live-Hack-CVE/CVE-1999-0155)
+
+### CVE-1999-0156 (2000-02-04)
+
+<code>
+wu-ftpd FTP daemon allows any user and password combination.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0156](https://github.com/Live-Hack-CVE/CVE-1999-0156)
+
+### CVE-1999-0159 (1999-09-29)
+
+<code>
+Attackers can crash a Cisco IOS router or device, provided they can get to an interactive prompt (such as a login).  This applies to some IOS 9.x, 10.x, and 11.x releases.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0159](https://github.com/Live-Hack-CVE/CVE-1999-0159)
+
+### CVE-1999-0162 (1999-09-29)
+
+<code>
+The &quot;established&quot; keyword in some Cisco IOS software allowed an attacker to bypass filtering.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0162](https://github.com/Live-Hack-CVE/CVE-1999-0162)
+
+### CVE-1999-0163 (2000-02-04)
+
+<code>
+In older versions of Sendmail, an attacker could use a pipe character to execute root commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0163](https://github.com/Live-Hack-CVE/CVE-1999-0163)
+
+### CVE-1999-0165 (2000-02-04)
+
+<code>
+NFS cache poisoning.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0165](https://github.com/Live-Hack-CVE/CVE-1999-0165)
+
+### CVE-1999-0166 (1999-09-29)
+
+<code>
+NFS allows users to use a &quot;cd ..&quot; command to access other directories besides the exported file system.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0166](https://github.com/Live-Hack-CVE/CVE-1999-0166)
+
+### CVE-1999-0167 (1999-09-29)
+
+<code>
+In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0167](https://github.com/Live-Hack-CVE/CVE-1999-0167)
+
+### CVE-1999-0168 (1999-09-29)
+
+<code>
+The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0168](https://github.com/Live-Hack-CVE/CVE-1999-0168)
+
+### CVE-1999-0169 (2000-02-04)
+
+<code>
+NFS allows attackers to read and write any file on the system by specifying a false UID.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0169](https://github.com/Live-Hack-CVE/CVE-1999-0169)
+
+### CVE-1999-0170 (1999-09-29)
+
+<code>
+Remote attackers can mount an NFS file system in Ultrix or OSF, even if it is denied on the access list.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0170](https://github.com/Live-Hack-CVE/CVE-1999-0170)
+
+### CVE-1999-0171 (2000-02-04)
+
+<code>
+Denial of service in syslog by sending it a large number of superfluous messages.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0171](https://github.com/Live-Hack-CVE/CVE-1999-0171)
+
+### CVE-1999-0172 (1999-09-29)
+
+<code>
+FormMail CGI program allows remote execution of commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0172](https://github.com/Live-Hack-CVE/CVE-1999-0172)
+
+### CVE-1999-0173 (1999-09-29)
+
+<code>
+FormMail CGI program can be used by web servers other than the host server that the program resides on.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0173](https://github.com/Live-Hack-CVE/CVE-1999-0173)
+
+### CVE-1999-0174 (1999-09-29)
+
+<code>
+The view-source CGI program allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0174](https://github.com/Live-Hack-CVE/CVE-1999-0174)
+
+### CVE-1999-0175 (1999-09-29)
+
+<code>
+The convert.bas program in the Novell web server allows a remote attackers to read any file on the system that is internally accessible by the web server.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0175](https://github.com/Live-Hack-CVE/CVE-1999-0175)
+
+### CVE-1999-0176 (1999-09-29)
+
+<code>
+The Webgais program allows a remote user to execute arbitrary commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0176](https://github.com/Live-Hack-CVE/CVE-1999-0176)
+
+### CVE-1999-0177 (1999-09-29)
+
+<code>
+The uploader program in the WebSite web server allows a remote attacker to execute arbitrary programs.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0177](https://github.com/Live-Hack-CVE/CVE-1999-0177)
+
+### CVE-1999-0180 (1999-09-29)
+
+<code>
+in.rshd allows users to login with a NULL username and execute commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0180](https://github.com/Live-Hack-CVE/CVE-1999-0180)
+
+### CVE-1999-0181 (1999-09-29)
+
+<code>
+The wall daemon can be used for denial of service, social engineering attacks, or to execute remote commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0181](https://github.com/Live-Hack-CVE/CVE-1999-0181)
+
+### CVE-1999-0183 (1999-09-29)
+
+<code>
+Linux implementations of TFTP would allow access to files outside the restricted directory.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0183](https://github.com/Live-Hack-CVE/CVE-1999-0183)
+
+### CVE-1999-0184 (1999-09-29)
+
+<code>
+When compiled with the -DALLOW_UPDATES option, bind allows dynamic updates to the DNS server, allowing for malicious modification of DNS records.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0184](https://github.com/Live-Hack-CVE/CVE-1999-0184)
+
+### CVE-1999-0192 (1999-09-29)
+
+<code>
+Buffer overflow in telnet daemon tgetent routing allows remote attackers to gain root access via the TERMCAP environmental variable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0192](https://github.com/Live-Hack-CVE/CVE-1999-0192)
+
+### CVE-1999-0193 (2000-02-04)
+
+<code>
+Denial of service in Ascend and 3com routers, which can be rebooted by sending a zero length TCP option.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0193](https://github.com/Live-Hack-CVE/CVE-1999-0193)
+
+### CVE-1999-0194 (1999-09-29)
+
+<code>
+Denial of service in in.comsat allows attackers to generate messages.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0194](https://github.com/Live-Hack-CVE/CVE-1999-0194)
+
+### CVE-1999-0195 (2000-02-04)
+
+<code>
+Denial of service in RPC portmapper allows attackers to register or unregister RPC services or spoof RPC services using a spoofed source IP address such as 127.0.0.1.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0195](https://github.com/Live-Hack-CVE/CVE-1999-0195)
+
+### CVE-1999-0197 (2000-02-04)
+
+<code>
+finger 0@host on some systems may print information on some user accounts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0197](https://github.com/Live-Hack-CVE/CVE-1999-0197)
+
+### CVE-1999-0198 (2000-02-04)
+
+<code>
+finger .@host on some systems may print information on some user accounts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0198](https://github.com/Live-Hack-CVE/CVE-1999-0198)
+
+### CVE-1999-0200 (2000-02-04)
+
+<code>
+Windows NT FTP server (WFTP) with the guest account enabled without a password allows an attacker to log into the FTP server using any username and password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0200](https://github.com/Live-Hack-CVE/CVE-1999-0200)
+
+### CVE-1999-0201 (1999-09-29)
+
+<code>
+A quote cwd command on FTP servers can reveal the full path of the home directory of the &quot;ftp&quot; user.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0201](https://github.com/Live-Hack-CVE/CVE-1999-0201)
+
+### CVE-1999-0202 (1999-09-29)
+
+<code>
+The GNU tar command, when used in FTP sessions, may allow an attacker to execute arbitrary commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0202](https://github.com/Live-Hack-CVE/CVE-1999-0202)
+
+### CVE-1999-0203 (2000-04-25)
+
+<code>
+In Sendmail, attackers can gain root privileges via SMTP by specifying an improper &quot;mail from&quot; address and an invalid &quot;rcpt to&quot; address that would cause the mail to bounce to a program.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0203](https://github.com/Live-Hack-CVE/CVE-1999-0203)
+
+### CVE-1999-0204 (1999-09-29)
+
+<code>
+Sendmail 8.6.9 allows remote attackers to execute root commands, using ident.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0204](https://github.com/Live-Hack-CVE/CVE-1999-0204)
+
+### CVE-1999-0205 (2000-02-04)
+
+<code>
+Denial of service in Sendmail 8.6.11 and 8.6.12.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0205](https://github.com/Live-Hack-CVE/CVE-1999-0205)
+
+### CVE-1999-0206 (1999-09-29)
+
+<code>
+MIME buffer overflow in Sendmail 8.8.0 and 8.8.1 gives root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0206](https://github.com/Live-Hack-CVE/CVE-1999-0206)
+
+### CVE-1999-0207 (1999-09-29)
+
+<code>
+Remote attacker can execute commands through Majordomo using the Reply-To field and a &quot;lists&quot; command.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0207](https://github.com/Live-Hack-CVE/CVE-1999-0207)
+
+### CVE-1999-0208 (1999-09-29)
+
+<code>
+rpc.ypupdated (NIS) allows remote users to execute arbitrary commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0208](https://github.com/Live-Hack-CVE/CVE-1999-0208)
+
+### CVE-1999-0213 (2000-02-04)
+
+<code>
+libnsl in Solaris allowed an attacker to perform a denial of service of rpcbind.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0213](https://github.com/Live-Hack-CVE/CVE-1999-0213)
+
+### CVE-1999-0214 (1999-09-29)
+
+<code>
+Denial of service by sending forged ICMP unreachable packets.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0214](https://github.com/Live-Hack-CVE/CVE-1999-0214)
+
+### CVE-1999-0216 (2000-02-04)
+
+<code>
+Denial of service of inetd on Linux through SYN and RST packets.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0216](https://github.com/Live-Hack-CVE/CVE-1999-0216)
+
+### CVE-1999-0217 (1999-09-29)
+
+<code>
+Malicious option settings in UDP packets could force a reboot in SunOS 4.1.3 systems.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0217](https://github.com/Live-Hack-CVE/CVE-1999-0217)
+
+### CVE-1999-0218 (1999-09-29)
+
+<code>
+Livingston portmaster machines could be rebooted via a series of commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0218](https://github.com/Live-Hack-CVE/CVE-1999-0218)
+
+### CVE-1999-0220 (2000-02-04)
+
+<code>
+Attackers can do a denial of service of IRC by crashing the server.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0220](https://github.com/Live-Hack-CVE/CVE-1999-0220)
+
+### CVE-1999-0221 (1999-09-29)
+
+<code>
+Denial of service of Ascend routers through port 150 (remote administration).
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0221](https://github.com/Live-Hack-CVE/CVE-1999-0221)
+
+### CVE-1999-0222 (2000-02-04)
+
+<code>
+Denial of service in Cisco IOS web server allows attackers to reboot the router using a long URL.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0222](https://github.com/Live-Hack-CVE/CVE-1999-0222)
+
+### CVE-1999-0224 (1999-09-29)
+
+<code>
+Denial of service in Windows NT messenger service through a long username.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0224](https://github.com/Live-Hack-CVE/CVE-1999-0224)
+
+### CVE-1999-0226 (2000-02-04)
+
+<code>
+Windows NT TCP/IP processes fragmented IP packets improperly, causing a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0226](https://github.com/Live-Hack-CVE/CVE-1999-0226)
+
+### CVE-1999-0229 (2000-02-04)
+
+<code>
+Denial of service in Windows NT IIS server using ..\..
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0229](https://github.com/Live-Hack-CVE/CVE-1999-0229)
+
+### CVE-1999-0231 (2000-02-04)
+
+<code>
+Buffer overflow in IP-Switch IMail and Seattle Labs Slmail 2.6 packages using a long VRFY command, causing a denial of service and possibly remote access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0231](https://github.com/Live-Hack-CVE/CVE-1999-0231)
+
+### CVE-1999-0232 (2000-02-04)
+
+<code>
+Buffer overflow in NCSA WebServer (version 1.5c) gives remote access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0232](https://github.com/Live-Hack-CVE/CVE-1999-0232)
+
+### CVE-1999-0234 (1999-09-29)
+
+<code>
+Bash treats any character with a value of 255 as a command separator.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0234](https://github.com/Live-Hack-CVE/CVE-1999-0234)
+
+### CVE-1999-0235 (2000-02-04)
+
+<code>
+Buffer overflow in NCSA WebServer (1.4.1 and below) gives remote access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0235](https://github.com/Live-Hack-CVE/CVE-1999-0235)
+
+### CVE-1999-0236 (1999-09-29)
+
+<code>
+ScriptAlias directory in NCSA and Apache httpd allowed attackers to read CGI programs.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0236](https://github.com/Live-Hack-CVE/CVE-1999-0236)
+
+### CVE-1999-0237 (1999-09-29)
+
+<code>
+Remote execution of arbitrary commands through Guestbook CGI program.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0237](https://github.com/Live-Hack-CVE/CVE-1999-0237)
+
+### CVE-1999-0238 (2000-02-04)
+
+<code>
+php.cgi allows attackers to read any file on the system.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0238](https://github.com/Live-Hack-CVE/CVE-1999-0238)
+
+### CVE-1999-0240 (2000-02-04)
+
+<code>
+Some filters or firewalls allow fragmented SYN packets with IP reserved bits in violation of their implemented policy.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0240](https://github.com/Live-Hack-CVE/CVE-1999-0240)
+
+### CVE-1999-0241 (2000-02-04)
+
+<code>
+Guessable magic cookies in X Windows allows remote attackers to execute commands, e.g. through xterm.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0241](https://github.com/Live-Hack-CVE/CVE-1999-0241)
+
+### CVE-1999-0242 (2000-02-04)
+
+<code>
+Remote attackers can access mail files via POP3 in some Linux systems that are using shadow passwords.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0242](https://github.com/Live-Hack-CVE/CVE-1999-0242)
+
+### CVE-1999-0243 (2000-02-04)
+
+<code>
+Linux cfingerd could be exploited to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0243](https://github.com/Live-Hack-CVE/CVE-1999-0243)
+
+### CVE-1999-0244 (1999-09-29)
+
+<code>
+Livingston RADIUS code has a buffer overflow which can allow remote execution of commands as root.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0244](https://github.com/Live-Hack-CVE/CVE-1999-0244)
+
+### CVE-1999-0245 (1999-09-29)
+
+<code>
+Some configurations of NIS+ in Linux allowed attackers to log in as the user &quot;+&quot;.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0245](https://github.com/Live-Hack-CVE/CVE-1999-0245)
+
+### CVE-1999-0246 (2000-02-04)
+
+<code>
+HP Remote Watch allows a remote user to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0246](https://github.com/Live-Hack-CVE/CVE-1999-0246)
+
+### CVE-1999-0249 (2000-02-04)
+
+<code>
+Windows NT RSHSVC program allows remote users to execute arbitrary commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0249](https://github.com/Live-Hack-CVE/CVE-1999-0249)
+
+### CVE-1999-0251 (1999-09-29)
+
+<code>
+Denial of service in talk program allows remote attackers to disrupt a user's display.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0251](https://github.com/Live-Hack-CVE/CVE-1999-0251)
+
+### CVE-1999-0252 (1999-09-29)
+
+<code>
+Buffer overflow in listserv allows arbitrary command execution.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0252](https://github.com/Live-Hack-CVE/CVE-1999-0252)
+
+### CVE-1999-0253 (2000-02-04)
+
+<code>
+IIS 3.0 with the iis-fix hotfix installed allows remote intruders to read source code for ASP programs by using a %2e instead of a . (dot) in the URL.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0253](https://github.com/Live-Hack-CVE/CVE-1999-0253)
+
+### CVE-1999-0254 (2000-02-04)
+
+<code>
+A hidden SNMP community string in HP OpenView allows remote attackers to modify MIB tables and obtain sensitive information.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0254](https://github.com/Live-Hack-CVE/CVE-1999-0254)
+
+### CVE-1999-0255 (2000-02-04)
+
+<code>
+Buffer overflow in ircd allows arbitrary command execution.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0255](https://github.com/Live-Hack-CVE/CVE-1999-0255)
+
+### CVE-1999-0257 (2000-02-04)
+
+<code>
+Nestea variation of teardrop IP fragmentation denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0257](https://github.com/Live-Hack-CVE/CVE-1999-0257)
+
+### CVE-1999-0258 (2000-02-04)
+
+<code>
+Bonk variation of teardrop IP fragmentation denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0258](https://github.com/Live-Hack-CVE/CVE-1999-0258)
+
+### CVE-1999-0259 (2000-01-18)
+
+<code>
+cfingerd lists all users on a system via search.**@target.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0259](https://github.com/Live-Hack-CVE/CVE-1999-0259)
+
+### CVE-1999-0260 (1999-09-29)
+
+<code>
+The jj CGI program allows command execution via shell metacharacters.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0260](https://github.com/Live-Hack-CVE/CVE-1999-0260)
+
+### CVE-1999-0264 (1999-09-29)
+
+<code>
+htmlscript CGI program allows remote read access to files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0264](https://github.com/Live-Hack-CVE/CVE-1999-0264)
+
+### CVE-1999-0267 (1999-09-29)
+
+<code>
+Buffer overflow in NCSA HTTP daemon v1.3 allows remote command execution.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0267](https://github.com/Live-Hack-CVE/CVE-1999-0267)
+
+### CVE-1999-0269 (1999-09-29)
+
+<code>
+Netscape Enterprise servers may list files through the PageServices query.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0269](https://github.com/Live-Hack-CVE/CVE-1999-0269)
+
+### CVE-1999-0271 (2000-02-04)
+
+<code>
+Progressive Networks Real Video server (pnserver) can be crashed remotely.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0271](https://github.com/Live-Hack-CVE/CVE-1999-0271)
+
+### CVE-1999-0272 (1999-09-29)
+
+<code>
+Denial of service in Slmail v2.5 through the POP3 port.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0272](https://github.com/Live-Hack-CVE/CVE-1999-0272)
+
+### CVE-1999-0273 (1999-09-29)
+
+<code>
+Denial of service through Solaris 2.5.1 telnet by sending ^D characters.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0273](https://github.com/Live-Hack-CVE/CVE-1999-0273)
+
+### CVE-1999-0274 (1999-09-29)
+
+<code>
+Denial of service in Windows NT DNS servers through malicious packet which contains a response to a query that wasn't made.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0274](https://github.com/Live-Hack-CVE/CVE-1999-0274)
+
+### CVE-1999-0275 (2000-01-04)
+
+<code>
+Denial of service in Windows NT DNS servers by flooding port 53 with too many characters.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0275](https://github.com/Live-Hack-CVE/CVE-1999-0275)
+
+### CVE-1999-0276 (1999-09-29)
+
+<code>
+mSQL v2.0.1 and below allows remote execution through a buffer overflow.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0276](https://github.com/Live-Hack-CVE/CVE-1999-0276)
+
+### CVE-1999-0277 (1999-09-29)
+
+<code>
+The WorkMan program can be used to overwrite any file to get root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0277](https://github.com/Live-Hack-CVE/CVE-1999-0277)
+
+### CVE-1999-0279 (1999-09-29)
+
+<code>
+Excite for Web Servers (EWS) allows remote command execution via shell metacharacters.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0279](https://github.com/Live-Hack-CVE/CVE-1999-0279)
+
+### CVE-1999-0280 (2000-01-04)
+
+<code>
+Remote command execution in Microsoft Internet Explorer using .lnk and .url files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0280](https://github.com/Live-Hack-CVE/CVE-1999-0280)
+
+### CVE-1999-0281 (1999-09-29)
+
+<code>
+Denial of service in IIS using long URLs.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0281](https://github.com/Live-Hack-CVE/CVE-1999-0281)
+
+### CVE-1999-0284 (2000-02-04)
+
+<code>
+Denial of service to NT mail servers including Ipswitch, Mdaemon, and Exchange through a buffer overflow in the SMTP HELO command.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0284](https://github.com/Live-Hack-CVE/CVE-1999-0284)
+
+### CVE-1999-0285 (2000-02-04)
+
+<code>
+Denial of service in telnet from the Windows NT Resource Kit, by opening then immediately closing a connection.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0285](https://github.com/Live-Hack-CVE/CVE-1999-0285)
+
+### CVE-1999-0286 (2000-02-04)
+
+<code>
+In some NT web servers, appending a space at the end of a URL may allow attackers to read source code for active pages.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0286](https://github.com/Live-Hack-CVE/CVE-1999-0286)
+
+### CVE-1999-0287 (2000-02-04)
+
+<code>
+Vulnerability in the Wguest CGI program.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0287](https://github.com/Live-Hack-CVE/CVE-1999-0287)
+
+### CVE-1999-0289 (1999-09-29)
+
+<code>
+The Apache web server for Win32 may provide access to restricted files when a . (dot) is appended to a requested URL.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0289](https://github.com/Live-Hack-CVE/CVE-1999-0289)
+
+### CVE-1999-0290 (2000-01-04)
+
+<code>
+The WinGate telnet proxy allows remote attackers to cause a denial of service via a large number of connections to localhost.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0290](https://github.com/Live-Hack-CVE/CVE-1999-0290)
+
+### CVE-1999-0291 (2000-01-04)
+
+<code>
+The WinGate proxy is installed without a password, which allows remote attackers to redirect connections without authentication.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0291](https://github.com/Live-Hack-CVE/CVE-1999-0291)
+
+### CVE-1999-0292 (1999-09-29)
+
+<code>
+Denial of service through Winpopup using large user names.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0292](https://github.com/Live-Hack-CVE/CVE-1999-0292)
+
+### CVE-1999-0293 (1999-09-29)
+
+<code>
+AAA authentication on Cisco systems allows attackers to execute commands without authorization.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0293](https://github.com/Live-Hack-CVE/CVE-1999-0293)
+
+### CVE-1999-0294 (1999-09-29)
+
+<code>
+All records in a WINS database can be deleted through SNMP for a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0294](https://github.com/Live-Hack-CVE/CVE-1999-0294)
+
+### CVE-1999-0297 (2000-01-04)
+
+<code>
+Buffer overflow in Vixie Cron library up to version 3.0 allows local users to obtain root access via a long environmental variable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0297](https://github.com/Live-Hack-CVE/CVE-1999-0297)
+
+### CVE-1999-0303 (1999-09-29)
+
+<code>
+Buffer overflow in BNU UUCP daemon (uucpd) through long hostnames.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0303](https://github.com/Live-Hack-CVE/CVE-1999-0303)
+
+### CVE-1999-0304 (2000-01-04)
+
+<code>
+mmap function in BSD allows local attackers in the kmem group to modify memory through devices.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0304](https://github.com/Live-Hack-CVE/CVE-1999-0304)
+
+### CVE-1999-0306 (2000-02-04)
+
+<code>
+buffer overflow in HP xlock program.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0306](https://github.com/Live-Hack-CVE/CVE-1999-0306)
+
+### CVE-1999-0307 (2000-02-04)
+
+<code>
+Buffer overflow in HP-UX cstm program allows local users to gain root privileges.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0307](https://github.com/Live-Hack-CVE/CVE-1999-0307)
+
+### CVE-1999-0310 (1999-09-29)
+
+<code>
+SSH 1.2.25 on HP-UX allows access to new user accounts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0310](https://github.com/Live-Hack-CVE/CVE-1999-0310)
+
+### CVE-1999-0312 (1999-09-29)
+
+<code>
+HP ypbind allows attackers with root privileges to modify NIS data.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0312](https://github.com/Live-Hack-CVE/CVE-1999-0312)
+
+### CVE-1999-0316 (1999-09-29)
+
+<code>
+Buffer overflow in Linux splitvt command gives root access to local users.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0316](https://github.com/Live-Hack-CVE/CVE-1999-0316)
+
+### CVE-1999-0317 (2000-02-04)
+
+<code>
+Buffer overflow in Linux su command gives root access to local users.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0317](https://github.com/Live-Hack-CVE/CVE-1999-0317)
+
+### CVE-1999-0319 (2000-02-04)
+
+<code>
+Buffer overflow in xmcd 2.1 allows local users to gain access through a user resource setting.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0319](https://github.com/Live-Hack-CVE/CVE-1999-0319)
+
+### CVE-1999-0321 (1999-09-29)
+
+<code>
+Buffer overflow in Solaris kcms_configure command allows local users to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0321](https://github.com/Live-Hack-CVE/CVE-1999-0321)
+
+### CVE-1999-0330 (2000-02-04)
+
+<code>
+Linux bdash game has a buffer overflow that allows local users to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0330](https://github.com/Live-Hack-CVE/CVE-1999-0330)
+
+### CVE-1999-0331 (2000-02-04)
+
+<code>
+Buffer overflow in Internet Explorer 4.0(1).
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0331](https://github.com/Live-Hack-CVE/CVE-1999-0331)
+
+### CVE-1999-0333 (2000-02-04)
+
+<code>
+HP OpenView Omniback allows remote execution of commands as root via spoofing, and local users can gain root access via a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0333](https://github.com/Live-Hack-CVE/CVE-1999-0333)
+
+### CVE-1999-0334 (1999-09-29)
+
+<code>
+In Solaris 2.2 and 2.3, when fsck fails on startup, it allows a local user with physical access to obtain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0334](https://github.com/Live-Hack-CVE/CVE-1999-0334)
+
+### CVE-1999-0336 (2000-02-04)
+
+<code>
+Buffer overflow in mstm in HP-UX allows local users to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0336](https://github.com/Live-Hack-CVE/CVE-1999-0336)
+
+### CVE-1999-0337 (1999-09-29)
+
+<code>
+AIX batch queue (bsh) allows local and remote users to gain additional privileges when network printing is enabled.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0337](https://github.com/Live-Hack-CVE/CVE-1999-0337)
+
+### CVE-1999-0338 (1999-09-29)
+
+<code>
+AIX Licensed Program Product performance tools allow local users to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0338](https://github.com/Live-Hack-CVE/CVE-1999-0338)
+
+### CVE-1999-0339 (1999-09-29)
+
+<code>
+Buffer overflow in the libauth library in Solaris allows local users to gain additional privileges, possibly root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0339](https://github.com/Live-Hack-CVE/CVE-1999-0339)
+
+### CVE-1999-0340 (1999-09-29)
+
+<code>
+Buffer overflow in Linux Slackware crond program allows local users to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0340](https://github.com/Live-Hack-CVE/CVE-1999-0340)
+
+### CVE-1999-0341 (1999-09-29)
+
+<code>
+Buffer overflow in the Linux mail program &quot;deliver&quot; allows local users to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0341](https://github.com/Live-Hack-CVE/CVE-1999-0341)
+
+### CVE-1999-0342 (1999-09-29)
+
+<code>
+Linux PAM modules allow local users to gain root access using temporary files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0342](https://github.com/Live-Hack-CVE/CVE-1999-0342)
+
+### CVE-1999-0343 (2000-01-04)
+
+<code>
+A malicious Palace server can force a client to execute arbitrary programs.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0343](https://github.com/Live-Hack-CVE/CVE-1999-0343)
+
+### CVE-1999-0345 (2000-02-04)
+
+<code>
+Jolt ICMP attack causes a denial of service in Windows 95 and Windows NT systems.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0345](https://github.com/Live-Hack-CVE/CVE-1999-0345)
+
+### CVE-1999-0350 (1999-09-29)
+
+<code>
+Race condition in the db_loader program in ClearCase gives local users root access by setting SUID bits.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0350](https://github.com/Live-Hack-CVE/CVE-1999-0350)
+
+### CVE-1999-0352 (2000-02-04)
+
+<code>
+ControlIT 4.5 and earlier (aka Remotely Possible) has weak password encryption.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0352](https://github.com/Live-Hack-CVE/CVE-1999-0352)
+
+### CVE-1999-0355 (1999-09-29)
+
+<code>
+Local or remote users can force ControlIT 4.5 to reboot or force a user to log out, resulting in a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0355](https://github.com/Live-Hack-CVE/CVE-1999-0355)
+
+### CVE-1999-0356 (2000-02-04)
+
+<code>
+ControlIT v4.5 and earlier uses weak encryption to store usernames and passwords in an address book.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0356](https://github.com/Live-Hack-CVE/CVE-1999-0356)
+
+### CVE-1999-0357 (1999-09-29)
+
+<code>
+Windows 98 and other operating systems allows remote attackers to cause a denial of service via crafted &quot;oshare&quot; packets, possibly involving invalid fragmentation offsets.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0357](https://github.com/Live-Hack-CVE/CVE-1999-0357)
+
+### CVE-1999-0359 (2001-02-14)
+
+<code>
+ptylogin in Unix systems allows users to perform a denial of service by locking out modems, dial out with that modem, or obtain passwords.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0359](https://github.com/Live-Hack-CVE/CVE-1999-0359)
+
+### CVE-1999-0361 (2000-02-04)
+
+<code>
+NetWare version of LaserFiche stores usernames and passwords unencrypted, and allows administrative changes without logging.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0361](https://github.com/Live-Hack-CVE/CVE-1999-0361)
+
+### CVE-1999-0365 (1999-09-29)
+
+<code>
+The metamail package allows remote command execution using shell metacharacters that are not quoted in a mailcap entry.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0365](https://github.com/Live-Hack-CVE/CVE-1999-0365)
+
+### CVE-1999-0368 (1999-09-29)
+
+<code>
+Buffer overflows in wuarchive ftpd (wu-ftpd) and ProFTPD lead to remote root access, a.k.a. palmetto.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0368](https://github.com/Live-Hack-CVE/CVE-1999-0368)
+
+### CVE-1999-0371 (1999-09-29)
+
+<code>
+Lynx allows a local user to overwrite sensitive files through /tmp symlinks.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0371](https://github.com/Live-Hack-CVE/CVE-1999-0371)
+
+### CVE-1999-0373 (1999-09-29)
+
+<code>
+Buffer overflow in the &quot;Super&quot; utility in Debian GNU/Linux, and other operating systems, allows local users to execute commands as root.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0373](https://github.com/Live-Hack-CVE/CVE-1999-0373)
+
+### CVE-1999-0374 (1999-09-29)
+
+<code>
+Debian GNU/Linux cfengine package is susceptible to a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0374](https://github.com/Live-Hack-CVE/CVE-1999-0374)
+
+### CVE-1999-0375 (1999-09-29)
+
+<code>
+Buffer overflow in webd in Network Flight Recorder (NFR) 2.0.2-Research allows remote attackers to execute commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0375](https://github.com/Live-Hack-CVE/CVE-1999-0375)
+
+### CVE-1999-0391 (1999-09-29)
+
+<code>
+The cryptographic challenge of SMB authentication in Windows 95 and Windows 98 can be reused, allowing an attacker to replay the response and impersonate a user.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0391](https://github.com/Live-Hack-CVE/CVE-1999-0391)
+
+### CVE-1999-0392 (1999-09-29)
+
+<code>
+Buffer overflow in Thomas Boutell's cgic library version up to 1.05.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0392](https://github.com/Live-Hack-CVE/CVE-1999-0392)
+
+### CVE-1999-0394 (2000-02-04)
+
+<code>
+DPEC Online Courseware allows an attacker to change another user's password without knowing the original password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0394](https://github.com/Live-Hack-CVE/CVE-1999-0394)
+
+### CVE-1999-0396 (1999-09-29)
+
+<code>
+A race condition between the select() and accept() calls in NetBSD TCP servers allows remote attackers to cause a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0396](https://github.com/Live-Hack-CVE/CVE-1999-0396)
+
+### CVE-1999-0397 (2000-02-04)
+
+<code>
+The demo version of the Quakenbush NT Password Appraiser sends passwords across the network in plaintext.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0397](https://github.com/Live-Hack-CVE/CVE-1999-0397)
+
+### CVE-1999-0398 (2000-02-04)
+
+<code>
+In some instances of SSH 1.2.27 and 2.0.11 on Linux systems, SSH will allow users with expired accounts to login.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0398](https://github.com/Live-Hack-CVE/CVE-1999-0398)
+
+### CVE-1999-0399 (2000-02-04)
+
+<code>
+The DCC server command in the Mirc 5.5 client doesn't filter characters from file names properly, allowing remote attackers to place a malicious file in a different location, possibly allowing the attacker to execute commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0399](https://github.com/Live-Hack-CVE/CVE-1999-0399)
+
+### CVE-1999-0401 (2000-02-04)
+
+<code>
+A race condition in Linux 2.2.1 allows local users to read arbitrary memory from /proc files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0401](https://github.com/Live-Hack-CVE/CVE-1999-0401)
+
+### CVE-1999-0402 (1999-09-29)
+
+<code>
+wget 1.5.3 follows symlinks to change permissions of the target file instead of the symlink itself.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0402](https://github.com/Live-Hack-CVE/CVE-1999-0402)
+
+### CVE-1999-0404 (1999-09-29)
+
+<code>
+Buffer overflow in the Mail-Max SMTP server for Windows systems allows remote command execution.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0404](https://github.com/Live-Hack-CVE/CVE-1999-0404)
+
+### CVE-1999-0406 (2000-02-04)
+
+<code>
+Digital Unix Networker program nsralist has a buffer overflow which allows local users to obtain root privilege.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0406](https://github.com/Live-Hack-CVE/CVE-1999-0406)
+
+### CVE-1999-0411 (2000-02-04)
+
+<code>
+Several startup scripts in SCO OpenServer Enterprise System v 5.0.4p, including S84rpcinit, S95nis, S85tcp, and S89nfs, are vulnerable to a symlink attack, allowing a local user to gain root access.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0411](https://github.com/Live-Hack-CVE/CVE-1999-0411)
+
+### CVE-1999-0414 (1999-09-29)
+
+<code>
+In Linux before version 2.0.36, remote attackers can spoof a TCP connection and pass data to the application layer before fully establishing the connection.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0414](https://github.com/Live-Hack-CVE/CVE-1999-0414)
+
+### CVE-1999-0419 (2000-02-04)
+
+<code>
+When the Microsoft SMTP service attempts to send a message to a server and receives a 4xx error code, it quickly and repeatedly attempts to redeliver the message, causing a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0419](https://github.com/Live-Hack-CVE/CVE-1999-0419)
+
+### CVE-1999-0420 (1999-09-29)
+
+<code>
+umapfs allows local users to gain root privileges by changing their uid through a malicious mount_umap program.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0420](https://github.com/Live-Hack-CVE/CVE-1999-0420)
+
+### CVE-1999-0422 (1999-09-29)
+
+<code>
+In some cases, NetBSD 1.3.3 mount allows local users to execute programs in some file systems that have the &quot;noexec&quot; flag set.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0422](https://github.com/Live-Hack-CVE/CVE-1999-0422)
+
+### CVE-1999-0424 (1999-09-29)
+
+<code>
+talkback in Netscape 4.5 allows a local user to overwrite arbitrary files of another user whose Netscape crashes.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0424](https://github.com/Live-Hack-CVE/CVE-1999-0424)
+
+### CVE-1999-0425 (1999-09-29)
+
+<code>
+talkback in Netscape 4.5 allows a local user to kill an arbitrary process of another user whose Netscape crashes.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0425](https://github.com/Live-Hack-CVE/CVE-1999-0425)
+
+### CVE-1999-0426 (2000-02-04)
+
+<code>
+The default permissions of /dev/kmem in Linux versions before 2.0.36 allows IP spoofing.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0426](https://github.com/Live-Hack-CVE/CVE-1999-0426)
+
+### CVE-1999-0427 (2000-02-04)
+
+<code>
+Eudora 4.1 allows remote attackers to perform a denial of service by sending attachments with long file names.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0427](https://github.com/Live-Hack-CVE/CVE-1999-0427)
+
+### CVE-1999-0431 (2000-02-04)
+
+<code>
+Linux 2.2.3 and earlier allow a remote attacker to perform an IP fragmentation attack, causing a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0431](https://github.com/Live-Hack-CVE/CVE-1999-0431)
+
+### CVE-1999-0433 (1999-09-29)
+
+<code>
+XFree86 startx command is vulnerable to a symlink attack, allowing local users to create files in restricted directories, possibly allowing them to gain privileges or cause a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0433](https://github.com/Live-Hack-CVE/CVE-1999-0433)
+
+### CVE-1999-0435 (2000-02-04)
+
+<code>
+MC/ServiceGuard and MC/LockManager in HP-UX allows local users to gain privileges through SAM.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0435](https://github.com/Live-Hack-CVE/CVE-1999-0435)
+
+### CVE-1999-0437 (1999-09-29)
+
+<code>
+Remote attackers can perform a denial of service in WebRamp systems by sending a malicious string to the HTTP port.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0437](https://github.com/Live-Hack-CVE/CVE-1999-0437)
+
+### CVE-1999-0438 (1999-09-29)
+
+<code>
+Remote attackers can perform a denial of service in WebRamp systems by sending a malicious UDP packet to port 5353, changing its IP address.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0438](https://github.com/Live-Hack-CVE/CVE-1999-0438)
+
+### CVE-1999-0439 (2000-01-04)
+
+<code>
+Buffer overflow in procmail before version 3.12 allows remote or local attackers to execute commands via expansions in the procmailrc configuration file.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0439](https://github.com/Live-Hack-CVE/CVE-1999-0439)
+
+### CVE-1999-0444 (2000-02-04)
+
+<code>
+Remote attackers can perform a denial of service in Windows machines using malicious ARP packets, forcing a message box display for each packet or filling up log files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0444](https://github.com/Live-Hack-CVE/CVE-1999-0444)
+
+### CVE-1999-0448 (1999-09-29)
+
+<code>
+IIS 4.0 and Apache log HTTP request methods, regardless of how long they are, allowing a remote attacker to hide the URL they really request.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0448](https://github.com/Live-Hack-CVE/CVE-1999-0448)
+
+### CVE-1999-0452 (2000-02-04)
+
+<code>
+A service or application has a backdoor password that was placed there by the developer.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0452](https://github.com/Live-Hack-CVE/CVE-1999-0452)
+
+### CVE-1999-0453 (2000-02-04)
+
+<code>
+An attacker can identify a CISCO device by sending a SYN packet to port 1999, which is for the Cisco Discovery Protocol (CDP).
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0453](https://github.com/Live-Hack-CVE/CVE-1999-0453)
+
+### CVE-1999-0454 (2000-02-04)
+
+<code>
+A remote attacker can sometimes identify the operating system of a host based on how it reacts to some IP or ICMP packets, using a tool such as nmap or queso.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0454](https://github.com/Live-Hack-CVE/CVE-1999-0454)
+
+### CVE-1999-0459 (2000-02-04)
+
+<code>
+Local users can perform a denial of service in Alpha Linux, using MILO to force a reboot.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0459](https://github.com/Live-Hack-CVE/CVE-1999-0459)
+
+### CVE-1999-0461 (2000-02-04)
+
+<code>
+Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a remote attacker to insert and delete entries by spoofing a source address.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0461](https://github.com/Live-Hack-CVE/CVE-1999-0461)
+
+### CVE-1999-0465 (2000-02-04)
+
+<code>
+Remote attackers can crash Lynx and Internet Explorer using an IMG tag with a large width parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0465](https://github.com/Live-Hack-CVE/CVE-1999-0465)
+
+### CVE-1999-0467 (2000-02-04)
+
+<code>
+The Webcom CGI Guestbook programs wguest.exe and rguest.exe allow a remote attacker to read arbitrary files using the &quot;template&quot; parameter.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0467](https://github.com/Live-Hack-CVE/CVE-1999-0467)
+
+### CVE-1999-0469 (2000-02-04)
+
+<code>
+Internet Explorer 5.0 allows window spoofing, allowing a remote attacker to spoof a legitimate web site and capture information from the client.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0469](https://github.com/Live-Hack-CVE/CVE-1999-0469)
+
+### CVE-1999-0471 (1999-09-29)
+
+<code>
+The remote proxy server in Winroute allows a remote attacker to reconfigure the proxy without authentication through the &quot;cancel&quot; button.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0471](https://github.com/Live-Hack-CVE/CVE-1999-0471)
+
+### CVE-1999-0472 (1999-09-29)
+
+<code>
+The SNMP default community name &quot;public&quot; is not properly removed in NetApps C630 Netcache, even if the administrator tries to disable it.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0472](https://github.com/Live-Hack-CVE/CVE-1999-0472)
+
+### CVE-1999-0474 (1999-09-29)
+
+<code>
+The ICQ Webserver allows remote attackers to use .. to access arbitrary files outside of the user's personal directory.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0474](https://github.com/Live-Hack-CVE/CVE-1999-0474)
+
+### CVE-1999-0475 (1999-09-29)
+
+<code>
+A race condition in how procmail handles .procmailrc files allows a local user to read arbitrary files available to the user who is running procmail.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0475](https://github.com/Live-Hack-CVE/CVE-1999-0475)
+
+### CVE-1999-0476 (2000-02-04)
+
+<code>
+A weak encryption algorithm is used for passwords in SCO TermVision, allowing them to be easily decrypted by a local user.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0476](https://github.com/Live-Hack-CVE/CVE-1999-0476)
+
+### CVE-1999-0480 (2000-02-04)
+
+<code>
+Local attackers can conduct a denial of service in Midnight Commander 4.x with a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0480](https://github.com/Live-Hack-CVE/CVE-1999-0480)
+
+### CVE-1999-0486 (2000-02-04)
+
+<code>
+Denial of service in AOL Instant Messenger when a remote attacker sends a malicious hyperlink to the receiving client, potentially causing a system crash.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0486](https://github.com/Live-Hack-CVE/CVE-1999-0486)
+
+### CVE-1999-0492 (2000-02-04)
+
+<code>
+The ffingerd 1.19 allows remote attackers to identify users on the target system based on its responses.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0492](https://github.com/Live-Hack-CVE/CVE-1999-0492)
+
+### CVE-1999-0494 (1999-09-29)
+
+<code>
+Denial of service in WinGate proxy through a buffer overflow in POP3.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0494](https://github.com/Live-Hack-CVE/CVE-1999-0494)
+
+### CVE-1999-0495 (2000-02-04)
+
+<code>
+A remote attacker can gain access to a file system using ..  (dot dot) when accessing SMB shares.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0495](https://github.com/Live-Hack-CVE/CVE-1999-0495)
+
+### CVE-1999-0497 (2000-02-04)
+
+<code>
+Anonymous FTP is enabled.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0497](https://github.com/Live-Hack-CVE/CVE-1999-0497)
+
+### CVE-1999-0498 (2000-02-04)
+
+<code>
+TFTP is not running in a restricted directory, allowing a remote attacker to access sensitive information such as password files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0498](https://github.com/Live-Hack-CVE/CVE-1999-0498)
+
+### CVE-1999-0499 (2000-02-04)
+
+<code>
+NETBIOS share information may be published through SNMP registry keys in NT.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0499](https://github.com/Live-Hack-CVE/CVE-1999-0499)
+
+### CVE-1999-0501 (2000-02-04)
+
+<code>
+A Unix account has a guessable password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0501](https://github.com/Live-Hack-CVE/CVE-1999-0501)
+
+### CVE-1999-0502 (2000-02-04)
+
+<code>
+A Unix account has a default, null, blank, or missing password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0502](https://github.com/Live-Hack-CVE/CVE-1999-0502)
+
+### CVE-1999-0503 (2000-02-04)
+
+<code>
+A Windows NT local user or administrator account has a guessable password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0503](https://github.com/Live-Hack-CVE/CVE-1999-0503)
+
+### CVE-1999-0504 (2000-02-04)
+
+<code>
+A Windows NT local user or administrator account has a default, null, blank, or missing password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0504](https://github.com/Live-Hack-CVE/CVE-1999-0504)
+
+### CVE-1999-0505 (2000-02-04)
+
+<code>
+A Windows NT domain user or administrator account has a guessable password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0505](https://github.com/Live-Hack-CVE/CVE-1999-0505)
+
+### CVE-1999-0506 (2000-02-04)
+
+<code>
+A Windows NT domain user or administrator account has a default, null, blank, or missing password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0506](https://github.com/Live-Hack-CVE/CVE-1999-0506)
+
+### CVE-1999-0507 (2000-02-04)
+
+<code>
+An account on a router, firewall, or other network device has a guessable password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0507](https://github.com/Live-Hack-CVE/CVE-1999-0507)
+
+### CVE-1999-0508 (2000-02-04)
+
+<code>
+An account on a router, firewall, or other network device has a default, null, blank, or missing password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0508](https://github.com/Live-Hack-CVE/CVE-1999-0508)
+
+### CVE-1999-0509 (2000-02-04)
+
+<code>
+Perl, sh, csh, or other shell interpreters are installed in the cgi-bin directory on a WWW site, which allows remote attackers to execute arbitrary commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0509](https://github.com/Live-Hack-CVE/CVE-1999-0509)
+
+### CVE-1999-0510 (2000-02-04)
+
+<code>
+A router or firewall allows source routed packets from arbitrary hosts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0510](https://github.com/Live-Hack-CVE/CVE-1999-0510)
+
+### CVE-1999-0511 (2000-02-04)
+
+<code>
+IP forwarding is enabled on a machine which is not a router or firewall.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0511](https://github.com/Live-Hack-CVE/CVE-1999-0511)
+
+### CVE-1999-0512 (2000-02-04)
+
+<code>
+A mail server is explicitly configured to allow SMTP mail relay, which allows abuse by spammers.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0512](https://github.com/Live-Hack-CVE/CVE-1999-0512)
+
+### CVE-1999-0513 (1999-09-29)
+
+<code>
+ICMP messages to broadcast addresses are allowed, allowing for a Smurf attack that can cause a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0513](https://github.com/Live-Hack-CVE/CVE-1999-0513)
+
+### CVE-1999-0514 (1999-09-29)
+
+<code>
+UDP messages to broadcast addresses are allowed, allowing for a Fraggle attack that can cause a denial of service by flooding the target.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0514](https://github.com/Live-Hack-CVE/CVE-1999-0514)
+
+### CVE-1999-0515 (2000-02-04)
+
+<code>
+An unrestricted remote trust relationship for Unix systems has been set up, e.g. by using a + sign in /etc/hosts.equiv.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0515](https://github.com/Live-Hack-CVE/CVE-1999-0515)
+
+### CVE-1999-0516 (2000-02-04)
+
+<code>
+An SNMP community name is guessable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0516](https://github.com/Live-Hack-CVE/CVE-1999-0516)
+
+### CVE-1999-0517 (2000-02-04)
+
+<code>
+An SNMP community name is the default (e.g. public), null, or missing.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0517](https://github.com/Live-Hack-CVE/CVE-1999-0517)
+
+### CVE-1999-0518 (2000-02-04)
+
+<code>
+A NETBIOS/SMB share password is guessable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0518](https://github.com/Live-Hack-CVE/CVE-1999-0518)
+
+### CVE-1999-0519 (2000-02-04)
+
+<code>
+A NETBIOS/SMB share password is the default, null, or missing.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0519](https://github.com/Live-Hack-CVE/CVE-1999-0519)
+
+### CVE-1999-0520 (2000-02-04)
+
+<code>
+A system-critical NETBIOS/SMB share has inappropriate access control.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0520](https://github.com/Live-Hack-CVE/CVE-1999-0520)
+
+### CVE-1999-0521 (2000-02-04)
+
+<code>
+An NIS domain name is easily guessable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0521](https://github.com/Live-Hack-CVE/CVE-1999-0521)
+
+### CVE-1999-0522 (2000-02-04)
+
+<code>
+The permissions for a system-critical NIS+ table (e.g. passwd) are inappropriate.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0522](https://github.com/Live-Hack-CVE/CVE-1999-0522)
+
+### CVE-1999-0523 (2000-02-04)
+
+<code>
+ICMP echo (ping) is allowed from arbitrary hosts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0523](https://github.com/Live-Hack-CVE/CVE-1999-0523)
+
 ### CVE-1999-0524 (2000-02-04)
 
 <code>
@@ -56061,6 +59148,46 @@ ICMP information such as (1) netmask and (2) timestamp is allowed from arbitrary
 </code>
 
 - [Live-Hack-CVE/CVE-1999-0524](https://github.com/Live-Hack-CVE/CVE-1999-0524)
+
+### CVE-1999-0525 (2000-02-04)
+
+<code>
+IP traceroute is allowed from arbitrary hosts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0525](https://github.com/Live-Hack-CVE/CVE-1999-0525)
+
+### CVE-1999-0527 (2000-02-04)
+
+<code>
+The permissions for system-critical data in an anonymous FTP account are inappropriate.  For example, the root directory is writeable by world, a real password file is obtainable, or executable commands such as &quot;ls&quot; can be overwritten.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0527](https://github.com/Live-Hack-CVE/CVE-1999-0527)
+
+### CVE-1999-0528 (2000-02-04)
+
+<code>
+A router or firewall forwards external packets that claim to come from inside the network that the router/firewall is in front of.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0528](https://github.com/Live-Hack-CVE/CVE-1999-0528)
+
+### CVE-1999-0529 (2000-02-04)
+
+<code>
+A router or firewall forwards packets that claim to come from IANA reserved or private addresses, e.g. 10.x.x.x, 127.x.x.x, 217.x.x.x, etc.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0529](https://github.com/Live-Hack-CVE/CVE-1999-0529)
+
+### CVE-1999-0530 (2000-02-04)
+
+<code>
+A system is operating in &quot;promiscuous&quot; mode which allows it to perform packet sniffing.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0530](https://github.com/Live-Hack-CVE/CVE-1999-0530)
 
 ### CVE-1999-0532 (2000-02-04)
 
@@ -56070,6 +59197,1215 @@ A DNS server allows zone transfers.
 
 - [websecnl/Bulk_CVE-1999-0532_Scanner](https://github.com/websecnl/Bulk_CVE-1999-0532_Scanner)
 - [Rodney-O-C-Melby/dns-zone-transfer-test](https://github.com/Rodney-O-C-Melby/dns-zone-transfer-test)
+- [Live-Hack-CVE/CVE-1999-0532](https://github.com/Live-Hack-CVE/CVE-1999-0532)
+
+### CVE-1999-0533 (2000-02-04)
+
+<code>
+A DNS server allows inverse queries.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0533](https://github.com/Live-Hack-CVE/CVE-1999-0533)
+
+### CVE-1999-0534 (2000-02-04)
+
+<code>
+A Windows NT user has inappropriate rights or privileges, e.g. Act as System, Add Workstation, Backup, Change System Time, Create Pagefile, Create Permanent Object, Create Token Name, Debug, Generate Security Audit, Increase Priority, Increase Quota, Load Driver, Lock Memory, Profile Single Process, Remote Shutdown, Replace Process Token, Restore, System Environment, Take Ownership, or Unsolicited Input.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0534](https://github.com/Live-Hack-CVE/CVE-1999-0534)
+
+### CVE-1999-0535 (2000-02-04)
+
+<code>
+A Windows NT account policy for passwords has inappropriate, security-critical settings, e.g. for password length, password age, or uniqueness.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0535](https://github.com/Live-Hack-CVE/CVE-1999-0535)
+
+### CVE-1999-0537 (2000-02-04)
+
+<code>
+A configuration in a web browser such as Internet Explorer or Netscape Navigator allows execution of active content such as ActiveX, Java, Javascript, etc.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0537](https://github.com/Live-Hack-CVE/CVE-1999-0537)
+
+### CVE-1999-0539 (2000-02-04)
+
+<code>
+A trust relationship exists between two Unix hosts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0539](https://github.com/Live-Hack-CVE/CVE-1999-0539)
+
+### CVE-1999-0541 (2000-02-04)
+
+<code>
+A password for accessing a WWW URL is guessable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0541](https://github.com/Live-Hack-CVE/CVE-1999-0541)
+
+### CVE-1999-0546 (2000-02-04)
+
+<code>
+The Windows NT guest account is enabled.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0546](https://github.com/Live-Hack-CVE/CVE-1999-0546)
+
+### CVE-1999-0547 (2000-02-04)
+
+<code>
+An SSH server allows authentication through the .rhosts file.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0547](https://github.com/Live-Hack-CVE/CVE-1999-0547)
+
+### CVE-1999-0548 (2000-02-04)
+
+<code>
+A superfluous NFS server is running, but it is not importing or exporting any file systems.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0548](https://github.com/Live-Hack-CVE/CVE-1999-0548)
+
+### CVE-1999-0549 (2000-02-04)
+
+<code>
+Windows NT automatically logs in an administrator upon rebooting.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0549](https://github.com/Live-Hack-CVE/CVE-1999-0549)
+
+### CVE-1999-0550 (2000-02-04)
+
+<code>
+A router's routing tables can be obtained from arbitrary hosts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0550](https://github.com/Live-Hack-CVE/CVE-1999-0550)
+
+### CVE-1999-0554 (2000-02-04)
+
+<code>
+NFS exports system-critical data to the world, e.g. / or a password file.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0554](https://github.com/Live-Hack-CVE/CVE-1999-0554)
+
+### CVE-1999-0555 (2000-02-04)
+
+<code>
+A Unix account with a name other than &quot;root&quot; has UID 0, i.e. root privileges.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0555](https://github.com/Live-Hack-CVE/CVE-1999-0555)
+
+### CVE-1999-0556 (2000-02-04)
+
+<code>
+Two or more Unix accounts have the same UID.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0556](https://github.com/Live-Hack-CVE/CVE-1999-0556)
+
+### CVE-1999-0559 (2000-02-04)
+
+<code>
+A system-critical Unix file or directory has inappropriate permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0559](https://github.com/Live-Hack-CVE/CVE-1999-0559)
+
+### CVE-1999-0560 (2000-02-04)
+
+<code>
+A system-critical Windows NT file or directory has inappropriate permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0560](https://github.com/Live-Hack-CVE/CVE-1999-0560)
+
+### CVE-1999-0561 (2000-02-04)
+
+<code>
+IIS has the #exec function enabled for Server Side Include (SSI) files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0561](https://github.com/Live-Hack-CVE/CVE-1999-0561)
+
+### CVE-1999-0564 (2000-02-04)
+
+<code>
+An attacker can force a printer to print arbitrary documents (e.g. if the printer doesn't require a password) or to become disabled.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0564](https://github.com/Live-Hack-CVE/CVE-1999-0564)
+
+### CVE-1999-0565 (2000-02-04)
+
+<code>
+A Sendmail alias allows input to be piped to a program.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0565](https://github.com/Live-Hack-CVE/CVE-1999-0565)
+
+### CVE-1999-0566 (1999-09-29)
+
+<code>
+An attacker can write to syslog files from any location, causing a denial of service by filling up the logs, and hiding activities.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0566](https://github.com/Live-Hack-CVE/CVE-1999-0566)
+
+### CVE-1999-0568 (2000-02-04)
+
+<code>
+rpc.admind in Solaris is not running in a secure mode.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0568](https://github.com/Live-Hack-CVE/CVE-1999-0568)
+
+### CVE-1999-0569 (2000-02-04)
+
+<code>
+A URL for a WWW directory allows auto-indexing, which provides a list of all files in that directory if it does not contain an index.html file.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0569](https://github.com/Live-Hack-CVE/CVE-1999-0569)
+
+### CVE-1999-0570 (2000-02-04)
+
+<code>
+Windows NT is not using a password filter utility, e.g. PASSFILT.DLL.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0570](https://github.com/Live-Hack-CVE/CVE-1999-0570)
+
+### CVE-1999-0571 (2000-02-04)
+
+<code>
+A router's configuration service or management interface (such as a web server or telnet) is configured to allow connections from arbitrary hosts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0571](https://github.com/Live-Hack-CVE/CVE-1999-0571)
+
+### CVE-1999-0572 (2000-02-04)
+
+<code>
+.reg files are associated with the Windows NT registry editor (regedit), making the registry susceptible to Trojan Horse attacks.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0572](https://github.com/Live-Hack-CVE/CVE-1999-0572)
+
+### CVE-1999-0575 (2000-02-04)
+
+<code>
+A Windows NT system's user audit policy does not log an event success or failure, e.g. for Logon and Logoff, File and Object Access, Use of User Rights, User and Group Management, Security Policy Changes, Restart, Shutdown, and System, and Process Tracking.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0575](https://github.com/Live-Hack-CVE/CVE-1999-0575)
+
+### CVE-1999-0576 (2000-02-04)
+
+<code>
+A Windows NT system's file audit policy does not log an event success or failure for security-critical files or directories.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0576](https://github.com/Live-Hack-CVE/CVE-1999-0576)
+
+### CVE-1999-0577 (2000-02-04)
+
+<code>
+A Windows NT system's file audit policy does not log an event success or failure for non-critical files or directories.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0577](https://github.com/Live-Hack-CVE/CVE-1999-0577)
+
+### CVE-1999-0578 (2000-02-04)
+
+<code>
+A Windows NT system's registry audit policy does not log an event success or failure for security-critical registry keys.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0578](https://github.com/Live-Hack-CVE/CVE-1999-0578)
+
+### CVE-1999-0579 (2000-02-04)
+
+<code>
+A Windows NT system's registry audit policy does not log an event success or failure for non-critical registry keys.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0579](https://github.com/Live-Hack-CVE/CVE-1999-0579)
+
+### CVE-1999-0580 (2000-02-04)
+
+<code>
+The HKEY_LOCAL_MACHINE key in a Windows NT system has inappropriate, system-critical permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0580](https://github.com/Live-Hack-CVE/CVE-1999-0580)
+
+### CVE-1999-0581 (2000-02-04)
+
+<code>
+The HKEY_CLASSES_ROOT key in a Windows NT system has inappropriate, system-critical permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0581](https://github.com/Live-Hack-CVE/CVE-1999-0581)
+
+### CVE-1999-0582 (2000-02-04)
+
+<code>
+A Windows NT account policy has inappropriate, security-critical settings for lockout, e.g. lockout duration, lockout after bad logon attempts, etc.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0582](https://github.com/Live-Hack-CVE/CVE-1999-0582)
+
+### CVE-1999-0583 (2000-02-04)
+
+<code>
+There is a one-way or two-way trust relationship between Windows NT domains.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0583](https://github.com/Live-Hack-CVE/CVE-1999-0583)
+
+### CVE-1999-0584 (2000-02-04)
+
+<code>
+A Windows NT file system is not NTFS.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0584](https://github.com/Live-Hack-CVE/CVE-1999-0584)
+
+### CVE-1999-0585 (2000-02-04)
+
+<code>
+A Windows NT administrator account has the default name of Administrator.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0585](https://github.com/Live-Hack-CVE/CVE-1999-0585)
+
+### CVE-1999-0586 (2000-02-04)
+
+<code>
+A network service is running on a nonstandard port.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0586](https://github.com/Live-Hack-CVE/CVE-1999-0586)
+
+### CVE-1999-0587 (2000-02-04)
+
+<code>
+A WWW server is not running in a restricted file system, e.g. through a chroot, thus allowing access to system-critical data.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0587](https://github.com/Live-Hack-CVE/CVE-1999-0587)
+
+### CVE-1999-0588 (2000-02-04)
+
+<code>
+A filter in a router or firewall allows unusual fragmented packets.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0588](https://github.com/Live-Hack-CVE/CVE-1999-0588)
+
+### CVE-1999-0589 (2000-02-04)
+
+<code>
+A system-critical Windows NT registry key has inappropriate permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0589](https://github.com/Live-Hack-CVE/CVE-1999-0589)
+
+### CVE-1999-0590 (2000-02-04)
+
+<code>
+A system does not present an appropriate legal message or warning to a user who is accessing it.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0590](https://github.com/Live-Hack-CVE/CVE-1999-0590)
+
+### CVE-1999-0591 (2000-02-04)
+
+<code>
+An event log in Windows NT has inappropriate access permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0591](https://github.com/Live-Hack-CVE/CVE-1999-0591)
+
+### CVE-1999-0592 (2000-02-04)
+
+<code>
+The Logon box of a Windows NT system displays the name of the last user who logged in.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0592](https://github.com/Live-Hack-CVE/CVE-1999-0592)
+
+### CVE-1999-0594 (2000-02-04)
+
+<code>
+A Windows NT system does not restrict access to removable media drives such as a floppy disk drive or CDROM drive.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0594](https://github.com/Live-Hack-CVE/CVE-1999-0594)
+
+### CVE-1999-0595 (2000-02-04)
+
+<code>
+A Windows NT system does not clear the system page file during shutdown, which might allow sensitive information to be recorded.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0595](https://github.com/Live-Hack-CVE/CVE-1999-0595)
+
+### CVE-1999-0596 (2000-02-04)
+
+<code>
+A Windows NT log file has an inappropriate maximum size or retention period.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0596](https://github.com/Live-Hack-CVE/CVE-1999-0596)
+
+### CVE-1999-0597 (2000-02-04)
+
+<code>
+A Windows NT account policy does not forcibly disconnect remote users from the server when their logon hours expire.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0597](https://github.com/Live-Hack-CVE/CVE-1999-0597)
+
+### CVE-1999-0598 (2000-02-04)
+
+<code>
+A network intrusion detection system (IDS) does not properly handle packets that are sent out of order, allowing an attacker to escape detection.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0598](https://github.com/Live-Hack-CVE/CVE-1999-0598)
+
+### CVE-1999-0599 (2000-02-04)
+
+<code>
+A network intrusion detection system (IDS) does not properly handle packets with improper sequence numbers.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0599](https://github.com/Live-Hack-CVE/CVE-1999-0599)
+
+### CVE-1999-0600 (2000-02-04)
+
+<code>
+A network intrusion detection system (IDS) does not verify the checksum on a packet.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0600](https://github.com/Live-Hack-CVE/CVE-1999-0600)
+
+### CVE-1999-0601 (2000-02-04)
+
+<code>
+A network intrusion detection system (IDS) does not properly handle data within TCP handshake packets.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0601](https://github.com/Live-Hack-CVE/CVE-1999-0601)
+
+### CVE-1999-0602 (2000-02-04)
+
+<code>
+A network intrusion detection system (IDS) does not properly reassemble fragmented packets.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0602](https://github.com/Live-Hack-CVE/CVE-1999-0602)
+
+### CVE-1999-0611 (2000-02-04)
+
+<code>
+A system-critical Windows NT registry key has an inappropriate value.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0611](https://github.com/Live-Hack-CVE/CVE-1999-0611)
+
+### CVE-1999-0612 (1999-09-29)
+
+<code>
+A version of finger is running that exposes valid user information to any entity on the network.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0612](https://github.com/Live-Hack-CVE/CVE-1999-0612)
+
+### CVE-1999-0613 (2000-02-04)
+
+<code>
+The rpc.sprayd service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0613](https://github.com/Live-Hack-CVE/CVE-1999-0613)
+
+### CVE-1999-0618 (2000-02-04)
+
+<code>
+The rexec service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0618](https://github.com/Live-Hack-CVE/CVE-1999-0618)
+
+### CVE-1999-0624 (2000-02-04)
+
+<code>
+The rstat/rstatd service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0624](https://github.com/Live-Hack-CVE/CVE-1999-0624)
+
+### CVE-1999-0625 (2000-02-04)
+
+<code>
+The rpc.rquotad service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0625](https://github.com/Live-Hack-CVE/CVE-1999-0625)
+
+### CVE-1999-0626 (1999-09-29)
+
+<code>
+A version of rusers is running that exposes valid user information to any entity on the network.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0626](https://github.com/Live-Hack-CVE/CVE-1999-0626)
+
+### CVE-1999-0627 (1999-09-29)
+
+<code>
+The rexd service is running, which uses weak authentication that can allow an attacker to execute commands.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0627](https://github.com/Live-Hack-CVE/CVE-1999-0627)
+
+### CVE-1999-0628 (1999-09-29)
+
+<code>
+The rwho/rwhod service is running, which exposes machine status and user information.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0628](https://github.com/Live-Hack-CVE/CVE-1999-0628)
+
+### CVE-1999-0629 (2000-02-04)
+
+<code>
+The ident/identd service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0629](https://github.com/Live-Hack-CVE/CVE-1999-0629)
+
+### CVE-1999-0630 (2000-02-04)
+
+<code>
+The NT Alerter and Messenger services are running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0630](https://github.com/Live-Hack-CVE/CVE-1999-0630)
+
+### CVE-1999-0632 (2000-02-04)
+
+<code>
+The RPC portmapper service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0632](https://github.com/Live-Hack-CVE/CVE-1999-0632)
+
+### CVE-1999-0636 (2000-02-04)
+
+<code>
+The discard service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0636](https://github.com/Live-Hack-CVE/CVE-1999-0636)
+
+### CVE-1999-0637 (2000-02-04)
+
+<code>
+The systat service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0637](https://github.com/Live-Hack-CVE/CVE-1999-0637)
+
+### CVE-1999-0638 (2000-02-04)
+
+<code>
+The daytime service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0638](https://github.com/Live-Hack-CVE/CVE-1999-0638)
+
+### CVE-1999-0639 (2000-02-04)
+
+<code>
+The chargen service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0639](https://github.com/Live-Hack-CVE/CVE-1999-0639)
+
+### CVE-1999-0640 (2000-02-04)
+
+<code>
+The Gopher service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0640](https://github.com/Live-Hack-CVE/CVE-1999-0640)
+
+### CVE-1999-0641 (2000-02-04)
+
+<code>
+The UUCP service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0641](https://github.com/Live-Hack-CVE/CVE-1999-0641)
+
+### CVE-1999-0651 (2000-02-04)
+
+<code>
+The rsh/rlogin service is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0651](https://github.com/Live-Hack-CVE/CVE-1999-0651)
+
+### CVE-1999-0653 (2000-02-04)
+
+<code>
+A component service related to NIS+ is running.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0653](https://github.com/Live-Hack-CVE/CVE-1999-0653)
+
+### CVE-1999-0654 (2000-02-04)
+
+<code>
+The OS/2 or POSIX subsystem in NT is enabled.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0654](https://github.com/Live-Hack-CVE/CVE-1999-0654)
+
+### CVE-1999-0657 (2000-02-04)
+
+<code>
+WinGate is being used.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0657](https://github.com/Live-Hack-CVE/CVE-1999-0657)
+
+### CVE-1999-0662 (2000-02-04)
+
+<code>
+A system-critical program or library does not have the appropriate patch, hotfix, or service pack installed, or is outdated or obsolete.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0662](https://github.com/Live-Hack-CVE/CVE-1999-0662)
+
+### CVE-1999-0663 (2000-02-04)
+
+<code>
+A system-critical program, library, or file has a checksum or other integrity measurement that indicates that it has been modified.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0663](https://github.com/Live-Hack-CVE/CVE-1999-0663)
+
+### CVE-1999-0664 (2000-02-04)
+
+<code>
+An application-critical Windows NT registry key has inappropriate permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0664](https://github.com/Live-Hack-CVE/CVE-1999-0664)
+
+### CVE-1999-0665 (2000-02-04)
+
+<code>
+An application-critical Windows NT registry key has an inappropriate value.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0665](https://github.com/Live-Hack-CVE/CVE-1999-0665)
+
+### CVE-1999-0667 (2000-02-04)
+
+<code>
+The ARP protocol allows any host to spoof ARP replies and poison the ARP cache to conduct IP address spoofing or a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0667](https://github.com/Live-Hack-CVE/CVE-1999-0667)
+
+### CVE-1999-0684 (2000-02-04)
+
+<code>
+Denial of service in Sendmail 8.8.6 in HPUX.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0684](https://github.com/Live-Hack-CVE/CVE-1999-0684)
+
+### CVE-1999-0698 (2000-02-04)
+
+<code>
+Denial of service in IP protocol logger (ippl) on Red Hat and Debian Linux.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0698](https://github.com/Live-Hack-CVE/CVE-1999-0698)
+
+### CVE-1999-0712 (2000-02-04)
+
+<code>
+A vulnerability in Caldera Open Administration System (COAS) allows the /etc/shadow password file to be made world-readable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0712](https://github.com/Live-Hack-CVE/CVE-1999-0712)
+
+### CVE-1999-0714 (2000-01-04)
+
+<code>
+Vulnerability in Compaq Tru64 UNIX edauth command.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0714](https://github.com/Live-Hack-CVE/CVE-1999-0714)
+
+### CVE-1999-0730 (2000-01-04)
+
+<code>
+The zsoelim program in the Debian man-db package allows local users to overwrite files via a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0730](https://github.com/Live-Hack-CVE/CVE-1999-0730)
+
+### CVE-1999-0732 (2000-01-04)
+
+<code>
+The logging facility of the Debian smtp-refuser package allows local users to delete arbitrary files using symbolic links.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0732](https://github.com/Live-Hack-CVE/CVE-1999-0732)
+
+### CVE-1999-0748 (2000-02-04)
+
+<code>
+Buffer overflows in Red Hat net-tools package.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0748](https://github.com/Live-Hack-CVE/CVE-1999-0748)
+
+### CVE-1999-0752 (2000-01-04)
+
+<code>
+Denial of service in Netscape Enterprise Server via a buffer overflow in the SSL handshake.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0752](https://github.com/Live-Hack-CVE/CVE-1999-0752)
+
+### CVE-1999-0758 (2001-05-07)
+
+<code>
+Netscape Enterprise 3.5.1 and FastTrack 3.01 servers allow a remote attacker to view source code to scripts by appending a %20 to the script's URL.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0758](https://github.com/Live-Hack-CVE/CVE-1999-0758)
+
+### CVE-1999-0762 (2000-01-04)
+
+<code>
+When Javascript is embedded within the TITLE tag, Netscape Communicator allows a remote attacker to use the &quot;about&quot; protocol to gain access to browser information.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0762](https://github.com/Live-Hack-CVE/CVE-1999-0762)
+
+### CVE-1999-0767 (2000-02-04)
+
+<code>
+Buffer overflow in Solaris libc, ufsrestore, and rcp via LC_MESSAGES environmental variable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0767](https://github.com/Live-Hack-CVE/CVE-1999-0767)
+
+### CVE-1999-0771 (2000-01-04)
+
+<code>
+The web components of Compaq Management Agents and the Compaq Survey Utility allow a remote attacker to read arbitrary files via a .. (dot dot) attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0771](https://github.com/Live-Hack-CVE/CVE-1999-0771)
+
+### CVE-1999-0772 (2000-01-04)
+
+<code>
+Denial of service in Compaq Management Agents and the Compaq Survey Utility via a long string sent to port 2301.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0772](https://github.com/Live-Hack-CVE/CVE-1999-0772)
+
+### CVE-1999-0775 (2000-01-18)
+
+<code>
+Cisco Gigabit Switch routers running IOS allow remote attackers to forward unauthorized packets due to improper handling of the &quot;established&quot; keyword in an access list.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0775](https://github.com/Live-Hack-CVE/CVE-1999-0775)
+
+### CVE-1999-0795 (2000-02-04)
+
+<code>
+The NIS+ rpc.nisd server allows remote attackers to execute certain RPC calls without authentication to obtain system information, disable logging, or modify caches.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0795](https://github.com/Live-Hack-CVE/CVE-1999-0795)
+
+### CVE-1999-0799 (2000-04-18)
+
+<code>
+Buffer overflow in bootpd 2.4.3 and earlier via a long boot file location.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0799](https://github.com/Live-Hack-CVE/CVE-1999-0799)
+
+### CVE-1999-0807 (2000-01-04)
+
+<code>
+The Netscape Directory Server installation procedure leaves sensitive information in a file that is accessible to local users.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0807](https://github.com/Live-Hack-CVE/CVE-1999-0807)
+
+### CVE-1999-0809 (2000-01-04)
+
+<code>
+Netscape Communicator 4.x with Javascript enabled does not warn a user of cookie settings, even if they have selected the option to &quot;Only accept cookies originating from the same server as the page being viewed&quot;.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0809](https://github.com/Live-Hack-CVE/CVE-1999-0809)
+
+### CVE-1999-0810 (2000-01-04)
+
+<code>
+Denial of service in Samba NETBIOS name service daemon (nmbd).
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0810](https://github.com/Live-Hack-CVE/CVE-1999-0810)
+
+### CVE-1999-0812 (2000-01-04)
+
+<code>
+Race condition in Samba smbmnt allows local users to mount file systems in arbitrary locations.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0812](https://github.com/Live-Hack-CVE/CVE-1999-0812)
+
+### CVE-1999-0813 (2000-04-18)
+
+<code>
+Cfingerd with ALLOW_EXECUTION enabled does not properly drop privileges when it executes a program on behalf of the user, allowing local users to gain root privileges.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0813](https://github.com/Live-Hack-CVE/CVE-1999-0813)
+
+### CVE-1999-0817 (2000-01-04)
+
+<code>
+Lynx WWW client allows a remote attacker to specify command-line parameters which Lynx uses when calling external programs to handle certain protocols, e.g. telnet.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0817](https://github.com/Live-Hack-CVE/CVE-1999-0817)
+
+### CVE-1999-0827 (2000-02-04)
+
+<code>
+By default, Internet Explorer 5.0 and other versions enables the &quot;Navigate sub-frames across different domains&quot; option, which allows frame spoofing.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0827](https://github.com/Live-Hack-CVE/CVE-1999-0827)
+
+### CVE-1999-0829 (2000-02-04)
+
+<code>
+HP Secure Web Console uses weak encryption.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0829](https://github.com/Live-Hack-CVE/CVE-1999-0829)
+
+### CVE-1999-0830 (2000-02-04)
+
+<code>
+Buffer overflow in SCO UnixWare Xsco command via a long argument.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0830](https://github.com/Live-Hack-CVE/CVE-1999-0830)
+
+### CVE-1999-0843 (2000-02-04)
+
+<code>
+Denial of service in Cisco routers running NAT via a PORT command from an FTP client to a Telnet port.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0843](https://github.com/Live-Hack-CVE/CVE-1999-0843)
+
+### CVE-1999-0845 (2000-02-04)
+
+<code>
+Buffer overflow in SCO su program allows local users to gain root access via a long username.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0845](https://github.com/Live-Hack-CVE/CVE-1999-0845)
+
+### CVE-1999-0846 (2000-02-04)
+
+<code>
+Denial of service in MDaemon 2.7 via a large number of connection attempts.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0846](https://github.com/Live-Hack-CVE/CVE-1999-0846)
+
+### CVE-1999-0847 (2000-01-18)
+
+<code>
+Buffer overflow in free internet chess server (FICS) program, xboard.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0847](https://github.com/Live-Hack-CVE/CVE-1999-0847)
+
+### CVE-1999-0856 (2000-06-02)
+
+<code>
+login in Slackware 7.0 allows remote attackers to identify valid users on the system by reporting an encryption error when an account is locked or does not exist.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0856](https://github.com/Live-Hack-CVE/CVE-1999-0856)
+
+### CVE-1999-0862 (2000-02-04)
+
+<code>
+Insecure directory permissions in RPM distribution for PostgreSQL allows local users to gain privileges by reading a plaintext password file.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0862](https://github.com/Live-Hack-CVE/CVE-1999-0862)
+
+### CVE-1999-0863 (2000-02-04)
+
+<code>
+Buffer overflow in FreeBSD seyon via HOME environmental variable, -emulator argument, -modems argument, or the GUI.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0863](https://github.com/Live-Hack-CVE/CVE-1999-0863)
+
+### CVE-1999-0868 (2000-01-04)
+
+<code>
+ucbmail allows remote attackers to execute commands via shell metacharacters that are passed to it from INN.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0868](https://github.com/Live-Hack-CVE/CVE-1999-0868)
+
+### CVE-1999-0879 (2000-01-04)
+
+<code>
+Buffer overflow in WU-FTPD and related FTP servers allows remote attackers to gain root privileges via macro variables in a message file.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0879](https://github.com/Live-Hack-CVE/CVE-1999-0879)
+
+### CVE-1999-0880 (2000-01-04)
+
+<code>
+Denial of service in WU-FTPD via the SITE NEWER command, which does not free memory properly.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0880](https://github.com/Live-Hack-CVE/CVE-1999-0880)
+
+### CVE-1999-0882 (2000-02-04)
+
+<code>
+Falcon web server allows remote attackers to determine the absolute path of the web root via long file names.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0882](https://github.com/Live-Hack-CVE/CVE-1999-0882)
+
+### CVE-1999-0892 (2000-01-04)
+
+<code>
+Buffer overflow in Netscape Communicator before 4.7 via a dynamic font whose length field is less than the size of the font.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0892](https://github.com/Live-Hack-CVE/CVE-1999-0892)
+
+### CVE-1999-0893 (2000-03-22)
+
+<code>
+userOsa in SCO OpenServer allows local users to corrupt files via a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0893](https://github.com/Live-Hack-CVE/CVE-1999-0893)
+
+### CVE-1999-0894 (2000-01-04)
+
+<code>
+Red Hat Linux screen program does not use Unix98 ptys, allowing local users to write to other terminals.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0894](https://github.com/Live-Hack-CVE/CVE-1999-0894)
+
+### CVE-1999-0900 (2000-01-04)
+
+<code>
+Buffer overflow in rpc.yppasswdd allows a local user to gain privileges via MD5 hash generation.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0900](https://github.com/Live-Hack-CVE/CVE-1999-0900)
+
+### CVE-1999-0901 (2000-01-04)
+
+<code>
+ypserv allows a local user to modify the GECOS and login shells of other users.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0901](https://github.com/Live-Hack-CVE/CVE-1999-0901)
+
+### CVE-1999-0902 (2000-01-04)
+
+<code>
+ypserv allows local administrators to modify password tables.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0902](https://github.com/Live-Hack-CVE/CVE-1999-0902)
+
+### CVE-1999-0903 (2000-04-18)
+
+<code>
+genfilt in the AIX Packet Filtering Module does not properly filter traffic to destination ports greater than 32767.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0903](https://github.com/Live-Hack-CVE/CVE-1999-0903)
+
+### CVE-1999-0907 (2000-01-04)
+
+<code>
+sccw allows local users to read arbitrary files.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0907](https://github.com/Live-Hack-CVE/CVE-1999-0907)
+
+### CVE-1999-0916 (2000-03-22)
+
+<code>
+WebTrends software stores account names and passwords in a file which does not have restricted access permissions.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0916](https://github.com/Live-Hack-CVE/CVE-1999-0916)
+
+### CVE-1999-0929 (2000-02-04)
+
+<code>
+Novell NetWare with Novell-HTTP-Server or YAWN web servers allows remote attackers to conduct a denial of service via a large number of HTTP GET requests.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0929](https://github.com/Live-Hack-CVE/CVE-1999-0929)
+
+### CVE-1999-0935 (2000-01-04)
+
+<code>
+classifieds.cgi allows remote attackers to execute arbitrary commands by specifying them in a hidden variable in a CGI form.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0935](https://github.com/Live-Hack-CVE/CVE-1999-0935)
+
+### CVE-1999-0936 (2000-01-04)
+
+<code>
+BNBSurvey survey.cgi program allows remote attackers to execute commands via shell metacharacters.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0936](https://github.com/Live-Hack-CVE/CVE-1999-0936)
+
+### CVE-1999-0937 (2000-01-04)
+
+<code>
+BNBForm allows remote attackers to read arbitrary files via the automessage hidden form variable.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0937](https://github.com/Live-Hack-CVE/CVE-1999-0937)
+
+### CVE-1999-0938 (2000-01-04)
+
+<code>
+MBone SDR Package allows remote attackers to execute commands via shell metacharacters in Session Initiation Protocol (SIP) messages.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0938](https://github.com/Live-Hack-CVE/CVE-1999-0938)
+
+### CVE-1999-0940 (2000-01-04)
+
+<code>
+Buffer overflow in mutt mail client allows remote attackers to execute commands via malformed MIME messages.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0940](https://github.com/Live-Hack-CVE/CVE-1999-0940)
+
+### CVE-1999-0942 (2000-10-13)
+
+<code>
+UnixWare dos7utils allows a local user to gain root privileges by using the STATICMERGE environmental variable to find a script which it executes.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0942](https://github.com/Live-Hack-CVE/CVE-1999-0942)
+
+### CVE-1999-0944 (2000-02-04)
+
+<code>
+IBM WebSphere ikeyman tool uses weak encryption to store a password for a key database that is used for SSL connections.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0944](https://github.com/Live-Hack-CVE/CVE-1999-0944)
+
+### CVE-1999-0953 (2000-01-04)
+
+<code>
+WWWBoard stores encrypted passwords in a password file that is under the web root and thus accessible by remote attackers.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0953](https://github.com/Live-Hack-CVE/CVE-1999-0953)
+
+### CVE-1999-0955 (2000-01-18)
+
+<code>
+Race condition in wu-ftpd and BSDI ftpd allows remote attackers to gain root access via the SITE EXEC command.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0955](https://github.com/Live-Hack-CVE/CVE-1999-0955)
+
+### CVE-1999-0956 (2000-01-04)
+
+<code>
+The NeXT NetInfo _writers property allows local users to gain root privileges or conduct a denial of service.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0956](https://github.com/Live-Hack-CVE/CVE-1999-0956)
+
+### CVE-1999-0957 (2000-04-25)
+
+<code>
+MajorCool mj_key_cache program allows local users to modify files via a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0957](https://github.com/Live-Hack-CVE/CVE-1999-0957)
+
+### CVE-1999-0965 (2000-01-04)
+
+<code>
+Race condition in xterm allows local users to modify arbitrary files via the logging option.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0965](https://github.com/Live-Hack-CVE/CVE-1999-0965)
+
+### CVE-1999-0966 (2000-03-22)
+
+<code>
+Buffer overflow in Solaris getopt in libc allows local users to gain root privileges via a long argv[0].
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0966](https://github.com/Live-Hack-CVE/CVE-1999-0966)
+
+### CVE-1999-0967 (2000-01-04)
+
+<code>
+Buffer overflow in the HTML library used by Internet Explorer, Outlook Express, and Windows Explorer via the res: local resource protocol.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0967](https://github.com/Live-Hack-CVE/CVE-1999-0967)
+
+### CVE-1999-0982 (2000-01-04)
+
+<code>
+The Sun Web-Based Enterprise Management (WBEM) installation script stores a password in plaintext in a world readable file.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0982](https://github.com/Live-Hack-CVE/CVE-1999-0982)
+
+### CVE-1999-0983 (2000-02-04)
+
+<code>
+Whois Internic Lookup program whois.cgi allows remote attackers to execute commands via shell metacharacters in the domain entry.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0983](https://github.com/Live-Hack-CVE/CVE-1999-0983)
+
+### CVE-1999-0984 (2000-02-04)
+
+<code>
+Matt's Whois program whois.cgi allows remote attackers to execute commands via shell metacharacters in the domain entry.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0984](https://github.com/Live-Hack-CVE/CVE-1999-0984)
+
+### CVE-1999-0985 (2000-02-04)
+
+<code>
+CC Whois program whois.cgi allows remote attackers to execute commands via shell metacharacters in the domain entry.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0985](https://github.com/Live-Hack-CVE/CVE-1999-0985)
+
+### CVE-1999-0988 (2000-02-04)
+
+<code>
+UnixWare pkgtrans allows local users to read arbitrary files via a symlink attack.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0988](https://github.com/Live-Hack-CVE/CVE-1999-0988)
+
+### CVE-1999-0990 (2000-02-04)
+
+<code>
+Error messages generated by gdm with the VerboseAuth setting allows an attacker to identify valid users on a system.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0990](https://github.com/Live-Hack-CVE/CVE-1999-0990)
+
+### CVE-1999-0993 (2000-02-04)
+
+<code>
+Modifications to ACLs (Access Control Lists) in Microsoft Exchange  5.5 do not take effect until the directory store cache is refreshed.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0993](https://github.com/Live-Hack-CVE/CVE-1999-0993)
+
+### CVE-1999-0998 (2000-03-22)
+
+<code>
+Cisco Cache Engine allows an attacker to replace content in the cache.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-0998](https://github.com/Live-Hack-CVE/CVE-1999-0998)
+
+### CVE-1999-1000 (2000-03-22)
+
+<code>
+The web administration interface for Cisco Cache Engine allows remote attackers to view performance statistics.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-1000](https://github.com/Live-Hack-CVE/CVE-1999-1000)
+
+### CVE-1999-1001 (2000-01-18)
+
+<code>
+Cisco Cache Engine allows a remote attacker to gain access via a null username and password.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-1001](https://github.com/Live-Hack-CVE/CVE-1999-1001)
+
+### CVE-1999-1003 (2000-02-04)
+
+<code>
+War FTP Daemon 1.70 allows remote attackers to cause a denial of service by flooding it with connections.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-1003](https://github.com/Live-Hack-CVE/CVE-1999-1003)
+
+### CVE-1999-1009 (2000-02-04)
+
+<code>
+The Disney Go Express Search allows remote attackers to access and modify search information for users by connecting to an HTTP server on the user's system.
+</code>
+
+- [Live-Hack-CVE/CVE-1999-1009](https://github.com/Live-Hack-CVE/CVE-1999-1009)
 
 ### CVE-1999-1053 (2001-09-12)
 
