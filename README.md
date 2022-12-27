@@ -12392,7 +12392,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [rvizx/CVE-2021-4034](https://github.com/rvizx/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [T3slaa/pwnkit-pwn](https://github.com/T3slaa/pwnkit-pwn)
-- [hifumi1337/CVE-2021-4034](https://github.com/hifumi1337/CVE-2021-4034)
+- [azazelm3dj3d/CVE-2021-4034](https://github.com/azazelm3dj3d/CVE-2021-4034)
 - [antoinenguyen-09/CVE-2021-4034](https://github.com/antoinenguyen-09/CVE-2021-4034)
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
@@ -12929,7 +12929,7 @@ A vulnerability, which was classified as problematic, was found in katlings pyam
 ### CVE-2021-4276 (2022-12-25)
 
 <code>
-** DISPUTED ** ** UNSUPPPORTED WHEN ASSIGNED **** UNSUPPORTED WHEN ASSIGNED ** ** DISPUTED ** A vulnerability was found in dns-stats hedgehog. It has been rated as problematic. Affected by this issue is the function DSCIOManager::dsc_import_input_from_source of the file src/DSCIOManager.cpp. The manipulation leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The name of the patch is 58922c345d3d1fe89bb2020111873a3e07ca93ac. It is recommended to apply a patch to fix this issue. VDB-216746 is the identifier assigned to this vulnerability. NOTE: This vulnerability only affects products that are no longer supported by the maintainer. NOTE: We do assume that the Data Manager server can only be accessed by authorised users. Because of this, we don’t believe this specific attack is possible without such a compromise of the Data Manager server.
+** DISPUTED ** ** UNSUPPPORTED WHEN ASSIGNED **Eine problematische Schwachstelle wurde in dns-stats hedgehog ausgemacht. Es geht hierbei um die Funktion DSCIOManager::dsc_import_input_from_source der Datei src/DSCIOManager.cpp. Mit der Manipulation mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung. Bisher konnte die Existenz der vermeintlichen Schwachstelle noch nicht eindeutig nachgewiesen werden. Der Patch wird als 58922c345d3d1fe89bb2020111873a3e07ca93ac bezeichnet. Als bestmögliche Massnahme wird Patching empfohlen.
 </code>
 
 - [Live-Hack-CVE/CVE-2021-4276](https://github.com/Live-Hack-CVE/CVE-2021-4276)
