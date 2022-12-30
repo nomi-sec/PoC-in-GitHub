@@ -386,6 +386,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [ih3na/debian11-dirty_pipe-patcher](https://github.com/ih3na/debian11-dirty_pipe-patcher)
 - [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
 - [flux10n/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/flux10n/CVE-2022-0847-DirtyPipe-Exploits)
+- [pmihsan/-Dirty-Pipe-CVE-2022-0847](https://github.com/pmihsan/-Dirty-Pipe-CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -8958,14 +8959,6 @@ TOTOLINK A810R V4.1.2cu.5182_B20201026 and V5.9c.4050_B20190424 was discovered t
 
 - [Live-Hack-CVE/CVE-2022-36616](https://github.com/Live-Hack-CVE/CVE-2022-36616)
 
-### CVE-2022-36619 (2022-08-31)
-
-<code>
-In D-link DIR-816 A2_v1.10CNB04.img,the network can be reset without authentication via /goform/setMAC.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36619](https://github.com/Live-Hack-CVE/CVE-2022-36619)
-
 ### CVE-2022-36636 (2022-09-02)
 
 <code>
@@ -17209,14 +17202,6 @@ Gatsby is a framework for building websites. The gatsby-source-wordpress plugin 
 
 - [Live-Hack-CVE/CVE-2021-32770](https://github.com/Live-Hack-CVE/CVE-2021-32770)
 
-### CVE-2021-32779 (2021-08-24)
-
-<code>
-Envoy is an open source L7 proxy and communication bus designed for large modern service oriented architectures. In affected versions envoy incorrectly handled a URI '#fragment' element as part of the path element. Envoy is configured with an RBAC filter for authorization or similar mechanism with an explicit case of a final &quot;/admin&quot; path element, or is using a negative assertion with final path element of &quot;/admin&quot;. The client sends request to &quot;/app1/admin#foo&quot;. In Envoy prior to 1.18.0, or 1.18.0+ configured with path_normalization=false. Envoy treats fragment as a suffix of the query string when present, or as a suffix of the path when query string is absent, so it evaluates the final path element as &quot;/admin#foo&quot; and mismatches with the configured &quot;/admin&quot; path element. In Envoy 1.18.0+ configured with path_normalization=true. Envoy transforms this to /app1/admin%23foo and mismatches with the configured /admin prefix. The resulting URI is sent to the next server-agent with the offending &quot;#foo&quot; fragment which violates RFC3986 or with the nonsensical &quot;%23foo&quot; text appended. A specifically constructed request with URI containing '#fragment' element delivered by an untrusted client in the presence of path based request authorization resulting in escalation of Privileges when path based request authorization extensions. Envoy versions 1.19.1, 1.18.4, 1.17.4, 1.16.5 contain fixes that removes fragment from URI path in incoming requests.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32779](https://github.com/Live-Hack-CVE/CVE-2021-32779)
-
 ### CVE-2021-32791 (2021-07-26)
 
 <code>
@@ -20003,6 +19988,7 @@ A improper neutralization of special elements used in an os command ('os command
 Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled. From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
 </code>
 
+- [julian911015/Log4j-Scanner-Exploit](https://github.com/julian911015/Log4j-Scanner-Exploit)
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
 
 ### CVE-2021-44231 (2021-12-14)
