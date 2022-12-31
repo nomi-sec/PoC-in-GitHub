@@ -983,7 +983,6 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 
 ### CVE-2022-1609
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
-- [NullBrunk/CVE-2022-1609](https://github.com/NullBrunk/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
 
 ### CVE-2022-1663 (2022-08-29)
@@ -1719,14 +1718,6 @@ Sequi PortBloque S has a improper authentication issues which may allow an attac
 </code>
 
 - [Live-Hack-CVE/CVE-2022-2662](https://github.com/Live-Hack-CVE/CVE-2022-2662)
-
-### CVE-2022-2759 (2022-08-31)
-
-<code>
-Delta Electronics Delta Robot Automation Studio (DRAS) versions prior to 1.13.20 are affected by improper restrictions where the software processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output. This may allow an attacker to view sensitive documents and information on the affected host.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-2759](https://github.com/Live-Hack-CVE/CVE-2022-2759)
 
 ### CVE-2022-2788 (2022-08-19)
 
@@ -10782,6 +10773,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 </code>
 
 - [zhuowei/WDBFontOverwrite](https://github.com/zhuowei/WDBFontOverwrite)
+- [mineek/FileManager](https://github.com/mineek/FileManager)
 
 ### CVE-2022-48194 (2022-12-30)
 
