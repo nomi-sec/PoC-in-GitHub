@@ -2706,6 +2706,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [iveresk/cve-2022-21907-http.sys](https://github.com/iveresk/cve-2022-21907-http.sys)
 - [iveresk/cve-2022-21907](https://github.com/iveresk/cve-2022-21907)
 - [Live-Hack-CVE/CVE-2022-21907](https://github.com/Live-Hack-CVE/CVE-2022-21907)
+- [Vicki568/CVE-2022-21907](https://github.com/Vicki568/CVE-2022-21907)
 
 ### CVE-2022-21971 (2022-02-09)
 
@@ -8957,14 +8958,6 @@ Garage Management System v1.0 was discovered to contain a SQL injection vulnerab
 </code>
 
 - [Live-Hack-CVE/CVE-2022-36636](https://github.com/Live-Hack-CVE/CVE-2022-36636)
-
-### CVE-2022-36637 (2022-09-02)
-
-<code>
-Garage Management System v1.0 was discovered to contain a persistent cross-site scripting (XSS) vulnerability via the brand_name parameter at /brand.php.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-36637](https://github.com/Live-Hack-CVE/CVE-2022-36637)
 
 ### CVE-2022-36657 (2022-08-30)
 
@@ -30433,6 +30426,14 @@ A remote code execution vulnerability exists in Microsoft Word software when it 
 
 - [info4mationprivate8tools/CVE-2019-1205](https://github.com/info4mationprivate8tools/CVE-2019-1205)
 
+### CVE-2019-1221 (2019-09-11)
+
+<code>
+A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'.
+</code>
+
+- [ZwCreatePhoton/CVE-2019-1221](https://github.com/ZwCreatePhoton/CVE-2019-1221)
+
 ### CVE-2019-1253 (2019-09-11)
 
 <code>
@@ -36538,7 +36539,6 @@ includes/class-coming-soon-creator.php in the igniteup plugin through 3.4 for Wo
 bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-force protection mechanism by using many different forged X-Forwarded-For or Client-IP HTTP headers.
 </code>
 
-- [0xkasra/CVE-2019-17240](https://github.com/0xkasra/CVE-2019-17240)
 - [jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240)
 - [brunosergi0/bloodit](https://github.com/brunosergi0/bloodit)
 - [spyx/cve-2019-17240](https://github.com/spyx/cve-2019-17240)
