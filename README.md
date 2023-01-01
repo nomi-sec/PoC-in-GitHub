@@ -5841,6 +5841,14 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 
 - [inflixim4be/CVE-2020-15392](https://github.com/inflixim4be/CVE-2020-15392)
 
+### CVE-2020-17382 (2020-10-02)
+
+<code>
+The MSI AmbientLink MsIo64 driver 1.0.0.8 has a Buffer Overflow (0x80102040, 0x80102044, 0x80102050,and 0x80102054).
+</code>
+
+- [houseofxyz/CVE-2020-17382](https://github.com/houseofxyz/CVE-2020-17382)
+
 ### CVE-2020-24750 (2020-09-17)
 
 <code>
