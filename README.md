@@ -3791,6 +3791,14 @@ regex is an implementation of regular expressions for the Rust language. The reg
 
 - [ItzSwirlz/CVE-2022-24713-POC](https://github.com/ItzSwirlz/CVE-2022-24713-POC)
 
+### CVE-2022-24720 (2022-03-01)
+
+<code>
+image_processing is an image processing wrapper for libvips and ImageMagick/GraphicsMagick. Prior to version 1.12.2, using the `#apply` method from image_processing to apply a series of operations that are coming from unsanitized user input allows the attacker to execute shell commands. This method is called internally by Active Storage variants, so Active Storage is vulnerable as well. The vulnerability has been fixed in version 1.12.2 of image_processing. As a workaround, users who process based on user input should always sanitize the user input by allowing only a constrained set of operations.
+</code>
+
+- [Live-Hack-CVE/CVE-2022-24720](https://github.com/Live-Hack-CVE/CVE-2022-24720)
+
 ### CVE-2022-24734 (2022-03-09)
 
 <code>
@@ -5664,14 +5672,6 @@ mailcow before 2022-05d allows a remote authenticated user to inject OS commands
 
 - [ly1g3/Mailcow-CVE-2022-31245](https://github.com/ly1g3/Mailcow-CVE-2022-31245)
 
-### CVE-2022-31269 (2022-08-25)
-
-<code>
-Nortek Linear eMerge E3-Series devices through 0.32-09c place admin credentials in /test.txt that allow an attacker to open a building's doors. (This occurs in situations where the CVE-2019-7271 default credentials have been changed.)
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31269](https://github.com/Live-Hack-CVE/CVE-2022-31269)
-
 ### CVE-2022-31294 (2022-06-16)
 
 <code>
@@ -5754,14 +5754,6 @@ Owl Labs Meeting Owl 5.2.0.15 allows attackers to deactivate the passcode protec
 </code>
 
 - [Live-Hack-CVE/CVE-2022-31461](https://github.com/Live-Hack-CVE/CVE-2022-31461)
-
-### CVE-2022-31499 (2022-08-25)
-
-<code>
-Nortek Linear eMerge E3-Series devices before 0.32-08f allow an unauthenticated attacker to inject OS commands via ReaderNo. NOTE: this issue exists because of an incomplete fix for CVE-2019-7256.
-</code>
-
-- [Live-Hack-CVE/CVE-2022-31499](https://github.com/Live-Hack-CVE/CVE-2022-31499)
 
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
@@ -10766,6 +10758,9 @@ A race condition was addressed with additional validation. This issue is fixed i
 
 - [zhuowei/WDBFontOverwrite](https://github.com/zhuowei/WDBFontOverwrite)
 - [mineek/FileManager](https://github.com/mineek/FileManager)
+
+### CVE-2022-47952
+- [MaherAzzouzi/CVE-2022-47952](https://github.com/MaherAzzouzi/CVE-2022-47952)
 
 ### CVE-2022-48194 (2022-12-30)
 
@@ -17242,14 +17237,6 @@ In the bindata RubyGem before version 2.4.10 there is a potential denial-of-serv
 
 - [Live-Hack-CVE/CVE-2021-32823](https://github.com/Live-Hack-CVE/CVE-2021-32823)
 
-### CVE-2021-32829 (2021-08-17)
-
-<code>
-ZStack is open source IaaS(infrastructure as a service) software aiming to automate datacenters, managing resources of compute, storage, and networking all by APIs. Affected versions of ZStack REST API are vulnerable to post-authentication Remote Code Execution (RCE) via bypass of the Groovy shell sandbox. The REST API exposes the GET zstack/v1/batch-queries?script endpoint which is backed up by the BatchQueryAction class. Messages are represented by the APIBatchQueryMsg, dispatched to the QueryFacadeImpl facade and handled by the BatchQuery class. The HTTP request parameter script is mapped to the APIBatchQueryMsg.script property and evaluated as a Groovy script in BatchQuery.query the evaluation of the user-controlled Groovy script is sandboxed by SandboxTransformer which will apply the restrictions defined in the registered (sandbox.register()) GroovyInterceptor. Even though the sandbox heavily restricts the receiver types to a small set of allowed types, the sandbox is non effective at controlling any code placed in Java annotations and therefore vulnerable to meta-programming escapes. This issue leads to post-authenticated remote code execution. For more details see the referenced GHSL-2021-065. This issue is patched in versions 3.8.21, 3.10.8, and 4.1.0.
-</code>
-
-- [Live-Hack-CVE/CVE-2021-32829](https://github.com/Live-Hack-CVE/CVE-2021-32829)
-
 ### CVE-2021-32862 (2022-08-18)
 
 <code>
@@ -19797,6 +19784,9 @@ An improper neutralization of input during web page generation vulnerability [CW
 </code>
 
 - [Live-Hack-CVE/CVE-2021-43080](https://github.com/Live-Hack-CVE/CVE-2021-43080)
+
+### CVE-2021-43150
+- [Zeyad-Azima/OpayForMe](https://github.com/Zeyad-Azima/OpayForMe)
 
 ### CVE-2021-43309 (2022-08-24)
 
@@ -26345,6 +26335,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 </code>
 
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
+- [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
 
 ### CVE-2020-14965 (2020-06-23)
 
@@ -27625,14 +27616,6 @@ Myucms v2.2.1 contains a remote code execution (RCE) vulnerability in the compon
 </code>
 
 - [Live-Hack-CVE/CVE-2020-21652](https://github.com/Live-Hack-CVE/CVE-2020-21652)
-
-### CVE-2020-21675 (2021-08-10)
-
-<code>
-A stack-based buffer overflow in the genptk_text component in genptk.c of fig2dev 3.2.7b allows attackers to cause a denial of service (DOS) via converting a xfig file into ptk format.
-</code>
-
-- [Live-Hack-CVE/CVE-2020-21675](https://github.com/Live-Hack-CVE/CVE-2020-21675)
 
 ### CVE-2020-21784 (2021-06-24)
 
@@ -42440,6 +42423,14 @@ Eine problematische Schwachstelle wurde in email-existence ausgemacht. Hierbei g
 
 - [Live-Hack-CVE/CVE-2018-25049](https://github.com/Live-Hack-CVE/CVE-2018-25049)
 
+### CVE-2018-25061 (2022-12-31)
+
+<code>
+Eine Schwachstelle wurde in rgb2hex bis 0.1.5 ausgemacht. Sie wurde als problematisch eingestuft. Es geht hierbei um eine nicht näher spezifizierte Funktion. Dank der Manipulation mit unbekannten Daten kann eine inefficient regular expression complexity-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Ein Aktualisieren auf die Version 0.1.6 vermag dieses Problem zu lösen. Der Patch wird als 9e0c38594432edfa64136fdf7bb651835e17c34f bezeichnet. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [Live-Hack-CVE/CVE-2018-25061](https://github.com/Live-Hack-CVE/CVE-2018-25061)
+
 ### CVE-2018-1000001 (2018-01-31)
 
 <code>
@@ -46573,6 +46564,14 @@ Eine problematische Schwachstelle wurde in rf Keynote bis 0.x ausgemacht. Dies b
 </code>
 
 - [Live-Hack-CVE/CVE-2017-20159](https://github.com/Live-Hack-CVE/CVE-2017-20159)
+
+### CVE-2017-20160 (2022-12-31)
+
+<code>
+Es wurde eine Schwachstelle in flitto express-param bis 0.x ausgemacht. Sie wurde als kritisch eingestuft. Betroffen hiervon ist ein unbekannter Ablauf der Datei lib/fetchParams.js. Durch das Beeinflussen mit unbekannten Daten kann eine improper handling of extra parameters-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Ein Aktualisieren auf die Version 1.0.0 vermag dieses Problem zu lösen. Der Patch wird als db94f7391ad0a16dcfcba8b9be1af385b25c42db bezeichnet. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [Live-Hack-CVE/CVE-2017-20160](https://github.com/Live-Hack-CVE/CVE-2017-20160)
 
 ### CVE-2017-98505
 - [mike-williams/Struts2Vuln](https://github.com/mike-williams/Struts2Vuln)
@@ -52773,6 +52772,14 @@ In Yuna Scatari TBDev bis 2.1.17 wurde eine Schwachstelle gefunden. Sie wurde al
 
 - [Live-Hack-CVE/CVE-2014-125027](https://github.com/Live-Hack-CVE/CVE-2014-125027)
 
+### CVE-2014-125028 (2022-12-31)
+
+<code>
+Eine Schwachstelle wurde in valtech IDP Test Client gefunden. Sie wurde als problematisch eingestuft. Betroffen davon ist ein unbekannter Prozess der Datei python-flask/main.py. Durch Manipulieren mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Patch wird als f1e7b3d431c8681ec46445557125890c14fa295f bezeichnet. Als bestmögliche Massnahme wird Patching empfohlen.
+</code>
+
+- [Live-Hack-CVE/CVE-2014-125028](https://github.com/Live-Hack-CVE/CVE-2014-125028)
+
 
 ## 2013
 ### CVE-2013-0156 (2013-01-13)
@@ -55733,6 +55740,14 @@ Directory traversal vulnerability in the (1) extract and (2) extractall function
 
 - [advanced-threat-research/Creosote](https://github.com/advanced-threat-research/Creosote)
 - [Ooscaar/MALW](https://github.com/Ooscaar/MALW)
+
+### CVE-2007-4560 (2007-08-27)
+
+<code>
+clamav-milter in ClamAV before 0.91.2, when run in black hole mode, allows remote attackers to execute arbitrary commands via shell metacharacters that are used in a certain popen call, involving the &quot;recipient field of sendmail.&quot;
+</code>
+
+- [0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution](https://github.com/0x1sac/ClamAV-Milter-Sendmail-0.91.2-Remote-Code-Execution)
 
 ### CVE-2007-4607 (2007-08-30)
 
