@@ -10759,7 +10759,12 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [zhuowei/WDBFontOverwrite](https://github.com/zhuowei/WDBFontOverwrite)
 - [mineek/FileManager](https://github.com/mineek/FileManager)
 
-### CVE-2022-47952
+### CVE-2022-47952 (-)
+
+<code>
+lxc-user-nic in lxc through 5.0.1 is installed setuid root, and may allow local users to infer whether any file exists, even within a protected directory tree, because &quot;Failed to open&quot; often indicates that a file does not exist, whereas &quot;does not refer to a network namespace path&quot; often indicates that a file exists. NOTE: this is different from CVE-2018-6556 because the CVE-2018-6556 fix design was based on the premise that &quot;we will report back to the user that the open() failed but the user has no way of knowing why it failed&quot;; however, in many realistic cases, there are no plausible reasons for failing except that the file does not exist.
+</code>
+
 - [MaherAzzouzi/CVE-2022-47952](https://github.com/MaherAzzouzi/CVE-2022-47952)
 
 ### CVE-2022-48194 (2022-12-30)
