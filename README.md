@@ -264,7 +264,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [Turzum/ps-lab-cve-2022-0847](https://github.com/Turzum/ps-lab-cve-2022-0847)
 - [qwert419/linux-](https://github.com/qwert419/linux-)
 - [DataFox/CVE-2022-0847](https://github.com/DataFox/CVE-2022-0847)
-- [pmihsan/-Dirty-Pipe-CVE-2022-0847](https://github.com/pmihsan/-Dirty-Pipe-CVE-2022-0847)
+- [pmihsan/Dirty-Pipe-CVE-2022-0847](https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -4868,7 +4868,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 </code>
 
 - [zhuowei/MacDirtyCowDemo](https://github.com/zhuowei/MacDirtyCowDemo)
-- [zhuowei/WDBFontOverwrite](https://github.com/zhuowei/WDBFontOverwrite)
+- [ginsudev/WDBFontOverwrite](https://github.com/ginsudev/WDBFontOverwrite)
 - [mineek/FileManager](https://github.com/mineek/FileManager)
 
 ### CVE-2022-47952 (2023-01-01)
