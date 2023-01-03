@@ -4223,7 +4223,12 @@ ProcessMaker before v3.5.4 was discovered to contain insecure permissions in the
 
 - [sornram9254/CVE-2022-38577-Processmaker](https://github.com/sornram9254/CVE-2022-38577-Processmaker)
 
-### CVE-2022-38766
+### CVE-2022-38766 (2023-01-03)
+
+<code>
+The remote keyless system on Renault ZOE 2021 vehicles sends 433.92 MHz RF signals from the same Rolling Codes set for each door-open request, which allows for a replay attack.
+</code>
+
 - [AUTOCRYPT-IVS-VnV/CVE-2022-38766](https://github.com/AUTOCRYPT-IVS-VnV/CVE-2022-38766)
 
 ### CVE-2022-38789 (2022-09-15)
@@ -4868,6 +4873,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 </code>
 
 - [zhuowei/MacDirtyCowDemo](https://github.com/zhuowei/MacDirtyCowDemo)
+- [straight-tamago/NoCameraSound](https://github.com/straight-tamago/NoCameraSound)
 - [ginsudev/WDBFontOverwrite](https://github.com/ginsudev/WDBFontOverwrite)
 - [mineek/FileManager](https://github.com/mineek/FileManager)
 
