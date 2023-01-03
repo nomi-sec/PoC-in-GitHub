@@ -146,6 +146,7 @@ The BookingPress WordPress plugin before 1.0.11 fails to properly sanitize user 
 - [destr4ct/CVE-2022-0739](https://github.com/destr4ct/CVE-2022-0739)
 - [Chris01s/CVE-2022-0739](https://github.com/Chris01s/CVE-2022-0739)
 - [BKreisel/CVE-2022-0739](https://github.com/BKreisel/CVE-2022-0739)
+- [hadrian3689/wp_bookingpress_1.0.11](https://github.com/hadrian3689/wp_bookingpress_1.0.11)
 - [Ki11i0n4ir3/CVE-2022-0739](https://github.com/Ki11i0n4ir3/CVE-2022-0739)
 
 ### CVE-2022-0778 (2022-03-15)
@@ -1551,6 +1552,7 @@ PhpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the
 
 - [jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046)
 - [dnr6419/CVE-2022-23046](https://github.com/dnr6419/CVE-2022-23046)
+- [hadrian3689/phpipam_1.4.4](https://github.com/hadrian3689/phpipam_1.4.4)
 - [bernauers/CVE-2022-23046](https://github.com/bernauers/CVE-2022-23046)
 
 ### CVE-2022-23131 (2022-01-13)
