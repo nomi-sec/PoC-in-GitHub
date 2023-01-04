@@ -2554,6 +2554,14 @@ Caphyon Ltd Advanced Installer 19.3 and earlier and many products that use the u
 
 - [gerr-re/cve-2022-27438](https://github.com/gerr-re/cve-2022-27438)
 
+### CVE-2022-27502 (2022-06-10)
+
+<code>
+RealVNC VNC Server 6.9.0 through 5.1.0 for Windows allows local privilege escalation because an installer repair operation executes %TEMP% files as SYSTEM.
+</code>
+
+- [alirezac0/CVE-2022-27502](https://github.com/alirezac0/CVE-2022-27502)
+
 ### CVE-2022-27666 (2022-03-23)
 
 <code>
