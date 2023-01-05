@@ -8287,7 +8287,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
 - [TheLastVvV/CVE-2021-41773](https://github.com/TheLastVvV/CVE-2021-41773)
 - [MazX0p/CVE-2021-41773](https://github.com/MazX0p/CVE-2021-41773)
-- [vida00/Scanner-CVE-2021-41773](https://github.com/vida00/Scanner-CVE-2021-41773)
+- [vida003/Scanner-CVE-2021-41773](https://github.com/vida003/Scanner-CVE-2021-41773)
 - [mr-exo/CVE-2021-41773](https://github.com/mr-exo/CVE-2021-41773)
 - [wolf1892/CVE-2021-41773](https://github.com/wolf1892/CVE-2021-41773)
 - [Hydragyrum/CVE-2021-41773-Playground](https://github.com/Hydragyrum/CVE-2021-41773-Playground)
