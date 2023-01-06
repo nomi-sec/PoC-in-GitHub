@@ -4723,6 +4723,14 @@ Sourcecodester Password Storage Application in PHP/OOP and MySQL 1.0 was discove
 
 - [RashidKhanPathan/CVE-2022-43117](https://github.com/RashidKhanPathan/CVE-2022-43117)
 
+### CVE-2022-43143 (2022-11-21)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Beekeeper Studio v3.6.6 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the error modal container.
+</code>
+
+- [goseungduk/beekeeper](https://github.com/goseungduk/beekeeper)
+
 ### CVE-2022-43144 (2022-11-08)
 
 <code>
@@ -4808,7 +4816,12 @@ Sourcecodester Event Registration App v1.0 was discovered to contain multiple CS
 
 - [RashidKhanPathan/CVE-2022-44830](https://github.com/RashidKhanPathan/CVE-2022-44830)
 
-### CVE-2022-44870
+### CVE-2022-44870 (2023-01-05)
+
+<code>
+A reflected cross-site scripting (XSS) vulnerability in maccms10 v2022.1000.3032 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Name parameter under the AD Management module.
+</code>
+
 - [Cedric1314/CVE-2022-44870](https://github.com/Cedric1314/CVE-2022-44870)
 
 ### CVE-2022-45025 (2022-12-06)
