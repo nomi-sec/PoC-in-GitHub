@@ -6613,6 +6613,7 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
 - [ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551)
 - [tijme/kernel-mii](https://github.com/tijme/kernel-mii)
+- [nanabingies/CVE-2021-21551](https://github.com/nanabingies/CVE-2021-21551)
 
 ### CVE-2021-21809 (2021-06-23)
 
@@ -8981,6 +8982,14 @@ Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote att
 
 - [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 - [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
+
+### CVE-2021-38003 (2021-11-23)
+
+<code>
+Inappropriate implementation in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [SpiralBL0CK/Chrome-V8-RCE-CVE-2021-38003](https://github.com/SpiralBL0CK/Chrome-V8-RCE-CVE-2021-38003)
 
 ### CVE-2021-38149 (2021-08-06)
 
@@ -20278,6 +20287,14 @@ phpIPAM 1.4 allows SQL injection via the app/admin/custom-fields/filter-result.p
 </code>
 
 - [kkirsche/CVE-2019-16692](https://github.com/kkirsche/CVE-2019-16692)
+
+### CVE-2019-16724 (2019-09-24)
+
+<code>
+File Sharing Wizard 1.5.0 allows a remote attacker to obtain arbitrary code execution by exploiting a Structured Exception Handler (SEH) based buffer overflow in an HTTP POST parameter, a similar issue to CVE-2010-2330 and CVE-2010-2331.
+</code>
+
+- [nanabingies/CVE-2019-16724](https://github.com/nanabingies/CVE-2019-16724)
 
 ### CVE-2019-16759 (2019-09-24)
 
