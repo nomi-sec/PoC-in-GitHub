@@ -1596,6 +1596,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [trhacknon/CVE-2022-23131](https://github.com/trhacknon/CVE-2022-23131)
 - [SCAMagic/CVE-2022-23131poc-exp-zabbix-](https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-)
 - [Vulnmachines/Zabbix-CVE-2022-23131](https://github.com/Vulnmachines/Zabbix-CVE-2022-23131)
+- [wr0x00/cve-2022-23131](https://github.com/wr0x00/cve-2022-23131)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -4975,6 +4976,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [mineek/FileManager](https://github.com/mineek/FileManager)
 - [straight-tamago/NoHomeBar](https://github.com/straight-tamago/NoHomeBar)
 - [straight-tamago/DockTransparent](https://github.com/straight-tamago/DockTransparent)
+- [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
 
 ### CVE-2022-47102
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
