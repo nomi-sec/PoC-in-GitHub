@@ -338,6 +338,7 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 - [APTIRAN/CVE-2022-1040](https://github.com/APTIRAN/CVE-2022-1040)
 - [jam620/Sophos-Vulnerability](https://github.com/jam620/Sophos-Vulnerability)
 - [Keith-amateur/cve-2022-1040](https://github.com/Keith-amateur/cve-2022-1040)
+- [kevinsmith96/CVE-2022-1040](https://github.com/kevinsmith96/CVE-2022-1040)
 
 ### CVE-2022-1051 (2022-05-16)
 
