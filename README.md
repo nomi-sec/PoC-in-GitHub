@@ -3154,7 +3154,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Hrishikesh7665/Follina_Exploiter_CLI](https://github.com/Hrishikesh7665/Follina_Exploiter_CLI)
 - [b401/Clickstudio-compromised-certificate](https://github.com/b401/Clickstudio-compromised-certificate)
 - [k508/CVE-2022-30190](https://github.com/k508/CVE-2022-30190)
-- [safakTamsesCS/PicusSecurity4.Week.Repo](https://github.com/safakTamsesCS/PicusSecurity4.Week.Repo)
+- [safak-tamses/PicusSecurity4.Week.Repo](https://github.com/safak-tamses/PicusSecurity4.Week.Repo)
 - [amitniz/follina_cve_2022-30190](https://github.com/amitniz/follina_cve_2022-30190)
 - [Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab](https://github.com/Abdibimantara/CVE-2022-30190-Analysis-With-LetsDefends-Lab)
 - [SrCroqueta/CVE-2022-30190_Temporary_Fix](https://github.com/SrCroqueta/CVE-2022-30190_Temporary_Fix)
@@ -4284,6 +4284,14 @@ There is a SQL injection vulnerability in ZTE MF286R. Due to insufficient valida
 </code>
 
 - [v0lp3/CVE-2022-39066](https://github.com/v0lp3/CVE-2022-39066)
+
+### CVE-2022-39073 (2023-01-06)
+
+<code>
+There is a command injection vulnerability in ZTE MF286R, Due to insufficient validation of the input parameters, an attacker could use the vulnerability to execute arbitrary commands.
+</code>
+
+- [v0lp3/CVE-2022-39073](https://github.com/v0lp3/CVE-2022-39073)
 
 ### CVE-2022-39196 (2022-09-04)
 
