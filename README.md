@@ -643,6 +643,7 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 ### CVE-2022-2602
 - [LukeGix/CVE-2022-2602](https://github.com/LukeGix/CVE-2022-2602)
 - [kiks7/CVE-2022-2602-Kernel-Exploit](https://github.com/kiks7/CVE-2022-2602-Kernel-Exploit)
+- [th3-5had0w/CVE-2022-2602-Study](https://github.com/th3-5had0w/CVE-2022-2602-Study)
 
 ### CVE-2022-2639 (2022-09-01)
 
@@ -4905,7 +4906,7 @@ A reflected cross-site scripting (XSS) vulnerability in maccms10 v2022.1000.3032
 ### CVE-2022-44877 (2023-01-05)
 
 <code>
-RESERVED An issue in the /login/index.php component of Centos Web Panel 7 before v0.9.8.1147 allows unauthenticated attackers to execute arbitrary system commands via crafted HTTP requests.
+login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metacharacters in the login parameter.
 </code>
 
 - [numanturle/CVE-2022-44877](https://github.com/numanturle/CVE-2022-44877)
