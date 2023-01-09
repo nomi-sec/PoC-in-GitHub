@@ -348,6 +348,14 @@ The WPQA Builder Plugin WordPress plugin before 5.2, used as a companion plugin 
 
 - [V35HR4J/CVE-2022-1051](https://github.com/V35HR4J/CVE-2022-1051)
 
+### CVE-2022-1068 (2022-04-01)
+
+<code>
+Modbus Tools Modbus Slave (versions 7.4.2 and prior) is vulnerable to a stack-based buffer overflow in the registration field. This may cause the program to crash when a long character string is used.
+</code>
+
+- [webraybtl/CVE-2022-1068](https://github.com/webraybtl/CVE-2022-1068)
+
 ### CVE-2022-1077 (2022-03-29)
 
 <code>
@@ -496,6 +504,14 @@ The Discy WordPress theme before 5.2 lacks CSRF checks in some AJAX actions, all
 </code>
 
 - [nb1b3k/CVE-2022-1421](https://github.com/nb1b3k/CVE-2022-1421)
+
+### CVE-2022-1444 (2022-04-23)
+
+<code>
+heap-use-after-free in GitHub repository radareorg/radare2 prior to 5.7.0. This vulnerability is capable of inducing denial of service.
+</code>
+
+- [KrungSalad/POC-CVE-2022-1444](https://github.com/KrungSalad/POC-CVE-2022-1444)
 
 ### CVE-2022-1597 (2022-06-06)
 
