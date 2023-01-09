@@ -1342,7 +1342,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [mrknow001/CVE-2022-22947](https://github.com/mrknow001/CVE-2022-22947)
 - [aodsec/CVE-2022-22947](https://github.com/aodsec/CVE-2022-22947)
 - [ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code](https://github.com/ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code)
-- [Arrnitage/CVE-2022-22947-exp](https://github.com/Arrnitage/CVE-2022-22947-exp)
+- [Arrnitage/CVE-2022-22947_exp](https://github.com/Arrnitage/CVE-2022-22947_exp)
 - [PaoPaoLong-lab/Spring-CVE-2022-22947-](https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-)
 - [michaelklaan/CVE-2022-22947-Spring-Cloud](https://github.com/michaelklaan/CVE-2022-22947-Spring-Cloud)
 - [hh-hunter/cve-2022-22947-docker](https://github.com/hh-hunter/cve-2022-22947-docker)
@@ -1598,6 +1598,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [SCAMagic/CVE-2022-23131poc-exp-zabbix-](https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-)
 - [Vulnmachines/Zabbix-CVE-2022-23131](https://github.com/Vulnmachines/Zabbix-CVE-2022-23131)
 - [wr0x00/cve-2022-23131](https://github.com/wr0x00/cve-2022-23131)
+- [Arrnitage/CVE-2022-23131_exp](https://github.com/Arrnitage/CVE-2022-23131_exp)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -3559,6 +3560,14 @@ Spring Security, versions 5.7 prior to 5.7.5 and 5.6 prior to 5.6.9 could be sus
 
 - [SpindleSec/cve-2022-31692](https://github.com/SpindleSec/cve-2022-31692)
 
+### CVE-2022-31705 (2022-12-14)
+
+<code>
+VMware ESXi, Workstation, and Fusion contain a heap out-of-bounds write vulnerability in the USB 2.0 controller (EHCI). A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host. On ESXi, the exploitation is contained within the VMX sandbox whereas, on Workstation and Fusion, this may lead to code execution on the machine where Workstation or Fusion is installed.
+</code>
+
+- [s0duku/cve-2022-31705](https://github.com/s0duku/cve-2022-31705)
+
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 - [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
@@ -3610,6 +3619,12 @@ gl-inet GL-MT300N-V2 Mango v3.212 and GL-AX1800 Flint v3.214 were discovered to 
 </code>
 
 - [gigaryte/cve-2022-31898](https://github.com/gigaryte/cve-2022-31898)
+
+### CVE-2022-31901
+- [CDACesec/CVE-2022-31901](https://github.com/CDACesec/CVE-2022-31901)
+
+### CVE-2022-31902
+- [CDACesec/CVE-2022-31902](https://github.com/CDACesec/CVE-2022-31902)
 
 ### CVE-2022-31983 (2022-06-01)
 
