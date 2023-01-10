@@ -1,5 +1,10 @@
 # PoC in GitHub
 
+## 2023
+### CVE-2023-22855
+- [patrickhener/CVE-2023-22855](https://github.com/patrickhener/CVE-2023-22855)
+
+
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
 
@@ -936,6 +941,14 @@ In navigateUpTo of Task.java, there is a possible way to launch an unexported in
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20441](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20441)
 
+### CVE-2022-20452 (2022-11-08)
+
+<code>
+In initializeFromParcelLocked of BaseBundle.java, there is a possible method arbitrary code execution due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-240138318
+</code>
+
+- [michalbednarski/LeakValue](https://github.com/michalbednarski/LeakValue)
+
 ### CVE-2022-20470 (2022-12-13)
 
 <code>
@@ -1072,6 +1085,14 @@ In audio ipi, there is a possible memory corruption due to a race condition. Thi
 </code>
 
 - [docfate111/CVE-2022-21789](https://github.com/docfate111/CVE-2022-21789)
+
+### CVE-2022-21839 (2022-01-11)
+
+<code>
+Windows Event Tracing Discretionary Access Control List Denial of Service Vulnerability.
+</code>
+
+- [lolin19/CVE-2022-21839-](https://github.com/lolin19/CVE-2022-21839-)
 
 ### CVE-2022-21877 (2022-01-11)
 
@@ -7969,6 +7990,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [thomas-osgood/CVE-2021-29447](https://github.com/thomas-osgood/CVE-2021-29447)
 - [Abdulazizalsewedy/CVE-2021-29447](https://github.com/Abdulazizalsewedy/CVE-2021-29447)
 - [Ki11i0n4ir3/CVE-2021-29447](https://github.com/Ki11i0n4ir3/CVE-2021-29447)
+- [viardant/CVE-2021-29447](https://github.com/viardant/CVE-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
 
