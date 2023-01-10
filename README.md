@@ -777,6 +777,9 @@ A vulnerability classified as problematic was found in SourceCodester Sanitizati
 ### CVE-2022-10086
 - [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
 
+### CVE-2022-10270
+- [baimaobg/sunflower_exp](https://github.com/baimaobg/sunflower_exp)
+
 ### CVE-2022-14733
 - [hkzck/CVE-2022-14733](https://github.com/hkzck/CVE-2022-14733)
 
