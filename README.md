@@ -19029,6 +19029,14 @@ mongo-express before 0.54.0 is vulnerable to Remote Code Execution via endpoints
 - [masahiro331/CVE-2019-10758](https://github.com/masahiro331/CVE-2019-10758)
 - [lp008/CVE-2019-10758](https://github.com/lp008/CVE-2019-10758)
 
+### CVE-2019-10779 (2020-01-27)
+
+<code>
+All versions of stroom:stroom-app before 5.5.12 and all versions of the 6.0.0 branch before 6.0.25 are affected by Cross-site Scripting. An attacker website is able to load the Stroom UI into a hidden iframe. Using that iframe, the attacker site can issue commands to the Stroom UI via an XSS vulnerability to take full control of the Stroom UI on behalf of the logged-in user.
+</code>
+
+- [RepublicR0K/CVE-2019-10779](https://github.com/RepublicR0K/CVE-2019-10779)
+
 ### CVE-2019-10869 (2019-05-07)
 
 <code>
