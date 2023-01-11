@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2023
-### CVE-2023-22855
-- [patrickhener/CVE-2023-22855](https://github.com/patrickhener/CVE-2023-22855)
-
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
@@ -6629,7 +6626,7 @@ XStream is a Java library to serialize objects to XML and back again. In XStream
 XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. In affected versions of XWiki Platform (and only those with the Ratings API installed), the Rating Script Service expose an API to perform SQL requests without escaping the from and where search arguments. This might lead to an SQL script injection quite easily for any user having Script rights on XWiki. The problem has been patched in XWiki 12.9RC1. The only workaround besides upgrading XWiki would be to uninstall the Ratings API in XWiki from the Extension Manager.
 </code>
 
-- [advanced-security/codeql-workshop-cve-2021-21380](https://github.com/advanced-security/codeql-workshop-cve-2021-21380)
+- [rvermeulen/codeql-workshop-cve-2021-21380](https://github.com/rvermeulen/codeql-workshop-cve-2021-21380)
 
 ### CVE-2021-21389 (2021-03-26)
 
@@ -14231,7 +14228,7 @@ QQBrowser before 10.5.3870.400 installs a Windows service TsService.exe. This fi
 The driving interface of Tesla Model 3 vehicles in any release before 2020.4.10 allows Denial of Service to occur due to improper process separation, which allows attackers to disable the speedometer, web browser, climate controls, turn signal visual and sounds, navigation, autopilot notifications, along with other miscellaneous functions from the main screen.
 </code>
 
-- [nuzzl/CVE-2020-10558](https://github.com/nuzzl/CVE-2020-10558)
+- [nullze/CVE-2020-10558](https://github.com/nullze/CVE-2020-10558)
 - [AmazingOut/Tesla-CVE-2020-10558](https://github.com/AmazingOut/Tesla-CVE-2020-10558)
 
 ### CVE-2020-10560 (2020-03-30)
