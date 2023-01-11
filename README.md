@@ -1699,6 +1699,14 @@ A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of Ta
 
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
 
+### CVE-2022-23529 (2022-12-21)
+
+<code>
+node-jsonwebtoken is a JsonWebToken implementation for node.js. For versions `&lt;= 8.5.1` of `jsonwebtoken` library, if a malicious actor has the ability to modify the key retrieval parameter (referring to the `secretOrPublicKey` argument from the readme link of the `jwt.verify()` function, they can write arbitrary files on the host machine. Users are affected only if untrusted entities are allowed to modify the key retrieval parameter of the `jwt.verify()` on a host that you control. This issue has been fixed, please update to version 9.0.0.
+</code>
+
+- [despossivel/CVE-2022-23529-lab](https://github.com/despossivel/CVE-2022-23529-lab)
+
 ### CVE-2022-23614 (2022-02-04)
 
 <code>
@@ -5019,6 +5027,12 @@ Certain Linear eMerge E3-Series devices are vulnerable to XSS via the type param
 </code>
 
 - [amitlttwo/CVE-2022-46381](https://github.com/amitlttwo/CVE-2022-46381)
+
+### CVE-2022-46484
+- [WodenSec/CVE-2022-46484](https://github.com/WodenSec/CVE-2022-46484)
+
+### CVE-2022-46485
+- [WodenSec/CVE-2022-46485](https://github.com/WodenSec/CVE-2022-46485)
 
 ### CVE-2022-46622
 - [sudoninja-noob/CVE-2022-46622](https://github.com/sudoninja-noob/CVE-2022-46622)
