@@ -753,6 +753,7 @@ A buffer overrun can be triggered in X.509 certificate verification, specificall
 </code>
 
 - [plharraud/cve-2022-3786](https://github.com/plharraud/cve-2022-3786)
+- [WhatTheFuzz/openssl-fuzz](https://github.com/WhatTheFuzz/openssl-fuzz)
 
 ### CVE-2022-3942 (2022-11-11)
 
@@ -5068,6 +5069,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [mineek/FileManager](https://github.com/mineek/FileManager)
 - [straight-tamago/NoHomeBar](https://github.com/straight-tamago/NoHomeBar)
 - [straight-tamago/DockTransparent](https://github.com/straight-tamago/DockTransparent)
+- [staturnzz/sw1tch](https://github.com/staturnzz/sw1tch)
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
 
 ### CVE-2022-47102
