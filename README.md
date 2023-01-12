@@ -5071,6 +5071,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [straight-tamago/DockTransparent](https://github.com/straight-tamago/DockTransparent)
 - [staturnzz/sw1tch](https://github.com/staturnzz/sw1tch)
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
+- [BomberFish/Mandela](https://github.com/BomberFish/Mandela)
 
 ### CVE-2022-47102
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
