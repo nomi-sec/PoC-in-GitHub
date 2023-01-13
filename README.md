@@ -3249,6 +3249,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [0xAbbarhSF/FollinaXploit](https://github.com/0xAbbarhSF/FollinaXploit)
 - [kevinsmith96/Cve-2022-30190](https://github.com/kevinsmith96/Cve-2022-30190)
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
+- [3barz/Follina_Vagrant](https://github.com/3barz/Follina_Vagrant)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -4607,6 +4608,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
 - [trhacknon/CVE-2022-41082-MASS-SCANNER](https://github.com/trhacknon/CVE-2022-41082-MASS-SCANNER)
 - [notareaperbutDR34P3r/http-vuln-CVE-2022-41082](https://github.com/notareaperbutDR34P3r/http-vuln-CVE-2022-41082)
+- [sikkertech/CVE-2022-41082](https://github.com/sikkertech/CVE-2022-41082)
 - [balki97/OWASSRF-CVE-2022-41082-POC](https://github.com/balki97/OWASSRF-CVE-2022-41082-POC)
 
 ### CVE-2022-41218 (2022-09-21)
@@ -4698,6 +4700,14 @@ An attacker can cause excessive memory growth in a Go server accepting HTTP/2 re
 </code>
 
 - [domdom82/h2conn-exploit](https://github.com/domdom82/h2conn-exploit)
+
+### CVE-2022-41828 (2022-09-29)
+
+<code>
+In Amazon AWS Redshift JDBC Driver (aka amazon-redshift-jdbc-driver or redshift-jdbc42) before 2.1.0.8, the Object Factory does not check the class type when instantiating an object from a class name.
+</code>
+
+- [murataydemir/CVE-2022-41828](https://github.com/murataydemir/CVE-2022-41828)
 
 ### CVE-2022-41852
 - [Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852)
@@ -11716,6 +11726,9 @@ Tor Browser 9.0.7 on Windows 10 build 10586 is vulnerable to information disclos
 
 - [malakkf/CVE-2021-46702](https://github.com/malakkf/CVE-2021-46702)
 
+### CVE-2021-268855
+- [sikkertech/CVE-2021-268855](https://github.com/sikkertech/CVE-2021-268855)
+
 
 ## 2020
 ### CVE-2020-0001 (2020-01-08)
@@ -12419,7 +12432,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [AaronCaiii/CVE-2020-0796-POC](https://github.com/AaronCaiii/CVE-2020-0796-POC)
 - [datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796)
 - [MasterSploit/LPE---CVE-2020-0796](https://github.com/MasterSploit/LPE---CVE-2020-0796)
-- [ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796)
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 - [Opensitoo/cve-2020-0796](https://github.com/Opensitoo/cve-2020-0796)
@@ -17370,7 +17382,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [AaronCaiii/CVE-2019-0708-POC](https://github.com/AaronCaiii/CVE-2019-0708-POC)
 - [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
-- [ORCA666/CVE-2019--0708-SCANNER](https://github.com/ORCA666/CVE-2019--0708-SCANNER)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
