@@ -684,6 +684,14 @@ A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
+### CVE-2022-3317 (2022-11-01)
+
+<code>
+Insufficient validation of untrusted input in Intents in Google Chrome on Android prior to 106.0.5249.62 allowed a remote attacker to bypass navigation restrictions via a crafted HTML page. (Chromium security severity: Low)
+</code>
+
+- [hfh86/CVE-2022-3317](https://github.com/hfh86/CVE-2022-3317)
+
 ### CVE-2022-3328
 - [Mr-xn/CVE-2022-3328](https://github.com/Mr-xn/CVE-2022-3328)
 
@@ -4976,6 +4984,9 @@ A cross-site scripting (XSS) vulnerability in Book Store Management System v1.0.
 
 ### CVE-2022-45265
 - [maikroservice/CVE-2022-45265](https://github.com/maikroservice/CVE-2022-45265)
+
+### CVE-2022-45299
+- [offalltn/CVE-2022-45299](https://github.com/offalltn/CVE-2022-45299)
 
 ### CVE-2022-45451
 - [alfarom256/CVE-2022-45451](https://github.com/alfarom256/CVE-2022-45451)
@@ -15614,6 +15625,14 @@ A remote code execution vulnerability exists when the Windows TCP/IP stack impro
 - [momika233/CVE-2020-16898-exp](https://github.com/momika233/CVE-2020-16898-exp)
 - [komomon/CVE-2020-16898-EXP-POC](https://github.com/komomon/CVE-2020-16898-EXP-POC)
 - [komomon/CVE-2020-16898--EXP-POC](https://github.com/komomon/CVE-2020-16898--EXP-POC)
+
+### CVE-2020-16899 (2020-10-16)
+
+<code>
+A denial of service vulnerability exists when the Windows TCP/IP stack improperly handles ICMPv6 Router Advertisement packets, aka 'Windows TCP/IP Denial of Service Vulnerability'.
+</code>
+
+- [advanced-threat-research/CVE-2020-16899](https://github.com/advanced-threat-research/CVE-2020-16899)
 
 ### CVE-2020-16938 (2020-10-16)
 
