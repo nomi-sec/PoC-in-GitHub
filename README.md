@@ -4988,10 +4988,20 @@ Tenda W30E V1.0.1.25(633) was discovered to contain a stack overflow via the PPP
 
 - [kinderscsaa/cve-2022-45511](https://github.com/kinderscsaa/cve-2022-45511)
 
-### CVE-2022-45728
+### CVE-2022-45728 (2023-01-12)
+
+<code>
+Doctor Appointment Management System v1.0.0 was discovered to contain a cross-site scripting (XSS) vulnerability.
+</code>
+
 - [sudoninja-noob/CVE-2022-45728](https://github.com/sudoninja-noob/CVE-2022-45728)
 
-### CVE-2022-45729
+### CVE-2022-45729 (2023-01-12)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Doctor Appointment Management System v1.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Employee ID parameter.
+</code>
+
 - [sudoninja-noob/CVE-2022-45729](https://github.com/sudoninja-noob/CVE-2022-45729)
 
 ### CVE-2022-45771 (2022-12-05)
@@ -5051,10 +5061,20 @@ Certain Linear eMerge E3-Series devices are vulnerable to XSS via the type param
 ### CVE-2022-46485
 - [WodenSec/CVE-2022-46485](https://github.com/WodenSec/CVE-2022-46485)
 
-### CVE-2022-46622
+### CVE-2022-46622 (2023-01-12)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Judging Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the firstname parameter.
+</code>
+
 - [sudoninja-noob/CVE-2022-46622](https://github.com/sudoninja-noob/CVE-2022-46622)
 
-### CVE-2022-46623
+### CVE-2022-46623 (2023-01-12)
+
+<code>
+Judging Management System v1.0.0 was discovered to contain a SQL injection vulnerability via the username parameter.
+</code>
+
 - [sudoninja-noob/CVE-2022-46623](https://github.com/sudoninja-noob/CVE-2022-46623)
 
 ### CVE-2022-46689 (2022-12-15)
@@ -5073,7 +5093,12 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
 - [BomberFish/Mandela](https://github.com/BomberFish/Mandela)
 
-### CVE-2022-47102
+### CVE-2022-47102 (2023-01-12)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Student Study Center Management System V 1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
+</code>
+
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
 
 ### CVE-2022-47952 (2023-01-01)
