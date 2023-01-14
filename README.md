@@ -1230,6 +1230,14 @@ Memory corruption in Core due to improper configuration in boot remapper.
 
 - [msm8916-mainline/CVE-2022-22063](https://github.com/msm8916-mainline/CVE-2022-22063)
 
+### CVE-2022-22274 (2022-03-25)
+
+<code>
+A Stack-based buffer overflow vulnerability in the SonicOS via HTTP request allows a remote unauthenticated attacker to cause Denial of Service (DoS) or potentially results in code execution in the firewall.
+</code>
+
+- [pwneddr/Sonic_CVE-2022-22274_poc](https://github.com/pwneddr/Sonic_CVE-2022-22274_poc)
+
 ### CVE-2022-22296 (2022-01-24)
 
 <code>
