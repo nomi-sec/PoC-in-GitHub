@@ -5678,14 +5678,6 @@ In ResolverActivity, there is a possible user interaction bypass due to a tapjac
 ### CVE-2021-403
 - [rhysmcneill/CVE-2021-403](https://github.com/rhysmcneill/CVE-2021-403)
 
-### CVE-2021-1056 (2021-01-07)
-
-<code>
-NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in the kernel mode layer (nvidia.ko) in which it does not completely honor operating system file system permissions to provide GPU device-level isolation, which may lead to denial of service or information disclosure.
-</code>
-
-- [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
-
 ### CVE-2021-1480 (2021-04-08)
 
 <code>
@@ -5709,14 +5701,6 @@ A vulnerability in the Cisco Adaptive Security Device Manager (ASDM) Launcher co
 </code>
 
 - [jbaines-r7/staystaystay](https://github.com/jbaines-r7/staystaystay)
-
-### CVE-2021-1647 (2021-01-12)
-
-<code>
-Microsoft Defender Remote Code Execution Vulnerability
-</code>
-
-- [findcool/cve-2021-1647](https://github.com/findcool/cve-2021-1647)
 
 ### CVE-2021-1656 (2021-01-12)
 
@@ -5848,8 +5832,6 @@ Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Op
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
-- [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
 - [dinosn/CVE-2021-2109](https://github.com/dinosn/CVE-2021-2109)
 - [coco0x0a/CVE-2021-2109](https://github.com/coco0x0a/CVE-2021-2109)
@@ -5861,7 +5843,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.18. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 6.0 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N).
 </code>
 
-- [Sauercloud/RWCTF21-VirtualBox-61-escape](https://github.com/Sauercloud/RWCTF21-VirtualBox-61-escape)
 - [chatbottesisgmailh/Sauercloude](https://github.com/chatbottesisgmailh/Sauercloude)
 - [shi10587s/Sauercloude](https://github.com/shi10587s/Sauercloude)
 
@@ -5932,9 +5913,7 @@ Vulnerability in the MySQL Connectors product of Oracle MySQL (component: Connec
 ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties to obtain credentials for a connection to the intranet.
 </code>
 
-- [B1anda0/CVE-2021-3019](https://github.com/B1anda0/CVE-2021-3019)
 - [0xf4n9x/CVE-2021-3019](https://github.com/0xf4n9x/CVE-2021-3019)
-- [Maksim-venus/CVE-2021-3019](https://github.com/Maksim-venus/CVE-2021-3019)
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 - [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
 - [givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019)
@@ -5963,9 +5942,6 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 </code>
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
-- [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
-- [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
-- [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
 - [nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit)
 - [FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129](https://github.com/FunPhishing/Laravel-8.4.2-rce-CVE-2021-3129)
 - [zhzyker/CVE-2021-3129](https://github.com/zhzyker/CVE-2021-3129)
@@ -5979,22 +5955,6 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [hupe1980/CVE-2021-3129](https://github.com/hupe1980/CVE-2021-3129)
 - [0nion1/CVE-2021-3129](https://github.com/0nion1/CVE-2021-3129)
 - [MadExploits/Laravel-debug-Checker](https://github.com/MadExploits/Laravel-debug-Checker)
-
-### CVE-2021-3130 (2021-01-20)
-
-<code>
-Within the Open-AudIT up to version 3.5.3 application, the web interface hides SSH secrets, Windows passwords, and SNMP strings from users using HTML 'password field' obfuscation. By using Developer tools or similar, it is possible to change the obfuscation so that the credentials are visible.
-</code>
-
-- [jet-pentest/CVE-2021-3130](https://github.com/jet-pentest/CVE-2021-3130)
-
-### CVE-2021-3131 (2021-01-13)
-
-<code>
-The Web server in 1C:Enterprise 8 before 8.3.17.1851 sends base64 encoded credentials in the creds URL parameter.
-</code>
-
-- [jet-pentest/CVE-2021-3131](https://github.com/jet-pentest/CVE-2021-3131)
 
 ### CVE-2021-3138 (2021-01-13)
 
@@ -6010,10 +5970,8 @@ In Discourse 2.7.0 through beta1, a rate-limit bypass leads to a bypass of the 2
 Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based buffer overflow, which allows privilege escalation to root via &quot;sudoedit -s&quot; and a command-line argument that ends with a single backslash character.
 </code>
 
-- [mr-r3b00t/CVE-2021-3156](https://github.com/mr-r3b00t/CVE-2021-3156)
 - [nexcess/sudo_cve-2021-3156](https://github.com/nexcess/sudo_cve-2021-3156)
 - [reverse-ex/CVE-2021-3156](https://github.com/reverse-ex/CVE-2021-3156)
-- [unauth401/CVE-2021-3156](https://github.com/unauth401/CVE-2021-3156)
 - [ymrsmns/CVE-2021-3156](https://github.com/ymrsmns/CVE-2021-3156)
 - [elbee-cyber/CVE-2021-3156-PATCHER](https://github.com/elbee-cyber/CVE-2021-3156-PATCHER)
 - [kernelzeroday/CVE-2021-3156-Baron-Samedit](https://github.com/kernelzeroday/CVE-2021-3156-Baron-Samedit)
@@ -6078,14 +6036,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
-
-### CVE-2021-3164 (2021-01-21)
-
-<code>
-ChurchRota 2.6.4 is vulnerable to authenticated remote code execution. The user does not need to have file upload permission in order to upload and execute an arbitrary file via a POST request to resources.php.
-</code>
-
-- [rmccarth/cve-2021-3164](https://github.com/rmccarth/cve-2021-3164)
 
 ### CVE-2021-3165 (2021-01-26)
 
