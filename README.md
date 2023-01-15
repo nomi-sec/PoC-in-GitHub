@@ -8711,6 +8711,9 @@ fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not pro
 
 - [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
+### CVE-2021-33959
+- [lixiang957/CVE-2021-33959](https://github.com/lixiang957/CVE-2021-33959)
+
 ### CVE-2021-34045
 - [MzzdToT/CVE-2021-34045](https://github.com/MzzdToT/CVE-2021-34045)
 
@@ -8975,6 +8978,9 @@ In Kooboo CMS 2.1.1.0, it is possible to upload a remote shell (e.g., aspx) to t
 </code>
 
 - [l00neyhacker/CVE-2021-36582](https://github.com/l00neyhacker/CVE-2021-36582)
+
+### CVE-2021-36630
+- [lixiang957/CVE-2021-36630](https://github.com/lixiang957/CVE-2021-36630)
 
 ### CVE-2021-36749 (2021-09-24)
 
