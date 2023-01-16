@@ -356,7 +356,7 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 - [APTIRAN/CVE-2022-1040](https://github.com/APTIRAN/CVE-2022-1040)
 - [jam620/Sophos-Vulnerability](https://github.com/jam620/Sophos-Vulnerability)
 - [Keith-amateur/cve-2022-1040](https://github.com/Keith-amateur/cve-2022-1040)
-- [kevinsmith96/CVE-2022-1040](https://github.com/kevinsmith96/CVE-2022-1040)
+- [Evelinjohn32/CVE-2022-1040](https://github.com/Evelinjohn32/CVE-2022-1040)
 
 ### CVE-2022-1051 (2022-05-16)
 
@@ -1747,6 +1747,7 @@ node-jsonwebtoken is a JsonWebToken implementation for node.js. For versions `&l
 </code>
 
 - [despossivel/CVE-2022-23529-lab](https://github.com/despossivel/CVE-2022-23529-lab)
+- [aalex954/CVE-2022-23529-PoC](https://github.com/aalex954/CVE-2022-23529-PoC)
 
 ### CVE-2022-23614 (2022-02-04)
 
@@ -2571,7 +2572,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
-- [kevinsmith96/Cve-2022-26809](https://github.com/kevinsmith96/Cve-2022-26809)
+- [Evelinjohn32/Cve-2022-26809](https://github.com/Evelinjohn32/Cve-2022-26809)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -3256,7 +3257,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 - [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
 - [0xAbbarhSF/FollinaXploit](https://github.com/0xAbbarhSF/FollinaXploit)
-- [kevinsmith96/Cve-2022-30190](https://github.com/kevinsmith96/Cve-2022-30190)
+- [Evelinjohn32/Cve-2022-30190](https://github.com/Evelinjohn32/Cve-2022-30190)
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
 - [3barz/Follina_Vagrant](https://github.com/3barz/Follina_Vagrant)
 
@@ -6234,6 +6235,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
 - [puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493)
 - [fei9747/CVE-2021-3493](https://github.com/fei9747/CVE-2021-3493)
+- [pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493)
 
 ### CVE-2021-3560 (2022-02-16)
 
