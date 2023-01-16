@@ -5084,6 +5084,8 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [Inplex-sys/CVE-2022-46169](https://github.com/Inplex-sys/CVE-2022-46169)
 - [sAsPeCt488/CVE-2022-46169](https://github.com/sAsPeCt488/CVE-2022-46169)
 - [Anthonyc3rb3ru5/CVE-2022-46169](https://github.com/Anthonyc3rb3ru5/CVE-2022-46169)
+- [hab1b0x/CVE-2022-46169](https://github.com/hab1b0x/CVE-2022-46169)
+- [N1arut/CVE-2022-46169_POC](https://github.com/N1arut/CVE-2022-46169_POC)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -5108,6 +5110,14 @@ Certain Linear eMerge E3-Series devices are vulnerable to XSS via the type param
 </code>
 
 - [amitlttwo/CVE-2022-46381](https://github.com/amitlttwo/CVE-2022-46381)
+
+### CVE-2022-46463 (2023-01-12)
+
+<code>
+An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication.
+</code>
+
+- [wh-gov/CVE-2022-46463](https://github.com/wh-gov/CVE-2022-46463)
 
 ### CVE-2022-46484
 - [WodenSec/CVE-2022-46484](https://github.com/WodenSec/CVE-2022-46484)
