@@ -1507,6 +1507,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [trhacknon/CVE-2022-22963](https://github.com/trhacknon/CVE-2022-22963)
 - [75ACOL/CVE-2022-22963](https://github.com/75ACOL/CVE-2022-22963)
 - [dr6817/CVE-2022-22963](https://github.com/dr6817/CVE-2022-22963)
+- [iliass-dahman/CVE-2022-22963-POC](https://github.com/iliass-dahman/CVE-2022-22963-POC)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -2664,6 +2665,14 @@ Caphyon Ltd Advanced Installer 19.3 and earlier and many products that use the u
 </code>
 
 - [gerr-re/cve-2022-27438](https://github.com/gerr-re/cve-2022-27438)
+
+### CVE-2022-27499 (2022-11-11)
+
+<code>
+Premature release of resource during expected lifetime in the Intel(R) SGX SDK software may allow a privileged user to potentially enable information disclosure via local access.
+</code>
+
+- [StanPlatinum/snapshot-demo](https://github.com/StanPlatinum/snapshot-demo)
 
 ### CVE-2022-27502 (2022-06-10)
 
@@ -17427,7 +17436,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
 - [lisinan988/CVE-2019-0708-scan](https://github.com/lisinan988/CVE-2019-0708-scan)
-- [5l1v3r1/CVE-2019-0708-DOS](https://github.com/5l1v3r1/CVE-2019-0708-DOS)
 - [offensity/CVE-2019-0708](https://github.com/offensity/CVE-2019-0708)
 - [CPT-Jack-A-Castle/Haruster-CVE-2019-0708-Exploit](https://github.com/CPT-Jack-A-Castle/Haruster-CVE-2019-0708-Exploit)
 - [Ravaan21/Bluekeep-Hunter](https://github.com/Ravaan21/Bluekeep-Hunter)
@@ -17915,7 +17923,6 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [N0b1e6/CVE-2019-2725-POC](https://github.com/N0b1e6/CVE-2019-2725-POC)
 - [GGyao/weblogic_2019_2725_wls_batch](https://github.com/GGyao/weblogic_2019_2725_wls_batch)
 - [ludy-dev/Oracle-WLS-Weblogic-RCE](https://github.com/ludy-dev/Oracle-WLS-Weblogic-RCE)
-- [1stPeak/CVE-2019-2725-environment](https://github.com/1stPeak/CVE-2019-2725-environment)
 
 ### CVE-2019-2729 (2019-06-19)
 
@@ -18254,7 +18261,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
 - [k4u5h41/CVE-2019-5736](https://github.com/k4u5h41/CVE-2019-5736)
-- [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 - [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
@@ -18548,7 +18554,6 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 - [elvi7major/snap_priv_esc](https://github.com/elvi7major/snap_priv_esc)
-- [f4T1H21/dirty_sock](https://github.com/f4T1H21/dirty_sock)
 
 ### CVE-2019-7356 (2020-11-04)
 
@@ -19108,7 +19113,6 @@ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation 
 - [Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149)
 - [Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149)
 - [cloudflare/exim-cve-2019-10149-data](https://github.com/cloudflare/exim-cve-2019-10149-data)
-- [Stick-U235/CVE-2019-10149-Exploit](https://github.com/Stick-U235/CVE-2019-10149-Exploit)
 
 ### CVE-2019-10172 (2019-11-18)
 
@@ -19251,7 +19255,6 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [alokaranasinghe/cve-2019-11043](https://github.com/alokaranasinghe/cve-2019-11043)
 - [corifeo/CVE-2019-11043](https://github.com/corifeo/CVE-2019-11043)
 - [lindemer/CVE-2019-11043](https://github.com/lindemer/CVE-2019-11043)
-- [jptr218/php_hack](https://github.com/jptr218/php_hack)
 - [jas9reet/CVE-2019-11043](https://github.com/jas9reet/CVE-2019-11043)
 - [trhacknon/CVE-2019-11043](https://github.com/trhacknon/CVE-2019-11043)
 
@@ -19455,7 +19458,6 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [primebeast/CVE-2019-11932](https://github.com/primebeast/CVE-2019-11932)
 - [BadAssAiras/hello](https://github.com/BadAssAiras/hello)
 - [kal1gh0st/WhatsAppHACK-RCE](https://github.com/kal1gh0st/WhatsAppHACK-RCE)
-- [zxn1/CVE-2019-11932](https://github.com/zxn1/CVE-2019-11932)
 - [Tabni/https-github.com-awakened1712-CVE-2019-11932](https://github.com/Tabni/https-github.com-awakened1712-CVE-2019-11932)
 
 ### CVE-2019-11933 (2019-10-23)
@@ -19465,7 +19467,6 @@ A heap buffer overflow bug in libpl_droidsonroids_gif before 1.2.19, as used in 
 </code>
 
 - [NatleoJ/CVE-2019-11933](https://github.com/NatleoJ/CVE-2019-11933)
-- [KISH84172/CVE-2019-11933](https://github.com/KISH84172/CVE-2019-11933)
 
 ### CVE-2019-12086 (2019-05-17)
 
@@ -19971,14 +19972,6 @@ Use after free in WebAudio in Google Chrome prior to 78.0.3904.87 allowed a remo
 
 - [cve-2019-13720/cve-2019-13720](https://github.com/cve-2019-13720/cve-2019-13720)
 - [ChoKyuWon/CVE-2019-13720](https://github.com/ChoKyuWon/CVE-2019-13720)
-
-### CVE-2019-13764 (2019-12-10)
-
-<code>
-Type confusion in JavaScript in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-</code>
-
-- [HaboobLab/CVE-2019-13764](https://github.com/HaboobLab/CVE-2019-13764)
 
 ### CVE-2019-13956 (2019-07-18)
 
@@ -21301,7 +21294,6 @@ InfluxDB before 1.7.6 has an authentication bypass vulnerability in the authenti
 </code>
 
 - [LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933](https://github.com/LorenzoTullini/InfluxDB-Exploit-CVE-2019-20933)
-- [Hydragyrum/CVE-2019-20933](https://github.com/Hydragyrum/CVE-2019-20933)
 
 ### CVE-2019-25024 (2021-02-18)
 
