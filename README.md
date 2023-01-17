@@ -5146,6 +5146,7 @@ An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access pu
 </code>
 
 - [wh-gov/CVE-2022-46463](https://github.com/wh-gov/CVE-2022-46463)
+- [nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463)
 
 ### CVE-2022-46484
 - [WodenSec/CVE-2022-46484](https://github.com/WodenSec/CVE-2022-46484)
