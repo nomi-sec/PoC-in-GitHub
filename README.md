@@ -963,6 +963,14 @@ In btif_dm_auth_cmpl_evt of btif_dm.cc, there is a possible vulnerability in Cro
 
 - [francozappa/blur](https://github.com/francozappa/blur)
 
+### CVE-2022-20413 (2022-10-11)
+
+<code>
+In start of Threads.cpp, there is a possible way to record audio during a phone call due to a logic error in the code. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-235850634
+</code>
+
+- [pazhanivel07/frameworks_av-r33_CVE-2022-20413](https://github.com/pazhanivel07/frameworks_av-r33_CVE-2022-20413)
+
 ### CVE-2022-20441 (2022-11-08)
 
 <code>
@@ -1749,6 +1757,14 @@ node-jsonwebtoken is a JsonWebToken implementation for node.js. For versions `&l
 
 - [despossivel/CVE-2022-23529-lab](https://github.com/despossivel/CVE-2022-23529-lab)
 - [aalex954/CVE-2022-23529-PoC](https://github.com/aalex954/CVE-2022-23529-PoC)
+
+### CVE-2022-23540 (2022-12-22)
+
+<code>
+In versions `&lt;=8.5.1` of `jsonwebtoken` library, lack of algorithm definition in the `jwt.verify()` function can lead to signature validation bypass due to defaulting to the `none` algorithm for signature verification. Users are affected if you do not specify algorithms in the `jwt.verify()` function. This issue has been fixed, please update to version 9.0.0 which removes the default support for the none algorithm in the `jwt.verify()` method. There will be no impact, if you update to version 9.0.0 and you don’t need to allow for the `none` algorithm. If you need 'none' algorithm, you have to explicitly specify that in `jwt.verify()` options.
+</code>
+
+- [jsirichai/CVE-2022-23540-PoC](https://github.com/jsirichai/CVE-2022-23540-PoC)
 
 ### CVE-2022-23614 (2022-02-04)
 
@@ -4576,6 +4592,7 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [TaroballzChen/CVE-2022-40684-metasploit-scanner](https://github.com/TaroballzChen/CVE-2022-40684-metasploit-scanner)
 - [gustavorobertux/gotigate](https://github.com/gustavorobertux/gotigate)
 - [hughink/CVE-2022-40684](https://github.com/hughink/CVE-2022-40684)
+- [notareaperbutDR34P3r/CVE-2022-40684-Rust](https://github.com/notareaperbutDR34P3r/CVE-2022-40684-Rust)
 
 ### CVE-2022-40687 (2022-11-18)
 
@@ -4639,6 +4656,7 @@ BitLocker Security Feature Bypass Vulnerability.
 </code>
 
 - [halsey51013/UpdateWindowsRE-CVE-2022-41099](https://github.com/halsey51013/UpdateWindowsRE-CVE-2022-41099)
+- [o0MattE0o/CVE-2022-41099-Fix](https://github.com/o0MattE0o/CVE-2022-41099-Fix)
 
 ### CVE-2022-41218 (2022-09-21)
 
