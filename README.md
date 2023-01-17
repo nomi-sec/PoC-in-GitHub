@@ -3894,6 +3894,7 @@ The Apache Xalan Java XSLT library is vulnerable to an integer truncation issue 
 </code>
 
 - [bor8/CVE-2022-34169](https://github.com/bor8/CVE-2022-34169)
+- [flowerwind/AutoGenerateXalanPayload](https://github.com/flowerwind/AutoGenerateXalanPayload)
 
 ### CVE-2022-34265 (2022-07-04)
 
@@ -16815,6 +16816,14 @@ A reflected cross-site scripting (XSS) vulnerability exists in the TranzWare Pay
 </code>
 
 - [jet-pentest/CVE-2020-28415](https://github.com/jet-pentest/CVE-2020-28415)
+
+### CVE-2020-28478 (2021-01-19)
+
+<code>
+This affects the package gsap before 3.6.0.
+</code>
+
+- [NetJBS/CVE-2020-28478--PoC](https://github.com/NetJBS/CVE-2020-28478--PoC)
 
 ### CVE-2020-28488
 - [rafaelcintralopes/CVE-2020-28488](https://github.com/rafaelcintralopes/CVE-2020-28488)
