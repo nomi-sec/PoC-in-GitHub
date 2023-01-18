@@ -356,7 +356,7 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 - [APTIRAN/CVE-2022-1040](https://github.com/APTIRAN/CVE-2022-1040)
 - [jam620/Sophos-Vulnerability](https://github.com/jam620/Sophos-Vulnerability)
 - [Keith-amateur/cve-2022-1040](https://github.com/Keith-amateur/cve-2022-1040)
-- [Evelinjohn32/CVE-2022-1040](https://github.com/Evelinjohn32/CVE-2022-1040)
+- [Mileyadams26/CVE-2022-1040](https://github.com/Mileyadams26/CVE-2022-1040)
 
 ### CVE-2022-1051 (2022-05-16)
 
@@ -2597,7 +2597,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
-- [Evelinjohn32/Cve-2022-26809](https://github.com/Evelinjohn32/Cve-2022-26809)
+- [Mileyadams26/Cve-2022-26809](https://github.com/Mileyadams26/Cve-2022-26809)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -3298,7 +3298,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 - [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
 - [0xAbbarhSF/FollinaXploit](https://github.com/0xAbbarhSF/FollinaXploit)
-- [Evelinjohn32/Cve-2022-30190](https://github.com/Evelinjohn32/Cve-2022-30190)
+- [Mileyadams26/Cve-2022-30190](https://github.com/Mileyadams26/Cve-2022-30190)
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
 - [3barz/Follina_Vagrant](https://github.com/3barz/Follina_Vagrant)
 
@@ -5117,6 +5117,9 @@ An issue in the /api/audits component of Pwndoc v0.5.3 allows attackers to escal
 
 - [p0dalirius/CVE-2022-45771-Pwndoc-LFI-to-RCE](https://github.com/p0dalirius/CVE-2022-45771-Pwndoc-LFI-to-RCE)
 
+### CVE-2022-46104
+- [NurSec747/CVE-2022-46104---POC](https://github.com/NurSec747/CVE-2022-46104---POC)
+
 ### CVE-2022-46164 (2022-12-05)
 
 <code>
@@ -5166,7 +5169,7 @@ Certain Linear eMerge E3-Series devices are vulnerable to XSS via the type param
 ### CVE-2022-46463 (2023-01-12)
 
 <code>
-An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication.
+** DISPUTED ** An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access public and private image repositories without authentication. NOTE: the vendor's position is that this &quot;is clearly described in the documentation as a feature.&quot;
 </code>
 
 - [wh-gov/CVE-2022-46463](https://github.com/wh-gov/CVE-2022-46463)
@@ -5179,7 +5182,12 @@ An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access pu
 ### CVE-2022-46485
 - [WodenSec/CVE-2022-46485](https://github.com/WodenSec/CVE-2022-46485)
 
-### CVE-2022-46505
+### CVE-2022-46505 (2023-01-18)
+
+<code>
+An issue in MatrixSSL 4.5.1-open and earlier leads to failure to securely check the SessionID field, resulting in the misuse of an all-zero MasterSecret that can decrypt secret data.
+</code>
+
 - [SmallTown123/details-for-CVE-2022-46505](https://github.com/SmallTown123/details-for-CVE-2022-46505)
 
 ### CVE-2022-46622 (2023-01-12)
@@ -8779,7 +8787,12 @@ fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not pro
 
 - [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
-### CVE-2021-33959
+### CVE-2021-33959 (2023-01-18)
+
+<code>
+Plex media server 1.21 and before is vulnerable to ddos reflection attack via plex service.
+</code>
+
 - [lixiang957/CVE-2021-33959](https://github.com/lixiang957/CVE-2021-33959)
 
 ### CVE-2021-34045
@@ -9047,7 +9060,12 @@ In Kooboo CMS 2.1.1.0, it is possible to upload a remote shell (e.g., aspx) to t
 
 - [l00neyhacker/CVE-2021-36582](https://github.com/l00neyhacker/CVE-2021-36582)
 
-### CVE-2021-36630
+### CVE-2021-36630 (2023-01-18)
+
+<code>
+DDOS reflection amplification vulnerability in eAut module of Ruckus Wireless SmartZone controller that allows remote attackers to perform DOS attacks via crafted request.
+</code>
+
 - [lixiang957/CVE-2021-36630](https://github.com/lixiang957/CVE-2021-36630)
 
 ### CVE-2021-36749 (2021-09-24)
