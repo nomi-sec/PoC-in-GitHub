@@ -1749,6 +1749,14 @@ A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of Ta
 
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
 
+### CVE-2022-23521 (2023-01-17)
+
+<code>
+Git is distributed revision control system. gitattributes are a mechanism to allow defining attributes for paths. These attributes can be defined by adding a `.gitattributes` file to the repository, which contains a set of file patterns and the attributes that should be set for paths matching this pattern. When parsing gitattributes, multiple integer overflows can occur when there is a huge number of path patterns, a huge number of attributes for a single pattern, or when the declared attribute names are huge. These overflows can be triggered via a crafted `.gitattributes` file that may be part of the commit history. Git silently splits lines longer than 2KB when parsing gitattributes from a file, but not when parsing them from the index. Consequentially, the failure mode depends on whether the file exists in the working tree, the index or both. This integer overflow can result in arbitrary heap reads and writes, which may result in remote code execution. The problem has been patched in the versions published on 2023-01-17, going back to v2.30.7. Users are advised to upgrade. There are no known workarounds for this issue.
+</code>
+
+- [jfrog/git-crasher-poc-cve-2022-23521](https://github.com/jfrog/git-crasher-poc-cve-2022-23521)
+
 ### CVE-2022-23529 (2022-12-21)
 
 <code>
@@ -4975,8 +4983,8 @@ In Splunk Enterprise versions below 8.2.9, 8.1.12, and 9.0.2, an authenticated u
 In libexpat through 2.4.9, there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate in out-of-memory situations.
 </code>
 
-- [nidhi7598/G3_expat-2.2.6_CVE-2022-43680](https://github.com/nidhi7598/G3_expat-2.2.6_CVE-2022-43680)
-- [nidhi7598/expat_2.1.0-_CVE-2022-43680](https://github.com/nidhi7598/expat_2.1.0-_CVE-2022-43680)
+- [nidhi7598/external_expat_AOSP10_r33_CVE-2022-43680](https://github.com/nidhi7598/external_expat_AOSP10_r33_CVE-2022-43680)
+- [nidhi7598/expat_2.1.0_CVE-2022-43680](https://github.com/nidhi7598/expat_2.1.0_CVE-2022-43680)
 - [Trinadh465/external_expat-2.1.0_CVE-2022-43680](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-43680)
 - [nidhihcl/external_expat_2.1.0_CVE-2022-43680](https://github.com/nidhihcl/external_expat_2.1.0_CVE-2022-43680)
 
@@ -5163,6 +5171,7 @@ An access control issue in Harbor v1.X.X to v2.5.3 allows attackers to access pu
 
 - [wh-gov/CVE-2022-46463](https://github.com/wh-gov/CVE-2022-46463)
 - [nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463)
+- [lanqingaa/CVE-2022-46463](https://github.com/lanqingaa/CVE-2022-46463)
 
 ### CVE-2022-46484
 - [WodenSec/CVE-2022-46484](https://github.com/WodenSec/CVE-2022-46484)
