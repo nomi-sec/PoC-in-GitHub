@@ -2698,6 +2698,14 @@ RealVNC VNC Server 6.9.0 through 5.1.0 for Windows allows local privilege escala
 
 - [alirezac0/CVE-2022-27502](https://github.com/alirezac0/CVE-2022-27502)
 
+### CVE-2022-27518 (2022-12-13)
+
+<code>
+Unauthenticated remote arbitrary code execution
+</code>
+
+- [dolby360/CVE-2022-27518_POC](https://github.com/dolby360/CVE-2022-27518_POC)
+
 ### CVE-2022-27666 (2022-03-23)
 
 <code>
@@ -4833,6 +4841,14 @@ In PCTechSoft PCSecure V5.0.8.xw, use of Hard-coded Credentials in configuration
 </code>
 
 - [soy-oreocato/CVE-2022-42176](https://github.com/soy-oreocato/CVE-2022-42176)
+
+### CVE-2022-42475 (2023-01-02)
+
+<code>
+A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, 6.0.15 and earlier and FortiProxy SSL-VPN 7.2.0 through 7.2.1, 7.0.7 and earlier may allow a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests.
+</code>
+
+- [bryanster/ioc-cve-2022-42475](https://github.com/bryanster/ioc-cve-2022-42475)
 
 ### CVE-2022-42889 (2022-10-13)
 
