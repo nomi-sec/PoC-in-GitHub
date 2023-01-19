@@ -1755,7 +1755,7 @@ A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of Ta
 Git is distributed revision control system. gitattributes are a mechanism to allow defining attributes for paths. These attributes can be defined by adding a `.gitattributes` file to the repository, which contains a set of file patterns and the attributes that should be set for paths matching this pattern. When parsing gitattributes, multiple integer overflows can occur when there is a huge number of path patterns, a huge number of attributes for a single pattern, or when the declared attribute names are huge. These overflows can be triggered via a crafted `.gitattributes` file that may be part of the commit history. Git silently splits lines longer than 2KB when parsing gitattributes from a file, but not when parsing them from the index. Consequentially, the failure mode depends on whether the file exists in the working tree, the index or both. This integer overflow can result in arbitrary heap reads and writes, which may result in remote code execution. The problem has been patched in the versions published on 2023-01-17, going back to v2.30.7. Users are advised to upgrade. There are no known workarounds for this issue.
 </code>
 
-- [jfrog/git-crasher-poc-cve-2022-23521](https://github.com/jfrog/git-crasher-poc-cve-2022-23521)
+- [0xDSousa/CVE-2022-23521](https://github.com/0xDSousa/CVE-2022-23521)
 
 ### CVE-2022-23529 (2022-12-21)
 
@@ -5125,6 +5125,14 @@ An issue in the /api/audits component of Pwndoc v0.5.3 allows attackers to escal
 
 - [p0dalirius/CVE-2022-45771-Pwndoc-LFI-to-RCE](https://github.com/p0dalirius/CVE-2022-45771-Pwndoc-LFI-to-RCE)
 
+### CVE-2022-45934 (2022-11-26)
+
+<code>
+An issue was discovered in the Linux kernel through 6.0.10. l2cap_config_req in net/bluetooth/l2cap_core.c has an integer wraparound via L2CAP_CONF_REQ packets.
+</code>
+
+- [Trinadh465/linux-4.19.72_CVE-2022-45934](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934)
+
 ### CVE-2022-46104
 - [NurSec747/CVE-2022-46104---POC](https://github.com/NurSec747/CVE-2022-46104---POC)
 
@@ -5182,7 +5190,6 @@ Certain Linear eMerge E3-Series devices are vulnerable to XSS via the type param
 
 - [wh-gov/CVE-2022-46463](https://github.com/wh-gov/CVE-2022-46463)
 - [nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463)
-- [lanqingaa/CVE-2022-46463](https://github.com/lanqingaa/CVE-2022-46463)
 
 ### CVE-2022-46484
 - [WodenSec/CVE-2022-46484](https://github.com/WodenSec/CVE-2022-46484)
@@ -5245,6 +5252,15 @@ lxc-user-nic in lxc through 5.0.1 is installed setuid root, and may allow local 
 </code>
 
 - [MaherAzzouzi/CVE-2022-47952](https://github.com/MaherAzzouzi/CVE-2022-47952)
+
+### CVE-2022-47966 (2023-01-18)
+
+<code>
+Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the ManageEngine applications did not provide those protections.
+</code>
+
+- [ralph-morrinson/CVE-2022-47966-RCE-PoC](https://github.com/ralph-morrinson/CVE-2022-47966-RCE-PoC)
+- [shameem-testing/PoC-for-ME-SAML-Vulnerability](https://github.com/shameem-testing/PoC-for-ME-SAML-Vulnerability)
 
 ### CVE-2022-48194 (2022-12-30)
 
@@ -8485,6 +8501,7 @@ Webmin 1.973 is affected by Cross Site Request Forgery (CSRF) to create a privil
 Multiple path traversal vulnerabilities exist in smbserver.py in Impacket through 0.9.22. An attacker that connects to a running smbserver instance can list and write to arbitrary files via ../ directory traversal. This could potentially be abused to achieve arbitrary code execution by replacing /etc/shadow or an SSH authorized key.
 </code>
 
+- [p0dalirius/CVE-2021-31800-Impacket-SMB-Server-Arbitrary-file-read-write](https://github.com/p0dalirius/CVE-2021-31800-Impacket-SMB-Server-Arbitrary-file-read-write)
 - [Louzogh/CVE-2021-31800](https://github.com/Louzogh/CVE-2021-31800)
 
 ### CVE-2021-31805 (2022-04-12)
