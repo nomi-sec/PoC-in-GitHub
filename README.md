@@ -4331,6 +4331,14 @@ Shinken Solutions Shinken Monitoring Version 2.4.3 affected is vulnerable to Inc
 
 - [dbyio/cve-2022-37298](https://github.com/dbyio/cve-2022-37298)
 
+### CVE-2022-37332 (2022-11-21)
+
+<code>
+A use-after-free vulnerability exists in the JavaScript engine of Foxit Software's PDF Reader, version 12.0.1.12430. A specially-crafted PDF document can trigger the reuse of previously freed memory via misusing media player API, which can lead to arbitrary code execution. An attacker needs to trick the user into opening the malicious file to trigger this vulnerability. Exploitation is also possible if a user visits a specially-crafted, malicious site if the browser plugin extension is enabled.
+</code>
+
+- [SpiralBL0CK/CVE-2022-37332-RCE-](https://github.com/SpiralBL0CK/CVE-2022-37332-RCE-)
+
 ### CVE-2022-37434 (2022-08-05)
 
 <code>
@@ -10249,6 +10257,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773)
 - [n3utr1n00/CVE-2021-41773](https://github.com/n3utr1n00/CVE-2021-41773)
 - [DoTuan1/Reserch-CVE-2021-41773](https://github.com/DoTuan1/Reserch-CVE-2021-41773)
+- [bernardas/netsec-polygon](https://github.com/bernardas/netsec-polygon)
 - [CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit](https://github.com/CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit)
 - [vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773)
 - [Chocapikk/CVE-2021-41773](https://github.com/Chocapikk/CVE-2021-41773)
