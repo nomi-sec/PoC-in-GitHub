@@ -1099,6 +1099,7 @@ WordPress is a free and open-source content management system written in PHP and
 - [z92g/CVE-2022-21661](https://github.com/z92g/CVE-2022-21661)
 - [QWERTYisme/CVE-2022-21661](https://github.com/QWERTYisme/CVE-2022-21661)
 - [APTIRAN/CVE-2022-21661](https://github.com/APTIRAN/CVE-2022-21661)
+- [WellingtonEspindula/SSI-CVE-2022-21661](https://github.com/WellingtonEspindula/SSI-CVE-2022-21661)
 
 ### CVE-2022-21668 (2022-01-10)
 
@@ -3744,7 +3745,12 @@ gl-inet GL-MT300N-V2 Mango v3.212 and GL-AX1800 Flint v3.214 were discovered to 
 
 - [gigaryte/cve-2022-31898](https://github.com/gigaryte/cve-2022-31898)
 
-### CVE-2022-31901
+### CVE-2022-31901 (2023-01-19)
+
+<code>
+Buffer overflow in function Notepad_plus::addHotSpot in Notepad++ v8.4.3 and earlier allows attackers to crash the application via two crafted files.
+</code>
+
 - [CDACesec/CVE-2022-31901](https://github.com/CDACesec/CVE-2022-31901)
 
 ### CVE-2022-31902
@@ -5989,6 +5995,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 
 - [lz2y/CVE-2021-2394](https://github.com/lz2y/CVE-2021-2394)
 - [freeide/CVE-2021-2394](https://github.com/freeide/CVE-2021-2394)
+- [BabyTeam1024/CVE-2021-2394](https://github.com/BabyTeam1024/CVE-2021-2394)
 - [fasanhlieu/CVE-2021-2394](https://github.com/fasanhlieu/CVE-2021-2394)
 
 ### CVE-2021-2456 (2021-07-20)
@@ -6342,7 +6349,6 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [cpu0x00/CVE-2021-3560](https://github.com/cpu0x00/CVE-2021-3560)
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
-- [TomMalvoRiddle/CVE-2021-3560](https://github.com/TomMalvoRiddle/CVE-2021-3560)
 - [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
 - [n3onhacks/CVE-2021-3560](https://github.com/n3onhacks/CVE-2021-3560)
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
@@ -29377,6 +29383,7 @@ Multiple directory traversal vulnerabilities in (1) mod_evhost and (2) mod_simpl
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
+- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-3120 (2014-07-28)
 
