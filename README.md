@@ -17,6 +17,15 @@ Windows Backup Service Elevation of Privilege Vulnerability.
 
 - [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 
+### CVE-2023-23161
+- [rahulpatwari/CVE-2023-23161](https://github.com/rahulpatwari/CVE-2023-23161)
+
+### CVE-2023-23162
+- [rahulpatwari/CVE-2023-23162](https://github.com/rahulpatwari/CVE-2023-23162)
+
+### CVE-2023-23163
+- [rahulpatwari/CVE-2023-23163](https://github.com/rahulpatwari/CVE-2023-23163)
+
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
@@ -5139,6 +5148,7 @@ An issue was discovered in the Linux kernel through 6.0.10. l2cap_config_req in 
 
 - [nidhi7598/linux-3.0.35_CVE-2022-45934](https://github.com/nidhi7598/linux-3.0.35_CVE-2022-45934)
 - [Trinadh465/linux-4.19.72_CVE-2022-45934](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934)
+- [Trinadh465/linux-4.1.15_CVE-2022-45934](https://github.com/Trinadh465/linux-4.1.15_CVE-2022-45934)
 
 ### CVE-2022-46104
 - [NurSec747/CVE-2022-46104---POC](https://github.com/NurSec747/CVE-2022-46104---POC)
@@ -6358,6 +6368,7 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [cpu0x00/CVE-2021-3560](https://github.com/cpu0x00/CVE-2021-3560)
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
+- [TomMalvoRiddle/CVE-2021-3560](https://github.com/TomMalvoRiddle/CVE-2021-3560)
 - [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
 - [n3onhacks/CVE-2021-3560](https://github.com/n3onhacks/CVE-2021-3560)
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
@@ -8369,7 +8380,6 @@ A use after free issue was addressed with improved memory management. This issue
 
 - [kmeps4/CVEREV3](https://github.com/kmeps4/CVEREV3)
 - [Jeromeyoung/ps4_8.00_vuln_poc](https://github.com/Jeromeyoung/ps4_8.00_vuln_poc)
-- [FitTerminator/PS4-CVE-202130858](https://github.com/FitTerminator/PS4-CVE-202130858)
 
 ### CVE-2021-30860 (2021-08-24)
 
@@ -21304,7 +21314,6 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781)
 - [Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201](https://github.com/Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201)
 - [yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781)
-- [SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781)
 - [qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc)
 - [w4fz5uck5/CVE-2019-19781-CitrixRCE](https://github.com/w4fz5uck5/CVE-2019-19781-CitrixRCE)
 - [andripwn/CVE-2019-19781](https://github.com/andripwn/CVE-2019-19781)
@@ -28462,6 +28471,7 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
