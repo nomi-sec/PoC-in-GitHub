@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2023
+### CVE-2023-0179
+- [TurtleARM/CVE-2023-0179-PoC](https://github.com/TurtleARM/CVE-2023-0179-PoC)
+
 ### CVE-2023-0297 (2023-01-13)
 
 <code>
