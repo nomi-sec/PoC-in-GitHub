@@ -5148,6 +5148,9 @@ A cross-site scripting (XSS) vulnerability in Doctor Appointment Management Syst
 
 - [sudoninja-noob/CVE-2022-45729](https://github.com/sudoninja-noob/CVE-2022-45729)
 
+### CVE-2022-45770
+- [Marsel-marsel/CVE-2022-45770](https://github.com/Marsel-marsel/CVE-2022-45770)
+
 ### CVE-2022-45771 (2022-12-05)
 
 <code>
