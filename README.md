@@ -3048,6 +3048,7 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
 - [Chocapikk/CVE-2022-29455](https://github.com/Chocapikk/CVE-2022-29455)
+- [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
 
 ### CVE-2022-29464 (2022-04-18)
 
@@ -5079,6 +5080,7 @@ A reflected cross-site scripting (XSS) vulnerability in maccms10 v2022.1000.3032
 login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metacharacters in the login parameter.
 </code>
 
+- [numanturle/CVE-2022-44877](https://github.com/numanturle/CVE-2022-44877)
 - [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
 
 ### CVE-2022-45025 (2022-12-06)
@@ -5181,6 +5183,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [0xf4n9x/CVE-2022-46169](https://github.com/0xf4n9x/CVE-2022-46169)
 - [taythebot/CVE-2022-46169](https://github.com/taythebot/CVE-2022-46169)
 - [Inplex-sys/CVE-2022-46169](https://github.com/Inplex-sys/CVE-2022-46169)
+- [sAsPeCt488/CVE-2022-46169](https://github.com/sAsPeCt488/CVE-2022-46169)
 - [Anthonyc3rb3ru5/CVE-2022-46169](https://github.com/Anthonyc3rb3ru5/CVE-2022-46169)
 - [hab1b0x/CVE-2022-46169](https://github.com/hab1b0x/CVE-2022-46169)
 - [N1arut/CVE-2022-46169_POC](https://github.com/N1arut/CVE-2022-46169_POC)
@@ -5232,6 +5235,22 @@ An issue in MatrixSSL 4.5.1-open and earlier leads to failure to securely check 
 
 - [SmallTown123/details-for-CVE-2022-46505](https://github.com/SmallTown123/details-for-CVE-2022-46505)
 
+### CVE-2022-46622 (2023-01-12)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Judging Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the firstname parameter.
+</code>
+
+- [sudoninja-noob/CVE-2022-46622](https://github.com/sudoninja-noob/CVE-2022-46622)
+
+### CVE-2022-46623 (2023-01-12)
+
+<code>
+Judging Management System v1.0.0 was discovered to contain a SQL injection vulnerability via the username parameter.
+</code>
+
+- [sudoninja-noob/CVE-2022-46623](https://github.com/sudoninja-noob/CVE-2022-46623)
+
 ### CVE-2022-46689 (2022-12-15)
 
 <code>
@@ -5247,6 +5266,14 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [staturnzz/sw1tch](https://github.com/staturnzz/sw1tch)
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
 - [BomberFish/Mandela](https://github.com/BomberFish/Mandela)
+
+### CVE-2022-47102 (2023-01-12)
+
+<code>
+A cross-site scripting (XSS) vulnerability in Student Study Center Management System V 1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
+</code>
+
+- [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
 
 ### CVE-2022-47952 (2023-01-01)
 
