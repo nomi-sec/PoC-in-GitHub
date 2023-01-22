@@ -13701,7 +13701,7 @@ A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An a
 </code>
 
 - [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
-- [arafatansari/SecAssignment](https://github.com/arafatansari/SecAssignment)
+- [cryptoconman/SecAssignment](https://github.com/cryptoconman/SecAssignment)
 - [pswalia2u/CVE-2020-7246](https://github.com/pswalia2u/CVE-2020-7246)
 
 ### CVE-2020-7247 (2020-01-29)
@@ -16407,6 +16407,7 @@ The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
 - [piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213)
 - [b1ackros337/CVE-2020-25213](https://github.com/b1ackros337/CVE-2020-25213)
+- [BLY-Coder/Python-exploit-CVE-2020-25213](https://github.com/BLY-Coder/Python-exploit-CVE-2020-25213)
 
 ### CVE-2020-25223 (2020-09-24)
 
@@ -18425,7 +18426,6 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 - [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
-- [batuhan-dilek99/CVE-2019-5736](https://github.com/batuhan-dilek99/CVE-2019-5736)
 
 ### CVE-2019-5737 (2019-03-28)
 
