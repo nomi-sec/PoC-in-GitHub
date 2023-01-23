@@ -5315,6 +5315,8 @@ Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through
 - [horizon3ai/CVE-2022-47966](https://github.com/horizon3ai/CVE-2022-47966)
 - [shameem-testing/PoC-for-ME-SAML-Vulnerability](https://github.com/shameem-testing/PoC-for-ME-SAML-Vulnerability)
 - [p33d/CVE-2022-47966](https://github.com/p33d/CVE-2022-47966)
+- [Inplex-sys/CVE-2022-47966](https://github.com/Inplex-sys/CVE-2022-47966)
+- [ACE-Responder/CVE-2022-47966_checker](https://github.com/ACE-Responder/CVE-2022-47966_checker)
 
 ### CVE-2022-48194 (2022-12-30)
 
