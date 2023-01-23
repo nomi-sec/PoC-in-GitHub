@@ -4255,6 +4255,7 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [qiwentaidi/CVE-2022-36804](https://github.com/qiwentaidi/CVE-2022-36804)
 - [Jhonsonwannaa/CVE-2022-36804](https://github.com/Jhonsonwannaa/CVE-2022-36804)
 - [devengpk/CVE-2022-36804](https://github.com/devengpk/CVE-2022-36804)
+- [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
 
 ### CVE-2022-36946 (2022-07-27)
 
@@ -5094,14 +5095,6 @@ login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.
 
 - [numanturle/CVE-2022-44877](https://github.com/numanturle/CVE-2022-44877)
 - [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
-
-### CVE-2022-44900 (2022-12-06)
-
-<code>
-A directory traversal vulnerability in the SevenZipFile.extractall() function of the python library py7zr v0.20.0 and earlier allows attackers to write arbitrary files via extracting a crafted 7z file.
-</code>
-
-- [0xless/CVE-2022-44900-demo-lab](https://github.com/0xless/CVE-2022-44900-demo-lab)
 
 ### CVE-2022-45025 (2022-12-06)
 
@@ -13006,6 +12999,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [jptr218/ghostcat](https://github.com/jptr218/ghostcat)
 - [einzbernnn/CVE-2020-1938Scan](https://github.com/einzbernnn/CVE-2020-1938Scan)
 - [YounesTasra-R4z3rSw0rd/CVE-2020-1938](https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938)
+- [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 
 ### CVE-2020-1947 (2020-03-11)
 
