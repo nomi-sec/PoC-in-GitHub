@@ -2602,6 +2602,7 @@ A certificate parsing issue was addressed with improved checks. This issue is fi
 </code>
 
 - [zhuowei/CoreTrustDemo](https://github.com/zhuowei/CoreTrustDemo)
+- [vadim-a-yegorov/CVE-2022-26766-bootstrap](https://github.com/vadim-a-yegorov/CVE-2022-26766-bootstrap)
 
 ### CVE-2022-26809 (2022-04-15)
 
