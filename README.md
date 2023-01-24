@@ -45,6 +45,14 @@ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequen
 ### CVE-2023-23163
 - [rahulpatwari/CVE-2023-23163](https://github.com/rahulpatwari/CVE-2023-23163)
 
+### CVE-2023-23488 (2023-01-20)
+
+<code>
+The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an unauthenticated SQL injection vulnerability in the 'code' parameter of the '/pmpro/v1/order' REST route.
+</code>
+
+- [r3nt0n/CVE-2023-23488-PoC](https://github.com/r3nt0n/CVE-2023-23488-PoC)
+
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
@@ -5320,6 +5328,7 @@ Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through
 - [p33d/CVE-2022-47966](https://github.com/p33d/CVE-2022-47966)
 - [Inplex-sys/CVE-2022-47966](https://github.com/Inplex-sys/CVE-2022-47966)
 - [ACE-Responder/CVE-2022-47966_checker](https://github.com/ACE-Responder/CVE-2022-47966_checker)
+- [vonahisec/CVE-2022-47966-Scan](https://github.com/vonahisec/CVE-2022-47966-Scan)
 
 ### CVE-2022-48194 (2022-12-30)
 
@@ -18433,7 +18442,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 - [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
-- [GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736-](https://github.com/GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736-)
+- [GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736](https://github.com/GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736)
 
 ### CVE-2019-5737 (2019-03-28)
 
