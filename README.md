@@ -28,6 +28,14 @@ In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra argument
 
 - [n3m1dotsys/CVE-2023-22809-sudoedit-privesc](https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc)
 
+### CVE-2023-22960 (2023-01-23)
+
+<code>
+Lexmark products through 2023-01-10 have Improper Control of Interaction Frequency.
+</code>
+
+- [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
+
 ### CVE-2023-23161
 - [rahulpatwari/CVE-2023-23161](https://github.com/rahulpatwari/CVE-2023-23161)
 
@@ -305,6 +313,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [DataFox/CVE-2022-0847](https://github.com/DataFox/CVE-2022-0847)
 - [pmihsan/Dirty-Pipe-CVE-2022-0847](https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847)
 - [ajith737/Dirty-Pipe-CVE-2022-0847-POCs](https://github.com/ajith737/Dirty-Pipe-CVE-2022-0847-POCs)
+- [mutur4/CVE-2022-0847](https://github.com/mutur4/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -6627,6 +6636,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [jehovah2002/CVE-2021-4034-pwnkit](https://github.com/jehovah2002/CVE-2021-4034-pwnkit)
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
+- [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
