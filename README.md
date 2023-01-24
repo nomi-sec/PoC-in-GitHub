@@ -5282,6 +5282,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [staturnzz/sw1tch](https://github.com/staturnzz/sw1tch)
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
 - [BomberFish/Mandela](https://github.com/BomberFish/Mandela)
+- [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
 
 ### CVE-2022-47102 (2023-01-12)
 
@@ -7996,7 +7997,7 @@ Faraday Edge before 3.7 allows XSS via the network/create/ page and its network 
 An authentication brute-force protection mechanism bypass in telnetd in D-Link Router model DIR-842 firmware version 3.0.2 allows a remote attacker to circumvent the anti-brute-force cool-down delay period via a timing-based side-channel attack
 </code>
 
-- [guywhataguy/D-Link-CVE-2021-27342-exploit](https://github.com/guywhataguy/D-Link-CVE-2021-27342-exploit)
+- [mavlevin/D-Link-CVE-2021-27342-exploit](https://github.com/mavlevin/D-Link-CVE-2021-27342-exploit)
 
 ### CVE-2021-27403 (2021-02-18)
 
@@ -14006,7 +14007,7 @@ The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the 
 The bencoding parser in BitTorrent uTorrent through 3.5.5 (build 45505) misparses nested bencoded dictionaries, which allows a remote attacker to cause a denial of service.
 </code>
 
-- [guywhataguy/uTorrent-CVE-2020-8437](https://github.com/guywhataguy/uTorrent-CVE-2020-8437)
+- [mavlevin/uTorrent-CVE-2020-8437](https://github.com/mavlevin/uTorrent-CVE-2020-8437)
 
 ### CVE-2020-8512 (2020-01-31)
 
@@ -18423,6 +18424,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 - [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
+- [GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736-](https://github.com/GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736-)
 
 ### CVE-2019-5737 (2019-03-28)
 
@@ -19671,7 +19673,7 @@ An issue was discovered in SmartBear ReadyAPI through 2.8.2 and 3.0.0 and SoapUI
 A privilege escalation vulnerability exists in SolarWinds Serv-U before 15.1.7 for Linux.
 </code>
 
-- [guywhataguy/CVE-2019-12181](https://github.com/guywhataguy/CVE-2019-12181)
+- [mavlevin/CVE-2019-12181](https://github.com/mavlevin/CVE-2019-12181)
 
 ### CVE-2019-12185 (2019-05-19)
 
@@ -20823,7 +20825,7 @@ bl-kernel/security.class.php in Bludit 3.9.2 allows attackers to bypass a brute-
 A stack-based buffer overflow in the processPrivilage() function in IOS/process-general.c in nipper-ng 0.11.10 allows remote attackers (serving firewall configuration files) to achieve Remote Code Execution or Denial Of Service via a crafted file.
 </code>
 
-- [guywhataguy/CVE-2019-17424](https://github.com/guywhataguy/CVE-2019-17424)
+- [mavlevin/CVE-2019-17424](https://github.com/mavlevin/CVE-2019-17424)
 
 ### CVE-2019-17427 (2019-10-09)
 
