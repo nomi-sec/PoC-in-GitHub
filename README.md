@@ -35,6 +35,7 @@ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequen
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
+- [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
 ### CVE-2023-23161
 - [rahulpatwari/CVE-2023-23161](https://github.com/rahulpatwari/CVE-2023-23161)
@@ -52,6 +53,14 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 </code>
 
 - [r3nt0n/CVE-2023-23488-PoC](https://github.com/r3nt0n/CVE-2023-23488-PoC)
+
+### CVE-2023-24055 (2023-01-21)
+
+<code>
+** DISPUTED ** KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export trigger. NOTE: the vendor's position is that the password database is not intended to be secure against an attacker who has that level of access to the local PC.
+</code>
+
+- [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
 
 
 ## 2022
@@ -304,8 +313,6 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [ih3na/debian11-dirty_pipe-patcher](https://github.com/ih3na/debian11-dirty_pipe-patcher)
 - [greenhandatsjtu/CVE-2022-0847-Container-Escape](https://github.com/greenhandatsjtu/CVE-2022-0847-Container-Escape)
 - [flux10n/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/flux10n/CVE-2022-0847-DirtyPipe-Exploits)
-- [airbus-cert/dirtypipe-ebpf_detection](https://github.com/airbus-cert/dirtypipe-ebpf_detection)
-- [edr1412/Dirty-Pipe](https://github.com/edr1412/Dirty-Pipe)
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
 - [EagleTube/CVE-2022-0847](https://github.com/EagleTube/CVE-2022-0847)
 - [yoeelingBin/CVE-2022-0847-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape)
@@ -542,8 +549,6 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
-- [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
-- [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
 - [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
@@ -618,14 +623,6 @@ The ARMember WordPress plugin before 3.4.8 is vulnerable to account takeover (ev
 ### CVE-2022-1972
 - [randorisec/CVE-2022-1972-infoleak-PoC](https://github.com/randorisec/CVE-2022-1972-infoleak-PoC)
 
-### CVE-2022-2097 (2022-07-05)
-
-<code>
-AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of &quot;in place&quot; encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).
-</code>
-
-- [PeterThomasAwen/OpenSSLUpgrade1.1.1q-Ubuntu](https://github.com/PeterThomasAwen/OpenSSLUpgrade1.1.1q-Ubuntu)
-
 ### CVE-2022-2109
 - [Vulnmachines/oracle-weblogic-CVE-2021-2109](https://github.com/Vulnmachines/oracle-weblogic-CVE-2021-2109)
 
@@ -635,7 +632,6 @@ AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implem
 A critical issue has been discovered in GitLab affecting all versions starting from 14.0 prior to 14.10.5, 15.0 prior to 15.0.4, and 15.1 prior to 15.1.1 where an authenticated user authorized to import projects could import a maliciously crafted project leading to remote code execution.
 </code>
 
-- [safe3s/CVE-2022-2185-poc](https://github.com/safe3s/CVE-2022-2185-poc)
 - [ESUAdmin/CVE-2022-2185](https://github.com/ESUAdmin/CVE-2022-2185)
 
 ### CVE-2022-2274 (2022-07-01)
@@ -881,14 +877,6 @@ In startActivityForAttachedApplicationIfNeeded of RootWindowContainer.java, ther
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20007](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20007)
 - [pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20007](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20007)
 
-### CVE-2022-20124 (2022-06-15)
-
-<code>
-In deletePackageX of DeletePackageHelper.java, there is a possible way for a Guest user to reset pre-loaded applications for other users due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-170646036
-</code>
-
-- [nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-](https://github.com/nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-)
-
 ### CVE-2022-20126 (2022-06-15)
 
 <code>
@@ -899,30 +887,6 @@ In setScanMode of AdapterService.java, there is a possible way to enable Bluetoo
 
 ### CVE-2022-20128
 - [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
-
-### CVE-2022-20130 (2022-06-15)
-
-<code>
-In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-224314979
-</code>
-
-- [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
-
-### CVE-2022-20133 (2022-06-15)
-
-<code>
-In setDiscoverableTimeout of AdapterService.java, there is a possible bypass of user interaction due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-206807679
-</code>
-
-- [nidhi7598/packages_apps_Bluetooth_AOSP_10_r33_CVE-2022-20133](https://github.com/nidhi7598/packages_apps_Bluetooth_AOSP_10_r33_CVE-2022-20133)
-
-### CVE-2022-20135 (2022-06-15)
-
-<code>
-In writeToParcel of GateKeeperResponse.java, there is a possible parcel format mismatch. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-220303465
-</code>
-
-- [nidhi7598/frameworks_base_AOSP10_r33_CVE-2022-20135-](https://github.com/nidhi7598/frameworks_base_AOSP10_r33_CVE-2022-20135-)
 
 ### CVE-2022-20138 (2022-06-15)
 
@@ -940,7 +904,6 @@ In ACTION_MANAGED_PROFILE_PROVISIONED of DevicePolicyManagerService.java, there 
 In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possible arbitrary code execution due to parcel mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-216631962
 </code>
 
-- [Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/Satheesh575555/frameworks_base_AOSP10_r33_CVE-2022-20142)
 - [pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20142)
 
 ### CVE-2022-20186 (2022-06-15)
@@ -1102,7 +1065,6 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 - [marschall/psychic-signatures](https://github.com/marschall/psychic-signatures)
 - [Damok82/SignChecker](https://github.com/Damok82/SignChecker)
 - [fundaergn/CVE-2022-21449](https://github.com/fundaergn/CVE-2022-21449)
-- [PyterSmithDarkGhost/CVE-2022-21449-I2P-TLS-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-21449-I2P-TLS-POC)
 - [Skipper7718/CVE-2022-21449-showcase](https://github.com/Skipper7718/CVE-2022-21449-showcase)
 - [davwwwx/CVE-2022-21449](https://github.com/davwwwx/CVE-2022-21449)
 
@@ -1491,7 +1453,6 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [Wrong-pixel/CVE-2022-22947-exp](https://github.com/Wrong-pixel/CVE-2022-22947-exp)
 - [stayfoolish777/CVE-2022-22947-POC](https://github.com/stayfoolish777/CVE-2022-22947-POC)
 - [B0rn2d/Spring-Cloud-Gateway-Nacos](https://github.com/B0rn2d/Spring-Cloud-Gateway-Nacos)
-- [kmahyyg/CVE-2022-22947](https://github.com/kmahyyg/CVE-2022-22947)
 - [LY613313/CVE-2022-22947](https://github.com/LY613313/CVE-2022-22947)
 - [SiJiDo/CVE-2022-22947](https://github.com/SiJiDo/CVE-2022-22947)
 - [trhacknon/CVE-2022-22947](https://github.com/trhacknon/CVE-2022-22947)
@@ -1525,8 +1486,6 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
-- [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
-- [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
 - [Jhonsonwannaa/CVE-2022-22954](https://github.com/Jhonsonwannaa/CVE-2022-22954)
@@ -1623,8 +1582,6 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [cxzero/CVE-2022-22965-spring4shell](https://github.com/cxzero/CVE-2022-22965-spring4shell)
 - [TungLVHE163594/Spring4Shell-CVE-2022-22965](https://github.com/TungLVHE163594/Spring4Shell-CVE-2022-22965)
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
-- [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
-- [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
 - [codedsprit/CVE-2022-22965](https://github.com/codedsprit/CVE-2022-22965)
 - [iloveflag/Fast-CVE-2022-22965](https://github.com/iloveflag/Fast-CVE-2022-22965)
 - [ClemExp/CVE-2022-22965-PoC](https://github.com/ClemExp/CVE-2022-22965-PoC)
@@ -1979,14 +1936,6 @@ Cross-site scripting (XSS) via Host Header injection in PKP Open Journals System
 
 - [comrade99/CVE-2022-24181](https://github.com/comrade99/CVE-2022-24181)
 
-### CVE-2022-24342 (2022-02-25)
-
-<code>
-In JetBrains TeamCity before 2021.2.1, URL injection leading to CSRF was possible.
-</code>
-
-- [yuriisanin/CVE-2022-24342](https://github.com/yuriisanin/CVE-2022-24342)
-
 ### CVE-2022-24348 (2022-02-04)
 
 <code>
@@ -2104,7 +2053,6 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 
 - [sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit)
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
-- [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
 - [trhacknon/CVE-2022-24706-CouchDB-Exploit](https://github.com/trhacknon/CVE-2022-24706-CouchDB-Exploit)
 - [LightningGod7/CVE-2022-24706-POC](https://github.com/LightningGod7/CVE-2022-24706-POC)
 
@@ -2453,12 +2401,8 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [kh4sh3i/CVE-2022-26134](https://github.com/kh4sh3i/CVE-2022-26134)
 - [ColdFusionX/CVE-2022-26134](https://github.com/ColdFusionX/CVE-2022-26134)
 - [Luchoane/CVE-2022-26134_conFLU](https://github.com/Luchoane/CVE-2022-26134_conFLU)
-- [r1skkam/TryHackMe-Atlassian-CVE-2022-26134](https://github.com/r1skkam/TryHackMe-Atlassian-CVE-2022-26134)
 - [nxtexploit/CVE-2022-26134](https://github.com/nxtexploit/CVE-2022-26134)
-- [Debajyoti0-0/CVE-2022-26134](https://github.com/Debajyoti0-0/CVE-2022-26134)
 - [f4yd4-s3c/cve-2022-26134](https://github.com/f4yd4-s3c/cve-2022-26134)
-- [coskper-papa/CVE-2022-26134](https://github.com/coskper-papa/CVE-2022-26134)
-- [p4b3l1t0/confusploit](https://github.com/p4b3l1t0/confusploit)
 - [twoning/CVE-2022-26134-PoC](https://github.com/twoning/CVE-2022-26134-PoC)
 - [iveresk/cve-2022-26134](https://github.com/iveresk/cve-2022-26134)
 - [keven1z/CVE-2022-26134](https://github.com/keven1z/CVE-2022-26134)
@@ -2483,7 +2427,6 @@ A vulnerability in Mobile Plugin for Jira Data Center and Server allows a remote
 </code>
 
 - [assetnote/jira-mobile-ssrf-exploit](https://github.com/assetnote/jira-mobile-ssrf-exploit)
-- [safe3s/CVE-2022-26135](https://github.com/safe3s/CVE-2022-26135)
 
 ### CVE-2022-26138 (2022-07-20)
 
@@ -2604,21 +2547,12 @@ A use after free issue was addressed with improved memory management. This issue
 
 - [Dylbin/flow_divert](https://github.com/Dylbin/flow_divert)
 
-### CVE-2022-26763 (2022-05-26)
-
-<code>
-An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. A malicious application may be able to execute arbitrary code with system privileges.
-</code>
-
-- [zhuowei/PCICrash](https://github.com/zhuowei/PCICrash)
-
 ### CVE-2022-26766 (2022-05-26)
 
 <code>
 A certificate parsing issue was addressed with improved checks. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. A malicious app may be able to bypass signature validation.
 </code>
 
-- [zhuowei/CoreTrustDemo](https://github.com/zhuowei/CoreTrustDemo)
 - [vadim-a-yegorov/CVE-2022-26766-bootstrap](https://github.com/vadim-a-yegorov/CVE-2022-26766-bootstrap)
 
 ### CVE-2022-26809 (2022-04-15)
@@ -2853,7 +2787,6 @@ Cewolf in Zoho ManageEngine ADAudit Plus before 7060 is vulnerable to an unauthe
 </code>
 
 - [horizon3ai/CVE-2022-28219](https://github.com/horizon3ai/CVE-2022-28219)
-- [rbowes-r7/manageengine-auditad-cve-2022-28219](https://github.com/rbowes-r7/manageengine-auditad-cve-2022-28219)
 - [aeifkz/CVE-2022-28219-Like](https://github.com/aeifkz/CVE-2022-28219-Like)
 
 ### CVE-2022-28281 (2022-12-22)
@@ -3102,8 +3035,6 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [jimidk/Better-CVE-2022-29464](https://github.com/jimidk/Better-CVE-2022-29464)
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
 - [Blackyguy/-CVE-2022-29464](https://github.com/Blackyguy/-CVE-2022-29464)
-- [amit-pathak009/CVE-2022-29464](https://github.com/amit-pathak009/CVE-2022-29464)
-- [amit-pathak009/CVE-2022-29464-mass](https://github.com/amit-pathak009/CVE-2022-29464-mass)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
@@ -3202,7 +3133,6 @@ The documentation of Apache Tomcat 10.1.0-M1 to 10.1.0-M14, 10.0.0-M1 to 10.0.20
 </code>
 
 - [quynhlab/CVE-2022-29885](https://github.com/quynhlab/CVE-2022-29885)
-- [iveresk/CVE-2022-29885](https://github.com/iveresk/CVE-2022-29885)
 
 ### CVE-2022-29932 (2022-05-11)
 
@@ -3372,7 +3302,6 @@ Heap-based buffer overflow in sqbaselib.cpp in SQUIRREL 3.2 due to lack of a cer
 RARLAB UnRAR before 6.12 on Linux and UNIX allows directory traversal to write to files during an extract (aka unpack) operation, as demonstrated by creating a ~/.ssh/authorized_keys file. NOTE: WinRAR and Android RAR are unaffected.
 </code>
 
-- [TheL1ghtVn/CVE-2022-30333-PoC](https://github.com/TheL1ghtVn/CVE-2022-30333-PoC)
 - [rbowes-r7/unrar-cve-2022-30333-poc](https://github.com/rbowes-r7/unrar-cve-2022-30333-poc)
 - [J0hnbX/CVE-2022-30333](https://github.com/J0hnbX/CVE-2022-30333)
 - [aslitsecurity/Zimbra-CVE-2022-30333](https://github.com/aslitsecurity/Zimbra-CVE-2022-30333)
@@ -3475,14 +3404,6 @@ liblsquic/lsquic_qenc_hdl.c in LiteSpeed QUIC (aka LSQUIC) before 3.1.0 mishandl
 
 - [efchatz/HTTP3-attacks](https://github.com/efchatz/HTTP3-attacks)
 
-### CVE-2022-30594 (2022-05-12)
-
-<code>
-The Linux kernel before 5.17.2 mishandles seccomp permissions. The PTRACE_SEIZE code path allows attackers to bypass intended restrictions on setting the PT_SUSPEND_SECCOMP flag.
-</code>
-
-- [nidhi7598/linux-4.19.72_CVE-2022-30594](https://github.com/nidhi7598/linux-4.19.72_CVE-2022-30594)
-
 ### CVE-2022-30600 (2022-05-18)
 
 <code>
@@ -3509,22 +3430,6 @@ Gitea before 1.16.7 does not escape git fetch remote.
 </code>
 
 - [wuhan005/CVE-2022-30781](https://github.com/wuhan005/CVE-2022-30781)
-
-### CVE-2022-30887 (2022-05-20)
-
-<code>
-Pharmacy Management System v1.0 was discovered to contain a remote code execution (RCE) vulnerability via the component /php_action/editProductImage.php. This vulnerability allows attackers to execute arbitrary code via a crafted image file.
-</code>
-
-- [MuallimNaci/CVE-2022-30887](https://github.com/MuallimNaci/CVE-2022-30887)
-
-### CVE-2022-30929 (2022-07-06)
-
-<code>
-Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
-</code>
-
-- [nanaao/CVE-2022-30929](https://github.com/nanaao/CVE-2022-30929)
 
 ### CVE-2022-31007 (2022-05-31)
 
@@ -3733,7 +3638,6 @@ VMware ESXi, Workstation, and Fusion contain a heap out-of-bounds write vulnerab
 
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
-- [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
 
 ### CVE-2022-31793 (2022-08-04)
 
@@ -3758,14 +3662,6 @@ pfSense pfBlockerNG through 2.1.4_26 allows remote attackers to execute arbitrar
 </code>
 
 - [EvergreenCartoons/SenselessViolence](https://github.com/EvergreenCartoons/SenselessViolence)
-
-### CVE-2022-31854 (2022-07-07)
-
-<code>
-Codoforum v5.1 was discovered to contain an arbitrary file upload vulnerability via the logo change option in the admin panel.
-</code>
-
-- [Vikaran101/CVE-2022-31854](https://github.com/Vikaran101/CVE-2022-31854)
 
 ### CVE-2022-31897 (2022-06-28)
 
@@ -3957,8 +3853,6 @@ The Apache Spark UI offers the possibility to enable ACLs via the configuration 
 Apache Commons Configuration performs variable interpolation, allowing properties to be dynamically evaluated and expanded. The standard format for interpolation is &quot;${prefix:name}&quot;, where &quot;prefix&quot; is used to locate an instance of org.apache.commons.configuration2.interpol.Lookup that performs the interpolation. Starting with version 2.4 and continuing through 2.7, the set of default Lookup instances included interpolators that could result in arbitrary code execution or contact with remote servers. These lookups are: - &quot;script&quot; - execute expressions using the JVM script execution engine (javax.script) - &quot;dns&quot; - resolve dns records - &quot;url&quot; - load values from urls, including from remote servers Applications using the interpolation defaults in the affected versions may be vulnerable to remote code execution or unintentional contact with remote servers if untrusted configuration values are used. Users are recommended to upgrade to Apache Commons Configuration 2.8.0, which disables the problematic interpolators by default.
 </code>
 
-- [tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE](https://github.com/tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE)
-- [trhacknon/CVE-2022-33980-Apache-Commons-Configuration-RCE](https://github.com/trhacknon/CVE-2022-33980-Apache-Commons-Configuration-RCE)
 - [HKirito/CVE-2022-33980](https://github.com/HKirito/CVE-2022-33980)
 - [sammwyy/CVE-2022-33980-POC](https://github.com/sammwyy/CVE-2022-33980-POC)
 - [Code-971/CVE-2022-33980-EXP](https://github.com/Code-971/CVE-2022-33980-EXP)
@@ -3979,7 +3873,6 @@ An issue was discovered in Django 3.2 before 3.2.14 and 4.0 before 4.0.6. The Tr
 </code>
 
 - [aeyesec/CVE-2022-34265](https://github.com/aeyesec/CVE-2022-34265)
-- [traumatising/CVE-2022-34265](https://github.com/traumatising/CVE-2022-34265)
 - [ZhaoQi99/CVE-2022-34265](https://github.com/ZhaoQi99/CVE-2022-34265)
 - [coco0x0a/CTF_Django_CVE-2022-34265](https://github.com/coco0x0a/CTF_Django_CVE-2022-34265)
 
@@ -4092,14 +3985,6 @@ Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are v
 </code>
 
 - [viniciuspereiras/CVE-2022-35405](https://github.com/viniciuspereiras/CVE-2022-35405)
-
-### CVE-2022-35416 (2022-07-10)
-
-<code>
-H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.
-</code>
-
-- [safe3s/CVE-2022-35416](https://github.com/safe3s/CVE-2022-35416)
 
 ### CVE-2022-35500 (2022-11-22)
 
