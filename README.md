@@ -61,6 +61,7 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 </code>
 
 - [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
+- [alt3kx/CVE-2023-24055_PoC](https://github.com/alt3kx/CVE-2023-24055_PoC)
 
 
 ## 2022
@@ -552,6 +553,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
 - [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
+- [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
 - [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
@@ -2112,6 +2114,7 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 
 - [sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit)
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
+- [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
 - [trhacknon/CVE-2022-24706-CouchDB-Exploit](https://github.com/trhacknon/CVE-2022-24706-CouchDB-Exploit)
 - [LightningGod7/CVE-2022-24706-POC](https://github.com/LightningGod7/CVE-2022-24706-POC)
 
@@ -2611,12 +2614,21 @@ A use after free issue was addressed with improved memory management. This issue
 
 - [Dylbin/flow_divert](https://github.com/Dylbin/flow_divert)
 
+### CVE-2022-26763 (2022-05-26)
+
+<code>
+An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. A malicious application may be able to execute arbitrary code with system privileges.
+</code>
+
+- [zhuowei/PCICrash](https://github.com/zhuowei/PCICrash)
+
 ### CVE-2022-26766 (2022-05-26)
 
 <code>
 A certificate parsing issue was addressed with improved checks. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. A malicious app may be able to bypass signature validation.
 </code>
 
+- [zhuowei/CoreTrustDemo](https://github.com/zhuowei/CoreTrustDemo)
 - [vadim-a-yegorov/CVE-2022-26766-bootstrap](https://github.com/vadim-a-yegorov/CVE-2022-26766-bootstrap)
 
 ### CVE-2022-26809 (2022-04-15)
@@ -3473,6 +3485,14 @@ liblsquic/lsquic_qenc_hdl.c in LiteSpeed QUIC (aka LSQUIC) before 3.1.0 mishandl
 
 - [efchatz/HTTP3-attacks](https://github.com/efchatz/HTTP3-attacks)
 
+### CVE-2022-30594 (2022-05-12)
+
+<code>
+The Linux kernel before 5.17.2 mishandles seccomp permissions. The PTRACE_SEIZE code path allows attackers to bypass intended restrictions on setting the PT_SUSPEND_SECCOMP flag.
+</code>
+
+- [nidhi7598/linux-4.19.72_CVE-2022-30594](https://github.com/nidhi7598/linux-4.19.72_CVE-2022-30594)
+
 ### CVE-2022-30600 (2022-05-18)
 
 <code>
@@ -3507,6 +3527,14 @@ Pharmacy Management System v1.0 was discovered to contain a remote code executio
 </code>
 
 - [MuallimNaci/CVE-2022-30887](https://github.com/MuallimNaci/CVE-2022-30887)
+
+### CVE-2022-30929 (2022-07-06)
+
+<code>
+Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
+</code>
+
+- [nanaao/CVE-2022-30929](https://github.com/nanaao/CVE-2022-30929)
 
 ### CVE-2022-31007 (2022-05-31)
 
@@ -11411,7 +11439,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [asyzdykov/cve-2021-44228-fix-jars](https://github.com/asyzdykov/cve-2021-44228-fix-jars)
 - [NatteeSetobol/Log4JPOC](https://github.com/NatteeSetobol/Log4JPOC)
 - [BJLIYANLIANG/log4j-scanner](https://github.com/BJLIYANLIANG/log4j-scanner)
-- [0x3SC4L4T3/Apache-Log4j-POC](https://github.com/0x3SC4L4T3/Apache-Log4j-POC)
+- [badb33f/Apache-Log4j-POC](https://github.com/badb33f/Apache-Log4j-POC)
 - [TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit](https://github.com/TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit)
 - [lucab85/ansible-role-log4shell](https://github.com/lucab85/ansible-role-log4shell)
 - [grimch/log4j-CVE-2021-44228-workaround](https://github.com/grimch/log4j-CVE-2021-44228-workaround)
