@@ -3885,6 +3885,7 @@ net/netfilter/nf_tables_api.c in the Linux kernel through 5.18.1 allows a local 
 </code>
 
 - [theori-io/CVE-2022-32250-exploit](https://github.com/theori-io/CVE-2022-32250-exploit)
+- [ysanatomic/CVE-2022-32250-LPE](https://github.com/ysanatomic/CVE-2022-32250-LPE)
 
 ### CVE-2022-32532 (2022-06-28)
 
@@ -5079,7 +5080,7 @@ Insufficiently Protected Credentials in the AD/LDAP server settings in 1C-Bitrix
 ### CVE-2022-44149 (2023-01-06)
 
 <code>
-The web service on Nexxt Amp300 ARN02304U8 42.103.1.5095 devices allows remote OS command execution by placing &amp;telnetd in the JSON host field to the ping feature of the goform/sysTools component. Authentication is required.
+The web service on Nexxt Amp300 ARN02304U8 42.103.1.5095 and 80.103.2.5045 devices allows remote OS command execution by placing &amp;telnetd in the JSON host field to the ping feature of the goform/sysTools component. Authentication is required
 </code>
 
 - [yerodin/CVE-2022-44149](https://github.com/yerodin/CVE-2022-44149)
