@@ -1805,12 +1805,7 @@ Git is distributed revision control system. gitattributes are a mechanism to all
 
 - [0xDSousa/CVE-2022-23521](https://github.com/0xDSousa/CVE-2022-23521)
 
-### CVE-2022-23529 (2022-12-21)
-
-<code>
-node-jsonwebtoken is a JsonWebToken implementation for node.js. For versions `&lt;= 8.5.1` of `jsonwebtoken` library, if a malicious actor has the ability to modify the key retrieval parameter (referring to the `secretOrPublicKey` argument from the readme link of the `jwt.verify()` function, they can write arbitrary files on the host machine. Users are affected only if untrusted entities are allowed to modify the key retrieval parameter of the `jwt.verify()` on a host that you control. This issue has been fixed, please update to version 9.0.0.
-</code>
-
+### CVE-2022-23529
 - [despossivel/CVE-2022-23529-lab](https://github.com/despossivel/CVE-2022-23529-lab)
 - [aalex954/CVE-2022-23529-PoC](https://github.com/aalex954/CVE-2022-23529-PoC)
 
@@ -5333,6 +5328,9 @@ A cross-site scripting (XSS) vulnerability in Student Study Center Management Sy
 </code>
 
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
+
+### CVE-2022-47873
+- [waspthebughunter/CVE-2022-47873](https://github.com/waspthebughunter/CVE-2022-47873)
 
 ### CVE-2022-47952 (2023-01-01)
 
