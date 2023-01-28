@@ -1907,6 +1907,14 @@ There is an unquoted service path in Sherpa Connector Service (SherpaConnectorSe
 
 - [netsectuna/CVE-2022-23909](https://github.com/netsectuna/CVE-2022-23909)
 
+### CVE-2022-23935 (2022-01-25)
+
+<code>
+lib/Image/ExifTool.pm in ExifTool before 12.38 mishandles a $file =~ /\|$/ check, leading to command injection.
+</code>
+
+- [dpbe32/CVE-2022-23935-PoC-Exploit](https://github.com/dpbe32/CVE-2022-23935-PoC-Exploit)
+
 ### CVE-2022-23940 (2022-03-07)
 
 <code>
