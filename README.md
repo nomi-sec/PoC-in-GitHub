@@ -403,7 +403,7 @@ An authentication bypass vulnerability in the User Portal and Webadmin allows a 
 - [APTIRAN/CVE-2022-1040](https://github.com/APTIRAN/CVE-2022-1040)
 - [jam620/Sophos-Vulnerability](https://github.com/jam620/Sophos-Vulnerability)
 - [Keith-amateur/cve-2022-1040](https://github.com/Keith-amateur/cve-2022-1040)
-- [Mileyadams26/CVE-2022-1040](https://github.com/Mileyadams26/CVE-2022-1040)
+- [michealadams30/CVE-2022-1040](https://github.com/michealadams30/CVE-2022-1040)
 
 ### CVE-2022-1051 (2022-05-16)
 
@@ -726,6 +726,14 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository w
 </code>
 
 - [HackinKraken/CVE-2022-2650](https://github.com/HackinKraken/CVE-2022-2650)
+
+### CVE-2022-2884 (2022-10-17)
+
+<code>
+A vulnerability in GitLab CE/EE affecting all versions from 11.3.4 prior to 15.1.5, 15.2 to 15.2.3, 15.3 to 15.3 to 15.3.1 allows an an authenticated user to achieve remote code execution via the Import from GitHub API endpoint
+</code>
+
+- [m3ssap0/gitlab_rce_cve-2022-2884](https://github.com/m3ssap0/gitlab_rce_cve-2022-2884)
 
 ### CVE-2022-2992 (2022-10-17)
 
@@ -2641,7 +2649,7 @@ Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID i
 - [yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809)
 - [s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809)
 - [fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp](https://github.com/fuckjsonp/FuckJsonp-RCE-CVE-2022-26809-SQL-XSS-FuckJsonp)
-- [Mileyadams26/Cve-2022-26809](https://github.com/Mileyadams26/Cve-2022-26809)
+- [michealadams30/Cve-2022-26809](https://github.com/michealadams30/Cve-2022-26809)
 
 ### CVE-2022-26923 (2022-05-10)
 
@@ -3343,7 +3351,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 - [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
 - [0xAbbarhSF/FollinaXploit](https://github.com/0xAbbarhSF/FollinaXploit)
-- [Mileyadams26/Cve-2022-30190](https://github.com/Mileyadams26/Cve-2022-30190)
+- [michealadams30/Cve-2022-30190](https://github.com/michealadams30/Cve-2022-30190)
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
 - [3barz/Follina_Vagrant](https://github.com/3barz/Follina_Vagrant)
 
@@ -10998,6 +11006,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [trhacknon/exploit-grafana-CVE-2021-43798](https://github.com/trhacknon/exploit-grafana-CVE-2021-43798)
 - [YourKeeper/SunScope](https://github.com/YourKeeper/SunScope)
 - [Ki11i0n4ir3/CVE-2021-43798](https://github.com/Ki11i0n4ir3/CVE-2021-43798)
+- [mauricelambert/LabAutomationCVE-2021-43798](https://github.com/mauricelambert/LabAutomationCVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -11364,7 +11373,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [isuruwa/Log4j](https://github.com/isuruwa/Log4j)
 - [honeynet/log4shell-data](https://github.com/honeynet/log4shell-data)
 - [inettgmbh/checkmk-log4j-scanner](https://github.com/inettgmbh/checkmk-log4j-scanner)
-- [MkTech-0-8YT3/CVE-2021-44228](https://github.com/MkTech-0-8YT3/CVE-2021-44228)
+- [b1tm0n3r/CVE-2021-44228](https://github.com/b1tm0n3r/CVE-2021-44228)
 - [VerveIndustrialProtection/CVE-2021-44228-Log4j](https://github.com/VerveIndustrialProtection/CVE-2021-44228-Log4j)
 - [alenazi90/log4j](https://github.com/alenazi90/log4j)
 - [pmontesd/log4j-cve-2021-44228](https://github.com/pmontesd/log4j-cve-2021-44228)
