@@ -20,6 +20,14 @@ Windows Backup Service Elevation of Privilege Vulnerability.
 
 - [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 
+### CVE-2023-21839 (2023-01-17)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+</code>
+
+- [fakenews2025/CVE-2023-21839](https://github.com/fakenews2025/CVE-2023-21839)
+
 ### CVE-2023-22809 (2023-01-18)
 
 <code>
@@ -8633,7 +8641,6 @@ The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to
 - [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
 - [aeyesec/CVE-2021-31805](https://github.com/aeyesec/CVE-2021-31805)
 - [fleabane1/CVE-2021-31805-POC](https://github.com/fleabane1/CVE-2021-31805-POC)
-- [z92g/CVE-2021-31805](https://github.com/z92g/CVE-2021-31805)
 
 ### CVE-2021-31856 (2021-04-28)
 
@@ -10390,7 +10397,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
 - [hab1b0x/CVE-2021-41773](https://github.com/hab1b0x/CVE-2021-41773)
 - [pwn3z/CVE-2021-41773-Apache-RCE](https://github.com/pwn3z/CVE-2021-41773-Apache-RCE)
-- [EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-](https://github.com/EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-)
 - [Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773)
 - [mightysai1997/cve-2021-41773](https://github.com/mightysai1997/cve-2021-41773)
 - [mightysai1997/CVE-2021-41773h](https://github.com/mightysai1997/CVE-2021-41773h)
@@ -12702,6 +12708,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
 - [SEHandler/CVE-2020-0796](https://github.com/SEHandler/CVE-2020-0796)
 - [TweatherQ/CVE-2020-0796](https://github.com/TweatherQ/CVE-2020-0796)
+- [krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
