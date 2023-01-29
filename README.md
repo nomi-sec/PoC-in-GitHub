@@ -70,6 +70,7 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 
 - [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
 - [alt3kx/CVE-2023-24055_PoC](https://github.com/alt3kx/CVE-2023-24055_PoC)
+- [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
 
 
 ## 2022
