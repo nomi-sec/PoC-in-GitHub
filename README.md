@@ -2401,6 +2401,7 @@ The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL 
 - [CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell](https://github.com/CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell)
 - [LordRNA/CVE-2022-25765](https://github.com/LordRNA/CVE-2022-25765)
 - [shamo0/PDFkit-CMD-Injection](https://github.com/shamo0/PDFkit-CMD-Injection)
+- [nikn0laty/PDFkit-CMD-Injection-CVE-2022-25765](https://github.com/nikn0laty/PDFkit-CMD-Injection-CVE-2022-25765)
 
 ### CVE-2022-25845 (2022-06-10)
 
@@ -8641,6 +8642,7 @@ The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to
 - [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
 - [aeyesec/CVE-2021-31805](https://github.com/aeyesec/CVE-2021-31805)
 - [fleabane1/CVE-2021-31805-POC](https://github.com/fleabane1/CVE-2021-31805-POC)
+- [z92g/CVE-2021-31805](https://github.com/z92g/CVE-2021-31805)
 
 ### CVE-2021-31856 (2021-04-28)
 
@@ -10397,6 +10399,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
 - [hab1b0x/CVE-2021-41773](https://github.com/hab1b0x/CVE-2021-41773)
 - [pwn3z/CVE-2021-41773-Apache-RCE](https://github.com/pwn3z/CVE-2021-41773-Apache-RCE)
+- [EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-](https://github.com/EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-)
 - [Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773)
 - [mightysai1997/cve-2021-41773](https://github.com/mightysai1997/cve-2021-41773)
 - [mightysai1997/CVE-2021-41773h](https://github.com/mightysai1997/CVE-2021-41773h)
