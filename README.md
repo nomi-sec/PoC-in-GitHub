@@ -1805,6 +1805,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 
 - [7BitsTeam/CVE-2022-23277](https://github.com/7BitsTeam/CVE-2022-23277)
 
+### CVE-2022-23303 (2022-01-16)
+
+<code>
+The implementations of SAE in hostapd before 2.10 and wpa_supplicant before 2.10 are vulnerable to side channel attacks as a result of cache access patterns. NOTE: this issue exists because of an incomplete fix for CVE-2019-9494.
+</code>
+
+- [skulkarni-mv/hostapd_mirror](https://github.com/skulkarni-mv/hostapd_mirror)
+
 ### CVE-2022-23305 (2022-01-18)
 
 <code>
@@ -2154,7 +2162,6 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
 - [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
 - [trhacknon/CVE-2022-24706-CouchDB-Exploit](https://github.com/trhacknon/CVE-2022-24706-CouchDB-Exploit)
-- [LightningGod7/CVE-2022-24706-POC](https://github.com/LightningGod7/CVE-2022-24706-POC)
 
 ### CVE-2022-24707 (2022-02-23)
 
@@ -5107,6 +5114,14 @@ In libexpat through 2.4.9, there is a use-after free caused by overeager destruc
 - [nidhi7598/expat_2.1.0_CVE-2022-43680](https://github.com/nidhi7598/expat_2.1.0_CVE-2022-43680)
 - [Trinadh465/external_expat-2.1.0_CVE-2022-43680](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-43680)
 - [nidhihcl/external_expat_2.1.0_CVE-2022-43680](https://github.com/nidhihcl/external_expat_2.1.0_CVE-2022-43680)
+
+### CVE-2022-43704 (2023-01-20)
+
+<code>
+The Sinilink XY-WFT1 WiFi Remote Thermostat, running firmware 1.3.6, allows an attacker to bypass the intended requirement to communicate using MQTT. It is possible to replay Sinilink aka SINILINK521 protocol (udp/1024) commands interfacing directly with the target device. This, in turn, allows for an attack to control the onboard relay without requiring authentication via the mobile application. This might result in an unacceptable temperature within the target device's physical environment.
+</code>
+
+- [9lyph/CVE-2022-43704](https://github.com/9lyph/CVE-2022-43704)
 
 ### CVE-2022-43959 (2023-01-20)
 
