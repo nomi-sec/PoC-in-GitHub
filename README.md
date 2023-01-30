@@ -5154,6 +5154,14 @@ login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.
 - [numanturle/CVE-2022-44877](https://github.com/numanturle/CVE-2022-44877)
 - [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
 
+### CVE-2022-44900 (2022-12-06)
+
+<code>
+A directory traversal vulnerability in the SevenZipFile.extractall() function of the python library py7zr v0.20.0 and earlier allows attackers to write arbitrary files via extracting a crafted 7z file.
+</code>
+
+- [0xless/CVE-2022-44900-demo-lab](https://github.com/0xless/CVE-2022-44900-demo-lab)
+
 ### CVE-2022-45025 (2022-12-06)
 
 <code>
