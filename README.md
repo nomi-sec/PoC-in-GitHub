@@ -45,6 +45,24 @@ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequen
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
 - [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
+### CVE-2023-23126
+- [l00neyhacker/CVE-2023-23126](https://github.com/l00neyhacker/CVE-2023-23126)
+
+### CVE-2023-23127
+- [l00neyhacker/CVE-2023-23127](https://github.com/l00neyhacker/CVE-2023-23127)
+
+### CVE-2023-23128
+- [l00neyhacker/CVE-2023-23128](https://github.com/l00neyhacker/CVE-2023-23128)
+
+### CVE-2023-23130
+- [l00neyhacker/CVE-2023-23130](https://github.com/l00neyhacker/CVE-2023-23130)
+
+### CVE-2023-23131
+- [l00neyhacker/CVE-2023-23131](https://github.com/l00neyhacker/CVE-2023-23131)
+
+### CVE-2023-23132
+- [l00neyhacker/CVE-2023-23132](https://github.com/l00neyhacker/CVE-2023-23132)
+
 ### CVE-2023-23161
 - [rahulpatwari/CVE-2023-23161](https://github.com/rahulpatwari/CVE-2023-23161)
 
@@ -5362,6 +5380,15 @@ A cross-site scripting (XSS) vulnerability in Student Study Center Management Sy
 </code>
 
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
+
+### CVE-2022-47714
+- [l00neyhacker/CVE-2022-47714](https://github.com/l00neyhacker/CVE-2022-47714)
+
+### CVE-2022-47715
+- [l00neyhacker/CVE-2022-47715](https://github.com/l00neyhacker/CVE-2022-47715)
+
+### CVE-2022-47717
+- [l00neyhacker/CVE-2022-47717](https://github.com/l00neyhacker/CVE-2022-47717)
 
 ### CVE-2022-47873
 - [waspthebughunter/CVE-2022-47873](https://github.com/waspthebughunter/CVE-2022-47873)
