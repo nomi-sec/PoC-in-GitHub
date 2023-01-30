@@ -45,24 +45,6 @@ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequen
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
 - [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
-### CVE-2023-23126
-- [l00neyhacker/CVE-2023-23126](https://github.com/l00neyhacker/CVE-2023-23126)
-
-### CVE-2023-23127
-- [l00neyhacker/CVE-2023-23127](https://github.com/l00neyhacker/CVE-2023-23127)
-
-### CVE-2023-23128
-- [l00neyhacker/CVE-2023-23128](https://github.com/l00neyhacker/CVE-2023-23128)
-
-### CVE-2023-23130
-- [l00neyhacker/CVE-2023-23130](https://github.com/l00neyhacker/CVE-2023-23130)
-
-### CVE-2023-23131
-- [l00neyhacker/CVE-2023-23131](https://github.com/l00neyhacker/CVE-2023-23131)
-
-### CVE-2023-23132
-- [l00neyhacker/CVE-2023-23132](https://github.com/l00neyhacker/CVE-2023-23132)
-
 ### CVE-2023-23161
 - [rahulpatwari/CVE-2023-23161](https://github.com/rahulpatwari/CVE-2023-23161)
 
@@ -2551,38 +2533,6 @@ The Atlassian Questions For Confluence app for Confluence Server and Data Center
 - [Vulnmachines/Confluence-Question-CVE-2022-26138-](https://github.com/Vulnmachines/Confluence-Question-CVE-2022-26138-)
 - [z92g/CVE-2022-26138](https://github.com/z92g/CVE-2022-26138)
 - [shavchen/CVE-2022-26138](https://github.com/shavchen/CVE-2022-26138)
-
-### CVE-2022-26155 (2022-02-28)
-
-<code>
-An issue was discovered in the web application in Cherwell Service Management (CSM) 10.2.3. XSS can occur via a payload in the SAMLResponse parameter of the HTTP request body.
-</code>
-
-- [l00neyhacker/CVE-2022-26155](https://github.com/l00neyhacker/CVE-2022-26155)
-
-### CVE-2022-26156 (2022-02-28)
-
-<code>
-An issue was discovered in the web application in Cherwell Service Management (CSM) 10.2.3. Injection of a malicious payload within the RelayState= parameter of the HTTP request body results in the hijacking of the form action. Form-action hijacking vulnerabilities arise when an application places user-supplied input into the action URL of an HTML form. An attacker can use this vulnerability to construct a URL that, if visited by another application user, will modify the action URL of a form to point to the attacker's server.
-</code>
-
-- [l00neyhacker/CVE-2022-26156](https://github.com/l00neyhacker/CVE-2022-26156)
-
-### CVE-2022-26157 (2022-02-28)
-
-<code>
-An issue was discovered in the web application in Cherwell Service Management (CSM) 10.2.3. The ASP.NET_Sessionid cookie is not protected by the Secure flag. This makes it prone to interception by an attacker if traffic is sent over unencrypted channels.
-</code>
-
-- [l00neyhacker/CVE-2022-26157](https://github.com/l00neyhacker/CVE-2022-26157)
-
-### CVE-2022-26158 (2022-02-28)
-
-<code>
-An issue was discovered in the web application in Cherwell Service Management (CSM) 10.2.3. It accepts and reflects arbitrary domains supplied via a client-controlled Host header. Injection of a malicious URL in the Host: header of the HTTP Request results in a 302 redirect to an attacker-controlled page.
-</code>
-
-- [l00neyhacker/CVE-2022-26158](https://github.com/l00neyhacker/CVE-2022-26158)
 
 ### CVE-2022-26159 (2022-02-27)
 
@@ -5395,15 +5345,6 @@ A cross-site scripting (XSS) vulnerability in Student Study Center Management Sy
 </code>
 
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
-
-### CVE-2022-47714
-- [l00neyhacker/CVE-2022-47714](https://github.com/l00neyhacker/CVE-2022-47714)
-
-### CVE-2022-47715
-- [l00neyhacker/CVE-2022-47715](https://github.com/l00neyhacker/CVE-2022-47715)
-
-### CVE-2022-47717
-- [l00neyhacker/CVE-2022-47717](https://github.com/l00neyhacker/CVE-2022-47717)
 
 ### CVE-2022-47873
 - [waspthebughunter/CVE-2022-47873](https://github.com/waspthebughunter/CVE-2022-47873)
@@ -8621,22 +8562,6 @@ Command Injection in Open PLC Webserver v3 allows remote attackers to execute ar
 
 - [h3v0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/h3v0x/CVE-2021-31630-OpenPLC_RCE)
 
-### CVE-2021-31702 (2021-05-29)
-
-<code>
-Frontier ichris through 5.18 mishandles making a DNS request for the hostname in the HTTP Host header, as demonstrated by submitting 127.0.0.1 multiple times for DoS.
-</code>
-
-- [l00neyhacker/CVE-2021-31702](https://github.com/l00neyhacker/CVE-2021-31702)
-
-### CVE-2021-31703 (2021-05-29)
-
-<code>
-Frontier ichris through 5.18 allows users to upload malicious executable files that might later be downloaded and run by any client user.
-</code>
-
-- [l00neyhacker/CVE-2021-31703](https://github.com/l00neyhacker/CVE-2021-31703)
-
 ### CVE-2021-31728 (2021-05-17)
 
 <code>
@@ -8796,14 +8721,6 @@ A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 through
 </code>
 
 - [Mesh3l911/CVE-2021-32162](https://github.com/Mesh3l911/CVE-2021-32162)
-
-### CVE-2021-32202 (2021-09-14)
-
-<code>
-In CS-Cart version 4.11.1, it is possible to induce copy-paste XSS by manipulating the &quot;post description&quot; filed in the blog post creation page.
-</code>
-
-- [l00neyhacker/CVE-2021-32202](https://github.com/l00neyhacker/CVE-2021-32202)
 
 ### CVE-2021-32399 (2021-05-10)
 
@@ -9246,22 +9163,6 @@ The CheckMK management web console (versions 1.5.0 to 2.0.0) does not sanitise u
 </code>
 
 - [Edgarloyola/CVE-2021-36563](https://github.com/Edgarloyola/CVE-2021-36563)
-
-### CVE-2021-36581 (2021-09-14)
-
-<code>
-Kooboo CMS 2.1.1.0 is vulnerable to Insecure file upload. It is possible to upload any file extension to the server. The server does not verify the extension of the file and the tester was able to upload an aspx to the server.
-</code>
-
-- [l00neyhacker/CVE-2021-36581](https://github.com/l00neyhacker/CVE-2021-36581)
-
-### CVE-2021-36582 (2021-09-14)
-
-<code>
-In Kooboo CMS 2.1.1.0, it is possible to upload a remote shell (e.g., aspx) to the server and then call upon it to receive a reverse shell from the victim server. The files are uploaded to /Content/Template/root/reverse-shell.aspx and can be simply triggered by browsing that URL.
-</code>
-
-- [l00neyhacker/CVE-2021-36582](https://github.com/l00neyhacker/CVE-2021-36582)
 
 ### CVE-2021-36630 (2023-01-18)
 
@@ -10038,22 +9939,6 @@ Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to RES
 
 - [DarkSprings/CVE-2021-40539](https://github.com/DarkSprings/CVE-2021-40539)
 - [synacktiv/CVE-2021-40539](https://github.com/synacktiv/CVE-2021-40539)
-
-### CVE-2021-40649 (2022-06-14)
-
-<code>
-In Connx Version 6.2.0.1269 (20210623), a cookie can be issued by the application and not have the HttpOnly flag set.
-</code>
-
-- [l00neyhacker/CVE-2021-40649](https://github.com/l00neyhacker/CVE-2021-40649)
-
-### CVE-2021-40650 (2022-06-14)
-
-<code>
-In Connx Version 6.2.0.1269 (20210623), a cookie can be issued by the application and not have the secure flag set.
-</code>
-
-- [l00neyhacker/CVE-2021-40650](https://github.com/l00neyhacker/CVE-2021-40650)
 
 ### CVE-2021-40822 (2022-05-01)
 
