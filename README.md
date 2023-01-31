@@ -4753,6 +4753,7 @@ BitLocker Security Feature Bypass Vulnerability.
 
 - [halsey51013/UpdateWindowsRE-CVE-2022-41099](https://github.com/halsey51013/UpdateWindowsRE-CVE-2022-41099)
 - [o0MattE0o/CVE-2022-41099-Fix](https://github.com/o0MattE0o/CVE-2022-41099-Fix)
+- [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -10592,6 +10593,7 @@ The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as param
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
 - [pierDipi/unicode-control-characters-action](https://github.com/pierDipi/unicode-control-characters-action)
 - [waseeld/CVE-2021-42574](https://github.com/waseeld/CVE-2021-42574)
+- [tin-z/solidity_CVE-2021-42574-POC](https://github.com/tin-z/solidity_CVE-2021-42574-POC)
 
 ### CVE-2021-42662 (2021-11-05)
 
