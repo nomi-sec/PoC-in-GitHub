@@ -12,6 +12,14 @@ Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 
 - [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 
+### CVE-2023-0315 (2023-01-15)
+
+<code>
+Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
+</code>
+
+- [mhaskar/CVE-2023-0315](https://github.com/mhaskar/CVE-2023-0315)
+
 ### CVE-2023-21752 (2023-01-10)
 
 <code>
@@ -71,6 +79,10 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 - [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
 - [alt3kx/CVE-2023-24055_PoC](https://github.com/alt3kx/CVE-2023-24055_PoC)
 - [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
+- [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
+
+### CVE-2023-24610
+- [abbisQQ/CVE-2023-24610](https://github.com/abbisQQ/CVE-2023-24610)
 
 
 ## 2022
@@ -1832,7 +1844,7 @@ Git is distributed revision control system. gitattributes are a mechanism to all
 
 ### CVE-2022-23529
 - [despossivel/CVE-2022-23529-lab](https://github.com/despossivel/CVE-2022-23529-lab)
-- [aalex954/CVE-2022-23529-PoC](https://github.com/aalex954/CVE-2022-23529-PoC)
+- [aalex954/CVE-2022-23529-Exploration](https://github.com/aalex954/CVE-2022-23529-Exploration)
 
 ### CVE-2022-23540 (2022-12-22)
 
