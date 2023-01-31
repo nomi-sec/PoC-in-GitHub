@@ -2579,6 +2579,14 @@ On WatchGuard Firebox and XTM appliances, an unauthenticated user can execute ar
 - [h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318](https://github.com/h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318)
 - [BabyTeam1024/CVE-2022-26318](https://github.com/BabyTeam1024/CVE-2022-26318)
 
+### CVE-2022-26485 (2022-12-22)
+
+<code>
+Removing an XSLT parameter during processing could have lead to an exploitable use-after-free. We have had reports of attacks in the wild abusing this flaw. This vulnerability affects Firefox &lt; 97.0.2, Firefox ESR &lt; 91.6.1, Firefox for Android &lt; 97.3.0, Thunderbird &lt; 91.6.2, and Focus &lt; 97.3.0.
+</code>
+
+- [mistymntncop/CVE-2022-26485](https://github.com/mistymntncop/CVE-2022-26485)
+
 ### CVE-2022-26503 (2022-03-17)
 
 <code>
@@ -9055,7 +9063,7 @@ Django 3.1.x before 3.1.13 and 3.2.x before 3.2.5 allows QuerySet.order_by SQL i
 
 - [mrlihd/CVE-2021-35042](https://github.com/mrlihd/CVE-2021-35042)
 - [r4vi/CVE-2021-35042](https://github.com/r4vi/CVE-2021-35042)
-- [n3utr1n00/CVE-2021-35042](https://github.com/n3utr1n00/CVE-2021-35042)
+- [Zh0ngS0n1337/CVE-2021-35042](https://github.com/Zh0ngS0n1337/CVE-2021-35042)
 
 ### CVE-2021-35064 (2021-07-12)
 
@@ -10337,7 +10345,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [honypot/CVE-2021-41773](https://github.com/honypot/CVE-2021-41773)
 - [Fa1c0n35/CVE-2021-41773](https://github.com/Fa1c0n35/CVE-2021-41773)
 - [puckiestyle/CVE-2021-41773](https://github.com/puckiestyle/CVE-2021-41773)
-- [n3utr1n00/CVE-2021-41773](https://github.com/n3utr1n00/CVE-2021-41773)
+- [Zh0ngS0n1337/CVE-2021-41773](https://github.com/Zh0ngS0n1337/CVE-2021-41773)
 - [DoTuan1/Reserch-CVE-2021-41773](https://github.com/DoTuan1/Reserch-CVE-2021-41773)
 - [bernardas/netsec-polygon](https://github.com/bernardas/netsec-polygon)
 - [CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit](https://github.com/CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit)
