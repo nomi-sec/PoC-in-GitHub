@@ -4026,6 +4026,14 @@ In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64
 
 - [zeroc00I/CVE-2022-34305](https://github.com/zeroc00I/CVE-2022-34305)
 
+### CVE-2022-34556 (2022-07-28)
+
+<code>
+PicoC v3.2.2 was discovered to contain a NULL pointer dereference at variable.c.
+</code>
+
+- [Halcy0nic/CVE-2022-34556](https://github.com/Halcy0nic/CVE-2022-34556)
+
 ### CVE-2022-34715 (2022-08-09)
 
 <code>
@@ -4049,6 +4057,14 @@ Windows GDI Elevation of Privilege Vulnerability.
 </code>
 
 - [Pwnrin/CVE-2022-34729](https://github.com/Pwnrin/CVE-2022-34729)
+
+### CVE-2022-34913 (2022-07-02)
+
+<code>
+** DISPUTED ** md2roff 1.7 has a stack-based buffer overflow via a Markdown file containing a large number of consecutive characters to be processed. NOTE: the vendor's position is that the product is not intended for untrusted input.
+</code>
+
+- [Halcy0nic/CVE-2022-34913](https://github.com/Halcy0nic/CVE-2022-34913)
 
 ### CVE-2022-34918 (2022-07-04)
 
@@ -4221,6 +4237,14 @@ In FiberHome VDSL2 Modem HG150-Ub_V3.0, Credentials of Admin are submitted in UR
 ### CVE-2022-36231
 - [affix/CVE-2022-36231](https://github.com/affix/CVE-2022-36231)
 
+### CVE-2022-36234 (2022-07-28)
+
+<code>
+SimpleNetwork TCP Server commit 29bc615f0d9910eb2f59aa8dff1f54f0e3af4496 was discovered to contain a double free vulnerability which is exploited via crafted TCP packets.
+</code>
+
+- [Halcy0nic/CVE-2022-36234](https://github.com/Halcy0nic/CVE-2022-36234)
+
 ### CVE-2022-36271 (2022-09-07)
 
 <code>
@@ -4278,6 +4302,14 @@ Gluu Oxauth before v4.4.1 allows attackers to execute blind SSRF (Server-Side Re
 </code>
 
 - [aqeisi/CVE-2022-36663-PoC](https://github.com/aqeisi/CVE-2022-36663-PoC)
+
+### CVE-2022-36752 (2022-07-28)
+
+<code>
+png2webp v1.0.4 was discovered to contain an out-of-bounds write via the function w2p. This vulnerability is exploitable via a crafted png file.
+</code>
+
+- [Halcy0nic/CVE-2022-36752](https://github.com/Halcy0nic/CVE-2022-36752)
 
 ### CVE-2022-36804 (2022-08-25)
 
@@ -4444,7 +4476,12 @@ enlightenment_sys in Enlightenment before 0.25.4 allows local users to gain priv
 - [MaherAzzouzi/CVE-2022-37706-LPE-exploit](https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit)
 - [ECU-10525611-Xander/CVE-2022-37706](https://github.com/ECU-10525611-Xander/CVE-2022-37706)
 
-### CVE-2022-37708
+### CVE-2022-37708 (2023-01-31)
+
+<code>
+Docker version 20.10.15, build fd82621 is vulnerable to Insecure Permissions. Unauthorized users outside the Docker container can access any files within the Docker container.
+</code>
+
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
 
 ### CVE-2022-38217
@@ -4762,6 +4799,14 @@ In drivers/media/dvb-core/dmxdev.c in the Linux kernel through 5.19.10, there is
 </code>
 
 - [V4bel/CVE-2022-41218](https://github.com/V4bel/CVE-2022-41218)
+
+### CVE-2022-41220 (2022-09-21)
+
+<code>
+** DISPUTED ** md2roff 1.9 has a stack-based buffer overflow via a Markdown file, a different vulnerability than CVE-2022-34913. NOTE: the vendor's position is that the product is not intended for untrusted input.
+</code>
+
+- [Halcy0nic/CVE-2022-41220](https://github.com/Halcy0nic/CVE-2022-41220)
 
 ### CVE-2022-41272 (2022-12-12)
 
@@ -5121,6 +5166,14 @@ Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWif
 - [JBalanza/CVE-2022-44215](https://github.com/JBalanza/CVE-2022-44215)
 - [wh-gov/CVE-2022-44215](https://github.com/wh-gov/CVE-2022-44215)
 
+### CVE-2022-44311 (2022-11-08)
+
+<code>
+html2xhtml v1.3 was discovered to contain an Out-Of-Bounds read in the function static void elm_close(tree_node_t *nodo) at procesador.c. This vulnerability allows attackers to access sensitive files or cause a Denial of Service (DoS) via a crafted html file.
+</code>
+
+- [Halcy0nic/CVE-2022-44311](https://github.com/Halcy0nic/CVE-2022-44311)
+
 ### CVE-2022-44721
 - [gmh5225/CVE-2022-44721-CsFalconUninstaller](https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller)
 
@@ -5366,7 +5419,12 @@ A cross-site scripting (XSS) vulnerability in Student Study Center Management Sy
 
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
 
-### CVE-2022-47873
+### CVE-2022-47873 (2023-01-31)
+
+<code>
+Netcad KEOS 1.0 is vulnerable to XML External Entity (XXE) resulting in SSRF with XXE (remote).
+</code>
+
 - [waspthebughunter/CVE-2022-47873](https://github.com/waspthebughunter/CVE-2022-47873)
 
 ### CVE-2022-47952 (2023-01-01)
@@ -11507,6 +11565,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [srcporter/CVE-2021-44228](https://github.com/srcporter/CVE-2021-44228)
 - [trhacknon/CVE-2021-44228-Scanner](https://github.com/trhacknon/CVE-2021-44228-Scanner)
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
+- [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -12719,14 +12778,6 @@ A denial of service vulnerability exists when Microsoft Hyper-V on a host server
 - [gerhart01/hyperv_local_dos_poc](https://github.com/gerhart01/hyperv_local_dos_poc)
 - [skasanagottu57gmailv/gerhart01](https://github.com/skasanagottu57gmailv/gerhart01)
 - [MarcelloTinocor/gerhart01](https://github.com/MarcelloTinocor/gerhart01)
-
-### CVE-2020-0910 (2020-04-15)
-
-<code>
-A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
-</code>
-
-- [kfmgang/CVE-2020-0910](https://github.com/kfmgang/CVE-2020-0910)
 
 ### CVE-2020-0976 (2020-04-15)
 
@@ -14363,7 +14414,6 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
-- [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
