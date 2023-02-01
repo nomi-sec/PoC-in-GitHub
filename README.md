@@ -2430,6 +2430,14 @@ The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization
 
 - [hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns)
 
+### CVE-2022-25927 (2023-01-25)
+
+<code>
+Versions of the package ua-parser-js from 0.7.30 and before 0.7.33, from 0.8.1 and before 1.0.33 are vulnerable to Regular Expression Denial of Service (ReDoS) via the trim() function.
+</code>
+
+- [masahiro331/cve-2022-25927](https://github.com/masahiro331/cve-2022-25927)
+
 ### CVE-2022-25943 (2022-03-08)
 
 <code>
@@ -3817,7 +3825,12 @@ Buffer overflow in function Notepad_plus::addHotSpot in Notepad++ v8.4.3 and ear
 
 - [CDACesec/CVE-2022-31901](https://github.com/CDACesec/CVE-2022-31901)
 
-### CVE-2022-31902
+### CVE-2022-31902 (2023-01-31)
+
+<code>
+Notepad++ v8.4.1 was discovered to contain a stack overflow via the component Finder::add().
+</code>
+
 - [CDACesec/CVE-2022-31902](https://github.com/CDACesec/CVE-2022-31902)
 
 ### CVE-2022-31983 (2022-06-01)
@@ -5103,6 +5116,14 @@ A cross-site scripting (XSS) vulnerability in Wondercms v3.3.4 allows attackers 
 
 - [maikroservice/CVE-2022-43332](https://github.com/maikroservice/CVE-2022-43332)
 
+### CVE-2022-43343 (2022-11-08)
+
+<code>
+N-Prolog v1.91 was discovered to contain a global buffer overflow vulnerability in the function gettoken() at Main.c.
+</code>
+
+- [Halcy0nic/CVE-2022-43343](https://github.com/Halcy0nic/CVE-2022-43343)
+
 ### CVE-2022-43369 (2022-12-06)
 
 <code>
@@ -5173,6 +5194,14 @@ html2xhtml v1.3 was discovered to contain an Out-Of-Bounds read in the function 
 </code>
 
 - [Halcy0nic/CVE-2022-44311](https://github.com/Halcy0nic/CVE-2022-44311)
+
+### CVE-2022-44318 (2022-11-08)
+
+<code>
+PicoC Version 3.2.2 was discovered to contain a heap buffer overflow in the StringStrcat function in cstdlib/string.c when called from ExpressionParseFunctionCall.
+</code>
+
+- [Halcy0nic/CVE-2022-44318](https://github.com/Halcy0nic/CVE-2022-44318)
 
 ### CVE-2022-44721
 - [gmh5225/CVE-2022-44721-CsFalconUninstaller](https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller)
@@ -5418,6 +5447,9 @@ A cross-site scripting (XSS) vulnerability in Student Study Center Management Sy
 </code>
 
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
+
+### CVE-2022-47872
+- [Cedric1314/CVE-2022-47872](https://github.com/Cedric1314/CVE-2022-47872)
 
 ### CVE-2022-47873 (2023-01-31)
 
@@ -12779,6 +12811,14 @@ A denial of service vulnerability exists when Microsoft Hyper-V on a host server
 - [skasanagottu57gmailv/gerhart01](https://github.com/skasanagottu57gmailv/gerhart01)
 - [MarcelloTinocor/gerhart01](https://github.com/MarcelloTinocor/gerhart01)
 
+### CVE-2020-0910 (2020-04-15)
+
+<code>
+A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
+</code>
+
+- [kfmgang/CVE-2020-0910](https://github.com/kfmgang/CVE-2020-0910)
+
 ### CVE-2020-0976 (2020-04-15)
 
 <code>
@@ -14414,6 +14454,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
+- [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
@@ -17664,7 +17705,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [AaronCaiii/CVE-2019-0708-POC](https://github.com/AaronCaiii/CVE-2019-0708-POC)
 - [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
-- [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
@@ -27853,7 +27893,7 @@ server/LockSettingsService.java in LockSettingsService in Android 6.x before 201
 LibUtils in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-09-01, and 7.0 before 2016-09-01 mishandles conversions between Unicode character encodings with different encoding widths, which allows remote attackers to execute arbitrary code or cause a denial of service (heap-based buffer overflow) via a crafted file, aka internal bug 29250543.
 </code>
 
-- [timehacker65/CVE-2016-3861](https://github.com/timehacker65/CVE-2016-3861)
+- [timehacker85/CVE-2016-3861](https://github.com/timehacker85/CVE-2016-3861)
 
 ### CVE-2016-3955 (2016-07-03)
 
