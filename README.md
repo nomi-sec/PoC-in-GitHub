@@ -53,15 +53,6 @@ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequen
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
 - [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
-### CVE-2023-23161
-- [rahulpatwari/CVE-2023-23161](https://github.com/rahulpatwari/CVE-2023-23161)
-
-### CVE-2023-23162
-- [rahulpatwari/CVE-2023-23162](https://github.com/rahulpatwari/CVE-2023-23162)
-
-### CVE-2023-23163
-- [rahulpatwari/CVE-2023-23163](https://github.com/rahulpatwari/CVE-2023-23163)
-
 ### CVE-2023-23488 (2023-01-20)
 
 <code>
@@ -17705,6 +17696,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [AaronCaiii/CVE-2019-0708-POC](https://github.com/AaronCaiii/CVE-2019-0708-POC)
 - [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
+- [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
