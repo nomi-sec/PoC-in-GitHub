@@ -20,6 +20,14 @@ Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
 
 - [mhaskar/CVE-2023-0315](https://github.com/mhaskar/CVE-2023-0315)
 
+### CVE-2023-21608 (2023-01-18)
+
+<code>
+Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earlier) and 20.005.30418 (and earlier) are affected by a Use After Free vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.
+</code>
+
+- [hacksysteam/CVE-2023-21608](https://github.com/hacksysteam/CVE-2023-21608)
+
 ### CVE-2023-21752 (2023-01-10)
 
 <code>
@@ -78,6 +86,7 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 - [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
 - [alt3kx/CVE-2023-24055_PoC](https://github.com/alt3kx/CVE-2023-24055_PoC)
 - [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
+- [ATTACKnDEFEND/CVE-2023-24055](https://github.com/ATTACKnDEFEND/CVE-2023-24055)
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 
 ### CVE-2023-24610 (2023-02-01)
@@ -5197,6 +5206,9 @@ Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWif
 - [JBalanza/CVE-2022-44215](https://github.com/JBalanza/CVE-2022-44215)
 - [wh-gov/CVE-2022-44215](https://github.com/wh-gov/CVE-2022-44215)
 
+### CVE-2022-44268
+- [duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC)
+
 ### CVE-2022-44311 (2022-11-08)
 
 <code>
@@ -5370,6 +5382,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [Anthonyc3rb3ru5/CVE-2022-46169](https://github.com/Anthonyc3rb3ru5/CVE-2022-46169)
 - [hab1b0x/CVE-2022-46169](https://github.com/hab1b0x/CVE-2022-46169)
 - [N1arut/CVE-2022-46169_POC](https://github.com/N1arut/CVE-2022-46169_POC)
+- [miko550/CVE-2022-46169](https://github.com/miko550/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -8053,6 +8066,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [1342486672/Flangvik](https://github.com/1342486672/Flangvik)
 - [TheDudeD6/ExchangeSmash](https://github.com/TheDudeD6/ExchangeSmash)
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
+- [heikanet/Microsoft-Exchange-RCE](https://github.com/heikanet/Microsoft-Exchange-RCE)
 
 ### CVE-2021-26856
 - [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
@@ -21805,7 +21819,7 @@ Moodle 3.x has Server Side Request Forgery in the filepicker.
 ### CVE-2018-1088 (2018-04-18)
 
 <code>
-A privilege escalation flaw was found in gluster 3.x snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.
+A privilege escalation flaw was found in gluster snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.
 </code>
 
 - [MauroEldritch/GEVAUDAN](https://github.com/MauroEldritch/GEVAUDAN)
@@ -21813,7 +21827,7 @@ A privilege escalation flaw was found in gluster 3.x snapshot scheduler. Any glu
 ### CVE-2018-1111 (2018-05-17)
 
 <code>
-DHCP packages in Red Hat Enterprise Linux 6 and 7, Fedora 28, and earlier are vulnerable to a command injection flaw in the NetworkManager integration script included in the DHCP client. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
+A command injection flaw was found in the NetworkManager integration script included in the DHCP client packages in Red Hat Enterprise Linux. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
 </code>
 
 - [knqyf263/CVE-2018-1111](https://github.com/knqyf263/CVE-2018-1111)
@@ -24047,7 +24061,7 @@ The VRRP parser in tcpdump before 4.9.3 has a buffer over-read in print-vrrp.c:v
 ### CVE-2018-14634 (2018-09-25)
 
 <code>
-An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. Kernel versions 2.6.x, 3.10.x and 4.14.x are believed to be vulnerable.
+An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system.
 </code>
 
 - [luan0ap/cve-2018-14634](https://github.com/luan0ap/cve-2018-14634)
@@ -25449,7 +25463,7 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 ### CVE-2017-2636 (2017-03-07)
 
 <code>
-Race condition in drivers/tty/n_hdlc.c in the Linux kernel through 4.10.1 allows local users to gain privileges or cause a denial of service (double free) by setting the HDLC line discipline.
+A race condition flaw was found in the N_HLDC Linux kernel driver when accessing n_hdlc.tbuf list that can lead to double free. A local, unprivileged user able to set the HDLC line discipline on the tty device could use this flaw to increase their privileges on the system.
 </code>
 
 - [alexzorin/cve-2017-2636-el](https://github.com/alexzorin/cve-2017-2636-el)
@@ -25465,7 +25479,7 @@ It was discovered in Undertow that the code that parsed the HTTP request line pe
 ### CVE-2017-2671 (2017-04-05)
 
 <code>
-The ping_unhash function in net/ipv4/ping.c in the Linux kernel through 4.10.8 is too late in obtaining a certain lock and consequently cannot ensure that disconnect function calls are safe, which allows local users to cause a denial of service (panic) by leveraging access to the protocol value of IPPROTO_ICMP in a socket system call.
+A race condition leading to a NULL pointer dereference was found in the Linux kernel's Link Layer Control implementation. A local attacker with access to ping sockets could use this flaw to crash the system.
 </code>
 
 - [homjxi0e/CVE-2017-2671](https://github.com/homjxi0e/CVE-2017-2671)
@@ -26038,7 +26052,7 @@ Buffer overflow in libxml2 allows remote attackers to execute arbitrary code by 
 ### CVE-2017-7472 (2017-05-11)
 
 <code>
-The KEYS subsystem in the Linux kernel before 4.10.13 allows local users to cause a denial of service (memory consumption) via a series of KEY_REQKEY_DEFL_THREAD_KEYRING keyctl_set_reqkey_keyring calls.
+A vulnerability was found in the Linux kernel where the keyctl_set_reqkey_keyring() function leaks the thread keyring. This allows an unprivileged local user to exhaust kernel memory and thus cause a DoS.
 </code>
 
 - [homjxi0e/CVE-2017-7472](https://github.com/homjxi0e/CVE-2017-7472)
@@ -27542,7 +27556,7 @@ The DH_check_pub_key function in crypto/dh/dh_check.c in OpenSSL 1.0.2 before 1.
 ### CVE-2016-0728 (2016-02-07)
 
 <code>
-The join_session_keyring function in security/keys/process_keys.c in the Linux kernel before 4.4.1 mishandles object references in a certain error case, which allows local users to gain privileges or cause a denial of service (integer overflow and use-after-free) via crafted keyctl commands.
+A use-after-free flaw was found in the way the Linux kernel's key management subsystem handled keyring object reference counting in certain error path of the join_session_keyring() function. A local, unprivileged user could use this flaw to escalate their privileges on the system.
 </code>
 
 - [idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728)
@@ -27889,7 +27903,7 @@ The kernel-mode drivers in Microsoft Windows Vista SP2; Windows Server 2008 SP2 
 ### CVE-2016-3714 (2016-05-05)
 
 <code>
-The (1) EPHEMERAL, (2) HTTPS, (3) MVG, (4) MSL, (5) TEXT, (6) SHOW, (7) WIN, and (8) PLT coders in ImageMagick before 6.9.3-10 and 7.x before 7.0.1-1 allow remote attackers to execute arbitrary code via shell metacharacters in a crafted image, aka &quot;ImageTragick.&quot;
+It was discovered that ImageMagick did not properly sanitize certain input before passing it to the delegate functionality. A remote attacker could create a specially crafted image that, when processed by an application using ImageMagick or an unsuspecting user using the ImageMagick utilities, would lead to arbitrary execution of shell commands with the privileges of the user running the application.
 </code>
 
 - [jackdpeterson/imagick_secure_puppet](https://github.com/jackdpeterson/imagick_secure_puppet)
@@ -27992,7 +28006,7 @@ The REST plugin in Apache Struts 2 2.3.19 through 2.3.28.1 allows remote attacke
 ### CVE-2016-4463 (2016-07-08)
 
 <code>
-Stack-based buffer overflow in Apache Xerces-C++ before 3.1.4 allows context-dependent attackers to cause a denial of service via a deeply nested DTD.
+A stack exhaustion flaw was found in the way Xerces-C XML parser handled deeply nested DTDs. An attacker could potentially use this flaw to crash an application using Xerces-C by tricking it into processing specially crafted data.
 </code>
 
 - [arntsonl/CVE-2016-4463](https://github.com/arntsonl/CVE-2016-4463)
@@ -28414,7 +28428,7 @@ Integer overflow in the mem_check_range function in drivers/infiniband/sw/rxe/rx
 ### CVE-2016-8655 (2016-12-08)
 
 <code>
-Race condition in net/packet/af_packet.c in the Linux kernel through 4.8.12 allows local users to gain privileges or cause a denial of service (use-after-free) by leveraging the CAP_NET_RAW capability to change a socket version, related to the packet_set_ring and packet_setsockopt functions.
+A race condition issue leading to a use-after-free flaw was found in the way the raw packet sockets implementation in the Linux kernel networking subsystem handled synchronization while creating the TPACKET_V3 ring buffer. A local user able to open a raw packet socket (requires the CAP_NET_RAW capability) could use this flaw to elevate their privileges on the system.
 </code>
 
 - [scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655)
@@ -29988,7 +30002,7 @@ Hitron CVE-30360 devices use a 578A958E3DD933FC DES key that is shared across di
 ### CVE-2013-0156 (2013-01-13)
 
 <code>
-active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
+CVE-2013-0156 rubygem-activesupport: Multiple vulnerabilities in parameter parsing in ActionPack
 </code>
 
 - [terracatta/name_reverser](https://github.com/terracatta/name_reverser)
@@ -30015,7 +30029,7 @@ The JSON gem before 1.5.5, 1.6.x before 1.6.8, and 1.7.x before 1.7.7 for Ruby a
 ### CVE-2013-0333 (2013-01-30)
 
 <code>
-lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.
+CVE-2013-0333 rubygem-activesupport: json to yaml parsing
 </code>
 
 - [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
@@ -30099,7 +30113,7 @@ Buffer overflow in the Python bindings for the xc_vcpu_setaffinity call in Xen 4
 ### CVE-2013-2094 (2013-05-14)
 
 <code>
-The perf_swevent_init function in kernel/events/core.c in the Linux kernel before 3.8.9 uses an incorrect integer data type, which allows local users to gain privileges via a crafted perf_event_open system call.
+CVE-2013-2094 kernel: perf_swevent_enabled array out-of-bound access
 </code>
 
 - [realtalk/cve-2013-2094](https://github.com/realtalk/cve-2013-2094)
@@ -30285,7 +30299,7 @@ Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows 
 ### CVE-2012-0056 (2012-01-27)
 
 <code>
-The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, does not properly check permissions when writing to /proc/&lt;pid&gt;/mem, which allows local users to gain privileges by modifying process memory, as demonstrated by Mempodipper.
+CVE-2012-0056 kernel: proc: /proc/&lt;pid&gt;/mem mem_write insufficient permission checking
 </code>
 
 - [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
