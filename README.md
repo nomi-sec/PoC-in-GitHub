@@ -715,7 +715,12 @@ It was found that Quarkus 2.10.x does not terminate HTTP requests header context
 
 - [yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL](https://github.com/yuxblank/CVE-2022-2466---Request-Context-not-terminated-with-GraphQL)
 
-### CVE-2022-2546
+### CVE-2022-2546 (2023-02-02)
+
+<code>
+The All-in-One WP Migration WordPress plugin before 7.63 uses the wrong content type, and does not properly escape the response from the ai1wm_export AJAX action, allowing an attacker to craft a request that when submitted by any visitor will inject arbitrary html or javascript into the response that will be executed in the victims session. Note: This requires knowledge of a static secret key
+</code>
+
 - [0xvinix/CVE-2022-2546](https://github.com/0xvinix/CVE-2022-2546)
 
 ### CVE-2022-2586
@@ -5243,6 +5248,7 @@ login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.
 
 - [numanturle/CVE-2022-44877](https://github.com/numanturle/CVE-2022-44877)
 - [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
+- [ColdFusionX/CVE-2022-44877-CWP7](https://github.com/ColdFusionX/CVE-2022-44877-CWP7)
 
 ### CVE-2022-44900 (2022-12-06)
 
@@ -5444,6 +5450,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
 - [BomberFish/Mandela](https://github.com/BomberFish/Mandela)
 - [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
+- [straight-tamago/FileSwitcherPro](https://github.com/straight-tamago/FileSwitcherPro)
 
 ### CVE-2022-47102 (2023-01-12)
 
@@ -16989,6 +16996,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [whitetea2424/CVE-2020-27955-LFS-main](https://github.com/whitetea2424/CVE-2020-27955-LFS-main)
 - [userxfan/cve-2020-27955](https://github.com/userxfan/cve-2020-27955)
 - [z50913/CVE-2020-27955](https://github.com/z50913/CVE-2020-27955)
+- [Kimorea/CVE-2020-27955-LFS](https://github.com/Kimorea/CVE-2020-27955-LFS)
 
 ### CVE-2020-27976 (2020-10-28)
 
