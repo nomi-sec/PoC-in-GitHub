@@ -5452,7 +5452,12 @@ A cross-site scripting (XSS) vulnerability in Student Study Center Management Sy
 
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
 
-### CVE-2022-47872
+### CVE-2022-47872 (2023-02-01)
+
+<code>
+maccms10 2021.1000.2000 is vulnerable to Server-side request forgery (SSRF).
+</code>
+
 - [Cedric1314/CVE-2022-47872](https://github.com/Cedric1314/CVE-2022-47872)
 
 ### CVE-2022-47873 (2023-01-31)
@@ -6095,7 +6100,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [BeneficialCode/CVE-2021-1732](https://github.com/BeneficialCode/CVE-2021-1732)
 - [ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-)
 - [r1l4-i3pur1l4/CVE-2021-1732](https://github.com/r1l4-i3pur1l4/CVE-2021-1732)
-- [ratw/CVE-2021-1732](https://github.com/ratw/CVE-2021-1732)
+- [fenalik/CVE-2021-1732](https://github.com/fenalik/CVE-2021-1732)
 
 ### CVE-2021-1748 (2021-04-02)
 
