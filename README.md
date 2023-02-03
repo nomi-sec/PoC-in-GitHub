@@ -3611,6 +3611,14 @@ mailcow is a mailserver suite. Prior to mailcow-dockerized version 2022-06a, an 
 
 - [ly1g3/Mailcow-CVE-2022-31138](https://github.com/ly1g3/Mailcow-CVE-2022-31138)
 
+### CVE-2022-31144 (2022-07-19)
+
+<code>
+Redis is an in-memory database that persists on disk. A specially crafted `XAUTOCLAIM` command on a stream key in a specific state may result with heap overflow, and potentially remote code execution. This problem affects versions on the 7.x branch prior to 7.0.4. The patch is released in version 7.0.4.
+</code>
+
+- [SpiralBL0CK/CVE-2022-31144](https://github.com/SpiralBL0CK/CVE-2022-31144)
+
 ### CVE-2022-31181 (2022-08-01)
 
 <code>
@@ -5208,6 +5216,8 @@ Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWif
 
 ### CVE-2022-44268
 - [duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC)
+- [y1nglamore/CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment](https://github.com/y1nglamore/CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment)
+- [Ashifcoder/CVE-2022-44268-automated-poc](https://github.com/Ashifcoder/CVE-2022-44268-automated-poc)
 
 ### CVE-2022-44311 (2022-11-08)
 
@@ -5431,6 +5441,14 @@ An issue in MatrixSSL 4.5.1-open and earlier leads to failure to securely check 
 
 - [SmallTown123/details-for-CVE-2022-46505](https://github.com/SmallTown123/details-for-CVE-2022-46505)
 
+### CVE-2022-46604 (2023-02-02)
+
+<code>
+An issue in Tecrail Responsive FileManager v9.9.5 and below allows attackers to bypass the file extension check mechanism and upload a crafted PHP file, leading to arbitrary code execution.
+</code>
+
+- [galoget/ResponsiveFileManager-CVE-2022-46604](https://github.com/galoget/ResponsiveFileManager-CVE-2022-46604)
+
 ### CVE-2022-46622 (2023-01-12)
 
 <code>
@@ -5480,14 +5498,6 @@ maccms10 2021.1000.2000 is vulnerable to Server-side request forgery (SSRF).
 </code>
 
 - [Cedric1314/CVE-2022-47872](https://github.com/Cedric1314/CVE-2022-47872)
-
-### CVE-2022-47873 (2023-01-31)
-
-<code>
-Netcad KEOS 1.0 is vulnerable to XML External Entity (XXE) resulting in SSRF with XXE (remote).
-</code>
-
-- [waspthebughunter/CVE-2022-47873](https://github.com/waspthebughunter/CVE-2022-47873)
 
 ### CVE-2022-47952 (2023-01-01)
 
