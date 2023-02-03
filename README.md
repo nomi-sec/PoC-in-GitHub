@@ -387,7 +387,7 @@ A flaw was found in JBoss-client. The vulnerability occurs due to a memory leak 
 ### CVE-2022-0918 (2022-03-16)
 
 <code>
-A vulnerability was discovered in the 389 Directory Server that allows an unauthenticated attacker with network access to the LDAP port to cause a denial of service. The denial of service is triggered by a single message sent over a TCP connection, no bind or other authentication is required. The message triggers a segmentation fault that results in slapd crashing.
+A vulnerability was found in the 389 Directory Server that allows an unauthenticated attacker with network access to the LDAP port to cause a denial of service. The denial of service is triggered by a single message sent over a TCP connection. No bind or other authentication is required. This message triggers a segmentation fault that results in slapd crashing.
 </code>
 
 - [NathanMulbrook/CVE-2022-0918](https://github.com/NathanMulbrook/CVE-2022-0918)
@@ -6669,7 +6669,7 @@ A potential vulnerability by a driver used during manufacturing process on some 
 ### CVE-2021-4034 (2022-01-28)
 
 <code>
-A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
+CVE-2021-4034 polkit: Local privilege escalation in pkexec due to incorrect handling of argument vector
 </code>
 
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
@@ -14723,7 +14723,7 @@ A vulnerability was found in all versions of containernetworking/plugins before 
 ### CVE-2020-10757 (2020-06-09)
 
 <code>
-A flaw was found in the Linux Kernel in versions after 4.5-rc1 in the way mremap handled DAX Huge Pages. This flaw allows a local attacker with access to a DAX enabled storage to escalate their privileges on the system.
+A flaw was found in the way mremap handled DAX Huge Pages. This flaw allows a local attacker with access to a DAX enabled storage to escalate their privileges on the system.
 </code>
 
 - [ShaikUsaf/linux-4.19.72_CVE-2020-10757](https://github.com/ShaikUsaf/linux-4.19.72_CVE-2020-10757)
@@ -14731,7 +14731,7 @@ A flaw was found in the Linux Kernel in versions after 4.5-rc1 in the way mremap
 ### CVE-2020-10759 (2020-09-15)
 
 <code>
-A PGP signature bypass flaw was found in fwupd (all versions), which could lead to the installation of unsigned firmware. As per upstream, a signature bypass is theoretically possible, but not practical because the Linux Vendor Firmware Service (LVFS) is either not implemented or enabled in versions of fwupd shipped with Red Hat Enterprise Linux 7 and 8. The highest threat from this vulnerability is to confidentiality and integrity.
+A PGP signature bypass flaw was found in fwupd, which could lead to the installation of unsigned firmware. As per upstream, a signature bypass is theoretically possible, but not practical because the Linux Vendor Firmware Service (LVFS) is either not implemented or enabled in versions of fwupd shipped with Red Hat Enterprise Linux 7 and 8. The highest threat from this vulnerability is to confidentiality and integrity.
 </code>
 
 - [justinsteven/CVE-2020-10759-poc](https://github.com/justinsteven/CVE-2020-10759-poc)
@@ -19437,7 +19437,7 @@ A flaw was found in org.codehaus.jackson:jackson-mapper-asl:1.9.x libraries. XML
 ### CVE-2019-10207 (2019-11-25)
 
 <code>
-A flaw was found in the Linux kernel's Bluetooth implementation of UART, all versions kernel 3.x.x before 4.18.0 and kernel 5.x.x. An attacker with local access and write permissions to the Bluetooth hardware could use this flaw to issue a specially crafted ioctl function call and cause the system to crash.
+A flaw was found in the Linux kernel’s Bluetooth implementation of UART. An attacker with local access and write permissions to the Bluetooth hardware could use this flaw to issue a specially crafted ioctl function call and cause the system to crash.
 </code>
 
 - [butterflyhack/CVE-2019-10207](https://github.com/butterflyhack/CVE-2019-10207)
@@ -28075,7 +28075,7 @@ The (1) order and (2) group methods in Zend_Db_Select in the Zend Framework befo
 ### CVE-2016-4971 (2016-06-30)
 
 <code>
-GNU wget before 1.18 allows remote servers to write to arbitrary files by redirecting a request from HTTP to a crafted FTP resource.
+It was found that wget used a file name provided by the server for the downloaded file when following a HTTP redirect to a FTP server resource. This could cause wget to create a file with a different name than expected, possibly allowing the server to execute arbitrary code on the client.
 </code>
 
 - [gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971)
@@ -28179,7 +28179,7 @@ net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine 
 ### CVE-2016-5699 (2016-09-02)
 
 <code>
-CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2 and urllib in CPython (aka Python) before 2.7.10 and 3.x before 3.4.4 allows remote attackers to inject arbitrary HTTP headers via CRLF sequences in a URL.
+It was found that the Python's httplib library (used by urllib, urllib2 and others) did not properly check HTTPConnection.putheader() function arguments. An attacker could use this flaw to inject additional headers in a Python application that allowed user provided header names or values.
 </code>
 
 - [bunseokbot/CVE-2016-5699-poc](https://github.com/bunseokbot/CVE-2016-5699-poc)
@@ -29060,7 +29060,7 @@ Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) 
 ### CVE-2015-5195 (2017-07-21)
 
 <code>
-ntp_openssl.m4 in ntpd in NTP before 4.2.7p112 allows remote attackers to cause a denial of service (segmentation fault) via a crafted statistics or filegen configuration command that is not enabled during compilation.
+It was found that ntpd would exit with a segmentation fault when a statistics type that was not enabled during compilation (e.g. timingstats) was referenced by the statistics or filegen configuration command.
 </code>
 
 - [theglife214/CVE-2015-5195](https://github.com/theglife214/CVE-2015-5195)
@@ -29245,7 +29245,7 @@ The (1) git-remote-ext and (2) unspecified other remote helper programs in Git b
 ### CVE-2015-7547 (2016-02-18)
 
 <code>
-Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functions in the libresolv library in the GNU C Library (aka glibc or libc6) before 2.23 allow remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a crafted DNS response that triggers a call to the getaddrinfo function with the AF_UNSPEC or AF_INET6 address family, related to performing &quot;dual A/AAAA DNS queries&quot; and the libnss_dns.so.2 NSS module.
+A stack-based buffer overflow was found in the way the libresolv library performed dual A/AAAA DNS queries. A remote attacker could create a specially crafted DNS response which could cause libresolv to crash or, potentially, execute code with the permissions of the user running the library. Note: this issue is only exposed when libresolv is called from the nss_dns NSS service module.
 </code>
 
 - [fjserna/CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547)
@@ -29399,7 +29399,7 @@ Apache Commons BeanUtils, as distributed in lib/commons-beanutils-1.8.0.jar in A
 ### CVE-2014-0130 (2014-05-07)
 
 <code>
-Directory traversal vulnerability in actionpack/lib/abstract_controller/base.rb in the implicit-render implementation in Ruby on Rails before 3.2.18, 4.0.x before 4.0.5, and 4.1.x before 4.1.1, when certain route globbing configurations are enabled, allows remote attackers to read arbitrary files via a crafted request.
+A directory traversal flaw was found in the way Ruby on Rails handled wildcard segments in routes with implicit rendering. A remote attacker could use this flaw to retrieve arbitrary local files accessible to a Ruby on Rails application using the aforementioned routes via a specially crafted request.
 </code>
 
 - [omarkurt/cve-2014-0130](https://github.com/omarkurt/cve-2014-0130)
@@ -29639,7 +29639,7 @@ Buffer overflow in the read_server_hello function in lib/gnutls_handshake.c in G
 ### CVE-2014-3566 (2014-10-14)
 
 <code>
-The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the &quot;POODLE&quot; issue.
+A flaw was found in the way SSL 3.0 handled padding bytes when decrypting messages encrypted using block ciphers in cipher block chaining (CBC) mode. This flaw allows a man-in-the-middle (MITM) attacker to decrypt a selected byte of a cipher text in as few as 256 tries if they are able to force a victim application to repeatedly send the same data over newly created SSL 3.0 connections.
 </code>
 
 - [mikesplain/CVE-2014-3566-poodle-cookbook](https://github.com/mikesplain/CVE-2014-3566-poodle-cookbook)
@@ -30197,7 +30197,7 @@ MySecureShell 1.31 has a Local Denial of Service Vulnerability
 ### CVE-2013-4348 (2013-11-04)
 
 <code>
-The skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel through 3.12 allows remote attackers to cause a denial of service (infinite loop) via a small value in the IHL field of a packet with IPIP encapsulation.
+CVE-2013-4348 kernel: net: deadloop path in skb_flow_dissect()
 </code>
 
 - [bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348)
