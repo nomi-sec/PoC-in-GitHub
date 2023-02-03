@@ -5510,6 +5510,9 @@ Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through
 - [ACE-Responder/CVE-2022-47966_checker](https://github.com/ACE-Responder/CVE-2022-47966_checker)
 - [vonahisec/CVE-2022-47966-Scan](https://github.com/vonahisec/CVE-2022-47966-Scan)
 
+### CVE-2022-47986
+- [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
+
 ### CVE-2022-48194 (2022-12-30)
 
 <code>
