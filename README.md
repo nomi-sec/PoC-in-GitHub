@@ -5220,8 +5220,9 @@ Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWif
 ### CVE-2022-44268
 - [duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC)
 - [y1nglamore/CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment](https://github.com/y1nglamore/CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment)
-- [Ashifcoder/CVE-2022-44268-automated-poc](https://github.com/Ashifcoder/CVE-2022-44268-automated-poc)
 - [agathanon/cve-2022-44268](https://github.com/agathanon/cve-2022-44268)
+- [jnschaeffer/cve-2022-44268-detector](https://github.com/jnschaeffer/cve-2022-44268-detector)
+- [Ashifcoder/CVE-2022-44268-automated-poc](https://github.com/Ashifcoder/CVE-2022-44268-automated-poc)
 
 ### CVE-2022-44311 (2022-11-08)
 
@@ -5542,6 +5543,9 @@ TP-Link TL-WR902AC devices through V3 0.9.1 allow remote authenticated attackers
 </code>
 
 - [ryan412/CVE-2022-48197](https://github.com/ryan412/CVE-2022-48197)
+
+### CVE-2022-48311
+- [swzhouu/CVE-2022-48311](https://github.com/swzhouu/CVE-2022-48311)
 
 
 ## 2021
@@ -29872,14 +29876,6 @@ Unspecified vulnerability in the XML Developer's Kit for C component in Oracle D
 </code>
 
 - [SecurityArtWork/oracle-xxe-sqli](https://github.com/SecurityArtWork/oracle-xxe-sqli)
-
-### CVE-2014-6598 (2015-01-21)
-
-<code>
-Unspecified vulnerability in the Oracle Communications Diameter Signaling Router component in Oracle Communications Applications 3.x, 4.x, and 5.0 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Signaling - DPI.
-</code>
-
-- [KPN-CISO/DRA_writeup](https://github.com/KPN-CISO/DRA_writeup)
 
 ### CVE-2014-7169 (2014-09-24)
 
