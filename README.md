@@ -30,6 +30,7 @@ Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earl
 </code>
 
 - [hacksysteam/CVE-2023-21608](https://github.com/hacksysteam/CVE-2023-21608)
+- [PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT](https://github.com/PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT)
 
 ### CVE-2023-21752 (2023-01-10)
 
@@ -1221,6 +1222,14 @@ In audio ipi, there is a possible memory corruption due to a race condition. Thi
 </code>
 
 - [docfate111/CVE-2022-21789](https://github.com/docfate111/CVE-2022-21789)
+
+### CVE-2022-21839 (2022-01-11)
+
+<code>
+Windows Event Tracing Discretionary Access Control List Denial of Service Vulnerability.
+</code>
+
+- [lolin19/CVE-2022-21839-](https://github.com/lolin19/CVE-2022-21839-)
 
 ### CVE-2022-21877 (2022-01-11)
 
@@ -5369,6 +5378,14 @@ An issue was discovered in the Linux kernel through 6.0.10. l2cap_config_req in 
 
 ### CVE-2022-46104
 - [NurSec747/CVE-2022-46104---POC](https://github.com/NurSec747/CVE-2022-46104---POC)
+
+### CVE-2022-46164 (2022-12-05)
+
+<code>
+NodeBB is an open source Node.js based forum software. Due to a plain object with a prototype being used in socket.io message handling a specially crafted payload can be used to impersonate other users and takeover accounts. This vulnerability has been patched in version 2.6.1. Users are advised to upgrade. Users unable to upgrade may cherry-pick commit `48d143921753914da45926cca6370a92ed0c46b8` into their codebase to patch the exploit.
+</code>
+
+- [stephenbradshaw/CVE-2022-46164-poc](https://github.com/stephenbradshaw/CVE-2022-46164-poc)
 
 ### CVE-2022-46169 (2022-12-05)
 
