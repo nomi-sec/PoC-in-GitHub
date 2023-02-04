@@ -1222,14 +1222,6 @@ In audio ipi, there is a possible memory corruption due to a race condition. Thi
 
 - [docfate111/CVE-2022-21789](https://github.com/docfate111/CVE-2022-21789)
 
-### CVE-2022-21839 (2022-01-11)
-
-<code>
-Windows Event Tracing Discretionary Access Control List Denial of Service Vulnerability.
-</code>
-
-- [lolin19/CVE-2022-21839-](https://github.com/lolin19/CVE-2022-21839-)
-
 ### CVE-2022-21877 (2022-01-11)
 
 <code>
@@ -2553,6 +2545,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [badboy-sft/CVE-2022-26134](https://github.com/badboy-sft/CVE-2022-26134)
 - [wjlin0/CVE-2022-26134](https://github.com/wjlin0/CVE-2022-26134)
 - [cbk914/CVE-2022-26134_check](https://github.com/cbk914/CVE-2022-26134_check)
+- [MaskCyberSecurityTeam/CVE-2022-26134_Behinder_MemShell](https://github.com/MaskCyberSecurityTeam/CVE-2022-26134_Behinder_MemShell)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -5223,6 +5216,7 @@ Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWif
 - [agathanon/cve-2022-44268](https://github.com/agathanon/cve-2022-44268)
 - [jnschaeffer/cve-2022-44268-detector](https://github.com/jnschaeffer/cve-2022-44268-detector)
 - [Ashifcoder/CVE-2022-44268-automated-poc](https://github.com/Ashifcoder/CVE-2022-44268-automated-poc)
+- [Baikuya/CVE-2022-44268-PoC](https://github.com/Baikuya/CVE-2022-44268-PoC)
 
 ### CVE-2022-44311 (2022-11-08)
 
@@ -5375,14 +5369,6 @@ An issue was discovered in the Linux kernel through 6.0.10. l2cap_config_req in 
 
 ### CVE-2022-46104
 - [NurSec747/CVE-2022-46104---POC](https://github.com/NurSec747/CVE-2022-46104---POC)
-
-### CVE-2022-46164 (2022-12-05)
-
-<code>
-NodeBB is an open source Node.js based forum software. Due to a plain object with a prototype being used in socket.io message handling a specially crafted payload can be used to impersonate other users and takeover accounts. This vulnerability has been patched in version 2.6.1. Users are advised to upgrade. Users unable to upgrade may cherry-pick commit `48d143921753914da45926cca6370a92ed0c46b8` into their codebase to patch the exploit.
-</code>
-
-- [stephenbradshaw/CVE-2022-46164-poc](https://github.com/stephenbradshaw/CVE-2022-46164-poc)
 
 ### CVE-2022-46169 (2022-12-05)
 
@@ -29876,6 +29862,14 @@ Unspecified vulnerability in the XML Developer's Kit for C component in Oracle D
 </code>
 
 - [SecurityArtWork/oracle-xxe-sqli](https://github.com/SecurityArtWork/oracle-xxe-sqli)
+
+### CVE-2014-6598 (2015-01-21)
+
+<code>
+Unspecified vulnerability in the Oracle Communications Diameter Signaling Router component in Oracle Communications Applications 3.x, 4.x, and 5.0 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Signaling - DPI.
+</code>
+
+- [KPN-CISO/DRA_writeup](https://github.com/KPN-CISO/DRA_writeup)
 
 ### CVE-2014-7169 (2014-09-24)
 
