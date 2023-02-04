@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2023
+### CVE-2023-0045
+- [es0j/CVE-2023-0045](https://github.com/es0j/CVE-2023-0045)
+
 ### CVE-2023-0179
 - [TurtleARM/CVE-2023-0179-PoC](https://github.com/TurtleARM/CVE-2023-0179-PoC)
 
@@ -5218,6 +5221,7 @@ Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWif
 - [duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC)
 - [y1nglamore/CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment](https://github.com/y1nglamore/CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment)
 - [Ashifcoder/CVE-2022-44268-automated-poc](https://github.com/Ashifcoder/CVE-2022-44268-automated-poc)
+- [agathanon/cve-2022-44268](https://github.com/agathanon/cve-2022-44268)
 
 ### CVE-2022-44311 (2022-11-08)
 
