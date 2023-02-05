@@ -7233,6 +7233,7 @@ OpenSLP as used in ESXi (7.0 before ESXi70U1c-17325551, 6.7 before ESXi670-20210
 </code>
 
 - [Shadow0ps/CVE-2021-21974](https://github.com/Shadow0ps/CVE-2021-21974)
+- [n2x4/Feb2023-CVE-2021-21974-OSINT](https://github.com/n2x4/Feb2023-CVE-2021-21974-OSINT)
 
 ### CVE-2021-21975 (2021-03-31)
 
@@ -8150,6 +8151,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 </code>
 
 - [adamrpostjr/cve-2021-27065](https://github.com/adamrpostjr/cve-2021-27065)
+
+### CVE-2021-27077 (2021-03-11)
+
+<code>
+Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26863, CVE-2021-26875, CVE-2021-26900.
+</code>
+
+- [peteribi/CVE-2021-27077](https://github.com/peteribi/CVE-2021-27077)
 
 ### CVE-2021-27180 (2021-04-14)
 
