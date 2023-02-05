@@ -8152,14 +8152,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [adamrpostjr/cve-2021-27065](https://github.com/adamrpostjr/cve-2021-27065)
 
-### CVE-2021-27077 (2021-03-11)
-
-<code>
-Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26863, CVE-2021-26875, CVE-2021-26900.
-</code>
-
-- [peteribi/CVE-2021-27077](https://github.com/peteribi/CVE-2021-27077)
-
 ### CVE-2021-27180 (2021-04-14)
 
 <code>
