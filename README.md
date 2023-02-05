@@ -6794,7 +6794,6 @@ CVE-2021-4034 polkit: Local privilege escalation in pkexec due to incorrect hand
 - [HrishitJoshi/CVE-2021-4034](https://github.com/HrishitJoshi/CVE-2021-4034)
 - [Ankit-Ojha16/CVE-2021-4034](https://github.com/Ankit-Ojha16/CVE-2021-4034)
 - [Ki11i0n4ir3/CVE-2021-4034](https://github.com/Ki11i0n4ir3/CVE-2021-4034)
-- [Ph4nt0mh4x0r/auto-CVE-2021-4034](https://github.com/Ph4nt0mh4x0r/auto-CVE-2021-4034)
 - [drapl0n/pwnKit](https://github.com/drapl0n/pwnKit)
 - [rvizx/CVE-2021-4034](https://github.com/rvizx/CVE-2021-4034)
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
@@ -17333,6 +17332,14 @@ A remote code execution vulnerability in the installUpdateThemePluginAction func
 
 - [ybdegit2020/wonderplugin](https://github.com/ybdegit2020/wonderplugin)
 - [AkashLingayat/WonderCMS-CVE-2020-35314](https://github.com/AkashLingayat/WonderCMS-CVE-2020-35314)
+
+### CVE-2020-35391 (2021-01-01)
+
+<code>
+Tenda N300 F3 12.01.01.48 devices allow remote attackers to obtain sensitive information (possibly including an http_passwd line) via a direct request for cgi-bin/DownloadCfg/RouterCfm.cfg, a related issue to CVE-2017-14942. NOTE: the vulnerability report may suggest that either a ? character must be placed after the RouterCfm.cfg filename, or that the HTTP request headers must be unusual, but it is not known why these are relevant to the device's HTTP response behavior.
+</code>
+
+- [dumitory-dev/CVE-2020-35391-POC](https://github.com/dumitory-dev/CVE-2020-35391-POC)
 
 ### CVE-2020-35476 (2020-12-16)
 
