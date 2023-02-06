@@ -5226,6 +5226,7 @@ Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWif
 - [jnschaeffer/cve-2022-44268-detector](https://github.com/jnschaeffer/cve-2022-44268-detector)
 - [Ashifcoder/CVE-2022-44268-automated-poc](https://github.com/Ashifcoder/CVE-2022-44268-automated-poc)
 - [Baikuya/CVE-2022-44268-PoC](https://github.com/Baikuya/CVE-2022-44268-PoC)
+- [voidz0r/CVE-2022-44268](https://github.com/voidz0r/CVE-2022-44268)
 
 ### CVE-2022-44311 (2022-11-08)
 
@@ -5333,6 +5334,9 @@ Tenda W30E V1.0.1.25(633) was discovered to contain a stack overflow via the PPP
 </code>
 
 - [kinderscsaa/cve-2022-45511](https://github.com/kinderscsaa/cve-2022-45511)
+
+### CVE-2022-45544
+- [tristao-marinho/CVE-2022-45544](https://github.com/tristao-marinho/CVE-2022-45544)
 
 ### CVE-2022-45728 (2023-01-12)
 
