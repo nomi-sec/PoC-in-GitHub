@@ -12815,6 +12815,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [rsmudge/CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)
 - [codewithpradhan/SMBGhost-CVE-2020-0796-](https://github.com/codewithpradhan/SMBGhost-CVE-2020-0796-)
 - [AaronCaiii/CVE-2020-0796-POC](https://github.com/AaronCaiii/CVE-2020-0796-POC)
+- [datntsec/CVE-2020-0796](https://github.com/datntsec/CVE-2020-0796)
 - [MasterSploit/LPE---CVE-2020-0796](https://github.com/MasterSploit/LPE---CVE-2020-0796)
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
 - [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
@@ -13362,6 +13363,14 @@ Vulnerability in the Oracle Business Intelligence Enterprise Edition product of 
 </code>
 
 - [tuo4n8/CVE-2020-2950](https://github.com/tuo4n8/CVE-2020-2950)
+
+### CVE-2020-2978 (2020-07-15)
+
+<code>
+Vulnerability in the Oracle Database - Enterprise Edition component of Oracle Database Server. Supported versions that are affected are 12.1.0.2, 12.2.0.1, 18c and 19c. Easily exploitable vulnerability allows high privileged attacker having DBA role account privilege with network access via Oracle Net to compromise Oracle Database - Enterprise Edition. While the vulnerability is in Oracle Database - Enterprise Edition, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle Database - Enterprise Edition accessible data. CVSS 3.1 Base Score 4.1 (Integrity impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:N).
+</code>
+
+- [emad-almousa/CVE-2020-2978](https://github.com/emad-almousa/CVE-2020-2978)
 
 ### CVE-2020-3153 (2020-02-19)
 
@@ -14177,6 +14186,7 @@ The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the 
 
 - [vulncrate/wp-codesnippets-cve-2020-8417](https://github.com/vulncrate/wp-codesnippets-cve-2020-8417)
 - [waleweewe12/CVE-2020-8417](https://github.com/waleweewe12/CVE-2020-8417)
+- [Rapidsafeguard/codesnippets_CVE-2020-8417](https://github.com/Rapidsafeguard/codesnippets_CVE-2020-8417)
 - [Vulnmachines/WordPress_CVE-2020-8417](https://github.com/Vulnmachines/WordPress_CVE-2020-8417)
 
 ### CVE-2020-8437 (2020-03-02)
@@ -14333,6 +14343,7 @@ FasterXML jackson-databind 2.0.0 through 2.9.10.2 lacks certain xbean-reflect/JN
 - [Wfzsec/FastJson1.2.62-RCE](https://github.com/Wfzsec/FastJson1.2.62-RCE)
 - [fairyming/CVE-2020-8840](https://github.com/fairyming/CVE-2020-8840)
 - [Blyth0He/CVE-2020-8840](https://github.com/Blyth0He/CVE-2020-8840)
+- [Veraxy00/CVE-2020-8840](https://github.com/Veraxy00/CVE-2020-8840)
 - [dpredrag/CVE-2020-8840](https://github.com/dpredrag/CVE-2020-8840)
 
 ### CVE-2020-8841 (2020-02-10)
@@ -14632,6 +14643,7 @@ Legacy pairing and secure-connections pairing authentication in Bluetooth BR/EDR
 The SolarWinds Orion API is vulnerable to an authentication bypass that could allow a remote attacker to execute API commands. This vulnerability could allow a remote attacker to bypass authentication and execute API commands which may result in a compromise of the SolarWinds instance. SolarWinds Orion Platform versions 2019.4 HF 5, 2020.2 with no hotfix installed, and 2020.2 HF 1 are affected.
 </code>
 
+- [rdoix/CVE-2020-10148-Solarwinds-Orion](https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion)
 - [Udyz/CVE-2020-10148-Solarwinds-Orion](https://github.com/Udyz/CVE-2020-10148-Solarwinds-Orion)
 - [B1anda0/CVE-2020-10148](https://github.com/B1anda0/CVE-2020-10148)
 
@@ -15946,7 +15958,16 @@ Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed
 </code>
 
 - [marcinguy/CVE-2020-15999](https://github.com/marcinguy/CVE-2020-15999)
+- [maarlo/CVE-2020-15999](https://github.com/maarlo/CVE-2020-15999)
 - [Marmeus/CVE-2020-15999](https://github.com/Marmeus/CVE-2020-15999)
+
+### CVE-2020-16012 (2021-01-08)
+
+<code>
+Side-channel information leakage in graphics in Google Chrome prior to 87.0.4280.66 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
+</code>
+
+- [aleksejspopovs/cve-2020-16012](https://github.com/aleksejspopovs/cve-2020-16012)
 
 ### CVE-2020-16126 (2020-11-10)
 
@@ -16038,6 +16059,14 @@ A remote code execution vulnerability exists in Microsoft Outlook software when 
 
 ### CVE-2020-17008
 - [jas502n/CVE-2020-17008](https://github.com/jas502n/CVE-2020-17008)
+
+### CVE-2020-17035 (2020-11-11)
+
+<code>
+Windows Kernel Elevation of Privilege Vulnerability
+</code>
+
+- [flamelu/CVE-2020-17035-patch-analysis](https://github.com/flamelu/CVE-2020-17035-patch-analysis)
 
 ### CVE-2020-17057 (2020-11-11)
 
@@ -16774,6 +16803,14 @@ An issue was discovered on Accfly Wireless Security IR Camera 720P System with s
 
 - [7Mitu/CVE-2020-25790](https://github.com/7Mitu/CVE-2020-25790)
 
+### CVE-2020-25860 (2020-12-21)
+
+<code>
+The install.c module in the Pengutronix RAUC update client prior to version 1.5 has a Time-of-Check Time-of-Use vulnerability, where signature verification on an update file takes place before the file is reopened for installation. An attacker who can modify the update file just before it is reopened can install arbitrary code on the device.
+</code>
+
+- [rauc/rauc-1.5-integration](https://github.com/rauc/rauc-1.5-integration)
+
 ### CVE-2020-25867 (2020-10-07)
 
 <code>
@@ -17002,6 +17039,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [r00t4dm/CVE-2020-27955](https://github.com/r00t4dm/CVE-2020-27955)
 - [williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell](https://github.com/williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell)
 - [shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955)
+- [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
 - [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
 - [DeeLMind/CVE-2020-27955-LFS](https://github.com/DeeLMind/CVE-2020-27955-LFS)
 - [HK69s/CVE-2020-27955](https://github.com/HK69s/CVE-2020-27955)
@@ -17091,6 +17129,14 @@ The conferencing component on Mitel ShoreTel 19.46.1802.0 devices could allow an
 </code>
 
 - [dievus/CVE-2020-28351](https://github.com/dievus/CVE-2020-28351)
+
+### CVE-2020-28413 (2020-12-30)
+
+<code>
+In MantisBT 2.24.3, SQL Injection can occur in the parameter &quot;access&quot; of the mc_project_get_users function through the API SOAP.
+</code>
+
+- [EthicalHCOP/CVE-2020-28413_Mantis2.24.3-SQLi-SOAP](https://github.com/EthicalHCOP/CVE-2020-28413_Mantis2.24.3-SQLi-SOAP)
 
 ### CVE-2020-28414 (2020-11-12)
 
@@ -17370,6 +17416,14 @@ Arbitrary command execution can occur in Webmin through 1.962. Any user authoriz
 
 - [anasbousselham/webminscan](https://github.com/anasbousselham/webminscan)
 - [puckiestyle/CVE-2020-35606](https://github.com/puckiestyle/CVE-2020-35606)
+
+### CVE-2020-35669 (2020-12-23)
+
+<code>
+An issue was discovered in the http package through 0.12.2 for Dart. If the attacker controls the HTTP method and the app is using Request directly, it's possible to achieve CRLF injection in an HTTP request.
+</code>
+
+- [n0npax/CVE-2020-35669](https://github.com/n0npax/CVE-2020-35669)
 
 ### CVE-2020-35682 (2021-03-13)
 
