@@ -65,7 +65,12 @@ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequen
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
 - [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
-### CVE-2023-23333
+### CVE-2023-23333 (2023-02-06)
+
+<code>
+There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php.
+</code>
+
 - [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
 
 ### CVE-2023-23488 (2023-01-20)
@@ -903,6 +908,14 @@ A vulnerability classified as problematic was found in SourceCodester Sanitizati
 </code>
 
 - [Urban4/CVE-2022-3992](https://github.com/Urban4/CVE-2022-3992)
+
+### CVE-2022-4510 (2023-01-25)
+
+<code>
+A path traversal vulnerability was identified in ReFirm Labs binwalk from version 2.1.2b through 2.3.3 included. By crafting a malicious PFS filesystem file, an attacker can get binwalk's PFS extractor to extract files at arbitrary locations when binwalk is run in extraction mode (-e option). Remote code execution can be achieved by building a PFS filesystem that, upon extraction, would extract a malicious binwalk module into the folder .config/binwalk/plugins. This vulnerability is associated with program files src/binwalk/plugins/unpfs.py. This issue affects binwalk from 2.1.2b through 2.3.3 included.
+</code>
+
+- [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
 
 ### CVE-2022-5561
 - [Kvi74/CVE-2022-5561](https://github.com/Kvi74/CVE-2022-5561)
@@ -5230,7 +5243,12 @@ Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWif
 - [JBalanza/CVE-2022-44215](https://github.com/JBalanza/CVE-2022-44215)
 - [wh-gov/CVE-2022-44215](https://github.com/wh-gov/CVE-2022-44215)
 
-### CVE-2022-44268
+### CVE-2022-44268 (2023-02-06)
+
+<code>
+ImageMagick 7.1.0-49 is vulnerable to Information Disclosure. When it parses a PNG image (e.g., for resize), the resulting image could have embedded the content of an arbitrary. file (if the magick binary has permissions to read it).
+</code>
+
 - [duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC)
 - [y1nglamore/CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment](https://github.com/y1nglamore/CVE-2022-44268-ImageMagick-Vulnerable-Docker-Environment)
 - [agathanon/cve-2022-44268](https://github.com/agathanon/cve-2022-44268)
@@ -5564,7 +5582,12 @@ TP-Link TL-WR902AC devices through V3 0.9.1 allow remote authenticated attackers
 
 - [ryan412/CVE-2022-48197](https://github.com/ryan412/CVE-2022-48197)
 
-### CVE-2022-48311
+### CVE-2022-48311 (2023-02-06)
+
+<code>
+**UNSUPPORTED WHEN ASSIGNED** Cross Site Scripting (XSS) in HP Deskjet 2540 series printer Firmware Version CEP1FN1418BR and Product Model Number A9U23B allows authenticated attacker to inject their own script into the page via HTTP configuration page. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+</code>
+
 - [swzhouu/CVE-2022-48311](https://github.com/swzhouu/CVE-2022-48311)
 
 
