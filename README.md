@@ -109,6 +109,14 @@ NOSH 4a5cfdb allows remote authenticated users to execute PHP arbitrary code via
 
 - [abbisQQ/CVE-2023-24610](https://github.com/abbisQQ/CVE-2023-24610)
 
+### CVE-2023-25136 (2023-02-03)
+
+<code>
+OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be triggered by an unauthenticated attacker in the default configuration; however, the vulnerability discoverer reports that &quot;exploiting this vulnerability will not be easy.&quot;
+</code>
+
+- [jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free)
+
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
@@ -1989,6 +1997,7 @@ lib/Image/ExifTool.pm in ExifTool before 12.38 mishandles a $file =~ /\|$/ check
 </code>
 
 - [dpbe32/CVE-2022-23935-PoC-Exploit](https://github.com/dpbe32/CVE-2022-23935-PoC-Exploit)
+- [0xFTW/CVE-2022-23935](https://github.com/0xFTW/CVE-2022-23935)
 
 ### CVE-2022-23940 (2022-03-07)
 
@@ -2271,7 +2280,12 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 - [webraybtl/CVE-2022-24934](https://github.com/webraybtl/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
 
-### CVE-2022-24990
+### CVE-2022-24990 (-)
+
+<code>
+TerraMaster NAS 4.2.29 and earlier allows remote attackers to discover the administrative password by sending &quot;User-Agent: TNAS&quot; to module/api.php?mobile/webNasIPS and then reading the PWD field in the response.
+</code>
+
 - [Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-](https://github.com/Jaky5155/CVE-2022-24990-TerraMaster-TOS--PHP-)
 - [VVeakee/CVE-2022-24990-POC](https://github.com/VVeakee/CVE-2022-24990-POC)
 - [0xf4n9x/CVE-2022-24990](https://github.com/0xf4n9x/CVE-2022-24990)
@@ -5367,7 +5381,12 @@ Tenda W30E V1.0.1.25(633) was discovered to contain a stack overflow via the PPP
 
 - [kinderscsaa/cve-2022-45511](https://github.com/kinderscsaa/cve-2022-45511)
 
-### CVE-2022-45544
+### CVE-2022-45544 (2023-02-07)
+
+<code>
+Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows attacker to upload arbitrary files and execute arbitrary code via the tristao parameter.
+</code>
+
 - [tristao-marinho/CVE-2022-45544](https://github.com/tristao-marinho/CVE-2022-45544)
 
 ### CVE-2022-45728 (2023-01-12)
