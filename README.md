@@ -7556,6 +7556,7 @@ On BIG-IP versions 16.0.x before 16.0.1.1, 15.1.x before 15.1.2.1, 14.1.x before
 - [dotslashed/CVE-2021-22986](https://github.com/dotslashed/CVE-2021-22986)
 - [DDestinys/CVE-2021-22986](https://github.com/DDestinys/CVE-2021-22986)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
+- [amitlttwo/CVE-2021-22986](https://github.com/amitlttwo/CVE-2021-22986)
 
 ### CVE-2021-23017 (2021-06-01)
 
@@ -13771,6 +13772,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902)
 - [trhacknon/CVE-2020-5902-Scanner](https://github.com/trhacknon/CVE-2020-5902-Scanner)
 - [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
+- [amitlttwo/CVE-2020-5902](https://github.com/amitlttwo/CVE-2020-5902)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -15434,7 +15436,7 @@ Apache Shiro before 1.6.0, when using Apache Shiro, a specially crafted HTTP req
 
 - [lyy289065406/CVE-2020-13933](https://github.com/lyy289065406/CVE-2020-13933)
 - [0xkami/cve-2020-13933](https://github.com/0xkami/cve-2020-13933)
-- [kunFeng1998/CVE-2020-13933Project](https://github.com/kunFeng1998/CVE-2020-13933Project)
+- [KingBangQ/CVE-2020-13933Project](https://github.com/KingBangQ/CVE-2020-13933Project)
 
 ### CVE-2020-13935 (2020-07-14)
 
@@ -27811,6 +27813,7 @@ Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x bef
 
 - [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
+- [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
@@ -28187,6 +28190,7 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
 - [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
 - [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
+- [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
 - [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
 - [droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer)
 - [FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4)
