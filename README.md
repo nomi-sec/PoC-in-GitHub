@@ -1231,6 +1231,7 @@ WordPress is a free and open-source content management system written in PHP and
 - [QWERTYisme/CVE-2022-21661](https://github.com/QWERTYisme/CVE-2022-21661)
 - [APTIRAN/CVE-2022-21661](https://github.com/APTIRAN/CVE-2022-21661)
 - [WellingtonEspindula/SSI-CVE-2022-21661](https://github.com/WellingtonEspindula/SSI-CVE-2022-21661)
+- [daniel616/CVE-2022-21661-Demo](https://github.com/daniel616/CVE-2022-21661-Demo)
 
 ### CVE-2022-21668 (2022-01-10)
 
