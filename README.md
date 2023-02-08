@@ -2,6 +2,7 @@
 
 ## 2023
 ### CVE-2023-0045
+- [missyes/CVE-2023-0045](https://github.com/missyes/CVE-2023-0045)
 - [es0j/CVE-2023-0045](https://github.com/es0j/CVE-2023-0045)
 
 ### CVE-2023-0179
@@ -2280,7 +2281,7 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 - [webraybtl/CVE-2022-24934](https://github.com/webraybtl/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
 
-### CVE-2022-24990 (-)
+### CVE-2022-24990 (2023-02-07)
 
 <code>
 TerraMaster NAS 4.2.29 and earlier allows remote attackers to discover the administrative password by sending &quot;User-Agent: TNAS&quot; to module/api.php?mobile/webNasIPS and then reading the PWD field in the response.
