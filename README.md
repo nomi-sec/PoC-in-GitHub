@@ -93,6 +93,7 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 - [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
 - [ATTACKnDEFEND/CVE-2023-24055](https://github.com/ATTACKnDEFEND/CVE-2023-24055)
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
+- [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 
 ### CVE-2023-24610 (2023-02-01)
 
@@ -150,6 +151,14 @@ Improper Restriction of XML External Entity Reference in GitHub repository hazel
 </code>
 
 - [achuna33/CVE-2022-0265](https://github.com/achuna33/CVE-2022-0265)
+
+### CVE-2022-0316 (2023-01-23)
+
+<code>
+The WeStand WordPress theme before 2.1, footysquare WordPress theme, aidreform WordPress theme, statfort WordPress theme, club-theme WordPress theme, kingclub-theme WordPress theme, spikes WordPress theme, spikes-black WordPress theme, soundblast WordPress theme, bolster WordPress theme from ChimpStudio and PixFill does not have any authorisation and upload validation in the lang_upload.php file, allowing any unauthenticated attacker to upload arbitrary files to the web server.
+</code>
+
+- [KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit](https://github.com/KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit)
 
 ### CVE-2022-0332 (2022-01-25)
 
