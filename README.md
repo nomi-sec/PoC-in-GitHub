@@ -94,6 +94,7 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 - [ATTACKnDEFEND/CVE-2023-24055](https://github.com/ATTACKnDEFEND/CVE-2023-24055)
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
+- [PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-](https://github.com/PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-)
 
 ### CVE-2023-24610 (2023-02-01)
 
@@ -23080,7 +23081,12 @@ transport.py in the SSH server implementation of Paramiko before 1.17.6, 1.18.x 
 
 - [jm33-m0/CVE-2018-7750](https://github.com/jm33-m0/CVE-2018-7750)
 
-### CVE-2018-7935
+### CVE-2018-7935 (-)
+
+<code>
+There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote attackers could exploit this vulnerability to make the network where the E5573Cs-322 is running temporarily unavailable.
+</code>
+
 - [lawrenceamer/CVE-2018-7935](https://github.com/lawrenceamer/CVE-2018-7935)
 
 ### CVE-2018-8004 (2018-08-29)
