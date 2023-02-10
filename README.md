@@ -24,6 +24,14 @@ Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
 
 - [mhaskar/CVE-2023-0315](https://github.com/mhaskar/CVE-2023-0315)
 
+### CVE-2023-0748 (2023-02-08)
+
+<code>
+Open Redirect in GitHub repository btcpayserver/btcpayserver prior to 1.7.6.
+</code>
+
+- [gonzxph/CVE-2023-0748](https://github.com/gonzxph/CVE-2023-0748)
+
 ### CVE-2023-21608 (2023-01-18)
 
 <code>
@@ -2010,6 +2018,7 @@ lib/Image/ExifTool.pm in ExifTool before 12.38 mishandles a $file =~ /\|$/ check
 
 - [dpbe32/CVE-2022-23935-PoC-Exploit](https://github.com/dpbe32/CVE-2022-23935-PoC-Exploit)
 - [0xFTW/CVE-2022-23935](https://github.com/0xFTW/CVE-2022-23935)
+- [BKreisel/CVE-2022-23935](https://github.com/BKreisel/CVE-2022-23935)
 
 ### CVE-2022-23940 (2022-03-07)
 
@@ -5605,6 +5614,7 @@ Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through
 
 ### CVE-2022-47986
 - [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
+- [dhina016/CVE-2022-47986](https://github.com/dhina016/CVE-2022-47986)
 
 ### CVE-2022-48194 (2022-12-30)
 
@@ -23081,7 +23091,7 @@ transport.py in the SSH server implementation of Paramiko before 1.17.6, 1.18.x 
 
 - [jm33-m0/CVE-2018-7750](https://github.com/jm33-m0/CVE-2018-7750)
 
-### CVE-2018-7935 (-)
+### CVE-2018-7935 (2023-02-10)
 
 <code>
 There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote attackers could exploit this vulnerability to make the network where the E5573Cs-322 is running temporarily unavailable.
