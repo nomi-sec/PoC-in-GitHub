@@ -5465,6 +5465,7 @@ An issue in the /api/audits component of Pwndoc v0.5.3 allows attackers to escal
 </code>
 
 - [p0dalirius/CVE-2022-45771-Pwndoc-LFI-to-RCE](https://github.com/p0dalirius/CVE-2022-45771-Pwndoc-LFI-to-RCE)
+- [yuriisanin/CVE-2022-45771](https://github.com/yuriisanin/CVE-2022-45771)
 
 ### CVE-2022-45934 (2022-11-26)
 
