@@ -24,6 +24,14 @@ Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
 
 - [mhaskar/CVE-2023-0315](https://github.com/mhaskar/CVE-2023-0315)
 
+### CVE-2023-0669 (2023-02-06)
+
+<code>
+Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication command injection vulnerability in the License Response Servlet due to deserializing an arbitrary attacker-controlled object. This issue was patched in version 7.1.2.
+</code>
+
+- [0xf4n9x/CVE-2023-0669](https://github.com/0xf4n9x/CVE-2023-0669)
+
 ### CVE-2023-0748 (2023-02-08)
 
 <code>
@@ -5267,6 +5275,14 @@ Insufficiently Protected Credentials in the AD/LDAP server settings in 1C-Bitrix
 
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
 
+### CVE-2022-44118 (2022-11-23)
+
+<code>
+dedecmdv6 v6.1.9 is vulnerable to Remote Code Execution (RCE) via file_manage_control.php.
+</code>
+
+- [Athishpranav2003/CVE-2022-44118-Exploit](https://github.com/Athishpranav2003/CVE-2022-44118-Exploit)
+
 ### CVE-2022-44149 (2023-01-06)
 
 <code>
@@ -6889,7 +6905,6 @@ CVE-2021-4034 polkit: Local privilege escalation in pkexec due to incorrect hand
 - [Joffr3y/Polkit-CVE-2021-4034-HLP](https://github.com/Joffr3y/Polkit-CVE-2021-4034-HLP)
 - [ziadsaleemi/polkit_CVE-2021-4034](https://github.com/ziadsaleemi/polkit_CVE-2021-4034)
 - [FDlucifer/Pwnkit-go](https://github.com/FDlucifer/Pwnkit-go)
-- [HaythmKenway/pwnkit-CVE-2021-4034-](https://github.com/HaythmKenway/pwnkit-CVE-2021-4034-)
 - [cspshivam/cve-2021-4034](https://github.com/cspshivam/cve-2021-4034)
 - [an0n7os/CVE-2021-4034](https://github.com/an0n7os/CVE-2021-4034)
 - [DanaEpp/pwncat_pwnkit](https://github.com/DanaEpp/pwncat_pwnkit)
