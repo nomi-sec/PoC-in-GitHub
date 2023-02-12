@@ -1234,6 +1234,7 @@ Vulnerability in the Oracle Web Applications Desktop Integrator product of Oracl
 </code>
 
 - [hieuminhnv/CVE-2022-21587-POC](https://github.com/hieuminhnv/CVE-2022-21587-POC)
+- [Zh1z3ven/Oracle-E-BS-CVE-2022-21587-Exploit](https://github.com/Zh1z3ven/Oracle-E-BS-CVE-2022-21587-Exploit)
 
 ### CVE-2022-21658 (2022-01-20)
 
@@ -23712,7 +23713,6 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [kn6869610/CVE-2018-10933](https://github.com/kn6869610/CVE-2018-10933)
 - [leapsecurity/libssh-scanner](https://github.com/leapsecurity/libssh-scanner)
 - [likescam/CVE-2018-10933_ssh](https://github.com/likescam/CVE-2018-10933_ssh)
-- [trbpnd/bpnd-libssh](https://github.com/trbpnd/bpnd-libssh)
 - [likescam/CVE-2018-10933-libSSH-Authentication-Bypass](https://github.com/likescam/CVE-2018-10933-libSSH-Authentication-Bypass)
 - [marco-lancini/hunt-for-cve-2018-10933](https://github.com/marco-lancini/hunt-for-cve-2018-10933)
 - [hackerhouse-opensource/cve-2018-10933](https://github.com/hackerhouse-opensource/cve-2018-10933)
@@ -23727,6 +23727,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [r3dxpl0it/CVE-2018-10933](https://github.com/r3dxpl0it/CVE-2018-10933)
 - [ivanacostarubio/libssh-scanner](https://github.com/ivanacostarubio/libssh-scanner)
 - [throwawayaccount12312312/precompiled-CVE-2018-10933](https://github.com/throwawayaccount12312312/precompiled-CVE-2018-10933)
+- [reanimat0r/bpnd-libssh](https://github.com/reanimat0r/bpnd-libssh)
 - [ensimag-security/CVE-2018-10933](https://github.com/ensimag-security/CVE-2018-10933)
 - [0xadaw/libSSH-bypass](https://github.com/0xadaw/libSSH-bypass)
 - [sambiyal/CVE-2018-10933-POC](https://github.com/sambiyal/CVE-2018-10933-POC)
@@ -23889,7 +23890,6 @@ From version 1.3.0 onward, Apache Spark's standalone master exposes a REST API f
 Apache Struts versions 2.3 to 2.3.34 and 2.5 to 2.5.16 suffer from possible Remote Code Execution when alwaysSelectFullNamespace is true (either by user or a plugin like Convention Plugin) and then: results are used with no namespace and in same time, its upper package have no or wildcard namespace and similar to results, same possibility when using url tag which doesn't have value and action set and in same time, its upper package have no or wildcard namespace.
 </code>
 
-- [trbpnd/CVE-2018-11776](https://github.com/trbpnd/CVE-2018-11776)
 - [xfox64x/CVE-2018-11776](https://github.com/xfox64x/CVE-2018-11776)
 - [jiguangsdf/CVE-2018-11776](https://github.com/jiguangsdf/CVE-2018-11776)
 - [hook-s3c/CVE-2018-11776-Python-PoC](https://github.com/hook-s3c/CVE-2018-11776-Python-PoC)
