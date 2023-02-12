@@ -5371,6 +5371,7 @@ login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.
 - [numanturle/CVE-2022-44877](https://github.com/numanturle/CVE-2022-44877)
 - [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
 - [ColdFusionX/CVE-2022-44877-CWP7](https://github.com/ColdFusionX/CVE-2022-44877-CWP7)
+- [Chocapikk/CVE-2022-44877](https://github.com/Chocapikk/CVE-2022-44877)
 
 ### CVE-2022-44900 (2022-12-06)
 
