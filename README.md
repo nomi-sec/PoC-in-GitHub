@@ -201,6 +201,14 @@ Inappropriate implementation in File System API in Google Chrome on Windows prio
 
 - [Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera](https://github.com/Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera)
 
+### CVE-2022-0435 (2022-03-25)
+
+<code>
+A stack overflow flaw was found in the Linux kernel's TIPC protocol functionality in the way a user sends a packet with malicious content where the number of domain member nodes is higher than the 64 allowed. This flaw allows a remote user to crash the system or possibly escalate their privileges if they have access to the TIPC network.
+</code>
+
+- [wlswotmd/CVE-2022-0435](https://github.com/wlswotmd/CVE-2022-0435)
+
 ### CVE-2022-0441 (2022-03-07)
 
 <code>
@@ -473,6 +481,7 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 - [zanezhub/CVE-2022-1015-1016](https://github.com/zanezhub/CVE-2022-1015-1016)
 - [shuttterman/bob_kern_exp1](https://github.com/shuttterman/bob_kern_exp1)
 - [ysanatomic/CVE-2022-1015](https://github.com/ysanatomic/CVE-2022-1015)
+- [wlswotmd/CVE-2022-1015](https://github.com/wlswotmd/CVE-2022-1015)
 
 ### CVE-2022-1040 (2022-03-25)
 
