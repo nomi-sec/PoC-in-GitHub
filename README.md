@@ -3202,6 +3202,7 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
 - [Chocapikk/CVE-2022-29455](https://github.com/Chocapikk/CVE-2022-29455)
 - [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
+- [varelsecurity/CVE-2022-29455](https://github.com/varelsecurity/CVE-2022-29455)
 
 ### CVE-2022-29464 (2022-04-18)
 
@@ -5592,6 +5593,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [BomberFish/Mandela](https://github.com/BomberFish/Mandela)
 - [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
 - [straight-tamago/FileSwitcherPro](https://github.com/straight-tamago/FileSwitcherPro)
+- [BomberFish/Mandela-Rewritten](https://github.com/BomberFish/Mandela-Rewritten)
 
 ### CVE-2022-47102 (2023-01-12)
 
