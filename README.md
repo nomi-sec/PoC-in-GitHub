@@ -442,7 +442,7 @@ A flaw was found in JBoss-client. The vulnerability occurs due to a memory leak 
 ### CVE-2022-0918 (2022-03-16)
 
 <code>
-A vulnerability was found in the 389 Directory Server that allows an unauthenticated attacker with network access to the LDAP port to cause a denial of service. The denial of service is triggered by a single message sent over a TCP connection. No bind or other authentication is required. This message triggers a segmentation fault that results in slapd crashing.
+A vulnerability was discovered in the 389 Directory Server that allows an unauthenticated attacker with network access to the LDAP port to cause a denial of service. The denial of service is triggered by a single message sent over a TCP connection, no bind or other authentication is required. The message triggers a segmentation fault that results in slapd crashing.
 </code>
 
 - [NathanMulbrook/CVE-2022-0918](https://github.com/NathanMulbrook/CVE-2022-0918)
@@ -14872,7 +14872,7 @@ A vulnerability was found in all versions of containernetworking/plugins before 
 ### CVE-2020-10757 (2020-06-09)
 
 <code>
-A flaw was found in the way mremap handled DAX Huge Pages. This flaw allows a local attacker with access to a DAX enabled storage to escalate their privileges on the system.
+A flaw was found in the Linux Kernel in versions after 4.5-rc1 in the way mremap handled DAX Huge Pages. This flaw allows a local attacker with access to a DAX enabled storage to escalate their privileges on the system.
 </code>
 
 - [ShaikUsaf/linux-4.19.72_CVE-2020-10757](https://github.com/ShaikUsaf/linux-4.19.72_CVE-2020-10757)
@@ -14880,7 +14880,7 @@ A flaw was found in the way mremap handled DAX Huge Pages. This flaw allows a lo
 ### CVE-2020-10759 (2020-09-15)
 
 <code>
-A PGP signature bypass flaw was found in fwupd, which could lead to the installation of unsigned firmware. As per upstream, a signature bypass is theoretically possible, but not practical because the Linux Vendor Firmware Service (LVFS) is either not implemented or enabled in versions of fwupd shipped with Red Hat Enterprise Linux 7 and 8. The highest threat from this vulnerability is to confidentiality and integrity.
+A PGP signature bypass flaw was found in fwupd (all versions), which could lead to the installation of unsigned firmware. As per upstream, a signature bypass is theoretically possible, but not practical because the Linux Vendor Firmware Service (LVFS) is either not implemented or enabled in versions of fwupd shipped with Red Hat Enterprise Linux 7 and 8. The highest threat from this vulnerability is to confidentiality and integrity.
 </code>
 
 - [justinsteven/CVE-2020-10759-poc](https://github.com/justinsteven/CVE-2020-10759-poc)
@@ -19594,7 +19594,7 @@ A flaw was found in org.codehaus.jackson:jackson-mapper-asl:1.9.x libraries. XML
 ### CVE-2019-10207 (2019-11-25)
 
 <code>
-A flaw was found in the Linux kernel’s Bluetooth implementation of UART. An attacker with local access and write permissions to the Bluetooth hardware could use this flaw to issue a specially crafted ioctl function call and cause the system to crash.
+A flaw was found in the Linux kernel's Bluetooth implementation of UART, all versions kernel 3.x.x before 4.18.0 and kernel 5.x.x. An attacker with local access and write permissions to the Bluetooth hardware could use this flaw to issue a specially crafted ioctl function call and cause the system to crash.
 </code>
 
 - [butterflyhack/CVE-2019-10207](https://github.com/butterflyhack/CVE-2019-10207)
@@ -21983,7 +21983,7 @@ A privilege escalation flaw was found in gluster snapshot scheduler. Any gluster
 ### CVE-2018-1111 (2018-05-17)
 
 <code>
-A command injection flaw was found in the NetworkManager integration script included in the DHCP client packages in Red Hat Enterprise Linux. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
+DHCP packages in Red Hat Enterprise Linux 6 and 7, Fedora 28, and earlier are vulnerable to a command injection flaw in the NetworkManager integration script included in the DHCP client. A malicious DHCP server, or an attacker on the local network able to spoof DHCP responses, could use this flaw to execute arbitrary commands with root privileges on systems using NetworkManager and configured to obtain network configuration using the DHCP protocol.
 </code>
 
 - [knqyf263/CVE-2018-1111](https://github.com/knqyf263/CVE-2018-1111)
@@ -25622,7 +25622,7 @@ An issue was discovered in certain Apple products. macOS before 10.12.4 is affec
 ### CVE-2017-2636 (2017-03-07)
 
 <code>
-A race condition flaw was found in the N_HLDC Linux kernel driver when accessing n_hdlc.tbuf list that can lead to double free. A local, unprivileged user able to set the HDLC line discipline on the tty device could use this flaw to increase their privileges on the system.
+Race condition in drivers/tty/n_hdlc.c in the Linux kernel through 4.10.1 allows local users to gain privileges or cause a denial of service (double free) by setting the HDLC line discipline.
 </code>
 
 - [alexzorin/cve-2017-2636-el](https://github.com/alexzorin/cve-2017-2636-el)
@@ -25638,7 +25638,7 @@ It was discovered in Undertow that the code that parsed the HTTP request line pe
 ### CVE-2017-2671 (2017-04-05)
 
 <code>
-A race condition leading to a NULL pointer dereference was found in the Linux kernel's Link Layer Control implementation. A local attacker with access to ping sockets could use this flaw to crash the system.
+The ping_unhash function in net/ipv4/ping.c in the Linux kernel through 4.10.8 is too late in obtaining a certain lock and consequently cannot ensure that disconnect function calls are safe, which allows local users to cause a denial of service (panic) by leveraging access to the protocol value of IPPROTO_ICMP in a socket system call.
 </code>
 
 - [homjxi0e/CVE-2017-2671](https://github.com/homjxi0e/CVE-2017-2671)
@@ -26211,7 +26211,7 @@ Buffer overflow in libxml2 allows remote attackers to execute arbitrary code by 
 ### CVE-2017-7472 (2017-05-11)
 
 <code>
-A vulnerability was found in the Linux kernel where the keyctl_set_reqkey_keyring() function leaks the thread keyring. This allows an unprivileged local user to exhaust kernel memory and thus cause a DoS.
+The KEYS subsystem in the Linux kernel before 4.10.13 allows local users to cause a denial of service (memory consumption) via a series of KEY_REQKEY_DEFL_THREAD_KEYRING keyctl_set_reqkey_keyring calls.
 </code>
 
 - [homjxi0e/CVE-2017-7472](https://github.com/homjxi0e/CVE-2017-7472)
@@ -27715,7 +27715,7 @@ The DH_check_pub_key function in crypto/dh/dh_check.c in OpenSSL 1.0.2 before 1.
 ### CVE-2016-0728 (2016-02-07)
 
 <code>
-A use-after-free flaw was found in the way the Linux kernel's key management subsystem handled keyring object reference counting in certain error path of the join_session_keyring() function. A local, unprivileged user could use this flaw to escalate their privileges on the system.
+The join_session_keyring function in security/keys/process_keys.c in the Linux kernel before 4.4.1 mishandles object references in a certain error case, which allows local users to gain privileges or cause a denial of service (integer overflow and use-after-free) via crafted keyctl commands.
 </code>
 
 - [idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728)
@@ -28062,7 +28062,7 @@ The kernel-mode drivers in Microsoft Windows Vista SP2; Windows Server 2008 SP2 
 ### CVE-2016-3714 (2016-05-05)
 
 <code>
-It was discovered that ImageMagick did not properly sanitize certain input before passing it to the delegate functionality. A remote attacker could create a specially crafted image that, when processed by an application using ImageMagick or an unsuspecting user using the ImageMagick utilities, would lead to arbitrary execution of shell commands with the privileges of the user running the application.
+The (1) EPHEMERAL, (2) HTTPS, (3) MVG, (4) MSL, (5) TEXT, (6) SHOW, (7) WIN, and (8) PLT coders in ImageMagick before 6.9.3-10 and 7.x before 7.0.1-1 allow remote attackers to execute arbitrary code via shell metacharacters in a crafted image, aka &quot;ImageTragick.&quot;
 </code>
 
 - [jackdpeterson/imagick_secure_puppet](https://github.com/jackdpeterson/imagick_secure_puppet)
@@ -28165,7 +28165,7 @@ The REST plugin in Apache Struts 2 2.3.19 through 2.3.28.1 allows remote attacke
 ### CVE-2016-4463 (2016-07-08)
 
 <code>
-A stack exhaustion flaw was found in the way Xerces-C XML parser handled deeply nested DTDs. An attacker could potentially use this flaw to crash an application using Xerces-C by tricking it into processing specially crafted data.
+Stack-based buffer overflow in Apache Xerces-C++ before 3.1.4 allows context-dependent attackers to cause a denial of service via a deeply nested DTD.
 </code>
 
 - [arntsonl/CVE-2016-4463](https://github.com/arntsonl/CVE-2016-4463)
@@ -28234,7 +28234,7 @@ The (1) order and (2) group methods in Zend_Db_Select in the Zend Framework befo
 ### CVE-2016-4971 (2016-06-30)
 
 <code>
-It was found that wget used a file name provided by the server for the downloaded file when following a HTTP redirect to a FTP server resource. This could cause wget to create a file with a different name than expected, possibly allowing the server to execute arbitrary code on the client.
+GNU wget before 1.18 allows remote servers to write to arbitrary files by redirecting a request from HTTP to a crafted FTP resource.
 </code>
 
 - [gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971)
@@ -28338,7 +28338,7 @@ net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine 
 ### CVE-2016-5699 (2016-09-02)
 
 <code>
-It was found that the Python's httplib library (used by urllib, urllib2 and others) did not properly check HTTPConnection.putheader() function arguments. An attacker could use this flaw to inject additional headers in a Python application that allowed user provided header names or values.
+CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2 and urllib in CPython (aka Python) before 2.7.10 and 3.x before 3.4.4 allows remote attackers to inject arbitrary HTTP headers via CRLF sequences in a URL.
 </code>
 
 - [bunseokbot/CVE-2016-5699-poc](https://github.com/bunseokbot/CVE-2016-5699-poc)
@@ -28587,7 +28587,7 @@ Integer overflow in the mem_check_range function in drivers/infiniband/sw/rxe/rx
 ### CVE-2016-8655 (2016-12-08)
 
 <code>
-A race condition issue leading to a use-after-free flaw was found in the way the raw packet sockets implementation in the Linux kernel networking subsystem handled synchronization while creating the TPACKET_V3 ring buffer. A local user able to open a raw packet socket (requires the CAP_NET_RAW capability) could use this flaw to elevate their privileges on the system.
+Race condition in net/packet/af_packet.c in the Linux kernel through 4.8.12 allows local users to gain privileges or cause a denial of service (use-after-free) by leveraging the CAP_NET_RAW capability to change a socket version, related to the packet_set_ring and packet_setsockopt functions.
 </code>
 
 - [scarvell/cve-2016-8655](https://github.com/scarvell/cve-2016-8655)
@@ -29219,7 +29219,7 @@ Use-after-free vulnerability in the ByteArray class in the ActionScript 3 (AS3) 
 ### CVE-2015-5195 (2017-07-21)
 
 <code>
-It was found that ntpd would exit with a segmentation fault when a statistics type that was not enabled during compilation (e.g. timingstats) was referenced by the statistics or filegen configuration command.
+ntp_openssl.m4 in ntpd in NTP before 4.2.7p112 allows remote attackers to cause a denial of service (segmentation fault) via a crafted statistics or filegen configuration command that is not enabled during compilation.
 </code>
 
 - [theglife214/CVE-2015-5195](https://github.com/theglife214/CVE-2015-5195)
@@ -29404,7 +29404,7 @@ The (1) git-remote-ext and (2) unspecified other remote helper programs in Git b
 ### CVE-2015-7547 (2016-02-18)
 
 <code>
-A stack-based buffer overflow was found in the way the libresolv library performed dual A/AAAA DNS queries. A remote attacker could create a specially crafted DNS response which could cause libresolv to crash or, potentially, execute code with the permissions of the user running the library. Note: this issue is only exposed when libresolv is called from the nss_dns NSS service module.
+Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functions in the libresolv library in the GNU C Library (aka glibc or libc6) before 2.23 allow remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a crafted DNS response that triggers a call to the getaddrinfo function with the AF_UNSPEC or AF_INET6 address family, related to performing &quot;dual A/AAAA DNS queries&quot; and the libnss_dns.so.2 NSS module.
 </code>
 
 - [fjserna/CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547)
@@ -29558,7 +29558,7 @@ Apache Commons BeanUtils, as distributed in lib/commons-beanutils-1.8.0.jar in A
 ### CVE-2014-0130 (2014-05-07)
 
 <code>
-A directory traversal flaw was found in the way Ruby on Rails handled wildcard segments in routes with implicit rendering. A remote attacker could use this flaw to retrieve arbitrary local files accessible to a Ruby on Rails application using the aforementioned routes via a specially crafted request.
+Directory traversal vulnerability in actionpack/lib/abstract_controller/base.rb in the implicit-render implementation in Ruby on Rails before 3.2.18, 4.0.x before 4.0.5, and 4.1.x before 4.1.1, when certain route globbing configurations are enabled, allows remote attackers to read arbitrary files via a crafted request.
 </code>
 
 - [omarkurt/cve-2014-0130](https://github.com/omarkurt/cve-2014-0130)
@@ -29798,7 +29798,7 @@ Buffer overflow in the read_server_hello function in lib/gnutls_handshake.c in G
 ### CVE-2014-3566 (2014-10-14)
 
 <code>
-A flaw was found in the way SSL 3.0 handled padding bytes when decrypting messages encrypted using block ciphers in cipher block chaining (CBC) mode. This flaw allows a man-in-the-middle (MITM) attacker to decrypt a selected byte of a cipher text in as few as 256 tries if they are able to force a victim application to repeatedly send the same data over newly created SSL 3.0 connections.
+The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the &quot;POODLE&quot; issue.
 </code>
 
 - [mikesplain/CVE-2014-3566-poodle-cookbook](https://github.com/mikesplain/CVE-2014-3566-poodle-cookbook)
@@ -30161,7 +30161,7 @@ Hitron CVE-30360 devices use a 578A958E3DD933FC DES key that is shared across di
 ### CVE-2013-0156 (2013-01-13)
 
 <code>
-CVE-2013-0156 rubygem-activesupport: Multiple vulnerabilities in parameter parsing in ActionPack
+active_support/core_ext/hash/conversions.rb in Ruby on Rails before 2.3.15, 3.0.x before 3.0.19, 3.1.x before 3.1.10, and 3.2.x before 3.2.11 does not properly restrict casts of string values, which allows remote attackers to conduct object-injection attacks and execute arbitrary code, or cause a denial of service (memory and CPU consumption) involving nested XML entity references, by leveraging Action Pack support for (1) YAML type conversion or (2) Symbol type conversion.
 </code>
 
 - [terracatta/name_reverser](https://github.com/terracatta/name_reverser)
@@ -30557,7 +30557,7 @@ Use-after-free vulnerability in Microsoft Internet Explorer 6 through 8 allows r
 ### CVE-2012-5613 (2012-12-03)
 
 <code>
-** DISPUTED **  MySQL 5.5.19 and possibly other versions, and MariaDB 5.5.28a and possibly other versions, when configured to assign the FILE privilege to users who should not have administrative privileges, allows remote authenticated users to gain privileges by leveraging the FILE privilege to create files as the MySQL administrator.  NOTE: the vendor disputes this issue, stating that this is only a vulnerability when the administrator does not follow recommendations in the product's installation documentation.  NOTE: it could be argued that this should not be included in CVE because it is a configuration issue.
+** DISPUTED ** MySQL 5.5.19 and possibly other versions, and MariaDB 5.5.28a and possibly other versions, when configured to assign the FILE privilege to users who should not have administrative privileges, allows remote authenticated users to gain privileges by leveraging the FILE privilege to create files as the MySQL administrator. NOTE: the vendor disputes this issue, stating that this is only a vulnerability when the administrator does not follow recommendations in the product's installation documentation. NOTE: it could be argued that this should not be included in CVE because it is a configuration issue.
 </code>
 
 - [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
