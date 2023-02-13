@@ -48,6 +48,7 @@ Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earl
 
 - [hacksysteam/CVE-2023-21608](https://github.com/hacksysteam/CVE-2023-21608)
 - [PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT](https://github.com/PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT)
+- [Malwareman007/CVE-2023-21608](https://github.com/Malwareman007/CVE-2023-21608)
 
 ### CVE-2023-21752 (2023-01-10)
 
@@ -414,7 +415,6 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [trhacknon/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/trhacknon/CVE-2022-0847-DirtyPipe-Exploit)
 - [badboy-sft/Dirty-Pipe-Oneshot](https://github.com/badboy-sft/Dirty-Pipe-Oneshot)
 - [edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-)
-- [Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/Z3R0W4R3/CVE-2022-0847-DirtyPipe-Exploits)
 - [Turzum/ps-lab-cve-2022-0847](https://github.com/Turzum/ps-lab-cve-2022-0847)
 - [qwert419/linux-](https://github.com/qwert419/linux-)
 - [DataFox/CVE-2022-0847](https://github.com/DataFox/CVE-2022-0847)
@@ -5329,6 +5329,7 @@ ImageMagick 7.1.0-49 is vulnerable to Information Disclosure. When it parses a P
 - [voidz0r/CVE-2022-44268](https://github.com/voidz0r/CVE-2022-44268)
 - [Sybil-Scan/imagemagick-lfi-poc](https://github.com/Sybil-Scan/imagemagick-lfi-poc)
 - [Vulnmachines/imagemagick-CVE-2022-44268](https://github.com/Vulnmachines/imagemagick-CVE-2022-44268)
+- [kljunowsky/CVE-2022-44268](https://github.com/kljunowsky/CVE-2022-44268)
 
 ### CVE-2022-44311 (2022-11-08)
 
@@ -17623,14 +17624,6 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 
 - [Al1ex/CVE-2020-36179](https://github.com/Al1ex/CVE-2020-36179)
 
-### CVE-2020-36184 (2021-01-06)
-
-<code>
-FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource.
-</code>
-
-- [Al1ex/CVE-2020-36184](https://github.com/Al1ex/CVE-2020-36184)
-
 ### CVE-2020-36188 (2021-01-06)
 
 <code>
@@ -21975,7 +21968,7 @@ Moodle 3.x has Server Side Request Forgery in the filepicker.
 ### CVE-2018-1088 (2018-04-18)
 
 <code>
-A privilege escalation flaw was found in gluster snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.
+A privilege escalation flaw was found in gluster 3.x snapshot scheduler. Any gluster client allowed to mount gluster volumes could also mount shared gluster storage volume and escalate privileges by scheduling malicious cronjob via symlink.
 </code>
 
 - [MauroEldritch/GEVAUDAN](https://github.com/MauroEldritch/GEVAUDAN)
@@ -24221,7 +24214,7 @@ The VRRP parser in tcpdump before 4.9.3 has a buffer over-read in print-vrrp.c:v
 ### CVE-2018-14634 (2018-09-25)
 
 <code>
-An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system.
+An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. Kernel versions 2.6.x, 3.10.x and 4.14.x are believed to be vulnerable.
 </code>
 
 - [luan0ap/cve-2018-14634](https://github.com/luan0ap/cve-2018-14634)
@@ -30188,7 +30181,7 @@ The JSON gem before 1.5.5, 1.6.x before 1.6.8, and 1.7.x before 1.7.7 for Ruby a
 ### CVE-2013-0333 (2013-01-30)
 
 <code>
-CVE-2013-0333 rubygem-activesupport: json to yaml parsing
+lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.
 </code>
 
 - [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
@@ -30272,7 +30265,7 @@ Buffer overflow in the Python bindings for the xc_vcpu_setaffinity call in Xen 4
 ### CVE-2013-2094 (2013-05-14)
 
 <code>
-CVE-2013-2094 kernel: perf_swevent_enabled array out-of-bound access
+The perf_swevent_init function in kernel/events/core.c in the Linux kernel before 3.8.9 uses an incorrect integer data type, which allows local users to gain privileges via a crafted perf_event_open system call.
 </code>
 
 - [realtalk/cve-2013-2094](https://github.com/realtalk/cve-2013-2094)
@@ -30356,7 +30349,7 @@ MySecureShell 1.31 has a Local Denial of Service Vulnerability
 ### CVE-2013-4348 (2013-11-04)
 
 <code>
-CVE-2013-4348 kernel: net: deadloop path in skb_flow_dissect()
+The skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel through 3.12 allows remote attackers to cause a denial of service (infinite loop) via a small value in the IHL field of a packet with IPIP encapsulation.
 </code>
 
 - [bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348)
@@ -30458,7 +30451,7 @@ Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows 
 ### CVE-2012-0056 (2012-01-27)
 
 <code>
-CVE-2012-0056 kernel: proc: /proc/&lt;pid&gt;/mem mem_write insufficient permission checking
+The mem_write function in the Linux kernel before 3.2.2, when ASLR is disabled, does not properly check permissions when writing to /proc/&lt;pid&gt;/mem, which allows local users to gain privileges by modifying process memory, as demonstrated by Mempodipper.
 </code>
 
 - [srclib/CVE-2012-0056](https://github.com/srclib/CVE-2012-0056)
