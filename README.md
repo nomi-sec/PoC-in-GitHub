@@ -1762,7 +1762,6 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [clemoregan/SSE4-CVE-2022-22965](https://github.com/clemoregan/SSE4-CVE-2022-22965)
 - [devengpk/CVE-2022-22965](https://github.com/devengpk/CVE-2022-22965)
 - [zangcc/CVE-2022-22965-rexbb](https://github.com/zangcc/CVE-2022-22965-rexbb)
-- [ajith737/Spring4Shell-CVE-2022-22965-POC](https://github.com/ajith737/Spring4Shell-CVE-2022-22965-POC)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -1854,7 +1853,6 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [trhacknon/CVE-2022-23131](https://github.com/trhacknon/CVE-2022-23131)
 - [SCAMagic/CVE-2022-23131poc-exp-zabbix-](https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-)
 - [Vulnmachines/Zabbix-CVE-2022-23131](https://github.com/Vulnmachines/Zabbix-CVE-2022-23131)
-- [wr0x00/cve-2022-23131](https://github.com/wr0x00/cve-2022-23131)
 - [Arrnitage/CVE-2022-23131_exp](https://github.com/Arrnitage/CVE-2022-23131_exp)
 
 ### CVE-2022-23222 (2022-01-14)
@@ -3211,7 +3209,6 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
 - [Chocapikk/CVE-2022-29455](https://github.com/Chocapikk/CVE-2022-29455)
-- [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
 - [varelsecurity/CVE-2022-29455](https://github.com/varelsecurity/CVE-2022-29455)
 
 ### CVE-2022-29464 (2022-04-18)
@@ -4667,14 +4664,6 @@ There is a SQL injection vulnerability in ZTE MF286R. Due to insufficient valida
 
 - [v0lp3/CVE-2022-39066](https://github.com/v0lp3/CVE-2022-39066)
 
-### CVE-2022-39073 (2023-01-06)
-
-<code>
-There is a command injection vulnerability in ZTE MF286R, Due to insufficient validation of the input parameters, an attacker could use the vulnerability to execute arbitrary commands.
-</code>
-
-- [v0lp3/CVE-2022-39073](https://github.com/v0lp3/CVE-2022-39073)
-
 ### CVE-2022-39196 (2022-09-04)
 
 <code>
@@ -5049,14 +5038,6 @@ Grails Spring Security Core plugin is vulnerable to privilege escalation. The vu
 
 - [grails/GSSC-CVE-2022-41923](https://github.com/grails/GSSC-CVE-2022-41923)
 
-### CVE-2022-41966 (2022-12-27)
-
-<code>
-XStream serializes Java objects to XML and back again. Versions prior to 1.4.20 may allow a remote attacker to terminate the application with a stack overflow error, resulting in a denial of service only via manipulation the processed input stream. The attack uses the hash code implementation for collections and maps to force recursive hash calculation causing a stack overflow. This issue is patched in version 1.4.20 which handles the stack overflow and raises an InputManipulationException instead. A potential workaround for users who only use HashMap or HashSet and whose XML refers these only as default map or set, is to change the default implementation of java.util.Map and java.util per the code example in the referenced advisory. However, this implies that your application does not care about the implementation of the map and all elements are comparable.
-</code>
-
-- [111ddea/Xstream_cve-2022-41966](https://github.com/111ddea/Xstream_cve-2022-41966)
-
 ### CVE-2022-42045
 - [ReCryptLLC/CVE-2022-42045](https://github.com/ReCryptLLC/CVE-2022-42045)
 
@@ -5380,8 +5361,6 @@ A reflected cross-site scripting (XSS) vulnerability in maccms10 v2022.1000.3032
 login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metacharacters in the login parameter.
 </code>
 
-- [numanturle/CVE-2022-44877](https://github.com/numanturle/CVE-2022-44877)
-- [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
 - [ColdFusionX/CVE-2022-44877-CWP7](https://github.com/ColdFusionX/CVE-2022-44877-CWP7)
 - [Chocapikk/CVE-2022-44877](https://github.com/Chocapikk/CVE-2022-44877)
 
@@ -5454,14 +5433,6 @@ Doctor Appointment Management System v1.0.0 was discovered to contain a cross-si
 </code>
 
 - [sudoninja-noob/CVE-2022-45728](https://github.com/sudoninja-noob/CVE-2022-45728)
-
-### CVE-2022-45729 (2023-01-12)
-
-<code>
-A cross-site scripting (XSS) vulnerability in Doctor Appointment Management System v1.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Employee ID parameter.
-</code>
-
-- [sudoninja-noob/CVE-2022-45729](https://github.com/sudoninja-noob/CVE-2022-45729)
 
 ### CVE-2022-45770 (2023-01-26)
 
@@ -5571,22 +5542,6 @@ An issue in Tecrail Responsive FileManager v9.9.5 and below allows attackers to 
 
 - [galoget/ResponsiveFileManager-CVE-2022-46604](https://github.com/galoget/ResponsiveFileManager-CVE-2022-46604)
 
-### CVE-2022-46622 (2023-01-12)
-
-<code>
-A cross-site scripting (XSS) vulnerability in Judging Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the firstname parameter.
-</code>
-
-- [sudoninja-noob/CVE-2022-46622](https://github.com/sudoninja-noob/CVE-2022-46622)
-
-### CVE-2022-46623 (2023-01-12)
-
-<code>
-Judging Management System v1.0.0 was discovered to contain a SQL injection vulnerability via the username parameter.
-</code>
-
-- [sudoninja-noob/CVE-2022-46623](https://github.com/sudoninja-noob/CVE-2022-46623)
-
 ### CVE-2022-46689 (2022-12-15)
 
 <code>
@@ -5605,14 +5560,6 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
 - [straight-tamago/FileSwitcherPro](https://github.com/straight-tamago/FileSwitcherPro)
 - [BomberFish/Mandela-Rewritten](https://github.com/BomberFish/Mandela-Rewritten)
-
-### CVE-2022-47102 (2023-01-12)
-
-<code>
-A cross-site scripting (XSS) vulnerability in Student Study Center Management System V 1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
-</code>
-
-- [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
 
 ### CVE-2022-47872 (2023-02-01)
 
@@ -10588,7 +10535,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
 - [lopqto/CVE-2021-41773_Honeypot](https://github.com/lopqto/CVE-2021-41773_Honeypot)
-- [vulf/CVE-2021-41773_42013](https://github.com/vulf/CVE-2021-41773_42013)
+- [zerodaywolf/CVE-2021-41773_42013](https://github.com/zerodaywolf/CVE-2021-41773_42013)
 - [qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773)
 - [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
 - [BabyTeam1024/CVE-2021-41773](https://github.com/BabyTeam1024/CVE-2021-41773)
@@ -13412,6 +13359,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
 - [LTiDi2000/CVE-2020-2551](https://github.com/LTiDi2000/CVE-2020-2551)
 - [0xAbbarhSF/CVE-Exploit](https://github.com/0xAbbarhSF/CVE-Exploit)
+- [w3security/CVE-2020-2551](https://github.com/w3security/CVE-2020-2551)
 
 ### CVE-2020-2553 (2020-04-15)
 
@@ -17623,6 +17571,14 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-36179](https://github.com/Al1ex/CVE-2020-36179)
+
+### CVE-2020-36184 (2021-01-06)
+
+<code>
+FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource.
+</code>
+
+- [Al1ex/CVE-2020-36184](https://github.com/Al1ex/CVE-2020-36184)
 
 ### CVE-2020-36188 (2021-01-06)
 
