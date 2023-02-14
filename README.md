@@ -1854,7 +1854,6 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [trhacknon/CVE-2022-23131](https://github.com/trhacknon/CVE-2022-23131)
 - [SCAMagic/CVE-2022-23131poc-exp-zabbix-](https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-)
 - [Vulnmachines/Zabbix-CVE-2022-23131](https://github.com/Vulnmachines/Zabbix-CVE-2022-23131)
-- [wr0x00/cve-2022-23131](https://github.com/wr0x00/cve-2022-23131)
 - [Arrnitage/CVE-2022-23131_exp](https://github.com/Arrnitage/CVE-2022-23131_exp)
 
 ### CVE-2022-23222 (2022-01-14)
@@ -4667,14 +4666,6 @@ There is a SQL injection vulnerability in ZTE MF286R. Due to insufficient valida
 
 - [v0lp3/CVE-2022-39066](https://github.com/v0lp3/CVE-2022-39066)
 
-### CVE-2022-39073 (2023-01-06)
-
-<code>
-There is a command injection vulnerability in ZTE MF286R, Due to insufficient validation of the input parameters, an attacker could use the vulnerability to execute arbitrary commands.
-</code>
-
-- [v0lp3/CVE-2022-39073](https://github.com/v0lp3/CVE-2022-39073)
-
 ### CVE-2022-39196 (2022-09-04)
 
 <code>
@@ -6814,7 +6805,7 @@ A potential vulnerability by a driver used during manufacturing process on some 
 ### CVE-2021-4034 (2022-01-28)
 
 <code>
-CVE-2021-4034 polkit: Local privilege escalation in pkexec due to incorrect handling of argument vector
+A local privilege escalation vulnerability was found on polkit's pkexec utility. The pkexec application is a setuid tool designed to allow unprivileged users to run commands as privileged users according predefined policies. The current version of pkexec doesn't handle the calling parameters count correctly and ends trying to execute environment variables as commands. An attacker can leverage this by crafting environment variables in such a way it'll induce pkexec to execute arbitrary code. When successfully executed the attack can cause a local privilege escalation given unprivileged users administrative rights on the target machine.
 </code>
 
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
@@ -6969,7 +6960,7 @@ CVE-2021-4034 polkit: Local privilege escalation in pkexec due to incorrect hand
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
-- [Turzum/CVE-2021-4034](https://github.com/Turzum/CVE-2021-4034)
+- [Turzum/ps-lab-cve-2021-4034](https://github.com/Turzum/ps-lab-cve-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -7291,6 +7282,7 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
 - [ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551)
+- [nanabingies/Driver-RW](https://github.com/nanabingies/Driver-RW)
 - [tijme/kernel-mii](https://github.com/tijme/kernel-mii)
 - [nanabingies/CVE-2021-21551](https://github.com/nanabingies/CVE-2021-21551)
 
