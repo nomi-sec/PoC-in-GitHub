@@ -3018,6 +3018,14 @@ An issue was discovered in Django 2.2 before 2.2.28, 3.2 before 3.2.13, and 4.0 
 - [ahsentekdemir/CVE-2022-28346](https://github.com/ahsentekdemir/CVE-2022-28346)
 - [pthlong9991/CVE-2022-28346](https://github.com/pthlong9991/CVE-2022-28346)
 
+### CVE-2022-28368 (2022-04-02)
+
+<code>
+Dompdf 1.2.1 allows remote code execution via a .php file in the src:url field of an @font-face Cascading Style Sheets (CSS) statement (within an HTML input file).
+</code>
+
+- [rvizx/CVE-2022-28368](https://github.com/rvizx/CVE-2022-28368)
+
 ### CVE-2022-28381 (2022-04-03)
 
 <code>
@@ -10623,6 +10631,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773)
 - [Chocapikk/CVE-2021-41773](https://github.com/Chocapikk/CVE-2021-41773)
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
+- [iosifache/ApacheRCEEssay](https://github.com/iosifache/ApacheRCEEssay)
 - [hab1b0x/CVE-2021-41773](https://github.com/hab1b0x/CVE-2021-41773)
 - [pwn3z/CVE-2021-41773-Apache-RCE](https://github.com/pwn3z/CVE-2021-41773-Apache-RCE)
 - [EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-](https://github.com/EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-)
@@ -25127,7 +25136,6 @@ In WinRAR versions prior to and including 5.61, There is path traversal vulnerab
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250)
 - [zeronohacker/CVE-2018-20250](https://github.com/zeronohacker/CVE-2018-20250)
-- [tzwlhack/CVE-2018-20250](https://github.com/tzwlhack/CVE-2018-20250)
 
 ### CVE-2018-20343 (2020-03-02)
 
@@ -25217,7 +25225,6 @@ In glibc 2.26 and earlier there is confusion in the usage of getcwd() by realpat
 </code>
 
 - [0x00-0x00/CVE-2018-1000001](https://github.com/0x00-0x00/CVE-2018-1000001)
-- [usernameid0/tools-for-CVE-2018-1000001](https://github.com/usernameid0/tools-for-CVE-2018-1000001)
 
 ### CVE-2018-1000006 (2018-01-24)
 
