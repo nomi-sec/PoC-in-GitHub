@@ -112,6 +112,7 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-](https://github.com/PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-)
+- [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
 
 ### CVE-2023-24610 (2023-02-01)
 
@@ -124,7 +125,7 @@ NOSH 4a5cfdb allows remote authenticated users to execute PHP arbitrary code via
 ### CVE-2023-25136 (2023-02-03)
 
 <code>
-OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be triggered by an unauthenticated attacker in the default configuration. One third-party report states &quot;remote code execution is theoretically possible.&quot;
+OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote attacker in the default configuration, to jump to any location in the sshd address space. One third-party report states &quot;remote code execution is theoretically possible.&quot;
 </code>
 
 - [jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free)
@@ -1854,6 +1855,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [trhacknon/CVE-2022-23131](https://github.com/trhacknon/CVE-2022-23131)
 - [SCAMagic/CVE-2022-23131poc-exp-zabbix-](https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-)
 - [Vulnmachines/Zabbix-CVE-2022-23131](https://github.com/Vulnmachines/Zabbix-CVE-2022-23131)
+- [wr0x00/cve-2022-23131](https://github.com/wr0x00/cve-2022-23131)
 - [Arrnitage/CVE-2022-23131_exp](https://github.com/Arrnitage/CVE-2022-23131_exp)
 
 ### CVE-2022-23222 (2022-01-14)
@@ -4665,6 +4667,14 @@ There is a SQL injection vulnerability in ZTE MF286R. Due to insufficient valida
 </code>
 
 - [v0lp3/CVE-2022-39066](https://github.com/v0lp3/CVE-2022-39066)
+
+### CVE-2022-39073 (2023-01-06)
+
+<code>
+There is a command injection vulnerability in ZTE MF286R, Due to insufficient validation of the input parameters, an attacker could use the vulnerability to execute arbitrary commands.
+</code>
+
+- [v0lp3/CVE-2022-39073](https://github.com/v0lp3/CVE-2022-39073)
 
 ### CVE-2022-39196 (2022-09-04)
 
