@@ -5395,6 +5395,7 @@ login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.
 - [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
 - [ColdFusionX/CVE-2022-44877-CWP7](https://github.com/ColdFusionX/CVE-2022-44877-CWP7)
 - [Chocapikk/CVE-2022-44877](https://github.com/Chocapikk/CVE-2022-44877)
+- [hotpotcookie/cwp-rce-white-box](https://github.com/hotpotcookie/cwp-rce-white-box)
 
 ### CVE-2022-44900 (2022-12-06)
 
@@ -5457,6 +5458,9 @@ Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows at
 </code>
 
 - [tristao-marinho/CVE-2022-45544](https://github.com/tristao-marinho/CVE-2022-45544)
+
+### CVE-2022-45701
+- [yerodin/CVE-2022-45701](https://github.com/yerodin/CVE-2022-45701)
 
 ### CVE-2022-45728 (2023-01-12)
 
@@ -6980,7 +6984,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
-- [Turzum/ps-lab-cve-2021-4034](https://github.com/Turzum/ps-lab-cve-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -25630,6 +25633,8 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 </code>
 
 - [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
