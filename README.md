@@ -15,6 +15,7 @@ Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
 - [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
+- [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-15)
 
