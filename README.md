@@ -105,6 +105,7 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 ** DISPUTED ** KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export trigger. NOTE: the vendor's position is that the password database is not intended to be secure against an attacker who has that level of access to the local PC.
 </code>
 
+- [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
 - [alt3kx/CVE-2023-24055_PoC](https://github.com/alt3kx/CVE-2023-24055_PoC)
 - [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
 - [ATTACKnDEFEND/CVE-2023-24055](https://github.com/ATTACKnDEFEND/CVE-2023-24055)
@@ -128,6 +129,7 @@ OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.
 </code>
 
 - [jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free)
+- [ticofookfook/CVE-2023-25136](https://github.com/ticofookfook/CVE-2023-25136)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -6977,7 +6979,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
-- [Turzum/ps-lab-cve-2021-4034](https://github.com/Turzum/ps-lab-cve-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
