@@ -42,6 +42,14 @@ Open Redirect in GitHub repository btcpayserver/btcpayserver prior to 1.7.6.
 
 - [gonzxph/CVE-2023-0748](https://github.com/gonzxph/CVE-2023-0748)
 
+### CVE-2023-0860 (2023-02-16)
+
+<code>
+Improper Restriction of Excessive Authentication Attempts in GitHub repository modoboa/modoboa-installer prior to 2.0.4.
+</code>
+
+- [0xsu3ks/CVE-2023-0860](https://github.com/0xsu3ks/CVE-2023-0860)
+
 ### CVE-2023-21608 (2023-01-18)
 
 <code>
@@ -5315,6 +5323,14 @@ Insufficiently Protected Credentials in the AD/LDAP server settings in 1C-Bitrix
 
 - [secware-ru/CVE-2022-43959](https://github.com/secware-ru/CVE-2022-43959)
 
+### CVE-2022-43980 (2023-01-27)
+
+<code>
+There is a stored cross-site scripting vulnerability in Pandora FMS v765 in the network maps editing functionality. An attacker could modify a network map, including on purpose the name of an XSS payload. Once created, if a user with admin privileges clicks on the edited network maps, the XSS payload will be executed. The exploitation of this vulnerability could allow an atacker to steal the value of the admin user´s cookie.
+</code>
+
+- [Argonx21/CVE-2022-43980](https://github.com/Argonx21/CVE-2022-43980)
+
 ### CVE-2022-44118 (2022-11-23)
 
 <code>
@@ -5456,6 +5472,14 @@ An issue in the IpFile argument of rust-lang webbrowser-rs v0.8.2 allows attacke
 </code>
 
 - [offalltn/CVE-2022-45299](https://github.com/offalltn/CVE-2022-45299)
+
+### CVE-2022-45436 (2023-02-14)
+
+<code>
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Artica PFMS Pandora FMS v765 on all platforms, allows Cross-Site Scripting (XSS). As a manager privilege user , create a network map containing name as xss payload. Once created, admin user must click on the edit network maps and XSS payload will be executed, which could be used for stealing admin users cookie value.
+</code>
+
+- [damodarnaik/CVE-2022-45436](https://github.com/damodarnaik/CVE-2022-45436)
 
 ### CVE-2022-45451
 - [alfarom256/CVE-2022-45451](https://github.com/alfarom256/CVE-2022-45451)
@@ -5653,6 +5677,14 @@ A cross-site scripting (XSS) vulnerability in Student Study Center Management Sy
 </code>
 
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
+
+### CVE-2022-47373 (2023-02-14)
+
+<code>
+Reflected Cross Site Scripting in Search Functionality of Module Library in Pandora FMS Console v766 and lower. This vulnerability arises on the forget password functionality in which parameter username does not proper input validation/sanitization thus results in executing malicious JavaScript payload.
+</code>
+
+- [Argonx21/CVE-2022-47373](https://github.com/Argonx21/CVE-2022-47373)
 
 ### CVE-2022-47872 (2023-02-01)
 
