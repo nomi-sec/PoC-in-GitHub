@@ -32,6 +32,7 @@ Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication 
 </code>
 
 - [0xf4n9x/CVE-2023-0669](https://github.com/0xf4n9x/CVE-2023-0669)
+- [cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669)
 
 ### CVE-2023-0748 (2023-02-08)
 
@@ -4958,6 +4959,14 @@ An unauthenticated attacker over the network can attach to an open interface exp
 </code>
 
 - [redrays-io/CVE-2022-41272](https://github.com/redrays-io/CVE-2022-41272)
+
+### CVE-2022-41343 (2022-09-25)
+
+<code>
+registerFont in FontMetrics.php in Dompdf before 2.0.1 allows remote file inclusion because a URI validation failure does not halt font registration, as demonstrated by a @font-face rule.
+</code>
+
+- [BKreisel/CVE-2022-41343](https://github.com/BKreisel/CVE-2022-41343)
 
 ### CVE-2022-41352 (2022-09-25)
 
@@ -15844,6 +15853,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 - [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
+- [kuckibf/Popular-CVEs](https://github.com/kuckibf/Popular-CVEs)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -21201,6 +21211,7 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
 - [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
+- [kuckibf/Popular-CVEs](https://github.com/kuckibf/Popular-CVEs)
 
 ### CVE-2019-17564 (2020-04-01)
 
