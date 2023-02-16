@@ -4759,6 +4759,9 @@ Panini Everest Engine 2.0.4 allows unprivileged users to create a file named Eve
 
 - [usmarine2141/CVE-2022-39959](https://github.com/usmarine2141/CVE-2022-39959)
 
+### CVE-2022-40032
+- [h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
+
 ### CVE-2022-40126 (2022-09-29)
 
 <code>
@@ -4808,6 +4811,12 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 </code>
 
 - [izdiwho/CVE-2022-40317](https://github.com/izdiwho/CVE-2022-40317)
+
+### CVE-2022-40347
+- [h4md153v63n/CVE-2022-40347_Intern-Record-System-phone-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40347_Intern-Record-System-phone-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
+
+### CVE-2022-40348
+- [h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated)
 
 ### CVE-2022-40470 (2022-11-21)
 
@@ -5404,7 +5413,6 @@ login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.
 - [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
 - [ColdFusionX/CVE-2022-44877-CWP7](https://github.com/ColdFusionX/CVE-2022-44877-CWP7)
 - [Chocapikk/CVE-2022-44877](https://github.com/Chocapikk/CVE-2022-44877)
-- [hotpotcookie/cwp-rce-white-box](https://github.com/hotpotcookie/cwp-rce-white-box)
 
 ### CVE-2022-44900 (2022-12-06)
 
@@ -12802,7 +12810,7 @@ An elevation of privilege vulnerability exists in the way that the Windows Kerne
 - [RedCursorSecurityConsulting/CVE-2020-0668](https://github.com/RedCursorSecurityConsulting/CVE-2020-0668)
 - [Nan3r/CVE-2020-0668](https://github.com/Nan3r/CVE-2020-0668)
 - [ycdxsb/CVE-2020-0668](https://github.com/ycdxsb/CVE-2020-0668)
-- [bypazs/CVE-2020-0668](https://github.com/bypazs/CVE-2020-0668)
+- [bypazs/CVE-2020-0668.exe](https://github.com/bypazs/CVE-2020-0668.exe)
 
 ### CVE-2020-0674 (2020-02-11)
 
@@ -14022,7 +14030,7 @@ A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An a
 </code>
 
 - [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
-- [cryptoconman/SecAssignment](https://github.com/cryptoconman/SecAssignment)
+- [arafatansari/SecAssignment](https://github.com/arafatansari/SecAssignment)
 - [pswalia2u/CVE-2020-7246](https://github.com/pswalia2u/CVE-2020-7246)
 
 ### CVE-2020-7247 (2020-01-29)
