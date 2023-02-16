@@ -5376,6 +5376,14 @@ PicoC Version 3.2.2 was discovered to contain a heap buffer overflow in the Stri
 
 - [Halcy0nic/CVE-2022-44318](https://github.com/Halcy0nic/CVE-2022-44318)
 
+### CVE-2022-44666 (2022-12-13)
+
+<code>
+Windows Contacts Remote Code Execution Vulnerability.
+</code>
+
+- [j00sean/CVE-2022-44666](https://github.com/j00sean/CVE-2022-44666)
+
 ### CVE-2022-44721
 - [gmh5225/CVE-2022-44721-CsFalconUninstaller](https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller)
 
@@ -9223,7 +9231,6 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not properly restrict seq buffer allocations, leading to an integer overflow, an Out-of-bounds Write, and escalation to root by an unprivileged user, aka CID-8cae8cd89f05.
 </code>
 
-- [bbinfosec43/CVE-2021-33909](https://github.com/bbinfosec43/CVE-2021-33909)
 - [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
 ### CVE-2021-33959 (2023-01-18)
@@ -10825,6 +10832,7 @@ Active Directory Domain Services Elevation of Privilege Vulnerability This CVE I
 </code>
 
 - [cube0x0/noPac](https://github.com/cube0x0/noPac)
+- [ricardojba/Invoke-noPac](https://github.com/ricardojba/Invoke-noPac)
 - [knightswd/NoPacScan](https://github.com/knightswd/NoPacScan)
 - [XiaoliChan/Invoke-sAMSpoofing](https://github.com/XiaoliChan/Invoke-sAMSpoofing)
 - [TryA9ain/noPac](https://github.com/TryA9ain/noPac)
