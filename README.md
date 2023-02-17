@@ -4837,7 +4837,12 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 - [izdiwho/CVE-2022-40317](https://github.com/izdiwho/CVE-2022-40317)
 
-### CVE-2022-40347
+### CVE-2022-40347 (-)
+
+<code>
+SQL Injection vulnerability in Intern Record System version 1.0 in /intern/controller.php in 'phone', 'email', 'deptType' and 'name' parameters, allows attackers to execute arbitrary code and gain sensitive information.
+</code>
+
 - [h4md153v63n/CVE-2022-40347_Intern-Record-System-phone-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40347_Intern-Record-System-phone-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
 ### CVE-2022-40348
@@ -13739,6 +13744,14 @@ Waitress version 1.4.2 allows a DOS attack When waitress receives a header that 
 </code>
 
 - [motikan2010/CVE-2020-5236](https://github.com/motikan2010/CVE-2020-5236)
+
+### CVE-2020-5245 (2020-02-24)
+
+<code>
+Dropwizard-Validation before 1.3.19, and 2.0.2 may allow arbitrary code execution on the host system, with the privileges of the Dropwizard service account, by injecting arbitrary Java Expression Language expressions when using the self-validating feature. The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
+</code>
+
+- [LycsHub/CVE-2020-5245](https://github.com/LycsHub/CVE-2020-5245)
 
 ### CVE-2020-5248 (2020-05-12)
 
