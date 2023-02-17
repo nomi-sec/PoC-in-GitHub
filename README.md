@@ -4784,7 +4784,12 @@ Panini Everest Engine 2.0.4 allows unprivileged users to create a file named Eve
 
 - [usmarine2141/CVE-2022-39959](https://github.com/usmarine2141/CVE-2022-39959)
 
-### CVE-2022-40032
+### CVE-2022-40032 (2023-02-17)
+
+<code>
+SQL Injection vulnerability in Simple Task Managing System version 1.0 in login.php in 'username' and 'password' parameters, allows attackers to execute arbitrary code and gain sensitive information.
+</code>
+
 - [h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40032_Simple-Task-Managing-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
 ### CVE-2022-40126 (2022-09-29)
@@ -4837,7 +4842,7 @@ OpenKM 6.3.11 allows stored XSS related to the javascript&amp;colon; substring i
 
 - [izdiwho/CVE-2022-40317](https://github.com/izdiwho/CVE-2022-40317)
 
-### CVE-2022-40347 (-)
+### CVE-2022-40347 (2023-02-17)
 
 <code>
 SQL Injection vulnerability in Intern Record System version 1.0 in /intern/controller.php in 'phone', 'email', 'deptType' and 'name' parameters, allows attackers to execute arbitrary code and gain sensitive information.
@@ -5530,7 +5535,12 @@ Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows at
 
 - [tristao-marinho/CVE-2022-45544](https://github.com/tristao-marinho/CVE-2022-45544)
 
-### CVE-2022-45701
+### CVE-2022-45701 (2023-02-17)
+
+<code>
+Arris TG2482A firmware through 9.1.103GEM9 allow Remote Code Execution (RCE) via the ping utility feature.
+</code>
+
 - [yerodin/CVE-2022-45701](https://github.com/yerodin/CVE-2022-45701)
 
 ### CVE-2022-45728 (2023-01-12)
@@ -5737,7 +5747,12 @@ Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through
 - [ACE-Responder/CVE-2022-47966_checker](https://github.com/ACE-Responder/CVE-2022-47966_checker)
 - [vonahisec/CVE-2022-47966-Scan](https://github.com/vonahisec/CVE-2022-47966-Scan)
 
-### CVE-2022-47986
+### CVE-2022-47986 (2023-02-17)
+
+<code>
+IBM Aspera Faspex 4.4.1 could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.
+</code>
+
 - [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
 - [dhina016/CVE-2022-47986](https://github.com/dhina016/CVE-2022-47986)
 
@@ -10734,6 +10749,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [12345qwert123456/CVE-2021-41773](https://github.com/12345qwert123456/CVE-2021-41773)
 - [blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution](https://github.com/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution)
 - [TheKernelPanic/exploit-apache2-cve-2021-41773](https://github.com/TheKernelPanic/exploit-apache2-cve-2021-41773)
+- [retrymp3/apache2.4.49VulnerableLabSetup](https://github.com/retrymp3/apache2.4.49VulnerableLabSetup)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -13156,6 +13172,14 @@ An elevation of privilege vulnerability exists in .NET Framework which could all
 
 - [cbwang505/CVE-2020-1066-EXP](https://github.com/cbwang505/CVE-2020-1066-EXP)
 - [xyddnljydd/cve-2020-1066](https://github.com/xyddnljydd/cve-2020-1066)
+
+### CVE-2020-1102 (2020-05-21)
+
+<code>
+A remote code execution vulnerability exists in Microsoft SharePoint when the software fails to check the source markup of an application package, aka 'Microsoft SharePoint Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-1023, CVE-2020-1024.
+</code>
+
+- [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 
 ### CVE-2020-1206 (2020-06-09)
 
@@ -19882,6 +19906,7 @@ jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishan
 
 - [DanielRuf/snyk-js-jquery-174006](https://github.com/DanielRuf/snyk-js-jquery-174006)
 - [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
+- [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 - [chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020](https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020)
 - [Snorlyd/https-nj.gov---CVE-2019-11358](https://github.com/Snorlyd/https-nj.gov---CVE-2019-11358)
 
@@ -24217,7 +24242,7 @@ An Improper Authorization vulnerability in Fortinet FortiOS 6.0.0 to 6.0.4, 5.6.
 </code>
 
 - [milo2012/CVE-2018-13382](https://github.com/milo2012/CVE-2018-13382)
-- [tumikoto/exploit-fortinetmagicbackdoor](https://github.com/tumikoto/exploit-fortinetmagicbackdoor)
+- [tumikoto/Exploit-FortinetMagicBackdoor](https://github.com/tumikoto/Exploit-FortinetMagicBackdoor)
 
 ### CVE-2018-13405 (2018-07-06)
 
