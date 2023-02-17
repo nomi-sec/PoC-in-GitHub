@@ -68,6 +68,14 @@ Windows Backup Service Elevation of Privilege Vulnerability.
 
 - [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 
+### CVE-2023-21753 (2023-01-10)
+
+<code>
+Event Tracing for Windows Information Disclosure Vulnerability. This CVE ID is unique from CVE-2023-21536.
+</code>
+
+- [timpen432/-Wh0Am1001-CVE-2023-21753](https://github.com/timpen432/-Wh0Am1001-CVE-2023-21753)
+
 ### CVE-2023-22809 (2023-01-18)
 
 <code>
