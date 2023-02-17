@@ -101,6 +101,14 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 
 - [r3nt0n/CVE-2023-23488-PoC](https://github.com/r3nt0n/CVE-2023-23488-PoC)
 
+### CVE-2023-23752 (2023-02-16)
+
+<code>
+An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
+</code>
+
+- [DanielRuf/CVE-2023-23752](https://github.com/DanielRuf/CVE-2023-23752)
+
 ### CVE-2023-23924 (2023-01-31)
 
 <code>
@@ -698,6 +706,7 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 
 ### CVE-2022-1609
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
+- [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
 
 ### CVE-2022-1679 (2022-05-16)
@@ -25064,7 +25073,7 @@ A vulnerability was found in Portainer before 1.20.0. Portainer stores LDAP cred
 The WP-jobhunt plugin before version 2.4 for WordPress does not control AJAX requests sent to the cs_employer_ajax_profile() function through the admin-ajax.php file, which allows remote unauthenticated attackers to enumerate information about users.
 </code>
 
-- [Antho59/wp-jobhunt-exploit](https://github.com/Antho59/wp-jobhunt-exploit)
+- [YOLOP0wn/wp-jobhunt-exploit](https://github.com/YOLOP0wn/wp-jobhunt-exploit)
 
 ### CVE-2018-19518 (2018-11-25)
 
