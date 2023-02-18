@@ -9173,7 +9173,7 @@ check-spelling is a github action which provides CI spell checking. In affected 
 woocommerce-gutenberg-products-block is a feature plugin for WooCommerce Gutenberg Blocks. An SQL injection vulnerability impacts all WooCommerce sites running the WooCommerce Blocks feature plugin between version 2.5.0 and prior to version 2.5.16. Via a carefully crafted URL, an exploit can be executed against the `wc/store/products/collection-data?calculate_attribute_counts[][taxonomy]` endpoint that allows the execution of a read only sql query. There are patches for many versions of this package, starting with version 2.5.16. There are no known workarounds aside from upgrading.
 </code>
 
-- [andnorack/CVE-2021-32789](https://github.com/andnorack/CVE-2021-32789)
+- [and0x00/CVE-2021-32789](https://github.com/and0x00/CVE-2021-32789)
 
 ### CVE-2021-32804 (2021-08-03)
 
@@ -9300,6 +9300,7 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not properly restrict seq buffer allocations, leading to an integer overflow, an Out-of-bounds Write, and escalation to root by an unprivileged user, aka CID-8cae8cd89f05.
 </code>
 
+- [bbinfosec43/CVE-2021-33909](https://github.com/bbinfosec43/CVE-2021-33909)
 - [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
 ### CVE-2021-33959 (2023-01-18)
