@@ -33,6 +33,7 @@ Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication 
 
 - [0xf4n9x/CVE-2023-0669](https://github.com/0xf4n9x/CVE-2023-0669)
 - [cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669)
+- [yosef0x01/CVE-2023-0669](https://github.com/yosef0x01/CVE-2023-0669)
 
 ### CVE-2023-0748 (2023-02-08)
 
@@ -116,6 +117,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 </code>
 
 - [DanielRuf/CVE-2023-23752](https://github.com/DanielRuf/CVE-2023-23752)
+- [YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -275,6 +277,7 @@ A vulnerability was found in the Linux kernel’s cgroup_release_agent_write in 
 - [chenaotian/CVE-2022-0492](https://github.com/chenaotian/CVE-2022-0492)
 - [Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2022-0492](https://github.com/Trinadh465/device_renesas_kernel_AOSP10_r33_CVE-2022-0492)
 - [yoeelingBin/CVE-2022-0492-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0492-Container-Escape)
+- [T1erno/CVE-2022-0492-Docker-Breakout-Checker-and-PoC](https://github.com/T1erno/CVE-2022-0492-Docker-Breakout-Checker-and-PoC)
 
 ### CVE-2022-0529 (2022-02-09)
 
@@ -4850,7 +4853,12 @@ SQL Injection vulnerability in Intern Record System version 1.0 in /intern/contr
 
 - [h4md153v63n/CVE-2022-40347_Intern-Record-System-phone-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40347_Intern-Record-System-phone-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
-### CVE-2022-40348
+### CVE-2022-40348 (2023-02-17)
+
+<code>
+Cross Site Scripting (XSS) vulnerability in Intern Record System version 1.0 in /intern/controller.php in 'name' and 'email' parameters, allows attackers to execute arbitrary code.
+</code>
+
 - [h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated)
 
 ### CVE-2022-40470 (2022-11-21)
