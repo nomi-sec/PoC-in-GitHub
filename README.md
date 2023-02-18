@@ -335,6 +335,7 @@ The BookingPress WordPress plugin before 1.0.11 fails to properly sanitize user 
 - [hadrian3689/wp_bookingpress_1.0.11](https://github.com/hadrian3689/wp_bookingpress_1.0.11)
 - [Ki11i0n4ir3/CVE-2022-0739](https://github.com/Ki11i0n4ir3/CVE-2022-0739)
 - [viardant/CVE-2022-0739](https://github.com/viardant/CVE-2022-0739)
+- [ElGanz0/CVE-2022-0739](https://github.com/ElGanz0/CVE-2022-0739)
 
 ### CVE-2022-0778 (2022-03-15)
 
@@ -3952,6 +3953,12 @@ Codoforum v5.1 was discovered to contain an arbitrary file upload vulnerability 
 
 - [Vikaran101/CVE-2022-31854](https://github.com/Vikaran101/CVE-2022-31854)
 
+### CVE-2022-31889
+- [reewardius/CVE-2022-31889](https://github.com/reewardius/CVE-2022-31889)
+
+### CVE-2022-31890
+- [reewardius/CVE-2022-31890](https://github.com/reewardius/CVE-2022-31890)
+
 ### CVE-2022-31897 (2022-06-28)
 
 <code>
@@ -4016,6 +4023,14 @@ WolfSSH v1.4.7 was discovered to contain an integer overflow via the function wo
 
 - [mgregus/project_BIT_nmap_script](https://github.com/mgregus/project_BIT_nmap_script)
 
+### CVE-2022-32074 (2022-07-13)
+
+<code>
+A stored cross-site scripting (XSS) vulnerability in the component audit/class.audit.php of osTicket-plugins - Storage-FS before commit a7842d494889fd5533d13deb3c6a7789768795ae allows attackers to execute arbitrary web scripts or HTML via a crafted SVG file.
+</code>
+
+- [reewardius/CVE-2022-32074](https://github.com/reewardius/CVE-2022-32074)
+
 ### CVE-2022-32114 (2022-07-13)
 
 <code>
@@ -4040,6 +4055,9 @@ Arox School ERP Pro v1.0 was discovered to contain multiple arbitrary file uploa
 
 - [JC175/CVE-2022-32119](https://github.com/JC175/CVE-2022-32119)
 - [trhacknon/CVE-2022-32119](https://github.com/trhacknon/CVE-2022-32119)
+
+### CVE-2022-32132
+- [reewardius/CVE-2022-32132](https://github.com/reewardius/CVE-2022-32132)
 
 ### CVE-2022-32223 (2022-07-14)
 
@@ -5759,7 +5777,7 @@ Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through
 ### CVE-2022-47986 (2023-02-17)
 
 <code>
-IBM Aspera Faspex 4.4.1 could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.
+IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.
 </code>
 
 - [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
@@ -13341,6 +13359,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Rvn0xsy/ZeroLogon](https://github.com/Rvn0xsy/ZeroLogon)
 - [guglia001/MassZeroLogon](https://github.com/guglia001/MassZeroLogon)
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
+- [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
 
 ### CVE-2020-1473 (2020-08-17)
 
