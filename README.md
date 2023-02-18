@@ -118,6 +118,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 
 - [DanielRuf/CVE-2023-23752](https://github.com/DanielRuf/CVE-2023-23752)
 - [YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752)
+- [Saboor-Hakimi/CVE-2023-23752](https://github.com/Saboor-Hakimi/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
