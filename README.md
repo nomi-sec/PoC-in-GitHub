@@ -169,9 +169,6 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
-### CVE-2023-232323
-- [Shmily-ing/CVE-2023-232323](https://github.com/Shmily-ing/CVE-2023-232323)
-
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
@@ -2521,6 +2518,14 @@ In Expat (aka libexpat) before 2.4.5, there is an integer overflow in storeRawNa
 </code>
 
 - [ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25315](https://github.com/ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25315)
+
+### CVE-2022-25365 (2022-02-18)
+
+<code>
+Docker Desktop before 4.5.1 on Windows allows attackers to move arbitrary files. NOTE: this issue exists because of an incomplete fix for CVE-2022-23774.
+</code>
+
+- [followboy1999/CVE-2022-25365](https://github.com/followboy1999/CVE-2022-25365)
 
 ### CVE-2022-25375 (2022-02-20)
 
@@ -6996,7 +7001,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [sunny0day/CVE-2021-4034](https://github.com/sunny0day/CVE-2021-4034)
 - [artemis-mike/cve-2021-4034](https://github.com/artemis-mike/cve-2021-4034)
 - [whokilleddb/CVE-2021-4034](https://github.com/whokilleddb/CVE-2021-4034)
-- [dadvlingd/-CVE-2021-4034](https://github.com/dadvlingd/-CVE-2021-4034)
+- [dadvlingd/CVE-2021-4034](https://github.com/dadvlingd/CVE-2021-4034)
 - [zcrosman/cve-2021-4034](https://github.com/zcrosman/cve-2021-4034)
 - [robemmerson/CVE-2021-4034](https://github.com/robemmerson/CVE-2021-4034)
 - [joeammond/CVE-2021-4034](https://github.com/joeammond/CVE-2021-4034)
@@ -7188,14 +7193,6 @@ A flaw was found in grub2 in versions prior to 2.06. Setparam_prefix() in the me
 </code>
 
 - [pauljrowland/BootHoleFix](https://github.com/pauljrowland/BootHoleFix)
-
-### CVE-2021-20294 (2021-04-29)
-
-<code>
-A flaw was found in binutils readelf 2.35 program. An attacker who is able to convince a victim using readelf to read a crafted file could trigger a stack buffer overflow, out-of-bounds write of arbitrary data supplied by the attacker. The highest impact of this flaw is to confidentiality, integrity, and availability.
-</code>
-
-- [tin-z/CVE-2021-20294-POC](https://github.com/tin-z/CVE-2021-20294-POC)
 
 ### CVE-2021-20323 (2022-03-25)
 
@@ -10132,7 +10129,6 @@ In Task.java, there is a possible escalation of privilege due to a confused depu
 </code>
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2021-39696](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2021-39696)
-- [nidhihcl/frameworks_base_AOSP_10_r33_CVE-2021-39696](https://github.com/nidhihcl/frameworks_base_AOSP_10_r33_CVE-2021-39696)
 
 ### CVE-2021-39704 (2022-03-16)
 
@@ -11918,7 +11914,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [srcporter/CVE-2021-44228](https://github.com/srcporter/CVE-2021-44228)
 - [trhacknon/CVE-2021-44228-Scanner](https://github.com/trhacknon/CVE-2021-44228-Scanner)
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
-- [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
 
 ### CVE-2021-44255 (2022-01-31)
@@ -20962,7 +20957,7 @@ An exploitable local privilege escalation vulnerability exists in the GalaxyClie
 The Privacy &gt; Phone Number feature in the Telegram app 5.10 for Android and iOS provides an incorrect indication that the access level is Nobody, because attackers can find these numbers via the Group Info feature, e.g., by adding a significant fraction of a region's assigned phone numbers.
 </code>
 
-- [graysuit/CVE-2019-15514](https://github.com/graysuit/CVE-2019-15514)
+- [bibi1959/CVE-2019-15514](https://github.com/bibi1959/CVE-2019-15514)
 
 ### CVE-2019-15588 (2019-11-01)
 
