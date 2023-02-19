@@ -169,6 +169,9 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
+### CVE-2023-232323
+- [Shmily-ing/CVE-2023-232323](https://github.com/Shmily-ing/CVE-2023-232323)
+
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
