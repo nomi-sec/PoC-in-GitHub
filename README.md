@@ -61,6 +61,14 @@ Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earl
 - [PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT](https://github.com/PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT)
 - [Malwareman007/CVE-2023-21608](https://github.com/Malwareman007/CVE-2023-21608)
 
+### CVE-2023-21739 (2023-01-10)
+
+<code>
+Windows Bluetooth Driver Elevation of Privilege Vulnerability.
+</code>
+
+- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
+
 ### CVE-2023-21752 (2023-01-10)
 
 <code>
@@ -84,6 +92,14 @@ In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra argument
 </code>
 
 - [n3m1dotsys/CVE-2023-22809-sudoedit-privesc](https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc)
+
+### CVE-2023-22941 (2023-02-14)
+
+<code>
+In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, an improperly-formatted ‘INGEST_EVAL’ parameter in a [Field Transformation](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Managefieldtransforms) crashes the Splunk daemon (splunkd).
+</code>
+
+- [eduardosantos1989/CVE-2023-22941](https://github.com/eduardosantos1989/CVE-2023-22941)
 
 ### CVE-2023-22960 (2023-01-23)
 
@@ -144,6 +160,14 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-](https://github.com/PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
+
+### CVE-2023-24059 (2023-01-22)
+
+<code>
+Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
+</code>
+
+- [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
 
 ### CVE-2023-24610 (2023-02-01)
 
@@ -913,6 +937,14 @@ A vulnerability was found in SourceCodester Book Store Management System 1.0. It
 </code>
 
 - [kenyon-wong/cve-2022-3452](https://github.com/kenyon-wong/cve-2022-3452)
+
+### CVE-2022-3464 (2022-10-12)
+
+<code>
+A vulnerability classified as problematic has been found in puppyCMS up to 5.1. This affects an unknown part of the file /admin/settings.php. The manipulation of the argument site_name leads to cross site scripting. It is possible to initiate the attack remotely. The associated identifier of this vulnerability is VDB-210699.
+</code>
+
+- [GYLQ/CVE-2022-3464](https://github.com/GYLQ/CVE-2022-3464)
 
 ### CVE-2022-3518 (2022-10-15)
 
@@ -2916,6 +2948,14 @@ Caphyon Ltd Advanced Installer 19.3 and earlier and many products that use the u
 
 - [gerr-re/cve-2022-27438](https://github.com/gerr-re/cve-2022-27438)
 
+### CVE-2022-27456 (2022-04-14)
+
+<code>
+MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component VDec::VDec at /sql/sql_type.cc.
+</code>
+
+- [SanjayTutorial307/CVE-2022-27456](https://github.com/SanjayTutorial307/CVE-2022-27456)
+
 ### CVE-2022-27499 (2022-11-11)
 
 <code>
@@ -3229,6 +3269,14 @@ An issue was discovered in rsync before 3.2.5 that allows malicious remote serve
 </code>
 
 - [EgeBalci/CVE-2022-29154](https://github.com/EgeBalci/CVE-2022-29154)
+
+### CVE-2022-29170 (2022-05-20)
+
+<code>
+Grafana is an open-source platform for monitoring and observability. In Grafana Enterprise, the Request security feature allows list allows to configure Grafana in a way so that the instance doesn’t call or only calls specific hosts. The vulnerability present starting with version 7.4.0-beta1 and prior to versions 7.5.16 and 8.5.3 allows someone to bypass these security configurations if a malicious datasource (running on an allowed host) returns an HTTP redirect to a forbidden host. The vulnerability only impacts Grafana Enterprise when the Request security allow list is used and there is a possibility to add a custom datasource to Grafana which returns HTTP redirects. In this scenario, Grafana would blindly follow the redirects and potentially give secure information to the clients. Grafana Cloud is not impacted by this vulnerability. Versions 7.5.16 and 8.5.3 contain a patch for this issue. There are currently no known workarounds.
+</code>
+
+- [yijikeji/CVE-2022-29170](https://github.com/yijikeji/CVE-2022-29170)
 
 ### CVE-2022-29221 (2022-05-24)
 
@@ -4235,6 +4283,14 @@ PicoC v3.2.2 was discovered to contain a NULL pointer dereference at variable.c.
 
 - [Halcy0nic/CVE-2022-34556](https://github.com/Halcy0nic/CVE-2022-34556)
 
+### CVE-2022-34683 (2022-12-30)
+
+<code>
+NVIDIA GPU Display Driver for Windows contains a vulnerability in the kernel mode layer (nvlddmkm.sys) handler for DxgkDdiEscape, where a null-pointer dereference occurs, which may lead to denial of service.
+</code>
+
+- [gmh5225/CVE-2022-34683](https://github.com/gmh5225/CVE-2022-34683)
+
 ### CVE-2022-34715 (2022-08-09)
 
 <code>
@@ -4745,6 +4801,14 @@ PHPGurukul Blood Donor Management System 1.0 does not properly restrict access t
 
 - [RashidKhanPathan/CVE-2022-38813](https://github.com/RashidKhanPathan/CVE-2022-38813)
 
+### CVE-2022-39066 (2022-11-22)
+
+<code>
+There is a SQL injection vulnerability in ZTE MF286R. Due to insufficient validation of the input parameters of the phonebook interface, an authenticated attacker could use the vulnerability to execute arbitrary SQL injection.
+</code>
+
+- [v0lp3/CVE-2022-39066](https://github.com/v0lp3/CVE-2022-39066)
+
 ### CVE-2022-39073 (2023-01-06)
 
 <code>
@@ -4816,6 +4880,14 @@ SAP Manufacturing Execution - versions 15.1, 15.2, 15.3, allows an attacker to e
 
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
+
+### CVE-2022-39844 (2022-09-09)
+
+<code>
+Improper validation of integrity check vulnerability in Smart Switch PC prior to version 4.3.22083 allows local attackers to delete arbitrary directory using directory junction.
+</code>
+
+- [lemon-42/CVE-2022-39844](https://github.com/lemon-42/CVE-2022-39844)
 
 ### CVE-2022-39952 (2023-02-16)
 
@@ -4907,6 +4979,14 @@ Cross Site Scripting (XSS) vulnerability in Intern Record System version 1.0 in 
 
 - [h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated)
 
+### CVE-2022-40363 (2022-09-29)
+
+<code>
+A buffer overflow in the component nfc_device_load_mifare_ul_data of Flipper Devices Inc., Flipper Zero before v0.65.2 allows attackers to cause a Denial of Service (DoS) via a crafted NFC file.
+</code>
+
+- [Olafdaf/CVE-2022-40363](https://github.com/Olafdaf/CVE-2022-40363)
+
 ### CVE-2022-40470 (2022-11-21)
 
 <code>
@@ -4976,6 +5056,14 @@ Cross-Site Request Forgery (CSRF) vulnerability in Creative Mail plugin &lt;= 1.
 </code>
 
 - [williamkhepri/CVE-2022-40687-metasploit-scanner](https://github.com/williamkhepri/CVE-2022-40687-metasploit-scanner)
+
+### CVE-2022-40769 (2022-09-18)
+
+<code>
+profanity through 1.60 has only four billion possible RNG initializations. Thus, attackers can recover private keys from Ethereum vanity addresses and steal cryptocurrency, as exploited in the wild in June 2022.
+</code>
+
+- [PLSRcoin/CVE-2022-40769](https://github.com/PLSRcoin/CVE-2022-40769)
 
 ### CVE-2022-40916
 - [whitej3rry/CVE-2022-40916](https://github.com/whitej3rry/CVE-2022-40916)
@@ -5400,6 +5488,7 @@ In Splunk Enterprise versions below 8.2.9, 8.1.12, and 9.0.2, an authenticated u
 In libexpat through 2.4.9, there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate in out-of-memory situations.
 </code>
 
+- [nidhi7598/external_expat_AOSP10_r33_CVE-2022-43680](https://github.com/nidhi7598/external_expat_AOSP10_r33_CVE-2022-43680)
 - [nidhi7598/expat_2.1.0_CVE-2022-43680](https://github.com/nidhi7598/expat_2.1.0_CVE-2022-43680)
 - [Trinadh465/external_expat-2.1.0_CVE-2022-43680](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-43680)
 - [nidhihcl/external_expat_2.1.0_CVE-2022-43680](https://github.com/nidhihcl/external_expat_2.1.0_CVE-2022-43680)
@@ -10215,6 +10304,14 @@ An issue was discovered in Concrete CMS before 8.5.7. The Dashboard allows a use
 
 - [S1lkys/CVE-2021-40101](https://github.com/S1lkys/CVE-2021-40101)
 
+### CVE-2021-40113 (2021-11-04)
+
+<code>
+Multiple vulnerabilities in the web-based management interface of the Cisco Catalyst Passive Optical Network (PON) Series Switches Optical Network Terminal (ONT) could allow an unauthenticated, remote attacker to perform the following actions: Log in with a default credential if the Telnet protocol is enabled Perform command injection Modify the configuration For more information about these vulnerabilities, see the Details section of this advisory.
+</code>
+
+- [karamMahmad/CVE-2021-40113](https://github.com/karamMahmad/CVE-2021-40113)
+
 ### CVE-2021-40154 (2021-12-01)
 
 <code>
@@ -10937,6 +11034,14 @@ MasaCMS 7.2.1 is affected by a path traversal vulnerability in /index.cfm/_api/a
 </code>
 
 - [0xRaw/CVE-2021-42183](https://github.com/0xRaw/CVE-2021-42183)
+
+### CVE-2021-42205 (2022-11-07)
+
+<code>
+ELAN Miniport touchpad Windows driver before 24.21.51.2, as used in PC hardware from multiple manufacturers, allows local users to cause a system crash by sending a certain IOCTL request, because that request is handled twice.
+</code>
+
+- [gmh5225/CVE-2021-42205](https://github.com/gmh5225/CVE-2021-42205)
 
 ### CVE-2021-42230 (2022-04-15)
 
@@ -15135,6 +15240,14 @@ GitLab EE/CE 8.5 to 12.9 is vulnerable to a an path traversal when moving an iss
 - [lisp3r/cve-2020-10977-read-and-execute](https://github.com/lisp3r/cve-2020-10977-read-and-execute)
 - [vandycknick/gitlab-cve-2020-10977](https://github.com/vandycknick/gitlab-cve-2020-10977)
 
+### CVE-2020-11019 (2020-05-29)
+
+<code>
+In FreeRDP less than or equal to 2.0.0, when running with logger set to &quot;WLOG_TRACE&quot;, a possible crash of application could occur due to a read of an invalid array index. Data could be printed as string to local terminal. This has been fixed in 2.1.0.
+</code>
+
+- [Lixterclarixe/CVE-2020-11019](https://github.com/Lixterclarixe/CVE-2020-11019)
+
 ### CVE-2020-11022 (2020-04-29)
 
 <code>
@@ -17866,6 +17979,14 @@ jackson-databind before 2.13.0 allows a Java StackOverflow exception and denial 
 </code>
 
 - [ghillert/boot-jackson-cve](https://github.com/ghillert/boot-jackson-cve)
+
+### CVE-2020-36603 (2022-09-14)
+
+<code>
+The HoYoVerse (formerly miHoYo) Genshin Impact mhyprot2.sys 1.0.0.0 anti-cheat driver does not adequately restrict unprivileged function calls, allowing local, unprivileged users to execute arbitrary code with SYSTEM privileges on Microsoft Windows systems. The mhyprot2.sys driver must first be installed by a user with administrative privileges.
+</code>
+
+- [gmh5225/CVE-2020-36603](https://github.com/gmh5225/CVE-2020-36603)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
