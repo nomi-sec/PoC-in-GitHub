@@ -4807,6 +4807,14 @@ SAP Manufacturing Execution - versions 15.1, 15.2, 15.3, allows an attacker to e
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
 
+### CVE-2022-39952 (2023-02-16)
+
+<code>
+A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.
+</code>
+
+- [Florian-R0th/CVE-2022-39952](https://github.com/Florian-R0th/CVE-2022-39952)
+
 ### CVE-2022-39959 (2022-10-07)
 
 <code>
@@ -5270,6 +5278,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [pwnb0y/Text4shell-exploit](https://github.com/pwnb0y/Text4shell-exploit)
 - [gokul-ramesh/text4shell-exploit](https://github.com/gokul-ramesh/text4shell-exploit)
 - [f0ng/text4shellburpscanner](https://github.com/f0ng/text4shellburpscanner)
+- [WFS-Mend/vtrade-common](https://github.com/WFS-Mend/vtrade-common)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -7193,6 +7202,14 @@ A flaw was found in grub2 in versions prior to 2.06. Setparam_prefix() in the me
 </code>
 
 - [pauljrowland/BootHoleFix](https://github.com/pauljrowland/BootHoleFix)
+
+### CVE-2021-20294 (2021-04-29)
+
+<code>
+A flaw was found in binutils readelf 2.35 program. An attacker who is able to convince a victim using readelf to read a crafted file could trigger a stack buffer overflow, out-of-bounds write of arbitrary data supplied by the attacker. The highest impact of this flaw is to confidentiality, integrity, and availability.
+</code>
+
+- [tin-z/CVE-2021-20294-POC](https://github.com/tin-z/CVE-2021-20294-POC)
 
 ### CVE-2021-20323 (2022-03-25)
 
@@ -10129,6 +10146,7 @@ In Task.java, there is a possible escalation of privilege due to a confused depu
 </code>
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2021-39696](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2021-39696)
+- [nidhihcl/frameworks_base_AOSP_10_r33_CVE-2021-39696](https://github.com/nidhihcl/frameworks_base_AOSP_10_r33_CVE-2021-39696)
 
 ### CVE-2021-39704 (2022-03-16)
 
@@ -11914,6 +11932,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [srcporter/CVE-2021-44228](https://github.com/srcporter/CVE-2021-44228)
 - [trhacknon/CVE-2021-44228-Scanner](https://github.com/trhacknon/CVE-2021-44228-Scanner)
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
+- [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
 
 ### CVE-2021-44255 (2022-01-31)
