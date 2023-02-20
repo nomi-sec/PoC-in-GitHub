@@ -120,6 +120,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752)
 - [Saboor-Hakimi/CVE-2023-23752](https://github.com/Saboor-Hakimi/CVE-2023-23752)
 - [WhiteOwl-Pub/CVE-2023-23752](https://github.com/WhiteOwl-Pub/CVE-2023-23752)
+- [Vulnmachines/joomla_CVE-2023-23752](https://github.com/Vulnmachines/joomla_CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -617,6 +618,7 @@ The Elementor Website Builder plugin for WordPress is vulnerable to unauthorized
 - [AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit](https://github.com/AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit)
 - [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
 - [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
+- [dexit/CVE-2022-1329](https://github.com/dexit/CVE-2022-1329)
 
 ### CVE-2022-1388 (2022-05-05)
 
@@ -1211,6 +1213,14 @@ In getEnabledAccessibilityServiceList of AccessibilityManager.java, there is a p
 </code>
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20495](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20495)
+
+### CVE-2022-20607 (2022-12-16)
+
+<code>
+In the Pixel cellular firmware, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with LTE authentication needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-238914868References: N/A
+</code>
+
+- [sumeetIT/CVE-2022-20607](https://github.com/sumeetIT/CVE-2022-20607)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -4534,6 +4544,14 @@ nfqnl_mangle in net/netfilter/nfnetlink_queue.c in the Linux kernel through 5.18
 - [Pwnzer0tt1/CVE-2022-36946](https://github.com/Pwnzer0tt1/CVE-2022-36946)
 - [Satheesh575555/linux-4.19.72_CVE-2022-36946](https://github.com/Satheesh575555/linux-4.19.72_CVE-2022-36946)
 
+### CVE-2022-37032 (2022-09-19)
+
+<code>
+An out-of-bounds read in the BGP daemon of FRRouting FRR before 8.4 may lead to a segmentation fault and denial of service. This occurs in bgp_capability_msg_parse in bgpd/bgp_packet.c.
+</code>
+
+- [spwpun/CVE-2022-37032](https://github.com/spwpun/CVE-2022-37032)
+
 ### CVE-2022-37042 (2022-08-11)
 
 <code>
@@ -4726,14 +4744,6 @@ PHPGurukul Blood Donor Management System 1.0 does not properly restrict access t
 </code>
 
 - [RashidKhanPathan/CVE-2022-38813](https://github.com/RashidKhanPathan/CVE-2022-38813)
-
-### CVE-2022-39066 (2022-11-22)
-
-<code>
-There is a SQL injection vulnerability in ZTE MF286R. Due to insufficient validation of the input parameters of the phonebook interface, an authenticated attacker could use the vulnerability to execute arbitrary SQL injection.
-</code>
-
-- [v0lp3/CVE-2022-39066](https://github.com/v0lp3/CVE-2022-39066)
 
 ### CVE-2022-39073 (2023-01-06)
 
@@ -4994,6 +5004,14 @@ Windows Mark of the Web Security Feature Bypass Vulnerability. This CVE ID is un
 
 - [NathanScottGithub/CVE-2022-41049-POC](https://github.com/NathanScottGithub/CVE-2022-41049-POC)
 
+### CVE-2022-41076 (2022-12-13)
+
+<code>
+PowerShell Remote Code Execution Vulnerability.
+</code>
+
+- [5l1v3r1/CVE-2022-41076](https://github.com/5l1v3r1/CVE-2022-41076)
+
 ### CVE-2022-41080 (2022-11-09)
 
 <code>
@@ -5023,6 +5041,14 @@ BitLocker Security Feature Bypass Vulnerability.
 - [halsey51013/UpdateWindowsRE-CVE-2022-41099](https://github.com/halsey51013/UpdateWindowsRE-CVE-2022-41099)
 - [o0MattE0o/CVE-2022-41099-Fix](https://github.com/o0MattE0o/CVE-2022-41099-Fix)
 - [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
+
+### CVE-2022-41114 (2022-11-09)
+
+<code>
+Windows Bind Filter Driver Elevation of Privilege Vulnerability.
+</code>
+
+- [gmh5225/CVE-2022-41114](https://github.com/gmh5225/CVE-2022-41114)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -5374,7 +5400,6 @@ In Splunk Enterprise versions below 8.2.9, 8.1.12, and 9.0.2, an authenticated u
 In libexpat through 2.4.9, there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate in out-of-memory situations.
 </code>
 
-- [nidhi7598/external_expat_AOSP10_r33_CVE-2022-43680](https://github.com/nidhi7598/external_expat_AOSP10_r33_CVE-2022-43680)
 - [nidhi7598/expat_2.1.0_CVE-2022-43680](https://github.com/nidhi7598/expat_2.1.0_CVE-2022-43680)
 - [Trinadh465/external_expat-2.1.0_CVE-2022-43680](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-43680)
 - [nidhihcl/external_expat_2.1.0_CVE-2022-43680](https://github.com/nidhihcl/external_expat_2.1.0_CVE-2022-43680)
@@ -5738,6 +5763,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [zhuowei/MacDirtyCowDemo](https://github.com/zhuowei/MacDirtyCowDemo)
 - [straight-tamago/NoCameraSound](https://github.com/straight-tamago/NoCameraSound)
 - [ginsudev/WDBFontOverwrite](https://github.com/ginsudev/WDBFontOverwrite)
+- [spinfal/CVE-2022-46689](https://github.com/spinfal/CVE-2022-46689)
 - [mineek/FileManager](https://github.com/mineek/FileManager)
 - [straight-tamago/NoHomeBar](https://github.com/straight-tamago/NoHomeBar)
 - [straight-tamago/DockTransparent](https://github.com/straight-tamago/DockTransparent)
@@ -10518,6 +10544,14 @@ keypair is a a RSA PEM key generator written in javascript. keypair implements a
 </code>
 
 - [badkeys/keypairvuln](https://github.com/badkeys/keypairvuln)
+
+### CVE-2021-41160 (2021-10-21)
+
+<code>
+FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. In affected versions a malicious server might trigger out of bound writes in a connected client. Connections using GDI or SurfaceCommands to send graphics updates to the client might send `0` width/height or out of bound rectangles to trigger out of bound writes. With `0` width or heigth the memory allocation will be `0` but the missing bounds checks allow writing to the pointer at this (not allocated) region. This issue has been patched in FreeRDP 2.4.1.
+</code>
+
+- [Jajangjaman/CVE-2021-41160](https://github.com/Jajangjaman/CVE-2021-41160)
 
 ### CVE-2021-41184 (2021-10-26)
 
