@@ -5455,6 +5455,7 @@ html2xhtml v1.3 was discovered to contain an Out-Of-Bounds read in the function 
 </code>
 
 - [Halcy0nic/CVE-2022-44311](https://github.com/Halcy0nic/CVE-2022-44311)
+- [DesmondSanctity/Out-Of-Bounds-read-in-html2xhtml-v1.3-CVE-2022-44311](https://github.com/DesmondSanctity/Out-Of-Bounds-read-in-html2xhtml-v1.3-CVE-2022-44311)
 
 ### CVE-2022-44318 (2022-11-08)
 
