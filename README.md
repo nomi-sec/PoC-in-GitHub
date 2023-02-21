@@ -7239,6 +7239,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
+- [k4u5h41/CVE-2021-4034_Python3](https://github.com/k4u5h41/CVE-2021-4034_Python3)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -14360,6 +14361,7 @@ Rapid7's Metasploit msfvenom framework handles APK files in a way that allows fo
 </code>
 
 - [nikhil1232/CVE-2020-7384](https://github.com/nikhil1232/CVE-2020-7384)
+- [0xCarsonS/CVE-2020-7384](https://github.com/0xCarsonS/CVE-2020-7384)
 
 ### CVE-2020-7461 (2021-03-26)
 
@@ -27043,7 +27045,7 @@ Util/PHP/eval-stdin.php in PHPUnit before 4.8.28 and 5.x before 5.6.3 allows rem
 - [RandomRobbieBF/phpunit-brute](https://github.com/RandomRobbieBF/phpunit-brute)
 - [cyberharsh/Php-unit-CVE-2017-9841](https://github.com/cyberharsh/Php-unit-CVE-2017-9841)
 - [ludy-dev/PHPUnit_eval-stdin_RCE](https://github.com/ludy-dev/PHPUnit_eval-stdin_RCE)
-- [unp4ck/laravel-phpunit-rce-masscaner](https://github.com/unp4ck/laravel-phpunit-rce-masscaner)
+- [incogbyte/laravel-phpunit-rce-masscaner](https://github.com/incogbyte/laravel-phpunit-rce-masscaner)
 
 ### CVE-2017-9934 (2017-07-17)
 
