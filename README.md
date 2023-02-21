@@ -86,6 +86,14 @@ Event Tracing for Windows Information Disclosure Vulnerability. This CVE ID is u
 
 - [timpen432/-Wh0Am1001-CVE-2023-21753](https://github.com/timpen432/-Wh0Am1001-CVE-2023-21753)
 
+### CVE-2023-21839 (2023-01-17)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+</code>
+
+- [Scarehehe/Weblogic-CVE-2023-21839](https://github.com/Scarehehe/Weblogic-CVE-2023-21839)
+
 ### CVE-2023-22809 (2023-01-18)
 
 <code>
@@ -2609,6 +2617,7 @@ The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL 
 - [LordRNA/CVE-2022-25765](https://github.com/LordRNA/CVE-2022-25765)
 - [shamo0/PDFkit-CMD-Injection](https://github.com/shamo0/PDFkit-CMD-Injection)
 - [nikn0laty/PDFkit-CMD-Injection-CVE-2022-25765](https://github.com/nikn0laty/PDFkit-CMD-Injection-CVE-2022-25765)
+- [lekosbelas/PDFkit-CMD-Injection](https://github.com/lekosbelas/PDFkit-CMD-Injection)
 
 ### CVE-2022-25845 (2022-06-10)
 
@@ -4884,6 +4893,14 @@ SAP Manufacturing Execution - versions 15.1, 15.2, 15.3, allows an attacker to e
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
 
+### CVE-2022-39952 (2023-02-16)
+
+<code>
+A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.
+</code>
+
+- [horizon3ai/CVE-2022-39952](https://github.com/horizon3ai/CVE-2022-39952)
+
 ### CVE-2022-39959 (2022-10-07)
 
 <code>
@@ -5683,6 +5700,12 @@ Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows at
 </code>
 
 - [tristao-marinho/CVE-2022-45544](https://github.com/tristao-marinho/CVE-2022-45544)
+
+### CVE-2022-45599
+- [ethancunt/CVE-2022-45599](https://github.com/ethancunt/CVE-2022-45599)
+
+### CVE-2022-45600
+- [ethancunt/CVE-2022-45600](https://github.com/ethancunt/CVE-2022-45600)
 
 ### CVE-2022-45701 (2023-02-17)
 
@@ -16322,6 +16345,7 @@ TerraMaster TOS before 4.1.29 has Invalid Parameter Checking that leads to code 
 </code>
 
 - [n0bugz/CVE-2020-15568](https://github.com/n0bugz/CVE-2020-15568)
+- [divinepwner/TerraMaster-TOS-CVE-2020-15568](https://github.com/divinepwner/TerraMaster-TOS-CVE-2020-15568)
 
 ### CVE-2020-15778 (2020-07-24)
 
