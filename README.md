@@ -34,6 +34,7 @@ Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication 
 - [0xf4n9x/CVE-2023-0669](https://github.com/0xf4n9x/CVE-2023-0669)
 - [cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669)
 - [yosef0x01/CVE-2023-0669](https://github.com/yosef0x01/CVE-2023-0669)
+- [Griffin-01/CVE-2023-0669](https://github.com/Griffin-01/CVE-2023-0669)
 
 ### CVE-2023-0748 (2023-02-08)
 
@@ -4882,22 +4883,6 @@ SAP Manufacturing Execution - versions 15.1, 15.2, 15.3, allows an attacker to e
 
 ### CVE-2022-39841
 - [stealthcopter/CVE-2022-39841](https://github.com/stealthcopter/CVE-2022-39841)
-
-### CVE-2022-39844 (2022-09-09)
-
-<code>
-Improper validation of integrity check vulnerability in Smart Switch PC prior to version 4.3.22083 allows local attackers to delete arbitrary directory using directory junction.
-</code>
-
-- [lemon-42/CVE-2022-39844](https://github.com/lemon-42/CVE-2022-39844)
-
-### CVE-2022-39952 (2023-02-16)
-
-<code>
-A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.
-</code>
-
-- [Florian-R0th/CVE-2022-39952](https://github.com/Florian-R0th/CVE-2022-39952)
 
 ### CVE-2022-39959 (2022-10-07)
 
