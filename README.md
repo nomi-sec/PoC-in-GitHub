@@ -807,6 +807,7 @@ The OpenSSL 3.0.4 release introduced a serious bug in the RSA implementation for
 
 - [Malwareman007/CVE-2022-2274](https://github.com/Malwareman007/CVE-2022-2274)
 - [EkamSinghWalia/OpenSSL-Vulnerability-Detection-Script](https://github.com/EkamSinghWalia/OpenSSL-Vulnerability-Detection-Script)
+- [DesmondSanctity/CVE-2022-2274](https://github.com/DesmondSanctity/CVE-2022-2274)
 
 ### CVE-2022-2333 (2022-09-16)
 
@@ -1933,6 +1934,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [Vulnmachines/Zabbix-CVE-2022-23131](https://github.com/Vulnmachines/Zabbix-CVE-2022-23131)
 - [wr0x00/cve-2022-23131](https://github.com/wr0x00/cve-2022-23131)
 - [Arrnitage/CVE-2022-23131_exp](https://github.com/Arrnitage/CVE-2022-23131_exp)
+- [clearcdq/Zabbix-SAML-SSO-_CVE-2022-23131](https://github.com/clearcdq/Zabbix-SAML-SSO-_CVE-2022-23131)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -5119,6 +5121,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 - [notareaperbutDR34P3r/http-vuln-CVE-2022-41082](https://github.com/notareaperbutDR34P3r/http-vuln-CVE-2022-41082)
 - [sikkertech/CVE-2022-41082](https://github.com/sikkertech/CVE-2022-41082)
 - [balki97/OWASSRF-CVE-2022-41082-POC](https://github.com/balki97/OWASSRF-CVE-2022-41082-POC)
+- [bigherocenter/CVE-2022-41082-POC](https://github.com/bigherocenter/CVE-2022-41082-POC)
 
 ### CVE-2022-41099 (2022-11-09)
 
@@ -5561,6 +5564,7 @@ ImageMagick 7.1.0-49 is vulnerable to Information Disclosure. When it parses a P
 - [Sybil-Scan/imagemagick-lfi-poc](https://github.com/Sybil-Scan/imagemagick-lfi-poc)
 - [Vulnmachines/imagemagick-CVE-2022-44268](https://github.com/Vulnmachines/imagemagick-CVE-2022-44268)
 - [kljunowsky/CVE-2022-44268](https://github.com/kljunowsky/CVE-2022-44268)
+- [nfm/heroku-CVE-2022-44268-reproduction](https://github.com/nfm/heroku-CVE-2022-44268-reproduction)
 
 ### CVE-2022-44311 (2022-11-08)
 
@@ -5569,7 +5573,7 @@ html2xhtml v1.3 was discovered to contain an Out-Of-Bounds read in the function 
 </code>
 
 - [Halcy0nic/CVE-2022-44311](https://github.com/Halcy0nic/CVE-2022-44311)
-- [DesmondSanctity/Out-Of-Bounds-read-in-html2xhtml-v1.3-CVE-2022-44311](https://github.com/DesmondSanctity/Out-Of-Bounds-read-in-html2xhtml-v1.3-CVE-2022-44311)
+- [DesmondSanctity/CVE-2022-44311](https://github.com/DesmondSanctity/CVE-2022-44311)
 
 ### CVE-2022-44318 (2022-11-08)
 
@@ -24122,14 +24126,6 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration](https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration)
 - [SenSecurity/exploit](https://github.com/SenSecurity/exploit)
 - [EmaVirgRep/CVE-2018-11235](https://github.com/EmaVirgRep/CVE-2018-11235)
-
-### CVE-2018-11236 (2018-05-18)
-
-<code>
-stdlib/canonicalize.c in the GNU C Library (aka glibc or libc6) 2.27 and earlier, when processing very long pathname arguments to the realpath function, could encounter an integer overflow on 32-bit architectures, leading to a stack-based buffer overflow and, potentially, arbitrary code execution.
-</code>
-
-- [evilmiracle/CVE-2018-11236](https://github.com/evilmiracle/CVE-2018-11236)
 
 ### CVE-2018-11311 (2018-05-20)
 
