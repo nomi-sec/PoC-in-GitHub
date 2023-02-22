@@ -35,6 +35,7 @@ Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication 
 - [cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669)
 - [yosef0x01/CVE-2023-0669](https://github.com/yosef0x01/CVE-2023-0669)
 - [Griffin-01/CVE-2023-0669](https://github.com/Griffin-01/CVE-2023-0669)
+- [trhacknon/CVE-2023-0669](https://github.com/trhacknon/CVE-2023-0669)
 
 ### CVE-2023-0748 (2023-02-08)
 
@@ -4452,6 +4453,7 @@ SQLite 1.0.12 through 3.39.x before 3.39.2 sometimes allows an array-bounds over
 </code>
 
 - [gmh5225/CVE-2022-35737](https://github.com/gmh5225/CVE-2022-35737)
+- [rvermeulen/codeql-cve-2022-35737](https://github.com/rvermeulen/codeql-cve-2022-35737)
 
 ### CVE-2022-35841 (2022-09-13)
 
