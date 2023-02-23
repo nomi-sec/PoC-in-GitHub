@@ -114,6 +114,14 @@ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequen
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
 - [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
+### CVE-2023-22974 (2023-02-22)
+
+<code>
+A Path Traversal in setup.php in OpenEMR &lt; 7.0.0 allows remote unauthenticated users to read arbitrary files by controlling a connection to an attacker-controlled MySQL server.
+</code>
+
+- [gbrsh/CVE-2023-22974](https://github.com/gbrsh/CVE-2023-22974)
+
 ### CVE-2023-23333 (2023-02-06)
 
 <code>
@@ -201,6 +209,9 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 </code>
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
+
+### CVE-2023-999991
+- [yrtsec/CVE-2023-999991](https://github.com/yrtsec/CVE-2023-999991)
 
 
 ## 2022
@@ -11311,6 +11322,14 @@ ModSecurity 3.x through 3.0.5 mishandles excessively nested JSON objects. Crafte
 
 - [EkamSinghWalia/Detection-and-Mitigation-script-for-CVE-2021-42717](https://github.com/EkamSinghWalia/Detection-and-Mitigation-script-for-CVE-2021-42717)
 
+### CVE-2021-42756 (2023-02-16)
+
+<code>
+Multiple stack-based buffer overflow vulnerabilities [CWE-121] in the proxy daemon of FortiWeb 5.x all versions, 6.0.7 and below, 6.1.2 and below, 6.2.6 and below, 6.3.16 and below, 6.4 all versions may allow an unauthenticated remote attacker to achieve arbitrary code execution via specifically crafted HTTP requests.
+</code>
+
+- [3ndorph1n/CVE-2021-42756](https://github.com/3ndorph1n/CVE-2021-42756)
+
 ### CVE-2021-42835 (2021-12-08)
 
 <code>
@@ -12936,6 +12955,7 @@ In getPermissionInfosForGroup of Utils.java, there is a logic error. This could 
 </code>
 
 - [Trinadh465/packages_apps_PackageInstaller_AOSP10_r33_CVE-2020-0418](https://github.com/Trinadh465/packages_apps_PackageInstaller_AOSP10_r33_CVE-2020-0418)
+- [fernandodruszcz/CVE-2020-0418](https://github.com/fernandodruszcz/CVE-2020-0418)
 
 ### CVE-2020-0421 (2020-10-14)
 
@@ -16199,7 +16219,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 - [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
-- [kuckibf/Popular-CVEs](https://github.com/kuckibf/Popular-CVEs)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -18275,6 +18294,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708)
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [AaronCaiii/CVE-2019-0708-POC](https://github.com/AaronCaiii/CVE-2019-0708-POC)
+- [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
@@ -21271,6 +21291,7 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [ynots0ups/CVE-2019-16113](https://github.com/ynots0ups/CVE-2019-16113)
 - [cybervaca/CVE-2019-16113](https://github.com/cybervaca/CVE-2019-16113)
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
+- [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [0xkasra/CVE-2019-16113](https://github.com/0xkasra/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
@@ -21565,7 +21586,6 @@ Apache Solr 5.0.0 to Apache Solr 8.3.1 are vulnerable to a Remote Code Execution
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
 - [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
-- [kuckibf/Popular-CVEs](https://github.com/kuckibf/Popular-CVEs)
 
 ### CVE-2019-17564 (2020-04-01)
 
@@ -21791,6 +21811,7 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 TeamViewer Desktop through 14.7.1965 allows a bypass of remote-login access control because the same key is used for different customers' installations. It used a shared AES key for all installations since at least as far back as v7.0.43148, and used it for at least OptionsPasswordAES in the current version of the product. If an attacker were to know this key, they could decrypt protect information stored in the registry or configuration files of TeamViewer. With versions before v9.x , this allowed for attackers to decrypt the Unattended Access password to the system (which allows for remote login to the system as well as headless file browsing). The latest version still uses the same key for OptionPasswordAES but appears to have changed how the Unattended Access password is stored. While in most cases an attacker requires an existing session on a system, if the registry/configuration keys were stored off of the machine (such as in a file share or online), an attacker could then decrypt the required password to login to the system.
 </code>
 
+- [reversebrain/CVE-2019-18988](https://github.com/reversebrain/CVE-2019-18988)
 - [mr-r3b00t/CVE-2019-18988](https://github.com/mr-r3b00t/CVE-2019-18988)
 
 ### CVE-2019-19012 (2019-11-16)
