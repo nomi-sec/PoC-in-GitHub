@@ -188,6 +188,7 @@ OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.
 
 - [jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free)
 - [ticofookfook/CVE-2023-25136](https://github.com/ticofookfook/CVE-2023-25136)
+- [Christbowel/CVE-2023-25136](https://github.com/Christbowel/CVE-2023-25136)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -5698,10 +5699,20 @@ Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows at
 
 - [tristao-marinho/CVE-2022-45544](https://github.com/tristao-marinho/CVE-2022-45544)
 
-### CVE-2022-45599
+### CVE-2022-45599 (2023-02-22)
+
+<code>
+Aztech WMB250AC Mesh Routers Firmware Version 016 2020 is vulnerable to PHP Type Juggling in file /var/www/login.php, allows attackers to gain escalated privileges only when specific conditions regarding a given accounts hashed password.
+</code>
+
 - [ethancunt/CVE-2022-45599](https://github.com/ethancunt/CVE-2022-45599)
 
-### CVE-2022-45600
+### CVE-2022-45600 (2023-02-22)
+
+<code>
+Aztech WMB250AC Mesh Routers Firmware Version 016 2020 devices improperly manage sessions, which allows remote attackers to bypass authentication in opportunistic circumstances and execute arbitrary commands with administrator privileges by leveraging an existing web portal login.
+</code>
+
 - [ethancunt/CVE-2022-45600](https://github.com/ethancunt/CVE-2022-45600)
 
 ### CVE-2022-45701 (2023-02-17)
@@ -19072,6 +19083,7 @@ runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allow
 - [k4u5h41/CVE-2019-5736](https://github.com/k4u5h41/CVE-2019-5736)
 - [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
+- [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 - [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
 - [GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736](https://github.com/GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736)
 
@@ -19448,6 +19460,14 @@ ColdFusion versions Update 3 and earlier, Update 10 and earlier, and Update 18 a
 </code>
 
 - [securifera/CVE-2019-7839](https://github.com/securifera/CVE-2019-7839)
+
+### CVE-2019-8014 (2019-08-20)
+
+<code>
+Adobe Acrobat and Reader versions 2019.012.20035 and earlier, 2019.012.20035 and earlier, 2017.011.30142 and earlier, 2017.011.30143 and earlier, 2015.006.30497 and earlier, and 2015.006.30498 and earlier have a heap overflow vulnerability. Successful exploitation could lead to arbitrary code execution .
+</code>
+
+- [f01965/CVE-2019-8014](https://github.com/f01965/CVE-2019-8014)
 
 ### CVE-2019-8331 (2019-02-20)
 
@@ -21663,6 +21683,7 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [edsonjt81/sudo-cve-2019-18634](https://github.com/edsonjt81/sudo-cve-2019-18634)
 - [Y3A/CVE-2019-18634](https://github.com/Y3A/CVE-2019-18634)
 - [aesophor/CVE-2019-18634](https://github.com/aesophor/CVE-2019-18634)
+- [TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634](https://github.com/TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634)
 
 ### CVE-2019-18655 (2019-11-12)
 
@@ -22193,7 +22214,6 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 </code>
 
 - [zi0Black/POC-CVE-2018-0114](https://github.com/zi0Black/POC-CVE-2018-0114)
-- [Logeirs/CVE-2018-0114](https://github.com/Logeirs/CVE-2018-0114)
 - [adityathebe/POC-CVE-2018-0114](https://github.com/adityathebe/POC-CVE-2018-0114)
 - [Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114)
 - [Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114)
@@ -22424,14 +22444,6 @@ In Apache Kafka 0.9.0.0 to 0.9.0.1, 0.10.0.0 to 0.10.2.1, 0.11.0.0 to 0.11.0.2, 
 
 - [joegallagher4/CVE-2018-1288-](https://github.com/joegallagher4/CVE-2018-1288-)
 
-### CVE-2018-1297 (2018-02-13)
-
-<code>
-When using Distributed Test only (RMI based), Apache JMeter 2.x and 3.x uses an unsecured RMI connection. This could allow an attacker to get Access to JMeterEngine and send unauthorized code.
-</code>
-
-- [Al1ex/CVE-2018-1297](https://github.com/Al1ex/CVE-2018-1297)
-
 ### CVE-2018-1304 (2018-02-28)
 
 <code>
@@ -22550,7 +22562,6 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [Lighird/CVE-2018-2628](https://github.com/Lighird/CVE-2018-2628)
 - [0xMJ/CVE-2018-2628](https://github.com/0xMJ/CVE-2018-2628)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
-- [seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628)
 - [BabyTeam1024/cve-2018-2628](https://github.com/BabyTeam1024/cve-2018-2628)
 - [cscadoge/weblogic-cve-2018-2628](https://github.com/cscadoge/weblogic-cve-2018-2628)
 
@@ -22879,7 +22890,6 @@ A memory corruption issue was addressed with improved validation. This issue aff
 - [zeng9t/CVE-2018-4407-iOS-exploit](https://github.com/zeng9t/CVE-2018-4407-iOS-exploit)
 - [5431/CVE-2018-4407](https://github.com/5431/CVE-2018-4407)
 - [pwnhacker0x18/iOS-Kernel-Crash](https://github.com/pwnhacker0x18/iOS-Kernel-Crash)
-- [Fans0n-Fan/CVE-2018-4407](https://github.com/Fans0n-Fan/CVE-2018-4407)
 
 ### CVE-2018-4411 (2019-04-03)
 
@@ -23173,7 +23183,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [darthvader-htb/CVE-2018-6574](https://github.com/darthvader-htb/CVE-2018-6574)
 - [it3x55/CVE-2018-6574](https://github.com/it3x55/CVE-2018-6574)
 - [Malone5923/CVE-2018-6574-go-get-RCE](https://github.com/Malone5923/CVE-2018-6574-go-get-RCE)
-- [illnino/CVE-2018-6574](https://github.com/illnino/CVE-2018-6574)
 - [TakuCoder/CVE-2018-6574](https://github.com/TakuCoder/CVE-2018-6574)
 - [kawkab101/cve-2018-6574](https://github.com/kawkab101/cve-2018-6574)
 - [lsnakazone/cve-2018-6574](https://github.com/lsnakazone/cve-2018-6574)
@@ -23268,7 +23277,6 @@ An issue was discovered in CloudMe before 1.11.0. An unauthenticated remote atta
 
 - [manojcode/CloudMe-Sync-1.10.9---Buffer-Overflow-SEH-DEP-Bypass](https://github.com/manojcode/CloudMe-Sync-1.10.9---Buffer-Overflow-SEH-DEP-Bypass)
 - [manojcode/-Win10-x64-CloudMe-Sync-1.10.9-Buffer-Overflow-SEH-DEP-Bypass](https://github.com/manojcode/-Win10-x64-CloudMe-Sync-1.10.9-Buffer-Overflow-SEH-DEP-Bypass)
-- [latortuga71/CVE-2018-6892-Golang](https://github.com/latortuga71/CVE-2018-6892-Golang)
 
 ### CVE-2018-6905 (2018-04-08)
 
@@ -23395,7 +23403,6 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [zhzyker/CVE-2018-7600-Drupal-POC-EXP](https://github.com/zhzyker/CVE-2018-7600-Drupal-POC-EXP)
 - [rabbitmask/CVE-2018-7600-Drupal7](https://github.com/rabbitmask/CVE-2018-7600-Drupal7)
 - [ynsmroztas/drupalhunter](https://github.com/ynsmroztas/drupalhunter)
-- [ruthvikvegunta/Drupalgeddon2](https://github.com/ruthvikvegunta/Drupalgeddon2)
 - [ludy-dev/drupal8-REST-RCE](https://github.com/ludy-dev/drupal8-REST-RCE)
 - [0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600)
 - [rafaelcaria/drupalgeddon2-CVE-2018-7600](https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600)
@@ -23599,7 +23606,6 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [piotrflorczyk/cve-2018-8174_analysis](https://github.com/piotrflorczyk/cve-2018-8174_analysis)
 - [likescam/CVE-2018-8174-msf](https://github.com/likescam/CVE-2018-8174-msf)
 - [ruthlezs/ie11_vbscript_exploit](https://github.com/ruthlezs/ie11_vbscript_exploit)
-- [ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP)
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP)
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-)
 - [delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174)
@@ -25942,6 +25948,9 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
+- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -26077,6 +26086,14 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Serve
 
 - [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
 - [jptr218/mysql_dos](https://github.com/jptr218/mysql_dos)
+
+### CVE-2017-3730 (2017-05-04)
+
+<code>
+In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
+</code>
+
+- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
 
 ### CVE-2017-3881 (2017-03-17)
 
