@@ -2,7 +2,7 @@
 
 ## 2023
 ### CVE-2023-0045
-- [missyes/CVE-2023-0045](https://github.com/missyes/CVE-2023-0045)
+- [ASkyeye/CVE-2023-0045](https://github.com/ASkyeye/CVE-2023-0045)
 - [es0j/CVE-2023-0045](https://github.com/es0j/CVE-2023-0045)
 
 ### CVE-2023-0179
@@ -10271,6 +10271,14 @@ In doRead of SimpleDecodingSource.cpp, there is a possible out of bounds write d
 
 - [marcinguy/CVE-2021-39623](https://github.com/marcinguy/CVE-2021-39623)
 
+### CVE-2021-39670 (2022-05-10)
+
+<code>
+In setStream of WallpaperManager.java, there is a possible way to cause a permanent DoS due to improper input validation. This could lead to local denial of service with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12 Android-12LAndroid ID: A-204087139
+</code>
+
+- [Supersonic/Wallbreak](https://github.com/Supersonic/Wallbreak)
+
 ### CVE-2021-39674 (2022-02-11)
 
 <code>
@@ -18267,7 +18275,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708)
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [AaronCaiii/CVE-2019-0708-POC](https://github.com/AaronCaiii/CVE-2019-0708-POC)
-- [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
@@ -21264,7 +21271,6 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [ynots0ups/CVE-2019-16113](https://github.com/ynots0ups/CVE-2019-16113)
 - [cybervaca/CVE-2019-16113](https://github.com/cybervaca/CVE-2019-16113)
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
-- [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [0xkasra/CVE-2019-16113](https://github.com/0xkasra/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
@@ -21785,7 +21791,6 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 TeamViewer Desktop through 14.7.1965 allows a bypass of remote-login access control because the same key is used for different customers' installations. It used a shared AES key for all installations since at least as far back as v7.0.43148, and used it for at least OptionsPasswordAES in the current version of the product. If an attacker were to know this key, they could decrypt protect information stored in the registry or configuration files of TeamViewer. With versions before v9.x , this allowed for attackers to decrypt the Unattended Access password to the system (which allows for remote login to the system as well as headless file browsing). The latest version still uses the same key for OptionPasswordAES but appears to have changed how the Unattended Access password is stored. While in most cases an attacker requires an existing session on a system, if the registry/configuration keys were stored off of the machine (such as in a file share or online), an attacker could then decrypt the required password to login to the system.
 </code>
 
-- [reversebrain/CVE-2019-18988](https://github.com/reversebrain/CVE-2019-18988)
 - [mr-r3b00t/CVE-2019-18988](https://github.com/mr-r3b00t/CVE-2019-18988)
 
 ### CVE-2019-19012 (2019-11-16)
