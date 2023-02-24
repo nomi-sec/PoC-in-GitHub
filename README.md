@@ -144,7 +144,6 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.
 </code>
 
-- [DanielRuf/CVE-2023-23752](https://github.com/DanielRuf/CVE-2023-23752)
 - [YusinoMy/CVE-2023-23752](https://github.com/YusinoMy/CVE-2023-23752)
 - [Saboor-Hakimi/CVE-2023-23752](https://github.com/Saboor-Hakimi/CVE-2023-23752)
 - [WhiteOwl-Pub/CVE-2023-23752](https://github.com/WhiteOwl-Pub/CVE-2023-23752)
@@ -4530,7 +4529,12 @@ In FiberHome VDSL2 Modem HG150-Ub_V3.0, Credentials of Admin are submitted in UR
 
 - [afaq1337/CVE-2022-36200](https://github.com/afaq1337/CVE-2022-36200)
 
-### CVE-2022-36231
+### CVE-2022-36231 (2023-02-23)
+
+<code>
+pdf_info 0.5.3 is vulnerable to Command Execution.
+</code>
+
 - [affix/CVE-2022-36231](https://github.com/affix/CVE-2022-36231)
 
 ### CVE-2022-36234 (2022-07-28)
@@ -25916,7 +25920,6 @@ A remote code execution vulnerability in the Framesequence library could enable 
 </code>
 
 - [JiounDai/CVE-2017-0478](https://github.com/JiounDai/CVE-2017-0478)
-- [likescam/CVE-2017-0478](https://github.com/likescam/CVE-2017-0478)
 
 ### CVE-2017-0541 (2017-04-07)
 
@@ -26439,14 +26442,6 @@ The dccp_rcv_state_process function in net/dccp/input.c in the Linux kernel thro
 
 - [BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074](https://github.com/BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074)
 
-### CVE-2017-6079 (2017-05-16)
-
-<code>
-The HTTP web-management application on Edgewater Networks Edgemarc appliances has a hidden page that allows for user-defined commands such as specific iptables routes, etc., to be set. You can use this page as a web shell essentially to execute commands, though you get no feedback client-side from the web application: if the command is valid, it executes. An example is the wget command. The page that allows this has been confirmed in firmware as old as 2006.
-</code>
-
-- [MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit](https://github.com/MostafaSoliman/CVE-2017-6079-Blind-Command-Injection-In-Edgewater-Edgemarc-Devices-Exploit)
-
 ### CVE-2017-6090 (2017-10-02)
 
 <code>
@@ -26734,7 +26729,6 @@ Malicious PATCH requests submitted to servers using Spring Data REST versions pr
 - [m3ssap0/spring-break_cve-2017-8046](https://github.com/m3ssap0/spring-break_cve-2017-8046)
 - [FixYourFace/SpringBreakPoC](https://github.com/FixYourFace/SpringBreakPoC)
 - [jkutner/spring-break-cve-2017-8046](https://github.com/jkutner/spring-break-cve-2017-8046)
-- [bkhablenko/CVE-2017-8046](https://github.com/bkhablenko/CVE-2017-8046)
 - [cved-sources/cve-2017-8046](https://github.com/cved-sources/cve-2017-8046)
 - [jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest)
 - [guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046)
@@ -26862,14 +26856,6 @@ Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow
 - [zhengkook/CVE-2017-8759](https://github.com/zhengkook/CVE-2017-8759)
 - [varunsaru/SNP](https://github.com/varunsaru/SNP)
 - [GayashanM/OHTS](https://github.com/GayashanM/OHTS)
-
-### CVE-2017-8760 (2017-05-05)
-
-<code>
-An issue was discovered on Accellion FTA devices before FTA_9_12_180. There is XSS in courier/1000@/index.html with the auth_params parameter. The device tries to use internal WAF filters to stop specific XSS Vulnerabilities. However, these can be bypassed by using some modifications to the payloads, e.g., URL encoding.
-</code>
-
-- [Voraka/cve-2017-8760](https://github.com/Voraka/cve-2017-8760)
 
 ### CVE-2017-8779 (2017-05-04)
 
@@ -27144,7 +27130,6 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [Cymmetria/weblogic_honeypot](https://github.com/Cymmetria/weblogic_honeypot)
 - [JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp)
 - [R0B1NL1N/Oracle-WebLogic-WLS-WSAT](https://github.com/R0B1NL1N/Oracle-WebLogic-WLS-WSAT)
-- [lonehand/Oracle-WebLogic-CVE-2017-10271-master](https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master)
 - [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
 - [ETOCheney/JavaDeserialization](https://github.com/ETOCheney/JavaDeserialization)
 - [r4b3rt/CVE-2017-10271](https://github.com/r4b3rt/CVE-2017-10271)
