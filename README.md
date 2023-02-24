@@ -87,6 +87,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 </code>
 
 - [DXask88MA/Weblogic-CVE-2023-21839](https://github.com/DXask88MA/Weblogic-CVE-2023-21839)
+- [hacats/CVE-2023-21839](https://github.com/hacats/CVE-2023-21839)
 
 ### CVE-2023-22809 (2023-01-18)
 
@@ -16231,6 +16232,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 - [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
+- [Serendipity-Lucky/CVE-2020-14882_ALL](https://github.com/Serendipity-Lucky/CVE-2020-14882_ALL)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -20103,6 +20105,14 @@ A vulnerability has been identified in TIA Administrator (All versions &lt; V1.0
 </code>
 
 - [jiansiting/CVE-2019-10915](https://github.com/jiansiting/CVE-2019-10915)
+
+### CVE-2019-10945 (2019-04-10)
+
+<code>
+An issue was discovered in Joomla! before 3.9.5. The Media Manager component does not properly sanitize the folder parameter, allowing attackers to act outside the media manager root directory.
+</code>
+
+- [dpgg101/CVE-2019-10945](https://github.com/dpgg101/CVE-2019-10945)
 
 ### CVE-2019-10999 (2019-05-06)
 
