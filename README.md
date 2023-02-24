@@ -86,6 +86,7 @@ Windows Backup Service Elevation of Privilege Vulnerability.
 Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 </code>
 
+- [4ra1n/CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)
 - [DXask88MA/Weblogic-CVE-2023-21839](https://github.com/DXask88MA/Weblogic-CVE-2023-21839)
 - [hacats/CVE-2023-21839](https://github.com/hacats/CVE-2023-21839)
 
@@ -8204,7 +8205,6 @@ An issue was discovered in through SaltStack Salt before 3002.5. salt-api does n
 </code>
 
 - [Immersive-Labs-Sec/CVE-2021-25281](https://github.com/Immersive-Labs-Sec/CVE-2021-25281)
-- [SkyBulk/CVE-2021-25281](https://github.com/SkyBulk/CVE-2021-25281)
 
 ### CVE-2021-25374 (2021-04-09)
 
@@ -9822,7 +9822,7 @@ A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSys
 
 - [M-Kings/CVE-2021-36798](https://github.com/M-Kings/CVE-2021-36798)
 - [JamVayne/CobaltStrikeDos](https://github.com/JamVayne/CobaltStrikeDos)
-- [hariomenkel/CobaltSploit](https://github.com/hariomenkel/CobaltSploit)
+- [NexusFuzzy/CobaltSploit](https://github.com/NexusFuzzy/CobaltSploit)
 
 ### CVE-2021-36799 (2021-07-19)
 
