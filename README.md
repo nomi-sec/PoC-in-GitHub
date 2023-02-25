@@ -9830,7 +9830,7 @@ A Denial-of-Service (DoS) vulnerability was discovered in Team Server in HelpSys
 
 - [M-Kings/CVE-2021-36798](https://github.com/M-Kings/CVE-2021-36798)
 - [JamVayne/CobaltStrikeDos](https://github.com/JamVayne/CobaltStrikeDos)
-- [NexusFuzzy/CobaltSploit](https://github.com/NexusFuzzy/CobaltSploit)
+- [sponkmonk/CobaltSploit](https://github.com/sponkmonk/CobaltSploit)
 
 ### CVE-2021-36799 (2021-07-19)
 
@@ -29253,10 +29253,8 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
-- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
-- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
