@@ -507,6 +507,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [pmihsan/Dirty-Pipe-CVE-2022-0847](https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847)
 - [ajith737/Dirty-Pipe-CVE-2022-0847-POCs](https://github.com/ajith737/Dirty-Pipe-CVE-2022-0847-POCs)
 - [mutur4/CVE-2022-0847](https://github.com/mutur4/CVE-2022-0847)
+- [orsuprasad/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/orsuprasad/CVE-2022-0847-DirtyPipe-Exploits)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -13624,6 +13625,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [guglia001/MassZeroLogon](https://github.com/guglia001/MassZeroLogon)
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
 - [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
+- [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
 
 ### CVE-2020-1473 (2020-08-17)
 
