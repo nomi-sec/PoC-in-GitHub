@@ -4950,6 +4950,7 @@ A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2
 
 - [horizon3ai/CVE-2022-39952](https://github.com/horizon3ai/CVE-2022-39952)
 - [shiyeshu/CVE-2022-39952_webshell](https://github.com/shiyeshu/CVE-2022-39952_webshell)
+- [Chocapikk/CVE-2022-39952](https://github.com/Chocapikk/CVE-2022-39952)
 
 ### CVE-2022-39959 (2022-10-07)
 
