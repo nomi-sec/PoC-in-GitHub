@@ -34,9 +34,9 @@ Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication 
 
 - [0xf4n9x/CVE-2023-0669](https://github.com/0xf4n9x/CVE-2023-0669)
 - [cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669)
-- [yosef0x01/CVE-2023-0669](https://github.com/yosef0x01/CVE-2023-0669)
 - [Griffin-01/CVE-2023-0669](https://github.com/Griffin-01/CVE-2023-0669)
 - [trhacknon/CVE-2023-0669](https://github.com/trhacknon/CVE-2023-0669)
+- [yosef0x01/Analysis4CVE-2023-0669](https://github.com/yosef0x01/Analysis4CVE-2023-0669)
 
 ### CVE-2023-0748 (2023-02-08)
 
@@ -1861,13 +1861,20 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
 - [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
-- [codedsprit/CVE-2022-22965](https://github.com/codedsprit/CVE-2022-22965)
 - [iloveflag/Fast-CVE-2022-22965](https://github.com/iloveflag/Fast-CVE-2022-22965)
 - [ClemExp/CVE-2022-22965-PoC](https://github.com/ClemExp/CVE-2022-22965-PoC)
 - [clemoregan/SSE4-CVE-2022-22965](https://github.com/clemoregan/SSE4-CVE-2022-22965)
 - [devengpk/CVE-2022-22965](https://github.com/devengpk/CVE-2022-22965)
 - [zangcc/CVE-2022-22965-rexbb](https://github.com/zangcc/CVE-2022-22965-rexbb)
 - [ajith737/Spring4Shell-CVE-2022-22965-POC](https://github.com/ajith737/Spring4Shell-CVE-2022-22965-POC)
+
+### CVE-2022-22966 (2022-04-14)
+
+<code>
+An authenticated, high privileged malicious actor with network access to the VMware Cloud Director tenant or provider may be able to exploit a remote code execution vulnerability to gain access to the server.
+</code>
+
+- [avboy1337/CVE-2022-22966](https://github.com/avboy1337/CVE-2022-22966)
 
 ### CVE-2022-22968 (2022-04-14)
 
