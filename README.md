@@ -6005,6 +6005,9 @@ TP-Link TL-WR902AC devices through V3 0.9.1 allow remote authenticated attackers
 
 - [ryan412/CVE-2022-48197](https://github.com/ryan412/CVE-2022-48197)
 
+### CVE-2022-48309
+- [nitschSB/CVE-2022-48309-and-CVE-2022-48310](https://github.com/nitschSB/CVE-2022-48309-and-CVE-2022-48310)
+
 ### CVE-2022-48311 (2023-02-06)
 
 <code>
@@ -7537,7 +7540,6 @@ Git is an open-source distributed revision control system. In affected versions 
 - [Jiang59991/cve-2021-21300-plus](https://github.com/Jiang59991/cve-2021-21300-plus)
 - [macilin/CVE-2021-21300](https://github.com/macilin/CVE-2021-21300)
 - [Roboterh/CVE-2021-21300](https://github.com/Roboterh/CVE-2021-21300)
-- [ruifi47/cve-2021-21300-PoC](https://github.com/ruifi47/cve-2021-21300-PoC)
 
 ### CVE-2021-21311 (2021-02-11)
 
@@ -7997,6 +7999,14 @@ An issue was discovered in Joomla! 3.0.0 through 3.9.24. com_media allowed paths
 </code>
 
 - [HoangKien1020/CVE-2021-23132](https://github.com/HoangKien1020/CVE-2021-23132)
+
+### CVE-2021-23358 (2021-03-29)
+
+<code>
+The package underscore from 1.13.0-0 and before 1.13.0-2, from 1.3.2 and before 1.12.1 are vulnerable to Arbitrary Code Injection via the template function, particularly when a variable property is passed as an argument as it is not sanitized.
+</code>
+
+- [EkamSinghWalia/Detection-script-for-cve-2021-23358](https://github.com/EkamSinghWalia/Detection-script-for-cve-2021-23358)
 
 ### CVE-2021-23383 (2021-05-04)
 
@@ -18912,14 +18922,6 @@ Incorrect sanitation of the 302 redirect field in HTTP transport method of apt v
 - [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
-### CVE-2019-3560 (2019-04-29)
-
-<code>
-An improperly performed length calculation on a buffer in PlaintextRecordLayer could lead to an infinite loop and denial-of-service based on user input. This issue affected versions of fizz prior to v2019.03.04.00.
-</code>
-
-- [ahaShiyu/CVE-2019-3560](https://github.com/ahaShiyu/CVE-2019-3560)
-
 ### CVE-2019-3663 (2019-11-13)
 
 <code>
@@ -20646,14 +20648,6 @@ In Webmin through 1.910, any user authorized to the &quot;Package Updates&quot; 
 - [zAbuQasem/CVE-2019-12840](https://github.com/zAbuQasem/CVE-2019-12840)
 - [WizzzStark/CVE-2019-12840.py](https://github.com/WizzzStark/CVE-2019-12840.py)
 
-### CVE-2019-12874 (2019-06-18)
-
-<code>
-An issue was discovered in zlib_decompress_extra in modules/demux/mkv/util.cpp in VideoLAN VLC media player 3.x through 3.0.7. The Matroska demuxer, while parsing a malformed MKV file type, has a double free.
-</code>
-
-- [ahaShiyu/CVE-2019-12874](https://github.com/ahaShiyu/CVE-2019-12874)
-
 ### CVE-2019-12889 (2019-08-20)
 
 <code>
@@ -22254,14 +22248,6 @@ Linaro/OP-TEE OP-TEE 3.3.0 and earlier is affected by: Buffer Overflow. The impa
 </code>
 
 - [RKX1209/CVE-2019-1010298](https://github.com/RKX1209/CVE-2019-1010298)
-
-### CVE-2019-1010319 (2019-07-11)
-
-<code>
-WavPack 5.1.0 and earlier is affected by: CWE-457: Use of Uninitialized Variable. The impact is: Unexpected control flow, crashes, and segfaults. The component is: ParseWave64HeaderConfig (wave64.c:211). The attack vector is: Maliciously crafted .wav file. The fixed version is: After commit https://github.com/dbry/WavPack/commit/33a0025d1d63ccd05d9dbaa6923d52b1446a62fe.
-</code>
-
-- [ahaShiyu/CVE-2019-1010319](https://github.com/ahaShiyu/CVE-2019-1010319)
 
 ### CVE-2019-1020010 (2019-07-29)
 
@@ -24842,14 +24828,6 @@ Android 1.0 through 9.0 has Insecure Permissions. The Android bug ID is 77286983
 
 - [Chirantar7004/Android-Passive-Location-Tracker](https://github.com/Chirantar7004/Android-Passive-Location-Tracker)
 
-### CVE-2018-15856 (2018-08-25)
-
-<code>
-An infinite loop when reaching EOL unexpectedly in compose/parser.c (aka the keymap parser) in xkbcommon before 0.8.1 could be used by local attackers to cause a denial of service during parsing of crafted keymap files.
-</code>
-
-- [ahaShiyu/CVE-2018-15856](https://github.com/ahaShiyu/CVE-2018-15856)
-
 ### CVE-2018-15877 (2018-08-26)
 
 <code>
@@ -25281,14 +25259,6 @@ ACME mini_httpd before 1.30 lets remote users read arbitrary files.
 
 - [cyberharsh/Mini_httpd-CVE-2018-18778](https://github.com/cyberharsh/Mini_httpd-CVE-2018-18778)
 
-### CVE-2018-18839 (2019-06-18)
-
-<code>
-** DISPUTED ** An issue was discovered in Netdata 1.10.0. Full Path Disclosure (FPD) exists via api/v1/alarms. NOTE: the vendor says &quot;is intentional.&quot;
-</code>
-
-- [ahaShiyu/CVE-2018-18839](https://github.com/ahaShiyu/CVE-2018-18839)
-
 ### CVE-2018-18852 (2019-06-18)
 
 <code>
@@ -25457,14 +25427,6 @@ A flaw was found in PolicyKit (aka polkit) 0.115 that allows a user with a uid g
 - [d4gh0s7/CVE-2018-19788](https://github.com/d4gh0s7/CVE-2018-19788)
 - [Ekultek/PoC](https://github.com/Ekultek/PoC)
 - [jhlongjr/CVE-2018-19788](https://github.com/jhlongjr/CVE-2018-19788)
-
-### CVE-2018-19854 (2018-12-04)
-
-<code>
-An issue was discovered in the Linux kernel before 4.19.3. crypto_report_one() and related functions in crypto/crypto_user.c (the crypto user configuration API) do not fully initialize structures that are copied to userspace, potentially leaking sensitive memory to user programs. NOTE: this is a CVE-2013-2547 regression but with easier exploitability because the attacker does not need a capability (however, the system must have the CONFIG_CRYPTO_USER kconfig option).
-</code>
-
-- [ahaShiyu/CVE-2018-19854](https://github.com/ahaShiyu/CVE-2018-19854)
 
 ### CVE-2018-19859 (2018-12-05)
 
@@ -29253,8 +29215,10 @@ Heap-based buffer overflow in the __nss_hostname_digits_dots function in glibc 2
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
+- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
