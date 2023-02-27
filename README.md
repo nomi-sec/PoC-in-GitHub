@@ -4551,7 +4551,7 @@ In FiberHome VDSL2 Modem HG150-Ub_V3.0, Credentials of Admin are submitted in UR
 ### CVE-2022-36231 (2023-02-23)
 
 <code>
-pdf_info 0.5.3 is vulnerable to Command Execution.
+pdf_info 0.5.3 is vulnerable to Command Execution because the Ruby code uses backticks instead of Open3.
 </code>
 
 - [affix/CVE-2022-36231](https://github.com/affix/CVE-2022-36231)
@@ -5745,6 +5745,14 @@ CAE LearningSpace Enterprise (with Intuity License) image 267r patch 639 allows 
 
 - [nicbrinkley/CVE-2022-45472](https://github.com/nicbrinkley/CVE-2022-45472)
 
+### CVE-2022-45477 (2022-12-05)
+
+<code>
+Telepad allows remote unauthenticated users to send instructions to the server to execute arbitrary code without any previous authorization or authentication. CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+</code>
+
+- [M507/nmap-vulnerability-scan-scripts](https://github.com/M507/nmap-vulnerability-scan-scripts)
+
 ### CVE-2022-45511 (2022-12-08)
 
 <code>
@@ -5756,7 +5764,7 @@ Tenda W30E V1.0.1.25(633) was discovered to contain a stack overflow via the PPP
 ### CVE-2022-45544 (2023-02-07)
 
 <code>
-Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows attacker to upload arbitrary files and execute arbitrary code via the tristao parameter.
+** DISPUTED ** Insecure Permission vulnerability in Schlix Web Inc SCHLIX CMS 2.2.7-2 allows attacker to upload arbitrary files and execute arbitrary code via the tristao parameter. NOTE: this is disputed by the vendor because an admin is intentionally allowed to upload new executable PHP code, such as a theme that was obtained from a trusted source or was developed for their own website. Only an admin can upload such code, not someone else in an &quot;attacker&quot; role.
 </code>
 
 - [tristao-marinho/CVE-2022-45544](https://github.com/tristao-marinho/CVE-2022-45544)
@@ -9370,6 +9378,14 @@ A Cross-site request forgery (CSRF) vulnerability exists in Webmin 1.973 through
 </code>
 
 - [Mesh3l911/CVE-2021-32162](https://github.com/Mesh3l911/CVE-2021-32162)
+
+### CVE-2021-32305 (2021-05-18)
+
+<code>
+WebSVN before 2.6.1 allows remote attackers to execute arbitrary commands via shell metacharacters in the search parameter.
+</code>
+
+- [sz-guanx/CVE-2021-32305](https://github.com/sz-guanx/CVE-2021-32305)
 
 ### CVE-2021-32399 (2021-05-10)
 
