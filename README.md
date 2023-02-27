@@ -5104,6 +5104,7 @@ An authentication bypass using an alternate path or channel [CWE-288] in Fortine
 - [gustavorobertux/gotigate](https://github.com/gustavorobertux/gotigate)
 - [hughink/CVE-2022-40684](https://github.com/hughink/CVE-2022-40684)
 - [notareaperbutDR34P3r/CVE-2022-40684-Rust](https://github.com/notareaperbutDR34P3r/CVE-2022-40684-Rust)
+- [z-bool/CVE-2022-40684](https://github.com/z-bool/CVE-2022-40684)
 
 ### CVE-2022-40687 (2022-11-18)
 
