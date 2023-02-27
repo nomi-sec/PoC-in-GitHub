@@ -36,7 +36,8 @@ Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication 
 - [cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669)
 - [Griffin-01/CVE-2023-0669](https://github.com/Griffin-01/CVE-2023-0669)
 - [trhacknon/CVE-2023-0669](https://github.com/trhacknon/CVE-2023-0669)
-- [yosef0x01/Analysis4CVE-2023-0669](https://github.com/yosef0x01/Analysis4CVE-2023-0669)
+- [yosef0x01/CVE-2023-0669-Analysis](https://github.com/yosef0x01/CVE-2023-0669-Analysis)
+- [trhacknon/CVE-2023-0669-bis](https://github.com/trhacknon/CVE-2023-0669-bis)
 
 ### CVE-2023-0748 (2023-02-08)
 
