@@ -1882,6 +1882,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [devengpk/CVE-2022-22965](https://github.com/devengpk/CVE-2022-22965)
 - [zangcc/CVE-2022-22965-rexbb](https://github.com/zangcc/CVE-2022-22965-rexbb)
 - [ajith737/Spring4Shell-CVE-2022-22965-POC](https://github.com/ajith737/Spring4Shell-CVE-2022-22965-POC)
+- [pwnwriter/CVE-2022-22965](https://github.com/pwnwriter/CVE-2022-22965)
 
 ### CVE-2022-22966 (2022-04-14)
 
@@ -5861,6 +5862,14 @@ NodeBB is an open source Node.js based forum software. Due to a plain object wit
 </code>
 
 - [stephenbradshaw/CVE-2022-46164-poc](https://github.com/stephenbradshaw/CVE-2022-46164-poc)
+
+### CVE-2022-46166 (2022-12-09)
+
+<code>
+Spring boot admins is an open source administrative user interface for management of spring boot applications. All users who run Spring Boot Admin Server, having enabled Notifiers (e.g. Teams-Notifier) and write access to environment variables via UI are affected. Users are advised to upgrade to the most recent releases of Spring Boot Admin 2.6.10 and 2.7.8 to resolve this issue. Users unable to upgrade may disable any notifier or disable write access (POST request) on `/env` actuator endpoint.
+</code>
+
+- [DickDock/CVE-2022-46166](https://github.com/DickDock/CVE-2022-46166)
 
 ### CVE-2022-46169 (2022-12-05)
 
