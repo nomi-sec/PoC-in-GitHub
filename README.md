@@ -286,6 +286,7 @@ Inappropriate implementation in File System API in Google Chrome on Windows prio
 </code>
 
 - [Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera](https://github.com/Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera)
+- [maldev866/ChExp-CVE-2022-0337-](https://github.com/maldev866/ChExp-CVE-2022-0337-)
 
 ### CVE-2022-0435 (2022-03-25)
 
@@ -474,7 +475,6 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [breachnix/dirty-pipe-poc](https://github.com/breachnix/dirty-pipe-poc)
 - [Shotokhan/cve_2022_0847_shellcode](https://github.com/Shotokhan/cve_2022_0847_shellcode)
 - [githublihaha/DirtyPIPE-CVE-2022-0847](https://github.com/githublihaha/DirtyPIPE-CVE-2022-0847)
-- [phuonguno98/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/phuonguno98/CVE-2022-0847-DirtyPipe-Exploits)
 - [MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker](https://github.com/MrP1xel/CVE-2022-0847-dirty-pipe-kernel-checker)
 - [jpts/CVE-2022-0847-DirtyPipe-Container-Breakout](https://github.com/jpts/CVE-2022-0847-DirtyPipe-Container-Breakout)
 - [LudovicPatho/CVE-2022-0847_dirty-pipe](https://github.com/LudovicPatho/CVE-2022-0847_dirty-pipe)
@@ -5977,6 +5977,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
 - [straight-tamago/FileSwitcherPro](https://github.com/straight-tamago/FileSwitcherPro)
 - [BomberFish/Mandela-Rewritten](https://github.com/BomberFish/Mandela-Rewritten)
+- [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
 
 ### CVE-2022-47102 (2023-01-12)
 
@@ -12224,6 +12225,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
 - [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
+- [sn0wm4ker/log4j_poc](https://github.com/sn0wm4ker/log4j_poc)
 
 ### CVE-2021-44255 (2022-01-31)
 
