@@ -1935,6 +1935,7 @@ In Spring Security versions 5.5.6 and 5.6.3 and older unsupported versions, Rege
 - [DeEpinGh0st/CVE-2022-22978](https://github.com/DeEpinGh0st/CVE-2022-22978)
 - [ducluongtran9121/CVE-2022-22978-PoC](https://github.com/ducluongtran9121/CVE-2022-22978-PoC)
 - [aeifkz/CVE-2022-22978](https://github.com/aeifkz/CVE-2022-22978)
+- [umakant76705/CVE-2022-22978](https://github.com/umakant76705/CVE-2022-22978)
 
 ### CVE-2022-22980 (2022-06-22)
 
