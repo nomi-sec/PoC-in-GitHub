@@ -91,6 +91,14 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [DXask88MA/Weblogic-CVE-2023-21839](https://github.com/DXask88MA/Weblogic-CVE-2023-21839)
 - [hacats/CVE-2023-21839](https://github.com/hacats/CVE-2023-21839)
 
+### CVE-2023-22490 (2023-02-14)
+
+<code>
+Git is a revision control system. Using a specially-crafted repository, Git prior to versions 2.39.2, 2.38.4, 2.37.6, 2.36.5, 2.35.7, 2.34.7, 2.33.7, 2.32.6, 2.31.7, and 2.30.8 can be tricked into using its local clone optimization even when using a non-local transport. Though Git will abort local clones whose source `$GIT_DIR/objects` directory contains symbolic links, the `objects` directory itself may still be a symbolic link. These two may be combined to include arbitrary files based on known paths on the victim's filesystem within the malicious repository's working copy, allowing for data exfiltration in a similar manner as CVE-2022-39253. A fix has been prepared and will appear in v2.39.2 v2.38.4 v2.37.6 v2.36.5 v2.35.7 v2.34.7 v2.33.7 v2.32.6, v2.31.7 and v2.30.8. If upgrading is impractical, two short-term workarounds are available. Avoid cloning repositories from untrusted sources with `--recurse-submodules`. Instead, consider cloning repositories without recursively cloning their submodules, and instead run `git submodule update` at each layer. Before doing so, inspect each new `.gitmodules` file to ensure that it does not contain suspicious module URLs.
+</code>
+
+- [smash8tap/CVE-2023-22490_PoC](https://github.com/smash8tap/CVE-2023-22490_PoC)
+
 ### CVE-2023-22809 (2023-01-18)
 
 <code>
@@ -155,6 +163,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752)
 - [ifacker/CVE-2023-23752-Joomla](https://github.com/ifacker/CVE-2023-23752-Joomla)
 - [z3n70/CVE-2023-23752](https://github.com/z3n70/CVE-2023-23752)
+- [keyuan15/CVE-2023-23752](https://github.com/keyuan15/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -212,15 +221,6 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 </code>
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
-
-### CVE-2023-999991
-- [yrtsec/CVE-2023-999991](https://github.com/yrtsec/CVE-2023-999991)
-
-### CVE-2023-999992
-- [yrtsec/CVE-2023-999992](https://github.com/yrtsec/CVE-2023-999992)
-
-### CVE-2023-999993
-- [yrtsec/CVE-2023-999993](https://github.com/yrtsec/CVE-2023-999993)
 
 
 ## 2022
@@ -2669,6 +2669,7 @@ The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization
 </code>
 
 - [hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns)
+- [nerowander/CVE-2022-25845-exploit](https://github.com/nerowander/CVE-2022-25845-exploit)
 
 ### CVE-2022-25927 (2023-01-25)
 
@@ -4074,6 +4075,7 @@ pfSense pfBlockerNG through 2.1.4_26 allows remote attackers to execute arbitrar
 
 - [EvergreenCartoons/SenselessViolence](https://github.com/EvergreenCartoons/SenselessViolence)
 - [Madliife0/CVE-2022-31814](https://github.com/Madliife0/CVE-2022-31814)
+- [TheUnknownSoul/CVE-2022-31814](https://github.com/TheUnknownSoul/CVE-2022-31814)
 
 ### CVE-2022-31854 (2022-07-07)
 
