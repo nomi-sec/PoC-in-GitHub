@@ -14228,14 +14228,6 @@ PHPGurukul Hostel Management System v2.0 allows SQL injection via the id paramet
 
 - [5l1v3r1/CVE-2020-5510](https://github.com/5l1v3r1/CVE-2020-5510)
 
-### CVE-2020-5752 (2020-05-21)
-
-<code>
-Relative path traversal in Druva inSync Windows Client 6.6.3 allows a local, unauthenticated attacker to execute arbitrary operating system commands with SYSTEM privileges.
-</code>
-
-- [yevh/CVE-2020-5752-Druva-inSync-Windows-Client-6.6.3---Local-Privilege-Escalation-PowerShell-](https://github.com/yevh/CVE-2020-5752-Druva-inSync-Windows-Client-6.6.3---Local-Privilege-Escalation-PowerShell-)
-
 ### CVE-2020-5837 (2020-05-11)
 
 <code>
