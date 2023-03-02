@@ -765,6 +765,14 @@ heap-use-after-free in GitHub repository radareorg/radare2 prior to 5.7.0. This 
 
 - [KrungSalad/POC-CVE-2022-1444](https://github.com/KrungSalad/POC-CVE-2022-1444)
 
+### CVE-2022-1471 (2022-12-01)
+
+<code>
+SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization.
+</code>
+
+- [1fabunicorn/SnakeYAML-CVE-2022-1471-POC](https://github.com/1fabunicorn/SnakeYAML-CVE-2022-1471-POC)
+
 ### CVE-2022-1597 (2022-06-06)
 
 <code>
@@ -13157,25 +13165,13 @@ Race condition in the Intel(R) Driver and Support Assistant before version 20.1.
 A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates.An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'.
 </code>
 
-- [nissan-sudo/CVE-2020-0601](https://github.com/nissan-sudo/CVE-2020-0601)
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
-- [SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601)
-- [JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
-- [ly4k/CurveBall](https://github.com/ly4k/CurveBall)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
 - [BlueTeamSteve/CVE-2020-0601](https://github.com/BlueTeamSteve/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
-- [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell)
-- [MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601)
-- [YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601)
-- [thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl)
-- [dlee35/curveball_lua](https://github.com/dlee35/curveball_lua)
-- [IIICTECH/-CVE-2020-0601-ECC---EXPLOIT](https://github.com/IIICTECH/-CVE-2020-0601-ECC---EXPLOIT)
-- [Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601)
-- [gentilkiwi/curveball](https://github.com/gentilkiwi/curveball)
 - [Hans-MartinHannibalLauridsen/CurveBall](https://github.com/Hans-MartinHannibalLauridsen/CurveBall)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
 - [ioncodes/Curveball](https://github.com/ioncodes/Curveball)
@@ -13539,8 +13535,6 @@ An information disclosure vulnerability exists in the way that the Microsoft Ser
 </code>
 
 - [ZecOps/CVE-2020-1206-POC](https://github.com/ZecOps/CVE-2020-1206-POC)
-- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
-- [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
 ### CVE-2020-1283 (2020-06-09)
@@ -13717,14 +13711,6 @@ A Local File Inclusion vulnerability in Juniper Networks Junos Space allows an a
 
 - [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
 
-### CVE-2020-1764 (2020-03-26)
-
-<code>
-A hard-coded cryptographic key vulnerability in the default configuration file was found in Kiali, all versions prior to 1.15.1. A remote attacker could abuse this flaw by creating their own JWT signed tokens and bypass Kiali authentication mechanisms, possibly gaining privileges to view and alter the Istio configuration.
-</code>
-
-- [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
-
 ### CVE-2020-1937 (2020-02-24)
 
 <code>
@@ -13790,8 +13776,6 @@ This vulnerability can affect all Dubbo users stay on version 2.7.6 or lower. An
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
-- [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
-- [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1956 (2020-05-22)
@@ -13876,7 +13860,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 </code>
 
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
-- [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
 - [0xlane/CVE-2020-2551](https://github.com/0xlane/CVE-2020-2551)
@@ -13914,14 +13897,6 @@ Vulnerability in the Primavera P6 Enterprise Project Portfolio Management produc
 </code>
 
 - [5l1v3r1/CVE-2020-2556](https://github.com/5l1v3r1/CVE-2020-2556)
-
-### CVE-2020-2655 (2020-01-15)
-
-<code>
-Vulnerability in the Java SE product of Oracle Java SE (component: JSSE). Supported versions that are affected are Java SE: 11.0.5 and 13.0.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Java SE. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Java SE accessible data as well as unauthorized read access to a subset of Java SE accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets (in Java SE 8), that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.0 Base Score 4.8 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).
-</code>
-
-- [RUB-NDS/CVE-2020-2655-DemoServer](https://github.com/RUB-NDS/CVE-2020-2655-DemoServer)
 
 ### CVE-2020-2883 (2020-04-15)
 
@@ -14215,14 +14190,6 @@ In phpMyAdmin 4 before 4.9.4 and 5 before 5.0.1, SQL injection exists in the use
 
 - [xMohamed0/CVE-2020-5504-phpMyAdmin](https://github.com/xMohamed0/CVE-2020-5504-phpMyAdmin)
 
-### CVE-2020-5509 (2020-01-14)
-
-<code>
-PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
-</code>
-
-- [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
-
 ### CVE-2020-5510 (2020-01-08)
 
 <code>
@@ -14278,25 +14245,14 @@ index.php?sec=godmode/extensions&amp;sec2=extensions/files_repo in Pandora FMS v
 In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.1.5.1, and 11.6.1-11.6.5.1, the Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages.
 </code>
 
-- [dwisiswant0/CVE-2020-5902](https://github.com/dwisiswant0/CVE-2020-5902)
 - [aqhmal/CVE-2020-5902-Scanner](https://github.com/aqhmal/CVE-2020-5902-Scanner)
 - [jas502n/CVE-2020-5902](https://github.com/jas502n/CVE-2020-5902)
-- [ar0dd/CVE-2020-5902](https://github.com/ar0dd/CVE-2020-5902)
-- [yassineaboukir/CVE-2020-5902](https://github.com/yassineaboukir/CVE-2020-5902)
-- [rwincey/CVE-2020-5902-NSE](https://github.com/rwincey/CVE-2020-5902-NSE)
 - [un4gi/CVE-2020-5902](https://github.com/un4gi/CVE-2020-5902)
-- [nsflabs/CVE-2020-5902](https://github.com/nsflabs/CVE-2020-5902)
 - [yasserjanah/CVE-2020-5902](https://github.com/yasserjanah/CVE-2020-5902)
-- [JSec1337/RCE-CVE-2020-5902](https://github.com/JSec1337/RCE-CVE-2020-5902)
 - [dunderhay/CVE-2020-5902](https://github.com/dunderhay/CVE-2020-5902)
 - [r0ttenbeef/cve-2020-5902](https://github.com/r0ttenbeef/cve-2020-5902)
-- [sv3nbeast/CVE-2020-5902_RCE](https://github.com/sv3nbeast/CVE-2020-5902_RCE)
-- [cybersecurityworks553/scanner-CVE-2020-5902](https://github.com/cybersecurityworks553/scanner-CVE-2020-5902)
 - [lijiaxing1997/CVE-2020-5902-POC-EXP](https://github.com/lijiaxing1997/CVE-2020-5902-POC-EXP)
-- [qlkwej/poc-CVE-2020-5902](https://github.com/qlkwej/poc-CVE-2020-5902)
-- [Zinkuth/F5-BIG-IP-CVE-2020-5902](https://github.com/Zinkuth/F5-BIG-IP-CVE-2020-5902)
 - [0xAbdullah/CVE-2020-5902](https://github.com/0xAbdullah/CVE-2020-5902)
-- [jinnywc/CVE-2020-5902](https://github.com/jinnywc/CVE-2020-5902)
 - [GoodiesHQ/F5-Patch](https://github.com/GoodiesHQ/F5-Patch)
 - [jiansiting/CVE-2020-5902](https://github.com/jiansiting/CVE-2020-5902)
 - [wdlid/CVE-2020-5902-fix](https://github.com/wdlid/CVE-2020-5902-fix)
@@ -14476,7 +14432,6 @@ A potential security vulnerability has been identified in HPE Systems Insight Ma
 A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An attacker can upload a malicious PHP code file via the profile photo functionality, by leveraging a path traversal vulnerability in the users['photop_preview'] delete photo feature, allowing bypass of .htaccess protection. NOTE: this issue exists because of an incomplete fix for CVE-2015-3884.
 </code>
 
-- [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
 - [arafatansari/SecAssignment](https://github.com/arafatansari/SecAssignment)
 - [pswalia2u/CVE-2020-7246](https://github.com/pswalia2u/CVE-2020-7246)
 
@@ -14919,7 +14874,6 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 </code>
 
 - [Prabhashaka/Exploitation-CVE-2020-8835](https://github.com/Prabhashaka/Exploitation-CVE-2020-8835)
-- [snappyJack/Rick_write_exp_CVE-2020-8835](https://github.com/snappyJack/Rick_write_exp_CVE-2020-8835)
 - [zilong3033/CVE-2020-8835](https://github.com/zilong3033/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
 - [digamma-ai/CVE-2020-8835-verification](https://github.com/digamma-ai/CVE-2020-8835-verification)
@@ -15188,14 +15142,6 @@ A vulnerability related to Dynamic-link Library (“DLL”) loading in the Zoom 
 
 - [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
 
-### CVE-2020-9768 (2020-04-01)
-
-<code>
-A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
-</code>
-
-- [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
-
 ### CVE-2020-9922 (2020-12-08)
 
 <code>
@@ -15265,9 +15211,6 @@ Sonatype Nexus Repository before 3.21.2 allows Remote Code Execution.
 </code>
 
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
-
-### CVE-2020-10205
-- [5l1v3r1/CVE-2020-10205](https://github.com/5l1v3r1/CVE-2020-10205)
 
 ### CVE-2020-10238 (2020-03-16)
 
@@ -15926,14 +15869,6 @@ The XCloner component before 3.5.4 for Joomla! allows Authenticated Local File D
 ### CVE-2020-13457
 - [alt3kx/CVE-2020-13457](https://github.com/alt3kx/CVE-2020-13457)
 
-### CVE-2020-13640 (2020-06-18)
-
-<code>
-A SQL injection issue in the gVectors wpDiscuz plugin 5.3.5 and earlier for WordPress allows remote attackers to execute arbitrary SQL commands via the order parameter of a wpdLoadMoreComments request. (No 7.x versions are affected.)
-</code>
-
-- [asterite3/CVE-2020-13640](https://github.com/asterite3/CVE-2020-13640)
-
 ### CVE-2020-13699 (2020-07-29)
 
 <code>
@@ -16330,14 +16265,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
 - [1n7erface/PocList](https://github.com/1n7erface/PocList)
-
-### CVE-2020-14947 (2020-06-30)
-
-<code>
-OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to require/commandLine/CommandLine.php because mib_file in plugins/main_sections/ms_config/ms_snmp_config.php is mishandled in get_mib_oid.
-</code>
-
-- [mhaskar/CVE-2020-14947](https://github.com/mhaskar/CVE-2020-14947)
 
 ### CVE-2020-14955 (2020-06-26)
 
@@ -18403,6 +18330,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [offensity/CVE-2019-0708](https://github.com/offensity/CVE-2019-0708)
 - [CPT-Jack-A-Castle/Haruster-CVE-2019-0708-Exploit](https://github.com/CPT-Jack-A-Castle/Haruster-CVE-2019-0708-Exploit)
 - [Ravaan21/Bluekeep-Hunter](https://github.com/Ravaan21/Bluekeep-Hunter)
+- [davidfortytwo/bluekeep](https://github.com/davidfortytwo/bluekeep)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -23338,7 +23266,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
 - [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
-- [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
 - [OLAOLAOLA789/CVE-2018-6574](https://github.com/OLAOLAOLA789/CVE-2018-6574)
 - [repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574)
 - [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
@@ -23751,8 +23678,6 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [ericisnotrealname/CVE-2018-8174_EXP](https://github.com/ericisnotrealname/CVE-2018-8174_EXP)
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP)
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-)
-- [delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174)
-- [delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP)
 - [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
 - [lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp)
 - [sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP)
@@ -25075,7 +25000,6 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 - [dinhbaouit/CVE-2018-16763](https://github.com/dinhbaouit/CVE-2018-16763)
 - [ecebotarosh/CVE-2018-16763-exploit](https://github.com/ecebotarosh/CVE-2018-16763-exploit)
 - [n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3)
-- [uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r)
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
 - [wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763)
