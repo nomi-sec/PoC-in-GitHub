@@ -5477,6 +5477,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [f0ng/text4shellburpscanner](https://github.com/f0ng/text4shellburpscanner)
 - [WFS-Mend/vtrade-common](https://github.com/WFS-Mend/vtrade-common)
 - [devenes/text4shell-cve-2022-42889](https://github.com/devenes/text4shell-cve-2022-42889)
+- [hotblac/text4shell](https://github.com/hotblac/text4shell)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -6051,7 +6052,12 @@ TP-Link TL-WR902AC devices through V3 0.9.1 allow remote authenticated attackers
 
 - [ryan412/CVE-2022-48197](https://github.com/ryan412/CVE-2022-48197)
 
-### CVE-2022-48309
+### CVE-2022-48309 (2023-03-01)
+
+<code>
+A CSRF vulnerability allows malicious websites to retrieve logs and technical support archives in Sophos Connect versions older than 2.2.90.
+</code>
+
 - [nitschSB/CVE-2022-48309-and-CVE-2022-48310](https://github.com/nitschSB/CVE-2022-48309-and-CVE-2022-48310)
 
 ### CVE-2022-48311 (2023-02-06)
