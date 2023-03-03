@@ -55,6 +55,14 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository m
 
 - [0xsu3ks/CVE-2023-0860](https://github.com/0xsu3ks/CVE-2023-0860)
 
+### CVE-2023-20921 (2023-01-24)
+
+<code>
+In onPackageRemoved of AccessibilityManagerService.java, there is a possibility to automatically grant accessibility services due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-243378132
+</code>
+
+- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921)
+
 ### CVE-2023-21608 (2023-01-18)
 
 <code>
@@ -17706,6 +17714,14 @@ JamoDat TSMManager Collector version up to 6.5.0.21 is vulnerable to an Authoriz
 </code>
 
 - [VoidSec/Tivoli-Madness](https://github.com/VoidSec/Tivoli-Madness)
+
+### CVE-2020-28119 (2021-10-04)
+
+<code>
+Cross site scripting vulnerability in 53KF &lt; 2.0.0.2 that allows for arbitrary code to be executed via crafted HTML statement inserted into chat window.
+</code>
+
+- [i900008/CVE-2020-28119](https://github.com/i900008/CVE-2020-28119)
 
 ### CVE-2020-28148
 - [fengchenzxc/CVE-2020-28148](https://github.com/fengchenzxc/CVE-2020-28148)
