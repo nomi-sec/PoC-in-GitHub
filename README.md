@@ -5,6 +5,9 @@
 - [ASkyeye/CVE-2023-0045](https://github.com/ASkyeye/CVE-2023-0045)
 - [es0j/CVE-2023-0045](https://github.com/es0j/CVE-2023-0045)
 
+### CVE-2023-0050
+- [wh-gov/CVE-2023-0050](https://github.com/wh-gov/CVE-2023-0050)
+
 ### CVE-2023-0179
 - [TurtleARM/CVE-2023-0179-PoC](https://github.com/TurtleARM/CVE-2023-0179-PoC)
 
@@ -3755,6 +3758,14 @@ School Dormitory Management System v1.0 is vulnerable to reflected cross-site sc
 </code>
 
 - [bigzooooz/CVE-2022-30514](https://github.com/bigzooooz/CVE-2022-30514)
+
+### CVE-2022-30524 (2022-05-09)
+
+<code>
+There is an invalid memory access in the TextLine class in TextOutputDev.cc in Xpdf 4.0.4 because the text extractor mishandles characters at large y coordinates. It can be triggered by (for example) sending a crafted pdf file to the pdftotext binary, which allows a remote attacker to cause a Denial of Service (Segmentation fault) or possibly have unspecified other impact.
+</code>
+
+- [rishvic/xpdf-docker](https://github.com/rishvic/xpdf-docker)
 
 ### CVE-2022-30525 (2022-05-12)
 
@@ -14513,6 +14524,7 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
 - [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
+- [gatariee/CVE-2020-7247](https://github.com/gatariee/CVE-2020-7247)
 
 ### CVE-2020-7283 (2020-07-03)
 
@@ -17714,14 +17726,6 @@ JamoDat TSMManager Collector version up to 6.5.0.21 is vulnerable to an Authoriz
 </code>
 
 - [VoidSec/Tivoli-Madness](https://github.com/VoidSec/Tivoli-Madness)
-
-### CVE-2020-28119 (2021-10-04)
-
-<code>
-Cross site scripting vulnerability in 53KF &lt; 2.0.0.2 that allows for arbitrary code to be executed via crafted HTML statement inserted into chat window.
-</code>
-
-- [i900008/CVE-2020-28119](https://github.com/i900008/CVE-2020-28119)
 
 ### CVE-2020-28148
 - [fengchenzxc/CVE-2020-28148](https://github.com/fengchenzxc/CVE-2020-28148)
