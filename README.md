@@ -207,6 +207,9 @@ Grand Theft Auto V for PC allows attackers to achieve partial remote code execut
 
 - [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
 
+### CVE-2023-24362
+- [cavetownie/CVE-2023-24362](https://github.com/cavetownie/CVE-2023-24362)
+
 ### CVE-2023-24610 (2023-02-01)
 
 <code>
@@ -4330,6 +4333,14 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
 
+### CVE-2022-32548 (2022-08-29)
+
+<code>
+An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
+</code>
+
+- [uicres/draytek-RCE](https://github.com/uicres/draytek-RCE)
+
 ### CVE-2022-32832 (2022-09-23)
 
 <code>
@@ -6157,7 +6168,6 @@ Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through
 
 - [horizon3ai/CVE-2022-47966](https://github.com/horizon3ai/CVE-2022-47966)
 - [shameem-testing/PoC-for-ME-SAML-Vulnerability](https://github.com/shameem-testing/PoC-for-ME-SAML-Vulnerability)
-- [p33d/CVE-2022-47966](https://github.com/p33d/CVE-2022-47966)
 - [Inplex-sys/CVE-2022-47966](https://github.com/Inplex-sys/CVE-2022-47966)
 - [ACE-Responder/CVE-2022-47966_checker](https://github.com/ACE-Responder/CVE-2022-47966_checker)
 - [vonahisec/CVE-2022-47966-Scan](https://github.com/vonahisec/CVE-2022-47966-Scan)
@@ -7028,6 +7038,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [hupe1980/CVE-2021-3129](https://github.com/hupe1980/CVE-2021-3129)
 - [0nion1/CVE-2021-3129](https://github.com/0nion1/CVE-2021-3129)
 - [MadExploits/Laravel-debug-Checker](https://github.com/MadExploits/Laravel-debug-Checker)
+- [ajisai-babu/CVE-2021-3129-exp](https://github.com/ajisai-babu/CVE-2021-3129-exp)
 
 ### CVE-2021-3130 (2021-01-20)
 
