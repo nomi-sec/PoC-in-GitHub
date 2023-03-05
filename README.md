@@ -702,6 +702,7 @@ The Fusion Builder WordPress plugin before 3.6.2, used in the Avada theme, does 
 </code>
 
 - [ardzz/CVE-2022-1386](https://github.com/ardzz/CVE-2022-1386)
+- [im-hanzou/fubucker](https://github.com/im-hanzou/fubucker)
 
 ### CVE-2022-1388 (2022-05-05)
 
@@ -3941,7 +3942,7 @@ Mini-Tmall v1.0 is vulnerable to Insecure Permissions via tomcat-embed-jasper.
 eLabFTW is an electronic lab notebook manager for research teams. Prior to version 4.3.0, a vulnerability allows an authenticated user with an administrator role in a team to assign itself system administrator privileges within the application, or create a new system administrator account. The issue has been corrected in eLabFTW version 4.3.0. In the context of eLabFTW, an administrator is a user account with certain privileges to manage users and content in their assigned team/teams. A system administrator account can manage all accounts, teams and edit system-wide settings within the application. The impact is not deemed as high, as it requires the attacker to have access to an administrator account. Regular user accounts cannot exploit this to gain admin rights. A workaround for one if the issues is removing the ability of administrators to create accounts.
 </code>
 
-- [gscharf/CVE-2022-31007-Python-POC](https://github.com/gscharf/CVE-2022-31007-Python-POC)
+- [gregscharf/CVE-2022-31007-Python-POC](https://github.com/gregscharf/CVE-2022-31007-Python-POC)
 
 ### CVE-2022-31061 (2022-06-28)
 
@@ -4177,6 +4178,7 @@ pfSense pfBlockerNG through 2.1.4_26 allows remote attackers to execute arbitrar
 - [EvergreenCartoons/SenselessViolence](https://github.com/EvergreenCartoons/SenselessViolence)
 - [Madliife0/CVE-2022-31814](https://github.com/Madliife0/CVE-2022-31814)
 - [TheUnknownSoul/CVE-2022-31814](https://github.com/TheUnknownSoul/CVE-2022-31814)
+- [drcayber/RCE](https://github.com/drcayber/RCE)
 
 ### CVE-2022-31854 (2022-07-07)
 
