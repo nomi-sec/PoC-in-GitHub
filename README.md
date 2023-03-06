@@ -4617,6 +4617,14 @@ The Blink1Control2 application &lt;= 2.2.7 uses weak password encryption and an 
 
 - [p1ckzi/CVE-2022-35513](https://github.com/p1ckzi/CVE-2022-35513)
 
+### CVE-2022-35649 (2022-07-25)
+
+<code>
+The vulnerability was found in Moodle, occurs due to improper input validation when parsing PostScript code. An omitted execution parameter results in a remote code execution risk for sites running GhostScript versions older than 9.50. Successful exploitation of this vulnerability may result in complete compromise of vulnerable system.
+</code>
+
+- [antoinenguyen-09/CVE-2022-35649](https://github.com/antoinenguyen-09/CVE-2022-35649)
+
 ### CVE-2022-35698 (2022-10-14)
 
 <code>
