@@ -11,6 +11,9 @@
 ### CVE-2023-0179
 - [TurtleARM/CVE-2023-0179-PoC](https://github.com/TurtleARM/CVE-2023-0179-PoC)
 
+### CVE-2023-0264
+- [twwd/CVE-2023-0264](https://github.com/twwd/CVE-2023-0264)
+
 ### CVE-2023-0297 (2023-01-13)
 
 <code>
@@ -600,6 +603,7 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 - [shuttterman/bob_kern_exp1](https://github.com/shuttterman/bob_kern_exp1)
 - [ysanatomic/CVE-2022-1015](https://github.com/ysanatomic/CVE-2022-1015)
 - [wlswotmd/CVE-2022-1015](https://github.com/wlswotmd/CVE-2022-1015)
+- [delsploit/CVE-2022-1015](https://github.com/delsploit/CVE-2022-1015)
 
 ### CVE-2022-1040 (2022-03-25)
 
@@ -855,6 +859,14 @@ The ARMember WordPress plugin before 3.4.8 is vulnerable to account takeover (ev
 
 ### CVE-2022-1972
 - [randorisec/CVE-2022-1972-infoleak-PoC](https://github.com/randorisec/CVE-2022-1972-infoleak-PoC)
+
+### CVE-2022-2078 (2022-06-30)
+
+<code>
+A vulnerability was found in the Linux kernel's nft_set_desc_concat_parse() function .This flaw allows an attacker to trigger a buffer overflow via nft_set_desc_concat_parse() , causing a denial of service and possibly to run code.
+</code>
+
+- [delsploit/CVE-2022-2078](https://github.com/delsploit/CVE-2022-2078)
 
 ### CVE-2022-2097 (2022-07-05)
 
