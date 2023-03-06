@@ -102,6 +102,14 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [DXask88MA/Weblogic-CVE-2023-21839](https://github.com/DXask88MA/Weblogic-CVE-2023-21839)
 - [hacats/CVE-2023-21839](https://github.com/hacats/CVE-2023-21839)
 
+### CVE-2023-22432 (2023-03-05)
+
+<code>
+Open redirect vulnerability exists in web2py versions prior to 2.23.1. When using the tool, a web2py user may be redirected to an arbitrary website by accessing a specially crafted URL. As a result, the user may become a victim of a phishing attack.
+</code>
+
+- [aeyesec/CVE-2023-22432](https://github.com/aeyesec/CVE-2023-22432)
+
 ### CVE-2023-22490 (2023-02-14)
 
 <code>
