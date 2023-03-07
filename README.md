@@ -155,6 +155,9 @@ A Path Traversal in setup.php in OpenEMR &lt; 7.0.0 allows remote unauthenticate
 
 - [gbrsh/CVE-2023-22974](https://github.com/gbrsh/CVE-2023-22974)
 
+### CVE-2023-23138
+- [OmarAtallahh/CVE-2023-23138](https://github.com/OmarAtallahh/CVE-2023-23138)
+
 ### CVE-2023-23333 (2023-02-06)
 
 <code>
@@ -254,6 +257,14 @@ systemd before 247 does not adequately block local privilege escalation for some
 </code>
 
 - [Zenmovie/CVE-2023-26604](https://github.com/Zenmovie/CVE-2023-26604)
+
+### CVE-2023-27566 (2023-03-03)
+
+<code>
+Cubism Core in Live2D Cubism Editor 4.2.03 allows out-of-bounds write via a crafted Section Offset Table or Count Info Table in an MOC3 file.
+</code>
+
+- [OpenL2D/moc3ingbird](https://github.com/OpenL2D/moc3ingbird)
 
 
 ## 2022
@@ -513,7 +524,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [LudovicPatho/CVE-2022-0847_dirty-pipe](https://github.com/LudovicPatho/CVE-2022-0847_dirty-pipe)
 - [DanaEpp/pwncat_dirtypipe](https://github.com/DanaEpp/pwncat_dirtypipe)
 - [tmoneypenny/CVE-2022-0847](https://github.com/tmoneypenny/CVE-2022-0847)
-- [nek0x/dirty-pipe](https://github.com/nek0x/dirty-pipe)
+- [scopion/dirty-pipe](https://github.com/scopion/dirty-pipe)
 - [stfnw/Debugging_Dirty_Pipe_CVE-2022-0847](https://github.com/stfnw/Debugging_Dirty_Pipe_CVE-2022-0847)
 - [drapl0n/dirtypipe](https://github.com/drapl0n/dirtypipe)
 - [xnderLAN/CVE-2022-0847](https://github.com/xnderLAN/CVE-2022-0847)
@@ -10038,7 +10049,12 @@ A command injection vulnerability in the web server of some Hikvision product. D
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 - [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
 
-### CVE-2021-36394
+### CVE-2021-36394 (2023-03-06)
+
+<code>
+In Moodle, a remote code execution risk was identified in the Shibboleth authentication plugin.
+</code>
+
 - [dinhbaouit/CVE-2021-36394](https://github.com/dinhbaouit/CVE-2021-36394)
 - [lavclash75/CVE-2021-36394-Pre-Auth-RCE-in-Moodle](https://github.com/lavclash75/CVE-2021-36394-Pre-Auth-RCE-in-Moodle)
 
@@ -13879,7 +13895,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [TheJoyOfHacking/dirkjanm-CVE-2020-1472](https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472)
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
-- [nek0x/zerologon](https://github.com/nek0x/zerologon)
+- [carlos55ml/zerologon](https://github.com/carlos55ml/zerologon)
 - [Rvn0xsy/ZeroLogon](https://github.com/Rvn0xsy/ZeroLogon)
 - [guglia001/MassZeroLogon](https://github.com/guglia001/MassZeroLogon)
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
