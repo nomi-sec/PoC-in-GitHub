@@ -61,6 +61,14 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository m
 
 - [0xsu3ks/CVE-2023-0860](https://github.com/0xsu3ks/CVE-2023-0860)
 
+### CVE-2023-1112 (2023-03-01)
+
+<code>
+Es wurde eine kritische Schwachstelle in Drag and Drop Multiple File Upload Contact Form 7 5.0.6.1 ausgemacht. Es geht dabei um eine nicht klar definierte Funktion der Datei admin-ajax.php. Durch Manipulation des Arguments upload_name mit unbekannten Daten kann eine relative path traversal-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal](https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal)
+
 ### CVE-2023-20921 (2023-01-24)
 
 <code>
@@ -20321,6 +20329,7 @@ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation 
 - [Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149)
 - [cloudflare/exim-cve-2019-10149-data](https://github.com/cloudflare/exim-cve-2019-10149-data)
 - [Stick-U235/CVE-2019-10149-Exploit](https://github.com/Stick-U235/CVE-2019-10149-Exploit)
+- [rahmadsandy/EXIM-4.87-CVE-2019-10149](https://github.com/rahmadsandy/EXIM-4.87-CVE-2019-10149)
 
 ### CVE-2019-10172 (2019-11-18)
 
