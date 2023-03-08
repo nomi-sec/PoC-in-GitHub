@@ -95,6 +95,7 @@ Microsoft Word Remote Code Execution Vulnerability
 
 - [FeatherStark/CVE-2023-21716](https://github.com/FeatherStark/CVE-2023-21716)
 - [Xnuvers007/CVE-2023-21716](https://github.com/Xnuvers007/CVE-2023-21716)
+- [gyaansastra/CVE-2023-21716](https://github.com/gyaansastra/CVE-2023-21716)
 
 ### CVE-2023-21739 (2023-01-10)
 
