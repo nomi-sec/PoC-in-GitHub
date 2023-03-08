@@ -270,6 +270,9 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
+### CVE-2023-26262
+- [istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262)
+
 ### CVE-2023-26604 (2023-03-03)
 
 <code>
@@ -285,6 +288,9 @@ Cubism Core in Live2D Cubism Editor 4.2.03 allows out-of-bounds write via a craf
 </code>
 
 - [OpenL2D/moc3ingbird](https://github.com/OpenL2D/moc3ingbird)
+
+### CVE-2023-123456
+- [emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456)
 
 
 ## 2022
@@ -2717,6 +2723,14 @@ In JetBrains Hub before 2022.1.14434, SAML request takeover was possible.
 </code>
 
 - [yuriisanin/CVE-2022-25262](https://github.com/yuriisanin/CVE-2022-25262)
+
+### CVE-2022-25265 (2022-02-16)
+
+<code>
+In the Linux kernel through 5.16.10, certain binary files may have the exec-all attribute if they were built in approximately 2003 (e.g., with GCC 3.2.2 and Linux kernel 2.4.20). This can cause execution of bytes located in supposedly non-executable regions of a file.
+</code>
+
+- [x0reaxeax/exec-prot-bypass](https://github.com/x0reaxeax/exec-prot-bypass)
 
 ### CVE-2022-25313 (2022-02-17)
 
@@ -6186,7 +6200,6 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
 - [BomberFish/Mandela](https://github.com/BomberFish/Mandela)
 - [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
-- [straight-tamago/FileSwitcherPro](https://github.com/straight-tamago/FileSwitcherPro)
 - [BomberFish/Mandela-Rewritten](https://github.com/BomberFish/Mandela-Rewritten)
 - [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
 
