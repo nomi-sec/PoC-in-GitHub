@@ -96,6 +96,7 @@ Microsoft Word Remote Code Execution Vulnerability
 - [FeatherStark/CVE-2023-21716](https://github.com/FeatherStark/CVE-2023-21716)
 - [Xnuvers007/CVE-2023-21716](https://github.com/Xnuvers007/CVE-2023-21716)
 - [gyaansastra/CVE-2023-21716](https://github.com/gyaansastra/CVE-2023-21716)
+- [mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results)
 
 ### CVE-2023-21739 (2023-01-10)
 
@@ -112,6 +113,14 @@ Windows Backup Service Elevation of Privilege Vulnerability.
 </code>
 
 - [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
+
+### CVE-2023-21768 (2023-01-10)
+
+<code>
+Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability.
+</code>
+
+- [chompie1337/Windows_LPE_AFD_CVE-2023-21768](https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768)
 
 ### CVE-2023-21839 (2023-01-17)
 
@@ -18834,14 +18843,6 @@ An information disclosure vulnerability exists when the win32k component imprope
 </code>
 
 - [CrackerCat/cve-2019-1096-poc](https://github.com/CrackerCat/cve-2019-1096-poc)
-
-### CVE-2019-1108 (2019-07-29)
-
-<code>
-An information disclosure vulnerability exists when the Windows RDP client improperly discloses the contents of its memory, aka 'Remote Desktop Protocol Client Information Disclosure Vulnerability'.
-</code>
-
-- [Lanph3re/cve-2019-1108](https://github.com/Lanph3re/cve-2019-1108)
 
 ### CVE-2019-1125 (2019-09-03)
 
