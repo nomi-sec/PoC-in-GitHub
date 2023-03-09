@@ -1187,6 +1187,14 @@ A vulnerability classified as problematic was found in SourceCodester Sanitizati
 
 - [Urban4/CVE-2022-3992](https://github.com/Urban4/CVE-2022-3992)
 
+### CVE-2022-4395 (2023-01-30)
+
+<code>
+The Membership For WooCommerce WordPress plugin before 2.1.7 does not validate uploaded files, which could allow unauthenticated users to upload arbitrary files, such as malicious PHP code, and achieve RCE.
+</code>
+
+- [MrG3P5/CVE-2022-4395](https://github.com/MrG3P5/CVE-2022-4395)
+
 ### CVE-2022-4510 (2023-01-25)
 
 <code>
@@ -18267,6 +18275,7 @@ Tenda N300 F3 12.01.01.48 devices allow remote attackers to obtain sensitive inf
 </code>
 
 - [dumitory-dev/CVE-2020-35391-POC](https://github.com/dumitory-dev/CVE-2020-35391-POC)
+- [H454NSec/CVE-2020-35391](https://github.com/H454NSec/CVE-2020-35391)
 
 ### CVE-2020-35476 (2020-12-16)
 
@@ -21546,6 +21555,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [psw01/CVE-2019-15107_webminRCE](https://github.com/psw01/CVE-2019-15107_webminRCE)
 - [lolminerxmrig/CVE-2019-15107](https://github.com/lolminerxmrig/CVE-2019-15107)
 - [TheAlpha19/MiniExploit](https://github.com/TheAlpha19/MiniExploit)
+- [wenruoya/CVE-2019-15107](https://github.com/wenruoya/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
