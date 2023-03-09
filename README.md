@@ -234,6 +234,8 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [keyuan15/CVE-2023-23752](https://github.com/keyuan15/CVE-2023-23752)
 - [adriyansyah-mf/CVE-2023-23752](https://github.com/adriyansyah-mf/CVE-2023-23752)
 - [haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752)
+- [GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752)
+- [gibran-abdillah/CVE-2023-23752](https://github.com/gibran-abdillah/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -2105,7 +2107,7 @@ A Spring Data MongoDB application is vulnerable to SpEL Injection when using @Qu
 - [trganda/CVE-2022-22980](https://github.com/trganda/CVE-2022-22980)
 - [kuron3k0/Spring-Data-Mongodb-Example](https://github.com/kuron3k0/Spring-Data-Mongodb-Example)
 - [li8u99/Spring-Data-Mongodb-Demo](https://github.com/li8u99/Spring-Data-Mongodb-Demo)
-- [jweny/cve-2022-22980-exp](https://github.com/jweny/cve-2022-22980-exp)
+- [jweny/cve-2022-22980](https://github.com/jweny/cve-2022-22980)
 - [murataydemir/CVE-2022-22980](https://github.com/murataydemir/CVE-2022-22980)
 - [Vulnmachines/Spring_cve-2022-22980](https://github.com/Vulnmachines/Spring_cve-2022-22980)
 
@@ -2130,7 +2132,7 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 </code>
 
 - [qq1549176285/CVE-2022-23131](https://github.com/qq1549176285/CVE-2022-23131)
-- [jweny/zabbix-saml-bypass-exp](https://github.com/jweny/zabbix-saml-bypass-exp)
+- [jweny/CVE-2022-23131](https://github.com/jweny/CVE-2022-23131)
 - [Mr-xn/cve-2022-23131](https://github.com/Mr-xn/cve-2022-23131)
 - [1mxml/CVE-2022-23131](https://github.com/1mxml/CVE-2022-23131)
 - [0tt7/CVE-2022-23131](https://github.com/0tt7/CVE-2022-23131)
@@ -2490,6 +2492,7 @@ Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker 
 - [garySec/CVE-2022-24637](https://github.com/garySec/CVE-2022-24637)
 - [hupe1980/CVE-2022-24637](https://github.com/hupe1980/CVE-2022-24637)
 - [icebreack/CVE-2022-24637](https://github.com/icebreack/CVE-2022-24637)
+- [Pflegusch/CVE-2022-24637](https://github.com/Pflegusch/CVE-2022-24637)
 
 ### CVE-2022-24644 (2022-03-07)
 
@@ -3349,8 +3352,8 @@ An issue was discovered in Django 2.2 before 2.2.28, 3.2 before 3.2.13, and 4.0 
 
 - [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
-- [ahsentekdemir/CVE-2022-28346](https://github.com/ahsentekdemir/CVE-2022-28346)
 - [pthlong9991/CVE-2022-28346](https://github.com/pthlong9991/CVE-2022-28346)
+- [vincentinttsh/CVE-2022-28346](https://github.com/vincentinttsh/CVE-2022-28346)
 
 ### CVE-2022-28368 (2022-04-02)
 
@@ -4710,14 +4713,6 @@ The Blink1Control2 application &lt;= 2.2.7 uses weak password encryption and an 
 </code>
 
 - [p1ckzi/CVE-2022-35513](https://github.com/p1ckzi/CVE-2022-35513)
-
-### CVE-2022-35649 (2022-07-25)
-
-<code>
-The vulnerability was found in Moodle, occurs due to improper input validation when parsing PostScript code. An omitted execution parameter results in a remote code execution risk for sites running GhostScript versions older than 9.50. Successful exploitation of this vulnerability may result in complete compromise of vulnerable system.
-</code>
-
-- [antoinenguyen-09/CVE-2022-35649](https://github.com/antoinenguyen-09/CVE-2022-35649)
 
 ### CVE-2022-35698 (2022-10-14)
 
@@ -6945,6 +6940,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-)
 - [r1l4-i3pur1l4/CVE-2021-1732](https://github.com/r1l4-i3pur1l4/CVE-2021-1732)
 - [fenalik/CVE-2021-1732](https://github.com/fenalik/CVE-2021-1732)
+- [fenasal/CVE-2021-1732](https://github.com/fenasal/CVE-2021-1732)
 
 ### CVE-2021-1748 (2021-04-02)
 
@@ -7632,7 +7628,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
 - [Naughty-SEC/pkexec-shell-executor](https://github.com/Naughty-SEC/pkexec-shell-executor)
-- [1337Rin/CVE-2021-4034](https://github.com/1337Rin/CVE-2021-4034)
+- [zxc2007/CVE-2021-4034](https://github.com/zxc2007/CVE-2021-4034)
 - [flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034)
 - [Senz4wa/CVE-2021-4034](https://github.com/Senz4wa/CVE-2021-4034)
 - [Pixailz/CVE-2021-4034](https://github.com/Pixailz/CVE-2021-4034)
@@ -8218,6 +8214,7 @@ An issue has been discovered in GitLab CE/EE affecting all versions starting fro
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
 - [keven1z/CVE-2021-22205](https://github.com/keven1z/CVE-2021-22205)
 - [hhhotdrink/CVE-2021-22205](https://github.com/hhhotdrink/CVE-2021-22205)
+- [sei-fish/CVE-2021-22205](https://github.com/sei-fish/CVE-2021-22205)
 
 ### CVE-2021-22206 (2021-05-06)
 
