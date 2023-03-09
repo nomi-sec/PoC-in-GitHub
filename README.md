@@ -148,6 +148,14 @@ Git is a revision control system. Using a specially-crafted repository, Git prio
 
 - [smash8tap/CVE-2023-22490_PoC](https://github.com/smash8tap/CVE-2023-22490_PoC)
 
+### CVE-2023-22551 (2023-01-01)
+
+<code>
+The FTP (aka &quot;Implementation of a simple FTP client and server&quot;) project through 96c1a35 allows remote attackers to cause a denial of service (memory consumption) by engaging in client activity, such as establishing and then terminating a connection. This occurs because malloc is used but free is not.
+</code>
+
+- [viswagb/CVE-2023-22551](https://github.com/viswagb/CVE-2023-22551)
+
 ### CVE-2023-22809 (2023-01-18)
 
 <code>
