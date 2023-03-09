@@ -201,6 +201,14 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 
 - [r3nt0n/CVE-2023-23488-PoC](https://github.com/r3nt0n/CVE-2023-23488-PoC)
 
+### CVE-2023-23504 (2023-02-27)
+
+<code>
+The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13.2, macOS Monterey 12.6.3, iOS 15.7.3 and iPadOS 15.7.3, tvOS 16.3, watchOS 9.3, iOS 16.3 and iPadOS 16.3. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [zeroc00I/CVE-2023-23504](https://github.com/zeroc00I/CVE-2023-23504)
+
 ### CVE-2023-23752 (2023-02-16)
 
 <code>
@@ -249,6 +257,14 @@ Grand Theft Auto V for PC allows attackers to achieve partial remote code execut
 </code>
 
 - [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
+
+### CVE-2023-24317 (2023-02-23)
+
+<code>
+Judging Management System 1.0 was discovered to contain an arbitrary file upload vulnerability via the component edit_organizer.php.
+</code>
+
+- [angelopioamirante/CVE-2023-24317](https://github.com/angelopioamirante/CVE-2023-24317)
 
 ### CVE-2023-24362
 - [cavetownie/CVE-2023-24362](https://github.com/cavetownie/CVE-2023-24362)
@@ -300,6 +316,9 @@ Cubism Core in Live2D Cubism Editor 4.2.03 allows out-of-bounds write via a craf
 
 ### CVE-2023-123456
 - [emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456)
+
+### CVE-2023-999999
+- [zeroc00I/CVE-2023-999999](https://github.com/zeroc00I/CVE-2023-999999)
 
 
 ## 2022
@@ -18843,6 +18862,14 @@ An information disclosure vulnerability exists when the win32k component imprope
 </code>
 
 - [CrackerCat/cve-2019-1096-poc](https://github.com/CrackerCat/cve-2019-1096-poc)
+
+### CVE-2019-1108 (2019-07-29)
+
+<code>
+An information disclosure vulnerability exists when the Windows RDP client improperly discloses the contents of its memory, aka 'Remote Desktop Protocol Client Information Disclosure Vulnerability'.
+</code>
+
+- [Lanph3re/cve-2019-1108](https://github.com/Lanph3re/cve-2019-1108)
 
 ### CVE-2019-1125 (2019-09-03)
 
