@@ -243,6 +243,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752)
 - [GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752)
 - [gibran-abdillah/CVE-2023-23752](https://github.com/gibran-abdillah/CVE-2023-23752)
+- [H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -5431,7 +5432,7 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 ### CVE-2022-41049 (2022-11-09)
 
 <code>
-Windows Mark of the Web Security Feature Bypass Vulnerability. This CVE ID is unique from CVE-2022-41091.
+Windows Mark of the Web Security Feature Bypass Vulnerability
 </code>
 
 - [NathanScottGithub/CVE-2022-41049-POC](https://github.com/NathanScottGithub/CVE-2022-41049-POC)
@@ -5468,7 +5469,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 ### CVE-2022-41099 (2022-11-09)
 
 <code>
-BitLocker Security Feature Bypass Vulnerability.
+BitLocker Security Feature Bypass Vulnerability
 </code>
 
 - [halsey51013/UpdateWindowsRE-CVE-2022-41099](https://github.com/halsey51013/UpdateWindowsRE-CVE-2022-41099)
@@ -5478,7 +5479,7 @@ BitLocker Security Feature Bypass Vulnerability.
 ### CVE-2022-41114 (2022-11-09)
 
 <code>
-Windows Bind Filter Driver Elevation of Privilege Vulnerability.
+Windows Bind Filter Driver Elevation of Privilege Vulnerability
 </code>
 
 - [gmh5225/CVE-2022-41114](https://github.com/gmh5225/CVE-2022-41114)
@@ -27035,6 +27036,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [0xm4ud/noSAMBAnoCRY-CVE-2017-7494](https://github.com/0xm4ud/noSAMBAnoCRY-CVE-2017-7494)
 - [I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux)
 - [yinyinmeimei/CVE-2017-7494-payload](https://github.com/yinyinmeimei/CVE-2017-7494-payload)
+- [adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC)
 
 ### CVE-2017-7525 (2018-02-06)
 
