@@ -657,6 +657,7 @@ An out-of-bounds (OOB) memory write flaw was found in the Linux kernel’s watch
 </code>
 
 - [Bonfee/CVE-2022-0995](https://github.com/Bonfee/CVE-2022-0995)
+- [AndreevSemen/CVE-2022-0995](https://github.com/AndreevSemen/CVE-2022-0995)
 
 ### CVE-2022-0997 (2022-05-17)
 
@@ -27034,7 +27035,6 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [0xm4ud/noSAMBAnoCRY-CVE-2017-7494](https://github.com/0xm4ud/noSAMBAnoCRY-CVE-2017-7494)
 - [I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux)
 - [yinyinmeimei/CVE-2017-7494-payload](https://github.com/yinyinmeimei/CVE-2017-7494-payload)
-- [adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC)
 
 ### CVE-2017-7525 (2018-02-06)
 
