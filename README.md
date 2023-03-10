@@ -5,7 +5,12 @@
 - [ASkyeye/CVE-2023-0045](https://github.com/ASkyeye/CVE-2023-0045)
 - [es0j/CVE-2023-0045](https://github.com/es0j/CVE-2023-0045)
 
-### CVE-2023-0050
+### CVE-2023-0050 (2023-03-09)
+
+<code>
+An issue has been discovered in GitLab affecting all versions starting from 13.7 before 15.7.8, all versions starting from 15.8 before 15.8.4, all versions starting from 15.9 before 15.9.2. A specially crafted Kroki diagram could lead to a stored XSS on the client side which allows attackers to perform arbitrary actions on behalf of victims.
+</code>
+
 - [wh-gov/CVE-2023-0050](https://github.com/wh-gov/CVE-2023-0050)
 
 ### CVE-2023-0179
@@ -1025,6 +1030,7 @@ The All-in-One WP Migration WordPress plugin before 7.63 uses the wrong content 
 - [konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF)
 - [PolymorphicOpcode/CVE-2022-2588](https://github.com/PolymorphicOpcode/CVE-2022-2588)
 - [BassamGraini/CVE-2022-2588](https://github.com/BassamGraini/CVE-2022-2588)
+- [dom4570/CVE-2022-2588](https://github.com/dom4570/CVE-2022-2588)
 
 ### CVE-2022-2602
 - [LukeGix/CVE-2022-2602](https://github.com/LukeGix/CVE-2022-2602)
@@ -6294,6 +6300,7 @@ IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker 
 
 - [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
 - [dhina016/CVE-2022-47986](https://github.com/dhina016/CVE-2022-47986)
+- [mauricelambert/CVE-2022-47986](https://github.com/mauricelambert/CVE-2022-47986)
 
 ### CVE-2022-48194 (2022-12-30)
 
@@ -15182,7 +15189,7 @@ graph_realtime.php in Cacti 1.2.8 allows remote attackers to execute arbitrary O
 </code>
 
 - [mhaskar/CVE-2020-8813](https://github.com/mhaskar/CVE-2020-8813)
-- [m4udSec/Cacti-CVE-2020-8813](https://github.com/m4udSec/Cacti-CVE-2020-8813)
+- [0xm4ud/Cacti-CVE-2020-8813](https://github.com/0xm4ud/Cacti-CVE-2020-8813)
 - [hexcowboy/CVE-2020-8813](https://github.com/hexcowboy/CVE-2020-8813)
 - [p0dalirius/CVE-2020-8813-Cacti-RCE-in-graph_realtime](https://github.com/p0dalirius/CVE-2020-8813-Cacti-RCE-in-graph_realtime)
 
@@ -27021,7 +27028,7 @@ Samba since version 3.5.0 and before 4.6.4, 4.5.10 and 4.4.14 is vulnerable to r
 - [cved-sources/cve-2017-7494](https://github.com/cved-sources/cve-2017-7494)
 - [john-80/cve-2017-7494](https://github.com/john-80/cve-2017-7494)
 - [Hansindu-M/CVE-2017-7494_IT19115344](https://github.com/Hansindu-M/CVE-2017-7494_IT19115344)
-- [m4udSec/noSAMBAnoCRY-CVE-2017-7494](https://github.com/m4udSec/noSAMBAnoCRY-CVE-2017-7494)
+- [0xm4ud/noSAMBAnoCRY-CVE-2017-7494](https://github.com/0xm4ud/noSAMBAnoCRY-CVE-2017-7494)
 - [I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux)
 - [yinyinmeimei/CVE-2017-7494-payload](https://github.com/yinyinmeimei/CVE-2017-7494-payload)
 - [adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC)
