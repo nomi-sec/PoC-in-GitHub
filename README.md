@@ -296,6 +296,9 @@ NOSH 4a5cfdb allows remote authenticated users to execute PHP arbitrary code via
 
 - [abbisQQ/CVE-2023-24610](https://github.com/abbisQQ/CVE-2023-24610)
 
+### CVE-2023-24749
+- [mahaloz/netgear-pwnagent](https://github.com/mahaloz/netgear-pwnagent)
+
 ### CVE-2023-25136 (2023-02-03)
 
 <code>
@@ -19613,6 +19616,7 @@ An issue was discovered in OpenSSH 7.9. Due to the scp implementation being deri
 </code>
 
 - [53n7hu/SNP](https://github.com/53n7hu/SNP)
+- [Sigmw/CVE-2019-6111-poc](https://github.com/Sigmw/CVE-2019-6111-poc)
 
 ### CVE-2019-6203 (2020-04-17)
 
@@ -26334,6 +26338,14 @@ An elevation of privilege vulnerability in the Telephony component could enable 
 
 - [lanrat/tethr](https://github.com/lanrat/tethr)
 
+### CVE-2017-0564 (2017-04-07)
+
+<code>
+An elevation of privilege vulnerability in the kernel ION subsystem could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as Critical due to the possibility of a local permanent device compromise, which may require reflashing the operating system to repair the device. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-34276203.
+</code>
+
+- [guoygang/CVE-2017-0564-ION-PoC](https://github.com/guoygang/CVE-2017-0564-ION-PoC)
+
 ### CVE-2017-0781 (2017-09-14)
 
 <code>
@@ -26367,6 +26379,14 @@ An elevation of privilege vulnerability in the Android framework (gatekeeperresp
 </code>
 
 - [michalbednarski/ReparcelBug](https://github.com/michalbednarski/ReparcelBug)
+
+### CVE-2017-0807 (2017-10-03)
+
+<code>
+An elevation of privilege vulnerability in the Android framework (ui framework). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2. Android ID: A-35056974.
+</code>
+
+- [kpatsakis/PoC_CVE-2017-0807](https://github.com/kpatsakis/PoC_CVE-2017-0807)
 
 ### CVE-2017-1635 (2017-12-13)
 
@@ -26770,6 +26790,7 @@ Insufficient input validation in system firmware for Intel NUC7i3BNK, NUC7i3BNH,
 Systems with microprocessors utilizing speculative execution and branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
+- [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack)
 - [EdwardOwusuAdjei/Spectre-PoC](https://github.com/EdwardOwusuAdjei/Spectre-PoC)
 - [poilynx/spectre-attack-example](https://github.com/poilynx/spectre-attack-example)
 - [pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo)
@@ -27689,6 +27710,7 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [CSC-pentest/cve-2017-11882](https://github.com/CSC-pentest/cve-2017-11882)
 - [Shadowshusky/CVE-2017-11882-](https://github.com/Shadowshusky/CVE-2017-11882-)
 - [rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802)
+- [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
 - [likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882)
 - [likescam/CVE-2018-0802_CVE-2017-11882](https://github.com/likescam/CVE-2018-0802_CVE-2017-11882)
 - [herbiezimmerman/CVE-2017-11882-Possible-Remcos-Malspam](https://github.com/herbiezimmerman/CVE-2017-11882-Possible-Remcos-Malspam)
