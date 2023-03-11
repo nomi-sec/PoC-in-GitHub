@@ -1628,6 +1628,7 @@ Secure Boot Security Feature Bypass Vulnerability.
 
 - [Wack0/CVE-2022-21894](https://github.com/Wack0/CVE-2022-21894)
 - [ASkyeye/CVE-2022-21894-Payload](https://github.com/ASkyeye/CVE-2022-21894-Payload)
+- [Wack0/batondrop_armv7](https://github.com/Wack0/batondrop_armv7)
 
 ### CVE-2022-21907 (2022-01-11)
 
@@ -7176,6 +7177,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [0nion1/CVE-2021-3129](https://github.com/0nion1/CVE-2021-3129)
 - [MadExploits/Laravel-debug-Checker](https://github.com/MadExploits/Laravel-debug-Checker)
 - [ajisai-babu/CVE-2021-3129-exp](https://github.com/ajisai-babu/CVE-2021-3129-exp)
+- [keyuan15/CVE-2021-3129](https://github.com/keyuan15/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
