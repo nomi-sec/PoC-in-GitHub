@@ -139,6 +139,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [4ra1n/CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)
 - [DXask88MA/Weblogic-CVE-2023-21839](https://github.com/DXask88MA/Weblogic-CVE-2023-21839)
 - [hacats/CVE-2023-21839](https://github.com/hacats/CVE-2023-21839)
+- [Firebasky/CVE-2023-21839](https://github.com/Firebasky/CVE-2023-21839)
 
 ### CVE-2023-22432 (2023-03-05)
 
@@ -245,6 +246,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752)
 - [gibran-abdillah/CVE-2023-23752](https://github.com/gibran-abdillah/CVE-2023-23752)
 - [H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752)
+- [Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -316,6 +318,9 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 </code>
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
+
+### CVE-2023-25610
+- [uicres/CVE-2023-25610-PoC](https://github.com/uicres/CVE-2023-25610-PoC)
 
 ### CVE-2023-26262
 - [istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262)
@@ -2182,6 +2187,7 @@ kernel/bpf/verifier.c in the Linux kernel through 5.15.14 allows local users to 
 - [tr3ee/CVE-2022-23222](https://github.com/tr3ee/CVE-2022-23222)
 - [PenteraIO/CVE-2022-23222-POC](https://github.com/PenteraIO/CVE-2022-23222-POC)
 - [FridayOrtiz/CVE-2022-23222](https://github.com/FridayOrtiz/CVE-2022-23222)
+- [LeoMarche/ProjetSecu](https://github.com/LeoMarche/ProjetSecu)
 
 ### CVE-2022-23253 (2022-03-09)
 
