@@ -66,6 +66,14 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository m
 
 - [0xsu3ks/CVE-2023-0860](https://github.com/0xsu3ks/CVE-2023-0860)
 
+### CVE-2023-0861 (2023-02-16)
+
+<code>
+NetModule NSRW web administration interface executes an OS command constructed with unsanitized user input. A successful exploit could allow an authenticated user to execute arbitrary commands with elevated privileges. This issue affects NSRW: from 4.3.0.0 before 4.3.0.119, from 4.4.0.0 before 4.4.0.118, from 4.6.0.0 before 4.6.0.105, from 4.7.0.0 before 4.7.0.103.
+</code>
+
+- [seifallahhomrani1/CVE-2023-0861-POC](https://github.com/seifallahhomrani1/CVE-2023-0861-POC)
+
 ### CVE-2023-1112 (2023-03-01)
 
 <code>
@@ -2072,6 +2080,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [zangcc/CVE-2022-22965-rexbb](https://github.com/zangcc/CVE-2022-22965-rexbb)
 - [ajith737/Spring4Shell-CVE-2022-22965-POC](https://github.com/ajith737/Spring4Shell-CVE-2022-22965-POC)
 - [pwnwriter/CVE-2022-22965](https://github.com/pwnwriter/CVE-2022-22965)
+- [gokul-ramesh/Spring4Shell-PoC-exploit](https://github.com/gokul-ramesh/Spring4Shell-PoC-exploit)
 
 ### CVE-2022-22966 (2022-04-14)
 
