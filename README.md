@@ -1331,7 +1331,7 @@ In createFromParcel of GeofenceHardwareRequestParcelable.java, there is a possib
 In kbase_mem_alias of mali_kbase_mem_linux.c, there is a possible arbitrary code execution due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-215001024References: N/A
 </code>
 
-- [SmileTabLabo/CVE-2022-20186_CTXZ](https://github.com/SmileTabLabo/CVE-2022-20186_CTXZ)
+- [Bariskizilkaya/CVE-2022-20186_CTXZ](https://github.com/Bariskizilkaya/CVE-2022-20186_CTXZ)
 
 ### CVE-2022-20223 (2022-07-13)
 
