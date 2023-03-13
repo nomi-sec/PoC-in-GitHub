@@ -210,6 +210,14 @@ A Path Traversal in setup.php in OpenEMR &lt; 7.0.0 allows remote unauthenticate
 ### CVE-2023-23138
 - [OmarAtallahh/CVE-2023-23138](https://github.com/OmarAtallahh/CVE-2023-23138)
 
+### CVE-2023-23279 (2023-02-17)
+
+<code>
+Canteen Management System 1.0 is vulnerable to SQL Injection via /php_action/getOrderReport.php.
+</code>
+
+- [tuannq2299/CVE-2023-23279](https://github.com/tuannq2299/CVE-2023-23279)
+
 ### CVE-2023-23333 (2023-02-06)
 
 <code>
@@ -2001,6 +2009,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [dr6817/CVE-2022-22963](https://github.com/dr6817/CVE-2022-22963)
 - [iliass-dahman/CVE-2022-22963-POC](https://github.com/iliass-dahman/CVE-2022-22963-POC)
 - [charis3306/CVE-2022-22963](https://github.com/charis3306/CVE-2022-22963)
+- [lemmyz4n3771/CVE-2022-22963-PoC](https://github.com/lemmyz4n3771/CVE-2022-22963-PoC)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -5527,6 +5536,14 @@ An unauthenticated attacker over the network can attach to an open interface exp
 </code>
 
 - [redrays-io/CVE-2022-41272](https://github.com/redrays-io/CVE-2022-41272)
+
+### CVE-2022-41333 (2023-03-07)
+
+<code>
+An uncontrolled resource consumption vulnerability [CWE-400] in FortiRecorder version 6.4.3 and below, 6.0.11 and below login authentication mechanism may allow an unauthenticated attacker to make the device unavailable via crafted GET requests.
+</code>
+
+- [polar0x/CVE-2022-41333](https://github.com/polar0x/CVE-2022-41333)
 
 ### CVE-2022-41343 (2022-09-25)
 
@@ -30438,7 +30455,6 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
 - [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
-- [iSCInc/heartbleed](https://github.com/iSCInc/heartbleed)
 - [marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang)
 - [hmlio/vaas-cve-2014-0160](https://github.com/hmlio/vaas-cve-2014-0160)
 - [hybridus/heartbleedscanner](https://github.com/hybridus/heartbleedscanner)
