@@ -3932,7 +3932,7 @@ WAVLINK WN535 G3 was discovered to contain a cross-site scripting (XSS) vulnerab
 - [trhacknon/XSS-CVE-2022-30489](https://github.com/trhacknon/XSS-CVE-2022-30489)
 
 ### CVE-2022-30507
-- [yosef0x01/CVE-2022-30507](https://github.com/yosef0x01/CVE-2022-30507)
+- [yosef0x01/CVE-2022-30507-PoC](https://github.com/yosef0x01/CVE-2022-30507-PoC)
 
 ### CVE-2022-30510 (2022-05-27)
 
@@ -6182,6 +6182,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [Habib0x0/CVE-2022-46169](https://github.com/Habib0x0/CVE-2022-46169)
 - [N1arut/CVE-2022-46169_POC](https://github.com/N1arut/CVE-2022-46169_POC)
 - [miko550/CVE-2022-46169](https://github.com/miko550/CVE-2022-46169)
+- [ariyaadinatha/cacti-cve-2022-46169-exploit](https://github.com/ariyaadinatha/cacti-cve-2022-46169-exploit)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -29476,6 +29477,7 @@ The register method in the UsersModelRegistration class in controllers/user.php 
 
 - [sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870)
 - [rustyJ4ck/JoomlaCVE20168869](https://github.com/rustyJ4ck/JoomlaCVE20168869)
+- [cved-sources/cve-2016-8869](https://github.com/cved-sources/cve-2016-8869)
 
 ### CVE-2016-8870 (2016-11-04)
 
