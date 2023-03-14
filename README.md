@@ -336,9 +336,6 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
-### CVE-2023-25610
-- [uicres/CVE-2023-25610-PoC](https://github.com/uicres/CVE-2023-25610-PoC)
-
 ### CVE-2023-26262
 - [istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262)
 
@@ -429,14 +426,6 @@ Inappropriate implementation in File System API in Google Chrome on Windows prio
 
 - [Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera](https://github.com/Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera)
 - [maldev866/ChExp-CVE-2022-0337-](https://github.com/maldev866/ChExp-CVE-2022-0337-)
-
-### CVE-2022-0435 (2022-03-25)
-
-<code>
-A stack overflow flaw was found in the Linux kernel's TIPC protocol functionality in the way a user sends a packet with malicious content where the number of domain member nodes is higher than the 64 allowed. This flaw allows a remote user to crash the system or possibly escalate their privileges if they have access to the TIPC network.
-</code>
-
-- [wlswotmd/CVE-2022-0435](https://github.com/wlswotmd/CVE-2022-0435)
 
 ### CVE-2022-0441 (2022-03-07)
 
@@ -3895,6 +3884,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [michealadams30/Cve-2022-30190](https://github.com/michealadams30/Cve-2022-30190)
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
 - [3barz/Follina_Vagrant](https://github.com/3barz/Follina_Vagrant)
+- [ToxicEnvelope/FOLLINA-CVE-2022-30190](https://github.com/ToxicEnvelope/FOLLINA-CVE-2022-30190)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -4487,14 +4477,6 @@ Apache Shiro before 1.9.1, A RegexRequestMatcher can be misconfigured to be bypa
 </code>
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
-
-### CVE-2022-32548 (2022-08-29)
-
-<code>
-An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
-</code>
-
-- [uicres/draytek-RCE](https://github.com/uicres/draytek-RCE)
 
 ### CVE-2022-32832 (2022-09-23)
 
@@ -12581,7 +12563,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
 - [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
-- [sn0wm4ker/log4j_poc](https://github.com/sn0wm4ker/log4j_poc)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -13799,6 +13780,14 @@ A denial of service vulnerability exists when Microsoft Hyper-V on a host server
 - [skasanagottu57gmailv/gerhart01](https://github.com/skasanagottu57gmailv/gerhart01)
 - [MarcelloTinocor/gerhart01](https://github.com/MarcelloTinocor/gerhart01)
 
+### CVE-2020-0910 (2020-04-15)
+
+<code>
+A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
+</code>
+
+- [kfmgang/CVE-2020-0910](https://github.com/kfmgang/CVE-2020-0910)
+
 ### CVE-2020-0976 (2020-04-15)
 
 <code>
@@ -14320,6 +14309,7 @@ A vulnerability in the web services interface of Cisco Adaptive Security Applian
 - [1337in/CVE-2020-3187](https://github.com/1337in/CVE-2020-3187)
 - [sujaygr8/CVE-2020-3187](https://github.com/sujaygr8/CVE-2020-3187)
 - [T4t4ru/CVE-2020-3187](https://github.com/T4t4ru/CVE-2020-3187)
+- [sunyyer/CVE-2020-3187-Scanlist](https://github.com/sunyyer/CVE-2020-3187-Scanlist)
 
 ### CVE-2020-3433 (2020-08-17)
 
@@ -15456,6 +15446,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
+- [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
@@ -28731,7 +28722,6 @@ Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x bef
 
 - [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
-- [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
@@ -29116,7 +29106,6 @@ Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allo
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
 - [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
 - [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
-- [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
 - [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
 - [droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer)
 - [FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4)
