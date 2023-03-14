@@ -137,6 +137,7 @@ Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerabili
 - [chompie1337/Windows_LPE_AFD_CVE-2023-21768](https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768)
 - [cl4ym0re/cve-2023-21768-compiled](https://github.com/cl4ym0re/cve-2023-21768-compiled)
 - [SamuelTulach/nullmap](https://github.com/SamuelTulach/nullmap)
+- [Malwareman007/CVE-2023-21768](https://github.com/Malwareman007/CVE-2023-21768)
 
 ### CVE-2023-21839 (2023-01-17)
 
@@ -12692,6 +12693,7 @@ A path traversal vulnerability in the file upload functionality in tinyfilemanag
 
 - [febinrev/CVE-2021-45010-TinyFileManager-Exploit](https://github.com/febinrev/CVE-2021-45010-TinyFileManager-Exploit)
 - [BKreisel/CVE-2021-45010](https://github.com/BKreisel/CVE-2021-45010)
+- [Syd-SydneyJr/CVE-2021-45010](https://github.com/Syd-SydneyJr/CVE-2021-45010)
 
 ### CVE-2021-45041 (2021-12-19)
 
@@ -28935,7 +28937,7 @@ server/LockSettingsService.java in LockSettingsService in Android 6.x before 201
 LibUtils in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-09-01, and 7.0 before 2016-09-01 mishandles conversions between Unicode character encodings with different encoding widths, which allows remote attackers to execute arbitrary code or cause a denial of service (heap-based buffer overflow) via a crafted file, aka internal bug 29250543.
 </code>
 
-- [timehacker85/CVE-2016-3861](https://github.com/timehacker85/CVE-2016-3861)
+- [jollyoperator/CVE-2016-3861](https://github.com/jollyoperator/CVE-2016-3861)
 
 ### CVE-2016-3955 (2016-07-03)
 
@@ -30455,9 +30457,11 @@ The (1) TLS and (2) DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not p
 - [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
 - [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
+- [iSCInc/heartbleed](https://github.com/iSCInc/heartbleed)
 - [marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang)
 - [hmlio/vaas-cve-2014-0160](https://github.com/hmlio/vaas-cve-2014-0160)
 - [hybridus/heartbleedscanner](https://github.com/hybridus/heartbleedscanner)
+- [froyo75/Heartbleed_Dockerfile_with_Nginx](https://github.com/froyo75/Heartbleed_Dockerfile_with_Nginx)
 - [Xyl2k/CVE-2014-0160-Chrome-Plugin](https://github.com/Xyl2k/CVE-2014-0160-Chrome-Plugin)
 - [caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC](https://github.com/caiqiqi/OpenSSL-HeartBleed-CVE-2014-0160-PoC)
 - [Saymeis/HeartBleed](https://github.com/Saymeis/HeartBleed)
