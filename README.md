@@ -336,7 +336,12 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
-### CVE-2023-26262
+### CVE-2023-26262 (2023-03-14)
+
+<code>
+An issue was discovered in Sitecore XP/XM 10.3. As an authenticated Sitecore user, a unrestricted language file upload vulnerability exists the can lead to direct code execution on the content management (CM) server.
+</code>
+
 - [istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262)
 
 ### CVE-2023-26604 (2023-03-03)
@@ -12564,6 +12569,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
 - [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
+- [Sma-Das/Log4j-PoC](https://github.com/Sma-Das/Log4j-PoC)
 
 ### CVE-2021-44255 (2022-01-31)
 
