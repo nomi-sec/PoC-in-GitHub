@@ -227,6 +227,14 @@ There is a command injection vulnerability in SolarView Compact through 6.00, at
 
 - [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
 
+### CVE-2023-23397 (2023-03-14)
+
+<code>
+Microsoft Outlook Elevation of Privilege Vulnerability
+</code>
+
+- [sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY](https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY)
+
 ### CVE-2023-23488 (2023-01-20)
 
 <code>
@@ -234,14 +242,6 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 </code>
 
 - [r3nt0n/CVE-2023-23488-PoC](https://github.com/r3nt0n/CVE-2023-23488-PoC)
-
-### CVE-2023-23504 (2023-02-27)
-
-<code>
-The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13.2, macOS Monterey 12.6.3, iOS 15.7.3 and iPadOS 15.7.3, tvOS 16.3, watchOS 9.3, iOS 16.3 and iPadOS 16.3. An app may be able to execute arbitrary code with kernel privileges.
-</code>
-
-- [zeroc00I/CVE-2023-23504](https://github.com/zeroc00I/CVE-2023-23504)
 
 ### CVE-2023-23752 (2023-02-16)
 
@@ -272,6 +272,7 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 </code>
 
 - [motikan2010/CVE-2023-23924](https://github.com/motikan2010/CVE-2023-23924)
+- [zeverse/CVE-2023-23924-sample](https://github.com/zeverse/CVE-2023-23924-sample)
 
 ### CVE-2023-24055 (2023-01-21)
 
@@ -360,11 +361,13 @@ Cubism Core in Live2D Cubism Editor 4.2.03 allows out-of-bounds write via a craf
 
 - [OpenL2D/moc3ingbird](https://github.com/OpenL2D/moc3ingbird)
 
-### CVE-2023-123456
-- [emotest1/CVE-2023-123456](https://github.com/emotest1/CVE-2023-123456)
+### CVE-2023-27587 (2023-03-13)
 
-### CVE-2023-999999
-- [zeroc00I/CVE-2023-999999](https://github.com/zeroc00I/CVE-2023-999999)
+<code>
+ReadtoMyShoe, a web app that lets users upload articles and listen to them later, generates an error message containing sensitive information prior to commit 8533b01. If an error occurs when adding an article, the website shows the user an error message. If the error originates from the Google Cloud TTS request, then it will include the full URL of the request. The request URL contains the Google Cloud API key. This has been patched in commit 8533b01. Upgrading should be accompanied by deleting the current GCP API key and issuing a new one. There are no known workarounds.
+</code>
+
+- [sec-fx/CVE-2023-27587-PoC](https://github.com/sec-fx/CVE-2023-27587-PoC)
 
 
 ## 2022
@@ -708,6 +711,14 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 - [ysanatomic/CVE-2022-1015](https://github.com/ysanatomic/CVE-2022-1015)
 - [wlswotmd/CVE-2022-1015](https://github.com/wlswotmd/CVE-2022-1015)
 - [delsploit/CVE-2022-1015](https://github.com/delsploit/CVE-2022-1015)
+
+### CVE-2022-1026 (2022-04-04)
+
+<code>
+Kyocera multifunction printers running vulnerable versions of Net View unintentionally expose sensitive user information, including usernames and passwords, through an insufficiently protected address book export function.
+</code>
+
+- [ac3lives/kyocera-cve-2022-1026](https://github.com/ac3lives/kyocera-cve-2022-1026)
 
 ### CVE-2022-1040 (2022-03-25)
 
@@ -4599,14 +4610,6 @@ The NT auth module in OpenAM before 14.6.6 allows a &quot;replace Samba username
 </code>
 
 - [watchtowrlabs/CVE-2022-34298](https://github.com/watchtowrlabs/CVE-2022-34298)
-
-### CVE-2022-34305 (2022-06-23)
-
-<code>
-In Apache Tomcat 10.1.0-M1 to 10.1.0-M16, 10.0.0-M1 to 10.0.22, 9.0.30 to 9.0.64 and 8.5.50 to 8.5.81 the Form authentication example in the examples web application displayed user provided data without filtering, exposing a XSS vulnerability.
-</code>
-
-- [zeroc00I/CVE-2022-34305](https://github.com/zeroc00I/CVE-2022-34305)
 
 ### CVE-2022-34556 (2022-07-28)
 
@@ -8779,7 +8782,6 @@ Affected versions of Atlassian Confluence Server allow remote attackers to view 
 </code>
 
 - [ColdFusionX/CVE-2021-26085](https://github.com/ColdFusionX/CVE-2021-26085)
-- [zeroc00I/CVE-2021-26085](https://github.com/zeroc00I/CVE-2021-26085)
 
 ### CVE-2021-26086 (2021-08-15)
 
@@ -14889,6 +14891,14 @@ Rapid7's Metasploit msfvenom framework handles APK files in a way that allows fo
 
 - [nikhil1232/CVE-2020-7384](https://github.com/nikhil1232/CVE-2020-7384)
 - [0xCarsonS/CVE-2020-7384](https://github.com/0xCarsonS/CVE-2020-7384)
+
+### CVE-2020-7388 (2021-07-22)
+
+<code>
+Sage X3 Unauthenticated Remote Command Execution (RCE) as SYSTEM in AdxDSrv.exe component. By editing the client side authentication request, an attacker can bypass credential validation. While exploiting this does require knowledge of the installation path, that information can be learned by exploiting CVE-2020-7387. This issue was fixed in AdxAdmin 93.2.53, which ships with updates for on-premises versions of Sage X3 including Version 9 (components shipped with Syracuse 9.22.7.2 and later), Sage X3 HR &amp; Payroll Version 9 (those components that ship with Syracuse 9.24.1.3), Version 11 (components shipped with Syracuse 11.25.2.6 and later), and Version 12 (components shipped with Syracuse 12.10.2.8 and later) of Sage X3. Other on-premises versions of Sage X3 are unsupported by the vendor.
+</code>
+
+- [ac3lives/sagex3-cve-2020-7388-poc](https://github.com/ac3lives/sagex3-cve-2020-7388-poc)
 
 ### CVE-2020-7461 (2021-03-26)
 
@@ -21388,6 +21398,14 @@ PDFResurrect 0.15 has a buffer overflow via a crafted PDF file because data asso
 </code>
 
 - [snappyJack/pdfresurrect_CVE-2019-14267](https://github.com/snappyJack/pdfresurrect_CVE-2019-14267)
+
+### CVE-2019-14271 (2019-07-29)
+
+<code>
+In Docker 19.03.x before 19.03.1 linked against the GNU C Library (aka glibc), code injection can occur when the nsswitch facility dynamically loads a library inside a chroot that contains the contents of the container.
+</code>
+
+- [iridium-soda/CVE-2019-14271_Exploit](https://github.com/iridium-soda/CVE-2019-14271_Exploit)
 
 ### CVE-2019-14287 (2019-10-17)
 
