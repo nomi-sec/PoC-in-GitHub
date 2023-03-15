@@ -1945,6 +1945,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [savior-only/CVE-2022-22947](https://github.com/savior-only/CVE-2022-22947)
 - [qq87234770/CVE-2022-22947](https://github.com/qq87234770/CVE-2022-22947)
 - [Zh0um1/CVE-2022-22947](https://github.com/Zh0um1/CVE-2022-22947)
+- [wallbreak1991/cve-2022-22947](https://github.com/wallbreak1991/cve-2022-22947)
 
 ### CVE-2022-22954 (2022-04-11)
 
@@ -3805,6 +3806,14 @@ Visual Studio Code Remote Code Execution Vulnerability.
 </code>
 
 - [RoccoPearce/CVE-2022-30129](https://github.com/RoccoPearce/CVE-2022-30129)
+
+### CVE-2022-30136 (2022-06-15)
+
+<code>
+Windows Network File System Remote Code Execution Vulnerability.
+</code>
+
+- [fortra/CVE-2022-30136](https://github.com/fortra/CVE-2022-30136)
 
 ### CVE-2022-30190 (2022-06-01)
 
@@ -6599,6 +6608,14 @@ In sdp_copy_raw_data of sdp_discovery.cc, there is a possible system compromise 
 </code>
 
 - [Satheesh575555/System_bt_AOSP10-r33_CVE-2021-0397](https://github.com/Satheesh575555/System_bt_AOSP10-r33_CVE-2021-0397)
+
+### CVE-2021-0399 (2021-03-10)
+
+<code>
+In qtaguid_untag of xt_qtaguid.c, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-176919394References: Upstream kernel
+</code>
+
+- [nipund513/Exploiting-UAF-by-Ret2bpf-in-Android-Kernel-CVE-2021-0399-](https://github.com/nipund513/Exploiting-UAF-by-Ret2bpf-in-Android-Kernel-CVE-2021-0399-)
 
 ### CVE-2021-0431 (2021-04-13)
 
@@ -9861,6 +9878,14 @@ The identity authentication bypass vulnerability found in some Dahua products du
 </code>
 
 - [dongpohezui/cve-2021-33045](https://github.com/dongpohezui/cve-2021-33045)
+
+### CVE-2021-33104 (2023-02-16)
+
+<code>
+Improper access control in the Intel(R) OFU software before version 14.1.28 may allow an authenticated user to potentially enable denial of service via local access.
+</code>
+
+- [rjt-gupta/CVE-2021-33104](https://github.com/rjt-gupta/CVE-2021-33104)
 
 ### CVE-2021-33558 (2021-05-27)
 
