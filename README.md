@@ -5729,6 +5729,7 @@ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 th
 
 - [bryanster/ioc-cve-2022-42475](https://github.com/bryanster/ioc-cve-2022-42475)
 - [scrt/cve-2022-42475](https://github.com/scrt/cve-2022-42475)
+- [Amir-hy/cve-2022-42475](https://github.com/Amir-hy/cve-2022-42475)
 
 ### CVE-2022-42864 (2022-12-15)
 
@@ -7681,7 +7682,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [azazelm3dj3d/CVE-2021-4034](https://github.com/azazelm3dj3d/CVE-2021-4034)
 - [TheJoyOfHacking/berdav-CVE-2021-4034](https://github.com/TheJoyOfHacking/berdav-CVE-2021-4034)
 - [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
-- [Pajarraco4444/CVE-2021-4034](https://github.com/Pajarraco4444/CVE-2021-4034)
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
 - [Nosferatuvjr/PwnKit](https://github.com/Nosferatuvjr/PwnKit)
 - [TotallyNotAHaxxer/CVE-2021-4034](https://github.com/TotallyNotAHaxxer/CVE-2021-4034)
@@ -7692,6 +7692,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
 - [CronoX1/CVE-2021-4034](https://github.com/CronoX1/CVE-2021-4034)
 - [supportingmx/cve-2021-4034](https://github.com/supportingmx/cve-2021-4034)
+- [A1vinSmith/CVE-2021-4034](https://github.com/A1vinSmith/CVE-2021-4034)
 - [HellGateCorp/pwnkit](https://github.com/HellGateCorp/pwnkit)
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
@@ -8250,7 +8251,6 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 - [tuhinGsg/CVE-2021-22204-exiftool](https://github.com/tuhinGsg/CVE-2021-22204-exiftool)
-- [Pajarraco4444/CVE-2021-22204](https://github.com/Pajarraco4444/CVE-2021-22204)
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
