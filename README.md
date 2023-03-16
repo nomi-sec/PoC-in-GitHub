@@ -15,6 +15,7 @@ An issue has been discovered in GitLab affecting all versions starting from 13.7
 
 ### CVE-2023-0179
 - [TurtleARM/CVE-2023-0179-PoC](https://github.com/TurtleARM/CVE-2023-0179-PoC)
+- [H4K6/CVE-2023-0179-PoC](https://github.com/H4K6/CVE-2023-0179-PoC)
 
 ### CVE-2023-0264
 - [twwd/CVE-2023-0264](https://github.com/twwd/CVE-2023-0264)
@@ -81,6 +82,14 @@ Es wurde eine kritische Schwachstelle in Drag and Drop Multiple File Upload Cont
 </code>
 
 - [Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal](https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal)
+
+### CVE-2023-1415 (2023-03-15)
+
+<code>
+In Simple Art Gallery 1.0 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Das betrifft die Funktion sliderPicSubmit der Datei adminHome.php. Mit der Manipulation mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden.
+</code>
+
+- [0xxtoby/CVE-2023-1415-](https://github.com/0xxtoby/CVE-2023-1415-)
 
 ### CVE-2023-20921 (2023-01-24)
 
