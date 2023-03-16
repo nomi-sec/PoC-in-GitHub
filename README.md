@@ -243,6 +243,7 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 </code>
 
 - [sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY](https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY)
+- [j0eyv/CVE-2023-23397](https://github.com/j0eyv/CVE-2023-23397)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -2159,6 +2160,7 @@ In Spring Security versions 5.5.6 and 5.6.3 and older unsupported versions, Rege
 - [ducluongtran9121/CVE-2022-22978-PoC](https://github.com/ducluongtran9121/CVE-2022-22978-PoC)
 - [aeifkz/CVE-2022-22978](https://github.com/aeifkz/CVE-2022-22978)
 - [umakant76705/CVE-2022-22978](https://github.com/umakant76705/CVE-2022-22978)
+- [Raghvendra1207/CVE-2022-22978](https://github.com/Raghvendra1207/CVE-2022-22978)
 
 ### CVE-2022-22980 (2022-06-22)
 
@@ -5120,6 +5122,14 @@ Docker version 20.10.15, build fd82621 is vulnerable to Insecure Permissions. Un
 </code>
 
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
+
+### CVE-2022-37969 (2022-09-13)
+
+<code>
+Windows Common Log File System Driver Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-35803.
+</code>
+
+- [fortra/CVE-2022-37969](https://github.com/fortra/CVE-2022-37969)
 
 ### CVE-2022-38217
 - [SupremacyTeam/evilReveal](https://github.com/SupremacyTeam/evilReveal)
