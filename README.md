@@ -244,6 +244,8 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 
 - [sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY](https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY)
 - [j0eyv/CVE-2023-23397](https://github.com/j0eyv/CVE-2023-23397)
+- [alicangnll/CVE-2023-23397](https://github.com/alicangnll/CVE-2023-23397)
+- [grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -347,6 +349,9 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
+### CVE-2023-25610
+- [l1ced/CVE-2023-25610-mass](https://github.com/l1ced/CVE-2023-25610-mass)
+
 ### CVE-2023-26262 (2023-03-14)
 
 <code>
@@ -378,6 +383,9 @@ ReadtoMyShoe, a web app that lets users upload articles and listen to them later
 </code>
 
 - [sec-fx/CVE-2023-27587-PoC](https://github.com/sec-fx/CVE-2023-27587-PoC)
+
+### CVE-2023-27842
+- [tristao-marinho/CVE-2023-27842](https://github.com/tristao-marinho/CVE-2023-27842)
 
 
 ## 2022
@@ -8777,7 +8785,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084)
 - [march0s1as/CVE-2021-26084](https://github.com/march0s1as/CVE-2021-26084)
 - [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
-- [smadi0x01/CVE-2021-26084](https://github.com/smadi0x01/CVE-2021-26084)
+- [smadi0x86/CVE-2021-26084](https://github.com/smadi0x86/CVE-2021-26084)
 - [Reclu3a/CVE-2021-26084-Confluence-OGNL](https://github.com/Reclu3a/CVE-2021-26084-Confluence-OGNL)
 - [1ZRR4H/CVE-2021-26084](https://github.com/1ZRR4H/CVE-2021-26084)
 - [GlennPegden2/cve-2021-26084-confluence](https://github.com/GlennPegden2/cve-2021-26084-confluence)
@@ -8884,6 +8892,7 @@ Visual Studio Code npm-script Extension Remote Code Execution Vulnerability
 </code>
 
 - [jackadamson/CVE-2021-26700](https://github.com/jackadamson/CVE-2021-26700)
+- [jason-ntu/CVE-2021-26700](https://github.com/jason-ntu/CVE-2021-26700)
 
 ### CVE-2021-26708 (2021-02-05)
 
