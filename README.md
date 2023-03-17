@@ -89,7 +89,7 @@ Es wurde eine kritische Schwachstelle in Drag and Drop Multiple File Upload Cont
 In Simple Art Gallery 1.0 wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Das betrifft die Funktion sliderPicSubmit der Datei adminHome.php. Mit der Manipulation mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden.
 </code>
 
-- [0xxtoby/CVE-2023-1415-](https://github.com/0xxtoby/CVE-2023-1415-)
+- [0xxtoby/CVE-2023-1415](https://github.com/0xxtoby/CVE-2023-1415)
 
 ### CVE-2023-20921 (2023-01-24)
 
@@ -256,6 +256,7 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397)
 - [ka7ana/CVE-2023-23397](https://github.com/ka7ana/CVE-2023-23397)
 - [api0cradle/CVE-2023-23397-POC-Powershell](https://github.com/api0cradle/CVE-2023-23397-POC-Powershell)
+- [im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -28839,6 +28840,14 @@ org.springframework.core.serializer.DefaultDeserializer in Spring AMQP before 1.
 </code>
 
 - [HaToan/CVE-2016-2173](https://github.com/HaToan/CVE-2016-2173)
+
+### CVE-2016-2233 (2017-01-18)
+
+<code>
+Stack-based buffer overflow in the inbound_cap_ls function in common/inbound.c in HexChat 2.10.2 allows remote IRC servers to cause a denial of service (crash) via a large number of options in a CAP LS message.
+</code>
+
+- [fath0218/CVE-2016-2233](https://github.com/fath0218/CVE-2016-2233)
 
 ### CVE-2016-2334 (2016-12-13)
 
