@@ -236,6 +236,14 @@ There is a command injection vulnerability in SolarView Compact through 6.00, at
 
 - [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
 
+### CVE-2023-23396 (2023-03-14)
+
+<code>
+Microsoft Excel Denial of Service Vulnerability
+</code>
+
+- [LucaBarile/CVE-2023-23396](https://github.com/LucaBarile/CVE-2023-23396)
+
 ### CVE-2023-23397 (2023-03-14)
 
 <code>
@@ -246,6 +254,8 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [j0eyv/CVE-2023-23397](https://github.com/j0eyv/CVE-2023-23397)
 - [alicangnll/CVE-2023-23397](https://github.com/alicangnll/CVE-2023-23397)
 - [grn-bogo/CVE-2023-23397](https://github.com/grn-bogo/CVE-2023-23397)
+- [ka7ana/CVE-2023-23397](https://github.com/ka7ana/CVE-2023-23397)
+- [api0cradle/CVE-2023-23397-POC-Powershell](https://github.com/api0cradle/CVE-2023-23397-POC-Powershell)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -3148,7 +3158,6 @@ A certificate parsing issue was addressed with improved checks. This issue is fi
 </code>
 
 - [zhuowei/CoreTrustDemo](https://github.com/zhuowei/CoreTrustDemo)
-- [vadim-a-yegorov/CVE-2022-26766-bootstrap](https://github.com/vadim-a-yegorov/CVE-2022-26766-bootstrap)
 
 ### CVE-2022-26809 (2022-04-15)
 
@@ -28830,14 +28839,6 @@ org.springframework.core.serializer.DefaultDeserializer in Spring AMQP before 1.
 </code>
 
 - [HaToan/CVE-2016-2173](https://github.com/HaToan/CVE-2016-2173)
-
-### CVE-2016-2233 (2017-01-18)
-
-<code>
-Stack-based buffer overflow in the inbound_cap_ls function in common/inbound.c in HexChat 2.10.2 allows remote IRC servers to cause a denial of service (crash) via a large number of options in a CAP LS message.
-</code>
-
-- [fath0218/CVE-2016-2233](https://github.com/fath0218/CVE-2016-2233)
 
 ### CVE-2016-2334 (2016-12-13)
 
