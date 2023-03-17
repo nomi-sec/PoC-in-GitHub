@@ -258,6 +258,16 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [api0cradle/CVE-2023-23397-POC-Powershell](https://github.com/api0cradle/CVE-2023-23397-POC-Powershell)
 - [im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397)
 - [cleverg0d/CVE-2023-23397-PoC-PowerShell](https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell)
+- [ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC)
+- [BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT)
+
+### CVE-2023-23415 (2023-03-14)
+
+<code>
+Internet Control Message Protocol (ICMP) Remote Code Execution Vulnerability
+</code>
+
+- [wh-gov/CVE-2023-23415](https://github.com/wh-gov/CVE-2023-23415)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -816,14 +826,6 @@ Improper neutralization of user input in GitLab CE/EE versions 14.4 before 14.7.
 
 - [Greenwolf/CVE-2022-1175](https://github.com/Greenwolf/CVE-2022-1175)
 
-### CVE-2022-1192 (2022-05-23)
-
-<code>
-The Turn off all comments WordPress plugin through 1.0 does not sanitise and escape the rows parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting
-</code>
-
-- [Mouhamedtec/CVE-2022-1192](https://github.com/Mouhamedtec/CVE-2022-1192)
-
 ### CVE-2022-1292 (2022-05-03)
 
 <code>
@@ -1276,9 +1278,6 @@ A path traversal vulnerability was identified in ReFirm Labs binwalk from versio
 
 ### CVE-2022-8475
 - [Kvi74/CVE-2022-8475](https://github.com/Kvi74/CVE-2022-8475)
-
-### CVE-2022-10086
-- [Gaphuang/CVE-2022-10086-TEST-](https://github.com/Gaphuang/CVE-2022-10086-TEST-)
 
 ### CVE-2022-10270
 - [baimaobg/sunflower_exp](https://github.com/baimaobg/sunflower_exp)
@@ -19581,7 +19580,6 @@ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution whe
 
 - [jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-](https://github.com/jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-)
 - [rabbitmask/CVE-2019-5475-EXP](https://github.com/rabbitmask/CVE-2019-5475-EXP)
-- [lyy289065406/CVE-2019-5475](https://github.com/lyy289065406/CVE-2019-5475)
 
 ### CVE-2019-5489 (2019-01-07)
 
