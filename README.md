@@ -257,6 +257,7 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [ka7ana/CVE-2023-23397](https://github.com/ka7ana/CVE-2023-23397)
 - [api0cradle/CVE-2023-23397-POC-Powershell](https://github.com/api0cradle/CVE-2023-23397-POC-Powershell)
 - [im007/CVE-2023-23397](https://github.com/im007/CVE-2023-23397)
+- [cleverg0d/CVE-2023-23397-PoC-PowerShell](https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -359,9 +360,6 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 </code>
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
-
-### CVE-2023-25610
-- [l1ced/CVE-2023-25610-mass](https://github.com/l1ced/CVE-2023-25610-mass)
 
 ### CVE-2023-26262 (2023-03-14)
 
