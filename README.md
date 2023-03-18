@@ -268,6 +268,7 @@ Internet Control Message Protocol (ICMP) Remote Code Execution Vulnerability
 </code>
 
 - [wh-gov/CVE-2023-23415](https://github.com/wh-gov/CVE-2023-23415)
+- [amitdubey1921/CVE-2023-23415](https://github.com/amitdubey1921/CVE-2023-23415)
 
 ### CVE-2023-23488 (2023-01-20)
 
