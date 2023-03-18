@@ -2043,6 +2043,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [iliass-dahman/CVE-2022-22963-POC](https://github.com/iliass-dahman/CVE-2022-22963-POC)
 - [charis3306/CVE-2022-22963](https://github.com/charis3306/CVE-2022-22963)
 - [lemmyz4n3771/CVE-2022-22963-PoC](https://github.com/lemmyz4n3771/CVE-2022-22963-PoC)
+- [J0ey17/CVE-2022-22963_Reverse-Shell-Exploit](https://github.com/J0ey17/CVE-2022-22963_Reverse-Shell-Exploit)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -8640,6 +8641,7 @@ The Tatsu WordPress plugin before 3.3.12 add_custom_font action can be used with
 - [darkpills/CVE-2021-25094-tatsu-preauth-rce](https://github.com/darkpills/CVE-2021-25094-tatsu-preauth-rce)
 - [TUANB4DUT/typehub-exploiter](https://github.com/TUANB4DUT/typehub-exploiter)
 - [xdx57/CVE-2021-25094](https://github.com/xdx57/CVE-2021-25094)
+- [aliestercrowleymv/TypeHub-Exploiter](https://github.com/aliestercrowleymv/TypeHub-Exploiter)
 
 ### CVE-2021-25162 (2021-03-29)
 
