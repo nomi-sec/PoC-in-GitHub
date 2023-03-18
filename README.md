@@ -6935,6 +6935,9 @@ In onCreate of KeyChainActivity.java, there is a possible way to use an app cert
 
 - [Trinadh465/packages_apps_KeyChain_AOSP10_r33_CVE-2021-0963](https://github.com/Trinadh465/packages_apps_KeyChain_AOSP10_r33_CVE-2021-0963)
 
+### CVE-2021-22
+- [LingerANR/CVE-2021-22-555](https://github.com/LingerANR/CVE-2021-22-555)
+
 ### CVE-2021-403
 - [rhysmcneill/CVE-2021-403](https://github.com/rhysmcneill/CVE-2021-403)
 
@@ -19580,6 +19583,7 @@ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution whe
 
 - [jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-](https://github.com/jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-)
 - [rabbitmask/CVE-2019-5475-EXP](https://github.com/rabbitmask/CVE-2019-5475-EXP)
+- [lyy289065406/CVE-2019-5475](https://github.com/lyy289065406/CVE-2019-5475)
 
 ### CVE-2019-5489 (2019-01-07)
 
