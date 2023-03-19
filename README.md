@@ -264,6 +264,7 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC)
 - [BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT)
 - [djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC)
+- [ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook](https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook)
 
 ### CVE-2023-23415 (2023-03-14)
 
@@ -572,6 +573,7 @@ The BookingPress WordPress plugin before 1.0.11 fails to properly sanitize user 
 - [Ki11i0n4ir3/CVE-2022-0739](https://github.com/Ki11i0n4ir3/CVE-2022-0739)
 - [viardant/CVE-2022-0739](https://github.com/viardant/CVE-2022-0739)
 - [ElGanz0/CVE-2022-0739](https://github.com/ElGanz0/CVE-2022-0739)
+- [luxel-h/Bash-exploit-for-CVE-2022-0739](https://github.com/luxel-h/Bash-exploit-for-CVE-2022-0739)
 
 ### CVE-2022-0778 (2022-03-15)
 
@@ -2359,6 +2361,7 @@ cmd/go in Go before 1.16.14 and 1.17.x before 1.17.7 can misinterpret branch nam
 
 - [danbudris/CVE-2022-23773-repro](https://github.com/danbudris/CVE-2022-23773-repro)
 - [danbudris/CVE-2022-23773-repro-target](https://github.com/danbudris/CVE-2022-23773-repro-target)
+- [Liuyushung/CVE-2022-23773-Reproduce](https://github.com/Liuyushung/CVE-2022-23773-Reproduce)
 
 ### CVE-2022-23779 (2022-03-02)
 
