@@ -99,6 +99,9 @@ In onPackageRemoved of AccessibilityManagerService.java, there is a possibility 
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921)
 
+### CVE-2023-21036
+- [qixils/anti-acropalypse](https://github.com/qixils/anti-acropalypse)
+
 ### CVE-2023-21608 (2023-01-18)
 
 <code>
