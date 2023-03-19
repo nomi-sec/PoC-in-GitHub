@@ -260,6 +260,7 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [cleverg0d/CVE-2023-23397-PoC-PowerShell](https://github.com/cleverg0d/CVE-2023-23397-PoC-PowerShell)
 - [ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC)
 - [BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT)
+- [djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC)
 
 ### CVE-2023-23415 (2023-03-14)
 
@@ -17544,6 +17545,14 @@ InterMind iMind Server through 3.13.65 allows remote unauthenticated attackers t
 </code>
 
 - [trump88/CVE-2020-24765](https://github.com/trump88/CVE-2020-24765)
+
+### CVE-2020-24815 (2020-11-24)
+
+<code>
+A Server-Side Request Forgery (SSRF) affecting the PDF generation in MicroStrategy 10.4, 2019 before Update 6, and 2020 before Update 2 allows authenticated users to access the content of internal network resources or leak files from the local system via HTML containers embedded in a dossier/dashboard document. NOTE: 10.4., no fix will be released as version will reach end-of-life on 31/12/2020.
+</code>
+
+- [ziadanbari2021/exploit-CVE-2020-24815.py](https://github.com/ziadanbari2021/exploit-CVE-2020-24815.py)
 
 ### CVE-2020-24949 (2020-09-03)
 
