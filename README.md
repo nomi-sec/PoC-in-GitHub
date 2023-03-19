@@ -304,6 +304,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [gibran-abdillah/CVE-2023-23752](https://github.com/gibran-abdillah/CVE-2023-23752)
 - [H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752)
 - [Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752)
+- [aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner](https://github.com/aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -8649,7 +8650,7 @@ The Tatsu WordPress plugin before 3.3.12 add_custom_font action can be used with
 - [darkpills/CVE-2021-25094-tatsu-preauth-rce](https://github.com/darkpills/CVE-2021-25094-tatsu-preauth-rce)
 - [TUANB4DUT/typehub-exploiter](https://github.com/TUANB4DUT/typehub-exploiter)
 - [xdx57/CVE-2021-25094](https://github.com/xdx57/CVE-2021-25094)
-- [aliestercrowleymv/TypeHub-Exploiter](https://github.com/aliestercrowleymv/TypeHub-Exploiter)
+- [experimentalcrow1/TypeHub-Exploiter](https://github.com/experimentalcrow1/TypeHub-Exploiter)
 
 ### CVE-2021-25162 (2021-03-29)
 
@@ -29348,7 +29349,6 @@ The auth_password function in auth-passwd.c in sshd in OpenSSH before 7.3 does n
 </code>
 
 - [opsxcq/exploit-CVE-2016-6515](https://github.com/opsxcq/exploit-CVE-2016-6515)
-- [cved-sources/cve-2016-6515](https://github.com/cved-sources/cve-2016-6515)
 
 ### CVE-2016-6516 (2016-08-06)
 
@@ -29685,7 +29685,6 @@ An elevation of privilege vulnerability in the Motorola bootloader could enable 
 </code>
 
 - [alephsecurity/initroot](https://github.com/alephsecurity/initroot)
-- [leosol/initroot](https://github.com/leosol/initroot)
 
 ### CVE-2016-10555 (2018-05-31)
 
