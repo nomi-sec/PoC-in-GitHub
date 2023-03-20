@@ -83,6 +83,14 @@ Es wurde eine kritische Schwachstelle in Drag and Drop Multiple File Upload Cont
 
 - [Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal](https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal)
 
+### CVE-2023-1337 (2023-03-10)
+
+<code>
+The RapidLoad Power-Up for Autoptimize plugin for WordPress is vulnerable to unauthorized data loss due to a missing capability check on the clear_uucss_logs function in versions up to, and including, 1.7.1. This makes it possible for authenticated attackers with subscriber-level access to delete plugin log files.
+</code>
+
+- [Penkyzduyi/CVE-2023-1337](https://github.com/Penkyzduyi/CVE-2023-1337)
+
 ### CVE-2023-1415 (2023-03-15)
 
 <code>
@@ -223,6 +231,10 @@ A Path Traversal in setup.php in OpenEMR &lt; 7.0.0 allows remote unauthenticate
 ### CVE-2023-23138
 - [OmarAtallahh/CVE-2023-23138](https://github.com/OmarAtallahh/CVE-2023-23138)
 
+### CVE-2023-23192
+- [pinarsadioglu/CVE-2023-23192](https://github.com/pinarsadioglu/CVE-2023-23192)
+- [Penkyzduyi/CVE-2023-23192](https://github.com/Penkyzduyi/CVE-2023-23192)
+
 ### CVE-2023-23279 (2023-02-17)
 
 <code>
@@ -272,8 +284,15 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 Internet Control Message Protocol (ICMP) Remote Code Execution Vulnerability
 </code>
 
-- [wh-gov/CVE-2023-23415](https://github.com/wh-gov/CVE-2023-23415)
 - [amitdubey1921/CVE-2023-23415](https://github.com/amitdubey1921/CVE-2023-23415)
+
+### CVE-2023-23416 (2023-03-14)
+
+<code>
+Windows Cryptographic Services Remote Code Execution Vulnerability
+</code>
+
+- [amitdubey1921/CVE-2023-23416](https://github.com/amitdubey1921/CVE-2023-23416)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -313,7 +332,6 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 </code>
 
 - [motikan2010/CVE-2023-23924](https://github.com/motikan2010/CVE-2023-23924)
-- [zeverse/CVE-2023-23924-sample](https://github.com/zeverse/CVE-2023-23924-sample)
 
 ### CVE-2023-24055 (2023-01-21)
 
@@ -4805,6 +4823,14 @@ The Blink1Control2 application &lt;= 2.2.7 uses weak password encryption and an 
 </code>
 
 - [p1ckzi/CVE-2022-35513](https://github.com/p1ckzi/CVE-2022-35513)
+
+### CVE-2022-35649 (2022-07-25)
+
+<code>
+The vulnerability was found in Moodle, occurs due to improper input validation when parsing PostScript code. An omitted execution parameter results in a remote code execution risk for sites running GhostScript versions older than 9.50. Successful exploitation of this vulnerability may result in complete compromise of vulnerable system.
+</code>
+
+- [antoinenguyen-09/CVE-2022-35649](https://github.com/antoinenguyen-09/CVE-2022-35649)
 
 ### CVE-2022-35698 (2022-10-14)
 
@@ -12655,6 +12681,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
 - [Sma-Das/Log4j-PoC](https://github.com/Sma-Das/Log4j-PoC)
+- [heeloo123/CVE-2021-44228](https://github.com/heeloo123/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -24746,6 +24773,7 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [jongmartinez/CVE-2018-11235-PoC](https://github.com/jongmartinez/CVE-2018-11235-PoC)
 - [MohamedTarekq/test-CVE-2018-11235](https://github.com/MohamedTarekq/test-CVE-2018-11235)
 - [Yealid/CVE-2018-11235-Git-Submodule-RCE](https://github.com/Yealid/CVE-2018-11235-Git-Submodule-RCE)
+- [j4k0m/CVE-2018-11235](https://github.com/j4k0m/CVE-2018-11235)
 - [twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration](https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration)
 - [SenSecurity/exploit](https://github.com/SenSecurity/exploit)
 - [EmaVirgRep/CVE-2018-11235](https://github.com/EmaVirgRep/CVE-2018-11235)
