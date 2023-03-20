@@ -2653,6 +2653,14 @@ regex is an implementation of regular expressions for the Rust language. The reg
 
 - [ItzSwirlz/CVE-2022-24713-POC](https://github.com/ItzSwirlz/CVE-2022-24713-POC)
 
+### CVE-2022-24716 (2022-03-08)
+
+<code>
+Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. Unauthenticated users can leak the contents of files of the local system accessible to the web-server user, including `icingaweb2` configuration files with database credentials. This issue has been resolved in versions 2.9.6 and 2.10 of Icinga Web 2. Database credentials should be rotated.
+</code>
+
+- [JacobEbben/CVE-2022-24716](https://github.com/JacobEbben/CVE-2022-24716)
+
 ### CVE-2022-24734 (2022-03-09)
 
 <code>
@@ -17559,7 +17567,7 @@ InterMind iMind Server through 3.13.65 allows remote unauthenticated attackers t
 A Server-Side Request Forgery (SSRF) affecting the PDF generation in MicroStrategy 10.4, 2019 before Update 6, and 2020 before Update 2 allows authenticated users to access the content of internal network resources or leak files from the local system via HTML containers embedded in a dossier/dashboard document. NOTE: 10.4., no fix will be released as version will reach end-of-life on 31/12/2020.
 </code>
 
-- [ziadanbari2021/exploit-CVE-2020-24815.py](https://github.com/ziadanbari2021/exploit-CVE-2020-24815.py)
+- [ziadanbari2021/exploit-CVE-2020-24815](https://github.com/ziadanbari2021/exploit-CVE-2020-24815)
 
 ### CVE-2020-24949 (2020-09-03)
 
@@ -29349,6 +29357,7 @@ The auth_password function in auth-passwd.c in sshd in OpenSSH before 7.3 does n
 </code>
 
 - [opsxcq/exploit-CVE-2016-6515](https://github.com/opsxcq/exploit-CVE-2016-6515)
+- [cved-sources/cve-2016-6515](https://github.com/cved-sources/cve-2016-6515)
 
 ### CVE-2016-6516 (2016-08-06)
 
@@ -29685,6 +29694,7 @@ An elevation of privilege vulnerability in the Motorola bootloader could enable 
 </code>
 
 - [alephsecurity/initroot](https://github.com/alephsecurity/initroot)
+- [leosol/initroot](https://github.com/leosol/initroot)
 
 ### CVE-2016-10555 (2018-05-31)
 
