@@ -2660,6 +2660,7 @@ Icinga Web 2 is an open source monitoring web interface, framework and command-l
 </code>
 
 - [JacobEbben/CVE-2022-24716](https://github.com/JacobEbben/CVE-2022-24716)
+- [joaoviictorti/CVE-2022-24716](https://github.com/joaoviictorti/CVE-2022-24716)
 
 ### CVE-2022-24734 (2022-03-09)
 
@@ -24745,7 +24746,6 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [jongmartinez/CVE-2018-11235-PoC](https://github.com/jongmartinez/CVE-2018-11235-PoC)
 - [MohamedTarekq/test-CVE-2018-11235](https://github.com/MohamedTarekq/test-CVE-2018-11235)
 - [Yealid/CVE-2018-11235-Git-Submodule-RCE](https://github.com/Yealid/CVE-2018-11235-Git-Submodule-RCE)
-- [j4k0m/CVE-2018-11235](https://github.com/j4k0m/CVE-2018-11235)
 - [twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration](https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration)
 - [SenSecurity/exploit](https://github.com/SenSecurity/exploit)
 - [EmaVirgRep/CVE-2018-11235](https://github.com/EmaVirgRep/CVE-2018-11235)
