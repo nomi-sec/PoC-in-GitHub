@@ -277,6 +277,8 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT)
 - [djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC)
 - [ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook](https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook)
+- [Trackflaw/CVE-2023-23397](https://github.com/Trackflaw/CVE-2023-23397)
+- [SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397)
 
 ### CVE-2023-23415 (2023-03-14)
 
@@ -323,7 +325,6 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [gibran-abdillah/CVE-2023-23752](https://github.com/gibran-abdillah/CVE-2023-23752)
 - [H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752)
 - [Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752)
-- [aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner](https://github.com/aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -411,6 +412,9 @@ systemd before 247 does not adequately block local privilege escalation for some
 </code>
 
 - [Zenmovie/CVE-2023-26604](https://github.com/Zenmovie/CVE-2023-26604)
+
+### CVE-2023-27326
+- [Impalabs/CVE-2023-27326](https://github.com/Impalabs/CVE-2023-27326)
 
 ### CVE-2023-27566 (2023-03-03)
 
@@ -2670,6 +2674,14 @@ regex is an implementation of regular expressions for the Rust language. The reg
 </code>
 
 - [ItzSwirlz/CVE-2022-24713-POC](https://github.com/ItzSwirlz/CVE-2022-24713-POC)
+
+### CVE-2022-24715 (2022-03-08)
+
+<code>
+Icinga Web 2 is an open source monitoring web interface, framework and command-line interface. Authenticated users, with access to the configuration, can create SSH resource files in unintended directories, leading to the execution of arbitrary code. This issue has been resolved in versions 2.8.6, 2.9.6 and 2.10 of Icinga Web 2. Users unable to upgrade should limit access to the Icinga Web 2 configuration.
+</code>
+
+- [JacobEbben/CVE-2022-24715](https://github.com/JacobEbben/CVE-2022-24715)
 
 ### CVE-2022-24716 (2022-03-08)
 
@@ -12682,6 +12694,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
 - [Sma-Das/Log4j-PoC](https://github.com/Sma-Das/Log4j-PoC)
 - [heeloo123/CVE-2021-44228](https://github.com/heeloo123/CVE-2021-44228)
+- [github-kyruuu/log4shell-vulnweb](https://github.com/github-kyruuu/log4shell-vulnweb)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -13848,6 +13861,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [TweatherQ/CVE-2020-0796](https://github.com/TweatherQ/CVE-2020-0796)
 - [krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796)
 - [OldDream666/cve-2020-0796](https://github.com/OldDream666/cve-2020-0796)
+- [heeloo123/CVE-2020-0796](https://github.com/heeloo123/CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
