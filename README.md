@@ -444,6 +444,14 @@ ReadtoMyShoe, a web app that lets users upload articles and listen to them later
 ### CVE-2023-27842
 - [tristao-marinho/CVE-2023-27842](https://github.com/tristao-marinho/CVE-2023-27842)
 
+### CVE-2023-28343 (2023-03-14)
+
+<code>
+OS command injection affects Altenergy Power Control Software C1.2.5 via shell metacharacters in the index.php/management/set_timezone timezone parameter, because of set_timezone in models/management_model.php.
+</code>
+
+- [gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343)
+
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
@@ -4914,6 +4922,14 @@ vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in mo
 ### CVE-2022-36163
 - [MaherAzzouzi/CVE-2022-36163](https://github.com/MaherAzzouzi/CVE-2022-36163)
 
+### CVE-2022-36193 (2022-11-28)
+
+<code>
+SQL injection in School Management System 1.0 allows remote attackers to modify or delete data, causing persistent changes to the application's content or behavior by using malicious SQL queries.
+</code>
+
+- [G37SYS73M/CVE-2022-36193](https://github.com/G37SYS73M/CVE-2022-36193)
+
 ### CVE-2022-36200 (2022-08-29)
 
 <code>
@@ -6270,6 +6286,14 @@ starsoftcomm CooCare 5.304 allows local attackers to escalate privileges and exe
 
 - [happy0717/CVE-2022-45988](https://github.com/happy0717/CVE-2022-45988)
 
+### CVE-2022-46087 (2023-01-30)
+
+<code>
+CloudSchool v3.0.1 is vulnerable to Cross Site Scripting (XSS). A normal user can steal session cookies of the admin users through notification received by the admin user.
+</code>
+
+- [G37SYS73M/CVE-2022-46087](https://github.com/G37SYS73M/CVE-2022-46087)
+
 ### CVE-2022-46104
 - [NurSec747/CVE-2022-46104---POC](https://github.com/NurSec747/CVE-2022-46104---POC)
 
@@ -6338,6 +6362,7 @@ Certain Linear eMerge E3-Series devices are vulnerable to XSS via the type param
 
 - [wh-gov/CVE-2022-46463](https://github.com/wh-gov/CVE-2022-46463)
 - [nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463)
+- [404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463)
 
 ### CVE-2022-46484
 - [WodenSec/CVE-2022-46484](https://github.com/WodenSec/CVE-2022-46484)
@@ -9582,6 +9607,7 @@ Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remot
 
 - [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
 - [CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632)
+- [maldev866/ChExp_CVE-2021-30632](https://github.com/maldev866/ChExp_CVE-2021-30632)
 
 ### CVE-2021-30657 (2021-09-08)
 
