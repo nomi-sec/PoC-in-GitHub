@@ -117,6 +117,7 @@ In onPackageRemoved of AccessibilityManagerService.java, there is a possibility 
 
 ### CVE-2023-21036
 - [qixils/anticropalypse](https://github.com/qixils/anticropalypse)
+- [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -290,6 +291,7 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [Trackflaw/CVE-2023-23397](https://github.com/Trackflaw/CVE-2023-23397)
 - [SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397)
 - [tiepologian/CVE-2023-23397](https://github.com/tiepologian/CVE-2023-23397)
+- [BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397)
 
 ### CVE-2023-23415 (2023-03-14)
 
@@ -11582,7 +11584,6 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [mightysai1997/CVE-2021-41773m](https://github.com/mightysai1997/CVE-2021-41773m)
 - [mightysai1997/CVE-2021-41773S](https://github.com/mightysai1997/CVE-2021-41773S)
 - [dileepdkumar/LayarKacaSiber-CVE-2021-41773](https://github.com/dileepdkumar/LayarKacaSiber-CVE-2021-41773)
-- [juuso256/CVE-2021-41773](https://github.com/juuso256/CVE-2021-41773)
 - [aqiao-jashell/CVE-2021-41773](https://github.com/aqiao-jashell/CVE-2021-41773)
 - [aqiao-jashell/py-CVE-2021-41773](https://github.com/aqiao-jashell/py-CVE-2021-41773)
 - [12345qwert123456/CVE-2021-41773](https://github.com/12345qwert123456/CVE-2021-41773)
