@@ -167,6 +167,7 @@ Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerabili
 - [SamuelTulach/nullmap](https://github.com/SamuelTulach/nullmap)
 - [Malwareman007/CVE-2023-21768](https://github.com/Malwareman007/CVE-2023-21768)
 - [HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768)
+- [CKevens/CVE-2023-21768-POC](https://github.com/CKevens/CVE-2023-21768-POC)
 
 ### CVE-2023-21839 (2023-01-17)
 
@@ -313,6 +314,14 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 </code>
 
 - [r3nt0n/CVE-2023-23488-PoC](https://github.com/r3nt0n/CVE-2023-23488-PoC)
+
+### CVE-2023-23638 (2023-03-08)
+
+<code>
+A deserialization vulnerability existed when dubbo generic invoke, which could lead to malicious code execution. This issue affects Apache Dubbo 2.7.x version 2.7.21 and prior versions; Apache Dubbo 3.0.x version 3.0.13 and prior versions; Apache Dubbo 3.1.x version 3.1.5 and prior versions.
+</code>
+
+- [X1r0z/CVE-2023-23638](https://github.com/X1r0z/CVE-2023-23638)
 
 ### CVE-2023-23752 (2023-02-16)
 
@@ -803,6 +812,7 @@ A flaw was found in the Linux kernel in linux/net/netfilter/nf_tables_api.c of t
 - [ysanatomic/CVE-2022-1015](https://github.com/ysanatomic/CVE-2022-1015)
 - [wlswotmd/CVE-2022-1015](https://github.com/wlswotmd/CVE-2022-1015)
 - [delsploit/CVE-2022-1015](https://github.com/delsploit/CVE-2022-1015)
+- [pivik271/CVE-2022-1015](https://github.com/pivik271/CVE-2022-1015)
 
 ### CVE-2022-1026 (2022-04-04)
 
