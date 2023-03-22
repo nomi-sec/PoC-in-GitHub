@@ -335,6 +335,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [gibran-abdillah/CVE-2023-23752](https://github.com/gibran-abdillah/CVE-2023-23752)
 - [H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752)
 - [Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752)
+- [aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner](https://github.com/aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -5853,6 +5854,7 @@ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 th
 - [bryanster/ioc-cve-2022-42475](https://github.com/bryanster/ioc-cve-2022-42475)
 - [scrt/cve-2022-42475](https://github.com/scrt/cve-2022-42475)
 - [Amir-hy/cve-2022-42475](https://github.com/Amir-hy/cve-2022-42475)
+- [Mustafa1986/cve-2022-42475-Fortinet](https://github.com/Mustafa1986/cve-2022-42475-Fortinet)
 
 ### CVE-2022-42864 (2022-12-15)
 
