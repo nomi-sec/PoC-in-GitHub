@@ -443,6 +443,14 @@ systemd before 247 does not adequately block local privilege escalation for some
 ### CVE-2023-27326
 - [Impalabs/CVE-2023-27326](https://github.com/Impalabs/CVE-2023-27326)
 
+### CVE-2023-27532 (2023-03-10)
+
+<code>
+Vulnerability in Veeam Backup &amp; Replication component allows encrypted credentials stored in the configuration database to be obtained. This may lead to gaining access to the backup infrastructure hosts.
+</code>
+
+- [horizon3ai/CVE-2023-27532](https://github.com/horizon3ai/CVE-2023-27532)
+
 ### CVE-2023-27566 (2023-03-03)
 
 <code>
@@ -921,7 +929,6 @@ The Elementor Website Builder plugin for WordPress is vulnerable to unauthorized
 - [AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit](https://github.com/AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit)
 - [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
 - [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
-- [dexit/CVE-2022-1329](https://github.com/dexit/CVE-2022-1329)
 
 ### CVE-2022-1386 (2022-05-16)
 
@@ -1576,14 +1583,6 @@ In getEnabledAccessibilityServiceList of AccessibilityManager.java, there is a p
 </code>
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20495](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20495)
-
-### CVE-2022-20607 (2022-12-16)
-
-<code>
-In the Pixel cellular firmware, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with LTE authentication needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-238914868References: N/A
-</code>
-
-- [sumeetIT/CVE-2022-20607](https://github.com/sumeetIT/CVE-2022-20607)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -3524,7 +3523,6 @@ An issue was discovered in Django 2.2 before 2.2.28, 3.2 before 3.2.13, and 4.0 
 - [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
 - [pthlong9991/CVE-2022-28346](https://github.com/pthlong9991/CVE-2022-28346)
-- [vincentinttsh/CVE-2022-28346](https://github.com/vincentinttsh/CVE-2022-28346)
 
 ### CVE-2022-28368 (2022-04-02)
 
@@ -5607,14 +5605,6 @@ Windows Mark of the Web Security Feature Bypass Vulnerability
 
 - [NathanScottGithub/CVE-2022-41049-POC](https://github.com/NathanScottGithub/CVE-2022-41049-POC)
 
-### CVE-2022-41076 (2022-12-13)
-
-<code>
-PowerShell Remote Code Execution Vulnerability.
-</code>
-
-- [5l1v3r1/CVE-2022-41076](https://github.com/5l1v3r1/CVE-2022-41076)
-
 ### CVE-2022-41080 (2022-11-09)
 
 <code>
@@ -5646,14 +5636,6 @@ BitLocker Security Feature Bypass Vulnerability
 - [halsey51013/UpdateWindowsRE-CVE-2022-41099](https://github.com/halsey51013/UpdateWindowsRE-CVE-2022-41099)
 - [o0MattE0o/CVE-2022-41099-Fix](https://github.com/o0MattE0o/CVE-2022-41099-Fix)
 - [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
-
-### CVE-2022-41114 (2022-11-09)
-
-<code>
-Windows Bind Filter Driver Elevation of Privilege Vulnerability
-</code>
-
-- [gmh5225/CVE-2022-41114](https://github.com/gmh5225/CVE-2022-41114)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -5873,6 +5855,7 @@ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 th
 - [scrt/cve-2022-42475](https://github.com/scrt/cve-2022-42475)
 - [Amir-hy/cve-2022-42475](https://github.com/Amir-hy/cve-2022-42475)
 - [Mustafa1986/cve-2022-42475-Fortinet](https://github.com/Mustafa1986/cve-2022-42475-Fortinet)
+- [CKevens/CVE-2022-42475-RCE-POC](https://github.com/CKevens/CVE-2022-42475-RCE-POC)
 
 ### CVE-2022-42864 (2022-12-15)
 
@@ -7571,6 +7554,14 @@ A cross-site scripting (XSS) vulnerability in Pryaniki 6.44.3 allows remote auth
 </code>
 
 - [jet-pentest/CVE-2021-3395](https://github.com/jet-pentest/CVE-2021-3395)
+
+### CVE-2021-3438 (2021-05-20)
+
+<code>
+A potential buffer overflow in the software drivers for certain HP LaserJet products and Samsung product printers could lead to an escalation of privilege.
+</code>
+
+- [TobiasS1402/CVE-2021-3438](https://github.com/TobiasS1402/CVE-2021-3438)
 
 ### CVE-2021-3441 (2021-10-29)
 
@@ -10176,14 +10167,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [kh4sh3i/ProxyShell](https://github.com/kh4sh3i/ProxyShell)
 - [ipsBruno/CVE-2021-34473-NMAP-SCANNER](https://github.com/ipsBruno/CVE-2021-34473-NMAP-SCANNER)
 
-### CVE-2021-34481 (2021-07-16)
-
-<code>
-Windows Print Spooler Elevation of Privilege Vulnerability
-</code>
-
-- [vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481)
-
 ### CVE-2021-34486 (2021-08-12)
 
 <code>
@@ -10452,6 +10435,7 @@ Windows Elevation of Privilege Vulnerability
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
+- [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
 - [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
@@ -10535,7 +10519,6 @@ Multiple buffer overflows in the limited configuration shell (/sbin/gs_config) o
 A SQL injection vulnerability exists in version 3.0.2 of Hotel Druid when SQLite is being used as the application database. A malicious attacker can issue SQL commands to the SQLite database through the vulnerable idappartamenti parameter.
 </code>
 
-- [dievus/CVE-2021-37832](https://github.com/dievus/CVE-2021-37832)
 - [AK-blank/CVE-2021-37832](https://github.com/AK-blank/CVE-2021-37832)
 
 ### CVE-2021-37833 (2021-08-03)
@@ -10639,14 +10622,6 @@ Ivanti Service Manager 2021.1 allows reflected XSS via the appName parameter ass
 </code>
 
 - [os909/iVANTI-CVE-2021-38560](https://github.com/os909/iVANTI-CVE-2021-38560)
-
-### CVE-2021-38583 (2021-08-13)
-
-<code>
-openBaraza HCM 3.1.6 does not properly neutralize user-controllable input, which allows reflected cross-site scripting (XSS) on multiple pages: hr/subscription.jsp and hr/application.jsp and and hr/index.jsp (with view= and data=).
-</code>
-
-- [charlesbickel/CVE-2021-38583](https://github.com/charlesbickel/CVE-2021-38583)
 
 ### CVE-2021-38601
 - [5l1v3r1/CVE-2021-38601](https://github.com/5l1v3r1/CVE-2021-38601)
