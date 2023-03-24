@@ -3,7 +3,6 @@
 ## 2023
 ### CVE-2023-0045
 - [ASkyeye/CVE-2023-0045](https://github.com/ASkyeye/CVE-2023-0045)
-- [es0j/CVE-2023-0045](https://github.com/es0j/CVE-2023-0045)
 
 ### CVE-2023-0050 (2023-03-09)
 
@@ -107,6 +106,14 @@ In Simple Art Gallery 1.0 wurde eine Schwachstelle ausgemacht. Sie wurde als kri
 
 - [0xxtoby/CVE-2023-1415](https://github.com/0xxtoby/CVE-2023-1415)
 
+### CVE-2023-1454 (2023-03-17)
+
+<code>
+Es wurde eine Schwachstelle in jeecg-boot 3.5.0 entdeckt. Sie wurde als kritisch eingestuft. Betroffen hiervon ist ein unbekannter Ablauf der Datei jmreport/qurestSql. Durch Beeinflussen des Arguments apiSelectId mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [gobysec/CVE-2023-1454](https://github.com/gobysec/CVE-2023-1454)
+
 ### CVE-2023-20921 (2023-01-24)
 
 <code>
@@ -118,6 +125,7 @@ In onPackageRemoved of AccessibilityManagerService.java, there is a possibility 
 ### CVE-2023-21036
 - [qixils/anticropalypse](https://github.com/qixils/anticropalypse)
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
+- [maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -259,14 +267,6 @@ Canteen Management System 1.0 is vulnerable to SQL Injection via /php_action/get
 
 - [tuannq2299/CVE-2023-23279](https://github.com/tuannq2299/CVE-2023-23279)
 
-### CVE-2023-23333 (2023-02-06)
-
-<code>
-There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php.
-</code>
-
-- [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
-
 ### CVE-2023-23396 (2023-03-14)
 
 <code>
@@ -353,11 +353,8 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 </code>
 
 - [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
-- [alt3kx/CVE-2023-24055_PoC](https://github.com/alt3kx/CVE-2023-24055_PoC)
 - [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
-- [ATTACKnDEFEND/CVE-2023-24055](https://github.com/ATTACKnDEFEND/CVE-2023-24055)
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
-- [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-](https://github.com/PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
 
@@ -397,17 +394,8 @@ NOSH 4a5cfdb allows remote authenticated users to execute PHP arbitrary code via
 OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote attacker in the default configuration, to jump to any location in the sshd address space. One third-party report states &quot;remote code execution is theoretically possible.&quot;
 </code>
 
-- [jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free)
 - [ticofookfook/CVE-2023-25136](https://github.com/ticofookfook/CVE-2023-25136)
 - [Christbowel/CVE-2023-25136](https://github.com/Christbowel/CVE-2023-25136)
-
-### CVE-2023-25194 (2023-02-07)
-
-<code>
-A possible security vulnerability has been identified in Apache Kafka Connect. This requires access to a Kafka Connect worker, and the ability to create/modify connectors on it with an arbitrary Kafka client SASL JAAS config and a SASL-based security protocol, which has been possible on Kafka Connect clusters since Apache Kafka 2.3.0. When configuring the connector via the Kafka Connect REST API, an authenticated operator can set the `sasl.jaas.config` property for any of the connector's Kafka clients to &quot;com.sun.security.auth.module.JndiLoginModule&quot;, which can be done via the `producer.override.sasl.jaas.config`, `consumer.override.sasl.jaas.config`, or `admin.override.sasl.jaas.config` properties. This will allow the server to connect to the attacker's LDAP server and deserialize the LDAP response, which the attacker can use to execute java deserialization gadget chains on the Kafka connect server. Attacker can cause unrestricted deserialization of untrusted data (or) RCE vulnerability when there are gadgets in the classpath. Since Apache Kafka 3.0.0, users are allowed to specify these properties in connector configurations for Kafka Connect clusters running with out-of-the-box configurations. Before Apache Kafka 3.0.0, users may not specify these properties unless the Kafka Connect cluster has been reconfigured with a connector client override policy that permits them. Since Apache Kafka 3.4.0, we have added a system property (&quot;-Dorg.apache.kafka.disallowed.login.modules&quot;) to disable the problematic login modules usage in SASL JAAS configuration. Also by default &quot;com.sun.security.auth.module.JndiLoginModule&quot; is disabled in Apache Kafka 3.4.0. We advise the Kafka Connect users to validate connector configurations and only allow trusted JNDI configurations. Also examine connector dependencies for vulnerable versions and either upgrade their connectors, upgrading that specific dependency, or removing the connectors as options for remediation. Finally, in addition to leveraging the &quot;org.apache.kafka.disallowed.login.modules&quot; system property, Kafka Connect users can also implement their own connector client config override policy, which can be used to control which Kafka client properties can be overridden directly in a connector config and which cannot.
-</code>
-
-- [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
 ### CVE-2023-26262 (2023-03-14)
 
@@ -478,6 +466,7 @@ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment startin
 
 - [Mr-xn/CVE-2023-28432](https://github.com/Mr-xn/CVE-2023-28432)
 - [gobysec/CVE-2023-28432](https://github.com/gobysec/CVE-2023-28432)
+- [Okaytc/minio_unauth_check](https://github.com/Okaytc/minio_unauth_check)
 
 
 ## 2022
@@ -14376,6 +14365,14 @@ An OS Command Injection vulnerability in the PAN-OS management interface that al
 ### CVE-2020-2333
 - [section-c/CVE-2020-2333](https://github.com/section-c/CVE-2020-2333)
 
+### CVE-2020-2501 (2021-02-16)
+
+<code>
+A stack-based buffer overflow vulnerability has been reported to affect QNAP NAS devices running Surveillance Station. If exploited, this vulnerability allows attackers to execute arbitrary code. QNAP have already fixed this vulnerability in the following versions: Surveillance Station 5.1.5.4.3 (and later) for ARM CPU NAS (64bit OS) and x86 CPU NAS (64bit OS) Surveillance Station 5.1.5.3.3 (and later) for ARM CPU NAS (32bit OS) and x86 CPU NAS (32bit OS)
+</code>
+
+- [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
+
 ### CVE-2020-2509 (2021-04-16)
 
 <code>
@@ -14779,6 +14776,14 @@ Symantec Endpoint Detection And Response, prior to 4.4, may be susceptible to an
 
 - [nasbench/CVE-2020-5839](https://github.com/nasbench/CVE-2020-5839)
 
+### CVE-2020-5842 (2020-01-07)
+
+<code>
+Codoforum 4.8.3 allows XSS in the user registration page: via the username field to the index.php?u=/user/register URI. The payload is, for example, executed on the admin/index.php?page=users/manage page.
+</code>
+
+- [prasanthc41m/codoforum](https://github.com/prasanthc41m/codoforum)
+
 ### CVE-2020-5844 (2020-03-16)
 
 <code>
@@ -14915,6 +14920,7 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
+- [ulexec/ChromeSHELFLoader](https://github.com/ulexec/ChromeSHELFLoader)
 - [SivaPriyaRanganatha/CVE-2020-6418](https://github.com/SivaPriyaRanganatha/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-20)
@@ -15134,6 +15140,14 @@ In JFrog Artifactory 5.x and 6.x, insecure FreeMarker template processing leads 
 </code>
 
 - [gquere/CVE-2020-7931](https://github.com/gquere/CVE-2020-7931)
+
+### CVE-2020-7934 (2020-01-28)
+
+<code>
+In LifeRay Portal CE 7.1.0 through 7.2.1 GA2, the First Name, Middle Name, and Last Name fields for user accounts in MyAccountPortlet are all vulnerable to a persistent XSS issue. Any user can modify these fields with a particular XSS payload, and it will be stored in the database. The payload will then be rendered when a user utilizes the search feature to search for other users (i.e., if a user with modified fields occurs in the search results). This issue was fixed in Liferay Portal CE version 7.3.0 GA1.
+</code>
+
+- [Sergio235705/audit-xss-cve-2020-7934](https://github.com/Sergio235705/audit-xss-cve-2020-7934)
 
 ### CVE-2020-7961 (2020-03-20)
 
@@ -15439,6 +15453,7 @@ In the Linux kernel 5.5.0 and newer, the bpf verifier (kernel/bpf/verifier.c) di
 - [zilong3033/CVE-2020-8835](https://github.com/zilong3033/CVE-2020-8835)
 - [SplendidSky/CVE-2020-8835](https://github.com/SplendidSky/CVE-2020-8835)
 - [digamma-ai/CVE-2020-8835-verification](https://github.com/digamma-ai/CVE-2020-8835-verification)
+- [johnatag/INF8602-CVE-2020-8835](https://github.com/johnatag/INF8602-CVE-2020-8835)
 
 ### CVE-2020-8840 (2020-02-10)
 
@@ -15637,6 +15652,7 @@ When using Apache Tomcat versions 10.0.0-M1 to 10.0.0-M4, 9.0.0.M1 to 9.0.34, 8.
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
 - [RepublicR0K/CVE-2020-9484](https://github.com/RepublicR0K/CVE-2020-9484)
+- [ColdFusionX/CVE-2020-9484](https://github.com/ColdFusionX/CVE-2020-9484)
 - [d3fudd/CVE-2020-9484_Exploit](https://github.com/d3fudd/CVE-2020-9484_Exploit)
 
 ### CVE-2020-9495 (2020-06-19)
@@ -17382,6 +17398,14 @@ A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.
 
 - [MzzdToT/CVE-2020-21224](https://github.com/MzzdToT/CVE-2020-21224)
 
+### CVE-2020-21378 (2020-12-21)
+
+<code>
+SQL injection vulnerability in SeaCMS 10.1 (2020.02.08) via the id parameter in an edit action to admin_members_group.php.
+</code>
+
+- [sukusec301/SeaCMS-v10.1](https://github.com/sukusec301/SeaCMS-v10.1)
+
 ### CVE-2020-23160 (2021-01-22)
 
 <code>
@@ -18605,6 +18629,14 @@ KLog Server 2.4.1 allows OS command injection via shell metacharacters in the ac
 </code>
 
 - [Al1ex/CVE-2020-35729](https://github.com/Al1ex/CVE-2020-35729)
+
+### CVE-2020-35749 (2021-01-15)
+
+<code>
+Directory traversal vulnerability in class-simple_job_board_resume_download_handler.php in the Simple Board Job plugin 2.9.3 and earlier for WordPress allows remote attackers to read arbitrary files via the sjb_file parameter to wp-admin/post.php.
+</code>
+
+- [M4xSec/Wordpress-CVE-2020-35749](https://github.com/M4xSec/Wordpress-CVE-2020-35749)
 
 ### CVE-2020-35846 (2020-12-29)
 
