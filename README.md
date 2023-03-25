@@ -358,6 +358,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752)
 - [aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner](https://github.com/aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner)
 - [Acceis/exploit-CVE-2023-23752](https://github.com/Acceis/exploit-CVE-2023-23752)
+- [karthikuj/CVE-2023-23752-Docker](https://github.com/karthikuj/CVE-2023-23752-Docker)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -19009,6 +19010,7 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [CPT-Jack-A-Castle/Haruster-CVE-2019-0708-Exploit](https://github.com/CPT-Jack-A-Castle/Haruster-CVE-2019-0708-Exploit)
 - [Ravaan21/Bluekeep-Hunter](https://github.com/Ravaan21/Bluekeep-Hunter)
 - [davidfortytwo/bluekeep](https://github.com/davidfortytwo/bluekeep)
+- [tranqtruong/Detect-BlueKeep](https://github.com/tranqtruong/Detect-BlueKeep)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -23052,6 +23054,9 @@ An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Col
 
 - [atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector)
 
+### CVE-2018-14
+- [lckJack/legacySymfony](https://github.com/lckJack/legacySymfony)
+
 ### CVE-2018-1010 (2018-04-11)
 
 <code>
@@ -23356,7 +23361,9 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 
 - [sry309/CVE-2018-2893](https://github.com/sry309/CVE-2018-2893)
 - [ryanInf/CVE-2018-2893](https://github.com/ryanInf/CVE-2018-2893)
+- [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
+- [qianl0ng/CVE-2018-2893](https://github.com/qianl0ng/CVE-2018-2893)
 - [jas502n/CVE-2018-2893](https://github.com/jas502n/CVE-2018-2893)
 - [ianxtianxt/CVE-2018-2893](https://github.com/ianxtianxt/CVE-2018-2893)
 
@@ -24300,6 +24307,14 @@ YzmCMS 3.7 has Stored XSS via the title parameter to advertisement/adver/edit.ht
 </code>
 
 - [Jx0n0/YZMCMSxss](https://github.com/Jx0n0/YZMCMSxss)
+
+### CVE-2018-8090 (2018-07-25)
+
+<code>
+Quick Heal Total Security 64 bit 17.00 (QHTS64.exe), (QHTSFT64.exe) - Version 10.0.1.38; Quick Heal Total Security 32 bit 17.00 (QHTS32.exe), (QHTSFT32.exe) - Version 10.0.1.38; Quick Heal Internet Security 64 bit 17.00 (QHIS64.exe), (QHISFT64.exe) - Version 10.0.0.37; Quick Heal Internet Security 32 bit 17.00 (QHIS32.exe), (QHISFT32.exe) - Version 10.0.0.37; Quick Heal AntiVirus Pro 64 bit 17.00 (QHAV64.exe), (QHAVFT64.exe) - Version 10.0.0.37; and Quick Heal AntiVirus Pro 32 bit 17.00 (QHAV32.exe), (QHAVFT32.exe) - Version 10.0.0.37 allow DLL Hijacking because of Insecure Library Loading.
+</code>
+
+- [kernelm0de/CVE-2018-8090](https://github.com/kernelm0de/CVE-2018-8090)
 
 ### CVE-2018-8108 (2018-03-14)
 
@@ -25268,6 +25283,14 @@ In Bootstrap before 4.1.2, XSS is possible in the data-container property of too
 </code>
 
 - [Snorlyd/https-nj.gov---CVE-2018-14042](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14042)
+
+### CVE-2018-14083 (2018-07-25)
+
+<code>
+LICA miniCMTS E8K(u/i/...) devices allow remote attackers to obtain sensitive information via a direct POST request for the inc/user.ini file, leading to discovery of a password hash.
+</code>
+
+- [pudding2/CVE-2018-14083](https://github.com/pudding2/CVE-2018-14083)
 
 ### CVE-2018-14371 (2018-07-18)
 
@@ -31266,7 +31289,7 @@ lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 an
 - [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
 
 ### CVE-2013-225
-- [ninj4c0d3r/ShellEvil](https://github.com/ninj4c0d3r/ShellEvil)
+- [PentestinGxRoot/ShellEvil](https://github.com/PentestinGxRoot/ShellEvil)
 
 ### CVE-2013-1081 (2013-03-11)
 
