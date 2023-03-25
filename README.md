@@ -126,7 +126,12 @@ In onPackageRemoved of AccessibilityManagerService.java, there is a possibility 
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921)
 
-### CVE-2023-21036
+### CVE-2023-21036 (2023-03-24)
+
+<code>
+In BitmapExport.java, there is a possible failure to truncate images due to a logic error in the code.Product: AndroidVersions: Android kernelAndroid ID: A-264261868References: N/A
+</code>
+
 - [qixils/anticropalypse](https://github.com/qixils/anticropalypse)
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
 - [maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot)
@@ -311,6 +316,8 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [tiepologian/CVE-2023-23397](https://github.com/tiepologian/CVE-2023-23397)
 - [BronzeBee/cve-2023-23397](https://github.com/BronzeBee/cve-2023-23397)
 - [stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397)
+- [madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report)
+- [Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -422,6 +429,9 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 </code>
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
+
+### CVE-2023-25610
+- [PSIRT-REPO/CVE-2023-25610](https://github.com/PSIRT-REPO/CVE-2023-25610)
 
 ### CVE-2023-26262 (2023-03-14)
 
@@ -6487,6 +6497,9 @@ Reflected Cross Site Scripting in Search Functionality of Module Library in Pand
 
 - [Argonx21/CVE-2022-47373](https://github.com/Argonx21/CVE-2022-47373)
 
+### CVE-2022-47529
+- [hyp3rlinx/CVE-2022-47529](https://github.com/hyp3rlinx/CVE-2022-47529)
+
 ### CVE-2022-47872 (2023-02-01)
 
 <code>
@@ -8355,6 +8368,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
+- [timb-machine-mirrors/CVE-2021-22005](https://github.com/timb-machine-mirrors/CVE-2021-22005)
 - [InventorMAO/cve-2021-22005](https://github.com/InventorMAO/cve-2021-22005)
 
 ### CVE-2021-22006 (2021-09-23)
@@ -9437,6 +9451,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 - [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
+- [timb-machine-mirrors/CVE-2021-28482](https://github.com/timb-machine-mirrors/CVE-2021-28482)
 
 ### CVE-2021-28663 (2021-05-10)
 
@@ -11382,6 +11397,7 @@ Windows AppContainer Firewall Rules Security Feature Bypass Vulnerability
 Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-2021-42305.
 </code>
 
+- [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
 - [0xrobiul/CVE-2021-41349](https://github.com/0xrobiul/CVE-2021-41349)
 
 ### CVE-2021-41351 (2021-11-09)
@@ -11797,6 +11813,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
+- [timb-machine-mirrors/CVE-2021-42321_poc](https://github.com/timb-machine-mirrors/CVE-2021-42321_poc)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 - [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
 
@@ -12722,6 +12739,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
 - [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
+- [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
@@ -23034,9 +23052,6 @@ An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Col
 
 - [atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector)
 
-### CVE-2018-14
-- [lckJack/legacySymfony](https://github.com/lckJack/legacySymfony)
-
 ### CVE-2018-1010 (2018-04-11)
 
 <code>
@@ -23341,9 +23356,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 
 - [sry309/CVE-2018-2893](https://github.com/sry309/CVE-2018-2893)
 - [ryanInf/CVE-2018-2893](https://github.com/ryanInf/CVE-2018-2893)
-- [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
-- [qianl0ng/CVE-2018-2893](https://github.com/qianl0ng/CVE-2018-2893)
 - [jas502n/CVE-2018-2893](https://github.com/jas502n/CVE-2018-2893)
 - [ianxtianxt/CVE-2018-2893](https://github.com/ianxtianxt/CVE-2018-2893)
 
@@ -24287,14 +24300,6 @@ YzmCMS 3.7 has Stored XSS via the title parameter to advertisement/adver/edit.ht
 </code>
 
 - [Jx0n0/YZMCMSxss](https://github.com/Jx0n0/YZMCMSxss)
-
-### CVE-2018-8090 (2018-07-25)
-
-<code>
-Quick Heal Total Security 64 bit 17.00 (QHTS64.exe), (QHTSFT64.exe) - Version 10.0.1.38; Quick Heal Total Security 32 bit 17.00 (QHTS32.exe), (QHTSFT32.exe) - Version 10.0.1.38; Quick Heal Internet Security 64 bit 17.00 (QHIS64.exe), (QHISFT64.exe) - Version 10.0.0.37; Quick Heal Internet Security 32 bit 17.00 (QHIS32.exe), (QHISFT32.exe) - Version 10.0.0.37; Quick Heal AntiVirus Pro 64 bit 17.00 (QHAV64.exe), (QHAVFT64.exe) - Version 10.0.0.37; and Quick Heal AntiVirus Pro 32 bit 17.00 (QHAV32.exe), (QHAVFT32.exe) - Version 10.0.0.37 allow DLL Hijacking because of Insecure Library Loading.
-</code>
-
-- [kernelm0de/CVE-2018-8090](https://github.com/kernelm0de/CVE-2018-8090)
 
 ### CVE-2018-8108 (2018-03-14)
 
@@ -25263,14 +25268,6 @@ In Bootstrap before 4.1.2, XSS is possible in the data-container property of too
 </code>
 
 - [Snorlyd/https-nj.gov---CVE-2018-14042](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14042)
-
-### CVE-2018-14083 (2018-07-25)
-
-<code>
-LICA miniCMTS E8K(u/i/...) devices allow remote attackers to obtain sensitive information via a direct POST request for the inc/user.ini file, leading to discovery of a password hash.
-</code>
-
-- [pudding2/CVE-2018-14083](https://github.com/pudding2/CVE-2018-14083)
 
 ### CVE-2018-14371 (2018-07-18)
 
