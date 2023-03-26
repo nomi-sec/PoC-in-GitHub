@@ -132,9 +132,10 @@ In onPackageRemoved of AccessibilityManagerService.java, there is a possibility 
 In BitmapExport.java, there is a possible failure to truncate images due to a logic error in the code.Product: AndroidVersions: Android kernelAndroid ID: A-264261868References: N/A
 </code>
 
-- [qixils/anticropalypse](https://github.com/qixils/anticropalypse)
+- [qixils/AntiCropalypse](https://github.com/qixils/AntiCropalypse)
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
 - [maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot)
+- [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -485,6 +486,7 @@ Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2
 </code>
 
 - [tristao-marinho/CVE-2023-27842](https://github.com/tristao-marinho/CVE-2023-27842)
+- [0xFTW/CVE-2023-27842](https://github.com/0xFTW/CVE-2023-27842)
 
 ### CVE-2023-28343 (2023-03-14)
 
@@ -4497,6 +4499,7 @@ pfSense pfBlockerNG through 2.1.4_26 allows remote attackers to execute arbitrar
 - [Madliife0/CVE-2022-31814](https://github.com/Madliife0/CVE-2022-31814)
 - [TheUnknownSoul/CVE-2022-31814](https://github.com/TheUnknownSoul/CVE-2022-31814)
 - [drcayber/RCE](https://github.com/drcayber/RCE)
+- [Chocapikk/CVE-2022-31814](https://github.com/Chocapikk/CVE-2022-31814)
 
 ### CVE-2022-31854 (2022-07-07)
 
