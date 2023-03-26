@@ -136,6 +136,7 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
 - [maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot)
 - [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
+- [schdork/acropolypse-bot](https://github.com/schdork/acropolypse-bot)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -2768,6 +2769,7 @@ Icinga Web 2 is an open source monitoring web interface, framework and command-l
 
 - [JacobEbben/CVE-2022-24716](https://github.com/JacobEbben/CVE-2022-24716)
 - [joaoviictorti/CVE-2022-24716](https://github.com/joaoviictorti/CVE-2022-24716)
+- [pumpkinpiteam/CVE-2022-24716](https://github.com/pumpkinpiteam/CVE-2022-24716)
 
 ### CVE-2022-24734 (2022-03-09)
 
