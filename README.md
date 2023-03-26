@@ -361,6 +361,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner](https://github.com/aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner)
 - [Acceis/exploit-CVE-2023-23752](https://github.com/Acceis/exploit-CVE-2023-23752)
 - [karthikuj/CVE-2023-23752-Docker](https://github.com/karthikuj/CVE-2023-23752-Docker)
+- [0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -2685,6 +2686,7 @@ Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker 
 - [hupe1980/CVE-2022-24637](https://github.com/hupe1980/CVE-2022-24637)
 - [icebreack/CVE-2022-24637](https://github.com/icebreack/CVE-2022-24637)
 - [Pflegusch/CVE-2022-24637](https://github.com/Pflegusch/CVE-2022-24637)
+- [0xM4hm0ud/CVE-2022-24637](https://github.com/0xM4hm0ud/CVE-2022-24637)
 
 ### CVE-2022-24644 (2022-03-07)
 
@@ -5385,6 +5387,7 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [purple-WL/Cobaltstrike-RCE-CVE-2022-39197](https://github.com/purple-WL/Cobaltstrike-RCE-CVE-2022-39197)
 - [lovechoudoufu/about_cobaltstrike4.5_cdf](https://github.com/lovechoudoufu/about_cobaltstrike4.5_cdf)
 - [burpheart/CVE-2022-39197-patch](https://github.com/burpheart/CVE-2022-39197-patch)
+- [hluwa/cobaltstrike_swing_xss2rce](https://github.com/hluwa/cobaltstrike_swing_xss2rce)
 - [4nth0ny1130/CVE-2022-39197-fix_patch](https://github.com/4nth0ny1130/CVE-2022-39197-fix_patch)
 - [its-arun/CVE-2022-39197](https://github.com/its-arun/CVE-2022-39197)
 - [PyterSmithDarkGhost/CVE-2022-39197-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-39197-POC)
@@ -19380,6 +19383,7 @@ A vulnerability in the web-based management interface of Cisco Small Business RV
 - [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
 - [helGayhub233/CVE-2019-1653](https://github.com/helGayhub233/CVE-2019-1653)
+- [ibrahimzx/CVE-2019-1653](https://github.com/ibrahimzx/CVE-2019-1653)
 
 ### CVE-2019-1759 (2019-03-27)
 
@@ -19543,7 +19547,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [ZO1RO/CVE-2019-2890](https://github.com/ZO1RO/CVE-2019-2890)
 - [Ky0-HVA/CVE-2019-2890](https://github.com/Ky0-HVA/CVE-2019-2890)
 - [freeide/weblogic_cve-2019-2890](https://github.com/freeide/weblogic_cve-2019-2890)
-- [SukaraLin/CVE-2019-2890](https://github.com/SukaraLin/CVE-2019-2890)
+- [l1nk3rlin/CVE-2019-2890](https://github.com/l1nk3rlin/CVE-2019-2890)
 - [jas502n/CVE-2019-2890](https://github.com/jas502n/CVE-2019-2890)
 - [ianxtianxt/CVE-2019-2890](https://github.com/ianxtianxt/CVE-2019-2890)
 - [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
