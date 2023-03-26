@@ -2142,6 +2142,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [AayushmanThapaMagar/CVE-2022-22963](https://github.com/AayushmanThapaMagar/CVE-2022-22963)
 - [twseptian/cve-2022-22963](https://github.com/twseptian/cve-2022-22963)
 - [SealPaPaPa/SpringCloudFunction-Research](https://github.com/SealPaPaPa/SpringCloudFunction-Research)
+- [Ki11i0n4ir3/CVE-2022-22963](https://github.com/Ki11i0n4ir3/CVE-2022-22963)
 - [k3rwin/spring-cloud-function-rce](https://github.com/k3rwin/spring-cloud-function-rce)
 - [trhacknon/CVE-2022-22963](https://github.com/trhacknon/CVE-2022-22963)
 - [75ACOL/CVE-2022-22963](https://github.com/75ACOL/CVE-2022-22963)
@@ -19118,6 +19119,14 @@ An elevation of privilege vulnerability exists when the Windows User Profile Ser
 
 ### CVE-2019-905
 - [xtafnull/CMS-made-simple-sqli-python3](https://github.com/xtafnull/CMS-made-simple-sqli-python3)
+
+### CVE-2019-1006 (2019-07-15)
+
+<code>
+An authentication bypass vulnerability exists in Windows Communication Foundation (WCF) and Windows Identity Foundation (WIF), allowing signing of SAML tokens with arbitrary symmetric keys, aka 'WCF/WIF SAML Token Authentication Bypass Vulnerability'.
+</code>
+
+- [521526/CVE-2019-1006](https://github.com/521526/CVE-2019-1006)
 
 ### CVE-2019-1040 (2019-06-12)
 
