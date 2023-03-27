@@ -511,6 +511,14 @@ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment startin
 - [MzzdToT/CVE-2023-28432](https://github.com/MzzdToT/CVE-2023-28432)
 - [acheiii/CVE-2023-28432](https://github.com/acheiii/CVE-2023-28432)
 
+### CVE-2023-28858 (2023-03-26)
+
+<code>
+redis-py before 4.5.3, as used in ChatGPT and other products, leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a pipeline operation), and can send response data to the client of an unrelated request in an off-by-one manner. The fixed versions for this CVE Record are 4.3.6, 4.4.3, and 4.5.3; however, CVE-2023-28859 is a separate vulnerability.
+</code>
+
+- [improbably-you/poc_cve_2023_28858](https://github.com/improbably-you/poc_cve_2023_28858)
+
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
