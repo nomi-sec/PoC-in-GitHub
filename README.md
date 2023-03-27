@@ -434,6 +434,18 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
+### CVE-2023-25260
+- [trustcves/CVE-2023-25260](https://github.com/trustcves/CVE-2023-25260)
+
+### CVE-2023-25261
+- [trustcves/CVE-2023-25261](https://github.com/trustcves/CVE-2023-25261)
+
+### CVE-2023-25262
+- [trustcves/CVE-2023-25262](https://github.com/trustcves/CVE-2023-25262)
+
+### CVE-2023-25263
+- [trustcves/CVE-2023-25263](https://github.com/trustcves/CVE-2023-25263)
+
 ### CVE-2023-25610
 - [PSIRT-REPO/CVE-2023-25610](https://github.com/PSIRT-REPO/CVE-2023-25610)
 
@@ -510,6 +522,16 @@ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment startin
 - [Okaytc/minio_unauth_check](https://github.com/Okaytc/minio_unauth_check)
 - [MzzdToT/CVE-2023-28432](https://github.com/MzzdToT/CVE-2023-28432)
 - [acheiii/CVE-2023-28432](https://github.com/acheiii/CVE-2023-28432)
+- [steponeerror/Cve-2023-28432-](https://github.com/steponeerror/Cve-2023-28432-)
+- [yuyongxr/minio_cve-2023-28432](https://github.com/yuyongxr/minio_cve-2023-28432)
+
+### CVE-2023-28434 (2023-03-22)
+
+<code>
+Minio is a Multi-Cloud Object Storage framework. Prior to RELEASE.2023-03-20T20-16-18Z, an attacker can use crafted requests to bypass metadata bucket name checking and put an object into any bucket while processing `PostPolicyBucket`. To carry out this attack, the attacker requires credentials with `arn:aws:s3:::*` permission, as well as enabled Console API access. This issue has been patched in RELEASE.2023-03-20T20-16-18Z. As a workaround, enable browser API access and turn off `MINIO_BROWSER=off`.
+</code>
+
+- [AbelChe/evil_minio](https://github.com/AbelChe/evil_minio)
 
 ### CVE-2023-28858 (2023-03-26)
 
@@ -4629,7 +4651,7 @@ Arox School ERP Pro v1.0 was discovered to contain multiple arbitrary file uploa
 ### CVE-2022-32132
 - [reewardius/CVE-2022-32132](https://github.com/reewardius/CVE-2022-32132)
 
-### CVE-2022-32199 (-)
+### CVE-2022-32199 (2023-03-27)
 
 <code>
 db_convert.php in ScriptCase through 9.9.008 is vulnerable to Arbitrary File Deletion by an admin via a directory traversal sequence in the file parameter.
