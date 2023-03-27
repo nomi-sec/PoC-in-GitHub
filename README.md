@@ -2781,6 +2781,7 @@ Icinga Web 2 is an open source monitoring web interface, framework and command-l
 - [JacobEbben/CVE-2022-24716](https://github.com/JacobEbben/CVE-2022-24716)
 - [joaoviictorti/CVE-2022-24716](https://github.com/joaoviictorti/CVE-2022-24716)
 - [pumpkinpiteam/CVE-2022-24716](https://github.com/pumpkinpiteam/CVE-2022-24716)
+- [doosec101/CVE-2022-24716](https://github.com/doosec101/CVE-2022-24716)
 
 ### CVE-2022-24734 (2022-03-09)
 
@@ -4628,7 +4629,12 @@ Arox School ERP Pro v1.0 was discovered to contain multiple arbitrary file uploa
 ### CVE-2022-32132
 - [reewardius/CVE-2022-32132](https://github.com/reewardius/CVE-2022-32132)
 
-### CVE-2022-32199
+### CVE-2022-32199 (-)
+
+<code>
+db_convert.php in ScriptCase through 9.9.008 is vulnerable to Arbitrary File Deletion by an admin via a directory traversal sequence in the file parameter.
+</code>
+
 - [Toxich4/CVE-2022-32199](https://github.com/Toxich4/CVE-2022-32199)
 
 ### CVE-2022-32223 (2022-07-14)
@@ -5564,6 +5570,14 @@ Remote Code Execution in Clinic's Patient Management System v 1.0 allows Attacke
 
 ### CVE-2022-40490
 - [whitej3rry/CVE-2022-40490](https://github.com/whitej3rry/CVE-2022-40490)
+
+### CVE-2022-40494 (2022-10-06)
+
+<code>
+NPS before v0.26.10 was discovered to contain an authentication bypass vulnerability via constantly generating and sending the Auth key and Timestamp parameters.
+</code>
+
+- [carr0t2/nps-auth-bypass](https://github.com/carr0t2/nps-auth-bypass)
 
 ### CVE-2022-40624 (2022-12-20)
 
@@ -6529,6 +6543,14 @@ maccms10 2021.1000.2000 is vulnerable to Server-side request forgery (SSRF).
 </code>
 
 - [Cedric1314/CVE-2022-47872](https://github.com/Cedric1314/CVE-2022-47872)
+
+### CVE-2022-47909 (2023-02-20)
+
+<code>
+Livestatus Query Language (LQL) injection in the AuthUser HTTP query header of Tribe29's Checkmk &lt;= 2.1.0p11, Checkmk &lt;= 2.0.0p28, and all versions of Checkmk 1.6.0 (EOL) allows an attacker to perform direct queries to the application's core from localhost.
+</code>
+
+- [JacobEbben/CVE-2022-47909_unauth_arbitrary_file_deletion](https://github.com/JacobEbben/CVE-2022-47909_unauth_arbitrary_file_deletion)
 
 ### CVE-2022-47952 (2023-01-01)
 
