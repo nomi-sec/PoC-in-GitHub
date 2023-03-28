@@ -120,6 +120,14 @@ Es wurde eine Schwachstelle in jeecg-boot 3.5.0 entdeckt. Sie wurde als kritisch
 
 - [gobysec/CVE-2023-1454](https://github.com/gobysec/CVE-2023-1454)
 
+### CVE-2023-1665 (2023-03-27)
+
+<code>
+Improper Restriction of Excessive Authentication Attempts in GitHub repository linagora/twake prior to 0.0.0.
+</code>
+
+- [0xsu3ks/CVE-2023-1665](https://github.com/0xsu3ks/CVE-2023-1665)
+
 ### CVE-2023-20860 (2023-03-27)
 
 <code>
@@ -444,7 +452,12 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
-### CVE-2023-25260
+### CVE-2023-25260 (2023-03-28)
+
+<code>
+Stimulsoft Designer (Web) 2023.1.3 is vulnerable to Local File Inclusion.
+</code>
+
 - [trustcves/CVE-2023-25260](https://github.com/trustcves/CVE-2023-25260)
 
 ### CVE-2023-25261 (2023-03-27)
@@ -6279,6 +6292,22 @@ A directory traversal vulnerability in the SevenZipFile.extractall() function of
 
 - [0xless/CVE-2022-44900-demo-lab](https://github.com/0xless/CVE-2022-44900-demo-lab)
 
+### CVE-2022-45003 (2023-03-22)
+
+<code>
+Gophish through 0.12.1 allows attackers to cause a Denial of Service (DoS) via a crafted payload involving autofocus.
+</code>
+
+- [mha98/CVE-2022-45003](https://github.com/mha98/CVE-2022-45003)
+
+### CVE-2022-45004 (2023-03-22)
+
+<code>
+Gophish through 0.12.1 was discovered to contain a cross-site scripting (XSS) vulnerability via a crafted landing page.
+</code>
+
+- [mha98/CVE-2022-45004](https://github.com/mha98/CVE-2022-45004)
+
 ### CVE-2022-45025 (2022-12-06)
 
 <code>
@@ -6586,7 +6615,12 @@ Reflected Cross Site Scripting in Search Functionality of Module Library in Pand
 
 - [Argonx21/CVE-2022-47373](https://github.com/Argonx21/CVE-2022-47373)
 
-### CVE-2022-47529
+### CVE-2022-47529 (2023-03-28)
+
+<code>
+Insecure Win32 memory objects in Endpoint Windows Agents in RSA NetWitness Platform before 12.2 allow local and admin Windows user accounts to modify the endpoint agent service configuration: to either disable it completely or run user-supplied code or commands, thereby bypassing tamper-protection features via ACL modification.
+</code>
+
 - [hyp3rlinx/CVE-2022-47529](https://github.com/hyp3rlinx/CVE-2022-47529)
 
 ### CVE-2022-47872 (2023-02-01)
@@ -8549,7 +8583,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
-- [tuhinGsg/CVE-2021-22204-exiftool](https://github.com/tuhinGsg/CVE-2021-22204-exiftool)
+- [mr-tuhin/CVE-2021-22204-exiftool](https://github.com/mr-tuhin/CVE-2021-22204-exiftool)
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
@@ -19666,6 +19700,7 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [s1xg0d/CVE-2019-3396](https://github.com/s1xg0d/CVE-2019-3396)
 - [quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396)
 - [vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396)
+- [tanw923/test1](https://github.com/tanw923/test1)
 - [skommando/CVE-2019-3396-confluence-poc](https://github.com/skommando/CVE-2019-3396-confluence-poc)
 - [JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST)
 - [am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396)
@@ -20019,6 +20054,7 @@ A memory corruption issue was addressed with improved validation. This issue is 
 
 - [fatgrass/OsirisJailbreak12](https://github.com/fatgrass/OsirisJailbreak12)
 - [TrungNguyen1909/CVE-2019-6225-macOS](https://github.com/TrungNguyen1909/CVE-2019-6225-macOS)
+- [raystyle/jailbreak-iOS12](https://github.com/raystyle/jailbreak-iOS12)
 
 ### CVE-2019-6249 (2019-01-13)
 
@@ -21503,6 +21539,14 @@ Pi-Hole 4.3 allows Command Injection.
 </code>
 
 - [pr0tean/CVE-2019-13051](https://github.com/pr0tean/CVE-2019-13051)
+
+### CVE-2019-13063 (2019-09-23)
+
+<code>
+Within Sahi Pro 8.0.0, an attacker can send a specially crafted URL to include any victim files on the system via the script parameter on the Script_view page. This will result in file disclosure (i.e., being able to pull any file from the remote victim application). This can be used to steal and obtain sensitive config and other files. This can result in complete compromise of the application. The script parameter is vulnerable to directory traversal and both local and remote file inclusion.
+</code>
+
+- [0x6b7966/CVE-2019-13063-POC](https://github.com/0x6b7966/CVE-2019-13063-POC)
 
 ### CVE-2019-13086 (2019-06-30)
 
