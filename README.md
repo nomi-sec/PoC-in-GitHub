@@ -13,7 +13,12 @@ An issue has been discovered in GitLab affecting all versions starting from 13.7
 
 - [wh-gov/CVE-2023-0050](https://github.com/wh-gov/CVE-2023-0050)
 
-### CVE-2023-0179
+### CVE-2023-0179 (2023-03-27)
+
+<code>
+A buffer overflow vulnerability was found in the Netfilter subsystem in the Linux Kernel. This issue could allow the leakage of both stack and heap addresses, and potentially allow Local Privilege Escalation to the root user via arbitrary code execution.
+</code>
+
 - [TurtleARM/CVE-2023-0179-PoC](https://github.com/TurtleARM/CVE-2023-0179-PoC)
 - [H4K6/CVE-2023-0179-PoC](https://github.com/H4K6/CVE-2023-0179-PoC)
 
@@ -115,7 +120,12 @@ Es wurde eine Schwachstelle in jeecg-boot 3.5.0 entdeckt. Sie wurde als kritisch
 
 - [gobysec/CVE-2023-1454](https://github.com/gobysec/CVE-2023-1454)
 
-### CVE-2023-20860
+### CVE-2023-20860 (2023-03-27)
+
+<code>
+Spring Framework running version 6.0.0 - 6.0.6 or 5.3.0 - 5.3.25 using &quot;**&quot; as a pattern in Spring Security configuration with the mvcRequestMatcher creates a mismatch in pattern matching between Spring Security and Spring MVC, and the potential for a security bypass.
+</code>
+
 - [limo520/CVE-2023-20860](https://github.com/limo520/CVE-2023-20860)
 
 ### CVE-2023-20921 (2023-01-24)
@@ -437,17 +447,24 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 ### CVE-2023-25260
 - [trustcves/CVE-2023-25260](https://github.com/trustcves/CVE-2023-25260)
 
-### CVE-2023-25261
+### CVE-2023-25261 (2023-03-27)
+
+<code>
+Certain Stimulsoft GmbH products are affected by: Remote Code Execution. This affects Stimulsoft Designer (Desktop) 2023.1.4 and Stimulsoft Designer (Web) 2023.1.3 and Stimulsoft Viewer (Web) 2023.1.3. Access to the local file system is not prohibited in any way. Therefore, an attacker may include source code which reads or writes local directories and files. It is also possible for the attacker to prepare a report which has a variable that holds the gathered data and render it in the report.
+</code>
+
 - [trustcves/CVE-2023-25261](https://github.com/trustcves/CVE-2023-25261)
 
 ### CVE-2023-25262
 - [trustcves/CVE-2023-25262](https://github.com/trustcves/CVE-2023-25262)
 
-### CVE-2023-25263
-- [trustcves/CVE-2023-25263](https://github.com/trustcves/CVE-2023-25263)
+### CVE-2023-25263 (2023-03-27)
 
-### CVE-2023-25610
-- [PSIRT-REPO/CVE-2023-25610](https://github.com/PSIRT-REPO/CVE-2023-25610)
+<code>
+In Stimulsoft Designer (Desktop) 2023.1.5, and 2023.1.4, once an attacker decompiles the Stimulsoft.report.dll the attacker is able to decrypt any connectionstring stored in .mrt files since a static secret is used. The secret does not differ between the tested versions and different operating systems.
+</code>
+
+- [trustcves/CVE-2023-25263](https://github.com/trustcves/CVE-2023-25263)
 
 ### CVE-2023-26262 (2023-03-14)
 
@@ -6538,6 +6555,14 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
 - [BomberFish/Mandela-Rewritten](https://github.com/BomberFish/Mandela-Rewritten)
 - [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
+
+### CVE-2022-46836 (2023-02-20)
+
+<code>
+PHP code injection in watolib auth.php and hosttags.php in Tribe29's Checkmk &lt;= 2.1.0p10, Checkmk &lt;= 2.0.0p27, and Checkmk &lt;= 1.6.0p29 allows an attacker to inject and execute PHP code which will be executed upon request of the vulnerable component.
+</code>
+
+- [JacobEbben/CVE-2022-46836_remote_code_execution](https://github.com/JacobEbben/CVE-2022-46836_remote_code_execution)
 
 ### CVE-2022-47102 (2023-01-12)
 
