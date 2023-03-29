@@ -3319,7 +3319,7 @@ An Access Control vulnerability exists in SoroushPlus+ Messenger 1.0.30 in the L
 Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injection vulnerability via the id GET parameter.
 </code>
 
-- [Cyb3rR3ap3r/CVE-2022-26631](https://github.com/Cyb3rR3ap3r/CVE-2022-26631)
+- [5l1v3r1/CVE-2022-26631](https://github.com/5l1v3r1/CVE-2022-26631)
 
 ### CVE-2022-26717 (2022-11-01)
 
