@@ -41,7 +41,7 @@ Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 
 - [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
-- [b11y/CVE-2023-0297](https://github.com/b11y/CVE-2023-0297)
+- [pandousa/CVE-2023-0297](https://github.com/pandousa/CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-15)
 
@@ -127,9 +127,6 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository l
 </code>
 
 - [0xsu3ks/CVE-2023-1665](https://github.com/0xsu3ks/CVE-2023-1665)
-
-### CVE-2023-8888
-- [xiahao90/CVE-2023-8888.test](https://github.com/xiahao90/CVE-2023-8888.test)
 
 ### CVE-2023-20860 (2023-03-27)
 
@@ -341,7 +338,6 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [stevesec/CVE-2023-23397](https://github.com/stevesec/CVE-2023-23397)
 - [madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report)
 - [Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch)
-- [D7-M/CVE-2023-23397-exploit](https://github.com/D7-M/CVE-2023-23397-exploit)
 - [jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397)
 
 ### CVE-2023-23488 (2023-01-20)
@@ -512,11 +508,21 @@ systemd before 247 does not adequately block local privilege escalation for some
 
 - [Zenmovie/CVE-2023-26604](https://github.com/Zenmovie/CVE-2023-26604)
 
-### CVE-2023-26982
+### CVE-2023-26982 (2023-03-29)
+
+<code>
+Trudesk v1.2.6 was discovered to contain a stored cross-site scripting (XSS) vulnerability via the Add Tags parameter under the Create Ticket function.
+</code>
+
 - [bypazs/CVE-2023-26982](https://github.com/bypazs/CVE-2023-26982)
 - [bypazs/Duplicate-of-CVE-2023-26982](https://github.com/bypazs/Duplicate-of-CVE-2023-26982)
 
-### CVE-2023-26984
+### CVE-2023-26984 (-)
+
+<code>
+An issue in the password reset function of Peppermint v0.2.4 allows attackers to access the emails and passwords of the Tickets page via a crafted request.
+</code>
+
 - [bypazs/CVE-2023-26984](https://github.com/bypazs/CVE-2023-26984)
 
 ### CVE-2023-27326
@@ -4745,7 +4751,7 @@ net/netfilter/nf_tables_api.c in the Linux kernel through 5.18.1 allows a local 
 An authentication-bypass issue in the component http://MYDEVICEIP/cgi-bin-sdb/ExportSettings.sh of Mega System Technologies Inc MSNSwitch MNT.2408 allows unauthenticated attackers to arbitrarily configure settings within the application, leading to remote code execution.
 </code>
 
-- [b11y/CVE-2022-32429](https://github.com/b11y/CVE-2022-32429)
+- [pandousa/CVE-2022-32429](https://github.com/pandousa/CVE-2022-32429)
 
 ### CVE-2022-32532 (2022-06-28)
 
@@ -23238,6 +23244,9 @@ An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Col
 
 - [atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector)
 
+### CVE-2018-14
+- [lckJack/legacySymfony](https://github.com/lckJack/legacySymfony)
+
 ### CVE-2018-1010 (2018-04-11)
 
 <code>
@@ -24488,6 +24497,14 @@ YzmCMS 3.7 has Stored XSS via the title parameter to advertisement/adver/edit.ht
 </code>
 
 - [Jx0n0/YZMCMSxss](https://github.com/Jx0n0/YZMCMSxss)
+
+### CVE-2018-8090 (2018-07-25)
+
+<code>
+Quick Heal Total Security 64 bit 17.00 (QHTS64.exe), (QHTSFT64.exe) - Version 10.0.1.38; Quick Heal Total Security 32 bit 17.00 (QHTS32.exe), (QHTSFT32.exe) - Version 10.0.1.38; Quick Heal Internet Security 64 bit 17.00 (QHIS64.exe), (QHISFT64.exe) - Version 10.0.0.37; Quick Heal Internet Security 32 bit 17.00 (QHIS32.exe), (QHISFT32.exe) - Version 10.0.0.37; Quick Heal AntiVirus Pro 64 bit 17.00 (QHAV64.exe), (QHAVFT64.exe) - Version 10.0.0.37; and Quick Heal AntiVirus Pro 32 bit 17.00 (QHAV32.exe), (QHAVFT32.exe) - Version 10.0.0.37 allow DLL Hijacking because of Insecure Library Loading.
+</code>
+
+- [kernelm0de/CVE-2018-8090](https://github.com/kernelm0de/CVE-2018-8090)
 
 ### CVE-2018-8108 (2018-03-14)
 
@@ -27100,7 +27117,6 @@ wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php in the REST AP
 - [teambugsbunny/wpUsersScan](https://github.com/teambugsbunny/wpUsersScan)
 - [R3K1NG/wpUsersScan](https://github.com/R3K1NG/wpUsersScan)
 - [GeunSam2/CVE-2017-5487](https://github.com/GeunSam2/CVE-2017-5487)
-- [patilkr/wp-CVE-2017-5487-exploit](https://github.com/patilkr/wp-CVE-2017-5487-exploit)
 - [kr4dd/CVE-2017-5487](https://github.com/kr4dd/CVE-2017-5487)
 - [zkhalidul/GrabberWP-CVE-2017-5487](https://github.com/zkhalidul/GrabberWP-CVE-2017-5487)
 
