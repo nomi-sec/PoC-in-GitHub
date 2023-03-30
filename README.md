@@ -594,6 +594,14 @@ Minio is a Multi-Cloud Object Storage framework. Prior to RELEASE.2023-03-20T20-
 
 - [AbelChe/evil_minio](https://github.com/AbelChe/evil_minio)
 
+### CVE-2023-28447 (2023-03-28)
+
+<code>
+Smarty is a template engine for PHP. In affected versions smarty did not properly escape javascript code. An attacker could exploit this vulnerability to execute arbitrary JavaScript code in the context of the user's browser session. This may lead to unauthorized access to sensitive user data, manipulation of the web application's behavior, or unauthorized actions performed on behalf of the user. Users are advised to upgrade to either version 3.1.48 or to 4.3.1 to resolve this issue. There are no known workarounds for this vulnerability.
+</code>
+
+- [drkbcn/lblfixer_cve_2023_28447](https://github.com/drkbcn/lblfixer_cve_2023_28447)
+
 ### CVE-2023-28858 (2023-03-26)
 
 <code>
@@ -19009,7 +19017,6 @@ When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in 
 - [jas502n/CVE-2019-0232](https://github.com/jas502n/CVE-2019-0232)
 - [cyy95/CVE-2019-0232-EXP](https://github.com/cyy95/CVE-2019-0232-EXP)
 - [setrus/CVE-2019-0232](https://github.com/setrus/CVE-2019-0232)
-- [Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-](https://github.com/Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-)
 - [Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232](https://github.com/Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232)
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
 
@@ -19491,7 +19498,6 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [piotrflorczyk/cve-2019-1458_POC](https://github.com/piotrflorczyk/cve-2019-1458_POC)
 - [unamer/CVE-2019-1458](https://github.com/unamer/CVE-2019-1458)
 - [DreamoneOnly/CVE-2019-1458-malware](https://github.com/DreamoneOnly/CVE-2019-1458-malware)
-- [Eternit7/CVE-2019-1458](https://github.com/Eternit7/CVE-2019-1458)
 
 ### CVE-2019-1476 (2019-12-10)
 
@@ -19868,7 +19874,6 @@ An attacker can use the format parameter to inject arbitrary commands in the npm
 </code>
 
 - [forse01/CVE-2019-5413-NetBeans](https://github.com/forse01/CVE-2019-5413-NetBeans)
-- [forse01/CVE-2019-5413-NetBeans-NoJson](https://github.com/forse01/CVE-2019-5413-NetBeans-NoJson)
 
 ### CVE-2019-5418 (2019-03-27)
 
@@ -22377,14 +22382,6 @@ Kramer VIAware 2.5.0719.1034 has Incorrect Access Control.
 </code>
 
 - [hessandrew/CVE-2019-17124](https://github.com/hessandrew/CVE-2019-17124)
-
-### CVE-2019-17137 (2020-02-10)
-
-<code>
-This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR AC1200 R6220 Firmware version 1.1.0.86 Smart WiFi Router. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of path strings. By inserting a null byte into the path, the user can skip most authentication checks. An attacker can leverage this vulnerability to bypass authentication on the system. Was ZDI-CAN-8616.
-</code>
-
-- [vncloudsco/CVE-2019-17137](https://github.com/vncloudsco/CVE-2019-17137)
 
 ### CVE-2019-17147 (2020-01-07)
 
