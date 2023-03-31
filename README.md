@@ -595,6 +595,7 @@ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment startin
 - [steponeerror/Cve-2023-28432-](https://github.com/steponeerror/Cve-2023-28432-)
 - [yuyongxr/minio_cve-2023-28432](https://github.com/yuyongxr/minio_cve-2023-28432)
 - [Cuerz/CVE-2023-28432](https://github.com/Cuerz/CVE-2023-28432)
+- [Majus527/MinIO_CVE-2023-28432](https://github.com/Majus527/MinIO_CVE-2023-28432)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -6573,6 +6574,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [miko550/CVE-2022-46169](https://github.com/miko550/CVE-2022-46169)
 - [ariyaadinatha/cacti-cve-2022-46169-exploit](https://github.com/ariyaadinatha/cacti-cve-2022-46169-exploit)
 - [doosec101/CVE-2022-46169](https://github.com/doosec101/CVE-2022-46169)
+- [devAL3X/CVE-2022-46169_poc](https://github.com/devAL3X/CVE-2022-46169_poc)
 
 ### CVE-2022-46175 (2022-12-23)
 
