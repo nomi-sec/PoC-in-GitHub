@@ -376,6 +376,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [haxor1337x/Mass-Checker-CVE-2023-23752](https://github.com/haxor1337x/Mass-Checker-CVE-2023-23752)
 - [GhostToKnow/CVE-2023-23752](https://github.com/GhostToKnow/CVE-2023-23752)
 - [gibran-abdillah/CVE-2023-23752](https://github.com/gibran-abdillah/CVE-2023-23752)
+- [H454NSec/CVE-2023-23752](https://github.com/H454NSec/CVE-2023-23752)
 - [Jenderal92/Joomla-CVE-2023-23752](https://github.com/Jenderal92/Joomla-CVE-2023-23752)
 - [aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner](https://github.com/aliestercrowleymv/CVE-2023-23752-Vulnerability-Scanner)
 - [Acceis/exploit-CVE-2023-23752](https://github.com/Acceis/exploit-CVE-2023-23752)
@@ -6107,6 +6108,14 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [devenes/text4shell-cve-2022-42889](https://github.com/devenes/text4shell-cve-2022-42889)
 - [hotblac/text4shell](https://github.com/hotblac/text4shell)
 
+### CVE-2022-42896 (2022-11-23)
+
+<code>
+There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2cap_core.c's l2cap_connect and l2cap_le_connect_req functions which may allow code execution and leaking kernel memory (respectively) remotely via Bluetooth. A remote attacker could execute code leaking kernel memory via Bluetooth if within proximity of the victim. We recommend upgrading past commit https://www.google.com/url https://github.com/torvalds/linux/commit/711f8c3fb3db61897080468586b970c87c61d9e4 https://www.google.com/url
+</code>
+
+- [Trinadh465/linux-4.19.72_CVE-2022-42896](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-42896)
+
 ### CVE-2022-42899 (2022-10-12)
 
 <code>
@@ -6451,6 +6460,14 @@ Aztech WMB250AC Mesh Routers Firmware Version 016 2020 devices improperly manage
 </code>
 
 - [ethancunt/CVE-2022-45600](https://github.com/ethancunt/CVE-2022-45600)
+
+### CVE-2022-45699 (2023-02-09)
+
+<code>
+Command injection in the administration interface in APSystems ECU-R version 5203 allows a remote unauthenticated attacker to execute arbitrary commands as root using the timezone parameter.
+</code>
+
+- [0xst4n/APSystems-ECU-R-RCE-Timezone](https://github.com/0xst4n/APSystems-ECU-R-RCE-Timezone)
 
 ### CVE-2022-45701 (2023-02-17)
 
