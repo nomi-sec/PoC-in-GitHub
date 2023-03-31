@@ -508,7 +508,12 @@ systemd before 247 does not adequately block local privilege escalation for some
 
 - [Zenmovie/CVE-2023-26604](https://github.com/Zenmovie/CVE-2023-26604)
 
-### CVE-2023-26692
+### CVE-2023-26692 (2023-03-30)
+
+<code>
+ZCBS Zijper Collectie Beheer Systeem (ZCBS), Zijper Publication Management System (ZPBS), and Zijper Image Bank Management System (ZBBS) 4.14k is vulnerable to Cross Site Scripting (XSS).
+</code>
+
 - [bigzooooz/CVE-2023-26692](https://github.com/bigzooooz/CVE-2023-26692)
 
 ### CVE-2023-26982 (2023-03-29)
@@ -608,7 +613,7 @@ Smarty is a template engine for PHP. In affected versions smarty did not properl
 ### CVE-2023-28858 (2023-03-26)
 
 <code>
-redis-py before 4.5.3, as used in ChatGPT and other products, leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a pipeline operation), and can send response data to the client of an unrelated request in an off-by-one manner. The fixed versions for this CVE Record are 4.3.6, 4.4.3, and 4.5.3; however, CVE-2023-28859 is a separate vulnerability.
+redis-py before 4.5.3 leaves a connection open after canceling an async Redis command at an inopportune time, and can send response data to the client of an unrelated request in an off-by-one manner. NOTE: this CVE Record was initially created in response to reports about ChatGPT, and 4.3.6, 4.4.3, and 4.5.3 were released (changing the behavior for pipeline operations); however, please see CVE-2023-28859 about addressing data leakage across AsyncIO connections in general.
 </code>
 
 - [improbably-you/poc_cve_2023_28858](https://github.com/improbably-you/poc_cve_2023_28858)
@@ -3238,7 +3243,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [redhuntlabs/ConfluentPwn](https://github.com/redhuntlabs/ConfluentPwn)
 - [cai-niao98/CVE-2022-26134](https://github.com/cai-niao98/CVE-2022-26134)
 - [sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134)
-- [KeepWannabe/BotCon](https://github.com/KeepWannabe/BotCon)
 - [trhacknon/CVE-2022-26134](https://github.com/trhacknon/CVE-2022-26134)
 - [trhacknon/CVE-2022-26134-bis](https://github.com/trhacknon/CVE-2022-26134-bis)
 - [trhacknon/CVE-2022-26134-miam](https://github.com/trhacknon/CVE-2022-26134-miam)
