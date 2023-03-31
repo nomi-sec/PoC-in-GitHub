@@ -339,6 +339,7 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [madelynadams9/CVE-2023-23397-Report](https://github.com/madelynadams9/CVE-2023-23397-Report)
 - [Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch)
 - [jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397)
+- [CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC)
 
 ### CVE-2023-23488 (2023-01-20)
 
