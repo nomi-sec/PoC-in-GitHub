@@ -331,6 +331,7 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [ahmedkhlief/CVE-2023-23397-POC](https://github.com/ahmedkhlief/CVE-2023-23397-POC)
 - [BillSkiCO/CVE-2023-23397_EXPLOIT](https://github.com/BillSkiCO/CVE-2023-23397_EXPLOIT)
 - [djackreuter/CVE-2023-23397-PoC](https://github.com/djackreuter/CVE-2023-23397-PoC)
+- [moneertv/CVE-2023-23397](https://github.com/moneertv/CVE-2023-23397)
 - [ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook](https://github.com/ahmedkhlief/CVE-2023-23397-POC-Using-Interop-Outlook)
 - [Trackflaw/CVE-2023-23397](https://github.com/Trackflaw/CVE-2023-23397)
 - [SecCTechs/CVE-2023-23397](https://github.com/SecCTechs/CVE-2023-23397)
@@ -1045,6 +1046,14 @@ Improper neutralization of user input in GitLab CE/EE versions 14.4 before 14.7.
 
 - [Greenwolf/CVE-2022-1175](https://github.com/Greenwolf/CVE-2022-1175)
 
+### CVE-2022-1227 (2022-04-29)
+
+<code>
+A privilege escalation flaw was found in Podman. This flaw allows an attacker to publish a malicious image to a public registry. Once this image is downloaded by a potential victim, the vulnerability is triggered after a user runs the 'podman top' command. This action gives the attacker access to the host filesystem, leading to information disclosure or denial of service.
+</code>
+
+- [iridium-soda/CVE-2022-1227_Exploit](https://github.com/iridium-soda/CVE-2022-1227_Exploit)
+
 ### CVE-2022-1292 (2022-05-03)
 
 <code>
@@ -1415,6 +1424,14 @@ A vulnerability was found in SourceCodester Simple Cold Storage Management Syste
 </code>
 
 - [thehackingverse/CVE-2022-3546](https://github.com/thehackingverse/CVE-2022-3546)
+
+### CVE-2022-3552 (2022-10-17)
+
+<code>
+Unrestricted Upload of File with Dangerous Type in GitHub repository boxbilling/boxbilling prior to 0.0.1.
+</code>
+
+- [kabir0x23/CVE-2022-3552](https://github.com/kabir0x23/CVE-2022-3552)
 
 ### CVE-2022-3602 (2022-11-01)
 
@@ -6583,7 +6600,6 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [miko550/CVE-2022-46169](https://github.com/miko550/CVE-2022-46169)
 - [ariyaadinatha/cacti-cve-2022-46169-exploit](https://github.com/ariyaadinatha/cacti-cve-2022-46169-exploit)
 - [doosec101/CVE-2022-46169](https://github.com/doosec101/CVE-2022-46169)
-- [devAL3X/CVE-2022-46169_poc](https://github.com/devAL3X/CVE-2022-46169_poc)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -8759,6 +8775,7 @@ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3
 - [CsEnox/CVE-2021-22911](https://github.com/CsEnox/CVE-2021-22911)
 - [optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911](https://github.com/optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911)
 - [jayngng/CVE-2021-22911](https://github.com/jayngng/CVE-2021-22911)
+- [ChrisPritchard/CVE-2021-22911-rust](https://github.com/ChrisPritchard/CVE-2021-22911-rust)
 
 ### CVE-2021-22924 (2021-08-05)
 
