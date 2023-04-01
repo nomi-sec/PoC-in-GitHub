@@ -155,6 +155,7 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 - [maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot)
 - [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
 - [schdork/acropolypse-bot](https://github.com/schdork/acropolypse-bot)
+- [lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -19954,14 +19955,6 @@ c3p0 version &lt; 0.9.5.4 may be exploited by a billion laughs attack when loadi
 
 - [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
-### CVE-2019-5454 (2019-07-30)
-
-<code>
-SQL Injection in the Nextcloud Android app prior to version 3.0.0 allows to destroy a local cache when a harmful query is executed requiring to resetup the account.
-</code>
-
-- [shanika04/nextcloud_android](https://github.com/shanika04/nextcloud_android)
-
 ### CVE-2019-5475 (2019-09-03)
 
 <code>
@@ -22086,6 +22079,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [lolminerxmrig/CVE-2019-15107](https://github.com/lolminerxmrig/CVE-2019-15107)
 - [TheAlpha19/MiniExploit](https://github.com/TheAlpha19/MiniExploit)
 - [wenruoya/CVE-2019-15107](https://github.com/wenruoya/CVE-2019-15107)
+- [g1vi/CVE-2019-15107](https://github.com/g1vi/CVE-2019-15107)
 
 ### CVE-2019-15120 (2019-08-16)
 
@@ -29037,12 +29031,9 @@ The DH_check_pub_key function in crypto/dh/dh_check.c in OpenSSL 1.0.2 before 1.
 The join_session_keyring function in security/keys/process_keys.c in the Linux kernel before 4.4.1 mishandles object references in a certain error case, which allows local users to gain privileges or cause a denial of service (integer overflow and use-after-free) via crafted keyctl commands.
 </code>
 
-- [idl3r/cve-2016-0728](https://github.com/idl3r/cve-2016-0728)
-- [kennetham/cve_2016_0728](https://github.com/kennetham/cve_2016_0728)
 - [nardholio/cve-2016-0728](https://github.com/nardholio/cve-2016-0728)
 - [googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728)
 - [neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed)
-- [bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728)
 - [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
@@ -29276,7 +29267,6 @@ SQL injection vulnerability in the UDDI server in SAP NetWeaver J2EE Engine 7.40
 OkHttp before 2.7.4 and 3.x before 3.1.2 allows man-in-the-middle attackers to bypass certificate pinning by sending a certificate chain with a certificate from a non-pinned trusted CA and the pinned certificate.
 </code>
 
-- [ikoz/cert-pinning-flaw-poc](https://github.com/ikoz/cert-pinning-flaw-poc)
 - [ikoz/certPinningVulnerableOkHttp](https://github.com/ikoz/certPinningVulnerableOkHttp)
 
 ### CVE-2016-2431 (2016-05-09)
@@ -29353,14 +29343,6 @@ Cross-site scripting (XSS) vulnerability in ovirt-engine allows remote attackers
 </code>
 
 - [0xEmanuel/CVE-2016-3113](https://github.com/0xEmanuel/CVE-2016-3113)
-
-### CVE-2016-3141 (2016-03-31)
-
-<code>
-Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
-</code>
-
-- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
