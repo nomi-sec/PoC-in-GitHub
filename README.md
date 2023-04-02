@@ -609,6 +609,7 @@ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment startin
 - [yuyongxr/minio_cve-2023-28432](https://github.com/yuyongxr/minio_cve-2023-28432)
 - [Cuerz/CVE-2023-28432](https://github.com/Cuerz/CVE-2023-28432)
 - [Majus527/MinIO_CVE-2023-28432](https://github.com/Majus527/MinIO_CVE-2023-28432)
+- [7a6163/CVE-2023-28432](https://github.com/7a6163/CVE-2023-28432)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -17619,6 +17620,7 @@ Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may 
 - [CyborgSecurity/CVE-2020-17530](https://github.com/CyborgSecurity/CVE-2020-17530)
 - [uzzzval/CVE-2020-17530](https://github.com/uzzzval/CVE-2020-17530)
 - [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
+- [keyuan15/CVE-2020-17530](https://github.com/keyuan15/CVE-2020-17530)
 
 ### CVE-2020-17531 (2020-12-08)
 
