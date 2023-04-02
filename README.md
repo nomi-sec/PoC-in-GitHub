@@ -520,6 +520,9 @@ ZCBS Zijper Collectie Beheer Systeem (ZCBS), Zijper Publication Management Syste
 
 - [bigzooooz/CVE-2023-26692](https://github.com/bigzooooz/CVE-2023-26692)
 
+### CVE-2023-26866
+- [lionelmusonza/CVE-2023-26866](https://github.com/lionelmusonza/CVE-2023-26866)
+
 ### CVE-2023-26982 (2023-03-29)
 
 <code>
@@ -6600,6 +6603,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [miko550/CVE-2022-46169](https://github.com/miko550/CVE-2022-46169)
 - [ariyaadinatha/cacti-cve-2022-46169-exploit](https://github.com/ariyaadinatha/cacti-cve-2022-46169-exploit)
 - [doosec101/CVE-2022-46169](https://github.com/doosec101/CVE-2022-46169)
+- [devAL3X/CVE-2022-46169_poc](https://github.com/devAL3X/CVE-2022-46169_poc)
 
 ### CVE-2022-46175 (2022-12-23)
 
