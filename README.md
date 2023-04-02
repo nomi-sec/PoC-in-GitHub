@@ -351,6 +351,14 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 
 - [r3nt0n/CVE-2023-23488-PoC](https://github.com/r3nt0n/CVE-2023-23488-PoC)
 
+### CVE-2023-23531 (2023-02-27)
+
+<code>
+The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13.2, iOS 16.3 and iPadOS 16.3. An app may be able to execute arbitrary code out of its sandbox or with certain elevated privileges.
+</code>
+
+- [DarthOCE/MonkeyJB](https://github.com/DarthOCE/MonkeyJB)
+
 ### CVE-2023-23638 (2023-03-08)
 
 <code>
