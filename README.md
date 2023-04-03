@@ -3608,6 +3608,14 @@ Unauthenticated remote arbitrary code execution
 
 - [dolby360/CVE-2022-27518_POC](https://github.com/dolby360/CVE-2022-27518_POC)
 
+### CVE-2022-27665 (2023-04-03)
+
+<code>
+Reflected XSS (via AngularJS sandbox escape expressions) exists in Progress Ipswitch WS_FTP Server 8.6.0. This can lead to execution of malicious code and commands on the client due to improper handling of user-provided input. By inputting malicious payloads in the subdirectory searchbar or Add folder filename boxes, it is possible to execute client-side commands. For example, there is Client-Side Template Injection via subFolderPath to the ThinClient/WtmApiService.asmx/GetFileSubTree URI.
+</code>
+
+- [dievus/CVE-2022-27665](https://github.com/dievus/CVE-2022-27665)
+
 ### CVE-2022-27666 (2022-03-23)
 
 <code>
@@ -3965,7 +3973,7 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
 - [Chocapikk/CVE-2022-29455](https://github.com/Chocapikk/CVE-2022-29455)
 - [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
-- [KucingMalas-ID/CVE-2022-29455](https://github.com/KucingMalas-ID/CVE-2022-29455)
+- [VarelSecurity/CVE-2022-29455](https://github.com/VarelSecurity/CVE-2022-29455)
 
 ### CVE-2022-29464 (2022-04-18)
 
@@ -6645,6 +6653,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [miko550/CVE-2022-46169](https://github.com/miko550/CVE-2022-46169)
 - [ariyaadinatha/cacti-cve-2022-46169-exploit](https://github.com/ariyaadinatha/cacti-cve-2022-46169-exploit)
 - [doosec101/CVE-2022-46169](https://github.com/doosec101/CVE-2022-46169)
+- [m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application](https://github.com/m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application)
 - [devAL3X/CVE-2022-46169_poc](https://github.com/devAL3X/CVE-2022-46169_poc)
 
 ### CVE-2022-46175 (2022-12-23)
