@@ -144,6 +144,30 @@ In onPackageRemoved of AccessibilityManagerService.java, there is a possibility 
 
 - [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921)
 
+### CVE-2023-20933 (2023-02-28)
+
+<code>
+In several functions of MediaCodec.cpp, there is a possible way to corrupt memory due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-245860753
+</code>
+
+- [Trinadh465/frameworks_av_CVE-2023-20933](https://github.com/Trinadh465/frameworks_av_CVE-2023-20933)
+
+### CVE-2023-20943 (2023-02-28)
+
+<code>
+In clearApplicationUserData of ActivityManagerService.java, there is a possible way to remove system files due to a path traversal error. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-240267890
+</code>
+
+- [Trinadh465/frameworks_base_CVE-2023-20943](https://github.com/Trinadh465/frameworks_base_CVE-2023-20943)
+
+### CVE-2023-20944 (2023-02-28)
+
+<code>
+In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of privilege due to unsafe deserialization. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-244154558
+</code>
+
+- [Trinadh465/frameworks_base_CVE-2023-20944](https://github.com/Trinadh465/frameworks_base_CVE-2023-20944)
+
 ### CVE-2023-21036 (2023-03-24)
 
 <code>
@@ -445,6 +469,14 @@ NOSH 4a5cfdb allows remote authenticated users to execute PHP arbitrary code via
 
 ### CVE-2023-24749
 - [mahaloz/netgear-pwnagent](https://github.com/mahaloz/netgear-pwnagent)
+
+### CVE-2023-24775 (2023-03-07)
+
+<code>
+Funadmin v3.2.0 was discovered to contain a SQL injection vulnerability via the selectFields parameter at \member\Member.php.
+</code>
+
+- [csffs/CVE-2023-24775-and-CVE-2023-24780](https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780)
 
 ### CVE-2023-24998 (2023-02-20)
 
@@ -6154,6 +6186,7 @@ There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2c
 </code>
 
 - [Trinadh465/linux-4.19.72_CVE-2022-42896](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-42896)
+- [nidhi7598/linux-4.1.15_CVE-2022-42896](https://github.com/nidhi7598/linux-4.1.15_CVE-2022-42896)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -26968,6 +27001,7 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 
 - [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
 - [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
