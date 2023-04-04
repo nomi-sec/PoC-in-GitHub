@@ -60,9 +60,7 @@ Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication 
 - [0xf4n9x/CVE-2023-0669](https://github.com/0xf4n9x/CVE-2023-0669)
 - [cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669)
 - [Griffin-01/CVE-2023-0669](https://github.com/Griffin-01/CVE-2023-0669)
-- [trhacknon/CVE-2023-0669](https://github.com/trhacknon/CVE-2023-0669)
 - [yosef0x01/CVE-2023-0669-Analysis](https://github.com/yosef0x01/CVE-2023-0669-Analysis)
-- [trhacknon/CVE-2023-0669-bis](https://github.com/trhacknon/CVE-2023-0669-bis)
 
 ### CVE-2023-0748 (2023-02-08)
 
@@ -559,7 +557,12 @@ ZCBS Zijper Collectie Beheer Systeem (ZCBS), Zijper Publication Management Syste
 
 - [bigzooooz/CVE-2023-26692](https://github.com/bigzooooz/CVE-2023-26692)
 
-### CVE-2023-26866
+### CVE-2023-26866 (2023-04-04)
+
+<code>
+GreenPacket OH736's WR-1200 Indoor Unit, OT-235 with firmware versions M-IDU-1.6.0.3_V1.1 and MH-46360-2.0.3-R5-GP respectively are vulnerable to remote command injection. Commands are executed using pre-login execution and executed with root privileges allowing complete takeover.
+</code>
+
 - [lionelmusonza/CVE-2023-26866](https://github.com/lionelmusonza/CVE-2023-26866)
 
 ### CVE-2023-26982 (2023-03-29)
@@ -939,7 +942,6 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [c0ntempt/CVE-2022-0847](https://github.com/c0ntempt/CVE-2022-0847)
 - [notl0cal/dpipe](https://github.com/notl0cal/dpipe)
 - [Gustavo-Nogueira/Dirty-Pipe-Exploits](https://github.com/Gustavo-Nogueira/Dirty-Pipe-Exploits)
-- [trhacknon/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/trhacknon/CVE-2022-0847-DirtyPipe-Exploit)
 - [badboy-sft/Dirty-Pipe-Oneshot](https://github.com/badboy-sft/Dirty-Pipe-Oneshot)
 - [edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-)
 - [Turzum/ps-lab-cve-2022-0847](https://github.com/Turzum/ps-lab-cve-2022-0847)
@@ -1107,7 +1109,6 @@ The c_rehash script does not properly sanitise shell metacharacters to prevent c
 </code>
 
 - [li8u99/CVE-2022-1292](https://github.com/li8u99/CVE-2022-1292)
-- [trhacknon/CVE-2022-1292](https://github.com/trhacknon/CVE-2022-1292)
 - [alcaparra/CVE-2022-1292](https://github.com/alcaparra/CVE-2022-1292)
 - [rama291041610/CVE-2022-1292](https://github.com/rama291041610/CVE-2022-1292)
 - [nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292](https://github.com/nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292)
@@ -1159,7 +1160,6 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [savior-only/CVE-2022-1388](https://github.com/savior-only/CVE-2022-1388)
 - [saucer-man/CVE-2022-1388](https://github.com/saucer-man/CVE-2022-1388)
 - [superzerosec/CVE-2022-1388](https://github.com/superzerosec/CVE-2022-1388)
-- [trhacknon/CVE-2022-1388-RCE-checker](https://github.com/trhacknon/CVE-2022-1388-RCE-checker)
 - [Stonzyy/Exploit-F5-CVE-2022-1388](https://github.com/Stonzyy/Exploit-F5-CVE-2022-1388)
 - [MrCl0wnLab/Nuclei-Template-Exploit-F5-BIG-IP-iControl-REST-Auth-Bypass-RCE-Command-Parameter](https://github.com/MrCl0wnLab/Nuclei-Template-Exploit-F5-BIG-IP-iControl-REST-Auth-Bypass-RCE-Command-Parameter)
 - [qusaialhaddad/F5-BigIP-CVE-2022-1388](https://github.com/qusaialhaddad/F5-BigIP-CVE-2022-1388)
@@ -1186,10 +1186,6 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [Wrin9/CVE-2022-1388](https://github.com/Wrin9/CVE-2022-1388)
 - [getdrive/F5-BIG-IP-exploit](https://github.com/getdrive/F5-BIG-IP-exploit)
 - [aancw/CVE-2022-1388-rs](https://github.com/aancw/CVE-2022-1388-rs)
-- [trhacknon/CVE-2022-1388](https://github.com/trhacknon/CVE-2022-1388)
-- [trhacknon/F5-CVE-2022-1388-Exploit](https://github.com/trhacknon/F5-CVE-2022-1388-Exploit)
-- [trhacknon/Exploit-F5-CVE-2022-1388](https://github.com/trhacknon/Exploit-F5-CVE-2022-1388)
-- [trhacknon/CVE-2022-1388-PocExp](https://github.com/trhacknon/CVE-2022-1388-PocExp)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
@@ -2241,7 +2237,6 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [kmahyyg/CVE-2022-22947](https://github.com/kmahyyg/CVE-2022-22947)
 - [LY613313/CVE-2022-22947](https://github.com/LY613313/CVE-2022-22947)
 - [SiJiDo/CVE-2022-22947](https://github.com/SiJiDo/CVE-2022-22947)
-- [trhacknon/CVE-2022-22947](https://github.com/trhacknon/CVE-2022-22947)
 - [savior-only/CVE-2022-22947](https://github.com/savior-only/CVE-2022-22947)
 - [qq87234770/CVE-2022-22947](https://github.com/qq87234770/CVE-2022-22947)
 - [Zh0um1/CVE-2022-22947](https://github.com/Zh0um1/CVE-2022-22947)
@@ -2301,7 +2296,6 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [SealPaPaPa/SpringCloudFunction-Research](https://github.com/SealPaPaPa/SpringCloudFunction-Research)
 - [Ki11i0n4ir3/CVE-2022-22963](https://github.com/Ki11i0n4ir3/CVE-2022-22963)
 - [k3rwin/spring-cloud-function-rce](https://github.com/k3rwin/spring-cloud-function-rce)
-- [trhacknon/CVE-2022-22963](https://github.com/trhacknon/CVE-2022-22963)
 - [75ACOL/CVE-2022-22963](https://github.com/75ACOL/CVE-2022-22963)
 - [dr6817/CVE-2022-22963](https://github.com/dr6817/CVE-2022-22963)
 - [iliass-dahman/CVE-2022-22963-POC](https://github.com/iliass-dahman/CVE-2022-22963-POC)
@@ -2379,7 +2373,6 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [Enokiy/spring-RCE-CVE-2022-22965](https://github.com/Enokiy/spring-RCE-CVE-2022-22965)
 - [cxzero/CVE-2022-22965-spring4shell](https://github.com/cxzero/CVE-2022-22965-spring4shell)
 - [tpt11fb/SpringVulScan](https://github.com/tpt11fb/SpringVulScan)
-- [trhacknon/CVE-2022-22965](https://github.com/trhacknon/CVE-2022-22965)
 - [D1mang/Spring4Shell-CVE-2022-22965](https://github.com/D1mang/Spring4Shell-CVE-2022-22965)
 - [iloveflag/Fast-CVE-2022-22965](https://github.com/iloveflag/Fast-CVE-2022-22965)
 - [ClemExp/CVE-2022-22965-PoC](https://github.com/ClemExp/CVE-2022-22965-PoC)
@@ -2490,7 +2483,6 @@ In the case of instances where the SAML SSO authentication is enabled (non-defau
 - [Fa1c0n35/zabbix-cve-2022-23131](https://github.com/Fa1c0n35/zabbix-cve-2022-23131)
 - [kh4sh3i/CVE-2022-23131](https://github.com/kh4sh3i/CVE-2022-23131)
 - [Kazaf6s/CVE-2022-23131](https://github.com/Kazaf6s/CVE-2022-23131)
-- [trhacknon/CVE-2022-23131](https://github.com/trhacknon/CVE-2022-23131)
 - [SCAMagic/CVE-2022-23131poc-exp-zabbix-](https://github.com/SCAMagic/CVE-2022-23131poc-exp-zabbix-)
 - [Vulnmachines/Zabbix-CVE-2022-23131](https://github.com/Vulnmachines/Zabbix-CVE-2022-23131)
 - [wr0x00/cve-2022-23131](https://github.com/wr0x00/cve-2022-23131)
@@ -2894,7 +2886,6 @@ In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured d
 - [sadshade/CVE-2022-24706-CouchDB-Exploit](https://github.com/sadshade/CVE-2022-24706-CouchDB-Exploit)
 - [ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-](https://github.com/ahmetsabrimert/Apache-CouchDB-CVE-2022-24706-RCE-Exploits-Blog-post-)
 - [superzerosec/CVE-2022-24706](https://github.com/superzerosec/CVE-2022-24706)
-- [trhacknon/CVE-2022-24706-CouchDB-Exploit](https://github.com/trhacknon/CVE-2022-24706-CouchDB-Exploit)
 
 ### CVE-2022-24707 (2022-02-23)
 
@@ -3299,9 +3290,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [redhuntlabs/ConfluentPwn](https://github.com/redhuntlabs/ConfluentPwn)
 - [cai-niao98/CVE-2022-26134](https://github.com/cai-niao98/CVE-2022-26134)
 - [sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134)
-- [trhacknon/CVE-2022-26134](https://github.com/trhacknon/CVE-2022-26134)
-- [trhacknon/CVE-2022-26134-bis](https://github.com/trhacknon/CVE-2022-26134-bis)
-- [trhacknon/CVE-2022-26134-miam](https://github.com/trhacknon/CVE-2022-26134-miam)
 - [Chocapikk/CVE-2022-26134](https://github.com/Chocapikk/CVE-2022-26134)
 - [AmoloHT/CVE-2022-26134](https://github.com/AmoloHT/CVE-2022-26134)
 - [kh4sh3i/CVE-2022-26134](https://github.com/kh4sh3i/CVE-2022-26134)
@@ -3425,7 +3413,6 @@ A use after free issue was addressed with improved memory management. This issue
 </code>
 
 - [theori-io/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/theori-io/CVE-2022-26717-Safari-WebGL-Exploit)
-- [trhacknon/CVE-2022-26717-Safari-WebGL-Exploit](https://github.com/trhacknon/CVE-2022-26717-Safari-WebGL-Exploit)
 
 ### CVE-2022-26757 (2022-05-26)
 
@@ -3784,7 +3771,6 @@ A Remote Code Execution (RCE) vulnerability exists in Pixelimity 1.0 via admin/a
 </code>
 
 - [jcarabantes/CVE-2022-28590](https://github.com/jcarabantes/CVE-2022-28590)
-- [trhacknon/CVE-2022-28590](https://github.com/trhacknon/CVE-2022-28590)
 
 ### CVE-2022-28598 (2022-08-22)
 
@@ -3928,7 +3914,6 @@ SolarView Compact ver.6.00 was discovered to contain a command injection vulnera
 </code>
 
 - [Chocapikk/CVE-2022-29303](https://github.com/Chocapikk/CVE-2022-29303)
-- [trhacknon/CVE-2022-29303](https://github.com/trhacknon/CVE-2022-29303)
 
 ### CVE-2022-29337 (2022-05-24)
 
@@ -4135,7 +4120,6 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 
 - [aaronsvk/CVE-2022-30075](https://github.com/aaronsvk/CVE-2022-30075)
 - [SAJIDAMINE/CVE-2022-30075](https://github.com/SAJIDAMINE/CVE-2022-30075)
-- [trhacknon/CVE-2022-30075](https://github.com/trhacknon/CVE-2022-30075)
 - [M4fiaB0y/CVE-2022-30075](https://github.com/M4fiaB0y/CVE-2022-30075)
 
 ### CVE-2022-30129 (2022-05-10)
@@ -4172,7 +4156,6 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [kdk2933/msdt-CVE-2022-30190](https://github.com/kdk2933/msdt-CVE-2022-30190)
 - [sentinelblue/CVE-2022-30190](https://github.com/sentinelblue/CVE-2022-30190)
 - [aymankhder/MSDT_CVE-2022-30190-follina-](https://github.com/aymankhder/MSDT_CVE-2022-30190-follina-)
-- [trhacknon/CVE-2022-30190](https://github.com/trhacknon/CVE-2022-30190)
 - [PaddlingCode/cve-2022-30190](https://github.com/PaddlingCode/cve-2022-30190)
 - [dwisiswant0/gollina](https://github.com/dwisiswant0/gollina)
 - [hscorpion/CVE-2022-30190](https://github.com/hscorpion/CVE-2022-30190)
@@ -4282,7 +4265,6 @@ WAVLINK WN535 G3 was discovered to contain a cross-site scripting (XSS) vulnerab
 </code>
 
 - [badboycxcc/XSS-CVE-2022-30489](https://github.com/badboycxcc/XSS-CVE-2022-30489)
-- [trhacknon/XSS-CVE-2022-30489](https://github.com/trhacknon/XSS-CVE-2022-30489)
 
 ### CVE-2022-30507
 - [yosef0x01/CVE-2022-30507-PoC](https://github.com/yosef0x01/CVE-2022-30507-PoC)
@@ -4349,7 +4331,6 @@ A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W)
 - [YGoldking/CVE-2022-30525](https://github.com/YGoldking/CVE-2022-30525)
 - [superzerosec/CVE-2022-30525](https://github.com/superzerosec/CVE-2022-30525)
 - [Chocapikk/CVE-2022-30525-Reverse-Shell](https://github.com/Chocapikk/CVE-2022-30525-Reverse-Shell)
-- [trhacknon/CVE-2022-30525-Reverse-Shell](https://github.com/trhacknon/CVE-2022-30525-Reverse-Shell)
 - [160Team/CVE-2022-30525](https://github.com/160Team/CVE-2022-30525)
 - [iveresk/cve-2022-30525](https://github.com/iveresk/cve-2022-30525)
 - [west9b/CVE-2022-30525](https://github.com/west9b/CVE-2022-30525)
@@ -4786,7 +4767,6 @@ Arox School ERP Pro v1.0 was discovered to contain multiple arbitrary file uploa
 </code>
 
 - [JC175/CVE-2022-32119](https://github.com/JC175/CVE-2022-32119)
-- [trhacknon/CVE-2022-32119](https://github.com/trhacknon/CVE-2022-32119)
 
 ### CVE-2022-32132
 - [reewardius/CVE-2022-32132](https://github.com/reewardius/CVE-2022-32132)
@@ -4915,7 +4895,6 @@ Apache Commons Configuration performs variable interpolation, allowing propertie
 </code>
 
 - [tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE](https://github.com/tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE)
-- [trhacknon/CVE-2022-33980-Apache-Commons-Configuration-RCE](https://github.com/trhacknon/CVE-2022-33980-Apache-Commons-Configuration-RCE)
 - [HKirito/CVE-2022-33980](https://github.com/HKirito/CVE-2022-33980)
 - [sammwyy/CVE-2022-33980-POC](https://github.com/sammwyy/CVE-2022-33980-POC)
 - [Code-971/CVE-2022-33980-EXP](https://github.com/Code-971/CVE-2022-33980-EXP)
@@ -5003,7 +4982,6 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 </code>
 
 - [randorisec/CVE-2022-34918-LPE-PoC](https://github.com/randorisec/CVE-2022-34918-LPE-PoC)
-- [trhacknon/CVE-2022-34918-LPE-PoC](https://github.com/trhacknon/CVE-2022-34918-LPE-PoC)
 - [merlinepedra25/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra25/CVE-2022-34918-LPE-PoC)
 - [merlinepedra/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra/CVE-2022-34918-LPE-PoC)
 - [linulinu/CVE-2022-34918](https://github.com/linulinu/CVE-2022-34918)
@@ -5284,7 +5262,6 @@ Multiple API endpoints in Atlassian Bitbucket Server and Data Center 7.0.0 befor
 - [Vulnmachines/bitbucket-cve-2022-36804](https://github.com/Vulnmachines/bitbucket-cve-2022-36804)
 - [kljunowsky/CVE-2022-36804-POC](https://github.com/kljunowsky/CVE-2022-36804-POC)
 - [Chocapikk/CVE-2022-36804-ReverseShell](https://github.com/Chocapikk/CVE-2022-36804-ReverseShell)
-- [trhacknon/CVE-2022-36804-ReverseShell](https://github.com/trhacknon/CVE-2022-36804-ReverseShell)
 - [khal4n1/CVE-2022-36804](https://github.com/khal4n1/CVE-2022-36804)
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
 - [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
@@ -5833,7 +5810,6 @@ Microsoft Exchange Server Elevation of Privilege Vulnerability.
 - [rjsudlow/proxynotshell-IOC-Checker](https://github.com/rjsudlow/proxynotshell-IOC-Checker)
 - [ITPATJIDR/CVE-2022-41040](https://github.com/ITPATJIDR/CVE-2022-41040)
 - [TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell)
-- [trhacknon/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/trhacknon/CVE-2022-41040-metasploit-ProxyNotShell)
 
 ### CVE-2022-41049 (2022-11-09)
 
@@ -5866,7 +5842,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability.
 </code>
 
 - [Diverto/nse-exchange](https://github.com/Diverto/nse-exchange)
-- [trhacknon/CVE-2022-41082-MASS-SCANNER](https://github.com/trhacknon/CVE-2022-41082-MASS-SCANNER)
 - [notareaperbutDR34P3r/http-vuln-CVE-2022-41082](https://github.com/notareaperbutDR34P3r/http-vuln-CVE-2022-41082)
 - [sikkertech/CVE-2022-41082](https://github.com/sikkertech/CVE-2022-41082)
 - [balki97/OWASSRF-CVE-2022-41082-POC](https://github.com/balki97/OWASSRF-CVE-2022-41082-POC)
@@ -7768,7 +7743,6 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [RodricBr/CVE-2021-3156](https://github.com/RodricBr/CVE-2021-3156)
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
 - [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
-- [trhacknon/CVE-2021-3156](https://github.com/trhacknon/CVE-2021-3156)
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
 - [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
@@ -8542,8 +8516,6 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [orangmuda/CVE-2021-21972](https://github.com/orangmuda/CVE-2021-21972)
 - [user16-et/cve-2021-21972_PoC](https://github.com/user16-et/cve-2021-21972_PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
-- [trhacknon/VMware_vCenter_UNAuthorized_RCE_CVE-2021-21972](https://github.com/trhacknon/VMware_vCenter_UNAuthorized_RCE_CVE-2021-21972)
-- [trhacknon/CVE-2021-21972-vCenter-6.5-7.0-RCE-POC](https://github.com/trhacknon/CVE-2021-21972-vCenter-6.5-7.0-RCE-POC)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -9055,7 +9027,6 @@ The WPCargo Track &amp; Trace WordPress plugin before 6.9.0 contains a file whic
 </code>
 
 - [biulove0x/CVE-2021-25003](https://github.com/biulove0x/CVE-2021-25003)
-- [trhacknon/CVE-2021-25003](https://github.com/trhacknon/CVE-2021-25003)
 
 ### CVE-2021-25076 (2022-01-24)
 
@@ -10577,7 +10548,6 @@ KramerAV VIAWare, all tested versions, allow privilege escalation through miscon
 </code>
 
 - [Chocapikk/CVE-2021-35064](https://github.com/Chocapikk/CVE-2021-35064)
-- [trhacknon/CVE-2021-35064](https://github.com/trhacknon/CVE-2021-35064)
 
 ### CVE-2021-35211 (2021-07-14)
 
@@ -12517,7 +12487,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read](https://github.com/BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read)
 - [lalkaltest/CVE-2021-43798](https://github.com/lalkaltest/CVE-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
-- [trhacknon/exploit-grafana-CVE-2021-43798](https://github.com/trhacknon/exploit-grafana-CVE-2021-43798)
 - [YourKeeper/SunScope](https://github.com/YourKeeper/SunScope)
 - [Ki11i0n4ir3/CVE-2021-43798](https://github.com/Ki11i0n4ir3/CVE-2021-43798)
 - [mauricelambert/LabAutomationCVE-2021-43798](https://github.com/mauricelambert/LabAutomationCVE-2021-43798)
@@ -13057,7 +13026,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ocastel/log4j-shell-poc](https://github.com/ocastel/log4j-shell-poc)
 - [bcdunbar/CVE-2021-44228-poc](https://github.com/bcdunbar/CVE-2021-44228-poc)
 - [srcporter/CVE-2021-44228](https://github.com/srcporter/CVE-2021-44228)
-- [trhacknon/CVE-2021-44228-Scanner](https://github.com/trhacknon/CVE-2021-44228-Scanner)
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
 - [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
@@ -15167,7 +15135,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [haisenberg/CVE-2020-5902](https://github.com/haisenberg/CVE-2020-5902)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902)
-- [trhacknon/CVE-2020-5902-Scanner](https://github.com/trhacknon/CVE-2020-5902-Scanner)
 - [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 - [amitlttwo/CVE-2020-5902](https://github.com/amitlttwo/CVE-2020-5902)
 
@@ -15631,14 +15598,6 @@ The bencoding parser in BitTorrent uTorrent through 3.5.5 (build 45505) misparse
 
 - [mavlevin/uTorrent-CVE-2020-8437](https://github.com/mavlevin/uTorrent-CVE-2020-8437)
 
-### CVE-2020-8512 (2020-01-31)
-
-<code>
-In IceWarp Webmail Server through 11.4.4.1, there is XSS in the /webmail/ color parameter.
-</code>
-
-- [trhacknon/CVE-2020-8512](https://github.com/trhacknon/CVE-2020-8512)
-
 ### CVE-2020-8515 (2020-02-01)
 
 <code>
@@ -15648,8 +15607,6 @@ DrayTek Vigor2960 1.3.1_Beta, Vigor3900 1.4.4_Beta, and Vigor300B 1.3.3_Beta, 1.
 - [imjdl/CVE-2020-8515-PoC](https://github.com/imjdl/CVE-2020-8515-PoC)
 - [truerandom/nmap_draytek_rce](https://github.com/truerandom/nmap_draytek_rce)
 - [darrenmartyn/CVE-2020-8515](https://github.com/darrenmartyn/CVE-2020-8515)
-- [trhacknon/CVE-2020-8515](https://github.com/trhacknon/CVE-2020-8515)
-- [trhacknon/CVE-2020-8515-PoC](https://github.com/trhacknon/CVE-2020-8515-PoC)
 
 ### CVE-2020-8554 (2021-01-21)
 
@@ -17613,7 +17570,6 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [thebatmanfuture/apacheflink----POC](https://github.com/thebatmanfuture/apacheflink----POC)
 - [zhangweijie11/CVE-2020-17519](https://github.com/zhangweijie11/CVE-2020-17519)
-- [trhacknon/CVE-2020-17519](https://github.com/trhacknon/CVE-2020-17519)
 
 ### CVE-2020-17523 (2021-02-03)
 
@@ -18753,14 +18709,6 @@ Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyf
 </code>
 
 - [ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583)
-
-### CVE-2020-29597 (2020-12-07)
-
-<code>
-IncomCMS 2.0 has a modules/uploader/showcase/script.php insecure file upload vulnerability. This vulnerability allows unauthenticated attackers to upload files into the server.
-</code>
-
-- [trhacknon/CVE-2020-29597](https://github.com/trhacknon/CVE-2020-29597)
 
 ### CVE-2020-29599 (2020-12-07)
 
@@ -21137,7 +21085,6 @@ In PHP versions 7.1.x below 7.1.33, 7.2.x below 7.2.24 and 7.3.x below 7.3.11 in
 - [lindemer/CVE-2019-11043](https://github.com/lindemer/CVE-2019-11043)
 - [jptr218/php_hack](https://github.com/jptr218/php_hack)
 - [jas9reet/CVE-2019-11043](https://github.com/jas9reet/CVE-2019-11043)
-- [trhacknon/CVE-2019-11043](https://github.com/trhacknon/CVE-2019-11043)
 
 ### CVE-2019-11061 (2019-08-28)
 
@@ -21230,7 +21177,6 @@ In Pulse Secure Pulse Connect Secure (PCS) 8.2 before 8.2R12.1, 8.3 before 8.3R7
 - [cisagov/check-your-pulse](https://github.com/cisagov/check-your-pulse)
 - [andripwn/pulse-exploit](https://github.com/andripwn/pulse-exploit)
 - [pwn3z/CVE-2019-11510-PulseVPN](https://github.com/pwn3z/CVE-2019-11510-PulseVPN)
-- [trhacknon/CVE-2019-11510](https://github.com/trhacknon/CVE-2019-11510)
 - [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
 
 ### CVE-2019-11523 (2019-06-06)
@@ -22146,7 +22092,6 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [Tuz-Wwsd/CVE-2019-15107_detection](https://github.com/Tuz-Wwsd/CVE-2019-15107_detection)
 - [hadrian3689/webmin_1.920](https://github.com/hadrian3689/webmin_1.920)
 - [f0rkr/CVE-2019-15107](https://github.com/f0rkr/CVE-2019-15107)
-- [trhacknon/CVE-2019-15107](https://github.com/trhacknon/CVE-2019-15107)
 - [psw01/CVE-2019-15107_webminRCE](https://github.com/psw01/CVE-2019-15107_webminRCE)
 - [lolminerxmrig/CVE-2019-15107](https://github.com/lolminerxmrig/CVE-2019-15107)
 - [TheAlpha19/MiniExploit](https://github.com/TheAlpha19/MiniExploit)
@@ -22238,7 +22183,6 @@ rpc.cgi in Webmin through 1.920 allows authenticated Remote Code Execution via a
 </code>
 
 - [jas502n/CVE-2019-15642](https://github.com/jas502n/CVE-2019-15642)
-- [trhacknon/CVE-2019-15642](https://github.com/trhacknon/CVE-2019-15642)
 
 ### CVE-2019-15813 (2019-09-04)
 
@@ -22418,7 +22362,6 @@ vBulletin 5.x through 5.5.4 allows remote command execution via the widgetConfig
 - [sunian19/CVE-2019-16759](https://github.com/sunian19/CVE-2019-16759)
 - [ludy-dev/vBulletin_Routestring-RCE](https://github.com/ludy-dev/vBulletin_Routestring-RCE)
 - [fxp0-4tx/CVE-2019-16759](https://github.com/fxp0-4tx/CVE-2019-16759)
-- [trhacknon/CVE-2019-16759](https://github.com/trhacknon/CVE-2019-16759)
 
 ### CVE-2019-16784 (2020-01-14)
 
@@ -23086,7 +23029,6 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [pwn3z/CVE-2019-19781-Citrix](https://github.com/pwn3z/CVE-2019-19781-Citrix)
 - [Vulnmachines/Ctirix_RCE-CVE-2019-19781](https://github.com/Vulnmachines/Ctirix_RCE-CVE-2019-19781)
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
-- [trhacknon/CVE-2019-19781](https://github.com/trhacknon/CVE-2019-19781)
 
 ### CVE-2019-19844 (2019-12-18)
 
@@ -24472,7 +24414,6 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
 - [0xkasra/CVE-2018-7600](https://github.com/0xkasra/CVE-2018-7600)
 - [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
-- [trhacknon/CVE-2018-7600](https://github.com/trhacknon/CVE-2018-7600)
 - [r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
