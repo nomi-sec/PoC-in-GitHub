@@ -19637,6 +19637,7 @@ A vulnerability in the web-based management interface of Cisco Small Business RV
 
 - [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
+- [helGayhub233/CVE-2019-1653](https://github.com/helGayhub233/CVE-2019-1653)
 - [ibrahimzx/CVE-2019-1653](https://github.com/ibrahimzx/CVE-2019-1653)
 
 ### CVE-2019-1759 (2019-03-27)
@@ -20293,6 +20294,7 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [k4u5h41/CVE-2019-6447](https://github.com/k4u5h41/CVE-2019-6447)
 - [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
+- [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
 - [VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer](https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer)
 - [Osuni-99/CVE-2019-6447](https://github.com/Osuni-99/CVE-2019-6447)
 - [Chethine/EsFileExplorer-CVE-2019-6447](https://github.com/Chethine/EsFileExplorer-CVE-2019-6447)
@@ -22319,6 +22321,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
 - [k4u5h41/CVE-2019-16278](https://github.com/k4u5h41/CVE-2019-16278)
+- [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 
 ### CVE-2019-16279 (2019-10-14)
 
@@ -23166,6 +23169,14 @@ There was a flaw in the WordPress plugin, Email Subscribers &amp; Newsletters be
 </code>
 
 - [jerrylewis9/CVE-2019-20361-EXPLOIT](https://github.com/jerrylewis9/CVE-2019-20361-EXPLOIT)
+
+### CVE-2019-20372 (2020-01-09)
+
+<code>
+NGINX before 1.17.7, with certain error_page configurations, allows HTTP request smuggling, as demonstrated by the ability of an attacker to read unauthorized web pages in environments where NGINX is being fronted by a load balancer.
+</code>
+
+- [vuongnv3389-sec/CVE-2019-20372](https://github.com/vuongnv3389-sec/CVE-2019-20372)
 
 ### CVE-2019-20933 (2020-11-18)
 
