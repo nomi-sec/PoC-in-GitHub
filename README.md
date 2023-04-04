@@ -167,6 +167,7 @@ In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of p
 </code>
 
 - [Trinadh465/frameworks_base_CVE-2023-20944](https://github.com/Trinadh465/frameworks_base_CVE-2023-20944)
+- [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944)
 
 ### CVE-2023-21036 (2023-03-24)
 
@@ -664,6 +665,9 @@ redis-py before 4.5.3 leaves a connection open after canceling an async Redis co
 </code>
 
 - [improbably-you/poc_cve_2023_28858](https://github.com/improbably-you/poc_cve_2023_28858)
+
+### CVE-2023-42896
+- [Trinadh465/linux_4.19.72_CVE-2023-42896](https://github.com/Trinadh465/linux_4.19.72_CVE-2023-42896)
 
 
 ## 2022
@@ -6171,7 +6175,6 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2cap_core.c's l2cap_connect and l2cap_le_connect_req functions which may allow code execution and leaking kernel memory (respectively) remotely via Bluetooth. A remote attacker could execute code leaking kernel memory via Bluetooth if within proximity of the victim. We recommend upgrading past commit https://www.google.com/url https://github.com/torvalds/linux/commit/711f8c3fb3db61897080468586b970c87c61d9e4 https://www.google.com/url
 </code>
 
-- [Trinadh465/linux-4.19.72_CVE-2022-42896](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-42896)
 - [nidhi7598/linux-4.1.15_CVE-2022-42896](https://github.com/nidhi7598/linux-4.1.15_CVE-2022-42896)
 
 ### CVE-2022-42899 (2022-10-12)
@@ -11777,7 +11780,7 @@ The PING function on the TP-Link TL-WR840N EU v5 router with firmware through TL
 Cross Site Scripting (XSS) vulnerability exists in Sourcecodester News247 CMS 1.0 via the search function in articles.
 </code>
 
-- [Dir0x/CVE-2021-41728](https://github.com/Dir0x/CVE-2021-41728)
+- [whoissecure/CVE-2021-41728](https://github.com/whoissecure/CVE-2021-41728)
 
 ### CVE-2021-41730
 - [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
@@ -12305,7 +12308,7 @@ A bypass exists for Desire2Learn/D2L Brightspace’s “Disable Right Click” o
 SQL Injection vulnerability exists in Sourcecodester. Simple Subscription Website 1.0. via the login.
 </code>
 
-- [Dir0x/CVE-2021-43140](https://github.com/Dir0x/CVE-2021-43140)
+- [whoissecure/CVE-2021-43140](https://github.com/whoissecure/CVE-2021-43140)
 
 ### CVE-2021-43141 (2021-11-03)
 
@@ -12313,7 +12316,7 @@ SQL Injection vulnerability exists in Sourcecodester. Simple Subscription Websit
 Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Simple Subscription Website 1.0 via the id parameter in plan_application.
 </code>
 
-- [Dir0x/CVE-2021-43141](https://github.com/Dir0x/CVE-2021-43141)
+- [whoissecure/CVE-2021-43141](https://github.com/whoissecure/CVE-2021-43141)
 
 ### CVE-2021-43150
 - [Zeyad-Azima/OpayForMe](https://github.com/Zeyad-Azima/OpayForMe)
@@ -13667,6 +13670,7 @@ In handleMessage of BluetoothManagerService, there is an incomplete reset. This 
 </code>
 
 - [nanopathi/packages_apps_Bluetooth_AOSP10_r33_CVE-2020-0183](https://github.com/nanopathi/packages_apps_Bluetooth_AOSP10_r33_CVE-2020-0183)
+- [hshivhare67/platform_packages_apps_bluetooth_AOSP10_r33_CVE-2020-0183](https://github.com/hshivhare67/platform_packages_apps_bluetooth_AOSP10_r33_CVE-2020-0183)
 
 ### CVE-2020-0188 (2020-06-11)
 
