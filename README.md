@@ -188,7 +188,6 @@ Adobe Acrobat Reader versions 22.003.20282 (and earlier), 22.003.20281 (and earl
 </code>
 
 - [hacksysteam/CVE-2023-21608](https://github.com/hacksysteam/CVE-2023-21608)
-- [PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT](https://github.com/PyterSmithDarkGhost/CVE-2023-21608-EXPLOIT)
 - [Malwareman007/CVE-2023-21608](https://github.com/Malwareman007/CVE-2023-21608)
 
 ### CVE-2023-21716 (2023-02-14)
@@ -437,7 +436,6 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 - [ATTACKnDEFEND/CVE-2023-24055](https://github.com/ATTACKnDEFEND/CVE-2023-24055)
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
-- [PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-](https://github.com/PyterSmithDarkGhost/CVE-2023-24055-PoC-KeePass-2.5x-)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
 
 ### CVE-2023-24059 (2023-01-22)
@@ -1429,14 +1427,6 @@ A vulnerability within the Software Updater functionality of Avira Security for 
 
 - [Wh04m1001/CVE-2022-3368](https://github.com/Wh04m1001/CVE-2022-3368)
 
-### CVE-2022-3382 (2022-10-17)
-
-<code>
-HIWIN Robot System Software version 3.3.21.9869 does not properly address the terminated command source. As a result, an attacker could craft code to disconnect HRSS and the controller and cause a denial-of-service condition.
-</code>
-
-- [PyterSmithDarkGhost/CVE-2022-3382ROBOTICAEXPLOITPOC](https://github.com/PyterSmithDarkGhost/CVE-2022-3382ROBOTICAEXPLOITPOC)
-
 ### CVE-2022-3452 (2022-10-11)
 
 <code>
@@ -1841,7 +1831,6 @@ Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product o
 - [thack1/CVE-2022-21449](https://github.com/thack1/CVE-2022-21449)
 - [Damok82/SignChecker](https://github.com/Damok82/SignChecker)
 - [fundaergn/CVE-2022-21449](https://github.com/fundaergn/CVE-2022-21449)
-- [PyterSmithDarkGhost/CVE-2022-21449-I2P-TLS-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-21449-I2P-TLS-POC)
 - [Skipper7718/CVE-2022-21449-showcase](https://github.com/Skipper7718/CVE-2022-21449-showcase)
 - [davwwwx/CVE-2022-21449](https://github.com/davwwwx/CVE-2022-21449)
 
@@ -1881,7 +1870,6 @@ WordPress is a free and open-source content management system written in PHP and
 - [TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection](https://github.com/TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection)
 - [purple-WL/wordpress-CVE-2022-21661](https://github.com/purple-WL/wordpress-CVE-2022-21661)
 - [0x4E0x650x6F/Wordpress-cve-CVE-2022-21661](https://github.com/0x4E0x650x6F/Wordpress-cve-CVE-2022-21661)
-- [PyterSmithDarkGhost/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection-main](https://github.com/PyterSmithDarkGhost/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection-main)
 - [z92g/CVE-2022-21661](https://github.com/z92g/CVE-2022-21661)
 - [QWERTYisme/CVE-2022-21661](https://github.com/QWERTYisme/CVE-2022-21661)
 - [APTIRAN/CVE-2022-21661](https://github.com/APTIRAN/CVE-2022-21661)
@@ -2067,14 +2055,6 @@ A validation issue existed in the handling of symlinks. This issue was addressed
 </code>
 
 - [poizon-box/CVE-2022-22582](https://github.com/poizon-box/CVE-2022-22582)
-
-### CVE-2022-22588 (2022-03-18)
-
-<code>
-A resource exhaustion issue was addressed with improved input validation. This issue is fixed in iOS 15.2.1 and iPadOS 15.2.1. Processing a maliciously crafted HomeKit accessory name may cause a denial of service.
-</code>
-
-- [PyterSmithDarkGhost/0DAYIPHONE13IOS15.2CVE-2022-22588](https://github.com/PyterSmithDarkGhost/0DAYIPHONE13IOS15.2CVE-2022-22588)
 
 ### CVE-2022-22600 (2022-03-18)
 
@@ -3312,7 +3292,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [whokilleddb/CVE-2022-26134-Confluence-RCE](https://github.com/whokilleddb/CVE-2022-26134-Confluence-RCE)
 - [Habib0x0/CVE-2022-26134](https://github.com/Habib0x0/CVE-2022-26134)
 - [Y000o/Confluence-CVE-2022-26134](https://github.com/Y000o/Confluence-CVE-2022-26134)
-- [PyterSmithDarkGhost/0DAYEXPLOITAtlassianConfluenceCVE-2022-26134](https://github.com/PyterSmithDarkGhost/0DAYEXPLOITAtlassianConfluenceCVE-2022-26134)
 - [redhuntlabs/ConfluentPwn](https://github.com/redhuntlabs/ConfluentPwn)
 - [cai-niao98/CVE-2022-26134](https://github.com/cai-niao98/CVE-2022-26134)
 - [sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134)
@@ -5583,7 +5562,6 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [hluwa/cobaltstrike_swing_xss2rce](https://github.com/hluwa/cobaltstrike_swing_xss2rce)
 - [4nth0ny1130/CVE-2022-39197-fix_patch](https://github.com/4nth0ny1130/CVE-2022-39197-fix_patch)
 - [its-arun/CVE-2022-39197](https://github.com/its-arun/CVE-2022-39197)
-- [PyterSmithDarkGhost/CVE-2022-39197-POC](https://github.com/PyterSmithDarkGhost/CVE-2022-39197-POC)
 - [TheCryingGame/CVE-2022-39197-RCE](https://github.com/TheCryingGame/CVE-2022-39197-RCE)
 - [adeljck/CVE-2022-39197](https://github.com/adeljck/CVE-2022-39197)
 
@@ -19659,7 +19637,6 @@ A vulnerability in the web-based management interface of Cisco Small Business RV
 
 - [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
-- [helGayhub233/CVE-2019-1653](https://github.com/helGayhub233/CVE-2019-1653)
 - [ibrahimzx/CVE-2019-1653](https://github.com/ibrahimzx/CVE-2019-1653)
 
 ### CVE-2019-1759 (2019-03-27)
@@ -20316,7 +20293,6 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [k4u5h41/CVE-2019-6447](https://github.com/k4u5h41/CVE-2019-6447)
 - [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
-- [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
 - [VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer](https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer)
 - [Osuni-99/CVE-2019-6447](https://github.com/Osuni-99/CVE-2019-6447)
 - [Chethine/EsFileExplorer-CVE-2019-6447](https://github.com/Chethine/EsFileExplorer-CVE-2019-6447)
@@ -22343,7 +22319,6 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
 - [k4u5h41/CVE-2019-16278](https://github.com/k4u5h41/CVE-2019-16278)
-- [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 
 ### CVE-2019-16279 (2019-10-14)
 
@@ -23191,14 +23166,6 @@ There was a flaw in the WordPress plugin, Email Subscribers &amp; Newsletters be
 </code>
 
 - [jerrylewis9/CVE-2019-20361-EXPLOIT](https://github.com/jerrylewis9/CVE-2019-20361-EXPLOIT)
-
-### CVE-2019-20372 (2020-01-09)
-
-<code>
-NGINX before 1.17.7, with certain error_page configurations, allows HTTP request smuggling, as demonstrated by the ability of an attacker to read unauthorized web pages in environments where NGINX is being fronted by a load balancer.
-</code>
-
-- [vuongnv3389-sec/CVE-2019-20372](https://github.com/vuongnv3389-sec/CVE-2019-20372)
 
 ### CVE-2019-20933 (2020-11-18)
 
