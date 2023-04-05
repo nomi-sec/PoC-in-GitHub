@@ -158,6 +158,7 @@ In clearApplicationUserData of ActivityManagerService.java, there is a possible 
 </code>
 
 - [Trinadh465/frameworks_base_CVE-2023-20943](https://github.com/Trinadh465/frameworks_base_CVE-2023-20943)
+- [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20943](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20943)
 
 ### CVE-2023-20944 (2023-02-28)
 
@@ -3354,6 +3355,7 @@ Contao Managed Edition v1.5.0 was discovered to contain a remote command executi
 </code>
 
 - [Inplex-sys/CVE-2022-26265](https://github.com/Inplex-sys/CVE-2022-26265)
+- [redteamsecurity2023/CVE-2022-26265](https://github.com/redteamsecurity2023/CVE-2022-26265)
 
 ### CVE-2022-26269 (2022-03-28)
 
@@ -6153,7 +6155,8 @@ There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2c
 
 - [nidhi7598/linux-4.1.15_CVE-2022-42896](https://github.com/nidhi7598/linux-4.1.15_CVE-2022-42896)
 - [Satheesh575555/linux-4.19.72_CVE-2022-42896](https://github.com/Satheesh575555/linux-4.19.72_CVE-2022-42896)
-- [Trinadh465/kernel_CVE-2022-42896](https://github.com/Trinadh465/kernel_CVE-2022-42896)
+- [hshivhare67/kernel_v4.19.72_CVE-2022-42896](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2022-42896)
+- [Trinadh465/linux-4.19.72_CVE-2022-42896](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-42896)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -20967,6 +20970,7 @@ Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative path
 
 - [nidhi7598/linux-4.1.15_CVE-2019-10220](https://github.com/nidhi7598/linux-4.1.15_CVE-2019-10220)
 - [Trinadh465/linux-3.0.35_CVE-2019-10220](https://github.com/Trinadh465/linux-3.0.35_CVE-2019-10220)
+- [hshivhare67/kernel_v4.1.15_CVE-2019-10220](https://github.com/hshivhare67/kernel_v4.1.15_CVE-2019-10220)
 
 ### CVE-2019-10392 (2019-09-12)
 
