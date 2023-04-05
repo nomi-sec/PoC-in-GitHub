@@ -537,6 +537,9 @@ In Stimulsoft Designer (Desktop) 2023.1.5, and 2023.1.4, once an attacker decomp
 
 - [trustcves/CVE-2023-25263](https://github.com/trustcves/CVE-2023-25263)
 
+### CVE-2023-25610
+- [PSIRT-REPO/CVE-2023-25610](https://github.com/PSIRT-REPO/CVE-2023-25610)
+
 ### CVE-2023-26262 (2023-03-14)
 
 <code>
