@@ -149,6 +149,7 @@ In several functions of MediaCodec.cpp, there is a possible way to corrupt memor
 </code>
 
 - [Trinadh465/frameworks_av_CVE-2023-20933](https://github.com/Trinadh465/frameworks_av_CVE-2023-20933)
+- [hshivhare67/platform_frameworks_av_AOSP10_r33_CVE-2023-20933](https://github.com/hshivhare67/platform_frameworks_av_AOSP10_r33_CVE-2023-20933)
 
 ### CVE-2023-20943 (2023-02-28)
 
@@ -230,6 +231,7 @@ Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerabili
 - [Malwareman007/CVE-2023-21768](https://github.com/Malwareman007/CVE-2023-21768)
 - [HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768)
 - [CKevens/CVE-2023-21768-POC](https://github.com/CKevens/CVE-2023-21768-POC)
+- [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
 
 ### CVE-2023-21839 (2023-01-17)
 
@@ -669,9 +671,6 @@ redis-py before 4.5.3 leaves a connection open after canceling an async Redis co
 </code>
 
 - [improbably-you/poc_cve_2023_28858](https://github.com/improbably-you/poc_cve_2023_28858)
-
-### CVE-2023-42896
-- [Trinadh465/linux_4.19.72_CVE-2023-42896](https://github.com/Trinadh465/linux_4.19.72_CVE-2023-42896)
 
 
 ## 2022
@@ -6153,6 +6152,8 @@ There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2c
 </code>
 
 - [nidhi7598/linux-4.1.15_CVE-2022-42896](https://github.com/nidhi7598/linux-4.1.15_CVE-2022-42896)
+- [Satheesh575555/linux-4.19.72_CVE-2022-42896](https://github.com/Satheesh575555/linux-4.19.72_CVE-2022-42896)
+- [Trinadh465/kernel_CVE-2022-42896](https://github.com/Trinadh465/kernel_CVE-2022-42896)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -7852,6 +7853,14 @@ A cross-site scripting (XSS) vulnerability in Pryaniki 6.44.3 allows remote auth
 </code>
 
 - [jet-pentest/CVE-2021-3395](https://github.com/jet-pentest/CVE-2021-3395)
+
+### CVE-2021-3438 (2021-05-20)
+
+<code>
+A potential buffer overflow in the software drivers for certain HP LaserJet products and Samsung product printers could lead to an escalation of privilege.
+</code>
+
+- [TobiasS1402/CVE-2021-3438](https://github.com/TobiasS1402/CVE-2021-3438)
 
 ### CVE-2021-3441 (2021-10-29)
 
@@ -12949,7 +12958,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [ossie-git/log4shell_sentinel](https://github.com/ossie-git/log4shell_sentinel)
 - [r00thunter/Log4Shell](https://github.com/r00thunter/Log4Shell)
 - [asyzdykov/cve-2021-44228-fix-jars](https://github.com/asyzdykov/cve-2021-44228-fix-jars)
-- [NatteeSetobol/Log4JPOC](https://github.com/NatteeSetobol/Log4JPOC)
 - [BJLIYANLIANG/log4j-scanner](https://github.com/BJLIYANLIANG/log4j-scanner)
 - [badb33f/Apache-Log4j-POC](https://github.com/badb33f/Apache-Log4j-POC)
 - [TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit](https://github.com/TaroballzChen/CVE-2021-44228-log4jVulnScanner-metasploit)
