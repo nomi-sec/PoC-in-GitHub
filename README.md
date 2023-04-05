@@ -414,6 +414,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [Acceis/exploit-CVE-2023-23752](https://github.com/Acceis/exploit-CVE-2023-23752)
 - [karthikuj/CVE-2023-23752-Docker](https://github.com/karthikuj/CVE-2023-23752-Docker)
 - [0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752)
+- [adhikara13/CVE-2023-23752](https://github.com/adhikara13/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -6143,6 +6144,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [WFS-Mend/vtrade-common](https://github.com/WFS-Mend/vtrade-common)
 - [devenes/text4shell-cve-2022-42889](https://github.com/devenes/text4shell-cve-2022-42889)
 - [hotblac/text4shell](https://github.com/hotblac/text4shell)
+- [necroteddy/CVE-2022-42889](https://github.com/necroteddy/CVE-2022-42889)
 
 ### CVE-2022-42896 (2022-11-23)
 
