@@ -61,6 +61,7 @@ Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication 
 - [cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669)
 - [Griffin-01/CVE-2023-0669](https://github.com/Griffin-01/CVE-2023-0669)
 - [yosef0x01/CVE-2023-0669-Analysis](https://github.com/yosef0x01/CVE-2023-0669-Analysis)
+- [Avento/CVE-2023-0669](https://github.com/Avento/CVE-2023-0669)
 
 ### CVE-2023-0748 (2023-02-08)
 
@@ -277,6 +278,7 @@ In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra argument
 
 - [n3m1dotsys/CVE-2023-22809-sudoedit-privesc](https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc)
 - [M4fiaB0y/CVE-2023-22809](https://github.com/M4fiaB0y/CVE-2023-22809)
+- [CKevens/CVE-2023-22809-sudo-POC](https://github.com/CKevens/CVE-2023-22809-sudo-POC)
 
 ### CVE-2023-22941 (2023-02-14)
 
@@ -3166,6 +3168,7 @@ In Expat (aka libexpat) before 2.4.5, there is an integer overflow in storeRawNa
 </code>
 
 - [ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25315](https://github.com/ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25315)
+- [hshivhare67/external_expat_v2.1.0_CVE-2022-25315](https://github.com/hshivhare67/external_expat_v2.1.0_CVE-2022-25315)
 
 ### CVE-2022-25365 (2022-02-18)
 
@@ -6168,7 +6171,7 @@ There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2c
 
 - [nidhi7598/linux-4.1.15_CVE-2022-42896](https://github.com/nidhi7598/linux-4.1.15_CVE-2022-42896)
 - [Satheesh575555/linux-4.19.72_CVE-2022-42896](https://github.com/Satheesh575555/linux-4.19.72_CVE-2022-42896)
-- [hshivhare67/kernel_v4.19.72_CVE-2022-42896](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2022-42896)
+- [hshivhare67/kernel_v4.19.72_CVE-2022-42896_old](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2022-42896_old)
 - [Trinadh465/linux-4.19.72_CVE-2022-42896](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-42896)
 
 ### CVE-2022-42899 (2022-10-12)
@@ -7901,6 +7904,7 @@ The eBPF ALU32 bounds tracking for bitwise ops (AND, OR and XOR) in the Linux ke
 </code>
 
 - [chompie1337/Linux_LPE_eBPF_CVE-2021-3490](https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490)
+- [pivik271/CVE-2021-3490](https://github.com/pivik271/CVE-2021-3490)
 
 ### CVE-2021-3492 (2021-04-17)
 
@@ -13309,6 +13313,7 @@ In Expat (aka libexpat) before 2.4.3, a left shift by 29 (or more) places in the
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2021-45960](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-45960)
 - [Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-](https://github.com/Trinadh465/external_lib_AOSP10_r33_CVE-2021-45960_CVE-2021-46143-)
+- [hshivhare67/external_expat_v2.2.6_CVE-2021-45960](https://github.com/hshivhare67/external_expat_v2.2.6_CVE-2021-45960)
 
 ### CVE-2021-46005 (2022-01-18)
 
@@ -14854,7 +14859,6 @@ Multiple vulnerabilities in the web services interface of Cisco Adaptive Securit
 - [Hudi233/CVE-2020-3580](https://github.com/Hudi233/CVE-2020-3580)
 - [adarshvs/CVE-2020-3580](https://github.com/adarshvs/CVE-2020-3580)
 - [cruxN3T/CVE-2020-3580](https://github.com/cruxN3T/CVE-2020-3580)
-- [catatonicprime/CVE-2020-3580](https://github.com/catatonicprime/CVE-2020-3580)
 
 ### CVE-2020-3766 (2020-03-25)
 
@@ -15997,7 +16001,6 @@ Adobe Acrobat and Reader versions 2020.009.20074 and earlier, 2020.001.30002, 20
 </code>
 
 - [lsw29475/CVE-2020-9715](https://github.com/lsw29475/CVE-2020-9715)
-- [WonjunChun/CVE-2020-9715](https://github.com/WonjunChun/CVE-2020-9715)
 
 ### CVE-2020-9758 (2020-03-09)
 
@@ -18344,14 +18347,6 @@ Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Ve
 </code>
 
 - [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
-
-### CVE-2020-26878 (2020-10-26)
-
-<code>
-Ruckus through 1.5.1.0.21 is affected by remote command injection. An authenticated user can submit a query to the API (/service/v1/createUser endpoint), injecting arbitrary commands that will be executed as root user via web.py.
-</code>
-
-- [htarsoo/CVE-2020-26878](https://github.com/htarsoo/CVE-2020-26878)
 
 ### CVE-2020-27190
 - [qlh831/x-CVE-2020-27190](https://github.com/qlh831/x-CVE-2020-27190)
@@ -27284,14 +27279,6 @@ In Apache Log4j 2.x before 2.8.2, when using the TCP socket server or UDP socket
 - [pimps/CVE-2017-5645](https://github.com/pimps/CVE-2017-5645)
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 
-### CVE-2017-5674 (2017-03-13)
-
-<code>
-A vulnerability in a custom-built GoAhead web server used on Foscam, Vstarcam, and multiple white-label IP camera models allows an attacker to craft a malformed HTTP (&quot;GET system.ini HTTP/1.1\n\n&quot; - note the lack of &quot;/&quot; in the path field of the request) request that will disclose the configuration file with the login password.
-</code>
-
-- [eR072391/cve-2017-5674](https://github.com/eR072391/cve-2017-5674)
-
 ### CVE-2017-5689 (2017-05-02)
 
 <code>
@@ -29691,9 +29678,7 @@ net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine 
 </code>
 
 - [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
-- [violentshell/rover](https://github.com/violentshell/rover)
 - [jduck/challack](https://github.com/jduck/challack)
-- [bplinux/chackd](https://github.com/bplinux/chackd)
 - [unkaktus/grill](https://github.com/unkaktus/grill)
 
 ### CVE-2016-5699 (2016-09-02)
@@ -29703,7 +29688,6 @@ CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2
 </code>
 
 - [bunseokbot/CVE-2016-5699-poc](https://github.com/bunseokbot/CVE-2016-5699-poc)
-- [shajinzheng/cve-2016-5699-jinzheng-sha](https://github.com/shajinzheng/cve-2016-5699-jinzheng-sha)
 
 ### CVE-2016-5734 (2016-07-02)
 
