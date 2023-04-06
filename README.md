@@ -1543,6 +1543,14 @@ A path traversal vulnerability was identified in ReFirm Labs binwalk from versio
 
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
 
+### CVE-2022-4939 (2023-04-05)
+
+<code>
+THe WCFM Membership plugin for WordPress is vulnerable to privilege escalation in versions up to, and including 2.10.0, due to a missing capability check on the wp_ajax_nopriv_wcfm_ajax_controller AJAX action that controls membership settings. This makes it possible for unauthenticated attackers to modify the membership registration form in a way that allows them to set the role for registration to that of any user including administrators. Once configured, the attacker can then register as an administrator.
+</code>
+
+- [BaconCriCRi/PoC-CVE-2022-4939-](https://github.com/BaconCriCRi/PoC-CVE-2022-4939-)
+
 ### CVE-2022-5561
 - [Kvi74/CVE-2022-5561](https://github.com/Kvi74/CVE-2022-5561)
 
@@ -5042,6 +5050,14 @@ Crow before 1.0+4 has a heap-based buffer overflow via the function qs_parse in 
 
 - [0xhebi/CVE-2022-34970](https://github.com/0xhebi/CVE-2022-34970)
 
+### CVE-2022-34972 (2022-07-05)
+
+<code>
+So Filter Shop v3.x was discovered to contain multiple blind SQL injection vulnerabilities via the att_value_id , manu_value_id , opt_value_id , and subcate_value_id parameters at /index.php?route=extension/module/so_filter_shop_by/filter_data.
+</code>
+
+- [DevCyberNico/exploit_-CVE-2022-34972](https://github.com/DevCyberNico/exploit_-CVE-2022-34972)
+
 ### CVE-2022-35131 (2022-07-25)
 
 <code>
@@ -6170,6 +6186,7 @@ There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2c
 - [hshivhare67/kernel_v4.19.72_CVE-2022-42896_old](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2022-42896_old)
 - [Trinadh465/linux-4.19.72_CVE-2022-42896](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-42896)
 - [hshivhare67/kernel_v4.19.72_CVE-2022-42896_new](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2022-42896_new)
+- [himanshu667/kernel_v4.19.72_CVE-2022-42896](https://github.com/himanshu667/kernel_v4.19.72_CVE-2022-42896)
 
 ### CVE-2022-42899 (2022-10-12)
 
@@ -6800,6 +6817,9 @@ IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker 
 - [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
 - [dhina016/CVE-2022-47986](https://github.com/dhina016/CVE-2022-47986)
 - [mauricelambert/CVE-2022-47986](https://github.com/mauricelambert/CVE-2022-47986)
+
+### CVE-2022-48150
+- [sahilop123/-CVE-2022-48150](https://github.com/sahilop123/-CVE-2022-48150)
 
 ### CVE-2022-48194 (2022-12-30)
 
@@ -19822,7 +19842,6 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [s1xg0d/CVE-2019-3396](https://github.com/s1xg0d/CVE-2019-3396)
 - [quanpt103/CVE-2019-3396](https://github.com/quanpt103/CVE-2019-3396)
 - [vntest11/confluence_CVE-2019-3396](https://github.com/vntest11/confluence_CVE-2019-3396)
-- [tanw923/test1](https://github.com/tanw923/test1)
 - [skommando/CVE-2019-3396-confluence-poc](https://github.com/skommando/CVE-2019-3396-confluence-poc)
 - [JonathanZhou348/CVE-2019-3396TEST](https://github.com/JonathanZhou348/CVE-2019-3396TEST)
 - [am6539/CVE-2019-3396](https://github.com/am6539/CVE-2019-3396)
@@ -20192,7 +20211,6 @@ A memory corruption issue was addressed with improved validation. This issue is 
 
 - [fatgrass/OsirisJailbreak12](https://github.com/fatgrass/OsirisJailbreak12)
 - [TrungNguyen1909/CVE-2019-6225-macOS](https://github.com/TrungNguyen1909/CVE-2019-6225-macOS)
-- [raystyle/jailbreak-iOS12](https://github.com/raystyle/jailbreak-iOS12)
 
 ### CVE-2019-6249 (2019-01-13)
 
@@ -21677,14 +21695,6 @@ Pi-Hole 4.3 allows Command Injection.
 </code>
 
 - [pr0tean/CVE-2019-13051](https://github.com/pr0tean/CVE-2019-13051)
-
-### CVE-2019-13063 (2019-09-23)
-
-<code>
-Within Sahi Pro 8.0.0, an attacker can send a specially crafted URL to include any victim files on the system via the script parameter on the Script_view page. This will result in file disclosure (i.e., being able to pull any file from the remote victim application). This can be used to steal and obtain sensitive config and other files. This can result in complete compromise of the application. The script parameter is vulnerable to directory traversal and both local and remote file inclusion.
-</code>
-
-- [0x6b7966/CVE-2019-13063-POC](https://github.com/0x6b7966/CVE-2019-13063-POC)
 
 ### CVE-2019-13086 (2019-06-30)
 
