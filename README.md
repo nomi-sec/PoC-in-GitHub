@@ -4671,10 +4671,20 @@ Codoforum v5.1 was discovered to contain an arbitrary file upload vulnerability 
 
 - [Vikaran101/CVE-2022-31854](https://github.com/Vikaran101/CVE-2022-31854)
 
-### CVE-2022-31889
+### CVE-2022-31889 (2023-04-05)
+
+<code>
+Cross Site Scripting (XSS) vulnerability in audit/templates/auditlogs.tmpl.php in osTicket osTicket-plugins before commit a7842d494889fd5533d13deb3c6a7789768795ae.
+</code>
+
 - [reewardius/CVE-2022-31889](https://github.com/reewardius/CVE-2022-31889)
 
-### CVE-2022-31890
+### CVE-2022-31890 (2023-04-05)
+
+<code>
+SQL Injection vulnerability in audit/class.audit.php in osTicket osTicket-plugins before commit a7842d494889fd5533d13deb3c6a7789768795ae via the order parameter to the getOrder function.
+</code>
+
 - [reewardius/CVE-2022-31890](https://github.com/reewardius/CVE-2022-31890)
 
 ### CVE-2022-31897 (2022-06-28)
