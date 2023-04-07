@@ -695,6 +695,14 @@ Smarty is a template engine for PHP. In affected versions smarty did not properl
 
 - [drkbcn/lblfixer_cve_2023_28447](https://github.com/drkbcn/lblfixer_cve_2023_28447)
 
+### CVE-2023-29017 (2023-04-06)
+
+<code>
+vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Prior to version 3.9.15, vm2 was not properly handling host objects passed to `Error.prepareStackTrace` in case of unhandled async errors. A threat actor could bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.15 of vm2. There are no known workarounds.
+</code>
+
+- [timb-machine-mirrors/CVE-2023-29017](https://github.com/timb-machine-mirrors/CVE-2023-29017)
+
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
@@ -6277,6 +6285,9 @@ Inhabit Systems Pty Ltd Move CRM version 4, build 260 was discovered to contain 
 </code>
 
 - [SecurityWillCheck/CVE-2022-43271](https://github.com/SecurityWillCheck/CVE-2022-43271)
+
+### CVE-2022-43293
+- [LucaBarile/CVE-2022-43293](https://github.com/LucaBarile/CVE-2022-43293)
 
 ### CVE-2022-43332 (2022-11-17)
 
@@ -14774,9 +14785,9 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
-- [0xlane/CVE-2020-2551](https://github.com/0xlane/CVE-2020-2551)
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
+- [DaMinGshidashi/CVE-2020-2551](https://github.com/DaMinGshidashi/CVE-2020-2551)
 - [LTiDi2000/CVE-2020-2551](https://github.com/LTiDi2000/CVE-2020-2551)
 - [0xAbbarhSF/CVE-Exploit](https://github.com/0xAbbarhSF/CVE-Exploit)
 - [w3security/CVE-2020-2551](https://github.com/w3security/CVE-2020-2551)
