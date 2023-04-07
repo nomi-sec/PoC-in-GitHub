@@ -118,6 +118,7 @@ Es wurde eine Schwachstelle in jeecg-boot 3.5.0 entdeckt. Sie wurde als kritisch
 </code>
 
 - [gobysec/CVE-2023-1454](https://github.com/gobysec/CVE-2023-1454)
+- [MzzdToT/CVE-2023-1454](https://github.com/MzzdToT/CVE-2023-1454)
 
 ### CVE-2023-1665 (2023-03-27)
 
@@ -234,6 +235,14 @@ Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerabili
 - [HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768)
 - [CKevens/CVE-2023-21768-POC](https://github.com/CKevens/CVE-2023-21768-POC)
 - [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
+
+### CVE-2023-21837 (2023-01-17)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+</code>
+
+- [hktalent/CVE-2023-21837](https://github.com/hktalent/CVE-2023-21837)
 
 ### CVE-2023-21839 (2023-01-17)
 
@@ -1821,6 +1830,14 @@ A vulnerability in the handling of RSA keys on devices running Cisco Adaptive Se
 </code>
 
 - [CiscoPSIRT/CVE-2022-20866](https://github.com/CiscoPSIRT/CVE-2022-20866)
+
+### CVE-2022-21306 (2022-01-19)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [hktalent/CVE-2022-21306](https://github.com/hktalent/CVE-2022-21306)
 
 ### CVE-2022-21371 (2022-01-19)
 
@@ -6457,6 +6474,14 @@ Markdown Preview Enhanced v0.6.5 and v0.19.6 for VSCode and Atom was discovered 
 </code>
 
 - [yuriisanin/CVE-2022-45025](https://github.com/yuriisanin/CVE-2022-45025)
+
+### CVE-2022-45047 (2022-11-16)
+
+<code>
+Class org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider in Apache MINA SSHD &lt;= 2.9.1 uses Java deserialization to load a serialized java.security.PrivateKey. The class is one of several implementations that an implementor using Apache MINA SSHD can choose for loading the host keys of an SSH server.
+</code>
+
+- [hktalent/CVE-2022-45047](https://github.com/hktalent/CVE-2022-45047)
 
 ### CVE-2022-45217 (2022-12-07)
 
