@@ -184,6 +184,9 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 - [schdork/acropolypse-bot](https://github.com/schdork/acropolypse-bot)
 - [lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect)
 
+### CVE-2023-21389
+- [sxsuperxuan/Weblogic_CVE-2023-21389](https://github.com/sxsuperxuan/Weblogic_CVE-2023-21389)
+
 ### CVE-2023-21608 (2023-01-18)
 
 <code>
@@ -603,6 +606,14 @@ An issue in the password reset function of Peppermint v0.2.4 allows attackers to
 
 ### CVE-2023-27053
 - [d3fudd/XSS-HGJ310](https://github.com/d3fudd/XSS-HGJ310)
+
+### CVE-2023-27100 (2023-03-22)
+
+<code>
+Improper restriction of excessive authentication attempts in the SSHGuard component of Netgate pfSense Plus software v22.05.1 and pfSense CE software v2.6.0 allows attackers to bypass brute force protection mechanisms via crafted web requests.
+</code>
+
+- [DarokNET/CVE-2023-27100](https://github.com/DarokNET/CVE-2023-27100)
 
 ### CVE-2023-27326
 - [Impalabs/CVE-2023-27326](https://github.com/Impalabs/CVE-2023-27326)
@@ -5527,6 +5538,9 @@ ProcessMaker before v3.5.4 was discovered to contain insecure permissions in the
 </code>
 
 - [sornram9254/CVE-2022-38577-Processmaker](https://github.com/sornram9254/CVE-2022-38577-Processmaker)
+
+### CVE-2022-38604
+- [LucaBarile/CVE-2022-38604](https://github.com/LucaBarile/CVE-2022-38604)
 
 ### CVE-2022-38766 (2023-01-03)
 
@@ -15253,6 +15267,7 @@ SAP NetWeaver AS JAVA (LM Configuration Wizard), versions - 7.30, 7.31, 7.40, 7.
 - [Onapsis/CVE-2020-6287_RECON-scanner](https://github.com/Onapsis/CVE-2020-6287_RECON-scanner)
 - [ynsmroztas/CVE-2020-6287-Sap-Add-User](https://github.com/ynsmroztas/CVE-2020-6287-Sap-Add-User)
 - [murataydemir/CVE-2020-6287](https://github.com/murataydemir/CVE-2020-6287)
+- [qmakake/SAP_CVE-2020-6287_find_mandate](https://github.com/qmakake/SAP_CVE-2020-6287_find_mandate)
 
 ### CVE-2020-6308 (2020-10-20)
 
