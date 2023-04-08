@@ -872,7 +872,7 @@ The BookingPress WordPress plugin before 1.0.11 fails to properly sanitize user 
 - [Ki11i0n4ir3/CVE-2022-0739](https://github.com/Ki11i0n4ir3/CVE-2022-0739)
 - [viardant/CVE-2022-0739](https://github.com/viardant/CVE-2022-0739)
 - [ElGanz0/CVE-2022-0739](https://github.com/ElGanz0/CVE-2022-0739)
-- [luxel-h/Bash-exploit-for-CVE-2022-0739](https://github.com/luxel-h/Bash-exploit-for-CVE-2022-0739)
+- [lhamouche/Bash-exploit-for-CVE-2022-0739](https://github.com/lhamouche/Bash-exploit-for-CVE-2022-0739)
 
 ### CVE-2022-0778 (2022-03-15)
 
@@ -30216,14 +30216,6 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 
 
 ## 2015
-### CVE-2015-0057 (2015-02-10)
-
-<code>
-win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
-</code>
-
-- [55-AA/CVE-2015-0057](https://github.com/55-AA/CVE-2015-0057)
-
 ### CVE-2015-0072 (2015-02-07)
 
 <code>
