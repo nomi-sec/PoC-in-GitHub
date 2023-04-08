@@ -217,6 +217,14 @@ Windows Bluetooth Driver Elevation of Privilege Vulnerability.
 
 - [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
 
+### CVE-2023-21742 (2023-01-10)
+
+<code>
+Microsoft SharePoint Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21744.
+</code>
+
+- [ohnonoyesyes/CVE-2023-21742](https://github.com/ohnonoyesyes/CVE-2023-21742)
+
 ### CVE-2023-21752 (2023-01-10)
 
 <code>
@@ -701,7 +709,7 @@ Smarty is a template engine for PHP. In affected versions smarty did not properl
 vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Prior to version 3.9.15, vm2 was not properly handling host objects passed to `Error.prepareStackTrace` in case of unhandled async errors. A threat actor could bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.15 of vm2. There are no known workarounds.
 </code>
 
-- [timb-machine-mirrors/CVE-2023-29017](https://github.com/timb-machine-mirrors/CVE-2023-29017)
+- [timb-machine-mirrors/gist-seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/gist-seongil-wi-CVE-2023-29017)
 
 
 ## 2022
@@ -6700,6 +6708,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [doosec101/CVE-2022-46169](https://github.com/doosec101/CVE-2022-46169)
 - [m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application](https://github.com/m3ssap0/cacti-rce-cve-2022-46169-vulnerable-application)
 - [devAL3X/CVE-2022-46169_poc](https://github.com/devAL3X/CVE-2022-46169_poc)
+- [JacobEbben/CVE-2022-46169_unauth_remote_code_execution](https://github.com/JacobEbben/CVE-2022-46169_unauth_remote_code_execution)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -10595,6 +10604,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527)
 - [m8sec/CVE-2021-34527](https://github.com/m8sec/CVE-2021-34527)
 - [hackerhouse-opensource/cve-2021-34527](https://github.com/hackerhouse-opensource/cve-2021-34527)
+- [fardinbarashi/PsFix-CVE-2021-34527](https://github.com/fardinbarashi/PsFix-CVE-2021-34527)
 
 ### CVE-2021-34600 (2022-01-20)
 
@@ -20238,7 +20248,6 @@ An issue was discovered in OpenSSH 7.9. Due to the scp implementation being deri
 </code>
 
 - [53n7hu/SNP](https://github.com/53n7hu/SNP)
-- [Sigmw/CVE-2019-6111-poc](https://github.com/Sigmw/CVE-2019-6111-poc)
 
 ### CVE-2019-6203 (2020-04-17)
 
