@@ -1409,6 +1409,7 @@ The All-in-One WP Migration WordPress plugin before 7.63 uses the wrong content 
 - [LukeGix/CVE-2022-2602](https://github.com/LukeGix/CVE-2022-2602)
 - [kiks7/CVE-2022-2602-Kernel-Exploit](https://github.com/kiks7/CVE-2022-2602-Kernel-Exploit)
 - [th3-5had0w/CVE-2022-2602-Study](https://github.com/th3-5had0w/CVE-2022-2602-Study)
+- [vnc1106/CVE-2022-2602](https://github.com/vnc1106/CVE-2022-2602)
 
 ### CVE-2022-2639 (2022-09-01)
 
@@ -30216,6 +30217,14 @@ Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing
 
 
 ## 2015
+### CVE-2015-0057 (2015-02-10)
+
+<code>
+win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
+</code>
+
+- [55-AA/CVE-2015-0057](https://github.com/55-AA/CVE-2015-0057)
+
 ### CVE-2015-0072 (2015-02-07)
 
 <code>
