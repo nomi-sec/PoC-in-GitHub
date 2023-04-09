@@ -709,7 +709,7 @@ Smarty is a template engine for PHP. In affected versions smarty did not properl
 vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. Prior to version 3.9.15, vm2 was not properly handling host objects passed to `Error.prepareStackTrace` in case of unhandled async errors. A threat actor could bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.15 of vm2. There are no known workarounds.
 </code>
 
-- [timb-machine-mirrors/gist-seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/gist-seongil-wi-CVE-2023-29017)
+- [timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017)
 
 
 ## 2022
@@ -7722,7 +7722,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 An OS command injection vulnerability in the Simple Certificate Enrollment Protocol (SCEP) feature of PAN-OS software allows an unauthenticated network-based attacker with specific knowledge of the firewall configuration to execute arbitrary code with root user privileges. The attacker must have network access to the GlobalProtect interfaces to exploit this issue. This issue impacts: PAN-OS 8.1 versions earlier than PAN-OS 8.1.20-h1; PAN-OS 9.0 versions earlier than PAN-OS 9.0.14-h3; PAN-OS 9.1 versions earlier than PAN-OS 9.1.11-h2; PAN-OS 10.0 versions earlier than PAN-OS 10.0.8; PAN-OS 10.1 versions earlier than PAN-OS 10.1.3. Prisma Access customers with Prisma Access 2.1 Preferred and Prisma Access 2.1 Innovation firewalls are impacted by this issue.
 </code>
 
-- [timb-machine-mirrors/cve-2021-3060.py](https://github.com/timb-machine-mirrors/cve-2021-3060.py)
+- [timb-machine-mirrors/rqu1-cve-2021-3060.py](https://github.com/timb-machine-mirrors/rqu1-cve-2021-3060.py)
 
 ### CVE-2021-3122 (2021-02-07)
 
@@ -8721,7 +8721,7 @@ The vCenter Server contains an arbitrary file upload vulnerability in the Analyt
 - [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
-- [timb-machine-mirrors/CVE-2021-22005](https://github.com/timb-machine-mirrors/CVE-2021-22005)
+- [timb-machine-mirrors/testanull-CVE-2021-22005.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-22005.py)
 - [InventorMAO/cve-2021-22005](https://github.com/InventorMAO/cve-2021-22005)
 
 ### CVE-2021-22006 (2021-09-23)
@@ -9804,7 +9804,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 - [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
-- [timb-machine-mirrors/CVE-2021-28482](https://github.com/timb-machine-mirrors/CVE-2021-28482)
+- [timb-machine-mirrors/testanull-CVE-2021-28482.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-28482.py)
 
 ### CVE-2021-28663 (2021-05-10)
 
@@ -10097,7 +10097,7 @@ A memory corruption vulnerability was addressed with improved locking. This issu
 A race condition was addressed with improved state handling. This issue is fixed in macOS Monterey 12.1, watchOS 8.3, iOS 15.2 and iPadOS 15.2, tvOS 15.2. A malicious application may be able to execute arbitrary code with kernel privileges.
 </code>
 
-- [timb-machine-mirrors/CVE-2021-30955](https://github.com/timb-machine-mirrors/CVE-2021-30955)
+- [timb-machine-mirrors/jakeajames-CVE-2021-30955](https://github.com/timb-machine-mirrors/jakeajames-CVE-2021-30955)
 - [nickorlow/CVE-2021-30955-POC](https://github.com/nickorlow/CVE-2021-30955-POC)
 - [verygenericname/CVE-2021-30955-POC-IPA](https://github.com/verygenericname/CVE-2021-30955-POC-IPA)
 - [b1n4r1b01/desc_race](https://github.com/b1n4r1b01/desc_race)
@@ -12170,7 +12170,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
-- [timb-machine-mirrors/CVE-2021-42321_poc](https://github.com/timb-machine-mirrors/CVE-2021-42321_poc)
+- [timb-machine-mirrors/testanull-CVE-2021-42321_poc.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-42321_poc.py)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 - [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
 
@@ -25306,7 +25306,7 @@ Stored XSS in YOOtheme Pagekit 1.0.13 and earlier allows a user to upload malici
 Rondaful M1 Wristband Smart Band 1 devices allow remote attackers to send an arbitrary number of call or SMS notifications via crafted Bluetooth Low Energy (BLE) traffic.
 </code>
 
-- [xMagass/bandexploit](https://github.com/xMagass/bandexploit)
+- [ColeShelly/bandexploit](https://github.com/ColeShelly/bandexploit)
 
 ### CVE-2018-11686 (2019-07-03)
 
