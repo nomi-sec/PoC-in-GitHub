@@ -695,6 +695,7 @@ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment startin
 - [Majus527/MinIO_CVE-2023-28432](https://github.com/Majus527/MinIO_CVE-2023-28432)
 - [7a6163/CVE-2023-28432](https://github.com/7a6163/CVE-2023-28432)
 - [LHXHL/Minio-CVE-2023-28432](https://github.com/LHXHL/Minio-CVE-2023-28432)
+- [h0ng10/CVE-2023-28432_docker](https://github.com/h0ng10/CVE-2023-28432_docker)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -13159,6 +13160,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [heeloo123/CVE-2021-44228](https://github.com/heeloo123/CVE-2021-44228)
 - [github-kyruuu/log4shell-vulnweb](https://github.com/github-kyruuu/log4shell-vulnweb)
 - [demonrvm/Log4ShellRemediation](https://github.com/demonrvm/Log4ShellRemediation)
+- [YuanRuQian/CVE-2021-44228-attack-demo](https://github.com/YuanRuQian/CVE-2021-44228-attack-demo)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -32008,6 +32010,9 @@ Use-after-free vulnerability in Microsoft Internet Explorer 6 through 8 allows r
 </code>
 
 - [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
+
+### CVE-2012-5664
+- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
 
 ### CVE-2012-5958 (2013-01-31)
 
