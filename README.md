@@ -1194,7 +1194,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [jheeree/CVE-2022-1388-checker](https://github.com/jheeree/CVE-2022-1388-checker)
 - [MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed](https://github.com/MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed)
 - [Osyanina/westone-CVE-2022-1388-scanner](https://github.com/Osyanina/westone-CVE-2022-1388-scanner)
-- [bytecaps/CVE-2022-1388-EXP](https://github.com/bytecaps/CVE-2022-1388-EXP)
+- [ByteCaps/CVE-2022-1388-EXP](https://github.com/ByteCaps/CVE-2022-1388-EXP)
 - [blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit](https://github.com/blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit)
 - [Hudi233/CVE-2022-1388](https://github.com/Hudi233/CVE-2022-1388)
 - [sherlocksecurity/CVE-2022-1388-Exploit-POC](https://github.com/sherlocksecurity/CVE-2022-1388-Exploit-POC)
@@ -4219,7 +4219,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [zkl21hoang/msdt-follina-office-rce](https://github.com/zkl21hoang/msdt-follina-office-rce)
 - [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
 - [2867a0/CVE-2022-30190](https://github.com/2867a0/CVE-2022-30190)
-- [bytecaps/CVE-2022-30190](https://github.com/bytecaps/CVE-2022-30190)
+- [ByteCaps/CVE-2022-30190](https://github.com/ByteCaps/CVE-2022-30190)
 - [archanchoudhury/MSDT_CVE-2022-30190](https://github.com/archanchoudhury/MSDT_CVE-2022-30190)
 - [rickhenderson/cve-2022-30190](https://github.com/rickhenderson/cve-2022-30190)
 - [DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup](https://github.com/DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup)
@@ -13160,7 +13160,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [heeloo123/CVE-2021-44228](https://github.com/heeloo123/CVE-2021-44228)
 - [github-kyruuu/log4shell-vulnweb](https://github.com/github-kyruuu/log4shell-vulnweb)
 - [demonrvm/Log4ShellRemediation](https://github.com/demonrvm/Log4ShellRemediation)
-- [YuanRuQian/CVE-2021-44228-attack-demo](https://github.com/YuanRuQian/CVE-2021-44228-attack-demo)
 
 ### CVE-2021-44255 (2022-01-31)
 
