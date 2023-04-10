@@ -720,6 +720,7 @@ vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in mo
 </code>
 
 - [timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017)
+- [Kaneki-hash/CVE-2023-29017-reverse-shell](https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell)
 
 ### CVE-2023-30459
 - [Toxich4/CVE-2023-30459](https://github.com/Toxich4/CVE-2023-30459)
@@ -2374,6 +2375,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [lemmyz4n3771/CVE-2022-22963-PoC](https://github.com/lemmyz4n3771/CVE-2022-22963-PoC)
 - [J0ey17/CVE-2022-22963_Reverse-Shell-Exploit](https://github.com/J0ey17/CVE-2022-22963_Reverse-Shell-Exploit)
 - [Mustafa1986/CVE-2022-22963](https://github.com/Mustafa1986/CVE-2022-22963)
+- [SourM1lk/CVE-2022-22963-Exploit](https://github.com/SourM1lk/CVE-2022-22963-Exploit)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -13027,7 +13029,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228](https://github.com/Fazmin/vCenter-Server-Workaround-Script-CVE-2021-44228)
 - [Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE](https://github.com/Grupo-Kapa-7/CVE-2021-44228-Log4j-PoC-RCE)
 - [rohankumardubey/CVE-2021-44228_scanner](https://github.com/rohankumardubey/CVE-2021-44228_scanner)
-- [HelifeWasTaken/log4j](https://github.com/HelifeWasTaken/log4j)
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
 - [RenYuH/log4j-lookups-vulnerability](https://github.com/RenYuH/log4j-lookups-vulnerability)
 - [scheibling/py-log4shellscanner](https://github.com/scheibling/py-log4shellscanner)
@@ -13143,6 +13144,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228](https://github.com/Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228)
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
+- [hassaanahmad813/log4j](https://github.com/hassaanahmad813/log4j)
 - [yuuki1967/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/yuuki1967/CVE-2021-44228-Apache-Log4j-Rce)
 - [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 - [jaehnri/CVE-2021-44228](https://github.com/jaehnri/CVE-2021-44228)
@@ -23066,30 +23068,6 @@ There is Authenticated remote code execution in Centreon Infrastructure Monitori
 </code>
 
 - [SpengeSec/CVE-2019-19699](https://github.com/SpengeSec/CVE-2019-19699)
-
-### CVE-2019-19734 (2019-12-30)
-
-<code>
-_account_move_file_in_folder.ajax.php in MFScripts YetiShare 3.5.2 directly inserts values from the fileIds parameter into a SQL string. This allows an attacker to inject their own SQL and manipulate the query, typically extracting data from the database, aka SQL Injection.
-</code>
-
-- [jra89/CVE-2019-19734](https://github.com/jra89/CVE-2019-19734)
-
-### CVE-2019-19735 (2019-12-30)
-
-<code>
-class.userpeer.php in MFScripts YetiShare 3.5.2 through 4.5.3 uses an insecure method of creating password reset hashes (based only on microtime), which allows an attacker to guess the hash and set the password within a few hours by bruteforcing.
-</code>
-
-- [jra89/CVE-2019-19735](https://github.com/jra89/CVE-2019-19735)
-
-### CVE-2019-19738 (2019-12-30)
-
-<code>
-log_file_viewer.php in MFScripts YetiShare 3.5.2 through 4.5.3 does not sanitize or encode the output from the lFile parameter on the page, which would allow an attacker to input HTML or execute scripts on the site, aka XSS.
-</code>
-
-- [jra89/CVE-2019-19738](https://github.com/jra89/CVE-2019-19738)
 
 ### CVE-2019-19781 (2019-12-27)
 
