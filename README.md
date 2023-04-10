@@ -721,6 +721,9 @@ vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in mo
 
 - [timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017)
 
+### CVE-2023-30459
+- [Toxich4/CVE-2023-30459](https://github.com/Toxich4/CVE-2023-30459)
+
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
@@ -23064,22 +23067,6 @@ There is Authenticated remote code execution in Centreon Infrastructure Monitori
 
 - [SpengeSec/CVE-2019-19699](https://github.com/SpengeSec/CVE-2019-19699)
 
-### CVE-2019-19732 (2019-12-30)
-
-<code>
-translation_manage_text.ajax.php and various *_manage.ajax.php in MFScripts YetiShare 3.5.2 through 4.5.3 directly insert values from the aSortDir_0 and/or sSortDir_0 parameter into a SQL string. This allows an attacker to inject their own SQL and manipulate the query, typically extracting data from the database, aka SQL Injection.
-</code>
-
-- [jra89/CVE-2019-19732](https://github.com/jra89/CVE-2019-19732)
-
-### CVE-2019-19733 (2019-12-30)
-
-<code>
-_get_all_file_server_paths.ajax.php (aka get_all_file_server_paths.ajax.php) in MFScripts YetiShare 3.5.2 through 4.5.3 does not sanitize or encode the output from the fileIds parameter on the page, which would allow an attacker to input HTML or execute scripts on the site, aka XSS.
-</code>
-
-- [jra89/CVE-2019-19733](https://github.com/jra89/CVE-2019-19733)
-
 ### CVE-2019-19734 (2019-12-30)
 
 <code>
@@ -23202,7 +23189,7 @@ uhttpd in OpenWrt through 18.06.5 and 19.x through 19.07.0-rc2 has an integer si
 payment_manage.ajax.php and various *_manage.ajax.php in MFScripts YetiShare 3.5.2 through 4.5.4 directly insert values from the sSortDir_0 parameter into a SQL string. This allows an attacker to inject their own SQL and manipulate the query, typically extracting data from the database, aka SQL Injection. NOTE: this issue exists because of an incomplete fix for CVE-2019-19732.
 </code>
 
-- [jra89/CVE-2019-20059](https://github.com/jra89/CVE-2019-20059)
+- [cve-vuln/CVE-2019-20059](https://github.com/cve-vuln/CVE-2019-20059)
 
 ### CVE-2019-20085 (2019-12-29)
 
