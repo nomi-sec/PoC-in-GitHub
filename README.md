@@ -596,6 +596,9 @@ ZCBS Zijper Collectie Beheer Systeem (ZCBS), Zijper Publication Management Syste
 
 - [bigzooooz/CVE-2023-26692](https://github.com/bigzooooz/CVE-2023-26692)
 
+### CVE-2023-26852
+- [leekenghwa/CVE-2023-26852-Textpattern-v4.8.8-and-](https://github.com/leekenghwa/CVE-2023-26852-Textpattern-v4.8.8-and-)
+
 ### CVE-2023-26866 (2023-04-04)
 
 <code>
@@ -603,6 +606,14 @@ GreenPacket OH736's WR-1200 Indoor Unit, OT-235 with firmware versions M-IDU-1.6
 </code>
 
 - [lionelmusonza/CVE-2023-26866](https://github.com/lionelmusonza/CVE-2023-26866)
+
+### CVE-2023-26976 (2023-04-03)
+
+<code>
+Tenda AC6 v15.03.05.09_multi was discovered to contain a stack overflow via the ssid parameter in the form_fast_setting_wifi_set function.
+</code>
+
+- [FzBacon/CVE-2023-26976_tenda_AC6_stack_overflow](https://github.com/FzBacon/CVE-2023-26976_tenda_AC6_stack_overflow)
 
 ### CVE-2023-26982 (2023-03-29)
 
@@ -662,6 +673,9 @@ ReadtoMyShoe, a web app that lets users upload articles and listen to them later
 
 ### CVE-2023-27703
 - [happy0717/CVE-2023-27703](https://github.com/happy0717/CVE-2023-27703)
+
+### CVE-2023-27704
+- [happy0717/CVE-2023-27704](https://github.com/happy0717/CVE-2023-27704)
 
 ### CVE-2023-27842 (2023-03-21)
 
@@ -17267,6 +17281,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 - [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
 - [Serendipity-Lucky/CVE-2020-14882_ALL](https://github.com/Serendipity-Lucky/CVE-2020-14882_ALL)
+- [nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -22799,6 +22814,14 @@ An issue was discovered in disable_priv_mode in shell.c in GNU Bash through 5.0 
 
 - [M-ensimag/CVE-2019-18276](https://github.com/M-ensimag/CVE-2019-18276)
 - [SABI-Ensimag/CVE-2019-18276](https://github.com/SABI-Ensimag/CVE-2019-18276)
+
+### CVE-2019-18370 (2019-10-23)
+
+<code>
+An issue was discovered on Xiaomi Mi WiFi R3G devices before 2.28.23-stable. The backup file is in tar.gz format. After uploading, the application uses the tar zxf command to decompress, so one can control the contents of the files in the decompressed directory. In addition, the application's sh script for testing upload and download speeds reads a URL list from /tmp/speedtest_urls.xml, and there is a command injection vulnerability, as demonstrated by api/xqnetdetect/netspeed.
+</code>
+
+- [FzBacon/CVE-2019-18370_XiaoMi_Mi_WIFI_RCE_analysis](https://github.com/FzBacon/CVE-2019-18370_XiaoMi_Mi_WIFI_RCE_analysis)
 
 ### CVE-2019-18371 (2019-10-23)
 
