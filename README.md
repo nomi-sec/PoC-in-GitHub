@@ -3668,6 +3668,7 @@ A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ip
 </code>
 
 - [plummm/CVE-2022-27666](https://github.com/plummm/CVE-2022-27666)
+- [Albocoder/cve-2022-27666-exploits](https://github.com/Albocoder/cve-2022-27666-exploits)
 
 ### CVE-2022-27772 (2022-03-30)
 
@@ -6891,7 +6892,7 @@ Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through
 ### CVE-2022-47986 (2023-02-17)
 
 <code>
-IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.
+\nIBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.\n\n
 </code>
 
 - [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
