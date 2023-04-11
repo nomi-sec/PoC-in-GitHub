@@ -3236,6 +3236,7 @@ In Expat (aka libexpat) before 2.4.5, an attacker can trigger stack exhaustion i
 </code>
 
 - [ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25313](https://github.com/ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25313)
+- [Trinadh465/external_expat-2.1.0_CVE-2022-25313](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-25313)
 
 ### CVE-2022-25314 (2022-02-17)
 
