@@ -660,6 +660,9 @@ ReadtoMyShoe, a web app that lets users upload articles and listen to them later
 
 - [sec-fx/CVE-2023-27587-PoC](https://github.com/sec-fx/CVE-2023-27587-PoC)
 
+### CVE-2023-27703
+- [happy0717/CVE-2023-27703](https://github.com/happy0717/CVE-2023-27703)
+
 ### CVE-2023-27842 (2023-03-21)
 
 <code>
@@ -5572,7 +5575,12 @@ ProcessMaker before v3.5.4 was discovered to contain insecure permissions in the
 
 - [sornram9254/CVE-2022-38577-Processmaker](https://github.com/sornram9254/CVE-2022-38577-Processmaker)
 
-### CVE-2022-38604
+### CVE-2022-38604 (2023-04-10)
+
+<code>
+Wacom Driver 6.3.46-1 for Windows and lower was discovered to contain an arbitrary file deletion vulnerability.
+</code>
+
 - [LucaBarile/CVE-2022-38604](https://github.com/LucaBarile/CVE-2022-38604)
 
 ### CVE-2022-38766 (2023-01-03)
@@ -6313,7 +6321,12 @@ Inhabit Systems Pty Ltd Move CRM version 4, build 260 was discovered to contain 
 
 - [SecurityWillCheck/CVE-2022-43271](https://github.com/SecurityWillCheck/CVE-2022-43271)
 
-### CVE-2022-43293
+### CVE-2022-43293 (2023-04-10)
+
+<code>
+Wacom Driver 6.3.46-1 for Windows was discovered to contain an arbitrary file write vulnerability via the component \Wacom\Wacom_Tablet.exe.
+</code>
+
 - [LucaBarile/CVE-2022-43293](https://github.com/LucaBarile/CVE-2022-43293)
 
 ### CVE-2022-43332 (2022-11-17)
