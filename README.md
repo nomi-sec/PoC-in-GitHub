@@ -442,6 +442,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [adhikara13/CVE-2023-23752](https://github.com/adhikara13/CVE-2023-23752)
 - [AkbarWiraN/Joomla-Scanner](https://github.com/AkbarWiraN/Joomla-Scanner)
 - [Pari-Malam/DorkerW-CVE-2023-23752](https://github.com/Pari-Malam/DorkerW-CVE-2023-23752)
+- [equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -2034,6 +2035,8 @@ Secure Boot Security Feature Bypass Vulnerability.
 - [Wack0/CVE-2022-21894](https://github.com/Wack0/CVE-2022-21894)
 - [ASkyeye/CVE-2022-21894-Payload](https://github.com/ASkyeye/CVE-2022-21894-Payload)
 - [Wack0/batondrop_armv7](https://github.com/Wack0/batondrop_armv7)
+- [bakedmuffinman/BlackLotusDetection](https://github.com/bakedmuffinman/BlackLotusDetection)
+- [qjawls2003/BlackLotus-Detection](https://github.com/qjawls2003/BlackLotus-Detection)
 
 ### CVE-2022-21907 (2022-01-11)
 
@@ -3236,6 +3239,7 @@ In Expat (aka libexpat) before 2.4.5, an attacker can trigger stack exhaustion i
 </code>
 
 - [ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25313](https://github.com/ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25313)
+- [nidhi7598/expat_2.1.0_G2_CVE-2022-25313](https://github.com/nidhi7598/expat_2.1.0_G2_CVE-2022-25313)
 - [Trinadh465/external_expat-2.1.0_CVE-2022-25313](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-25313)
 
 ### CVE-2022-25314 (2022-02-17)
@@ -29194,6 +29198,7 @@ Directory traversal vulnerability in Action View in Ruby on Rails before 3.2.22.
 Multiple unspecified API endpoints in Jenkins before 1.650 and LTS before 1.642.2 allow remote authenticated users to execute arbitrary code via serialized data in an XML file, related to XStream and groovy.util.Expando.
 </code>
 
+- [jpiechowka/jenkins-cve-2016-0792](https://github.com/jpiechowka/jenkins-cve-2016-0792)
 - [R0B1NL1N/java-deserialization-exploits](https://github.com/R0B1NL1N/java-deserialization-exploits)
 
 ### CVE-2016-0793 (2016-04-01)
@@ -29825,6 +29830,14 @@ sshd in OpenSSH before 7.3, when SHA256 or SHA512 are used for user password has
 </code>
 
 - [justlce/CVE-2016-6210-Exploit](https://github.com/justlce/CVE-2016-6210-Exploit)
+
+### CVE-2016-6271 (2017-01-18)
+
+<code>
+The Bzrtp library (aka libbzrtp) 1.0.x before 1.0.4 allows man-in-the-middle attackers to conduct spoofing attacks by leveraging a missing HVI check on DHPart2 packet reception.
+</code>
+
+- [gteissier/CVE-2016-6271](https://github.com/gteissier/CVE-2016-6271)
 
 ### CVE-2016-6317 (2016-09-07)
 
