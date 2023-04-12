@@ -597,7 +597,12 @@ ZCBS Zijper Collectie Beheer Systeem (ZCBS), Zijper Publication Management Syste
 
 - [bigzooooz/CVE-2023-26692](https://github.com/bigzooooz/CVE-2023-26692)
 
-### CVE-2023-26852
+### CVE-2023-26852 (2023-04-12)
+
+<code>
+An arbitrary file upload vulnerability in the upload plugin of Textpattern v4.8.8 and below allows attackers to execute arbitrary code by uploading a crafted PHP file.
+</code>
+
 - [leekenghwa/CVE-2023-26852-Textpattern-v4.8.8-and-](https://github.com/leekenghwa/CVE-2023-26852-Textpattern-v4.8.8-and-)
 
 ### CVE-2023-26866 (2023-04-04)
@@ -672,10 +677,20 @@ ReadtoMyShoe, a web app that lets users upload articles and listen to them later
 
 - [sec-fx/CVE-2023-27587-PoC](https://github.com/sec-fx/CVE-2023-27587-PoC)
 
-### CVE-2023-27703
+### CVE-2023-27703 (2023-04-12)
+
+<code>
+The Android version of pikpak v1.29.2 was discovered to contain an information leak via the debug interface.
+</code>
+
 - [happy0717/CVE-2023-27703](https://github.com/happy0717/CVE-2023-27703)
 
-### CVE-2023-27704
+### CVE-2023-27704 (2023-04-12)
+
+<code>
+Void Tools Everything lower than v1.4.1.1022 was discovered to contain a Regular Expression Denial of Service (ReDoS).
+</code>
+
 - [happy0717/CVE-2023-27704](https://github.com/happy0717/CVE-2023-27704)
 
 ### CVE-2023-27842 (2023-03-21)
@@ -17282,8 +17297,8 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [pwn3z/CVE-2020-14882-WebLogic](https://github.com/pwn3z/CVE-2020-14882-WebLogic)
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
 - [kk98kk0/CVE-2020-14882](https://github.com/kk98kk0/CVE-2020-14882)
-- [nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui)
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
+- [qianniaoge/CVE-2020-14882_Exploit_Gui](https://github.com/qianniaoge/CVE-2020-14882_Exploit_Gui)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 - [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
 - [Serendipity-Lucky/CVE-2020-14882_ALL](https://github.com/Serendipity-Lucky/CVE-2020-14882_ALL)
