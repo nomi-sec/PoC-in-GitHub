@@ -2518,7 +2518,7 @@ Spring Security versions 5.5.x prior to 5.5.7, 5.6.x prior to 5.6.4, and earlier
 ### CVE-2022-22978 (2022-05-19)
 
 <code>
-In Spring Security versions 5.5.6 and 5.6.3 and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass
+In spring security versions prior to 5.4.11+, 5.5.7+ , 5.6.4+ and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass.
 </code>
 
 - [DeEpinGh0st/CVE-2022-22978](https://github.com/DeEpinGh0st/CVE-2022-22978)
@@ -4968,7 +4968,7 @@ Power Distribution Units running on Powertek firmware (multiple brands) before 3
 ### CVE-2022-33679 (2022-09-13)
 
 <code>
-Windows Kerberos Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-33647.
+Windows Kerberos Elevation of Privilege Vulnerability
 </code>
 
 - [Bdenneu/CVE-2022-33679](https://github.com/Bdenneu/CVE-2022-33679)
@@ -5058,7 +5058,7 @@ Windows Network File System Remote Code Execution Vulnerability.
 ### CVE-2022-34718 (2022-09-13)
 
 <code>
-Windows TCP/IP Remote Code Execution Vulnerability.
+Windows TCP/IP Remote Code Execution Vulnerability
 </code>
 
 - [SecLabResearchBV/CVE-2022-34718-PoC](https://github.com/SecLabResearchBV/CVE-2022-34718-PoC)
@@ -5066,7 +5066,7 @@ Windows TCP/IP Remote Code Execution Vulnerability.
 ### CVE-2022-34729 (2022-09-13)
 
 <code>
-Windows GDI Elevation of Privilege Vulnerability.
+Windows GDI Elevation of Privilege Vulnerability
 </code>
 
 - [Pwnrin/CVE-2022-34729](https://github.com/Pwnrin/CVE-2022-34729)
@@ -5216,7 +5216,7 @@ SQLite 1.0.12 through 3.39.x before 3.39.2 sometimes allows an array-bounds over
 ### CVE-2022-35841 (2022-09-13)
 
 <code>
-Windows Enterprise App Management Service Remote Code Execution Vulnerability.
+Windows Enterprise App Management Service Remote Code Execution Vulnerability
 </code>
 
 - [Wack0/CVE-2022-35841](https://github.com/Wack0/CVE-2022-35841)
@@ -5557,7 +5557,7 @@ Docker version 20.10.15, build fd82621 is vulnerable to Insecure Permissions. Un
 ### CVE-2022-37969 (2022-09-13)
 
 <code>
-Windows Common Log File System Driver Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-35803.
+Windows Common Log File System Driver Elevation of Privilege Vulnerability
 </code>
 
 - [fortra/CVE-2022-37969](https://github.com/fortra/CVE-2022-37969)
@@ -29194,7 +29194,6 @@ Directory traversal vulnerability in Action View in Ruby on Rails before 3.2.22.
 Multiple unspecified API endpoints in Jenkins before 1.650 and LTS before 1.642.2 allow remote authenticated users to execute arbitrary code via serialized data in an XML file, related to XStream and groovy.util.Expando.
 </code>
 
-- [jpiechowka/jenkins-cve-2016-0792](https://github.com/jpiechowka/jenkins-cve-2016-0792)
 - [R0B1NL1N/java-deserialization-exploits](https://github.com/R0B1NL1N/java-deserialization-exploits)
 
 ### CVE-2016-0793 (2016-04-01)
@@ -29826,14 +29825,6 @@ sshd in OpenSSH before 7.3, when SHA256 or SHA512 are used for user password has
 </code>
 
 - [justlce/CVE-2016-6210-Exploit](https://github.com/justlce/CVE-2016-6210-Exploit)
-
-### CVE-2016-6271 (2017-01-18)
-
-<code>
-The Bzrtp library (aka libbzrtp) 1.0.x before 1.0.4 allows man-in-the-middle attackers to conduct spoofing attacks by leveraging a missing HVI check on DHPart2 packet reception.
-</code>
-
-- [gteissier/CVE-2016-6271](https://github.com/gteissier/CVE-2016-6271)
 
 ### CVE-2016-6317 (2016-09-07)
 
