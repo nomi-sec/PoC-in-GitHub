@@ -12705,6 +12705,7 @@ MinIO is a Kubernetes native application for cloud storage. Prior to version `RE
 </code>
 
 - [0rx1/cve-2021-43858](https://github.com/0rx1/cve-2021-43858)
+- [khuntor/CVE-2021-43858-MinIO](https://github.com/khuntor/CVE-2021-43858-MinIO)
 
 ### CVE-2021-43883 (2021-12-15)
 
