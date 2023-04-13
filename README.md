@@ -187,6 +187,14 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 ### CVE-2023-21389
 - [sxsuperxuan/Weblogic_CVE-2023-21389](https://github.com/sxsuperxuan/Weblogic_CVE-2023-21389)
 
+### CVE-2023-21554 (2023-04-11)
+
+<code>
+Microsoft Message Queuing Remote Code Execution Vulnerability
+</code>
+
+- [hash0x1/CVE-2023-21554](https://github.com/hash0x1/CVE-2023-21554)
+
 ### CVE-2023-21608 (2023-01-18)
 
 <code>
@@ -692,6 +700,9 @@ Void Tools Everything lower than v1.4.1.1022 was discovered to contain a Regular
 </code>
 
 - [happy0717/CVE-2023-27704](https://github.com/happy0717/CVE-2023-27704)
+
+### CVE-2023-27746
+- [eyJhb/blackvue-cve-2023](https://github.com/eyJhb/blackvue-cve-2023)
 
 ### CVE-2023-27842 (2023-03-21)
 
