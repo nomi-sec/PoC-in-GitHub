@@ -196,6 +196,15 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 ### CVE-2023-21389
 - [sxsuperxuan/Weblogic_CVE-2023-21389](https://github.com/sxsuperxuan/Weblogic_CVE-2023-21389)
 
+### CVE-2023-21554 (2023-04-11)
+
+<code>
+Microsoft Message Queuing Remote Code Execution Vulnerability
+</code>
+
+- [select275/CVE-2023-21554-PoC](https://github.com/select275/CVE-2023-21554-PoC)
+- [HshMkr/CVE-2023-21554](https://github.com/HshMkr/CVE-2023-21554)
+
 ### CVE-2023-21608 (2023-01-18)
 
 <code>
@@ -1297,6 +1306,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [M4fiaB0y/CVE-2022-1388](https://github.com/M4fiaB0y/CVE-2022-1388)
 - [devengpk/CVE-2022-1388](https://github.com/devengpk/CVE-2022-1388)
 - [vaelwolf/CVE-2022-1388](https://github.com/vaelwolf/CVE-2022-1388)
+- [j-baines/tippa-my-tongue](https://github.com/j-baines/tippa-my-tongue)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -5594,6 +5604,15 @@ Windows Common Log File System Driver Elevation of Privilege Vulnerability
 
 - [fortra/CVE-2022-37969](https://github.com/fortra/CVE-2022-37969)
 
+### CVE-2022-38181 (2022-10-25)
+
+<code>
+The Arm Mali GPU kernel driver allows unprivileged users to access freed memory because GPU memory operations are mishandled. This affects Bifrost r0p0 through r38p1, and r39p0; Valhall r19p0 through r38p1, and r39p0; and Midgard r4p0 through r32p0.
+</code>
+
+- [Pro-me3us/CVE_2022_38181_Raven](https://github.com/Pro-me3us/CVE_2022_38181_Raven)
+- [Pro-me3us/CVE_2022_38181_Gazelle](https://github.com/Pro-me3us/CVE_2022_38181_Gazelle)
+
 ### CVE-2022-38217
 - [SupremacyTeam/evilReveal](https://github.com/SupremacyTeam/evilReveal)
 
@@ -7926,6 +7945,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ypl6/heaplens](https://github.com/ypl6/heaplens)
 - [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
+- [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
 - [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
 - [PhuketIsland/CVE-2021-3156-centos7](https://github.com/PhuketIsland/CVE-2021-3156-centos7)
 - [meowhua15/CVE-2021-3156](https://github.com/meowhua15/CVE-2021-3156)
@@ -8325,6 +8345,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [wudicainiao/cve-2021-4034](https://github.com/wudicainiao/cve-2021-4034)
 - [TanmoyG1800/CVE-2021-4034](https://github.com/TanmoyG1800/CVE-2021-4034)
 - [CronoX1/CVE-2021-4034](https://github.com/CronoX1/CVE-2021-4034)
+- [supportingmx/cve-2021-4034](https://github.com/supportingmx/cve-2021-4034)
 - [A1vinSmith/CVE-2021-4034](https://github.com/A1vinSmith/CVE-2021-4034)
 - [HellGateCorp/pwnkit](https://github.com/HellGateCorp/pwnkit)
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
@@ -8403,6 +8424,22 @@ A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_
 
 - [jbaines-r7/badblood](https://github.com/jbaines-r7/badblood)
 - [vesperp/CVE-2021-20038-SonicWall-RCE](https://github.com/vesperp/CVE-2021-20038-SonicWall-RCE)
+
+### CVE-2021-20138 (2021-12-09)
+
+<code>
+An unauthenticated command injection vulnerability exists in multiple parameters in the Gryphon Tower router’s web interface at /cgi-bin/luci/rc. An unauthenticated remote attacker on the same network can execute commands as root on the device by sending a specially crafted malicious packet to the web interface.
+</code>
+
+- [ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-20138](https://github.com/ShaikUsaf/frameworks_base_AOSP10_r33_CVE-2021-20138)
+
+### CVE-2021-20233 (2021-03-03)
+
+<code>
+A flaw was found in grub2 in versions prior to 2.06. Setparam_prefix() in the menu rendering code performs a length calculation on the assumption that expressing a quoted single quote will require 3 characters, while it actually requires 4 characters which allows an attacker to corrupt memory by one byte for each quote in the input. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
+</code>
+
+- [pauljrowland/BootHoleFix](https://github.com/pauljrowland/BootHoleFix)
 
 ### CVE-2021-20294 (2021-04-29)
 
@@ -10921,6 +10958,14 @@ Microsoft Azure Active Directory Connect Authentication Bypass Vulnerability
 
 - [Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability](https://github.com/Maxwitat/Check-AAD-Connect-for-CVE-2021-36949-vulnerability)
 
+### CVE-2021-36955 (2021-09-15)
+
+<code>
+Windows Common Log File System Driver Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-36963, CVE-2021-38633.
+</code>
+
+- [JiaJinRong12138/CVE-2021-36955-EXP](https://github.com/JiaJinRong12138/CVE-2021-36955-EXP)
+
 ### CVE-2021-36981 (2021-08-30)
 
 <code>
@@ -12024,6 +12069,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [iosifache/ApacheRCEEssay](https://github.com/iosifache/ApacheRCEEssay)
 - [Habib0x0/CVE-2021-41773](https://github.com/Habib0x0/CVE-2021-41773)
 - [pwn3z/CVE-2021-41773-Apache-RCE](https://github.com/pwn3z/CVE-2021-41773-Apache-RCE)
+- [EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-](https://github.com/EkamSinghWalia/Mitigation-Apache-CVE-2021-41773-)
 - [Plunder283/CVE-2021-41773](https://github.com/Plunder283/CVE-2021-41773)
 - [mightysai1997/cve-2021-41773](https://github.com/mightysai1997/cve-2021-41773)
 - [mightysai1997/CVE-2021-41773h](https://github.com/mightysai1997/CVE-2021-41773h)
@@ -13185,6 +13231,8 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 - [jaehnri/CVE-2021-44228](https://github.com/jaehnri/CVE-2021-44228)
 - [ra890927/Log4Shell-CVE-2021-44228-Demo](https://github.com/ra890927/Log4Shell-CVE-2021-44228-Demo)
+- [bughuntar/log4j-scan](https://github.com/bughuntar/log4j-scan)
+- [vidrez/Ethical-Hacking-Report-Log4j](https://github.com/vidrez/Ethical-Hacking-Report-Log4j)
 - [vino-theva/CVE-2021-44228](https://github.com/vino-theva/CVE-2021-44228)
 - [tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228](https://github.com/tharindudh/tharindudh-Log4j-Vulnerability-in-Ghidra-tool-CVE-2021-44228)
 - [eurogig/jankybank](https://github.com/eurogig/jankybank)
@@ -13624,6 +13672,7 @@ Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability 
 
 - [nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422)
 - [Chocapikk/CVE-2021-46422](https://github.com/Chocapikk/CVE-2021-46422)
+- [twoning/CVE-2021-46422_PoC](https://github.com/twoning/CVE-2021-46422_PoC)
 - [Awei507/CVE-RCE](https://github.com/Awei507/CVE-RCE)
 - [yigexioabai/CVE-2021-46422_RCE](https://github.com/yigexioabai/CVE-2021-46422_RCE)
 - [ZAxyr/CVE-2021-46422](https://github.com/ZAxyr/CVE-2021-46422)
