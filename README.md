@@ -95,6 +95,14 @@ Es wurde eine kritische Schwachstelle in Drag and Drop Multiple File Upload Cont
 
 - [Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal](https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal)
 
+### CVE-2023-1177 (2023-03-24)
+
+<code>
+Path Traversal: '\..\filename' in GitHub repository mlflow/mlflow prior to 2.2.1.
+</code>
+
+- [hh-hunter/ml-CVE-2023-1177](https://github.com/hh-hunter/ml-CVE-2023-1177)
+
 ### CVE-2023-1337 (2023-03-10)
 
 <code>
@@ -119,6 +127,7 @@ Es wurde eine Schwachstelle in jeecg-boot 3.5.0 entdeckt. Sie wurde als kritisch
 
 - [gobysec/CVE-2023-1454](https://github.com/gobysec/CVE-2023-1454)
 - [MzzdToT/CVE-2023-1454](https://github.com/MzzdToT/CVE-2023-1454)
+- [CKevens/CVE-2023-1454-EXP](https://github.com/CKevens/CVE-2023-1454-EXP)
 
 ### CVE-2023-1665 (2023-03-27)
 
@@ -800,7 +809,6 @@ The WP Import Export WordPress plugin (both free and premium versions) is vulner
 </code>
 
 - [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
-- [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
 ### CVE-2022-0265 (2022-03-03)
 
@@ -1242,7 +1250,7 @@ On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.
 - [jheeree/CVE-2022-1388-checker](https://github.com/jheeree/CVE-2022-1388-checker)
 - [MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed](https://github.com/MrCl0wnLab/Nuclei-Template-CVE-2022-1388-BIG-IP-iControl-REST-Exposed)
 - [Osyanina/westone-CVE-2022-1388-scanner](https://github.com/Osyanina/westone-CVE-2022-1388-scanner)
-- [ByteCaps/CVE-2022-1388-EXP](https://github.com/ByteCaps/CVE-2022-1388-EXP)
+- [doocop/CVE-2022-1388-EXP](https://github.com/doocop/CVE-2022-1388-EXP)
 - [blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit](https://github.com/blind-intruder/CVE-2022-1388-RCE-checker-and-POC-Exploit)
 - [Hudi233/CVE-2022-1388](https://github.com/Hudi233/CVE-2022-1388)
 - [sherlocksecurity/CVE-2022-1388-Exploit-POC](https://github.com/sherlocksecurity/CVE-2022-1388-Exploit-POC)
@@ -1974,7 +1982,6 @@ Rust is a multi-paradigm, general-purpose programming language designed for perf
 Gin-vue-admin is a backstage management system based on vue and gin. In versions prior to 2.4.7 low privilege users are able to modify higher privilege users. Authentication is missing on the `setUserInfo` function. Users are advised to update as soon as possible. There are no known workarounds.
 </code>
 
-- [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
 - [UzJu/CVE-2022-21660](https://github.com/UzJu/CVE-2022-21660)
 
 ### CVE-2022-21661 (2022-01-06)
@@ -4273,7 +4280,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [zkl21hoang/msdt-follina-office-rce](https://github.com/zkl21hoang/msdt-follina-office-rce)
 - [onecloudemoji/CVE-2022-30190](https://github.com/onecloudemoji/CVE-2022-30190)
 - [2867a0/CVE-2022-30190](https://github.com/2867a0/CVE-2022-30190)
-- [ByteCaps/CVE-2022-30190](https://github.com/ByteCaps/CVE-2022-30190)
+- [doocop/CVE-2022-30190](https://github.com/doocop/CVE-2022-30190)
 - [archanchoudhury/MSDT_CVE-2022-30190](https://github.com/archanchoudhury/MSDT_CVE-2022-30190)
 - [rickhenderson/cve-2022-30190](https://github.com/rickhenderson/cve-2022-30190)
 - [DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup](https://github.com/DOV3Y/CVE-2022-30190-ASR-Senintel-Process-Pickup)
@@ -20327,6 +20334,7 @@ An issue was discovered in OpenSSH 7.9. Due to the scp implementation being deri
 </code>
 
 - [53n7hu/SNP](https://github.com/53n7hu/SNP)
+- [Sigmw/CVE-2019-6111-poc](https://github.com/Sigmw/CVE-2019-6111-poc)
 
 ### CVE-2019-6203 (2020-04-17)
 
