@@ -197,14 +197,6 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 ### CVE-2023-21389
 - [sxsuperxuan/Weblogic_CVE-2023-21389](https://github.com/sxsuperxuan/Weblogic_CVE-2023-21389)
 
-### CVE-2023-21554 (2023-04-11)
-
-<code>
-Microsoft Message Queuing Remote Code Execution Vulnerability
-</code>
-
-- [00hshmakr/CVE-2023-21554](https://github.com/00hshmakr/CVE-2023-21554)
-
 ### CVE-2023-21608 (2023-01-18)
 
 <code>
@@ -710,7 +702,7 @@ Void Tools Everything lower than v1.4.1.1022 was discovered to contain a Regular
 
 - [happy0717/CVE-2023-27704](https://github.com/happy0717/CVE-2023-27704)
 
-### CVE-2023-27746 (-)
+### CVE-2023-27746 (2023-04-13)
 
 <code>
 BlackVue DR750-2CH LTE v.1.012_2022.10.26 was discovered to contain a weak default passphrase which can be easily cracked via a brute force attack if the WPA2 handshake is intercepted.
@@ -772,6 +764,9 @@ Smarty is a template engine for PHP. In affected versions smarty did not properl
 
 - [drkbcn/lblfixer_cve_2023_28447](https://github.com/drkbcn/lblfixer_cve_2023_28447)
 
+### CVE-2023-28615
+- [YSaxon/CVE-2023-28615](https://github.com/YSaxon/CVE-2023-28615)
+
 ### CVE-2023-29017 (2023-04-06)
 
 <code>
@@ -781,7 +776,12 @@ vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in mo
 - [timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017)
 - [Kaneki-hash/CVE-2023-29017-reverse-shell](https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell)
 
-### CVE-2023-30459
+### CVE-2023-30459 (2023-04-14)
+
+<code>
+SmartPTT SCADA 1.1.0.0 allows remote code execution (when the attacker has administrator privileges) by writing a malicious C# script and executing it on the server (via server settings in the administrator control panel on port 8101, by default).
+</code>
+
 - [Toxich4/CVE-2023-30459](https://github.com/Toxich4/CVE-2023-30459)
 
 
@@ -6040,6 +6040,7 @@ BitLocker Security Feature Bypass Vulnerability
 - [halsey51013/UpdateWindowsRE-CVE-2022-41099](https://github.com/halsey51013/UpdateWindowsRE-CVE-2022-41099)
 - [o0MattE0o/CVE-2022-41099-Fix](https://github.com/o0MattE0o/CVE-2022-41099-Fix)
 - [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
+- [dsn1321/KB5025175-CVE-2022-41099](https://github.com/dsn1321/KB5025175-CVE-2022-41099)
 
 ### CVE-2022-41114 (2022-11-09)
 
@@ -10021,6 +10022,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [Ki11i0n4ir3/CVE-2021-29447](https://github.com/Ki11i0n4ir3/CVE-2021-29447)
 - [viardant/CVE-2021-29447](https://github.com/viardant/CVE-2021-29447)
 - [0xRar/CVE-2021-29447-PoC](https://github.com/0xRar/CVE-2021-29447-PoC)
+- [zeroch1ll/cve-2021-29447](https://github.com/zeroch1ll/cve-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
 
@@ -25218,14 +25220,6 @@ An information disclosure vulnerability occurs when LibreOffice 6.0.3 and Apache
 </code>
 
 - [MrTaherAmine/CVE-2018-10583](https://github.com/MrTaherAmine/CVE-2018-10583)
-
-### CVE-2018-10678 (2018-05-13)
-
-<code>
-MyBB 1.8.15, when accessed with Microsoft Edge, mishandles 'target=&quot;_blank&quot; rel=&quot;noopener&quot;' in A elements, which makes it easier for remote attackers to conduct redirection attacks.
-</code>
-
-- [hbranco/CVE-2018-10678](https://github.com/hbranco/CVE-2018-10678)
 
 ### CVE-2018-10715
 - [alt3kx/CVE-2018-10715](https://github.com/alt3kx/CVE-2018-10715)
