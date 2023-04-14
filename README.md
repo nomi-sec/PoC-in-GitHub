@@ -203,9 +203,7 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
-- [select275/CVE-2023-21554-PoC](https://github.com/select275/CVE-2023-21554-PoC)
-- [HshMkr/CVE-2023-21554](https://github.com/HshMkr/CVE-2023-21554)
-- [checksec0xint/CVE-2023-21554-PoC](https://github.com/checksec0xint/CVE-2023-21554-PoC)
+- [00hshmakr/CVE-2023-21554](https://github.com/00hshmakr/CVE-2023-21554)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -591,7 +589,6 @@ In Stimulsoft Designer (Desktop) 2023.1.5, and 2023.1.4, once an attacker decomp
 
 ### CVE-2023-25610
 - [PSIRT-REPO/CVE-2023-25610](https://github.com/PSIRT-REPO/CVE-2023-25610)
-- [FortiSecurity/CVE-2023-25610](https://github.com/FortiSecurity/CVE-2023-25610)
 
 ### CVE-2023-26262 (2023-03-14)
 
@@ -789,14 +786,6 @@ vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in mo
 
 
 ## 2022
-### CVE-2022-0030 (2022-10-12)
-
-<code>
-An authentication bypass vulnerability in the Palo Alto Networks PAN-OS 8.1 web interface allows a network-based attacker with specific knowledge of the target firewall or Panorama appliance to impersonate an existing PAN-OS administrator and perform privileged actions.
-</code>
-
-- [PaloAlto-PSIRT-REPO/CVE-2022-0030](https://github.com/PaloAlto-PSIRT-REPO/CVE-2022-0030)
-
 ### CVE-2022-0185 (2022-02-11)
 
 <code>
@@ -1533,14 +1522,6 @@ A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.
 ### CVE-2022-3168
 - [irsl/CVE-2022-3168-adb-unexpected-reverse-forwards](https://github.com/irsl/CVE-2022-3168-adb-unexpected-reverse-forwards)
 
-### CVE-2022-3236 (2022-09-23)
-
-<code>
-A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older.
-</code>
-
-- [Sophos-PSIRT-REPO/CVE-2022-3236](https://github.com/Sophos-PSIRT-REPO/CVE-2022-3236)
-
 ### CVE-2022-3317 (2022-11-01)
 
 <code>
@@ -1951,14 +1932,6 @@ A vulnerability in the handling of RSA keys on devices running Cisco Adaptive Se
 </code>
 
 - [CiscoPSIRT/CVE-2022-20866](https://github.com/CiscoPSIRT/CVE-2022-20866)
-
-### CVE-2022-20928 (2022-11-15)
-
-<code>
-A vulnerability in the authentication and authorization flows for VPN connections in Cisco Adaptive Security Appliance (ASA) Software and Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to establish a connection as a different user. This vulnerability is due to a flaw in the authorization verifications during the VPN authentication flow. An attacker could exploit this vulnerability by sending a crafted packet during a VPN authentication. The attacker must have valid credentials to establish a VPN connection. A successful exploit could allow the attacker to establish a VPN connection with access privileges from a different user.
-</code>
-
-- [Cisco-PSIRT-Repo/CVE-2022-20928](https://github.com/Cisco-PSIRT-Repo/CVE-2022-20928)
 
 ### CVE-2022-21306 (2022-01-19)
 
@@ -3665,6 +3638,14 @@ A CSRF issue in /api/crontab on iRZ Mobile Routers through 2022-03-16 allows a t
 
 - [SakuraSamuraii/ez-iRZ](https://github.com/SakuraSamuraii/ez-iRZ)
 
+### CVE-2022-27228 (2022-03-22)
+
+<code>
+In the vote (aka &quot;Polls, Votes&quot;) module before 21.0.100 of Bitrix Site Manager, a remote unauthenticated attacker can execute arbitrary code.
+</code>
+
+- [trump88/CVE-2022-27228](https://github.com/trump88/CVE-2022-27228)
+
 ### CVE-2022-27251
 - [TheCyberGeek/CVE-2022-27251](https://github.com/TheCyberGeek/CVE-2022-27251)
 
@@ -4796,14 +4777,6 @@ VMware ESXi, Workstation, and Fusion contain a heap out-of-bounds write vulnerab
 ### CVE-2022-31749
 - [jbaines-r7/hook](https://github.com/jbaines-r7/hook)
 - [iveresk/cve-2022-31749](https://github.com/iveresk/cve-2022-31749)
-
-### CVE-2022-31789 (2022-09-06)
-
-<code>
-An integer overflow in WatchGuard Firebox and XTM appliances allows an unauthenticated remote attacker to trigger a buffer overflow and potentially execute arbitrary code by sending a malicious request to exposed management ports. This is fixed in Fireware OS 12.8.1, 12.5.10, and 12.1.4.
-</code>
-
-- [Watchguard-PSIRT-REPO/CVE-2022-31789](https://github.com/Watchguard-PSIRT-REPO/CVE-2022-31789)
 
 ### CVE-2022-31793 (2022-08-04)
 
@@ -6356,7 +6329,6 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [necroteddy/CVE-2022-42889](https://github.com/necroteddy/CVE-2022-42889)
 - [ReachabilityOrg/cve-2022-42889-text4shell-docker](https://github.com/ReachabilityOrg/cve-2022-42889-text4shell-docker)
 - [dgor2023/cve-2022-42889-text4shell-docker](https://github.com/dgor2023/cve-2022-42889-text4shell-docker)
-- [Sonicwall-PSIRT-REPO/CVE-2022-42889](https://github.com/Sonicwall-PSIRT-REPO/CVE-2022-42889)
 
 ### CVE-2022-42896 (2022-11-23)
 
