@@ -41,7 +41,7 @@ Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 
 - [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
-- [pandousa/CVE-2023-0297](https://github.com/pandousa/CVE-2023-0297)
+- [gudetem/CVE-2023-0297](https://github.com/gudetem/CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-15)
 
@@ -205,6 +205,7 @@ Microsoft Message Queuing Remote Code Execution Vulnerability
 
 - [select275/CVE-2023-21554-PoC](https://github.com/select275/CVE-2023-21554-PoC)
 - [HshMkr/CVE-2023-21554](https://github.com/HshMkr/CVE-2023-21554)
+- [checksec0xint/CVE-2023-21554-PoC](https://github.com/checksec0xint/CVE-2023-21554-PoC)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -4994,7 +4995,7 @@ net/netfilter/nf_tables_api.c in the Linux kernel through 5.18.1 allows a local 
 An authentication-bypass issue in the component http://MYDEVICEIP/cgi-bin-sdb/ExportSettings.sh of Mega System Technologies Inc MSNSwitch MNT.2408 allows unauthenticated attackers to arbitrarily configure settings within the application, leading to remote code execution.
 </code>
 
-- [pandousa/CVE-2022-32429](https://github.com/pandousa/CVE-2022-32429)
+- [gudetem/CVE-2022-32429](https://github.com/gudetem/CVE-2022-32429)
 
 ### CVE-2022-32532 (2022-06-28)
 
@@ -10818,6 +10819,14 @@ Insecure deserialization leading to Remote Code Execution was detected in the Or
 </code>
 
 - [Y4er/CVE-2021-35215](https://github.com/Y4er/CVE-2021-35215)
+
+### CVE-2021-35250 (2022-04-25)
+
+<code>
+A researcher reported a Directory Transversal Vulnerability in Serv-U 15.3. This may allow access to files relating to the Serv-U installation and server files. This issue has been resolved in Serv-U 15.3 Hotfix 1.
+</code>
+
+- [rissor41/SolarWinds-CVE-2021-35250](https://github.com/rissor41/SolarWinds-CVE-2021-35250)
 
 ### CVE-2021-35296 (2021-10-04)
 
