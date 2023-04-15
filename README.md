@@ -283,6 +283,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [DXask88MA/Weblogic-CVE-2023-21839](https://github.com/DXask88MA/Weblogic-CVE-2023-21839)
 - [hacats/CVE-2023-21839](https://github.com/hacats/CVE-2023-21839)
 - [Firebasky/CVE-2023-21839](https://github.com/Firebasky/CVE-2023-21839)
+- [houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839)
 
 ### CVE-2023-22432 (2023-03-05)
 
