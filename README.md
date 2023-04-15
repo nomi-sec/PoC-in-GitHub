@@ -197,6 +197,14 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 ### CVE-2023-21389
 - [sxsuperxuan/Weblogic_CVE-2023-21389](https://github.com/sxsuperxuan/Weblogic_CVE-2023-21389)
 
+### CVE-2023-21554 (2023-04-11)
+
+<code>
+Microsoft Message Queuing Remote Code Execution Vulnerability
+</code>
+
+- [xhshes/CVE-2023-21554-QueueJumper](https://github.com/xhshes/CVE-2023-21554-QueueJumper)
+
 ### CVE-2023-21608 (2023-01-18)
 
 <code>
@@ -578,9 +586,6 @@ In Stimulsoft Designer (Desktop) 2023.1.5, and 2023.1.4, once an attacker decomp
 </code>
 
 - [trustcves/CVE-2023-25263](https://github.com/trustcves/CVE-2023-25263)
-
-### CVE-2023-25610
-- [PSIRT-REPO/CVE-2023-25610](https://github.com/PSIRT-REPO/CVE-2023-25610)
 
 ### CVE-2023-26262 (2023-03-14)
 
@@ -25220,6 +25225,14 @@ An information disclosure vulnerability occurs when LibreOffice 6.0.3 and Apache
 </code>
 
 - [MrTaherAmine/CVE-2018-10583](https://github.com/MrTaherAmine/CVE-2018-10583)
+
+### CVE-2018-10678 (2018-05-13)
+
+<code>
+MyBB 1.8.15, when accessed with Microsoft Edge, mishandles 'target=&quot;_blank&quot; rel=&quot;noopener&quot;' in A elements, which makes it easier for remote attackers to conduct redirection attacks.
+</code>
+
+- [hbranco/CVE-2018-10678](https://github.com/hbranco/CVE-2018-10678)
 
 ### CVE-2018-10715
 - [alt3kx/CVE-2018-10715](https://github.com/alt3kx/CVE-2018-10715)
