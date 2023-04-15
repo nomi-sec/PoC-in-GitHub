@@ -204,6 +204,7 @@ Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
 - [xhshes/CVE-2023-21554-QueueJumper](https://github.com/xhshes/CVE-2023-21554-QueueJumper)
+- [durte/CVE-2023-21554-RCE](https://github.com/durte/CVE-2023-21554-RCE)
 
 ### CVE-2023-21608 (2023-01-18)
 
