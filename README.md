@@ -138,6 +138,9 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository l
 
 - [0xsu3ks/CVE-2023-1665](https://github.com/0xsu3ks/CVE-2023-1665)
 
+### CVE-2023-2002
+- [lrh2000/CVE-2023-2002](https://github.com/lrh2000/CVE-2023-2002)
+
 ### CVE-2023-20860 (2023-03-27)
 
 <code>
@@ -13287,6 +13290,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [heeloo123/CVE-2021-44228](https://github.com/heeloo123/CVE-2021-44228)
 - [github-kyruuu/log4shell-vulnweb](https://github.com/github-kyruuu/log4shell-vulnweb)
 - [demonrvm/Log4ShellRemediation](https://github.com/demonrvm/Log4ShellRemediation)
+- [funcid/log4j-exploit-with-fork-bomb](https://github.com/funcid/log4j-exploit-with-fork-bomb)
 
 ### CVE-2021-44255 (2022-01-31)
 
