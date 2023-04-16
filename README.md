@@ -18897,7 +18897,12 @@ Archive_Tar through 1.4.10 allows an unserialization attack because phar: is blo
 - [nopdata/cve-2020-28948](https://github.com/nopdata/cve-2020-28948)
 - [JinHao-L/PoC-for-CVE-2020-28948-CVE-2020-28949](https://github.com/JinHao-L/PoC-for-CVE-2020-28948-CVE-2020-28949)
 
-### CVE-2020-29007
+### CVE-2020-29007 (2023-04-15)
+
+<code>
+The Score extension through 0.3.0 for MediaWiki has a remote code execution vulnerability due to improper sandboxing of the GNU LilyPond executable. This allows any user with an ability to edit articles (potentially including unauthenticated anonymous users) to execute arbitrary Scheme or shell code by using crafted {{Image data to generate musical scores containing malicious code.
+</code>
+
 - [seqred-s-a/cve-2020-29007](https://github.com/seqred-s-a/cve-2020-29007)
 
 ### CVE-2020-29070 (2020-11-25)
