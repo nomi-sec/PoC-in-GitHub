@@ -191,7 +191,7 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
 - [maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot)
 - [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
-- [schdork/acropolypse-bot](https://github.com/schdork/acropolypse-bot)
+- [cafedork/acropolypse-bot](https://github.com/cafedork/acropolypse-bot)
 - [lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect)
 
 ### CVE-2023-21389
@@ -5592,10 +5592,20 @@ In Amanda 3.5.1, an information leak vulnerability was found in the calcsize SUI
 
 - [MaherAzzouzi/CVE-2022-37703](https://github.com/MaherAzzouzi/CVE-2022-37703)
 
-### CVE-2022-37704
+### CVE-2022-37704 (2023-04-15)
+
+<code>
+Amanda 3.5.1 allows privilege escalation from the regular user backup to root. The SUID binary located at /lib/amanda/rundump will execute /usr/sbin/dump as root with controlled arguments from the attacker which may lead to escalation of privileges, denial of service, and information disclosure.
+</code>
+
 - [MaherAzzouzi/CVE-2022-37704](https://github.com/MaherAzzouzi/CVE-2022-37704)
 
-### CVE-2022-37705
+### CVE-2022-37705 (2023-04-15)
+
+<code>
+A privilege escalation flaw was found in Amanda 3.5.1 in which the backup user can acquire root privileges. The vulnerable component is the runtar SUID program, which is a wrapper to run /usr/bin/tar with specific arguments that are controllable by the attacker. This program mishandles the arguments passed to tar binary (it expects that the argument name and value are separated with a space; however, separating them with an equals sign is also supported),
+</code>
+
 - [MaherAzzouzi/CVE-2022-37705](https://github.com/MaherAzzouzi/CVE-2022-37705)
 
 ### CVE-2022-37706 (2022-12-25)
@@ -6920,6 +6930,7 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
 - [BomberFish/Mandela-Rewritten](https://github.com/BomberFish/Mandela-Rewritten)
 - [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
+- [tdquang266/MDC](https://github.com/tdquang266/MDC)
 
 ### CVE-2022-46836 (2023-02-20)
 
