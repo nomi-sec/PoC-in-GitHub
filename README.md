@@ -216,6 +216,7 @@ Microsoft Message Queuing Remote Code Execution Vulnerability
 
 - [xhshes/CVE-2023-21554-QueueJumper](https://github.com/xhshes/CVE-2023-21554-QueueJumper)
 - [durte/CVE-2023-21554-RCE](https://github.com/durte/CVE-2023-21554-RCE)
+- [10xeye/CVE-2023-21554-POC](https://github.com/10xeye/CVE-2023-21554-POC)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -7048,14 +7049,6 @@ TP-Link TL-WR902AC devices through V3 0.9.1 allow remote authenticated attackers
 </code>
 
 - [ryan412/CVE-2022-48197](https://github.com/ryan412/CVE-2022-48197)
-
-### CVE-2022-48309 (2023-03-01)
-
-<code>
-A CSRF vulnerability allows malicious websites to retrieve logs and technical support archives in Sophos Connect versions older than 2.2.90.
-</code>
-
-- [nitschSB/CVE-2022-48309-and-CVE-2022-48310](https://github.com/nitschSB/CVE-2022-48309-and-CVE-2022-48310)
 
 ### CVE-2022-48311 (2023-02-06)
 
@@ -21797,6 +21790,7 @@ getchar.c in Vim before 8.1.1365 and Neovim before 0.3.6 allows remote attackers
 
 - [pcy190/ace-vim-neovim](https://github.com/pcy190/ace-vim-neovim)
 - [oldthree3/CVE-2019-12735-VIM-NEOVIM](https://github.com/oldthree3/CVE-2019-12735-VIM-NEOVIM)
+- [datntsec/CVE-2019-12735](https://github.com/datntsec/CVE-2019-12735)
 - [nickylimjj/cve-2019-12735](https://github.com/nickylimjj/cve-2019-12735)
 - [st9007a/CVE-2019-12735](https://github.com/st9007a/CVE-2019-12735)
 
@@ -21995,6 +21989,7 @@ In the Linux kernel before 5.1.17, ptrace_link in kernel/ptrace.c mishandles the
 - [RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-](https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-)
 - [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
 - [teddy47/CVE-2019-13272---Documentation](https://github.com/teddy47/CVE-2019-13272---Documentation)
+- [datntsec/CVE-2019-13272](https://github.com/datntsec/CVE-2019-13272)
 - [jana30116/CVE-2019-13272-Local-Privilege-Escalation](https://github.com/jana30116/CVE-2019-13272-Local-Privilege-Escalation)
 - [babyshen/CVE-2019-13272](https://github.com/babyshen/CVE-2019-13272)
 - [GgKendall/secureCodingDemo](https://github.com/GgKendall/secureCodingDemo)
