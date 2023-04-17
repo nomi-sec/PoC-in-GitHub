@@ -141,6 +141,14 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository l
 ### CVE-2023-2002
 - [lrh2000/CVE-2023-2002](https://github.com/lrh2000/CVE-2023-2002)
 
+### CVE-2023-2033 (2023-04-14)
+
+<code>
+Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033)
+
 ### CVE-2023-20860 (2023-03-27)
 
 <code>
@@ -230,6 +238,7 @@ Microsoft Word Remote Code Execution Vulnerability
 - [mikesxrs/CVE-2023-21716_YARA_Results](https://github.com/mikesxrs/CVE-2023-21716_YARA_Results)
 - [CKevens/CVE-2023-21716-POC](https://github.com/CKevens/CVE-2023-21716-POC)
 - [hv0l/CVE-2023-21716_exploit](https://github.com/hv0l/CVE-2023-21716_exploit)
+- [JMousqueton/CVE-2023-21716](https://github.com/JMousqueton/CVE-2023-21716)
 
 ### CVE-2023-21739 (2023-01-10)
 
@@ -25870,7 +25879,6 @@ MikroTik RouterOS through 6.42 allows unauthenticated remote attackers to read a
 - [sinichi449/Python-MikrotikLoginExploit](https://github.com/sinichi449/Python-MikrotikLoginExploit)
 - [yukar1z0e/CVE-2018-14847](https://github.com/yukar1z0e/CVE-2018-14847)
 - [hacker30468/Mikrotik-router-hack](https://github.com/hacker30468/Mikrotik-router-hack)
-- [flux10n/CVE-2018-14847](https://github.com/flux10n/CVE-2018-14847)
 - [babyshen/routeros-CVE-2018-14847-bytheway](https://github.com/babyshen/routeros-CVE-2018-14847-bytheway)
 
 ### CVE-2018-15131 (2019-05-30)
@@ -29776,14 +29784,6 @@ An issue was discovered in certain Apple products. iOS before 10.1 is affected. 
 
 - [i-o-s/CVE-2016-4669](https://github.com/i-o-s/CVE-2016-4669)
 
-### CVE-2016-4845 (2016-09-24)
-
-<code>
-Cross-site request forgery (CSRF) vulnerability on I-O DATA DEVICE HVL-A2.0, HVL-A3.0, HVL-A4.0, HVL-AT1.0S, HVL-AT2.0, HVL-AT3.0, HVL-AT4.0, HVL-AT2.0A, HVL-AT3.0A, and HVL-AT4.0A devices with firmware before 2.04 allows remote attackers to hijack the authentication of arbitrary users for requests that delete content.
-</code>
-
-- [kaito834/cve-2016-4845_csrf](https://github.com/kaito834/cve-2016-4845_csrf)
-
 ### CVE-2016-4861 (2017-02-16)
 
 <code>
@@ -29890,10 +29890,7 @@ Directory traversal vulnerability in cgi-bin/rftest.cgi on Crestron AirMedia AM-
 net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine the rate of challenge ACK segments, which makes it easier for remote attackers to hijack TCP sessions via a blind in-window attack.
 </code>
 
-- [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
-- [violentshell/rover](https://github.com/violentshell/rover)
 - [jduck/challack](https://github.com/jduck/challack)
-- [bplinux/chackd](https://github.com/bplinux/chackd)
 - [unkaktus/grill](https://github.com/unkaktus/grill)
 
 ### CVE-2016-5699 (2016-09-02)
@@ -29903,7 +29900,6 @@ CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2
 </code>
 
 - [bunseokbot/CVE-2016-5699-poc](https://github.com/bunseokbot/CVE-2016-5699-poc)
-- [shajinzheng/cve-2016-5699-jinzheng-sha](https://github.com/shajinzheng/cve-2016-5699-jinzheng-sha)
 
 ### CVE-2016-5734 (2016-07-02)
 
