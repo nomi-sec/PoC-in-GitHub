@@ -214,9 +214,7 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
-- [xhshes/CVE-2023-21554-QueueJumper](https://github.com/xhshes/CVE-2023-21554-QueueJumper)
-- [durte/CVE-2023-21554-RCE](https://github.com/durte/CVE-2023-21554-RCE)
-- [10xeye/CVE-2023-21554-POC](https://github.com/10xeye/CVE-2023-21554-POC)
+- [C00k3rbkr/CVE-2023-21554-RCE](https://github.com/C00k3rbkr/CVE-2023-21554-RCE)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -2466,6 +2464,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [J0ey17/CVE-2022-22963_Reverse-Shell-Exploit](https://github.com/J0ey17/CVE-2022-22963_Reverse-Shell-Exploit)
 - [Mustafa1986/CVE-2022-22963](https://github.com/Mustafa1986/CVE-2022-22963)
 - [SourM1lk/CVE-2022-22963-Exploit](https://github.com/SourM1lk/CVE-2022-22963-Exploit)
+- [randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE](https://github.com/randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE)
 
 ### CVE-2022-22965 (2022-04-01)
 
