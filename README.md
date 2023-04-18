@@ -5112,6 +5112,14 @@ The NT auth module in OpenAM before 14.6.6 allows a &quot;replace Samba username
 
 - [watchtowrlabs/CVE-2022-34298](https://github.com/watchtowrlabs/CVE-2022-34298)
 
+### CVE-2022-34527 (2022-07-29)
+
+<code>
+D-Link DSL-3782 v1.03 and below was discovered to contain a command injection vulnerability via the function byte_4C0160.
+</code>
+
+- [FzBacon/CVE-2022-34527_D-Link_DSL-3782_Router_command_injection](https://github.com/FzBacon/CVE-2022-34527_D-Link_DSL-3782_Router_command_injection)
+
 ### CVE-2022-34556 (2022-07-28)
 
 <code>
