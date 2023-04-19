@@ -146,6 +146,9 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository l
 
 - [0xsu3ks/CVE-2023-1665](https://github.com/0xsu3ks/CVE-2023-1665)
 
+### CVE-2023-1767
+- [weizman/CVE-2023-1767](https://github.com/weizman/CVE-2023-1767)
+
 ### CVE-2023-2002
 - [lrh2000/CVE-2023-2002](https://github.com/lrh2000/CVE-2023-2002)
 
@@ -7083,6 +7086,9 @@ TP-Link TL-WR902AC devices through V3 0.9.1 allow remote authenticated attackers
 
 - [swzhouu/CVE-2022-48311](https://github.com/swzhouu/CVE-2022-48311)
 
+### CVE-2022-48474
+- [sapellaniz/CVE-2022-48474_CVE-2022-48475](https://github.com/sapellaniz/CVE-2022-48474_CVE-2022-48475)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -10316,6 +10322,14 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 
 ### CVE-2021-31290
 - [qaisarafridi/cve-2021-31290](https://github.com/qaisarafridi/cve-2021-31290)
+
+### CVE-2021-31589 (2022-01-05)
+
+<code>
+A cross-site scripting (XSS) vulnerability has been reported and confirmed for BeyondTrust Secure Remote Access Base Software version 6.0.1 and older, which allows the injection of unauthenticated, specially-crafted web requests without proper sanitization.
+</code>
+
+- [karthi-the-hacker/CVE-2021-31589](https://github.com/karthi-the-hacker/CVE-2021-31589)
 
 ### CVE-2021-31630 (2021-08-03)
 
@@ -14774,7 +14788,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 - [carlos55ml/zerologon](https://github.com/carlos55ml/zerologon)
 - [Rvn0xsy/ZeroLogon](https://github.com/Rvn0xsy/ZeroLogon)
-- [guglia001/MassZeroLogon](https://github.com/guglia001/MassZeroLogon)
+- [likeww/MassZeroLogon](https://github.com/likeww/MassZeroLogon)
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
 - [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
 - [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
