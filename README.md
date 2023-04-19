@@ -222,7 +222,6 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
-- [b4rt0xx/CVE-2023-21554-POC](https://github.com/b4rt0xx/CVE-2023-21554-POC)
 - [Hashi0x/PoC-CVE-2023-21554](https://github.com/Hashi0x/PoC-CVE-2023-21554)
 
 ### CVE-2023-21608 (2023-01-18)
