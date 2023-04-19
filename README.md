@@ -568,6 +568,7 @@ OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.
 - [jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free)
 - [ticofookfook/CVE-2023-25136](https://github.com/ticofookfook/CVE-2023-25136)
 - [Christbowel/CVE-2023-25136](https://github.com/Christbowel/CVE-2023-25136)
+- [adhikara13/CVE-2023-25136](https://github.com/adhikara13/CVE-2023-25136)
 
 ### CVE-2023-25194 (2023-02-07)
 
