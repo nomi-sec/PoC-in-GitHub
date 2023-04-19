@@ -226,6 +226,7 @@ Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
 - [Hashi0x/PoC-CVE-2023-21554](https://github.com/Hashi0x/PoC-CVE-2023-21554)
+- [C3r7/CVE-2023-21554-RCE](https://github.com/C3r7/CVE-2023-21554-RCE)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -1702,6 +1703,9 @@ A path traversal vulnerability was identified in ReFirm Labs binwalk from versio
 </code>
 
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
+
+### CVE-2022-4896
+- [sapellaniz/CVE-2022-4896](https://github.com/sapellaniz/CVE-2022-4896)
 
 ### CVE-2022-4939 (2023-04-05)
 
@@ -12285,14 +12289,6 @@ MasaCMS 7.2.1 is affected by a path traversal vulnerability in /index.cfm/_api/a
 </code>
 
 - [0xRaw/CVE-2021-42183](https://github.com/0xRaw/CVE-2021-42183)
-
-### CVE-2021-42205 (2022-11-07)
-
-<code>
-ELAN Miniport touchpad Windows driver before 24.21.51.2, as used in PC hardware from multiple manufacturers, allows local users to cause a system crash by sending a certain IOCTL request, because that request is handled twice.
-</code>
-
-- [gmh5225/CVE-2021-42205](https://github.com/gmh5225/CVE-2021-42205)
 
 ### CVE-2021-42230 (2022-04-15)
 
