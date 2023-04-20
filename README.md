@@ -5108,6 +5108,14 @@ Apache Commons Configuration performs variable interpolation, allowing propertie
 - [sammwyy/CVE-2022-33980-POC](https://github.com/sammwyy/CVE-2022-33980-POC)
 - [Code-971/CVE-2022-33980-EXP](https://github.com/Code-971/CVE-2022-33980-EXP)
 
+### CVE-2022-34024 (2022-07-19)
+
+<code>
+Barangay Management System v1.0 was discovered to contain an arbitrary file upload vulnerability via the resident module editing function at /bmis/pages/resident/resident.php.
+</code>
+
+- [sorabug/bug_report](https://github.com/sorabug/bug_report)
+
 ### CVE-2022-34169 (2022-07-19)
 
 <code>
@@ -17837,6 +17845,7 @@ WSO2 Management Console through 5.10 allows XSS via the carbon/admin/login.jsp m
 </code>
 
 - [ydycjz6j/CVE-2020-17453-PoC](https://github.com/ydycjz6j/CVE-2020-17453-PoC)
+- [karthi-the-hacker/CVE-2020-17453](https://github.com/karthi-the-hacker/CVE-2020-17453)
 
 ### CVE-2020-17456 (2020-08-19)
 
