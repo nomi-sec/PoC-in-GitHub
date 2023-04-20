@@ -12290,6 +12290,14 @@ MasaCMS 7.2.1 is affected by a path traversal vulnerability in /index.cfm/_api/a
 
 - [0xRaw/CVE-2021-42183](https://github.com/0xRaw/CVE-2021-42183)
 
+### CVE-2021-42205 (2022-11-07)
+
+<code>
+ELAN Miniport touchpad Windows driver before 24.21.51.2, as used in PC hardware from multiple manufacturers, allows local users to cause a system crash by sending a certain IOCTL request, because that request is handled twice.
+</code>
+
+- [gmh5225/CVE-2021-42205](https://github.com/gmh5225/CVE-2021-42205)
+
 ### CVE-2021-42230 (2022-04-15)
 
 <code>
