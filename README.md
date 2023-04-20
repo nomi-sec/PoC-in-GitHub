@@ -231,6 +231,8 @@ Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
 - [Hashi0x/PoC-CVE-2023-21554](https://github.com/Hashi0x/PoC-CVE-2023-21554)
+- [g1x-r/CVE-2023-21554-PoC](https://github.com/g1x-r/CVE-2023-21554-PoC)
+- [g3tS3rvic3s/CVE-2023-21554-RCE-POC](https://github.com/g3tS3rvic3s/CVE-2023-21554-RCE-POC)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -917,6 +919,14 @@ Inappropriate implementation in File System API in Google Chrome on Windows prio
 
 - [Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera](https://github.com/Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera)
 - [maldev866/ChExp-CVE-2022-0337-](https://github.com/maldev866/ChExp-CVE-2022-0337-)
+
+### CVE-2022-0435 (2022-03-25)
+
+<code>
+A stack overflow flaw was found in the Linux kernel's TIPC protocol functionality in the way a user sends a packet with malicious content where the number of domain member nodes is higher than the 64 allowed. This flaw allows a remote user to crash the system or possibly escalate their privileges if they have access to the TIPC network.
+</code>
+
+- [wlswotmd/CVE-2022-0435](https://github.com/wlswotmd/CVE-2022-0435)
 
 ### CVE-2022-0441 (2022-03-07)
 
@@ -7754,7 +7764,7 @@ Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from C
 - [ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-)
 - [r1l4-i3pur1l4/CVE-2021-1732](https://github.com/r1l4-i3pur1l4/CVE-2021-1732)
 - [fenalik/CVE-2021-1732](https://github.com/fenalik/CVE-2021-1732)
-- [fenasal/CVE-2021-1732](https://github.com/fenasal/CVE-2021-1732)
+- [r2bet/CVE-2021-1732](https://github.com/r2bet/CVE-2021-1732)
 
 ### CVE-2021-1748 (2021-04-02)
 
