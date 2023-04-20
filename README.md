@@ -39,7 +39,7 @@ The public API function BIO_new_NDEF is a helper function used for streaming ASN
 There is a type confusion vulnerability relating to X.400 address processing inside an X.509 GeneralName. X.400 addresses were parsed as an ASN1_STRING but the public structure definition for GENERAL_NAME incorrectly specified the type of the x400Address field as ASN1_TYPE. This field is subsequently interpreted by the OpenSSL function GENERAL_NAME_cmp as an ASN1_TYPE rather than an ASN1_STRING. When CRL checking is enabled (i.e. the application sets the X509_V_FLAG_CRL_CHECK flag), this vulnerability may allow an attacker to pass arbitrary pointers to a memcmp call, enabling them to read memory contents or enact a denial of service. In most cases, the attack requires the attacker to provide both the certificate chain and CRL, neither of which need to have a valid signature. If the attacker only controls one of these inputs, the other input must already contain an X.400 address as a CRL distribution point, which is uncommon. As such, this vulnerability is most likely to only affect applications which have implemented their own functionality for retrieving CRLs over a network.
 </code>
 
-- [nidhi7598/OPENSSL_1.1.11g_G3_CVE-2023-0286](https://github.com/nidhi7598/OPENSSL_1.1.11g_G3_CVE-2023-0286)
+- [nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0286](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0286)
 
 ### CVE-2023-0297 (2023-01-13)
 
@@ -146,7 +146,12 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository l
 
 - [0xsu3ks/CVE-2023-1665](https://github.com/0xsu3ks/CVE-2023-1665)
 
-### CVE-2023-1767
+### CVE-2023-1767 (2023-04-20)
+
+<code>
+The Snyk Advisor website (https://snyk.io/advisor/) was vulnerable to a stored XSS prior to 28th March 2023. A feature of Snyk Advisor is to display the contents of a scanned package's Readme on its package health page. An attacker could create a package in NPM with an associated markdown README file containing XSS-able HTML tags. Upon Snyk Advisor importing the package, the XSS would run each time an end user browsed to the package's page on Snyk Advisor.
+</code>
+
 - [weizman/CVE-2023-1767](https://github.com/weizman/CVE-2023-1767)
 
 ### CVE-2023-2002
@@ -226,7 +231,6 @@ Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
 - [Hashi0x/PoC-CVE-2023-21554](https://github.com/Hashi0x/PoC-CVE-2023-21554)
-- [C3r7/CVE-2023-21554-RCE](https://github.com/C3r7/CVE-2023-21554-RCE)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -288,6 +292,15 @@ Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerabili
 - [HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768)
 - [CKevens/CVE-2023-21768-POC](https://github.com/CKevens/CVE-2023-21768-POC)
 - [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
+- [zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit)
+
+### CVE-2023-21823 (2023-02-14)
+
+<code>
+Windows Graphics Component Remote Code Execution Vulnerability
+</code>
+
+- [Elizarfish/CVE-2023-21823](https://github.com/Elizarfish/CVE-2023-21823)
 
 ### CVE-2023-21837 (2023-01-17)
 
@@ -580,6 +593,14 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 </code>
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
+
+### CVE-2023-25234 (2023-02-27)
+
+<code>
+Tenda AC500 V2.0.1.9(1307) is vulnerable to Buffer Overflow in function fromAddressNat via parameters entrys and mitInterface.
+</code>
+
+- [FzBacon/CVE-2023-25234_Tenda_AC6_stack_overflow](https://github.com/FzBacon/CVE-2023-25234_Tenda_AC6_stack_overflow)
 
 ### CVE-2023-25260 (2023-03-28)
 
@@ -14945,7 +14966,7 @@ The X.509 GeneralName type is a generic type for representing different types of
 </code>
 
 - [MBHudson/CVE-2020-1971](https://github.com/MBHudson/CVE-2020-1971)
-- [nidhi7598/OPENSSL_1.1.11g_G3_CVE-2020-1971](https://github.com/nidhi7598/OPENSSL_1.1.11g_G3_CVE-2020-1971)
+- [nidhi7598/OPENSSL_1.1.1g_G3_CVE-2020-1971](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2020-1971)
 
 ### CVE-2020-2034 (2020-07-08)
 
