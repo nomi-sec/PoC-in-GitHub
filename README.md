@@ -863,6 +863,9 @@ Zoho ManageEngine ADManager Plus through 7180 allows for authenticated users to 
 
 - [ohnonoyesyes/CVE-2023-29084](https://github.com/ohnonoyesyes/CVE-2023-29084)
 
+### CVE-2023-30458
+- [d34dun1c02n/CVE-2023-30458](https://github.com/d34dun1c02n/CVE-2023-30458)
+
 ### CVE-2023-30459 (2023-04-14)
 
 <code>
@@ -1451,6 +1454,7 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
+- [realsiao/cve-2022-1609-exploit](https://github.com/realsiao/cve-2022-1609-exploit)
 
 ### CVE-2022-1679 (2022-05-16)
 
@@ -1763,7 +1767,12 @@ THe WCFM Membership plugin for WordPress is vulnerable to privilege escalation i
 
 - [BaconCriCRi/PoC-CVE-2022-4939-](https://github.com/BaconCriCRi/PoC-CVE-2022-4939-)
 
-### CVE-2022-4944
+### CVE-2022-4944 (-)
+
+<code>
+Eine problematische Schwachstelle wurde in kalcaddle KodExplorer bis 4.49 entdeckt. Davon betroffen ist unbekannter Code. Durch Manipulation mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 4.50 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
 - [MrEmpy/CVE-2022-4944](https://github.com/MrEmpy/CVE-2022-4944)
 
 ### CVE-2022-5561
@@ -7126,7 +7135,7 @@ Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through
 ### CVE-2022-48150 (2023-04-21)
 
 <code>
-Shopware v5.5.10 was discovered to contain a cross-site scripting (XSS) vulnerability.
+Shopware v5.5.10 was discovered to contain a cross-site scripting (XSS) vulnerability via the recovery/install/ URI.
 </code>
 
 - [sahilop123/-CVE-2022-48150](https://github.com/sahilop123/-CVE-2022-48150)
