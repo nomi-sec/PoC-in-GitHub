@@ -730,6 +730,7 @@ This vulnerability allows remote attackers to bypass authentication on affected 
 </code>
 
 - [MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC)
+- [TamingSariMY/CVE-2023-27350-POC](https://github.com/TamingSariMY/CVE-2023-27350-POC)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -1761,6 +1762,9 @@ THe WCFM Membership plugin for WordPress is vulnerable to privilege escalation i
 </code>
 
 - [BaconCriCRi/PoC-CVE-2022-4939-](https://github.com/BaconCriCRi/PoC-CVE-2022-4939-)
+
+### CVE-2022-4944
+- [MrEmpy/CVE-2022-4944](https://github.com/MrEmpy/CVE-2022-4944)
 
 ### CVE-2022-5561
 - [Kvi74/CVE-2022-5561](https://github.com/Kvi74/CVE-2022-5561)
@@ -18314,7 +18318,7 @@ InterMind iMind Server through 3.13.65 allows remote unauthenticated attackers t
 A Server-Side Request Forgery (SSRF) affecting the PDF generation in MicroStrategy 10.4, 2019 before Update 6, and 2020 before Update 2 allows authenticated users to access the content of internal network resources or leak files from the local system via HTML containers embedded in a dossier/dashboard document. NOTE: 10.4., no fix will be released as version will reach end-of-life on 31/12/2020.
 </code>
 
-- [ziadanbari2021/exploit-CVE-2020-24815](https://github.com/ziadanbari2021/exploit-CVE-2020-24815)
+- [darkvirus-7x/exploit-CVE-2020-24815](https://github.com/darkvirus-7x/exploit-CVE-2020-24815)
 
 ### CVE-2020-24949 (2020-09-03)
 
