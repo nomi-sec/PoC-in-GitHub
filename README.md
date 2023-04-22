@@ -8092,6 +8092,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
 - [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
 - [PhuketIsland/CVE-2021-3156-centos7](https://github.com/PhuketIsland/CVE-2021-3156-centos7)
+- [0x4ndy/clif](https://github.com/0x4ndy/clif)
 - [meowhua15/CVE-2021-3156](https://github.com/meowhua15/CVE-2021-3156)
 
 ### CVE-2021-3157
