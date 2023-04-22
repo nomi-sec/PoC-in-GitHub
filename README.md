@@ -498,7 +498,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752)
 - [adhikara13/CVE-2023-23752](https://github.com/adhikara13/CVE-2023-23752)
 - [AkbarWiraN/Joomla-Scanner](https://github.com/AkbarWiraN/Joomla-Scanner)
-- [Pari-Malam/DorkerW-CVE-2023-23752](https://github.com/Pari-Malam/DorkerW-CVE-2023-23752)
+- [Pari-Malam/CVE-2023-23752](https://github.com/Pari-Malam/CVE-2023-23752)
 - [equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance)
 
 ### CVE-2023-23924 (2023-01-31)
