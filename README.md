@@ -1767,7 +1767,7 @@ THe WCFM Membership plugin for WordPress is vulnerable to privilege escalation i
 
 - [BaconCriCRi/PoC-CVE-2022-4939-](https://github.com/BaconCriCRi/PoC-CVE-2022-4939-)
 
-### CVE-2022-4944 (-)
+### CVE-2022-4944 (2023-04-22)
 
 <code>
 Eine problematische Schwachstelle wurde in kalcaddle KodExplorer bis 4.49 entdeckt. Davon betroffen ist unbekannter Code. Durch Manipulation mit unbekannten Daten kann eine cross-site request forgery-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 4.50 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
@@ -31838,7 +31838,7 @@ Git before 1.8.5.6, 1.9.x before 1.9.5, 2.0.x before 2.0.5, 2.1.x before 2.1.4, 
 Hitron CVE-30360 devices use a 578A958E3DD933FC DES key that is shared across different customers' installations, which makes it easier for attackers to obtain sensitive information by decrypting a backup configuration file, as demonstrated by a password hash in the um_auth_account_password field.
 </code>
 
-- [Manouchehri/hitron-cfg-decrypter](https://github.com/Manouchehri/hitron-cfg-decrypter)
+- [aimoda/hitron-cfg-decrypter](https://github.com/aimoda/hitron-cfg-decrypter)
 
 
 ## 2013
