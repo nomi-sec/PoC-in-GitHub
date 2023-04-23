@@ -147,6 +147,14 @@ Improper Restriction of Excessive Authentication Attempts in GitHub repository l
 
 - [0xsu3ks/CVE-2023-1665](https://github.com/0xsu3ks/CVE-2023-1665)
 
+### CVE-2023-1671 (2023-04-04)
+
+<code>
+A pre-auth command injection vulnerability in the warn-proceed handler of Sophos Web Appliance older than version 4.3.10.4 allows execution of arbitrary code.
+</code>
+
+- [ohnonoyesyes/CVE-2023-1671](https://github.com/ohnonoyesyes/CVE-2023-1671)
+
 ### CVE-2023-1767 (2023-04-20)
 
 <code>
