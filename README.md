@@ -60,6 +60,14 @@ Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
 
 - [mhaskar/CVE-2023-0315](https://github.com/mhaskar/CVE-2023-0315)
 
+### CVE-2023-0464 (2023-03-22)
+
+<code>
+A security vulnerability has been identified in all supported versions of OpenSSL related to the verification of X.509 certificate chains that include policy constraints. Attackers may be able to exploit this vulnerability by creating a malicious certificate chain that triggers exponential use of computational resources, leading to a denial-of-service (DoS) attack on affected systems. Policy processing is disabled by default but can be enabled by passing the `-policy' argument to the command line utilities or by calling the `X509_VERIFY_PARAM_set1_policies()' function.
+</code>
+
+- [Trinadh465/Openssl_1.1.1g_CVE-2023-0464](https://github.com/Trinadh465/Openssl_1.1.1g_CVE-2023-0464)
+
 ### CVE-2023-0669 (2023-02-06)
 
 <code>
@@ -740,6 +748,7 @@ This vulnerability allows remote attackers to bypass authentication on affected 
 
 - [MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC)
 - [TamingSariMY/CVE-2023-27350-POC](https://github.com/TamingSariMY/CVE-2023-27350-POC)
+- [horizon3ai/CVE-2023-27350](https://github.com/horizon3ai/CVE-2023-27350)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -831,7 +840,6 @@ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment startin
 - [yuyongxr/minio_cve-2023-28432](https://github.com/yuyongxr/minio_cve-2023-28432)
 - [Cuerz/CVE-2023-28432](https://github.com/Cuerz/CVE-2023-28432)
 - [Majus527/MinIO_CVE-2023-28432](https://github.com/Majus527/MinIO_CVE-2023-28432)
-- [7a6163/CVE-2023-28432](https://github.com/7a6163/CVE-2023-28432)
 - [LHXHL/Minio-CVE-2023-28432](https://github.com/LHXHL/Minio-CVE-2023-28432)
 - [h0ng10/CVE-2023-28432_docker](https://github.com/h0ng10/CVE-2023-28432_docker)
 - [CHINA-china/MinIO_CVE-2023-28432_EXP](https://github.com/CHINA-china/MinIO_CVE-2023-28432_EXP)
@@ -872,7 +880,12 @@ Zoho ManageEngine ADManager Plus through 7180 allows for authenticated users to 
 
 - [ohnonoyesyes/CVE-2023-29084](https://github.com/ohnonoyesyes/CVE-2023-29084)
 
-### CVE-2023-30458
+### CVE-2023-30458 (2023-04-24)
+
+<code>
+A username enumeration issue was discovered in Medicine Tracker System 1.0. The login functionality allows a malicious user to guess a valid username due to a different response time from invalid usernames. When one enters a valid username, the response time increases depending on the length of the supplied password.
+</code>
+
 - [d34dun1c02n/CVE-2023-30458](https://github.com/d34dun1c02n/CVE-2023-30458)
 
 ### CVE-2023-30459 (2023-04-14)
@@ -1192,7 +1205,7 @@ A flaw was found in JBoss-client. The vulnerability occurs due to a memory leak 
 ### CVE-2022-0918 (2022-03-16)
 
 <code>
-A vulnerability was discovered in the 389 Directory Server that allows an unauthenticated attacker with network access to the LDAP port to cause a denial of service. The denial of service is triggered by a single message sent over a TCP connection, no bind or other authentication is required. The message triggers a segmentation fault that results in slapd crashing.
+A vulnerability was discovered in the 389 Directory Server that allows an unauthenticated attacker with network access to the LDAP port to cause a denial of service. The denial of service is triggered by a single message sent over a TCP connection, no bind or other authentication is required. The message triggers a segmentation fault that results in slapd crashing.\n\n
 </code>
 
 - [NathanMulbrook/CVE-2022-0918](https://github.com/NathanMulbrook/CVE-2022-0918)
@@ -1748,6 +1761,14 @@ A vulnerability classified as problematic was found in SourceCodester Sanitizati
 </code>
 
 - [Urban4/CVE-2022-3992](https://github.com/Urban4/CVE-2022-3992)
+
+### CVE-2022-4304 (2023-02-08)
+
+<code>
+A timing based side channel exists in the OpenSSL RSA Decryption implementation which could be sufficient to recover a plaintext across a network in a Bleichenbacher style attack. To achieve a successful decryption an attacker would have to be able to send a very large number of trial messages for decryption. The vulnerability affects all RSA padding modes: PKCS#1 v1.5, RSA-OEAP and RSASVE. For example, in a TLS connection, RSA is commonly used by a client to send an encrypted pre-master secret to the server. An attacker that had observed a genuine connection between a client and a server could use this flaw to send trial messages to the server and record the time taken to process them. After a sufficiently large number of messages the attacker could recover the pre-master secret used for the original connection and thus be able to decrypt the application data sent over that connection.
+</code>
+
+- [Trinadh465/Openssl-1.1.1g_CVE-2022-4304](https://github.com/Trinadh465/Openssl-1.1.1g_CVE-2022-4304)
 
 ### CVE-2022-4395 (2023-01-30)
 
