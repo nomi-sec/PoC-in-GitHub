@@ -29,6 +29,7 @@ The public API function BIO_new_NDEF is a helper function used for streaming ASN
 </code>
 
 - [nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215](https://github.com/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215)
+- [nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215)
 
 ### CVE-2023-0264
 - [twwd/CVE-2023-0264](https://github.com/twwd/CVE-2023-0264)
@@ -1755,6 +1756,14 @@ The Membership For WooCommerce WordPress plugin before 2.1.7 does not validate u
 </code>
 
 - [MrG3P5/CVE-2022-4395](https://github.com/MrG3P5/CVE-2022-4395)
+
+### CVE-2022-4450 (2023-02-08)
+
+<code>
+The function PEM_read_bio_ex() reads a PEM file from a BIO and parses and decodes the &quot;name&quot; (e.g. &quot;CERTIFICATE&quot;), any header data and the payload data. If the function succeeds then the &quot;name_out&quot;, &quot;header&quot; and &quot;data&quot; arguments are populated with pointers to buffers containing the relevant decoded data. The caller is responsible for freeing those buffers. It is possible to construct a PEM file that results in 0 bytes of payload data. In this case PEM_read_bio_ex() will return a failure code but will populate the header argument with a pointer to a buffer that has already been freed. If the caller also frees this buffer then a double free will occur. This will most likely lead to a crash. This could be exploited by an attacker who has the ability to supply malicious PEM files for parsing to achieve a denial of service attack. The functions PEM_read_bio() and PEM_read() are simple wrappers around PEM_read_bio_ex() and therefore these functions are also directly affected. These functions are also called indirectly by a number of other OpenSSL functions including PEM_X509_INFO_read_bio_ex() and SSL_CTX_use_serverinfo_file() which are also vulnerable. Some OpenSSL internal uses of these functions are not vulnerable because the caller does not free the header argument if PEM_read_bio_ex() returns a failure code. These locations include the PEM_read_bio_TYPE() functions as well as the decoders introduced in OpenSSL 3.0. The OpenSSL asn1parse command line application is also impacted by this issue.
+</code>
+
+- [nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450)
 
 ### CVE-2022-4510 (2023-01-25)
 
@@ -10179,6 +10188,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [viardant/CVE-2021-29447](https://github.com/viardant/CVE-2021-29447)
 - [0xRar/CVE-2021-29447-PoC](https://github.com/0xRar/CVE-2021-29447-PoC)
 - [zeroch1ll/cve-2021-29447](https://github.com/zeroch1ll/cve-2021-29447)
+- [andyhsu024/CVE-2021-29447](https://github.com/andyhsu024/CVE-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
 
