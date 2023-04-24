@@ -163,6 +163,7 @@ A pre-auth command injection vulnerability in the warn-proceed handler of Sophos
 </code>
 
 - [ohnonoyesyes/CVE-2023-1671](https://github.com/ohnonoyesyes/CVE-2023-1671)
+- [W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC)
 
 ### CVE-2023-1767 (2023-04-20)
 
@@ -249,7 +250,6 @@ Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
 - [Hashi0x/PoC-CVE-2023-21554](https://github.com/Hashi0x/PoC-CVE-2023-21554)
-- [g1x-r/CVE-2023-21554-PoC](https://github.com/g1x-r/CVE-2023-21554-PoC)
 
 ### CVE-2023-21608 (2023-01-18)
 
