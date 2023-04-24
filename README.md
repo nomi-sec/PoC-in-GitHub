@@ -6106,6 +6106,14 @@ profanity through 1.60 has only four billion possible RNG initializations. Thus,
 
 - [PLSRcoin/CVE-2022-40769](https://github.com/PLSRcoin/CVE-2022-40769)
 
+### CVE-2022-40799 (2022-11-28)
+
+<code>
+Data Integrity Failure in 'Backup Config' in D-Link DNR-322L &lt;= 2.60B15 allows an authenticated attacker to execute OS level commands on the device.
+</code>
+
+- [rtfmkiesel/CVE-2022-40799](https://github.com/rtfmkiesel/CVE-2022-40799)
+
 ### CVE-2022-40881 (2022-11-16)
 
 <code>
