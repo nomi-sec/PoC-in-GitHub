@@ -184,6 +184,9 @@ Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote a
 
 - [insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033)
 
+### CVE-2023-2114
+- [SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114](https://github.com/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114)
+
 ### CVE-2023-20860 (2023-03-27)
 
 <code>
@@ -757,6 +760,14 @@ This vulnerability allows remote attackers to bypass authentication on affected 
 - [MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC)
 - [TamingSariMY/CVE-2023-27350-POC](https://github.com/TamingSariMY/CVE-2023-27350-POC)
 - [horizon3ai/CVE-2023-27350](https://github.com/horizon3ai/CVE-2023-27350)
+
+### CVE-2023-27524 (2023-04-24)
+
+<code>
+Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config.
+</code>
+
+- [horizon3ai/CVE-2023-27524](https://github.com/horizon3ai/CVE-2023-27524)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -2388,6 +2399,14 @@ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is uniqu
 </code>
 
 - [ahmetfurkans/CVE-2022-22718](https://github.com/ahmetfurkans/CVE-2022-22718)
+
+### CVE-2022-22733 (2022-01-20)
+
+<code>
+Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache ShardingSphere ElasticJob-UI allows an attacker who has guest account to do privilege escalation. This issue affects Apache ShardingSphere ElasticJob-UI Apache ShardingSphere ElasticJob-UI 3.x version 3.0.0 and prior versions.
+</code>
+
+- [Zeyad-Azima/CVE-2022-22733](https://github.com/Zeyad-Azima/CVE-2022-22733)
 
 ### CVE-2022-22814 (2022-03-10)
 
@@ -4279,6 +4298,7 @@ Certain WSO2 products allow unrestricted file upload with resultant remote code 
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
 - [devengpk/CVE-2022-29464](https://github.com/devengpk/CVE-2022-29464)
+- [Pari-Malam/CVE-2022-29464](https://github.com/Pari-Malam/CVE-2022-29464)
 
 ### CVE-2022-29465 (2022-08-05)
 
@@ -21133,6 +21153,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
 - [scopion/cve-2019-9081](https://github.com/scopion/cve-2019-9081)
+- [qafdevsec/CVE-2019-9081_PoC](https://github.com/qafdevsec/CVE-2019-9081_PoC)
 
 ### CVE-2019-9153 (2019-08-22)
 
