@@ -5204,6 +5204,14 @@ The Apache Spark UI offers the possibility to enable ACLs via the configuration 
 - [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
 - [ps-interactive/lab_security_apache_spark_emulation_detection](https://github.com/ps-interactive/lab_security_apache_spark_emulation_detection)
 
+### CVE-2022-33959 (2023-04-07)
+
+<code>
+IBM Sterling Order Management 10.0 could allow a user to bypass validation and perform unauthorized actions on behalf of other users. IBM X-Force ID: 229320.
+</code>
+
+- [gitadvisor/CVE-2022-33959](https://github.com/gitadvisor/CVE-2022-33959)
+
 ### CVE-2022-33980 (2022-07-06)
 
 <code>
@@ -9822,6 +9830,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
 - [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
 - [heikanet/Microsoft-Exchange-RCE](https://github.com/heikanet/Microsoft-Exchange-RCE)
+- [iceberg-N/cve-2021-26855](https://github.com/iceberg-N/cve-2021-26855)
 
 ### CVE-2021-26856
 - [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
