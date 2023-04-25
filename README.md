@@ -164,6 +164,7 @@ A pre-auth command injection vulnerability in the warn-proceed handler of Sophos
 
 - [ohnonoyesyes/CVE-2023-1671](https://github.com/ohnonoyesyes/CVE-2023-1671)
 - [W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC)
+- [behnamvanda/CVE-2023-1671](https://github.com/behnamvanda/CVE-2023-1671)
 
 ### CVE-2023-1767 (2023-04-20)
 
@@ -367,6 +368,14 @@ The FTP (aka &quot;Implementation of a simple FTP client and server&quot;) proje
 </code>
 
 - [viswagb/CVE-2023-22551](https://github.com/viswagb/CVE-2023-22551)
+
+### CVE-2023-22621 (2023-04-19)
+
+<code>
+Strapi through 4.5.5 allows authenticated Server-Side Template Injection (SSTI) that can be exploited to execute arbitrary code on the server. A remote attacker with access to the Strapi admin panel can inject a crafted payload that executes code on the server into an email template that bypasses the validation checks that should prevent code execution.
+</code>
+
+- [sofianeelhor/CVE-2023-22621-POC](https://github.com/sofianeelhor/CVE-2023-22621-POC)
 
 ### CVE-2023-22809 (2023-01-18)
 
@@ -663,6 +672,14 @@ In Stimulsoft Designer (Desktop) 2023.1.5, and 2023.1.4, once an attacker decomp
 </code>
 
 - [trustcves/CVE-2023-25263](https://github.com/trustcves/CVE-2023-25263)
+
+### CVE-2023-25690 (2023-03-07)
+
+<code>
+Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Request Smuggling attack.\n\n\n\n\nConfigurations are affected when mod_proxy is enabled along with some form of RewriteRule\n or ProxyPassMatch in which a non-specific pattern matches\n some portion of the user-supplied request-target (URL) data and is then\n re-inserted into the proxied request-target using variable \nsubstitution. For example, something like:\n\n\n\n\nRewriteEngine on\nRewriteRule &quot;^/here/(.*)&quot; &quot;http://example.com:8080/elsewhere?$1&quot;; [P]\nProxyPassReverse /here/ http://example.com:8080/\n\n\nRequest splitting/smuggling could result in bypass of access controls in the proxy server, proxying unintended URLs to existing origin servers, and cache poisoning. Users are recommended to update to at least version 2.4.56 of Apache HTTP Server.\n\n\n
+</code>
+
+- [tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL)
 
 ### CVE-2023-26262 (2023-03-14)
 
@@ -1470,7 +1487,7 @@ heap-use-after-free in GitHub repository radareorg/radare2 prior to 5.7.0. This 
 ### CVE-2022-1471 (2022-12-01)
 
 <code>
-SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization.
+SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.\n
 </code>
 
 - [1fabunicorn/SnakeYAML-CVE-2022-1471-POC](https://github.com/1fabunicorn/SnakeYAML-CVE-2022-1471-POC)
