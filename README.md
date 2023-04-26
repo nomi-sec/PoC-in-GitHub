@@ -1,7 +1,12 @@
 # PoC in GitHub
 
 ## 2023
-### CVE-2023-0045
+### CVE-2023-0045 (2023-04-25)
+
+<code>
+The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set  function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.  The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.\n\nWe recommend upgrading past commit a664ec9158eeddd75121d39c9a0758016097fa96\n\n
+</code>
+
 - [ASkyeye/CVE-2023-0045](https://github.com/ASkyeye/CVE-2023-0045)
 - [es0j/CVE-2023-0045](https://github.com/es0j/CVE-2023-0045)
 
@@ -673,6 +678,9 @@ In Stimulsoft Designer (Desktop) 2023.1.5, and 2023.1.4, once an attacker decomp
 
 - [trustcves/CVE-2023-25263](https://github.com/trustcves/CVE-2023-25263)
 
+### CVE-2023-25292
+- [brainkok/CVE-2023-25292](https://github.com/brainkok/CVE-2023-25292)
+
 ### CVE-2023-25690 (2023-03-07)
 
 <code>
@@ -777,6 +785,7 @@ This vulnerability allows remote attackers to bypass authentication on affected 
 - [MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC)
 - [TamingSariMY/CVE-2023-27350-POC](https://github.com/TamingSariMY/CVE-2023-27350-POC)
 - [horizon3ai/CVE-2023-27350](https://github.com/horizon3ai/CVE-2023-27350)
+- [adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350)
 
 ### CVE-2023-27524 (2023-04-24)
 
@@ -5828,6 +5837,7 @@ enlightenment_sys in Enlightenment before 0.25.4 allows local users to gain priv
 
 - [MaherAzzouzi/CVE-2022-37706-LPE-exploit](https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit)
 - [ECU-10525611-Xander/CVE-2022-37706](https://github.com/ECU-10525611-Xander/CVE-2022-37706)
+- [GrayHatZone/CVE-2022-37706-LPE-exploit](https://github.com/GrayHatZone/CVE-2022-37706-LPE-exploit)
 
 ### CVE-2022-37708 (2023-01-31)
 
@@ -27398,9 +27408,6 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
-- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
-- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
-- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -27536,14 +27543,6 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Serve
 
 - [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
 - [jptr218/mysql_dos](https://github.com/jptr218/mysql_dos)
-
-### CVE-2017-3730 (2017-05-04)
-
-<code>
-In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
-</code>
-
-- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
 
 ### CVE-2017-3881 (2017-03-17)
 
