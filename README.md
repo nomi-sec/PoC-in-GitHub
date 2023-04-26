@@ -18069,7 +18069,6 @@ A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as
 - [Osyanina/westone-CVE-2020-17519-scanner](https://github.com/Osyanina/westone-CVE-2020-17519-scanner)
 - [givemefivw/CVE-2020-17519](https://github.com/givemefivw/CVE-2020-17519)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
-- [thebatmanfuture/apacheflink----POC](https://github.com/thebatmanfuture/apacheflink----POC)
 - [zhangweijie11/CVE-2020-17519](https://github.com/zhangweijie11/CVE-2020-17519)
 
 ### CVE-2020-17523 (2021-02-03)
@@ -27408,6 +27407,9 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
+- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -27543,6 +27545,14 @@ Vulnerability in the MySQL Server component of Oracle MySQL (subcomponent: Serve
 
 - [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
 - [jptr218/mysql_dos](https://github.com/jptr218/mysql_dos)
+
+### CVE-2017-3730 (2017-05-04)
+
+<code>
+In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
+</code>
+
+- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
 
 ### CVE-2017-3881 (2017-03-17)
 
