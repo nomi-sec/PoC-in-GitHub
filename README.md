@@ -170,6 +170,7 @@ A pre-auth command injection vulnerability in the warn-proceed handler of Sophos
 - [ohnonoyesyes/CVE-2023-1671](https://github.com/ohnonoyesyes/CVE-2023-1671)
 - [W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC)
 - [behnamvanda/CVE-2023-1671](https://github.com/behnamvanda/CVE-2023-1671)
+- [c4ln/CVE-2023-1671-POC](https://github.com/c4ln/CVE-2023-1671-POC)
 
 ### CVE-2023-1767 (2023-04-20)
 
@@ -679,7 +680,12 @@ In Stimulsoft Designer (Desktop) 2023.1.5, and 2023.1.4, once an attacker decomp
 
 - [trustcves/CVE-2023-25263](https://github.com/trustcves/CVE-2023-25263)
 
-### CVE-2023-25292
+### CVE-2023-25292 (2023-04-26)
+
+<code>
+Reflected Cross Site Scripting (XSS) in Intermesh BV Group-Office version 6.6.145, allows attackers to gain escalated privileges and gain sensitive information via the GO_LANGUAGE cookie.
+</code>
+
 - [brainkok/CVE-2023-25292](https://github.com/brainkok/CVE-2023-25292)
 
 ### CVE-2023-25690 (2023-03-07)
@@ -795,6 +801,7 @@ Session Validation attacks in Apache Superset versions up to and including 2.0.1
 </code>
 
 - [horizon3ai/CVE-2023-27524](https://github.com/horizon3ai/CVE-2023-27524)
+- [Okaytc/Superset_auth_bypass_check](https://github.com/Okaytc/Superset_auth_bypass_check)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -933,6 +940,9 @@ Zoho ManageEngine ADManager Plus through 7180 allows for authenticated users to 
 </code>
 
 - [ohnonoyesyes/CVE-2023-29084](https://github.com/ohnonoyesyes/CVE-2023-29084)
+
+### CVE-2023-29489
+- [learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489)
 
 ### CVE-2023-30458 (2023-04-24)
 
@@ -6535,6 +6545,7 @@ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS SSL-VPN 7.2.0 th
 - [Amir-hy/cve-2022-42475](https://github.com/Amir-hy/cve-2022-42475)
 - [Mustafa1986/cve-2022-42475-Fortinet](https://github.com/Mustafa1986/cve-2022-42475-Fortinet)
 - [CKevens/CVE-2022-42475-RCE-POC](https://github.com/CKevens/CVE-2022-42475-RCE-POC)
+- [natceil/cve-2022-42475](https://github.com/natceil/cve-2022-42475)
 
 ### CVE-2022-42864 (2022-12-15)
 
@@ -18922,6 +18933,7 @@ A flaw was found in the Linux kernel’s implementation of MIDI, where an attack
 </code>
 
 - [kiks7/CVE-2020-27786-Kernel-Exploit](https://github.com/kiks7/CVE-2020-27786-Kernel-Exploit)
+- [elbiazo/CVE-2020-27786](https://github.com/elbiazo/CVE-2020-27786)
 
 ### CVE-2020-27824 (2021-05-13)
 
