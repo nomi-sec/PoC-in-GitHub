@@ -950,6 +950,7 @@ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the c
 
 - [learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489)
 - [xKore123/cPanel-CVE-2023-29489](https://github.com/xKore123/cPanel-CVE-2023-29489)
+- [ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py)
 
 ### CVE-2023-30458 (2023-04-24)
 
@@ -974,6 +975,17 @@ PrestaShop is an Open Source e-commerce web application. Versions prior to 8.0.4
 </code>
 
 - [drkbcn/lblfixer_cve_2023_30839](https://github.com/drkbcn/lblfixer_cve_2023_30839)
+
+### CVE-2023-30854 (2023-04-28)
+
+<code>
+AVideo is an open source video platform. Prior to version 12.4, an OS Command Injection vulnerability in an authenticated endpoint `/plugin/CloneSite/cloneClient.json.php` allows attackers to achieve Remote Code Execution. This issue is fixed in version 12.4.
+</code>
+
+- [jmrcsnchz/CVE-2023-30854](https://github.com/jmrcsnchz/CVE-2023-30854)
+
+### CVE-2023-31443
+- [MaherAzzouzi/CVE-2023-31443](https://github.com/MaherAzzouzi/CVE-2023-31443)
 
 ### CVE-2023-31445
 - [Dodge-MPTC/CVE-2023-31445-Unprivileged-Information-Disclosure](https://github.com/Dodge-MPTC/CVE-2023-31445-Unprivileged-Information-Disclosure)
@@ -4121,6 +4133,7 @@ Dompdf 1.2.1 allows remote code execution via a .php file in the src:url field o
 </code>
 
 - [rvizx/CVE-2022-28368](https://github.com/rvizx/CVE-2022-28368)
+- [That-Guy-Steve/CVE-2022-28368-handler](https://github.com/That-Guy-Steve/CVE-2022-28368-handler)
 
 ### CVE-2022-28381 (2022-04-03)
 
@@ -11435,6 +11448,7 @@ The Gutenberg Template Library &amp; Redux Framework plugin &lt;= 4.2.11 for Wor
 - [twseptian/cve-2021-38314](https://github.com/twseptian/cve-2021-38314)
 - [c0ff33b34n/CVE-2021-38314](https://github.com/c0ff33b34n/CVE-2021-38314)
 - [akhilkoradiya/CVE-2021-38314](https://github.com/akhilkoradiya/CVE-2021-38314)
+- [0xGabe/CVE-2021-38314](https://github.com/0xGabe/CVE-2021-38314)
 
 ### CVE-2021-38540 (2021-09-09)
 
@@ -17659,6 +17673,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
 - [Serendipity-Lucky/CVE-2020-14882_ALL](https://github.com/Serendipity-Lucky/CVE-2020-14882_ALL)
 - [nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882)
+- [H4shByte/CVE-2020-14882](https://github.com/H4shByte/CVE-2020-14882)
 
 ### CVE-2020-14883 (2020-10-21)
 
