@@ -8713,7 +8713,7 @@ An out-of-bounds (OOB) memory access flaw was found in the Linux kernel's eBPF d
 - [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
 
 ### CVE-2021-10086
-- [xiaoyun-1/CVE-2021-10086](https://github.com/xiaoyun-1/CVE-2021-10086)
+- [AK-blank/CVE-2021-10086](https://github.com/AK-blank/CVE-2021-10086)
 
 ### CVE-2021-20038 (2021-12-08)
 
@@ -23726,7 +23726,6 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 - [scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114)
 - [j4k0m/CVE-2018-0114](https://github.com/j4k0m/CVE-2018-0114)
 - [mmeza-developer/CVE-2018-0114](https://github.com/mmeza-developer/CVE-2018-0114)
-- [CyberSecurityUP/CVE-2018-0114-Exploit](https://github.com/CyberSecurityUP/CVE-2018-0114-Exploit)
 
 ### CVE-2018-0202 (2018-03-27)
 
@@ -24729,7 +24728,6 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [ItsFadinG/CVE-2018-6574](https://github.com/ItsFadinG/CVE-2018-6574)
 - [imojne/CVE-2018-6574-POC](https://github.com/imojne/CVE-2018-6574-POC)
 - [twseptian/cve-2018-6574](https://github.com/twseptian/cve-2018-6574)
-- [the-valluvarsploit/CVE-2018-6574](https://github.com/the-valluvarsploit/CVE-2018-6574)
 - [yavolo/CVE-2018-6574](https://github.com/yavolo/CVE-2018-6574)
 - [ThaFWord/pentesterlab](https://github.com/ThaFWord/pentesterlab)
 - [Cypheer/exploit_CVE-2018-6574](https://github.com/Cypheer/exploit_CVE-2018-6574)
@@ -25807,14 +25805,6 @@ Buffer overflow in OPC UA applications allows remote attackers to trigger a stac
 </code>
 
 - [kevinherron/stack-overflow-poc](https://github.com/kevinherron/stack-overflow-poc)
-
-### CVE-2018-12326 (2018-06-17)
-
-<code>
-Buffer overflow in redis-cli of Redis before 4.0.10 and 5.x before 5.0 RC3 allows an attacker to achieve code execution and escalate to higher privileges via a crafted command line. NOTE: It is unclear whether there are any common situations in which redis-cli is used with, for example, a -h (aka hostname) argument from an untrusted source.
-</code>
-
-- [spasm5/CVE-2018-12326](https://github.com/spasm5/CVE-2018-12326)
 
 ### CVE-2018-12386 (2018-10-18)
 
