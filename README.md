@@ -288,7 +288,7 @@ Microsoft Word Remote Code Execution Vulnerability
 ### CVE-2023-21739 (2023-01-10)
 
 <code>
-Windows Bluetooth Driver Elevation of Privilege Vulnerability.
+Windows Bluetooth Driver Elevation of Privilege Vulnerability
 </code>
 
 - [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
@@ -296,7 +296,7 @@ Windows Bluetooth Driver Elevation of Privilege Vulnerability.
 ### CVE-2023-21742 (2023-01-10)
 
 <code>
-Microsoft SharePoint Server Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2023-21744.
+Microsoft SharePoint Server Remote Code Execution Vulnerability
 </code>
 
 - [ohnonoyesyes/CVE-2023-21742](https://github.com/ohnonoyesyes/CVE-2023-21742)
@@ -304,7 +304,7 @@ Microsoft SharePoint Server Remote Code Execution Vulnerability. This CVE ID is 
 ### CVE-2023-21752 (2023-01-10)
 
 <code>
-Windows Backup Service Elevation of Privilege Vulnerability.
+Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
 - [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
@@ -312,7 +312,7 @@ Windows Backup Service Elevation of Privilege Vulnerability.
 ### CVE-2023-21768 (2023-01-10)
 
 <code>
-Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability.
+Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
 </code>
 
 - [chompie1337/Windows_LPE_AFD_CVE-2023-21768](https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768)
@@ -942,8 +942,14 @@ Zoho ManageEngine ADManager Plus through 7180 allows for authenticated users to 
 
 - [ohnonoyesyes/CVE-2023-29084](https://github.com/ohnonoyesyes/CVE-2023-29084)
 
-### CVE-2023-29489
+### CVE-2023-29489 (2023-04-27)
+
+<code>
+An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the cpsrvd error page via an invalid webcall ID, aka SEC-669. The fixed versions are 11.109.9999.116, 11.108.0.13, 11.106.0.18, and 11.102.0.31.
+</code>
+
 - [learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489)
+- [xKore123/cPanel-CVE-2023-29489](https://github.com/xKore123/cPanel-CVE-2023-29489)
 
 ### CVE-2023-30458 (2023-04-24)
 
