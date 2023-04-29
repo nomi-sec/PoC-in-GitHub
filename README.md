@@ -952,6 +952,8 @@ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the c
 - [learnerboy88/CVE-2023-29489](https://github.com/learnerboy88/CVE-2023-29489)
 - [xKore123/cPanel-CVE-2023-29489](https://github.com/xKore123/cPanel-CVE-2023-29489)
 - [ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py)
+- [Mostafa-Elguerdawi/CVE-2023-29489.yaml](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml)
+- [Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489)
 
 ### CVE-2023-30458 (2023-04-24)
 
