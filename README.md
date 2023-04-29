@@ -11280,7 +11280,7 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
-- [cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934)
+- [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
 - [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
