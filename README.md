@@ -631,6 +631,7 @@ OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.
 - [ticofookfook/CVE-2023-25136](https://github.com/ticofookfook/CVE-2023-25136)
 - [Christbowel/CVE-2023-25136](https://github.com/Christbowel/CVE-2023-25136)
 - [adhikara13/CVE-2023-25136](https://github.com/adhikara13/CVE-2023-25136)
+- [nhakobyan685/CVE-2023-25136](https://github.com/nhakobyan685/CVE-2023-25136)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -19370,6 +19371,7 @@ The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows
 
 - [dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489)
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
+- [bod4k/CVE-2020-35489](https://github.com/bod4k/CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
