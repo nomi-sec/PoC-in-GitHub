@@ -763,6 +763,9 @@ An issue in the password reset function of Peppermint v0.2.4 allows attackers to
 
 - [bypazs/CVE-2023-26984](https://github.com/bypazs/CVE-2023-26984)
 
+### CVE-2023-27035
+- [fivex3/CVE-2023-27035](https://github.com/fivex3/CVE-2023-27035)
+
 ### CVE-2023-27053
 - [d3fudd/XSS-HGJ310](https://github.com/d3fudd/XSS-HGJ310)
 
@@ -15046,6 +15049,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
 - [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
 - [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
+- [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 
 ### CVE-2020-1473 (2020-08-17)
 
@@ -19380,7 +19384,6 @@ The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows
 
 - [dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489)
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
-- [bod4k/CVE-2020-35489](https://github.com/bod4k/CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
