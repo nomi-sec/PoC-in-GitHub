@@ -954,6 +954,10 @@ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the c
 - [ipk1/CVE-2023-29489.py](https://github.com/ipk1/CVE-2023-29489.py)
 - [Mostafa-Elguerdawi/CVE-2023-29489.yaml](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml)
 - [Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489)
+- [haxor1337x/Scanner-CVE-2023-29489](https://github.com/haxor1337x/Scanner-CVE-2023-29489)
+
+### CVE-2023-29983
+- [zPrototype/CVE-2023-29983](https://github.com/zPrototype/CVE-2023-29983)
 
 ### CVE-2023-30458 (2023-04-24)
 
@@ -7126,6 +7130,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [devAL3X/CVE-2022-46169_poc](https://github.com/devAL3X/CVE-2022-46169_poc)
 - [JacobEbben/CVE-2022-46169_unauth_remote_code_execution](https://github.com/JacobEbben/CVE-2022-46169_unauth_remote_code_execution)
 - [icebreack/CVE-2022-46169](https://github.com/icebreack/CVE-2022-46169)
+- [devilgothies/CVE-2022-46169](https://github.com/devilgothies/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-23)
 
