@@ -850,6 +850,9 @@ Void Tools Everything lower than v1.4.1.1022 was discovered to contain a Regular
 
 - [happy0717/CVE-2023-27704](https://github.com/happy0717/CVE-2023-27704)
 
+### CVE-2023-27742
+- [G37SYS73M/CVE-2023-27742](https://github.com/G37SYS73M/CVE-2023-27742)
+
 ### CVE-2023-27746 (2023-04-13)
 
 <code>
@@ -959,6 +962,7 @@ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the c
 - [Mostafa-Elguerdawi/CVE-2023-29489.yaml](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489.yaml)
 - [Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489)
 - [haxor1337x/Scanner-CVE-2023-29489](https://github.com/haxor1337x/Scanner-CVE-2023-29489)
+- [whalebone7/EagleEye](https://github.com/whalebone7/EagleEye)
 
 ### CVE-2023-29809
 - [zPrototype/CVE-2023-29809](https://github.com/zPrototype/CVE-2023-29809)
@@ -8187,6 +8191,7 @@ Ignition before 2.5.2, as used in Laravel and other products, allows unauthentic
 - [ajisai-babu/CVE-2021-3129-exp](https://github.com/ajisai-babu/CVE-2021-3129-exp)
 - [keyuan15/CVE-2021-3129](https://github.com/keyuan15/CVE-2021-3129)
 - [qaisarafridi/cve-2021-3129](https://github.com/qaisarafridi/cve-2021-3129)
+- [Zoo1sondv/CVE-2021-3129](https://github.com/Zoo1sondv/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -21242,7 +21247,6 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 </code>
 
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
-- [c1ph3rm4st3r/CVE-2019-9053](https://github.com/c1ph3rm4st3r/CVE-2019-9053)
 - [maraspiras/46635.py](https://github.com/maraspiras/46635.py)
 - [e-renna/CVE-2019-9053](https://github.com/e-renna/CVE-2019-9053)
 - [zmiddle/Simple_CMS_SQLi](https://github.com/zmiddle/Simple_CMS_SQLi)
