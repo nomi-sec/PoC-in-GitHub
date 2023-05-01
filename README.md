@@ -960,6 +960,9 @@ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the c
 - [Mostafa-Elguerdawi/CVE-2023-29489](https://github.com/Mostafa-Elguerdawi/CVE-2023-29489)
 - [haxor1337x/Scanner-CVE-2023-29489](https://github.com/haxor1337x/Scanner-CVE-2023-29489)
 
+### CVE-2023-29809
+- [zPrototype/CVE-2023-29809](https://github.com/zPrototype/CVE-2023-29809)
+
 ### CVE-2023-29983
 - [zPrototype/CVE-2023-29983](https://github.com/zPrototype/CVE-2023-29983)
 
@@ -1290,6 +1293,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [orsuprasad/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/orsuprasad/CVE-2022-0847-DirtyPipe-Exploits)
 - [4bhishek0/CVE-2022-0847](https://github.com/4bhishek0/CVE-2022-0847)
 - [JlSakuya/CVE-2022-0847-container-escape](https://github.com/JlSakuya/CVE-2022-0847-container-escape)
+- [jonathanbest7/cve-2022-0847](https://github.com/jonathanbest7/cve-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
