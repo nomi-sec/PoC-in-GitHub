@@ -1010,6 +1010,15 @@ AVideo is an open source video platform. Prior to version 12.4, an OS Command In
 
 - [jmrcsnchz/CVE-2023-30854](https://github.com/jmrcsnchz/CVE-2023-30854)
 
+### CVE-2023-31433
+- [trustcves/CVE-2023-31433](https://github.com/trustcves/CVE-2023-31433)
+
+### CVE-2023-31434
+- [trustcves/CVE-2023-31434](https://github.com/trustcves/CVE-2023-31434)
+
+### CVE-2023-31435
+- [trustcves/CVE-2023-31435](https://github.com/trustcves/CVE-2023-31435)
+
 ### CVE-2023-31443
 - [MaherAzzouzi/CVE-2023-31443](https://github.com/MaherAzzouzi/CVE-2023-31443)
 
@@ -4652,6 +4661,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
 - [3barz/Follina_Vagrant](https://github.com/3barz/Follina_Vagrant)
 - [ToxicEnvelope/FOLLINA-CVE-2022-30190](https://github.com/ToxicEnvelope/FOLLINA-CVE-2022-30190)
+- [meowhua15/CVE-2022-30190](https://github.com/meowhua15/CVE-2022-30190)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -12166,6 +12176,14 @@ Zoho ManageEngine Network Configuration Manager before ﻿﻿125465 is vulnerabl
 
 - [sudaiv/CVE-2021-41081](https://github.com/sudaiv/CVE-2021-41081)
 
+### CVE-2021-41091 (2021-10-04)
+
+<code>
+Moby is an open-source project created by Docker to enable software containerization. A bug was found in Moby (Docker Engine) where the data directory (typically `/var/lib/docker`) contained subdirectories with insufficiently restricted permissions, allowing otherwise unprivileged Linux users to traverse directory contents and execute programs. When containers included executable programs with extended permission bits (such as `setuid`), unprivileged Linux users could discover and execute those programs. When the UID of an unprivileged Linux user on the host collided with the file owner or group inside a container, the unprivileged Linux user on the host could discover, read, and modify those files. This bug has been fixed in Moby (Docker Engine) 20.10.9. Users should update to this version as soon as possible. Running containers should be stopped and restarted for the permissions to be fixed. For users unable to upgrade limit access to the host to trusted users. Limit access to host volumes to trusted containers.
+</code>
+
+- [UncleJ4ck/CVE-2021-41091](https://github.com/UncleJ4ck/CVE-2021-41091)
+
 ### CVE-2021-41117 (2021-10-11)
 
 <code>
@@ -18903,14 +18921,6 @@ SKYWORTH GN542VF Boa version 0.94.13 does not set the Secure flag for the sessio
 
 - [swzhouu/CVE-2020-26732](https://github.com/swzhouu/CVE-2020-26732)
 
-### CVE-2020-26733 (2021-01-14)
-
-<code>
-Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Version 2.0 and Software Version 2.0.0.16 allows authenticated attacker to inject their own script into the page via DDNS Configuration Section.
-</code>
-
-- [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
-
 ### CVE-2020-26878 (2020-10-26)
 
 <code>
@@ -18963,14 +18973,6 @@ An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's 
 </code>
 
 - [sebastian-mora/cve-2020-27358-27359](https://github.com/sebastian-mora/cve-2020-27358-27359)
-
-### CVE-2020-27368 (2021-01-14)
-
-<code>
-Directory Indexing in Login Portal of Login Portal of TOTOLINK-A702R-V1.0.0-B20161227.1023 allows attacker to access /icons/ directories via GET Parameter.
-</code>
-
-- [swzhouu/CVE-2020-27368](https://github.com/swzhouu/CVE-2020-27368)
 
 ### CVE-2020-27603 (2020-10-21)
 
