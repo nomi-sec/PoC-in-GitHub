@@ -7165,6 +7165,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [Ruycraft1514/CVE-2022-46169](https://github.com/Ruycraft1514/CVE-2022-46169)
 - [FredBrave/CVE-2022-46169-CACTI-1.2.22](https://github.com/FredBrave/CVE-2022-46169-CACTI-1.2.22)
 - [sha-16/RCE-Cacti-1.2.22](https://github.com/sha-16/RCE-Cacti-1.2.22)
+- [Safarchand/CVE-2022-46169](https://github.com/Safarchand/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -18921,6 +18922,14 @@ SKYWORTH GN542VF Boa version 0.94.13 does not set the Secure flag for the sessio
 
 - [swzhouu/CVE-2020-26732](https://github.com/swzhouu/CVE-2020-26732)
 
+### CVE-2020-26733 (2021-01-14)
+
+<code>
+Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Version 2.0 and Software Version 2.0.0.16 allows authenticated attacker to inject their own script into the page via DDNS Configuration Section.
+</code>
+
+- [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
+
 ### CVE-2020-26878 (2020-10-26)
 
 <code>
@@ -18973,6 +18982,14 @@ An issue was discovered in REDCap 8.11.6 through 9.x before 10. The messenger's 
 </code>
 
 - [sebastian-mora/cve-2020-27358-27359](https://github.com/sebastian-mora/cve-2020-27358-27359)
+
+### CVE-2020-27368 (2021-01-14)
+
+<code>
+Directory Indexing in Login Portal of Login Portal of TOTOLINK-A702R-V1.0.0-B20161227.1023 allows attacker to access /icons/ directories via GET Parameter.
+</code>
+
+- [swzhouu/CVE-2020-27368](https://github.com/swzhouu/CVE-2020-27368)
 
 ### CVE-2020-27603 (2020-10-21)
 
