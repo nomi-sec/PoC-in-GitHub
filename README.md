@@ -7154,6 +7154,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [yassinebk/CVE-2022-46169](https://github.com/yassinebk/CVE-2022-46169)
 - [Ruycraft1514/CVE-2022-46169](https://github.com/Ruycraft1514/CVE-2022-46169)
 - [FredBrave/CVE-2022-46169-CACTI-1.2.22](https://github.com/FredBrave/CVE-2022-46169-CACTI-1.2.22)
+- [sha-16/RCE-Cacti-1.2.22](https://github.com/sha-16/RCE-Cacti-1.2.22)
 
 ### CVE-2022-46175 (2022-12-23)
 
