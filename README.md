@@ -766,7 +766,12 @@ An issue in the password reset function of Peppermint v0.2.4 allows attackers to
 
 - [bypazs/CVE-2023-26984](https://github.com/bypazs/CVE-2023-26984)
 
-### CVE-2023-27035
+### CVE-2023-27035 (2023-05-01)
+
+<code>
+An issue discovered in Obsidian Canvas 1.1.9 allows remote attackers to send desktop notifications, record user audio and other unspecified impacts via embedded website on the canvas page.
+</code>
+
 - [fivex3/CVE-2023-27035](https://github.com/fivex3/CVE-2023-27035)
 
 ### CVE-2023-27053
@@ -7147,7 +7152,8 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [icebreack/CVE-2022-46169](https://github.com/icebreack/CVE-2022-46169)
 - [devilgothies/CVE-2022-46169](https://github.com/devilgothies/CVE-2022-46169)
 - [yassinebk/CVE-2022-46169](https://github.com/yassinebk/CVE-2022-46169)
-- [Ruycraft1514/cacti-CVE-2022-46169](https://github.com/Ruycraft1514/cacti-CVE-2022-46169)
+- [Ruycraft1514/CVE-2022-46169](https://github.com/Ruycraft1514/CVE-2022-46169)
+- [FredBrave/CVE-2022-46169-CACTI-1.2.22](https://github.com/FredBrave/CVE-2022-46169-CACTI-1.2.22)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -7241,6 +7247,9 @@ A race condition was addressed with additional validation. This issue is fixed i
 - [BomberFish/Mandela-Rewritten](https://github.com/BomberFish/Mandela-Rewritten)
 - [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
 - [tdquang266/MDC](https://github.com/tdquang266/MDC)
+
+### CVE-2022-46718
+- [biscuitehh/cve-2022-46718-leaky-location](https://github.com/biscuitehh/cve-2022-46718-leaky-location)
 
 ### CVE-2022-46836 (2023-02-20)
 
