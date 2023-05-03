@@ -973,6 +973,9 @@ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the c
 - [haxor1337x/Scanner-CVE-2023-29489](https://github.com/haxor1337x/Scanner-CVE-2023-29489)
 - [whalebone7/EagleEye](https://github.com/whalebone7/EagleEye)
 
+### CVE-2023-29808
+- [zPrototype/CVE-2023-29808](https://github.com/zPrototype/CVE-2023-29808)
+
 ### CVE-2023-29809
 - [zPrototype/CVE-2023-29809](https://github.com/zPrototype/CVE-2023-29809)
 
@@ -2752,6 +2755,7 @@ In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, w
 - [Mustafa1986/CVE-2022-22963](https://github.com/Mustafa1986/CVE-2022-22963)
 - [SourM1lk/CVE-2022-22963-Exploit](https://github.com/SourM1lk/CVE-2022-22963-Exploit)
 - [randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE](https://github.com/randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE)
+- [GunZF0x/CVE-2022-22963](https://github.com/GunZF0x/CVE-2022-22963)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -9258,7 +9262,7 @@ An OS command injection vulnerability in FortiWeb's management interface 6.3.7 a
 An issue has been discovered in GitLab CE/EE affecting all versions starting from 13.2 allowing unauthorized authenticated users to execute arbitrary code on the server.
 </code>
 
-- [lyy289065406/CVE-2021-22192](https://github.com/lyy289065406/CVE-2021-22192)
+- [EXP-Docs/CVE-2021-22192](https://github.com/EXP-Docs/CVE-2021-22192)
 - [PetrusViet/Gitlab-RCE](https://github.com/PetrusViet/Gitlab-RCE)
 
 ### CVE-2021-22201 (2021-04-02)
@@ -17334,7 +17338,7 @@ A vulnerability in the web-based management interface of RAD SecFlow-1v os-image
 An authorization issue in the mirroring logic allowed read access to private repositories in GitLab CE/EE 10.6 and later through 13.0.5
 </code>
 
-- [lyy289065406/CVE-2020-13277](https://github.com/lyy289065406/CVE-2020-13277)
+- [EXP-Docs/CVE-2020-13277](https://github.com/EXP-Docs/CVE-2020-13277)
 
 ### CVE-2020-13401 (2020-06-02)
 
@@ -17435,7 +17439,7 @@ Similar to CVE-2020-1956, Kylin has one more restful API which concatenates the 
 Apache Shiro before 1.6.0, when using Apache Shiro, a specially crafted HTTP request may cause an authentication bypass.
 </code>
 
-- [lyy289065406/CVE-2020-13933](https://github.com/lyy289065406/CVE-2020-13933)
+- [EXP-Docs/CVE-2020-13933](https://github.com/EXP-Docs/CVE-2020-13933)
 - [0xkami/cve-2020-13933](https://github.com/0xkami/cve-2020-13933)
 - [KingBangQ/CVE-2020-13933Project](https://github.com/KingBangQ/CVE-2020-13933Project)
 
@@ -20622,7 +20626,7 @@ The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution whe
 
 - [jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-](https://github.com/jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-)
 - [rabbitmask/CVE-2019-5475-EXP](https://github.com/rabbitmask/CVE-2019-5475-EXP)
-- [lyy289065406/CVE-2019-5475](https://github.com/lyy289065406/CVE-2019-5475)
+- [EXP-Docs/CVE-2019-5475](https://github.com/EXP-Docs/CVE-2019-5475)
 
 ### CVE-2019-5489 (2019-01-07)
 
@@ -22809,7 +22813,7 @@ The Privacy &gt; Phone Number feature in the Telegram app 5.10 for Android and i
 There is an OS Command Injection in Nexus Repository Manager &lt;= 2.14.14 (bypass CVE-2019-5475) that could allow an attacker a Remote Code Execution (RCE). All instances using CommandLineExecutor.java with user-supplied data is vulnerable, such as the Yum Configuration Capability.
 </code>
 
-- [lyy289065406/CVE-2019-15588](https://github.com/lyy289065406/CVE-2019-15588)
+- [EXP-Docs/CVE-2019-15588](https://github.com/EXP-Docs/CVE-2019-15588)
 
 ### CVE-2019-15605 (2020-02-07)
 
@@ -27544,6 +27548,7 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 - [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
 - [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
 - [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
+- [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
 
@@ -28259,6 +28264,7 @@ Malicious PATCH requests submitted to servers using Spring Data REST versions pr
 - [m3ssap0/spring-break_cve-2017-8046](https://github.com/m3ssap0/spring-break_cve-2017-8046)
 - [FixYourFace/SpringBreakPoC](https://github.com/FixYourFace/SpringBreakPoC)
 - [jkutner/spring-break-cve-2017-8046](https://github.com/jkutner/spring-break-cve-2017-8046)
+- [bkhablenko/CVE-2017-8046](https://github.com/bkhablenko/CVE-2017-8046)
 - [cved-sources/cve-2017-8046](https://github.com/cved-sources/cve-2017-8046)
 - [jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest)
 - [guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046)
@@ -28386,6 +28392,14 @@ Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow
 - [zhengkook/CVE-2017-8759](https://github.com/zhengkook/CVE-2017-8759)
 - [varunsaru/SNP](https://github.com/varunsaru/SNP)
 - [GayashanM/OHTS](https://github.com/GayashanM/OHTS)
+
+### CVE-2017-8760 (2017-05-05)
+
+<code>
+An issue was discovered on Accellion FTA devices before FTA_9_12_180. There is XSS in courier/1000@/index.html with the auth_params parameter. The device tries to use internal WAF filters to stop specific XSS Vulnerabilities. However, these can be bypassed by using some modifications to the payloads, e.g., URL encoding.
+</code>
+
+- [Voraka/cve-2017-8760](https://github.com/Voraka/cve-2017-8760)
 
 ### CVE-2017-8779 (2017-05-04)
 
