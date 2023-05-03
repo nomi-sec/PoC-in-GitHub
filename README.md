@@ -976,6 +976,14 @@ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the c
 ### CVE-2023-29809
 - [zPrototype/CVE-2023-29809](https://github.com/zPrototype/CVE-2023-29809)
 
+### CVE-2023-29839 (2023-05-02)
+
+<code>
+A Stored Cross Site Scripting (XSS) vulnerability exists in multiple pages of Hotel Druid version 3.0.4, which allows arbitrary execution of commands. The vulnerable fields are Surname, Name, and Nickname in the Document function.
+</code>
+
+- [jichngan/CVE-2023-29839](https://github.com/jichngan/CVE-2023-29839)
+
 ### CVE-2023-29983
 - [zPrototype/CVE-2023-29983](https://github.com/zPrototype/CVE-2023-29983)
 
@@ -17941,6 +17949,9 @@ Devices supporting Bluetooth before 5.1 may allow man-in-the-middle attacks, aka
 
 ### CVE-2020-15808
 - [manucuf/CVE202015808](https://github.com/manucuf/CVE202015808)
+
+### CVE-2020-15848
+- [faklad/CVE-2020-15848](https://github.com/faklad/CVE-2020-15848)
 
 ### CVE-2020-15873 (2020-07-21)
 
