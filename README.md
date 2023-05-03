@@ -940,6 +940,7 @@ Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33
 </code>
 
 - [ethiack/CVE-2023-29007](https://github.com/ethiack/CVE-2023-29007)
+- [omespino/CVE-2023-29007](https://github.com/omespino/CVE-2023-29007)
 
 ### CVE-2023-29017 (2023-04-06)
 
@@ -1010,13 +1011,28 @@ AVideo is an open source video platform. Prior to version 12.4, an OS Command In
 
 - [jmrcsnchz/CVE-2023-30854](https://github.com/jmrcsnchz/CVE-2023-30854)
 
-### CVE-2023-31433
+### CVE-2023-31433 (2023-05-02)
+
+<code>
+A SQL injection issue in Logbuch in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 allows authenticated attackers to execute SQL statements via the welche parameter.
+</code>
+
 - [trustcves/CVE-2023-31433](https://github.com/trustcves/CVE-2023-31433)
 
-### CVE-2023-31434
+### CVE-2023-31434 (2023-05-02)
+
+<code>
+The parameters nutzer_titel, nutzer_vn, and nutzer_nn in the user profile, and langID and ONLINEID in direct links, in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 do not validate input, which allows authenticated attackers to inject HTML Code and XSS payloads in multiple locations.
+</code>
+
 - [trustcves/CVE-2023-31434](https://github.com/trustcves/CVE-2023-31434)
 
-### CVE-2023-31435
+### CVE-2023-31435 (2023-05-02)
+
+<code>
+Multiple components (such as Onlinetemplate-Verwaltung, Liste aller Teilbereiche, Umfragen anzeigen, and questionnaire previews) in evasys before 8.2 Build 2286 and 9.x before 9.0 Build 2401 allow authenticated attackers to read and write to unauthorized data by accessing functions directly.
+</code>
+
 - [trustcves/CVE-2023-31435](https://github.com/trustcves/CVE-2023-31435)
 
 ### CVE-2023-31443
@@ -5928,12 +5944,7 @@ enlightenment_sys in Enlightenment before 0.25.4 allows local users to gain priv
 - [ECU-10525611-Xander/CVE-2022-37706](https://github.com/ECU-10525611-Xander/CVE-2022-37706)
 - [GrayHatZone/CVE-2022-37706-LPE-exploit](https://github.com/GrayHatZone/CVE-2022-37706-LPE-exploit)
 
-### CVE-2022-37708 (2023-01-31)
-
-<code>
-Docker version 20.10.15, build fd82621 is vulnerable to Insecure Permissions. Unauthorized users outside the Docker container can access any files within the Docker container.
-</code>
-
+### CVE-2022-37708
 - [thekevinday/docker_lightman_exploit](https://github.com/thekevinday/docker_lightman_exploit)
 
 ### CVE-2022-37969 (2022-09-13)
