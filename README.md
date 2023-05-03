@@ -27544,7 +27544,6 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 - [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
 - [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
 - [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
-- [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
 
@@ -28260,7 +28259,6 @@ Malicious PATCH requests submitted to servers using Spring Data REST versions pr
 - [m3ssap0/spring-break_cve-2017-8046](https://github.com/m3ssap0/spring-break_cve-2017-8046)
 - [FixYourFace/SpringBreakPoC](https://github.com/FixYourFace/SpringBreakPoC)
 - [jkutner/spring-break-cve-2017-8046](https://github.com/jkutner/spring-break-cve-2017-8046)
-- [bkhablenko/CVE-2017-8046](https://github.com/bkhablenko/CVE-2017-8046)
 - [cved-sources/cve-2017-8046](https://github.com/cved-sources/cve-2017-8046)
 - [jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest)
 - [guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046)
@@ -28388,14 +28386,6 @@ Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow
 - [zhengkook/CVE-2017-8759](https://github.com/zhengkook/CVE-2017-8759)
 - [varunsaru/SNP](https://github.com/varunsaru/SNP)
 - [GayashanM/OHTS](https://github.com/GayashanM/OHTS)
-
-### CVE-2017-8760 (2017-05-05)
-
-<code>
-An issue was discovered on Accellion FTA devices before FTA_9_12_180. There is XSS in courier/1000@/index.html with the auth_params parameter. The device tries to use internal WAF filters to stop specific XSS Vulnerabilities. However, these can be bypassed by using some modifications to the payloads, e.g., URL encoding.
-</code>
-
-- [Voraka/cve-2017-8760](https://github.com/Voraka/cve-2017-8760)
 
 ### CVE-2017-8779 (2017-05-04)
 
