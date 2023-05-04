@@ -65,6 +65,14 @@ Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
 
 - [mhaskar/CVE-2023-0315](https://github.com/mhaskar/CVE-2023-0315)
 
+### CVE-2023-0386 (2023-03-22)
+
+<code>
+A flaw was found in the Linux kernel, where unauthorized access to the execution of the setuid file with capabilities was found in the Linux kernel’s OverlayFS subsystem in how a user copies a capable file from a nosuid mount into another mount. This uid mapping bug allows a local user to escalate their privileges on the system.
+</code>
+
+- [Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386)
+
 ### CVE-2023-0464 (2023-03-22)
 
 <code>
@@ -8974,6 +8982,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [Jiang59991/cve-2021-21300-plus](https://github.com/Jiang59991/cve-2021-21300-plus)
 - [macilin/CVE-2021-21300](https://github.com/macilin/CVE-2021-21300)
 - [Roboterh/CVE-2021-21300](https://github.com/Roboterh/CVE-2021-21300)
+- [henry861010/Network_Security_NYCU](https://github.com/henry861010/Network_Security_NYCU)
 
 ### CVE-2021-21311 (2021-02-11)
 
