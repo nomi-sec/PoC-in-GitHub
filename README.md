@@ -824,6 +824,7 @@ Session Validation attacks in Apache Superset versions up to and including 2.0.1
 - [horizon3ai/CVE-2023-27524](https://github.com/horizon3ai/CVE-2023-27524)
 - [Okaytc/Superset_auth_bypass_check](https://github.com/Okaytc/Superset_auth_bypass_check)
 - [antx-code/CVE-2023-27524](https://github.com/antx-code/CVE-2023-27524)
+- [MaanVader/CVE-2023-27524-POC](https://github.com/MaanVader/CVE-2023-27524-POC)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -949,6 +950,7 @@ Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33
 
 - [ethiack/CVE-2023-29007](https://github.com/ethiack/CVE-2023-29007)
 - [omespino/CVE-2023-29007](https://github.com/omespino/CVE-2023-29007)
+- [x-Defender/git_for_windows-CVE-2023-29007](https://github.com/x-Defender/git_for_windows-CVE-2023-29007)
 
 ### CVE-2023-29017 (2023-04-06)
 
