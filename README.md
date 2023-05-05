@@ -825,6 +825,7 @@ Session Validation attacks in Apache Superset versions up to and including 2.0.1
 - [Okaytc/Superset_auth_bypass_check](https://github.com/Okaytc/Superset_auth_bypass_check)
 - [antx-code/CVE-2023-27524](https://github.com/antx-code/CVE-2023-27524)
 - [MaanVader/CVE-2023-27524-POC](https://github.com/MaanVader/CVE-2023-27524-POC)
+- [Pari-Malam/CVE-2023-27524](https://github.com/Pari-Malam/CVE-2023-27524)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -7200,6 +7201,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [sha-16/RCE-Cacti-1.2.22](https://github.com/sha-16/RCE-Cacti-1.2.22)
 - [Safarchand/CVE-2022-46169](https://github.com/Safarchand/CVE-2022-46169)
 - [MarkStrendin/CVE-2022-46169](https://github.com/MarkStrendin/CVE-2022-46169)
+- [BKreisel/CVE-2022-46169](https://github.com/BKreisel/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -19873,7 +19875,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [JSec1337/Scanner-CVE-2019-0708](https://github.com/JSec1337/Scanner-CVE-2019-0708)
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [AaronCaiii/CVE-2019-0708-POC](https://github.com/AaronCaiii/CVE-2019-0708-POC)
-- [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
 - [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
@@ -22906,7 +22907,6 @@ Bludit 3.9.2 allows remote code execution via bl-kernel/ajax/upload-images.php b
 - [ynots0ups/CVE-2019-16113](https://github.com/ynots0ups/CVE-2019-16113)
 - [cybervaca/CVE-2019-16113](https://github.com/cybervaca/CVE-2019-16113)
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
-- [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
 - [0xkasra/CVE-2019-16113](https://github.com/0xkasra/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
@@ -22929,6 +22929,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
 - [c1ph3rm4st3r/CVE-2019-16278](https://github.com/c1ph3rm4st3r/CVE-2019-16278)
 - [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
+- [FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE)
 
 ### CVE-2019-16279 (2019-10-14)
 
@@ -23433,7 +23434,6 @@ Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deseria
 TeamViewer Desktop through 14.7.1965 allows a bypass of remote-login access control because the same key is used for different customers' installations. It used a shared AES key for all installations since at least as far back as v7.0.43148, and used it for at least OptionsPasswordAES in the current version of the product. If an attacker were to know this key, they could decrypt protect information stored in the registry or configuration files of TeamViewer. With versions before v9.x , this allowed for attackers to decrypt the Unattended Access password to the system (which allows for remote login to the system as well as headless file browsing). The latest version still uses the same key for OptionPasswordAES but appears to have changed how the Unattended Access password is stored. While in most cases an attacker requires an existing session on a system, if the registry/configuration keys were stored off of the machine (such as in a file share or online), an attacker could then decrypt the required password to login to the system.
 </code>
 
-- [reversebrain/CVE-2019-18988](https://github.com/reversebrain/CVE-2019-18988)
 - [mr-r3b00t/CVE-2019-18988](https://github.com/mr-r3b00t/CVE-2019-18988)
 
 ### CVE-2019-19012 (2019-11-16)
@@ -23648,8 +23648,6 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781)
 - [Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201](https://github.com/Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201)
 - [yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781)
-- [SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781)
-- [qiong-qi/CVE-2019-19781-poc](https://github.com/qiong-qi/CVE-2019-19781-poc)
 - [w4fz5uck5/CVE-2019-19781-CitrixRCE](https://github.com/w4fz5uck5/CVE-2019-19781-CitrixRCE)
 - [andripwn/CVE-2019-19781](https://github.com/andripwn/CVE-2019-19781)
 - [VladRico/CVE-2019-19781](https://github.com/VladRico/CVE-2019-19781)
