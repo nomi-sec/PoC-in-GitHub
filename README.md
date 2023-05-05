@@ -804,6 +804,7 @@ An issue found in D-Link DSL-3782 v.1.03 allows remote authenticated users to ex
 
 ### CVE-2023-27326
 - [Impalabs/CVE-2023-27326](https://github.com/Impalabs/CVE-2023-27326)
+- [Malwareman007/CVE-2023-27326](https://github.com/Malwareman007/CVE-2023-27326)
 
 ### CVE-2023-27350 (2023-04-20)
 
@@ -6708,6 +6709,7 @@ Apache Commons Text performs variable interpolation, allowing properties to be d
 - [ReachabilityOrg/cve-2022-42889-text4shell-docker](https://github.com/ReachabilityOrg/cve-2022-42889-text4shell-docker)
 - [dgor2023/cve-2022-42889-text4shell-docker](https://github.com/dgor2023/cve-2022-42889-text4shell-docker)
 - [Dima2021/cve-2022-42889-text4shell](https://github.com/Dima2021/cve-2022-42889-text4shell)
+- [RSA-Demo/cve-2022-42889-text4shell](https://github.com/RSA-Demo/cve-2022-42889-text4shell)
 
 ### CVE-2022-42896 (2022-11-23)
 
@@ -15134,6 +15136,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
 - [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
+- [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
 
 ### CVE-2020-1473 (2020-08-17)
 
