@@ -898,6 +898,14 @@ An out-of-bounds write issue was addressed with improved input validation. This 
 
 - [ZZY3312/CVE-2023-28206](https://github.com/ZZY3312/CVE-2023-28206)
 
+### CVE-2023-28231 (2023-04-11)
+
+<code>
+DHCP Server Service Remote Code Execution Vulnerability
+</code>
+
+- [glavstroy/CVE-2023-28231](https://github.com/glavstroy/CVE-2023-28231)
+
 ### CVE-2023-28343 (2023-03-14)
 
 <code>
