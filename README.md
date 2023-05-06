@@ -962,7 +962,7 @@ Git is a revision control system. Prior to versions 2.30.9, 2.31.8, 2.32.7, 2.33
 
 - [ethiack/CVE-2023-29007](https://github.com/ethiack/CVE-2023-29007)
 - [omespino/CVE-2023-29007](https://github.com/omespino/CVE-2023-29007)
-- [x-Defender/git_for_windows-CVE-2023-29007](https://github.com/x-Defender/git_for_windows-CVE-2023-29007)
+- [x-Defender/CVE-2023-29007_win-version](https://github.com/x-Defender/CVE-2023-29007_win-version)
 
 ### CVE-2023-29017 (2023-04-06)
 
@@ -12533,6 +12533,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [TheKernelPanic/exploit-apache2-cve-2021-41773](https://github.com/TheKernelPanic/exploit-apache2-cve-2021-41773)
 - [retrymp3/apache2.4.49VulnerableLabSetup](https://github.com/retrymp3/apache2.4.49VulnerableLabSetup)
 - [MatanelGordon/docker-cve-2021-41773](https://github.com/MatanelGordon/docker-cve-2021-41773)
+- [K3ysTr0K3R/CVE-2021-41773-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-41773-EXPLOIT)
 
 ### CVE-2021-41784 (2022-08-29)
 
