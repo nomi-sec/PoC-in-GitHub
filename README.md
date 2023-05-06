@@ -73,6 +73,7 @@ A flaw was found in the Linux kernel, where unauthorized access to the execution
 
 - [Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386)
 - [xkaneiki/CVE-2023-0386](https://github.com/xkaneiki/CVE-2023-0386)
+- [chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386)
 
 ### CVE-2023-0464 (2023-03-22)
 
