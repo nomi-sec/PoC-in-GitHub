@@ -614,7 +614,7 @@ NOSH 4a5cfdb allows remote authenticated users to execute PHP arbitrary code via
 An issue found in Paradox Security Systems IPR512 allows attackers to cause a denial of service via the login.html and login.xml parameters.
 </code>
 
-- [SlashXzerozero/Injection-vulnerability-in-Paradox-Security-Systems-IPR512-CVE-2023-24709-PoC](https://github.com/SlashXzerozero/Injection-vulnerability-in-Paradox-Security-Systems-IPR512-CVE-2023-24709-PoC)
+- [DRAGOWN/Injection-vulnerability-in-Paradox-Security-Systems-IPR512-CVE-2023-24709-PoC](https://github.com/DRAGOWN/Injection-vulnerability-in-Paradox-Security-Systems-IPR512-CVE-2023-24709-PoC)
 
 ### CVE-2023-24749
 - [mahaloz/netgear-pwnagent](https://github.com/mahaloz/netgear-pwnagent)
@@ -2432,6 +2432,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [iveresk/cve-2022-21907](https://github.com/iveresk/cve-2022-21907)
 - [Malwareman007/CVE-2022-21907](https://github.com/Malwareman007/CVE-2022-21907)
 - [0xmaximus/Home-Demolisher](https://github.com/0xmaximus/Home-Demolisher)
+- [EzoomE/CVE-2022-21907-RCE](https://github.com/EzoomE/CVE-2022-21907-RCE)
 
 ### CVE-2022-21970 (2022-01-11)
 
