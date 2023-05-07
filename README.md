@@ -6366,6 +6366,14 @@ NuGet Client Elevation of Privilege Vulnerability.
 
 - [ethomson/cve-2022-41032](https://github.com/ethomson/cve-2022-41032)
 
+### CVE-2022-41034 (2022-10-11)
+
+<code>
+Visual Studio Code Remote Code Execution Vulnerability.
+</code>
+
+- [andyhsu024/CVE-2022-41034](https://github.com/andyhsu024/CVE-2022-41034)
+
 ### CVE-2022-41040 (2022-10-02)
 
 <code>
@@ -13880,6 +13888,7 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
 - [itxfahdi/-cve-2021-45232](https://github.com/itxfahdi/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
+- [Kuibagit/CVE-2021-45232-RCE](https://github.com/Kuibagit/CVE-2021-45232-RCE)
 - [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
 - [yggcwhat/CVE-2021-45232](https://github.com/yggcwhat/CVE-2021-45232)
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
