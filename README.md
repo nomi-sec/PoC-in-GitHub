@@ -13693,7 +13693,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [heeloo123/CVE-2021-44228](https://github.com/heeloo123/CVE-2021-44228)
 - [github-kyruuu/log4shell-vulnweb](https://github.com/github-kyruuu/log4shell-vulnweb)
 - [demonrvm/Log4ShellRemediation](https://github.com/demonrvm/Log4ShellRemediation)
-- [funcid/log4j-exploit-with-fork-bomb](https://github.com/funcid/log4j-exploit-with-fork-bomb)
+- [funcid/log4j-exploit-fork-bomb](https://github.com/funcid/log4j-exploit-fork-bomb)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -13880,7 +13880,6 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
 - [itxfahdi/-cve-2021-45232](https://github.com/itxfahdi/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
-- [Kuibagit/CVE-2021-45232-RCE](https://github.com/Kuibagit/CVE-2021-45232-RCE)
 - [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
 - [yggcwhat/CVE-2021-45232](https://github.com/yggcwhat/CVE-2021-45232)
 - [YutuSec/Apisix_Crack](https://github.com/YutuSec/Apisix_Crack)
@@ -15142,6 +15141,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 - [carlos55ml/zerologon](https://github.com/carlos55ml/zerologon)
 - [Rvn0xsy/ZeroLogon](https://github.com/Rvn0xsy/ZeroLogon)
+- [guglia001/MassZeroLogon](https://github.com/guglia001/MassZeroLogon)
 - [likeww/MassZeroLogon](https://github.com/likeww/MassZeroLogon)
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
 - [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
