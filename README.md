@@ -505,6 +505,7 @@ Microsoft Outlook Elevation of Privilege Vulnerability
 - [Zeppperoni/CVE-2023-23397-Patch](https://github.com/Zeppperoni/CVE-2023-23397-Patch)
 - [jacquesquail/CVE-2023-23397](https://github.com/jacquesquail/CVE-2023-23397)
 - [CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC)
+- [vlad-a-man/CVE-2023-23397](https://github.com/vlad-a-man/CVE-2023-23397)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -4225,6 +4226,7 @@ Dompdf 1.2.1 allows remote code execution via a .php file in the src:url field o
 
 - [rvizx/CVE-2022-28368](https://github.com/rvizx/CVE-2022-28368)
 - [That-Guy-Steve/CVE-2022-28368-handler](https://github.com/That-Guy-Steve/CVE-2022-28368-handler)
+- [Henryisnotavailable/Dompdf-Exploit-RCE](https://github.com/Henryisnotavailable/Dompdf-Exploit-RCE)
 
 ### CVE-2022-28381 (2022-04-03)
 
@@ -11386,7 +11388,6 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
-- [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
 - [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
@@ -13556,6 +13557,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [axisops/CVE-2021-44228](https://github.com/axisops/CVE-2021-44228)
 - [kal1gh0st/MyLog4Shell](https://github.com/kal1gh0st/MyLog4Shell)
 - [hozyx/log4shell](https://github.com/hozyx/log4shell)
+- [andypitcher/Log4J_checker](https://github.com/andypitcher/Log4J_checker)
 - [Vulnmachines/log4j-cve-2021-44228](https://github.com/Vulnmachines/log4j-cve-2021-44228)
 - [kannthu/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/kannthu/CVE-2021-44228-Apache-Log4j-Rce)
 - [Kr0ff/CVE-2021-44228](https://github.com/Kr0ff/CVE-2021-44228)
