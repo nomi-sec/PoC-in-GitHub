@@ -14147,6 +14147,14 @@ Tor Browser 9.0.7 on Windows 10 build 10586 is vulnerable to information disclos
 
 - [malakkf/CVE-2021-46702](https://github.com/malakkf/CVE-2021-46702)
 
+### CVE-2021-46703 (2022-03-06)
+
+<code>
+** UNSUPPORTED WHEN ASSIGNED ** In the IsolatedRazorEngine component of Antaris RazorEngine through 4.5.1-alpha001, an attacker can execute arbitrary .NET code in a sandboxed environment (if users can externally control template contents). NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+</code>
+
+- [BenEdridge/CVE-2021-46703](https://github.com/BenEdridge/CVE-2021-46703)
+
 ### CVE-2021-268855
 - [sikkertech/CVE-2021-268855](https://github.com/sikkertech/CVE-2021-268855)
 
@@ -14659,6 +14667,7 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [exploitblizzard/CVE-2020-0601-spoofkey](https://github.com/exploitblizzard/CVE-2020-0601-spoofkey)
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 - [okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC)
+- [cimashiro/-Awesome-CVE-2020-0601-](https://github.com/cimashiro/-Awesome-CVE-2020-0601-)
 
 ### CVE-2020-0606 (2020-01-14)
 
