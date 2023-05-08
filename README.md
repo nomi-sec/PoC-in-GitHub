@@ -204,7 +204,12 @@ Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote a
 - [sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis)
 - [gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis)
 
-### CVE-2023-2114
+### CVE-2023-2114 (2023-05-08)
+
+<code>
+The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` parameter, which is populated with user input, before concatenating it to an SQL query.
+</code>
+
 - [SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114](https://github.com/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114)
 
 ### CVE-2023-20860 (2023-03-27)
@@ -832,6 +837,7 @@ Session Validation attacks in Apache Superset versions up to and including 2.0.1
 - [antx-code/CVE-2023-27524](https://github.com/antx-code/CVE-2023-27524)
 - [MaanVader/CVE-2023-27524-POC](https://github.com/MaanVader/CVE-2023-27524-POC)
 - [Pari-Malam/CVE-2023-27524](https://github.com/Pari-Malam/CVE-2023-27524)
+- [TardC/CVE-2023-27524](https://github.com/TardC/CVE-2023-27524)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -1016,7 +1022,12 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in multiple pages of Ho
 ### CVE-2023-29983
 - [zPrototype/CVE-2023-29983](https://github.com/zPrototype/CVE-2023-29983)
 
-### CVE-2023-30092
+### CVE-2023-30092 (2023-05-08)
+
+<code>
+SourceCodester Online Pizza Ordering System v1.0 is vulnerable to SQL Injection via the QTY parameter.
+</code>
+
 - [nawed20002/CVE-2023-30092](https://github.com/nawed20002/CVE-2023-30092)
 
 ### CVE-2023-30185 (2023-05-07)
@@ -1650,6 +1661,7 @@ SnakeYaml's Constructor() class does not restrict types which can be instantiate
 </code>
 
 - [1fabunicorn/SnakeYAML-CVE-2022-1471-POC](https://github.com/1fabunicorn/SnakeYAML-CVE-2022-1471-POC)
+- [falconkei/snakeyaml_cve_poc](https://github.com/falconkei/snakeyaml_cve_poc)
 
 ### CVE-2022-1597 (2022-06-06)
 
@@ -7234,7 +7246,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [icebreack/CVE-2022-46169](https://github.com/icebreack/CVE-2022-46169)
 - [devilgothies/CVE-2022-46169](https://github.com/devilgothies/CVE-2022-46169)
 - [yassinebk/CVE-2022-46169](https://github.com/yassinebk/CVE-2022-46169)
-- [Ruycraft1514/CVE-2022-46169](https://github.com/Ruycraft1514/CVE-2022-46169)
+- [ruycr4ft/CVE-2022-46169](https://github.com/ruycr4ft/CVE-2022-46169)
 - [FredBrave/CVE-2022-46169-CACTI-1.2.22](https://github.com/FredBrave/CVE-2022-46169-CACTI-1.2.22)
 - [sha-16/RCE-Cacti-1.2.22](https://github.com/sha-16/RCE-Cacti-1.2.22)
 - [Safarchand/CVE-2022-46169](https://github.com/Safarchand/CVE-2022-46169)
@@ -8763,7 +8775,6 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [Squirre17/CVE-2021-4034](https://github.com/Squirre17/CVE-2021-4034)
 - [Jesrat/make_me_root](https://github.com/Jesrat/make_me_root)
 - [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
-- [PentesterSoham/CVE-2021-4034-exploit](https://github.com/PentesterSoham/CVE-2021-4034-exploit)
 - [T3slaa/pwnkit-pwn](https://github.com/T3slaa/pwnkit-pwn)
 - [bakhtiyarsierad/CVE-2021-4034-bug-root](https://github.com/bakhtiyarsierad/CVE-2021-4034-bug-root)
 - [ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034](https://github.com/ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034)
@@ -11516,6 +11527,7 @@ Type confusion in V8 in Google Chrome prior to 95.0.4638.69 allowed a remote att
 
 - [maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/maldiohead/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
 - [Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc](https://github.com/Peterpan0927/TFC-Chrome-v8-bug-CVE-2021-38001-poc)
+- [glavstroy/CVE-2021-38001](https://github.com/glavstroy/CVE-2021-38001)
 
 ### CVE-2021-38003 (2021-11-23)
 
@@ -20381,6 +20393,7 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 - [c3r34lk1ll3r/CVE-2019-2215](https://github.com/c3r34lk1ll3r/CVE-2019-2215)
 - [Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215)
 - [mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215)
+- [nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0)
 - [enceka/cve-2019-2215-3.18](https://github.com/enceka/cve-2019-2215-3.18)
 
 ### CVE-2019-2525 (2019-01-16)
@@ -21132,6 +21145,7 @@ Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw
 - [rhbb/CVE-2019-7609](https://github.com/rhbb/CVE-2019-7609)
 - [dnr6419/CVE-2019-7609](https://github.com/dnr6419/CVE-2019-7609)
 - [wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609)
+- [Cr4ckC4t/cve-2019-7609](https://github.com/Cr4ckC4t/cve-2019-7609)
 
 ### CVE-2019-7610 (2019-03-25)
 
@@ -22987,6 +23001,7 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
 - [c1ph3rm4st3r/CVE-2019-16278](https://github.com/c1ph3rm4st3r/CVE-2019-16278)
+- [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 - [FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE)
 
 ### CVE-2019-16279 (2019-10-14)
@@ -23409,6 +23424,7 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [edsonjt81/sudo-cve-2019-18634](https://github.com/edsonjt81/sudo-cve-2019-18634)
 - [Y3A/CVE-2019-18634](https://github.com/Y3A/CVE-2019-18634)
 - [aesophor/CVE-2019-18634](https://github.com/aesophor/CVE-2019-18634)
+- [TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634](https://github.com/TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634)
 
 ### CVE-2019-18655 (2019-11-12)
 
