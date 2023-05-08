@@ -560,6 +560,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [AkbarWiraN/Joomla-Scanner](https://github.com/AkbarWiraN/Joomla-Scanner)
 - [Pari-Malam/CVE-2023-23752](https://github.com/Pari-Malam/CVE-2023-23752)
 - [equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance)
+- [wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -3325,6 +3326,7 @@ Open Web Analytics (OWA) before 1.7.4 allows an unauthenticated remote attacker 
 - [icebreack/CVE-2022-24637](https://github.com/icebreack/CVE-2022-24637)
 - [Pflegusch/CVE-2022-24637](https://github.com/Pflegusch/CVE-2022-24637)
 - [0xM4hm0ud/CVE-2022-24637](https://github.com/0xM4hm0ud/CVE-2022-24637)
+- [c0derpwner/HTB-pwned](https://github.com/c0derpwner/HTB-pwned)
 
 ### CVE-2022-24644 (2022-03-07)
 
@@ -20379,7 +20381,6 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 - [c3r34lk1ll3r/CVE-2019-2215](https://github.com/c3r34lk1ll3r/CVE-2019-2215)
 - [Byte-Master-101/CVE-2019-2215](https://github.com/Byte-Master-101/CVE-2019-2215)
 - [mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215)
-- [nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0)
 - [enceka/cve-2019-2215-3.18](https://github.com/enceka/cve-2019-2215-3.18)
 
 ### CVE-2019-2525 (2019-01-16)
@@ -21131,7 +21132,6 @@ Kibana versions before 5.6.15 and 6.6.1 contain an arbitrary code execution flaw
 - [rhbb/CVE-2019-7609](https://github.com/rhbb/CVE-2019-7609)
 - [dnr6419/CVE-2019-7609](https://github.com/dnr6419/CVE-2019-7609)
 - [wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609)
-- [Cr4ckC4t/cve-2019-7609](https://github.com/Cr4ckC4t/cve-2019-7609)
 
 ### CVE-2019-7610 (2019-03-25)
 
@@ -22987,7 +22987,6 @@ Directory Traversal in the function http_verify in nostromo nhttpd through 1.9.6
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
 - [c1ph3rm4st3r/CVE-2019-16278](https://github.com/c1ph3rm4st3r/CVE-2019-16278)
-- [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 - [FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE)
 
 ### CVE-2019-16279 (2019-10-14)
@@ -23410,7 +23409,6 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [edsonjt81/sudo-cve-2019-18634](https://github.com/edsonjt81/sudo-cve-2019-18634)
 - [Y3A/CVE-2019-18634](https://github.com/Y3A/CVE-2019-18634)
 - [aesophor/CVE-2019-18634](https://github.com/aesophor/CVE-2019-18634)
-- [TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634](https://github.com/TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634)
 
 ### CVE-2019-18655 (2019-11-12)
 
