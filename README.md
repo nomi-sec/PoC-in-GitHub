@@ -74,6 +74,7 @@ A flaw was found in the Linux kernel, where unauthorized access to the execution
 - [Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386)
 - [xkaneiki/CVE-2023-0386](https://github.com/xkaneiki/CVE-2023-0386)
 - [chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386)
+- [CKevens/CVE-2023-0386](https://github.com/CKevens/CVE-2023-0386)
 
 ### CVE-2023-0464 (2023-03-22)
 
@@ -1014,7 +1015,15 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in multiple pages of Ho
 ### CVE-2023-29983
 - [zPrototype/CVE-2023-29983](https://github.com/zPrototype/CVE-2023-29983)
 
-### CVE-2023-30185
+### CVE-2023-30092
+- [nawed20002/CVE-2023-30092](https://github.com/nawed20002/CVE-2023-30092)
+
+### CVE-2023-30185 (2023-05-07)
+
+<code>
+CRMEB v4.4 to v4.6 was discovered to contain an arbitrary file upload vulnerability via the component \attachment\SystemAttachmentServices.php.
+</code>
+
 - [c7w1n/CVE-2023-30185](https://github.com/c7w1n/CVE-2023-30185)
 
 ### CVE-2023-30458 (2023-04-24)
@@ -15311,6 +15320,14 @@ The X.509 GeneralName type is a generic type for representing different types of
 - [MBHudson/CVE-2020-1971](https://github.com/MBHudson/CVE-2020-1971)
 - [nidhi7598/OPENSSL_1.1.1g_G3_CVE-2020-1971](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2020-1971)
 
+### CVE-2020-2023 (2020-06-10)
+
+<code>
+Kata Containers doesn't restrict containers from accessing the guest's root filesystem device. Malicious containers can exploit this to gain code execution on the guest and masquerade as the kata-agent. This issue affects Kata Containers 1.11 versions earlier than 1.11.1; Kata Containers 1.10 versions earlier than 1.10.5; and Kata Containers 1.9 and earlier versions.
+</code>
+
+- [ssst0n3/kata-cve-2020-2023-poc](https://github.com/ssst0n3/kata-cve-2020-2023-poc)
+
 ### CVE-2020-2034 (2020-07-08)
 
 <code>
@@ -22797,6 +22814,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [TheAlpha19/MiniExploit](https://github.com/TheAlpha19/MiniExploit)
 - [wenruoya/CVE-2019-15107](https://github.com/wenruoya/CVE-2019-15107)
 - [g1vi/CVE-2019-15107](https://github.com/g1vi/CVE-2019-15107)
+- [K3ysTr0K3R/CVE-2019-15107-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2019-15107-EXPLOIT)
 
 ### CVE-2019-15120 (2019-08-16)
 
