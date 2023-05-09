@@ -75,6 +75,15 @@ A flaw was found in the Linux kernel, where unauthorized access to the execution
 - [xkaneiki/CVE-2023-0386](https://github.com/xkaneiki/CVE-2023-0386)
 - [chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386)
 - [CKevens/CVE-2023-0386](https://github.com/CKevens/CVE-2023-0386)
+- [hshivhare67/kernel_v4.19.72_CVE-2023-0386](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386)
+
+### CVE-2023-0461 (2023-02-28)
+
+<code>
+There is a use-after-free vulnerability in the Linux Kernel which can be exploited to achieve local privilege escalation. To reach the vulnerability kernel configuration flag CONFIG_TLS or CONFIG_XFRM_ESPINTCP has to be configured, but the operation does not require any privilege.\n\nThere is a use-after-free bug of icsk_ulp_data of a struct inet_connection_sock.\n\nWhen CONFIG_TLS is enabled, user can install a tls context (struct tls_context) on a connected tcp socket. The context is not cleared if this socket is disconnected and reused as a listener. If a new socket is created from the listener, the context is inherited and vulnerable.\n\nThe setsockopt TCP_ULP operation does not require any privilege.\n\nWe recommend upgrading past commit 2c02d41d71f90a5168391b6a5f2954112ba2307c
+</code>
+
+- [hshivhare67/kernel_v4.19.72_CVE-2023-0461](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461)
 
 ### CVE-2023-0464 (2023-03-22)
 
@@ -5544,7 +5553,6 @@ An issue was discovered in the Linux kernel through 5.18.9. A type confusion bug
 - [merlinepedra/CVE-2022-34918-LPE-PoC](https://github.com/merlinepedra/CVE-2022-34918-LPE-PoC)
 - [linulinu/CVE-2022-34918](https://github.com/linulinu/CVE-2022-34918)
 - [veritas501/CVE-2022-34918](https://github.com/veritas501/CVE-2022-34918)
-- [Sechack06/CVE-2022-34918](https://github.com/Sechack06/CVE-2022-34918)
 
 ### CVE-2022-34919 (2022-08-22)
 
@@ -10768,7 +10776,7 @@ Multiple path traversal vulnerabilities exist in smbserver.py in Impacket throug
 The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to 2.5.29, still some of the tag’s attributes could perform a double evaluation if a developer applied forced OGNL evaluation by using the %{...} syntax. Using forced OGNL evaluation on untrusted user input can lead to a Remote Code Execution and security degradation.
 </code>
 
-- [YanMu2020/s2-062](https://github.com/YanMu2020/s2-062)
+- [pyroxenites/s2-062](https://github.com/pyroxenites/s2-062)
 - [Wrin9/CVE-2021-31805](https://github.com/Wrin9/CVE-2021-31805)
 - [Axx8/Struts2_S2-062_CVE-2021-31805](https://github.com/Axx8/Struts2_S2-062_CVE-2021-31805)
 - [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
