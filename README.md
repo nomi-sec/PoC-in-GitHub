@@ -643,6 +643,9 @@ Apache Commons FileUpload before 1.5 does not limit the number of request parts 
 
 - [nice1st/CVE-2023-24998](https://github.com/nice1st/CVE-2023-24998)
 
+### CVE-2023-25002
+- [nokn0wthing/CVE-2023-25002](https://github.com/nokn0wthing/CVE-2023-25002)
+
 ### CVE-2023-25136 (2023-02-03)
 
 <code>
@@ -903,7 +906,7 @@ Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2
 ### CVE-2023-28206 (2023-04-10)
 
 <code>
-An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in iOS 15.7.5 and iPadOS 15.7.5, macOS Monterey 12.6.5, iOS 16.4.1 and iPadOS 16.4.1, macOS Big Sur 11.7.6, macOS Ventura 13.3.1. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.
+An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in macOS Monterey 12.6.5, iOS 16.4.1 and iPadOS 16.4.1, iOS 15.7.5 and iPadOS 15.7.5, macOS Big Sur 11.7.6, macOS Ventura 13.3.1. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.
 </code>
 
 - [ZZY3312/CVE-2023-28206](https://github.com/ZZY3312/CVE-2023-28206)
