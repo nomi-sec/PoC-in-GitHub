@@ -961,7 +961,6 @@ Minio is a Multi-Cloud Object Storage framework. In a cluster deployment startin
 - [MzzdToT/CVE-2023-28432](https://github.com/MzzdToT/CVE-2023-28432)
 - [acheiii/CVE-2023-28432](https://github.com/acheiii/CVE-2023-28432)
 - [steponeerror/Cve-2023-28432-](https://github.com/steponeerror/Cve-2023-28432-)
-- [yuyongxr/minio_cve-2023-28432](https://github.com/yuyongxr/minio_cve-2023-28432)
 - [Cuerz/CVE-2023-28432](https://github.com/Cuerz/CVE-2023-28432)
 - [Majus527/MinIO_CVE-2023-28432](https://github.com/Majus527/MinIO_CVE-2023-28432)
 - [LHXHL/Minio-CVE-2023-28432](https://github.com/LHXHL/Minio-CVE-2023-28432)
@@ -10142,7 +10141,7 @@ Windows WalletService Elevation of Privilege Vulnerability This CVE ID is unique
 Remote Access API Elevation of Privilege Vulnerability
 </code>
 
-- [api0cradle/CVE-2021-26882](https://github.com/api0cradle/CVE-2021-26882)
+- [taiji-xo/CVE-2021-26882](https://github.com/taiji-xo/CVE-2021-26882)
 
 ### CVE-2021-26903 (2021-02-26)
 
@@ -11362,6 +11361,7 @@ A command injection vulnerability in the web server of some Hikvision product. D
 - [TaroballzChen/CVE-2021-36260-metasploit](https://github.com/TaroballzChen/CVE-2021-36260-metasploit)
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 - [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
+- [TakenoSite/Simple-CVE-2021-36260](https://github.com/TakenoSite/Simple-CVE-2021-36260)
 
 ### CVE-2021-36394 (2023-03-06)
 
