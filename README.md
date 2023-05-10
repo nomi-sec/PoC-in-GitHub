@@ -84,6 +84,7 @@ There is a use-after-free vulnerability in the Linux Kernel which can be exploit
 </code>
 
 - [hshivhare67/kernel_v4.19.72_CVE-2023-0461](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461)
+- [nidhi7598/linux-4.19.72_CVE-2023-0461](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-0461)
 
 ### CVE-2023-0464 (2023-03-22)
 
@@ -220,6 +221,14 @@ The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` p
 </code>
 
 - [SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114](https://github.com/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114)
+
+### CVE-2023-2594 (2023-05-09)
+
+<code>
+Es wurde eine Schwachstelle in SourceCodester Food Ordering Management System 1.0 gefunden. Sie wurde als kritisch eingestuft. Hiervon betroffen ist ein unbekannter Codeblock der Komponente Registration. Durch die Manipulation des Arguments username mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden.
+</code>
+
+- [thehackingverse/CVE-2023-2594](https://github.com/thehackingverse/CVE-2023-2594)
 
 ### CVE-2023-20860 (2023-03-27)
 
@@ -978,6 +987,14 @@ Smarty is a template engine for PHP. In affected versions smarty did not properl
 ### CVE-2023-28615
 - [YSaxon/CVE-2023-28615](https://github.com/YSaxon/CVE-2023-28615)
 
+### CVE-2023-28772 (2023-03-23)
+
+<code>
+An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow.
+</code>
+
+- [nidhi7598/linux-4.19.72_CVE-2023-28772](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772)
+
 ### CVE-2023-29007 (2023-04-25)
 
 <code>
@@ -1257,6 +1274,7 @@ It was discovered, that redis, a persistent key-value database, due to a packagi
 - [aodsec/CVE-2022-0543](https://github.com/aodsec/CVE-2022-0543)
 - [z92g/CVE-2022-0543](https://github.com/z92g/CVE-2022-0543)
 - [JacobEbben/CVE-2022-0543](https://github.com/JacobEbben/CVE-2022-0543)
+- [SiennaSkies/redisHack](https://github.com/SiennaSkies/redisHack)
 
 ### CVE-2022-0666 (2022-02-18)
 
