@@ -661,9 +661,6 @@ Apache Commons FileUpload before 1.5 does not limit the number of request parts 
 
 - [nice1st/CVE-2023-24998](https://github.com/nice1st/CVE-2023-24998)
 
-### CVE-2023-25002
-- [nokn0wthing/CVE-2023-25002](https://github.com/nokn0wthing/CVE-2023-25002)
-
 ### CVE-2023-25136 (2023-02-03)
 
 <code>
@@ -993,6 +990,7 @@ An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a s
 </code>
 
 - [nidhi7598/linux-4.19.72_CVE-2023-28772](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772)
+- [Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772)
 
 ### CVE-2023-29007 (2023-04-25)
 
@@ -5471,7 +5469,7 @@ Apache Commons Configuration performs variable interpolation, allowing propertie
 - [tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE](https://github.com/tangxiaofeng7/CVE-2022-33980-Apache-Commons-Configuration-RCE)
 - [HKirito/CVE-2022-33980](https://github.com/HKirito/CVE-2022-33980)
 - [sammwyy/CVE-2022-33980-POC](https://github.com/sammwyy/CVE-2022-33980-POC)
-- [Code-971/CVE-2022-33980-EXP](https://github.com/Code-971/CVE-2022-33980-EXP)
+- [P0lar1ght/CVE-2022-33980-EXP](https://github.com/P0lar1ght/CVE-2022-33980-EXP)
 
 ### CVE-2022-34024 (2022-07-19)
 
