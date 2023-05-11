@@ -995,7 +995,9 @@ An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a s
 </code>
 
 - [nidhi7598/linux-4.19.72_CVE-2023-28772](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772)
+- [hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu](https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu)
 - [Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772)
+- [Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772)
 
 ### CVE-2023-29007 (2023-04-25)
 
@@ -1072,7 +1074,12 @@ CRMEB v4.4 to v4.6 was discovered to contain an arbitrary file upload vulnerabil
 
 - [c7w1n/CVE-2023-30185](https://github.com/c7w1n/CVE-2023-30185)
 
-### CVE-2023-30256
+### CVE-2023-30256 (2023-05-11)
+
+<code>
+Cross Site Scripting vulnerability found in Webkil QloApps v.1.5.2 allows a remote attacker to obtain sensitive information via the back and email_create parameters in the AuthController.php file.
+</code>
+
 - [ahrixia/CVE-2023-30256](https://github.com/ahrixia/CVE-2023-30256)
 
 ### CVE-2023-30458 (2023-04-24)
@@ -1134,7 +1141,12 @@ Multiple components (such as Onlinetemplate-Verwaltung, Liste aller Teilbereiche
 ### CVE-2023-31443
 - [MaherAzzouzi/CVE-2023-31443](https://github.com/MaherAzzouzi/CVE-2023-31443)
 
-### CVE-2023-31445
+### CVE-2023-31445 (-)
+
+<code>
+Cassia Access controller before 2.1.1.2203171453, was discovered to have a unprivileged -information disclosure vulnerability that allows read-only users have the ability to enumerate all other users and discover e-mail addresses, phone numbers, and privileges of all other users.
+</code>
+
 - [Dodge-MPTC/CVE-2023-31445-Unprivileged-Information-Disclosure](https://github.com/Dodge-MPTC/CVE-2023-31445-Unprivileged-Information-Disclosure)
 
 
@@ -1425,7 +1437,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [ajith737/Dirty-Pipe-CVE-2022-0847-POCs](https://github.com/ajith737/Dirty-Pipe-CVE-2022-0847-POCs)
 - [mutur4/CVE-2022-0847](https://github.com/mutur4/CVE-2022-0847)
 - [orsuprasad/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/orsuprasad/CVE-2022-0847-DirtyPipe-Exploits)
-- [4bhishek0/CVE-2022-0847](https://github.com/4bhishek0/CVE-2022-0847)
+- [4bhishek0/CVE-2022-0847-Poc](https://github.com/4bhishek0/CVE-2022-0847-Poc)
 - [JlSakuya/CVE-2022-0847-container-escape](https://github.com/JlSakuya/CVE-2022-0847-container-escape)
 - [jonathanbest7/cve-2022-0847](https://github.com/jonathanbest7/cve-2022-0847)
 
@@ -4679,6 +4691,9 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 - [aaronsvk/CVE-2022-30075](https://github.com/aaronsvk/CVE-2022-30075)
 - [SAJIDAMINE/CVE-2022-30075](https://github.com/SAJIDAMINE/CVE-2022-30075)
 - [M4fiaB0y/CVE-2022-30075](https://github.com/M4fiaB0y/CVE-2022-30075)
+
+### CVE-2022-30114
+- [str0ng4le/CVE-2022-30114](https://github.com/str0ng4le/CVE-2022-30114)
 
 ### CVE-2022-30129 (2022-05-10)
 
@@ -30691,6 +30706,14 @@ The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the P
 </code>
 
 - [lcfpadilha/mac0352-ep4](https://github.com/lcfpadilha/mac0352-ep4)
+
+### CVE-2016-8776 (2017-04-02)
+
+<code>
+Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
+</code>
+
+- [akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776)
 
 ### CVE-2016-8858 (2016-12-09)
 
