@@ -222,6 +222,9 @@ The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` p
 
 - [SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114](https://github.com/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114)
 
+### CVE-2023-2123
+- [daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin)
+
 ### CVE-2023-2594 (2023-05-09)
 
 <code>
