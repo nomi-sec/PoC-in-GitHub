@@ -84,6 +84,7 @@ There is a use-after-free vulnerability in the Linux Kernel which can be exploit
 </code>
 
 - [hshivhare67/kernel_v4.19.72_CVE-2023-0461](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461)
+- [hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd](https://github.com/hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd)
 - [nidhi7598/linux-4.19.72_CVE-2023-0461](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-0461)
 
 ### CVE-2023-0464 (2023-03-22)
@@ -557,6 +558,7 @@ A deserialization vulnerability existed when dubbo generic invoke, which could l
 </code>
 
 - [X1r0z/CVE-2023-23638](https://github.com/X1r0z/CVE-2023-23638)
+- [YYHYlh/Apache-Dubbo-CVE-2023-23638-exp](https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp)
 
 ### CVE-2023-23752 (2023-02-16)
 
@@ -30689,14 +30691,6 @@ The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the P
 </code>
 
 - [lcfpadilha/mac0352-ep4](https://github.com/lcfpadilha/mac0352-ep4)
-
-### CVE-2016-8776 (2017-04-02)
-
-<code>
-Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
-</code>
-
-- [akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776)
 
 ### CVE-2016-8858 (2016-12-09)
 
