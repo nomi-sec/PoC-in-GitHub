@@ -469,7 +469,12 @@ A Path Traversal in setup.php in OpenEMR &lt; 7.0.0 allows remote unauthenticate
 ### CVE-2023-23138
 - [OmarAtallahh/CVE-2023-23138](https://github.com/OmarAtallahh/CVE-2023-23138)
 
-### CVE-2023-23169
+### CVE-2023-23169 (2023-05-12)
+
+<code>
+Synapsoft pdfocus 1.17 is vulnerable to local file inclusion and server-side request forgery Directory Traversal.
+</code>
+
 - [S4nshine/CVE-2023-23169](https://github.com/S4nshine/CVE-2023-23169)
 
 ### CVE-2023-23192 (2023-03-22)
@@ -1066,7 +1071,12 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in multiple pages of Ho
 
 - [jichngan/CVE-2023-29839](https://github.com/jichngan/CVE-2023-29839)
 
-### CVE-2023-29983
+### CVE-2023-29983 (2023-05-12)
+
+<code>
+Cross Site Scripting vulnerability found in Maximilian Vogt cmaps v.8.0 allows a remote attacker to execute arbitrary code via the auditlog tab in the admin panel.
+</code>
+
 - [zPrototype/CVE-2023-29983](https://github.com/zPrototype/CVE-2023-29983)
 
 ### CVE-2023-30092 (2023-05-08)
@@ -11369,6 +11379,7 @@ Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (
 </code>
 
 - [antx-code/CVE-2021-35587](https://github.com/antx-code/CVE-2021-35587)
+- [1s1ldur/CVE-2021-35587-Vulnerability-Check](https://github.com/1s1ldur/CVE-2021-35587-Vulnerability-Check)
 
 ### CVE-2021-35616 (2021-10-20)
 
@@ -25483,7 +25494,6 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 
 - [Mkv4/cve-2018-8453-exp](https://github.com/Mkv4/cve-2018-8453-exp)
 - [ze0r/cve-2018-8453-exp](https://github.com/ze0r/cve-2018-8453-exp)
-- [thepwnrip/leHACK-Analysis-of-CVE-2018-8453](https://github.com/thepwnrip/leHACK-Analysis-of-CVE-2018-8453)
 
 ### CVE-2018-8495 (2018-10-10)
 
@@ -25906,7 +25916,6 @@ In Git before 2.13.7, 2.14.x before 2.14.4, 2.15.x before 2.15.2, 2.16.x before 
 - [qweraqq/CVE-2018-11235-Git-Submodule-CE](https://github.com/qweraqq/CVE-2018-11235-Git-Submodule-CE)
 - [jhswartz/CVE-2018-11235](https://github.com/jhswartz/CVE-2018-11235)
 - [AnonymKing/CVE-2018-11235](https://github.com/AnonymKing/CVE-2018-11235)
-- [0rx1/CVE-2018-11235](https://github.com/0rx1/CVE-2018-11235)
 - [cchang27/CVE-2018-11235-test](https://github.com/cchang27/CVE-2018-11235-test)
 - [nthuong95/CVE-2018-11235](https://github.com/nthuong95/CVE-2018-11235)
 - [xElkomy/CVE-2018-11235](https://github.com/xElkomy/CVE-2018-11235)
@@ -27279,14 +27288,6 @@ The WSDL import functionality in SmartBear ReadyAPI 2.5.0 and 2.6.0 allows remot
 </code>
 
 - [gscamelo/CVE-2018-20580](https://github.com/gscamelo/CVE-2018-20580)
-
-### CVE-2018-20718 (2019-01-15)
-
-<code>
-In Pydio before 8.2.2, an attack is possible via PHP Object Injection because a user is allowed to use the $phpserial$a:0:{} syntax to store a preference. An attacker either needs a &quot;public link&quot; of a file, or access to any unprivileged user account for creation of such a link.
-</code>
-
-- [us3r777/CVE-2018-20718](https://github.com/us3r777/CVE-2018-20718)
 
 ### CVE-2018-20966 (2019-08-12)
 
