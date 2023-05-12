@@ -72,6 +72,7 @@ A flaw was found in the Linux kernel, where unauthorized access to the execution
 </code>
 
 - [Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386)
+- [xkaneiki/CVE-2023-0386](https://github.com/xkaneiki/CVE-2023-0386)
 - [chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386)
 - [CKevens/CVE-2023-0386](https://github.com/CKevens/CVE-2023-0386)
 - [hshivhare67/kernel_v4.19.72_CVE-2023-0386](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386)
@@ -8450,6 +8451,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [PhuketIsland/CVE-2021-3156-centos7](https://github.com/PhuketIsland/CVE-2021-3156-centos7)
 - [0x4ndy/clif](https://github.com/0x4ndy/clif)
 - [meowhua15/CVE-2021-3156](https://github.com/meowhua15/CVE-2021-3156)
+- [mutur4/CVE-2021-3156](https://github.com/mutur4/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -15714,6 +15716,7 @@ GLPI before before version 9.4.6 has a vulnerability involving a default encrypt
 </code>
 
 - [indevi0us/CVE-2020-5248](https://github.com/indevi0us/CVE-2020-5248)
+- [Mkway/CVE-2020-5248](https://github.com/Mkway/CVE-2020-5248)
 
 ### CVE-2020-5250 (2020-03-05)
 
@@ -16676,6 +16679,7 @@ Umbraco CMS 8.5.3 allows an authenticated file upload (and consequently Remote C
 </code>
 
 - [shanika04/apache_skywalking](https://github.com/shanika04/apache_skywalking)
+- [Neko-chanQwQ/CVE-2020-9483](https://github.com/Neko-chanQwQ/CVE-2020-9483)
 
 ### CVE-2020-9484 (2020-05-20)
 
@@ -16719,6 +16723,7 @@ XML-RPC request are vulnerable to unsafe deserialization and Cross-Site Scriptin
 - [cyber-niz/CVE-2020-9496](https://github.com/cyber-niz/CVE-2020-9496)
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
 - [ambalabanov/CVE-2020-9496](https://github.com/ambalabanov/CVE-2020-9496)
+- [s4dbrd/CVE-2020-9496](https://github.com/s4dbrd/CVE-2020-9496)
 - [Ly0nt4r/CVE-2020-9496](https://github.com/Ly0nt4r/CVE-2020-9496)
 
 ### CVE-2020-9547 (2020-03-01)
@@ -19260,6 +19265,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [nob0dy-3389/CVE-2020-27955](https://github.com/nob0dy-3389/CVE-2020-27955)
 - [Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS)
 - [FrostsaberX/CVE-2020-27955](https://github.com/FrostsaberX/CVE-2020-27955)
+- [whitetea2424/CVE-2020-27955-LFS-main](https://github.com/whitetea2424/CVE-2020-27955-LFS-main)
 - [userxfan/cve-2020-27955](https://github.com/userxfan/cve-2020-27955)
 - [z50913/CVE-2020-27955](https://github.com/z50913/CVE-2020-27955)
 - [Kimorea/CVE-2020-27955-LFS](https://github.com/Kimorea/CVE-2020-27955-LFS)
@@ -19383,6 +19389,7 @@ This affects the package xmlhttprequest before 1.7.0; all versions of package xm
 </code>
 
 - [s-index/CVE-2020-28502](https://github.com/s-index/CVE-2020-28502)
+- [dpredrag/CVE-2020-28502](https://github.com/dpredrag/CVE-2020-28502)
 
 ### CVE-2020-28647 (2020-11-17)
 
@@ -19600,6 +19607,14 @@ A vulnerability was found in openvswitch. A limitation in the implementation of 
 
 - [freddierice/cve-2020-35498-flag](https://github.com/freddierice/cve-2020-35498-flag)
 
+### CVE-2020-35545 (2020-12-17)
+
+<code>
+Time-based SQL injection exists in Spotweb 1.4.9 via the query string.
+</code>
+
+- [bousalman/CVE-2020-35545](https://github.com/bousalman/CVE-2020-35545)
+
 ### CVE-2020-35590 (2020-12-21)
 
 <code>
@@ -19673,6 +19688,15 @@ Directory traversal vulnerability in class-simple_job_board_resume_download_hand
 
 - [M4xSec/Wordpress-CVE-2020-35749](https://github.com/M4xSec/Wordpress-CVE-2020-35749)
 
+### CVE-2020-35846 (2020-12-29)
+
+<code>
+Agentejo Cockpit before 0.11.2 allows NoSQL injection via the Controller/Auth.php check function.
+</code>
+
+- [JohnHammond/CVE-2020-35846](https://github.com/JohnHammond/CVE-2020-35846)
+- [0z09e/CVE-2020-35846](https://github.com/0z09e/CVE-2020-35846)
+
 ### CVE-2020-35847 (2020-12-29)
 
 <code>
@@ -19721,6 +19745,14 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-36188](https://github.com/Al1ex/CVE-2020-36188)
+
+### CVE-2020-36287 (2021-04-08)
+
+<code>
+The dashboard gadgets preference resource of the Atlassian gadgets plugin used in Jira Server and Jira Data Center before version 8.13.5, and from version 8.14.0 before version 8.15.1 allows remote anonymous attackers to obtain gadget related settings via a missing permissions check.
+</code>
+
+- [f4rber/CVE-2020-36287](https://github.com/f4rber/CVE-2020-36287)
 
 ### CVE-2020-36518 (2022-03-11)
 
@@ -24007,6 +24039,7 @@ Equation Editor in Microsoft Office 2007, Microsoft Office 2010, Microsoft Offic
 - [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
 - [likescam/CVE-2018-0802_CVE-2017-11882](https://github.com/likescam/CVE-2018-0802_CVE-2017-11882)
 - [5l1v3r1/rtfkit](https://github.com/5l1v3r1/rtfkit)
+- [roninAPT/CVE-2018-0802](https://github.com/roninAPT/CVE-2018-0802)
 
 ### CVE-2018-0824 (2018-05-09)
 
@@ -24939,6 +24972,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
 - [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
+- [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
 - [OLAOLAOLA789/CVE-2018-6574](https://github.com/OLAOLAOLA789/CVE-2018-6574)
 - [repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574)
 - [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
@@ -25351,6 +25385,7 @@ A remote code execution vulnerability exists in the way that the VBScript engine
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP)
 - [www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-](https://github.com/www201001/https-github.com-iBearcat-CVE-2018-8174_EXP.git-)
 - [delina1/CVE-2018-8174](https://github.com/delina1/CVE-2018-8174)
+- [delina1/CVE-2018-8174_EXP](https://github.com/delina1/CVE-2018-8174_EXP)
 - [DarkFlameMaster-bit/CVE-2018-8174_EXP](https://github.com/DarkFlameMaster-bit/CVE-2018-8174_EXP)
 - [lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp)
 - [sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP)
@@ -26210,6 +26245,14 @@ PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption
 </code>
 
 - [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits)
+
+### CVE-2018-13797 (2018-07-10)
+
+<code>
+The macaddress module before 0.2.9 for Node.js is prone to an arbitrary command injection flaw, due to allowing unsanitized input to an exec (rather than execFile) call.
+</code>
+
+- [dsp-testing/CVE-2018-13797](https://github.com/dsp-testing/CVE-2018-13797)
 
 ### CVE-2018-13864 (2018-07-17)
 
