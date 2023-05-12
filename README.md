@@ -998,6 +998,7 @@ An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a s
 - [hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu](https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu)
 - [Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772)
 - [Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772)
+- [hshivhare67/kernel_v4.1.15_CVE-2023-28772](https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772)
 
 ### CVE-2023-29007 (2023-04-25)
 
@@ -1041,10 +1042,20 @@ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the c
 - [whalebone7/EagleEye](https://github.com/whalebone7/EagleEye)
 - [1337r0j4n/CVE-2023-29489](https://github.com/1337r0j4n/CVE-2023-29489)
 
-### CVE-2023-29808
+### CVE-2023-29808 (2023-05-11)
+
+<code>
+Cross Site Scripting (XSS) vulnerability in vogtmh cmaps (companymaps) 8.0 allows attackers to execute arbitrary code.
+</code>
+
 - [zPrototype/CVE-2023-29808](https://github.com/zPrototype/CVE-2023-29808)
 
-### CVE-2023-29809
+### CVE-2023-29809 (2023-05-11)
+
+<code>
+SQL injection vulnerability found in Maximilian Vogt companymaps (cmaps) v.8.0 allows a remote attacker to execute arbitrary code via a crafted script in the request.
+</code>
+
 - [zPrototype/CVE-2023-29809](https://github.com/zPrototype/CVE-2023-29809)
 
 ### CVE-2023-29839 (2023-05-02)
@@ -7304,6 +7315,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [Safarchand/CVE-2022-46169](https://github.com/Safarchand/CVE-2022-46169)
 - [MarkStrendin/CVE-2022-46169](https://github.com/MarkStrendin/CVE-2022-46169)
 - [BKreisel/CVE-2022-46169](https://github.com/BKreisel/CVE-2022-46169)
+- [ahanel13/ImprovedShell-for-CVE-2022-46169](https://github.com/ahanel13/ImprovedShell-for-CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -11472,7 +11484,6 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
-- [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
 - [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
@@ -13246,6 +13257,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [YourKeeper/SunScope](https://github.com/YourKeeper/SunScope)
 - [Ki11i0n4ir3/CVE-2021-43798](https://github.com/Ki11i0n4ir3/CVE-2021-43798)
 - [mauricelambert/LabAutomationCVE-2021-43798](https://github.com/mauricelambert/LabAutomationCVE-2021-43798)
+- [FAOG99/GrafanaDirectoryScanner](https://github.com/FAOG99/GrafanaDirectoryScanner)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -13425,6 +13437,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [winnpixie/log4noshell](https://github.com/winnpixie/log4noshell)
 - [Azeemering/CVE-2021-44228-DFIR-Notes](https://github.com/Azeemering/CVE-2021-44228-DFIR-Notes)
 - [Puliczek/CVE-2021-44228-PoC-log4j-bypass-words](https://github.com/Puliczek/CVE-2021-44228-PoC-log4j-bypass-words)
+- [kozmer/log4j-shell-poc](https://github.com/kozmer/log4j-shell-poc)
 - [alexandreroman/cve-2021-44228-workaround-buildpack](https://github.com/alexandreroman/cve-2021-44228-workaround-buildpack)
 - [Adikso/minecraft-log4j-honeypot](https://github.com/Adikso/minecraft-log4j-honeypot)
 - [racoon-rac/CVE-2021-44228](https://github.com/racoon-rac/CVE-2021-44228)
