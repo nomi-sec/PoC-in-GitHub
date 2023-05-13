@@ -1170,6 +1170,14 @@ Cassia Access controller before 2.1.1.2203171453, was discovered to have a unpri
 
 - [Dodge-MPTC/CVE-2023-31445-Unprivileged-Information-Disclosure](https://github.com/Dodge-MPTC/CVE-2023-31445-Unprivileged-Information-Disclosure)
 
+### CVE-2023-31497 (2023-05-11)
+
+<code>
+Incorrect access control in Quick Heal Technologies Limited Seqrite Endpoint Security (EPS) all versions prior to v8.0 allows attackers to escalate privileges to root via supplying a crafted binary to the target system.
+</code>
+
+- [0xInfection/EPScalate](https://github.com/0xInfection/EPScalate)
+
 
 ## 2022
 ### CVE-2022-0185 (2022-02-11)
@@ -8474,6 +8482,7 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [0x4ndy/clif](https://github.com/0x4ndy/clif)
 - [meowhua15/CVE-2021-3156](https://github.com/meowhua15/CVE-2021-3156)
 - [mutur4/CVE-2021-3156](https://github.com/mutur4/CVE-2021-3156)
+- [PurpleOzone/PE_CVE-CVE-2021-3156](https://github.com/PurpleOzone/PE_CVE-CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -18293,6 +18302,7 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 - [ykg88/OHTS_IE6052-CVE-2020-17087](https://github.com/ykg88/OHTS_IE6052-CVE-2020-17087)
 - [vp777/Windows-Non-Paged-Pool-Overflow-Exploitation](https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation)
+- [raiden757/CVE-2020-17087](https://github.com/raiden757/CVE-2020-17087)
 
 ### CVE-2020-17136 (2020-12-09)
 
