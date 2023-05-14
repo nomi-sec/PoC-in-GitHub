@@ -9453,6 +9453,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
 - [mr-tuhin/CVE-2021-22204-exiftool](https://github.com/mr-tuhin/CVE-2021-22204-exiftool)
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
+- [Akash7350/CVE-2021-22204](https://github.com/Akash7350/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -32188,6 +32189,7 @@ luni/src/main/java/java/io/ObjectInputStream.java in the java.io.ObjectInputStre
 - [ele7enxxh/CVE-2014-7911](https://github.com/ele7enxxh/CVE-2014-7911)
 - [heeeeen/CVE-2014-7911poc](https://github.com/heeeeen/CVE-2014-7911poc)
 - [GeneBlue/cve-2014-7911-exp](https://github.com/GeneBlue/cve-2014-7911-exp)
+- [koozxcv/CVE-2014-7911](https://github.com/koozxcv/CVE-2014-7911)
 - [koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege](https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege)
 - [mabin004/cve-2014-7911](https://github.com/mabin004/cve-2014-7911)
 - [CytQ/CVE-2014-7911_poc](https://github.com/CytQ/CVE-2014-7911_poc)
@@ -32199,6 +32201,7 @@ mediaserver in Android 2.2 through 5.x before 5.1 allows attackers to gain privi
 </code>
 
 - [laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921)
+- [Vinc3nt4H/cve-2014-7920-7921_update](https://github.com/Vinc3nt4H/cve-2014-7920-7921_update)
 
 ### CVE-2014-8110 (2015-02-12)
 
