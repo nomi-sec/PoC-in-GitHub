@@ -3379,6 +3379,14 @@ Solar appScreener through 3.10.4, when a valid license is not present, allows XX
 
 - [jet-pentest/CVE-2022-24449](https://github.com/jet-pentest/CVE-2022-24449)
 
+### CVE-2022-24481 (2022-04-15)
+
+<code>
+Windows Common Log File System Driver Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-24521.
+</code>
+
+- [robotMD5/CVE-2022-24481-POC](https://github.com/robotMD5/CVE-2022-24481-POC)
+
 ### CVE-2022-24483 (2022-04-15)
 
 <code>
