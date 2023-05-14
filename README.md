@@ -1032,6 +1032,14 @@ Zoho ManageEngine ADManager Plus through 7180 allows for authenticated users to 
 
 - [ohnonoyesyes/CVE-2023-29084](https://github.com/ohnonoyesyes/CVE-2023-29084)
 
+### CVE-2023-29324 (2023-05-09)
+
+<code>
+Windows MSHTML Platform Security Feature Bypass Vulnerability
+</code>
+
+- [OLeDouxEt/CVE-2023-29324_Patch_Deploy](https://github.com/OLeDouxEt/CVE-2023-29324_Patch_Deploy)
+
 ### CVE-2023-29489 (2023-04-27)
 
 <code>
@@ -1177,6 +1185,14 @@ Incorrect access control in Quick Heal Technologies Limited Seqrite Endpoint Sec
 </code>
 
 - [0xInfection/EPScalate](https://github.com/0xInfection/EPScalate)
+
+### CVE-2023-32243 (2023-05-12)
+
+<code>
+Improper Authentication vulnerability in WPDeveloper Essential Addons for Elementor allows Privilege Escalation. This issue affects Essential Addons for Elementor: from 5.4.0 through 5.7.1.
+</code>
+
+- [little44n1o/cve-2023-32243](https://github.com/little44n1o/cve-2023-32243)
 
 
 ## 2022
@@ -32172,7 +32188,6 @@ luni/src/main/java/java/io/ObjectInputStream.java in the java.io.ObjectInputStre
 - [ele7enxxh/CVE-2014-7911](https://github.com/ele7enxxh/CVE-2014-7911)
 - [heeeeen/CVE-2014-7911poc](https://github.com/heeeeen/CVE-2014-7911poc)
 - [GeneBlue/cve-2014-7911-exp](https://github.com/GeneBlue/cve-2014-7911-exp)
-- [koozxcv/CVE-2014-7911](https://github.com/koozxcv/CVE-2014-7911)
 - [koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege](https://github.com/koozxcv/CVE-2014-7911-CVE-2014-4322_get_root_privilege)
 - [mabin004/cve-2014-7911](https://github.com/mabin004/cve-2014-7911)
 - [CytQ/CVE-2014-7911_poc](https://github.com/CytQ/CVE-2014-7911_poc)
@@ -32184,7 +32199,6 @@ mediaserver in Android 2.2 through 5.x before 5.1 allows attackers to gain privi
 </code>
 
 - [laginimaineb/cve-2014-7920-7921](https://github.com/laginimaineb/cve-2014-7920-7921)
-- [Vinc3nt4H/cve-2014-7920-7921_update](https://github.com/Vinc3nt4H/cve-2014-7920-7921_update)
 
 ### CVE-2014-8110 (2015-02-12)
 
