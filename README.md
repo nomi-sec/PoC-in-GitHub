@@ -671,6 +671,9 @@ Apache Commons FileUpload before 1.5 does not limit the number of request parts 
 
 - [nice1st/CVE-2023-24998](https://github.com/nice1st/CVE-2023-24998)
 
+### CVE-2023-25002
+- [nokn0wthing/CVE-2023-25002](https://github.com/nokn0wthing/CVE-2023-25002)
+
 ### CVE-2023-25136 (2023-02-03)
 
 <code>
@@ -2063,6 +2066,14 @@ A vulnerability classified as problematic was found in SourceCodester Sanitizati
 
 - [Urban4/CVE-2022-3992](https://github.com/Urban4/CVE-2022-3992)
 
+### CVE-2022-4096 (2022-11-21)
+
+<code>
+Server-Side Request Forgery (SSRF) in GitHub repository appsmithorg/appsmith prior to 1.8.2.
+</code>
+
+- [aminetitrofine/CVE-2022-4096](https://github.com/aminetitrofine/CVE-2022-4096)
+
 ### CVE-2022-4304 (2023-02-08)
 
 <code>
@@ -2540,7 +2551,6 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
 - [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
-- [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
@@ -4847,6 +4857,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 - [3barz/Follina_Vagrant](https://github.com/3barz/Follina_Vagrant)
 - [ToxicEnvelope/FOLLINA-CVE-2022-30190](https://github.com/ToxicEnvelope/FOLLINA-CVE-2022-30190)
 - [meowhua15/CVE-2022-30190](https://github.com/meowhua15/CVE-2022-30190)
+- [aminetitrofine/CVE-2022-30190](https://github.com/aminetitrofine/CVE-2022-30190)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -25223,7 +25234,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [pimps/CVE-2018-7600](https://github.com/pimps/CVE-2018-7600)
 - [lorddemon/drupalgeddon2](https://github.com/lorddemon/drupalgeddon2)
 - [Hestat/drupal-check](https://github.com/Hestat/drupal-check)
-- [fyraiga/CVE-2018-7600-drupalgeddon2-scanner](https://github.com/fyraiga/CVE-2018-7600-drupalgeddon2-scanner)
+- [kahliya/CVE-2018-7600-drupalgeddon2-scanner](https://github.com/kahliya/CVE-2018-7600-drupalgeddon2-scanner)
 - [Damian972/drupalgeddon-2](https://github.com/Damian972/drupalgeddon-2)
 - [jyo-zi/CVE-2018-7600](https://github.com/jyo-zi/CVE-2018-7600)
 - [happynote3966/CVE-2018-7600](https://github.com/happynote3966/CVE-2018-7600)
