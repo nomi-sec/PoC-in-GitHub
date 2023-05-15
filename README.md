@@ -15006,7 +15006,6 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [thelostworldFree/CVE-2020-0796](https://github.com/thelostworldFree/CVE-2020-0796)
 - [section-c/CVE-2020-0796](https://github.com/section-c/CVE-2020-0796)
 - [bacth0san96/SMBGhostScanner](https://github.com/bacth0san96/SMBGhostScanner)
-- [DreamoneOnly/CVE-2020-0796-LPE](https://github.com/DreamoneOnly/CVE-2020-0796-LPE)
 - [halsten/CVE-2020-0796](https://github.com/halsten/CVE-2020-0796)
 - [ysyyrps123/CVE-2020-0796](https://github.com/ysyyrps123/CVE-2020-0796)
 - [ysyyrps123/CVE-2020-0796-exp](https://github.com/ysyyrps123/CVE-2020-0796-exp)
@@ -19955,7 +19954,7 @@ A remote code execution vulnerability exists in Microsoft SharePoint when the so
 An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
 </code>
 
-- [DreamoneOnly/CVE-2019-0623-32-exp](https://github.com/DreamoneOnly/CVE-2019-0623-32-exp)
+- [Anti-ghosts/CVE-2019-0623-32-exp](https://github.com/Anti-ghosts/CVE-2019-0623-32-exp)
 
 ### CVE-2019-0678 (2019-04-08)
 
@@ -20141,7 +20140,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [ze0r/cve-2019-0808-poc](https://github.com/ze0r/cve-2019-0808-poc)
 - [rakesh143/CVE-2019-0808](https://github.com/rakesh143/CVE-2019-0808)
 - [exodusintel/CVE-2019-0808](https://github.com/exodusintel/CVE-2019-0808)
-- [DreamoneOnly/CVE-2019-0808-32-64-exp](https://github.com/DreamoneOnly/CVE-2019-0808-32-64-exp)
+- [avboy1337/CVE-2019-0808-32-64-exp](https://github.com/avboy1337/CVE-2019-0808-32-64-exp)
 
 ### CVE-2019-0841 (2019-04-09)
 
@@ -20405,7 +20404,6 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 
 - [piotrflorczyk/cve-2019-1458_POC](https://github.com/piotrflorczyk/cve-2019-1458_POC)
 - [unamer/CVE-2019-1458](https://github.com/unamer/CVE-2019-1458)
-- [DreamoneOnly/CVE-2019-1458-malware](https://github.com/DreamoneOnly/CVE-2019-1458-malware)
 - [Eternit7/CVE-2019-1458](https://github.com/Eternit7/CVE-2019-1458)
 
 ### CVE-2019-1476 (2019-12-10)
@@ -25427,7 +25425,6 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [ozkanbilge/CVE-2018-8120](https://github.com/ozkanbilge/CVE-2018-8120)
 - [qiantu88/CVE-2018-8120](https://github.com/qiantu88/CVE-2018-8120)
 - [Y0n0Y/cve-2018-8120-exp](https://github.com/Y0n0Y/cve-2018-8120-exp)
-- [DreamoneOnly/CVE-2018-8120](https://github.com/DreamoneOnly/CVE-2018-8120)
 - [StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120)
 - [wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120)
 
