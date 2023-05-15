@@ -1196,6 +1196,7 @@ Improper Authentication vulnerability in WPDeveloper Essential Addons for Elemen
 </code>
 
 - [little44n1o/cve-2023-32243](https://github.com/little44n1o/cve-2023-32243)
+- [gbrsh/CVE-2023-32243](https://github.com/gbrsh/CVE-2023-32243)
 
 
 ## 2022
@@ -2551,6 +2552,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
 - [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
+- [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
