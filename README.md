@@ -941,6 +941,7 @@ An out-of-bounds write issue was addressed with improved input validation. This 
 </code>
 
 - [ZZY3312/CVE-2023-28206](https://github.com/ZZY3312/CVE-2023-28206)
+- [acceleratortroll/acceleratortroll](https://github.com/acceleratortroll/acceleratortroll)
 
 ### CVE-2023-28231 (2023-04-11)
 
@@ -2979,7 +2980,6 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [4nth0ny1130/spring4shell_behinder](https://github.com/4nth0ny1130/spring4shell_behinder)
 - [t3amj3ff/Spring4ShellPoC](https://github.com/t3amj3ff/Spring4ShellPoC)
 - [CalumHutton/CVE-2022-22965-PoC_Payara](https://github.com/CalumHutton/CVE-2022-22965-PoC_Payara)
-- [Will-Beninger/CVE-2022-22965_SpringShell](https://github.com/Will-Beninger/CVE-2022-22965_SpringShell)
 - [fransvanbuul/CVE-2022-22965-susceptibility](https://github.com/fransvanbuul/CVE-2022-22965-susceptibility)
 - [jrgdiaz/Spring4Shell-CVE-2022-22965.py](https://github.com/jrgdiaz/Spring4Shell-CVE-2022-22965.py)
 - [Loneyers/Spring4Shell](https://github.com/Loneyers/Spring4Shell)
@@ -6266,6 +6266,7 @@ Git is an open source, scalable, distributed revision control system. Versions p
 </code>
 
 - [ssst0n3/docker-cve-2022-39253-poc](https://github.com/ssst0n3/docker-cve-2022-39253-poc)
+- [HiImDarwin/NetworkSecurityFinalProject](https://github.com/HiImDarwin/NetworkSecurityFinalProject)
 
 ### CVE-2022-39299 (2022-10-12)
 
@@ -6693,6 +6694,14 @@ The web app client of TP-Link AX10v1 V1_211117 uses hard-coded cryptographic key
 </code>
 
 - [efchatz/easy-exploits](https://github.com/efchatz/easy-exploits)
+
+### CVE-2022-41544 (2022-10-18)
+
+<code>
+GetSimple CMS v3.3.16 was discovered to contain a remote code execution (RCE) vulnerability via the edited_file parameter in admin/theme-edit.php.
+</code>
+
+- [yosef0x01/CVE-2022-41544](https://github.com/yosef0x01/CVE-2022-41544)
 
 ### CVE-2022-41622 (2022-12-06)
 
