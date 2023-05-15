@@ -1189,6 +1189,14 @@ Incorrect access control in Quick Heal Technologies Limited Seqrite Endpoint Sec
 
 - [0xInfection/EPScalate](https://github.com/0xInfection/EPScalate)
 
+### CVE-2023-32073 (2023-05-12)
+
+<code>
+WWBN AVideo is an open source video platform. In versions 12.4 and prior, a command injection vulnerability exists at `plugin/CloneSite/cloneClient.json.php` which allows Remote Code Execution if you CloneSite Plugin. This is a bypass to the fix for CVE-2023-30854, which affects WWBN AVideo up to version 12.3. This issue is patched in commit 1df4af01f80d56ff2c4c43b89d0bac151e7fb6e3.
+</code>
+
+- [jmrcsnchz/CVE-2023-32073](https://github.com/jmrcsnchz/CVE-2023-32073)
+
 ### CVE-2023-32243 (2023-05-12)
 
 <code>
@@ -1197,6 +1205,7 @@ Improper Authentication vulnerability in WPDeveloper Essential Addons for Elemen
 
 - [little44n1o/cve-2023-32243](https://github.com/little44n1o/cve-2023-32243)
 - [gbrsh/CVE-2023-32243](https://github.com/gbrsh/CVE-2023-32243)
+- [RandomRobbieBF/CVE-2023-32243](https://github.com/RandomRobbieBF/CVE-2023-32243)
 
 
 ## 2022
@@ -22960,6 +22969,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [wenruoya/CVE-2019-15107](https://github.com/wenruoya/CVE-2019-15107)
 - [g1vi/CVE-2019-15107](https://github.com/g1vi/CVE-2019-15107)
 - [K3ysTr0K3R/CVE-2019-15107-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2019-15107-EXPLOIT)
+- [gozn/detect-CVE-2019-15107-by-pyshark](https://github.com/gozn/detect-CVE-2019-15107-by-pyshark)
 
 ### CVE-2019-15120 (2019-08-16)
 
