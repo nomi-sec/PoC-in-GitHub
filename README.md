@@ -693,6 +693,7 @@ A possible security vulnerability has been identified in Apache Kafka Connect. T
 </code>
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
+- [Veraxy00/Flink-Kafka-Vul](https://github.com/Veraxy00/Flink-Kafka-Vul)
 
 ### CVE-2023-25234 (2023-02-27)
 
@@ -1197,6 +1198,16 @@ WWBN AVideo is an open source video platform. In versions 12.4 and prior, a comm
 </code>
 
 - [jmrcsnchz/CVE-2023-32073](https://github.com/jmrcsnchz/CVE-2023-32073)
+
+### CVE-2023-32233 (2023-05-08)
+
+<code>
+In the Linux kernel through 6.3.1, a use-after-free in Netfilter nf_tables when processing batch requests can be abused to perform arbitrary read and write operations on kernel memory. Unprivileged local users can obtain root privileges. This occurs because anonymous sets are mishandled.
+</code>
+
+- [PIDAN-HEIDASHUAI/CVE-2023-32233](https://github.com/PIDAN-HEIDASHUAI/CVE-2023-32233)
+- [Liuk3r/CVE-2023-32233](https://github.com/Liuk3r/CVE-2023-32233)
+- [oferchen/POC-CVE-2023-32233](https://github.com/oferchen/POC-CVE-2023-32233)
 
 ### CVE-2023-32243 (2023-05-12)
 
@@ -29877,6 +29888,7 @@ Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusi
 </code>
 
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
 
 ### CVE-2016-0701 (2016-02-14)
 
@@ -30116,6 +30128,14 @@ Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile meth
 </code>
 
 - [icewall/CVE-2016-2334](https://github.com/icewall/CVE-2016-2334)
+
+### CVE-2016-2386 (2016-02-16)
+
+<code>
+SQL injection vulnerability in the UDDI server in SAP NetWeaver J2EE Engine 7.40 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, aka SAP Security Note 2101079.
+</code>
+
+- [murataydemir/CVE-2016-2386](https://github.com/murataydemir/CVE-2016-2386)
 
 ### CVE-2016-2402 (2017-01-30)
 
