@@ -29877,7 +29877,6 @@ Unspecified vulnerability in the Oracle WebLogic Server component in Oracle Fusi
 </code>
 
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
-- [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
 
 ### CVE-2016-0701 (2016-02-14)
 
@@ -30117,14 +30116,6 @@ Heap-based buffer overflow in the NArchive::NHfs::CHandler::ExtractZlibFile meth
 </code>
 
 - [icewall/CVE-2016-2334](https://github.com/icewall/CVE-2016-2334)
-
-### CVE-2016-2386 (2016-02-16)
-
-<code>
-SQL injection vulnerability in the UDDI server in SAP NetWeaver J2EE Engine 7.40 allows remote attackers to execute arbitrary SQL commands via unspecified vectors, aka SAP Security Note 2101079.
-</code>
-
-- [murataydemir/CVE-2016-2386](https://github.com/murataydemir/CVE-2016-2386)
 
 ### CVE-2016-2402 (2017-01-30)
 
