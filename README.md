@@ -916,7 +916,12 @@ Void Tools Everything lower than v1.4.1.1022 was discovered to contain a Regular
 
 - [happy0717/CVE-2023-27704](https://github.com/happy0717/CVE-2023-27704)
 
-### CVE-2023-27742
+### CVE-2023-27742 (2023-05-16)
+
+<code>
+IDURAR ERP/CRM v1 was discovered to contain a SQL injection vulnerability via the component /api/login.
+</code>
+
 - [G37SYS73M/CVE-2023-27742](https://github.com/G37SYS73M/CVE-2023-27742)
 
 ### CVE-2023-27746 (2023-04-13)
