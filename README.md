@@ -194,6 +194,7 @@ A pre-auth command injection vulnerability in the warn-proceed handler of Sophos
 - [W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC)
 - [behnamvanda/CVE-2023-1671](https://github.com/behnamvanda/CVE-2023-1671)
 - [c4ln/CVE-2023-1671-POC](https://github.com/c4ln/CVE-2023-1671-POC)
+- [csffs/cve-2023-1671](https://github.com/csffs/cve-2023-1671)
 
 ### CVE-2023-1767 (2023-04-20)
 
@@ -1199,6 +1200,12 @@ Incorrect access control in Quick Heal Technologies Limited Seqrite Endpoint Sec
 </code>
 
 - [0xInfection/EPScalate](https://github.com/0xInfection/EPScalate)
+
+### CVE-2023-31702
+- [sahiloj/CVE-2023-31702](https://github.com/sahiloj/CVE-2023-31702)
+
+### CVE-2023-31703
+- [sahiloj/CVE-2023-31703](https://github.com/sahiloj/CVE-2023-31703)
 
 ### CVE-2023-32073 (2023-05-12)
 
@@ -2591,6 +2598,7 @@ HTTP Protocol Stack Remote Code Execution Vulnerability.
 - [iveresk/cve-2022-21907](https://github.com/iveresk/cve-2022-21907)
 - [Malwareman007/CVE-2022-21907](https://github.com/Malwareman007/CVE-2022-21907)
 - [0xmaximus/Home-Demolisher](https://github.com/0xmaximus/Home-Demolisher)
+- [cassie0206/CVE-2022-21907](https://github.com/cassie0206/CVE-2022-21907)
 - [EzoomE/CVE-2022-21907-RCE](https://github.com/EzoomE/CVE-2022-21907-RCE)
 
 ### CVE-2022-21970 (2022-01-11)
