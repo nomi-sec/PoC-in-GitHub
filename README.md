@@ -1201,10 +1201,20 @@ Incorrect access control in Quick Heal Technologies Limited Seqrite Endpoint Sec
 
 - [0xInfection/EPScalate](https://github.com/0xInfection/EPScalate)
 
-### CVE-2023-31702
+### CVE-2023-31702 (2023-05-17)
+
+<code>
+SQL injection in the View User Profile in MicroWorld eScan Management Console 14.0.1400.2281 allows remote attacker to dump entire database and gain windows XP command shell to perform code execution on database server via GetUserCurrentPwd?UsrId=1.
+</code>
+
 - [sahiloj/CVE-2023-31702](https://github.com/sahiloj/CVE-2023-31702)
 
-### CVE-2023-31703
+### CVE-2023-31703 (2023-05-17)
+
+<code>
+Cross Site Scripting (XSS) in the edit user form in Microworld Technologies eScan management console 14.0.1400.2281 allows remote attacker to inject arbitrary code via the from parameter.
+</code>
+
 - [sahiloj/CVE-2023-31703](https://github.com/sahiloj/CVE-2023-31703)
 
 ### CVE-2023-32073 (2023-05-12)
@@ -1526,6 +1536,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [4bhishek0/CVE-2022-0847-Poc](https://github.com/4bhishek0/CVE-2022-0847-Poc)
 - [JlSakuya/CVE-2022-0847-container-escape](https://github.com/JlSakuya/CVE-2022-0847-container-escape)
 - [jonathanbest7/cve-2022-0847](https://github.com/jonathanbest7/cve-2022-0847)
+- [BlizzardEternity/CVE-2022-0847](https://github.com/BlizzardEternity/CVE-2022-0847)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -2646,7 +2657,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is uniqu
 ### CVE-2022-22029 (2022-07-12)
 
 <code>
-Windows Network File System Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-22039.
+Windows Network File System Remote Code Execution Vulnerability
 </code>
 
 - [mchoudhary15/CVE-2022-22029-NFS-Server-](https://github.com/mchoudhary15/CVE-2022-22029-NFS-Server-)
@@ -4901,7 +4912,7 @@ Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerabi
 ### CVE-2022-30206 (2022-07-12)
 
 <code>
-Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-22022, CVE-2022-22041, CVE-2022-30226.
+Windows Print Spooler Elevation of Privilege Vulnerability
 </code>
 
 - [Pwnrin/CVE-2022-30206](https://github.com/Pwnrin/CVE-2022-30206)
@@ -4910,7 +4921,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is uniqu
 ### CVE-2022-30216 (2022-07-12)
 
 <code>
-Windows Server Service Tampering Vulnerability.
+Windows Server Service Tampering Vulnerability
 </code>
 
 - [corelight/CVE-2022-30216](https://github.com/corelight/CVE-2022-30216)
@@ -25096,14 +25107,12 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
 - [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
-- [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
 - [OLAOLAOLA789/CVE-2018-6574](https://github.com/OLAOLAOLA789/CVE-2018-6574)
 - [repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574)
 - [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
 - [jaya522/CVE-2018-6574-go-get-RCE](https://github.com/jaya522/CVE-2018-6574-go-get-RCE)
 - [noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574)
 - [ErnestZiemkowski/cve-2018-6574](https://github.com/ErnestZiemkowski/cve-2018-6574)
-- [l3ouu4n9/CVE-2018-6574-POC](https://github.com/l3ouu4n9/CVE-2018-6574-POC)
 - [R3dAlch3mist/cve-2018-6574](https://github.com/R3dAlch3mist/cve-2018-6574)
 - [j4k0m/CVE-2018-6574](https://github.com/j4k0m/CVE-2018-6574)
 - [Devang-Solanki/CVE-2018-6574](https://github.com/Devang-Solanki/CVE-2018-6574)
