@@ -302,6 +302,7 @@ Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
 - [Hashi0x/PoC-CVE-2023-21554](https://github.com/Hashi0x/PoC-CVE-2023-21554)
+- [zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -9609,7 +9610,6 @@ When requests to the internal network for webhooks are enabled, a server-side re
 - [aaminin/CVE-2021-22214](https://github.com/aaminin/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 - [antx-code/CVE-2021-22214](https://github.com/antx-code/CVE-2021-22214)
-- [kh4sh3i/GitLab-SSRF-CVE-2021-22214](https://github.com/kh4sh3i/GitLab-SSRF-CVE-2021-22214)
 
 ### CVE-2021-22555 (2021-07-07)
 
@@ -9810,14 +9810,6 @@ In the Reponsive Menu (free and Pro) WordPress plugins before 4.0.4, subscribers
 
 - [hnthuan1998/CVE-2021-24160](https://github.com/hnthuan1998/CVE-2021-24160)
 - [hnthuan1998/Exploit-CVE-2021-24160](https://github.com/hnthuan1998/Exploit-CVE-2021-24160)
-
-### CVE-2021-24307 (2021-05-24)
-
-<code>
-The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Rankings before 4.1.0.2 enables authenticated users with &quot;aioseo_tools_settings&quot; privilege (most of the time admin) to execute arbitrary code on the underlying host. Users can restore plugin's configuration by uploading a backup .ini file in the section &quot;Tool &gt; Import/Export&quot;. However, the plugin attempts to unserialize values of the .ini file. Moreover, the plugin embeds Monolog library which can be used to craft a gadget chain and thus trigger system command execution.
-</code>
-
-- [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
 
 ### CVE-2021-24499 (2021-08-09)
 
@@ -10575,9 +10567,6 @@ The Arm Mali GPU kernel driver allows privilege escalation or information disclo
 
 - [lntrx/CVE-2021-28663](https://github.com/lntrx/CVE-2021-28663)
 
-### CVE-2021-28750
-- [PfalzPrince/CVE-2021-28750-site](https://github.com/PfalzPrince/CVE-2021-28750-site)
-
 ### CVE-2021-29003 (2021-04-13)
 
 <code>
@@ -10819,14 +10808,6 @@ A memory corruption issue was addressed with improved memory handling. This issu
 
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
-
-### CVE-2021-30853 (2021-08-24)
-
-<code>
-This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
-</code>
-
-- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
 
 ### CVE-2021-30858 (2021-08-24)
 
@@ -12989,7 +12970,6 @@ An issue was discovered in GoAhead 4.x and 5.x before 5.1.5. In the file upload 
 </code>
 
 - [kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-](https://github.com/kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-)
-- [Mr-xn/CVE-2021-42342](https://github.com/Mr-xn/CVE-2021-42342)
 
 ### CVE-2021-42392 (2022-01-07)
 
@@ -13393,8 +13373,6 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
-- [BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read](https://github.com/BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read)
-- [lalkaltest/CVE-2021-43798](https://github.com/lalkaltest/CVE-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
 - [YourKeeper/SunScope](https://github.com/YourKeeper/SunScope)
 - [Ki11i0n4ir3/CVE-2021-43798](https://github.com/Ki11i0n4ir3/CVE-2021-43798)
@@ -13439,7 +13417,6 @@ h2o is an open source http server. In code prior to the `8c0eca3` commit h2o may
 Gerapy is a distributed crawler management framework. Gerapy prior to version 0.9.8 is vulnerable to remote code execution, and this issue is patched in version 0.9.8.
 </code>
 
-- [LongWayHomie/CVE-2021-43857](https://github.com/LongWayHomie/CVE-2021-43857)
 - [lowkey0808/CVE-2021-43857](https://github.com/lowkey0808/CVE-2021-43857)
 
 ### CVE-2021-43858 (2021-12-27)
@@ -13448,7 +13425,6 @@ Gerapy is a distributed crawler management framework. Gerapy prior to version 0.
 MinIO is a Kubernetes native application for cloud storage. Prior to version `RELEASE.2021-12-27T07-23-18Z`, a malicious client can hand-craft an HTTP API call that allows for updating policy for a user and gaining higher privileges. The patch in version `RELEASE.2021-12-27T07-23-18Z` changes the accepted request body type and removes the ability to apply policy changes through this API. There is a workaround for this vulnerability: Changing passwords can be disabled by adding an explicit `Deny` rule to disable the API for users.
 </code>
 
-- [0rx1/cve-2021-43858](https://github.com/0rx1/cve-2021-43858)
 - [khuntor/CVE-2021-43858-MinIO](https://github.com/khuntor/CVE-2021-43858-MinIO)
 
 ### CVE-2021-43883 (2021-12-15)
@@ -13882,12 +13858,9 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [PoneyClairDeLune/LogJackFix](https://github.com/PoneyClairDeLune/LogJackFix)
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
 - [romanutti/log4shell-vulnerable-app](https://github.com/romanutti/log4shell-vulnerable-app)
-- [marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.](https://github.com/marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.)
-- [marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV](https://github.com/marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV)
 - [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
-- [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
 - [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
@@ -13898,8 +13871,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
-- [atlassion/log4j-exploit-builder](https://github.com/atlassion/log4j-exploit-builder)
-- [atlassion/RS4LOGJ-CVE-2021-44228](https://github.com/atlassion/RS4LOGJ-CVE-2021-44228)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
@@ -13922,7 +13893,6 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228](https://github.com/Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228)
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
-- [hassaanahmad813/log4j](https://github.com/hassaanahmad813/log4j)
 - [yuuki1967/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/yuuki1967/CVE-2021-44228-Apache-Log4j-Rce)
 - [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 - [jaehnri/CVE-2021-44228](https://github.com/jaehnri/CVE-2021-44228)
@@ -14128,7 +14098,6 @@ In Apache APISIX Dashboard before 2.10.1, the Manager API uses two frameworks an
 - [jxpsx/CVE-2021-45232-RCE](https://github.com/jxpsx/CVE-2021-45232-RCE)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
-- [itxfahdi/-cve-2021-45232](https://github.com/itxfahdi/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [Kuibagit/CVE-2021-45232-RCE](https://github.com/Kuibagit/CVE-2021-45232-RCE)
 - [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
@@ -24219,6 +24188,9 @@ An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Col
 
 - [atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector)
 
+### CVE-2018-14
+- [lckJack/legacySymfony](https://github.com/lckJack/legacySymfony)
+
 ### CVE-2018-1010 (2018-04-11)
 
 <code>
@@ -24521,6 +24493,9 @@ Vulnerability in the Oracle Access Manager component of Oracle Fusion Middleware
 Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [sry309/CVE-2018-2893](https://github.com/sry309/CVE-2018-2893)
+- [ryanInf/CVE-2018-2893](https://github.com/ryanInf/CVE-2018-2893)
+- [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
 - [qianl0ng/CVE-2018-2893](https://github.com/qianl0ng/CVE-2018-2893)
 - [jas502n/CVE-2018-2893](https://github.com/jas502n/CVE-2018-2893)
@@ -24532,6 +24507,8 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS - Web Services). Supported versions that are affected are 12.1.3.0, 12.2.1.2 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [111ddea/cve-2018-2894](https://github.com/111ddea/cve-2018-2894)
+- [LandGrey/CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894)
 - [jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894)
 - [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
 
@@ -24683,6 +24660,7 @@ An issue was discovered in certain Apple products. iOS before 11.3 is affected. 
 </code>
 
 - [FSecureLABS/CVE-2018-4121](https://github.com/FSecureLABS/CVE-2018-4121)
+- [likescam/CVE-2018-4121](https://github.com/likescam/CVE-2018-4121)
 - [jezzus/CVE-2018-4121](https://github.com/jezzus/CVE-2018-4121)
 
 ### CVE-2018-4124 (2018-04-03)
@@ -25313,6 +25291,7 @@ Drupal before 7.58, 8.x before 8.3.9, 8.4.x before 8.4.6, and 8.5.x before 8.5.1
 - [kahliya/CVE-2018-7600-drupalgeddon2-scanner](https://github.com/kahliya/CVE-2018-7600-drupalgeddon2-scanner)
 - [Damian972/drupalgeddon-2](https://github.com/Damian972/drupalgeddon-2)
 - [jyo-zi/CVE-2018-7600](https://github.com/jyo-zi/CVE-2018-7600)
+- [happynote3966/CVE-2018-7600](https://github.com/happynote3966/CVE-2018-7600)
 - [shellord/CVE-2018-7600-Drupal-RCE](https://github.com/shellord/CVE-2018-7600-Drupal-RCE)
 - [r3dxpl0it/CVE-2018-7600](https://github.com/r3dxpl0it/CVE-2018-7600)
 - [cved-sources/cve-2018-7600](https://github.com/cved-sources/cve-2018-7600)
@@ -25338,6 +25317,7 @@ A remote code execution vulnerability exists within multiple subsystems of Drupa
 </code>
 
 - [1337g/Drupalgedon3](https://github.com/1337g/Drupalgedon3)
+- [happynote3966/CVE-2018-7602](https://github.com/happynote3966/CVE-2018-7602)
 - [kastellanos/CVE-2018-7602](https://github.com/kastellanos/CVE-2018-7602)
 - [cyberharsh/DrupalCVE-2018-7602](https://github.com/cyberharsh/DrupalCVE-2018-7602)
 
@@ -25460,6 +25440,14 @@ YzmCMS 3.7 has Stored XSS via the title parameter to advertisement/adver/edit.ht
 </code>
 
 - [Jx0n0/YZMCMSxss](https://github.com/Jx0n0/YZMCMSxss)
+
+### CVE-2018-8090 (2018-07-25)
+
+<code>
+Quick Heal Total Security 64 bit 17.00 (QHTS64.exe), (QHTSFT64.exe) - Version 10.0.1.38; Quick Heal Total Security 32 bit 17.00 (QHTS32.exe), (QHTSFT32.exe) - Version 10.0.1.38; Quick Heal Internet Security 64 bit 17.00 (QHIS64.exe), (QHISFT64.exe) - Version 10.0.0.37; Quick Heal Internet Security 32 bit 17.00 (QHIS32.exe), (QHISFT32.exe) - Version 10.0.0.37; Quick Heal AntiVirus Pro 64 bit 17.00 (QHAV64.exe), (QHAVFT64.exe) - Version 10.0.0.37; and Quick Heal AntiVirus Pro 32 bit 17.00 (QHAV32.exe), (QHAVFT32.exe) - Version 10.0.0.37 allow DLL Hijacking because of Insecure Library Loading.
+</code>
+
+- [kernelm0de/CVE-2018-8090](https://github.com/kernelm0de/CVE-2018-8090)
 
 ### CVE-2018-8108 (2018-03-14)
 
@@ -25682,6 +25670,7 @@ A statement in the System Programming Guide of the Intel 64 and IA-32 Architectu
 - [nmulasmajic/CVE-2018-8897](https://github.com/nmulasmajic/CVE-2018-8897)
 - [jiazhang0/pop-mov-ss-exploit](https://github.com/jiazhang0/pop-mov-ss-exploit)
 - [can1357/CVE-2018-8897](https://github.com/can1357/CVE-2018-8897)
+- [nmulasmajic/syscall_exploit_CVE-2018-8897](https://github.com/nmulasmajic/syscall_exploit_CVE-2018-8897)
 
 ### CVE-2018-8941 (2018-04-03)
 
@@ -26371,6 +26360,14 @@ The inode_init_owner function in fs/inode.c in the Linux kernel through 3.16 all
 
 - [shinecome/zip](https://github.com/shinecome/zip)
 
+### CVE-2018-13784 (2018-07-09)
+
+<code>
+PrestaShop before 1.6.1.20 and 1.7.x before 1.7.3.4 mishandles cookie encryption in Cookie.php, Rinjdael.php, and Blowfish.php.
+</code>
+
+- [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits)
+
 ### CVE-2018-13797 (2018-07-10)
 
 <code>
@@ -26418,6 +26415,14 @@ In Bootstrap before 4.1.2, XSS is possible in the data-container property of too
 </code>
 
 - [Snorlyd/https-nj.gov---CVE-2018-14042](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14042)
+
+### CVE-2018-14083 (2018-07-25)
+
+<code>
+LICA miniCMTS E8K(u/i/...) devices allow remote attackers to obtain sensitive information via a direct POST request for the inc/user.ini file, leading to discovery of a password hash.
+</code>
+
+- [pudding2/CVE-2018-14083](https://github.com/pudding2/CVE-2018-14083)
 
 ### CVE-2018-14371 (2018-07-18)
 
@@ -26822,7 +26827,7 @@ FUEL CMS 1.4.1 allows PHP Code Evaluation via the pages/select/ filter parameter
 </code>
 
 - [dinhbaouit/CVE-2018-16763](https://github.com/dinhbaouit/CVE-2018-16763)
-- [ecebotarosh/CVE-2018-16763-exploit](https://github.com/ecebotarosh/CVE-2018-16763-exploit)
+- [hikarihacks/CVE-2018-16763-exploit](https://github.com/hikarihacks/CVE-2018-16763-exploit)
 - [n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3)
 - [uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r)
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
@@ -27820,6 +27825,7 @@ An issue was discovered in certain Apple products. iOS before 10.2.1 is affected
 
 - [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
 - [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
