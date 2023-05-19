@@ -2380,6 +2380,14 @@ In start of Threads.cpp, there is a possible way to record audio during a phone 
 
 - [pazhanivel07/frameworks_av-r33_CVE-2022-20413](https://github.com/pazhanivel07/frameworks_av-r33_CVE-2022-20413)
 
+### CVE-2022-20421 (2022-10-11)
+
+<code>
+In binder_inc_ref_for_node of binder.c, there is a possible way to corrupt memory due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-239630375References: Upstream kernel
+</code>
+
+- [0xkol/badspin](https://github.com/0xkol/badspin)
+
 ### CVE-2022-20441 (2022-11-08)
 
 <code>
@@ -4833,7 +4841,7 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 - [SAJIDAMINE/CVE-2022-30075](https://github.com/SAJIDAMINE/CVE-2022-30075)
 - [M4fiaB0y/CVE-2022-30075](https://github.com/M4fiaB0y/CVE-2022-30075)
 
-### CVE-2022-30114 (-)
+### CVE-2022-30114 (2023-05-19)
 
 <code>
 A heap-based buffer overflow in a network service in Fastweb FASTGate MediaAccess FGA2130FWB, firmware version 18.3.n.0482_FW_230_FGA2130, and DGA4131FWB, firmware version up to 18.3.n.0462_FW_261_DGA4131, allows a remote attacker to reboot the device through a crafted HTTP request, causing DoS.
@@ -5478,7 +5486,7 @@ A stored cross-site scripting (XSS) vulnerability in the component audit/class.a
 ### CVE-2022-32114 (2022-07-13)
 
 <code>
-An unrestricted file upload vulnerability in the Add New Assets function of Strapi v4.1.12 allows attackers to execute arbitrary code via a crafted file.
+** DISPUTED ** An unrestricted file upload vulnerability in the Add New Assets function of Strapi 4.1.12 allows attackers to conduct XSS attacks via a crafted PDF file. NOTE: the project documentation suggests that a user with the Media Library &quot;Create (upload)&quot; permission is supposed to be able to upload PDF files containing JavaScript, and that all files in a public assets folder are accessible to the outside world (unless the filename begins with a dot character). The administrator can choose to allow only image, video, and audio files (i.e., not PDF) if desired.
 </code>
 
 - [bypazs/CVE-2022-32114](https://github.com/bypazs/CVE-2022-32114)
@@ -32519,14 +32527,6 @@ The ngx_http_parse_chunked function in http/ngx_http_parse.c in nginx 1.3.9 thro
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
 
-### CVE-2013-2072 (2013-08-28)
-
-<code>
-Buffer overflow in the Python bindings for the xc_vcpu_setaffinity call in Xen 4.0.x, 4.1.x, and 4.2.x allows local administrators with permissions to configure VCPU affinity to cause a denial of service (memory corruption and xend toolstack crash) and possibly gain privileges via a crafted cpumap.
-</code>
-
-- [bl4ck5un/cve-2013-2072](https://github.com/bl4ck5un/cve-2013-2072)
-
 ### CVE-2013-2094 (2013-05-14)
 
 <code>
@@ -32610,14 +32610,6 @@ MySecureShell 1.31 has a Local Denial of Service Vulnerability
 </code>
 
 - [hartwork/mysecureshell-issues](https://github.com/hartwork/mysecureshell-issues)
-
-### CVE-2013-4348 (2013-11-04)
-
-<code>
-The skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel through 3.12 allows remote attackers to cause a denial of service (infinite loop) via a small value in the IHL field of a packet with IPIP encapsulation.
-</code>
-
-- [bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348)
 
 ### CVE-2013-4378 (2013-09-30)
 
