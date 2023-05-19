@@ -2887,7 +2887,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [hunzi0/CVE-2022-22947-Rce_POC](https://github.com/hunzi0/CVE-2022-22947-Rce_POC)
 - [march0s1as/CVE-2022-22947](https://github.com/march0s1as/CVE-2022-22947)
 - [22ke/CVE-2022-22947](https://github.com/22ke/CVE-2022-22947)
-- [j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE](https://github.com/j-jasson/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE)
+- [M0ge/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE](https://github.com/M0ge/CVE-2022-22947-Spring-Cloud-Gateway-SpelRCE)
 - [YutuSec/SpEL](https://github.com/YutuSec/SpEL)
 - [Jun-5heng/CVE-2022-22947](https://github.com/Jun-5heng/CVE-2022-22947)
 - [darkb1rd/cve-2022-22947](https://github.com/darkb1rd/cve-2022-22947)
@@ -4833,7 +4833,12 @@ In TP-Link Router AX50 firmware 210730 and older, import of a malicious backup f
 - [SAJIDAMINE/CVE-2022-30075](https://github.com/SAJIDAMINE/CVE-2022-30075)
 - [M4fiaB0y/CVE-2022-30075](https://github.com/M4fiaB0y/CVE-2022-30075)
 
-### CVE-2022-30114
+### CVE-2022-30114 (-)
+
+<code>
+A heap-based buffer overflow in a network service in Fastweb FASTGate MediaAccess FGA2130FWB, firmware version 18.3.n.0482_FW_230_FGA2130, and DGA4131FWB, firmware version up to 18.3.n.0462_FW_261_DGA4131, allows a remote attacker to reboot the device through a crafted HTTP request, causing DoS.
+</code>
+
 - [str0ng4le/CVE-2022-30114](https://github.com/str0ng4le/CVE-2022-30114)
 
 ### CVE-2022-30129 (2022-05-10)
@@ -10287,6 +10292,7 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [TheDudeD6/ExchangeSmash](https://github.com/TheDudeD6/ExchangeSmash)
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
 - [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
+- [heikanet/Microsoft-Exchange-RCE](https://github.com/heikanet/Microsoft-Exchange-RCE)
 - [iceberg-N/cve-2021-26855](https://github.com/iceberg-N/cve-2021-26855)
 
 ### CVE-2021-26856
@@ -10681,6 +10687,7 @@ Wordpress is an open source CMS. A user with the ability to upload files (like a
 - [Abdulazizalsewedy/CVE-2021-29447](https://github.com/Abdulazizalsewedy/CVE-2021-29447)
 - [Ki11i0n4ir3/CVE-2021-29447](https://github.com/Ki11i0n4ir3/CVE-2021-29447)
 - [viardant/CVE-2021-29447](https://github.com/viardant/CVE-2021-29447)
+- [0xRar/CVE-2021-29447-PoC](https://github.com/0xRar/CVE-2021-29447-PoC)
 - [zeroch1ll/cve-2021-29447](https://github.com/zeroch1ll/cve-2021-29447)
 - [andyhsu024/CVE-2021-29447](https://github.com/andyhsu024/CVE-2021-29447)
 
@@ -13019,6 +13026,7 @@ The org.h2.util.JdbcUtils.getConnection method of the H2 database takes as param
 - [maweil/bidi_char_detector](https://github.com/maweil/bidi_char_detector)
 - [pierDipi/unicode-control-characters-action](https://github.com/pierDipi/unicode-control-characters-action)
 - [waseeld/CVE-2021-42574](https://github.com/waseeld/CVE-2021-42574)
+- [tin-z/solidity_CVE-2021-42574-POC](https://github.com/tin-z/solidity_CVE-2021-42574-POC)
 
 ### CVE-2021-42662 (2021-11-05)
 
@@ -13379,7 +13387,7 @@ Grafana is an open-source platform for monitoring and observability. Grafana ver
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
 - [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
 - [kenuosec/grafanaExp](https://github.com/kenuosec/grafanaExp)
-- [j-jasson/CVE-2021-43798-grafana_fileread](https://github.com/j-jasson/CVE-2021-43798-grafana_fileread)
+- [M0ge/CVE-2021-43798-grafana_fileread](https://github.com/M0ge/CVE-2021-43798-grafana_fileread)
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
 - [lfz97/CVE-2021-43798-Grafana-File-Read](https://github.com/lfz97/CVE-2021-43798-Grafana-File-Read)
 - [MzzdToT/Grafana_fileread](https://github.com/MzzdToT/Grafana_fileread)
@@ -13944,6 +13952,7 @@ Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12
 - [bcdunbar/CVE-2021-44228-poc](https://github.com/bcdunbar/CVE-2021-44228-poc)
 - [srcporter/CVE-2021-44228](https://github.com/srcporter/CVE-2021-44228)
 - [Nexolanta/log4j2_CVE-2021-44228](https://github.com/Nexolanta/log4j2_CVE-2021-44228)
+- [demining/Log4j-Vulnerability](https://github.com/demining/Log4j-Vulnerability)
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
 - [Sma-Das/Log4j-PoC](https://github.com/Sma-Das/Log4j-PoC)
 - [heeloo123/CVE-2021-44228](https://github.com/heeloo123/CVE-2021-44228)
@@ -20539,6 +20548,7 @@ A vulnerability in the web-based management interface of Cisco Small Business RV
 - [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
 - [helGayhub233/CVE-2019-1653](https://github.com/helGayhub233/CVE-2019-1653)
+- [ibrahimzx/CVE-2019-1653](https://github.com/ibrahimzx/CVE-2019-1653)
 
 ### CVE-2019-1759 (2019-03-27)
 
@@ -23046,6 +23056,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [psw01/CVE-2019-15107_webminRCE](https://github.com/psw01/CVE-2019-15107_webminRCE)
 - [lolminerxmrig/CVE-2019-15107](https://github.com/lolminerxmrig/CVE-2019-15107)
 - [TheAlpha19/MiniExploit](https://github.com/TheAlpha19/MiniExploit)
+- [wenruoya/CVE-2019-15107](https://github.com/wenruoya/CVE-2019-15107)
 - [g1vi/CVE-2019-15107](https://github.com/g1vi/CVE-2019-15107)
 - [K3ysTr0K3R/CVE-2019-15107-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2019-15107-EXPLOIT)
 - [gozn/detect-CVE-2019-15107-by-pyshark](https://github.com/gozn/detect-CVE-2019-15107-by-pyshark)
