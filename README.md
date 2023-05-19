@@ -31586,14 +31586,6 @@ libstagefright in Android before 5.1.1 LMY48Z and 6.0 before 2015-12-01 allows a
 - [flankerhqd/CVE-2015-6620-POC](https://github.com/flankerhqd/CVE-2015-6620-POC)
 - [flankerhqd/mediacodecoob](https://github.com/flankerhqd/mediacodecoob)
 
-### CVE-2015-6637 (2016-01-06)
-
-<code>
-The MediaTek misc-sd driver in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 allows attackers to gain privileges via a crafted application, aka internal bug 25307013.
-</code>
-
-- [betalphafai/CVE-2015-6637](https://github.com/betalphafai/CVE-2015-6637)
-
 ### CVE-2015-6639 (2016-01-06)
 
 <code>
