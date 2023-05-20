@@ -2188,6 +2188,14 @@ A path traversal vulnerability was identified in ReFirm Labs binwalk from versio
 ### CVE-2022-4896
 - [sapellaniz/CVE-2022-4896](https://github.com/sapellaniz/CVE-2022-4896)
 
+### CVE-2022-4931 (2023-03-07)
+
+<code>
+The BackupWordPress plugin for WordPress is vulnerable to information disclosure in versions up to, and including 3.12. This is due to missing authorization on the heartbeat_received() function that triggers on WordPress heartbeat. This makes it possible for authenticated attackers, with subscriber-level permissions and above to retrieve back-up paths that can subsequently be used to download the back-up.
+</code>
+
+- [ValeDecem10th/CVE-2022-4931](https://github.com/ValeDecem10th/CVE-2022-4931)
+
 ### CVE-2022-4939 (2023-04-05)
 
 <code>
