@@ -32527,6 +32527,14 @@ The ngx_http_parse_chunked function in http/ngx_http_parse.c in nginx 1.3.9 thro
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
 
+### CVE-2013-2072 (2013-08-28)
+
+<code>
+Buffer overflow in the Python bindings for the xc_vcpu_setaffinity call in Xen 4.0.x, 4.1.x, and 4.2.x allows local administrators with permissions to configure VCPU affinity to cause a denial of service (memory corruption and xend toolstack crash) and possibly gain privileges via a crafted cpumap.
+</code>
+
+- [bl4ck5un/cve-2013-2072](https://github.com/bl4ck5un/cve-2013-2072)
+
 ### CVE-2013-2094 (2013-05-14)
 
 <code>
@@ -32610,6 +32618,14 @@ MySecureShell 1.31 has a Local Denial of Service Vulnerability
 </code>
 
 - [hartwork/mysecureshell-issues](https://github.com/hartwork/mysecureshell-issues)
+
+### CVE-2013-4348 (2013-11-04)
+
+<code>
+The skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel through 3.12 allows remote attackers to cause a denial of service (infinite loop) via a small value in the IHL field of a packet with IPIP encapsulation.
+</code>
+
+- [bl4ck5un/cve-2013-4348](https://github.com/bl4ck5un/cve-2013-4348)
 
 ### CVE-2013-4378 (2013-09-30)
 
