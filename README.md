@@ -1229,6 +1229,7 @@ SQL injection in the View User Profile in MicroWorld eScan Management Console 14
 </code>
 
 - [sahiloj/CVE-2023-31702](https://github.com/sahiloj/CVE-2023-31702)
+- [2019000102494/CVE-2023-31702](https://github.com/2019000102494/CVE-2023-31702)
 
 ### CVE-2023-31703 (2023-05-17)
 
