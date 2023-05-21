@@ -56,6 +56,7 @@ Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 - [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [gudetem/CVE-2023-0297](https://github.com/gudetem/CVE-2023-0297)
+- [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-15)
 
@@ -71,6 +72,7 @@ Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
 A flaw was found in the Linux kernel, where unauthorized access to the execution of the setuid file with capabilities was found in the Linux kernel’s OverlayFS subsystem in how a user copies a capable file from a nosuid mount into another mount. This uid mapping bug allows a local user to escalate their privileges on the system.
 </code>
 
+- [veritas501/CVE-2023-0386](https://github.com/veritas501/CVE-2023-0386)
 - [Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386)
 - [xkaneiki/CVE-2023-0386](https://github.com/xkaneiki/CVE-2023-0386)
 - [chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386)
@@ -615,7 +617,7 @@ Dompdf is an HTML to PDF converter. The URI validation on dompdf 2.0.1 can be by
 - [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
 - [alt3kx/CVE-2023-24055_PoC](https://github.com/alt3kx/CVE-2023-24055_PoC)
 - [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
-- [Ag3nt047/CVE-2023-24055](https://github.com/Ag3nt047/CVE-2023-24055)
+- [attackNdefend/CVE-2023-24055](https://github.com/attackNdefend/CVE-2023-24055)
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
@@ -1984,6 +1986,7 @@ The All-in-One WP Migration WordPress plugin before 7.63 uses the wrong content 
 - [konoha279/2022-LPE-UAF](https://github.com/konoha279/2022-LPE-UAF)
 - [PolymorphicOpcode/CVE-2022-2588](https://github.com/PolymorphicOpcode/CVE-2022-2588)
 - [BassamGraini/CVE-2022-2588](https://github.com/BassamGraini/CVE-2022-2588)
+- [veritas501/CVE-2022-2588](https://github.com/veritas501/CVE-2022-2588)
 - [dom4570/CVE-2022-2588](https://github.com/dom4570/CVE-2022-2588)
 
 ### CVE-2022-2602
@@ -2122,6 +2125,14 @@ A buffer overrun can be triggered in X.509 certificate verification, specificall
 
 - [plharraud/cve-2022-3786](https://github.com/plharraud/cve-2022-3786)
 - [WhatTheFuzz/openssl-fuzz](https://github.com/WhatTheFuzz/openssl-fuzz)
+
+### CVE-2022-3910 (2022-11-22)
+
+<code>
+Use After Free vulnerability in Linux Kernel allows Privilege Escalation. An improper Update of Reference Count in io_uring leads to Use-After-Free and Local Privilege Escalation. When io_msg_ring was invoked with a fixed file, it called io_fput_file() which improperly decreased its reference count (leading to Use-After-Free and Local Privilege Escalation). Fixed files are permanently registered to the ring, and should not be put separately. We recommend upgrading past commit https://github.com/torvalds/linux/commit/fc7222c3a9f56271fba02aabbfbae999042f1679 https://github.com/torvalds/linux/commit/fc7222c3a9f56271fba02aabbfbae999042f1679
+</code>
+
+- [veritas501/CVE-2022-3910](https://github.com/veritas501/CVE-2022-3910)
 
 ### CVE-2022-3942 (2022-11-11)
 
@@ -9086,6 +9097,7 @@ A use-after-free flaw was found in cgroup1_parse_param in kernel/cgroup/cgroup-v
 </code>
 
 - [Markakd/CVE-2021-4154](https://github.com/Markakd/CVE-2021-4154)
+- [veritas501/CVE-2021-4154](https://github.com/veritas501/CVE-2021-4154)
 
 ### CVE-2021-4204 (2022-08-24)
 
@@ -20526,7 +20538,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 </code>
 
 - [piotrflorczyk/cve-2019-1458_POC](https://github.com/piotrflorczyk/cve-2019-1458_POC)
-- [unamer/CVE-2019-1458](https://github.com/unamer/CVE-2019-1458)
+- [rip1s/CVE-2019-1458](https://github.com/rip1s/CVE-2019-1458)
 - [Eternit7/CVE-2019-1458](https://github.com/Eternit7/CVE-2019-1458)
 
 ### CVE-2019-1476 (2019-12-10)
@@ -24105,6 +24117,14 @@ OpenRepeater (ORP) before 2.2 allows unauthenticated command injection via shell
 
 - [codexlynx/CVE-2019-25024](https://github.com/codexlynx/CVE-2019-25024)
 
+### CVE-2019-25137 (2023-05-18)
+
+<code>
+Umbraco CMS 7.12.4 allows Remote Code Execution by authenticated administrators via msxsl:script in an xsltSelection to developer/Xslt/xsltVisualize.aspx.
+</code>
+
+- [Ickarah/CVE-2019-25137-Version-Research](https://github.com/Ickarah/CVE-2019-25137-Version-Research)
+
 ### CVE-2019-48814
 - [wucj001/cve-2019-48814](https://github.com/wucj001/cve-2019-48814)
 
@@ -25542,7 +25562,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 </code>
 
 - [bigric3/cve-2018-8120](https://github.com/bigric3/cve-2018-8120)
-- [unamer/CVE-2018-8120](https://github.com/unamer/CVE-2018-8120)
+- [rip1s/CVE-2018-8120](https://github.com/rip1s/CVE-2018-8120)
 - [ne1llee/cve-2018-8120](https://github.com/ne1llee/cve-2018-8120)
 - [alpha1ab/CVE-2018-8120](https://github.com/alpha1ab/CVE-2018-8120)
 - [EVOL4/CVE-2018-8120](https://github.com/EVOL4/CVE-2018-8120)
@@ -29175,7 +29195,7 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [embedi/CVE-2017-11882](https://github.com/embedi/CVE-2017-11882)
 - [Ridter/CVE-2017-11882](https://github.com/Ridter/CVE-2017-11882)
 - [BlackMathIT/2017-11882_Generator](https://github.com/BlackMathIT/2017-11882_Generator)
-- [unamer/CVE-2017-11882](https://github.com/unamer/CVE-2017-11882)
+- [rip1s/CVE-2017-11882](https://github.com/rip1s/CVE-2017-11882)
 - [0x09AL/CVE-2017-11882-metasploit](https://github.com/0x09AL/CVE-2017-11882-metasploit)
 - [HZachev/ABC](https://github.com/HZachev/ABC)
 - [starnightcyber/CVE-2017-11882](https://github.com/starnightcyber/CVE-2017-11882)
