@@ -1273,6 +1273,7 @@ Improper Authentication vulnerability in WPDeveloper Essential Addons for Elemen
 In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. The memory dump can be a KeePass process dump, swap file (pagefile.sys), hibernation file (hiberfil.sys), or RAM dump of the entire system. The first character cannot be recovered. In 2.54, there is different API usage and/or random string insertion for mitigation.
 </code>
 
+- [vdohney/keepass-password-dumper](https://github.com/vdohney/keepass-password-dumper)
 - [CTM1/CVE-2023-32784-keepass-linux](https://github.com/CTM1/CVE-2023-32784-keepass-linux)
 
 
@@ -3633,6 +3634,7 @@ Icinga Web 2 is an open source monitoring web interface, framework and command-l
 - [joaoviictorti/CVE-2022-24716](https://github.com/joaoviictorti/CVE-2022-24716)
 - [pumpkinpiteam/CVE-2022-24716](https://github.com/pumpkinpiteam/CVE-2022-24716)
 - [doosec101/CVE-2022-24716](https://github.com/doosec101/CVE-2022-24716)
+- [antisecc/CVE-2022-24716](https://github.com/antisecc/CVE-2022-24716)
 
 ### CVE-2022-24734 (2022-03-09)
 
@@ -8795,6 +8797,7 @@ The overlayfs implementation in the linux kernel did not properly validate with 
 - [Senz4wa/CVE-2021-3493](https://github.com/Senz4wa/CVE-2021-3493)
 - [fei9747/CVE-2021-3493](https://github.com/fei9747/CVE-2021-3493)
 - [pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493)
+- [smallkill/CVE-2021-3493](https://github.com/smallkill/CVE-2021-3493)
 
 ### CVE-2021-3560 (2022-02-16)
 
