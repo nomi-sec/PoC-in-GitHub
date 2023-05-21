@@ -1275,6 +1275,7 @@ In KeePass 2.x before 2.54, it is possible to recover the cleartext master passw
 
 - [vdohney/keepass-password-dumper](https://github.com/vdohney/keepass-password-dumper)
 - [CTM1/CVE-2023-32784-keepass-linux](https://github.com/CTM1/CVE-2023-32784-keepass-linux)
+- [und3sc0n0c1d0/BruteForce-to-KeePass](https://github.com/und3sc0n0c1d0/BruteForce-to-KeePass)
 
 
 ## 2022
@@ -7489,6 +7490,7 @@ Cacti is an open source platform which provides a robust and extensible operatio
 - [BKreisel/CVE-2022-46169](https://github.com/BKreisel/CVE-2022-46169)
 - [ahanel13/ImprovedShell-for-CVE-2022-46169](https://github.com/ahanel13/ImprovedShell-for-CVE-2022-46169)
 - [Rickster5555/EH2-PoC](https://github.com/Rickster5555/EH2-PoC)
+- [antisecc/CVE-2022-46169](https://github.com/antisecc/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-23)
 
