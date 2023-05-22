@@ -194,7 +194,6 @@ A pre-auth command injection vulnerability in the warn-proceed handler of Sophos
 
 - [ohnonoyesyes/CVE-2023-1671](https://github.com/ohnonoyesyes/CVE-2023-1671)
 - [W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC)
-- [behnamvanda/CVE-2023-1671](https://github.com/behnamvanda/CVE-2023-1671)
 - [c4ln/CVE-2023-1671-POC](https://github.com/c4ln/CVE-2023-1671-POC)
 - [csffs/cve-2023-1671](https://github.com/csffs/cve-2023-1671)
 
@@ -245,6 +244,14 @@ Es wurde eine problematische Schwachstelle in Ellucian Ethos Identity bis 5.10.5
 </code>
 
 - [cberman/CVE-2023-2822-demo](https://github.com/cberman/CVE-2023-2822-demo)
+
+### CVE-2023-20052 (2023-03-01)
+
+<code>
+On Feb 15, 2023, the following vulnerability in the ClamAV scanning library was disclosed: A vulnerability in the DMG file parser of ClamAV versions 1.0.0 and earlier, 0.105.1 and earlier, and 0.103.7 and earlier could allow an unauthenticated, remote attacker to access sensitive information on an affected device. This vulnerability is due to enabling XML entity substitution that may result in XML external entity injection. An attacker could exploit this vulnerability by submitting a crafted DMG file to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to leak bytes from any file that may be read by the ClamAV scanning process.
+</code>
+
+- [nokn0wthing/CVE-2023-20052](https://github.com/nokn0wthing/CVE-2023-20052)
 
 ### CVE-2023-20860 (2023-03-27)
 
@@ -311,7 +318,6 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 Microsoft Message Queuing Remote Code Execution Vulnerability
 </code>
 
-- [Hashi0x/PoC-CVE-2023-21554](https://github.com/Hashi0x/PoC-CVE-2023-21554)
 - [zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC)
 
 ### CVE-2023-21608 (2023-01-18)
@@ -679,13 +685,10 @@ Funadmin v3.2.0 was discovered to contain a SQL injection vulnerability via the 
 ### CVE-2023-24998 (2023-02-20)
 
 <code>
-Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads. Note that, like all of the file upload limits, the new configuration option (FileUploadBase#setFileCountMax) is not enabled by default and must be explicitly configured.
+Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads.\n\n\n\n\nNote that, like all of the file upload limits, the\n          new configuration option (FileUploadBase#setFileCountMax) is not\n          enabled by default and must be explicitly configured.\n\n\n
 </code>
 
 - [nice1st/CVE-2023-24998](https://github.com/nice1st/CVE-2023-24998)
-
-### CVE-2023-25002
-- [nokn0wthing/CVE-2023-25002](https://github.com/nokn0wthing/CVE-2023-25002)
 
 ### CVE-2023-25136 (2023-02-03)
 
@@ -1240,7 +1243,6 @@ SQL injection in the View User Profile in MicroWorld eScan Management Console 14
 </code>
 
 - [sahiloj/CVE-2023-31702](https://github.com/sahiloj/CVE-2023-31702)
-- [2019000102494/CVE-2023-31702](https://github.com/2019000102494/CVE-2023-31702)
 
 ### CVE-2023-31703 (2023-05-17)
 
@@ -2210,14 +2212,6 @@ A path traversal vulnerability was identified in ReFirm Labs binwalk from versio
 
 ### CVE-2022-4896
 - [sapellaniz/CVE-2022-4896](https://github.com/sapellaniz/CVE-2022-4896)
-
-### CVE-2022-4931 (2023-03-07)
-
-<code>
-The BackupWordPress plugin for WordPress is vulnerable to information disclosure in versions up to, and including 3.12. This is due to missing authorization on the heartbeat_received() function that triggers on WordPress heartbeat. This makes it possible for authenticated attackers, with subscriber-level permissions and above to retrieve back-up paths that can subsequently be used to download the back-up.
-</code>
-
-- [ValeDecem10th/CVE-2022-4931](https://github.com/ValeDecem10th/CVE-2022-4931)
 
 ### CVE-2022-4939 (2023-04-05)
 
@@ -5659,14 +5653,6 @@ The Apache Spark UI offers the possibility to enable ACLs via the configuration 
 - [DrLinuxOfficial/CVE-2022-33891](https://github.com/DrLinuxOfficial/CVE-2022-33891)
 - [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
 - [ps-interactive/lab_security_apache_spark_emulation_detection](https://github.com/ps-interactive/lab_security_apache_spark_emulation_detection)
-
-### CVE-2022-33959 (2023-04-07)
-
-<code>
-IBM Sterling Order Management 10.0 could allow a user to bypass validation and perform unauthorized actions on behalf of other users. IBM X-Force ID: 229320.
-</code>
-
-- [gitadvisor/CVE-2022-33959](https://github.com/gitadvisor/CVE-2022-33959)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -16048,6 +16034,14 @@ Symantec Endpoint Detection And Response, prior to 4.4, may be susceptible to an
 
 - [nasbench/CVE-2020-5839](https://github.com/nasbench/CVE-2020-5839)
 
+### CVE-2020-5842 (2020-01-07)
+
+<code>
+Codoforum 4.8.3 allows XSS in the user registration page: via the username field to the index.php?u=/user/register URI. The payload is, for example, executed on the admin/index.php?page=users/manage page.
+</code>
+
+- [prasanthc41m/codoforum](https://github.com/prasanthc41m/codoforum)
+
 ### CVE-2020-5844 (2020-03-16)
 
 <code>
@@ -16404,6 +16398,14 @@ In JFrog Artifactory 5.x and 6.x, insecure FreeMarker template processing leads 
 </code>
 
 - [gquere/CVE-2020-7931](https://github.com/gquere/CVE-2020-7931)
+
+### CVE-2020-7934 (2020-01-28)
+
+<code>
+In LifeRay Portal CE 7.1.0 through 7.2.1 GA2, the First Name, Middle Name, and Last Name fields for user accounts in MyAccountPortlet are all vulnerable to a persistent XSS issue. Any user can modify these fields with a particular XSS payload, and it will be stored in the database. The payload will then be rendered when a user utilizes the search feature to search for other users (i.e., if a user with modified fields occurs in the search results). This issue was fixed in Liferay Portal CE version 7.3.0 GA1.
+</code>
+
+- [Sergio235705/audit-xss-cve-2020-7934](https://github.com/Sergio235705/audit-xss-cve-2020-7934)
 
 ### CVE-2020-7961 (2020-03-20)
 
@@ -16946,6 +16948,7 @@ FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction betwee
 Adobe Acrobat and Reader versions 2020.009.20074 and earlier, 2020.001.30002, 2017.011.30171 and earlier, and 2015.006.30523 and earlier have an use-after-free vulnerability. Successful exploitation could lead to arbitrary code execution .
 </code>
 
+- [lsw29475/CVE-2020-9715](https://github.com/lsw29475/CVE-2020-9715)
 - [WonjunChun/CVE-2020-9715](https://github.com/WonjunChun/CVE-2020-9715)
 
 ### CVE-2020-9758 (2020-03-09)
@@ -17953,6 +17956,7 @@ In Moodle before 3.9.1, 3.8.4, 3.7.7 and 3.5.13, teachers of a course were able 
 
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
 - [lanzt/CVE-2020-14321](https://github.com/lanzt/CVE-2020-14321)
+- [f0ns1/CVE-2020-14321-modified-exploit](https://github.com/f0ns1/CVE-2020-14321-modified-exploit)
 
 ### CVE-2020-14343 (2021-02-09)
 
@@ -19696,6 +19700,14 @@ Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyf
 
 - [ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583)
 
+### CVE-2020-29599 (2020-12-07)
+
+<code>
+ImageMagick before 6.9.11-40 and 7.x before 7.0.10-40 mishandles the -authenticate option, which allows setting a password for password-protected PDF files. The user-controlled password was not properly escaped/sanitized and it was therefore possible to inject additional shell commands via coders/pdf.c.
+</code>
+
+- [coco0x0a/CVE-2020-29599](https://github.com/coco0x0a/CVE-2020-29599)
+
 ### CVE-2020-29607 (2020-12-16)
 
 <code>
@@ -19868,6 +19880,14 @@ KLog Server 2.4.1 allows OS command injection via shell metacharacters in the ac
 </code>
 
 - [Al1ex/CVE-2020-35729](https://github.com/Al1ex/CVE-2020-35729)
+
+### CVE-2020-35749 (2021-01-15)
+
+<code>
+Directory traversal vulnerability in class-simple_job_board_resume_download_handler.php in the Simple Board Job plugin 2.9.3 and earlier for WordPress allows remote attackers to read arbitrary files via the sjb_file parameter to wp-admin/post.php.
+</code>
+
+- [M4xSec/Wordpress-CVE-2020-35749](https://github.com/M4xSec/Wordpress-CVE-2020-35749)
 
 ### CVE-2020-35846 (2020-12-29)
 
@@ -27393,7 +27413,6 @@ In WinRAR versions prior to and including 5.61, There is path traversal vulnerab
 - [nmweizi/CVE-2018-20250-poc-winrar](https://github.com/nmweizi/CVE-2018-20250-poc-winrar)
 - [blunden/UNACEV2.DLL-CVE-2018-20250](https://github.com/blunden/UNACEV2.DLL-CVE-2018-20250)
 - [easis/CVE-2018-20250-WinRAR-ACE](https://github.com/easis/CVE-2018-20250-WinRAR-ACE)
-- [STP5940/CVE-2018-20250](https://github.com/STP5940/CVE-2018-20250)
 - [n4r1b/WinAce-POC](https://github.com/n4r1b/WinAce-POC)
 - [technicaldada/hack-winrar](https://github.com/technicaldada/hack-winrar)
 - [Ektoplasma/ezwinrar](https://github.com/Ektoplasma/ezwinrar)
