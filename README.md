@@ -1278,6 +1278,7 @@ In KeePass 2.x before 2.54, it is possible to recover the cleartext master passw
 - [vdohney/keepass-password-dumper](https://github.com/vdohney/keepass-password-dumper)
 - [CTM1/CVE-2023-32784-keepass-linux](https://github.com/CTM1/CVE-2023-32784-keepass-linux)
 - [und3sc0n0c1d0/BruteForce-to-KeePass](https://github.com/und3sc0n0c1d0/BruteForce-to-KeePass)
+- [z-jxy/keepass_dump](https://github.com/z-jxy/keepass_dump)
 
 
 ## 2022
