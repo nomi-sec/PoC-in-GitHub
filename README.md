@@ -238,6 +238,14 @@ Es wurde eine Schwachstelle in SourceCodester Food Ordering Management System 1.
 
 - [thehackingverse/CVE-2023-2594](https://github.com/thehackingverse/CVE-2023-2594)
 
+### CVE-2023-2822 (2023-05-20)
+
+<code>
+Es wurde eine problematische Schwachstelle in Ellucian Ethos Identity bis 5.10.5 ausgemacht. Hiervon betroffen ist ein unbekannter Codeblock der Datei /cas/logout. Durch Manipulation des Arguments url mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 5.10.6 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [cberman/CVE-2023-2822-demo](https://github.com/cberman/CVE-2023-2822-demo)
+
 ### CVE-2023-20860 (2023-03-27)
 
 <code>
@@ -755,6 +763,7 @@ Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.5
 </code>
 
 - [tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL)
+- [dhmosfunk/CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC)
 
 ### CVE-2023-26262 (2023-03-14)
 
@@ -24121,7 +24130,7 @@ OpenRepeater (ORP) before 2.2 allows unauthenticated command injection via shell
 ### CVE-2019-25137 (2023-05-18)
 
 <code>
-Umbraco CMS 7.12.4 allows Remote Code Execution by authenticated administrators via msxsl:script in an xsltSelection to developer/Xslt/xsltVisualize.aspx.
+Umbraco CMS 4.11.8 through 7.15.10, and 7.12.4, allows Remote Code Execution by authenticated administrators via msxsl:script in an xsltSelection to developer/Xslt/xsltVisualize.aspx.
 </code>
 
 - [Ickarah/CVE-2019-25137-Version-Research](https://github.com/Ickarah/CVE-2019-25137-Version-Research)
