@@ -1020,6 +1020,14 @@ Smarty is a template engine for PHP. In affected versions smarty did not properl
 ### CVE-2023-28615
 - [YSaxon/CVE-2023-28615](https://github.com/YSaxon/CVE-2023-28615)
 
+### CVE-2023-28771 (2023-04-24)
+
+<code>
+Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.
+</code>
+
+- [BenHays142/CVE-2023-28771-PoC](https://github.com/BenHays142/CVE-2023-28771-PoC)
+
 ### CVE-2023-28772 (2023-03-23)
 
 <code>
@@ -1114,8 +1122,21 @@ A Stored Cross Site Scripting (XSS) vulnerability exists in multiple pages of Ho
 
 - [jichngan/CVE-2023-29839](https://github.com/jichngan/CVE-2023-29839)
 
-### CVE-2023-29919
+### CVE-2023-29919 (2023-05-22)
+
+<code>
+SolarView Compact &lt;= 6.0 is vulnerable to Insecure Permissions. Any file on the server can be read or modified because texteditor.php is not restricted.
+</code>
+
 - [xiaosed/CVE-2023-29919](https://github.com/xiaosed/CVE-2023-29919)
+
+### CVE-2023-29923 (2023-04-19)
+
+<code>
+PowerJob V4.3.1 is vulnerable to Insecure Permissions. via the list job interface.
+</code>
+
+- [1820112015/CVE-2023-29923](https://github.com/1820112015/CVE-2023-29923)
 
 ### CVE-2023-29983 (2023-05-12)
 
@@ -1238,7 +1259,12 @@ GitHub repository cu/silicon commit a9ef36 was discovered to contain a reflected
 ### CVE-2023-31634
 - [XC9409/CVE-2023-31634](https://github.com/XC9409/CVE-2023-31634)
 
-### CVE-2023-31664
+### CVE-2023-31664 (2023-05-22)
+
+<code>
+A reflected cross-site scripting (XSS) vulnerability in /authenticationendpoint/login.do of WSO2 API Manager before 4.2.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the tenantDomain parameter.
+</code>
+
 - [adilkhan7/CVE-2023-31664](https://github.com/adilkhan7/CVE-2023-31664)
 
 ### CVE-2023-31702 (2023-05-17)
@@ -1256,6 +1282,9 @@ Cross Site Scripting (XSS) in the edit user form in Microworld Technologies eSca
 </code>
 
 - [sahiloj/CVE-2023-31703](https://github.com/sahiloj/CVE-2023-31703)
+
+### CVE-2023-31726
+- [J6451/CVE-2023-31726](https://github.com/J6451/CVE-2023-31726)
 
 ### CVE-2023-32073 (2023-05-12)
 
@@ -18268,6 +18297,14 @@ A user enumeration vulnerability flaw was found in Venki Supravizio BPM 10.1.2. 
 ### CVE-2020-15399
 - [mkelepce/CVE-2020-15399](https://github.com/mkelepce/CVE-2020-15399)
 
+### CVE-2020-15416 (2020-07-28)
+
+<code>
+This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R6700 V1.0.4.84_10.0.58 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length, stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-9703.
+</code>
+
+- [k3vinlusec/R7000_httpd_BOF_CVE-2020-15416](https://github.com/k3vinlusec/R7000_httpd_BOF_CVE-2020-15416)
+
 ### CVE-2020-15492 (2020-07-23)
 
 <code>
@@ -22282,6 +22319,7 @@ A double free vulnerability in the DDGifSlurp function in decoding.c in the andr
 - [BadAssAiras/hello](https://github.com/BadAssAiras/hello)
 - [kal1gh0st/WhatsAppHACK-RCE](https://github.com/kal1gh0st/WhatsAppHACK-RCE)
 - [zxn1/CVE-2019-11932](https://github.com/zxn1/CVE-2019-11932)
+- [k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932](https://github.com/k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932)
 - [Tabni/https-github.com-awakened1712-CVE-2019-11932](https://github.com/Tabni/https-github.com-awakened1712-CVE-2019-11932)
 - [0759104103/cd-CVE-2019-11932](https://github.com/0759104103/cd-CVE-2019-11932)
 
