@@ -1227,7 +1227,12 @@ Incorrect access control in Quick Heal Technologies Limited Seqrite Endpoint Sec
 
 - [0xInfection/EPScalate](https://github.com/0xInfection/EPScalate)
 
-### CVE-2023-31584
+### CVE-2023-31584 (2023-05-22)
+
+<code>
+GitHub repository cu/silicon commit a9ef36 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the User Input field.
+</code>
+
 - [rootd4ddy/CVE-2023-31584](https://github.com/rootd4ddy/CVE-2023-31584)
 
 ### CVE-2023-31634
@@ -11211,7 +11216,7 @@ The npm package &quot;tar&quot; (aka node-tar) before versions 6.1.1, 5.0.6, 4.4
 ### CVE-2021-32819 (2021-05-14)
 
 <code>
-Squirrelly is a template engine implemented in JavaScript that works out of the box with ExpressJS. Squirrelly mixes pure template data with engine configuration options through the Express render API. By overwriting internal configuration options remote code execution may be triggered in downstream applications. There is currently no fix for these issues as of the publication of this CVE. The latest version of squirrelly is currently 8.0.8. For complete details refer to the referenced GHSL-2021-023.
+Squirrelly is a template engine implemented in JavaScript that works out of the box with ExpressJS. Squirrelly mixes pure template data with engine configuration options through the Express render API. By overwriting internal configuration options remote code execution may be triggered in downstream applications. This issue is fixed in version 9.0.0. For complete details refer to the referenced GHSL-2021-023.
 </code>
 
 - [Abady0x1/CVE-2021-32819](https://github.com/Abady0x1/CVE-2021-32819)
@@ -27413,6 +27418,7 @@ In WinRAR versions prior to and including 5.61, There is path traversal vulnerab
 - [nmweizi/CVE-2018-20250-poc-winrar](https://github.com/nmweizi/CVE-2018-20250-poc-winrar)
 - [blunden/UNACEV2.DLL-CVE-2018-20250](https://github.com/blunden/UNACEV2.DLL-CVE-2018-20250)
 - [easis/CVE-2018-20250-WinRAR-ACE](https://github.com/easis/CVE-2018-20250-WinRAR-ACE)
+- [STP5940/CVE-2018-20250](https://github.com/STP5940/CVE-2018-20250)
 - [n4r1b/WinAce-POC](https://github.com/n4r1b/WinAce-POC)
 - [technicaldada/hack-winrar](https://github.com/technicaldada/hack-winrar)
 - [Ektoplasma/ezwinrar](https://github.com/Ektoplasma/ezwinrar)
