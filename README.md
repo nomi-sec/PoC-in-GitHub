@@ -1256,6 +1256,12 @@ GitHub repository cu/silicon commit a9ef36 was discovered to contain a reflected
 
 - [rootd4ddy/CVE-2023-31584](https://github.com/rootd4ddy/CVE-2023-31584)
 
+### CVE-2023-31594
+- [Yozarseef95/CVE-2023-31594](https://github.com/Yozarseef95/CVE-2023-31594)
+
+### CVE-2023-31595
+- [Yozarseef95/CVE-2023-31595](https://github.com/Yozarseef95/CVE-2023-31595)
+
 ### CVE-2023-31634
 - [XC9409/CVE-2023-31634](https://github.com/XC9409/CVE-2023-31634)
 
