@@ -1283,7 +1283,12 @@ Cross Site Scripting (XSS) in the edit user form in Microworld Technologies eSca
 
 - [sahiloj/CVE-2023-31703](https://github.com/sahiloj/CVE-2023-31703)
 
-### CVE-2023-31726
+### CVE-2023-31726 (2023-05-23)
+
+<code>
+AList 3.15.1 is vulnerable to Incorrect Access Control, which can be exploited by attackers to obtain sensitive information.
+</code>
+
 - [J6451/CVE-2023-31726](https://github.com/J6451/CVE-2023-31726)
 
 ### CVE-2023-31779 (2023-05-22)
@@ -1322,6 +1327,8 @@ Improper Authentication vulnerability in WPDeveloper Essential Addons for Elemen
 - [gbrsh/CVE-2023-32243](https://github.com/gbrsh/CVE-2023-32243)
 - [RandomRobbieBF/CVE-2023-32243](https://github.com/RandomRobbieBF/CVE-2023-32243)
 - [domainhigh/Mass-CVE-2023-32243](https://github.com/domainhigh/Mass-CVE-2023-32243)
+- [manavvedawala/CVE-2023-32243-POC](https://github.com/manavvedawala/CVE-2023-32243-POC)
+- [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
 
 ### CVE-2023-32784 (2023-05-15)
 
@@ -1333,6 +1340,7 @@ In KeePass 2.x before 2.54, it is possible to recover the cleartext master passw
 - [CTM1/CVE-2023-32784-keepass-linux](https://github.com/CTM1/CVE-2023-32784-keepass-linux)
 - [und3sc0n0c1d0/BruteForce-to-KeePass](https://github.com/und3sc0n0c1d0/BruteForce-to-KeePass)
 - [z-jxy/keepass_dump](https://github.com/z-jxy/keepass_dump)
+- [LeDocteurDesBits/cve-2023-32784](https://github.com/LeDocteurDesBits/cve-2023-32784)
 
 
 ## 2022
@@ -1577,7 +1585,7 @@ A flaw was found in the way the &quot;flags&quot; member of the new pipe buffer 
 - [edsonjt81/CVE-2022-0847-Linux](https://github.com/edsonjt81/CVE-2022-0847-Linux)
 - [chenaotian/CVE-2022-0847](https://github.com/chenaotian/CVE-2022-0847)
 - [V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/V0WKeep3r/CVE-2022-0847-DirtyPipe-Exploit)
-- [michaelklaan/CVE-2022-0847-Dirty-Pipe](https://github.com/michaelklaan/CVE-2022-0847-Dirty-Pipe)
+- [al4xs/CVE-2022-0847-Dirty-Pipe](https://github.com/al4xs/CVE-2022-0847-Dirty-Pipe)
 - [Greetdawn/CVE-2022-0847-DirtyPipe-](https://github.com/Greetdawn/CVE-2022-0847-DirtyPipe-)
 - [crusoe112/DirtyPipePython](https://github.com/crusoe112/DirtyPipePython)
 - [nanaao/dirtyPipe-automaticRoot](https://github.com/nanaao/dirtyPipe-automaticRoot)
@@ -2973,7 +2981,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code](https://github.com/ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code)
 - [Arrnitage/CVE-2022-22947_exp](https://github.com/Arrnitage/CVE-2022-22947_exp)
 - [PaoPaoLong-lab/Spring-CVE-2022-22947-](https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-)
-- [michaelklaan/CVE-2022-22947-Spring-Cloud](https://github.com/michaelklaan/CVE-2022-22947-Spring-Cloud)
+- [al4xs/CVE-2022-22947-Spring-Cloud](https://github.com/al4xs/CVE-2022-22947-Spring-Cloud)
 - [hh-hunter/cve-2022-22947-docker](https://github.com/hh-hunter/cve-2022-22947-docker)
 - [k3rwin/spring-cloud-gateway-rce](https://github.com/k3rwin/spring-cloud-gateway-rce)
 - [bysinks/CVE-2022-22947](https://github.com/bysinks/CVE-2022-22947)
@@ -8862,7 +8870,7 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [aancw/polkit-auto-exploit](https://github.com/aancw/polkit-auto-exploit)
 - [swapravo/polkadots](https://github.com/swapravo/polkadots)
 - [hakivvi/CVE-2021-3560](https://github.com/hakivvi/CVE-2021-3560)
-- [iSTARLabs/CVE-2021-3560_PoC](https://github.com/iSTARLabs/CVE-2021-3560_PoC)
+- [iSTAR-Lab/CVE-2021-3560_PoC](https://github.com/iSTAR-Lab/CVE-2021-3560_PoC)
 - [secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation)
 - [curtishoughton/CVE-2021-3560](https://github.com/curtishoughton/CVE-2021-3560)
 - [Almorabea/Polkit-exploit](https://github.com/Almorabea/Polkit-exploit)
@@ -23915,6 +23923,16 @@ The Web application on Rittal CMC PU III 7030.000 V3.00 V3.11.00_2 to V3.15.70_4
 </code>
 
 - [miguelhamal/CVE-2019-19393](https://github.com/miguelhamal/CVE-2019-19393)
+
+### CVE-2019-19492 (2019-12-01)
+
+<code>
+FreeSWITCH 1.6.10 through 1.10.1 has a default password in event_socket.conf.xml.
+</code>
+
+- [Chocapikk/CVE-2019-19492](https://github.com/Chocapikk/CVE-2019-19492)
+- [tucommenceapousser/CVE-2019-19492](https://github.com/tucommenceapousser/CVE-2019-19492)
+- [tucommenceapousser/CVE-2019-19492-2](https://github.com/tucommenceapousser/CVE-2019-19492-2)
 
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
