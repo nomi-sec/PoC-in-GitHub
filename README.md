@@ -269,6 +269,9 @@ Es wurde eine problematische Schwachstelle in Ellucian Ethos Identity bis 5.10.5
 
 - [cberman/CVE-2023-2822-demo](https://github.com/cberman/CVE-2023-2822-demo)
 
+### CVE-2023-2825
+- [Occamsec/CVE-2023-2825](https://github.com/Occamsec/CVE-2023-2825)
+
 ### CVE-2023-2859 (2023-05-24)
 
 <code>
@@ -1049,9 +1052,6 @@ Smarty is a template engine for PHP. In affected versions smarty did not properl
 
 - [drkbcn/lblfixer_cve_2023_28447](https://github.com/drkbcn/lblfixer_cve_2023_28447)
 
-### CVE-2023-28615
-- [YSaxon/CVE-2023-28615](https://github.com/YSaxon/CVE-2023-28615)
-
 ### CVE-2023-28771 (2023-04-24)
 
 <code>
@@ -1171,6 +1171,9 @@ PowerJob V4.3.1 is vulnerable to Insecure Permissions. via the list job interfac
 - [1820112015/CVE-2023-29923](https://github.com/1820112015/CVE-2023-29923)
 - [CKevens/CVE-2023-29923-Scan](https://github.com/CKevens/CVE-2023-29923-Scan)
 
+### CVE-2023-29929
+- [YSaxon/CVE-2023-29929](https://github.com/YSaxon/CVE-2023-29929)
+
 ### CVE-2023-29983 (2023-05-12)
 
 <code>
@@ -1187,6 +1190,9 @@ SourceCodester Online Pizza Ordering System v1.0 is vulnerable to SQL Injection 
 
 - [nawed20002/CVE-2023-30092](https://github.com/nawed20002/CVE-2023-30092)
 
+### CVE-2023-30145
+- [paragbagul111/CVE-2023-30145.](https://github.com/paragbagul111/CVE-2023-30145.)
+
 ### CVE-2023-30185 (2023-05-07)
 
 <code>
@@ -1194,6 +1200,15 @@ CRMEB v4.4 to v4.6 was discovered to contain an arbitrary file upload vulnerabil
 </code>
 
 - [c7w1n/CVE-2023-30185](https://github.com/c7w1n/CVE-2023-30185)
+
+### CVE-2023-30212 (2023-04-26)
+
+<code>
+OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage/ourphp_out.php.
+</code>
+
+- [kuttappu123/CVE-2023-30212-LAB](https://github.com/kuttappu123/CVE-2023-30212-LAB)
+- [Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE](https://github.com/Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE)
 
 ### CVE-2023-30256 (2023-05-11)
 
@@ -15300,6 +15315,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796)
 - [OldDream666/cve-2020-0796](https://github.com/OldDream666/cve-2020-0796)
 - [heeloo123/CVE-2020-0796](https://github.com/heeloo123/CVE-2020-0796)
+- [Ajomix/CVE-2020-0796-VCS](https://github.com/Ajomix/CVE-2020-0796-VCS)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -27996,14 +28012,6 @@ An elevation of privilege vulnerability in the Telephony component could enable 
 
 - [lanrat/tethr](https://github.com/lanrat/tethr)
 
-### CVE-2017-0564 (2017-04-07)
-
-<code>
-An elevation of privilege vulnerability in the kernel ION subsystem could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as Critical due to the possibility of a local permanent device compromise, which may require reflashing the operating system to repair the device. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-34276203.
-</code>
-
-- [guoygang/CVE-2017-0564-ION-PoC](https://github.com/guoygang/CVE-2017-0564-ION-PoC)
-
 ### CVE-2017-0781 (2017-09-14)
 
 <code>
@@ -28037,14 +28045,6 @@ An elevation of privilege vulnerability in the Android framework (gatekeeperresp
 </code>
 
 - [michalbednarski/ReparcelBug](https://github.com/michalbednarski/ReparcelBug)
-
-### CVE-2017-0807 (2017-10-03)
-
-<code>
-An elevation of privilege vulnerability in the Android framework (ui framework). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2. Android ID: A-35056974.
-</code>
-
-- [kpatsakis/PoC_CVE-2017-0807](https://github.com/kpatsakis/PoC_CVE-2017-0807)
 
 ### CVE-2017-1635 (2017-12-13)
 
@@ -28421,7 +28421,6 @@ Firmware in the Intel Puma 5, 6, and 7 Series might experience resource depletio
 Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
-- [opsxcq/exploit-cve-2017-5715](https://github.com/opsxcq/exploit-cve-2017-5715)
 - [mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list)
 - [GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment)
 - [dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit)
@@ -28440,7 +28439,6 @@ Insufficient input validation in system firmware for Intel NUC7i3BNK, NUC7i3BNH,
 Systems with microprocessors utilizing speculative execution and branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
-- [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack)
 - [EdwardOwusuAdjei/Spectre-PoC](https://github.com/EdwardOwusuAdjei/Spectre-PoC)
 - [poilynx/spectre-attack-example](https://github.com/poilynx/spectre-attack-example)
 - [pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo)
@@ -28870,7 +28868,6 @@ Microsoft Office allows a remote code execution vulnerability due to the way tha
 </code>
 
 - [temesgeny/ppsx-file-generator](https://github.com/temesgeny/ppsx-file-generator)
-- [rxwx/CVE-2017-8570](https://github.com/rxwx/CVE-2017-8570)
 - [MaxSecurity/Office-CVE-2017-8570](https://github.com/MaxSecurity/Office-CVE-2017-8570)
 - [SwordSheath/CVE-2017-8570](https://github.com/SwordSheath/CVE-2017-8570)
 - [Drac0nids/CVE-2017-8570](https://github.com/Drac0nids/CVE-2017-8570)
@@ -29360,7 +29357,6 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [CSC-pentest/cve-2017-11882](https://github.com/CSC-pentest/cve-2017-11882)
 - [Shadowshusky/CVE-2017-11882-](https://github.com/Shadowshusky/CVE-2017-11882-)
 - [rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802)
-- [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
 - [likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882)
 - [likescam/CVE-2018-0802_CVE-2017-11882](https://github.com/likescam/CVE-2018-0802_CVE-2017-11882)
 - [herbiezimmerman/CVE-2017-11882-Possible-Remcos-Malspam](https://github.com/herbiezimmerman/CVE-2017-11882-Possible-Remcos-Malspam)
@@ -31076,6 +31072,14 @@ The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the P
 
 - [lcfpadilha/mac0352-ep4](https://github.com/lcfpadilha/mac0352-ep4)
 
+### CVE-2016-8776 (2017-04-02)
+
+<code>
+Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
+</code>
+
+- [akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776)
+
 ### CVE-2016-8858 (2016-12-09)
 
 <code>
@@ -31792,6 +31796,14 @@ libstagefright in Android before 5.1.1 LMY48Z and 6.0 before 2015-12-01 allows a
 - [flankerhqd/CVE-2015-6620-POC](https://github.com/flankerhqd/CVE-2015-6620-POC)
 - [flankerhqd/mediacodecoob](https://github.com/flankerhqd/mediacodecoob)
 
+### CVE-2015-6637 (2016-01-06)
+
+<code>
+The MediaTek misc-sd driver in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 allows attackers to gain privileges via a crafted application, aka internal bug 25307013.
+</code>
+
+- [betalphafai/CVE-2015-6637](https://github.com/betalphafai/CVE-2015-6637)
+
 ### CVE-2015-6639 (2016-01-06)
 
 <code>
@@ -31800,6 +31812,14 @@ The Widevine QSEE TrustZone application in Android 5.x before 5.1.1 LMY49F and 6
 
 - [laginimaineb/cve-2015-6639](https://github.com/laginimaineb/cve-2015-6639)
 - [laginimaineb/ExtractKeyMaster](https://github.com/laginimaineb/ExtractKeyMaster)
+
+### CVE-2015-6640 (2016-01-06)
+
+<code>
+The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
+</code>
+
+- [betalphafai/CVE-2015-6640](https://github.com/betalphafai/CVE-2015-6640)
 
 ### CVE-2015-6835 (2016-05-16)
 
@@ -31840,7 +31860,9 @@ Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functio
 </code>
 
 - [fjserna/CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547)
+- [cakuzo/CVE-2015-7547](https://github.com/cakuzo/CVE-2015-7547)
 - [t0r0t0r0/CVE-2015-7547](https://github.com/t0r0t0r0/CVE-2015-7547)
+- [rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc)
 - [babykillerblack/CVE-2015-7547](https://github.com/babykillerblack/CVE-2015-7547)
 - [jgajek/cve-2015-7547](https://github.com/jgajek/cve-2015-7547)
 - [eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public)
