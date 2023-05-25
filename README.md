@@ -253,6 +253,14 @@ Es wurde eine Schwachstelle in SourceCodester Food Ordering Management System 1.
 
 - [thehackingverse/CVE-2023-2594](https://github.com/thehackingverse/CVE-2023-2594)
 
+### CVE-2023-2732 (2023-05-24)
+
+<code>
+The MStore API plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 3.9.2. This is due to insufficient verification on the user being supplied during the add listing REST API request through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the user id.
+</code>
+
+- [RandomRobbieBF/CVE-2023-2732](https://github.com/RandomRobbieBF/CVE-2023-2732)
+
 ### CVE-2023-2822 (2023-05-20)
 
 <code>
@@ -1399,6 +1407,14 @@ In KeePass 2.x before 2.54, it is possible to recover the cleartext master passw
 - [und3sc0n0c1d0/BruteForce-to-KeePass](https://github.com/und3sc0n0c1d0/BruteForce-to-KeePass)
 - [z-jxy/keepass_dump](https://github.com/z-jxy/keepass_dump)
 - [LeDocteurDesBits/cve-2023-32784](https://github.com/LeDocteurDesBits/cve-2023-32784)
+
+### CVE-2023-33829 (2023-05-24)
+
+<code>
+A stored cross-site scripting (XSS) vulnerability in Cloudogu GmbH SCM Manager v1.2 to v1.60 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Description text field.
+</code>
+
+- [n3gox/CVE-2023-33829](https://github.com/n3gox/CVE-2023-33829)
 
 
 ## 2022
@@ -31060,14 +31076,6 @@ The mod_http2 module in the Apache HTTP Server 2.4.17 through 2.4.23, when the P
 
 - [lcfpadilha/mac0352-ep4](https://github.com/lcfpadilha/mac0352-ep4)
 
-### CVE-2016-8776 (2017-04-02)
-
-<code>
-Huawei P9 phones with software EVA-AL10C00,EVA-CL10C00,EVA-DL10C00,EVA-TL10C00 and P9 Lite phones with software VNS-L21C185 allow attackers to bypass the factory reset protection (FRP) to enter some functional modules without authorization and perform operations to update the Google account.
-</code>
-
-- [akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776)
-
 ### CVE-2016-8858 (2016-12-09)
 
 <code>
@@ -31784,14 +31792,6 @@ libstagefright in Android before 5.1.1 LMY48Z and 6.0 before 2015-12-01 allows a
 - [flankerhqd/CVE-2015-6620-POC](https://github.com/flankerhqd/CVE-2015-6620-POC)
 - [flankerhqd/mediacodecoob](https://github.com/flankerhqd/mediacodecoob)
 
-### CVE-2015-6637 (2016-01-06)
-
-<code>
-The MediaTek misc-sd driver in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 allows attackers to gain privileges via a crafted application, aka internal bug 25307013.
-</code>
-
-- [betalphafai/CVE-2015-6637](https://github.com/betalphafai/CVE-2015-6637)
-
 ### CVE-2015-6639 (2016-01-06)
 
 <code>
@@ -31800,14 +31800,6 @@ The Widevine QSEE TrustZone application in Android 5.x before 5.1.1 LMY49F and 6
 
 - [laginimaineb/cve-2015-6639](https://github.com/laginimaineb/cve-2015-6639)
 - [laginimaineb/ExtractKeyMaster](https://github.com/laginimaineb/ExtractKeyMaster)
-
-### CVE-2015-6640 (2016-01-06)
-
-<code>
-The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
-</code>
-
-- [betalphafai/CVE-2015-6640](https://github.com/betalphafai/CVE-2015-6640)
 
 ### CVE-2015-6835 (2016-05-16)
 
@@ -31848,9 +31840,7 @@ Multiple stack-based buffer overflows in the (1) send_dg and (2) send_vc functio
 </code>
 
 - [fjserna/CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547)
-- [cakuzo/CVE-2015-7547](https://github.com/cakuzo/CVE-2015-7547)
 - [t0r0t0r0/CVE-2015-7547](https://github.com/t0r0t0r0/CVE-2015-7547)
-- [rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc)
 - [babykillerblack/CVE-2015-7547](https://github.com/babykillerblack/CVE-2015-7547)
 - [jgajek/cve-2015-7547](https://github.com/jgajek/cve-2015-7547)
 - [eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public)
