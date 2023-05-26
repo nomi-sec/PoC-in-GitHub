@@ -205,7 +205,12 @@ The Snyk Advisor website (https://snyk.io/advisor/) was vulnerable to a stored X
 
 - [weizman/CVE-2023-1767](https://github.com/weizman/CVE-2023-1767)
 
-### CVE-2023-2002
+### CVE-2023-2002 (2023-05-26)
+
+<code>
+A vulnerability was found in the HCI sockets implementation due to a missing capability check in net/bluetooth/hci_sock.c in the Linux Kernel. This flaw allows an attacker to unauthorized execution of management commands, compromising the confidentiality, integrity, and availability of Bluetooth communication.
+</code>
+
 - [lrh2000/CVE-2023-2002](https://github.com/lrh2000/CVE-2023-2002)
 
 ### CVE-2023-2033 (2023-04-14)
@@ -1191,7 +1196,12 @@ SourceCodester Online Pizza Ordering System v1.0 is vulnerable to SQL Injection 
 
 - [nawed20002/CVE-2023-30092](https://github.com/nawed20002/CVE-2023-30092)
 
-### CVE-2023-30145
+### CVE-2023-30145 (2023-05-26)
+
+<code>
+Camaleon CMS v2.7.0 was discovered to contain a Server-Side Template Injection (SSTI) vulnerability via the formats parameter.
+</code>
+
 - [paragbagul111/CVE-2023-30145](https://github.com/paragbagul111/CVE-2023-30145)
 
 ### CVE-2023-30185 (2023-05-07)
@@ -1258,7 +1268,7 @@ AVideo is an open source video platform. Prior to version 12.4, an OS Command In
 In Django 3.2 before 3.2.19, 4.x before 4.1.9, and 4.2 before 4.2.1, it was possible to bypass validation when using one form field to upload multiple files. This multiple upload has never been supported by forms.FileField or forms.ImageField (only the last uploaded file was validated). However, Django's &quot;Uploading multiple files&quot; documentation suggested otherwise.
 </code>
 
-- [xzsec/Django_rce](https://github.com/xzsec/Django_rce)
+- [hheeyywweellccoommee/Django_rce-nwvba](https://github.com/hheeyywweellccoommee/Django_rce-nwvba)
 
 ### CVE-2023-31070
 - [bugprove/cve-2023-31070](https://github.com/bugprove/cve-2023-31070)
@@ -10277,6 +10287,7 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [orangmuda/CVE-2021-26084](https://github.com/orangmuda/CVE-2021-26084)
 - [TheclaMcentire/CVE-2021-26084_Confluence](https://github.com/TheclaMcentire/CVE-2021-26084_Confluence)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
+- [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
@@ -12848,6 +12859,14 @@ The PING function on the TP-Link TL-WR840N EU v5 router with firmware through TL
 </code>
 
 - [likeww/CVE-2021-41653](https://github.com/likeww/CVE-2021-41653)
+
+### CVE-2021-41728 (2021-10-28)
+
+<code>
+Cross Site Scripting (XSS) vulnerability exists in Sourcecodester News247 CMS 1.0 via the search function in articles.
+</code>
+
+- [whoissecure/CVE-2021-41728](https://github.com/whoissecure/CVE-2021-41728)
 
 ### CVE-2021-41730
 - [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
@@ -20619,14 +20638,6 @@ An elevation of privilege vulnerability exists when Windows Error Reporting mana
 </code>
 
 - [Mayter/CVE-2019-1315](https://github.com/Mayter/CVE-2019-1315)
-
-### CVE-2019-1351 (2020-01-24)
-
-<code>
-A tampering vulnerability exists when Git for Visual Studio improperly handles virtual drive paths, aka 'Git for Visual Studio Tampering Vulnerability'.
-</code>
-
-- [JonasDL/PruebaCVE20191351](https://github.com/JonasDL/PruebaCVE20191351)
 
 ### CVE-2019-1367 (2019-09-23)
 
