@@ -9816,6 +9816,7 @@ A heap out-of-bounds write affecting Linux since v2.6.19-rc1 was discovered in n
 - [xyjl-ly/CVE-2021-22555-Exploit](https://github.com/xyjl-ly/CVE-2021-22555-Exploit)
 - [daletoniris/CVE-2021-22555-esc-priv](https://github.com/daletoniris/CVE-2021-22555-esc-priv)
 - [veritas501/CVE-2021-22555-PipeVersion](https://github.com/veritas501/CVE-2021-22555-PipeVersion)
+- [masjohncook/netsec-project](https://github.com/masjohncook/netsec-project)
 
 ### CVE-2021-22569 (2022-01-07)
 
@@ -15552,7 +15553,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [R0B1NL1N/CVE-2020-1472](https://github.com/R0B1NL1N/CVE-2020-1472)
 - [thatonesecguy/zerologon-CVE-2020-1472](https://github.com/thatonesecguy/zerologon-CVE-2020-1472)
 - [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
-- [422926799/CVE-2020-1472](https://github.com/422926799/CVE-2020-1472)
+- [jiushill/CVE-2020-1472](https://github.com/jiushill/CVE-2020-1472)
 - [scv-m/zabbix-template-CVE-2020-1472](https://github.com/scv-m/zabbix-template-CVE-2020-1472)
 - [mstxq17/cve-2020-1472](https://github.com/mstxq17/cve-2020-1472)
 - [Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472)
@@ -15600,7 +15601,6 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [guglia001/MassZeroLogon](https://github.com/guglia001/MassZeroLogon)
 - [likeww/MassZeroLogon](https://github.com/likeww/MassZeroLogon)
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
-- [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
 - [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
@@ -16264,7 +16264,6 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902)
 - [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
-- [amitlttwo/CVE-2020-5902](https://github.com/amitlttwo/CVE-2020-5902)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -16457,7 +16456,6 @@ Rapid7's Metasploit msfvenom framework handles APK files in a way that allows fo
 </code>
 
 - [nikhil1232/CVE-2020-7384](https://github.com/nikhil1232/CVE-2020-7384)
-- [0xCarsonS/CVE-2020-7384](https://github.com/0xCarsonS/CVE-2020-7384)
 
 ### CVE-2020-7388 (2021-07-22)
 
