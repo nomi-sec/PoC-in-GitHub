@@ -1210,6 +1210,7 @@ OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage
 
 - [kuttappu123/CVE-2023-30212-LAB](https://github.com/kuttappu123/CVE-2023-30212-LAB)
 - [Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE](https://github.com/Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE)
+- [mallutrojan/CVE-2023-30212-Lab](https://github.com/mallutrojan/CVE-2023-30212-Lab)
 
 ### CVE-2023-30256 (2023-05-11)
 
@@ -3108,6 +3109,7 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [qq87234770/CVE-2022-22947](https://github.com/qq87234770/CVE-2022-22947)
 - [Zh0um1/CVE-2022-22947](https://github.com/Zh0um1/CVE-2022-22947)
 - [wallbreak1991/cve-2022-22947](https://github.com/wallbreak1991/cve-2022-22947)
+- [Le1a/CVE-2022-22947](https://github.com/Le1a/CVE-2022-22947)
 
 ### CVE-2022-22954 (2022-04-11)
 
@@ -10275,7 +10277,6 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [orangmuda/CVE-2021-26084](https://github.com/orangmuda/CVE-2021-26084)
 - [TheclaMcentire/CVE-2021-26084_Confluence](https://github.com/TheclaMcentire/CVE-2021-26084_Confluence)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
-- [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
@@ -12847,14 +12848,6 @@ The PING function on the TP-Link TL-WR840N EU v5 router with firmware through TL
 </code>
 
 - [likeww/CVE-2021-41653](https://github.com/likeww/CVE-2021-41653)
-
-### CVE-2021-41728 (2021-10-28)
-
-<code>
-Cross Site Scripting (XSS) vulnerability exists in Sourcecodester News247 CMS 1.0 via the search function in articles.
-</code>
-
-- [whoissecure/CVE-2021-41728](https://github.com/whoissecure/CVE-2021-41728)
 
 ### CVE-2021-41730
 - [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
@@ -15601,6 +15594,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [guglia001/MassZeroLogon](https://github.com/guglia001/MassZeroLogon)
 - [likeww/MassZeroLogon](https://github.com/likeww/MassZeroLogon)
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
+- [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
 - [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
@@ -16264,6 +16258,7 @@ In BIG-IP versions 15.0.0-15.1.0.3, 14.1.0-14.1.2.5, 13.1.0-13.1.3.3, 12.1.0-12.
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [z3n70/CVE-2020-5902](https://github.com/z3n70/CVE-2020-5902)
 - [34zY/APT-Backpack](https://github.com/34zY/APT-Backpack)
+- [amitlttwo/CVE-2020-5902](https://github.com/amitlttwo/CVE-2020-5902)
 
 ### CVE-2020-5903 (2020-07-01)
 
@@ -16456,6 +16451,7 @@ Rapid7's Metasploit msfvenom framework handles APK files in a way that allows fo
 </code>
 
 - [nikhil1232/CVE-2020-7384](https://github.com/nikhil1232/CVE-2020-7384)
+- [0xCarsonS/CVE-2020-7384](https://github.com/0xCarsonS/CVE-2020-7384)
 
 ### CVE-2020-7388 (2021-07-22)
 
