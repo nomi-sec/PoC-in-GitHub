@@ -923,6 +923,7 @@ This vulnerability allows remote attackers to bypass authentication on affected 
 - [TamingSariMY/CVE-2023-27350-POC](https://github.com/TamingSariMY/CVE-2023-27350-POC)
 - [horizon3ai/CVE-2023-27350](https://github.com/horizon3ai/CVE-2023-27350)
 - [adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350)
+- [Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350)
 
 ### CVE-2023-27524 (2023-04-24)
 
@@ -1233,6 +1234,9 @@ OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage
 - [libas7994/CVE-2023-30212](https://github.com/libas7994/CVE-2023-30212)
 - [libasmon/Vulnerable-Docker-Environment-CVE-2023-30212](https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212)
 - [libasmon/-create-a-vulnerable-Docker-environment-that-is-susceptible-to-CVE-2023-30212](https://github.com/libasmon/-create-a-vulnerable-Docker-environment-that-is-susceptible-to-CVE-2023-30212)
+- [libasmon/Exploite-CVE-2023-30212-Vulnerability](https://github.com/libasmon/Exploite-CVE-2023-30212-Vulnerability)
+- [libas7994/Exploit-the-CVE-2023-30212-vulnerability](https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability)
+- [libasv/Exploite-CVE-2023-30212-vulnerability](https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability)
 
 ### CVE-2023-30256 (2023-05-11)
 
@@ -5991,14 +5995,6 @@ Crow before 1.0+4 has a heap-based buffer overflow via the function qs_parse in 
 </code>
 
 - [0xhebi/CVE-2022-34970](https://github.com/0xhebi/CVE-2022-34970)
-
-### CVE-2022-34972 (2022-07-05)
-
-<code>
-So Filter Shop v3.x was discovered to contain multiple blind SQL injection vulnerabilities via the att_value_id , manu_value_id , opt_value_id , and subcate_value_id parameters at /index.php?route=extension/module/so_filter_shop_by/filter_data.
-</code>
-
-- [DevCyberNico/exploit_-CVE-2022-34972](https://github.com/DevCyberNico/exploit_-CVE-2022-34972)
 
 ### CVE-2022-35131 (2022-07-25)
 
