@@ -1230,6 +1230,9 @@ OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage
 - [Anandhu990/r-CVE-2023-30212--lab](https://github.com/Anandhu990/r-CVE-2023-30212--lab)
 - [Anandhu990/CVE-2023-30212-iab](https://github.com/Anandhu990/CVE-2023-30212-iab)
 - [Anandhu990/CVE-2023-30212_lab](https://github.com/Anandhu990/CVE-2023-30212_lab)
+- [libas7994/CVE-2023-30212](https://github.com/libas7994/CVE-2023-30212)
+- [libasmon/Vulnerable-Docker-Environment-CVE-2023-30212](https://github.com/libasmon/Vulnerable-Docker-Environment-CVE-2023-30212)
+- [libasmon/-create-a-vulnerable-Docker-environment-that-is-susceptible-to-CVE-2023-30212](https://github.com/libasmon/-create-a-vulnerable-Docker-environment-that-is-susceptible-to-CVE-2023-30212)
 
 ### CVE-2023-30256 (2023-05-11)
 
@@ -1427,9 +1430,9 @@ Improper Authentication vulnerability in WPDeveloper Essential Addons for Elemen
 - [little44n1o/cve-2023-32243](https://github.com/little44n1o/cve-2023-32243)
 - [gbrsh/CVE-2023-32243](https://github.com/gbrsh/CVE-2023-32243)
 - [RandomRobbieBF/CVE-2023-32243](https://github.com/RandomRobbieBF/CVE-2023-32243)
-- [domainhigh/Mass-CVE-2023-32243](https://github.com/domainhigh/Mass-CVE-2023-32243)
 - [manavvedawala/CVE-2023-32243-POC](https://github.com/manavvedawala/CVE-2023-32243-POC)
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
+- [hheeyywweellccoommee/Mass-CVE-2023-32243-kcpqa](https://github.com/hheeyywweellccoommee/Mass-CVE-2023-32243-kcpqa)
 - [YouGina/CVE-2023-32243](https://github.com/YouGina/CVE-2023-32243)
 
 ### CVE-2023-32784 (2023-05-15)
