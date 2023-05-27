@@ -274,7 +274,12 @@ Es wurde eine problematische Schwachstelle in Ellucian Ethos Identity bis 5.10.5
 
 - [cberman/CVE-2023-2822-demo](https://github.com/cberman/CVE-2023-2822-demo)
 
-### CVE-2023-2825
+### CVE-2023-2825 (2023-05-26)
+
+<code>
+An issue has been discovered in GitLab CE/EE affecting only version 16.0.0. An unauthenticated malicious user can use a path traversal vulnerability to read arbitrary files on the server when an attachment exists in a public project nested within at least five groups.
+</code>
+
 - [Occamsec/CVE-2023-2825](https://github.com/Occamsec/CVE-2023-2825)
 
 ### CVE-2023-2859 (2023-05-24)
@@ -1221,6 +1226,10 @@ OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage
 - [kuttappu123/CVE-2023-30212-LAB](https://github.com/kuttappu123/CVE-2023-30212-LAB)
 - [Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE](https://github.com/Rishipatidar/CVE-2023-30212-POC-DOCKER-FILE)
 - [mallutrojan/CVE-2023-30212-Lab](https://github.com/mallutrojan/CVE-2023-30212-Lab)
+- [Anandhu990/r-CVE-2023-30212-lab](https://github.com/Anandhu990/r-CVE-2023-30212-lab)
+- [Anandhu990/r-CVE-2023-30212--lab](https://github.com/Anandhu990/r-CVE-2023-30212--lab)
+- [Anandhu990/CVE-2023-30212-iab](https://github.com/Anandhu990/CVE-2023-30212-iab)
+- [Anandhu990/CVE-2023-30212_lab](https://github.com/Anandhu990/CVE-2023-30212_lab)
 
 ### CVE-2023-30256 (2023-05-11)
 
@@ -1434,6 +1443,15 @@ In KeePass 2.x before 2.54, it is possible to recover the cleartext master passw
 - [und3sc0n0c1d0/BruteForce-to-KeePass](https://github.com/und3sc0n0c1d0/BruteForce-to-KeePass)
 - [z-jxy/keepass_dump](https://github.com/z-jxy/keepass_dump)
 - [LeDocteurDesBits/cve-2023-32784](https://github.com/LeDocteurDesBits/cve-2023-32784)
+
+### CVE-2023-33617 (2023-05-23)
+
+<code>
+An OS Command Injection vulnerability in Parks Fiberlink 210 firmware version V2.1.14_X000 was found via the /boaform/admin/formPing target_addr parameter.
+</code>
+
+- [Chocapikk/CVE-2023-33617](https://github.com/Chocapikk/CVE-2023-33617)
+- [tucommenceapousser/CVE-2023-33617](https://github.com/tucommenceapousser/CVE-2023-33617)
 
 ### CVE-2023-33829 (2023-05-24)
 
@@ -9126,7 +9144,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [ashutoshrohilla/CVE-2021-4034](https://github.com/ashutoshrohilla/CVE-2021-4034)
 - [nikip72/CVE-2021-4034](https://github.com/nikip72/CVE-2021-4034)
 - [NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034)
-- [0xTRAW/CVE-2021-4034](https://github.com/0xTRAW/CVE-2021-4034)
+- [itsmetraw/CVE-2021-4034](https://github.com/itsmetraw/CVE-2021-4034)
 - [luckythandel/CVE-2021-4034](https://github.com/luckythandel/CVE-2021-4034)
 - [Plethore/CVE-2021-4034](https://github.com/Plethore/CVE-2021-4034)
 - [evdenis/lsm_bpf_check_argc0](https://github.com/evdenis/lsm_bpf_check_argc0)
@@ -15330,7 +15348,8 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796)
 - [OldDream666/cve-2020-0796](https://github.com/OldDream666/cve-2020-0796)
 - [heeloo123/CVE-2020-0796](https://github.com/heeloo123/CVE-2020-0796)
-- [Ajomix/CVE-2020-0796-VCS](https://github.com/Ajomix/CVE-2020-0796-VCS)
+- [hheeyywweellccoommee/CVE-2020-0796-VCS-mzecv](https://github.com/hheeyywweellccoommee/CVE-2020-0796-VCS-mzecv)
+- [Ajomix/CVE-2020-0796-POC](https://github.com/Ajomix/CVE-2020-0796-POC)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -20638,6 +20657,14 @@ An elevation of privilege vulnerability exists when Windows Error Reporting mana
 </code>
 
 - [Mayter/CVE-2019-1315](https://github.com/Mayter/CVE-2019-1315)
+
+### CVE-2019-1351 (2020-01-24)
+
+<code>
+A tampering vulnerability exists when Git for Visual Studio improperly handles virtual drive paths, aka 'Git for Visual Studio Tampering Vulnerability'.
+</code>
+
+- [JonasDL/PruebaCVE20191351](https://github.com/JonasDL/PruebaCVE20191351)
 
 ### CVE-2019-1367 (2019-09-23)
 
