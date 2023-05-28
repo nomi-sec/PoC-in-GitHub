@@ -20848,6 +20848,7 @@ A use-after-free in binder.c allows an elevation of privilege from an applicatio
 - [mufidmb38/CVE-2019-2215](https://github.com/mufidmb38/CVE-2019-2215)
 - [nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0)
 - [enceka/cve-2019-2215-3.18](https://github.com/enceka/cve-2019-2215-3.18)
+- [elbiazo/CVE-2019-2215](https://github.com/elbiazo/CVE-2019-2215)
 
 ### CVE-2019-2525 (2019-01-16)
 
