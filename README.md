@@ -281,6 +281,7 @@ An issue has been discovered in GitLab CE/EE affecting only version 16.0.0. An u
 </code>
 
 - [Occamsec/CVE-2023-2825](https://github.com/Occamsec/CVE-2023-2825)
+- [yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825)
 
 ### CVE-2023-2859 (2023-05-24)
 
