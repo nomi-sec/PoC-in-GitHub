@@ -520,7 +520,7 @@ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequen
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
-- [manas3-tg/CVE-2023-22960](https://github.com/manas3-tg/CVE-2023-22960)
+- [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
 ### CVE-2023-22974 (2023-02-22)
 
@@ -1239,6 +1239,7 @@ OURPHP &lt;= 7.2.0 is vulnerale to Cross Site Scripting (XSS) via /client/manage
 - [libasmon/Exploite-CVE-2023-30212-Vulnerability](https://github.com/libasmon/Exploite-CVE-2023-30212-Vulnerability)
 - [libas7994/Exploit-the-CVE-2023-30212-vulnerability](https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability)
 - [libasv/Exploite-CVE-2023-30212-vulnerability](https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability)
+- [kai-iszz/CVE-2023-30212](https://github.com/kai-iszz/CVE-2023-30212)
 
 ### CVE-2023-30256 (2023-05-11)
 
@@ -1440,6 +1441,7 @@ Improper Authentication vulnerability in WPDeveloper Essential Addons for Elemen
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
 - [hheeyywweellccoommee/Mass-CVE-2023-32243-kcpqa](https://github.com/hheeyywweellccoommee/Mass-CVE-2023-32243-kcpqa)
 - [YouGina/CVE-2023-32243](https://github.com/YouGina/CVE-2023-32243)
+- [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
 
 ### CVE-2023-32784 (2023-05-15)
 
