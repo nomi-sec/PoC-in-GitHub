@@ -2057,7 +2057,7 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
-- [realsiao/cve-2022-1609-exploit](https://github.com/realsiao/cve-2022-1609-exploit)
+- [syscall21h/cve-2022-1609-exploit](https://github.com/syscall21h/cve-2022-1609-exploit)
 
 ### CVE-2022-1679 (2022-05-16)
 
@@ -11131,6 +11131,9 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 </code>
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
+
+### CVE-2021-31233
+- [gabesolomon/CVE-2021-31233](https://github.com/gabesolomon/CVE-2021-31233)
 
 ### CVE-2021-31290
 - [qaisarafridi/cve-2021-31290](https://github.com/qaisarafridi/cve-2021-31290)
@@ -21854,6 +21857,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 - [ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit](https://github.com/ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit)
 - [pedrojosenavasperez/CVE-2019-9053-Python3](https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3)
 - [STERN3L/CVE-2019-9053](https://github.com/STERN3L/CVE-2019-9053)
+- [Mahamedm/CVE-2019-9053-Exploit-Python-3](https://github.com/Mahamedm/CVE-2019-9053-Exploit-Python-3)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
@@ -32854,7 +32858,7 @@ Use-after-free vulnerability in Google Chrome before 27.0.1453.93 allows remote 
 The GetComputerSystem method in the HostControl service in SAP Netweaver 7.03 allows remote attackers to obtain sensitive information via a crafted SOAP request to TCP port 1128.
 </code>
 
-- [integrity-sa/cve-2013-3319](https://github.com/integrity-sa/cve-2013-3319)
+- [devoteam-cybertrust/cve-2013-3319](https://github.com/devoteam-cybertrust/cve-2013-3319)
 
 ### CVE-2013-4175 (2020-01-23)
 
