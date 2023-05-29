@@ -55,7 +55,6 @@ Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 
 - [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
-- [gudetem/CVE-2023-0297](https://github.com/gudetem/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-15)
@@ -5758,14 +5757,6 @@ net/netfilter/nf_tables_api.c in the Linux kernel through 5.18.1 allows a local 
 
 - [theori-io/CVE-2022-32250-exploit](https://github.com/theori-io/CVE-2022-32250-exploit)
 - [ysanatomic/CVE-2022-32250-LPE](https://github.com/ysanatomic/CVE-2022-32250-LPE)
-
-### CVE-2022-32429 (2022-08-09)
-
-<code>
-An authentication-bypass issue in the component http://MYDEVICEIP/cgi-bin-sdb/ExportSettings.sh of Mega System Technologies Inc MSNSwitch MNT.2408 allows unauthenticated attackers to arbitrarily configure settings within the application, leading to remote code execution.
-</code>
-
-- [gudetem/CVE-2022-32429](https://github.com/gudetem/CVE-2022-32429)
 
 ### CVE-2022-32532 (2022-06-28)
 
