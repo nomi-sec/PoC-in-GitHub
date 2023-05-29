@@ -520,7 +520,7 @@ Lexmark products through 2023-01-10 have Improper Control of Interaction Frequen
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
-- [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
+- [manas3-tg/CVE-2023-22960](https://github.com/manas3-tg/CVE-2023-22960)
 
 ### CVE-2023-22974 (2023-02-22)
 
@@ -1183,6 +1183,7 @@ PowerJob V4.3.1 is vulnerable to Insecure Permissions. via the list job interfac
 
 - [1820112015/CVE-2023-29923](https://github.com/1820112015/CVE-2023-29923)
 - [CKevens/CVE-2023-29923-Scan](https://github.com/CKevens/CVE-2023-29923-Scan)
+- [Le1a/CVE-2023-29923](https://github.com/Le1a/CVE-2023-29923)
 
 ### CVE-2023-29929
 - [YSaxon/CVE-2023-29929](https://github.com/YSaxon/CVE-2023-29929)
@@ -15341,7 +15342,8 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [OldDream666/cve-2020-0796](https://github.com/OldDream666/cve-2020-0796)
 - [heeloo123/CVE-2020-0796](https://github.com/heeloo123/CVE-2020-0796)
 - [hheeyywweellccoommee/CVE-2020-0796-VCS-mzecv](https://github.com/hheeyywweellccoommee/CVE-2020-0796-VCS-mzecv)
-- [Ajomix/CVE-2020-0796-POC](https://github.com/Ajomix/CVE-2020-0796-POC)
+- [hheeyywweellccoommee/CVE-2020-0796-POC-dmglv](https://github.com/hheeyywweellccoommee/CVE-2020-0796-POC-dmglv)
+- [Ajomix/CVE-2020-0796](https://github.com/Ajomix/CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -23257,7 +23259,6 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [HACHp1/webmin_docker_and_exp](https://github.com/HACHp1/webmin_docker_and_exp)
 - [ketlerd/CVE-2019-15107](https://github.com/ketlerd/CVE-2019-15107)
 - [AdministratorGithub/CVE-2019-15107](https://github.com/AdministratorGithub/CVE-2019-15107)
-- [Pichuuuuu/CVE-2019-15107](https://github.com/Pichuuuuu/CVE-2019-15107)
 - [Rayferrufino/Make-and-Break](https://github.com/Rayferrufino/Make-and-Break)
 - [AleWong/WebminRCE-EXP-CVE-2019-15107-](https://github.com/AleWong/WebminRCE-EXP-CVE-2019-15107-)
 - [ianxtianxt/CVE-2019-15107](https://github.com/ianxtianxt/CVE-2019-15107)
@@ -23284,6 +23285,14 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [g1vi/CVE-2019-15107](https://github.com/g1vi/CVE-2019-15107)
 - [K3ysTr0K3R/CVE-2019-15107-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2019-15107-EXPLOIT)
 - [gozn/detect-CVE-2019-15107-by-pyshark](https://github.com/gozn/detect-CVE-2019-15107-by-pyshark)
+
+### CVE-2019-15112 (2019-08-21)
+
+<code>
+The wp-slimstat plugin before 4.8.1 for WordPress has XSS.
+</code>
+
+- [5l1v3r1/CVE-2019-15112](https://github.com/5l1v3r1/CVE-2019-15112)
 
 ### CVE-2019-15120 (2019-08-16)
 
