@@ -241,6 +241,9 @@ Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampas
 
 - [mnqazi/CVE-2023-2516](https://github.com/mnqazi/CVE-2023-2516)
 
+### CVE-2023-2579
+- [daniloalbuqrque/poc-cve-xss-inventory-press-plugin](https://github.com/daniloalbuqrque/poc-cve-xss-inventory-press-plugin)
+
 ### CVE-2023-2591 (2023-05-09)
 
 <code>
@@ -1473,6 +1476,12 @@ An OS Command Injection vulnerability in Parks Fiberlink 210 firmware version V2
 
 - [Chocapikk/CVE-2023-33617](https://github.com/Chocapikk/CVE-2023-33617)
 - [tucommenceapousser/CVE-2023-33617](https://github.com/tucommenceapousser/CVE-2023-33617)
+
+### CVE-2023-33730
+- [sahiloj/CVE-2023-33730](https://github.com/sahiloj/CVE-2023-33730)
+
+### CVE-2023-33731
+- [sahiloj/CVE-2023-33731](https://github.com/sahiloj/CVE-2023-33731)
 
 ### CVE-2023-33829 (2023-05-24)
 
@@ -21876,6 +21885,7 @@ An issue was discovered in CMS Made Simple 2.2.8. It is possible with the News m
 - [pedrojosenavasperez/CVE-2019-9053-Python3](https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3)
 - [STERN3L/CVE-2019-9053](https://github.com/STERN3L/CVE-2019-9053)
 - [Mahamedm/CVE-2019-9053-Exploit-Python-3](https://github.com/Mahamedm/CVE-2019-9053-Exploit-Python-3)
+- [Sp4ceDogy/CVE-2019-9053.python3](https://github.com/Sp4ceDogy/CVE-2019-9053.python3)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
