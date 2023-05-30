@@ -26538,7 +26538,7 @@ An XML external entity (XXE) vulnerability in Fortify Software Security Center (
 JBoss RichFaces 3.1.0 through 3.3.4 allows unauthenticated remote attackers to inject expression language (EL) expressions and execute arbitrary Java code via a /DATA/ substring in a path with an org.richfaces.renderkit.html.Paint2DResource$ImageData object, aka RF-14310.
 </code>
 
-- [TheKalin/CVE-2018-12533](https://github.com/TheKalin/CVE-2018-12533)
+- [llamaonsecurity/CVE-2018-12533](https://github.com/llamaonsecurity/CVE-2018-12533)
 - [Pastea/CVE-2018-12533](https://github.com/Pastea/CVE-2018-12533)
 
 ### CVE-2018-12537 (2018-08-14)
