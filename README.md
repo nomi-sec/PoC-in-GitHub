@@ -281,6 +281,7 @@ An issue has been discovered in GitLab CE/EE affecting only version 16.0.0. An u
 
 - [Occamsec/CVE-2023-2825](https://github.com/Occamsec/CVE-2023-2825)
 - [yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825)
+- [Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab)
 
 ### CVE-2023-2859 (2023-05-24)
 
@@ -351,7 +352,7 @@ In BitmapExport.java, there is a possible failure to truncate images due to a lo
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
 - [maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot)
 - [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
-- [cafedork/acropolypse-bot](https://github.com/cafedork/acropolypse-bot)
+- [dorkeline/acropolypse-bot](https://github.com/dorkeline/acropolypse-bot)
 - [lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect)
 
 ### CVE-2023-21389
@@ -454,6 +455,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [hacats/CVE-2023-21839](https://github.com/hacats/CVE-2023-21839)
 - [Firebasky/CVE-2023-21839](https://github.com/Firebasky/CVE-2023-21839)
 - [houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839)
+- [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 
 ### CVE-2023-22432 (2023-03-05)
 
@@ -2651,6 +2653,14 @@ In toLanguageTag of LocaleListCache.cpp, there is a possible out of bounds read 
 
 - [Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473)
 - [Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473)
+
+### CVE-2022-20493 (2023-01-24)
+
+<code>
+In Condition of Condition.java, there is a possible way to grant notification access due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-242846316
+</code>
+
+- [Trinadh465/frameworks_base_CVE-2022-20493](https://github.com/Trinadh465/frameworks_base_CVE-2022-20493)
 
 ### CVE-2022-20494 (2023-01-24)
 
