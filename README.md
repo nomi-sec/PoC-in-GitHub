@@ -1483,6 +1483,10 @@ An OS Command Injection vulnerability in Parks Fiberlink 210 firmware version V2
 ### CVE-2023-33731
 - [sahiloj/CVE-2023-33731](https://github.com/sahiloj/CVE-2023-33731)
 
+### CVE-2023-33733
+- [sahiloj/CVE-2023-33733](https://github.com/sahiloj/CVE-2023-33733)
+- [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
+
 ### CVE-2023-33829 (2023-05-24)
 
 <code>
@@ -24208,7 +24212,6 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [mpgn/CVE-2019-19781](https://github.com/mpgn/CVE-2019-19781)
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
 - [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
-- [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
 - [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
 - [jamesjguthrie/Shitrix-CVE-2019-19781](https://github.com/jamesjguthrie/Shitrix-CVE-2019-19781)
 - [x1sec/CVE-2019-19781](https://github.com/x1sec/CVE-2019-19781)
@@ -28029,7 +28032,6 @@ Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow
 Microsoft Office 2010 SP2, Office 2013 SP1, and Office 2016 allow a remote code execution vulnerability when the software fails to properly handle objects in memory, aka &quot;Office Remote Code Execution Vulnerability&quot;. This CVE ID is unique from CVE-2017-0262 and CVE-2017-0281.
 </code>
 
-- [kcufId/eps-CVE-2017-0261](https://github.com/kcufId/eps-CVE-2017-0261)
 - [erfze/CVE-2017-0261](https://github.com/erfze/CVE-2017-0261)
 
 ### CVE-2017-0263 (2017-05-12)
@@ -30147,14 +30149,6 @@ Primetek Primefaces 5.x is vulnerable to a weak encryption flaw resulting in rem
 - [mogwailabs/CVE-2017-1000486](https://github.com/mogwailabs/CVE-2017-1000486)
 - [cved-sources/cve-2017-1000486](https://github.com/cved-sources/cve-2017-1000486)
 - [Pastea/CVE-2017-1000486](https://github.com/Pastea/CVE-2017-1000486)
-
-### CVE-2017-1000499 (2018-01-03)
-
-<code>
-phpMyAdmin versions 4.7.x (prior to 4.7.6.1/4.7.7) are vulnerable to a CSRF weakness. By deceiving a user to click on a crafted URL, it is possible to perform harmful database operations such as deleting records, dropping/truncating tables etc.
-</code>
-
-- [Villaquiranm/5MMISSI-CVE-2017-1000499](https://github.com/Villaquiranm/5MMISSI-CVE-2017-1000499)
 
 ### CVE-2017-1002101 (2018-03-13)
 
