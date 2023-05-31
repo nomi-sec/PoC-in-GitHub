@@ -295,6 +295,14 @@ Code Injection in GitHub repository nilsteampassnet/teampass prior to 3.0.9.
 
 - [mnqazi/CVE-2023-2859](https://github.com/mnqazi/CVE-2023-2859)
 
+### CVE-2023-3009 (2023-05-31)
+
+<code>
+Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampass prior to 3.0.9.
+</code>
+
+- [mnqazi/CVE-2023-3009](https://github.com/mnqazi/CVE-2023-3009)
+
 ### CVE-2023-20052 (2023-03-01)
 
 <code>
@@ -1010,6 +1018,14 @@ Insecure Permissions vulnerability found in Extplorer File manager eXtplorer v.2
 - [tristao-marinho/CVE-2023-27842](https://github.com/tristao-marinho/CVE-2023-27842)
 - [0xFTW/CVE-2023-27842](https://github.com/0xFTW/CVE-2023-27842)
 
+### CVE-2023-28121 (2023-04-12)
+
+<code>
+An issue in WooCommerce Payments plugin for WordPress (versions 5.6.1 and lower) allows an unauthenticated attacker to send requests on behalf of an elevated user, like administrator. This allows a remote, unauthenticated attacker to gain admin access on a site that has the affected version of the plugin activated.
+</code>
+
+- [gbrsh/CVE-2023-28121](https://github.com/gbrsh/CVE-2023-28121)
+
 ### CVE-2023-28206 (2023-04-10)
 
 <code>
@@ -1026,6 +1042,14 @@ DHCP Server Service Remote Code Execution Vulnerability
 </code>
 
 - [glavstroy/CVE-2023-28231](https://github.com/glavstroy/CVE-2023-28231)
+
+### CVE-2023-28244 (2023-04-11)
+
+<code>
+Windows Kerberos Elevation of Privilege Vulnerability
+</code>
+
+- [sk3w/cve-2023-28244](https://github.com/sk3w/cve-2023-28244)
 
 ### CVE-2023-28343 (2023-03-14)
 
@@ -1391,6 +1415,9 @@ Cross Site Scripting (XSS) in the edit user form in Microworld Technologies eSca
 </code>
 
 - [sahiloj/CVE-2023-31703](https://github.com/sahiloj/CVE-2023-31703)
+
+### CVE-2023-31711
+- [HritikThapa7/CVE-2023-31711](https://github.com/HritikThapa7/CVE-2023-31711)
 
 ### CVE-2023-31726 (2023-05-23)
 
@@ -3535,14 +3562,6 @@ A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of Ta
 </code>
 
 - [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
-
-### CVE-2022-23521 (2023-01-17)
-
-<code>
-Git is distributed revision control system. gitattributes are a mechanism to allow defining attributes for paths. These attributes can be defined by adding a `.gitattributes` file to the repository, which contains a set of file patterns and the attributes that should be set for paths matching this pattern. When parsing gitattributes, multiple integer overflows can occur when there is a huge number of path patterns, a huge number of attributes for a single pattern, or when the declared attribute names are huge. These overflows can be triggered via a crafted `.gitattributes` file that may be part of the commit history. Git silently splits lines longer than 2KB when parsing gitattributes from a file, but not when parsing them from the index. Consequentially, the failure mode depends on whether the file exists in the working tree, the index or both. This integer overflow can result in arbitrary heap reads and writes, which may result in remote code execution. The problem has been patched in the versions published on 2023-01-17, going back to v2.30.7. Users are advised to upgrade. There are no known workarounds for this issue.
-</code>
-
-- [0xDSousa/CVE-2022-23521](https://github.com/0xDSousa/CVE-2022-23521)
 
 ### CVE-2022-23529
 - [despossivel/CVE-2022-23529-lab](https://github.com/despossivel/CVE-2022-23529-lab)
@@ -21227,14 +21246,6 @@ c3p0 version &lt; 0.9.5.4 may be exploited by a billion laughs attack when loadi
 
 - [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
-### CVE-2019-5454 (2019-07-30)
-
-<code>
-SQL Injection in the Nextcloud Android app prior to version 3.0.0 allows to destroy a local cache when a harmful query is executed requiring to resetup the account.
-</code>
-
-- [shanika04/nextcloud_android](https://github.com/shanika04/nextcloud_android)
-
 ### CVE-2019-5475 (2019-09-03)
 
 <code>
@@ -28152,6 +28163,7 @@ A remote code execution vulnerability in the Android system (bluetooth). Product
 - [ojasookert/CVE-2017-0781](https://github.com/ojasookert/CVE-2017-0781)
 - [marcinguy/android712-blueborne](https://github.com/marcinguy/android712-blueborne)
 - [mjancek/BlueborneDetection](https://github.com/mjancek/BlueborneDetection)
+- [CrackSoft900/Blue-Borne](https://github.com/CrackSoft900/Blue-Borne)
 - [CarlosDelRosario7/sploit-bX](https://github.com/CarlosDelRosario7/sploit-bX)
 
 ### CVE-2017-0785 (2017-09-14)
@@ -29210,6 +29222,14 @@ An Uncontrolled Resource Consumption issue was discovered in Schneider Electric 
 
 - [USSCltd/aaLogger](https://github.com/USSCltd/aaLogger)
 
+### CVE-2017-9769 (2017-08-02)
+
+<code>
+A specially crafted IOCTL can be issued to the rzpnk.sys driver in Razer Synapse 2.20.15.1104 that is forwarded to ZwOpenProcess allowing a handle to be opened to an arbitrary process.
+</code>
+
+- [kkent030315/CVE-2017-9769](https://github.com/kkent030315/CVE-2017-9769)
+
 ### CVE-2017-9779 (2017-09-07)
 
 <code>
@@ -29256,6 +29276,7 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit](https://github.com/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit)
 - [AvishkaSenadheera/CVE-2017-9805---Documentation---IT19143378](https://github.com/AvishkaSenadheera/CVE-2017-9805---Documentation---IT19143378)
 - [wifido/CVE-2017-9805-Exploit](https://github.com/wifido/CVE-2017-9805-Exploit)
+- [rvermeulen/apache-struts-cve-2017-9805](https://github.com/rvermeulen/apache-struts-cve-2017-9805)
 - [jongmartinez/-CVE-2017-9805-](https://github.com/jongmartinez/-CVE-2017-9805-)
 - [z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805)
 - [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
@@ -29499,6 +29520,8 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882)
 - [littlebin404/CVE-2017-11882](https://github.com/littlebin404/CVE-2017-11882)
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
+- [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
+- [5l1v3r1/rtfkit](https://github.com/5l1v3r1/rtfkit)
 - [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
 - [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 - [lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp)
