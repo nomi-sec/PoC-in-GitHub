@@ -1468,6 +1468,7 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 </code>
 
 - [I5N0rth/CVE-2023-33246](https://github.com/I5N0rth/CVE-2023-33246)
+- [yizhimanpadewoniu/CVE-2023-33246-Copy](https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy)
 
 ### CVE-2023-33617 (2023-05-23)
 
@@ -2217,7 +2218,7 @@ The All-in-One WP Migration WordPress plugin before 7.63 uses the wrong content 
 An integer coercion error was found in the openvswitch kernel module. Given a sufficiently large number of actions, while copying and reserving memory for a new action of a new flow, the reserve_sfa_size() function does not return -EMSGSIZE as expected, potentially leading to an out-of-bounds write access. This flaw allows a local user to crash or potentially escalate their privileges on the system.
 </code>
 
-- [avboy1337/CVE-2022-2639-PipeVersion](https://github.com/avboy1337/CVE-2022-2639-PipeVersion)
+- [0x0000000000-03/CVE-2022-2639-PipeVersion](https://github.com/0x0000000000-03/CVE-2022-2639-PipeVersion)
 - [EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639](https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639)
 
 ### CVE-2022-2650 (2022-11-24)
@@ -2643,6 +2644,14 @@ In initializeFromParcelLocked of BaseBundle.java, there is a possible method arb
 
 - [michalbednarski/LeakValue](https://github.com/michalbednarski/LeakValue)
 
+### CVE-2022-20456 (2023-01-24)
+
+<code>
+In AutomaticZenRule of AutomaticZenRule.java, there is a possible failure to persist permissions settings due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-242703780
+</code>
+
+- [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20456](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20456)
+
 ### CVE-2022-20470 (2022-12-13)
 
 <code>
@@ -2667,6 +2676,31 @@ In toLanguageTag of LocaleListCache.cpp, there is a possible out of bounds read 
 
 - [Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473)
 - [Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473)
+
+### CVE-2022-20489 (2023-01-24)
+
+<code>
+In many functions of AutomaticZenRule.java, there is a possible failure to persist permissions settings due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-242703460
+</code>
+
+- [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20489_old](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20489_old)
+- [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20489](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20489)
+
+### CVE-2022-20490 (2023-01-24)
+
+<code>
+In multiple functions of AutomaticZenRule.java, there is a possible failure to persist permissions settings due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-242703505
+</code>
+
+- [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20490](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20490)
+
+### CVE-2022-20492 (2023-01-24)
+
+<code>
+In many functions of AutomaticZenRule.java, there is a possible failure to persist permissions settings due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-242704043
+</code>
+
+- [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20492](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20492)
 
 ### CVE-2022-20493 (2023-01-24)
 
@@ -3192,7 +3226,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [Vulnmachines/VMWare_CVE-2022-22954](https://github.com/Vulnmachines/VMWare_CVE-2022-22954)
 - [aniqfakhrul/CVE-2022-22954](https://github.com/aniqfakhrul/CVE-2022-22954)
 - [jax7sec/CVE-2022-22954](https://github.com/jax7sec/CVE-2022-22954)
-- [avboy1337/CVE-2022-22954-VMware-RCE](https://github.com/avboy1337/CVE-2022-22954-VMware-RCE)
+- [0x0000000000-03/CVE-2022-22954-VMware-RCE](https://github.com/0x0000000000-03/CVE-2022-22954-VMware-RCE)
 - [lucksec/VMware-CVE-2022-22954](https://github.com/lucksec/VMware-CVE-2022-22954)
 - [mumu2020629/-CVE-2022-22954-scanner](https://github.com/mumu2020629/-CVE-2022-22954-scanner)
 - [MSeymenD/CVE-2022-22954-Testi](https://github.com/MSeymenD/CVE-2022-22954-Testi)
@@ -3332,7 +3366,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 An authenticated, high privileged malicious actor with network access to the VMware Cloud Director tenant or provider may be able to exploit a remote code execution vulnerability to gain access to the server.
 </code>
 
-- [avboy1337/CVE-2022-22966](https://github.com/avboy1337/CVE-2022-22966)
+- [0x0000000000-03/CVE-2022-22966](https://github.com/0x0000000000-03/CVE-2022-22966)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -9380,7 +9414,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
 - [orangmuda/CVE-2021-20837](https://github.com/orangmuda/CVE-2021-20837)
 - [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
-- [avboy1337/CVE-2021-20837](https://github.com/avboy1337/CVE-2021-20837)
+- [0x0000000000-03/CVE-2021-20837](https://github.com/0x0000000000-03/CVE-2021-20837)
 
 ### CVE-2021-21014 (2021-02-11)
 
@@ -11438,7 +11472,7 @@ Squirrelly is a template engine implemented in JavaScript that works out of the 
 Gerapy is a distributed crawler management framework. Prior to version 0.9.9, an authenticated user could execute arbitrary commands. This issue is fixed in version 0.9.9. There are no known workarounds.
 </code>
 
-- [avboy1337/CVE-2021-32849](https://github.com/avboy1337/CVE-2021-32849)
+- [0x0000000000-03/CVE-2021-32849](https://github.com/0x0000000000-03/CVE-2021-32849)
 - [lowkey0808/cve-2021-32849](https://github.com/lowkey0808/cve-2021-32849)
 
 ### CVE-2021-33026 (2021-05-13)
@@ -16049,7 +16083,7 @@ Under certain conditions, vmdir that ships with VMware vCenter Server, as part o
 </code>
 
 - [commandermoon/CVE-2020-3952](https://github.com/commandermoon/CVE-2020-3952)
-- [avboy1337/CVE-2020-3952](https://github.com/avboy1337/CVE-2020-3952)
+- [0x0000000000-03/CVE-2020-3952](https://github.com/0x0000000000-03/CVE-2020-3952)
 - [guardicore/vmware_vcenter_cve_2020_3952](https://github.com/guardicore/vmware_vcenter_cve_2020_3952)
 - [gelim/CVE-2020-3952](https://github.com/gelim/CVE-2020-3952)
 - [Fa1c0n35/vmware_vcenter_cve_2020_3952](https://github.com/Fa1c0n35/vmware_vcenter_cve_2020_3952)
@@ -20507,7 +20541,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [ze0r/cve-2019-0808-poc](https://github.com/ze0r/cve-2019-0808-poc)
 - [rakesh143/CVE-2019-0808](https://github.com/rakesh143/CVE-2019-0808)
 - [exodusintel/CVE-2019-0808](https://github.com/exodusintel/CVE-2019-0808)
-- [avboy1337/CVE-2019-0808-32-64-exp](https://github.com/avboy1337/CVE-2019-0808-32-64-exp)
+- [0x0000000000-03/CVE-2019-0808-32-64-exp](https://github.com/0x0000000000-03/CVE-2019-0808-32-64-exp)
 
 ### CVE-2019-0841 (2019-04-09)
 
@@ -28118,7 +28152,6 @@ A remote code execution vulnerability in the Android system (bluetooth). Product
 - [ojasookert/CVE-2017-0781](https://github.com/ojasookert/CVE-2017-0781)
 - [marcinguy/android712-blueborne](https://github.com/marcinguy/android712-blueborne)
 - [mjancek/BlueborneDetection](https://github.com/mjancek/BlueborneDetection)
-- [CrackSoft900/Blue-Borne](https://github.com/CrackSoft900/Blue-Borne)
 - [CarlosDelRosario7/sploit-bX](https://github.com/CarlosDelRosario7/sploit-bX)
 
 ### CVE-2017-0785 (2017-09-14)
@@ -28893,6 +28926,7 @@ Malicious PATCH requests submitted to servers using Spring Data REST versions pr
 - [m3ssap0/spring-break_cve-2017-8046](https://github.com/m3ssap0/spring-break_cve-2017-8046)
 - [FixYourFace/SpringBreakPoC](https://github.com/FixYourFace/SpringBreakPoC)
 - [jkutner/spring-break-cve-2017-8046](https://github.com/jkutner/spring-break-cve-2017-8046)
+- [bkhablenko/CVE-2017-8046](https://github.com/bkhablenko/CVE-2017-8046)
 - [cved-sources/cve-2017-8046](https://github.com/cved-sources/cve-2017-8046)
 - [jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest)
 - [guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046)
@@ -29176,14 +29210,6 @@ An Uncontrolled Resource Consumption issue was discovered in Schneider Electric 
 
 - [USSCltd/aaLogger](https://github.com/USSCltd/aaLogger)
 
-### CVE-2017-9769 (2017-08-02)
-
-<code>
-A specially crafted IOCTL can be issued to the rzpnk.sys driver in Razer Synapse 2.20.15.1104 that is forwarded to ZwOpenProcess allowing a handle to be opened to an arbitrary process.
-</code>
-
-- [kkent030315/CVE-2017-9769](https://github.com/kkent030315/CVE-2017-9769)
-
 ### CVE-2017-9779 (2017-09-07)
 
 <code>
@@ -29230,7 +29256,6 @@ The REST Plugin in Apache Struts 2.1.1 through 2.3.x before 2.3.34 and 2.5.x bef
 - [UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit](https://github.com/UbuntuStrike/CVE-2017-9805-Apache-Struts-Fuzz-N-Sploit)
 - [AvishkaSenadheera/CVE-2017-9805---Documentation---IT19143378](https://github.com/AvishkaSenadheera/CVE-2017-9805---Documentation---IT19143378)
 - [wifido/CVE-2017-9805-Exploit](https://github.com/wifido/CVE-2017-9805-Exploit)
-- [rvermeulen/apache-struts-cve-2017-9805](https://github.com/rvermeulen/apache-struts-cve-2017-9805)
 - [jongmartinez/-CVE-2017-9805-](https://github.com/jongmartinez/-CVE-2017-9805-)
 - [z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805)
 - [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
@@ -29474,8 +29499,6 @@ Microsoft Office 2007 Service Pack 3, Microsoft Office 2010 Service Pack 2, Micr
 - [chanbin/CVE-2017-11882](https://github.com/chanbin/CVE-2017-11882)
 - [littlebin404/CVE-2017-11882](https://github.com/littlebin404/CVE-2017-11882)
 - [ekgg/Overflow-Demo-CVE-2017-11882](https://github.com/ekgg/Overflow-Demo-CVE-2017-11882)
-- [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
-- [5l1v3r1/rtfkit](https://github.com/5l1v3r1/rtfkit)
 - [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
 - [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 - [lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp)
