@@ -267,6 +267,7 @@ The MStore API plugin for WordPress is vulnerable to authentication bypass in ve
 </code>
 
 - [RandomRobbieBF/CVE-2023-2732](https://github.com/RandomRobbieBF/CVE-2023-2732)
+- [domainhigh/CVE-2023-2732-Mass](https://github.com/domainhigh/CVE-2023-2732-Mass)
 
 ### CVE-2023-2822 (2023-05-20)
 
@@ -11163,7 +11164,12 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
 
-### CVE-2021-31233
+### CVE-2021-31233 (2023-05-30)
+
+<code>
+SQL Injection vulnerability found in Fighting Cock Information System v.1.0 allows a remote attacker to obtain sensitive information via the edit_breed.php parameter.
+</code>
+
 - [gabesolomon/CVE-2021-31233](https://github.com/gabesolomon/CVE-2021-31233)
 
 ### CVE-2021-31290
@@ -18051,6 +18057,14 @@ Apache Solr versions 6.6.0 to 6.6.6, 7.0.0 to 7.7.3 and 8.0.0 to 8.6.2 prevents 
 
 - [s-index/CVE-2020-13957](https://github.com/s-index/CVE-2020-13957)
 
+### CVE-2020-13995 (2020-09-25)
+
+<code>
+U.S. Air Force Sensor Data Management System extract75 has a buffer overflow that leads to code execution. An overflow in a global variable (sBuffer) leads to a Write-What-Where outcome. Writing beyond sBuffer will clobber most global variables until reaching a pointer such as DES_info or image_info. By controlling that pointer, one achieves an arbitrary write when its fields are assigned. The data written is from a potentially untrusted NITF file in the form of an integer. The attacker can gain control of the instruction pointer.
+</code>
+
+- [dbrumley/extract75-cve-2020-13995](https://github.com/dbrumley/extract75-cve-2020-13995)
+
 ### CVE-2020-13996 (2020-06-09)
 
 <code>
@@ -20020,6 +20034,7 @@ The contact-form-7 (aka Contact Form 7) plugin before 5.3.2 for WordPress allows
 
 - [dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489)
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
+- [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
 
 ### CVE-2020-35498 (2021-02-11)
 
@@ -24212,6 +24227,7 @@ An issue was discovered in Citrix Application Delivery Controller (ADC) and Gate
 - [mpgn/CVE-2019-19781](https://github.com/mpgn/CVE-2019-19781)
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
 - [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
+- [unknowndevice64/Exploits_CVE-2019-19781](https://github.com/unknowndevice64/Exploits_CVE-2019-19781)
 - [x1sec/citrixmash_scanner](https://github.com/x1sec/citrixmash_scanner)
 - [jamesjguthrie/Shitrix-CVE-2019-19781](https://github.com/jamesjguthrie/Shitrix-CVE-2019-19781)
 - [x1sec/CVE-2019-19781](https://github.com/x1sec/CVE-2019-19781)
@@ -28032,6 +28048,7 @@ Microsoft .NET Framework 2.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2 and 4.7 allow
 Microsoft Office 2010 SP2, Office 2013 SP1, and Office 2016 allow a remote code execution vulnerability when the software fails to properly handle objects in memory, aka &quot;Office Remote Code Execution Vulnerability&quot;. This CVE ID is unique from CVE-2017-0262 and CVE-2017-0281.
 </code>
 
+- [kcufId/eps-CVE-2017-0261](https://github.com/kcufId/eps-CVE-2017-0261)
 - [erfze/CVE-2017-0261](https://github.com/erfze/CVE-2017-0261)
 
 ### CVE-2017-0263 (2017-05-12)
@@ -28876,7 +28893,6 @@ Malicious PATCH requests submitted to servers using Spring Data REST versions pr
 - [m3ssap0/spring-break_cve-2017-8046](https://github.com/m3ssap0/spring-break_cve-2017-8046)
 - [FixYourFace/SpringBreakPoC](https://github.com/FixYourFace/SpringBreakPoC)
 - [jkutner/spring-break-cve-2017-8046](https://github.com/jkutner/spring-break-cve-2017-8046)
-- [bkhablenko/CVE-2017-8046](https://github.com/bkhablenko/CVE-2017-8046)
 - [cved-sources/cve-2017-8046](https://github.com/cved-sources/cve-2017-8046)
 - [jsotiro/VulnerableSpringDataRest](https://github.com/jsotiro/VulnerableSpringDataRest)
 - [guanjivip/CVE-2017-8046](https://github.com/guanjivip/CVE-2017-8046)
@@ -30149,6 +30165,14 @@ Primetek Primefaces 5.x is vulnerable to a weak encryption flaw resulting in rem
 - [mogwailabs/CVE-2017-1000486](https://github.com/mogwailabs/CVE-2017-1000486)
 - [cved-sources/cve-2017-1000486](https://github.com/cved-sources/cve-2017-1000486)
 - [Pastea/CVE-2017-1000486](https://github.com/Pastea/CVE-2017-1000486)
+
+### CVE-2017-1000499 (2018-01-03)
+
+<code>
+phpMyAdmin versions 4.7.x (prior to 4.7.6.1/4.7.7) are vulnerable to a CSRF weakness. By deceiving a user to click on a crafted URL, it is possible to perform harmful database operations such as deleting records, dropping/truncating tables etc.
+</code>
+
+- [Villaquiranm/5MMISSI-CVE-2017-1000499](https://github.com/Villaquiranm/5MMISSI-CVE-2017-1000499)
 
 ### CVE-2017-1002101 (2018-03-13)
 
