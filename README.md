@@ -1496,6 +1496,7 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 
 - [I5N0rth/CVE-2023-33246](https://github.com/I5N0rth/CVE-2023-33246)
 - [yizhimanpadewoniu/CVE-2023-33246-Copy](https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy)
+- [Le1a/CVE-2023-33246](https://github.com/Le1a/CVE-2023-33246)
 
 ### CVE-2023-33617 (2023-05-23)
 
@@ -1517,8 +1518,15 @@ Privilege Escalation in the &quot;GetUserCurrentPwd&quot; function in Microworld
 ### CVE-2023-33731
 - [sahiloj/CVE-2023-33731](https://github.com/sahiloj/CVE-2023-33731)
 
+### CVE-2023-33732 (2023-05-31)
+
+<code>
+Cross Site Scripting (XSS) in the New Policy form in Microworld Technologies eScan management console 14.0.1400.2281 allows a remote attacker to inject arbitrary code via the vulnerable parameters type, txtPolicyType, and Deletefileval.
+</code>
+
+- [sahiloj/CVE-2023-33732](https://github.com/sahiloj/CVE-2023-33732)
+
 ### CVE-2023-33733
-- [sahiloj/CVE-2023-33733](https://github.com/sahiloj/CVE-2023-33733)
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
 
 ### CVE-2023-33829 (2023-05-24)
@@ -2250,7 +2258,7 @@ The All-in-One WP Migration WordPress plugin before 7.63 uses the wrong content 
 An integer coercion error was found in the openvswitch kernel module. Given a sufficiently large number of actions, while copying and reserving memory for a new action of a new flow, the reserve_sfa_size() function does not return -EMSGSIZE as expected, potentially leading to an out-of-bounds write access. This flaw allows a local user to crash or potentially escalate their privileges on the system.
 </code>
 
-- [0x0000000000-03/CVE-2022-2639-PipeVersion](https://github.com/0x0000000000-03/CVE-2022-2639-PipeVersion)
+- [bb33bb/CVE-2022-2639-PipeVersion](https://github.com/bb33bb/CVE-2022-2639-PipeVersion)
 - [EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639](https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639)
 
 ### CVE-2022-2650 (2022-11-24)
@@ -3242,7 +3250,6 @@ In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are v
 - [kmahyyg/CVE-2022-22947](https://github.com/kmahyyg/CVE-2022-22947)
 - [LY613313/CVE-2022-22947](https://github.com/LY613313/CVE-2022-22947)
 - [SiJiDo/CVE-2022-22947](https://github.com/SiJiDo/CVE-2022-22947)
-- [savior-only/CVE-2022-22947](https://github.com/savior-only/CVE-2022-22947)
 - [qq87234770/CVE-2022-22947](https://github.com/qq87234770/CVE-2022-22947)
 - [Zh0um1/CVE-2022-22947](https://github.com/Zh0um1/CVE-2022-22947)
 - [wallbreak1991/cve-2022-22947](https://github.com/wallbreak1991/cve-2022-22947)
@@ -3258,7 +3265,7 @@ VMware Workspace ONE Access and Identity Manager contain a remote code execution
 - [Vulnmachines/VMWare_CVE-2022-22954](https://github.com/Vulnmachines/VMWare_CVE-2022-22954)
 - [aniqfakhrul/CVE-2022-22954](https://github.com/aniqfakhrul/CVE-2022-22954)
 - [jax7sec/CVE-2022-22954](https://github.com/jax7sec/CVE-2022-22954)
-- [0x0000000000-03/CVE-2022-22954-VMware-RCE](https://github.com/0x0000000000-03/CVE-2022-22954-VMware-RCE)
+- [bb33bb/CVE-2022-22954-VMware-RCE](https://github.com/bb33bb/CVE-2022-22954-VMware-RCE)
 - [lucksec/VMware-CVE-2022-22954](https://github.com/lucksec/VMware-CVE-2022-22954)
 - [mumu2020629/-CVE-2022-22954-scanner](https://github.com/mumu2020629/-CVE-2022-22954-scanner)
 - [MSeymenD/CVE-2022-22954-Testi](https://github.com/MSeymenD/CVE-2022-22954-Testi)
@@ -3398,7 +3405,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 An authenticated, high privileged malicious actor with network access to the VMware Cloud Director tenant or provider may be able to exploit a remote code execution vulnerability to gain access to the server.
 </code>
 
-- [0x0000000000-03/CVE-2022-22966](https://github.com/0x0000000000-03/CVE-2022-22966)
+- [bb33bb/CVE-2022-22966](https://github.com/bb33bb/CVE-2022-22966)
 
 ### CVE-2022-22968 (2022-04-14)
 
@@ -4968,6 +4975,8 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 - [Chocapikk/CVE-2022-29455](https://github.com/Chocapikk/CVE-2022-29455)
 - [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
 - [VarelSecurity/CVE-2022-29455](https://github.com/VarelSecurity/CVE-2022-29455)
+- [tucommenceapousser/CVE-2022-29455](https://github.com/tucommenceapousser/CVE-2022-29455)
+- [tucommenceapousser/CVE-2022-29455-mass](https://github.com/tucommenceapousser/CVE-2022-29455-mass)
 
 ### CVE-2022-29464 (2022-04-18)
 
@@ -9438,7 +9447,7 @@ Movable Type 7 r.5002 and earlier (Movable Type 7 Series), Movable Type 6.8.2 an
 - [ghost-nemesis/cve-2021-20837-poc](https://github.com/ghost-nemesis/cve-2021-20837-poc)
 - [orangmuda/CVE-2021-20837](https://github.com/orangmuda/CVE-2021-20837)
 - [Cosemz/CVE-2021-20837](https://github.com/Cosemz/CVE-2021-20837)
-- [0x0000000000-03/CVE-2021-20837](https://github.com/0x0000000000-03/CVE-2021-20837)
+- [bb33bb/CVE-2021-20837](https://github.com/bb33bb/CVE-2021-20837)
 
 ### CVE-2021-21014 (2021-02-11)
 
@@ -11496,7 +11505,7 @@ Squirrelly is a template engine implemented in JavaScript that works out of the 
 Gerapy is a distributed crawler management framework. Prior to version 0.9.9, an authenticated user could execute arbitrary commands. This issue is fixed in version 0.9.9. There are no known workarounds.
 </code>
 
-- [0x0000000000-03/CVE-2021-32849](https://github.com/0x0000000000-03/CVE-2021-32849)
+- [bb33bb/CVE-2021-32849](https://github.com/bb33bb/CVE-2021-32849)
 - [lowkey0808/cve-2021-32849](https://github.com/lowkey0808/cve-2021-32849)
 
 ### CVE-2021-33026 (2021-05-13)
@@ -16115,7 +16124,7 @@ Under certain conditions, vmdir that ships with VMware vCenter Server, as part o
 </code>
 
 - [commandermoon/CVE-2020-3952](https://github.com/commandermoon/CVE-2020-3952)
-- [0x0000000000-03/CVE-2020-3952](https://github.com/0x0000000000-03/CVE-2020-3952)
+- [bb33bb/CVE-2020-3952](https://github.com/bb33bb/CVE-2020-3952)
 - [guardicore/vmware_vcenter_cve_2020_3952](https://github.com/guardicore/vmware_vcenter_cve_2020_3952)
 - [gelim/CVE-2020-3952](https://github.com/gelim/CVE-2020-3952)
 - [Fa1c0n35/vmware_vcenter_cve_2020_3952](https://github.com/Fa1c0n35/vmware_vcenter_cve_2020_3952)
@@ -20573,7 +20582,7 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 - [ze0r/cve-2019-0808-poc](https://github.com/ze0r/cve-2019-0808-poc)
 - [rakesh143/CVE-2019-0808](https://github.com/rakesh143/CVE-2019-0808)
 - [exodusintel/CVE-2019-0808](https://github.com/exodusintel/CVE-2019-0808)
-- [0x0000000000-03/CVE-2019-0808-32-64-exp](https://github.com/0x0000000000-03/CVE-2019-0808-32-64-exp)
+- [bb33bb/CVE-2019-0808-32-64-exp](https://github.com/bb33bb/CVE-2019-0808-32-64-exp)
 
 ### CVE-2019-0841 (2019-04-09)
 
@@ -31135,7 +31144,6 @@ The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 
 - [FSecureLABS/CVE-2016-7255](https://github.com/FSecureLABS/CVE-2016-7255)
 - [homjxi0e/CVE-2016-7255](https://github.com/homjxi0e/CVE-2016-7255)
 - [yuvatia/page-table-exploitation](https://github.com/yuvatia/page-table-exploitation)
-- [bbolmin/cve-2016-7255_x86_x64](https://github.com/bbolmin/cve-2016-7255_x86_x64)
 
 ### CVE-2016-7434 (2017-01-13)
 
@@ -33235,6 +33243,14 @@ Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x befor
 
 - [ikkisoft/ParrotNG](https://github.com/ikkisoft/ParrotNG)
 - [u-maxx/magento-swf-patched-CVE-2011-2461](https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461)
+
+### CVE-2011-2894 (2011-10-04)
+
+<code>
+Spring Framework 3.0.0 through 3.0.5, Spring Security 3.0.0 through 3.0.5 and 2.0.0 through 2.0.6, and possibly other versions deserialize objects from untrusted sources, which allows remote attackers to bypass intended security restrictions and execute untrusted code by (1) serializing a java.lang.Proxy instance and using InvocationHandler, or (2) accessing internal AOP interfaces, as demonstrated using deserialization of a DefaultListableBeanFactory instance to execute arbitrary commands via the java.lang.Runtime class.
+</code>
+
+- [pwntester/SpringBreaker](https://github.com/pwntester/SpringBreaker)
 
 ### CVE-2011-3026 (2012-02-16)
 
