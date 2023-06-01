@@ -1496,7 +1496,7 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 
 - [I5N0rth/CVE-2023-33246](https://github.com/I5N0rth/CVE-2023-33246)
 - [yizhimanpadewoniu/CVE-2023-33246-Copy](https://github.com/yizhimanpadewoniu/CVE-2023-33246-Copy)
-- [Le1a/CVE-2023-33246](https://github.com/Le1a/CVE-2023-33246)
+- [SuperZero/CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246)
 
 ### CVE-2023-33617 (2023-05-23)
 
@@ -1719,6 +1719,7 @@ The BN_mod_sqrt() function, which computes a modular square root, contains a bug
 - [yywing/cve-2022-0778](https://github.com/yywing/cve-2022-0778)
 - [jkakavas/CVE-2022-0778-POC](https://github.com/jkakavas/CVE-2022-0778-POC)
 - [0xUhaw/CVE-2022-0778](https://github.com/0xUhaw/CVE-2022-0778)
+- [Mrlucas5550100/PoC-CVE-2022-0778-](https://github.com/Mrlucas5550100/PoC-CVE-2022-0778-)
 
 ### CVE-2022-0811 (2022-03-16)
 
@@ -3398,6 +3399,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [ajith737/Spring4Shell-CVE-2022-22965-POC](https://github.com/ajith737/Spring4Shell-CVE-2022-22965-POC)
 - [pwnwriter/CVE-2022-22965](https://github.com/pwnwriter/CVE-2022-22965)
 - [gokul-ramesh/Spring4Shell-PoC-exploit](https://github.com/gokul-ramesh/Spring4Shell-PoC-exploit)
+- [bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-](https://github.com/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-)
 
 ### CVE-2022-22966 (2022-04-14)
 
@@ -9999,6 +10001,7 @@ On BIG-IP versions 16.0.x before 16.0.1.1, 15.1.x before 15.1.2.1, 14.1.x before
 - [Udyz/CVE-2021-22986-SSRF2RCE](https://github.com/Udyz/CVE-2021-22986-SSRF2RCE)
 - [safesword/F5_RCE](https://github.com/safesword/F5_RCE)
 - [Al1ex/CVE-2021-22986](https://github.com/Al1ex/CVE-2021-22986)
+- [kiri-48/CVE-2021-22986](https://github.com/kiri-48/CVE-2021-22986)
 - [ZephrFish/CVE-2021-22986_Check](https://github.com/ZephrFish/CVE-2021-22986_Check)
 - [yaunsky/CVE-202122986-EXP](https://github.com/yaunsky/CVE-202122986-EXP)
 - [Tas9er/CVE-2021-22986](https://github.com/Tas9er/CVE-2021-22986)
@@ -11575,6 +11578,14 @@ In kernel/bpf/verifier.c in the Linux kernel before 5.12.13, a branch can be mis
 </code>
 
 - [benschlueter/CVE-2021-33624](https://github.com/benschlueter/CVE-2021-33624)
+
+### CVE-2021-33690 (2021-09-15)
+
+<code>
+Server-Side Request Forgery (SSRF) vulnerability has been detected in the SAP NetWeaver Development Infrastructure Component Build Service versions - 7.11, 7.20, 7.30, 7.31, 7.40, 7.50The SAP NetWeaver Development Infrastructure Component Build Service allows a threat actor who has access to the server to perform proxy attacks on server by sending crafted queries. Due to this, the threat actor could completely compromise sensitive data residing on the Server and impact its availability.Note: The impact of this vulnerability depends on whether SAP NetWeaver Development Infrastructure (NWDI) runs on the intranet or internet. The CVSS score reflects the impact considering the worst-case scenario that it runs on the internet.
+</code>
+
+- [redrays-io/CVE-2021-33690](https://github.com/redrays-io/CVE-2021-33690)
 
 ### CVE-2021-33739 (2021-06-08)
 
@@ -14765,7 +14776,6 @@ In reassemble_and_dispatch of packet_fragmenter.cc, there is possible out of bou
 - [leommxj/cve-2020-0022](https://github.com/leommxj/cve-2020-0022)
 - [k3vinlusec/Bluefrag_CVE-2020-0022](https://github.com/k3vinlusec/Bluefrag_CVE-2020-0022)
 - [Polo35/CVE-2020-0022](https://github.com/Polo35/CVE-2020-0022)
-- [5k1l/cve-2020-0022](https://github.com/5k1l/cve-2020-0022)
 - [lsw29475/CVE-2020-0022](https://github.com/lsw29475/CVE-2020-0022)
 - [devdanqtuan/poc-for-cve-2020-0022](https://github.com/devdanqtuan/poc-for-cve-2020-0022)
 
@@ -31144,6 +31154,7 @@ The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 
 - [FSecureLABS/CVE-2016-7255](https://github.com/FSecureLABS/CVE-2016-7255)
 - [homjxi0e/CVE-2016-7255](https://github.com/homjxi0e/CVE-2016-7255)
 - [yuvatia/page-table-exploitation](https://github.com/yuvatia/page-table-exploitation)
+- [bbolmin/cve-2016-7255_x86_x64](https://github.com/bbolmin/cve-2016-7255_x86_x64)
 
 ### CVE-2016-7434 (2017-01-13)
 
