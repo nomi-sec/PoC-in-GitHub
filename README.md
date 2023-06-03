@@ -1548,6 +1548,9 @@ Cross Site Scripting (XSS) in the New Policy form in Microworld Technologies eSc
 ### CVE-2023-33733
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
 
+### CVE-2023-33782
+- [s0tr/CVE-2023-33782](https://github.com/s0tr/CVE-2023-33782)
+
 ### CVE-2023-33829 (2023-05-24)
 
 <code>
@@ -31185,7 +31188,6 @@ The read_mru_list function in NTP before 4.2.8p9 allows remote attackers to caus
 
 - [opsxcq/exploit-CVE-2016-7434](https://github.com/opsxcq/exploit-CVE-2016-7434)
 - [shekkbuilder/CVE-2016-7434](https://github.com/shekkbuilder/CVE-2016-7434)
-- [cved-sources/cve-2016-7434](https://github.com/cved-sources/cve-2016-7434)
 
 ### CVE-2016-7608 (2017-02-20)
 
@@ -31370,14 +31372,6 @@ The casrvc program in CA Common Services, as used in CA Client Automation 12.8, 
 </code>
 
 - [blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited](https://github.com/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited)
-
-### CVE-2016-9838 (2016-12-16)
-
-<code>
-An issue was discovered in components/com_users/models/registration.php in Joomla! before 3.6.5. Incorrect filtering of registration form data stored to the session on a validation error enables a user to gain access to a registered user's account and reset the user's group mappings, username, and password, as demonstrated by submitting a form that targets the `registration.register` task.
-</code>
-
-- [cved-sources/cve-2016-9838](https://github.com/cved-sources/cve-2016-9838)
 
 ### CVE-2016-9920 (2016-12-08)
 
