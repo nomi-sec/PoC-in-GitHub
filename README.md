@@ -759,6 +759,7 @@ OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.
 - [Christbowel/CVE-2023-25136](https://github.com/Christbowel/CVE-2023-25136)
 - [adhikara13/CVE-2023-25136](https://github.com/adhikara13/CVE-2023-25136)
 - [nhakobyan685/CVE-2023-25136](https://github.com/nhakobyan685/CVE-2023-25136)
+- [axylisdead/CVE-2023-25136_POC](https://github.com/axylisdead/CVE-2023-25136_POC)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -1101,6 +1102,7 @@ Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.6
 </code>
 
 - [BenHays142/CVE-2023-28771-PoC](https://github.com/BenHays142/CVE-2023-28771-PoC)
+- [WhiteOwl-Pub/PoC-CVE-2023-28771](https://github.com/WhiteOwl-Pub/PoC-CVE-2023-28771)
 
 ### CVE-2023-28772 (2023-03-23)
 
@@ -1389,6 +1391,9 @@ IC Realtime ICIP-P2012T 2.420 is vulnerable to Incorrect Access Control via unau
 
 - [Yozarseef95/CVE-2023-31595](https://github.com/Yozarseef95/CVE-2023-31595)
 
+### CVE-2023-31606
+- [e23e/CVE-2023-31606](https://github.com/e23e/CVE-2023-31606)
+
 ### CVE-2023-31634
 - [XC9409/CVE-2023-31634](https://github.com/XC9409/CVE-2023-31634)
 
@@ -1547,6 +1552,9 @@ Cross Site Scripting (XSS) in the New Policy form in Microworld Technologies eSc
 
 ### CVE-2023-33733
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
+
+### CVE-2023-33781
+- [s0tr/CVE-2023-33781](https://github.com/s0tr/CVE-2023-33781)
 
 ### CVE-2023-33782
 - [s0tr/CVE-2023-33782](https://github.com/s0tr/CVE-2023-33782)
@@ -31188,6 +31196,7 @@ The read_mru_list function in NTP before 4.2.8p9 allows remote attackers to caus
 
 - [opsxcq/exploit-CVE-2016-7434](https://github.com/opsxcq/exploit-CVE-2016-7434)
 - [shekkbuilder/CVE-2016-7434](https://github.com/shekkbuilder/CVE-2016-7434)
+- [cved-sources/cve-2016-7434](https://github.com/cved-sources/cve-2016-7434)
 
 ### CVE-2016-7608 (2017-02-20)
 
@@ -31372,6 +31381,14 @@ The casrvc program in CA Common Services, as used in CA Client Automation 12.8, 
 </code>
 
 - [blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited](https://github.com/blogresponder/CA-Common-Services-privilege-escalation-cve-2016-9795-revisited)
+
+### CVE-2016-9838 (2016-12-16)
+
+<code>
+An issue was discovered in components/com_users/models/registration.php in Joomla! before 3.6.5. Incorrect filtering of registration form data stored to the session on a validation error enables a user to gain access to a registered user's account and reset the user's group mappings, username, and password, as demonstrated by submitting a form that targets the `registration.register` task.
+</code>
+
+- [cved-sources/cve-2016-9838](https://github.com/cved-sources/cve-2016-9838)
 
 ### CVE-2016-9920 (2016-12-08)
 
