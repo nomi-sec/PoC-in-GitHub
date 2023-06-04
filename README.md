@@ -13153,6 +13153,7 @@ A flaw was found in a change made to path normalization in Apache HTTP Server 2.
 - [retrymp3/apache2.4.49VulnerableLabSetup](https://github.com/retrymp3/apache2.4.49VulnerableLabSetup)
 - [MatanelGordon/docker-cve-2021-41773](https://github.com/MatanelGordon/docker-cve-2021-41773)
 - [K3ysTr0K3R/CVE-2021-41773-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-41773-EXPLOIT)
+- [0xGabe/Apache-CVEs](https://github.com/0xGabe/Apache-CVEs)
 
 ### CVE-2021-41784 (2022-08-29)
 
