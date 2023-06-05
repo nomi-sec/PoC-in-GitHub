@@ -11386,6 +11386,7 @@ Windows NTFS Elevation of Privilege Vulnerability
 - [hzshang/CVE-2021-31956](https://github.com/hzshang/CVE-2021-31956)
 - [aazhuliang/CVE-2021-31956-EXP](https://github.com/aazhuliang/CVE-2021-31956-EXP)
 - [Y3A/CVE-2021-31956](https://github.com/Y3A/CVE-2021-31956)
+- [hoangprod/CVE-2021-31956-POC](https://github.com/hoangprod/CVE-2021-31956-POC)
 
 ### CVE-2021-32099 (2021-05-06)
 
@@ -12001,6 +12002,7 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
+- [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
 - [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
@@ -12302,14 +12304,6 @@ Persistent cross-site scripting (XSS) vulnerabilities in ClinicCases 7.3.3 allow
 </code>
 
 - [sudonoodle/CVE-2021-38707](https://github.com/sudonoodle/CVE-2021-38707)
-
-### CVE-2021-38710 (2021-08-18)
-
-<code>
-Static (Persistent) XSS Vulnerability exists in version 4.3.0 of Yclas when using the install/view/form.php script. An attacker can store XSS in the database through the vulnerable SITE_NAME parameter.
-</code>
-
-- [security-n/CVE-2021-38710](https://github.com/security-n/CVE-2021-38710)
 
 ### CVE-2021-38817
 - [HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection](https://github.com/HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection)
@@ -15790,7 +15784,6 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [likeww/MassZeroLogon](https://github.com/likeww/MassZeroLogon)
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
 - [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
-- [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
 
@@ -16241,14 +16234,6 @@ Waitress version 1.4.2 allows a DOS attack When waitress receives a header that 
 
 - [motikan2010/CVE-2020-5236](https://github.com/motikan2010/CVE-2020-5236)
 
-### CVE-2020-5245 (2020-02-24)
-
-<code>
-Dropwizard-Validation before 1.3.19, and 2.0.2 may allow arbitrary code execution on the host system, with the privileges of the Dropwizard service account, by injecting arbitrary Java Expression Language expressions when using the self-validating feature. The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
-</code>
-
-- [LycsHub/CVE-2020-5245](https://github.com/LycsHub/CVE-2020-5245)
-
 ### CVE-2020-5248 (2020-05-12)
 
 <code>
@@ -16613,7 +16598,6 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
 - [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
-- [gatariee/CVE-2020-7247](https://github.com/gatariee/CVE-2020-7247)
 
 ### CVE-2020-7283 (2020-07-03)
 
@@ -18444,7 +18428,6 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [qianniaoge/CVE-2020-14882_Exploit_Gui](https://github.com/qianniaoge/CVE-2020-14882_Exploit_Gui)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 - [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
-- [Serendipity-Lucky/CVE-2020-14882_ALL](https://github.com/Serendipity-Lucky/CVE-2020-14882_ALL)
 - [nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882)
 - [PoSH-Father/CVE-2020-14882](https://github.com/PoSH-Father/CVE-2020-14882)
 
@@ -19651,14 +19634,6 @@ SKYWORTH GN542VF Boa version 0.94.13 does not set the Secure flag for the sessio
 
 - [swzhouu/CVE-2020-26732](https://github.com/swzhouu/CVE-2020-26732)
 
-### CVE-2020-26733 (2021-01-14)
-
-<code>
-Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Version 2.0 and Software Version 2.0.0.16 allows authenticated attacker to inject their own script into the page via DDNS Configuration Section.
-</code>
-
-- [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
-
 ### CVE-2020-26878 (2020-10-26)
 
 <code>
@@ -20127,7 +20102,6 @@ A remote code execution vulnerability in the installUpdateThemePluginAction func
 Tenda N300 F3 12.01.01.48 devices allow remote attackers to obtain sensitive information (possibly including an http_passwd line) via a direct request for cgi-bin/DownloadCfg/RouterCfm.cfg, a related issue to CVE-2017-14942. NOTE: the vulnerability report may suggest that either a ? character must be placed after the RouterCfm.cfg filename, or that the HTTP request headers must be unusual, but it is not known why these are relevant to the device's HTTP response behavior.
 </code>
 
-- [dumitory-dev/CVE-2020-35391-POC](https://github.com/dumitory-dev/CVE-2020-35391-POC)
 - [H454NSec/CVE-2020-35391](https://github.com/H454NSec/CVE-2020-35391)
 
 ### CVE-2020-35476 (2020-12-16)
