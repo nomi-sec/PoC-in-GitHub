@@ -9405,6 +9405,14 @@ A use-after-free flaw was found in cgroup1_parse_param in kernel/cgroup/cgroup-v
 - [Markakd/CVE-2021-4154](https://github.com/Markakd/CVE-2021-4154)
 - [veritas501/CVE-2021-4154](https://github.com/veritas501/CVE-2021-4154)
 
+### CVE-2021-4191 (2022-03-28)
+
+<code>
+An issue has been discovered in GitLab CE/EE affecting versions 13.0 to 14.6.5, 14.7 to 14.7.4, and 14.8 to 14.8.2. Private GitLab instances with restricted sign-ups may be vulnerable to user enumeration to unauthenticated users through the GraphQL API.
+</code>
+
+- [Adelittle/CVE-2021-4191_Exploits](https://github.com/Adelittle/CVE-2021-4191_Exploits)
+
 ### CVE-2021-4204 (2022-08-24)
 
 <code>
@@ -12669,6 +12677,7 @@ Microsoft MSHTML Remote Code Execution Vulnerability
 - [MRacumen/CVE-2021-40444](https://github.com/MRacumen/CVE-2021-40444)
 - [RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444)
 - [nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-](https://github.com/nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-)
+- [hqdat809/CVE-2021-40444](https://github.com/hqdat809/CVE-2021-40444)
 
 ### CVE-2021-40449 (2021-10-12)
 
@@ -15784,6 +15793,7 @@ An elevation of privilege vulnerability exists when an attacker establishes a vu
 - [likeww/MassZeroLogon](https://github.com/likeww/MassZeroLogon)
 - [dr4g0n23/CVE-2020-1472](https://github.com/dr4g0n23/CVE-2020-1472)
 - [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
+- [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
 
@@ -16234,6 +16244,14 @@ Waitress version 1.4.2 allows a DOS attack When waitress receives a header that 
 
 - [motikan2010/CVE-2020-5236](https://github.com/motikan2010/CVE-2020-5236)
 
+### CVE-2020-5245 (2020-02-24)
+
+<code>
+Dropwizard-Validation before 1.3.19, and 2.0.2 may allow arbitrary code execution on the host system, with the privileges of the Dropwizard service account, by injecting arbitrary Java Expression Language expressions when using the self-validating feature. The issue has been fixed in dropwizard-validation 1.3.19 and 2.0.2.
+</code>
+
+- [LycsHub/CVE-2020-5245](https://github.com/LycsHub/CVE-2020-5245)
+
 ### CVE-2020-5248 (2020-05-12)
 
 <code>
@@ -16598,6 +16616,7 @@ smtp_mailaddr in smtp_session.c in OpenSMTPD 6.6, as used in OpenBSD 6.6 and oth
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
 - [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
+- [gatariee/CVE-2020-7247](https://github.com/gatariee/CVE-2020-7247)
 
 ### CVE-2020-7283 (2020-07-03)
 
@@ -18428,6 +18447,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [qianniaoge/CVE-2020-14882_Exploit_Gui](https://github.com/qianniaoge/CVE-2020-14882_Exploit_Gui)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 - [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
+- [Serendipity-Lucky/CVE-2020-14882_ALL](https://github.com/Serendipity-Lucky/CVE-2020-14882_ALL)
 - [nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882)
 - [PoSH-Father/CVE-2020-14882](https://github.com/PoSH-Father/CVE-2020-14882)
 
@@ -19634,6 +19654,14 @@ SKYWORTH GN542VF Boa version 0.94.13 does not set the Secure flag for the sessio
 
 - [swzhouu/CVE-2020-26732](https://github.com/swzhouu/CVE-2020-26732)
 
+### CVE-2020-26733 (2021-01-14)
+
+<code>
+Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Version 2.0 and Software Version 2.0.0.16 allows authenticated attacker to inject their own script into the page via DDNS Configuration Section.
+</code>
+
+- [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
+
 ### CVE-2020-26878 (2020-10-26)
 
 <code>
@@ -20102,6 +20130,7 @@ A remote code execution vulnerability in the installUpdateThemePluginAction func
 Tenda N300 F3 12.01.01.48 devices allow remote attackers to obtain sensitive information (possibly including an http_passwd line) via a direct request for cgi-bin/DownloadCfg/RouterCfm.cfg, a related issue to CVE-2017-14942. NOTE: the vulnerability report may suggest that either a ? character must be placed after the RouterCfm.cfg filename, or that the HTTP request headers must be unusual, but it is not known why these are relevant to the device's HTTP response behavior.
 </code>
 
+- [dumitory-dev/CVE-2020-35391-POC](https://github.com/dumitory-dev/CVE-2020-35391-POC)
 - [H454NSec/CVE-2020-35391](https://github.com/H454NSec/CVE-2020-35391)
 
 ### CVE-2020-35476 (2020-12-16)
