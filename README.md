@@ -1522,13 +1522,28 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 ### CVE-2023-33381
 - [duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC](https://github.com/duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC)
 
-### CVE-2023-33408
+### CVE-2023-33408 (2023-06-05)
+
+<code>
+Minical 1.0.0 is vulnerable to Cross Site Scripting (XSS). The vulnerability exists due to insufficient input validation in the application's user input handling in the security_helper.php file.
+</code>
+
 - [Thirukrishnan/CVE-2023-33408](https://github.com/Thirukrishnan/CVE-2023-33408)
 
-### CVE-2023-33409
+### CVE-2023-33409 (2023-06-05)
+
+<code>
+Minical 1.0.0 is vulnerable to Cross Site Request Forgery (CSRF) via minical/public/application/controllers/settings/company.php.
+</code>
+
 - [Thirukrishnan/CVE-2023-33409](https://github.com/Thirukrishnan/CVE-2023-33409)
 
-### CVE-2023-33410
+### CVE-2023-33410 (2023-06-05)
+
+<code>
+Minical 1.0.0 and earlier contains a CSV injection vulnerability which allows an attacker to execute remote code. The vulnerability exists due to insufficient input validation on the Customer Name field in the Accounting module that is used to construct a CSV file.
+</code>
+
 - [Thirukrishnan/CVE-2023-33410](https://github.com/Thirukrishnan/CVE-2023-33410)
 
 ### CVE-2023-33477
@@ -9156,6 +9171,7 @@ It was found that polkit could be tricked into bypassing the credential checks f
 - [cpu0x00/CVE-2021-3560](https://github.com/cpu0x00/CVE-2021-3560)
 - [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
 - [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
+- [TomMalvoRiddle/CVE-2021-3560](https://github.com/TomMalvoRiddle/CVE-2021-3560)
 - [chenaotian/CVE-2021-3560](https://github.com/chenaotian/CVE-2021-3560)
 - [n3onhacks/CVE-2021-3560](https://github.com/n3onhacks/CVE-2021-3560)
 - [f4T1H21/CVE-2021-3560-Polkit-DBus](https://github.com/f4T1H21/CVE-2021-3560-Polkit-DBus)
@@ -10042,6 +10058,7 @@ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3
 - [optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911](https://github.com/optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911)
 - [jayngng/CVE-2021-22911](https://github.com/jayngng/CVE-2021-22911)
 - [ChrisPritchard/CVE-2021-22911-rust](https://github.com/ChrisPritchard/CVE-2021-22911-rust)
+- [MrDottt/CVE-2021-22911](https://github.com/MrDottt/CVE-2021-22911)
 
 ### CVE-2021-22924 (2021-08-05)
 
@@ -12038,6 +12055,7 @@ Windows Elevation of Privilege Vulnerability
 - [JoranSlingerland/CVE-2021-36934](https://github.com/JoranSlingerland/CVE-2021-36934)
 - [WiredPulse/Invoke-HiveNightmare](https://github.com/WiredPulse/Invoke-HiveNightmare)
 - [tda90/CVE-2021-36934](https://github.com/tda90/CVE-2021-36934)
+- [0x0D1n/CVE-2021-36934](https://github.com/0x0D1n/CVE-2021-36934)
 - [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
 - [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
 - [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
@@ -12069,6 +12087,14 @@ In the server in SerNet verinice before 1.22.2, insecure Java deserialization al
 </code>
 
 - [0xBrAinsTorM/CVE-2021-36981](https://github.com/0xBrAinsTorM/CVE-2021-36981)
+
+### CVE-2021-37152 (2021-08-10)
+
+<code>
+Multiple XSS issues exist in Sonatype Nexus Repository Manager 3 before 3.33.0. An authenticated attacker with the ability to add HTML files to a repository could redirect users to Nexus Repository Manager’s pages with code modifications.
+</code>
+
+- [SecurityAnalysts/CVE-2021-37152](https://github.com/SecurityAnalysts/CVE-2021-37152)
 
 ### CVE-2021-37580 (2021-11-16)
 
@@ -12308,38 +12334,6 @@ TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and 
 - [HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS)
 - [HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS)
 - [Justin-1993/CVE-2021-38699](https://github.com/Justin-1993/CVE-2021-38699)
-
-### CVE-2021-38704 (2021-09-07)
-
-<code>
-Multiple reflected cross-site scripting (XSS) vulnerabilities in ClinicCases 7.3.3 allow unauthenticated attackers to introduce arbitrary JavaScript by crafting a malicious URL. This can result in account takeover via session token theft.
-</code>
-
-- [sudonoodle/CVE-2021-38704](https://github.com/sudonoodle/CVE-2021-38704)
-
-### CVE-2021-38705 (2021-09-07)
-
-<code>
-ClinicCases 7.3.3 is affected by Cross-Site Request Forgery (CSRF). A successful attack would consist of an authenticated user following a malicious link, resulting in arbitrary actions being carried out with the privilege level of the targeted user. This can be exploited to create a secondary administrator account for the attacker.
-</code>
-
-- [sudonoodle/CVE-2021-38705](https://github.com/sudonoodle/CVE-2021-38705)
-
-### CVE-2021-38706 (2021-09-07)
-
-<code>
-messages_load.php in ClinicCases 7.3.3 suffers from a blind SQL injection vulnerability, which allows low-privileged attackers to execute arbitrary SQL commands through a vulnerable parameter.
-</code>
-
-- [sudonoodle/CVE-2021-38706](https://github.com/sudonoodle/CVE-2021-38706)
-
-### CVE-2021-38707 (2021-09-07)
-
-<code>
-Persistent cross-site scripting (XSS) vulnerabilities in ClinicCases 7.3.3 allow low-privileged attackers to introduce arbitrary JavaScript to account parameters. The XSS payloads will execute in the browser of any user who views the relevant content. This can result in account takeover via session token theft.
-</code>
-
-- [sudonoodle/CVE-2021-38707](https://github.com/sudonoodle/CVE-2021-38707)
 
 ### CVE-2021-38817
 - [HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection](https://github.com/HuskyHacks/CVE-2021-38817-Remote-OS-Command-Injection)
@@ -24961,6 +24955,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 - [seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628)
 - [BabyTeam1024/cve-2018-2628](https://github.com/BabyTeam1024/cve-2018-2628)
+- [cscadoge/weblogic-cve-2018-2628](https://github.com/cscadoge/weblogic-cve-2018-2628)
 
 ### CVE-2018-2636 (2018-01-17)
 
@@ -25617,6 +25612,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [Cypheer/exploit_CVE-2018-6574](https://github.com/Cypheer/exploit_CVE-2018-6574)
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
+- [markisback/CVE-2018-6574](https://github.com/markisback/CVE-2018-6574)
 - [hasharmujahid/CVE-2018-6574-go-get-RCE](https://github.com/hasharmujahid/CVE-2018-6574-go-get-RCE)
 - [jeyaseelans86/CVE-2018-6574](https://github.com/jeyaseelans86/CVE-2018-6574)
 - [jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574)
@@ -26480,6 +26476,7 @@ A vulnerability was found in libssh's server-side state machine before versions 
 - [lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933)
 - [JoSecMx/CVE-2018-10933_Scanner](https://github.com/JoSecMx/CVE-2018-10933_Scanner)
 - [cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933)
+- [EmmanuelCruzL/CVE-2018-10933](https://github.com/EmmanuelCruzL/CVE-2018-10933)
 - [SilasSpringer/CVE-2018-10933](https://github.com/SilasSpringer/CVE-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
@@ -27605,6 +27602,14 @@ In the Linux kernel 4.15.x through 4.19.x before 4.19.2, map_write() in kernel/u
 </code>
 
 - [scheatkode/CVE-2018-18955](https://github.com/scheatkode/CVE-2018-18955)
+
+### CVE-2018-19052 (2018-11-07)
+
+<code>
+An issue was discovered in mod_alias_physical_handler in mod_alias.c in lighttpd before 1.4.50. There is potential ../ path traversal of a single directory above an alias target, with a specific mod_alias configuration where the matched alias lacks a trailing '/' character, but the alias target filesystem path does have a trailing '/' character.
+</code>
+
+- [iveresk/cve-2018-19052](https://github.com/iveresk/cve-2018-19052)
 
 ### CVE-2018-19126 (2018-11-09)
 
