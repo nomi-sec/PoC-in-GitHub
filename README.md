@@ -771,6 +771,14 @@ OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.
 - [nhakobyan685/CVE-2023-25136](https://github.com/nhakobyan685/CVE-2023-25136)
 - [axylisdead/CVE-2023-25136_POC](https://github.com/axylisdead/CVE-2023-25136_POC)
 
+### CVE-2023-25157 (2023-02-21)
+
+<code>
+GeoServer is an open source software server written in Java that allows users to share and edit geospatial data. GeoServer includes support for the OGC Filter expression language and the OGC Common Query Language (CQL) as part of the Web Feature Service (WFS) and Web Map Service (WMS) protocols. CQL is also supported through the Web Coverage Service (WCS) protocol for ImageMosaic coverages. Users are advised to upgrade to either version 2.21.4, or version 2.22.2 to resolve this issue. Users unable to upgrade should disable the PostGIS Datastore *encode functions* setting to mitigate ``strEndsWith``, ``strStartsWith`` and ``PropertyIsLike `` misuse and enable the PostGIS DataStore *preparedStatements* setting to mitigate the ``FeatureId`` misuse.
+</code>
+
+- [win3zz/CVE-2023-25157](https://github.com/win3zz/CVE-2023-25157)
+
 ### CVE-2023-25194 (2023-02-07)
 
 <code>
@@ -1035,6 +1043,14 @@ An issue in WooCommerce Payments plugin for WordPress (versions 5.6.1 and lower)
 </code>
 
 - [gbrsh/CVE-2023-28121](https://github.com/gbrsh/CVE-2023-28121)
+
+### CVE-2023-28178 (2023-05-08)
+
+<code>
+A logic issue was addressed with improved validation. This issue is fixed in macOS Monterey 12.6.4, iOS 16.4 and iPadOS 16.4, macOS Ventura 13.3. An app may be able to bypass Privacy preferences
+</code>
+
+- [ahickmansec/CVE-2023-28178-patch](https://github.com/ahickmansec/CVE-2023-28178-patch)
 
 ### CVE-2023-28206 (2023-04-10)
 
@@ -1401,7 +1417,12 @@ IC Realtime ICIP-P2012T 2.420 is vulnerable to Incorrect Access Control via unau
 
 - [Yozarseef95/CVE-2023-31595](https://github.com/Yozarseef95/CVE-2023-31595)
 
-### CVE-2023-31606
+### CVE-2023-31606 (2023-06-06)
+
+<code>
+A Regular Expression Denial of Service (ReDoS) issue was discovered in the sanitize_html function of redcloth gem v4.0.0. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted payload.
+</code>
+
 - [e23e/CVE-2023-31606](https://github.com/e23e/CVE-2023-31606)
 
 ### CVE-2023-31634
@@ -1521,7 +1542,7 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 - [CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246)
 - [Serendipity-Lucky/CVE-2023-33246](https://github.com/Serendipity-Lucky/CVE-2023-33246)
 
-### CVE-2023-33381 (-)
+### CVE-2023-33381 (2023-06-06)
 
 <code>
 A command injection vulnerability was found in the ping functionality of the MitraStar GPT-2741GNAC router (firmware version AR_g5.8_110WVN0b7_2). The vulnerability allows an authenticated user to execute arbitrary OS commands by sending specially crafted input to the router via the ping function.
@@ -1613,6 +1634,14 @@ A stored cross-site scripting (XSS) vulnerability in Cloudogu GmbH SCM Manager v
 
 ### CVE-2023-33977
 - [mnqazi/CVE-2023-33977](https://github.com/mnqazi/CVE-2023-33977)
+
+### CVE-2023-34362 (2023-06-02)
+
+<code>
+In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerability has been found in the MOVEit Transfer web application that could allow an unauthenticated attacker to gain access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database, and execute SQL statements that alter or delete database elements. NOTE: this is exploited in the wild in May and June 2023; exploitation of unpatched systems can occur via HTTP or HTTPS. All versions (e.g., 2020.0 and 2019x) before the five explicitly mentioned versions are affected, including older unsupported versions.
+</code>
+
+- [deepinstinct/MOVEit_CVE-2023-34362_IOCs](https://github.com/deepinstinct/MOVEit_CVE-2023-34362_IOCs)
 
 
 ## 2022
@@ -15306,6 +15335,12 @@ A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) valid
 - [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell)
 - [MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601)
+- [YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601)
+- [thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl)
+- [dlee35/curveball_lua](https://github.com/dlee35/curveball_lua)
+- [IIICTECH/-CVE-2020-0601-ECC---EXPLOIT](https://github.com/IIICTECH/-CVE-2020-0601-ECC---EXPLOIT)
+- [Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601)
+- [gentilkiwi/curveball](https://github.com/gentilkiwi/curveball)
 - [Hans-MartinHannibalLauridsen/CurveBall](https://github.com/Hans-MartinHannibalLauridsen/CurveBall)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
 - [ioncodes/Curveball](https://github.com/ioncodes/Curveball)
@@ -16022,6 +16057,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 </code>
 
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
+- [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
@@ -16059,6 +16095,14 @@ Vulnerability in the Primavera P6 Enterprise Project Portfolio Management produc
 </code>
 
 - [5l1v3r1/CVE-2020-2556](https://github.com/5l1v3r1/CVE-2020-2556)
+
+### CVE-2020-2655 (2020-01-15)
+
+<code>
+Vulnerability in the Java SE product of Oracle Java SE (component: JSSE). Supported versions that are affected are Java SE: 11.0.5 and 13.0.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Java SE. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Java SE accessible data as well as unauthorized read access to a subset of Java SE accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets (in Java SE 8), that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.0 Base Score 4.8 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).
+</code>
+
+- [RUB-NDS/CVE-2020-2655-DemoServer](https://github.com/RUB-NDS/CVE-2020-2655-DemoServer)
 
 ### CVE-2020-2883 (2020-04-15)
 
@@ -21483,6 +21527,14 @@ Out of bounds write in JavaScript in Google Chrome prior to 73.0.3683.86 allowed
 
 - [timwr/CVE-2019-5825](https://github.com/timwr/CVE-2019-5825)
 
+### CVE-2019-5893 (2019-01-10)
+
+<code>
+Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.xml query parameter.
+</code>
+
+- [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
+
 ### CVE-2019-6111 (2019-01-31)
 
 <code>
@@ -21534,6 +21586,14 @@ The ASPEED ast2400 and ast2500 Baseband Management Controller (BMC) hardware and
 </code>
 
 - [nikitapbst/cve-2019-6260](https://github.com/nikitapbst/cve-2019-6260)
+
+### CVE-2019-6263 (2019-01-16)
+
+<code>
+An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
+</code>
+
+- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
 
 ### CVE-2019-6329 (2019-06-25)
 
@@ -30582,7 +30642,6 @@ Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x bef
 
 - [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
-- [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
