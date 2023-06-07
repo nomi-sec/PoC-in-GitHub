@@ -634,6 +634,7 @@ The Paid Memberships Pro WordPress Plugin, version &lt; 2.9.8, is affected by an
 </code>
 
 - [r3nt0n/CVE-2023-23488-PoC](https://github.com/r3nt0n/CVE-2023-23488-PoC)
+- [cybfar/CVE-2023-23488-pmpro-2.8](https://github.com/cybfar/CVE-2023-23488-pmpro-2.8)
 
 ### CVE-2023-23531 (2023-02-27)
 
@@ -1663,7 +1664,7 @@ In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.
 </code>
 
 - [deepinstinct/MOVEit_CVE-2023-34362_IOCs](https://github.com/deepinstinct/MOVEit_CVE-2023-34362_IOCs)
-- [a3cipher/CVE-2023-34362](https://github.com/a3cipher/CVE-2023-34362)
+- [hheeyywweellccoommee/CVE-2023-34362-nhjxn](https://github.com/hheeyywweellccoommee/CVE-2023-34362-nhjxn)
 
 
 ## 2022
