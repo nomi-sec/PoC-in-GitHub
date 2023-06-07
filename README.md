@@ -1540,7 +1540,7 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 - [SuperZero/CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246)
 - [Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT)
 - [CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246)
-- [Serendipity-Lucky/CVE-2023-33246](https://github.com/Serendipity-Lucky/CVE-2023-33246)
+- [hheeyywweellccoommee/CVE-2023-33246-rnkku](https://github.com/hheeyywweellccoommee/CVE-2023-33246-rnkku)
 
 ### CVE-2023-33381 (2023-06-06)
 
@@ -1623,10 +1623,20 @@ Reportlab up to v3.6.12 allows attackers to execute arbitrary code via supplying
 
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
 
-### CVE-2023-33781
+### CVE-2023-33781 (2023-06-06)
+
+<code>
+An issue in D-Link DIR-842V2 v1.0.3 allows attackers to execute arbitrary commands via importing a crafted file.
+</code>
+
 - [s0tr/CVE-2023-33781](https://github.com/s0tr/CVE-2023-33781)
 
-### CVE-2023-33782
+### CVE-2023-33782 (2023-06-06)
+
+<code>
+D-Link DIR-842V2 v1.0.3 was discovered to contain a command injection vulnerability via the iperf3 diagnostics function.
+</code>
+
 - [s0tr/CVE-2023-33782](https://github.com/s0tr/CVE-2023-33782)
 
 ### CVE-2023-33829 (2023-05-24)
@@ -1636,6 +1646,7 @@ A stored cross-site scripting (XSS) vulnerability in Cloudogu GmbH SCM Manager v
 </code>
 
 - [n3gox/CVE-2023-33829](https://github.com/n3gox/CVE-2023-33829)
+- [CKevens/CVE-2023-33829-POC](https://github.com/CKevens/CVE-2023-33829-POC)
 
 ### CVE-2023-33977 (2023-06-06)
 
@@ -1652,6 +1663,7 @@ In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.
 </code>
 
 - [deepinstinct/MOVEit_CVE-2023-34362_IOCs](https://github.com/deepinstinct/MOVEit_CVE-2023-34362_IOCs)
+- [a3cipher/CVE-2023-34362](https://github.com/a3cipher/CVE-2023-34362)
 
 
 ## 2022
@@ -3739,7 +3751,7 @@ cmd/go in Go before 1.16.14 and 1.17.x before 1.17.7 can misinterpret branch nam
 
 - [danbudris/CVE-2022-23773-repro](https://github.com/danbudris/CVE-2022-23773-repro)
 - [danbudris/CVE-2022-23773-repro-target](https://github.com/danbudris/CVE-2022-23773-repro-target)
-- [Liuyushung/CVE-2022-23773-Reproduce](https://github.com/Liuyushung/CVE-2022-23773-Reproduce)
+- [YouShengLiu/CVE-2022-23773-Reproduce](https://github.com/YouShengLiu/CVE-2022-23773-Reproduce)
 
 ### CVE-2022-23779 (2022-03-02)
 
