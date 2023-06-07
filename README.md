@@ -1050,7 +1050,7 @@ An issue in WooCommerce Payments plugin for WordPress (versions 5.6.1 and lower)
 A logic issue was addressed with improved validation. This issue is fixed in macOS Monterey 12.6.4, iOS 16.4 and iPadOS 16.4, macOS Ventura 13.3. An app may be able to bypass Privacy preferences
 </code>
 
-- [ahickmansec/CVE-2023-28178-patch](https://github.com/ahickmansec/CVE-2023-28178-patch)
+- [MacCVEResearch/CVE-2023-28178-patch](https://github.com/MacCVEResearch/CVE-2023-28178-patch)
 
 ### CVE-2023-28206 (2023-04-10)
 
@@ -1574,7 +1574,12 @@ Minical 1.0.0 and earlier contains a CSV injection vulnerability which allows an
 
 - [Thirukrishnan/CVE-2023-33410](https://github.com/Thirukrishnan/CVE-2023-33410)
 
-### CVE-2023-33477
+### CVE-2023-33477 (2023-06-06)
+
+<code>
+In Harmonic NSG 9000-6G devices, an authenticated remote user can obtain source code by directly requesting a special path.
+</code>
+
 - [Skr11lex/CVE-2023-33477](https://github.com/Skr11lex/CVE-2023-33477)
 
 ### CVE-2023-33617 (2023-05-23)
@@ -1632,7 +1637,12 @@ A stored cross-site scripting (XSS) vulnerability in Cloudogu GmbH SCM Manager v
 
 - [n3gox/CVE-2023-33829](https://github.com/n3gox/CVE-2023-33829)
 
-### CVE-2023-33977
+### CVE-2023-33977 (2023-06-06)
+
+<code>
+Kiwi TCMS is an open source test management system for both manual and automated testing. Kiwi TCMS allows users to upload attachments to test plans, test cases, etc. Earlier versions of Kiwi TCMS had introduced upload validators in order to prevent potentially dangerous files from being uploaded and Content-Security-Policy definition to prevent cross-site-scripting attacks. The upload validation checks were not 100% robust which left the possibility to circumvent them and upload a potentially dangerous file which allows execution of arbitrary JavaScript in the browser. Additionally we've discovered that Nginx's `proxy_pass` directive will strip some headers negating protections built into Kiwi TCMS when served behind a reverse proxy. This issue has been addressed in version 12.4. Users are advised to upgrade. Users unable to upgrade who are serving Kiwi TCMS behind a reverse proxy should make sure that additional header values are still passed to the client browser. If they aren't redefining them inside the proxy configuration.
+</code>
+
 - [mnqazi/CVE-2023-33977](https://github.com/mnqazi/CVE-2023-33977)
 
 ### CVE-2023-34362 (2023-06-02)
@@ -30642,6 +30652,7 @@ Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x bef
 
 - [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
+- [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
