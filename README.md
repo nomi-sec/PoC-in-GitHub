@@ -1044,14 +1044,6 @@ An issue in WooCommerce Payments plugin for WordPress (versions 5.6.1 and lower)
 
 - [gbrsh/CVE-2023-28121](https://github.com/gbrsh/CVE-2023-28121)
 
-### CVE-2023-28178 (2023-05-08)
-
-<code>
-A logic issue was addressed with improved validation. This issue is fixed in macOS Monterey 12.6.4, iOS 16.4 and iPadOS 16.4, macOS Ventura 13.3. An app may be able to bypass Privacy preferences
-</code>
-
-- [MacCVEResearch/CVE-2023-28178-patch](https://github.com/MacCVEResearch/CVE-2023-28178-patch)
-
 ### CVE-2023-28206 (2023-04-10)
 
 <code>
@@ -1176,6 +1168,14 @@ Windows MSHTML Platform Security Feature Bypass Vulnerability
 </code>
 
 - [OLeDouxEt/CVE-2023-29324_Patch_Deploy](https://github.com/OLeDouxEt/CVE-2023-29324_Patch_Deploy)
+
+### CVE-2023-29325 (2023-05-09)
+
+<code>
+Windows OLE Remote Code Execution Vulnerability
+</code>
+
+- [a-bazi/test-CVE-2023-29325](https://github.com/a-bazi/test-CVE-2023-29325)
 
 ### CVE-2023-29421 (2023-04-06)
 
@@ -3530,6 +3530,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [gokul-ramesh/Spring4Shell-PoC-exploit](https://github.com/gokul-ramesh/Spring4Shell-PoC-exploit)
 - [bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-](https://github.com/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-)
 - [BKLockly/CVE-2022-22965](https://github.com/BKLockly/CVE-2022-22965)
+- [dbgee/Spring4Shell](https://github.com/dbgee/Spring4Shell)
 
 ### CVE-2022-22966 (2022-04-14)
 
@@ -6772,6 +6773,14 @@ An XSS (Cross Site Scripting) vulnerability was found in HelpSystems Cobalt Stri
 - [TheCryingGame/CVE-2022-39197-RCE](https://github.com/TheCryingGame/CVE-2022-39197-RCE)
 - [adeljck/CVE-2022-39197](https://github.com/adeljck/CVE-2022-39197)
 - [xiao-zhu-zhu/pig_CS4.4](https://github.com/xiao-zhu-zhu/pig_CS4.4)
+
+### CVE-2022-39227 (2022-09-23)
+
+<code>
+python-jwt is a module for generating and verifying JSON Web Tokens. Versions prior to 3.3.4 are subject to Authentication Bypass by Spoofing, resulting in identity spoofing, session hijacking or authentication bypass. An attacker who obtains a JWT can arbitrarily forge its contents without knowing the secret key. Depending on the application, this may for example enable the attacker to spoof other user's identities, hijack their sessions, or bypass authentication. Users should upgrade to version 3.3.4. There are no known workarounds.
+</code>
+
+- [user0x1337/CVE-2022-39227](https://github.com/user0x1337/CVE-2022-39227)
 
 ### CVE-2022-39253 (2022-10-19)
 
