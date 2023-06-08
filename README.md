@@ -221,6 +221,7 @@ Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote a
 - [insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033)
 - [sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis)
 - [gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis)
+- [WalccDev/CVE-2023-2033](https://github.com/WalccDev/CVE-2023-2033)
 
 ### CVE-2023-2114 (2023-05-08)
 
@@ -312,6 +313,9 @@ Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampas
 </code>
 
 - [mnqazi/CVE-2023-3009](https://github.com/mnqazi/CVE-2023-3009)
+
+### CVE-2023-10608
+- [b35363/cve-2023-10608-PoC](https://github.com/b35363/cve-2023-10608-PoC)
 
 ### CVE-2023-20052 (2023-03-01)
 
@@ -1674,6 +1678,9 @@ In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.
 
 - [deepinstinct/MOVEit_CVE-2023-34362_IOCs](https://github.com/deepinstinct/MOVEit_CVE-2023-34362_IOCs)
 - [hheeyywweellccoommee/CVE-2023-34362-nhjxn](https://github.com/hheeyywweellccoommee/CVE-2023-34362-nhjxn)
+
+### CVE-2023-51504
+- [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
 
 ## 2022
@@ -13336,6 +13343,7 @@ It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was in
 - [mightysai1997/cve-2021-42013L](https://github.com/mightysai1997/cve-2021-42013L)
 - [mightysai1997/cve-2021-42013.get](https://github.com/mightysai1997/cve-2021-42013.get)
 - [12345qwert123456/CVE-2021-42013](https://github.com/12345qwert123456/CVE-2021-42013)
+- [cybfar/cve-2021-42013-httpd](https://github.com/cybfar/cve-2021-42013-httpd)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -13813,6 +13821,7 @@ Laravel Framework through 8.70.2 does not sufficiently block the upload of execu
 
 - [kombat1/CVE-2021-43617](https://github.com/kombat1/CVE-2021-43617)
 - [aweiiy/CVE-2021-43617](https://github.com/aweiiy/CVE-2021-43617)
+- [Sybelle03/CVE-2021-43617](https://github.com/Sybelle03/CVE-2021-43617)
 
 ### CVE-2021-43657 (2022-12-21)
 
@@ -14989,6 +14998,14 @@ In updateUidProcState of AppOpsService.java, there is a possible permission bypa
 
 - [mooneee/CVE-2020-0121](https://github.com/mooneee/CVE-2020-0121)
 
+### CVE-2020-0136 (2020-06-11)
+
+<code>
+In multiple locations of Parcel.cpp, there is a possible out-of-bounds write due to an integer overflow. This could lead to local escalation of privilege in the system server with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10Android ID: A-120078455
+</code>
+
+- [Satheesh575555/libhwbinder_AOSP10_r33_CVE-2020-0136](https://github.com/Satheesh575555/libhwbinder_AOSP10_r33_CVE-2020-0136)
+
 ### CVE-2020-0137 (2020-06-11)
 
 <code>
@@ -15973,6 +15990,7 @@ When using the Apache JServ Protocol (AJP), care must be taken when trusting inc
 - [Neko-chanQwQ/CVE-2020-1938](https://github.com/Neko-chanQwQ/CVE-2020-1938)
 - [jptr218/ghostcat](https://github.com/jptr218/ghostcat)
 - [einzbernnn/CVE-2020-1938Scan](https://github.com/einzbernnn/CVE-2020-1938Scan)
+- [YounesTasra-R4z3rSw0rd/CVE-2020-1938](https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 
 ### CVE-2020-1947 (2020-03-11)
@@ -19754,6 +19772,14 @@ Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Ve
 
 - [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
 
+### CVE-2020-26878 (2020-10-26)
+
+<code>
+Ruckus through 1.5.1.0.21 is affected by remote command injection. An authenticated user can submit a query to the API (/service/v1/createUser endpoint), injecting arbitrary commands that will be executed as root user via web.py.
+</code>
+
+- [htarsoo/CVE-2020-26878](https://github.com/htarsoo/CVE-2020-26878)
+
 ### CVE-2020-27190
 - [qlh831/x-CVE-2020-27190](https://github.com/qlh831/x-CVE-2020-27190)
 
@@ -19839,6 +19865,7 @@ A flaw was found in the Linux kernel’s implementation of MIDI, where an attack
 
 - [kiks7/CVE-2020-27786-Kernel-Exploit](https://github.com/kiks7/CVE-2020-27786-Kernel-Exploit)
 - [elbiazo/CVE-2020-27786](https://github.com/elbiazo/CVE-2020-27786)
+- [Trinadh465/linux-4.19.72_CVE-2020-27786](https://github.com/Trinadh465/linux-4.19.72_CVE-2020-27786)
 
 ### CVE-2020-27824 (2021-05-13)
 
@@ -20077,6 +20104,7 @@ Archive_Tar through 1.4.10 allows an unserialization attack because phar: is blo
 
 - [0x240x23elu/CVE-2020-28948-and-CVE-2020-28949](https://github.com/0x240x23elu/CVE-2020-28948-and-CVE-2020-28949)
 - [nopdata/cve-2020-28948](https://github.com/nopdata/cve-2020-28948)
+- [JinHao-L/PoC-for-CVE-2020-28948-CVE-2020-28949](https://github.com/JinHao-L/PoC-for-CVE-2020-28948-CVE-2020-28949)
 
 ### CVE-2020-29007 (2023-04-15)
 
@@ -21414,6 +21442,7 @@ SQL Injection in the Nextcloud Android app prior to version 3.0.0 allows to dest
 The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution when instances using CommandLineExecutor.java are supplied vulnerable data, such as the Yum Configuration Capability.
 </code>
 
+- [jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-](https://github.com/jaychouzzk/CVE-2019-5475-Nexus-Repository-Manager-)
 - [rabbitmask/CVE-2019-5475-EXP](https://github.com/rabbitmask/CVE-2019-5475-EXP)
 - [EXP-Docs/CVE-2019-5475](https://github.com/EXP-Docs/CVE-2019-5475)
 
@@ -23518,6 +23547,7 @@ An issue was discovered in Webmin &lt;=1.920. The parameter old in password_chan
 - [HACHp1/webmin_docker_and_exp](https://github.com/HACHp1/webmin_docker_and_exp)
 - [ketlerd/CVE-2019-15107](https://github.com/ketlerd/CVE-2019-15107)
 - [AdministratorGithub/CVE-2019-15107](https://github.com/AdministratorGithub/CVE-2019-15107)
+- [Rayferrufino/Make-and-Break](https://github.com/Rayferrufino/Make-and-Break)
 - [AleWong/WebminRCE-EXP-CVE-2019-15107-](https://github.com/AleWong/WebminRCE-EXP-CVE-2019-15107-)
 - [ianxtianxt/CVE-2019-15107](https://github.com/ianxtianxt/CVE-2019-15107)
 - [Pichuuuuu/verbose_happiness](https://github.com/Pichuuuuu/verbose_happiness)
@@ -28489,7 +28519,6 @@ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java
 </code>
 
 - [xfei3/CVE-2017-3241-POC](https://github.com/xfei3/CVE-2017-3241-POC)
-- [scopion/CVE-2017-3241](https://github.com/scopion/CVE-2017-3241)
 
 ### CVE-2017-3248 (2017-01-27)
 
@@ -32580,7 +32609,6 @@ The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses
 Directory traversal vulnerability in Pivotal Spring Framework 3.0.4 through 3.2.x before 3.2.12, 4.0.x before 4.0.8, and 4.1.x before 4.1.2 allows remote attackers to read arbitrary files via unspecified vectors, related to static resource handling.
 </code>
 
-- [ilmila/springcss-cve-2014-3625](https://github.com/ilmila/springcss-cve-2014-3625)
 - [gforresu/SpringPathTraversal](https://github.com/gforresu/SpringPathTraversal)
 
 ### CVE-2014-3704 (2014-10-15)
@@ -32645,7 +32673,6 @@ drivers/misc/qseecom.c in the QSEECOM driver for the Linux kernel 3.x, as used i
 - [retme7/CVE-2014-4322_poc](https://github.com/retme7/CVE-2014-4322_poc)
 - [laginimaineb/cve-2014-4322](https://github.com/laginimaineb/cve-2014-4322)
 - [askk/CVE-2014-4322_adaptation](https://github.com/askk/CVE-2014-4322_adaptation)
-- [koozxcv/CVE-2014-4322](https://github.com/koozxcv/CVE-2014-4322)
 
 ### CVE-2014-4323 (2014-12-12)
 
