@@ -530,6 +530,7 @@ In Sudo before 1.9.12p2, the sudoedit (aka -e) feature mishandles extra argument
 - [n3m1dotsys/CVE-2023-22809-sudoedit-privesc](https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc)
 - [M4fiaB0y/CVE-2023-22809](https://github.com/M4fiaB0y/CVE-2023-22809)
 - [CKevens/CVE-2023-22809-sudo-POC](https://github.com/CKevens/CVE-2023-22809-sudo-POC)
+- [hello4r1end/patch_CVE-2023-22809](https://github.com/hello4r1end/patch_CVE-2023-22809)
 
 ### CVE-2023-22894 (2023-04-19)
 
@@ -1555,6 +1556,9 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 - [CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246)
 - [v0ita/rocketMq_RCE](https://github.com/v0ita/rocketMq_RCE)
 - [hheeyywweellccoommee/CVE-2023-33246-rnkku](https://github.com/hheeyywweellccoommee/CVE-2023-33246-rnkku)
+
+### CVE-2023-33253
+- [Toxich4/CVE-2023-33253](https://github.com/Toxich4/CVE-2023-33253)
 
 ### CVE-2023-33381 (2023-06-06)
 
@@ -4375,7 +4379,7 @@ The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL 
 </code>
 
 - [Atsukoro1/PDFKitExploit](https://github.com/Atsukoro1/PDFKitExploit)
-- [CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell](https://github.com/CyberArchitect1/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell)
+- [PurpleWaveIO/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell](https://github.com/PurpleWaveIO/CVE-2022-25765-pdfkit-Exploit-Reverse-Shell)
 - [LordRNA/CVE-2022-25765](https://github.com/LordRNA/CVE-2022-25765)
 - [shamo0/PDFkit-CMD-Injection](https://github.com/shamo0/PDFkit-CMD-Injection)
 - [nikn0laty/PDFkit-CMD-Injection-CVE-2022-25765](https://github.com/nikn0laty/PDFkit-CMD-Injection-CVE-2022-25765)
@@ -20809,8 +20813,15 @@ A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle a
 - [Ridter/CVE-2019-1040-dcpwn](https://github.com/Ridter/CVE-2019-1040-dcpwn)
 - [lazaars/UltraRealy_with_CVE-2019-1040](https://github.com/lazaars/UltraRealy_with_CVE-2019-1040)
 - [fox-it/cve-2019-1040-scanner](https://github.com/fox-it/cve-2019-1040-scanner)
-- [wzxmt/CVE-2019-1040](https://github.com/wzxmt/CVE-2019-1040)
 - [QAX-A-Team/dcpwn](https://github.com/QAX-A-Team/dcpwn)
+
+### CVE-2019-1041 (2019-06-12)
+
+<code>
+An elevation of privilege vulnerability exists when the Windows kernel fails to properly handle objects in memory, aka 'Windows Kernel Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1065.
+</code>
+
+- [5l1v3r1/CVE-2019-1041](https://github.com/5l1v3r1/CVE-2019-1041)
 
 ### CVE-2019-1064 (2019-06-12)
 
@@ -28519,6 +28530,7 @@ Vulnerability in the Java SE, Java SE Embedded, JRockit component of Oracle Java
 </code>
 
 - [xfei3/CVE-2017-3241-POC](https://github.com/xfei3/CVE-2017-3241-POC)
+- [scopion/CVE-2017-3241](https://github.com/scopion/CVE-2017-3241)
 
 ### CVE-2017-3248 (2017-01-27)
 
@@ -32609,6 +32621,7 @@ The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses
 Directory traversal vulnerability in Pivotal Spring Framework 3.0.4 through 3.2.x before 3.2.12, 4.0.x before 4.0.8, and 4.1.x before 4.1.2 allows remote attackers to read arbitrary files via unspecified vectors, related to static resource handling.
 </code>
 
+- [ilmila/springcss-cve-2014-3625](https://github.com/ilmila/springcss-cve-2014-3625)
 - [gforresu/SpringPathTraversal](https://github.com/gforresu/SpringPathTraversal)
 
 ### CVE-2014-3704 (2014-10-15)
@@ -32673,6 +32686,7 @@ drivers/misc/qseecom.c in the QSEECOM driver for the Linux kernel 3.x, as used i
 - [retme7/CVE-2014-4322_poc](https://github.com/retme7/CVE-2014-4322_poc)
 - [laginimaineb/cve-2014-4322](https://github.com/laginimaineb/cve-2014-4322)
 - [askk/CVE-2014-4322_adaptation](https://github.com/askk/CVE-2014-4322_adaptation)
+- [koozxcv/CVE-2014-4322](https://github.com/koozxcv/CVE-2014-4322)
 
 ### CVE-2014-4323 (2014-12-12)
 
