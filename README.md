@@ -304,7 +304,7 @@ An issue has been discovered in GitLab CE/EE affecting only version 16.0.0. An u
 - [Occamsec/CVE-2023-2825](https://github.com/Occamsec/CVE-2023-2825)
 - [yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825)
 - [Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab)
-- [EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825)
+- [hheeyywweellccoommee/CVE-2023-2825-zaskh](https://github.com/hheeyywweellccoommee/CVE-2023-2825-zaskh)
 
 ### CVE-2023-2859 (2023-05-24)
 
@@ -1447,6 +1447,9 @@ Incorrect access control in Quick Heal Technologies Limited Seqrite Endpoint Sec
 </code>
 
 - [0xInfection/EPScalate](https://github.com/0xInfection/EPScalate)
+
+### CVE-2023-31541
+- [DreamD2v/CVE-2023-31541](https://github.com/DreamD2v/CVE-2023-31541)
 
 ### CVE-2023-31584 (2023-05-22)
 
@@ -6791,6 +6794,7 @@ Wacom Driver 6.3.46-1 for Windows and lower was discovered to contain an arbitra
 
 ### CVE-2022-38694
 - [TomKing062/CVE-2022-38694_unlock_bootloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader)
+- [TomKing062/ud710_patch](https://github.com/TomKing062/ud710_patch)
 
 ### CVE-2022-38766 (2023-01-03)
 
