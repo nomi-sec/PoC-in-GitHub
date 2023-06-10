@@ -824,6 +824,7 @@ GeoServer is an open source software server written in Java that allows users to
 </code>
 
 - [win3zz/CVE-2023-25157](https://github.com/win3zz/CVE-2023-25157)
+- [0x2458bughunt/CVE-2023-25157](https://github.com/0x2458bughunt/CVE-2023-25157)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -6787,6 +6788,9 @@ Wacom Driver 6.3.46-1 for Windows and lower was discovered to contain an arbitra
 </code>
 
 - [LucaBarile/CVE-2022-38604](https://github.com/LucaBarile/CVE-2022-38604)
+
+### CVE-2022-38694
+- [TomKing062/CVE-2022-38694_unlock_bootloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader)
 
 ### CVE-2022-38766 (2023-01-03)
 
