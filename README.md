@@ -338,6 +338,14 @@ Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampas
 
 - [mnqazi/CVE-2023-3009](https://github.com/mnqazi/CVE-2023-3009)
 
+### CVE-2023-3163 (2023-06-08)
+
+<code>
+Es wurde eine problematische Schwachstelle in y_project RuoYi bis 4.7.7 ausgemacht. Es betrifft die Funktion filterKeyword. Mit der Manipulation des Arguments value mit unbekannten Daten kann eine resource consumption-Schwachstelle ausgenutzt werden.
+</code>
+
+- [George0Papasotiriou/CVE-2023-3163-SQL-Injection-Prevention](https://github.com/George0Papasotiriou/CVE-2023-3163-SQL-Injection-Prevention)
+
 ### CVE-2023-10608
 - [b35363/cve-2023-10608-PoC](https://github.com/b35363/cve-2023-10608-PoC)
 
@@ -28770,6 +28778,7 @@ The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x be
 - [TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
+- [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
 - [donaldashdown/Common-Vulnerability-and-Exploit](https://github.com/donaldashdown/Common-Vulnerability-and-Exploit)
 - [pr0x1ma-byte/cybersecurity-struts2](https://github.com/pr0x1ma-byte/cybersecurity-struts2)
 - [cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638)
