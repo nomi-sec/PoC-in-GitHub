@@ -3255,6 +3255,7 @@ A Stack-based buffer overflow vulnerability in the SonicOS via HTTP request allo
 </code>
 
 - [pwneddr/Sonic_CVE-2022-22274_poc](https://github.com/pwneddr/Sonic_CVE-2022-22274_poc)
+- [forthisvideo/CVE-2022-22274_poc](https://github.com/forthisvideo/CVE-2022-22274_poc)
 
 ### CVE-2022-22296 (2022-01-24)
 
@@ -7795,6 +7796,7 @@ Markdown Preview Enhanced v0.6.5 and v0.19.6 for VSCode and Atom was discovered 
 </code>
 
 - [yuriisanin/CVE-2022-45025](https://github.com/yuriisanin/CVE-2022-45025)
+- [andyhsu024/CVE-2022-45025](https://github.com/andyhsu024/CVE-2022-45025)
 
 ### CVE-2022-45047 (2022-11-16)
 
@@ -20619,7 +20621,6 @@ When running on Windows with enableCmdLineArguments enabled, the CGI Servlet in 
 - [jas502n/CVE-2019-0232](https://github.com/jas502n/CVE-2019-0232)
 - [cyy95/CVE-2019-0232-EXP](https://github.com/cyy95/CVE-2019-0232-EXP)
 - [setrus/CVE-2019-0232](https://github.com/setrus/CVE-2019-0232)
-- [Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-](https://github.com/Nicoslo/Windows-exploitation-Apache-Tomcat-8.5.19-CVE-2019-0232-)
 - [Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232](https://github.com/Nicoslo/Windows-Exploitation-Web-Server-Tomcat-8.5.39-CVE-2019-0232)
 - [jaiguptanick/CVE-2019-0232](https://github.com/jaiguptanick/CVE-2019-0232)
 
@@ -20774,7 +20775,6 @@ A remote code execution vulnerability exists in Remote Desktop Services formerly
 - [nochemax/bLuEkEeP-GUI](https://github.com/nochemax/bLuEkEeP-GUI)
 - [AaronCaiii/CVE-2019-0708-POC](https://github.com/AaronCaiii/CVE-2019-0708-POC)
 - [DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit](https://github.com/DeathStroke-source/Mass-scanner-for-CVE-2019-0708-RDP-RCE-Exploit)
-- [go-bi/CVE-2019-0708-EXP-Windows](https://github.com/go-bi/CVE-2019-0708-EXP-Windows)
 - [FroydCod3r/CVE-2019-0708](https://github.com/FroydCod3r/CVE-2019-0708)
 - [pywc/CVE-2019-0708](https://github.com/pywc/CVE-2019-0708)
 - [bibo318/kali-CVE-2019-0708-lab](https://github.com/bibo318/kali-CVE-2019-0708-lab)
@@ -21107,7 +21107,6 @@ An elevation of privilege vulnerability exists in Windows when the Win32k compon
 
 - [piotrflorczyk/cve-2019-1458_POC](https://github.com/piotrflorczyk/cve-2019-1458_POC)
 - [rip1s/CVE-2019-1458](https://github.com/rip1s/CVE-2019-1458)
-- [Eternit7/CVE-2019-1458](https://github.com/Eternit7/CVE-2019-1458)
 
 ### CVE-2019-1476 (2019-12-10)
 
@@ -21359,7 +21358,6 @@ The Widget Connector macro in Atlassian Confluence Server before version 6.6.12 
 - [W2Ning/CVE-2019-3396](https://github.com/W2Ning/CVE-2019-3396)
 - [yuehanked/cve-2019-3396](https://github.com/yuehanked/cve-2019-3396)
 - [abdallah-elsharif/cve-2019-3396](https://github.com/abdallah-elsharif/cve-2019-3396)
-- [46o60/CVE-2019-3396_Confluence](https://github.com/46o60/CVE-2019-3396_Confluence)
 - [PetrusViet/cve-2019-3396](https://github.com/PetrusViet/cve-2019-3396)
 
 ### CVE-2019-3398 (2019-04-18)
