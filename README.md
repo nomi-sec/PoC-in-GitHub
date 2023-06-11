@@ -4243,6 +4243,7 @@ Argus Surveillance DVR v4.0 employs weak password encryption.
 </code>
 
 - [s3l33/CVE-2022-25012](https://github.com/s3l33/CVE-2022-25012)
+- [deathflash1411/cve-2022-25012](https://github.com/deathflash1411/cve-2022-25012)
 
 ### CVE-2022-25018 (2022-02-28)
 
@@ -12064,6 +12065,14 @@ An issue in the administrator authentication panel of PTCL HG150-Ub v3.0 allows 
 
 - [afaq1337/CVE-2021-35296](https://github.com/afaq1337/CVE-2021-35296)
 
+### CVE-2021-35448 (2021-06-24)
+
+<code>
+Emote Interactive Remote Mouse 3.008 on Windows allows attackers to execute arbitrary programs as Administrator by using the Image Transfer Folder feature to navigate to cmd.exe. It binds to local ports to listen for incoming connections.
+</code>
+
+- [deathflash1411/cve-2021-35448](https://github.com/deathflash1411/cve-2021-35448)
+
 ### CVE-2021-35464 (2021-07-22)
 
 <code>
@@ -13205,6 +13214,14 @@ A blind SQL injection vulnerability exists in the Raymart DG / Ahmed Helal Hotel
 </code>
 
 - [MobiusBinary/CVE-2021-41651](https://github.com/MobiusBinary/CVE-2021-41651)
+
+### CVE-2021-41652 (2022-03-01)
+
+<code>
+Insecure permissions in the file database.sdb of BatFlat CMS v1.3.6 allows attackers to dump the entire database.
+</code>
+
+- [deathflash1411/cve-2021-41652](https://github.com/deathflash1411/cve-2021-41652)
 
 ### CVE-2021-41653 (2021-11-13)
 
