@@ -824,6 +824,7 @@ GeoServer is an open source software server written in Java that allows users to
 </code>
 
 - [win3zz/CVE-2023-25157](https://github.com/win3zz/CVE-2023-25157)
+- [drfabiocastro/geoserver](https://github.com/drfabiocastro/geoserver)
 - [0x2458bughunt/CVE-2023-25157](https://github.com/0x2458bughunt/CVE-2023-25157)
 
 ### CVE-2023-25194 (2023-02-07)
@@ -1255,6 +1256,8 @@ An issue was discovered in cPanel before 11.109.9999.116. XSS can occur on the c
 - [whalebone7/EagleEye](https://github.com/whalebone7/EagleEye)
 - [1337r0j4n/CVE-2023-29489](https://github.com/1337r0j4n/CVE-2023-29489)
 - [Abdullah7-ma/CVE-2023-29489](https://github.com/Abdullah7-ma/CVE-2023-29489)
+- [tucommenceapousser/CVE-2023-29489](https://github.com/tucommenceapousser/CVE-2023-29489)
+- [tucommenceapousser/CVE-2023-29489.py](https://github.com/tucommenceapousser/CVE-2023-29489.py)
 
 ### CVE-2023-29808 (2023-05-11)
 
