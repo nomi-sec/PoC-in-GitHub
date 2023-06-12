@@ -173,6 +173,14 @@ In Simple Art Gallery 1.0 wurde eine Schwachstelle ausgemacht. Sie wurde als kri
 
 - [0xxtoby/CVE-2023-1415](https://github.com/0xxtoby/CVE-2023-1415)
 
+### CVE-2023-1430 (2023-06-09)
+
+<code>
+The FluentCRM - Marketing Automation For WordPress  plugin for WordPress is vulnerable to unauthorized modification of data in versions up to, and including, 2.7.40 due to the use of an MD5 hash without a salt to control subscriptions. This makes it possible for unauthenticated attackers to unsubscribe users from lists and manage subscriptions, granted they gain access to any targeted subscribers email address.
+</code>
+
+- [karlemilnikka/CVE-2023-1430](https://github.com/karlemilnikka/CVE-2023-1430)
+
 ### CVE-2023-1454 (2023-03-17)
 
 <code>
@@ -400,6 +408,14 @@ In run of ChooseTypeAndAccountActivity.java, there is a possible escalation of p
 - [Trinadh465/frameworks_base_CVE-2023-20944](https://github.com/Trinadh465/frameworks_base_CVE-2023-20944)
 - [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944)
 
+### CVE-2023-20963 (2023-03-24)
+
+<code>
+In WorkSource, there is a possible parcel mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-220302519
+</code>
+
+- [Chal13W1zz/BadParcel](https://github.com/Chal13W1zz/BadParcel)
+
 ### CVE-2023-21036 (2023-03-24)
 
 <code>
@@ -504,7 +520,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 ### CVE-2023-21839 (2023-01-17)
 
 <code>
-Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 </code>
 
 - [4ra1n/CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)
@@ -1741,9 +1757,14 @@ In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.
 
 - [deepinstinct/MOVEit_CVE-2023-34362_IOCs](https://github.com/deepinstinct/MOVEit_CVE-2023-34362_IOCs)
 - [hheeyywweellccoommee/CVE-2023-34362-nhjxn](https://github.com/hheeyywweellccoommee/CVE-2023-34362-nhjxn)
+- [horizon3ai/CVE-2023-34362](https://github.com/horizon3ai/CVE-2023-34362)
+- [lithuanian-g/cve-2023-34362-iocs](https://github.com/lithuanian-g/cve-2023-34362-iocs)
 
 ### CVE-2023-34960
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
+
+### CVE-2023-34965
+- [happy0717/CVE-2023-34965](https://github.com/happy0717/CVE-2023-34965)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -5200,7 +5221,7 @@ DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elem
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
 - [Chocapikk/CVE-2022-29455](https://github.com/Chocapikk/CVE-2022-29455)
 - [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
-- [VarelSecurity/CVE-2022-29455](https://github.com/VarelSecurity/CVE-2022-29455)
+- [0xkucing/CVE-2022-29455](https://github.com/0xkucing/CVE-2022-29455)
 - [tucommenceapousser/CVE-2022-29455](https://github.com/tucommenceapousser/CVE-2022-29455)
 - [tucommenceapousser/CVE-2022-29455-mass](https://github.com/tucommenceapousser/CVE-2022-29455-mass)
 
