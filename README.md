@@ -6800,7 +6800,6 @@ Wacom Driver 6.3.46-1 for Windows and lower was discovered to contain an arbitra
 
 ### CVE-2022-38694
 - [TomKing062/CVE-2022-38694_unlock_bootloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader)
-- [TomKing062/ud710_patch](https://github.com/TomKing062/ud710_patch)
 
 ### CVE-2022-38766 (2023-01-03)
 
