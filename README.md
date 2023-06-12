@@ -228,6 +228,14 @@ A vulnerability was found in the HCI sockets implementation due to a missing cap
 
 - [lrh2000/CVE-2023-2002](https://github.com/lrh2000/CVE-2023-2002)
 
+### CVE-2023-2008 (2023-04-14)
+
+<code>
+A flaw was found in the Linux kernel's udmabuf device driver. The specific flaw exists within a fault handler. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an array. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.
+</code>
+
+- [bluefrostsecurity/CVE-2023-2008](https://github.com/bluefrostsecurity/CVE-2023-2008)
+
 ### CVE-2023-2033 (2023-04-14)
 
 <code>
@@ -843,6 +851,7 @@ GeoServer is an open source software server written in Java that allows users to
 - [drfabiocastro/geoserver](https://github.com/drfabiocastro/geoserver)
 - [0x2458bughunt/CVE-2023-25157](https://github.com/0x2458bughunt/CVE-2023-25157)
 - [murataydemir/CVE-2023-25157-and-CVE-2023-25158](https://github.com/murataydemir/CVE-2023-25157-and-CVE-2023-25158)
+- [7imbitz/CVE-2023-25157-checker](https://github.com/7imbitz/CVE-2023-25157-checker)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -1624,7 +1633,12 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 - [v0ita/rocketMq_RCE](https://github.com/v0ita/rocketMq_RCE)
 - [hheeyywweellccoommee/CVE-2023-33246-rnkku](https://github.com/hheeyywweellccoommee/CVE-2023-33246-rnkku)
 
-### CVE-2023-33253
+### CVE-2023-33253 (2023-06-12)
+
+<code>
+LabCollector 6.0 though 6.15 allows remote code execution. An authenticated remote low-privileged user can upload an executable PHP file and execute system commands. The vulnerability is in the message function, and is due to insufficient validation of the file (such as shell.jpg.php.shell) being sent.
+</code>
+
 - [Toxich4/CVE-2023-33253](https://github.com/Toxich4/CVE-2023-33253)
 
 ### CVE-2023-33381 (2023-06-06)
@@ -1759,12 +1773,13 @@ In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.
 - [hheeyywweellccoommee/CVE-2023-34362-nhjxn](https://github.com/hheeyywweellccoommee/CVE-2023-34362-nhjxn)
 - [horizon3ai/CVE-2023-34362](https://github.com/horizon3ai/CVE-2023-34362)
 - [lithuanian-g/cve-2023-34362-iocs](https://github.com/lithuanian-g/cve-2023-34362-iocs)
+- [sfewer-r7/CVE-2023-34362](https://github.com/sfewer-r7/CVE-2023-34362)
 
 ### CVE-2023-34960
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
 
 ### CVE-2023-34965
-- [happy0717/CVE-2023-34965](https://github.com/happy0717/CVE-2023-34965)
+- [AgentY0/CVE-2023-34965](https://github.com/AgentY0/CVE-2023-34965)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -2589,6 +2604,14 @@ Unrestricted Upload of File with Dangerous Type in GitHub repository boxbilling/
 </code>
 
 - [kabir0x23/CVE-2022-3552](https://github.com/kabir0x23/CVE-2022-3552)
+
+### CVE-2022-3590 (2022-12-14)
+
+<code>
+WordPress is affected by an unauthenticated blind SSRF in the pingback feature. Because of a TOCTOU race condition between the validation checks and the HTTP request, attackers can reach internal hosts that are explicitly forbidden.
+</code>
+
+- [hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner](https://github.com/hxlxmjxbbxs/CVE-2022-3590-WordPress-Vulnerability-Scanner)
 
 ### CVE-2022-3602 (2022-11-01)
 
@@ -9837,6 +9860,7 @@ Adminer is an open-source database management in a single PHP file. In adminer f
 </code>
 
 - [llhala/CVE-2021-21311](https://github.com/llhala/CVE-2021-21311)
+- [omoknooni/CVE-2021-21311](https://github.com/omoknooni/CVE-2021-21311)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -32098,7 +32122,6 @@ The updateMessageStatus function in Android 5.1.1 and earlier allows local users
 Integer underflow in the MPEG4Extractor::parseChunk function in MPEG4Extractor.cpp in libstagefright in mediaserver in Android before 5.1.1 LMY48M allows remote attackers to execute arbitrary code via crafted MPEG-4 data, aka internal bug 23034759.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2015-3824.
 </code>
 
-- [pwnaccelerator/stagefright-cve-2015-3864](https://github.com/pwnaccelerator/stagefright-cve-2015-3864)
 - [eudemonics/scaredycat](https://github.com/eudemonics/scaredycat)
 - [HenryVHuang/CVE-2015-3864](https://github.com/HenryVHuang/CVE-2015-3864)
 
