@@ -1632,6 +1632,7 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 - [CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246)
 - [v0ita/rocketMq_RCE](https://github.com/v0ita/rocketMq_RCE)
 - [hheeyywweellccoommee/CVE-2023-33246-rnkku](https://github.com/hheeyywweellccoommee/CVE-2023-33246-rnkku)
+- [hheeyywweellccoommee/CVE-2023-33246-dgjfd](https://github.com/hheeyywweellccoommee/CVE-2023-33246-dgjfd)
 
 ### CVE-2023-33253 (2023-06-12)
 
