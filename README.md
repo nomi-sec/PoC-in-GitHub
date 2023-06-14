@@ -258,6 +258,14 @@ The NEX-Forms WordPress plugin before 8.4 does not properly escape the `table` p
 ### CVE-2023-2123
 - [daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin)
 
+### CVE-2023-2249 (2023-06-09)
+
+<code>
+The wpForo Forum plugin for WordPress is vulnerable to Local File Include, Server-Side Request Forgery, and PHAR Deserialization in versions up to, and including, 2.1.7. This is due to the insecure use of file_get_contents without appropriate verification of the data being supplied to the function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to retrieve the contents of files like wp-config.php hosted on the system, perform a deserialization attack and possibly achieve remote code execution, and make requests to internal services.
+</code>
+
+- [ixiacom/CVE-2023-2249](https://github.com/ixiacom/CVE-2023-2249)
+
 ### CVE-2023-2516 (2023-05-05)
 
 <code>
@@ -1169,7 +1177,12 @@ Windows Kerberos Elevation of Privilege Vulnerability
 
 - [sk3w/cve-2023-28244](https://github.com/sk3w/cve-2023-28244)
 
-### CVE-2023-28310
+### CVE-2023-28310 (2023-06-14)
+
+<code>
+Microsoft Exchange Server Remote Code Execution Vulnerability
+</code>
+
 - [wh-gov/cve-2023-28310](https://github.com/wh-gov/cve-2023-28310)
 
 ### CVE-2023-28343 (2023-03-14)
@@ -19143,7 +19156,6 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 - [ykg88/OHTS_IE6052-CVE-2020-17087](https://github.com/ykg88/OHTS_IE6052-CVE-2020-17087)
-- [vp777/Windows-Non-Paged-Pool-Overflow-Exploitation](https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation)
 - [raiden757/CVE-2020-17087](https://github.com/raiden757/CVE-2020-17087)
 
 ### CVE-2020-17136 (2020-12-09)
@@ -28591,6 +28603,14 @@ An elevation of privilege vulnerability in the Android framework (gatekeeperresp
 
 - [michalbednarski/ReparcelBug](https://github.com/michalbednarski/ReparcelBug)
 
+### CVE-2017-0807 (2017-10-03)
+
+<code>
+An elevation of privilege vulnerability in the Android framework (ui framework). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2. Android ID: A-35056974.
+</code>
+
+- [kpatsakis/PoC_CVE-2017-0807](https://github.com/kpatsakis/PoC_CVE-2017-0807)
+
 ### CVE-2017-1635 (2017-12-13)
 
 <code>
@@ -28966,6 +28986,7 @@ Firmware in the Intel Puma 5, 6, and 7 Series might experience resource depletio
 Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
+- [opsxcq/exploit-cve-2017-5715](https://github.com/opsxcq/exploit-cve-2017-5715)
 - [mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list)
 - [GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment)
 - [dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit)
@@ -28984,6 +29005,7 @@ Insufficient input validation in system firmware for Intel NUC7i3BNK, NUC7i3BNH,
 Systems with microprocessors utilizing speculative execution and branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
+- [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack)
 - [EdwardOwusuAdjei/Spectre-PoC](https://github.com/EdwardOwusuAdjei/Spectre-PoC)
 - [poilynx/spectre-attack-example](https://github.com/poilynx/spectre-attack-example)
 - [pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo)
@@ -29511,6 +29533,14 @@ SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to ex
 - [brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917)
 - [stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla)
 - [cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917)
+
+### CVE-2017-9097 (2017-06-15)
+
+<code>
+In Anti-Web through 3.8.7, as used on NetBiter FGW200 devices through 3.21.2, WS100 devices through 3.30.5, EC150 devices through 1.40.0, WS200 devices through 3.30.4, EC250 devices through 1.40.0, and other products, an LFI vulnerability allows a remote attacker to read or modify files through a path traversal technique, as demonstrated by reading the password file, or using the template parameter to cgi-bin/write.cgi to write to an arbitrary file.
+</code>
+
+- [MDudek-ICS/AntiWeb_testing-Suite](https://github.com/MDudek-ICS/AntiWeb_testing-Suite)
 
 ### CVE-2017-9101 (2017-05-21)
 
