@@ -389,6 +389,7 @@ Aria Operations for Networks contains a command injection vulnerability. A malic
 </code>
 
 - [sinsinology/CVE-2023-20887](https://github.com/sinsinology/CVE-2023-20887)
+- [miko550/CVE-2023-20887](https://github.com/miko550/CVE-2023-20887)
 
 ### CVE-2023-20921 (2023-01-24)
 
@@ -938,6 +939,9 @@ An issue was discovered in Sitecore XP/XM 10.3. As an authenticated Sitecore use
 
 - [istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262)
 
+### CVE-2023-26563
+- [RupturaInfoSec/CVE-2023-26563-26564-26565](https://github.com/RupturaInfoSec/CVE-2023-26563-26564-26565)
+
 ### CVE-2023-26604 (2023-03-03)
 
 <code>
@@ -1164,6 +1168,9 @@ Windows Kerberos Elevation of Privilege Vulnerability
 </code>
 
 - [sk3w/cve-2023-28244](https://github.com/sk3w/cve-2023-28244)
+
+### CVE-2023-28310
+- [wh-gov/cve-2023-28310](https://github.com/wh-gov/cve-2023-28310)
 
 ### CVE-2023-28343 (2023-03-14)
 
@@ -1625,6 +1632,15 @@ Improper Authentication vulnerability in WPDeveloper Essential Addons for Elemen
 - [hheeyywweellccoommee/Mass-CVE-2023-32243-kcpqa](https://github.com/hheeyywweellccoommee/Mass-CVE-2023-32243-kcpqa)
 - [YouGina/CVE-2023-32243](https://github.com/YouGina/CVE-2023-32243)
 - [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
+
+### CVE-2023-32315 (2023-05-26)
+
+<code>
+Openfire is an XMPP server licensed under the Open Source Apache License. Openfire's administrative console, a web-based application, was found to be vulnerable to a path traversal attack via the setup environment. This permitted an unauthenticated user to use the unauthenticated Openfire Setup Environment in an already configured Openfire environment to access restricted pages in the Openfire Admin Console reserved for administrative users. This vulnerability affects all versions of Openfire that have been released since April 2015, starting with version 3.10.0. The problem has been patched in Openfire release 4.7.5 and 4.6.8, and further improvements will be included in the yet-to-be released first version on the 4.8 branch (which is expected to be version 4.8.0). Users are advised to upgrade. If an Openfire upgrade isn’t available for a specific release, or isn’t quickly actionable, users may see the linked github advisory (GHSA-gw42-f939-fhvm) for mitigation advice.
+</code>
+
+- [ohnonoyesyes/CVE-2023-32315](https://github.com/ohnonoyesyes/CVE-2023-32315)
+- [tangxiaofeng7/CVE-2023-32315-Openfire-Bypass](https://github.com/tangxiaofeng7/CVE-2023-32315-Openfire-Bypass)
 
 ### CVE-2023-32353
 - [86x/CVE-2023-32353-PoC](https://github.com/86x/CVE-2023-32353-PoC)
@@ -5285,6 +5301,14 @@ A stored cross-site scripting (XSS) vulnerability in /scas/?page=clubs/applicati
 </code>
 
 - [ZSECURE/CVE-2022-29359](https://github.com/ZSECURE/CVE-2022-29359)
+
+### CVE-2022-29361 (2022-05-24)
+
+<code>
+** DISPUTED ** Improper parsing of HTTP requests in Pallets Werkzeug v2.1.0 and below allows attackers to perform HTTP Request Smuggling using a crafted HTTP request with multiple requests included inside the body. NOTE: the vendor's position is that this behavior can only occur in unsupported configurations involving development mode and an HTTP server from outside the Werkzeug project.
+</code>
+
+- [kevin-mizu/Werkzeug-CVE-2022-29361-PoC](https://github.com/kevin-mizu/Werkzeug-CVE-2022-29361-PoC)
 
 ### CVE-2022-29455 (2022-06-13)
 
@@ -28567,14 +28591,6 @@ An elevation of privilege vulnerability in the Android framework (gatekeeperresp
 
 - [michalbednarski/ReparcelBug](https://github.com/michalbednarski/ReparcelBug)
 
-### CVE-2017-0807 (2017-10-03)
-
-<code>
-An elevation of privilege vulnerability in the Android framework (ui framework). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2. Android ID: A-35056974.
-</code>
-
-- [kpatsakis/PoC_CVE-2017-0807](https://github.com/kpatsakis/PoC_CVE-2017-0807)
-
 ### CVE-2017-1635 (2017-12-13)
 
 <code>
@@ -28950,7 +28966,6 @@ Firmware in the Intel Puma 5, 6, and 7 Series might experience resource depletio
 Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
-- [opsxcq/exploit-cve-2017-5715](https://github.com/opsxcq/exploit-cve-2017-5715)
 - [mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list)
 - [GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment)
 - [dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit)
@@ -28969,7 +28984,6 @@ Insufficient input validation in system firmware for Intel NUC7i3BNK, NUC7i3BNH,
 Systems with microprocessors utilizing speculative execution and branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
-- [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack)
 - [EdwardOwusuAdjei/Spectre-PoC](https://github.com/EdwardOwusuAdjei/Spectre-PoC)
 - [poilynx/spectre-attack-example](https://github.com/poilynx/spectre-attack-example)
 - [pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo)
@@ -29497,14 +29511,6 @@ SQL injection vulnerability in Joomla! 3.7.x before 3.7.1 allows attackers to ex
 - [brianwrf/Joomla3.7-SQLi-CVE-2017-8917](https://github.com/brianwrf/Joomla3.7-SQLi-CVE-2017-8917)
 - [stefanlucas/Exploit-Joomla](https://github.com/stefanlucas/Exploit-Joomla)
 - [cved-sources/cve-2017-8917](https://github.com/cved-sources/cve-2017-8917)
-
-### CVE-2017-9097 (2017-06-15)
-
-<code>
-In Anti-Web through 3.8.7, as used on NetBiter FGW200 devices through 3.21.2, WS100 devices through 3.30.5, EC150 devices through 1.40.0, WS200 devices through 3.30.4, EC250 devices through 1.40.0, and other products, an LFI vulnerability allows a remote attacker to read or modify files through a path traversal technique, as demonstrated by reading the password file, or using the template parameter to cgi-bin/write.cgi to write to an arbitrary file.
-</code>
-
-- [MDudek-ICS/AntiWeb_testing-Suite](https://github.com/MDudek-ICS/AntiWeb_testing-Suite)
 
 ### CVE-2017-9101 (2017-05-21)
 
