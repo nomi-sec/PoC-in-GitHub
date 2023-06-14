@@ -1042,6 +1042,9 @@ This vulnerability allows remote attackers to bypass authentication on affected 
 - [Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350)
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
 
+### CVE-2023-27363
+- [webraybtl/CVE-2023-27363](https://github.com/webraybtl/CVE-2023-27363)
+
 ### CVE-2023-27524 (2023-04-24)
 
 <code>
@@ -1826,6 +1829,9 @@ SSPanel-Uim 2023.3 does not restrict access to the /link/ interface which can le
 </code>
 
 - [AgentY0/CVE-2023-34965](https://github.com/AgentY0/CVE-2023-34965)
+
+### CVE-2023-36544
+- [KOwloid/cve-2023-36544](https://github.com/KOwloid/cve-2023-36544)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -15056,6 +15062,7 @@ Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability 
 - [yyqxi/CVE-2021-46422](https://github.com/yyqxi/CVE-2021-46422)
 - [polerstar/CVE-2021-46422-poc](https://github.com/polerstar/CVE-2021-46422-poc)
 - [kailing0220/CVE-2021-46422](https://github.com/kailing0220/CVE-2021-46422)
+- [tucommenceapousser/CVE-2021-46422](https://github.com/tucommenceapousser/CVE-2021-46422)
 
 ### CVE-2021-46702 (2022-02-25)
 
