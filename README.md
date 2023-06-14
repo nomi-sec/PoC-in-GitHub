@@ -345,6 +345,7 @@ The Abandoned Cart Lite for WooCommerce plugin for WordPress is vulnerable to au
 </code>
 
 - [Ayantaker/CVE-2023-2986](https://github.com/Ayantaker/CVE-2023-2986)
+- [Alucard0x1/CVE-2023-2986](https://github.com/Alucard0x1/CVE-2023-2986)
 
 ### CVE-2023-3009 (2023-05-31)
 
@@ -478,6 +479,7 @@ Microsoft Word Remote Code Execution Vulnerability
 - [CKevens/CVE-2023-21716-POC](https://github.com/CKevens/CVE-2023-21716-POC)
 - [hv0l/CVE-2023-21716_exploit](https://github.com/hv0l/CVE-2023-21716_exploit)
 - [JMousqueton/CVE-2023-21716](https://github.com/JMousqueton/CVE-2023-21716)
+- [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 
 ### CVE-2023-21739 (2023-01-10)
 
@@ -1038,6 +1040,7 @@ This vulnerability allows remote attackers to bypass authentication on affected 
 - [horizon3ai/CVE-2023-27350](https://github.com/horizon3ai/CVE-2023-27350)
 - [adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350)
 - [Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350)
+- [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
 
 ### CVE-2023-27524 (2023-04-24)
 
@@ -1760,7 +1763,12 @@ D-Link DIR-842V2 v1.0.3 was discovered to contain a command injection vulnerabil
 
 - [s0tr/CVE-2023-33782](https://github.com/s0tr/CVE-2023-33782)
 
-### CVE-2023-33817
+### CVE-2023-33817 (2023-06-13)
+
+<code>
+hoteldruid v3.0.5 was discovered to contain a SQL injection vulnerability.
+</code>
+
 - [leekenghwa/CVE-2023-33817---SQL-Injection-found-in-HotelDruid-3.0.5](https://github.com/leekenghwa/CVE-2023-33817---SQL-Injection-found-in-HotelDruid-3.0.5)
 
 ### CVE-2023-33829 (2023-05-24)
@@ -1800,20 +1808,27 @@ In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.
 - [lithuanian-g/cve-2023-34362-iocs](https://github.com/lithuanian-g/cve-2023-34362-iocs)
 - [sfewer-r7/CVE-2023-34362](https://github.com/sfewer-r7/CVE-2023-34362)
 
-### CVE-2023-34537
+### CVE-2023-34537 (2023-06-13)
+
+<code>
+A Reflected XSS was discovered in HotelDruid version 3.0.5, an attacker can issue malicious code/command on affected webpage's parameter to trick user on browser and/or exfiltrate data.
+</code>
+
 - [leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5](https://github.com/leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5)
 
 ### CVE-2023-34960
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
 
-### CVE-2023-34965
+### CVE-2023-34965 (2023-06-13)
+
+<code>
+SSPanel-Uim 2023.3 does not restrict access to the /link/ interface which can lead to a leak of user information.
+</code>
+
 - [AgentY0/CVE-2023-34965](https://github.com/AgentY0/CVE-2023-34965)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
-
-### CVE-2023-66975
-- [Idoies/cve-2023-66975](https://github.com/Idoies/cve-2023-66975)
 
 
 ## 2022
@@ -11958,6 +11973,7 @@ Tencent GameLoop before 4.1.21.90 downloaded updates over an insecure HTTP conne
 fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not properly restrict seq buffer allocations, leading to an integer overflow, an Out-of-bounds Write, and escalation to root by an unprivileged user, aka CID-8cae8cd89f05.
 </code>
 
+- [bbinfosec43/CVE-2021-33909](https://github.com/bbinfosec43/CVE-2021-33909)
 - [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
 ### CVE-2021-33959 (2023-01-18)
@@ -13917,14 +13933,6 @@ Automox Agent before 32 on Windows incorrectly sets permissions on a temporary d
 </code>
 
 - [gfoss/CVE-2021-43326_Exploit](https://github.com/gfoss/CVE-2021-43326_Exploit)
-
-### CVE-2021-43361 (2022-09-28)
-
-<code>
-Due to improper sanitization MedData HBYS software suffers from a remote SQL injection vulnerability. An unauthenticated attacker with the web access is able to extract critical information from the system.
-</code>
-
-- [bartutku/CVE-2021-43361](https://github.com/bartutku/CVE-2021-43361)
 
 ### CVE-2021-43408 (2021-11-19)
 
