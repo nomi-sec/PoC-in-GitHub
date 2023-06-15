@@ -10582,6 +10582,14 @@ The Frontend Uploader WordPress plugin through 1.3.2 does not prevent HTML files
 
 - [V35HR4J/CVE-2021-24563](https://github.com/V35HR4J/CVE-2021-24563)
 
+### CVE-2021-24647 (2021-11-08)
+
+<code>
+The Registration Forms – User profile, Content Restriction, Spam Protection, Payment Gateways, Invitation Codes WordPress plugin before 3.1.7.6 has a flaw in the social login implementation, allowing unauthenticated attacker to login as any user on the site by only knowing their user ID or username
+</code>
+
+- [RandomRobbieBF/CVE-2021-24647](https://github.com/RandomRobbieBF/CVE-2021-24647)
+
 ### CVE-2021-24741 (2021-09-20)
 
 <code>
