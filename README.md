@@ -9705,6 +9705,7 @@ A local privilege escalation vulnerability was found on polkit's pkexec utility.
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
 - [c1ph3rm4st3r/CVE-2021-4034_Python3](https://github.com/c1ph3rm4st3r/CVE-2021-4034_Python3)
+- [TheSermux/CVE-2021-4034](https://github.com/TheSermux/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -19156,6 +19157,7 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 - [ykg88/OHTS_IE6052-CVE-2020-17087](https://github.com/ykg88/OHTS_IE6052-CVE-2020-17087)
+- [vp777/Windows-Non-Paged-Pool-Overflow-Exploitation](https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation)
 - [raiden757/CVE-2020-17087](https://github.com/raiden757/CVE-2020-17087)
 
 ### CVE-2020-17136 (2020-12-09)
@@ -31361,7 +31363,6 @@ net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine 
 - [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
 - [violentshell/rover](https://github.com/violentshell/rover)
 - [jduck/challack](https://github.com/jduck/challack)
-- [bplinux/chackd](https://github.com/bplinux/chackd)
 - [unkaktus/grill](https://github.com/unkaktus/grill)
 
 ### CVE-2016-5699 (2016-09-02)
@@ -31371,7 +31372,6 @@ CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2
 </code>
 
 - [bunseokbot/CVE-2016-5699-poc](https://github.com/bunseokbot/CVE-2016-5699-poc)
-- [shajinzheng/cve-2016-5699-jinzheng-sha](https://github.com/shajinzheng/cve-2016-5699-jinzheng-sha)
 
 ### CVE-2016-5734 (2016-07-02)
 
