@@ -1143,6 +1143,7 @@ A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 an
 </code>
 
 - [hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz](https://github.com/hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz)
+- [Pik-sec/cve-2023-27997](https://github.com/Pik-sec/cve-2023-27997)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -1654,6 +1655,7 @@ Openfire is an XMPP server licensed under the Open Source Apache License. Openfi
 
 - [ohnonoyesyes/CVE-2023-32315](https://github.com/ohnonoyesyes/CVE-2023-32315)
 - [tangxiaofeng7/CVE-2023-32315-Openfire-Bypass](https://github.com/tangxiaofeng7/CVE-2023-32315-Openfire-Bypass)
+- [5rGJ5aCh5oCq5YW9/CVE-2023-32315exp](https://github.com/5rGJ5aCh5oCq5YW9/CVE-2023-32315exp)
 
 ### CVE-2023-32353
 - [86x/CVE-2023-32353-PoC](https://github.com/86x/CVE-2023-32353-PoC)
@@ -1686,7 +1688,7 @@ For RocketMQ versions 5.1.0 and below, under certain conditions, there is a risk
 - [SuperZero/CVE-2023-33246](https://github.com/SuperZero/CVE-2023-33246)
 - [Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT)
 - [CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246)
-- [v0ita/rocketMq_RCE](https://github.com/v0ita/rocketMq_RCE)
+- [cr1me0/rocketMq_RCE](https://github.com/cr1me0/rocketMq_RCE)
 - [hheeyywweellccoommee/CVE-2023-33246-rnkku](https://github.com/hheeyywweellccoommee/CVE-2023-33246-rnkku)
 - [hheeyywweellccoommee/CVE-2023-33246-dgjfd](https://github.com/hheeyywweellccoommee/CVE-2023-33246-dgjfd)
 
@@ -1847,6 +1849,12 @@ A Reflected XSS was discovered in HotelDruid version 3.0.5, an attacker can issu
 </code>
 
 - [leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5](https://github.com/leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5)
+
+### CVE-2023-34852
+- [funny-kill/CVE-2023-34852](https://github.com/funny-kill/CVE-2023-34852)
+
+### CVE-2023-34924
+- [ChrisL0tus/CVE-2023-34924](https://github.com/ChrisL0tus/CVE-2023-34924)
 
 ### CVE-2023-34960
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
@@ -7793,6 +7801,14 @@ dedecmdv6 v6.1.9 is vulnerable to Remote Code Execution (RCE) via file_manage_co
 </code>
 
 - [Athishpranav2003/CVE-2022-44118-Exploit](https://github.com/Athishpranav2003/CVE-2022-44118-Exploit)
+
+### CVE-2022-44136 (2022-11-30)
+
+<code>
+Zenario CMS 9.3.57186 is vulnerable to Remote Code Excution (RCE).
+</code>
+
+- [IgorDuino/CVE-2022-44136-exploit](https://github.com/IgorDuino/CVE-2022-44136-exploit)
 
 ### CVE-2022-44149 (2023-01-06)
 
@@ -31363,6 +31379,7 @@ net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine 
 - [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
 - [violentshell/rover](https://github.com/violentshell/rover)
 - [jduck/challack](https://github.com/jduck/challack)
+- [bplinux/chackd](https://github.com/bplinux/chackd)
 - [unkaktus/grill](https://github.com/unkaktus/grill)
 
 ### CVE-2016-5699 (2016-09-02)
@@ -31372,6 +31389,7 @@ CRLF injection vulnerability in the HTTPConnection.putheader function in urllib2
 </code>
 
 - [bunseokbot/CVE-2016-5699-poc](https://github.com/bunseokbot/CVE-2016-5699-poc)
+- [shajinzheng/cve-2016-5699-jinzheng-sha](https://github.com/shajinzheng/cve-2016-5699-jinzheng-sha)
 
 ### CVE-2016-5734 (2016-07-02)
 
