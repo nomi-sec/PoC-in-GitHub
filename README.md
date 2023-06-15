@@ -56,6 +56,7 @@ Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 - [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
+- [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
 
 ### CVE-2023-0315 (2023-01-15)
 
@@ -2468,7 +2469,7 @@ The WPQA Builder WordPress plugin before 5.4 which is a companion to the Discy a
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
-- [syscall21h/cve-2022-1609-exploit](https://github.com/syscall21h/cve-2022-1609-exploit)
+- [realsiao/cve-2022-1609-exploit](https://github.com/realsiao/cve-2022-1609-exploit)
 
 ### CVE-2022-1679 (2022-05-16)
 
