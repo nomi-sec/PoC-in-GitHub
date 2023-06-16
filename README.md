@@ -676,6 +676,7 @@ There is a command injection vulnerability in SolarView Compact through 6.00, at
 </code>
 
 - [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
+- [Mr-xn/CVE-2023-23333](https://github.com/Mr-xn/CVE-2023-23333)
 
 ### CVE-2023-23396 (2023-03-14)
 
@@ -1055,9 +1056,6 @@ This vulnerability allows remote attackers to bypass authentication on affected 
 - [adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350)
 - [Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350)
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
-
-### CVE-2023-27363
-- [webraybtl/CVE-2023-27363](https://github.com/webraybtl/CVE-2023-27363)
 
 ### CVE-2023-27524 (2023-04-24)
 
@@ -1849,7 +1847,7 @@ In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.
 - [horizon3ai/CVE-2023-34362](https://github.com/horizon3ai/CVE-2023-34362)
 - [lithuanian-g/cve-2023-34362-iocs](https://github.com/lithuanian-g/cve-2023-34362-iocs)
 - [sfewer-r7/CVE-2023-34362](https://github.com/sfewer-r7/CVE-2023-34362)
-- [sickthecat/CVE-2023-34362](https://github.com/sickthecat/CVE-2023-34362)
+- [hheeyywweellccoommee/CVE-2023-34362-zcial](https://github.com/hheeyywweellccoommee/CVE-2023-34362-zcial)
 - [kenbuckler/MOVEit-CVE-2023-34362](https://github.com/kenbuckler/MOVEit-CVE-2023-34362)
 
 ### CVE-2023-34537 (2023-06-13)
@@ -2296,14 +2294,6 @@ The WPQA Builder Plugin WordPress plugin before 5.2, used as a companion plugin 
 </code>
 
 - [V35HR4J/CVE-2022-1051](https://github.com/V35HR4J/CVE-2022-1051)
-
-### CVE-2022-1068 (2022-04-01)
-
-<code>
-Modbus Tools Modbus Slave (versions 7.4.2 and prior) is vulnerable to a stack-based buffer overflow in the registration field. This may cause the program to crash when a long character string is used.
-</code>
-
-- [webraybtl/CVE-2022-1068](https://github.com/webraybtl/CVE-2022-1068)
 
 ### CVE-2022-1077 (2022-03-29)
 
@@ -4376,7 +4366,6 @@ wpsupdater.exe in Kingsoft WPS Office through 11.2.0.10382 allows remote code ex
 
 - [nanaao/CVE-2022-24934](https://github.com/nanaao/CVE-2022-24934)
 - [ASkyeye/WPS-CVE-2022-24934](https://github.com/ASkyeye/WPS-CVE-2022-24934)
-- [webraybtl/CVE-2022-24934](https://github.com/webraybtl/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
 
 ### CVE-2022-24990 (2023-02-07)
@@ -4636,14 +4625,6 @@ Versions of the package ua-parser-js from 0.7.30 and before 0.7.33, from 0.8.1 a
 </code>
 
 - [masahiro331/cve-2022-25927](https://github.com/masahiro331/cve-2022-25927)
-
-### CVE-2022-25943 (2022-03-08)
-
-<code>
-The installer of WPS Office for Windows versions prior to v11.2.0.10258 fails to configure properly the ACL for the directory where the service program is installed.
-</code>
-
-- [webraybtl/CVE-2022-25943](https://github.com/webraybtl/CVE-2022-25943)
 
 ### CVE-2022-25949 (2022-03-17)
 
@@ -19030,6 +19011,14 @@ TerraMaster TOS before 4.1.29 has Invalid Parameter Checking that leads to code 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
 - [Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit)
 
+### CVE-2020-15802 (2020-09-11)
+
+<code>
+Devices supporting Bluetooth before 5.1 may allow man-in-the-middle attacks, aka BLURtooth. Cross Transport Key Derivation in Bluetooth Core Specification v4.2 and v5.0 may permit an unauthenticated user to establish a bonding with one transport, either LE or BR/EDR, and replace a bonding already established on the opposing transport, BR/EDR or LE, potentially overwriting an authenticated key with an unauthenticated key, or a key with greater entropy with one with less.
+</code>
+
+- [francozappa/blur](https://github.com/francozappa/blur)
+
 ### CVE-2020-15808
 - [manucuf/CVE202015808](https://github.com/manucuf/CVE202015808)
 
@@ -19359,6 +19348,14 @@ Cross Site Request Forgery (CSRF) vulnerability exists in Intelliants Subrion CM
 </code>
 
 - [hamm0nz/CVE-2020-18326](https://github.com/hamm0nz/CVE-2020-18326)
+
+### CVE-2020-19586 (2022-09-13)
+
+<code>
+Incorrect Access Control issue in Yellowfin Business Intelligence 7.3 allows remote attackers to escalate privilege via MIAdminStyles.i4 Admin UI.
+</code>
+
+- [Deepak983/CVE-2020-19586](https://github.com/Deepak983/CVE-2020-19586)
 
 ### CVE-2020-19587 (2022-09-13)
 
@@ -20028,6 +20025,14 @@ Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Ve
 
 - [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
 
+### CVE-2020-26878 (2020-10-26)
+
+<code>
+Ruckus through 1.5.1.0.21 is affected by remote command injection. An authenticated user can submit a query to the API (/service/v1/createUser endpoint), injecting arbitrary commands that will be executed as root user via web.py.
+</code>
+
+- [htarsoo/CVE-2020-26878](https://github.com/htarsoo/CVE-2020-26878)
+
 ### CVE-2020-27190
 - [qlh831/x-CVE-2020-27190](https://github.com/qlh831/x-CVE-2020-27190)
 
@@ -20352,6 +20357,7 @@ Archive_Tar through 1.4.10 allows an unserialization attack because phar: is blo
 
 - [0x240x23elu/CVE-2020-28948-and-CVE-2020-28949](https://github.com/0x240x23elu/CVE-2020-28948-and-CVE-2020-28949)
 - [nopdata/cve-2020-28948](https://github.com/nopdata/cve-2020-28948)
+- [JinHao-L/PoC-for-CVE-2020-28948-CVE-2020-28949](https://github.com/JinHao-L/PoC-for-CVE-2020-28948-CVE-2020-28949)
 
 ### CVE-2020-29007 (2023-04-15)
 
@@ -29988,6 +29994,7 @@ In Jboss Application Server as shipped with Red Hat Enterprise Application Platf
 - [sevck/CVE-2017-12149](https://github.com/sevck/CVE-2017-12149)
 - [yunxu1/jboss-_CVE-2017-12149](https://github.com/yunxu1/jboss-_CVE-2017-12149)
 - [1337g/CVE-2017-12149](https://github.com/1337g/CVE-2017-12149)
+- [jreppiks/CVE-2017-12149](https://github.com/jreppiks/CVE-2017-12149)
 - [Xcatolin/jboss-deserialization](https://github.com/Xcatolin/jboss-deserialization)
 
 ### CVE-2017-12426 (2017-08-14)
