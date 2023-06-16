@@ -771,6 +771,7 @@ An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check
 - [Pari-Malam/CVE-2023-23752](https://github.com/Pari-Malam/CVE-2023-23752)
 - [equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance)
 - [wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752)
+- [Sweelg/CVE-2023-23752](https://github.com/Sweelg/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -1858,6 +1859,12 @@ A Reflected XSS was discovered in HotelDruid version 3.0.5, an attacker can issu
 </code>
 
 - [leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5](https://github.com/leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5)
+
+### CVE-2023-34600
+- [costacoco/Adiscon](https://github.com/costacoco/Adiscon)
+
+### CVE-2023-34830
+- [leekenghwa/CVE-2023-34830---Reflected-XSS-found-in-I-doit-Open-v24-and-below](https://github.com/leekenghwa/CVE-2023-34830---Reflected-XSS-found-in-I-doit-Open-v24-and-below)
 
 ### CVE-2023-34852 (2023-06-15)
 
@@ -19023,14 +19030,6 @@ TerraMaster TOS before 4.1.29 has Invalid Parameter Checking that leads to code 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
 - [Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit)
 
-### CVE-2020-15802 (2020-09-11)
-
-<code>
-Devices supporting Bluetooth before 5.1 may allow man-in-the-middle attacks, aka BLURtooth. Cross Transport Key Derivation in Bluetooth Core Specification v4.2 and v5.0 may permit an unauthenticated user to establish a bonding with one transport, either LE or BR/EDR, and replace a bonding already established on the opposing transport, BR/EDR or LE, potentially overwriting an authenticated key with an unauthenticated key, or a key with greater entropy with one with less.
-</code>
-
-- [francozappa/blur](https://github.com/francozappa/blur)
-
 ### CVE-2020-15808
 - [manucuf/CVE202015808](https://github.com/manucuf/CVE202015808)
 
@@ -19360,14 +19359,6 @@ Cross Site Request Forgery (CSRF) vulnerability exists in Intelliants Subrion CM
 </code>
 
 - [hamm0nz/CVE-2020-18326](https://github.com/hamm0nz/CVE-2020-18326)
-
-### CVE-2020-19586 (2022-09-13)
-
-<code>
-Incorrect Access Control issue in Yellowfin Business Intelligence 7.3 allows remote attackers to escalate privilege via MIAdminStyles.i4 Admin UI.
-</code>
-
-- [Deepak983/CVE-2020-19586](https://github.com/Deepak983/CVE-2020-19586)
 
 ### CVE-2020-19587 (2022-09-13)
 
@@ -20037,14 +20028,6 @@ Cross Site Scripting (XSS) in Configuration page in SKYWORTH GN542VF Hardware Ve
 
 - [swzhouu/CVE-2020-26733](https://github.com/swzhouu/CVE-2020-26733)
 
-### CVE-2020-26878 (2020-10-26)
-
-<code>
-Ruckus through 1.5.1.0.21 is affected by remote command injection. An authenticated user can submit a query to the API (/service/v1/createUser endpoint), injecting arbitrary commands that will be executed as root user via web.py.
-</code>
-
-- [htarsoo/CVE-2020-26878](https://github.com/htarsoo/CVE-2020-26878)
-
 ### CVE-2020-27190
 - [qlh831/x-CVE-2020-27190](https://github.com/qlh831/x-CVE-2020-27190)
 
@@ -20369,7 +20352,6 @@ Archive_Tar through 1.4.10 allows an unserialization attack because phar: is blo
 
 - [0x240x23elu/CVE-2020-28948-and-CVE-2020-28949](https://github.com/0x240x23elu/CVE-2020-28948-and-CVE-2020-28949)
 - [nopdata/cve-2020-28948](https://github.com/nopdata/cve-2020-28948)
-- [JinHao-L/PoC-for-CVE-2020-28948-CVE-2020-28949](https://github.com/JinHao-L/PoC-for-CVE-2020-28948-CVE-2020-28949)
 
 ### CVE-2020-29007 (2023-04-15)
 
@@ -30006,7 +29988,6 @@ In Jboss Application Server as shipped with Red Hat Enterprise Application Platf
 - [sevck/CVE-2017-12149](https://github.com/sevck/CVE-2017-12149)
 - [yunxu1/jboss-_CVE-2017-12149](https://github.com/yunxu1/jboss-_CVE-2017-12149)
 - [1337g/CVE-2017-12149](https://github.com/1337g/CVE-2017-12149)
-- [jreppiks/CVE-2017-12149](https://github.com/jreppiks/CVE-2017-12149)
 - [Xcatolin/jboss-deserialization](https://github.com/Xcatolin/jboss-deserialization)
 
 ### CVE-2017-12426 (2017-08-14)
