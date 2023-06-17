@@ -804,6 +804,14 @@ Grand Theft Auto V for PC allows attackers to achieve partial remote code execut
 
 - [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
 
+### CVE-2023-24078 (2023-02-17)
+
+<code>
+Real Time Logic FuguHub v8.1 and earlier was discovered to contain a remote code execution (RCE) vulnerability via the component /FuguHub/cmsdocs/.
+</code>
+
+- [overgrowncarrot1/CVE-2023-24078](https://github.com/overgrowncarrot1/CVE-2023-24078)
+
 ### CVE-2023-24317 (2023-02-23)
 
 <code>
@@ -16739,14 +16747,6 @@ Symantec Endpoint Detection And Response, prior to 4.4, may be susceptible to an
 
 - [nasbench/CVE-2020-5839](https://github.com/nasbench/CVE-2020-5839)
 
-### CVE-2020-5842 (2020-01-07)
-
-<code>
-Codoforum 4.8.3 allows XSS in the user registration page: via the username field to the index.php?u=/user/register URI. The payload is, for example, executed on the admin/index.php?page=users/manage page.
-</code>
-
-- [prasanthc41m/codoforum](https://github.com/prasanthc41m/codoforum)
-
 ### CVE-2020-5844 (2020-03-16)
 
 <code>
@@ -17103,14 +17103,6 @@ In JFrog Artifactory 5.x and 6.x, insecure FreeMarker template processing leads 
 </code>
 
 - [gquere/CVE-2020-7931](https://github.com/gquere/CVE-2020-7931)
-
-### CVE-2020-7934 (2020-01-28)
-
-<code>
-In LifeRay Portal CE 7.1.0 through 7.2.1 GA2, the First Name, Middle Name, and Last Name fields for user accounts in MyAccountPortlet are all vulnerable to a persistent XSS issue. Any user can modify these fields with a particular XSS payload, and it will be stored in the database. The payload will then be rendered when a user utilizes the search feature to search for other users (i.e., if a user with modified fields occurs in the search results). This issue was fixed in Liferay Portal CE version 7.3.0 GA1.
-</code>
-
-- [Sergio235705/audit-xss-cve-2020-7934](https://github.com/Sergio235705/audit-xss-cve-2020-7934)
 
 ### CVE-2020-7961 (2020-03-20)
 
@@ -18670,7 +18662,6 @@ In Moodle before 3.9.1, 3.8.4, 3.7.7 and 3.5.13, teachers of a course were able 
 
 - [HoangKien1020/CVE-2020-14321](https://github.com/HoangKien1020/CVE-2020-14321)
 - [lanzt/CVE-2020-14321](https://github.com/lanzt/CVE-2020-14321)
-- [f0ns1/CVE-2020-14321-modified-exploit](https://github.com/f0ns1/CVE-2020-14321-modified-exploit)
 
 ### CVE-2020-14343 (2021-02-09)
 
@@ -20604,14 +20595,6 @@ KLog Server 2.4.1 allows OS command injection via shell metacharacters in the ac
 </code>
 
 - [Al1ex/CVE-2020-35729](https://github.com/Al1ex/CVE-2020-35729)
-
-### CVE-2020-35749 (2021-01-15)
-
-<code>
-Directory traversal vulnerability in class-simple_job_board_resume_download_handler.php in the Simple Board Job plugin 2.9.3 and earlier for WordPress allows remote attackers to read arbitrary files via the sjb_file parameter to wp-admin/post.php.
-</code>
-
-- [M4xSec/Wordpress-CVE-2020-35749](https://github.com/M4xSec/Wordpress-CVE-2020-35749)
 
 ### CVE-2020-35846 (2020-12-29)
 
