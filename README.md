@@ -1464,6 +1464,14 @@ SmartPTT SCADA 1.1.0.0 allows remote code execution (when the attacker has admin
 
 - [Toxich4/CVE-2023-30459](https://github.com/Toxich4/CVE-2023-30459)
 
+### CVE-2023-30777 (2023-05-10)
+
+<code>
+Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in WP Engine Advanced Custom Fields Pro, WP Engine Advanced Custom Fields plugins &lt;= 6.1.5 versions.
+</code>
+
+- [Alucard0x1/CVE-2023-30777](https://github.com/Alucard0x1/CVE-2023-30777)
+
 ### CVE-2023-30839 (2023-04-25)
 
 <code>
@@ -3783,7 +3791,7 @@ A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable t
 - [devengpk/CVE-2022-22965](https://github.com/devengpk/CVE-2022-22965)
 - [zangcc/CVE-2022-22965-rexbb](https://github.com/zangcc/CVE-2022-22965-rexbb)
 - [ajith737/Spring4Shell-CVE-2022-22965-POC](https://github.com/ajith737/Spring4Shell-CVE-2022-22965-POC)
-- [pwnwriter/CVE-2022-22965](https://github.com/pwnwriter/CVE-2022-22965)
+- [c33dd/CVE-2022-22965](https://github.com/c33dd/CVE-2022-22965)
 - [gokul-ramesh/Spring4Shell-PoC-exploit](https://github.com/gokul-ramesh/Spring4Shell-PoC-exploit)
 - [bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-](https://github.com/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-)
 - [BKLockly/CVE-2022-22965](https://github.com/BKLockly/CVE-2022-22965)
