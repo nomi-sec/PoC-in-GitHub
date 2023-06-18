@@ -1315,6 +1315,14 @@ Win32k Elevation of Privilege Vulnerability
 
 - [m-cetin/CVE-2023-29336](https://github.com/m-cetin/CVE-2023-29336)
 
+### CVE-2023-29343 (2023-05-09)
+
+<code>
+SysInternals Sysmon for Windows Elevation of Privilege Vulnerability
+</code>
+
+- [Wh04m1001/CVE-2023-29343](https://github.com/Wh04m1001/CVE-2023-29343)
+
 ### CVE-2023-29421 (2023-04-06)
 
 <code>
@@ -11029,7 +11037,6 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [RickGeex/ProxyLogon](https://github.com/RickGeex/ProxyLogon)
 - [Immersive-Labs-Sec/ProxyLogon](https://github.com/Immersive-Labs-Sec/ProxyLogon)
 - [shacojx/Scan-Vuln-CVE-2021-26855](https://github.com/shacojx/Scan-Vuln-CVE-2021-26855)
-- [sotiriskar/CVE-2021-26855](https://github.com/sotiriskar/CVE-2021-26855)
 - [TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit](https://github.com/TaroballzChen/ProxyLogon-CVE-2021-26855-metasploit)
 - [p0wershe11/ProxyLogon](https://github.com/p0wershe11/ProxyLogon)
 - [shacojx/CVE-2021-26855-exploit-Exchange](https://github.com/shacojx/CVE-2021-26855-exploit-Exchange)
