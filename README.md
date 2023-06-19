@@ -7868,7 +7868,7 @@ The web service on Nexxt Amp300 ARN02304U8 42.103.1.5095 and 80.103.2.5045 devic
 Tenda AC18 V15.03.05.19 is vulnerable to Buffer Overflow via function formSetWifiGuestBasic.
 </code>
 
-- [FuHaoPing/CVE-2022-44183](https://github.com/FuHaoPing/CVE-2022-44183)
+- [flagqaz/CVE-2022-44183](https://github.com/flagqaz/CVE-2022-44183)
 
 ### CVE-2022-44215
 - [JBalanza/CVE-2022-44215](https://github.com/JBalanza/CVE-2022-44215)
@@ -22009,8 +22009,6 @@ The ES File Explorer File Manager application through 4.1.9.7.4 for Android allo
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
 - [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
 - [VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer](https://github.com/VinuKalana/CVE-2019-6447-Android-Vulnerability-in-ES-File-Explorer)
-- [Osuni-99/CVE-2019-6447](https://github.com/Osuni-99/CVE-2019-6447)
-- [Chethine/EsFileExplorer-CVE-2019-6447](https://github.com/Chethine/EsFileExplorer-CVE-2019-6447)
 - [vino-theva/CVE-2019-6447](https://github.com/vino-theva/CVE-2019-6447)
 - [KaviDk/CVE-2019-6447-in-Mobile-Application](https://github.com/KaviDk/CVE-2019-6447-in-Mobile-Application)
 
