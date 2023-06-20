@@ -293,7 +293,15 @@
 - [Occamsec/CVE-2023-2825](https://github.com/Occamsec/CVE-2023-2825)
 - [yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825)
 - [Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab)
+- [EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825)
 - [hheeyywweellccoommee/CVE-2023-2825-zaskh](https://github.com/hheeyywweellccoommee/CVE-2023-2825-zaskh)
+
+### CVE-2023-2833 (2023-06-06)
+
+<code>The ReviewX plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 1.6.13 due to insufficient restriction on the 'rx_set_screen_options' function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to modify their user role by supplying the 'wp_screen_options[option]' and 'wp_screen_options[value]' parameters during a screen option update.
+</code>
+
+- [Alucard0x1/CVE-2023-2833](https://github.com/Alucard0x1/CVE-2023-2833)
 
 ### CVE-2023-2859 (2023-05-24)
 
@@ -1046,6 +1054,7 @@
 - [hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz](https://github.com/hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz)
 - [Pik-sec/cve-2023-27997](https://github.com/Pik-sec/cve-2023-27997)
 - [rio128128/CVE-2023-27997-POC](https://github.com/rio128128/CVE-2023-27997-POC)
+- [BishopFox/CVE-2023-27997-check](https://github.com/BishopFox/CVE-2023-27997-check)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -9508,6 +9517,7 @@
 - [jayngng/CVE-2021-22911](https://github.com/jayngng/CVE-2021-22911)
 - [ChrisPritchard/CVE-2021-22911-rust](https://github.com/ChrisPritchard/CVE-2021-22911-rust)
 - [MrDottt/CVE-2021-22911](https://github.com/MrDottt/CVE-2021-22911)
+- [overgrowncarrot1/CVE-2021-22911](https://github.com/overgrowncarrot1/CVE-2021-22911)
 
 ### CVE-2021-22924 (2021-08-05)
 
