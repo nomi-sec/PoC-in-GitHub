@@ -1599,6 +1599,12 @@
 
 - [duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC](https://github.com/duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC)
 
+### CVE-2023-33404
+- [hacip/CVE-2023-33404](https://github.com/hacip/CVE-2023-33404)
+
+### CVE-2023-33405
+- [hacip/CVE-2023-33405](https://github.com/hacip/CVE-2023-33405)
+
 ### CVE-2023-33408 (2023-06-05)
 
 <code>Minical 1.0.0 is vulnerable to Cross Site Scripting (XSS). The vulnerability exists due to insufficient input validation in the application's user input handling in the security_helper.php file.
@@ -1731,6 +1737,9 @@
 </code>
 
 - [leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5](https://github.com/leekenghwa/CVE-2023-34537---XSS-reflected--found-in-HotelDruid-3.0.5)
+
+### CVE-2023-34584
+- [fu2x2000/-CVE-2023-34584](https://github.com/fu2x2000/-CVE-2023-34584)
 
 ### CVE-2023-34600 (2023-06-20)
 
@@ -2047,6 +2056,7 @@
 - [JlSakuya/CVE-2022-0847-container-escape](https://github.com/JlSakuya/CVE-2022-0847-container-escape)
 - [jonathanbest7/cve-2022-0847](https://github.com/jonathanbest7/cve-2022-0847)
 - [BlizzardEternity/CVE-2022-0847](https://github.com/BlizzardEternity/CVE-2022-0847)
+- [0xeremus/dirty-pipe-poc](https://github.com/0xeremus/dirty-pipe-poc)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -24914,13 +24924,6 @@
 </code>
 
 - [pudding2/CVE-2018-14083](https://github.com/pudding2/CVE-2018-14083)
-
-### CVE-2018-14371 (2018-07-18)
-
-<code>The getLocalePrefix function in ResourceManager.java in Eclipse Mojarra before 2.3.7 is affected by Directory Traversal via the loc parameter. A remote attacker can download configuration files or Java bytecodes from applications.
-</code>
-
-- [mattysaints/CVE-2018-14371](https://github.com/mattysaints/CVE-2018-14371)
 
 ### CVE-2018-14442 (2018-07-20)
 
