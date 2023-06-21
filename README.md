@@ -14695,6 +14695,13 @@
 
 - [kfmgang/CVE-2020-0910](https://github.com/kfmgang/CVE-2020-0910)
 
+### CVE-2020-0917 (2020-04-15)
+
+<code>An elevation of privilege vulnerability exists when Windows Hyper-V on a host server fails to properly handle objects in memory, aka 'Windows Hyper-V Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0918.
+</code>
+
+- [L0ch/CVE-2020-0917_Exploit](https://github.com/L0ch/CVE-2020-0917_Exploit)
+
 ### CVE-2020-0976 (2020-04-15)
 
 <code>A spoofing vulnerability exists when Microsoft SharePoint Server does not properly sanitize a specially crafted web request to an affected SharePoint server, aka 'Microsoft SharePoint Spoofing Vulnerability'. This CVE ID is unique from CVE-2020-0972, CVE-2020-0975, CVE-2020-0977.
