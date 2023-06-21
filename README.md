@@ -1336,6 +1336,9 @@
 
 - [ahrixia/CVE-2023-30256](https://github.com/ahrixia/CVE-2023-30256)
 
+### CVE-2023-30347
+- [huzefa2212/CVE-2023-30347](https://github.com/huzefa2212/CVE-2023-30347)
+
 ### CVE-2023-30458 (2023-04-24)
 
 <code>A username enumeration issue was discovered in Medicine Tracker System 1.0. The login functionality allows a malicious user to guess a valid username due to a different response time from invalid usernames. When one enters a valid username, the response time increases depending on the length of the supplied password.
@@ -12245,6 +12248,7 @@
 - [sasukeourad/CVE-2021-41277_SSRF](https://github.com/sasukeourad/CVE-2021-41277_SSRF)
 - [frknktlca/Metabase_Nmap_Script](https://github.com/frknktlca/Metabase_Nmap_Script)
 - [Chen-ling-afk/CVE-2021-41277](https://github.com/Chen-ling-afk/CVE-2021-41277)
+- [RubXkuB/PoC-Metabase-CVE-2021-41277](https://github.com/RubXkuB/PoC-Metabase-CVE-2021-41277)
 
 ### CVE-2021-41338 (2021-10-12)
 
@@ -13981,6 +13985,13 @@
 
 - [BenEdridge/CVE-2021-46703](https://github.com/BenEdridge/CVE-2021-46703)
 
+### CVE-2021-46704 (2022-03-06)
+
+<code>In GenieACS 1.2.x before 1.2.8, the UI interface API is vulnerable to unauthenticated OS command injection via the ping host argument (lib/ui/api.ts and lib/ping.ts). The vulnerability arises from insufficient input validation combined with a missing authorization check.
+</code>
+
+- [MithatGuner/CVE-2021-46704-POC](https://github.com/MithatGuner/CVE-2021-46704-POC)
+
 ### CVE-2021-268855
 - [sikkertech/CVE-2021-268855](https://github.com/sikkertech/CVE-2021-268855)
 
@@ -15180,7 +15191,6 @@
 - [CrackerCat/CVE-2020-3187](https://github.com/CrackerCat/CVE-2020-3187)
 - [1337in/CVE-2020-3187](https://github.com/1337in/CVE-2020-3187)
 - [sujaygr8/CVE-2020-3187](https://github.com/sujaygr8/CVE-2020-3187)
-- [T4t4ru/CVE-2020-3187](https://github.com/T4t4ru/CVE-2020-3187)
 - [sunyyer/CVE-2020-3187-Scanlist](https://github.com/sunyyer/CVE-2020-3187-Scanlist)
 
 ### CVE-2020-3433 (2020-08-17)
@@ -30858,6 +30868,7 @@
 - [FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-)
 - [mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271)
 - [Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271)
+- [Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability](https://github.com/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability)
 
 ### CVE-2014-6287 (2014-10-07)
 
