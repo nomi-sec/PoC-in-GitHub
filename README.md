@@ -15852,7 +15852,6 @@
 <code>Uncontrolled resource consumption in `jpeg-js` before 0.4.0 may allow attacker to launch denial of service attacks using specially a crafted JPEG image.
 </code>
 
-- [knokbak/get-pixels-updated](https://github.com/knokbak/get-pixels-updated)
 - [knokbak/save-pixels-updated](https://github.com/knokbak/save-pixels-updated)
 
 ### CVE-2020-8193 (2020-07-10)
@@ -24689,6 +24688,7 @@
 - [cucadili/CVE-2018-11776](https://github.com/cucadili/CVE-2018-11776)
 - [ArunBhandarii/Apache-Struts-0Day-Exploit](https://github.com/ArunBhandarii/Apache-Struts-0Day-Exploit)
 - [freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776)
+- [tsong0ku/CVE-2018-11776-FIS](https://github.com/tsong0ku/CVE-2018-11776-FIS)
 
 ### CVE-2018-11788 (2019-01-07)
 
