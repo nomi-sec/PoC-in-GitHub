@@ -1605,7 +1605,11 @@
 ### CVE-2023-33404
 - [hacip/CVE-2023-33404](https://github.com/hacip/CVE-2023-33404)
 
-### CVE-2023-33405
+### CVE-2023-33405 (2023-06-21)
+
+<code>Blogengine.net 3.3.8.0 and earlier is vulnerable to Open Redirect.
+</code>
+
 - [hacip/CVE-2023-33405](https://github.com/hacip/CVE-2023-33405)
 
 ### CVE-2023-33408 (2023-06-05)
@@ -6971,6 +6975,7 @@
 - [Mustafa1986/cve-2022-42475-Fortinet](https://github.com/Mustafa1986/cve-2022-42475-Fortinet)
 - [CKevens/CVE-2022-42475-RCE-POC](https://github.com/CKevens/CVE-2022-42475-RCE-POC)
 - [natceil/cve-2022-42475](https://github.com/natceil/cve-2022-42475)
+- [0xhaggis/CVE-2022-42475](https://github.com/0xhaggis/CVE-2022-42475)
 
 ### CVE-2022-42864 (2022-12-15)
 
@@ -8408,6 +8413,13 @@
 </code>
 
 - [timb-machine-mirrors/rqu1-cve-2021-3060.py](https://github.com/timb-machine-mirrors/rqu1-cve-2021-3060.py)
+
+### CVE-2021-3064 (2021-11-10)
+
+<code>A memory corruption vulnerability exists in Palo Alto Networks GlobalProtect portal and gateway interfaces that enables an unauthenticated network-based attacker to disrupt system processes and potentially execute arbitrary code with root privileges. The attacker must have network access to the GlobalProtect interface to exploit this issue. This issue impacts PAN-OS 8.1 versions earlier than PAN-OS 8.1.17. Prisma Access customers are not impacted by this issue.
+</code>
+
+- [0xhaggis/CVE-2021-3064](https://github.com/0xhaggis/CVE-2021-3064)
 
 ### CVE-2021-3122 (2021-02-07)
 
@@ -13759,6 +13771,13 @@
 - [86x/CVE-2021-45416](https://github.com/86x/CVE-2021-45416)
 - [dnr6419/CVE-2021-45416](https://github.com/dnr6419/CVE-2021-45416)
 
+### CVE-2021-45468 (2022-01-14)
+
+<code>Imperva Web Application Firewall (WAF) before 2021-12-23 allows remote unauthenticated attackers to use &quot;Content-Encoding: gzip&quot; to evade WAF security controls and send malicious HTTP POST requests to web servers behind the WAF.
+</code>
+
+- [0xhaggis/Imperva_gzip_bypass](https://github.com/0xhaggis/Imperva_gzip_bypass)
+
 ### CVE-2021-45485 (2021-12-24)
 
 <code>In the IPv6 implementation in the Linux kernel before 5.13.3, net/ipv6/output_core.c has an information leak because of certain use of a hash table which, although big, doesn't properly consider that IPv6-based attackers can typically choose among many IPv6 source addresses.
@@ -15852,6 +15871,7 @@
 <code>Uncontrolled resource consumption in `jpeg-js` before 0.4.0 may allow attacker to launch denial of service attacks using specially a crafted JPEG image.
 </code>
 
+- [knokbak/get-pixels-updated](https://github.com/knokbak/get-pixels-updated)
 - [knokbak/save-pixels-updated](https://github.com/knokbak/save-pixels-updated)
 
 ### CVE-2020-8193 (2020-07-10)
@@ -19523,7 +19543,6 @@
 <code>A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
 </code>
 
-- [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
 - [helGayhub233/CVE-2019-1653](https://github.com/helGayhub233/CVE-2019-1653)
 - [ibrahimzx/CVE-2019-1653](https://github.com/ibrahimzx/CVE-2019-1653)
@@ -19740,7 +19759,6 @@
 <code>Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
-- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
@@ -20004,13 +20022,6 @@
 
 - [timwr/CVE-2019-5825](https://github.com/timwr/CVE-2019-5825)
 
-### CVE-2019-5893 (2019-01-10)
-
-<code>Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.xml query parameter.
-</code>
-
-- [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
-
 ### CVE-2019-6111 (2019-01-31)
 
 <code>An issue was discovered in OpenSSH 7.9. Due to the scp implementation being derived from 1983 rcp, the server chooses which files/directories are sent to the client. However, the scp client only performs cursory validation of the object name returned (only directory traversal attacks are prevented). A malicious scp server (or Man-in-The-Middle attacker) can overwrite arbitrary files in the scp client target directory. If recursive operation (-r) is performed, the server can manipulate subdirectories as well (for example, to overwrite the .ssh/authorized_keys file).
@@ -20056,13 +20067,6 @@
 </code>
 
 - [nikitapbst/cve-2019-6260](https://github.com/nikitapbst/cve-2019-6260)
-
-### CVE-2019-6263 (2019-01-16)
-
-<code>An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
-</code>
-
-- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
 
 ### CVE-2019-6329 (2019-06-25)
 
@@ -20139,13 +20143,6 @@
 </code>
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
-
-### CVE-2019-6487 (2019-01-18)
-
-<code>TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
-</code>
-
-- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
 
 ### CVE-2019-6690 (2019-03-17)
 
