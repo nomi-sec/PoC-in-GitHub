@@ -6731,13 +6731,6 @@
 
 - [5l1v3r1/CVE-2022-41076](https://github.com/5l1v3r1/CVE-2022-41076)
 
-### CVE-2022-41080 (2022-11-09)
-
-<code>Microsoft Exchange Server Elevation of Privilege Vulnerability
-</code>
-
-- [ohnonoyesyes/CVE-2022-41080](https://github.com/ohnonoyesyes/CVE-2022-41080)
-
 ### CVE-2022-41082 (2022-10-02)
 
 <code>Microsoft Exchange Server Remote Code Execution Vulnerability.
@@ -14010,6 +14003,7 @@
 </code>
 
 - [MithatGuner/CVE-2021-46704-POC](https://github.com/MithatGuner/CVE-2021-46704-POC)
+- [Erenlancaster/CVE-2021-46704](https://github.com/Erenlancaster/CVE-2021-46704)
 
 ### CVE-2021-268855
 - [sikkertech/CVE-2021-268855](https://github.com/sikkertech/CVE-2021-268855)
@@ -19543,6 +19537,7 @@
 <code>A vulnerability in the web-based management interface of Cisco Small Business RV320 and RV325 Dual Gigabit WAN VPN Routers could allow an unauthenticated, remote attacker to retrieve sensitive information. The vulnerability is due to improper access controls for URLs. An attacker could exploit this vulnerability by connecting to an affected device via HTTP or HTTPS and requesting specific URLs. A successful exploit could allow the attacker to download the router configuration or detailed diagnostic information. Cisco has released firmware updates that address this vulnerability.
 </code>
 
+- [dubfr33/CVE-2019-1653](https://github.com/dubfr33/CVE-2019-1653)
 - [shaheemirza/CiscoSpill](https://github.com/shaheemirza/CiscoSpill)
 - [helGayhub233/CVE-2019-1653](https://github.com/helGayhub233/CVE-2019-1653)
 - [ibrahimzx/CVE-2019-1653](https://github.com/ibrahimzx/CVE-2019-1653)
@@ -19759,6 +19754,7 @@
 <code>Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
+- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
@@ -20022,6 +20018,13 @@
 
 - [timwr/CVE-2019-5825](https://github.com/timwr/CVE-2019-5825)
 
+### CVE-2019-5893 (2019-01-10)
+
+<code>Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.xml query parameter.
+</code>
+
+- [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
+
 ### CVE-2019-6111 (2019-01-31)
 
 <code>An issue was discovered in OpenSSH 7.9. Due to the scp implementation being derived from 1983 rcp, the server chooses which files/directories are sent to the client. However, the scp client only performs cursory validation of the object name returned (only directory traversal attacks are prevented). A malicious scp server (or Man-in-The-Middle attacker) can overwrite arbitrary files in the scp client target directory. If recursive operation (-r) is performed, the server can manipulate subdirectories as well (for example, to overwrite the .ssh/authorized_keys file).
@@ -20067,6 +20070,13 @@
 </code>
 
 - [nikitapbst/cve-2019-6260](https://github.com/nikitapbst/cve-2019-6260)
+
+### CVE-2019-6263 (2019-01-16)
+
+<code>An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
+</code>
+
+- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
 
 ### CVE-2019-6329 (2019-06-25)
 
@@ -20143,6 +20153,13 @@
 </code>
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
+
+### CVE-2019-6487 (2019-01-18)
+
+<code>TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
+</code>
+
+- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
 
 ### CVE-2019-6690 (2019-03-17)
 
