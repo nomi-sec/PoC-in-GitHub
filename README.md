@@ -1337,7 +1337,11 @@
 
 - [ahrixia/CVE-2023-30256](https://github.com/ahrixia/CVE-2023-30256)
 
-### CVE-2023-30347
+### CVE-2023-30347 (2023-06-22)
+
+<code>Cross Site Scripting (XSS) vulnerability in Neox Contact Center 2.3.9, via the serach_sms_api_name parameter to the SMA API search.
+</code>
+
 - [huzefa2212/CVE-2023-30347](https://github.com/huzefa2212/CVE-2023-30347)
 
 ### CVE-2023-30458 (2023-04-24)
@@ -1794,6 +1798,15 @@
 </code>
 
 - [afine-com/CVE-2023-35840](https://github.com/afine-com/CVE-2023-35840)
+
+### CVE-2023-36143
+- [leonardobg/CVE-2023-36143](https://github.com/leonardobg/CVE-2023-36143)
+
+### CVE-2023-36144
+- [leonardobg/CVE-2023-36144](https://github.com/leonardobg/CVE-2023-36144)
+
+### CVE-2023-36146
+- [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
 
 ### CVE-2023-36544
 - [KOwloid/cve-2023-36544](https://github.com/KOwloid/cve-2023-36544)
@@ -5814,6 +5827,13 @@
 
 - [angelopioamirante/CVE-2022-33075](https://github.com/angelopioamirante/CVE-2022-33075)
 
+### CVE-2022-33082 (2022-06-30)
+
+<code>An issue in the AST parser (ast/compile.go) of Open Policy Agent v0.10.2 allows attackers to cause a Denial of Service (DoS) via a crafted input.
+</code>
+
+- [cyberqueenmeg/cve-2022-33082-exploit](https://github.com/cyberqueenmeg/cve-2022-33082-exploit)
+
 ### CVE-2022-33174 (2022-06-13)
 
 <code>Power Distribution Units running on Powertek firmware (multiple brands) before 3.30.30 allows remote authorization bypass in the web interface. To exploit the vulnerability, an attacker must send an HTTP packet to the data retrieval interface (/cgi/get_param.cgi) with the tmpToken cookie set to an empty string followed by a semicolon. This bypasses an active session authorization check. This can be then used to fetch the values of protected sys.passwd and sys.su.name fields that contain the username and password in cleartext.
@@ -7232,6 +7252,13 @@
 
 - [Halcy0nic/CVE-2022-44311](https://github.com/Halcy0nic/CVE-2022-44311)
 - [DesmondSanctity/CVE-2022-44311](https://github.com/DesmondSanctity/CVE-2022-44311)
+
+### CVE-2022-44312 (2022-11-08)
+
+<code>PicoC Version 3.2.2 was discovered to contain a heap buffer overflow in the ExpressionCoerceInteger function in expression.c when called from ExpressionInfixOperator.
+</code>
+
+- [Halcy0nic/CVEs-for-picoc-3.2.2](https://github.com/Halcy0nic/CVEs-for-picoc-3.2.2)
 
 ### CVE-2022-44318 (2022-11-08)
 
