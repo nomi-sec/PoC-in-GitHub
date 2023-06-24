@@ -31188,13 +31188,6 @@
 
 - [CiscoCXSecurity/ownCloud_RCE_CVE-2013-0303](https://github.com/CiscoCXSecurity/ownCloud_RCE_CVE-2013-0303)
 
-### CVE-2013-0333 (2013-01-30)
-
-<code>lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.
-</code>
-
-- [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
-
 ### CVE-2013-225
 - [PentestinGxRoot/ShellEvil](https://github.com/PentestinGxRoot/ShellEvil)
 
