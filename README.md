@@ -1790,6 +1790,21 @@
 ### CVE-2023-34830
 - [leekenghwa/CVE-2023-34830---Reflected-XSS-found-in-I-doit-Open-v24-and-below](https://github.com/leekenghwa/CVE-2023-34830---Reflected-XSS-found-in-I-doit-Open-v24-and-below)
 
+### CVE-2023-34835
+- [sahiloj/CVE-2023-34835](https://github.com/sahiloj/CVE-2023-34835)
+
+### CVE-2023-34836
+- [sahiloj/CVE-2023-34836](https://github.com/sahiloj/CVE-2023-34836)
+
+### CVE-2023-34837
+- [sahiloj/CVE-2023-34837](https://github.com/sahiloj/CVE-2023-34837)
+
+### CVE-2023-34838
+- [sahiloj/CVE-2023-34838](https://github.com/sahiloj/CVE-2023-34838)
+
+### CVE-2023-34839
+- [sahiloj/CVE-2023-34839](https://github.com/sahiloj/CVE-2023-34839)
+
 ### CVE-2023-34852 (2023-06-15)
 
 <code>PublicCMS &lt;=V4.0.202302 is vulnerable to Insecure Permissions.
@@ -14076,7 +14091,7 @@
 <code>In GenieACS 1.2.x before 1.2.8, the UI interface API is vulnerable to unauthenticated OS command injection via the ping host argument (lib/ui/api.ts and lib/ping.ts). The vulnerability arises from insufficient input validation combined with a missing authorization check.
 </code>
 
-- [MithatGuner/CVE-2021-46704-POC](https://github.com/MithatGuner/CVE-2021-46704-POC)
+- [hheeyywweellccoommee/CVE-2021-46704-POC-bsnln](https://github.com/hheeyywweellccoommee/CVE-2021-46704-POC-bsnln)
 - [Erenlancaster/CVE-2021-46704](https://github.com/Erenlancaster/CVE-2021-46704)
 
 ### CVE-2021-268855
@@ -31187,6 +31202,13 @@
 </code>
 
 - [CiscoCXSecurity/ownCloud_RCE_CVE-2013-0303](https://github.com/CiscoCXSecurity/ownCloud_RCE_CVE-2013-0303)
+
+### CVE-2013-0333 (2013-01-30)
+
+<code>lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.
+</code>
+
+- [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
 
 ### CVE-2013-225
 - [PentestinGxRoot/ShellEvil](https://github.com/PentestinGxRoot/ShellEvil)
