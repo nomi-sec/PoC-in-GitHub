@@ -14091,6 +14091,7 @@
 <code>In GenieACS 1.2.x before 1.2.8, the UI interface API is vulnerable to unauthenticated OS command injection via the ping host argument (lib/ui/api.ts and lib/ping.ts). The vulnerability arises from insufficient input validation combined with a missing authorization check.
 </code>
 
+- [MithatGuner/CVE-2021-46704-POC](https://github.com/MithatGuner/CVE-2021-46704-POC)
 - [hheeyywweellccoommee/CVE-2021-46704-POC-bsnln](https://github.com/hheeyywweellccoommee/CVE-2021-46704-POC-bsnln)
 - [Erenlancaster/CVE-2021-46704](https://github.com/Erenlancaster/CVE-2021-46704)
 
@@ -26208,7 +26209,6 @@
 </code>
 
 - [shaheemirza/CVE-2017-0213-](https://github.com/shaheemirza/CVE-2017-0213-)
-- [zcgonvh/CVE-2017-0213](https://github.com/zcgonvh/CVE-2017-0213)
 - [billa3283/CVE-2017-0213](https://github.com/billa3283/CVE-2017-0213)
 - [likescam/CVE-2017-0213](https://github.com/likescam/CVE-2017-0213)
 - [jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213)
