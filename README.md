@@ -553,6 +553,7 @@
 - [CKevens/CVE-2023-22809-sudo-POC](https://github.com/CKevens/CVE-2023-22809-sudo-POC)
 - [hello4r1end/patch_CVE-2023-22809](https://github.com/hello4r1end/patch_CVE-2023-22809)
 - [Chan9Yan9/CVE-2023-22809](https://github.com/Chan9Yan9/CVE-2023-22809)
+- [pashayogi/CVE-2023-22809](https://github.com/pashayogi/CVE-2023-22809)
 
 ### CVE-2023-22894 (2023-04-19)
 
