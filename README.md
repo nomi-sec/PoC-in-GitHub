@@ -415,7 +415,6 @@
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
 - [maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot)
 - [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
-- [dorkeline/acropolypse-bot](https://github.com/dorkeline/acropolypse-bot)
 - [lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect)
 
 ### CVE-2023-21389
@@ -7278,6 +7277,9 @@
 - [kljunowsky/CVE-2022-44268](https://github.com/kljunowsky/CVE-2022-44268)
 - [nfm/heroku-CVE-2022-44268-reproduction](https://github.com/nfm/heroku-CVE-2022-44268-reproduction)
 - [betillogalvanfbc/POC-CVE-2022-44268](https://github.com/betillogalvanfbc/POC-CVE-2022-44268)
+
+### CVE-2022-44276
+- [HerrLeStrate/CVE-2022-44276-PoC](https://github.com/HerrLeStrate/CVE-2022-44276-PoC)
 
 ### CVE-2022-44311 (2022-11-08)
 
@@ -26209,6 +26211,7 @@
 </code>
 
 - [shaheemirza/CVE-2017-0213-](https://github.com/shaheemirza/CVE-2017-0213-)
+- [zcgonvh/CVE-2017-0213](https://github.com/zcgonvh/CVE-2017-0213)
 - [billa3283/CVE-2017-0213](https://github.com/billa3283/CVE-2017-0213)
 - [likescam/CVE-2017-0213](https://github.com/likescam/CVE-2017-0213)
 - [jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213)
