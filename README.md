@@ -978,6 +978,7 @@
 </code>
 
 - [nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372)
+- [Chocapikk/CVE-2023-27372](https://github.com/Chocapikk/CVE-2023-27372)
 
 ### CVE-2023-27524 (2023-04-24)
 
@@ -7279,6 +7280,7 @@
 - [kljunowsky/CVE-2022-44268](https://github.com/kljunowsky/CVE-2022-44268)
 - [nfm/heroku-CVE-2022-44268-reproduction](https://github.com/nfm/heroku-CVE-2022-44268-reproduction)
 - [betillogalvanfbc/POC-CVE-2022-44268](https://github.com/betillogalvanfbc/POC-CVE-2022-44268)
+- [adhikara13/CVE-2022-44268-MagiLeak](https://github.com/adhikara13/CVE-2022-44268-MagiLeak)
 
 ### CVE-2022-44276
 - [HerrLeStrate/CVE-2022-44276-PoC](https://github.com/HerrLeStrate/CVE-2022-44276-PoC)
@@ -30978,7 +30980,7 @@
 - [FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-)
 - [mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271)
 - [Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271)
-- [Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability](https://github.com/Darkrai-404/CVE-2014-6271-Shellshock-Vulnerability)
+- [hheeyywweellccoommee/CVE-2014-6271-Shellshock-Vulnerability-vazft](https://github.com/hheeyywweellccoommee/CVE-2014-6271-Shellshock-Vulnerability-vazft)
 
 ### CVE-2014-6287 (2014-10-07)
 
