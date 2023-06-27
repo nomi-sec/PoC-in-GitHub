@@ -1615,7 +1615,11 @@
 
 - [duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC](https://github.com/duality084/CVE-2023-33381-MitraStar-GPT-2741GNAC)
 
-### CVE-2023-33404
+### CVE-2023-33404 (2023-06-26)
+
+<code>An Unrestricted Upload vulnerability, due to insufficient validation on UploadControlled.cs file, in BlogEngine.Net version 3.3.8.0 and earlier allows remote attackers to execute remote code.
+</code>
+
 - [hacip/CVE-2023-33404](https://github.com/hacip/CVE-2023-33404)
 
 ### CVE-2023-33405 (2023-06-21)
@@ -1816,7 +1820,11 @@
 
 - [funny-kill/CVE-2023-34852](https://github.com/funny-kill/CVE-2023-34852)
 
-### CVE-2023-34924
+### CVE-2023-34924 (2023-06-26)
+
+<code>H3C Magic B1STW B1STV100R012 was discovered to contain a stack overflow via the function SetAPInfoById. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request.
+</code>
+
 - [ChrisL0tus/CVE-2023-34924](https://github.com/ChrisL0tus/CVE-2023-34924)
 
 ### CVE-2023-34960
@@ -30217,6 +30225,7 @@
 
 - [dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967)
 - [0xkasra/CVE-2015-6967](https://github.com/0xkasra/CVE-2015-6967)
+- [FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967)
 
 ### CVE-2015-7214 (2015-12-16)
 
