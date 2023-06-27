@@ -809,7 +809,7 @@
 
 ### CVE-2023-25194 (2023-02-07)
 
-<code>A possible security vulnerability has been identified in Apache Kafka Connect. This requires access to a Kafka Connect worker, and the ability to create/modify connectors on it with an arbitrary Kafka client SASL JAAS config and a SASL-based security protocol, which has been possible on Kafka Connect clusters since Apache Kafka 2.3.0. When configuring the connector via the Kafka Connect REST API, an authenticated operator can set the `sasl.jaas.config` property for any of the connector's Kafka clients to &quot;com.sun.security.auth.module.JndiLoginModule&quot;, which can be done via the `producer.override.sasl.jaas.config`, `consumer.override.sasl.jaas.config`, or `admin.override.sasl.jaas.config` properties. This will allow the server to connect to the attacker's LDAP server and deserialize the LDAP response, which the attacker can use to execute java deserialization gadget chains on the Kafka connect server. Attacker can cause unrestricted deserialization of untrusted data (or) RCE vulnerability when there are gadgets in the classpath. Since Apache Kafka 3.0.0, users are allowed to specify these properties in connector configurations for Kafka Connect clusters running with out-of-the-box configurations. Before Apache Kafka 3.0.0, users may not specify these properties unless the Kafka Connect cluster has been reconfigured with a connector client override policy that permits them. Since Apache Kafka 3.4.0, we have added a system property (&quot;-Dorg.apache.kafka.disallowed.login.modules&quot;) to disable the problematic login modules usage in SASL JAAS configuration. Also by default &quot;com.sun.security.auth.module.JndiLoginModule&quot; is disabled in Apache Kafka 3.4.0. We advise the Kafka Connect users to validate connector configurations and only allow trusted JNDI configurations. Also examine connector dependencies for vulnerable versions and either upgrade their connectors, upgrading that specific dependency, or removing the connectors as options for remediation. Finally, in addition to leveraging the &quot;org.apache.kafka.disallowed.login.modules&quot; system property, Kafka Connect users can also implement their own connector client config override policy, which can be used to control which Kafka client properties can be overridden directly in a connector config and which cannot.
+<code>A possible security vulnerability has been identified in Apache Kafka Connect.\nThis requires access to a Kafka Connect worker, and the ability to create/modify connectors on it with an arbitrary Kafka client SASL JAAS config\nand a SASL-based security protocol, which has been possible on Kafka Connect clusters since Apache Kafka 2.3.0.\nWhen configuring the connector via the Kafka Connect REST API, an authenticated operator can set the `sasl.jaas.config`\nproperty for any of the connector's Kafka clients to &quot;com.sun.security.auth.module.JndiLoginModule&quot;, which can be done via the\n`producer.override.sasl.jaas.config`, `consumer.override.sasl.jaas.config`, or `admin.override.sasl.jaas.config` properties.\nThis will allow the server to connect to the attacker's LDAP server\nand deserialize the LDAP response, which the attacker can use to execute java deserialization gadget chains on the Kafka connect server.\nAttacker can cause unrestricted deserialization of untrusted data (or) RCE vulnerability when there are gadgets in the classpath.\n\nSince Apache Kafka 3.0.0, users are allowed to specify these properties in connector configurations for Kafka Connect clusters running with out-of-the-box\nconfigurations. Before Apache Kafka 3.0.0, users may not specify these properties unless the Kafka Connect cluster has been reconfigured with a connector\nclient override policy that permits them.\n\nSince Apache Kafka 3.4.0, we have added a system property (&quot;-Dorg.apache.kafka.disallowed.login.modules&quot;) to disable the problematic login modules usage\nin SASL JAAS configuration. Also by default &quot;com.sun.security.auth.module.JndiLoginModule&quot; is disabled in Apache Kafka 3.4.0. \n\nWe advise the Kafka Connect users to validate connector configurations and only allow trusted JNDI configurations. Also examine connector dependencies for \nvulnerable versions and either upgrade their connectors, upgrading that specific dependency, or removing the connectors as options for remediation. Finally,\nin addition to leveraging the &quot;org.apache.kafka.disallowed.login.modules&quot; system property, Kafka Connect users can also implement their own connector\nclient config override policy, which can be used to control which Kafka client properties can be overridden directly in a connector config and which cannot.\n
 </code>
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
@@ -978,7 +978,7 @@
 </code>
 
 - [nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372)
-- [Chocapikk/CVE-2023-27372](https://github.com/Chocapikk/CVE-2023-27372)
+- [tucommenceapousser/CVE-2023-27372](https://github.com/tucommenceapousser/CVE-2023-27372)
 
 ### CVE-2023-27524 (2023-04-24)
 
@@ -1671,10 +1671,18 @@
 
 - [16yashpatel/CVE-2023-33565](https://github.com/16yashpatel/CVE-2023-33565)
 
-### CVE-2023-33566
+### CVE-2023-33566 (2023-06-27)
+
+<code>An unauthorized node injection vulnerability has been identified in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could allow a malicious user to inject malicious ROS2 nodes into the system remotely. Once injected, these nodes could disrupt the normal operations of the system or cause other potentially harmful behavior.
+</code>
+
 - [16yashpatel/CVE-2023-33566](https://github.com/16yashpatel/CVE-2023-33566)
 
-### CVE-2023-33567
+### CVE-2023-33567 (2023-06-27)
+
+<code>An unauthorized access vulnerability has been discovered in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information.
+</code>
+
 - [16yashpatel/CVE-2023-33567](https://github.com/16yashpatel/CVE-2023-33567)
 
 ### CVE-2023-33617 (2023-05-23)
@@ -1682,8 +1690,8 @@
 <code>An OS Command Injection vulnerability in Parks Fiberlink 210 firmware version V2.1.14_X000 was found via the /boaform/admin/formPing target_addr parameter.
 </code>
 
-- [Chocapikk/CVE-2023-33617](https://github.com/Chocapikk/CVE-2023-33617)
 - [tucommenceapousser/CVE-2023-33617](https://github.com/tucommenceapousser/CVE-2023-33617)
+- [hheeyywweellccoommee/CVE-2023-33617-hugnc](https://github.com/hheeyywweellccoommee/CVE-2023-33617-hugnc)
 
 ### CVE-2023-33730 (2023-05-31)
 
@@ -1802,22 +1810,46 @@
 
 - [costacoco/Adiscon](https://github.com/costacoco/Adiscon)
 
-### CVE-2023-34830
+### CVE-2023-34830 (2023-06-27)
+
+<code>i-doit Open v24 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the timeout parameter on the login page.
+</code>
+
 - [leekenghwa/CVE-2023-34830---Reflected-XSS-found-in-I-doit-Open-v24-and-below](https://github.com/leekenghwa/CVE-2023-34830---Reflected-XSS-found-in-I-doit-Open-v24-and-below)
 
-### CVE-2023-34835
+### CVE-2023-34835 (-)
+
+<code>A Cross Site Scripting vulnerability in Microworld Technologies eScan Management console v.14.0.1400.2281 allows a remote attacker to execute arbitrary JavaScript code via a vulnerable delete_file parameter.
+</code>
+
 - [sahiloj/CVE-2023-34835](https://github.com/sahiloj/CVE-2023-34835)
 
-### CVE-2023-34836
+### CVE-2023-34836 (-)
+
+<code>A Cross Site Scripting vulnerability in Microworld Technologies eScan Management console v.14.0.1400.2281 allows a remote attacker to execute arbitrary code via a crafted script to the Dtltyp and ListName parameters.
+</code>
+
 - [sahiloj/CVE-2023-34836](https://github.com/sahiloj/CVE-2023-34836)
 
-### CVE-2023-34837
+### CVE-2023-34837 (-)
+
+<code>A Cross Site Scripting vulnerability in Microworld Technologies eScan Management console v.14.0.1400.2281 allows a remote attacker to execute arbitrary code via a vulnerable parameter GrpPath.
+</code>
+
 - [sahiloj/CVE-2023-34837](https://github.com/sahiloj/CVE-2023-34837)
 
-### CVE-2023-34838
+### CVE-2023-34838 (-)
+
+<code>A Cross Site Scripting vulnerability in Microworld Technologies eScan Management console v.14.0.1400.2281 allows a remote attacker to execute arbitrary code via a crafted script to the Description parameter.
+</code>
+
 - [sahiloj/CVE-2023-34838](https://github.com/sahiloj/CVE-2023-34838)
 
-### CVE-2023-34839
+### CVE-2023-34839 (-)
+
+<code>A Cross Site Request Forgery (CSRF) vulnerability in Issabel issabel-pbx v.4.0.0-6 allows a remote attacker to gain privileges via a Custom CSRF exploit to create new user function in the application.
+</code>
+
 - [sahiloj/CVE-2023-34839](https://github.com/sahiloj/CVE-2023-34839)
 
 ### CVE-2023-34840
@@ -1853,6 +1885,13 @@
 </code>
 
 - [afine-com/CVE-2023-35840](https://github.com/afine-com/CVE-2023-35840)
+
+### CVE-2023-35843 (2023-06-19)
+
+<code>NocoDB through 0.106.0 (or 0.109.1) has a path traversal vulnerability that allows an unauthenticated attacker to access arbitrary files on the server by manipulating the path parameter of the /download route. This vulnerability could allow an attacker to access sensitive files and data on the server, including configuration files, source code, and other sensitive information.
+</code>
+
+- [Szlein/CVE-2023-35843](https://github.com/Szlein/CVE-2023-35843)
 
 ### CVE-2023-35844 (2023-06-18)
 
@@ -2370,7 +2409,7 @@
 - [getdrive/F5-BIG-IP-exploit](https://github.com/getdrive/F5-BIG-IP-exploit)
 - [aancw/CVE-2022-1388-rs](https://github.com/aancw/CVE-2022-1388-rs)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
-- [Chocapikk/CVE-2022-1388](https://github.com/Chocapikk/CVE-2022-1388)
+- [li8u99/CVE-2022-1388](https://github.com/li8u99/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
 - [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
@@ -3490,7 +3529,7 @@
 - [MLX15/CVE-2022-22954](https://github.com/MLX15/CVE-2022-22954)
 - [mhurts/CVE-2022-22954-POC](https://github.com/mhurts/CVE-2022-22954-POC)
 - [nguyenv1nK/CVE-2022-22954](https://github.com/nguyenv1nK/CVE-2022-22954)
-- [Chocapikk/CVE-2022-22954](https://github.com/Chocapikk/CVE-2022-22954)
+- [secfb/CVE-2022-22954](https://github.com/secfb/CVE-2022-22954)
 - [orwagodfather/CVE-2022-22954](https://github.com/orwagodfather/CVE-2022-22954)
 - [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
@@ -4437,7 +4476,6 @@
 - [redhuntlabs/ConfluentPwn](https://github.com/redhuntlabs/ConfluentPwn)
 - [cai-niao98/CVE-2022-26134](https://github.com/cai-niao98/CVE-2022-26134)
 - [sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134)
-- [Chocapikk/CVE-2022-26134](https://github.com/Chocapikk/CVE-2022-26134)
 - [AmoloHT/CVE-2022-26134](https://github.com/AmoloHT/CVE-2022-26134)
 - [kh4sh3i/CVE-2022-26134](https://github.com/kh4sh3i/CVE-2022-26134)
 - [ColdFusionX/CVE-2022-26134](https://github.com/ColdFusionX/CVE-2022-26134)
@@ -4483,6 +4521,9 @@
 - [Vulnmachines/Confluence-Question-CVE-2022-26138-](https://github.com/Vulnmachines/Confluence-Question-CVE-2022-26138-)
 - [z92g/CVE-2022-26138](https://github.com/z92g/CVE-2022-26138)
 - [shavchen/CVE-2022-26138](https://github.com/shavchen/CVE-2022-26138)
+
+### CVE-2022-26141
+- [5l1v3r1/CVE-2022-26141](https://github.com/5l1v3r1/CVE-2022-26141)
 
 ### CVE-2022-26159 (2022-02-27)
 
@@ -4743,8 +4784,8 @@
 - [miko550/CVE-2022-27925](https://github.com/miko550/CVE-2022-27925)
 - [navokus/CVE-2022-27925](https://github.com/navokus/CVE-2022-27925)
 - [Josexv1/CVE-2022-27925](https://github.com/Josexv1/CVE-2022-27925)
-- [Chocapikk/CVE-2022-27925-Revshell](https://github.com/Chocapikk/CVE-2022-27925-Revshell)
 - [akincibor/CVE-2022-27925](https://github.com/akincibor/CVE-2022-27925)
+- [lolminerxmrig/CVE-2022-27925-Revshell](https://github.com/lolminerxmrig/CVE-2022-27925-Revshell)
 - [touchmycrazyredhat/CVE-2022-27925-Revshell](https://github.com/touchmycrazyredhat/CVE-2022-27925-Revshell)
 - [jam620/Zimbra](https://github.com/jam620/Zimbra)
 - [Inplex-sys/CVE-2022-27925](https://github.com/Inplex-sys/CVE-2022-27925)
@@ -5017,7 +5058,7 @@
 <code>SolarView Compact ver.6.00 was discovered to contain a command injection vulnerability via conf_mail.php.
 </code>
 
-- [Chocapikk/CVE-2022-29303](https://github.com/Chocapikk/CVE-2022-29303)
+- [1f3lse/CVE-2022-29303](https://github.com/1f3lse/CVE-2022-29303)
 
 ### CVE-2022-29337 (2022-05-24)
 
@@ -5055,7 +5096,7 @@
 
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
-- [Chocapikk/CVE-2022-29455](https://github.com/Chocapikk/CVE-2022-29455)
+- [5l1v3r1/CVE-2022-29455](https://github.com/5l1v3r1/CVE-2022-29455)
 - [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
 - [0xkucing/CVE-2022-29455](https://github.com/0xkucing/CVE-2022-29455)
 - [tucommenceapousser/CVE-2022-29455](https://github.com/tucommenceapousser/CVE-2022-29455)
@@ -5080,9 +5121,9 @@
 - [axin2019/CVE-2022-29464](https://github.com/axin2019/CVE-2022-29464)
 - [LinJacck/CVE-2022-29464](https://github.com/LinJacck/CVE-2022-29464)
 - [Inplex-sys/CVE-2022-29464-loader](https://github.com/Inplex-sys/CVE-2022-29464-loader)
-- [Chocapikk/CVE-2022-29464](https://github.com/Chocapikk/CVE-2022-29464)
 - [jimidk/Better-CVE-2022-29464](https://github.com/jimidk/Better-CVE-2022-29464)
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
+- [xinghonghaoyue/CVE-2022-29464](https://github.com/xinghonghaoyue/CVE-2022-29464)
 - [Blackyguy/-CVE-2022-29464](https://github.com/Blackyguy/-CVE-2022-29464)
 - [amit-pathak009/CVE-2022-29464](https://github.com/amit-pathak009/CVE-2022-29464)
 - [amit-pathak009/CVE-2022-29464-mass](https://github.com/amit-pathak009/CVE-2022-29464-mass)
@@ -5427,8 +5468,8 @@
 - [M4fiaB0y/CVE-2022-30525](https://github.com/M4fiaB0y/CVE-2022-30525)
 - [k0sf/CVE-2022-30525](https://github.com/k0sf/CVE-2022-30525)
 - [superzerosec/CVE-2022-30525](https://github.com/superzerosec/CVE-2022-30525)
-- [Chocapikk/CVE-2022-30525-Reverse-Shell](https://github.com/Chocapikk/CVE-2022-30525-Reverse-Shell)
 - [160Team/CVE-2022-30525](https://github.com/160Team/CVE-2022-30525)
+- [zhefox/CVE-2022-30525-Reverse-Shell](https://github.com/zhefox/CVE-2022-30525-Reverse-Shell)
 - [iveresk/cve-2022-30525](https://github.com/iveresk/cve-2022-30525)
 - [west9b/CVE-2022-30525](https://github.com/west9b/CVE-2022-30525)
 - [furkanzengin/CVE-2022-30525](https://github.com/furkanzengin/CVE-2022-30525)
@@ -5715,7 +5756,7 @@
 - [Madliife0/CVE-2022-31814](https://github.com/Madliife0/CVE-2022-31814)
 - [TheUnknownSoul/CVE-2022-31814](https://github.com/TheUnknownSoul/CVE-2022-31814)
 - [drcayber/RCE](https://github.com/drcayber/RCE)
-- [Chocapikk/CVE-2022-31814](https://github.com/Chocapikk/CVE-2022-31814)
+- [dkstar11q/CVE-2022-31814](https://github.com/dkstar11q/CVE-2022-31814)
 
 ### CVE-2022-31854 (2022-07-07)
 
@@ -6272,8 +6313,8 @@
 - [BenHays142/CVE-2022-36804-PoC-Exploit](https://github.com/BenHays142/CVE-2022-36804-PoC-Exploit)
 - [Vulnmachines/bitbucket-cve-2022-36804](https://github.com/Vulnmachines/bitbucket-cve-2022-36804)
 - [kljunowsky/CVE-2022-36804-POC](https://github.com/kljunowsky/CVE-2022-36804-POC)
-- [Chocapikk/CVE-2022-36804-ReverseShell](https://github.com/Chocapikk/CVE-2022-36804-ReverseShell)
 - [khal4n1/CVE-2022-36804](https://github.com/khal4n1/CVE-2022-36804)
+- [vj4336/CVE-2022-36804-ReverseShell](https://github.com/vj4336/CVE-2022-36804-ReverseShell)
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
 - [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
 - [ColdFusionX/CVE-2022-36804](https://github.com/ColdFusionX/CVE-2022-36804)
@@ -6612,7 +6653,7 @@
 
 - [horizon3ai/CVE-2022-39952](https://github.com/horizon3ai/CVE-2022-39952)
 - [shiyeshu/CVE-2022-39952_webshell](https://github.com/shiyeshu/CVE-2022-39952_webshell)
-- [Chocapikk/CVE-2022-39952](https://github.com/Chocapikk/CVE-2022-39952)
+- [dkstar11q/CVE-2022-39952-better](https://github.com/dkstar11q/CVE-2022-39952-better)
 
 ### CVE-2022-39959 (2022-10-07)
 
@@ -6744,8 +6785,8 @@
 - [iveresk/CVE-2022-40684](https://github.com/iveresk/CVE-2022-40684)
 - [mhd108/CVE-2022-40684](https://github.com/mhd108/CVE-2022-40684)
 - [ClickCyber/cve-2022-40684](https://github.com/ClickCyber/cve-2022-40684)
-- [Chocapikk/CVE-2022-40684](https://github.com/Chocapikk/CVE-2022-40684)
 - [mohamedbenchikh/CVE-2022-40684](https://github.com/mohamedbenchikh/CVE-2022-40684)
+- [HAWA771/CVE-2022-40684](https://github.com/HAWA771/CVE-2022-40684)
 - [NeriaBasha/CVE-2022-40684](https://github.com/NeriaBasha/CVE-2022-40684)
 - [Grapphy/fortipwn](https://github.com/Grapphy/fortipwn)
 - [puckiestyle/CVE-2022-40684](https://github.com/puckiestyle/CVE-2022-40684)
@@ -7374,9 +7415,9 @@
 - [numanturle/CVE-2022-44877](https://github.com/numanturle/CVE-2022-44877)
 - [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
 - [ColdFusionX/CVE-2022-44877-CWP7](https://github.com/ColdFusionX/CVE-2022-44877-CWP7)
-- [Chocapikk/CVE-2022-44877](https://github.com/Chocapikk/CVE-2022-44877)
 - [hotpotcookie/CVE-2022-44877-white-box](https://github.com/hotpotcookie/CVE-2022-44877-white-box)
 - [RicYaben/CVE-2022-44877-LAB](https://github.com/RicYaben/CVE-2022-44877-LAB)
+- [dkstar11q/CVE-2022-44877](https://github.com/dkstar11q/CVE-2022-44877)
 
 ### CVE-2022-44900 (2022-12-06)
 
@@ -11395,7 +11436,7 @@
 <code>KramerAV VIAWare, all tested versions, allow privilege escalation through misconfiguration of sudo. Sudoers permits running of multiple dangerous commands, including unzip, systemctl and dpkg.
 </code>
 
-- [Chocapikk/CVE-2021-35064](https://github.com/Chocapikk/CVE-2021-35064)
+- [info4mationprivate8tools/CVE-2021-35064](https://github.com/info4mationprivate8tools/CVE-2021-35064)
 
 ### CVE-2021-35211 (2021-07-14)
 
@@ -12594,7 +12635,6 @@
 - [bernardas/netsec-polygon](https://github.com/bernardas/netsec-polygon)
 - [CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit](https://github.com/CalfCrusher/Path-traversal-RCE-Apache-2.4.49-2.4.50-Exploit)
 - [vuongnv3389-sec/cve-2021-41773](https://github.com/vuongnv3389-sec/cve-2021-41773)
-- [Chocapikk/CVE-2021-41773](https://github.com/Chocapikk/CVE-2021-41773)
 - [wangfly-me/Apache_Penetration_Tool](https://github.com/wangfly-me/Apache_Penetration_Tool)
 - [anldori/CVE-2021-41773-Scanner](https://github.com/anldori/CVE-2021-41773-Scanner)
 - [iosifache/ApacheRCEEssay](https://github.com/iosifache/ApacheRCEEssay)
@@ -12628,6 +12668,13 @@
 </code>
 
 - [Jeromeyoung/CVE-2021-41784](https://github.com/Jeromeyoung/CVE-2021-41784)
+
+### CVE-2021-41801 (2021-10-11)
+
+<code>The ReplaceText extension through 1.41 for MediaWiki has Incorrect Access Control. When a user is blocked after submitting a replace job, the job is still run, even if it may be run at a later time (due to the job queue backlog)
+</code>
+
+- [5l1v3r1/CVE-2021-41801](https://github.com/5l1v3r1/CVE-2021-41801)
 
 ### CVE-2021-41805 (2021-12-11)
 
@@ -14093,8 +14140,8 @@
 </code>
 
 - [nobodyatall648/CVE-2021-46422](https://github.com/nobodyatall648/CVE-2021-46422)
-- [Chocapikk/CVE-2021-46422](https://github.com/Chocapikk/CVE-2021-46422)
 - [twoning/CVE-2021-46422_PoC](https://github.com/twoning/CVE-2021-46422_PoC)
+- [5l1v3r1/CVE-2021-46422](https://github.com/5l1v3r1/CVE-2021-46422)
 - [Awei507/CVE-RCE](https://github.com/Awei507/CVE-RCE)
 - [yigexioabai/CVE-2021-46422_RCE](https://github.com/yigexioabai/CVE-2021-46422_RCE)
 - [ZAxyr/CVE-2021-46422](https://github.com/ZAxyr/CVE-2021-46422)
@@ -22626,9 +22673,9 @@
 <code>FreeSWITCH 1.6.10 through 1.10.1 has a default password in event_socket.conf.xml.
 </code>
 
-- [Chocapikk/CVE-2019-19492](https://github.com/Chocapikk/CVE-2019-19492)
 - [tucommenceapousser/CVE-2019-19492](https://github.com/tucommenceapousser/CVE-2019-19492)
 - [tucommenceapousser/CVE-2019-19492-2](https://github.com/tucommenceapousser/CVE-2019-19492-2)
+- [hheeyywweellccoommee/CVE-2019-19492-mbprp](https://github.com/hheeyywweellccoommee/CVE-2019-19492-mbprp)
 
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
