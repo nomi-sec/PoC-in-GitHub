@@ -1759,6 +1759,13 @@
 
 - [galoget/Thruk-CVE-2023-34096](https://github.com/galoget/Thruk-CVE-2023-34096)
 
+### CVE-2023-34312 (2023-05-31)
+
+<code>In Tencent QQ through 9.7.8.29039 and TIM through 3.4.7.22084, QQProtect.exe and QQProtectEngine.dll do not validate pointers from inter-process communication, which leads to a write-what-where condition.
+</code>
+
+- [vi3t1/qq-tim-elevation](https://github.com/vi3t1/qq-tim-elevation)
+
 ### CVE-2023-34362 (2023-06-02)
 
 <code>In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerability has been found in the MOVEit Transfer web application that could allow an unauthenticated attacker to gain access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database, and execute SQL statements that alter or delete database elements. NOTE: this is exploited in the wild in May and June 2023; exploitation of unpatched systems can occur via HTTP or HTTPS. All versions (e.g., 2020.0 and 2019x) before the five explicitly mentioned versions are affected, including older unsupported versions.
@@ -1812,6 +1819,9 @@
 
 ### CVE-2023-34839
 - [sahiloj/CVE-2023-34839](https://github.com/sahiloj/CVE-2023-34839)
+
+### CVE-2023-34840
+- [Xh4H/CVE-2023-34840](https://github.com/Xh4H/CVE-2023-34840)
 
 ### CVE-2023-34852 (2023-06-15)
 
@@ -2653,7 +2663,6 @@
 
 ### CVE-2022-3699
 - [alfarom256/CVE-2022-3699](https://github.com/alfarom256/CVE-2022-3699)
-- [estimated1337/lenovo_exec](https://github.com/estimated1337/lenovo_exec)
 
 ### CVE-2022-3786 (2022-11-01)
 
@@ -7121,6 +7130,7 @@
 - [Dima2021/cve-2022-42889-text4shell](https://github.com/Dima2021/cve-2022-42889-text4shell)
 - [RSA-Demo/cve-2022-42889-text4shell](https://github.com/RSA-Demo/cve-2022-42889-text4shell)
 - [aaronm-sysdig/text4shell-docker](https://github.com/aaronm-sysdig/text4shell-docker)
+- [gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC)
 
 ### CVE-2022-42896 (2022-11-23)
 
@@ -14911,6 +14921,8 @@
 </code>
 
 - [jamf/CVE-2020-1206-POC](https://github.com/jamf/CVE-2020-1206-POC)
+- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
+- [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
 ### CVE-2020-1283 (2020-06-09)
@@ -31518,6 +31530,13 @@
 </code>
 
 - [t0rt3ll1n0/PCmanBoF](https://github.com/t0rt3ll1n0/PCmanBoF)
+
+### CVE-2013-4784 (2013-07-08)
+
+<code>The HP Integrated Lights-Out (iLO) BMC implementation allows remote attackers to bypass authentication and execute arbitrary IPMI commands by using cipher suite 0 (aka cipher zero) and an arbitrary password.
+</code>
+
+- [alexoslabs/ipmitest](https://github.com/alexoslabs/ipmitest)
 
 ### CVE-2013-5065 (2013-11-27)
 
