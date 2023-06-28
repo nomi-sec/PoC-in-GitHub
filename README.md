@@ -358,7 +358,11 @@
 
 - [nokn0wthing/CVE-2023-20052](https://github.com/nokn0wthing/CVE-2023-20052)
 
-### CVE-2023-20178
+### CVE-2023-20178 (2023-06-28)
+
+<code>A vulnerability in the client update process of Cisco AnyConnect Secure Mobility Client Software for Windows and Cisco Secure Client Software for Windows could allow a low-privileged, authenticated, local attacker to elevate privileges to those of SYSTEM. The client update process is executed after a successful VPN connection is established. This vulnerability exists because improper permissions are assigned to a temporary directory that is created during the update process. An attacker could exploit this vulnerability by abusing a specific function of the Windows installer process. A successful exploit could allow the attacker to execute code with SYSTEM privileges.
+</code>
+
 - [Wh04m1001/CVE-2023-20178](https://github.com/Wh04m1001/CVE-2023-20178)
 
 ### CVE-2023-20860 (2023-03-27)
@@ -7365,7 +7369,11 @@
 - [betillogalvanfbc/POC-CVE-2022-44268](https://github.com/betillogalvanfbc/POC-CVE-2022-44268)
 - [adhikara13/CVE-2022-44268-MagiLeak](https://github.com/adhikara13/CVE-2022-44268-MagiLeak)
 
-### CVE-2022-44276
+### CVE-2022-44276 (2023-06-28)
+
+<code>In Responsive Filemanager &lt; 9.12.0, an attacker can bypass upload restrictions resulting in RCE.
+</code>
+
 - [HerrLeStrate/CVE-2022-44276-PoC](https://github.com/HerrLeStrate/CVE-2022-44276-PoC)
 
 ### CVE-2022-44311 (2022-11-08)
@@ -26041,6 +26049,7 @@
 - [afine-com/CVE-2018-25031](https://github.com/afine-com/CVE-2018-25031)
 - [kriso4os/CVE-2018-25031](https://github.com/kriso4os/CVE-2018-25031)
 - [rafaelcintralopes/SwaggerUI-CVE-2018-25031](https://github.com/rafaelcintralopes/SwaggerUI-CVE-2018-25031)
+- [mathis2001/CVE-2018-25031](https://github.com/mathis2001/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
