@@ -8813,7 +8813,7 @@
 </code>
 
 - [TobiasS1402/CVE-2021-3438](https://github.com/TobiasS1402/CVE-2021-3438)
-- [Exploitables/CVE-2021-3438](https://github.com/Exploitables/CVE-2021-3438)
+- [expFlash/CVE-2021-3438](https://github.com/expFlash/CVE-2021-3438)
 
 ### CVE-2021-3441 (2021-10-29)
 
@@ -10521,7 +10521,7 @@
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
 - [Jeromeyoung/CVE-2021-27965](https://github.com/Jeromeyoung/CVE-2021-27965)
-- [Exploitables/CVE-2021-27965](https://github.com/Exploitables/CVE-2021-27965)
+- [expFlash/CVE-2021-27965](https://github.com/expFlash/CVE-2021-27965)
 
 ### CVE-2021-28079 (2021-04-26)
 
@@ -13834,7 +13834,7 @@
 <code>An issue was discovered in BS_RCIO64.sys in Biostar RACING GT Evo 2.1.1905.1700. A low-integrity process can open the driver's device object and issue IOCTLs to read or write to arbitrary physical memory locations (or call an arbitrary address), leading to execution of arbitrary code. This is associated with 0x226040, 0x226044, and 0x226000.
 </code>
 
-- [Exploitables/CVE-2021-44852](https://github.com/Exploitables/CVE-2021-44852)
+- [expFlash/CVE-2021-44852](https://github.com/expFlash/CVE-2021-44852)
 
 ### CVE-2021-45007 (2022-02-20)
 
@@ -17852,7 +17852,7 @@
 </code>
 
 - [uf0o/CVE-2020-17382](https://github.com/uf0o/CVE-2020-17382)
-- [Exploitables/CVE-2020-17382](https://github.com/Exploitables/CVE-2020-17382)
+- [expFlash/CVE-2020-17382](https://github.com/expFlash/CVE-2020-17382)
 - [houseofxyz/CVE-2020-17382](https://github.com/houseofxyz/CVE-2020-17382)
 
 ### CVE-2020-17453 (2021-04-05)
@@ -22545,7 +22545,7 @@
 <code>The MsIo64.sys and MsIo32.sys drivers in Patriot Viper RGB before 1.1 allow local users (including low integrity processes) to read and write to arbitrary memory locations, and consequently gain NT AUTHORITY\SYSTEM privileges, by mapping \Device\PhysicalMemory into the calling process via ZwOpenSection and ZwMapViewOfSection.
 </code>
 
-- [Exploitables/CVE-2019-18845](https://github.com/Exploitables/CVE-2019-18845)
+- [expFlash/CVE-2019-18845](https://github.com/expFlash/CVE-2019-18845)
 
 ### CVE-2019-18873 (2019-11-11)
 
@@ -23345,6 +23345,7 @@
 - [bigsizeme/CVE-2018-2893](https://github.com/bigsizeme/CVE-2018-2893)
 - [pyn3rd/CVE-2018-2893](https://github.com/pyn3rd/CVE-2018-2893)
 - [qianl0ng/CVE-2018-2893](https://github.com/qianl0ng/CVE-2018-2893)
+- [jas502n/CVE-2018-2893](https://github.com/jas502n/CVE-2018-2893)
 - [ianxtianxt/CVE-2018-2893](https://github.com/ianxtianxt/CVE-2018-2893)
 
 ### CVE-2018-2894 (2018-07-18)
@@ -23457,7 +23458,7 @@
 <code>An exploitable pool corruption vulnerability exists in the 0x8200E804 IOCTL handler functionality of WIBU-SYSTEMS WibuKey.sys Version 6.40 (Build 2400). A specially crafted IRP request can cause a buffer overflow, resulting in kernel memory corruption and, potentially, privilege escalation. An attacker can send an IRP request to trigger this vulnerability.
 </code>
 
-- [Exploitables/CVE-2018-3990-TALOS-2018-0658](https://github.com/Exploitables/CVE-2018-3990-TALOS-2018-0658)
+- [expFlash/CVE-2018-3990](https://github.com/expFlash/CVE-2018-3990)
 
 ### CVE-2018-4013 (2018-10-19)
 
@@ -24706,10 +24707,19 @@
 
 - [SoledaD208/CVE-2018-10933](https://github.com/SoledaD208/CVE-2018-10933)
 - [blacknbunny/CVE-2018-10933](https://github.com/blacknbunny/CVE-2018-10933)
+- [hook-s3c/CVE-2018-10933](https://github.com/hook-s3c/CVE-2018-10933)
+- [kn6869610/CVE-2018-10933](https://github.com/kn6869610/CVE-2018-10933)
 - [leapsecurity/libssh-scanner](https://github.com/leapsecurity/libssh-scanner)
+- [likescam/CVE-2018-10933_ssh](https://github.com/likescam/CVE-2018-10933_ssh)
+- [likescam/CVE-2018-10933-libSSH-Authentication-Bypass](https://github.com/likescam/CVE-2018-10933-libSSH-Authentication-Bypass)
+- [marco-lancini/hunt-for-cve-2018-10933](https://github.com/marco-lancini/hunt-for-cve-2018-10933)
 - [hackerhouse-opensource/cve-2018-10933](https://github.com/hackerhouse-opensource/cve-2018-10933)
 - [cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933)
+- [jas502n/CVE-2018-10933](https://github.com/jas502n/CVE-2018-10933)
+- [ninp0/cve-2018-10933_poc](https://github.com/ninp0/cve-2018-10933_poc)
+- [pghook/CVE-2018-10933_Scanner](https://github.com/pghook/CVE-2018-10933_Scanner)
 - [Virgula0/POC-CVE-2018-10933](https://github.com/Virgula0/POC-CVE-2018-10933)
+- [shifa123/pythonprojects-CVE-2018-10933](https://github.com/shifa123/pythonprojects-CVE-2018-10933)
 - [xFreed0m/CVE-2018-10933](https://github.com/xFreed0m/CVE-2018-10933)
 - [Bifrozt/CVE-2018-10933](https://github.com/Bifrozt/CVE-2018-10933)
 - [r3dxpl0it/CVE-2018-10933](https://github.com/r3dxpl0it/CVE-2018-10933)
@@ -24771,6 +24781,7 @@
 - [twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration](https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration)
 - [SenSecurity/exploit](https://github.com/SenSecurity/exploit)
 - [EmaVirgRep/CVE-2018-11235](https://github.com/EmaVirgRep/CVE-2018-11235)
+- [theerachaich/lab](https://github.com/theerachaich/lab)
 
 ### CVE-2018-11311 (2018-05-20)
 
@@ -24886,6 +24897,13 @@
 </code>
 
 - [anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790)
+
+### CVE-2018-12018 (2018-07-04)
+
+<code>The GetBlockHeadersMsg handler in the LES protocol implementation in Go Ethereum (aka geth) before 1.8.11 may lead to an access violation because of an integer signedness error for the array index, which allows attackers to launch a Denial of Service attack by sending a packet with a -1 query.Skip value. The vulnerable remote node would be crashed by such an attack immediately, aka the EPoD (Ethereum Packet of Death) issue.
+</code>
+
+- [k3v142/CVE-2018-12018](https://github.com/k3v142/CVE-2018-12018)
 
 ### CVE-2018-12031 (2018-06-07)
 
@@ -25198,6 +25216,7 @@
 
 - [BasuCert/WinboxPoC](https://github.com/BasuCert/WinboxPoC)
 - [msterusky/WinboxExploit](https://github.com/msterusky/WinboxExploit)
+- [syrex1013/MikroRoot](https://github.com/syrex1013/MikroRoot)
 - [jas502n/CVE-2018-14847](https://github.com/jas502n/CVE-2018-14847)
 - [mahmoodsabir/mikrotik-beast](https://github.com/mahmoodsabir/mikrotik-beast)
 - [Tr33-He11/winboxPOC](https://github.com/Tr33-He11/winboxPOC)
@@ -29656,11 +29675,16 @@
 </code>
 
 - [fser/ghost-checker](https://github.com/fser/ghost-checker)
+- [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
+- [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
 - [piyokango/ghost](https://github.com/piyokango/ghost)
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
+- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
+- [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
@@ -29890,7 +29914,7 @@
 </code>
 
 - [Tare05/Intel-CVE-2015-2291](https://github.com/Tare05/Intel-CVE-2015-2291)
-- [Exploitables/CVE-2015-2291](https://github.com/Exploitables/CVE-2015-2291)
+- [expFlash/CVE-2015-2291](https://github.com/expFlash/CVE-2015-2291)
 
 ### CVE-2015-2315 (2015-03-17)
 
@@ -32248,7 +32272,7 @@
 <code>Integer overflow in KmxSbx.sys 6.2.0.22 in CA Internet Security Suite Plus 2010 allows local users to cause a denial of service (pool corruption) and execute arbitrary code via crafted arguments to the 0x88000080 IOCTL, which triggers a buffer overflow.
 </code>
 
-- [Exploitables/CVE-2010-4502](https://github.com/Exploitables/CVE-2010-4502)
+- [expFlash/CVE-2010-4502](https://github.com/expFlash/CVE-2010-4502)
 
 ### CVE-2010-4804 (2011-06-09)
 
@@ -32306,7 +32330,7 @@
 <code>Elaborate Bytes ElbyCDIO.sys 6.0.2.0 and earlier, as distributed in SlySoft AnyDVD before 6.5.2.6, Virtual CloneDrive 5.4.2.3 and earlier, CloneDVD 2.9.2.0 and earlier, and CloneCD 5.3.1.3 and earlier, uses the METHOD_NEITHER communication method for IOCTLs and does not properly validate a buffer associated with the Irp object, which allows local users to cause a denial of service (system crash) via a crafted IOCTL call.
 </code>
 
-- [Exploitables/CVE-2009-0824](https://github.com/Exploitables/CVE-2009-0824)
+- [expFlash/CVE-2009-0824](https://github.com/expFlash/CVE-2009-0824)
 
 ### CVE-2009-1151 (2009-03-26)
 
@@ -32395,7 +32419,7 @@
 <code>Heap-based buffer overflow in aswRdr.sys (aka the TDI RDR driver) in avast! Home and Professional 4.8.1356.0 allows local users to cause a denial of service (memory corruption) or possibly gain privileges via crafted arguments to IOCTL 0x80002024.
 </code>
 
-- [Exploitables/CVE-2009-4049](https://github.com/Exploitables/CVE-2009-4049)
+- [expFlash/CVE-2009-4049](https://github.com/expFlash/CVE-2009-4049)
 
 ### CVE-2009-4092 (2009-11-27)
 
@@ -33096,6 +33120,7 @@
 </code>
 
 - [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
+- [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
 
 ### CVE-2000-0979 (2001-01-22)
 
