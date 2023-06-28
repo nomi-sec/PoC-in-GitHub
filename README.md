@@ -71,6 +71,7 @@
 - [CKevens/CVE-2023-0386](https://github.com/CKevens/CVE-2023-0386)
 - [hshivhare67/kernel_v4.19.72_CVE-2023-0386](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386)
 - [sxlmnwb/CVE-2023-0386](https://github.com/sxlmnwb/CVE-2023-0386)
+- [Fanxiaoyao66/CVE-2023-0386](https://github.com/Fanxiaoyao66/CVE-2023-0386)
 
 ### CVE-2023-0461 (2023-02-28)
 
@@ -317,6 +318,13 @@
 </code>
 
 - [hheeyywweellccoommee/CVE-2023-2868-lchvp](https://github.com/hheeyywweellccoommee/CVE-2023-2868-lchvp)
+
+### CVE-2023-2877 (2023-06-27)
+
+<code>The Formidable Forms WordPress plugin before 6.3.1 does not adequately authorize the user or validate the plugin URL in its functionality for installing add-ons. This allows a user with a role as low as Subscriber to install and activate arbitrary plugins of arbitrary versions from the WordPress.org plugin repository onto the site, leading to Remote Code Execution.
+</code>
+
+- [RandomRobbieBF/CVE-2023-2877](https://github.com/RandomRobbieBF/CVE-2023-2877)
 
 ### CVE-2023-2986 (2023-06-07)
 
@@ -869,6 +877,9 @@
 - [tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL)
 - [dhmosfunk/CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC)
 
+### CVE-2023-26258
+- [mdsecactivebreach/CVE-2023-26258-ArcServe](https://github.com/mdsecactivebreach/CVE-2023-26258-ArcServe)
+
 ### CVE-2023-26262 (2023-03-14)
 
 <code>An issue was discovered in Sitecore XP/XM 10.3. As an authenticated Sitecore user, a unrestricted language file upload vulnerability exists the can lead to direct code execution on the content management (CM) server.
@@ -966,7 +977,7 @@
 </code>
 
 - [MaanVader/CVE-2023-27350-POC](https://github.com/MaanVader/CVE-2023-27350-POC)
-- [TamingSariMY/CVE-2023-27350-POC](https://github.com/TamingSariMY/CVE-2023-27350-POC)
+- [0ximan1337/CVE-2023-27350-POC](https://github.com/0ximan1337/CVE-2023-27350-POC)
 - [horizon3ai/CVE-2023-27350](https://github.com/horizon3ai/CVE-2023-27350)
 - [adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350)
 - [Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350)
@@ -13709,7 +13720,6 @@
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [nix-xin/vuln4japi](https://github.com/nix-xin/vuln4japi)
-- [cryptoforcecommand/log4j-cve-2021-44228](https://github.com/cryptoforcecommand/log4j-cve-2021-44228)
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
@@ -19830,7 +19840,6 @@
 - [leerina/CVE-2019-2725](https://github.com/leerina/CVE-2019-2725)
 - [zhusx110/cve-2019-2725](https://github.com/zhusx110/cve-2019-2725)
 - [lufeirider/CVE-2019-2725](https://github.com/lufeirider/CVE-2019-2725)
-- [CVCLabs/cve-2019-2725](https://github.com/CVCLabs/cve-2019-2725)
 - [TopScrew/CVE-2019-2725](https://github.com/TopScrew/CVE-2019-2725)
 - [welove88888/CVE-2019-2725](https://github.com/welove88888/CVE-2019-2725)
 - [jiansiting/CVE-2019-2725](https://github.com/jiansiting/CVE-2019-2725)
