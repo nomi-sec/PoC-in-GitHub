@@ -114,6 +114,13 @@
 
 - [gonzxph/CVE-2023-0748](https://github.com/gonzxph/CVE-2023-0748)
 
+### CVE-2023-0830 (2023-02-14)
+
+<code>Es wurde eine kritische Schwachstelle in EasyNAS 1.1.0 entdeckt. Es betrifft die Funktion system der Datei /backup.pl. Durch Manipulation mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [xbz0n/CVE-2023-0830](https://github.com/xbz0n/CVE-2023-0830)
+
 ### CVE-2023-0860 (2023-02-16)
 
 <code>Improper Restriction of Excessive Authentication Attempts in GitHub repository modoboa/modoboa-installer prior to 2.0.4.
@@ -325,6 +332,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-2877](https://github.com/RandomRobbieBF/CVE-2023-2877)
+
+### CVE-2023-2982 (2023-06-28)
+
+<code>The WordPress Social Login and Register (Discord, Google, Twitter, LinkedIn) plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 7.6.4. This is due to insufficient encryption on the user being supplied during a login validated through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they know the email address associated with that user. This was partially patched in version 7.6.4 and fully patched in version 7.6.5.
+</code>
+
+- [RandomRobbieBF/CVE-2023-2982](https://github.com/RandomRobbieBF/CVE-2023-2982)
 
 ### CVE-2023-2986 (2023-06-07)
 
@@ -1814,11 +1828,19 @@
 ### CVE-2023-34584
 - [fu2x2000/-CVE-2023-34584](https://github.com/fu2x2000/-CVE-2023-34584)
 
-### CVE-2023-34598
+### CVE-2023-34598 (2023-06-29)
+
+<code>Gibbon v25.0.0 is vulnerable to a Local File Inclusion (LFI) where it's possible to include the content of several files present in the installation folder in the server's response.
+</code>
+
 - [maddsec/CVE-2023-34598](https://github.com/maddsec/CVE-2023-34598)
 - [Szlein/CVE-2023-34598](https://github.com/Szlein/CVE-2023-34598)
 
-### CVE-2023-34599
+### CVE-2023-34599 (2023-06-29)
+
+<code>Multiple Cross-Site Scripting (XSS) vulnerabilities have been identified in Gibbon v25.0.0, which enable attackers to execute arbitrary Javascript code.
+</code>
+
 - [maddsec/CVE-2023-34599](https://github.com/maddsec/CVE-2023-34599)
 
 ### CVE-2023-34600 (2023-06-20)
@@ -1827,6 +1849,13 @@
 </code>
 
 - [costacoco/Adiscon](https://github.com/costacoco/Adiscon)
+
+### CVE-2023-34761 (2023-06-28)
+
+<code>An unauthenticated attacker within BLE proximity can remotely connect to a 7-Eleven LED Message Cup, Hello Cup 1.3.1 for Android, and bypass the application's client-side chat censor filter.
+</code>
+
+- [actuator/7-Eleven-Bluetooth-Smart-Cup-Jailbreak](https://github.com/actuator/7-Eleven-Bluetooth-Smart-Cup-Jailbreak)
 
 ### CVE-2023-34830 (2023-06-27)
 
@@ -12767,6 +12796,7 @@
 - [12345qwert123456/CVE-2021-42013](https://github.com/12345qwert123456/CVE-2021-42013)
 - [cybfar/cve-2021-42013-httpd](https://github.com/cybfar/cve-2021-42013-httpd)
 - [birdlinux/CVE-2021-42013](https://github.com/birdlinux/CVE-2021-42013)
+- [Hamesawian/CVE-2021-42013](https://github.com/Hamesawian/CVE-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -20681,7 +20711,7 @@
 <code>An improper authentication vulnerability can be exploited through a race condition that occurs in Ellucian Banner Web Tailor 8.8.3, 8.8.4, and 8.9 and Banner Enterprise Identity Services 8.3, 8.3.1, 8.3.2, and 8.4, in conjunction with SSO Manager. This vulnerability allows remote attackers to steal a victim's session (and cause a denial of service) by repeatedly requesting the initial Banner Web Tailor main page with the IDMSESSID cookie set to the victim's UDCID, which in the case tested is the institutional ID. During a login attempt by a victim, the attacker can leverage the race condition and will be issued the SESSID that was meant for this victim.
 </code>
 
-- [JoshuaMulliken/CVE-2019-8978](https://github.com/JoshuaMulliken/CVE-2019-8978)
+- [SecKatie/CVE-2019-8978](https://github.com/SecKatie/CVE-2019-8978)
 
 ### CVE-2019-8979 (2019-02-21)
 
@@ -21261,6 +21291,7 @@
 - [awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932)
 - [JasonJerry/WhatsRCE](https://github.com/JasonJerry/WhatsRCE)
 - [TulungagungCyberLink/CVE-2019-11932](https://github.com/TulungagungCyberLink/CVE-2019-11932)
+- [infiniteLoopers/CVE-2019-11932](https://github.com/infiniteLoopers/CVE-2019-11932)
 - [5l1v3r1/CVE-2019-11932](https://github.com/5l1v3r1/CVE-2019-11932)
 - [valbrux/CVE-2019-11932-SupportApp](https://github.com/valbrux/CVE-2019-11932-SupportApp)
 - [fastmo/CVE-2019-11932](https://github.com/fastmo/CVE-2019-11932)
@@ -29702,13 +29733,10 @@
 - [mikesplain/CVE-2015-0235-cookbook](https://github.com/mikesplain/CVE-2015-0235-cookbook)
 - [aaronfay/CVE-2015-0235-test](https://github.com/aaronfay/CVE-2015-0235-test)
 - [piyokango/ghost](https://github.com/piyokango/ghost)
-- [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
-- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
-- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
@@ -30477,6 +30505,13 @@
 </code>
 
 - [halkichi0308/CVE-2015-9251](https://github.com/halkichi0308/CVE-2015-9251)
+
+### CVE-2015-10034 (2023-01-09)
+
+<code>In j-nowak workout-organizer wurde eine kritische Schwachstelle gefunden. Hierbei betrifft es unbekannten Programmcode. Mit der Manipulation mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Patch wird als 13cd6c3d1210640bfdb39872b2bb3597aa991279 bezeichnet. Als bestmögliche Massnahme wird Patching empfohlen.
+</code>
+
+- [andrenasx/CVE-2015-10034-Test](https://github.com/andrenasx/CVE-2015-10034-Test)
 
 
 ## 2014
