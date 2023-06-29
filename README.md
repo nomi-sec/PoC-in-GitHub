@@ -1870,7 +1870,11 @@
 ### CVE-2023-34840
 - [Xh4H/CVE-2023-34840](https://github.com/Xh4H/CVE-2023-34840)
 
-### CVE-2023-34843
+### CVE-2023-34843 (-)
+
+<code>Traggo Server 0.3.0 is vulnerable to directory traversal via a crafted GET request.
+</code>
+
 - [rootd4ddy/CVE-2023-34843](https://github.com/rootd4ddy/CVE-2023-34843)
 
 ### CVE-2023-34852 (2023-06-15)
