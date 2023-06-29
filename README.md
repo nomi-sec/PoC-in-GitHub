@@ -825,7 +825,6 @@
 </code>
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
-- [Veraxy00/Flink-Kafka-Vul](https://github.com/Veraxy00/Flink-Kafka-Vul)
 
 ### CVE-2023-25234 (2023-02-27)
 
@@ -1076,6 +1075,7 @@
 - [BishopFox/CVE-2023-27997-check](https://github.com/BishopFox/CVE-2023-27997-check)
 - [imbas007/CVE-2023-27997-Check](https://github.com/imbas007/CVE-2023-27997-Check)
 - [puckiestyle/cve-2023-27997](https://github.com/puckiestyle/cve-2023-27997)
+- [gysf666/CVE-2023-27997-test](https://github.com/gysf666/CVE-2023-27997-test)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -1870,7 +1870,7 @@
 ### CVE-2023-34840
 - [Xh4H/CVE-2023-34840](https://github.com/Xh4H/CVE-2023-34840)
 
-### CVE-2023-34843 (-)
+### CVE-2023-34843 (2023-06-28)
 
 <code>Traggo Server 0.3.0 is vulnerable to directory traversal via a crafted GET request.
 </code>
@@ -1930,9 +1930,6 @@
 
 ### CVE-2023-36146
 - [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
-
-### CVE-2023-36544
-- [KOwloid/cve-2023-36544](https://github.com/KOwloid/cve-2023-36544)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -3272,7 +3269,7 @@
 
 ### CVE-2022-21971 (2022-02-09)
 
-<code>Windows Runtime Remote Code Execution Vulnerability.
+<code>Windows Runtime Remote Code Execution Vulnerability
 </code>
 
 - [0vercl0k/CVE-2022-21971](https://github.com/0vercl0k/CVE-2022-21971)
@@ -3281,21 +3278,21 @@
 
 ### CVE-2022-21974 (2022-02-09)
 
-<code>Roaming Security Rights Management Services Remote Code Execution Vulnerability.
+<code>Roaming Security Rights Management Services Remote Code Execution Vulnerability
 </code>
 
 - [0vercl0k/CVE-2022-21974](https://github.com/0vercl0k/CVE-2022-21974)
 
 ### CVE-2022-21984 (2022-02-09)
 
-<code>Windows DNS Server Remote Code Execution Vulnerability.
+<code>Windows DNS Server Remote Code Execution Vulnerability
 </code>
 
 - [u201424348/CVE-2022-21984](https://github.com/u201424348/CVE-2022-21984)
 
 ### CVE-2022-21999 (2022-02-09)
 
-<code>Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21997, CVE-2022-22717, CVE-2022-22718.
+<code>Windows Print Spooler Elevation of Privilege Vulnerability
 </code>
 
 - [ly4k/SpoolFool](https://github.com/ly4k/SpoolFool)
@@ -3376,7 +3373,7 @@
 
 ### CVE-2022-22718 (2022-02-09)
 
-<code>Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21997, CVE-2022-21999, CVE-2022-22717.
+<code>Windows Print Spooler Elevation of Privilege Vulnerability
 </code>
 
 - [ahmetfurkans/CVE-2022-22718](https://github.com/ahmetfurkans/CVE-2022-22718)
@@ -3592,6 +3589,7 @@
 - [randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE](https://github.com/randallbanner/Spring-Cloud-Function-Vulnerability-CVE-2022-22963-RCE)
 - [gunzf0x/CVE-2022-22963](https://github.com/gunzf0x/CVE-2022-22963)
 - [nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963](https://github.com/nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963)
+- [HenriVlasic/Exploit-for-CVE-2022-22963](https://github.com/HenriVlasic/Exploit-for-CVE-2022-22963)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -3783,7 +3781,7 @@
 
 ### CVE-2022-23253 (2022-03-09)
 
-<code>Point-to-Point Tunneling Protocol Denial of Service Vulnerability.
+<code>Windows Point-to-Point Tunneling Protocol Denial of Service Vulnerability
 </code>
 
 - [nettitude/CVE-2022-23253-PoC](https://github.com/nettitude/CVE-2022-23253-PoC)
@@ -3797,7 +3795,7 @@
 
 ### CVE-2022-23277 (2022-03-09)
 
-<code>Microsoft Exchange Server Remote Code Execution Vulnerability.
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [7BitsTeam/CVE-2022-23277](https://github.com/7BitsTeam/CVE-2022-23277)
@@ -4035,35 +4033,35 @@
 
 ### CVE-2022-24481 (2022-04-15)
 
-<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-24521.
+<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
 </code>
 
 - [robotMD5/CVE-2022-24481-POC](https://github.com/robotMD5/CVE-2022-24481-POC)
 
 ### CVE-2022-24483 (2022-04-15)
 
-<code>Windows Kernel Information Disclosure Vulnerability.
+<code>Windows Kernel Information Disclosure Vulnerability
 </code>
 
 - [waleedassar/CVE-2022-24483](https://github.com/waleedassar/CVE-2022-24483)
 
 ### CVE-2022-24491 (2022-04-15)
 
-<code>Windows Network File System Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24497.
+<code>Windows Network File System Remote Code Execution Vulnerability
 </code>
 
 - [corelight/CVE-2022-24491](https://github.com/corelight/CVE-2022-24491)
 
 ### CVE-2022-24494 (2022-04-15)
 
-<code>Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability.
+<code>Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
 </code>
 
 - [vportal/AFD](https://github.com/vportal/AFD)
 
 ### CVE-2022-24497 (2022-04-15)
 
-<code>Windows Network File System Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24491.
+<code>Windows Network File System Remote Code Execution Vulnerability
 </code>
 
 - [corelight/CVE-2022-24497](https://github.com/corelight/CVE-2022-24497)
@@ -4644,7 +4642,7 @@
 
 ### CVE-2022-26809 (2022-04-15)
 
-<code>Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24492, CVE-2022-24528.
+<code>Remote Procedure Call Runtime Remote Code Execution Vulnerability
 </code>
 
 - [sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy](https://github.com/sherlocksecurity/Microsoft-CVE-2022-26809-The-Little-Boy)
@@ -19242,8 +19240,6 @@
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 - [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
-- [Al1ex/CVE-2019-0230](https://github.com/Al1ex/CVE-2019-0230)
-- [tw-eason-tseng/CVE-2019-0230_Struts2S2-059](https://github.com/tw-eason-tseng/CVE-2019-0230_Struts2S2-059)
 
 ### CVE-2019-0232 (2019-04-15)
 
@@ -19423,13 +19419,6 @@
 
 - [YHZX2013/CVE-2019-0709](https://github.com/YHZX2013/CVE-2019-0709)
 - [qq431169079/CVE-2019-0709](https://github.com/qq431169079/CVE-2019-0709)
-
-### CVE-2019-0752 (2019-04-09)
-
-<code>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-0739, CVE-2019-0753, CVE-2019-0862.
-</code>
-
-- [ZwCreatePhoton/CVE-2019-0752](https://github.com/ZwCreatePhoton/CVE-2019-0752)
 
 ### CVE-2019-0768 (2019-04-08)
 
@@ -19615,13 +19604,6 @@
 </code>
 
 - [d0gukank/CVE-2019-1218](https://github.com/d0gukank/CVE-2019-1218)
-
-### CVE-2019-1221 (2019-09-11)
-
-<code>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'.
-</code>
-
-- [ZwCreatePhoton/CVE-2019-1221](https://github.com/ZwCreatePhoton/CVE-2019-1221)
 
 ### CVE-2019-1253 (2019-09-11)
 
@@ -20010,7 +19992,6 @@
 <code>The Solarwinds Dameware Mini Remote Client agent v12.1.0.89 supports smart card authentication which can allow a user to upload an executable to be executed on the DWRCS.exe host. An unauthenticated, remote attacker can request smart card login and upload and execute an arbitrary executable run under the Local System account.
 </code>
 
-- [warferik/CVE-2019-3980](https://github.com/warferik/CVE-2019-3980)
 - [Barbarisch/CVE-2019-3980](https://github.com/Barbarisch/CVE-2019-3980)
 
 ### CVE-2019-5010 (2019-10-31)
@@ -20073,13 +20054,6 @@
 - [trickstersec/CVE-2019-5420](https://github.com/trickstersec/CVE-2019-5420)
 - [PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420)
 - [laffray/ruby-RCE-CVE-2019-5420-](https://github.com/laffray/ruby-RCE-CVE-2019-5420-)
-
-### CVE-2019-5427 (2019-04-22)
-
-<code>c3p0 version &lt; 0.9.5.4 may be exploited by a billion laughs attack when loading XML configuration due to missing protections against recursive entity expansion when loading configuration.
-</code>
-
-- [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
 ### CVE-2019-5454 (2019-07-30)
 
@@ -20401,7 +20375,6 @@
 <code>SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrusted data. An unauthenticated attacker could run commands on the server when port 17001 was remotely accessible. This port is not accessible remotely by default after applying the Build 6985 patch.
 </code>
 
-- [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
 - [andyfeili/-CVE-2019-7214](https://github.com/andyfeili/-CVE-2019-7214)
 
 ### CVE-2019-7216 (2019-01-31)
@@ -22397,7 +22370,6 @@
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
-- [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
 - [narrowinxt/CVE-2019-17558](https://github.com/narrowinxt/CVE-2019-17558)
 
 ### CVE-2019-17564 (2020-04-01)
