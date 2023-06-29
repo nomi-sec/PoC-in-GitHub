@@ -348,6 +348,9 @@
 
 - [George0Papasotiriou/CVE-2023-3163-SQL-Injection-Prevention](https://github.com/George0Papasotiriou/CVE-2023-3163-SQL-Injection-Prevention)
 
+### CVE-2023-3338
+- [TurtleARM/CVE-2023-3338](https://github.com/TurtleARM/CVE-2023-3338)
+
 ### CVE-2023-10608
 - [b35363/cve-2023-10608-PoC](https://github.com/b35363/cve-2023-10608-PoC)
 
@@ -8440,6 +8443,7 @@
 - [r1l4-i3pur1l4/CVE-2021-1732](https://github.com/r1l4-i3pur1l4/CVE-2021-1732)
 - [fenalik/CVE-2021-1732](https://github.com/fenalik/CVE-2021-1732)
 - [r2bet/CVE-2021-1732](https://github.com/r2bet/CVE-2021-1732)
+- [yangshifan-git/CVE-2021-1732](https://github.com/yangshifan-git/CVE-2021-1732)
 
 ### CVE-2021-1748 (2021-04-02)
 
@@ -13779,6 +13783,7 @@
 - [github-kyruuu/log4shell-vulnweb](https://github.com/github-kyruuu/log4shell-vulnweb)
 - [demonrvm/Log4ShellRemediation](https://github.com/demonrvm/Log4ShellRemediation)
 - [funcid/log4j-exploit-fork-bomb](https://github.com/funcid/log4j-exploit-fork-bomb)
+- [MrHarshvardhan/PY-Log4j-RCE-Scanner](https://github.com/MrHarshvardhan/PY-Log4j-RCE-Scanner)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -19240,6 +19245,8 @@
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 - [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
+- [Al1ex/CVE-2019-0230](https://github.com/Al1ex/CVE-2019-0230)
+- [tw-eason-tseng/CVE-2019-0230_Struts2S2-059](https://github.com/tw-eason-tseng/CVE-2019-0230_Struts2S2-059)
 
 ### CVE-2019-0232 (2019-04-15)
 
@@ -19419,6 +19426,13 @@
 
 - [YHZX2013/CVE-2019-0709](https://github.com/YHZX2013/CVE-2019-0709)
 - [qq431169079/CVE-2019-0709](https://github.com/qq431169079/CVE-2019-0709)
+
+### CVE-2019-0752 (2019-04-09)
+
+<code>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-0739, CVE-2019-0753, CVE-2019-0862.
+</code>
+
+- [ZwCreatePhoton/CVE-2019-0752](https://github.com/ZwCreatePhoton/CVE-2019-0752)
 
 ### CVE-2019-0768 (2019-04-08)
 
@@ -19604,6 +19618,13 @@
 </code>
 
 - [d0gukank/CVE-2019-1218](https://github.com/d0gukank/CVE-2019-1218)
+
+### CVE-2019-1221 (2019-09-11)
+
+<code>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'.
+</code>
+
+- [ZwCreatePhoton/CVE-2019-1221](https://github.com/ZwCreatePhoton/CVE-2019-1221)
 
 ### CVE-2019-1253 (2019-09-11)
 
@@ -19992,6 +20013,7 @@
 <code>The Solarwinds Dameware Mini Remote Client agent v12.1.0.89 supports smart card authentication which can allow a user to upload an executable to be executed on the DWRCS.exe host. An unauthenticated, remote attacker can request smart card login and upload and execute an arbitrary executable run under the Local System account.
 </code>
 
+- [warferik/CVE-2019-3980](https://github.com/warferik/CVE-2019-3980)
 - [Barbarisch/CVE-2019-3980](https://github.com/Barbarisch/CVE-2019-3980)
 
 ### CVE-2019-5010 (2019-10-31)
@@ -20054,6 +20076,13 @@
 - [trickstersec/CVE-2019-5420](https://github.com/trickstersec/CVE-2019-5420)
 - [PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420)
 - [laffray/ruby-RCE-CVE-2019-5420-](https://github.com/laffray/ruby-RCE-CVE-2019-5420-)
+
+### CVE-2019-5427 (2019-04-22)
+
+<code>c3p0 version &lt; 0.9.5.4 may be exploited by a billion laughs attack when loading XML configuration due to missing protections against recursive entity expansion when loading configuration.
+</code>
+
+- [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
 ### CVE-2019-5454 (2019-07-30)
 
@@ -20375,6 +20404,7 @@
 <code>SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrusted data. An unauthenticated attacker could run commands on the server when port 17001 was remotely accessible. This port is not accessible remotely by default after applying the Build 6985 patch.
 </code>
 
+- [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
 - [andyfeili/-CVE-2019-7214](https://github.com/andyfeili/-CVE-2019-7214)
 
 ### CVE-2019-7216 (2019-01-31)
@@ -21231,7 +21261,6 @@
 - [awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932)
 - [JasonJerry/WhatsRCE](https://github.com/JasonJerry/WhatsRCE)
 - [TulungagungCyberLink/CVE-2019-11932](https://github.com/TulungagungCyberLink/CVE-2019-11932)
-- [infiniteLoopers/CVE-2019-11932](https://github.com/infiniteLoopers/CVE-2019-11932)
 - [5l1v3r1/CVE-2019-11932](https://github.com/5l1v3r1/CVE-2019-11932)
 - [valbrux/CVE-2019-11932-SupportApp](https://github.com/valbrux/CVE-2019-11932-SupportApp)
 - [fastmo/CVE-2019-11932](https://github.com/fastmo/CVE-2019-11932)
@@ -22370,6 +22399,7 @@
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
+- [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
 - [narrowinxt/CVE-2019-17558](https://github.com/narrowinxt/CVE-2019-17558)
 
 ### CVE-2019-17564 (2020-04-01)
