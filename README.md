@@ -339,6 +339,7 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-2982](https://github.com/RandomRobbieBF/CVE-2023-2982)
+- [H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC)
 
 ### CVE-2023-2986 (2023-06-07)
 
@@ -463,6 +464,13 @@
 
 - [hacksysteam/CVE-2023-21608](https://github.com/hacksysteam/CVE-2023-21608)
 - [Malwareman007/CVE-2023-21608](https://github.com/Malwareman007/CVE-2023-21608)
+
+### CVE-2023-21707 (2023-02-14)
+
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
+</code>
+
+- [N1k0la-T/CVE-2023-21707](https://github.com/N1k0la-T/CVE-2023-21707)
 
 ### CVE-2023-21716 (2023-02-14)
 
@@ -831,6 +839,7 @@
 - [adhikara13/CVE-2023-25136](https://github.com/adhikara13/CVE-2023-25136)
 - [nhakobyan685/CVE-2023-25136](https://github.com/nhakobyan685/CVE-2023-25136)
 - [axylisdead/CVE-2023-25136_POC](https://github.com/axylisdead/CVE-2023-25136_POC)
+- [H4K6/CVE-2023-25136](https://github.com/H4K6/CVE-2023-25136)
 
 ### CVE-2023-25157 (2023-02-21)
 
@@ -15010,6 +15019,7 @@
 - [zveriu/CVE-2009-0229-PoC](https://github.com/zveriu/CVE-2009-0229-PoC)
 - [shubham0d/CVE-2020-1048](https://github.com/shubham0d/CVE-2020-1048)
 - [Ken-Abruzzi/CVE-2020-1048](https://github.com/Ken-Abruzzi/CVE-2020-1048)
+- [Y3A/cve-2020-1048](https://github.com/Y3A/cve-2020-1048)
 
 ### CVE-2020-1054 (2020-05-21)
 
@@ -16398,6 +16408,13 @@
 </code>
 
 - [brompwnie/CVE-2020-9283](https://github.com/brompwnie/CVE-2020-9283)
+
+### CVE-2020-9289 (2020-06-16)
+
+<code>Use of a hard-coded cryptographic key to encrypt password data in CLI configuration in FortiManager 6.2.3 and below, FortiAnalyzer 6.2.3 and below may allow an attacker with access to the CLI configuration or the CLI backup file to decrypt the sensitive data, via knowledge of the hard-coded key.
+</code>
+
+- [synacktiv/CVE-2020-9289](https://github.com/synacktiv/CVE-2020-9289)
 
 ### CVE-2020-9332 (2020-06-17)
 
@@ -20421,6 +20438,7 @@
 </code>
 
 - [gquere/CVE-2019-6693](https://github.com/gquere/CVE-2019-6693)
+- [synacktiv/CVE-2020-9289](https://github.com/synacktiv/CVE-2020-9289)
 
 ### CVE-2019-6715 (2019-04-01)
 
@@ -30529,7 +30547,8 @@
 <code>In j-nowak workout-organizer wurde eine kritische Schwachstelle gefunden. Hierbei betrifft es unbekannten Programmcode. Mit der Manipulation mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Patch wird als 13cd6c3d1210640bfdb39872b2bb3597aa991279 bezeichnet. Als bestmögliche Massnahme wird Patching empfohlen.
 </code>
 
-- [andrenasx/CVE-2015-10034-Test](https://github.com/andrenasx/CVE-2015-10034-Test)
+- [hheeyywweellccoommee/CVE-2015-10034-Test-lazmv](https://github.com/hheeyywweellccoommee/CVE-2015-10034-Test-lazmv)
+- [andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034)
 
 
 ## 2014
