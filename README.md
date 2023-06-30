@@ -499,6 +499,13 @@
 
 - [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 
+### CVE-2023-21766 (2023-01-10)
+
+<code>Windows Overlay Filter Information Disclosure Vulnerability
+</code>
+
+- [Y3A/cve-2023-21766](https://github.com/Y3A/cve-2023-21766)
+
 ### CVE-2023-21768 (2023-01-10)
 
 <code>Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
@@ -1954,13 +1961,21 @@
 
 - [Szlein/CVE-2023-35844](https://github.com/Szlein/CVE-2023-35844)
 
-### CVE-2023-36143
+### CVE-2023-36143 (2023-06-29)
+
+<code>Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.
+</code>
+
 - [leonardobg/CVE-2023-36143](https://github.com/leonardobg/CVE-2023-36143)
 
 ### CVE-2023-36144
 - [leonardobg/CVE-2023-36144](https://github.com/leonardobg/CVE-2023-36144)
 
-### CVE-2023-36146
+### CVE-2023-36146 (2023-06-29)
+
+<code>A Stored Cross-Site Scripting (XSS) vulnerability was found in Multilaser RE 170 using firmware 2.2.6733.
+</code>
+
 - [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
 
 ### CVE-2023-51504
@@ -26487,6 +26502,7 @@
 </code>
 
 - [emcalv/tivoli-poc](https://github.com/emcalv/tivoli-poc)
+- [bcdannyboy/cve-2017-1635-PoC](https://github.com/bcdannyboy/cve-2017-1635-PoC)
 
 ### CVE-2017-2368 (2017-02-20)
 
@@ -27171,6 +27187,7 @@
 - [JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP)
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
 - [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
+- [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
 - [inj3ction/CVE-2017-7921-EXP](https://github.com/inj3ction/CVE-2017-7921-EXP)
@@ -27779,6 +27796,7 @@
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 - [5l1v3r1/rtfkit](https://github.com/5l1v3r1/rtfkit)
 - [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
+- [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 - [lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp)
 - [tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882)
 - [Sunqiz/CVE-2017-11882-reproduction](https://github.com/Sunqiz/CVE-2017-11882-reproduction)
@@ -28205,6 +28223,7 @@
 - [vnik5287/CVE-2017-16995](https://github.com/vnik5287/CVE-2017-16995)
 - [littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995)
 - [Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-](https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-)
+- [ph4ntonn/CVE-2017-16995](https://github.com/ph4ntonn/CVE-2017-16995)
 - [ivilpez/cve-2017-16995.c](https://github.com/ivilpez/cve-2017-16995.c)
 - [fei9747/CVE-2017-16995](https://github.com/fei9747/CVE-2017-16995)
 - [anldori/CVE-2017-16995](https://github.com/anldori/CVE-2017-16995)
