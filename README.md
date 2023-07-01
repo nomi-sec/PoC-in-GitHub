@@ -801,6 +801,9 @@
 ### CVE-2023-24362
 - [cavetownie/CVE-2023-24362](https://github.com/cavetownie/CVE-2023-24362)
 
+### CVE-2023-24488
+- [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
+
 ### CVE-2023-24610 (2023-02-01)
 
 <code>NOSH 4a5cfdb allows remote authenticated users to execute PHP arbitrary code via the &quot;practice logo&quot; upload feature. The client-side checks can be bypassed. This may allow attackers to steal Protected Health Information because the product is for health charting.
