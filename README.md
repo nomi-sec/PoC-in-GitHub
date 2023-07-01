@@ -29131,6 +29131,7 @@
 - [jndok/PegasusX](https://github.com/jndok/PegasusX)
 - [Cryptiiiic/skybreak](https://github.com/Cryptiiiic/skybreak)
 - [liangle1986126z/jndok](https://github.com/liangle1986126z/jndok)
+- [0xyf77/CVE-2016-4655](https://github.com/0xyf77/CVE-2016-4655)
 
 ### CVE-2016-4657 (2016-08-25)
 
