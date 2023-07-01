@@ -919,6 +919,7 @@
 
 ### CVE-2023-26258
 - [mdsecactivebreach/CVE-2023-26258-ArcServe](https://github.com/mdsecactivebreach/CVE-2023-26258-ArcServe)
+- [Imahian/CVE-2023-26258](https://github.com/Imahian/CVE-2023-26258)
 
 ### CVE-2023-26262 (2023-03-14)
 
@@ -1862,6 +1863,7 @@
 
 - [maddsec/CVE-2023-34598](https://github.com/maddsec/CVE-2023-34598)
 - [Szlein/CVE-2023-34598](https://github.com/Szlein/CVE-2023-34598)
+- [Imahian/CVE-2023-34598](https://github.com/Imahian/CVE-2023-34598)
 
 ### CVE-2023-34599 (2023-06-29)
 
@@ -1869,6 +1871,7 @@
 </code>
 
 - [maddsec/CVE-2023-34599](https://github.com/maddsec/CVE-2023-34599)
+- [Imahian/CVE-2023-34599](https://github.com/Imahian/CVE-2023-34599)
 
 ### CVE-2023-34600 (2023-06-20)
 
@@ -1939,6 +1942,7 @@
 </code>
 
 - [rootd4ddy/CVE-2023-34843](https://github.com/rootd4ddy/CVE-2023-34843)
+- [Imahian/CVE-2023-34843](https://github.com/Imahian/CVE-2023-34843)
 
 ### CVE-2023-34852 (2023-06-15)
 
@@ -2868,6 +2872,7 @@
 
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
 - [adhikara13/CVE-2022-4510-WalkingPath](https://github.com/adhikara13/CVE-2022-4510-WalkingPath)
+- [Imahian/CVE-2022-4510](https://github.com/Imahian/CVE-2022-4510)
 
 ### CVE-2022-4616 (2023-01-12)
 
