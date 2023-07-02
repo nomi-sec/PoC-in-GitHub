@@ -7225,6 +7225,13 @@
 - [natceil/cve-2022-42475](https://github.com/natceil/cve-2022-42475)
 - [0xhaggis/CVE-2022-42475](https://github.com/0xhaggis/CVE-2022-42475)
 
+### CVE-2022-42703 (2022-10-09)
+
+<code>mm/rmap.c in the Linux kernel before 5.19.7 has a use-after-free related to leaf anon_vma double reuse.
+</code>
+
+- [Squirre17/hbp-attack-demo](https://github.com/Squirre17/hbp-attack-demo)
+
 ### CVE-2022-42864 (2022-12-15)
 
 <code>A race condition was addressed with improved state handling. This issue is fixed in tvOS 16.2, macOS Monterey 12.6.2, macOS Ventura 13.1, macOS Big Sur 11.7.2, iOS 15.7.2 and iPadOS 15.7.2, iOS 16.2 and iPadOS 16.2, watchOS 9.2. An app may be able to execute arbitrary code with kernel privileges.
