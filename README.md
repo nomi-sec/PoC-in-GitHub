@@ -7464,6 +7464,7 @@
 - [nfm/heroku-CVE-2022-44268-reproduction](https://github.com/nfm/heroku-CVE-2022-44268-reproduction)
 - [betillogalvanfbc/POC-CVE-2022-44268](https://github.com/betillogalvanfbc/POC-CVE-2022-44268)
 - [adhikara13/CVE-2022-44268-MagiLeak](https://github.com/adhikara13/CVE-2022-44268-MagiLeak)
+- [bhavikmalhotra/CVE-2022-44268-Exploit](https://github.com/bhavikmalhotra/CVE-2022-44268-Exploit)
 
 ### CVE-2022-44276 (2023-06-28)
 
