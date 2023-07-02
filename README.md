@@ -803,6 +803,7 @@
 
 ### CVE-2023-24488
 - [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
+- [k00kx/CVE-2023-24488](https://github.com/k00kx/CVE-2023-24488)
 
 ### CVE-2023-24610 (2023-02-01)
 
@@ -30577,6 +30578,8 @@
 
 - [hheeyywweellccoommee/CVE-2015-10034-Test-lazmv](https://github.com/hheeyywweellccoommee/CVE-2015-10034-Test-lazmv)
 - [hheeyywweellccoommee/CVE-2015-10034-posua](https://github.com/hheeyywweellccoommee/CVE-2015-10034-posua)
+- [andrenasx/CVE-2015-10034-Test](https://github.com/andrenasx/CVE-2015-10034-Test)
+- [hheeyywweellccoommee/CVE-2015-10034-akdfu](https://github.com/hheeyywweellccoommee/CVE-2015-10034-akdfu)
 - [andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034)
 
 
