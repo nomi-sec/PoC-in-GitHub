@@ -2014,6 +2014,9 @@
 
 - [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
 
+### CVE-2023-37250
+- [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
+
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
