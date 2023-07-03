@@ -1613,6 +1613,7 @@
 - [YouGina/CVE-2023-32243](https://github.com/YouGina/CVE-2023-32243)
 - [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
+- [Jenderal92/WP-CVE-2023-32243](https://github.com/Jenderal92/WP-CVE-2023-32243)
 
 ### CVE-2023-32315 (2023-05-26)
 
@@ -29580,7 +29581,6 @@
 </code>
 
 - [sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870)
-- [rustyJ4ck/JoomlaCVE20168869](https://github.com/rustyJ4ck/JoomlaCVE20168869)
 - [cved-sources/cve-2016-8869](https://github.com/cved-sources/cve-2016-8869)
 
 ### CVE-2016-8870 (2016-11-04)
@@ -32540,13 +32540,6 @@
 
 - [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
 
-### CVE-2009-3103 (2009-09-08)
-
-<code>Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
-</code>
-
-- [sooklalad/ms09050](https://github.com/sooklalad/ms09050)
-
 ### CVE-2009-3555 (2009-11-09)
 
 <code>The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a &quot;plaintext injection&quot; attack, aka the &quot;Project Mogul&quot; issue.
@@ -33057,13 +33050,6 @@
 </code>
 
 - [KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201)
-
-### CVE-2003-0222 (2003-04-30)
-
-<code>Stack-based buffer overflow in Oracle Net Services for Oracle Database Server 9i release 2 and earlier allows attackers to execute arbitrary code via a &quot;CREATE DATABASE LINK&quot; query containing a connect string with a long USING parameter.
-</code>
-
-- [phamthanhsang280477/CVE-2003-0222](https://github.com/phamthanhsang280477/CVE-2003-0222)
 
 ### CVE-2003-0264 (2003-05-08)
 
