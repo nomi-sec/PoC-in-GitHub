@@ -1623,6 +1623,7 @@
 - [tangxiaofeng7/CVE-2023-32315-Openfire-Bypass](https://github.com/tangxiaofeng7/CVE-2023-32315-Openfire-Bypass)
 - [5rGJ5aCh5oCq5YW9/CVE-2023-32315exp](https://github.com/5rGJ5aCh5oCq5YW9/CVE-2023-32315exp)
 - [miko550/CVE-2023-32315](https://github.com/miko550/CVE-2023-32315)
+- [Pari-Malam/CVE-2023-32315](https://github.com/Pari-Malam/CVE-2023-32315)
 
 ### CVE-2023-32353 (2023-06-23)
 
@@ -22523,7 +22524,7 @@
 </code>
 
 - [r00t4dm/CVE-2019-17570](https://github.com/r00t4dm/CVE-2019-17570)
-- [fbeasts/xmlrpc-common-deserialization](https://github.com/fbeasts/xmlrpc-common-deserialization)
+- [slowmistio/xmlrpc-common-deserialization](https://github.com/slowmistio/xmlrpc-common-deserialization)
 
 ### CVE-2019-17571 (2019-12-20)
 
