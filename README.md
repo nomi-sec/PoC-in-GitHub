@@ -928,7 +928,11 @@
 - [tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL)
 - [dhmosfunk/CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC)
 
-### CVE-2023-26258
+### CVE-2023-26258 (2023-07-03)
+
+<code>Arcserve UDP through 9.0.6034 allows authentication bypass. The method getVersionInfo at WebServiceImpl/services/FlashServiceImpl leaks the AuthUUID token. This token can be used at /WebServiceImpl/services/VirtualStandbyServiceImpl to obtain a valid session. This session can be used to execute any task as administrator.
+</code>
+
 - [mdsecactivebreach/CVE-2023-26258-ArcServe](https://github.com/mdsecactivebreach/CVE-2023-26258-ArcServe)
 - [Imahian/CVE-2023-26258](https://github.com/Imahian/CVE-2023-26258)
 
@@ -7483,6 +7487,7 @@
 - [betillogalvanfbc/POC-CVE-2022-44268](https://github.com/betillogalvanfbc/POC-CVE-2022-44268)
 - [adhikara13/CVE-2022-44268-MagiLeak](https://github.com/adhikara13/CVE-2022-44268-MagiLeak)
 - [bhavikmalhotra/CVE-2022-44268-Exploit](https://github.com/bhavikmalhotra/CVE-2022-44268-Exploit)
+- [entr0pie/CVE-2022-44268](https://github.com/entr0pie/CVE-2022-44268)
 
 ### CVE-2022-44276 (2023-06-28)
 
@@ -26770,6 +26775,7 @@
 - [0x5068656e6f6c/CVE-2017-5123](https://github.com/0x5068656e6f6c/CVE-2017-5123)
 - [Synacktiv-contrib/exploiting-cve-2017-5123](https://github.com/Synacktiv-contrib/exploiting-cve-2017-5123)
 - [teawater/CVE-2017-5123](https://github.com/teawater/CVE-2017-5123)
+- [c3r34lk1ll3r/CVE-2017-5123](https://github.com/c3r34lk1ll3r/CVE-2017-5123)
 - [h1bAna/CVE-2017-5123](https://github.com/h1bAna/CVE-2017-5123)
 
 ### CVE-2017-5124 (2018-02-07)
