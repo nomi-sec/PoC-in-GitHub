@@ -617,6 +617,13 @@
 
 - [Saboor-Hakimi/CVE-2023-22894](https://github.com/Saboor-Hakimi/CVE-2023-22894)
 
+### CVE-2023-22906 (-)
+
+<code>Hero Qubo HCD01_02_V1.38_20220125 devices allow TELNET access with root privileges by default, without a password.
+</code>
+
+- [nonamecoder/CVE-2023-22906](https://github.com/nonamecoder/CVE-2023-22906)
+
 ### CVE-2023-22941 (2023-02-14)
 
 <code>In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, an improperly-formatted ‘INGEST_EVAL’ parameter in a [Field Transformation](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Managefieldtransforms) crashes the Splunk daemon (splunkd).
@@ -810,7 +817,7 @@
 
 ### CVE-2023-24488
 - [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
-- [k00kx/CVE-2023-24488](https://github.com/k00kx/CVE-2023-24488)
+- [Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488)
 
 ### CVE-2023-24610 (2023-02-01)
 
@@ -15918,7 +15925,7 @@
 <code>Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
 </code>
 
-- [rojhack/CVE-2020-6514](https://github.com/rojhack/CVE-2020-6514)
+- [HassanAzze/CVE-2020-6514](https://github.com/HassanAzze/CVE-2020-6514)
 
 ### CVE-2020-6516 (2020-07-22)
 
@@ -33137,13 +33144,6 @@
 </code>
 
 - [alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288)
-
-### CVE-2002-0289 (2002-05-03)
-
-<code>Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289)
 
 ### CVE-2002-0346 (2002-05-03)
 
