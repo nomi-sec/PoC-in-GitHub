@@ -617,7 +617,7 @@
 
 - [Saboor-Hakimi/CVE-2023-22894](https://github.com/Saboor-Hakimi/CVE-2023-22894)
 
-### CVE-2023-22906 (-)
+### CVE-2023-22906 (2023-07-03)
 
 <code>Hero Qubo HCD01_02_V1.38_20220125 devices allow TELNET access with root privileges by default, without a password.
 </code>
@@ -32809,7 +32809,6 @@
 - [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
-- [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 - [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
 - [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
@@ -33144,6 +33143,13 @@
 </code>
 
 - [alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288)
+
+### CVE-2002-0289 (2002-05-03)
+
+<code>Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
+</code>
+
+- [alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289)
 
 ### CVE-2002-0346 (2002-05-03)
 
