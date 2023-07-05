@@ -399,7 +399,7 @@
 <code>VMware Fusion contains a local privilege escalation vulnerability. A malicious actor with read/write access to the host operating system can elevate privileges to gain root access to the host operating system.
 </code>
 
-- [ChriSanders22/CVE-2023-20871-poc](https://github.com/ChriSanders22/CVE-2023-20871-poc)
+- [hheeyywweellccoommee/CVE-2023-20871-poc-jbwbi](https://github.com/hheeyywweellccoommee/CVE-2023-20871-poc-jbwbi)
 
 ### CVE-2023-20887 (2023-06-07)
 
@@ -1685,6 +1685,7 @@
 - [CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246)
 - [cr1me0/rocketMq_RCE](https://github.com/cr1me0/rocketMq_RCE)
 - [hheeyywweellccoommee/CVE-2023-33246-rnkku](https://github.com/hheeyywweellccoommee/CVE-2023-33246-rnkku)
+- [Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246)
 - [hheeyywweellccoommee/CVE-2023-33246-dgjfd](https://github.com/hheeyywweellccoommee/CVE-2023-33246-dgjfd)
 
 ### CVE-2023-33253 (2023-06-12)
@@ -2000,7 +2001,7 @@
 <code>An issue was discovered in the Linux kernel before 6.3.2. A use-after-free was found in rkvdec_remove in drivers/staging/media/rkvdec/rkvdec.c.
 </code>
 
-- [ChriSanders22/CVE-2023-35829-poc](https://github.com/ChriSanders22/CVE-2023-35829-poc)
+- [apkc/CVE-2023-35829-poc](https://github.com/apkc/CVE-2023-35829-poc)
 
 ### CVE-2023-35840 (2023-06-18)
 
