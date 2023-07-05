@@ -52,13 +52,6 @@
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
 
-### CVE-2023-0315 (2023-01-15)
-
-<code>Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
-</code>
-
-- [mhaskar/CVE-2023-0315](https://github.com/mhaskar/CVE-2023-0315)
-
 ### CVE-2023-0386 (2023-03-22)
 
 <code>A flaw was found in the Linux kernel, where unauthorized access to the execution of the setuid file with capabilities was found in the Linux kernel’s OverlayFS subsystem in how a user copies a capable file from a nosuid mount into another mount. This uid mapping bug allows a local user to escalate their privileges on the system.
@@ -363,12 +356,22 @@
 
 - [George0Papasotiriou/CVE-2023-3163-SQL-Injection-Prevention](https://github.com/George0Papasotiriou/CVE-2023-3163-SQL-Injection-Prevention)
 
+### CVE-2023-3269
+- [lrh2000/StackRot](https://github.com/lrh2000/StackRot)
+
 ### CVE-2023-3338 (2023-06-30)
 
 <code>A flaw null pointer dereference in the Linux kernel DECnet networking protocol was found. A remote user could use this flaw to crash the system.
 </code>
 
 - [TurtleARM/CVE-2023-3338](https://github.com/TurtleARM/CVE-2023-3338)
+
+### CVE-2023-3460 (2023-07-04)
+
+<code>The Ultimate Member WordPress plugin before 2.6.7 does not prevent visitors from creating user accounts with arbitrary capabilities, effectively allowing attackers to create administrator accounts at will. This is actively being exploited in the wild.
+</code>
+
+- [gbrsh/CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460)
 
 ### CVE-2023-10608
 - [b35363/cve-2023-10608-PoC](https://github.com/b35363/cve-2023-10608-PoC)
@@ -637,7 +640,6 @@
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
-- [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
 ### CVE-2023-22974 (2023-02-22)
 
@@ -782,7 +784,6 @@
 <code>** DISPUTED ** KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export trigger. NOTE: the vendor's position is that the password database is not intended to be secure against an attacker who has that level of access to the local PC.
 </code>
 
-- [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
 - [alt3kx/CVE-2023-24055_PoC](https://github.com/alt3kx/CVE-2023-24055_PoC)
 - [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
 - [ATTACKnDEFEND/CVE-2023-24055](https://github.com/ATTACKnDEFEND/CVE-2023-24055)
@@ -1293,6 +1294,13 @@
 </code>
 
 - [Wh04m1001/CVE-2023-29343](https://github.com/Wh04m1001/CVE-2023-29343)
+
+### CVE-2023-29439 (2023-05-16)
+
+<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in FooPlugins FooGallery plugin &lt;= 2.2.35 versions.
+</code>
+
+- [LOURC0D3/CVE-2023-29439](https://github.com/LOURC0D3/CVE-2023-29439)
 
 ### CVE-2023-29478 (2023-04-06)
 
@@ -2598,7 +2606,7 @@
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
-- [realsiao/cve-2022-1609-exploit](https://github.com/realsiao/cve-2022-1609-exploit)
+- [0x007f/cve-2022-1609-exploit](https://github.com/0x007f/cve-2022-1609-exploit)
 
 ### CVE-2022-1679 (2022-05-16)
 
@@ -32411,13 +32419,6 @@
 
 - [magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847)
 
-### CVE-2010-3904 (2010-12-06)
-
-<code>The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Sockets (RDS) protocol implementation in the Linux kernel before 2.6.36 does not properly validate addresses obtained from user space, which allows local users to gain privileges via crafted use of the sendmsg and recvmsg system calls.
-</code>
-
-- [redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report)
-
 ### CVE-2010-3971 (2010-12-22)
 
 <code>Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka &quot;CSS Memory Corruption Vulnerability.&quot;
@@ -33299,7 +33300,6 @@
 </code>
 
 - [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
-- [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
 
 ### CVE-2000-0979 (2001-01-22)
 
