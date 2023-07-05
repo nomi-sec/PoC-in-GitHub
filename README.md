@@ -27285,6 +27285,7 @@
 - [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
 - [inj3ction/CVE-2017-7921-EXP](https://github.com/inj3ction/CVE-2017-7921-EXP)
+- [krypton612/hikivision](https://github.com/krypton612/hikivision)
 
 ### CVE-2017-7998 (2018-01-08)
 
@@ -32267,6 +32268,13 @@
 </code>
 
 - [puppetlabs-toy-chest/puppetlabs-cve20113872](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872)
+
+### CVE-2011-4107 (2011-11-17)
+
+<code>The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
+</code>
+
+- [SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107)
 
 ### CVE-2011-4862 (2011-12-24)
 
