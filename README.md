@@ -24,23 +24,8 @@
 - [TurtleARM/CVE-2023-0179-PoC](https://github.com/TurtleARM/CVE-2023-0179-PoC)
 - [H4K6/CVE-2023-0179-PoC](https://github.com/H4K6/CVE-2023-0179-PoC)
 
-### CVE-2023-0215 (2023-02-08)
-
-<code>The public API function BIO_new_NDEF is a helper function used for streaming\nASN.1 data via a BIO. It is primarily used internally to OpenSSL to support the\nSMIME, CMS and PKCS7 streaming capabilities, but may also be called directly by\nend user applications.\n\nThe function receives a BIO from the caller, prepends a new BIO_f_asn1 filter\nBIO onto the front of it to form a BIO chain, and then returns the new head of\nthe BIO chain to the caller. Under certain conditions, for example if a CMS\nrecipient public key is invalid, the new filter BIO is freed and the function\nreturns a NULL result indicating a failure. However, in this case, the BIO chain\nis not properly cleaned up and the BIO passed by the caller still retains\ninternal pointers to the previously freed filter BIO. If the caller then goes on\nto call BIO_pop() on the BIO then a use-after-free will occur. This will most\nlikely result in a crash.\n\n\n\nThis scenario occurs directly in the internal function B64_write_ASN1() which\nmay cause BIO_new_NDEF() to be called and will subsequently call BIO_pop() on\nthe BIO. This internal function is in turn called by the public API functions\nPEM_write_bio_ASN1_stream, PEM_write_bio_CMS_stream, PEM_write_bio_PKCS7_stream,\nSMIME_write_ASN1, SMIME_write_CMS and SMIME_write_PKCS7.\n\nOther public API functions that may be impacted by this include\ni2d_ASN1_bio_stream, BIO_new_CMS, BIO_new_PKCS7, i2d_CMS_bio_stream and\ni2d_PKCS7_bio_stream.\n\nThe OpenSSL cms and smime command line applications are similarly affected.\n\n\n\n
-</code>
-
-- [nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215](https://github.com/nidhi7598/OPENSSL_1.0.2_G2.5_CVE-2023-0215)
-- [nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0215)
-
 ### CVE-2023-0264
 - [twwd/CVE-2023-0264](https://github.com/twwd/CVE-2023-0264)
-
-### CVE-2023-0286 (2023-02-08)
-
-<code>There is a type confusion vulnerability relating to X.400 address processing inside an X.509 GeneralName. X.400 addresses were parsed as an ASN1_STRING but the public structure definition for GENERAL_NAME incorrectly specified the type of the x400Address field as ASN1_TYPE. This field is subsequently interpreted by the OpenSSL function GENERAL_NAME_cmp as an ASN1_TYPE rather than an ASN1_STRING. When CRL checking is enabled (i.e. the application sets the X509_V_FLAG_CRL_CHECK flag), this vulnerability may allow an attacker to pass arbitrary pointers to a memcmp call, enabling them to read memory contents or enact a denial of service. In most cases, the attack requires the attacker to provide both the certificate chain and CRL, neither of which need to have a valid signature. If the attacker only controls one of these inputs, the other input must already contain an X.400 address as a CRL distribution point, which is uncommon. As such, this vulnerability is most likely to only affect applications which have implemented their own functionality for retrieving CRLs over a network.
-</code>
-
-- [nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0286](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2023-0286)
 
 ### CVE-2023-0297 (2023-01-13)
 
@@ -80,7 +65,6 @@
 
 - [hshivhare67/kernel_v4.19.72_CVE-2023-0461](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461)
 - [hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd](https://github.com/hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd)
-- [nidhi7598/linux-4.19.72_CVE-2023-0461](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-0461)
 
 ### CVE-2023-0464 (2023-03-22)
 
@@ -419,13 +403,6 @@
 
 - [sinsinology/CVE-2023-20887](https://github.com/sinsinology/CVE-2023-20887)
 - [miko550/CVE-2023-20887](https://github.com/miko550/CVE-2023-20887)
-
-### CVE-2023-20921 (2023-01-24)
-
-<code>In onPackageRemoved of AccessibilityManagerService.java, there is a possibility to automatically grant accessibility services due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-243378132
-</code>
-
-- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2023-20921)
 
 ### CVE-2023-20933 (2023-02-28)
 
@@ -1059,6 +1036,9 @@
 - [Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350)
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
 
+### CVE-2023-27363
+- [webraybtl/CVE-2023-27363](https://github.com/webraybtl/CVE-2023-27363)
+
 ### CVE-2023-27372 (2023-02-28)
 
 <code>SPIP before 4.2.1 allows Remote Code Execution via form values in the public area because serialization is mishandled. The fixed versions are 3.2.18, 4.0.10, 4.1.8, and 4.2.1.
@@ -1248,7 +1228,6 @@
 <code>An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow.
 </code>
 
-- [nidhi7598/linux-4.19.72_CVE-2023-28772](https://github.com/nidhi7598/linux-4.19.72_CVE-2023-28772)
 - [hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu](https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu)
 - [Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772)
 - [Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772)
@@ -2072,6 +2051,9 @@
 
 - [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
 
+### CVE-2023-36531
+- [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
+
 ### CVE-2023-37250
 - [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
 
@@ -2448,6 +2430,13 @@
 
 - [V35HR4J/CVE-2022-1051](https://github.com/V35HR4J/CVE-2022-1051)
 
+### CVE-2022-1068 (2022-04-01)
+
+<code>Modbus Tools Modbus Slave (versions 7.4.2 and prior) is vulnerable to a stack-based buffer overflow in the registration field. This may cause the program to crash when a long character string is used.
+</code>
+
+- [webraybtl/CVE-2022-1068](https://github.com/webraybtl/CVE-2022-1068)
+
 ### CVE-2022-1077 (2022-03-29)
 
 <code>A vulnerability was found in TEM FLEX-1080 and FLEX-1085 1.6.0. It has been declared as problematic. This vulnerability log.cgi of the component Log Handler. A direct request leads to information disclosure of hardware information. The attack can be initiated remotely and does not require any form of authentication.
@@ -2499,7 +2488,6 @@
 - [li8u99/CVE-2022-1292](https://github.com/li8u99/CVE-2022-1292)
 - [alcaparra/CVE-2022-1292](https://github.com/alcaparra/CVE-2022-1292)
 - [rama291041610/CVE-2022-1292](https://github.com/rama291041610/CVE-2022-1292)
-- [nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292](https://github.com/nidhi7598/openssl-OpenSSL_1_1_1g_AOSP_10_r33_CVE-2022-1292)
 - [greek0x0/CVE-2022-1292](https://github.com/greek0x0/CVE-2022-1292)
 - [und3sc0n0c1d0/CVE-2022-1292](https://github.com/und3sc0n0c1d0/CVE-2022-1292)
 
@@ -2923,13 +2911,6 @@
 
 - [MrG3P5/CVE-2022-4395](https://github.com/MrG3P5/CVE-2022-4395)
 
-### CVE-2022-4450 (2023-02-08)
-
-<code>The function PEM_read_bio_ex() reads a PEM file from a BIO and parses and decodes the &quot;name&quot; (e.g. &quot;CERTIFICATE&quot;), any header data and the payload data. If the function succeeds then the &quot;name_out&quot;, &quot;header&quot; and &quot;data&quot; arguments are populated with pointers to buffers containing the relevant decoded data. The caller is responsible for freeing those buffers. It is possible to construct a PEM file that results in 0 bytes of payload data. In this case PEM_read_bio_ex() will return a failure code but will populate the header argument with a pointer to a buffer that has already been freed. If the caller also frees this buffer then a double free will occur. This will most likely lead to a crash. This could be exploited by an attacker who has the ability to supply malicious PEM files for parsing to achieve a denial of service attack. The functions PEM_read_bio() and PEM_read() are simple wrappers around PEM_read_bio_ex() and therefore these functions are also directly affected. These functions are also called indirectly by a number of other OpenSSL functions including PEM_X509_INFO_read_bio_ex() and SSL_CTX_use_serverinfo_file() which are also vulnerable. Some OpenSSL internal uses of these functions are not vulnerable because the caller does not free the header argument if PEM_read_bio_ex() returns a failure code. These locations include the PEM_read_bio_TYPE() functions as well as the decoders introduced in OpenSSL 3.0. The OpenSSL asn1parse command line application is also impacted by this issue.
-</code>
-
-- [nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2022-4450)
-
 ### CVE-2022-4510 (2023-01-25)
 
 <code>A path traversal vulnerability was identified in ReFirm Labs binwalk from version 2.1.2b through 2.3.3 included. By crafting a malicious PFS filesystem file, an attacker can get binwalk's PFS extractor to extract files at arbitrary locations when binwalk is run in extraction mode (-e option). Remote code execution can be achieved by building a PFS filesystem that, upon extraction, would extract a malicious binwalk module into the folder .config/binwalk/plugins. This vulnerability is associated with program files src/binwalk/plugins/unpfs.py. This issue affects binwalk from 2.1.2b through 2.3.3 included.
@@ -2995,15 +2976,7 @@
 </code>
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007)
-- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20007](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20007)
 - [pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20007](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20007)
-
-### CVE-2022-20124 (2022-06-15)
-
-<code>In deletePackageX of DeletePackageHelper.java, there is a possible way for a Guest user to reset pre-loaded applications for other users due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-170646036
-</code>
-
-- [nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-](https://github.com/nidhi7598/Frameworks_base_AOSP10_r33__CVE-2022-20124-)
 
 ### CVE-2022-20126 (2022-06-15)
 
@@ -3022,26 +2995,11 @@
 
 - [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
 
-### CVE-2022-20133 (2022-06-15)
-
-<code>In setDiscoverableTimeout of AdapterService.java, there is a possible bypass of user interaction due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-206807679
-</code>
-
-- [nidhi7598/packages_apps_Bluetooth_AOSP_10_r33_CVE-2022-20133](https://github.com/nidhi7598/packages_apps_Bluetooth_AOSP_10_r33_CVE-2022-20133)
-
-### CVE-2022-20135 (2022-06-15)
-
-<code>In writeToParcel of GateKeeperResponse.java, there is a possible parcel format mismatch. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-220303465
-</code>
-
-- [nidhi7598/frameworks_base_AOSP10_r33_CVE-2022-20135-](https://github.com/nidhi7598/frameworks_base_AOSP10_r33_CVE-2022-20135-)
-
 ### CVE-2022-20138 (2022-06-15)
 
 <code>In ACTION_MANAGED_PROFILE_PROVISIONED of DevicePolicyManagerService.java, there is a possible way for unprivileged app to send MANAGED_PROFILE_PROVISIONED intent due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-210469972
 </code>
 
-- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20138](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20138)
 - [ShaikUsaf/ShaikUsaf-frameworks_base_AOSP10_r33_CVE-2022-20138](https://github.com/ShaikUsaf/ShaikUsaf-frameworks_base_AOSP10_r33_CVE-2022-20138)
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20138](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20138)
 
@@ -3060,13 +3018,6 @@
 
 - [Bariskizilkaya/CVE-2022-20186_CTXZ](https://github.com/Bariskizilkaya/CVE-2022-20186_CTXZ)
 
-### CVE-2022-20223 (2022-07-13)
-
-<code>In assertSafeToStartCustomActivity of AppRestrictionsFragment.java, there is a possible way to start a phone call without permissions due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-223578534
-</code>
-
-- [nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20223](https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20223)
-
 ### CVE-2022-20224 (2022-07-13)
 
 <code>In AT_SKIP_REST of bta_hf_client_at.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote information disclosure in the Bluetooth stack with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-220732646
@@ -3082,13 +3033,6 @@
 
 - [ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229)
 
-### CVE-2022-20344 (2022-08-09)
-
-<code>In stealReceiveChannel of EventThread.cpp, there is a possible way to interfere with process communication due to a race condition. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-232541124
-</code>
-
-- [nidhi7598/frameworks_native_AOSP_10_r33_CVE-2022-20344](https://github.com/nidhi7598/frameworks_native_AOSP_10_r33_CVE-2022-20344)
-
 ### CVE-2022-20347 (2022-08-09)
 
 <code>In onAttach of ConnectedDeviceDashboardFragment.java, there is a possible permission bypass due to a confused deputy. This could lead to remote escalation of privilege in Bluetooth settings with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-228450811
@@ -3096,15 +3040,7 @@
 
 - [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2022-20347)
 - [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2022-20347)
-- [nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20347](https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20347)
 - [hshivhare67/platform_packages_apps_settings_AOSP10_r33_CVE-2022-20347](https://github.com/hshivhare67/platform_packages_apps_settings_AOSP10_r33_CVE-2022-20347)
-
-### CVE-2022-20360 (2022-08-09)
-
-<code>In setChecked of SecureNfcPreferenceController.java, there is a missing permission check. This could lead to local escalation of privilege from the guest user with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-228314987
-</code>
-
-- [nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360](https://github.com/nidhi7598/packages_apps_Settings_AOSP_10_r33_CVE-2022-20360)
 
 ### CVE-2022-20361 (2022-08-09)
 
@@ -3112,7 +3048,6 @@
 </code>
 
 - [francozappa/blur](https://github.com/francozappa/blur)
-- [nidhi7598/system_bt_AOSP_10_r33_CVE-2022-20361](https://github.com/nidhi7598/system_bt_AOSP_10_r33_CVE-2022-20361)
 
 ### CVE-2022-20413 (2022-10-11)
 
@@ -3127,13 +3062,6 @@
 </code>
 
 - [0xkol/badspin](https://github.com/0xkol/badspin)
-
-### CVE-2022-20441 (2022-11-08)
-
-<code>In navigateUpTo of Task.java, there is a possible way to launch an unexported intent handler due to a logic error in the code. This could lead to local escalation of privilege if the targeted app has an intent trampoline, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-238605611
-</code>
-
-- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20441](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20441)
 
 ### CVE-2022-20452 (2022-11-08)
 
@@ -3155,13 +3083,6 @@
 </code>
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20470](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20470)
-
-### CVE-2022-20472 (2022-12-13)
-
-<code>In toLanguageTag of LocaleListCache.cpp, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-239210579
-</code>
-
-- [nidhi7598/frameworks_minikin_AOSP_10_r33_CVE-2022-20472](https://github.com/nidhi7598/frameworks_minikin_AOSP_10_r33_CVE-2022-20472)
 
 ### CVE-2022-20473 (2022-12-13)
 
@@ -3206,13 +3127,6 @@
 </code>
 
 - [Supersonic/CVE-2022-20494](https://github.com/Supersonic/CVE-2022-20494)
-
-### CVE-2022-20495 (2022-12-13)
-
-<code>In getEnabledAccessibilityServiceList of AccessibilityManager.java, there is a possible way to hide an accessibility service due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-243849844
-</code>
-
-- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20495](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2022-20495)
 
 ### CVE-2022-20607 (2022-12-16)
 
@@ -4353,6 +4267,7 @@
 
 - [nanaao/CVE-2022-24934](https://github.com/nanaao/CVE-2022-24934)
 - [ASkyeye/WPS-CVE-2022-24934](https://github.com/ASkyeye/WPS-CVE-2022-24934)
+- [webraybtl/CVE-2022-24934](https://github.com/webraybtl/CVE-2022-24934)
 - [MagicPiperSec/WPS-CVE-2022-24934](https://github.com/MagicPiperSec/WPS-CVE-2022-24934)
 
 ### CVE-2022-24990 (2023-02-07)
@@ -4508,7 +4423,6 @@
 </code>
 
 - [ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25313](https://github.com/ShaikUsaf/external_expact_AOSP10_r33_CVE-2022-25313)
-- [nidhi7598/expat_2.1.0_G2_CVE-2022-25313](https://github.com/nidhi7598/expat_2.1.0_G2_CVE-2022-25313)
 - [Trinadh465/external_expat-2.1.0_CVE-2022-25313](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-25313)
 
 ### CVE-2022-25314 (2022-02-17)
@@ -4590,6 +4504,7 @@
 </code>
 
 - [HadiMed/KINGSOFT-WPS-Office-LPE](https://github.com/HadiMed/KINGSOFT-WPS-Office-LPE)
+- [webraybtl/CVE-2022-25943](https://github.com/webraybtl/CVE-2022-25943)
 
 ### CVE-2022-25949 (2022-03-17)
 
@@ -5330,7 +5245,6 @@
 <code>Improper Update of Reference Count vulnerability in net/sched of Linux Kernel allows local attacker to cause privilege escalation to root. This issue affects: Linux Kernel versions prior to 5.18; version 4.14 and later versions.
 </code>
 
-- [nidhi7598/linux-4.19.72_CVE-2022-29581](https://github.com/nidhi7598/linux-4.19.72_CVE-2022-29581)
 - [Nidhi77777/linux-4.19.72_CVE-2022-29581](https://github.com/Nidhi77777/linux-4.19.72_CVE-2022-29581)
 - [nidhihcl/linux-4.19.72_CVE-2022-29581](https://github.com/nidhihcl/linux-4.19.72_CVE-2022-29581)
 
@@ -5662,13 +5576,6 @@
 </code>
 
 - [efchatz/HTTP3-attacks](https://github.com/efchatz/HTTP3-attacks)
-
-### CVE-2022-30594 (2022-05-12)
-
-<code>The Linux kernel before 5.17.2 mishandles seccomp permissions. The PTRACE_SEIZE code path allows attackers to bypass intended restrictions on setting the PT_SUSPEND_SECCOMP flag.
-</code>
-
-- [nidhi7598/linux-4.19.72_CVE-2022-30594](https://github.com/nidhi7598/linux-4.19.72_CVE-2022-30594)
 
 ### CVE-2022-30600 (2022-05-18)
 
@@ -6616,8 +6523,6 @@
 <code>zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).
 </code>
 
-- [nidhi7598/external_zlib-1.2.11_AOSP_10_r33_CVE-2022-37434](https://github.com/nidhi7598/external_zlib-1.2.11_AOSP_10_r33_CVE-2022-37434)
-- [nidhi7598/external_zlib-1.2.7_CVE-2022-37434](https://github.com/nidhi7598/external_zlib-1.2.7_CVE-2022-37434)
 - [xen0bit/CVE-2022-37434_poc](https://github.com/xen0bit/CVE-2022-37434_poc)
 
 ### CVE-2022-37703 (2022-09-13)
@@ -6930,13 +6835,6 @@
 </code>
 
 - [dhammon/pfBlockerNg-CVE-2022-40624](https://github.com/dhammon/pfBlockerNg-CVE-2022-40624)
-
-### CVE-2022-40674 (2022-09-14)
-
-<code>libexpat before 2.4.9 has a use-after-free in the doContent function in xmlparse.c.
-</code>
-
-- [nidhi7598/expat_2.1.0_CVE-2022-40674](https://github.com/nidhi7598/expat_2.1.0_CVE-2022-40674)
 
 ### CVE-2022-40684 (2022-10-18)
 
@@ -7351,7 +7249,6 @@
 <code>There are use-after-free vulnerabilities in the Linux kernel's net/bluetooth/l2cap_core.c's l2cap_connect and l2cap_le_connect_req functions which may allow code execution and leaking kernel memory (respectively) remotely via Bluetooth. A remote attacker could execute code leaking kernel memory via Bluetooth if within proximity of the victim. We recommend upgrading past commit https://www.google.com/url https://github.com/torvalds/linux/commit/711f8c3fb3db61897080468586b970c87c61d9e4 https://www.google.com/url
 </code>
 
-- [nidhi7598/linux-4.1.15_CVE-2022-42896](https://github.com/nidhi7598/linux-4.1.15_CVE-2022-42896)
 - [Satheesh575555/linux-4.19.72_CVE-2022-42896](https://github.com/Satheesh575555/linux-4.19.72_CVE-2022-42896)
 - [hshivhare67/kernel_v4.19.72_CVE-2022-42896_old](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2022-42896_old)
 - [Trinadh465/linux-4.19.72_CVE-2022-42896](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-42896)
@@ -7447,8 +7344,6 @@
 <code>In libexpat through 2.4.9, there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate in out-of-memory situations.
 </code>
 
-- [nidhi7598/external_expat_AOSP10_r33_CVE-2022-43680](https://github.com/nidhi7598/external_expat_AOSP10_r33_CVE-2022-43680)
-- [nidhi7598/expat_2.1.0_CVE-2022-43680](https://github.com/nidhi7598/expat_2.1.0_CVE-2022-43680)
 - [Trinadh465/external_expat-2.1.0_CVE-2022-43680](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-43680)
 - [nidhihcl/external_expat_2.1.0_CVE-2022-43680](https://github.com/nidhihcl/external_expat_2.1.0_CVE-2022-43680)
 
@@ -7758,7 +7653,6 @@
 <code>An issue was discovered in the Linux kernel through 6.0.10. l2cap_config_req in net/bluetooth/l2cap_core.c has an integer wraparound via L2CAP_CONF_REQ packets.
 </code>
 
-- [nidhi7598/linux-3.0.35_CVE-2022-45934](https://github.com/nidhi7598/linux-3.0.35_CVE-2022-45934)
 - [Trinadh465/linux-4.19.72_CVE-2022-45934](https://github.com/Trinadh465/linux-4.19.72_CVE-2022-45934)
 - [Trinadh465/linux-4.1.15_CVE-2022-45934](https://github.com/Trinadh465/linux-4.1.15_CVE-2022-45934)
 - [Satheesh575555/linux-4.1.15_CVE-2022-45934](https://github.com/Satheesh575555/linux-4.1.15_CVE-2022-45934)
@@ -8381,7 +8275,6 @@
 
 - [nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520](https://github.com/nanopathi/frameworks_av_AOSP10_r33_CVE-2021-0520)
 - [ShaikUsaf/frameworks_av_AOSP10_r33_CVE-2021-0520](https://github.com/ShaikUsaf/frameworks_av_AOSP10_r33_CVE-2021-0520)
-- [nidhi7598/frameworks_av_AOSP_10_r33_CVE-2021-0520](https://github.com/nidhi7598/frameworks_av_AOSP_10_r33_CVE-2021-0520)
 
 ### CVE-2021-0522 (2021-06-21)
 
@@ -12203,13 +12096,6 @@
 
 - [Supersonic/Wallbreak](https://github.com/Supersonic/Wallbreak)
 
-### CVE-2021-39674 (2022-02-11)
-
-<code>In btm_sec_connected and btm_sec_disconnected of btm_sec.cc file , there is a possible use after free. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12Android ID: A-201083442
-</code>
-
-- [nidhi7598/system_bt_AOSP_10_r33_CVE-2021-39674](https://github.com/nidhi7598/system_bt_AOSP_10_r33_CVE-2021-39674)
-
 ### CVE-2021-39685 (2022-03-16)
 
 <code>In various setup methods of the USB gadget subsystem, there is a possible out of bounds write due to an incorrect flag check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-210292376References: Upstream kernel
@@ -12229,7 +12115,6 @@
 <code>In Task.java, there is a possible escalation of privilege due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12Android ID: A-185810717
 </code>
 
-- [nidhi7598/frameworks_base_AOSP_10_r33_CVE-2021-39696](https://github.com/nidhi7598/frameworks_base_AOSP_10_r33_CVE-2021-39696)
 - [nidhihcl/frameworks_base_AOSP_10_r33_CVE-2021-39696](https://github.com/nidhihcl/frameworks_base_AOSP_10_r33_CVE-2021-39696)
 
 ### CVE-2021-39704 (2022-03-16)
@@ -15428,7 +15313,6 @@
 </code>
 
 - [MBHudson/CVE-2020-1971](https://github.com/MBHudson/CVE-2020-1971)
-- [nidhi7598/OPENSSL_1.1.1g_G3_CVE-2020-1971](https://github.com/nidhi7598/OPENSSL_1.1.1g_G3_CVE-2020-1971)
 
 ### CVE-2020-2023 (2020-06-10)
 
@@ -21152,7 +21036,6 @@
 <code>Linux kernel CIFS implementation, version 4.9.0 is vulnerable to a relative paths injection in directory entry lists.
 </code>
 
-- [nidhi7598/linux-4.1.15_CVE-2019-10220](https://github.com/nidhi7598/linux-4.1.15_CVE-2019-10220)
 - [Trinadh465/linux-3.0.35_CVE-2019-10220](https://github.com/Trinadh465/linux-3.0.35_CVE-2019-10220)
 - [hshivhare67/kernel_v4.1.15_CVE-2019-10220](https://github.com/hshivhare67/kernel_v4.1.15_CVE-2019-10220)
 
@@ -25268,13 +25151,6 @@
 - [milo2012/CVE-2018-13382](https://github.com/milo2012/CVE-2018-13382)
 - [tumikoto/Exploit-FortinetMagicBackdoor](https://github.com/tumikoto/Exploit-FortinetMagicBackdoor)
 
-### CVE-2018-13405 (2018-07-06)
-
-<code>The inode_init_owner function in fs/inode.c in the Linux kernel through 3.16 allows local users to create files with an unintended group ownership, in a scenario where a directory is SGID to a certain group and is writable by a user who is not a member of that group. Here, the non-member can trigger creation of a plain file whose group ownership is that group. The intended behavior was that the non-member can trigger creation of a directory (but not a plain file) whose group ownership is that group. The non-member can escalate privileges by making the plain file executable and SGID.
-</code>
-
-- [nidhi7598/linux-3.0.35_CVE-2018-13405](https://github.com/nidhi7598/linux-3.0.35_CVE-2018-13405)
-
 ### CVE-2018-13410 (2018-07-06)
 
 <code>** DISPUTED ** Info-ZIP Zip 3.0, when the -T and -TT command-line options are used, allows attackers to cause a denial of service (invalid free and application crash) or possibly have unspecified other impact because of an off-by-one error. NOTE: it is unclear whether there are realistic scenarios in which an untrusted party controls the -TT value, given that the entire purpose of -TT is execution of arbitrary commands.
@@ -25351,8 +25227,6 @@
 <code>The VRRP parser in tcpdump before 4.9.3 has a buffer over-read in print-vrrp.c:vrrp_print() for VRRP version 2, a different vulnerability than CVE-2019-15167.
 </code>
 
-- [nidhi7598/external_tcpdump_AOSP_10_r33_CVE-2018-14463](https://github.com/nidhi7598/external_tcpdump_AOSP_10_r33_CVE-2018-14463)
-- [nidhi7598/external_tcpdump-4.9.2_AOSP_10_r33_CVE-2018-14463](https://github.com/nidhi7598/external_tcpdump-4.9.2_AOSP_10_r33_CVE-2018-14463)
 - [hshivhare67/platform_external_tcpdump_AOSP10_r33_4.9.2-_CVE-2018-14463](https://github.com/hshivhare67/platform_external_tcpdump_AOSP10_r33_4.9.2-_CVE-2018-14463)
 
 ### CVE-2018-14634 (2018-09-25)
