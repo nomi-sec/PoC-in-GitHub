@@ -102,7 +102,7 @@
 </code>
 
 - [0xf4n9x/CVE-2023-0669](https://github.com/0xf4n9x/CVE-2023-0669)
-- [cataiovita/CVE-2023-0669](https://github.com/cataiovita/CVE-2023-0669)
+- [cataliniovita/CVE-2023-0669](https://github.com/cataliniovita/CVE-2023-0669)
 - [Griffin-01/CVE-2023-0669](https://github.com/Griffin-01/CVE-2023-0669)
 - [yosef0x01/CVE-2023-0669-Analysis](https://github.com/yosef0x01/CVE-2023-0669-Analysis)
 - [Avento/CVE-2023-0669](https://github.com/Avento/CVE-2023-0669)
@@ -325,6 +325,7 @@
 </code>
 
 - [hheeyywweellccoommee/CVE-2023-2868-lchvp](https://github.com/hheeyywweellccoommee/CVE-2023-2868-lchvp)
+- [cfielding-r7/poc-cve-2023-2868](https://github.com/cfielding-r7/poc-cve-2023-2868)
 
 ### CVE-2023-2877 (2023-06-27)
 
@@ -371,7 +372,7 @@
 <code>A flaw null pointer dereference in the Linux kernel DECnet networking protocol was found. A remote user could use this flaw to crash the system.
 </code>
 
-- [TurtleARM/CVE-2023-3338](https://github.com/TurtleARM/CVE-2023-3338)
+- [TurtleARM/CVE-2023-3338-DECPwn](https://github.com/TurtleARM/CVE-2023-3338-DECPwn)
 
 ### CVE-2023-3460 (2023-07-04)
 
@@ -2565,7 +2566,6 @@
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [li8u99/CVE-2022-1388](https://github.com/li8u99/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
-- [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
@@ -3005,13 +3005,6 @@
 
 ### CVE-2022-20128
 - [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
-
-### CVE-2022-20130 (2022-06-15)
-
-<code>In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-224314979
-</code>
-
-- [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
 
 ### CVE-2022-20133 (2022-06-15)
 
@@ -3689,8 +3682,6 @@
 - [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
-- [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
-- [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
 - [Jhonsonwannaa/CVE-2022-22954](https://github.com/Jhonsonwannaa/CVE-2022-22954)
@@ -4679,9 +4670,6 @@
 - [z92g/CVE-2022-26138](https://github.com/z92g/CVE-2022-26138)
 - [shavchen/CVE-2022-26138](https://github.com/shavchen/CVE-2022-26138)
 
-### CVE-2022-26141
-- [5l1v3r1/CVE-2022-26141](https://github.com/5l1v3r1/CVE-2022-26141)
-
 ### CVE-2022-26159 (2022-02-27)
 
 <code>The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenticated attacker to read documents such as plugins/web/service/search/auto-completion/&lt;domain&gt;/en.xml (and similar pathnames for other languages), which contain all characters typed by all users, including the content of private pages. For example, a private page may contain usernames, e-mail addresses, and possibly passwords.
@@ -5282,8 +5270,6 @@
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
 - [xinghonghaoyue/CVE-2022-29464](https://github.com/xinghonghaoyue/CVE-2022-29464)
 - [Blackyguy/-CVE-2022-29464](https://github.com/Blackyguy/-CVE-2022-29464)
-- [amit-pathak009/CVE-2022-29464](https://github.com/amit-pathak009/CVE-2022-29464)
-- [amit-pathak009/CVE-2022-29464-mass](https://github.com/amit-pathak009/CVE-2022-29464-mass)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
@@ -7442,6 +7428,13 @@
 - [nidhi7598/expat_2.1.0_CVE-2022-43680](https://github.com/nidhi7598/expat_2.1.0_CVE-2022-43680)
 - [Trinadh465/external_expat-2.1.0_CVE-2022-43680](https://github.com/Trinadh465/external_expat-2.1.0_CVE-2022-43680)
 - [nidhihcl/external_expat_2.1.0_CVE-2022-43680](https://github.com/nidhihcl/external_expat_2.1.0_CVE-2022-43680)
+
+### CVE-2022-43684 (2023-06-13)
+
+<code>ServiceNow has released patches and an upgrade that address an Access Control List (ACL) bypass issue in ServiceNow Core functionality.\n\n\n\nAdditional Details\n\nThis issue is present in the following supported ServiceNow releases: \n\n\n\n  *  Quebec prior to Patch 10 Hot Fix 8b\n  *  Rome prior to Patch 10 Hot Fix 1\n  *  San Diego prior to Patch 7\n  *  Tokyo prior to Tokyo Patch 1; and \n  *  Utah prior to Utah General Availability \n\n\n\n\nIf this ACL bypass issue were to be successfully exploited, it potentially could allow an authenticated user to obtain sensitive information from tables missing authorization controls.\n\n\n\n
+</code>
+
+- [lolminerxmrig/CVE-2022-43684](https://github.com/lolminerxmrig/CVE-2022-43684)
 
 ### CVE-2022-43704 (2023-01-20)
 
@@ -24897,7 +24890,11 @@
 - [marco-lancini/hunt-for-cve-2018-10933](https://github.com/marco-lancini/hunt-for-cve-2018-10933)
 - [hackerhouse-opensource/cve-2018-10933](https://github.com/hackerhouse-opensource/cve-2018-10933)
 - [cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933)
+- [jas502n/CVE-2018-10933](https://github.com/jas502n/CVE-2018-10933)
+- [ninp0/cve-2018-10933_poc](https://github.com/ninp0/cve-2018-10933_poc)
+- [pghook/CVE-2018-10933_Scanner](https://github.com/pghook/CVE-2018-10933_Scanner)
 - [Virgula0/POC-CVE-2018-10933](https://github.com/Virgula0/POC-CVE-2018-10933)
+- [shifa123/pythonprojects-CVE-2018-10933](https://github.com/shifa123/pythonprojects-CVE-2018-10933)
 - [xFreed0m/CVE-2018-10933](https://github.com/xFreed0m/CVE-2018-10933)
 - [Bifrozt/CVE-2018-10933](https://github.com/Bifrozt/CVE-2018-10933)
 - [r3dxpl0it/CVE-2018-10933](https://github.com/r3dxpl0it/CVE-2018-10933)
@@ -25075,6 +25072,13 @@
 </code>
 
 - [anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790)
+
+### CVE-2018-12018 (2018-07-04)
+
+<code>The GetBlockHeadersMsg handler in the LES protocol implementation in Go Ethereum (aka geth) before 1.8.11 may lead to an access violation because of an integer signedness error for the array index, which allows attackers to launch a Denial of Service attack by sending a packet with a -1 query.Skip value. The vulnerable remote node would be crashed by such an attack immediately, aka the EPoD (Ethereum Packet of Death) issue.
+</code>
+
+- [k3v142/CVE-2018-12018](https://github.com/k3v142/CVE-2018-12018)
 
 ### CVE-2018-12031 (2018-06-07)
 
@@ -32323,7 +32327,6 @@
 <code>The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
 </code>
 
-- [ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn)
 - [gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn)
 
 ### CVE-2010-1205 (2010-06-30)
@@ -32418,13 +32421,6 @@
 
 - [magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847)
 
-### CVE-2010-3904 (2010-12-06)
-
-<code>The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Sockets (RDS) protocol implementation in the Linux kernel before 2.6.36 does not properly validate addresses obtained from user space, which allows local users to gain privileges via crafted use of the sendmsg and recvmsg system calls.
-</code>
-
-- [redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report)
-
 ### CVE-2010-3971 (2010-12-22)
 
 <code>Use-after-free vulnerability in the CSharedStyleSheet::Notify function in the Cascading Style Sheets (CSS) parser in mshtml.dll, as used in Microsoft Internet Explorer 6 through 8 and other products, allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a self-referential @import rule in a stylesheet, aka &quot;CSS Memory Corruption Vulnerability.&quot;
@@ -32459,13 +32455,6 @@
 </code>
 
 - [expFlash/CVE-2010-4502](https://github.com/expFlash/CVE-2010-4502)
-
-### CVE-2010-4804 (2011-06-09)
-
-<code>The Android browser in Android before 2.3.4 allows remote attackers to obtain SD card contents via crafted content:// URIs, related to (1) BrowserActivity.java and (2) BrowserSettings.java in com/android/browser/.
-</code>
-
-- [thomascannon/android-cve-2010-4804](https://github.com/thomascannon/android-cve-2010-4804)
 
 ### CVE-2010-5230 (2012-09-07)
 
