@@ -325,7 +325,7 @@
 
 - [RandomRobbieBF/CVE-2023-2982](https://github.com/RandomRobbieBF/CVE-2023-2982)
 - [H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC)
-- [LoaiEsam37/CVE-2023-2982](https://github.com/LoaiEsam37/CVE-2023-2982)
+- [hheeyywweellccoommee/CVE-2023-2982-ugdqh](https://github.com/hheeyywweellccoommee/CVE-2023-2982-ugdqh)
 
 ### CVE-2023-2986 (2023-06-07)
 
@@ -2057,6 +2057,15 @@
 
 ### CVE-2023-36531
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
+
+### CVE-2023-37189
+- [sahiloj/CVE-2023-37189](https://github.com/sahiloj/CVE-2023-37189)
+
+### CVE-2023-37190
+- [sahiloj/CVE-2023-37190](https://github.com/sahiloj/CVE-2023-37190)
+
+### CVE-2023-37191
+- [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
 
 ### CVE-2023-37250
 - [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
@@ -8513,7 +8522,7 @@
 - [ExploitCN/CVE-2021-1732-EXP-](https://github.com/ExploitCN/CVE-2021-1732-EXP-)
 - [r1l4-i3pur1l4/CVE-2021-1732](https://github.com/r1l4-i3pur1l4/CVE-2021-1732)
 - [fenalik/CVE-2021-1732](https://github.com/fenalik/CVE-2021-1732)
-- [r2bet/CVE-2021-1732](https://github.com/r2bet/CVE-2021-1732)
+- [4dp/CVE-2021-1732](https://github.com/4dp/CVE-2021-1732)
 - [yangshifan-git/CVE-2021-1732](https://github.com/yangshifan-git/CVE-2021-1732)
 
 ### CVE-2021-1748 (2021-04-02)
@@ -32590,7 +32599,6 @@
 <code>OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
 </code>
 
-- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
 - [demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166](https://github.com/demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166)
@@ -32674,13 +32682,6 @@
 </code>
 
 - [SECFORCE/CVE-2008-5416](https://github.com/SECFORCE/CVE-2008-5416)
-
-### CVE-2008-5862 (2009-01-06)
-
-<code>Directory traversal vulnerability in webcamXP 5.3.2.375 and 5.3.2.410 build 2132 allows remote attackers to read arbitrary files via a ..%2F (encoded dot dot slash) in the URI.
-</code>
-
-- [K3ysTr0K3R/CVE-2008-5862-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2008-5862-EXPLOIT)
 
 ### CVE-2008-6806 (2009-05-12)
 
