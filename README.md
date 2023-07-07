@@ -6273,7 +6273,7 @@
 </code>
 
 - [cosad3s/CVE-2022-35914-poc](https://github.com/cosad3s/CVE-2022-35914-poc)
-- [xiaobaiakai/CVE-2022-35914](https://github.com/xiaobaiakai/CVE-2022-35914)
+- [Lzer0Kx01/CVE-2022-35914](https://github.com/Lzer0Kx01/CVE-2022-35914)
 - [6E6L6F/CVE-2022-35914](https://github.com/6E6L6F/CVE-2022-35914)
 - [0xGabe/CVE-2022-35914](https://github.com/0xGabe/CVE-2022-35914)
 
@@ -29904,6 +29904,13 @@
 </code>
 
 - [Iansus/Centreon-CVE-2015-1560_1561](https://github.com/Iansus/Centreon-CVE-2015-1560_1561)
+
+### CVE-2015-1578 (2015-02-11)
+
+<code>Multiple open redirect vulnerabilities in u5CMS before 3.9.4 allow remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via a URL in the (1) pidvesa cookie to u5admin/pidvesa.php or (2) uri parameter to u5admin/meta2.php.
+</code>
+
+- [Zeppperoni/CVE-2015-1578](https://github.com/Zeppperoni/CVE-2015-1578)
 
 ### CVE-2015-1579 (2015-02-11)
 
