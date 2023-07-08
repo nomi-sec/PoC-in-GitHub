@@ -10747,9 +10747,6 @@
 - [0xBaz/CVE-2021-29349](https://github.com/0xBaz/CVE-2021-29349)
 - [Vulnmachines/CVE-2021-29349](https://github.com/Vulnmachines/CVE-2021-29349)
 
-### CVE-2021-29386
-- [Umarovm/PowerSchool-Grade-Stealer](https://github.com/Umarovm/PowerSchool-Grade-Stealer)
-
 ### CVE-2021-29440 (2021-04-13)
 
 <code>Grav is a file based Web-platform. Twig processing of static pages can be enabled in the front matter by any administrative user allowed to create or edit pages. As the Twig processor runs unsandboxed, this behavior can be used to gain arbitrary code execution and elevate privileges on the instance. The issue was addressed in version 1.7.11.
@@ -24972,6 +24969,7 @@
 </code>
 
 - [xfox64x/CVE-2018-11776](https://github.com/xfox64x/CVE-2018-11776)
+- [jiguangsdf/CVE-2018-11776](https://github.com/jiguangsdf/CVE-2018-11776)
 - [hook-s3c/CVE-2018-11776-Python-PoC](https://github.com/hook-s3c/CVE-2018-11776-Python-PoC)
 - [mazen160/struts-pwn_CVE-2018-11776](https://github.com/mazen160/struts-pwn_CVE-2018-11776)
 - [bhdresh/CVE-2018-11776](https://github.com/bhdresh/CVE-2018-11776)
@@ -31180,6 +31178,7 @@
 - [mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271)
 - [Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271)
 - [hheeyywweellccoommee/CVE-2014-6271-Shellshock-Vulnerability-vazft](https://github.com/hheeyywweellccoommee/CVE-2014-6271-Shellshock-Vulnerability-vazft)
+- [JoaoPedroMoreira02/CVE-2014-6271](https://github.com/JoaoPedroMoreira02/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
