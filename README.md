@@ -7826,7 +7826,6 @@
 - [zhuowei/MacDirtyCowDemo](https://github.com/zhuowei/MacDirtyCowDemo)
 - [straight-tamago/NoCameraSound](https://github.com/straight-tamago/NoCameraSound)
 - [ginsudev/WDBFontOverwrite](https://github.com/ginsudev/WDBFontOverwrite)
-- [spinfal/CVE-2022-46689](https://github.com/spinfal/CVE-2022-46689)
 - [mineek/FileManager](https://github.com/mineek/FileManager)
 - [straight-tamago/NoHomeBar](https://github.com/straight-tamago/NoHomeBar)
 - [straight-tamago/DockTransparent](https://github.com/straight-tamago/DockTransparent)
