@@ -325,6 +325,7 @@
 
 - [RandomRobbieBF/CVE-2023-2982](https://github.com/RandomRobbieBF/CVE-2023-2982)
 - [H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC)
+- [LoaiEsam37/CVE-2023-2982](https://github.com/LoaiEsam37/CVE-2023-2982)
 - [hheeyywweellccoommee/CVE-2023-2982-ugdqh](https://github.com/hheeyywweellccoommee/CVE-2023-2982-ugdqh)
 
 ### CVE-2023-2986 (2023-06-07)
@@ -1789,6 +1790,9 @@
 
 - [tucommenceapousser/CVE-2023-33617](https://github.com/tucommenceapousser/CVE-2023-33617)
 - [hheeyywweellccoommee/CVE-2023-33617-hugnc](https://github.com/hheeyywweellccoommee/CVE-2023-33617-hugnc)
+
+### CVE-2023-33668
+- [lodi-g/CVE-2023-33668](https://github.com/lodi-g/CVE-2023-33668)
 
 ### CVE-2023-33730 (2023-05-31)
 
