@@ -1420,6 +1420,9 @@
 - [AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212)
 - [JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-](https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-)
 
+### CVE-2023-30226
+- [ifyGecko/CVE-2023-30226](https://github.com/ifyGecko/CVE-2023-30226)
+
 ### CVE-2023-30256 (2023-05-11)
 
 <code>Cross Site Scripting vulnerability found in Webkil QloApps v.1.5.2 allows a remote attacker to obtain sensitive information via the back and email_create parameters in the AuthController.php file.
@@ -2058,6 +2061,21 @@
 </code>
 
 - [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
+
+### CVE-2023-36163
+- [TraiLeR2/CVE-2023-36163](https://github.com/TraiLeR2/CVE-2023-36163)
+
+### CVE-2023-36164
+- [TraiLeR2/CVE-2023-36164](https://github.com/TraiLeR2/CVE-2023-36164)
+
+### CVE-2023-36165
+- [TraiLeR2/CVE-2023-36165](https://github.com/TraiLeR2/CVE-2023-36165)
+
+### CVE-2023-36166
+- [TraiLeR2/CVE-2023-36166](https://github.com/TraiLeR2/CVE-2023-36166)
+
+### CVE-2023-36167
+- [TraiLeR2/CVE-2023-36167](https://github.com/TraiLeR2/CVE-2023-36167)
 
 ### CVE-2023-36531
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
@@ -4237,6 +4255,8 @@
 </code>
 
 - [JacobEbben/CVE-2022-24715](https://github.com/JacobEbben/CVE-2022-24715)
+- [hheeyywweellccoommee/CVE-2022-24715-crrxa](https://github.com/hheeyywweellccoommee/CVE-2022-24715-crrxa)
+- [cxdxnt/CVE-2022-24715](https://github.com/cxdxnt/CVE-2022-24715)
 
 ### CVE-2022-24716 (2022-03-08)
 
