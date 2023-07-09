@@ -2033,6 +2033,7 @@
 </code>
 
 - [Szlein/CVE-2023-35843](https://github.com/Szlein/CVE-2023-35843)
+- [b3nguang/CVE-2023-35843](https://github.com/b3nguang/CVE-2023-35843)
 
 ### CVE-2023-35844 (2023-06-18)
 
