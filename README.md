@@ -601,6 +601,7 @@
 - [hello4r1end/patch_CVE-2023-22809](https://github.com/hello4r1end/patch_CVE-2023-22809)
 - [Chan9Yan9/CVE-2023-22809](https://github.com/Chan9Yan9/CVE-2023-22809)
 - [pashayogi/CVE-2023-22809](https://github.com/pashayogi/CVE-2023-22809)
+- [asepsaepdin/CVE-2023-22809](https://github.com/asepsaepdin/CVE-2023-22809)
 
 ### CVE-2023-22894 (2023-04-19)
 
@@ -2966,6 +2967,13 @@
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
 - [adhikara13/CVE-2022-4510-WalkingPath](https://github.com/adhikara13/CVE-2022-4510-WalkingPath)
 - [hheeyywweellccoommee/CVE-2022-4510-yjrvc](https://github.com/hheeyywweellccoommee/CVE-2022-4510-yjrvc)
+
+### CVE-2022-4543 (2023-01-11)
+
+<code>A flaw named &quot;EntryBleed&quot; was found in the Linux Kernel Page Table Isolation (KPTI). This issue could allow a local attacker to leak KASLR base via prefetch side-channels based on TLB timing for Intel systems.
+</code>
+
+- [sunichi/cve-2022-4543-wrapper](https://github.com/sunichi/cve-2022-4543-wrapper)
 
 ### CVE-2022-4611 (2022-12-19)
 
@@ -9033,6 +9041,7 @@
 - [RicterZ/CVE-2021-3560-Authentication-Agent](https://github.com/RicterZ/CVE-2021-3560-Authentication-Agent)
 - [WinMin/CVE-2021-3560](https://github.com/WinMin/CVE-2021-3560)
 - [UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560)
+- [asepsaepdin/CVE-2021-3560](https://github.com/asepsaepdin/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -10264,7 +10273,7 @@
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
-- [R0OtAdm1n/CVE-2021-26084-EXP](https://github.com/R0OtAdm1n/CVE-2021-26084-EXP)
+- [chatapts/CVE-2021-26084-EXP](https://github.com/chatapts/CVE-2021-26084-EXP)
 
 ### CVE-2021-26085 (2021-08-02)
 
