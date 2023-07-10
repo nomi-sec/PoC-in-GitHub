@@ -1626,6 +1626,13 @@
 - [Liuk3r/CVE-2023-32233](https://github.com/Liuk3r/CVE-2023-32233)
 - [oferchen/POC-CVE-2023-32233](https://github.com/oferchen/POC-CVE-2023-32233)
 
+### CVE-2023-32235 (2023-05-05)
+
+<code>Ghost before 5.42.1 allows remote attackers to read arbitrary files within the active theme's folder via /assets/built%2F..%2F..%2F/ directory traversal. This occurs in frontend/web/middleware/static-theme.js.
+</code>
+
+- [VEEXH/Ghost-Path-Traversal-CVE-2023-32235-](https://github.com/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-)
+
 ### CVE-2023-32243 (2023-05-12)
 
 <code>Improper Authentication vulnerability in WPDeveloper Essential Addons for Elementor allows Privilege Escalation. This issue affects Essential Addons for Elementor: from 5.4.0 through 5.7.1.
@@ -1890,6 +1897,7 @@
 - [sfewer-r7/CVE-2023-34362](https://github.com/sfewer-r7/CVE-2023-34362)
 - [hheeyywweellccoommee/CVE-2023-34362-zcial](https://github.com/hheeyywweellccoommee/CVE-2023-34362-zcial)
 - [kenbuckler/MOVEit-CVE-2023-34362](https://github.com/kenbuckler/MOVEit-CVE-2023-34362)
+- [Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362)
 
 ### CVE-2023-34537 (2023-06-13)
 
@@ -2376,8 +2384,9 @@
 - [4bhishek0/CVE-2022-0847-Poc](https://github.com/4bhishek0/CVE-2022-0847-Poc)
 - [JlSakuya/CVE-2022-0847-container-escape](https://github.com/JlSakuya/CVE-2022-0847-container-escape)
 - [jonathanbest7/cve-2022-0847](https://github.com/jonathanbest7/cve-2022-0847)
-- [BlizzardEternity/CVE-2022-0847](https://github.com/BlizzardEternity/CVE-2022-0847)
+- [hheeyywweellccoommee/CVE-2022-0847-gfobj](https://github.com/hheeyywweellccoommee/CVE-2022-0847-gfobj)
 - [0xeremus/dirty-pipe-poc](https://github.com/0xeremus/dirty-pipe-poc)
+- [joeymeech/CVE-2022-0847-Exploit-Implementation](https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -2600,6 +2609,7 @@
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
 - [li8u99/CVE-2022-1388](https://github.com/li8u99/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
+- [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
@@ -3032,6 +3042,13 @@
 
 ### CVE-2022-20128
 - [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
+
+### CVE-2022-20130 (2022-06-15)
+
+<code>In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-224314979
+</code>
+
+- [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
 
 ### CVE-2022-20138 (2022-06-15)
 
@@ -3650,6 +3667,8 @@
 - [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
+- [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
+- [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
 - [Jhonsonwannaa/CVE-2022-22954](https://github.com/Jhonsonwannaa/CVE-2022-22954)
@@ -4641,6 +4660,9 @@
 - [z92g/CVE-2022-26138](https://github.com/z92g/CVE-2022-26138)
 - [shavchen/CVE-2022-26138](https://github.com/shavchen/CVE-2022-26138)
 
+### CVE-2022-26141
+- [5l1v3r1/CVE-2022-26141](https://github.com/5l1v3r1/CVE-2022-26141)
+
 ### CVE-2022-26159 (2022-02-27)
 
 <code>The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenticated attacker to read documents such as plugins/web/service/search/auto-completion/&lt;domain&gt;/en.xml (and similar pathnames for other languages), which contain all characters typed by all users, including the content of private pages. For example, a private page may contain usernames, e-mail addresses, and possibly passwords.
@@ -5241,6 +5263,8 @@
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
 - [xinghonghaoyue/CVE-2022-29464](https://github.com/xinghonghaoyue/CVE-2022-29464)
 - [r4x0r1337/-CVE-2022-29464](https://github.com/r4x0r1337/-CVE-2022-29464)
+- [amit-pathak009/CVE-2022-29464](https://github.com/amit-pathak009/CVE-2022-29464)
+- [amit-pathak009/CVE-2022-29464-mass](https://github.com/amit-pathak009/CVE-2022-29464-mass)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
