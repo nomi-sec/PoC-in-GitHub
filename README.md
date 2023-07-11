@@ -1033,6 +1033,13 @@
 
 - [DarokNET/CVE-2023-27100](https://github.com/DarokNET/CVE-2023-27100)
 
+### CVE-2023-27163 (2023-03-31)
+
+<code>request-baskets up to v1.2.1 was discovered to contain a Server-Side Request Forgery (SSRF) via the component /api/baskets/{name}. This vulnerability allows attackers to access network resources and sensitive information via a crafted API request.
+</code>
+
+- [entr0pie/CVE-2023-27163](https://github.com/entr0pie/CVE-2023-27163)
+
 ### CVE-2023-27216 (2023-04-12)
 
 <code>An issue found in D-Link DSL-3782 v.1.03 allows remote authenticated users to execute arbitrary code as root via the network settings page.
@@ -2146,10 +2153,18 @@
 ### CVE-2023-37250
 - [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
 
-### CVE-2023-37596
+### CVE-2023-37596 (2023-07-11)
+
+<code>Cross Site Request Forgery (CSRF) vulnerability in issabel-pbx v.4.0.0-6 allows a remote attacker to cause a denial of service via a crafted script to the deleteuser function.
+</code>
+
 - [sahiloj/CVE-2023-37596](https://github.com/sahiloj/CVE-2023-37596)
 
-### CVE-2023-37597
+### CVE-2023-37597 (2023-07-11)
+
+<code>Cross Site Request Forgery (CSRF) vulnerability in issabel-pbx v.4.0.0-6 allows a remote attacker to cause a denial of service via the delete user grouplist function.
+</code>
+
 - [sahiloj/CVE-2023-37597](https://github.com/sahiloj/CVE-2023-37597)
 
 ### CVE-2023-37598
@@ -4400,6 +4415,13 @@
 - [lishang520/CVE-2022-24990](https://github.com/lishang520/CVE-2022-24990)
 - [antx-code/CVE-2022-24990](https://github.com/antx-code/CVE-2022-24990)
 - [jsongmax/terraMaster-CVE-2022-24990](https://github.com/jsongmax/terraMaster-CVE-2022-24990)
+
+### CVE-2022-24992 (2022-07-25)
+
+<code>A vulnerability in the component process.php of QR Code Generator v5.2.7 allows attackers to perform directory traversal.
+</code>
+
+- [n0lsecurity/CVE-2022-24992](https://github.com/n0lsecurity/CVE-2022-24992)
 
 ### CVE-2022-24999 (2022-11-26)
 
@@ -9314,7 +9336,6 @@
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
-- [Naughty-SEC/pkexec-shell-executor](https://github.com/Naughty-SEC/pkexec-shell-executor)
 - [zxc2007/CVE-2021-4034](https://github.com/zxc2007/CVE-2021-4034)
 - [flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034)
 - [Senz4wa/CVE-2021-4034](https://github.com/Senz4wa/CVE-2021-4034)
@@ -11399,13 +11420,6 @@
 </code>
 
 - [dongpohezui/cve-2021-33045](https://github.com/dongpohezui/cve-2021-33045)
-
-### CVE-2021-33104 (2023-02-16)
-
-<code>Improper access control in the Intel(R) OFU software before version 14.1.28 may allow an authenticated user to potentially enable denial of service via local access.
-</code>
-
-- [rjt-gupta/CVE-2021-33104](https://github.com/rjt-gupta/CVE-2021-33104)
 
 ### CVE-2021-33558 (2021-05-27)
 
@@ -14425,6 +14439,7 @@
 
 - [bluefrostsecurity/CVE-2020-0041](https://github.com/bluefrostsecurity/CVE-2020-0041)
 - [j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041)
+- [jcalabres/CVE-2020-0041-Pixel-3a](https://github.com/jcalabres/CVE-2020-0041-Pixel-3a)
 - [koharin/CVE-2020-0041](https://github.com/koharin/CVE-2020-0041)
 
 ### CVE-2020-0069 (2020-03-10)
@@ -24930,7 +24945,9 @@
 - [cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933)
 - [jas502n/CVE-2018-10933](https://github.com/jas502n/CVE-2018-10933)
 - [ninp0/cve-2018-10933_poc](https://github.com/ninp0/cve-2018-10933_poc)
+- [pghook/CVE-2018-10933_Scanner](https://github.com/pghook/CVE-2018-10933_Scanner)
 - [Virgula0/POC-CVE-2018-10933](https://github.com/Virgula0/POC-CVE-2018-10933)
+- [shifa123/pythonprojects-CVE-2018-10933](https://github.com/shifa123/pythonprojects-CVE-2018-10933)
 - [xFreed0m/CVE-2018-10933](https://github.com/xFreed0m/CVE-2018-10933)
 - [Bifrozt/CVE-2018-10933](https://github.com/Bifrozt/CVE-2018-10933)
 - [r3dxpl0it/CVE-2018-10933](https://github.com/r3dxpl0it/CVE-2018-10933)
@@ -25108,6 +25125,13 @@
 </code>
 
 - [anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790)
+
+### CVE-2018-12018 (2018-07-04)
+
+<code>The GetBlockHeadersMsg handler in the LES protocol implementation in Go Ethereum (aka geth) before 1.8.11 may lead to an access violation because of an integer signedness error for the array index, which allows attackers to launch a Denial of Service attack by sending a packet with a -1 query.Skip value. The vulnerable remote node would be crashed by such an attack immediately, aka the EPoD (Ethereum Packet of Death) issue.
+</code>
+
+- [k3v142/CVE-2018-12018](https://github.com/k3v142/CVE-2018-12018)
 
 ### CVE-2018-12031 (2018-06-07)
 
@@ -25347,6 +25371,13 @@
 </code>
 
 - [hshivhare67/platform_external_tcpdump_AOSP10_r33_4.9.2-_CVE-2018-14463](https://github.com/hshivhare67/platform_external_tcpdump_AOSP10_r33_4.9.2-_CVE-2018-14463)
+
+### CVE-2018-14634 (2018-09-25)
+
+<code>An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. Kernel versions 2.6.x, 3.10.x and 4.14.x are believed to be vulnerable.
+</code>
+
+- [luan0ap/cve-2018-14634](https://github.com/luan0ap/cve-2018-14634)
 
 ### CVE-2018-14665 (2018-10-25)
 
@@ -29287,6 +29318,7 @@
 - [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
+- [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
 - [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
 - [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
 - [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
@@ -29498,6 +29530,13 @@
 
 - [0xcl/cve-2016-7190](https://github.com/0xcl/cve-2016-7190)
 
+### CVE-2016-7200 (2016-11-10)
+
+<code>The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
+</code>
+
+- [theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11)
+
 ### CVE-2016-7255 (2016-11-10)
 
 <code>The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, and 1607, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
@@ -29656,6 +29695,7 @@
 <code>A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox &lt; 50.0.2, Firefox ESR &lt; 45.5.1, and Thunderbird &lt; 45.5.1.
 </code>
 
+- [LakshmiDesai/CVE-2016-9079](https://github.com/LakshmiDesai/CVE-2016-9079)
 - [dangokyo/CVE-2016-9079](https://github.com/dangokyo/CVE-2016-9079)
 - [Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079)
 
@@ -33231,13 +33271,6 @@
 </code>
 
 - [wlensinas/CVE-2002-1614](https://github.com/wlensinas/CVE-2002-1614)
-
-### CVE-2002-2420 (2007-11-01)
-
-<code>site_searcher.cgi in Super Site Searcher allows remote attackers to execute arbitrary commands via shell metacharacters in the page parameter.
-</code>
-
-- [krdsploit/CVE-2002-2420](https://github.com/krdsploit/CVE-2002-2420)
 
 ### CVE-2002-20001 (2021-11-11)
 
