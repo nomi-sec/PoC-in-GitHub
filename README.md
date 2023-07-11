@@ -2103,13 +2103,25 @@
 ### CVE-2023-36531
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
 
-### CVE-2023-37189
+### CVE-2023-37189 (2023-07-10)
+
+<code>A stored cross site scripting (XSS) vulnerability in index.php?menu=billing_rates of Issabel PBX version 4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload entered into the Name or Prefix fields under the Create New Rate module.
+</code>
+
 - [sahiloj/CVE-2023-37189](https://github.com/sahiloj/CVE-2023-37189)
 
-### CVE-2023-37190
+### CVE-2023-37190 (2023-07-10)
+
+<code>A stored cross-site scripting (XSS) vulnerability in Issabel issabel-pbx v.4.0.0-6 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Virtual Fax Name and Caller ID Name parameters under the New Virtual Fax feature.
+</code>
+
 - [sahiloj/CVE-2023-37190](https://github.com/sahiloj/CVE-2023-37190)
 
-### CVE-2023-37191
+### CVE-2023-37191 (2023-07-10)
+
+<code>A stored cross-site scripting (XSS) vulnerability in Issabel issabel-pbx v.4.0.0-6 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Group and Description parameters.
+</code>
+
 - [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
 
 ### CVE-2023-37250
@@ -2815,7 +2827,7 @@
 <code>Improper Restriction of Excessive Authentication Attempts in GitHub repository wger-project/wger prior to 2.2.
 </code>
 
-- [HackinKraken/CVE-2022-2650](https://github.com/HackinKraken/CVE-2022-2650)
+- [StevenAmador/CVE-2022-2650](https://github.com/StevenAmador/CVE-2022-2650)
 
 ### CVE-2022-2884 (2022-10-17)
 
@@ -10297,7 +10309,7 @@
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
-- [chatapts/CVE-2021-26084-EXP](https://github.com/chatapts/CVE-2021-26084-EXP)
+- [ch4t4pt/CVE-2021-26084-EXP](https://github.com/ch4t4pt/CVE-2021-26084-EXP)
 
 ### CVE-2021-26085 (2021-08-02)
 
@@ -24887,7 +24899,7 @@
 - [blacknbunny/CVE-2018-10933](https://github.com/blacknbunny/CVE-2018-10933)
 - [hook-s3c/CVE-2018-10933](https://github.com/hook-s3c/CVE-2018-10933)
 - [kn6869610/CVE-2018-10933](https://github.com/kn6869610/CVE-2018-10933)
-- [leapsecurity/libssh-scanner](https://github.com/leapsecurity/libssh-scanner)
+- [gojhonny/libssh-scanner](https://github.com/gojhonny/libssh-scanner)
 - [likescam/CVE-2018-10933_ssh](https://github.com/likescam/CVE-2018-10933_ssh)
 - [likescam/CVE-2018-10933-libSSH-Authentication-Bypass](https://github.com/likescam/CVE-2018-10933-libSSH-Authentication-Bypass)
 - [marco-lancini/hunt-for-cve-2018-10933](https://github.com/marco-lancini/hunt-for-cve-2018-10933)
@@ -26618,7 +26630,6 @@
 
 - [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
 - [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
-- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -26846,7 +26857,6 @@
 <code>The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
-- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
 - [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
