@@ -231,6 +231,13 @@
 
 - [ixiacom/CVE-2023-2249](https://github.com/ixiacom/CVE-2023-2249)
 
+### CVE-2023-2255 (2023-05-25)
+
+<code>Improper access control in editor components of The Document Foundation LibreOffice allowed an attacker to craft a document that would cause external links to be loaded without prompt. In the affected versions of LibreOffice documents that used &quot;floating frames&quot; linked to external files, would load the contents of those frames without prompting the user for permission to do so. This was inconsistent with the treatment of other linked content in LibreOffice. This issue affects: The Document Foundation LibreOffice 7.4 versions prior to 7.4.7; 7.5 versions prior to 7.5.3.
+</code>
+
+- [elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255)
+
 ### CVE-2023-2516 (2023-05-05)
 
 <code>Cross-site Scripting (XSS) - Stored in GitHub repository nilsteampassnet/teampass prior to 3.0.7.
@@ -808,7 +815,11 @@
 ### CVE-2023-24362
 - [cavetownie/CVE-2023-24362](https://github.com/cavetownie/CVE-2023-24362)
 
-### CVE-2023-24488
+### CVE-2023-24488 (2023-07-10)
+
+<code>Cross site scripting vulnerability in Citrix ADC and Citrix Gateway  in allows and attacker to perform cross site scripting
+</code>
+
 - [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
 - [Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488)
 - [securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488)
@@ -3430,6 +3441,13 @@
 </code>
 
 - [mchoudhary15/CVE-2022-22029-NFS-Server-](https://github.com/mchoudhary15/CVE-2022-22029-NFS-Server-)
+
+### CVE-2022-22057 (2022-06-14)
+
+<code>Use after free in graphics fence due to a race condition while closing fence file descriptor and destroy graphics timeline simultaneously in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables
+</code>
+
+- [diabl0w/CVE-2022-22057_SM-F926U](https://github.com/diabl0w/CVE-2022-22057_SM-F926U)
 
 ### CVE-2022-22063 (2022-12-14)
 
