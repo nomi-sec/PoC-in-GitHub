@@ -1161,6 +1161,7 @@
 - [imbas007/CVE-2023-27997-Check](https://github.com/imbas007/CVE-2023-27997-Check)
 - [puckiestyle/cve-2023-27997](https://github.com/puckiestyle/cve-2023-27997)
 - [hheeyywweellccoommee/CVE-2023-27997-test-nleyl](https://github.com/hheeyywweellccoommee/CVE-2023-27997-test-nleyl)
+- [TechinsightsPro/ShodanFortiOS](https://github.com/TechinsightsPro/ShodanFortiOS)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -2049,6 +2050,9 @@
 
 - [AgentY0/CVE-2023-34965](https://github.com/AgentY0/CVE-2023-34965)
 
+### CVE-2023-35803
+- [lachlan2k/CVE-2023-35803](https://github.com/lachlan2k/CVE-2023-35803)
+
 ### CVE-2023-35829 (2023-06-18)
 
 <code>An issue was discovered in the Linux kernel before 6.3.2. A use-after-free was found in rkvdec_remove in drivers/staging/media/rkvdec/rkvdec.c.
@@ -2683,7 +2687,7 @@
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
-- [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
+- [gabriellaabigail/CVE-2022-1388](https://github.com/gabriellaabigail/CVE-2022-1388)
 - [amitlttwo/CVE-2022-1388](https://github.com/amitlttwo/CVE-2022-1388)
 - [M4fiaB0y/CVE-2022-1388](https://github.com/M4fiaB0y/CVE-2022-1388)
 - [devengpk/CVE-2022-1388](https://github.com/devengpk/CVE-2022-1388)
@@ -3029,6 +3033,7 @@
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
 - [adhikara13/CVE-2022-4510-WalkingPath](https://github.com/adhikara13/CVE-2022-4510-WalkingPath)
 - [hheeyywweellccoommee/CVE-2022-4510-yjrvc](https://github.com/hheeyywweellccoommee/CVE-2022-4510-yjrvc)
+- [Kalagious/BadPfs](https://github.com/Kalagious/BadPfs)
 
 ### CVE-2022-4543 (2023-01-11)
 
@@ -9336,6 +9341,7 @@
 - [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
+- [Naughty-SEC/pkexec-shell-executor](https://github.com/Naughty-SEC/pkexec-shell-executor)
 - [zxc2007/CVE-2021-4034](https://github.com/zxc2007/CVE-2021-4034)
 - [flux10n/CVE-2021-4034](https://github.com/flux10n/CVE-2021-4034)
 - [Senz4wa/CVE-2021-4034](https://github.com/Senz4wa/CVE-2021-4034)
@@ -11420,6 +11426,13 @@
 </code>
 
 - [dongpohezui/cve-2021-33045](https://github.com/dongpohezui/cve-2021-33045)
+
+### CVE-2021-33104 (2023-02-16)
+
+<code>Improper access control in the Intel(R) OFU software before version 14.1.28 may allow an authenticated user to potentially enable denial of service via local access.
+</code>
+
+- [rjt-gupta/CVE-2021-33104](https://github.com/rjt-gupta/CVE-2021-33104)
 
 ### CVE-2021-33558 (2021-05-27)
 
@@ -15325,7 +15338,6 @@
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
 - [carlos55ml/zerologon](https://github.com/carlos55ml/zerologon)
-- [ligHthoUse-951/CVE-2020-1472](https://github.com/ligHthoUse-951/CVE-2020-1472)
 - [Rvn0xsy/ZeroLogon](https://github.com/Rvn0xsy/ZeroLogon)
 - [guglia001/MassZeroLogon](https://github.com/guglia001/MassZeroLogon)
 - [likeww/MassZeroLogon](https://github.com/likeww/MassZeroLogon)
@@ -33271,6 +33283,13 @@
 </code>
 
 - [wlensinas/CVE-2002-1614](https://github.com/wlensinas/CVE-2002-1614)
+
+### CVE-2002-2420 (2007-11-01)
+
+<code>site_searcher.cgi in Super Site Searcher allows remote attackers to execute arbitrary commands via shell metacharacters in the page parameter.
+</code>
+
+- [krdsploit/CVE-2002-2420](https://github.com/krdsploit/CVE-2002-2420)
 
 ### CVE-2002-20001 (2021-11-11)
 
