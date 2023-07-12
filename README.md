@@ -1169,6 +1169,8 @@
 </code>
 
 - [gbrsh/CVE-2023-28121](https://github.com/gbrsh/CVE-2023-28121)
+- [im-hanzou/Mass-CVE-2023-28121](https://github.com/im-hanzou/Mass-CVE-2023-28121)
+- [rio128128/Mass-CVE-2023-28121-kdoec](https://github.com/rio128128/Mass-CVE-2023-28121-kdoec)
 
 ### CVE-2023-28206 (2023-04-10)
 
@@ -1448,7 +1450,11 @@
 - [AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212)
 - [JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-](https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-)
 
-### CVE-2023-30226
+### CVE-2023-30226 (2023-07-11)
+
+<code>An issue was discovered in function get_gnu_verneed in rizinorg Rizin prior to 0.5.0 verneed_entry allows attackers to cause a denial of service via crafted elf file.
+</code>
+
 - [ifyGecko/CVE-2023-30226](https://github.com/ifyGecko/CVE-2023-30226)
 
 ### CVE-2023-30256 (2023-05-11)
