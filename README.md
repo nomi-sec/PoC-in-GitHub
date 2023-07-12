@@ -382,6 +382,9 @@
 - [hheeyywweellccoommee/CVE-2023-3460-obgen](https://github.com/hheeyywweellccoommee/CVE-2023-3460-obgen)
 - [Fire-Null/CVE-2023-3460](https://github.com/Fire-Null/CVE-2023-3460)
 
+### CVE-2023-3640
+- [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
+
 ### CVE-2023-10608
 - [b35363/cve-2023-10608-PoC](https://github.com/b35363/cve-2023-10608-PoC)
 
@@ -1207,6 +1210,7 @@
 </code>
 
 - [fortra/CVE-2023-28252](https://github.com/fortra/CVE-2023-28252)
+- [Malwareman007/CVE-2023-28252](https://github.com/Malwareman007/CVE-2023-28252)
 
 ### CVE-2023-28310 (2023-06-14)
 
@@ -2720,6 +2724,7 @@
 - [devengpk/CVE-2022-1388](https://github.com/devengpk/CVE-2022-1388)
 - [vaelwolf/CVE-2022-1388](https://github.com/vaelwolf/CVE-2022-1388)
 - [j-baines/tippa-my-tongue](https://github.com/j-baines/tippa-my-tongue)
+- [SudeepaShiranthaka/F5-BIG-IP-Remote-Code-Execution-Vulnerability-CVE-2022-1388-A-Case-Study](https://github.com/SudeepaShiranthaka/F5-BIG-IP-Remote-Code-Execution-Vulnerability-CVE-2022-1388-A-Case-Study)
 
 ### CVE-2022-1421 (2022-06-06)
 
@@ -4190,6 +4195,7 @@
 - [NHPT/CVE-2022-24086-RCE](https://github.com/NHPT/CVE-2022-24086-RCE)
 - [oK0mo/CVE-2022-24086-RCE-PoC](https://github.com/oK0mo/CVE-2022-24086-RCE-PoC)
 - [seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087)
+- [akr3ch/CVE-2022-24086](https://github.com/akr3ch/CVE-2022-24086)
 - [pescepilota/CVE-2022-24086](https://github.com/pescepilota/CVE-2022-24086)
 
 ### CVE-2022-24087
@@ -4838,6 +4844,13 @@
 - [scopion/CVE-2022-26629](https://github.com/scopion/CVE-2022-26629)
 - [sysenter-eip/CVE-2022-26629](https://github.com/sysenter-eip/CVE-2022-26629)
 
+### CVE-2022-26631 (2022-04-18)
+
+<code>Automatic Question Paper Generator v1.0 contains a Time-Based Blind SQL injection vulnerability via the id GET parameter.
+</code>
+
+- [5l1v3r1/CVE-2022-26631](https://github.com/5l1v3r1/CVE-2022-26631)
+
 ### CVE-2022-26717 (2022-11-01)
 
 <code>A use after free issue was addressed with improved memory management. This issue is fixed in tvOS 15.5, watchOS 8.6, iOS 15.5 and iPadOS 15.5, macOS Monterey 12.4, Safari 15.5, iTunes 12.12.4 for Windows. Processing maliciously crafted web content may lead to arbitrary code execution.
@@ -4927,6 +4940,13 @@
 </code>
 
 - [SakuraSamuraii/ez-iRZ](https://github.com/SakuraSamuraii/ez-iRZ)
+
+### CVE-2022-27228 (2022-03-22)
+
+<code>In the vote (aka &quot;Polls, Votes&quot;) module before 21.0.100 of Bitrix Site Manager, a remote unauthenticated attacker can execute arbitrary code.
+</code>
+
+- [trump88/CVE-2022-27228](https://github.com/trump88/CVE-2022-27228)
 
 ### CVE-2022-27251
 - [TheCyberGeek/CVE-2022-27251](https://github.com/TheCyberGeek/CVE-2022-27251)
@@ -6406,6 +6426,7 @@
 <code>SQLite 1.0.12 through 3.39.x before 3.39.2 sometimes allows an array-bounds overflow if billions of bytes are used in a string argument to a C API.
 </code>
 
+- [gmh5225/CVE-2022-35737](https://github.com/gmh5225/CVE-2022-35737)
 - [rvermeulen/codeql-cve-2022-35737](https://github.com/rvermeulen/codeql-cve-2022-35737)
 
 ### CVE-2022-35841 (2022-09-13)
@@ -26490,7 +26511,6 @@
 - [peterpt/eternal_scanner](https://github.com/peterpt/eternal_scanner)
 - [kimocoder/eternalblue](https://github.com/kimocoder/eternalblue)
 - [EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution](https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution)
-- [Ali-Imangholi/EternalBlueTrojan](https://github.com/Ali-Imangholi/EternalBlueTrojan)
 - [quynhold/Detect-CVE-2017-0144-attack](https://github.com/quynhold/Detect-CVE-2017-0144-attack)
 
 ### CVE-2017-0145 (2017-03-16)
@@ -26696,9 +26716,6 @@
 <code>An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
-- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
-- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
-- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -26819,13 +26836,6 @@
 - [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
 - [jptr218/mysql_dos](https://github.com/jptr218/mysql_dos)
 
-### CVE-2017-3730 (2017-05-04)
-
-<code>In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
-</code>
-
-- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
-
 ### CVE-2017-3881 (2017-03-17)
 
 <code>A vulnerability in the Cisco Cluster Management Protocol (CMP) processing code in Cisco IOS and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause a reload of an affected device or remotely execute code with elevated privileges. The Cluster Management Protocol utilizes Telnet internally as a signaling and command protocol between cluster members. The vulnerability is due to the combination of two factors: (1) the failure to restrict the use of CMP-specific Telnet options only to internal, local communications between cluster members and instead accept and process such options over any Telnet connection to an affected device; and (2) the incorrect processing of malformed CMP-specific Telnet options. An attacker could exploit this vulnerability by sending malformed CMP-specific Telnet options while establishing a Telnet session with an affected Cisco device configured to accept Telnet connections. An exploit could allow an attacker to execute arbitrary code and obtain full control of the device or cause a reload of the affected device. This affects Catalyst switches, Embedded Service 2020 switches, Enhanced Layer 2 EtherSwitch Service Module, Enhanced Layer 2/3 EtherSwitch Service Module, Gigabit Ethernet Switch Module (CGESM) for HP, IE Industrial Ethernet switches, ME 4924-10GE switch, RF Gateway 10, and SM-X Layer 2/3 EtherSwitch Service Module. Cisco Bug IDs: CSCvd48893.
@@ -26926,7 +26936,6 @@
 <code>The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
-- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
 - [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
@@ -28591,6 +28600,13 @@
 
 - [Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal](https://github.com/Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal)
 
+### CVE-2017-1000250 (2017-09-12)
+
+<code>All versions of the SDP server in BlueZ 5.46 and earlier are vulnerable to an information disclosure vulnerability which allows remote attackers to obtain sensitive information from the bluetoothd process memory. This vulnerability lies in the processing of SDP search attribute requests.
+</code>
+
+- [olav-st/CVE-2017-1000250-PoC](https://github.com/olav-st/CVE-2017-1000250-PoC)
+
 ### CVE-2017-1000251 (2017-09-12)
 
 <code>The native Bluetooth stack in the Linux Kernel (BlueZ), starting at the Linux kernel version 2.6.32 and up to and including 4.13.1, are vulnerable to a stack overflow vulnerability in the processing of L2CAP configuration responses resulting in Remote code execution in kernel space.
@@ -29089,13 +29105,6 @@
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
-
-### CVE-2016-3141 (2016-03-31)
-
-<code>Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
-</code>
-
-- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
@@ -31682,7 +31691,6 @@
 </code>
 
 - [GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup)
-- [sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186)
 - [sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186)
 
 ### CVE-2013-2217 (2013-09-23)
@@ -31784,13 +31792,6 @@
 
 - [snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900)
 - [CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln](https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln)
-
-### CVE-2013-4002 (2013-07-23)
-
-<code>XMLscanner.java in Apache Xerces2 Java Parser before 2.12.0, as used in the Java Runtime Environment (JRE) in IBM Java 5.0 before 5.0 SR16-FP3, 6 before 6 SR14, 6.0.1 before 6.0.1 SR6, and 7 before 7 SR5 as well as Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, Java SE Embedded 7u40 and earlier, and possibly other products allows remote attackers to cause a denial of service via vectors related to XML attribute names.
-</code>
-
-- [tafamace/CVE-2013-4002](https://github.com/tafamace/CVE-2013-4002)
 
 ### CVE-2013-4175 (2020-01-23)
 
@@ -32163,11 +32164,7 @@
 <code>** DISPUTED ** MySQL 5.5.19 and possibly other versions, and MariaDB 5.5.28a and possibly other versions, when configured to assign the FILE privilege to users who should not have administrative privileges, allows remote authenticated users to gain privileges by leveraging the FILE privilege to create files as the MySQL administrator. NOTE: the vendor disputes this issue, stating that this is only a vulnerability when the administrator does not follow recommendations in the product's installation documentation. NOTE: it could be argued that this should not be included in CVE because it is a configuration issue.
 </code>
 
-- [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
 - [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
-
-### CVE-2012-5664
-- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
 
 ### CVE-2012-5958 (2013-01-31)
 
