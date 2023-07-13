@@ -2174,6 +2174,7 @@
 </code>
 
 - [Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline](https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline)
+- [deepinstinct/Storm0978-RomCom-Campaign](https://github.com/deepinstinct/Storm0978-RomCom-Campaign)
 
 ### CVE-2023-37189 (2023-07-10)
 
@@ -3060,6 +3061,13 @@
 </code>
 
 - [aminetitrofine/CVE-2022-4096](https://github.com/aminetitrofine/CVE-2022-4096)
+
+### CVE-2022-4262 (2022-12-02)
+
+<code>Type confusion in V8 in Google Chrome prior to 108.0.5359.94 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [bjrjk/CVE-2022-4262](https://github.com/bjrjk/CVE-2022-4262)
 
 ### CVE-2022-4304 (2023-02-08)
 
@@ -33324,6 +33332,13 @@
 </code>
 
 - [alt3kx/CVE-2002-0740](https://github.com/alt3kx/CVE-2002-0740)
+
+### CVE-2002-0748 (2003-04-02)
+
+<code>LabVIEW Web Server 5.1.1 through 6.1 allows remote attackers to cause a denial of service (crash) via an HTTP GET request that ends in two newline characters, instead of the expected carriage return/newline combinations.
+</code>
+
+- [fauzanwijaya/CVE-2002-0748](https://github.com/fauzanwijaya/CVE-2002-0748)
 
 ### CVE-2002-0991 (2002-08-31)
 
