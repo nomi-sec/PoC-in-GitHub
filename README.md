@@ -381,6 +381,7 @@
 - [yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460)
 - [hheeyywweellccoommee/CVE-2023-3460-obgen](https://github.com/hheeyywweellccoommee/CVE-2023-3460-obgen)
 - [Fire-Null/CVE-2023-3460](https://github.com/Fire-Null/CVE-2023-3460)
+- [diego-tella/CVE-2023-3460](https://github.com/diego-tella/CVE-2023-3460)
 
 ### CVE-2023-3640
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
@@ -973,7 +974,11 @@
 
 - [istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262)
 
-### CVE-2023-26563
+### CVE-2023-26563 (-)
+
+<code>The Syncfusion EJ2 Node File Provider 0102271 is vulnerable to filesystem-server.js directory traversal. As a result, an unauthenticated attacker can: - On Windows, list files in any directory, read any file, delete any file, upload any file to any directory accessible by the web server. - On Linux, read any file, download any directory, delete any file, upload any file to any directory accessible by the web server.
+</code>
+
 - [RupturaInfoSec/CVE-2023-26563-26564-26565](https://github.com/RupturaInfoSec/CVE-2023-26563-26564-26565)
 
 ### CVE-2023-26604 (2023-03-03)
@@ -17768,7 +17773,6 @@
 - [Manor99/CVE-2020-14882-](https://github.com/Manor99/CVE-2020-14882-)
 - [Serendipity-Lucky/CVE-2020-14882_ALL](https://github.com/Serendipity-Lucky/CVE-2020-14882_ALL)
 - [nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882)
-- [PoSH-Father/CVE-2020-14882](https://github.com/PoSH-Father/CVE-2020-14882)
 
 ### CVE-2020-14883 (2020-10-21)
 
@@ -26716,6 +26720,9 @@
 <code>An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
+- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -26836,6 +26843,13 @@
 - [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
 - [jptr218/mysql_dos](https://github.com/jptr218/mysql_dos)
 
+### CVE-2017-3730 (2017-05-04)
+
+<code>In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
+</code>
+
+- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
+
 ### CVE-2017-3881 (2017-03-17)
 
 <code>A vulnerability in the Cisco Cluster Management Protocol (CMP) processing code in Cisco IOS and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause a reload of an affected device or remotely execute code with elevated privileges. The Cluster Management Protocol utilizes Telnet internally as a signaling and command protocol between cluster members. The vulnerability is due to the combination of two factors: (1) the failure to restrict the use of CMP-specific Telnet options only to internal, local communications between cluster members and instead accept and process such options over any Telnet connection to an affected device; and (2) the incorrect processing of malformed CMP-specific Telnet options. An attacker could exploit this vulnerability by sending malformed CMP-specific Telnet options while establishing a Telnet session with an affected Cisco device configured to accept Telnet connections. An exploit could allow an attacker to execute arbitrary code and obtain full control of the device or cause a reload of the affected device. This affects Catalyst switches, Embedded Service 2020 switches, Enhanced Layer 2 EtherSwitch Service Module, Enhanced Layer 2/3 EtherSwitch Service Module, Gigabit Ethernet Switch Module (CGESM) for HP, IE Industrial Ethernet switches, ME 4924-10GE switch, RF Gateway 10, and SM-X Layer 2/3 EtherSwitch Service Module. Cisco Bug IDs: CSCvd48893.
@@ -26936,6 +26950,7 @@
 <code>The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
+- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
 - [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
@@ -29105,6 +29120,13 @@
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
+
+### CVE-2016-3141 (2016-03-31)
+
+<code>Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
+</code>
+
+- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
@@ -31691,6 +31713,7 @@
 </code>
 
 - [GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup)
+- [sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186)
 - [sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186)
 
 ### CVE-2013-2217 (2013-09-23)
@@ -31792,6 +31815,13 @@
 
 - [snoopopsec/vulnerability-CVE-2013-3900](https://github.com/snoopopsec/vulnerability-CVE-2013-3900)
 - [CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln](https://github.com/CyberCondor/Fix-WinVerifyTrustSignatureValidationVuln)
+
+### CVE-2013-4002 (2013-07-23)
+
+<code>XMLscanner.java in Apache Xerces2 Java Parser before 2.12.0, as used in the Java Runtime Environment (JRE) in IBM Java 5.0 before 5.0 SR16-FP3, 6 before 6 SR14, 6.0.1 before 6.0.1 SR6, and 7 before 7 SR5 as well as Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, Java SE Embedded 7u40 and earlier, and possibly other products allows remote attackers to cause a denial of service via vectors related to XML attribute names.
+</code>
+
+- [tafamace/CVE-2013-4002](https://github.com/tafamace/CVE-2013-4002)
 
 ### CVE-2013-4175 (2020-01-23)
 
@@ -32164,7 +32194,11 @@
 <code>** DISPUTED ** MySQL 5.5.19 and possibly other versions, and MariaDB 5.5.28a and possibly other versions, when configured to assign the FILE privilege to users who should not have administrative privileges, allows remote authenticated users to gain privileges by leveraging the FILE privilege to create files as the MySQL administrator. NOTE: the vendor disputes this issue, stating that this is only a vulnerability when the administrator does not follow recommendations in the product's installation documentation. NOTE: it could be argued that this should not be included in CVE because it is a configuration issue.
 </code>
 
+- [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
 - [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
+
+### CVE-2012-5664
+- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
 
 ### CVE-2012-5958 (2013-01-31)
 
