@@ -974,7 +974,7 @@
 
 - [istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262)
 
-### CVE-2023-26563 (-)
+### CVE-2023-26563 (2023-07-12)
 
 <code>The Syncfusion EJ2 Node File Provider 0102271 is vulnerable to filesystem-server.js directory traversal. As a result, an unauthenticated attacker can: - On Windows, list files in any directory, read any file, delete any file, upload any file to any directory accessible by the web server. - On Linux, read any file, download any directory, delete any file, upload any file to any directory accessible by the web server.
 </code>
@@ -1629,14 +1629,14 @@
 
 - [sahiloj/CVE-2023-31703](https://github.com/sahiloj/CVE-2023-31703)
 
-### CVE-2023-31704 (-)
+### CVE-2023-31704 (2023-07-13)
 
 <code>Sourcecodester Online Computer and Laptop Store 1.0 is vulnerable to Incorrect Access Control, which allows remote attackers to elevate privileges to the administrator's role.
 </code>
 
 - [d34dun1c02n/CVE-2023-31704](https://github.com/d34dun1c02n/CVE-2023-31704)
 
-### CVE-2023-31705 (-)
+### CVE-2023-31705 (2023-07-13)
 
 <code>A Reflected Cross-site scripting (XSS) vulnerability in Sourcecodester Task Reminder System 1.0 allows an authenticated user to inject malicious javascript into the page parameter.
 </code>
@@ -1900,7 +1900,7 @@
 
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
 
-### CVE-2023-33768 (-)
+### CVE-2023-33768 (2023-07-13)
 
 <code>Incorrect signature verification of the firmware during the Device Firmware Update process of Belkin Wemo Smart Plug WSP080 v1.2 allows attackers to cause a Denial of Service (DoS) via a crafted firmware file.
 </code>
@@ -2100,13 +2100,6 @@
 ### CVE-2023-35803
 - [lachlan2k/CVE-2023-35803](https://github.com/lachlan2k/CVE-2023-35803)
 
-### CVE-2023-35829 (2023-06-18)
-
-<code>An issue was discovered in the Linux kernel before 6.3.2. A use-after-free was found in rkvdec_remove in drivers/staging/media/rkvdec/rkvdec.c.
-</code>
-
-- [apkc/CVE-2023-35829-poc](https://github.com/apkc/CVE-2023-35829-poc)
-
 ### CVE-2023-35840 (2023-06-18)
 
 <code>_joinPath in elFinderVolumeLocalFileSystem.class.php in elFinder before 2.1.62 allows path traversal in the PHP LocalVolumeDriver connector.
@@ -2226,10 +2219,18 @@
 
 - [sahiloj/CVE-2023-37597](https://github.com/sahiloj/CVE-2023-37597)
 
-### CVE-2023-37598
+### CVE-2023-37598 (2023-07-13)
+
+<code>A Cross Site Request Forgery (CSRF) vulnerability in issabel-pbx v.4.0.0-6 allows a remote attacker to cause a denial of service via the delete new virtual fax function.
+</code>
+
 - [sahiloj/CVE-2023-37598](https://github.com/sahiloj/CVE-2023-37598)
 
-### CVE-2023-37599
+### CVE-2023-37599 (2023-07-13)
+
+<code>An issue in issabel-pbx v.4.0.0-6 allows a remote attacker to obtain sensitive information via the modules directory
+</code>
+
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
 
 ### CVE-2023-51504
@@ -7333,7 +7334,11 @@
 
 - [111ddea/Xstream_cve-2022-41966](https://github.com/111ddea/Xstream_cve-2022-41966)
 
-### CVE-2022-42045
+### CVE-2022-42045 (2023-07-13)
+
+<code>Certain Zemana products are vulnerable to Arbitrary code injection. This affects Watchdog Anti-Malware 4.1.422 and Zemana AntiMalware 3.2.28.
+</code>
+
 - [ReCryptLLC/CVE-2022-42045](https://github.com/ReCryptLLC/CVE-2022-42045)
 
 ### CVE-2022-42046 (2022-12-20)
@@ -23299,7 +23304,6 @@
 - [j4k0m/CVE-2018-0114](https://github.com/j4k0m/CVE-2018-0114)
 - [mmeza-developer/CVE-2018-0114](https://github.com/mmeza-developer/CVE-2018-0114)
 - [CyberSecurityUP/CVE-2018-0114-Exploit](https://github.com/CyberSecurityUP/CVE-2018-0114-Exploit)
-- [amr9k8/jwt-spoof-tool](https://github.com/amr9k8/jwt-spoof-tool)
 
 ### CVE-2018-0171 (2018-03-28)
 
