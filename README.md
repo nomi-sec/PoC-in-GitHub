@@ -1215,7 +1215,7 @@
 </code>
 
 - [fortra/CVE-2023-28252](https://github.com/fortra/CVE-2023-28252)
-- [Malwareman007/CVE-2023-28252](https://github.com/Malwareman007/CVE-2023-28252)
+- [hheeyywweellccoommee/CVE-2023-28252-vseik](https://github.com/hheeyywweellccoommee/CVE-2023-28252-vseik)
 
 ### CVE-2023-28310 (2023-06-14)
 
@@ -1856,6 +1856,13 @@
 </code>
 
 - [16yashpatel/CVE-2023-33567](https://github.com/16yashpatel/CVE-2023-33567)
+
+### CVE-2023-33592 (2023-06-28)
+
+<code>Lost and Found Information System v1.0 was discovered to contain a SQL injection vulnerability via the component /php-lfis/admin/?page=system_info/contact_information.
+</code>
+
+- [Acous7icwav3/CVE-2023-33592](https://github.com/Acous7icwav3/CVE-2023-33592)
 
 ### CVE-2023-33617 (2023-05-23)
 
