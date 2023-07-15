@@ -2200,6 +2200,7 @@
 
 - [Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline](https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline)
 - [deepinstinct/Storm0978-RomCom-Campaign](https://github.com/deepinstinct/Storm0978-RomCom-Campaign)
+- [zerosorai/CVE-2023-36884](https://github.com/zerosorai/CVE-2023-36884)
 
 ### CVE-2023-37189 (2023-07-10)
 
@@ -12557,6 +12558,7 @@
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
+- [toanthang1842002/CVE-2021-40449](https://github.com/toanthang1842002/CVE-2021-40449)
 
 ### CVE-2021-40492 (2021-09-03)
 
