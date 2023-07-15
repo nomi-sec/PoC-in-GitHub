@@ -1488,6 +1488,9 @@
 
 - [huzefa2212/CVE-2023-30347](https://github.com/huzefa2212/CVE-2023-30347)
 
+### CVE-2023-30383
+- [a2ure123/CVE-2023-30383](https://github.com/a2ure123/CVE-2023-30383)
+
 ### CVE-2023-30458 (2023-04-24)
 
 <code>A username enumeration issue was discovered in Medicine Tracker System 1.0. The login functionality allows a malicious user to guess a valid username due to a different response time from invalid usernames. When one enters a valid username, the response time increases depending on the length of the supplied password.
@@ -27172,6 +27175,7 @@
 </code>
 
 - [BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074](https://github.com/BimsaraMalinda/Linux-Kernel-4.4.0-Ubuntu---DCCP-Double-Free-Privilege-Escalation-CVE-2017-6074)
+- [toanthang1842002/CVE-2017-6074](https://github.com/toanthang1842002/CVE-2017-6074)
 
 ### CVE-2017-6079 (2017-05-16)
 
