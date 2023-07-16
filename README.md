@@ -396,6 +396,13 @@
 
 - [nokn0wthing/CVE-2023-20052](https://github.com/nokn0wthing/CVE-2023-20052)
 
+### CVE-2023-20110 (2023-05-17)
+
+<code>A vulnerability in the web-based management interface of Cisco Smart Software Manager On-Prem (SSM On-Prem) could allow an authenticated, remote attacker to conduct SQL injection attacks on an affected system. This vulnerability exists because the web-based management interface inadequately validates user input. An attacker could exploit this vulnerability by authenticating to the application as a low-privileged user and sending crafted SQL queries to an affected system. A successful exploit could allow the attacker to read sensitive data on the underlying database.
+</code>
+
+- [redfr0g/CVE-2023-20110](https://github.com/redfr0g/CVE-2023-20110)
+
 ### CVE-2023-20178 (2023-06-28)
 
 <code>A vulnerability in the client update process of Cisco AnyConnect Secure Mobility Client Software for Windows and Cisco Secure Client Software for Windows could allow a low-privileged, authenticated, local attacker to elevate privileges to those of SYSTEM. The client update process is executed after a successful VPN connection is established.\r\n\r This vulnerability exists because improper permissions are assigned to a temporary directory that is created during the update process. An attacker could exploit this vulnerability by abusing a specific function of the Windows installer process. A successful exploit could allow the attacker to execute code with SYSTEM privileges.
@@ -5174,6 +5181,13 @@
 
 ### CVE-2022-28132
 - [alpernae/CVE-2022-28132](https://github.com/alpernae/CVE-2022-28132)
+
+### CVE-2022-28171 (2022-06-27)
+
+<code>The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to execute restricted commands by sending messages with malicious commands to the affected device.
+</code>
+
+- [NyaMeeEain/CVE-2022-28171-POC](https://github.com/NyaMeeEain/CVE-2022-28171-POC)
 
 ### CVE-2022-28219 (2022-04-05)
 
