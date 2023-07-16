@@ -2170,11 +2170,7 @@
 
 - [TraiLeR2/CVE-2023-36163](https://github.com/TraiLeR2/CVE-2023-36163)
 
-### CVE-2023-36164 (2023-07-11)
-
-<code>An issue in MiniTool Partition Wizard ShadowMaker v.12.7 allows an attacker to execute arbitrary code via the MTAgentService component.
-</code>
-
+### CVE-2023-36164
 - [TraiLeR2/CVE-2023-36164](https://github.com/TraiLeR2/CVE-2023-36164)
 
 ### CVE-2023-36165
@@ -2183,11 +2179,7 @@
 ### CVE-2023-36166
 - [TraiLeR2/CVE-2023-36166](https://github.com/TraiLeR2/CVE-2023-36166)
 
-### CVE-2023-36167 (2023-07-11)
-
-<code>An issue in AVG AVG Anti-Spyware v.7.5 allows an attacker to execute arbitrary code via a crafted script to the guard.exe component.
-</code>
-
+### CVE-2023-36167
 - [TraiLeR2/CVE-2023-36167](https://github.com/TraiLeR2/CVE-2023-36167)
 
 ### CVE-2023-36531
