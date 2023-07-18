@@ -30143,7 +30143,7 @@
 
 - [SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328](https://github.com/SR7-HACKING/LINUX-VULNERABILITY-CVE-2015-1328)
 - [notlikethis/CVE-2015-1328](https://github.com/notlikethis/CVE-2015-1328)
-- [x1ns4n3/CVE-2015-1328-GoldenEye](https://github.com/x1ns4n3/CVE-2015-1328-GoldenEye)
+- [0x1ns4n3/CVE-2015-1328-GoldenEye](https://github.com/0x1ns4n3/CVE-2015-1328-GoldenEye)
 
 ### CVE-2015-1397 (2015-04-29)
 
