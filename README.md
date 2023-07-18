@@ -7710,6 +7710,7 @@
 - [bhavikmalhotra/CVE-2022-44268-Exploit](https://github.com/bhavikmalhotra/CVE-2022-44268-Exploit)
 - [entr0pie/CVE-2022-44268](https://github.com/entr0pie/CVE-2022-44268)
 - [Pog-Frog/cve-2022-44268](https://github.com/Pog-Frog/cve-2022-44268)
+- [narekkay/auto-cve-2022-44268.sh](https://github.com/narekkay/auto-cve-2022-44268.sh)
 
 ### CVE-2022-44276 (2023-06-28)
 
