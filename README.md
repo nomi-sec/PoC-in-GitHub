@@ -2022,6 +2022,7 @@
 - [hheeyywweellccoommee/CVE-2023-34362-zcial](https://github.com/hheeyywweellccoommee/CVE-2023-34362-zcial)
 - [kenbuckler/MOVEit-CVE-2023-34362](https://github.com/kenbuckler/MOVEit-CVE-2023-34362)
 - [Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362)
+- [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
 
 ### CVE-2023-34537 (2023-06-13)
 
@@ -2289,6 +2290,13 @@
 
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
 
+### CVE-2023-38434 (2023-07-17)
+
+<code>xHTTP 72f812d has a double free in close_connection in xhttp.c via a malformed HTTP request method.
+</code>
+
+- [Halcy0nic/CVE-2023-38434](https://github.com/Halcy0nic/CVE-2023-38434)
+
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
@@ -2463,7 +2471,7 @@
 - [yywing/cve-2022-0778](https://github.com/yywing/cve-2022-0778)
 - [jkakavas/CVE-2022-0778-POC](https://github.com/jkakavas/CVE-2022-0778-POC)
 - [0xUhaw/CVE-2022-0778](https://github.com/0xUhaw/CVE-2022-0778)
-- [Mrlucas5550100/PoC-CVE-2022-0778-](https://github.com/Mrlucas5550100/PoC-CVE-2022-0778-)
+- [mrluc4s-sysadmin/PoC-CVE-2022-0778-](https://github.com/mrluc4s-sysadmin/PoC-CVE-2022-0778-)
 
 ### CVE-2022-0811 (2022-03-16)
 
@@ -6332,6 +6340,7 @@
 - [HKirito/CVE-2022-33980](https://github.com/HKirito/CVE-2022-33980)
 - [sammwyy/CVE-2022-33980-POC](https://github.com/sammwyy/CVE-2022-33980-POC)
 - [P0lar1ght/CVE-2022-33980-EXP](https://github.com/P0lar1ght/CVE-2022-33980-EXP)
+- [joseluisinigo/riskootext4shell](https://github.com/joseluisinigo/riskootext4shell)
 
 ### CVE-2022-34024 (2022-07-19)
 
@@ -9541,7 +9550,11 @@
 
 - [tr3ee/CVE-2021-4204](https://github.com/tr3ee/CVE-2021-4204)
 
-### CVE-2021-4428
+### CVE-2021-4428 (2023-07-18)
+
+<code>In what3words Autosuggest Plugin bis 4.0.0 für WordPress wurde eine Schwachstelle gefunden. Sie wurde als problematisch eingestuft. Betroffen ist die Funktion enqueue_scripts der Datei w3w-autosuggest/public/class-w3w-autosuggest-public.php der Komponente Setting Handler. Mit der Manipulation mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Ein Aktualisieren auf die Version 4.0.1 vermag dieses Problem zu lösen. Der Patch wird als dd59cbac5f86057d6a73b87007c08b8bfa0c32ac bezeichnet. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
 - [CERT-hr/Log4Shell](https://github.com/CERT-hr/Log4Shell)
 
 ### CVE-2021-6857
@@ -26017,6 +26030,7 @@
 - [799600966/CVE-2018-17456](https://github.com/799600966/CVE-2018-17456)
 - [AnonymKing/CVE-2018-17456](https://github.com/AnonymKing/CVE-2018-17456)
 - [jiahuiLeee/test](https://github.com/jiahuiLeee/test)
+- [nkwejj/CVE-2018-17456](https://github.com/nkwejj/CVE-2018-17456)
 
 ### CVE-2018-17463 (2018-11-14)
 
@@ -26632,6 +26646,13 @@
 </code>
 
 - [RobertoLeonFR-ES/Exploit-Win32.CVE-2017-0147.A](https://github.com/RobertoLeonFR-ES/Exploit-Win32.CVE-2017-0147.A)
+
+### CVE-2017-0148 (2017-03-16)
+
+<code>The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka &quot;Windows SMB Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0144, CVE-2017-0145, and CVE-2017-0146.
+</code>
+
+- [HakaKali/CVE-2017-0148](https://github.com/HakaKali/CVE-2017-0148)
 
 ### CVE-2017-0199 (2017-04-12)
 
