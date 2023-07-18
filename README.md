@@ -2139,6 +2139,7 @@
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
 - [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
 - [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
+- [MzzdToT/Chamilo__CVE-2023-34960_RCE](https://github.com/MzzdToT/Chamilo__CVE-2023-34960_RCE)
 
 ### CVE-2023-34965 (2023-06-13)
 
@@ -2227,6 +2228,7 @@
 - [deepinstinct/Storm0978-RomCom-Campaign](https://github.com/deepinstinct/Storm0978-RomCom-Campaign)
 - [zerosorai/CVE-2023-36884](https://github.com/zerosorai/CVE-2023-36884)
 - [tarraschk/CVE-2023-36884-Checker](https://github.com/tarraschk/CVE-2023-36884-Checker)
+- [or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher)
 
 ### CVE-2023-37189 (2023-07-10)
 
@@ -6545,6 +6547,7 @@
 - [Lzer0Kx01/CVE-2022-35914](https://github.com/Lzer0Kx01/CVE-2022-35914)
 - [6E6L6F/CVE-2022-35914](https://github.com/6E6L6F/CVE-2022-35914)
 - [0xGabe/CVE-2022-35914](https://github.com/0xGabe/CVE-2022-35914)
+- [Johnermac/CVE-2022-35914](https://github.com/Johnermac/CVE-2022-35914)
 
 ### CVE-2022-36067 (2022-09-06)
 
@@ -11913,6 +11916,7 @@
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 - [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
 - [TakenoSite/Simple-CVE-2021-36260](https://github.com/TakenoSite/Simple-CVE-2021-36260)
+- [r3t4k3r/hikvision_brute](https://github.com/r3t4k3r/hikvision_brute)
 
 ### CVE-2021-36394 (2023-03-06)
 
