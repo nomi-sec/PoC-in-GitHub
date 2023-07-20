@@ -1074,6 +1074,7 @@
 
 - [entr0pie/CVE-2023-27163](https://github.com/entr0pie/CVE-2023-27163)
 - [seanrdev/cve-2023-27163](https://github.com/seanrdev/cve-2023-27163)
+- [overgrowncarrot1/CVE-2023-27163](https://github.com/overgrowncarrot1/CVE-2023-27163)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -32075,6 +32076,7 @@
 
 - [fi01/libput_user_exploit](https://github.com/fi01/libput_user_exploit)
 - [fi01/libget_user_exploit](https://github.com/fi01/libget_user_exploit)
+- [jeboo/bypasslkm](https://github.com/jeboo/bypasslkm)
 - [timwr/CVE-2013-6282](https://github.com/timwr/CVE-2013-6282)
 
 ### CVE-2013-6375 (2013-11-23)
