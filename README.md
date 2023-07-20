@@ -2190,6 +2190,13 @@
 
 - [Szlein/CVE-2023-35844](https://github.com/Szlein/CVE-2023-35844)
 
+### CVE-2023-35885 (2023-06-20)
+
+<code>CloudPanel 2 before 2.3.1 has insecure file-manager cookie authentication.
+</code>
+
+- [datackmy/FallingSkies-CVE-2023-35885](https://github.com/datackmy/FallingSkies-CVE-2023-35885)
+
 ### CVE-2023-36143 (2023-06-29)
 
 <code>Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.
@@ -10169,6 +10176,7 @@
 
 - [niandy/nginx-patch](https://github.com/niandy/nginx-patch)
 - [M507/CVE-2021-23017-PoC](https://github.com/M507/CVE-2021-23017-PoC)
+- [lakshit1212/CVE-2021-23017-PoC](https://github.com/lakshit1212/CVE-2021-23017-PoC)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -32874,7 +32882,6 @@
 <code>Multiple PHP remote file inclusion vulnerabilities in Advanced Comment System 1.0 allow remote attackers to execute arbitrary PHP code via a URL in the ACS_path parameter to (1) index.php and (2) admin.php in advanced_comment_system/. NOTE: this might only be a vulnerability when the administrator has not followed installation instructions in install.php. NOTE: this might be the same as CVE-2020-35598.
 </code>
 
-- [hupe1980/CVE-2009-4623](https://github.com/hupe1980/CVE-2009-4623)
 - [kernel-cyber/CVE-2009-4623](https://github.com/kernel-cyber/CVE-2009-4623)
 - [MonsempesSamuel/CVE-2009-4623](https://github.com/MonsempesSamuel/CVE-2009-4623)
 
