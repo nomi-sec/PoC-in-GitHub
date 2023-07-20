@@ -387,6 +387,14 @@
 - [Fire-Null/CVE-2023-3460](https://github.com/Fire-Null/CVE-2023-3460)
 - [diego-tella/CVE-2023-3460](https://github.com/diego-tella/CVE-2023-3460)
 
+### CVE-2023-3519 (2023-07-19)
+
+<code>Unauthenticated remote code execution\n
+</code>
+
+- [telekom-security/cve-2023-3519-citrix-scanner](https://github.com/telekom-security/cve-2023-3519-citrix-scanner)
+- [securekomodo/citrixInspector](https://github.com/securekomodo/citrixInspector)
+
 ### CVE-2023-3640
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
 
@@ -1695,6 +1703,9 @@
 </code>
 
 - [msd0pe-1/CVE-2023-31747_filmora-unquoted](https://github.com/msd0pe-1/CVE-2023-31747_filmora-unquoted)
+
+### CVE-2023-31753
+- [khmk2k/CVE-2023-31753](https://github.com/khmk2k/CVE-2023-31753)
 
 ### CVE-2023-31779 (2023-05-22)
 
@@ -7807,6 +7818,13 @@
 </code>
 
 - [Cedric1314/CVE-2022-44870](https://github.com/Cedric1314/CVE-2022-44870)
+
+### CVE-2022-44875 (2023-03-05)
+
+<code>KioWare through 8.33 on Windows sets KioScriptingUrlACL.AclActions.AllowHigh for the about:blank origin, which allows attackers to obtain SYSTEM access via KioUtils.Execute in JavaScript code.
+</code>
+
+- [c0d30d1n/CVE-2022-44875-Test](https://github.com/c0d30d1n/CVE-2022-44875-Test)
 
 ### CVE-2022-44877 (2023-01-05)
 
@@ -15257,6 +15275,8 @@
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
+- [5l1v3r1/CVE-2020-0796-PoC-3](https://github.com/5l1v3r1/CVE-2020-0796-PoC-3)
+- [5l1v3r1/SMBGhosts](https://github.com/5l1v3r1/SMBGhosts)
 - [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
 - [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
 - [SEHandler/CVE-2020-0796](https://github.com/SEHandler/CVE-2020-0796)
@@ -15311,6 +15331,13 @@
 - [gerhart01/hyperv_local_dos_poc](https://github.com/gerhart01/hyperv_local_dos_poc)
 - [skasanagottu57gmailv/gerhart01](https://github.com/skasanagottu57gmailv/gerhart01)
 - [MarcelloTinocor/gerhart01](https://github.com/MarcelloTinocor/gerhart01)
+
+### CVE-2020-0910 (2020-04-15)
+
+<code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
+</code>
+
+- [kfmgang/CVE-2020-0910](https://github.com/kfmgang/CVE-2020-0910)
 
 ### CVE-2020-0917 (2020-04-15)
 
@@ -15510,6 +15537,7 @@
 - [JayP232/The_big_Zero](https://github.com/JayP232/The_big_Zero)
 - [b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472)
 - [SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472)
+- [wrathfulDiety/zerologon](https://github.com/wrathfulDiety/zerologon)
 - [YossiSassi/ZeroLogon-Exploitation-Check](https://github.com/YossiSassi/ZeroLogon-Exploitation-Check)
 - [sho-luv/zerologon](https://github.com/sho-luv/zerologon)
 - [hell-moon/ZeroLogon-Exploit](https://github.com/hell-moon/ZeroLogon-Exploit)
@@ -15557,6 +15585,13 @@
 </code>
 
 - [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
+
+### CVE-2020-1937 (2020-02-24)
+
+<code>Kylin has some restful apis which will concatenate SQLs with the user input string, a user is likely to be able to run malicious database queries.
+</code>
+
+- [shanika04/apache_kylin](https://github.com/shanika04/apache_kylin)
 
 ### CVE-2020-1938 (2020-02-24)
 
@@ -16390,6 +16425,7 @@
 - [shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui](https://github.com/shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui)
 - [shacojx/GLiferay-CVE-2020-7961-golang](https://github.com/shacojx/GLiferay-CVE-2020-7961-golang)
 - [shacojx/POC-CVE-2020-7961-Token-iterate](https://github.com/shacojx/POC-CVE-2020-7961-Token-iterate)
+- [Udyz/CVE-2020-7961-Mass](https://github.com/Udyz/CVE-2020-7961-Mass)
 - [ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961)
 - [pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass)
 
@@ -16438,9 +16474,18 @@
 - [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
 - [umiterkol/CVE-2020-8165--Auto-Shell](https://github.com/umiterkol/CVE-2020-8165--Auto-Shell)
 - [taipansec/CVE-2020-8165](https://github.com/taipansec/CVE-2020-8165)
+- [hybryx/CVE-2020-8165](https://github.com/hybryx/CVE-2020-8165)
 - [AssassinUKG/CVE-2020-8165](https://github.com/AssassinUKG/CVE-2020-8165)
 - [progfay/CVE-2020-8165](https://github.com/progfay/CVE-2020-8165)
 - [danielklim/cve-2020-8165-demo](https://github.com/danielklim/cve-2020-8165-demo)
+
+### CVE-2020-8175 (2020-07-24)
+
+<code>Uncontrolled resource consumption in `jpeg-js` before 0.4.0 may allow attacker to launch denial of service attacks using specially a crafted JPEG image.
+</code>
+
+- [knokbak/get-pixels-updated](https://github.com/knokbak/get-pixels-updated)
+- [knokbak/save-pixels-updated](https://github.com/knokbak/save-pixels-updated)
 
 ### CVE-2020-8193 (2020-07-10)
 
@@ -16481,6 +16526,13 @@
 
 - [masahiro331/CVE-2020-8277](https://github.com/masahiro331/CVE-2020-8277)
 - [AndrewIjano/CVE-2020-8277](https://github.com/AndrewIjano/CVE-2020-8277)
+
+### CVE-2020-8287 (2021-01-06)
+
+<code>Node.js versions before 10.23.1, 12.20.1, 14.15.4, 15.5.1 allow two copies of a header field in an HTTP request (for example, two Transfer-Encoding header fields). In this case, Node.js identifies the first header field and ignores the second. This can lead to HTTP Request Smuggling.
+</code>
+
+- [progfay/nodejs-http-transfer-encoding-smuggling-poc](https://github.com/progfay/nodejs-http-transfer-encoding-smuggling-poc)
 
 ### CVE-2020-8289 (2020-12-26)
 
@@ -16795,6 +16847,7 @@
 <code>**Resolved** When use H2/MySQL/TiDB as Apache SkyWalking storage, the metadata query through GraphQL protocol, there is a SQL injection vulnerability, which allows to access unpexcted data. Apache SkyWalking 6.0.0 to 6.6.0, 7.0.0 H2/MySQL/TiDB storage implementations don't use the appropriate way to set SQL parameters.
 </code>
 
+- [shanika04/apache_skywalking](https://github.com/shanika04/apache_skywalking)
 - [Neko-chanQwQ/CVE-2020-9483](https://github.com/Neko-chanQwQ/CVE-2020-9483)
 
 ### CVE-2020-9484 (2020-05-20)
@@ -16810,6 +16863,7 @@
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
+- [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
@@ -16916,6 +16970,8 @@
 </code>
 
 - [rdoix/CVE-2020-10148-Solarwinds-Orion](https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion)
+- [Udyz/CVE-2020-10148-Solarwinds-Orion](https://github.com/Udyz/CVE-2020-10148-Solarwinds-Orion)
+- [B1anda0/CVE-2020-10148](https://github.com/B1anda0/CVE-2020-10148)
 
 ### CVE-2020-10189 (2020-03-06)
 
@@ -18277,6 +18333,7 @@
 <code>Apache Flink 1.5.1 introduced a REST handler that allows you to write an uploaded file to an arbitrary location on the local file system, through a maliciously modified HTTP HEADER. The files can be written to any location accessible by Flink 1.5.1. All users should upgrade to Flink 1.11.3 or 1.12.0 if their Flink instance(s) are exposed. The issue was fixed in commit a5264a6f41524afe8ceadf1d8ddc8c80f323ebc4 from apache/flink:master.
 </code>
 
+- [QmF0c3UK/CVE-2020-17518](https://github.com/QmF0c3UK/CVE-2020-17518)
 - [murataydemir/CVE-2020-17518](https://github.com/murataydemir/CVE-2020-17518)
 - [rakjong/Flink-CVE-2020-17518-getshell](https://github.com/rakjong/Flink-CVE-2020-17518-getshell)
 
@@ -18285,6 +18342,9 @@
 <code>A change introduced in Apache Flink 1.11.0 (and released in 1.11.1 and 1.11.2 as well) allows attackers to read any file on the local filesystem of the JobManager through the REST interface of the JobManager process. Access is restricted to files accessible by the JobManager process. All users should upgrade to Flink 1.11.3 or 1.12.0 if their Flink instance(s) are exposed. The issue was fixed in commit b561010b0ee741543c3953306037f00d7a9f0801 from apache/flink:master.
 </code>
 
+- [B1anda0/CVE-2020-17519](https://github.com/B1anda0/CVE-2020-17519)
+- [QmF0c3UK/CVE-2020-17519](https://github.com/QmF0c3UK/CVE-2020-17519)
+- [dolevf/apache-flink-directory-traversal.nse](https://github.com/dolevf/apache-flink-directory-traversal.nse)
 - [hoanx4/CVE-2020-17519](https://github.com/hoanx4/CVE-2020-17519)
 - [murataydemir/CVE-2020-17519](https://github.com/murataydemir/CVE-2020-17519)
 - [radbsie/CVE-2020-17519-Exp](https://github.com/radbsie/CVE-2020-17519-Exp)
@@ -18319,6 +18379,7 @@
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
 - [ludy-dev/freemarker_RCE_struts2_s2-061](https://github.com/ludy-dev/freemarker_RCE_struts2_s2-061)
 - [CyborgSecurity/CVE-2020-17530](https://github.com/CyborgSecurity/CVE-2020-17530)
+- [uzzzval/CVE-2020-17530](https://github.com/uzzzval/CVE-2020-17530)
 - [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
 - [keyuan15/CVE-2020-17530](https://github.com/keyuan15/CVE-2020-17530)
 
@@ -18745,6 +18806,13 @@
 ### CVE-2020-25488
 - [Ko-kn3t/CVE-2020-25488](https://github.com/Ko-kn3t/CVE-2020-25488)
 
+### CVE-2020-25498 (2021-01-06)
+
+<code>Cross Site Scripting (XSS) vulnerability in Beetel router 777VR1 can be exploited via the NTP server name in System Time and &quot;Keyword&quot; in URL Filter.
+</code>
+
+- [the-girl-who-lived/CVE-2020-25498](https://github.com/the-girl-who-lived/CVE-2020-25498)
+
 ### CVE-2020-25514 (2020-09-22)
 
 <code>Sourcecodester Simple Library Management System 1.0 is affected by Incorrect Access Control via the Login Panel, http://&lt;site&gt;/lms/admin.php.
@@ -19125,6 +19193,7 @@
 </code>
 
 - [madstap/bouncy-castle-generative-test-poc](https://github.com/madstap/bouncy-castle-generative-test-poc)
+- [kurenaif/CVE-2020-28052_PoC](https://github.com/kurenaif/CVE-2020-28052_PoC)
 
 ### CVE-2020-28054 (2020-11-19)
 
@@ -19291,6 +19360,13 @@
 
 - [nanopathi/linux-4.19.72_CVE-2020-29370](https://github.com/nanopathi/linux-4.19.72_CVE-2020-29370)
 
+### CVE-2020-29583 (2020-12-22)
+
+<code>Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyfwp) with an unchangeable password. The password for this account can be found in cleartext in the firmware. This account can be used by someone to login to the ssh server or web interface with admin privileges.
+</code>
+
+- [ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583)
+
 ### CVE-2020-29599 (2020-12-07)
 
 <code>ImageMagick before 6.9.11-40 and 7.x before 7.0.10-40 mishandles the -authenticate option, which allows setting a password for password-protected PDF files. The user-controlled password was not properly escaped/sanitized and it was therefore possible to inject additional shell commands via coders/pdf.c.
@@ -19332,6 +19408,13 @@
 </code>
 
 - [megadimenex/MegaHiDocker](https://github.com/megadimenex/MegaHiDocker)
+
+### CVE-2020-35262 (2021-01-06)
+
+<code>Cross Site Scripting (XSS) vulnerability in Digisol DG-HR3400 can be exploited via the NTP server name in Time and date module and &quot;Keyword&quot; in URL Filter.
+</code>
+
+- [the-girl-who-lived/CVE-2020-35262](https://github.com/the-girl-who-lived/CVE-2020-35262)
 
 ### CVE-2020-35314 (2021-04-20)
 
@@ -19422,6 +19505,13 @@
 </code>
 
 - [Al1ex/CVE-2020-35713](https://github.com/Al1ex/CVE-2020-35713)
+
+### CVE-2020-35717 (2021-01-01)
+
+<code>zonote through 0.4.0 allows XSS via a crafted note, with resultant Remote Code Execution (because nodeIntegration in webPreferences is true).
+</code>
+
+- [hmartos/cve-2020-35717](https://github.com/hmartos/cve-2020-35717)
 
 ### CVE-2020-35728 (2020-12-26)
 
@@ -30276,6 +30366,13 @@
 
 - [arntsonl/CVE-2015-2153](https://github.com/arntsonl/CVE-2015-2153)
 
+### CVE-2015-2166 (2015-04-06)
+
+<code>Directory traversal vulnerability in the Instance Monitor in Ericsson Drutt Mobile Service Delivery Platform (MSDP) 4, 5, and 6 allows remote attackers to read arbitrary files via a ..%2f (dot dot encoded slash) in the default URI.
+</code>
+
+- [K3ysTr0K3R/CVE-2015-2166-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2015-2166-EXPLOIT)
+
 ### CVE-2015-2208 (2015-03-12)
 
 <code>The saveObject function in moadmin.php in phpMoAdmin 1.1.2 allows remote attackers to execute arbitrary commands via shell metacharacters in the object parameter.
@@ -32651,6 +32748,13 @@
 
 - [M31MOTH/cve-2010-4221](https://github.com/M31MOTH/cve-2010-4221)
 
+### CVE-2010-4231 (2010-11-16)
+
+<code>Directory traversal vulnerability in the web-based administration interface on the Camtron CMNC-200 Full HD IP Camera and TecVoz CMNC-200 Megapixel IP Camera with firmware 1.102A-008 allows remote attackers to read arbitrary files via a .. (dot dot) in the URI.
+</code>
+
+- [K3ysTr0K3R/CVE-2010-4231-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2010-4231-EXPLOIT)
+
 ### CVE-2010-4476 (2011-02-17)
 
 <code>The Double.parseDouble method in Java Runtime Environment (JRE) in Oracle Java SE and Java for Business 6 Update 23 and earlier, 5.0 Update 27 and earlier, and 1.4.2_29 and earlier, as used in OpenJDK, Apache, JBossweb, and other products, allows remote attackers to cause a denial of service via a crafted string that triggers an infinite loop of estimations during conversion to a double-precision binary floating-point number, as demonstrated using 2.2250738585072012e-308.
@@ -33226,8 +33330,10 @@
 <code>Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
 </code>
 
+- [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
 - [ratiros01/CVE-2004-1561](https://github.com/ratiros01/CVE-2004-1561)
 - [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
+- [thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes)
 
 ### CVE-2004-1769 (2005-03-10)
 
@@ -33235,6 +33341,7 @@
 </code>
 
 - [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
+- [Redsplit/shiguresh](https://github.com/Redsplit/shiguresh)
 
 ### CVE-2004-2167 (2005-07-10)
 
@@ -33253,12 +33360,28 @@
 - [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
 - [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
 
+### CVE-2004-2449 (2005-08-20)
+
+<code>Roger Wilco 1.4.1.6 and earlier or Roger Wilco Base Station 0.30a and earlier allows remote attackers to cause a denial of service (application crash) via a long, malformed UDP datagram.
+</code>
+
+- [ParallelVisions/DoSTool](https://github.com/ParallelVisions/DoSTool)
+
 ### CVE-2004-2549 (2005-11-21)
 
 <code>Nortel Wireless LAN (WLAN) Access Point (AP) 2220, 2221, and 2225 allow remote attackers to cause a denial of service (service crash) via a TCP request with a large string, followed by 8 newline characters, to (1) the Telnet service on TCP port 23 and (2) the HTTP service on TCP port 80, possibly due to a buffer overflow.
 </code>
 
 - [alt3kx/CVE-2004-2549](https://github.com/alt3kx/CVE-2004-2549)
+
+### CVE-2004-2687 (2007-09-23)
+
+<code>distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
+</code>
+
+- [crypticdante/distccd_rce_CVE-2004-2687](https://github.com/crypticdante/distccd_rce_CVE-2004-2687)
+- [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
+- [ss0wl/distcc_v1_cve_2004_2687](https://github.com/ss0wl/distcc_v1_cve_2004_2687)
 
 
 ## 2003
