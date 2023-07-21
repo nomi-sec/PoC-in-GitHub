@@ -396,6 +396,7 @@
 - [securekomodo/citrixInspector](https://github.com/securekomodo/citrixInspector)
 - [mr-r3b00t/CVE-2023-3519](https://github.com/mr-r3b00t/CVE-2023-3519)
 - [d0rb/CVE-2023-3519](https://github.com/d0rb/CVE-2023-3519)
+- [dorkerdevil/CitrixFall](https://github.com/dorkerdevil/CitrixFall)
 
 ### CVE-2023-3640
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
@@ -1164,7 +1165,7 @@
 <code>ReadtoMyShoe, a web app that lets users upload articles and listen to them later, generates an error message containing sensitive information prior to commit 8533b01. If an error occurs when adding an article, the website shows the user an error message. If the error originates from the Google Cloud TTS request, then it will include the full URL of the request. The request URL contains the Google Cloud API key. This has been patched in commit 8533b01. Upgrading should be accompanied by deleting the current GCP API key and issuing a new one. There are no known workarounds.
 </code>
 
-- [sec-fx/CVE-2023-27587-PoC](https://github.com/sec-fx/CVE-2023-27587-PoC)
+- [vagnerd/CVE-2023-27587-PoC](https://github.com/vagnerd/CVE-2023-27587-PoC)
 
 ### CVE-2023-27703 (2023-04-12)
 
