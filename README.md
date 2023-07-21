@@ -1704,7 +1704,11 @@
 
 - [msd0pe-1/CVE-2023-31747_filmora-unquoted](https://github.com/msd0pe-1/CVE-2023-31747_filmora-unquoted)
 
-### CVE-2023-31753
+### CVE-2023-31753 (2023-07-20)
+
+<code>SQL injection vulnerability in diskusi.php in eNdonesia 8.7, allows an attacker to execute arbitrary SQL commands via the &quot;rid=&quot; parameter.
+</code>
+
 - [khmk2k/CVE-2023-31753](https://github.com/khmk2k/CVE-2023-31753)
 
 ### CVE-2023-31779 (2023-05-22)
@@ -2262,6 +2266,7 @@
 - [zerosorai/CVE-2023-36884](https://github.com/zerosorai/CVE-2023-36884)
 - [tarraschk/CVE-2023-36884-Checker](https://github.com/tarraschk/CVE-2023-36884-Checker)
 - [or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher)
+- [ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884)
 
 ### CVE-2023-37189 (2023-07-10)
 
@@ -15557,13 +15562,6 @@
 - [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
-
-### CVE-2020-1474 (2020-08-17)
-
-<code>An information disclosure vulnerability exists when the Windows Image Acquisition (WIA) Service improperly discloses contents of its memory, aka 'Windows Image Acquisition Service Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2020-1485.
-</code>
-
-- [zha0/CVE-2020-1474](https://github.com/zha0/CVE-2020-1474)
 
 ### CVE-2020-1493 (2020-08-17)
 
