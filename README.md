@@ -14324,6 +14324,9 @@
 
 - [CrackerCat/CVE-2021-44852](https://github.com/CrackerCat/CVE-2021-44852)
 
+### CVE-2021-44910
+- [Securify-Pro/CVE-2021-44910_SpringBlade](https://github.com/Securify-Pro/CVE-2021-44910_SpringBlade)
+
 ### CVE-2021-45007 (2022-02-20)
 
 <code>** DISPUTED ** Plesk 18.0.37 is affected by a Cross Site Request Forgery (CSRF) vulnerability that allows an attacker to insert data on the user and admin panel. NOTE: the vendor states that this is only a site-specific problem on websites of one or more Plesk users.
