@@ -399,6 +399,8 @@
 - [dorkerdevil/CitrixFall](https://github.com/dorkerdevil/CitrixFall)
 - [SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519)
 - [KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519)
+- [exph7/CVE-2023-3519](https://github.com/exph7/CVE-2023-3519)
+- [D3s7R0/CVE-2023-3519-POC](https://github.com/D3s7R0/CVE-2023-3519-POC)
 
 ### CVE-2023-3640
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
@@ -1821,6 +1823,13 @@
 
 - [86x/CVE-2023-32353-PoC](https://github.com/86x/CVE-2023-32353-PoC)
 
+### CVE-2023-32681 (2023-05-26)
+
+<code>Requests is a HTTP library. Since Requests 2.3.0, Requests has been leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint. This is a product of how we use `rebuild_proxies` to reattach the `Proxy-Authorization` header to requests. For HTTP connections sent through the tunnel, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into the tunneled request. This results in Requests forwarding proxy credentials to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate sensitive information. This issue has been patched in version 2.31.0.\n\n
+</code>
+
+- [hardikmodha/POC-CVE-2023-32681](https://github.com/hardikmodha/POC-CVE-2023-32681)
+
 ### CVE-2023-32784 (2023-05-15)
 
 <code>In KeePass 2.x before 2.54, it is possible to recover the cleartext master password from a memory dump, even when a workspace is locked or no longer running. The memory dump can be a KeePass process dump, swap file (pagefile.sys), hibernation file (hiberfil.sys), or RAM dump of the entire system. The first character cannot be recovered. In 2.54, there is different API usage and/or random string insertion for mitigation.
@@ -2876,7 +2885,7 @@
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
-- [gabriellaabigail/CVE-2022-1388](https://github.com/gabriellaabigail/CVE-2022-1388)
+- [revanmalang/CVE-2022-1388](https://github.com/revanmalang/CVE-2022-1388)
 - [amitlttwo/CVE-2022-1388](https://github.com/amitlttwo/CVE-2022-1388)
 - [M4fiaB0y/CVE-2022-1388](https://github.com/M4fiaB0y/CVE-2022-1388)
 - [devengpk/CVE-2022-1388](https://github.com/devengpk/CVE-2022-1388)
@@ -15515,6 +15524,7 @@
 - [CVEmaster/CVE-2020-1350](https://github.com/CVEmaster/CVE-2020-1350)
 - [gdwnet/cve-2020-1350](https://github.com/gdwnet/cve-2020-1350)
 - [simeononsecurity/CVE-2020-1350-Fix](https://github.com/simeononsecurity/CVE-2020-1350-Fix)
+- [5l1v3r1/CVE-2020-1350-checker.ps1](https://github.com/5l1v3r1/CVE-2020-1350-checker.ps1)
 
 ### CVE-2020-1362 (2020-07-14)
 
@@ -15564,6 +15574,7 @@
 - [Privia-Security/ADZero](https://github.com/Privia-Security/ADZero)
 - [Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472)
 - [rhymeswithmogul/Set-ZerologonMitigation](https://github.com/rhymeswithmogul/Set-ZerologonMitigation)
+- [shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472)
 - [maikelnight/zerologon](https://github.com/maikelnight/zerologon)
 - [CPO-EH/CVE-2020-1472_ZeroLogonChecker](https://github.com/CPO-EH/CVE-2020-1472_ZeroLogonChecker)
 - [puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472)
@@ -15808,6 +15819,7 @@
 - [MagicZer0/Weblogic_CVE-2020-2883_POC](https://github.com/MagicZer0/Weblogic_CVE-2020-2883_POC)
 - [ZZZWD/CVE-2020-2883](https://github.com/ZZZWD/CVE-2020-2883)
 - [Y4er/WebLogic-Shiro-shell](https://github.com/Y4er/WebLogic-Shiro-shell)
+- [FancyDoesSecurity/CVE-2020-2883](https://github.com/FancyDoesSecurity/CVE-2020-2883)
 - [Al1ex/CVE-2020-2883](https://github.com/Al1ex/CVE-2020-2883)
 - [Qynklee/POC_CVE-2020-2883](https://github.com/Qynklee/POC_CVE-2020-2883)
 
@@ -16059,6 +16071,13 @@
 
 - [xMohamed0/CVE-2020-5504-phpMyAdmin](https://github.com/xMohamed0/CVE-2020-5504-phpMyAdmin)
 
+### CVE-2020-5509 (2020-01-14)
+
+<code>PHPGurukul Car Rental Project v1.0 allows Remote Code Execution via an executable file in an upload of a new profile image.
+</code>
+
+- [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
+
 ### CVE-2020-5510 (2020-01-08)
 
 <code>PHPGurukul Hostel Management System v2.0 allows SQL injection via the id parameter in the full-profile.php file.
@@ -16296,6 +16315,7 @@
 <code>A remote code execution (RCE) vulnerability exists in qdPM 9.1 and earlier. An attacker can upload a malicious PHP code file via the profile photo functionality, by leveraging a path traversal vulnerability in the users['photop_preview'] delete photo feature, allowing bypass of .htaccess protection. NOTE: this issue exists because of an incomplete fix for CVE-2015-3884.
 </code>
 
+- [j0hn30n/CVE-2020-7246](https://github.com/j0hn30n/CVE-2020-7246)
 - [arafatansari/SecAssignment](https://github.com/arafatansari/SecAssignment)
 - [pswalia2u/CVE-2020-7246](https://github.com/pswalia2u/CVE-2020-7246)
 
@@ -17016,6 +17036,9 @@
 </code>
 
 - [zhzyker/CVE-2020-10204](https://github.com/zhzyker/CVE-2020-10204)
+
+### CVE-2020-10205
+- [5l1v3r1/CVE-2020-10205](https://github.com/5l1v3r1/CVE-2020-10205)
 
 ### CVE-2020-10238 (2020-03-16)
 
@@ -17975,6 +17998,13 @@
 
 - [mhaskar/CVE-2020-14947](https://github.com/mhaskar/CVE-2020-14947)
 
+### CVE-2020-14955 (2020-06-26)
+
+<code>In Jiangmin Antivirus 16.0.13.129, the driver file (KVFG.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x220440.
+</code>
+
+- [intrigus-lgtm/CVE-2020-14955](https://github.com/intrigus-lgtm/CVE-2020-14955)
+
 ### CVE-2020-14965 (2020-06-23)
 
 <code>On TP-Link TL-WR740N v4 and TL-WR740ND v4 devices, an attacker with access to the admin panel can inject HTML code and change the HTML context of the target pages and stations in the access-control settings via targets_lists_name or hosts_lists_name. The vulnerability can also be exploited through a CSRF, requiring no authentication as an administrator.
@@ -18019,6 +18049,13 @@
 - [Maskhe/CVE-2020-15148-bypasses](https://github.com/Maskhe/CVE-2020-15148-bypasses)
 - [0xkami/cve-2020-15148](https://github.com/0xkami/cve-2020-15148)
 
+### CVE-2020-15169 (2020-09-11)
+
+<code>In Action View before versions 5.2.4.4 and 6.0.3.3 there is a potential Cross-Site Scripting (XSS) vulnerability in Action View's translation helpers. Views that allow the user to control the default (not found) value of the `t` and `translate` helpers could be susceptible to XSS attacks. When an HTML-unsafe string is passed as the default for a missing translation key named html or ending in _html, the default string is incorrectly marked as HTML-safe and not escaped. This is patched in versions 6.0.3.3 and 5.2.4.4. A workaround without upgrading is proposed in the source advisory.
+</code>
+
+- [glasses618/CVE-2020-15169](https://github.com/glasses618/CVE-2020-15169)
+
 ### CVE-2020-15175 (2020-10-07)
 
 <code>In GLPI before version 9.5.2, the `​pluginimage.send.php​` endpoint allows a user to specify an image from a plugin. The parameters can be maliciously crafted to instead delete the .htaccess file for the files directory. Any user becomes able to read all the files and folders contained in “/files/”. Some of the sensitive information that is compromised are the user sessions, logs, and more. An attacker would be able to get the Administrators session token and use that to authenticate. The issue is patched in version 9.5.2.
@@ -18032,6 +18069,7 @@
 </code>
 
 - [Langriklol/CVE-2020-15227](https://github.com/Langriklol/CVE-2020-15227)
+- [hu4wufu/CVE-2020-15227](https://github.com/hu4wufu/CVE-2020-15227)
 - [filipsedivy/CVE-2020-15227](https://github.com/filipsedivy/CVE-2020-15227)
 
 ### CVE-2020-15228 (2020-10-01)
@@ -18188,6 +18226,13 @@
 - [eriknl/CVE-2020-16152](https://github.com/eriknl/CVE-2020-16152)
 - [Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e](https://github.com/Nate0634034090/nate158g-m-w-n-l-p-d-a-o-e)
 
+### CVE-2020-16270 (2020-10-16)
+
+<code>OLIMPOKS under 3.3.39 allows Auth/Admin ErrorMessage XSS. Remote Attacker can use discovered vulnerability to inject malicious JavaScript payload to victim’s browsers in context of vulnerable applications. Executed code can be used to steal administrator’s cookies, influence HTML content of targeted application and perform phishing-related attacks. Vulnerable application used in more than 3000 organizations in different sectors from retail to industries.
+</code>
+
+- [Security-AVS/CVE-2020-16270](https://github.com/Security-AVS/CVE-2020-16270)
+
 ### CVE-2020-16846 (2020-11-06)
 
 <code>An issue was discovered in SaltStack Salt through 3002. Sending crafted web requests to the Salt API, with the SSH client enabled, can result in shell injection.
@@ -18204,6 +18249,8 @@
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 - [corelight/CVE-2020-16898](https://github.com/corelight/CVE-2020-16898)
 - [Maliek/CVE-2020-16898_Check](https://github.com/Maliek/CVE-2020-16898_Check)
+- [ZephrFish/CVE-2020-16898](https://github.com/ZephrFish/CVE-2020-16898)
+- [esnet-security/cve-2020-16898](https://github.com/esnet-security/cve-2020-16898)
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
 - [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
 - [0xeb-bp/cve-2020-16898](https://github.com/0xeb-bp/cve-2020-16898)
@@ -18719,6 +18766,7 @@
 <code>The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020.
 </code>
 
+- [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
@@ -18924,6 +18972,13 @@
 
 - [thomasfady/CVE-2020-25867](https://github.com/thomasfady/CVE-2020-25867)
 
+### CVE-2020-26061 (2020-10-05)
+
+<code>ClickStudios Passwordstate Password Reset Portal prior to build 8501 is affected by an authentication bypass vulnerability. The ResetPassword function does not validate whether the user has successfully authenticated using security questions. An unauthenticated, remote attacker can send a crafted HTTP request to the /account/ResetPassword page to set a new password for any registered user.
+</code>
+
+- [missing0x00/CVE-2020-26061](https://github.com/missing0x00/CVE-2020-26061)
+
 ### CVE-2020-26217 (2020-11-16)
 
 <code>XStream before version 1.4.14 is vulnerable to Remote Code Execution.The vulnerability may allow a remote attacker to run arbitrary shell commands only by manipulating the processed input stream. Only users who rely on blocklists are affected. Anyone using XStream's Security Framework allowlist is not affected. The linked advisory provides code workarounds for users who cannot upgrade. The issue is fixed in version 1.4.14.
@@ -18961,6 +19016,27 @@
 </code>
 
 - [Kento-Sec/GitLab-Graphql-CVE-2020-26413](https://github.com/Kento-Sec/GitLab-Graphql-CVE-2020-26413)
+
+### CVE-2020-26525 (2020-10-02)
+
+<code>Damstra Smart Asset 2020.7 has SQL injection via the API/api/Asset originator parameter. This allows forcing the database and server to initiate remote connections to third party DNS servers.
+</code>
+
+- [lukaszstu/SmartAsset-SQLinj-CVE-2020-26525](https://github.com/lukaszstu/SmartAsset-SQLinj-CVE-2020-26525)
+
+### CVE-2020-26526 (2020-10-02)
+
+<code>An issue was discovered in Damstra Smart Asset 2020.7. It is possible to enumerate valid usernames on the login page. The application sends a different server response when the username is invalid than when the username is valid (&quot;Unable to find an APIDomain&quot; versus &quot;Wrong email or password&quot;).
+</code>
+
+- [lukaszstu/SmartAsset-UE-CVE-2020-26526](https://github.com/lukaszstu/SmartAsset-UE-CVE-2020-26526)
+
+### CVE-2020-26527 (2020-10-02)
+
+<code>An issue was discovered in API/api/Version in Damstra Smart Asset 2020.7. Cross-origin resource sharing trusts random origins by accepting the arbitrary 'Origin: example.com' header and responding with 200 OK and a wildcard 'Access-Control-Allow-Origin: *' header.
+</code>
+
+- [lukaszstu/SmartAsset-CORS-CVE-2020-26527](https://github.com/lukaszstu/SmartAsset-CORS-CVE-2020-26527)
 
 ### CVE-2020-26732 (2021-01-14)
 
