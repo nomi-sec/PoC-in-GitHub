@@ -397,6 +397,8 @@
 - [mr-r3b00t/CVE-2023-3519](https://github.com/mr-r3b00t/CVE-2023-3519)
 - [d0rb/CVE-2023-3519](https://github.com/d0rb/CVE-2023-3519)
 - [dorkerdevil/CitrixFall](https://github.com/dorkerdevil/CitrixFall)
+- [SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519)
+- [KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519)
 
 ### CVE-2023-3640
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
