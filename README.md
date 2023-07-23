@@ -2238,13 +2238,6 @@
 
 - [Szlein/CVE-2023-35844](https://github.com/Szlein/CVE-2023-35844)
 
-### CVE-2023-35885 (2023-06-20)
-
-<code>CloudPanel 2 before 2.3.1 has insecure file-manager cookie authentication.
-</code>
-
-- [passwa11/FallingSkies-CVE-2023-35885](https://github.com/passwa11/FallingSkies-CVE-2023-35885)
-
 ### CVE-2023-36143 (2023-06-29)
 
 <code>Maxprint Maxlink 1200G v3.4.11E has an OS command injection vulnerability in the &quot;Diagnostic tool&quot; functionality of the device.
@@ -2361,6 +2354,13 @@
 
 ### CVE-2023-37771
 - [anky-123/CVE-2023-37771](https://github.com/anky-123/CVE-2023-37771)
+
+### CVE-2023-37786 (2023-07-13)
+
+<code>Multiple cross-site scripting (XSS) vulnerabilities in Geeklog v2.2.2 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Mail Settings[backend], Mail Settings[host], Mail Settings[port] and Mail Settings[auth] parameters of the /admin/configuration.php.
+</code>
+
+- [Phamchie/CVE-2023-37786](https://github.com/Phamchie/CVE-2023-37786)
 
 ### CVE-2023-38408 (2023-07-19)
 
@@ -7810,6 +7810,7 @@
 - [entr0pie/CVE-2022-44268](https://github.com/entr0pie/CVE-2022-44268)
 - [Pog-Frog/cve-2022-44268](https://github.com/Pog-Frog/cve-2022-44268)
 - [narekkay/auto-cve-2022-44268.sh](https://github.com/narekkay/auto-cve-2022-44268.sh)
+- [fanbyprinciple/ImageMagick-lfi-poc](https://github.com/fanbyprinciple/ImageMagick-lfi-poc)
 
 ### CVE-2022-44276 (2023-06-28)
 
@@ -14316,6 +14317,13 @@
 </code>
 
 - [defensor/CVE-2021-44735](https://github.com/defensor/CVE-2021-44735)
+
+### CVE-2021-44736 (2022-01-20)
+
+<code>The initial admin account setup wizard on Lexmark devices allow unauthenticated access to the “out of service erase” feature.
+</code>
+
+- [defensor/CVE-2021-44736](https://github.com/defensor/CVE-2021-44736)
 
 ### CVE-2021-44827 (2022-03-04)
 
@@ -21633,7 +21641,7 @@
 - [dinesh876/CVE-2019-11447-POC](https://github.com/dinesh876/CVE-2019-11447-POC)
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
-- [0xkasra/CVE-2019-11447](https://github.com/0xkasra/CVE-2019-11447)
+- [0xConstant/CVE-2019-11447](https://github.com/0xConstant/CVE-2019-11447)
 
 ### CVE-2019-11477 (2019-06-18)
 
@@ -22631,9 +22639,9 @@
 - [hg8/CVE-2019-16113-PoC](https://github.com/hg8/CVE-2019-16113-PoC)
 - [Kenun99/CVE-2019-16113-Dockerfile](https://github.com/Kenun99/CVE-2019-16113-Dockerfile)
 - [itsjeffersonli/CVE-2019-16113](https://github.com/itsjeffersonli/CVE-2019-16113)
-- [0xkasra/CVE-2019-16113](https://github.com/0xkasra/CVE-2019-16113)
+- [0xConstant/CVE-2019-16113](https://github.com/0xConstant/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
-- [0xkasra/CVE-2019-16113_](https://github.com/0xkasra/CVE-2019-16113_)
+- [0xConstant/CVE-2019-16113_](https://github.com/0xConstant/CVE-2019-16113_)
 
 ### CVE-2019-16278 (2019-10-14)
 
@@ -24640,7 +24648,7 @@
 - [0xAJ2K/CVE-2018-7600](https://github.com/0xAJ2K/CVE-2018-7600)
 - [rafaelcaria/drupalgeddon2-CVE-2018-7600](https://github.com/rafaelcaria/drupalgeddon2-CVE-2018-7600)
 - [vphnguyen/ANM_CVE-2018-7600](https://github.com/vphnguyen/ANM_CVE-2018-7600)
-- [0xkasra/CVE-2018-7600](https://github.com/0xkasra/CVE-2018-7600)
+- [0xConstant/CVE-2018-7600](https://github.com/0xConstant/CVE-2018-7600)
 - [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
 - [r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600)
 
@@ -27256,7 +27264,7 @@
 - [testpilot031/vulnerability_struts-2.3.31](https://github.com/testpilot031/vulnerability_struts-2.3.31)
 - [readloud/CVE-2017-5638](https://github.com/readloud/CVE-2017-5638)
 - [Tankirat/CVE-2017-5638](https://github.com/Tankirat/CVE-2017-5638)
-- [0xkasra/CVE-2017-5638](https://github.com/0xkasra/CVE-2017-5638)
+- [0xConstant/CVE-2017-5638](https://github.com/0xConstant/CVE-2017-5638)
 - [mfdev-solution/Exploit-CVE-2017-5638](https://github.com/mfdev-solution/Exploit-CVE-2017-5638)
 - [mritunjay-k/CVE-2017-5638](https://github.com/mritunjay-k/CVE-2017-5638)
 - [FredBrave/CVE-2017-5638-ApacheStruts2.3.5](https://github.com/FredBrave/CVE-2017-5638-ApacheStruts2.3.5)
@@ -30818,7 +30826,7 @@
 </code>
 
 - [dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967)
-- [0xkasra/CVE-2015-6967](https://github.com/0xkasra/CVE-2015-6967)
+- [0xConstant/CVE-2015-6967](https://github.com/0xConstant/CVE-2015-6967)
 - [FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967)
 
 ### CVE-2015-7214 (2015-12-16)
@@ -31599,7 +31607,7 @@
 - [b4keSn4ke/CVE-2014-6271](https://github.com/b4keSn4ke/CVE-2014-6271)
 - [hadrian3689/shellshock](https://github.com/hadrian3689/shellshock)
 - [akr3ch/CVE-2014-6271](https://github.com/akr3ch/CVE-2014-6271)
-- [0xkasra/CVE-2014-6271](https://github.com/0xkasra/CVE-2014-6271)
+- [0xConstant/CVE-2014-6271](https://github.com/0xConstant/CVE-2014-6271)
 - [Gurguii/cgi-bin-shellshock](https://github.com/Gurguii/cgi-bin-shellshock)
 - [anujbhan/shellshock-victim-host](https://github.com/anujbhan/shellshock-victim-host)
 - [FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-)
@@ -32406,7 +32414,7 @@
 </code>
 
 - [bitc0de/Elastix-Remote-Code-Execution](https://github.com/bitc0de/Elastix-Remote-Code-Execution)
-- [0xkasra/CVE-2012-4869](https://github.com/0xkasra/CVE-2012-4869)
+- [0xConstant/CVE-2012-4869](https://github.com/0xConstant/CVE-2012-4869)
 
 ### CVE-2012-4929 (2012-09-15)
 
@@ -32921,7 +32929,7 @@
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 - [crypticdante/CVE-2009-2265](https://github.com/crypticdante/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
-- [0xkasra/CVE-2009-2265](https://github.com/0xkasra/CVE-2009-2265)
+- [0xConstant/CVE-2009-2265](https://github.com/0xConstant/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
@@ -33189,7 +33197,7 @@
 - [3t4n/samba-3.0.24-CVE-2007-2447-vunerable-](https://github.com/3t4n/samba-3.0.24-CVE-2007-2447-vunerable-)
 - [xbufu/CVE-2007-2447](https://github.com/xbufu/CVE-2007-2447)
 - [s4msec/CVE-2007-2447](https://github.com/s4msec/CVE-2007-2447)
-- [0xkasra/CVE-2007-2447](https://github.com/0xkasra/CVE-2007-2447)
+- [0xConstant/CVE-2007-2447](https://github.com/0xConstant/CVE-2007-2447)
 - [Nosferatuvjr/Samba-Usermap-exploit](https://github.com/Nosferatuvjr/Samba-Usermap-exploit)
 - [testaross4/CVE-2007-2447](https://github.com/testaross4/CVE-2007-2447)
 - [mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447)
