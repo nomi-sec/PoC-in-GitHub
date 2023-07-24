@@ -399,15 +399,10 @@
 - [dorkerdevil/CitrixFall](https://github.com/dorkerdevil/CitrixFall)
 - [SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519)
 - [KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519)
-- [exph7/CVE-2023-3519](https://github.com/exph7/CVE-2023-3519)
-- [D3s7R0/CVE-2023-3519-POC](https://github.com/D3s7R0/CVE-2023-3519-POC)
 - [sanmasa3/citrix_CVE-2023-3519](https://github.com/sanmasa3/citrix_CVE-2023-3519)
 
 ### CVE-2023-3640
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
-
-### CVE-2023-10608
-- [b35363/cve-2023-10608-PoC](https://github.com/b35363/cve-2023-10608-PoC)
 
 ### CVE-2023-20052 (2023-03-01)
 
@@ -2246,7 +2241,6 @@
 </code>
 
 - [datackmy/FallingSkies-CVE-2023-35885](https://github.com/datackmy/FallingSkies-CVE-2023-35885)
-- [imbas007/CVE-2023-35885](https://github.com/imbas007/CVE-2023-35885)
 
 ### CVE-2023-36143 (2023-06-29)
 
@@ -15615,7 +15609,6 @@
 - [CPO-EH/CVE-2020-1472_ZeroLogonChecker](https://github.com/CPO-EH/CVE-2020-1472_ZeroLogonChecker)
 - [puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472)
 - [mingchen-script/CVE-2020-1472-visualizer](https://github.com/mingchen-script/CVE-2020-1472-visualizer)
-- [JayP232/The_big_Zero](https://github.com/JayP232/The_big_Zero)
 - [b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472)
 - [SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472)
 - [wrathfulDiety/zerologon](https://github.com/wrathfulDiety/zerologon)
@@ -16571,13 +16564,6 @@
 - [Zeop-CyberSec/citrix_adc_netscaler_lfi](https://github.com/Zeop-CyberSec/citrix_adc_netscaler_lfi)
 - [PR3R00T/CVE-2020-8193-Citrix-Scanner](https://github.com/PR3R00T/CVE-2020-8193-Citrix-Scanner)
 - [ctlyz123/CVE-2020-8193](https://github.com/ctlyz123/CVE-2020-8193)
-
-### CVE-2020-8209 (2020-08-17)
-
-<code>Improper access control in Citrix XenMobile Server 10.12 before RP2, Citrix XenMobile Server 10.11 before RP4, Citrix XenMobile Server 10.10 before RP6 and Citrix XenMobile Server before 10.9 RP5 and leads to the ability to read arbitrary files.
-</code>
-
-- [B1anda0/CVE-2020-8209](https://github.com/B1anda0/CVE-2020-8209)
 
 ### CVE-2020-8218 (2020-07-30)
 
@@ -18447,7 +18433,6 @@
 <code>Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution. Affected software : Apache Struts 2.0.0 - Struts 2.5.25.
 </code>
 
-- [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
 - [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
@@ -18456,20 +18441,6 @@
 - [uzzzval/CVE-2020-17530](https://github.com/uzzzval/CVE-2020-17530)
 - [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
 - [keyuan15/CVE-2020-17530](https://github.com/keyuan15/CVE-2020-17530)
-
-### CVE-2020-17531 (2020-12-08)
-
-<code>A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapestry 4 will attempt to deserialize the &quot;sp&quot; parameter even before invoking the page's validate method, leading to deserialization without authentication. Apache Tapestry 4 reached end of life in 2008 and no update to address this issue will be released. Apache Tapestry 5 versions are not vulnerable to this issue. Users of Apache Tapestry 4 should upgrade to the latest Apache Tapestry 5 version.
-</code>
-
-- [154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531)
-
-### CVE-2020-17533 (2020-12-29)
-
-<code>Apache Accumulo versions 1.5.0 through 1.10.0 and version 2.0.0 do not properly check the return value of some policy enforcement functions before permitting an authenticated user to perform certain administrative operations. Specifically, the return values of the 'canFlush' and 'canPerformSystemActions' security functions are not checked in some instances, therefore allowing an authenticated user with insufficient permissions to perform the following actions: flushing a table, shutting down Accumulo or an individual tablet server, and setting or removing system-wide Accumulo configuration properties.
-</code>
-
-- [pazeray/CVE-2020-17533](https://github.com/pazeray/CVE-2020-17533)
 
 ### CVE-2020-18324 (2022-03-04)
 
@@ -26927,6 +26898,7 @@
 - [mjancek/BlueborneDetection](https://github.com/mjancek/BlueborneDetection)
 - [CrackSoft900/Blue-Borne](https://github.com/CrackSoft900/Blue-Borne)
 - [CarlosDelRosario7/sploit-bX](https://github.com/CarlosDelRosario7/sploit-bX)
+- [DamianSuess/Learn.BlueJam](https://github.com/DamianSuess/Learn.BlueJam)
 
 ### CVE-2017-0785 (2017-09-14)
 
@@ -31010,7 +30982,6 @@
 
 - [hheeyywweellccoommee/CVE-2015-10034-Test-lazmv](https://github.com/hheeyywweellccoommee/CVE-2015-10034-Test-lazmv)
 - [hheeyywweellccoommee/CVE-2015-10034-posua](https://github.com/hheeyywweellccoommee/CVE-2015-10034-posua)
-- [andrenasx/CVE-2015-10034-Test](https://github.com/andrenasx/CVE-2015-10034-Test)
 - [hheeyywweellccoommee/CVE-2015-10034-akdfu](https://github.com/hheeyywweellccoommee/CVE-2015-10034-akdfu)
 - [andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034)
 
