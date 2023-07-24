@@ -1230,6 +1230,7 @@
 - [im-hanzou/Mass-CVE-2023-28121](https://github.com/im-hanzou/Mass-CVE-2023-28121)
 - [rio128128/Mass-CVE-2023-28121-kdoec](https://github.com/rio128128/Mass-CVE-2023-28121-kdoec)
 - [Jenderal92/CVE-2023-28121](https://github.com/Jenderal92/CVE-2023-28121)
+- [C04LA/CVE-2023-28121](https://github.com/C04LA/CVE-2023-28121)
 
 ### CVE-2023-28206 (2023-04-10)
 
@@ -25229,19 +25230,10 @@
 
 - [SoledaD208/CVE-2018-10933](https://github.com/SoledaD208/CVE-2018-10933)
 - [blacknbunny/CVE-2018-10933](https://github.com/blacknbunny/CVE-2018-10933)
-- [hook-s3c/CVE-2018-10933](https://github.com/hook-s3c/CVE-2018-10933)
-- [kn6869610/CVE-2018-10933](https://github.com/kn6869610/CVE-2018-10933)
 - [gojhonny/libssh-scanner](https://github.com/gojhonny/libssh-scanner)
-- [likescam/CVE-2018-10933_ssh](https://github.com/likescam/CVE-2018-10933_ssh)
-- [likescam/CVE-2018-10933-libSSH-Authentication-Bypass](https://github.com/likescam/CVE-2018-10933-libSSH-Authentication-Bypass)
-- [marco-lancini/hunt-for-cve-2018-10933](https://github.com/marco-lancini/hunt-for-cve-2018-10933)
 - [hackerhouse-opensource/cve-2018-10933](https://github.com/hackerhouse-opensource/cve-2018-10933)
 - [cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933)
-- [jas502n/CVE-2018-10933](https://github.com/jas502n/CVE-2018-10933)
-- [ninp0/cve-2018-10933_poc](https://github.com/ninp0/cve-2018-10933_poc)
-- [pghook/CVE-2018-10933_Scanner](https://github.com/pghook/CVE-2018-10933_Scanner)
 - [Virgula0/POC-CVE-2018-10933](https://github.com/Virgula0/POC-CVE-2018-10933)
-- [shifa123/pythonprojects-CVE-2018-10933](https://github.com/shifa123/pythonprojects-CVE-2018-10933)
 - [xFreed0m/CVE-2018-10933](https://github.com/xFreed0m/CVE-2018-10933)
 - [Bifrozt/CVE-2018-10933](https://github.com/Bifrozt/CVE-2018-10933)
 - [r3dxpl0it/CVE-2018-10933](https://github.com/r3dxpl0it/CVE-2018-10933)
@@ -25419,13 +25411,6 @@
 </code>
 
 - [anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790)
-
-### CVE-2018-12018 (2018-07-04)
-
-<code>The GetBlockHeadersMsg handler in the LES protocol implementation in Go Ethereum (aka geth) before 1.8.11 may lead to an access violation because of an integer signedness error for the array index, which allows attackers to launch a Denial of Service attack by sending a packet with a -1 query.Skip value. The vulnerable remote node would be crashed by such an attack immediately, aka the EPoD (Ethereum Packet of Death) issue.
-</code>
-
-- [k3v142/CVE-2018-12018](https://github.com/k3v142/CVE-2018-12018)
 
 ### CVE-2018-12031 (2018-06-07)
 
@@ -30947,7 +30932,6 @@
 </code>
 
 - [ZaleHack/joomla_rce_CVE-2015-8562](https://github.com/ZaleHack/joomla_rce_CVE-2015-8562)
-- [RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC](https://github.com/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC)
 - [atcasanova/cve-2015-8562-exploit](https://github.com/atcasanova/cve-2015-8562-exploit)
 - [thejackerz/scanner-exploit-joomla-CVE-2015-8562](https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562)
 - [paralelo14/CVE-2015-8562](https://github.com/paralelo14/CVE-2015-8562)
