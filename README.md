@@ -370,7 +370,7 @@
 
 ### CVE-2023-3338 (2023-06-30)
 
-<code>A flaw null pointer dereference in the Linux kernel DECnet networking protocol was found. A remote user could use this flaw to crash the system.
+<code>A null pointer dereference flaw was found in the Linux kernel's DECnet networking protocol. This issue could allow a remote user to crash the system.
 </code>
 
 - [TurtleARM/CVE-2023-3338-DECPwn](https://github.com/TurtleARM/CVE-2023-3338-DECPwn)
@@ -400,8 +400,13 @@
 - [SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519)
 - [KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519)
 - [sanmasa3/citrix_CVE-2023-3519](https://github.com/sanmasa3/citrix_CVE-2023-3519)
+- [binbz/CVE-2023-3519](https://github.com/binbz/CVE-2023-3519)
 
-### CVE-2023-3640
+### CVE-2023-3640 (2023-07-24)
+
+<code>A possible unauthorized memory access flaw was found in the Linux kernel's cpu_entry_area mapping of X86 CPU data to memory, where a user may guess the location of exception stacks or other important data. Based on the previous CVE-2023-0597, the 'Randomize per-cpu entry area' feature was implemented in /arch/x86/mm/cpu_entry_area.c, which works through the init_cea_offsets() function when KASLR is enabled. However, despite this feature, there is still a risk of per-cpu entry area leaks. This issue could allow a local user to gain access to some important data with memory in an expected location and potentially escalate their privileges on the system.
+</code>
+
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
 
 ### CVE-2023-20052 (2023-03-01)
@@ -15198,9 +15203,9 @@
 <code>An elevation of privilege vulnerability exists in the way that the Windows Kernel handles objects in memory, aka 'Windows Kernel Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0669, CVE-2020-0670, CVE-2020-0671, CVE-2020-0672.
 </code>
 
-- [itm4n/SysTracingPoc](https://github.com/itm4n/SysTracingPoc)
 - [RedCursorSecurityConsulting/CVE-2020-0668](https://github.com/RedCursorSecurityConsulting/CVE-2020-0668)
 - [Nan3r/CVE-2020-0668](https://github.com/Nan3r/CVE-2020-0668)
+- [modulexcite/SysTracingPoc](https://github.com/modulexcite/SysTracingPoc)
 - [ycdxsb/CVE-2020-0668](https://github.com/ycdxsb/CVE-2020-0668)
 - [bypazs/CVE-2020-0668.exe](https://github.com/bypazs/CVE-2020-0668.exe)
 
@@ -15609,6 +15614,7 @@
 - [CPO-EH/CVE-2020-1472_ZeroLogonChecker](https://github.com/CPO-EH/CVE-2020-1472_ZeroLogonChecker)
 - [puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472)
 - [mingchen-script/CVE-2020-1472-visualizer](https://github.com/mingchen-script/CVE-2020-1472-visualizer)
+- [JayP232/The_big_Zero](https://github.com/JayP232/The_big_Zero)
 - [b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472)
 - [SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472)
 - [wrathfulDiety/zerologon](https://github.com/wrathfulDiety/zerologon)
@@ -16564,6 +16570,13 @@
 - [Zeop-CyberSec/citrix_adc_netscaler_lfi](https://github.com/Zeop-CyberSec/citrix_adc_netscaler_lfi)
 - [PR3R00T/CVE-2020-8193-Citrix-Scanner](https://github.com/PR3R00T/CVE-2020-8193-Citrix-Scanner)
 - [ctlyz123/CVE-2020-8193](https://github.com/ctlyz123/CVE-2020-8193)
+
+### CVE-2020-8209 (2020-08-17)
+
+<code>Improper access control in Citrix XenMobile Server 10.12 before RP2, Citrix XenMobile Server 10.11 before RP4, Citrix XenMobile Server 10.10 before RP6 and Citrix XenMobile Server before 10.9 RP5 and leads to the ability to read arbitrary files.
+</code>
+
+- [B1anda0/CVE-2020-8209](https://github.com/B1anda0/CVE-2020-8209)
 
 ### CVE-2020-8218 (2020-07-30)
 
@@ -18433,6 +18446,7 @@
 <code>Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution. Affected software : Apache Struts 2.0.0 - Struts 2.5.25.
 </code>
 
+- [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
 - [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
@@ -18441,6 +18455,20 @@
 - [uzzzval/CVE-2020-17530](https://github.com/uzzzval/CVE-2020-17530)
 - [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
 - [keyuan15/CVE-2020-17530](https://github.com/keyuan15/CVE-2020-17530)
+
+### CVE-2020-17531 (2020-12-08)
+
+<code>A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapestry 4 will attempt to deserialize the &quot;sp&quot; parameter even before invoking the page's validate method, leading to deserialization without authentication. Apache Tapestry 4 reached end of life in 2008 and no update to address this issue will be released. Apache Tapestry 5 versions are not vulnerable to this issue. Users of Apache Tapestry 4 should upgrade to the latest Apache Tapestry 5 version.
+</code>
+
+- [154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531)
+
+### CVE-2020-17533 (2020-12-29)
+
+<code>Apache Accumulo versions 1.5.0 through 1.10.0 and version 2.0.0 do not properly check the return value of some policy enforcement functions before permitting an authenticated user to perform certain administrative operations. Specifically, the return values of the 'canFlush' and 'canPerformSystemActions' security functions are not checked in some instances, therefore allowing an authenticated user with insufficient permissions to perform the following actions: flushing a table, shutting down Accumulo or an individual tablet server, and setting or removing system-wide Accumulo configuration properties.
+</code>
+
+- [pazeray/CVE-2020-17533](https://github.com/pazeray/CVE-2020-17533)
 
 ### CVE-2020-18324 (2022-03-04)
 
@@ -27627,6 +27655,7 @@
 - [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
 - [inj3ction/CVE-2017-7921-EXP](https://github.com/inj3ction/CVE-2017-7921-EXP)
 - [krypton612/hikivision](https://github.com/krypton612/hikivision)
+- [K3ysTr0K3R/CVE-2017-7921-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-7921-EXPLOIT)
 
 ### CVE-2017-7998 (2018-01-08)
 
