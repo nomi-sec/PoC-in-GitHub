@@ -2036,6 +2036,9 @@
 
 - [s0tr/CVE-2023-33782](https://github.com/s0tr/CVE-2023-33782)
 
+### CVE-2023-33802
+- [CDACesec/CVE-2023-33802](https://github.com/CDACesec/CVE-2023-33802)
+
 ### CVE-2023-33817 (2023-06-13)
 
 <code>hoteldruid v3.0.5 was discovered to contain a SQL injection vulnerability.
@@ -2212,6 +2215,13 @@
 </code>
 
 - [AgentY0/CVE-2023-34965](https://github.com/AgentY0/CVE-2023-34965)
+
+### CVE-2023-35086 (2023-07-21)
+
+<code>\nIt is identified a format string vulnerability in ASUS RT-AX56U V2 &amp; RT-AC86U. This vulnerability is caused by directly using input as a format string when calling syslog in logmessage_normal function, in the do_detwan_cgi module of httpd. An unauthenticated remote attacker without privilege can exploit this vulnerability to perform remote arbitrary code execution, arbitrary system operation or disrupt service.\n\nThis issue affects RT-AX56U V2: 3.0.0.4.386_50460; RT-AC86U: 3.0.0.4_386_51529.\n\n
+</code>
+
+- [tin-z/CVE-2023-35086-POC](https://github.com/tin-z/CVE-2023-35086-POC)
 
 ### CVE-2023-35744
 - [ADSSA-IT/CVE-2023-35744](https://github.com/ADSSA-IT/CVE-2023-35744)
@@ -29046,13 +29056,6 @@
 - [zhzhdoai/Weblogic_Vuln](https://github.com/zhzhdoai/Weblogic_Vuln)
 - [BabyTeam1024/CVE-2016-0638](https://github.com/BabyTeam1024/CVE-2016-0638)
 
-### CVE-2016-0701 (2016-02-14)
-
-<code>The DH_check_pub_key function in crypto/dh/dh_check.c in OpenSSL 1.0.2 before 1.0.2f does not ensure that prime numbers are appropriate for Diffie-Hellman (DH) key exchange, which makes it easier for remote attackers to discover a private DH exponent by making multiple handshakes with a peer that chose an inappropriate number, as demonstrated by a number in an X9.42 file.
-</code>
-
-- [luanjampa/cve-2016-0701](https://github.com/luanjampa/cve-2016-0701)
-
 ### CVE-2016-0728 (2016-02-07)
 
 <code>The join_session_keyring function in security/keys/process_keys.c in the Linux kernel before 4.4.1 mishandles object references in a certain error case, which allows local users to gain privileges or cause a denial of service (integer overflow and use-after-free) via crafted keyctl commands.
@@ -29254,13 +29257,6 @@
 - [FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107)
 - [tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107)
 
-### CVE-2016-2118 (2016-04-12)
-
-<code>The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka &quot;BADLOCK.&quot;
-</code>
-
-- [nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118)
-
 ### CVE-2016-2173 (2017-04-21)
 
 <code>org.springframework.core.serializer.DefaultDeserializer in Spring AMQP before 1.5.5 allows remote attackers to execute arbitrary code.
@@ -29381,13 +29377,6 @@
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
-
-### CVE-2016-3141 (2016-03-31)
-
-<code>Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
-</code>
-
-- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
@@ -31103,7 +31092,6 @@
 - [OffensivePython/HeartLeak](https://github.com/OffensivePython/HeartLeak)
 - [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
-- [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
 - [iSCInc/heartbleed](https://github.com/iSCInc/heartbleed)
 - [marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang)
 - [hmlio/vaas-cve-2014-0160](https://github.com/hmlio/vaas-cve-2014-0160)
@@ -31176,9 +31164,6 @@
 </code>
 
 - [Charmve/PyStegosploit](https://github.com/Charmve/PyStegosploit)
-
-### CVE-2014-0291
-- [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
 
 ### CVE-2014-0472 (2014-04-23)
 
@@ -31734,7 +31719,6 @@
 <code>The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824.
 </code>
 
-- [locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609)
 - [MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC)
 - [ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit)
 
@@ -33491,6 +33475,7 @@
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
 - [SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT)
+- [nobodyatall648/CVE-2003-0264](https://github.com/nobodyatall648/CVE-2003-0264)
 
 ### CVE-2003-0282 (2003-05-14)
 
