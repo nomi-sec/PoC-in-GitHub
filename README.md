@@ -16738,6 +16738,14 @@
 
 - [DXY0411/CVE-2020-8637](https://github.com/DXY0411/CVE-2020-8637)
 
+### CVE-2020-8644 (2020-02-05)
+
+<code>PlaySMS before 1.4.3 does not sanitize inputs from a malicious string.
+</code>
+
+- [hheeyywweellccoommee/CVE-2020-8644-PlaySMS-1.4-rlvpp](https://github.com/hheeyywweellccoommee/CVE-2020-8644-PlaySMS-1.4-rlvpp)
+- [H3rm1tR3b0rn/CVE-2020-8644-PlaySMS-1.4](https://github.com/H3rm1tR3b0rn/CVE-2020-8644-PlaySMS-1.4)
+
 ### CVE-2020-8809 (2020-02-25)
 
 <code>Gurux GXDLMS Director prior to 8.5.1905.1301 downloads updates to add-ins and OBIS code over an unencrypted HTTP connection. A man-in-the-middle attacker can prompt the user to download updates by modifying the contents of gurux.fi/obis/files.xml and gurux.fi/updates/updates.xml. Then, the attacker can modify the contents of downloaded files. In the case of add-ins (if the user is using those), this will lead to code execution. In case of OBIS codes (which the user is always using as they are needed to communicate with the energy meters), this can lead to code execution when combined with CVE-2020-8810.
@@ -20477,7 +20485,6 @@
 <code>Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
-- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
@@ -31115,9 +31122,11 @@
 - [sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix)
 - [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
+- [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
 - [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
 - [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
+- [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
 - [einaros/heartbleed-tools](https://github.com/einaros/heartbleed-tools)
 - [mozilla-services/Heartbleed](https://github.com/mozilla-services/Heartbleed)
 - [yryz/heartbleed.js](https://github.com/yryz/heartbleed.js)
@@ -31341,6 +31350,7 @@
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
+- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-2815 (2014-08-12)
 
