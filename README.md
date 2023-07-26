@@ -266,6 +266,13 @@
 
 - [thehackingverse/CVE-2023-2594](https://github.com/thehackingverse/CVE-2023-2594)
 
+### CVE-2023-2636 (2023-07-17)
+
+<code>The AN_GradeBook WordPress plugin through 5.0.1 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by users with a role as low as subscriber
+</code>
+
+- [lukinneberg/CVE-2023-2636](https://github.com/lukinneberg/CVE-2023-2636)
+
 ### CVE-2023-2650 (2023-05-30)
 
 <code>Issue summary: Processing some specially crafted ASN.1 object identifiers or\ndata containing them may be very slow.\n\nImpact summary: Applications that use OBJ_obj2txt() directly, or use any of\nthe OpenSSL subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS with no message\nsize limit may experience notable to very long delays when processing those\nmessages, which may lead to a Denial of Service.\n\nAn OBJECT IDENTIFIER is composed of a series of numbers - sub-identifiers -\nmost of which have no size limit.  OBJ_obj2txt() may be used to translate\nan ASN.1 OBJECT IDENTIFIER given in DER encoding form (using the OpenSSL\ntype ASN1_OBJECT) to its canonical numeric text form, which are the\nsub-identifiers of the OBJECT IDENTIFIER in decimal form, separated by\nperiods.\n\nWhen one of the sub-identifiers in the OBJECT IDENTIFIER is very large\n(these are sizes that are seen as absurdly large, taking up tens or hundreds\nof KiBs), the translation to a decimal number in text may take a very long\ntime.  The time complexity is O(n^2) with 'n' being the size of the\nsub-identifiers in bytes (*).\n\nWith OpenSSL 3.0, support to fetch cryptographic algorithms using names /\nidentifiers in string form was introduced.  This includes using OBJECT\nIDENTIFIERs in canonical numeric text form as identifiers for fetching\nalgorithms.\n\nSuch OBJECT IDENTIFIERs may be received through the ASN.1 structure\nAlgorithmIdentifier, which is commonly used in multiple protocols to specify\nwhat cryptographic algorithm should be used to sign or verify, encrypt or\ndecrypt, or digest passed data.\n\nApplications that call OBJ_obj2txt() directly with untrusted data are\naffected, with any version of OpenSSL.  If the use is for the mere purpose\nof display, the severity is considered low.\n\nIn OpenSSL 3.0 and newer, this affects the subsystems OCSP, PKCS7/SMIME,\nCMS, CMP/CRMF or TS.  It also impacts anything that processes X.509\ncertificates, including simple things like verifying its signature.\n\nThe impact on TLS is relatively low, because all versions of OpenSSL have a\n100KiB limit on the peer's certificate chain.  Additionally, this only\nimpacts clients, or servers that have explicitly enabled client\nauthentication.\n\nIn OpenSSL 1.1.1 and 1.0.2, this only affects displaying diverse objects,\nsuch as X.509 certificates.  This is assumed to not happen in such a way\nthat it would cause a Denial of Service, so these versions are considered\nnot affected by this issue in such a way that it would be cause for concern,\nand the severity is therefore considered low.
@@ -819,6 +826,7 @@
 - [equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance)
 - [wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752)
 - [Sweelg/CVE-2023-23752](https://github.com/Sweelg/CVE-2023-23752)
+- [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -882,6 +890,7 @@
 </code>
 
 - [adhikara13/CVE-2023-24489-ShareFile](https://github.com/adhikara13/CVE-2023-24489-ShareFile)
+- [codeb0ss/CVE-2023-24489-PoC](https://github.com/codeb0ss/CVE-2023-24489-PoC)
 
 ### CVE-2023-24610 (2023-02-01)
 
@@ -2376,6 +2385,12 @@
 </code>
 
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
+
+### CVE-2023-37623
+- [benjaminpsinclair/Netdisco-CVE-2023-37623](https://github.com/benjaminpsinclair/Netdisco-CVE-2023-37623)
+
+### CVE-2023-37624
+- [benjaminpsinclair/Netdisco-CVE-2023-37624](https://github.com/benjaminpsinclair/Netdisco-CVE-2023-37624)
 
 ### CVE-2023-37771
 - [anky-123/CVE-2023-37771](https://github.com/anky-123/CVE-2023-37771)
@@ -5847,6 +5862,7 @@
 - [michealadams30/Cve-2022-30190](https://github.com/michealadams30/Cve-2022-30190)
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
 - [3barz/Follina_Vagrant](https://github.com/3barz/Follina_Vagrant)
+- [yrkuo/CVE-2022-30190](https://github.com/yrkuo/CVE-2022-30190)
 - [ToxicEnvelope/FOLLINA-CVE-2022-30190](https://github.com/ToxicEnvelope/FOLLINA-CVE-2022-30190)
 - [meowhua15/CVE-2022-30190](https://github.com/meowhua15/CVE-2022-30190)
 - [aminetitrofine/CVE-2022-30190](https://github.com/aminetitrofine/CVE-2022-30190)
@@ -18543,7 +18559,7 @@
 <code>A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.0. A remote attacker can send a malicious login packet to the control server
 </code>
 
-- [MzzdToT/CVE-2020-21224](https://github.com/MzzdToT/CVE-2020-21224)
+- [5l1v3r1/CVE-2020-21224](https://github.com/5l1v3r1/CVE-2020-21224)
 
 ### CVE-2020-21378 (2020-12-21)
 
@@ -20485,6 +20501,7 @@
 <code>Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
+- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
