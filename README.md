@@ -204,6 +204,13 @@
 
 - [bluefrostsecurity/CVE-2023-2008](https://github.com/bluefrostsecurity/CVE-2023-2008)
 
+### CVE-2023-2023 (2023-05-30)
+
+<code>The Custom 404 Pro WordPress plugin before 3.7.3 does not escape some URLs before outputting them in attributes, leading to Reflected Cross-Site Scripting.
+</code>
+
+- [GREENHAT7/pxplan](https://github.com/GREENHAT7/pxplan)
+
 ### CVE-2023-2033 (2023-04-14)
 
 <code>Type confusion in V8 in Google Chrome prior to 112.0.5615.121 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
@@ -1105,6 +1112,7 @@
 - [entr0pie/CVE-2023-27163](https://github.com/entr0pie/CVE-2023-27163)
 - [seanrdev/cve-2023-27163](https://github.com/seanrdev/cve-2023-27163)
 - [overgrowncarrot1/CVE-2023-27163](https://github.com/overgrowncarrot1/CVE-2023-27163)
+- [ThickCoco/CVE-2023-27163-POC](https://github.com/ThickCoco/CVE-2023-27163-POC)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -2386,9 +2394,6 @@
 
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
 
-### CVE-2023-37623
-- [benjaminpsinclair/Netdisco-CVE-2023-37623](https://github.com/benjaminpsinclair/Netdisco-CVE-2023-37623)
-
 ### CVE-2023-37624
 - [benjaminpsinclair/Netdisco-CVE-2023-37624](https://github.com/benjaminpsinclair/Netdisco-CVE-2023-37624)
 
@@ -3001,13 +3006,6 @@
 
 ### CVE-2022-1972
 - [randorisec/CVE-2022-1972-infoleak-PoC](https://github.com/randorisec/CVE-2022-1972-infoleak-PoC)
-
-### CVE-2022-2022 (2022-06-07)
-
-<code>Cross-site Scripting (XSS) - Stored in GitHub repository nocodb/nocodb prior to 0.91.7.
-</code>
-
-- [GREENHAT7/pxplan](https://github.com/GREENHAT7/pxplan)
 
 ### CVE-2022-2078 (2022-06-30)
 
@@ -4451,7 +4449,7 @@
 </code>
 
 - [ColdFusionX/CVE-2022-24124](https://github.com/ColdFusionX/CVE-2022-24124)
-- [0xStarFord/CVE-2022-24124](https://github.com/0xStarFord/CVE-2022-24124)
+- [0xAbbarhSF/CVE-2022-24124](https://github.com/0xAbbarhSF/CVE-2022-24124)
 - [cukw/CVE-2022-24124_POC](https://github.com/cukw/CVE-2022-24124_POC)
 
 ### CVE-2022-24125 (2022-03-19)
@@ -4926,7 +4924,7 @@
 </code>
 
 - [Pear1y/CVE-2022-26133](https://github.com/Pear1y/CVE-2022-26133)
-- [0xStarFord/CVE-2022-26133](https://github.com/0xStarFord/CVE-2022-26133)
+- [0xAbbarhSF/CVE-2022-26133](https://github.com/0xAbbarhSF/CVE-2022-26133)
 
 ### CVE-2022-26134 (2022-06-03)
 
@@ -5858,7 +5856,7 @@
 - [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
 - [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 - [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
-- [0xStarFord/FollinaXploit](https://github.com/0xStarFord/FollinaXploit)
+- [0xAbbarhSF/FollinaXploit](https://github.com/0xAbbarhSF/FollinaXploit)
 - [michealadams30/Cve-2022-30190](https://github.com/michealadams30/Cve-2022-30190)
 - [melting0256/Enterprise-Cybersecurity](https://github.com/melting0256/Enterprise-Cybersecurity)
 - [3barz/Follina_Vagrant](https://github.com/3barz/Follina_Vagrant)
@@ -9137,6 +9135,7 @@
 - [keyuan15/CVE-2021-3129](https://github.com/keyuan15/CVE-2021-3129)
 - [qaisarafridi/cve-2021-3129](https://github.com/qaisarafridi/cve-2021-3129)
 - [Zoo1sondv/CVE-2021-3129](https://github.com/Zoo1sondv/CVE-2021-3129)
+- [miko550/CVE-2021-3129](https://github.com/miko550/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -10502,7 +10501,7 @@
 <code>The WP User Frontend WordPress plugin before 3.5.26 does not validate and escape the status parameter before using it in a SQL statement in the Subscribers dashboard, leading to an SQL injection. Due to the lack of sanitisation and escaping, this could also lead to Reflected Cross-Site Scripting
 </code>
 
-- [0xStarFord/CVE-2021-25076](https://github.com/0xStarFord/CVE-2021-25076)
+- [0xAbbarhSF/CVE-2021-25076](https://github.com/0xAbbarhSF/CVE-2021-25076)
 
 ### CVE-2021-25094 (2022-04-25)
 
@@ -15734,7 +15733,6 @@
 - [I-Runtime-Error/CVE-2020-1938](https://github.com/I-Runtime-Error/CVE-2020-1938)
 - [Umesh2807/Ghostcat](https://github.com/Umesh2807/Ghostcat)
 - [MateoSec/ghostcatch](https://github.com/MateoSec/ghostcatch)
-- [kukudechen-chen/cve-2020-1938](https://github.com/kukudechen-chen/cve-2020-1938)
 - [acodervic/CVE-2020-1938-MSF-MODULE](https://github.com/acodervic/CVE-2020-1938-MSF-MODULE)
 - [Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat](https://github.com/Hancheng-Lei/Hacking-Vulnerability-CVE-2020-1938-Ghostcat)
 - [streghstreek/CVE-2020-1938](https://github.com/streghstreek/CVE-2020-1938)
@@ -15851,7 +15849,7 @@
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
 - [DaMinGshidashi/CVE-2020-2551](https://github.com/DaMinGshidashi/CVE-2020-2551)
 - [LTiDi2000/CVE-2020-2551](https://github.com/LTiDi2000/CVE-2020-2551)
-- [0xStarFord/CVE-Exploit](https://github.com/0xStarFord/CVE-Exploit)
+- [0xAbbarhSF/CVE-Exploit](https://github.com/0xAbbarhSF/CVE-Exploit)
 
 ### CVE-2020-2553 (2020-04-15)
 
@@ -19501,7 +19499,7 @@
 <code>A file upload restriction bypass vulnerability in Pluck CMS before 4.7.13 allows an admin privileged user to gain access in the host through the &quot;manage files&quot; functionality, which may result in remote code execution.
 </code>
 
-- [0xStarFord/CVE-2020-29607](https://github.com/0xStarFord/CVE-2020-29607)
+- [0xAbbarhSF/CVE-2020-29607](https://github.com/0xAbbarhSF/CVE-2020-29607)
 
 ### CVE-2020-29666 (2020-12-10)
 
@@ -23344,7 +23342,6 @@
 <code>An issue was discovered in Citrix Application Delivery Controller (ADC) and Gateway 10.5, 11.1, 12.0, 12.1, and 13.0. They allow Directory Traversal.
 </code>
 
-- [mekoko/CVE-2019-19781](https://github.com/mekoko/CVE-2019-19781)
 - [projectzeroindia/CVE-2019-19781](https://github.com/projectzeroindia/CVE-2019-19781)
 - [trustedsec/cve-2019-19781](https://github.com/trustedsec/cve-2019-19781)
 - [cisagov/check-cve-2019-19781](https://github.com/cisagov/check-cve-2019-19781)
@@ -23392,6 +23389,13 @@
 - [pwn3z/CVE-2019-19781-Citrix](https://github.com/pwn3z/CVE-2019-19781-Citrix)
 - [Vulnmachines/Ctirix_RCE-CVE-2019-19781](https://github.com/Vulnmachines/Ctirix_RCE-CVE-2019-19781)
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
+
+### CVE-2019-19782 (2019-12-13)
+
+<code>The FTP client in AceaXe Plus 1.0 allows a buffer overflow via a long EHLO response from an FTP server.
+</code>
+
+- [Underwood12/CVE-2019-19782](https://github.com/Underwood12/CVE-2019-19782)
 
 ### CVE-2019-19844 (2019-12-18)
 
