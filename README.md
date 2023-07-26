@@ -1113,6 +1113,7 @@
 - [seanrdev/cve-2023-27163](https://github.com/seanrdev/cve-2023-27163)
 - [overgrowncarrot1/CVE-2023-27163](https://github.com/overgrowncarrot1/CVE-2023-27163)
 - [ThickCoco/CVE-2023-27163-POC](https://github.com/ThickCoco/CVE-2023-27163-POC)
+- [davuXVI/CVE-2023-27163](https://github.com/davuXVI/CVE-2023-27163)
 
 ### CVE-2023-27216 (2023-04-12)
 
