@@ -1251,7 +1251,7 @@
 
 ### CVE-2023-28206 (2023-04-10)
 
-<code>An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in macOS Monterey 12.6.5, iOS 16.4.1 and iPadOS 16.4.1, iOS 15.7.5 and iPadOS 15.7.5, macOS Big Sur 11.7.6, macOS Ventura 13.3.1. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.
+<code>An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in macOS Monterey 12.6.5, iOS 16.4.1 and iPadOS 16.4.1, macOS Ventura 13.3.1, iOS 15.7.5 and iPadOS 15.7.5, macOS Big Sur 11.7.6. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.
 </code>
 
 - [ZZY3312/CVE-2023-28206](https://github.com/ZZY3312/CVE-2023-28206)
@@ -1847,7 +1847,7 @@
 
 ### CVE-2023-32353 (2023-06-23)
 
-<code>A logic issue was addressed with improved checks. This issue is fixed in iTunes 12.12.9 for Windows. An app may be able to elevate privileges
+<code>A logic issue was addressed with improved checks. This issue is fixed in iTunes 12.12.9 for Windows. An app may be able to elevate privileges.
 </code>
 
 - [86x/CVE-2023-32353-PoC](https://github.com/86x/CVE-2023-32353-PoC)
@@ -2408,7 +2408,10 @@
 <code>Netdisco before v2.063000 was discovered to contain an open redirect vulnerability. An attacker may exploit this vulnerability to redirect users to arbitrary web URLs by tricking the victim users to click on crafted links.
 </code>
 
-- [benjaminpsinclair/Netdisco-CVE-2023-37624](https://github.com/benjaminpsinclair/Netdisco-CVE-2023-37624)
+- [hheeyywweellccoommee/Netdisco-CVE-2023-37624-jawzz](https://github.com/hheeyywweellccoommee/Netdisco-CVE-2023-37624-jawzz)
+
+### CVE-2023-37625
+- [benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625)
 
 ### CVE-2023-37771
 - [anky-123/CVE-2023-37771](https://github.com/anky-123/CVE-2023-37771)
@@ -2419,6 +2422,9 @@
 </code>
 
 - [Phamchie/CVE-2023-37786](https://github.com/Phamchie/CVE-2023-37786)
+
+### CVE-2023-37847
+- [KingBangQ/CVE-2023-37847](https://github.com/KingBangQ/CVE-2023-37847)
 
 ### CVE-2023-38408 (2023-07-19)
 
@@ -24468,7 +24474,6 @@
 - [wb4r/go-get-rce](https://github.com/wb4r/go-get-rce)
 - [ahmetmanga/go-get-rce](https://github.com/ahmetmanga/go-get-rce)
 - [ahmetmanga/cve-2018-6574](https://github.com/ahmetmanga/cve-2018-6574)
-- [kenprice/cve-2018-6574](https://github.com/kenprice/cve-2018-6574)
 - [redirected/cve-2018-6574](https://github.com/redirected/cve-2018-6574)
 - [20matan/CVE-2018-6574-POC](https://github.com/20matan/CVE-2018-6574-POC)
 - [zur250/Zur-Go-GET-RCE-Solution](https://github.com/zur250/Zur-Go-GET-RCE-Solution)
