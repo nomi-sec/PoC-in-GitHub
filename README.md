@@ -449,6 +449,13 @@
 
 - [Wh04m1001/CVE-2023-20178](https://github.com/Wh04m1001/CVE-2023-20178)
 
+### CVE-2023-20593 (2023-07-24)
+
+<code>\nAn issue in “Zen 2” CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.\n\n\n\n\n\n\n
+</code>
+
+- [sbaresearch/stop-zenbleed-win](https://github.com/sbaresearch/stop-zenbleed-win)
+
 ### CVE-2023-20860 (2023-03-27)
 
 <code>Spring Framework running version 6.0.0 - 6.0.6 or 5.3.0 - 5.3.25 using &quot;**&quot; as a pattern in Spring Security configuration with the mvcRequestMatcher creates a mismatch in pattern matching between Spring Security and Spring MVC, and the potential for a security bypass.
@@ -2367,6 +2374,13 @@
 
 ### CVE-2023-37250
 - [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
+
+### CVE-2023-37474 (2023-07-14)
+
+<code>Copyparty is a portable file server. Versions prior to 1.8.2 are subject to a path traversal vulnerability detected in the `.cpr` subfolder. The Path Traversal attack technique allows an attacker access to files, directories, and commands that reside outside the web document root directory. This issue has been addressed in commit `043e3c7d` which has been included in release 1.8.2. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [ilqarli27/CVE-2023-37474.yaml](https://github.com/ilqarli27/CVE-2023-37474.yaml)
 
 ### CVE-2023-37582 (2023-07-12)
 
@@ -8260,9 +8274,9 @@
 - [straight-tamago/DockTransparent](https://github.com/straight-tamago/DockTransparent)
 - [staturnzz/sw1tch](https://github.com/staturnzz/sw1tch)
 - [straight-tamago/FileSwitcherX](https://github.com/straight-tamago/FileSwitcherX)
-- [BomberFish/Mandela](https://github.com/BomberFish/Mandela)
+- [BomberFish/Mandela-Legacy](https://github.com/BomberFish/Mandela-Legacy)
 - [BomberFish/JailedCement](https://github.com/BomberFish/JailedCement)
-- [BomberFish/Mandela-Rewritten](https://github.com/BomberFish/Mandela-Rewritten)
+- [BomberFish/Mandela-Classic](https://github.com/BomberFish/Mandela-Classic)
 - [enty8080/MacDirtyCow](https://github.com/enty8080/MacDirtyCow)
 - [tdquang266/MDC](https://github.com/tdquang266/MDC)
 
@@ -9156,6 +9170,7 @@
 - [qaisarafridi/cve-2021-3129](https://github.com/qaisarafridi/cve-2021-3129)
 - [Zoo1sondv/CVE-2021-3129](https://github.com/Zoo1sondv/CVE-2021-3129)
 - [miko550/CVE-2021-3129](https://github.com/miko550/CVE-2021-3129)
+- [withmasday/CVE-2021-3129](https://github.com/withmasday/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -25208,6 +25223,7 @@
 - [IHA114/CVE-2018-9995_dvr_credentials](https://github.com/IHA114/CVE-2018-9995_dvr_credentials)
 - [likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool](https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool)
 - [b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC)
+- [withmasday/HTC](https://github.com/withmasday/HTC)
 - [awesome-consumer-iot/HTC](https://github.com/awesome-consumer-iot/HTC)
 - [Saeed22487/CVE-2018-9995](https://github.com/Saeed22487/CVE-2018-9995)
 - [kienquoc102/CVE-2018-9995-2](https://github.com/kienquoc102/CVE-2018-9995-2)
