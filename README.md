@@ -1556,7 +1556,11 @@
 
 - [huzefa2212/CVE-2023-30347](https://github.com/huzefa2212/CVE-2023-30347)
 
-### CVE-2023-30367
+### CVE-2023-30367 (2023-07-26)
+
+<code>mRemoteNG configuration files can be stored in an encrypted state on disk. mRemoteNG version &lt;= v1.76.20 and &lt;= 1.77.3-dev loads configuration files in plain text into memory at application start-up, even if no connection has been established yet. This allows attackers to access contents of configuration files in plain text through a memory dump and thus compromise user credentials when no custom password encryption key has been set. This also bypasses the connection configuration file encryption setting by dumping already decrypted configurations from memory.
+</code>
+
 - [S1lkys/CVE-2023-30367-mRemoteNG-password-dumper](https://github.com/S1lkys/CVE-2023-30367-mRemoteNG-password-dumper)
 
 ### CVE-2023-30383 (2023-07-18)
@@ -2052,7 +2056,11 @@
 
 - [s0tr/CVE-2023-33782](https://github.com/s0tr/CVE-2023-33782)
 
-### CVE-2023-33802
+### CVE-2023-33802 (2023-07-26)
+
+<code>A buffer overflow in SumatraPDF Reader v3.4.6 allows attackers to cause a Denial of Service (DoS) via a crafted text file.
+</code>
+
 - [CDACesec/CVE-2023-33802](https://github.com/CDACesec/CVE-2023-33802)
 
 ### CVE-2023-33817 (2023-06-13)
@@ -2395,7 +2403,11 @@
 
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
 
-### CVE-2023-37624
+### CVE-2023-37624 (2023-07-26)
+
+<code>Netdisco before v2.063000 was discovered to contain an open redirect vulnerability. An attacker may exploit this vulnerability to redirect users to arbitrary web URLs by tricking the victim users to click on crafted links.
+</code>
+
 - [benjaminpsinclair/Netdisco-CVE-2023-37624](https://github.com/benjaminpsinclair/Netdisco-CVE-2023-37624)
 
 ### CVE-2023-37771
@@ -5525,6 +5537,7 @@
 </code>
 
 - [miko550/CVE-2022-29078](https://github.com/miko550/CVE-2022-29078)
+- [liam-star-black-master/expluatation_CVE-2022-29078](https://github.com/liam-star-black-master/expluatation_CVE-2022-29078)
 
 ### CVE-2022-29154 (2022-08-02)
 
