@@ -2065,6 +2065,7 @@
 </code>
 
 - [purseclab/CVE-2023-33768](https://github.com/purseclab/CVE-2023-33768)
+- [Fr0stM0urne/CVE-2023-33768](https://github.com/Fr0stM0urne/CVE-2023-33768)
 
 ### CVE-2023-33781 (2023-06-06)
 
@@ -2263,6 +2264,13 @@
 </code>
 
 - [AgentY0/CVE-2023-34965](https://github.com/AgentY0/CVE-2023-34965)
+
+### CVE-2023-35078 (2023-07-25)
+
+<code>\nIvanti Endpoint Manager Mobile (EPMM), formerly MobileIron Core, through 11.10 allows remote attackers to obtain PII, add an administrative account, and change the configuration because of an authentication bypass, as exploited in the wild in July 2023. A patch is available.
+</code>
+
+- [vchan-in/CVE-2023-35078-Exploit-POC](https://github.com/vchan-in/CVE-2023-35078-Exploit-POC)
 
 ### CVE-2023-35086 (2023-07-21)
 
