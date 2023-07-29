@@ -2367,6 +2367,7 @@
 - [tarraschk/CVE-2023-36884-Checker](https://github.com/tarraschk/CVE-2023-36884-Checker)
 - [or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher)
 - [ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884)
+- [ridsoliveira/Fix-CVE-2023-36884](https://github.com/ridsoliveira/Fix-CVE-2023-36884)
 
 ### CVE-2023-37189 (2023-07-10)
 
@@ -33173,6 +33174,7 @@
 - [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
+- [demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166](https://github.com/demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166)
 
 ### CVE-2008-0228 (2008-01-10)
 
