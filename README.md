@@ -2522,6 +2522,7 @@
 - [Zenmovie/CVE-2023-38646](https://github.com/Zenmovie/CVE-2023-38646)
 - [hheeyywweellccoommee/CVE-2023-38646-suynl](https://github.com/hheeyywweellccoommee/CVE-2023-38646-suynl)
 - [0xrobiul/CVE-2023-38646](https://github.com/0xrobiul/CVE-2023-38646)
+- [Chocapikk/CVE-2023-38646](https://github.com/Chocapikk/CVE-2023-38646)
 
 ### CVE-2023-39144
 - [cduram/CVE-2023-39144](https://github.com/cduram/CVE-2023-39144)
@@ -10518,13 +10519,6 @@
 - [hnthuan1998/CVE-2021-24160](https://github.com/hnthuan1998/CVE-2021-24160)
 - [hnthuan1998/Exploit-CVE-2021-24160](https://github.com/hnthuan1998/Exploit-CVE-2021-24160)
 
-### CVE-2021-24307 (2021-05-24)
-
-<code>The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Rankings before 4.1.0.2 enables authenticated users with &quot;aioseo_tools_settings&quot; privilege (most of the time admin) to execute arbitrary code on the underlying host. Users can restore plugin's configuration by uploading a backup .ini file in the section &quot;Tool &gt; Import/Export&quot;. However, the plugin attempts to unserialize values of the .ini file. Moreover, the plugin embeds Monolog library which can be used to craft a gadget chain and thus trigger system command execution.
-</code>
-
-- [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
-
 ### CVE-2021-24347 (2021-06-14)
 
 <code>The SP Project &amp; Document Manager WordPress plugin before 4.22 allows users to upload files, however, the plugin attempts to prevent php and other similar files that could be executed on the server from being uploaded by checking the file extension. It was discovered that php files could still be uploaded by changing the file extension's case, for example, from &quot;php&quot; to &quot;pHP&quot;.
@@ -11238,9 +11232,6 @@
 
 - [lntrx/CVE-2021-28663](https://github.com/lntrx/CVE-2021-28663)
 
-### CVE-2021-28750
-- [PfalzPrince/CVE-2021-28750-site](https://github.com/PfalzPrince/CVE-2021-28750-site)
-
 ### CVE-2021-29003 (2021-04-13)
 
 <code>Genexis PLATINUM 4410 2.1 P4410-V2-1.28 devices allow remote attackers to execute arbitrary code via shell metacharacters to sys_config_valid.xgi, as demonstrated by the sys_config_valid.xgi?exeshell=%60telnetd%20%26%60 URI.
@@ -11476,13 +11467,6 @@
 
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
-
-### CVE-2021-30853 (2021-08-24)
-
-<code>This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
-</code>
-
-- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
 
 ### CVE-2021-30858 (2021-08-24)
 
@@ -13904,7 +13888,6 @@
 <code>Gerapy is a distributed crawler management framework. Gerapy prior to version 0.9.8 is vulnerable to remote code execution, and this issue is patched in version 0.9.8.
 </code>
 
-- [LongWayHomie/CVE-2021-43857](https://github.com/LongWayHomie/CVE-2021-43857)
 - [lowkey0808/CVE-2021-43857](https://github.com/lowkey0808/CVE-2021-43857)
 
 ### CVE-2021-43858 (2021-12-27)
@@ -13912,7 +13895,6 @@
 <code>MinIO is a Kubernetes native application for cloud storage. Prior to version `RELEASE.2021-12-27T07-23-18Z`, a malicious client can hand-craft an HTTP API call that allows for updating policy for a user and gaining higher privileges. The patch in version `RELEASE.2021-12-27T07-23-18Z` changes the accepted request body type and removes the ability to apply policy changes through this API. There is a workaround for this vulnerability: Changing passwords can be disabled by adding an explicit `Deny` rule to disable the API for users.
 </code>
 
-- [0rx1/cve-2021-43858](https://github.com/0rx1/cve-2021-43858)
 - [khuntor/CVE-2021-43858-MinIO](https://github.com/khuntor/CVE-2021-43858-MinIO)
 
 ### CVE-2021-43883 (2021-12-15)
@@ -14340,8 +14322,6 @@
 - [PoneyClairDeLune/LogJackFix](https://github.com/PoneyClairDeLune/LogJackFix)
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
 - [romanutti/log4shell-vulnerable-app](https://github.com/romanutti/log4shell-vulnerable-app)
-- [marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.](https://github.com/marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.)
-- [marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV](https://github.com/marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV)
 - [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
@@ -14355,7 +14335,6 @@
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
-- [atlassion/log4j-exploit-builder](https://github.com/atlassion/log4j-exploit-builder)
 - [atlassion/RS4LOGJ-CVE-2021-44228](https://github.com/atlassion/RS4LOGJ-CVE-2021-44228)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
@@ -14592,7 +14571,6 @@
 - [jxpsx/CVE-2021-45232-RCE](https://github.com/jxpsx/CVE-2021-45232-RCE)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
-- [itxfahdi/-cve-2021-45232](https://github.com/itxfahdi/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [Kuibagit/CVE-2021-45232-RCE](https://github.com/Kuibagit/CVE-2021-45232-RCE)
 - [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
