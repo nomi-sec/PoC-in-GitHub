@@ -1856,6 +1856,7 @@
 - [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
 - [Jenderal92/WP-CVE-2023-32243](https://github.com/Jenderal92/WP-CVE-2023-32243)
+- [shaoyu521/Mass-CVE-2023-32243](https://github.com/shaoyu521/Mass-CVE-2023-32243)
 
 ### CVE-2023-32315 (2023-05-26)
 
@@ -2278,6 +2279,7 @@
 </code>
 
 - [vchan-in/CVE-2023-35078-Exploit-POC](https://github.com/vchan-in/CVE-2023-35078-Exploit-POC)
+- [lager1/CVE-2023-35078](https://github.com/lager1/CVE-2023-35078)
 
 ### CVE-2023-35086 (2023-07-21)
 
@@ -2383,6 +2385,13 @@
 - [or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher)
 - [ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884)
 - [ridsoliveira/Fix-CVE-2023-36884](https://github.com/ridsoliveira/Fix-CVE-2023-36884)
+
+### CVE-2023-37164 (2023-07-20)
+
+<code>Diafan CMS v6.0 was discovered to contain a reflected cross-site scripting via the cat_id parameter at /shop/?module=shop&amp;action=search.
+</code>
+
+- [ilqarli27/CVE-2023-37164](https://github.com/ilqarli27/CVE-2023-37164)
 
 ### CVE-2023-37189 (2023-07-10)
 
@@ -18132,7 +18141,6 @@
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [jas502n/CVE-2020-14882](https://github.com/jas502n/CVE-2020-14882)
 - [s1kr10s/CVE-2020-14882](https://github.com/s1kr10s/CVE-2020-14882)
-- [Umarovm/-Patched-McMaster-University-Blind-Command-Injection](https://github.com/Umarovm/-Patched-McMaster-University-Blind-Command-Injection)
 - [XTeam-Wing/CVE-2020-14882](https://github.com/XTeam-Wing/CVE-2020-14882)
 - [0thm4n3/cve-2020-14882](https://github.com/0thm4n3/cve-2020-14882)
 - [wsfengfan/cve-2020-14882](https://github.com/wsfengfan/cve-2020-14882)
