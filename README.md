@@ -342,6 +342,7 @@
 
 - [hheeyywweellccoommee/CVE-2023-2868-lchvp](https://github.com/hheeyywweellccoommee/CVE-2023-2868-lchvp)
 - [cfielding-r7/poc-cve-2023-2868](https://github.com/cfielding-r7/poc-cve-2023-2868)
+- [cashapp323232/CVE-2023-2868CVE-2023-2868](https://github.com/cashapp323232/CVE-2023-2868CVE-2023-2868)
 
 ### CVE-2023-2877 (2023-06-27)
 
@@ -2392,6 +2393,7 @@
 - [or2me/CVE-2023-36884_patcher](https://github.com/or2me/CVE-2023-36884_patcher)
 - [ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884)
 - [ridsoliveira/Fix-CVE-2023-36884](https://github.com/ridsoliveira/Fix-CVE-2023-36884)
+- [raresteak/CVE-2023-36884](https://github.com/raresteak/CVE-2023-36884)
 
 ### CVE-2023-37164 (2023-07-20)
 
