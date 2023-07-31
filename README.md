@@ -7,6 +7,7 @@
 </code>
 
 - [ASkyeye/CVE-2023-0045](https://github.com/ASkyeye/CVE-2023-0045)
+- [es0j/CVE-2023-0045](https://github.com/es0j/CVE-2023-0045)
 
 ### CVE-2023-0050 (2023-03-09)
 
@@ -762,6 +763,7 @@
 <code>There is a command injection vulnerability in SolarView Compact through 6.00, attackers can execute commands by bypassing internal restrictions through downloader.php.
 </code>
 
+- [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
 - [Mr-xn/CVE-2023-23333](https://github.com/Mr-xn/CVE-2023-23333)
 - [WhiteOwl-Pub/PoC-SolarView-Compact-CVE-2023-23333](https://github.com/WhiteOwl-Pub/PoC-SolarView-Compact-CVE-2023-23333)
 
@@ -874,6 +876,7 @@
 - [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
 - [ATTACKnDEFEND/CVE-2023-24055](https://github.com/ATTACKnDEFEND/CVE-2023-24055)
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
+- [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
 
 ### CVE-2023-24059 (2023-01-22)
@@ -957,6 +960,7 @@
 <code>OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote attacker in the default configuration, to jump to any location in the sshd address space. One third-party report states &quot;remote code execution is theoretically possible.&quot;
 </code>
 
+- [jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free](https://github.com/jfrog/jfrog-CVE-2023-25136-OpenSSH_Double-Free)
 - [ticofookfook/CVE-2023-25136](https://github.com/ticofookfook/CVE-2023-25136)
 - [Christbowel/CVE-2023-25136](https://github.com/Christbowel/CVE-2023-25136)
 - [adhikara13/CVE-2023-25136](https://github.com/adhikara13/CVE-2023-25136)
@@ -975,6 +979,13 @@
 - [murataydemir/CVE-2023-25157-and-CVE-2023-25158](https://github.com/murataydemir/CVE-2023-25157-and-CVE-2023-25158)
 - [7imbitz/CVE-2023-25157-checker](https://github.com/7imbitz/CVE-2023-25157-checker)
 - [EmmanuelCruzL/CVE-2023-25157](https://github.com/EmmanuelCruzL/CVE-2023-25157)
+
+### CVE-2023-25194 (2023-02-07)
+
+<code>A possible security vulnerability has been identified in Apache Kafka Connect API.\nThis requires access to a Kafka Connect worker, and the ability to create/modify connectors on it with an arbitrary Kafka client SASL JAAS config\nand a SASL-based security protocol, which has been possible on Kafka Connect clusters since Apache Kafka Connect 2.3.0.\nWhen configuring the connector via the Kafka Connect REST API, an authenticated operator can set the `sasl.jaas.config`\nproperty for any of the connector's Kafka clients to &quot;com.sun.security.auth.module.JndiLoginModule&quot;, which can be done via the\n`producer.override.sasl.jaas.config`, `consumer.override.sasl.jaas.config`, or `admin.override.sasl.jaas.config` properties.\nThis will allow the server to connect to the attacker's LDAP server\nand deserialize the LDAP response, which the attacker can use to execute java deserialization gadget chains on the Kafka connect server.\nAttacker can cause unrestricted deserialization of untrusted data (or) RCE vulnerability when there are gadgets in the classpath.\n\nSince Apache Kafka 3.0.0, users are allowed to specify these properties in connector configurations for Kafka Connect clusters running with out-of-the-box\nconfigurations. Before Apache Kafka 3.0.0, users may not specify these properties unless the Kafka Connect cluster has been reconfigured with a connector\nclient override policy that permits them.\n\nSince Apache Kafka 3.4.0, we have added a system property (&quot;-Dorg.apache.kafka.disallowed.login.modules&quot;) to disable the problematic login modules usage\nin SASL JAAS configuration. Also by default &quot;com.sun.security.auth.module.JndiLoginModule&quot; is disabled in Apache Kafka Connect 3.4.0. \n\nWe advise the Kafka Connect users to validate connector configurations and only allow trusted JNDI configurations. Also examine connector dependencies for \nvulnerable versions and either upgrade their connectors, upgrading that specific dependency, or removing the connectors as options for remediation. Finally,\nin addition to leveraging the &quot;org.apache.kafka.disallowed.login.modules&quot; system property, Kafka Connect users can also implement their own connector\nclient config override policy, which can be used to control which Kafka client properties can be overridden directly in a connector config and which cannot.\n
+</code>
+
+- [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 
 ### CVE-2023-25234 (2023-02-27)
 
@@ -2280,6 +2291,7 @@
 - [vchan-in/CVE-2023-35078-Exploit-POC](https://github.com/vchan-in/CVE-2023-35078-Exploit-POC)
 - [lager1/CVE-2023-35078](https://github.com/lager1/CVE-2023-35078)
 - [LazyySec/CVE-2023-35078](https://github.com/LazyySec/CVE-2023-35078)
+- [synfinner/CVE-2023-35078](https://github.com/synfinner/CVE-2023-35078)
 
 ### CVE-2023-35086 (2023-07-21)
 
@@ -2470,7 +2482,11 @@
 ### CVE-2023-37625
 - [benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625)
 
-### CVE-2023-37771
+### CVE-2023-37771 (2023-07-31)
+
+<code>Art Gallery Management System v1.0 contains a SQL injection vulnerability via the cid parameter at /agms/product.php.
+</code>
+
 - [anky-123/CVE-2023-37771](https://github.com/anky-123/CVE-2023-37771)
 
 ### CVE-2023-37772
@@ -7552,6 +7568,9 @@
 </code>
 
 - [thecasual/CVE-2022-41358](https://github.com/thecasual/CVE-2022-41358)
+
+### CVE-2022-41401
+- [ixSly/CVE-2022-41401](https://github.com/ixSly/CVE-2022-41401)
 
 ### CVE-2022-41412 (2022-11-29)
 
@@ -21704,13 +21723,6 @@
 
 - [KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869)
 
-### CVE-2019-10915 (2019-07-11)
-
-<code>A vulnerability has been identified in TIA Administrator (All versions &lt; V1.0 SP1 Upd1). The integrated configuration web application (TIA Administrator) allows to execute certain application commands without proper authentication. The vulnerability could be exploited by an attacker with local access to the affected system. Successful exploitation requires no privileges and no user interaction. An attacker could use the vulnerability to compromise confidentiality and integrity and availability of the affected system. At the time of advisory publication no public exploitation of this security vulnerability was known.
-</code>
-
-- [jiansiting/CVE-2019-10915](https://github.com/jiansiting/CVE-2019-10915)
-
 ### CVE-2019-10945 (2019-04-10)
 
 <code>An issue was discovered in Joomla! before 3.9.5. The Media Manager component does not properly sanitize the folder parameter, allowing attackers to act outside the media manager root directory.
@@ -21865,7 +21877,6 @@
 <code>There was a server-side template injection vulnerability in Jira Server and Data Center, in the ContactAdministrators and the SendBulkMail actions. An attacker is able to remotely execute code on systems that run a vulnerable version of Jira Server or Data Center. All versions of Jira Server and Data Center from 4.4.0 before 7.6.14, from 7.7.0 before 7.13.5, from 8.0.0 before 8.0.3, from 8.1.0 before 8.1.2, and from 8.2.0 before 8.2.3 are affected by this vulnerability.
 </code>
 
-- [jas502n/CVE-2019-11581](https://github.com/jas502n/CVE-2019-11581)
 - [kobs0N/CVE-2019-11581](https://github.com/kobs0N/CVE-2019-11581)
 - [PetrusViet/CVE-2019-11581](https://github.com/PetrusViet/CVE-2019-11581)
 
@@ -24804,7 +24815,6 @@
 - [pimps/CVE-2018-7600](https://github.com/pimps/CVE-2018-7600)
 - [lorddemon/drupalgeddon2](https://github.com/lorddemon/drupalgeddon2)
 - [Hestat/drupal-check](https://github.com/Hestat/drupal-check)
-- [kahliya/CVE-2018-7600-drupalgeddon2-scanner](https://github.com/kahliya/CVE-2018-7600-drupalgeddon2-scanner)
 - [Damian972/drupalgeddon-2](https://github.com/Damian972/drupalgeddon-2)
 - [jyo-zi/CVE-2018-7600](https://github.com/jyo-zi/CVE-2018-7600)
 - [happynote3966/CVE-2018-7600](https://github.com/happynote3966/CVE-2018-7600)
@@ -27283,6 +27293,7 @@
 - [homjxi0e/CVE-2017-3881-exploit-cisco-](https://github.com/homjxi0e/CVE-2017-3881-exploit-cisco-)
 - [homjxi0e/CVE-2017-3881-Cisco](https://github.com/homjxi0e/CVE-2017-3881-Cisco)
 - [mzakyz666/PoC-CVE-2017-3881](https://github.com/mzakyz666/PoC-CVE-2017-3881)
+- [1337g/CVE-2017-3881](https://github.com/1337g/CVE-2017-3881)
 
 ### CVE-2017-4490
 - [homjxi0e/CVE-2017-4490-](https://github.com/homjxi0e/CVE-2017-4490-)
@@ -27685,6 +27696,7 @@
 - [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
+- [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
 - [crypticdante/CVE-2017-7269](https://github.com/crypticdante/CVE-2017-7269)
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
@@ -28015,6 +28027,13 @@
 </code>
 
 - [jakabakos/CVE-2017-9096](https://github.com/jakabakos/CVE-2017-9096)
+
+### CVE-2017-9097 (2017-06-15)
+
+<code>In Anti-Web through 3.8.7, as used on NetBiter FGW200 devices through 3.21.2, WS100 devices through 3.30.5, EC150 devices through 1.40.0, WS200 devices through 3.30.4, EC250 devices through 1.40.0, and other products, an LFI vulnerability allows a remote attacker to read or modify files through a path traversal technique, as demonstrated by reading the password file, or using the template parameter to cgi-bin/write.cgi to write to an arbitrary file.
+</code>
+
+- [MDudek-ICS/AntiWeb_testing-Suite](https://github.com/MDudek-ICS/AntiWeb_testing-Suite)
 
 ### CVE-2017-9101 (2017-05-21)
 
@@ -29055,6 +29074,7 @@
 <code>Linux distributions that have not patched their long-term kernels with https://git.kernel.org/linus/a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (committed on April 14, 2015). This kernel vulnerability was fixed in April 2015 by commit a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (backported to Linux 3.10.77 in May 2015), but it was not recognized as a security threat. With CONFIG_ARCH_BINFMT_ELF_RANDOMIZE_PIE enabled, and a normal top-down address allocation strategy, load_elf_binary() will attempt to map a PIE binary into an address range immediately below mm-&gt;mmap_base. Unfortunately, load_elf_ binary() does not take account of the need to allocate sufficient space for the entire binary which means that, while the first PT_LOAD segment is mapped below mm-&gt;mmap_base, the subsequent PT_LOAD segment(s) end up being mapped above mm-&gt;mmap_base into the are that is supposed to be the &quot;gap&quot; between the stack and the binary.
 </code>
 
+- [RicterZ/PIE-Stack-Clash-CVE-2017-1000253](https://github.com/RicterZ/PIE-Stack-Clash-CVE-2017-1000253)
 - [sxlmnwb/CVE-2017-1000253](https://github.com/sxlmnwb/CVE-2017-1000253)
 
 ### CVE-2017-1000353 (2018-01-29)
