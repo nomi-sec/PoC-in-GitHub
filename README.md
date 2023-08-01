@@ -1179,6 +1179,7 @@
 - [tucommenceapousser/CVE-2023-27372](https://github.com/tucommenceapousser/CVE-2023-27372)
 - [RSTG0D/CVE-2023-27372-PoC](https://github.com/RSTG0D/CVE-2023-27372-PoC)
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
+- [Pari-Malam/CVE-2023-27372](https://github.com/Pari-Malam/CVE-2023-27372)
 
 ### CVE-2023-27524 (2023-04-24)
 
@@ -21723,6 +21724,13 @@
 
 - [KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869)
 
+### CVE-2019-10915 (2019-07-11)
+
+<code>A vulnerability has been identified in TIA Administrator (All versions &lt; V1.0 SP1 Upd1). The integrated configuration web application (TIA Administrator) allows to execute certain application commands without proper authentication. The vulnerability could be exploited by an attacker with local access to the affected system. Successful exploitation requires no privileges and no user interaction. An attacker could use the vulnerability to compromise confidentiality and integrity and availability of the affected system. At the time of advisory publication no public exploitation of this security vulnerability was known.
+</code>
+
+- [jiansiting/CVE-2019-10915](https://github.com/jiansiting/CVE-2019-10915)
+
 ### CVE-2019-10945 (2019-04-10)
 
 <code>An issue was discovered in Joomla! before 3.9.5. The Media Manager component does not properly sanitize the folder parameter, allowing attackers to act outside the media manager root directory.
@@ -21877,6 +21885,7 @@
 <code>There was a server-side template injection vulnerability in Jira Server and Data Center, in the ContactAdministrators and the SendBulkMail actions. An attacker is able to remotely execute code on systems that run a vulnerable version of Jira Server or Data Center. All versions of Jira Server and Data Center from 4.4.0 before 7.6.14, from 7.7.0 before 7.13.5, from 8.0.0 before 8.0.3, from 8.1.0 before 8.1.2, and from 8.2.0 before 8.2.3 are affected by this vulnerability.
 </code>
 
+- [jas502n/CVE-2019-11581](https://github.com/jas502n/CVE-2019-11581)
 - [kobs0N/CVE-2019-11581](https://github.com/kobs0N/CVE-2019-11581)
 - [PetrusViet/CVE-2019-11581](https://github.com/PetrusViet/CVE-2019-11581)
 
