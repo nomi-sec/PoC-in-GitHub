@@ -768,6 +768,7 @@
 - [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
 - [Mr-xn/CVE-2023-23333](https://github.com/Mr-xn/CVE-2023-23333)
 - [WhiteOwl-Pub/PoC-SolarView-Compact-CVE-2023-23333](https://github.com/WhiteOwl-Pub/PoC-SolarView-Compact-CVE-2023-23333)
+- [emanueldosreis/nmap-CVE-2023-23333-exploit](https://github.com/emanueldosreis/nmap-CVE-2023-23333-exploit)
 
 ### CVE-2023-23396 (2023-03-14)
 
@@ -2300,6 +2301,7 @@
 - [lager1/CVE-2023-35078](https://github.com/lager1/CVE-2023-35078)
 - [LazyySec/CVE-2023-35078](https://github.com/LazyySec/CVE-2023-35078)
 - [synfinner/CVE-2023-35078](https://github.com/synfinner/CVE-2023-35078)
+- [emanueldosreis/nmap-CVE-2023-35078-Exploit](https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit)
 
 ### CVE-2023-35086 (2023-07-21)
 
@@ -9628,13 +9630,6 @@
 
 ### CVE-2021-3899
 - [liumuqing/CVE-2021-3899_PoC](https://github.com/liumuqing/CVE-2021-3899_PoC)
-
-### CVE-2021-3929 (2022-08-25)
-
-<code>A DMA reentrancy issue was found in the NVM Express Controller (NVME) emulation in QEMU. This CVE is similar to CVE-2021-3750 and, just like it, when the reentrancy write triggers the reset function nvme_ctrl_reset(), data structs will be freed leading to a use-after-free issue. A malicious guest could use this flaw to crash the QEMU process on the host, resulting in a denial of service condition or, potentially, executing arbitrary code within the context of the QEMU process on the host.
-</code>
-
-- [QiuhaoLi/CVE-2021-3929-3947](https://github.com/QiuhaoLi/CVE-2021-3929-3947)
 
 ### CVE-2021-3972 (2022-04-22)
 
@@ -21973,9 +21968,7 @@
 
 - [dorkerdevil/CVE-2019-11932](https://github.com/dorkerdevil/CVE-2019-11932)
 - [awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932)
-- [JasonJerry/WhatsRCE](https://github.com/JasonJerry/WhatsRCE)
 - [TulungagungCyberLink/CVE-2019-11932](https://github.com/TulungagungCyberLink/CVE-2019-11932)
-- [infiniteLoopers/CVE-2019-11932](https://github.com/infiniteLoopers/CVE-2019-11932)
 - [5l1v3r1/CVE-2019-11932](https://github.com/5l1v3r1/CVE-2019-11932)
 - [valbrux/CVE-2019-11932-SupportApp](https://github.com/valbrux/CVE-2019-11932-SupportApp)
 - [fastmo/CVE-2019-11932](https://github.com/fastmo/CVE-2019-11932)
@@ -22985,13 +22978,6 @@
 </code>
 
 - [eniac888/CVE-2019-16920-MassPwn3r](https://github.com/eniac888/CVE-2019-16920-MassPwn3r)
-
-### CVE-2019-16941 (2019-09-28)
-
-<code>NSA Ghidra through 9.0.4, when experimental mode is enabled, allows arbitrary code execution if the Read XML Files feature of Bit Patterns Explorer is used with a modified XML document. This occurs in Features/BytePatterns/src/main/java/ghidra/bitpatterns/info/FileBitPatternInfoReader.java. An attack could start with an XML document that was originally created by DumpFunctionPatternInfoScript but then directly modified by an attacker (for example, to make a java.lang.Runtime.exec call).
-</code>
-
-- [purpleracc00n/CVE-2019-16941](https://github.com/purpleracc00n/CVE-2019-16941)
 
 ### CVE-2019-17026 (2020-03-01)
 
@@ -31843,7 +31829,7 @@
 - [mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271)
 - [Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271)
 - [hheeyywweellccoommee/CVE-2014-6271-Shellshock-Vulnerability-vazft](https://github.com/hheeyywweellccoommee/CVE-2014-6271-Shellshock-Vulnerability-vazft)
-- [J0hnTh3Kn1ght/CVE-2014-6271](https://github.com/J0hnTh3Kn1ght/CVE-2014-6271)
+- [Jsmoreira02/CVE-2014-6271](https://github.com/Jsmoreira02/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
