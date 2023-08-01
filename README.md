@@ -697,7 +697,7 @@
 <code>Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability in Apache Software Foundation Apache Airflow, Apache Software Foundation Apache Airflow MySQL Provider.This issue affects Apache Airflow: before 2.5.1; Apache Airflow MySQL Provider: before 4.0.0.
 </code>
 
-- [jakabakos/CVE-2023-22884](https://github.com/jakabakos/CVE-2023-22884)
+- [jakabakos/CVE-2023-22884-Airflow-SQLi](https://github.com/jakabakos/CVE-2023-22884-Airflow-SQLi)
 
 ### CVE-2023-22894 (2023-04-19)
 
@@ -2282,6 +2282,7 @@
 - [hheeyywweellccoommee/Chamilo__CVE-2023-34960_RCE-ouvuu](https://github.com/hheeyywweellccoommee/Chamilo__CVE-2023-34960_RCE-ouvuu)
 - [Pari-Malam/CVE-2023-34960](https://github.com/Pari-Malam/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
+- [tucommenceapousser/CVE-2023-34960-ex](https://github.com/tucommenceapousser/CVE-2023-34960-ex)
 
 ### CVE-2023-34965 (2023-06-13)
 
@@ -2319,6 +2320,13 @@
 
 ### CVE-2023-35803
 - [lachlan2k/CVE-2023-35803](https://github.com/lachlan2k/CVE-2023-35803)
+
+### CVE-2023-35828 (2023-06-18)
+
+<code>An issue was discovered in the Linux kernel before 6.3.2. A use-after-free was found in renesas_usb3_remove in drivers/usb/gadget/udc/renesas_usb3.c.
+</code>
+
+- [Trinadh465/linux-4.19.72_CVE-2023-35828](https://github.com/Trinadh465/linux-4.19.72_CVE-2023-35828)
 
 ### CVE-2023-35840 (2023-06-18)
 
@@ -2518,6 +2526,14 @@
 
 ### CVE-2023-37847
 - [KingBangQ/CVE-2023-37847](https://github.com/KingBangQ/CVE-2023-37847)
+
+### CVE-2023-37979 (2023-07-27)
+
+<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Saturday Drive Ninja Forms Contact Form plugin &lt;= 3.6.25 versions.
+</code>
+
+- [Fire-Null/CVE-2023-37979](https://github.com/Fire-Null/CVE-2023-37979)
+- [Mehran-Seifalinia/CVE-2023-37979](https://github.com/Mehran-Seifalinia/CVE-2023-37979)
 
 ### CVE-2023-38408 (2023-07-19)
 
@@ -4255,7 +4271,7 @@
 - [bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-](https://github.com/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-)
 - [BKLockly/CVE-2022-22965](https://github.com/BKLockly/CVE-2022-22965)
 - [dbgee/Spring4Shell](https://github.com/dbgee/Spring4Shell)
-- [jakabakos/spring4shell](https://github.com/jakabakos/spring4shell)
+- [jakabakos/CVE-2022-22965-Spring4Shell](https://github.com/jakabakos/CVE-2022-22965-Spring4Shell)
 
 ### CVE-2022-22966 (2022-04-14)
 
@@ -7308,7 +7324,7 @@
 </code>
 
 - [Mr-xn/CVE-2022-40127](https://github.com/Mr-xn/CVE-2022-40127)
-- [jakabakos/CVE-2022-40127](https://github.com/jakabakos/CVE-2022-40127)
+- [jakabakos/CVE-2022-40127-Airflow-RCE](https://github.com/jakabakos/CVE-2022-40127-Airflow-RCE)
 
 ### CVE-2022-40140 (2022-09-19)
 
@@ -8301,6 +8317,7 @@
 - [BKreisel/CVE-2022-46169](https://github.com/BKreisel/CVE-2022-46169)
 - [Rickster5555/EH2-PoC](https://github.com/Rickster5555/EH2-PoC)
 - [antisecc/CVE-2022-46169](https://github.com/antisecc/CVE-2022-46169)
+- [4m4Sec/CVE-2022-46169](https://github.com/4m4Sec/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -14305,7 +14322,6 @@
 - [sysadmin0815/Fix-Log4j-PowershellScript](https://github.com/sysadmin0815/Fix-Log4j-PowershellScript)
 - [RenYuH/log4j-lookups-vulnerability](https://github.com/RenYuH/log4j-lookups-vulnerability)
 - [scheibling/py-log4shellscanner](https://github.com/scheibling/py-log4shellscanner)
-- [GroupePSA/log4shell-honeypot](https://github.com/GroupePSA/log4shell-honeypot)
 - [zaneef/CVE-2021-44228](https://github.com/zaneef/CVE-2021-44228)
 - [metodidavidovic/log4j-quick-scan](https://github.com/metodidavidovic/log4j-quick-scan)
 - [WatchGuard-Threat-Lab/log4shell-iocs](https://github.com/WatchGuard-Threat-Lab/log4shell-iocs)
@@ -14410,6 +14426,7 @@
 - [Jun-5heng/CVE-2021-44228](https://github.com/Jun-5heng/CVE-2021-44228)
 - [honypot/CVE-2021-44228](https://github.com/honypot/CVE-2021-44228)
 - [honypot/CVE-2021-44228-vuln-app](https://github.com/honypot/CVE-2021-44228-vuln-app)
+- [vulnerable-apps/log4shell-honeypot](https://github.com/vulnerable-apps/log4shell-honeypot)
 - [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
 - [TPower2112/Writing-Sample-1](https://github.com/TPower2112/Writing-Sample-1)
 - [Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228](https://github.com/Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228)
@@ -19359,6 +19376,13 @@
 - [kiks7/CVE-2020-27786-Kernel-Exploit](https://github.com/kiks7/CVE-2020-27786-Kernel-Exploit)
 - [elbiazo/CVE-2020-27786](https://github.com/elbiazo/CVE-2020-27786)
 - [Trinadh465/linux-4.19.72_CVE-2020-27786](https://github.com/Trinadh465/linux-4.19.72_CVE-2020-27786)
+
+### CVE-2020-27815 (2021-05-26)
+
+<code>A flaw was found in the JFS filesystem code in the Linux Kernel which allows a local attacker with the ability to set extended attributes to panic the system, causing memory corruption or escalating privileges. The highest threat from this vulnerability is to confidentiality, integrity, as well as system availability.
+</code>
+
+- [Trinadh465/linux-4.19.72_CVE-2020-27815](https://github.com/Trinadh465/linux-4.19.72_CVE-2020-27815)
 
 ### CVE-2020-27824 (2021-05-13)
 
@@ -28044,7 +28068,7 @@
 <code>The XML parsers in iText before 5.5.12 and 7.x before 7.0.3 do not disable external entities, which might allow remote attackers to conduct XML external entity (XXE) attacks via a crafted PDF.
 </code>
 
-- [jakabakos/CVE-2017-9096](https://github.com/jakabakos/CVE-2017-9096)
+- [jakabakos/CVE-2017-9096-iText-XXE](https://github.com/jakabakos/CVE-2017-9096-iText-XXE)
 
 ### CVE-2017-9097 (2017-06-15)
 
