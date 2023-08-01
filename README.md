@@ -125,6 +125,7 @@
 </code>
 
 - [Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal](https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal)
+- [codeb0ss/CVE-2023-1112-EXP](https://github.com/codeb0ss/CVE-2023-1112-EXP)
 
 ### CVE-2023-1177 (2023-03-24)
 
@@ -464,6 +465,7 @@
 </code>
 
 - [sbaresearch/stop-zenbleed-win](https://github.com/sbaresearch/stop-zenbleed-win)
+- [w1redch4d/windowz2-bleed](https://github.com/w1redch4d/windowz2-bleed)
 
 ### CVE-2023-20860 (2023-03-27)
 
@@ -2269,7 +2271,11 @@
 
 - [ChrisL0tus/CVE-2023-34924](https://github.com/ChrisL0tus/CVE-2023-34924)
 
-### CVE-2023-34960
+### CVE-2023-34960 (2023-07-31)
+
+<code>A command injection vulnerability in the wsConvertPpt component of Chamilo v1.11.* up to v1.11.18 allows attackers to execute arbitrary commands via a SOAP API call with a crafted PowerPoint name.
+</code>
+
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
 - [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
 - [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
@@ -2388,7 +2394,7 @@
 
 ### CVE-2023-36884 (2023-07-11)
 
-<code>Microsoft is investigating reports of a series of remote code execution vulnerabilities impacting Windows and Office products. Microsoft is aware of targeted attacks that attempt to exploit these vulnerabilities by using specially-crafted Microsoft Office documents.\n\nAn attacker could create a specially crafted Microsoft Office document that enables them to perform remote code execution in the context of the victim. However, an attacker would have to convince the victim to open the malicious file.\n\nUpon completion of this investigation, Microsoft will take the appropriate action to help protect our customers. This might include providing a security update through our monthly release process or providing an out-of-cycle security update, depending on customer needs.\n\nPlease see the Microsoft Threat Intelligence  Blog https://aka.ms/Storm-0978  Entry for important information about steps you can take to protect your system from this vulnerability.\n\nThis CVE will be updated with new information and links to security updates when they become available.\n\n
+<code>Microsoft is investigating reports of a series of remote code execution vulnerabilities impacting Windows and Office products. Microsoft is aware of targeted attacks that attempt to exploit these vulnerabilities by using specially-crafted Microsoft Office documents.\n\nAn attacker could create a specially crafted Microsoft Office document that enables them to perform remote code execution in the context of the victim. However, an attacker would have to convince the victim to open the malicious file.\n\nUpon completion of this investigation, Microsoft will take the appropriate action to help protect our customers. This might include providing a security update through our monthly release process or providing an out-of-cycle security update, depending on customer needs.\n\nPlease see the Microsoft Threat Intelligence  Blog Entry https://aka.ms/Storm-0978  for important information about steps you can take to protect your system from this vulnerability.\n\nThis CVE will be updated with new information and links to security updates when they become available. If you wish to be notified when these updates are released, we recommend that you register for the security notifications mailer to be alerted of content changes to this CVE. See  Microsoft Technical Security Notifications https://www.microsoft.com/en-us/msrc/technical-security-notifications .\n\n
 </code>
 
 - [Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline](https://github.com/Maxwitat/CVE-2023-36884-Scripts-for-Intune-Remediation-SCCM-Compliance-Baseline)
@@ -2490,7 +2496,11 @@
 
 - [anky-123/CVE-2023-37771](https://github.com/anky-123/CVE-2023-37771)
 
-### CVE-2023-37772
+### CVE-2023-37772 (2023-07-31)
+
+<code>Online Shopping Portal Project v3.1 was discovered to contain a SQL injection vulnerability via the Email parameter at /shopping/login.php.
+</code>
+
 - [anky-123/CVE-2023-37772](https://github.com/anky-123/CVE-2023-37772)
 
 ### CVE-2023-37778
@@ -5509,7 +5519,6 @@
 
 - [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
-- [pthlong9991/CVE-2022-28346](https://github.com/pthlong9991/CVE-2022-28346)
 - [vincentinttsh/CVE-2022-28346](https://github.com/vincentinttsh/CVE-2022-28346)
 
 ### CVE-2022-28368 (2022-04-02)
