@@ -228,6 +228,7 @@
 - [sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis)
 - [gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis)
 - [WalccDev/CVE-2023-2033](https://github.com/WalccDev/CVE-2023-2033)
+- [mistymntncop/CVE-2023-2033](https://github.com/mistymntncop/CVE-2023-2033)
 
 ### CVE-2023-2114 (2023-05-08)
 
@@ -437,6 +438,9 @@
 </code>
 
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
+
+### CVE-2023-10608
+- [hheeyywweellccoommee/cve-2023-10608-PoC-ywawk](https://github.com/hheeyywweellccoommee/cve-2023-10608-PoC-ywawk)
 
 ### CVE-2023-20052 (2023-03-01)
 
@@ -1315,6 +1319,7 @@
 
 - [fortra/CVE-2023-28252](https://github.com/fortra/CVE-2023-28252)
 - [hheeyywweellccoommee/CVE-2023-28252-vseik](https://github.com/hheeyywweellccoommee/CVE-2023-28252-vseik)
+- [hheeyywweellccoommee/CVE-2023-28252-djtiu](https://github.com/hheeyywweellccoommee/CVE-2023-28252-djtiu)
 
 ### CVE-2023-28310 (2023-06-14)
 
@@ -2388,6 +2393,12 @@
 
 - [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
 
+### CVE-2023-36158
+- [unknown00759/CVE-2023-36158](https://github.com/unknown00759/CVE-2023-36158)
+
+### CVE-2023-36159
+- [unknown00759/CVE-2023-36159](https://github.com/unknown00759/CVE-2023-36159)
+
 ### CVE-2023-36163 (2023-07-11)
 
 <code>Cross Site Scripting vulnerability in IP-DOT BuildaGate v.BuildaGate5 allows a remote attacker to execute arbitrary code via a crafted script to the mc parameter of the URL.
@@ -2581,6 +2592,7 @@
 - [securezeron/CVE-2023-38646](https://github.com/securezeron/CVE-2023-38646)
 - [LazyySec/CVE-2023-38646](https://github.com/LazyySec/CVE-2023-38646)
 - [Zenmovie/CVE-2023-38646](https://github.com/Zenmovie/CVE-2023-38646)
+- [shamo0/CVE-2023-38646-PoC](https://github.com/shamo0/CVE-2023-38646-PoC)
 
 ### CVE-2023-39144
 - [cduram/CVE-2023-39144](https://github.com/cduram/CVE-2023-39144)
@@ -13371,6 +13383,7 @@
 - [MatanelGordon/docker-cve-2021-41773](https://github.com/MatanelGordon/docker-cve-2021-41773)
 - [K3ysTr0K3R/CVE-2021-41773-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-41773-EXPLOIT)
 - [0xGabe/Apache-CVEs](https://github.com/0xGabe/Apache-CVEs)
+- [OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits](https://github.com/OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -15464,6 +15477,7 @@
 - [ann0906/proxylogon](https://github.com/ann0906/proxylogon)
 - [7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688)
 - [TheKickPuncher/CVE-2020-0688-Python3](https://github.com/TheKickPuncher/CVE-2020-0688-Python3)
+- [chudamax/CVE-2020-0688-Exchange2010](https://github.com/chudamax/CVE-2020-0688-Exchange2010)
 
 ### CVE-2020-0728 (2020-02-11)
 
@@ -15820,7 +15834,6 @@
 - [Privia-Security/ADZero](https://github.com/Privia-Security/ADZero)
 - [Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472)
 - [rhymeswithmogul/Set-ZerologonMitigation](https://github.com/rhymeswithmogul/Set-ZerologonMitigation)
-- [shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472)
 - [maikelnight/zerologon](https://github.com/maikelnight/zerologon)
 - [CPO-EH/CVE-2020-1472_ZeroLogonChecker](https://github.com/CPO-EH/CVE-2020-1472_ZeroLogonChecker)
 - [puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472)
@@ -16064,7 +16077,6 @@
 - [MagicZer0/Weblogic_CVE-2020-2883_POC](https://github.com/MagicZer0/Weblogic_CVE-2020-2883_POC)
 - [ZZZWD/CVE-2020-2883](https://github.com/ZZZWD/CVE-2020-2883)
 - [Y4er/WebLogic-Shiro-shell](https://github.com/Y4er/WebLogic-Shiro-shell)
-- [FancyDoesSecurity/CVE-2020-2883](https://github.com/FancyDoesSecurity/CVE-2020-2883)
 - [Al1ex/CVE-2020-2883](https://github.com/Al1ex/CVE-2020-2883)
 - [Qynklee/POC_CVE-2020-2883](https://github.com/Qynklee/POC_CVE-2020-2883)
 
@@ -18321,7 +18333,6 @@
 </code>
 
 - [Langriklol/CVE-2020-15227](https://github.com/Langriklol/CVE-2020-15227)
-- [hu4wufu/CVE-2020-15227](https://github.com/hu4wufu/CVE-2020-15227)
 - [filipsedivy/CVE-2020-15227](https://github.com/filipsedivy/CVE-2020-15227)
 
 ### CVE-2020-15228 (2020-10-01)
@@ -18501,7 +18512,6 @@
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 - [corelight/CVE-2020-16898](https://github.com/corelight/CVE-2020-16898)
 - [Maliek/CVE-2020-16898_Check](https://github.com/Maliek/CVE-2020-16898_Check)
-- [ZephrFish/CVE-2020-16898](https://github.com/ZephrFish/CVE-2020-16898)
 - [esnet-security/cve-2020-16898](https://github.com/esnet-security/cve-2020-16898)
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
 - [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
@@ -19018,13 +19028,13 @@
 <code>The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020.
 </code>
 
-- [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
 - [piruprohacking/CVE-2020-25213](https://github.com/piruprohacking/CVE-2020-25213)
 - [b1ackros337/CVE-2020-25213](https://github.com/b1ackros337/CVE-2020-25213)
 - [BLY-Coder/Python-exploit-CVE-2020-25213](https://github.com/BLY-Coder/Python-exploit-CVE-2020-25213)
+- [E1tex/Python-CVE-2020-25213](https://github.com/E1tex/Python-CVE-2020-25213)
 
 ### CVE-2020-25223 (2020-09-24)
 
