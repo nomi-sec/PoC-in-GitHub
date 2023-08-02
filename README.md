@@ -8371,10 +8371,18 @@
 - [nu0l/CVE-2022-46463](https://github.com/nu0l/CVE-2022-46463)
 - [404tk/CVE-2022-46463](https://github.com/404tk/CVE-2022-46463)
 
-### CVE-2022-46484
+### CVE-2022-46484 (2023-08-02)
+
+<code>Information disclosure in password protected surveys in Data Illusion Survey Software Solutions NGSurvey v2.4.28 and below allows attackers to view the password to access and arbitrarily submit surveys.
+</code>
+
 - [WodenSec/CVE-2022-46484](https://github.com/WodenSec/CVE-2022-46484)
 
-### CVE-2022-46485
+### CVE-2022-46485 (2023-08-02)
+
+<code>Data Illusion Survey Software Solutions ngSurvey version 2.4.28 and below is vulnerable to Denial of Service if a survey contains a &quot;Text Field&quot;, &quot;Comment Field&quot; or &quot;Contact Details&quot;.
+</code>
+
 - [WodenSec/CVE-2022-46485](https://github.com/WodenSec/CVE-2022-46485)
 
 ### CVE-2022-46505 (2023-01-18)
@@ -15834,6 +15842,7 @@
 - [Privia-Security/ADZero](https://github.com/Privia-Security/ADZero)
 - [Ken-Abruzzi/cve-2020-1472](https://github.com/Ken-Abruzzi/cve-2020-1472)
 - [rhymeswithmogul/Set-ZerologonMitigation](https://github.com/rhymeswithmogul/Set-ZerologonMitigation)
+- [shanfenglan/cve-2020-1472](https://github.com/shanfenglan/cve-2020-1472)
 - [maikelnight/zerologon](https://github.com/maikelnight/zerologon)
 - [CPO-EH/CVE-2020-1472_ZeroLogonChecker](https://github.com/CPO-EH/CVE-2020-1472_ZeroLogonChecker)
 - [puckiestyle/CVE-2020-1472](https://github.com/puckiestyle/CVE-2020-1472)
@@ -16077,6 +16086,7 @@
 - [MagicZer0/Weblogic_CVE-2020-2883_POC](https://github.com/MagicZer0/Weblogic_CVE-2020-2883_POC)
 - [ZZZWD/CVE-2020-2883](https://github.com/ZZZWD/CVE-2020-2883)
 - [Y4er/WebLogic-Shiro-shell](https://github.com/Y4er/WebLogic-Shiro-shell)
+- [FancyDoesSecurity/CVE-2020-2883](https://github.com/FancyDoesSecurity/CVE-2020-2883)
 - [Al1ex/CVE-2020-2883](https://github.com/Al1ex/CVE-2020-2883)
 - [Qynklee/POC_CVE-2020-2883](https://github.com/Qynklee/POC_CVE-2020-2883)
 
@@ -18333,6 +18343,7 @@
 </code>
 
 - [Langriklol/CVE-2020-15227](https://github.com/Langriklol/CVE-2020-15227)
+- [hu4wufu/CVE-2020-15227](https://github.com/hu4wufu/CVE-2020-15227)
 - [filipsedivy/CVE-2020-15227](https://github.com/filipsedivy/CVE-2020-15227)
 
 ### CVE-2020-15228 (2020-10-01)
@@ -18512,6 +18523,7 @@
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 - [corelight/CVE-2020-16898](https://github.com/corelight/CVE-2020-16898)
 - [Maliek/CVE-2020-16898_Check](https://github.com/Maliek/CVE-2020-16898_Check)
+- [ZephrFish/CVE-2020-16898](https://github.com/ZephrFish/CVE-2020-16898)
 - [esnet-security/cve-2020-16898](https://github.com/esnet-security/cve-2020-16898)
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
 - [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
@@ -19028,6 +19040,7 @@
 <code>The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020.
 </code>
 
+- [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
@@ -32957,6 +32970,7 @@
 
 - [Jasmoon99/Embedded-PDF](https://github.com/Jasmoon99/Embedded-PDF)
 - [omarothmann/Embedded-Backdoor-Connection](https://github.com/omarothmann/Embedded-Backdoor-Connection)
+- [asepsaepdin/CVE-2010-1240](https://github.com/asepsaepdin/CVE-2010-1240)
 
 ### CVE-2010-1411 (2010-06-17)
 
