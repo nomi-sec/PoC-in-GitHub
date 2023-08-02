@@ -2131,6 +2131,7 @@
 </code>
 
 - [mouadk/CVE-2023-34035-Poc](https://github.com/mouadk/CVE-2023-34035-Poc)
+- [jzheaux/cve-2023-34035-mitigations](https://github.com/jzheaux/cve-2023-34035-mitigations)
 
 ### CVE-2023-34096 (2023-06-08)
 
@@ -9031,7 +9032,7 @@
 
 ### CVE-2021-1675 (2021-06-08)
 
-<code>Windows Print Spooler Elevation of Privilege Vulnerability
+<code>Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
 - [yu2u/CVE-2021-1675](https://github.com/yu2u/CVE-2021-1675)
@@ -9432,13 +9433,6 @@
 
 - [rafaelchriss/CVE-2021-3279](https://github.com/rafaelchriss/CVE-2021-3279)
 
-### CVE-2021-3281 (2021-02-02)
-
-<code>In Django 2.2 before 2.2.18, 3.0 before 3.0.12, and 3.1 before 3.1.6, the django.utils.archive.extract method (used by &quot;startapp --template&quot; and &quot;startproject --template&quot;) allows directory traversal via an archive with absolute paths or relative paths with dot segments.
-</code>
-
-- [lwzSoviet/CVE-2021-3281](https://github.com/lwzSoviet/CVE-2021-3281)
-
 ### CVE-2021-3291 (2021-01-26)
 
 <code>Zen Cart 1.5.7b allows admins to execute arbitrary OS commands by inspecting an HTML radio input element (within the modules edit page) and inserting a command.
@@ -9630,6 +9624,13 @@
 
 ### CVE-2021-3899
 - [liumuqing/CVE-2021-3899_PoC](https://github.com/liumuqing/CVE-2021-3899_PoC)
+
+### CVE-2021-3929 (2022-08-25)
+
+<code>A DMA reentrancy issue was found in the NVM Express Controller (NVME) emulation in QEMU. This CVE is similar to CVE-2021-3750 and, just like it, when the reentrancy write triggers the reset function nvme_ctrl_reset(), data structs will be freed leading to a use-after-free issue. A malicious guest could use this flaw to crash the QEMU process on the host, resulting in a denial of service condition or, potentially, executing arbitrary code within the context of the QEMU process on the host.
+</code>
+
+- [QiuhaoLi/CVE-2021-3929-3947](https://github.com/QiuhaoLi/CVE-2021-3929-3947)
 
 ### CVE-2021-3972 (2022-04-22)
 
@@ -11252,7 +11253,7 @@
 
 ### CVE-2021-28476 (2021-05-11)
 
-<code>Hyper-V Remote Code Execution Vulnerability
+<code>Windows Hyper-V Remote Code Execution Vulnerability
 </code>
 
 - [0vercl0k/CVE-2021-28476](https://github.com/0vercl0k/CVE-2021-28476)
@@ -12908,7 +12909,7 @@
 
 ### CVE-2021-40449 (2021-10-12)
 
-<code>Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-40450, CVE-2021-41357.
+<code>Win32k Elevation of Privilege Vulnerability
 </code>
 
 - [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
@@ -21968,7 +21969,9 @@
 
 - [dorkerdevil/CVE-2019-11932](https://github.com/dorkerdevil/CVE-2019-11932)
 - [awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932)
+- [JasonJerry/WhatsRCE](https://github.com/JasonJerry/WhatsRCE)
 - [TulungagungCyberLink/CVE-2019-11932](https://github.com/TulungagungCyberLink/CVE-2019-11932)
+- [infiniteLoopers/CVE-2019-11932](https://github.com/infiniteLoopers/CVE-2019-11932)
 - [5l1v3r1/CVE-2019-11932](https://github.com/5l1v3r1/CVE-2019-11932)
 - [valbrux/CVE-2019-11932-SupportApp](https://github.com/valbrux/CVE-2019-11932-SupportApp)
 - [fastmo/CVE-2019-11932](https://github.com/fastmo/CVE-2019-11932)
@@ -22978,6 +22981,13 @@
 </code>
 
 - [eniac888/CVE-2019-16920-MassPwn3r](https://github.com/eniac888/CVE-2019-16920-MassPwn3r)
+
+### CVE-2019-16941 (2019-09-28)
+
+<code>NSA Ghidra through 9.0.4, when experimental mode is enabled, allows arbitrary code execution if the Read XML Files feature of Bit Patterns Explorer is used with a modified XML document. This occurs in Features/BytePatterns/src/main/java/ghidra/bitpatterns/info/FileBitPatternInfoReader.java. An attack could start with an XML document that was originally created by DumpFunctionPatternInfoScript but then directly modified by an attacker (for example, to make a java.lang.Runtime.exec call).
+</code>
+
+- [purpleracc00n/CVE-2019-16941](https://github.com/purpleracc00n/CVE-2019-16941)
 
 ### CVE-2019-17026 (2020-03-01)
 
