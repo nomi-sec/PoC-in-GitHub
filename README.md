@@ -2597,7 +2597,11 @@
 - [Zenmovie/CVE-2023-38646](https://github.com/Zenmovie/CVE-2023-38646)
 - [shamo0/CVE-2023-38646-PoC](https://github.com/shamo0/CVE-2023-38646-PoC)
 
-### CVE-2023-39144
+### CVE-2023-39144 (2023-08-02)
+
+<code>Element55 KnowMore appliances version 21 and older was discovered to store passwords in plaintext.
+</code>
+
 - [cduram/CVE-2023-39144](https://github.com/cduram/CVE-2023-39144)
 
 ### CVE-2023-51504
@@ -4693,6 +4697,13 @@
 </code>
 
 - [corelight/CVE-2022-24497](https://github.com/corelight/CVE-2022-24497)
+
+### CVE-2022-24500 (2022-04-15)
+
+<code>Windows SMB Remote Code Execution Vulnerability
+</code>
+
+- [yusufazizmustofa/CVE-2022-24500](https://github.com/yusufazizmustofa/CVE-2022-24500)
 
 ### CVE-2022-24611 (2022-05-17)
 
@@ -17803,13 +17814,6 @@
 </code>
 
 - [0xsha/ZombieVPN](https://github.com/0xsha/ZombieVPN)
-
-### CVE-2020-12832 (2020-05-13)
-
-<code>WordPress Plugin Simple File List before 4.2.8 is prone to a vulnerability that lets attackers delete arbitrary files because the application fails to properly verify user-supplied input.
-</code>
-
-- [0x05010705/simplefilelist1.7](https://github.com/0x05010705/simplefilelist1.7)
 
 ### CVE-2020-12856 (2020-05-17)
 
