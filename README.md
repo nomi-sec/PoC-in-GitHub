@@ -133,6 +133,7 @@
 </code>
 
 - [hh-hunter/ml-CVE-2023-1177](https://github.com/hh-hunter/ml-CVE-2023-1177)
+- [iumiro/CVE-2023-1177-MLFlow](https://github.com/iumiro/CVE-2023-1177-MLFlow)
 
 ### CVE-2023-1337 (2023-03-10)
 
@@ -1547,6 +1548,9 @@
 
 - [paragbagul111/CVE-2023-30145](https://github.com/paragbagul111/CVE-2023-30145)
 
+### CVE-2023-30146
+- [L1-0/CVE-2023-30146](https://github.com/L1-0/CVE-2023-30146)
+
 ### CVE-2023-30185 (2023-05-07)
 
 <code>CRMEB v4.4 to v4.6 was discovered to contain an arbitrary file upload vulnerability via the component \attachment\SystemAttachmentServices.php.
@@ -2596,6 +2600,7 @@
 - [LazyySec/CVE-2023-38646](https://github.com/LazyySec/CVE-2023-38646)
 - [Zenmovie/CVE-2023-38646](https://github.com/Zenmovie/CVE-2023-38646)
 - [shamo0/CVE-2023-38646-PoC](https://github.com/shamo0/CVE-2023-38646-PoC)
+- [fidjiw/CVE-2023-38646-POC](https://github.com/fidjiw/CVE-2023-38646-POC)
 
 ### CVE-2023-39144 (2023-08-02)
 
@@ -3020,6 +3025,13 @@
 
 - [Greenwolf/CVE-2022-1175](https://github.com/Greenwolf/CVE-2022-1175)
 
+### CVE-2022-1203 (2022-05-30)
+
+<code>The Content Mask WordPress plugin before 1.8.4.1 does not have authorisation and CSRF checks in various AJAX actions, as well as does not validate the option to be updated to ensure it belongs to the plugin. As a result, any authenticated user, such as subscriber could modify arbitrary blog options
+</code>
+
+- [RandomRobbieBF/CVE-2022-1203](https://github.com/RandomRobbieBF/CVE-2022-1203)
+
 ### CVE-2022-1227 (2022-04-29)
 
 <code>A privilege escalation flaw was found in Podman. This flaw allows an attacker to publish a malicious image to a public registry. Once this image is downloaded by a potential victim, the vulnerability is triggered after a user runs the 'podman top' command. This action gives the attacker access to the host filesystem, leading to information disclosure or denial of service.
@@ -3128,6 +3140,13 @@
 
 - [nb1b3k/CVE-2022-1421](https://github.com/nb1b3k/CVE-2022-1421)
 
+### CVE-2022-1442 (2022-05-10)
+
+<code>The Metform WordPress plugin is vulnerable to sensitive information disclosure due to improper access control in the ~/core/forms/action.php file which can be exploited by an unauthenticated attacker to view all API keys and secrets of integrated third-party APIs like that of PayPal, Stripe, Mailchimp, Hubspot, HelpScout, reCAPTCHA and many more, in versions up to and including 2.1.3.
+</code>
+
+- [RandomRobbieBF/CVE-2022-1442](https://github.com/RandomRobbieBF/CVE-2022-1442)
+
 ### CVE-2022-1471 (2022-12-01)
 
 <code>SnakeYaml's Constructor() class does not restrict types which can be instantiated during deserialization. Deserializing yaml content provided by an attacker can lead to remote code execution. We recommend using SnakeYaml's SafeConsturctor when parsing untrusted content to restrict deserialization. We recommend upgrading to version 2.0 and beyond.\n
@@ -3154,7 +3173,7 @@
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
-- [0x007f/cve-2022-1609-exploit](https://github.com/0x007f/cve-2022-1609-exploit)
+- [WitchWatcher/cve-2022-1609-exploit](https://github.com/WitchWatcher/cve-2022-1609-exploit)
 
 ### CVE-2022-1679 (2022-05-16)
 
@@ -18491,6 +18510,13 @@
 </code>
 
 - [aleksejspopovs/cve-2020-16012](https://github.com/aleksejspopovs/cve-2020-16012)
+
+### CVE-2020-16125 (2020-11-09)
+
+<code>gdm3 versions before 3.36.2 or 3.38.2 would start gnome-initial-setup if gdm3 can't contact the accountservice service via dbus in a timely manner; on Ubuntu (and potentially derivatives) this could be be chained with an additional issue that could allow a local user to create a new privileged account.
+</code>
+
+- [za970120604/CVE-2020-16125-Reproduction](https://github.com/za970120604/CVE-2020-16125-Reproduction)
 
 ### CVE-2020-16126 (2020-11-10)
 
