@@ -2415,8 +2415,8 @@
 ### CVE-2023-36166
 - [TraiLeR2/CVE-2023-36166](https://github.com/TraiLeR2/CVE-2023-36166)
 
-### CVE-2023-36167
-- [TraiLeR2/CVE-2023-36167](https://github.com/TraiLeR2/CVE-2023-36167)
+### CVE-2023-36168
+- [TraiLeR2/CVE-2023-36168](https://github.com/TraiLeR2/CVE-2023-36168)
 
 ### CVE-2023-36531
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
@@ -2544,6 +2544,9 @@
 </code>
 
 - [Phamchie/CVE-2023-37786](https://github.com/Phamchie/CVE-2023-37786)
+
+### CVE-2023-37800
+- [TraiLeR2/CVE-2023-37800](https://github.com/TraiLeR2/CVE-2023-37800)
 
 ### CVE-2023-37847
 - [KingBangQ/CVE-2023-37847](https://github.com/KingBangQ/CVE-2023-37847)
