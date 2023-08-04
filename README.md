@@ -1548,7 +1548,11 @@
 
 - [paragbagul111/CVE-2023-30145](https://github.com/paragbagul111/CVE-2023-30145)
 
-### CVE-2023-30146
+### CVE-2023-30146 (2023-08-03)
+
+<code>Assmann Digitus Plug&amp;View IP Camera family allows unauthenticated attackers to download a copy of the camera's settings and the administrator credentials.
+</code>
+
 - [L1-0/CVE-2023-30146](https://github.com/L1-0/CVE-2023-30146)
 
 ### CVE-2023-30185 (2023-05-07)
@@ -2397,14 +2401,14 @@
 
 - [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
 
-### CVE-2023-36158 (-)
+### CVE-2023-36158 (2023-08-03)
 
 <code>Cross Site Scripting (XSS) vulnerability in sourcecodester Toll Tax Management System 1.0 allows remote attackers to run arbitrary code via the First Name and Last Name fields on the My Account page.
 </code>
 
 - [unknown00759/CVE-2023-36158](https://github.com/unknown00759/CVE-2023-36158)
 
-### CVE-2023-36159 (-)
+### CVE-2023-36159 (2023-08-03)
 
 <code>Cross Site Scripting (XSS) vulnerability in sourcecodester Lost and Found Information System 1.0 allows remote attackers to run arbitrary code via the First Name, Middle Name and Last Name fields on the Create User page.
 </code>
@@ -3256,7 +3260,7 @@
 <code>The vulnerability in the driver dlpfde.sys enables a user logged into the system to perform system calls leading to kernel stack overflow, resulting in a system crash, for instance, a BSOD.
 </code>
 
-- [SecurityAndStuff/CVE-2022-2402](https://github.com/SecurityAndStuff/CVE-2022-2402)
+- [securityandstuff/CVE-2022-2402](https://github.com/securityandstuff/CVE-2022-2402)
 
 ### CVE-2022-2414 (2022-07-29)
 
@@ -11563,6 +11567,7 @@
 <code>Out of bounds write in V8 in Google Chrome prior to 93.0.4577.82 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 </code>
 
+- [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
 - [CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632)
 - [maldev866/ChExp_CVE-2021-30632](https://github.com/maldev866/ChExp_CVE-2021-30632)
 
@@ -11766,6 +11771,7 @@
 - [aeyesec/CVE-2021-31805](https://github.com/aeyesec/CVE-2021-31805)
 - [fleabane1/CVE-2021-31805-POC](https://github.com/fleabane1/CVE-2021-31805-POC)
 - [z92g/CVE-2021-31805](https://github.com/z92g/CVE-2021-31805)
+- [nth347/CVE-2021-31805](https://github.com/nth347/CVE-2021-31805)
 
 ### CVE-2021-31856 (2021-04-28)
 
@@ -18735,6 +18741,7 @@
 - [uzzzval/CVE-2020-17530](https://github.com/uzzzval/CVE-2020-17530)
 - [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
 - [keyuan15/CVE-2020-17530](https://github.com/keyuan15/CVE-2020-17530)
+- [nth347/CVE-2020-17530](https://github.com/nth347/CVE-2020-17530)
 
 ### CVE-2020-17531 (2020-12-08)
 
@@ -30513,6 +30520,7 @@
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
@@ -31394,7 +31402,6 @@
 - [OffensivePython/HeartLeak](https://github.com/OffensivePython/HeartLeak)
 - [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
-- [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
 - [iSCInc/heartbleed](https://github.com/iSCInc/heartbleed)
 - [marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang)
 - [hmlio/vaas-cve-2014-0160](https://github.com/hmlio/vaas-cve-2014-0160)
@@ -31468,9 +31475,6 @@
 </code>
 
 - [Charmve/PyStegosploit](https://github.com/Charmve/PyStegosploit)
-
-### CVE-2014-0291
-- [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
 
 ### CVE-2014-0472 (2014-04-23)
 
@@ -31705,13 +31709,6 @@
 
 - [vnik5287/cve-2014-4014-privesc](https://github.com/vnik5287/cve-2014-4014-privesc)
 
-### CVE-2014-4076 (2014-11-11)
-
-<code>Microsoft Windows Server 2003 SP2 allows local users to gain privileges via a crafted IOCTL call to (1) tcpip.sys or (2) tcpip6.sys, aka &quot;TCP/IP Elevation of Privilege Vulnerability.&quot;
-</code>
-
-- [fungoshacks/CVE-2014-4076](https://github.com/fungoshacks/CVE-2014-4076)
-
 ### CVE-2014-4109 (2014-09-09)
 
 <code>Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-2799, CVE-2014-4059, CVE-2014-4065, CVE-2014-4079, CVE-2014-4081, CVE-2014-4083, CVE-2014-4085, CVE-2014-4088, CVE-2014-4090, CVE-2014-4094, CVE-2014-4097, CVE-2014-4100, CVE-2014-4103, CVE-2014-4104, CVE-2014-4105, CVE-2014-4106, CVE-2014-4107, CVE-2014-4108, CVE-2014-4110, and CVE-2014-4111.
@@ -31746,9 +31743,6 @@
 - [unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC](https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC)
 - [NHPT/WebLogic-SSRF_CVE-2014-4210](https://github.com/NHPT/WebLogic-SSRF_CVE-2014-4210)
 
-### CVE-2014-4321
-- [android-rooting-tools/libmsm_vfe_read_exploit](https://github.com/android-rooting-tools/libmsm_vfe_read_exploit)
-
 ### CVE-2014-4322 (2014-12-24)
 
 <code>drivers/misc/qseecom.c in the QSEECOM driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, does not validate certain offset, length, and base values within an ioctl call, which allows attackers to gain privileges or cause a denial of service (memory corruption) via a crafted application.
@@ -31756,7 +31750,6 @@
 
 - [retme7/CVE-2014-4322_poc](https://github.com/retme7/CVE-2014-4322_poc)
 - [laginimaineb/cve-2014-4322](https://github.com/laginimaineb/cve-2014-4322)
-- [askk/CVE-2014-4322_adaptation](https://github.com/askk/CVE-2014-4322_adaptation)
 - [koozxcv/CVE-2014-4322](https://github.com/koozxcv/CVE-2014-4322)
 
 ### CVE-2014-4323 (2014-12-12)
@@ -31880,7 +31873,6 @@
 - [renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock)
 - [indiandragon/Shellshock-Vulnerability-Scan](https://github.com/indiandragon/Shellshock-Vulnerability-Scan)
 - [ramnes/pyshellshock](https://github.com/ramnes/pyshellshock)
-- [akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python)
 - [352926/shellshock_crawler](https://github.com/352926/shellshock_crawler)
 - [kelleykong/cve-2014-6271-mengjia-kong](https://github.com/kelleykong/cve-2014-6271-mengjia-kong)
 - [huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu)
@@ -31946,13 +31938,6 @@
 </code>
 
 - [SecurityArtWork/oracle-xxe-sqli](https://github.com/SecurityArtWork/oracle-xxe-sqli)
-
-### CVE-2014-6598 (2015-01-21)
-
-<code>Unspecified vulnerability in the Oracle Communications Diameter Signaling Router component in Oracle Communications Applications 3.x, 4.x, and 5.0 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Signaling - DPI.
-</code>
-
-- [KPN-CISO/DRA_writeup](https://github.com/KPN-CISO/DRA_writeup)
 
 ### CVE-2014-7169 (2014-09-24)
 
@@ -32026,7 +32011,6 @@
 <code>The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824.
 </code>
 
-- [locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609)
 - [MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC)
 - [ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit)
 
@@ -32046,13 +32030,6 @@
 </code>
 
 - [sbani/CVE-2014-8731-PoC](https://github.com/sbani/CVE-2014-8731-PoC)
-
-### CVE-2014-8757 (2015-02-17)
-
-<code>LG On-Screen Phone (OSP) before 4.3.010 allows remote attackers to bypass authorization via a crafted request.
-</code>
-
-- [irsl/lgosp-poc](https://github.com/irsl/lgosp-poc)
 
 ### CVE-2014-9016 (2014-11-24)
 
@@ -32282,6 +32259,13 @@
 </code>
 
 - [Osirium/suds](https://github.com/Osirium/suds)
+
+### CVE-2013-2251 (2013-07-17)
+
+<code>Apache Struts 2.0.0 through 2.3.15 allows remote attackers to execute arbitrary OGNL expressions via a parameter with a crafted (1) action:, (2) redirect:, or (3) redirectAction: prefix.
+</code>
+
+- [nth347/CVE-2013-2251](https://github.com/nth347/CVE-2013-2251)
 
 ### CVE-2013-2595 (2014-08-31)
 
@@ -33780,7 +33764,6 @@
 <code>Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execute arbitrary code via (1) a long EHLO argument to slmail.exe, (2) a long XTRN argument to slmail.exe, (3) a long string to POPPASSWD, or (4) a long password to the POP3 server.
 </code>
 
-- [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
