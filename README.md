@@ -1181,6 +1181,7 @@
 - [adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350)
 - [Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350)
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
+- [getdrive/PaperCut](https://github.com/getdrive/PaperCut)
 
 ### CVE-2023-27363
 - [webraybtl/CVE-2023-27363](https://github.com/webraybtl/CVE-2023-27363)
@@ -2323,6 +2324,7 @@
 - [LazyySec/CVE-2023-35078](https://github.com/LazyySec/CVE-2023-35078)
 - [synfinner/CVE-2023-35078](https://github.com/synfinner/CVE-2023-35078)
 - [emanueldosreis/nmap-CVE-2023-35078-Exploit](https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit)
+- [getdrive/CVE-2023-35078](https://github.com/getdrive/CVE-2023-35078)
 
 ### CVE-2023-35086 (2023-07-21)
 
@@ -2574,6 +2576,7 @@
 
 - [Fire-Null/CVE-2023-37979](https://github.com/Fire-Null/CVE-2023-37979)
 - [Mehran-Seifalinia/CVE-2023-37979](https://github.com/Mehran-Seifalinia/CVE-2023-37979)
+- [d0rb/CVE-2023-37979](https://github.com/d0rb/CVE-2023-37979)
 
 ### CVE-2023-38408 (2023-07-19)
 
@@ -23799,7 +23802,6 @@
 <code>A vulnerability in the Secure Sockets Layer (SSL) VPN functionality of the Cisco Adaptive Security Appliance (ASA) Software could allow an unauthenticated, remote attacker to cause a reload of the affected system or to remotely execute code. The vulnerability is due to an attempt to double free a region of memory when the webvpn feature is enabled on the Cisco ASA device. An attacker could exploit this vulnerability by sending multiple, crafted XML packets to a webvpn-configured interface on the affected system. An exploit could allow the attacker to execute arbitrary code and obtain full control of the system, or cause a reload of the affected device. This vulnerability affects Cisco ASA Software that is running on the following Cisco products: 3000 Series Industrial Security Appliance (ISA), ASA 5500 Series Adaptive Security Appliances, ASA 5500-X Series Next-Generation Firewalls, ASA Services Module for Cisco Catalyst 6500 Series Switches and Cisco 7600 Series Routers, ASA 1000V Cloud Firewall, Adaptive Security Virtual Appliance (ASAv), Firepower 2100 Series Security Appliance, Firepower 4110 Security Appliance, Firepower 9300 ASA Security Module, Firepower Threat Defense Software (FTD). Cisco Bug IDs: CSCvg35618.
 </code>
 
-- [1337g/CVE-2018-0101-DOS-POC](https://github.com/1337g/CVE-2018-0101-DOS-POC)
 - [Cymmetria/ciscoasa_honeypot](https://github.com/Cymmetria/ciscoasa_honeypot)
 
 ### CVE-2018-0114 (2018-01-04)
@@ -24155,7 +24157,6 @@
 <code>Vulnerability in the Oracle Hospitality Simphony component of Oracle Hospitality Applications (subcomponent: Security). Supported versions that are affected are 2.7, 2.8 and 2.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hospitality Simphony. Successful attacks of this vulnerability can result in takeover of Oracle Hospitality Simphony. CVSS 3.0 Base Score 8.1 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [erpscanteam/CVE-2018-2636](https://github.com/erpscanteam/CVE-2018-2636)
 - [Cymmetria/micros_honeypot](https://github.com/Cymmetria/micros_honeypot)
 
 ### CVE-2018-2844 (2018-04-18)
@@ -24236,13 +24237,6 @@
 
 - [ndureiss/e1000_vulnerability_exploit](https://github.com/ndureiss/e1000_vulnerability_exploit)
 - [vhok74/cve-2018-3295](https://github.com/vhok74/cve-2018-3295)
-
-### CVE-2018-3608 (2018-07-06)
-
-<code>A vulnerability in Trend Micro Maximum Security's (Consumer) 2018 (versions 12.0.1191 and below) User-Mode Hooking (UMH) driver could allow an attacker to create a specially crafted packet that could alter a vulnerable system in such a way that malicious code could be injected into other processes.
-</code>
-
-- [gguaiker/Trend_Micro_POC](https://github.com/gguaiker/Trend_Micro_POC)
 
 ### CVE-2018-3639 (2018-05-22)
 
@@ -24422,13 +24416,6 @@
 
 - [omerporze/toothfairy](https://github.com/omerporze/toothfairy)
 
-### CVE-2018-4331 (2019-04-03)
-
-<code>A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12, macOS Mojave 10.14, tvOS 12, watchOS 5.
-</code>
-
-- [bazad/gsscred-race](https://github.com/bazad/gsscred-race)
-
 ### CVE-2018-4343 (2019-04-03)
 
 <code>A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12, macOS Mojave 10.14, tvOS 12, watchOS 5.
@@ -24556,7 +24543,6 @@
 <code>gd_gif_in.c in the GD Graphics Library (aka libgd), as used in PHP before 5.6.33, 7.0.x before 7.0.27, 7.1.x before 7.1.13, and 7.2.x before 7.2.1, has an integer signedness error that leads to an infinite loop via a crafted GIF file, as demonstrated by a call to the imagecreatefromgif or imagecreatefromstring PHP function. This is related to GetCode_ and gdImageCreateFromGifCtx.
 </code>
 
-- [huzhenghui/Test-7-2-0-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-0-PHP-CVE-2018-5711)
 - [huzhenghui/Test-7-2-1-PHP-CVE-2018-5711](https://github.com/huzhenghui/Test-7-2-1-PHP-CVE-2018-5711)
 
 ### CVE-2018-5728 (2018-01-16)
@@ -24634,10 +24620,6 @@
 <code>In WordPress through 4.9.2, unauthenticated attackers can cause a denial of service (resource consumption) by using the large list of registered .js files (from wp-includes/script-loader.php) to construct a series of requests to load every file many times.
 </code>
 
-- [yolabingo/wordpress-fix-cve-2018-6389](https://github.com/yolabingo/wordpress-fix-cve-2018-6389)
-- [WazeHell/CVE-2018-6389](https://github.com/WazeHell/CVE-2018-6389)
-- [rastating/modsecurity-cve-2018-6389](https://github.com/rastating/modsecurity-cve-2018-6389)
-- [knqyf263/CVE-2018-6389](https://github.com/knqyf263/CVE-2018-6389)
 - [JulienGadanho/cve-2018-6389-php-patcher](https://github.com/JulienGadanho/cve-2018-6389-php-patcher)
 - [dsfau/wordpress-CVE-2018-6389](https://github.com/dsfau/wordpress-CVE-2018-6389)
 - [Jetserver/CVE-2018-6389-FIX](https://github.com/Jetserver/CVE-2018-6389-FIX)
@@ -24663,19 +24645,11 @@
 
 - [JavierOlmedo/joomla-cve-2018-6396](https://github.com/JavierOlmedo/joomla-cve-2018-6396)
 
-### CVE-2018-6407 (2018-01-30)
-
-<code>An issue was discovered on Conceptronic CIPCAMPTIWL V3 0.61.30.21 devices. An unauthenticated attacker can crash a device by sending a POST request with a huge body size to /hy-cgi/devices.cgi?cmd=searchlandevice. The crash completely freezes the device.
-</code>
-
-- [dreadlocked/ConceptronicIPCam_MultipleVulnerabilities](https://github.com/dreadlocked/ConceptronicIPCam_MultipleVulnerabilities)
-
 ### CVE-2018-6479 (2018-01-31)
 
 <code>An issue was discovered on Netwave IP Camera devices. An unauthenticated attacker can crash a device by sending a POST request with a huge body size to the / URI.
 </code>
 
-- [dreadlocked/netwave-dosvulnerability](https://github.com/dreadlocked/netwave-dosvulnerability)
 - [LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479](https://github.com/LeQuocKhanh2K/Tool_Camera_Exploit_Netwave_CVE-2018-6479)
 
 ### CVE-2018-6518 (2018-04-26)
@@ -30520,7 +30494,6 @@
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
-- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
@@ -31402,6 +31375,7 @@
 - [OffensivePython/HeartLeak](https://github.com/OffensivePython/HeartLeak)
 - [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
+- [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
 - [iSCInc/heartbleed](https://github.com/iSCInc/heartbleed)
 - [marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang)
 - [hmlio/vaas-cve-2014-0160](https://github.com/hmlio/vaas-cve-2014-0160)
@@ -31475,6 +31449,9 @@
 </code>
 
 - [Charmve/PyStegosploit](https://github.com/Charmve/PyStegosploit)
+
+### CVE-2014-0291
+- [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
 
 ### CVE-2014-0472 (2014-04-23)
 
@@ -31709,6 +31686,13 @@
 
 - [vnik5287/cve-2014-4014-privesc](https://github.com/vnik5287/cve-2014-4014-privesc)
 
+### CVE-2014-4076 (2014-11-11)
+
+<code>Microsoft Windows Server 2003 SP2 allows local users to gain privileges via a crafted IOCTL call to (1) tcpip.sys or (2) tcpip6.sys, aka &quot;TCP/IP Elevation of Privilege Vulnerability.&quot;
+</code>
+
+- [fungoshacks/CVE-2014-4076](https://github.com/fungoshacks/CVE-2014-4076)
+
 ### CVE-2014-4109 (2014-09-09)
 
 <code>Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-2799, CVE-2014-4059, CVE-2014-4065, CVE-2014-4079, CVE-2014-4081, CVE-2014-4083, CVE-2014-4085, CVE-2014-4088, CVE-2014-4090, CVE-2014-4094, CVE-2014-4097, CVE-2014-4100, CVE-2014-4103, CVE-2014-4104, CVE-2014-4105, CVE-2014-4106, CVE-2014-4107, CVE-2014-4108, CVE-2014-4110, and CVE-2014-4111.
@@ -31743,6 +31727,9 @@
 - [unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC](https://github.com/unmanarc/CVE-2014-4210-SSRF-PORTSCANNER-POC)
 - [NHPT/WebLogic-SSRF_CVE-2014-4210](https://github.com/NHPT/WebLogic-SSRF_CVE-2014-4210)
 
+### CVE-2014-4321
+- [android-rooting-tools/libmsm_vfe_read_exploit](https://github.com/android-rooting-tools/libmsm_vfe_read_exploit)
+
 ### CVE-2014-4322 (2014-12-24)
 
 <code>drivers/misc/qseecom.c in the QSEECOM driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, does not validate certain offset, length, and base values within an ioctl call, which allows attackers to gain privileges or cause a denial of service (memory corruption) via a crafted application.
@@ -31750,6 +31737,7 @@
 
 - [retme7/CVE-2014-4322_poc](https://github.com/retme7/CVE-2014-4322_poc)
 - [laginimaineb/cve-2014-4322](https://github.com/laginimaineb/cve-2014-4322)
+- [askk/CVE-2014-4322_adaptation](https://github.com/askk/CVE-2014-4322_adaptation)
 - [koozxcv/CVE-2014-4322](https://github.com/koozxcv/CVE-2014-4322)
 
 ### CVE-2014-4323 (2014-12-12)
@@ -31873,6 +31861,7 @@
 - [renanvicente/puppet-shellshock](https://github.com/renanvicente/puppet-shellshock)
 - [indiandragon/Shellshock-Vulnerability-Scan](https://github.com/indiandragon/Shellshock-Vulnerability-Scan)
 - [ramnes/pyshellshock](https://github.com/ramnes/pyshellshock)
+- [akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python)
 - [352926/shellshock_crawler](https://github.com/352926/shellshock_crawler)
 - [kelleykong/cve-2014-6271-mengjia-kong](https://github.com/kelleykong/cve-2014-6271-mengjia-kong)
 - [huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu)
@@ -31938,6 +31927,13 @@
 </code>
 
 - [SecurityArtWork/oracle-xxe-sqli](https://github.com/SecurityArtWork/oracle-xxe-sqli)
+
+### CVE-2014-6598 (2015-01-21)
+
+<code>Unspecified vulnerability in the Oracle Communications Diameter Signaling Router component in Oracle Communications Applications 3.x, 4.x, and 5.0 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to Signaling - DPI.
+</code>
+
+- [KPN-CISO/DRA_writeup](https://github.com/KPN-CISO/DRA_writeup)
 
 ### CVE-2014-7169 (2014-09-24)
 
@@ -32011,6 +32007,7 @@
 <code>The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824.
 </code>
 
+- [locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609)
 - [MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC)
 - [ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit)
 
@@ -32030,6 +32027,13 @@
 </code>
 
 - [sbani/CVE-2014-8731-PoC](https://github.com/sbani/CVE-2014-8731-PoC)
+
+### CVE-2014-8757 (2015-02-17)
+
+<code>LG On-Screen Phone (OSP) before 4.3.010 allows remote attackers to bypass authorization via a crafted request.
+</code>
+
+- [irsl/lgosp-poc](https://github.com/irsl/lgosp-poc)
 
 ### CVE-2014-9016 (2014-11-24)
 
@@ -33764,6 +33768,7 @@
 <code>Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execute arbitrary code via (1) a long EHLO argument to slmail.exe, (2) a long XTRN argument to slmail.exe, (3) a long string to POPPASSWD, or (4) a long password to the POP3 server.
 </code>
 
+- [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
