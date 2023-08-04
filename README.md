@@ -2397,10 +2397,18 @@
 
 - [leonardobg/CVE-2023-36146](https://github.com/leonardobg/CVE-2023-36146)
 
-### CVE-2023-36158
+### CVE-2023-36158 (-)
+
+<code>Cross Site Scripting (XSS) vulnerability in sourcecodester Toll Tax Management System 1.0 allows remote attackers to run arbitrary code via the First Name and Last Name fields on the My Account page.
+</code>
+
 - [unknown00759/CVE-2023-36158](https://github.com/unknown00759/CVE-2023-36158)
 
-### CVE-2023-36159
+### CVE-2023-36159 (-)
+
+<code>Cross Site Scripting (XSS) vulnerability in sourcecodester Lost and Found Information System 1.0 allows remote attackers to run arbitrary code via the First Name, Middle Name and Last Name fields on the Create User page.
+</code>
+
 - [unknown00759/CVE-2023-36159](https://github.com/unknown00759/CVE-2023-36159)
 
 ### CVE-2023-36163 (2023-07-11)
@@ -12224,7 +12232,7 @@
 
 ### CVE-2021-35250 (2022-04-25)
 
-<code>A researcher reported a Directory Transversal Vulnerability in Serv-U 15.3. This may allow access to files relating to the Serv-U installation and server files. This issue has been resolved in Serv-U 15.3 Hotfix 1.
+<code>A researcher reported a Directory Transversal Vulnerability in Serv-U 15.3. This may allow access to files relating to the Serv-U installation and server files. This issue has been resolved in Serv-U 15.3 Hotfix 1.\n\n
 </code>
 
 - [rissor41/SolarWinds-CVE-2021-35250](https://github.com/rissor41/SolarWinds-CVE-2021-35250)
@@ -30505,7 +30513,6 @@
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
-- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
