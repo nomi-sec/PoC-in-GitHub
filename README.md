@@ -323,6 +323,7 @@
 - [RandomRobbieBF/CVE-2023-2732](https://github.com/RandomRobbieBF/CVE-2023-2732)
 - [domainhigh/CVE-2023-2732-Mass](https://github.com/domainhigh/CVE-2023-2732-Mass)
 - [Jenderal92/WP-CVE-2023-2732](https://github.com/Jenderal92/WP-CVE-2023-2732)
+- [Pari-Malam/CVE-2023-2732](https://github.com/Pari-Malam/CVE-2023-2732)
 
 ### CVE-2023-2822 (2023-05-20)
 
@@ -1168,6 +1169,7 @@
 - [overgrowncarrot1/CVE-2023-27163](https://github.com/overgrowncarrot1/CVE-2023-27163)
 - [ThickCoco/CVE-2023-27163-POC](https://github.com/ThickCoco/CVE-2023-27163-POC)
 - [davuXVI/CVE-2023-27163](https://github.com/davuXVI/CVE-2023-27163)
+- [HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53](https://github.com/HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -24836,6 +24838,7 @@
 - [beraphin/CVE-2018-6789](https://github.com/beraphin/CVE-2018-6789)
 - [synacktiv/Exim-CVE-2018-6789](https://github.com/synacktiv/Exim-CVE-2018-6789)
 - [martinclauss/exim-rce-cve-2018-6789](https://github.com/martinclauss/exim-rce-cve-2018-6789)
+- [thistehneisen/CVE-2018-6789-Python3](https://github.com/thistehneisen/CVE-2018-6789-Python3)
 
 ### CVE-2018-6791 (2018-02-06)
 
@@ -32417,6 +32420,13 @@
 
 - [lagartojuancho/CVE-2013-3664_MAC](https://github.com/lagartojuancho/CVE-2013-3664_MAC)
 - [lagartojuancho/CVE-2013-3664_BMP](https://github.com/lagartojuancho/CVE-2013-3664_BMP)
+
+### CVE-2013-3827 (2013-10-16)
+
+<code>Unspecified vulnerability in the Oracle GlassFish Server component in Oracle Fusion Middleware 2.1.1, 3.0.1, and 3.1.2; the Oracle JDeveloper component in Oracle Fusion Middleware 11.1.2.3.0, 11.1.2.4.0, and 12.1.2.0.0; and the Oracle WebLogic Server component in Oracle Fusion Middleware 10.3.6.0 and 12.1.1 allows remote attackers to affect confidentiality via unknown vectors related to Java Server Faces or Web Container.
+</code>
+
+- [thistehneisen/CVE-2013-3827](https://github.com/thistehneisen/CVE-2013-3827)
 
 ### CVE-2013-3900 (2013-12-10)
 
