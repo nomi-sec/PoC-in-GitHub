@@ -444,6 +444,7 @@
 - [BishopFox/CVE-2023-3519](https://github.com/BishopFox/CVE-2023-3519)
 - [SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519)
 - [KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519)
+- [passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519)
 
 ### CVE-2023-3640 (2023-07-24)
 
