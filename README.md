@@ -68,7 +68,6 @@
 </code>
 
 - [hshivhare67/kernel_v4.19.72_CVE-2023-0461](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0461)
-- [hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd](https://github.com/hheeyywweellccoommee/linux-4.19.72_CVE-2023-0461-ycnbd)
 
 ### CVE-2023-0464 (2023-03-22)
 
@@ -341,7 +340,6 @@
 - [yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825)
 - [Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab)
 - [EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825)
-- [hheeyywweellccoommee/CVE-2023-2825-zaskh](https://github.com/hheeyywweellccoommee/CVE-2023-2825-zaskh)
 
 ### CVE-2023-2833 (2023-06-06)
 
@@ -362,7 +360,6 @@
 <code>A remote command injection vulnerability exists in the Barracuda Email Security Gateway (appliance form factor only) product effecting versions 5.1.3.001-9.2.0.006. The vulnerability arises out of a failure to comprehensively sanitize the processing of .tar file (tape archives). The vulnerability stems from incomplete input validation of a user-supplied .tar file as it pertains to the names of the files contained within the archive. As a consequence, a remote attacker can specifically format these file names in a particular manner that will result in remotely executing a system command through Perl's qx operator with the privileges of the Email Security Gateway product. This issue was fixed as part of BNSF-36456 patch. This patch was automatically applied to all customer appliances.
 </code>
 
-- [hheeyywweellccoommee/CVE-2023-2868-lchvp](https://github.com/hheeyywweellccoommee/CVE-2023-2868-lchvp)
 - [cfielding-r7/poc-cve-2023-2868](https://github.com/cfielding-r7/poc-cve-2023-2868)
 - [cashapp323232/CVE-2023-2868CVE-2023-2868](https://github.com/cashapp323232/CVE-2023-2868CVE-2023-2868)
 
@@ -381,7 +378,6 @@
 - [RandomRobbieBF/CVE-2023-2982](https://github.com/RandomRobbieBF/CVE-2023-2982)
 - [H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC)
 - [LoaiEsam37/CVE-2023-2982](https://github.com/LoaiEsam37/CVE-2023-2982)
-- [hheeyywweellccoommee/CVE-2023-2982-ugdqh](https://github.com/hheeyywweellccoommee/CVE-2023-2982-ugdqh)
 
 ### CVE-2023-2986 (2023-06-07)
 
@@ -427,7 +423,6 @@
 - [gbrsh/CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460)
 - [rizqimaulanaa/CVE-2023-3460](https://github.com/rizqimaulanaa/CVE-2023-3460)
 - [yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460)
-- [hheeyywweellccoommee/CVE-2023-3460-obgen](https://github.com/hheeyywweellccoommee/CVE-2023-3460-obgen)
 - [Fire-Null/CVE-2023-3460](https://github.com/Fire-Null/CVE-2023-3460)
 - [diego-tella/CVE-2023-3460](https://github.com/diego-tella/CVE-2023-3460)
 - [Rajneeshkarya/CVE-2023-3460](https://github.com/Rajneeshkarya/CVE-2023-3460)
@@ -453,9 +448,6 @@
 </code>
 
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
-
-### CVE-2023-10608
-- [hheeyywweellccoommee/cve-2023-10608-PoC-ywawk](https://github.com/hheeyywweellccoommee/cve-2023-10608-PoC-ywawk)
 
 ### CVE-2023-20052 (2023-03-01)
 
@@ -499,13 +491,6 @@
 </code>
 
 - [limo520/CVE-2023-20860](https://github.com/limo520/CVE-2023-20860)
-
-### CVE-2023-20871 (2023-04-25)
-
-<code>VMware Fusion contains a local privilege escalation vulnerability. A malicious actor with read/write access to the host operating system can elevate privileges to gain root access to the host operating system.
-</code>
-
-- [hheeyywweellccoommee/CVE-2023-20871-poc-jbwbi](https://github.com/hheeyywweellccoommee/CVE-2023-20871-poc-jbwbi)
 
 ### CVE-2023-20887 (2023-06-07)
 
@@ -1076,7 +1061,6 @@
 </code>
 
 - [mdsecactivebreach/CVE-2023-26258-ArcServe](https://github.com/mdsecactivebreach/CVE-2023-26258-ArcServe)
-- [hheeyywweellccoommee/CVE-2023-26258-lbalq](https://github.com/hheeyywweellccoommee/CVE-2023-26258-lbalq)
 
 ### CVE-2023-26262 (2023-03-14)
 
@@ -1196,7 +1180,6 @@
 - [adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350)
 - [Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350)
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
-- [getdrive/PaperCut](https://github.com/getdrive/PaperCut)
 
 ### CVE-2023-27363
 - [webraybtl/CVE-2023-27363](https://github.com/webraybtl/CVE-2023-27363)
@@ -1287,13 +1270,11 @@
 <code>A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and below and FortiProxy version 7.2.3 and below, version 7.0.9 and below, version 2.0.12 and below, version 1.2 all versions, version 1.1 all versions SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.
 </code>
 
-- [hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz](https://github.com/hheeyywweellccoommee/CVE-2023-27997-POC-FortiOS-SSL-VPN-buffer-overflow-vulnerability-ssijz)
 - [Pik-sec/cve-2023-27997](https://github.com/Pik-sec/cve-2023-27997)
 - [rio128128/CVE-2023-27997-POC](https://github.com/rio128128/CVE-2023-27997-POC)
 - [BishopFox/CVE-2023-27997-check](https://github.com/BishopFox/CVE-2023-27997-check)
 - [imbas007/CVE-2023-27997-Check](https://github.com/imbas007/CVE-2023-27997-Check)
 - [puckiestyle/cve-2023-27997](https://github.com/puckiestyle/cve-2023-27997)
-- [hheeyywweellccoommee/CVE-2023-27997-test-nleyl](https://github.com/hheeyywweellccoommee/CVE-2023-27997-test-nleyl)
 - [TechinsightsPro/ShodanFortiOS](https://github.com/TechinsightsPro/ShodanFortiOS)
 
 ### CVE-2023-28121 (2023-04-12)
@@ -1335,8 +1316,6 @@
 </code>
 
 - [fortra/CVE-2023-28252](https://github.com/fortra/CVE-2023-28252)
-- [hheeyywweellccoommee/CVE-2023-28252-vseik](https://github.com/hheeyywweellccoommee/CVE-2023-28252-vseik)
-- [hheeyywweellccoommee/CVE-2023-28252-djtiu](https://github.com/hheeyywweellccoommee/CVE-2023-28252-djtiu)
 
 ### CVE-2023-28310 (2023-06-14)
 
@@ -1406,7 +1385,6 @@
 <code>An issue was discovered in the Linux kernel before 5.13.3. lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow.
 </code>
 
-- [hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu](https://github.com/hheeyywweellccoommee/linux-4.1.15_CVE-2023-28772-ipchu)
 - [Trinadh465/linux-4.1.15_CVE-2023-28772](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-28772)
 - [Satheesh575555/linux-4.1.15_CVE-2023-28772](https://github.com/Satheesh575555/linux-4.1.15_CVE-2023-28772)
 - [hshivhare67/kernel_v4.1.15_CVE-2023-28772](https://github.com/hshivhare67/kernel_v4.1.15_CVE-2023-28772)
@@ -1595,7 +1573,6 @@
 - [libas7994/Exploit-the-CVE-2023-30212-vulnerability](https://github.com/libas7994/Exploit-the-CVE-2023-30212-vulnerability)
 - [libasv/Exploite-CVE-2023-30212-vulnerability](https://github.com/libasv/Exploite-CVE-2023-30212-vulnerability)
 - [kai-iszz/CVE-2023-30212](https://github.com/kai-iszz/CVE-2023-30212)
-- [hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb](https://github.com/hheeyywweellccoommee/CVE-2023-30212-Vulnerable-Lab-xjghb)
 - [MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability](https://github.com/MaThEw-ViNcEnT/CVE-2023-30212-OURPHP-Vulnerability)
 - [arunsnap/CVE-2023-30212-POC](https://github.com/arunsnap/CVE-2023-30212-POC)
 - [VisDev23/Vulnerable-Docker-CVE-2023-30212](https://github.com/VisDev23/Vulnerable-Docker-CVE-2023-30212)
@@ -1679,13 +1656,6 @@
 </code>
 
 - [jmrcsnchz/CVE-2023-30854](https://github.com/jmrcsnchz/CVE-2023-30854)
-
-### CVE-2023-31047 (2023-05-06)
-
-<code>In Django 3.2 before 3.2.19, 4.x before 4.1.9, and 4.2 before 4.2.1, it was possible to bypass validation when using one form field to upload multiple files. This multiple upload has never been supported by forms.FileField or forms.ImageField (only the last uploaded file was validated). However, Django's &quot;Uploading multiple files&quot; documentation suggested otherwise.
-</code>
-
-- [hheeyywweellccoommee/Django_rce-nwvba](https://github.com/hheeyywweellccoommee/Django_rce-nwvba)
 
 ### CVE-2023-31070
 - [bugprove/cve-2023-31070](https://github.com/bugprove/cve-2023-31070)
@@ -1895,7 +1865,6 @@
 - [RandomRobbieBF/CVE-2023-32243](https://github.com/RandomRobbieBF/CVE-2023-32243)
 - [manavvedawala2/CVE-2023-32243-POC](https://github.com/manavvedawala2/CVE-2023-32243-POC)
 - [manavvedawala2/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala2/CVE-2023-32243-proof-of-concept)
-- [hheeyywweellccoommee/Mass-CVE-2023-32243-kcpqa](https://github.com/hheeyywweellccoommee/Mass-CVE-2023-32243-kcpqa)
 - [YouGina/CVE-2023-32243](https://github.com/YouGina/CVE-2023-32243)
 - [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
@@ -1973,9 +1942,7 @@
 - [Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT](https://github.com/Malayke/CVE-2023-33246_RocketMQ_RCE_EXPLOIT)
 - [CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246)
 - [cr1me0/rocketMq_RCE](https://github.com/cr1me0/rocketMq_RCE)
-- [hheeyywweellccoommee/CVE-2023-33246-rnkku](https://github.com/hheeyywweellccoommee/CVE-2023-33246-rnkku)
 - [Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246)
-- [hheeyywweellccoommee/CVE-2023-33246-dgjfd](https://github.com/hheeyywweellccoommee/CVE-2023-33246-dgjfd)
 
 ### CVE-2023-33253 (2023-06-12)
 
@@ -2074,7 +2041,6 @@
 </code>
 
 - [tucommenceapousser/CVE-2023-33617](https://github.com/tucommenceapousser/CVE-2023-33617)
-- [hheeyywweellccoommee/CVE-2023-33617-hugnc](https://github.com/hheeyywweellccoommee/CVE-2023-33617-hugnc)
 
 ### CVE-2023-33668 (2023-07-12)
 
@@ -2190,10 +2156,8 @@
 </code>
 
 - [deepinstinct/MOVEit_CVE-2023-34362_IOCs](https://github.com/deepinstinct/MOVEit_CVE-2023-34362_IOCs)
-- [hheeyywweellccoommee/CVE-2023-34362-nhjxn](https://github.com/hheeyywweellccoommee/CVE-2023-34362-nhjxn)
 - [horizon3ai/CVE-2023-34362](https://github.com/horizon3ai/CVE-2023-34362)
 - [sfewer-r7/CVE-2023-34362](https://github.com/sfewer-r7/CVE-2023-34362)
-- [hheeyywweellccoommee/CVE-2023-34362-zcial](https://github.com/hheeyywweellccoommee/CVE-2023-34362-zcial)
 - [kenbuckler/MOVEit-CVE-2023-34362](https://github.com/kenbuckler/MOVEit-CVE-2023-34362)
 - [Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362)
 - [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
@@ -2215,7 +2179,6 @@
 
 - [maddsec/CVE-2023-34598](https://github.com/maddsec/CVE-2023-34598)
 - [Szlein/CVE-2023-34598](https://github.com/Szlein/CVE-2023-34598)
-- [hheeyywweellccoommee/CVE-2023-34598-ghonc](https://github.com/hheeyywweellccoommee/CVE-2023-34598-ghonc)
 
 ### CVE-2023-34599 (2023-06-29)
 
@@ -2223,7 +2186,6 @@
 </code>
 
 - [maddsec/CVE-2023-34599](https://github.com/maddsec/CVE-2023-34599)
-- [hheeyywweellccoommee/CVE-2023-34599-xsddo](https://github.com/hheeyywweellccoommee/CVE-2023-34599-xsddo)
 
 ### CVE-2023-34600 (2023-06-20)
 
@@ -2294,7 +2256,6 @@
 </code>
 
 - [rootd4ddy/CVE-2023-34843](https://github.com/rootd4ddy/CVE-2023-34843)
-- [hheeyywweellccoommee/CVE-2023-34843-illrj](https://github.com/hheeyywweellccoommee/CVE-2023-34843-illrj)
 
 ### CVE-2023-34852 (2023-06-15)
 
@@ -2318,7 +2279,6 @@
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
 - [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
 - [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
-- [hheeyywweellccoommee/Chamilo__CVE-2023-34960_RCE-ouvuu](https://github.com/hheeyywweellccoommee/Chamilo__CVE-2023-34960_RCE-ouvuu)
 - [Pari-Malam/CVE-2023-34960](https://github.com/Pari-Malam/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
 - [tucommenceapousser/CVE-2023-34960-ex](https://github.com/tucommenceapousser/CVE-2023-34960-ex)
@@ -2340,7 +2300,6 @@
 - [LazyySec/CVE-2023-35078](https://github.com/LazyySec/CVE-2023-35078)
 - [synfinner/CVE-2023-35078](https://github.com/synfinner/CVE-2023-35078)
 - [emanueldosreis/nmap-CVE-2023-35078-Exploit](https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit)
-- [getdrive/CVE-2023-35078](https://github.com/getdrive/CVE-2023-35078)
 
 ### CVE-2023-35086 (2023-07-21)
 
@@ -2446,11 +2405,11 @@
 ### CVE-2023-36165
 - [TraiLeR2/CVE-2023-36165](https://github.com/TraiLeR2/CVE-2023-36165)
 
-### CVE-2023-36166
-- [TraiLeR2/CVE-2023-36166](https://github.com/TraiLeR2/CVE-2023-36166)
-
 ### CVE-2023-36168
 - [TraiLeR2/CVE-2023-36168](https://github.com/TraiLeR2/CVE-2023-36168)
+
+### CVE-2023-36169
+- [TraiLeR2/CVE-2023-36169](https://github.com/TraiLeR2/CVE-2023-36169)
 
 ### CVE-2023-36531
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
@@ -2542,13 +2501,6 @@
 
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
 
-### CVE-2023-37624 (2023-07-26)
-
-<code>Netdisco before v2.063000 was discovered to contain an open redirect vulnerability. An attacker may exploit this vulnerability to redirect users to arbitrary web URLs by tricking the victim users to click on crafted links.
-</code>
-
-- [hheeyywweellccoommee/Netdisco-CVE-2023-37624-jawzz](https://github.com/hheeyywweellccoommee/Netdisco-CVE-2023-37624-jawzz)
-
 ### CVE-2023-37625
 - [benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625)
 
@@ -2629,16 +2581,22 @@
 
 - [adriyansyah-mf/CVE-2023-38646--Metabase-](https://github.com/adriyansyah-mf/CVE-2023-38646--Metabase-)
 - [Pumpkin-Garden/POC_Metabase_CVE-2023-38646](https://github.com/Pumpkin-Garden/POC_Metabase_CVE-2023-38646)
-- [hheeyywweellccoommee/CVE-2023-38646-hmoje](https://github.com/hheeyywweellccoommee/CVE-2023-38646-hmoje)
-- [hheeyywweellccoommee/CVE-2023-38646-suynl](https://github.com/hheeyywweellccoommee/CVE-2023-38646-suynl)
 - [0xrobiul/CVE-2023-38646](https://github.com/0xrobiul/CVE-2023-38646)
-- [hheeyywweellccoommee/CVE-2023-38646-glwax](https://github.com/hheeyywweellccoommee/CVE-2023-38646-glwax)
 - [Xuxfff/CVE-2023-38646-Poc](https://github.com/Xuxfff/CVE-2023-38646-Poc)
 - [securezeron/CVE-2023-38646](https://github.com/securezeron/CVE-2023-38646)
 - [LazyySec/CVE-2023-38646](https://github.com/LazyySec/CVE-2023-38646)
 - [Zenmovie/CVE-2023-38646](https://github.com/Zenmovie/CVE-2023-38646)
 - [shamo0/CVE-2023-38646-PoC](https://github.com/shamo0/CVE-2023-38646-PoC)
 - [fidjiw/CVE-2023-38646-POC](https://github.com/fidjiw/CVE-2023-38646-POC)
+
+### CVE-2023-38820
+- [TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820](https://github.com/TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820)
+
+### CVE-2023-38821
+- [TraiLeR2/CoD-MW-Warzone-2---CVE-2023-38821](https://github.com/TraiLeR2/CoD-MW-Warzone-2---CVE-2023-38821)
+
+### CVE-2023-38822
+- [TraiLeR2/Corsair---DLL-Planting-CVE-2023-38822](https://github.com/TraiLeR2/Corsair---DLL-Planting-CVE-2023-38822)
 
 ### CVE-2023-39144 (2023-08-02)
 
@@ -2927,7 +2885,6 @@
 - [4bhishek0/CVE-2022-0847-Poc](https://github.com/4bhishek0/CVE-2022-0847-Poc)
 - [JlSakuya/CVE-2022-0847-container-escape](https://github.com/JlSakuya/CVE-2022-0847-container-escape)
 - [jonathanbest7/cve-2022-0847](https://github.com/jonathanbest7/cve-2022-0847)
-- [hheeyywweellccoommee/CVE-2022-0847-gfobj](https://github.com/hheeyywweellccoommee/CVE-2022-0847-gfobj)
 - [0xeremus/dirty-pipe-poc](https://github.com/0xeremus/dirty-pipe-poc)
 - [joeymeech/CVE-2022-0847-Exploit-Implementation](https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation)
 
@@ -3154,9 +3111,9 @@
 - [PsychoSec2/CVE-2022-1388-POC](https://github.com/PsychoSec2/CVE-2022-1388-POC)
 - [iveresk/cve-2022-1388-iveresk-command-shell](https://github.com/iveresk/cve-2022-1388-iveresk-command-shell)
 - [Wrin9/CVE-2022-1388](https://github.com/Wrin9/CVE-2022-1388)
-- [getdrive/F5-BIG-IP-exploit](https://github.com/getdrive/F5-BIG-IP-exploit)
 - [aancw/CVE-2022-1388-rs](https://github.com/aancw/CVE-2022-1388-rs)
 - [west9b/F5-BIG-IP-POC](https://github.com/west9b/F5-BIG-IP-POC)
+- [sashka3076/F5-BIG-IP-exploit](https://github.com/sashka3076/F5-BIG-IP-exploit)
 - [li8u99/CVE-2022-1388](https://github.com/li8u99/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
 - [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
@@ -3523,7 +3480,6 @@
 
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
 - [adhikara13/CVE-2022-4510-WalkingPath](https://github.com/adhikara13/CVE-2022-4510-WalkingPath)
-- [hheeyywweellccoommee/CVE-2022-4510-yjrvc](https://github.com/hheeyywweellccoommee/CVE-2022-4510-yjrvc)
 - [Kalagious/BadPfs](https://github.com/Kalagious/BadPfs)
 
 ### CVE-2022-4543 (2023-01-11)
@@ -4848,7 +4804,6 @@
 </code>
 
 - [JacobEbben/CVE-2022-24715](https://github.com/JacobEbben/CVE-2022-24715)
-- [hheeyywweellccoommee/CVE-2022-24715-crrxa](https://github.com/hheeyywweellccoommee/CVE-2022-24715-crrxa)
 - [cxdxnt/CVE-2022-24715](https://github.com/cxdxnt/CVE-2022-24715)
 
 ### CVE-2022-24716 (2022-03-08)
@@ -12358,7 +12313,6 @@
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 - [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
 - [TakenoSite/Simple-CVE-2021-36260](https://github.com/TakenoSite/Simple-CVE-2021-36260)
-- [hheeyywweellccoommee/hikvision_brute-jnrxx](https://github.com/hheeyywweellccoommee/hikvision_brute-jnrxx)
 
 ### CVE-2021-36394 (2023-03-06)
 
@@ -13038,7 +12992,6 @@
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
 - [SamuelTulach/voidmap](https://github.com/SamuelTulach/voidmap)
-- [hheeyywweellccoommee/CVE-2021-40449-xarrd](https://github.com/hheeyywweellccoommee/CVE-2021-40449-xarrd)
 - [toanthang1842002/CVE-2021-40449](https://github.com/toanthang1842002/CVE-2021-40449)
 
 ### CVE-2021-40492 (2021-09-03)
@@ -15014,7 +14967,6 @@
 </code>
 
 - [MithatGuner/CVE-2021-46704-POC](https://github.com/MithatGuner/CVE-2021-46704-POC)
-- [hheeyywweellccoommee/CVE-2021-46704-POC-bsnln](https://github.com/hheeyywweellccoommee/CVE-2021-46704-POC-bsnln)
 - [Erenlancaster/CVE-2021-46704](https://github.com/Erenlancaster/CVE-2021-46704)
 
 ### CVE-2021-56789
@@ -15681,8 +15633,6 @@
 - [krizzz07/CVE-2020-0796](https://github.com/krizzz07/CVE-2020-0796)
 - [OldDream666/cve-2020-0796](https://github.com/OldDream666/cve-2020-0796)
 - [heeloo123/CVE-2020-0796](https://github.com/heeloo123/CVE-2020-0796)
-- [hheeyywweellccoommee/CVE-2020-0796-VCS-mzecv](https://github.com/hheeyywweellccoommee/CVE-2020-0796-VCS-mzecv)
-- [hheeyywweellccoommee/CVE-2020-0796-POC-dmglv](https://github.com/hheeyywweellccoommee/CVE-2020-0796-POC-dmglv)
 - [Ajomix/CVE-2020-0796](https://github.com/Ajomix/CVE-2020-0796)
 
 ### CVE-2020-0797 (2020-03-12)
@@ -15735,13 +15685,6 @@
 </code>
 
 - [kfmgang/CVE-2020-0910](https://github.com/kfmgang/CVE-2020-0910)
-
-### CVE-2020-0917 (2020-04-15)
-
-<code>An elevation of privilege vulnerability exists when Windows Hyper-V on a host server fails to properly handle objects in memory, aka 'Windows Hyper-V Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0918.
-</code>
-
-- [hheeyywweellccoommee/CVE-2020-0917_Exploit-urcsn](https://github.com/hheeyywweellccoommee/CVE-2020-0917_Exploit-urcsn)
 
 ### CVE-2020-0976 (2020-04-15)
 
@@ -17034,7 +16977,6 @@
 <code>PlaySMS before 1.4.3 does not sanitize inputs from a malicious string.
 </code>
 
-- [hheeyywweellccoommee/CVE-2020-8644-PlaySMS-1.4-rlvpp](https://github.com/hheeyywweellccoommee/CVE-2020-8644-PlaySMS-1.4-rlvpp)
 - [H3rm1tR3b0rn/CVE-2020-8644-PlaySMS-1.4](https://github.com/H3rm1tR3b0rn/CVE-2020-8644-PlaySMS-1.4)
 
 ### CVE-2020-8809 (2020-02-25)
@@ -21318,7 +21260,6 @@
 - [dnr6419/CVE-2019-7609](https://github.com/dnr6419/CVE-2019-7609)
 - [wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609)
 - [Cr4ckC4t/cve-2019-7609](https://github.com/Cr4ckC4t/cve-2019-7609)
-- [hheeyywweellccoommee/cve-2019-7609-modified.py-etsqc](https://github.com/hheeyywweellccoommee/cve-2019-7609-modified.py-etsqc)
 - [OliveiraaX/CVE-2019-7609-KibanaRCE](https://github.com/OliveiraaX/CVE-2019-7609-KibanaRCE)
 
 ### CVE-2019-7610 (2019-03-25)
@@ -21971,6 +21912,7 @@
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 - [chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020](https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020)
 - [Snorlyd/https-nj.gov---CVE-2019-11358](https://github.com/Snorlyd/https-nj.gov---CVE-2019-11358)
+- [isacaya/CVE-2019-11358](https://github.com/isacaya/CVE-2019-11358)
 
 ### CVE-2019-11447 (2019-04-22)
 
@@ -23326,7 +23268,6 @@
 - [Tamagaft/CVE-2019-17662](https://github.com/Tamagaft/CVE-2019-17662)
 - [bl4ck574r/CVE-2019-17662](https://github.com/bl4ck574r/CVE-2019-17662)
 - [thomas-osgood/CVE-2019-17662](https://github.com/thomas-osgood/CVE-2019-17662)
-- [hheeyywweellccoommee/vnc-lab-cve-2019-17662-vqdwt](https://github.com/hheeyywweellccoommee/vnc-lab-cve-2019-17662-vqdwt)
 
 ### CVE-2019-17671 (2019-10-17)
 
@@ -23543,7 +23484,6 @@
 
 - [tucommenceapousser/CVE-2019-19492](https://github.com/tucommenceapousser/CVE-2019-19492)
 - [tucommenceapousser/CVE-2019-19492-2](https://github.com/tucommenceapousser/CVE-2019-19492-2)
-- [hheeyywweellccoommee/CVE-2019-19492-mbprp](https://github.com/hheeyywweellccoommee/CVE-2019-19492-mbprp)
 
 ### CVE-2019-19511
 - [jra89/CVE-2019-19511](https://github.com/jra89/CVE-2019-19511)
@@ -24001,7 +23941,6 @@
 </code>
 
 - [SachinThanushka/CVE-2018-1160](https://github.com/SachinThanushka/CVE-2018-1160)
-- [hheeyywweellccoommee/CVE-2018-1160-kxdmt](https://github.com/hheeyywweellccoommee/CVE-2018-1160-kxdmt)
 
 ### CVE-2018-1207 (2018-03-23)
 
@@ -29892,7 +29831,6 @@
 - [jndok/PegasusX](https://github.com/jndok/PegasusX)
 - [Cryptiiiic/skybreak](https://github.com/Cryptiiiic/skybreak)
 - [liangle1986126z/jndok](https://github.com/liangle1986126z/jndok)
-- [hheeyywweellccoommee/CVE-2016-4655-xoajc](https://github.com/hheeyywweellccoommee/CVE-2016-4655-xoajc)
 
 ### CVE-2016-4657 (2016-08-25)
 
@@ -31347,9 +31285,6 @@
 <code>In j-nowak workout-organizer wurde eine kritische Schwachstelle gefunden. Hierbei betrifft es unbekannten Programmcode. Mit der Manipulation mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Patch wird als 13cd6c3d1210640bfdb39872b2bb3597aa991279 bezeichnet. Als bestmögliche Massnahme wird Patching empfohlen.
 </code>
 
-- [hheeyywweellccoommee/CVE-2015-10034-Test-lazmv](https://github.com/hheeyywweellccoommee/CVE-2015-10034-Test-lazmv)
-- [hheeyywweellccoommee/CVE-2015-10034-posua](https://github.com/hheeyywweellccoommee/CVE-2015-10034-posua)
-- [hheeyywweellccoommee/CVE-2015-10034-akdfu](https://github.com/hheeyywweellccoommee/CVE-2015-10034-akdfu)
 - [andrenasx/CVE-2015-10034](https://github.com/andrenasx/CVE-2015-10034)
 
 
@@ -31962,7 +31897,6 @@
 - [FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-](https://github.com/FilipStudeny/-CVE-2014-6271-Shellshock-Remote-Command-Injection-)
 - [mritunjay-k/CVE-2014-6271](https://github.com/mritunjay-k/CVE-2014-6271)
 - [Brandaoo/CVE-2014-6271](https://github.com/Brandaoo/CVE-2014-6271)
-- [hheeyywweellccoommee/CVE-2014-6271-Shellshock-Vulnerability-vazft](https://github.com/hheeyywweellccoommee/CVE-2014-6271-Shellshock-Vulnerability-vazft)
 - [Jsmoreira02/CVE-2014-6271](https://github.com/Jsmoreira02/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
