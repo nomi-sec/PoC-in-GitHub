@@ -3626,6 +3626,13 @@
 
 - [francozappa/blur](https://github.com/francozappa/blur)
 
+### CVE-2022-20409 (2022-10-11)
+
+<code>In io_identity_cow of io_uring.c, there is a possible way to corrupt memory due to a use after free. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-238177383References: Upstream kernel
+</code>
+
+- [Markakd/bad_io_uring](https://github.com/Markakd/bad_io_uring)
+
 ### CVE-2022-20413 (2022-10-11)
 
 <code>In start of Threads.cpp, there is a possible way to record audio during a phone call due to a logic error in the code. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-235850634
@@ -10455,6 +10462,7 @@
 - [daletoniris/CVE-2021-22555-esc-priv](https://github.com/daletoniris/CVE-2021-22555-esc-priv)
 - [veritas501/CVE-2021-22555-PipeVersion](https://github.com/veritas501/CVE-2021-22555-PipeVersion)
 - [masjohncook/netsec-project](https://github.com/masjohncook/netsec-project)
+- [tukru/CVE-2021-22555](https://github.com/tukru/CVE-2021-22555)
 
 ### CVE-2021-22569 (2022-01-07)
 
