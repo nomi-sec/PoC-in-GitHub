@@ -441,6 +441,7 @@
 - [SalehLardhi/CVE-2023-3519](https://github.com/SalehLardhi/CVE-2023-3519)
 - [KR0N-SECURITY/CVE-2023-3519](https://github.com/KR0N-SECURITY/CVE-2023-3519)
 - [passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519)
+- [rwincey/cve-2023-3519](https://github.com/rwincey/cve-2023-3519)
 
 ### CVE-2023-3640 (2023-07-24)
 
@@ -2624,6 +2625,21 @@
 - [veritas501/CVE-2022-0185-PipeVersion](https://github.com/veritas501/CVE-2022-0185-PipeVersion)
 - [featherL/CVE-2022-0185-exploit](https://github.com/featherL/CVE-2022-0185-exploit)
 
+### CVE-2022-0219 (2022-01-20)
+
+<code>Improper Restriction of XML External Entity Reference in GitHub repository skylot/jadx prior to 1.3.2.
+</code>
+
+- [Haxatron/CVE-2022-0219](https://github.com/Haxatron/CVE-2022-0219)
+
+### CVE-2022-0236 (2022-01-18)
+
+<code>The WP Import Export WordPress plugin (both free and premium versions) is vulnerable to unauthenticated sensitive data disclosure due to a missing capability check on the download function wpie_process_file_download found in the ~/includes/classes/class-wpie-general.php file. This made it possible for unauthenticated attackers to download any imported or exported information from a vulnerable site which can contain sensitive information like user data. This affects versions up to, and including, 3.9.15.
+</code>
+
+- [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
+- [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
+
 ### CVE-2022-0265 (2022-03-03)
 
 <code>Improper Restriction of XML External Entity Reference in GitHub repository hazelcast/hazelcast in 5.1-BETA-1.
@@ -3787,6 +3803,7 @@
 <code>Gin-vue-admin is a backstage management system based on vue and gin. In versions prior to 2.4.7 low privilege users are able to modify higher privilege users. Authentication is missing on the `setUserInfo` function. Users are advised to update as soon as possible. There are no known workarounds.
 </code>
 
+- [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
 - [UzJu/CVE-2022-21660](https://github.com/UzJu/CVE-2022-21660)
 
 ### CVE-2022-21661 (2022-01-06)
@@ -3876,6 +3893,8 @@
 
 - [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
+- [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
+- [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
