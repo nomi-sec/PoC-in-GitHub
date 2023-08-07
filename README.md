@@ -1547,7 +1547,7 @@
 
 ### CVE-2023-30146 (2023-08-03)
 
-<code>Assmann Digitus Plug&amp;View IP Camera family allows unauthenticated attackers to download a copy of the camera's settings and the administrator credentials.
+<code>Assmann Digitus Plug&amp;View IP Camera HT-IP211HDP, version 2.000.022 allows unauthenticated attackers to download a copy of the camera's settings and the administrator credentials.
 </code>
 
 - [L1-0/CVE-2023-30146](https://github.com/L1-0/CVE-2023-30146)
@@ -2151,6 +2151,7 @@
 </code>
 
 - [vi3t1/qq-tim-elevation](https://github.com/vi3t1/qq-tim-elevation)
+- [lan1oc/CVE-2023-34312-exp](https://github.com/lan1oc/CVE-2023-34312-exp)
 
 ### CVE-2023-34362 (2023-06-02)
 
@@ -2875,7 +2876,7 @@
 - [c0ntempt/CVE-2022-0847](https://github.com/c0ntempt/CVE-2022-0847)
 - [notl0cal/dpipe](https://github.com/notl0cal/dpipe)
 - [Gustavo-Nogueira/Dirty-Pipe-Exploits](https://github.com/Gustavo-Nogueira/Dirty-Pipe-Exploits)
-- [badboy-sft/Dirty-Pipe-Oneshot](https://github.com/badboy-sft/Dirty-Pipe-Oneshot)
+- [b4dboy17/Dirty-Pipe-Oneshot](https://github.com/b4dboy17/Dirty-Pipe-Oneshot)
 - [edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-)
 - [Turzum/ps-lab-cve-2022-0847](https://github.com/Turzum/ps-lab-cve-2022-0847)
 - [qwert419/linux-](https://github.com/qwert419/linux-)
@@ -4210,7 +4211,7 @@
 - [nguyenv1nK/CVE-2022-22954](https://github.com/nguyenv1nK/CVE-2022-22954)
 - [secfb/CVE-2022-22954](https://github.com/secfb/CVE-2022-22954)
 - [orwagodfather/CVE-2022-22954](https://github.com/orwagodfather/CVE-2022-22954)
-- [badboy-sft/CVE-2022-22954](https://github.com/badboy-sft/CVE-2022-22954)
+- [b4dboy17/CVE-2022-22954](https://github.com/b4dboy17/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
 - [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
@@ -5204,7 +5205,7 @@
 - [CJ-0107/cve-2022-26134](https://github.com/CJ-0107/cve-2022-26134)
 - [latings/CVE-2022-26134](https://github.com/latings/CVE-2022-26134)
 - [yyqxi/CVE-2022-26134](https://github.com/yyqxi/CVE-2022-26134)
-- [badboy-sft/CVE-2022-26134](https://github.com/badboy-sft/CVE-2022-26134)
+- [b4dboy17/CVE-2022-26134](https://github.com/b4dboy17/CVE-2022-26134)
 - [wjlin0/CVE-2022-26134](https://github.com/wjlin0/CVE-2022-26134)
 - [cbk914/CVE-2022-26134_check](https://github.com/cbk914/CVE-2022-26134_check)
 - [MaskCyberSecurityTeam/CVE-2022-26134_Behinder_MemShell](https://github.com/MaskCyberSecurityTeam/CVE-2022-26134_Behinder_MemShell)
@@ -32233,7 +32234,6 @@
 </code>
 
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
-- [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
 - [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 - [mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028)
@@ -32774,11 +32774,7 @@
 <code>** DISPUTED ** MySQL 5.5.19 and possibly other versions, and MariaDB 5.5.28a and possibly other versions, when configured to assign the FILE privilege to users who should not have administrative privileges, allows remote authenticated users to gain privileges by leveraging the FILE privilege to create files as the MySQL administrator. NOTE: the vendor disputes this issue, stating that this is only a vulnerability when the administrator does not follow recommendations in the product's installation documentation. NOTE: it could be argued that this should not be included in CVE because it is a configuration issue.
 </code>
 
-- [Hood3dRob1n/MySQL-Fu.rb](https://github.com/Hood3dRob1n/MySQL-Fu.rb)
 - [w4fz5uck5/UDFPwn-CVE-2012-5613](https://github.com/w4fz5uck5/UDFPwn-CVE-2012-5613)
-
-### CVE-2012-5664
-- [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
 
 ### CVE-2012-5958 (2013-01-31)
 
@@ -33058,6 +33054,7 @@
 - [MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075)
 - [chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution)
 - [FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1](https://github.com/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1)
+- [imperialbyte/CVE-2010-2075](https://github.com/imperialbyte/CVE-2010-2075)
 
 ### CVE-2010-2387 (2012-12-20)
 
