@@ -10447,7 +10447,6 @@
 - [pizza-power/Golang-CVE-2021-22205-POC](https://github.com/pizza-power/Golang-CVE-2021-22205-POC)
 - [DIVD-NL/GitLab-cve-2021-22205-nse](https://github.com/DIVD-NL/GitLab-cve-2021-22205-nse)
 - [w0x68y/Gitlab-CVE-2021-22205](https://github.com/w0x68y/Gitlab-CVE-2021-22205)
-- [GitLab-Red-Team/cve-hash-harvester](https://github.com/GitLab-Red-Team/cve-hash-harvester)
 - [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
 - [keven1z/CVE-2021-22205](https://github.com/keven1z/CVE-2021-22205)
@@ -28845,7 +28844,7 @@
 <code>ReadGIFImage in coders/gif.c in ImageMagick 7.0.6-1 and GraphicsMagick 1.3.26 leaves the palette uninitialized when processing a GIF file that has neither a global nor local palette. If the affected product is used as a library loaded into a process that operates on interesting data, this data sometimes can be leaked via the uninitialized palette.
 </code>
 
-- [tacticthreat/ImageMagick-CVE-2017-15277](https://github.com/tacticthreat/ImageMagick-CVE-2017-15277)
+- [0xR0M/ImageMagick-CVE-2017-15277](https://github.com/0xR0M/ImageMagick-CVE-2017-15277)
 
 ### CVE-2017-15303 (2017-10-15)
 
