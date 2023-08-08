@@ -1295,7 +1295,6 @@
 <code>An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in macOS Monterey 12.6.5, iOS 16.4.1 and iPadOS 16.4.1, macOS Ventura 13.3.1, iOS 15.7.5 and iPadOS 15.7.5, macOS Big Sur 11.7.6. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.
 </code>
 
-- [ZZY3312/CVE-2023-28206](https://github.com/ZZY3312/CVE-2023-28206)
 - [acceleratortroll/acceleratortroll](https://github.com/acceleratortroll/acceleratortroll)
 
 ### CVE-2023-28231 (2023-04-11)
@@ -1891,13 +1890,6 @@
 </code>
 
 - [86x/CVE-2023-32353-PoC](https://github.com/86x/CVE-2023-32353-PoC)
-
-### CVE-2023-32434 (2023-06-23)
-
-<code>An integer overflow was addressed with improved input validation. This issue is fixed in watchOS 9.5.2, macOS Big Sur 11.7.8, iOS 15.7.7 and iPadOS 15.7.7, macOS Monterey 12.6.7, watchOS 8.8.1, iOS 16.5.1 and iPadOS 16.5.1, macOS Ventura 13.4.1. An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.
-</code>
-
-- [ZZY3312/CVE-2023-32434](https://github.com/ZZY3312/CVE-2023-32434)
 
 ### CVE-2023-32681 (2023-05-26)
 
@@ -25826,6 +25818,7 @@
 <code>In version from 3.0.0 to 3.5.2 of Eclipse Vert.x, the CSRFHandler do not assert that the XSRF Cookie matches the returned XSRF header/form parameter. This allows replay attacks with previously issued tokens which are not expired yet.
 </code>
 
+- [bernard-wagner/vertx-web-xsrf](https://github.com/bernard-wagner/vertx-web-xsrf)
 - [tafamace/CVE-2018-12540](https://github.com/tafamace/CVE-2018-12540)
 
 ### CVE-2018-12596 (2018-10-10)
@@ -29694,13 +29687,6 @@
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
-
-### CVE-2016-3141 (2016-03-31)
-
-<code>Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
-</code>
-
-- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
