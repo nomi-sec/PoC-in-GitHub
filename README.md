@@ -21523,6 +21523,7 @@
 - [Sp4ceDogy/CVE-2019-9053.python3](https://github.com/Sp4ceDogy/CVE-2019-9053.python3)
 - [im-suman-roy/CVE-2019-9053](https://github.com/im-suman-roy/CVE-2019-9053)
 - [bthnrml/guncel-cve-2019-9053.py](https://github.com/bthnrml/guncel-cve-2019-9053.py)
+- [kahluri/CVE-2019-9053](https://github.com/kahluri/CVE-2019-9053)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
