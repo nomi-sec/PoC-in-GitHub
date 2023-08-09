@@ -1630,6 +1630,13 @@
 
 - [Toxich4/CVE-2023-30459](https://github.com/Toxich4/CVE-2023-30459)
 
+### CVE-2023-30533 (2023-04-24)
+
+<code>SheetJS Community Edition before 0.19.3 allows Prototype Pollution via a crafted file.
+</code>
+
+- [BenEdridge/CVE-2023-30533](https://github.com/BenEdridge/CVE-2023-30533)
+
 ### CVE-2023-30765 (2023-07-10)
 
 <code>\n​Delta Electronics InfraSuite Device Master versions prior to 1.0.7 contain improper access controls that could allow an attacker to alter privilege management configurations, resulting in privilege escalation.\n\n
@@ -2584,9 +2591,7 @@
 - [shamo0/CVE-2023-38646-PoC](https://github.com/shamo0/CVE-2023-38646-PoC)
 - [fidjiw/CVE-2023-38646-POC](https://github.com/fidjiw/CVE-2023-38646-POC)
 - [Any3ite/cve-2023-38646-metabase-ReverseShell](https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell)
-
-### CVE-2023-38814
-- [actuator/BSIDES-Security-Rochester-2023](https://github.com/actuator/BSIDES-Security-Rochester-2023)
+- [robotmikhro/CVE-2023-38646](https://github.com/robotmikhro/CVE-2023-38646)
 
 ### CVE-2023-38820
 - [TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820](https://github.com/TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820)
@@ -2612,6 +2617,13 @@
 
 
 ## 2022
+### CVE-2022-0165 (2022-03-14)
+
+<code>The Page Builder KingComposer WordPress plugin through 2.9.6 does not validate the id parameter before redirecting the user to it via the kc_get_thumbn AJAX action available to both unauthenticated and authenticated users
+</code>
+
+- [K3ysTr0K3R/CVE-2022-0165-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-0165-EXPLOIT)
+
 ### CVE-2022-0185 (2022-02-11)
 
 <code>A heap-based buffer overflow flaw was found in the way the legacy_parse_param function in the Filesystem Context functionality of the Linux kernel verified the supplied parameters length. An unprivileged (in case of unprivileged user namespaces enabled, otherwise needs namespaced CAP_SYS_ADMIN privilege) local user able to open a filesystem that does not support the Filesystem Context API (and thus fallbacks to legacy handling) could use this flaw to escalate their privileges on the system.
@@ -10749,6 +10761,13 @@
 
 - [biulove0x/CVE-2021-25003](https://github.com/biulove0x/CVE-2021-25003)
 
+### CVE-2021-25032 (2022-01-10)
+
+<code>The PublishPress Capabilities WordPress plugin before 2.3.1, PublishPress Capabilities Pro WordPress plugin before 2.3.1 does not have authorisation and CSRF checks when updating the plugin's settings via the init hook, and does not ensure that the options to be updated belong to the plugin. As a result, unauthenticated attackers could update arbitrary blog options, such as the default role and make any new registered user with an administrator role.
+</code>
+
+- [RandomRobbieBF/CVE-2021-25032](https://github.com/RandomRobbieBF/CVE-2021-25032)
+
 ### CVE-2021-25076 (2022-01-24)
 
 <code>The WP User Frontend WordPress plugin before 3.5.26 does not validate and escape the status parameter before using it in a SQL statement in the Subscribers dashboard, leading to an SQL injection. Due to the lack of sanitisation and escaping, this could also lead to Reflected Cross-Site Scripting
@@ -12185,10 +12204,17 @@
 
 ### CVE-2021-34600 (2022-01-20)
 
-<code>Telenot CompasX versions prior to 32.0 use a weak seed for random number generation leading to predictable AES keys used in the NFC tags used for local authorization of users. This may lead to total loss of trustworthiness of the installation.
+<code>Telenot CompasX versions prior to 32.0 use a weak seed for random number generation leading to predictable AES keys used in the NFC tags used for local authorization of users. This may lead to total loss of trustworthiness of the installation.\n\n
 </code>
 
 - [x41sec/CVE-2021-34600](https://github.com/x41sec/CVE-2021-34600)
+
+### CVE-2021-34621 (2021-07-07)
+
+<code>A vulnerability in the user registration component found in the ~/src/Classes/RegistrationAuth.php file of the ProfilePress WordPress plugin made it possible for users to register on sites as an administrator. This issue affects versions 3.0.0 - 3.1.3. .
+</code>
+
+- [RandomRobbieBF/CVE-2021-34621](https://github.com/RandomRobbieBF/CVE-2021-34621)
 
 ### CVE-2021-34646 (2021-08-30)
 
