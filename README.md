@@ -2583,6 +2583,7 @@
 - [Zenmovie/CVE-2023-38646](https://github.com/Zenmovie/CVE-2023-38646)
 - [shamo0/CVE-2023-38646-PoC](https://github.com/shamo0/CVE-2023-38646-PoC)
 - [fidjiw/CVE-2023-38646-POC](https://github.com/fidjiw/CVE-2023-38646-POC)
+- [Any3ite/cve-2023-38646-metabase-ReverseShell](https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell)
 
 ### CVE-2023-38814
 - [actuator/BSIDES-Security-Rochester-2023](https://github.com/actuator/BSIDES-Security-Rochester-2023)
@@ -28203,6 +28204,13 @@
 - [homjxi0e/CVE-2017-9430](https://github.com/homjxi0e/CVE-2017-9430)
 - [j0lama/Dnstracer-1.9-Fix](https://github.com/j0lama/Dnstracer-1.9-Fix)
 
+### CVE-2017-9443 (2017-06-05)
+
+<code>** DISPUTED ** BigTree CMS through 4.2.18 allows remote authenticated users to conduct SQL injection attacks via a crafted tables object in manifest.json in an uploaded package. This issue exists in core\admin\modules\developer\extensions\install\process.php and core\admin\modules\developer\packages\install\process.php. NOTE: the vendor states &quot;You must implicitly trust any package or extension you install as they all have the ability to write PHP files.&quot;
+</code>
+
+- [superlink996/cve-2017-9443-payload](https://github.com/superlink996/cve-2017-9443-payload)
+
 ### CVE-2017-9476 (2017-07-30)
 
 <code>The Comcast firmware on Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421733-160420a-CMCST); Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421746-170221a-CMCST); and Arris TG1682G (eMTA&amp;DOCSIS version 10.0.132.SIP.PC20.CT, software version TG1682_2.2p7s2_PROD_sey) devices makes it easy for remote attackers to determine the hidden SSID and passphrase for a Home Security Wi-Fi network.
@@ -28840,7 +28848,7 @@
 <code>ReadGIFImage in coders/gif.c in ImageMagick 7.0.6-1 and GraphicsMagick 1.3.26 leaves the palette uninitialized when processing a GIF file that has neither a global nor local palette. If the affected product is used as a library loaded into a process that operates on interesting data, this data sometimes can be leaked via the uninitialized palette.
 </code>
 
-- [0xR0M/ImageMagick-CVE-2017-15277](https://github.com/0xR0M/ImageMagick-CVE-2017-15277)
+- [hexrom/ImageMagick-CVE-2017-15277](https://github.com/hexrom/ImageMagick-CVE-2017-15277)
 
 ### CVE-2017-15303 (2017-10-15)
 
@@ -31408,6 +31416,7 @@
 - [OffensivePython/HeartLeak](https://github.com/OffensivePython/HeartLeak)
 - [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
+- [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
 - [iSCInc/heartbleed](https://github.com/iSCInc/heartbleed)
 - [marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang)
 - [hmlio/vaas-cve-2014-0160](https://github.com/hmlio/vaas-cve-2014-0160)
@@ -32038,6 +32047,7 @@
 <code>The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824.
 </code>
 
+- [locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609)
 - [MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC)
 - [ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit)
 
