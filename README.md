@@ -2614,6 +2614,13 @@
 
 - [cduram/CVE-2023-39144](https://github.com/cduram/CVE-2023-39144)
 
+### CVE-2023-39526 (2023-08-07)
+
+<code>PrestaShop is an open source e-commerce web application. Versions prior to 1.7.8.10, 8.0.5, and 8.1.1 are vulnerable to remote code execution through SQL injection and arbitrary file write in the back office. Versions 1.7.8.10, 8.0.5, and 8.1.1 contain a patch. There are no known workarounds.
+</code>
+
+- [dnkhack/fixcve2023_39526_2023_39527](https://github.com/dnkhack/fixcve2023_39526_2023_39527)
+
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
