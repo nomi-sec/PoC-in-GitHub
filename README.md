@@ -1057,6 +1057,13 @@
 - [tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL)
 - [dhmosfunk/CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC)
 
+### CVE-2023-26067 (2023-04-10)
+
+<code>Certain Lexmark devices through 2023-02-19 mishandle Input Validation (issue 1 of 4).
+</code>
+
+- [horizon3ai/CVE-2023-26067](https://github.com/horizon3ai/CVE-2023-26067)
+
 ### CVE-2023-26258 (2023-07-03)
 
 <code>Arcserve UDP through 9.0.6034 allows authentication bypass. The method getVersionInfo at WebServiceImpl/services/FlashServiceImpl leaks the AuthUUID token. This token can be used at /WebServiceImpl/services/VirtualStandbyServiceImpl to obtain a valid session. This session can be used to execute any task as administrator.
@@ -2504,7 +2511,11 @@
 
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
 
-### CVE-2023-37625
+### CVE-2023-37625 (2023-08-10)
+
+<code>A stored cross-site scripting (XSS) vulnerability in Netbox v3.4.7 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Custom Link templates.
+</code>
+
 - [benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625)
 
 ### CVE-2023-37771 (2023-07-31)
