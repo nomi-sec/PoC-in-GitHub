@@ -450,6 +450,13 @@
 
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
 
+### CVE-2023-4174 (2023-08-05)
+
+<code>In mooSocial mooStore 3.1.6 wurde eine Schwachstelle gefunden. Sie wurde als problematisch eingestuft. Hierbei betrifft es unbekannten Programmcode. Mittels Manipulieren mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk.
+</code>
+
+- [d0rb/CVE-2023-4174](https://github.com/d0rb/CVE-2023-4174)
+
 ### CVE-2023-20052 (2023-03-01)
 
 <code>On Feb 15, 2023, the following vulnerability in the ClamAV scanning library was disclosed: A vulnerability in the DMG file parser of ClamAV versions 1.0.0 and earlier, 0.105.1 and earlier, and 0.103.7 and earlier could allow an unauthenticated, remote attacker to access sensitive information on an affected device. This vulnerability is due to enabling XML entity substitution that may result in XML external entity injection. An attacker could exploit this vulnerability by submitting a crafted DMG file to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to leak bytes from any file that may be read by the ClamAV scanning process.
@@ -1952,6 +1959,7 @@
 - [CKevens/CVE-2023-33246](https://github.com/CKevens/CVE-2023-33246)
 - [cr1me0/rocketMq_RCE](https://github.com/cr1me0/rocketMq_RCE)
 - [Devil0ll/CVE-2023-33246](https://github.com/Devil0ll/CVE-2023-33246)
+- [d0rb/CVE-2023-33246](https://github.com/d0rb/CVE-2023-33246)
 
 ### CVE-2023-33253 (2023-06-12)
 
@@ -13506,6 +13514,7 @@
 - [K3ysTr0K3R/CVE-2021-41773-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-41773-EXPLOIT)
 - [0xGabe/Apache-CVEs](https://github.com/0xGabe/Apache-CVEs)
 - [OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits](https://github.com/OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits)
+- [belajarqywok/cve-2021-41773-msf](https://github.com/belajarqywok/cve-2021-41773-msf)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -17372,6 +17381,21 @@
 </code>
 
 - [c0ntextomy/c0ntextomy](https://github.com/c0ntextomy/c0ntextomy)
+
+### CVE-2020-10128
+- [InfoSec4Fun/CVE-2020-10128](https://github.com/InfoSec4Fun/CVE-2020-10128)
+
+### CVE-2020-10129
+- [InfoSec4Fun/CVE-2020-10129](https://github.com/InfoSec4Fun/CVE-2020-10129)
+
+### CVE-2020-10130
+- [InfoSec4Fun/CVE-2020-10130](https://github.com/InfoSec4Fun/CVE-2020-10130)
+
+### CVE-2020-10131
+- [InfoSec4Fun/CVE-2020-10131](https://github.com/InfoSec4Fun/CVE-2020-10131)
+
+### CVE-2020-10132
+- [InfoSec4Fun/CVE-2020-10132](https://github.com/InfoSec4Fun/CVE-2020-10132)
 
 ### CVE-2020-10135 (2020-05-19)
 
@@ -33419,6 +33443,7 @@
 <code>OpenSSL 0.9.8c-1 up to versions before 0.9.8g-9 on Debian-based operating systems uses a random number generator that generates predictable numbers, which makes it easier for remote attackers to conduct brute force guessing attacks against cryptographic keys.
 </code>
 
+- [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
 - [demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166](https://github.com/demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166)
@@ -33502,6 +33527,13 @@
 </code>
 
 - [SECFORCE/CVE-2008-5416](https://github.com/SECFORCE/CVE-2008-5416)
+
+### CVE-2008-5862 (2009-01-06)
+
+<code>Directory traversal vulnerability in webcamXP 5.3.2.375 and 5.3.2.410 build 2132 allows remote attackers to read arbitrary files via a ..%2F (encoded dot dot slash) in the URI.
+</code>
+
+- [K3ysTr0K3R/CVE-2008-5862-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2008-5862-EXPLOIT)
 
 ### CVE-2008-6806 (2009-05-12)
 
