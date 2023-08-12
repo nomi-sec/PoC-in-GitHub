@@ -422,6 +422,7 @@
 
 - [gbrsh/CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460)
 - [rizqimaulanaa/CVE-2023-3460](https://github.com/rizqimaulanaa/CVE-2023-3460)
+- [yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460)
 - [Fire-Null/CVE-2023-3460](https://github.com/Fire-Null/CVE-2023-3460)
 - [diego-tella/CVE-2023-3460](https://github.com/diego-tella/CVE-2023-3460)
 - [Rajneeshkarya/CVE-2023-3460](https://github.com/Rajneeshkarya/CVE-2023-3460)
@@ -1595,6 +1596,13 @@
 - [AAsh035/CVE-2023-30212](https://github.com/AAsh035/CVE-2023-30212)
 - [JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-](https://github.com/JasaluRah/Creating-a-Vulnerable-Docker-Environment-CVE-2023-30212-)
 
+### CVE-2023-30226 (2023-07-11)
+
+<code>An issue was discovered in function get_gnu_verneed in rizinorg Rizin prior to 0.5.0 verneed_entry allows attackers to cause a denial of service via crafted elf file.
+</code>
+
+- [ifyGecko/CVE-2023-30226](https://github.com/ifyGecko/CVE-2023-30226)
+
 ### CVE-2023-30256 (2023-05-11)
 
 <code>Cross Site Scripting vulnerability found in Webkil QloApps v.1.5.2 allows a remote attacker to obtain sensitive information via the back and email_create parameters in the AuthController.php file.
@@ -1863,6 +1871,13 @@
 - [Liuk3r/CVE-2023-32233](https://github.com/Liuk3r/CVE-2023-32233)
 - [oferchen/POC-CVE-2023-32233](https://github.com/oferchen/POC-CVE-2023-32233)
 
+### CVE-2023-32235 (2023-05-05)
+
+<code>Ghost before 5.42.1 allows remote attackers to read arbitrary files within the active theme's folder via /assets/built%2F..%2F..%2F/ directory traversal. This occurs in frontend/web/middleware/static-theme.js.
+</code>
+
+- [VEEXH/Ghost-Path-Traversal-CVE-2023-32235-](https://github.com/VEEXH/Ghost-Path-Traversal-CVE-2023-32235-)
+
 ### CVE-2023-32243 (2023-05-12)
 
 <code>Improper Authentication vulnerability in WPDeveloper Essential Addons for Elementor allows Privilege Escalation. This issue affects Essential Addons for Elementor: from 5.4.0 through 5.7.1.
@@ -1897,6 +1912,13 @@
 </code>
 
 - [86x/CVE-2023-32353-PoC](https://github.com/86x/CVE-2023-32353-PoC)
+
+### CVE-2023-32629 (2023-07-25)
+
+<code>Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels
+</code>
+
+- [kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay)
 
 ### CVE-2023-32681 (2023-05-26)
 
@@ -2044,6 +2066,13 @@
 
 - [tucommenceapousser/CVE-2023-33617](https://github.com/tucommenceapousser/CVE-2023-33617)
 
+### CVE-2023-33668 (2023-07-12)
+
+<code>DigiExam up to v14.0.2 lacks integrity checks for native modules, allowing attackers to access PII and takeover accounts on shared computers.
+</code>
+
+- [lodi-g/CVE-2023-33668](https://github.com/lodi-g/CVE-2023-33668)
+
 ### CVE-2023-33730 (2023-05-31)
 
 <code>Privilege Escalation in the &quot;GetUserCurrentPwd&quot; function in Microworld Technologies eScan Management Console 14.0.1400.2281 allows any remote attacker to retrieve password of any admin or normal user in plain text format.
@@ -2155,6 +2184,7 @@
 - [horizon3ai/CVE-2023-34362](https://github.com/horizon3ai/CVE-2023-34362)
 - [sfewer-r7/CVE-2023-34362](https://github.com/sfewer-r7/CVE-2023-34362)
 - [kenbuckler/MOVEit-CVE-2023-34362](https://github.com/kenbuckler/MOVEit-CVE-2023-34362)
+- [Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362)
 - [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
 
 ### CVE-2023-34537 (2023-06-13)
@@ -2273,6 +2303,7 @@
 
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
 - [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
+- [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
 - [Pari-Malam/CVE-2023-34960](https://github.com/Pari-Malam/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
 - [tucommenceapousser/CVE-2023-34960-ex](https://github.com/tucommenceapousser/CVE-2023-34960-ex)
@@ -2335,6 +2366,7 @@
 </code>
 
 - [Szlein/CVE-2023-35843](https://github.com/Szlein/CVE-2023-35843)
+- [b3nguang/CVE-2023-35843](https://github.com/b3nguang/CVE-2023-35843)
 
 ### CVE-2023-35844 (2023-06-18)
 
@@ -2385,6 +2417,13 @@
 
 - [unknown00759/CVE-2023-36159](https://github.com/unknown00759/CVE-2023-36159)
 
+### CVE-2023-36163 (2023-07-11)
+
+<code>Cross Site Scripting vulnerability in IP-DOT BuildaGate v.BuildaGate5 allows a remote attacker to execute arbitrary code via a crafted script to the mc parameter of the URL.
+</code>
+
+- [TraiLeR2/CVE-2023-36163](https://github.com/TraiLeR2/CVE-2023-36163)
+
 ### CVE-2023-36164
 - [TraiLeR2/CVE-2023-36164](https://github.com/TraiLeR2/CVE-2023-36164)
 
@@ -2427,6 +2466,13 @@
 </code>
 
 - [ilqarli27/CVE-2023-37164](https://github.com/ilqarli27/CVE-2023-37164)
+
+### CVE-2023-37189 (2023-07-10)
+
+<code>A stored cross site scripting (XSS) vulnerability in index.php?menu=billing_rates of Issabel PBX version 4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload entered into the Name or Prefix fields under the Create New Rate module.
+</code>
+
+- [sahiloj/CVE-2023-37189](https://github.com/sahiloj/CVE-2023-37189)
 
 ### CVE-2023-37190 (2023-07-10)
 
@@ -2479,6 +2525,13 @@
 </code>
 
 - [sahiloj/CVE-2023-37598](https://github.com/sahiloj/CVE-2023-37598)
+
+### CVE-2023-37599 (2023-07-13)
+
+<code>An issue in issabel-pbx v.4.0.0-6 allows a remote attacker to obtain sensitive information via the modules directory
+</code>
+
+- [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
 
 ### CVE-2023-37625 (2023-08-10)
 
@@ -27415,6 +27468,13 @@
 </code>
 
 - [saaph/CVE-2017-3143](https://github.com/saaph/CVE-2017-3143)
+
+### CVE-2017-3164 (2019-03-08)
+
+<code>Server Side Request Forgery in Apache Solr, versions 1.3 until 7.6 (inclusive). Since the &quot;shards&quot; parameter does not have a corresponding whitelist mechanism, a remote attacker with access to the server could make Solr perform an HTTP GET request to any reachable URL.
+</code>
+
+- [tdwyer/PoC_CVE-2017-3164_CVE-2017-1262](https://github.com/tdwyer/PoC_CVE-2017-3164_CVE-2017-1262)
 
 ### CVE-2017-3241 (2017-01-27)
 
