@@ -1064,6 +1064,13 @@
 - [tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL](https://github.com/tbachvarova/linux-apache-fix-mod_rewrite-spaceInURL)
 - [dhmosfunk/CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC)
 
+### CVE-2023-25950 (2023-04-11)
+
+<code>HTTP request/response smuggling vulnerability in HAProxy version 2.7.0, and 2.6.1 to 2.6.7 allows a remote attacker to alter a legitimate user's request. As a result, the attacker may obtain sensitive information or cause a denial-of-service (DoS) condition.
+</code>
+
+- [dhmosfunk/HTTP3ONSTEROIDS](https://github.com/dhmosfunk/HTTP3ONSTEROIDS)
+
 ### CVE-2023-26067 (2023-04-10)
 
 <code>Certain Lexmark devices through 2023-02-19 mishandle Input Validation (issue 1 of 4).
