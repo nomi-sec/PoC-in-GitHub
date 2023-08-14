@@ -2671,6 +2671,23 @@
 
 - [dnkhack/fixcve2023_39526_2023_39527](https://github.com/dnkhack/fixcve2023_39526_2023_39527)
 
+### CVE-2023-40294 (2023-08-13)
+
+<code>libboron in Boron 2.0.8 has a heap-based buffer overflow in ur_parseBlockI at i_parse_blk.c.
+</code>
+
+- [Halcy0nic/CVE-2023-40294-and-CVE-2023-40295](https://github.com/Halcy0nic/CVE-2023-40294-and-CVE-2023-40295)
+
+### CVE-2023-40296 (2023-08-13)
+
+<code>async-sockets-cpp through 0.3.1 has a stack-based buffer overflow in ReceiveFrom and Receive in udpsocket.hpp when processing malformed UDP packets.
+</code>
+
+- [Halcy0nic/CVE-2023-40296](https://github.com/Halcy0nic/CVE-2023-40296)
+
+### CVE-2023-40297
+- [sahar042/CVE-2023-40297](https://github.com/sahar042/CVE-2023-40297)
+
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
@@ -16045,6 +16062,7 @@
 - [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
+- [Anthonyc3rb3ru5/ZeroLogon-to-Shell](https://github.com/Anthonyc3rb3ru5/ZeroLogon-to-Shell)
 
 ### CVE-2020-1493 (2020-08-17)
 
