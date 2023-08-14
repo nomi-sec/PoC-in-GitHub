@@ -2587,7 +2587,11 @@
 ### CVE-2023-37800
 - [TraiLeR2/CVE-2023-37800](https://github.com/TraiLeR2/CVE-2023-37800)
 
-### CVE-2023-37847
+### CVE-2023-37847 (2023-08-14)
+
+<code>novel-plus v3.6.2 was discovered to contain a SQL injection vulnerability.
+</code>
+
 - [KingBangQ/CVE-2023-37847](https://github.com/KingBangQ/CVE-2023-37847)
 
 ### CVE-2023-37979 (2023-07-27)
@@ -27771,7 +27775,6 @@
 - [Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass)
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 - [TheWay-hue/CVE-2017-5689-Checker](https://github.com/TheWay-hue/CVE-2017-5689-Checker)
-- [odx686/CVE-2017-5689](https://github.com/odx686/CVE-2017-5689)
 
 ### CVE-2017-5693 (2018-07-31)
 
