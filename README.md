@@ -36,9 +36,17 @@
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
+- [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
+
+### CVE-2023-0315 (2023-01-15)
+
+<code>Command Injection in GitHub repository froxlor/froxlor prior to 2.0.8.
+</code>
+
+- [mhaskar/CVE-2023-0315](https://github.com/mhaskar/CVE-2023-0315)
 
 ### CVE-2023-0386 (2023-03-22)
 
@@ -214,6 +222,7 @@
 </code>
 
 - [GREENHAT7/pxplan](https://github.com/GREENHAT7/pxplan)
+- [GREENHAT7/Hvv2023](https://github.com/GREENHAT7/Hvv2023)
 
 ### CVE-2023-2033 (2023-04-14)
 
@@ -233,7 +242,11 @@
 
 - [SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114](https://github.com/SchmidAlex/nex-forms_SQL-Injection-CVE-2023-2114)
 
-### CVE-2023-2123
+### CVE-2023-2123 (2023-08-16)
+
+<code>The WP Inventory Manager WordPress plugin before 2.1.0.13 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting.
+</code>
+
 - [daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin)
 
 ### CVE-2023-2249 (2023-06-09)
@@ -597,6 +610,13 @@
 - [JMousqueton/CVE-2023-21716](https://github.com/JMousqueton/CVE-2023-21716)
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 
+### CVE-2023-21739 (2023-01-10)
+
+<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
+</code>
+
+- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
+
 ### CVE-2023-21742 (2023-01-10)
 
 <code>Microsoft SharePoint Server Remote Code Execution Vulnerability
@@ -616,6 +636,7 @@
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
+- [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
@@ -746,6 +767,7 @@
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
+- [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
 ### CVE-2023-22974 (2023-02-22)
 
@@ -893,12 +915,20 @@
 <code>** DISPUTED ** KeePass through 2.53 (in a default installation) allows an attacker, who has write access to the XML configuration file, to obtain the cleartext passwords by adding an export trigger. NOTE: the vendor's position is that the password database is not intended to be secure against an attacker who has that level of access to the local PC.
 </code>
 
+- [deetl/CVE-2023-24055](https://github.com/deetl/CVE-2023-24055)
 - [alt3kx/CVE-2023-24055_PoC](https://github.com/alt3kx/CVE-2023-24055_PoC)
 - [Cyb3rtus/keepass_CVE-2023-24055_yara_rule](https://github.com/Cyb3rtus/keepass_CVE-2023-24055_yara_rule)
 - [ATTACKnDEFEND/CVE-2023-24055](https://github.com/ATTACKnDEFEND/CVE-2023-24055)
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
+
+### CVE-2023-24059 (2023-01-22)
+
+<code>Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
+</code>
+
+- [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
 
 ### CVE-2023-24078 (2023-02-17)
 
@@ -7495,6 +7525,13 @@
 
 - [usmarine2141/CVE-2022-39959](https://github.com/usmarine2141/CVE-2022-39959)
 
+### CVE-2022-39986 (2023-08-01)
+
+<code>A Command injection vulnerability in RaspAP 2.8.0 thru 2.8.7 allows unauthenticated attackers to execute arbitrary commands via the cfg_id parameter in /ajax/openvpn/activate_ovpncfg.php and /ajax/openvpn/del_ovpncfg.php.
+</code>
+
+- [WhiteOwl-Pub/RaspAP-CVE-2022-39986-PoC](https://github.com/WhiteOwl-Pub/RaspAP-CVE-2022-39986-PoC)
+
 ### CVE-2022-40032 (2023-02-17)
 
 <code>SQL Injection vulnerability in Simple Task Managing System version 1.0 in login.php in 'username' and 'password' parameters, allows attackers to execute arbitrary code and gain sensitive information.
@@ -12472,6 +12509,7 @@
 - [tuntin9x/CheckHKRCE](https://github.com/tuntin9x/CheckHKRCE)
 - [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
 - [TakenoSite/Simple-CVE-2021-36260](https://github.com/TakenoSite/Simple-CVE-2021-36260)
+- [r3t4k3r/hikvision_brute](https://github.com/r3t4k3r/hikvision_brute)
 
 ### CVE-2021-36394 (2023-03-06)
 
@@ -24733,6 +24771,13 @@
 
 - [sischkg/cve-2018-5740](https://github.com/sischkg/cve-2018-5740)
 
+### CVE-2018-5873 (2018-07-06)
+
+<code>An issue was discovered in the __ns_get_path function in fs/nsfs.c in the Linux kernel before 4.11. Due to a race condition when accessing files, a Use After Free condition can occur. This also affects all Android releases from CAF using the Linux kernel (Android for MSM, Firefox OS for MSM, QRD Android) before security patch level 2018-07-05.
+</code>
+
+- [Trinadh465/linux-4.1.15_CVE-2018-5873](https://github.com/Trinadh465/linux-4.1.15_CVE-2018-5873)
+
 ### CVE-2018-5951 (2020-03-02)
 
 <code>An issue was discovered in Mikrotik RouterOS. Crafting a packet that has a size of 1 byte and sending it to an IPv6 address of a RouterOS box with IP Protocol 97 will cause RouterOS to reboot imminently. All versions of RouterOS that supports EoIPv6 are vulnerable to this attack.
@@ -26226,7 +26271,6 @@
 - [Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader](https://github.com/Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader)
 - [bukitbarisan/laravel-rce-cve-2018-15133](https://github.com/bukitbarisan/laravel-rce-cve-2018-15133)
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
-- [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [pwnedshell/Larascript](https://github.com/pwnedshell/Larascript)
 - [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 - [NatteeSetobol/CVE-2018-15133-Lavel-Expliot](https://github.com/NatteeSetobol/CVE-2018-15133-Lavel-Expliot)
@@ -28720,7 +28764,6 @@
 - [starnightcyber/CVE-2017-11882](https://github.com/starnightcyber/CVE-2017-11882)
 - [Grey-Li/CVE-2017-11882](https://github.com/Grey-Li/CVE-2017-11882)
 - [legendsec/CVE-2017-11882-for-Kali](https://github.com/legendsec/CVE-2017-11882-for-Kali)
-- [CSC-pentest/cve-2017-11882](https://github.com/CSC-pentest/cve-2017-11882)
 - [Shadowshusky/CVE-2017-11882-](https://github.com/Shadowshusky/CVE-2017-11882-)
 - [rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802)
 - [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
