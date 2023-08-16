@@ -2680,7 +2680,14 @@
 ### CVE-2023-38822
 - [TraiLeR2/Corsair---DLL-Planting-CVE-2023-38822](https://github.com/TraiLeR2/Corsair---DLL-Planting-CVE-2023-38822)
 
-### CVE-2023-39115
+### CVE-2023-38836
+- [1337kid/CVE-2023-38836](https://github.com/1337kid/CVE-2023-38836)
+
+### CVE-2023-39115 (-)
+
+<code>install/aiz-uploader/upload in Campcodes Online Matrimonial Website System Script 3.3 allows XSS via a crafted SVG document.
+</code>
+
 - [Raj789-sec/CVE-2023-39115](https://github.com/Raj789-sec/CVE-2023-39115)
 
 ### CVE-2023-39144 (2023-08-02)
@@ -11635,7 +11642,6 @@
 - [G01d3nW01f/CVE-2021-29447](https://github.com/G01d3nW01f/CVE-2021-29447)
 - [viardant/CVE-2021-29447](https://github.com/viardant/CVE-2021-29447)
 - [0xRar/CVE-2021-29447-PoC](https://github.com/0xRar/CVE-2021-29447-PoC)
-- [zeroch1ll/cve-2021-29447](https://github.com/zeroch1ll/cve-2021-29447)
 - [andyhsu024/CVE-2021-29447](https://github.com/andyhsu024/CVE-2021-29447)
 
 ### CVE-2021-29505 (2021-05-28)
@@ -15630,13 +15636,6 @@
 - [okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC)
 - [cimashiro/-Awesome-CVE-2020-0601-](https://github.com/cimashiro/-Awesome-CVE-2020-0601-)
 
-### CVE-2020-0606 (2020-01-14)
-
-<code>A remote code execution vulnerability exists in .NET software when the software fails to check the source markup of a file.An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user, aka '.NET Framework Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0605.
-</code>
-
-- [5l1v3r1/CVE-2020-0606](https://github.com/5l1v3r1/CVE-2020-0606)
-
 ### CVE-2020-0609 (2020-01-14)
 
 <code>A remote code execution vulnerability exists in Windows Remote Desktop Gateway (RD Gateway) when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Windows Remote Desktop Gateway (RD Gateway) Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2020-0610.
@@ -15822,8 +15821,6 @@
 - [Murasame-nc/CVE-2020-0796-LPE-POC](https://github.com/Murasame-nc/CVE-2020-0796-LPE-POC)
 - [F6JO/CVE-2020-0796-Batch-scanning](https://github.com/F6JO/CVE-2020-0796-Batch-scanning)
 - [lisinan988/CVE-2020-0796-exp](https://github.com/lisinan988/CVE-2020-0796-exp)
-- [5l1v3r1/CVE-2020-0796-PoC-3](https://github.com/5l1v3r1/CVE-2020-0796-PoC-3)
-- [5l1v3r1/SMBGhosts](https://github.com/5l1v3r1/SMBGhosts)
 - [vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-](https://github.com/vsai94/ECE9069_SMBGhost_Exploit_CVE-2020-0796-)
 - [arzuozkan/CVE-2020-0796](https://github.com/arzuozkan/CVE-2020-0796)
 - [SEHandler/CVE-2020-0796](https://github.com/SEHandler/CVE-2020-0796)
@@ -15876,13 +15873,6 @@
 - [gerhart01/hyperv_local_dos_poc](https://github.com/gerhart01/hyperv_local_dos_poc)
 - [skasanagottu57gmailv/gerhart01](https://github.com/skasanagottu57gmailv/gerhart01)
 - [MarcelloTinocor/gerhart01](https://github.com/MarcelloTinocor/gerhart01)
-
-### CVE-2020-0910 (2020-04-15)
-
-<code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
-</code>
-
-- [kfmgang/CVE-2020-0910](https://github.com/kfmgang/CVE-2020-0910)
 
 ### CVE-2020-0976 (2020-04-15)
 
@@ -16570,13 +16560,6 @@
 </code>
 
 - [5l1v3r1/CVE-2020-5509](https://github.com/5l1v3r1/CVE-2020-5509)
-
-### CVE-2020-5510 (2020-01-08)
-
-<code>PHPGurukul Hostel Management System v2.0 allows SQL injection via the id parameter in the full-profile.php file.
-</code>
-
-- [5l1v3r1/CVE-2020-5510](https://github.com/5l1v3r1/CVE-2020-5510)
 
 ### CVE-2020-5752 (2020-05-21)
 
@@ -17401,7 +17384,6 @@
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
-- [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
@@ -26271,6 +26253,7 @@
 - [Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader](https://github.com/Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader)
 - [bukitbarisan/laravel-rce-cve-2018-15133](https://github.com/bukitbarisan/laravel-rce-cve-2018-15133)
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
+- [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [pwnedshell/Larascript](https://github.com/pwnedshell/Larascript)
 - [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 - [NatteeSetobol/CVE-2018-15133-Lavel-Expliot](https://github.com/NatteeSetobol/CVE-2018-15133-Lavel-Expliot)
@@ -28764,6 +28747,7 @@
 - [starnightcyber/CVE-2017-11882](https://github.com/starnightcyber/CVE-2017-11882)
 - [Grey-Li/CVE-2017-11882](https://github.com/Grey-Li/CVE-2017-11882)
 - [legendsec/CVE-2017-11882-for-Kali](https://github.com/legendsec/CVE-2017-11882-for-Kali)
+- [CSC-pentest/cve-2017-11882](https://github.com/CSC-pentest/cve-2017-11882)
 - [Shadowshusky/CVE-2017-11882-](https://github.com/Shadowshusky/CVE-2017-11882-)
 - [rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802)
 - [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
@@ -31617,7 +31601,6 @@
 - [OffensivePython/HeartLeak](https://github.com/OffensivePython/HeartLeak)
 - [vortextube/ssl_scanner](https://github.com/vortextube/ssl_scanner)
 - [mpgn/heartbleed-PoC](https://github.com/mpgn/heartbleed-PoC)
-- [xanas/heartbleed.py](https://github.com/xanas/heartbleed.py)
 - [iSCInc/heartbleed](https://github.com/iSCInc/heartbleed)
 - [marstornado/cve-2014-0160-Yunfeng-Jiang](https://github.com/marstornado/cve-2014-0160-Yunfeng-Jiang)
 - [hmlio/vaas-cve-2014-0160](https://github.com/hmlio/vaas-cve-2014-0160)
@@ -31691,9 +31674,6 @@
 </code>
 
 - [Charmve/PyStegosploit](https://github.com/Charmve/PyStegosploit)
-
-### CVE-2014-0291
-- [niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204](https://github.com/niccoX/patch-openssl-CVE-2014-0291_CVE-2015-0204)
 
 ### CVE-2014-0472 (2014-04-23)
 
@@ -32248,7 +32228,6 @@
 <code>The addAccount method in src/com/android/settings/accounts/AddAccountSettings.java in the Settings application in Android before 5.0.0 does not properly create a PendingIntent, which allows attackers to use the SYSTEM uid for broadcasting an intent with arbitrary component, action, or category information via a third-party authenticator in a crafted application, aka Bug 17356824.
 </code>
 
-- [locisvv/Vulnerable-CVE-2014-8609](https://github.com/locisvv/Vulnerable-CVE-2014-8609)
 - [MazX0p/CVE-2014-8609-POC](https://github.com/MazX0p/CVE-2014-8609-POC)
 - [ratiros01/CVE-2014-8609-exploit](https://github.com/ratiros01/CVE-2014-8609-exploit)
 
