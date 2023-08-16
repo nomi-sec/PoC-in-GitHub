@@ -306,6 +306,7 @@
 </code>
 
 - [johnlettman/juju-patch-gameoverlay](https://github.com/johnlettman/juju-patch-gameoverlay)
+- [OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay)
 
 ### CVE-2023-2650 (2023-05-30)
 
@@ -562,7 +563,6 @@
 
 - [qixils/AntiCropalypse](https://github.com/qixils/AntiCropalypse)
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
-- [maddiethecafebabe/discord-acropolypse-bot](https://github.com/maddiethecafebabe/discord-acropolypse-bot)
 - [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
 - [lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect)
 
@@ -2499,6 +2499,7 @@
 </code>
 
 - [d0rb/CVE-2023-36899](https://github.com/d0rb/CVE-2023-36899)
+- [midisec/CVE-2023-36899](https://github.com/midisec/CVE-2023-36899)
 
 ### CVE-2023-37164 (2023-07-20)
 
@@ -4814,7 +4815,6 @@
 
 - [ColdFusionX/CVE-2022-24124](https://github.com/ColdFusionX/CVE-2022-24124)
 - [0xAbbarhSF/CVE-2022-24124](https://github.com/0xAbbarhSF/CVE-2022-24124)
-- [b1gdog/CVE-2022-24124_POC](https://github.com/b1gdog/CVE-2022-24124_POC)
 
 ### CVE-2022-24125 (2022-03-19)
 
@@ -32328,7 +32328,6 @@
 - [heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156)
 - [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
-- [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
 - [Jjdt12/kuang_grade_mk11](https://github.com/Jjdt12/kuang_grade_mk11)
 
 ### CVE-2013-0212 (2013-02-24)
@@ -32461,8 +32460,6 @@
 - [hiikezoe/libperf_event_exploit](https://github.com/hiikezoe/libperf_event_exploit)
 - [Pashkela/CVE-2013-2094](https://github.com/Pashkela/CVE-2013-2094)
 - [tarunyadav/fix-cve-2013-2094](https://github.com/tarunyadav/fix-cve-2013-2094)
-- [timhsutw/cve-2013-2094](https://github.com/timhsutw/cve-2013-2094)
-- [vnik5287/CVE-2013-2094](https://github.com/vnik5287/CVE-2013-2094)
 
 ### CVE-2013-2165 (2013-07-22)
 
@@ -32485,7 +32482,6 @@
 
 - [GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup)
 - [sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186)
-- [sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186)
 
 ### CVE-2013-2217 (2013-09-23)
 
