@@ -3738,6 +3738,13 @@
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20007)
 - [pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20007](https://github.com/pazhanivel07/frameworks_base_AOSP10_r33_CVE-2022-20007)
 
+### CVE-2022-20009 (2022-05-10)
+
+<code>In various functions of the USB gadget subsystem, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-213172319References: Upstream kernel
+</code>
+
+- [szymonh/android-gadget](https://github.com/szymonh/android-gadget)
+
 ### CVE-2022-20126 (2022-06-15)
 
 <code>In setScanMode of AdapterService.java, there is a possible way to enable Bluetooth discovery mode without user interaction due to a missing permission check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-203431023
@@ -5448,6 +5455,13 @@
 </code>
 
 - [mistymntncop/CVE-2022-26485](https://github.com/mistymntncop/CVE-2022-26485)
+
+### CVE-2022-26488 (2022-03-07)
+
+<code>In Python before 3.10.3 on Windows, local users can gain privileges because the search path is inadequately secured. The installer may allow a local attacker to add user-writable directories to the system search path. To exploit, an administrator must have installed Python for all users and enabled PATH entries. A non-administrative user can trigger a repair that incorrectly adds user-writable paths into PATH, enabling search-path hijacking of other users and system services. This affects Python (CPython) through 3.7.12, 3.8.x through 3.8.12, 3.9.x through 3.9.10, and 3.10.x through 3.10.2.
+</code>
+
+- [techspence/PyPATHPwner](https://github.com/techspence/PyPATHPwner)
 
 ### CVE-2022-26503 (2022-03-17)
 
@@ -8554,7 +8568,7 @@
 - [taythebot/CVE-2022-46169](https://github.com/taythebot/CVE-2022-46169)
 - [Inplex-sys/CVE-2022-46169](https://github.com/Inplex-sys/CVE-2022-46169)
 - [sAsPeCt488/CVE-2022-46169](https://github.com/sAsPeCt488/CVE-2022-46169)
-- [Anthonyc3rb3ru5/CVE-2022-46169](https://github.com/Anthonyc3rb3ru5/CVE-2022-46169)
+- [deadyP00l/CVE-2022-46169](https://github.com/deadyP00l/CVE-2022-46169)
 - [Habib0x0/CVE-2022-46169](https://github.com/Habib0x0/CVE-2022-46169)
 - [N1arut/CVE-2022-46169_POC](https://github.com/N1arut/CVE-2022-46169_POC)
 - [miko550/CVE-2022-46169](https://github.com/miko550/CVE-2022-46169)
@@ -16117,7 +16131,7 @@
 - [n3rada/zero-effort](https://github.com/n3rada/zero-effort)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
-- [Anthonyc3rb3ru5/ZeroLogon-to-Shell](https://github.com/Anthonyc3rb3ru5/ZeroLogon-to-Shell)
+- [deadyP00l/ZeroLogon-to-Shell](https://github.com/deadyP00l/ZeroLogon-to-Shell)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -30769,6 +30783,7 @@
 - [1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
+- [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0311 (2015-01-23)
 
