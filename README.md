@@ -947,6 +947,13 @@
 
 - [angelopioamirante/CVE-2023-24317](https://github.com/angelopioamirante/CVE-2023-24317)
 
+### CVE-2023-24329 (2023-02-17)
+
+<code>An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.
+</code>
+
+- [H4R335HR/CVE-2023-24329-PoC](https://github.com/H4R335HR/CVE-2023-24329-PoC)
+
 ### CVE-2023-24362
 - [cavetownie/CVE-2023-24362](https://github.com/cavetownie/CVE-2023-24362)
 
@@ -1241,7 +1248,7 @@
 
 - [nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372)
 - [tucommenceapousser/CVE-2023-27372](https://github.com/tucommenceapousser/CVE-2023-27372)
-- [RSTG0D/CVE-2023-27372-PoC](https://github.com/RSTG0D/CVE-2023-27372-PoC)
+- [0SPwn/CVE-2023-27372-PoC](https://github.com/0SPwn/CVE-2023-27372-PoC)
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
 - [Pari-Malam/CVE-2023-27372](https://github.com/Pari-Malam/CVE-2023-27372)
 
@@ -4085,6 +4092,7 @@
 - [0xmaximus/Home-Demolisher](https://github.com/0xmaximus/Home-Demolisher)
 - [cassie0206/CVE-2022-21907](https://github.com/cassie0206/CVE-2022-21907)
 - [EzoomE/CVE-2022-21907-RCE](https://github.com/EzoomE/CVE-2022-21907-RCE)
+- [asepsaepdin/CVE-2022-21907](https://github.com/asepsaepdin/CVE-2022-21907)
 
 ### CVE-2022-21970 (2022-01-11)
 
@@ -4320,7 +4328,6 @@
 - [ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code](https://github.com/ba1ma0/Spring-Cloud-GateWay-CVE-2022-22947-demon-code)
 - [Arrnitage/CVE-2022-22947_exp](https://github.com/Arrnitage/CVE-2022-22947_exp)
 - [PaoPaoLong-lab/Spring-CVE-2022-22947-](https://github.com/PaoPaoLong-lab/Spring-CVE-2022-22947-)
-- [al4xs/CVE-2022-22947-Spring-Cloud](https://github.com/al4xs/CVE-2022-22947-Spring-Cloud)
 - [hh-hunter/cve-2022-22947-docker](https://github.com/hh-hunter/cve-2022-22947-docker)
 - [k3rwin/spring-cloud-gateway-rce](https://github.com/k3rwin/spring-cloud-gateway-rce)
 - [bysinks/CVE-2022-22947](https://github.com/bysinks/CVE-2022-22947)
@@ -14516,7 +14523,6 @@
 - [alpacamybags118/log4j-cve-2021-44228-sample](https://github.com/alpacamybags118/log4j-cve-2021-44228-sample)
 - [sandarenu/log4j2-issue-check](https://github.com/sandarenu/log4j2-issue-check)
 - [roticagas/CVE-2021-44228-Demo](https://github.com/roticagas/CVE-2021-44228-Demo)
-- [archongum/cve-2021-44228-log4j](https://github.com/archongum/cve-2021-44228-log4j)
 - [Woahd/log4j-urlscanner](https://github.com/Woahd/log4j-urlscanner)
 - [faisalfs10x/Log4j2-CVE-2021-44228-revshell](https://github.com/faisalfs10x/Log4j2-CVE-2021-44228-revshell)
 - [gcmurphy/chk_log4j](https://github.com/gcmurphy/chk_log4j)
@@ -27647,6 +27653,7 @@
 - [homjxi0e/CVE-2017-3881-exploit-cisco-](https://github.com/homjxi0e/CVE-2017-3881-exploit-cisco-)
 - [homjxi0e/CVE-2017-3881-Cisco](https://github.com/homjxi0e/CVE-2017-3881-Cisco)
 - [mzakyz666/PoC-CVE-2017-3881](https://github.com/mzakyz666/PoC-CVE-2017-3881)
+- [1337g/CVE-2017-3881](https://github.com/1337g/CVE-2017-3881)
 
 ### CVE-2017-4490
 - [homjxi0e/CVE-2017-4490-](https://github.com/homjxi0e/CVE-2017-4490-)
@@ -28048,6 +28055,7 @@
 - [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
+- [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
 - [crypticdante/CVE-2017-7269](https://github.com/crypticdante/CVE-2017-7269)
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
@@ -28379,6 +28387,13 @@
 
 - [jakabakos/CVE-2017-9096-iText-XXE](https://github.com/jakabakos/CVE-2017-9096-iText-XXE)
 
+### CVE-2017-9097 (2017-06-15)
+
+<code>In Anti-Web through 3.8.7, as used on NetBiter FGW200 devices through 3.21.2, WS100 devices through 3.30.5, EC150 devices through 1.40.0, WS200 devices through 3.30.4, EC250 devices through 1.40.0, and other products, an LFI vulnerability allows a remote attacker to read or modify files through a path traversal technique, as demonstrated by reading the password file, or using the template parameter to cgi-bin/write.cgi to write to an arbitrary file.
+</code>
+
+- [MDudek-ICS/AntiWeb_testing-Suite](https://github.com/MDudek-ICS/AntiWeb_testing-Suite)
+
 ### CVE-2017-9101 (2017-05-21)
 
 <code>import.php (aka the Phonebook import feature) in PlaySMS 1.4 allows remote code execution via vectors involving the User-Agent HTTP header and PHP code in the name of a file.
@@ -28609,6 +28624,7 @@
 - [ZH3FENG/PoCs-Weblogic_2017_10271](https://github.com/ZH3FENG/PoCs-Weblogic_2017_10271)
 - [c0mmand3rOpSec/CVE-2017-10271](https://github.com/c0mmand3rOpSec/CVE-2017-10271)
 - [Luffin/CVE-2017-10271](https://github.com/Luffin/CVE-2017-10271)
+- [cjjduck/weblogic_wls_wsat_rce](https://github.com/cjjduck/weblogic_wls_wsat_rce)
 - [kkirsche/CVE-2017-10271](https://github.com/kkirsche/CVE-2017-10271)
 - [pssss/CVE-2017-10271](https://github.com/pssss/CVE-2017-10271)
 - [SuperHacker-liuan/cve-2017-10271-poc](https://github.com/SuperHacker-liuan/cve-2017-10271-poc)
@@ -29281,6 +29297,13 @@
 - [fssecur3/goahead-rce-exploit](https://github.com/fssecur3/goahead-rce-exploit)
 - [freitzzz/bash-CVE-2017-17562](https://github.com/freitzzz/bash-CVE-2017-17562)
 
+### CVE-2017-17692 (2017-12-21)
+
+<code>Samsung Internet Browser 5.4.02.3 allows remote attackers to bypass the Same Origin Policy and obtain sensitive information via crafted JavaScript code that redirects to a child tab and rewrites the innerHTML property.
+</code>
+
+- [specloli/CVE-2017-17692](https://github.com/specloli/CVE-2017-17692)
+
 ### CVE-2017-17736 (2018-03-23)
 
 <code>Kentico 9.0 before 9.0.51 and 10.0 before 10.0.48 allows remote attackers to obtain Global Administrator access by visiting CMSInstall/install.aspx and then navigating to the CMS Administration Dashboard.
@@ -29418,6 +29441,7 @@
 <code>Linux distributions that have not patched their long-term kernels with https://git.kernel.org/linus/a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (committed on April 14, 2015). This kernel vulnerability was fixed in April 2015 by commit a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (backported to Linux 3.10.77 in May 2015), but it was not recognized as a security threat. With CONFIG_ARCH_BINFMT_ELF_RANDOMIZE_PIE enabled, and a normal top-down address allocation strategy, load_elf_binary() will attempt to map a PIE binary into an address range immediately below mm-&gt;mmap_base. Unfortunately, load_elf_ binary() does not take account of the need to allocate sufficient space for the entire binary which means that, while the first PT_LOAD segment is mapped below mm-&gt;mmap_base, the subsequent PT_LOAD segment(s) end up being mapped above mm-&gt;mmap_base into the are that is supposed to be the &quot;gap&quot; between the stack and the binary.
 </code>
 
+- [RicterZ/PIE-Stack-Clash-CVE-2017-1000253](https://github.com/RicterZ/PIE-Stack-Clash-CVE-2017-1000253)
 - [sxlmnwb/CVE-2017-1000253](https://github.com/sxlmnwb/CVE-2017-1000253)
 
 ### CVE-2017-1000353 (2018-01-29)
@@ -30144,6 +30168,7 @@
 - [scumjr/dirtycow-vdso](https://github.com/scumjr/dirtycow-vdso)
 - [gbonacini/CVE-2016-5195](https://github.com/gbonacini/CVE-2016-5195)
 - [DavidBuchanan314/cowroot](https://github.com/DavidBuchanan314/cowroot)
+- [aishee/scan-dirtycow](https://github.com/aishee/scan-dirtycow)
 - [oleg-fiksel/ansible_CVE-2016-5195_check](https://github.com/oleg-fiksel/ansible_CVE-2016-5195_check)
 - [ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195)
 - [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
@@ -30744,7 +30769,6 @@
 - [1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
-- [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0311 (2015-01-23)
 
