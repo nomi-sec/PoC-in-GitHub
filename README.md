@@ -2693,7 +2693,7 @@
 ### CVE-2023-38836
 - [1337kid/CVE-2023-38836](https://github.com/1337kid/CVE-2023-38836)
 
-### CVE-2023-39115 (-)
+### CVE-2023-39115 (2023-08-16)
 
 <code>install/aiz-uploader/upload in Campcodes Online Matrimonial Website System Script 3.3 allows XSS via a crafted SVG document.
 </code>
