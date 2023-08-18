@@ -449,6 +449,9 @@
 - [Rajneeshkarya/CVE-2023-3460](https://github.com/Rajneeshkarya/CVE-2023-3460)
 - [BlackReaperSK/CVE-2023-3460_POC](https://github.com/BlackReaperSK/CVE-2023-3460_POC)
 
+### CVE-2023-3499
+- [Priece001/cve-2023-3499](https://github.com/Priece001/cve-2023-3499)
+
 ### CVE-2023-3519 (2023-07-19)
 
 <code>Unauthenticated remote code execution\n
@@ -487,6 +490,13 @@
 </code>
 
 - [nokn0wthing/CVE-2023-20052](https://github.com/nokn0wthing/CVE-2023-20052)
+
+### CVE-2023-20073 (2023-04-05)
+
+<code>A vulnerability in the web-based management interface of Cisco RV340, RV340W, RV345, and RV345P Dual WAN Gigabit VPN Routers could allow an unauthenticated, remote attacker to upload arbitrary files to an affected device. This vulnerability is due to insufficient authorization enforcement mechanisms in the context of file uploads. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to upload arbitrary files to the affected device.
+</code>
+
+- [RegularITCat/CVE-2023-20073](https://github.com/RegularITCat/CVE-2023-20073)
 
 ### CVE-2023-20110 (2023-05-17)
 
@@ -2335,6 +2345,9 @@
 </code>
 
 - [funny-kill/CVE-2023-34852](https://github.com/funny-kill/CVE-2023-34852)
+
+### CVE-2023-34853
+- [risuxx/CVE-2023-34853](https://github.com/risuxx/CVE-2023-34853)
 
 ### CVE-2023-34924 (2023-06-26)
 
@@ -27911,6 +27924,7 @@
 
 - [Frivolous-scholar/CVE-2017-5941-NodeJS-RCE](https://github.com/Frivolous-scholar/CVE-2017-5941-NodeJS-RCE)
 - [Cr4zyD14m0nd137/Lab-for-cve-2018-15133](https://github.com/Cr4zyD14m0nd137/Lab-for-cve-2018-15133)
+- [arthurvmbl/nodejshell](https://github.com/arthurvmbl/nodejshell)
 
 ### CVE-2017-6008 (2017-09-13)
 
@@ -30783,7 +30797,6 @@
 - [1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
-- [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0311 (2015-01-23)
 
