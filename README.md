@@ -2746,6 +2746,15 @@
 
 - [dnkhack/fixcve2023_39526_2023_39527](https://github.com/dnkhack/fixcve2023_39526_2023_39527)
 
+### CVE-2023-39707
+- [Arajawat007/CVE-2023-39707](https://github.com/Arajawat007/CVE-2023-39707)
+
+### CVE-2023-39710
+- [Arajawat007/CVE-2023-39710](https://github.com/Arajawat007/CVE-2023-39710)
+
+### CVE-2023-39711
+- [Arajawat007/CVE-2023-39711](https://github.com/Arajawat007/CVE-2023-39711)
+
 ### CVE-2023-40294 (2023-08-13)
 
 <code>libboron in Boron 2.0.8 has a heap-based buffer overflow in ur_parseBlockI at i_parse_blk.c.
@@ -11160,7 +11169,7 @@
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
-- [ch4t4pt/CVE-2021-26084-EXP](https://github.com/ch4t4pt/CVE-2021-26084-EXP)
+- [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
 
 ### CVE-2021-26085 (2021-08-02)
 
