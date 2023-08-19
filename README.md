@@ -4945,7 +4945,7 @@
 <code>Windows SMB Remote Code Execution Vulnerability
 </code>
 
-- [yusufazizmustofa/CVE-2022-24500](https://github.com/yusufazizmustofa/CVE-2022-24500)
+- [0xZipp0/CVE-2022-24500](https://github.com/0xZipp0/CVE-2022-24500)
 
 ### CVE-2022-24611 (2022-05-17)
 
@@ -23070,6 +23070,7 @@
 - [g1vi/CVE-2019-15107](https://github.com/g1vi/CVE-2019-15107)
 - [K3ysTr0K3R/CVE-2019-15107-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2019-15107-EXPLOIT)
 - [gozn/detect-CVE-2019-15107-by-pyshark](https://github.com/gozn/detect-CVE-2019-15107-by-pyshark)
+- [h4ck0rman/CVE-2019-15107](https://github.com/h4ck0rman/CVE-2019-15107)
 
 ### CVE-2019-15112 (2019-08-21)
 
@@ -33491,6 +33492,13 @@
 </code>
 
 - [akbarq/CVE-2009-0473-check](https://github.com/akbarq/CVE-2009-0473-check)
+
+### CVE-2009-0689 (2009-07-01)
+
+<code>Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
+</code>
+
+- [Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax)
 
 ### CVE-2009-1151 (2009-03-26)
 
