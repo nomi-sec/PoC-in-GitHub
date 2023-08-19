@@ -2711,7 +2711,11 @@
 ### CVE-2023-38836
 - [1337kid/CVE-2023-38836](https://github.com/1337kid/CVE-2023-38836)
 
-### CVE-2023-38890
+### CVE-2023-38890 (2023-08-18)
+
+<code>Online Shopping Portal Project 3.1 allows remote attackers to execute arbitrary SQL commands/queries via the login form, leading to unauthorized access and potential data manipulation. This vulnerability arises due to insufficient validation of user-supplied input in the username field, enabling SQL Injection attacks.
+</code>
+
 - [akshadjoshi/CVE-2023-38890](https://github.com/akshadjoshi/CVE-2023-38890)
 
 ### CVE-2023-39115 (2023-08-16)
@@ -13489,7 +13493,7 @@
 <code>The username and password field of login in Lodging Reservation Management System V1 can give access to any user by using SQL injection to bypass authentication.
 </code>
 
-- [Ni7inSharma/CVE-2021-41511](https://github.com/Ni7inSharma/CVE-2021-41511)
+- [vidvansh/CVE-2021-41511](https://github.com/vidvansh/CVE-2021-41511)
 
 ### CVE-2021-41560 (2021-12-15)
 
@@ -25720,6 +25724,7 @@
 - [LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995](https://github.com/LeQuocKhanh2K/Tool_Exploit_Password_Camera_CVE-2018-9995)
 - [hoaan1995/CVE-2018-9995](https://github.com/hoaan1995/CVE-2018-9995)
 - [ST0PL/DVRFaultNET](https://github.com/ST0PL/DVRFaultNET)
+- [K3ysTr0K3R/CVE-2018-9995-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2018-9995-EXPLOIT)
 
 ### CVE-2018-10118 (2018-04-15)
 
@@ -33486,13 +33491,6 @@
 </code>
 
 - [akbarq/CVE-2009-0473-check](https://github.com/akbarq/CVE-2009-0473-check)
-
-### CVE-2009-0689 (2009-07-01)
-
-<code>Array index error in the (1) dtoa implementation in dtoa.c (aka pdtoa.c) and the (2) gdtoa (aka new dtoa) implementation in gdtoa/misc.c in libc, as used in multiple operating systems and products including in FreeBSD 6.4 and 7.2, NetBSD 5.0, OpenBSD 4.5, Mozilla Firefox 3.0.x before 3.0.15 and 3.5.x before 3.5.4, K-Meleon 1.5.3, SeaMonkey 1.1.8, and other products, allows context-dependent attackers to cause a denial of service (application crash) and possibly execute arbitrary code via a large precision value in the format argument to a printf function, which triggers incorrect memory allocation and a heap-based buffer overflow during conversion to a floating-point number.
-</code>
-
-- [Fullmetal5/str2hax](https://github.com/Fullmetal5/str2hax)
 
 ### CVE-2009-1151 (2009-03-26)
 
