@@ -2568,7 +2568,11 @@
 
 - [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
 
-### CVE-2023-37250
+### CVE-2023-37250 (2023-08-20)
+
+<code>Unity Parsec before 8 has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs.
+</code>
+
 - [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
 
 ### CVE-2023-37474 (2023-07-14)
@@ -2823,6 +2827,14 @@
 </code>
 
 - [Haxatron/CVE-2022-0219](https://github.com/Haxatron/CVE-2022-0219)
+
+### CVE-2022-0236 (2022-01-18)
+
+<code>The WP Import Export WordPress plugin (both free and premium versions) is vulnerable to unauthenticated sensitive data disclosure due to a missing capability check on the download function wpie_process_file_download found in the ~/includes/classes/class-wpie-general.php file. This made it possible for unauthenticated attackers to download any imported or exported information from a vulnerable site which can contain sensitive information like user data. This affects versions up to, and including, 3.9.15.
+</code>
+
+- [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
+- [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
 ### CVE-2022-0265 (2022-03-03)
 
@@ -4133,6 +4145,8 @@
 
 - [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
+- [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
+- [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
@@ -12434,6 +12448,7 @@
 - [m8sec/CVE-2021-34527](https://github.com/m8sec/CVE-2021-34527)
 - [hackerhouse-opensource/cve-2021-34527](https://github.com/hackerhouse-opensource/cve-2021-34527)
 - [fardinbarashi/PsFix-CVE-2021-34527](https://github.com/fardinbarashi/PsFix-CVE-2021-34527)
+- [d0rb/CVE-2021-34527](https://github.com/d0rb/CVE-2021-34527)
 
 ### CVE-2021-34558 (2021-07-15)
 
