@@ -2749,11 +2749,23 @@
 ### CVE-2023-39707
 - [Arajawat007/CVE-2023-39707](https://github.com/Arajawat007/CVE-2023-39707)
 
+### CVE-2023-39708
+- [Arajawat007/CVE-2023-39708](https://github.com/Arajawat007/CVE-2023-39708)
+
+### CVE-2023-39709
+- [Arajawat007/CVE-2023-39709](https://github.com/Arajawat007/CVE-2023-39709)
+
 ### CVE-2023-39710
 - [Arajawat007/CVE-2023-39710](https://github.com/Arajawat007/CVE-2023-39710)
 
 ### CVE-2023-39711
 - [Arajawat007/CVE-2023-39711](https://github.com/Arajawat007/CVE-2023-39711)
+
+### CVE-2023-39712
+- [Arajawat007/CVE-2023-39712](https://github.com/Arajawat007/CVE-2023-39712)
+
+### CVE-2023-39714
+- [Arajawat007/CVE-2023-39714](https://github.com/Arajawat007/CVE-2023-39714)
 
 ### CVE-2023-40294 (2023-08-13)
 
@@ -13708,7 +13720,6 @@
 - [TheKernelPanic/exploit-apache2-cve-2021-41773](https://github.com/TheKernelPanic/exploit-apache2-cve-2021-41773)
 - [retrymp3/apache2.4.49VulnerableLabSetup](https://github.com/retrymp3/apache2.4.49VulnerableLabSetup)
 - [MatanelGordon/docker-cve-2021-41773](https://github.com/MatanelGordon/docker-cve-2021-41773)
-- [K3ysTr0K3R/CVE-2021-41773-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-41773-EXPLOIT)
 - [0xGabe/Apache-CVEs](https://github.com/0xGabe/Apache-CVEs)
 - [OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits](https://github.com/OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits)
 - [belajarqywok/cve-2021-41773-msf](https://github.com/belajarqywok/cve-2021-41773-msf)
@@ -27150,6 +27161,7 @@
 - [kriso4os/CVE-2018-25031](https://github.com/kriso4os/CVE-2018-25031)
 - [rafaelcintralopes/SwaggerUI-CVE-2018-25031](https://github.com/rafaelcintralopes/SwaggerUI-CVE-2018-25031)
 - [mathis2001/CVE-2018-25031](https://github.com/mathis2001/CVE-2018-25031)
+- [LUCASRENAA/CVE-2018-25031](https://github.com/LUCASRENAA/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
