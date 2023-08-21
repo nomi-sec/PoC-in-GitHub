@@ -524,6 +524,14 @@
 
 - [Wh04m1001/CVE-2023-20178](https://github.com/Wh04m1001/CVE-2023-20178)
 
+### CVE-2023-20562 (2023-08-08)
+
+<code>\n\n\nInsufficient validation in the IOCTL (Input Output Control) input buffer in AMD uProf may allow an authenticated user to load an unsigned driver potentially leading to arbitrary kernel execution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+</code>
+
+- [zeze-zeze/HITCON-2023-Demo-CVE-2023-20562](https://github.com/zeze-zeze/HITCON-2023-Demo-CVE-2023-20562)
+- [passwa11/HITCON-2023-Demo-CVE-2023-20562](https://github.com/passwa11/HITCON-2023-Demo-CVE-2023-20562)
+
 ### CVE-2023-20593 (2023-07-24)
 
 <code>\nAn issue in “Zen 2” CPUs, under specific microarchitectural circumstances, may allow an attacker to potentially access sensitive information.\n\n\n\n\n\n\n
@@ -977,6 +985,7 @@
 <code>Cross site scripting vulnerability in Citrix ADC and Citrix Gateway  in allows and attacker to perform cross site scripting
 </code>
 
+- [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
 - [Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488)
 - [securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488)
 - [codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488)
@@ -1401,6 +1410,7 @@
 
 - [gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343)
 - [superzerosec/CVE-2023-28343](https://github.com/superzerosec/CVE-2023-28343)
+- [hba343434/CVE-2023-28343](https://github.com/hba343434/CVE-2023-28343)
 
 ### CVE-2023-28432 (2023-03-22)
 
@@ -1419,6 +1429,7 @@
 - [h0ng10/CVE-2023-28432_docker](https://github.com/h0ng10/CVE-2023-28432_docker)
 - [CHINA-china/MinIO_CVE-2023-28432_EXP](https://github.com/CHINA-china/MinIO_CVE-2023-28432_EXP)
 - [TaroballzChen/CVE-2023-28432-metasploit-scanner](https://github.com/TaroballzChen/CVE-2023-28432-metasploit-scanner)
+- [bingtangbanli/CVE-2023-28432](https://github.com/bingtangbanli/CVE-2023-28432)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -1944,6 +1955,7 @@
 - [YouGina/CVE-2023-32243](https://github.com/YouGina/CVE-2023-32243)
 - [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
+- [Jenderal92/WP-CVE-2023-32243](https://github.com/Jenderal92/WP-CVE-2023-32243)
 - [shaoyu521/Mass-CVE-2023-32243](https://github.com/shaoyu521/Mass-CVE-2023-32243)
 
 ### CVE-2023-32315 (2023-05-26)
@@ -2371,6 +2383,7 @@
 </code>
 
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
+- [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
 - [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
 - [Pari-Malam/CVE-2023-34960](https://github.com/Pari-Malam/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
@@ -2570,6 +2583,13 @@
 </code>
 
 - [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
+
+### CVE-2023-37250 (2023-08-20)
+
+<code>Unity Parsec before 8 has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs.
+</code>
+
+- [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
 
 ### CVE-2023-37474 (2023-07-14)
 
@@ -27877,7 +27897,6 @@
 - [sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638](https://github.com/sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638)
 - [R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-](https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-)
 - [Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638)
-- [TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
@@ -30229,7 +30248,6 @@
 <code>GNU wget before 1.18 allows remote servers to write to arbitrary files by redirecting a request from HTTP to a crafted FTP resource.
 </code>
 
-- [gitcollect/CVE-2016-4971](https://github.com/gitcollect/CVE-2016-4971)
 - [mbadanoiu/CVE-2016-4971](https://github.com/mbadanoiu/CVE-2016-4971)
 - [dinidhu96/IT19013756_-CVE-2016-4971-](https://github.com/dinidhu96/IT19013756_-CVE-2016-4971-)
 
@@ -30337,7 +30355,6 @@
 
 - [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
 - [violentshell/rover](https://github.com/violentshell/rover)
-- [jduck/challack](https://github.com/jduck/challack)
 - [bplinux/chackd](https://github.com/bplinux/chackd)
 - [unkaktus/grill](https://github.com/unkaktus/grill)
 
