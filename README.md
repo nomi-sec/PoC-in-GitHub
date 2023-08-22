@@ -465,6 +465,7 @@
 - [passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519)
 - [rwincey/cve-2023-3519](https://github.com/rwincey/cve-2023-3519)
 - [mandiant/citrix-ioc-scanner-cve-2023-3519](https://github.com/mandiant/citrix-ioc-scanner-cve-2023-3519)
+- [knitteruntil0s/CVE-2023-3519](https://github.com/knitteruntil0s/CVE-2023-3519)
 
 ### CVE-2023-3640 (2023-07-24)
 
@@ -2027,6 +2028,20 @@
 
 - [LOURC0D3/CVE-2023-32961](https://github.com/LOURC0D3/CVE-2023-32961)
 
+### CVE-2023-33157 (2023-07-11)
+
+<code>Microsoft SharePoint Remote Code Execution Vulnerability
+</code>
+
+- [hipnesspatten/CVE-2023-33157](https://github.com/hipnesspatten/CVE-2023-33157)
+
+### CVE-2023-33160 (2023-07-11)
+
+<code>Microsoft SharePoint Server Remote Code Execution Vulnerability
+</code>
+
+- [hipnesspatten/CVE-2023-33160](https://github.com/hipnesspatten/CVE-2023-33160)
+
 ### CVE-2023-33242 (2023-08-09)
 
 <code>Crypto wallets implementing the Lindell17 TSS protocol might allow an attacker to extract the full ECDSA private key by exfiltrating a single bit in every signature attempt (256 in total) because of not adhering to the paper's security proof's assumption regarding handling aborts after a failed signature.
@@ -2833,6 +2848,9 @@
 
 ### CVE-2023-40297
 - [sahar042/CVE-2023-40297](https://github.com/sahar042/CVE-2023-40297)
+
+### CVE-2023-40477
+- [whalersplonk/CVE-2023-40477](https://github.com/whalersplonk/CVE-2023-40477)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -4414,9 +4432,9 @@
 - [Greetdawn/CVE-2022-22947](https://github.com/Greetdawn/CVE-2022-22947)
 - [Summer177/Spring-Cloud-Gateway-CVE-2022-22947](https://github.com/Summer177/Spring-Cloud-Gateway-CVE-2022-22947)
 - [BerMalBerIst/CVE-2022-22947](https://github.com/BerMalBerIst/CVE-2022-22947)
-- [york-cmd/CVE-2022-22947-goby](https://github.com/york-cmd/CVE-2022-22947-goby)
 - [tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway](https://github.com/tangxiaofeng7/CVE-2022-22947-Spring-Cloud-Gateway)
 - [dingxiao77/-cve-2022-22947-](https://github.com/dingxiao77/-cve-2022-22947-)
+- [flying0er/CVE-2022-22947-goby](https://github.com/flying0er/CVE-2022-22947-goby)
 - [dbgee/CVE-2022-22947](https://github.com/dbgee/CVE-2022-22947)
 - [nu0l/cve-2022-22947](https://github.com/nu0l/cve-2022-22947)
 - [nanaao/CVE-2022-22947-POC](https://github.com/nanaao/CVE-2022-22947-POC)
