@@ -2849,9 +2849,6 @@
 ### CVE-2023-40297
 - [sahar042/CVE-2023-40297](https://github.com/sahar042/CVE-2023-40297)
 
-### CVE-2023-40477
-- [whalersplonk/CVE-2023-40477](https://github.com/whalersplonk/CVE-2023-40477)
-
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
@@ -29766,7 +29763,6 @@
 <code>Directory traversal vulnerability in Action View in Ruby on Rails before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 allows remote attackers to read arbitrary files by leveraging an application's unrestricted use of the render method and providing a .. (dot dot) in a pathname.
 </code>
 
-- [forced-request/rails-rce-cve-2016-0752](https://github.com/forced-request/rails-rce-cve-2016-0752)
 - [dachidahu/CVE-2016-0752](https://github.com/dachidahu/CVE-2016-0752)
 
 ### CVE-2016-0792 (2016-04-07)
@@ -29799,21 +29795,6 @@
 
 - [abdsec/CVE-2016-0801](https://github.com/abdsec/CVE-2016-0801)
 - [zsaurus/CVE-2016-0801-test](https://github.com/zsaurus/CVE-2016-0801-test)
-
-### CVE-2016-0805 (2016-02-06)
-
-<code>The performance event manager for Qualcomm ARM processors in Android 4.x before 4.4.4, 5.x before 5.1.1 LMY49G, and 6.x before 2016-02-01 allows attackers to gain privileges via a crafted application, aka internal bug 25773204.
-</code>
-
-- [hulovebin/cve-2016-0805](https://github.com/hulovebin/cve-2016-0805)
-
-### CVE-2016-0846 (2016-04-17)
-
-<code>libs/binder/IMemory.cpp in the IMemory Native Interface in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, and 6.x before 2016-04-01 does not properly consider the heap size, which allows attackers to gain privileges via a crafted application, as demonstrated by obtaining Signature or SignatureOrSystem access, aka internal bug 26877992.
-</code>
-
-- [secmob/CVE-2016-0846](https://github.com/secmob/CVE-2016-0846)
-- [b0b0505/CVE-2016-0846-PoC](https://github.com/b0b0505/CVE-2016-0846-PoC)
 
 ### CVE-2016-0974 (2016-02-10)
 
@@ -29881,13 +29862,6 @@
 
 - [gdbinit/mach_race](https://github.com/gdbinit/mach_race)
 
-### CVE-2016-1764 (2016-03-23)
-
-<code>The Content Security Policy (CSP) implementation in Messages in Apple OS X before 10.11.4 allows remote attackers to obtain sensitive information via a javascript: URL.
-</code>
-
-- [moloch--/cve-2016-1764](https://github.com/moloch--/cve-2016-1764)
-
 ### CVE-2016-1825 (2016-05-20)
 
 <code>IOHIDFamily in Apple OS X before 10.11.5 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
@@ -29944,13 +29918,6 @@
 - [FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107)
 - [tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107)
 
-### CVE-2016-2118 (2016-04-12)
-
-<code>The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka &quot;BADLOCK.&quot;
-</code>
-
-- [nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118)
-
 ### CVE-2016-2173 (2017-04-21)
 
 <code>org.springframework.core.serializer.DefaultDeserializer in Spring AMQP before 1.5.5 allows remote attackers to execute arbitrary code.
@@ -29985,14 +29952,6 @@
 </code>
 
 - [murataydemir/CVE-2016-2386](https://github.com/murataydemir/CVE-2016-2386)
-
-### CVE-2016-2402 (2017-01-30)
-
-<code>OkHttp before 2.7.4 and 3.x before 3.1.2 allows man-in-the-middle attackers to bypass certificate pinning by sending a certificate chain with a certificate from a non-pinned trusted CA and the pinned certificate.
-</code>
-
-- [ikoz/cert-pinning-flaw-poc](https://github.com/ikoz/cert-pinning-flaw-poc)
-- [ikoz/certPinningVulnerableOkHttp](https://github.com/ikoz/certPinningVulnerableOkHttp)
 
 ### CVE-2016-2431 (2016-05-09)
 
@@ -30071,13 +30030,6 @@
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
-
-### CVE-2016-3141 (2016-03-31)
-
-<code>Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
-</code>
-
-- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
