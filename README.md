@@ -613,6 +613,7 @@
 </code>
 
 - [zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC)
+- [3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554)
 
 ### CVE-2023-21608 (2023-01-18)
 
@@ -2549,6 +2550,7 @@
 </code>
 
 - [d0rb/CVE-2023-36874](https://github.com/d0rb/CVE-2023-36874)
+- [c4m3l-security/CVE-2023-36874](https://github.com/c4m3l-security/CVE-2023-36874)
 
 ### CVE-2023-36884 (2023-07-11)
 
@@ -2602,7 +2604,7 @@
 
 ### CVE-2023-37250 (2023-08-20)
 
-<code>Unity Parsec before 8 has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs.
+<code>Unity Parsec has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs. This affects Parsec Loader versions through 8. Parsec Loader 9 is a fixed version.
 </code>
 
 - [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
@@ -20375,6 +20377,8 @@
 - [PrinceFPF/CVE-2019-0230](https://github.com/PrinceFPF/CVE-2019-0230)
 - [ramoncjs3/CVE-2019-0230](https://github.com/ramoncjs3/CVE-2019-0230)
 - [f8al/CVE-2019-0230-PoC](https://github.com/f8al/CVE-2019-0230-PoC)
+- [Al1ex/CVE-2019-0230](https://github.com/Al1ex/CVE-2019-0230)
+- [tw-eason-tseng/CVE-2019-0230_Struts2S2-059](https://github.com/tw-eason-tseng/CVE-2019-0230_Struts2S2-059)
 
 ### CVE-2019-0232 (2019-04-15)
 
@@ -20555,6 +20559,13 @@
 - [YHZX2013/CVE-2019-0709](https://github.com/YHZX2013/CVE-2019-0709)
 - [qq431169079/CVE-2019-0709](https://github.com/qq431169079/CVE-2019-0709)
 
+### CVE-2019-0752 (2019-04-09)
+
+<code>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2019-0739, CVE-2019-0753, CVE-2019-0862.
+</code>
+
+- [ZwCreatePhoton/CVE-2019-0752](https://github.com/ZwCreatePhoton/CVE-2019-0752)
+
 ### CVE-2019-0768 (2019-04-08)
 
 <code>A security feature bypass vulnerability exists when Internet Explorer VBScript execution policy does not properly restrict VBScript under specific conditions, and to allow requests that should otherwise be ignored, aka 'Internet Explorer Security Feature Bypass Vulnerability'. This CVE ID is unique from CVE-2019-0761.
@@ -20644,6 +20655,7 @@
 - [Ridter/CVE-2019-1040-dcpwn](https://github.com/Ridter/CVE-2019-1040-dcpwn)
 - [lazaars/UltraRealy_with_CVE-2019-1040](https://github.com/lazaars/UltraRealy_with_CVE-2019-1040)
 - [fox-it/cve-2019-1040-scanner](https://github.com/fox-it/cve-2019-1040-scanner)
+- [QAX-A-Team/dcpwn](https://github.com/QAX-A-Team/dcpwn)
 
 ### CVE-2019-1041 (2019-06-12)
 
@@ -20738,6 +20750,13 @@
 </code>
 
 - [d0gukank/CVE-2019-1218](https://github.com/d0gukank/CVE-2019-1218)
+
+### CVE-2019-1221 (2019-09-11)
+
+<code>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'.
+</code>
+
+- [ZwCreatePhoton/CVE-2019-1221](https://github.com/ZwCreatePhoton/CVE-2019-1221)
 
 ### CVE-2019-1253 (2019-09-11)
 
@@ -21126,6 +21145,7 @@
 <code>The Solarwinds Dameware Mini Remote Client agent v12.1.0.89 supports smart card authentication which can allow a user to upload an executable to be executed on the DWRCS.exe host. An unauthenticated, remote attacker can request smart card login and upload and execute an arbitrary executable run under the Local System account.
 </code>
 
+- [warferik/CVE-2019-3980](https://github.com/warferik/CVE-2019-3980)
 - [Barbarisch/CVE-2019-3980](https://github.com/Barbarisch/CVE-2019-3980)
 
 ### CVE-2019-5010 (2019-10-31)
@@ -21188,6 +21208,20 @@
 - [trickstersec/CVE-2019-5420](https://github.com/trickstersec/CVE-2019-5420)
 - [PenTestical/CVE-2019-5420](https://github.com/PenTestical/CVE-2019-5420)
 - [laffray/ruby-RCE-CVE-2019-5420-](https://github.com/laffray/ruby-RCE-CVE-2019-5420-)
+
+### CVE-2019-5427 (2019-04-22)
+
+<code>c3p0 version &lt; 0.9.5.4 may be exploited by a billion laughs attack when loading XML configuration due to missing protections against recursive entity expansion when loading configuration.
+</code>
+
+- [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
+
+### CVE-2019-5454 (2019-07-30)
+
+<code>SQL Injection in the Nextcloud Android app prior to version 3.0.0 allows to destroy a local cache when a harmful query is executed requiring to resetup the account.
+</code>
+
+- [shanika04/nextcloud_android](https://github.com/shanika04/nextcloud_android)
 
 ### CVE-2019-5475 (2019-09-03)
 
@@ -21503,6 +21537,7 @@
 <code>SmarterTools SmarterMail 16.x before build 6985 allows deserialization of untrusted data. An unauthenticated attacker could run commands on the server when port 17001 was remotely accessible. This port is not accessible remotely by default after applying the Build 6985 patch.
 </code>
 
+- [devzspy/CVE-2019-7214](https://github.com/devzspy/CVE-2019-7214)
 - [andyfeili/-CVE-2019-7214](https://github.com/andyfeili/-CVE-2019-7214)
 
 ### CVE-2019-7216 (2019-01-31)
@@ -21880,6 +21915,13 @@
 
 - [francozappa/knob](https://github.com/francozappa/knob)
 
+### CVE-2019-9511 (2019-08-13)
+
+<code>Some HTTP/2 implementations are vulnerable to window size manipulation and stream prioritization manipulation, potentially leading to a denial of service. The attacker requests a large amount of data from a specified resource over multiple streams. They manipulate window size and stream priority to force the server to queue the data in 1-byte chunks. Depending on how efficiently this data is queued, this can consume excess CPU, memory, or both.
+</code>
+
+- [flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5)
+
 ### CVE-2019-9580 (2019-03-08)
 
 <code>In st2web in StackStorm Web UI before 2.9.3 and 2.10.x before 2.10.3, it is possible to bypass the CORS protection mechanism via a &quot;null&quot; origin value, potentially leading to XSS.
@@ -22138,6 +22180,13 @@
 
 - [KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869)
 
+### CVE-2019-10915 (2019-07-11)
+
+<code>A vulnerability has been identified in TIA Administrator (All versions &lt; V1.0 SP1 Upd1). The integrated configuration web application (TIA Administrator) allows to execute certain application commands without proper authentication. The vulnerability could be exploited by an attacker with local access to the affected system. Successful exploitation requires no privileges and no user interaction. An attacker could use the vulnerability to compromise confidentiality and integrity and availability of the affected system. At the time of advisory publication no public exploitation of this security vulnerability was known.
+</code>
+
+- [jiansiting/CVE-2019-10915](https://github.com/jiansiting/CVE-2019-10915)
+
 ### CVE-2019-10945 (2019-04-10)
 
 <code>An issue was discovered in Joomla! before 3.9.5. The Media Manager component does not properly sanitize the folder parameter, allowing attackers to act outside the media manager root directory.
@@ -22293,6 +22342,7 @@
 <code>There was a server-side template injection vulnerability in Jira Server and Data Center, in the ContactAdministrators and the SendBulkMail actions. An attacker is able to remotely execute code on systems that run a vulnerable version of Jira Server or Data Center. All versions of Jira Server and Data Center from 4.4.0 before 7.6.14, from 7.7.0 before 7.13.5, from 8.0.0 before 8.0.3, from 8.1.0 before 8.1.2, and from 8.2.0 before 8.2.3 are affected by this vulnerability.
 </code>
 
+- [jas502n/CVE-2019-11581](https://github.com/jas502n/CVE-2019-11581)
 - [kobs0N/CVE-2019-11581](https://github.com/kobs0N/CVE-2019-11581)
 - [PetrusViet/CVE-2019-11581](https://github.com/PetrusViet/CVE-2019-11581)
 
@@ -22359,6 +22409,7 @@
 - [Err0r-ICA/WhatsPayloadRCE](https://github.com/Err0r-ICA/WhatsPayloadRCE)
 - [starling021/CVE-2019-11932-SupportApp](https://github.com/starling021/CVE-2019-11932-SupportApp)
 - [primebeast/CVE-2019-11932](https://github.com/primebeast/CVE-2019-11932)
+- [BadAssAiras/hello](https://github.com/BadAssAiras/hello)
 - [kal1gh0st/WhatsAppHACK-RCE](https://github.com/kal1gh0st/WhatsAppHACK-RCE)
 - [zxn1/CVE-2019-11932](https://github.com/zxn1/CVE-2019-11932)
 - [k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932](https://github.com/k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932)
@@ -22611,6 +22662,7 @@
 
 - [bkaraceylan/CVE-2019-12840_POC](https://github.com/bkaraceylan/CVE-2019-12840_POC)
 - [KrE80r/webmin_cve-2019-12840_poc](https://github.com/KrE80r/webmin_cve-2019-12840_poc)
+- [anasbousselham/webminscan](https://github.com/anasbousselham/webminscan)
 - [zAbuQasem/CVE-2019-12840](https://github.com/zAbuQasem/CVE-2019-12840)
 - [WizzzStark/CVE-2019-12840.py](https://github.com/WizzzStark/CVE-2019-12840.py)
 
@@ -22737,6 +22789,7 @@
 - [RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-](https://github.com/RashmikaEkanayake/Privilege-Escalation-CVE-2019-13272-)
 - [Tharana/vulnerability-exploitation](https://github.com/Tharana/vulnerability-exploitation)
 - [teddy47/CVE-2019-13272---Documentation](https://github.com/teddy47/CVE-2019-13272---Documentation)
+- [datntsec/CVE-2019-13272](https://github.com/datntsec/CVE-2019-13272)
 - [jana30116/CVE-2019-13272-Local-Privilege-Escalation](https://github.com/jana30116/CVE-2019-13272-Local-Privilege-Escalation)
 - [babyshen/CVE-2019-13272](https://github.com/babyshen/CVE-2019-13272)
 - [GgKendall/secureCodingDemo](https://github.com/GgKendall/secureCodingDemo)
@@ -23019,6 +23072,13 @@
 </code>
 
 - [Fr3d-/moodle-token-stealer](https://github.com/Fr3d-/moodle-token-stealer)
+
+### CVE-2019-14900 (2020-07-06)
+
+<code>A flaw was found in Hibernate ORM in versions before 5.3.18, 5.4.18 and 5.5.0.Beta1. A SQL injection in the implementation of the JPA Criteria API can permit unsanitized literals when a literal is used in the SELECT or GROUP BY parts of the query. This flaw could allow an attacker to access unauthorized information or possibly conduct further attacks.
+</code>
+
+- [shanika04/hibernate-orm](https://github.com/shanika04/hibernate-orm)
 
 ### CVE-2019-14912 (2019-09-20)
 
@@ -23366,6 +23426,13 @@
 - [maxpl0it/CVE-2019-17026-Exploit](https://github.com/maxpl0it/CVE-2019-17026-Exploit)
 - [lsw29475/CVE-2019-17026](https://github.com/lsw29475/CVE-2019-17026)
 
+### CVE-2019-17041 (2019-10-07)
+
+<code>An issue was discovered in Rsyslog v8.1908.0. contrib/pmaixforwardedfrom/pmaixforwardedfrom.c has a heap overflow in the parser for AIX log messages. The parser tries to locate a log message delimiter (in this case, a space or a colon) but fails to account for strings that do not satisfy this constraint. If the string does not match, then the variable lenMsg will reach the value zero and will skip the sanity check that detects invalid log messages. The message will then be considered valid, and the parser will eat up the nonexistent colon delimiter. In doing so, it will decrement lenMsg, a signed integer, whose value was zero and now becomes minus one. The following step in the parser is to shift left the contents of the message. To do this, it will call memmove with the right pointers to the target and destination strings, but the lenMsg will now be interpreted as a huge value, causing a heap overflow.
+</code>
+
+- [Resery/CVE-2019-17041](https://github.com/Resery/CVE-2019-17041)
+
 ### CVE-2019-17080 (2019-10-02)
 
 <code>mintinstall (aka Software Manager) 7.9.9 for Linux Mint allows code execution if a REVIEWS_CACHE file is controlled by an attacker, because an unpickle occurs. This is resolved in 8.0.0 and backports.
@@ -23479,6 +23546,7 @@
 - [SDNDTeam/CVE-2019-17558_Solr_Vul_Tool](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
 - [zhzyker/exphub](https://github.com/zhzyker/exphub)
 - [Ma1Dong/Solr_CVE-2019-17558](https://github.com/Ma1Dong/Solr_CVE-2019-17558)
+- [xkyrage/Exploit_CVE-2019-17558-RCE](https://github.com/xkyrage/Exploit_CVE-2019-17558-RCE)
 - [narrowinxt/CVE-2019-17558](https://github.com/narrowinxt/CVE-2019-17558)
 
 ### CVE-2019-17564 (2020-04-01)
