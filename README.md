@@ -2559,7 +2559,7 @@
 </code>
 
 - [d0rb/CVE-2023-36874](https://github.com/d0rb/CVE-2023-36874)
-- [c4m3l-security/CVE-2023-36874](https://github.com/c4m3l-security/CVE-2023-36874)
+- [crisprss/CVE-2023-36874](https://github.com/crisprss/CVE-2023-36874)
 - [Wh04m1001/CVE-2023-36874](https://github.com/Wh04m1001/CVE-2023-36874)
 
 ### CVE-2023-36884 (2023-07-11)
@@ -22412,7 +22412,9 @@
 
 - [dorkerdevil/CVE-2019-11932](https://github.com/dorkerdevil/CVE-2019-11932)
 - [awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932)
+- [JasonJerry/WhatsRCE](https://github.com/JasonJerry/WhatsRCE)
 - [TulungagungCyberLink/CVE-2019-11932](https://github.com/TulungagungCyberLink/CVE-2019-11932)
+- [infiniteLoopers/CVE-2019-11932](https://github.com/infiniteLoopers/CVE-2019-11932)
 - [5l1v3r1/CVE-2019-11932](https://github.com/5l1v3r1/CVE-2019-11932)
 - [valbrux/CVE-2019-11932-SupportApp](https://github.com/valbrux/CVE-2019-11932-SupportApp)
 - [fastmo/CVE-2019-11932](https://github.com/fastmo/CVE-2019-11932)
@@ -22586,6 +22588,13 @@
 </code>
 
 - [tarantula-team/CVE-2019-12543](https://github.com/tarantula-team/CVE-2019-12543)
+
+### CVE-2019-12562 (2019-09-26)
+
+<code>Stored Cross-Site Scripting in DotNetNuke (DNN) Version before 9.4.0 allows remote attackers to store and embed the malicious script into the admin notification page. The exploit could be used to perfom any action with admin privileges such as managing content, adding users, uploading backdoors to the server, etc. Successful exploitation occurs when an admin user visits a notification page with stored cross-site scripting.
+</code>
+
+- [MAYASEVEN/CVE-2019-12562](https://github.com/MAYASEVEN/CVE-2019-12562)
 
 ### CVE-2019-12586 (2019-09-04)
 
@@ -22763,6 +22772,7 @@
 </code>
 
 - [viz27/Libssh2-Exploit](https://github.com/viz27/Libssh2-Exploit)
+- [CSSProject/libssh2-Exploit](https://github.com/CSSProject/libssh2-Exploit)
 
 ### CVE-2019-13143 (2019-08-06)
 
@@ -23278,6 +23288,7 @@
 - [rockmelodies/CVE-2019-16097-batch](https://github.com/rockmelodies/CVE-2019-16097-batch)
 - [ianxtianxt/CVE-2019-16097](https://github.com/ianxtianxt/CVE-2019-16097)
 - [dacade/cve-2019-16097](https://github.com/dacade/cve-2019-16097)
+- [theLSA/harbor-give-me-admin](https://github.com/theLSA/harbor-give-me-admin)
 - [luckybool1020/CVE-2019-16097](https://github.com/luckybool1020/CVE-2019-16097)
 
 ### CVE-2019-16098 (2019-09-11)
@@ -23421,6 +23432,13 @@
 </code>
 
 - [eniac888/CVE-2019-16920-MassPwn3r](https://github.com/eniac888/CVE-2019-16920-MassPwn3r)
+
+### CVE-2019-16941 (2019-09-28)
+
+<code>NSA Ghidra through 9.0.4, when experimental mode is enabled, allows arbitrary code execution if the Read XML Files feature of Bit Patterns Explorer is used with a modified XML document. This occurs in Features/BytePatterns/src/main/java/ghidra/bitpatterns/info/FileBitPatternInfoReader.java. An attack could start with an XML document that was originally created by DumpFunctionPatternInfoScript but then directly modified by an attacker (for example, to make a java.lang.Runtime.exec call).
+</code>
+
+- [purpleracc00n/CVE-2019-16941](https://github.com/purpleracc00n/CVE-2019-16941)
 
 ### CVE-2019-17026 (2020-03-01)
 
@@ -30308,7 +30326,6 @@
 - [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
-- [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
 - [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
 - [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
 - [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
@@ -30685,7 +30702,6 @@
 <code>A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox &lt; 50.0.2, Firefox ESR &lt; 45.5.1, and Thunderbird &lt; 45.5.1.
 </code>
 
-- [LakshmiDesai/CVE-2016-9079](https://github.com/LakshmiDesai/CVE-2016-9079)
 - [dangokyo/CVE-2016-9079](https://github.com/dangokyo/CVE-2016-9079)
 - [Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079)
 
