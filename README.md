@@ -2399,7 +2399,11 @@
 
 - [funny-kill/CVE-2023-34852](https://github.com/funny-kill/CVE-2023-34852)
 
-### CVE-2023-34853
+### CVE-2023-34853 (2023-08-22)
+
+<code>Buffer Overflow vulnerability in Supermicro motherboard X12DPG-QR 1.4b allows local attackers to hijack control flow via manipulation of SmcSecurityEraseSetupVar variable.
+</code>
+
 - [risuxx/CVE-2023-34853](https://github.com/risuxx/CVE-2023-34853)
 
 ### CVE-2023-34924 (2023-06-26)
@@ -8364,7 +8368,11 @@
 
 - [flagqaz/CVE-2022-44183](https://github.com/flagqaz/CVE-2022-44183)
 
-### CVE-2022-44215
+### CVE-2022-44215 (2023-08-22)
+
+<code>There is an open redirect vulnerability in Titan FTP server 19.0 and below. Users are redirected to any target URL.
+</code>
+
 - [JBalanza/CVE-2022-44215](https://github.com/JBalanza/CVE-2022-44215)
 - [wh-gov/CVE-2022-44215](https://github.com/wh-gov/CVE-2022-44215)
 
@@ -23266,6 +23274,13 @@
 - [GeneralEG/CVE-2019-15858](https://github.com/GeneralEG/CVE-2019-15858)
 - [orangmuda/CVE-2019-15858](https://github.com/orangmuda/CVE-2019-15858)
 
+### CVE-2019-15896 (2019-09-10)
+
+<code>An issue was discovered in the LifterLMS plugin through 3.34.5 for WordPress. The upload_import function in the class.llms.admin.import.php script is prone to an unauthenticated options import vulnerability that could lead to privilege escalation (administrator account creation), website redirection, and stored XSS.
+</code>
+
+- [RandomRobbieBF/CVE-2019-15896](https://github.com/RandomRobbieBF/CVE-2019-15896)
+
 ### CVE-2019-15972 (2019-11-25)
 
 <code>A vulnerability in the web-based management interface of Cisco Unified Communications Manager could allow an authenticated, remote attacker to conduct SQL injection attacks on an affected system. The vulnerability exists because the web-based management interface improperly validates SQL values. An attacker could exploit this vulnerability by authenticating to the application and sending malicious requests to an affected system. A successful exploit could allow the attacker to modify values on or return values from the underlying database.
@@ -32245,11 +32260,14 @@
 - [dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes)
 - [npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse)
 - [ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3)
+- [jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271)
+- [rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec)
 - [scottjpack/shellshock_scanner](https://github.com/scottjpack/shellshock_scanner)
 - [Anklebiter87/Cgi-bin_bash_Reverse](https://github.com/Anklebiter87/Cgi-bin_bash_Reverse)
 - [justzx2011/bash-up](https://github.com/justzx2011/bash-up)
 - [mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271)
 - [ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check)
+- [RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm)
 - [gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww)
 - [woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271)
 - [ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock)
