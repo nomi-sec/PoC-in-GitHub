@@ -1146,6 +1146,13 @@
 
 - [horizon3ai/CVE-2023-26067](https://github.com/horizon3ai/CVE-2023-26067)
 
+### CVE-2023-26256 (2023-02-28)
+
+<code>An unauthenticated path traversal vulnerability affects the &quot;STAGIL Navigation for Jira - Menu &amp; Themes&quot; plugin before 2.0.52 for Jira. By modifying the fileName parameter to the snjFooterNavigationConfig endpoint, it is possible to traverse and read the file system.
+</code>
+
+- [aodsec/CVE-2023-26256](https://github.com/aodsec/CVE-2023-26256)
+
 ### CVE-2023-26258 (2023-07-03)
 
 <code>Arcserve UDP through 9.0.6034 allows authentication bypass. The method getVersionInfo at WebServiceImpl/services/FlashServiceImpl leaks the AuthUUID token. This token can be used at /WebServiceImpl/services/VirtualStandbyServiceImpl to obtain a valid session. This session can be used to execute any task as administrator.
