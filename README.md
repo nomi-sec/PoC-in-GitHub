@@ -369,6 +369,7 @@
 
 - [cfielding-r7/poc-cve-2023-2868](https://github.com/cfielding-r7/poc-cve-2023-2868)
 - [cashapp323232/CVE-2023-2868CVE-2023-2868](https://github.com/cashapp323232/CVE-2023-2868CVE-2023-2868)
+- [krmxd/CVE-2023-2868](https://github.com/krmxd/CVE-2023-2868)
 
 ### CVE-2023-2877 (2023-06-27)
 
@@ -465,7 +466,6 @@
 - [passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519)
 - [rwincey/cve-2023-3519](https://github.com/rwincey/cve-2023-3519)
 - [mandiant/citrix-ioc-scanner-cve-2023-3519](https://github.com/mandiant/citrix-ioc-scanner-cve-2023-3519)
-- [knitteruntil0s/CVE-2023-3519](https://github.com/knitteruntil0s/CVE-2023-3519)
 
 ### CVE-2023-3640 (2023-07-24)
 
@@ -2560,6 +2560,13 @@
 
 - [jakabakos/CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
 
+### CVE-2023-36844 (2023-08-17)
+
+<code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environments variables.\n\nUtilizing a crafted request an attacker is able to modify \n\ncertain PHP environments variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities.\nThis issue affects Juniper Networks Junos OS on EX Series:\n\n\n\n  *  All versions prior to 20.4R3-S9;\n  *  21.2 versions prior to 21.2R3-S6;\n  *  21.3 versions \n\nprior to \n\n 21.3R3-S5;\n  *  21.4 versions \n\nprior to \n\n21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S2, 22.4R3.\n\n\n\n\n
+</code>
+
+- [watchtowrlabs/juniper-rce_cve-2023-36844](https://github.com/watchtowrlabs/juniper-rce_cve-2023-36844)
+
 ### CVE-2023-36874 (2023-07-11)
 
 <code>Windows Error Reporting Service Elevation of Privilege Vulnerability
@@ -2786,6 +2793,7 @@
 </code>
 
 - [BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc](https://github.com/BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc)
+- [b1tg/CVE-2023-38831-winrar-exploit](https://github.com/b1tg/CVE-2023-38831-winrar-exploit)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -2803,6 +2811,9 @@
 
 ### CVE-2023-39062
 - [afine-com/CVE-2023-39062](https://github.com/afine-com/CVE-2023-39062)
+
+### CVE-2023-39063
+- [AndreGNogueira/CVE-2023-39063](https://github.com/AndreGNogueira/CVE-2023-39063)
 
 ### CVE-2023-39115 (2023-08-16)
 
@@ -6148,6 +6159,7 @@
 <code>Certain WSO2 products allow unrestricted file upload with resultant remote code execution. The attacker must use a /fileupload endpoint with a Content-Disposition directory traversal sequence to reach a directory under the web root, such as a ../../../../repository/deployment/server/webapps directory. This affects WSO2 API Manager 2.2.0 and above through 4.0.0; WSO2 Identity Server 5.2.0 and above through 5.11.0; WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0, and 5.6.0; WSO2 Identity Server as Key Manager 5.3.0 and above through 5.10.0; and WSO2 Enterprise Integrator 6.2.0 and above through 6.6.0.
 </code>
 
+- [hakivvi/CVE-2022-29464](https://github.com/hakivvi/CVE-2022-29464)
 - [tufanturhan/wso2-rce-cve-2022-29464](https://github.com/tufanturhan/wso2-rce-cve-2022-29464)
 - [mr-r3bot/WSO2-CVE-2022-29464](https://github.com/mr-r3bot/WSO2-CVE-2022-29464)
 - [Lidong-io/cve-2022-29464](https://github.com/Lidong-io/cve-2022-29464)
@@ -9974,6 +9986,7 @@
 - [fei9747/CVE-2021-3493](https://github.com/fei9747/CVE-2021-3493)
 - [pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493)
 - [smallkill/CVE-2021-3493](https://github.com/smallkill/CVE-2021-3493)
+- [ptkhai15/OverlayFS---CVE-2021-3493](https://github.com/ptkhai15/OverlayFS---CVE-2021-3493)
 
 ### CVE-2021-3516 (2021-06-01)
 
@@ -9989,6 +10002,7 @@
 
 - [aancw/polkit-auto-exploit](https://github.com/aancw/polkit-auto-exploit)
 - [swapravo/polkadots](https://github.com/swapravo/polkadots)
+- [hakivvi/CVE-2021-3560](https://github.com/hakivvi/CVE-2021-3560)
 - [iSTAR-Lab/CVE-2021-3560_PoC](https://github.com/iSTAR-Lab/CVE-2021-3560_PoC)
 - [secnigma/CVE-2021-3560-Polkit-Privilege-Esclation](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation)
 - [curtishoughton/CVE-2021-3560](https://github.com/curtishoughton/CVE-2021-3560)
@@ -11442,6 +11456,7 @@
 - [hackerschoice/CVE-2021-26855](https://github.com/hackerschoice/CVE-2021-26855)
 - [SCS-Labs/HAFNIUM-Microsoft-Exchange-0day](https://github.com/SCS-Labs/HAFNIUM-Microsoft-Exchange-0day)
 - [KotSec/CVE-2021-26855-Scanner](https://github.com/KotSec/CVE-2021-26855-Scanner)
+- [hakivvi/proxylogon](https://github.com/hakivvi/proxylogon)
 - [ZephrFish/Exch-CVE-2021-26855](https://github.com/ZephrFish/Exch-CVE-2021-26855)
 - [mil1200/ProxyLogon-CVE-2021-26855](https://github.com/mil1200/ProxyLogon-CVE-2021-26855)
 - [evilashz/ExchangeSSRFtoRCEExploit](https://github.com/evilashz/ExchangeSSRFtoRCEExploit)
@@ -13374,6 +13389,7 @@
 
 - [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
 - [KaLendsi/CVE-2021-40449-Exploit](https://github.com/KaLendsi/CVE-2021-40449-Exploit)
+- [hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449)
 - [Kristal-g/CVE-2021-40449_poc](https://github.com/Kristal-g/CVE-2021-40449_poc)
 - [CppXL/cve-2021-40449-poc](https://github.com/CppXL/cve-2021-40449-poc)
 - [BL0odz/CVE-2021-40449-NtGdiResetDC-UAF](https://github.com/BL0odz/CVE-2021-40449-NtGdiResetDC-UAF)
@@ -33384,6 +33400,13 @@
 </code>
 
 - [puppetlabs-toy-chest/puppetlabs-cve20113872](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872)
+
+### CVE-2011-4107 (2011-11-17)
+
+<code>The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
+</code>
+
+- [SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107)
 
 ### CVE-2011-4862 (2011-12-24)
 
