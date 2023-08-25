@@ -2957,6 +2957,13 @@
 
 - [Nithisssh/CVE-2022-0379](https://github.com/Nithisssh/CVE-2022-0379)
 
+### CVE-2022-0412 (2022-02-28)
+
+<code>The TI WooCommerce Wishlist WordPress plugin before 1.40.1, TI WooCommerce Wishlist Pro WordPress plugin before 1.40.1 do not sanitise and escape the item_id parameter before using it in a SQL statement via the wishlist/remove_product REST endpoint, allowing unauthenticated attackers to perform SQL injection attacks
+</code>
+
+- [TcherB31/CVE-2022-0412_Exploit](https://github.com/TcherB31/CVE-2022-0412_Exploit)
+
 ### CVE-2022-0435 (2022-03-25)
 
 <code>A stack overflow flaw was found in the Linux kernel's TIPC protocol functionality in the way a user sends a packet with malicious content where the number of domain member nodes is higher than the 64 allowed. This flaw allows a remote user to crash the system or possibly escalate their privileges if they have access to the TIPC network.
@@ -28334,7 +28341,7 @@
 - [cyberk1w1/CVE-2017-7529](https://github.com/cyberk1w1/CVE-2017-7529)
 - [cyberharsh/nginx-CVE-2017-7529](https://github.com/cyberharsh/nginx-CVE-2017-7529)
 - [daehee/nginx-overflow](https://github.com/daehee/nginx-overflow)
-- [ninjabuster/exploit-nginx-1.10.3](https://github.com/ninjabuster/exploit-nginx-1.10.3)
+- [gemboxteam/exploit-nginx-1.10.3](https://github.com/gemboxteam/exploit-nginx-1.10.3)
 - [fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability)
 - [mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability)
 - [fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit](https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit)
