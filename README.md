@@ -2568,6 +2568,7 @@
 - [d0rb/CVE-2023-36874](https://github.com/d0rb/CVE-2023-36874)
 - [crisprss/CVE-2023-36874](https://github.com/crisprss/CVE-2023-36874)
 - [Wh04m1001/CVE-2023-36874](https://github.com/Wh04m1001/CVE-2023-36874)
+- [Octoberfest7/CVE-2023-36874_BOF](https://github.com/Octoberfest7/CVE-2023-36874_BOF)
 
 ### CVE-2023-36884 (2023-07-11)
 
@@ -2721,6 +2722,7 @@
 </code>
 
 - [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
+- [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
 
 ### CVE-2023-38408 (2023-07-19)
 
