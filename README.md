@@ -278,6 +278,13 @@
 
 - [mnqazi/CVE-2023-2516](https://github.com/mnqazi/CVE-2023-2516)
 
+### CVE-2023-2523 (2023-05-04)
+
+<code>Eine kritische Schwachstelle wurde in Weaver E-Office 9.5 ausgemacht. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei App/Ajax/ajax.php?action=mobile_upload_save. Mittels Manipulieren des Arguments upload_quwan mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [bingtangbanli/cve-2023-2523-and-cve-2023-2648](https://github.com/bingtangbanli/cve-2023-2523-and-cve-2023-2648)
+
 ### CVE-2023-2579 (2023-07-17)
 
 <code>The InventoryPress WordPress plugin through 1.7 does not sanitise and escape some of its settings, which could allow users with the role of author and above to perform Stored Cross-Site Scripting attacks.
@@ -715,6 +722,13 @@
 - [Firebasky/CVE-2023-21839](https://github.com/Firebasky/CVE-2023-21839)
 - [houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839)
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
+
+### CVE-2023-21939 (2023-04-18)
+
+<code>Vulnerability in the Oracle Java SE, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Swing).  Supported versions that are affected are Oracle Java SE: 8u361, 8u361-perf, 11.0.18, 17.0.6, 20; Oracle GraalVM Enterprise Edition: 20.3.9, 21.3.5 and  22.3.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).
+</code>
+
+- [Y4Sec-Team/CVE-2023-21939](https://github.com/Y4Sec-Team/CVE-2023-21939)
 
 ### CVE-2023-21971 (2023-04-18)
 
