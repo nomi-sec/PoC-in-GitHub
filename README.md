@@ -1146,6 +1146,13 @@
 
 - [horizon3ai/CVE-2023-26067](https://github.com/horizon3ai/CVE-2023-26067)
 
+### CVE-2023-26255 (2023-02-28)
+
+<code>An unauthenticated path traversal vulnerability affects the &quot;STAGIL Navigation for Jira - Menu &amp; Themes&quot; plugin before 2.0.52 for Jira. By modifying the fileName parameter to the snjCustomDesignConfig endpoint, it is possible to traverse and read the file system.
+</code>
+
+- [tucommenceapousser/CVE-2023-26255-Exp](https://github.com/tucommenceapousser/CVE-2023-26255-Exp)
+
 ### CVE-2023-26256 (2023-02-28)
 
 <code>An unauthenticated path traversal vulnerability affects the &quot;STAGIL Navigation for Jira - Menu &amp; Themes&quot; plugin before 2.0.52 for Jira. By modifying the fileName parameter to the snjFooterNavigationConfig endpoint, it is possible to traverse and read the file system.
@@ -2843,7 +2850,11 @@
 
 - [dnkhack/fixcve2023_39526_2023_39527](https://github.com/dnkhack/fixcve2023_39526_2023_39527)
 
-### CVE-2023-39707
+### CVE-2023-39707 (2023-08-25)
+
+<code>A stored cross-site scripting (XSS) vulnerability in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Add Expense parameter under the Expense section.
+</code>
+
 - [Arajawat007/CVE-2023-39707](https://github.com/Arajawat007/CVE-2023-39707)
 
 ### CVE-2023-39708
@@ -13916,6 +13927,7 @@
 - [cybfar/cve-2021-42013-httpd](https://github.com/cybfar/cve-2021-42013-httpd)
 - [birdlinux/CVE-2021-42013](https://github.com/birdlinux/CVE-2021-42013)
 - [Hamesawian/CVE-2021-42013](https://github.com/Hamesawian/CVE-2021-42013)
+- [K3ysTr0K3R/CVE-2021-42013-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-42013-EXPLOIT)
 
 ### CVE-2021-42056 (2022-06-24)
 
