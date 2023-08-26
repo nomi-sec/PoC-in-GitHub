@@ -2738,6 +2738,9 @@
 - [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
 - [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
 
+### CVE-2023-38388
+- [codeb0ss/CVE-2023-38388](https://github.com/codeb0ss/CVE-2023-38388)
+
 ### CVE-2023-38408 (2023-07-19)
 
 <code>The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.
