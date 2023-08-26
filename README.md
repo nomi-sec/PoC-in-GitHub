@@ -2909,6 +2909,13 @@
 ### CVE-2023-40297
 - [sahar042/CVE-2023-40297](https://github.com/sahar042/CVE-2023-40297)
 
+### CVE-2023-41080 (2023-08-25)
+
+<code>URL Redirection to Untrusted Site ('Open Redirect') vulnerability in FORM authentication feature Apache Tomcat.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M10, from 10.1.0-M1 through 10.0.12, from 9.0.0-M1 through 9.0.79 and from 8.5.0 through 8.5.92.\n\nThe vulnerability is limited to the ROOT (default) web application.
+</code>
+
+- [shiomiyan/CVE-2023-41080](https://github.com/shiomiyan/CVE-2023-41080)
+
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
@@ -26819,6 +26826,7 @@
 - [4nimanegra/libreofficeExploit1](https://github.com/4nimanegra/libreofficeExploit1)
 - [phongld97/detect-cve-2018-16858](https://github.com/phongld97/detect-cve-2018-16858)
 - [bantu2301/CVE-2018-16858](https://github.com/bantu2301/CVE-2018-16858)
+- [Henryisnotavailable/CVE-2018-16858-Python](https://github.com/Henryisnotavailable/CVE-2018-16858-Python)
 
 ### CVE-2018-16875 (2018-12-14)
 
