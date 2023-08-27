@@ -1007,6 +1007,7 @@
 <code>Cross site scripting vulnerability in Citrix ADC and Citrix Gateway  in allows and attacker to perform cross site scripting
 </code>
 
+- [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
 - [Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488)
 - [securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488)
 - [codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488)
@@ -1020,6 +1021,7 @@
 
 - [adhikara13/CVE-2023-24489-ShareFile](https://github.com/adhikara13/CVE-2023-24489-ShareFile)
 - [codeb0ss/CVE-2023-24489-PoC](https://github.com/codeb0ss/CVE-2023-24489-PoC)
+- [whalebone7/CVE-2023-24489-poc](https://github.com/whalebone7/CVE-2023-24489-poc)
 
 ### CVE-2023-24610 (2023-02-01)
 
@@ -2004,6 +2006,7 @@
 - [YouGina/CVE-2023-32243](https://github.com/YouGina/CVE-2023-32243)
 - [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
+- [Jenderal92/WP-CVE-2023-32243](https://github.com/Jenderal92/WP-CVE-2023-32243)
 - [shaoyu521/Mass-CVE-2023-32243](https://github.com/shaoyu521/Mass-CVE-2023-32243)
 
 ### CVE-2023-32315 (2023-05-26)
@@ -2646,6 +2649,13 @@
 
 - [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
 
+### CVE-2023-37250 (2023-08-20)
+
+<code>Unity Parsec has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs. This affects Parsec Loader versions through 8. Parsec Loader 9 is a fixed version.
+</code>
+
+- [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
+
 ### CVE-2023-37474 (2023-07-14)
 
 <code>Copyparty is a portable file server. Versions prior to 1.8.2 are subject to a path traversal vulnerability detected in the `.cpr` subfolder. The Path Traversal attack technique allows an attacker access to files, directories, and commands that reside outside the web document root directory. This issue has been addressed in commit `043e3c7d` which has been included in release 1.8.2. Users are advised to upgrade. There are no known workarounds for this vulnerability.
@@ -2812,6 +2822,7 @@
 
 - [BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc](https://github.com/BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc)
 - [b1tg/CVE-2023-38831-winrar-exploit](https://github.com/b1tg/CVE-2023-38831-winrar-exploit)
+- [IR-HuntGuardians/CVE-2023-38831-HUNT](https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -16189,7 +16200,6 @@
 
 - [jamf/CVE-2020-1206-POC](https://github.com/jamf/CVE-2020-1206-POC)
 - [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
-- [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
 ### CVE-2020-1283 (2020-06-09)
