@@ -2824,6 +2824,7 @@
 - [b1tg/CVE-2023-38831-winrar-exploit](https://github.com/b1tg/CVE-2023-38831-winrar-exploit)
 - [IR-HuntGuardians/CVE-2023-38831-HUNT](https://github.com/IR-HuntGuardians/CVE-2023-38831-HUNT)
 - [Garck3h/cve-2023-38831](https://github.com/Garck3h/cve-2023-38831)
+- [ignis-sec/CVE-2023-38831-RaRCE](https://github.com/ignis-sec/CVE-2023-38831-RaRCE)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -28832,6 +28833,7 @@
 - [Jhonsonwannaa/CVE-2017-9841-](https://github.com/Jhonsonwannaa/CVE-2017-9841-)
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
 - [MrG3P5/CVE-2017-9841](https://github.com/MrG3P5/CVE-2017-9841)
+- [Chocapikk/CVE-2017-9841](https://github.com/Chocapikk/CVE-2017-9841)
 
 ### CVE-2017-9934 (2017-07-17)
 
