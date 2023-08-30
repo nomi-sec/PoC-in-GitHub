@@ -1176,6 +1176,7 @@
 
 - [aodsec/CVE-2023-26256](https://github.com/aodsec/CVE-2023-26256)
 - [xhs-d/CVE-2023-26256](https://github.com/xhs-d/CVE-2023-26256)
+- [qs119/CVE-2023-26256](https://github.com/qs119/CVE-2023-26256)
 
 ### CVE-2023-26258 (2023-07-03)
 
@@ -2063,6 +2064,7 @@
 - [z-jxy/keepass_dump](https://github.com/z-jxy/keepass_dump)
 - [LeDocteurDesBits/cve-2023-32784](https://github.com/LeDocteurDesBits/cve-2023-32784)
 - [hau-zy/KeePass-dump-py](https://github.com/hau-zy/KeePass-dump-py)
+- [4m4Sec/CVE-2023-32784](https://github.com/4m4Sec/CVE-2023-32784)
 
 ### CVE-2023-32961 (2023-06-12)
 
@@ -2857,6 +2859,7 @@
 - [MortySecurity/CVE-2023-38831-Exploit-and-Detection](https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection)
 - [nhman-python/CVE-2023-38831](https://github.com/nhman-python/CVE-2023-38831)
 - [Ahmed1Al/CVE-2023-38831-winrar-exploit](https://github.com/Ahmed1Al/CVE-2023-38831-winrar-exploit)
+- [z3r0sw0rd/CVE-2023-38831-PoC](https://github.com/z3r0sw0rd/CVE-2023-38831-PoC)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -8850,6 +8853,7 @@
 - [Rickster5555/EH2-PoC](https://github.com/Rickster5555/EH2-PoC)
 - [antisecc/CVE-2022-46169](https://github.com/antisecc/CVE-2022-46169)
 - [4m4Sec/CVE-2022-46169](https://github.com/4m4Sec/CVE-2022-46169)
+- [a1665454764/CVE-2022-46169](https://github.com/a1665454764/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -9949,13 +9953,6 @@
 </code>
 
 - [rmccarth/cve-2021-3164](https://github.com/rmccarth/cve-2021-3164)
-
-### CVE-2021-3165 (2021-01-26)
-
-<code>SmartAgent 3.1.0 allows a ViewOnly attacker to create a SuperUser account via the /#/CampaignManager/users URI.
-</code>
-
-- [orionhridoy/CVE-2021-3165](https://github.com/orionhridoy/CVE-2021-3165)
 
 ### CVE-2021-3166 (2021-01-17)
 
@@ -11989,20 +11986,6 @@
 </code>
 
 - [Security-AVS/CVE-2021-30146](https://github.com/Security-AVS/CVE-2021-30146)
-
-### CVE-2021-30149 (2021-04-06)
-
-<code>Composr 10.0.36 allows upload and execution of PHP files.
-</code>
-
-- [orionhridoy/CVE-2021-30149](https://github.com/orionhridoy/CVE-2021-30149)
-
-### CVE-2021-30150 (2021-04-06)
-
-<code>Composr 10.0.36 allows XSS in an XML script.
-</code>
-
-- [orionhridoy/CVE-2021-30150](https://github.com/orionhridoy/CVE-2021-30150)
 
 ### CVE-2021-30190 (2021-05-25)
 
@@ -20109,13 +20092,6 @@
 
 - [dievus/CVE-2020-28351](https://github.com/dievus/CVE-2020-28351)
 
-### CVE-2020-28413 (2020-12-30)
-
-<code>In MantisBT 2.24.3, SQL Injection can occur in the parameter &quot;access&quot; of the mc_project_get_users function through the API SOAP.
-</code>
-
-- [EthicalHCOP/CVE-2020-28413_Mantis2.24.3-SQLi-SOAP](https://github.com/EthicalHCOP/CVE-2020-28413_Mantis2.24.3-SQLi-SOAP)
-
 ### CVE-2020-28414 (2020-11-12)
 
 <code>A reflected cross-site scripting (XSS) vulnerability exists in the TranzWare Payment Gateway 3.1.12.3.2. A remote unauthenticated attacker is able to execute arbitrary HTML code via crafted url (different vector than CVE-2020-28415).
@@ -20905,6 +20881,13 @@
 
 - [info4mationprivate8tools/CVE-2019-1205](https://github.com/info4mationprivate8tools/CVE-2019-1205)
 
+### CVE-2019-1215 (2019-09-11)
+
+<code>An elevation of privilege vulnerability exists in the way that ws2ifsl.sys (Winsock) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1253, CVE-2019-1278, CVE-2019-1303.
+</code>
+
+- [bluefrostsecurity/CVE-2019-1215](https://github.com/bluefrostsecurity/CVE-2019-1215)
+
 ### CVE-2019-1218 (2019-08-14)
 
 <code>A spoofing vulnerability exists in the way Microsoft Outlook iOS software parses specifically crafted email messages, aka 'Outlook iOS Spoofing Vulnerability'.
@@ -21428,6 +21411,13 @@
 
 - [VoidSec/CVE-2019-5624](https://github.com/VoidSec/CVE-2019-5624)
 
+### CVE-2019-5630 (2019-07-03)
+
+<code>A Cross-Site Request Forgery (CSRF) vulnerability was found in Rapid7 Nexpose InsightVM Security Console versions 6.5.0 through 6.5.68. This issue allows attackers to exploit CSRF vulnerabilities on API endpoints using Flash to circumvent a cross-domain pre-flight OPTIONS request.
+</code>
+
+- [rbeede/CVE-2019-5630](https://github.com/rbeede/CVE-2019-5630)
+
 ### CVE-2019-5700 (2019-10-09)
 
 <code>NVIDIA Shield TV Experience prior to v8.0.1, NVIDIA Tegra software contains a vulnerability in the bootloader, where it does not validate the fields of the boot image, which may lead to code execution, denial of service, escalation of privileges, and information disclosure.
@@ -21457,6 +21447,7 @@
 - [Lee-SungYoung/cve-2019-5736-study](https://github.com/Lee-SungYoung/cve-2019-5736-study)
 - [chosam2/cve-2019-5736-poc](https://github.com/chosam2/cve-2019-5736-poc)
 - [epsteina16/Docker-Escape-Miner](https://github.com/epsteina16/Docker-Escape-Miner)
+- [geropl/CVE-2019-5736](https://github.com/geropl/CVE-2019-5736)
 - [GiverOfGifts/CVE-2019-5736-Custom-Runtime](https://github.com/GiverOfGifts/CVE-2019-5736-Custom-Runtime)
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
@@ -21876,6 +21867,13 @@
 </code>
 
 - [jsherman212/used_sock](https://github.com/jsherman212/used_sock)
+
+### CVE-2019-8601 (2019-12-18)
+
+<code>Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in iOS 12.3, macOS Mojave 10.14.5, tvOS 12.3, watchOS 5.2.1, Safari 12.1.1, iTunes for Windows 12.9.5, iCloud for Windows 7.12. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [BadAccess11/CVE-2019-8601](https://github.com/BadAccess11/CVE-2019-8601)
 
 ### CVE-2019-8605 (2019-12-18)
 
@@ -22309,6 +22307,7 @@
 </code>
 
 - [masahiro331/CVE-2019-10758](https://github.com/masahiro331/CVE-2019-10758)
+- [lp008/CVE-2019-10758](https://github.com/lp008/CVE-2019-10758)
 
 ### CVE-2019-10779 (2020-01-27)
 
@@ -22959,6 +22958,13 @@
 
 - [B3Bo1d/CVE-2019-13403](https://github.com/B3Bo1d/CVE-2019-13403)
 
+### CVE-2019-13404 (2019-07-07)
+
+<code>** DISPUTED ** The MSI installer for Python through 2.7.16 on Windows defaults to the C:\Python27 directory, which makes it easier for local users to deploy Trojan horse code. (This also affects old 3.x releases before 3.5.) NOTE: the vendor's position is that it is the user's responsibility to ensure C:\Python27 access control or choose a different directory, because backwards compatibility requires that C:\Python27 remain the default for 2.7.x.
+</code>
+
+- [alidnf/CVE-2019-13404](https://github.com/alidnf/CVE-2019-13404)
+
 ### CVE-2019-13496 (2019-11-04)
 
 <code>One Identity Cloud Access Manager before 8.1.4 Hotfix 1 allows OTP bypass via vectors involving a man in the middle, the One Identity Defender product, and replacing a failed SAML response with a successful SAML response.
@@ -23446,6 +23452,7 @@
 - [AnubisSec/CVE-2019-16278](https://github.com/AnubisSec/CVE-2019-16278)
 - [theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE](https://github.com/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE)
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
+- [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
 - [crypticdante/CVE-2019-16278](https://github.com/crypticdante/CVE-2019-16278)
 - [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
@@ -23645,6 +23652,13 @@
 </code>
 
 - [mavlevin/CVE-2019-17424](https://github.com/mavlevin/CVE-2019-17424)
+
+### CVE-2019-17427 (2019-10-09)
+
+<code>In Redmine before 3.4.11 and 4.0.x before 4.0.4, persistent XSS exists due to textile formatting errors.
+</code>
+
+- [RealLinkers/CVE-2019-17427](https://github.com/RealLinkers/CVE-2019-17427)
 
 ### CVE-2019-17495 (2019-10-10)
 
@@ -23865,6 +23879,13 @@
 </code>
 
 - [bobfuzzer/CVE-2019-18885](https://github.com/bobfuzzer/CVE-2019-18885)
+
+### CVE-2019-18890 (2019-11-21)
+
+<code>A SQL injection vulnerability in Redmine through 3.2.9 and 3.3.x before 3.3.10 allows Redmine users to access protected information via a crafted object query.
+</code>
+
+- [RealLinkers/CVE-2019-18890](https://github.com/RealLinkers/CVE-2019-18890)
 
 ### CVE-2019-18935 (2019-12-11)
 
@@ -24108,6 +24129,13 @@
 - [Vulnmachines/Ctirix_RCE-CVE-2019-19781](https://github.com/Vulnmachines/Ctirix_RCE-CVE-2019-19781)
 - [k-fire/CVE-2019-19781-exploit](https://github.com/k-fire/CVE-2019-19781-exploit)
 
+### CVE-2019-19782 (2019-12-13)
+
+<code>The FTP client in AceaXe Plus 1.0 allows a buffer overflow via a long EHLO response from an FTP server.
+</code>
+
+- [Underwood12/CVE-2019-19782](https://github.com/Underwood12/CVE-2019-19782)
+
 ### CVE-2019-19844 (2019-12-18)
 
 <code>Django before 1.11.27, 2.x before 2.2.9, and 3.x before 3.0.1 allows account takeover. A suitably crafted email address (that is equal to an existing user's email address after case transformation of Unicode characters) would allow an attacker to be sent a password reset token for the matched user account. (One mitigation in the new releases is to send password reset tokens only to the registered user email address.)
@@ -24154,6 +24182,21 @@
 </code>
 
 - [AleDiBen/NVMS1000-Exploit](https://github.com/AleDiBen/NVMS1000-Exploit)
+
+### CVE-2019-20197 (2019-12-31)
+
+<code>In Nagios XI 5.6.9, an authenticated user is able to execute arbitrary OS commands via shell metacharacters in the id parameter to schedulereport.php, in the context of the web-server user account.
+</code>
+
+- [lp008/CVE-2019-20197](https://github.com/lp008/CVE-2019-20197)
+- [jas502n/CVE-2019-20197](https://github.com/jas502n/CVE-2019-20197)
+
+### CVE-2019-20224 (2020-01-09)
+
+<code>netflow_get_stats in functions_netflow.php in Pandora FMS 7.0NG allows remote authenticated users to execute arbitrary OS commands via shell metacharacters in the ip_src parameter in an index.php?operation/netflow/nf_live_view request. This issue has been fixed in Pandora FMS 7.0 NG 742.
+</code>
+
+- [mhaskar/CVE-2019-20224](https://github.com/mhaskar/CVE-2019-20224)
 
 ### CVE-2019-20326 (2020-03-16)
 
