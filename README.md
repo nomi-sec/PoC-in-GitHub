@@ -2463,6 +2463,7 @@
 - [LazyySec/CVE-2023-35078](https://github.com/LazyySec/CVE-2023-35078)
 - [synfinner/CVE-2023-35078](https://github.com/synfinner/CVE-2023-35078)
 - [emanueldosreis/nmap-CVE-2023-35078-Exploit](https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit)
+- [Blue-number/CVE-2023-35078](https://github.com/Blue-number/CVE-2023-35078)
 
 ### CVE-2023-35086 (2023-07-21)
 
@@ -2870,6 +2871,13 @@
 </code>
 
 - [Raj789-sec/CVE-2023-39115](https://github.com/Raj789-sec/CVE-2023-39115)
+
+### CVE-2023-39141 (2023-08-22)
+
+<code>webui-aria2 commit 4fe2e was discovered to contain a path traversal vulnerability.
+</code>
+
+- [codeb0ss/CVE-2023-39141-PoC](https://github.com/codeb0ss/CVE-2023-39141-PoC)
 
 ### CVE-2023-39143 (2023-08-04)
 
