@@ -15492,8 +15492,8 @@
 
 - [bluefrostsecurity/CVE-2020-0041](https://github.com/bluefrostsecurity/CVE-2020-0041)
 - [j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041)
-- [jcalabres/CVE-2020-0041-Pixel-3a](https://github.com/jcalabres/CVE-2020-0041-Pixel-3a)
 - [koharin/CVE-2020-0041](https://github.com/koharin/CVE-2020-0041)
+- [vaginessa/CVE-2020-0041-Pixel-3a](https://github.com/vaginessa/CVE-2020-0041-Pixel-3a)
 
 ### CVE-2020-0069 (2020-03-10)
 
