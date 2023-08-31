@@ -500,6 +500,13 @@
 ### CVE-2023-4460
 - [daniloalbuqrque/poc-cve-xss-uploading-svg](https://github.com/daniloalbuqrque/poc-cve-xss-uploading-svg)
 
+### CVE-2023-4596 (2023-08-29)
+
+<code>The Forminator plugin for WordPress is vulnerable to arbitrary file uploads due to file type validation occurring after a file has been uploaded to the server in the upload_post_image() function in versions up to, and including, 1.24.6. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible.
+</code>
+
+- [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
+
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
@@ -1168,6 +1175,7 @@
 </code>
 
 - [tucommenceapousser/CVE-2023-26255-Exp](https://github.com/tucommenceapousser/CVE-2023-26255-Exp)
+- [Nian-Stars/CVE-2023-26255-6](https://github.com/Nian-Stars/CVE-2023-26255-6)
 
 ### CVE-2023-26256 (2023-02-28)
 
@@ -1341,6 +1349,7 @@
 - [MaanVader/CVE-2023-27524-POC](https://github.com/MaanVader/CVE-2023-27524-POC)
 - [Pari-Malam/CVE-2023-27524](https://github.com/Pari-Malam/CVE-2023-27524)
 - [TardC/CVE-2023-27524](https://github.com/TardC/CVE-2023-27524)
+- [necroteddy/CVE-2023-27524](https://github.com/necroteddy/CVE-2023-27524)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -2860,6 +2869,8 @@
 - [nhman-python/CVE-2023-38831](https://github.com/nhman-python/CVE-2023-38831)
 - [Ahmed1Al/CVE-2023-38831-winrar-exploit](https://github.com/Ahmed1Al/CVE-2023-38831-winrar-exploit)
 - [z3r0sw0rd/CVE-2023-38831-PoC](https://github.com/z3r0sw0rd/CVE-2023-38831-PoC)
+- [BeniBeastt/CVE-2023-38831_ReverseShell_Winrar](https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar)
+- [MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC](https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC)
 
 ### CVE-2023-38836 (2023-08-21)
 
