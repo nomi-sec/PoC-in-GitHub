@@ -444,12 +444,18 @@
 
 - [TurtleARM/CVE-2023-3338-DECPwn](https://github.com/TurtleARM/CVE-2023-3338-DECPwn)
 
+### CVE-2023-3450 (2023-06-28)
+
+<code>Eine kritische Schwachstelle wurde in Ruijie RG-BCR860 2.5.13 gefunden. Dies betrifft einen unbekannten Teil der Komponente Network Diagnostic Page. Durch das Manipulieren mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [yuanjinyuyuyu/CVE-2023-3450](https://github.com/yuanjinyuyuyu/CVE-2023-3450)
+
 ### CVE-2023-3460 (2023-07-04)
 
 <code>The Ultimate Member WordPress plugin before 2.6.7 does not prevent visitors from creating user accounts with arbitrary capabilities, effectively allowing attackers to create administrator accounts at will. This is actively being exploited in the wild.
 </code>
 
-- [gbrsh/CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460)
 - [rizqimaulanaa/CVE-2023-3460](https://github.com/rizqimaulanaa/CVE-2023-3460)
 - [yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460)
 - [Fire-Null/CVE-2023-3460](https://github.com/Fire-Null/CVE-2023-3460)
@@ -1016,10 +1022,6 @@
 </code>
 
 - [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
-- [Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488)
-- [securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488)
-- [codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488)
-- [NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule)
 - [LazyySec/CVE-2023-24488](https://github.com/LazyySec/CVE-2023-24488)
 
 ### CVE-2023-24489 (2023-07-10)
@@ -1334,7 +1336,6 @@
 
 - [nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372)
 - [tucommenceapousser/CVE-2023-27372](https://github.com/tucommenceapousser/CVE-2023-27372)
-- [0SPwn/CVE-2023-27372-PoC](https://github.com/0SPwn/CVE-2023-27372-PoC)
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
 - [Pari-Malam/CVE-2023-27372](https://github.com/Pari-Malam/CVE-2023-27372)
 
@@ -1474,7 +1475,6 @@
 
 - [gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343)
 - [superzerosec/CVE-2023-28343](https://github.com/superzerosec/CVE-2023-28343)
-- [hba343434/CVE-2023-28343](https://github.com/hba343434/CVE-2023-28343)
 
 ### CVE-2023-28432 (2023-03-22)
 
@@ -1593,13 +1593,6 @@
 </code>
 
 - [mateusz834/CVE-2023-29409](https://github.com/mateusz834/CVE-2023-29409)
-
-### CVE-2023-29439 (2023-05-16)
-
-<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in FooPlugins FooGallery plugin &lt;= 2.2.35 versions.
-</code>
-
-- [LOURC0D3/CVE-2023-29439](https://github.com/LOURC0D3/CVE-2023-29439)
 
 ### CVE-2023-29478 (2023-04-06)
 
@@ -2083,13 +2076,6 @@
 - [hau-zy/KeePass-dump-py](https://github.com/hau-zy/KeePass-dump-py)
 - [4m4Sec/CVE-2023-32784](https://github.com/4m4Sec/CVE-2023-32784)
 
-### CVE-2023-32961 (2023-06-12)
-
-<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Katie Seaborn Zotpress plugin &lt;= 7.3.3 versions.
-</code>
-
-- [LOURC0D3/CVE-2023-32961](https://github.com/LOURC0D3/CVE-2023-32961)
-
 ### CVE-2023-33242 (2023-08-09)
 
 <code>Crypto wallets implementing the Lindell17 TSS protocol might allow an attacker to extract the full ECDSA private key by exfiltrating a single bit in every signature attempt (256 in total) because of not adhering to the paper's security proof's assumption regarding handling aborts after a failed signature.
@@ -2475,7 +2461,6 @@
 </code>
 
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
-- [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
 - [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
 - [Pari-Malam/CVE-2023-34960](https://github.com/Pari-Malam/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
@@ -2610,9 +2595,6 @@
 ### CVE-2023-36169
 - [TraiLeR2/CVE-2023-36169](https://github.com/TraiLeR2/CVE-2023-36169)
 
-### CVE-2023-36531
-- [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
-
 ### CVE-2023-36664 (2023-06-25)
 
 <code>Artifex Ghostscript through 10.01.2 mishandles permission validation for pipe devices (with the %pipe% prefix or the | pipe character prefix).
@@ -2687,13 +2669,6 @@
 </code>
 
 - [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
-
-### CVE-2023-37250 (2023-08-20)
-
-<code>Unity Parsec has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs. This affects Parsec Loader versions through 8. Parsec Loader 9 is a fixed version.
-</code>
-
-- [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
 
 ### CVE-2023-37474 (2023-07-14)
 
@@ -2876,7 +2851,6 @@
 - [thegr1ffyn/CVE-2023-38831](https://github.com/thegr1ffyn/CVE-2023-38831)
 - [MortySecurity/CVE-2023-38831-Exploit-and-Detection](https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection)
 - [nhman-python/CVE-2023-38831](https://github.com/nhman-python/CVE-2023-38831)
-- [Ahmed1Al/CVE-2023-38831-winrar-exploit](https://github.com/Ahmed1Al/CVE-2023-38831-winrar-exploit)
 - [z3r0sw0rd/CVE-2023-38831-PoC](https://github.com/z3r0sw0rd/CVE-2023-38831-PoC)
 - [BeniBeastt/CVE-2023-38831_ReverseShell_Winrar](https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar)
 - [MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC](https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC)
@@ -3001,7 +2975,18 @@
 
 - [shiomiyan/CVE-2023-41080](https://github.com/shiomiyan/CVE-2023-41080)
 
-### CVE-2023-41717
+### CVE-2023-41265 (2023-08-29)
+
+<code>An HTTP Request Tunneling vulnerability found in Qlik Sense Enterprise for Windows for versions May 2023 Patch 3 and earlier, February 2023 Patch 7 and earlier, November 2022 Patch 10 and earlier, and August 2022 Patch 12 and earlier allows a remote attacker to elevate their privilege by tunneling HTTP requests in the raw HTTP request. This allows them to send requests that get executed by the backend server hosting the repository application. This is fixed in August 2023 IR, May 2023 Patch 4, February 2023 Patch 8, November 2022 Patch 11, and August 2022 Patch 13.
+</code>
+
+- [praetorian-inc/zeroqlik-detect](https://github.com/praetorian-inc/zeroqlik-detect)
+
+### CVE-2023-41717 (2023-08-31)
+
+<code>Inappropriate file type control in Zscaler Proxy versions 3.6.1.25 and prior allows local attackers to bypass file download/upload restrictions.
+</code>
+
 - [federella/CVE-2023-41717](https://github.com/federella/CVE-2023-41717)
 
 ### CVE-2023-51504
@@ -8703,7 +8688,11 @@
 
 - [damodarnaik/CVE-2022-45436](https://github.com/damodarnaik/CVE-2022-45436)
 
-### CVE-2022-45451
+### CVE-2022-45451 (2023-08-31)
+
+<code>Local privilege escalation due to insecure driver communication port permissions. The following products are affected: Acronis Cyber Protect Home Office (Windows) before build 40173, Acronis Agent (Windows) before build 30600, Acronis Cyber Protect 15 (Windows) before build 30984.
+</code>
+
 - [alfarom256/CVE-2022-45451](https://github.com/alfarom256/CVE-2022-45451)
 
 ### CVE-2022-45472 (2022-11-23)
