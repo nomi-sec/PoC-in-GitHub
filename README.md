@@ -473,6 +473,7 @@
 - [passwa11/CVE-2023-3519](https://github.com/passwa11/CVE-2023-3519)
 - [rwincey/cve-2023-3519](https://github.com/rwincey/cve-2023-3519)
 - [mandiant/citrix-ioc-scanner-cve-2023-3519](https://github.com/mandiant/citrix-ioc-scanner-cve-2023-3519)
+- [JonaNeidhart/CVE-2023-3519-BackdoorCheck](https://github.com/JonaNeidhart/CVE-2023-3519-BackdoorCheck)
 
 ### CVE-2023-3640 (2023-07-24)
 
@@ -952,7 +953,6 @@
 - [adhikara13/CVE-2023-23752](https://github.com/adhikara13/CVE-2023-23752)
 - [AkbarWiraN/Joomla-Scanner](https://github.com/AkbarWiraN/Joomla-Scanner)
 - [Pari-Malam/CVE-2023-23752](https://github.com/Pari-Malam/CVE-2023-23752)
-- [equationsoftworks/Radiance](https://github.com/equationsoftworks/Radiance)
 - [wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752)
 - [Sweelg/CVE-2023-23752](https://github.com/Sweelg/CVE-2023-23752)
 - [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
@@ -1815,6 +1815,13 @@
 
 - [jmrcsnchz/CVE-2023-30854](https://github.com/jmrcsnchz/CVE-2023-30854)
 
+### CVE-2023-30943 (2023-05-02)
+
+<code>The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user can send a specially crafted HTTP request and create arbitrary folders on the system.
+</code>
+
+- [d0rb/CVE-2023-30943](https://github.com/d0rb/CVE-2023-30943)
+
 ### CVE-2023-31070
 - [bugprove/cve-2023-31070](https://github.com/bugprove/cve-2023-31070)
 
@@ -2040,6 +2047,7 @@
 - [miko550/CVE-2023-32315](https://github.com/miko550/CVE-2023-32315)
 - [Pari-Malam/CVE-2023-32315](https://github.com/Pari-Malam/CVE-2023-32315)
 - [izzz0/CVE-2023-32315-POC](https://github.com/izzz0/CVE-2023-32315-POC)
+- [gibran-abdillah/CVE-2023-32315](https://github.com/gibran-abdillah/CVE-2023-32315)
 
 ### CVE-2023-32353 (2023-06-23)
 
@@ -2336,6 +2344,7 @@
 - [kenbuckler/MOVEit-CVE-2023-34362](https://github.com/kenbuckler/MOVEit-CVE-2023-34362)
 - [Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362)
 - [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
+- [errorfiathck/MOVEit-Exploit](https://github.com/errorfiathck/MOVEit-Exploit)
 
 ### CVE-2023-34537 (2023-06-13)
 
@@ -2991,6 +3000,9 @@
 </code>
 
 - [shiomiyan/CVE-2023-41080](https://github.com/shiomiyan/CVE-2023-41080)
+
+### CVE-2023-41717
+- [federella/CVE-2023-41717](https://github.com/federella/CVE-2023-41717)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -9264,6 +9276,7 @@
 </code>
 
 - [nanopathi/packages_apps_Settings_CVE-2021-0394](https://github.com/nanopathi/packages_apps_Settings_CVE-2021-0394)
+- [Trinadh465/platform_art_CVE-2021-0394](https://github.com/Trinadh465/platform_art_CVE-2021-0394)
 
 ### CVE-2021-0396 (2021-03-10)
 
@@ -10845,6 +10858,13 @@
 </code>
 
 - [murataydemir/CVE-2021-22123](https://github.com/murataydemir/CVE-2021-22123)
+
+### CVE-2021-22145 (2021-07-21)
+
+<code>A memory disclosure vulnerability was identified in Elasticsearch 7.10.0 to 7.13.3 error reporting. A user with the ability to submit arbitrary queries to Elasticsearch could submit a malformed query that would result in an error message returned containing previously used portions of a data buffer. This buffer could contain sensitive information such as Elasticsearch documents or authentication details.
+</code>
+
+- [niceeeeeeee/CVE-2021-22145-poc](https://github.com/niceeeeeeee/CVE-2021-22145-poc)
 
 ### CVE-2021-22146 (2021-07-21)
 
@@ -19274,6 +19294,13 @@
 
 - [hamm0nz/CVE-2020-18326](https://github.com/hamm0nz/CVE-2020-18326)
 
+### CVE-2020-19360 (2021-01-19)
+
+<code>Local file inclusion in FHEM 6.0 allows in fhem/FileLog_logWrapper file parameter can allow an attacker to include a file, which can lead to sensitive information disclosure.
+</code>
+
+- [a1665454764/CVE-2020-19360](https://github.com/a1665454764/CVE-2020-19360)
+
 ### CVE-2020-19586 (2022-09-13)
 
 <code>Incorrect Access Control issue in Yellowfin Business Intelligence 7.3 allows remote attackers to escalate privilege via MIAdminStyles.i4 Admin UI.
@@ -24600,13 +24627,6 @@
 </code>
 
 - [BKreisel/CVE-2018-1932X](https://github.com/BKreisel/CVE-2018-1932X)
-
-### CVE-2018-2019 (2019-01-18)
-
-<code>IBM Security Identity Manager 6.0.0 Virtual Appliance is vulnerable to a XML External Entity Injection (XXE) attack when processing XML data. A remote attacker could exploit this vulnerability to expose sensitive information or consume memory resources. IBM X-Force ID: 155265.
-</code>
-
-- [attakercyebr/hack4lx_CVE-2018-2019](https://github.com/attakercyebr/hack4lx_CVE-2018-2019)
 
 ### CVE-2018-2380 (2018-03-01)
 
@@ -33595,7 +33615,6 @@
 - [MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075)
 - [chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution)
 - [FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1](https://github.com/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1)
-- [imperialbyte/CVE-2010-2075](https://github.com/imperialbyte/CVE-2010-2075)
 
 ### CVE-2010-2387 (2012-12-20)
 
