@@ -456,6 +456,7 @@
 <code>The Ultimate Member WordPress plugin before 2.6.7 does not prevent visitors from creating user accounts with arbitrary capabilities, effectively allowing attackers to create administrator accounts at will. This is actively being exploited in the wild.
 </code>
 
+- [gbrsh/CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460)
 - [rizqimaulanaa/CVE-2023-3460](https://github.com/rizqimaulanaa/CVE-2023-3460)
 - [yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460)
 - [Fire-Null/CVE-2023-3460](https://github.com/Fire-Null/CVE-2023-3460)
@@ -1022,6 +1023,10 @@
 </code>
 
 - [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
+- [Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488)
+- [securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488)
+- [codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488)
+- [NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule)
 - [LazyySec/CVE-2023-24488](https://github.com/LazyySec/CVE-2023-24488)
 
 ### CVE-2023-24489 (2023-07-10)
@@ -1187,6 +1192,7 @@
 - [aodsec/CVE-2023-26256](https://github.com/aodsec/CVE-2023-26256)
 - [xhs-d/CVE-2023-26256](https://github.com/xhs-d/CVE-2023-26256)
 - [qs119/CVE-2023-26256](https://github.com/qs119/CVE-2023-26256)
+- [jcad123/CVE-2023-26256](https://github.com/jcad123/CVE-2023-26256)
 
 ### CVE-2023-26258 (2023-07-03)
 
@@ -1336,6 +1342,7 @@
 
 - [nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372)
 - [tucommenceapousser/CVE-2023-27372](https://github.com/tucommenceapousser/CVE-2023-27372)
+- [0SPwn/CVE-2023-27372-PoC](https://github.com/0SPwn/CVE-2023-27372-PoC)
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
 - [Pari-Malam/CVE-2023-27372](https://github.com/Pari-Malam/CVE-2023-27372)
 
@@ -1475,6 +1482,7 @@
 
 - [gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343)
 - [superzerosec/CVE-2023-28343](https://github.com/superzerosec/CVE-2023-28343)
+- [hba343434/CVE-2023-28343](https://github.com/hba343434/CVE-2023-28343)
 
 ### CVE-2023-28432 (2023-03-22)
 
@@ -1593,6 +1601,13 @@
 </code>
 
 - [mateusz834/CVE-2023-29409](https://github.com/mateusz834/CVE-2023-29409)
+
+### CVE-2023-29439 (2023-05-16)
+
+<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in FooPlugins FooGallery plugin &lt;= 2.2.35 versions.
+</code>
+
+- [LOURC0D3/CVE-2023-29439](https://github.com/LOURC0D3/CVE-2023-29439)
 
 ### CVE-2023-29478 (2023-04-06)
 
@@ -2076,6 +2091,13 @@
 - [hau-zy/KeePass-dump-py](https://github.com/hau-zy/KeePass-dump-py)
 - [4m4Sec/CVE-2023-32784](https://github.com/4m4Sec/CVE-2023-32784)
 
+### CVE-2023-32961 (2023-06-12)
+
+<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Katie Seaborn Zotpress plugin &lt;= 7.3.3 versions.
+</code>
+
+- [LOURC0D3/CVE-2023-32961](https://github.com/LOURC0D3/CVE-2023-32961)
+
 ### CVE-2023-33242 (2023-08-09)
 
 <code>Crypto wallets implementing the Lindell17 TSS protocol might allow an attacker to extract the full ECDSA private key by exfiltrating a single bit in every signature attempt (256 in total) because of not adhering to the paper's security proof's assumption regarding handling aborts after a failed signature.
@@ -2461,6 +2483,7 @@
 </code>
 
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
+- [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
 - [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
 - [Pari-Malam/CVE-2023-34960](https://github.com/Pari-Malam/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
@@ -2595,6 +2618,16 @@
 ### CVE-2023-36169
 - [TraiLeR2/CVE-2023-36169](https://github.com/TraiLeR2/CVE-2023-36169)
 
+### CVE-2023-36281 (2023-08-22)
+
+<code>An issue in langchain v.0.0.171 allows a remote attacker to execute arbitrary code via the via the a json file to the load_prompt parameter.
+</code>
+
+- [tagomaru/CVE-2023-36281](https://github.com/tagomaru/CVE-2023-36281)
+
+### CVE-2023-36531
+- [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
+
 ### CVE-2023-36664 (2023-06-25)
 
 <code>Artifex Ghostscript through 10.01.2 mishandles permission validation for pipe devices (with the %pipe% prefix or the | pipe character prefix).
@@ -2669,6 +2702,13 @@
 </code>
 
 - [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
+
+### CVE-2023-37250 (2023-08-20)
+
+<code>Unity Parsec has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs. This affects Parsec Loader versions through 8. Parsec Loader 9 is a fixed version.
+</code>
+
+- [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
 
 ### CVE-2023-37474 (2023-07-14)
 
