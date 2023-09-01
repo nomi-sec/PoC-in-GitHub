@@ -192,7 +192,6 @@
 
 - [ohnonoyesyes/CVE-2023-1671](https://github.com/ohnonoyesyes/CVE-2023-1671)
 - [W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC)
-- [c4ln/CVE-2023-1671-POC](https://github.com/c4ln/CVE-2023-1671-POC)
 - [csffs/cve-2023-1671](https://github.com/csffs/cve-2023-1671)
 
 ### CVE-2023-1767 (2023-04-20)
@@ -496,6 +495,20 @@
 
 - [codeb0ss/CVE-2023-3836](https://github.com/codeb0ss/CVE-2023-3836)
 - [zh-byte/CVE-2023-3836](https://github.com/zh-byte/CVE-2023-3836)
+
+### CVE-2023-4165 (2023-08-05)
+
+<code>Es wurde eine kritische Schwachstelle in Tongda OA gefunden. Hiervon betroffen ist ein unbekannter Codeblock der Datei general/system/seal_manage/iweboffice/delete_seal.php. Dank der Manipulation des Arguments DELETE_STR mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 11.10 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [mvpyyds/CVE-2023-4165](https://github.com/mvpyyds/CVE-2023-4165)
+
+### CVE-2023-4166 (2023-08-05)
+
+<code>In Tongda OA wurde eine kritische Schwachstelle gefunden. Betroffen ist eine unbekannte Verarbeitung der Datei general/system/seal_manage/dianju/delete_log.php. Dank Manipulation des Arguments DELETE_STR mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 11.10 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [mvpyyds/CVE-2023-4166](https://github.com/mvpyyds/CVE-2023-4166)
 
 ### CVE-2023-4174 (2023-08-05)
 
@@ -19329,6 +19342,7 @@
 </code>
 
 - [a1665454764/CVE-2020-19360](https://github.com/a1665454764/CVE-2020-19360)
+- [zzzz966/CVE-2020-19360](https://github.com/zzzz966/CVE-2020-19360)
 
 ### CVE-2020-19586 (2022-09-13)
 
