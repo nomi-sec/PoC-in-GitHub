@@ -528,6 +528,13 @@
 
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
 
+### CVE-2023-4696 (2023-08-31)
+
+<code>Improper Access Control in GitHub repository usememos/memos prior to 0.13.2.
+</code>
+
+- [mnqazi/CVE-2023-4696](https://github.com/mnqazi/CVE-2023-4696)
+
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
@@ -1220,6 +1227,13 @@
 </code>
 
 - [istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262)
+
+### CVE-2023-26469 (2023-08-17)
+
+<code>In Jorani 1.0.0, an attacker could leverage path traversal to access files and execute code on the server.
+</code>
+
+- [d0rb/CVE-2023-26469](https://github.com/d0rb/CVE-2023-26469)
 
 ### CVE-2023-26563 (2023-07-12)
 
@@ -2508,6 +2522,13 @@
 </code>
 
 - [AgentY0/CVE-2023-34965](https://github.com/AgentY0/CVE-2023-34965)
+
+### CVE-2023-35001 (2023-07-05)
+
+<code>Linux Kernel nftables Out-Of-Bounds Read/Write Vulnerability; nft_byteorder poorly handled vm register contents when CAP_NET_ADMIN is in any user or network namespace
+</code>
+
+- [synacktiv/CVE-2023-35001](https://github.com/synacktiv/CVE-2023-35001)
 
 ### CVE-2023-35078 (2023-07-25)
 
