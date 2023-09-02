@@ -3064,6 +3064,9 @@
 ### CVE-2023-40868
 - [MinoTauro2020/CVE-2023-40868](https://github.com/MinoTauro2020/CVE-2023-40868)
 
+### CVE-2023-40869
+- [MinoTauro2020/CVE-2023-40869](https://github.com/MinoTauro2020/CVE-2023-40869)
+
 ### CVE-2023-40924
 - [Yobing1/CVE-2023-40924](https://github.com/Yobing1/CVE-2023-40924)
 
