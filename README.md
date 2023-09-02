@@ -2352,6 +2352,7 @@
 </code>
 
 - [sinsinology/CVE-2023-34039](https://github.com/sinsinology/CVE-2023-34039)
+- [CharonDefalt/CVE-2023-34039](https://github.com/CharonDefalt/CVE-2023-34039)
 
 ### CVE-2023-34040 (2023-08-24)
 
@@ -3039,6 +3040,9 @@
 </code>
 
 - [Arajawat007/CVE-2023-39714](https://github.com/Arajawat007/CVE-2023-39714)
+
+### CVE-2023-39725
+- [anky-123/CVE-2023-39725](https://github.com/anky-123/CVE-2023-39725)
 
 ### CVE-2023-40294 (2023-08-13)
 
@@ -4883,6 +4887,7 @@
 - [dbgee/Spring4Shell](https://github.com/dbgee/Spring4Shell)
 - [jakabakos/CVE-2022-22965-Spring4Shell](https://github.com/jakabakos/CVE-2022-22965-Spring4Shell)
 - [h4ck0rman/Spring4Shell-PoC](https://github.com/h4ck0rman/Spring4Shell-PoC)
+- [sohamsharma966/Spring4Shell-CVE-2022-22965](https://github.com/sohamsharma966/Spring4Shell-CVE-2022-22965)
 
 ### CVE-2022-22966 (2022-04-14)
 
@@ -12728,6 +12733,7 @@
 </code>
 
 - [mithridates1313/ProxyShell_POC](https://github.com/mithridates1313/ProxyShell_POC)
+- [SUPRAAA-1337/CVE-2021-34523](https://github.com/SUPRAAA-1337/CVE-2021-34523)
 
 ### CVE-2021-34527 (2021-07-02)
 
