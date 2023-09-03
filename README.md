@@ -2942,6 +2942,8 @@
 - [MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC](https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC)
 - [Mich-ele/CVE-2023-38831-winrar](https://github.com/Mich-ele/CVE-2023-38831-winrar)
 - [asepsaepdin/CVE-2023-38831](https://github.com/asepsaepdin/CVE-2023-38831)
+- [K3rnel-Dev/WinrarExploit](https://github.com/K3rnel-Dev/WinrarExploit)
+- [Fa1c0n35/CVE-2023-38831-winrar-exploit](https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -5182,6 +5184,7 @@
 - [seymanurmutlu/CVE-2022-24086-CVE-2022-24087](https://github.com/seymanurmutlu/CVE-2022-24086-CVE-2022-24087)
 - [akr3ch/CVE-2022-24086](https://github.com/akr3ch/CVE-2022-24086)
 - [pescepilota/CVE-2022-24086](https://github.com/pescepilota/CVE-2022-24086)
+- [BurpRoot/CVE-2022-24086](https://github.com/BurpRoot/CVE-2022-24086)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
