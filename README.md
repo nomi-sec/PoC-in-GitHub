@@ -27767,6 +27767,7 @@
 - [Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199)
 - [BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199)
 - [Sunqiz/CVE-2017-0199-reprofuction](https://github.com/Sunqiz/CVE-2017-0199-reprofuction)
+- [0xCoolAnon/CVE-2017-0199-v5.0](https://github.com/0xCoolAnon/CVE-2017-0199-v5.0)
 
 ### CVE-2017-0204 (2017-04-12)
 
