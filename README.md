@@ -14624,6 +14624,7 @@
 - [mauricelambert/LabAutomationCVE-2021-43798](https://github.com/mauricelambert/LabAutomationCVE-2021-43798)
 - [FAOG99/GrafanaDirectoryScanner](https://github.com/FAOG99/GrafanaDirectoryScanner)
 - [nuker/CVE-2021-43798](https://github.com/nuker/CVE-2021-43798)
+- [victorhorowitz/grafana-exploit-CVE-2021-43798](https://github.com/victorhorowitz/grafana-exploit-CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
