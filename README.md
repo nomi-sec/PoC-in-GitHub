@@ -535,6 +535,13 @@
 
 - [mnqazi/CVE-2023-4696](https://github.com/mnqazi/CVE-2023-4696)
 
+### CVE-2023-4698 (2023-08-31)
+
+<code>Improper Input Validation in GitHub repository usememos/memos prior to 0.13.2.
+</code>
+
+- [mnqazi/CVE-2023-4698](https://github.com/mnqazi/CVE-2023-4698)
+
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
@@ -2357,6 +2364,7 @@
 - [sinsinology/CVE-2023-34039](https://github.com/sinsinology/CVE-2023-34039)
 - [CharonDefalt/CVE-2023-34039](https://github.com/CharonDefalt/CVE-2023-34039)
 - [Cyb3rEnthusiast/CVE-2023-34039](https://github.com/Cyb3rEnthusiast/CVE-2023-34039)
+- [syedhafiz1234/CVE-2023-34039](https://github.com/syedhafiz1234/CVE-2023-34039)
 
 ### CVE-2023-34040 (2023-08-24)
 
@@ -2541,6 +2549,7 @@
 </code>
 
 - [synacktiv/CVE-2023-35001](https://github.com/synacktiv/CVE-2023-35001)
+- [syedhafiz1234/nftables-oob-read-write-exploit-CVE-2023-35001-](https://github.com/syedhafiz1234/nftables-oob-read-write-exploit-CVE-2023-35001-)
 
 ### CVE-2023-35078 (2023-07-25)
 
@@ -2616,6 +2625,7 @@
 </code>
 
 - [leonardobg/CVE-2023-36143](https://github.com/leonardobg/CVE-2023-36143)
+- [RobinTrigon/CVE-2023-36143](https://github.com/RobinTrigon/CVE-2023-36143)
 
 ### CVE-2023-36144 (2023-06-30)
 
@@ -2800,6 +2810,9 @@
 </code>
 
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
+
+### CVE-2023-37621
+- [MY0723/CNVD-2022-27366__CVE-2023-37621](https://github.com/MY0723/CNVD-2022-27366__CVE-2023-37621)
 
 ### CVE-2023-37625 (2023-08-10)
 
