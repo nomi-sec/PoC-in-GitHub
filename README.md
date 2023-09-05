@@ -1111,6 +1111,7 @@
 - [nhakobyan685/CVE-2023-25136](https://github.com/nhakobyan685/CVE-2023-25136)
 - [axylisdead/CVE-2023-25136_POC](https://github.com/axylisdead/CVE-2023-25136_POC)
 - [H4K6/CVE-2023-25136](https://github.com/H4K6/CVE-2023-25136)
+- [Business1sg00d/CVE-2023-25136](https://github.com/Business1sg00d/CVE-2023-25136)
 
 ### CVE-2023-25157 (2023-02-21)
 
