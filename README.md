@@ -545,6 +545,13 @@
 
 - [mnqazi/CVE-2023-4698](https://github.com/mnqazi/CVE-2023-4698)
 
+### CVE-2023-4741 (2023-09-03)
+
+<code>In IBOS OA 4.5.5 wurde eine kritische Schwachstelle gefunden. Es geht um eine nicht näher bekannte Funktion der Datei ?r=diary/default/del der Komponente Delete Logs Handler. Durch das Manipulieren mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [wudidike/CVE-2023-4741](https://github.com/wudidike/CVE-2023-4741)
+
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
@@ -1309,6 +1316,13 @@
 </code>
 
 - [bypazs/CVE-2023-26984](https://github.com/bypazs/CVE-2023-26984)
+
+### CVE-2023-27034 (2023-03-23)
+
+<code>PrestaShop jmsblog 2.5.5 was discovered to contain a SQL injection vulnerability.
+</code>
+
+- [codeb0ss/CVE-2023-27034-Exploit](https://github.com/codeb0ss/CVE-2023-27034-Exploit)
 
 ### CVE-2023-27035 (2023-05-01)
 
@@ -2451,6 +2465,13 @@
 
 - [radman404/CVE-2023-34634](https://github.com/radman404/CVE-2023-34634)
 
+### CVE-2023-34747 (2023-06-14)
+
+<code>File upload vulnerability in ujcms 6.0.2 via /api/backend/core/web-file-upload/upload.
+</code>
+
+- [codeb0ss/CVE-2023-34747-PoC](https://github.com/codeb0ss/CVE-2023-34747-PoC)
+
 ### CVE-2023-34761 (2023-06-28)
 
 <code>An unauthenticated attacker within BLE proximity can remotely connect to a 7-Eleven LED Message Cup, Hello Cup 1.3.1 for Android, and bypass the application's client-side chat censor filter.
@@ -2879,6 +2900,7 @@
 
 - [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
 - [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
+- [mind2hex/MICS_Hunter](https://github.com/mind2hex/MICS_Hunter)
 
 ### CVE-2023-38388
 - [codeb0ss/CVE-2023-38388](https://github.com/codeb0ss/CVE-2023-38388)
@@ -3120,6 +3142,19 @@
 </code>
 
 - [praetorian-inc/zeroqlik-detect](https://github.com/praetorian-inc/zeroqlik-detect)
+
+### CVE-2023-41507
+- [redblueteam/CVE-2023-41507](https://github.com/redblueteam/CVE-2023-41507)
+
+### CVE-2023-41508
+- [redblueteam/CVE-2023-41508](https://github.com/redblueteam/CVE-2023-41508)
+
+### CVE-2023-41538 (2023-08-30)
+
+<code>phpjabbers PHP Forum Script 3.0 is vulnerable to Cross Site Scripting (XSS) via the keyword parameter.
+</code>
+
+- [codeb0ss/CVE-2023-41538-PoC](https://github.com/codeb0ss/CVE-2023-41538-PoC)
 
 ### CVE-2023-41646
 - [tristao-marinho/CVE-2023-41646](https://github.com/tristao-marinho/CVE-2023-41646)
@@ -33643,13 +33678,6 @@
 </code>
 
 - [puppetlabs-toy-chest/puppetlabs-cve20113872](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872)
-
-### CVE-2011-4107 (2011-11-17)
-
-<code>The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
-</code>
-
-- [SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107)
 
 ### CVE-2011-4862 (2011-12-24)
 
