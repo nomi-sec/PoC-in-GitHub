@@ -2082,10 +2082,18 @@
 ### CVE-2023-32117
 - [RandomRobbieBF/CVE-2023-32117](https://github.com/RandomRobbieBF/CVE-2023-32117)
 
-### CVE-2023-32162
+### CVE-2023-32162 (2023-09-06)
+
+<code>Wacom Drivers for Windows Incorrect Permission Assignment Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Wacom Drivers for Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the handling of the WacomInstallI.txt file by the PrefUtil.exe utility. The issue results from incorrect permissions on the WacomInstallI.txt file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-16318.
+</code>
+
 - [LucaBarile/ZDI-CAN-16318](https://github.com/LucaBarile/ZDI-CAN-16318)
 
-### CVE-2023-32163
+### CVE-2023-32163 (2023-09-06)
+
+<code>Wacom Drivers for Windows Link Following Local Privilege Escalation Vulnerability. This vulnerability allows local attackers to escalate privileges on affected installations of Wacom Drivers for Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.\n\nThe specific flaw exists within the Tablet Service. By creating a symbolic link, an attacker can abuse the service to create a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Was ZDI-CAN-16857.
+</code>
+
 - [LucaBarile/ZDI-CAN-16857](https://github.com/LucaBarile/ZDI-CAN-16857)
 
 ### CVE-2023-32233 (2023-05-08)
@@ -8528,6 +8536,7 @@
 - [RSA-Demo/cve-2022-42889-text4shell](https://github.com/RSA-Demo/cve-2022-42889-text4shell)
 - [aaronm-sysdig/text4shell-docker](https://github.com/aaronm-sysdig/text4shell-docker)
 - [gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC)
+- [Sic4rio/CVE-2022-42889](https://github.com/Sic4rio/CVE-2022-42889)
 
 ### CVE-2022-42896 (2022-11-23)
 
@@ -30691,7 +30700,6 @@
 - [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
-- [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
 - [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
 - [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
 - [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
@@ -30904,13 +30912,6 @@
 
 - [0xcl/cve-2016-7190](https://github.com/0xcl/cve-2016-7190)
 
-### CVE-2016-7200 (2016-11-10)
-
-<code>The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
-</code>
-
-- [theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11)
-
 ### CVE-2016-7255 (2016-11-10)
 
 <code>The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, and 1607, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
@@ -31069,7 +31070,6 @@
 <code>A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox &lt; 50.0.2, Firefox ESR &lt; 45.5.1, and Thunderbird &lt; 45.5.1.
 </code>
 
-- [LakshmiDesai/CVE-2016-9079](https://github.com/LakshmiDesai/CVE-2016-9079)
 - [dangokyo/CVE-2016-9079](https://github.com/dangokyo/CVE-2016-9079)
 - [Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079)
 
