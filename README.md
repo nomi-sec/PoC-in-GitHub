@@ -16127,25 +16127,13 @@
 <code>A spoofing vulnerability exists in the way Windows CryptoAPI (Crypt32.dll) validates Elliptic Curve Cryptography (ECC) certificates.An attacker could exploit the vulnerability by using a spoofed code-signing certificate to sign a malicious executable, making it appear the file was from a trusted, legitimate source, aka 'Windows CryptoAPI Spoofing Vulnerability'.
 </code>
 
-- [nissan-sudo/CVE-2020-0601](https://github.com/nissan-sudo/CVE-2020-0601)
 - [0xxon/cve-2020-0601](https://github.com/0xxon/cve-2020-0601)
-- [SherlockSec/CVE-2020-0601](https://github.com/SherlockSec/CVE-2020-0601)
-- [JPurrier/CVE-2020-0601](https://github.com/JPurrier/CVE-2020-0601)
 - [0xxon/cve-2020-0601-plugin](https://github.com/0xxon/cve-2020-0601-plugin)
-- [ly4k/CurveBall](https://github.com/ly4k/CurveBall)
 - [kudelskisecurity/chainoffools](https://github.com/kudelskisecurity/chainoffools)
 - [RrUZi/Awesome-CVE-2020-0601](https://github.com/RrUZi/Awesome-CVE-2020-0601)
 - [BlueTeamSteve/CVE-2020-0601](https://github.com/BlueTeamSteve/CVE-2020-0601)
 - [saleemrashid/badecparams](https://github.com/saleemrashid/badecparams)
-- [0xxon/cve-2020-0601-utils](https://github.com/0xxon/cve-2020-0601-utils)
 - [Doug-Moody/Windows10_Cumulative_Updates_PowerShell](https://github.com/Doug-Moody/Windows10_Cumulative_Updates_PowerShell)
-- [MarkusZehnle/CVE-2020-0601](https://github.com/MarkusZehnle/CVE-2020-0601)
-- [YoannDqr/CVE-2020-0601](https://github.com/YoannDqr/CVE-2020-0601)
-- [thimelp/cve-2020-0601-Perl](https://github.com/thimelp/cve-2020-0601-Perl)
-- [dlee35/curveball_lua](https://github.com/dlee35/curveball_lua)
-- [IIICTECH/-CVE-2020-0601-ECC---EXPLOIT](https://github.com/IIICTECH/-CVE-2020-0601-ECC---EXPLOIT)
-- [Ash112121/CVE-2020-0601](https://github.com/Ash112121/CVE-2020-0601)
-- [gentilkiwi/curveball](https://github.com/gentilkiwi/curveball)
 - [Hans-MartinHannibalLauridsen/CurveBall](https://github.com/Hans-MartinHannibalLauridsen/CurveBall)
 - [apodlosky/PoC_CurveBall](https://github.com/apodlosky/PoC_CurveBall)
 - [ioncodes/Curveball](https://github.com/ioncodes/Curveball)
@@ -16212,7 +16200,6 @@
 <code>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer, aka 'Scripting Engine Memory Corruption Vulnerability'. This CVE ID is unique from CVE-2020-0673, CVE-2020-0710, CVE-2020-0711, CVE-2020-0712, CVE-2020-0713, CVE-2020-0767.
 </code>
 
-- [5l1v3r1/CVE-2020-0674](https://github.com/5l1v3r1/CVE-2020-0674)
 - [maxpl0it/CVE-2020-0674-Exploit](https://github.com/maxpl0it/CVE-2020-0674-Exploit)
 - [Ken-Abruzzi/CVE-2020-0674](https://github.com/Ken-Abruzzi/CVE-2020-0674)
 - [Neko-chanQwQ/CVE-2020-0674-PoC](https://github.com/Neko-chanQwQ/CVE-2020-0674-PoC)
@@ -16480,8 +16467,6 @@
 </code>
 
 - [jamf/CVE-2020-1206-POC](https://github.com/jamf/CVE-2020-1206-POC)
-- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
-- [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
 ### CVE-2020-1283 (2020-06-09)
@@ -16628,13 +16613,6 @@
 
 - [0neb1n/CVE-2020-1493](https://github.com/0neb1n/CVE-2020-1493)
 
-### CVE-2020-1611 (2020-01-15)
-
-<code>A Local File Inclusion vulnerability in Juniper Networks Junos Space allows an attacker to view all files on the target when the device receives malicious HTTP packets. This issue affects: Juniper Networks Junos Space versions prior to 19.4R1.
-</code>
-
-- [Ibonok/CVE-2020-1611](https://github.com/Ibonok/CVE-2020-1611)
-
 ### CVE-2020-1764 (2020-03-26)
 
 <code>A hard-coded cryptographic key vulnerability in the default configuration file was found in Kiali, all versions prior to 1.15.1. A remote attacker could abuse this flaw by creating their own JWT signed tokens and bypass Kiali authentication mechanisms, possibly gaining privileges to view and alter the Istio configuration.
@@ -16702,7 +16680,6 @@
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
-- [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
 - [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
@@ -16785,7 +16762,6 @@
 </code>
 
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
-- [jas502n/CVE-2020-2551](https://github.com/jas502n/CVE-2020-2551)
 - [hktalent/CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551)
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
@@ -16819,13 +16795,6 @@
 </code>
 
 - [5l1v3r1/CVE-2020-2556](https://github.com/5l1v3r1/CVE-2020-2556)
-
-### CVE-2020-2655 (2020-01-15)
-
-<code>Vulnerability in the Java SE product of Oracle Java SE (component: JSSE). Supported versions that are affected are Java SE: 11.0.5 and 13.0.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Java SE. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Java SE accessible data as well as unauthorized read access to a subset of Java SE accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets (in Java SE 8), that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. CVSS 3.0 Base Score 4.8 (Confidentiality and Integrity impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).
-</code>
-
-- [RUB-NDS/CVE-2020-2655-DemoServer](https://github.com/RUB-NDS/CVE-2020-2655-DemoServer)
 
 ### CVE-2020-2883 (2020-04-15)
 
@@ -27973,7 +27942,7 @@
 <code>A remote code execution vulnerability in the Framesequence library could enable an attacker using a specially crafted file to execute arbitrary code in the context of an unprivileged process. This issue is rated as High due to the possibility of remote code execution in an application that uses the Framesequence library. Product: Android. Versions: 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1. Android ID: A-33718716.
 </code>
 
-- [JiounDai/CVE-2017-0478](https://github.com/JiounDai/CVE-2017-0478)
+- [bingghost/CVE-2017-0478](https://github.com/bingghost/CVE-2017-0478)
 - [likescam/CVE-2017-0478](https://github.com/likescam/CVE-2017-0478)
 
 ### CVE-2017-0505 (2017-03-07)
@@ -27988,7 +27957,7 @@
 <code>A remote code execution vulnerability in sonivox in Mediaserver could enable an attacker using a specially crafted file to cause memory corruption during media file and data processing. This issue is rated as Critical due to the possibility of remote code execution within the context of the Mediaserver process. Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1. Android ID: A-34031018.
 </code>
 
-- [JiounDai/CVE-2017-0541](https://github.com/JiounDai/CVE-2017-0541)
+- [C0dak/CVE-2017-0541](https://github.com/C0dak/CVE-2017-0541)
 - [likescam/CVE-2017-0541](https://github.com/likescam/CVE-2017-0541)
 
 ### CVE-2017-0554 (2017-04-07)
@@ -34061,7 +34030,6 @@
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 - [crypticdante/CVE-2009-2265](https://github.com/crypticdante/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
-- [0xConstant/CVE-2009-2265](https://github.com/0xConstant/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
@@ -34090,13 +34058,6 @@
 </code>
 
 - [johnwchadwick/cve-2009-3555-test-server](https://github.com/johnwchadwick/cve-2009-3555-test-server)
-
-### CVE-2009-4049 (2009-11-23)
-
-<code>Heap-based buffer overflow in aswRdr.sys (aka the TDI RDR driver) in avast! Home and Professional 4.8.1356.0 allows local users to cause a denial of service (memory corruption) or possibly gain privileges via crafted arguments to IOCTL 0x80002024.
-</code>
-
-- [fengjixuchui/CVE-2009-4049](https://github.com/fengjixuchui/CVE-2009-4049)
 
 ### CVE-2009-4092 (2009-11-27)
 
