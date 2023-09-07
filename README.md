@@ -1425,6 +1425,7 @@
 - [0SPwn/CVE-2023-27372-PoC](https://github.com/0SPwn/CVE-2023-27372-PoC)
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
 - [Pari-Malam/CVE-2023-27372](https://github.com/Pari-Malam/CVE-2023-27372)
+- [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
 
 ### CVE-2023-27524 (2023-04-24)
 
@@ -3153,7 +3154,11 @@
 
 - [Arajawat007/CVE-2023-39710](https://github.com/Arajawat007/CVE-2023-39710)
 
-### CVE-2023-39711
+### CVE-2023-39711 (2023-09-07)
+
+<code>Multiple cross-site scripting (XSS) vulnerabilities in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Subtotal and Paidbill parameters under the Add New Put section.
+</code>
+
 - [Arajawat007/CVE-2023-39711](https://github.com/Arajawat007/CVE-2023-39711)
 
 ### CVE-2023-39712
@@ -3198,6 +3203,9 @@
 
 ### CVE-2023-40924
 - [Yobing1/CVE-2023-40924](https://github.com/Yobing1/CVE-2023-40924)
+
+### CVE-2023-40930
+- [NSnidie/-CVE-2023-40930](https://github.com/NSnidie/-CVE-2023-40930)
 
 ### CVE-2023-41080 (2023-08-25)
 
@@ -10671,6 +10679,13 @@
 
 ### CVE-2021-10086
 - [AK-blank/CVE-2021-10086](https://github.com/AK-blank/CVE-2021-10086)
+
+### CVE-2021-20021 (2021-04-09)
+
+<code>A vulnerability in the SonicWall Email Security version 10.0.9.x allows an attacker to create an administrative account by sending a crafted HTTP request to the remote host.
+</code>
+
+- [SUPRAAA-1337/CVE-2021-20021](https://github.com/SUPRAAA-1337/CVE-2021-20021)
 
 ### CVE-2021-20038 (2021-12-08)
 
@@ -24046,7 +24061,6 @@
 
 - [shadow-horse/CVE-2019-17571](https://github.com/shadow-horse/CVE-2019-17571)
 - [Al1ex/CVE-2019-17571](https://github.com/Al1ex/CVE-2019-17571)
-- [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
 
 ### CVE-2019-17596 (2019-10-24)
 
