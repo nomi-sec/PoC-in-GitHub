@@ -16480,6 +16480,8 @@
 </code>
 
 - [jamf/CVE-2020-1206-POC](https://github.com/jamf/CVE-2020-1206-POC)
+- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
+- [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
 ### CVE-2020-1283 (2020-06-09)
@@ -16700,6 +16702,8 @@
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
+- [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
+- [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1956 (2020-05-22)
@@ -18029,16 +18033,32 @@
 
 - [InfoSec4Fun/CVE-2020-10128](https://github.com/InfoSec4Fun/CVE-2020-10128)
 
-### CVE-2020-10129
+### CVE-2020-10129 (2023-09-06)
+
+<code>SearchBlox before Version 9.2.1 is vulnerable to Privileged Escalation-Lower user is able to access Admin functionality.
+</code>
+
 - [InfoSec4Fun/CVE-2020-10129](https://github.com/InfoSec4Fun/CVE-2020-10129)
 
-### CVE-2020-10130
+### CVE-2020-10130 (2023-09-06)
+
+<code>SearchBlox before Version 9.1 is vulnerable to business logic bypass where the user is able to create multiple super admin users in the system.
+</code>
+
 - [InfoSec4Fun/CVE-2020-10130](https://github.com/InfoSec4Fun/CVE-2020-10130)
 
-### CVE-2020-10131
+### CVE-2020-10131 (2023-09-06)
+
+<code>SearchBlox before Version 9.2.1 is vulnerable to CSV macro injection in &quot;Featured Results&quot; parameter.
+</code>
+
 - [InfoSec4Fun/CVE-2020-10131](https://github.com/InfoSec4Fun/CVE-2020-10131)
 
-### CVE-2020-10132
+### CVE-2020-10132 (2023-09-06)
+
+<code>SearchBlox before Version 9.1 is vulnerable to cross-origin resource sharing misconfiguration.
+</code>
+
 - [InfoSec4Fun/CVE-2020-10132](https://github.com/InfoSec4Fun/CVE-2020-10132)
 
 ### CVE-2020-10135 (2020-05-19)
@@ -19035,6 +19055,13 @@
 - [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
 - [1n7erface/PocList](https://github.com/1n7erface/PocList)
+
+### CVE-2020-14947 (2020-06-30)
+
+<code>OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to require/commandLine/CommandLine.php because mib_file in plugins/main_sections/ms_config/ms_snmp_config.php is mishandled in get_mib_oid.
+</code>
+
+- [mhaskar/CVE-2020-14947](https://github.com/mhaskar/CVE-2020-14947)
 
 ### CVE-2020-14955 (2020-06-26)
 
