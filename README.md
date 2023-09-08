@@ -3063,7 +3063,7 @@
 
 ### CVE-2023-38836 (2023-08-21)
 
-<code>File Upload vulnerability in BoidCMS v.2.0.0 allows a remote attacker to execute arbitrary code via the GIF header component.
+<code>File Upload vulnerability in BoidCMS v.2.0.0 allows a remote attacker to execute arbitrary code by adding a GIF header to bypass MIME type checks.
 </code>
 
 - [1337kid/CVE-2023-38836](https://github.com/1337kid/CVE-2023-38836)
@@ -3209,7 +3209,11 @@
 ### CVE-2023-40869
 - [MinoTauro2020/CVE-2023-40869](https://github.com/MinoTauro2020/CVE-2023-40869)
 
-### CVE-2023-40924
+### CVE-2023-40924 (-)
+
+<code>SolarView Compact &lt; 6.00 is vulnerable to Directory Traversal.
+</code>
+
 - [Yobing1/CVE-2023-40924](https://github.com/Yobing1/CVE-2023-40924)
 
 ### CVE-2023-40930
@@ -9813,6 +9817,13 @@
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
+### CVE-2021-1366 (2021-02-17)
+
+<code>A vulnerability in the interprocess communication (IPC) channel of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to perform a DLL hijacking attack on an affected device if the VPN Posture (HostScan) Module is installed on the AnyConnect client. This vulnerability is due to insufficient validation of resources that are loaded by the application at run time. An attacker could exploit this vulnerability by sending a crafted IPC message to the AnyConnect process. A successful exploit could allow the attacker to execute arbitrary code on the affected machine with SYSTEM privileges. To exploit this vulnerability, the attacker needs valid credentials on the Windows system.
+</code>
+
+- [koztkozt/CVE-2021-1366](https://github.com/koztkozt/CVE-2021-1366)
+
 ### CVE-2021-1480 (2021-04-08)
 
 <code>Multiple vulnerabilities in Cisco SD-WAN vManage Software could allow an unauthenticated, remote attacker to execute arbitrary code or allow an authenticated, local attacker to gain escalated privileges on an affected system. For more information about these vulnerabilities, see the Details section of this advisory.
@@ -12993,13 +13004,6 @@
 - [r4vi/CVE-2021-35042](https://github.com/r4vi/CVE-2021-35042)
 - [zer0qs/CVE-2021-35042](https://github.com/zer0qs/CVE-2021-35042)
 - [LUUANHDUC/CVE-2021-35042](https://github.com/LUUANHDUC/CVE-2021-35042)
-
-### CVE-2021-35064 (2021-07-12)
-
-<code>KramerAV VIAWare, all tested versions, allow privilege escalation through misconfiguration of sudo. Sudoers permits running of multiple dangerous commands, including unzip, systemctl and dpkg.
-</code>
-
-- [info4mationprivate8tools/CVE-2021-35064](https://github.com/info4mationprivate8tools/CVE-2021-35064)
 
 ### CVE-2021-35211 (2021-07-14)
 
@@ -21224,13 +21228,6 @@
 </code>
 
 - [major203/cve-2019-1181](https://github.com/major203/cve-2019-1181)
-
-### CVE-2019-1205 (2019-08-14)
-
-<code>A remote code execution vulnerability exists in Microsoft Word software when it fails to properly handle objects in memory, aka 'Microsoft Word Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-1201.
-</code>
-
-- [info4mationprivate8tools/CVE-2019-1205](https://github.com/info4mationprivate8tools/CVE-2019-1205)
 
 ### CVE-2019-1215 (2019-09-11)
 
