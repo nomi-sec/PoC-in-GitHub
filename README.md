@@ -3162,7 +3162,11 @@
 
 - [Arajawat007/CVE-2023-39711](https://github.com/Arajawat007/CVE-2023-39711)
 
-### CVE-2023-39712
+### CVE-2023-39712 (2023-09-08)
+
+<code>Multiple cross-site scripting (XSS) vulnerabilities in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name, Address, and Company parameters under the Add New Put section.
+</code>
+
 - [Arajawat007/CVE-2023-39712](https://github.com/Arajawat007/CVE-2023-39712)
 
 ### CVE-2023-39714 (2023-09-01)
@@ -3209,7 +3213,7 @@
 ### CVE-2023-40869
 - [MinoTauro2020/CVE-2023-40869](https://github.com/MinoTauro2020/CVE-2023-40869)
 
-### CVE-2023-40924 (-)
+### CVE-2023-40924 (2023-09-08)
 
 <code>SolarView Compact &lt; 6.00 is vulnerable to Directory Traversal.
 </code>
@@ -15815,6 +15819,7 @@
 - [j4nn/CVE-2020-0041](https://github.com/j4nn/CVE-2020-0041)
 - [koharin/CVE-2020-0041](https://github.com/koharin/CVE-2020-0041)
 - [vaginessa/CVE-2020-0041-Pixel-3a](https://github.com/vaginessa/CVE-2020-0041-Pixel-3a)
+- [jcalabres/root-exploit-pixel3](https://github.com/jcalabres/root-exploit-pixel3)
 
 ### CVE-2020-0069 (2020-03-10)
 
