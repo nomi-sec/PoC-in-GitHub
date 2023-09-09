@@ -8621,6 +8621,7 @@
 - [aaronm-sysdig/text4shell-docker](https://github.com/aaronm-sysdig/text4shell-docker)
 - [gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC)
 - [Sic4rio/CVE-2022-42889](https://github.com/Sic4rio/CVE-2022-42889)
+- [0xxis/CVE-2022-42889](https://github.com/0xxis/CVE-2022-42889)
 
 ### CVE-2022-42896 (2022-11-23)
 
@@ -16240,6 +16241,7 @@
 - [ShayNehmad/twoplustwo](https://github.com/ShayNehmad/twoplustwo)
 - [okanulkr/CurveBall-CVE-2020-0601-PoC](https://github.com/okanulkr/CurveBall-CVE-2020-0601-PoC)
 - [cimashiro/-Awesome-CVE-2020-0601-](https://github.com/cimashiro/-Awesome-CVE-2020-0601-)
+- [tyj956413282/curveball-plus](https://github.com/tyj956413282/curveball-plus)
 
 ### CVE-2020-0606 (2020-01-14)
 
