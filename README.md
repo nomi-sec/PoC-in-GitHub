@@ -11219,6 +11219,7 @@
 - [hhhotdrink/CVE-2021-22205](https://github.com/hhhotdrink/CVE-2021-22205)
 - [sei-fish/CVE-2021-22205](https://github.com/sei-fish/CVE-2021-22205)
 - [overgrowncarrot1/DejaVu-CVE-2021-22205](https://github.com/overgrowncarrot1/DejaVu-CVE-2021-22205)
+- [Hikikan/CVE-2021-22205](https://github.com/Hikikan/CVE-2021-22205)
 
 ### CVE-2021-22206 (2021-05-06)
 
@@ -28853,6 +28854,7 @@
 </code>
 
 - [kienquoc102/CVE-2017-8225](https://github.com/kienquoc102/CVE-2017-8225)
+- [K3ysTr0K3R/CVE-2017-8225-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-8225-EXPLOIT)
 
 ### CVE-2017-8295 (2017-05-04)
 
@@ -34541,7 +34543,7 @@
 
 ### CVE-2006-20001 (2023-01-17)
 
-<code>A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash. This issue affects Apache HTTP Server 2.4.54 and earlier.
+<code>A carefully crafted If: request header can cause a memory read, or write of a single zero byte, in a pool (heap) memory location beyond the header value sent. This could cause the process to crash.\n\nThis issue affects Apache HTTP Server 2.4.54 and earlier.\n
 </code>
 
 - [Saksham2002/CVE-2006-20001](https://github.com/Saksham2002/CVE-2006-20001)
