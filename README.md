@@ -151,6 +151,7 @@
 </code>
 
 - [Voyag3r-Security/CVE-2023-1389](https://github.com/Voyag3r-Security/CVE-2023-1389)
+- [Terminal1337/CVE-2023-1389](https://github.com/Terminal1337/CVE-2023-1389)
 
 ### CVE-2023-1415 (2023-03-15)
 
@@ -8621,7 +8622,7 @@
 - [aaronm-sysdig/text4shell-docker](https://github.com/aaronm-sysdig/text4shell-docker)
 - [gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC)
 - [Sic4rio/CVE-2022-42889](https://github.com/Sic4rio/CVE-2022-42889)
-- [0xxis/CVE-2022-42889](https://github.com/0xxis/CVE-2022-42889)
+- [0xxq/CVE-2022-42889](https://github.com/0xxq/CVE-2022-42889)
 
 ### CVE-2022-42896 (2022-11-23)
 
