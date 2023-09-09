@@ -22161,6 +22161,7 @@
 </code>
 
 - [Snorlyd/https-nj.gov---CVE-2019-8331](https://github.com/Snorlyd/https-nj.gov---CVE-2019-8331)
+- [Thampakon/CVE-2019-8331](https://github.com/Thampakon/CVE-2019-8331)
 
 ### CVE-2019-8341 (2019-02-15)
 
