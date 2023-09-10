@@ -5265,7 +5265,7 @@
 <code>An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject malicious code into aspects of the setup script, which can allow XSS or HTML injection.
 </code>
 
-- [dipakpanchal456/CVE-2022-23808](https://github.com/dipakpanchal456/CVE-2022-23808)
+- [dipakpanchal05/CVE-2022-23808](https://github.com/dipakpanchal05/CVE-2022-23808)
 
 ### CVE-2022-23812 (2022-03-16)
 
