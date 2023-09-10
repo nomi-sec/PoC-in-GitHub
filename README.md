@@ -464,6 +464,7 @@
 </code>
 
 - [yuanjinyuyuyu/CVE-2023-3450](https://github.com/yuanjinyuyuyu/CVE-2023-3450)
+- [caopengyan/CVE-2023-3450](https://github.com/caopengyan/CVE-2023-3450)
 
 ### CVE-2023-3460 (2023-07-04)
 
@@ -590,6 +591,7 @@
 </code>
 
 - [nokn0wthing/CVE-2023-20052](https://github.com/nokn0wthing/CVE-2023-20052)
+- [cY83rR0H1t/CVE-2023-20052](https://github.com/cY83rR0H1t/CVE-2023-20052)
 
 ### CVE-2023-20073 (2023-04-05)
 
@@ -1518,6 +1520,7 @@
 - [imbas007/CVE-2023-27997-Check](https://github.com/imbas007/CVE-2023-27997-Check)
 - [puckiestyle/cve-2023-27997](https://github.com/puckiestyle/cve-2023-27997)
 - [TechinsightsPro/ShodanFortiOS](https://github.com/TechinsightsPro/ShodanFortiOS)
+- [Cyb3rEnthusiast/CVE-2023-27997](https://github.com/Cyb3rEnthusiast/CVE-2023-27997)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -2916,6 +2919,9 @@
 
 ### CVE-2023-37755
 - [leekenghwa/CVE-2023-37755---Hardcoded-Admin-Credential-in-i-doit-Pro-25-and-below](https://github.com/leekenghwa/CVE-2023-37755---Hardcoded-Admin-Credential-in-i-doit-Pro-25-and-below)
+
+### CVE-2023-37756
+- [leekenghwa/CVE-2023-37756-CWE-521-lead-to-malicious-plugin-upload-in-the-i-doit-Pro-25-and-below](https://github.com/leekenghwa/CVE-2023-37756-CWE-521-lead-to-malicious-plugin-upload-in-the-i-doit-Pro-25-and-below)
 
 ### CVE-2023-37771 (2023-07-31)
 
@@ -6236,7 +6242,7 @@
 - [erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated](https://github.com/erengozaydin/Microfinance-Management-System-V1.0-SQL-Injection-Vulnerability-Unauthenticated)
 
 ### CVE-2022-27997
-- [Cyb3rEnthusiast/CVE-2022-27997](https://github.com/Cyb3rEnthusiast/CVE-2022-27997)
+- [Cyb3rEnthusiast/CVE-2023-27997](https://github.com/Cyb3rEnthusiast/CVE-2023-27997)
 
 ### CVE-2022-28077 (2022-05-11)
 
@@ -8635,7 +8641,7 @@
 - [aaronm-sysdig/text4shell-docker](https://github.com/aaronm-sysdig/text4shell-docker)
 - [gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC)
 - [Sic4rio/CVE-2022-42889](https://github.com/Sic4rio/CVE-2022-42889)
-- [0xxq/CVE-2022-42889](https://github.com/0xxq/CVE-2022-42889)
+- [34006133/CVE-2022-42889](https://github.com/34006133/CVE-2022-42889)
 
 ### CVE-2022-42896 (2022-11-23)
 
@@ -21107,6 +21113,7 @@
 <code>An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0685, CVE-2019-0859.
 </code>
 
+- [Iamgublin/CVE-2019-0803](https://github.com/Iamgublin/CVE-2019-0803)
 - [ExpLife0011/CVE-2019-0803](https://github.com/ExpLife0011/CVE-2019-0803)
 
 ### CVE-2019-0808 (2019-04-08)
@@ -25093,6 +25100,7 @@
 <code>Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (subcomponent: Core). The supported version that is affected is Prior to 5.2.20. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.0 Base Score 8.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
 </code>
 
+- [ndureiss/e1000_vulnerability_exploit](https://github.com/ndureiss/e1000_vulnerability_exploit)
 - [vhok74/cve-2018-3295](https://github.com/vhok74/cve-2018-3295)
 
 ### CVE-2018-3608 (2018-07-06)
@@ -25342,6 +25350,13 @@
 </code>
 
 - [ktiOSz/PoC_iOS12](https://github.com/ktiOSz/PoC_iOS12)
+
+### CVE-2018-4441 (2019-04-03)
+
+<code>A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12.1.1, tvOS 12.1.1, watchOS 5.1.2, Safari 12.0.2, iTunes 12.9.2 for Windows, iCloud for Windows 7.9.
+</code>
+
+- [Cryptogenic/PS4-6.20-WebKit-Code-Execution-Exploit](https://github.com/Cryptogenic/PS4-6.20-WebKit-Code-Execution-Exploit)
 
 ### CVE-2018-4878 (2018-02-06)
 
@@ -27650,6 +27665,7 @@
 - [STP5940/CVE-2018-20250](https://github.com/STP5940/CVE-2018-20250)
 - [n4r1b/WinAce-POC](https://github.com/n4r1b/WinAce-POC)
 - [technicaldada/hack-winrar](https://github.com/technicaldada/hack-winrar)
+- [Ektoplasma/ezwinrar](https://github.com/Ektoplasma/ezwinrar)
 - [arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI](https://github.com/arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI)
 - [AeolusTF/CVE-2018-20250](https://github.com/AeolusTF/CVE-2018-20250)
 - [joydragon/Detect-CVE-2018-20250](https://github.com/joydragon/Detect-CVE-2018-20250)
@@ -32184,6 +32200,7 @@
 </code>
 
 - [aalex954/jwt-key-confusion-poc](https://github.com/aalex954/jwt-key-confusion-poc)
+- [WinDyAlphA/CVE-2015-9235_JWT_key_confusion](https://github.com/WinDyAlphA/CVE-2015-9235_JWT_key_confusion)
 
 ### CVE-2015-9251 (2018-01-18)
 
@@ -32343,8 +32360,10 @@
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
+- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
 - [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
+- [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
 
 ### CVE-2014-0226 (2014-07-20)
 
@@ -32743,12 +32762,14 @@
 - [dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes)
 - [npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse)
 - [ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3)
+- [jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271)
 - [rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec)
 - [scottjpack/shellshock_scanner](https://github.com/scottjpack/shellshock_scanner)
 - [Anklebiter87/Cgi-bin_bash_Reverse](https://github.com/Anklebiter87/Cgi-bin_bash_Reverse)
 - [justzx2011/bash-up](https://github.com/justzx2011/bash-up)
 - [mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271)
 - [ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check)
+- [RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm)
 - [gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww)
 - [woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271)
 - [ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock)
