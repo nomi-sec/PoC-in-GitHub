@@ -195,6 +195,13 @@
 - [W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC)
 - [csffs/cve-2023-1671](https://github.com/csffs/cve-2023-1671)
 
+### CVE-2023-1698 (2023-05-15)
+
+<code>In multiple products of WAGO a vulnerability allows an unauthenticated, remote attacker to create new users and change the device configuration which can result in unintended behaviour, Denial of Service and full system compromise.
+</code>
+
+- [codeb0ss/CVE-2023-1698-PoC](https://github.com/codeb0ss/CVE-2023-1698-PoC)
+
 ### CVE-2023-1767 (2023-04-20)
 
 <code>The Snyk Advisor website (https://snyk.io/advisor/) was vulnerable to a stored XSS prior to 28th March 2023. A feature of Snyk Advisor is to display the contents of a scanned package's Readme on its package health page. An attacker could create a package in NPM with an associated markdown README file containing XSS-able HTML tags. Upon Snyk Advisor importing the package, the XSS would run each time an end user browsed to the package's page on Snyk Advisor.
@@ -2903,6 +2910,12 @@
 </code>
 
 - [benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625)
+
+### CVE-2023-37739
+- [leekenghwa/CVE-2023-37739---Path-Traversal-in-i-doit-Pro-25-and-below](https://github.com/leekenghwa/CVE-2023-37739---Path-Traversal-in-i-doit-Pro-25-and-below)
+
+### CVE-2023-37755
+- [leekenghwa/CVE-2023-37755---Hardcoded-Admin-Credential-in-i-doit-Pro-25-and-below](https://github.com/leekenghwa/CVE-2023-37755---Hardcoded-Admin-Credential-in-i-doit-Pro-25-and-below)
 
 ### CVE-2023-37771 (2023-07-31)
 
@@ -9137,6 +9150,7 @@
 - [antisecc/CVE-2022-46169](https://github.com/antisecc/CVE-2022-46169)
 - [4m4Sec/CVE-2022-46169](https://github.com/4m4Sec/CVE-2022-46169)
 - [a1665454764/CVE-2022-46169](https://github.com/a1665454764/CVE-2022-46169)
+- [0xZon/CVE-2022-46169-Exploit](https://github.com/0xZon/CVE-2022-46169-Exploit)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -25079,7 +25093,6 @@
 <code>Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (subcomponent: Core). The supported version that is affected is Prior to 5.2.20. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.0 Base Score 8.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
 </code>
 
-- [ndureiss/e1000_vulnerability_exploit](https://github.com/ndureiss/e1000_vulnerability_exploit)
 - [vhok74/cve-2018-3295](https://github.com/vhok74/cve-2018-3295)
 
 ### CVE-2018-3608 (2018-07-06)
@@ -25329,13 +25342,6 @@
 </code>
 
 - [ktiOSz/PoC_iOS12](https://github.com/ktiOSz/PoC_iOS12)
-
-### CVE-2018-4441 (2019-04-03)
-
-<code>A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12.1.1, tvOS 12.1.1, watchOS 5.1.2, Safari 12.0.2, iTunes 12.9.2 for Windows, iCloud for Windows 7.9.
-</code>
-
-- [Cryptogenic/PS4-6.20-WebKit-Code-Execution-Exploit](https://github.com/Cryptogenic/PS4-6.20-WebKit-Code-Execution-Exploit)
 
 ### CVE-2018-4878 (2018-02-06)
 
@@ -27644,7 +27650,6 @@
 - [STP5940/CVE-2018-20250](https://github.com/STP5940/CVE-2018-20250)
 - [n4r1b/WinAce-POC](https://github.com/n4r1b/WinAce-POC)
 - [technicaldada/hack-winrar](https://github.com/technicaldada/hack-winrar)
-- [Ektoplasma/ezwinrar](https://github.com/Ektoplasma/ezwinrar)
 - [arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI](https://github.com/arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI)
 - [AeolusTF/CVE-2018-20250](https://github.com/AeolusTF/CVE-2018-20250)
 - [joydragon/Detect-CVE-2018-20250](https://github.com/joydragon/Detect-CVE-2018-20250)
@@ -32338,10 +32343,8 @@
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
-- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
 - [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
-- [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
 
 ### CVE-2014-0226 (2014-07-20)
 
@@ -32740,14 +32743,12 @@
 - [dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes)
 - [npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse)
 - [ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3)
-- [jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271)
 - [rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec)
 - [scottjpack/shellshock_scanner](https://github.com/scottjpack/shellshock_scanner)
 - [Anklebiter87/Cgi-bin_bash_Reverse](https://github.com/Anklebiter87/Cgi-bin_bash_Reverse)
 - [justzx2011/bash-up](https://github.com/justzx2011/bash-up)
 - [mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271)
 - [ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check)
-- [RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm)
 - [gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww)
 - [woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271)
 - [ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock)
