@@ -361,6 +361,7 @@
 - [yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825)
 - [Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab)
 - [EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825)
+- [caopengyan/CVE-2023-2825](https://github.com/caopengyan/CVE-2023-2825)
 
 ### CVE-2023-2833 (2023-06-06)
 
@@ -9157,6 +9158,7 @@
 - [4m4Sec/CVE-2022-46169](https://github.com/4m4Sec/CVE-2022-46169)
 - [a1665454764/CVE-2022-46169](https://github.com/a1665454764/CVE-2022-46169)
 - [0xZon/CVE-2022-46169-Exploit](https://github.com/0xZon/CVE-2022-46169-Exploit)
+- [copyleftdev/PricklyPwn](https://github.com/copyleftdev/PricklyPwn)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -34706,7 +34708,6 @@
 <code>Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execute arbitrary code via (1) a long EHLO argument to slmail.exe, (2) a long XTRN argument to slmail.exe, (3) a long string to POPPASSWD, or (4) a long password to the POP3 server.
 </code>
 
-- [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
