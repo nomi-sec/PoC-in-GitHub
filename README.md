@@ -1452,7 +1452,11 @@
 - [Pari-Malam/CVE-2023-27372](https://github.com/Pari-Malam/CVE-2023-27372)
 - [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
 
-### CVE-2023-27470
+### CVE-2023-27470 (2023-09-11)
+
+<code>BASupSrvcUpdater.exe in N-able Take Control Agent through 7.0.41.1141 before 7.0.43 has a TOCTOU Race Condition via a pseudo-symlink at %PROGRAMDATA%\GetSupportService_N-Central\PushUpdates, leading to arbitrary file deletion.
+</code>
+
 - [3lp4tr0n/CVE-2023-27470_Exercise](https://github.com/3lp4tr0n/CVE-2023-27470_Exercise)
 
 ### CVE-2023-27524 (2023-04-24)
@@ -3315,7 +3319,11 @@
 
 - [codeb0ss/CVE-2023-41538-PoC](https://github.com/codeb0ss/CVE-2023-41538-PoC)
 
-### CVE-2023-41593
+### CVE-2023-41593 (-)
+
+<code>Multiple cross-site scripting (XSS) vulnerabilities in Dairy Farm Shop Management System Using PHP and MySQL v1.1 allow attackers to execute arbitrary web scripts and HTML via a crafted payload injected into the Category and Category Field parameters.
+</code>
+
 - [MATRIXDEVIL/CVE](https://github.com/MATRIXDEVIL/CVE)
 
 ### CVE-2023-41646 (2023-09-07)
@@ -3363,6 +3371,14 @@
 </code>
 
 - [Haxatron/CVE-2022-0219](https://github.com/Haxatron/CVE-2022-0219)
+
+### CVE-2022-0236 (2022-01-18)
+
+<code>The WP Import Export WordPress plugin (both free and premium versions) is vulnerable to unauthenticated sensitive data disclosure due to a missing capability check on the download function wpie_process_file_download found in the ~/includes/classes/class-wpie-general.php file. This made it possible for unauthenticated attackers to download any imported or exported information from a vulnerable site which can contain sensitive information like user data. This affects versions up to, and including, 3.9.15.
+</code>
+
+- [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
+- [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
 ### CVE-2022-0265 (2022-03-03)
 
@@ -4557,6 +4573,7 @@
 <code>Gin-vue-admin is a backstage management system based on vue and gin. In versions prior to 2.4.7 low privilege users are able to modify higher privilege users. Authentication is missing on the `setUserInfo` function. Users are advised to update as soon as possible. There are no known workarounds.
 </code>
 
+- [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
 - [UzJu/CVE-2022-21660](https://github.com/UzJu/CVE-2022-21660)
 
 ### CVE-2022-21661 (2022-01-06)
@@ -4646,6 +4663,8 @@
 
 - [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
+- [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
+- [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
@@ -19871,7 +19890,11 @@
 
 - [M0NsTeRRR/CVE-2020-24033](https://github.com/M0NsTeRRR/CVE-2020-24033)
 
-### CVE-2020-24088
+### CVE-2020-24088 (2023-09-11)
+
+<code>An issue was discovered in MmMapIoSpace routine in Foxconn Live Update Utility 2.1.6.26, allows local attackers to escalate privileges.
+</code>
+
 - [rjt-gupta/CVE-2020-24088](https://github.com/rjt-gupta/CVE-2020-24088)
 
 ### CVE-2020-24089
@@ -34216,13 +34239,6 @@
 
 - [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
 
-### CVE-2009-3103 (2009-09-08)
-
-<code>Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
-</code>
-
-- [sooklalad/ms09050](https://github.com/sooklalad/ms09050)
-
 ### CVE-2009-3555 (2009-11-09)
 
 <code>The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a &quot;plaintext injection&quot; attack, aka the &quot;Project Mogul&quot; issue.
@@ -34298,6 +34314,7 @@
 
 - [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
 - [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
+- [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
 - [demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166](https://github.com/demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166)
 
 ### CVE-2008-0228 (2008-01-10)
