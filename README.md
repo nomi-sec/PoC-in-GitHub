@@ -15750,6 +15750,7 @@
 </code>
 
 - [febinrev/CVE-2021-46398_Chamilo-LMS-RCE](https://github.com/febinrev/CVE-2021-46398_Chamilo-LMS-RCE)
+- [LalieA/CVE-2021-46398](https://github.com/LalieA/CVE-2021-46398)
 
 ### CVE-2021-46417 (2022-04-07)
 
@@ -21151,7 +21152,6 @@
 </code>
 
 - [qianshuidewajueji/CVE-2019-0887](https://github.com/qianshuidewajueji/CVE-2019-0887)
-- [t43Wiu6/CVE-2019-0887](https://github.com/t43Wiu6/CVE-2019-0887)
 
 ### CVE-2019-0888 (2019-06-12)
 
@@ -21722,7 +21722,6 @@
 
 - [knqyf263/CVE-2019-5420](https://github.com/knqyf263/CVE-2019-5420)
 - [cved-sources/cve-2019-5420](https://github.com/cved-sources/cve-2019-5420)
-- [AnasTaoutaou/CVE-2019-5420](https://github.com/AnasTaoutaou/CVE-2019-5420)
 - [Eremiel/CVE-2019-5420](https://github.com/Eremiel/CVE-2019-5420)
 - [scumdestroy/CVE-2019-5420.rb](https://github.com/scumdestroy/CVE-2019-5420.rb)
 - [j4k0m/CVE-2019-5420](https://github.com/j4k0m/CVE-2019-5420)
@@ -22808,7 +22807,6 @@
 
 - [mt-code/CVE-2019-11447](https://github.com/mt-code/CVE-2019-11447)
 - [khuntor/CVE-2019-11447-EXP](https://github.com/khuntor/CVE-2019-11447-EXP)
-- [dinesh876/CVE-2019-11447-POC](https://github.com/dinesh876/CVE-2019-11447-POC)
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
 - [0xConstant/CVE-2019-11447](https://github.com/0xConstant/CVE-2019-11447)
@@ -30837,7 +30835,6 @@
 - [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
-- [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
 - [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
 - [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
 - [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
@@ -31050,13 +31047,6 @@
 
 - [0xcl/cve-2016-7190](https://github.com/0xcl/cve-2016-7190)
 
-### CVE-2016-7200 (2016-11-10)
-
-<code>The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
-</code>
-
-- [theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11)
-
 ### CVE-2016-7255 (2016-11-10)
 
 <code>The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, and 1607, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
@@ -31215,7 +31205,6 @@
 <code>A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox &lt; 50.0.2, Firefox ESR &lt; 45.5.1, and Thunderbird &lt; 45.5.1.
 </code>
 
-- [LakshmiDesai/CVE-2016-9079](https://github.com/LakshmiDesai/CVE-2016-9079)
 - [dangokyo/CVE-2016-9079](https://github.com/dangokyo/CVE-2016-9079)
 - [Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079)
 
@@ -34461,6 +34450,7 @@
 
 - [advanced-threat-research/Creosote](https://github.com/advanced-threat-research/Creosote)
 - [Ooscaar/MALW](https://github.com/Ooscaar/MALW)
+- [davidholiday/CVE-2007-4559](https://github.com/davidholiday/CVE-2007-4559)
 
 ### CVE-2007-4560 (2007-08-27)
 
@@ -34708,6 +34698,7 @@
 <code>Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execute arbitrary code via (1) a long EHLO argument to slmail.exe, (2) a long XTRN argument to slmail.exe, (3) a long string to POPPASSWD, or (4) a long password to the POP3 server.
 </code>
 
+- [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
