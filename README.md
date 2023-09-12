@@ -145,6 +145,13 @@
 - [hh-hunter/ml-CVE-2023-1177](https://github.com/hh-hunter/ml-CVE-2023-1177)
 - [iumiro/CVE-2023-1177-MLFlow](https://github.com/iumiro/CVE-2023-1177-MLFlow)
 
+### CVE-2023-1273 (2023-07-04)
+
+<code>The ND Shortcodes WordPress plugin before 7.0 does not validate some shortcode attributes before using them to generate paths passed to include function/s, allowing any authenticated users such as subscriber to perform LFI attacks
+</code>
+
+- [codeb0ss/CVE-2023-1273-PoC](https://github.com/codeb0ss/CVE-2023-1273-PoC)
+
 ### CVE-2023-1337 (2023-03-10)
 
 <code>The RapidLoad Power-Up for Autoptimize plugin for WordPress is vulnerable to unauthorized data loss due to a missing capability check on the clear_uucss_logs function in versions up to, and including, 1.7.1. This makes it possible for authenticated attackers with subscriber-level access to delete plugin log files.
@@ -542,7 +549,14 @@
 - [d0rb/CVE-2023-4174](https://github.com/d0rb/CVE-2023-4174)
 - [codeb0ss/CVE-2023-4174](https://github.com/codeb0ss/CVE-2023-4174)
 
-### CVE-2023-4278
+### CVE-2023-4238
+- [codeb0ss/CVE-2023-4238-PoC](https://github.com/codeb0ss/CVE-2023-4238-PoC)
+
+### CVE-2023-4278 (2023-09-11)
+
+<code>The MasterStudy LMS WordPress Plugin WordPress plugin before 3.0.18 does not have proper checks in place during registration allowing anyone to register on the site as an instructor. They can then add courses and/or posts.
+</code>
+
 - [revan-ar/CVE-2023-4278](https://github.com/revan-ar/CVE-2023-4278)
 
 ### CVE-2023-4350 (2023-08-15)
@@ -2675,7 +2689,11 @@
 
 - [tin-z/CVE-2023-35086-POC](https://github.com/tin-z/CVE-2023-35086-POC)
 
-### CVE-2023-35674
+### CVE-2023-35674 (2023-09-11)
+
+<code>In onCreate of WindowState.java, there is a possible way to launch a background activity due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
 - [Thampakon/CVE-2023-35674](https://github.com/Thampakon/CVE-2023-35674)
 
 ### CVE-2023-35744
@@ -3073,7 +3091,11 @@
 ### CVE-2023-38822
 - [TraiLeR2/Corsair---DLL-Planting-CVE-2023-38822](https://github.com/TraiLeR2/Corsair---DLL-Planting-CVE-2023-38822)
 
-### CVE-2023-38829
+### CVE-2023-38829 (2023-09-11)
+
+<code>An issue in NETIS SYSTEMS WF2409E v.3.6.42541 allows a remote attacker to execute arbitrary code via the ping and traceroute functions of the diagnostic tools component in the admin management interface.
+</code>
+
 - [adhikara13/CVE-2023-38829-NETIS-WF2409E](https://github.com/adhikara13/CVE-2023-38829-NETIS-WF2409E)
 
 ### CVE-2023-38831 (2023-08-23)
@@ -3127,7 +3149,11 @@
 
 - [afine-com/CVE-2023-39062](https://github.com/afine-com/CVE-2023-39062)
 
-### CVE-2023-39063
+### CVE-2023-39063 (2023-09-11)
+
+<code>Buffer Overflow vulnerability in RaidenFTPD 2.4.4005 allows a local attacker to execute arbitrary code via the Server name field of the Step by step setup wizard.
+</code>
+
 - [AndreGNogueira/CVE-2023-39063](https://github.com/AndreGNogueira/CVE-2023-39063)
 
 ### CVE-2023-39115 (2023-08-16)
@@ -3319,7 +3345,7 @@
 
 - [codeb0ss/CVE-2023-41538-PoC](https://github.com/codeb0ss/CVE-2023-41538-PoC)
 
-### CVE-2023-41593 (-)
+### CVE-2023-41593 (2023-09-11)
 
 <code>Multiple cross-site scripting (XSS) vulnerabilities in Dairy Farm Shop Management System Using PHP and MySQL v1.1 allow attackers to execute arbitrary web scripts and HTML via a crafted payload injected into the Category and Category Field parameters.
 </code>
@@ -3339,6 +3365,26 @@
 </code>
 
 - [federella/CVE-2023-41717](https://github.com/federella/CVE-2023-41717)
+
+### CVE-2023-42468
+- [actuator/com.cutestudio.colordialer](https://github.com/actuator/com.cutestudio.colordialer)
+
+### CVE-2023-42469
+- [actuator/com.full.dialer.top.secure.encrypted](https://github.com/actuator/com.full.dialer.top.secure.encrypted)
+
+### CVE-2023-42470 (2023-09-11)
+
+<code>The Imou Life com.mm.android.smartlifeiot application through 6.8.0 for Android allows Remote Code Execution via a crafted intent to an exported component. This relates to the com.mm.android.easy4ip.MainActivity activity. JavaScript execution is enabled in the WebView, and direct web content loading occurs.
+</code>
+
+- [actuator/imou](https://github.com/actuator/imou)
+
+### CVE-2023-42471 (2023-09-11)
+
+<code>The wave.ai.browser application through 1.0.35 for Android allows a remote attacker to execute arbitrary JavaScript code via a crafted intent. It contains a manifest entry that exports the wave.ai.browser.ui.splash.SplashScreen activity. This activity uses a WebView component to display web content and doesn't adequately validate or sanitize the URI or any extra data passed in the intent by a third party application (with no permissions).
+</code>
+
+- [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -4203,6 +4249,13 @@
 </code>
 
 - [Urban4/CVE-2022-3992](https://github.com/Urban4/CVE-2022-3992)
+
+### CVE-2022-4063 (2022-12-19)
+
+<code>The InPost Gallery WordPress plugin before 2.1.4.1 insecurely uses PHP's extract() function when rendering HTML views, allowing attackers to force the inclusion of malicious files &amp; URLs, which may enable them to run code on servers.
+</code>
+
+- [im-hanzou/INPGer](https://github.com/im-hanzou/INPGer)
 
 ### CVE-2022-4096 (2022-11-21)
 
@@ -9357,7 +9410,7 @@
 
 ### CVE-2022-47966 (2023-01-18)
 
-<code>Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the ManageEngine applications did not provide those protections.
+<code>Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache Santuario xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the ManageEngine applications did not provide those protections. This affects Access Manager Plus before 4308, Active Directory 360 before 4310, ADAudit Plus before 7081, ADManager Plus before 7162, ADSelfService Plus before 6211, Analytics Plus before 5150, Application Control Plus before 10.1.2220.18, Asset Explorer before 6983, Browser Security Plus before 11.1.2238.6, Device Control Plus before 10.1.2220.18, Endpoint Central before 10.1.2228.11, Endpoint Central MSP before 10.1.2228.11, Endpoint DLP before 10.1.2137.6, Key Manager Plus before 6401, OS Deployer before 1.1.2243.1, PAM 360 before 5713, Password Manager Pro before 12124, Patch Manager Plus before 10.1.2220.18, Remote Access Plus before 10.1.2228.11, Remote Monitoring and Management (RMM) before 10.1.41. ServiceDesk Plus before 14004, ServiceDesk Plus MSP before 13001, SupportCenter Plus before 11026, and Vulnerability Manager Plus before 10.1.2220.18. Exploitation is only possible if SAML SSO has ever been configured for a product (for some products, exploitation requires that SAML SSO is currently active).
 </code>
 
 - [horizon3ai/CVE-2022-47966](https://github.com/horizon3ai/CVE-2022-47966)
@@ -34238,6 +34291,13 @@
 </code>
 
 - [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
+
+### CVE-2009-3103 (2009-09-08)
+
+<code>Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
+</code>
+
+- [sooklalad/ms09050](https://github.com/sooklalad/ms09050)
 
 ### CVE-2009-3555 (2009-11-09)
 
