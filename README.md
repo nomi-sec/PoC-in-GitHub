@@ -3136,6 +3136,9 @@
 
 - [akshadjoshi/CVE-2023-38890](https://github.com/akshadjoshi/CVE-2023-38890)
 
+### CVE-2023-38891
+- [jselliott/CVE-2023-38891](https://github.com/jselliott/CVE-2023-38891)
+
 ### CVE-2023-39062 (2023-08-28)
 
 <code>Cross Site Scripting vulnerability in Spipu HTML2PDF before v.5.2.8 allows a remote attacker to execute arbitrary code via a crafted script to the forms.php.
