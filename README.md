@@ -462,6 +462,13 @@
 
 - [George0Papasotiriou/CVE-2023-3163-SQL-Injection-Prevention](https://github.com/George0Papasotiriou/CVE-2023-3163-SQL-Injection-Prevention)
 
+### CVE-2023-3244 (2023-08-17)
+
+<code>The Comments Like Dislike plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the restore_settings function called via an AJAX action in versions up to, and including, 1.1.9. This makes it possible for authenticated attackers with minimal permissions, such as a subscriber, to reset the plugin's settings. NOTE: After attempting to contact the developer with no response, and reporting this to the WordPress plugin's team 30 days ago we are disclosing this issue as it still is not updated.
+</code>
+
+- [drnull03/POC-CVE-2023-3244](https://github.com/drnull03/POC-CVE-2023-3244)
+
 ### CVE-2023-3269 (2023-07-11)
 
 <code>A vulnerability exists in the memory management subsystem of the Linux kernel. The lock handling for accessing and updating virtual memory areas (VMAs) is incorrect, leading to use-after-free problems. This issue can be successfully exploited to execute arbitrary kernel code, escalate containers, and gain root privileges.
@@ -3373,6 +3380,9 @@
 </code>
 
 - [federella/CVE-2023-41717](https://github.com/federella/CVE-2023-41717)
+
+### CVE-2023-42362
+- [Mr-n0b3dy/CVE-2023-42362](https://github.com/Mr-n0b3dy/CVE-2023-42362)
 
 ### CVE-2023-42468
 - [actuator/com.cutestudio.colordialer](https://github.com/actuator/com.cutestudio.colordialer)
@@ -10008,11 +10018,9 @@
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
 - [evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP)
-- [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
 - [tanarchytan/CVE-2021-1675](https://github.com/tanarchytan/CVE-2021-1675)
-- [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
 - [Leonidus0x10/CVE-2021-1675-SCANNER](https://github.com/Leonidus0x10/CVE-2021-1675-SCANNER)
 - [thomasgeens/CVE-2021-1675](https://github.com/thomasgeens/CVE-2021-1675)
 - [mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery](https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery)
@@ -10395,13 +10403,6 @@
 </code>
 
 - [rafaelchriss/CVE-2021-3279](https://github.com/rafaelchriss/CVE-2021-3279)
-
-### CVE-2021-3281 (2021-02-02)
-
-<code>In Django 2.2 before 2.2.18, 3.0 before 3.0.12, and 3.1 before 3.1.6, the django.utils.archive.extract method (used by &quot;startapp --template&quot; and &quot;startproject --template&quot;) allows directory traversal via an archive with absolute paths or relative paths with dot segments.
-</code>
-
-- [lwzSoviet/CVE-2021-3281](https://github.com/lwzSoviet/CVE-2021-3281)
 
 ### CVE-2021-3291 (2021-01-26)
 
@@ -13064,7 +13065,6 @@
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
 - [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
-- [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
@@ -27056,6 +27056,13 @@
 - [hacker30468/Mikrotik-router-hack](https://github.com/hacker30468/Mikrotik-router-hack)
 - [babyshen/routeros-CVE-2018-14847-bytheway](https://github.com/babyshen/routeros-CVE-2018-14847-bytheway)
 
+### CVE-2018-14879 (2019-10-03)
+
+<code>The command-line argument parser in tcpdump before 4.9.3 has a buffer overflow in tcpdump.c:get_next_file().
+</code>
+
+- [Trinadh465/external_tcpdump_CVE-2018-14879](https://github.com/Trinadh465/external_tcpdump_CVE-2018-14879)
+
 ### CVE-2018-15131 (2019-05-30)
 
 <code>An issue was discovered in Synacor Zimbra Collaboration Suite 8.6.x before 8.6.0 Patch 11, 8.7.x before 8.7.11 Patch 6, 8.8.x before 8.8.8 Patch 9, and 8.8.9 before 8.8.9 Patch 3. Account number enumeration is possible via inconsistent responses for specific types of authentication requests.
@@ -33433,13 +33440,6 @@
 
 - [tafamace/CVE-2013-4002](https://github.com/tafamace/CVE-2013-4002)
 
-### CVE-2013-4175 (2020-01-23)
-
-<code>MySecureShell 1.31 has a Local Denial of Service Vulnerability
-</code>
-
-- [hartwork/mysecureshell-issues](https://github.com/hartwork/mysecureshell-issues)
-
 ### CVE-2013-4348 (2013-11-04)
 
 <code>The skb_flow_dissect function in net/core/flow_dissector.c in the Linux kernel through 3.12 allows remote attackers to cause a denial of service (infinite loop) via a small value in the IHL field of a packet with IPIP encapsulation.
@@ -34663,6 +34663,7 @@
 - [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
 - [kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392)
 - [g1vi/CVE-2006-3392](https://github.com/g1vi/CVE-2006-3392)
+- [MrEmpy/CVE-2006-3392](https://github.com/MrEmpy/CVE-2006-3392)
 
 ### CVE-2006-3592 (2006-07-14)
 
