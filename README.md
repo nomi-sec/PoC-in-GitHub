@@ -108,6 +108,9 @@
 
 - [gonzxph/CVE-2023-0748](https://github.com/gonzxph/CVE-2023-0748)
 
+### CVE-2023-08
+- [amirzargham/CVE-2023-08-21-exploit](https://github.com/amirzargham/CVE-2023-08-21-exploit)
+
 ### CVE-2023-0830 (2023-02-14)
 
 <code>Es wurde eine kritische Schwachstelle in EasyNAS 1.1.0 entdeckt. Es betrifft die Funktion system der Datei /backup.pl. Durch Manipulation mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
@@ -3014,6 +3017,13 @@
 - [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
 - [mind2hex/MICS_Hunter](https://github.com/mind2hex/MICS_Hunter)
 
+### CVE-2023-38146 (2023-09-12)
+
+<code>Windows Themes Remote Code Execution Vulnerability
+</code>
+
+- [gabe-k/themebleed](https://github.com/gabe-k/themebleed)
+
 ### CVE-2023-38388
 - [codeb0ss/CVE-2023-38388](https://github.com/codeb0ss/CVE-2023-38388)
 
@@ -3121,6 +3131,7 @@
 - [GOTonyGO/CVE-2023-38831-winrar](https://github.com/GOTonyGO/CVE-2023-38831-winrar)
 - [Malwareman007/CVE-2023-38831](https://github.com/Malwareman007/CVE-2023-38831)
 - [ameerpornillos/CVE-2023-38831-WinRAR-Exploit](https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit)
+- [Rezaguii/winrar-exploit-CVE-2023-38831-tool](https://github.com/Rezaguii/winrar-exploit-CVE-2023-38831-tool)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -3289,7 +3300,7 @@
 - [Yobing1/CVE-2023-40924](https://github.com/Yobing1/CVE-2023-40924)
 
 ### CVE-2023-40930
-- [NSnidie/-CVE-2023-40930](https://github.com/NSnidie/-CVE-2023-40930)
+- [NSnidie/CVE-2023-40930](https://github.com/NSnidie/CVE-2023-40930)
 
 ### CVE-2023-41080 (2023-08-25)
 
@@ -34652,7 +34663,6 @@
 - [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
 - [kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392)
 - [g1vi/CVE-2006-3392](https://github.com/g1vi/CVE-2006-3392)
-- [MrEmpy/CVE-2006-3392](https://github.com/MrEmpy/CVE-2006-3392)
 
 ### CVE-2006-3592 (2006-07-14)
 
