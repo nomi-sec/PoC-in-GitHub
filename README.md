@@ -2812,7 +2812,11 @@
 ### CVE-2023-36169
 - [TraiLeR2/CVE-2023-36169](https://github.com/TraiLeR2/CVE-2023-36169)
 
-### CVE-2023-36250
+### CVE-2023-36250 (2023-09-14)
+
+<code>CSV Injection vulnerability in GNOME time tracker version 3.0.2, allows local attackers to execute arbitrary code via crafted .tsv file when creating a new record.
+</code>
+
 - [BrunoTeixeira1996/CVE-2023-36250](https://github.com/BrunoTeixeira1996/CVE-2023-36250)
 
 ### CVE-2023-36281 (2023-08-22)
@@ -3145,7 +3149,6 @@
 - [GOTonyGO/CVE-2023-38831-winrar](https://github.com/GOTonyGO/CVE-2023-38831-winrar)
 - [Malwareman007/CVE-2023-38831](https://github.com/Malwareman007/CVE-2023-38831)
 - [ameerpornillos/CVE-2023-38831-WinRAR-Exploit](https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit)
-- [Rezaguii/winrar-exploit-CVE-2023-38831-tool](https://github.com/Rezaguii/winrar-exploit-CVE-2023-38831-tool)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -28694,13 +28697,6 @@
 - [GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment)
 - [dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit)
 
-### CVE-2017-5721 (2017-10-10)
-
-<code>Insufficient input validation in system firmware for Intel NUC7i3BNK, NUC7i3BNH, NUC7i5BNK, NUC7i5BNH, NUC7i7BNH versions BN0049 and below allows local attackers to execute arbitrary code via manipulation of memory.
-</code>
-
-- [embedi/smm_usbrt_poc](https://github.com/embedi/smm_usbrt_poc)
-
 ### CVE-2017-5753 (2018-01-04)
 
 <code>Systems with microprocessors utilizing speculative execution and branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
@@ -30265,13 +30261,6 @@
 </code>
 
 - [Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal](https://github.com/Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal)
-
-### CVE-2017-1000250 (2017-09-12)
-
-<code>All versions of the SDP server in BlueZ 5.46 and earlier are vulnerable to an information disclosure vulnerability which allows remote attackers to obtain sensitive information from the bluetoothd process memory. This vulnerability lies in the processing of SDP search attribute requests.
-</code>
-
-- [olav-st/CVE-2017-1000250-PoC](https://github.com/olav-st/CVE-2017-1000250-PoC)
 
 ### CVE-2017-1000251 (2017-09-12)
 
@@ -34632,6 +34621,7 @@
 - [crypticdante/CVE-2007-2447](https://github.com/crypticdante/CVE-2007-2447)
 - [bdunlap9/CVE-2007-2447_python](https://github.com/bdunlap9/CVE-2007-2447_python)
 - [MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE)
+- [0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
