@@ -3384,10 +3384,18 @@
 ### CVE-2023-42362
 - [Mr-n0b3dy/CVE-2023-42362](https://github.com/Mr-n0b3dy/CVE-2023-42362)
 
-### CVE-2023-42468
+### CVE-2023-42468 (2023-09-13)
+
+<code>The com.cutestudio.colordialer application through 2.1.8-2 for Android allows a remote attacker to initiate phone calls without user consent, because of improper export of the com.cutestudio.dialer.activities.DialerActivity component. A third-party application (without any permissions) can craft an intent targeting com.cutestudio.dialer.activities.DialerActivity via the android.intent.action.CALL action in conjunction with a tel: URI, thereby placing a phone call.
+</code>
+
 - [actuator/com.cutestudio.colordialer](https://github.com/actuator/com.cutestudio.colordialer)
 
-### CVE-2023-42469
+### CVE-2023-42469 (2023-09-13)
+
+<code>The com.full.dialer.top.secure.encrypted application through 1.0.1 for Android enables any installed application (with no permissions) to place phone calls without user interaction by sending a crafted intent via the com.full.dialer.top.secure.encrypted.activities.DialerActivity component.
+</code>
+
 - [actuator/com.full.dialer.top.secure.encrypted](https://github.com/actuator/com.full.dialer.top.secure.encrypted)
 
 ### CVE-2023-42470 (2023-09-11)
@@ -12459,7 +12467,7 @@
 <code>CODESYS V2 Web-Server before 1.1.9.20 has Improper Access Control.
 </code>
 
-- [CyberTitus/Follina](https://github.com/CyberTitus/Follina)
+- [AbdulRKB/Follina](https://github.com/AbdulRKB/Follina)
 
 ### CVE-2021-30357 (2021-06-08)
 
@@ -28008,6 +28016,7 @@
 </code>
 
 - [1NTheKut/CVE-2019-1003000_RCE-DETECTION](https://github.com/1NTheKut/CVE-2019-1003000_RCE-DETECTION)
+- [smokeintheshell/CVE-2018-1000861](https://github.com/smokeintheshell/CVE-2018-1000861)
 
 ### CVE-2018-1002105 (2018-12-05)
 
