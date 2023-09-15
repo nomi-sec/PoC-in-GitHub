@@ -23131,6 +23131,7 @@
 - [dorkerdevil/CVE-2019-11932](https://github.com/dorkerdevil/CVE-2019-11932)
 - [awakened1712/CVE-2019-11932](https://github.com/awakened1712/CVE-2019-11932)
 - [JasonJerry/WhatsRCE](https://github.com/JasonJerry/WhatsRCE)
+- [TulungagungCyberLink/CVE-2019-11932](https://github.com/TulungagungCyberLink/CVE-2019-11932)
 - [infiniteLoopers/CVE-2019-11932](https://github.com/infiniteLoopers/CVE-2019-11932)
 - [5l1v3r1/CVE-2019-11932](https://github.com/5l1v3r1/CVE-2019-11932)
 - [valbrux/CVE-2019-11932-SupportApp](https://github.com/valbrux/CVE-2019-11932-SupportApp)
@@ -23646,6 +23647,13 @@
 </code>
 
 - [seqred-s-a/cve-2019-14220](https://github.com/seqred-s-a/cve-2019-14220)
+
+### CVE-2019-14234 (2019-08-09)
+
+<code>An issue was discovered in Django 1.11.x before 1.11.23, 2.1.x before 2.1.11, and 2.2.x before 2.2.4. Due to an error in shallow key transformation, key and index lookups for django.contrib.postgres.fields.JSONField, and key lookups for django.contrib.postgres.fields.HStoreField, were subject to SQL injection. This could, for example, be exploited via crafted use of &quot;OR 1=1&quot; in a key or index name to return all records, using a suitably crafted dictionary, with dictionary expansion, as the **kwargs passed to the QuerySet.filter() function.
+</code>
+
+- [malvika-thakur/CVE-2019-14234](https://github.com/malvika-thakur/CVE-2019-14234)
 
 ### CVE-2019-14267 (2019-07-29)
 
@@ -25649,13 +25657,6 @@
 
 - [ezelf/seatel_terminals](https://github.com/ezelf/seatel_terminals)
 
-### CVE-2018-5740 (2019-01-16)
-
-<code>&quot;deny-answer-aliases&quot; is a little-used feature intended to help recursive server operators protect end users against DNS rebinding attacks, a potential method of circumventing the security model used by client browsers. However, a defect in this feature makes it easy, when the feature is in use, to experience an assertion failure in name.c. Affects BIND 9.7.0-&gt;9.8.8, 9.9.0-&gt;9.9.13, 9.10.0-&gt;9.10.8, 9.11.0-&gt;9.11.4, 9.12.0-&gt;9.12.2, 9.13.0-&gt;9.13.2.
-</code>
-
-- [sischkg/cve-2018-5740](https://github.com/sischkg/cve-2018-5740)
-
 ### CVE-2018-5873 (2018-07-06)
 
 <code>An issue was discovered in the __ns_get_path function in fs/nsfs.c in the Linux kernel before 4.11. Due to a race condition when accessing files, a Use After Free condition can occur. This also affects all Android releases from CAF using the Linux kernel (Android for MSM, Firefox OS for MSM, QRD Android) before security patch level 2018-07-05.
@@ -26238,13 +26239,6 @@
 - [lisinan988/CVE-2018-8174-exp](https://github.com/lisinan988/CVE-2018-8174-exp)
 - [sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP](https://github.com/sinisterghost/https-github.com-iBearcat-CVE-2018-8174_EXP)
 
-### CVE-2018-8208 (2018-06-14)
-
-<code>An elevation of privilege vulnerability exists in Windows when Desktop Bridge does not properly manage the virtual registry, aka &quot;Windows Desktop Bridge Elevation of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8214.
-</code>
-
-- [kaisaryousuf/CVE-2018-8208](https://github.com/kaisaryousuf/CVE-2018-8208)
-
 ### CVE-2018-8214 (2018-06-14)
 
 <code>An elevation of privilege vulnerability exists in Windows when Desktop Bridge does not properly manage the virtual registry, aka &quot;Windows Desktop Bridge Elevation of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8208.
@@ -26486,7 +26480,6 @@
 </code>
 
 - [manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958](https://github.com/manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958)
-- [orangepirate/cve-2018-9948-9958-exp](https://github.com/orangepirate/cve-2018-9948-9958-exp)
 
 ### CVE-2018-9950 (2018-05-17)
 
@@ -27232,13 +27225,6 @@
 - [Anonimo501/ssh_enum_users_CVE-2018-15473](https://github.com/Anonimo501/ssh_enum_users_CVE-2018-15473)
 - [mclbn/docker-cve-2018-15473](https://github.com/mclbn/docker-cve-2018-15473)
 - [GaboLC98/userenum-CVE-2018-15473](https://github.com/GaboLC98/userenum-CVE-2018-15473)
-
-### CVE-2018-15499 (2018-08-24)
-
-<code>GEAR Software products that include GEARAspiWDM.sys, 2.2.5.0, allow local users to cause a denial of service (Race Condition and BSoD on Windows) by not checking that user-mode memory is available right before writing to it. A check is only performed at the beginning of a long subroutine.
-</code>
-
-- [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
 
 ### CVE-2018-15686 (2018-10-26)
 
@@ -32593,6 +32579,7 @@
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
 - [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
+- [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
 - [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
 
@@ -32674,6 +32661,13 @@
 </code>
 
 - [tagatac/libvirt-CVE-2014-1447](https://github.com/tagatac/libvirt-CVE-2014-1447)
+
+### CVE-2014-1677 (2017-04-03)
+
+<code>Technicolor TC7200 with firmware STD6.01.12 could allow remote attackers to obtain sensitive information.
+</code>
+
+- [tihmstar/freePW_tc7200Eploit](https://github.com/tihmstar/freePW_tc7200Eploit)
 
 ### CVE-2014-1767 (2014-07-08)
 
@@ -32986,10 +32980,14 @@
 - [dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes)
 - [npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse)
 - [ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3)
+- [jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271)
 - [rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec)
 - [scottjpack/shellshock_scanner](https://github.com/scottjpack/shellshock_scanner)
 - [Anklebiter87/Cgi-bin_bash_Reverse](https://github.com/Anklebiter87/Cgi-bin_bash_Reverse)
+- [justzx2011/bash-up](https://github.com/justzx2011/bash-up)
+- [mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271)
 - [ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check)
+- [RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm)
 - [gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww)
 - [woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271)
 - [ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock)
@@ -34388,6 +34386,7 @@
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
 - [crypticdante/CVE-2009-2265](https://github.com/crypticdante/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
+- [0xConstant/CVE-2009-2265](https://github.com/0xConstant/CVE-2009-2265)
 
 ### CVE-2009-2692 (2009-08-14)
 
@@ -34416,6 +34415,13 @@
 </code>
 
 - [johnwchadwick/cve-2009-3555-test-server](https://github.com/johnwchadwick/cve-2009-3555-test-server)
+
+### CVE-2009-4049 (2009-11-23)
+
+<code>Heap-based buffer overflow in aswRdr.sys (aka the TDI RDR driver) in avast! Home and Professional 4.8.1356.0 allows local users to cause a denial of service (memory corruption) or possibly gain privileges via crafted arguments to IOCTL 0x80002024.
+</code>
+
+- [fengjixuchui/CVE-2009-4049](https://github.com/fengjixuchui/CVE-2009-4049)
 
 ### CVE-2009-4092 (2009-11-27)
 
