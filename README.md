@@ -24079,6 +24079,7 @@
 - [crypticdante/CVE-2019-16278](https://github.com/crypticdante/CVE-2019-16278)
 - [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 - [FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE)
+- [0xTabun/CVE-2019-16278](https://github.com/0xTabun/CVE-2019-16278)
 
 ### CVE-2019-16279 (2019-10-14)
 
@@ -34107,6 +34108,7 @@
 - [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
 - [limkokholefork/CVE-2011-3192](https://github.com/limkokholefork/CVE-2011-3192)
 - [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
+- [futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192)
 
 ### CVE-2011-3368 (2011-10-05)
 
