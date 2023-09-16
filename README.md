@@ -9348,7 +9348,6 @@
 - [icebreack/CVE-2022-46169](https://github.com/icebreack/CVE-2022-46169)
 - [devilgothies/CVE-2022-46169](https://github.com/devilgothies/CVE-2022-46169)
 - [yassinebk/CVE-2022-46169](https://github.com/yassinebk/CVE-2022-46169)
-- [ruycr4ft/CVE-2022-46169](https://github.com/ruycr4ft/CVE-2022-46169)
 - [FredBrave/CVE-2022-46169-CACTI-1.2.22](https://github.com/FredBrave/CVE-2022-46169-CACTI-1.2.22)
 - [sha-16/RCE-Cacti-1.2.22](https://github.com/sha-16/RCE-Cacti-1.2.22)
 - [Safarchand/CVE-2022-46169](https://github.com/Safarchand/CVE-2022-46169)
@@ -23543,6 +23542,13 @@
 - [babyshen/CVE-2019-13272](https://github.com/babyshen/CVE-2019-13272)
 - [GgKendall/secureCodingDemo](https://github.com/GgKendall/secureCodingDemo)
 - [asepsaepdin/CVE-2019-13272](https://github.com/asepsaepdin/CVE-2019-13272)
+
+### CVE-2019-13288 (2019-07-04)
+
+<code>In Xpdf 4.01.01, the Parser::getObj() function in Parser.cc may cause infinite recursion via a crafted file. A remote attacker can leverage this for a DoS attack. This is similar to CVE-2018-16646.
+</code>
+
+- [gleaming0/CVE-2019-13288](https://github.com/gleaming0/CVE-2019-13288)
 
 ### CVE-2019-13292 (2019-07-04)
 
