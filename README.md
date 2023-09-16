@@ -4344,6 +4344,13 @@
 
 - [Urban4/CVE-2022-3992](https://github.com/Urban4/CVE-2022-3992)
 
+### CVE-2022-4060 (2023-01-16)
+
+<code>The User Post Gallery WordPress plugin through 2.19 does not limit what callback functions can be called by users, making it possible to any visitors to run code on sites running it.
+</code>
+
+- [im-hanzou/UPGer](https://github.com/im-hanzou/UPGer)
+
 ### CVE-2022-4063 (2022-12-19)
 
 <code>The InPost Gallery WordPress plugin before 2.1.4.1 insecurely uses PHP's extract() function when rendering HTML views, allowing attackers to force the inclusion of malicious files &amp; URLs, which may enable them to run code on servers.
@@ -33090,6 +33097,7 @@
 - [mrintern/thm_steelmountain_CVE-2014-6287](https://github.com/mrintern/thm_steelmountain_CVE-2014-6287)
 - [hadrian3689/rejetto_hfs_rce](https://github.com/hadrian3689/rejetto_hfs_rce)
 - [randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution)
+- [0xTabun/CVE-2014-6287](https://github.com/0xTabun/CVE-2014-6287)
 
 ### CVE-2014-6332 (2014-11-11)
 
