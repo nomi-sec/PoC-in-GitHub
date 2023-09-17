@@ -2256,7 +2256,7 @@
 - [z-jxy/keepass_dump](https://github.com/z-jxy/keepass_dump)
 - [LeDocteurDesBits/cve-2023-32784](https://github.com/LeDocteurDesBits/cve-2023-32784)
 - [hau-zy/KeePass-dump-py](https://github.com/hau-zy/KeePass-dump-py)
-- [4m4Sec/CVE-2023-32784](https://github.com/4m4Sec/CVE-2023-32784)
+- [dawnl3ss/CVE-2023-32784](https://github.com/dawnl3ss/CVE-2023-32784)
 
 ### CVE-2023-32961 (2023-06-12)
 
@@ -3177,7 +3177,6 @@
 - [K3rnel-Dev/WinrarExploit](https://github.com/K3rnel-Dev/WinrarExploit)
 - [Fa1c0n35/CVE-2023-38831-winrar-exploit](https://github.com/Fa1c0n35/CVE-2023-38831-winrar-exploit)
 - [xaitax/WinRAR-CVE-2023-38831](https://github.com/xaitax/WinRAR-CVE-2023-38831)
-- [LuxCodeDev/CVE-2023-38831_WinRAR](https://github.com/LuxCodeDev/CVE-2023-38831_WinRAR)
 - [GOTonyGO/CVE-2023-38831-winrar](https://github.com/GOTonyGO/CVE-2023-38831-winrar)
 - [Malwareman007/CVE-2023-38831](https://github.com/Malwareman007/CVE-2023-38831)
 - [ameerpornillos/CVE-2023-38831-WinRAR-Exploit](https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit)
@@ -3776,6 +3775,7 @@
 - [jonathanbest7/cve-2022-0847](https://github.com/jonathanbest7/cve-2022-0847)
 - [0xeremus/dirty-pipe-poc](https://github.com/0xeremus/dirty-pipe-poc)
 - [joeymeech/CVE-2022-0847-Exploit-Implementation](https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation)
+- [pashayogi/DirtyPipe](https://github.com/pashayogi/DirtyPipe)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -9344,7 +9344,7 @@
 - [BKreisel/CVE-2022-46169](https://github.com/BKreisel/CVE-2022-46169)
 - [Rickster5555/EH2-PoC](https://github.com/Rickster5555/EH2-PoC)
 - [antisecc/CVE-2022-46169](https://github.com/antisecc/CVE-2022-46169)
-- [4m4Sec/CVE-2022-46169](https://github.com/4m4Sec/CVE-2022-46169)
+- [dawnl3ss/CVE-2022-46169](https://github.com/dawnl3ss/CVE-2022-46169)
 - [a1665454764/CVE-2022-46169](https://github.com/a1665454764/CVE-2022-46169)
 - [0xZon/CVE-2022-46169-Exploit](https://github.com/0xZon/CVE-2022-46169-Exploit)
 - [copyleftdev/PricklyPwn](https://github.com/copyleftdev/PricklyPwn)
