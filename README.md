@@ -1488,7 +1488,6 @@
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
 - [Pari-Malam/CVE-2023-27372](https://github.com/Pari-Malam/CVE-2023-27372)
 - [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
-- [tucommenceapousser/CVE-2023-27372b](https://github.com/tucommenceapousser/CVE-2023-27372b)
 
 ### CVE-2023-27470 (2023-09-11)
 
@@ -3183,6 +3182,7 @@
 - [Malwareman007/CVE-2023-38831](https://github.com/Malwareman007/CVE-2023-38831)
 - [ameerpornillos/CVE-2023-38831-WinRAR-Exploit](https://github.com/ameerpornillos/CVE-2023-38831-WinRAR-Exploit)
 - [IMHarman/CVE-2023-38831](https://github.com/IMHarman/CVE-2023-38831)
+- [an040702/CVE-2023-38831](https://github.com/an040702/CVE-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -4350,6 +4350,13 @@
 </code>
 
 - [im-hanzou/UPGer](https://github.com/im-hanzou/UPGer)
+
+### CVE-2022-4061 (2022-12-19)
+
+<code>The JobBoardWP WordPress plugin before 1.2.2 does not properly validate file names and types in its file upload functionalities, allowing unauthenticated users to upload arbitrary files such as PHP.
+</code>
+
+- [im-hanzou/JBWPer](https://github.com/im-hanzou/JBWPer)
 
 ### CVE-2022-4063 (2022-12-19)
 
