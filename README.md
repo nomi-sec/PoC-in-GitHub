@@ -4395,7 +4395,7 @@
 
 ### CVE-2022-4510 (2023-01-25)
 
-<code>A path traversal vulnerability was identified in ReFirm Labs binwalk from version 2.1.2b through 2.3.3 included. By crafting a malicious PFS filesystem file, an attacker can get binwalk's PFS extractor to extract files at arbitrary locations when binwalk is run in extraction mode (-e option). Remote code execution can be achieved by building a PFS filesystem that, upon extraction, would extract a malicious binwalk module into the folder .config/binwalk/plugins. This vulnerability is associated with program files src/binwalk/plugins/unpfs.py. This issue affects binwalk from 2.1.2b through 2.3.3 included.
+<code>\nA path traversal vulnerability was identified in ReFirm Labs binwalk from version 2.1.2b through 2.3.3 included. By crafting a malicious PFS filesystem file, an attacker can get binwalk's PFS extractor to extract files at arbitrary locations when binwalk is run in extraction mode (-e option). Remote code execution can be achieved by building a PFS filesystem that, upon extraction, would extract a malicious binwalk module into the folder .config/binwalk/plugins.\n This vulnerability is associated with program files src/binwalk/plugins/unpfs.py.\n\nThis issue affects binwalk from 2.1.2b through 2.3.3 included.\n\n
 </code>
 
 - [electr0sm0g/CVE-2022-4510](https://github.com/electr0sm0g/CVE-2022-4510)
@@ -7559,6 +7559,13 @@
 </code>
 
 - [breakpointHQ/CVE-2022-32883](https://github.com/breakpointHQ/CVE-2022-32883)
+
+### CVE-2022-32947 (2022-11-01)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 16.1 and iPadOS 16, macOS Ventura 13, watchOS 9.1. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [asahilina/agx-exploit](https://github.com/asahilina/agx-exploit)
 
 ### CVE-2022-32988 (2022-06-30)
 
