@@ -344,6 +344,7 @@
 
 - [johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts)
 - [OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay)
+- [luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS)
 
 ### CVE-2023-2650 (2023-05-30)
 
@@ -19539,7 +19540,6 @@
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 - [corelight/CVE-2020-16898](https://github.com/corelight/CVE-2020-16898)
 - [Maliek/CVE-2020-16898_Check](https://github.com/Maliek/CVE-2020-16898_Check)
-- [ZephrFish/CVE-2020-16898](https://github.com/ZephrFish/CVE-2020-16898)
 - [esnet-security/cve-2020-16898](https://github.com/esnet-security/cve-2020-16898)
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
 - [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
@@ -20068,7 +20068,6 @@
 <code>The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020.
 </code>
 
-- [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
@@ -27110,6 +27109,7 @@
 - [Anonimo501/ssh_enum_users_CVE-2018-15473](https://github.com/Anonimo501/ssh_enum_users_CVE-2018-15473)
 - [mclbn/docker-cve-2018-15473](https://github.com/mclbn/docker-cve-2018-15473)
 - [GaboLC98/userenum-CVE-2018-15473](https://github.com/GaboLC98/userenum-CVE-2018-15473)
+- [mrblue12-byte/CVE-2018-15473](https://github.com/mrblue12-byte/CVE-2018-15473)
 
 ### CVE-2018-15499 (2018-08-24)
 
