@@ -14599,7 +14599,7 @@
 <code>Active Directory Domain Services Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-42282, CVE-2021-42287, CVE-2021-42291.
 </code>
 
-- [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
+- [safebuffer/sam-the-admin](https://github.com/safebuffer/sam-the-admin)
 - [Ridter/noPac](https://github.com/Ridter/noPac)
 - [waterrr/noPac](https://github.com/waterrr/noPac)
 - [ly4k/Pachine](https://github.com/ly4k/Pachine)
@@ -25625,7 +25625,7 @@
 </code>
 
 - [yolabingo/wordpress-fix-cve-2018-6389](https://github.com/yolabingo/wordpress-fix-cve-2018-6389)
-- [WazeHell/CVE-2018-6389](https://github.com/WazeHell/CVE-2018-6389)
+- [safebuffer/CVE-2018-6389](https://github.com/safebuffer/CVE-2018-6389)
 - [rastating/modsecurity-cve-2018-6389](https://github.com/rastating/modsecurity-cve-2018-6389)
 - [knqyf263/CVE-2018-6389](https://github.com/knqyf263/CVE-2018-6389)
 - [JulienGadanho/cve-2018-6389-php-patcher](https://github.com/JulienGadanho/cve-2018-6389-php-patcher)
@@ -28469,7 +28469,6 @@
 - [Synacktiv-contrib/exploiting-cve-2017-5123](https://github.com/Synacktiv-contrib/exploiting-cve-2017-5123)
 - [teawater/CVE-2017-5123](https://github.com/teawater/CVE-2017-5123)
 - [c3r34lk1ll3r/CVE-2017-5123](https://github.com/c3r34lk1ll3r/CVE-2017-5123)
-- [h1bAna/CVE-2017-5123](https://github.com/h1bAna/CVE-2017-5123)
 
 ### CVE-2017-5124 (2018-02-07)
 
@@ -35034,6 +35033,13 @@
 
 - [rafaelh/CVE-2000-0649](https://github.com/rafaelh/CVE-2000-0649)
 - [stevenvegar/cve-2000-0649](https://github.com/stevenvegar/cve-2000-0649)
+
+### CVE-2000-0979 (2001-01-22)
+
+<code>File and Print Sharing service in Windows 95, Windows 98, and Windows Me does not properly check the password for a file share, which allows remote attackers to bypass share access controls by sending a 1-byte password that matches the first character of the real password, aka the &quot;Share Level Password&quot; vulnerability.
+</code>
+
+- [Z6543/CVE-2000-0979](https://github.com/Z6543/CVE-2000-0979)
 
 
 ## 1999
