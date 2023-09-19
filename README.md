@@ -2480,7 +2480,11 @@
 - [n3gox/CVE-2023-33829](https://github.com/n3gox/CVE-2023-33829)
 - [CKevens/CVE-2023-33829-POC](https://github.com/CKevens/CVE-2023-33829-POC)
 
-### CVE-2023-33831
+### CVE-2023-33831 (2023-09-18)
+
+<code>A remote command execution (RCE) vulnerability in the /api/runscript endpoint of FUXA 1.1.13 allows attackers to execute arbitrary commands via a crafted POST request.
+</code>
+
 - [rodolfomarianocy/Unauthenticated-RCE-FUXA-CVE-2023-33831](https://github.com/rodolfomarianocy/Unauthenticated-RCE-FUXA-CVE-2023-33831)
 
 ### CVE-2023-33977 (2023-06-06)
@@ -17367,6 +17371,7 @@
 
 - [TheCyberGeek/CVE-2020-5844](https://github.com/TheCyberGeek/CVE-2020-5844)
 - [UNICORDev/exploit-CVE-2020-5844](https://github.com/UNICORDev/exploit-CVE-2020-5844)
+- [1Gould/CVE-2020-5844-exploit](https://github.com/1Gould/CVE-2020-5844-exploit)
 
 ### CVE-2020-5847 (2020-03-16)
 
@@ -21136,11 +21141,11 @@
 - [major203/cve-2019-0708-scan](https://github.com/major203/cve-2019-0708-scan)
 - [SugiB3o/Check-vuln-CVE-2019-0708](https://github.com/SugiB3o/Check-vuln-CVE-2019-0708)
 - [gobysec/CVE-2019-0708](https://github.com/gobysec/CVE-2019-0708)
-- [adalenv/CVE-2019-0708-Tool](https://github.com/adalenv/CVE-2019-0708-Tool)
 - [smallFunction/CVE-2019-0708-POC](https://github.com/smallFunction/CVE-2019-0708-POC)
 - [freeide/CVE-2019-0708-PoC-Exploit](https://github.com/freeide/CVE-2019-0708-PoC-Exploit)
 - [robertdavidgraham/rdpscan](https://github.com/robertdavidgraham/rdpscan)
 - [closethe/CVE-2019-0708-POC](https://github.com/closethe/CVE-2019-0708-POC)
+- [SQLDebugger/CVE-2019-0708-Tool](https://github.com/SQLDebugger/CVE-2019-0708-Tool)
 - [Rostelecom-CERT/bluekeepscan](https://github.com/Rostelecom-CERT/bluekeepscan)
 - [Leoid/CVE-2019-0708](https://github.com/Leoid/CVE-2019-0708)
 - [ht0Ruial/CVE-2019-0708Poc-BatchScanning](https://github.com/ht0Ruial/CVE-2019-0708Poc-BatchScanning)
