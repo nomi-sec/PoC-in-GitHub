@@ -449,6 +449,13 @@
 
 - [mnqazi/CVE-2023-3009](https://github.com/mnqazi/CVE-2023-3009)
 
+### CVE-2023-3076 (2023-07-10)
+
+<code>The MStore API WordPress plugin before 3.9.9 does not prevent visitors from creating user accounts with the role of their choice via their wholesale REST API endpoint. This is only exploitable if the site owner paid to access the plugin's pro features.
+</code>
+
+- [im-hanzou/MSAPer](https://github.com/im-hanzou/MSAPer)
+
 ### CVE-2023-3079 (2023-06-05)
 
 <code>Type confusion in V8 in Google Chrome prior to 114.0.5735.110 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
