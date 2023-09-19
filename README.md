@@ -2865,6 +2865,9 @@
 
 - [tagomaru/CVE-2023-36281](https://github.com/tagomaru/CVE-2023-36281)
 
+### CVE-2023-36319
+- [Lowalu/CVE-2023-36319](https://github.com/Lowalu/CVE-2023-36319)
+
 ### CVE-2023-36531
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
 
