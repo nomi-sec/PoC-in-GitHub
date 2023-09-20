@@ -3409,6 +3409,9 @@
 ### CVE-2023-40930
 - [NSnidie/CVE-2023-40930](https://github.com/NSnidie/CVE-2023-40930)
 
+### CVE-2023-40989
+- [Zone1-Z/CVE-2023-40989](https://github.com/Zone1-Z/CVE-2023-40989)
+
 ### CVE-2023-41080 (2023-08-25)
 
 <code>URL Redirection to Untrusted Site ('Open Redirect') vulnerability in FORM authentication feature Apache Tomcat.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M10, from 10.1.0-M1 through 10.0.12, from 9.0.0-M1 through 9.0.79 and from 8.5.0 through 8.5.92.\n\nThe vulnerability is limited to the ROOT (default) web application.
@@ -6360,13 +6363,6 @@
 </code>
 
 - [SakuraSamuraii/ez-iRZ](https://github.com/SakuraSamuraii/ez-iRZ)
-
-### CVE-2022-27228 (2022-03-22)
-
-<code>In the vote (aka &quot;Polls, Votes&quot;) module before 21.0.100 of Bitrix Site Manager, a remote unauthenticated attacker can execute arbitrary code.
-</code>
-
-- [trump88/CVE-2022-27228](https://github.com/trump88/CVE-2022-27228)
 
 ### CVE-2022-27251
 - [TheCyberGeek/CVE-2022-27251](https://github.com/TheCyberGeek/CVE-2022-27251)
