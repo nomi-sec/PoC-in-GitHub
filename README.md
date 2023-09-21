@@ -1225,6 +1225,7 @@
 - [axylisdead/CVE-2023-25136_POC](https://github.com/axylisdead/CVE-2023-25136_POC)
 - [H4K6/CVE-2023-25136](https://github.com/H4K6/CVE-2023-25136)
 - [Business1sg00d/CVE-2023-25136](https://github.com/Business1sg00d/CVE-2023-25136)
+- [malvika-thakur/CVE-2023-25136](https://github.com/malvika-thakur/CVE-2023-25136)
 
 ### CVE-2023-25157 (2023-02-21)
 
@@ -2583,7 +2584,7 @@
 </code>
 
 - [maddsec/CVE-2023-34598](https://github.com/maddsec/CVE-2023-34598)
-- [Szlein/CVE-2023-34598](https://github.com/Szlein/CVE-2023-34598)
+- [Lserein/CVE-2023-34598](https://github.com/Lserein/CVE-2023-34598)
 
 ### CVE-2023-34599 (2023-06-29)
 
@@ -2796,7 +2797,7 @@
 <code>NocoDB through 0.106.0 (or 0.109.1) has a path traversal vulnerability that allows an unauthenticated attacker to access arbitrary files on the server by manipulating the path parameter of the /download route. This vulnerability could allow an attacker to access sensitive files and data on the server, including configuration files, source code, and other sensitive information.
 </code>
 
-- [Szlein/CVE-2023-35843](https://github.com/Szlein/CVE-2023-35843)
+- [Lserein/CVE-2023-35843](https://github.com/Lserein/CVE-2023-35843)
 - [b3nguang/CVE-2023-35843](https://github.com/b3nguang/CVE-2023-35843)
 
 ### CVE-2023-35844 (2023-06-18)
@@ -2804,7 +2805,7 @@
 <code>packages/backend/src/routers in Lightdash before 0.510.3 has insecure file endpoints, e.g., they allow .. directory traversal and do not ensure that an intended file extension (.csv or .png) is used.
 </code>
 
-- [Szlein/CVE-2023-35844](https://github.com/Szlein/CVE-2023-35844)
+- [Lserein/CVE-2023-35844](https://github.com/Lserein/CVE-2023-35844)
 
 ### CVE-2023-35885 (2023-06-20)
 
@@ -3251,7 +3252,7 @@
 - [IMHarman/CVE-2023-38831](https://github.com/IMHarman/CVE-2023-38831)
 - [an040702/CVE-2023-38831](https://github.com/an040702/CVE-2023-38831)
 - [elefantesagradodeluzinfinita/cve-2023-38831](https://github.com/elefantesagradodeluzinfinita/cve-2023-38831)
-- [malvika-thakur/CVE-2023-38831-WinRAR-POC-](https://github.com/malvika-thakur/CVE-2023-38831-WinRAR-POC-)
+- [malvika-thakur/CVE-2023-38831](https://github.com/malvika-thakur/CVE-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -3586,14 +3587,6 @@
 </code>
 
 - [Haxatron/CVE-2022-0219](https://github.com/Haxatron/CVE-2022-0219)
-
-### CVE-2022-0236 (2022-01-18)
-
-<code>The WP Import Export WordPress plugin (both free and premium versions) is vulnerable to unauthenticated sensitive data disclosure due to a missing capability check on the download function wpie_process_file_download found in the ~/includes/classes/class-wpie-general.php file. This made it possible for unauthenticated attackers to download any imported or exported information from a vulnerable site which can contain sensitive information like user data. This affects versions up to, and including, 3.9.15.
-</code>
-
-- [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
-- [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
 
 ### CVE-2022-0265 (2022-03-03)
 
@@ -4822,7 +4815,6 @@
 <code>Gin-vue-admin is a backstage management system based on vue and gin. In versions prior to 2.4.7 low privilege users are able to modify higher privilege users. Authentication is missing on the `setUserInfo` function. Users are advised to update as soon as possible. There are no known workarounds.
 </code>
 
-- [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
 - [UzJu/CVE-2022-21660](https://github.com/UzJu/CVE-2022-21660)
 
 ### CVE-2022-21661 (2022-01-06)
@@ -4912,8 +4904,6 @@
 
 - [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
-- [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
-- [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
 - [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
@@ -19626,6 +19616,7 @@
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 - [corelight/CVE-2020-16898](https://github.com/corelight/CVE-2020-16898)
 - [Maliek/CVE-2020-16898_Check](https://github.com/Maliek/CVE-2020-16898_Check)
+- [ZephrFish/CVE-2020-16898](https://github.com/ZephrFish/CVE-2020-16898)
 - [esnet-security/cve-2020-16898](https://github.com/esnet-security/cve-2020-16898)
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
 - [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
@@ -20158,6 +20149,7 @@
 <code>The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020.
 </code>
 
+- [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
@@ -31003,7 +30995,6 @@
 <code>Race condition in mm/gup.c in the Linux kernel 2.x through 4.x before 4.8.3 allows local users to gain privileges by leveraging incorrect handling of a copy-on-write (COW) feature to write to a read-only memory mapping, as exploited in the wild in October 2016, aka &quot;Dirty COW.&quot;
 </code>
 
-- [KosukeShimofuji/CVE-2016-5195](https://github.com/KosukeShimofuji/CVE-2016-5195)
 - [ASRTeam/CVE-2016-5195](https://github.com/ASRTeam/CVE-2016-5195)
 - [timwr/CVE-2016-5195](https://github.com/timwr/CVE-2016-5195)
 - [xlucas/dirtycow.cr](https://github.com/xlucas/dirtycow.cr)
@@ -31012,7 +31003,6 @@
 - [sideeffect42/DirtyCOWTester](https://github.com/sideeffect42/DirtyCOWTester)
 - [scumjr/dirtycow-vdso](https://github.com/scumjr/dirtycow-vdso)
 - [gbonacini/CVE-2016-5195](https://github.com/gbonacini/CVE-2016-5195)
-- [DavidBuchanan314/cowroot](https://github.com/DavidBuchanan314/cowroot)
 - [aishee/scan-dirtycow](https://github.com/aishee/scan-dirtycow)
 - [oleg-fiksel/ansible_CVE-2016-5195_check](https://github.com/oleg-fiksel/ansible_CVE-2016-5195_check)
 - [ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195)
@@ -31375,7 +31365,6 @@
 </code>
 
 - [sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870)
-- [rustyJ4ck/JoomlaCVE20168869](https://github.com/rustyJ4ck/JoomlaCVE20168869)
 - [cved-sources/cve-2016-8869](https://github.com/cved-sources/cve-2016-8869)
 
 ### CVE-2016-8870 (2016-11-04)
