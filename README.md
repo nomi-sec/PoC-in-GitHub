@@ -1165,6 +1165,7 @@
 <code>Cross site scripting vulnerability in Citrix ADC and Citrix Gateway  in allows and attacker to perform cross site scripting
 </code>
 
+- [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
 - [Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488)
 - [securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488)
 - [codeb0ss/cve-2023-24488](https://github.com/codeb0ss/cve-2023-24488)
@@ -1365,13 +1366,6 @@
 
 - [RupturaInfoSec/CVE-2023-26563-26564-26565](https://github.com/RupturaInfoSec/CVE-2023-26563-26564-26565)
 
-### CVE-2023-26604 (2023-03-03)
-
-<code>systemd before 247 does not adequately block local privilege escalation for some Sudo configurations, e.g., plausible sudoers files in which the &quot;systemctl status&quot; command may be executed. Specifically, systemd does not set LESSSECURE to 1, and thus other programs may be launched from the less program. This presents a substantial security risk when running systemctl from Sudo, because less executes as root when the terminal size is too small to show the complete systemctl output.
-</code>
-
-- [Zenmovie/CVE-2023-26604](https://github.com/Zenmovie/CVE-2023-26604)
-
 ### CVE-2023-26607 (2023-02-26)
 
 <code>In the Linux kernel 6.0.8, there is an out-of-bounds read in ntfs_attr_find in fs/ntfs/attrib.c.
@@ -1468,6 +1462,7 @@
 - [thomas-osgood/CVE-2023-27163](https://github.com/thomas-osgood/CVE-2023-27163)
 - [0xFTW/CVE-2023-27163](https://github.com/0xFTW/CVE-2023-27163)
 - [samh4cks/CVE-2023-27163-InternalProber](https://github.com/samh4cks/CVE-2023-27163-InternalProber)
+- [Hamibubu/CVE-2023-27163](https://github.com/Hamibubu/CVE-2023-27163)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -1662,6 +1657,7 @@
 
 - [gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343)
 - [superzerosec/CVE-2023-28343](https://github.com/superzerosec/CVE-2023-28343)
+- [hba343434/CVE-2023-28343](https://github.com/hba343434/CVE-2023-28343)
 
 ### CVE-2023-28432 (2023-03-22)
 
@@ -2240,6 +2236,7 @@
 - [YouGina/CVE-2023-32243](https://github.com/YouGina/CVE-2023-32243)
 - [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
+- [Jenderal92/WP-CVE-2023-32243](https://github.com/Jenderal92/WP-CVE-2023-32243)
 - [shaoyu521/Mass-CVE-2023-32243](https://github.com/shaoyu521/Mass-CVE-2023-32243)
 
 ### CVE-2023-32315 (2023-05-26)
@@ -2706,6 +2703,7 @@
 </code>
 
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
+- [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
 - [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
 - [Pari-Malam/CVE-2023-34960](https://github.com/Pari-Malam/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
@@ -2758,6 +2756,13 @@
 </code>
 
 - [Thampakon/CVE-2023-35674](https://github.com/Thampakon/CVE-2023-35674)
+
+### CVE-2023-35687 (2023-09-11)
+
+<code>In MtpPropertyValue of MtpProperty.h, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679](https://github.com/pazhanivel07/frameworks_av_AOSP_10_r33_CVE-2023-35687_CVE-2023-35679)
 
 ### CVE-2023-35744
 - [ADSSA-IT/CVE-2023-35744](https://github.com/ADSSA-IT/CVE-2023-35744)
@@ -2993,6 +2998,13 @@
 </code>
 
 - [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
+
+### CVE-2023-37250 (2023-08-20)
+
+<code>Unity Parsec has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs. This affects Parsec Loader versions through 8. Parsec Loader 9 is a fixed version.
+</code>
+
+- [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
 
 ### CVE-2023-37474 (2023-07-14)
 
@@ -3239,6 +3251,7 @@
 - [IMHarman/CVE-2023-38831](https://github.com/IMHarman/CVE-2023-38831)
 - [an040702/CVE-2023-38831](https://github.com/an040702/CVE-2023-38831)
 - [elefantesagradodeluzinfinita/cve-2023-38831](https://github.com/elefantesagradodeluzinfinita/cve-2023-38831)
+- [malvika-thakur/CVE-2023-38831-WinRAR-POC-](https://github.com/malvika-thakur/CVE-2023-38831-WinRAR-POC-)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -17018,6 +17031,8 @@
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
+- [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
+- [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1956 (2020-05-22)
@@ -17104,6 +17119,7 @@
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
+- [DaMinGshidashi/CVE-2020-2551](https://github.com/DaMinGshidashi/CVE-2020-2551)
 - [LTiDi2000/CVE-2020-2551](https://github.com/LTiDi2000/CVE-2020-2551)
 - [0xAbbarhSF/CVE-Exploit](https://github.com/0xAbbarhSF/CVE-Exploit)
 
@@ -18276,6 +18292,13 @@
 
 - [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
 
+### CVE-2020-9768 (2020-04-01)
+
+<code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
+</code>
+
+- [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
+
 ### CVE-2020-9922 (2020-12-08)
 
 <code>A logic issue was addressed with improved state management. This issue is fixed in macOS Catalina 10.15.6, Security Update 2020-004 Mojave, Security Update 2020-004 High Sierra. Processing a maliciously crafted email may lead to writing arbitrary files.
@@ -19331,6 +19354,13 @@
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
 - [1n7erface/PocList](https://github.com/1n7erface/PocList)
 
+### CVE-2020-14947 (2020-06-30)
+
+<code>OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to require/commandLine/CommandLine.php because mib_file in plugins/main_sections/ms_config/ms_snmp_config.php is mishandled in get_mib_oid.
+</code>
+
+- [mhaskar/CVE-2020-14947](https://github.com/mhaskar/CVE-2020-14947)
+
 ### CVE-2020-14955 (2020-06-26)
 
 <code>In Jiangmin Antivirus 16.0.13.129, the driver file (KVFG.sys) allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x220440.
@@ -19596,7 +19626,6 @@
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 - [corelight/CVE-2020-16898](https://github.com/corelight/CVE-2020-16898)
 - [Maliek/CVE-2020-16898_Check](https://github.com/Maliek/CVE-2020-16898_Check)
-- [ZephrFish/CVE-2020-16898](https://github.com/ZephrFish/CVE-2020-16898)
 - [esnet-security/cve-2020-16898](https://github.com/esnet-security/cve-2020-16898)
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
 - [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
@@ -20129,7 +20158,6 @@
 <code>The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020.
 </code>
 
-- [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
