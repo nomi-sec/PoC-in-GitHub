@@ -2935,13 +2935,6 @@
 - [jakabakos/CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
 - [winkler-winsen/Scan_GhostScript](https://github.com/winkler-winsen/Scan_GhostScript)
 
-### CVE-2023-36761 (2023-09-12)
-
-<code>Microsoft Word Information Disclosure Vulnerability
-</code>
-
-- [apt0factury/CVE-2023-36761](https://github.com/apt0factury/CVE-2023-36761)
-
 ### CVE-2023-36812 (2023-06-30)
 
 <code>OpenTSDB is a open source, distributed, scalable Time Series Database (TSDB). OpenTSDB is vulnerable to Remote Code Execution vulnerability by writing user-controlled input to Gnuplot configuration file and running Gnuplot with the generated configuration. This issue has been patched in  commit `07c4641471c` and further refined in commit `fa88d3e4b`. These patches are available in the `2.4.2` release. Users are advised to upgrade. User unable to upgrade may disable Gunuplot via the config option`tsd.core.enable_ui = true` and remove the shell files `mygnuplot.bat` and `mygnuplot.sh`.
@@ -3473,13 +3466,6 @@
 ### CVE-2023-40989
 - [Zone1-Z/CVE-2023-40989](https://github.com/Zone1-Z/CVE-2023-40989)
 
-### CVE-2023-41064 (2023-09-07)
-
-<code>A buffer overflow issue was addressed with improved memory handling. This issue is fixed in iOS 16.6.1 and iPadOS 16.6.1, macOS Monterey 12.6.9, macOS Ventura 13.5.2, iOS 15.7.9 and iPadOS 15.7.9, macOS Big Sur 11.7.10. Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
-</code>
-
-- [apt0factury/CVE-2023-41064](https://github.com/apt0factury/CVE-2023-41064)
-
 ### CVE-2023-41080 (2023-08-25)
 
 <code>URL Redirection to Untrusted Site ('Open Redirect') vulnerability in FORM authentication feature Apache Tomcat.This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.0-M10, from 10.1.0-M1 through 10.0.12, from 9.0.0-M1 through 9.0.79 and from 8.5.0 through 8.5.92.\n\nThe vulnerability is limited to the ROOT (default) web application.
@@ -3593,6 +3579,12 @@
 </code>
 
 - [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
+
+### CVE-2023-43325
+- [ahrixia/CVE-2023-43325](https://github.com/ahrixia/CVE-2023-43325)
+
+### CVE-2023-43326
+- [ahrixia/CVE-2023-43326](https://github.com/ahrixia/CVE-2023-43326)
 
 ### CVE-2023-43339
 - [sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation)
@@ -8953,6 +8945,7 @@
 - [gustanini/CVE-2022-42889-Text4Shell-POC](https://github.com/gustanini/CVE-2022-42889-Text4Shell-POC)
 - [Sic4rio/CVE-2022-42889](https://github.com/Sic4rio/CVE-2022-42889)
 - [34006133/CVE-2022-42889](https://github.com/34006133/CVE-2022-42889)
+- [DimaMend/cve-2022-42889-text4shell](https://github.com/DimaMend/cve-2022-42889-text4shell)
 
 ### CVE-2022-42896 (2022-11-23)
 
@@ -10217,6 +10210,7 @@
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
 - [evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP)
+- [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
 - [tanarchytan/CVE-2021-1675](https://github.com/tanarchytan/CVE-2021-1675)
@@ -10226,6 +10220,11 @@
 - [mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery](https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery)
 - [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
+- [kougyokugentou/CVE-2021-1675](https://github.com/kougyokugentou/CVE-2021-1675)
+- [ptter23/CVE-2021-1675](https://github.com/ptter23/CVE-2021-1675)
+- [initconf/cve-2021-1675-printnightmare](https://github.com/initconf/cve-2021-1675-printnightmare)
+- [ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare)
+- [exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675)
 - [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
 - [sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE)
 - [JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare)
@@ -10597,6 +10596,13 @@
 </code>
 
 - [rafaelchriss/CVE-2021-3279](https://github.com/rafaelchriss/CVE-2021-3279)
+
+### CVE-2021-3281 (2021-02-02)
+
+<code>In Django 2.2 before 2.2.18, 3.0 before 3.0.12, and 3.1 before 3.1.6, the django.utils.archive.extract method (used by &quot;startapp --template&quot; and &quot;startproject --template&quot;) allows directory traversal via an archive with absolute paths or relative paths with dot segments.
+</code>
+
+- [lwzSoviet/CVE-2021-3281](https://github.com/lwzSoviet/CVE-2021-3281)
 
 ### CVE-2021-3291 (2021-01-26)
 
@@ -12786,6 +12792,7 @@
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
+- [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
 - [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 - [imikoYa/CVE-2021-31166-exploit](https://github.com/imikoYa/CVE-2021-31166-exploit)
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -13251,6 +13258,7 @@
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
 - [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
+- [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
