@@ -2124,16 +2124,32 @@
 ### CVE-2023-31711
 - [HritikThapa7/CVE-2023-31711](https://github.com/HritikThapa7/CVE-2023-31711)
 
-### CVE-2023-31716
+### CVE-2023-31716 (2023-09-21)
+
+<code>FUXA &lt;= 1.1.12 has a Local File Inclusion vulnerability via file=fuxa.log
+</code>
+
 - [MateusTesser/CVE-2023-31716](https://github.com/MateusTesser/CVE-2023-31716)
 
-### CVE-2023-31717
+### CVE-2023-31717 (2023-09-21)
+
+<code>A SQL Injection attack in FUXA &lt;= 1.1.12 allows exfiltration of confidential information from the database.
+</code>
+
 - [MateusTesser/CVE-2023-31717](https://github.com/MateusTesser/CVE-2023-31717)
 
-### CVE-2023-31718
+### CVE-2023-31718 (2023-09-21)
+
+<code>FUXA &lt;= 1.1.12 is vulnerable to Local via Inclusion via /api/download.
+</code>
+
 - [MateusTesser/CVE-2023-31718](https://github.com/MateusTesser/CVE-2023-31718)
 
-### CVE-2023-31719
+### CVE-2023-31719 (2023-09-21)
+
+<code>FUXA &lt;= 1.1.12 is vulnerable to SQL Injection via /api/signin.
+</code>
+
 - [MateusTesser/CVE-2023-31719](https://github.com/MateusTesser/CVE-2023-31719)
 
 ### CVE-2023-31726 (2023-05-23)
@@ -3452,7 +3468,7 @@
 
 ### CVE-2023-41064 (2023-09-07)
 
-<code>A buffer overflow issue was addressed with improved memory handling. This issue is fixed in macOS Monterey 12.6.9, macOS Big Sur 11.7.10, macOS Ventura 13.5.2, iOS 16.6.1 and iPadOS 16.6.1, iOS 15.7.9 and iPadOS 15.7.9. Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
+<code>A buffer overflow issue was addressed with improved memory handling. This issue is fixed in iOS 16.6.1 and iPadOS 16.6.1, macOS Monterey 12.6.9, macOS Ventura 13.5.2, iOS 15.7.9 and iPadOS 15.7.9, macOS Big Sur 11.7.10. Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
 </code>
 
 - [apt0factury/CVE-2023-41064](https://github.com/apt0factury/CVE-2023-41064)
@@ -3477,6 +3493,13 @@
 </code>
 
 - [SorceryIE/CVE-2023-41362_MyBB_ACP_RCE](https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE)
+
+### CVE-2023-41436 (2023-09-15)
+
+<code>Cross Site Scripting vulnerability in CSZCMS v.1.3.0 allows a local attacker to execute arbitrary code via a crafted script to the Additional Meta Tag parameter in the Pages Content Menu component.
+</code>
+
+- [sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content](https://github.com/sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content)
 
 ### CVE-2023-41507 (2023-09-05)
 
@@ -3563,6 +3586,9 @@
 </code>
 
 - [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
+
+### CVE-2023-43339
+- [sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -34820,6 +34846,13 @@
 
 
 ## 2004
+### CVE-2004-0558 (2004-09-17)
+
+<code>The Internet Printing Protocol (IPP) implementation in CUPS before 1.1.21 allows remote attackers to cause a denial of service (service hang) via a certain UDP packet to the IPP port.
+</code>
+
+- [fibonascii/CVE-2004-0558](https://github.com/fibonascii/CVE-2004-0558)
+
 ### CVE-2004-1561 (2005-02-20)
 
 <code>Buffer overflow in Icecast 2.0.1 and earlier allows remote attackers to execute arbitrary code via an HTTP request with a large number of headers.
@@ -34827,6 +34860,7 @@
 
 - [ivanitlearning/CVE-2004-1561](https://github.com/ivanitlearning/CVE-2004-1561)
 - [ratiros01/CVE-2004-1561](https://github.com/ratiros01/CVE-2004-1561)
+- [darrynb89/CVE-2004-1561](https://github.com/darrynb89/CVE-2004-1561)
 - [thel1nus/CVE-2004-1561-Notes](https://github.com/thel1nus/CVE-2004-1561-Notes)
 
 ### CVE-2004-1769 (2005-03-10)
@@ -34834,6 +34868,7 @@
 <code>The &quot;Allow cPanel users to reset their password via email&quot; feature in cPanel 9.1.0 build 34 and earlier, including 8.x, allows remote attackers to execute arbitrary code via the user parameter to resetpass.
 </code>
 
+- [sinkaroid/shiguresh](https://github.com/sinkaroid/shiguresh)
 - [Redsplit/shiguresh](https://github.com/Redsplit/shiguresh)
 
 ### CVE-2004-2167 (2005-07-10)
