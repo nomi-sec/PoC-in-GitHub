@@ -3528,6 +3528,13 @@
 
 - [codeb0ss/CVE-2023-41538-PoC](https://github.com/codeb0ss/CVE-2023-41538-PoC)
 
+### CVE-2023-41575 (2023-09-08)
+
+<code>Multiple stored cross-site scripting (XSS) vulnerabilities in /bbdms/sign-up.php of Blood Bank &amp; Donor Management v2.2 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Full Name, Message, or Address parameters.
+</code>
+
+- [soundarkutty/Stored-xss](https://github.com/soundarkutty/Stored-xss)
+
 ### CVE-2023-41593 (2023-09-11)
 
 <code>Multiple cross-site scripting (XSS) vulnerabilities in Dairy Farm Shop Management System Using PHP and MySQL v1.1 allow attackers to execute arbitrary web scripts and HTML via a crafted payload injected into the Category and Category Field parameters.
@@ -4075,7 +4082,6 @@
 - [AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit](https://github.com/AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit)
 - [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
 - [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
-- [dexit/CVE-2022-1329](https://github.com/dexit/CVE-2022-1329)
 
 ### CVE-2022-1386 (2022-05-16)
 
@@ -4717,21 +4723,6 @@
 
 - [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20456](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20456)
 
-### CVE-2022-20470 (2022-12-13)
-
-<code>In bindRemoteViewsService of AppWidgetServiceImpl.java, there is a possible way to bypass background activity launch due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-234013191
-</code>
-
-- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20470](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20470)
-
-### CVE-2022-20473 (2022-12-13)
-
-<code>In toLanguageTag of LocaleListCache.cpp, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-239267173
-</code>
-
-- [Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473)
-- [Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473)
-
 ### CVE-2022-20489 (2023-01-24)
 
 <code>In many functions of AutomaticZenRule.java, there is a possible failure to persist permissions settings due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-242703460
@@ -4767,13 +4758,6 @@
 </code>
 
 - [Supersonic/CVE-2022-20494](https://github.com/Supersonic/CVE-2022-20494)
-
-### CVE-2022-20607 (2022-12-16)
-
-<code>In the Pixel cellular firmware, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with LTE authentication needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-238914868References: N/A
-</code>
-
-- [sumeetIT/CVE-2022-20607](https://github.com/sumeetIT/CVE-2022-20607)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -5377,7 +5361,6 @@
 - [clemoregan/SSE4-CVE-2022-22965](https://github.com/clemoregan/SSE4-CVE-2022-22965)
 - [devengpk/CVE-2022-22965](https://github.com/devengpk/CVE-2022-22965)
 - [zangcc/CVE-2022-22965-rexbb](https://github.com/zangcc/CVE-2022-22965-rexbb)
-- [ajith737/Spring4Shell-CVE-2022-22965-POC](https://github.com/ajith737/Spring4Shell-CVE-2022-22965-POC)
 - [c33dd/CVE-2022-22965](https://github.com/c33dd/CVE-2022-22965)
 - [gokul-ramesh/Spring4Shell-PoC-exploit](https://github.com/gokul-ramesh/Spring4Shell-PoC-exploit)
 - [bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-](https://github.com/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-)
@@ -6650,7 +6633,6 @@
 
 - [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
-- [vincentinttsh/CVE-2022-28346](https://github.com/vincentinttsh/CVE-2022-28346)
 
 ### CVE-2022-28368 (2022-04-02)
 
@@ -6716,7 +6698,6 @@
 </code>
 
 - [hacksysteam/CVE-2022-28672](https://github.com/hacksysteam/CVE-2022-28672)
-- [fastmo/CVE-2022-28672](https://github.com/fastmo/CVE-2022-28672)
 
 ### CVE-2022-28943
 - [zhefox/CVE-2022-28943](https://github.com/zhefox/CVE-2022-28943)
@@ -6801,13 +6782,6 @@
 </code>
 
 - [EgeBalci/CVE-2022-29154](https://github.com/EgeBalci/CVE-2022-29154)
-
-### CVE-2022-29170 (2022-05-20)
-
-<code>Grafana is an open-source platform for monitoring and observability. In Grafana Enterprise, the Request security feature allows list allows to configure Grafana in a way so that the instance doesn’t call or only calls specific hosts. The vulnerability present starting with version 7.4.0-beta1 and prior to versions 7.5.16 and 8.5.3 allows someone to bypass these security configurations if a malicious datasource (running on an allowed host) returns an HTTP redirect to a forbidden host. The vulnerability only impacts Grafana Enterprise when the Request security allow list is used and there is a possibility to add a custom datasource to Grafana which returns HTTP redirects. In this scenario, Grafana would blindly follow the redirects and potentially give secure information to the clients. Grafana Cloud is not impacted by this vulnerability. Versions 7.5.16 and 8.5.3 contain a patch for this issue. There are currently no known workarounds.
-</code>
-
-- [yijikeji/CVE-2022-29170](https://github.com/yijikeji/CVE-2022-29170)
 
 ### CVE-2022-29221 (2022-05-24)
 
@@ -8506,13 +8480,6 @@
 
 - [h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated)
 
-### CVE-2022-40363 (2022-09-29)
-
-<code>A buffer overflow in the component nfc_device_load_mifare_ul_data of Flipper Devices Inc., Flipper Zero before v0.65.2 allows attackers to cause a Denial of Service (DoS) via a crafted NFC file.
-</code>
-
-- [Olafdaf/CVE-2022-40363](https://github.com/Olafdaf/CVE-2022-40363)
-
 ### CVE-2022-40470 (2022-11-21)
 
 <code>Phpgurukul Blood Donor Management System 1.0 allows Cross Site Scripting via Add Blood Group Name Feature.
@@ -8578,13 +8545,6 @@
 </code>
 
 - [williamkhepri/CVE-2022-40687-metasploit-scanner](https://github.com/williamkhepri/CVE-2022-40687-metasploit-scanner)
-
-### CVE-2022-40769 (2022-09-18)
-
-<code>profanity through 1.60 has only four billion possible RNG initializations. Thus, attackers can recover private keys from Ethereum vanity addresses and steal cryptocurrency, as exploited in the wild in June 2022.
-</code>
-
-- [PLSRcoin/CVE-2022-40769](https://github.com/PLSRcoin/CVE-2022-40769)
 
 ### CVE-2022-40799 (2022-11-28)
 
@@ -8667,13 +8627,6 @@
 - [o0MattE0o/CVE-2022-41099-Fix](https://github.com/o0MattE0o/CVE-2022-41099-Fix)
 - [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
 - [dsn1321/KB5025175-CVE-2022-41099](https://github.com/dsn1321/KB5025175-CVE-2022-41099)
-
-### CVE-2022-41114 (2022-11-09)
-
-<code>Windows Bind Filter Driver Elevation of Privilege Vulnerability
-</code>
-
-- [gmh5225/CVE-2022-41114](https://github.com/gmh5225/CVE-2022-41114)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -9450,7 +9403,6 @@
 - [imjdl/CVE-2022-46169](https://github.com/imjdl/CVE-2022-46169)
 - [0xf4n9x/CVE-2022-46169](https://github.com/0xf4n9x/CVE-2022-46169)
 - [taythebot/CVE-2022-46169](https://github.com/taythebot/CVE-2022-46169)
-- [Inplex-sys/CVE-2022-46169](https://github.com/Inplex-sys/CVE-2022-46169)
 - [sAsPeCt488/CVE-2022-46169](https://github.com/sAsPeCt488/CVE-2022-46169)
 - [deadyP00l/CVE-2022-46169](https://github.com/deadyP00l/CVE-2022-46169)
 - [Habib0x0/CVE-2022-46169](https://github.com/Habib0x0/CVE-2022-46169)
@@ -9485,13 +9437,6 @@
 
 ### CVE-2022-46196
 - [dpgg101/CVE-2022-46196](https://github.com/dpgg101/CVE-2022-46196)
-
-### CVE-2022-46366 (2022-12-02)
-
-<code>** UNSUPPORTED WHEN ASSIGNED ** Apache Tapestry 3.x allows deserialization of untrusted data, leading to remote code execution. This issue is similar to but distinct from CVE-2020-17531, which applies the the (also unsupported) 4.x version line. NOTE: This vulnerability only affects Apache Tapestry version line 3.x, which is no longer supported by the maintainer. Users are recommended to upgrade to a supported version line of Apache Tapestry.
-</code>
-
-- [wh-gov/CVE-2022-46366](https://github.com/wh-gov/CVE-2022-46366)
 
 ### CVE-2022-46381 (2022-12-13)
 
@@ -9669,13 +9614,6 @@
 </code>
 
 - [otsmr/internet-of-vulnerable-things](https://github.com/otsmr/internet-of-vulnerable-things)
-
-### CVE-2022-48197 (2023-01-02)
-
-<code>** UNSUPPORTED WHEN ASSIGNED ** Reflected cross-site scripting (XSS) exists in the TreeView of YUI2 through 2800: up.php sam.php renderhidden.php removechildren.php removeall.php readd.php overflow.php newnode2.php newnode.php. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
-</code>
-
-- [ryan412/CVE-2022-48197](https://github.com/ryan412/CVE-2022-48197)
 
 ### CVE-2022-48311 (2023-02-06)
 
