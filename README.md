@@ -3463,7 +3463,11 @@
 
 - [NSnidie/CVE-2023-40930](https://github.com/NSnidie/CVE-2023-40930)
 
-### CVE-2023-40989
+### CVE-2023-40989 (2023-09-22)
+
+<code>SQL injection vulnerbility in jeecgboot jeecg-boot v 3.0, 3.5.3 that allows a remote attacker to execute arbitrary code via a crafted request to the report/jeecgboot/jmreport/queryFieldBySql component.
+</code>
+
 - [Zone1-Z/CVE-2023-40989](https://github.com/Zone1-Z/CVE-2023-40989)
 
 ### CVE-2023-41080 (2023-08-25)
@@ -3579,6 +3583,9 @@
 </code>
 
 - [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
+
+### CVE-2023-43154
+- [ally-petitt/CVE-2023-43154-PoC](https://github.com/ally-petitt/CVE-2023-43154-PoC)
 
 ### CVE-2023-43325
 - [ahrixia/CVE-2023-43325](https://github.com/ahrixia/CVE-2023-43325)
@@ -7817,6 +7824,13 @@
 </code>
 
 - [Pwnrin/CVE-2022-34729](https://github.com/Pwnrin/CVE-2022-34729)
+
+### CVE-2022-34753 (2022-07-13)
+
+<code>A CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability exists that could cause remote root exploit when the command is compromised. Affected Products: SpaceLogic C-Bus Home Controller (5200WHC2), formerly known as C-Bus Wiser Homer Controller MK2 (V1.31.460 and prior)
+</code>
+
+- [K3ysTr0K3R/CVE-2022-34753-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-34753-EXPLOIT)
 
 ### CVE-2022-34913 (2022-07-02)
 
