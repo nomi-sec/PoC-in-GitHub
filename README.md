@@ -23,6 +23,20 @@
 
 - [amirzargham/CVE-2023-0099-exploit](https://github.com/amirzargham/CVE-2023-0099-exploit)
 
+### CVE-2023-0156 (2023-04-10)
+
+<code>The All-In-One Security (AIOS) WordPress plugin before 5.1.5 does not limit what log files to display in it's settings pages, allowing an authorized user (admin+) to view the contents of arbitrary files and list directories anywhere on the server (to which the web server has access). The plugin only displays the last 50 lines of the file.
+</code>
+
+- [b0marek/CVE-2023-0156](https://github.com/b0marek/CVE-2023-0156)
+
+### CVE-2023-0157 (2023-04-10)
+
+<code>The All-In-One Security (AIOS) WordPress plugin before 5.1.5 does not escape the content of log files before outputting it to the plugin admin page, allowing an authorized user (admin+) to plant bogus log files containing malicious JavaScript code that will be executed in the context of any administrator visiting this page.
+</code>
+
+- [b0marek/CVE-2023-0157](https://github.com/b0marek/CVE-2023-0157)
+
 ### CVE-2023-0159 (2023-02-13)
 
 <code>The Extensive VC Addons for WPBakery page builder WordPress plugin before 1.9.1 does not validate a parameter passed to the php extract function when loading templates, allowing an unauthenticated attacker to override the template path to read arbitrary files from the hosts file system.
@@ -598,8 +612,28 @@
 
 - [revan-ar/CVE-2023-4278](https://github.com/revan-ar/CVE-2023-4278)
 
+### CVE-2023-4279 (2023-09-04)
+
+<code>This User Activity Log WordPress plugin before 1.6.7 retrieves client IP addresses from potentially untrusted headers, allowing an attacker to manipulate its value. This may be used to hide the source of malicious traffic.
+</code>
+
+- [b0marek/CVE-2023-4279](https://github.com/b0marek/CVE-2023-4279)
+
+### CVE-2023-4281
+- [b0marek/CVE-2023-4281](https://github.com/b0marek/CVE-2023-4281)
+
+### CVE-2023-4294 (2023-09-11)
+
+<code>The URL Shortify WordPress plugin before 1.7.6 does not properly escape the value of the referer header, thus allowing an unauthenticated attacker to inject malicious javascript that will trigger in the plugins admin panel with statistics of the created short link.
+</code>
+
+- [b0marek/CVE-2023-4294](https://github.com/b0marek/CVE-2023-4294)
+
 ### CVE-2023-4460
 - [daniloalbuqrque/poc-cve-xss-uploading-svg](https://github.com/daniloalbuqrque/poc-cve-xss-uploading-svg)
+
+### CVE-2023-4549
+- [b0marek/CVE-2023-4549](https://github.com/b0marek/CVE-2023-4549)
 
 ### CVE-2023-4596 (2023-08-29)
 
@@ -607,6 +641,9 @@
 </code>
 
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
+
+### CVE-2023-4631
+- [b0marek/CVE-2023-4631](https://github.com/b0marek/CVE-2023-4631)
 
 ### CVE-2023-4634 (2023-09-06)
 
@@ -635,6 +672,9 @@
 </code>
 
 - [wudidike/CVE-2023-4741](https://github.com/wudidike/CVE-2023-4741)
+
+### CVE-2023-4800
+- [b0marek/CVE-2023-4800](https://github.com/b0marek/CVE-2023-4800)
 
 ### CVE-2023-4863 (2023-09-12)
 
@@ -3568,6 +3608,9 @@
 
 ### CVE-2023-42413
 - [chenghao-hao/cve-2023-42413](https://github.com/chenghao-hao/cve-2023-42413)
+
+### CVE-2023-42426
+- [b0marek/CVE-2023-42426](https://github.com/b0marek/CVE-2023-42426)
 
 ### CVE-2023-42468 (2023-09-13)
 
@@ -14130,7 +14173,7 @@
 - [metehangenel/MSHTML-CVE-2021-40444](https://github.com/metehangenel/MSHTML-CVE-2021-40444)
 - [Jeromeyoung/TIC4301_Project](https://github.com/Jeromeyoung/TIC4301_Project)
 - [TiagoSergio/CVE-2021-40444](https://github.com/TiagoSergio/CVE-2021-40444)
-- [0xK4gura/CVE-2021-40444-POC](https://github.com/0xK4gura/CVE-2021-40444-POC)
+- [wh00datz/CVE-2021-40444-POC](https://github.com/wh00datz/CVE-2021-40444-POC)
 - [Zeop-CyberSec/word_mshtml](https://github.com/Zeop-CyberSec/word_mshtml)
 - [Alexcot25051999/CVE-2021-40444](https://github.com/Alexcot25051999/CVE-2021-40444)
 - [lisinan988/CVE-2021-40444-exp](https://github.com/lisinan988/CVE-2021-40444-exp)
