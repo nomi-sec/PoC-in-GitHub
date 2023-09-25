@@ -336,6 +336,7 @@
 </code>
 
 - [bingtangbanli/cve-2023-2523-and-cve-2023-2648](https://github.com/bingtangbanli/cve-2023-2523-and-cve-2023-2648)
+- [Any3ite/CVE-2023-2523](https://github.com/Any3ite/CVE-2023-2523)
 
 ### CVE-2023-2579 (2023-07-17)
 
@@ -683,6 +684,7 @@
 
 - [suhipek/CVE-2023-4863](https://github.com/suhipek/CVE-2023-4863)
 - [mistymntncop/CVE-2023-4863](https://github.com/mistymntncop/CVE-2023-4863)
+- [bbaranoff/CVE-2023-4863](https://github.com/bbaranoff/CVE-2023-4863)
 
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
@@ -4686,6 +4688,13 @@
 ### CVE-2022-20128
 - [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
 
+### CVE-2022-20130 (2022-06-15)
+
+<code>In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-224314979
+</code>
+
+- [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
+
 ### CVE-2022-20138 (2022-06-15)
 
 <code>In ACTION_MANAGED_PROFILE_PROVISIONED of DevicePolicyManagerService.java, there is a possible way for unprivileged app to send MANAGED_PROFILE_PROVISIONED intent due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-210469972
@@ -5324,6 +5333,8 @@
 - [b4dboy17/CVE-2022-22954](https://github.com/b4dboy17/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
+- [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
+- [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
 - [Jhonsonwannaa/CVE-2022-22954](https://github.com/Jhonsonwannaa/CVE-2022-22954)
@@ -6943,6 +6954,8 @@
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
 - [xinghonghaoyue/CVE-2022-29464](https://github.com/xinghonghaoyue/CVE-2022-29464)
 - [r4x0r1337/-CVE-2022-29464](https://github.com/r4x0r1337/-CVE-2022-29464)
+- [amit-pathak009/CVE-2022-29464](https://github.com/amit-pathak009/CVE-2022-29464)
+- [amit-pathak009/CVE-2022-29464-mass](https://github.com/amit-pathak009/CVE-2022-29464-mass)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
@@ -23228,6 +23241,8 @@
 - [k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932](https://github.com/k3vinlusec/WhatsApp-Double-Free-Vulnerability_CVE-2019-11932)
 - [Tabni/https-github.com-awakened1712-CVE-2019-11932](https://github.com/Tabni/https-github.com-awakened1712-CVE-2019-11932)
 - [0759104103/cd-CVE-2019-11932](https://github.com/0759104103/cd-CVE-2019-11932)
+- [tucommenceapousser/CVE-2019-11932](https://github.com/tucommenceapousser/CVE-2019-11932)
+- [tucommenceapousser/CVE-2019-11932deta](https://github.com/tucommenceapousser/CVE-2019-11932deta)
 
 ### CVE-2019-11933 (2019-10-23)
 
@@ -23949,6 +23964,7 @@
 - [n0obit4/Webmin_1.890-POC](https://github.com/n0obit4/Webmin_1.890-POC)
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
+- [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
 - [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 - [puckiestyle/CVE-2019-15107](https://github.com/puckiestyle/CVE-2019-15107)
 - [darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107)
