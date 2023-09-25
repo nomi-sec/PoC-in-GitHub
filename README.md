@@ -603,7 +603,11 @@
 - [d0rb/CVE-2023-4174](https://github.com/d0rb/CVE-2023-4174)
 - [codeb0ss/CVE-2023-4174](https://github.com/codeb0ss/CVE-2023-4174)
 
-### CVE-2023-4238
+### CVE-2023-4238 (2023-09-25)
+
+<code>The Prevent files / folders access WordPress plugin before 2.5.2 does not validate files to be uploaded, which could allow attackers to upload arbitrary files such as PHP on the server.
+</code>
+
 - [codeb0ss/CVE-2023-4238-PoC](https://github.com/codeb0ss/CVE-2023-4238-PoC)
 
 ### CVE-2023-4278 (2023-09-11)
@@ -620,7 +624,11 @@
 
 - [b0marek/CVE-2023-4279](https://github.com/b0marek/CVE-2023-4279)
 
-### CVE-2023-4281
+### CVE-2023-4281 (2023-09-25)
+
+<code>This Activity Log WordPress plugin before 2.8.8 retrieves client IP addresses from potentially untrusted headers, allowing an attacker to manipulate its value. This may be used to hide the source of malicious traffic.
+</code>
+
 - [b0marek/CVE-2023-4281](https://github.com/b0marek/CVE-2023-4281)
 
 ### CVE-2023-4294 (2023-09-11)
@@ -633,7 +641,11 @@
 ### CVE-2023-4460
 - [daniloalbuqrque/poc-cve-xss-uploading-svg](https://github.com/daniloalbuqrque/poc-cve-xss-uploading-svg)
 
-### CVE-2023-4549
+### CVE-2023-4549 (2023-09-25)
+
+<code>The DoLogin Security WordPress plugin before 3.7 does not properly sanitize IP addresses coming from the X-Forwarded-For header, which can be used by attackers to conduct Stored XSS attacks via WordPress' login form.
+</code>
+
 - [b0marek/CVE-2023-4549](https://github.com/b0marek/CVE-2023-4549)
 
 ### CVE-2023-4596 (2023-08-29)
@@ -643,7 +655,11 @@
 
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
 
-### CVE-2023-4631
+### CVE-2023-4631 (2023-09-25)
+
+<code>The DoLogin Security WordPress plugin before 3.7 uses headers such as the X-Forwarded-For to retrieve the IP address of the request, which could lead to IP spoofing.
+</code>
+
 - [b0marek/CVE-2023-4631](https://github.com/b0marek/CVE-2023-4631)
 
 ### CVE-2023-4634 (2023-09-06)
@@ -2337,6 +2353,13 @@
 
 - [86x/CVE-2023-32353-PoC](https://github.com/86x/CVE-2023-32353-PoC)
 
+### CVE-2023-32560 (2023-08-10)
+
+<code>An attacker can send a specially crafted message to the Wavelink Avalanche Manager, which could result in service disruption or arbitrary code execution.\n\nThanks to a Researcher at Tenable for finding and reporting.\n\nFixed in version 6.4.1.
+</code>
+
+- [x0rb3l/CVE-2023-32560](https://github.com/x0rb3l/CVE-2023-32560)
+
 ### CVE-2023-32629 (2023-07-25)
 
 <code>Local privilege escalation vulnerability in Ubuntu Kernels overlayfs ovl_copy_up_meta_inode_data skip permission checks when calling ovl_do_setxattr on Ubuntu kernels
@@ -3660,7 +3683,11 @@
 ### CVE-2023-43326
 - [ahrixia/CVE-2023-43326](https://github.com/ahrixia/CVE-2023-43326)
 
-### CVE-2023-43339
+### CVE-2023-43339 (2023-09-25)
+
+<code>Cross-Site Scripting (XSS) vulnerability in cmsmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted payload injected into the Database Name, DataBase User or Database Port components.
+</code>
+
 - [sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation)
 
 ### CVE-2023-51504
