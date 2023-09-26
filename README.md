@@ -1838,6 +1838,13 @@
 
 - [Wh04m1001/CVE-2023-29343](https://github.com/Wh04m1001/CVE-2023-29343)
 
+### CVE-2023-29357 (2023-06-13)
+
+<code>Microsoft SharePoint Server Elevation of Privilege Vulnerability
+</code>
+
+- [Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357)
+
 ### CVE-2023-29360 (2023-06-13)
 
 <code>Microsoft Streaming Service Elevation of Privilege Vulnerability
@@ -2360,6 +2367,13 @@
 </code>
 
 - [86x/CVE-2023-32353-PoC](https://github.com/86x/CVE-2023-32353-PoC)
+
+### CVE-2023-32364 (2023-07-26)
+
+<code>A logic issue was addressed with improved restrictions. This issue is fixed in macOS Ventura 13.5. A sandboxed process may be able to circumvent sandbox restrictions.
+</code>
+
+- [gergelykalman/CVE-2023-32364-macos-app-sandbox-escape](https://github.com/gergelykalman/CVE-2023-32364-macos-app-sandbox-escape)
 
 ### CVE-2023-32560 (2023-08-10)
 
@@ -3044,6 +3058,7 @@
 </code>
 
 - [vulncheck-oss/cve-2023-36845-scanner](https://github.com/vulncheck-oss/cve-2023-36845-scanner)
+- [kljunowsky/CVE-2023-36845](https://github.com/kljunowsky/CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -28536,6 +28551,8 @@
 </code>
 
 - [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -28768,6 +28785,7 @@
 <code>The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
+- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
 - [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
@@ -30871,6 +30889,7 @@
 </code>
 
 - [ikoz/cert-pinning-flaw-poc](https://github.com/ikoz/cert-pinning-flaw-poc)
+- [ikoz/certPinningVulnerableOkHttp](https://github.com/ikoz/certPinningVulnerableOkHttp)
 
 ### CVE-2016-2431 (2016-05-09)
 
