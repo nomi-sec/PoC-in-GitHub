@@ -388,7 +388,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-2732](https://github.com/RandomRobbieBF/CVE-2023-2732)
-- [domainhigh/CVE-2023-2732-Mass](https://github.com/domainhigh/CVE-2023-2732-Mass)
 - [Jenderal92/WP-CVE-2023-2732](https://github.com/Jenderal92/WP-CVE-2023-2732)
 - [Pari-Malam/CVE-2023-2732](https://github.com/Pari-Malam/CVE-2023-2732)
 
@@ -702,6 +701,13 @@
 - [mistymntncop/CVE-2023-4863](https://github.com/mistymntncop/CVE-2023-4863)
 - [bbaranoff/CVE-2023-4863](https://github.com/bbaranoff/CVE-2023-4863)
 - [talbeerysec/BAD-WEBP-CVE-2023-4863](https://github.com/talbeerysec/BAD-WEBP-CVE-2023-4863)
+
+### CVE-2023-5024 (2023-09-17)
+
+<code>Es wurde eine Schwachstelle in Planno 23.04.04 ausgemacht. Sie wurde als problematisch eingestuft. Es betrifft eine unbekannte Funktion der Komponente Comment Handler. Durch Beeinflussen mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [PH03N1XSP/CVE-2023-5024](https://github.com/PH03N1XSP/CVE-2023-5024)
 
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
@@ -2669,6 +2675,13 @@
 
 - [galoget/Thruk-CVE-2023-34096](https://github.com/galoget/Thruk-CVE-2023-34096)
 
+### CVE-2023-34152 (2023-05-30)
+
+<code>A vulnerability was found in ImageMagick. This security flaw cause a remote code execution vulnerability in OpenBlob with --enable-pipes configured.
+</code>
+
+- [overgrowncarrot1/ImageTragick_CVE-2023-34152](https://github.com/overgrowncarrot1/ImageTragick_CVE-2023-34152)
+
 ### CVE-2023-34312 (2023-05-31)
 
 <code>In Tencent QQ through 9.7.8.29039 and TIM through 3.4.7.22084, QQProtect.exe and QQProtectEngine.dll do not validate pointers from inter-process communication, which leads to a write-what-where condition.
@@ -3675,6 +3688,13 @@
 </code>
 
 - [b0marek/CVE-2023-42426](https://github.com/b0marek/CVE-2023-42426)
+
+### CVE-2023-42442 (2023-09-15)
+
+<code>JumpServer is an open source bastion host and a professional operation and maintenance security audit system. Starting in version 3.0.0 and prior to versions 3.5.5 and 3.6.4, session replays can download without authentication. Session replays stored in S3, OSS, or other cloud storage are not affected. The api `/api/v1/terminal/sessions/` permission control is broken and can be accessed anonymously. SessionViewSet permission classes set to `[RBACPermission | IsSessionAssignee]`, relation is or, so any permission matched will be allowed. Versions 3.5.5 and 3.6.4 have a fix. After upgrading, visit the api `$HOST/api/v1/terminal/sessions/?limit=1`. The expected http response code is 401 (`not_authenticated`).\n
+</code>
+
+- [HolyGu/CVE-2023-42442](https://github.com/HolyGu/CVE-2023-42442)
 
 ### CVE-2023-42468 (2023-09-13)
 
@@ -5091,7 +5111,7 @@
 - [Wack0/batondrop_armv7](https://github.com/Wack0/batondrop_armv7)
 - [bakedmuffinman/BlackLotusDetection](https://github.com/bakedmuffinman/BlackLotusDetection)
 - [qjawls2003/BlackLotus-Detection](https://github.com/qjawls2003/BlackLotus-Detection)
-- [nova-master/CVE-2022-21894](https://github.com/nova-master/CVE-2022-21894)
+- [nova-master/CVE-2022-21894-Payload-New](https://github.com/nova-master/CVE-2022-21894-Payload-New)
 
 ### CVE-2022-21907 (2022-01-11)
 
@@ -6413,6 +6433,7 @@
 - [MaskCyberSecurityTeam/CVE-2022-26134_Behinder_MemShell](https://github.com/MaskCyberSecurityTeam/CVE-2022-26134_Behinder_MemShell)
 - [Muhammad-Ali007/Atlassian_CVE-2022-26134](https://github.com/Muhammad-Ali007/Atlassian_CVE-2022-26134)
 - [acfirthh/CVE-2022-26134](https://github.com/acfirthh/CVE-2022-26134)
+- [yTxZx/CVE-2022-26134](https://github.com/yTxZx/CVE-2022-26134)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -30732,7 +30753,6 @@
 <code>Buffer overflow in the IKEv1 and IKEv2 implementations in Cisco ASA Software before 8.4(7.30), 8.7 before 8.7(1.18), 9.0 before 9.0(4.38), 9.1 before 9.1(7), 9.2 before 9.2(4.5), 9.3 before 9.3(3.7), 9.4 before 9.4(2.4), and 9.5 before 9.5(2.2) on ASA 5500 devices, ASA 5500-X devices, ASA Services Module for Cisco Catalyst 6500 and Cisco 7600 devices, ASA 1000V devices, Adaptive Security Virtual Appliance (aka ASAv), Firepower 9300 ASA Security Module, and ISA 3000 devices allows remote attackers to execute arbitrary code or cause a denial of service (device reload) via crafted UDP packets, aka Bug IDs CSCux29978 and CSCux42019.
 </code>
 
-- [jgajek/killasa](https://github.com/jgajek/killasa)
 - [NetSPI/asa_tools](https://github.com/NetSPI/asa_tools)
 
 ### CVE-2016-1494 (2016-01-13)
@@ -30822,7 +30842,6 @@
 <code>Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x before 4.2.5.2 allows remote attackers to execute arbitrary Ruby code by leveraging an application's unrestricted use of the render method.
 </code>
 
-- [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
 - [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
