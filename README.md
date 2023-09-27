@@ -695,6 +695,7 @@
 </code>
 
 - [buptsb/CVE-2023-4762](https://github.com/buptsb/CVE-2023-4762)
+- [sherlocksecurity/CVE-2023-4762-Code-Review](https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review)
 
 ### CVE-2023-4800
 - [b0marek/CVE-2023-4800](https://github.com/b0marek/CVE-2023-4800)
@@ -2917,7 +2918,11 @@
 ### CVE-2023-35744
 - [ADSSA-IT/CVE-2023-35744](https://github.com/ADSSA-IT/CVE-2023-35744)
 
-### CVE-2023-35793
+### CVE-2023-35793 (2023-09-26)
+
+<code>An issue was discovered in Cassia Access Controller 2.1.1.2303271039. Establishing a web SSH session to gateways is vulnerable to Cross Site Request Forgery (CSRF) attacks.
+</code>
+
 - [Dodge-MPTC/CVE-2023-35793-CSRF-On-Web-SSH](https://github.com/Dodge-MPTC/CVE-2023-35793-CSRF-On-Web-SSH)
 
 ### CVE-2023-35801 (2023-06-23)
@@ -3072,7 +3077,7 @@
 
 ### CVE-2023-36844 (2023-08-17)
 
-<code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environments variables.\n\nUtilizing a crafted request an attacker is able to modify \n\ncertain PHP environments variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities.\nThis issue affects Juniper Networks Junos OS on EX Series:\n\n\n\n  *  All versions prior to 20.4R3-S9;\n  *  21.2 versions prior to 21.2R3-S6;\n  *  21.3 versions \n\nprior to \n\n 21.3R3-S5;\n  *  21.4 versions \n\nprior to \n\n21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S2, 22.4R3.\n\n\n\n\n
+<code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series allows an unauthenticated, network-based attacker to control certain, important environment variables.\n\nUsing a crafted request an attacker is able to modify \n\ncertain PHP environment variables leading to partial loss of integrity, which may allow chaining to other vulnerabilities.\nThis issue affects Juniper Networks Junos OS on EX Series:\n\n\n\n  *  All versions prior to 20.4R3-S9;\n  *  21.1 versions 21.1R1 and later;\n  *  21.2 versions prior to 21.2R3-S7;\n  *  21.3 versions \n\nprior to \n\n 21.3R3-S5;\n  *  21.4 versions \n\nprior to \n\n21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S2, 22.4R3;\n  *  23.2 versions prior to \n\n23.2R1-S1, 23.2R2.\n\n\n\n\n
 </code>
 
 - [watchtowrlabs/juniper-rce_cve-2023-36844](https://github.com/watchtowrlabs/juniper-rce_cve-2023-36844)
@@ -3081,7 +3086,7 @@
 
 ### CVE-2023-36845 (2023-08-17)
 
-<code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series \n\nand SRX Series \n\nallows an unauthenticated, network-based attacker to control certain, important environments variables.\n\nUtilizing a crafted request an attacker is able to modify a certain PHP environment variable leading to partial loss of integrity, which may allow chaining to other vulnerabilities.\n\n\nThis issue affects Juniper Networks Junos OS on SRX Series:\n\n\n\n  *  All versions prior to 21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to \n\n22.3R2-S2, 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S1, 22.4R3;\n  *  23.2 versions prior to 23.2R1-S1, 23.2R2.\n\n\n\n\n
+<code>A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series \n\nand SRX Series \n\nallows an unauthenticated, network-based attacker to remotely execute code.\n\nUsing a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code.\n\n\nThis issue affects Juniper Networks Junos OS on EX Series\n\n\nand \n\n\nSRX Series:\n\n\n\n  *  All versions prior to \n\n20.4R3-S9;\n  *  21.1 versions 21.1R1 and later;\n  *  21.2 versions prior to 21.2R3-S7;\n  *  21.3 versions prior to 21.3R3-S5;\n  *  21.4 versions prior to 21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S4;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to \n\n22.3R2-S2, 22.3R3-S1;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S1, 22.4R3;\n  *  23.2 versions prior to 23.2R1-S1, 23.2R2.\n\n\n\n\n
 </code>
 
 - [vulncheck-oss/cve-2023-36845-scanner](https://github.com/vulncheck-oss/cve-2023-36845-scanner)
@@ -3090,7 +3095,7 @@
 
 ### CVE-2023-36846 (2023-08-17)
 
-<code>A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity.\n\n\n\nWith a specific request that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of \n\nintegrity\n\nfor a certain \n\npart of the file system, which may allow chaining to other vulnerabilities.\n\n\nThis issue affects Juniper Networks Junos OS on SRX Series:\n\n\n\n  *  All versions prior to 20.4R3-S8;\n  *  21.2 versions prior to 21.2R3-S6;\n  *  21.3 versions \n\nprior to \n\n 21.3R3-S5;\n  *  21.4 versions \n\nprior to \n\n21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S3;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to \n\n22.3R2-S2, 22.3R3;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S1, 22.4R3.\n\n\n\n\n
+<code>A Missing Authentication for Critical Function vulnerability in Juniper Networks Junos OS on SRX Series allows an unauthenticated, network-based attacker to cause limited impact to the file system integrity.\n\n\n\nWith a specific request to user.php that doesn't require authentication an attacker is able to upload arbitrary files via J-Web, leading to a loss of \n\nintegrity\n\nfor a certain \n\npart of the file system, which may allow chaining to other vulnerabilities.\n\n\nThis issue affects Juniper Networks Junos OS on SRX Series:\n\n\n\n  *  All versions prior to 20.4R3-S8;\n  *  21.1 versions 21.1R1 and later;\n  *  21.2 versions prior to 21.2R3-S6;\n  *  21.3 versions \n\nprior to \n\n 21.3R3-S5;\n  *  21.4 versions \n\nprior to \n\n21.4R3-S5;\n  *  22.1 versions \n\nprior to \n\n22.1R3-S3;\n  *  22.2 versions \n\nprior to \n\n22.2R3-S2;\n  *  22.3 versions \n\nprior to \n\n22.3R2-S2, 22.3R3;\n  *  22.4 versions \n\nprior to \n\n22.4R2-S1, 22.4R3.\n\n\n\n\n
 </code>
 
 - [Dreamy-elfland/CVE-2023-36846](https://github.com/Dreamy-elfland/CVE-2023-36846)
@@ -3332,6 +3337,13 @@
 </code>
 
 - [lucas-cauhe/cargo-perm](https://github.com/lucas-cauhe/cargo-perm)
+
+### CVE-2023-38571 (2023-07-28)
+
+<code>This issue was addressed with improved validation of symlinks. This issue is fixed in macOS Big Sur 11.7.9, macOS Monterey 12.6.8, macOS Ventura 13.5. An app may be able to bypass Privacy preferences.
+</code>
+
+- [gergelykalman/CVE-2023-38571-a-macOS-TCC-bypass-in-Music-and-TV](https://github.com/gergelykalman/CVE-2023-38571-a-macOS-TCC-bypass-in-Music-and-TV)
 
 ### CVE-2023-38632 (2023-07-20)
 
@@ -3687,6 +3699,9 @@
 
 - [federella/CVE-2023-41717](https://github.com/federella/CVE-2023-41717)
 
+### CVE-2023-42222
+- [itssixtyn3in/CVE-2023-42222](https://github.com/itssixtyn3in/CVE-2023-42222)
+
 ### CVE-2023-42362 (2023-09-14)
 
 <code>An arbitrary file upload vulnerability in Teller Web App v.4.4.0 allows a remote attacker to execute arbitrary commands and obtain sensitive information via uploading a crafted file.
@@ -3739,13 +3754,25 @@
 
 - [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
 
-### CVE-2023-42820
+### CVE-2023-42820 (2023-09-26)
+
+<code>JumpServer is an open source bastion host. This vulnerability is due to exposing the random number seed to the API, potentially allowing the randomly generated verification codes to be replayed, which could lead to password resets. If MFA is enabled users are not affect. Users not using local authentication are also not affected. Users are advised to upgrade to either version 2.28.19 or to 3.6.5. There are no known workarounds or this issue.
+</code>
+
 - [wh-gov/CVE-2023-42820](https://github.com/wh-gov/CVE-2023-42820)
 
-### CVE-2023-43154
+### CVE-2023-43154 (2023-09-26)
+
+<code>In Macrob7 Macs Framework Content Management System (CMS) 1.1.4f, loose comparison in &quot;isValidLogin()&quot; function during login attempt results in PHP type confusion vulnerability that leads to authentication bypass and takeover of the administrator account.
+</code>
+
 - [ally-petitt/CVE-2023-43154-PoC](https://github.com/ally-petitt/CVE-2023-43154-PoC)
 
-### CVE-2023-43263
+### CVE-2023-43263 (2023-09-26)
+
+<code>A Cross-site scripting (XSS) vulnerability in Froala Editor v.4.1.1 allows attackers to execute arbitrary code via the Markdown component.
+</code>
+
 - [b0marek/CVE-2023-43263](https://github.com/b0marek/CVE-2023-43263)
 
 ### CVE-2023-43323
@@ -3760,7 +3787,7 @@
 
 ### CVE-2023-43326 (2023-09-25)
 
-<code>mooSocial v3.1.8 was discovered to contain a cross-site scripting (XSS) vulnerability via the change email function.
+<code>A reflected cross-site scripting (XSS) vulnerability exisits in multiple url of mooSocial v3.1.8 allows attackers to steal user's session cookies and impersonate their account via a crafted URL.
 </code>
 
 - [ahrixia/CVE-2023-43326](https://github.com/ahrixia/CVE-2023-43326)
@@ -3771,6 +3798,13 @@
 </code>
 
 - [sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation)
+
+### CVE-2023-43770 (2023-09-22)
+
+<code>Roundcube before 1.4.14, 1.5.x before 1.5.4, and 1.6.x before 1.6.3 allows XSS via text/plain e-mail messages with crafted links because of program/lib/Roundcube/rcube_string_replacer.php behavior.
+</code>
+
+- [s3cb0y/CVE-2023-43770-POC](https://github.com/s3cb0y/CVE-2023-43770-POC)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -5227,7 +5261,7 @@
 
 ### CVE-2022-22536 (2022-02-09)
 
-<code>SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server 7.53 and SAP Web Dispatcher are vulnerable for request smuggling and request concatenation. An unauthenticated attacker can prepend a victim's request with arbitrary data. This way, the attacker can execute functions impersonating the victim or poison intermediary Web caches. A successful attack could result in complete compromise of Confidentiality, Integrity and Availability of the system.
+<code>SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server 7.53 and SAP Web Dispatcher are vulnerable for request smuggling and request concatenation. An unauthenticated attacker can prepend a victim's request with arbitrary data. This way, the attacker can execute functions impersonating the victim or poison intermediary Web caches. A successful attack could result in complete compromise of Confidentiality, Integrity and Availability of the system.\n\n
 </code>
 
 - [antx-code/CVE-2022-22536](https://github.com/antx-code/CVE-2022-22536)
@@ -27011,7 +27045,7 @@
 - [cucadili/CVE-2018-11776](https://github.com/cucadili/CVE-2018-11776)
 - [ArunBhandarii/Apache-Struts-0Day-Exploit](https://github.com/ArunBhandarii/Apache-Struts-0Day-Exploit)
 - [freshdemo/ApacheStruts-CVE-2018-11776](https://github.com/freshdemo/ApacheStruts-CVE-2018-11776)
-- [tsong0ku/CVE-2018-11776-FIS](https://github.com/tsong0ku/CVE-2018-11776-FIS)
+- [sonpt-afk/CVE-2018-11776-FIS](https://github.com/sonpt-afk/CVE-2018-11776-FIS)
 
 ### CVE-2018-11788 (2019-01-07)
 
@@ -34608,6 +34642,13 @@
 </code>
 
 - [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
+
+### CVE-2009-3103 (2009-09-08)
+
+<code>Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
+</code>
+
+- [sooklalad/ms09050](https://github.com/sooklalad/ms09050)
 
 ### CVE-2009-3555 (2009-11-09)
 
