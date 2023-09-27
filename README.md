@@ -689,6 +689,13 @@
 
 - [wudidike/CVE-2023-4741](https://github.com/wudidike/CVE-2023-4741)
 
+### CVE-2023-4762 (2023-09-05)
+
+<code>Type Confusion in V8 in Google Chrome prior to 116.0.5845.179 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [buptsb/CVE-2023-4762](https://github.com/buptsb/CVE-2023-4762)
+
 ### CVE-2023-4800
 - [b0marek/CVE-2023-4800](https://github.com/b0marek/CVE-2023-4800)
 
@@ -755,6 +762,13 @@
 </code>
 
 - [Wh04m1001/CVE-2023-20178](https://github.com/Wh04m1001/CVE-2023-20178)
+
+### CVE-2023-20209 (2023-08-16)
+
+<code>A vulnerability in the web-based management interface of Cisco Expressway Series and Cisco TelePresence Video Communication Server (VCS) could allow an authenticated, remote attacker with read-write privileges on the application to perform a command injection attack that could result in remote code execution on an affected device.\r\n\r This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending a crafted request to the web-based management interface of an affected device. A successful exploit could allow the attacker to establish a remote shell with root privileges.
+</code>
+
+- [0x41-Researcher/CVE-2023-20209](https://github.com/0x41-Researcher/CVE-2023-20209)
 
 ### CVE-2023-20562 (2023-08-08)
 
@@ -3072,6 +3086,7 @@
 
 - [vulncheck-oss/cve-2023-36845-scanner](https://github.com/vulncheck-oss/cve-2023-36845-scanner)
 - [kljunowsky/CVE-2023-36845](https://github.com/kljunowsky/CVE-2023-36845)
+- [toanln-cov/CVE-2023-36845](https://github.com/toanln-cov/CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -3723,6 +3738,9 @@
 </code>
 
 - [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
+
+### CVE-2023-42820
+- [wh-gov/CVE-2023-42820](https://github.com/wh-gov/CVE-2023-42820)
 
 ### CVE-2023-43154
 - [ally-petitt/CVE-2023-43154-PoC](https://github.com/ally-petitt/CVE-2023-43154-PoC)
@@ -30753,6 +30771,7 @@
 <code>Buffer overflow in the IKEv1 and IKEv2 implementations in Cisco ASA Software before 8.4(7.30), 8.7 before 8.7(1.18), 9.0 before 9.0(4.38), 9.1 before 9.1(7), 9.2 before 9.2(4.5), 9.3 before 9.3(3.7), 9.4 before 9.4(2.4), and 9.5 before 9.5(2.2) on ASA 5500 devices, ASA 5500-X devices, ASA Services Module for Cisco Catalyst 6500 and Cisco 7600 devices, ASA 1000V devices, Adaptive Security Virtual Appliance (aka ASAv), Firepower 9300 ASA Security Module, and ISA 3000 devices allows remote attackers to execute arbitrary code or cause a denial of service (device reload) via crafted UDP packets, aka Bug IDs CSCux29978 and CSCux42019.
 </code>
 
+- [jgajek/killasa](https://github.com/jgajek/killasa)
 - [NetSPI/asa_tools](https://github.com/NetSPI/asa_tools)
 
 ### CVE-2016-1494 (2016-01-13)
@@ -30842,6 +30861,7 @@
 <code>Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x before 4.2.5.2 allows remote attackers to execute arbitrary Ruby code by leveraging an application's unrestricted use of the render method.
 </code>
 
+- [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
 - [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
@@ -34588,13 +34608,6 @@
 </code>
 
 - [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
-
-### CVE-2009-3103 (2009-09-08)
-
-<code>Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
-</code>
-
-- [sooklalad/ms09050](https://github.com/sooklalad/ms09050)
 
 ### CVE-2009-3555 (2009-11-09)
 
