@@ -3700,7 +3700,11 @@
 
 - [federella/CVE-2023-41717](https://github.com/federella/CVE-2023-41717)
 
-### CVE-2023-42222
+### CVE-2023-42222 (2023-09-27)
+
+<code>WebCatalog before 49.0 is vulnerable to Incorrect Access Control. WebCatalog calls the Electron shell.openExternal function without verifying that the URL is for an http or https resource, in some circumstances.
+</code>
+
 - [itssixtyn3in/CVE-2023-42222](https://github.com/itssixtyn3in/CVE-2023-42222)
 
 ### CVE-2023-42362 (2023-09-14)
@@ -3806,6 +3810,9 @@
 </code>
 
 - [s3cb0y/CVE-2023-43770-POC](https://github.com/s3cb0y/CVE-2023-43770-POC)
+
+### CVE-2023-44061
+- [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -35148,7 +35155,7 @@
 
 - [crypticdante/distccd_rce_CVE-2004-2687](https://github.com/crypticdante/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
-- [ss0wl/distcc_v1_cve_2004_2687](https://github.com/ss0wl/distcc_v1_cve_2004_2687)
+- [ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1)
 
 
 ## 2003
