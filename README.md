@@ -702,7 +702,7 @@
 
 ### CVE-2023-4863 (2023-09-12)
 
-<code>Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)
+<code>Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)
 </code>
 
 - [suhipek/CVE-2023-4863](https://github.com/suhipek/CVE-2023-4863)
@@ -3092,6 +3092,7 @@
 - [vulncheck-oss/cve-2023-36845-scanner](https://github.com/vulncheck-oss/cve-2023-36845-scanner)
 - [kljunowsky/CVE-2023-36845](https://github.com/kljunowsky/CVE-2023-36845)
 - [toanln-cov/CVE-2023-36845](https://github.com/toanln-cov/CVE-2023-36845)
+- [halencarjunior/CVE-2023-36845](https://github.com/halencarjunior/CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -14865,6 +14866,7 @@
 - [mightysai1997/cve-2021-42013.get](https://github.com/mightysai1997/cve-2021-42013.get)
 - [12345qwert123456/CVE-2021-42013](https://github.com/12345qwert123456/CVE-2021-42013)
 - [cybfar/cve-2021-42013-httpd](https://github.com/cybfar/cve-2021-42013-httpd)
+- [vudala/CVE-2021-42013](https://github.com/vudala/CVE-2021-42013)
 - [birdlinux/CVE-2021-42013](https://github.com/birdlinux/CVE-2021-42013)
 - [Hamesawian/CVE-2021-42013](https://github.com/Hamesawian/CVE-2021-42013)
 - [K3ysTr0K3R/CVE-2021-42013-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-42013-EXPLOIT)
@@ -19792,6 +19794,7 @@
 
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
 - [Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit)
+- [Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778)
 
 ### CVE-2020-15802 (2020-09-11)
 
