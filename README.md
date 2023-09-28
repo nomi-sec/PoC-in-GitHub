@@ -2682,6 +2682,7 @@
 </code>
 
 - [Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040](https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040)
+- [pyn3rd/CVE-2023-34040](https://github.com/pyn3rd/CVE-2023-34040)
 
 ### CVE-2023-34096 (2023-06-08)
 
@@ -3124,6 +3125,7 @@
 - [ToddMaxey/CVE-2023-36884](https://github.com/ToddMaxey/CVE-2023-36884)
 - [ridsoliveira/Fix-CVE-2023-36884](https://github.com/ridsoliveira/Fix-CVE-2023-36884)
 - [raresteak/CVE-2023-36884](https://github.com/raresteak/CVE-2023-36884)
+- [jakabakos/CVE-2023-36884-MS-Office-HTML-RCE](https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE)
 
 ### CVE-2023-36899 (2023-08-08)
 
@@ -4303,6 +4305,7 @@
 
 - [ardzz/CVE-2022-1386](https://github.com/ardzz/CVE-2022-1386)
 - [im-hanzou/fubucker](https://github.com/im-hanzou/fubucker)
+- [zycoder0day/CVE-2022-1386-Mass_Vulnerability](https://github.com/zycoder0day/CVE-2022-1386-Mass_Vulnerability)
 
 ### CVE-2022-1388 (2022-05-05)
 
@@ -24966,6 +24969,7 @@
 - [r4ulcl/CVE-2019-19781](https://github.com/r4ulcl/CVE-2019-19781)
 - [nmanzi/webcvescanner](https://github.com/nmanzi/webcvescanner)
 - [darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC)
+- [5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781)
 - [Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201](https://github.com/Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201)
 - [yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781)
 - [SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781)
