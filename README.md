@@ -668,6 +668,13 @@
 
 - [Patrowl/CVE-2023-4634](https://github.com/Patrowl/CVE-2023-4634)
 
+### CVE-2023-4683 (2023-08-31)
+
+<code>NULL Pointer Dereference in GitHub repository gpac/gpac prior to 2.3-DEV.
+</code>
+
+- [Songg45/CVE-2023-4683-Test](https://github.com/Songg45/CVE-2023-4683-Test)
+
 ### CVE-2023-4696 (2023-08-31)
 
 <code>Improper Access Control in GitHub repository usememos/memos prior to 0.13.2.
@@ -3142,6 +3149,9 @@
 - [d0rb/CVE-2023-36899](https://github.com/d0rb/CVE-2023-36899)
 - [midisec/CVE-2023-36899](https://github.com/midisec/CVE-2023-36899)
 
+### CVE-2023-37073
+- [Hamza0X/CVE-2023-37073](https://github.com/Hamza0X/CVE-2023-37073)
+
 ### CVE-2023-37164 (2023-07-20)
 
 <code>Diafan CMS v6.0 was discovered to contain a reflected cross-site scripting via the cat_id parameter at /shop/?module=shop&amp;action=search.
@@ -3776,6 +3786,13 @@
 - [wh-gov/CVE-2023-42820](https://github.com/wh-gov/CVE-2023-42820)
 - [h4m5t/CVE-2023-42820](https://github.com/h4m5t/CVE-2023-42820)
 
+### CVE-2023-43115 (2023-09-18)
+
+<code>In Artifex Ghostscript through 10.01.2, gdevijs.c in GhostPDL can lead to remote code execution via crafted PostScript documents because they can switch to the IJS device, or change the IjsServer parameter, after SAFER has been activated. NOTE: it is a documented risk that the IJS server can be specified on a gs command line (the IJS device inherently must execute a command to start the IJS server).
+</code>
+
+- [jostaub/ghostscript-CVE-2023-43115](https://github.com/jostaub/ghostscript-CVE-2023-43115)
+
 ### CVE-2023-43154 (2023-09-26)
 
 <code>In Macrob7 Macs Framework Content Management System (CMS) 1.1.4f, loose comparison in &quot;isValidLogin()&quot; function during login attempt results in PHP type confusion vulnerability that leads to authentication bypass and takeover of the administrator account.
@@ -3790,7 +3807,11 @@
 
 - [b0marek/CVE-2023-43263](https://github.com/b0marek/CVE-2023-43263)
 
-### CVE-2023-43323
+### CVE-2023-43323 (2023-09-28)
+
+<code>mooSocial 3.1.8 is vulnerable to external service interaction on post function. When executed, the server sends a HTTP and DNS request to external server. The Parameters effected are multiple - messageText, data[wall_photo], data[userShareVideo] and data[userShareLink].
+</code>
+
 - [ahrixia/CVE-2023-43323](https://github.com/ahrixia/CVE-2023-43323)
 
 ### CVE-2023-43325 (2023-09-25)
@@ -3814,6 +3835,54 @@
 
 - [sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation)
 
+### CVE-2023-43340
+- [sromanhu/-CVE-2023-43340-Evolution-Reflected-XSS---Installation-Admin-Options](https://github.com/sromanhu/-CVE-2023-43340-Evolution-Reflected-XSS---Installation-Admin-Options)
+
+### CVE-2023-43341
+- [sromanhu/CVE-2023-43341-Evolution-Reflected-XSS---Installation-Connection-](https://github.com/sromanhu/CVE-2023-43341-Evolution-Reflected-XSS---Installation-Connection-)
+
+### CVE-2023-43342
+- [sromanhu/CVE-2023-43342-Quick-CMS-Stored-XSS---Languages-Frontend](https://github.com/sromanhu/CVE-2023-43342-Quick-CMS-Stored-XSS---Languages-Frontend)
+
+### CVE-2023-43343
+- [sromanhu/CVE-2023-43343-Quick-CMS-Stored-XSS---Pages-Files](https://github.com/sromanhu/CVE-2023-43343-Quick-CMS-Stored-XSS---Pages-Files)
+
+### CVE-2023-43344
+- [sromanhu/CVE-2023-43344-Quick-CMS-Stored-XSS---SEO-Meta-description](https://github.com/sromanhu/CVE-2023-43344-Quick-CMS-Stored-XSS---SEO-Meta-description)
+
+### CVE-2023-43345
+- [sromanhu/CVE-2023-43345-Quick-CMS-Stored-XSS---Pages-Content](https://github.com/sromanhu/CVE-2023-43345-Quick-CMS-Stored-XSS---Pages-Content)
+
+### CVE-2023-43346
+- [sromanhu/CVE-2023-43346-Quick-CMS-Stored-XSS---Languages-Backend](https://github.com/sromanhu/CVE-2023-43346-Quick-CMS-Stored-XSS---Languages-Backend)
+
+### CVE-2023-43352
+- [sromanhu/CVE-2023-43352-CMSmadesimple-SSTI--Content](https://github.com/sromanhu/CVE-2023-43352-CMSmadesimple-SSTI--Content)
+
+### CVE-2023-43353
+- [sromanhu/CVE-2023-43353-CMSmadesimple-Stored-XSS---News---Extra](https://github.com/sromanhu/CVE-2023-43353-CMSmadesimple-Stored-XSS---News---Extra)
+
+### CVE-2023-43354
+- [sromanhu/CVE-2023-43354-CMSmadesimple-Stored-XSS---MicroTIny-extension](https://github.com/sromanhu/CVE-2023-43354-CMSmadesimple-Stored-XSS---MicroTIny-extension)
+
+### CVE-2023-43355
+- [sromanhu/CVE-2023-43355-CMSmadesimple-Reflected-XSS---Add-user](https://github.com/sromanhu/CVE-2023-43355-CMSmadesimple-Reflected-XSS---Add-user)
+
+### CVE-2023-43356
+- [sromanhu/CVE-2023-43356-CMSmadesimple-Stored-XSS---Global-Settings](https://github.com/sromanhu/CVE-2023-43356-CMSmadesimple-Stored-XSS---Global-Settings)
+
+### CVE-2023-43357
+- [sromanhu/CVE-2023-43357-CMSmadesimple-Stored-XSS---Shortcut](https://github.com/sromanhu/CVE-2023-43357-CMSmadesimple-Stored-XSS---Shortcut)
+
+### CVE-2023-43358
+- [sromanhu/CVE-2023-43358-CMSmadesimple-Stored-XSS---News](https://github.com/sromanhu/CVE-2023-43358-CMSmadesimple-Stored-XSS---News)
+
+### CVE-2023-43359
+- [sromanhu/CVE-2023-43359-CMSmadesimple-Stored-XSS----Content-Manager](https://github.com/sromanhu/CVE-2023-43359-CMSmadesimple-Stored-XSS----Content-Manager)
+
+### CVE-2023-43360
+- [sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension](https://github.com/sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension)
+
 ### CVE-2023-43770 (2023-09-22)
 
 <code>Roundcube before 1.4.14, 1.5.x before 1.5.4, and 1.6.x before 1.6.3 allows XSS via text/plain e-mail messages with crafted links because of program/lib/Roundcube/rcube_string_replacer.php behavior.
@@ -3821,6 +3890,61 @@
 
 - [s3cb0y/CVE-2023-43770-POC](https://github.com/s3cb0y/CVE-2023-43770-POC)
 - [knight0x07/CVE-2023-43770-PoC](https://github.com/knight0x07/CVE-2023-43770-PoC)
+
+### CVE-2023-43871 (2023-09-28)
+
+<code>A File upload vulnerability in WBCE v.1.6.1 allows a local attacker to upload a pdf file with hidden Cross Site Scripting (XSS).
+</code>
+
+- [sromanhu/CVE-2023-43871-WBCE-Arbitrary-File-Upload--XSS---Media](https://github.com/sromanhu/CVE-2023-43871-WBCE-Arbitrary-File-Upload--XSS---Media)
+
+### CVE-2023-43872 (2023-09-28)
+
+<code>A File upload vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to upload a pdf file with hidden Cross Site Scripting (XSS).
+</code>
+
+- [sromanhu/CVE-2023-43872-CMSmadesimple-Arbitrary-File-Upload--XSS---File-Manager](https://github.com/sromanhu/CVE-2023-43872-CMSmadesimple-Arbitrary-File-Upload--XSS---File-Manager)
+
+### CVE-2023-43873 (2023-09-28)
+
+<code>A Cross Site Scripting (XSS) vulnerability in e017 CMS v.2.3.2 allows a local attacker to execute arbitrary code via a crafted script to the Name filed in the Manage Menu.
+</code>
+
+- [sromanhu/CVE-2023-43873-e107-CMS-Stored-XSS---Manage](https://github.com/sromanhu/CVE-2023-43873-e107-CMS-Stored-XSS---Manage)
+
+### CVE-2023-43874 (2023-09-28)
+
+<code>Multiple Cross Site Scripting (XSS) vulnerability in e017 CMS v.2.3.2 allows a local attacker to execute arbitrary code via a crafted script to the Copyright and Author fields in the Meta &amp; Custom Tags Menu.
+</code>
+
+- [sromanhu/CVE-2023-43874-e107-CMS-Stored-XSS---MetaCustomTags](https://github.com/sromanhu/CVE-2023-43874-e107-CMS-Stored-XSS---MetaCustomTags)
+
+### CVE-2023-43875
+- [sromanhu/CVE-2023-43875-Subrion-CMS-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43875-Subrion-CMS-Reflected-XSS---Installation)
+
+### CVE-2023-43876 (2023-09-28)
+
+<code>A Cross-Site Scripting (XSS) vulnerability in installation of October v.3.4.16 allows an attacker to execute arbitrary web scripts via a crafted payload injected into the dbhost field.
+</code>
+
+- [sromanhu/CVE-2023-43876-October-CMS-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43876-October-CMS-Reflected-XSS---Installation)
+
+### CVE-2023-43877
+- [sromanhu/CVE-2023-43877-RiteCMS-Stored-XSS---Home](https://github.com/sromanhu/CVE-2023-43877-RiteCMS-Stored-XSS---Home)
+
+### CVE-2023-43878 (2023-09-28)
+
+<code>Rite CMS 3.0 has Multiple Cross-Site scripting (XSS) vulnerabilities that allow attackers to execute arbitrary code via a crafted payload into the Main Menu Items in the Administration Menu.
+</code>
+
+- [sromanhu/CVE-2023-43878-RiteCMS-Stored-XSS---MainMenu](https://github.com/sromanhu/CVE-2023-43878-RiteCMS-Stored-XSS---MainMenu)
+
+### CVE-2023-43879 (2023-09-28)
+
+<code>Rite CMS 3.0 has a Cross-Site scripting (XSS) vulnerability that allows attackers to execute arbitrary code via a crafted payload into the Global Content Blocks in the Administration Menu.
+</code>
+
+- [sromanhu/CVE-2023-43879-RiteCMS-Stored-XSS---GlobalContent](https://github.com/sromanhu/CVE-2023-43879-RiteCMS-Stored-XSS---GlobalContent)
 
 ### CVE-2023-44061
 - [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
@@ -31904,6 +32028,7 @@
 - [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
@@ -32831,7 +32956,6 @@
 </code>
 
 - [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
-- [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
 
 ### CVE-2014-0224 (2014-06-05)
 
@@ -33488,7 +33612,6 @@
 </code>
 
 - [mdisec/CVE-2014-9390](https://github.com/mdisec/CVE-2014-9390)
-- [hakatashi/CVE-2014-9390](https://github.com/hakatashi/CVE-2014-9390)
 
 ### CVE-2014-10069 (2018-01-07)
 
@@ -35197,7 +35320,6 @@
 <code>Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execute arbitrary code via (1) a long EHLO argument to slmail.exe, (2) a long XTRN argument to slmail.exe, (3) a long string to POPPASSWD, or (4) a long password to the POP3 server.
 </code>
 
-- [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
