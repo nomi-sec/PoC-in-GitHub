@@ -1283,8 +1283,8 @@
 <code>Templates do not properly consider backticks (`) as Javascript string delimiters, and do not escape them as expected. Backticks are used, since ES6, for JS template literals. If a template contains a Go template action within a Javascript template literal, the contents of the action can be used to terminate the literal, injecting arbitrary Javascript code into the Go template. As ES6 template literals are rather complex, and themselves can do string interpolation, the decision was made to simply disallow Go template actions from being used inside of them (e.g. &quot;var a = {{.}}&quot;), since there is no obviously safe way to allow this behavior. This takes the same approach as github.com/google/safehtml. With fix, Template.Parse returns an Error when it encounters templates like this, with an ErrorCode of value 12. This ErrorCode is currently unexported, but will be exported in the release of Go 1.21. Users who rely on the previous behavior can re-enable it using the GODEBUG flag jstmpllitinterp=1, with the caveat that backticks will now be escaped. This should be used with caution.
 </code>
 
-- [skulkarni-mv/goIssue_kirkstone](https://github.com/skulkarni-mv/goIssue_kirkstone)
 - [skulkarni-mv/goIssue_dunfell](https://github.com/skulkarni-mv/goIssue_dunfell)
+- [skulkarni-mv/goIssue_kirkstone](https://github.com/skulkarni-mv/goIssue_kirkstone)
 
 ### CVE-2023-24610 (2023-02-01)
 
@@ -3295,7 +3295,7 @@
 
 ### CVE-2023-37941 (2023-09-06)
 
-<code>If an attacker gains write access to the Apache Superset metadata database, they could persist a specifically crafted Python object that may lead to remote code execution on Superset's web backend. This vulnerability impacts Apache Superset versions 1.5.0 up to and including 2.1.0.
+<code>If an attacker gains write access to the Apache Superset metadata database, they could persist a specifically crafted Python object that may lead to remote code execution on Superset's web backend.\n\nThe Superset metadata db is an 'internal' component that is typically \nonly accessible directly by the system administrator and the superset \nprocess itself. Gaining access to that database should\n be difficult and require significant privileges.\n\nThis vulnerability impacts Apache Superset versions 1.5.0 up to and including 2.1.0. Users are recommended to upgrade to version 2.1.1 or later.\n\n
 </code>
 
 - [Barroqueiro/CVE-2023-37941](https://github.com/Barroqueiro/CVE-2023-37941)
@@ -24266,7 +24266,6 @@
 - [Rayferrufino/Make-and-Break](https://github.com/Rayferrufino/Make-and-Break)
 - [AleWong/WebminRCE-EXP-CVE-2019-15107-](https://github.com/AleWong/WebminRCE-EXP-CVE-2019-15107-)
 - [ianxtianxt/CVE-2019-15107](https://github.com/ianxtianxt/CVE-2019-15107)
-- [Pichuuuuu/verbose_happiness](https://github.com/Pichuuuuu/verbose_happiness)
 - [hannob/webminex](https://github.com/hannob/webminex)
 - [ChakoMoonFish/webmin_CVE-2019-15107](https://github.com/ChakoMoonFish/webmin_CVE-2019-15107)
 - [cdedmondson/Modified-CVE-2019-15107](https://github.com/cdedmondson/Modified-CVE-2019-15107)
@@ -28528,6 +28527,13 @@
 - [belyakovvitagmailt/4B5F5F4Bp](https://github.com/belyakovvitagmailt/4B5F5F4Bp)
 - [MarkusCarelli1/4B5F5F4Bp](https://github.com/MarkusCarelli1/4B5F5F4Bp)
 
+### CVE-2017-0100 (2017-03-16)
+
+<code>A DCOM object in Helppane.exe in Microsoft Windows 7 SP1; Windows Server 2008 R2; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows local users to gain privileges via a crafted application, aka &quot;Windows HelpPane Elevation of Privilege Vulnerability.&quot;
+</code>
+
+- [cssxn/CVE-2017-0100](https://github.com/cssxn/CVE-2017-0100)
+
 ### CVE-2017-0106 (2017-04-12)
 
 <code>Microsoft Excel 2007 SP3, Microsoft Outlook 2010 SP2, Microsoft Outlook 2013 SP1, and Microsoft Outlook 2016 allow remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted document, aka &quot;Microsoft Office Memory Corruption Vulnerability.&quot;
@@ -28559,6 +28565,7 @@
 
 - [peterpt/eternal_scanner](https://github.com/peterpt/eternal_scanner)
 - [kimocoder/eternalblue](https://github.com/kimocoder/eternalblue)
+- [EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution](https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution)
 - [quynhold/Detect-CVE-2017-0144-attack](https://github.com/quynhold/Detect-CVE-2017-0144-attack)
 
 ### CVE-2017-0145 (2017-03-16)
@@ -28759,6 +28766,7 @@
 </code>
 
 - [emcalv/tivoli-poc](https://github.com/emcalv/tivoli-poc)
+- [bcdannyboy/cve-2017-1635-PoC](https://github.com/bcdannyboy/cve-2017-1635-PoC)
 
 ### CVE-2017-2368 (2017-02-20)
 
@@ -29408,6 +29416,7 @@
 - [daehee/nginx-overflow](https://github.com/daehee/nginx-overflow)
 - [gemboxteam/exploit-nginx-1.10.3](https://github.com/gemboxteam/exploit-nginx-1.10.3)
 - [fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability)
+- [mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability)
 - [fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit](https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit)
 - [Shehzadcyber/CVE-2017-7529](https://github.com/Shehzadcyber/CVE-2017-7529)
 
@@ -29448,6 +29457,7 @@
 - [JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP)
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
 - [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
+- [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
 - [inj3ction/CVE-2017-7921-EXP](https://github.com/inj3ction/CVE-2017-7921-EXP)
@@ -29752,6 +29762,13 @@
 
 - [faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc](https://github.com/faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc)
 
+### CVE-2017-9627 (2017-07-07)
+
+<code>An Uncontrolled Resource Consumption issue was discovered in Schneider Electric Wonderware ArchestrA Logger, versions 2017.426.2307.1 and prior. The uncontrolled resource consumption vulnerability could allow an attacker to exhaust the memory resources of the machine, causing a denial of service.
+</code>
+
+- [USSCltd/aaLogger](https://github.com/USSCltd/aaLogger)
+
 ### CVE-2017-9769 (2017-08-02)
 
 <code>A specially crafted IOCTL can be issued to the rzpnk.sys driver in Razer Synapse 2.20.15.1104 that is forwarded to ZwOpenProcess allowing a handle to be opened to an arbitrary process.
@@ -29803,6 +29820,8 @@
 - [wifido/CVE-2017-9805-Exploit](https://github.com/wifido/CVE-2017-9805-Exploit)
 - [rvermeulen/apache-struts-cve-2017-9805](https://github.com/rvermeulen/apache-struts-cve-2017-9805)
 - [jongmartinez/-CVE-2017-9805-](https://github.com/jongmartinez/-CVE-2017-9805-)
+- [z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805)
+- [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
 - [Shakun8/CVE-2017-9805](https://github.com/Shakun8/CVE-2017-9805)
 
 ### CVE-2017-9822 (2017-07-20)
@@ -30412,6 +30431,13 @@
 
 - [realistic-security/CVE-2017-16524](https://github.com/realistic-security/CVE-2017-16524)
 
+### CVE-2017-16541 (2017-11-04)
+
+<code>Tor Browser before 7.0.9 on macOS and Linux allows remote attackers to bypass the intended anonymity feature and discover a client IP address via vectors involving a crafted web site that leverages file:// mishandling in Firefox, aka TorMoil. NOTE: Tails is unaffected.
+</code>
+
+- [Ethan-Chen-uwo/A-breif-introduction-of-CVE-2017-16541](https://github.com/Ethan-Chen-uwo/A-breif-introduction-of-CVE-2017-16541)
+
 ### CVE-2017-16567 (2017-11-09)
 
 <code>Cross-site scripting (XSS) vulnerability in Logitech Media Server 7.9.0 allows remote attackers to inject arbitrary web script or HTML via a &quot;favorite.&quot;
@@ -30480,6 +30506,7 @@
 - [vnik5287/CVE-2017-16995](https://github.com/vnik5287/CVE-2017-16995)
 - [littlebin404/CVE-2017-16995](https://github.com/littlebin404/CVE-2017-16995)
 - [Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-](https://github.com/Lumindu/CVE-2017-16995-Linux-Kernel---BPF-Sign-Extension-Local-Privilege-Escalation-)
+- [ph4ntonn/CVE-2017-16995](https://github.com/ph4ntonn/CVE-2017-16995)
 - [ivilpez/cve-2017-16995.c](https://github.com/ivilpez/cve-2017-16995.c)
 - [fei9747/CVE-2017-16995](https://github.com/fei9747/CVE-2017-16995)
 - [anldori/CVE-2017-16995](https://github.com/anldori/CVE-2017-16995)
@@ -30511,6 +30538,7 @@
 </code>
 
 - [1337g/CVE-2017-17215](https://github.com/1337g/CVE-2017-17215)
+- [wilfred-wulbou/HG532d-RCE-Exploit](https://github.com/wilfred-wulbou/HG532d-RCE-Exploit)
 - [ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215](https://github.com/ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215)
 
 ### CVE-2017-17275
@@ -30653,6 +30681,7 @@
 - [chenzhuo0618/test](https://github.com/chenzhuo0618/test)
 - [siling2017/CVE-2017-1000117](https://github.com/siling2017/CVE-2017-1000117)
 - [Q2h1Cg/CVE-2017-1000117](https://github.com/Q2h1Cg/CVE-2017-1000117)
+- [cved-sources/cve-2017-1000117](https://github.com/cved-sources/cve-2017-1000117)
 - [leezp/CVE-2017-1000117](https://github.com/leezp/CVE-2017-1000117)
 - [AnonymKing/CVE-2017-1000117](https://github.com/AnonymKing/CVE-2017-1000117)
 - [Jerry-zhuang/CVE-2017-1000117](https://github.com/Jerry-zhuang/CVE-2017-1000117)
@@ -30735,6 +30764,7 @@
 
 - [pimps/CVE-2017-1000486](https://github.com/pimps/CVE-2017-1000486)
 - [mogwailabs/CVE-2017-1000486](https://github.com/mogwailabs/CVE-2017-1000486)
+- [cved-sources/cve-2017-1000486](https://github.com/cved-sources/cve-2017-1000486)
 - [Pastea/CVE-2017-1000486](https://github.com/Pastea/CVE-2017-1000486)
 - [oppsec/pwnfaces](https://github.com/oppsec/pwnfaces)
 
