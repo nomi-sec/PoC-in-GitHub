@@ -716,6 +716,7 @@
 - [mistymntncop/CVE-2023-4863](https://github.com/mistymntncop/CVE-2023-4863)
 - [bbaranoff/CVE-2023-4863](https://github.com/bbaranoff/CVE-2023-4863)
 - [talbeerysec/BAD-WEBP-CVE-2023-4863](https://github.com/talbeerysec/BAD-WEBP-CVE-2023-4863)
+- [OITApps/Find-VulnerableElectronVersion](https://github.com/OITApps/Find-VulnerableElectronVersion)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -3108,6 +3109,7 @@
 - [kljunowsky/CVE-2023-36845](https://github.com/kljunowsky/CVE-2023-36845)
 - [toanln-cov/CVE-2023-36845](https://github.com/toanln-cov/CVE-2023-36845)
 - [halencarjunior/CVE-2023-36845](https://github.com/halencarjunior/CVE-2023-36845)
+- [zaenhaxor/CVE-2023-36845](https://github.com/zaenhaxor/CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -12170,6 +12172,7 @@
 
 - [j4k0m/CVE-2021-24499](https://github.com/j4k0m/CVE-2021-24499)
 - [hh-hunter/cve-2021-24499](https://github.com/hh-hunter/cve-2021-24499)
+- [jytmX/CVE-2021-24499](https://github.com/jytmX/CVE-2021-24499)
 
 ### CVE-2021-24507 (2021-08-09)
 
@@ -32956,6 +32959,7 @@
 </code>
 
 - [SunRain/CVE-2014-0196](https://github.com/SunRain/CVE-2014-0196)
+- [tempbottle/CVE-2014-0196](https://github.com/tempbottle/CVE-2014-0196)
 
 ### CVE-2014-0224 (2014-06-05)
 
@@ -33612,6 +33616,7 @@
 </code>
 
 - [mdisec/CVE-2014-9390](https://github.com/mdisec/CVE-2014-9390)
+- [hakatashi/CVE-2014-9390](https://github.com/hakatashi/CVE-2014-9390)
 
 ### CVE-2014-10069 (2018-01-07)
 
@@ -35320,6 +35325,7 @@
 <code>Multiple buffer overflows in SLMail 5.1.0.4420 allows remote attackers to execute arbitrary code via (1) a long EHLO argument to slmail.exe, (2) a long XTRN argument to slmail.exe, (3) a long string to POPPASSWD, or (4) a long password to the POP3 server.
 </code>
 
+- [adenkiewicz/CVE-2003-0264](https://github.com/adenkiewicz/CVE-2003-0264)
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
