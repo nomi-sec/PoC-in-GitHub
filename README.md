@@ -725,6 +725,13 @@
 
 - [PH03N1XSP/CVE-2023-5024](https://github.com/PH03N1XSP/CVE-2023-5024)
 
+### CVE-2023-5074 (2023-09-20)
+
+<code>Use of a static key to protect a JWT token used in user authentication can allow an for an authentication bypass in D-Link D-View 8 v2.0.1.28
+</code>
+
+- [codeb0ss/CVE-2023-5074-PoC](https://github.com/codeb0ss/CVE-2023-5074-PoC)
+
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
