@@ -733,6 +733,9 @@
 
 - [codeb0ss/CVE-2023-5074-PoC](https://github.com/codeb0ss/CVE-2023-5074-PoC)
 
+### CVE-2023-5324
+- [nomis/eero-zero-length-ipv6-options-header-dos](https://github.com/nomis/eero-zero-length-ipv6-options-header-dos)
+
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
@@ -745,7 +748,7 @@
 
 ### CVE-2023-20052 (2023-03-01)
 
-<code>On Feb 15, 2023, the following vulnerability in the ClamAV scanning library was disclosed: A vulnerability in the DMG file parser of ClamAV versions 1.0.0 and earlier, 0.105.1 and earlier, and 0.103.7 and earlier could allow an unauthenticated, remote attacker to access sensitive information on an affected device. This vulnerability is due to enabling XML entity substitution that may result in XML external entity injection. An attacker could exploit this vulnerability by submitting a crafted DMG file to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to leak bytes from any file that may be read by the ClamAV scanning process.
+<code>On Feb 15, 2023, the following vulnerability in the ClamAV scanning library was disclosed:\r\n\r \r A vulnerability in the DMG file parser of ClamAV versions 1.0.0 and earlier, 0.105.1 and earlier, and 0.103.7 and earlier could allow an unauthenticated, remote attacker to access sensitive information on an affected device.\r\n\r \r This vulnerability is due to enabling XML entity substitution that may result in XML external entity injection. An attacker could exploit this vulnerability by submitting a crafted DMG file to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to leak bytes from any file that may be read by the ClamAV scanning process.
 </code>
 
 - [nokn0wthing/CVE-2023-20052](https://github.com/nokn0wthing/CVE-2023-20052)
@@ -3820,6 +3823,9 @@
 
 - [ally-petitt/CVE-2023-43154-PoC](https://github.com/ally-petitt/CVE-2023-43154-PoC)
 
+### CVE-2023-43261
+- [win3zz/CVE-2023-43261](https://github.com/win3zz/CVE-2023-43261)
+
 ### CVE-2023-43263 (2023-09-26)
 
 <code>A Cross-site scripting (XSS) vulnerability in Froala Editor v.4.1.1 allows attackers to execute arbitrary code via the Markdown component.
@@ -4256,7 +4262,7 @@
 - [eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/eduquintanilha/CVE-2022-0847-DirtyPipe-Exploits)
 - [EagleTube/CVE-2022-0847](https://github.com/EagleTube/CVE-2022-0847)
 - [yoeelingBin/CVE-2022-0847-Container-Escape](https://github.com/yoeelingBin/CVE-2022-0847-Container-Escape)
-- [c0ntempt/CVE-2022-0847](https://github.com/c0ntempt/CVE-2022-0847)
+- [cont3mpt/CVE-2022-0847](https://github.com/cont3mpt/CVE-2022-0847)
 - [notl0cal/dpipe](https://github.com/notl0cal/dpipe)
 - [Gustavo-Nogueira/Dirty-Pipe-Exploits](https://github.com/Gustavo-Nogueira/Dirty-Pipe-Exploits)
 - [b4dboy17/Dirty-Pipe-Oneshot](https://github.com/b4dboy17/Dirty-Pipe-Oneshot)
@@ -4346,6 +4352,7 @@
 - [delsploit/CVE-2022-1015](https://github.com/delsploit/CVE-2022-1015)
 - [pivik271/CVE-2022-1015](https://github.com/pivik271/CVE-2022-1015)
 - [more-kohii/CVE-2022-1015](https://github.com/more-kohii/CVE-2022-1015)
+- [0range1337/CVE-2022-1015](https://github.com/0range1337/CVE-2022-1015)
 
 ### CVE-2022-1026 (2022-04-04)
 
