@@ -733,7 +733,11 @@
 
 - [codeb0ss/CVE-2023-5074-PoC](https://github.com/codeb0ss/CVE-2023-5074-PoC)
 
-### CVE-2023-5324
+### CVE-2023-5324 (2023-10-01)
+
+<code>In eeroOS bis 6.16.4-11 wurde eine kritische Schwachstelle gefunden. Hierbei betrifft es unbekannten Programmcode der Komponente Ethernet Interface. Durch die Manipulation mit unbekannten Daten kann eine denial of service-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff im lokalen Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
 - [nomis/eero-zero-length-ipv6-options-header-dos](https://github.com/nomis/eero-zero-length-ipv6-options-header-dos)
 
 ### CVE-2023-5546
