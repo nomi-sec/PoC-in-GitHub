@@ -2176,6 +2176,7 @@
 
 ### CVE-2023-31419
 - [sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419](https://github.com/sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419)
+- [u238/Elasticsearch-CVE-2023-31419](https://github.com/u238/Elasticsearch-CVE-2023-31419)
 
 ### CVE-2023-31433 (2023-05-02)
 
@@ -15574,7 +15575,7 @@
 - [BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read](https://github.com/BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read)
 - [lalkaltest/CVE-2021-43798](https://github.com/lalkaltest/CVE-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
-- [YourKeeper/SunScope](https://github.com/YourKeeper/SunScope)
+- [buckwheatlovesmistral/SunScope](https://github.com/buckwheatlovesmistral/SunScope)
 - [G01d3nW01f/CVE-2021-43798](https://github.com/G01d3nW01f/CVE-2021-43798)
 - [mauricelambert/LabAutomationCVE-2021-43798](https://github.com/mauricelambert/LabAutomationCVE-2021-43798)
 - [FAOG99/GrafanaDirectoryScanner](https://github.com/FAOG99/GrafanaDirectoryScanner)
@@ -32119,10 +32120,7 @@
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
-- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
-- [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
-- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
@@ -32485,6 +32483,7 @@
 </code>
 
 - [betalphafai/cve-2015-3636_crash](https://github.com/betalphafai/cve-2015-3636_crash)
+- [askk/libping_unhash_exploit_POC](https://github.com/askk/libping_unhash_exploit_POC)
 - [ludongxu/cve-2015-3636](https://github.com/ludongxu/cve-2015-3636)
 - [fi01/CVE-2015-3636](https://github.com/fi01/CVE-2015-3636)
 - [android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit)
