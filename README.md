@@ -724,7 +724,9 @@
 <code>A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
 </code>
 
-- [Green-Avocado/CVE-2023-4911-PoC](https://github.com/Green-Avocado/CVE-2023-4911-PoC)
+- [Green-Avocado/CVE-2023-4911](https://github.com/Green-Avocado/CVE-2023-4911)
+- [leesh3288/CVE-2023-4911](https://github.com/leesh3288/CVE-2023-4911)
+- [RickdeJager/CVE-2023-4911](https://github.com/RickdeJager/CVE-2023-4911)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -3902,7 +3904,7 @@
 
 - [ally-petitt/CVE-2023-43154-PoC](https://github.com/ally-petitt/CVE-2023-43154-PoC)
 
-### CVE-2023-43261 (-)
+### CVE-2023-43261 (2023-10-04)
 
 <code>An information disclosure in Milesight UR5X, UR32L, UR32, UR35, UR41 before v35.3.0.7 allows attackers to access sensitive router components.
 </code>
@@ -3915,6 +3917,9 @@
 </code>
 
 - [b0marek/CVE-2023-43263](https://github.com/b0marek/CVE-2023-43263)
+
+### CVE-2023-43284
+- [MateusTesser/CVE-2023-43284](https://github.com/MateusTesser/CVE-2023-43284)
 
 ### CVE-2023-43323 (2023-09-28)
 
@@ -4007,7 +4012,11 @@
 - [s3cb0y/CVE-2023-43770-POC](https://github.com/s3cb0y/CVE-2023-43770-POC)
 - [knight0x07/CVE-2023-43770-PoC](https://github.com/knight0x07/CVE-2023-43770-PoC)
 
-### CVE-2023-43838
+### CVE-2023-43838 (2023-10-04)
+
+<code>An arbitrary file upload vulnerability in Personal Management System v1.4.64 allows attackers to execute arbitrary code via uploading a crafted SVG file into a user profile's avatar.
+</code>
+
 - [rootd4ddy/CVE-2023-43838](https://github.com/rootd4ddy/CVE-2023-43838)
 
 ### CVE-2023-43871 (2023-09-28)
@@ -29770,7 +29779,7 @@
 - [gmohlamo/CVE-2017-8917](https://github.com/gmohlamo/CVE-2017-8917)
 - [AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection](https://github.com/AkuCyberSec/CVE-2017-8917-Joomla-370-SQL-Injection)
 - [Siopy/CVE-2017-8917](https://github.com/Siopy/CVE-2017-8917)
-- [xeno-john/joomla_CVE-2017-8917](https://github.com/xeno-john/joomla_CVE-2017-8917)
+- [ionutbaltariu/joomla_CVE-2017-8917](https://github.com/ionutbaltariu/joomla_CVE-2017-8917)
 
 ### CVE-2017-9096 (2017-11-08)
 
