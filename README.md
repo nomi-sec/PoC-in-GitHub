@@ -1432,6 +1432,13 @@
 - [brainkok/CVE-2023-25292](https://github.com/brainkok/CVE-2023-25292)
 - [tucommenceapousser/CVE-2023-25292](https://github.com/tucommenceapousser/CVE-2023-25292)
 
+### CVE-2023-25573 (2023-03-09)
+
+<code>metersphere is an open source continuous testing platform. In affected versions an improper access control vulnerability exists in `/api/jmeter/download/files`, which allows any user to download any file without authentication. This issue may expose all files available to the running process. This issue has been addressed in version 1.20.20 lts and 2.7.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [codeb0ss/CVE-2023-25573-PoC](https://github.com/codeb0ss/CVE-2023-25573-PoC)
+
 ### CVE-2023-25610
 - [qi4L/CVE-2023-25610](https://github.com/qi4L/CVE-2023-25610)
 
@@ -2706,6 +2713,7 @@
 </code>
 
 - [rodolfomarianocy/Unauthenticated-RCE-FUXA-CVE-2023-33831](https://github.com/rodolfomarianocy/Unauthenticated-RCE-FUXA-CVE-2023-33831)
+- [codeb0ss/CVE-2023-33831-PoC](https://github.com/codeb0ss/CVE-2023-33831-PoC)
 
 ### CVE-2023-33977 (2023-06-06)
 
@@ -29847,13 +29855,6 @@
 
 - [faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc](https://github.com/faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc)
 
-### CVE-2017-9627 (2017-07-07)
-
-<code>An Uncontrolled Resource Consumption issue was discovered in Schneider Electric Wonderware ArchestrA Logger, versions 2017.426.2307.1 and prior. The uncontrolled resource consumption vulnerability could allow an attacker to exhaust the memory resources of the machine, causing a denial of service.
-</code>
-
-- [USSCltd/aaLogger](https://github.com/USSCltd/aaLogger)
-
 ### CVE-2017-9769 (2017-08-02)
 
 <code>A specially crafted IOCTL can be issued to the rzpnk.sys driver in Razer Synapse 2.20.15.1104 that is forwarded to ZwOpenProcess allowing a handle to be opened to an arbitrary process.
@@ -29906,7 +29907,6 @@
 - [rvermeulen/apache-struts-cve-2017-9805](https://github.com/rvermeulen/apache-struts-cve-2017-9805)
 - [jongmartinez/-CVE-2017-9805-](https://github.com/jongmartinez/-CVE-2017-9805-)
 - [z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805)
-- [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
 - [Shakun8/CVE-2017-9805](https://github.com/Shakun8/CVE-2017-9805)
 
 ### CVE-2017-9822 (2017-07-20)
@@ -30629,7 +30629,6 @@
 </code>
 
 - [1337g/CVE-2017-17215](https://github.com/1337g/CVE-2017-17215)
-- [wilfred-wulbou/HG532d-RCE-Exploit](https://github.com/wilfred-wulbou/HG532d-RCE-Exploit)
 - [ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215](https://github.com/ltfafei/HuaWei_Route_HG532_RCE_CVE-2017-17215)
 
 ### CVE-2017-17275
@@ -30772,7 +30771,6 @@
 - [chenzhuo0618/test](https://github.com/chenzhuo0618/test)
 - [siling2017/CVE-2017-1000117](https://github.com/siling2017/CVE-2017-1000117)
 - [Q2h1Cg/CVE-2017-1000117](https://github.com/Q2h1Cg/CVE-2017-1000117)
-- [cved-sources/cve-2017-1000117](https://github.com/cved-sources/cve-2017-1000117)
 - [leezp/CVE-2017-1000117](https://github.com/leezp/CVE-2017-1000117)
 - [AnonymKing/CVE-2017-1000117](https://github.com/AnonymKing/CVE-2017-1000117)
 - [Jerry-zhuang/CVE-2017-1000117](https://github.com/Jerry-zhuang/CVE-2017-1000117)
@@ -34890,13 +34888,6 @@
 </code>
 
 - [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
-
-### CVE-2009-3103 (2009-09-08)
-
-<code>Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via an &amp; (ampersand) character in a Process ID High header field in a NEGOTIATE PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location, aka &quot;SMBv2 Negotiation Vulnerability.&quot; NOTE: some of these details are obtained from third party information.
-</code>
-
-- [sooklalad/ms09050](https://github.com/sooklalad/ms09050)
 
 ### CVE-2009-3555 (2009-11-09)
 
