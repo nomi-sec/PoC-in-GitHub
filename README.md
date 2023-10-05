@@ -3020,7 +3020,11 @@
 
 - [trustcves/CVE-2023-35801](https://github.com/trustcves/CVE-2023-35801)
 
-### CVE-2023-35803
+### CVE-2023-35803 (2023-10-04)
+
+<code>IQ Engine before 10.6r2 on Extreme Network AP devices has a Buffer Overflow.
+</code>
+
 - [lachlan2k/CVE-2023-35803](https://github.com/lachlan2k/CVE-2023-35803)
 
 ### CVE-2023-35828 (2023-06-18)
@@ -4057,7 +4061,11 @@
 
 - [sromanhu/CVE-2023-43876-October-CMS-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43876-October-CMS-Reflected-XSS---Installation)
 
-### CVE-2023-43877
+### CVE-2023-43877 (2023-10-04)
+
+<code>Rite CMS 3.0 has Multiple Cross-Site scripting (XSS) vulnerabilities that allow attackers to execute arbitrary code via a payload crafted in the Home Page fields in the Administration menu.
+</code>
+
 - [sromanhu/CVE-2023-43877-RiteCMS-Stored-XSS---Home](https://github.com/sromanhu/CVE-2023-43877-RiteCMS-Stored-XSS---Home)
 
 ### CVE-2023-43878 (2023-09-28)
@@ -35469,7 +35477,7 @@
 - [fyoderxx/slmail-exploit](https://github.com/fyoderxx/slmail-exploit)
 - [war4uthor/CVE-2003-0264](https://github.com/war4uthor/CVE-2003-0264)
 - [pwncone/CVE-2003-0264-SLmail-5.5](https://github.com/pwncone/CVE-2003-0264-SLmail-5.5)
-- [SxNade/CVE-2003-0264_EXPLOIT](https://github.com/SxNade/CVE-2003-0264_EXPLOIT)
+- [vrikodar/CVE-2003-0264_EXPLOIT](https://github.com/vrikodar/CVE-2003-0264_EXPLOIT)
 - [nobodyatall648/CVE-2003-0264](https://github.com/nobodyatall648/CVE-2003-0264)
 
 ### CVE-2003-0282 (2003-05-14)
