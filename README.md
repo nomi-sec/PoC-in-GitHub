@@ -4141,6 +4141,74 @@
 ### CVE-2023-44061
 - [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
 
+### CVE-2023-44758 (2023-10-06)
+
+<code>GDidees CMS 3.0 is affected by a Cross-Site Scripting (XSS) vulnerability that allows attackers to execute arbitrary code via a crafted payload to the Page Title.
+</code>
+
+- [sromanhu/CVE-2023-44758_GDidees-CMS-Stored-XSS---Title](https://github.com/sromanhu/CVE-2023-44758_GDidees-CMS-Stored-XSS---Title)
+
+### CVE-2023-44760
+- [sromanhu/CVE-2023-44760_ConcreteCMS-Stored-XSS---TrackingCodes](https://github.com/sromanhu/CVE-2023-44760_ConcreteCMS-Stored-XSS---TrackingCodes)
+
+### CVE-2023-44761 (2023-10-06)
+
+<code>Multiple Cross Site Scripting (XSS) vulnerabilities in Concrete CMS v.9.2.1 allow a local attacker to execute arbitrary code via a crafted script to the Forms of the Data objects.
+</code>
+
+- [sromanhu/CVE-2023-44761_ConcreteCMS-Stored-XSS---Forms](https://github.com/sromanhu/CVE-2023-44761_ConcreteCMS-Stored-XSS---Forms)
+
+### CVE-2023-44762 (2023-10-06)
+
+<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS v.9.2.1 allows an attacker to execute arbitrary code via a crafted script to the Tags from Settings - Tags.
+</code>
+
+- [sromanhu/CVE-2023-44762_ConcreteCMS-Reflected-XSS---Tags](https://github.com/sromanhu/CVE-2023-44762_ConcreteCMS-Reflected-XSS---Tags)
+
+### CVE-2023-44763
+- [sromanhu/CVE-2023-44763_ConcreteCMS-Arbitrary-file-upload-Thumbnail](https://github.com/sromanhu/CVE-2023-44763_ConcreteCMS-Arbitrary-file-upload-Thumbnail)
+
+### CVE-2023-44764 (2023-10-06)
+
+<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS v.9.2.1 allows an attacker to execute arbitrary code via a crafted script to the SITE parameter from installation or in the Settings.
+</code>
+
+- [sromanhu/CVE-2023-44764_ConcreteCMS-Stored-XSS---Site_Installation](https://github.com/sromanhu/CVE-2023-44764_ConcreteCMS-Stored-XSS---Site_Installation)
+
+### CVE-2023-44765 (2023-10-06)
+
+<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS v.9.2.1 allows an attacker to execute arbitrary code via a crafted script to Plural Handle of the Data Objects from System &amp; Settings.
+</code>
+
+- [sromanhu/CVE-2023-44765_ConcreteCMS-Stored-XSS---Associations](https://github.com/sromanhu/CVE-2023-44765_ConcreteCMS-Stored-XSS---Associations)
+
+### CVE-2023-44766 (2023-10-06)
+
+<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS v.9.2.1 allows an attacker to execute arbitrary code via a crafted script to the SEO - Extra from Page Settings.
+</code>
+
+- [sromanhu/CVE-2023-44766_ConcreteCMS-Stored-XSS---SEO](https://github.com/sromanhu/CVE-2023-44766_ConcreteCMS-Stored-XSS---SEO)
+
+### CVE-2023-44767
+- [sromanhu/CVE-2023-44767_RiteCMS-File-Upload--XSS---Filemanager](https://github.com/sromanhu/CVE-2023-44767_RiteCMS-File-Upload--XSS---Filemanager)
+
+### CVE-2023-44769
+- [sromanhu/CVE-2023-44769_ZenarioCMS--Reflected-XSS---Alias](https://github.com/sromanhu/CVE-2023-44769_ZenarioCMS--Reflected-XSS---Alias)
+
+### CVE-2023-44770 (2023-10-06)
+
+<code>A Cross-Site Scripting (XSS) vulnerability in Zenario CMS v.9.4.59197 allows an attacker to execute arbitrary code via a crafted script to the Organizer - Spare alias.
+</code>
+
+- [sromanhu/CVE-2023-44770_ZenarioCMS--Reflected-XSS---Organizer-Alias](https://github.com/sromanhu/CVE-2023-44770_ZenarioCMS--Reflected-XSS---Organizer-Alias)
+
+### CVE-2023-44771 (2023-10-06)
+
+<code>A Cross-Site Scripting (XSS) vulnerability in Zenario CMS v.9.4.59197 allows a local attacker to execute arbitrary code via a crafted script to the Page Layout.
+</code>
+
+- [sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout](https://github.com/sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout)
+
 ### CVE-2023-44961
 - [ggb0n/CVE-2023-44961](https://github.com/ggb0n/CVE-2023-44961)
 
@@ -11332,6 +11400,7 @@
 - [UNICORDev/exploit-CVE-2021-3560](https://github.com/UNICORDev/exploit-CVE-2021-3560)
 - [asepsaepdin/CVE-2021-3560](https://github.com/asepsaepdin/CVE-2021-3560)
 - [pashayogi/ROOT-CVE-2021-3560](https://github.com/pashayogi/ROOT-CVE-2021-3560)
+- [TieuLong21Prosper/CVE-2021-3560](https://github.com/TieuLong21Prosper/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -35574,13 +35643,6 @@
 </code>
 
 - [alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200)
-
-### CVE-2002-0201 (2002-05-03)
-
-<code>Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
-</code>
-
-- [alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201)
 
 ### CVE-2002-0288 (2002-05-03)
 
