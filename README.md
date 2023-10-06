@@ -3948,7 +3948,11 @@
 
 - [b0marek/CVE-2023-43263](https://github.com/b0marek/CVE-2023-43263)
 
-### CVE-2023-43284
+### CVE-2023-43284 (2023-10-05)
+
+<code>An issue in D-Link Wireless MU-MIMO Gigabit AC1200 Router DIR-846 firmware version 100A53DBR-Retail allows a remote attacker to execute arbitrary code.
+</code>
+
 - [MateusTesser/CVE-2023-43284](https://github.com/MateusTesser/CVE-2023-43284)
 
 ### CVE-2023-43323 (2023-09-28)
@@ -3988,7 +3992,11 @@
 ### CVE-2023-43342
 - [sromanhu/CVE-2023-43342-Quick-CMS-Stored-XSS---Languages-Frontend](https://github.com/sromanhu/CVE-2023-43342-Quick-CMS-Stored-XSS---Languages-Frontend)
 
-### CVE-2023-43343
+### CVE-2023-43343 (2023-10-05)
+
+<code>Cross-site scripting (XSS) vulnerability in opensolution Quick CMS v.6.7 allows a local attacker to execute arbitrary code via a crafted script to the Files - Description parameter in the Pages Menu component.
+</code>
+
 - [sromanhu/CVE-2023-43343-Quick-CMS-Stored-XSS---Pages-Files](https://github.com/sromanhu/CVE-2023-43343-Quick-CMS-Stored-XSS---Pages-Files)
 
 ### CVE-2023-43344
@@ -5639,6 +5647,13 @@
 </code>
 
 - [DShankle/CVE-2022-22814_PoC](https://github.com/DShankle/CVE-2022-22814_PoC)
+
+### CVE-2022-22817 (2022-01-07)
+
+<code>PIL.ImageMath.eval in Pillow before 9.0.0 allows evaluation of arbitrary expressions, such as ones that use the Python exec method. A lambda expression could also be used,
+</code>
+
+- [JawadPy/CVE-2022-22817](https://github.com/JawadPy/CVE-2022-22817)
 
 ### CVE-2022-22818 (2022-02-02)
 
