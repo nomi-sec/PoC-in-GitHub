@@ -1085,6 +1085,13 @@
 
 - [smash8tap/CVE-2023-22490_PoC](https://github.com/smash8tap/CVE-2023-22490_PoC)
 
+### CVE-2023-22515 (2023-10-04)
+
+<code>Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances.\n\nAtlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue. \n\nFor more details, please review the linked advisory on this CVE.
+</code>
+
+- [ErikWynter/CVE-2023-22515-Scan](https://github.com/ErikWynter/CVE-2023-22515-Scan)
+
 ### CVE-2023-22551 (2023-01-01)
 
 <code>The FTP (aka &quot;Implementation of a simple FTP client and server&quot;) project through 96c1a35 allows remote attackers to cause a denial of service (memory consumption) by engaging in client activity, such as establishing and then terminating a connection. This occurs because malloc is used but free is not.
@@ -3095,7 +3102,11 @@
 
 - [Limesss/CVE-2023-36109](https://github.com/Limesss/CVE-2023-36109)
 
-### CVE-2023-36123
+### CVE-2023-36123 (-)
+
+<code>Directory Traversal vulnerability in Hex-Dragon Plain Craft Launcher 2 version Alpha 1.3.9, allows local attackers to execute arbitrary code and gain sensitive information.
+</code>
+
 - [9Bakabaka/CVE-2023-36123](https://github.com/9Bakabaka/CVE-2023-36123)
 
 ### CVE-2023-36143 (2023-06-29)
@@ -4138,7 +4149,11 @@
 
 - [sromanhu/CVE-2023-43879-RiteCMS-Stored-XSS---GlobalContent](https://github.com/sromanhu/CVE-2023-43879-RiteCMS-Stored-XSS---GlobalContent)
 
-### CVE-2023-44061
+### CVE-2023-44061 (2023-10-06)
+
+<code>File Upload vulnerability in Simple and Nice Shopping Cart Script v.1.0 allows a remote attacker to execute arbitrary code via the upload function in the edit profile component.
+</code>
+
 - [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
 
 ### CVE-2023-44758 (2023-10-06)
@@ -35643,6 +35658,13 @@
 </code>
 
 - [alt3kx/CVE-2002-0200](https://github.com/alt3kx/CVE-2002-0200)
+
+### CVE-2002-0201 (2002-05-03)
+
+<code>Cyberstop Web Server for Windows 0.1 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long HTTP GET request, possibly triggering a buffer overflow.
+</code>
+
+- [alt3kx/CVE-2002-0201](https://github.com/alt3kx/CVE-2002-0201)
 
 ### CVE-2002-0288 (2002-05-03)
 
