@@ -712,7 +712,6 @@
 <code>Heap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)
 </code>
 
-- [suhipek/CVE-2023-4863](https://github.com/suhipek/CVE-2023-4863)
 - [mistymntncop/CVE-2023-4863](https://github.com/mistymntncop/CVE-2023-4863)
 - [bbaranoff/CVE-2023-4863](https://github.com/bbaranoff/CVE-2023-4863)
 - [talbeerysec/BAD-WEBP-CVE-2023-4863](https://github.com/talbeerysec/BAD-WEBP-CVE-2023-4863)
