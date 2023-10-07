@@ -3102,7 +3102,7 @@
 
 - [Limesss/CVE-2023-36109](https://github.com/Limesss/CVE-2023-36109)
 
-### CVE-2023-36123 (-)
+### CVE-2023-36123 (2023-10-06)
 
 <code>Directory Traversal vulnerability in Hex-Dragon Plain Craft Launcher 2 version Alpha 1.3.9, allows local attackers to execute arbitrary code and gain sensitive information.
 </code>
@@ -4223,6 +4223,15 @@
 </code>
 
 - [sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout](https://github.com/sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout)
+
+### CVE-2023-44811
+- [ahrixia/CVE-2023-44811](https://github.com/ahrixia/CVE-2023-44811)
+
+### CVE-2023-44812
+- [ahrixia/CVE-2023-44812](https://github.com/ahrixia/CVE-2023-44812)
+
+### CVE-2023-44813
+- [ahrixia/CVE-2023-44813](https://github.com/ahrixia/CVE-2023-44813)
 
 ### CVE-2023-44961
 - [ggb0n/CVE-2023-44961](https://github.com/ggb0n/CVE-2023-44961)
@@ -15691,6 +15700,7 @@
 - [cxaqhq/CVE-2021-43471](https://github.com/cxaqhq/CVE-2021-43471)
 
 ### CVE-2021-43503
+- [guoyanan1g/Laravel-vul](https://github.com/guoyanan1g/Laravel-vul)
 - [kang8/CVE-2021-43503](https://github.com/kang8/CVE-2021-43503)
 
 ### CVE-2021-43515 (2022-04-08)
