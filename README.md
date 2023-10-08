@@ -727,6 +727,7 @@
 - [Green-Avocado/CVE-2023-4911](https://github.com/Green-Avocado/CVE-2023-4911)
 - [leesh3288/CVE-2023-4911](https://github.com/leesh3288/CVE-2023-4911)
 - [RickdeJager/CVE-2023-4911](https://github.com/RickdeJager/CVE-2023-4911)
+- [xiaoQ1z/CVE-2023-4911](https://github.com/xiaoQ1z/CVE-2023-4911)
 
 ### CVE-2023-5024 (2023-09-17)
 
