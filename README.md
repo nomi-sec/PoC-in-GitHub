@@ -3521,6 +3521,7 @@
 - [robotmikhro/CVE-2023-38646](https://github.com/robotmikhro/CVE-2023-38646)
 - [kh4sh3i/CVE-2023-38646](https://github.com/kh4sh3i/CVE-2023-38646)
 - [joaoviictorti/CVE-2023-38646](https://github.com/joaoviictorti/CVE-2023-38646)
+- [yxl2001/CVE-2023-38646](https://github.com/yxl2001/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
