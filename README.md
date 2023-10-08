@@ -3423,6 +3423,13 @@
 - [d0rb/CVE-2023-37979](https://github.com/d0rb/CVE-2023-37979)
 - [codeb0ss/CVE-2023-37979](https://github.com/codeb0ss/CVE-2023-37979)
 
+### CVE-2023-37988 (2023-08-10)
+
+<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Creative Solutions Contact Form Generator plugin &lt;= 2.5.5 versions.
+</code>
+
+- [codeb0ss/CVE-2023-37988-PoC](https://github.com/codeb0ss/CVE-2023-37988-PoC)
+
 ### CVE-2023-38035 (2023-08-21)
 
 <code>A security vulnerability in MICS Admin Portal in Ivanti MobileIron Sentry versions 9.18.0 and below, which may allow an attacker to bypass authentication controls on the administrative interface due to an insufficiently restrictive Apache HTTPD configuration. 
@@ -3512,6 +3519,7 @@
 - [Any3ite/cve-2023-38646-metabase-ReverseShell](https://github.com/Any3ite/cve-2023-38646-metabase-ReverseShell)
 - [robotmikhro/CVE-2023-38646](https://github.com/robotmikhro/CVE-2023-38646)
 - [kh4sh3i/CVE-2023-38646](https://github.com/kh4sh3i/CVE-2023-38646)
+- [joaoviictorti/CVE-2023-38646](https://github.com/joaoviictorti/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
