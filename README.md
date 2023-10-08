@@ -3522,6 +3522,7 @@
 - [kh4sh3i/CVE-2023-38646](https://github.com/kh4sh3i/CVE-2023-38646)
 - [joaoviictorti/CVE-2023-38646](https://github.com/joaoviictorti/CVE-2023-38646)
 - [yxl2001/CVE-2023-38646](https://github.com/yxl2001/CVE-2023-38646)
+- [alexandre-pecorilla/CVE-2023-38646](https://github.com/alexandre-pecorilla/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -30239,6 +30240,7 @@
 - [Al1ex/CVE-2017-10271](https://github.com/Al1ex/CVE-2017-10271)
 - [pizza-power/weblogic-CVE-2019-2729-POC](https://github.com/pizza-power/weblogic-CVE-2019-2729-POC)
 - [KKsdall/7kbstormq](https://github.com/KKsdall/7kbstormq)
+- [Min-yeon/CVE-2017-10271](https://github.com/Min-yeon/CVE-2017-10271)
 
 ### CVE-2017-10274 (2017-10-19)
 
@@ -35552,13 +35554,6 @@
 </code>
 
 - [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
-
-### CVE-2005-3299 (2005-10-23)
-
-<code>PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
-</code>
-
-- [RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299)
 
 
 ## 2004
