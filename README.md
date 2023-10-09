@@ -3961,7 +3961,6 @@
 </code>
 
 - [wh-gov/CVE-2023-42820](https://github.com/wh-gov/CVE-2023-42820)
-- [h4m5t/CVE-2023-42820](https://github.com/h4m5t/CVE-2023-42820)
 
 ### CVE-2023-43115 (2023-09-18)
 
