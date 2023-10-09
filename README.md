@@ -728,6 +728,7 @@
 - [leesh3288/CVE-2023-4911](https://github.com/leesh3288/CVE-2023-4911)
 - [RickdeJager/CVE-2023-4911](https://github.com/RickdeJager/CVE-2023-4911)
 - [xiaoQ1z/CVE-2023-4911](https://github.com/xiaoQ1z/CVE-2023-4911)
+- [0xtrace/CVE-2023-4911-Looney-Tunables-](https://github.com/0xtrace/CVE-2023-4911-Looney-Tunables-)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -891,6 +892,13 @@
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
 - [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
 - [lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect)
+
+### CVE-2023-21246 (2023-07-12)
+
+<code>In ShortcutInfo of ShortcutInfo.java, there is a possible way for an app to retain notification listening access due to an uncaught exception. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21246](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21246)
 
 ### CVE-2023-21272 (2023-08-14)
 
@@ -35363,7 +35371,6 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
-- [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
 - [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
