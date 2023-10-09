@@ -893,6 +893,13 @@
 - [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
 - [lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect)
 
+### CVE-2023-21238 (2023-07-12)
+
+<code>In visitUris of RemoteViews.java, there is a possible leak of images between users due to a confused deputy. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21238](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21238)
+
 ### CVE-2023-21246 (2023-07-12)
 
 <code>In ShortcutInfo of ShortcutInfo.java, there is a possible way for an app to retain notification listening access due to an uncaught exception. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
@@ -1099,6 +1106,7 @@
 </code>
 
 - [ErikWynter/CVE-2023-22515-Scan](https://github.com/ErikWynter/CVE-2023-22515-Scan)
+- [w33ys/CVE-2023-22515-RCE](https://github.com/w33ys/CVE-2023-22515-RCE)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -4932,7 +4940,7 @@
 
 - [superhac/CVE-2022-2414-POC](https://github.com/superhac/CVE-2022-2414-POC)
 - [amitlttwo/CVE-2022-2414-Proof-Of-Concept](https://github.com/amitlttwo/CVE-2022-2414-Proof-Of-Concept)
-- [strikersatya/CVE-2022-2414](https://github.com/strikersatya/CVE-2022-2414)
+- [satyasai1460/CVE-2022-2414](https://github.com/satyasai1460/CVE-2022-2414)
 
 ### CVE-2022-2466 (2022-08-31)
 
@@ -6917,6 +6925,7 @@
 - [redhuntlabs/ConfluentPwn](https://github.com/redhuntlabs/ConfluentPwn)
 - [cai-niao98/CVE-2022-26134](https://github.com/cai-niao98/CVE-2022-26134)
 - [sunny-kathuria/exploit_CVE-2022-26134](https://github.com/sunny-kathuria/exploit_CVE-2022-26134)
+- [KeepWannabe/BotCon](https://github.com/KeepWannabe/BotCon)
 - [AmoloHT/CVE-2022-26134](https://github.com/AmoloHT/CVE-2022-26134)
 - [kh4sh3i/CVE-2022-26134](https://github.com/kh4sh3i/CVE-2022-26134)
 - [ColdFusionX/CVE-2022-26134](https://github.com/ColdFusionX/CVE-2022-26134)
@@ -8337,13 +8346,6 @@
 </code>
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
-
-### CVE-2022-32548 (2022-08-29)
-
-<code>An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
-</code>
-
-- [gl3s7/CVE-2022-32548-PoC](https://github.com/gl3s7/CVE-2022-32548-PoC)
 
 ### CVE-2022-32832 (2022-09-23)
 
@@ -19550,6 +19552,13 @@
 
 - [BeetleChunks/CVE-2020-12116](https://github.com/BeetleChunks/CVE-2020-12116)
 
+### CVE-2020-12124 (2020-10-02)
+
+<code>A remote command-line injection vulnerability in the /cgi-bin/live_api.cgi endpoint of the WAVLINK WN530H4 M30H4.V5030.190403 allows an attacker to execute arbitrary Linux commands as root without authentication.
+</code>
+
+- [db44k/CVE-2020-12124](https://github.com/db44k/CVE-2020-12124)
+
 ### CVE-2020-12255 (2020-05-18)
 
 <code>rConfig 3.9.4 is vulnerable to remote code execution due to improper validation in the file upload functionality. vendor.crud.php accepts a file upload by checking content-type without considering the file extension and header. Thus, an attacker can exploit this by uploading a .php file to vendor.php that contains arbitrary PHP code and changing the content-type to image/gif.
@@ -23307,7 +23316,6 @@
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
 - [crypticdante/CVE-2019-9053](https://github.com/crypticdante/CVE-2019-9053)
 - [maraspiras/46635.py](https://github.com/maraspiras/46635.py)
-- [e-renna/CVE-2019-9053](https://github.com/e-renna/CVE-2019-9053)
 - [zmiddle/Simple_CMS_SQLi](https://github.com/zmiddle/Simple_CMS_SQLi)
 - [ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit](https://github.com/ELIZEUOPAIN/CVE-2019-9053-CMS-Made-Simple-2.2.10---SQL-Injection-Exploit)
 - [pedrojosenavasperez/CVE-2019-9053-Python3](https://github.com/pedrojosenavasperez/CVE-2019-9053-Python3)
@@ -26375,6 +26383,13 @@
 </code>
 
 - [sischkg/cve-2018-5740](https://github.com/sischkg/cve-2018-5740)
+
+### CVE-2018-5767 (2018-02-15)
+
+<code>An issue was discovered on Tenda AC15 V15.03.1.16_multi devices. A remote, unauthenticated attacker can gain remote code execution on the device with a crafted password parameter for the COOKIE header.
+</code>
+
+- [db44k/CVE-2018-5767-AC9](https://github.com/db44k/CVE-2018-5767-AC9)
 
 ### CVE-2018-5873 (2018-07-06)
 
@@ -35371,6 +35386,7 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
+- [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
 - [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
