@@ -737,6 +737,7 @@
 - [RickdeJager/CVE-2023-4911](https://github.com/RickdeJager/CVE-2023-4911)
 - [xiaoQ1z/CVE-2023-4911](https://github.com/xiaoQ1z/CVE-2023-4911)
 - [0xtrace/CVE-2023-4911-Looney-Tunables-](https://github.com/0xtrace/CVE-2023-4911-Looney-Tunables-)
+- [silent6trinity/looney-tuneables](https://github.com/silent6trinity/looney-tuneables)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -2008,6 +2009,7 @@
 
 - [Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357)
 - [LuemmelSec/CVE-2023-29357](https://github.com/LuemmelSec/CVE-2023-29357)
+- [KeyStrOke95/CVE-2023-29357-ExE](https://github.com/KeyStrOke95/CVE-2023-29357-ExE)
 
 ### CVE-2023-29360 (2023-06-13)
 
@@ -3230,6 +3232,20 @@
 - [jakabakos/CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
 - [winkler-winsen/Scan_GhostScript](https://github.com/winkler-winsen/Scan_GhostScript)
 
+### CVE-2023-36723 (-)
+
+<code>Windows Container Manager Service Elevation of Privilege Vulnerability
+</code>
+
+- [Wh04m1001/CVE-2023-36723](https://github.com/Wh04m1001/CVE-2023-36723)
+
+### CVE-2023-36802 (2023-09-12)
+
+<code>Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability
+</code>
+
+- [chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802](https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802)
+
 ### CVE-2023-36812 (2023-06-30)
 
 <code>OpenTSDB is a open source, distributed, scalable Time Series Database (TSDB). OpenTSDB is vulnerable to Remote Code Execution vulnerability by writing user-controlled input to Gnuplot configuration file and running Gnuplot with the generated configuration. This issue has been patched in  commit `07c4641471c` and further refined in commit `fa88d3e4b`. These patches are available in the `2.4.2` release. Users are advised to upgrade. User unable to upgrade may disable Gunuplot via the config option`tsd.core.enable_ui = true` and remove the shell files `mygnuplot.bat` and `mygnuplot.sh`.
@@ -4207,6 +4223,13 @@
 </code>
 
 - [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
+
+### CVE-2023-44487 (2023-10-10)
+
+<code>The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
+</code>
+
+- [bcdannyboy/CVE-2023-44487](https://github.com/bcdannyboy/CVE-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
