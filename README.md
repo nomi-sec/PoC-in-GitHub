@@ -3985,6 +3985,7 @@
 </code>
 
 - [wh-gov/CVE-2023-42820](https://github.com/wh-gov/CVE-2023-42820)
+- [C1ph3rX13/CVE-2023-42820](https://github.com/C1ph3rX13/CVE-2023-42820)
 
 ### CVE-2023-43115 (2023-09-18)
 
@@ -28991,7 +28992,6 @@
 </code>
 
 - [shaheemirza/CVE-2017-0213-](https://github.com/shaheemirza/CVE-2017-0213-)
-- [zcgonvh/CVE-2017-0213](https://github.com/zcgonvh/CVE-2017-0213)
 - [billa3283/CVE-2017-0213](https://github.com/billa3283/CVE-2017-0213)
 - [likescam/CVE-2017-0213](https://github.com/likescam/CVE-2017-0213)
 - [jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213)
@@ -29415,7 +29415,6 @@
 - [sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638](https://github.com/sUbc0ol/Apache-Struts2-RCE-Exploit-v2-CVE-2017-5638)
 - [R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-](https://github.com/R4v3nBl4ck/Apache-Struts-2-CVE-2017-5638-Exploit-)
 - [Xhendos/CVE-2017-5638](https://github.com/Xhendos/CVE-2017-5638)
-- [TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner](https://github.com/TamiiLambrado/Apache-Struts-CVE-2017-5638-RCE-Mass-Scanner)
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
@@ -31132,7 +31131,6 @@
 
 - [pimps/CVE-2017-1000486](https://github.com/pimps/CVE-2017-1000486)
 - [mogwailabs/CVE-2017-1000486](https://github.com/mogwailabs/CVE-2017-1000486)
-- [cved-sources/cve-2017-1000486](https://github.com/cved-sources/cve-2017-1000486)
 - [Pastea/CVE-2017-1000486](https://github.com/Pastea/CVE-2017-1000486)
 - [oppsec/pwnfaces](https://github.com/oppsec/pwnfaces)
 
@@ -32410,10 +32408,8 @@
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
-- [1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
-- [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
 
 ### CVE-2015-0311 (2015-01-23)
 
@@ -34715,13 +34711,6 @@
 
 - [jan0/isslfix](https://github.com/jan0/isslfix)
 
-### CVE-2011-1237 (2011-04-13)
-
-<code>Use-after-free vulnerability in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 allows local users to gain privileges via a crafted application that leverages incorrect driver object management, a different vulnerability than other &quot;Vulnerability Type 1&quot; CVEs listed in MS11-034, aka &quot;Win32k Use After Free Vulnerability.&quot;
-</code>
-
-- [BrunoPujos/CVE-2011-1237](https://github.com/BrunoPujos/CVE-2011-1237)
-
 ### CVE-2011-1249 (2011-06-16)
 
 <code>The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
@@ -34773,19 +34762,11 @@
 
 - [nbeguier/postfix_exploit](https://github.com/nbeguier/postfix_exploit)
 
-### CVE-2011-1974 (2011-08-10)
-
-<code>NDISTAPI.sys in the NDISTAPI driver in Remote Access Service (RAS) in Microsoft Windows XP SP2 and SP3 and Windows Server 2003 SP2 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;NDISTAPI Elevation of Privilege Vulnerability.&quot;
-</code>
-
-- [hittlle/CVE-2011-1974-PoC](https://github.com/hittlle/CVE-2011-1974-PoC)
-
 ### CVE-2011-2461 (2011-12-01)
 
 <code>Cross-site scripting (XSS) vulnerability in the Adobe Flex SDK 3.x and 4.x before 4.6 allows remote attackers to inject arbitrary web script or HTML via vectors related to the loading of modules from different domains.
 </code>
 
-- [ikkisoft/ParrotNG](https://github.com/ikkisoft/ParrotNG)
 - [u-maxx/magento-swf-patched-CVE-2011-2461](https://github.com/u-maxx/magento-swf-patched-CVE-2011-2461)
 - [edmondscommerce/CVE-2011-2461_Magento_Patch](https://github.com/edmondscommerce/CVE-2011-2461_Magento_Patch)
 
@@ -34812,13 +34793,6 @@
 
 - [pwntester/SpringBreaker](https://github.com/pwntester/SpringBreaker)
 
-### CVE-2011-3026 (2012-02-16)
-
-<code>Integer overflow in libpng, as used in Google Chrome before 17.0.963.56, allows remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors that trigger an integer truncation.
-</code>
-
-- [argp/cve-2011-3026-firefox](https://github.com/argp/cve-2011-3026-firefox)
-
 ### CVE-2011-3192 (2011-08-29)
 
 <code>The byterange filter in the Apache HTTP Server 1.3.x, 2.0.x through 2.0.64, and 2.2.x through 2.2.19 allows remote attackers to cause a denial of service (memory and CPU consumption) via a Range header that expresses multiple overlapping ranges, as exploited in the wild in August 2011, a different vulnerability than CVE-2007-0086.
@@ -34834,7 +34808,6 @@
 <code>The mod_proxy module in the Apache HTTP Server 1.3.x through 1.3.42, 2.0.x through 2.0.64, and 2.2.x through 2.2.21 does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers via a malformed URI containing an initial @ (at sign) character.
 </code>
 
-- [SECFORCE/CVE-2011-3368](https://github.com/SECFORCE/CVE-2011-3368)
 - [colorblindpentester/CVE-2011-3368](https://github.com/colorblindpentester/CVE-2011-3368)
 
 ### CVE-2011-3389 (2011-09-06)
@@ -34858,13 +34831,6 @@
 
 - [puppetlabs-toy-chest/puppetlabs-cve20113872](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872)
 
-### CVE-2011-4107 (2011-11-17)
-
-<code>The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
-</code>
-
-- [SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107)
-
 ### CVE-2011-4862 (2011-12-24)
 
 <code>Buffer overflow in libtelnet/encrypt.c in telnetd in FreeBSD 7.3 through 9.0, MIT Kerberos Version 5 Applications (aka krb5-appl) 1.0.2 and earlier, Heimdal 1.5.1 and earlier, GNU inetutils, and possibly other products allows remote attackers to execute arbitrary code via a long encryption key, as exploited in the wild in December 2011.
@@ -34873,13 +34839,6 @@
 - [hdbreaker/GO-CVE-2011-4862](https://github.com/hdbreaker/GO-CVE-2011-4862)
 - [lol-fi/cve-2011-4862](https://github.com/lol-fi/cve-2011-4862)
 - [kpawar2410/CVE-2011-4862](https://github.com/kpawar2410/CVE-2011-4862)
-
-### CVE-2011-4919 (2019-11-19)
-
-<code>mpack 1.6 has information disclosure via eavesdropping on mails sent by other users
-</code>
-
-- [hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper)
 
 ### CVE-2011-5331 (2019-11-18)
 
