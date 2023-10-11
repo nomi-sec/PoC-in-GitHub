@@ -302,6 +302,13 @@
 
 - [daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin)
 
+### CVE-2023-2215 (2023-04-21)
+
+<code>Es wurde eine kritische Schwachstelle in Campcodes Coffee Shop POS System 1.0 entdeckt. Es betrifft eine unbekannte Funktion der Datei /admin/user/manage_user.php. Mittels Manipulieren des Arguments id mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [zwxxb/CVE-2023-2215](https://github.com/zwxxb/CVE-2023-2215)
+
 ### CVE-2023-2249 (2023-06-09)
 
 <code>The wpForo Forum plugin for WordPress is vulnerable to Local File Include, Server-Side Request Forgery, and PHAR Deserialization in versions up to, and including, 2.1.7. This is due to the insecure use of file_get_contents without appropriate verification of the data being supplied to the function. This makes it possible for authenticated attackers, with minimal permissions such as a subscriber, to retrieve the contents of files like wp-config.php hosted on the system, perform a deserialization attack and possibly achieve remote code execution, and make requests to internal services.
@@ -769,6 +776,13 @@
 
 - [nomis/eero-zero-length-ipv6-options-header-dos](https://github.com/nomis/eero-zero-length-ipv6-options-header-dos)
 
+### CVE-2023-5521 (2023-10-11)
+
+<code>Incorrect Authorization in GitHub repository tiann/kernelsu prior to v0.6.9.
+</code>
+
+- [Ylarod/CVE-2023-5521](https://github.com/Ylarod/CVE-2023-5521)
+
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
@@ -1119,6 +1133,8 @@
 - [r4p70rs/CVE-2023-22515-PoC](https://github.com/r4p70rs/CVE-2023-22515-PoC)
 - [j3seer/CVE-2023-22515-POC](https://github.com/j3seer/CVE-2023-22515-POC)
 - [Chocapikk/CVE-2023-22515](https://github.com/Chocapikk/CVE-2023-22515)
+- [ad-calcium/CVE-2023-22515](https://github.com/ad-calcium/CVE-2023-22515)
+- [kh4sh3i/CVE-2023-22515](https://github.com/kh4sh3i/CVE-2023-22515)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -3541,6 +3557,9 @@
 </code>
 
 - [codeb0ss/CVE-2023-38501-Exploit](https://github.com/codeb0ss/CVE-2023-38501-Exploit)
+
+### CVE-2023-38545
+- [UTsweetyfish/CVE-2023-38545](https://github.com/UTsweetyfish/CVE-2023-38545)
 
 ### CVE-2023-38571 (2023-07-28)
 
