@@ -736,8 +736,8 @@
 - [leesh3288/CVE-2023-4911](https://github.com/leesh3288/CVE-2023-4911)
 - [RickdeJager/CVE-2023-4911](https://github.com/RickdeJager/CVE-2023-4911)
 - [xiaoQ1z/CVE-2023-4911](https://github.com/xiaoQ1z/CVE-2023-4911)
-- [0xtrace/CVE-2023-4911-Looney-Tunables-](https://github.com/0xtrace/CVE-2023-4911-Looney-Tunables-)
 - [silent6trinity/looney-tuneables](https://github.com/silent6trinity/looney-tuneables)
+- [hadrian3689/looney-tunables-CVE-2023-4911](https://github.com/hadrian3689/looney-tunables-CVE-2023-4911)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -1116,6 +1116,8 @@
 
 - [ErikWynter/CVE-2023-22515-Scan](https://github.com/ErikWynter/CVE-2023-22515-Scan)
 - [r4p70rs/CVE-2023-22515-PoC](https://github.com/r4p70rs/CVE-2023-22515-PoC)
+- [j3seer/CVE-2023-22515-POC](https://github.com/j3seer/CVE-2023-22515-POC)
+- [Chocapikk/CVE-2023-22515](https://github.com/Chocapikk/CVE-2023-22515)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -3232,7 +3234,7 @@
 - [jakabakos/CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
 - [winkler-winsen/Scan_GhostScript](https://github.com/winkler-winsen/Scan_GhostScript)
 
-### CVE-2023-36723 (-)
+### CVE-2023-36723 (2023-10-10)
 
 <code>Windows Container Manager Service Elevation of Privilege Vulnerability
 </code>
