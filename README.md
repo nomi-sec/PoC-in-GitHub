@@ -758,6 +758,7 @@
 <code>Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
 </code>
 
+- [wrv/cve-2023-5217-poc](https://github.com/wrv/cve-2023-5217-poc)
 - [Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.8.0_CVE-2023-5217)
 - [Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217](https://github.com/Trinadh465/platform_external_libvpx_v1.4.0_CVE-2023-5217)
 
@@ -3576,6 +3577,7 @@
 - [yxl2001/CVE-2023-38646](https://github.com/yxl2001/CVE-2023-38646)
 - [alexandre-pecorilla/CVE-2023-38646](https://github.com/alexandre-pecorilla/CVE-2023-38646)
 - [CN016/Metabase-H2-CVE-2023-38646-](https://github.com/CN016/Metabase-H2-CVE-2023-38646-)
+- [Boogipop/MetabaseRceTools](https://github.com/Boogipop/MetabaseRceTools)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4022,6 +4024,7 @@
 
 - [wh-gov/CVE-2023-42820](https://github.com/wh-gov/CVE-2023-42820)
 - [C1ph3rX13/CVE-2023-42820](https://github.com/C1ph3rX13/CVE-2023-42820)
+- [Startr4ck/cve-2023-42820](https://github.com/Startr4ck/cve-2023-42820)
 
 ### CVE-2023-43115 (2023-09-18)
 
@@ -4232,6 +4235,7 @@
 </code>
 
 - [bcdannyboy/CVE-2023-44487](https://github.com/bcdannyboy/CVE-2023-44487)
+- [imabee101/CVE-2023-44487](https://github.com/imabee101/CVE-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -14074,6 +14078,7 @@
 
 - [RandomRobbieBF/CVE-2021-34621](https://github.com/RandomRobbieBF/CVE-2021-34621)
 - [K3ysTr0K3R/CVE-2021-34621-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-34621-EXPLOIT)
+- [navreet1425/CVE-2021-34621](https://github.com/navreet1425/CVE-2021-34621)
 
 ### CVE-2021-34646 (2021-08-30)
 
