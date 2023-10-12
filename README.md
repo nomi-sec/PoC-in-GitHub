@@ -784,6 +784,9 @@
 
 - [Ylarod/CVE-2023-5521](https://github.com/Ylarod/CVE-2023-5521)
 
+### CVE-2023-5538
+- [juweihuitao/MpOperationLogs](https://github.com/juweihuitao/MpOperationLogs)
+
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
@@ -931,6 +934,13 @@
 </code>
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21246](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21246)
+
+### CVE-2023-21251 (2023-07-12)
+
+<code>In onCreate of ConfirmDialog.java, there is a possible way to connect to VNP bypassing user's consent due to improper input validation. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.\n\n
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21251](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21251)
 
 ### CVE-2023-21272 (2023-08-14)
 
@@ -1135,6 +1145,7 @@
 - [Chocapikk/CVE-2023-22515](https://github.com/Chocapikk/CVE-2023-22515)
 - [ad-calcium/CVE-2023-22515](https://github.com/ad-calcium/CVE-2023-22515)
 - [kh4sh3i/CVE-2023-22515](https://github.com/kh4sh3i/CVE-2023-22515)
+- [sincere9/CVE-2023-22515](https://github.com/sincere9/CVE-2023-22515)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -3567,6 +3578,8 @@
 
 ### CVE-2023-38545
 - [UTsweetyfish/CVE-2023-38545](https://github.com/UTsweetyfish/CVE-2023-38545)
+- [imfht/CVE-2023-38545](https://github.com/imfht/CVE-2023-38545)
+- [fatmo666/CVE-2023-38545-libcurl-SOCKS5-heap-buffer-overflow](https://github.com/fatmo666/CVE-2023-38545-libcurl-SOCKS5-heap-buffer-overflow)
 
 ### CVE-2023-38571 (2023-07-28)
 
@@ -3606,6 +3619,7 @@
 - [Boogipop/MetabaseRceTools](https://github.com/Boogipop/MetabaseRceTools)
 - [SUT0L/CVE-2023-38646](https://github.com/SUT0L/CVE-2023-38646)
 - [nickswink/CVE-2023-38646](https://github.com/nickswink/CVE-2023-38646)
+- [passwa11/CVE-2023-38646](https://github.com/passwa11/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4044,6 +4058,7 @@
 
 - [H454NSec/CVE-2023-42793](https://github.com/H454NSec/CVE-2023-42793)
 - [Zenmovie/CVE-2023-42793](https://github.com/Zenmovie/CVE-2023-42793)
+- [WhiteOwl-Pub/PoC-JetBrains-TeamCity-CVE-2023-42793](https://github.com/WhiteOwl-Pub/PoC-JetBrains-TeamCity-CVE-2023-42793)
 
 ### CVE-2023-42820 (2023-09-26)
 
@@ -4267,6 +4282,7 @@
 
 - [bcdannyboy/CVE-2023-44487](https://github.com/bcdannyboy/CVE-2023-44487)
 - [imabee101/CVE-2023-44487](https://github.com/imabee101/CVE-2023-44487)
+- [ByteHackr/CVE-2023-44487](https://github.com/ByteHackr/CVE-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -14246,9 +14262,6 @@
 </code>
 
 - [tcbutler320/CVE-2021-35956](https://github.com/tcbutler320/CVE-2021-35956)
-
-### CVE-2021-35975
-- [trump88/CVE-2021-35975](https://github.com/trump88/CVE-2021-35975)
 
 ### CVE-2021-36260 (2021-09-22)
 
@@ -25817,13 +25830,6 @@
 
 - [preempt/credssp](https://github.com/preempt/credssp)
 
-### CVE-2018-0952 (2018-08-15)
-
-<code>An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Collector allows file creation in arbitrary locations, aka &quot;Diagnostic Hub Standard Collector Elevation Of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Microsoft Visual Studio, Windows 10 Servers.
-</code>
-
-- [atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector)
-
 ### CVE-2018-0959 (2018-05-09)
 
 <code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka &quot;Hyper-V Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
@@ -27062,13 +27068,6 @@
 - [StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120)
 - [wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120)
 
-### CVE-2018-8172 (2018-07-10)
-
-<code>A remote code execution vulnerability exists in Visual Studio software when the software does not check the source markup of a file for an unbuilt project, aka &quot;Visual Studio Remote Code Execution Vulnerability.&quot; This affects Microsoft Visual Studio, Expression Blend 4.
-</code>
-
-- [SyFi/CVE-2018-8172](https://github.com/SyFi/CVE-2018-8172)
-
 ### CVE-2018-8174 (2018-05-09)
 
 <code>A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka &quot;Windows VBScript Engine Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
@@ -27338,7 +27337,6 @@
 </code>
 
 - [manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958](https://github.com/manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958)
-- [orangepirate/cve-2018-9948-9958-exp](https://github.com/orangepirate/cve-2018-9948-9958-exp)
 
 ### CVE-2018-9950 (2018-05-17)
 
@@ -28086,13 +28084,6 @@
 - [mclbn/docker-cve-2018-15473](https://github.com/mclbn/docker-cve-2018-15473)
 - [GaboLC98/userenum-CVE-2018-15473](https://github.com/GaboLC98/userenum-CVE-2018-15473)
 - [mrblue12-byte/CVE-2018-15473](https://github.com/mrblue12-byte/CVE-2018-15473)
-
-### CVE-2018-15499 (2018-08-24)
-
-<code>GEAR Software products that include GEARAspiWDM.sys, 2.2.5.0, allow local users to cause a denial of service (Race Condition and BSoD on Windows) by not checking that user-mode memory is available right before writing to it. A check is only performed at the beginning of a long subroutine.
-</code>
-
-- [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
 
 ### CVE-2018-15686 (2018-10-26)
 
