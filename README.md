@@ -1131,7 +1131,6 @@
 </code>
 
 - [ErikWynter/CVE-2023-22515-Scan](https://github.com/ErikWynter/CVE-2023-22515-Scan)
-- [r4p70rs/CVE-2023-22515-PoC](https://github.com/r4p70rs/CVE-2023-22515-PoC)
 - [j3seer/CVE-2023-22515-POC](https://github.com/j3seer/CVE-2023-22515-POC)
 - [Chocapikk/CVE-2023-22515](https://github.com/Chocapikk/CVE-2023-22515)
 - [ad-calcium/CVE-2023-22515](https://github.com/ad-calcium/CVE-2023-22515)
@@ -3122,13 +3121,6 @@
 
 - [lachlan2k/CVE-2023-35803](https://github.com/lachlan2k/CVE-2023-35803)
 
-### CVE-2023-35813 (2023-06-17)
-
-<code>Multiple Sitecore products allow remote code execution. This affects Experience Manager, Experience Platform, and Experience Commerce through 10.3.
-</code>
-
-- [un7n0wn/CVE-2023-35813-RCE](https://github.com/un7n0wn/CVE-2023-35813-RCE)
-
 ### CVE-2023-35828 (2023-06-18)
 
 <code>An issue was discovered in the Linux kernel before 6.3.2. A use-after-free was found in renesas_usb3_remove in drivers/usb/gadget/udc/renesas_usb3.c.
@@ -3613,6 +3605,7 @@
 - [CN016/Metabase-H2-CVE-2023-38646-](https://github.com/CN016/Metabase-H2-CVE-2023-38646-)
 - [Boogipop/MetabaseRceTools](https://github.com/Boogipop/MetabaseRceTools)
 - [SUT0L/CVE-2023-38646](https://github.com/SUT0L/CVE-2023-38646)
+- [nickswink/CVE-2023-38646](https://github.com/nickswink/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4068,6 +4061,9 @@
 
 - [jostaub/ghostscript-CVE-2023-43115](https://github.com/jostaub/ghostscript-CVE-2023-43115)
 
+### CVE-2023-43148
+- [MinoTauro2020/CVE-2023-43148](https://github.com/MinoTauro2020/CVE-2023-43148)
+
 ### CVE-2023-43154 (2023-09-26)
 
 <code>In Macrob7 Macs Framework Content Management System (CMS) 1.1.4f, loose comparison in &quot;isValidLogin()&quot; function during login attempt results in PHP type confusion vulnerability that leads to authentication bypass and takeover of the administrator account.
@@ -4365,10 +4361,18 @@
 
 - [ahrixia/CVE-2023-44813](https://github.com/ahrixia/CVE-2023-44813)
 
-### CVE-2023-44961
+### CVE-2023-44961 (2023-10-11)
+
+<code>SQL Injection vulnerability in Koha Library Software 23.0.5.04 and before allows a remote attacker to obtain sensitive information via the intranet/cgi bin/cataloging/ysearch.pl. component.
+</code>
+
 - [ggb0n/CVE-2023-44961](https://github.com/ggb0n/CVE-2023-44961)
 
-### CVE-2023-44962
+### CVE-2023-44962 (2023-10-11)
+
+<code>File Upload vulnerability in Koha Library Software 23.05.04 and before allows a remote attacker to read arbitrary files via the upload-cover-image.pl component.
+</code>
+
 - [ggb0n/CVE-2023-44962](https://github.com/ggb0n/CVE-2023-44962)
 
 ### CVE-2023-51504
@@ -31912,6 +31916,7 @@
 - [aishee/scan-dirtycow](https://github.com/aishee/scan-dirtycow)
 - [oleg-fiksel/ansible_CVE-2016-5195_check](https://github.com/oleg-fiksel/ansible_CVE-2016-5195_check)
 - [ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195)
+- [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
 - [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
@@ -32270,6 +32275,7 @@
 </code>
 
 - [sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870)
+- [rustyJ4ck/JoomlaCVE20168869](https://github.com/rustyJ4ck/JoomlaCVE20168869)
 - [cved-sources/cve-2016-8869](https://github.com/cved-sources/cve-2016-8869)
 
 ### CVE-2016-8870 (2016-11-04)
