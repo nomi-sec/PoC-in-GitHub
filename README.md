@@ -1176,6 +1176,8 @@
 - [kh4sh3i/CVE-2023-22515](https://github.com/kh4sh3i/CVE-2023-22515)
 - [sincere9/CVE-2023-22515](https://github.com/sincere9/CVE-2023-22515)
 - [Le1a/CVE-2023-22515](https://github.com/Le1a/CVE-2023-22515)
+- [Vulnmachines/confluence-cve-2023-22515](https://github.com/Vulnmachines/confluence-cve-2023-22515)
+- [iveresk/CVE-2023-22515](https://github.com/iveresk/CVE-2023-22515)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -1437,10 +1439,7 @@
 
 - [H4R335HR/CVE-2023-24329-PoC](https://github.com/H4R335HR/CVE-2023-24329-PoC)
 - [Pandante-Central/CVE-2023-24329-codeql-test](https://github.com/Pandante-Central/CVE-2023-24329-codeql-test)
-- [JawadPy/CVE-2023-24329](https://github.com/JawadPy/CVE-2023-24329)
-
-### CVE-2023-24362
-- [cavetownie/CVE-2023-24362](https://github.com/cavetownie/CVE-2023-24362)
+- [JawadPy/CVE-2023-24329-Exploit](https://github.com/JawadPy/CVE-2023-24329-Exploit)
 
 ### CVE-2023-24488 (2023-07-10)
 
@@ -2329,6 +2328,13 @@
 </code>
 
 - [jmrcsnchz/CVE-2023-30854](https://github.com/jmrcsnchz/CVE-2023-30854)
+
+### CVE-2023-30861 (2023-05-02)
+
+<code>Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches `Set-Cookie` headers, it may send one client's `session` cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.\n\n1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.\n2. The application sets `session.permanent = True`\n3. The application does not access or modify the session at any point during a request.\n4. `SESSION_REFRESH_EACH_REQUEST` enabled (the default).\n5. The application does not set a `Cache-Control` header to indicate that a page is private or should not be cached.\n\nThis happens because vulnerable versions of Flask only set the `Vary: Cookie` header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5.
+</code>
+
+- [JawadPy/CVE-2023-30861-Exploit](https://github.com/JawadPy/CVE-2023-30861-Exploit)
 
 ### CVE-2023-30943 (2023-05-02)
 
@@ -4268,7 +4274,7 @@
 <code>urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.
 </code>
 
-- [JawadPy/CVE-2023-43804](https://github.com/JawadPy/CVE-2023-43804)
+- [JawadPy/CVE-2023-43804-Exploit](https://github.com/JawadPy/CVE-2023-43804-Exploit)
 
 ### CVE-2023-43838 (2023-10-04)
 
@@ -5988,7 +5994,7 @@
 <code>PIL.ImageMath.eval in Pillow before 9.0.0 allows evaluation of arbitrary expressions, such as ones that use the Python exec method. A lambda expression could also be used,
 </code>
 
-- [JawadPy/CVE-2022-22817](https://github.com/JawadPy/CVE-2022-22817)
+- [JawadPy/CVE-2022-22817-Exploit](https://github.com/JawadPy/CVE-2022-22817-Exploit)
 
 ### CVE-2022-22818 (2022-02-02)
 
@@ -10556,13 +10562,6 @@
 - [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
 - [dhina016/CVE-2022-47986](https://github.com/dhina016/CVE-2022-47986)
 - [mauricelambert/CVE-2022-47986](https://github.com/mauricelambert/CVE-2022-47986)
-
-### CVE-2022-48150 (2023-04-21)
-
-<code>Shopware v5.5.10 was discovered to contain a cross-site scripting (XSS) vulnerability via the recovery/install/ URI.
-</code>
-
-- [sahilop123/-CVE-2022-48150](https://github.com/sahilop123/-CVE-2022-48150)
 
 ### CVE-2022-48194 (2022-12-30)
 
@@ -29542,7 +29541,6 @@
 - [R3K1NG/wpUsersScan](https://github.com/R3K1NG/wpUsersScan)
 - [GeunSam2/CVE-2017-5487](https://github.com/GeunSam2/CVE-2017-5487)
 - [patilkr/wp-CVE-2017-5487-exploit](https://github.com/patilkr/wp-CVE-2017-5487-exploit)
-- [kr4dd/CVE-2017-5487](https://github.com/kr4dd/CVE-2017-5487)
 - [zkhalidul/GrabberWP-CVE-2017-5487](https://github.com/zkhalidul/GrabberWP-CVE-2017-5487)
 - [SeasonLeague/CVE-2017-5487](https://github.com/SeasonLeague/CVE-2017-5487)
 - [Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM](https://github.com/Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM)
