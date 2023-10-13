@@ -3572,6 +3572,7 @@
 </code>
 
 - [gabe-k/themebleed](https://github.com/gabe-k/themebleed)
+- [Jnnshschl/CVE-2023-38146](https://github.com/Jnnshschl/CVE-2023-38146)
 
 ### CVE-2023-38388
 - [codeb0ss/CVE-2023-38388](https://github.com/codeb0ss/CVE-2023-38388)
@@ -4124,6 +4125,13 @@
 </code>
 
 - [jostaub/ghostscript-CVE-2023-43115](https://github.com/jostaub/ghostscript-CVE-2023-43115)
+
+### CVE-2023-43144 (2023-09-22)
+
+<code>Projectworldsl Assets-management-system-in-php 1.0 is vulnerable to SQL Injection via the &quot;id&quot; parameter in delete.php.
+</code>
+
+- [Pegasus0xx/CVE-2023-43144](https://github.com/Pegasus0xx/CVE-2023-43144)
 
 ### CVE-2023-43147 (2023-10-12)
 
@@ -10059,6 +10067,7 @@
 - [fanbyprinciple/ImageMagick-lfi-poc](https://github.com/fanbyprinciple/ImageMagick-lfi-poc)
 - [chairat095/CVE-2022-44268_By_Kyokito](https://github.com/chairat095/CVE-2022-44268_By_Kyokito)
 - [atici/Exploit-for-ImageMagick-CVE-2022-44268](https://github.com/atici/Exploit-for-ImageMagick-CVE-2022-44268)
+- [Vagebondcur/IMAGE-MAGICK-CVE-2022-44268](https://github.com/Vagebondcur/IMAGE-MAGICK-CVE-2022-44268)
 
 ### CVE-2022-44276 (2023-06-28)
 
@@ -10562,6 +10571,13 @@
 - [ohnonoyesyes/CVE-2022-47986](https://github.com/ohnonoyesyes/CVE-2022-47986)
 - [dhina016/CVE-2022-47986](https://github.com/dhina016/CVE-2022-47986)
 - [mauricelambert/CVE-2022-47986](https://github.com/mauricelambert/CVE-2022-47986)
+
+### CVE-2022-48150 (2023-04-21)
+
+<code>Shopware v5.5.10 was discovered to contain a cross-site scripting (XSS) vulnerability via the recovery/install/ URI.
+</code>
+
+- [sahilop123/-CVE-2022-48150](https://github.com/sahilop123/-CVE-2022-48150)
 
 ### CVE-2022-48194 (2022-12-30)
 
