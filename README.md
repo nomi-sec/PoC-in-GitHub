@@ -1869,6 +1869,7 @@
 - [Cyb3rEnthusiast/CVE-2023-27997](https://github.com/Cyb3rEnthusiast/CVE-2023-27997)
 - [lexfo/xortigate-cve-2023-27997](https://github.com/lexfo/xortigate-cve-2023-27997)
 - [delsploit/CVE-2023-27997](https://github.com/delsploit/CVE-2023-27997)
+- [Aicks/FortiGate-CVE-2023-27997](https://github.com/Aicks/FortiGate-CVE-2023-27997)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -4096,10 +4097,14 @@
 
 - [MinoTauro2020/CVE-2023-43147](https://github.com/MinoTauro2020/CVE-2023-43147)
 
-### CVE-2023-43148
+### CVE-2023-43148 (2023-10-12)
+
+<code>SPA-Cart 1.9.0.3 has a Cross Site Request Forgery (CSRF) vulnerability that allows a remote attacker to delete all accounts.
+</code>
+
 - [MinoTauro2020/CVE-2023-43148](https://github.com/MinoTauro2020/CVE-2023-43148)
 
-### CVE-2023-43149 (-)
+### CVE-2023-43149 (2023-10-12)
 
 <code>SPA-Cart 1.9.0.3 is vulnerable to Cross Site Request Forgery (CSRF) that allows a remote attacker to add an admin user with role status.
 </code>
@@ -4310,6 +4315,7 @@
 - [bcdannyboy/CVE-2023-44487](https://github.com/bcdannyboy/CVE-2023-44487)
 - [imabee101/CVE-2023-44487](https://github.com/imabee101/CVE-2023-44487)
 - [ByteHackr/CVE-2023-44487](https://github.com/ByteHackr/CVE-2023-44487)
+- [pabloec20/rapidreset](https://github.com/pabloec20/rapidreset)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -32552,8 +32558,10 @@
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
+- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
