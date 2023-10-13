@@ -581,6 +581,27 @@
 
 - [pray77/CVE-2023-3640](https://github.com/pray77/CVE-2023-3640)
 
+### CVE-2023-3710 (2023-09-12)
+
+<code>Improper Input Validation vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Command Injection.This issue affects PM43 versions prior to P10.19.050004. Update to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).\n\n
+</code>
+
+- [vpxuser/CVE-2023-3710-POC](https://github.com/vpxuser/CVE-2023-3710-POC)
+
+### CVE-2023-3711 (2023-09-12)
+
+<code>Session Fixation vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Session Credential Falsification through Prediction.This issue affects PM43 versions prior to P10.19.050004. Update to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).\n\n
+</code>
+
+- [vpxuser/CVE-2023-3711-POC](https://github.com/vpxuser/CVE-2023-3711-POC)
+
+### CVE-2023-3712 (2023-09-12)
+
+<code>Files or Directories Accessible to External Parties vulnerability in Honeywell PM43 on 32 bit, ARM (Printer web page modules) allows Privilege Escalation.This issue affects PM43 versions prior to P10.19.050004. \n\nUpdate to the latest available firmware version of the respective printers to version MR19.5 (e.g. P10.19.050006).\n\n
+</code>
+
+- [vpxuser/CVE-2023-3712-POC](https://github.com/vpxuser/CVE-2023-3712-POC)
+
 ### CVE-2023-3836 (2023-07-22)
 
 <code>In Dahua Smart Park Management bis 20230713 wurde eine Schwachstelle entdeckt. Sie wurde als kritisch eingestuft. Betroffen ist eine unbekannte Verarbeitung der Datei /emap/devicePoint_addImgIco?hasSubsystem=true. Durch Manipulation des Arguments upload mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -761,6 +782,13 @@
 </code>
 
 - [codeb0ss/CVE-2023-5074-PoC](https://github.com/codeb0ss/CVE-2023-5074-PoC)
+
+### CVE-2023-5142 (2023-09-24)
+
+<code>In H3C GR-1100-P, GR-1108-P, GR-1200W, GR-1800AX, GR-2200, GR-3200, GR-5200, GR-8300, ER2100n, ER2200G2, ER3200G2, ER3260G2, ER5100G2, ER5200G2 and ER6300G2 bis 20230908 wurde eine Schwachstelle entdeckt. Sie wurde als problematisch eingestuft. Dabei geht es um eine nicht genauer bekannte Funktion der Datei /userLogin.asp der Komponente Config File Handler. Durch das Beeinflussen mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Die Komplexität eines Angriffs ist eher hoch. Das Ausnutzen gilt als schwierig. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [yinsel/CVE-H3C-Report](https://github.com/yinsel/CVE-H3C-Report)
 
 ### CVE-2023-5217 (2023-09-28)
 
@@ -1147,6 +1175,7 @@
 - [ad-calcium/CVE-2023-22515](https://github.com/ad-calcium/CVE-2023-22515)
 - [kh4sh3i/CVE-2023-22515](https://github.com/kh4sh3i/CVE-2023-22515)
 - [sincere9/CVE-2023-22515](https://github.com/sincere9/CVE-2023-22515)
+- [Le1a/CVE-2023-22515](https://github.com/Le1a/CVE-2023-22515)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -3911,7 +3940,7 @@
 <code>An issue was discovered in Python 3.11 through 3.11.4. If a path containing '\0' bytes is passed to os.path.normpath(), the path will be truncated unexpectedly at the first '\0' byte. There are plausible cases in which an application would have rejected a filename for security reasons in Python 3.10.x or earlier, but that filename is no longer rejected in Python 3.11.x.
 </code>
 
-- [JawadPy/CVE-2023-41105](https://github.com/JawadPy/CVE-2023-41105)
+- [JawadPy/CVE-2023-41105-Exploit](https://github.com/JawadPy/CVE-2023-41105-Exploit)
 
 ### CVE-2023-41265 (2023-08-29)
 
@@ -4233,6 +4262,13 @@
 
 - [s3cb0y/CVE-2023-43770-POC](https://github.com/s3cb0y/CVE-2023-43770-POC)
 - [knight0x07/CVE-2023-43770-PoC](https://github.com/knight0x07/CVE-2023-43770-PoC)
+
+### CVE-2023-43804 (2023-10-04)
+
+<code>urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.
+</code>
+
+- [JawadPy/CVE-2023-43804](https://github.com/JawadPy/CVE-2023-43804)
 
 ### CVE-2023-43838 (2023-10-04)
 
