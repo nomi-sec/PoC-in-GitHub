@@ -587,6 +587,7 @@
 </code>
 
 - [vpxuser/CVE-2023-3710-POC](https://github.com/vpxuser/CVE-2023-3710-POC)
+- [Mahdi22228/CVE-2023-3710](https://github.com/Mahdi22228/CVE-2023-3710)
 
 ### CVE-2023-3711 (2023-09-12)
 
@@ -4066,6 +4067,7 @@
 </code>
 
 - [HolyGu/CVE-2023-42442](https://github.com/HolyGu/CVE-2023-42442)
+- [tarimoe/blackjump](https://github.com/tarimoe/blackjump)
 
 ### CVE-2023-42468 (2023-09-13)
 
