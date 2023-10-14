@@ -588,6 +588,7 @@
 
 - [vpxuser/CVE-2023-3710-POC](https://github.com/vpxuser/CVE-2023-3710-POC)
 - [Mahdi22228/CVE-2023-3710](https://github.com/Mahdi22228/CVE-2023-3710)
+- [CwEeR313/CVE-2023-3710](https://github.com/CwEeR313/CVE-2023-3710)
 
 ### CVE-2023-3711 (2023-09-12)
 
@@ -3664,6 +3665,7 @@
 - [nickswink/CVE-2023-38646](https://github.com/nickswink/CVE-2023-38646)
 - [passwa11/CVE-2023-38646](https://github.com/passwa11/CVE-2023-38646)
 - [threatHNTR/CVE-2023-38646](https://github.com/threatHNTR/CVE-2023-38646)
+- [asepsaepdin/CVE-2023-38646](https://github.com/asepsaepdin/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4477,6 +4479,9 @@
 </code>
 
 - [ggb0n/CVE-2023-44962](https://github.com/ggb0n/CVE-2023-44962)
+
+### CVE-2023-45471
+- [itsAptx/CVE-2023-45471](https://github.com/itsAptx/CVE-2023-45471)
 
 ### CVE-2023-45540
 - [soundarkutty/CVE-2023-45540](https://github.com/soundarkutty/CVE-2023-45540)
@@ -22914,13 +22919,6 @@
 
 - [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
-### CVE-2019-5454 (2019-07-30)
-
-<code>SQL Injection in the Nextcloud Android app prior to version 3.0.0 allows to destroy a local cache when a harmful query is executed requiring to resetup the account.
-</code>
-
-- [shanika04/nextcloud_android](https://github.com/shanika04/nextcloud_android)
-
 ### CVE-2019-5475 (2019-09-03)
 
 <code>The Nexus Yum Repository Plugin in v2 is vulnerable to Remote Code Execution when instances using CommandLineExecutor.java are supplied vulnerable data, such as the Yum Configuration Capability.
@@ -24710,13 +24708,6 @@
 
 - [jas502n/CVE-2019-14439](https://github.com/jas502n/CVE-2019-14439)
 
-### CVE-2019-14450 (2019-10-28)
-
-<code>A directory traversal vulnerability was discovered in RepetierServer.exe in Repetier-Server 0.8 through 0.91 that allows for the creation of a user controlled XML file at an unintended location. When this is combined with CVE-2019-14451, an attacker can upload an &quot;external command&quot; configuration as a printer configuration, and achieve remote code execution. After exploitation, loading of the external command configuration is dependent on a system reboot or service restart.
-</code>
-
-- [securifera/CVE-2019-14450](https://github.com/securifera/CVE-2019-14450)
-
 ### CVE-2019-14514 (2020-02-10)
 
 <code>An issue was discovered in Microvirt MEmu all versions prior to 7.0.2. A guest Android operating system inside the MEmu emulator contains a /system/bin/systemd binary that is run with root privileges on startup (this is unrelated to Red Hat's systemd init program, and is a closed-source proprietary tool that seems to be developed by Microvirt). This program opens TCP port 21509, presumably to receive installation-related commands from the host OS. Because everything after the installer:uninstall command is concatenated directly into a system() call, it is possible to execute arbitrary commands by supplying shell metacharacters.
@@ -24835,7 +24826,6 @@
 - [n0obit4/Webmin_1.890-POC](https://github.com/n0obit4/Webmin_1.890-POC)
 - [squid22/Webmin_CVE-2019-15107](https://github.com/squid22/Webmin_CVE-2019-15107)
 - [MuirlandOracle/CVE-2019-15107](https://github.com/MuirlandOracle/CVE-2019-15107)
-- [diegojuan/CVE-2019-15107](https://github.com/diegojuan/CVE-2019-15107)
 - [whokilleddb/CVE-2019-15107](https://github.com/whokilleddb/CVE-2019-15107)
 - [puckiestyle/CVE-2019-15107](https://github.com/puckiestyle/CVE-2019-15107)
 - [darrenmartyn/CVE-2019-15107](https://github.com/darrenmartyn/CVE-2019-15107)
@@ -25133,13 +25123,6 @@
 
 - [maxpl0it/CVE-2019-17026-Exploit](https://github.com/maxpl0it/CVE-2019-17026-Exploit)
 - [lsw29475/CVE-2019-17026](https://github.com/lsw29475/CVE-2019-17026)
-
-### CVE-2019-17041 (2019-10-07)
-
-<code>An issue was discovered in Rsyslog v8.1908.0. contrib/pmaixforwardedfrom/pmaixforwardedfrom.c has a heap overflow in the parser for AIX log messages. The parser tries to locate a log message delimiter (in this case, a space or a colon) but fails to account for strings that do not satisfy this constraint. If the string does not match, then the variable lenMsg will reach the value zero and will skip the sanity check that detects invalid log messages. The message will then be considered valid, and the parser will eat up the nonexistent colon delimiter. In doing so, it will decrement lenMsg, a signed integer, whose value was zero and now becomes minus one. The following step in the parser is to shift left the contents of the message. To do this, it will call memmove with the right pointers to the target and destination strings, but the lenMsg will now be interpreted as a huge value, causing a heap overflow.
-</code>
-
-- [Resery/CVE-2019-17041](https://github.com/Resery/CVE-2019-17041)
 
 ### CVE-2019-17080 (2019-10-02)
 
@@ -35620,9 +35603,6 @@
 
 - [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
-- [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
-- [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
-- [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
 - [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
@@ -35645,13 +35625,6 @@
 - [bdunlap9/CVE-2007-2447_python](https://github.com/bdunlap9/CVE-2007-2447_python)
 - [MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE)
 - [0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447)
-
-### CVE-2007-3830 (2007-07-17)
-
-<code>Cross-site scripting (XSS) vulnerability in alert.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to inject arbitrary web script or HTML via the reminder parameter.
-</code>
-
-- [alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830)
 
 ### CVE-2007-3831 (2007-07-17)
 
