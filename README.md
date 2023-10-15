@@ -1901,6 +1901,8 @@
 - [lexfo/xortigate-cve-2023-27997](https://github.com/lexfo/xortigate-cve-2023-27997)
 - [delsploit/CVE-2023-27997](https://github.com/delsploit/CVE-2023-27997)
 - [Aicks/FortiGate-CVE-2023-27997](https://github.com/Aicks/FortiGate-CVE-2023-27997)
+- [m474r5/CVE-2023-27997-POC](https://github.com/m474r5/CVE-2023-27997-POC)
+- [m474r5/CVE-2023-27997-findings](https://github.com/m474r5/CVE-2023-27997-findings)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -2952,7 +2954,6 @@
 - [Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362)
 - [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
 - [errorfiathck/MOVEit-Exploit](https://github.com/errorfiathck/MOVEit-Exploit)
-- [kor34N/CVE-2023-34362-mass](https://github.com/kor34N/CVE-2023-34362-mass)
 
 ### CVE-2023-34537 (2023-06-13)
 
@@ -4040,6 +4041,13 @@
 </code>
 
 - [zaenhaxor/CVE-2023-41892](https://github.com/zaenhaxor/CVE-2023-41892)
+
+### CVE-2023-41993 (2023-09-21)
+
+<code>The issue was addressed with improved checks. This issue is fixed in Safari 17, iOS 16.7 and iPadOS 16.7, macOS Sonoma 14. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
+</code>
+
+- [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
 
 ### CVE-2023-42222 (2023-09-27)
 
