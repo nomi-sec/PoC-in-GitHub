@@ -2952,6 +2952,7 @@
 - [Malwareman007/CVE-2023-34362](https://github.com/Malwareman007/CVE-2023-34362)
 - [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
 - [errorfiathck/MOVEit-Exploit](https://github.com/errorfiathck/MOVEit-Exploit)
+- [kor34N/CVE-2023-34362-mass](https://github.com/kor34N/CVE-2023-34362-mass)
 
 ### CVE-2023-34537 (2023-06-13)
 
@@ -3666,6 +3667,7 @@
 - [passwa11/CVE-2023-38646](https://github.com/passwa11/CVE-2023-38646)
 - [threatHNTR/CVE-2023-38646](https://github.com/threatHNTR/CVE-2023-38646)
 - [asepsaepdin/CVE-2023-38646](https://github.com/asepsaepdin/CVE-2023-38646)
+- [Pyr0sec/CVE-2023-38646](https://github.com/Pyr0sec/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4488,6 +4490,9 @@
 
 ### CVE-2023-45542
 - [ahrixia/CVE-2023-45542](https://github.com/ahrixia/CVE-2023-45542)
+
+### CVE-2023-45603
+- [codeb0ss/CVE-2023-45603-PoC](https://github.com/codeb0ss/CVE-2023-45603-PoC)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -8578,13 +8583,6 @@
 </code>
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
-
-### CVE-2022-32548 (2022-08-29)
-
-<code>An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
-</code>
-
-- [kor34N/CVE-2022-32548-mass](https://github.com/kor34N/CVE-2022-32548-mass)
 
 ### CVE-2022-32832 (2022-09-23)
 
