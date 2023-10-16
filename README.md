@@ -378,7 +378,6 @@
 <code>On Ubuntu kernels carrying both c914c0e27eb0 and &quot;UBUNTU: SAUCE: overlayfs: Skip permission checking for trusted.overlayfs.* xattrs&quot;, an unprivileged user may set privileged extended attributes on the mounted files, leading them to be set on the upper files without the appropriate security checks.
 </code>
 
-- [johnlettman/juju-scripts](https://github.com/johnlettman/juju-scripts)
 - [OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay)
 - [luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS)
 - [g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629)
@@ -675,6 +674,13 @@
 </code>
 
 - [b0marek/CVE-2023-4294](https://github.com/b0marek/CVE-2023-4294)
+
+### CVE-2023-4415 (2023-08-18)
+
+<code>Eine kritische Schwachstelle wurde in Ruijie RG-EW1200G 07161417 r483 ausgemacht. Betroffen davon ist ein unbekannter Prozess der Datei /api/sys/login. Mittels Manipulieren mit unbekannten Daten kann eine improper authentication-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [thedarknessdied/Ruijie_RG-EW1200G_login_bypass-CVS-2023-4415-](https://github.com/thedarknessdied/Ruijie_RG-EW1200G_login_bypass-CVS-2023-4415-)
 
 ### CVE-2023-4460
 - [daniloalbuqrque/poc-cve-xss-uploading-svg](https://github.com/daniloalbuqrque/poc-cve-xss-uploading-svg)
@@ -1133,8 +1139,8 @@
 <code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 </code>
 
-- [4ra1n/CVE-2023-21839](https://github.com/4ra1n/CVE-2023-21839)
 - [DXask88MA/Weblogic-CVE-2023-21839](https://github.com/DXask88MA/Weblogic-CVE-2023-21839)
+- [ASkyeye/CVE-2023-21839](https://github.com/ASkyeye/CVE-2023-21839)
 - [Firebasky/CVE-2023-21839](https://github.com/Firebasky/CVE-2023-21839)
 - [houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839)
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
@@ -16719,6 +16725,9 @@
 
 - [nevermoe/CVE-2021-44906](https://github.com/nevermoe/CVE-2021-44906)
 
+### CVE-2021-44909
+- [g1thub3r1st4/CVE-2021-44909](https://github.com/g1thub3r1st4/CVE-2021-44909)
+
 ### CVE-2021-44910
 - [Securify-Pro/CVE-2021-44910_SpringBlade](https://github.com/Securify-Pro/CVE-2021-44910_SpringBlade)
 
@@ -23575,6 +23584,7 @@
 - [im-suman-roy/CVE-2019-9053](https://github.com/im-suman-roy/CVE-2019-9053)
 - [bthnrml/guncel-cve-2019-9053.py](https://github.com/bthnrml/guncel-cve-2019-9053.py)
 - [kahluri/CVE-2019-9053](https://github.com/kahluri/CVE-2019-9053)
+- [Doc0x1/CVE-2019-9053-Python3](https://github.com/Doc0x1/CVE-2019-9053-Python3)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
@@ -27436,6 +27446,7 @@
 <code>An issue was discovered in PRTG Network Monitor before 18.2.39. An attacker who has access to the PRTG System Administrator web console with administrative privileges can exploit an OS command injection vulnerability (both on the server and on devices) by sending malformed parameters in sensor or notification management scenarios.
 </code>
 
+- [wildkindcc/CVE-2018-9276](https://github.com/wildkindcc/CVE-2018-9276)
 - [andyfeili/CVE-2018-9276](https://github.com/andyfeili/CVE-2018-9276)
 - [A1vinSmith/CVE-2018-9276](https://github.com/A1vinSmith/CVE-2018-9276)
 
@@ -28163,6 +28174,7 @@
 - [Bilelxdz/Laravel-CVE-2018-15133](https://github.com/Bilelxdz/Laravel-CVE-2018-15133)
 - [Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader](https://github.com/Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader)
 - [bukitbarisan/laravel-rce-cve-2018-15133](https://github.com/bukitbarisan/laravel-rce-cve-2018-15133)
+- [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
 - [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [pwnedshell/Larascript](https://github.com/pwnedshell/Larascript)
 - [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
@@ -30349,13 +30361,6 @@
 
 - [faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc](https://github.com/faizzaidi/Blackcat-cms-v1.2-xss-POC-by-Provensec-llc)
 
-### CVE-2017-9627 (2017-07-07)
-
-<code>An Uncontrolled Resource Consumption issue was discovered in Schneider Electric Wonderware ArchestrA Logger, versions 2017.426.2307.1 and prior. The uncontrolled resource consumption vulnerability could allow an attacker to exhaust the memory resources of the machine, causing a denial of service.
-</code>
-
-- [USSCltd/aaLogger](https://github.com/USSCltd/aaLogger)
-
 ### CVE-2017-9769 (2017-08-02)
 
 <code>A specially crafted IOCTL can be issued to the rzpnk.sys driver in Razer Synapse 2.20.15.1104 that is forwarded to ZwOpenProcess allowing a handle to be opened to an arbitrary process.
@@ -30408,7 +30413,6 @@
 - [rvermeulen/apache-struts-cve-2017-9805](https://github.com/rvermeulen/apache-struts-cve-2017-9805)
 - [jongmartinez/-CVE-2017-9805-](https://github.com/jongmartinez/-CVE-2017-9805-)
 - [z3bd/CVE-2017-9805](https://github.com/z3bd/CVE-2017-9805)
-- [0xd3vil/CVE-2017-9805-Exploit](https://github.com/0xd3vil/CVE-2017-9805-Exploit)
 - [Shakun8/CVE-2017-9805](https://github.com/Shakun8/CVE-2017-9805)
 
 ### CVE-2017-9822 (2017-07-20)
@@ -30498,7 +30502,6 @@
 - [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
 - [ETOCheney/JavaDeserialization](https://github.com/ETOCheney/JavaDeserialization)
 - [r4b3rt/CVE-2017-10271](https://github.com/r4b3rt/CVE-2017-10271)
-- [cved-sources/cve-2017-10271](https://github.com/cved-sources/cve-2017-10271)
 - [XHSecurity/Oracle-WebLogic-CVE-2017-10271](https://github.com/XHSecurity/Oracle-WebLogic-CVE-2017-10271)
 - [kbsec/Weblogic_Wsat_RCE](https://github.com/kbsec/Weblogic_Wsat_RCE)
 - [SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961](https://github.com/SkyBlueEternal/CNVD-C-2019-48814-CNNVD-201904-961)
@@ -30844,6 +30847,13 @@
 </code>
 
 - [tamirzb/CVE-2017-13253](https://github.com/tamirzb/CVE-2017-13253)
+
+### CVE-2017-13286 (2018-04-04)
+
+<code>In writeToParcel and readFromParcel of OutputConfiguration.java, there is a permission bypass due to mismatched serialization. This could lead to a local escalation of privilege where the user can start an activity with system privileges, with no additional execution privileges needed. User interaction is not needed for exploitation. Product: Android. Versions: 8.0, 8.1. Android ID: A-69683251.
+</code>
+
+- [UmVfX1BvaW50/CVE-2017-13286](https://github.com/UmVfX1BvaW50/CVE-2017-13286)
 
 ### CVE-2017-13672 (2017-09-01)
 
@@ -31282,7 +31292,6 @@
 - [chenzhuo0618/test](https://github.com/chenzhuo0618/test)
 - [siling2017/CVE-2017-1000117](https://github.com/siling2017/CVE-2017-1000117)
 - [Q2h1Cg/CVE-2017-1000117](https://github.com/Q2h1Cg/CVE-2017-1000117)
-- [cved-sources/cve-2017-1000117](https://github.com/cved-sources/cve-2017-1000117)
 - [leezp/CVE-2017-1000117](https://github.com/leezp/CVE-2017-1000117)
 - [AnonymKing/CVE-2017-1000117](https://github.com/AnonymKing/CVE-2017-1000117)
 - [Jerry-zhuang/CVE-2017-1000117](https://github.com/Jerry-zhuang/CVE-2017-1000117)
@@ -31365,7 +31374,6 @@
 
 - [pimps/CVE-2017-1000486](https://github.com/pimps/CVE-2017-1000486)
 - [mogwailabs/CVE-2017-1000486](https://github.com/mogwailabs/CVE-2017-1000486)
-- [cved-sources/cve-2017-1000486](https://github.com/cved-sources/cve-2017-1000486)
 - [Pastea/CVE-2017-1000486](https://github.com/Pastea/CVE-2017-1000486)
 - [oppsec/pwnfaces](https://github.com/oppsec/pwnfaces)
 
