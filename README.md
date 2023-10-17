@@ -781,6 +781,7 @@
 - [hadrian3689/looney-tunables-CVE-2023-4911](https://github.com/hadrian3689/looney-tunables-CVE-2023-4911)
 - [ruycr4ft/CVE-2023-4911](https://github.com/ruycr4ft/CVE-2023-4911)
 - [guffre/CVE-2023-4911](https://github.com/guffre/CVE-2023-4911)
+- [chaudharyarjun/LooneyPwner](https://github.com/chaudharyarjun/LooneyPwner)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -788,6 +789,9 @@
 </code>
 
 - [PH03N1XSP/CVE-2023-5024](https://github.com/PH03N1XSP/CVE-2023-5024)
+
+### CVE-2023-5070
+- [RandomRobbieBF/CVE-2023-5070](https://github.com/RandomRobbieBF/CVE-2023-5070)
 
 ### CVE-2023-5074 (2023-09-20)
 
@@ -875,6 +879,15 @@
 </code>
 
 - [Wh04m1001/CVE-2023-20178](https://github.com/Wh04m1001/CVE-2023-20178)
+
+### CVE-2023-20198 (2023-10-16)
+
+<code>Cisco is aware of active exploitation of a previously unknown vulnerability in the web UI feature of Cisco IOS XE Software when exposed to the internet or to untrusted networks. This vulnerability allows a remote, unauthenticated attacker to create an account on an affected system with privilege level 15 access. The attacker can then use that account to gain control of the affected system.\r\n\r For steps to close the attack vector for this vulnerability, see the Recommendations section of this advisory \r\n\r Cisco will provide updates on the status of this investigation and when a software patch is available.
+</code>
+
+- [raystr-atearedteam/CVE-2023-20198-checker](https://github.com/raystr-atearedteam/CVE-2023-20198-checker)
+- [Atea-Redteam/CVE-2023-20198](https://github.com/Atea-Redteam/CVE-2023-20198)
+- [pypcod/CVE-2023-20198](https://github.com/pypcod/CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -1778,7 +1791,6 @@
 - [0xFTW/CVE-2023-27163](https://github.com/0xFTW/CVE-2023-27163)
 - [samh4cks/CVE-2023-27163-InternalProber](https://github.com/samh4cks/CVE-2023-27163-InternalProber)
 - [Hamibubu/CVE-2023-27163](https://github.com/Hamibubu/CVE-2023-27163)
-- [DcardosoGH/CVE-2023-27163-Maltrail-0.53-RCE](https://github.com/DcardosoGH/CVE-2023-27163-Maltrail-0.53-RCE)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -2146,6 +2158,7 @@
 - [tucommenceapousser/CVE-2023-29489](https://github.com/tucommenceapousser/CVE-2023-29489)
 - [tucommenceapousser/CVE-2023-29489.py](https://github.com/tucommenceapousser/CVE-2023-29489.py)
 - [ViperM4sk/cpanel-xss-177](https://github.com/ViperM4sk/cpanel-xss-177)
+- [S4muraiMelayu1337/CVE-2023-29489](https://github.com/S4muraiMelayu1337/CVE-2023-29489)
 
 ### CVE-2023-29808 (2023-05-11)
 
@@ -3228,6 +3241,13 @@
 
 - [datackmy/FallingSkies-CVE-2023-35885](https://github.com/datackmy/FallingSkies-CVE-2023-35885)
 
+### CVE-2023-36076 (2023-09-01)
+
+<code>SQL Injection vulnerability in smanga version 3.1.9 and earlier, allows remote attackers to execute arbitrary code and gain sensitive information via mediaId, mangaId, and userId parameters in php/history/add.php.
+</code>
+
+- [deIndra/CVE-2023-36076](https://github.com/deIndra/CVE-2023-36076)
+
 ### CVE-2023-36109 (2023-09-20)
 
 <code>Buffer Overflow vulnerability in JerryScript version 3.0, allows remote attackers to execute arbitrary code via ecma_stringbuilder_append_raw component at /jerry-core/ecma/base/ecma-helpers-string.c.
@@ -3644,6 +3664,7 @@
 - [vanigori/CVE-2023-38545-sample](https://github.com/vanigori/CVE-2023-38545-sample)
 - [dbrugman/CVE-2023-38545-POC](https://github.com/dbrugman/CVE-2023-38545-POC)
 - [bcdannyboy/CVE-2023-38545](https://github.com/bcdannyboy/CVE-2023-38545)
+- [d0rb/CVE-2023-38545](https://github.com/d0rb/CVE-2023-38545)
 
 ### CVE-2023-38571 (2023-07-28)
 
@@ -3687,6 +3708,7 @@
 - [threatHNTR/CVE-2023-38646](https://github.com/threatHNTR/CVE-2023-38646)
 - [asepsaepdin/CVE-2023-38646](https://github.com/asepsaepdin/CVE-2023-38646)
 - [Pyr0sec/CVE-2023-38646](https://github.com/Pyr0sec/CVE-2023-38646)
+- [birdm4nw/CVE-2023-38646](https://github.com/birdm4nw/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4069,6 +4091,7 @@
 </code>
 
 - [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
+- [hrtowii/cve-2023-41993-test](https://github.com/hrtowii/cve-2023-41993-test)
 
 ### CVE-2023-42222 (2023-09-27)
 
@@ -4531,6 +4554,9 @@
 
 ### CVE-2023-45603
 - [codeb0ss/CVE-2023-45603-PoC](https://github.com/codeb0ss/CVE-2023-45603-PoC)
+
+### CVE-2023-45828
+- [RandomRobbieBF/CVE-2023-45828](https://github.com/RandomRobbieBF/CVE-2023-45828)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -5717,6 +5743,13 @@
 </code>
 
 - [Supersonic/CVE-2022-20494](https://github.com/Supersonic/CVE-2022-20494)
+
+### CVE-2022-20607 (2022-12-16)
+
+<code>In the Pixel cellular firmware, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with LTE authentication needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-238914868References: N/A
+</code>
+
+- [sumeetIT/CVE-2022-20607](https://github.com/sumeetIT/CVE-2022-20607)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -7610,6 +7643,7 @@
 
 - [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
+- [vincentinttsh/CVE-2022-28346](https://github.com/vincentinttsh/CVE-2022-28346)
 
 ### CVE-2022-28368 (2022-04-02)
 
@@ -14197,6 +14231,7 @@
 - [jrgdiaz/ProxyShell-CVE-2021-34473.py](https://github.com/jrgdiaz/ProxyShell-CVE-2021-34473.py)
 - [kh4sh3i/ProxyShell](https://github.com/kh4sh3i/ProxyShell)
 - [ipsBruno/CVE-2021-34473-NMAP-SCANNER](https://github.com/ipsBruno/CVE-2021-34473-NMAP-SCANNER)
+- [f4alireza/CVE](https://github.com/f4alireza/CVE)
 
 ### CVE-2021-34481 (2021-07-16)
 
@@ -17960,7 +17995,6 @@
 - [Udyz/Zerologon](https://github.com/Udyz/Zerologon)
 - [itssmikefm/CVE-2020-1472](https://github.com/itssmikefm/CVE-2020-1472)
 - [NickSanzotta/zeroscan](https://github.com/NickSanzotta/zeroscan)
-- [TheJoyOfHacking/SecuraBV-CVE-2020-1472](https://github.com/TheJoyOfHacking/SecuraBV-CVE-2020-1472)
 - [TheJoyOfHacking/dirkjanm-CVE-2020-1472](https://github.com/TheJoyOfHacking/dirkjanm-CVE-2020-1472)
 - [Anonymous-Family/Zero-day-scanning](https://github.com/Anonymous-Family/Zero-day-scanning)
 - [Anonymous-Family/CVE-2020-1472](https://github.com/Anonymous-Family/CVE-2020-1472)
@@ -18109,13 +18143,6 @@
 
 ### CVE-2020-2333
 - [section-c/CVE-2020-2333](https://github.com/section-c/CVE-2020-2333)
-
-### CVE-2020-2501 (2021-02-16)
-
-<code>A stack-based buffer overflow vulnerability has been reported to affect QNAP NAS devices running Surveillance Station. If exploited, this vulnerability allows attackers to execute arbitrary code. QNAP have already fixed this vulnerability in the following versions: Surveillance Station 5.1.5.4.3 (and later) for ARM CPU NAS (64bit OS) and x86 CPU NAS (64bit OS) Surveillance Station 5.1.5.3.3 (and later) for ARM CPU NAS (32bit OS) and x86 CPU NAS (32bit OS)
-</code>
-
-- [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
 
 ### CVE-2020-2509 (2021-04-16)
 
