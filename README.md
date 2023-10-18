@@ -904,6 +904,9 @@
 - [JoyGhoshs/CVE-2023-20198](https://github.com/JoyGhoshs/CVE-2023-20198)
 - [cert-orangecyberdefense/Cisco_CVE-2023-20198](https://github.com/cert-orangecyberdefense/Cisco_CVE-2023-20198)
 - [Tounsi007/CVE-2023-20198](https://github.com/Tounsi007/CVE-2023-20198)
+- [alekos3/CVE_2023_20198_Detector](https://github.com/alekos3/CVE_2023_20198_Detector)
+- [ditekshen/ansible-cve-2023-20198](https://github.com/ditekshen/ansible-cve-2023-20198)
+- [exp166/CVE-2023-20198](https://github.com/exp166/CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -4597,6 +4600,9 @@
 ### CVE-2023-45857
 - [valentin-panov/CVE-2023-45857](https://github.com/valentin-panov/CVE-2023-45857)
 
+### CVE-2023-45966
+- [jet-pentest/CVE-2023-45966](https://github.com/jet-pentest/CVE-2023-45966)
+
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
@@ -7532,7 +7538,7 @@
 
 ### CVE-2022-27518 (2022-12-13)
 
-<code>Unauthenticated remote arbitrary code execution
+<code>Unauthenticated remote arbitrary code execution\n
 </code>
 
 - [dolby360/CVE-2022-27518_POC](https://github.com/dolby360/CVE-2022-27518_POC)
@@ -16293,12 +16299,12 @@
 - [horizon3ai/CVE-2021-44142](https://github.com/horizon3ai/CVE-2021-44142)
 - [gudyrmik/CVE-2021-44142](https://github.com/gudyrmik/CVE-2021-44142)
 
-### CVE-2021-44186 (2021-12-07)
+### CVE-2021-44168 (2022-01-04)
 
-<code>Adobe Bridge version 11.1.2 (and earlier) and version 12.0 (and earlier) are affected by an out-of-bounds read vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerability to bypass mitigations such as ASLR. Exploitation of this issue requires user interaction in that a victim must open a malicious SGI file.
+<code>A download of code without integrity check vulnerability in the &quot;execute restore src-vis&quot; command of FortiOS before 7.0.3 may allow a local authenticated attacker to download arbitrary files on the device via specially crafted update packages.
 </code>
 
-- [0xhaggis/CVE-2021-44186](https://github.com/0xhaggis/CVE-2021-44186)
+- [0xhaggis/CVE-2021-44168](https://github.com/0xhaggis/CVE-2021-44168)
 
 ### CVE-2021-44217 (2022-01-18)
 
@@ -23122,7 +23128,6 @@
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
 - [si1ent-le/CVE-2019-5736](https://github.com/si1ent-le/CVE-2019-5736)
-- [GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736](https://github.com/GiovanniCrudo00/Docker-Vulnerabilities-CVE-2019-5736)
 
 ### CVE-2019-5737 (2019-03-28)
 
@@ -29311,7 +29316,7 @@
 - [Phantomlancer123/CVE-2017-0199](https://github.com/Phantomlancer123/CVE-2017-0199)
 - [BRAINIAC22/CVE-2017-0199](https://github.com/BRAINIAC22/CVE-2017-0199)
 - [Sunqiz/CVE-2017-0199-reprofuction](https://github.com/Sunqiz/CVE-2017-0199-reprofuction)
-- [0xCoolAnon/CVE-2017-0199-v5.0](https://github.com/0xCoolAnon/CVE-2017-0199-v5.0)
+- [TheCyberWatchers/CVE-2017-0199-v5.0](https://github.com/TheCyberWatchers/CVE-2017-0199-v5.0)
 
 ### CVE-2017-0204 (2017-04-12)
 
