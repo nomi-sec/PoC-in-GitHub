@@ -846,6 +846,9 @@
 ### CVE-2023-5546
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
+### CVE-2023-5601
+- [codeb0ss/CVE-2023-5601-PoC](https://github.com/codeb0ss/CVE-2023-5601-PoC)
+
 ### CVE-2023-20025 (2023-01-20)
 
 <code>A vulnerability in the web-based management interface of Cisco Small Business RV042 Series Routers could allow an unauthenticated, remote attacker to bypass authentication on the affected device. This vulnerability is due to incorrect user input validation of incoming HTTP packets. An attacker could exploit this vulnerability by sending crafted requests to the web-based management interface. A successful exploit could allow the attacker to gain root privileges on the affected device.
@@ -2828,6 +2831,9 @@
 
 - [Skr11lex/CVE-2023-33477](https://github.com/Skr11lex/CVE-2023-33477)
 
+### CVE-2023-33517
+- [wushigudan/CVE-2023-33517](https://github.com/wushigudan/CVE-2023-33517)
+
 ### CVE-2023-33565 (2023-06-23)
 
 <code>ROS2 (Robot Operating System 2) Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 are vulnerable to Denial-of-Service (DoS) attacks. A malicious user potentially exploited the vulnerability remotely and crashed the ROS2 nodes.
@@ -3640,6 +3646,9 @@
 - [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
 - [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
 - [mind2hex/MICS_Hunter](https://github.com/mind2hex/MICS_Hunter)
+
+### CVE-2023-38120
+- [warber0x/CVE-2023-38120](https://github.com/warber0x/CVE-2023-38120)
 
 ### CVE-2023-38146 (2023-09-12)
 
@@ -4454,6 +4463,9 @@
 </code>
 
 - [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
+
+### CVE-2023-44227
+- [codeb0ss/CVE-2023-44227-PoC](https://github.com/codeb0ss/CVE-2023-44227-PoC)
 
 ### CVE-2023-44487 (2023-10-10)
 
@@ -12404,6 +12416,7 @@
 - [Shadow0ps/CVE-2021-21974](https://github.com/Shadow0ps/CVE-2021-21974)
 - [n2x4/Feb2023-CVE-2021-21974-OSINT](https://github.com/n2x4/Feb2023-CVE-2021-21974-OSINT)
 - [CYBERTHREATANALYSIS/ESXi_ransomware_scanner](https://github.com/CYBERTHREATANALYSIS/ESXi_ransomware_scanner)
+- [hateme021202/cve-2021-21974](https://github.com/hateme021202/cve-2021-21974)
 
 ### CVE-2021-21975 (2021-03-31)
 
@@ -32239,7 +32252,6 @@
 
 - [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
 - [violentshell/rover](https://github.com/violentshell/rover)
-- [jduck/challack](https://github.com/jduck/challack)
 - [bplinux/chackd](https://github.com/bplinux/chackd)
 - [unkaktus/grill](https://github.com/unkaktus/grill)
 
