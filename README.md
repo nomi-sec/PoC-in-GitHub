@@ -4493,6 +4493,9 @@
 ### CVE-2023-45966
 - [jet-pentest/CVE-2023-45966](https://github.com/jet-pentest/CVE-2023-45966)
 
+### CVE-2023-45992
+- [harry935/CVE-2023-45992](https://github.com/harry935/CVE-2023-45992)
+
 ### CVE-2023-46003
 - [leekenghwa/CVE-2023-46003](https://github.com/leekenghwa/CVE-2023-46003)
 
@@ -5535,6 +5538,13 @@
 ### CVE-2022-20128
 - [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
 
+### CVE-2022-20130 (2022-06-15)
+
+<code>In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-224314979
+</code>
+
+- [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
+
 ### CVE-2022-20138 (2022-06-15)
 
 <code>In ACTION_MANAGED_PROFILE_PROVISIONED of DevicePolicyManagerService.java, there is a possible way for unprivileged app to send MANAGED_PROFILE_PROVISIONED intent due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-210469972
@@ -6181,6 +6191,8 @@
 - [b4dboy17/CVE-2022-22954](https://github.com/b4dboy17/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
+- [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
+- [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
 - [Jhonsonwannaa/CVE-2022-22954](https://github.com/Jhonsonwannaa/CVE-2022-22954)
@@ -7809,6 +7821,8 @@
 - [electr0lulz/Mass-exploit-CVE-2022-29464](https://github.com/electr0lulz/Mass-exploit-CVE-2022-29464)
 - [xinghonghaoyue/CVE-2022-29464](https://github.com/xinghonghaoyue/CVE-2022-29464)
 - [r4x0r1337/-CVE-2022-29464](https://github.com/r4x0r1337/-CVE-2022-29464)
+- [amit-pathak009/CVE-2022-29464](https://github.com/amit-pathak009/CVE-2022-29464)
+- [amit-pathak009/CVE-2022-29464-mass](https://github.com/amit-pathak009/CVE-2022-29464-mass)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
@@ -12228,7 +12242,6 @@
 - [ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551)
 - [tijme/kernel-mii](https://github.com/tijme/kernel-mii)
 - [nanabingies/CVE-2021-21551](https://github.com/nanabingies/CVE-2021-21551)
-- [shaygitub/CVE-2021-21551](https://github.com/shaygitub/CVE-2021-21551)
 
 ### CVE-2021-21809 (2021-06-23)
 
@@ -15670,7 +15683,6 @@
 </code>
 
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
-- [timb-machine-mirrors/testanull-CVE-2021-42321_poc.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-42321_poc.py)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 - [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
 
@@ -16532,8 +16544,6 @@
 - [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
-- [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
-- [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
@@ -17719,13 +17729,6 @@
 - [skasanagottu57gmailv/gerhart01](https://github.com/skasanagottu57gmailv/gerhart01)
 - [MarcelloTinocor/gerhart01](https://github.com/MarcelloTinocor/gerhart01)
 
-### CVE-2020-0910 (2020-04-15)
-
-<code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
-</code>
-
-- [kfmgang/CVE-2020-0910](https://github.com/kfmgang/CVE-2020-0910)
-
 ### CVE-2020-0976 (2020-04-15)
 
 <code>A spoofing vulnerability exists when Microsoft SharePoint Server does not properly sanitize a specially crafted web request to an affected SharePoint server, aka 'Microsoft SharePoint Spoofing Vulnerability'. This CVE ID is unique from CVE-2020-0972, CVE-2020-0975, CVE-2020-0977.
@@ -17916,7 +17919,6 @@
 - [JayP232/The_big_Zero](https://github.com/JayP232/The_big_Zero)
 - [b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472)
 - [SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472)
-- [wrathfulDiety/zerologon](https://github.com/wrathfulDiety/zerologon)
 - [YossiSassi/ZeroLogon-Exploitation-Check](https://github.com/YossiSassi/ZeroLogon-Exploitation-Check)
 - [sho-luv/zerologon](https://github.com/sho-luv/zerologon)
 - [hell-moon/ZeroLogon-Exploit](https://github.com/hell-moon/ZeroLogon-Exploit)
@@ -17957,13 +17959,6 @@
 </code>
 
 - [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
-
-### CVE-2020-1937 (2020-02-24)
-
-<code>Kylin has some restful apis which will concatenate SQLs with the user input string, a user is likely to be able to run malicious database queries.
-</code>
-
-- [shanika04/apache_kylin](https://github.com/shanika04/apache_kylin)
 
 ### CVE-2020-1938 (2020-02-24)
 
@@ -18767,7 +18762,6 @@
 - [shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui](https://github.com/shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui)
 - [shacojx/GLiferay-CVE-2020-7961-golang](https://github.com/shacojx/GLiferay-CVE-2020-7961-golang)
 - [shacojx/POC-CVE-2020-7961-Token-iterate](https://github.com/shacojx/POC-CVE-2020-7961-Token-iterate)
-- [Udyz/CVE-2020-7961-Mass](https://github.com/Udyz/CVE-2020-7961-Mass)
 - [ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961)
 - [pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass)
 
@@ -18816,7 +18810,6 @@
 - [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
 - [umiterkol/CVE-2020-8165--Auto-Shell](https://github.com/umiterkol/CVE-2020-8165--Auto-Shell)
 - [taipansec/CVE-2020-8165](https://github.com/taipansec/CVE-2020-8165)
-- [hybryx/CVE-2020-8165](https://github.com/hybryx/CVE-2020-8165)
 - [AssassinUKG/CVE-2020-8165](https://github.com/AssassinUKG/CVE-2020-8165)
 - [progfay/CVE-2020-8165](https://github.com/progfay/CVE-2020-8165)
 - [danielklim/cve-2020-8165-demo](https://github.com/danielklim/cve-2020-8165-demo)
@@ -18868,13 +18861,6 @@
 
 - [masahiro331/CVE-2020-8277](https://github.com/masahiro331/CVE-2020-8277)
 - [AndrewIjano/CVE-2020-8277](https://github.com/AndrewIjano/CVE-2020-8277)
-
-### CVE-2020-8287 (2021-01-06)
-
-<code>Node.js versions before 10.23.1, 12.20.1, 14.15.4, 15.5.1 allow two copies of a header field in an HTTP request (for example, two Transfer-Encoding header fields). In this case, Node.js identifies the first header field and ignores the second. This can lead to HTTP Request Smuggling.
-</code>
-
-- [progfay/nodejs-http-transfer-encoding-smuggling-poc](https://github.com/progfay/nodejs-http-transfer-encoding-smuggling-poc)
 
 ### CVE-2020-8289 (2020-12-26)
 
@@ -19196,7 +19182,6 @@
 <code>**Resolved** When use H2/MySQL/TiDB as Apache SkyWalking storage, the metadata query through GraphQL protocol, there is a SQL injection vulnerability, which allows to access unpexcted data. Apache SkyWalking 6.0.0 to 6.6.0, 7.0.0 H2/MySQL/TiDB storage implementations don't use the appropriate way to set SQL parameters.
 </code>
 
-- [shanika04/apache_skywalking](https://github.com/shanika04/apache_skywalking)
 - [Neko-chanQwQ/CVE-2020-9483](https://github.com/Neko-chanQwQ/CVE-2020-9483)
 
 ### CVE-2020-9484 (2020-05-20)
@@ -19212,7 +19197,6 @@
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
-- [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
@@ -19354,8 +19338,6 @@
 </code>
 
 - [rdoix/CVE-2020-10148-Solarwinds-Orion](https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion)
-- [Udyz/CVE-2020-10148-Solarwinds-Orion](https://github.com/Udyz/CVE-2020-10148-Solarwinds-Orion)
-- [B1anda0/CVE-2020-10148](https://github.com/B1anda0/CVE-2020-10148)
 
 ### CVE-2020-10189 (2020-03-06)
 
@@ -20743,7 +20725,6 @@
 <code>Apache Flink 1.5.1 introduced a REST handler that allows you to write an uploaded file to an arbitrary location on the local file system, through a maliciously modified HTTP HEADER. The files can be written to any location accessible by Flink 1.5.1. All users should upgrade to Flink 1.11.3 or 1.12.0 if their Flink instance(s) are exposed. The issue was fixed in commit a5264a6f41524afe8ceadf1d8ddc8c80f323ebc4 from apache/flink:master.
 </code>
 
-- [QmF0c3UK/CVE-2020-17518](https://github.com/QmF0c3UK/CVE-2020-17518)
 - [murataydemir/CVE-2020-17518](https://github.com/murataydemir/CVE-2020-17518)
 - [rakjong/Flink-CVE-2020-17518-getshell](https://github.com/rakjong/Flink-CVE-2020-17518-getshell)
 
@@ -20753,7 +20734,6 @@
 </code>
 
 - [B1anda0/CVE-2020-17519](https://github.com/B1anda0/CVE-2020-17519)
-- [QmF0c3UK/CVE-2020-17519](https://github.com/QmF0c3UK/CVE-2020-17519)
 - [dolevf/apache-flink-directory-traversal.nse](https://github.com/dolevf/apache-flink-directory-traversal.nse)
 - [hoanx4/CVE-2020-17519](https://github.com/hoanx4/CVE-2020-17519)
 - [murataydemir/CVE-2020-17519](https://github.com/murataydemir/CVE-2020-17519)
@@ -21225,13 +21205,6 @@
 
 ### CVE-2020-25488
 - [Ko-kn3t/CVE-2020-25488](https://github.com/Ko-kn3t/CVE-2020-25488)
-
-### CVE-2020-25498 (2021-01-06)
-
-<code>Cross Site Scripting (XSS) vulnerability in Beetel router 777VR1 can be exploited via the NTP server name in System Time and &quot;Keyword&quot; in URL Filter.
-</code>
-
-- [the-girl-who-lived/CVE-2020-25498](https://github.com/the-girl-who-lived/CVE-2020-25498)
 
 ### CVE-2020-25514 (2020-09-22)
 
@@ -21780,13 +21753,6 @@
 
 - [nanopathi/linux-4.19.72_CVE-2020-29370](https://github.com/nanopathi/linux-4.19.72_CVE-2020-29370)
 
-### CVE-2020-29583 (2020-12-22)
-
-<code>Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyfwp) with an unchangeable password. The password for this account can be found in cleartext in the firmware. This account can be used by someone to login to the ssh server or web interface with admin privileges.
-</code>
-
-- [ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583)
-
 ### CVE-2020-29599 (2020-12-07)
 
 <code>ImageMagick before 6.9.11-40 and 7.x before 7.0.10-40 mishandles the -authenticate option, which allows setting a password for password-protected PDF files. The user-controlled password was not properly escaped/sanitized and it was therefore possible to inject additional shell commands via coders/pdf.c.
@@ -21828,13 +21794,6 @@
 </code>
 
 - [megadimenex/MegaHiDocker](https://github.com/megadimenex/MegaHiDocker)
-
-### CVE-2020-35262 (2021-01-06)
-
-<code>Cross Site Scripting (XSS) vulnerability in Digisol DG-HR3400 can be exploited via the NTP server name in Time and date module and &quot;Keyword&quot; in URL Filter.
-</code>
-
-- [the-girl-who-lived/CVE-2020-35262](https://github.com/the-girl-who-lived/CVE-2020-35262)
 
 ### CVE-2020-35314 (2021-04-20)
 
@@ -21925,13 +21884,6 @@
 </code>
 
 - [Al1ex/CVE-2020-35713](https://github.com/Al1ex/CVE-2020-35713)
-
-### CVE-2020-35717 (2021-01-01)
-
-<code>zonote through 0.4.0 allows XSS via a crafted note, with resultant Remote Code Execution (because nodeIntegration in webPreferences is true).
-</code>
-
-- [hmartos/cve-2020-35717](https://github.com/hmartos/cve-2020-35717)
 
 ### CVE-2020-35728 (2020-12-26)
 
@@ -29907,6 +29859,7 @@
 - [zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool)
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
+- [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
 - [crypticdante/CVE-2017-7269](https://github.com/crypticdante/CVE-2017-7269)
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
@@ -30239,6 +30192,13 @@
 </code>
 
 - [jakabakos/CVE-2017-9096-iText-XXE](https://github.com/jakabakos/CVE-2017-9096-iText-XXE)
+
+### CVE-2017-9097 (2017-06-15)
+
+<code>In Anti-Web through 3.8.7, as used on NetBiter FGW200 devices through 3.21.2, WS100 devices through 3.30.5, EC150 devices through 1.40.0, WS200 devices through 3.30.4, EC250 devices through 1.40.0, and other products, an LFI vulnerability allows a remote attacker to read or modify files through a path traversal technique, as demonstrated by reading the password file, or using the template parameter to cgi-bin/write.cgi to write to an arbitrary file.
+</code>
+
+- [MDudek-ICS/AntiWeb_testing-Suite](https://github.com/MDudek-ICS/AntiWeb_testing-Suite)
 
 ### CVE-2017-9101 (2017-05-21)
 
@@ -31294,6 +31254,7 @@
 <code>Linux distributions that have not patched their long-term kernels with https://git.kernel.org/linus/a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (committed on April 14, 2015). This kernel vulnerability was fixed in April 2015 by commit a87938b2e246b81b4fb713edb371a9fa3c5c3c86 (backported to Linux 3.10.77 in May 2015), but it was not recognized as a security threat. With CONFIG_ARCH_BINFMT_ELF_RANDOMIZE_PIE enabled, and a normal top-down address allocation strategy, load_elf_binary() will attempt to map a PIE binary into an address range immediately below mm-&gt;mmap_base. Unfortunately, load_elf_ binary() does not take account of the need to allocate sufficient space for the entire binary which means that, while the first PT_LOAD segment is mapped below mm-&gt;mmap_base, the subsequent PT_LOAD segment(s) end up being mapped above mm-&gt;mmap_base into the are that is supposed to be the &quot;gap&quot; between the stack and the binary.
 </code>
 
+- [RicterZ/PIE-Stack-Clash-CVE-2017-1000253](https://github.com/RicterZ/PIE-Stack-Clash-CVE-2017-1000253)
 - [sxlmnwb/CVE-2017-1000253](https://github.com/sxlmnwb/CVE-2017-1000253)
 
 ### CVE-2017-1000353 (2018-01-29)
@@ -35923,13 +35884,6 @@
 </code>
 
 - [runtimme/cve-2003-0282](https://github.com/runtimme/cve-2003-0282)
-
-### CVE-2003-0358 (2003-05-30)
-
-<code>Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
-</code>
-
-- [snowcra5h/CVE-2003-0358](https://github.com/snowcra5h/CVE-2003-0358)
 
 
 ## 2002
