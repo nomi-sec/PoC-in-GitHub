@@ -413,7 +413,7 @@
 - [Occamsec/CVE-2023-2825](https://github.com/Occamsec/CVE-2023-2825)
 - [yuimarudev/CVE-2023-2825](https://github.com/yuimarudev/CVE-2023-2825)
 - [Tornad0007/CVE-2023-2825-Gitlab](https://github.com/Tornad0007/CVE-2023-2825-Gitlab)
-- [EmmanuelCruzL/CVE-2023-2825](https://github.com/EmmanuelCruzL/CVE-2023-2825)
+- [Rubikcuv5/CVE-2023-2825](https://github.com/Rubikcuv5/CVE-2023-2825)
 - [caopengyan/CVE-2023-2825](https://github.com/caopengyan/CVE-2023-2825)
 
 ### CVE-2023-2833 (2023-06-06)
@@ -1576,7 +1576,7 @@
 - [0x2458bughunt/CVE-2023-25157](https://github.com/0x2458bughunt/CVE-2023-25157)
 - [murataydemir/CVE-2023-25157-and-CVE-2023-25158](https://github.com/murataydemir/CVE-2023-25157-and-CVE-2023-25158)
 - [7imbitz/CVE-2023-25157-checker](https://github.com/7imbitz/CVE-2023-25157-checker)
-- [EmmanuelCruzL/CVE-2023-25157](https://github.com/EmmanuelCruzL/CVE-2023-25157)
+- [Rubikcuv5/CVE-2023-25157](https://github.com/Rubikcuv5/CVE-2023-25157)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -3773,7 +3773,7 @@
 
 ### CVE-2023-38831 (2023-08-23)
 
-<code>RARLabs WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through August 2023.
+<code>RARLabs WinRAR before 6.23 allows attackers to execute arbitrary code when a user attempts to view a benign file within a ZIP archive. The issue occurs because a ZIP archive may include a benign file (such as an ordinary .JPG file) and also a folder that has the same name as the benign file, and the contents of the folder (which may include executable content) are processed during an attempt to access only the benign file. This was exploited in the wild in April through October 2023.
 </code>
 
 - [BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc](https://github.com/BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc)
@@ -23868,6 +23868,7 @@
 - [d3fudd/CVE-2019-9978_Exploit](https://github.com/d3fudd/CVE-2019-9978_Exploit)
 - [grimlockx/CVE-2019-9978](https://github.com/grimlockx/CVE-2019-9978)
 - [h8handles/CVE-2019-9978-Python3](https://github.com/h8handles/CVE-2019-9978-Python3)
+- [20dani09/CVE-2019-9978](https://github.com/20dani09/CVE-2019-9978)
 
 ### CVE-2019-10008 (2019-04-24)
 
@@ -27758,7 +27759,7 @@
 - [lalishasanduwara/CVE-2018-10933](https://github.com/lalishasanduwara/CVE-2018-10933)
 - [JoSecMx/CVE-2018-10933_Scanner](https://github.com/JoSecMx/CVE-2018-10933_Scanner)
 - [cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933)
-- [EmmanuelCruzL/CVE-2018-10933](https://github.com/EmmanuelCruzL/CVE-2018-10933)
+- [Rubikcuv5/CVE-2018-10933](https://github.com/Rubikcuv5/CVE-2018-10933)
 - [SilasSpringer/CVE-2018-10933](https://github.com/SilasSpringer/CVE-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
@@ -35678,7 +35679,7 @@
 <code>Error handling in the SSH protocol in (1) SSH Tectia Client and Server and Connector 4.0 through 4.4.11, 5.0 through 5.2.4, and 5.3 through 5.3.8; Client and Server and ConnectSecure 6.0 through 6.0.4; Server for Linux on IBM System z 6.0.4; Server for IBM z/OS 5.5.1 and earlier, 6.0.0, and 6.0.1; and Client 4.0-J through 4.3.3-J and 4.0-K through 4.3.10-K; and (2) OpenSSH 4.7p1 and possibly other versions, when using a block cipher algorithm in Cipher Block Chaining (CBC) mode, makes it easier for remote attackers to recover certain plaintext data from an arbitrary block of ciphertext in an SSH session via unknown vectors.
 </code>
 
-- [pankajjarial360/OpenSSH_4.7p1](https://github.com/pankajjarial360/OpenSSH_4.7p1)
+- [pankajjarial-dev/OpenSSH_4.7p1](https://github.com/pankajjarial-dev/OpenSSH_4.7p1)
 
 ### CVE-2008-5416 (2008-12-10)
 
