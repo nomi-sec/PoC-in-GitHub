@@ -231,6 +231,7 @@
 </code>
 
 - [deIndra/CVE-2023-1698](https://github.com/deIndra/CVE-2023-1698)
+- [thedarknessdied/WAGO-CVE-2023-1698](https://github.com/thedarknessdied/WAGO-CVE-2023-1698)
 
 ### CVE-2023-1767 (2023-04-20)
 
@@ -759,7 +760,11 @@
 
 - [PH03N1XSP/CVE-2023-5024](https://github.com/PH03N1XSP/CVE-2023-5024)
 
-### CVE-2023-5070
+### CVE-2023-5070 (2023-10-20)
+
+<code>The Social Media Share Buttons &amp; Social Sharing Icons plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 2.8.5 via the sfsi_save_export function. This can allow subscribers to export plugin settings that include social media authentication tokens and secrets as well as app passwords.
+</code>
+
 - [RandomRobbieBF/CVE-2023-5070](https://github.com/RandomRobbieBF/CVE-2023-5070)
 
 ### CVE-2023-5142 (2023-09-24)
@@ -863,10 +868,11 @@
 - [ZephrFish/Cisco-IOS-XE-Scanner](https://github.com/ZephrFish/Cisco-IOS-XE-Scanner)
 - [moonrockcowboy/CVE-2023-20198-scanner](https://github.com/moonrockcowboy/CVE-2023-20198-scanner)
 - [JoyGhoshs/CVE-2023-20198](https://github.com/JoyGhoshs/CVE-2023-20198)
-- [cert-orangecyberdefense/Cisco_CVE-2023-20198](https://github.com/cert-orangecyberdefense/Cisco_CVE-2023-20198)
 - [Tounsi007/CVE-2023-20198](https://github.com/Tounsi007/CVE-2023-20198)
 - [alekos3/CVE_2023_20198_Detector](https://github.com/alekos3/CVE_2023_20198_Detector)
 - [ditekshen/ansible-cve-2023-20198](https://github.com/ditekshen/ansible-cve-2023-20198)
+- [reket99/Cisco_CVE-2023-20198](https://github.com/reket99/Cisco_CVE-2023-20198)
+- [m474r5/CVE-2023-20198-RCE](https://github.com/m474r5/CVE-2023-20198-RCE)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -944,6 +950,7 @@
 </code>
 
 - [Chal13W1zz/BadParcel](https://github.com/Chal13W1zz/BadParcel)
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20963)
 
 ### CVE-2023-21036 (2023-03-24)
 
@@ -1180,6 +1187,7 @@
 - [Le1a/CVE-2023-22515](https://github.com/Le1a/CVE-2023-22515)
 - [Vulnmachines/confluence-cve-2023-22515](https://github.com/Vulnmachines/confluence-cve-2023-22515)
 - [iveresk/CVE-2023-22515](https://github.com/iveresk/CVE-2023-22515)
+- [youcannotseemeagain/CVE-2023-22515_RCE](https://github.com/youcannotseemeagain/CVE-2023-22515_RCE)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -1385,6 +1393,7 @@
 - [Sweelg/CVE-2023-23752](https://github.com/Sweelg/CVE-2023-23752)
 - [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
 - [k0valskia/CVE-2023-23752](https://github.com/k0valskia/CVE-2023-23752)
+- [yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -1892,8 +1901,6 @@
 - [lexfo/xortigate-cve-2023-27997](https://github.com/lexfo/xortigate-cve-2023-27997)
 - [delsploit/CVE-2023-27997](https://github.com/delsploit/CVE-2023-27997)
 - [Aicks/FortiGate-CVE-2023-27997](https://github.com/Aicks/FortiGate-CVE-2023-27997)
-- [m474r5/CVE-2023-27997-POC](https://github.com/m474r5/CVE-2023-27997-POC)
-- [m474r5/CVE-2023-27997-findings](https://github.com/m474r5/CVE-2023-27997-findings)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -1989,6 +1996,7 @@
 - [CHINA-china/MinIO_CVE-2023-28432_EXP](https://github.com/CHINA-china/MinIO_CVE-2023-28432_EXP)
 - [TaroballzChen/CVE-2023-28432-metasploit-scanner](https://github.com/TaroballzChen/CVE-2023-28432-metasploit-scanner)
 - [bingtangbanli/CVE-2023-28432](https://github.com/bingtangbanli/CVE-2023-28432)
+- [yTxZx/CVE-2023-28432](https://github.com/yTxZx/CVE-2023-28432)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -3891,7 +3899,7 @@
 ### CVE-2023-40297
 - [sahar042/CVE-2023-40297](https://github.com/sahar042/CVE-2023-40297)
 
-### CVE-2023-40361 (-)
+### CVE-2023-40361 (2023-10-20)
 
 <code>SECUDOS Qiata (DOMOS OS) 4.13 has Insecure Permissions for the previewRm.sh daily cronjob. To exploit this, an attacker needs access as a low-privileged user to the underlying DOMOS system. Every user on the system has write permission for previewRm.sh, which is executed by the root user.
 </code>
@@ -4077,6 +4085,7 @@
 
 - [HolyGu/CVE-2023-42442](https://github.com/HolyGu/CVE-2023-42442)
 - [tarimoe/blackjump](https://github.com/tarimoe/blackjump)
+- [C1ph3rX13/CVE-2023-42442](https://github.com/C1ph3rX13/CVE-2023-42442)
 
 ### CVE-2023-42468 (2023-09-13)
 
@@ -4536,6 +4545,9 @@
 </code>
 
 - [ahrixia/CVE-2023-45542](https://github.com/ahrixia/CVE-2023-45542)
+
+### CVE-2023-45657
+- [RandomRobbieBF/CVE-2023-45657](https://github.com/RandomRobbieBF/CVE-2023-45657)
 
 ### CVE-2023-45828
 - [RandomRobbieBF/CVE-2023-45828](https://github.com/RandomRobbieBF/CVE-2023-45828)
@@ -27146,6 +27158,13 @@
 </code>
 
 - [yanissec/CVE-2018-7843](https://github.com/yanissec/CVE-2018-7843)
+
+### CVE-2018-7844 (2019-05-22)
+
+<code>A CWE-200: Information Exposure vulnerability exists in all versions of the Modicon M580, Modicon M340, Modicon Quantum, and Modicon Premium which could cause the disclosure of SNMP information when reading memory blocks from the controller over Modbus.
+</code>
+
+- [yanissec/CVE-2018-7844](https://github.com/yanissec/CVE-2018-7844)
 
 ### CVE-2018-7935 (2023-02-10)
 
