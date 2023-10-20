@@ -225,6 +225,13 @@
 - [W01fh4cker/CVE-2023-1671-POC](https://github.com/W01fh4cker/CVE-2023-1671-POC)
 - [csffs/cve-2023-1671](https://github.com/csffs/cve-2023-1671)
 
+### CVE-2023-1698 (2023-05-15)
+
+<code>In multiple products of WAGO a vulnerability allows an unauthenticated, remote attacker to create new users and change the device configuration which can result in unintended behaviour, Denial of Service and full system compromise.
+</code>
+
+- [deIndra/CVE-2023-1698](https://github.com/deIndra/CVE-2023-1698)
+
 ### CVE-2023-1767 (2023-04-20)
 
 <code>The Snyk Advisor website (https://snyk.io/advisor/) was vulnerable to a stored XSS prior to 28th March 2023. A feature of Snyk Advisor is to display the contents of a scanned package's Readme on its package health page. An attacker could create a package in NPM with an associated markdown README file containing XSS-able HTML tags. Upon Snyk Advisor importing the package, the XSS would run each time an end user browsed to the package's page on Snyk Advisor.
@@ -2923,6 +2930,13 @@
 - [Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040](https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040)
 - [pyn3rd/CVE-2023-34040](https://github.com/pyn3rd/CVE-2023-34040)
 
+### CVE-2023-34050 (2023-10-19)
+
+<code>\n\n\n\n\n\n\n\n\n\nIn spring AMQP versions 1.0.0 to\n2.4.16 and 3.0.0 to 3.0.9 , allowed list patterns for deserializable class\nnames were added to Spring AMQP, allowing users to lock down deserialization of\ndata in messages from untrusted sources; however by default, when no allowed\nlist was provided, all classes could be deserialized.\n\n\n\nSpecifically, an application is\nvulnerable if\n\n\n\n\n   *  the\n     SimpleMessageConverter or SerializerMessageConverter is used\n\n   *  the user\n     does not configure allowed list patterns\n\n   *  untrusted\n     message originators gain permissions to write messages to the RabbitMQ\n     broker to send malicious content\n\n\n\n\n\n\n\n\n\n
+</code>
+
+- [X1r0z/spring-amqp-deserialization](https://github.com/X1r0z/spring-amqp-deserialization)
+
 ### CVE-2023-34096 (2023-06-08)
 
 <code>Thruk is a multibackend monitoring webinterface which currently supports Naemon, Icinga, Shinken and Nagios as backends. In versions 3.06 and prior, the file `panorama.pm` is vulnerable to a Path Traversal vulnerability which allows an attacker to upload a file to any folder which has write permissions on the affected system. The parameter location is not filtered, validated or sanitized and it accepts any kind of characters. For a path traversal attack, the only characters required were the dot (`.`) and the slash (`/`). A fix is available in version 3.06.2.
@@ -3330,6 +3344,7 @@
 
 - [chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802](https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802)
 - [4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802)
+- [x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE)
 
 ### CVE-2023-36812 (2023-06-30)
 
@@ -3876,7 +3891,11 @@
 ### CVE-2023-40297
 - [sahar042/CVE-2023-40297](https://github.com/sahar042/CVE-2023-40297)
 
-### CVE-2023-40361
+### CVE-2023-40361 (-)
+
+<code>SECUDOS Qiata (DOMOS OS) 4.13 has Insecure Permissions for the previewRm.sh daily cronjob. To exploit this, an attacker needs access as a low-privileged user to the underlying DOMOS system. Every user on the system has write permission for previewRm.sh, which is executed by the root user.
+</code>
+
 - [vianic/CVE-2023-40361](https://github.com/vianic/CVE-2023-40361)
 
 ### CVE-2023-40429 (2023-09-26)
@@ -4497,7 +4516,11 @@
 
 - [ggb0n/CVE-2023-44962](https://github.com/ggb0n/CVE-2023-44962)
 
-### CVE-2023-45471
+### CVE-2023-45471 (2023-10-19)
+
+<code>The QAD Search Server is vulnerable to Stored Cross-Site Scripting (XSS) in versions up to, and including, 1.0.0.315 due to insufficient checks on indexes. This makes it possible for unauthenticated attackers to create a new index and inject a malicious web script into its name, that will execute whenever a user accesses the search page.
+</code>
+
 - [itsAptx/CVE-2023-45471](https://github.com/itsAptx/CVE-2023-45471)
 
 ### CVE-2023-45540 (2023-10-16)
@@ -10421,7 +10444,7 @@
 - [taythebot/CVE-2022-46169](https://github.com/taythebot/CVE-2022-46169)
 - [Inplex-sys/CVE-2022-46169](https://github.com/Inplex-sys/CVE-2022-46169)
 - [sAsPeCt488/CVE-2022-46169](https://github.com/sAsPeCt488/CVE-2022-46169)
-- [deadyP00l/CVE-2022-46169](https://github.com/deadyP00l/CVE-2022-46169)
+- [botfather0x0/CVE-2022-46169](https://github.com/botfather0x0/CVE-2022-46169)
 - [Habib0x0/CVE-2022-46169](https://github.com/Habib0x0/CVE-2022-46169)
 - [N1arut/CVE-2022-46169_POC](https://github.com/N1arut/CVE-2022-46169_POC)
 - [miko550/CVE-2022-46169](https://github.com/miko550/CVE-2022-46169)
@@ -17982,7 +18005,7 @@
 - [RicYaben/CVE-2020-1472-LAB](https://github.com/RicYaben/CVE-2020-1472-LAB)
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
-- [deadyP00l/ZeroLogon-to-Shell](https://github.com/deadyP00l/ZeroLogon-to-Shell)
+- [botfather0x0/ZeroLogon-to-Shell](https://github.com/botfather0x0/ZeroLogon-to-Shell)
 
 ### CVE-2020-1493 (2020-08-17)
 
