@@ -2089,6 +2089,7 @@
 </code>
 
 - [Nero22k/cve-2023-29360](https://github.com/Nero22k/cve-2023-29360)
+- [exotikcheat/cve-2023-29360](https://github.com/exotikcheat/cve-2023-29360)
 
 ### CVE-2023-29409 (2023-08-02)
 
@@ -3328,6 +3329,7 @@
 </code>
 
 - [chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802](https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802)
+- [4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802)
 
 ### CVE-2023-36812 (2023-06-30)
 
@@ -4201,13 +4203,25 @@
 
 - [sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43339-CMSmadesimple-Reflected-XSS---Installation)
 
-### CVE-2023-43340
+### CVE-2023-43340 (2023-10-19)
+
+<code>Cross-site scripting (XSS) vulnerability in evolution v.3.2.3 allows a local attacker to execute arbitrary code via a crafted payload injected into the cmsadmin, cmsadminemail, cmspassword and cmspasswordconfim parameters
+</code>
+
 - [sromanhu/-CVE-2023-43340-Evolution-Reflected-XSS---Installation-Admin-Options](https://github.com/sromanhu/-CVE-2023-43340-Evolution-Reflected-XSS---Installation-Admin-Options)
 
-### CVE-2023-43341
+### CVE-2023-43341 (2023-10-19)
+
+<code>Cross-site scripting (XSS) vulnerability in evolution evo v.3.2.3 allows a local attacker to execute arbitrary code via a crafted payload injected uid parameter.
+</code>
+
 - [sromanhu/CVE-2023-43341-Evolution-Reflected-XSS---Installation-Connection-](https://github.com/sromanhu/CVE-2023-43341-Evolution-Reflected-XSS---Installation-Connection-)
 
-### CVE-2023-43342
+### CVE-2023-43342 (2023-10-19)
+
+<code>Cross-site scripting (XSS) vulnerability in opensolution Quick CMS v.6.7 allows a local attacker to execute arbitrary code via a crafted script to the Languages Menu component.
+</code>
+
 - [sromanhu/CVE-2023-43342-Quick-CMS-Stored-XSS---Languages-Frontend](https://github.com/sromanhu/CVE-2023-43342-Quick-CMS-Stored-XSS---Languages-Frontend)
 
 ### CVE-2023-43343 (2023-10-05)
@@ -4217,10 +4231,18 @@
 
 - [sromanhu/CVE-2023-43343-Quick-CMS-Stored-XSS---Pages-Files](https://github.com/sromanhu/CVE-2023-43343-Quick-CMS-Stored-XSS---Pages-Files)
 
-### CVE-2023-43344
+### CVE-2023-43344 (2023-10-19)
+
+<code>Cross-site scripting (XSS) vulnerability in opensolution Quick CMS v.6.7 allows a local attacker to execute arbitrary code via a crafted script to the SEO - Meta description parameter in the Pages Menu component.
+</code>
+
 - [sromanhu/CVE-2023-43344-Quick-CMS-Stored-XSS---SEO-Meta-description](https://github.com/sromanhu/CVE-2023-43344-Quick-CMS-Stored-XSS---SEO-Meta-description)
 
-### CVE-2023-43345
+### CVE-2023-43345 (2023-10-19)
+
+<code>Cross-site scripting (XSS) vulnerability in opensolution Quick CMS v.6.7 allows a local attacker to execute arbitrary code via a crafted script to the Content - Name parameter in the Pages Menu component.
+</code>
+
 - [sromanhu/CVE-2023-43345-Quick-CMS-Stored-XSS---Pages-Content](https://github.com/sromanhu/CVE-2023-43345-Quick-CMS-Stored-XSS---Pages-Content)
 
 ### CVE-2023-43346
@@ -4247,7 +4269,11 @@
 ### CVE-2023-43358
 - [sromanhu/CVE-2023-43358-CMSmadesimple-Stored-XSS---News](https://github.com/sromanhu/CVE-2023-43358-CMSmadesimple-Stored-XSS---News)
 
-### CVE-2023-43359
+### CVE-2023-43359 (2023-10-19)
+
+<code>Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Page Specific Metadata and Smarty data parameters in the Content Manager Menu component.
+</code>
+
 - [sromanhu/CVE-2023-43359-CMSmadesimple-Stored-XSS----Content-Manager](https://github.com/sromanhu/CVE-2023-43359-CMSmadesimple-Stored-XSS----Content-Manager)
 
 ### CVE-2023-43360
@@ -4310,7 +4336,11 @@
 
 - [sromanhu/CVE-2023-43874-e107-CMS-Stored-XSS---MetaCustomTags](https://github.com/sromanhu/CVE-2023-43874-e107-CMS-Stored-XSS---MetaCustomTags)
 
-### CVE-2023-43875
+### CVE-2023-43875 (2023-10-19)
+
+<code>Multiple Cross-Site Scripting (XSS) vulnerabilities in installation of Subrion CMS v.4.2.1 allows a local attacker to execute arbitrary web scripts via a crafted payload injected into the dbhost, dbname, dbuser, adminusername and adminemail.
+</code>
+
 - [sromanhu/CVE-2023-43875-Subrion-CMS-Reflected-XSS---Installation](https://github.com/sromanhu/CVE-2023-43875-Subrion-CMS-Reflected-XSS---Installation)
 
 ### CVE-2023-43876 (2023-09-28)
@@ -4493,7 +4523,11 @@
 ### CVE-2023-45966
 - [jet-pentest/CVE-2023-45966](https://github.com/jet-pentest/CVE-2023-45966)
 
-### CVE-2023-45992
+### CVE-2023-45992 (2023-10-19)
+
+<code>Cross Site Scripting vulnerability in Ruckus Wireless (CommScope) Ruckus CloudPath v.5.12.54414 allows a remote attacker to escalate privileges via a crafted script to the macaddress parameter in the onboarding portal.
+</code>
+
 - [harry935/CVE-2023-45992](https://github.com/harry935/CVE-2023-45992)
 
 ### CVE-2023-46003
@@ -15683,6 +15717,7 @@
 </code>
 
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
+- [timb-machine-mirrors/testanull-CVE-2021-42321_poc.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-42321_poc.py)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 - [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
 
@@ -16544,6 +16579,8 @@
 - [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
+- [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
+- [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
@@ -17729,6 +17766,13 @@
 - [skasanagottu57gmailv/gerhart01](https://github.com/skasanagottu57gmailv/gerhart01)
 - [MarcelloTinocor/gerhart01](https://github.com/MarcelloTinocor/gerhart01)
 
+### CVE-2020-0910 (2020-04-15)
+
+<code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'.
+</code>
+
+- [kfmgang/CVE-2020-0910](https://github.com/kfmgang/CVE-2020-0910)
+
 ### CVE-2020-0976 (2020-04-15)
 
 <code>A spoofing vulnerability exists when Microsoft SharePoint Server does not properly sanitize a specially crafted web request to an affected SharePoint server, aka 'Microsoft SharePoint Spoofing Vulnerability'. This CVE ID is unique from CVE-2020-0972, CVE-2020-0975, CVE-2020-0977.
@@ -17919,6 +17963,7 @@
 - [JayP232/The_big_Zero](https://github.com/JayP232/The_big_Zero)
 - [b1ack0wl/CVE-2020-1472](https://github.com/b1ack0wl/CVE-2020-1472)
 - [SaharAttackit/CVE-2020-1472](https://github.com/SaharAttackit/CVE-2020-1472)
+- [wrathfulDiety/zerologon](https://github.com/wrathfulDiety/zerologon)
 - [YossiSassi/ZeroLogon-Exploitation-Check](https://github.com/YossiSassi/ZeroLogon-Exploitation-Check)
 - [sho-luv/zerologon](https://github.com/sho-luv/zerologon)
 - [hell-moon/ZeroLogon-Exploit](https://github.com/hell-moon/ZeroLogon-Exploit)
@@ -17959,6 +18004,13 @@
 </code>
 
 - [jpts/cve-2020-1764-poc](https://github.com/jpts/cve-2020-1764-poc)
+
+### CVE-2020-1937 (2020-02-24)
+
+<code>Kylin has some restful apis which will concatenate SQLs with the user input string, a user is likely to be able to run malicious database queries.
+</code>
+
+- [shanika04/apache_kylin](https://github.com/shanika04/apache_kylin)
 
 ### CVE-2020-1938 (2020-02-24)
 
@@ -18762,6 +18814,7 @@
 - [shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui](https://github.com/shacojx/LifeRCEJsonWSTool-POC-CVE-2020-7961-Gui)
 - [shacojx/GLiferay-CVE-2020-7961-golang](https://github.com/shacojx/GLiferay-CVE-2020-7961-golang)
 - [shacojx/POC-CVE-2020-7961-Token-iterate](https://github.com/shacojx/POC-CVE-2020-7961-Token-iterate)
+- [Udyz/CVE-2020-7961-Mass](https://github.com/Udyz/CVE-2020-7961-Mass)
 - [ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961)
 - [pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass)
 
@@ -18810,6 +18863,7 @@
 - [masahiro331/CVE-2020-8165](https://github.com/masahiro331/CVE-2020-8165)
 - [umiterkol/CVE-2020-8165--Auto-Shell](https://github.com/umiterkol/CVE-2020-8165--Auto-Shell)
 - [taipansec/CVE-2020-8165](https://github.com/taipansec/CVE-2020-8165)
+- [hybryx/CVE-2020-8165](https://github.com/hybryx/CVE-2020-8165)
 - [AssassinUKG/CVE-2020-8165](https://github.com/AssassinUKG/CVE-2020-8165)
 - [progfay/CVE-2020-8165](https://github.com/progfay/CVE-2020-8165)
 - [danielklim/cve-2020-8165-demo](https://github.com/danielklim/cve-2020-8165-demo)
@@ -18861,6 +18915,13 @@
 
 - [masahiro331/CVE-2020-8277](https://github.com/masahiro331/CVE-2020-8277)
 - [AndrewIjano/CVE-2020-8277](https://github.com/AndrewIjano/CVE-2020-8277)
+
+### CVE-2020-8287 (2021-01-06)
+
+<code>Node.js versions before 10.23.1, 12.20.1, 14.15.4, 15.5.1 allow two copies of a header field in an HTTP request (for example, two Transfer-Encoding header fields). In this case, Node.js identifies the first header field and ignores the second. This can lead to HTTP Request Smuggling.
+</code>
+
+- [progfay/nodejs-http-transfer-encoding-smuggling-poc](https://github.com/progfay/nodejs-http-transfer-encoding-smuggling-poc)
 
 ### CVE-2020-8289 (2020-12-26)
 
@@ -19182,6 +19243,7 @@
 <code>**Resolved** When use H2/MySQL/TiDB as Apache SkyWalking storage, the metadata query through GraphQL protocol, there is a SQL injection vulnerability, which allows to access unpexcted data. Apache SkyWalking 6.0.0 to 6.6.0, 7.0.0 H2/MySQL/TiDB storage implementations don't use the appropriate way to set SQL parameters.
 </code>
 
+- [shanika04/apache_skywalking](https://github.com/shanika04/apache_skywalking)
 - [Neko-chanQwQ/CVE-2020-9483](https://github.com/Neko-chanQwQ/CVE-2020-9483)
 
 ### CVE-2020-9484 (2020-05-20)
@@ -19197,6 +19259,7 @@
 - [osamahamad/CVE-2020-9484-Mass-Scan](https://github.com/osamahamad/CVE-2020-9484-Mass-Scan)
 - [anjai94/CVE-2020-9484-exploit](https://github.com/anjai94/CVE-2020-9484-exploit)
 - [PenTestical/CVE-2020-9484](https://github.com/PenTestical/CVE-2020-9484)
+- [DanQMoo/CVE-2020-9484-Scanner](https://github.com/DanQMoo/CVE-2020-9484-Scanner)
 - [AssassinUKG/CVE-2020-9484](https://github.com/AssassinUKG/CVE-2020-9484)
 - [VICXOR/CVE-2020-9484](https://github.com/VICXOR/CVE-2020-9484)
 - [DXY0411/CVE-2020-9484](https://github.com/DXY0411/CVE-2020-9484)
@@ -19338,6 +19401,8 @@
 </code>
 
 - [rdoix/CVE-2020-10148-Solarwinds-Orion](https://github.com/rdoix/CVE-2020-10148-Solarwinds-Orion)
+- [Udyz/CVE-2020-10148-Solarwinds-Orion](https://github.com/Udyz/CVE-2020-10148-Solarwinds-Orion)
+- [B1anda0/CVE-2020-10148](https://github.com/B1anda0/CVE-2020-10148)
 
 ### CVE-2020-10189 (2020-03-06)
 
@@ -20725,6 +20790,7 @@
 <code>Apache Flink 1.5.1 introduced a REST handler that allows you to write an uploaded file to an arbitrary location on the local file system, through a maliciously modified HTTP HEADER. The files can be written to any location accessible by Flink 1.5.1. All users should upgrade to Flink 1.11.3 or 1.12.0 if their Flink instance(s) are exposed. The issue was fixed in commit a5264a6f41524afe8ceadf1d8ddc8c80f323ebc4 from apache/flink:master.
 </code>
 
+- [QmF0c3UK/CVE-2020-17518](https://github.com/QmF0c3UK/CVE-2020-17518)
 - [murataydemir/CVE-2020-17518](https://github.com/murataydemir/CVE-2020-17518)
 - [rakjong/Flink-CVE-2020-17518-getshell](https://github.com/rakjong/Flink-CVE-2020-17518-getshell)
 
@@ -20734,6 +20800,7 @@
 </code>
 
 - [B1anda0/CVE-2020-17519](https://github.com/B1anda0/CVE-2020-17519)
+- [QmF0c3UK/CVE-2020-17519](https://github.com/QmF0c3UK/CVE-2020-17519)
 - [dolevf/apache-flink-directory-traversal.nse](https://github.com/dolevf/apache-flink-directory-traversal.nse)
 - [hoanx4/CVE-2020-17519](https://github.com/hoanx4/CVE-2020-17519)
 - [murataydemir/CVE-2020-17519](https://github.com/murataydemir/CVE-2020-17519)
@@ -21205,6 +21272,13 @@
 
 ### CVE-2020-25488
 - [Ko-kn3t/CVE-2020-25488](https://github.com/Ko-kn3t/CVE-2020-25488)
+
+### CVE-2020-25498 (2021-01-06)
+
+<code>Cross Site Scripting (XSS) vulnerability in Beetel router 777VR1 can be exploited via the NTP server name in System Time and &quot;Keyword&quot; in URL Filter.
+</code>
+
+- [the-girl-who-lived/CVE-2020-25498](https://github.com/the-girl-who-lived/CVE-2020-25498)
 
 ### CVE-2020-25514 (2020-09-22)
 
@@ -21753,6 +21827,13 @@
 
 - [nanopathi/linux-4.19.72_CVE-2020-29370](https://github.com/nanopathi/linux-4.19.72_CVE-2020-29370)
 
+### CVE-2020-29583 (2020-12-22)
+
+<code>Firmware version 4.60 of Zyxel USG devices contains an undocumented account (zyfwp) with an unchangeable password. The password for this account can be found in cleartext in the firmware. This account can be used by someone to login to the ssh server or web interface with admin privileges.
+</code>
+
+- [ruppde/scan_CVE-2020-29583](https://github.com/ruppde/scan_CVE-2020-29583)
+
 ### CVE-2020-29599 (2020-12-07)
 
 <code>ImageMagick before 6.9.11-40 and 7.x before 7.0.10-40 mishandles the -authenticate option, which allows setting a password for password-protected PDF files. The user-controlled password was not properly escaped/sanitized and it was therefore possible to inject additional shell commands via coders/pdf.c.
@@ -21794,6 +21875,13 @@
 </code>
 
 - [megadimenex/MegaHiDocker](https://github.com/megadimenex/MegaHiDocker)
+
+### CVE-2020-35262 (2021-01-06)
+
+<code>Cross Site Scripting (XSS) vulnerability in Digisol DG-HR3400 can be exploited via the NTP server name in Time and date module and &quot;Keyword&quot; in URL Filter.
+</code>
+
+- [the-girl-who-lived/CVE-2020-35262](https://github.com/the-girl-who-lived/CVE-2020-35262)
 
 ### CVE-2020-35314 (2021-04-20)
 
@@ -21884,6 +21972,13 @@
 </code>
 
 - [Al1ex/CVE-2020-35713](https://github.com/Al1ex/CVE-2020-35713)
+
+### CVE-2020-35717 (2021-01-01)
+
+<code>zonote through 0.4.0 allows XSS via a crafted note, with resultant Remote Code Execution (because nodeIntegration in webPreferences is true).
+</code>
+
+- [hmartos/cve-2020-35717](https://github.com/hmartos/cve-2020-35717)
 
 ### CVE-2020-35728 (2020-12-26)
 
@@ -25628,7 +25723,6 @@
 - [r4ulcl/CVE-2019-19781](https://github.com/r4ulcl/CVE-2019-19781)
 - [nmanzi/webcvescanner](https://github.com/nmanzi/webcvescanner)
 - [darren646/CVE-2019-19781POC](https://github.com/darren646/CVE-2019-19781POC)
-- [5l1v3r1/Citrix_CVE-2019-19781](https://github.com/5l1v3r1/Citrix_CVE-2019-19781)
 - [Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201](https://github.com/Roshi99/Remote-Code-Execution-Exploit-for-Citrix-Application-Delivery-Controller-and-Citrix-Gateway-CVE-201)
 - [yukar1z0e/CVE-2019-19781](https://github.com/yukar1z0e/CVE-2019-19781)
 - [SharpHack/CVE-2019-19781](https://github.com/SharpHack/CVE-2019-19781)
@@ -29464,6 +29558,7 @@
 - [homjxi0e/CVE-2017-3881-exploit-cisco-](https://github.com/homjxi0e/CVE-2017-3881-exploit-cisco-)
 - [homjxi0e/CVE-2017-3881-Cisco](https://github.com/homjxi0e/CVE-2017-3881-Cisco)
 - [mzakyz666/PoC-CVE-2017-3881](https://github.com/mzakyz666/PoC-CVE-2017-3881)
+- [1337g/CVE-2017-3881](https://github.com/1337g/CVE-2017-3881)
 
 ### CVE-2017-4490
 - [homjxi0e/CVE-2017-4490-](https://github.com/homjxi0e/CVE-2017-4490-)
@@ -29671,6 +29766,9 @@
 </code>
 
 - [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack)
+- [EdwardOwusuAdjei/Spectre-PoC](https://github.com/EdwardOwusuAdjei/Spectre-PoC)
+- [poilynx/spectre-attack-example](https://github.com/poilynx/spectre-attack-example)
+- [pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo)
 - [ixtal23/spectreScope](https://github.com/ixtal23/spectreScope)
 - [albertleecn/cve-2017-5753](https://github.com/albertleecn/cve-2017-5753)
 - [sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-](https://github.com/sachinthaBS/Spectre-Vulnerability-CVE-2017-5753-)
@@ -29683,6 +29781,7 @@
 - [ionescu007/SpecuCheck](https://github.com/ionescu007/SpecuCheck)
 - [raphaelsc/Am-I-affected-by-Meltdown](https://github.com/raphaelsc/Am-I-affected-by-Meltdown)
 - [Viralmaniar/In-Spectre-Meltdown](https://github.com/Viralmaniar/In-Spectre-Meltdown)
+- [speecyy/Am-I-affected-by-Meltdown](https://github.com/speecyy/Am-I-affected-by-Meltdown)
 - [zzado/Meltdown](https://github.com/zzado/Meltdown)
 - [jdmulloy/meltdown-aws-scanner](https://github.com/jdmulloy/meltdown-aws-scanner)
 
@@ -30431,6 +30530,7 @@
 - [ZH3FENG/PoCs-Weblogic_2017_10271](https://github.com/ZH3FENG/PoCs-Weblogic_2017_10271)
 - [c0mmand3rOpSec/CVE-2017-10271](https://github.com/c0mmand3rOpSec/CVE-2017-10271)
 - [Luffin/CVE-2017-10271](https://github.com/Luffin/CVE-2017-10271)
+- [cjjduck/weblogic_wls_wsat_rce](https://github.com/cjjduck/weblogic_wls_wsat_rce)
 - [kkirsche/CVE-2017-10271](https://github.com/kkirsche/CVE-2017-10271)
 - [pssss/CVE-2017-10271](https://github.com/pssss/CVE-2017-10271)
 - [SuperHacker-liuan/cve-2017-10271-poc](https://github.com/SuperHacker-liuan/cve-2017-10271-poc)
@@ -31063,6 +31163,13 @@
 - [fei9747/CVE-2017-16995](https://github.com/fei9747/CVE-2017-16995)
 - [anldori/CVE-2017-16995](https://github.com/anldori/CVE-2017-16995)
 
+### CVE-2017-16997 (2017-12-17)
+
+<code>elf/dl-load.c in the GNU C Library (aka glibc or libc6) 2.19 through 2.26 mishandles RPATH and RUNPATH containing $ORIGIN for a privileged (setuid or AT_SECURE) program, which allows local users to gain privileges via a Trojan horse library in the current working directory, related to the fillin_rpath and decompose_rpath functions. This is associated with misinterpretion of an empty RPATH/RUNPATH token as the &quot;./&quot; directory. NOTE: this configuration of RPATH/RUNPATH for a privileged program is apparently very uncommon; most likely, no such program is shipped with any common Linux distribution.
+</code>
+
+- [Xiami2012/CVE-2017-16997-poc](https://github.com/Xiami2012/CVE-2017-16997-poc)
+
 ### CVE-2017-17058 (2017-11-29)
 
 <code>** DISPUTED ** The WooCommerce plugin through 3.x for WordPress has a Directory Traversal Vulnerability via a /wp-content/plugins/woocommerce/templates/emails/plain/ URI, which accesses a parent directory. NOTE: a software maintainer indicates that Directory Traversal is not possible because all of the template files have &quot;if (!defined('ABSPATH')) {exit;}&quot; code.
@@ -31116,6 +31223,13 @@
 - [crispy-peppers/Goahead-CVE-2017-17562](https://github.com/crispy-peppers/Goahead-CVE-2017-17562)
 - [nu11pointer/goahead-rce-exploit](https://github.com/nu11pointer/goahead-rce-exploit)
 - [freitzzz/bash-CVE-2017-17562](https://github.com/freitzzz/bash-CVE-2017-17562)
+
+### CVE-2017-17692 (2017-12-21)
+
+<code>Samsung Internet Browser 5.4.02.3 allows remote attackers to bypass the Same Origin Policy and obtain sensitive information via crafted JavaScript code that redirects to a child tab and rewrites the innerHTML property.
+</code>
+
+- [specloli/CVE-2017-17692](https://github.com/specloli/CVE-2017-17692)
 
 ### CVE-2017-17736 (2018-03-23)
 
@@ -35884,6 +35998,13 @@
 </code>
 
 - [runtimme/cve-2003-0282](https://github.com/runtimme/cve-2003-0282)
+
+### CVE-2003-0358 (2003-05-30)
+
+<code>Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
+</code>
+
+- [snowcra5h/CVE-2003-0358](https://github.com/snowcra5h/CVE-2003-0358)
 
 
 ## 2002
