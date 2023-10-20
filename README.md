@@ -589,6 +589,13 @@
 
 - [zh-byte/CVE-2023-3836](https://github.com/zh-byte/CVE-2023-3836)
 
+### CVE-2023-3971 (2023-10-04)
+
+<code>An HTML injection flaw was found in Controller in the user interface settings. This flaw allows an attacker to capture credentials by creating a custom login page by injecting HTML, resulting in a complete compromise.
+</code>
+
+- [ashangp923/CVE-2023-3971](https://github.com/ashangp923/CVE-2023-3971)
+
 ### CVE-2023-4128 (2023-08-10)
 
 <code>A use-after-free flaw was found in net/sched/cls_fw.c in classifiers (cls_fw, cls_u32, and cls_route) in the Linux Kernel. This flaw allows a local attacker to perform a local privilege escalation due to incorrect handling of the existing filter, leading to a kernel information leak issue.
@@ -873,6 +880,7 @@
 - [ditekshen/ansible-cve-2023-20198](https://github.com/ditekshen/ansible-cve-2023-20198)
 - [reket99/Cisco_CVE-2023-20198](https://github.com/reket99/Cisco_CVE-2023-20198)
 - [m474r5/CVE-2023-20198-RCE](https://github.com/m474r5/CVE-2023-20198-RCE)
+- [iveresk/cve-2023-20198](https://github.com/iveresk/cve-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -1175,7 +1183,7 @@
 
 ### CVE-2023-22515 (2023-10-04)
 
-<code>Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances.\n\nAtlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue. \n\nFor more details, please review the linked advisory on this CVE.
+<code>Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in publicly accessible Confluence Data Center and Server instances to create unauthorized Confluence administrator accounts and access Confluence instances. \r\n\r\nAtlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue. 
 </code>
 
 - [ErikWynter/CVE-2023-22515-Scan](https://github.com/ErikWynter/CVE-2023-22515-Scan)
@@ -1394,6 +1402,7 @@
 - [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
 - [k0valskia/CVE-2023-23752](https://github.com/k0valskia/CVE-2023-23752)
 - [yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752)
+- [AlissoftCodes/CVE-2023-23752](https://github.com/AlissoftCodes/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -2945,6 +2954,13 @@
 
 - [X1r0z/spring-amqp-deserialization](https://github.com/X1r0z/spring-amqp-deserialization)
 
+### CVE-2023-34051 (2023-10-20)
+
+<code>VMware Aria Operations for Logs contains an authentication bypass vulnerability. An unauthenticated, malicious actor can inject files into the operating system of an impacted appliance which can result in remote code execution.\n
+</code>
+
+- [horizon3ai/CVE-2023-34051](https://github.com/horizon3ai/CVE-2023-34051)
+
 ### CVE-2023-34096 (2023-06-08)
 
 <code>Thruk is a multibackend monitoring webinterface which currently supports Naemon, Icinga, Shinken and Nagios as backends. In versions 3.06 and prior, the file `panorama.pm` is vulnerable to a Path Traversal vulnerability which allows an attacker to upload a file to any folder which has write permissions on the affected system. The parameter location is not filtered, validated or sanitized and it accepts any kind of characters. For a path traversal attack, the only characters required were the dot (`.`) and the slash (`/`). A fix is available in version 3.06.2.
@@ -3686,6 +3702,7 @@
 - [asepsaepdin/CVE-2023-38646](https://github.com/asepsaepdin/CVE-2023-38646)
 - [Pyr0sec/CVE-2023-38646](https://github.com/Pyr0sec/CVE-2023-38646)
 - [birdm4nw/CVE-2023-38646](https://github.com/birdm4nw/CVE-2023-38646)
+- [AnvithLobo/CVE-2023-38646](https://github.com/AnvithLobo/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
