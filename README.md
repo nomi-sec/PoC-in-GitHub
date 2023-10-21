@@ -155,7 +155,7 @@
 
 ### CVE-2023-1112 (2023-03-01)
 
-<code>Es wurde eine kritische Schwachstelle in Drag and Drop Multiple File Upload Contact Form 7 5.0.6.1 ausgemacht. Es geht dabei um eine nicht klar definierte Funktion der Datei admin-ajax.php. Durch Manipulation des Arguments upload_name mit unbekannten Daten kann eine relative path traversal-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+<code>Es wurde eine kritische Schwachstelle in Drag and Drop Multiple File Upload Contact Form 7 5.0.6.1 für WordPress ausgemacht. Es geht dabei um eine nicht klar definierte Funktion der Datei admin-ajax.php. Durch Manipulation des Arguments upload_name mit unbekannten Daten kann eine relative path traversal-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
 - [Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal](https://github.com/Nickguitar/Drag-and-Drop-Multiple-File-Uploader-PRO-Path-Traversal)
@@ -796,6 +796,9 @@
 </code>
 
 - [nomis/eero-zero-length-ipv6-options-header-dos](https://github.com/nomis/eero-zero-length-ipv6-options-header-dos)
+
+### CVE-2023-5360
+- [sagsooz/CVE-2023-5360](https://github.com/sagsooz/CVE-2023-5360)
 
 ### CVE-2023-5521 (2023-10-11)
 
