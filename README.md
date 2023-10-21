@@ -4608,7 +4608,11 @@
 
 - [harry935/CVE-2023-45992](https://github.com/harry935/CVE-2023-45992)
 
-### CVE-2023-46003
+### CVE-2023-46003 (2023-10-20)
+
+<code>I-doit pro 25 and below is vulnerable to Cross Site Scripting (XSS) via index.php.
+</code>
+
 - [leekenghwa/CVE-2023-46003](https://github.com/leekenghwa/CVE-2023-46003)
 
 ### CVE-2023-51504
@@ -12716,6 +12720,7 @@
 - [niandy/nginx-patch](https://github.com/niandy/nginx-patch)
 - [M507/CVE-2021-23017-PoC](https://github.com/M507/CVE-2021-23017-PoC)
 - [lakshit1212/CVE-2021-23017-PoC](https://github.com/lakshit1212/CVE-2021-23017-PoC)
+- [ShivamDey/CVE-2021-23017](https://github.com/ShivamDey/CVE-2021-23017)
 
 ### CVE-2021-23132 (2021-03-04)
 
@@ -35814,6 +35819,7 @@
 - [bdunlap9/CVE-2007-2447_python](https://github.com/bdunlap9/CVE-2007-2447_python)
 - [MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE)
 - [0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447)
+- [ShivamDey/Samba-CVE-2007-2447-Exploit](https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit)
 
 ### CVE-2007-3830 (2007-07-17)
 
