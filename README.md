@@ -881,6 +881,7 @@
 - [reket99/Cisco_CVE-2023-20198](https://github.com/reket99/Cisco_CVE-2023-20198)
 - [m474r5/CVE-2023-20198-RCE](https://github.com/m474r5/CVE-2023-20198-RCE)
 - [iveresk/cve-2023-20198](https://github.com/iveresk/cve-2023-20198)
+- [sohaibeb/CVE-2023-20198](https://github.com/sohaibeb/CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -4070,6 +4071,7 @@
 - [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
 - [hrtowii/cve-2023-41993-test](https://github.com/hrtowii/cve-2023-41993-test)
 - [0x06060606/CVE-2023-41993](https://github.com/0x06060606/CVE-2023-41993)
+- [Mangaia/cve-test](https://github.com/Mangaia/cve-test)
 
 ### CVE-2023-42222 (2023-09-27)
 
@@ -4290,25 +4292,49 @@
 
 - [sromanhu/CVE-2023-43345-Quick-CMS-Stored-XSS---Pages-Content](https://github.com/sromanhu/CVE-2023-43345-Quick-CMS-Stored-XSS---Pages-Content)
 
-### CVE-2023-43346
+### CVE-2023-43346 (2023-10-20)
+
+<code>Cross-site scripting (XSS) vulnerability in opensolution Quick CMS v.6.7 allows a local attacker to execute arbitrary code via a crafted script to the Backend - Dashboard parameter in the Languages Menu component.
+</code>
+
 - [sromanhu/CVE-2023-43346-Quick-CMS-Stored-XSS---Languages-Backend](https://github.com/sromanhu/CVE-2023-43346-Quick-CMS-Stored-XSS---Languages-Backend)
 
 ### CVE-2023-43352
 - [sromanhu/CVE-2023-43352-CMSmadesimple-SSTI--Content](https://github.com/sromanhu/CVE-2023-43352-CMSmadesimple-SSTI--Content)
 
-### CVE-2023-43353
+### CVE-2023-43353 (2023-10-20)
+
+<code>Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the extra parameter in the news menu component.
+</code>
+
 - [sromanhu/CVE-2023-43353-CMSmadesimple-Stored-XSS---News---Extra](https://github.com/sromanhu/CVE-2023-43353-CMSmadesimple-Stored-XSS---News---Extra)
 
-### CVE-2023-43354
+### CVE-2023-43354 (2023-10-20)
+
+<code>Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Profiles parameter in the Extensions -MicroTiny WYSIWYG editor component.
+</code>
+
 - [sromanhu/CVE-2023-43354-CMSmadesimple-Stored-XSS---MicroTIny-extension](https://github.com/sromanhu/CVE-2023-43354-CMSmadesimple-Stored-XSS---MicroTIny-extension)
 
-### CVE-2023-43355
+### CVE-2023-43355 (2023-10-20)
+
+<code>Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the password and password again parameters in the My Preferences - Add user component.
+</code>
+
 - [sromanhu/CVE-2023-43355-CMSmadesimple-Reflected-XSS---Add-user](https://github.com/sromanhu/CVE-2023-43355-CMSmadesimple-Reflected-XSS---Add-user)
 
-### CVE-2023-43356
+### CVE-2023-43356 (2023-10-20)
+
+<code>Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Global Meatadata parameter in the Global Settings Menu component.
+</code>
+
 - [sromanhu/CVE-2023-43356-CMSmadesimple-Stored-XSS---Global-Settings](https://github.com/sromanhu/CVE-2023-43356-CMSmadesimple-Stored-XSS---Global-Settings)
 
-### CVE-2023-43357
+### CVE-2023-43357 (2023-10-20)
+
+<code>Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Title parameter in the Manage Shortcuts component.
+</code>
+
 - [sromanhu/CVE-2023-43357-CMSmadesimple-Stored-XSS---Shortcut](https://github.com/sromanhu/CVE-2023-43357-CMSmadesimple-Stored-XSS---Shortcut)
 
 ### CVE-2023-43358
@@ -27624,6 +27650,13 @@
 - [K3ysTr0K3R/CVE-2018-9995-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2018-9995-EXPLOIT)
 - [Pab450/CVE-2018-9995](https://github.com/Pab450/CVE-2018-9995)
 
+### CVE-2018-10097 (2018-04-13)
+
+<code>XSS exists in Domain Trader 2.5.3 via the recoverlogin.php email_address parameter.
+</code>
+
+- [ashangp923/CVE-2018-10097](https://github.com/ashangp923/CVE-2018-10097)
+
 ### CVE-2018-10118 (2018-04-15)
 
 <code>Monstra CMS 3.0.4 has Stored XSS via the Name field on the Create New Page screen under the admin/index.php?id=pages URI, related to plugins/box/pages/pages.admin.php.
@@ -30049,6 +30082,13 @@
 </code>
 
 - [brahmstaedt/libxml2-exploit](https://github.com/brahmstaedt/libxml2-exploit)
+
+### CVE-2017-7410 (2017-04-03)
+
+<code>Multiple SQL injection vulnerabilities in account/signup.php and account/signup2.php in WebsiteBaker 2.10.0 and earlier allow remote attackers to execute arbitrary SQL commands via the (1) username, (2) display_name parameter.
+</code>
+
+- [ashangp923/CVE-2017-7410](https://github.com/ashangp923/CVE-2017-7410)
 
 ### CVE-2017-7472 (2017-05-11)
 
