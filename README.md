@@ -11551,6 +11551,7 @@
 - [Zoo1sondv/CVE-2021-3129](https://github.com/Zoo1sondv/CVE-2021-3129)
 - [miko550/CVE-2021-3129](https://github.com/miko550/CVE-2021-3129)
 - [withmasday/CVE-2021-3129](https://github.com/withmasday/CVE-2021-3129)
+- [banyaksepuh/Mass-CVE-2021-3129-Scanner](https://github.com/banyaksepuh/Mass-CVE-2021-3129-Scanner)
 
 ### CVE-2021-3130 (2021-01-20)
 
@@ -12619,6 +12620,7 @@
 - [pizza-power/Golang-CVE-2021-22205-POC](https://github.com/pizza-power/Golang-CVE-2021-22205-POC)
 - [DIVD-NL/GitLab-cve-2021-22205-nse](https://github.com/DIVD-NL/GitLab-cve-2021-22205-nse)
 - [w0x68y/Gitlab-CVE-2021-22205](https://github.com/w0x68y/Gitlab-CVE-2021-22205)
+- [al4xs/CVE-2021-22205-gitlab](https://github.com/al4xs/CVE-2021-22205-gitlab)
 - [honypot/CVE-2021-22205](https://github.com/honypot/CVE-2021-22205)
 - [momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-](https://github.com/momika233/cve-2021-22205-GitLab-13.10.2---Remote-Code-Execution-RCE-Unauthenticated-)
 - [keven1z/CVE-2021-22205](https://github.com/keven1z/CVE-2021-22205)
@@ -14168,6 +14170,7 @@
 - [bp2008/DahuaLoginBypass](https://github.com/bp2008/DahuaLoginBypass)
 - [dorkerdevil/CVE-2021-33044](https://github.com/dorkerdevil/CVE-2021-33044)
 - [Alonzozzz/alonzzzo](https://github.com/Alonzozzz/alonzzzo)
+- [haingn/LoHongCam-CVE-2021-33044](https://github.com/haingn/LoHongCam-CVE-2021-33044)
 
 ### CVE-2021-33045 (2021-09-15)
 
@@ -14527,6 +14530,7 @@
 - [Cuerz/CVE-2021-36260](https://github.com/Cuerz/CVE-2021-36260)
 - [TakenoSite/Simple-CVE-2021-36260](https://github.com/TakenoSite/Simple-CVE-2021-36260)
 - [r3t4k3r/hikvision_brute](https://github.com/r3t4k3r/hikvision_brute)
+- [haingn/HIK-CVE-2021-36260-Exploit](https://github.com/haingn/HIK-CVE-2021-36260-Exploit)
 
 ### CVE-2021-36394 (2023-03-06)
 
