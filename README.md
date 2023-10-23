@@ -882,7 +882,6 @@
 - [alekos3/CVE_2023_20198_Detector](https://github.com/alekos3/CVE_2023_20198_Detector)
 - [ditekshen/ansible-cve-2023-20198](https://github.com/ditekshen/ansible-cve-2023-20198)
 - [reket99/Cisco_CVE-2023-20198](https://github.com/reket99/Cisco_CVE-2023-20198)
-- [m474r5/CVE-2023-20198-RCE](https://github.com/m474r5/CVE-2023-20198-RCE)
 - [iveresk/cve-2023-20198](https://github.com/iveresk/cve-2023-20198)
 - [sohaibeb/CVE-2023-20198](https://github.com/sohaibeb/CVE-2023-20198)
 
@@ -1156,6 +1155,7 @@
 - [Firebasky/CVE-2023-21839](https://github.com/Firebasky/CVE-2023-21839)
 - [houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839)
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
+- [MMarch7/weblogic_CVE-2023-21839_POC-EXP](https://github.com/MMarch7/weblogic_CVE-2023-21839_POC-EXP)
 
 ### CVE-2023-21931 (2023-04-18)
 
@@ -3208,6 +3208,9 @@
 </code>
 
 - [Dodge-MPTC/CVE-2023-35793-CSRF-On-Web-SSH](https://github.com/Dodge-MPTC/CVE-2023-35793-CSRF-On-Web-SSH)
+
+### CVE-2023-35794
+- [Dodge-MPTC/CVE-2023-35794-WebSSH-Hijacking](https://github.com/Dodge-MPTC/CVE-2023-35794-WebSSH-Hijacking)
 
 ### CVE-2023-35801 (2023-06-23)
 
@@ -27235,6 +27238,13 @@
 </code>
 
 - [yanissec/CVE-2018-7844](https://github.com/yanissec/CVE-2018-7844)
+
+### CVE-2018-7845 (2019-05-22)
+
+<code>A CWE-125: Out-of-bounds Read vulnerability exists in all versions of the Modicon M580, Modicon M340, Modicon Quantum, and Modicon Premium which could cause the disclosure of unexpected data from the controller when reading specific memory blocks in the controller over Modbus.
+</code>
+
+- [yanissec/CVE-2018-7845](https://github.com/yanissec/CVE-2018-7845)
 
 ### CVE-2018-7935 (2023-02-10)
 
