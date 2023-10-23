@@ -4635,6 +4635,9 @@
 
 - [leekenghwa/CVE-2023-46003](https://github.com/leekenghwa/CVE-2023-46003)
 
+### CVE-2023-46197
+- [RandomRobbieBF/CVE-2023-46197](https://github.com/RandomRobbieBF/CVE-2023-46197)
+
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
@@ -9367,6 +9370,9 @@
 
 - [sornram9254/CVE-2022-38577-Processmaker](https://github.com/sornram9254/CVE-2022-38577-Processmaker)
 
+### CVE-2022-38601
+- [jet-pentest/CVE-2022-38601](https://github.com/jet-pentest/CVE-2022-38601)
+
 ### CVE-2022-38604 (2023-04-10)
 
 <code>Wacom Driver 6.3.46-1 for Windows and lower was discovered to contain an arbitrary file deletion vulnerability.
@@ -12256,13 +12262,6 @@
 </code>
 
 - [security-dbg/CVE-2021-21220](https://github.com/security-dbg/CVE-2021-21220)
-
-### CVE-2021-21224 (2021-04-26)
-
-<code>Type confusion in V8 in Google Chrome prior to 90.0.4430.85 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
-</code>
-
-- [lnfernal/CVE-2021-21224](https://github.com/lnfernal/CVE-2021-21224)
 
 ### CVE-2021-21234 (2021-01-05)
 
