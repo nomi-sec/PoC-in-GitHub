@@ -886,6 +886,7 @@
 - [sohaibeb/CVE-2023-20198](https://github.com/sohaibeb/CVE-2023-20198)
 - [Pushkarup/CVE-2023-20198](https://github.com/Pushkarup/CVE-2023-20198)
 - [Shadow0ps/CVE-2023-20198-Scanner](https://github.com/Shadow0ps/CVE-2023-20198-Scanner)
+- [kacem-expereo/CVE-2023-20198](https://github.com/kacem-expereo/CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -6573,6 +6574,7 @@
 - [wr0x00/cve-2022-23131](https://github.com/wr0x00/cve-2022-23131)
 - [Arrnitage/CVE-2022-23131_exp](https://github.com/Arrnitage/CVE-2022-23131_exp)
 - [clearcdq/Zabbix-SAML-SSO-_CVE-2022-23131](https://github.com/clearcdq/Zabbix-SAML-SSO-_CVE-2022-23131)
+- [r10lab/CVE-2022-23131](https://github.com/r10lab/CVE-2022-23131)
 
 ### CVE-2022-23222 (2022-01-14)
 
@@ -26759,6 +26761,13 @@
 
 - [embedi/ble_norton_core](https://github.com/embedi/ble_norton_core)
 
+### CVE-2018-5333 (2018-01-11)
+
+<code>In the Linux kernel through 4.14.13, the rds_cmsg_atomic function in net/rds/rdma.c mishandles cases where page pinning fails or an invalid address is supplied, leading to an rds_atomic_free_op NULL pointer dereference.
+</code>
+
+- [hoanganh2k/cve-2018-5333](https://github.com/hoanganh2k/cve-2018-5333)
+
 ### CVE-2018-5353 (2020-09-29)
 
 <code>The custom GINA/CP module in Zoho ManageEngine ADSelfService Plus before 5.5 build 5517 allows remote attackers to execute code and escalate privileges via spoofing. It does not authenticate the intended server before opening a browser window. An unauthenticated attacker capable of conducting a spoofing attack can redirect the browser to gain execution in the context of the WinLogon.exe process. If Network Level Authentication is not enforced, the vulnerability can be exploited via RDP. Additionally, if the web server has a misconfigured certificate then no spoofing attack is required
@@ -29071,7 +29080,6 @@
 - [blunden/UNACEV2.DLL-CVE-2018-20250](https://github.com/blunden/UNACEV2.DLL-CVE-2018-20250)
 - [easis/CVE-2018-20250-WinRAR-ACE](https://github.com/easis/CVE-2018-20250-WinRAR-ACE)
 - [STP5940/CVE-2018-20250](https://github.com/STP5940/CVE-2018-20250)
-- [n4r1b/WinAce-POC](https://github.com/n4r1b/WinAce-POC)
 - [technicaldada/hack-winrar](https://github.com/technicaldada/hack-winrar)
 - [Ektoplasma/ezwinrar](https://github.com/Ektoplasma/ezwinrar)
 - [arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI](https://github.com/arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI)
