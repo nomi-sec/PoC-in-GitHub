@@ -2231,6 +2231,9 @@
 
 - [zPrototype/CVE-2023-29983](https://github.com/zPrototype/CVE-2023-29983)
 
+### CVE-2023-30033
+- [phucodeexp/CVE-2023-30033](https://github.com/phucodeexp/CVE-2023-30033)
+
 ### CVE-2023-30092 (2023-05-08)
 
 <code>SourceCodester Online Pizza Ordering System v1.0 is vulnerable to SQL Injection via the QTY parameter.
@@ -3793,6 +3796,7 @@
 - [malvika-thakur/CVE-2023-38831](https://github.com/malvika-thakur/CVE-2023-38831)
 - [ruycr4ft/CVE-2023-38831](https://github.com/ruycr4ft/CVE-2023-38831)
 - [Nielk74/CVE-2023-38831](https://github.com/Nielk74/CVE-2023-38831)
+- [kehrijksen/CVE-2023-38831](https://github.com/kehrijksen/CVE-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -27266,6 +27270,13 @@
 </code>
 
 - [yanissec/CVE-2018-7845](https://github.com/yanissec/CVE-2018-7845)
+
+### CVE-2018-7846 (2019-05-22)
+
+<code>A CWE-501: Trust Boundary Violation vulnerability on connection to the Controller exists in all versions of the Modicon M580, Modicon M340, Modicon Quantum and Modicon Premium which could cause unauthorized access by conducting a brute force attack on Modbus protocol to the controller.
+</code>
+
+- [yanissec/CVE-2018-7846](https://github.com/yanissec/CVE-2018-7846)
 
 ### CVE-2018-7935 (2023-02-10)
 
