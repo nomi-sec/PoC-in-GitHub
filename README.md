@@ -884,6 +884,8 @@
 - [reket99/Cisco_CVE-2023-20198](https://github.com/reket99/Cisco_CVE-2023-20198)
 - [iveresk/cve-2023-20198](https://github.com/iveresk/cve-2023-20198)
 - [sohaibeb/CVE-2023-20198](https://github.com/sohaibeb/CVE-2023-20198)
+- [Pushkarup/CVE-2023-20198](https://github.com/Pushkarup/CVE-2023-20198)
+- [Shadow0ps/CVE-2023-20198-Scanner](https://github.com/Shadow0ps/CVE-2023-20198-Scanner)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -2803,7 +2805,11 @@
 
 - [Skr11lex/CVE-2023-33477](https://github.com/Skr11lex/CVE-2023-33477)
 
-### CVE-2023-33517
+### CVE-2023-33517 (2023-10-23)
+
+<code>carRental 1.0 is vulnerable to Incorrect Access Control (Arbitrary File Read on the Back-end System).
+</code>
+
 - [wushigudan/CVE-2023-33517](https://github.com/wushigudan/CVE-2023-33517)
 
 ### CVE-2023-33565 (2023-06-23)
@@ -3377,6 +3383,13 @@
 
 - [Wh04m1001/CVE-2023-36723](https://github.com/Wh04m1001/CVE-2023-36723)
 
+### CVE-2023-36745 (2023-09-12)
+
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
+</code>
+
+- [N1k0la-T/CVE-2023-36745](https://github.com/N1k0la-T/CVE-2023-36745)
+
 ### CVE-2023-36802 (2023-09-12)
 
 <code>Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability
@@ -3385,6 +3398,7 @@
 - [chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802](https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802)
 - [4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802)
 - [x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE)
+- [Nero22k/cve-2023-36802](https://github.com/Nero22k/cve-2023-36802)
 
 ### CVE-2023-36812 (2023-06-30)
 
@@ -3719,7 +3733,6 @@
 - [Pyr0sec/CVE-2023-38646](https://github.com/Pyr0sec/CVE-2023-38646)
 - [birdm4nw/CVE-2023-38646](https://github.com/birdm4nw/CVE-2023-38646)
 - [AnvithLobo/CVE-2023-38646](https://github.com/AnvithLobo/CVE-2023-38646)
-- [entr0pie/CVE-2023-38646](https://github.com/entr0pie/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4090,9 +4103,6 @@
 - [0x06060606/CVE-2023-41993](https://github.com/0x06060606/CVE-2023-41993)
 - [Mangaia/cve-test](https://github.com/Mangaia/cve-test)
 
-### CVE-2023-42120
-- [truonghuuphuc/CVE-2023-42120-Poc](https://github.com/truonghuuphuc/CVE-2023-42120-Poc)
-
 ### CVE-2023-42222 (2023-09-27)
 
 <code>WebCatalog before 49.0 is vulnerable to Incorrect Access Control. WebCatalog calls the Electron shell.openExternal function without verifying that the URL is for an http or https resource, in some circumstances.
@@ -4357,7 +4367,11 @@
 
 - [sromanhu/CVE-2023-43357-CMSmadesimple-Stored-XSS---Shortcut](https://github.com/sromanhu/CVE-2023-43357-CMSmadesimple-Stored-XSS---Shortcut)
 
-### CVE-2023-43358
+### CVE-2023-43358 (2023-10-23)
+
+<code>Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Title parameter in the News Menu component.
+</code>
+
 - [sromanhu/CVE-2023-43358-CMSmadesimple-Stored-XSS---News](https://github.com/sromanhu/CVE-2023-43358-CMSmadesimple-Stored-XSS---News)
 
 ### CVE-2023-43359 (2023-10-19)
@@ -4488,7 +4502,11 @@
 
 - [sromanhu/CVE-2023-44758_GDidees-CMS-Stored-XSS---Title](https://github.com/sromanhu/CVE-2023-44758_GDidees-CMS-Stored-XSS---Title)
 
-### CVE-2023-44760
+### CVE-2023-44760 (2023-10-23)
+
+<code>Multiple Cross Site Scripting (XSS) vulnerabilities in Concrete CMS v.9.2.1 allow an attacker to execute arbitrary code via a crafted script to the Header and Footer Tracking Codes of the SEO &amp; Statistics.
+</code>
+
 - [sromanhu/CVE-2023-44760_ConcreteCMS-Stored-XSS---TrackingCodes](https://github.com/sromanhu/CVE-2023-44760_ConcreteCMS-Stored-XSS---TrackingCodes)
 
 ### CVE-2023-44761 (2023-10-06)
@@ -4618,7 +4636,11 @@
 ### CVE-2023-45857
 - [valentin-panov/CVE-2023-45857](https://github.com/valentin-panov/CVE-2023-45857)
 
-### CVE-2023-45966
+### CVE-2023-45966 (2023-10-23)
+
+<code>umputun remark42 version 1.12.1 and before has a Blind Server-Side Request Forgery (SSRF) vulnerability.
+</code>
+
 - [jet-pentest/CVE-2023-45966](https://github.com/jet-pentest/CVE-2023-45966)
 
 ### CVE-2023-45992 (2023-10-19)
@@ -7940,7 +7962,7 @@
 
 ### CVE-2022-29464 (2022-04-18)
 
-<code>Certain WSO2 products allow unrestricted file upload with resultant remote code execution. The attacker must use a /fileupload endpoint with a Content-Disposition directory traversal sequence to reach a directory under the web root, such as a ../../../../repository/deployment/server/webapps directory. This affects WSO2 API Manager 2.2.0 and above through 4.0.0; WSO2 Identity Server 5.2.0 and above through 5.11.0; WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0, and 5.6.0; WSO2 Identity Server as Key Manager 5.3.0 and above through 5.10.0; and WSO2 Enterprise Integrator 6.2.0 and above through 6.6.0.
+<code>Certain WSO2 products allow unrestricted file upload with resultant remote code execution. The attacker must use a /fileupload endpoint with a Content-Disposition directory traversal sequence to reach a directory under the web root, such as a ../../../../repository/deployment/server/webapps directory. This affects WSO2 API Manager 2.2.0 up to 4.0.0, WSO2 Identity Server 5.2.0 up to 5.11.0, WSO2 Identity Server Analytics 5.4.0, 5.4.1, 5.5.0 and 5.6.0, WSO2 Identity Server as Key Manager 5.3.0 up to 5.11.0, WSO2 Enterprise Integrator 6.2.0 up to 6.6.0, WSO2 Open Banking AM 1.4.0 up to 2.0.0 and WSO2 Open Banking KM 1.4.0, up to 2.0.0.
 </code>
 
 - [hakivvi/CVE-2022-29464](https://github.com/hakivvi/CVE-2022-29464)
@@ -30230,6 +30252,7 @@
 - [krypton612/hikivision](https://github.com/krypton612/hikivision)
 - [K3ysTr0K3R/CVE-2017-7921-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-7921-EXPLOIT)
 - [fracergu/CVE-2017-7921](https://github.com/fracergu/CVE-2017-7921)
+- [AnonkiGroup/AnonHik](https://github.com/AnonkiGroup/AnonHik)
 
 ### CVE-2017-7998 (2018-01-08)
 
@@ -34772,6 +34795,13 @@
 </code>
 
 - [alexoslabs/ipmitest](https://github.com/alexoslabs/ipmitest)
+
+### CVE-2013-4786 (2013-07-08)
+
+<code>The IPMI 2.0 specification supports RMCP+ Authenticated Key-Exchange Protocol (RAKP) authentication, which allows remote attackers to obtain password hashes and conduct offline password guessing attacks by obtaining the HMAC from a RAKP message 2 response from a BMC.
+</code>
+
+- [fin3ss3g0d/CosmicRakp](https://github.com/fin3ss3g0d/CosmicRakp)
 
 ### CVE-2013-5065 (2013-11-27)
 
