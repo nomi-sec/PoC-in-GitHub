@@ -760,6 +760,13 @@
 - [guffre/CVE-2023-4911](https://github.com/guffre/CVE-2023-4911)
 - [chaudharyarjun/LooneyPwner](https://github.com/chaudharyarjun/LooneyPwner)
 
+### CVE-2023-4966 (2023-10-10)
+
+<code>Sensitive information disclosure in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA  virtual server. \n\n\n\n
+</code>
+
+- [Chocapikk/CVE-2023-4966](https://github.com/Chocapikk/CVE-2023-4966)
+
 ### CVE-2023-5024 (2023-09-17)
 
 <code>Es wurde eine Schwachstelle in Planno 23.04.04 ausgemacht. Sie wurde als problematisch eingestuft. Es betrifft eine unbekannte Funktion der Komponente Comment Handler. Durch Beeinflussen mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -4105,7 +4112,6 @@
 
 - [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
 - [hrtowii/cve-2023-41993-test](https://github.com/hrtowii/cve-2023-41993-test)
-- [0x06060606/CVE-2023-41993](https://github.com/0x06060606/CVE-2023-41993)
 - [Mangaia/cve-test](https://github.com/Mangaia/cve-test)
 
 ### CVE-2023-42222 (2023-09-27)
@@ -6114,7 +6120,7 @@
 <code>A Stack-based buffer overflow vulnerability in the SonicOS via HTTP request allows a remote unauthenticated attacker to cause Denial of Service (DoS) or potentially results in code execution in the firewall.
 </code>
 
-- [pwneddr/Sonic_CVE-2022-22274_poc](https://github.com/pwneddr/Sonic_CVE-2022-22274_poc)
+- [4lucardSec/Sonic_CVE-2022-22274_poc](https://github.com/4lucardSec/Sonic_CVE-2022-22274_poc)
 - [forthisvideo/CVE-2022-22274_poc](https://github.com/forthisvideo/CVE-2022-22274_poc)
 
 ### CVE-2022-22296 (2022-01-24)
