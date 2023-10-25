@@ -759,6 +759,7 @@
 - [ruycr4ft/CVE-2023-4911](https://github.com/ruycr4ft/CVE-2023-4911)
 - [guffre/CVE-2023-4911](https://github.com/guffre/CVE-2023-4911)
 - [chaudharyarjun/LooneyPwner](https://github.com/chaudharyarjun/LooneyPwner)
+- [KernelKrise/Looney-Tunables-LPE-workshop-CVE-2023-4911-](https://github.com/KernelKrise/Looney-Tunables-LPE-workshop-CVE-2023-4911-)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -3525,6 +3526,13 @@
 </code>
 
 - [ilqarli27/CVE-2023-37474](https://github.com/ilqarli27/CVE-2023-37474)
+
+### CVE-2023-37478 (2023-08-01)
+
+<code>pnpm is a package manager. It is possible to construct a tarball that, when installed via npm or parsed by the registry is safe, but when installed via pnpm is malicious, due to how pnpm parses tar archives. This can result in a package that appears safe on the npm registry or when installed via npm being replaced with a compromised or malicious version when installed via pnpm. This issue has been patched in version(s) 7.33.4 and 8.6.8.
+</code>
+
+- [TrevorGKann/CVE-2023-37478_npm_vs_pnpm](https://github.com/TrevorGKann/CVE-2023-37478_npm_vs_pnpm)
 
 ### CVE-2023-37582 (2023-07-12)
 
@@ -8002,6 +8010,7 @@
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
 - [devengpk/CVE-2022-29464](https://github.com/devengpk/CVE-2022-29464)
 - [Pari-Malam/CVE-2022-29464](https://github.com/Pari-Malam/CVE-2022-29464)
+- [Pushkarup/CVE-2022-29464](https://github.com/Pushkarup/CVE-2022-29464)
 
 ### CVE-2022-29465 (2022-08-05)
 
