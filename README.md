@@ -767,6 +767,7 @@
 </code>
 
 - [Chocapikk/CVE-2023-4966](https://github.com/Chocapikk/CVE-2023-4966)
+- [dinosn/citrix_cve-2023-4966](https://github.com/dinosn/citrix_cve-2023-4966)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -13453,6 +13454,13 @@
 
 - [anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS](https://github.com/anmolksachan/CVE-2021-27190-PEEL-Shopping-cart-9.3.0-Stored-XSS)
 
+### CVE-2021-27198 (2021-02-26)
+
+<code>An issue was discovered in Visualware MyConnection Server before v11.1a. Unauthenticated Remote Code Execution can occur via Arbitrary File Upload in the web service when using a myspeed/sf?filename= URI. This application is written in Java and is thus cross-platform. The Windows installation runs as SYSTEM, which means that exploitation gives one Administrator privileges on the target system.
+</code>
+
+- [rwincey/CVE-2021-27198](https://github.com/rwincey/CVE-2021-27198)
+
 ### CVE-2021-27211 (2021-02-15)
 
 <code>steghide 0.5.1 relies on a certain 32-bit seed value, which makes it easier for attackers to detect hidden data.
@@ -23990,6 +23998,7 @@
 - [cloudflare/exim-cve-2019-10149-data](https://github.com/cloudflare/exim-cve-2019-10149-data)
 - [Stick-U235/CVE-2019-10149-Exploit](https://github.com/Stick-U235/CVE-2019-10149-Exploit)
 - [rahmadsandy/EXIM-4.87-CVE-2019-10149](https://github.com/rahmadsandy/EXIM-4.87-CVE-2019-10149)
+- [hyim0810/CVE-2019-10149](https://github.com/hyim0810/CVE-2019-10149)
 
 ### CVE-2019-10172 (2019-11-18)
 
@@ -27301,6 +27310,13 @@
 </code>
 
 - [yanissec/CVE-2018-7846](https://github.com/yanissec/CVE-2018-7846)
+
+### CVE-2018-7848 (2019-05-22)
+
+<code>A CWE-200: Information Exposure vulnerability exists in all versions of the Modicon M580, Modicon M340, Modicon Quantum, and Modicon Premium which could cause the disclosure of SNMP information when reading files from the controller over Modbus
+</code>
+
+- [yanissec/CVE-2018-7848](https://github.com/yanissec/CVE-2018-7848)
 
 ### CVE-2018-7935 (2023-02-10)
 
