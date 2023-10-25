@@ -759,7 +759,7 @@
 - [ruycr4ft/CVE-2023-4911](https://github.com/ruycr4ft/CVE-2023-4911)
 - [guffre/CVE-2023-4911](https://github.com/guffre/CVE-2023-4911)
 - [chaudharyarjun/LooneyPwner](https://github.com/chaudharyarjun/LooneyPwner)
-- [KernelKrise/Looney-Tunables-LPE-workshop-CVE-2023-4911-](https://github.com/KernelKrise/Looney-Tunables-LPE-workshop-CVE-2023-4911-)
+- [KernelKrise/CVE-2023-4911](https://github.com/KernelKrise/CVE-2023-4911)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -768,6 +768,7 @@
 
 - [Chocapikk/CVE-2023-4966](https://github.com/Chocapikk/CVE-2023-4966)
 - [dinosn/citrix_cve-2023-4966](https://github.com/dinosn/citrix_cve-2023-4966)
+- [senpaisamp/CVE-2023-4966-POC](https://github.com/senpaisamp/CVE-2023-4966-POC)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -896,6 +897,7 @@
 - [Pushkarup/CVE-2023-20198](https://github.com/Pushkarup/CVE-2023-20198)
 - [Shadow0ps/CVE-2023-20198-Scanner](https://github.com/Shadow0ps/CVE-2023-20198-Scanner)
 - [kacem-expereo/CVE-2023-20198](https://github.com/kacem-expereo/CVE-2023-20198)
+- [mr-r3b00t/CVE-2023-20198-IOS-XE-Scanner](https://github.com/mr-r3b00t/CVE-2023-20198-IOS-XE-Scanner)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -984,6 +986,27 @@
 - [infobyte/CVE-2023-21036](https://github.com/infobyte/CVE-2023-21036)
 - [notaSWE/gocropalypse](https://github.com/notaSWE/gocropalypse)
 - [lordofpipes/acropadetect](https://github.com/lordofpipes/acropadetect)
+
+### CVE-2023-21086 (2023-04-19)
+
+<code>In isToggleable of SecureNfcEnabler.java and SecureNfcPreferenceController.java, there is a possible way to enable NFC from a secondary account due to a permissions bypass. This could lead to local escalation of privilege from the Guest account with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-238298970
+</code>
+
+- [Trinadh465/packages_apps_Settings_CVE-2023-21086](https://github.com/Trinadh465/packages_apps_Settings_CVE-2023-21086)
+
+### CVE-2023-21094 (2023-04-19)
+
+<code>In sanitize of LayerState.cpp, there is a possible way to take over the screen display and swap the display content due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-248031255
+</code>
+
+- [Trinadh465/frameworks_native_AOSP-10_r33_CVE-2023-21094](https://github.com/Trinadh465/frameworks_native_AOSP-10_r33_CVE-2023-21094)
+
+### CVE-2023-21097 (2023-04-19)
+
+<code>In toUriInner of Intent.java, there is a possible way to launch an arbitrary activity due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-261858325
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21097](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21097)
 
 ### CVE-2023-21238 (2023-07-12)
 
@@ -1428,6 +1451,7 @@
 - [k0valskia/CVE-2023-23752](https://github.com/k0valskia/CVE-2023-23752)
 - [yTxZx/CVE-2023-23752](https://github.com/yTxZx/CVE-2023-23752)
 - [AlissoftCodes/CVE-2023-23752](https://github.com/AlissoftCodes/CVE-2023-23752)
+- [Pushkarup/CVE-2023-23752](https://github.com/Pushkarup/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -4987,6 +5011,7 @@
 - [joeymeech/CVE-2022-0847-Exploit-Implementation](https://github.com/joeymeech/CVE-2022-0847-Exploit-Implementation)
 - [pashayogi/DirtyPipe](https://github.com/pashayogi/DirtyPipe)
 - [n3rada/DirtyPipe](https://github.com/n3rada/DirtyPipe)
+- [ayushx007/CVE-2022-0847-dirty-pipe-checker](https://github.com/ayushx007/CVE-2022-0847-dirty-pipe-checker)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -17907,6 +17932,7 @@
 - [OldDream666/cve-2020-0796](https://github.com/OldDream666/cve-2020-0796)
 - [heeloo123/CVE-2020-0796](https://github.com/heeloo123/CVE-2020-0796)
 - [Ajomix/CVE-2020-0796](https://github.com/Ajomix/CVE-2020-0796)
+- [abdullah098/CVE-2020-0796-Scanner](https://github.com/abdullah098/CVE-2020-0796-Scanner)
 
 ### CVE-2020-0887 (2020-03-12)
 
