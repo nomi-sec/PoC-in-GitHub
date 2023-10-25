@@ -768,7 +768,7 @@
 
 - [Chocapikk/CVE-2023-4966](https://github.com/Chocapikk/CVE-2023-4966)
 - [dinosn/citrix_cve-2023-4966](https://github.com/dinosn/citrix_cve-2023-4966)
-- [senpaisamp/CVE-2023-4966-POC](https://github.com/senpaisamp/CVE-2023-4966-POC)
+- [mlynchcogent/CVE-2023-4966-POC](https://github.com/mlynchcogent/CVE-2023-4966-POC)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -1213,6 +1213,13 @@
 
 - [Avento/CVE-2023-21971_Analysis](https://github.com/Avento/CVE-2023-21971_Analysis)
 
+### CVE-2023-22074 (2023-10-17)
+
+<code>Vulnerability in the Oracle Database Sharding component of Oracle Database Server.  Supported versions that are affected are 19.3-19.20 and  21.3-21.11. Easily exploitable vulnerability allows high privileged attacker having Create Session, Select Any Dictionary privilege with network access via Oracle Net to compromise Oracle Database Sharding.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Database Sharding. CVSS 3.1 Base Score 2.4 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:L).
+</code>
+
+- [emad-almousa/CVE-2023-22074](https://github.com/emad-almousa/CVE-2023-22074)
+
 ### CVE-2023-22432 (2023-03-05)
 
 <code>Open redirect vulnerability exists in web2py versions prior to 2.23.1. When using the tool, a web2py user may be redirected to an arbitrary website by accessing a specially crafted URL. As a result, the user may become a victim of a phishing attack.
@@ -1303,7 +1310,7 @@
 
 ### CVE-2023-22941 (2023-02-14)
 
-<code>In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, an improperly-formatted ‘INGEST_EVAL’ parameter in a [Field Transformation](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Managefieldtransforms) crashes the Splunk daemon (splunkd).
+<code>In Splunk Enterprise versions below 8.1.13, 8.2.10, and 9.0.4, an improperly-formatted ‘INGEST_EVAL’ parameter in a Field Transformation crashes the Splunk daemon (splunkd).
 </code>
 
 - [eduardosantos1989/CVE-2023-22941](https://github.com/eduardosantos1989/CVE-2023-22941)
@@ -2155,6 +2162,7 @@
 - [Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357)
 - [LuemmelSec/CVE-2023-29357](https://github.com/LuemmelSec/CVE-2023-29357)
 - [KeyStrOke95/CVE-2023-29357-ExE](https://github.com/KeyStrOke95/CVE-2023-29357-ExE)
+- [Twil4/CVE-2023-29357-check](https://github.com/Twil4/CVE-2023-29357-check)
 
 ### CVE-2023-29360 (2023-06-13)
 
@@ -3777,6 +3785,7 @@
 - [Pyr0sec/CVE-2023-38646](https://github.com/Pyr0sec/CVE-2023-38646)
 - [birdm4nw/CVE-2023-38646](https://github.com/birdm4nw/CVE-2023-38646)
 - [AnvithLobo/CVE-2023-38646](https://github.com/AnvithLobo/CVE-2023-38646)
+- [Red-Amber/CVE-2023-38646](https://github.com/Red-Amber/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4425,7 +4434,11 @@
 
 - [sromanhu/CVE-2023-43359-CMSmadesimple-Stored-XSS----Content-Manager](https://github.com/sromanhu/CVE-2023-43359-CMSmadesimple-Stored-XSS----Content-Manager)
 
-### CVE-2023-43360
+### CVE-2023-43360 (2023-10-24)
+
+<code>Cross Site Scripting vulnerability in CMSmadesimple v.2.2.18 allows a local attacker to execute arbitrary code via a crafted script to the Top Directory parameter in the File Picker Menu component.
+</code>
+
 - [sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension](https://github.com/sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension)
 
 ### CVE-2023-43654 (2023-09-28)
@@ -4595,10 +4608,18 @@
 
 - [sromanhu/CVE-2023-44766_ConcreteCMS-Stored-XSS---SEO](https://github.com/sromanhu/CVE-2023-44766_ConcreteCMS-Stored-XSS---SEO)
 
-### CVE-2023-44767
+### CVE-2023-44767 (2023-10-24)
+
+<code>A File upload vulnerability in RiteCMS 3.0 allows a local attacker to upload a SVG file with XSS content.
+</code>
+
 - [sromanhu/CVE-2023-44767_RiteCMS-File-Upload--XSS---Filemanager](https://github.com/sromanhu/CVE-2023-44767_RiteCMS-File-Upload--XSS---Filemanager)
 
-### CVE-2023-44769
+### CVE-2023-44769 (2023-10-24)
+
+<code>A Cross-Site Scripting (XSS) vulnerability in Zenario CMS v.9.4.59197 allows a local attacker to execute arbitrary code via a crafted script to the Spare aliases from Alias.
+</code>
+
 - [sromanhu/CVE-2023-44769_ZenarioCMS--Reflected-XSS---Alias](https://github.com/sromanhu/CVE-2023-44769_ZenarioCMS--Reflected-XSS---Alias)
 
 ### CVE-2023-44770 (2023-10-06)
@@ -4810,6 +4831,7 @@
 </code>
 
 - [Acceis/exploit-CVE-2022-0482](https://github.com/Acceis/exploit-CVE-2022-0482)
+- [OwlsNightCatch/CVE-2022-0482-demo](https://github.com/OwlsNightCatch/CVE-2022-0482-demo)
 
 ### CVE-2022-0486 (2022-05-17)
 
@@ -5538,7 +5560,11 @@
 
 - [momika233/CVE-2022-3656](https://github.com/momika233/CVE-2022-3656)
 
-### CVE-2022-3699
+### CVE-2022-3699 (2023-10-24)
+
+<code>\nA privilege escalation vulnerability was reported in the Lenovo HardwareScanPlugin prior to version 1.3.1.2 and Lenovo Diagnostics prior to version 4.45\n\n\n\n that could allow a local user to execute code with elevated privileges.
+</code>
+
 - [alfarom256/CVE-2022-3699](https://github.com/alfarom256/CVE-2022-3699)
 - [estimated1337/lenovo_exec](https://github.com/estimated1337/lenovo_exec)
 
@@ -10772,7 +10798,7 @@
 
 ### CVE-2022-47909 (2023-02-20)
 
-<code>Livestatus Query Language (LQL) injection in the AuthUser HTTP query header of Tribe29's Checkmk &lt;= 2.1.0p11, Checkmk &lt;= 2.0.0p28, and all versions of Checkmk 1.6.0 (EOL) allows an attacker to perform direct queries to the application's core from localhost.
+<code>Livestatus Query Language (LQL) injection in the AuthUser HTTP query header of Tribe29's Checkmk &lt;= 2.1.0p11, Checkmk &lt;= 2.0.0p28, and all versions of Checkmk 1.6.0 (EOL) allows an attacker to perform direct queries to the application's core from localhost.
 </code>
 
 - [JacobEbben/CVE-2022-47909_unauth_arbitrary_file_deletion](https://github.com/JacobEbben/CVE-2022-47909_unauth_arbitrary_file_deletion)
