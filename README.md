@@ -770,6 +770,7 @@
 - [dinosn/citrix_cve-2023-4966](https://github.com/dinosn/citrix_cve-2023-4966)
 - [mlynchcogent/CVE-2023-4966-POC](https://github.com/mlynchcogent/CVE-2023-4966-POC)
 - [IceBreakerCode/CVE-2023-4966](https://github.com/IceBreakerCode/CVE-2023-4966)
+- [ditekshen/ansible-cve-2023-4966](https://github.com/ditekshen/ansible-cve-2023-4966)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -810,6 +811,8 @@
 
 ### CVE-2023-5360
 - [sagsooz/CVE-2023-5360](https://github.com/sagsooz/CVE-2023-5360)
+- [phankz/Worpress-CVE-2023-5360](https://github.com/phankz/Worpress-CVE-2023-5360)
+- [nastar-id/CVE-2023-5360](https://github.com/nastar-id/CVE-2023-5360)
 
 ### CVE-2023-5521 (2023-10-11)
 
@@ -1403,6 +1406,7 @@
 - [CKevens/CVE-2023-23397-POC](https://github.com/CKevens/CVE-2023-23397-POC)
 - [vlad-a-man/CVE-2023-23397](https://github.com/vlad-a-man/CVE-2023-23397)
 - [Muhammad-Ali007/OutlookNTLM_CVE-2023-23397](https://github.com/Muhammad-Ali007/OutlookNTLM_CVE-2023-23397)
+- [Pushkarup/CVE-2023-23397](https://github.com/Pushkarup/CVE-2023-23397)
 
 ### CVE-2023-23488 (2023-01-20)
 
@@ -3787,7 +3791,8 @@
 - [Pyr0sec/CVE-2023-38646](https://github.com/Pyr0sec/CVE-2023-38646)
 - [birdm4nw/CVE-2023-38646](https://github.com/birdm4nw/CVE-2023-38646)
 - [AnvithLobo/CVE-2023-38646](https://github.com/AnvithLobo/CVE-2023-38646)
-- [Red-Amber/CVE-2023-38646](https://github.com/Red-Amber/CVE-2023-38646)
+- [Red4mber/CVE-2023-38646](https://github.com/Red4mber/CVE-2023-38646)
+- [junnythemarksman/CVE-2023-38646](https://github.com/junnythemarksman/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4727,6 +4732,9 @@
 
 ### CVE-2023-46197
 - [RandomRobbieBF/CVE-2023-46197](https://github.com/RandomRobbieBF/CVE-2023-46197)
+
+### CVE-2023-46449
+- [sajaljat/CVE-2023-46449](https://github.com/sajaljat/CVE-2023-46449)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -35707,13 +35715,6 @@
 </code>
 
 - [HanseSecure/CVE-2009-1437](https://github.com/HanseSecure/CVE-2009-1437)
-
-### CVE-2009-1904 (2009-06-11)
-
-<code>The BigDecimal library in Ruby 1.8.6 before p369 and 1.8.7 before p173 allows context-dependent attackers to cause a denial of service (application crash) via a string argument that represents a large number, as demonstrated by an attempted conversion to the Float data type.
-</code>
-
-- [NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix)
 
 ### CVE-2009-2265 (2009-07-05)
 
