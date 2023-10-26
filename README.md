@@ -974,6 +974,13 @@
 - [Trinadh465/frameworks_base_CVE-2023-20944](https://github.com/Trinadh465/frameworks_base_CVE-2023-20944)
 - [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2023-20944)
 
+### CVE-2023-20955 (2023-03-24)
+
+<code>In onPrepareOptionsMenu of AppInfoDashboardFragment.java, there is a possible way to bypass admin restrictions and uninstall applications for all users due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-258653813
+</code>
+
+- [Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2023-20955](https://github.com/Trinadh465/packages_apps_Settings_AOSP10_r33_CVE-2023-20955)
+
 ### CVE-2023-20963 (2023-03-24)
 
 <code>In WorkSource, there is a possible parcel mismatch. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-220302519
@@ -1012,6 +1019,7 @@
 </code>
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21097](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21097)
+- [uthrasri/frameworks_base_AOSP10_r33_CVE-2023-21097](https://github.com/uthrasri/frameworks_base_AOSP10_r33_CVE-2023-21097)
 
 ### CVE-2023-21238 (2023-07-12)
 
@@ -2442,7 +2450,11 @@
 ### CVE-2023-31070
 - [bugprove/cve-2023-31070](https://github.com/bugprove/cve-2023-31070)
 
-### CVE-2023-31419
+### CVE-2023-31419 (-)
+
+<code>[PROBLEMTYPE] in [COMPONENT] in [VENDOR] [PRODUCT] [VERSION] on [PLATFORMS] allows [ATTACKER] to [IMPACT] via [VECTOR]
+</code>
+
 - [sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419](https://github.com/sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419)
 - [u238/Elasticsearch-CVE-2023-31419](https://github.com/u238/Elasticsearch-CVE-2023-31419)
 
@@ -4558,6 +4570,7 @@
 - [pabloec20/rapidreset](https://github.com/pabloec20/rapidreset)
 - [secengjeff/rapidresetclient](https://github.com/secengjeff/rapidresetclient)
 - [studiogangster/CVE-2023-44487](https://github.com/studiogangster/CVE-2023-44487)
+- [ReToCode/golang-CVE-2023-44487](https://github.com/ReToCode/golang-CVE-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -4733,8 +4746,25 @@
 ### CVE-2023-46197
 - [RandomRobbieBF/CVE-2023-46197](https://github.com/RandomRobbieBF/CVE-2023-46197)
 
-### CVE-2023-46449
+### CVE-2023-46404
+- [windecks/CVE-2023-46404](https://github.com/windecks/CVE-2023-46404)
+
+### CVE-2023-46449 (2023-10-26)
+
+<code>Sourcecodester Free and Open Source inventory management system v1.0 is vulnerable to Incorrect Access Control. An arbitrary user can change the password of another user and takeover the account via IDOR in the password change function.
+</code>
+
 - [sajaljat/CVE-2023-46449](https://github.com/sajaljat/CVE-2023-46449)
+
+### CVE-2023-46450 (2023-10-26)
+
+<code>Sourcecodester Free and Open Source inventory management system 1.0 is vulnerable to Cross Site Scripting (XSS) via the Add supplier function.
+</code>
+
+- [yte121/-CVE-2023-46450](https://github.com/yte121/-CVE-2023-46450)
+
+### CVE-2023-46451
+- [sajaljat/CVE-2023-46451](https://github.com/sajaljat/CVE-2023-46451)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -16330,6 +16360,7 @@
 - [FAOG99/GrafanaDirectoryScanner](https://github.com/FAOG99/GrafanaDirectoryScanner)
 - [nuker/CVE-2021-43798](https://github.com/nuker/CVE-2021-43798)
 - [victorhorowitz/grafana-exploit-CVE-2021-43798](https://github.com/victorhorowitz/grafana-exploit-CVE-2021-43798)
+- [katseyres2/CVE-2021-43798](https://github.com/katseyres2/CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -17861,7 +17892,7 @@
 - [MrTiz/CVE-2020-0688](https://github.com/MrTiz/CVE-2020-0688)
 - [ann0906/proxylogon](https://github.com/ann0906/proxylogon)
 - [7heKnight/CVE-2020-0688](https://github.com/7heKnight/CVE-2020-0688)
-- [TheKickPuncher/CVE-2020-0688-Python3](https://github.com/TheKickPuncher/CVE-2020-0688-Python3)
+- [1337-llama/CVE-2020-0688-Python3](https://github.com/1337-llama/CVE-2020-0688-Python3)
 - [chudamax/CVE-2020-0688-Exchange2010](https://github.com/chudamax/CVE-2020-0688-Exchange2010)
 
 ### CVE-2020-0728 (2020-02-11)
@@ -22849,6 +22880,7 @@
 </code>
 
 - [StealYourCode/CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663)
+- [e180175/CVE-2019-1663-vuln](https://github.com/e180175/CVE-2019-1663-vuln)
 
 ### CVE-2019-1759 (2019-03-27)
 
@@ -35715,6 +35747,13 @@
 </code>
 
 - [HanseSecure/CVE-2009-1437](https://github.com/HanseSecure/CVE-2009-1437)
+
+### CVE-2009-1904 (2009-06-11)
+
+<code>The BigDecimal library in Ruby 1.8.6 before p369 and 1.8.7 before p173 allows context-dependent attackers to cause a denial of service (application crash) via a string argument that represents a large number, as demonstrated by an attempted conversion to the Float data type.
+</code>
+
+- [NZKoz/bigdecimal-segfault-fix](https://github.com/NZKoz/bigdecimal-segfault-fix)
 
 ### CVE-2009-2265 (2009-07-05)
 
