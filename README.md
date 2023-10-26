@@ -286,7 +286,7 @@
 <code>The WP Inventory Manager WordPress plugin before 2.1.0.13 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting.
 </code>
 
-- [daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/daniloalbuqrque/poc-cve-xss-encoded-wp-inventory-manager-plugin)
+- [0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin](https://github.com/0xn4d/poc-cve-xss-encoded-wp-inventory-manager-plugin)
 
 ### CVE-2023-2215 (2023-04-21)
 
@@ -329,7 +329,7 @@
 <code>The InventoryPress WordPress plugin through 1.7 does not sanitise and escape some of its settings, which could allow users with the role of author and above to perform Stored Cross-Site Scripting attacks.
 </code>
 
-- [daniloalbuqrque/poc-cve-xss-inventory-press-plugin](https://github.com/daniloalbuqrque/poc-cve-xss-inventory-press-plugin)
+- [0xn4d/poc-cve-xss-inventory-press-plugin](https://github.com/0xn4d/poc-cve-xss-inventory-press-plugin)
 
 ### CVE-2023-2591 (2023-05-09)
 
@@ -660,7 +660,7 @@
 - [b0marek/CVE-2023-4294](https://github.com/b0marek/CVE-2023-4294)
 
 ### CVE-2023-4460
-- [daniloalbuqrque/poc-cve-xss-uploading-svg](https://github.com/daniloalbuqrque/poc-cve-xss-uploading-svg)
+- [0xn4d/poc-cve-xss-uploading-svg](https://github.com/0xn4d/poc-cve-xss-uploading-svg)
 
 ### CVE-2023-4549 (2023-09-25)
 
@@ -4584,7 +4584,7 @@
 
 ### CVE-2023-44763 (2023-10-10)
 
-<code>Concrete CMS v9.2.1 is affected by Arbitrary File Upload vulnerability via the Thumbnail&quot; file upload, which allows Cross-Site Scripting (XSS).
+<code>** DISPUTED ** Concrete CMS v9.2.1 is affected by an Arbitrary File Upload vulnerability via a Thumbnail file upload, which allows Cross-Site Scripting (XSS). NOTE: the vendor's position is that a customer is supposed to know that &quot;pdf&quot; should be excluded from the allowed file types, even though pdf is one of the allowed file types in the default configuration.
 </code>
 
 - [sromanhu/CVE-2023-44763_ConcreteCMS-Arbitrary-file-upload-Thumbnail](https://github.com/sromanhu/CVE-2023-44763_ConcreteCMS-Arbitrary-file-upload-Thumbnail)
@@ -4702,6 +4702,7 @@
 
 ### CVE-2023-45857
 - [valentin-panov/CVE-2023-45857](https://github.com/valentin-panov/CVE-2023-45857)
+- [intercept6/CVE-2023-45857-Demo](https://github.com/intercept6/CVE-2023-45857-Demo)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -4926,6 +4927,7 @@
 - [0xUhaw/CVE-2022-0778](https://github.com/0xUhaw/CVE-2022-0778)
 - [mrluc4s-sysadmin/PoC-CVE-2022-0778-](https://github.com/mrluc4s-sysadmin/PoC-CVE-2022-0778-)
 - [Trinadh465/openssl-1.1.1g_CVE-2022-0778](https://github.com/Trinadh465/openssl-1.1.1g_CVE-2022-0778)
+- [jeongjunsoo/CVE-2022-0778](https://github.com/jeongjunsoo/CVE-2022-0778)
 
 ### CVE-2022-0811 (2022-03-16)
 
@@ -25602,7 +25604,7 @@
 </code>
 
 - [MuirlandOracle/CVE-2019-17662](https://github.com/MuirlandOracle/CVE-2019-17662)
-- [k4is3r13/Bash-Script-CVE-2019-17662](https://github.com/k4is3r13/Bash-Script-CVE-2019-17662)
+- [kxisxr/Bash-Script-CVE-2019-17662](https://github.com/kxisxr/Bash-Script-CVE-2019-17662)
 - [whokilleddb/CVE-2019-17662](https://github.com/whokilleddb/CVE-2019-17662)
 - [rajendrakumaryadav/CVE-2019-17662-Exploit](https://github.com/rajendrakumaryadav/CVE-2019-17662-Exploit)
 - [Tamagaft/CVE-2019-17662](https://github.com/Tamagaft/CVE-2019-17662)
@@ -27379,6 +27381,13 @@
 
 - [yanissec/CVE-2018-7848](https://github.com/yanissec/CVE-2018-7848)
 
+### CVE-2018-7849 (2019-05-22)
+
+<code>A CWE-248: Uncaught Exception vulnerability exists in all versions of the Modicon M580, Modicon M340, Modicon Quantum and Modicon Premium which could cause a possible Denial of Service due to improper data integrity check when sending files the controller over Modbus.
+</code>
+
+- [yanissec/CVE-2018-7849](https://github.com/yanissec/CVE-2018-7849)
+
 ### CVE-2018-7935 (2023-02-10)
 
 <code>There is a vulnerability in 21.328.01.00.00 version of the E5573Cs-322. Remote attackers could exploit this vulnerability to make the network where the E5573Cs-322 is running temporarily unavailable.
@@ -28723,7 +28732,7 @@
 - [n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3)
 - [uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r)
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
-- [k4is3r13/Bash-Script-CVE-2018-16763](https://github.com/k4is3r13/Bash-Script-CVE-2018-16763)
+- [kxisxr/Bash-Script-CVE-2018-16763](https://github.com/kxisxr/Bash-Script-CVE-2018-16763)
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
 - [wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763)
 - [crypticdante/CVE-2018-16763](https://github.com/crypticdante/CVE-2018-16763)
@@ -32401,6 +32410,7 @@
 - [flux10n/dirtycow](https://github.com/flux10n/dirtycow)
 - [fei9747/CVE-2016-5195](https://github.com/fei9747/CVE-2016-5195)
 - [LinuxKernelContent/DirtyCow](https://github.com/LinuxKernelContent/DirtyCow)
+- [NguyenCongHaiNam/Research-CVE-2016-5195](https://github.com/NguyenCongHaiNam/Research-CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-22)
 
