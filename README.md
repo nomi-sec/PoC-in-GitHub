@@ -1265,6 +1265,7 @@
 - [youcannotseemeagain/CVE-2023-22515_RCE](https://github.com/youcannotseemeagain/CVE-2023-22515_RCE)
 - [DsaHen/cve-2023-22515-exp](https://github.com/DsaHen/cve-2023-22515-exp)
 - [joaoviictorti/CVE-2023-22515](https://github.com/joaoviictorti/CVE-2023-22515)
+- [C1ph3rX13/CVE-2023-22515](https://github.com/C1ph3rX13/CVE-2023-22515)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -8873,6 +8874,13 @@
 
 - [Lay0us1/CVE-2022-32532](https://github.com/Lay0us1/CVE-2022-32532)
 
+### CVE-2022-32548 (2022-08-29)
+
+<code>An issue was discovered on certain DrayTek Vigor routers before July 2022 such as the Vigor3910 before 4.3.1.1. /cgi-bin/wlogin.cgi has a buffer overflow via the username or password to the aa or ab field.
+</code>
+
+- [MosaedH/CVE-2022-32548-RCE-POC](https://github.com/MosaedH/CVE-2022-32548-RCE-POC)
+
 ### CVE-2022-32832 (2022-09-23)
 
 <code>The issue was addressed with improved memory handling. This issue is fixed in iOS 15.6 and iPadOS 15.6, macOS Big Sur 11.6.8, watchOS 8.7, tvOS 15.6, macOS Monterey 12.5, Security Update 2022-005 Catalina. An app with root privileges may be able to execute arbitrary code with kernel privileges.
@@ -13809,6 +13817,7 @@
 
 - [hh-hunter/nacos-cve-2021-29441](https://github.com/hh-hunter/nacos-cve-2021-29441)
 - [bysinks/CVE-2021-29441](https://github.com/bysinks/CVE-2021-29441)
+- [xorverbin/-xorverbin-nacos-CVE-2021-29441-](https://github.com/xorverbin/-xorverbin-nacos-CVE-2021-29441-)
 
 ### CVE-2021-29447 (2021-04-15)
 
