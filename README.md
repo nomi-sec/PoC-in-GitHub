@@ -153,6 +153,9 @@
 
 - [seifallahhomrani1/CVE-2023-0861-POC](https://github.com/seifallahhomrani1/CVE-2023-0861-POC)
 
+### CVE-2023-391
+- [ayhan-dev/CVE-2023-391](https://github.com/ayhan-dev/CVE-2023-391)
+
 ### CVE-2023-1112 (2023-03-01)
 
 <code>Es wurde eine kritische Schwachstelle in Drag and Drop Multiple File Upload Contact Form 7 5.0.6.1 für WordPress ausgemacht. Es geht dabei um eine nicht klar definierte Funktion der Datei admin-ajax.php. Durch Manipulation des Arguments upload_name mit unbekannten Daten kann eine relative path traversal-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -31077,6 +31080,7 @@
 - [Sunqiz/CVE-2017-11882-reproduction](https://github.com/Sunqiz/CVE-2017-11882-reproduction)
 - [Abdibimantara/Maldoc-Analysis](https://github.com/Abdibimantara/Maldoc-Analysis)
 - [n18dcat053-luuvannga/DetectPacket-CVE-2017-11882](https://github.com/n18dcat053-luuvannga/DetectPacket-CVE-2017-11882)
+- [nhuynhuy/cve-2017-11882](https://github.com/nhuynhuy/cve-2017-11882)
 
 ### CVE-2017-11907 (2017-12-12)
 
