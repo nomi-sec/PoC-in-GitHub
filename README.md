@@ -772,6 +772,7 @@
 - [mlynchcogent/CVE-2023-4966-POC](https://github.com/mlynchcogent/CVE-2023-4966-POC)
 - [IceBreakerCode/CVE-2023-4966](https://github.com/IceBreakerCode/CVE-2023-4966)
 - [ditekshen/ansible-cve-2023-4966](https://github.com/ditekshen/ansible-cve-2023-4966)
+- [0xKayala/CVE-2023-4966](https://github.com/0xKayala/CVE-2023-4966)
 
 ### CVE-2023-5024 (2023-09-17)
 
