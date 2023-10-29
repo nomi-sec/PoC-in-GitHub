@@ -778,6 +778,7 @@
 - [ditekshen/ansible-cve-2023-4966](https://github.com/ditekshen/ansible-cve-2023-4966)
 - [0xKayala/CVE-2023-4966](https://github.com/0xKayala/CVE-2023-4966)
 - [certat/citrix-logchecker](https://github.com/certat/citrix-logchecker)
+- [sanjai-AK47/CVE-2023-4966](https://github.com/sanjai-AK47/CVE-2023-4966)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -8713,6 +8714,7 @@
 </code>
 
 - [SpindleSec/cve-2022-31692](https://github.com/SpindleSec/cve-2022-31692)
+- [hotblac/cve-2022-31692](https://github.com/hotblac/cve-2022-31692)
 
 ### CVE-2022-31705 (2022-12-14)
 
