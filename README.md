@@ -764,6 +764,7 @@
 - [guffre/CVE-2023-4911](https://github.com/guffre/CVE-2023-4911)
 - [chaudharyarjun/LooneyPwner](https://github.com/chaudharyarjun/LooneyPwner)
 - [KernelKrise/CVE-2023-4911](https://github.com/KernelKrise/CVE-2023-4911)
+- [Diego-AltF4/CVE-2023-4911](https://github.com/Diego-AltF4/CVE-2023-4911)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -6533,6 +6534,7 @@
 - [gunzf0x/CVE-2022-22963](https://github.com/gunzf0x/CVE-2022-22963)
 - [nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963](https://github.com/nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963)
 - [HenriVlasic/Exploit-for-CVE-2022-22963](https://github.com/HenriVlasic/Exploit-for-CVE-2022-22963)
+- [BearClaw96/CVE-2022-22963-Poc-Bearcules](https://github.com/BearClaw96/CVE-2022-22963-Poc-Bearcules)
 
 ### CVE-2022-22965 (2022-04-01)
 
