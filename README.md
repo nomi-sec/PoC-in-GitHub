@@ -4791,13 +4791,6 @@
 ### CVE-2023-46451
 - [sajaljat/CVE-2023-46451](https://github.com/sajaljat/CVE-2023-46451)
 
-### CVE-2023-46747 (2023-10-26)
-
-<code>\n\n\nUndisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated\n\n
-</code>
-
-- [r4pG0r/CVE-2023-46747-POC](https://github.com/r4pG0r/CVE-2023-46747-POC)
-
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
