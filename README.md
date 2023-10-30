@@ -1917,6 +1917,7 @@
 - [necroteddy/CVE-2023-27524](https://github.com/necroteddy/CVE-2023-27524)
 - [jakabakos/CVE-2023-27524-Apache-Superset-Auth-Bypass-and-RCE](https://github.com/jakabakos/CVE-2023-27524-Apache-Superset-Auth-Bypass-and-RCE)
 - [CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-](https://github.com/CN016/Apache-Superset-SECRET_KEY-CVE-2023-27524-)
+- [NguyenCongHaiNam/Research-CVE-2023-27524](https://github.com/NguyenCongHaiNam/Research-CVE-2023-27524)
 
 ### CVE-2023-27532 (2023-03-10)
 
@@ -12807,6 +12808,7 @@
 - [sei-fish/CVE-2021-22205](https://github.com/sei-fish/CVE-2021-22205)
 - [overgrowncarrot1/DejaVu-CVE-2021-22205](https://github.com/overgrowncarrot1/DejaVu-CVE-2021-22205)
 - [Hikikan/CVE-2021-22205](https://github.com/Hikikan/CVE-2021-22205)
+- [won6c/CVE-2021-22205](https://github.com/won6c/CVE-2021-22205)
 
 ### CVE-2021-22206 (2021-05-06)
 
