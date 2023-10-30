@@ -787,6 +787,13 @@
 
 - [PH03N1XSP/CVE-2023-5024](https://github.com/PH03N1XSP/CVE-2023-5024)
 
+### CVE-2023-5044 (2023-10-25)
+
+<code>Code injection via nginx.ingress.kubernetes.io/permanent-redirect annotation.\n
+</code>
+
+- [r0binak/CVE-2023-5044](https://github.com/r0binak/CVE-2023-5044)
+
 ### CVE-2023-5070 (2023-10-20)
 
 <code>The Social Media Share Buttons &amp; Social Sharing Icons plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to, and including, 2.8.5 via the sfsi_save_export function. This can allow subscribers to export plugin settings that include social media authentication tokens and secrets as well as app passwords.
@@ -4793,6 +4800,9 @@
 
 ### CVE-2023-46451
 - [sajaljat/CVE-2023-46451](https://github.com/sajaljat/CVE-2023-46451)
+
+### CVE-2023-46478
+- [mr-xmen786/CVE-2023-46478](https://github.com/mr-xmen786/CVE-2023-46478)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -12855,6 +12865,13 @@
 
 - [K3ysTr0K3R/CVE-2021-22873-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-22873-EXPLOIT)
 
+### CVE-2021-22880 (2021-02-11)
+
+<code>The PostgreSQL adapter in Active Record before 6.1.2.1, 6.0.3.5, 5.2.4.5 suffers from a regular expression denial of service (REDoS) vulnerability. Carefully crafted input can cause the input validation in the `money` type of the PostgreSQL adapter in Active Record to spend too much time in a regular expression, resulting in the potential for a DoS attack. This only impacts Rails applications that are using PostgreSQL along with money type columns that take user input.
+</code>
+
+- [halkichi0308/CVE-2021-22880](https://github.com/halkichi0308/CVE-2021-22880)
+
 ### CVE-2021-22893 (2021-04-23)
 
 <code>Pulse Connect Secure 9.0R3/9.1R1 and higher is vulnerable to an authentication bypass vulnerability exposed by the Windows File Share Browser and Pulse Secure Collaboration features of Pulse Connect Secure that can allow an unauthenticated user to perform remote arbitrary code execution on the Pulse Connect Secure gateway. This vulnerability has been exploited in the wild.
@@ -16233,6 +16250,13 @@
 
 - [KaLendsi/CVE-2021-43224-POC](https://github.com/KaLendsi/CVE-2021-43224-POC)
 
+### CVE-2021-43226 (2021-12-15)
+
+<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-43207.
+</code>
+
+- [Rosayxy/cve-2021-43226PoC](https://github.com/Rosayxy/cve-2021-43226PoC)
+
 ### CVE-2021-43229 (2021-12-15)
 
 <code>Windows NTFS Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-43230, CVE-2021-43231.
@@ -18902,7 +18926,7 @@
 <code>Inappropriate implementation in WebRTC in Google Chrome prior to 84.0.4147.89 allowed an attacker in a privileged network position to potentially exploit heap corruption via a crafted SCTP stream.
 </code>
 
-- [HassanAzze/CVE-2020-6514](https://github.com/HassanAzze/CVE-2020-6514)
+- [R0jhack/CVE-2020-6514](https://github.com/R0jhack/CVE-2020-6514)
 
 ### CVE-2020-6516 (2020-07-22)
 
@@ -27469,6 +27493,13 @@
 </code>
 
 - [yanissec/CVE-2018-7849](https://github.com/yanissec/CVE-2018-7849)
+
+### CVE-2018-7852 (2019-05-22)
+
+<code>A CWE-248: Uncaught Exception vulnerability exists in all versions of the Modicon M580, Modicon M340, Modicon Quantum, and Modicon Premium which could cause denial of service when an invalid private command parameter is sent to the controller over Modbus.
+</code>
+
+- [yanissec/CVE-2018-7852](https://github.com/yanissec/CVE-2018-7852)
 
 ### CVE-2018-7935 (2023-02-10)
 
