@@ -1274,6 +1274,7 @@
 - [DsaHen/cve-2023-22515-exp](https://github.com/DsaHen/cve-2023-22515-exp)
 - [joaoviictorti/CVE-2023-22515](https://github.com/joaoviictorti/CVE-2023-22515)
 - [C1ph3rX13/CVE-2023-22515](https://github.com/C1ph3rX13/CVE-2023-22515)
+- [AIex-3/confluence-hack](https://github.com/AIex-3/confluence-hack)
 
 ### CVE-2023-22551 (2023-01-01)
 
