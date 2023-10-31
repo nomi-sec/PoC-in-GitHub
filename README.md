@@ -829,6 +829,13 @@
 - [phankz/Worpress-CVE-2023-5360](https://github.com/phankz/Worpress-CVE-2023-5360)
 - [nastar-id/CVE-2023-5360](https://github.com/nastar-id/CVE-2023-5360)
 
+### CVE-2023-5412 (2023-10-31)
+
+<code>The Image horizontal reel scroll slideshow plugin for WordPress is vulnerable to SQL Injection via the plugin's shortcode in versions up to, and including, 13.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers with subscriber-level and above permissions to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2023-5412](https://github.com/RandomRobbieBF/CVE-2023-5412)
+
 ### CVE-2023-5521 (2023-10-11)
 
 <code>Incorrect Authorization in GitHub repository tiann/kernelsu prior to v0.6.9.
@@ -1192,6 +1199,7 @@
 - [Malwareman007/CVE-2023-21768](https://github.com/Malwareman007/CVE-2023-21768)
 - [HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768)
 - [CKevens/CVE-2023-21768-POC](https://github.com/CKevens/CVE-2023-21768-POC)
+- [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
 - [zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit)
 - [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
 
@@ -1720,6 +1728,13 @@
 </code>
 
 - [dhmosfunk/HTTP3ONSTEROIDS](https://github.com/dhmosfunk/HTTP3ONSTEROIDS)
+
+### CVE-2023-26049 (2023-04-18)
+
+<code>Jetty is a java based web server and servlet engine. Nonstandard cookie parsing in Jetty may allow an attacker to smuggle cookies within other cookies, or otherwise perform unintended behavior by tampering with the cookie parsing mechanism. If Jetty sees a cookie VALUE that starts with `&quot;` (double quote), it will continue to read the cookie string until it sees a closing quote -- even if a semicolon is encountered. So, a cookie header such as: `DISPLAY_LANGUAGE=&quot;b; JSESSIONID=1337; c=d&quot;` will be parsed as one cookie, with the name DISPLAY_LANGUAGE and a value of b; JSESSIONID=1337; c=d instead of 3 separate cookies. This has security implications because if, say, JSESSIONID is an HttpOnly cookie, and the DISPLAY_LANGUAGE cookie value is rendered on the page, an attacker can smuggle the JSESSIONID cookie into the DISPLAY_LANGUAGE cookie and thereby exfiltrate it. This is significant when an intermediary is enacting some policy based on cookies, so a smuggled cookie can bypass that policy yet still be seen by the Jetty server or its logging system. This issue has been addressed in versions 9.4.51, 10.0.14, 11.0.14, and 12.0.0.beta0 and users are advised to upgrade. There are no known workarounds for this issue.
+</code>
+
+- [Trinadh465/jetty_9.4.31_CVE-2023-26049](https://github.com/Trinadh465/jetty_9.4.31_CVE-2023-26049)
 
 ### CVE-2023-26067 (2023-04-10)
 
@@ -4809,7 +4824,11 @@
 
 - [yte121/-CVE-2023-46450](https://github.com/yte121/-CVE-2023-46450)
 
-### CVE-2023-46451
+### CVE-2023-46451 (2023-10-31)
+
+<code>Best Courier Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in the change username field.
+</code>
+
 - [sajaljat/CVE-2023-46451](https://github.com/sajaljat/CVE-2023-46451)
 
 ### CVE-2023-46478 (2023-10-30)
@@ -4820,7 +4839,7 @@
 - [mr-xmen786/CVE-2023-46478](https://github.com/mr-xmen786/CVE-2023-46478)
 
 ### CVE-2023-47103
-- [quantiano/cve-2023-47103.github.io](https://github.com/quantiano/cve-2023-47103.github.io)
+- [quantiano/cve-2023-47103](https://github.com/quantiano/cve-2023-47103)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -5454,6 +5473,13 @@
 
 ### CVE-2022-1972
 - [randorisec/CVE-2022-1972-infoleak-PoC](https://github.com/randorisec/CVE-2022-1972-infoleak-PoC)
+
+### CVE-2022-2048 (2022-07-07)
+
+<code>In Eclipse Jetty HTTP/2 server implementation, when encountering an invalid HTTP/2 request, the error handling has a bug that can wind up not properly cleaning up the active connections and associated resources. This can lead to a Denial of Service scenario where there are no enough resources left to process good requests.
+</code>
+
+- [Trinadh465/jetty_9.4.31_CVE-2022-2048](https://github.com/Trinadh465/jetty_9.4.31_CVE-2022-2048)
 
 ### CVE-2022-2078 (2022-06-30)
 
@@ -13753,6 +13779,13 @@
 </code>
 
 - [g33xter/CVE-2021-28079](https://github.com/g33xter/CVE-2021-28079)
+
+### CVE-2021-28169 (2021-06-08)
+
+<code>For Eclipse Jetty versions &lt;= 9.4.40, &lt;= 10.0.2, &lt;= 11.0.2, it is possible for requests to the ConcatServlet with a doubly encoded path to access protected resources within the WEB-INF directory. For example a request to `/concat?/%2557EB-INF/web.xml` can retrieve the web.xml file. This can reveal sensitive information regarding the implementation of a web application.
+</code>
+
+- [Trinadh465/jetty_9.4.31_CVE-2021-28169](https://github.com/Trinadh465/jetty_9.4.31_CVE-2021-28169)
 
 ### CVE-2021-28310 (2021-04-13)
 
@@ -28673,6 +28706,7 @@
 - [mclbn/docker-cve-2018-15473](https://github.com/mclbn/docker-cve-2018-15473)
 - [GaboLC98/userenum-CVE-2018-15473](https://github.com/GaboLC98/userenum-CVE-2018-15473)
 - [mrblue12-byte/CVE-2018-15473](https://github.com/mrblue12-byte/CVE-2018-15473)
+- [4xolotl/CVE-2018-15473](https://github.com/4xolotl/CVE-2018-15473)
 
 ### CVE-2018-15499 (2018-08-24)
 
@@ -34522,6 +34556,7 @@
 - [Jsmoreira02/CVE-2014-6271](https://github.com/Jsmoreira02/CVE-2014-6271)
 - [hanmin0512/CVE-2014-6271_pwnable](https://github.com/hanmin0512/CVE-2014-6271_pwnable)
 - [0xTabun/CVE-2014-6271](https://github.com/0xTabun/CVE-2014-6271)
+- [0xN7y/CVE-2014-6271](https://github.com/0xN7y/CVE-2014-6271)
 
 ### CVE-2014-6287 (2014-10-07)
 
