@@ -4809,7 +4809,11 @@
 ### CVE-2023-46451
 - [sajaljat/CVE-2023-46451](https://github.com/sajaljat/CVE-2023-46451)
 
-### CVE-2023-46478
+### CVE-2023-46478 (2023-10-30)
+
+<code>An issue in minCal v.1.0.0 allows a remote attacker to execute arbitrary code via a crafted script to the customer_data parameter.
+</code>
+
 - [mr-xmen786/CVE-2023-46478](https://github.com/mr-xmen786/CVE-2023-46478)
 
 ### CVE-2023-46747 (2023-10-26)
@@ -26472,6 +26476,7 @@
 </code>
 
 - [Al1ex/CVE-2018-1297](https://github.com/Al1ex/CVE-2018-1297)
+- [48484848484848/Jmeter-CVE-2018-1297-](https://github.com/48484848484848/Jmeter-CVE-2018-1297-)
 
 ### CVE-2018-1304 (2018-02-28)
 
