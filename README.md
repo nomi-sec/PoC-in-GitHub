@@ -824,7 +824,11 @@
 
 - [nomis/eero-zero-length-ipv6-options-header-dos](https://github.com/nomis/eero-zero-length-ipv6-options-header-dos)
 
-### CVE-2023-5360
+### CVE-2023-5360 (2023-10-31)
+
+<code>The Royal Elementor Addons and Templates WordPress plugin before 1.3.79 does not properly validate uploaded files, which could allow unauthenticated users to upload arbitrary files, such as PHP and achieve RCE.
+</code>
+
 - [sagsooz/CVE-2023-5360](https://github.com/sagsooz/CVE-2023-5360)
 - [phankz/Worpress-CVE-2023-5360](https://github.com/phankz/Worpress-CVE-2023-5360)
 - [nastar-id/CVE-2023-5360](https://github.com/nastar-id/CVE-2023-5360)
@@ -1291,8 +1295,13 @@
 - [C1ph3rX13/CVE-2023-22515](https://github.com/C1ph3rX13/CVE-2023-22515)
 - [AIex-3/confluence-hack](https://github.com/AIex-3/confluence-hack)
 
-### CVE-2023-22518
+### CVE-2023-22518 (2023-10-31)
+
+<code>All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. There is no impact to confidentiality as an attacker cannot exfiltrate any instance data.\n\nAtlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
+</code>
+
 - [ForceFledgling/CVE-2023-22518](https://github.com/ForceFledgling/CVE-2023-22518)
+- [tonghuaroot/CVE-2023-22518](https://github.com/tonghuaroot/CVE-2023-22518)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -4837,6 +4846,9 @@
 </code>
 
 - [mr-xmen786/CVE-2023-46478](https://github.com/mr-xmen786/CVE-2023-46478)
+
+### CVE-2023-46501
+- [Cyber-Wo0dy/CVE-2023-46501](https://github.com/Cyber-Wo0dy/CVE-2023-46501)
 
 ### CVE-2023-47103
 - [quantiano/cve-2023-47103](https://github.com/quantiano/cve-2023-47103)
@@ -13780,6 +13792,13 @@
 
 - [g33xter/CVE-2021-28079](https://github.com/g33xter/CVE-2021-28079)
 
+### CVE-2021-28164 (2021-04-01)
+
+<code>In Eclipse Jetty 9.4.37.v20210219 to 9.4.38.v20210224, the default compliance mode allows requests with URIs that contain %2e or %2e%2e segments to access protected resources within the WEB-INF directory. For example a request to /context/%2e/WEB-INF/web.xml can retrieve the web.xml file. This can reveal sensitive information regarding the implementation of a web application.
+</code>
+
+- [jammy0903/-jettyCVE-2021-28164-](https://github.com/jammy0903/-jettyCVE-2021-28164-)
+
 ### CVE-2021-28169 (2021-06-08)
 
 <code>For Eclipse Jetty versions &lt;= 9.4.40, &lt;= 10.0.2, &lt;= 11.0.2, it is possible for requests to the ConcatServlet with a doubly encoded path to access protected resources within the WEB-INF directory. For example a request to `/concat?/%2557EB-INF/web.xml` can retrieve the web.xml file. This can reveal sensitive information regarding the implementation of a web application.
@@ -19702,6 +19721,13 @@
 </code>
 
 - [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
+
+### CVE-2020-9802 (2020-06-09)
+
+<code>A logic issue was addressed with improved restrictions. This issue is fixed in iOS 13.5 and iPadOS 13.5, tvOS 13.4.5, watchOS 6.2.5, Safari 13.1.1, iTunes 12.10.7 for Windows, iCloud for Windows 11.2, iCloud for Windows 7.19. Processing maliciously crafted web content may lead to arbitrary code execution.
+</code>
+
+- [khcujw/CVE-2020-9802](https://github.com/khcujw/CVE-2020-9802)
 
 ### CVE-2020-9922 (2020-12-08)
 
