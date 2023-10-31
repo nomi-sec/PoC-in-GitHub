@@ -1283,6 +1283,9 @@
 - [C1ph3rX13/CVE-2023-22515](https://github.com/C1ph3rX13/CVE-2023-22515)
 - [AIex-3/confluence-hack](https://github.com/AIex-3/confluence-hack)
 
+### CVE-2023-22518
+- [ForceFledgling/CVE-2023-22518](https://github.com/ForceFledgling/CVE-2023-22518)
+
 ### CVE-2023-22551 (2023-01-01)
 
 <code>The FTP (aka &quot;Implementation of a simple FTP client and server&quot;) project through 96c1a35 allows remote attackers to cause a denial of service (memory consumption) by engaging in client activity, such as establishing and then terminating a connection. This occurs because malloc is used but free is not.
@@ -4816,14 +4819,8 @@
 
 - [mr-xmen786/CVE-2023-46478](https://github.com/mr-xmen786/CVE-2023-46478)
 
-### CVE-2023-46747 (2023-10-26)
-
-<code>\n\n\nUndisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated\n\n
-</code>
-
-- [TomArn1/CVE-2023-46747-PoC](https://github.com/TomArn1/CVE-2023-46747-PoC)
-- [k0zulzr/CVE-2023-46747-Mass-RCE](https://github.com/k0zulzr/CVE-2023-46747-Mass-RCE)
-- [AliBrTab/CVE-2023-46747-POC](https://github.com/AliBrTab/CVE-2023-46747-POC)
+### CVE-2023-47103
+- [quantiano/cve-2023-47103.github.io](https://github.com/quantiano/cve-2023-47103.github.io)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -21239,6 +21236,13 @@
 
 - [Deepak983/CVE-2020-19587](https://github.com/Deepak983/CVE-2020-19587)
 
+### CVE-2020-20093 (2022-03-23)
+
+<code>The Facebook Messenger app for iOS 227.0 and prior and Android 228.1.0.10.116 and prior user interface does not properly represent URI messages to the user, which results in URI spoofing via specially crafted messages.
+</code>
+
+- [zadewg/RIUS](https://github.com/zadewg/RIUS)
+
 ### CVE-2020-21378 (2020-12-21)
 
 <code>SQL injection vulnerability in SeaCMS 10.1 (2020.02.08) via the id parameter in an edit action to admin_members_group.php.
@@ -29335,6 +29339,13 @@
 </code>
 
 - [Alexandre-Bartel/CVE-2018-20343](https://github.com/Alexandre-Bartel/CVE-2018-20343)
+
+### CVE-2018-20377 (2018-12-23)
+
+<code>Orange Livebox 00.96.320S devices allow remote attackers to discover Wi-Fi credentials via /get_getnetworkconf.cgi on port 8080, leading to full control if the admin password equals the Wi-Fi password or has the default admin value. This is related to Firmware 01.11.2017-11:43:44, Boot v0.70.03, Modem 5.4.1.10.1.1A, Hardware 02, and Arcadyan ARV7519RW22-A-L T VR9 1.2.
+</code>
+
+- [zadewg/LIVEBOX-0DAY](https://github.com/zadewg/LIVEBOX-0DAY)
 
 ### CVE-2018-20433 (2018-12-24)
 
