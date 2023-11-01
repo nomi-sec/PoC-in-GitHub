@@ -4801,7 +4801,7 @@
 
 ### CVE-2023-45992 (2023-10-19)
 
-<code>Cross Site Scripting vulnerability in Ruckus Wireless (CommScope) Ruckus CloudPath v.5.12.54414 allows a remote attacker to escalate privileges via a crafted script to the macaddress parameter in the onboarding portal.
+<code>A vulnerability in the web-based interface of the RUCKUS Cloudpath product on version 5.12 build 5538 or before to could allow a remote, unauthenticated attacker to execute persistent XSS and CSRF attacks against a user of the admin management interface. A successful attack, combined with a certain admin activity, could allow the attacker to gain full admin privileges on the exploited system.
 </code>
 
 - [harry935/CVE-2023-45992](https://github.com/harry935/CVE-2023-45992)
