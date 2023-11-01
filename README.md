@@ -4856,6 +4856,9 @@
 </code>
 
 - [W01fh4cker/CVE-2023-46747-RCE](https://github.com/W01fh4cker/CVE-2023-46747-RCE)
+- [fu2x2000/CVE-2023-46747](https://github.com/fu2x2000/CVE-2023-46747)
+- [maniak-academy/Mitigate-CVE-2023-46747](https://github.com/maniak-academy/Mitigate-CVE-2023-46747)
+- [y4v4z/CVE-2023-46747-POC](https://github.com/y4v4z/CVE-2023-46747-POC)
 
 ### CVE-2023-47103
 - [quantiano/cve-2023-47103](https://github.com/quantiano/cve-2023-47103)
@@ -12875,6 +12878,7 @@
 - [overgrowncarrot1/DejaVu-CVE-2021-22205](https://github.com/overgrowncarrot1/DejaVu-CVE-2021-22205)
 - [Hikikan/CVE-2021-22205](https://github.com/Hikikan/CVE-2021-22205)
 - [won6c/CVE-2021-22205](https://github.com/won6c/CVE-2021-22205)
+- [NukingDragons/gitlab-cve-2021-22205](https://github.com/NukingDragons/gitlab-cve-2021-22205)
 
 ### CVE-2021-22206 (2021-05-06)
 
