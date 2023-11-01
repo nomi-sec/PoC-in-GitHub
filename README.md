@@ -1301,7 +1301,6 @@
 </code>
 
 - [ForceFledgling/CVE-2023-22518](https://github.com/ForceFledgling/CVE-2023-22518)
-- [tonghuaroot/CVE-2023-22518](https://github.com/tonghuaroot/CVE-2023-22518)
 
 ### CVE-2023-22551 (2023-01-01)
 
