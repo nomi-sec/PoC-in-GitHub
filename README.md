@@ -832,6 +832,7 @@
 - [sagsooz/CVE-2023-5360](https://github.com/sagsooz/CVE-2023-5360)
 - [phankz/Worpress-CVE-2023-5360](https://github.com/phankz/Worpress-CVE-2023-5360)
 - [nastar-id/CVE-2023-5360](https://github.com/nastar-id/CVE-2023-5360)
+- [Chocapikk/CVE-2023-5360](https://github.com/Chocapikk/CVE-2023-5360)
 
 ### CVE-2023-5412 (2023-10-31)
 
@@ -2149,7 +2150,7 @@
 <code>Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to execute some OS commands remotely by sending crafted packets to an affected device.
 </code>
 
-- [BenHays142/CVE-2023-28771-PoC](https://github.com/BenHays142/CVE-2023-28771-PoC)
+- [fed-speak/CVE-2023-28771-PoC](https://github.com/fed-speak/CVE-2023-28771-PoC)
 - [WhiteOwl-Pub/PoC-CVE-2023-28771](https://github.com/WhiteOwl-Pub/PoC-CVE-2023-28771)
 
 ### CVE-2023-28772 (2023-03-23)
@@ -4850,11 +4851,19 @@
 ### CVE-2023-46501
 - [Cyber-Wo0dy/CVE-2023-46501](https://github.com/Cyber-Wo0dy/CVE-2023-46501)
 
+### CVE-2023-46604 (2023-10-27)
+
+<code>Apache ActiveMQ is vulnerable to Remote Code Execution.The vulnerability may allow a remote attacker with network access to a broker to run arbitrary shell commands by manipulating serialized class types in the OpenWire protocol to cause the broker to instantiate any class on the classpath. \n\nUsers are recommended to upgrade to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3, which fixes this issue.
+</code>
+
+- [X1r0z/ActiveMQ-RCE](https://github.com/X1r0z/ActiveMQ-RCE)
+
 ### CVE-2023-46747 (2023-10-26)
 
 <code>\n\n\nUndisclosed requests may bypass configuration utility authentication, allowing an attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated\n\n
 </code>
 
+- [bijaysenihang/CVE-2023-46747-Mass-RCE](https://github.com/bijaysenihang/CVE-2023-46747-Mass-RCE)
 - [W01fh4cker/CVE-2023-46747-RCE](https://github.com/W01fh4cker/CVE-2023-46747-RCE)
 - [fu2x2000/CVE-2023-46747](https://github.com/fu2x2000/CVE-2023-46747)
 - [maniak-academy/Mitigate-CVE-2023-46747](https://github.com/maniak-academy/Mitigate-CVE-2023-46747)
@@ -8574,6 +8583,13 @@
 
 - [efchatz/HTTP3-attacks](https://github.com/efchatz/HTTP3-attacks)
 
+### CVE-2022-30594 (2022-05-12)
+
+<code>The Linux kernel before 5.17.2 mishandles seccomp permissions. The PTRACE_SEIZE code path allows attackers to bypass intended restrictions on setting the PT_SUSPEND_SECCOMP flag.
+</code>
+
+- [Lay0us1/linux-4.19.72_CVE-2022-30594](https://github.com/Lay0us1/linux-4.19.72_CVE-2022-30594)
+
 ### CVE-2022-30600 (2022-05-18)
 
 <code>A flaw was found in moodle where logic used to count failed login attempts could result in the account lockout threshold being bypassed.
@@ -9412,7 +9428,7 @@
 - [notdls/CVE-2022-36804](https://github.com/notdls/CVE-2022-36804)
 - [notxesh/CVE-2022-36804-PoC](https://github.com/notxesh/CVE-2022-36804-PoC)
 - [JRandomSage/CVE-2022-36804-MASS-RCE](https://github.com/JRandomSage/CVE-2022-36804-MASS-RCE)
-- [BenHays142/CVE-2022-36804-PoC-Exploit](https://github.com/BenHays142/CVE-2022-36804-PoC-Exploit)
+- [fed-speak/CVE-2022-36804-PoC-Exploit](https://github.com/fed-speak/CVE-2022-36804-PoC-Exploit)
 - [Vulnmachines/bitbucket-cve-2022-36804](https://github.com/Vulnmachines/bitbucket-cve-2022-36804)
 - [kljunowsky/CVE-2022-36804-POC](https://github.com/kljunowsky/CVE-2022-36804-POC)
 - [khal4n1/CVE-2022-36804](https://github.com/khal4n1/CVE-2022-36804)
@@ -34329,6 +34345,13 @@
 </code>
 
 - [azet/CVE-2014-3466_PoC](https://github.com/azet/CVE-2014-3466_PoC)
+
+### CVE-2014-3470 (2014-06-05)
+
+<code>The ssl3_send_client_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h, when an anonymous ECDH cipher suite is used, allows remote attackers to cause a denial of service (NULL pointer dereference and client crash) by triggering a NULL certificate value.
+</code>
+
+- [Satheesh575555/OpensSSL_1.0.1g_CVE-2014-3470](https://github.com/Satheesh575555/OpensSSL_1.0.1g_CVE-2014-3470)
 
 ### CVE-2014-3544 (2014-07-29)
 
