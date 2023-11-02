@@ -4860,8 +4860,14 @@
 - [maniak-academy/Mitigate-CVE-2023-46747](https://github.com/maniak-academy/Mitigate-CVE-2023-46747)
 - [y4v4z/CVE-2023-46747-POC](https://github.com/y4v4z/CVE-2023-46747-POC)
 
+### CVE-2023-46998
+- [soy-oreocato/CVE-2023-46998](https://github.com/soy-oreocato/CVE-2023-46998)
+
 ### CVE-2023-47103
 - [quantiano/cve-2023-47103](https://github.com/quantiano/cve-2023-47103)
+
+### CVE-2023-47184
+- [rach1tarora/CVE-2023-47184](https://github.com/rach1tarora/CVE-2023-47184)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
