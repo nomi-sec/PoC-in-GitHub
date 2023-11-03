@@ -910,6 +910,7 @@
 </code>
 
 - [Wh04m1001/CVE-2023-20178](https://github.com/Wh04m1001/CVE-2023-20178)
+- [XalfiE/CVE-2023-20178_](https://github.com/XalfiE/CVE-2023-20178_)
 
 ### CVE-2023-20198 (2023-10-16)
 
@@ -935,6 +936,7 @@
 - [mr-r3b00t/CVE-2023-20198-IOS-XE-Scanner](https://github.com/mr-r3b00t/CVE-2023-20198-IOS-XE-Scanner)
 - [ohlawd/CVE-2023-20198](https://github.com/ohlawd/CVE-2023-20198)
 - [IceBreakerCode/CVE-2023-20198](https://github.com/IceBreakerCode/CVE-2023-20198)
+- [sanjai-AK47/CVE-2023-20198](https://github.com/sanjai-AK47/CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -4824,7 +4826,11 @@
 ### CVE-2023-46197
 - [RandomRobbieBF/CVE-2023-46197](https://github.com/RandomRobbieBF/CVE-2023-46197)
 
-### CVE-2023-46404
+### CVE-2023-46404 (2023-11-03)
+
+<code>PCRS &lt;= 3.11 (d0de1e) “Questions” page and “Code editor” page are vulnerable to remote code execution (RCE) by escaping Python sandboxing.
+</code>
+
 - [windecks/CVE-2023-46404](https://github.com/windecks/CVE-2023-46404)
 
 ### CVE-2023-46449 (2023-10-26)
@@ -4877,6 +4883,7 @@
 - [maniak-academy/Mitigate-CVE-2023-46747](https://github.com/maniak-academy/Mitigate-CVE-2023-46747)
 - [y4v4z/CVE-2023-46747-POC](https://github.com/y4v4z/CVE-2023-46747-POC)
 - [nvansluis/test_cve-2023-46747](https://github.com/nvansluis/test_cve-2023-46747)
+- [sanjai-AK47/CVE-2023-46747](https://github.com/sanjai-AK47/CVE-2023-46747)
 
 ### CVE-2023-46954 (2023-11-02)
 
@@ -4888,7 +4895,11 @@
 ### CVE-2023-46974
 - [yte121/CVE-2023-46974](https://github.com/yte121/CVE-2023-46974)
 
-### CVE-2023-46980
+### CVE-2023-46980 (2023-11-03)
+
+<code>An issue in Best Courier Management System v.1.0 allows a remote attacker to execute arbitrary code and escalate privileges via a crafted script to the userID parameter.
+</code>
+
 - [sajaljat/CVE-2023-46980](https://github.com/sajaljat/CVE-2023-46980)
 
 ### CVE-2023-46998
@@ -6166,6 +6177,7 @@
 - [fundaergn/CVE-2022-21449](https://github.com/fundaergn/CVE-2022-21449)
 - [Skipper7718/CVE-2022-21449-showcase](https://github.com/Skipper7718/CVE-2022-21449-showcase)
 - [davwwwx/CVE-2022-21449](https://github.com/davwwwx/CVE-2022-21449)
+- [AlexanderZinoni/CVE-2022-21449](https://github.com/AlexanderZinoni/CVE-2022-21449)
 
 ### CVE-2022-21587 (2022-10-18)
 
