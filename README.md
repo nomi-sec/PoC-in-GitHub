@@ -3870,6 +3870,7 @@
 - [AnvithLobo/CVE-2023-38646](https://github.com/AnvithLobo/CVE-2023-38646)
 - [Red4mber/CVE-2023-38646](https://github.com/Red4mber/CVE-2023-38646)
 - [junnythemarksman/CVE-2023-38646](https://github.com/junnythemarksman/CVE-2023-38646)
+- [Itrekr/CVE-2023-38646-Crapsploit](https://github.com/Itrekr/CVE-2023-38646-Crapsploit)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -4863,6 +4864,7 @@
 </code>
 
 - [X1r0z/ActiveMQ-RCE](https://github.com/X1r0z/ActiveMQ-RCE)
+- [JaneMandy/ActiveMQ_RCE_Pro_Max](https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max)
 
 ### CVE-2023-46747 (2023-10-26)
 
@@ -4891,6 +4893,9 @@
 
 ### CVE-2023-46998
 - [soy-oreocato/CVE-2023-46998](https://github.com/soy-oreocato/CVE-2023-46998)
+
+### CVE-2023-47179
+- [RandomRobbieBF/CVE-2023-47179](https://github.com/RandomRobbieBF/CVE-2023-47179)
 
 ### CVE-2023-47184
 - [rach1tarora/CVE-2023-47184](https://github.com/rach1tarora/CVE-2023-47184)
@@ -33422,6 +33427,13 @@
 </code>
 
 - [int0/CVE-2015-1769](https://github.com/int0/CVE-2015-1769)
+
+### CVE-2015-1788 (2015-06-12)
+
+<code>The BN_GF2m_mod_inv function in crypto/bn/bn_gf2m.c in OpenSSL before 0.9.8s, 1.0.0 before 1.0.0e, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b does not properly handle ECParameters structures in which the curve is over a malformed binary polynomial field, which allows remote attackers to cause a denial of service (infinite loop) via a session that uses an Elliptic Curve algorithm, as demonstrated by an attack against a server that supports client authentication.
+</code>
+
+- [pazhanivel07/OpenSSL_1_0_1g_CVE-2015-1788](https://github.com/pazhanivel07/OpenSSL_1_0_1g_CVE-2015-1788)
 
 ### CVE-2015-1805 (2015-08-08)
 
