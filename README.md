@@ -2046,6 +2046,7 @@
 - [Jenderal92/CVE-2023-28121](https://github.com/Jenderal92/CVE-2023-28121)
 - [C04LA/CVE-2023-28121](https://github.com/C04LA/CVE-2023-28121)
 - [Jenderal92/WP-CVE-2023-28121](https://github.com/Jenderal92/WP-CVE-2023-28121)
+- [1337nemojj/CVE-2023-28121](https://github.com/1337nemojj/CVE-2023-28121)
 
 ### CVE-2023-28206 (2023-04-10)
 
@@ -3651,6 +3652,7 @@
 </code>
 
 - [TrevorGKann/CVE-2023-37478_npm_vs_pnpm](https://github.com/TrevorGKann/CVE-2023-37478_npm_vs_pnpm)
+- [li-minhao/CVE-2023-37478-Demo](https://github.com/li-minhao/CVE-2023-37478-Demo)
 
 ### CVE-2023-37582 (2023-07-12)
 
@@ -4871,6 +4873,7 @@
 
 - [X1r0z/ActiveMQ-RCE](https://github.com/X1r0z/ActiveMQ-RCE)
 - [JaneMandy/ActiveMQ_RCE_Pro_Max](https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max)
+- [SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ](https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ)
 
 ### CVE-2023-46747 (2023-10-26)
 
@@ -4904,6 +4907,9 @@
 
 ### CVE-2023-46998
 - [soy-oreocato/CVE-2023-46998](https://github.com/soy-oreocato/CVE-2023-46998)
+
+### CVE-2023-47102
+- [quantiano/cve-2023-47102](https://github.com/quantiano/cve-2023-47102)
 
 ### CVE-2023-47179
 - [RandomRobbieBF/CVE-2023-47179](https://github.com/RandomRobbieBF/CVE-2023-47179)
@@ -28241,6 +28247,9 @@
 </code>
 
 - [0x00-0x00/CVE-2018-10949](https://github.com/0x00-0x00/CVE-2018-10949)
+
+### CVE-2018-10993
+- [nicolastsk/cve-2018-10993](https://github.com/nicolastsk/cve-2018-10993)
 
 ### CVE-2018-11235 (2018-05-30)
 
