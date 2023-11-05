@@ -1310,6 +1310,7 @@
 
 - [ForceFledgling/CVE-2023-22518](https://github.com/ForceFledgling/CVE-2023-22518)
 - [davidfortytwo/CVE-2023-22518](https://github.com/davidfortytwo/CVE-2023-22518)
+- [sanjai-AK47/CVE-2023-22518](https://github.com/sanjai-AK47/CVE-2023-22518)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -3750,6 +3751,13 @@
 
 ### CVE-2023-37800
 - [TraiLeR2/CVE-2023-37800](https://github.com/TraiLeR2/CVE-2023-37800)
+
+### CVE-2023-37903 (2023-07-21)
+
+<code>vm2 is an open source vm/sandbox for Node.js. In vm2 for versions up to and including 3.9.19, Node.js custom inspect function allows attackers to escape the sandbox and run arbitrary code. This may result in Remote Code Execution, assuming the attacker has arbitrary code execution primitive inside the context of vm2 sandbox. There are no patches and no known workarounds. Users are advised to find an alternative software.
+</code>
+
+- [7h3h4ckv157/CVE-2023-37903](https://github.com/7h3h4ckv157/CVE-2023-37903)
 
 ### CVE-2023-37941 (2023-09-06)
 
