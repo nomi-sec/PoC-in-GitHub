@@ -837,6 +837,7 @@
 - [Chocapikk/CVE-2023-5360](https://github.com/Chocapikk/CVE-2023-5360)
 - [tucommenceapousser/CVE-2023-5360](https://github.com/tucommenceapousser/CVE-2023-5360)
 - [Jenderal92/WP-CVE-2023-5360](https://github.com/Jenderal92/WP-CVE-2023-5360)
+- [Pushkarup/CVE-2023-5360](https://github.com/Pushkarup/CVE-2023-5360)
 
 ### CVE-2023-5412 (2023-10-31)
 
@@ -2382,6 +2383,9 @@
 </code>
 
 - [c7w1n/CVE-2023-30185](https://github.com/c7w1n/CVE-2023-30185)
+
+### CVE-2023-30190
+- [MojithaR/CVE-2023-30190-FOLLINA](https://github.com/MojithaR/CVE-2023-30190-FOLLINA)
 
 ### CVE-2023-30212 (2023-04-26)
 
@@ -4188,6 +4192,9 @@
 
 - [SorceryIE/CVE-2023-41362_MyBB_ACP_RCE](https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE)
 
+### CVE-2023-41425
+- [prodigiousMind/CVE-2023-41425](https://github.com/prodigiousMind/CVE-2023-41425)
+
 ### CVE-2023-41436 (2023-09-15)
 
 <code>Cross Site Scripting vulnerability in CSZCMS v.1.3.0 allows a local attacker to execute arbitrary code via a crafted script to the Additional Meta Tag parameter in the Pages Content Menu component.
@@ -5246,6 +5253,7 @@
 - [pashayogi/DirtyPipe](https://github.com/pashayogi/DirtyPipe)
 - [n3rada/DirtyPipe](https://github.com/n3rada/DirtyPipe)
 - [ayushx007/CVE-2022-0847-dirty-pipe-checker](https://github.com/ayushx007/CVE-2022-0847-dirty-pipe-checker)
+- [ayushx007/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/ayushx007/CVE-2022-0847-DirtyPipe-Exploits)
 
 ### CVE-2022-0848 (2022-03-04)
 
@@ -23196,6 +23204,7 @@
 - [nicchongwb/Rootsmart-v2.0](https://github.com/nicchongwb/Rootsmart-v2.0)
 - [enceka/cve-2019-2215-3.18](https://github.com/enceka/cve-2019-2215-3.18)
 - [elbiazo/CVE-2019-2215](https://github.com/elbiazo/CVE-2019-2215)
+- [jsirichai/CVE-2019-2215](https://github.com/jsirichai/CVE-2019-2215)
 
 ### CVE-2019-2525 (2019-01-16)
 
