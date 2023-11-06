@@ -4899,6 +4899,7 @@
 - [JaneMandy/ActiveMQ_RCE_Pro_Max](https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max)
 - [SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ](https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ)
 - [evkl1d/CVE-2023-46604](https://github.com/evkl1d/CVE-2023-46604)
+- [sule01u/CVE-2023-46604](https://github.com/sule01u/CVE-2023-46604)
 
 ### CVE-2023-46747 (2023-10-26)
 
