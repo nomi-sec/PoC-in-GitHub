@@ -4276,6 +4276,12 @@
 
 - [itssixtyn3in/CVE-2023-42222](https://github.com/itssixtyn3in/CVE-2023-42222)
 
+### CVE-2023-42283
+- [andreysanyuk/CVE-2023-42283](https://github.com/andreysanyuk/CVE-2023-42283)
+
+### CVE-2023-42284
+- [andreysanyuk/CVE-2023-42284](https://github.com/andreysanyuk/CVE-2023-42284)
+
 ### CVE-2023-42362 (2023-09-14)
 
 <code>An arbitrary file upload vulnerability in Teller Web App v.4.4.0 allows a remote attacker to execute arbitrary commands and obtain sensitive information via uploading a crafted file.
@@ -4818,7 +4824,11 @@
 
 - [ahrixia/CVE-2023-45542](https://github.com/ahrixia/CVE-2023-45542)
 
-### CVE-2023-45657
+### CVE-2023-45657 (2023-11-06)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in POSIMYTH Nexter allows SQL Injection.This issue affects Nexter: from n/a through 2.0.3.\n\n
+</code>
+
 - [RandomRobbieBF/CVE-2023-45657](https://github.com/RandomRobbieBF/CVE-2023-45657)
 
 ### CVE-2023-45828
@@ -4940,7 +4950,11 @@
 ### CVE-2023-47179
 - [RandomRobbieBF/CVE-2023-47179](https://github.com/RandomRobbieBF/CVE-2023-47179)
 
-### CVE-2023-47184
+### CVE-2023-47184 (2023-11-06)
+
+<code>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Proper Fraction LLC. Admin Bar &amp; Dashboard Access Control plugin &lt;= 1.2.8 versions.
+</code>
+
 - [rach1tarora/CVE-2023-47184](https://github.com/rach1tarora/CVE-2023-47184)
 
 ### CVE-2023-51504
@@ -7266,6 +7280,7 @@
 
 - [JacobEbben/CVE-2022-24715](https://github.com/JacobEbben/CVE-2022-24715)
 - [cxdxnt/CVE-2022-24715](https://github.com/cxdxnt/CVE-2022-24715)
+- [d4rkb0n3/CVE-2022-24715-go](https://github.com/d4rkb0n3/CVE-2022-24715-go)
 
 ### CVE-2022-24716 (2022-03-08)
 
@@ -33495,6 +33510,13 @@
 
 - [pazhanivel07/OpenSSL_1_0_1g_CVE-2015-1788](https://github.com/pazhanivel07/OpenSSL_1_0_1g_CVE-2015-1788)
 
+### CVE-2015-1790 (2015-06-12)
+
+<code>The PKCS7_dataDecodefunction in crypto/pkcs7/pk7_doit.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a PKCS#7 blob that uses ASN.1 encoding and lacks inner EncryptedContent data.
+</code>
+
+- [Trinadh465/OpenSSL-1_0_1g_CVE-2015-1790](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-1790)
+
 ### CVE-2015-1805 (2015-08-08)
 
 <code>The (1) pipe_read and (2) pipe_write implementations in fs/pipe.c in the Linux kernel before 3.16 do not properly consider the side effects of failed __copy_to_user_inatomic and __copy_from_user_inatomic calls, which allows local users to cause a denial of service (system crash) or possibly gain privileges via a crafted application, aka an &quot;I/O vector array overrun.&quot;
@@ -33615,6 +33637,20 @@
 </code>
 
 - [duo-labs/mysslstrip](https://github.com/duo-labs/mysslstrip)
+
+### CVE-2015-3194 (2015-12-06)
+
+<code>crypto/rsa/rsa_ameth.c in OpenSSL 1.0.1 before 1.0.1q and 1.0.2 before 1.0.2e allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via an RSA PSS ASN.1 signature that lacks a mask generation function parameter.
+</code>
+
+- [Trinadh465/OpenSSL-1_0_1g_CVE-2015-3194](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-3194)
+
+### CVE-2015-3195 (2015-12-06)
+
+<code>The ASN1_TFLG_COMBINE implementation in crypto/asn1/tasn_dec.c in OpenSSL before 0.9.8zh, 1.0.0 before 1.0.0t, 1.0.1 before 1.0.1q, and 1.0.2 before 1.0.2e mishandles errors caused by malformed X509_ATTRIBUTE data, which allows remote attackers to obtain sensitive information from process memory by triggering a decoding failure in a PKCS#7 or CMS application.
+</code>
+
+- [Trinadh465/OpenSSL-1_0_1g_CVE-2015-3195](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-3195)
 
 ### CVE-2015-3224 (2015-07-26)
 
