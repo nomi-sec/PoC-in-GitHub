@@ -18778,6 +18778,7 @@
 - [adarshvs/CVE-2020-3580](https://github.com/adarshvs/CVE-2020-3580)
 - [cruxN3T/CVE-2020-3580](https://github.com/cruxN3T/CVE-2020-3580)
 - [catatonicprime/CVE-2020-3580](https://github.com/catatonicprime/CVE-2020-3580)
+- [imhunterand/CVE-2020-3580](https://github.com/imhunterand/CVE-2020-3580)
 
 ### CVE-2020-3766 (2020-03-25)
 
@@ -32326,7 +32327,7 @@
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
-- [DanielCodex/CVE-2016-2098-my-first-exploit](https://github.com/DanielCodex/CVE-2016-2098-my-first-exploit)
+- [DanielHemmati/CVE-2016-2098-my-first-exploit](https://github.com/DanielHemmati/CVE-2016-2098-my-first-exploit)
 - [Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098)
 - [j4k0m/CVE-2016-2098](https://github.com/j4k0m/CVE-2016-2098)
 - [Shakun8/CVE-2016-2098](https://github.com/Shakun8/CVE-2016-2098)
@@ -33516,6 +33517,13 @@
 </code>
 
 - [Trinadh465/OpenSSL-1_0_1g_CVE-2015-1790](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-1790)
+
+### CVE-2015-1792 (2015-06-12)
+
+<code>The do_free_upto function in crypto/cms/cms_smime.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (infinite loop) via vectors that trigger a NULL value of a BIO data structure, as demonstrated by an unrecognized X.660 OID for a hash function.
+</code>
+
+- [Trinadh465/OpenSSL-1_0_1g_CVE-2015-1792](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-1792)
 
 ### CVE-2015-1805 (2015-08-08)
 
