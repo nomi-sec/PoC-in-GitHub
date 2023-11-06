@@ -32510,7 +32510,7 @@
 <code>LibUtils in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-09-01, and 7.0 before 2016-09-01 mishandles conversions between Unicode character encodings with different encoding widths, which allows remote attackers to execute arbitrary code or cause a denial of service (heap-based buffer overflow) via a crafted file, aka internal bug 29250543.
 </code>
 
-- [xencyborg/CVE-2016-3861](https://github.com/xencyborg/CVE-2016-3861)
+- [zeroshotkevin/CVE-2016-3861](https://github.com/zeroshotkevin/CVE-2016-3861)
 
 ### CVE-2016-3955 (2016-07-03)
 
@@ -33917,6 +33917,7 @@
 - [dix0nym/CVE-2015-6967](https://github.com/dix0nym/CVE-2015-6967)
 - [0xConstant/CVE-2015-6967](https://github.com/0xConstant/CVE-2015-6967)
 - [FredBrave/CVE-2015-6967](https://github.com/FredBrave/CVE-2015-6967)
+- [3mpir3Albert/HTB_Nibbles](https://github.com/3mpir3Albert/HTB_Nibbles)
 
 ### CVE-2015-7214 (2015-12-16)
 
