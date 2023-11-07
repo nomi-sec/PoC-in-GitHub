@@ -4292,10 +4292,18 @@
 
 - [itssixtyn3in/CVE-2023-42222](https://github.com/itssixtyn3in/CVE-2023-42222)
 
-### CVE-2023-42283
+### CVE-2023-42283 (2023-11-07)
+
+<code>Blind SQL injection in api_id parameter in Tyk Gateway version 5.0.3 allows attacker to access and dump the database via a crafted SQL query.
+</code>
+
 - [andreysanyuk/CVE-2023-42283](https://github.com/andreysanyuk/CVE-2023-42283)
 
-### CVE-2023-42284
+### CVE-2023-42284 (2023-11-07)
+
+<code>Blind SQL injection in api_version parameter in Tyk Gateway version 5.0.3 allows attacker to access and dump the database via a crafted SQL query.
+</code>
+
 - [andreysanyuk/CVE-2023-42284](https://github.com/andreysanyuk/CVE-2023-42284)
 
 ### CVE-2023-42362 (2023-09-14)
@@ -4964,7 +4972,7 @@
 
 - [soy-oreocato/CVE-2023-46998](https://github.com/soy-oreocato/CVE-2023-46998)
 
-### CVE-2023-47102 (-)
+### CVE-2023-47102 (2023-11-07)
 
 <code>UrBackup Server 2.5.31 allows brute-force enumeration of user accounts because a failure message confirms that a username is not valid.
 </code>
@@ -28098,6 +28106,7 @@
 - [wildkindcc/CVE-2018-9276](https://github.com/wildkindcc/CVE-2018-9276)
 - [andyfeili/CVE-2018-9276](https://github.com/andyfeili/CVE-2018-9276)
 - [A1vinSmith/CVE-2018-9276](https://github.com/A1vinSmith/CVE-2018-9276)
+- [mmezirard/cve-2018-9276](https://github.com/mmezirard/cve-2018-9276)
 
 ### CVE-2018-9375
 - [IOActive/AOSP-ExploitUserDictionary](https://github.com/IOActive/AOSP-ExploitUserDictionary)
@@ -33687,6 +33696,13 @@
 
 - [Trinadh465/OpenSSL-1_0_1g_CVE-2015-3195](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-3195)
 
+### CVE-2015-3197 (2016-02-14)
+
+<code>ssl/s2_srvr.c in OpenSSL 1.0.1 before 1.0.1r and 1.0.2 before 1.0.2f does not prevent use of disabled ciphers, which makes it easier for man-in-the-middle attackers to defeat cryptographic protection mechanisms by performing computations on SSLv2 traffic, related to the get_client_master_key and get_client_hello functions.
+</code>
+
+- [Trinadh465/OpenSSL-1_0_1g_CVE-2015-3197](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-3197)
+
 ### CVE-2015-3224 (2015-07-26)
 
 <code>request.rb in Web Console before 2.1.3, as used with Ruby on Rails 3.x and 4.x, does not properly restrict the use of X-Forwarded-For headers in determining a client's IP address, which allows remote attackers to bypass the whitelisted_ips protection mechanism via a crafted request.
@@ -34538,6 +34554,7 @@
 - [stdevel/poodle_protector](https://github.com/stdevel/poodle_protector)
 - [cloudpassage/mangy-beast](https://github.com/cloudpassage/mangy-beast)
 - [mpgn/poodle-PoC](https://github.com/mpgn/poodle-PoC)
+- [uthrasri/openssl_g2.5_CVE-2014-3566](https://github.com/uthrasri/openssl_g2.5_CVE-2014-3566)
 
 ### CVE-2014-3625 (2014-11-20)
 
@@ -34880,6 +34897,14 @@
 </code>
 
 - [JollyJumbuckk/LinksysLeaks](https://github.com/JollyJumbuckk/LinksysLeaks)
+
+### CVE-2014-8275 (2015-01-08)
+
+<code>OpenSSL before 0.9.8zd, 1.0.0 before 1.0.0p, and 1.0.1 before 1.0.1k does not enforce certain constraints on certificate data, which allows remote attackers to defeat a fingerprint-based certificate-blacklist protection mechanism by including crafted data within a certificate's unsigned portion, related to crypto/asn1/a_verify.c, crypto/dsa/dsa_asn1.c, crypto/ecdsa/ecs_vrf.c, and crypto/x509/x_all.c.
+</code>
+
+- [uthrasri/Openssl_G2.5_CVE-2014-8275](https://github.com/uthrasri/Openssl_G2.5_CVE-2014-8275)
+- [uthrasri/CVE-2014-8275_openssl_g2.5](https://github.com/uthrasri/CVE-2014-8275_openssl_g2.5)
 
 ### CVE-2014-8609 (2014-12-15)
 
