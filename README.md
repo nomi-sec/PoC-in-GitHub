@@ -1320,7 +1320,7 @@
 
 ### CVE-2023-22518 (2023-10-31)
 
-<code>All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. There is no impact to confidentiality as an attacker cannot exfiltrate any instance data.\n\nAtlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
+<code>All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthenticated attacker to reset Confluence and create a Confluence instance administrator account. Using this account, an attacker can then perform all administrative actions that are available to Confluence instance administrator leading to - but not limited to - full loss of confidentiality, integrity and availability. \n\nAtlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.
 </code>
 
 - [ForceFledgling/CVE-2023-22518](https://github.com/ForceFledgling/CVE-2023-22518)
@@ -3902,6 +3902,7 @@
 - [Red4mber/CVE-2023-38646](https://github.com/Red4mber/CVE-2023-38646)
 - [junnythemarksman/CVE-2023-38646](https://github.com/junnythemarksman/CVE-2023-38646)
 - [Itrekr/CVE-2023-38646-Crapsploit](https://github.com/Itrekr/CVE-2023-38646-Crapsploit)
+- [Mrunalkaran/CVE-2023-38646](https://github.com/Mrunalkaran/CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -3964,6 +3965,7 @@
 - [Nielk74/CVE-2023-38831](https://github.com/Nielk74/CVE-2023-38831)
 - [kehrijksen/CVE-2023-38831](https://github.com/kehrijksen/CVE-2023-38831)
 - [seyit-sigirci/SideCopy-Exploits-CVE-2023-38831](https://github.com/seyit-sigirci/SideCopy-Exploits-CVE-2023-38831)
+- [s4m98/winrar-cve-2023-38831-poc-gen](https://github.com/s4m98/winrar-cve-2023-38831-poc-gen)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -4955,10 +4957,18 @@
 
 - [sajaljat/CVE-2023-46980](https://github.com/sajaljat/CVE-2023-46980)
 
-### CVE-2023-46998
+### CVE-2023-46998 (2023-11-06)
+
+<code>Cross Site Scripting vulnerability in BootBox Bootbox.js v.3.2 through 6.0 allows a remote attacker to execute arbitrary code via a crafted payload to alert(), confirm(), prompt() functions.
+</code>
+
 - [soy-oreocato/CVE-2023-46998](https://github.com/soy-oreocato/CVE-2023-46998)
 
-### CVE-2023-47102
+### CVE-2023-47102 (-)
+
+<code>UrBackup Server 2.5.31 allows brute-force enumeration of user accounts because a failure message confirms that a username is not valid.
+</code>
+
 - [quantiano/cve-2023-47102](https://github.com/quantiano/cve-2023-47102)
 
 ### CVE-2023-47179
@@ -20225,12 +20235,12 @@
 - [dozernz/cve-2020-11651](https://github.com/dozernz/cve-2020-11651)
 - [0xc0d/CVE-2020-11651](https://github.com/0xc0d/CVE-2020-11651)
 - [jasperla/CVE-2020-11651-poc](https://github.com/jasperla/CVE-2020-11651-poc)
-- [Imanfeng/SaltStack-Exp](https://github.com/Imanfeng/SaltStack-Exp)
 - [bravery9/SaltStack-Exp](https://github.com/bravery9/SaltStack-Exp)
 - [kevthehermit/CVE-2020-11651](https://github.com/kevthehermit/CVE-2020-11651)
 - [lovelyjuice/cve-2020-11651-exp-plus](https://github.com/lovelyjuice/cve-2020-11651-exp-plus)
 - [ssrsec/CVE-2020-11651-CVE-2020-11652-EXP](https://github.com/ssrsec/CVE-2020-11651-CVE-2020-11652-EXP)
 - [RakhithJK/CVE-2020-11651](https://github.com/RakhithJK/CVE-2020-11651)
+- [5l1v3r1/SaltStack-Exp-1](https://github.com/5l1v3r1/SaltStack-Exp-1)
 - [appcheck-ng/salt-rce-scanner-CVE-2020-11651-CVE-2020-11652](https://github.com/appcheck-ng/salt-rce-scanner-CVE-2020-11651-CVE-2020-11652)
 - [puckiestyle/cve-2020-11651](https://github.com/puckiestyle/cve-2020-11651)
 
