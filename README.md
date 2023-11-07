@@ -236,6 +236,20 @@
 - [deIndra/CVE-2023-1698](https://github.com/deIndra/CVE-2023-1698)
 - [thedarknessdied/WAGO-CVE-2023-1698](https://github.com/thedarknessdied/WAGO-CVE-2023-1698)
 
+### CVE-2023-1713 (2023-11-01)
+
+<code>Insecure temporary file creation in bitrix/modules/crm/lib/order/import/instagram.php in Bitrix24 22.0.300 hosted on Apache HTTP Server allows remote authenticated attackers to execute arbitrary code via uploading a crafted &quot;.htaccess&quot; file.
+</code>
+
+- [ForceFledgling/CVE-2023-1713](https://github.com/ForceFledgling/CVE-2023-1713)
+
+### CVE-2023-1714 (2023-11-01)
+
+<code>Unsafe variable extraction in bitrix/modules/main/classes/general/user_options.php in Bitrix24 22.0.300 allows remote authenticated attackers to execute arbitrary code via (1) appending arbitrary content to existing PHP files or (2) PHAR deserialization.
+</code>
+
+- [ForceFledgling/CVE-2023-1714](https://github.com/ForceFledgling/CVE-2023-1714)
+
 ### CVE-2023-1767 (2023-04-20)
 
 <code>The Snyk Advisor website (https://snyk.io/advisor/) was vulnerable to a stored XSS prior to 28th March 2023. A feature of Snyk Advisor is to display the contents of a scanned package's Readme on its package health page. An attacker could create a package in NPM with an associated markdown README file containing XSS-able HTML tags. Upon Snyk Advisor importing the package, the XSS would run each time an end user browsed to the package's page on Snyk Advisor.
@@ -16543,6 +16557,9 @@
 </code>
 
 - [xvnpw/k8s-CVE-2021-43557-poc](https://github.com/xvnpw/k8s-CVE-2021-43557-poc)
+
+### CVE-2021-43609
+- [d5sec/CVE-2021-43609-POC](https://github.com/d5sec/CVE-2021-43609-POC)
 
 ### CVE-2021-43616 (2021-11-13)
 
