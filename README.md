@@ -929,7 +929,7 @@
 
 ### CVE-2023-20198 (2023-10-16)
 
-<code>Cisco is aware of active exploitation of a previously unknown vulnerability in the web UI feature of Cisco IOS XE Software when exposed to the internet or to untrusted networks. This vulnerability allows a remote, unauthenticated attacker to create an account on an affected system with privilege level 15 access. The attacker can then use that account to gain control of the affected system.\r\n\r For steps to close the attack vector for this vulnerability, see the Recommendations section of this advisory \r\n\r Cisco will provide updates on the status of this investigation and when a software patch is available.
+<code>Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.
 </code>
 
 - [raystr-atearedteam/CVE-2023-20198-checker](https://github.com/raystr-atearedteam/CVE-2023-20198-checker)
@@ -4931,7 +4931,7 @@
 
 - [mr-xmen786/CVE-2023-46478](https://github.com/mr-xmen786/CVE-2023-46478)
 
-### CVE-2023-46501 (-)
+### CVE-2023-46501 (2023-11-07)
 
 <code>An issue in BoltWire v.6.03 allows a remote attacker to obtain sensitive information via a crafted payload to the view and change admin password function.
 </code>
