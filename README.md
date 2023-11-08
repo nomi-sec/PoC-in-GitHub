@@ -276,8 +276,7 @@
 <code>The Custom 404 Pro WordPress plugin before 3.7.3 does not escape some URLs before outputting them in attributes, leading to Reflected Cross-Site Scripting.
 </code>
 
-- [GREENHAT7/pxplan](https://github.com/GREENHAT7/pxplan)
-- [GREENHAT7/Hvv2023](https://github.com/GREENHAT7/Hvv2023)
+- [thatformat/Hvv2023](https://github.com/thatformat/Hvv2023)
 
 ### CVE-2023-2033 (2023-04-14)
 
@@ -1317,6 +1316,7 @@
 - [joaoviictorti/CVE-2023-22515](https://github.com/joaoviictorti/CVE-2023-22515)
 - [C1ph3rX13/CVE-2023-22515](https://github.com/C1ph3rX13/CVE-2023-22515)
 - [AIex-3/confluence-hack](https://github.com/AIex-3/confluence-hack)
+- [LucasPDiniz/CVE-2023-22515](https://github.com/LucasPDiniz/CVE-2023-22515)
 
 ### CVE-2023-22518 (2023-10-31)
 
@@ -2060,7 +2060,6 @@
 - [gbrsh/CVE-2023-28121](https://github.com/gbrsh/CVE-2023-28121)
 - [im-hanzou/Mass-CVE-2023-28121](https://github.com/im-hanzou/Mass-CVE-2023-28121)
 - [rio128128/Mass-CVE-2023-28121-kdoec](https://github.com/rio128128/Mass-CVE-2023-28121-kdoec)
-- [Jenderal92/CVE-2023-28121](https://github.com/Jenderal92/CVE-2023-28121)
 - [C04LA/CVE-2023-28121](https://github.com/C04LA/CVE-2023-28121)
 - [Jenderal92/WP-CVE-2023-28121](https://github.com/Jenderal92/WP-CVE-2023-28121)
 - [1337nemojj/CVE-2023-28121](https://github.com/1337nemojj/CVE-2023-28121)
@@ -12236,6 +12235,7 @@
 - [asepsaepdin/CVE-2021-3560](https://github.com/asepsaepdin/CVE-2021-3560)
 - [pashayogi/ROOT-CVE-2021-3560](https://github.com/pashayogi/ROOT-CVE-2021-3560)
 - [TieuLong21Prosper/CVE-2021-3560](https://github.com/TieuLong21Prosper/CVE-2021-3560)
+- [LucasPDiniz/CVE-2021-3560](https://github.com/LucasPDiniz/CVE-2021-3560)
 
 ### CVE-2021-3572 (2021-11-10)
 
@@ -13291,7 +13291,6 @@
 </code>
 
 - [j4k0m/CVE-2021-24499](https://github.com/j4k0m/CVE-2021-24499)
-- [hh-hunter/cve-2021-24499](https://github.com/hh-hunter/cve-2021-24499)
 - [jytmX/CVE-2021-24499](https://github.com/jytmX/CVE-2021-24499)
 
 ### CVE-2021-24507 (2021-08-09)
@@ -13889,7 +13888,6 @@
 
 - [samwcyo/CVE-2021-27651-PoC](https://github.com/samwcyo/CVE-2021-27651-PoC)
 - [Vulnmachines/CVE-2021-27651](https://github.com/Vulnmachines/CVE-2021-27651)
-- [orangmuda/CVE-2021-27651](https://github.com/orangmuda/CVE-2021-27651)
 
 ### CVE-2021-27850 (2021-04-15)
 
@@ -15991,15 +15989,10 @@
 - [knqyf263/CVE-2021-41773](https://github.com/knqyf263/CVE-2021-41773)
 - [ZephrFish/CVE-2021-41773-PoC](https://github.com/ZephrFish/CVE-2021-41773-PoC)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
-- [masahiro331/CVE-2021-41773](https://github.com/masahiro331/CVE-2021-41773)
-- [j4k0m/CVE-2021-41773](https://github.com/j4k0m/CVE-2021-41773)
-- [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
-- [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
 - [creadpag/CVE-2021-41773-POC](https://github.com/creadpag/CVE-2021-41773-POC)
-- [TAI-REx/cve-2021-41773-nse](https://github.com/TAI-REx/cve-2021-41773-nse)
 - [blasty/CVE-2021-41773](https://github.com/blasty/CVE-2021-41773)
 - [PentesterGuruji/CVE-2021-41773](https://github.com/PentesterGuruji/CVE-2021-41773)
 - [jbovet/CVE-2021-41773](https://github.com/jbovet/CVE-2021-41773)
@@ -29044,6 +29037,7 @@
 ### CVE-2018-16341
 - [mpgn/CVE-2018-16341](https://github.com/mpgn/CVE-2018-16341)
 - [puckiestyle/CVE-2018-16341](https://github.com/puckiestyle/CVE-2018-16341)
+- [CN016/Nuxeo-CVE-2018-16341](https://github.com/CN016/Nuxeo-CVE-2018-16341)
 
 ### CVE-2018-16370 (2018-09-02)
 
