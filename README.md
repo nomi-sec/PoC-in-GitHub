@@ -250,6 +250,13 @@
 
 - [ForceFledgling/CVE-2023-1714](https://github.com/ForceFledgling/CVE-2023-1714)
 
+### CVE-2023-1718 (2023-11-01)
+
+<code>\nImproper file stream access in /desktop_app/file.ajax.php?action=uploadfile in Bitrix24 22.0.300 allows unauthenticated remote attackers to cause denial-of-service via a crafted &quot;tmp_url&quot;.\n\n\n\n\n\n
+</code>
+
+- [jhonnybonny/Bitrix24DoS](https://github.com/jhonnybonny/Bitrix24DoS)
+
 ### CVE-2023-1767 (2023-04-20)
 
 <code>The Snyk Advisor website (https://snyk.io/advisor/) was vulnerable to a stored XSS prior to 28th March 2023. A feature of Snyk Advisor is to display the contents of a scanned package's Readme on its package health page. An attacker could create a package in NPM with an associated markdown README file containing XSS-able HTML tags. Upon Snyk Advisor importing the package, the XSS would run each time an end user browsed to the package's page on Snyk Advisor.
@@ -779,6 +786,7 @@
 - [chaudharyarjun/LooneyPwner](https://github.com/chaudharyarjun/LooneyPwner)
 - [KernelKrise/CVE-2023-4911](https://github.com/KernelKrise/CVE-2023-4911)
 - [Diego-AltF4/CVE-2023-4911](https://github.com/Diego-AltF4/CVE-2023-4911)
+- [teraGL/looneyCVE](https://github.com/teraGL/looneyCVE)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -4947,6 +4955,7 @@
 - [SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ](https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ)
 - [evkl1d/CVE-2023-46604](https://github.com/evkl1d/CVE-2023-46604)
 - [sule01u/CVE-2023-46604](https://github.com/sule01u/CVE-2023-46604)
+- [justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp](https://github.com/justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp)
 
 ### CVE-2023-46747 (2023-10-26)
 
@@ -13291,6 +13300,7 @@
 </code>
 
 - [j4k0m/CVE-2021-24499](https://github.com/j4k0m/CVE-2021-24499)
+- [hh-hunter/cve-2021-24499](https://github.com/hh-hunter/cve-2021-24499)
 - [jytmX/CVE-2021-24499](https://github.com/jytmX/CVE-2021-24499)
 
 ### CVE-2021-24507 (2021-08-09)
@@ -13888,6 +13898,7 @@
 
 - [samwcyo/CVE-2021-27651-PoC](https://github.com/samwcyo/CVE-2021-27651-PoC)
 - [Vulnmachines/CVE-2021-27651](https://github.com/Vulnmachines/CVE-2021-27651)
+- [orangmuda/CVE-2021-27651](https://github.com/orangmuda/CVE-2021-27651)
 
 ### CVE-2021-27850 (2021-04-15)
 
@@ -15989,10 +16000,15 @@
 - [knqyf263/CVE-2021-41773](https://github.com/knqyf263/CVE-2021-41773)
 - [ZephrFish/CVE-2021-41773-PoC](https://github.com/ZephrFish/CVE-2021-41773-PoC)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
+- [masahiro331/CVE-2021-41773](https://github.com/masahiro331/CVE-2021-41773)
+- [j4k0m/CVE-2021-41773](https://github.com/j4k0m/CVE-2021-41773)
+- [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
+- [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
 - [creadpag/CVE-2021-41773-POC](https://github.com/creadpag/CVE-2021-41773-POC)
+- [TAI-REx/cve-2021-41773-nse](https://github.com/TAI-REx/cve-2021-41773-nse)
 - [blasty/CVE-2021-41773](https://github.com/blasty/CVE-2021-41773)
 - [PentesterGuruji/CVE-2021-41773](https://github.com/PentesterGuruji/CVE-2021-41773)
 - [jbovet/CVE-2021-41773](https://github.com/jbovet/CVE-2021-41773)
@@ -27157,7 +27173,6 @@
 </code>
 
 - [ydl555/CVE-2018-4878-](https://github.com/ydl555/CVE-2018-4878-)
-- [mdsecactivebreach/CVE-2018-4878](https://github.com/mdsecactivebreach/CVE-2018-4878)
 - [hybridious/CVE-2018-4878](https://github.com/hybridious/CVE-2018-4878)
 - [vysecurity/CVE-2018-4878](https://github.com/vysecurity/CVE-2018-4878)
 - [KathodeN/CVE-2018-4878](https://github.com/KathodeN/CVE-2018-4878)
@@ -33563,6 +33578,13 @@
 
 - [Trinadh465/OpenSSL-1_0_1g_CVE-2015-1790](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-1790)
 
+### CVE-2015-1791 (2015-06-12)
+
+<code>Race condition in the ssl3_get_new_session_ticket function in ssl/s3_clnt.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b, when used for a multi-threaded client, allows remote attackers to cause a denial of service (double free and application crash) or possibly have unspecified other impact by providing a NewSessionTicket during an attempt to reuse a ticket that had been obtained earlier.
+</code>
+
+- [Trinadh465/OpenSSL-1_0_1g_CVE-2015-1791](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2015-1791)
+
 ### CVE-2015-1792 (2015-06-12)
 
 <code>The do_free_upto function in crypto/cms/cms_smime.c in OpenSSL before 0.9.8zg, 1.0.0 before 1.0.0s, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b allows remote attackers to cause a denial of service (infinite loop) via vectors that trigger a NULL value of a BIO data structure, as demonstrated by an unrecognized X.660 OID for a hash function.
@@ -36632,13 +36654,6 @@
 </code>
 
 - [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
-
-### CVE-2005-3299 (2005-10-23)
-
-<code>PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
-</code>
-
-- [RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299)
 
 
 ## 2004
