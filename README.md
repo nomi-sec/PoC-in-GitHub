@@ -3119,6 +3119,13 @@
 - [Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040](https://github.com/Contrast-Security-OSS/Spring-Kafka-POC-CVE-2023-34040)
 - [pyn3rd/CVE-2023-34040](https://github.com/pyn3rd/CVE-2023-34040)
 
+### CVE-2023-34048 (2023-10-25)
+
+<code>vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Server may trigger an out-of-bounds write potentially leading to remote code execution.
+</code>
+
+- [K1i7n/CVE-2023-34048-findings](https://github.com/K1i7n/CVE-2023-34048-findings)
+
 ### CVE-2023-34050 (2023-10-19)
 
 <code>\n\n\n\n\n\n\n\n\n\nIn spring AMQP versions 1.0.0 to\n2.4.16 and 3.0.0 to 3.0.9 , allowed list patterns for deserializable class\nnames were added to Spring AMQP, allowing users to lock down deserialization of\ndata in messages from untrusted sources; however by default, when no allowed\nlist was provided, all classes could be deserialized.\n\n\n\nSpecifically, an application is\nvulnerable if\n\n\n\n\n   *  the\n     SimpleMessageConverter or SerializerMessageConverter is used\n\n   *  the user\n     does not configure allowed list patterns\n\n   *  untrusted\n     message originators gain permissions to write messages to the RabbitMQ\n     broker to send malicious content\n\n\n\n\n\n\n\n\n\n
@@ -27173,6 +27180,7 @@
 </code>
 
 - [ydl555/CVE-2018-4878-](https://github.com/ydl555/CVE-2018-4878-)
+- [mdsecactivebreach/CVE-2018-4878](https://github.com/mdsecactivebreach/CVE-2018-4878)
 - [hybridious/CVE-2018-4878](https://github.com/hybridious/CVE-2018-4878)
 - [vysecurity/CVE-2018-4878](https://github.com/vysecurity/CVE-2018-4878)
 - [KathodeN/CVE-2018-4878](https://github.com/KathodeN/CVE-2018-4878)
@@ -36654,6 +36662,13 @@
 </code>
 
 - [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
+
+### CVE-2005-3299 (2005-10-23)
+
+<code>PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
+</code>
+
+- [RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299)
 
 
 ## 2004
