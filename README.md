@@ -4882,7 +4882,11 @@
 ### CVE-2023-45828
 - [RandomRobbieBF/CVE-2023-45828](https://github.com/RandomRobbieBF/CVE-2023-45828)
 
-### CVE-2023-45857
+### CVE-2023-45857 (2023-11-08)
+
+<code>An issue discovered in Axios 1.5.1 inadvertently reveals the confidential XSRF-TOKEN stored in cookies by including it in the HTTP header X-XSRF-TOKEN for every request made to any host allowing attackers to view sensitive information.
+</code>
+
 - [valentin-panov/CVE-2023-45857](https://github.com/valentin-panov/CVE-2023-45857)
 - [intercept6/CVE-2023-45857-Demo](https://github.com/intercept6/CVE-2023-45857-Demo)
 
@@ -16606,7 +16610,11 @@
 
 - [xvnpw/k8s-CVE-2021-43557-poc](https://github.com/xvnpw/k8s-CVE-2021-43557-poc)
 
-### CVE-2021-43609
+### CVE-2021-43609 (-)
+
+<code>An issue was discovered in Spiceworks Help Desk Server before 1.3.3. A Blind Boolean SQL injection vulnerability within the order_by_for_ticket function in app/models/reporting/database_query.rb allows an authenticated attacker to execute arbitrary SQL commands via the sort parameter. This can be leveraged to leak local files from the host system, leading to remote code execution (RCE) through deserialization of malicious data.
+</code>
+
 - [d5sec/CVE-2021-43609-POC](https://github.com/d5sec/CVE-2021-43609-POC)
 
 ### CVE-2021-43616 (2021-11-13)
