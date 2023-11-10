@@ -881,13 +881,25 @@
 
 - [juweihuitao/MpOperationLogs](https://github.com/juweihuitao/MpOperationLogs)
 
-### CVE-2023-5539
+### CVE-2023-5539 (2023-11-09)
+
+<code>A remote code execution risk was identified in the Lesson activity. By default this was only available to teachers and managers.
+</code>
+
 - [cli-ish/CVE-2023-5539](https://github.com/cli-ish/CVE-2023-5539)
 
-### CVE-2023-5540
+### CVE-2023-5540 (2023-11-09)
+
+<code>A remote code execution risk was identified in the IMSCP activity. By default this was only available to teachers and managers.
+</code>
+
 - [cli-ish/CVE-2023-5540](https://github.com/cli-ish/CVE-2023-5540)
 
-### CVE-2023-5546
+### CVE-2023-5546 (2023-11-09)
+
+<code>ID numbers displayed in the quiz grading report required additional sanitizing to prevent a stored XSS risk.
+</code>
+
 - [obelia01/CVE-2023-5546](https://github.com/obelia01/CVE-2023-5546)
 
 ### CVE-2023-20025 (2023-01-20)
@@ -22783,6 +22795,13 @@
 
 - [Anti-ghosts/CVE-2019-0623-32-exp](https://github.com/Anti-ghosts/CVE-2019-0623-32-exp)
 
+### CVE-2019-0678 (2019-04-08)
+
+<code>An elevation of privilege vulnerability exists when Microsoft Edge does not properly enforce cross-domain policies, which could allow an attacker to access information from one domain and inject it into another domain.In a web-based attack scenario, an attacker could host a website that is used to attempt to exploit the vulnerability, aka 'Microsoft Edge Elevation of Privilege Vulnerability'.
+</code>
+
+- [sharmasandeepkr/CVE-2019-0678](https://github.com/sharmasandeepkr/CVE-2019-0678)
+
 ### CVE-2019-0708 (2019-05-16)
 
 <code>A remote code execution vulnerability exists in Remote Desktop Services formerly known as Terminal Services when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'.
@@ -22865,6 +22884,7 @@
 - [cvencoder/cve-2019-0708](https://github.com/cvencoder/cve-2019-0708)
 - [ze0r/CVE-2019-0708-exp](https://github.com/ze0r/CVE-2019-0708-exp)
 - [mekhalleh/cve-2019-0708](https://github.com/mekhalleh/cve-2019-0708)
+- [cve-2019-0708-poc/cve-2019-0708](https://github.com/cve-2019-0708-poc/cve-2019-0708)
 - [andripwn/CVE-2019-0708](https://github.com/andripwn/CVE-2019-0708)
 - [0xeb-bp/bluekeep](https://github.com/0xeb-bp/bluekeep)
 - [ntkernel0/CVE-2019-0708](https://github.com/ntkernel0/CVE-2019-0708)
@@ -24535,6 +24555,13 @@
 
 - [KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869)
 
+### CVE-2019-10915 (2019-07-11)
+
+<code>A vulnerability has been identified in TIA Administrator (All versions &lt; V1.0 SP1 Upd1). The integrated configuration web application (TIA Administrator) allows to execute certain application commands without proper authentication. The vulnerability could be exploited by an attacker with local access to the affected system. Successful exploitation requires no privileges and no user interaction. An attacker could use the vulnerability to compromise confidentiality and integrity and availability of the affected system. At the time of advisory publication no public exploitation of this security vulnerability was known.
+</code>
+
+- [jiansiting/CVE-2019-10915](https://github.com/jiansiting/CVE-2019-10915)
+
 ### CVE-2019-10945 (2019-04-10)
 
 <code>An issue was discovered in Joomla! before 3.9.5. The Media Manager component does not properly sanitize the folder parameter, allowing attackers to act outside the media manager root directory.
@@ -24619,6 +24646,7 @@
 </code>
 
 - [DanielRuf/snyk-js-jquery-174006](https://github.com/DanielRuf/snyk-js-jquery-174006)
+- [bitnesswise/jquery-prototype-pollution-fix](https://github.com/bitnesswise/jquery-prototype-pollution-fix)
 - [DanielRuf/snyk-js-jquery-565129](https://github.com/DanielRuf/snyk-js-jquery-565129)
 - [chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020](https://github.com/chrisneagu/FTC-Skystone-Dark-Angels-Romania-2020)
 - [Snorlyd/https-nj.gov---CVE-2019-11358](https://github.com/Snorlyd/https-nj.gov---CVE-2019-11358)
@@ -24635,6 +24663,13 @@
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
 - [0xConstant/CVE-2019-11447](https://github.com/0xConstant/CVE-2019-11447)
+
+### CVE-2019-11477 (2019-06-18)
+
+<code>Jonathan Looney discovered that the TCP_SKB_CB(skb)-&gt;tcp_gso_segs value was subject to an integer overflow in the Linux kernel when handling TCP Selective Acknowledgments (SACKs). A remote attacker could use this to cause a denial of service. This has been fixed in stable kernel releases 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11, and is fixed in commit 3b4929f65b0d8249f19a50245cd88ed1a2f78cff.
+</code>
+
+- [sasqwatch/cve-2019-11477-poc](https://github.com/sasqwatch/cve-2019-11477-poc)
 
 ### CVE-2019-11510 (2019-05-08)
 
@@ -24674,6 +24709,7 @@
 <code>Atlassian Crowd and Crowd Data Center had the pdkinstall development plugin incorrectly enabled in release builds. Attackers who can send unauthenticated or authenticated requests to a Crowd or Crowd Data Center instance can exploit this vulnerability to install arbitrary plugins, which permits remote code execution on systems running a vulnerable version of Crowd or Crowd Data Center. All versions of Crowd from version 2.1.0 before 3.0.5 (the fixed version for 3.0.x), from version 3.1.0 before 3.1.6 (the fixed version for 3.1.x), from version 3.2.0 before 3.2.8 (the fixed version for 3.2.x), from version 3.3.0 before 3.3.5 (the fixed version for 3.3.x), and from version 3.4.0 before 3.4.4 (the fixed version for 3.4.x) are affected by this vulnerability.
 </code>
 
+- [jas502n/CVE-2019-11580](https://github.com/jas502n/CVE-2019-11580)
 - [shelld3v/CVE-2019-11580](https://github.com/shelld3v/CVE-2019-11580)
 
 ### CVE-2019-11581 (2019-08-09)
@@ -24681,6 +24717,7 @@
 <code>There was a server-side template injection vulnerability in Jira Server and Data Center, in the ContactAdministrators and the SendBulkMail actions. An attacker is able to remotely execute code on systems that run a vulnerable version of Jira Server or Data Center. All versions of Jira Server and Data Center from 4.4.0 before 7.6.14, from 7.7.0 before 7.13.5, from 8.0.0 before 8.0.3, from 8.1.0 before 8.1.2, and from 8.2.0 before 8.2.3 are affected by this vulnerability.
 </code>
 
+- [jas502n/CVE-2019-11581](https://github.com/jas502n/CVE-2019-11581)
 - [kobs0N/CVE-2019-11581](https://github.com/kobs0N/CVE-2019-11581)
 - [PetrusViet/CVE-2019-11581](https://github.com/PetrusViet/CVE-2019-11581)
 
@@ -24840,6 +24877,7 @@
 <code>FasterXML jackson-databind 2.x before 2.9.9.1 might allow attackers to have a variety of impacts by leveraging failure to block the logback-core class from polymorphic deserialization. Depending on the classpath content, remote code execution may be possible.
 </code>
 
+- [jas502n/CVE-2019-12384](https://github.com/jas502n/CVE-2019-12384)
 - [MagicZer0/Jackson_RCE-CVE-2019-12384](https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384)
 
 ### CVE-2019-12409 (2019-11-18)
@@ -36164,7 +36202,7 @@
 <code>Static code injection vulnerability in setup.php in phpMyAdmin 2.11.x before 2.11.9.5 and 3.x before 3.1.3.1 allows remote attackers to inject arbitrary PHP code into a configuration file via the save action.
 </code>
 
-- [pagvac/pocs](https://github.com/pagvac/pocs)
+- [adpast/pocs](https://github.com/adpast/pocs)
 
 ### CVE-2009-1244 (2009-04-13)
 
