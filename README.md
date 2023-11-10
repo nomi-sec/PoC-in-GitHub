@@ -1658,6 +1658,9 @@
 
 - [abbisQQ/CVE-2023-24610](https://github.com/abbisQQ/CVE-2023-24610)
 
+### CVE-2023-24706
+- [hatjwe/CVE-2023-24706](https://github.com/hatjwe/CVE-2023-24706)
+
 ### CVE-2023-24709 (2023-03-21)
 
 <code>An issue found in Paradox Security Systems IPR512 allows attackers to cause a denial of service via the login.html and login.xml parameters.
@@ -13070,7 +13073,6 @@
 - [sei-fish/CVE-2021-22205](https://github.com/sei-fish/CVE-2021-22205)
 - [overgrowncarrot1/DejaVu-CVE-2021-22205](https://github.com/overgrowncarrot1/DejaVu-CVE-2021-22205)
 - [Hikikan/CVE-2021-22205](https://github.com/Hikikan/CVE-2021-22205)
-- [won6c/CVE-2021-22205](https://github.com/won6c/CVE-2021-22205)
 - [NukingDragons/gitlab-cve-2021-22205](https://github.com/NukingDragons/gitlab-cve-2021-22205)
 
 ### CVE-2021-22206 (2021-05-06)
