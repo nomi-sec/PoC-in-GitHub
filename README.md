@@ -4941,6 +4941,9 @@
 
 - [leekenghwa/CVE-2023-46003](https://github.com/leekenghwa/CVE-2023-46003)
 
+### CVE-2023-46014
+- [ersinerenler/CVE-2023-46014-Code-Projects-Blood-Bank-1.0-SQL-Injection-Vulnerability](https://github.com/ersinerenler/CVE-2023-46014-Code-Projects-Blood-Bank-1.0-SQL-Injection-Vulnerability)
+
 ### CVE-2023-46197
 - [RandomRobbieBF/CVE-2023-46197](https://github.com/RandomRobbieBF/CVE-2023-46197)
 
@@ -5052,6 +5055,12 @@
 </code>
 
 - [rach1tarora/CVE-2023-47184](https://github.com/rach1tarora/CVE-2023-47184)
+
+### CVE-2023-47459
+- [aleksey-vi/CVE-2023-47459](https://github.com/aleksey-vi/CVE-2023-47459)
+
+### CVE-2023-47460
+- [aleksey-vi/CVE-2023-47460](https://github.com/aleksey-vi/CVE-2023-47460)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -14596,6 +14605,13 @@
 
 - [Immersive-Labs-Sec/CVE-2021-32648](https://github.com/Immersive-Labs-Sec/CVE-2021-32648)
 - [daftspunk/CVE-2021-32648](https://github.com/daftspunk/CVE-2021-32648)
+
+### CVE-2021-32682 (2021-06-14)
+
+<code>elFinder is an open-source file manager for web, written in JavaScript using jQuery UI. Several vulnerabilities affect elFinder 2.1.58. These vulnerabilities can allow an attacker to execute arbitrary code and commands on the server hosting the elFinder PHP connector, even with minimal configuration. The issues were patched in version 2.1.59. As a workaround, ensure the connector is not exposed without authentication.
+</code>
+
+- [nickswink/CVE-2021-32682](https://github.com/nickswink/CVE-2021-32682)
 
 ### CVE-2021-32724 (2021-09-09)
 
@@ -36433,7 +36449,7 @@
 <code>Error handling in the SSH protocol in (1) SSH Tectia Client and Server and Connector 4.0 through 4.4.11, 5.0 through 5.2.4, and 5.3 through 5.3.8; Client and Server and ConnectSecure 6.0 through 6.0.4; Server for Linux on IBM System z 6.0.4; Server for IBM z/OS 5.5.1 and earlier, 6.0.0, and 6.0.1; and Client 4.0-J through 4.3.3-J and 4.0-K through 4.3.10-K; and (2) OpenSSH 4.7p1 and possibly other versions, when using a block cipher algorithm in Cipher Block Chaining (CBC) mode, makes it easier for remote attackers to recover certain plaintext data from an arbitrary block of ciphertext in an SSH session via unknown vectors.
 </code>
 
-- [pankajjarial-dev/OpenSSH_4.7p1](https://github.com/pankajjarial-dev/OpenSSH_4.7p1)
+- [dev-doom/OpenSSH_4.7p1](https://github.com/dev-doom/OpenSSH_4.7p1)
 
 ### CVE-2008-5416 (2008-12-10)
 
