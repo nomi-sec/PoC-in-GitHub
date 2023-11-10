@@ -1348,6 +1348,7 @@
 - [davidfortytwo/CVE-2023-22518](https://github.com/davidfortytwo/CVE-2023-22518)
 - [sanjai-AK47/CVE-2023-22518](https://github.com/sanjai-AK47/CVE-2023-22518)
 - [0x0d3ad/CVE-2023-22518](https://github.com/0x0d3ad/CVE-2023-22518)
+- [ditekshen/ansible-cve-2023-22518](https://github.com/ditekshen/ansible-cve-2023-22518)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -2755,6 +2756,13 @@
 
 - [CalfCrusher/CVE-2023-31853](https://github.com/CalfCrusher/CVE-2023-31853)
 
+### CVE-2023-32031 (2023-06-14)
+
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
+</code>
+
+- [Avento/CVE-2023-32031](https://github.com/Avento/CVE-2023-32031)
+
 ### CVE-2023-32073 (2023-05-12)
 
 <code>WWBN AVideo is an open source video platform. In versions 12.4 and prior, a command injection vulnerability exists at `plugin/CloneSite/cloneClient.json.php` which allows Remote Code Execution if you CloneSite Plugin. This is a bypass to the fix for CVE-2023-30854, which affects WWBN AVideo up to version 12.3. This issue is patched in commit 1df4af01f80d56ff2c4c43b89d0bac151e7fb6e3.
@@ -3128,6 +3136,7 @@
 - [CharonDefalt/CVE-2023-34039](https://github.com/CharonDefalt/CVE-2023-34039)
 - [Cyb3rEnthusiast/CVE-2023-34039](https://github.com/Cyb3rEnthusiast/CVE-2023-34039)
 - [syedhafiz1234/CVE-2023-34039](https://github.com/syedhafiz1234/CVE-2023-34039)
+- [adminxb/CVE-2023-34039](https://github.com/adminxb/CVE-2023-34039)
 
 ### CVE-2023-34040 (2023-08-24)
 
@@ -4744,6 +4753,7 @@
 - [studiogangster/CVE-2023-44487](https://github.com/studiogangster/CVE-2023-44487)
 - [ReToCode/golang-CVE-2023-44487](https://github.com/ReToCode/golang-CVE-2023-44487)
 - [sigridou/CVE-2023-44487](https://github.com/sigridou/CVE-2023-44487)
+- [nxenon/cve-2023-44487](https://github.com/nxenon/cve-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -30415,7 +30425,6 @@
 - [un4ckn0wl3z/CVE-2017-5638](https://github.com/un4ckn0wl3z/CVE-2017-5638)
 - [colorblindpentester/CVE-2017-5638](https://github.com/colorblindpentester/CVE-2017-5638)
 - [injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638)
-- [pasannirmana/Aspire](https://github.com/pasannirmana/Aspire)
 - [ludy-dev/XworkStruts-RCE](https://github.com/ludy-dev/XworkStruts-RCE)
 - [sonatype-workshops/struts2-rce](https://github.com/sonatype-workshops/struts2-rce)
 - [jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638)
