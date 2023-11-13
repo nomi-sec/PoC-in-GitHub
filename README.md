@@ -5034,6 +5034,7 @@
 - [justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp](https://github.com/justdoit-cai/CVE-2023-46604-Apache-ActiveMQ-RCE-exp)
 - [h3x3h0g/ActiveMQ-RCE-CVE-2023-46604-Write-up](https://github.com/h3x3h0g/ActiveMQ-RCE-CVE-2023-46604-Write-up)
 - [duck-sec/CVE-2023-46604-ActiveMQ-RCE-pseudoshell](https://github.com/duck-sec/CVE-2023-46604-ActiveMQ-RCE-pseudoshell)
+- [LiritoShawshark/CVE-2023-46604_ActiveMQ_RCE_Recurrence](https://github.com/LiritoShawshark/CVE-2023-46604_ActiveMQ_RCE_Recurrence)
 
 ### CVE-2023-46747 (2023-10-26)
 
@@ -29775,6 +29776,7 @@
 - [rafaelcintralopes/SwaggerUI-CVE-2018-25031](https://github.com/rafaelcintralopes/SwaggerUI-CVE-2018-25031)
 - [mathis2001/CVE-2018-25031](https://github.com/mathis2001/CVE-2018-25031)
 - [LUCASRENAA/CVE-2018-25031](https://github.com/LUCASRENAA/CVE-2018-25031)
+- [wrkk112/CVE-2018-25031](https://github.com/wrkk112/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
