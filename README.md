@@ -820,13 +820,6 @@
 
 - [RandomRobbieBF/CVE-2023-5070](https://github.com/RandomRobbieBF/CVE-2023-5070)
 
-### CVE-2023-5142 (2023-09-24)
-
-<code>In H3C GR-1100-P, GR-1108-P, GR-1200W, GR-1800AX, GR-2200, GR-3200, GR-5200, GR-8300, ER2100n, ER2200G2, ER3200G2, ER3260G2, ER5100G2, ER5200G2 and ER6300G2 bis 20230908 wurde eine Schwachstelle entdeckt. Sie wurde als problematisch eingestuft. Dabei geht es um eine nicht genauer bekannte Funktion der Datei /userLogin.asp der Komponente Config File Handler. Durch das Beeinflussen mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Die Komplexität eines Angriffs ist eher hoch. Das Ausnutzen gilt als schwierig. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [kuangxiaotu/CVE-H3C-Report](https://github.com/kuangxiaotu/CVE-H3C-Report)
-
 ### CVE-2023-5217 (2023-09-28)
 
 <code>Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
@@ -3647,9 +3640,8 @@
 - [toanln-cov/CVE-2023-36845](https://github.com/toanln-cov/CVE-2023-36845)
 - [halencarjunior/CVE-2023-36845](https://github.com/halencarjunior/CVE-2023-36845)
 - [zaenhaxor/CVE-2023-36845](https://github.com/zaenhaxor/CVE-2023-36845)
-- [simrotion13/CVE-2023-36845](https://github.com/simrotion13/CVE-2023-36845)
-- [WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845](https://github.com/WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845)
 - [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
+- [ditekshen/ansible-cve-2023-36845](https://github.com/ditekshen/ansible-cve-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -5177,11 +5169,37 @@
 ### CVE-2023-47460
 - [aleksey-vi/CVE-2023-47460](https://github.com/aleksey-vi/CVE-2023-47460)
 
+### CVE-2023-47488 (2023-11-09)
+
+<code>Cross Site Scripting vulnerability in Combodo iTop v.3.1.0-2-11973 allows a local attacker to obtain sensitive information via a crafted script to the attrib_manager_id parameter in the General Information page and the id parameter in the contact page.
+</code>
+
+- [nitipoom-jar/CVE-2023-47488](https://github.com/nitipoom-jar/CVE-2023-47488)
+
+### CVE-2023-47489 (2023-11-09)
+
+<code>An issue in Combodo iTop v.3.1.0-2-11973 allows a local attacker to execute arbitrary code via a crafted script to the export-v2.php and ajax.render.php components.
+</code>
+
+- [nitipoom-jar/CVE-2023-47489](https://github.com/nitipoom-jar/CVE-2023-47489)
+
 ### CVE-2023-47529
 - [RandomRobbieBF/CVE-2023-47529](https://github.com/RandomRobbieBF/CVE-2023-47529)
 
 ### CVE-2023-47668
 - [RandomRobbieBF/CVE-2023-47668](https://github.com/RandomRobbieBF/CVE-2023-47668)
+
+### CVE-2023-48197
+- [nitipoom-jar/CVE-2023-48197](https://github.com/nitipoom-jar/CVE-2023-48197)
+
+### CVE-2023-48198
+- [nitipoom-jar/CVE-2023-48198](https://github.com/nitipoom-jar/CVE-2023-48198)
+
+### CVE-2023-48199
+- [nitipoom-jar/CVE-2023-48199](https://github.com/nitipoom-jar/CVE-2023-48199)
+
+### CVE-2023-48200
+- [nitipoom-jar/CVE-2023-48200](https://github.com/nitipoom-jar/CVE-2023-48200)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -6034,7 +6052,6 @@
 <code>A buffer overrun can be triggered in X.509 certificate verification, specifically in name constraint checking. Note that this occurs after certificate chain signature verification and requires either a CA to have signed a malicious certificate or for an application to continue certificate verification despite failure to construct a path to a trusted issuer. An attacker can craft a malicious email address in a certificate to overflow an arbitrary number of bytes containing the `.' character (decimal 46) on the stack. This buffer overflow could result in a crash (causing a denial of service). In a TLS client, this can be triggered by connecting to a malicious server. In a TLS server, this can be triggered if the server requests client authentication and a malicious client connects.
 </code>
 
-- [plharraud/cve-2022-3786](https://github.com/plharraud/cve-2022-3786)
 - [WhatTheFuzz/openssl-fuzz](https://github.com/WhatTheFuzz/openssl-fuzz)
 
 ### CVE-2022-3904 (2023-01-16)
@@ -23658,7 +23675,6 @@
 <code>Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
-- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
@@ -23921,13 +23937,6 @@
 
 - [timwr/CVE-2019-5825](https://github.com/timwr/CVE-2019-5825)
 
-### CVE-2019-5893 (2019-01-10)
-
-<code>Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.xml query parameter.
-</code>
-
-- [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
-
 ### CVE-2019-6111 (2019-01-31)
 
 <code>An issue was discovered in OpenSSH 7.9. Due to the scp implementation being derived from 1983 rcp, the server chooses which files/directories are sent to the client. However, the scp client only performs cursory validation of the object name returned (only directory traversal attacks are prevented). A malicious scp server (or Man-in-The-Middle attacker) can overwrite arbitrary files in the scp client target directory. If recursive operation (-r) is performed, the server can manipulate subdirectories as well (for example, to overwrite the .ssh/authorized_keys file).
@@ -23973,13 +23982,6 @@
 </code>
 
 - [nikitapbst/cve-2019-6260](https://github.com/nikitapbst/cve-2019-6260)
-
-### CVE-2019-6263 (2019-01-16)
-
-<code>An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
-</code>
-
-- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
 
 ### CVE-2019-6329 (2019-06-25)
 
@@ -24056,13 +24058,6 @@
 </code>
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
-
-### CVE-2019-6487 (2019-01-18)
-
-<code>TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
-</code>
-
-- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
 
 ### CVE-2019-6690 (2019-03-17)
 
