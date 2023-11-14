@@ -64,6 +64,7 @@
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
+- [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
@@ -620,11 +621,7 @@
 
 - [ashangp923/CVE-2023-3971](https://github.com/ashangp923/CVE-2023-3971)
 
-### CVE-2023-4128 (2023-08-10)
-
-<code>A use-after-free flaw was found in net/sched/cls_fw.c in classifiers (cls_fw, cls_u32, and cls_route) in the Linux Kernel. This flaw allows a local attacker to perform a local privilege escalation due to incorrect handling of the existing filter, leading to a kernel information leak issue.
-</code>
-
+### CVE-2023-4128
 - [Trinadh465/linux-4.1.15_CVE-2023-4128](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-4128)
 
 ### CVE-2023-4165 (2023-08-05)
@@ -1204,6 +1201,13 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
+### CVE-2023-21739 (2023-01-10)
+
+<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
+</code>
+
+- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
+
 ### CVE-2023-21742 (2023-01-10)
 
 <code>Microsoft SharePoint Server Remote Code Execution Vulnerability
@@ -1223,6 +1227,7 @@
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
+- [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
@@ -1417,6 +1422,7 @@
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
+- [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
 ### CVE-2023-22974 (2023-02-22)
 
@@ -1583,6 +1589,13 @@
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
+
+### CVE-2023-24059 (2023-01-22)
+
+<code>Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
+</code>
+
+- [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
 
 ### CVE-2023-24078 (2023-02-17)
 
@@ -2861,6 +2874,7 @@
 - [kaotickj/Check-for-CVE-2023-32629-GameOver-lay](https://github.com/kaotickj/Check-for-CVE-2023-32629-GameOver-lay)
 - [ThrynSec/CVE-2023-32629-CVE-2023-2640---POC-Escalation](https://github.com/ThrynSec/CVE-2023-32629-CVE-2023-2640---POC-Escalation)
 - [k4but0/Ubuntu-LPE](https://github.com/k4but0/Ubuntu-LPE)
+- [Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC](https://github.com/Umutkgz/CVE-2023-32629-CVE-2023-2640-Ubuntu-Privilege-Escalation-POC)
 
 ### CVE-2023-32681 (2023-05-26)
 
@@ -5116,6 +5130,9 @@
 
 - [soy-oreocato/CVE-2023-46998](https://github.com/soy-oreocato/CVE-2023-46998)
 
+### CVE-2023-47014
+- [emirhanerdogu/CVE-2023-47014-Sticky-Notes-App-Using-PHP-with-Source-Code-v1.0-CSRF-to-CORS](https://github.com/emirhanerdogu/CVE-2023-47014-Sticky-Notes-App-Using-PHP-with-Source-Code-v1.0-CSRF-to-CORS)
+
 ### CVE-2023-47102 (2023-11-07)
 
 <code>UrBackup Server 2.5.31 allows brute-force enumeration of user accounts because a failure message confirms that a username is not valid.
@@ -5147,6 +5164,13 @@
 
 - [rach1tarora/CVE-2023-47184](https://github.com/rach1tarora/CVE-2023-47184)
 
+### CVE-2023-47246 (2023-11-10)
+
+<code>In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023.
+</code>
+
+- [ex0day/CVE-2023-47246](https://github.com/ex0day/CVE-2023-47246)
+
 ### CVE-2023-47459
 - [aleksey-vi/CVE-2023-47459](https://github.com/aleksey-vi/CVE-2023-47459)
 
@@ -5155,6 +5179,9 @@
 
 ### CVE-2023-47529
 - [RandomRobbieBF/CVE-2023-47529](https://github.com/RandomRobbieBF/CVE-2023-47529)
+
+### CVE-2023-47668
+- [RandomRobbieBF/CVE-2023-47668](https://github.com/RandomRobbieBF/CVE-2023-47668)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -6248,6 +6275,13 @@
 </code>
 
 - [ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229](https://github.com/ShaikUsaf/system_bt_AOSP10_r33_CVE-2022-20229)
+
+### CVE-2022-20338 (2022-08-11)
+
+<code>In HierarchicalUri.readFrom of Uri.java, there is a possible way to craft a malformed Uri object due to improper input validation. This could lead to a local escalation of privilege, preventing processes from validating URIs correctly, with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12LAndroid ID: A-171966843
+</code>
+
+- [Satheesh575555/frameworks_base_AOSP_06_r22_CVE-2022-20338](https://github.com/Satheesh575555/frameworks_base_AOSP_06_r22_CVE-2022-20338)
 
 ### CVE-2022-20347 (2022-08-09)
 
@@ -10921,7 +10955,7 @@
 <code>An issue was discovered in Varnish Cache 7.x before 7.1.2 and 7.2.x before 7.2.1. A request smuggling attack can be performed on Varnish Cache servers by requesting that certain headers are made hop-by-hop, preventing the Varnish Cache servers from forwarding critical headers to the backend.
 </code>
 
-- [martinvks/CVE-2022-45059-poc](https://github.com/martinvks/CVE-2022-45059-poc)
+- [martinvks/CVE-2022-45059-demo](https://github.com/martinvks/CVE-2022-45059-demo)
 
 ### CVE-2022-45217 (2022-12-07)
 
