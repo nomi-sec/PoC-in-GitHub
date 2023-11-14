@@ -64,7 +64,6 @@
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
-- [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
@@ -1205,13 +1204,6 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
-### CVE-2023-21739 (2023-01-10)
-
-<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
-</code>
-
-- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
-
 ### CVE-2023-21742 (2023-01-10)
 
 <code>Microsoft SharePoint Server Remote Code Execution Vulnerability
@@ -1231,7 +1223,6 @@
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
-- [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
@@ -1426,7 +1417,6 @@
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
-- [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
 
 ### CVE-2023-22974 (2023-02-22)
 
@@ -1593,13 +1583,6 @@
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
-
-### CVE-2023-24059 (2023-01-22)
-
-<code>Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
-</code>
-
-- [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
 
 ### CVE-2023-24078 (2023-02-17)
 
@@ -2885,6 +2868,13 @@
 </code>
 
 - [hardikmodha/POC-CVE-2023-32681](https://github.com/hardikmodha/POC-CVE-2023-32681)
+
+### CVE-2023-32707 (2023-06-01)
+
+<code>In versions of Splunk Enterprise below 9.0.5, 8.2.11, and 8.1.14, and Splunk Cloud Platform below version 9.0.2303.100, a low-privileged user who holds a role that has the ‘edit_user’ capability assigned to it can escalate their privileges to that of the admin user by providing specially crafted web requests.
+</code>
+
+- [9xN/CVE-2023-32707](https://github.com/9xN/CVE-2023-32707)
 
 ### CVE-2023-32784 (2023-05-15)
 
@@ -34582,8 +34572,10 @@
 </code>
 
 - [Tripwire/OpenSSL-CCS-Inject-Test](https://github.com/Tripwire/OpenSSL-CCS-Inject-Test)
+- [iph0n3/CVE-2014-0224](https://github.com/iph0n3/CVE-2014-0224)
 - [droptables/ccs-eval](https://github.com/droptables/ccs-eval)
 - [ssllabs/openssl-ccs-cve-2014-0224](https://github.com/ssllabs/openssl-ccs-cve-2014-0224)
+- [secretnonempty/CVE-2014-0224](https://github.com/secretnonempty/CVE-2014-0224)
 
 ### CVE-2014-0226 (2014-07-20)
 
@@ -35001,12 +34993,14 @@
 - [dlitz/bash-cve-2014-6271-fixes](https://github.com/dlitz/bash-cve-2014-6271-fixes)
 - [npm/ansible-bashpocalypse](https://github.com/npm/ansible-bashpocalypse)
 - [ryancnelson/patched-bash-4.3](https://github.com/ryancnelson/patched-bash-4.3)
+- [jblaine/cookbook-bash-CVE-2014-6271](https://github.com/jblaine/cookbook-bash-CVE-2014-6271)
 - [rrreeeyyy/cve-2014-6271-spec](https://github.com/rrreeeyyy/cve-2014-6271-spec)
 - [scottjpack/shellshock_scanner](https://github.com/scottjpack/shellshock_scanner)
 - [Anklebiter87/Cgi-bin_bash_Reverse](https://github.com/Anklebiter87/Cgi-bin_bash_Reverse)
 - [justzx2011/bash-up](https://github.com/justzx2011/bash-up)
 - [mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271)
 - [ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check)
+- [RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm)
 - [gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww)
 - [woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271)
 - [ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock)
