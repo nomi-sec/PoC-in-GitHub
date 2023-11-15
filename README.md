@@ -820,6 +820,13 @@
 
 - [RandomRobbieBF/CVE-2023-5070](https://github.com/RandomRobbieBF/CVE-2023-5070)
 
+### CVE-2023-5142 (2023-09-24)
+
+<code>In H3C GR-1100-P, GR-1108-P, GR-1200W, GR-1800AX, GR-2200, GR-3200, GR-5200, GR-8300, ER2100n, ER2200G2, ER3200G2, ER3260G2, ER5100G2, ER5200G2 and ER6300G2 bis 20230908 wurde eine Schwachstelle entdeckt. Sie wurde als problematisch eingestuft. Dabei geht es um eine nicht genauer bekannte Funktion der Datei /userLogin.asp der Komponente Config File Handler. Durch das Beeinflussen mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Die Komplexität eines Angriffs ist eher hoch. Das Ausnutzen gilt als schwierig. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [kuangxiaotu/CVE-H3C-Report](https://github.com/kuangxiaotu/CVE-H3C-Report)
+
 ### CVE-2023-5217 (2023-09-28)
 
 <code>Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
@@ -2562,6 +2569,13 @@
 ### CVE-2023-31070
 - [bugprove/cve-2023-31070](https://github.com/bugprove/cve-2023-31070)
 
+### CVE-2023-31320 (2023-11-14)
+
+<code>Improper input validation in the AMD RadeonTM Graphics display driver may allow an attacker to corrupt the display potentially resulting in denial of service.\n\n\n\n\n\n\n\n\n\n\n\n\n
+</code>
+
+- [whypet/CVE-2023-31320](https://github.com/whypet/CVE-2023-31320)
+
 ### CVE-2023-31419 (2023-10-26)
 
 <code>A flaw was discovered in Elasticsearch, affecting the _search API that allowed a specially crafted query string to cause a Stack Overflow and ultimately a Denial of Service.\n\n\n\n\n
@@ -2851,6 +2865,13 @@
 </code>
 
 - [gergelykalman/CVE-2023-32364-macos-app-sandbox-escape](https://github.com/gergelykalman/CVE-2023-32364-macos-app-sandbox-escape)
+
+### CVE-2023-32407 (2023-06-23)
+
+<code>A logic issue was addressed with improved state management. This issue is fixed in watchOS 9.5, tvOS 16.5, macOS Ventura 13.4, iOS 15.7.6 and iPadOS 15.7.6, macOS Big Sur 11.7.7, macOS Monterey 12.6.6, iOS 16.5 and iPadOS 16.5. An app may be able to bypass Privacy preferences.
+</code>
+
+- [gergelykalman/CVE-2023-32407-a-macOS-TCC-bypass-in-Metal](https://github.com/gergelykalman/CVE-2023-32407-a-macOS-TCC-bypass-in-Metal)
 
 ### CVE-2023-32560 (2023-08-10)
 
@@ -3640,6 +3661,8 @@
 - [toanln-cov/CVE-2023-36845](https://github.com/toanln-cov/CVE-2023-36845)
 - [halencarjunior/CVE-2023-36845](https://github.com/halencarjunior/CVE-2023-36845)
 - [zaenhaxor/CVE-2023-36845](https://github.com/zaenhaxor/CVE-2023-36845)
+- [simrotion13/CVE-2023-36845](https://github.com/simrotion13/CVE-2023-36845)
+- [WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845](https://github.com/WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845)
 - [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
 - [ditekshen/ansible-cve-2023-36845](https://github.com/ditekshen/ansible-cve-2023-36845)
 
@@ -5022,7 +5045,11 @@
 
 - [ersinerenler/CVE-2023-46021-Code-Projects-Blood-Bank-1.0-SQL-Injection-Vulnerability](https://github.com/ersinerenler/CVE-2023-46021-Code-Projects-Blood-Bank-1.0-SQL-Injection-Vulnerability)
 
-### CVE-2023-46022
+### CVE-2023-46022 (2023-11-14)
+
+<code>SQL Injection vulnerability in delete.php in Code-Projects Blood Bank 1.0 allows attackers to run arbitrary SQL commands via the 'bid' parameter.
+</code>
+
 - [ersinerenler/CVE-2023-46022-Code-Projects-Blood-Bank-1.0-OOB-SQL-Injection-Vulnerability](https://github.com/ersinerenler/CVE-2023-46022-Code-Projects-Blood-Bank-1.0-OOB-SQL-Injection-Vulnerability)
 
 ### CVE-2023-46197
@@ -10850,6 +10877,7 @@
 - [chairat095/CVE-2022-44268_By_Kyokito](https://github.com/chairat095/CVE-2022-44268_By_Kyokito)
 - [atici/Exploit-for-ImageMagick-CVE-2022-44268](https://github.com/atici/Exploit-for-ImageMagick-CVE-2022-44268)
 - [Vagebondcur/IMAGE-MAGICK-CVE-2022-44268](https://github.com/Vagebondcur/IMAGE-MAGICK-CVE-2022-44268)
+- [NataliSemi/-CVE-2022-44268](https://github.com/NataliSemi/-CVE-2022-44268)
 
 ### CVE-2022-44276 (2023-06-28)
 
@@ -23675,6 +23703,7 @@
 <code>Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
+- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
@@ -23937,6 +23966,13 @@
 
 - [timwr/CVE-2019-5825](https://github.com/timwr/CVE-2019-5825)
 
+### CVE-2019-5893 (2019-01-10)
+
+<code>Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.xml query parameter.
+</code>
+
+- [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
+
 ### CVE-2019-6111 (2019-01-31)
 
 <code>An issue was discovered in OpenSSH 7.9. Due to the scp implementation being derived from 1983 rcp, the server chooses which files/directories are sent to the client. However, the scp client only performs cursory validation of the object name returned (only directory traversal attacks are prevented). A malicious scp server (or Man-in-The-Middle attacker) can overwrite arbitrary files in the scp client target directory. If recursive operation (-r) is performed, the server can manipulate subdirectories as well (for example, to overwrite the .ssh/authorized_keys file).
@@ -23982,6 +24018,13 @@
 </code>
 
 - [nikitapbst/cve-2019-6260](https://github.com/nikitapbst/cve-2019-6260)
+
+### CVE-2019-6263 (2019-01-16)
+
+<code>An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
+</code>
+
+- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
 
 ### CVE-2019-6329 (2019-06-25)
 
@@ -24058,6 +24101,13 @@
 </code>
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
+
+### CVE-2019-6487 (2019-01-18)
+
+<code>TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
+</code>
+
+- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
 
 ### CVE-2019-6690 (2019-03-17)
 
@@ -26694,6 +26744,13 @@
 </code>
 
 - [chaizeg/CSRF-breach](https://github.com/chaizeg/CSRF-breach)
+
+### CVE-2019-1010268 (2019-07-18)
+
+<code>Ladon since 0.6.1 (since ebef0aae48af78c159b6fce81bc6f5e7e0ddb059) is affected by: XML External Entity (XXE). The impact is: Information Disclosure, reading files and reaching internal network endpoints. The component is: SOAP request handlers. For instance: https://bitbucket.org/jakobsg/ladon/src/42944fc012a3a48214791c120ee5619434505067/src/ladon/interfaces/soap.py#lines-688. The attack vector is: Send a specially crafted SOAP call.
+</code>
+
+- [Tonyynot14/CVE-2019-1010268](https://github.com/Tonyynot14/CVE-2019-1010268)
 
 ### CVE-2019-1010298 (2019-07-15)
 
@@ -36820,15 +36877,7 @@
 - [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
 - [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
 - [kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392)
-- [g1vi/CVE-2006-3392](https://github.com/g1vi/CVE-2006-3392)
 - [MrEmpy/CVE-2006-3392](https://github.com/MrEmpy/CVE-2006-3392)
-
-### CVE-2006-3592 (2006-07-14)
-
-<code>Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
-</code>
-
-- [adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592)
 
 ### CVE-2006-3747 (2006-07-28)
 
