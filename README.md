@@ -3600,6 +3600,13 @@
 
 - [Lowalu/CVE-2023-36319](https://github.com/Lowalu/CVE-2023-36319)
 
+### CVE-2023-36427 (2023-11-14)
+
+<code>Windows Hyper-V Elevation of Privilege Vulnerability
+</code>
+
+- [tandasat/CVE-2023-36427](https://github.com/tandasat/CVE-2023-36427)
+
 ### CVE-2023-36531
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
 
@@ -30763,6 +30770,7 @@
 </code>
 
 - [Frivolous-scholar/CVE-2017-5941-NodeJS-RCE](https://github.com/Frivolous-scholar/CVE-2017-5941-NodeJS-RCE)
+- [turnernator1/Node.js-CVE-2017-5941](https://github.com/turnernator1/Node.js-CVE-2017-5941)
 - [Cr4zyD14m0nd137/Lab-for-cve-2018-15133](https://github.com/Cr4zyD14m0nd137/Lab-for-cve-2018-15133)
 - [arthurvmbl/nodejshell](https://github.com/arthurvmbl/nodejshell)
 
@@ -36877,7 +36885,15 @@
 - [Adel-kaka-dz/CVE-2006-3392](https://github.com/Adel-kaka-dz/CVE-2006-3392)
 - [gb21oc/ExploitWebmin](https://github.com/gb21oc/ExploitWebmin)
 - [kernel-cyber/CVE-2006-3392](https://github.com/kernel-cyber/CVE-2006-3392)
+- [g1vi/CVE-2006-3392](https://github.com/g1vi/CVE-2006-3392)
 - [MrEmpy/CVE-2006-3392](https://github.com/MrEmpy/CVE-2006-3392)
+
+### CVE-2006-3592 (2006-07-14)
+
+<code>Unspecified vulnerability in the command line interface (CLI) in Cisco Unified CallManager (CUCM) 5.0(1) through 5.0(3a) allows local users to execute arbitrary commands with elevated privileges via unspecified vectors, involving &quot;certain CLI commands,&quot; aka bug CSCse11005.
+</code>
+
+- [adenkiewicz/CVE-2006-3592](https://github.com/adenkiewicz/CVE-2006-3592)
 
 ### CVE-2006-3747 (2006-07-28)
 
