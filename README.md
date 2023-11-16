@@ -4147,6 +4147,9 @@
 
 - [dnkhack/fixcve2023_39526_2023_39527](https://github.com/dnkhack/fixcve2023_39526_2023_39527)
 
+### CVE-2023-39539
+- [AdamWen230/CVE-2023-39539-PoC](https://github.com/AdamWen230/CVE-2023-39539-PoC)
+
 ### CVE-2023-39707 (2023-08-25)
 
 <code>A stored cross-site scripting (XSS) vulnerability in Free and Open Source Inventory Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Add Expense parameter under the Expense section.
@@ -4822,6 +4825,7 @@
 - [studiogangster/CVE-2023-44487](https://github.com/studiogangster/CVE-2023-44487)
 - [ReToCode/golang-CVE-2023-44487](https://github.com/ReToCode/golang-CVE-2023-44487)
 - [sigridou/CVE-2023-44487](https://github.com/sigridou/CVE-2023-44487)
+- [ndrscodes/http2-rst-stream-attacker](https://github.com/ndrscodes/http2-rst-stream-attacker)
 - [nxenon/cve-2023-44487](https://github.com/nxenon/cve-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
@@ -4833,7 +4837,7 @@
 
 ### CVE-2023-44760 (2023-10-23)
 
-<code>Multiple Cross Site Scripting (XSS) vulnerabilities in Concrete CMS v.9.2.1 allow an attacker to execute arbitrary code via a crafted script to the Header and Footer Tracking Codes of the SEO &amp; Statistics.
+<code>** DISPUTED ** Multiple Cross Site Scripting (XSS) vulnerabilities in Concrete CMS v.9.2.1 allow an attacker to execute arbitrary code via a crafted script to the Header and Footer Tracking Codes of the SEO &amp; Statistics. NOTE: the vendor disputes this because these header/footer changes can only be made by an admin, and allowing an admin to place JavaScript there is an intentional customization feature. Also, the exploitation method claimed by &quot;sromanhu&quot; does not provide any access to a Concrete CMS session, because the Concrete CMS session cookie is configured as HttpOnly.
 </code>
 
 - [sromanhu/CVE-2023-44760_ConcreteCMS-Stored-XSS---TrackingCodes](https://github.com/sromanhu/CVE-2023-44760_ConcreteCMS-Stored-XSS---TrackingCodes)
@@ -4875,7 +4879,7 @@
 
 ### CVE-2023-44766 (2023-10-06)
 
-<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS v.9.2.1 allows an attacker to execute arbitrary code via a crafted script to the SEO - Extra from Page Settings.
+<code>** DISPUTED ** A Cross Site Scripting (XSS) vulnerability in Concrete CMS v.9.2.1 allows an attacker to execute arbitrary code via a crafted script to the SEO - Extra from Page Settings. NOTE: the vendor disputes this because this SEO-related header change can only be made by an admin, and allowing an admin to place JavaScript there is an intentional customization feature.
 </code>
 
 - [sromanhu/CVE-2023-44766_ConcreteCMS-Stored-XSS---SEO](https://github.com/sromanhu/CVE-2023-44766_ConcreteCMS-Stored-XSS---SEO)
@@ -5132,6 +5136,7 @@
 - [h3x3h0g/ActiveMQ-RCE-CVE-2023-46604-Write-up](https://github.com/h3x3h0g/ActiveMQ-RCE-CVE-2023-46604-Write-up)
 - [duck-sec/CVE-2023-46604-ActiveMQ-RCE-pseudoshell](https://github.com/duck-sec/CVE-2023-46604-ActiveMQ-RCE-pseudoshell)
 - [LiritoShawshark/CVE-2023-46604_ActiveMQ_RCE_Recurrence](https://github.com/LiritoShawshark/CVE-2023-46604_ActiveMQ_RCE_Recurrence)
+- [vjayant93/CVE-2023-46604-POC](https://github.com/vjayant93/CVE-2023-46604-POC)
 
 ### CVE-2023-46747 (2023-10-26)
 
@@ -5237,16 +5242,32 @@
 ### CVE-2023-47668
 - [RandomRobbieBF/CVE-2023-47668](https://github.com/RandomRobbieBF/CVE-2023-47668)
 
-### CVE-2023-48197
+### CVE-2023-48197 (2023-11-15)
+
+<code>Cross Site Scripting vulnerability in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the QR code function in the manageapikeys component.
+</code>
+
 - [nitipoom-jar/CVE-2023-48197](https://github.com/nitipoom-jar/CVE-2023-48197)
 
-### CVE-2023-48198
+### CVE-2023-48198 (2023-11-15)
+
+<code>Cross Site Scripting vulnerability in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the product description component in the api/stock/products endpoint.
+</code>
+
 - [nitipoom-jar/CVE-2023-48198](https://github.com/nitipoom-jar/CVE-2023-48198)
 
-### CVE-2023-48199
+### CVE-2023-48199 (2023-11-15)
+
+<code>An issue in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the QR code funciton in the manageapikeys component.
+</code>
+
 - [nitipoom-jar/CVE-2023-48199](https://github.com/nitipoom-jar/CVE-2023-48199)
 
-### CVE-2023-48200
+### CVE-2023-48200 (2023-11-15)
+
+<code>Cross Site Scripting vulnerability in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the equipment description component within /equipment/ component.
+</code>
+
 - [nitipoom-jar/CVE-2023-48200](https://github.com/nitipoom-jar/CVE-2023-48200)
 
 ### CVE-2023-51504
@@ -8636,6 +8657,9 @@
 </code>
 
 - [badguy233/CVE-2022-29465](https://github.com/badguy233/CVE-2022-29465)
+
+### CVE-2022-29469
+- [S4muraiMelayu1337/CVE-2022-29469](https://github.com/S4muraiMelayu1337/CVE-2022-29469)
 
 ### CVE-2022-29548 (2022-04-20)
 
@@ -15566,6 +15590,13 @@
 </code>
 
 - [ProfessionallyEvil/CVE-2021-38295-PoC](https://github.com/ProfessionallyEvil/CVE-2021-38295-PoC)
+
+### CVE-2021-38297 (2021-10-18)
+
+<code>Go before 1.16.9 and 1.17.x before 1.17.2 has a Buffer Overflow via large arguments in a function invocation from a WASM module, when GOARCH=wasm GOOS=js is used.
+</code>
+
+- [gkrishnan724/CVE-2021-38297](https://github.com/gkrishnan724/CVE-2021-38297)
 
 ### CVE-2021-38314 (2021-09-02)
 
@@ -35294,6 +35325,7 @@
 - [justzx2011/bash-up](https://github.com/justzx2011/bash-up)
 - [mattclegg/CVE-2014-6271](https://github.com/mattclegg/CVE-2014-6271)
 - [ilismal/Nessus_CVE-2014-6271_check](https://github.com/ilismal/Nessus_CVE-2014-6271_check)
+- [RainMak3r/Rainstorm](https://github.com/RainMak3r/Rainstorm)
 - [gabemarshall/shocknaww](https://github.com/gabemarshall/shocknaww)
 - [woltage/CVE-2014-6271](https://github.com/woltage/CVE-2014-6271)
 - [ariarijp/vagrant-shellshock](https://github.com/ariarijp/vagrant-shellshock)
