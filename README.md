@@ -910,6 +910,8 @@
 
 ### CVE-2023-6063
 - [motikan2010/CVE-2023-6063-PoC](https://github.com/motikan2010/CVE-2023-6063-PoC)
+- [hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC)
+- [thesafdari/CVE-2023-6063](https://github.com/thesafdari/CVE-2023-6063)
 
 ### CVE-2023-20025 (2023-01-20)
 
@@ -980,6 +982,7 @@
 - [ohlawd/CVE-2023-20198](https://github.com/ohlawd/CVE-2023-20198)
 - [IceBreakerCode/CVE-2023-20198](https://github.com/IceBreakerCode/CVE-2023-20198)
 - [sanjai-AK47/CVE-2023-20198](https://github.com/sanjai-AK47/CVE-2023-20198)
+- [smokeintheshell/CVE-2023-20198](https://github.com/smokeintheshell/CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -5242,6 +5245,9 @@
 ### CVE-2023-47668
 - [RandomRobbieBF/CVE-2023-47668](https://github.com/RandomRobbieBF/CVE-2023-47668)
 
+### CVE-2023-48031
+- [nitipoom-jar/CVE-2023-48031](https://github.com/nitipoom-jar/CVE-2023-48031)
+
 ### CVE-2023-48197 (2023-11-15)
 
 <code>Cross Site Scripting vulnerability in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the QR code function in the manageapikeys component.
@@ -5469,7 +5475,6 @@
 - [yywing/cve-2022-0778](https://github.com/yywing/cve-2022-0778)
 - [jkakavas/CVE-2022-0778-POC](https://github.com/jkakavas/CVE-2022-0778-POC)
 - [0xUhaw/CVE-2022-0778](https://github.com/0xUhaw/CVE-2022-0778)
-- [mrluc4s-sysadmin/PoC-CVE-2022-0778-](https://github.com/mrluc4s-sysadmin/PoC-CVE-2022-0778-)
 - [Trinadh465/openssl-1.1.1g_CVE-2022-0778](https://github.com/Trinadh465/openssl-1.1.1g_CVE-2022-0778)
 - [jeongjunsoo/CVE-2022-0778](https://github.com/jeongjunsoo/CVE-2022-0778)
 
@@ -8649,6 +8654,7 @@
 - [devengpk/CVE-2022-29464](https://github.com/devengpk/CVE-2022-29464)
 - [Pari-Malam/CVE-2022-29464](https://github.com/Pari-Malam/CVE-2022-29464)
 - [Pushkarup/CVE-2022-29464](https://github.com/Pushkarup/CVE-2022-29464)
+- [SynixCyberCrimeMy/CVE-2022-29464](https://github.com/SynixCyberCrimeMy/CVE-2022-29464)
 
 ### CVE-2022-29465 (2022-08-05)
 
@@ -27290,7 +27296,6 @@
 - [N0b1e6/CVE-2018-1335-Python3](https://github.com/N0b1e6/CVE-2018-1335-Python3)
 - [canumay/cve-2018-1335](https://github.com/canumay/cve-2018-1335)
 - [siramk/CVE-2018-1335](https://github.com/siramk/CVE-2018-1335)
-- [Zebra64/CVE-2018-1335](https://github.com/Zebra64/CVE-2018-1335)
 
 ### CVE-2018-1932 (2019-01-08)
 
@@ -30911,7 +30916,6 @@
 - [injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638)
 - [ludy-dev/XworkStruts-RCE](https://github.com/ludy-dev/XworkStruts-RCE)
 - [sonatype-workshops/struts2-rce](https://github.com/sonatype-workshops/struts2-rce)
-- [jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638)
 - [Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638)
 - [jptr218/struts_hack](https://github.com/jptr218/struts_hack)
 - [testpilot031/vulnerability_struts-2.3.31](https://github.com/testpilot031/vulnerability_struts-2.3.31)
@@ -37474,9 +37478,6 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
-
-### CVE-2001-3389
-- [becrevex/Gaston](https://github.com/becrevex/Gaston)
 
 
 ## 2000
