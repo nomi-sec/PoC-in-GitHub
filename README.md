@@ -683,6 +683,13 @@
 
 - [b0marek/CVE-2023-4294](https://github.com/b0marek/CVE-2023-4294)
 
+### CVE-2023-4357 (2023-08-15)
+
+<code>Insufficient validation of untrusted input in XML in Google Chrome prior to 116.0.5845.96 allowed a remote attacker to bypass file access restrictions via a crafted HTML page. (Chromium security severity: Medium)
+</code>
+
+- [xcanwin/CVE-2023-4357-Chrome-LFI](https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI)
+
 ### CVE-2023-4460
 - [0xn4d/poc-cve-xss-uploading-svg](https://github.com/0xn4d/poc-cve-xss-uploading-svg)
 
@@ -4915,6 +4922,9 @@
 
 - [sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout](https://github.com/sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout)
 
+### CVE-2023-44796
+- [Hebing123/CVE-2023-44796](https://github.com/Hebing123/CVE-2023-44796)
+
 ### CVE-2023-44811 (2023-10-09)
 
 <code>Cross Site Request Forgery (CSRF) vulnerability in MooSocial v.3.1.8 allows a remote attacker to execute arbitrary code and obtain sensitive information via the admin Password Change Function.
@@ -5217,7 +5227,7 @@
 <code>In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited in the wild in November 2023.
 </code>
 
-- [ex0day/CVE-2023-47246](https://github.com/ex0day/CVE-2023-47246)
+- [W01fh4cker/CVE-2023-47246-EXP](https://github.com/W01fh4cker/CVE-2023-47246-EXP)
 
 ### CVE-2023-47459
 - [aleksey-vi/CVE-2023-47459](https://github.com/aleksey-vi/CVE-2023-47459)
@@ -15339,6 +15349,9 @@
 
 - [tcbutler320/CVE-2021-35956](https://github.com/tcbutler320/CVE-2021-35956)
 
+### CVE-2021-35975
+- [fbkcs/CVE-2021-35975](https://github.com/fbkcs/CVE-2021-35975)
+
 ### CVE-2021-36260 (2021-09-22)
 
 <code>A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation, attacker can exploit the vulnerability to launch a command injection attack by sending some messages with malicious commands.
@@ -17762,7 +17775,7 @@
 - [ludy-dev/cve-2021-45046](https://github.com/ludy-dev/cve-2021-45046)
 - [lijiejie/log4j2_vul_local_scanner](https://github.com/lijiejie/log4j2_vul_local_scanner)
 - [CaptanMoss/Log4Shell-Sandbox-Signature](https://github.com/CaptanMoss/Log4Shell-Sandbox-Signature)
-- [taise-hub/log4j-poc](https://github.com/taise-hub/log4j-poc)
+- [taisehub/log4j-poc](https://github.com/taisehub/log4j-poc)
 
 ### CVE-2021-45067 (2022-01-14)
 
@@ -22205,6 +22218,13 @@
 </code>
 
 - [Al1ex/CVE-2020-24750](https://github.com/Al1ex/CVE-2020-24750)
+
+### CVE-2020-24765 (2020-10-20)
+
+<code>InterMind iMind Server through 3.13.65 allows remote unauthenticated attackers to read the self-diagnostic archive via a direct api/rs/monitoring/rs/api/system/dump-diagnostic-info?server=127.0.0.1 request.
+</code>
+
+- [fbkcs/CVE-2020-24765](https://github.com/fbkcs/CVE-2020-24765)
 
 ### CVE-2020-24815 (2020-11-24)
 
@@ -36514,14 +36534,6 @@
 - [cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426)
 - [g1vi/CVE-2010-0426](https://github.com/g1vi/CVE-2010-0426)
 
-### CVE-2010-0738 (2010-04-28)
-
-<code>The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
-</code>
-
-- [ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn)
-- [gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn)
-
 ### CVE-2010-1205 (2010-06-30)
 
 <code>Buffer overflow in pngpread.c in libpng before 1.2.44 and 1.4.x before 1.4.3, as used in progressive applications, might allow remote attackers to execute arbitrary code via a PNG image that triggers an additional data row.
@@ -36591,7 +36603,6 @@
 <code>Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 2007 SP2, Office 2010, Office 2004 and 2008 for Mac, Office for Mac 2011, and Open XML File Format Converter for Mac allows remote attackers to execute arbitrary code via crafted RTF data, aka &quot;RTF Stack Buffer Overflow Vulnerability.&quot;
 </code>
 
-- [whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333)
 - [Sunqiz/CVE-2010-3333-reproduction](https://github.com/Sunqiz/CVE-2010-3333-reproduction)
 
 ### CVE-2010-3490 (2010-09-28)
@@ -36607,20 +36618,6 @@
 </code>
 
 - [LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2](https://github.com/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2)
-
-### CVE-2010-3847 (2011-01-07)
-
-<code>elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2, and 2.12.x through 2.12.1, does not properly handle a value of $ORIGIN for the LD_AUDIT environment variable, which allows local users to gain privileges via a crafted dynamic shared object (DSO) located in an arbitrary directory.
-</code>
-
-- [magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847)
-
-### CVE-2010-3904 (2010-12-06)
-
-<code>The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Sockets (RDS) protocol implementation in the Linux kernel before 2.6.36 does not properly validate addresses obtained from user space, which allows local users to gain privileges via crafted use of the sendmsg and recvmsg system calls.
-</code>
-
-- [redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report)
 
 ### CVE-2010-3971 (2010-12-22)
 
@@ -36840,6 +36837,7 @@
 <code>DL::dlopen in Ruby 1.8, 1.9.0, 1.9.2, 1.9.3, 2.0.0 before patchlevel 648, and 2.1 before 2.1.8 opens libraries with tainted names.
 </code>
 
+- [vpereira/CVE-2009-5147](https://github.com/vpereira/CVE-2009-5147)
 - [zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-](https://github.com/zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-)
 
 
