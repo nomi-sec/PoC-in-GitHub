@@ -372,6 +372,13 @@
 
 - [thehackingverse/CVE-2023-2594](https://github.com/thehackingverse/CVE-2023-2594)
 
+### CVE-2023-2598 (2023-05-31)
+
+<code>A flaw was found in the fixed buffer registration code for io_uring (io_sqe_buffer_register in io_uring/rsrc.c) in the Linux kernel that allows out-of-bounds access to physical memory beyond the end of the buffer. This flaw enables full local privilege escalation.
+</code>
+
+- [ysanatomic/io_uring_LPE-CVE-2023-2598](https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598)
+
 ### CVE-2023-2636 (2023-07-17)
 
 <code>The AN_GradeBook WordPress plugin through 5.0.1 does not properly sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by users with a role as low as subscriber
@@ -3527,6 +3534,13 @@
 - [datackmy/FallingSkies-CVE-2023-35885](https://github.com/datackmy/FallingSkies-CVE-2023-35885)
 - [Chocapikk/CVE-2023-35885](https://github.com/Chocapikk/CVE-2023-35885)
 
+### CVE-2023-36025 (2023-11-14)
+
+<code>Windows SmartScreen Security Feature Bypass Vulnerability
+</code>
+
+- [ka7ana/CVE-2023-36025](https://github.com/ka7ana/CVE-2023-36025)
+
 ### CVE-2023-36076 (2023-09-01)
 
 <code>SQL Injection vulnerability in smanga version 3.1.9 and earlier, allows remote attackers to execute arbitrary code and gain sensitive information via mediaId, mangaId, and userId parameters in php/history/add.php.
@@ -5164,6 +5178,13 @@
 - [nvansluis/test_cve-2023-46747](https://github.com/nvansluis/test_cve-2023-46747)
 - [sanjai-AK47/CVE-2023-46747](https://github.com/sanjai-AK47/CVE-2023-46747)
 
+### CVE-2023-46865 (2023-10-29)
+
+<code>/api/v1/company/upload-logo in CompanyController.php in crater through 6.0.6 allows a superadmin to execute arbitrary PHP code by placing this code into an image/png IDAT chunk of a Company Logo image.
+</code>
+
+- [asylumdx/Crater-CVE-2023-46865-RCE](https://github.com/asylumdx/Crater-CVE-2023-46865-RCE)
+
 ### CVE-2023-46954 (2023-11-02)
 
 <code>SQL Injection vulnerability in Relativity ODA LLC RelativityOne v.12.1.537.3 Patch 2 and earlier allows a remote attacker to execute arbitrary code via the name parameter.
@@ -5258,7 +5279,11 @@
 ### CVE-2023-48028
 - [nitipoom-jar/CVE-2023-48028](https://github.com/nitipoom-jar/CVE-2023-48028)
 
-### CVE-2023-48029
+### CVE-2023-48029 (2023-11-17)
+
+<code>Corebos 8.0 and below is vulnerable to CSV Injection. An attacker with low privileges can inject a malicious command into a table. This vulnerability is exploited when an administrator visits the user management section, exports the data to a CSV file, and then opens it, leading to the execution of the malicious payload on the administrator's computer.
+</code>
+
 - [nitipoom-jar/CVE-2023-48029](https://github.com/nitipoom-jar/CVE-2023-48029)
 
 ### CVE-2023-48031 (2023-11-16)
@@ -36534,6 +36559,14 @@
 - [cved-sources/cve-2010-0426](https://github.com/cved-sources/cve-2010-0426)
 - [g1vi/CVE-2010-0426](https://github.com/g1vi/CVE-2010-0426)
 
+### CVE-2010-0738 (2010-04-28)
+
+<code>The JMX-Console web application in JBossAs in Red Hat JBoss Enterprise Application Platform (aka JBoss EAP or JBEAP) 4.2 before 4.2.0.CP09 and 4.3 before 4.3.0.CP08 performs access control only for the GET and POST methods, which allows remote attackers to send requests to this application's GET handler by using a different method.
+</code>
+
+- [ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn)
+- [gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn)
+
 ### CVE-2010-1205 (2010-06-30)
 
 <code>Buffer overflow in pngpread.c in libpng before 1.2.44 and 1.4.x before 1.4.3, as used in progressive applications, might allow remote attackers to execute arbitrary code via a PNG image that triggers an additional data row.
@@ -36603,6 +36636,7 @@
 <code>Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 2007 SP2, Office 2010, Office 2004 and 2008 for Mac, Office for Mac 2011, and Open XML File Format Converter for Mac allows remote attackers to execute arbitrary code via crafted RTF data, aka &quot;RTF Stack Buffer Overflow Vulnerability.&quot;
 </code>
 
+- [whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333)
 - [Sunqiz/CVE-2010-3333-reproduction](https://github.com/Sunqiz/CVE-2010-3333-reproduction)
 
 ### CVE-2010-3490 (2010-09-28)
@@ -36618,6 +36652,20 @@
 </code>
 
 - [LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2](https://github.com/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2)
+
+### CVE-2010-3847 (2011-01-07)
+
+<code>elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2, and 2.12.x through 2.12.1, does not properly handle a value of $ORIGIN for the LD_AUDIT environment variable, which allows local users to gain privileges via a crafted dynamic shared object (DSO) located in an arbitrary directory.
+</code>
+
+- [magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847)
+
+### CVE-2010-3904 (2010-12-06)
+
+<code>The rds_page_copy_user function in net/rds/page.c in the Reliable Datagram Sockets (RDS) protocol implementation in the Linux kernel before 2.6.36 does not properly validate addresses obtained from user space, which allows local users to gain privileges via crafted use of the sendmsg and recvmsg system calls.
+</code>
+
+- [redhatkaty/-cve-2010-3904-report](https://github.com/redhatkaty/-cve-2010-3904-report)
 
 ### CVE-2010-3971 (2010-12-22)
 
