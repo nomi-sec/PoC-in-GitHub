@@ -2343,6 +2343,7 @@
 - [tucommenceapousser/CVE-2023-29489.py](https://github.com/tucommenceapousser/CVE-2023-29489.py)
 - [ViperM4sk/cpanel-xss-177](https://github.com/ViperM4sk/cpanel-xss-177)
 - [S4muraiMelayu1337/CVE-2023-29489](https://github.com/S4muraiMelayu1337/CVE-2023-29489)
+- [SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489)
 
 ### CVE-2023-29552 (2023-04-25)
 
@@ -5244,6 +5245,12 @@
 
 ### CVE-2023-47668
 - [RandomRobbieBF/CVE-2023-47668](https://github.com/RandomRobbieBF/CVE-2023-47668)
+
+### CVE-2023-48028
+- [nitipoom-jar/CVE-2023-48028](https://github.com/nitipoom-jar/CVE-2023-48028)
+
+### CVE-2023-48029
+- [nitipoom-jar/CVE-2023-48029](https://github.com/nitipoom-jar/CVE-2023-48029)
 
 ### CVE-2023-48031
 - [nitipoom-jar/CVE-2023-48031](https://github.com/nitipoom-jar/CVE-2023-48031)
@@ -30916,6 +30923,7 @@
 - [injcristianrojas/cve-2017-5638](https://github.com/injcristianrojas/cve-2017-5638)
 - [ludy-dev/XworkStruts-RCE](https://github.com/ludy-dev/XworkStruts-RCE)
 - [sonatype-workshops/struts2-rce](https://github.com/sonatype-workshops/struts2-rce)
+- [jongmartinez/CVE-2017-5638](https://github.com/jongmartinez/CVE-2017-5638)
 - [Badbird3/CVE-2017-5638](https://github.com/Badbird3/CVE-2017-5638)
 - [jptr218/struts_hack](https://github.com/jptr218/struts_hack)
 - [testpilot031/vulnerability_struts-2.3.31](https://github.com/testpilot031/vulnerability_struts-2.3.31)
@@ -37478,6 +37486,9 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
+
+### CVE-2001-3389
+- [becrevex/Gaston](https://github.com/becrevex/Gaston)
 
 
 ## 2000
