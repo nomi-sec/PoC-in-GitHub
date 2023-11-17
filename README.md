@@ -3928,7 +3928,6 @@
 <code>The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.
 </code>
 
-- [snowcra5h/CVE-2023-38408](https://github.com/snowcra5h/CVE-2023-38408)
 - [kali-mx/CVE-2023-38408](https://github.com/kali-mx/CVE-2023-38408)
 - [LucasPDiniz/CVE-2023-38408](https://github.com/LucasPDiniz/CVE-2023-38408)
 
@@ -5252,8 +5251,15 @@
 ### CVE-2023-48029
 - [nitipoom-jar/CVE-2023-48029](https://github.com/nitipoom-jar/CVE-2023-48029)
 
-### CVE-2023-48031
+### CVE-2023-48031 (2023-11-16)
+
+<code>OpenSupports v4.11.0 is vulnerable to Unrestricted Upload of File with Dangerous Type. In the comment function, an attacker can bypass security restrictions and upload a .bat file by manipulating the file's magic bytes to masquerade as an allowed type. This can enable the attacker to execute arbitrary code or establish a reverse shell, leading to unauthorized file writes or control over the victim's station via a crafted file upload operation.
+</code>
+
 - [nitipoom-jar/CVE-2023-48031](https://github.com/nitipoom-jar/CVE-2023-48031)
+
+### CVE-2023-48123
+- [NHPT/CVE-2023-48123](https://github.com/NHPT/CVE-2023-48123)
 
 ### CVE-2023-48197 (2023-11-15)
 
@@ -5285,9 +5291,6 @@
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
-
-### CVE-2023-54436
-- [NHPT/CVE-2023-54436](https://github.com/NHPT/CVE-2023-54436)
 
 
 ## 2022
@@ -36837,7 +36840,6 @@
 <code>DL::dlopen in Ruby 1.8, 1.9.0, 1.9.2, 1.9.3, 2.0.0 before patchlevel 648, and 2.1 before 2.1.8 opens libraries with tainted names.
 </code>
 
-- [vpereira/CVE-2009-5147](https://github.com/vpereira/CVE-2009-5147)
 - [zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-](https://github.com/zhangyongbo100/-Ruby-dl-handle.c-CVE-2009-5147-)
 
 
@@ -37327,7 +37329,7 @@
 <code>Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
 </code>
 
-- [snowcra5h/CVE-2003-0358](https://github.com/snowcra5h/CVE-2003-0358)
+- [gmh5225/CVE-2003-0358](https://github.com/gmh5225/CVE-2003-0358)
 
 
 ## 2002
