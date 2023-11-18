@@ -749,6 +749,13 @@
 
 - [mnqazi/CVE-2023-4698](https://github.com/mnqazi/CVE-2023-4698)
 
+### CVE-2023-4699 (2023-11-06)
+
+<code>Insufficient Verification of Data Authenticity vulnerability in Mitsubishi Electric Corporation MELSEC-F Series main modules and MELSEC iQ-F Series CPU modules allows a remote unauthenticated attacker to reset the memory of the products to factory default state and cause denial-of-service (DoS) condition on the products by sending specific packets.\n\n\n\n\n\n\n
+</code>
+
+- [Scottzxor/Citrix-Bleed-Buffer-Overread-Demo](https://github.com/Scottzxor/Citrix-Bleed-Buffer-Overread-Demo)
+
 ### CVE-2023-4741 (2023-09-03)
 
 <code>In IBOS OA 4.5.5 wurde eine kritische Schwachstelle gefunden. Es geht um eine nicht näher bekannte Funktion der Datei ?r=diary/default/del der Komponente Delete Logs Handler. Durch das Manipulieren mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -3626,7 +3633,7 @@
 
 ### CVE-2023-36281 (2023-08-22)
 
-<code>An issue in langchain v.0.0.171 allows a remote attacker to execute arbitrary code via the via the a json file to the load_prompt parameter.
+<code>An issue in langchain v.0.0.171 allows a remote attacker to execute arbitrary code via a JSON file to load_prompt. This is related to __subclasses__ or a template.
 </code>
 
 - [tagomaru/CVE-2023-36281](https://github.com/tagomaru/CVE-2023-36281)
@@ -4097,7 +4104,7 @@
 - [ruycr4ft/CVE-2023-38831](https://github.com/ruycr4ft/CVE-2023-38831)
 - [Nielk74/CVE-2023-38831](https://github.com/Nielk74/CVE-2023-38831)
 - [kehrijksen/CVE-2023-38831](https://github.com/kehrijksen/CVE-2023-38831)
-- [seyit-sigirci/SideCopy-Exploits-CVE-2023-38831](https://github.com/seyit-sigirci/SideCopy-Exploits-CVE-2023-38831)
+- [h3xecute/SideCopy-Exploits-CVE-2023-38831](https://github.com/h3xecute/SideCopy-Exploits-CVE-2023-38831)
 - [s4m98/winrar-cve-2023-38831-poc-gen](https://github.com/s4m98/winrar-cve-2023-38831-poc-gen)
 - [xk-mt/WinRAR-Vulnerability-recurrence-tutorial](https://github.com/xk-mt/WinRAR-Vulnerability-recurrence-tutorial)
 
@@ -4875,7 +4882,7 @@
 
 ### CVE-2023-44762 (2023-10-06)
 
-<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS v.9.2.1 allows an attacker to execute arbitrary code via a crafted script to the Tags from Settings - Tags.
+<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS from versions 9.2.0 to 9.2.2 allows an attacker to execute arbitrary code via a crafted script to the Tags from Settings - Tags.
 </code>
 
 - [sromanhu/CVE-2023-44762_ConcreteCMS-Reflected-XSS---Tags](https://github.com/sromanhu/CVE-2023-44762_ConcreteCMS-Reflected-XSS---Tags)
@@ -4936,7 +4943,11 @@
 
 - [sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout](https://github.com/sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout)
 
-### CVE-2023-44796
+### CVE-2023-44796 (-)
+
+<code>Cross Site Scripting (XSS) vulnerability in LimeSurvey before version 6.2.9-230925 allows a remote attacker to escalate privileges via a crafted script to the _generaloptions_panel.php component.
+</code>
+
 - [Hebing123/CVE-2023-44796](https://github.com/Hebing123/CVE-2023-44796)
 
 ### CVE-2023-44811 (2023-10-09)
@@ -5276,7 +5287,11 @@
 ### CVE-2023-47668
 - [RandomRobbieBF/CVE-2023-47668](https://github.com/RandomRobbieBF/CVE-2023-47668)
 
-### CVE-2023-48028
+### CVE-2023-48028 (-)
+
+<code>kodbox 1.46.01 has a security flaw that enables user enumeration. This problem is present on the login page, where an attacker can identify valid users based on varying response messages, potentially paving the way for a brute force attack.
+</code>
+
 - [nitipoom-jar/CVE-2023-48028](https://github.com/nitipoom-jar/CVE-2023-48028)
 
 ### CVE-2023-48029 (2023-11-17)
