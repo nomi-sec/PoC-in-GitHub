@@ -482,6 +482,7 @@
 - [RandomRobbieBF/CVE-2023-2982](https://github.com/RandomRobbieBF/CVE-2023-2982)
 - [H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC)
 - [LoaiEsam37/CVE-2023-2982](https://github.com/LoaiEsam37/CVE-2023-2982)
+- [wshinkle/CVE-2023-2982](https://github.com/wshinkle/CVE-2023-2982)
 
 ### CVE-2023-2986 (2023-06-07)
 
@@ -695,7 +696,7 @@
 <code>Insufficient validation of untrusted input in XML in Google Chrome prior to 116.0.5845.96 allowed a remote attacker to bypass file access restrictions via a crafted HTML page. (Chromium security severity: Medium)
 </code>
 
-- [xcanwin/CVE-2023-4357-Chrome-LFI](https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI)
+- [xcanwin/CVE-2023-4357-Chrome-XXE](https://github.com/xcanwin/CVE-2023-4357-Chrome-XXE)
 
 ### CVE-2023-4460
 - [0xn4d/poc-cve-xss-uploading-svg](https://github.com/0xn4d/poc-cve-xss-uploading-svg)
@@ -1121,6 +1122,14 @@
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21097](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21097)
 - [uthrasri/frameworks_base_AOSP10_r33_CVE-2023-21097](https://github.com/uthrasri/frameworks_base_AOSP10_r33_CVE-2023-21097)
+
+### CVE-2023-21109 (2023-05-15)
+
+<code>In multiple places of AccessibilityService, there is a possible way to hide the app from the user due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-261589597
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_CVE-2023-21109r33_](https://github.com/Trinadh465/frameworks_base_AOSP10_CVE-2023-21109r33_)
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21109](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21109)
 
 ### CVE-2023-21238 (2023-07-12)
 
@@ -5236,6 +5245,7 @@
 </code>
 
 - [quantiano/cve-2023-47102](https://github.com/quantiano/cve-2023-47102)
+- [nitipoom-jar/CVE-2023-47102](https://github.com/nitipoom-jar/CVE-2023-47102)
 
 ### CVE-2023-47119 (2023-11-10)
 
@@ -6443,6 +6453,8 @@
 </code>
 
 - [Satheesh575555/frameworks_base_AOSP_06_r22_CVE-2022-20338](https://github.com/Satheesh575555/frameworks_base_AOSP_06_r22_CVE-2022-20338)
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20338](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20338)
+- [Trinadh465/frameworks_base_AOSP_10_r33_CVE-2022-20338](https://github.com/Trinadh465/frameworks_base_AOSP_10_r33_CVE-2022-20338)
 
 ### CVE-2022-20347 (2022-08-09)
 
