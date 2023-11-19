@@ -5655,6 +5655,7 @@
 - [qwert419/linux-](https://github.com/qwert419/linux-)
 - [DataFox/CVE-2022-0847](https://github.com/DataFox/CVE-2022-0847)
 - [pmihsan/Dirty-Pipe-CVE-2022-0847](https://github.com/pmihsan/Dirty-Pipe-CVE-2022-0847)
+- [ajith737/Dirty-Pipe-CVE-2022-0847-POCs](https://github.com/ajith737/Dirty-Pipe-CVE-2022-0847-POCs)
 - [mutur4/CVE-2022-0847](https://github.com/mutur4/CVE-2022-0847)
 - [orsuprasad/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/orsuprasad/CVE-2022-0847-DirtyPipe-Exploits)
 - [4bhishek0/CVE-2022-0847-Poc](https://github.com/4bhishek0/CVE-2022-0847-Poc)
@@ -6507,6 +6508,21 @@
 
 - [hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20456](https://github.com/hshivhare67/platform_frameworks_base_AOSP10_r33_CVE-2022-20456)
 
+### CVE-2022-20470 (2022-12-13)
+
+<code>In bindRemoteViewsService of AppWidgetServiceImpl.java, there is a possible way to bypass background activity launch due to improper input validation. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-234013191
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20470](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2022-20470)
+
+### CVE-2022-20473 (2022-12-13)
+
+<code>In toLanguageTag of LocaleListCache.cpp, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-239267173
+</code>
+
+- [Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473)
+- [Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473)
+
 ### CVE-2022-20489 (2023-01-24)
 
 <code>In many functions of AutomaticZenRule.java, there is a possible failure to persist permissions settings due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-242703460
@@ -7163,6 +7179,7 @@
 - [clemoregan/SSE4-CVE-2022-22965](https://github.com/clemoregan/SSE4-CVE-2022-22965)
 - [devengpk/CVE-2022-22965](https://github.com/devengpk/CVE-2022-22965)
 - [zangcc/CVE-2022-22965-rexbb](https://github.com/zangcc/CVE-2022-22965-rexbb)
+- [ajith737/Spring4Shell-CVE-2022-22965-POC](https://github.com/ajith737/Spring4Shell-CVE-2022-22965-POC)
 - [c33dd/CVE-2022-22965](https://github.com/c33dd/CVE-2022-22965)
 - [gokul-ramesh/Spring4Shell-PoC-exploit](https://github.com/gokul-ramesh/Spring4Shell-PoC-exploit)
 - [bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-](https://github.com/bL34cHig0/Telstra-Cybersecurity-Virtual-Experience-)
@@ -8534,6 +8551,7 @@
 </code>
 
 - [hacksysteam/CVE-2022-28672](https://github.com/hacksysteam/CVE-2022-28672)
+- [fastmo/CVE-2022-28672](https://github.com/fastmo/CVE-2022-28672)
 
 ### CVE-2022-28943
 - [zhefox/CVE-2022-28943](https://github.com/zhefox/CVE-2022-28943)
@@ -8619,6 +8637,13 @@
 
 - [EgeBalci/CVE-2022-29154](https://github.com/EgeBalci/CVE-2022-29154)
 
+### CVE-2022-29170 (2022-05-20)
+
+<code>Grafana is an open-source platform for monitoring and observability. In Grafana Enterprise, the Request security feature allows list allows to configure Grafana in a way so that the instance doesn’t call or only calls specific hosts. The vulnerability present starting with version 7.4.0-beta1 and prior to versions 7.5.16 and 8.5.3 allows someone to bypass these security configurations if a malicious datasource (running on an allowed host) returns an HTTP redirect to a forbidden host. The vulnerability only impacts Grafana Enterprise when the Request security allow list is used and there is a possibility to add a custom datasource to Grafana which returns HTTP redirects. In this scenario, Grafana would blindly follow the redirects and potentially give secure information to the clients. Grafana Cloud is not impacted by this vulnerability. Versions 7.5.16 and 8.5.3 contain a patch for this issue. There are currently no known workarounds.
+</code>
+
+- [yijikeji/CVE-2022-29170](https://github.com/yijikeji/CVE-2022-29170)
+
 ### CVE-2022-29221 (2022-05-24)
 
 <code>Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. Prior to versions 3.1.45 and 4.1.1, template authors could inject php code by choosing a malicious {block} name or {include} file name. Sites that cannot fully trust template authors should upgrade to versions 3.1.45 or 4.1.1 to receive a patch for this issue. There are currently no known workarounds.
@@ -8671,6 +8696,7 @@
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
 - [5l1v3r1/CVE-2022-29455](https://github.com/5l1v3r1/CVE-2022-29455)
+- [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
 - [0xkucing/CVE-2022-29455](https://github.com/0xkucing/CVE-2022-29455)
 - [tucommenceapousser/CVE-2022-29455](https://github.com/tucommenceapousser/CVE-2022-29455)
 - [tucommenceapousser/CVE-2022-29455-mass](https://github.com/tucommenceapousser/CVE-2022-29455-mass)
@@ -10353,6 +10379,13 @@
 
 - [h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated)
 
+### CVE-2022-40363 (2022-09-29)
+
+<code>A buffer overflow in the component nfc_device_load_mifare_ul_data of Flipper Devices Inc., Flipper Zero before v0.65.2 allows attackers to cause a Denial of Service (DoS) via a crafted NFC file.
+</code>
+
+- [Olafdaf/CVE-2022-40363](https://github.com/Olafdaf/CVE-2022-40363)
+
 ### CVE-2022-40470 (2022-11-21)
 
 <code>Phpgurukul Blood Donor Management System 1.0 allows Cross Site Scripting via Add Blood Group Name Feature.
@@ -10419,6 +10452,13 @@
 </code>
 
 - [williamkhepri/CVE-2022-40687-metasploit-scanner](https://github.com/williamkhepri/CVE-2022-40687-metasploit-scanner)
+
+### CVE-2022-40769 (2022-09-18)
+
+<code>profanity through 1.60 has only four billion possible RNG initializations. Thus, attackers can recover private keys from Ethereum vanity addresses and steal cryptocurrency, as exploited in the wild in June 2022.
+</code>
+
+- [PLSRcoin/CVE-2022-40769](https://github.com/PLSRcoin/CVE-2022-40769)
 
 ### CVE-2022-40799 (2022-11-28)
 
@@ -11070,12 +11110,14 @@
 <code>login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metacharacters in the login parameter.
 </code>
 
+- [numanturle/CVE-2022-44877](https://github.com/numanturle/CVE-2022-44877)
 - [komomon/CVE-2022-44877-RCE](https://github.com/komomon/CVE-2022-44877-RCE)
 - [ColdFusionX/CVE-2022-44877-CWP7](https://github.com/ColdFusionX/CVE-2022-44877-CWP7)
 - [Chocapikk/CVE-2022-44877](https://github.com/Chocapikk/CVE-2022-44877)
 - [hotpotcookie/CVE-2022-44877-white-box](https://github.com/hotpotcookie/CVE-2022-44877-white-box)
 - [RicYaben/CVE-2022-44877-LAB](https://github.com/RicYaben/CVE-2022-44877-LAB)
 - [dkstar11q/CVE-2022-44877](https://github.com/dkstar11q/CVE-2022-44877)
+- [rhymsc/CVE-2022-44877-RCE](https://github.com/rhymsc/CVE-2022-44877-RCE)
 
 ### CVE-2022-44900 (2022-12-06)
 
@@ -11210,6 +11252,20 @@
 
 - [yerodin/CVE-2022-45701](https://github.com/yerodin/CVE-2022-45701)
 
+### CVE-2022-45728 (2023-01-12)
+
+<code>Doctor Appointment Management System v1.0.0 was discovered to contain a cross-site scripting (XSS) vulnerability.
+</code>
+
+- [sudoninja-noob/CVE-2022-45728](https://github.com/sudoninja-noob/CVE-2022-45728)
+
+### CVE-2022-45729 (2023-01-12)
+
+<code>A cross-site scripting (XSS) vulnerability in Doctor Appointment Management System v1.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Employee ID parameter.
+</code>
+
+- [sudoninja-noob/CVE-2022-45729](https://github.com/sudoninja-noob/CVE-2022-45729)
+
 ### CVE-2022-45770 (2023-01-26)
 
 <code>Improper input validation in adgnetworkwfpdrv.sys in Adguard For Windows x86 through 7.11 allows local privilege escalation.
@@ -11287,6 +11343,7 @@
 - [imjdl/CVE-2022-46169](https://github.com/imjdl/CVE-2022-46169)
 - [0xf4n9x/CVE-2022-46169](https://github.com/0xf4n9x/CVE-2022-46169)
 - [taythebot/CVE-2022-46169](https://github.com/taythebot/CVE-2022-46169)
+- [Inplex-sys/CVE-2022-46169](https://github.com/Inplex-sys/CVE-2022-46169)
 - [sAsPeCt488/CVE-2022-46169](https://github.com/sAsPeCt488/CVE-2022-46169)
 - [botfather0x0/CVE-2022-46169](https://github.com/botfather0x0/CVE-2022-46169)
 - [Habib0x0/CVE-2022-46169](https://github.com/Habib0x0/CVE-2022-46169)
@@ -11322,6 +11379,13 @@
 
 ### CVE-2022-46196
 - [dpgg101/CVE-2022-46196](https://github.com/dpgg101/CVE-2022-46196)
+
+### CVE-2022-46366 (2022-12-02)
+
+<code>** UNSUPPORTED WHEN ASSIGNED ** Apache Tapestry 3.x allows deserialization of untrusted data, leading to remote code execution. This issue is similar to but distinct from CVE-2020-17531, which applies the the (also unsupported) 4.x version line. NOTE: This vulnerability only affects Apache Tapestry version line 3.x, which is no longer supported by the maintainer. Users are recommended to upgrade to a supported version line of Apache Tapestry.
+</code>
+
+- [wh-gov/CVE-2022-46366](https://github.com/wh-gov/CVE-2022-46366)
 
 ### CVE-2022-46381 (2022-12-13)
 
@@ -11367,6 +11431,20 @@
 
 - [galoget/ResponsiveFileManager-CVE-2022-46604](https://github.com/galoget/ResponsiveFileManager-CVE-2022-46604)
 
+### CVE-2022-46622 (2023-01-12)
+
+<code>A cross-site scripting (XSS) vulnerability in Judging Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the firstname parameter.
+</code>
+
+- [sudoninja-noob/CVE-2022-46622](https://github.com/sudoninja-noob/CVE-2022-46622)
+
+### CVE-2022-46623 (2023-01-12)
+
+<code>Judging Management System v1.0.0 was discovered to contain a SQL injection vulnerability via the username parameter.
+</code>
+
+- [sudoninja-noob/CVE-2022-46623](https://github.com/sudoninja-noob/CVE-2022-46623)
+
 ### CVE-2022-46638
 - [naonymous101/CVE-2022-46638](https://github.com/naonymous101/CVE-2022-46638)
 
@@ -11402,6 +11480,13 @@
 </code>
 
 - [JacobEbben/CVE-2022-46836_remote_code_execution](https://github.com/JacobEbben/CVE-2022-46836_remote_code_execution)
+
+### CVE-2022-47102 (2023-01-12)
+
+<code>A cross-site scripting (XSS) vulnerability in Student Study Center Management System V 1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
+</code>
+
+- [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
 
 ### CVE-2022-47373 (2023-02-14)
 
@@ -11485,6 +11570,13 @@
 </code>
 
 - [otsmr/internet-of-vulnerable-things](https://github.com/otsmr/internet-of-vulnerable-things)
+
+### CVE-2022-48197 (2023-01-02)
+
+<code>** UNSUPPORTED WHEN ASSIGNED ** Reflected cross-site scripting (XSS) exists in the TreeView of YUI2 through 2800: up.php sam.php renderhidden.php removechildren.php removeall.php readd.php overflow.php newnode2.php newnode.php. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.
+</code>
+
+- [ryan412/CVE-2022-48197](https://github.com/ryan412/CVE-2022-48197)
 
 ### CVE-2022-48311 (2023-02-06)
 
@@ -21867,7 +21959,6 @@
 
 - [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
-- [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
 - [ludy-dev/freemarker_RCE_struts2_s2-061](https://github.com/ludy-dev/freemarker_RCE_struts2_s2-061)
 - [CyborgSecurity/CVE-2020-17530](https://github.com/CyborgSecurity/CVE-2020-17530)
@@ -22681,7 +22772,6 @@
 - [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go)
 - [yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc)
 - [r00t4dm/CVE-2020-27955](https://github.com/r00t4dm/CVE-2020-27955)
-- [williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell](https://github.com/williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell)
 - [shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955)
 - [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
 - [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
