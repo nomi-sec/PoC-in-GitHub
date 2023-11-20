@@ -57,7 +57,6 @@
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
-- [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
@@ -817,6 +816,7 @@
 - [certat/citrix-logchecker](https://github.com/certat/citrix-logchecker)
 - [sanjai-AK47/CVE-2023-4966](https://github.com/sanjai-AK47/CVE-2023-4966)
 - [fdevsectest/CVE-2023-4966](https://github.com/fdevsectest/CVE-2023-4966)
+- [s-bt/CVE-2023-4966](https://github.com/s-bt/CVE-2023-4966)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -838,13 +838,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-5070](https://github.com/RandomRobbieBF/CVE-2023-5070)
-
-### CVE-2023-5142 (2023-09-24)
-
-<code>In H3C GR-1100-P, GR-1108-P, GR-1200W, GR-1800AX, GR-2200, GR-3200, GR-5200, GR-8300, ER2100n, ER2200G2, ER3200G2, ER3260G2, ER5100G2, ER5200G2 and ER6300G2 bis 20230908 wurde eine Schwachstelle entdeckt. Sie wurde als problematisch eingestuft. Dabei geht es um eine nicht genauer bekannte Funktion der Datei /userLogin.asp der Komponente Config File Handler. Durch das Beeinflussen mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Die Komplexität eines Angriffs ist eher hoch. Das Ausnutzen gilt als schwierig. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [kuangxiaotu/CVE-H3C-Report](https://github.com/kuangxiaotu/CVE-H3C-Report)
 
 ### CVE-2023-5217 (2023-09-28)
 
@@ -1234,13 +1227,6 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
-### CVE-2023-21739 (2023-01-10)
-
-<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
-</code>
-
-- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
-
 ### CVE-2023-21742 (2023-01-10)
 
 <code>Microsoft SharePoint Server Remote Code Execution Vulnerability
@@ -1260,7 +1246,6 @@
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
-- [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
@@ -1283,7 +1268,6 @@
 - [CKevens/CVE-2023-21768-POC](https://github.com/CKevens/CVE-2023-21768-POC)
 - [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
 - [zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit)
-- [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
 
 ### CVE-2023-21823 (2023-02-14)
 
@@ -1622,13 +1606,6 @@
 - [julesbozouklian/PoC_CVE-2023-24055](https://github.com/julesbozouklian/PoC_CVE-2023-24055)
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
-
-### CVE-2023-24059 (2023-01-22)
-
-<code>Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
-</code>
-
-- [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
 
 ### CVE-2023-24078 (2023-02-17)
 
@@ -3716,9 +3693,6 @@
 - [toanln-cov/CVE-2023-36845](https://github.com/toanln-cov/CVE-2023-36845)
 - [halencarjunior/CVE-2023-36845](https://github.com/halencarjunior/CVE-2023-36845)
 - [zaenhaxor/CVE-2023-36845](https://github.com/zaenhaxor/CVE-2023-36845)
-- [simrotion13/CVE-2023-36845](https://github.com/simrotion13/CVE-2023-36845)
-- [WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845](https://github.com/WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845)
-- [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
 - [ditekshen/ansible-cve-2023-36845](https://github.com/ditekshen/ansible-cve-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
@@ -4047,13 +4021,6 @@
 - [Mrunalkaran/CVE-2023-38646](https://github.com/Mrunalkaran/CVE-2023-38646)
 - [j0yb0y0h/CVE-2023-38646](https://github.com/j0yb0y0h/CVE-2023-38646)
 
-### CVE-2023-38743 (2023-09-11)
-
-<code>Zoho ManageEngine ADManager Plus before Build 7200 allows admin users to execute commands on the host machine.
-</code>
-
-- [PetrusViet/CVE-2023-38743](https://github.com/PetrusViet/CVE-2023-38743)
-
 ### CVE-2023-38820
 - [TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820](https://github.com/TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820)
 
@@ -4242,13 +4209,6 @@
 </code>
 
 - [webraybtl/CVE-2023-40031](https://github.com/webraybtl/CVE-2023-40031)
-
-### CVE-2023-40044 (2023-09-27)
-
-<code>\nIn WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer module to execute remote commands on the underlying WS_FTP Server operating system.  \n\n
-</code>
-
-- [kenbuckler/WS_FTP-CVE-2023-40044](https://github.com/kenbuckler/WS_FTP-CVE-2023-40044)
 
 ### CVE-2023-40294 (2023-08-13)
 
@@ -4739,13 +4699,6 @@
 
 - [sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension](https://github.com/sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension)
 
-### CVE-2023-43654 (2023-09-28)
-
-<code>TorchServe is a tool for serving and scaling PyTorch models in production. TorchServe default configuration lacks proper input validation, enabling third parties to invoke remote HTTP download requests and write files to the disk. This issue could be taken advantage of to compromise the integrity of the system and sensitive data. This issue is present in versions 0.1.0 to 0.8.1. A user is able to load the model of their choice from any URL that they would like to use. The user of TorchServe is responsible for configuring both the allowed_urls and specifying the model URL to be used. A pull request to warn the user when the default value for allowed_urls is used has been merged in PR #2534. TorchServe release 0.8.2 includes this change. Users are advised to upgrade. There are no known workarounds for this issue.
-</code>
-
-- [OligoCyberSecurity/ShellTorchChecker](https://github.com/OligoCyberSecurity/ShellTorchChecker)
-
 ### CVE-2023-43770 (2023-09-22)
 
 <code>Roundcube before 1.4.14, 1.5.x before 1.5.4, and 1.6.x before 1.6.3 allows XSS via text/plain e-mail messages with crafted links because of program/lib/Roundcube/rcube_string_replacer.php behavior.
@@ -4767,13 +4720,6 @@
 </code>
 
 - [JawadPy/CVE-2023-43804-Exploit](https://github.com/JawadPy/CVE-2023-43804-Exploit)
-
-### CVE-2023-43838 (2023-10-04)
-
-<code>An arbitrary file upload vulnerability in Personal Management System v1.4.64 allows attackers to execute arbitrary code via uploading a crafted SVG file into a user profile's avatar.
-</code>
-
-- [rootd4ddy/CVE-2023-43838](https://github.com/rootd4ddy/CVE-2023-43838)
 
 ### CVE-2023-43871 (2023-09-28)
 
@@ -5314,6 +5260,9 @@
 
 - [nitipoom-jar/CVE-2023-48031](https://github.com/nitipoom-jar/CVE-2023-48031)
 
+### CVE-2023-48034
+- [aprkr/CVE-2023-48034](https://github.com/aprkr/CVE-2023-48034)
+
 ### CVE-2023-48123
 - [NHPT/CVE-2023-48123](https://github.com/NHPT/CVE-2023-48123)
 
@@ -5637,7 +5586,6 @@
 - [cont3mpt/CVE-2022-0847](https://github.com/cont3mpt/CVE-2022-0847)
 - [notl0cal/dpipe](https://github.com/notl0cal/dpipe)
 - [Gustavo-Nogueira/Dirty-Pipe-Exploits](https://github.com/Gustavo-Nogueira/Dirty-Pipe-Exploits)
-- [b4dboy17/Dirty-Pipe-Oneshot](https://github.com/b4dboy17/Dirty-Pipe-Oneshot)
 - [edsonjt81/CVE-2022-0847-DirtyPipe-](https://github.com/edsonjt81/CVE-2022-0847-DirtyPipe-)
 - [Turzum/ps-lab-cve-2022-0847](https://github.com/Turzum/ps-lab-cve-2022-0847)
 - [qwert419/linux-](https://github.com/qwert419/linux-)
@@ -6089,7 +6037,6 @@
 <code>A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.6, 15.2 to 15.2.4, 15.3 to 15.3.2 allows an authenticated user to achieve remote code execution via the Import from GitHub API endpoint.
 </code>
 
-- [CsEnox/CVE-2022-2992](https://github.com/CsEnox/CVE-2022-2992)
 - [Malwareman007/CVE-2022-2992](https://github.com/Malwareman007/CVE-2022-2992)
 
 ### CVE-2022-3168
@@ -6762,7 +6709,6 @@
 
 - [0vercl0k/CVE-2022-21971](https://github.com/0vercl0k/CVE-2022-21971)
 - [tufanturhan/CVE-2022-21971-Windows-Runtime-RCE](https://github.com/tufanturhan/CVE-2022-21971-Windows-Runtime-RCE)
-- [Malwareman007/CVE-2022-21971](https://github.com/Malwareman007/CVE-2022-21971)
 
 ### CVE-2022-21974 (2022-02-09)
 
@@ -8061,7 +8007,6 @@
 - [keven1z/CVE-2022-26134](https://github.com/keven1z/CVE-2022-26134)
 - [shiftsansan/CVE-2022-26134-Console](https://github.com/shiftsansan/CVE-2022-26134-Console)
 - [1337in/CVE-2022-26134web](https://github.com/1337in/CVE-2022-26134web)
-- [skhalsa-sigsci/CVE-2022-26134-LAB](https://github.com/skhalsa-sigsci/CVE-2022-26134-LAB)
 - [yigexioabai/CVE-2022-26134-cve1](https://github.com/yigexioabai/CVE-2022-26134-cve1)
 - [kailing0220/CVE-2022-26134](https://github.com/kailing0220/CVE-2022-26134)
 - [xanszZZ/ATLASSIAN-Confluence_rce](https://github.com/xanszZZ/ATLASSIAN-Confluence_rce)
@@ -8241,7 +8186,6 @@
 
 - [corelight/CVE-2022-26937](https://github.com/corelight/CVE-2022-26937)
 - [omair2084/CVE-2022-26937](https://github.com/omair2084/CVE-2022-26937)
-- [Malwareman007/CVE-2022-26937](https://github.com/Malwareman007/CVE-2022-26937)
 
 ### CVE-2022-26965 (2022-03-18)
 
@@ -8955,7 +8899,6 @@
 - [EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-](https://github.com/EkamSinghWalia/Follina-MSDT-Vulnerability-CVE-2022-30190-)
 - [jeffreybxu/five-nights-at-follina-s](https://github.com/jeffreybxu/five-nights-at-follina-s)
 - [winstxnhdw/CVE-2022-30190](https://github.com/winstxnhdw/CVE-2022-30190)
-- [Imeneallouche/Follina-attack-CVE-2022-30190-](https://github.com/Imeneallouche/Follina-attack-CVE-2022-30190-)
 - [mattjmillner/CVE-Smackdown](https://github.com/mattjmillner/CVE-Smackdown)
 - [0xAbbarhSF/FollinaXploit](https://github.com/0xAbbarhSF/FollinaXploit)
 - [michealadams30/Cve-2022-30190](https://github.com/michealadams30/Cve-2022-30190)
@@ -9275,13 +9218,6 @@
 
 - [IbrahimEkimIsik/CVE-2022-31403](https://github.com/IbrahimEkimIsik/CVE-2022-31403)
 
-### CVE-2022-31479 (2022-06-06)
-
-<code>An unauthenticated attacker can update the hostname with a specially crafted name that will allow for shell commands to be executed during the core collection process. This vulnerability impacts products based on HID Mercury Intelligent Controllers LP1501, LP1502, LP2500, LP4502, and EP4502 which contain firmware versions prior to 1.302 for the LP series and 1.296 for the EP series. An attacker with this level of access on the device can monitor all communications sent to and from this device, modify onboard relays, change configuration files, or cause the device to become unstable. The injected commands only get executed during start up or when unsafe calls regarding the hostname are used. This allows the attacker to gain remote access to the device and can make their persistence permanent by modifying the filesystem.
-</code>
-
-- [realyme/CVE-2022-31479-test](https://github.com/realyme/CVE-2022-31479-test)
-
 ### CVE-2022-31499 (2022-08-25)
 
 <code>Nortek Linear eMerge E3-Series devices before 0.32-08f allow an unauthenticated attacker to inject OS commands via ReaderNo. NOTE: this issue exists because of an incomplete fix for CVE-2019-7256.
@@ -9295,13 +9231,6 @@
 </code>
 
 - [amitlttwo/CVE-2022-31626](https://github.com/amitlttwo/CVE-2022-31626)
-
-### CVE-2022-31629 (2022-09-28)
-
-<code>In PHP versions before 7.4.31, 8.0.24 and 8.1.11, the vulnerability enables network and same-site attackers to set a standard insecure cookie in the victim's browser which is treated as a `__Host-` or `__Secure-` cookie by PHP applications.
-</code>
-
-- [silnex/CVE-2022-31629-poc](https://github.com/silnex/CVE-2022-31629-poc)
 
 ### CVE-2022-31691 (2022-11-04)
 
@@ -9661,13 +9590,6 @@
 
 - [Starssgo/CVE-2022-34715-POC](https://github.com/Starssgo/CVE-2022-34715-POC)
 
-### CVE-2022-34718 (2022-09-13)
-
-<code>Windows TCP/IP Remote Code Execution Vulnerability
-</code>
-
-- [SecLabResearchBV/CVE-2022-34718-PoC](https://github.com/SecLabResearchBV/CVE-2022-34718-PoC)
-
 ### CVE-2022-34729 (2022-09-13)
 
 <code>Windows GDI Elevation of Privilege Vulnerability
@@ -9819,8 +9741,6 @@
 </code>
 
 - [cosad3s/CVE-2022-35914-poc](https://github.com/cosad3s/CVE-2022-35914-poc)
-- [Lzer0Kx01/CVE-2022-35914](https://github.com/Lzer0Kx01/CVE-2022-35914)
-- [6E6L6F/CVE-2022-35914](https://github.com/6E6L6F/CVE-2022-35914)
 - [0xGabe/CVE-2022-35914](https://github.com/0xGabe/CVE-2022-35914)
 - [Johnermac/CVE-2022-35914](https://github.com/Johnermac/CVE-2022-35914)
 
@@ -9947,7 +9867,6 @@
 - [vj4336/CVE-2022-36804-ReverseShell](https://github.com/vj4336/CVE-2022-36804-ReverseShell)
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
 - [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
-- [ColdFusionX/CVE-2022-36804](https://github.com/ColdFusionX/CVE-2022-36804)
 - [Jhonsonwannaa/CVE-2022-36804](https://github.com/Jhonsonwannaa/CVE-2022-36804)
 - [devengpk/CVE-2022-36804](https://github.com/devengpk/CVE-2022-36804)
 - [walnutsecurity/cve-2022-36804](https://github.com/walnutsecurity/cve-2022-36804)
@@ -10223,7 +10142,6 @@
 - [lovechoudoufu/about_cobaltstrike4.5_cdf](https://github.com/lovechoudoufu/about_cobaltstrike4.5_cdf)
 - [burpheart/CVE-2022-39197-patch](https://github.com/burpheart/CVE-2022-39197-patch)
 - [hluwa/cobaltstrike_swing_xss2rce](https://github.com/hluwa/cobaltstrike_swing_xss2rce)
-- [4nth0ny1130/CVE-2022-39197-fix_patch](https://github.com/4nth0ny1130/CVE-2022-39197-fix_patch)
 - [its-arun/CVE-2022-39197](https://github.com/its-arun/CVE-2022-39197)
 - [TheCryingGame/CVE-2022-39197-RCE](https://github.com/TheCryingGame/CVE-2022-39197-RCE)
 - [adeljck/CVE-2022-39197](https://github.com/adeljck/CVE-2022-39197)
@@ -10286,13 +10204,6 @@
 - [Chocapikk/CVE-2022-39952](https://github.com/Chocapikk/CVE-2022-39952)
 - [dkstar11q/CVE-2022-39952-better](https://github.com/dkstar11q/CVE-2022-39952-better)
 
-### CVE-2022-39959 (2022-10-07)
-
-<code>Panini Everest Engine 2.0.4 allows unprivileged users to create a file named Everest.exe in the %PROGRAMDATA%\Panini folder. This leads to privilege escalation because a service, running as SYSTEM, uses the unquoted path of %PROGRAMDATA%\Panini\Everest Engine\EverestEngine.exe and therefore a Trojan horse %PROGRAMDATA%\Panini\Everest.exe may be executed instead of the intended vendor-supplied EverestEngine.exe file.
-</code>
-
-- [usmarine2141/CVE-2022-39959](https://github.com/usmarine2141/CVE-2022-39959)
-
 ### CVE-2022-39986 (2023-08-01)
 
 <code>A Command injection vulnerability in RaspAP 2.8.0 thru 2.8.7 allows unauthenticated attackers to execute arbitrary commands via the cfg_id parameter in /ajax/openvpn/activate_ovpncfg.php and /ajax/openvpn/del_ovpncfg.php.
@@ -10328,7 +10239,6 @@
 <code>An origin validation error vulnerability in Trend Micro Apex One and Apex One as a Service could allow a local attacker to cause a denial-of-service on affected installations. Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.
 </code>
 
-- [mr-r3b00t/NotProxyShellHunter](https://github.com/mr-r3b00t/NotProxyShellHunter)
 - [ZephrFish/NotProxyShellScanner](https://github.com/ZephrFish/NotProxyShellScanner)
 - [ipsBruno/CVE-2022-40140-SCANNER](https://github.com/ipsBruno/CVE-2022-40140-SCANNER)
 
@@ -10485,11 +10395,7 @@
 </code>
 
 - [numanturle/CVE-2022-41040](https://github.com/numanturle/CVE-2022-41040)
-- [CentarisCyber/CVE-2022-41040_Mitigation](https://github.com/CentarisCyber/CVE-2022-41040_Mitigation)
-- [r3dcl1ff/CVE-2022-41040](https://github.com/r3dcl1ff/CVE-2022-41040)
-- [d3duct1v/CVE-2022-41040](https://github.com/d3duct1v/CVE-2022-41040)
 - [kljunowsky/CVE-2022-41040-POC](https://github.com/kljunowsky/CVE-2022-41040-POC)
-- [rjsudlow/proxynotshell-IOC-Checker](https://github.com/rjsudlow/proxynotshell-IOC-Checker)
 - [ITPATJIDR/CVE-2022-41040](https://github.com/ITPATJIDR/CVE-2022-41040)
 - [TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell](https://github.com/TaroballzChen/CVE-2022-41040-metasploit-ProxyNotShell)
 
@@ -10584,7 +10490,6 @@
 <code>An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavis via a cpio loophole (extraction to /opt/zimbra/jetty/webapps/zimbra/public) that can lead to incorrect access to any other user accounts. Zimbra recommends pax over cpio. Also, pax is in the prerequisites of Zimbra on Ubuntu; however, pax is no longer part of a default Red Hat installation after RHEL 6 (or CentOS 6). Once pax is installed, amavis automatically prefers it over cpio.
 </code>
 
-- [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 - [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
 - [aryrz/cve-2022-41352-zimbra-rce](https://github.com/aryrz/cve-2022-41352-zimbra-rce)
 
@@ -10869,13 +10774,6 @@
 </code>
 
 - [RashidKhanPathan/CVE-2022-43117](https://github.com/RashidKhanPathan/CVE-2022-43117)
-
-### CVE-2022-43143 (2022-11-21)
-
-<code>A cross-site scripting (XSS) vulnerability in Beekeeper Studio v3.6.6 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the error modal container.
-</code>
-
-- [goseungduk/beekeeper](https://github.com/goseungduk/beekeeper)
 
 ### CVE-2022-43144 (2022-11-08)
 
@@ -23898,6 +23796,7 @@
 - [ludy-dev/Oracle-WLS-Weblogic-RCE](https://github.com/ludy-dev/Oracle-WLS-Weblogic-RCE)
 - [1stPeak/CVE-2019-2725-environment](https://github.com/1stPeak/CVE-2019-2725-environment)
 - [CalegariMindSec/Exploit-CVE-2019-2725](https://github.com/CalegariMindSec/Exploit-CVE-2019-2725)
+- [Kamiya767/CVE-2019-2725](https://github.com/Kamiya767/CVE-2019-2725)
 
 ### CVE-2019-2729 (2019-06-19)
 
