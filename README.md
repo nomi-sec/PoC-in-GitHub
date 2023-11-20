@@ -5179,6 +5179,7 @@
 - [LiritoShawshark/CVE-2023-46604_ActiveMQ_RCE_Recurrence](https://github.com/LiritoShawshark/CVE-2023-46604_ActiveMQ_RCE_Recurrence)
 - [NKeshawarz/CVE-2023-46604-RCE](https://github.com/NKeshawarz/CVE-2023-46604-RCE)
 - [minhangxiaohui/ActiveMQ_CVE-2023-46604](https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604)
+- [nitzanoligo/CVE-2023-46604-demo](https://github.com/nitzanoligo/CVE-2023-46604-demo)
 
 ### CVE-2023-46747 (2023-10-26)
 
@@ -16544,6 +16545,7 @@
 - [0xGabe/Apache-CVEs](https://github.com/0xGabe/Apache-CVEs)
 - [OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits](https://github.com/OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits)
 - [belajarqywok/CVE-2021-41773-MSF](https://github.com/belajarqywok/CVE-2021-41773-MSF)
+- [Iris288/CVE-2021-41773](https://github.com/Iris288/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -17650,7 +17652,6 @@
 - [MrHarshvardhan/PY-Log4j-RCE-Scanner](https://github.com/MrHarshvardhan/PY-Log4j-RCE-Scanner)
 - [Muhammad-Ali007/Log4j_CVE-2021-44228](https://github.com/Muhammad-Ali007/Log4j_CVE-2021-44228)
 - [Tai-e/CVE-2021-44228](https://github.com/Tai-e/CVE-2021-44228)
-- [roshanshibu/Odysseus](https://github.com/roshanshibu/Odysseus)
 - [LucasPDiniz/CVE-2021-44228](https://github.com/LucasPDiniz/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
@@ -24756,6 +24757,7 @@
 - [kahluri/CVE-2019-9053](https://github.com/kahluri/CVE-2019-9053)
 - [Doc0x1/CVE-2019-9053-Python3](https://github.com/Doc0x1/CVE-2019-9053-Python3)
 - [fernandobortotti/CVE-2019-9053](https://github.com/fernandobortotti/CVE-2019-9053)
+- [byrek/CVE-2019-9053](https://github.com/byrek/CVE-2019-9053)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
@@ -29894,6 +29896,13 @@
 
 - [Luct0r/CVE-2018-17873](https://github.com/Luct0r/CVE-2018-17873)
 
+### CVE-2018-17924 (2018-12-07)
+
+<code>Rockwell Automation MicroLogix 1400 Controllers and 1756 ControlLogix Communications Modules An unauthenticated, remote threat actor could send a CIP connection request to an affected device, and upon successful connection, send a new IP configuration to the affected device even if the controller in the system is set to Hard RUN mode. When the affected device accepts this new IP configuration, a loss of communication occurs between the device and the rest of the system as the system traffic is still attempting to communicate with the device via the overwritten IP address.
+</code>
+
+- [g0dd0ghd/CVE-2018-17924](https://github.com/g0dd0ghd/CVE-2018-17924)
+
 ### CVE-2018-17961 (2018-10-15)
 
 <code>Artifex Ghostscript 9.25 and earlier allows attackers to bypass a sandbox protection mechanism via vectors involving errorhandler setup. NOTE: this issue exists because of an incomplete fix for CVE-2018-17183.
@@ -33935,6 +33944,7 @@
 </code>
 
 - [artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc)
+- [tina94happy/Spring-Web-5xx-Mitigated-version](https://github.com/tina94happy/Spring-Web-5xx-Mitigated-version)
 
 
 ## 2015
