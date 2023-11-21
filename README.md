@@ -404,7 +404,7 @@
 
 - [RandomRobbieBF/CVE-2023-2732](https://github.com/RandomRobbieBF/CVE-2023-2732)
 - [Jenderal92/WP-CVE-2023-2732](https://github.com/Jenderal92/WP-CVE-2023-2732)
-- [Pari-Malam/CVE-2023-2732](https://github.com/Pari-Malam/CVE-2023-2732)
+- [ThatNotEasy/CVE-2023-2732](https://github.com/ThatNotEasy/CVE-2023-2732)
 
 ### CVE-2023-2822 (2023-05-20)
 
@@ -1040,6 +1040,13 @@
 - [miko550/CVE-2023-20887](https://github.com/miko550/CVE-2023-20887)
 - [Malwareman007/CVE-2023-20887](https://github.com/Malwareman007/CVE-2023-20887)
 
+### CVE-2023-20911 (2023-03-24)
+
+<code>In addPermission of PermissionManagerServiceImpl.java , there is a possible failure to persist permission settings due to resource exhaustion. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-242537498
+</code>
+
+- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20911](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20911)
+
 ### CVE-2023-20918 (2023-07-12)
 
 <code>In getPendingIntentLaunchFlags of ActivityOptions.java, there is a possible elevation of privilege due to a confused deputy with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
@@ -1588,7 +1595,7 @@
 - [0xNahim/CVE-2023-23752](https://github.com/0xNahim/CVE-2023-23752)
 - [adhikara13/CVE-2023-23752](https://github.com/adhikara13/CVE-2023-23752)
 - [AkbarWiraN/Joomla-Scanner](https://github.com/AkbarWiraN/Joomla-Scanner)
-- [Pari-Malam/CVE-2023-23752](https://github.com/Pari-Malam/CVE-2023-23752)
+- [ThatNotEasy/CVE-2023-23752](https://github.com/ThatNotEasy/CVE-2023-23752)
 - [wibuheker/Joomla-CVE-2023-23752](https://github.com/wibuheker/Joomla-CVE-2023-23752)
 - [Sweelg/CVE-2023-23752](https://github.com/Sweelg/CVE-2023-23752)
 - [MrP4nda1337/CVE-2023-23752](https://github.com/MrP4nda1337/CVE-2023-23752)
@@ -2000,7 +2007,7 @@
 - [0ximan1337/CVE-2023-27350-POC](https://github.com/0ximan1337/CVE-2023-27350-POC)
 - [horizon3ai/CVE-2023-27350](https://github.com/horizon3ai/CVE-2023-27350)
 - [adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350)
-- [Pari-Malam/CVE-2023-27350](https://github.com/Pari-Malam/CVE-2023-27350)
+- [ThatNotEasy/CVE-2023-27350](https://github.com/ThatNotEasy/CVE-2023-27350)
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
 
 ### CVE-2023-27363
@@ -2017,7 +2024,7 @@
 - [Chocapikk/CVE-2023-27372](https://github.com/Chocapikk/CVE-2023-27372)
 - [0SPwn/CVE-2023-27372-PoC](https://github.com/0SPwn/CVE-2023-27372-PoC)
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
-- [Pari-Malam/CVE-2023-27372](https://github.com/Pari-Malam/CVE-2023-27372)
+- [ThatNotEasy/CVE-2023-27372](https://github.com/ThatNotEasy/CVE-2023-27372)
 - [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
 
 ### CVE-2023-27470 (2023-09-11)
@@ -2036,7 +2043,7 @@
 - [Okaytc/Superset_auth_bypass_check](https://github.com/Okaytc/Superset_auth_bypass_check)
 - [antx-code/CVE-2023-27524](https://github.com/antx-code/CVE-2023-27524)
 - [MaanVader/CVE-2023-27524-POC](https://github.com/MaanVader/CVE-2023-27524-POC)
-- [Pari-Malam/CVE-2023-27524](https://github.com/Pari-Malam/CVE-2023-27524)
+- [ThatNotEasy/CVE-2023-27524](https://github.com/ThatNotEasy/CVE-2023-27524)
 - [TardC/CVE-2023-27524](https://github.com/TardC/CVE-2023-27524)
 - [necroteddy/CVE-2023-27524](https://github.com/necroteddy/CVE-2023-27524)
 - [jakabakos/CVE-2023-27524-Apache-Superset-Auth-Bypass-and-RCE](https://github.com/jakabakos/CVE-2023-27524-Apache-Superset-Auth-Bypass-and-RCE)
@@ -2876,7 +2883,7 @@
 - [tangxiaofeng7/CVE-2023-32315-Openfire-Bypass](https://github.com/tangxiaofeng7/CVE-2023-32315-Openfire-Bypass)
 - [5rGJ5aCh5oCq5YW9/CVE-2023-32315exp](https://github.com/5rGJ5aCh5oCq5YW9/CVE-2023-32315exp)
 - [miko550/CVE-2023-32315](https://github.com/miko550/CVE-2023-32315)
-- [Pari-Malam/CVE-2023-32315](https://github.com/Pari-Malam/CVE-2023-32315)
+- [ThatNotEasy/CVE-2023-32315](https://github.com/ThatNotEasy/CVE-2023-32315)
 - [izzz0/CVE-2023-32315-POC](https://github.com/izzz0/CVE-2023-32315-POC)
 - [gibran-abdillah/CVE-2023-32315](https://github.com/gibran-abdillah/CVE-2023-32315)
 - [CN016/Openfire-RCE-CVE-2023-32315-](https://github.com/CN016/Openfire-RCE-CVE-2023-32315-)
@@ -2921,7 +2928,7 @@
 <code>Dynamic Linq 1.0.7.10 through 1.2.25 before 1.3.0 allows attackers to execute arbitrary code and commands when untrusted input to methods including Where, Select, OrderBy is parsed.
 </code>
 
-- [Tris0n/CVE-2023-32571-POC](https://github.com/Tris0n/CVE-2023-32571-POC)
+- [vert16x/CVE-2023-32571-POC](https://github.com/vert16x/CVE-2023-32571-POC)
 
 ### CVE-2023-32629 (2023-07-25)
 
@@ -3412,7 +3419,7 @@
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
 - [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
 - [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
-- [Pari-Malam/CVE-2023-34960](https://github.com/Pari-Malam/CVE-2023-34960)
+- [ThatNotEasy/CVE-2023-34960](https://github.com/ThatNotEasy/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
 - [tucommenceapousser/CVE-2023-34960-ex](https://github.com/tucommenceapousser/CVE-2023-34960-ex)
 
@@ -3705,7 +3712,7 @@
 </code>
 
 - [watchtowrlabs/juniper-rce_cve-2023-36844](https://github.com/watchtowrlabs/juniper-rce_cve-2023-36844)
-- [Pari-Malam/CVE-2023-36844](https://github.com/Pari-Malam/CVE-2023-36844)
+- [ThatNotEasy/CVE-2023-36844](https://github.com/ThatNotEasy/CVE-2023-36844)
 - [r3dcl1ff/CVE-2023-36844_Juniper_RCE](https://github.com/r3dcl1ff/CVE-2023-36844_Juniper_RCE)
 
 ### CVE-2023-36845 (2023-08-17)
@@ -8729,7 +8736,7 @@
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
 - [devengpk/CVE-2022-29464](https://github.com/devengpk/CVE-2022-29464)
-- [Pari-Malam/CVE-2022-29464](https://github.com/Pari-Malam/CVE-2022-29464)
+- [ThatNotEasy/CVE-2022-29464](https://github.com/ThatNotEasy/CVE-2022-29464)
 - [Pushkarup/CVE-2022-29464](https://github.com/Pushkarup/CVE-2022-29464)
 - [SynixCyberCrimeMy/CVE-2022-29464](https://github.com/SynixCyberCrimeMy/CVE-2022-29464)
 
@@ -17663,6 +17670,7 @@
 - [Muhammad-Ali007/Log4j_CVE-2021-44228](https://github.com/Muhammad-Ali007/Log4j_CVE-2021-44228)
 - [Tai-e/CVE-2021-44228](https://github.com/Tai-e/CVE-2021-44228)
 - [LucasPDiniz/CVE-2021-44228](https://github.com/LucasPDiniz/CVE-2021-44228)
+- [felixslama/log4shell-minecraft-demo](https://github.com/felixslama/log4shell-minecraft-demo)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -28084,7 +28092,6 @@
 - [jeyaseelans86/new-CVE-2018-6574](https://github.com/jeyaseelans86/new-CVE-2018-6574)
 - [chr1sM/CVE-2018-6574](https://github.com/chr1sM/CVE-2018-6574)
 - [mux0x/CVE-2018-6574](https://github.com/mux0x/CVE-2018-6574)
-- [cristiandrami/pentesterlab_CVE-2018-6574](https://github.com/cristiandrami/pentesterlab_CVE-2018-6574)
 - [antunesmpedro/CVE-2018-6574](https://github.com/antunesmpedro/CVE-2018-6574)
 - [Yealid/CVE-2018-6574](https://github.com/Yealid/CVE-2018-6574)
 - [jahwni/CVE-2018-6574](https://github.com/jahwni/CVE-2018-6574)
