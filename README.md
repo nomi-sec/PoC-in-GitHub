@@ -974,7 +974,6 @@
 </code>
 
 - [Wh04m1001/CVE-2023-20178](https://github.com/Wh04m1001/CVE-2023-20178)
-- [XalfiE/CVE-2023-20178_](https://github.com/XalfiE/CVE-2023-20178_)
 
 ### CVE-2023-20198 (2023-10-16)
 
@@ -17138,6 +17137,7 @@
 - [nuker/CVE-2021-43798](https://github.com/nuker/CVE-2021-43798)
 - [victorhorowitz/grafana-exploit-CVE-2021-43798](https://github.com/victorhorowitz/grafana-exploit-CVE-2021-43798)
 - [katseyres2/CVE-2021-43798](https://github.com/katseyres2/CVE-2021-43798)
+- [Iris288/CVE-2021-43798](https://github.com/Iris288/CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
