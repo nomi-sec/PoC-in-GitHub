@@ -1561,6 +1561,13 @@
 
 - [DarthOCE/MonkeyJB](https://github.com/DarthOCE/MonkeyJB)
 
+### CVE-2023-23583 (2023-11-14)
+
+<code>Sequence of processor instructions leads to unexpected behavior for some Intel(R) Processors may allow an authenticated user to potentially enable escalation of privilege and/or information disclosure and/or denial of service via local access.
+</code>
+
+- [Mav3r1ck0x1/CVE-2023-23583-Reptar-](https://github.com/Mav3r1ck0x1/CVE-2023-23583-Reptar-)
+
 ### CVE-2023-23638 (2023-03-08)
 
 <code>A deserialization vulnerability existed when dubbo generic invoke, which could lead to malicious code execution. This issue affects Apache Dubbo 2.7.x version 2.7.21 and prior versions; Apache Dubbo 3.0.x version 3.0.13 and prior versions; Apache Dubbo 3.1.x version 3.1.5 and prior versions.
@@ -4607,7 +4614,7 @@
 
 ### CVE-2023-43284 (2023-10-05)
 
-<code>An issue in D-Link Wireless MU-MIMO Gigabit AC1200 Router DIR-846 firmware version 100A53DBR-Retail allows a remote attacker to execute arbitrary code.
+<code>D-Link Wireless MU-MIMO Gigabit AC1200 Router DIR-846 100A53DBR-Retail devices allow an authenticated remote attacker to execute arbitrary code via an unspecified manipulation of the QoS POST parameter.
 </code>
 
 - [MateusTesser/CVE-2023-43284](https://github.com/MateusTesser/CVE-2023-43284)
@@ -5238,7 +5245,11 @@
 
 - [soy-oreocato/CVE-2023-46998](https://github.com/soy-oreocato/CVE-2023-46998)
 
-### CVE-2023-47014
+### CVE-2023-47014 (-)
+
+<code>A Cross-Site Request Forgery (CSRF) vulnerability in Sourcecodester Sticky Notes App Using PHP with Source Code v.1.0 allows a local attacker to obtain sensitive information via a crafted payload to add-note.php.
+</code>
+
 - [emirhanerdogu/CVE-2023-47014-Sticky-Notes-App-Using-PHP-with-Source-Code-v1.0-CSRF-to-CORS](https://github.com/emirhanerdogu/CVE-2023-47014-Sticky-Notes-App-Using-PHP-with-Source-Code-v1.0-CSRF-to-CORS)
 
 ### CVE-2023-47102 (2023-11-07)
@@ -5281,6 +5292,9 @@
 - [W01fh4cker/CVE-2023-47246-EXP](https://github.com/W01fh4cker/CVE-2023-47246-EXP)
 - [rainbowhatrkn/CVE-2023-47246](https://github.com/rainbowhatrkn/CVE-2023-47246)
 - [tucommenceapousser/CVE-2023-47246](https://github.com/tucommenceapousser/CVE-2023-47246)
+
+### CVE-2023-47437
+- [herombey/CVE-2023-47437](https://github.com/herombey/CVE-2023-47437)
 
 ### CVE-2023-47459
 - [aleksey-vi/CVE-2023-47459](https://github.com/aleksey-vi/CVE-2023-47459)
@@ -5362,6 +5376,13 @@
 </code>
 
 - [nitipoom-jar/CVE-2023-48200](https://github.com/nitipoom-jar/CVE-2023-48200)
+
+### CVE-2023-49103 (2023-11-21)
+
+<code>An issue was discovered in ownCloud owncloud/graphapi 0.2.x before 0.2.1 and 0.3.x before 0.3.1. The graphapi app relies on a third-party GetPhpInfo.php library that provides a URL. When this URL is accessed, it reveals the configuration details of the PHP environment (phpinfo). This information includes all the environment variables of the webserver. In containerized deployments, these environment variables may include sensitive data such as the ownCloud admin password, mail server credentials, and license key. Simply disabling the graphapi app does not eliminate the vulnerability. Additionally, phpinfo exposes various other potentially sensitive configuration details that could be exploited by an attacker to gather information about the system. Therefore, even if ownCloud is not running in a containerized environment, this vulnerability should still be a cause for concern. Note that Docker containers from before February 2023 are not vulnerable to the credential disclosure.
+</code>
+
+- [creacitysec/CVE-2023-49103](https://github.com/creacitysec/CVE-2023-49103)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
