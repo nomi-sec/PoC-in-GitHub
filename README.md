@@ -1672,7 +1672,7 @@
 - [Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488)
 - [securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488)
 - [NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule)
-- [LazyySec/CVE-2023-24488](https://github.com/LazyySec/CVE-2023-24488)
+- [lazysec0x21/CVE-2023-24488](https://github.com/lazysec0x21/CVE-2023-24488)
 
 ### CVE-2023-24489 (2023-07-10)
 
@@ -3445,7 +3445,7 @@
 
 - [vchan-in/CVE-2023-35078-Exploit-POC](https://github.com/vchan-in/CVE-2023-35078-Exploit-POC)
 - [lager1/CVE-2023-35078](https://github.com/lager1/CVE-2023-35078)
-- [LazyySec/CVE-2023-35078](https://github.com/LazyySec/CVE-2023-35078)
+- [lazysec0x21/CVE-2023-35078](https://github.com/lazysec0x21/CVE-2023-35078)
 - [synfinner/CVE-2023-35078](https://github.com/synfinner/CVE-2023-35078)
 - [emanueldosreis/nmap-CVE-2023-35078-Exploit](https://github.com/emanueldosreis/nmap-CVE-2023-35078-Exploit)
 - [Blue-number/CVE-2023-35078](https://github.com/Blue-number/CVE-2023-35078)
@@ -4031,7 +4031,7 @@
 - [Chocapikk/CVE-2023-38646](https://github.com/Chocapikk/CVE-2023-38646)
 - [Xuxfff/CVE-2023-38646-Poc](https://github.com/Xuxfff/CVE-2023-38646-Poc)
 - [securezeron/CVE-2023-38646](https://github.com/securezeron/CVE-2023-38646)
-- [LazyySec/CVE-2023-38646](https://github.com/LazyySec/CVE-2023-38646)
+- [lazysec0x21/CVE-2023-38646](https://github.com/lazysec0x21/CVE-2023-38646)
 - [Zenmovie/CVE-2023-38646](https://github.com/Zenmovie/CVE-2023-38646)
 - [shamo0/CVE-2023-38646-PoC](https://github.com/shamo0/CVE-2023-38646-PoC)
 - [fidjiw/CVE-2023-38646-POC](https://github.com/fidjiw/CVE-2023-38646-POC)
@@ -21958,7 +21958,6 @@
 
 - [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
-- [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
 - [ludy-dev/freemarker_RCE_struts2_s2-061](https://github.com/ludy-dev/freemarker_RCE_struts2_s2-061)
 - [CyborgSecurity/CVE-2020-17530](https://github.com/CyborgSecurity/CVE-2020-17530)
@@ -22772,7 +22771,6 @@
 - [ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go](https://github.com/ExploitBox/git-lfs-RCE-exploit-CVE-2020-27955-Go)
 - [yhsung/cve-2020-27955-poc](https://github.com/yhsung/cve-2020-27955-poc)
 - [r00t4dm/CVE-2020-27955](https://github.com/r00t4dm/CVE-2020-27955)
-- [williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell](https://github.com/williamgoulois/git-lfs-RCE-exploit-CVE-2020-27955-revshell)
 - [shubham0d/CVE-2020-27955](https://github.com/shubham0d/CVE-2020-27955)
 - [TheTh1nk3r/cve-2020-27955](https://github.com/TheTh1nk3r/cve-2020-27955)
 - [NeoDarwin/CVE-2020-27955](https://github.com/NeoDarwin/CVE-2020-27955)
@@ -36424,13 +36422,6 @@
 
 - [jan0/isslfix](https://github.com/jan0/isslfix)
 
-### CVE-2011-1237 (2011-04-13)
-
-<code>Use-after-free vulnerability in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 allows local users to gain privileges via a crafted application that leverages incorrect driver object management, a different vulnerability than other &quot;Vulnerability Type 1&quot; CVEs listed in MS11-034, aka &quot;Win32k Use After Free Vulnerability.&quot;
-</code>
-
-- [BrunoPujos/CVE-2011-1237](https://github.com/BrunoPujos/CVE-2011-1237)
-
 ### CVE-2011-1249 (2011-06-16)
 
 <code>The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka &quot;Ancillary Function Driver Elevation of Privilege Vulnerability.&quot;
@@ -36535,7 +36526,6 @@
 </code>
 
 - [tkisason/KillApachePy](https://github.com/tkisason/KillApachePy)
-- [limkokholefork/CVE-2011-3192](https://github.com/limkokholefork/CVE-2011-3192)
 - [stcmjp/cve-2011-3192](https://github.com/stcmjp/cve-2011-3192)
 - [futurezayka/CVE-2011-3192](https://github.com/futurezayka/CVE-2011-3192)
 
@@ -36544,7 +36534,6 @@
 <code>The mod_proxy module in the Apache HTTP Server 1.3.x through 1.3.42, 2.0.x through 2.0.64, and 2.2.x through 2.2.21 does not properly interact with use of (1) RewriteRule and (2) ProxyPassMatch pattern matches for configuration of a reverse proxy, which allows remote attackers to send requests to intranet servers via a malformed URI containing an initial @ (at sign) character.
 </code>
 
-- [SECFORCE/CVE-2011-3368](https://github.com/SECFORCE/CVE-2011-3368)
 - [colorblindpentester/CVE-2011-3368](https://github.com/colorblindpentester/CVE-2011-3368)
 
 ### CVE-2011-3389 (2011-09-06)
@@ -36567,13 +36556,6 @@
 </code>
 
 - [puppetlabs-toy-chest/puppetlabs-cve20113872](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872)
-
-### CVE-2011-4107 (2011-11-17)
-
-<code>The simplexml_load_string function in the XML import plug-in (libraries/import/xml.php) in phpMyAdmin 3.4.x before 3.4.7.1 and 3.3.x before 3.3.10.5 allows remote authenticated users to read arbitrary files via XML data containing external entity references, aka an XML external entity (XXE) injection attack.
-</code>
-
-- [SECFORCE/CVE-2011-4107](https://github.com/SECFORCE/CVE-2011-4107)
 
 ### CVE-2011-4862 (2011-12-24)
 
