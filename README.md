@@ -3968,6 +3968,7 @@
 <code>The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.
 </code>
 
+- [snowcra5h/CVE-2023-38408](https://github.com/snowcra5h/CVE-2023-38408)
 - [kali-mx/CVE-2023-38408](https://github.com/kali-mx/CVE-2023-38408)
 - [LucasPDiniz/CVE-2023-38408](https://github.com/LucasPDiniz/CVE-2023-38408)
 
@@ -16765,7 +16766,7 @@
 
 ### CVE-2021-42362 (2021-11-17)
 
-<code>The WordPress Popular Posts WordPress plugin is vulnerable to arbitrary file uploads due to insufficient input file type validation found in the ~/src/Image.php file which makes it possible for attackers with contributor level access and above to upload malicious files that can be used to obtain remote code execution, in versions up to and including 5.3.2.
+<code>The WordPress Popular Posts WordPress plugin is vulnerable to arbitrary file uploads due to insufficient input file type validation found in the ~/src/Image.php file which makes it possible for attackers with contributor level access and above to upload malicious files that can be used to obtain remote code execution, in versions up to and including 5.3.2.\n\n
 </code>
 
 - [simonecris/CVE-2021-42362-PoC](https://github.com/simonecris/CVE-2021-42362-PoC)
@@ -37431,6 +37432,7 @@
 <code>Buffer overflow in (1) nethack 3.4.0 and earlier, and (2) falconseye 1.9.3 and earlier, which is based on nethack, allows local users to gain privileges via a long -s command line option.
 </code>
 
+- [snowcra5h/CVE-2003-0358](https://github.com/snowcra5h/CVE-2003-0358)
 - [gmh5225/CVE-2003-0358](https://github.com/gmh5225/CVE-2003-0358)
 
 
