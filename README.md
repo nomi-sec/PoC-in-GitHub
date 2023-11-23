@@ -2378,13 +2378,6 @@
 - [S4muraiMelayu1337/CVE-2023-29489](https://github.com/S4muraiMelayu1337/CVE-2023-29489)
 - [SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489)
 
-### CVE-2023-29552 (2023-04-25)
-
-<code>The Service Location Protocol (SLP, RFC 2608) allows an unauthenticated, remote attacker to register arbitrary services. This could allow the attacker to use spoofed UDP traffic to conduct a denial-of-service attack with a significant amplification factor.
-</code>
-
-- [0xKayala/CVE-2023-29552](https://github.com/0xKayala/CVE-2023-29552)
-
 ### CVE-2023-29808 (2023-05-11)
 
 <code>Cross Site Scripting (XSS) vulnerability in vogtmh cmaps (companymaps) 8.0 allows attackers to execute arbitrary code.
@@ -3673,6 +3666,13 @@
 
 ### CVE-2023-36531
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
+
+### CVE-2023-36553 (2023-11-14)
+
+<code>A improper neutralization of special elements used in an os command ('os command injection') in Fortinet FortiSIEM version 5.4.0 and 5.3.0 through 5.3.3 and 5.2.5 through 5.2.8 and 5.2.1 through 5.2.2 and 5.1.0 through 5.1.3 and 5.0.0 through 5.0.1 and 4.10.0 and 4.9.0 and 4.7.2 allows attacker to execute unauthorized code or commands via crafted API requests.
+</code>
+
+- [kenit7s/CVE-2023-36553-RCE](https://github.com/kenit7s/CVE-2023-36553-RCE)
 
 ### CVE-2023-36664 (2023-06-25)
 
@@ -5319,7 +5319,11 @@
 ### CVE-2023-47529
 - [RandomRobbieBF/CVE-2023-47529](https://github.com/RandomRobbieBF/CVE-2023-47529)
 
-### CVE-2023-47668
+### CVE-2023-47668 (2023-11-22)
+
+<code>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in StellarWP Membership Plugin – Restrict Content plugin &lt;= 3.2.7 versions.
+</code>
+
 - [RandomRobbieBF/CVE-2023-47668](https://github.com/RandomRobbieBF/CVE-2023-47668)
 
 ### CVE-2023-48028 (2023-11-17)
