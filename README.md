@@ -76,6 +76,7 @@
 
 - [veritas501/CVE-2023-0386](https://github.com/veritas501/CVE-2023-0386)
 - [Satheesh575555/linux-4.19.72_CVE-2023-0386](https://github.com/Satheesh575555/linux-4.19.72_CVE-2023-0386)
+- [xkaneiki/CVE-2023-0386](https://github.com/xkaneiki/CVE-2023-0386)
 - [chenaotian/CVE-2023-0386](https://github.com/chenaotian/CVE-2023-0386)
 - [CKevens/CVE-2023-0386](https://github.com/CKevens/CVE-2023-0386)
 - [hshivhare67/kernel_v4.19.72_CVE-2023-0386](https://github.com/hshivhare67/kernel_v4.19.72_CVE-2023-0386)
@@ -10744,6 +10745,13 @@
 
 ### CVE-2022-41852
 - [Warxim/CVE-2022-41852](https://github.com/Warxim/CVE-2022-41852)
+
+### CVE-2022-41853 (2022-10-06)
+
+<code>Those using java.sql.Statement or java.sql.PreparedStatement in hsqldb (HyperSQL DataBase) to process untrusted input may be vulnerable to a remote code execution attack. By default it is allowed to call any static method of any Java class in the classpath resulting in code execution. The issue can be prevented by updating to 2.7.1 or by setting the system property &quot;hsqldb.method_class_names&quot; to classes which are allowed to be called. For example, System.setProperty(&quot;hsqldb.method_class_names&quot;, &quot;abc&quot;) or Java argument -Dhsqldb.method_class_names=&quot;abc&quot; can be used. From version 2.7.1 all classes by default are not accessible except those in java.lang.Math and need to be manually enabled.
+</code>
+
+- [mbadanoiu/CVE-2022-41853](https://github.com/mbadanoiu/CVE-2022-41853)
 
 ### CVE-2022-41876 (2022-11-10)
 
@@ -23064,6 +23072,7 @@
 </code>
 
 - [0xAbbarhSF/CVE-2020-29607](https://github.com/0xAbbarhSF/CVE-2020-29607)
+- [0xN7y/CVE-2020-29607](https://github.com/0xN7y/CVE-2020-29607)
 
 ### CVE-2020-29666 (2020-12-10)
 
