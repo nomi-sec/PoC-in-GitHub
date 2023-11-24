@@ -1893,6 +1893,13 @@
 
 - [istern/CVE-2023-26262](https://github.com/istern/CVE-2023-26262)
 
+### CVE-2023-26269 (2023-04-03)
+
+<code>Apache James server version 3.7.3 and earlier provides a JMX management service without authentication by default. This allows privilege escalation by a \nmalicious local user.\n\nAdministrators are advised to disable JMX, or set up a JMX password.\n\nNote that version 3.7.4 onward will set up a JMX password automatically for Guice users.\n\n\n
+</code>
+
+- [mbadanoiu/CVE-2023-26269](https://github.com/mbadanoiu/CVE-2023-26269)
+
 ### CVE-2023-26469 (2023-08-17)
 
 <code>In Jorani 1.0.0, an attacker could leverage path traversal to access files and execute code on the server.
@@ -3275,6 +3282,13 @@
 
 - [overgrowncarrot1/ImageTragick_CVE-2023-34152](https://github.com/overgrowncarrot1/ImageTragick_CVE-2023-34152)
 
+### CVE-2023-34212 (2023-06-12)
+
+<code>The JndiJmsConnectionFactoryProvider Controller Service, along with the ConsumeJMS and PublishJMS Processors, in Apache NiFi 1.8.0 through 1.21.0 allow an authenticated and authorized user to configure URL and library properties that enable deserialization of untrusted data from a remote location.\n\nThe resolution validates the JNDI URL and restricts locations to a set of allowed schemes.\n\nYou are recommended to upgrade to version 1.22.0 or later which fixes this issue.\n\n\n
+</code>
+
+- [mbadanoiu/CVE-2023-34212](https://github.com/mbadanoiu/CVE-2023-34212)
+
 ### CVE-2023-34312 (2023-05-31)
 
 <code>In Tencent QQ through 9.7.8.29039 and TIM through 3.4.7.22084, QQProtect.exe and QQProtectEngine.dll do not validate pointers from inter-process communication, which leads to a write-what-where condition.
@@ -4268,6 +4282,13 @@
 
 - [webraybtl/CVE-2023-40031](https://github.com/webraybtl/CVE-2023-40031)
 
+### CVE-2023-40037 (2023-08-18)
+
+<code>Apache NiFi 1.21.0 through 1.23.0 support JDBC and JNDI JMS access in several Processors and Controller Services with connection URL validation that does not provide sufficient protection against crafted inputs. An authenticated and authorized user can bypass connection URL validation using custom input formatting. The resolution enhances connection URL validation and introduces validation for additional related properties. Upgrading to Apache NiFi 1.23.1 is the recommended mitigation.\n
+</code>
+
+- [mbadanoiu/CVE-2023-40037](https://github.com/mbadanoiu/CVE-2023-40037)
+
 ### CVE-2023-40044 (2023-09-27)
 
 <code>\nIn WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer module to execute remote commands on the underlying WS_FTP Server operating system.  \n\n
@@ -4873,6 +4894,13 @@
 
 - [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
 
+### CVE-2023-44353 (2023-11-17)
+
+<code>Adobe ColdFusion versions 2023.5 (and earlier) and 2021.11 (and earlier) are affected by an Deserialization of Untrusted Data vulnerability that could result in Arbitrary code execution. Exploitation of this issue does not require user interaction.
+</code>
+
+- [JC175/CVE-2023-44353-Nuclei-Template](https://github.com/JC175/CVE-2023-44353-Nuclei-Template)
+
 ### CVE-2023-44487 (2023-10-10)
 
 <code>The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
@@ -5324,7 +5352,11 @@
 
 - [nitipoom-jar/CVE-2023-47489](https://github.com/nitipoom-jar/CVE-2023-47489)
 
-### CVE-2023-47529
+### CVE-2023-47529 (2023-11-23)
+
+<code>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in ThemeIsle Cloud Templates &amp; Patterns collection.This issue affects Cloud Templates &amp; Patterns collection: from n/a through 1.2.2.\n\n
+</code>
+
 - [RandomRobbieBF/CVE-2023-47529](https://github.com/RandomRobbieBF/CVE-2023-47529)
 
 ### CVE-2023-47668 (2023-11-22)
@@ -18099,6 +18131,13 @@
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2021-46143](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-46143)
 
+### CVE-2021-46364 (2022-02-11)
+
+<code>A vulnerability in the Snake YAML parser of Magnolia CMS v6.2.3 and below allows attackers to execute arbitrary code via a crafted YAML file.
+</code>
+
+- [mbadanoiu/CVE-2021-46364](https://github.com/mbadanoiu/CVE-2021-46364)
+
 ### CVE-2021-46381 (2022-03-04)
 
 <code>Local File Inclusion due to path traversal in D-Link DAP-1620 leads to unauthorized internal files reading [/etc/passwd] and [/etc/shadow].
@@ -24043,7 +24082,6 @@
 <code>Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
-- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
@@ -24306,13 +24344,6 @@
 
 - [timwr/CVE-2019-5825](https://github.com/timwr/CVE-2019-5825)
 
-### CVE-2019-5893 (2019-01-10)
-
-<code>Nelson Open Source ERP v6.3.1 allows SQL Injection via the db/utils/query/data.xml query parameter.
-</code>
-
-- [EmreOvunc/OpenSource-ERP-SQL-Injection](https://github.com/EmreOvunc/OpenSource-ERP-SQL-Injection)
-
 ### CVE-2019-6111 (2019-01-31)
 
 <code>An issue was discovered in OpenSSH 7.9. Due to the scp implementation being derived from 1983 rcp, the server chooses which files/directories are sent to the client. However, the scp client only performs cursory validation of the object name returned (only directory traversal attacks are prevented). A malicious scp server (or Man-in-The-Middle attacker) can overwrite arbitrary files in the scp client target directory. If recursive operation (-r) is performed, the server can manipulate subdirectories as well (for example, to overwrite the .ssh/authorized_keys file).
@@ -24358,13 +24389,6 @@
 </code>
 
 - [nikitapbst/cve-2019-6260](https://github.com/nikitapbst/cve-2019-6260)
-
-### CVE-2019-6263 (2019-01-16)
-
-<code>An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
-</code>
-
-- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
 
 ### CVE-2019-6329 (2019-06-25)
 
@@ -24441,13 +24465,6 @@
 </code>
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
-
-### CVE-2019-6487 (2019-01-18)
-
-<code>TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
-</code>
-
-- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
 
 ### CVE-2019-6690 (2019-03-17)
 
