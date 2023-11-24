@@ -4917,6 +4917,7 @@
 - [sigridou/CVE-2023-44487](https://github.com/sigridou/CVE-2023-44487)
 - [ndrscodes/http2-rst-stream-attacker](https://github.com/ndrscodes/http2-rst-stream-attacker)
 - [nxenon/cve-2023-44487](https://github.com/nxenon/cve-2023-44487)
+- [terrorist/CVE-2023-44487](https://github.com/terrorist/CVE-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
