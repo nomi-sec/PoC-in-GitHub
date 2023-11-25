@@ -6953,6 +6953,13 @@
 
 - [ahmetfurkans/CVE-2022-22718](https://github.com/ahmetfurkans/CVE-2022-22718)
 
+### CVE-2022-22720 (2022-03-14)
+
+<code>Apache HTTP Server 2.4.52 and earlier fails to close inbound connection when errors are encountered discarding the request body, exposing the server to HTTP Request Smuggling
+</code>
+
+- [Benasin/CVE-2022-22720](https://github.com/Benasin/CVE-2022-22720)
+
 ### CVE-2022-22733 (2022-01-20)
 
 <code>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache ShardingSphere ElasticJob-UI allows an attacker who has guest account to do privilege escalation. This issue affects Apache ShardingSphere ElasticJob-UI Apache ShardingSphere ElasticJob-UI 3.x version 3.0.0 and prior versions.
@@ -26760,6 +26767,13 @@
 </code>
 
 - [bobfuzzer/CVE-2019-18885](https://github.com/bobfuzzer/CVE-2019-18885)
+
+### CVE-2019-18890 (2019-11-21)
+
+<code>A SQL injection vulnerability in Redmine through 3.2.9 and 3.3.x before 3.3.10 allows Redmine users to access protected information via a crafted object query.
+</code>
+
+- [RealLinkers/CVE-2019-18890](https://github.com/RealLinkers/CVE-2019-18890)
 
 ### CVE-2019-18935 (2019-12-11)
 
