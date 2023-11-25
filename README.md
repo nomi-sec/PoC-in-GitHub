@@ -4917,7 +4917,7 @@
 - [sigridou/CVE-2023-44487](https://github.com/sigridou/CVE-2023-44487)
 - [ndrscodes/http2-rst-stream-attacker](https://github.com/ndrscodes/http2-rst-stream-attacker)
 - [nxenon/cve-2023-44487](https://github.com/nxenon/cve-2023-44487)
-- [terrorist/CVE-2023-44487](https://github.com/terrorist/CVE-2023-44487)
+- [terrorist/HTTP-2-Rapid-Reset-Client](https://github.com/terrorist/HTTP-2-Rapid-Reset-Client)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -5090,6 +5090,7 @@
 
 - [valentin-panov/CVE-2023-45857](https://github.com/valentin-panov/CVE-2023-45857)
 - [intercept6/CVE-2023-45857-Demo](https://github.com/intercept6/CVE-2023-45857-Demo)
+- [fuyuooumi1027/CVE-2023-45857-Demo](https://github.com/fuyuooumi1027/CVE-2023-45857-Demo)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -26760,13 +26761,6 @@
 
 - [bobfuzzer/CVE-2019-18885](https://github.com/bobfuzzer/CVE-2019-18885)
 
-### CVE-2019-18890 (2019-11-21)
-
-<code>A SQL injection vulnerability in Redmine through 3.2.9 and 3.3.x before 3.3.10 allows Redmine users to access protected information via a crafted object query.
-</code>
-
-- [RealLinkers/CVE-2019-18890](https://github.com/RealLinkers/CVE-2019-18890)
-
 ### CVE-2019-18935 (2019-12-11)
 
 <code>Progress Telerik UI for ASP.NET AJAX through 2019.3.1023 contains a .NET deserialization vulnerability in the RadAsyncUpload function. This is exploitable when the encryption keys are known due to the presence of CVE-2017-11317 or CVE-2017-11357, or other means. Exploitation can result in remote code execution. (As of 2020.1.114, a default setting prevents the exploit. In 2019.3.1023, but not earlier versions, a non-default setting can prevent exploitation.)
@@ -36591,6 +36585,7 @@
 - [0xFTW/CVE-2011-2523](https://github.com/0xFTW/CVE-2011-2523)
 - [Lynk4/CVE-2011-2523](https://github.com/Lynk4/CVE-2011-2523)
 - [vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523)
+- [chleba124/vsftpd-exploit](https://github.com/chleba124/vsftpd-exploit)
 
 ### CVE-2011-2894 (2011-10-04)
 
