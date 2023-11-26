@@ -13074,6 +13074,13 @@
 
 - [pauljrowland/BootHoleFix](https://github.com/pauljrowland/BootHoleFix)
 
+### CVE-2021-20253 (2021-03-09)
+
+<code>A flaw was found in ansible-tower. The default installation is vulnerable to Job Isolation escape allowing an attacker to elevate the privilege from a low privileged user to the awx user from outside the isolated environment. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
+</code>
+
+- [mbadanoiu/CVE-2021-20253](https://github.com/mbadanoiu/CVE-2021-20253)
+
 ### CVE-2021-20294 (2021-04-29)
 
 <code>A flaw was found in binutils readelf 2.35 program. An attacker who is able to convince a victim using readelf to read a crafted file could trigger a stack buffer overflow, out-of-bounds write of arbitrary data supplied by the attacker. The highest impact of this flaw is to confidentiality, integrity, and availability.
@@ -34513,6 +34520,7 @@
 - [cd6629/CVE-2015-3306-Python-PoC](https://github.com/cd6629/CVE-2015-3306-Python-PoC)
 - [0xm4ud/ProFTPD_CVE-2015-3306](https://github.com/0xm4ud/ProFTPD_CVE-2015-3306)
 - [jptr218/proftpd_bypass](https://github.com/jptr218/proftpd_bypass)
+- [xchg-rax-rax/CVE-2015-3306-](https://github.com/xchg-rax-rax/CVE-2015-3306-)
 
 ### CVE-2015-3337 (2015-05-01)
 
@@ -35758,6 +35766,13 @@
 
 - [BenChaliah/MIPS-CVE-2014-9222](https://github.com/BenChaliah/MIPS-CVE-2014-9222)
 - [donfanning/MIPS-CVE-2014-9222](https://github.com/donfanning/MIPS-CVE-2014-9222)
+
+### CVE-2014-9295 (2014-12-19)
+
+<code>Multiple stack-based buffer overflows in ntpd in NTP before 4.2.8 allow remote attackers to execute arbitrary code via a crafted packet, related to (1) the crypto_recv function when the Autokey Authentication feature is used, (2) the ctl_putdata function, and (3) the configure function.
+</code>
+
+- [MacMiniVault/NTPUpdateSnowLeopard](https://github.com/MacMiniVault/NTPUpdateSnowLeopard)
 
 ### CVE-2014-9301 (2014-12-07)
 
