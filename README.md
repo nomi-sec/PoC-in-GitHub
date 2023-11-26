@@ -2236,6 +2236,7 @@
 - [bingtangbanli/CVE-2023-28432](https://github.com/bingtangbanli/CVE-2023-28432)
 - [Chocapikk/CVE-2023-28432](https://github.com/Chocapikk/CVE-2023-28432)
 - [yTxZx/CVE-2023-28432](https://github.com/yTxZx/CVE-2023-28432)
+- [Fw-fW-fw/minio-CVE-2023-28432-rce](https://github.com/Fw-fW-fw/minio-CVE-2023-28432-rce)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -9684,6 +9685,7 @@
 - [Vulnmachines/Apache-spark-CVE-2022-33891](https://github.com/Vulnmachines/Apache-spark-CVE-2022-33891)
 - [ps-interactive/lab_security_apache_spark_emulation_detection](https://github.com/ps-interactive/lab_security_apache_spark_emulation_detection)
 - [IMHarman/CVE-2022-33891](https://github.com/IMHarman/CVE-2022-33891)
+- [elsvital/cve-2022-33891-fix](https://github.com/elsvital/cve-2022-33891-fix)
 
 ### CVE-2022-33980 (2022-07-06)
 
@@ -20115,6 +20117,34 @@
 </code>
 
 - [withdk/pulse-secure-vpn-mitm-research](https://github.com/withdk/pulse-secure-vpn-mitm-research)
+
+### CVE-2020-8248 (2020-10-28)
+
+<code>A vulnerability in the Pulse Secure Desktop Client (Linux) &lt; 9.1R9 could allow local attackers to escalate privilege.
+</code>
+
+- [mbadanoiu/CVE-2020-8248](https://github.com/mbadanoiu/CVE-2020-8248)
+
+### CVE-2020-8249 (2020-10-28)
+
+<code>A vulnerability in the Pulse Secure Desktop Client (Linux) &lt; 9.1R9 could allow local attackers to perform buffer overflow.
+</code>
+
+- [mbadanoiu/CVE-2020-8249](https://github.com/mbadanoiu/CVE-2020-8249)
+
+### CVE-2020-8250 (2020-10-28)
+
+<code>A vulnerability in the Pulse Secure Desktop Client (Linux) &lt; 9.1R9 could allow local attackers to escalate privilege.
+</code>
+
+- [mbadanoiu/CVE-2020-8250](https://github.com/mbadanoiu/CVE-2020-8250)
+
+### CVE-2020-8254 (2020-10-28)
+
+<code>A vulnerability in the Pulse Secure Desktop Client &lt; 9.1R9 has Remote Code Execution (RCE) if users can be convinced to connect to a malicious server. This vulnerability only affects Windows PDC.To improve the security of connections between Pulse clients and Pulse Connect Secure, see below recommendation(s):Disable Dynamic certificate trust for PDC.
+</code>
+
+- [mbadanoiu/CVE-2020-8254](https://github.com/mbadanoiu/CVE-2020-8254)
 
 ### CVE-2020-8277 (2020-11-18)
 
@@ -37533,7 +37563,7 @@
 <code>Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
 </code>
 
-- [runtimme/cve-2003-0282](https://github.com/runtimme/cve-2003-0282)
+- [theseann/cve-2003-0282](https://github.com/theseann/cve-2003-0282)
 
 ### CVE-2003-0358 (2003-05-30)
 
