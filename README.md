@@ -1390,6 +1390,7 @@
 - [AIex-3/confluence-hack](https://github.com/AIex-3/confluence-hack)
 - [LucasPDiniz/CVE-2023-22515](https://github.com/LucasPDiniz/CVE-2023-22515)
 - [aaaademo/Confluence-EvilJar](https://github.com/aaaademo/Confluence-EvilJar)
+- [edsonjt81/CVE-2023-22515-Scan.](https://github.com/edsonjt81/CVE-2023-22515-Scan.)
 
 ### CVE-2023-22518 (2023-10-31)
 
@@ -2236,7 +2237,7 @@
 - [bingtangbanli/CVE-2023-28432](https://github.com/bingtangbanli/CVE-2023-28432)
 - [Chocapikk/CVE-2023-28432](https://github.com/Chocapikk/CVE-2023-28432)
 - [yTxZx/CVE-2023-28432](https://github.com/yTxZx/CVE-2023-28432)
-- [Fw-fW-fw/minio-CVE-2023-28432-rce](https://github.com/Fw-fW-fw/minio-CVE-2023-28432-rce)
+- [Fw-fW-fw/CVE-2023-28432-minio_update_rce](https://github.com/Fw-fW-fw/CVE-2023-28432-minio_update_rce)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -5222,6 +5223,9 @@
 </code>
 
 - [mr-xmen786/CVE-2023-46478](https://github.com/mr-xmen786/CVE-2023-46478)
+
+### CVE-2023-46480
+- [shahzaibak96/CVE-2023-46480](https://github.com/shahzaibak96/CVE-2023-46480)
 
 ### CVE-2023-46501 (2023-11-07)
 
@@ -24909,6 +24913,7 @@
 - [Doc0x1/CVE-2019-9053-Python3](https://github.com/Doc0x1/CVE-2019-9053-Python3)
 - [fernandobortotti/CVE-2019-9053](https://github.com/fernandobortotti/CVE-2019-9053)
 - [byrek/CVE-2019-9053](https://github.com/byrek/CVE-2019-9053)
+- [davcwikla/CVE-2019-9053-exploit](https://github.com/davcwikla/CVE-2019-9053-exploit)
 
 ### CVE-2019-9081
 - [nth347/CVE-2019-9081_PoC](https://github.com/nth347/CVE-2019-9081_PoC)
