@@ -57,7 +57,6 @@
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
-- [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
@@ -827,6 +826,7 @@
 - [sanjai-AK47/CVE-2023-4966](https://github.com/sanjai-AK47/CVE-2023-4966)
 - [fdevsectest/CVE-2023-4966](https://github.com/fdevsectest/CVE-2023-4966)
 - [s-bt/CVE-2023-4966](https://github.com/s-bt/CVE-2023-4966)
+- [byte4RR4Y/CVE-2023-4966](https://github.com/byte4RR4Y/CVE-2023-4966)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -1250,13 +1250,6 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
-### CVE-2023-21739 (2023-01-10)
-
-<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
-</code>
-
-- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
-
 ### CVE-2023-21742 (2023-01-10)
 
 <code>Microsoft SharePoint Server Remote Code Execution Vulnerability
@@ -1276,7 +1269,6 @@
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
-- [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
@@ -1647,13 +1639,6 @@
 - [digital-dev/KeePass-TriggerLess](https://github.com/digital-dev/KeePass-TriggerLess)
 - [zwlsix/KeePass-CVE-2023-24055](https://github.com/zwlsix/KeePass-CVE-2023-24055)
 
-### CVE-2023-24059 (2023-01-22)
-
-<code>Grand Theft Auto V for PC allows attackers to achieve partial remote code execution or modify files on a PC, as exploited in the wild in January 2023.
-</code>
-
-- [gmh5225/CVE-2023-24059](https://github.com/gmh5225/CVE-2023-24059)
-
 ### CVE-2023-24078 (2023-02-17)
 
 <code>Real Time Logic FuguHub v8.1 and earlier was discovered to contain a remote code execution (RCE) vulnerability via the component /FuguHub/cmsdocs/.
@@ -1854,6 +1839,7 @@
 </code>
 
 - [Trinadh465/jetty_9.4.31_CVE-2023-26048](https://github.com/Trinadh465/jetty_9.4.31_CVE-2023-26048)
+- [hshivhare67/Jetty-v9.4.31_CVE-2023-26048](https://github.com/hshivhare67/Jetty-v9.4.31_CVE-2023-26048)
 
 ### CVE-2023-26067 (2023-04-10)
 
@@ -5273,6 +5259,9 @@
 
 - [asylumdx/Crater-CVE-2023-46865-RCE](https://github.com/asylumdx/Crater-CVE-2023-46865-RCE)
 
+### CVE-2023-46948
+- [AzraelsBlade/CVE-2023-46948](https://github.com/AzraelsBlade/CVE-2023-46948)
+
 ### CVE-2023-46954 (2023-11-02)
 
 <code>SQL Injection vulnerability in Relativity ODA LLC RelativityOne v.12.1.537.3 Patch 2 and earlier allows a remote attacker to execute arbitrary code via the name parameter.
@@ -5334,7 +5323,7 @@
 <code>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Proper Fraction LLC. Admin Bar &amp; Dashboard Access Control plugin &lt;= 1.2.8 versions.
 </code>
 
-- [rach1tarora/CVE-2023-47184](https://github.com/rach1tarora/CVE-2023-47184)
+- [cyz1gy/CVE-2023-47184](https://github.com/cyz1gy/CVE-2023-47184)
 
 ### CVE-2023-47246 (2023-11-10)
 
@@ -26936,6 +26925,13 @@
 
 - [miguelhamal/CVE-2019-19393](https://github.com/miguelhamal/CVE-2019-19393)
 
+### CVE-2019-19447 (2019-12-07)
+
+<code>In the Linux kernel 5.0.21, mounting a crafted ext4 filesystem image, performing some operations, and unmounting can lead to a use-after-free in ext4_put_super in fs/ext4/super.c, related to dump_orphan_list in fs/ext4/super.c.
+</code>
+
+- [Trinadh465/linux-4.19.72_CVE-2019-19447](https://github.com/Trinadh465/linux-4.19.72_CVE-2019-19447)
+
 ### CVE-2019-19492 (2019-12-01)
 
 <code>FreeSWITCH 1.6.10 through 1.10.1 has a default password in event_socket.conf.xml.
@@ -30691,6 +30687,7 @@
 - [joke998/Cve-2017-0199-](https://github.com/joke998/Cve-2017-0199-)
 - [sUbc0ol/Microsoft-Word-CVE-2017-0199-](https://github.com/sUbc0ol/Microsoft-Word-CVE-2017-0199-)
 - [viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199)
+- [nicpenning/RTF-Cleaner](https://github.com/nicpenning/RTF-Cleaner)
 - [herbiezimmerman/2017-11-17-Maldoc-Using-CVE-2017-0199](https://github.com/herbiezimmerman/2017-11-17-Maldoc-Using-CVE-2017-0199)
 - [jacobsoo/RTF-Cleaner](https://github.com/jacobsoo/RTF-Cleaner)
 - [likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199)
@@ -30714,6 +30711,7 @@
 
 - [shaheemirza/CVE-2017-0213-](https://github.com/shaheemirza/CVE-2017-0213-)
 - [zcgonvh/CVE-2017-0213](https://github.com/zcgonvh/CVE-2017-0213)
+- [billa3283/CVE-2017-0213](https://github.com/billa3283/CVE-2017-0213)
 - [likescam/CVE-2017-0213](https://github.com/likescam/CVE-2017-0213)
 - [jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213)
 - [eonrickity/CVE-2017-0213](https://github.com/eonrickity/CVE-2017-0213)
@@ -30792,13 +30790,6 @@
 </code>
 
 - [lanrat/tethr](https://github.com/lanrat/tethr)
-
-### CVE-2017-0564 (2017-04-07)
-
-<code>An elevation of privilege vulnerability in the kernel ION subsystem could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as Critical due to the possibility of a local permanent device compromise, which may require reflashing the operating system to repair the device. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-34276203.
-</code>
-
-- [guoygang/CVE-2017-0564-ION-PoC](https://github.com/guoygang/CVE-2017-0564-ION-PoC)
 
 ### CVE-2017-0781 (2017-09-14)
 
@@ -31142,6 +31133,7 @@
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
+- [donaldashdown/Common-Vulnerability-and-Exploit](https://github.com/donaldashdown/Common-Vulnerability-and-Exploit)
 - [pr0x1ma-byte/cybersecurity-struts2](https://github.com/pr0x1ma-byte/cybersecurity-struts2)
 - [cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638)
 - [0x00-0x00/CVE-2017-5638](https://github.com/0x00-0x00/CVE-2017-5638)
@@ -31186,6 +31178,7 @@
 - [Bijaye/intel_amt_bypass](https://github.com/Bijaye/intel_amt_bypass)
 - [embedi/amt_auth_bypass_poc](https://github.com/embedi/amt_auth_bypass_poc)
 - [TheWay-hue/CVE-2017-5689-Checker](https://github.com/TheWay-hue/CVE-2017-5689-Checker)
+- [lapis33/CVE-2017-5689](https://github.com/lapis33/CVE-2017-5689)
 
 ### CVE-2017-5693 (2018-07-31)
 
@@ -31199,7 +31192,6 @@
 <code>Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
-- [opsxcq/exploit-cve-2017-5715](https://github.com/opsxcq/exploit-cve-2017-5715)
 - [mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list)
 - [GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment)
 - [dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit)
@@ -31216,7 +31208,6 @@
 <code>Systems with microprocessors utilizing speculative execution and branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.
 </code>
 
-- [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack)
 - [EdwardOwusuAdjei/Spectre-PoC](https://github.com/EdwardOwusuAdjei/Spectre-PoC)
 - [poilynx/spectre-attack-example](https://github.com/poilynx/spectre-attack-example)
 - [pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo)
@@ -31623,6 +31614,7 @@
 - [xssfile/CVE-2017-8464-EXP](https://github.com/xssfile/CVE-2017-8464-EXP)
 - [TrG-1999/DetectPacket-CVE-2017-8464](https://github.com/TrG-1999/DetectPacket-CVE-2017-8464)
 - [tuankiethkt020/Phat-hien-CVE-2017-8464](https://github.com/tuankiethkt020/Phat-hien-CVE-2017-8464)
+- [TieuLong21Prosper/Detect-CVE-2017-8464](https://github.com/TieuLong21Prosper/Detect-CVE-2017-8464)
 
 ### CVE-2017-8465 (2017-06-14)
 
@@ -31652,7 +31644,6 @@
 </code>
 
 - [temesgeny/ppsx-file-generator](https://github.com/temesgeny/ppsx-file-generator)
-- [rxwx/CVE-2017-8570](https://github.com/rxwx/CVE-2017-8570)
 - [MaxSecurity/Office-CVE-2017-8570](https://github.com/MaxSecurity/Office-CVE-2017-8570)
 - [SwordSheath/CVE-2017-8570](https://github.com/SwordSheath/CVE-2017-8570)
 - [Drac0nids/CVE-2017-8570](https://github.com/Drac0nids/CVE-2017-8570)
@@ -32164,7 +32155,6 @@
 - [CSC-pentest/cve-2017-11882](https://github.com/CSC-pentest/cve-2017-11882)
 - [Shadowshusky/CVE-2017-11882-](https://github.com/Shadowshusky/CVE-2017-11882-)
 - [rxwx/CVE-2018-0802](https://github.com/rxwx/CVE-2018-0802)
-- [Ridter/RTF_11882_0802](https://github.com/Ridter/RTF_11882_0802)
 - [likescam/CVE-2017-11882](https://github.com/likescam/CVE-2017-11882)
 - [likescam/CVE-2018-0802_CVE-2017-11882](https://github.com/likescam/CVE-2018-0802_CVE-2017-11882)
 - [herbiezimmerman/CVE-2017-11882-Possible-Remcos-Malspam](https://github.com/herbiezimmerman/CVE-2017-11882-Possible-Remcos-Malspam)
@@ -32532,6 +32522,13 @@
 ### CVE-2017-16245
 - [AOCorsaire/CVE-2017-16245](https://github.com/AOCorsaire/CVE-2017-16245)
 
+### CVE-2017-16524 (2017-11-06)
+
+<code>Web Viewer 1.0.0.193 on Samsung SRN-1670D devices suffers from an Unrestricted file upload vulnerability: 'network_ssl_upload.php' allows remote authenticated attackers to upload and execute arbitrary PHP code via a filename with a .php extension, which is then accessed via a direct request to the file in the upload/ directory. To authenticate for this attack, one can obtain web-interface credentials in cleartext by leveraging the existing Local File Read Vulnerability referenced as CVE-2015-8279, which allows remote attackers to read the web-interface credentials via a request for the cslog_export.php?path=/root/php_modules/lighttpd/sbin/userpw URI.
+</code>
+
+- [realistic-security/CVE-2017-16524](https://github.com/realistic-security/CVE-2017-16524)
+
 ### CVE-2017-16541 (2017-11-04)
 
 <code>Tor Browser before 7.0.9 on macOS and Linux allows remote attackers to bypass the intended anonymity feature and discover a client IP address via vectors involving a crafted web site that leverages file:// mishandling in Firefox, aka TorMoil. NOTE: Tails is unaffected.
@@ -32800,6 +32797,13 @@
 </code>
 
 - [Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal](https://github.com/Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal)
+
+### CVE-2017-1000250 (2017-09-12)
+
+<code>All versions of the SDP server in BlueZ 5.46 and earlier are vulnerable to an information disclosure vulnerability which allows remote attackers to obtain sensitive information from the bluetoothd process memory. This vulnerability lies in the processing of SDP search attribute requests.
+</code>
+
+- [olav-st/CVE-2017-1000250-PoC](https://github.com/olav-st/CVE-2017-1000250-PoC)
 
 ### CVE-2017-1000251 (2017-09-12)
 
