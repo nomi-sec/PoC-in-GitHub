@@ -146,9 +146,6 @@
 
 - [seifallahhomrani1/CVE-2023-0861-POC](https://github.com/seifallahhomrani1/CVE-2023-0861-POC)
 
-### CVE-2023-391
-- [ayhan-dev/CVE-2023-391](https://github.com/ayhan-dev/CVE-2023-391)
-
 ### CVE-2023-1112 (2023-03-01)
 
 <code>Es wurde eine kritische Schwachstelle in Drag and Drop Multiple File Upload Contact Form 7 5.0.6.1 für WordPress ausgemacht. Es geht dabei um eine nicht klar definierte Funktion der Datei admin-ajax.php. Durch Manipulation des Arguments upload_name mit unbekannten Daten kann eine relative path traversal-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -1774,6 +1771,7 @@
 - [murataydemir/CVE-2023-25157-and-CVE-2023-25158](https://github.com/murataydemir/CVE-2023-25157-and-CVE-2023-25158)
 - [7imbitz/CVE-2023-25157-checker](https://github.com/7imbitz/CVE-2023-25157-checker)
 - [Rubikcuv5/CVE-2023-25157](https://github.com/Rubikcuv5/CVE-2023-25157)
+- [dr-cable-tv/Geoserver-CVE-2023-25157](https://github.com/dr-cable-tv/Geoserver-CVE-2023-25157)
 
 ### CVE-2023-25194 (2023-02-07)
 
@@ -2324,7 +2322,6 @@
 </code>
 
 - [m-cetin/CVE-2023-29336](https://github.com/m-cetin/CVE-2023-29336)
-- [ayhan-dev/p0ropc](https://github.com/ayhan-dev/p0ropc)
 
 ### CVE-2023-29343 (2023-05-09)
 
@@ -3594,6 +3591,7 @@
 </code>
 
 - [ka7ana/CVE-2023-36025](https://github.com/ka7ana/CVE-2023-36025)
+- [J466Y/test_CVE-2023-36025](https://github.com/J466Y/test_CVE-2023-36025)
 
 ### CVE-2023-36076 (2023-09-01)
 
@@ -5476,6 +5474,9 @@
 
 ### CVE-2023-49313
 - [louiselalanne/CVE-2023-49313](https://github.com/louiselalanne/CVE-2023-49313)
+
+### CVE-2023-49314
+- [louiselalanne/CVE-2023-49314](https://github.com/louiselalanne/CVE-2023-49314)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -24176,7 +24177,6 @@
 <code>Incorrect sanitation of the 302 redirect field in HTTP transport method of apt versions 1.4.8 and earlier can lead to content injection by a MITM attacker, potentially leading to remote code execution on the target machine.
 </code>
 
-- [tonejito/check_CVE-2019-3462](https://github.com/tonejito/check_CVE-2019-3462)
 - [atilacastro/update-apt-package](https://github.com/atilacastro/update-apt-package)
 
 ### CVE-2019-3663 (2019-11-13)
@@ -24492,13 +24492,6 @@
 
 - [nikitapbst/cve-2019-6260](https://github.com/nikitapbst/cve-2019-6260)
 
-### CVE-2019-6263 (2019-01-16)
-
-<code>An issue was discovered in Joomla! before 3.9.2. Inadequate checks of the Global Configuration Text Filter settings allowed stored XSS.
-</code>
-
-- [praveensutar/CVE-2019-6263-Joomla-POC](https://github.com/praveensutar/CVE-2019-6263-Joomla-POC)
-
 ### CVE-2019-6329 (2019-06-25)
 
 <code>HP Support Assistant 8.7.50 and earlier allows a user to gain system privilege and allows unauthorized modification of directories or files. Note: A different vulnerability than CVE-2019-6328.
@@ -24574,13 +24567,6 @@
 </code>
 
 - [knqyf263/CVE-2019-6467](https://github.com/knqyf263/CVE-2019-6467)
-
-### CVE-2019-6487 (2019-01-18)
-
-<code>TP-Link WDR Series devices through firmware v3 (such as TL-WDR5620 V3.0) are affected by command injection (after login) leading to remote code execution, because shell metacharacters can be included in the weather get_weather_observe citycode field.
-</code>
-
-- [afang5472/TP-Link-WDR-Router-Command-injection_POC](https://github.com/afang5472/TP-Link-WDR-Router-Command-injection_POC)
 
 ### CVE-2019-6690 (2019-03-17)
 
@@ -36701,6 +36687,7 @@
 - [Lynk4/CVE-2011-2523](https://github.com/Lynk4/CVE-2011-2523)
 - [vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523)
 - [chleba124/vsftpd-exploit](https://github.com/chleba124/vsftpd-exploit)
+- [4m3rr0r/CVE-2011-2523-poc](https://github.com/4m3rr0r/CVE-2011-2523-poc)
 
 ### CVE-2011-2894 (2011-10-04)
 
