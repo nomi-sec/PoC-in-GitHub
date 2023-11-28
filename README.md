@@ -811,7 +811,6 @@
 - [KernelKrise/CVE-2023-4911](https://github.com/KernelKrise/CVE-2023-4911)
 - [Diego-AltF4/CVE-2023-4911](https://github.com/Diego-AltF4/CVE-2023-4911)
 - [teraGL/looneyCVE](https://github.com/teraGL/looneyCVE)
-- [WhiteH4T-Dev/CVE-2023-4911-Looney-Tunables](https://github.com/WhiteH4T-Dev/CVE-2023-4911-Looney-Tunables)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -1404,6 +1403,7 @@
 - [sanjai-AK47/CVE-2023-22518](https://github.com/sanjai-AK47/CVE-2023-22518)
 - [0x0d3ad/CVE-2023-22518](https://github.com/0x0d3ad/CVE-2023-22518)
 - [ditekshen/ansible-cve-2023-22518](https://github.com/ditekshen/ansible-cve-2023-22518)
+- [C1ph3rX13/CVE-2023-22518](https://github.com/C1ph3rX13/CVE-2023-22518)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -4492,6 +4492,13 @@
 
 - [zaenhaxor/CVE-2023-41892](https://github.com/zaenhaxor/CVE-2023-41892)
 
+### CVE-2023-41991 (2023-09-21)
+
+<code>A certificate validation issue was addressed. This issue is fixed in macOS Ventura 13.6, iOS 16.7 and iPadOS 16.7. A malicious app may be able to bypass signature validation. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
+</code>
+
+- [ZZY3312/CVE-2023-41991](https://github.com/ZZY3312/CVE-2023-41991)
+
 ### CVE-2023-41993 (2023-09-21)
 
 <code>The issue was addressed with improved checks. This issue is fixed in Safari 17, iOS 16.7 and iPadOS 16.7, macOS Sonoma 14. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
@@ -4500,6 +4507,7 @@
 - [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
 - [hrtowii/cve-2023-41993-test](https://github.com/hrtowii/cve-2023-41993-test)
 - [Mangaia/cve-test](https://github.com/Mangaia/cve-test)
+- [ZZY3312/CVE-2023-41993](https://github.com/ZZY3312/CVE-2023-41993)
 
 ### CVE-2023-42222 (2023-09-27)
 
@@ -5356,7 +5364,7 @@
 - [rainbowhatrkn/CVE-2023-47246](https://github.com/rainbowhatrkn/CVE-2023-47246)
 - [tucommenceapousser/CVE-2023-47246](https://github.com/tucommenceapousser/CVE-2023-47246)
 
-### CVE-2023-47437 (-)
+### CVE-2023-47437 (2023-11-27)
 
 <code>A vulnerability has been identified in Pachno 1.0.6 allowing an authenticated attacker to execute a cross-site scripting (XSS) attack. The vulnerability exists due to inadequate input validation in the Project Description and comments, which enables an attacker to inject malicious java script.
 </code>
@@ -9090,6 +9098,7 @@
 - [meowhua15/CVE-2022-30190](https://github.com/meowhua15/CVE-2022-30190)
 - [aminetitrofine/CVE-2022-30190](https://github.com/aminetitrofine/CVE-2022-30190)
 - [Muhammad-Ali007/Follina_MSDT_CVE-2022-30190](https://github.com/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190)
+- [Jump-Wang-111/AmzWord](https://github.com/Jump-Wang-111/AmzWord)
 
 ### CVE-2022-30206 (2022-07-12)
 
