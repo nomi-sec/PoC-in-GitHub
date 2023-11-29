@@ -937,6 +937,9 @@
 - [hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC)
 - [thesafdari/CVE-2023-6063](https://github.com/thesafdari/CVE-2023-6063)
 
+### CVE-2023-6289
+- [RandomRobbieBF/CVE-2023-6289](https://github.com/RandomRobbieBF/CVE-2023-6289)
+
 ### CVE-2023-20025 (2023-01-20)
 
 <code>A vulnerability in the web-based management interface of Cisco Small Business RV042 Series Routers could allow an unauthenticated, remote attacker to bypass authentication on the affected device. This vulnerability is due to incorrect user input validation of incoming HTTP packets. An attacker could exploit this vulnerability by sending crafted requests to the web-based management interface. A successful exploit could allow the attacker to gain root privileges on the affected device.
@@ -3473,7 +3476,7 @@
 
 ### CVE-2023-35078 (2023-07-25)
 
-<code>\nIvanti Endpoint Manager Mobile (EPMM), formerly MobileIron Core, through 11.10 allows remote attackers to obtain PII, add an administrative account, and change the configuration because of an authentication bypass, as exploited in the wild in July 2023. A patch is available.
+<code>An authentication bypass vulnerability in Ivanti EPMM allows unauthorized users to access restricted functionality or resources of the application without proper authentication.
 </code>
 
 - [vchan-in/CVE-2023-35078-Exploit-POC](https://github.com/vchan-in/CVE-2023-35078-Exploit-POC)
@@ -5444,14 +5447,14 @@
 
 ### CVE-2023-48198 (2023-11-15)
 
-<code>Cross Site Scripting vulnerability in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the product description component in the api/stock/products endpoint.
+<code>A Cross-Site Scripting (XSS) vulnerability in the 'product description' component within '/api/stock/products' of Grocy version &lt;= 4.0.3 allows attackers to obtain a victim's cookies.
 </code>
 
 - [nitipoom-jar/CVE-2023-48198](https://github.com/nitipoom-jar/CVE-2023-48198)
 
 ### CVE-2023-48199 (2023-11-15)
 
-<code>An issue in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the QR code funciton in the manageapikeys component.
+<code>HTML Injection vulnerability in the 'manageApiKeys' component in Grocy &lt;= 4.0.3 allows attackers to inject arbitrary HTML content without script execution. This occurs when user-supplied data is not appropriately sanitized, enabling the injection of HTML tags through parameter values. The attacker can then manipulate page content in the QR code detail popup, often coupled with social engineering tactics, exploiting both the trust of users and the application's lack of proper input handling.
 </code>
 
 - [nitipoom-jar/CVE-2023-48199](https://github.com/nitipoom-jar/CVE-2023-48199)
@@ -27387,6 +27390,13 @@
 
 - [preempt/credssp](https://github.com/preempt/credssp)
 
+### CVE-2018-0952 (2018-08-15)
+
+<code>An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Collector allows file creation in arbitrary locations, aka &quot;Diagnostic Hub Standard Collector Elevation Of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Microsoft Visual Studio, Windows 10 Servers.
+</code>
+
+- [atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector)
+
 ### CVE-2018-0959 (2018-05-09)
 
 <code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka &quot;Hyper-V Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
@@ -28694,6 +28704,13 @@
 - [StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120)
 - [wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120)
 
+### CVE-2018-8172 (2018-07-10)
+
+<code>A remote code execution vulnerability exists in Visual Studio software when the software does not check the source markup of a file for an unbuilt project, aka &quot;Visual Studio Remote Code Execution Vulnerability.&quot; This affects Microsoft Visual Studio, Expression Blend 4.
+</code>
+
+- [SyFi/CVE-2018-8172](https://github.com/SyFi/CVE-2018-8172)
+
 ### CVE-2018-8174 (2018-05-09)
 
 <code>A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka &quot;Windows VBScript Engine Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
@@ -28963,6 +28980,7 @@
 </code>
 
 - [manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958](https://github.com/manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958)
+- [orangepirate/cve-2018-9948-9958-exp](https://github.com/orangepirate/cve-2018-9948-9958-exp)
 
 ### CVE-2018-9950 (2018-05-17)
 
@@ -29722,6 +29740,13 @@
 - [mrblue12-byte/CVE-2018-15473](https://github.com/mrblue12-byte/CVE-2018-15473)
 - [4xolotl/CVE-2018-15473](https://github.com/4xolotl/CVE-2018-15473)
 - [NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473)
+
+### CVE-2018-15499 (2018-08-24)
+
+<code>GEAR Software products that include GEARAspiWDM.sys, 2.2.5.0, allow local users to cause a denial of service (Race Condition and BSoD on Windows) by not checking that user-mode memory is available right before writing to it. A check is only performed at the beginning of a long subroutine.
+</code>
+
+- [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
 
 ### CVE-2018-15686 (2018-10-26)
 
@@ -33603,6 +33628,7 @@
 - [aishee/scan-dirtycow](https://github.com/aishee/scan-dirtycow)
 - [oleg-fiksel/ansible_CVE-2016-5195_check](https://github.com/oleg-fiksel/ansible_CVE-2016-5195_check)
 - [ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195)
+- [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
 - [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
@@ -33962,6 +33988,7 @@
 </code>
 
 - [sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870)
+- [rustyJ4ck/JoomlaCVE20168869](https://github.com/rustyJ4ck/JoomlaCVE20168869)
 - [cved-sources/cve-2016-8869](https://github.com/cved-sources/cve-2016-8869)
 
 ### CVE-2016-8870 (2016-11-04)
@@ -35280,6 +35307,13 @@
 
 - [ExploitCN/CVE-2014-1767-EXP-PAPER](https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER)
 
+### CVE-2014-1773 (2014-06-10)
+
+<code>Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-1783, CVE-2014-1784, CVE-2014-1786, CVE-2014-1795, CVE-2014-1805, CVE-2014-2758, CVE-2014-2759, CVE-2014-2765, CVE-2014-2766, and CVE-2014-2775.
+</code>
+
+- [day6reak/CVE-2014-1773](https://github.com/day6reak/CVE-2014-1773)
+
 ### CVE-2014-1812 (2014-05-14)
 
 <code>The Group Policy implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly handle distribution of passwords, which allows remote authenticated users to obtain sensitive credential information and consequently gain privileges by leveraging access to the SYSVOL share, as exploited in the wild in May 2014, aka &quot;Group Policy Preferences Password Elevation of Privilege Vulnerability.&quot;
@@ -35447,6 +35481,13 @@
 </code>
 
 - [fungoshacks/CVE-2014-4076](https://github.com/fungoshacks/CVE-2014-4076)
+
+### CVE-2014-4109 (2014-09-09)
+
+<code>Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-2799, CVE-2014-4059, CVE-2014-4065, CVE-2014-4079, CVE-2014-4081, CVE-2014-4083, CVE-2014-4085, CVE-2014-4088, CVE-2014-4090, CVE-2014-4094, CVE-2014-4097, CVE-2014-4100, CVE-2014-4103, CVE-2014-4104, CVE-2014-4105, CVE-2014-4106, CVE-2014-4107, CVE-2014-4108, CVE-2014-4110, and CVE-2014-4111.
+</code>
+
+- [day6reak/CVE-2014-4109](https://github.com/day6reak/CVE-2014-4109)
 
 ### CVE-2014-4113 (2014-10-15)
 
