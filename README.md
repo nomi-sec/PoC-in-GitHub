@@ -5418,6 +5418,9 @@
 
 - [RandomRobbieBF/CVE-2023-47668](https://github.com/RandomRobbieBF/CVE-2023-47668)
 
+### CVE-2023-47840
+- [RandomRobbieBF/CVE-2023-47840](https://github.com/RandomRobbieBF/CVE-2023-47840)
+
 ### CVE-2023-48028 (2023-11-17)
 
 <code>kodbox 1.46.01 has a security flaw that enables user enumeration. This problem is present on the login page, where an attacker can identify valid users based on varying response messages, potentially paving the way for a brute force attack.
@@ -5486,6 +5489,7 @@
 </code>
 
 - [creacitysec/CVE-2023-49103](https://github.com/creacitysec/CVE-2023-49103)
+- [ditekshen/ansible-cve-2023-49103](https://github.com/ditekshen/ansible-cve-2023-49103)
 
 ### CVE-2023-49313 (2023-11-28)
 
@@ -35160,11 +35164,9 @@
 - [sammyfung/openssl-heartbleed-fix](https://github.com/sammyfung/openssl-heartbleed-fix)
 - [a0726h77/heartbleed-test](https://github.com/a0726h77/heartbleed-test)
 - [hreese/heartbleed-dtls](https://github.com/hreese/heartbleed-dtls)
-- [wwwiretap/bleeding_onions](https://github.com/wwwiretap/bleeding_onions)
 - [idkqh7/heatbleeding](https://github.com/idkqh7/heatbleeding)
 - [GeeksXtreme/ssl-heartbleed.nse](https://github.com/GeeksXtreme/ssl-heartbleed.nse)
 - [xlucas/heartbleed](https://github.com/xlucas/heartbleed)
-- [indiw0rm/-Heartbleed-](https://github.com/indiw0rm/-Heartbleed-)
 - [einaros/heartbleed-tools](https://github.com/einaros/heartbleed-tools)
 - [mozilla-services/Heartbleed](https://github.com/mozilla-services/Heartbleed)
 - [yryz/heartbleed.js](https://github.com/yryz/heartbleed.js)
@@ -35287,7 +35289,6 @@
 <code>The SSLVerifySignedServerKeyExchange function in libsecurity_ssl/lib/sslKeyExchange.c in the Secure Transport feature in the Data Security component in Apple iOS 6.x before 6.1.6 and 7.x before 7.0.6, Apple TV 6.x before 6.0.2, and Apple OS X 10.9.x before 10.9.2 does not check the signature in a TLS Server Key Exchange message, which allows man-in-the-middle attackers to spoof SSL servers by (1) using an arbitrary private key for the signing step or (2) omitting the signing step.
 </code>
 
-- [landonf/Testability-CVE-2014-1266](https://github.com/landonf/Testability-CVE-2014-1266)
 - [linusyang/SSLPatch](https://github.com/linusyang/SSLPatch)
 - [gabrielg/CVE-2014-1266-poc](https://github.com/gabrielg/CVE-2014-1266-poc)
 
@@ -35389,7 +35390,6 @@
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
-- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-2815 (2014-08-12)
 
