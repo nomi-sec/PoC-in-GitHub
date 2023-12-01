@@ -5266,6 +5266,7 @@
 <code>The Java OpenWire protocol marshaller is vulnerable to Remote Code \nExecution. This vulnerability may allow a remote attacker with network \naccess to either a Java-based OpenWire broker or client to run arbitrary\n shell commands by manipulating serialized class types in the OpenWire \nprotocol to cause either the client or the broker (respectively) to \ninstantiate any class on the classpath.\n\nUsers are recommended to upgrade\n both brokers and clients to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3 \nwhich fixes this issue.\n\n
 </code>
 
+- [trganda/ActiveMQ-RCE](https://github.com/trganda/ActiveMQ-RCE)
 - [X1r0z/ActiveMQ-RCE](https://github.com/X1r0z/ActiveMQ-RCE)
 - [JaneMandy/ActiveMQ_RCE_Pro_Max](https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max)
 - [SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ](https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ)
@@ -5481,6 +5482,9 @@
 </code>
 
 - [nitipoom-jar/CVE-2023-48200](https://github.com/nitipoom-jar/CVE-2023-48200)
+
+### CVE-2023-48849
+- [delsploit/CVE-2023-48849](https://github.com/delsploit/CVE-2023-48849)
 
 ### CVE-2023-48866
 - [nitipoom-jar/CVE-2023-48866](https://github.com/nitipoom-jar/CVE-2023-48866)
@@ -10337,6 +10341,9 @@
 
 - [LucaBarile/CVE-2022-38604](https://github.com/LucaBarile/CVE-2022-38604)
 
+### CVE-2022-38691
+- [TomKing062/CVE-2022-38691_38692](https://github.com/TomKing062/CVE-2022-38691_38692)
+
 ### CVE-2022-38694
 - [TomKing062/CVE-2022-38694_unlock_bootloader](https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader)
 
@@ -10577,6 +10584,20 @@
 </code>
 
 - [dhammon/pfBlockerNg-CVE-2022-40624](https://github.com/dhammon/pfBlockerNg-CVE-2022-40624)
+
+### CVE-2022-40634 (2022-09-13)
+
+<code>Improper Control of Dynamically-Managed Code Resources vulnerability in Crafter Studio of Crafter CMS allows authenticated developers to execute OS commands via FreeMarker SSTI.
+</code>
+
+- [mbadanoiu/CVE-2022-40634](https://github.com/mbadanoiu/CVE-2022-40634)
+
+### CVE-2022-40635 (2022-09-13)
+
+<code>Improper Control of Dynamically-Managed Code Resources vulnerability in Crafter Studio of Crafter CMS allows authenticated developers to execute OS commands via Groovy Sandbox Bypass.
+</code>
+
+- [mbadanoiu/CVE-2022-40635](https://github.com/mbadanoiu/CVE-2022-40635)
 
 ### CVE-2022-40684 (2022-10-18)
 
