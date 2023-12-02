@@ -12074,6 +12074,13 @@
 
 - [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2021-0481](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2021-0481)
 
+### CVE-2021-0485 (2021-06-11)
+
+<code>In getMinimalSize of PipBoundsAlgorithm.java, there is a possible bypass of restrictions on background processes due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11Android ID: A-174302616
+</code>
+
+- [aatharvauti/CVE-2021-0485](https://github.com/aatharvauti/CVE-2021-0485)
+
 ### CVE-2021-0506 (2021-06-21)
 
 <code>In ActivityPicker.java, there is a possible bypass of user interaction in intent resolution due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-8.1 Android-9Android ID: A-181962311
