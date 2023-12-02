@@ -3246,6 +3246,13 @@
 
 - [mnqazi/CVE-2023-33977](https://github.com/mnqazi/CVE-2023-33977)
 
+### CVE-2023-34034 (2023-07-19)
+
+<code>Using &quot;**&quot; as a pattern in Spring Security configuration \nfor WebFlux creates a mismatch in pattern matching between Spring \nSecurity and Spring WebFlux, and the potential for a security bypass.\n\n
+</code>
+
+- [hotblac/cve-2023-34034](https://github.com/hotblac/cve-2023-34034)
+
 ### CVE-2023-34035 (2023-07-18)
 
 <code>Spring Security versions 5.8 prior to 5.8.5, 6.0 prior to 6.0.5, and 6.1 prior to 6.1.2 could be susceptible to authorization rule misconfiguration if the application uses requestMatchers(String) and multiple servlets, one of them being Spring MVC’s DispatcherServlet. (DispatcherServlet is a Spring MVC component that maps HTTP endpoints to methods on @Controller-annotated classes.)\n\nSpecifically, an application is vulnerable when all of the following are true:\n\n  *  Spring MVC is on the classpath\n  *  Spring Security is securing more than one servlet in a single application (one of them being Spring MVC’s DispatcherServlet)\n  *  The application uses requestMatchers(String) to refer to endpoints that are not Spring MVC endpoints\n\n\nAn application is not vulnerable if any of the following is true:\n\n  *  The application does not have Spring MVC on the classpath\n  *  The application secures no servlets other than Spring MVC’s DispatcherServlet\n  *  The application uses requestMatchers(String) only for Spring MVC endpoints\n\n\n\n
@@ -5510,6 +5517,7 @@
 
 - [creacitysec/CVE-2023-49103](https://github.com/creacitysec/CVE-2023-49103)
 - [ditekshen/ansible-cve-2023-49103](https://github.com/ditekshen/ansible-cve-2023-49103)
+- [MixColumns/CVE-2023-49103](https://github.com/MixColumns/CVE-2023-49103)
 
 ### CVE-2023-49313 (2023-11-28)
 
