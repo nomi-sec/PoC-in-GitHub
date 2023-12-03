@@ -57,7 +57,6 @@
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
-- [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
@@ -1267,13 +1266,6 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
-### CVE-2023-21739 (2023-01-10)
-
-<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
-</code>
-
-- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
-
 ### CVE-2023-21742 (2023-01-10)
 
 <code>Microsoft SharePoint Server Remote Code Execution Vulnerability
@@ -1293,7 +1285,6 @@
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
-- [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
@@ -4110,7 +4101,6 @@
 - [AnvithLobo/CVE-2023-38646](https://github.com/AnvithLobo/CVE-2023-38646)
 - [Red4mber/CVE-2023-38646](https://github.com/Red4mber/CVE-2023-38646)
 - [junnythemarksman/CVE-2023-38646](https://github.com/junnythemarksman/CVE-2023-38646)
-- [Itrekr/CVE-2023-38646-Crapsploit](https://github.com/Itrekr/CVE-2023-38646-Crapsploit)
 - [Mrunalkaran/CVE-2023-38646](https://github.com/Mrunalkaran/CVE-2023-38646)
 - [j0yb0y0h/CVE-2023-38646](https://github.com/j0yb0y0h/CVE-2023-38646)
 - [Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646)
@@ -12081,13 +12071,6 @@
 
 - [ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2021-0481](https://github.com/ShaikUsaf/packages_apps_settings_AOSP10_r33_CVE-2021-0481)
 
-### CVE-2021-0485 (2021-06-11)
-
-<code>In getMinimalSize of PipBoundsAlgorithm.java, there is a possible bypass of restrictions on background processes due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11Android ID: A-174302616
-</code>
-
-- [aatharvauti/CVE-2021-0485](https://github.com/aatharvauti/CVE-2021-0485)
-
 ### CVE-2021-0506 (2021-06-21)
 
 <code>In ActivityPicker.java, there is a possible bypass of user interaction in intent resolution due to a tapjacking/overlay attack. This could lead to local escalation of privilege with User execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-8.1 Android-9Android ID: A-181962311
@@ -20023,7 +20006,6 @@
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
 - [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
-- [gatariee/CVE-2020-7247](https://github.com/gatariee/CVE-2020-7247)
 
 ### CVE-2020-7283 (2020-07-03)
 
