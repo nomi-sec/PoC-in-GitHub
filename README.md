@@ -5497,6 +5497,13 @@
 
 - [nitipoom-jar/CVE-2023-48200](https://github.com/nitipoom-jar/CVE-2023-48200)
 
+### CVE-2023-48842 (2023-12-01)
+
+<code>D-Link Go-RT-AC750 revA_v101b03 was discovered to contain a command injection vulnerability via the service parameter at hedwig.cgi.
+</code>
+
+- [creacitysec/CVE-2023-48842](https://github.com/creacitysec/CVE-2023-48842)
+
 ### CVE-2023-48849
 - [delsploit/CVE-2023-48849](https://github.com/delsploit/CVE-2023-48849)
 
