@@ -57,6 +57,7 @@
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
+- [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
@@ -1266,6 +1267,13 @@
 - [Lord-of-the-IoT/CVE-2023-21716](https://github.com/Lord-of-the-IoT/CVE-2023-21716)
 - [MojithaR/CVE-2023-21716-EXPLOIT.py](https://github.com/MojithaR/CVE-2023-21716-EXPLOIT.py)
 
+### CVE-2023-21739 (2023-01-10)
+
+<code>Windows Bluetooth Driver Elevation of Privilege Vulnerability
+</code>
+
+- [gmh5225/CVE-2023-21739](https://github.com/gmh5225/CVE-2023-21739)
+
 ### CVE-2023-21742 (2023-01-10)
 
 <code>Microsoft SharePoint Server Remote Code Execution Vulnerability
@@ -1285,6 +1293,7 @@
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
+- [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
@@ -1334,6 +1343,7 @@
 - [houqe/POC_CVE-2023-21839](https://github.com/houqe/POC_CVE-2023-21839)
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [MMarch7/weblogic_CVE-2023-21839_POC-EXP](https://github.com/MMarch7/weblogic_CVE-2023-21839_POC-EXP)
+- [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 
 ### CVE-2023-21931 (2023-04-18)
 
@@ -10420,6 +10430,7 @@
 - [TheCryingGame/CVE-2022-39197-RCE](https://github.com/TheCryingGame/CVE-2022-39197-RCE)
 - [adeljck/CVE-2022-39197](https://github.com/adeljck/CVE-2022-39197)
 - [xiao-zhu-zhu/pig_CS4.4](https://github.com/xiao-zhu-zhu/pig_CS4.4)
+- [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
 
 ### CVE-2022-39227 (2022-09-23)
 
@@ -21568,6 +21579,7 @@
 </code>
 
 - [c0brabaghdad1/CVE-2020-14179](https://github.com/c0brabaghdad1/CVE-2020-14179)
+- [mrnazu/CVE-2020-14179](https://github.com/mrnazu/CVE-2020-14179)
 
 ### CVE-2020-14181 (2020-09-16)
 
@@ -37574,26 +37586,12 @@
 
 - [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
 
-### CVE-2005-1794 (2005-06-01)
-
-<code>Microsoft Terminal Server using Remote Desktop Protocol (RDP) 5.2 stores an RSA private key in mstlsapi.dll and uses it to sign a certificate, which allows remote attackers to spoof public keys of legitimate servers and conduct man-in-the-middle attacks.
-</code>
-
-- [InitRoot/CVE-2005-1794Scanner](https://github.com/InitRoot/CVE-2005-1794Scanner)
-
 ### CVE-2005-2428 (2005-08-03)
 
 <code>Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
 </code>
 
 - [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
-
-### CVE-2005-3299 (2005-10-23)
-
-<code>PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
-</code>
-
-- [RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299)
 
 
 ## 2004
