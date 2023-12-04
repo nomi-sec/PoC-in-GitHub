@@ -1643,6 +1643,7 @@
 - [Ly0kha/Joomla-CVE-2023-23752-Exploit-Script](https://github.com/Ly0kha/Joomla-CVE-2023-23752-Exploit-Script)
 - [r3dston3/CVE-2023-23752](https://github.com/r3dston3/CVE-2023-23752)
 - [svaltheim/CVE-2023-23752](https://github.com/svaltheim/CVE-2023-23752)
+- [Fernando-olv/Joomla-CVE-2023-23752](https://github.com/Fernando-olv/Joomla-CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
