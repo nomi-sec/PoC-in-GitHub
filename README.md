@@ -2028,7 +2028,7 @@
 - [HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53](https://github.com/HusenjanDev/CVE-2023-27163-AND-Mailtrail-v0.53)
 - [rvizx/CVE-2023-27163](https://github.com/rvizx/CVE-2023-27163)
 - [thomas-osgood/CVE-2023-27163](https://github.com/thomas-osgood/CVE-2023-27163)
-- [0xFTW/CVE-2023-27163](https://github.com/0xFTW/CVE-2023-27163)
+- [cowsecurity/CVE-2023-27163](https://github.com/cowsecurity/CVE-2023-27163)
 - [samh4cks/CVE-2023-27163-InternalProber](https://github.com/samh4cks/CVE-2023-27163-InternalProber)
 - [Hamibubu/CVE-2023-27163](https://github.com/Hamibubu/CVE-2023-27163)
 
@@ -2154,7 +2154,7 @@
 </code>
 
 - [tristao-marinho/CVE-2023-27842](https://github.com/tristao-marinho/CVE-2023-27842)
-- [0xFTW/CVE-2023-27842](https://github.com/0xFTW/CVE-2023-27842)
+- [cowsecurity/CVE-2023-27842](https://github.com/cowsecurity/CVE-2023-27842)
 
 ### CVE-2023-27997 (2023-06-13)
 
@@ -7634,7 +7634,7 @@
 </code>
 
 - [dpbe32/CVE-2022-23935-PoC-Exploit](https://github.com/dpbe32/CVE-2022-23935-PoC-Exploit)
-- [0xFTW/CVE-2022-23935](https://github.com/0xFTW/CVE-2022-23935)
+- [cowsecurity/CVE-2022-23935](https://github.com/cowsecurity/CVE-2022-23935)
 - [BKreisel/CVE-2022-23935](https://github.com/BKreisel/CVE-2022-23935)
 
 ### CVE-2022-23940 (2022-03-07)
@@ -36799,7 +36799,7 @@
 - [0xSojalSec/-CVE-2011-2523](https://github.com/0xSojalSec/-CVE-2011-2523)
 - [0xSojalSec/CVE-2011-2523](https://github.com/0xSojalSec/CVE-2011-2523)
 - [XiangSi-Howard/CTF---CVE-2011-2523](https://github.com/XiangSi-Howard/CTF---CVE-2011-2523)
-- [0xFTW/CVE-2011-2523](https://github.com/0xFTW/CVE-2011-2523)
+- [cowsecurity/CVE-2011-2523](https://github.com/cowsecurity/CVE-2011-2523)
 - [Lynk4/CVE-2011-2523](https://github.com/Lynk4/CVE-2011-2523)
 - [vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523)
 - [chleba124/vsftpd-exploit](https://github.com/chleba124/vsftpd-exploit)
@@ -37586,12 +37586,26 @@
 
 - [tagatac/libsafe-CVE-2005-1125](https://github.com/tagatac/libsafe-CVE-2005-1125)
 
+### CVE-2005-1794 (2005-06-01)
+
+<code>Microsoft Terminal Server using Remote Desktop Protocol (RDP) 5.2 stores an RSA private key in mstlsapi.dll and uses it to sign a certificate, which allows remote attackers to spoof public keys of legitimate servers and conduct man-in-the-middle attacks.
+</code>
+
+- [InitRoot/CVE-2005-1794Scanner](https://github.com/InitRoot/CVE-2005-1794Scanner)
+
 ### CVE-2005-2428 (2005-08-03)
 
 <code>Lotus Domino R5 and R6 WebMail, with &quot;Generate HTML for all fields&quot; enabled, stores sensitive data from names.nsf in hidden form fields, which allows remote attackers to read the HTML source to obtain sensitive information such as (1) the password hash in the HTTPPassword field, (2) the password change date in the HTTPPasswordChangeDate field, (3) the client platform in the ClntPltfrm field, (4) the client machine name in the ClntMachine field, and (5) the client Lotus Domino release in the ClntBld field, a different vulnerability than CVE-2005-2696.
 </code>
 
 - [schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit](https://github.com/schwankner/CVE-2005-2428-IBM-Lotus-Domino-R8-Password-Hash-Extraction-Exploit)
+
+### CVE-2005-3299 (2005-10-23)
+
+<code>PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
+</code>
+
+- [RizeKishimaro/CVE-2005-3299](https://github.com/RizeKishimaro/CVE-2005-3299)
 
 
 ## 2004
