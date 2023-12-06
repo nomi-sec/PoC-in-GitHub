@@ -32,7 +32,7 @@
 
 ### CVE-2023-0159 (2023-02-13)
 
-<code>The Extensive VC Addons for WPBakery page builder WordPress plugin before 1.9.1 does not validate a parameter passed to the php extract function when loading templates, allowing an unauthenticated attacker to override the template path to read arbitrary files from the hosts file system.
+<code>The Extensive VC Addons for WPBakery page builder WordPress plugin before 1.9.1 does not validate a parameter passed to the php extract function when loading templates, allowing an unauthenticated attacker to override the template path to read arbitrary files from the hosts file system. This may be escalated to RCE using PHP filter chains.
 </code>
 
 - [im-hanzou/EVCer](https://github.com/im-hanzou/EVCer)
@@ -161,6 +161,13 @@
 - [hh-hunter/ml-CVE-2023-1177](https://github.com/hh-hunter/ml-CVE-2023-1177)
 - [iumiro/CVE-2023-1177-MLFlow](https://github.com/iumiro/CVE-2023-1177-MLFlow)
 - [tiyeume25112004/CVE-2023-1177-rebuild](https://github.com/tiyeume25112004/CVE-2023-1177-rebuild)
+
+### CVE-2023-1326 (2023-04-13)
+
+<code>A privilege escalation attack was found in apport-cli 2.26.0 and earlier which is similar to CVE-2023-26604. If a system is specially configured to allow unprivileged users to run sudo apport-cli, less is configured as the pager, and the terminal size can be set: a local attacker can escalate privilege. It is extremely unlikely that a system administrator would configure sudo to allow unprivileged users to perform this class of exploit.
+</code>
+
+- [diego-tella/CVE-2023-1326-PoC](https://github.com/diego-tella/CVE-2023-1326-PoC)
 
 ### CVE-2023-1337 (2023-03-10)
 
@@ -12857,7 +12864,6 @@
 - [briskets/CVE-2021-3493](https://github.com/briskets/CVE-2021-3493)
 - [oneoy/CVE-2021-3493](https://github.com/oneoy/CVE-2021-3493)
 - [Abdennour-py/CVE-2021-3493](https://github.com/Abdennour-py/CVE-2021-3493)
-- [Ishan3011/CVE-2021-3493](https://github.com/Ishan3011/CVE-2021-3493)
 - [inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
 - [derek-turing/CVE-2021-3493](https://github.com/derek-turing/CVE-2021-3493)
 - [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
@@ -13421,6 +13427,13 @@
 - [somatrasss/CVE-2021-21402](https://github.com/somatrasss/CVE-2021-21402)
 - [givemefivw/CVE-2021-21402](https://github.com/givemefivw/CVE-2021-21402)
 
+### CVE-2021-21403 (2021-03-26)
+
+<code>In github.com/kongchuanhujiao/server before version 1.3.21 there is an authentication Bypass by Primary Weakness vulnerability. All users are impacted. This is fixed in version 1.3.21.
+</code>
+
+- [5l1v3r1/CVE-2021-21403](https://github.com/5l1v3r1/CVE-2021-21403)
+
 ### CVE-2021-21425 (2021-04-07)
 
 <code>Grav Admin Plugin is an HTML user interface that provides a way to configure Grav and create and modify pages. In versions 1.10.7 and earlier, an unauthenticated user can execute some methods of administrator controller without needing any credentials. Particular method execution will result in arbitrary YAML file creation or content change of existing YAML files on the system. Successfully exploitation of that vulnerability results in configuration changes, such as general site information change, custom scheduler job definition, etc. Due to the nature of the vulnerability, an adversary can change some part of the webpage, or hijack an administrator account, or execute operating system command under the context of the web-server user. This vulnerability is fixed in version 1.10.8. Blocking access to the `/admin` path from untrusted sources can be applied as a workaround.
@@ -13508,7 +13521,7 @@
 
 - [Shadow0ps/CVE-2021-21974](https://github.com/Shadow0ps/CVE-2021-21974)
 - [n2x4/Feb2023-CVE-2021-21974-OSINT](https://github.com/n2x4/Feb2023-CVE-2021-21974-OSINT)
-- [CYBERTHREATANALYSIS/ESXi_ransomware_scanner](https://github.com/CYBERTHREATANALYSIS/ESXi_ransomware_scanner)
+- [CYBERTHREATANALYSIS/ESXi-Ransomware-Scanner-mi](https://github.com/CYBERTHREATANALYSIS/ESXi-Ransomware-Scanner-mi)
 - [hateme021202/cve-2021-21974](https://github.com/hateme021202/cve-2021-21974)
 
 ### CVE-2021-21975 (2021-03-31)
@@ -13580,6 +13593,7 @@
 - [TiagoSergio/CVE-2021-22005](https://github.com/TiagoSergio/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
+- [timb-machine-mirrors/testanull-CVE-2021-22005.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-22005.py)
 - [InventorMAO/cve-2021-22005](https://github.com/InventorMAO/cve-2021-22005)
 
 ### CVE-2021-22006 (2021-09-23)
@@ -13722,6 +13736,7 @@
 - [aaminin/CVE-2021-22214](https://github.com/aaminin/CVE-2021-22214)
 - [Vulnmachines/gitlab-cve-2021-22214](https://github.com/Vulnmachines/gitlab-cve-2021-22214)
 - [antx-code/CVE-2021-22214](https://github.com/antx-code/CVE-2021-22214)
+- [kh4sh3i/GitLab-SSRF-CVE-2021-22214](https://github.com/kh4sh3i/GitLab-SSRF-CVE-2021-22214)
 
 ### CVE-2021-22555 (2021-07-07)
 
@@ -13935,6 +13950,13 @@
 
 - [hnthuan1998/CVE-2021-24160](https://github.com/hnthuan1998/CVE-2021-24160)
 - [hnthuan1998/Exploit-CVE-2021-24160](https://github.com/hnthuan1998/Exploit-CVE-2021-24160)
+
+### CVE-2021-24307 (2021-05-24)
+
+<code>The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Rankings before 4.1.0.2 enables authenticated users with &quot;aioseo_tools_settings&quot; privilege (most of the time admin) to execute arbitrary code on the underlying host. Users can restore plugin's configuration by uploading a backup .ini file in the section &quot;Tool &gt; Import/Export&quot;. However, the plugin attempts to unserialize values of the .ini file. Moreover, the plugin embeds Monolog library which can be used to craft a gadget chain and thus trigger system command execution.
+</code>
+
+- [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
 
 ### CVE-2021-24347 (2021-06-14)
 
@@ -14392,6 +14414,7 @@
 - [1342486672/Flangvik](https://github.com/1342486672/Flangvik)
 - [TheDudeD6/ExchangeSmash](https://github.com/TheDudeD6/ExchangeSmash)
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
+- [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
 - [iceberg-N/cve-2021-26855](https://github.com/iceberg-N/cve-2021-26855)
 
@@ -14677,6 +14700,7 @@
 
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 - [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
+- [timb-machine-mirrors/testanull-CVE-2021-28482.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-28482.py)
 
 ### CVE-2021-28663 (2021-05-10)
 
@@ -14684,6 +14708,9 @@
 </code>
 
 - [lntrx/CVE-2021-28663](https://github.com/lntrx/CVE-2021-28663)
+
+### CVE-2021-28750
+- [PfalzPrince/CVE-2021-28750-site](https://github.com/PfalzPrince/CVE-2021-28750-site)
 
 ### CVE-2021-29003 (2021-04-13)
 
@@ -14906,6 +14933,13 @@
 
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
+
+### CVE-2021-30853 (2021-08-24)
+
+<code>This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
+</code>
+
+- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
 
 ### CVE-2021-30858 (2021-08-24)
 
@@ -16555,6 +16589,7 @@
 <code>Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-2021-42305.
 </code>
 
+- [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
 - [0xrobiul/CVE-2021-41349](https://github.com/0xrobiul/CVE-2021-41349)
 
 ### CVE-2021-41351 (2021-11-09)
@@ -16961,6 +16996,7 @@
 </code>
 
 - [DarkSprings/CVE-2021-42321](https://github.com/DarkSprings/CVE-2021-42321)
+- [timb-machine-mirrors/testanull-CVE-2021-42321_poc.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-42321_poc.py)
 - [xnyuq/cve-2021-42321](https://github.com/xnyuq/cve-2021-42321)
 - [7BitsTeam/exch_CVE-2021-42321](https://github.com/7BitsTeam/exch_CVE-2021-42321)
 
@@ -16984,6 +17020,7 @@
 </code>
 
 - [kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-](https://github.com/kimusan/goahead-webserver-pre-5.1.5-RCE-PoC-CVE-2021-42342-)
+- [Mr-xn/CVE-2021-42342](https://github.com/Mr-xn/CVE-2021-42342)
 - [ijh4723/-zeroboo-Gohead-CVE-2021-42342-1](https://github.com/ijh4723/-zeroboo-Gohead-CVE-2021-42342-1)
 
 ### CVE-2021-42362 (2021-11-17)
@@ -17358,6 +17395,8 @@
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
 - [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
+- [BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read](https://github.com/BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read)
+- [lalkaltest/CVE-2021-43798](https://github.com/lalkaltest/CVE-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
 - [G01d3nW01f/CVE-2021-43798](https://github.com/G01d3nW01f/CVE-2021-43798)
 - [mauricelambert/LabAutomationCVE-2021-43798](https://github.com/mauricelambert/LabAutomationCVE-2021-43798)
@@ -17400,6 +17439,7 @@
 <code>Gerapy is a distributed crawler management framework. Gerapy prior to version 0.9.8 is vulnerable to remote code execution, and this issue is patched in version 0.9.8.
 </code>
 
+- [LongWayHomie/CVE-2021-43857](https://github.com/LongWayHomie/CVE-2021-43857)
 - [lowkey0808/CVE-2021-43857](https://github.com/lowkey0808/CVE-2021-43857)
 
 ### CVE-2021-43858 (2021-12-27)
@@ -17407,6 +17447,7 @@
 <code>MinIO is a Kubernetes native application for cloud storage. Prior to version `RELEASE.2021-12-27T07-23-18Z`, a malicious client can hand-craft an HTTP API call that allows for updating policy for a user and gaining higher privileges. The patch in version `RELEASE.2021-12-27T07-23-18Z` changes the accepted request body type and removes the ability to apply policy changes through this API. There is a workaround for this vulnerability: Changing passwords can be disabled by adding an explicit `Deny` rule to disable the API for users.
 </code>
 
+- [0rx1/cve-2021-43858](https://github.com/0rx1/cve-2021-43858)
 - [khuntor/CVE-2021-43858-MinIO](https://github.com/khuntor/CVE-2021-43858-MinIO)
 
 ### CVE-2021-43883 (2021-12-15)
@@ -17823,9 +17864,13 @@
 - [PoneyClairDeLune/LogJackFix](https://github.com/PoneyClairDeLune/LogJackFix)
 - [MarceloLeite2604/log4j-vulnerability](https://github.com/MarceloLeite2604/log4j-vulnerability)
 - [romanutti/log4shell-vulnerable-app](https://github.com/romanutti/log4shell-vulnerable-app)
+- [marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.](https://github.com/marklindsey11/-CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CVE-2021-44228-https-nvd.)
+- [marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV](https://github.com/marklindsey11/gh-repo-clone-marklindsey11--CVE-2021-44228_scanner-Applications-that-are-vulnerable-to-the-log4j-CV)
 - [mklinkj/log4j2-test](https://github.com/mklinkj/log4j2-test)
 - [4jfinder/4jfinder.github.io](https://github.com/4jfinder/4jfinder.github.io)
 - [alexpena5635/CVE-2021-44228_scanner-main-Modified-](https://github.com/alexpena5635/CVE-2021-44228_scanner-main-Modified-)
+- [kanitan/log4j2-web-vulnerable](https://github.com/kanitan/log4j2-web-vulnerable)
+- [mr-r3b00t/CVE-2021-44228](https://github.com/mr-r3b00t/CVE-2021-44228)
 - [ChandanShastri/Log4j_Vulnerability_Demo](https://github.com/ChandanShastri/Log4j_Vulnerability_Demo)
 - [puzzlepeaches/Log4jHorizon](https://github.com/puzzlepeaches/Log4jHorizon)
 - [Vulnmachines/log4jshell_CVE-2021-44228](https://github.com/Vulnmachines/log4jshell_CVE-2021-44228)
@@ -17834,6 +17879,8 @@
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
+- [atlassion/log4j-exploit-builder](https://github.com/atlassion/log4j-exploit-builder)
+- [atlassion/RS4LOGJ-CVE-2021-44228](https://github.com/atlassion/RS4LOGJ-CVE-2021-44228)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
@@ -17851,11 +17898,13 @@
 - [Jun-5heng/CVE-2021-44228](https://github.com/Jun-5heng/CVE-2021-44228)
 - [honypot/CVE-2021-44228](https://github.com/honypot/CVE-2021-44228)
 - [honypot/CVE-2021-44228-vuln-app](https://github.com/honypot/CVE-2021-44228-vuln-app)
+- [vulnerable-apps/log4shell-honeypot](https://github.com/vulnerable-apps/log4shell-honeypot)
 - [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
 - [TPower2112/Writing-Sample-1](https://github.com/TPower2112/Writing-Sample-1)
 - [Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228](https://github.com/Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228)
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
+- [hassaanahmad813/log4j](https://github.com/hassaanahmad813/log4j)
 - [yuuki1967/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/yuuki1967/CVE-2021-44228-Apache-Log4j-Rce)
 - [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 - [jaehnri/CVE-2021-44228](https://github.com/jaehnri/CVE-2021-44228)
@@ -18087,6 +18136,7 @@
 - [jxpsx/CVE-2021-45232-RCE](https://github.com/jxpsx/CVE-2021-45232-RCE)
 - [wuppp/cve-2021-45232-exp](https://github.com/wuppp/cve-2021-45232-exp)
 - [dskho/CVE-2021-45232](https://github.com/dskho/CVE-2021-45232)
+- [itxfahdi/-cve-2021-45232](https://github.com/itxfahdi/-cve-2021-45232)
 - [GYLQ/CVE-2021-45232-RCE](https://github.com/GYLQ/CVE-2021-45232-RCE)
 - [Kuibagit/CVE-2021-45232-RCE](https://github.com/Kuibagit/CVE-2021-45232-RCE)
 - [yggcwhat/Demo](https://github.com/yggcwhat/Demo)
