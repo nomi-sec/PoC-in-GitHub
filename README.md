@@ -4285,7 +4285,11 @@
 
 - [dnkhack/fixcve2023_39526_2023_39527](https://github.com/dnkhack/fixcve2023_39526_2023_39527)
 
-### CVE-2023-39539
+### CVE-2023-39539 (2023-12-06)
+
+<code>\nAMI AptioV contains a vulnerability in BIOS where a User may cause an unrestricted upload of a PNG Logo file with dangerous type by Local access. A successful exploit of this vulnerability may lead to a loss of Confidentiality, Integrity, and/or Availability. \n\n\n\n\n\n
+</code>
+
 - [AdamWen230/CVE-2023-39539-PoC](https://github.com/AdamWen230/CVE-2023-39539-PoC)
 
 ### CVE-2023-39707 (2023-08-25)
@@ -5290,6 +5294,9 @@
 
 - [sajaljat/CVE-2023-46451](https://github.com/sajaljat/CVE-2023-46451)
 
+### CVE-2023-46474
+- [Xn2/CVE-2023-46474](https://github.com/Xn2/CVE-2023-46474)
+
 ### CVE-2023-46478 (2023-10-30)
 
 <code>An issue in minCal v.1.0.0 allows a remote attacker to execute arbitrary code via a crafted script to the customer_data parameter.
@@ -5616,21 +5623,6 @@
 - [veritas501/CVE-2022-0185-PipeVersion](https://github.com/veritas501/CVE-2022-0185-PipeVersion)
 - [featherL/CVE-2022-0185-exploit](https://github.com/featherL/CVE-2022-0185-exploit)
 
-### CVE-2022-0219 (2022-01-20)
-
-<code>Improper Restriction of XML External Entity Reference in GitHub repository skylot/jadx prior to 1.3.2.
-</code>
-
-- [Haxatron/CVE-2022-0219](https://github.com/Haxatron/CVE-2022-0219)
-
-### CVE-2022-0236 (2022-01-18)
-
-<code>The WP Import Export WordPress plugin (both free and premium versions) is vulnerable to unauthenticated sensitive data disclosure due to a missing capability check on the download function wpie_process_file_download found in the ~/includes/classes/class-wpie-general.php file. This made it possible for unauthenticated attackers to download any imported or exported information from a vulnerable site which can contain sensitive information like user data. This affects versions up to, and including, 3.9.15.
-</code>
-
-- [qurbat/CVE-2022-0236](https://github.com/qurbat/CVE-2022-0236)
-- [xiska62314/CVE-2022-0236](https://github.com/xiska62314/CVE-2022-0236)
-
 ### CVE-2022-0265 (2022-03-03)
 
 <code>Improper Restriction of XML External Entity Reference in GitHub repository hazelcast/hazelcast in 5.1-BETA-1.
@@ -5644,13 +5636,6 @@
 </code>
 
 - [KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit](https://github.com/KTN1990/CVE-2022-0316_wordpress_multiple_themes_exploit)
-
-### CVE-2022-0332 (2022-01-25)
-
-<code>A flaw was found in Moodle in versions 3.11 to 3.11.4. An SQL injection risk was identified in the h5p activity web service responsible for fetching user attempt data.
-</code>
-
-- [numanturle/CVE-2022-0332](https://github.com/numanturle/CVE-2022-0332)
 
 ### CVE-2022-0337 (2023-01-02)
 
@@ -6836,7 +6821,6 @@
 <code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Web Container). Supported versions that are affected are 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 </code>
 
-- [Mr-xn/CVE-2022-21371](https://github.com/Mr-xn/CVE-2022-21371)
 - [Vulnmachines/Oracle-WebLogic-CVE-2022-21371](https://github.com/Vulnmachines/Oracle-WebLogic-CVE-2022-21371)
 
 ### CVE-2022-21445 (2022-04-19)
@@ -6871,19 +6855,11 @@
 - [rockmelodies/Oracle-E-BS-CVE-2022-21587-Exploit](https://github.com/rockmelodies/Oracle-E-BS-CVE-2022-21587-Exploit)
 - [sahabrifki/CVE-2022-21587-Oracle-EBS-](https://github.com/sahabrifki/CVE-2022-21587-Oracle-EBS-)
 
-### CVE-2022-21658 (2022-01-20)
-
-<code>Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency. The Rust Security Response WG was notified that the `std::fs::remove_dir_all` standard library function is vulnerable a race condition enabling symlink following (CWE-363). An attacker could use this security issue to trick a privileged program into deleting files and directories the attacker couldn't otherwise access or delete. Rust 1.0.0 through Rust 1.58.0 is affected by this vulnerability with 1.58.1 containing a patch. Note that the following build targets don't have usable APIs to properly mitigate the attack, and are thus still vulnerable even with a patched toolchain: macOS before version 10.10 (Yosemite) and REDOX. We recommend everyone to update to Rust 1.58.1 as soon as possible, especially people developing programs expected to run in privileged contexts (including system daemons and setuid binaries), as those have the highest risk of being affected by this. Note that adding checks in your codebase before calling remove_dir_all will not mitigate the vulnerability, as they would also be vulnerable to race conditions like remove_dir_all itself. The existing mitigation is working as intended outside of race conditions.
-</code>
-
-- [sagittarius-a/cve-2022-21658](https://github.com/sagittarius-a/cve-2022-21658)
-
 ### CVE-2022-21660 (2022-02-09)
 
 <code>Gin-vue-admin is a backstage management system based on vue and gin. In versions prior to 2.4.7 low privilege users are able to modify higher privilege users. Authentication is missing on the `setUserInfo` function. Users are advised to update as soon as possible. There are no known workarounds.
 </code>
 
-- [UzJu/Gin-Vue-admin-poc-CVE-2022-21660](https://github.com/UzJu/Gin-Vue-admin-poc-CVE-2022-21660)
 - [UzJu/CVE-2022-21660](https://github.com/UzJu/CVE-2022-21660)
 
 ### CVE-2022-21661 (2022-01-06)
@@ -6974,10 +6950,7 @@
 
 - [corelight/cve-2022-21907](https://github.com/corelight/cve-2022-21907)
 - [mauricelambert/CVE-2022-21907](https://github.com/mauricelambert/CVE-2022-21907)
-- [ZZ-SOCMAP/CVE-2022-21907](https://github.com/ZZ-SOCMAP/CVE-2022-21907)
-- [xiska62314/CVE-2022-21907](https://github.com/xiska62314/CVE-2022-21907)
 - [p0dalirius/CVE-2022-21907-http.sys](https://github.com/p0dalirius/CVE-2022-21907-http.sys)
-- [michelep/CVE-2022-21907-Vulnerability-PoC](https://github.com/michelep/CVE-2022-21907-Vulnerability-PoC)
 - [polakow/CVE-2022-21907](https://github.com/polakow/CVE-2022-21907)
 - [gpiechnik2/nmap-CVE-2022-21907](https://github.com/gpiechnik2/nmap-CVE-2022-21907)
 - [iveresk/cve-2022-21907-http.sys](https://github.com/iveresk/cve-2022-21907-http.sys)
@@ -7053,13 +7026,6 @@
 
 - [4lucardSec/Sonic_CVE-2022-22274_poc](https://github.com/4lucardSec/Sonic_CVE-2022-22274_poc)
 - [forthisvideo/CVE-2022-22274_poc](https://github.com/forthisvideo/CVE-2022-22274_poc)
-
-### CVE-2022-22296 (2022-01-24)
-
-<code>Sourcecodester Hospital's Patient Records Management System 1.0 is vulnerable to Insecure Permissions via the id parameter in manage_user endpoint. Simply change the value and data of other users can be displayed.
-</code>
-
-- [vlakhani28/CVE-2022-22296](https://github.com/vlakhani28/CVE-2022-22296)
 
 ### CVE-2022-22536 (2022-02-09)
 
@@ -7490,7 +7456,6 @@
 <code>PhpIPAM v1.4.4 allows an authenticated admin user to inject SQL sentences in the &quot;subnet&quot; parameter while searching a subnet via app/admin/routing/edit-bgp-mapping-search.php
 </code>
 
-- [jcarabantes/CVE-2022-23046](https://github.com/jcarabantes/CVE-2022-23046)
 - [dnr6419/CVE-2022-23046](https://github.com/dnr6419/CVE-2022-23046)
 - [hadrian3689/phpipam_1.4.4](https://github.com/hadrian3689/phpipam_1.4.4)
 - [bernauers/CVE-2022-23046](https://github.com/bernauers/CVE-2022-23046)
@@ -7567,7 +7532,6 @@
 </code>
 
 - [HynekPetrak/log4shell-finder](https://github.com/HynekPetrak/log4shell-finder)
-- [AlphabugX/CVE-2022-RCE](https://github.com/AlphabugX/CVE-2022-RCE)
 - [tkomlodi/CVE-2022-23305_POC](https://github.com/tkomlodi/CVE-2022-23305_POC)
 
 ### CVE-2022-23342 (2022-06-21)
@@ -31835,7 +31799,7 @@
 <code>Internet Explorer in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8.1 and Windows RT 8.1, and Windows Server 2012 and R2 allow an attacker to detect specific files on the user's computer when affected Microsoft scripting engines do not properly handle objects in memory, aka &quot;Microsoft Browser Information Disclosure Vulnerability&quot;.
 </code>
 
-- [Lynggaard91/windows2016fixCVE-2017-8529](https://github.com/Lynggaard91/windows2016fixCVE-2017-8529)
+- [Lynggaard91/WindowsServerFix_CVE-2017-8529F](https://github.com/Lynggaard91/WindowsServerFix_CVE-2017-8529F)
 - [sfitpro/cve-2017-8529](https://github.com/sfitpro/cve-2017-8529)
 
 ### CVE-2017-8543 (2017-06-14)
