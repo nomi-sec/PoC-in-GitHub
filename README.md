@@ -1916,6 +1916,13 @@
 
 - [horizon3ai/CVE-2023-26067](https://github.com/horizon3ai/CVE-2023-26067)
 
+### CVE-2023-26136 (2023-07-01)
+
+<code>Versions of the package tough-cookie before 4.1.3 are vulnerable to Prototype Pollution due to improper handling of Cookies when using CookieJar in rejectPublicSuffixes=false mode. This issue arises from the manner in which the objects are initialized.
+</code>
+
+- [CUCUMBERanOrSNCompany/SealSecurityAssignment](https://github.com/CUCUMBERanOrSNCompany/SealSecurityAssignment)
+
 ### CVE-2023-26255 (2023-02-28)
 
 <code>An unauthenticated path traversal vulnerability affects the &quot;STAGIL Navigation for Jira - Menu &amp; Themes&quot; plugin before 2.0.52 for Jira. By modifying the fileName parameter to the snjCustomDesignConfig endpoint, it is possible to traverse and read the file system.
@@ -5533,7 +5540,11 @@
 
 - [creacitysec/CVE-2023-48842](https://github.com/creacitysec/CVE-2023-48842)
 
-### CVE-2023-48849
+### CVE-2023-48849 (2023-12-06)
+
+<code>Ruijie EG Series Routers version EG_3.0(1)B11P216 and before allows unauthenticated attackers to remotely execute arbitrary code due to incorrect filtering.
+</code>
+
 - [delsploit/CVE-2023-48849](https://github.com/delsploit/CVE-2023-48849)
 
 ### CVE-2023-48866 (2023-12-04)
@@ -17394,7 +17405,7 @@
 - [rodpwn/CVE-2021-43798-mass_scanner](https://github.com/rodpwn/CVE-2021-43798-mass_scanner)
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
-- [yasin-cs-ko-ak/grafana-cve-2021-43798](https://github.com/yasin-cs-ko-ak/grafana-cve-2021-43798)
+- [yasindce1998/grafana-cve-2021-43798](https://github.com/yasindce1998/grafana-cve-2021-43798)
 - [BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read](https://github.com/BJLIYANLIANG/CVE-2021-43798-Grafana-File-Read)
 - [lalkaltest/CVE-2021-43798](https://github.com/lalkaltest/CVE-2021-43798)
 - [hupe1980/CVE-2021-43798](https://github.com/hupe1980/CVE-2021-43798)
@@ -22657,6 +22668,7 @@
 - [b1ackros337/CVE-2020-25213](https://github.com/b1ackros337/CVE-2020-25213)
 - [BLY-Coder/Python-exploit-CVE-2020-25213](https://github.com/BLY-Coder/Python-exploit-CVE-2020-25213)
 - [E1tex/Python-CVE-2020-25213](https://github.com/E1tex/Python-CVE-2020-25213)
+- [Nguyen-id/CVE-2020-25213](https://github.com/Nguyen-id/CVE-2020-25213)
 
 ### CVE-2020-25223 (2020-09-24)
 
@@ -25416,6 +25428,13 @@
 
 - [KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869)
 
+### CVE-2019-10915 (2019-07-11)
+
+<code>A vulnerability has been identified in TIA Administrator (All versions &lt; V1.0 SP1 Upd1). The integrated configuration web application (TIA Administrator) allows to execute certain application commands without proper authentication. The vulnerability could be exploited by an attacker with local access to the affected system. Successful exploitation requires no privileges and no user interaction. An attacker could use the vulnerability to compromise confidentiality and integrity and availability of the affected system. At the time of advisory publication no public exploitation of this security vulnerability was known.
+</code>
+
+- [jiansiting/CVE-2019-10915](https://github.com/jiansiting/CVE-2019-10915)
+
 ### CVE-2019-10945 (2019-04-10)
 
 <code>An issue was discovered in Joomla! before 3.9.5. The Media Manager component does not properly sanitize the folder parameter, allowing attackers to act outside the media manager root directory.
@@ -25739,6 +25758,7 @@
 <code>FasterXML jackson-databind 2.x before 2.9.9.1 might allow attackers to have a variety of impacts by leveraging failure to block the logback-core class from polymorphic deserialization. Depending on the classpath content, remote code execution may be possible.
 </code>
 
+- [jas502n/CVE-2019-12384](https://github.com/jas502n/CVE-2019-12384)
 - [MagicZer0/Jackson_RCE-CVE-2019-12384](https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384)
 
 ### CVE-2019-12409 (2019-11-18)
@@ -37728,6 +37748,13 @@
 </code>
 
 - [KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201)
+
+### CVE-2003-0222 (2003-04-30)
+
+<code>Stack-based buffer overflow in Oracle Net Services for Oracle Database Server 9i release 2 and earlier allows attackers to execute arbitrary code via a &quot;CREATE DATABASE LINK&quot; query containing a connect string with a long USING parameter.
+</code>
+
+- [phamthanhsang280477/CVE-2003-0222](https://github.com/phamthanhsang280477/CVE-2003-0222)
 
 ### CVE-2003-0264 (2003-05-08)
 
