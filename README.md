@@ -25416,13 +25416,6 @@
 
 - [KTN1990/CVE-2019-10869](https://github.com/KTN1990/CVE-2019-10869)
 
-### CVE-2019-10915 (2019-07-11)
-
-<code>A vulnerability has been identified in TIA Administrator (All versions &lt; V1.0 SP1 Upd1). The integrated configuration web application (TIA Administrator) allows to execute certain application commands without proper authentication. The vulnerability could be exploited by an attacker with local access to the affected system. Successful exploitation requires no privileges and no user interaction. An attacker could use the vulnerability to compromise confidentiality and integrity and availability of the affected system. At the time of advisory publication no public exploitation of this security vulnerability was known.
-</code>
-
-- [jiansiting/CVE-2019-10915](https://github.com/jiansiting/CVE-2019-10915)
-
 ### CVE-2019-10945 (2019-04-10)
 
 <code>An issue was discovered in Joomla! before 3.9.5. The Media Manager component does not properly sanitize the folder parameter, allowing attackers to act outside the media manager root directory.
@@ -25746,7 +25739,6 @@
 <code>FasterXML jackson-databind 2.x before 2.9.9.1 might allow attackers to have a variety of impacts by leveraging failure to block the logback-core class from polymorphic deserialization. Depending on the classpath content, remote code execution may be possible.
 </code>
 
-- [jas502n/CVE-2019-12384](https://github.com/jas502n/CVE-2019-12384)
 - [MagicZer0/Jackson_RCE-CVE-2019-12384](https://github.com/MagicZer0/Jackson_RCE-CVE-2019-12384)
 
 ### CVE-2019-12409 (2019-11-18)
@@ -37736,13 +37728,6 @@
 </code>
 
 - [KernelPan1k/trans2open-CVE-2003-0201](https://github.com/KernelPan1k/trans2open-CVE-2003-0201)
-
-### CVE-2003-0222 (2003-04-30)
-
-<code>Stack-based buffer overflow in Oracle Net Services for Oracle Database Server 9i release 2 and earlier allows attackers to execute arbitrary code via a &quot;CREATE DATABASE LINK&quot; query containing a connect string with a long USING parameter.
-</code>
-
-- [phamthanhsang280477/CVE-2003-0222](https://github.com/phamthanhsang280477/CVE-2003-0222)
 
 ### CVE-2003-0264 (2003-05-08)
 
