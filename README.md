@@ -5382,7 +5382,11 @@
 
 - [jakedmurphy1/CVE-2023-46954](https://github.com/jakedmurphy1/CVE-2023-46954)
 
-### CVE-2023-46974
+### CVE-2023-46974 (2023-12-07)
+
+<code>Cross Site Scripting vulnerability in Best Courier Management System v.1.000 allows a remote attacker to execute arbitrary code via a crafted payload to the page parameter in the URL.
+</code>
+
 - [yte121/CVE-2023-46974](https://github.com/yte121/CVE-2023-46974)
 
 ### CVE-2023-46980 (2023-11-03)
