@@ -1237,6 +1237,13 @@
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21284](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21284)
 
+### CVE-2023-21285 (2023-08-14)
+
+<code>In setMetadata of MediaSessionRecord.java, there is a possible way to view another user's images due to a confused deputy. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
+</code>
+
+- [uthrasri/framework_base_CVE-2023-21285_NoPatch](https://github.com/uthrasri/framework_base_CVE-2023-21285_NoPatch)
+
 ### CVE-2023-21286 (2023-08-14)
 
 <code>In visitUris of RemoteViews.java, there is a possible way to reveal images across users due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
@@ -5024,7 +5031,7 @@
 
 ### CVE-2023-44761 (2023-10-06)
 
-<code>Multiple Cross Site Scripting (XSS) vulnerabilities in Concrete CMS v.9.2.1 allow a local attacker to execute arbitrary code via a crafted script to the Forms of the Data objects.
+<code>Multiple Cross Site Scripting (XSS) vulnerabilities in Concrete CMS versions affected to 8.5.13 and below, and 9.0.0 through 9.2.1 allow a local attacker to execute arbitrary code via a crafted script to the Forms of the Data objects.
 </code>
 
 - [sromanhu/CVE-2023-44761_ConcreteCMS-Stored-XSS---Forms](https://github.com/sromanhu/CVE-2023-44761_ConcreteCMS-Stored-XSS---Forms)
@@ -5052,7 +5059,7 @@
 
 ### CVE-2023-44765 (2023-10-06)
 
-<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS v.9.2.1 allows an attacker to execute arbitrary code via a crafted script to Plural Handle of the Data Objects from System &amp; Settings.
+<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS versions 8.5.12 and below, and 9.0 through 9.2.1 allows an attacker to execute arbitrary code via a crafted script to Plural Handle of the Data Objects from System &amp; Settings.
 </code>
 
 - [sromanhu/CVE-2023-44765_ConcreteCMS-Stored-XSS---Associations](https://github.com/sromanhu/CVE-2023-44765_ConcreteCMS-Stored-XSS---Associations)
@@ -5340,6 +5347,7 @@
 - [minhangxiaohui/ActiveMQ_CVE-2023-46604](https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604)
 - [nitzanoligo/CVE-2023-46604-demo](https://github.com/nitzanoligo/CVE-2023-46604-demo)
 - [tomasmussi-mulesoft/activemq-cve-2023-46604](https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604)
+- [dcm2406/CVE-Research](https://github.com/dcm2406/CVE-Research)
 
 ### CVE-2023-46615
 - [RandomRobbieBF/CVE-2023-46615](https://github.com/RandomRobbieBF/CVE-2023-46615)
@@ -7604,13 +7612,6 @@
 ### CVE-2022-23529
 - [despossivel/CVE-2022-23529-lab](https://github.com/despossivel/CVE-2022-23529-lab)
 - [aalex954/CVE-2022-23529-Exploration](https://github.com/aalex954/CVE-2022-23529-Exploration)
-
-### CVE-2022-23540 (2022-12-22)
-
-<code>In versions `&lt;=8.5.1` of `jsonwebtoken` library, lack of algorithm definition in the `jwt.verify()` function can lead to signature validation bypass due to defaulting to the `none` algorithm for signature verification. Users are affected if you do not specify algorithms in the `jwt.verify()` function. This issue has been fixed, please update to version 9.0.0 which removes the default support for the none algorithm in the `jwt.verify()` method. There will be no impact, if you update to version 9.0.0 and you don’t need to allow for the `none` algorithm. If you need 'none' algorithm, you have to explicitly specify that in `jwt.verify()` options.
-</code>
-
-- [jsirichai/CVE-2022-23540-PoC](https://github.com/jsirichai/CVE-2022-23540-PoC)
 
 ### CVE-2022-23614 (2022-02-04)
 
@@ -17956,6 +17957,7 @@
 - [Tai-e/CVE-2021-44228](https://github.com/Tai-e/CVE-2021-44228)
 - [LucasPDiniz/CVE-2021-44228](https://github.com/LucasPDiniz/CVE-2021-44228)
 - [felixslama/log4shell-minecraft-demo](https://github.com/felixslama/log4shell-minecraft-demo)
+- [dcm2406/CVE-Research](https://github.com/dcm2406/CVE-Research)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -32976,6 +32978,13 @@
 
 - [yazan828/CVE-2017-1000004](https://github.com/yazan828/CVE-2017-1000004)
 
+### CVE-2017-1000028 (2017-07-13)
+
+<code>Oracle, GlassFish Server Open Source Edition 4.1 is vulnerable to both authenticated and unauthenticated Directory Traversal vulnerability, that can be exploited by issuing a specially crafted HTTP GET request.
+</code>
+
+- [NeonNOXX/CVE-2017-1000028](https://github.com/NeonNOXX/CVE-2017-1000028)
+
 ### CVE-2017-1000083 (2017-09-05)
 
 <code>backend/comics/comics-document.c (aka the comic book backend) in GNOME Evince before 3.24.1 allows remote attackers to execute arbitrary commands via a .cbt file that is a TAR archive containing a filename beginning with a &quot;--&quot; command-line option substring, as demonstrated by a --checkpoint-action=exec=bash at the beginning of the filename.
@@ -33223,6 +33232,7 @@
 - [googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728)
 - [neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed)
 - [bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728)
+- [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
 - [th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit)
@@ -33368,6 +33378,7 @@
 <code>The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, and watchOS before 2.2.1 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app, a different vulnerability than CVE-2016-1828, CVE-2016-1829, and CVE-2016-1830.
 </code>
 
+- [bazad/flow_divert-heap-overflow](https://github.com/bazad/flow_divert-heap-overflow)
 - [superMan7912002/bazad3](https://github.com/superMan7912002/bazad3)
 
 ### CVE-2016-1828 (2016-05-20)
@@ -33394,6 +33405,7 @@
 
 - [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
+- [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
@@ -33789,6 +33801,9 @@
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
 - [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
+- [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
+- [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
+- [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
 - [droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer)
 - [FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4)
 - [arbll/dirtycow](https://github.com/arbll/dirtycow)
@@ -34000,11 +34015,19 @@
 
 - [0xcl/cve-2016-7190](https://github.com/0xcl/cve-2016-7190)
 
+### CVE-2016-7200 (2016-11-10)
+
+<code>The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
+</code>
+
+- [theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11)
+
 ### CVE-2016-7255 (2016-11-10)
 
 <code>The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, and 1607, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
 </code>
 
+- [heh3/CVE-2016-7255](https://github.com/heh3/CVE-2016-7255)
 - [FSecureLABS/CVE-2016-7255](https://github.com/FSecureLABS/CVE-2016-7255)
 - [homjxi0e/CVE-2016-7255](https://github.com/homjxi0e/CVE-2016-7255)
 - [yuvatia/page-table-exploitation](https://github.com/yuvatia/page-table-exploitation)
@@ -34060,6 +34083,13 @@
 </code>
 
 - [CunningLogic/PixelDump_CVE-2016-8462](https://github.com/CunningLogic/PixelDump_CVE-2016-8462)
+
+### CVE-2016-8467 (2017-01-13)
+
+<code>An elevation of privilege vulnerability in the bootloader could enable a local attacker to execute arbitrary modem commands on the device. This issue is rated as High because it is a local permanent denial of service (device interoperability: completely permanent or requiring re-flashing the entire operating system). Product: Android. Versions: N/A. Android ID: A-30308784.
+</code>
+
+- [roeeh/bootmodechecker](https://github.com/roeeh/bootmodechecker)
 
 ### CVE-2016-8610 (2017-11-13)
 
@@ -34189,6 +34219,13 @@
 </code>
 
 - [cved-sources/cve-2016-9838](https://github.com/cved-sources/cve-2016-9838)
+
+### CVE-2016-9920 (2016-12-08)
+
+<code>steps/mail/sendmail.inc in Roundcube before 1.1.7 and 1.2.x before 1.2.3, when no SMTP server is configured and the sendmail program is enabled, does not properly restrict the use of custom envelope-from addresses on the sendmail command line, which allows remote authenticated users to execute arbitrary code via a modified HTTP request that sends a crafted e-mail message.
+</code>
+
+- [t0kx/exploit-CVE-2016-9920](https://github.com/t0kx/exploit-CVE-2016-9920)
 
 ### CVE-2016-10033 (2016-12-30)
 
@@ -35440,6 +35477,13 @@
 
 - [ExploitCN/CVE-2014-1767-EXP-PAPER](https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER)
 
+### CVE-2014-1773 (2014-06-10)
+
+<code>Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-1783, CVE-2014-1784, CVE-2014-1786, CVE-2014-1795, CVE-2014-1805, CVE-2014-2758, CVE-2014-2759, CVE-2014-2765, CVE-2014-2766, and CVE-2014-2775.
+</code>
+
+- [day6reak/CVE-2014-1773](https://github.com/day6reak/CVE-2014-1773)
+
 ### CVE-2014-1812 (2014-05-14)
 
 <code>The Group Policy implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly handle distribution of passwords, which allows remote authenticated users to obtain sensitive credential information and consequently gain privileges by leveraging access to the SYSVOL share, as exploited in the wild in May 2014, aka &quot;Group Policy Preferences Password Elevation of Privilege Vulnerability.&quot;
@@ -35607,6 +35651,13 @@
 </code>
 
 - [fungoshacks/CVE-2014-4076](https://github.com/fungoshacks/CVE-2014-4076)
+
+### CVE-2014-4109 (2014-09-09)
+
+<code>Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-2799, CVE-2014-4059, CVE-2014-4065, CVE-2014-4079, CVE-2014-4081, CVE-2014-4083, CVE-2014-4085, CVE-2014-4088, CVE-2014-4090, CVE-2014-4094, CVE-2014-4097, CVE-2014-4100, CVE-2014-4103, CVE-2014-4104, CVE-2014-4105, CVE-2014-4106, CVE-2014-4107, CVE-2014-4108, CVE-2014-4110, and CVE-2014-4111.
+</code>
+
+- [day6reak/CVE-2014-4109](https://github.com/day6reak/CVE-2014-4109)
 
 ### CVE-2014-4113 (2014-10-15)
 
