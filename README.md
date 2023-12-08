@@ -844,6 +844,7 @@
 - [fdevsectest/CVE-2023-4966](https://github.com/fdevsectest/CVE-2023-4966)
 - [s-bt/CVE-2023-4966](https://github.com/s-bt/CVE-2023-4966)
 - [byte4RR4Y/CVE-2023-4966](https://github.com/byte4RR4Y/CVE-2023-4966)
+- [jmussmann/cve-2023-4966-iocs](https://github.com/jmussmann/cve-2023-4966-iocs)
 
 ### CVE-2023-5024 (2023-09-17)
 
@@ -1179,6 +1180,13 @@
 
 - [Trinadh465/frameworks_base_AOSP10_CVE-2023-21109r33_](https://github.com/Trinadh465/frameworks_base_AOSP10_CVE-2023-21109r33_)
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21109](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21109)
+
+### CVE-2023-21118 (2023-05-15)
+
+<code>In unflattenString8 of Sensor.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-269014004
+</code>
+
+- [Trinadh465/frameworks_native_AOSP-10_r33_CVE-2023-21118](https://github.com/Trinadh465/frameworks_native_AOSP-10_r33_CVE-2023-21118)
 
 ### CVE-2023-21238 (2023-07-12)
 
@@ -8607,13 +8615,6 @@
 
 - [dolby360/CVE-2022-27518_POC](https://github.com/dolby360/CVE-2022-27518_POC)
 
-### CVE-2022-27635 (2023-08-10)
-
-<code>Improper access control for some Intel(R) PROSet/Wireless WiFi and Killer(TM) WiFi software may allow a privileged user to potentially enable escalation of privilege via local access.
-</code>
-
-- [rhyslhardy/HP-EliteDesk-800-G2-Mini-Drivers](https://github.com/rhyslhardy/HP-EliteDesk-800-G2-Mini-Drivers)
-
 ### CVE-2022-27665 (2023-04-03)
 
 <code>Reflected XSS (via AngularJS sandbox escape expressions) exists in Progress Ipswitch WS_FTP Server 8.6.0. This can lead to execution of malicious code and commands on the client due to improper handling of user-provided input. By inputting malicious payloads in the subdirectory searchbar or Add folder filename boxes, it is possible to execute client-side commands. For example, there is Client-Side Template Injection via subFolderPath to the ThinClient/WtmApiService.asmx/GetFileSubTree URI.
@@ -10878,6 +10879,13 @@
 </code>
 
 - [polar0x/CVE-2022-41333](https://github.com/polar0x/CVE-2022-41333)
+
+### CVE-2022-41343 (2022-09-25)
+
+<code>registerFont in FontMetrics.php in Dompdf before 2.0.1 allows remote file inclusion because a URI validation failure does not halt font registration, as demonstrated by a @font-face rule.
+</code>
+
+- [BKreisel/CVE-2022-41343](https://github.com/BKreisel/CVE-2022-41343)
 
 ### CVE-2022-41352 (2022-09-25)
 
@@ -24782,6 +24790,7 @@
 
 - [gquere/CVE-2019-6693](https://github.com/gquere/CVE-2019-6693)
 - [synacktiv/CVE-2020-9289](https://github.com/synacktiv/CVE-2020-9289)
+- [saladandonionrings/cve-2019-6693](https://github.com/saladandonionrings/cve-2019-6693)
 
 ### CVE-2019-6715 (2019-04-01)
 
@@ -34406,8 +34415,10 @@
 - [mholzinger/CVE-2015-0235_GHOST](https://github.com/mholzinger/CVE-2015-0235_GHOST)
 - [adherzog/ansible-CVE-2015-0235-GHOST](https://github.com/adherzog/ansible-CVE-2015-0235-GHOST)
 - [favoretti/lenny-libc6](https://github.com/favoretti/lenny-libc6)
+- [nickanderson/cfengine-CVE_2015_0235](https://github.com/nickanderson/cfengine-CVE_2015_0235)
 - [koudaiii-archives/cookbook-update-glibc](https://github.com/koudaiii-archives/cookbook-update-glibc)
 - [F88/ghostbusters15](https://github.com/F88/ghostbusters15)
+- [tobyzxj/CVE-2015-0235](https://github.com/tobyzxj/CVE-2015-0235)
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
