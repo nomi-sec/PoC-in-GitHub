@@ -1050,6 +1050,13 @@
 
 - [peter5he1by/CVE-2023-20209](https://github.com/peter5he1by/CVE-2023-20209)
 
+### CVE-2023-20273 (2023-10-24)
+
+<code>A vulnerability in the web UI feature of Cisco IOS XE Software could allow an authenticated, remote attacker to inject commands with the privileges of root. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web UI. A successful exploit could allow the attacker to inject commands to the underlying operating system with root privileges.
+</code>
+
+- [smokeintheshell/CVE-2023-20273](https://github.com/smokeintheshell/CVE-2023-20273)
+
 ### CVE-2023-20562 (2023-08-08)
 
 <code>\n\n\nInsufficient validation in the IOCTL (Input Output Control) input buffer in AMD uProf may allow an authenticated user to load an unsigned driver potentially leading to arbitrary kernel execution.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
@@ -5636,6 +5643,9 @@
 </code>
 
 - [louiselalanne/CVE-2023-49314](https://github.com/louiselalanne/CVE-2023-49314)
+
+### CVE-2023-49964
+- [mbadanoiu/CVE-2023-49964](https://github.com/mbadanoiu/CVE-2023-49964)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -15746,6 +15756,7 @@
 <code>In Moodle, an SQL injection risk was identified in the library fetching a user's recent courses.
 </code>
 
+- [StackOverflowExcept1on/CVE-2021-36393](https://github.com/StackOverflowExcept1on/CVE-2021-36393)
 - [T0X1Cx/CVE-2021-36393-Exploit](https://github.com/T0X1Cx/CVE-2021-36393-Exploit)
 
 ### CVE-2021-36394 (2023-03-06)
