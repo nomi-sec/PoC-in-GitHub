@@ -4181,6 +4181,7 @@
 - [Mrunalkaran/CVE-2023-38646](https://github.com/Mrunalkaran/CVE-2023-38646)
 - [j0yb0y0h/CVE-2023-38646](https://github.com/j0yb0y0h/CVE-2023-38646)
 - [Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646)
+- [0utl4nder/Another-Metabase-RCE-CVE-2023-38646](https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -8344,7 +8345,7 @@
 - [1rm/Confluence-CVE-2022-26134](https://github.com/1rm/Confluence-CVE-2022-26134)
 - [0xAgun/CVE-2022-26134](https://github.com/0xAgun/CVE-2022-26134)
 - [abhishekmorla/CVE-2022-26134](https://github.com/abhishekmorla/CVE-2022-26134)
-- [h3v0x/CVE-2022-26134](https://github.com/h3v0x/CVE-2022-26134)
+- [hev0x/CVE-2022-26134](https://github.com/hev0x/CVE-2022-26134)
 - [archanchoudhury/Confluence-CVE-2022-26134](https://github.com/archanchoudhury/Confluence-CVE-2022-26134)
 - [SIFalcon/confluencePot](https://github.com/SIFalcon/confluencePot)
 - [PsykoDev/CVE-2022-26134](https://github.com/PsykoDev/CVE-2022-26134)
@@ -9014,7 +9015,7 @@
 - [tufanturhan/wso2-rce-cve-2022-29464](https://github.com/tufanturhan/wso2-rce-cve-2022-29464)
 - [mr-r3bot/WSO2-CVE-2022-29464](https://github.com/mr-r3bot/WSO2-CVE-2022-29464)
 - [Lidong-io/cve-2022-29464](https://github.com/Lidong-io/cve-2022-29464)
-- [h3v0x/CVE-2022-29464](https://github.com/h3v0x/CVE-2022-29464)
+- [hev0x/CVE-2022-29464](https://github.com/hev0x/CVE-2022-29464)
 - [gpiechnik2/nmap-CVE-2022-29464](https://github.com/gpiechnik2/nmap-CVE-2022-29464)
 - [0xAgun/CVE-2022-29464](https://github.com/0xAgun/CVE-2022-29464)
 - [oppsec/WSOB](https://github.com/oppsec/WSOB)
@@ -10923,6 +10924,7 @@
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 - [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
 - [lolminerxmrig/cve-2022-41352-zimbra-rce-1](https://github.com/lolminerxmrig/cve-2022-41352-zimbra-rce-1)
+- [qailanet/cve-2022-41352-zimbra-rce](https://github.com/qailanet/cve-2022-41352-zimbra-rce)
 
 ### CVE-2022-41358 (2022-10-19)
 
@@ -12576,8 +12578,6 @@
 <code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Console). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
-- [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
 - [dinosn/CVE-2021-2109](https://github.com/dinosn/CVE-2021-2109)
 - [coco0x0a/CVE-2021-2109](https://github.com/coco0x0a/CVE-2021-2109)
@@ -12588,7 +12588,6 @@
 <code>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.18. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 6.0 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N).
 </code>
 
-- [Sauercloud/RWCTF21-VirtualBox-61-escape](https://github.com/Sauercloud/RWCTF21-VirtualBox-61-escape)
 - [chatbottesisgmailh/Sauercloude](https://github.com/chatbottesisgmailh/Sauercloude)
 - [shi10587s/Sauercloude](https://github.com/shi10587s/Sauercloude)
 
@@ -12688,7 +12687,6 @@
 </code>
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
-- [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
 - [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
 - [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
 - [nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit)
@@ -30987,6 +30985,7 @@
 </code>
 
 - [shaheemirza/CVE-2017-0213-](https://github.com/shaheemirza/CVE-2017-0213-)
+- [zcgonvh/CVE-2017-0213](https://github.com/zcgonvh/CVE-2017-0213)
 - [billa3283/CVE-2017-0213](https://github.com/billa3283/CVE-2017-0213)
 - [likescam/CVE-2017-0213](https://github.com/likescam/CVE-2017-0213)
 - [jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213)
@@ -37976,6 +37975,13 @@
 </code>
 
 - [gilberto47831/Network-Filesystem-Forensics](https://github.com/gilberto47831/Network-Filesystem-Forensics)
+
+### CVE-2001-0680 (2002-03-09)
+
+<code>Directory traversal vulnerability in ftpd in QPC QVT/Net 4.0 and AVT/Term 5.0 allows a remote attacker to traverse directories on the web server via a &quot;dot dot&quot; attack in a LIST (ls) command.
+</code>
+
+- [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
 
 ### CVE-2001-0758 (2001-10-12)
 
