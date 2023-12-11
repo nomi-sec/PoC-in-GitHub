@@ -1700,6 +1700,7 @@
 - [svaltheim/CVE-2023-23752](https://github.com/svaltheim/CVE-2023-23752)
 - [Fernando-olv/Joomla-CVE-2023-23752](https://github.com/Fernando-olv/Joomla-CVE-2023-23752)
 - [K3ysTr0K3R/CVE-2023-23752-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-23752-EXPLOIT)
+- [hadrian3689/CVE-2023-23752_Joomla](https://github.com/hadrian3689/CVE-2023-23752_Joomla)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -12463,10 +12464,22 @@
 - [cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675)
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
+- [evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP)
+- [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
+- [tanarchytan/CVE-2021-1675](https://github.com/tanarchytan/CVE-2021-1675)
 - [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
+- [Leonidus0x10/CVE-2021-1675-SCANNER](https://github.com/Leonidus0x10/CVE-2021-1675-SCANNER)
+- [thomasgeens/CVE-2021-1675](https://github.com/thomasgeens/CVE-2021-1675)
+- [mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery](https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery)
+- [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
+- [kougyokugentou/CVE-2021-1675](https://github.com/kougyokugentou/CVE-2021-1675)
+- [ptter23/CVE-2021-1675](https://github.com/ptter23/CVE-2021-1675)
+- [initconf/cve-2021-1675-printnightmare](https://github.com/initconf/cve-2021-1675-printnightmare)
+- [ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare)
+- [exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675)
 - [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
 - [sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE)
 - [JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare)
@@ -14667,6 +14680,7 @@
 
 - [kahla-sec/CVE-2021-27850_POC](https://github.com/kahla-sec/CVE-2021-27850_POC)
 - [dorkerdevil/CVE-2021-27850_POC](https://github.com/dorkerdevil/CVE-2021-27850_POC)
+- [Ovi3/CVE_2021_27850_POC](https://github.com/Ovi3/CVE_2021_27850_POC)
 - [novysodope/CVE-2021-27850](https://github.com/novysodope/CVE-2021-27850)
 
 ### CVE-2021-27890 (2021-03-15)
@@ -15084,6 +15098,7 @@
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
+- [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
 - [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 - [imikoYa/CVE-2021-31166-exploit](https://github.com/imikoYa/CVE-2021-31166-exploit)
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -15480,6 +15495,7 @@
 - [lixiang957/CVE-2021-33959](https://github.com/lixiang957/CVE-2021-33959)
 
 ### CVE-2021-34045
+- [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
 - [kenuosec/CVE-2021-34045](https://github.com/kenuosec/CVE-2021-34045)
 
 ### CVE-2021-34371 (2021-08-05)
@@ -15560,8 +15576,11 @@
 <code>Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
+- [DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527)
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
+- [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
+- [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
@@ -15730,6 +15749,13 @@
 </code>
 
 - [Ofirhamam/OracleOTM](https://github.com/Ofirhamam/OracleOTM)
+
+### CVE-2021-35956 (2021-06-30)
+
+<code>Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe before SP480-20210624 enables remote authenticated attackers to introduce arbitrary JavaScript via the Sensor Description, Email (from/to/cc), System Name, and System Location fields.
+</code>
+
+- [tcbutler320/CVE-2021-35956](https://github.com/tcbutler320/CVE-2021-35956)
 
 ### CVE-2021-35975 (2023-11-30)
 
@@ -33297,7 +33323,6 @@
 <code>Directory traversal vulnerability in Action View in Ruby on Rails before 3.2.22.1, 4.0.x and 4.1.x before 4.1.14.1, 4.2.x before 4.2.5.1, and 5.x before 5.0.0.beta1.1 allows remote attackers to read arbitrary files by leveraging an application's unrestricted use of the render method and providing a .. (dot dot) in a pathname.
 </code>
 
-- [forced-request/rails-rce-cve-2016-0752](https://github.com/forced-request/rails-rce-cve-2016-0752)
 - [dachidahu/CVE-2016-0752](https://github.com/dachidahu/CVE-2016-0752)
 
 ### CVE-2016-0792 (2016-04-07)
@@ -33412,13 +33437,6 @@
 
 - [gdbinit/mach_race](https://github.com/gdbinit/mach_race)
 
-### CVE-2016-1764 (2016-03-23)
-
-<code>The Content Security Policy (CSP) implementation in Messages in Apple OS X before 10.11.4 allows remote attackers to obtain sensitive information via a javascript: URL.
-</code>
-
-- [moloch--/cve-2016-1764](https://github.com/moloch--/cve-2016-1764)
-
 ### CVE-2016-1825 (2016-05-20)
 
 <code>IOHIDFamily in Apple OS X before 10.11.5 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
@@ -33474,13 +33492,6 @@
 
 - [FiloSottile/CVE-2016-2107](https://github.com/FiloSottile/CVE-2016-2107)
 - [tmiklas/docker-cve-2016-2107](https://github.com/tmiklas/docker-cve-2016-2107)
-
-### CVE-2016-2118 (2016-04-12)
-
-<code>The MS-SAMR and MS-LSAD protocol implementations in Samba 3.x and 4.x before 4.2.11, 4.3.x before 4.3.8, and 4.4.x before 4.4.2 mishandle DCERPC connections, which allows man-in-the-middle attackers to perform protocol-downgrade attacks and impersonate users by modifying the client-server data stream, aka &quot;BADLOCK.&quot;
-</code>
-
-- [nickanderson/cfengine-CVE-2016-2118](https://github.com/nickanderson/cfengine-CVE-2016-2118)
 
 ### CVE-2016-2173 (2017-04-21)
 
@@ -33602,13 +33613,6 @@
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
-
-### CVE-2016-3141 (2016-03-31)
-
-<code>Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
-</code>
-
-- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
@@ -37532,12 +37536,10 @@
 <code>The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
-- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 - [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
-- [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
 - [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
