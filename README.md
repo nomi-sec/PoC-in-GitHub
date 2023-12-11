@@ -1043,6 +1043,7 @@
 - [sanjai-AK47/CVE-2023-20198](https://github.com/sanjai-AK47/CVE-2023-20198)
 - [smokeintheshell/CVE-2023-20198](https://github.com/smokeintheshell/CVE-2023-20198)
 - [netbell/CVE-2023-20198-Fix](https://github.com/netbell/CVE-2023-20198-Fix)
+- [Vulnmachines/Cisco_CVE-2023-20198](https://github.com/Vulnmachines/Cisco_CVE-2023-20198)
 
 ### CVE-2023-20209 (2023-08-16)
 
@@ -1095,6 +1096,7 @@
 </code>
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20909](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20909)
+- [Trinadh465/platform_frameworks_base_AOSP10_r33_CVE-2023-20909](https://github.com/Trinadh465/platform_frameworks_base_AOSP10_r33_CVE-2023-20909)
 
 ### CVE-2023-20911 (2023-03-24)
 
@@ -5662,7 +5664,11 @@
 
 - [louiselalanne/CVE-2023-49314](https://github.com/louiselalanne/CVE-2023-49314)
 
-### CVE-2023-49964
+### CVE-2023-49964 (2023-12-11)
+
+<code>An issue was discovered in Hyland Alfresco Community Edition through 7.2.0. By inserting malicious content in the folder.get.html.ftl file, an attacker may perform SSTI (Server-Side Template Injection) attacks, which can leverage FreeMarker exposed objects to bypass restrictions and achieve RCE (Remote Code Execution). NOTE: this issue exists because of an incomplete fix for CVE-2020-12873.
+</code>
+
 - [mbadanoiu/CVE-2023-49964](https://github.com/mbadanoiu/CVE-2023-49964)
 
 ### CVE-2023-51504
@@ -12457,22 +12463,10 @@
 - [cube0x0/CVE-2021-1675](https://github.com/cube0x0/CVE-2021-1675)
 - [LaresLLC/CVE-2021-1675](https://github.com/LaresLLC/CVE-2021-1675)
 - [kondah/patch-cve-2021-1675](https://github.com/kondah/patch-cve-2021-1675)
-- [evilashz/CVE-2021-1675-LPE-EXP](https://github.com/evilashz/CVE-2021-1675-LPE-EXP)
-- [hlldz/CVE-2021-1675-LPE](https://github.com/hlldz/CVE-2021-1675-LPE)
 - [puckiestyle/CVE-2021-1675](https://github.com/puckiestyle/CVE-2021-1675)
 - [cybersecurityworks553/CVE-2021-1675_PrintNightMare](https://github.com/cybersecurityworks553/CVE-2021-1675_PrintNightMare)
-- [tanarchytan/CVE-2021-1675](https://github.com/tanarchytan/CVE-2021-1675)
 - [calebstewart/CVE-2021-1675](https://github.com/calebstewart/CVE-2021-1675)
-- [Leonidus0x10/CVE-2021-1675-SCANNER](https://github.com/Leonidus0x10/CVE-2021-1675-SCANNER)
-- [thomasgeens/CVE-2021-1675](https://github.com/thomasgeens/CVE-2021-1675)
-- [mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery](https://github.com/mrezqi/CVE-2021-1675_CarbonBlack_HuntingQuery)
-- [killtr0/CVE-2021-1675-PrintNightmare](https://github.com/killtr0/CVE-2021-1675-PrintNightmare)
 - [corelight/CVE-2021-1675](https://github.com/corelight/CVE-2021-1675)
-- [kougyokugentou/CVE-2021-1675](https://github.com/kougyokugentou/CVE-2021-1675)
-- [ptter23/CVE-2021-1675](https://github.com/ptter23/CVE-2021-1675)
-- [initconf/cve-2021-1675-printnightmare](https://github.com/initconf/cve-2021-1675-printnightmare)
-- [ozergoker/PrintNightmare](https://github.com/ozergoker/PrintNightmare)
-- [exploitblizzard/PrintNightmare-CVE-2021-1675](https://github.com/exploitblizzard/PrintNightmare-CVE-2021-1675)
 - [edsonjt81/CVE-2021-1675](https://github.com/edsonjt81/CVE-2021-1675)
 - [sailay1996/PrintNightmare-LPE](https://github.com/sailay1996/PrintNightmare-LPE)
 - [JumpsecLabs/PrintNightmare](https://github.com/JumpsecLabs/PrintNightmare)
@@ -14673,7 +14667,6 @@
 
 - [kahla-sec/CVE-2021-27850_POC](https://github.com/kahla-sec/CVE-2021-27850_POC)
 - [dorkerdevil/CVE-2021-27850_POC](https://github.com/dorkerdevil/CVE-2021-27850_POC)
-- [Ovi3/CVE_2021_27850_POC](https://github.com/Ovi3/CVE_2021_27850_POC)
 - [novysodope/CVE-2021-27850](https://github.com/novysodope/CVE-2021-27850)
 
 ### CVE-2021-27890 (2021-03-15)
@@ -15091,7 +15084,6 @@
 - [zecopro/CVE-2021-31166](https://github.com/zecopro/CVE-2021-31166)
 - [bgsilvait/WIn-CVE-2021-31166](https://github.com/bgsilvait/WIn-CVE-2021-31166)
 - [Udyz/CVE-2021-31166](https://github.com/Udyz/CVE-2021-31166)
-- [y0g3sh-99/CVE-2021-31166-Exploit](https://github.com/y0g3sh-99/CVE-2021-31166-Exploit)
 - [antx-code/CVE-2021-31166](https://github.com/antx-code/CVE-2021-31166)
 - [imikoYa/CVE-2021-31166-exploit](https://github.com/imikoYa/CVE-2021-31166-exploit)
 - [mauricelambert/CVE-2021-31166](https://github.com/mauricelambert/CVE-2021-31166)
@@ -15488,7 +15480,6 @@
 - [lixiang957/CVE-2021-33959](https://github.com/lixiang957/CVE-2021-33959)
 
 ### CVE-2021-34045
-- [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
 - [kenuosec/CVE-2021-34045](https://github.com/kenuosec/CVE-2021-34045)
 
 ### CVE-2021-34371 (2021-08-05)
@@ -15569,11 +15560,8 @@
 <code>Windows Print Spooler Remote Code Execution Vulnerability
 </code>
 
-- [DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527)
 - [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
-- [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
-- [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
 - [rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint](https://github.com/rdboboia/disable-RegisterSpoolerRemoteRpcEndPoint)
 - [geekbrett/CVE-2021-34527-PrintNightmare-Workaround](https://github.com/geekbrett/CVE-2021-34527-PrintNightmare-Workaround)
 - [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
@@ -15742,13 +15730,6 @@
 </code>
 
 - [Ofirhamam/OracleOTM](https://github.com/Ofirhamam/OracleOTM)
-
-### CVE-2021-35956 (2021-06-30)
-
-<code>Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe before SP480-20210624 enables remote authenticated attackers to introduce arbitrary JavaScript via the Sensor Description, Email (from/to/cc), System Name, and System Location fields.
-</code>
-
-- [tcbutler320/CVE-2021-35956](https://github.com/tcbutler320/CVE-2021-35956)
 
 ### CVE-2021-35975 (2023-11-30)
 
@@ -31383,6 +31364,7 @@
 <code>The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
+- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
 - [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
