@@ -1596,8 +1596,8 @@
 
 - [Timorlover/CVE-2023-23333](https://github.com/Timorlover/CVE-2023-23333)
 - [Mr-xn/CVE-2023-23333](https://github.com/Mr-xn/CVE-2023-23333)
-- [WhiteOwl-Pub/PoC-SolarView-Compact-CVE-2023-23333](https://github.com/WhiteOwl-Pub/PoC-SolarView-Compact-CVE-2023-23333)
 - [emanueldosreis/nmap-CVE-2023-23333-exploit](https://github.com/emanueldosreis/nmap-CVE-2023-23333-exploit)
+- [WhiteOwl-Pub/SolarView-PoC-CVE-2023-23333](https://github.com/WhiteOwl-Pub/SolarView-PoC-CVE-2023-23333)
 
 ### CVE-2023-23396 (2023-03-14)
 
@@ -1675,7 +1675,7 @@
 
 - [yusinomy/CVE-2023-23752](https://github.com/yusinomy/CVE-2023-23752)
 - [Saboor-Hakimi/CVE-2023-23752](https://github.com/Saboor-Hakimi/CVE-2023-23752)
-- [WhiteOwl-Pub/CVE-2023-23752](https://github.com/WhiteOwl-Pub/CVE-2023-23752)
+- [WhiteOwl-Pub/Joomla-PoC-CVE-2023-23752](https://github.com/WhiteOwl-Pub/Joomla-PoC-CVE-2023-23752)
 - [Vulnmachines/joomla_CVE-2023-23752](https://github.com/Vulnmachines/joomla_CVE-2023-23752)
 - [wangking1/CVE-2023-23752-poc](https://github.com/wangking1/CVE-2023-23752-poc)
 - [ibaiw/joomla_CVE-2023-23752](https://github.com/ibaiw/joomla_CVE-2023-23752)
@@ -2380,7 +2380,7 @@
 </code>
 
 - [benjaminhays/CVE-2023-28771-PoC](https://github.com/benjaminhays/CVE-2023-28771-PoC)
-- [WhiteOwl-Pub/PoC-CVE-2023-28771](https://github.com/WhiteOwl-Pub/PoC-CVE-2023-28771)
+- [WhiteOwl-Pub/Zyxel-PoC-CVE-2023-28771](https://github.com/WhiteOwl-Pub/Zyxel-PoC-CVE-2023-28771)
 
 ### CVE-2023-28772 (2023-03-23)
 
@@ -3883,9 +3883,9 @@
 - [halencarjunior/CVE-2023-36845](https://github.com/halencarjunior/CVE-2023-36845)
 - [zaenhaxor/CVE-2023-36845](https://github.com/zaenhaxor/CVE-2023-36845)
 - [simrotion13/CVE-2023-36845](https://github.com/simrotion13/CVE-2023-36845)
-- [WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845](https://github.com/WhiteOwl-Pub/PoC-Vuln-Detector-juniper-cve-2023-36845)
 - [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
 - [ditekshen/ansible-cve-2023-36845](https://github.com/ditekshen/ansible-cve-2023-36845)
+- [WhiteOwl-Pub/Juniper-PoC-CVE-2023-36845](https://github.com/WhiteOwl-Pub/Juniper-PoC-CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -4119,6 +4119,7 @@
 
 - [gabe-k/themebleed](https://github.com/gabe-k/themebleed)
 - [Jnnshschl/CVE-2023-38146](https://github.com/Jnnshschl/CVE-2023-38146)
+- [Durge5/ThemeBleedPy](https://github.com/Durge5/ThemeBleedPy)
 
 ### CVE-2023-38408 (2023-07-19)
 
@@ -4736,7 +4737,7 @@
 
 - [H454NSec/CVE-2023-42793](https://github.com/H454NSec/CVE-2023-42793)
 - [Zenmovie/CVE-2023-42793](https://github.com/Zenmovie/CVE-2023-42793)
-- [WhiteOwl-Pub/PoC-JetBrains-TeamCity-CVE-2023-42793](https://github.com/WhiteOwl-Pub/PoC-JetBrains-TeamCity-CVE-2023-42793)
+- [WhiteOwl-Pub/JetBrains-PoC-CVE-2023-42793](https://github.com/WhiteOwl-Pub/JetBrains-PoC-CVE-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
@@ -5374,7 +5375,11 @@
 
 - [sajaljat/CVE-2023-46451](https://github.com/sajaljat/CVE-2023-46451)
 
-### CVE-2023-46454
+### CVE-2023-46454 (2023-12-12)
+
+<code>In GL.iNET GL-AR300M routers with firmware v4.3.7, it is possible to inject arbitrary shell commands through a crafted package name in the package information functionality.
+</code>
+
 - [cyberaz0r/GL.iNet-Multiple-Vulnerabilities](https://github.com/cyberaz0r/GL.iNet-Multiple-Vulnerabilities)
 
 ### CVE-2023-46474
@@ -36847,6 +36852,13 @@
 
 ### CVE-2012-5664
 - [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
+
+### CVE-2012-5958 (2013-01-31)
+
+<code>Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.
+</code>
+
+- [lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp)
 
 ### CVE-2012-5960 (2013-01-31)
 
