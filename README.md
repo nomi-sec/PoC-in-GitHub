@@ -2802,6 +2802,9 @@
 
 - [DreamD2v/CVE-2023-31541](https://github.com/DreamD2v/CVE-2023-31541)
 
+### CVE-2023-31546
+- [ran9ege/CVE-2023-31546](https://github.com/ran9ege/CVE-2023-31546)
+
 ### CVE-2023-31584 (2023-05-22)
 
 <code>GitHub repository cu/silicon commit a9ef36 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the User Input field.
@@ -4606,7 +4609,11 @@
 
 - [Eafz/cve-2023-41613](https://github.com/Eafz/cve-2023-41613)
 
-### CVE-2023-41623
+### CVE-2023-41623 (2023-12-12)
+
+<code>Emlog version pro2.1.14 was discovered to contain a SQL injection vulnerability via the uid parameter at /admin/media.php.
+</code>
+
 - [GhostBalladw/wuhaozhe-s-CVE](https://github.com/GhostBalladw/wuhaozhe-s-CVE)
 
 ### CVE-2023-41646 (2023-09-07)
@@ -7003,7 +7010,7 @@
 - [purple-WL/wordpress-CVE-2022-21661](https://github.com/purple-WL/wordpress-CVE-2022-21661)
 - [0x4E0x650x6F/Wordpress-cve-CVE-2022-21661](https://github.com/0x4E0x650x6F/Wordpress-cve-CVE-2022-21661)
 - [z92g/CVE-2022-21661](https://github.com/z92g/CVE-2022-21661)
-- [QWERTYisme/CVE-2022-21661](https://github.com/QWERTYisme/CVE-2022-21661)
+- [guestzz/CVE-2022-21661](https://github.com/guestzz/CVE-2022-21661)
 - [APTIRAN/CVE-2022-21661](https://github.com/APTIRAN/CVE-2022-21661)
 - [WellingtonEspindula/SSI-CVE-2022-21661](https://github.com/WellingtonEspindula/SSI-CVE-2022-21661)
 - [daniel616/CVE-2022-21661-Demo](https://github.com/daniel616/CVE-2022-21661-Demo)
@@ -16444,6 +16451,7 @@
 - [pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt](https://github.com/pisut4152/Sigma-Rule-for-CVE-2021-40438-exploitation-attempt)
 - [Kashkovsky/CVE-2021-40438](https://github.com/Kashkovsky/CVE-2021-40438)
 - [gassara-kys/CVE-2021-40438](https://github.com/gassara-kys/CVE-2021-40438)
+- [sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit](https://github.com/sergiovks/CVE-2021-40438-Apache-2.4.48-SSRF-exploit)
 
 ### CVE-2021-40444 (2021-09-15)
 
@@ -32109,13 +32117,6 @@
 - [homjxi0e/CVE-2017-9430](https://github.com/homjxi0e/CVE-2017-9430)
 - [j0lama/Dnstracer-1.9-Fix](https://github.com/j0lama/Dnstracer-1.9-Fix)
 
-### CVE-2017-9443 (2017-06-05)
-
-<code>** DISPUTED ** BigTree CMS through 4.2.18 allows remote authenticated users to conduct SQL injection attacks via a crafted tables object in manifest.json in an uploaded package. This issue exists in core\admin\modules\developer\extensions\install\process.php and core\admin\modules\developer\packages\install\process.php. NOTE: the vendor states &quot;You must implicitly trust any package or extension you install as they all have the ability to write PHP files.&quot;
-</code>
-
-- [superlink996/cve-2017-9443-payload](https://github.com/superlink996/cve-2017-9443-payload)
-
 ### CVE-2017-9476 (2017-07-30)
 
 <code>The Comcast firmware on Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421733-160420a-CMCST); Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421746-170221a-CMCST); and Arris TG1682G (eMTA&amp;DOCSIS version 10.0.132.SIP.PC20.CT, software version TG1682_2.2p7s2_PROD_sey) devices makes it easy for remote attackers to determine the hidden SSID and passphrase for a Home Security Wi-Fi network.
@@ -36846,13 +36847,6 @@
 
 ### CVE-2012-5664
 - [phusion/rails-cve-2012-5664-test](https://github.com/phusion/rails-cve-2012-5664-test)
-
-### CVE-2012-5958 (2013-01-31)
-
-<code>Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.
-</code>
-
-- [lochiiconnectivity/vulnupnp](https://github.com/lochiiconnectivity/vulnupnp)
 
 ### CVE-2012-5960 (2013-01-31)
 
