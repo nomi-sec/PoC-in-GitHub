@@ -816,6 +816,7 @@
 </code>
 
 - [Green-Avocado/CVE-2023-4911](https://github.com/Green-Avocado/CVE-2023-4911)
+- [leesh3288/CVE-2023-4911](https://github.com/leesh3288/CVE-2023-4911)
 - [RickdeJager/CVE-2023-4911](https://github.com/RickdeJager/CVE-2023-4911)
 - [xiaoQ1z/CVE-2023-4911](https://github.com/xiaoQ1z/CVE-2023-4911)
 - [silent6trinity/looney-tuneables](https://github.com/silent6trinity/looney-tuneables)
@@ -1104,6 +1105,14 @@
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20911](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20911)
 
+### CVE-2023-20918 (2023-07-12)
+
+<code>In getPendingIntentLaunchFlags of ActivityOptions.java, there is a possible elevation of privilege due to a confused deputy with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
+</code>
+
+- [pazhanivel07/platform_frameworks_base_AOSP_10_r33_CVE-2023-20918](https://github.com/pazhanivel07/platform_frameworks_base_AOSP_10_r33_CVE-2023-20918)
+- [Trinadh465/platform_frameworks_base_CVE-2023-20918](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-20918)
+
 ### CVE-2023-20921 (2023-01-24)
 
 <code>In onPackageRemoved of AccessibilityManagerService.java, there is a possibility to automatically grant accessibility services due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-243378132
@@ -1241,6 +1250,20 @@
 
 - [Trinadh465/packages_apps_ManagedProvisioning_AOSP10_r33_CVE-2023-21275](https://github.com/Trinadh465/packages_apps_ManagedProvisioning_AOSP10_r33_CVE-2023-21275)
 
+### CVE-2023-21281 (2023-08-14)
+
+<code>In multiple functions of KeyguardViewMediator.java, there is a possible failure to lock after screen timeout due to a logic error in the code. This could lead to local escalation of privilege across users with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
+</code>
+
+- [Trinadh465/platform_frameworks_base_CVE-2023-21281](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-21281)
+
+### CVE-2023-21282 (2023-08-14)
+
+<code>In TRANSPOSER_SETTINGS of lpp_tran.h, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.\n\n
+</code>
+
+- [Trinadh465/external_aac_AOSP10_r33_CVE-2023-21282](https://github.com/Trinadh465/external_aac_AOSP10_r33_CVE-2023-21282)
+
 ### CVE-2023-21284 (2023-08-14)
 
 <code>In multiple functions of DevicePolicyManager.java, there is a possible way to prevent enabling the Find my Device feature due to improper input validation. This could lead to local denial of service with User execution privileges needed. User interaction is not needed for exploitation.\n\n
@@ -1254,6 +1277,20 @@
 </code>
 
 - [uthrasri/framework_base_CVE-2023-21285_NoPatch](https://github.com/uthrasri/framework_base_CVE-2023-21285_NoPatch)
+
+### CVE-2023-21286 (2023-08-14)
+
+<code>In visitUris of RemoteViews.java, there is a possible way to reveal images across users due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
+</code>
+
+- [Trinadh465/platform_frameworks_base_CVE-2023-21286](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-21286)
+
+### CVE-2023-21288 (2023-08-14)
+
+<code>In visitUris of Notification.java, there is a possible way to reveal images across users due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.\n\n
+</code>
+
+- [Trinadh465/platform_frameworks_base_CVE-2023-21288](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-21288)
 
 ### CVE-2023-21554 (2023-04-11)
 
@@ -2719,6 +2756,7 @@
 </code>
 
 - [sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419](https://github.com/sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419)
+- [u238/Elasticsearch-CVE-2023-31419](https://github.com/u238/Elasticsearch-CVE-2023-31419)
 
 ### CVE-2023-31433 (2023-05-02)
 
@@ -4773,6 +4811,13 @@
 
 - [b0marek/CVE-2023-43263](https://github.com/b0marek/CVE-2023-43263)
 
+### CVE-2023-43284 (2023-10-05)
+
+<code>D-Link Wireless MU-MIMO Gigabit AC1200 Router DIR-846 100A53DBR-Retail devices allow an authenticated remote attacker to execute arbitrary code via an unspecified manipulation of the QoS POST parameter.
+</code>
+
+- [MateusTesser/CVE-2023-43284](https://github.com/MateusTesser/CVE-2023-43284)
+
 ### CVE-2023-43323 (2023-09-28)
 
 <code>mooSocial 3.1.8 is vulnerable to external service interaction on post function. When executed, the server sends a HTTP and DNS request to external server. The Parameters effected are multiple - messageText, data[wall_photo], data[userShareVideo] and data[userShareLink].
@@ -4912,6 +4957,13 @@
 </code>
 
 - [sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension](https://github.com/sromanhu/CVE-2023-43360-CMSmadesimple-Stored-XSS---File-Picker-extension)
+
+### CVE-2023-43654 (2023-09-28)
+
+<code>TorchServe is a tool for serving and scaling PyTorch models in production. TorchServe default configuration lacks proper input validation, enabling third parties to invoke remote HTTP download requests and write files to the disk. This issue could be taken advantage of to compromise the integrity of the system and sensitive data. This issue is present in versions 0.1.0 to 0.8.1. A user is able to load the model of their choice from any URL that they would like to use. The user of TorchServe is responsible for configuring both the allowed_urls and specifying the model URL to be used. A pull request to warn the user when the default value for allowed_urls is used has been merged in PR #2534. TorchServe release 0.8.2 includes this change. Users are advised to upgrade. There are no known workarounds for this issue.
+</code>
+
+- [OligoCyberSecurity/ShellTorchChecker](https://github.com/OligoCyberSecurity/ShellTorchChecker)
 
 ### CVE-2023-43770 (2023-09-22)
 
@@ -5652,6 +5704,13 @@
 
 - [mbadanoiu/CVE-2023-49964](https://github.com/mbadanoiu/CVE-2023-49964)
 
+### CVE-2023-50164 (2023-12-07)
+
+<code>An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.\nUsers are recommended to upgrade to versions Struts 2.5.33 or Struts 6.3.0.2 or greater to fix this issue.\n
+</code>
+
+- [jakabakos/CVE-2023-50164-Apache-Struts-RCE](https://github.com/jakabakos/CVE-2023-50164-Apache-Struts-RCE)
+
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
@@ -6141,7 +6200,6 @@
 - [AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit](https://github.com/AkuCyberSec/CVE-2022-1329-WordPress-Elementor-3.6.0-3.6.1-3.6.2-Remote-Code-Execution-Exploit)
 - [mcdulltii/CVE-2022-1329](https://github.com/mcdulltii/CVE-2022-1329)
 - [Grazee/CVE-2022-1329-WordPress-Elementor-RCE](https://github.com/Grazee/CVE-2022-1329-WordPress-Elementor-RCE)
-- [dexit/CVE-2022-1329](https://github.com/dexit/CVE-2022-1329)
 
 ### CVE-2022-1386 (2022-05-16)
 
@@ -6810,7 +6868,6 @@
 <code>In toLanguageTag of LocaleListCache.cpp, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-239267173
 </code>
 
-- [Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33_CVE-2022-20473)
 - [Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473](https://github.com/Trinadh465/frameworks_minikin_AOSP10_r33-CVE-2022-20473)
 
 ### CVE-2022-20489 (2023-01-24)
@@ -6848,13 +6905,6 @@
 </code>
 
 - [Supersonic/CVE-2022-20494](https://github.com/Supersonic/CVE-2022-20494)
-
-### CVE-2022-20607 (2022-12-16)
-
-<code>In the Pixel cellular firmware, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with LTE authentication needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-238914868References: N/A
-</code>
-
-- [sumeetIT/CVE-2022-20607](https://github.com/sumeetIT/CVE-2022-20607)
 
 ### CVE-2022-20699 (2022-02-10)
 
@@ -8784,7 +8834,6 @@
 
 - [YouGina/CVE-2022-28346](https://github.com/YouGina/CVE-2022-28346)
 - [DeEpinGh0st/CVE-2022-28346](https://github.com/DeEpinGh0st/CVE-2022-28346)
-- [vincentinttsh/CVE-2022-28346](https://github.com/vincentinttsh/CVE-2022-28346)
 
 ### CVE-2022-28368 (2022-04-02)
 
@@ -8936,13 +8985,6 @@
 
 - [EgeBalci/CVE-2022-29154](https://github.com/EgeBalci/CVE-2022-29154)
 
-### CVE-2022-29170 (2022-05-20)
-
-<code>Grafana is an open-source platform for monitoring and observability. In Grafana Enterprise, the Request security feature allows list allows to configure Grafana in a way so that the instance doesn’t call or only calls specific hosts. The vulnerability present starting with version 7.4.0-beta1 and prior to versions 7.5.16 and 8.5.3 allows someone to bypass these security configurations if a malicious datasource (running on an allowed host) returns an HTTP redirect to a forbidden host. The vulnerability only impacts Grafana Enterprise when the Request security allow list is used and there is a possibility to add a custom datasource to Grafana which returns HTTP redirects. In this scenario, Grafana would blindly follow the redirects and potentially give secure information to the clients. Grafana Cloud is not impacted by this vulnerability. Versions 7.5.16 and 8.5.3 contain a patch for this issue. There are currently no known workarounds.
-</code>
-
-- [yijikeji/CVE-2022-29170](https://github.com/yijikeji/CVE-2022-29170)
-
 ### CVE-2022-29221 (2022-05-24)
 
 <code>Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. Prior to versions 3.1.45 and 4.1.1, template authors could inject php code by choosing a malicious {block} name or {include} file name. Sites that cannot fully trust template authors should upgrade to versions 3.1.45 or 4.1.1 to receive a patch for this issue. There are currently no known workarounds.
@@ -8994,7 +9036,6 @@
 
 - [GULL2100/Wordpress_xss-CVE-2022-29455](https://github.com/GULL2100/Wordpress_xss-CVE-2022-29455)
 - [akhilkoradiya/CVE-2022-29455](https://github.com/akhilkoradiya/CVE-2022-29455)
-- [5l1v3r1/CVE-2022-29455](https://github.com/5l1v3r1/CVE-2022-29455)
 - [yaudahbanh/CVE-2022-29455](https://github.com/yaudahbanh/CVE-2022-29455)
 - [0xkucing/CVE-2022-29455](https://github.com/0xkucing/CVE-2022-29455)
 - [tucommenceapousser/CVE-2022-29455](https://github.com/tucommenceapousser/CVE-2022-29455)
@@ -10684,13 +10725,6 @@
 
 - [h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated](https://github.com/h4md153v63n/CVE-2022-40348_Intern-Record-System-Cross-site-Scripting-V1.0-Vulnerability-Unauthenticated)
 
-### CVE-2022-40363 (2022-09-29)
-
-<code>A buffer overflow in the component nfc_device_load_mifare_ul_data of Flipper Devices Inc., Flipper Zero before v0.65.2 allows attackers to cause a Denial of Service (DoS) via a crafted NFC file.
-</code>
-
-- [Olafdaf/CVE-2022-40363](https://github.com/Olafdaf/CVE-2022-40363)
-
 ### CVE-2022-40470 (2022-11-21)
 
 <code>Phpgurukul Blood Donor Management System 1.0 allows Cross Site Scripting via Add Blood Group Name Feature.
@@ -10772,13 +10806,6 @@
 
 - [williamkhepri/CVE-2022-40687-metasploit-scanner](https://github.com/williamkhepri/CVE-2022-40687-metasploit-scanner)
 
-### CVE-2022-40769 (2022-09-18)
-
-<code>profanity through 1.60 has only four billion possible RNG initializations. Thus, attackers can recover private keys from Ethereum vanity addresses and steal cryptocurrency, as exploited in the wild in June 2022.
-</code>
-
-- [PLSRcoin/CVE-2022-40769](https://github.com/PLSRcoin/CVE-2022-40769)
-
 ### CVE-2022-40799 (2022-11-28)
 
 <code>Data Integrity Failure in 'Backup Config' in D-Link DNR-322L &lt;= 2.60B15 allows an authenticated attacker to execute OS level commands on the device.
@@ -10831,13 +10858,6 @@
 
 - [NathanScottGithub/CVE-2022-41049-POC](https://github.com/NathanScottGithub/CVE-2022-41049-POC)
 
-### CVE-2022-41076 (2022-12-13)
-
-<code>PowerShell Remote Code Execution Vulnerability
-</code>
-
-- [5l1v3r1/CVE-2022-41076](https://github.com/5l1v3r1/CVE-2022-41076)
-
 ### CVE-2022-41080 (2022-11-09)
 
 <code>Microsoft Exchange Server Elevation of Privilege Vulnerability
@@ -10867,13 +10887,6 @@
 - [o0MattE0o/CVE-2022-41099-Fix](https://github.com/o0MattE0o/CVE-2022-41099-Fix)
 - [g-gill24/WinRE-Patch](https://github.com/g-gill24/WinRE-Patch)
 - [dsn1321/KB5025175-CVE-2022-41099](https://github.com/dsn1321/KB5025175-CVE-2022-41099)
-
-### CVE-2022-41114 (2022-11-09)
-
-<code>Windows Bind Filter Driver Elevation of Privilege Vulnerability
-</code>
-
-- [gmh5225/CVE-2022-41114](https://github.com/gmh5225/CVE-2022-41114)
 
 ### CVE-2022-41218 (2022-09-21)
 
@@ -10917,7 +10930,6 @@
 
 - [segfault-it/cve-2022-41352](https://github.com/segfault-it/cve-2022-41352)
 - [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
-- [lolminerxmrig/cve-2022-41352-zimbra-rce-1](https://github.com/lolminerxmrig/cve-2022-41352-zimbra-rce-1)
 - [qailanet/cve-2022-41352-zimbra-rce](https://github.com/qailanet/cve-2022-41352-zimbra-rce)
 
 ### CVE-2022-41358 (2022-10-19)
@@ -16784,7 +16796,6 @@
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
 - [numanturle/CVE-2021-41773](https://github.com/numanturle/CVE-2021-41773)
-- [knqyf263/CVE-2021-41773](https://github.com/knqyf263/CVE-2021-41773)
 - [ZephrFish/CVE-2021-41773-PoC](https://github.com/ZephrFish/CVE-2021-41773-PoC)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [masahiro331/CVE-2021-41773](https://github.com/masahiro331/CVE-2021-41773)
@@ -16793,9 +16804,7 @@
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
-- [habibiefaried/CVE-2021-41773-PoC](https://github.com/habibiefaried/CVE-2021-41773-PoC)
 - [creadpag/CVE-2021-41773-POC](https://github.com/creadpag/CVE-2021-41773-POC)
-- [TAI-REx/cve-2021-41773-nse](https://github.com/TAI-REx/cve-2021-41773-nse)
 - [blasty/CVE-2021-41773](https://github.com/blasty/CVE-2021-41773)
 - [PentesterGuruji/CVE-2021-41773](https://github.com/PentesterGuruji/CVE-2021-41773)
 - [jbovet/CVE-2021-41773](https://github.com/jbovet/CVE-2021-41773)
@@ -22869,6 +22878,13 @@
 
 - [brahmiboudjema/CVE-2020-25637-libvirt-double-free](https://github.com/brahmiboudjema/CVE-2020-25637-libvirt-double-free)
 
+### CVE-2020-25668 (2021-05-26)
+
+<code>A flaw was found in Linux Kernel because access to the global variable fg_console is not properly synchronized leading to a use after free in con_font_op.
+</code>
+
+- [hshivhare67/Kernel_4.1.15_CVE-2020-25668](https://github.com/hshivhare67/Kernel_4.1.15_CVE-2020-25668)
+
 ### CVE-2020-25686 (2021-01-20)
 
 <code>A flaw was found in dnsmasq before version 2.83. When receiving a query, dnsmasq does not check for an existing pending request for the same name and forwards a new request. By default, a maximum of 150 pending queries can be sent to upstream servers, so there can be at most 150 queries for the same name. This flaw allows an off-path attacker on the network to substantially reduce the number of attempts that it would have to perform to forge a reply and have it accepted by dnsmasq. This issue is mentioned in the &quot;Birthday Attacks&quot; section of RFC5452. If chained with CVE-2020-25684, the attack complexity of a successful attack is reduced. The highest threat from this vulnerability is to data integrity.
@@ -24241,7 +24257,6 @@
 - [raystyle/CVE-2019-2215](https://github.com/raystyle/CVE-2019-2215)
 - [kangtastic/cve-2019-2215](https://github.com/kangtastic/cve-2019-2215)
 - [marcinguy/CVE-2019-2215](https://github.com/marcinguy/CVE-2019-2215)
-- [LIznzn/CVE-2019-2215](https://github.com/LIznzn/CVE-2019-2215)
 - [DimitriFourny/cve-2019-2215](https://github.com/DimitriFourny/cve-2019-2215)
 - [qre0ct/android-kernel-exploitation-ashfaq-CVE-2019-2215](https://github.com/qre0ct/android-kernel-exploitation-ashfaq-CVE-2019-2215)
 - [sharif-dev/AndroidKernelVulnerability](https://github.com/sharif-dev/AndroidKernelVulnerability)
@@ -33762,13 +33777,6 @@
 - [saelo/jscpwn](https://github.com/saelo/jscpwn)
 - [hdbreaker/WebKit-CVE-2016-4622](https://github.com/hdbreaker/WebKit-CVE-2016-4622)
 
-### CVE-2016-4631 (2016-07-21)
-
-<code>ImageIO in Apple iOS before 9.3.3, OS X before 10.11.6, tvOS before 9.2.2, and watchOS before 2.2.2 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted TIFF file.
-</code>
-
-- [hansnielsen/tiffdisabler](https://github.com/hansnielsen/tiffdisabler)
-
 ### CVE-2016-4655 (2016-08-25)
 
 <code>The kernel in Apple iOS before 9.3.5 allows attackers to obtain sensitive information from memory via a crafted app.
@@ -34020,7 +34028,6 @@
 <code>Oracle MySQL through 5.5.52, 5.6.x through 5.6.33, and 5.7.x through 5.7.15; MariaDB before 5.5.51, 10.0.x before 10.0.27, and 10.1.x before 10.1.17; and Percona Server before 5.5.51-38.1, 5.6.x before 5.6.32-78.0, and 5.7.x before 5.7.14-7 allow local users to create arbitrary configurations and bypass certain protection mechanisms by setting general_log_file to a my.cnf configuration. NOTE: this can be leveraged to execute arbitrary code with root privileges by setting malloc_lib. NOTE: the affected MySQL version information is from Oracle's October 2016 CPU. Oracle has not commented on third-party claims that the issue was silently patched in MySQL 5.5.52, 5.6.33, and 5.7.15.
 </code>
 
-- [konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch](https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch)
 - [meersjo/ansible-mysql-cve-2016-6662](https://github.com/meersjo/ansible-mysql-cve-2016-6662)
 - [KosukeShimofuji/CVE-2016-6662](https://github.com/KosukeShimofuji/CVE-2016-6662)
 - [Ashrafdev/MySQL-Remote-Root-Code-Execution](https://github.com/Ashrafdev/MySQL-Remote-Root-Code-Execution)
