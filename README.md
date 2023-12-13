@@ -26538,6 +26538,7 @@
 - [h4ck0rman/CVE-2019-15107](https://github.com/h4ck0rman/CVE-2019-15107)
 - [olingo99/CVE-2019-15107](https://github.com/olingo99/CVE-2019-15107)
 - [aamfrk/Webmin-CVE-2019-15107](https://github.com/aamfrk/Webmin-CVE-2019-15107)
+- [0x4r2/Webmin-CVE-2019-15107](https://github.com/0x4r2/Webmin-CVE-2019-15107)
 
 ### CVE-2019-15112 (2019-08-21)
 
@@ -28557,6 +28558,7 @@
 - [Zeeshan12340/CVE-2018-6574](https://github.com/Zeeshan12340/CVE-2018-6574)
 - [moTorky/CVE-2018-6574-POC](https://github.com/moTorky/CVE-2018-6574-POC)
 - [Ashved9/Orange](https://github.com/Ashved9/Orange)
+- [zerbaliy3v/cve-2018-6574-exploit](https://github.com/zerbaliy3v/cve-2018-6574-exploit)
 
 ### CVE-2018-6622 (2018-08-17)
 
