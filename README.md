@@ -2821,7 +2821,11 @@
 
 - [DreamD2v/CVE-2023-31541](https://github.com/DreamD2v/CVE-2023-31541)
 
-### CVE-2023-31546
+### CVE-2023-31546 (2023-12-13)
+
+<code>Cross Site Scripting (XSS) vulnerability in DedeBIZ v6.0.3 allows attackers to run arbitrary code via the search feature.
+</code>
+
 - [ran9ege/CVE-2023-31546](https://github.com/ran9ege/CVE-2023-31546)
 
 ### CVE-2023-31584 (2023-05-22)
@@ -5678,6 +5682,9 @@
 </code>
 
 - [nitipoom-jar/CVE-2023-48866](https://github.com/nitipoom-jar/CVE-2023-48866)
+
+### CVE-2023-49038
+- [christopher-pace/CVE-2023-49038](https://github.com/christopher-pace/CVE-2023-49038)
 
 ### CVE-2023-49052 (2023-11-30)
 
@@ -27691,13 +27698,6 @@
 
 - [preempt/credssp](https://github.com/preempt/credssp)
 
-### CVE-2018-0952 (2018-08-15)
-
-<code>An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Collector allows file creation in arbitrary locations, aka &quot;Diagnostic Hub Standard Collector Elevation Of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Microsoft Visual Studio, Windows 10 Servers.
-</code>
-
-- [atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector)
-
 ### CVE-2018-0959 (2018-05-09)
 
 <code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka &quot;Hyper-V Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
@@ -28999,7 +28999,6 @@
 - [rip1s/CVE-2018-8120](https://github.com/rip1s/CVE-2018-8120)
 - [ne1llee/cve-2018-8120](https://github.com/ne1llee/cve-2018-8120)
 - [alpha1ab/CVE-2018-8120](https://github.com/alpha1ab/CVE-2018-8120)
-- [EVOL4/CVE-2018-8120](https://github.com/EVOL4/CVE-2018-8120)
 - [ozkanbilge/CVE-2018-8120](https://github.com/ozkanbilge/CVE-2018-8120)
 - [qiantu88/CVE-2018-8120](https://github.com/qiantu88/CVE-2018-8120)
 - [Y0n0Y/cve-2018-8120-exp](https://github.com/Y0n0Y/cve-2018-8120-exp)
@@ -29289,7 +29288,6 @@
 </code>
 
 - [manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958](https://github.com/manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958)
-- [orangepirate/cve-2018-9948-9958-exp](https://github.com/orangepirate/cve-2018-9948-9958-exp)
 
 ### CVE-2018-9950 (2018-05-17)
 
@@ -30049,13 +30047,6 @@
 - [mrblue12-byte/CVE-2018-15473](https://github.com/mrblue12-byte/CVE-2018-15473)
 - [4xolotl/CVE-2018-15473](https://github.com/4xolotl/CVE-2018-15473)
 - [NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473)
-
-### CVE-2018-15499 (2018-08-24)
-
-<code>GEAR Software products that include GEARAspiWDM.sys, 2.2.5.0, allow local users to cause a denial of service (Race Condition and BSoD on Windows) by not checking that user-mode memory is available right before writing to it. A check is only performed at the beginning of a long subroutine.
-</code>
-
-- [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
 
 ### CVE-2018-15686 (2018-10-26)
 
@@ -37143,6 +37134,7 @@
 </code>
 
 - [ChristianPapathanasiou/jboss-autopwn](https://github.com/ChristianPapathanasiou/jboss-autopwn)
+- [gitcollect/jboss-autopwn](https://github.com/gitcollect/jboss-autopwn)
 
 ### CVE-2010-1205 (2010-06-30)
 
@@ -37213,6 +37205,7 @@
 <code>Stack-based buffer overflow in Microsoft Office XP SP3, Office 2003 SP3, Office 2007 SP2, Office 2010, Office 2004 and 2008 for Mac, Office for Mac 2011, and Open XML File Format Converter for Mac allows remote attackers to execute arbitrary code via crafted RTF data, aka &quot;RTF Stack Buffer Overflow Vulnerability.&quot;
 </code>
 
+- [whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333)
 - [Sunqiz/CVE-2010-3333-reproduction](https://github.com/Sunqiz/CVE-2010-3333-reproduction)
 
 ### CVE-2010-3490 (2010-09-28)
@@ -37228,6 +37221,13 @@
 </code>
 
 - [LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2](https://github.com/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2)
+
+### CVE-2010-3847 (2011-01-07)
+
+<code>elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2, and 2.12.x through 2.12.1, does not properly handle a value of $ORIGIN for the LD_AUDIT environment variable, which allows local users to gain privileges via a crafted dynamic shared object (DSO) located in an arbitrary directory.
+</code>
+
+- [magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847)
 
 ### CVE-2010-3904 (2010-12-06)
 
