@@ -1509,6 +1509,7 @@
 </code>
 
 - [imperva/CVE-2023-22524](https://github.com/imperva/CVE-2023-22524)
+- [ron-imperva/CVE-2023-22524](https://github.com/ron-imperva/CVE-2023-22524)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -30828,6 +30829,7 @@
 - [wrkk112/CVE-2018-25031](https://github.com/wrkk112/CVE-2018-25031)
 - [LUCASRENAA/CVE-2018-25031](https://github.com/LUCASRENAA/CVE-2018-25031)
 - [hev0x/CVE-2018-25031-PoC](https://github.com/hev0x/CVE-2018-25031-PoC)
+- [ThiiagoEscobar/CVE-2018-25031](https://github.com/ThiiagoEscobar/CVE-2018-25031)
 
 ### CVE-2018-25032 (2022-03-25)
 
