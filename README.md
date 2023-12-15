@@ -675,6 +675,13 @@
 
 - [d0rb/CVE-2023-4174](https://github.com/d0rb/CVE-2023-4174)
 
+### CVE-2023-4206 (2023-09-06)
+
+<code>A use-after-free vulnerability in the Linux kernel's net/sched: cls_route component can be exploited to achieve local privilege escalation.\n\nWhen route4_change() is called on an existing filter, the whole tcf_result struct is always copied into the new instance of the filter. This causes a problem when updating a filter bound to a class, as tcf_unbind_filter() is always called on the old instance in the success path, decreasing filter_cnt of the still referenced class and allowing it to be deleted, leading to a use-after-free.\n\nWe recommend upgrading past commit b80b829e9e2c1b3f7aae34855e04d8f6ecaf13c8.\n\n
+</code>
+
+- [hshivhare67/Kernel_4.1.15_CVE-2023-4206_CVE-2023-4207_CVE-2023-4208](https://github.com/hshivhare67/Kernel_4.1.15_CVE-2023-4206_CVE-2023-4207_CVE-2023-4208)
+
 ### CVE-2023-4278 (2023-09-11)
 
 <code>The MasterStudy LMS WordPress Plugin WordPress plugin before 3.0.18 does not have proper checks in place during registration allowing anyone to register on the site as an instructor. They can then add courses and/or posts.
@@ -6308,7 +6315,6 @@
 - [sashka3076/F5-BIG-IP-exploit](https://github.com/sashka3076/F5-BIG-IP-exploit)
 - [li8u99/CVE-2022-1388](https://github.com/li8u99/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
-- [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
@@ -6796,13 +6802,6 @@
 
 ### CVE-2022-20128
 - [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
-
-### CVE-2022-20130 (2022-06-15)
-
-<code>In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-224314979
-</code>
-
-- [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
 
 ### CVE-2022-20138 (2022-06-15)
 
@@ -7476,8 +7475,6 @@
 - [b4dboy17/CVE-2022-22954](https://github.com/b4dboy17/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
 - [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
-- [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
-- [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
 - [lolminerxmrig/CVE-2022-22954_](https://github.com/lolminerxmrig/CVE-2022-22954_)
 - [Jhonsonwannaa/CVE-2022-22954](https://github.com/Jhonsonwannaa/CVE-2022-22954)
@@ -8509,9 +8506,6 @@
 - [z92g/CVE-2022-26138](https://github.com/z92g/CVE-2022-26138)
 - [shavchen/CVE-2022-26138](https://github.com/shavchen/CVE-2022-26138)
 
-### CVE-2022-26141
-- [5l1v3r1/CVE-2022-26141](https://github.com/5l1v3r1/CVE-2022-26141)
-
 ### CVE-2022-26159 (2022-02-27)
 
 <code>The auto-completion plugin in Ametys CMS before 4.5.0 allows a remote unauthenticated attacker to read documents such as plugins/web/service/search/auto-completion/&lt;domain&gt;/en.xml (and similar pathnames for other languages), which contain all characters typed by all users, including the content of private pages. For example, a private page may contain usernames, e-mail addresses, and possibly passwords.
@@ -8600,13 +8594,6 @@
 </code>
 
 - [Dylbin/flow_divert](https://github.com/Dylbin/flow_divert)
-
-### CVE-2022-26763 (2022-05-26)
-
-<code>An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. A malicious application may be able to execute arbitrary code with system privileges.
-</code>
-
-- [zhuowei/PCICrash](https://github.com/zhuowei/PCICrash)
 
 ### CVE-2022-26766 (2022-05-26)
 
@@ -9129,8 +9116,6 @@
 - [xinghonghaoyue/CVE-2022-29464](https://github.com/xinghonghaoyue/CVE-2022-29464)
 - [Pasch0/WSO2RCE](https://github.com/Pasch0/WSO2RCE)
 - [r4x0r1337/-CVE-2022-29464](https://github.com/r4x0r1337/-CVE-2022-29464)
-- [amit-pathak009/CVE-2022-29464](https://github.com/amit-pathak009/CVE-2022-29464)
-- [amit-pathak009/CVE-2022-29464-mass](https://github.com/amit-pathak009/CVE-2022-29464-mass)
 - [hupe1980/CVE-2022-29464](https://github.com/hupe1980/CVE-2022-29464)
 - [gbrsh/CVE-2022-29464](https://github.com/gbrsh/CVE-2022-29464)
 - [Jhonsonwannaa/CVE-2022-29464-](https://github.com/Jhonsonwannaa/CVE-2022-29464-)
@@ -13088,6 +13073,7 @@
 - [pashayogi/ROOT-CVE-2021-3560](https://github.com/pashayogi/ROOT-CVE-2021-3560)
 - [TieuLong21Prosper/CVE-2021-3560](https://github.com/TieuLong21Prosper/CVE-2021-3560)
 - [LucasPDiniz/CVE-2021-3560](https://github.com/LucasPDiniz/CVE-2021-3560)
+- [markyu0401/CVE-2021-3560-Polkit-Privilege-Escalation](https://github.com/markyu0401/CVE-2021-3560-Polkit-Privilege-Escalation)
 
 ### CVE-2021-3572 (2021-11-10)
 
