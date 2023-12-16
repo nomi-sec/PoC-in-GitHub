@@ -486,7 +486,6 @@
 
 - [RandomRobbieBF/CVE-2023-2982](https://github.com/RandomRobbieBF/CVE-2023-2982)
 - [H4K6/CVE-2023-2982-POC](https://github.com/H4K6/CVE-2023-2982-POC)
-- [LoaiEsam37/CVE-2023-2982](https://github.com/LoaiEsam37/CVE-2023-2982)
 - [wshinkle/CVE-2023-2982](https://github.com/wshinkle/CVE-2023-2982)
 
 ### CVE-2023-2986 (2023-06-07)
@@ -573,8 +572,6 @@
 <code>The Ultimate Member WordPress plugin before 2.6.7 does not prevent visitors from creating user accounts with arbitrary capabilities, effectively allowing attackers to create administrator accounts at will. This is actively being exploited in the wild.
 </code>
 
-- [gbrsh/CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460)
-- [rizqimaulanaa/CVE-2023-3460](https://github.com/rizqimaulanaa/CVE-2023-3460)
 - [yon3zu/Mass-CVE-2023-3460](https://github.com/yon3zu/Mass-CVE-2023-3460)
 - [Fire-Null/CVE-2023-3460](https://github.com/Fire-Null/CVE-2023-3460)
 - [diego-tella/CVE-2023-3460](https://github.com/diego-tella/CVE-2023-3460)
@@ -1814,10 +1811,6 @@
 <code>Cross site scripting vulnerability in Citrix ADC and Citrix Gateway  in allows and attacker to perform cross site scripting
 </code>
 
-- [SirBugs/CVE-2023-24488-PoC](https://github.com/SirBugs/CVE-2023-24488-PoC)
-- [Abo5/CVE-2023-24488](https://github.com/Abo5/CVE-2023-24488)
-- [securitycipher/CVE-2023-24488](https://github.com/securitycipher/CVE-2023-24488)
-- [NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule](https://github.com/NSTCyber/CVE-2023-24488-SIEM-Sigma-Rule)
 - [lazysec0x21/CVE-2023-24488](https://github.com/lazysec0x21/CVE-2023-24488)
 
 ### CVE-2023-24489 (2023-07-10)
@@ -2193,7 +2186,6 @@
 
 - [nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372)
 - [Chocapikk/CVE-2023-27372](https://github.com/Chocapikk/CVE-2023-27372)
-- [0SPwn/CVE-2023-27372-PoC](https://github.com/0SPwn/CVE-2023-27372-PoC)
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
 - [ThatNotEasy/CVE-2023-27372](https://github.com/ThatNotEasy/CVE-2023-27372)
 - [redboltsec/CVE-2023-27372-PoC](https://github.com/redboltsec/CVE-2023-27372-PoC)
@@ -2367,7 +2359,6 @@
 
 - [gobysec/CVE-2023-28343](https://github.com/gobysec/CVE-2023-28343)
 - [superzerosec/CVE-2023-28343](https://github.com/superzerosec/CVE-2023-28343)
-- [hba343434/CVE-2023-28343](https://github.com/hba343434/CVE-2023-28343)
 
 ### CVE-2023-28432 (2023-03-22)
 
@@ -2511,13 +2502,6 @@
 </code>
 
 - [mateusz834/CVE-2023-29409](https://github.com/mateusz834/CVE-2023-29409)
-
-### CVE-2023-29439 (2023-05-16)
-
-<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in FooPlugins FooGallery plugin &lt;= 2.2.35 versions.
-</code>
-
-- [LOURC0D3/CVE-2023-29439](https://github.com/LOURC0D3/CVE-2023-29439)
 
 ### CVE-2023-29478 (2023-04-06)
 
@@ -3053,7 +3037,6 @@
 - [YouGina/CVE-2023-32243](https://github.com/YouGina/CVE-2023-32243)
 - [thatonesecguy/Wordpress-Vulnerability-Identification-Scripts](https://github.com/thatonesecguy/Wordpress-Vulnerability-Identification-Scripts)
 - [manavvedawala/CVE-2023-32243-proof-of-concept](https://github.com/manavvedawala/CVE-2023-32243-proof-of-concept)
-- [Jenderal92/WP-CVE-2023-32243](https://github.com/Jenderal92/WP-CVE-2023-32243)
 - [shaoyu521/Mass-CVE-2023-32243](https://github.com/shaoyu521/Mass-CVE-2023-32243)
 
 ### CVE-2023-32315 (2023-05-26)
@@ -3151,13 +3134,6 @@
 - [hau-zy/KeePass-dump-py](https://github.com/hau-zy/KeePass-dump-py)
 - [dawnl3ss/CVE-2023-32784](https://github.com/dawnl3ss/CVE-2023-32784)
 - [ValentinPundikov/poc-CVE-2023-32784](https://github.com/ValentinPundikov/poc-CVE-2023-32784)
-
-### CVE-2023-32961 (2023-06-12)
-
-<code>Unauth. Reflected Cross-Site Scripting (XSS) vulnerability in Katie Seaborn Zotpress plugin &lt;= 7.3.3 versions.
-</code>
-
-- [LOURC0D3/CVE-2023-32961](https://github.com/LOURC0D3/CVE-2023-32961)
 
 ### CVE-2023-33242 (2023-08-09)
 
@@ -3295,13 +3271,6 @@
 
 - [Chocapikk/CVE-2023-33617](https://github.com/Chocapikk/CVE-2023-33617)
 - [tucommenceapousser/CVE-2023-33617](https://github.com/tucommenceapousser/CVE-2023-33617)
-
-### CVE-2023-33668 (2023-07-12)
-
-<code>DigiExam up to v14.0.2 lacks integrity checks for native modules, allowing attackers to access PII and takeover accounts on shared computers.
-</code>
-
-- [lodi-g/CVE-2023-33668](https://github.com/lodi-g/CVE-2023-33668)
 
 ### CVE-2023-33730 (2023-05-31)
 
@@ -3615,7 +3584,6 @@
 </code>
 
 - [Aituglo/CVE-2023-34960](https://github.com/Aituglo/CVE-2023-34960)
-- [Jenderal92/CHAMILO-CVE-2023-34960](https://github.com/Jenderal92/CHAMILO-CVE-2023-34960)
 - [YongYe-Security/Chamilo_CVE-2023-34960-EXP](https://github.com/YongYe-Security/Chamilo_CVE-2023-34960-EXP)
 - [ThatNotEasy/CVE-2023-34960](https://github.com/ThatNotEasy/CVE-2023-34960)
 - [Mantodkaz/CVE-2023-34960](https://github.com/Mantodkaz/CVE-2023-34960)
@@ -3863,9 +3831,6 @@
 
 - [tandasat/CVE-2023-36427](https://github.com/tandasat/CVE-2023-36427)
 
-### CVE-2023-36531
-- [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
-
 ### CVE-2023-36664 (2023-06-25)
 
 <code>Artifex Ghostscript through 10.01.2 mishandles permission validation for pipe devices (with the %pipe% prefix or the | pipe character prefix).
@@ -3980,34 +3945,6 @@
 </code>
 
 - [ilqarli27/CVE-2023-37164](https://github.com/ilqarli27/CVE-2023-37164)
-
-### CVE-2023-37189 (2023-07-10)
-
-<code>A stored cross site scripting (XSS) vulnerability in index.php?menu=billing_rates of Issabel PBX version 4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload entered into the Name or Prefix fields under the Create New Rate module.
-</code>
-
-- [sahiloj/CVE-2023-37189](https://github.com/sahiloj/CVE-2023-37189)
-
-### CVE-2023-37190 (2023-07-10)
-
-<code>A stored cross-site scripting (XSS) vulnerability in Issabel issabel-pbx v.4.0.0-6 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Virtual Fax Name and Caller ID Name parameters under the New Virtual Fax feature.
-</code>
-
-- [sahiloj/CVE-2023-37190](https://github.com/sahiloj/CVE-2023-37190)
-
-### CVE-2023-37191 (2023-07-10)
-
-<code>A stored cross-site scripting (XSS) vulnerability in Issabel issabel-pbx v.4.0.0-6 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Group and Description parameters.
-</code>
-
-- [sahiloj/CVE-2023-37191](https://github.com/sahiloj/CVE-2023-37191)
-
-### CVE-2023-37250 (2023-08-20)
-
-<code>Unity Parsec has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs. This affects Parsec Loader versions through 8. Parsec Loader 9 is a fixed version.
-</code>
-
-- [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
 
 ### CVE-2023-37474 (2023-07-14)
 
@@ -5726,7 +5663,6 @@
 </code>
 
 - [abdoghazy2015/ofbiz-CVE-2023-49070-RCE-POC](https://github.com/abdoghazy2015/ofbiz-CVE-2023-49070-RCE-POC)
-- [nightowl642/Apache_OFBiz-CVE-2023-49070-exploit](https://github.com/nightowl642/Apache_OFBiz-CVE-2023-49070-exploit)
 
 ### CVE-2023-49103 (2023-11-21)
 
@@ -36400,6 +36336,7 @@
 
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
+- [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 - [mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028)
 - [jptr218/nginxhack](https://github.com/jptr218/nginxhack)
