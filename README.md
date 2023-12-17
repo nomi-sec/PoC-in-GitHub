@@ -57,7 +57,6 @@
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
-- [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
@@ -1385,7 +1384,6 @@
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
-- [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
