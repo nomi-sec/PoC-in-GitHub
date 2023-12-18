@@ -5728,6 +5728,7 @@
 </code>
 
 - [abdoghazy2015/ofbiz-CVE-2023-49070-RCE-POC](https://github.com/abdoghazy2015/ofbiz-CVE-2023-49070-RCE-POC)
+- [0xrobiul/CVE-2023-49070](https://github.com/0xrobiul/CVE-2023-49070)
 
 ### CVE-2023-49103 (2023-11-21)
 
@@ -8429,6 +8430,13 @@
 - [UNICORDev/exploit-CVE-2022-25765](https://github.com/UNICORDev/exploit-CVE-2022-25765)
 - [lekosbelas/PDFkit-CMD-Injection](https://github.com/lekosbelas/PDFkit-CMD-Injection)
 
+### CVE-2022-25813 (2022-09-02)
+
+<code>In Apache OFBiz, versions 18.12.05 and earlier, an attacker acting as an anonymous user of the ecommerce plugin, can insert a malicious content in a message “Subject” field from the &quot;Contact us&quot; page. Then a party manager needs to list the communications in the party component to activate the SSTI. A RCE is then possible.
+</code>
+
+- [mbadanoiu/CVE-2022-25813](https://github.com/mbadanoiu/CVE-2022-25813)
+
 ### CVE-2022-25845 (2022-06-10)
 
 <code>The package com.alibaba:fastjson before 1.2.83 are vulnerable to Deserialization of Untrusted Data by bypassing the default autoType shutdown restrictions, which is possible under certain conditions. Exploiting this vulnerability allows attacking remote servers. Workaround: If upgrading is not possible, you can enable [safeMode](https://github.com/alibaba/fastjson/wiki/fastjson_safemode).
@@ -9059,6 +9067,13 @@
 </code>
 
 - [sudoninja-noob/CVE-2022-29009](https://github.com/sudoninja-noob/CVE-2022-29009)
+
+### CVE-2022-29063 (2022-09-02)
+
+<code>The Solr plugin of Apache OFBiz is configured by default to automatically make a RMI request on localhost, port 1099. In version 18.12.05 and earlier, by hosting a malicious RMI server on localhost, an attacker may exploit this behavior, at server start-up or on a server restart, in order to run arbitrary code. Upgrade to at least 18.12.06 or apply patches at https://issues.apache.org/jira/browse/OFBIZ-12646.
+</code>
+
+- [mbadanoiu/CVE-2022-29063](https://github.com/mbadanoiu/CVE-2022-29063)
 
 ### CVE-2022-29072 (2022-04-15)
 
@@ -20292,7 +20307,6 @@
 - [QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit)
 - [bytescrappers/CVE-2020-7247](https://github.com/bytescrappers/CVE-2020-7247)
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
-- [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
 
 ### CVE-2020-7283 (2020-07-03)
@@ -22575,13 +22589,6 @@
 </code>
 
 - [5l1v3r1/CVE-2020-21224](https://github.com/5l1v3r1/CVE-2020-21224)
-
-### CVE-2020-21378 (2020-12-21)
-
-<code>SQL injection vulnerability in SeaCMS 10.1 (2020.02.08) via the id parameter in an edit action to admin_members_group.php.
-</code>
-
-- [sukusec301/SeaCMS-v10.1](https://github.com/sukusec301/SeaCMS-v10.1)
 
 ### CVE-2020-23160 (2021-01-22)
 
