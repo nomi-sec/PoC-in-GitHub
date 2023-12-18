@@ -1747,6 +1747,7 @@
 - [K3ysTr0K3R/CVE-2023-23752-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-23752-EXPLOIT)
 - [hadrian3689/CVE-2023-23752_Joomla](https://github.com/hadrian3689/CVE-2023-23752_Joomla)
 - [C1ph3rX13/CVE-2023-23752](https://github.com/C1ph3rX13/CVE-2023-23752)
+- [JeneralMotors/CVE-2023-23752](https://github.com/JeneralMotors/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -5793,6 +5794,13 @@
 
 ### CVE-2023-50643
 - [V3x0r/CVE-2023-50643](https://github.com/V3x0r/CVE-2023-50643)
+
+### CVE-2023-50917 (2023-12-15)
+
+<code>MajorDoMo (aka Major Domestic Module) before 0662e5e allows command execution via thumb.php shell metacharacters. NOTE: this is unrelated to the Majordomo mailing-list manager.
+</code>
+
+- [Chocapikk/CVE-2023-50917](https://github.com/Chocapikk/CVE-2023-50917)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -20307,6 +20315,7 @@
 - [QTranspose/CVE-2020-7247-exploit](https://github.com/QTranspose/CVE-2020-7247-exploit)
 - [bytescrappers/CVE-2020-7247](https://github.com/bytescrappers/CVE-2020-7247)
 - [f4T1H21/CVE-2020-7247](https://github.com/f4T1H21/CVE-2020-7247)
+- [SimonSchoeni/CVE-2020-7247-POC](https://github.com/SimonSchoeni/CVE-2020-7247-POC)
 - [presentdaypresenttime/shai_hulud](https://github.com/presentdaypresenttime/shai_hulud)
 
 ### CVE-2020-7283 (2020-07-03)
@@ -22589,6 +22598,13 @@
 </code>
 
 - [5l1v3r1/CVE-2020-21224](https://github.com/5l1v3r1/CVE-2020-21224)
+
+### CVE-2020-21378 (2020-12-21)
+
+<code>SQL injection vulnerability in SeaCMS 10.1 (2020.02.08) via the id parameter in an edit action to admin_members_group.php.
+</code>
+
+- [sukusec301/SeaCMS-v10.1](https://github.com/sukusec301/SeaCMS-v10.1)
 
 ### CVE-2020-23160 (2021-01-22)
 
