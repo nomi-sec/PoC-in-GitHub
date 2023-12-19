@@ -4695,6 +4695,13 @@
 
 - [federella/CVE-2023-41717](https://github.com/federella/CVE-2023-41717)
 
+### CVE-2023-41772 (2023-10-10)
+
+<code>Win32k Elevation of Privilege Vulnerability
+</code>
+
+- [R41N3RZUF477/CVE-2023-41772](https://github.com/R41N3RZUF477/CVE-2023-41772)
+
 ### CVE-2023-41892 (2023-09-13)
 
 <code>Craft CMS is a platform for creating digital experiences. This is a high-impact, low-complexity attack vector. Users running Craft installations before 4.4.15 are encouraged to update to at least that version to mitigate the issue. This issue has been fixed in Craft CMS 4.4.15.
@@ -5757,6 +5764,7 @@
 - [creacitysec/CVE-2023-49103](https://github.com/creacitysec/CVE-2023-49103)
 - [ditekshen/ansible-cve-2023-49103](https://github.com/ditekshen/ansible-cve-2023-49103)
 - [MixColumns/CVE-2023-49103](https://github.com/MixColumns/CVE-2023-49103)
+- [merlin-ke/OwnCloud-CVE-2023-49103](https://github.com/merlin-ke/OwnCloud-CVE-2023-49103)
 
 ### CVE-2023-49105 (2023-11-21)
 
@@ -19457,7 +19465,6 @@
 </code>
 
 - [jamf/CVE-2020-1206-POC](https://github.com/jamf/CVE-2020-1206-POC)
-- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
 - [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
@@ -19679,8 +19686,6 @@
 </code>
 
 - [ctlyz123/CVE-2020-1948](https://github.com/ctlyz123/CVE-2020-1948)
-- [txrw/Dubbo-CVE-2020-1948](https://github.com/txrw/Dubbo-CVE-2020-1948)
-- [M3g4Byt3/cve-2020-1948-poc](https://github.com/M3g4Byt3/cve-2020-1948-poc)
 - [L0kiii/Dubbo-deserialization](https://github.com/L0kiii/Dubbo-deserialization)
 
 ### CVE-2020-1956 (2020-05-22)
@@ -19767,7 +19772,6 @@
 - [Y4er/CVE-2020-2551](https://github.com/Y4er/CVE-2020-2551)
 - [zzwlpx/weblogicPoc](https://github.com/zzwlpx/weblogicPoc)
 - [Dido1960/Weblogic-CVE-2020-2551-To-Internet](https://github.com/Dido1960/Weblogic-CVE-2020-2551-To-Internet)
-- [DaMinGshidashi/CVE-2020-2551](https://github.com/DaMinGshidashi/CVE-2020-2551)
 - [LTiDi2000/CVE-2020-2551](https://github.com/LTiDi2000/CVE-2020-2551)
 - [0xAbbarhSF/CVE-Exploit](https://github.com/0xAbbarhSF/CVE-Exploit)
 
@@ -21011,13 +21015,6 @@
 
 - [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
 
-### CVE-2020-9768 (2020-04-01)
-
-<code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
-</code>
-
-- [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
-
 ### CVE-2020-9802 (2020-06-09)
 
 <code>A logic issue was addressed with improved restrictions. This issue is fixed in iOS 13.5 and iPadOS 13.5, tvOS 13.4.5, watchOS 6.2.5, Safari 13.1.1, iTunes 12.10.7 for Windows, iCloud for Windows 11.2, iCloud for Windows 7.19. Processing maliciously crafted web content may lead to arbitrary code execution.
@@ -22101,13 +22098,6 @@
 - [fan1029/CVE-2020-14883EXP](https://github.com/fan1029/CVE-2020-14883EXP)
 - [Osyanina/westone-CVE-2020-14883-scanner](https://github.com/Osyanina/westone-CVE-2020-14883-scanner)
 - [1n7erface/PocList](https://github.com/1n7erface/PocList)
-
-### CVE-2020-14947 (2020-06-30)
-
-<code>OCS Inventory NG 2.7 allows Remote Command Execution via shell metacharacters to require/commandLine/CommandLine.php because mib_file in plugins/main_sections/ms_config/ms_snmp_config.php is mishandled in get_mib_oid.
-</code>
-
-- [mhaskar/CVE-2020-14947](https://github.com/mhaskar/CVE-2020-14947)
 
 ### CVE-2020-14955 (2020-06-26)
 
@@ -27503,7 +27493,6 @@
 - [trustedsec/cve-2019-19781](https://github.com/trustedsec/cve-2019-19781)
 - [cisagov/check-cve-2019-19781](https://github.com/cisagov/check-cve-2019-19781)
 - [jas502n/CVE-2019-19781](https://github.com/jas502n/CVE-2019-19781)
-- [ianxtianxt/CVE-2019-19781](https://github.com/ianxtianxt/CVE-2019-19781)
 - [mpgn/CVE-2019-19781](https://github.com/mpgn/CVE-2019-19781)
 - [oways/CVE-2019-19781](https://github.com/oways/CVE-2019-19781)
 - [becrevex/Citrix_CVE-2019-19781](https://github.com/becrevex/Citrix_CVE-2019-19781)
@@ -31350,6 +31339,9 @@
 <code>An issue was discovered in certain Apple products. iOS before 10.2.1 is affected. macOS before 10.12.3 is affected. tvOS before 10.1.1 is affected. watchOS before 3.1.3 is affected. The issue involves the &quot;Kernel&quot; component. It allows attackers to execute arbitrary code in a privileged context or cause a denial of service (buffer overflow) via a crafted app.
 </code>
 
+- [maximehip/extra_recipe](https://github.com/maximehip/extra_recipe)
+- [JackBro/extra_recipe](https://github.com/JackBro/extra_recipe)
+- [Rootkitsmm-zz/extra_recipe-iOS-10.2](https://github.com/Rootkitsmm-zz/extra_recipe-iOS-10.2)
 - [Peterpan0927/CVE-2017-2370](https://github.com/Peterpan0927/CVE-2017-2370)
 
 ### CVE-2017-2388 (2017-04-01)
@@ -31477,6 +31469,13 @@
 - [SECFORCE/CVE-2017-3599](https://github.com/SECFORCE/CVE-2017-3599)
 - [jptr218/mysql_dos](https://github.com/jptr218/mysql_dos)
 
+### CVE-2017-3730 (2017-05-04)
+
+<code>In OpenSSL 1.1.0 before 1.1.0d, if a malicious server supplies bad parameters for a DHE or ECDHE key exchange then this can result in the client attempting to dereference a NULL pointer leading to a client crash. This could be exploited in a Denial of Service attack.
+</code>
+
+- [guidovranken/CVE-2017-3730](https://github.com/guidovranken/CVE-2017-3730)
+
 ### CVE-2017-3881 (2017-03-17)
 
 <code>A vulnerability in the Cisco Cluster Management Protocol (CMP) processing code in Cisco IOS and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause a reload of an affected device or remotely execute code with elevated privileges. The Cluster Management Protocol utilizes Telnet internally as a signaling and command protocol between cluster members. The vulnerability is due to the combination of two factors: (1) the failure to restrict the use of CMP-specific Telnet options only to internal, local communications between cluster members and instead accept and process such options over any Telnet connection to an affected device; and (2) the incorrect processing of malformed CMP-specific Telnet options. An attacker could exploit this vulnerability by sending malformed CMP-specific Telnet options while establishing a Telnet session with an affected Cisco device configured to accept Telnet connections. An exploit could allow an attacker to execute arbitrary code and obtain full control of the device or cause a reload of the affected device. This affects Catalyst switches, Embedded Service 2020 switches, Enhanced Layer 2 EtherSwitch Service Module, Enhanced Layer 2/3 EtherSwitch Service Module, Gigabit Ethernet Switch Module (CGESM) for HP, IE Industrial Ethernet switches, ME 4924-10GE switch, RF Gateway 10, and SM-X Layer 2/3 EtherSwitch Service Module. Cisco Bug IDs: CSCvd48893.
@@ -31574,6 +31573,7 @@
 <code>The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
+- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
 - [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
@@ -33490,7 +33490,6 @@
 - [googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728)
 - [neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed)
 - [bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728)
-- [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
 - [th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit)
@@ -33636,7 +33635,6 @@
 <code>The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, and watchOS before 2.2.1 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app, a different vulnerability than CVE-2016-1828, CVE-2016-1829, and CVE-2016-1830.
 </code>
 
-- [bazad/flow_divert-heap-overflow](https://github.com/bazad/flow_divert-heap-overflow)
 - [superMan7912002/bazad3](https://github.com/superMan7912002/bazad3)
 
 ### CVE-2016-1828 (2016-05-20)
@@ -33663,7 +33661,6 @@
 
 - [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
-- [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
@@ -34058,10 +34055,6 @@
 - [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
-- [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
-- [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
-- [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
-- [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
 - [droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer)
 - [FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4)
 - [arbll/dirtycow](https://github.com/arbll/dirtycow)
@@ -34273,19 +34266,11 @@
 
 - [0xcl/cve-2016-7190](https://github.com/0xcl/cve-2016-7190)
 
-### CVE-2016-7200 (2016-11-10)
-
-<code>The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
-</code>
-
-- [theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11)
-
 ### CVE-2016-7255 (2016-11-10)
 
 <code>The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, and 1607, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
 </code>
 
-- [heh3/CVE-2016-7255](https://github.com/heh3/CVE-2016-7255)
 - [FSecureLABS/CVE-2016-7255](https://github.com/FSecureLABS/CVE-2016-7255)
 - [homjxi0e/CVE-2016-7255](https://github.com/homjxi0e/CVE-2016-7255)
 - [yuvatia/page-table-exploitation](https://github.com/yuvatia/page-table-exploitation)
@@ -34341,13 +34326,6 @@
 </code>
 
 - [CunningLogic/PixelDump_CVE-2016-8462](https://github.com/CunningLogic/PixelDump_CVE-2016-8462)
-
-### CVE-2016-8467 (2017-01-13)
-
-<code>An elevation of privilege vulnerability in the bootloader could enable a local attacker to execute arbitrary modem commands on the device. This issue is rated as High because it is a local permanent denial of service (device interoperability: completely permanent or requiring re-flashing the entire operating system). Product: Android. Versions: N/A. Android ID: A-30308784.
-</code>
-
-- [roeeh/bootmodechecker](https://github.com/roeeh/bootmodechecker)
 
 ### CVE-2016-8610 (2017-11-13)
 
@@ -34438,7 +34416,6 @@
 <code>A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox &lt; 50.0.2, Firefox ESR &lt; 45.5.1, and Thunderbird &lt; 45.5.1.
 </code>
 
-- [LakshmiDesai/CVE-2016-9079](https://github.com/LakshmiDesai/CVE-2016-9079)
 - [dangokyo/CVE-2016-9079](https://github.com/dangokyo/CVE-2016-9079)
 - [Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079)
 
@@ -34477,13 +34454,6 @@
 </code>
 
 - [cved-sources/cve-2016-9838](https://github.com/cved-sources/cve-2016-9838)
-
-### CVE-2016-9920 (2016-12-08)
-
-<code>steps/mail/sendmail.inc in Roundcube before 1.1.7 and 1.2.x before 1.2.3, when no SMTP server is configured and the sendmail program is enabled, does not properly restrict the use of custom envelope-from addresses on the sendmail command line, which allows remote authenticated users to execute arbitrary code via a modified HTTP request that sends a crafted e-mail message.
-</code>
-
-- [t0kx/exploit-CVE-2016-9920](https://github.com/t0kx/exploit-CVE-2016-9920)
 
 ### CVE-2016-10033 (2016-12-30)
 
@@ -35554,7 +35524,6 @@
 - [musalbas/heartbleed-masstest](https://github.com/musalbas/heartbleed-masstest)
 - [obayesshelton/CVE-2014-0160-Scanner](https://github.com/obayesshelton/CVE-2014-0160-Scanner)
 - [Lekensteyn/pacemaker](https://github.com/Lekensteyn/pacemaker)
-- [isgroup/openmagic](https://github.com/isgroup/openmagic)
 - [fb1h2s/CVE-2014-0160](https://github.com/fb1h2s/CVE-2014-0160)
 - [takeshixx/ssl-heartbleed.nse](https://github.com/takeshixx/ssl-heartbleed.nse)
 - [roganartu/heartbleedchecker-chrome](https://github.com/roganartu/heartbleedchecker-chrome)
@@ -35798,7 +35767,6 @@
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
-- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-2815 (2014-08-12)
 
@@ -36770,6 +36738,13 @@
 
 
 ## 2012
+### CVE-2012-0002 (2012-03-13)
+
+<code>The Remote Desktop Protocol (RDP) implementation in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly process packets in memory, which allows remote attackers to execute arbitrary code by sending crafted RDP packets triggering access to an object that (1) was not properly initialized or (2) is deleted, aka &quot;Remote Desktop Protocol Vulnerability.&quot;
+</code>
+
+- [zhangkaibin0921/MS12-020-CVE-2012-0002](https://github.com/zhangkaibin0921/MS12-020-CVE-2012-0002)
+
 ### CVE-2012-0003 (2012-01-10)
 
 <code>Unspecified vulnerability in winmm.dll in Windows Multimedia Library in Windows Media Player (WMP) in Microsoft Windows XP SP2 and SP3, Server 2003 SP2, Vista SP2, and Server 2008 SP2 allows remote attackers to execute arbitrary code via a crafted MIDI file, aka &quot;MIDI Remote Code Execution Vulnerability.&quot;
@@ -36869,6 +36844,7 @@
 
 - [Avinza/CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner)
 - [cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122)
+- [zhangkaibin0921/CVE-2012-2122](https://github.com/zhangkaibin0921/CVE-2012-2122)
 
 ### CVE-2012-2593 (2020-02-06)
 
