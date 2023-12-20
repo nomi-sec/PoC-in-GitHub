@@ -858,7 +858,6 @@
 - [0xKayala/CVE-2023-4966](https://github.com/0xKayala/CVE-2023-4966)
 - [certat/citrix-logchecker](https://github.com/certat/citrix-logchecker)
 - [sanjai-AK47/CVE-2023-4966](https://github.com/sanjai-AK47/CVE-2023-4966)
-- [fdevsectest/CVE-2023-4966](https://github.com/fdevsectest/CVE-2023-4966)
 - [s-bt/CVE-2023-4966](https://github.com/s-bt/CVE-2023-4966)
 - [byte4RR4Y/CVE-2023-4966](https://github.com/byte4RR4Y/CVE-2023-4966)
 - [jmussmann/cve-2023-4966-iocs](https://github.com/jmussmann/cve-2023-4966-iocs)
@@ -1768,6 +1767,7 @@
 - [hadrian3689/CVE-2023-23752_Joomla](https://github.com/hadrian3689/CVE-2023-23752_Joomla)
 - [C1ph3rX13/CVE-2023-23752](https://github.com/C1ph3rX13/CVE-2023-23752)
 - [JeneralMotors/CVE-2023-23752](https://github.com/JeneralMotors/CVE-2023-23752)
+- [gunzf0x/CVE-2023-23752](https://github.com/gunzf0x/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -33314,6 +33314,13 @@
 
 - [Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal](https://github.com/Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal)
 
+### CVE-2017-1000250 (2017-09-12)
+
+<code>All versions of the SDP server in BlueZ 5.46 and earlier are vulnerable to an information disclosure vulnerability which allows remote attackers to obtain sensitive information from the bluetoothd process memory. This vulnerability lies in the processing of SDP search attribute requests.
+</code>
+
+- [olav-st/CVE-2017-1000250-PoC](https://github.com/olav-st/CVE-2017-1000250-PoC)
+
 ### CVE-2017-1000251 (2017-09-12)
 
 <code>The native Bluetooth stack in the Linux Kernel (BlueZ), starting at the Linux kernel version 2.6.32 and up to and including 4.13.1, are vulnerable to a stack overflow vulnerability in the processing of L2CAP configuration responses resulting in Remote code execution in kernel space.
@@ -34065,10 +34072,7 @@
 - [scumjr/dirtycow-vdso](https://github.com/scumjr/dirtycow-vdso)
 - [gbonacini/CVE-2016-5195](https://github.com/gbonacini/CVE-2016-5195)
 - [DavidBuchanan314/cowroot](https://github.com/DavidBuchanan314/cowroot)
-- [aishee/scan-dirtycow](https://github.com/aishee/scan-dirtycow)
 - [oleg-fiksel/ansible_CVE-2016-5195_check](https://github.com/oleg-fiksel/ansible_CVE-2016-5195_check)
-- [ldenevi/CVE-2016-5195](https://github.com/ldenevi/CVE-2016-5195)
-- [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
 - [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
@@ -34243,13 +34247,6 @@
 - [Ashrafdev/MySQL-Remote-Root-Code-Execution](https://github.com/Ashrafdev/MySQL-Remote-Root-Code-Execution)
 - [boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662)
 - [MAYASEVEN/CVE-2016-6662](https://github.com/MAYASEVEN/CVE-2016-6662)
-
-### CVE-2016-6663 (2016-12-13)
-
-<code>Race condition in Oracle MySQL before 5.5.52, 5.6.x before 5.6.33, 5.7.x before 5.7.15, and 8.x before 8.0.1; MariaDB before 5.5.52, 10.0.x before 10.0.28, and 10.1.x before 10.1.18; Percona Server before 5.5.51-38.2, 5.6.x before 5.6.32-78-1, and 5.7.x before 5.7.14-8; and Percona XtraDB Cluster before 5.5.41-37.0, 5.6.x before 5.6.32-25.17, and 5.7.x before 5.7.14-26.17 allows local users with certain permissions to gain privileges by leveraging use of my_copystat by REPAIR TABLE to repair a MyISAM table.
-</code>
-
-- [firebroo/CVE-2016-6663](https://github.com/firebroo/CVE-2016-6663)
 
 ### CVE-2016-6754 (2016-11-25)
 
@@ -34429,7 +34426,6 @@
 </code>
 
 - [sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870)
-- [rustyJ4ck/JoomlaCVE20168869](https://github.com/rustyJ4ck/JoomlaCVE20168869)
 - [cved-sources/cve-2016-8869](https://github.com/cved-sources/cve-2016-8869)
 
 ### CVE-2016-8870 (2016-11-04)
