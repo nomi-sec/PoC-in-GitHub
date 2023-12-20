@@ -5890,6 +5890,9 @@
 ### CVE-2023-50071
 - [geraldoalcantara/CVE-2023-50071](https://github.com/geraldoalcantara/CVE-2023-50071)
 
+### CVE-2023-50072
+- [ahrixia/CVE-2023-50072](https://github.com/ahrixia/CVE-2023-50072)
+
 ### CVE-2023-50131
 - [sajaljat/CVE-2023-50131](https://github.com/sajaljat/CVE-2023-50131)
 
@@ -18288,7 +18291,7 @@
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
 - [Sma-Das/Log4j-PoC](https://github.com/Sma-Das/Log4j-PoC)
 - [heeloo123/CVE-2021-44228](https://github.com/heeloo123/CVE-2021-44228)
-- [sebuahapel/log4shell-vulnweb](https://github.com/sebuahapel/log4shell-vulnweb)
+- [s3buahapel/log4shell-vulnweb](https://github.com/s3buahapel/log4shell-vulnweb)
 - [demonrvm/Log4ShellRemediation](https://github.com/demonrvm/Log4ShellRemediation)
 - [funcid/log4j-exploit-fork-bomb](https://github.com/funcid/log4j-exploit-fork-bomb)
 - [MrHarshvardhan/PY-Log4j-RCE-Scanner](https://github.com/MrHarshvardhan/PY-Log4j-RCE-Scanner)
@@ -27972,6 +27975,7 @@
 
 - [darrynten/MoodleExploit](https://github.com/darrynten/MoodleExploit)
 - [Feidao-fei/MOODLE-3.X-Remote-Code-Execution](https://github.com/Feidao-fei/MOODLE-3.X-Remote-Code-Execution)
+- [That-Guy-Steve/CVE-2018-1133-Exploit](https://github.com/That-Guy-Steve/CVE-2018-1133-Exploit)
 
 ### CVE-2018-1160 (2018-12-20)
 
