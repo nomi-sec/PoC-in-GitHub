@@ -5507,7 +5507,7 @@
 - [minhangxiaohui/ActiveMQ_CVE-2023-46604](https://github.com/minhangxiaohui/ActiveMQ_CVE-2023-46604)
 - [nitzanoligo/CVE-2023-46604-demo](https://github.com/nitzanoligo/CVE-2023-46604-demo)
 - [tomasmussi-mulesoft/activemq-cve-2023-46604](https://github.com/tomasmussi-mulesoft/activemq-cve-2023-46604)
-- [dcm2406/CVELab](https://github.com/dcm2406/CVELab)
+- [dcm2406/CVE-Lab](https://github.com/dcm2406/CVE-Lab)
 - [mrpentst/CVE-2023-46604](https://github.com/mrpentst/CVE-2023-46604)
 - [dcm2406/CVE-2023-46604](https://github.com/dcm2406/CVE-2023-46604)
 
@@ -17781,6 +17781,7 @@
 - [victorhorowitz/grafana-exploit-CVE-2021-43798](https://github.com/victorhorowitz/grafana-exploit-CVE-2021-43798)
 - [katseyres2/CVE-2021-43798](https://github.com/katseyres2/CVE-2021-43798)
 - [Iris288/CVE-2021-43798](https://github.com/Iris288/CVE-2021-43798)
+- [wagneralves/CVE-2021-43798](https://github.com/wagneralves/CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -18307,7 +18308,7 @@
 - [Tai-e/CVE-2021-44228](https://github.com/Tai-e/CVE-2021-44228)
 - [LucasPDiniz/CVE-2021-44228](https://github.com/LucasPDiniz/CVE-2021-44228)
 - [felixslama/log4shell-minecraft-demo](https://github.com/felixslama/log4shell-minecraft-demo)
-- [dcm2406/CVELab](https://github.com/dcm2406/CVELab)
+- [dcm2406/CVE-Lab](https://github.com/dcm2406/CVE-Lab)
 - [dcm2406/CVE-2021-44228](https://github.com/dcm2406/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
@@ -38216,13 +38217,6 @@
 </code>
 
 - [alt3kx/CVE-2002-0288](https://github.com/alt3kx/CVE-2002-0288)
-
-### CVE-2002-0289 (2002-05-03)
-
-<code>Buffer overflow in Phusion web server 1.0 allows remote attackers to cause a denial of service and execute arbitrary code via a long HTTP request.
-</code>
-
-- [alt3kx/CVE-2002-0289](https://github.com/alt3kx/CVE-2002-0289)
 
 ### CVE-2002-0346 (2002-05-03)
 
