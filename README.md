@@ -27197,6 +27197,13 @@
 - [brunosergi/bloodit](https://github.com/brunosergi/bloodit)
 - [spyx/cve-2019-17240](https://github.com/spyx/cve-2019-17240)
 
+### CVE-2019-17382 (2019-10-09)
+
+<code>An issue was discovered in zabbix.php?action=dashboard.view&amp;dashboardid=1 in Zabbix through 4.4. An attacker can bypass the login page and access the dashboard page, and then create a Dashboard, Report, Screen, or Map without any Username/Password (i.e., anonymously). All created elements (Dashboard/Report/Screen/Map) are accessible by other users and by an admin.
+</code>
+
+- [K3ysTr0K3R/CVE-2019-17382-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2019-17382-EXPLOIT)
+
 ### CVE-2019-17424 (2019-10-22)
 
 <code>A stack-based buffer overflow in the processPrivilage() function in IOS/process-general.c in nipper-ng 0.11.10 allows remote attackers (serving firewall configuration files) to achieve Remote Code Execution or Denial Of Service via a crafted file.
