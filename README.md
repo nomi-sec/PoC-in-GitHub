@@ -2570,6 +2570,7 @@
 - [ViperM4sk/cpanel-xss-177](https://github.com/ViperM4sk/cpanel-xss-177)
 - [S4muraiMelayu1337/CVE-2023-29489](https://github.com/S4muraiMelayu1337/CVE-2023-29489)
 - [SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489)
+- [Makurorororororororo/Validate-CVE-2023-29489-scanner-](https://github.com/Makurorororororororo/Validate-CVE-2023-29489-scanner-)
 
 ### CVE-2023-29808 (2023-05-11)
 
@@ -5794,9 +5795,6 @@
 
 ### CVE-2023-49438
 - [brandon-t-elliott/CVE-2023-49438](https://github.com/brandon-t-elliott/CVE-2023-49438)
-
-### CVE-2023-49440
-- [NyaMeeEain/Reserve_CVE-2023-49440_Boolean-based-SQL-injection](https://github.com/NyaMeeEain/Reserve_CVE-2023-49440_Boolean-based-SQL-injection)
 
 ### CVE-2023-49539
 - [geraldoalcantara/CVE-2023-49539](https://github.com/geraldoalcantara/CVE-2023-49539)
@@ -14807,6 +14805,7 @@
 - [1342486672/Flangvik](https://github.com/1342486672/Flangvik)
 - [TheDudeD6/ExchangeSmash](https://github.com/TheDudeD6/ExchangeSmash)
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
+- [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
 - [iceberg-N/cve-2021-26855](https://github.com/iceberg-N/cve-2021-26855)
 
