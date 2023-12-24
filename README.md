@@ -2019,6 +2019,7 @@
 
 - [rvizx/CVE-2023-26035](https://github.com/rvizx/CVE-2023-26035)
 - [heapbytes/CVE-2023-26035](https://github.com/heapbytes/CVE-2023-26035)
+- [Yuma-Tsushima07/CVE-2023-26035](https://github.com/Yuma-Tsushima07/CVE-2023-26035)
 
 ### CVE-2023-26048 (2023-04-18)
 
@@ -5804,6 +5805,9 @@
 
 ### CVE-2023-49438
 - [brandon-t-elliott/CVE-2023-49438](https://github.com/brandon-t-elliott/CVE-2023-49438)
+
+### CVE-2023-49471
+- [zunak/CVE-2023-49471](https://github.com/zunak/CVE-2023-49471)
 
 ### CVE-2023-49539
 - [geraldoalcantara/CVE-2023-49539](https://github.com/geraldoalcantara/CVE-2023-49539)
@@ -16778,6 +16782,7 @@
 - [RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444)
 - [nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-](https://github.com/nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-)
 - [hqdat809/CVE-2021-40444](https://github.com/hqdat809/CVE-2021-40444)
+- [MohamedAboHelal/CVE-2021-40444](https://github.com/MohamedAboHelal/CVE-2021-40444)
 
 ### CVE-2021-40449 (2021-10-12)
 
@@ -27105,6 +27110,7 @@
 </code>
 
 - [AlterSolutions/PyInstallerPrivEsc](https://github.com/AlterSolutions/PyInstallerPrivEsc)
+- [Ckrielle/CVE-2019-16784-POC](https://github.com/Ckrielle/CVE-2019-16784-POC)
 
 ### CVE-2019-16889 (2019-09-25)
 
