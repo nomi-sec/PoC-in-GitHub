@@ -1029,13 +1029,6 @@
 ### CVE-2023-6663
 - [cli-ish/CVE-2023-6663](https://github.com/cli-ish/CVE-2023-6663)
 
-### CVE-2023-6710 (2023-12-12)
-
-<code>A flaw was found in the mod_proxy_cluster in the Apache server. This issue may allow a malicious user to add a script in the 'alias' parameter in the URL to trigger the stored cross-site scripting (XSS) vulnerability. By adding a script on the alias parameter on the URL, it adds a new virtual host and adds the script to the cluster-manager page. The impact of this vulnerability is considered as Low, as the cluster_manager URL should not be exposed outside and is protected by user/password.
-</code>
-
-- [DedSec-47/CVE-2023-6710](https://github.com/DedSec-47/CVE-2023-6710)
-
 ### CVE-2023-20025 (2023-01-20)
 
 <code>A vulnerability in the web-based management interface of Cisco Small Business RV042 Series Routers could allow an unauthenticated, remote attacker to bypass authentication on the affected device. This vulnerability is due to incorrect user input validation of incoming HTTP packets. An attacker could exploit this vulnerability by sending crafted requests to the web-based management interface. A successful exploit could allow the attacker to gain root privileges on the affected device.
@@ -5983,6 +5976,7 @@
 - [Tachanka-zz/CVE-2023-51385_test](https://github.com/Tachanka-zz/CVE-2023-51385_test)
 - [Le1a/CVE-2023-51385](https://github.com/Le1a/CVE-2023-51385)
 - [zls1793/CVE-2023-51385_test](https://github.com/zls1793/CVE-2023-51385_test)
+- [WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -9083,6 +9077,7 @@
 </code>
 
 - [cheshireca7/CVE-2022-28117](https://github.com/cheshireca7/CVE-2022-28117)
+- [kimstars/POC-CVE-2022-28117](https://github.com/kimstars/POC-CVE-2022-28117)
 
 ### CVE-2022-28118 (2022-05-02)
 
@@ -13595,6 +13590,7 @@
 
 - [hacefresko/CVE-2021-4045-PoC](https://github.com/hacefresko/CVE-2021-4045-PoC)
 - [onebytex/CVE-2021-4045](https://github.com/onebytex/CVE-2021-4045)
+- [B3nj4h/CVE-2021-4045](https://github.com/B3nj4h/CVE-2021-4045)
 
 ### CVE-2021-4104 (2021-12-14)
 
@@ -31041,6 +31037,7 @@
 - [lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250)
 - [zeronohacker/CVE-2018-20250](https://github.com/zeronohacker/CVE-2018-20250)
 - [tzwlhack/CVE-2018-20250](https://github.com/tzwlhack/CVE-2018-20250)
+- [tannlh/CVE-2018-20250](https://github.com/tannlh/CVE-2018-20250)
 
 ### CVE-2018-20343 (2020-03-02)
 
@@ -31368,7 +31365,6 @@
 - [joke998/Cve-2017-0199-](https://github.com/joke998/Cve-2017-0199-)
 - [sUbc0ol/Microsoft-Word-CVE-2017-0199-](https://github.com/sUbc0ol/Microsoft-Word-CVE-2017-0199-)
 - [viethdgit/CVE-2017-0199](https://github.com/viethdgit/CVE-2017-0199)
-- [nicpenning/RTF-Cleaner](https://github.com/nicpenning/RTF-Cleaner)
 - [herbiezimmerman/2017-11-17-Maldoc-Using-CVE-2017-0199](https://github.com/herbiezimmerman/2017-11-17-Maldoc-Using-CVE-2017-0199)
 - [jacobsoo/RTF-Cleaner](https://github.com/jacobsoo/RTF-Cleaner)
 - [likescam/CVE-2017-0199](https://github.com/likescam/CVE-2017-0199)
@@ -31821,7 +31817,6 @@
 - [invisiblethreat/strutser](https://github.com/invisiblethreat/strutser)
 - [lizhi16/CVE-2017-5638](https://github.com/lizhi16/CVE-2017-5638)
 - [c002/Apache-Struts](https://github.com/c002/Apache-Struts)
-- [donaldashdown/Common-Vulnerability-and-Exploit](https://github.com/donaldashdown/Common-Vulnerability-and-Exploit)
 - [pr0x1ma-byte/cybersecurity-struts2](https://github.com/pr0x1ma-byte/cybersecurity-struts2)
 - [cafnet/apache-struts-v2-CVE-2017-5638](https://github.com/cafnet/apache-struts-v2-CVE-2017-5638)
 - [0x00-0x00/CVE-2017-5638](https://github.com/0x00-0x00/CVE-2017-5638)
@@ -31883,13 +31878,6 @@
 - [mathse/meltdown-spectre-bios-list](https://github.com/mathse/meltdown-spectre-bios-list)
 - [GregAskew/SpeculativeExecutionAssessment](https://github.com/GregAskew/SpeculativeExecutionAssessment)
 - [dmo2118/retpoline-audit](https://github.com/dmo2118/retpoline-audit)
-
-### CVE-2017-5721 (2017-10-10)
-
-<code>Insufficient input validation in system firmware for Intel NUC7i3BNK, NUC7i3BNH, NUC7i5BNK, NUC7i5BNH, NUC7i7BNH versions BN0049 and below allows local attackers to execute arbitrary code via manipulation of memory.
-</code>
-
-- [embedi/smm_usbrt_poc](https://github.com/embedi/smm_usbrt_poc)
 
 ### CVE-2017-5753 (2018-01-04)
 
@@ -32227,7 +32215,6 @@
 
 - [JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP)
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
-- [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
 - [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
@@ -32477,13 +32464,6 @@
 
 - [homjxi0e/CVE-2017-9430](https://github.com/homjxi0e/CVE-2017-9430)
 - [j0lama/Dnstracer-1.9-Fix](https://github.com/j0lama/Dnstracer-1.9-Fix)
-
-### CVE-2017-9476 (2017-07-30)
-
-<code>The Comcast firmware on Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421733-160420a-CMCST); Cisco DPC3939 (firmware version dpc3939-P20-18-v303r20421746-170221a-CMCST); and Arris TG1682G (eMTA&amp;DOCSIS version 10.0.132.SIP.PC20.CT, software version TG1682_2.2p7s2_PROD_sey) devices makes it easy for remote attackers to determine the hidden SSID and passphrase for a Home Security Wi-Fi network.
-</code>
-
-- [wiire-a/CVE-2017-9476](https://github.com/wiire-a/CVE-2017-9476)
 
 ### CVE-2017-9506 (2017-08-23)
 
@@ -32791,7 +32771,6 @@
 </code>
 
 - [ivanitlearning/CVE-2017-11610](https://github.com/ivanitlearning/CVE-2017-11610)
-- [yaunsky/CVE-2017-11610](https://github.com/yaunsky/CVE-2017-11610)
 
 ### CVE-2017-11611 (2017-09-08)
 
@@ -32924,7 +32903,6 @@
 - [cved-sources/cve-2017-12615](https://github.com/cved-sources/cve-2017-12615)
 - [ianxtianxt/CVE-2017-12615](https://github.com/ianxtianxt/CVE-2017-12615)
 - [cyberharsh/Tomcat-CVE-2017-12615](https://github.com/cyberharsh/Tomcat-CVE-2017-12615)
-- [w0x68y/CVE-2017-12615-EXP](https://github.com/w0x68y/CVE-2017-12615-EXP)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [xiaokp7/Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)
 
@@ -33207,13 +33185,6 @@
 ### CVE-2017-16245
 - [AOCorsaire/CVE-2017-16245](https://github.com/AOCorsaire/CVE-2017-16245)
 
-### CVE-2017-16524 (2017-11-06)
-
-<code>Web Viewer 1.0.0.193 on Samsung SRN-1670D devices suffers from an Unrestricted file upload vulnerability: 'network_ssl_upload.php' allows remote authenticated attackers to upload and execute arbitrary PHP code via a filename with a .php extension, which is then accessed via a direct request to the file in the upload/ directory. To authenticate for this attack, one can obtain web-interface credentials in cleartext by leveraging the existing Local File Read Vulnerability referenced as CVE-2015-8279, which allows remote attackers to read the web-interface credentials via a request for the cslog_export.php?path=/root/php_modules/lighttpd/sbin/userpw URI.
-</code>
-
-- [realistic-security/CVE-2017-16524](https://github.com/realistic-security/CVE-2017-16524)
-
 ### CVE-2017-16541 (2017-11-04)
 
 <code>Tor Browser before 7.0.9 on macOS and Linux allows remote attackers to bypass the intended anonymity feature and discover a client IP address via vectors involving a crafted web site that leverages file:// mishandling in Firefox, aka TorMoil. NOTE: Tails is unaffected.
@@ -33234,13 +33205,6 @@
 </code>
 
 - [dewankpant/CVE-2017-16568](https://github.com/dewankpant/CVE-2017-16568)
-
-### CVE-2017-16651 (2017-11-09)
-
-<code>Roundcube Webmail before 1.1.10, 1.2.x before 1.2.7, and 1.3.x before 1.3.3 allows unauthorized access to arbitrary files on the host's filesystem, including configuration files, as exploited in the wild in November 2017. The attacker must be able to authenticate at the target system with a valid username/password as the attack requires an active session. The issue is related to file-based attachment plugins and _task=settings&amp;_action=upload-display&amp;_from=timezone requests.
-</code>
-
-- [ropbear/CVE-2017-16651](https://github.com/ropbear/CVE-2017-16651)
 
 ### CVE-2017-16720 (2018-01-05)
 
@@ -33498,13 +33462,6 @@
 </code>
 
 - [Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal](https://github.com/Nickguitar/Jquery-File-Tree-1.6.6-Path-Traversal)
-
-### CVE-2017-1000250 (2017-09-12)
-
-<code>All versions of the SDP server in BlueZ 5.46 and earlier are vulnerable to an information disclosure vulnerability which allows remote attackers to obtain sensitive information from the bluetoothd process memory. This vulnerability lies in the processing of SDP search attribute requests.
-</code>
-
-- [olav-st/CVE-2017-1000250-PoC](https://github.com/olav-st/CVE-2017-1000250-PoC)
 
 ### CVE-2017-1000251 (2017-09-12)
 
