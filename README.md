@@ -4366,6 +4366,7 @@
 - [MyStuffYT/CVE-2023-38831-POC](https://github.com/MyStuffYT/CVE-2023-38831-POC)
 - [80r1ng/CVE-2023-38831-EXP](https://github.com/80r1ng/CVE-2023-38831-EXP)
 - [SpamixOfficial/CVE-2023-38831](https://github.com/SpamixOfficial/CVE-2023-38831)
+- [r1yaz/winDED](https://github.com/r1yaz/winDED)
 
 ### CVE-2023-38836 (2023-08-21)
 
