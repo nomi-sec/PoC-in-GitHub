@@ -1023,6 +1023,7 @@
 </code>
 
 - [Chocapikk/CVE-2023-6553](https://github.com/Chocapikk/CVE-2023-6553)
+- [motikan2010/CVE-2023-6553-PoC](https://github.com/motikan2010/CVE-2023-6553-PoC)
 
 ### CVE-2023-6661
 - [cli-ish/CVE-2023-6661](https://github.com/cli-ish/CVE-2023-6661)
@@ -2021,6 +2022,7 @@
 - [rvizx/CVE-2023-26035](https://github.com/rvizx/CVE-2023-26035)
 - [heapbytes/CVE-2023-26035](https://github.com/heapbytes/CVE-2023-26035)
 - [Yuma-Tsushima07/CVE-2023-26035](https://github.com/Yuma-Tsushima07/CVE-2023-26035)
+- [Faelian/zoneminder_CVE-2023-26035](https://github.com/Faelian/zoneminder_CVE-2023-26035)
 
 ### CVE-2023-26048 (2023-04-18)
 
@@ -2485,7 +2487,7 @@
 </code>
 
 - [timb-machine-mirrors/seongil-wi-CVE-2023-29017](https://github.com/timb-machine-mirrors/seongil-wi-CVE-2023-29017)
-- [Kaneki-hash/CVE-2023-29017-reverse-shell](https://github.com/Kaneki-hash/CVE-2023-29017-reverse-shell)
+- [passwa11/CVE-2023-29017-reverse-shell](https://github.com/passwa11/CVE-2023-29017-reverse-shell)
 
 ### CVE-2023-29084 (2023-04-13)
 
@@ -5998,6 +6000,7 @@
 - [Le1a/CVE-2023-51385](https://github.com/Le1a/CVE-2023-51385)
 - [zls1793/CVE-2023-51385_test](https://github.com/zls1793/CVE-2023-51385_test)
 - [WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test)
+- [jacknickelson/poc-cve-2023-51385](https://github.com/jacknickelson/poc-cve-2023-51385)
 - [zhulin2/testCVE-2023-51385](https://github.com/zhulin2/testCVE-2023-51385)
 
 ### CVE-2023-51504
@@ -28153,6 +28156,7 @@
 
 - [knqyf263/CVE-2018-1273](https://github.com/knqyf263/CVE-2018-1273)
 - [wearearima/poc-cve-2018-1273](https://github.com/wearearima/poc-cve-2018-1273)
+- [webr0ck/poc-cve-2018-1273](https://github.com/webr0ck/poc-cve-2018-1273)
 - [cved-sources/cve-2018-1273](https://github.com/cved-sources/cve-2018-1273)
 - [jas502n/cve-2018-1273](https://github.com/jas502n/cve-2018-1273)
 
@@ -28334,6 +28338,7 @@
 <code>Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: WLS Core Components). Supported versions that are affected are 10.3.6.0, 12.1.3.0 and 12.2.1.3. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.0 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
+- [arongmh/CVE-2018-3191](https://github.com/arongmh/CVE-2018-3191)
 - [m00zh33/CVE-2018-3191](https://github.com/m00zh33/CVE-2018-3191)
 - [Libraggbond/CVE-2018-3191](https://github.com/Libraggbond/CVE-2018-3191)
 - [jas502n/CVE-2018-3191](https://github.com/jas502n/CVE-2018-3191)
@@ -29779,10 +29784,19 @@
 
 - [SoledaD208/CVE-2018-10933](https://github.com/SoledaD208/CVE-2018-10933)
 - [blacknbunny/CVE-2018-10933](https://github.com/blacknbunny/CVE-2018-10933)
+- [hook-s3c/CVE-2018-10933](https://github.com/hook-s3c/CVE-2018-10933)
+- [kn6869610/CVE-2018-10933](https://github.com/kn6869610/CVE-2018-10933)
 - [gojhonny/libssh-scanner](https://github.com/gojhonny/libssh-scanner)
+- [likescam/CVE-2018-10933_ssh](https://github.com/likescam/CVE-2018-10933_ssh)
+- [likescam/CVE-2018-10933-libSSH-Authentication-Bypass](https://github.com/likescam/CVE-2018-10933-libSSH-Authentication-Bypass)
+- [marco-lancini/hunt-for-cve-2018-10933](https://github.com/marco-lancini/hunt-for-cve-2018-10933)
 - [hackerhouse-opensource/cve-2018-10933](https://github.com/hackerhouse-opensource/cve-2018-10933)
 - [cve-2018/cve-2018-10933](https://github.com/cve-2018/cve-2018-10933)
+- [jas502n/CVE-2018-10933](https://github.com/jas502n/CVE-2018-10933)
+- [ninp0/cve-2018-10933_poc](https://github.com/ninp0/cve-2018-10933_poc)
+- [pghook/CVE-2018-10933_Scanner](https://github.com/pghook/CVE-2018-10933_Scanner)
 - [Virgula0/POC-CVE-2018-10933](https://github.com/Virgula0/POC-CVE-2018-10933)
+- [shifa123/pythonprojects-CVE-2018-10933](https://github.com/shifa123/pythonprojects-CVE-2018-10933)
 - [xFreed0m/CVE-2018-10933](https://github.com/xFreed0m/CVE-2018-10933)
 - [Bifrozt/CVE-2018-10933](https://github.com/Bifrozt/CVE-2018-10933)
 - [r3dxpl0it/CVE-2018-10933](https://github.com/r3dxpl0it/CVE-2018-10933)
@@ -29963,6 +29977,13 @@
 </code>
 
 - [anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790)
+
+### CVE-2018-12018 (2018-07-04)
+
+<code>The GetBlockHeadersMsg handler in the LES protocol implementation in Go Ethereum (aka geth) before 1.8.11 may lead to an access violation because of an integer signedness error for the array index, which allows attackers to launch a Denial of Service attack by sending a packet with a -1 query.Skip value. The vulnerable remote node would be crashed by such an attack immediately, aka the EPoD (Ethereum Packet of Death) issue.
+</code>
+
+- [k3v142/CVE-2018-12018](https://github.com/k3v142/CVE-2018-12018)
 
 ### CVE-2018-12031 (2018-06-07)
 
@@ -30274,6 +30295,7 @@
 
 - [BasuCert/WinboxPoC](https://github.com/BasuCert/WinboxPoC)
 - [msterusky/WinboxExploit](https://github.com/msterusky/WinboxExploit)
+- [syrex1013/MikroRoot](https://github.com/syrex1013/MikroRoot)
 - [jas502n/CVE-2018-14847](https://github.com/jas502n/CVE-2018-14847)
 - [mahmoodsabir/mikrotik-beast](https://github.com/mahmoodsabir/mikrotik-beast)
 - [Tr33-He11/winboxPOC](https://github.com/Tr33-He11/winboxPOC)
@@ -30726,6 +30748,13 @@
 
 - [kdmarti2/CVE-2018-17463](https://github.com/kdmarti2/CVE-2018-17463)
 - [jhalon/CVE-2018-17463](https://github.com/jhalon/CVE-2018-17463)
+
+### CVE-2018-17552 (2018-10-03)
+
+<code>SQL Injection in login.php in Naviwebs Navigate CMS 2.8 allows remote attackers to bypass authentication via the navigate-user cookie.
+</code>
+
+- [kimstars/CVE-2018-17552](https://github.com/kimstars/CVE-2018-17552)
 
 ### CVE-2018-17553 (2018-10-03)
 
@@ -33705,6 +33734,7 @@
 - [googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728)
 - [neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed)
 - [bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728)
+- [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
 - [th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit)
@@ -33877,6 +33907,7 @@
 
 - [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
+- [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
@@ -34272,6 +34303,9 @@
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
 - [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
+- [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
+- [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
+- [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
 - [droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer)
 - [FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4)
 - [arbll/dirtycow](https://github.com/arbll/dirtycow)
@@ -36552,7 +36586,6 @@
 - [heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156)
 - [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
-- [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
 - [Jjdt12/kuang_grade_mk11](https://github.com/Jjdt12/kuang_grade_mk11)
 
 ### CVE-2013-0212 (2013-02-24)
@@ -36663,7 +36696,6 @@
 
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
-- [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 - [mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028)
 - [jptr218/nginxhack](https://github.com/jptr218/nginxhack)
@@ -36686,7 +36718,6 @@
 - [Pashkela/CVE-2013-2094](https://github.com/Pashkela/CVE-2013-2094)
 - [tarunyadav/fix-cve-2013-2094](https://github.com/tarunyadav/fix-cve-2013-2094)
 - [timhsutw/cve-2013-2094](https://github.com/timhsutw/cve-2013-2094)
-- [vnik5287/CVE-2013-2094](https://github.com/vnik5287/CVE-2013-2094)
 
 ### CVE-2013-2165 (2013-07-22)
 
