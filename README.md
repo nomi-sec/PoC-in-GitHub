@@ -11952,6 +11952,13 @@
 
 - [ethancunt/CVE-2022-45600](https://github.com/ethancunt/CVE-2022-45600)
 
+### CVE-2022-45688 (2022-12-13)
+
+<code>A stack overflow in the XML.toJSONObject component of hutool-json v5.8.10 allows attackers to cause a Denial of Service (DoS) via crafted JSON or XML data.
+</code>
+
+- [scabench/jsonorg-tp1](https://github.com/scabench/jsonorg-tp1)
+
 ### CVE-2022-45699 (2023-02-09)
 
 <code>Command injection in the administration interface in APSystems ECU-R version 5203 allows a remote unauthenticated attacker to execute arbitrary commands as root using the timezone parameter.
@@ -17690,14 +17697,14 @@
 
 ### CVE-2021-43226 (2021-12-15)
 
-<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-43207.
+<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
 </code>
 
 - [Rosayxy/cve-2021-43226PoC](https://github.com/Rosayxy/cve-2021-43226PoC)
 
 ### CVE-2021-43229 (2021-12-15)
 
-<code>Windows NTFS Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-43230, CVE-2021-43231.
+<code>Windows NTFS Elevation of Privilege Vulnerability
 </code>
 
 - [Citizen13X/CVE-2021-43229](https://github.com/Citizen13X/CVE-2021-43229)
@@ -18408,6 +18415,8 @@
 - [felixslama/log4shell-minecraft-demo](https://github.com/felixslama/log4shell-minecraft-demo)
 - [dcm2406/CVE-Lab](https://github.com/dcm2406/CVE-Lab)
 - [dcm2406/CVE-2021-44228](https://github.com/dcm2406/CVE-2021-44228)
+- [scabench/l4j-tp1](https://github.com/scabench/l4j-tp1)
+- [scabench/l4j-fp1](https://github.com/scabench/l4j-fp1)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -22478,6 +22487,13 @@
 - [cpandya2909/CVE-2020-15778](https://github.com/cpandya2909/CVE-2020-15778)
 - [Neko-chanQwQ/CVE-2020-15778-Exploit](https://github.com/Neko-chanQwQ/CVE-2020-15778-Exploit)
 - [Evan-Zhangyf/CVE-2020-15778](https://github.com/Evan-Zhangyf/CVE-2020-15778)
+
+### CVE-2020-15780 (2020-07-15)
+
+<code>An issue was discovered in drivers/acpi/acpi_configfs.c in the Linux kernel before 5.7.7. Injection of malicious ACPI tables via configfs could be used by attackers to bypass lockdown and secure boot restrictions, aka CID-75b0cea7bf30.
+</code>
+
+- [Annavid/CVE-2020-15780-exploit](https://github.com/Annavid/CVE-2020-15780-exploit)
 
 ### CVE-2020-15802 (2020-09-11)
 
@@ -36586,6 +36602,7 @@
 - [heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156)
 - [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
+- [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
 - [Jjdt12/kuang_grade_mk11](https://github.com/Jjdt12/kuang_grade_mk11)
 
 ### CVE-2013-0212 (2013-02-24)
@@ -36696,6 +36713,7 @@
 
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
+- [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 - [mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028)
 - [jptr218/nginxhack](https://github.com/jptr218/nginxhack)
@@ -36718,6 +36736,7 @@
 - [Pashkela/CVE-2013-2094](https://github.com/Pashkela/CVE-2013-2094)
 - [tarunyadav/fix-cve-2013-2094](https://github.com/tarunyadav/fix-cve-2013-2094)
 - [timhsutw/cve-2013-2094](https://github.com/timhsutw/cve-2013-2094)
+- [vnik5287/CVE-2013-2094](https://github.com/vnik5287/CVE-2013-2094)
 
 ### CVE-2013-2165 (2013-07-22)
 
@@ -38392,13 +38411,6 @@
 </code>
 
 - [alt3kx/CVE-2002-0991](https://github.com/alt3kx/CVE-2002-0991)
-
-### CVE-2002-1614 (2005-03-25)
-
-<code>Buffer overflow in HP Tru64 UNIX allows local users to execute arbitrary code via a long argument to /usr/bin/at.
-</code>
-
-- [wlensinas/CVE-2002-1614](https://github.com/wlensinas/CVE-2002-1614)
 
 ### CVE-2002-2420 (2007-11-01)
 
