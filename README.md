@@ -1031,6 +1031,14 @@
 ### CVE-2023-6663
 - [cli-ish/CVE-2023-6663](https://github.com/cli-ish/CVE-2023-6663)
 
+### CVE-2023-6710 (2023-12-12)
+
+<code>A flaw was found in the mod_proxy_cluster in the Apache server. This issue may allow a malicious user to add a script in the 'alias' parameter in the URL to trigger the stored cross-site scripting (XSS) vulnerability. By adding a script on the alias parameter on the URL, it adds a new virtual host and adds the script to the cluster-manager page. The impact of this vulnerability is considered as Low, as the cluster_manager URL should not be exposed outside and is protected by user/password.
+</code>
+
+- [DedSec-47/Metasploit-Exploits-CVE-2023-6710](https://github.com/DedSec-47/Metasploit-Exploits-CVE-2023-6710)
+- [DedSec-47/CVE-2023-6710](https://github.com/DedSec-47/CVE-2023-6710)
+
 ### CVE-2023-20025 (2023-01-20)
 
 <code>A vulnerability in the web-based management interface of Cisco Small Business RV042 Series Routers could allow an unauthenticated, remote attacker to bypass authentication on the affected device. This vulnerability is due to incorrect user input validation of incoming HTTP packets. An attacker could exploit this vulnerability by sending crafted requests to the web-based management interface. A successful exploit could allow the attacker to gain root privileges on the affected device.
@@ -1904,6 +1912,13 @@
 
 - [csffs/CVE-2023-24775-and-CVE-2023-24780](https://github.com/csffs/CVE-2023-24775-and-CVE-2023-24780)
 
+### CVE-2023-24955 (2023-05-09)
+
+<code>Microsoft SharePoint Server Remote Code Execution Vulnerability
+</code>
+
+- [former-farmer/CVE-2023-24955-PoC](https://github.com/former-farmer/CVE-2023-24955-PoC)
+
 ### CVE-2023-24998 (2023-02-20)
 
 <code>Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads.\n\n\n\n\nNote that, like all of the file upload limits, the\n          new configuration option (FileUploadBase#setFileCountMax) is not\n          enabled by default and must be explicitly configured.\n\n\n
@@ -2192,6 +2207,7 @@
 - [samh4cks/CVE-2023-27163-InternalProber](https://github.com/samh4cks/CVE-2023-27163-InternalProber)
 - [Hamibubu/CVE-2023-27163](https://github.com/Hamibubu/CVE-2023-27163)
 - [KharimMchatta/basketcraft](https://github.com/KharimMchatta/basketcraft)
+- [MasterCode112/CVE-2023-27163](https://github.com/MasterCode112/CVE-2023-27163)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -6009,7 +6025,6 @@
 - [Le1a/CVE-2023-51385](https://github.com/Le1a/CVE-2023-51385)
 - [zls1793/CVE-2023-51385_test](https://github.com/zls1793/CVE-2023-51385_test)
 - [WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test)
-- [jacknickelson/poc-cve-2023-51385](https://github.com/jacknickelson/poc-cve-2023-51385)
 - [zhulin2/testCVE-2023-51385](https://github.com/zhulin2/testCVE-2023-51385)
 
 ### CVE-2023-51504
@@ -7779,6 +7794,7 @@
 - [nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963](https://github.com/nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963)
 - [HenriVlasic/Exploit-for-CVE-2022-22963](https://github.com/HenriVlasic/Exploit-for-CVE-2022-22963)
 - [BearClaw96/CVE-2022-22963-Poc-Bearcules](https://github.com/BearClaw96/CVE-2022-22963-Poc-Bearcules)
+- [xmqaq/CVE-2022-22963](https://github.com/xmqaq/CVE-2022-22963)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -12970,6 +12986,7 @@
 </code>
 
 - [Al1ex/CVE-2021-2109](https://github.com/Al1ex/CVE-2021-2109)
+- [rabbitsafe/CVE-2021-2109](https://github.com/rabbitsafe/CVE-2021-2109)
 - [yuaneuro/CVE-2021-2109_poc](https://github.com/yuaneuro/CVE-2021-2109_poc)
 - [dinosn/CVE-2021-2109](https://github.com/dinosn/CVE-2021-2109)
 - [coco0x0a/CVE-2021-2109](https://github.com/coco0x0a/CVE-2021-2109)
@@ -12980,6 +12997,7 @@
 <code>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core). The supported version that is affected is Prior to 6.1.18. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle VM VirtualBox accessible data. CVSS 3.1 Base Score 6.0 (Confidentiality impacts). CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N).
 </code>
 
+- [Sauercloud/RWCTF21-VirtualBox-61-escape](https://github.com/Sauercloud/RWCTF21-VirtualBox-61-escape)
 - [chatbottesisgmailh/Sauercloude](https://github.com/chatbottesisgmailh/Sauercloude)
 - [shi10587s/Sauercloude](https://github.com/shi10587s/Sauercloude)
 
@@ -13079,6 +13097,7 @@
 </code>
 
 - [ambionics/laravel-exploits](https://github.com/ambionics/laravel-exploits)
+- [SNCKER/CVE-2021-3129](https://github.com/SNCKER/CVE-2021-3129)
 - [SecPros-Team/laravel-CVE-2021-3129-EXP](https://github.com/SecPros-Team/laravel-CVE-2021-3129-EXP)
 - [crisprss/Laravel_CVE-2021-3129_EXP](https://github.com/crisprss/Laravel_CVE-2021-3129_EXP)
 - [nth347/CVE-2021-3129_exploit](https://github.com/nth347/CVE-2021-3129_exploit)
@@ -17856,7 +17875,7 @@
 - [s1gh/CVE-2021-43798](https://github.com/s1gh/CVE-2021-43798)
 - [z3n70/CVE-2021-43798](https://github.com/z3n70/CVE-2021-43798)
 - [Mo0ns/Grafana_POC-CVE-2021-43798](https://github.com/Mo0ns/Grafana_POC-CVE-2021-43798)
-- [faaaany/Grafana-CVE-2021-43798Exp](https://github.com/faaaany/Grafana-CVE-2021-43798Exp)
+- [fanygit/Grafana-CVE-2021-43798Exp](https://github.com/fanygit/Grafana-CVE-2021-43798Exp)
 - [LongWayHomie/CVE-2021-43798](https://github.com/LongWayHomie/CVE-2021-43798)
 - [pedrohavay/exploit-grafana-CVE-2021-43798](https://github.com/pedrohavay/exploit-grafana-CVE-2021-43798)
 - [gixxyboy/CVE-2021-43798](https://github.com/gixxyboy/CVE-2021-43798)
@@ -31834,6 +31853,7 @@
 <code>The Jakarta Multipart parser in Apache Struts 2 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header, as exploited in the wild in March 2017 with a Content-Type header containing a #cmd= string.
 </code>
 
+- [PolarisLab/S2-045](https://github.com/PolarisLab/S2-045)
 - [Flyteas/Struts2-045-Exp](https://github.com/Flyteas/Struts2-045-Exp)
 - [bongbongco/cve-2017-5638](https://github.com/bongbongco/cve-2017-5638)
 - [jas502n/S2-045-EXP-POC-TOOLS](https://github.com/jas502n/S2-045-EXP-POC-TOOLS)
