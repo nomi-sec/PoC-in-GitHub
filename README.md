@@ -6026,6 +6026,7 @@
 - [zls1793/CVE-2023-51385_test](https://github.com/zls1793/CVE-2023-51385_test)
 - [WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test)
 - [zhulin2/testCVE-2023-51385](https://github.com/zhulin2/testCVE-2023-51385)
+- [siyi-star/CVE-2023-51385_test-star-main](https://github.com/siyi-star/CVE-2023-51385_test-star-main)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -17080,7 +17081,7 @@
 
 ### CVE-2021-41349 (2021-11-09)
 
-<code>Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-2021-42305.
+<code>Microsoft Exchange Server Spoofing Vulnerability
 </code>
 
 - [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
@@ -17457,7 +17458,7 @@
 
 ### CVE-2021-42278 (2021-11-09)
 
-<code>Active Directory Domain Services Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-42282, CVE-2021-42287, CVE-2021-42291.
+<code>Active Directory Domain Services Elevation of Privilege Vulnerability
 </code>
 
 - [safebuffer/sam-the-admin](https://github.com/safebuffer/sam-the-admin)
@@ -17468,7 +17469,7 @@
 
 ### CVE-2021-42287 (2021-11-09)
 
-<code>Active Directory Domain Services Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-42278, CVE-2021-42282, CVE-2021-42291.
+<code>Active Directory Domain Services Elevation of Privilege Vulnerability
 </code>
 
 - [cube0x0/noPac](https://github.com/cube0x0/noPac)
@@ -38142,6 +38143,13 @@
 </code>
 
 - [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
+
+### CVE-2006-2842 (2006-06-06)
+
+<code>** DISPUTED **  PHP remote file inclusion vulnerability in functions/plugin.php in SquirrelMail 1.4.6 and earlier, if register_globals is enabled and magic_quotes_gpc is disabled, allows remote attackers to execute arbitrary PHP code via a URL in the plugins array parameter.  NOTE: this issue has been disputed by third parties, who state that Squirrelmail provides prominent warnings to the administrator when register_globals is enabled.  Since the varieties of administrator negligence are uncountable, perhaps this type of issue should not be included in CVE.  However, the original developer has posted a security advisory, so there might be relevant real-world environments under which this vulnerability is applicable.
+</code>
+
+- [karthi-the-hacker/CVE-2006-2842](https://github.com/karthi-the-hacker/CVE-2006-2842)
 
 ### CVE-2006-3392 (2006-07-06)
 
