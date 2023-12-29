@@ -6044,6 +6044,8 @@
 </code>
 
 - [JaneMandy/CVE-2023-51467](https://github.com/JaneMandy/CVE-2023-51467)
+- [Chocapikk/CVE-2023-51467](https://github.com/Chocapikk/CVE-2023-51467)
+- [K3ysTr0K3R/CVE-2023-51467-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-51467-EXPLOIT)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -14415,7 +14417,7 @@
 
 ### CVE-2021-24085 (2021-02-25)
 
-<code>Microsoft Exchange Server Spoofing Vulnerability This CVE ID is unique from CVE-2021-1730.
+<code>Microsoft Exchange Server Spoofing Vulnerability
 </code>
 
 - [sourceincite/CVE-2021-24085](https://github.com/sourceincite/CVE-2021-24085)
@@ -14882,7 +14884,7 @@
 
 ### CVE-2021-26855 (2021-03-02)
 
-<code>Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26857, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [sgnls/exchange-0days-202103](https://github.com/sgnls/exchange-0days-202103)
@@ -14936,7 +14938,7 @@
 
 ### CVE-2021-26857 (2021-03-02)
 
-<code>Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26855, CVE-2021-26858, CVE-2021-27065, CVE-2021-27078.
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [sirpedrotavares/Proxylogon-exploit](https://github.com/sirpedrotavares/Proxylogon-exploit)
@@ -14985,7 +14987,7 @@
 
 ### CVE-2021-27065 (2021-03-02)
 
-<code>Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-26412, CVE-2021-26854, CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, CVE-2021-27078.
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [adamrpostjr/cve-2021-27065](https://github.com/adamrpostjr/cve-2021-27065)
@@ -30248,13 +30250,6 @@
 
 - [Snorlyd/https-nj.gov---CVE-2018-14040](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14040)
 
-### CVE-2018-14041 (2018-07-13)
-
-<code>In Bootstrap before 4.1.2, XSS is possible in the data-target property of scrollspy.
-</code>
-
-- [Snorlyd/https-nj.gov---CVE-2018-14041](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14041)
-
 ### CVE-2018-14042 (2018-07-13)
 
 <code>In Bootstrap before 4.1.2, XSS is possible in the data-container property of tooltip.
@@ -35566,6 +35561,7 @@
 <code>libmedia in Android before 5.1.1 LMY48X and 6.0 before 2015-11-01 allows attackers to gain privileges via a crafted application, aka internal bug 23540426.
 </code>
 
+- [secmob/CVE-2015-6612](https://github.com/secmob/CVE-2015-6612)
 - [flankerhqd/cve-2015-6612poc-forM](https://github.com/flankerhqd/cve-2015-6612poc-forM)
 
 ### CVE-2015-6620 (2015-12-08)
