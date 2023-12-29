@@ -3815,6 +3815,7 @@
 
 - [ka7ana/CVE-2023-36025](https://github.com/ka7ana/CVE-2023-36025)
 - [J466Y/test_CVE-2023-36025](https://github.com/J466Y/test_CVE-2023-36025)
+- [coolman6942o/-EXPLOIT-CVE-2023-36025](https://github.com/coolman6942o/-EXPLOIT-CVE-2023-36025)
 
 ### CVE-2023-36076 (2023-09-01)
 
@@ -5487,6 +5488,9 @@
 ### CVE-2023-46197
 - [RandomRobbieBF/CVE-2023-46197](https://github.com/RandomRobbieBF/CVE-2023-46197)
 
+### CVE-2023-46344
+- [vinnie1717/CVE-2023-46344](https://github.com/vinnie1717/CVE-2023-46344)
+
 ### CVE-2023-46404 (2023-11-03)
 
 <code>PCRS &lt;= 3.11 (d0de1e) “Questions” page and “Code editor” page are vulnerable to remote code execution (RCE) by escaping Python sandboxing.
@@ -5801,6 +5805,9 @@
 </code>
 
 - [nitipoom-jar/CVE-2023-48866](https://github.com/nitipoom-jar/CVE-2023-48866)
+
+### CVE-2023-48974
+- [vinnie1717/CVE-2023-48974](https://github.com/vinnie1717/CVE-2023-48974)
 
 ### CVE-2023-49038
 - [christopher-pace/CVE-2023-49038](https://github.com/christopher-pace/CVE-2023-49038)
@@ -11978,6 +11985,7 @@
 </code>
 
 - [scabench/jsonorg-tp1](https://github.com/scabench/jsonorg-tp1)
+- [scabench/jsonorg-fp2](https://github.com/scabench/jsonorg-fp2)
 
 ### CVE-2022-45699 (2023-02-09)
 
@@ -15855,7 +15863,7 @@
 
 ### CVE-2021-33766 (2021-07-14)
 
-<code>Microsoft Exchange Information Disclosure Vulnerability
+<code>Microsoft Exchange Server Information Disclosure Vulnerability
 </code>
 
 - [bhdresh/CVE-2021-33766](https://github.com/bhdresh/CVE-2021-33766)
@@ -15919,14 +15927,14 @@
 
 ### CVE-2021-34470 (2021-07-14)
 
-<code>Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-33768, CVE-2021-34523.
+<code>Microsoft Exchange Server Elevation of Privilege Vulnerability
 </code>
 
 - [technion/CVE-2021-34470scanner](https://github.com/technion/CVE-2021-34470scanner)
 
 ### CVE-2021-34473 (2021-07-14)
 
-<code>Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is unique from CVE-2021-31196, CVE-2021-31206.
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
 </code>
 
 - [cyberheartmi9/Proxyshell-Scanner](https://github.com/cyberheartmi9/Proxyshell-Scanner)
@@ -15941,14 +15949,14 @@
 
 ### CVE-2021-34481 (2021-07-16)
 
-<code>Windows Print Spooler Elevation of Privilege Vulnerability
+<code>&lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; August 10, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. This security update changes the Point and Print default behavior; please see &lt;a href=&quot;https://support.microsoft.com/help/5005652&quot;&gt;KB5005652&lt;/a&gt;.&lt;/p&gt;\n
 </code>
 
 - [vpn28/CVE-2021-34481](https://github.com/vpn28/CVE-2021-34481)
 
 ### CVE-2021-34486 (2021-08-12)
 
-<code>Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26425, CVE-2021-34487.
+<code>Windows Event Tracing Elevation of Privilege Vulnerability
 </code>
 
 - [KaLendsi/CVE-2021-34486](https://github.com/KaLendsi/CVE-2021-34486)
@@ -15963,7 +15971,7 @@
 
 ### CVE-2021-34523 (2021-07-14)
 
-<code>Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-33768, CVE-2021-34470.
+<code>Microsoft Exchange Server Elevation of Privilege Vulnerability
 </code>
 
 - [mithridates1313/ProxyShell_POC](https://github.com/mithridates1313/ProxyShell_POC)
@@ -15971,7 +15979,7 @@
 
 ### CVE-2021-34527 (2021-07-02)
 
-<code>Windows Print Spooler Remote Code Execution Vulnerability
+<code>&lt;p&gt;A remote code execution vulnerability exists when the Windows Print Spooler service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;\n&lt;p&gt;UPDATE July 7, 2021: The security update for Windows Server 2012, Windows Server 2016 and Windows 10, Version 1607 have been released. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability.&lt;/p&gt;\n&lt;p&gt;In addition to installing the updates, in order to secure your system, you must confirm that the following registry settings are set to 0 (zero) or are not defined (&lt;strong&gt;Note&lt;/strong&gt;: These registry keys do not exist by default, and therefore are already at the secure setting.), also that your Group Policy setting are correct (see FAQ):&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Printers\PointAndPrint&lt;/li&gt;\n&lt;li&gt;NoWarningNoElevationOnInstall = 0 (DWORD) or not defined (default setting)&lt;/li&gt;\n&lt;li&gt;UpdatePromptSettings = 0 (DWORD) or not defined (default setting)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Having NoWarningNoElevationOnInstall set to 1 makes your system vulnerable by design.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;UPDATE July 6, 2021: Microsoft has completed the investigation and has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. If you are unable to install these updates, see the FAQ and Workaround sections in this CVE for information on how to help protect your system from this vulnerability. See also &lt;a href=&quot;https://support.microsoft.com/topic/31b91c02-05bc-4ada-a7ea-183b129578a7&quot;&gt;KB5005010: Restricting installation of new printer drivers after applying the July 6, 2021 updates&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Note that the security updates released on and after July 6, 2021 contain protections for CVE-2021-1675 and the additional remote code execution exploit in the Windows Print Spooler service known as “PrintNightmare”, documented in CVE-2021-34527.&lt;/p&gt;\n
 </code>
 
 - [DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527)
@@ -16264,7 +16272,7 @@
 
 ### CVE-2021-36934 (2021-07-22)
 
-<code>Windows Elevation of Privilege Vulnerability
+<code>&lt;p&gt;An elevation of privilege vulnerability exists because of overly permissive Access Control Lists (ACLs) on multiple system files, including the Security Accounts Manager (SAM) database. An attacker who successfully exploited this vulnerability could run arbitrary code with SYSTEM privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;\n&lt;p&gt;An attacker must have the ability to execute code on a victim system to exploit this vulnerability.&lt;/p&gt;\n&lt;p&gt;After installing this security update, you &lt;em&gt;must&lt;/em&gt; manually delete all shadow copies of system files, including the SAM database, to fully mitigate this vulnerabilty. &lt;strong&gt;Simply installing this security update will not fully mitigate this vulnerability.&lt;/strong&gt; See &lt;a href=&quot;https://support.microsoft.com/topic/1ceaa637-aaa3-4b58-a48b-baf72a2fa9e7&quot;&gt;KB5005357- Delete Volume Shadow Copies&lt;/a&gt;.&lt;/p&gt;\n
 </code>
 
 - [HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal)
@@ -16298,7 +16306,7 @@
 
 ### CVE-2021-36955 (2021-09-15)
 
-<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-36963, CVE-2021-38633.
+<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
 </code>
 
 - [JiaJinRong12138/CVE-2021-36955-EXP](https://github.com/JiaJinRong12138/CVE-2021-36955-EXP)
@@ -16498,7 +16506,7 @@
 
 ### CVE-2021-38639 (2021-09-15)
 
-<code>Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-36975.
+<code>Win32k Elevation of Privilege Vulnerability
 </code>
 
 - [DarkSprings/CVE-2021-38639](https://github.com/DarkSprings/CVE-2021-38639)
@@ -16827,7 +16835,7 @@
 
 ### CVE-2021-40444 (2021-09-15)
 
-<code>Microsoft MSHTML Remote Code Execution Vulnerability
+<code>&lt;p&gt;Microsoft is investigating reports of a remote code execution vulnerability in MSHTML that affects Microsoft Windows. Microsoft is aware of targeted attacks that attempt to exploit this vulnerability by using specially-crafted Microsoft Office documents.&lt;/p&gt;\n&lt;p&gt;An attacker could craft a malicious ActiveX control to be used by a Microsoft Office document that hosts the browser rendering engine. The attacker would then have to convince the user to open the malicious document. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights.&lt;/p&gt;\n&lt;p&gt;Microsoft Defender Antivirus and Microsoft Defender for Endpoint both provide detection and protections for the known vulnerability. Customers should keep antimalware products up to date. Customers who utilize automatic updates do not need to take additional action. Enterprise customers who manage updates should select the detection build 1.349.22.0 or newer and deploy it across their environments. Microsoft Defender for Endpoint alerts will be displayed as: “Suspicious Cpl File Execution”.&lt;/p&gt;\n&lt;p&gt;Upon completion of this investigation, Microsoft will take the appropriate action to help protect our customers. This may include providing a security update through our monthly release process or providing an out-of-cycle security update, depending on customer needs.&lt;/p&gt;\n&lt;p&gt;Please see the &lt;strong&gt;Mitigations&lt;/strong&gt; and &lt;strong&gt;Workaround&lt;/strong&gt; sections for important information about steps you can take to protect your system from this vulnerability.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt; September 14, 2021: Microsoft has released security updates to address this vulnerability. Please see the Security Updates table for the applicable update for your system. We recommend that you install these updates immediately. Please see the FAQ for important information about which updates are applicable to your system.&lt;/p&gt;\n
 </code>
 
 - [ozergoker/CVE-2021-40444](https://github.com/ozergoker/CVE-2021-40444)
@@ -26071,6 +26079,7 @@
 - [ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE](https://github.com/ColdFusionX/CVE-2019-11447_CuteNews-AvatarUploadRCE)
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
 - [0xConstant/CVE-2019-11447](https://github.com/0xConstant/CVE-2019-11447)
+- [substing/CVE-2019-11447_reverse_shell_upload](https://github.com/substing/CVE-2019-11447_reverse_shell_upload)
 
 ### CVE-2019-11477 (2019-06-18)
 
@@ -33771,7 +33780,6 @@
 - [googleweb/CVE-2016-0728](https://github.com/googleweb/CVE-2016-0728)
 - [neuschaefer/cve-2016-0728-testbed](https://github.com/neuschaefer/cve-2016-0728-testbed)
 - [bittorrent3389/cve-2016-0728](https://github.com/bittorrent3389/cve-2016-0728)
-- [sibilleg/exploit_cve-2016-0728](https://github.com/sibilleg/exploit_cve-2016-0728)
 - [hal0taso/CVE-2016-0728](https://github.com/hal0taso/CVE-2016-0728)
 - [sugarvillela/CVE](https://github.com/sugarvillela/CVE)
 - [th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit](https://github.com/th30d00r/Linux-Vulnerability-CVE-2016-0728-and-Exploit)
@@ -33917,7 +33925,6 @@
 <code>The kernel in Apple iOS before 9.3.2, OS X before 10.11.5, tvOS before 9.2.1, and watchOS before 2.2.1 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app, a different vulnerability than CVE-2016-1828, CVE-2016-1829, and CVE-2016-1830.
 </code>
 
-- [bazad/flow_divert-heap-overflow](https://github.com/bazad/flow_divert-heap-overflow)
 - [superMan7912002/bazad3](https://github.com/superMan7912002/bazad3)
 
 ### CVE-2016-1828 (2016-05-20)
@@ -33944,7 +33951,6 @@
 
 - [hderms/dh-CVE_2016_2098](https://github.com/hderms/dh-CVE_2016_2098)
 - [CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42](https://github.com/CyberDefenseInstitute/PoC_CVE-2016-2098_Rails42)
-- [Alejandro-MartinG/rails-PoC-CVE-2016-2098](https://github.com/Alejandro-MartinG/rails-PoC-CVE-2016-2098)
 - [0x00-0x00/CVE-2016-2098](https://github.com/0x00-0x00/CVE-2016-2098)
 - [its-arun/CVE-2016-2098](https://github.com/its-arun/CVE-2016-2098)
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
@@ -34339,10 +34345,6 @@
 - [whu-enjoy/CVE-2016-5195](https://github.com/whu-enjoy/CVE-2016-5195)
 - [firefart/dirtycow](https://github.com/firefart/dirtycow)
 - [ndobson/inspec_CVE-2016-5195](https://github.com/ndobson/inspec_CVE-2016-5195)
-- [linhlt247/DirtyCOW_CVE-2016-5195](https://github.com/linhlt247/DirtyCOW_CVE-2016-5195)
-- [sribaba/android-CVE-2016-5195](https://github.com/sribaba/android-CVE-2016-5195)
-- [esc0rtd3w/org.cowpoop.moooooo](https://github.com/esc0rtd3w/org.cowpoop.moooooo)
-- [hyln9/VIKIROOT](https://github.com/hyln9/VIKIROOT)
 - [droidvoider/dirtycow-replacer](https://github.com/droidvoider/dirtycow-replacer)
 - [FloridSleeves/os-experiment-4](https://github.com/FloridSleeves/os-experiment-4)
 - [arbll/dirtycow](https://github.com/arbll/dirtycow)
@@ -34554,19 +34556,11 @@
 
 - [0xcl/cve-2016-7190](https://github.com/0xcl/cve-2016-7190)
 
-### CVE-2016-7200 (2016-11-10)
-
-<code>The Chakra JavaScript scripting engine in Microsoft Edge allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Scripting Engine Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2016-7201, CVE-2016-7202, CVE-2016-7203, CVE-2016-7208, CVE-2016-7240, CVE-2016-7242, and CVE-2016-7243.
-</code>
-
-- [theori-io/chakra-2016-11](https://github.com/theori-io/chakra-2016-11)
-
 ### CVE-2016-7255 (2016-11-10)
 
 <code>The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, and 1607, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka &quot;Win32k Elevation of Privilege Vulnerability.&quot;
 </code>
 
-- [heh3/CVE-2016-7255](https://github.com/heh3/CVE-2016-7255)
 - [FSecureLABS/CVE-2016-7255](https://github.com/FSecureLABS/CVE-2016-7255)
 - [homjxi0e/CVE-2016-7255](https://github.com/homjxi0e/CVE-2016-7255)
 - [yuvatia/page-table-exploitation](https://github.com/yuvatia/page-table-exploitation)
@@ -34622,13 +34616,6 @@
 </code>
 
 - [CunningLogic/PixelDump_CVE-2016-8462](https://github.com/CunningLogic/PixelDump_CVE-2016-8462)
-
-### CVE-2016-8467 (2017-01-13)
-
-<code>An elevation of privilege vulnerability in the bootloader could enable a local attacker to execute arbitrary modem commands on the device. This issue is rated as High because it is a local permanent denial of service (device interoperability: completely permanent or requiring re-flashing the entire operating system). Product: Android. Versions: N/A. Android ID: A-30308784.
-</code>
-
-- [roeeh/bootmodechecker](https://github.com/roeeh/bootmodechecker)
 
 ### CVE-2016-8610 (2017-11-13)
 
@@ -34719,7 +34706,6 @@
 <code>A use-after-free vulnerability in SVG Animation has been discovered. An exploit built on this vulnerability has been discovered in the wild targeting Firefox and Tor Browser users on Windows. This vulnerability affects Firefox &lt; 50.0.2, Firefox ESR &lt; 45.5.1, and Thunderbird &lt; 45.5.1.
 </code>
 
-- [LakshmiDesai/CVE-2016-9079](https://github.com/LakshmiDesai/CVE-2016-9079)
 - [dangokyo/CVE-2016-9079](https://github.com/dangokyo/CVE-2016-9079)
 - [Tau-hub/Firefox-CVE-2016-9079](https://github.com/Tau-hub/Firefox-CVE-2016-9079)
 
@@ -34758,13 +34744,6 @@
 </code>
 
 - [cved-sources/cve-2016-9838](https://github.com/cved-sources/cve-2016-9838)
-
-### CVE-2016-9920 (2016-12-08)
-
-<code>steps/mail/sendmail.inc in Roundcube before 1.1.7 and 1.2.x before 1.2.3, when no SMTP server is configured and the sendmail program is enabled, does not properly restrict the use of custom envelope-from addresses on the sendmail command line, which allows remote authenticated users to execute arbitrary code via a modified HTTP request that sends a crafted e-mail message.
-</code>
-
-- [t0kx/exploit-CVE-2016-9920](https://github.com/t0kx/exploit-CVE-2016-9920)
 
 ### CVE-2016-10033 (2016-12-30)
 
