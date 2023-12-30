@@ -2208,6 +2208,7 @@
 - [Hamibubu/CVE-2023-27163](https://github.com/Hamibubu/CVE-2023-27163)
 - [KharimMchatta/basketcraft](https://github.com/KharimMchatta/basketcraft)
 - [MasterCode112/CVE-2023-27163](https://github.com/MasterCode112/CVE-2023-27163)
+- [mathias-mrsn/CVE-2023-27163](https://github.com/mathias-mrsn/CVE-2023-27163)
 
 ### CVE-2023-27216 (2023-04-12)
 
@@ -5968,10 +5969,18 @@
 ### CVE-2023-49989
 - [geraldoalcantara/CVE-2023-49989](https://github.com/geraldoalcantara/CVE-2023-49989)
 
-### CVE-2023-50070
+### CVE-2023-50070 (2023-12-29)
+
+<code>Sourcecodester Customer Support System 1.0 has multiple SQL injection vulnerabilities in /customer_support/ajax.php?action=save_ticket via department_id, customer_id, and subject.
+</code>
+
 - [geraldoalcantara/CVE-2023-50070](https://github.com/geraldoalcantara/CVE-2023-50070)
 
-### CVE-2023-50071
+### CVE-2023-50071 (2023-12-29)
+
+<code>Sourcecodester Customer Support System 1.0 has multiple SQL injection vulnerabilities in /customer_support/ajax.php?action=save_department via id or name.
+</code>
+
 - [geraldoalcantara/CVE-2023-50071](https://github.com/geraldoalcantara/CVE-2023-50071)
 
 ### CVE-2023-50072
@@ -12928,7 +12937,7 @@
 
 ### CVE-2021-1732 (2021-02-25)
 
-<code>Windows Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-1698.
+<code>Windows Win32k Elevation of Privilege Vulnerability
 </code>
 
 - [KaLendsi/CVE-2021-1732-Exploit](https://github.com/KaLendsi/CVE-2021-1732-Exploit)
@@ -14817,7 +14826,7 @@
 
 ### CVE-2021-26415 (2021-04-13)
 
-<code>Windows Installer Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-28440.
+<code>Windows Installer Elevation of Privilege Vulnerability
 </code>
 
 - [adenkiewicz/CVE-2021-26415](https://github.com/adenkiewicz/CVE-2021-26415)
@@ -14952,7 +14961,7 @@
 
 ### CVE-2021-26871 (2021-03-11)
 
-<code>Windows WalletService Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26885.
+<code>Windows WalletService Elevation of Privilege Vulnerability
 </code>
 
 - [robotMD5/CVE-2021-26871_POC](https://github.com/robotMD5/CVE-2021-26871_POC)
@@ -15169,7 +15178,7 @@
 
 ### CVE-2021-28310 (2021-04-13)
 
-<code>Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-27072.
+<code>Win32k Elevation of Privilege Vulnerability
 </code>
 
 - [Rafael-Svechinskaya/IOC_for_CVE-2021-28310](https://github.com/Rafael-Svechinskaya/IOC_for_CVE-2021-28310)
@@ -22712,7 +22721,7 @@
 
 ### CVE-2020-17136 (2020-12-09)
 
-<code>Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2020-17103, CVE-2020-17134.
+<code>Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
 </code>
 
 - [xyddnljydd/CVE-2020-17136](https://github.com/xyddnljydd/CVE-2020-17136)
@@ -22720,7 +22729,7 @@
 
 ### CVE-2020-17144 (2020-12-09)
 
-<code>Microsoft Exchange Remote Code Execution Vulnerability This CVE ID is unique from CVE-2020-17117, CVE-2020-17132, CVE-2020-17141, CVE-2020-17142.
+<code>Microsoft Exchange Remote Code Execution Vulnerability
 </code>
 
 - [Airboi/CVE-2020-17144-EXP](https://github.com/Airboi/CVE-2020-17144-EXP)
@@ -27136,7 +27145,7 @@
 - [ianxtianxt/CVE-2019-16278](https://github.com/ianxtianxt/CVE-2019-16278)
 - [darkerego/Nostromo_Python3](https://github.com/darkerego/Nostromo_Python3)
 - [AnubisSec/CVE-2019-16278](https://github.com/AnubisSec/CVE-2019-16278)
-- [theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE](https://github.com/theRealFr13nd/CVE-2019-16278-Nostromo_1.9.6-RCE)
+- [aN0mad/CVE-2019-16278-Nostromo_1.9.6-RCE](https://github.com/aN0mad/CVE-2019-16278-Nostromo_1.9.6-RCE)
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
@@ -30249,6 +30258,13 @@
 </code>
 
 - [Snorlyd/https-nj.gov---CVE-2018-14040](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14040)
+
+### CVE-2018-14041 (2018-07-13)
+
+<code>In Bootstrap before 4.1.2, XSS is possible in the data-target property of scrollspy.
+</code>
+
+- [Snorlyd/https-nj.gov---CVE-2018-14041](https://github.com/Snorlyd/https-nj.gov---CVE-2018-14041)
 
 ### CVE-2018-14042 (2018-07-13)
 
