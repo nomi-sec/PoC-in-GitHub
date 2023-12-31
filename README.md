@@ -6091,6 +6091,7 @@
 
 - [duy-31/CVE-2023-51764](https://github.com/duy-31/CVE-2023-51764)
 - [eeenvik1/CVE-2023-51764](https://github.com/eeenvik1/CVE-2023-51764)
+- [d4op/CVE-2023-51764-POC](https://github.com/d4op/CVE-2023-51764-POC)
 
 
 ## 2022
