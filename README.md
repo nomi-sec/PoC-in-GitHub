@@ -1034,6 +1034,7 @@
 
 - [Chocapikk/CVE-2023-6553](https://github.com/Chocapikk/CVE-2023-6553)
 - [motikan2010/CVE-2023-6553-PoC](https://github.com/motikan2010/CVE-2023-6553-PoC)
+- [kiddenta/CVE-2023-6553](https://github.com/kiddenta/CVE-2023-6553)
 
 ### CVE-2023-6661
 - [cli-ish/CVE-2023-6661](https://github.com/cli-ish/CVE-2023-6661)
@@ -2112,6 +2113,13 @@
 
 - [mbadanoiu/CVE-2023-26269](https://github.com/mbadanoiu/CVE-2023-26269)
 
+### CVE-2023-26360 (2023-03-23)
+
+<code>Adobe ColdFusion versions 2018 Update 15 (and earlier) and 2021 Update 5 (and earlier) are affected by an Improper Access Control vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue does not require user interaction.
+</code>
+
+- [yosef0x01/CVE-2023-26360](https://github.com/yosef0x01/CVE-2023-26360)
+
 ### CVE-2023-26469 (2023-08-17)
 
 <code>In Jorani 1.0.0, an attacker could leverage path traversal to access files and execute code on the server.
@@ -2409,6 +2417,7 @@
 - [fortra/CVE-2023-28252](https://github.com/fortra/CVE-2023-28252)
 - [726232111/CVE-2023-28252](https://github.com/726232111/CVE-2023-28252)
 - [Danasuley/CVE-2023-28252-](https://github.com/Danasuley/CVE-2023-28252-)
+- [bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252](https://github.com/bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252)
 
 ### CVE-2023-28329 (2023-03-23)
 
@@ -5370,6 +5379,9 @@
 
 - [ggb0n/CVE-2023-44962](https://github.com/ggb0n/CVE-2023-44962)
 
+### CVE-2023-44976
+- [keowu/BadRentdrv2](https://github.com/keowu/BadRentdrv2)
+
 ### CVE-2023-45158 (2023-10-16)
 
 <code>An OS command injection vulnerability exists in web2py 2.24.1 and earlier. When the product is configured to use notifySendHandler for logging (not the default configuration), a crafted web request may execute an arbitrary OS command on the web server using the product.
@@ -5835,6 +5847,15 @@
 
 ### CVE-2023-48974
 - [vinnie1717/CVE-2023-48974](https://github.com/vinnie1717/CVE-2023-48974)
+
+### CVE-2023-48981
+- [tristao-marinho/CVE-2023-48981](https://github.com/tristao-marinho/CVE-2023-48981)
+
+### CVE-2023-48982
+- [tristao-marinho/CVE-2023-48982](https://github.com/tristao-marinho/CVE-2023-48982)
+
+### CVE-2023-48983
+- [tristao-marinho/CVE-2023-48983](https://github.com/tristao-marinho/CVE-2023-48983)
 
 ### CVE-2023-49038
 - [christopher-pace/CVE-2023-49038](https://github.com/christopher-pace/CVE-2023-49038)
@@ -13541,7 +13562,7 @@
 </code>
 
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
-- [lourkeur/cve-2021-4034-playground](https://github.com/lourkeur/cve-2021-4034-playground)
+- [0xbbjubjub/cve-2021-4034-playground](https://github.com/0xbbjubjub/cve-2021-4034-playground)
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [clubby789/CVE-2021-4034](https://github.com/clubby789/CVE-2021-4034)
 - [gbrsh/CVE-2021-4034](https://github.com/gbrsh/CVE-2021-4034)
@@ -27377,7 +27398,6 @@
 </code>
 
 - [K3ysTr0K3R/CVE-2019-17382-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2019-17382-EXPLOIT)
-- [K3ysTr0K3R/CVE-2023-51467-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-51467-EXPLOIT)
 
 ### CVE-2019-17424 (2019-10-22)
 
