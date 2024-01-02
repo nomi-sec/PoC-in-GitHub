@@ -6075,6 +6075,12 @@
 
 - [Chocapikk/CVE-2023-50917](https://github.com/Chocapikk/CVE-2023-50917)
 
+### CVE-2023-51126
+- [risuxx/CVE-2023-51126](https://github.com/risuxx/CVE-2023-51126)
+
+### CVE-2023-51127
+- [risuxx/CVE-2023-51127](https://github.com/risuxx/CVE-2023-51127)
+
 ### CVE-2023-51214
 - [chandraprarikraj/CVE-2023-51214](https://github.com/chandraprarikraj/CVE-2023-51214)
 
@@ -6095,6 +6101,7 @@
 - [zhulin2/testCVE-2023-51385](https://github.com/zhulin2/testCVE-2023-51385)
 - [N0rther/CVE-2023-51385_TT](https://github.com/N0rther/CVE-2023-51385_TT)
 - [power1314520/CVE-2023-51385_test](https://github.com/power1314520/CVE-2023-51385_test)
+- [WOOOOONG/CVE-2023-51385](https://github.com/WOOOOONG/CVE-2023-51385)
 
 ### CVE-2023-51467 (2023-12-26)
 
@@ -7874,7 +7881,6 @@
 - [nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963](https://github.com/nikn0laty/RCE-in-Spring-Cloud-CVE-2022-22963)
 - [HenriVlasic/Exploit-for-CVE-2022-22963](https://github.com/HenriVlasic/Exploit-for-CVE-2022-22963)
 - [BearClaw96/CVE-2022-22963-Poc-Bearcules](https://github.com/BearClaw96/CVE-2022-22963-Poc-Bearcules)
-- [xmqaq/CVE-2022-22963](https://github.com/xmqaq/CVE-2022-22963)
 
 ### CVE-2022-22965 (2022-04-01)
 
@@ -34170,13 +34176,6 @@
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
-
-### CVE-2016-3141 (2016-03-31)
-
-<code>Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
-</code>
-
-- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
