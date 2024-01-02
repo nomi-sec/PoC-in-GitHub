@@ -1050,6 +1050,20 @@
 - [DedSec-47/Metasploit-Exploits-CVE-2023-6710](https://github.com/DedSec-47/Metasploit-Exploits-CVE-2023-6710)
 - [DedSec-47/CVE-2023-6710](https://github.com/DedSec-47/CVE-2023-6710)
 
+### CVE-2023-7172 (2023-12-30)
+
+<code>Eine kritische Schwachstelle wurde in PHPGurukul Hospital Management System 1.0 entdeckt. Es geht hierbei um eine nicht näher spezifizierte Funktion der Komponente Admin Dashboard. Durch Manipulieren mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [sharathc213/CVE-2023-7172](https://github.com/sharathc213/CVE-2023-7172)
+
+### CVE-2023-7173 (2023-12-30)
+
+<code>Es wurde eine problematische Schwachstelle in PHPGurukul Hospital Management System 1.0 gefunden. Es geht dabei um eine nicht klar definierte Funktion der Datei registration.php. Durch das Beeinflussen des Arguments First Name mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [sharathc213/CVE-2023-7173](https://github.com/sharathc213/CVE-2023-7173)
+
 ### CVE-2023-20025 (2023-01-20)
 
 <code>A vulnerability in the web-based management interface of Cisco Small Business RV042 Series Routers could allow an unauthenticated, remote attacker to bypass authentication on the affected device. This vulnerability is due to incorrect user input validation of incoming HTTP packets. An attacker could exploit this vulnerability by sending crafted requests to the web-based management interface. A successful exploit could allow the attacker to gain root privileges on the affected device.
@@ -6142,7 +6156,6 @@
 - [discordianfish/cve-2022-0185-crash-poc](https://github.com/discordianfish/cve-2022-0185-crash-poc)
 - [khaclep007/CVE-2022-0185](https://github.com/khaclep007/CVE-2022-0185)
 - [chenaotian/CVE-2022-0185](https://github.com/chenaotian/CVE-2022-0185)
-- [shahparkhan/cve-2022-0185](https://github.com/shahparkhan/cve-2022-0185)
 - [veritas501/CVE-2022-0185-PipeVersion](https://github.com/veritas501/CVE-2022-0185-PipeVersion)
 - [featherL/CVE-2022-0185-exploit](https://github.com/featherL/CVE-2022-0185-exploit)
 
@@ -34176,6 +34189,13 @@
 </code>
 
 - [mxypoo/CVE-2016-3116-DropbearSSH](https://github.com/mxypoo/CVE-2016-3116-DropbearSSH)
+
+### CVE-2016-3141 (2016-03-31)
+
+<code>Use-after-free vulnerability in wddx.c in the WDDX extension in PHP before 5.5.33 and 5.6.x before 5.6.19 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact by triggering a wddx_deserialize call on XML data containing a crafted var element.
+</code>
+
+- [peternguyen93/CVE-2016-3141](https://github.com/peternguyen93/CVE-2016-3141)
 
 ### CVE-2016-3238 (2016-07-12)
 
