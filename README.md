@@ -19830,7 +19830,7 @@
 
 ### CVE-2020-1337 (2020-08-17)
 
-<code>An elevation of privilege vulnerability exists when the Windows Print Spooler service improperly allows arbitrary writing to the file system, aka 'Windows Print Spooler Elevation of Privilege Vulnerability'.
+<code>&lt;p&gt;An elevation of privilege vulnerability exists when the Windows Print Spooler service improperly allows arbitrary writing to the file system. An attacker who successfully exploited this vulnerability could run arbitrary code with elevated system privileges. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;\n&lt;p&gt;To exploit this vulnerability, an attacker would have to log on to an affected system and run a specially crafted script or application.&lt;/p&gt;\n&lt;p&gt;The update addresses the vulnerability by correcting how the Windows Print Spooler Component writes to the file system.&lt;/p&gt;\n
 </code>
 
 - [math1as/CVE-2020-1337-exploit](https://github.com/math1as/CVE-2020-1337-exploit)
@@ -19876,7 +19876,7 @@
 
 ### CVE-2020-1472 (2020-08-17)
 
-<code>An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (MS-NRPC), aka 'Netlogon Elevation of Privilege Vulnerability'.
+<code>&lt;p&gt;An elevation of privilege vulnerability exists when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller, using the Netlogon Remote Protocol (&lt;a href=&quot;https://docs.microsoft.com/openspecs/windows_protocols/ms-nrpc/ff8f970f-3e37-40f7-bd4b-af7336e4792f&quot;&gt;MS-NRPC&lt;/a&gt;). An attacker who successfully exploited the vulnerability could run a specially crafted application on a device on the network.&lt;/p&gt;\n&lt;p&gt;To exploit the vulnerability, an unauthenticated attacker would be required to use MS-NRPC to connect to a domain controller to obtain domain administrator access.&lt;/p&gt;\n&lt;p&gt;Microsoft is addressing the vulnerability in a phased two-part rollout. These updates address the vulnerability by modifying how Netlogon handles the usage of Netlogon secure channels.&lt;/p&gt;\n&lt;p&gt;For guidelines on how to manage the changes required for this vulnerability and more information on the phased rollout, see  &lt;a href=&quot;https://support.microsoft.com/kb/4557222&quot;&gt;How to manage the changes in Netlogon secure channel connections associated with CVE-2020-1472&lt;/a&gt; (updated September 28, 2020).&lt;/p&gt;\n&lt;p&gt;When the second phase of Windows updates become available in Q1 2021, customers will be notified via a revision to this security vulnerability. If you wish to be notified when these updates are released, we recommend that you register for the security notifications mailer to be alerted of content changes to this advisory. See &lt;a href=&quot;https://technet.microsoft.com/en-us/security/dd252948&quot;&gt;Microsoft Technical Security Notifications&lt;/a&gt;.&lt;/p&gt;\n
 </code>
 
 - [Tobey123/CVE-2020-1472-visualizer](https://github.com/Tobey123/CVE-2020-1472-visualizer)
@@ -19946,7 +19946,7 @@
 
 ### CVE-2020-1493 (2020-08-17)
 
-<code>An information disclosure vulnerability exists when attaching files to Outlook messages, aka 'Microsoft Outlook Information Disclosure Vulnerability'.
+<code>&lt;p&gt;An information disclosure vulnerability exists when attaching files to Outlook messages. This vulnerability could potentially allow users to share attached files such that they are accessible by anonymous users where they should be restricted to specific users.&lt;/p&gt;\n&lt;p&gt;To exploit this vulnerability, an attacker would have to attach a file as a link to an email. The email could then be shared with individuals that should not have access to the files, ignoring the default organizational setting.&lt;/p&gt;\n&lt;p&gt;The security update addresses the vulnerability by correcting how Outlook handles file attachment links.&lt;/p&gt;\n
 </code>
 
 - [0neb1n/CVE-2020-1493](https://github.com/0neb1n/CVE-2020-1493)
@@ -20798,7 +20798,6 @@
 </code>
 
 - [3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934](https://github.com/3ndG4me/liferay-xss-7.2.1GA2-poc-report-CVE-2020-7934)
-- [Sergio235705/audit-xss-cve-2020-7934](https://github.com/Sergio235705/audit-xss-cve-2020-7934)
 
 ### CVE-2020-7961 (2020-03-20)
 
@@ -22728,7 +22727,6 @@
 - [advanced-threat-research/CVE-2020-16898](https://github.com/advanced-threat-research/CVE-2020-16898)
 - [corelight/CVE-2020-16898](https://github.com/corelight/CVE-2020-16898)
 - [Maliek/CVE-2020-16898_Check](https://github.com/Maliek/CVE-2020-16898_Check)
-- [ZephrFish/CVE-2020-16898](https://github.com/ZephrFish/CVE-2020-16898)
 - [esnet-security/cve-2020-16898](https://github.com/esnet-security/cve-2020-16898)
 - [initconf/CVE-2020-16898-Bad-Neighbor](https://github.com/initconf/CVE-2020-16898-Bad-Neighbor)
 - [Q1984/CVE-2020-16898](https://github.com/Q1984/CVE-2020-16898)
@@ -23276,7 +23274,6 @@
 <code>The File Manager (wp-file-manager) plugin before 6.9 for WordPress allows remote attackers to upload and execute arbitrary PHP code because it renames an unsafe example elFinder connector file to have the .php extension. This, for example, allows attackers to run the elFinder upload (or mkfile and put) command to write PHP code into the wp-content/plugins/wp-file-manager/lib/files/ directory. This was exploited in the wild in August and September 2020.
 </code>
 
-- [mansoorr123/wp-file-manager-CVE-2020-25213](https://github.com/mansoorr123/wp-file-manager-CVE-2020-25213)
 - [kakamband/WPKiller](https://github.com/kakamband/WPKiller)
 - [forse01/CVE-2020-25213-Wordpress](https://github.com/forse01/CVE-2020-25213-Wordpress)
 - [0000000O0Oo/Wordpress-CVE-2020-25213](https://github.com/0000000O0Oo/Wordpress-CVE-2020-25213)
@@ -38522,13 +38519,6 @@
 </code>
 
 - [alt3kx/CVE-2002-0348](https://github.com/alt3kx/CVE-2002-0348)
-
-### CVE-2002-0448 (2002-06-11)
-
-<code>Xerver Free Web Server 2.10 and earlier allows remote attackers to cause a denial of service (crash) via an HTTP request that contains many &quot;C:/&quot; sequences.
-</code>
-
-- [alt3kx/CVE-2002-0448](https://github.com/alt3kx/CVE-2002-0448)
 
 ### CVE-2002-0740 (2002-07-26)
 
