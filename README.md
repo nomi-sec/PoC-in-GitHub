@@ -4584,6 +4584,13 @@
 
 - [kenbuckler/WS_FTP-CVE-2023-40044](https://github.com/kenbuckler/WS_FTP-CVE-2023-40044)
 
+### CVE-2023-40084 (2023-12-04)
+
+<code>In run of MDnsSdListener.cpp, there is a possible memory corruption due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [Trinadh465/platform_system_netd_AOSP10_r33_CVE-2023-40084](https://github.com/Trinadh465/platform_system_netd_AOSP10_r33_CVE-2023-40084)
+
 ### CVE-2023-40121 (2023-10-27)
 
 <code>In appendEscapedSQLString of DatabaseUtils.java, there is a possible SQL injection due to unsafe deserialization. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.
@@ -6153,6 +6160,7 @@
 - [duy-31/CVE-2023-51764](https://github.com/duy-31/CVE-2023-51764)
 - [eeenvik1/CVE-2023-51764](https://github.com/eeenvik1/CVE-2023-51764)
 - [d4op/CVE-2023-51764-POC](https://github.com/d4op/CVE-2023-51764-POC)
+- [Double-q1015/CVE-2023-51764](https://github.com/Double-q1015/CVE-2023-51764)
 
 
 ## 2022
@@ -21671,6 +21679,13 @@
 
 - [Frichetten/CVE-2020-11108-PoC](https://github.com/Frichetten/CVE-2020-11108-PoC)
 
+### CVE-2020-11110 (2020-07-27)
+
+<code>Grafana through 6.7.1 allows stored XSS due to insufficient input protection in the originalUrl field, which allows an attacker to inject JavaScript code that will be executed after clicking on Open Original Dashboard after visiting the snapshot.
+</code>
+
+- [AVE-Stoik/CVE-2020-11110-Proof-of-Concept](https://github.com/AVE-Stoik/CVE-2020-11110-Proof-of-Concept)
+
 ### CVE-2020-11113 (2020-03-31)
 
 <code>FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.openjpa.ee.WASRegistryManagedRuntime (aka openjpa).
@@ -30864,6 +30879,7 @@
 </code>
 
 - [BBge/CVE-2018-17240](https://github.com/BBge/CVE-2018-17240)
+- [Xewdy444/Netgrave](https://github.com/Xewdy444/Netgrave)
 
 ### CVE-2018-17246 (2018-12-20)
 
@@ -36208,6 +36224,7 @@
 </code>
 
 - [gdisneyleugers/CVE-2014-2734](https://github.com/gdisneyleugers/CVE-2014-2734)
+- [adrienthebo/cve-2014-2734](https://github.com/adrienthebo/cve-2014-2734)
 
 ### CVE-2014-2815 (2014-08-12)
 
@@ -38155,6 +38172,7 @@
 <code>The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
+- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
@@ -38263,6 +38281,13 @@
 </code>
 
 - [Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities](https://github.com/Parcer0/CVE-2006-0450-phpBB-2.0.15-Multiple-DoS-Vulnerabilities)
+
+### CVE-2006-1236 (2006-03-14)
+
+<code>Buffer overflow in the SetUp function in socket/request.c in CrossFire 1.9.0 allows remote attackers to execute arbitrary code via a long setup sound command, a different vulnerability than CVE-2006-1010.
+</code>
+
+- [Axua/CVE-2006-1236](https://github.com/Axua/CVE-2006-1236)
 
 ### CVE-2006-2842 (2006-06-06)
 
