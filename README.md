@@ -592,6 +592,7 @@
 - [diego-tella/CVE-2023-3460](https://github.com/diego-tella/CVE-2023-3460)
 - [Rajneeshkarya/CVE-2023-3460](https://github.com/Rajneeshkarya/CVE-2023-3460)
 - [BlackReaperSK/CVE-2023-3460_POC](https://github.com/BlackReaperSK/CVE-2023-3460_POC)
+- [julienbrs/exploit-CVE-2023-3460](https://github.com/julienbrs/exploit-CVE-2023-3460)
 
 ### CVE-2023-3519 (2023-07-19)
 
@@ -8356,6 +8357,13 @@
 
 - [jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2)
 
+### CVE-2022-24442 (2022-02-25)
+
+<code>JetBrains YouTrack before 2021.4.40426 was vulnerable to SSTI (Server-Side Template Injection) via FreeMarker templates.
+</code>
+
+- [mbadanoiu/CVE-2022-24442](https://github.com/mbadanoiu/CVE-2022-24442)
+
 ### CVE-2022-24449 (2022-04-28)
 
 <code>Solar appScreener through 3.10.4, when a valid license is not present, allows XXE and SSRF attacks via a crafted XML document.
@@ -15025,6 +15033,7 @@
 - [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
 - [iceberg-N/cve-2021-26855](https://github.com/iceberg-N/cve-2021-26855)
+- [timb-machine-mirrors/testanull-CVE-2021-26855_read_poc.txt](https://github.com/timb-machine-mirrors/testanull-CVE-2021-26855_read_poc.txt)
 
 ### CVE-2021-26856
 - [avi8892/CVE-2021-26856](https://github.com/avi8892/CVE-2021-26856)
@@ -28523,6 +28532,7 @@
 <code>Vulnerability in the Oracle VM VirtualBox component of Oracle Virtualization (subcomponent: Core). The supported version that is affected is Prior to 5.2.20. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox. Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products. Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.0 Base Score 8.6 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H).
 </code>
 
+- [ndureiss/e1000_vulnerability_exploit](https://github.com/ndureiss/e1000_vulnerability_exploit)
 - [vhok74/cve-2018-3295](https://github.com/vhok74/cve-2018-3295)
 
 ### CVE-2018-3608 (2018-07-06)
@@ -28772,6 +28782,13 @@
 </code>
 
 - [ktiOSz/PoC_iOS12](https://github.com/ktiOSz/PoC_iOS12)
+
+### CVE-2018-4441 (2019-04-03)
+
+<code>A memory corruption issue was addressed with improved memory handling. This issue affected versions prior to iOS 12.1.1, tvOS 12.1.1, watchOS 5.1.2, Safari 12.0.2, iTunes 12.9.2 for Windows, iCloud for Windows 7.9.
+</code>
+
+- [Cryptogenic/PS4-6.20-WebKit-Code-Execution-Exploit](https://github.com/Cryptogenic/PS4-6.20-WebKit-Code-Execution-Exploit)
 
 ### CVE-2018-4878 (2018-02-06)
 
@@ -31216,6 +31233,7 @@
 - [technicaldada/hack-winrar](https://github.com/technicaldada/hack-winrar)
 - [Ektoplasma/ezwinrar](https://github.com/Ektoplasma/ezwinrar)
 - [arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI](https://github.com/arkangel-dev/CVE-2018-20250-WINRAR-ACE-GUI)
+- [AeolusTF/CVE-2018-20250](https://github.com/AeolusTF/CVE-2018-20250)
 - [joydragon/Detect-CVE-2018-20250](https://github.com/joydragon/Detect-CVE-2018-20250)
 - [DANIELVISPOBLOG/WinRar_ACE_exploit_CVE-2018-20250](https://github.com/DANIELVISPOBLOG/WinRar_ACE_exploit_CVE-2018-20250)
 - [likescam/CVE-2018-20250](https://github.com/likescam/CVE-2018-20250)
@@ -37736,13 +37754,6 @@
 </code>
 
 - [LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2](https://github.com/LAITRUNGMINHDUC/CVE-2010-3600-PythonHackOracle11gR2)
-
-### CVE-2010-3847 (2011-01-07)
-
-<code>elf/dl-load.c in ld.so in the GNU C Library (aka glibc or libc6) through 2.11.2, and 2.12.x through 2.12.1, does not properly handle a value of $ORIGIN for the LD_AUDIT environment variable, which allows local users to gain privileges via a crafted dynamic shared object (DSO) located in an arbitrary directory.
-</code>
-
-- [magisterquis/cve-2010-3847](https://github.com/magisterquis/cve-2010-3847)
 
 ### CVE-2010-3904 (2010-12-06)
 
