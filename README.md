@@ -38025,6 +38025,7 @@
 </code>
 
 - [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
+- [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
 - [demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166](https://github.com/demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166)
 
@@ -38048,6 +38049,13 @@
 </code>
 
 - [SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613)
+
+### CVE-2008-2019 (2008-04-29)
+
+<code>Simple Machines Forum (SMF), probably 1.1.4, relies on &quot;randomly generated static&quot; to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
+</code>
+
+- [TheRook/AudioCaptchaBypass-CVE-2008-2019](https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019)
 
 ### CVE-2008-2938 (2008-08-12)
 
