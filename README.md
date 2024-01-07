@@ -843,7 +843,6 @@
 <code>A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
 </code>
 
-- [Green-Avocado/CVE-2023-4911](https://github.com/Green-Avocado/CVE-2023-4911)
 - [leesh3288/CVE-2023-4911](https://github.com/leesh3288/CVE-2023-4911)
 - [RickdeJager/CVE-2023-4911](https://github.com/RickdeJager/CVE-2023-4911)
 - [xiaoQ1z/CVE-2023-4911](https://github.com/xiaoQ1z/CVE-2023-4911)
@@ -2068,6 +2067,7 @@
 - [heapbytes/CVE-2023-26035](https://github.com/heapbytes/CVE-2023-26035)
 - [Yuma-Tsushima07/CVE-2023-26035](https://github.com/Yuma-Tsushima07/CVE-2023-26035)
 - [Faelian/zoneminder_CVE-2023-26035](https://github.com/Faelian/zoneminder_CVE-2023-26035)
+- [srinathkarli7/CVE-2023-26035-exploit.sh.sh.sh](https://github.com/srinathkarli7/CVE-2023-26035-exploit.sh.sh.sh)
 
 ### CVE-2023-26048 (2023-04-18)
 
@@ -4832,7 +4832,7 @@
 <code>A certificate validation issue was addressed. This issue is fixed in macOS Ventura 13.6, iOS 16.7 and iPadOS 16.7. A malicious app may be able to bypass signature validation. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
 </code>
 
-- [ZZY3312/CVE-2023-41991](https://github.com/ZZY3312/CVE-2023-41991)
+- [Zenyith/CVE-2023-41991](https://github.com/Zenyith/CVE-2023-41991)
 
 ### CVE-2023-41993 (2023-09-21)
 
@@ -4842,7 +4842,6 @@
 - [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
 - [hrtowii/cve-2023-41993-test](https://github.com/hrtowii/cve-2023-41993-test)
 - [Mangaia/cve-test](https://github.com/Mangaia/cve-test)
-- [ZZY3312/CVE-2023-41993](https://github.com/ZZY3312/CVE-2023-41993)
 
 ### CVE-2023-42222 (2023-09-27)
 
@@ -6732,7 +6731,6 @@
 - [sashka3076/F5-BIG-IP-exploit](https://github.com/sashka3076/F5-BIG-IP-exploit)
 - [li8u99/CVE-2022-1388](https://github.com/li8u99/CVE-2022-1388)
 - [electr0lulz/Mass-CVE-2022-1388](https://github.com/electr0lulz/Mass-CVE-2022-1388)
-- [Luchoane/CVE-2022-1388_refresh](https://github.com/Luchoane/CVE-2022-1388_refresh)
 - [jbharucha05/CVE-2022-1388](https://github.com/jbharucha05/CVE-2022-1388)
 - [On-Cyber-War/CVE-2022-1388](https://github.com/On-Cyber-War/CVE-2022-1388)
 - [OnCyberWar/CVE-2022-1388](https://github.com/OnCyberWar/CVE-2022-1388)
@@ -7215,13 +7213,6 @@
 ### CVE-2022-20128
 - [irsl/CVE-2022-20128](https://github.com/irsl/CVE-2022-20128)
 
-### CVE-2022-20130 (2022-06-15)
-
-<code>In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-224314979
-</code>
-
-- [Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130](https://github.com/Satheesh575555/external_aac_AOSP10_r33_CVE-2022-20130)
-
 ### CVE-2022-20138 (2022-06-15)
 
 <code>In ACTION_MANAGED_PROFILE_PROVISIONED of DevicePolicyManagerService.java, there is a possible way for unprivileged app to send MANAGED_PROFILE_PROVISIONED intent due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12LAndroid ID: A-210469972
@@ -7414,6 +7405,13 @@
 </code>
 
 - [hktalent/CVE-2022-21306](https://github.com/hktalent/CVE-2022-21306)
+
+### CVE-2022-21350 (2022-01-19)
+
+<code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3 to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized update, insert or delete access to some of Oracle WebLogic Server accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle WebLogic Server. CVSS 3.1 Base Score 6.5 (Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L).
+</code>
+
+- [hktalent/CVE-2022-21350](https://github.com/hktalent/CVE-2022-21350)
 
 ### CVE-2022-21371 (2022-01-19)
 
@@ -9033,13 +9031,6 @@
 </code>
 
 - [Dylbin/flow_divert](https://github.com/Dylbin/flow_divert)
-
-### CVE-2022-26763 (2022-05-26)
-
-<code>An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in tvOS 15.5, iOS 15.5 and iPadOS 15.5, Security Update 2022-004 Catalina, watchOS 8.6, macOS Big Sur 11.6.6, macOS Monterey 12.4. A malicious application may be able to execute arbitrary code with system privileges.
-</code>
-
-- [zhuowei/PCICrash](https://github.com/zhuowei/PCICrash)
 
 ### CVE-2022-26766 (2022-05-26)
 
@@ -22833,6 +22824,13 @@
 
 - [ze0r/cve-2020-17057](https://github.com/ze0r/cve-2020-17057)
 - [lsw29475/CVE-2020-17057](https://github.com/lsw29475/CVE-2020-17057)
+
+### CVE-2020-17086 (2020-11-11)
+
+<code>Raw Image Extension Remote Code Execution Vulnerability
+</code>
+
+- [T81oub/CVE-2020-17086](https://github.com/T81oub/CVE-2020-17086)
 
 ### CVE-2020-17087 (2020-11-11)
 
