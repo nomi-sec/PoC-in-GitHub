@@ -815,7 +815,7 @@
 <code>Type Confusion in V8 in Google Chrome prior to 116.0.5845.179 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)
 </code>
 
-- [buptsb/CVE-2023-4762](https://github.com/buptsb/CVE-2023-4762)
+- [zckevin/CVE-2023-4762](https://github.com/zckevin/CVE-2023-4762)
 - [sherlocksecurity/CVE-2023-4762-Code-Review](https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review)
 
 ### CVE-2023-4800 (2023-10-16)
@@ -1766,7 +1766,7 @@
 <code>A deserialization vulnerability existed when dubbo generic invoke, which could lead to malicious code execution. This issue affects Apache Dubbo 2.7.x version 2.7.21 and prior versions; Apache Dubbo 3.0.x version 3.0.13 and prior versions; Apache Dubbo 3.1.x version 3.1.5 and prior versions.
 </code>
 
-- [X1r0z/CVE-2023-23638](https://github.com/X1r0z/CVE-2023-23638)
+- [X1r0z/Dubbo-RCE](https://github.com/X1r0z/Dubbo-RCE)
 - [YYHYlh/Apache-Dubbo-CVE-2023-23638-exp](https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp)
 - [CKevens/CVE-2023-23638-Tools](https://github.com/CKevens/CVE-2023-23638-Tools)
 
@@ -19982,6 +19982,7 @@
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [G0urmetD/Zerologon-CVE-2020-1472](https://github.com/G0urmetD/Zerologon-CVE-2020-1472)
 - [botfather0x0/ZeroLogon-to-Shell](https://github.com/botfather0x0/ZeroLogon-to-Shell)
+- [logg-1/0logon](https://github.com/logg-1/0logon)
 
 ### CVE-2020-1493 (2020-08-17)
 
