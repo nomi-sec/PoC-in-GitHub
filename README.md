@@ -3255,6 +3255,13 @@
 
 - [LOURC0D3/CVE-2023-32961](https://github.com/LOURC0D3/CVE-2023-32961)
 
+### CVE-2023-33137 (2023-06-13)
+
+<code>Microsoft Excel Remote Code Execution Vulnerability
+</code>
+
+- [JaqueMalman/CVE-2023-33137](https://github.com/JaqueMalman/CVE-2023-33137)
+
 ### CVE-2023-33242 (2023-08-09)
 
 <code>Crypto wallets implementing the Lindell17 TSS protocol might allow an attacker to extract the full ECDSA private key by exfiltrating a single bit in every signature attempt (256 in total) because of not adhering to the paper's security proof's assumption regarding handling aborts after a failed signature.
@@ -13774,6 +13781,7 @@
 - [JohnGilbert57/CVE-2021-4034-Capture-the-flag](https://github.com/JohnGilbert57/CVE-2021-4034-Capture-the-flag)
 - [Part01-Pai/Polkit-Permission-promotion-compiled](https://github.com/Part01-Pai/Polkit-Permission-promotion-compiled)
 - [cdxiaodong/CVE-2021-4034-touch](https://github.com/cdxiaodong/CVE-2021-4034-touch)
+- [LucasPDiniz/CVE-2021-4034](https://github.com/LucasPDiniz/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
