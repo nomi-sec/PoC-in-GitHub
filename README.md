@@ -850,8 +850,6 @@
 <code>A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
 </code>
 
-- [Green-Avocado/CVE-2023-4911](https://github.com/Green-Avocado/CVE-2023-4911)
-- [leesh3288/CVE-2023-4911](https://github.com/leesh3288/CVE-2023-4911)
 - [RickdeJager/CVE-2023-4911](https://github.com/RickdeJager/CVE-2023-4911)
 - [xiaoQ1z/CVE-2023-4911](https://github.com/xiaoQ1z/CVE-2023-4911)
 - [silent6trinity/looney-tuneables](https://github.com/silent6trinity/looney-tuneables)
@@ -903,13 +901,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-5070](https://github.com/RandomRobbieBF/CVE-2023-5070)
-
-### CVE-2023-5142 (2023-09-24)
-
-<code>In H3C GR-1100-P, GR-1108-P, GR-1200W, GR-1800AX, GR-2200, GR-3200, GR-5200, GR-8300, ER2100n, ER2200G2, ER3200G2, ER3260G2, ER5100G2, ER5200G2 and ER6300G2 bis 20230908 wurde eine Schwachstelle entdeckt. Sie wurde als problematisch eingestuft. Dabei geht es um eine nicht genauer bekannte Funktion der Datei /userLogin.asp der Komponente Config File Handler. Durch das Beeinflussen mit unbekannten Daten kann eine path traversal-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Die Komplexität eines Angriffs ist eher hoch. Das Ausnutzen gilt als schwierig. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [kuangxiaotu/CVE-H3C-Report](https://github.com/kuangxiaotu/CVE-H3C-Report)
 
 ### CVE-2023-5217 (2023-09-28)
 
@@ -1205,14 +1196,6 @@
 
 - [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20911](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-20911)
 
-### CVE-2023-20918 (2023-07-12)
-
-<code>In getPendingIntentLaunchFlags of ActivityOptions.java, there is a possible elevation of privilege due to a confused deputy with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
-</code>
-
-- [pazhanivel07/platform_frameworks_base_AOSP_10_r33_CVE-2023-20918](https://github.com/pazhanivel07/platform_frameworks_base_AOSP_10_r33_CVE-2023-20918)
-- [Trinadh465/platform_frameworks_base_CVE-2023-20918](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-20918)
-
 ### CVE-2023-20921 (2023-01-24)
 
 <code>In onPackageRemoved of AccessibilityManagerService.java, there is a possibility to automatically grant accessibility services due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-243378132
@@ -1341,35 +1324,6 @@
 </code>
 
 - [Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272](https://github.com/Trinadh465/frameworks_base_AOSP-4.2.2_r1_CVE-2023-21272)
-- [pazhanivel07/platform_frameworks_base_AOSP_10_r33_CVE-2023-21272](https://github.com/pazhanivel07/platform_frameworks_base_AOSP_10_r33_CVE-2023-21272)
-
-### CVE-2023-21275 (2023-08-14)
-
-<code>In decideCancelProvisioningDialog of AdminIntegratedFlowPrepareActivity.java, there is a possible way to bypass factory reset protections due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
-</code>
-
-- [Trinadh465/packages_apps_ManagedProvisioning_AOSP10_r33_CVE-2023-21275](https://github.com/Trinadh465/packages_apps_ManagedProvisioning_AOSP10_r33_CVE-2023-21275)
-
-### CVE-2023-21281 (2023-08-14)
-
-<code>In multiple functions of KeyguardViewMediator.java, there is a possible failure to lock after screen timeout due to a logic error in the code. This could lead to local escalation of privilege across users with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
-</code>
-
-- [Trinadh465/platform_frameworks_base_CVE-2023-21281](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-21281)
-
-### CVE-2023-21282 (2023-08-14)
-
-<code>In TRANSPOSER_SETTINGS of lpp_tran.h, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is needed for exploitation.\n\n
-</code>
-
-- [Trinadh465/external_aac_AOSP10_r33_CVE-2023-21282](https://github.com/Trinadh465/external_aac_AOSP10_r33_CVE-2023-21282)
-
-### CVE-2023-21284 (2023-08-14)
-
-<code>In multiple functions of DevicePolicyManager.java, there is a possible way to prevent enabling the Find my Device feature due to improper input validation. This could lead to local denial of service with User execution privileges needed. User interaction is not needed for exploitation.\n\n
-</code>
-
-- [Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21284](https://github.com/Trinadh465/frameworks_base_AOSP10_r33_CVE-2023-21284)
 
 ### CVE-2023-21285 (2023-08-14)
 
@@ -1377,20 +1331,6 @@
 </code>
 
 - [uthrasri/framework_base_CVE-2023-21285_NoPatch](https://github.com/uthrasri/framework_base_CVE-2023-21285_NoPatch)
-
-### CVE-2023-21286 (2023-08-14)
-
-<code>In visitUris of RemoteViews.java, there is a possible way to reveal images across users due to a missing permission check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.\n\n
-</code>
-
-- [Trinadh465/platform_frameworks_base_CVE-2023-21286](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-21286)
-
-### CVE-2023-21288 (2023-08-14)
-
-<code>In visitUris of Notification.java, there is a possible way to reveal images across users due to a missing permission check. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation.\n\n
-</code>
-
-- [Trinadh465/platform_frameworks_base_CVE-2023-21288](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-21288)
 
 ### CVE-2023-21554 (2023-04-11)
 
@@ -1479,7 +1419,6 @@
 - [CKevens/CVE-2023-21768-POC](https://github.com/CKevens/CVE-2023-21768-POC)
 - [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
 - [zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit)
-- [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
 
 ### CVE-2023-21823 (2023-02-14)
 
@@ -2895,7 +2834,6 @@
 </code>
 
 - [sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419](https://github.com/sqrtZeroKnowledge/Elasticsearch-Exploit-CVE-2023-31419)
-- [u238/Elasticsearch-CVE-2023-31419](https://github.com/u238/Elasticsearch-CVE-2023-31419)
 
 ### CVE-2023-31433 (2023-05-02)
 
@@ -4054,8 +3992,6 @@
 - [toanln-cov/CVE-2023-36845](https://github.com/toanln-cov/CVE-2023-36845)
 - [halencarjunior/CVE-2023-36845](https://github.com/halencarjunior/CVE-2023-36845)
 - [zaenhaxor/CVE-2023-36845](https://github.com/zaenhaxor/CVE-2023-36845)
-- [simrotion13/CVE-2023-36845](https://github.com/simrotion13/CVE-2023-36845)
-- [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
 - [ditekshen/ansible-cve-2023-36845](https://github.com/ditekshen/ansible-cve-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
@@ -4386,13 +4322,6 @@
 - [Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646)
 - [0utl4nder/Another-Metabase-RCE-CVE-2023-38646](https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646)
 
-### CVE-2023-38743 (2023-09-11)
-
-<code>Zoho ManageEngine ADManager Plus before Build 7200 allows admin users to execute commands on the host machine.
-</code>
-
-- [PetrusViet/CVE-2023-38743](https://github.com/PetrusViet/CVE-2023-38743)
-
 ### CVE-2023-38820
 - [TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820](https://github.com/TraiLeR2/DLL-Planting-Slack-4.33.73-CVE-2023-38820)
 
@@ -4596,13 +4525,6 @@
 </code>
 
 - [mbadanoiu/CVE-2023-40037](https://github.com/mbadanoiu/CVE-2023-40037)
-
-### CVE-2023-40044 (2023-09-27)
-
-<code>\nIn WS_FTP Server versions prior to 8.7.4 and 8.8.2, a pre-authenticated attacker could leverage a .NET deserialization vulnerability in the Ad Hoc Transfer module to execute remote commands on the underlying WS_FTP Server operating system.  \n\n
-</code>
-
-- [kenbuckler/WS_FTP-CVE-2023-40044](https://github.com/kenbuckler/WS_FTP-CVE-2023-40044)
 
 ### CVE-2023-40084 (2023-12-04)
 
@@ -5014,13 +4936,6 @@
 
 - [b0marek/CVE-2023-43263](https://github.com/b0marek/CVE-2023-43263)
 
-### CVE-2023-43284 (2023-10-05)
-
-<code>D-Link Wireless MU-MIMO Gigabit AC1200 Router DIR-846 100A53DBR-Retail devices allow an authenticated remote attacker to execute arbitrary code via an unspecified manipulation of the QoS POST parameter.
-</code>
-
-- [MateusTesser/CVE-2023-43284](https://github.com/MateusTesser/CVE-2023-43284)
-
 ### CVE-2023-43323 (2023-09-28)
 
 <code>mooSocial 3.1.8 is vulnerable to external service interaction on post function. When executed, the server sends a HTTP and DNS request to external server. The Parameters effected are multiple - messageText, data[wall_photo], data[userShareVideo] and data[userShareLink].
@@ -5168,13 +5083,6 @@
 
 - [actuator/com.tcl.browser](https://github.com/actuator/com.tcl.browser)
 
-### CVE-2023-43654 (2023-09-28)
-
-<code>TorchServe is a tool for serving and scaling PyTorch models in production. TorchServe default configuration lacks proper input validation, enabling third parties to invoke remote HTTP download requests and write files to the disk. This issue could be taken advantage of to compromise the integrity of the system and sensitive data. This issue is present in versions 0.1.0 to 0.8.1. A user is able to load the model of their choice from any URL that they would like to use. The user of TorchServe is responsible for configuring both the allowed_urls and specifying the model URL to be used. A pull request to warn the user when the default value for allowed_urls is used has been merged in PR #2534. TorchServe release 0.8.2 includes this change. Users are advised to upgrade. There are no known workarounds for this issue.
-</code>
-
-- [OligoCyberSecurity/ShellTorchChecker](https://github.com/OligoCyberSecurity/ShellTorchChecker)
-
 ### CVE-2023-43770 (2023-09-22)
 
 <code>Roundcube before 1.4.14, 1.5.x before 1.5.4, and 1.6.x before 1.6.3 allows XSS via text/plain e-mail messages with crafted links because of program/lib/Roundcube/rcube_string_replacer.php behavior.
@@ -5196,13 +5104,6 @@
 </code>
 
 - [JawadPy/CVE-2023-43804-Exploit](https://github.com/JawadPy/CVE-2023-43804-Exploit)
-
-### CVE-2023-43838 (2023-10-04)
-
-<code>An arbitrary file upload vulnerability in Personal Management System v1.4.64 allows attackers to execute arbitrary code via uploading a crafted SVG file into a user profile's avatar.
-</code>
-
-- [rootd4ddy/CVE-2023-43838](https://github.com/rootd4ddy/CVE-2023-43838)
 
 ### CVE-2023-43871 (2023-09-28)
 
@@ -5423,9 +5324,6 @@
 </code>
 
 - [ggb0n/CVE-2023-44962](https://github.com/ggb0n/CVE-2023-44962)
-
-### CVE-2023-44976
-- [keowu/BadRentdrv2](https://github.com/keowu/BadRentdrv2)
 
 ### CVE-2023-45158 (2023-10-16)
 
@@ -5930,6 +5828,7 @@
 - [abdoghazy2015/ofbiz-CVE-2023-49070-RCE-POC](https://github.com/abdoghazy2015/ofbiz-CVE-2023-49070-RCE-POC)
 - [0xrobiul/CVE-2023-49070](https://github.com/0xrobiul/CVE-2023-49070)
 - [D0g3-8Bit/OFBiz-Attack](https://github.com/D0g3-8Bit/OFBiz-Attack)
+- [UserConnecting/Exploit-CVE-2023-49070-and-CVE-2023-51467-Apache-OFBiz](https://github.com/UserConnecting/Exploit-CVE-2023-49070-and-CVE-2023-51467-Apache-OFBiz)
 
 ### CVE-2023-49103 (2023-11-21)
 
