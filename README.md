@@ -1,6 +1,13 @@
 # PoC in GitHub
 
 ## 2024
+### CVE-2024-21633 (-)
+
+<code>Apktool is a tool for reverse engineering Android APK files. In versions 2.9.1 and prior, Apktool infers resource files' output path according to their resource names which can be manipulated by attacker to place files at desired location on the system Apktool runs on. Affected environments are those in which an attacker may write/overwrite any file that user has write access, and either user name is known or cwd is under user folder. Commit d348c43b24a9de350ff6e5bd610545a10c1fc712 contains a patch for this issue.
+</code>
+
+- [0x33c0unt/CVE-2024-21633](https://github.com/0x33c0unt/CVE-2024-21633)
+
 
 ## 2023
 ### CVE-2023-0045 (2023-04-25)
@@ -4927,6 +4934,7 @@
 
 - [H454NSec/CVE-2023-42793](https://github.com/H454NSec/CVE-2023-42793)
 - [Zenmovie/CVE-2023-42793](https://github.com/Zenmovie/CVE-2023-42793)
+- [johnossawy/CVE-2023-42793_POC](https://github.com/johnossawy/CVE-2023-42793_POC)
 
 ### CVE-2023-42819 (2023-09-26)
 
