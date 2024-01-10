@@ -66,7 +66,6 @@
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
 </code>
 
-- [bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad](https://github.com/bAuh0lz/CVE-2023-0297_Pre-auth_RCE_in_pyLoad)
 - [Small-ears/CVE-2023-0297](https://github.com/Small-ears/CVE-2023-0297)
 - [JacobEbben/CVE-2023-0297](https://github.com/JacobEbben/CVE-2023-0297)
 - [overgrowncarrot1/CVE-2023-0297](https://github.com/overgrowncarrot1/CVE-2023-0297)
@@ -1459,7 +1458,6 @@
 <code>Windows Backup Service Elevation of Privilege Vulnerability
 </code>
 
-- [Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752)
 - [yosef0x01/CVE-2023-21752](https://github.com/yosef0x01/CVE-2023-21752)
 
 ### CVE-2023-21766 (2023-01-10)
@@ -2394,6 +2392,7 @@
 - [Cyb3rEnthusiast/CVE-2023-27997](https://github.com/Cyb3rEnthusiast/CVE-2023-27997)
 - [lexfo/xortigate-cve-2023-27997](https://github.com/lexfo/xortigate-cve-2023-27997)
 - [delsploit/CVE-2023-27997](https://github.com/delsploit/CVE-2023-27997)
+- [awchjimmy/CVE-2023-27997-tutorial](https://github.com/awchjimmy/CVE-2023-27997-tutorial)
 
 ### CVE-2023-28121 (2023-04-12)
 
@@ -2930,7 +2929,11 @@
 
 - [Dodge-MPTC/CVE-2023-31445-Unprivileged-Information-Disclosure](https://github.com/Dodge-MPTC/CVE-2023-31445-Unprivileged-Information-Disclosure)
 
-### CVE-2023-31446
+### CVE-2023-31446 (-)
+
+<code>In Cassia Gateway firmware XC1000_2.1.1.2303082218 and XC2000_2.1.1.2303090947, the queueUrl parameter in /bypass/config is not sanitized. This leads to injecting Bash code and executing it with root privileges on device startup.
+</code>
+
 - [Dodge-MPTC/CVE-2023-31446-Remote-Code-Execution](https://github.com/Dodge-MPTC/CVE-2023-31446-Remote-Code-Execution)
 
 ### CVE-2023-31497 (2023-05-11)
@@ -4100,6 +4103,13 @@
 
 - [d0rb/CVE-2023-36899](https://github.com/d0rb/CVE-2023-36899)
 - [midisec/CVE-2023-36899](https://github.com/midisec/CVE-2023-36899)
+
+### CVE-2023-36900 (2023-08-08)
+
+<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
+</code>
+
+- [RomanRybachek/CVE-2023-36900](https://github.com/RomanRybachek/CVE-2023-36900)
 
 ### CVE-2023-37073
 - [Hamza0X/CVE-2023-37073](https://github.com/Hamza0X/CVE-2023-37073)
@@ -5819,6 +5829,13 @@
 
 - [RandomRobbieBF/CVE-2023-47840](https://github.com/RandomRobbieBF/CVE-2023-47840)
 
+### CVE-2023-48022 (2023-11-28)
+
+<code>** DISPUTED ** Anyscale Ray 2.6.3 and 2.8.0 allows a remote attacker to execute arbitrary code via the job submission API. NOTE: the vendor's position is that this report is irrelevant because Ray, as stated in its documentation, is not intended for use outside of a strictly controlled network environment
+</code>
+
+- [0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022)
+
 ### CVE-2023-48028 (2023-11-17)
 
 <code>kodbox 1.46.01 has a security flaw that enables user enumeration. This problem is present on the login page, where an attacker can identify valid users based on varying response messages, potentially paving the way for a brute force attack.
@@ -5895,9 +5912,6 @@
 </code>
 
 - [delsploit/CVE-2023-48849](https://github.com/delsploit/CVE-2023-48849)
-
-### CVE-2023-48864
-- [f3lze3/CVE-2023-48864](https://github.com/f3lze3/CVE-2023-48864)
 
 ### CVE-2023-48866 (2023-12-04)
 
@@ -38229,12 +38243,9 @@
 <code>The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
 </code>
 
-- [amriunix/CVE-2007-2447](https://github.com/amriunix/CVE-2007-2447)
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
-- [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
-- [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
 - [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
@@ -38264,13 +38275,6 @@
 </code>
 
 - [alt3kx/CVE-2007-3830](https://github.com/alt3kx/CVE-2007-3830)
-
-### CVE-2007-3831 (2007-07-17)
-
-<code>PHP remote file inclusion in main.php in ISS Proventia Network IPS GX5108 1.3 and GX5008 1.5 allows remote attackers to execute arbitrary PHP code via a URL in the page parameter.
-</code>
-
-- [alt3kx/CVE-2007-3831](https://github.com/alt3kx/CVE-2007-3831)
 
 ### CVE-2007-4559 (2007-08-27)
 
