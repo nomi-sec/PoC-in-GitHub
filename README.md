@@ -1045,6 +1045,9 @@
 - [motikan2010/CVE-2023-6553-PoC](https://github.com/motikan2010/CVE-2023-6553-PoC)
 - [kiddenta/CVE-2023-6553](https://github.com/kiddenta/CVE-2023-6553)
 
+### CVE-2023-6567
+- [mimiloveexe/CVE-2023-6567-poc](https://github.com/mimiloveexe/CVE-2023-6567-poc)
+
 ### CVE-2023-6661
 - [cli-ish/CVE-2023-6661](https://github.com/cli-ish/CVE-2023-6661)
 
@@ -3383,27 +3386,6 @@
 
 - [wushigudan/CVE-2023-33517](https://github.com/wushigudan/CVE-2023-33517)
 
-### CVE-2023-33565 (2023-06-23)
-
-<code>ROS2 (Robot Operating System 2) Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 are vulnerable to Denial-of-Service (DoS) attacks. A malicious user potentially exploited the vulnerability remotely and crashed the ROS2 nodes.
-</code>
-
-- [16yashpatel/CVE-2023-33565](https://github.com/16yashpatel/CVE-2023-33565)
-
-### CVE-2023-33566 (2023-06-27)
-
-<code>An unauthorized node injection vulnerability has been identified in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could allow a malicious user to inject malicious ROS2 nodes into the system remotely. Once injected, these nodes could disrupt the normal operations of the system or cause other potentially harmful behavior.
-</code>
-
-- [16yashpatel/CVE-2023-33566](https://github.com/16yashpatel/CVE-2023-33566)
-
-### CVE-2023-33567 (2023-06-27)
-
-<code>An unauthorized access vulnerability has been discovered in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information.
-</code>
-
-- [16yashpatel/CVE-2023-33567](https://github.com/16yashpatel/CVE-2023-33567)
-
 ### CVE-2023-33592 (2023-06-28)
 
 <code>Lost and Found Information System v1.0 was discovered to contain a SQL injection vulnerability via the component /php-lfis/admin/?page=system_info/contact_information.
@@ -5402,13 +5384,6 @@
 
 - [sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout](https://github.com/sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout)
 
-### CVE-2023-44796 (2023-11-17)
-
-<code>Cross Site Scripting (XSS) vulnerability in LimeSurvey before version 6.2.9-230925 allows a remote attacker to escalate privileges via a crafted script to the _generaloptions_panel.php component.
-</code>
-
-- [Hebing123/CVE-2023-44796](https://github.com/Hebing123/CVE-2023-44796)
-
 ### CVE-2023-44811 (2023-10-09)
 
 <code>Cross Site Request Forgery (CSRF) vulnerability in MooSocial v.3.1.8 allows a remote attacker to execute arbitrary code and obtain sensitive information via the admin Password Change Function.
@@ -6168,7 +6143,11 @@
 
 - [Chocapikk/CVE-2023-50917](https://github.com/Chocapikk/CVE-2023-50917)
 
-### CVE-2023-51073
+### CVE-2023-51073 (-)
+
+<code>An issue in Buffalo LS210D v.1.78-0.03 allows a remote attacker to execute arbitrary code via the Firmware Update Script at /etc/init.d/update_notifications.sh.
+</code>
+
 - [christopher-pace/CVE-2023-51073](https://github.com/christopher-pace/CVE-2023-51073)
 
 ### CVE-2023-51126 (-)
@@ -6184,30 +6163,6 @@
 </code>
 
 - [risuxx/CVE-2023-51127](https://github.com/risuxx/CVE-2023-51127)
-
-### CVE-2023-51197
-- [16yashpatel/CVE-2023-51197](https://github.com/16yashpatel/CVE-2023-51197)
-
-### CVE-2023-51198
-- [16yashpatel/CVE-2023-51198](https://github.com/16yashpatel/CVE-2023-51198)
-
-### CVE-2023-51199
-- [16yashpatel/CVE-2023-51199](https://github.com/16yashpatel/CVE-2023-51199)
-
-### CVE-2023-51200
-- [16yashpatel/CVE-2023-51200](https://github.com/16yashpatel/CVE-2023-51200)
-
-### CVE-2023-51201
-- [16yashpatel/CVE-2023-51201](https://github.com/16yashpatel/CVE-2023-51201)
-
-### CVE-2023-51202
-- [16yashpatel/CVE-2023-51202](https://github.com/16yashpatel/CVE-2023-51202)
-
-### CVE-2023-51204
-- [16yashpatel/CVE-2023-51204](https://github.com/16yashpatel/CVE-2023-51204)
-
-### CVE-2023-51208
-- [16yashpatel/CVE-2023-51208](https://github.com/16yashpatel/CVE-2023-51208)
 
 ### CVE-2023-51214
 - [chandraprarikraj/CVE-2023-51214](https://github.com/chandraprarikraj/CVE-2023-51214)
@@ -29974,7 +29929,7 @@
 - [codeholic2k18/CVE-2018-9995](https://github.com/codeholic2k18/CVE-2018-9995)
 - [TateYdq/CVE-2018-9995-ModifiedByGwolfs](https://github.com/TateYdq/CVE-2018-9995-ModifiedByGwolfs)
 - [ABIZCHI/CVE-2018-9995_dvr_credentials](https://github.com/ABIZCHI/CVE-2018-9995_dvr_credentials)
-- [IHA114/CVE-2018-9995_dvr_credentials](https://github.com/IHA114/CVE-2018-9995_dvr_credentials)
+- [MrAli-Code/CVE-2018-9995_dvr_credentials](https://github.com/MrAli-Code/CVE-2018-9995_dvr_credentials)
 - [likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool](https://github.com/likaifeng0/CVE-2018-9995_dvr_credentials-dev_tool)
 - [b510/CVE-2018-9995-POC](https://github.com/b510/CVE-2018-9995-POC)
 - [withmasday/HTC](https://github.com/withmasday/HTC)
