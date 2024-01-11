@@ -2408,7 +2408,11 @@
 - [Jenderal92/WP-CVE-2023-28121](https://github.com/Jenderal92/WP-CVE-2023-28121)
 - [1337nemojj/CVE-2023-28121](https://github.com/1337nemojj/CVE-2023-28121)
 
-### CVE-2023-28197
+### CVE-2023-28197 (-)
+
+<code>An access issue was addressed with additional sandbox restrictions. This issue is fixed in macOS Ventura 13.3, macOS Big Sur 11.7.5, macOS Monterey 12.6.4. An app may be able to access user-sensitive data.
+</code>
+
 - [spotlightishere/inputcontrol](https://github.com/spotlightishere/inputcontrol)
 
 ### CVE-2023-28206 (2023-04-10)
@@ -4861,7 +4865,7 @@
 
 ### CVE-2023-41993 (2023-09-21)
 
-<code>The issue was addressed with improved checks. This issue is fixed in Safari 17, iOS 16.7 and iPadOS 16.7, macOS Sonoma 14. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
+<code>The issue was addressed with improved checks. This issue is fixed in macOS Sonoma 14, Safari 17, iOS 16.7 and iPadOS 16.7. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
 </code>
 
 - [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
@@ -6167,10 +6171,18 @@
 ### CVE-2023-51073
 - [christopher-pace/CVE-2023-51073](https://github.com/christopher-pace/CVE-2023-51073)
 
-### CVE-2023-51126
+### CVE-2023-51126 (-)
+
+<code>Command injection vulnerability in /usr/www/res.php in FLIR AX8 up to 1.46.16 allows attackers to run arbitrary commands via the value parameter.
+</code>
+
 - [risuxx/CVE-2023-51126](https://github.com/risuxx/CVE-2023-51126)
 
-### CVE-2023-51127
+### CVE-2023-51127 (-)
+
+<code>FLIR AX8 thermal sensor cameras up to and including 1.46.16 are vulnerable to Directory Traversal due to improper access restriction. This vulnerability allows an unauthenticated, remote attacker to obtain arbitrary sensitive file contents by uploading a specially crafted symbolic link file.
+</code>
+
 - [risuxx/CVE-2023-51127](https://github.com/risuxx/CVE-2023-51127)
 
 ### CVE-2023-51197
@@ -23038,6 +23050,7 @@
 
 - [ka1n4t/CVE-2020-17530](https://github.com/ka1n4t/CVE-2020-17530)
 - [wuzuowei/CVE-2020-17530](https://github.com/wuzuowei/CVE-2020-17530)
+- [Al1ex/CVE-2020-17530](https://github.com/Al1ex/CVE-2020-17530)
 - [fengziHK/CVE-2020-17530-strust2-061](https://github.com/fengziHK/CVE-2020-17530-strust2-061)
 - [ludy-dev/freemarker_RCE_struts2_s2-061](https://github.com/ludy-dev/freemarker_RCE_struts2_s2-061)
 - [CyborgSecurity/CVE-2020-17530](https://github.com/CyborgSecurity/CVE-2020-17530)
@@ -28324,6 +28337,13 @@
 
 - [preempt/credssp](https://github.com/preempt/credssp)
 
+### CVE-2018-0952 (2018-08-15)
+
+<code>An Elevation of Privilege vulnerability exists when Diagnostics Hub Standard Collector allows file creation in arbitrary locations, aka &quot;Diagnostic Hub Standard Collector Elevation Of Privilege Vulnerability.&quot; This affects Windows Server 2016, Windows 10, Microsoft Visual Studio, Windows 10 Servers.
+</code>
+
+- [atredispartners/CVE-2018-0952-SystemCollector](https://github.com/atredispartners/CVE-2018-0952-SystemCollector)
+
 ### CVE-2018-0959 (2018-05-09)
 
 <code>A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka &quot;Hyper-V Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
@@ -28784,6 +28804,13 @@
 </code>
 
 - [Synacktiv-contrib/CVE-2018-4193](https://github.com/Synacktiv-contrib/CVE-2018-4193)
+
+### CVE-2018-4233 (2018-06-08)
+
+<code>An issue was discovered in certain Apple products. iOS before 11.4 is affected. Safari before 11.1.1 is affected. iCloud before 7.5 on Windows is affected. iTunes before 12.7.5 on Windows is affected. tvOS before 11.4 is affected. watchOS before 4.3.1 is affected. The issue involves the &quot;WebKit&quot; component. It allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted web site.
+</code>
+
+- [saelo/cve-2018-4233](https://github.com/saelo/cve-2018-4233)
 
 ### CVE-2018-4241 (2018-06-08)
 
@@ -29627,6 +29654,13 @@
 - [StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120)
 - [wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120)
 
+### CVE-2018-8172 (2018-07-10)
+
+<code>A remote code execution vulnerability exists in Visual Studio software when the software does not check the source markup of a file for an unbuilt project, aka &quot;Visual Studio Remote Code Execution Vulnerability.&quot; This affects Microsoft Visual Studio, Expression Blend 4.
+</code>
+
+- [SyFi/CVE-2018-8172](https://github.com/SyFi/CVE-2018-8172)
+
 ### CVE-2018-8174 (2018-05-09)
 
 <code>A remote code execution vulnerability exists in the way that the VBScript engine handles objects in memory, aka &quot;Windows VBScript Engine Remote Code Execution Vulnerability.&quot; This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
@@ -29903,6 +29937,7 @@
 </code>
 
 - [manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958](https://github.com/manojcode/Foxit-Reader-RCE-with-virualalloc-and-shellcode-for-CVE-2018-9948-and-CVE-2018-9958)
+- [orangepirate/cve-2018-9948-9958-exp](https://github.com/orangepirate/cve-2018-9948-9958-exp)
 
 ### CVE-2018-9950 (2018-05-17)
 
@@ -30662,6 +30697,13 @@
 - [mrblue12-byte/CVE-2018-15473](https://github.com/mrblue12-byte/CVE-2018-15473)
 - [4xolotl/CVE-2018-15473](https://github.com/4xolotl/CVE-2018-15473)
 - [NestyF/SSH_Enum_CVE-2018-15473](https://github.com/NestyF/SSH_Enum_CVE-2018-15473)
+
+### CVE-2018-15499 (2018-08-24)
+
+<code>GEAR Software products that include GEARAspiWDM.sys, 2.2.5.0, allow local users to cause a denial of service (Race Condition and BSoD on Windows) by not checking that user-mode memory is available right before writing to it. A check is only performed at the beginning of a long subroutine.
+</code>
+
+- [DownWithUp/CVE-2018-15499](https://github.com/DownWithUp/CVE-2018-15499)
 
 ### CVE-2018-15686 (2018-10-26)
 
@@ -38103,6 +38145,7 @@
 </code>
 
 - [g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)
+- [avarx/vulnkeys](https://github.com/avarx/vulnkeys)
 - [badkeys/debianopenssl](https://github.com/badkeys/debianopenssl)
 - [demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166](https://github.com/demining/Vulnerable-to-Debian-OpenSSL-bug-CVE-2008-0166)
 
@@ -38126,6 +38169,13 @@
 </code>
 
 - [SECFORCE/CVE-2008-1613](https://github.com/SECFORCE/CVE-2008-1613)
+
+### CVE-2008-2019 (2008-04-29)
+
+<code>Simple Machines Forum (SMF), probably 1.1.4, relies on &quot;randomly generated static&quot; to hinder brute-force attacks on the WAV file (aka audio) CAPTCHA, which allows remote attackers to pass the CAPTCHA test via an automated attack that considers Hamming distances.  NOTE: this issue reportedly exists because of an insufficient fix for CVE-2007-3308.
+</code>
+
+- [TheRook/AudioCaptchaBypass-CVE-2008-2019](https://github.com/TheRook/AudioCaptchaBypass-CVE-2008-2019)
 
 ### CVE-2008-2938 (2008-08-12)
 
