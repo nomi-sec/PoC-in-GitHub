@@ -1174,7 +1174,11 @@
 - [zeze-zeze/HITCON-2023-Demo-CVE-2023-20562](https://github.com/zeze-zeze/HITCON-2023-Demo-CVE-2023-20562)
 - [passwa11/HITCON-2023-Demo-CVE-2023-20562](https://github.com/passwa11/HITCON-2023-Demo-CVE-2023-20562)
 
-### CVE-2023-20573
+### CVE-2023-20573 (-)
+
+<code>A privileged attacker\ncan prevent delivery of debug exceptions to SEV-SNP guests potentially\nresulting in guests not receiving expected debug information.\n\n\n\n
+</code>
+
 - [Freax13/cve-2023-20573-poc](https://github.com/Freax13/cve-2023-20573-poc)
 
 ### CVE-2023-20593 (2023-07-24)
@@ -2505,6 +2509,7 @@
 - [unam4/CVE-2023-28432-minio_update_rce](https://github.com/unam4/CVE-2023-28432-minio_update_rce)
 - [C1ph3rX13/CVE-2023-28432](https://github.com/C1ph3rX13/CVE-2023-28432)
 - [netuseradministrator/CVE-2023-28432](https://github.com/netuseradministrator/CVE-2023-28432)
+- [xk-mt/CVE-2023-28432](https://github.com/xk-mt/CVE-2023-28432)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -6219,6 +6224,18 @@
 - [eeenvik1/CVE-2023-51764](https://github.com/eeenvik1/CVE-2023-51764)
 - [d4op/CVE-2023-51764-POC](https://github.com/d4op/CVE-2023-51764-POC)
 - [Double-q1015/CVE-2023-51764](https://github.com/Double-q1015/CVE-2023-51764)
+
+### CVE-2023-51800
+- [geraldoalcantara/CVE-2023-51800](https://github.com/geraldoalcantara/CVE-2023-51800)
+
+### CVE-2023-51801
+- [geraldoalcantara/CVE-2023-51801](https://github.com/geraldoalcantara/CVE-2023-51801)
+
+### CVE-2023-51802
+- [geraldoalcantara/CVE-2023-51802](https://github.com/geraldoalcantara/CVE-2023-51802)
+
+### CVE-2023-51810
+- [Pastea/CVE-2023-51810](https://github.com/Pastea/CVE-2023-51810)
 
 ### CVE-2023-52251
 - [BobTheShoplifter/CVE-2023-52251-POC](https://github.com/BobTheShoplifter/CVE-2023-52251-POC)
@@ -13967,6 +13984,7 @@
 </code>
 
 - [ndmalc/CVE-2021-20323](https://github.com/ndmalc/CVE-2021-20323)
+- [Cappricio-Securities/CVE-2021-20323](https://github.com/Cappricio-Securities/CVE-2021-20323)
 
 ### CVE-2021-20717 (2021-05-10)
 
@@ -35154,7 +35172,6 @@
 - [makelinux/CVE-2015-0235-workaround](https://github.com/makelinux/CVE-2015-0235-workaround)
 - [arm13/ghost_exploit](https://github.com/arm13/ghost_exploit)
 - [alanmeyer/CVE-glibc](https://github.com/alanmeyer/CVE-glibc)
-- [1and1-serversupport/ghosttester](https://github.com/1and1-serversupport/ghosttester)
 - [sUbc0ol/CVE-2015-0235](https://github.com/sUbc0ol/CVE-2015-0235)
 - [chayim/GHOSTCHECK-cve-2015-0235](https://github.com/chayim/GHOSTCHECK-cve-2015-0235)
 - [limkokholefork/GHOSTCHECK-cve-2015-0235](https://github.com/limkokholefork/GHOSTCHECK-cve-2015-0235)
@@ -35446,13 +35463,6 @@
 - [styx00/DNN_CVE-2015-2794](https://github.com/styx00/DNN_CVE-2015-2794)
 - [wilsc0w/CVE-2015-2794-finder](https://github.com/wilsc0w/CVE-2015-2794-finder)
 
-### CVE-2015-2900 (2015-10-29)
-
-<code>The AddUserFinding add_userfinding2 function in Medicomp MEDCIN Engine before 2.22.20153.226 allows remote attackers to cause a denial of service (out-of-bounds write) or possibly have unspecified other impact via a crafted packet on port 8190.
-</code>
-
-- [securifera/CVE-2015-2900-Exploit](https://github.com/securifera/CVE-2015-2900-Exploit)
-
 ### CVE-2015-2925 (2015-11-16)
 
 <code>The prepend_path function in fs/dcache.c in the Linux kernel before 4.2.4 does not properly handle rename actions inside a bind mount, which allows local users to bypass an intended container protection mechanism by renaming a directory, related to a &quot;double-chroot attack.&quot;
@@ -35569,9 +35579,6 @@
 - [android-rooting-tools/libpingpong_exploit](https://github.com/android-rooting-tools/libpingpong_exploit)
 - [debugfan/rattle_root](https://github.com/debugfan/rattle_root)
 - [a7vinx/CVE-2015-3636](https://github.com/a7vinx/CVE-2015-3636)
-
-### CVE-2015-3825
-- [roeeh/conscryptchecker](https://github.com/roeeh/conscryptchecker)
 
 ### CVE-2015-3837 (2015-09-30)
 
@@ -35789,13 +35796,6 @@
 - [laginimaineb/cve-2015-6639](https://github.com/laginimaineb/cve-2015-6639)
 - [laginimaineb/ExtractKeyMaster](https://github.com/laginimaineb/ExtractKeyMaster)
 
-### CVE-2015-6640 (2016-01-06)
-
-<code>The prctl_set_vma_anon_name function in kernel/sys.c in Android before 5.1.1 LMY49F and 6.0 before 2016-01-01 does not ensure that only one vma is accessed in a certain update action, which allows attackers to gain privileges or cause a denial of service (vma list corruption) via a crafted application, aka internal bug 20017123.
-</code>
-
-- [betalphafai/CVE-2015-6640](https://github.com/betalphafai/CVE-2015-6640)
-
 ### CVE-2015-6668 (2017-10-19)
 
 <code>The Job Manager plugin before 0.7.25 allows remote attackers to read arbitrary CV files via a brute force attack to the WordPress upload directory structure, related to an insecure direct object reference.
@@ -35856,9 +35856,7 @@
 </code>
 
 - [fjserna/CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547)
-- [cakuzo/CVE-2015-7547](https://github.com/cakuzo/CVE-2015-7547)
 - [t0r0t0r0/CVE-2015-7547](https://github.com/t0r0t0r0/CVE-2015-7547)
-- [rexifiles/rex-sec-glibc](https://github.com/rexifiles/rex-sec-glibc)
 - [babykillerblack/CVE-2015-7547](https://github.com/babykillerblack/CVE-2015-7547)
 - [jgajek/cve-2015-7547](https://github.com/jgajek/cve-2015-7547)
 - [eSentire/cve-2015-7547-public](https://github.com/eSentire/cve-2015-7547-public)
@@ -35873,7 +35871,6 @@
 </code>
 
 - [hdm/juniper-cve-2015-7755](https://github.com/hdm/juniper-cve-2015-7755)
-- [cinno/CVE-2015-7755-POC](https://github.com/cinno/CVE-2015-7755-POC)
 
 ### CVE-2015-7808 (2015-11-24)
 
@@ -35938,9 +35935,6 @@
 <code>Joomla! 1.5.x, 2.x, and 3.x before 3.4.6 allow remote attackers to conduct PHP object injection attacks and execute arbitrary PHP code via the HTTP User-Agent header, as exploited in the wild in December 2015.
 </code>
 
-- [ZaleHack/joomla_rce_CVE-2015-8562](https://github.com/ZaleHack/joomla_rce_CVE-2015-8562)
-- [RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC](https://github.com/RobinHoutevelts/Joomla-CVE-2015-8562-PHP-POC)
-- [atcasanova/cve-2015-8562-exploit](https://github.com/atcasanova/cve-2015-8562-exploit)
 - [thejackerz/scanner-exploit-joomla-CVE-2015-8562](https://github.com/thejackerz/scanner-exploit-joomla-CVE-2015-8562)
 - [paralelo14/CVE-2015-8562](https://github.com/paralelo14/CVE-2015-8562)
 - [VoidSec/Joomla_CVE-2015-8562](https://github.com/VoidSec/Joomla_CVE-2015-8562)
@@ -35948,13 +35942,6 @@
 - [guanjivip/CVE-2015-8562](https://github.com/guanjivip/CVE-2015-8562)
 - [lorenzodegiorgi/setup-cve-2015-8562](https://github.com/lorenzodegiorgi/setup-cve-2015-8562)
 - [Caihuar/Joomla-cve-2015-8562](https://github.com/Caihuar/Joomla-cve-2015-8562)
-
-### CVE-2015-8651 (2015-12-28)
-
-<code>Integer overflow in Adobe Flash Player before 18.0.0.324 and 19.x and 20.x before 20.0.0.267 on Windows and OS X and before 11.2.202.559 on Linux, Adobe AIR before 20.0.0.233, Adobe AIR SDK before 20.0.0.233, and Adobe AIR SDK &amp; Compiler before 20.0.0.233 allows attackers to execute arbitrary code via unspecified vectors.
-</code>
-
-- [Gitlabpro/The-analysis-of-the-cve-2015-8651](https://github.com/Gitlabpro/The-analysis-of-the-cve-2015-8651)
 
 ### CVE-2015-8660 (2015-12-28)
 
