@@ -1,6 +1,13 @@
 # PoC in GitHub
 
 ## 2024
+### CVE-2024-20656 (-)
+
+<code>Visual Studio Elevation of Privilege Vulnerability
+</code>
+
+- [Wh04m1001/CVE-2024-20656](https://github.com/Wh04m1001/CVE-2024-20656)
+
 ### CVE-2024-21633 (2024-01-03)
 
 <code>Apktool is a tool for reverse engineering Android APK files. In versions 2.9.1 and prior, Apktool infers resource files' output path according to their resource names which can be manipulated by attacker to place files at desired location on the system Apktool runs on. Affected environments are those in which an attacker may write/overwrite any file that user has write access, and either user name is known or cwd is under user folder. Commit d348c43b24a9de350ff6e5bd610545a10c1fc712 contains a patch for this issue.
@@ -1066,9 +1073,14 @@
 - [DedSec-47/Metasploit-Exploits-CVE-2023-6710](https://github.com/DedSec-47/Metasploit-Exploits-CVE-2023-6710)
 - [DedSec-47/CVE-2023-6710](https://github.com/DedSec-47/CVE-2023-6710)
 
-### CVE-2023-7028
+### CVE-2023-7028 (-)
+
+<code>An issue has been discovered in GitLab CE/EE affecting all versions from 16.1 prior to 16.1.6, 16.2 prior to 16.2.9, 16.3 prior to 16.3.7, 16.4 prior to 16.4.5, 16.5 prior to 16.5.6, 16.6 prior to 16.6.4, and 16.7 prior to 16.7.2 in which user account password reset emails could be delivered to an unverified email address.
+</code>
+
 - [V1lu0/CVE-2023-7028](https://github.com/V1lu0/CVE-2023-7028)
 - [RandomRobbieBF/CVE-2023-7028](https://github.com/RandomRobbieBF/CVE-2023-7028)
+- [duy-31/CVE-2023-7028](https://github.com/duy-31/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -2535,6 +2547,15 @@
 </code>
 
 - [ahmetaltuntas/CVE-2023-28467](https://github.com/ahmetaltuntas/CVE-2023-28467)
+
+### CVE-2023-28588 (2023-12-04)
+
+<code>Transient DOS in Bluetooth Host while rfc slot allocation.
+</code>
+
+- [uthrasri/CVE-2023-28588](https://github.com/uthrasri/CVE-2023-28588)
+- [Trinadh465/CVE-2023-28588](https://github.com/Trinadh465/CVE-2023-28588)
+- [uthrasri/CVE-2023-28588_system_bt](https://github.com/uthrasri/CVE-2023-28588_system_bt)
 
 ### CVE-2023-28771 (2023-04-24)
 
@@ -6490,6 +6511,7 @@
 - [bbaranoff/CVE-2022-0847](https://github.com/bbaranoff/CVE-2022-0847)
 - [xndpxs/CVE-2022-0847](https://github.com/xndpxs/CVE-2022-0847)
 - [r1is/CVE-2022-0847](https://github.com/r1is/CVE-2022-0847)
+- [Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit)
 - [2xYuan/CVE-2022-0847](https://github.com/2xYuan/CVE-2022-0847)
 - [crowsec-edtech/Dirty-Pipe](https://github.com/crowsec-edtech/Dirty-Pipe)
 - [lucksec/CVE-2022-0847](https://github.com/lucksec/CVE-2022-0847)
@@ -6524,6 +6546,7 @@
 - [crusoe112/DirtyPipePython](https://github.com/crusoe112/DirtyPipePython)
 - [nanaao/dirtyPipe-automaticRoot](https://github.com/nanaao/dirtyPipe-automaticRoot)
 - [arttnba3/CVE-2022-0847](https://github.com/arttnba3/CVE-2022-0847)
+- [AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits](https://github.com/AlexisAhmed/CVE-2022-0847-DirtyPipe-Exploits)
 - [sa-infinity8888/Dirty-Pipe-CVE-2022-0847](https://github.com/sa-infinity8888/Dirty-Pipe-CVE-2022-0847)
 - [realbatuhan/dirtypipetester](https://github.com/realbatuhan/dirtypipetester)
 - [CYB3RK1D/CVE-2022-0847-POC](https://github.com/CYB3RK1D/CVE-2022-0847-POC)
@@ -8231,6 +8254,7 @@
 <code>kernel/bpf/verifier.c in the Linux kernel through 5.15.14 allows local users to gain privileges because of the availability of pointer arithmetic via certain *_OR_NULL pointer types.
 </code>
 
+- [tr3ee/CVE-2022-23222](https://github.com/tr3ee/CVE-2022-23222)
 - [PenteraIO/CVE-2022-23222-POC](https://github.com/PenteraIO/CVE-2022-23222-POC)
 - [FridayOrtiz/CVE-2022-23222](https://github.com/FridayOrtiz/CVE-2022-23222)
 - [LeoMarche/ProjetSecu](https://github.com/LeoMarche/ProjetSecu)
@@ -13970,6 +13994,7 @@
 <code>A Stack-based buffer overflow vulnerability in SMA100 Apache httpd server's mod_cgi module environment variables allows a remote unauthenticated attacker to potentially execute code as a 'nobody' user in the appliance. This vulnerability affected SMA 200, 210, 400, 410 and 500v appliances firmware 10.2.0.8-37sv, 10.2.1.1-19sv, 10.2.1.2-24sv and earlier versions.
 </code>
 
+- [jbaines-r7/badblood](https://github.com/jbaines-r7/badblood)
 - [vesperp/CVE-2021-20038-SonicWall-RCE](https://github.com/vesperp/CVE-2021-20038-SonicWall-RCE)
 
 ### CVE-2021-20138 (2021-12-09)
@@ -14432,7 +14457,6 @@
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
-- [mr-tuhin/CVE-2021-22204-exiftool](https://github.com/mr-tuhin/CVE-2021-22204-exiftool)
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 - [Akash7350/CVE-2021-22204](https://github.com/Akash7350/CVE-2021-22204)
 - [battleofthebots/dejavu](https://github.com/battleofthebots/dejavu)
@@ -21500,13 +21524,6 @@
 </code>
 
 - [shubham0d/Zoom-dll-hijacking](https://github.com/shubham0d/Zoom-dll-hijacking)
-
-### CVE-2020-9768 (2020-04-01)
-
-<code>A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.4 and iPadOS 13.4, tvOS 13.4, watchOS 6.2. An application may be able to execute arbitrary code with system privileges.
-</code>
-
-- [XorgX304/CVE-2020-9768](https://github.com/XorgX304/CVE-2020-9768)
 
 ### CVE-2020-9802 (2020-06-09)
 
@@ -28932,6 +28949,7 @@
 </code>
 
 - [ydl555/CVE-2018-4878-](https://github.com/ydl555/CVE-2018-4878-)
+- [mdsecactivebreach/CVE-2018-4878](https://github.com/mdsecactivebreach/CVE-2018-4878)
 - [hybridious/CVE-2018-4878](https://github.com/hybridious/CVE-2018-4878)
 - [vysecurity/CVE-2018-4878](https://github.com/vysecurity/CVE-2018-4878)
 - [KathodeN/CVE-2018-4878](https://github.com/KathodeN/CVE-2018-4878)
@@ -37839,7 +37857,6 @@
 <code>UnrealIRCd 3.2.8.1, as distributed on certain mirror sites from November 2009 through June 2010, contains an externally introduced modification (Trojan Horse) in the DEBUG3_DOLOG_SYSTEM macro, which allows remote attackers to execute arbitrary commands.
 </code>
 
-- [XorgX304/UnrealIRCd-3.2.8.1-RCE](https://github.com/XorgX304/UnrealIRCd-3.2.8.1-RCE)
 - [MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075)
 - [chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution)
 - [FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1](https://github.com/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1)
