@@ -1066,6 +1066,10 @@
 - [DedSec-47/Metasploit-Exploits-CVE-2023-6710](https://github.com/DedSec-47/Metasploit-Exploits-CVE-2023-6710)
 - [DedSec-47/CVE-2023-6710](https://github.com/DedSec-47/CVE-2023-6710)
 
+### CVE-2023-7028
+- [V1lu0/CVE-2023-7028](https://github.com/V1lu0/CVE-2023-7028)
+- [RandomRobbieBF/CVE-2023-7028](https://github.com/RandomRobbieBF/CVE-2023-7028)
+
 ### CVE-2023-7172 (2023-12-30)
 
 <code>Eine kritische Schwachstelle wurde in PHPGurukul Hospital Management System 1.0 entdeckt. Es geht hierbei um eine nicht näher spezifizierte Funktion der Komponente Admin Dashboard. Durch Manipulieren mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
@@ -4658,7 +4662,11 @@
 
 - [vianic/CVE-2023-40361](https://github.com/vianic/CVE-2023-40361)
 
-### CVE-2023-40362
+### CVE-2023-40362 (-)
+
+<code>An issue was discovered in CentralSquare Click2Gov Building Permit before October 2023. Lack of access control protections allows remote attackers to arbitrarily delete the contractors from any user's account when the user ID and contractor information is known.
+</code>
+
 - [ally-petitt/CVE-2023-40362](https://github.com/ally-petitt/CVE-2023-40362)
 
 ### CVE-2023-40429 (2023-09-26)
@@ -6136,6 +6144,7 @@
 - [miles3719/cve-2023-50164](https://github.com/miles3719/cve-2023-50164)
 - [aaronm-sysdig/cve-2023-50164](https://github.com/aaronm-sysdig/cve-2023-50164)
 - [snyk-labs/CVE-2023-50164-POC](https://github.com/snyk-labs/CVE-2023-50164-POC)
+- [sunnyvale-it/CVE-2023-50164-PoC](https://github.com/sunnyvale-it/CVE-2023-50164-PoC)
 
 ### CVE-2023-50226
 - [kn32/parallels-file-move-privesc](https://github.com/kn32/parallels-file-move-privesc)
@@ -13741,6 +13750,7 @@
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [clubby789/CVE-2021-4034](https://github.com/clubby789/CVE-2021-4034)
 - [gbrsh/CVE-2021-4034](https://github.com/gbrsh/CVE-2021-4034)
+- [arthepsy/CVE-2021-4034](https://github.com/arthepsy/CVE-2021-4034)
 - [JohnHammond/CVE-2021-4034](https://github.com/JohnHammond/CVE-2021-4034)
 - [Audiobahn/CVE-2021-4034](https://github.com/Audiobahn/CVE-2021-4034)
 - [dzonerzy/poc-cve-2021-4034](https://github.com/dzonerzy/poc-cve-2021-4034)
@@ -28922,7 +28932,6 @@
 </code>
 
 - [ydl555/CVE-2018-4878-](https://github.com/ydl555/CVE-2018-4878-)
-- [mdsecactivebreach/CVE-2018-4878](https://github.com/mdsecactivebreach/CVE-2018-4878)
 - [hybridious/CVE-2018-4878](https://github.com/hybridious/CVE-2018-4878)
 - [vysecurity/CVE-2018-4878](https://github.com/vysecurity/CVE-2018-4878)
 - [KathodeN/CVE-2018-4878](https://github.com/KathodeN/CVE-2018-4878)
