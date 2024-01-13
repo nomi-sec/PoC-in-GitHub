@@ -6143,7 +6143,11 @@
 
 - [geraldoalcantara/CVE-2023-50071](https://github.com/geraldoalcantara/CVE-2023-50071)
 
-### CVE-2023-50072
+### CVE-2023-50072 (-)
+
+<code>A Stored Cross-Site Scripting (XSS) vulnerability exists in OpenKM version 7.1.40 (dbb6e88) With Professional Extension that allows an authenticated user to upload a note on a file which acts as a stored XSS payload. Any user who opens the note of a document file will trigger the XSS.
+</code>
+
 - [ahrixia/CVE-2023-50072](https://github.com/ahrixia/CVE-2023-50072)
 
 ### CVE-2023-50131
@@ -6254,6 +6258,7 @@
 - [Subha-BOO7/Exploit_CVE-2023-51467](https://github.com/Subha-BOO7/Exploit_CVE-2023-51467)
 - [JaneMandy/CVE-2023-51467-Exploit](https://github.com/JaneMandy/CVE-2023-51467-Exploit)
 - [vulncheck-oss/cve-2023-51467](https://github.com/vulncheck-oss/cve-2023-51467)
+- [Jake123otte1/BadBizness](https://github.com/Jake123otte1/BadBizness)
 
 ### CVE-2023-51504
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
@@ -10816,6 +10821,13 @@
 - [6E6L6F/CVE-2022-35914](https://github.com/6E6L6F/CVE-2022-35914)
 - [0xGabe/CVE-2022-35914](https://github.com/0xGabe/CVE-2022-35914)
 - [Johnermac/CVE-2022-35914](https://github.com/Johnermac/CVE-2022-35914)
+
+### CVE-2022-35919 (2022-08-01)
+
+<code>MinIO is a High Performance Object Storage released under GNU Affero General Public License v3.0. In affected versions all 'admin' users authorized for `admin:ServerUpdate` can selectively trigger an error that in response, returns the content of the path requested. Any normal OS system would allow access to contents at any arbitrary paths that are readable by MinIO process. Users are advised to upgrade. Users unable to upgrade may disable ServerUpdate API by denying the `admin:ServerUpdate` action for your admin users via IAM policies.
+</code>
+
+- [ifulxploit/Minio-Security-Vulnerability-Checker](https://github.com/ifulxploit/Minio-Security-Vulnerability-Checker)
 
 ### CVE-2022-36067 (2022-09-06)
 
