@@ -1081,6 +1081,7 @@
 - [V1lu0/CVE-2023-7028](https://github.com/V1lu0/CVE-2023-7028)
 - [RandomRobbieBF/CVE-2023-7028](https://github.com/RandomRobbieBF/CVE-2023-7028)
 - [duy-31/CVE-2023-7028](https://github.com/duy-31/CVE-2023-7028)
+- [Vozec/CVE-2023-7028](https://github.com/Vozec/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
