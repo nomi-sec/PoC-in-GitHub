@@ -15,6 +15,13 @@
 
 - [0x33c0unt/CVE-2024-21633](https://github.com/0x33c0unt/CVE-2024-21633)
 
+### CVE-2024-21887 (-)
+
+<code>A command injection vulnerability in web components of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure (9.x, 22.x)  allows an authenticated administrator to send specially crafted requests and execute arbitrary commands on the appliance.
+</code>
+
+- [oways/ivanti-CVE-2024-21887](https://github.com/oways/ivanti-CVE-2024-21887)
+
 
 ## 2023
 ### CVE-2023-0045 (2023-04-25)
