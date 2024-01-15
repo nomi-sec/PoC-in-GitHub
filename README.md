@@ -13470,6 +13470,7 @@
 - [miko550/CVE-2021-3129](https://github.com/miko550/CVE-2021-3129)
 - [withmasday/CVE-2021-3129](https://github.com/withmasday/CVE-2021-3129)
 - [banyaksepuh/Mass-CVE-2021-3129-Scanner](https://github.com/banyaksepuh/Mass-CVE-2021-3129-Scanner)
+- [Axianke/CVE-2021-3129](https://github.com/Axianke/CVE-2021-3129)
 
 ### CVE-2021-3130 (2021-01-20)
 
