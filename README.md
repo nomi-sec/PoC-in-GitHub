@@ -214,6 +214,7 @@
 </code>
 
 - [diego-tella/CVE-2023-1326-PoC](https://github.com/diego-tella/CVE-2023-1326-PoC)
+- [Pol-Ruiz/CVE-2023-1326](https://github.com/Pol-Ruiz/CVE-2023-1326)
 
 ### CVE-2023-1337 (2023-03-10)
 
@@ -1668,6 +1669,13 @@
 
 - [imperva/CVE-2023-22524](https://github.com/imperva/CVE-2023-22524)
 - [ron-imperva/CVE-2023-22524](https://github.com/ron-imperva/CVE-2023-22524)
+
+### CVE-2023-22527 (-)
+
+<code>Summary of Vulnerability\nA template injection vulnerability on older versions of Confluence Data Center and Server allows an unauthenticated attacker to achieve RCE on an affected instance. Customers using an affected version must take immediate action.\n\nMost recent supported versions of Confluence Data Center and Server are not affected by this vulnerability as it was ultimately mitigated during regular version updates. However, Atlassian recommends that customers take care to install the latest version to protect their instances from non-critical vulnerabilities outlined in Atlassian’s January Security Bulletin.\n\nSee “What You Need to Do” for detailed instructions.\n\n{panel:bgColor=#deebff}\nAtlassian Cloud sites are not affected by this vulnerability. If your Confluence site is accessed via an atlassian.net domain, it is hosted by Atlassian and is not vulnerable to this issue.\n{panel}\n\nAffected Versions\n\n||Product||Affected Versions||\n|Confluence Data Center and Server|8.0.x\n8.1.x\n8.2.x\n8.3.x\n8.4.x\n8.5.0\n8.5.1\n8.5.2\n8.5.3|\n\nFixed Versions\n\n||Product||Fixed Versions||\n|Confluence Data Center and Server|8.5.4 (LTS)|\n|Confluence Data Center|8.6.0 or later (Data Center Only)\n8.7.1 or later (Data Center Only)|\n\nWhat You Need To Do\nImmediately patch to a fixed version\n\nAtlassian recommends that you patch each of your affected installations to the latest version. The listed Fixed Versions are no longer the most up-to-date versions and do not protect your instance from other non-critical vulnerabilities as outlined in Atlassian’s January Security Bulletin.\n\n||Product||Fixed Versions||Latest Versions||\n|Confluence Data Center and Server|8.5.4 (LTS)|8.5.5 (LTS)|\n|Confluence Data Center|8.6.0 or later (Data Center Only)\n8.7.1 or later (Data Center Only)|8.7.2 or later (Data Center Only)|\n\nFor additional details, please see full advisory.
+</code>
+
+- [Avento/CVE-2023-22527_Confluence_RCE](https://github.com/Avento/CVE-2023-22527_Confluence_RCE)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -5803,6 +5811,7 @@
 </code>
 
 - [yoryio/CVE-2023-46805_CVE-2024-21887_Scanner](https://github.com/yoryio/CVE-2023-46805_CVE-2024-21887_Scanner)
+- [cbeek-r7/CVE-2023-46805](https://github.com/cbeek-r7/CVE-2023-46805)
 
 ### CVE-2023-46813 (2023-10-26)
 
@@ -13775,7 +13784,6 @@
 - [inspiringz/CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
 - [derek-turing/CVE-2021-3493](https://github.com/derek-turing/CVE-2021-3493)
 - [cerodah/overlayFS-CVE-2021-3493](https://github.com/cerodah/overlayFS-CVE-2021-3493)
-- [puckiestyle/CVE-2021-3493](https://github.com/puckiestyle/CVE-2021-3493)
 - [Senz4wa/CVE-2021-3493](https://github.com/Senz4wa/CVE-2021-3493)
 - [fei9747/CVE-2021-3493](https://github.com/fei9747/CVE-2021-3493)
 - [pmihsan/OverlayFS-CVE-2021-3493](https://github.com/pmihsan/OverlayFS-CVE-2021-3493)
@@ -14053,6 +14061,7 @@
 - [cdxiaodong/CVE-2021-4034-touch](https://github.com/cdxiaodong/CVE-2021-4034-touch)
 - [LucasPDiniz/CVE-2021-4034](https://github.com/LucasPDiniz/CVE-2021-4034)
 - [lluriam19/CVE-2021-4034-Vuln](https://github.com/lluriam19/CVE-2021-4034-Vuln)
+- [Pol-Ruiz/CVE-2021-4034](https://github.com/Pol-Ruiz/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -14493,7 +14502,6 @@
 - [5gstudent/CVE-2021-22005-](https://github.com/5gstudent/CVE-2021-22005-)
 - [RedTeamExp/CVE-2021-22005_PoC](https://github.com/RedTeamExp/CVE-2021-22005_PoC)
 - [rwincey/CVE-2021-22005](https://github.com/rwincey/CVE-2021-22005)
-- [TaroballzChen/CVE-2021-22005-metasploit](https://github.com/TaroballzChen/CVE-2021-22005-metasploit)
 - [tiagob0b/CVE-2021-22005](https://github.com/tiagob0b/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [timb-machine-mirrors/testanull-CVE-2021-22005.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-22005.py)
@@ -14648,7 +14656,6 @@
 - [JoneyJunior/cve-2021-22555](https://github.com/JoneyJunior/cve-2021-22555)
 - [xyjl-ly/CVE-2021-22555-Exploit](https://github.com/xyjl-ly/CVE-2021-22555-Exploit)
 - [cgwalters/container-cve-2021-22555](https://github.com/cgwalters/container-cve-2021-22555)
-- [daletoniris/CVE-2021-22555-esc-priv](https://github.com/daletoniris/CVE-2021-22555-esc-priv)
 - [veritas501/CVE-2021-22555-PipeVersion](https://github.com/veritas501/CVE-2021-22555-PipeVersion)
 - [masjohncook/netsec-project](https://github.com/masjohncook/netsec-project)
 - [tukru/CVE-2021-22555](https://github.com/tukru/CVE-2021-22555)
@@ -14896,15 +14903,7 @@
 <code>The WP HTML Author Bio WordPress plugin through 1.2.0 does not sanitise the HTML allowed in the Bio of users, allowing them to use malicious JavaScript code, which will be executed when anyone visit a post in the frontend made by such user. As a result, user with a role as low as author could perform Cross-Site Scripting attacks against users, which could potentially lead to privilege escalation when an admin view the related post/s.
 </code>
 
-- [V35HR4J/CVE-2021-24545](https://github.com/V35HR4J/CVE-2021-24545)
 - [dnr6419/CVE-2021-24545](https://github.com/dnr6419/CVE-2021-24545)
-
-### CVE-2021-24563 (2021-10-11)
-
-<code>The Frontend Uploader WordPress plugin through 1.3.2 does not prevent HTML files from being uploaded via its form, allowing unauthenticated user to upload a malicious HTML file containing JavaScript for example, which will be triggered when someone access the file directly
-</code>
-
-- [V35HR4J/CVE-2021-24563](https://github.com/V35HR4J/CVE-2021-24563)
 
 ### CVE-2021-24647 (2021-11-08)
 
@@ -15125,13 +15124,10 @@
 - [nizar0x1f/CVE-2021-26084-patch-](https://github.com/nizar0x1f/CVE-2021-26084-patch-)
 - [dorkerdevil/CVE-2021-26084](https://github.com/dorkerdevil/CVE-2021-26084)
 - [ludy-dev/CVE-2021-26084_PoC](https://github.com/ludy-dev/CVE-2021-26084_PoC)
-- [wdjcy/CVE-2021-26084](https://github.com/wdjcy/CVE-2021-26084)
 - [orangmuda/CVE-2021-26084](https://github.com/orangmuda/CVE-2021-26084)
-- [TheclaMcentire/CVE-2021-26084_Confluence](https://github.com/TheclaMcentire/CVE-2021-26084_Confluence)
 - [Jun-5heng/CVE-2021-26084](https://github.com/Jun-5heng/CVE-2021-26084)
 - [lleavesl/CVE-2021-26084](https://github.com/lleavesl/CVE-2021-26084)
 - [quesodipesto/conflucheck](https://github.com/quesodipesto/conflucheck)
-- [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
 - [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
 
@@ -15686,7 +15682,6 @@
 <code>Nacos is a platform designed for dynamic service discovery and configuration and service management. In Nacos before version 1.4.1, when configured to use authentication (-Dnacos.core.auth.enabled=true) Nacos uses the AuthFilter servlet filter to enforce authentication. This filter has a backdoor that enables Nacos servers to bypass this filter and therefore skip authentication checks. This mechanism relies on the user-agent HTTP header so it can be easily spoofed. This issue may allow any user to carry out any administrative tasks on the Nacos server.
 </code>
 
-- [hh-hunter/nacos-cve-2021-29441](https://github.com/hh-hunter/nacos-cve-2021-29441)
 - [bysinks/CVE-2021-29441](https://github.com/bysinks/CVE-2021-29441)
 
 ### CVE-2021-29447 (2021-04-15)
@@ -17048,13 +17043,6 @@
 
 - [StefanDorresteijn/CVE-2021-39409](https://github.com/StefanDorresteijn/CVE-2021-39409)
 
-### CVE-2021-39433 (2021-10-04)
-
-<code>A local file inclusion (LFI) vulnerability exists in version BIQS IT Biqs-drive v1.83 and below when sending a specific payload as the file parameter to download/index.php. This allows the attacker to read arbitrary files from the server with the permissions of the configured web-user.
-</code>
-
-- [PinkDraconian/CVE-2021-39433](https://github.com/PinkDraconian/CVE-2021-39433)
-
 ### CVE-2021-39473 (2022-11-04)
 
 <code>Saibamen HotelManager v1.2 is vulnerable to Cross Site Scripting (XSS) due to improper sanitization of comment and contact fields.
@@ -17270,7 +17258,6 @@
 - [kal1gh0st/CVE-2021-40444_CAB_archives](https://github.com/kal1gh0st/CVE-2021-40444_CAB_archives)
 - [LazarusReborn/Docx-Exploit-2021](https://github.com/LazarusReborn/Docx-Exploit-2021)
 - [H0j3n/CVE-2021-40444](https://github.com/H0j3n/CVE-2021-40444)
-- [metehangenel/MSHTML-CVE-2021-40444](https://github.com/metehangenel/MSHTML-CVE-2021-40444)
 - [Jeromeyoung/TIC4301_Project](https://github.com/Jeromeyoung/TIC4301_Project)
 - [tiagob0b/CVE-2021-40444](https://github.com/tiagob0b/CVE-2021-40444)
 - [wh00datz/CVE-2021-40444-POC](https://github.com/wh00datz/CVE-2021-40444-POC)
@@ -17518,13 +17505,6 @@
 
 - [Net-hunter121/CVE-2021-41381](https://github.com/Net-hunter121/CVE-2021-41381)
 
-### CVE-2021-41511 (2021-10-04)
-
-<code>The username and password field of login in Lodging Reservation Management System V1 can give access to any user by using SQL injection to bypass authentication.
-</code>
-
-- [vidvansh/CVE-2021-41511](https://github.com/vidvansh/CVE-2021-41511)
-
 ### CVE-2021-41560 (2021-12-15)
 
 <code>OpenCATS through 0.9.6 allows remote attackers to execute arbitrary code by uploading an executable file via lib/FileUtility.php.
@@ -17618,13 +17598,11 @@
 </code>
 
 - [Vulnmachines/cve-2021-41773](https://github.com/Vulnmachines/cve-2021-41773)
-- [numanturle/CVE-2021-41773](https://github.com/numanturle/CVE-2021-41773)
 - [knqyf263/CVE-2021-41773](https://github.com/knqyf263/CVE-2021-41773)
 - [ZephrFish/CVE-2021-41773-PoC](https://github.com/ZephrFish/CVE-2021-41773-PoC)
 - [iilegacyyii/PoC-CVE-2021-41773](https://github.com/iilegacyyii/PoC-CVE-2021-41773)
 - [masahiro331/CVE-2021-41773](https://github.com/masahiro331/CVE-2021-41773)
 - [j4k0m/CVE-2021-41773](https://github.com/j4k0m/CVE-2021-41773)
-- [TishcaTpx/POC-CVE-2021-41773](https://github.com/TishcaTpx/POC-CVE-2021-41773)
 - [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC)
 - [Ls4ss/CVE-2021-41773_CVE-2021-42013](https://github.com/Ls4ss/CVE-2021-41773_CVE-2021-42013)
 - [itsecurityco/CVE-2021-41773](https://github.com/itsecurityco/CVE-2021-41773)
@@ -38444,6 +38422,7 @@
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 - [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
+- [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
 - [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
