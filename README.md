@@ -5905,10 +5905,18 @@
 
 - [herombey/CVE-2023-47437](https://github.com/herombey/CVE-2023-47437)
 
-### CVE-2023-47459
+### CVE-2023-47459 (-)
+
+<code>An issue in Knovos Discovery v.22.67.0 allows a remote attacker to obtain sensitive information via the /DiscoveryReview/Service/CaseManagement.svc/GetProductSiteName component.
+</code>
+
 - [aleksey-vi/CVE-2023-47459](https://github.com/aleksey-vi/CVE-2023-47459)
 
-### CVE-2023-47460
+### CVE-2023-47460 (-)
+
+<code>SQL injection vulnerability in Knovos Discovery v.22.67.0 allows a remote attacker to execute arbitrary code via the /DiscoveryProcess/Service/Admin.svc/getGridColumnStructure component.
+</code>
+
 - [aleksey-vi/CVE-2023-47460](https://github.com/aleksey-vi/CVE-2023-47460)
 
 ### CVE-2023-47488 (2023-11-09)
@@ -5981,7 +5989,11 @@
 
 - [aprkr/CVE-2023-48034](https://github.com/aprkr/CVE-2023-48034)
 
-### CVE-2023-48104
+### CVE-2023-48104 (-)
+
+<code>Alinto SOGo 5.8.0 is vulnerable to HTML Injection.
+</code>
+
 - [E1tex/CVE-2023-48104](https://github.com/E1tex/CVE-2023-48104)
 
 ### CVE-2023-48123 (2023-12-06)
@@ -6372,7 +6384,11 @@
 ### CVE-2023-51802
 - [geraldoalcantara/CVE-2023-51802](https://github.com/geraldoalcantara/CVE-2023-51802)
 
-### CVE-2023-51810
+### CVE-2023-51810 (-)
+
+<code>SQL injection vulnerability in StackIdeas EasyDiscuss v.5.0.5 and fixed in v.5.0.10 allows a remote attacker to obtain sensitive information via a crafted request to the search parameter in the Users module.
+</code>
+
 - [Pastea/CVE-2023-51810](https://github.com/Pastea/CVE-2023-51810)
 
 ### CVE-2023-52251
@@ -34612,6 +34628,7 @@
 - [m3terpreter/CVE-2016-4437](https://github.com/m3terpreter/CVE-2016-4437)
 - [4nth0ny1130/shisoserial](https://github.com/4nth0ny1130/shisoserial)
 - [pizza-power/CVE-2016-4437](https://github.com/pizza-power/CVE-2016-4437)
+- [xk-mt/CVE-2016-4437](https://github.com/xk-mt/CVE-2016-4437)
 
 ### CVE-2016-4438 (2016-07-04)
 
@@ -38427,7 +38444,6 @@
 - [b1fair/smb_usermap](https://github.com/b1fair/smb_usermap)
 - [JoseBarrios/CVE-2007-2447](https://github.com/JoseBarrios/CVE-2007-2447)
 - [3x1t1um/CVE-2007-2447](https://github.com/3x1t1um/CVE-2007-2447)
-- [xlcc4096/exploit-CVE-2007-2447](https://github.com/xlcc4096/exploit-CVE-2007-2447)
 - [WildfootW/CVE-2007-2447_Samba_3.0.25rc3](https://github.com/WildfootW/CVE-2007-2447_Samba_3.0.25rc3)
 - [Ziemni/CVE-2007-2447-in-Python](https://github.com/Ziemni/CVE-2007-2447-in-Python)
 - [0xKn/CVE-2007-2447](https://github.com/0xKn/CVE-2007-2447)
