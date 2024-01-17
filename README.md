@@ -43,6 +43,9 @@
 
 - [oways/ivanti-CVE-2024-21887](https://github.com/oways/ivanti-CVE-2024-21887)
 - [yoryio/CVE-2023-46805_CVE-2024-21887_Scanner](https://github.com/yoryio/CVE-2023-46805_CVE-2024-21887_Scanner)
+- [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
+- [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
+- [Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887)
 
 
 ## 2023
@@ -5329,6 +5332,13 @@
 
 - [SySS-Research/easy-password-recovery](https://github.com/SySS-Research/easy-password-recovery)
 
+### CVE-2023-43786 (2023-10-10)
+
+<code>A vulnerability was found in libX11 due to an infinite loop within the PutSubImage() function. This flaw allows a local user to consume all available system resources and cause a denial of service condition.
+</code>
+
+- [jfrog/jfrog-CVE-2023-43786-libX11_DoS](https://github.com/jfrog/jfrog-CVE-2023-43786-libX11_DoS)
+
 ### CVE-2023-43804 (2023-10-04)
 
 <code>urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.
@@ -5829,6 +5839,8 @@
 
 - [yoryio/CVE-2023-46805_CVE-2024-21887_Scanner](https://github.com/yoryio/CVE-2023-46805_CVE-2024-21887_Scanner)
 - [cbeek-r7/CVE-2023-46805](https://github.com/cbeek-r7/CVE-2023-46805)
+- [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
+- [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
 
 ### CVE-2023-46813 (2023-10-26)
 
