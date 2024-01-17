@@ -952,6 +952,7 @@
 </code>
 
 - [r0binak/CVE-2023-5044](https://github.com/r0binak/CVE-2023-5044)
+- [4ARMED/cve-2023-5044](https://github.com/4ARMED/cve-2023-5044)
 
 ### CVE-2023-5070 (2023-10-20)
 
@@ -1127,6 +1128,13 @@
 </code>
 
 - [UlyssesSaicha/CVE-2023-6875](https://github.com/UlyssesSaicha/CVE-2023-6875)
+
+### CVE-2023-6895 (2023-12-17)
+
+<code>In Hikvision Intercom Broadcasting System 3.0.3_20201113_RELEASE(HIK) wurde eine Schwachstelle ausgemacht. Sie wurde als kritisch eingestuft. Hierbei betrifft es unbekannten Programmcode der Datei /php/ping.php. Mittels Manipulieren des Arguments jsondata[ip] mit der Eingabe netstat -ano mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 4.1.0 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [FuBoLuSec/CVE-2023-6895](https://github.com/FuBoLuSec/CVE-2023-6895)
 
 ### CVE-2023-7028 (2024-01-12)
 
