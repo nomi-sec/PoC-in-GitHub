@@ -5430,6 +5430,9 @@
 
 - [JC175/CVE-2023-44353-Nuclei-Template](https://github.com/JC175/CVE-2023-44353-Nuclei-Template)
 
+### CVE-2023-44451
+- [febinrev/slippy-book-exploit](https://github.com/febinrev/slippy-book-exploit)
+
 ### CVE-2023-44487 (2023-10-10)
 
 <code>The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
@@ -5628,7 +5631,8 @@
 <code>Bluetooth HID Hosts in BlueZ may permit an unauthenticated Peripheral role HID Device to initiate and establish an encrypted connection, and accept HID keyboard reports, potentially permitting injection of HID messages when no user interaction has occurred in the Central role to authorize such access. An example affected package is bluez 5.64-0ubuntu1 in Ubuntu 22.04LTS. NOTE: in some cases, a CVE-2020-0556 mitigation would have already addressed this Bluetooth HID Hosts issue.
 </code>
 
-- [pentestfunctions/BluetoothDucky](https://github.com/pentestfunctions/BluetoothDucky)
+- [pentestfunctions/BlueDucky](https://github.com/pentestfunctions/BlueDucky)
+- [Eason-zz/BluetoothDucky](https://github.com/Eason-zz/BluetoothDucky)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -6212,6 +6216,9 @@
 </code>
 
 - [mbadanoiu/CVE-2023-49964](https://github.com/mbadanoiu/CVE-2023-49964)
+
+### CVE-2023-49965
+- [hackintoanetwork/SpaceX-Starlink-Router-Gen-2-XSS](https://github.com/hackintoanetwork/SpaceX-Starlink-Router-Gen-2-XSS)
 
 ### CVE-2023-49968
 - [geraldoalcantara/CVE-2023-49968](https://github.com/geraldoalcantara/CVE-2023-49968)
@@ -18510,6 +18517,7 @@
 - [tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce)
 - [Glease/Healer](https://github.com/Glease/Healer)
 - [jacobtread/L4J-Vuln-Patch](https://github.com/jacobtread/L4J-Vuln-Patch)
+- [jas502n/Log4j2-CVE-2021-44228](https://github.com/jas502n/Log4j2-CVE-2021-44228)
 - [HyCraftHD/Log4J-RCE-Proof-Of-Concept](https://github.com/HyCraftHD/Log4J-RCE-Proof-Of-Concept)
 - [boundaryx/cloudrasp-log4j2](https://github.com/boundaryx/cloudrasp-log4j2)
 - [dbgee/CVE-2021-44228](https://github.com/dbgee/CVE-2021-44228)
@@ -22105,6 +22113,7 @@
 
 - [fanjq99/CVE-2020-11652](https://github.com/fanjq99/CVE-2020-11652)
 - [Al1ex/CVE-2020-11652](https://github.com/Al1ex/CVE-2020-11652)
+- [limon768/CVE-2020-11652-CVE-2020-11652-POC](https://github.com/limon768/CVE-2020-11652-CVE-2020-11652-POC)
 
 ### CVE-2020-11794
 - [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
