@@ -48,6 +48,9 @@
 - [Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887)
 - [TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script)
 
+### CVE-2024-22145
+- [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
+
 
 ## 2023
 ### CVE-2023-0045 (2023-04-25)
@@ -5425,6 +5428,13 @@
 
 - [sromanhu/CVE-2023-43879-RiteCMS-Stored-XSS---GlobalContent](https://github.com/sromanhu/CVE-2023-43879-RiteCMS-Stored-XSS---GlobalContent)
 
+### CVE-2023-43955 (2023-12-27)
+
+<code>The com.phlox.tvwebbrowser TV Bro application through 2.0.0 for Android mishandles external intents through WebView. This allows attackers to execute arbitrary code, create arbitrary files. and perform arbitrary downloads via JavaScript that uses takeBlobDownloadData.
+</code>
+
+- [actuator/com.phlox.tvwebbrowser](https://github.com/actuator/com.phlox.tvwebbrowser)
+
 ### CVE-2023-44061 (2023-10-06)
 
 <code>File Upload vulnerability in Simple and Nice Shopping Cart Script v.1.0 allows a remote attacker to execute arbitrary code via the upload function in the edit profile component.
@@ -5873,6 +5883,13 @@
 
 - [asylumdx/Crater-CVE-2023-46865-RCE](https://github.com/asylumdx/Crater-CVE-2023-46865-RCE)
 
+### CVE-2023-46918 (2023-12-27)
+
+<code>Phlox com.phlox.simpleserver.plus (aka Simple HTTP Server PLUS) 1.8.1-plus has an Android manifest file that contains an entry with the android:allowBackup attribute set to true. This could be leveraged by an attacker with physical access to the device.
+</code>
+
+- [actuator/com.phlox.simpleserver](https://github.com/actuator/com.phlox.simpleserver)
+
 ### CVE-2023-46948
 - [AzraelsBlade/CVE-2023-46948](https://github.com/AzraelsBlade/CVE-2023-46948)
 
@@ -6009,6 +6026,13 @@
 
 - [RandomRobbieBF/CVE-2023-47840](https://github.com/RandomRobbieBF/CVE-2023-47840)
 
+### CVE-2023-47882 (2023-12-27)
+
+<code>The Kami Vision YI IoT com.yunyi.smartcamera application through 4.1.9_20231127 for Android allows a remote attacker to execute arbitrary JavaScript code via an implicit intent to the com.ants360.yicamera.activity.WebViewActivity component.
+</code>
+
+- [actuator/yi](https://github.com/actuator/yi)
+
 ### CVE-2023-47883 (2023-12-27)
 
 <code>The com.altamirano.fabricio.tvbrowser TV browser application through 4.5.1 for Android is vulnerable to JavaScript code execution via an explicit intent due to an exposed MainActivity.
@@ -6053,7 +6077,7 @@
 
 ### CVE-2023-48104 (2024-01-15)
 
-<code>Alinto SOGo 5.8.0 is vulnerable to HTML Injection.
+<code>Alinto SOGo before 5.9.1 is vulnerable to HTML Injection.
 </code>
 
 - [E1tex/CVE-2023-48104](https://github.com/E1tex/CVE-2023-48104)
@@ -6107,7 +6131,11 @@
 
 - [delsploit/CVE-2023-48849](https://github.com/delsploit/CVE-2023-48849)
 
-### CVE-2023-48858
+### CVE-2023-48858 (-)
+
+<code>A Cross-site scripting (XSS) vulnerability in login page php code in Armex ABO.CMS 5.9 allows remote attackers to inject arbitrary web script or HTML via the login.php? URL part.
+</code>
+
 - [Shumerez/CVE-2023-48858](https://github.com/Shumerez/CVE-2023-48858)
 
 ### CVE-2023-48866 (2023-12-04)
@@ -6128,6 +6156,34 @@
 
 ### CVE-2023-48983
 - [tristao-marinho/CVE-2023-48983](https://github.com/tristao-marinho/CVE-2023-48983)
+
+### CVE-2023-49000 (2023-12-27)
+
+<code>An issue in ArtistScope ArtisBrowser v.34.1.5 and before allows an attacker to bypass intended access restrictions via interaction with the com.artis.browser.IntentReceiverActivity component.
+</code>
+
+- [actuator/com.artis.browser](https://github.com/actuator/com.artis.browser)
+
+### CVE-2023-49001 (2023-12-27)
+
+<code>An issue in Indi Browser (aka kvbrowser) v.12.11.23 allows an attacker to bypass intended access restrictions via interaction with the com.example.gurry.kvbrowswer.webview component.
+</code>
+
+- [actuator/com.gurry.kvbrowser](https://github.com/actuator/com.gurry.kvbrowser)
+
+### CVE-2023-49002 (2023-12-27)
+
+<code>An issue in Xenom Technologies (sinous) Phone Dialer-voice Call Dialer v.1.2.5 allows an attacker to bypass intended access restrictions via interaction with com.funprime.calldialer.ui.activities.OutgoingActivity.
+</code>
+
+- [actuator/com.sinous.voice.dialer](https://github.com/actuator/com.sinous.voice.dialer)
+
+### CVE-2023-49003 (2023-12-27)
+
+<code>An issue in simplemobiletools Simple Dialer 5.18.1 allows an attacker to bypass intended access restrictions via interaction with com.simplemobiletools.dialer.activities.DialerActivity.
+</code>
+
+- [actuator/com.simplemobiletools.dialer](https://github.com/actuator/com.simplemobiletools.dialer)
 
 ### CVE-2023-49038
 - [christopher-pace/CVE-2023-49038](https://github.com/christopher-pace/CVE-2023-49038)
@@ -6181,6 +6237,9 @@
 </code>
 
 - [louiselalanne/CVE-2023-49314](https://github.com/louiselalanne/CVE-2023-49314)
+
+### CVE-2023-49339
+- [3zizme/CVE-2023-49339](https://github.com/3zizme/CVE-2023-49339)
 
 ### CVE-2023-49438 (2023-12-26)
 
@@ -13392,6 +13451,7 @@
 - [TheJoyOfHacking/calebstewart-CVE-2021-1675](https://github.com/TheJoyOfHacking/calebstewart-CVE-2021-1675)
 - [jj4152/cve-2021-1675](https://github.com/jj4152/cve-2021-1675)
 - [r1skkam/PrintNightmare](https://github.com/r1skkam/PrintNightmare)
+- [peckre/PNCVE-Win10-20H2-Exploit](https://github.com/peckre/PNCVE-Win10-20H2-Exploit)
 
 ### CVE-2021-1699 (2021-01-12)
 
