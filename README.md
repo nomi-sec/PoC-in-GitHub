@@ -1,20 +1,6 @@
 # PoC in GitHub
 
 ## 2024
-### CVE-2024-0193 (2024-01-02)
-
-<code>A use-after-free flaw was found in the netfilter subsystem of the Linux kernel. If the catchall element is garbage-collected when the pipapo set is removed, the element can be deactivated twice. This can cause a use-after-free issue on an NFT_CHAIN object or NFT_OBJECT object, allowing a local unprivileged user with CAP_NET_ADMIN capability to escalate their privileges on the system.
-</code>
-
-- [forsaken0128/CVE-2024-0193-Kernel-Root-Bypass](https://github.com/forsaken0128/CVE-2024-0193-Kernel-Root-Bypass)
-
-### CVE-2024-0252 (2024-01-11)
-
-<code>ManageEngine ADSelfService Plus versions 6401 and below are vulnerable to the remote code execution due to the improper handling in the load balancer component. Authentication is required in order to exploit this vulnerability.
-</code>
-
-- [forsaken0128/CVE-2024-0252-RCE](https://github.com/forsaken0128/CVE-2024-0252-RCE)
-
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -47,6 +33,7 @@
 - [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
 - [Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887)
 - [TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script)
+- [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
 
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
@@ -5878,6 +5865,7 @@
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
 - [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
 - [TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script)
+- [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
 
 ### CVE-2023-46813 (2023-10-26)
 
