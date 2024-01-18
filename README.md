@@ -1148,6 +1148,7 @@
 - [RandomRobbieBF/CVE-2023-7028](https://github.com/RandomRobbieBF/CVE-2023-7028)
 - [duy-31/CVE-2023-7028](https://github.com/duy-31/CVE-2023-7028)
 - [Vozec/CVE-2023-7028](https://github.com/Vozec/CVE-2023-7028)
+- [yoryio/CVE-2023-7028](https://github.com/yoryio/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -34001,6 +34002,13 @@
 
 - [0xSojalSec/Nuclei-TemplatesNuclei-Templates-CVE-2017-17736](https://github.com/0xSojalSec/Nuclei-TemplatesNuclei-Templates-CVE-2017-17736)
 
+### CVE-2017-17917 (2017-12-29)
+
+<code>** DISPUTED ** SQL injection vulnerability in the 'where' method in Ruby on Rails 5.1.4 and earlier allows remote attackers to execute arbitrary SQL commands via the 'id' parameter. NOTE: The vendor disputes this issue because the documentation states that this method is not intended for use with untrusted input.
+</code>
+
+- [matiasarenhard/rails-cve-2017-17917](https://github.com/matiasarenhard/rails-cve-2017-17917)
+
 ### CVE-2017-18019 (2018-01-03)
 
 <code>In K7 Total Security before 15.1.0.305, user-controlled input to the K7Sentry device is not sufficiently sanitized: the user-controlled input can be used to compare an arbitrary memory address with a fixed value, which in turn can be used to read the contents of arbitrary memory. Similarly, the product crashes upon a \\.\K7Sentry DeviceIoControl call with an invalid kernel pointer.
@@ -35226,6 +35234,13 @@
 
 - [akzedevops/CVE-2016-8776](https://github.com/akzedevops/CVE-2016-8776)
 
+### CVE-2016-8823 (2016-12-16)
+
+<code>All versions of NVIDIA Windows GPU Display Driver contain a vulnerability in the kernel mode layer handler for DxgDdiEscape where the size of an input buffer is not validated leading to a denial of service or possible escalation of privileges
+</code>
+
+- [SpiralBL0CK/NDAY_CVE_2016_8823](https://github.com/SpiralBL0CK/NDAY_CVE_2016_8823)
+
 ### CVE-2016-8858 (2016-12-09)
 
 <code>** DISPUTED ** The kex_input_kexinit function in kex.c in OpenSSH 6.x and 7.x through 7.3 allows remote attackers to cause a denial of service (memory consumption) by sending many duplicate KEXINIT requests.  NOTE: a third party reports that &quot;OpenSSH upstream does not consider this as a security issue.&quot;
@@ -35721,6 +35736,13 @@
 </code>
 
 - [vpereira/CVE-2015-1855](https://github.com/vpereira/CVE-2015-1855)
+
+### CVE-2015-1986 (2015-06-30)
+
+<code>The server in IBM Tivoli Storage Manager FastBack 6.1 before 6.1.12 allows remote attackers to execute arbitrary commands via unspecified vectors, a different vulnerability than CVE-2015-1938.
+</code>
+
+- [3t3rn4lv01d/CVE-2015-1986](https://github.com/3t3rn4lv01d/CVE-2015-1986)
 
 ### CVE-2015-2153 (2015-03-24)
 
@@ -38757,6 +38779,13 @@
 
 
 ## 2005
+### CVE-2005-0575 (2005-02-27)
+
+<code>Buffer overflow in Stormy Studios Knet 1.04c and earlier allows remote attackers to cause a denial of service and possibly execute arbitrary code via a long HTTP GET request.
+</code>
+
+- [3t3rn4lv01d/CVE-2005-0575](https://github.com/3t3rn4lv01d/CVE-2005-0575)
+
 ### CVE-2005-0603 (2005-03-01)
 
 <code>viewtopic.php in phpBB 2.0.12 and earlier allows remote attackers to obtain sensitive information via a highlight parameter containing invalid regular expression syntax, which reveals the path in a PHP error message.
