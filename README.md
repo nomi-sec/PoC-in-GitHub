@@ -28,12 +28,12 @@
 </code>
 
 - [oways/ivanti-CVE-2024-21887](https://github.com/oways/ivanti-CVE-2024-21887)
-- [yoryio/CVE-2023-46805_CVE-2024-21887_Scanner](https://github.com/yoryio/CVE-2023-46805_CVE-2024-21887_Scanner)
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
 - [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
 - [Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887)
 - [TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script)
 - [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
+- [seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan)
 
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
@@ -5861,12 +5861,14 @@
 <code>An authentication bypass vulnerability in the web component of Ivanti ICS 9.x, 22.x and Ivanti Policy Secure allows a remote attacker to access restricted resources by bypassing control checks.
 </code>
 
-- [yoryio/CVE-2023-46805_CVE-2024-21887_Scanner](https://github.com/yoryio/CVE-2023-46805_CVE-2024-21887_Scanner)
+- [yoryio/CVE-2023-46805](https://github.com/yoryio/CVE-2023-46805)
 - [cbeek-r7/CVE-2023-46805](https://github.com/cbeek-r7/CVE-2023-46805)
 - [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
 - [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
 - [TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script)
 - [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
+- [seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan)
+- [Chocapikk/CVE-2023-46805](https://github.com/Chocapikk/CVE-2023-46805)
 
 ### CVE-2023-46813 (2023-10-26)
 
@@ -28965,7 +28967,7 @@
 </code>
 
 - [ndureiss/e1000_vulnerability_exploit](https://github.com/ndureiss/e1000_vulnerability_exploit)
-- [vhok74/cve-2018-3295](https://github.com/vhok74/cve-2018-3295)
+- [jeongzero8732/cve-2018-3295](https://github.com/jeongzero8732/cve-2018-3295)
 
 ### CVE-2018-3608 (2018-07-06)
 
