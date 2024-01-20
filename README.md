@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2024
+### CVE-2024-0679
+- [RandomRobbieBF/CVE-2024-0679](https://github.com/RandomRobbieBF/CVE-2024-0679)
+
 ### CVE-2024-0684
 - [Valentin-Metz/writeup_split](https://github.com/Valentin-Metz/writeup_split)
 
@@ -409,6 +412,7 @@
 </code>
 
 - [elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255)
+- [Mathieuleto/CVE-2023-2255](https://github.com/Mathieuleto/CVE-2023-2255)
 
 ### CVE-2023-2516 (2023-05-05)
 
@@ -2205,6 +2209,7 @@
 </code>
 
 - [horizon3ai/CVE-2023-26067](https://github.com/horizon3ai/CVE-2023-26067)
+- [RosePwns/Lexmark-RCE](https://github.com/RosePwns/Lexmark-RCE)
 
 ### CVE-2023-26136 (2023-07-01)
 
@@ -18788,6 +18793,7 @@
 - [Occamsec/log4j-checker](https://github.com/Occamsec/log4j-checker)
 - [snatalius/log4j2-CVE-2021-44228-poc-local](https://github.com/snatalius/log4j2-CVE-2021-44228-poc-local)
 - [Contrast-Security-OSS/CVE-2021-44228](https://github.com/Contrast-Security-OSS/CVE-2021-44228)
+- [back2root/log4shell-rex](https://github.com/back2root/log4shell-rex)
 - [alexbakker/log4shell-tools](https://github.com/alexbakker/log4shell-tools)
 - [perryflynn/find-log4j](https://github.com/perryflynn/find-log4j)
 - [5l1v3r1/jndiRep](https://github.com/5l1v3r1/jndiRep)
