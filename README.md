@@ -1,7 +1,11 @@
 # PoC in GitHub
 
 ## 2024
-### CVE-2024-0679
+### CVE-2024-0679 (-)
+
+<code>The ColorMag theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the plugin_action_callback() function in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to install and activate arbitrary plugins.
+</code>
+
 - [RandomRobbieBF/CVE-2024-0679](https://github.com/RandomRobbieBF/CVE-2024-0679)
 
 ### CVE-2024-0684
@@ -5785,7 +5789,11 @@
 
 - [windecks/CVE-2023-46404](https://github.com/windecks/CVE-2023-46404)
 
-### CVE-2023-46447
+### CVE-2023-46447 (-)
+
+<code>The POPS! Rebel application 5.0 for Android, in POPS! Rebel Bluetooth Glucose Monitoring System, sends unencrypted glucose measurements over BLE.
+</code>
+
 - [actuator/rebel](https://github.com/actuator/rebel)
 
 ### CVE-2023-46449 (2023-10-26)
@@ -6441,6 +6449,13 @@
 
 - [febinrev/deepin-linux_reader_RCE-exploit](https://github.com/febinrev/deepin-linux_reader_RCE-exploit)
 
+### CVE-2023-50465 (2023-12-10)
+
+<code>A stored cross-site scripting (XSS) vulnerability exists in Monica (aka MonicaHQ) 4.0.0 via an SVG document uploaded by an authenticated user.
+</code>
+
+- [Ev3rR3d/CVE-2023-50465](https://github.com/Ev3rR3d/CVE-2023-50465)
+
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
 
@@ -6507,6 +6522,8 @@
 - [julienbrs/exploit-CVE-2023-51385](https://github.com/julienbrs/exploit-CVE-2023-51385)
 - [julienbrs/malicious-exploit-CVE-2023-51385](https://github.com/julienbrs/malicious-exploit-CVE-2023-51385)
 - [Sonicrrrr/CVE-2023-51385](https://github.com/Sonicrrrr/CVE-2023-51385)
+- [farliy-hacker/CVE-2023-51385](https://github.com/farliy-hacker/CVE-2023-51385)
+- [farliy-hacker/CVE-2023-51385-save](https://github.com/farliy-hacker/CVE-2023-51385-save)
 
 ### CVE-2023-51467 (2023-12-26)
 
