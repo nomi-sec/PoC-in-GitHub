@@ -931,7 +931,6 @@
 - [snurkeburk/Looney-Tunables](https://github.com/snurkeburk/Looney-Tunables)
 - [puckiestyle/CVE-2023-4911](https://github.com/puckiestyle/CVE-2023-4911)
 - [yanfernandess/Looney-Tunables-CVE-2023-4911](https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911)
-- [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -36668,6 +36667,13 @@
 
 - [ExploitCN/CVE-2014-1767-EXP-PAPER](https://github.com/ExploitCN/CVE-2014-1767-EXP-PAPER)
 
+### CVE-2014-1773 (2014-06-10)
+
+<code>Microsoft Internet Explorer 9 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-1783, CVE-2014-1784, CVE-2014-1786, CVE-2014-1795, CVE-2014-1805, CVE-2014-2758, CVE-2014-2759, CVE-2014-2765, CVE-2014-2766, and CVE-2014-2775.
+</code>
+
+- [day6reak/CVE-2014-1773](https://github.com/day6reak/CVE-2014-1773)
+
 ### CVE-2014-1812 (2014-05-14)
 
 <code>The Group Policy implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly handle distribution of passwords, which allows remote authenticated users to obtain sensitive credential information and consequently gain privileges by leveraging access to the SYSVOL share, as exploited in the wild in May 2014, aka &quot;Group Policy Preferences Password Elevation of Privilege Vulnerability.&quot;
@@ -36836,6 +36842,13 @@
 
 - [fungoshacks/CVE-2014-4076](https://github.com/fungoshacks/CVE-2014-4076)
 
+### CVE-2014-4109 (2014-09-09)
+
+<code>Microsoft Internet Explorer 6 through 11 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via a crafted web site, aka &quot;Internet Explorer Memory Corruption Vulnerability,&quot; a different vulnerability than CVE-2014-2799, CVE-2014-4059, CVE-2014-4065, CVE-2014-4079, CVE-2014-4081, CVE-2014-4083, CVE-2014-4085, CVE-2014-4088, CVE-2014-4090, CVE-2014-4094, CVE-2014-4097, CVE-2014-4100, CVE-2014-4103, CVE-2014-4104, CVE-2014-4105, CVE-2014-4106, CVE-2014-4107, CVE-2014-4108, CVE-2014-4110, and CVE-2014-4111.
+</code>
+
+- [day6reak/CVE-2014-4109](https://github.com/day6reak/CVE-2014-4109)
+
 ### CVE-2014-4113 (2014-10-15)
 
 <code>win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, as exploited in the wild in October 2014, aka &quot;Win32k.sys Elevation of Privilege Vulnerability.&quot;
@@ -36845,6 +36858,13 @@
 - [nsxz/Exploit-CVE-2014-4113](https://github.com/nsxz/Exploit-CVE-2014-4113)
 - [sam-b/CVE-2014-4113](https://github.com/sam-b/CVE-2014-4113)
 - [wikiZ/cve-2014-4113](https://github.com/wikiZ/cve-2014-4113)
+
+### CVE-2014-4140 (2014-10-15)
+
+<code>Microsoft Internet Explorer 8 through 11 allows remote attackers to bypass the ASLR protection mechanism via a crafted web site, aka &quot;Internet Explorer ASLR Bypass Vulnerability.&quot;
+</code>
+
+- [day6reak/CVE-2014-4140](https://github.com/day6reak/CVE-2014-4140)
 
 ### CVE-2014-4210 (2014-07-16)
 
@@ -36999,6 +37019,7 @@
 - [indiandragon/Shellshock-Vulnerability-Scan](https://github.com/indiandragon/Shellshock-Vulnerability-Scan)
 - [ramnes/pyshellshock](https://github.com/ramnes/pyshellshock)
 - [akiraaisha/shellshocker-python](https://github.com/akiraaisha/shellshocker-python)
+- [352926/shellshock_crawler](https://github.com/352926/shellshock_crawler)
 - [kelleykong/cve-2014-6271-mengjia-kong](https://github.com/kelleykong/cve-2014-6271-mengjia-kong)
 - [huanlu/cve-2014-6271-huan-lu](https://github.com/huanlu/cve-2014-6271-huan-lu)
 - [sunnyjiang/shellshocker-android](https://github.com/sunnyjiang/shellshocker-android)
@@ -37007,6 +37028,7 @@
 - [opsxcq/exploit-CVE-2014-6271](https://github.com/opsxcq/exploit-CVE-2014-6271)
 - [Pilou-Pilou/docker_CVE-2014-6271.](https://github.com/Pilou-Pilou/docker_CVE-2014-6271.)
 - [zalalov/CVE-2014-6271](https://github.com/zalalov/CVE-2014-6271)
+- [heikipikker/shellshock-shell](https://github.com/heikipikker/shellshock-shell)
 - [0x00-0x00/CVE-2014-6271](https://github.com/0x00-0x00/CVE-2014-6271)
 - [kowshik-sundararajan/CVE-2014-6271](https://github.com/kowshik-sundararajan/CVE-2014-6271)
 - [w4fz5uck5/ShockZaum-CVE-2014-6271](https://github.com/w4fz5uck5/ShockZaum-CVE-2014-6271)
@@ -37057,6 +37079,7 @@
 </code>
 
 - [MarkoArmitage/metasploit-framework](https://github.com/MarkoArmitage/metasploit-framework)
+- [tjjh89017/cve-2014-6332](https://github.com/tjjh89017/cve-2014-6332)
 - [mourr/CVE-2014-6332](https://github.com/mourr/CVE-2014-6332)
 
 ### CVE-2014-6577 (2015-01-21)
