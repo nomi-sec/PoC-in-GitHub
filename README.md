@@ -45,6 +45,7 @@
 - [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
 - [seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan)
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
+- [tucommenceapousser/CVE-2024-21887](https://github.com/tucommenceapousser/CVE-2024-21887)
 
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
@@ -930,6 +931,7 @@
 - [snurkeburk/Looney-Tunables](https://github.com/snurkeburk/Looney-Tunables)
 - [puckiestyle/CVE-2023-4911](https://github.com/puckiestyle/CVE-2023-4911)
 - [yanfernandess/Looney-Tunables-CVE-2023-4911](https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911)
+- [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
 
 ### CVE-2023-4966 (2023-10-10)
 
