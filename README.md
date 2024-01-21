@@ -12607,6 +12607,7 @@
 - [scabench/jsonorg-fp1](https://github.com/scabench/jsonorg-fp1)
 - [scabench/jsonorg-fp2](https://github.com/scabench/jsonorg-fp2)
 - [scabench/jsonorg-fp3](https://github.com/scabench/jsonorg-fp3)
+- [scabench/jsonorg-fn1](https://github.com/scabench/jsonorg-fn1)
 
 ### CVE-2022-45699 (2023-02-09)
 
@@ -17879,7 +17880,7 @@
 - [inbug-team/CVE-2021-41773_CVE-2021-42013](https://github.com/inbug-team/CVE-2021-41773_CVE-2021-42013)
 - [5gstudent/cve-2021-41773-and-cve-2021-42013](https://github.com/5gstudent/cve-2021-41773-and-cve-2021-42013)
 - [EagleTube/CVE-2021-41773](https://github.com/EagleTube/CVE-2021-41773)
-- [ilurer/CVE-2021-41773-42013](https://github.com/ilurer/CVE-2021-41773-42013)
+- [cgddgc/CVE-2021-41773-42013](https://github.com/cgddgc/CVE-2021-41773-42013)
 - [apapedulimu/Apachuk](https://github.com/apapedulimu/Apachuk)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
 - [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
