@@ -2295,7 +2295,6 @@
 <code>ASUS ASMB8 iKVM firmware through 1.14.51 allows remote attackers to execute arbitrary code by using SNMP to create extensions, as demonstrated by snmpset for NET-SNMP-EXTEND-MIB with /bin/sh for command execution.
 </code>
 
-- [d1gg0r/CVE-2023-26602](https://github.com/d1gg0r/CVE-2023-26602)
 - [D1G17/CVE-2023-26602](https://github.com/D1G17/CVE-2023-26602)
 
 ### CVE-2023-26607 (2023-02-26)
@@ -2310,7 +2309,6 @@
 <code>ABUS TVIP 20000-21150 devices allows remote attackers to execute arbitrary code via shell metacharacters in the /cgi-bin/mft/wireless_mft ap field.
 </code>
 
-- [d1gg0r/CVE-2023-26609](https://github.com/d1gg0r/CVE-2023-26609)
 - [D1G17/CVE-2023-26609](https://github.com/D1G17/CVE-2023-26609)
 
 ### CVE-2023-26692 (2023-03-30)
@@ -2811,6 +2809,7 @@
 - [S4muraiMelayu1337/CVE-2023-29489](https://github.com/S4muraiMelayu1337/CVE-2023-29489)
 - [SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489)
 - [Makurorororororororo/Validate-CVE-2023-29489-scanner-](https://github.com/Makurorororororororo/Validate-CVE-2023-29489-scanner-)
+- [prasad-1808/tool-29489](https://github.com/prasad-1808/tool-29489)
 
 ### CVE-2023-29808 (2023-05-11)
 
