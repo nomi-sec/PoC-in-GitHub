@@ -13848,6 +13848,7 @@
 - [PurpleOzone/PE_CVE-CVE-2021-3156](https://github.com/PurpleOzone/PE_CVE-CVE-2021-3156)
 - [asepsaepdin/CVE-2021-3156](https://github.com/asepsaepdin/CVE-2021-3156)
 - [DDayLuong/CVE-2021-3156](https://github.com/DDayLuong/CVE-2021-3156)
+- [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
@@ -18498,6 +18499,7 @@
 - [ScorpionsMAX/CVE-2021-43798-Grafana-POC](https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC)
 - [Mr-xn/CVE-2021-43798](https://github.com/Mr-xn/CVE-2021-43798)
 - [asaotomo/CVE-2021-43798-Grafana-Exp](https://github.com/asaotomo/CVE-2021-43798-Grafana-Exp)
+- [A-D-Team/grafanaExp](https://github.com/A-D-Team/grafanaExp)
 - [kenuosec/grafanaExp](https://github.com/kenuosec/grafanaExp)
 - [M0ge/CVE-2021-43798-grafana_fileread](https://github.com/M0ge/CVE-2021-43798-grafana_fileread)
 - [JiuBanSec/Grafana-CVE-2021-43798](https://github.com/JiuBanSec/Grafana-CVE-2021-43798)
@@ -23427,13 +23429,6 @@
 - [killmonday/CVE-2020-17530-s2-061](https://github.com/killmonday/CVE-2020-17530-s2-061)
 - [keyuan15/CVE-2020-17530](https://github.com/keyuan15/CVE-2020-17530)
 - [nth347/CVE-2020-17530](https://github.com/nth347/CVE-2020-17530)
-
-### CVE-2020-17531 (2020-12-08)
-
-<code>A Java Serialization vulnerability was found in Apache Tapestry 4. Apache Tapestry 4 will attempt to deserialize the &quot;sp&quot; parameter even before invoking the page's validate method, leading to deserialization without authentication. Apache Tapestry 4 reached end of life in 2008 and no update to address this issue will be released. Apache Tapestry 5 versions are not vulnerable to this issue. Users of Apache Tapestry 4 should upgrade to the latest Apache Tapestry 5 version.
-</code>
-
-- [154802388/CVE-2020-17531](https://github.com/154802388/CVE-2020-17531)
 
 ### CVE-2020-17533 (2020-12-29)
 
