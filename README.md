@@ -39145,6 +39145,13 @@
 
 - [alt3kx/CVE-2001-0680](https://github.com/alt3kx/CVE-2001-0680)
 
+### CVE-2001-0758 (2001-10-12)
+
+<code>Directory traversal vulnerability in Shambala 4.5 allows remote attackers to escape the FTP root directory via &quot;CWD ...&quot;  command.
+</code>
+
+- [alt3kx/CVE-2001-0758](https://github.com/alt3kx/CVE-2001-0758)
+
 ### CVE-2001-0931 (2002-02-02)
 
 <code>Directory traversal vulnerability in Cooolsoft PowerFTP Server 2.03 allows attackers to list or read arbitrary files and directories via a .. (dot dot) in (1) LS or (2) GET.
