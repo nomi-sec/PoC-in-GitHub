@@ -11,6 +11,13 @@
 ### CVE-2024-0684
 - [Valentin-Metz/writeup_split](https://github.com/Valentin-Metz/writeup_split)
 
+### CVE-2024-0783 (-)
+
+<code>Eine kritische Schwachstelle wurde in Project Worlds Online Admission System 1.0 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei documents.php. Durch Manipulieren mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [keru6k/Online-Admission-System-RCE-PoC](https://github.com/keru6k/Online-Admission-System-RCE-PoC)
+
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -1726,10 +1733,12 @@
 <code>A template injection vulnerability on older versions of Confluence Data Center and Server allows an unauthenticated attacker to achieve RCE on an affected instance. Customers using an affected version must take immediate action.\n\nMost recent supported versions of Confluence Data Center and Server are not affected by this vulnerability as it was ultimately mitigated during regular version updates. However, Atlassian recommends that customers take care to install the latest version to protect their instances from non-critical vulnerabilities outlined in Atlassian’s January Security Bulletin.
 </code>
 
+- [Avento/CVE-2023-22527_Confluence_RCE](https://github.com/Avento/CVE-2023-22527_Confluence_RCE)
 - [Sudistark/patch-diff-CVE-2023-22527](https://github.com/Sudistark/patch-diff-CVE-2023-22527)
 - [ga0we1/CVE-2023-22527_Confluence_RCE](https://github.com/ga0we1/CVE-2023-22527_Confluence_RCE)
 - [Drun1baby/CVE-2023-22527](https://github.com/Drun1baby/CVE-2023-22527)
 - [cleverg0d/CVE-2023-22527](https://github.com/cleverg0d/CVE-2023-22527)
+- [Manh130902/CVE-2023-22527-POC](https://github.com/Manh130902/CVE-2023-22527-POC)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -5044,7 +5053,7 @@
 
 ### CVE-2023-41993 (2023-09-21)
 
-<code>The issue was addressed with improved checks. This issue is fixed in macOS Sonoma 14, Safari 17, iOS 16.7 and iPadOS 16.7. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
+<code>The issue was addressed with improved checks. This issue is fixed in macOS Sonoma 14. Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.
 </code>
 
 - [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
@@ -28631,8 +28640,6 @@
 - [zi0Black/POC-CVE-2018-0114](https://github.com/zi0Black/POC-CVE-2018-0114)
 - [Logeirs/CVE-2018-0114](https://github.com/Logeirs/CVE-2018-0114)
 - [adityathebe/POC-CVE-2018-0114](https://github.com/adityathebe/POC-CVE-2018-0114)
-- [Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114)
-- [Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114)
 - [scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114)
 - [j4k0m/CVE-2018-0114](https://github.com/j4k0m/CVE-2018-0114)
 - [mmeza-developer/CVE-2018-0114](https://github.com/mmeza-developer/CVE-2018-0114)
@@ -29010,7 +29017,6 @@
 - [111ddea/cve-2018-2894](https://github.com/111ddea/cve-2018-2894)
 - [LandGrey/CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894)
 - [jas502n/CVE-2018-2894](https://github.com/jas502n/CVE-2018-2894)
-- [k8gege/PyLadon](https://github.com/k8gege/PyLadon)
 
 ### CVE-2018-3191 (2018-10-16)
 
@@ -29579,13 +29585,6 @@
 - [pswalia2u/CVE-2018-6574](https://github.com/pswalia2u/CVE-2018-6574)
 - [jongmartinez/CVE-2018-6574-POC](https://github.com/jongmartinez/CVE-2018-6574-POC)
 - [azzzzzzzzzzzzzzzzz/CVE-2018-6574](https://github.com/azzzzzzzzzzzzzzzzz/CVE-2018-6574)
-- [noname-nohost/CVE-2018-6574](https://github.com/noname-nohost/CVE-2018-6574)
-- [shadofren/CVE-2018-6574](https://github.com/shadofren/CVE-2018-6574)
-- [NikolaT3sla/cve-2018-6574](https://github.com/NikolaT3sla/cve-2018-6574)
-- [vishack/CVE-2018-6574](https://github.com/vishack/CVE-2018-6574)
-- [PLP-Orange/cve-2018-6574-exercise](https://github.com/PLP-Orange/cve-2018-6574-exercise)
-- [purgedemo/CVE-2018-6574](https://github.com/purgedemo/CVE-2018-6574)
-- [purgedemo/CVE-2018-6574_2](https://github.com/purgedemo/CVE-2018-6574_2)
 - [killtr0/POC-CVE-2018-6574](https://github.com/killtr0/POC-CVE-2018-6574)
 - [theJuan1112/pentesterlab-cve-2018-6574](https://github.com/theJuan1112/pentesterlab-cve-2018-6574)
 - [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
@@ -30276,7 +30275,6 @@
 </code>
 
 - [wildkindcc/CVE-2018-9276](https://github.com/wildkindcc/CVE-2018-9276)
-- [andyfeili/CVE-2018-9276](https://github.com/andyfeili/CVE-2018-9276)
 - [A1vinSmith/CVE-2018-9276](https://github.com/A1vinSmith/CVE-2018-9276)
 
 ### CVE-2018-9375
@@ -30815,7 +30813,6 @@
 - [pwn3z/CVE-2018-13379-FortinetVPN](https://github.com/pwn3z/CVE-2018-13379-FortinetVPN)
 - [k4nfr3/CVE-2018-13379-Fortinet](https://github.com/k4nfr3/CVE-2018-13379-Fortinet)
 - [Zeop-CyberSec/fortios_vpnssl_traversal_leak](https://github.com/Zeop-CyberSec/fortios_vpnssl_traversal_leak)
-- [B1anda0/CVE-2018-13379](https://github.com/B1anda0/CVE-2018-13379)
 - [nivdolgin/CVE-2018-13379](https://github.com/nivdolgin/CVE-2018-13379)
 
 ### CVE-2018-13382 (2019-06-04)
@@ -30839,13 +30836,6 @@
 </code>
 
 - [ambionics/prestashop-exploits](https://github.com/ambionics/prestashop-exploits)
-
-### CVE-2018-13797 (2018-07-10)
-
-<code>The macaddress module before 0.2.9 for Node.js is prone to an arbitrary command injection flaw, due to allowing unsanitized input to an exec (rather than execFile) call.
-</code>
-
-- [dsp-testing/CVE-2018-13797](https://github.com/dsp-testing/CVE-2018-13797)
 
 ### CVE-2018-13864 (2018-07-17)
 
@@ -31014,9 +31004,7 @@
 - [Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader](https://github.com/Prabesh01/Laravel-PHP-Unit-RCE-Auto-shell-uploader)
 - [bukitbarisan/laravel-rce-cve-2018-15133](https://github.com/bukitbarisan/laravel-rce-cve-2018-15133)
 - [AlienX2001/better-poc-for-CVE-2018-15133](https://github.com/AlienX2001/better-poc-for-CVE-2018-15133)
-- [aljavier/exploit_laravel_cve-2018-15133](https://github.com/aljavier/exploit_laravel_cve-2018-15133)
 - [pwnedshell/Larascript](https://github.com/pwnedshell/Larascript)
-- [AzhariKun/CVE-2018-15133](https://github.com/AzhariKun/CVE-2018-15133)
 - [NatteeSetobol/CVE-2018-15133-Lavel-Expliot](https://github.com/NatteeSetobol/CVE-2018-15133-Lavel-Expliot)
 - [Cr4zyD14m0nd137/Lab-for-cve-2018-15133](https://github.com/Cr4zyD14m0nd137/Lab-for-cve-2018-15133)
 - [0xSalle/cve-2018-15133](https://github.com/0xSalle/cve-2018-15133)
@@ -31059,7 +31047,6 @@
 - [coollce/CVE-2018-15473_burte](https://github.com/coollce/CVE-2018-15473_burte)
 - [Dirty-Racoon/CVE-2018-15473-py3](https://github.com/Dirty-Racoon/CVE-2018-15473-py3)
 - [Sait-Nuri/CVE-2018-15473](https://github.com/Sait-Nuri/CVE-2018-15473)
-- [WildfootW/CVE-2018-15473_OpenSSH_7.7](https://github.com/WildfootW/CVE-2018-15473_OpenSSH_7.7)
 - [MrDottt/CVE-2018-15473](https://github.com/MrDottt/CVE-2018-15473)
 - [66quentin/shodan-CVE-2018-15473](https://github.com/66quentin/shodan-CVE-2018-15473)
 - [0xrobiul/CVE-2018-15473](https://github.com/0xrobiul/CVE-2018-15473)
@@ -31222,13 +31209,6 @@
 
 - [snappyJack/CVE-2018-16373](https://github.com/snappyJack/CVE-2018-16373)
 
-### CVE-2018-16492 (2019-02-01)
-
-<code>A prototype pollution vulnerability was found in module extend &lt;2.0.2, ~&lt;3.0.2 that allows an attacker to inject arbitrary properties onto Object.prototype.
-</code>
-
-- [dsp-testing/CVE-2018-16492](https://github.com/dsp-testing/CVE-2018-16492)
-
 ### CVE-2018-16509 (2018-09-05)
 
 <code>An issue was discovered in Artifex Ghostscript before 9.24. Incorrect &quot;restoration of privilege&quot; checking during handling of /invalidaccess exceptions could be used by attackers able to supply crafted PostScript to execute code using the &quot;pipe&quot; instruction.
@@ -31275,7 +31255,6 @@
 - [dinhbaouit/CVE-2018-16763](https://github.com/dinhbaouit/CVE-2018-16763)
 - [hikarihacks/CVE-2018-16763-exploit](https://github.com/hikarihacks/CVE-2018-16763-exploit)
 - [n3m1dotsys/CVE-2018-16763-Exploit-Python3](https://github.com/n3m1dotsys/CVE-2018-16763-Exploit-Python3)
-- [uwueviee/Fu3l-F1lt3r](https://github.com/uwueviee/Fu3l-F1lt3r)
 - [shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--](https://github.com/shoamshilo/Fuel-CMS-Remote-Code-Execution-1.4--RCE--)
 - [kxisxr/Bash-Script-CVE-2018-16763](https://github.com/kxisxr/Bash-Script-CVE-2018-16763)
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
@@ -31294,13 +31273,6 @@
 </code>
 
 - [elkassimyhajar/CVE-2018-16809](https://github.com/elkassimyhajar/CVE-2018-16809)
-
-### CVE-2018-16843 (2018-11-07)
-
-<code>nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive memory consumption. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the 'http2' option of the 'listen' directive is used in a configuration file.
-</code>
-
-- [flyniu666/ingress-nginx-0.21-1.19.5](https://github.com/flyniu666/ingress-nginx-0.21-1.19.5)
 
 ### CVE-2018-16854 (2018-11-26)
 
@@ -31775,13 +31747,6 @@
 </code>
 
 - [zadewg/LIVEBOX-0DAY](https://github.com/zadewg/LIVEBOX-0DAY)
-
-### CVE-2018-20433 (2018-12-24)
-
-<code>c3p0 0.9.5.2 allows XXE in extractXmlConfigFromInputStream in com/mchange/v2/c3p0/cfg/C3P0ConfigXmlUtils.java during initialization.
-</code>
-
-- [shanika04/cp30_XXE_partial_fix](https://github.com/shanika04/cp30_XXE_partial_fix)
 
 ### CVE-2018-20434 (2019-04-24)
 
@@ -35055,7 +35020,6 @@
 <code>net/ipv4/tcp_input.c in the Linux kernel before 4.7 does not properly determine the rate of challenge ACK segments, which makes it easier for remote attackers to hijack TCP sessions via a blind in-window attack.
 </code>
 
-- [Gnoxter/mountain_goat](https://github.com/Gnoxter/mountain_goat)
 - [violentshell/rover](https://github.com/violentshell/rover)
 - [jduck/challack](https://github.com/jduck/challack)
 - [bplinux/chackd](https://github.com/bplinux/chackd)
@@ -35155,7 +35119,6 @@
 
 - [konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch](https://github.com/konstantin-kelemen/mysqld_safe-CVE-2016-6662-patch)
 - [meersjo/ansible-mysql-cve-2016-6662](https://github.com/meersjo/ansible-mysql-cve-2016-6662)
-- [KosukeShimofuji/CVE-2016-6662](https://github.com/KosukeShimofuji/CVE-2016-6662)
 - [Ashrafdev/MySQL-Remote-Root-Code-Execution](https://github.com/Ashrafdev/MySQL-Remote-Root-Code-Execution)
 - [boompig/cve-2016-6662](https://github.com/boompig/cve-2016-6662)
 - [MAYASEVEN/CVE-2016-6662](https://github.com/MAYASEVEN/CVE-2016-6662)
