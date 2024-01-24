@@ -1,6 +1,14 @@
 # PoC in GitHub
 
 ## 2024
+### CVE-2024-0204 (2024-01-22)
+
+<code>Authentication bypass in Fortra's GoAnywhere MFT prior to 7.4.1 allows an unauthorized user to create an admin user via the administration portal.
+</code>
+
+- [horizon3ai/CVE-2024-0204](https://github.com/horizon3ai/CVE-2024-0204)
+- [cbeek-r7/CVE-2024-0204](https://github.com/cbeek-r7/CVE-2024-0204)
+
 ### CVE-2024-0679 (2024-01-20)
 
 <code>The ColorMag theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the plugin_action_callback() function in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to install and activate arbitrary plugins.
@@ -1195,6 +1203,7 @@
 - [Esonhugh/gitlab_honeypot](https://github.com/Esonhugh/gitlab_honeypot)
 - [TheRedDevil1/CVE-2023-7028](https://github.com/TheRedDevil1/CVE-2023-7028)
 - [Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab](https://github.com/Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab)
+- [thanhlam-attt/CVE-2023-7028](https://github.com/thanhlam-attt/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -2408,7 +2417,7 @@
 - [fivex3/CVE-2023-27035](https://github.com/fivex3/CVE-2023-27035)
 
 ### CVE-2023-27053
-- [d3fudd/XSS-HGJ310](https://github.com/d3fudd/XSS-HGJ310)
+- [d3fudd/CVE-2023-27053_XSS](https://github.com/d3fudd/CVE-2023-27053_XSS)
 
 ### CVE-2023-27100 (2023-03-22)
 
@@ -2852,6 +2861,7 @@
 - [Makurorororororororo/Validate-CVE-2023-29489-scanner-](https://github.com/Makurorororororororo/Validate-CVE-2023-29489-scanner-)
 - [prasad-1808/tool-29489](https://github.com/prasad-1808/tool-29489)
 - [Praveenms13/CVE-2023-29489](https://github.com/Praveenms13/CVE-2023-29489)
+- [mdaseem03/cpanel_xss_2023](https://github.com/mdaseem03/cpanel_xss_2023)
 
 ### CVE-2023-29808 (2023-05-11)
 
@@ -5753,6 +5763,7 @@
 
 - [pentestfunctions/BlueDucky](https://github.com/pentestfunctions/BlueDucky)
 - [Eason-zz/BluetoothDucky](https://github.com/Eason-zz/BluetoothDucky)
+- [jjjjjjjj987/cve-2023-45866-py](https://github.com/jjjjjjjj987/cve-2023-45866-py)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -7357,7 +7368,7 @@
 <code>The All-in-One WP Migration WordPress plugin before 7.63 uses the wrong content type, and does not properly escape the response from the ai1wm_export AJAX action, allowing an attacker to craft a request that when submitted by any visitor will inject arbitrary html or javascript into the response that will be executed in the victims session. Note: This requires knowledge of a static secret key
 </code>
 
-- [0xvinix/CVE-2022-2546](https://github.com/0xvinix/CVE-2022-2546)
+- [1ndrz/CVE-2022-2546](https://github.com/1ndrz/CVE-2022-2546)
 
 ### CVE-2022-2586 (2024-01-08)
 
@@ -33694,6 +33705,7 @@
 <code>When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC1 to 8.0.46 and 7.0.0 to 7.0.81 with HTTP PUTs enabled (e.g. via setting the readonly initialisation parameter of the Default servlet to false) it was possible to upload a JSP file to the server via a specially crafted request. This JSP could then be requested and any code it contained would be executed by the server.
 </code>
 
+- [cyberheartmi9/CVE-2017-12617](https://github.com/cyberheartmi9/CVE-2017-12617)
 - [devcoinfet/CVE-2017-12617](https://github.com/devcoinfet/CVE-2017-12617)
 - [qiantu88/CVE-2017-12617](https://github.com/qiantu88/CVE-2017-12617)
 - [ygouzerh/CVE-2017-12617](https://github.com/ygouzerh/CVE-2017-12617)
@@ -37862,6 +37874,7 @@
 <code>sql/password.c in Oracle MySQL 5.1.x before 5.1.63, 5.5.x before 5.5.24, and 5.6.x before 5.6.6, and MariaDB 5.1.x before 5.1.62, 5.2.x before 5.2.12, 5.3.x before 5.3.6, and 5.5.x before 5.5.23, when running in certain environments with certain implementations of the memcmp function, allows remote attackers to bypass authentication by repeatedly authenticating with the same incorrect password, which eventually causes a token comparison to succeed due to an improperly-checked return value.
 </code>
 
+- [Avinza/CVE-2012-2122-scanner](https://github.com/Avinza/CVE-2012-2122-scanner)
 - [cyberharsh/Oracle-mysql-CVE-2012-2122](https://github.com/cyberharsh/Oracle-mysql-CVE-2012-2122)
 - [zhangkaibin0921/CVE-2012-2122](https://github.com/zhangkaibin0921/CVE-2012-2122)
 
