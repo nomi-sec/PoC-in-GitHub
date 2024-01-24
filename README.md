@@ -26,9 +26,6 @@
 
 - [keru6k/Online-Admission-System-RCE-PoC](https://github.com/keru6k/Online-Admission-System-RCE-PoC)
 
-### CVE-2024-666
-- [xiaoqiao147/cve-2024-666](https://github.com/xiaoqiao147/cve-2024-666)
-
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -88,6 +85,13 @@
 </code>
 
 - [mindstorm38/ensimag-secu3a-cve-2024-22416](https://github.com/mindstorm38/ensimag-secu3a-cve-2024-22416)
+
+### CVE-2024-23897 (-)
+
+<code>Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
+</code>
+
+- [jenkinsci-cert/SECURITY-3314-3315](https://github.com/jenkinsci-cert/SECURITY-3314-3315)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -4858,6 +4862,13 @@
 - [hshivhare67/platform_framework_base_AOSP6_r22_CVE-2023-40121](https://github.com/hshivhare67/platform_framework_base_AOSP6_r22_CVE-2023-40121)
 - [hshivhare67/platform_framework_base_android-4.2.2_r1_CVE-2023-40121](https://github.com/hshivhare67/platform_framework_base_android-4.2.2_r1_CVE-2023-40121)
 
+### CVE-2023-40140 (2023-10-27)
+
+<code>In android_view_InputDevice_create of android_view_InputDevice.cpp, there is a possible way to execute arbitrary code due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [hshivhare67/platform_frameworks_base_android-4.2.2_r1_CVE-2023-40140](https://github.com/hshivhare67/platform_frameworks_base_android-4.2.2_r1_CVE-2023-40140)
+
 ### CVE-2023-40294 (2023-08-13)
 
 <code>libboron in Boron 2.0.8 has a heap-based buffer overflow in ur_parseBlockI at i_parse_blk.c.
@@ -5713,6 +5724,13 @@
 </code>
 
 - [afine-com/CVE-2023-45184](https://github.com/afine-com/CVE-2023-45184)
+
+### CVE-2023-45185 (2023-12-14)
+
+<code>IBM i Access Client Solutions 1.1.2 through 1.1.4 and 1.1.4.3 through 1.1.9.3 could allow an attacker to execute remote code.  Due to improper authority checks the attacker could perform operations on the PC under the user's authority.  IBM X-Force ID:  268273.
+</code>
+
+- [afine-com/CVE-2023-45185](https://github.com/afine-com/CVE-2023-45185)
 
 ### CVE-2023-45471 (2023-10-19)
 
@@ -11929,7 +11947,7 @@
 <code>Windows Mark of the Web Security Feature Bypass Vulnerability
 </code>
 
-- [NathanOrr101/CVE-2022-41049-POC](https://github.com/NathanOrr101/CVE-2022-41049-POC)
+- [Nathan01110011/CVE-2022-41049-POC](https://github.com/Nathan01110011/CVE-2022-41049-POC)
 
 ### CVE-2022-41076 (2022-12-13)
 
@@ -14333,6 +14351,7 @@
 - [LucasPDiniz/CVE-2021-4034](https://github.com/LucasPDiniz/CVE-2021-4034)
 - [lluriam19/CVE-2021-4034-Vuln](https://github.com/lluriam19/CVE-2021-4034-Vuln)
 - [Pol-Ruiz/CVE-2021-4034](https://github.com/Pol-Ruiz/CVE-2021-4034)
+- [cerodah/CVE-2021-4034](https://github.com/cerodah/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -14866,6 +14885,7 @@
 - [Asaad27/CVE-2021-22204-RSE](https://github.com/Asaad27/CVE-2021-22204-RSE)
 - [trganda/CVE-2021-22204](https://github.com/trganda/CVE-2021-22204)
 - [0xBruno/CVE-2021-22204](https://github.com/0xBruno/CVE-2021-22204)
+- [mr-tuhin/CVE-2021-22204-exiftool](https://github.com/mr-tuhin/CVE-2021-22204-exiftool)
 - [UNICORDev/exploit-CVE-2021-22204](https://github.com/UNICORDev/exploit-CVE-2021-22204)
 - [Akash7350/CVE-2021-22204](https://github.com/Akash7350/CVE-2021-22204)
 - [battleofthebots/dejavu](https://github.com/battleofthebots/dejavu)
@@ -20399,7 +20419,6 @@
 </code>
 
 - [jamf/CVE-2020-1206-POC](https://github.com/jamf/CVE-2020-1206-POC)
-- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
 - [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
