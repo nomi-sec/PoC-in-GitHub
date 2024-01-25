@@ -8,6 +8,7 @@
 
 - [horizon3ai/CVE-2024-0204](https://github.com/horizon3ai/CVE-2024-0204)
 - [cbeek-r7/CVE-2024-0204](https://github.com/cbeek-r7/CVE-2024-0204)
+- [m-cetin/CVE-2024-0204](https://github.com/m-cetin/CVE-2024-0204)
 
 ### CVE-2024-0679 (2024-01-20)
 
@@ -6234,7 +6235,7 @@
 
 ### CVE-2023-48197 (2023-11-15)
 
-<code>Cross Site Scripting vulnerability in Grocy v.4.0.3 allows a local attacker to execute arbitrary code and obtain sensitive information via the QR code function in the manageapikeys component.
+<code>Cross-Site Scripting (XSS) vulnerability in the ‘manageApiKeys’ component of Grocy 4.0.3 and earlier allows attackers to obtain victim's cookies when the victim clicks on the &quot;see QR code&quot; function.
 </code>
 
 - [nitipoom-jar/CVE-2023-48197](https://github.com/nitipoom-jar/CVE-2023-48197)
@@ -20419,6 +20420,7 @@
 </code>
 
 - [jamf/CVE-2020-1206-POC](https://github.com/jamf/CVE-2020-1206-POC)
+- [Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/CVE-2020-1206-Exploit)
 - [Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit](https://github.com/Info-Security-Solution-Kolkata/Smbleed-CVE-2020-1206-Exploit)
 - [datntsec/CVE-2020-1206](https://github.com/datntsec/CVE-2020-1206)
 
