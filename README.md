@@ -87,8 +87,17 @@
 
 - [mindstorm38/ensimag-secu3a-cve-2024-22416](https://github.com/mindstorm38/ensimag-secu3a-cve-2024-22416)
 
+### CVE-2024-22889
+- [shenhav12/CVE-2024-22889-Plone-v6.0.9](https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9)
+
+### CVE-2024-22922
+- [keru6k/CVE-2024-22922](https://github.com/keru6k/CVE-2024-22922)
+
 ### CVE-2024-22939
 - [NUDTTAN91/CVE-2024-22939](https://github.com/NUDTTAN91/CVE-2024-22939)
+
+### CVE-2024-22983
+- [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
 
 ### CVE-2024-23897 (-)
 
@@ -96,6 +105,7 @@
 </code>
 
 - [jenkinsci-cert/SECURITY-3314-3315](https://github.com/jenkinsci-cert/SECURITY-3314-3315)
+- [forsaken0127/CVE-2024-23897](https://github.com/forsaken0127/CVE-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -1212,6 +1222,7 @@
 - [TheRedDevil1/CVE-2023-7028](https://github.com/TheRedDevil1/CVE-2023-7028)
 - [Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab](https://github.com/Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab)
 - [thanhlam-attt/CVE-2023-7028](https://github.com/thanhlam-attt/CVE-2023-7028)
+- [Trackflaw/CVE-2023-7028-Docker](https://github.com/Trackflaw/CVE-2023-7028-Docker)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -1774,6 +1785,7 @@
 - [ga0we1/CVE-2023-22527_Confluence_RCE](https://github.com/ga0we1/CVE-2023-22527_Confluence_RCE)
 - [Drun1baby/CVE-2023-22527](https://github.com/Drun1baby/CVE-2023-22527)
 - [cleverg0d/CVE-2023-22527](https://github.com/cleverg0d/CVE-2023-22527)
+- [thanhlam-attt/CVE-2023-22527](https://github.com/thanhlam-attt/CVE-2023-22527)
 - [Manh130902/CVE-2023-22527-POC](https://github.com/Manh130902/CVE-2023-22527-POC)
 - [VNCERT-CC/CVE-2023-22527-confluence](https://github.com/VNCERT-CC/CVE-2023-22527-confluence)
 - [Vozec/CVE-2023-22527](https://github.com/Vozec/CVE-2023-22527)
@@ -1782,6 +1794,9 @@
 - [Chocapikk/CVE-2023-22527](https://github.com/Chocapikk/CVE-2023-22527)
 - [sanjai-AK47/CVE-2023-22527](https://github.com/sanjai-AK47/CVE-2023-22527)
 - [yoryio/CVE-2023-22527](https://github.com/yoryio/CVE-2023-22527)
+- [Privia-Security/CVE-2023-22527](https://github.com/Privia-Security/CVE-2023-22527)
+- [MaanVader/CVE-2023-22527-POC](https://github.com/MaanVader/CVE-2023-22527-POC)
+- [adminlove520/CVE-2023-22527](https://github.com/adminlove520/CVE-2023-22527)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -31707,6 +31722,13 @@
 - [nanabingies/Driver-RW](https://github.com/nanabingies/Driver-RW)
 - [nanabingies/CVE-2018-19321](https://github.com/nanabingies/CVE-2018-19321)
 
+### CVE-2018-19410 (2018-11-21)
+
+<code>PRTG Network Monitor before 18.2.40.1683 allows remote unauthenticated attackers to create users with read-write privileges (including administrator). A remote unauthenticated user can craft an HTTP request and override attributes of the 'include' directive in /public/login.htm and perform a Local File Inclusion attack, by including /api/addusers and executing it. By providing the 'id' and 'users' parameters, an unauthenticated attacker can create a user with read-write privileges (including administrator).
+</code>
+
+- [himash/CVE-2018-19410-POC](https://github.com/himash/CVE-2018-19410-POC)
+
 ### CVE-2018-19422 (2018-11-21)
 
 <code>/panel/uploads in Subrion CMS 4.2.1 allows remote attackers to execute arbitrary PHP code via a .pht or .phar file, because the .htaccess file omits these.
@@ -32990,7 +33012,6 @@
 - [cyberk1w1/CVE-2017-7529](https://github.com/cyberk1w1/CVE-2017-7529)
 - [cyberharsh/nginx-CVE-2017-7529](https://github.com/cyberharsh/nginx-CVE-2017-7529)
 - [daehee/nginx-overflow](https://github.com/daehee/nginx-overflow)
-- [gemboxteam/exploit-nginx-1.10.3](https://github.com/gemboxteam/exploit-nginx-1.10.3)
 - [fardeen-ahmed/Remote-Integer-Overflow-Vulnerability](https://github.com/fardeen-ahmed/Remote-Integer-Overflow-Vulnerability)
 - [mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability](https://github.com/mo3zj/Nginx-Remote-Integer-Overflow-Vulnerability)
 - [fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit](https://github.com/fu2x2000/CVE-2017-7529-Nginx---Remote-Integer-Overflow-Exploit)
@@ -33033,7 +33054,6 @@
 
 - [JrDw0/CVE-2017-7921-EXP](https://github.com/JrDw0/CVE-2017-7921-EXP)
 - [BurnyMcDull/CVE-2017-7921](https://github.com/BurnyMcDull/CVE-2017-7921)
-- [MisakaMikato/cve-2017-7921-golang](https://github.com/MisakaMikato/cve-2017-7921-golang)
 - [chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/chrisjd20/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor](https://github.com/p4tq/hikvision_CVE-2017-7921_auth_bypass_config_decryptor)
 - [201646613/CVE-2017-7921](https://github.com/201646613/CVE-2017-7921)
@@ -33656,7 +33676,6 @@
 - [HaoJame/CVE-2017-11882](https://github.com/HaoJame/CVE-2017-11882)
 - [5l1v3r1/rtfkit](https://github.com/5l1v3r1/rtfkit)
 - [ActorExpose/CVE-2017-11882](https://github.com/ActorExpose/CVE-2017-11882)
-- [Retr0-code/SignHere](https://github.com/Retr0-code/SignHere)
 - [lisinan988/CVE-2017-11882-exp](https://github.com/lisinan988/CVE-2017-11882-exp)
 - [tzwlhack/CVE-2017-11882](https://github.com/tzwlhack/CVE-2017-11882)
 - [Sunqiz/CVE-2017-11882-reproduction](https://github.com/Sunqiz/CVE-2017-11882-reproduction)
@@ -33728,7 +33747,6 @@
 - [cved-sources/cve-2017-12615](https://github.com/cved-sources/cve-2017-12615)
 - [ianxtianxt/CVE-2017-12615](https://github.com/ianxtianxt/CVE-2017-12615)
 - [cyberharsh/Tomcat-CVE-2017-12615](https://github.com/cyberharsh/Tomcat-CVE-2017-12615)
-- [w0x68y/CVE-2017-12615-EXP](https://github.com/w0x68y/CVE-2017-12615-EXP)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [xiaokp7/Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)
 
