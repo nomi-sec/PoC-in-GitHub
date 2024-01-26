@@ -93,10 +93,17 @@
 
 - [mindstorm38/ensimag-secu3a-cve-2024-22416](https://github.com/mindstorm38/ensimag-secu3a-cve-2024-22416)
 
+### CVE-2024-22534
+- [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
+
 ### CVE-2024-22889
 - [shenhav12/CVE-2024-22889-Plone-v6.0.9](https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9)
 
-### CVE-2024-22922
+### CVE-2024-22922 (-)
+
+<code>An issue in Projectworlds Vistor Management Systemin PHP v.1.0 allows a remtoe attacker to escalate privileges via a crafted script to the login page in the POST/index.php
+</code>
+
 - [keru6k/CVE-2024-22922](https://github.com/keru6k/CVE-2024-22922)
 
 ### CVE-2024-22939
@@ -122,6 +129,9 @@
 
 ### CVE-2024-23743
 - [V3x0r/CVE-2024-23743](https://github.com/V3x0r/CVE-2024-23743)
+
+### CVE-2024-23745
+- [louiselalanne/CVE-2024-23745](https://github.com/louiselalanne/CVE-2024-23745)
 
 ### CVE-2024-23897 (-)
 
@@ -5053,7 +5063,11 @@
 
 - [sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content](https://github.com/sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content)
 
-### CVE-2023-41474
+### CVE-2023-41474 (-)
+
+<code>Directory Traversal vulnerability in Ivanti Avalanche 6.3.4.153 allows a remote authenticated attacker to obtain sensitive information via the javax.faces.resource component.
+</code>
+
 - [JBalanza/CVE-2023-41474](https://github.com/JBalanza/CVE-2023-41474)
 
 ### CVE-2023-41507 (2023-09-05)
@@ -6715,7 +6729,11 @@
 
 - [Pastea/CVE-2023-51810](https://github.com/Pastea/CVE-2023-51810)
 
-### CVE-2023-52251
+### CVE-2023-52251 (-)
+
+<code>An issue discovered in provectus kafka-ui 0.4.0 through 0.7.1 allows remote attackers to execute arbitrary code via the q parameter of /api/clusters/local/topics/{topic}/messages.
+</code>
+
 - [BobTheShoplifter/CVE-2023-52251-POC](https://github.com/BobTheShoplifter/CVE-2023-52251-POC)
 
 
@@ -20603,6 +20621,7 @@
 - [Akash7350/CVE-2020-1472](https://github.com/Akash7350/CVE-2020-1472)
 - [botfather0x0/ZeroLogon-to-Shell](https://github.com/botfather0x0/ZeroLogon-to-Shell)
 - [logg-1/0logon](https://github.com/logg-1/0logon)
+- [whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC](https://github.com/whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC)
 
 ### CVE-2020-1493 (2020-08-17)
 
@@ -27222,6 +27241,7 @@
 - [anasbousselham/webminscan](https://github.com/anasbousselham/webminscan)
 - [zAbuQasem/CVE-2019-12840](https://github.com/zAbuQasem/CVE-2019-12840)
 - [WizzzStark/CVE-2019-12840.py](https://github.com/WizzzStark/CVE-2019-12840.py)
+- [Pol-Ruiz/PoC-CVE-2019-12840](https://github.com/Pol-Ruiz/PoC-CVE-2019-12840)
 
 ### CVE-2019-12889 (2019-08-20)
 
@@ -37459,9 +37479,6 @@
 
 - [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
 
-### CVE-2013-225
-- [PentestinGxRoot/ShellEvil](https://github.com/PentestinGxRoot/ShellEvil)
-
 ### CVE-2013-1081 (2013-03-11)
 
 <code>Directory traversal vulnerability in MDM.php in Novell ZENworks Mobile Management (ZMM) 2.6.1 and 2.7.0 allows remote attackers to include and execute arbitrary local files via the language parameter.
@@ -37489,13 +37506,6 @@
 </code>
 
 - [guhe120/CVE20131491-JIT](https://github.com/guhe120/CVE20131491-JIT)
-
-### CVE-2013-1690 (2013-06-25)
-
-<code>Mozilla Firefox before 22.0, Firefox ESR 17.x before 17.0.7, Thunderbird before 17.0.7, and Thunderbird ESR 17.x before 17.0.7 do not properly handle onreadystatechange events in conjunction with page reloading, which allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted web site that triggers an attempt to execute data at an unmapped memory location.
-</code>
-
-- [vlad902/annotated-fbi-tbb-exploit](https://github.com/vlad902/annotated-fbi-tbb-exploit)
 
 ### CVE-2013-1763 (2013-02-28)
 
@@ -37532,7 +37542,6 @@
 
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
-- [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 - [mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028)
 - [jptr218/nginxhack](https://github.com/jptr218/nginxhack)
@@ -37579,13 +37588,6 @@
 - [GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup)
 - [sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186)
 - [sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186)
-
-### CVE-2013-2217 (2013-09-23)
-
-<code>cache.py in Suds 0.4, when tempdir is set to None, allows local users to redirect SOAP queries and possibly have other unspecified impact via a symlink attack on a cache file with a predictable name in /tmp/suds/.
-</code>
-
-- [Osirium/suds](https://github.com/Osirium/suds)
 
 ### CVE-2013-2251 (2013-07-17)
 
