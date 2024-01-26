@@ -146,6 +146,8 @@
 
 - [jenkinsci-cert/SECURITY-3314-3315](https://github.com/jenkinsci-cert/SECURITY-3314-3315)
 - [forsaken0127/CVE-2024-23897](https://github.com/forsaken0127/CVE-2024-23897)
+- [binganao/CVE-2024-23897](https://github.com/binganao/CVE-2024-23897)
+- [h4x0r-dz/CVE-2024-23897](https://github.com/h4x0r-dz/CVE-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -1263,6 +1265,7 @@
 - [Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab](https://github.com/Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab)
 - [thanhlam-attt/CVE-2023-7028](https://github.com/thanhlam-attt/CVE-2023-7028)
 - [Trackflaw/CVE-2023-7028-Docker](https://github.com/Trackflaw/CVE-2023-7028-Docker)
+- [mochammadrafi/CVE-2023-7028](https://github.com/mochammadrafi/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -29506,6 +29509,7 @@
 </code>
 
 - [ppcrab/CVE-2018-5158](https://github.com/ppcrab/CVE-2018-5158)
+- [puzzle-tools/-CVE-2018-5158.pdf](https://github.com/puzzle-tools/-CVE-2018-5158.pdf)
 
 ### CVE-2018-5234 (2018-04-30)
 
