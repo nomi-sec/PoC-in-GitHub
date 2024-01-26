@@ -133,6 +133,12 @@
 ### CVE-2024-23745
 - [louiselalanne/CVE-2024-23745](https://github.com/louiselalanne/CVE-2024-23745)
 
+### CVE-2024-23746
+- [louiselalanne/CVE-2024-23746](https://github.com/louiselalanne/CVE-2024-23746)
+
+### CVE-2024-23747
+- [louiselalanne/CVE-2024-23747](https://github.com/louiselalanne/CVE-2024-23747)
+
 ### CVE-2024-23897 (-)
 
 <code>Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
@@ -37479,6 +37485,9 @@
 
 - [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
 
+### CVE-2013-225
+- [PentestinGxRoot/ShellEvil](https://github.com/PentestinGxRoot/ShellEvil)
+
 ### CVE-2013-1081 (2013-03-11)
 
 <code>Directory traversal vulnerability in MDM.php in Novell ZENworks Mobile Management (ZMM) 2.6.1 and 2.7.0 allows remote attackers to include and execute arbitrary local files via the language parameter.
@@ -37506,6 +37515,13 @@
 </code>
 
 - [guhe120/CVE20131491-JIT](https://github.com/guhe120/CVE20131491-JIT)
+
+### CVE-2013-1690 (2013-06-25)
+
+<code>Mozilla Firefox before 22.0, Firefox ESR 17.x before 17.0.7, Thunderbird before 17.0.7, and Thunderbird ESR 17.x before 17.0.7 do not properly handle onreadystatechange events in conjunction with page reloading, which allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted web site that triggers an attempt to execute data at an unmapped memory location.
+</code>
+
+- [vlad902/annotated-fbi-tbb-exploit](https://github.com/vlad902/annotated-fbi-tbb-exploit)
 
 ### CVE-2013-1763 (2013-02-28)
 
@@ -37542,6 +37558,7 @@
 
 - [danghvu/nginx-1.4.0](https://github.com/danghvu/nginx-1.4.0)
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
+- [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
 - [mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028)
 - [jptr218/nginxhack](https://github.com/jptr218/nginxhack)
@@ -37588,6 +37605,13 @@
 - [GrrrDog/ACEDcup](https://github.com/GrrrDog/ACEDcup)
 - [sa1g0n1337/Payload_CVE_2013_2186](https://github.com/sa1g0n1337/Payload_CVE_2013_2186)
 - [sa1g0n1337/CVE_2013_2186](https://github.com/sa1g0n1337/CVE_2013_2186)
+
+### CVE-2013-2217 (2013-09-23)
+
+<code>cache.py in Suds 0.4, when tempdir is set to None, allows local users to redirect SOAP queries and possibly have other unspecified impact via a symlink attack on a cache file with a predictable name in /tmp/suds/.
+</code>
+
+- [Osirium/suds](https://github.com/Osirium/suds)
 
 ### CVE-2013-2251 (2013-07-17)
 
