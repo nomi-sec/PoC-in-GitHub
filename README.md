@@ -148,6 +148,8 @@
 - [forsaken0127/CVE-2024-23897](https://github.com/forsaken0127/CVE-2024-23897)
 - [binganao/CVE-2024-23897](https://github.com/binganao/CVE-2024-23897)
 - [h4x0r-dz/CVE-2024-23897](https://github.com/h4x0r-dz/CVE-2024-23897)
+- [xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897)
+- [vmtyan/poc-cve-2024-23897](https://github.com/vmtyan/poc-cve-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -6179,6 +6181,9 @@
 - [W01fh4cker/CVE-2023-47246-EXP](https://github.com/W01fh4cker/CVE-2023-47246-EXP)
 - [rainbowhatrkn/CVE-2023-47246](https://github.com/rainbowhatrkn/CVE-2023-47246)
 - [tucommenceapousser/CVE-2023-47246](https://github.com/tucommenceapousser/CVE-2023-47246)
+
+### CVE-2023-47400
+- [LucasVanHaaren/CVE-2023-47400](https://github.com/LucasVanHaaren/CVE-2023-47400)
 
 ### CVE-2023-47437 (2023-11-27)
 
@@ -14328,7 +14333,7 @@
 - [tahaafarooq/poppy](https://github.com/tahaafarooq/poppy)
 - [DosAmp/pkwned](https://github.com/DosAmp/pkwned)
 - [PwnFunction/CVE-2021-4034](https://github.com/PwnFunction/CVE-2021-4034)
-- [rayheffer/CVE-2021-4034](https://github.com/rayheffer/CVE-2021-4034)
+- [locksec/CVE-2021-4034](https://github.com/locksec/CVE-2021-4034)
 - [deoxykev/CVE-2021-4034-Rust](https://github.com/deoxykev/CVE-2021-4034-Rust)
 - [c3c/CVE-2021-4034](https://github.com/c3c/CVE-2021-4034)
 - [Fato07/Pwnkit-exploit](https://github.com/Fato07/Pwnkit-exploit)
