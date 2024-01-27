@@ -19234,7 +19234,7 @@
 - [pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC](https://github.com/pierpaolosestito-dev/Log4Shell-CVE-2021-44228-PoC)
 - [Sma-Das/Log4j-PoC](https://github.com/Sma-Das/Log4j-PoC)
 - [heeloo123/CVE-2021-44228](https://github.com/heeloo123/CVE-2021-44228)
-- [s3buahapel/log4shell-vulnweb](https://github.com/s3buahapel/log4shell-vulnweb)
+- [53buahapel/log4shell-vulnweb](https://github.com/53buahapel/log4shell-vulnweb)
 - [demonrvm/Log4ShellRemediation](https://github.com/demonrvm/Log4ShellRemediation)
 - [funcid/log4j-exploit-fork-bomb](https://github.com/funcid/log4j-exploit-fork-bomb)
 - [MrHarshvardhan/PY-Log4j-RCE-Scanner](https://github.com/MrHarshvardhan/PY-Log4j-RCE-Scanner)
