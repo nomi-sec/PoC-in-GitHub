@@ -93,11 +93,17 @@
 
 - [mindstorm38/ensimag-secu3a-cve-2024-22416](https://github.com/mindstorm38/ensimag-secu3a-cve-2024-22416)
 
+### CVE-2024-22515
+- [Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution](https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution)
+
 ### CVE-2024-22534
 - [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
 
 ### CVE-2024-22889
 - [shenhav12/CVE-2024-22889-Plone-v6.0.9](https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9)
+
+### CVE-2024-22894
+- [Jaarden/CVE-2024-22894](https://github.com/Jaarden/CVE-2024-22894)
 
 ### CVE-2024-22922 (-)
 
@@ -151,6 +157,8 @@
 - [xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897)
 - [vmtyan/poc-cve-2024-23897](https://github.com/vmtyan/poc-cve-2024-23897)
 - [yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897)
+- [CKevens/CVE-2024-23897](https://github.com/CKevens/CVE-2024-23897)
+- [iota4/PoC-jenkins-rce_CVE-2024-23897](https://github.com/iota4/PoC-jenkins-rce_CVE-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -1245,6 +1253,7 @@
 </code>
 
 - [UlyssesSaicha/CVE-2023-6875](https://github.com/UlyssesSaicha/CVE-2023-6875)
+- [gbrsh/CVE-2023-6875](https://github.com/gbrsh/CVE-2023-6875)
 
 ### CVE-2023-6895 (2023-12-17)
 
@@ -14436,6 +14445,7 @@
 - [lluriam19/CVE-2021-4034-Vuln](https://github.com/lluriam19/CVE-2021-4034-Vuln)
 - [Pol-Ruiz/CVE-2021-4034](https://github.com/Pol-Ruiz/CVE-2021-4034)
 - [cerodah/CVE-2021-4034](https://github.com/cerodah/CVE-2021-4034)
+- [FancySauce/PwnKit-CVE-2021-4034](https://github.com/FancySauce/PwnKit-CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
