@@ -150,6 +150,7 @@
 - [h4x0r-dz/CVE-2024-23897](https://github.com/h4x0r-dz/CVE-2024-23897)
 - [xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897)
 - [vmtyan/poc-cve-2024-23897](https://github.com/vmtyan/poc-cve-2024-23897)
+- [yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -3063,6 +3064,13 @@
 </code>
 
 - [ahrixia/CVE-2023-30256](https://github.com/ahrixia/CVE-2023-30256)
+
+### CVE-2023-30258 (2023-06-23)
+
+<code>Command Injection vulnerability in MagnusSolution magnusbilling 6.x and 7.x allows remote attackers to run arbitrary commands via unauthenticated HTTP request.
+</code>
+
+- [gy741/CVE-2023-30258-setup](https://github.com/gy741/CVE-2023-30258-setup)
 
 ### CVE-2023-30347 (2023-06-22)
 
@@ -9936,7 +9944,7 @@
 <code>By using a link with &lt;code&gt;rel=&quot;localization&quot;&lt;/code&gt; a use-after-free could have been triggered by destroying an object during JavaScript execution and then referencing the object through a freed pointer, leading to a potential exploitable crash. This vulnerability affects Thunderbird &lt; 91.8, Firefox &lt; 99, and Firefox ESR &lt; 91.8.
 </code>
 
-- [Pwnrin/CVE-2022-28282](https://github.com/Pwnrin/CVE-2022-28282)
+- [MagicPwnrin/CVE-2022-28282](https://github.com/MagicPwnrin/CVE-2022-28282)
 
 ### CVE-2022-28346 (2022-04-12)
 
@@ -10452,7 +10460,7 @@
 <code>Windows Print Spooler Elevation of Privilege Vulnerability
 </code>
 
-- [Pwnrin/CVE-2022-30206](https://github.com/Pwnrin/CVE-2022-30206)
+- [MagicPwnrin/CVE-2022-30206](https://github.com/MagicPwnrin/CVE-2022-30206)
 - [Malwareman007/CVE-2022-30206](https://github.com/Malwareman007/CVE-2022-30206)
 
 ### CVE-2022-30216 (2022-07-12)
@@ -11155,7 +11163,7 @@
 <code>Windows GDI Elevation of Privilege Vulnerability
 </code>
 
-- [Pwnrin/CVE-2022-34729](https://github.com/Pwnrin/CVE-2022-34729)
+- [MagicPwnrin/CVE-2022-34729](https://github.com/MagicPwnrin/CVE-2022-34729)
 
 ### CVE-2022-34753 (2022-07-13)
 
@@ -14127,7 +14135,7 @@
 <code>An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation ClientHello message from a client. If a TLSv1.2 renegotiation ClientHello omits the signature_algorithms extension (where it was present in the initial ClientHello), but includes a signature_algorithms_cert extension then a NULL pointer dereference will result, leading to a crash and a denial of service attack. A server is only vulnerable if it has TLSv1.2 and renegotiation enabled (which is the default configuration). OpenSSL TLS clients are not impacted by this issue. All OpenSSL 1.1.1 versions are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1k. OpenSSL 1.0.2 is not impacted by this issue. Fixed in OpenSSL 1.1.1k (Affected 1.1.1-1.1.1j).
 </code>
 
-- [terorie/cve-2021-3449](https://github.com/terorie/cve-2021-3449)
+- [riptl/cve-2021-3449](https://github.com/riptl/cve-2021-3449)
 
 ### CVE-2021-3490 (2021-06-03)
 
