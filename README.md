@@ -93,8 +93,12 @@
 
 - [mindstorm38/ensimag-secu3a-cve-2024-22416](https://github.com/mindstorm38/ensimag-secu3a-cve-2024-22416)
 
+### CVE-2024-22514
+- [Orange-418/CVE-2024-22514-Remote-Code-Execution](https://github.com/Orange-418/CVE-2024-22514-Remote-Code-Execution)
+
 ### CVE-2024-22515
 - [Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution](https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution)
+- [Orange-418/CVE-2024-22515-File-Upload-Vulnerability](https://github.com/Orange-418/CVE-2024-22515-File-Upload-Vulnerability)
 
 ### CVE-2024-22534
 - [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
@@ -159,6 +163,7 @@
 - [yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897)
 - [CKevens/CVE-2024-23897](https://github.com/CKevens/CVE-2024-23897)
 - [iota4/PoC-jenkins-rce_CVE-2024-23897](https://github.com/iota4/PoC-jenkins-rce_CVE-2024-23897)
+- [wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
