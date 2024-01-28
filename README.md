@@ -189,6 +189,7 @@
 - [iota4/PoC-jenkins-rce_CVE-2024-23897](https://github.com/iota4/PoC-jenkins-rce_CVE-2024-23897)
 - [wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897)
 - [Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897)
+- [raheel0x01/CVE-2024-23897](https://github.com/raheel0x01/CVE-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -1061,6 +1062,7 @@
 - [snurkeburk/Looney-Tunables](https://github.com/snurkeburk/Looney-Tunables)
 - [puckiestyle/CVE-2023-4911](https://github.com/puckiestyle/CVE-2023-4911)
 - [yanfernandess/Looney-Tunables-CVE-2023-4911](https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911)
+- [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -1308,6 +1310,7 @@
 - [thanhlam-attt/CVE-2023-7028](https://github.com/thanhlam-attt/CVE-2023-7028)
 - [Trackflaw/CVE-2023-7028-Docker](https://github.com/Trackflaw/CVE-2023-7028-Docker)
 - [mochammadrafi/CVE-2023-7028](https://github.com/mochammadrafi/CVE-2023-7028)
+- [hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit)
 
 ### CVE-2023-7172 (2023-12-30)
 
