@@ -122,22 +122,46 @@
 ### CVE-2024-22983
 - [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
 
-### CVE-2024-23738
+### CVE-2024-23738 (-)
+
+<code>An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+</code>
+
 - [V3x0r/CVE-2024-23738](https://github.com/V3x0r/CVE-2024-23738)
 
-### CVE-2024-23739
+### CVE-2024-23739 (-)
+
+<code>An issue in Discord for macOS version 0.0.291 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+</code>
+
 - [V3x0r/CVE-2024-23739](https://github.com/V3x0r/CVE-2024-23739)
 
-### CVE-2024-23740
+### CVE-2024-23740 (-)
+
+<code>An issue in Kap for macOS version 3.6.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+</code>
+
 - [V3x0r/CVE-2024-23740](https://github.com/V3x0r/CVE-2024-23740)
 
-### CVE-2024-23741
+### CVE-2024-23741 (-)
+
+<code>An issue in Hyper on macOS version 3.4.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+</code>
+
 - [V3x0r/CVE-2024-23741](https://github.com/V3x0r/CVE-2024-23741)
 
-### CVE-2024-23742
+### CVE-2024-23742 (-)
+
+<code>An issue in Loom on macOS version 0.196.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+</code>
+
 - [V3x0r/CVE-2024-23742](https://github.com/V3x0r/CVE-2024-23742)
 
-### CVE-2024-23743
+### CVE-2024-23743 (-)
+
+<code>An issue in Notion for macOS version 3.1.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments components.
+</code>
+
 - [V3x0r/CVE-2024-23743](https://github.com/V3x0r/CVE-2024-23743)
 
 ### CVE-2024-23745
@@ -164,6 +188,7 @@
 - [CKevens/CVE-2024-23897](https://github.com/CKevens/CVE-2024-23897)
 - [iota4/PoC-jenkins-rce_CVE-2024-23897](https://github.com/iota4/PoC-jenkins-rce_CVE-2024-23897)
 - [wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897)
+- [Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
