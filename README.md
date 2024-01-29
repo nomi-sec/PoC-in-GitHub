@@ -190,6 +190,7 @@
 - [wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897)
 - [Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897)
 - [raheel0x01/CVE-2024-23897](https://github.com/raheel0x01/CVE-2024-23897)
+- [viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -8530,7 +8531,6 @@
 - [SiJiDo/CVE-2022-22947](https://github.com/SiJiDo/CVE-2022-22947)
 - [qq87234770/CVE-2022-22947](https://github.com/qq87234770/CVE-2022-22947)
 - [Zh0um1/CVE-2022-22947](https://github.com/Zh0um1/CVE-2022-22947)
-- [wallbreak1991/cve-2022-22947](https://github.com/wallbreak1991/cve-2022-22947)
 - [Le1a/CVE-2022-22947](https://github.com/Le1a/CVE-2022-22947)
 
 ### CVE-2022-22948 (2022-03-29)
@@ -18049,7 +18049,7 @@
 - [whoissecure/CVE-2021-41728](https://github.com/whoissecure/CVE-2021-41728)
 
 ### CVE-2021-41730
-- [IBUILI/CVE-2021-41730](https://github.com/IBUILI/CVE-2021-41730)
+- [yezeting/CVE-2021-41730](https://github.com/yezeting/CVE-2021-41730)
 
 ### CVE-2021-41773 (2021-10-05)
 
