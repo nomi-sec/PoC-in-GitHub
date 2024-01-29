@@ -179,7 +179,6 @@
 </code>
 
 - [jenkinsci-cert/SECURITY-3314-3315](https://github.com/jenkinsci-cert/SECURITY-3314-3315)
-- [forsaken0127/CVE-2024-23897](https://github.com/forsaken0127/CVE-2024-23897)
 - [binganao/CVE-2024-23897](https://github.com/binganao/CVE-2024-23897)
 - [h4x0r-dz/CVE-2024-23897](https://github.com/h4x0r-dz/CVE-2024-23897)
 - [xaitax/CVE-2024-23897](https://github.com/xaitax/CVE-2024-23897)
@@ -191,6 +190,7 @@
 - [Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897)
 - [raheel0x01/CVE-2024-23897](https://github.com/raheel0x01/CVE-2024-23897)
 - [viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897)
+- [jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
