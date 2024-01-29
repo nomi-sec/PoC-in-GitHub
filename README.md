@@ -1294,6 +1294,9 @@
 
 - [FuBoLuSec/CVE-2023-6895](https://github.com/FuBoLuSec/CVE-2023-6895)
 
+### CVE-2023-6933
+- [w2xim3/CVE-2023-6933](https://github.com/w2xim3/CVE-2023-6933)
+
 ### CVE-2023-7028 (2024-01-12)
 
 <code>An issue has been discovered in GitLab CE/EE affecting all versions from 16.1 prior to 16.1.6, 16.2 prior to 16.2.9, 16.3 prior to 16.3.7, 16.4 prior to 16.4.5, 16.5 prior to 16.5.6, 16.6 prior to 16.6.4, and 16.7 prior to 16.7.2 in which user account password reset emails could be delivered to an unverified email address.
@@ -9497,6 +9500,7 @@
 
 - [hosch3n/FastjsonVulns](https://github.com/hosch3n/FastjsonVulns)
 - [nerowander/CVE-2022-25845-exploit](https://github.com/nerowander/CVE-2022-25845-exploit)
+- [scabench/fastjson-tp1fn1](https://github.com/scabench/fastjson-tp1fn1)
 
 ### CVE-2022-25927 (2023-01-25)
 
@@ -38939,6 +38943,7 @@
 - [MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE)
 - [0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447)
 - [ShivamDey/Samba-CVE-2007-2447-Exploit](https://github.com/ShivamDey/Samba-CVE-2007-2447-Exploit)
+- [Juantos/cve-2007-2447](https://github.com/Juantos/cve-2007-2447)
 
 ### CVE-2007-3830 (2007-07-17)
 
