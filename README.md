@@ -170,7 +170,11 @@
 ### CVE-2024-23746
 - [louiselalanne/CVE-2024-23746](https://github.com/louiselalanne/CVE-2024-23746)
 
-### CVE-2024-23747
+### CVE-2024-23747 (-)
+
+<code>The Moderna Sistemas ModernaNet Hospital Management System 2024 is susceptible to an Insecure Direct Object Reference (IDOR) vulnerability. This vulnerability resides in the system's handling of user data access through a /Modernanet/LAUDO/LAU0000100/Laudo?id= URI. By manipulating this id parameter, an attacker can gain access to sensitive medical information.
+</code>
+
 - [louiselalanne/CVE-2024-23747](https://github.com/louiselalanne/CVE-2024-23747)
 
 ### CVE-2024-23897 (-)
@@ -1297,6 +1301,9 @@
 
 ### CVE-2023-6933
 - [w2xim3/CVE-2023-6933](https://github.com/w2xim3/CVE-2023-6933)
+
+### CVE-2023-6985
+- [RandomRobbieBF/CVE-2023-6985](https://github.com/RandomRobbieBF/CVE-2023-6985)
 
 ### CVE-2023-7028 (2024-01-12)
 
@@ -4117,6 +4124,13 @@
 </code>
 
 - [tin-z/CVE-2023-35086-POC](https://github.com/tin-z/CVE-2023-35086-POC)
+
+### CVE-2023-35636 (2023-12-12)
+
+<code>Microsoft Outlook Information Disclosure Vulnerability
+</code>
+
+- [duy-31/CVE-2023-35636](https://github.com/duy-31/CVE-2023-35636)
 
 ### CVE-2023-35671 (2023-09-11)
 
