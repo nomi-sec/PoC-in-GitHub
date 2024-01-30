@@ -106,14 +106,14 @@
 ### CVE-2024-22889
 - [shenhav12/CVE-2024-22889-Plone-v6.0.9](https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9)
 
-### CVE-2024-22894 (-)
+### CVE-2024-22894 (2024-01-30)
 
 <code>An issue in AIT-Deutschland Alpha Innotec Heatpumps wp2reg-V.3.88.0-9015 and Novelan Heatpumps wp2reg-V.3.88.0-9015, allows remote attackers to execute arbitrary code via the password component in the shadow file.
 </code>
 
 - [Jaarden/CVE-2024-22894](https://github.com/Jaarden/CVE-2024-22894)
 
-### CVE-2024-22922 (-)
+### CVE-2024-22922 (2024-01-25)
 
 <code>An issue in Projectworlds Vistor Management Systemin PHP v.1.0 allows a remtoe attacker to escalate privileges via a crafted script to the login page in the POST/index.php
 </code>
@@ -126,42 +126,42 @@
 ### CVE-2024-22983
 - [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
 
-### CVE-2024-23738 (-)
+### CVE-2024-23738 (2024-01-27)
 
 <code>An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
 - [V3x0r/CVE-2024-23738](https://github.com/V3x0r/CVE-2024-23738)
 
-### CVE-2024-23739 (-)
+### CVE-2024-23739 (2024-01-27)
 
 <code>An issue in Discord for macOS version 0.0.291 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
 - [V3x0r/CVE-2024-23739](https://github.com/V3x0r/CVE-2024-23739)
 
-### CVE-2024-23740 (-)
+### CVE-2024-23740 (2024-01-27)
 
 <code>An issue in Kap for macOS version 3.6.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
 - [V3x0r/CVE-2024-23740](https://github.com/V3x0r/CVE-2024-23740)
 
-### CVE-2024-23741 (-)
+### CVE-2024-23741 (2024-01-27)
 
 <code>An issue in Hyper on macOS version 3.4.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
 - [V3x0r/CVE-2024-23741](https://github.com/V3x0r/CVE-2024-23741)
 
-### CVE-2024-23742 (-)
+### CVE-2024-23742 (2024-01-27)
 
 <code>An issue in Loom on macOS version 0.196.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
 - [V3x0r/CVE-2024-23742](https://github.com/V3x0r/CVE-2024-23742)
 
-### CVE-2024-23743 (-)
+### CVE-2024-23743 (2024-01-27)
 
 <code>An issue in Notion for macOS version 3.1.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments components.
 </code>
@@ -174,14 +174,14 @@
 ### CVE-2024-23746
 - [louiselalanne/CVE-2024-23746](https://github.com/louiselalanne/CVE-2024-23746)
 
-### CVE-2024-23747 (-)
+### CVE-2024-23747 (2024-01-29)
 
 <code>The Moderna Sistemas ModernaNet Hospital Management System 2024 is susceptible to an Insecure Direct Object Reference (IDOR) vulnerability. This vulnerability resides in the system's handling of user data access through a /Modernanet/LAUDO/LAU0000100/Laudo?id= URI. By manipulating this id parameter, an attacker can gain access to sensitive medical information.
 </code>
 
 - [louiselalanne/CVE-2024-23747](https://github.com/louiselalanne/CVE-2024-23747)
 
-### CVE-2024-23897 (-)
+### CVE-2024-23897 (2024-01-24)
 
 <code>Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
 </code>
@@ -5157,7 +5157,7 @@
 
 - [sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content](https://github.com/sromanhu/CVE-2023-41436-CSZ-CMS-Stored-XSS---Pages-Content)
 
-### CVE-2023-41474 (-)
+### CVE-2023-41474 (2024-01-25)
 
 <code>Directory Traversal vulnerability in Ivanti Avalanche 6.3.4.153 allows a remote authenticated attacker to obtain sensitive information via the javax.faces.resource component.
 </code>
@@ -5430,7 +5430,7 @@
 
 - [MateusTesser/CVE-2023-43284](https://github.com/MateusTesser/CVE-2023-43284)
 
-### CVE-2023-43317 (-)
+### CVE-2023-43317 (2024-01-24)
 
 <code>An issue in Coign CRM Portal v.06.06 allows a remote attacker to escalate privileges via the userPermissionsList parameter in Session Storage component.
 </code>
@@ -5598,13 +5598,6 @@
 
 - [s3cb0y/CVE-2023-43770-POC](https://github.com/s3cb0y/CVE-2023-43770-POC)
 - [knight0x07/CVE-2023-43770-PoC](https://github.com/knight0x07/CVE-2023-43770-PoC)
-
-### CVE-2023-43776 (2023-10-17)
-
-<code>Eaton easyE4 PLC offers a device password protection functionality to facilitate a secure connection and prevent unauthorized access. It was observed that the device password was stored with a weak encoding algorithm in the easyE4 program file when exported to SD card (*.PRG file ending).
-</code>
-
-- [SySS-Research/easy-password-recovery](https://github.com/SySS-Research/easy-password-recovery)
 
 ### CVE-2023-43786 (2023-10-10)
 
@@ -5918,6 +5911,13 @@
 </code>
 
 - [michalbednarski/TheLastBundleMismatch](https://github.com/michalbednarski/TheLastBundleMismatch)
+
+### CVE-2023-45779 (2023-12-04)
+
+<code>In the APEX module framework of AOSP, there is a possible malicious update to platform components due to improperly used crypto. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. More details on this can be found in the links below:\n\n https://rtx.meta.security/exploitation/2024/01/30/Android-vendors-APEX-test-keys.html https://rtx.meta.security/exploitation/2024/01/30/Android-vendors-APEX-test-keys.html \n\n https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-wmcc-g67r-9962 https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-wmcc-g67r-9962 \n\n https://www.fairphone.com/en/2023/12/22/security-update-apex-modules-vulnerability-fixed https://www.fairphone.com/en/2023/12/22/security-update-apex-modules-vulnerability-fixed \n
+</code>
+
+- [metaredteam/rtx-cve-2023-45779](https://github.com/metaredteam/rtx-cve-2023-45779)
 
 ### CVE-2023-45828
 - [RandomRobbieBF/CVE-2023-45828](https://github.com/RandomRobbieBF/CVE-2023-45828)
@@ -6484,7 +6484,7 @@
 
 - [actuator/com.simplemobiletools.dialer](https://github.com/actuator/com.simplemobiletools.dialer)
 
-### CVE-2023-49038 (-)
+### CVE-2023-49038 (2024-01-29)
 
 <code>Command injection in the ping utility on Buffalo LS210D 1.78-0.03 allows a remote authenticated attacker to inject arbitrary commands onto the NAS as root.
 </code>
@@ -6832,7 +6832,7 @@
 
 - [Pastea/CVE-2023-51810](https://github.com/Pastea/CVE-2023-51810)
 
-### CVE-2023-52251 (-)
+### CVE-2023-52251 (2024-01-25)
 
 <code>An issue discovered in provectus kafka-ui 0.4.0 through 0.7.1 allows remote attackers to execute arbitrary code via the q parameter of /api/clusters/local/topics/{topic}/messages.
 </code>
@@ -18076,13 +18076,6 @@
 
 - [likeww/CVE-2021-41653](https://github.com/likeww/CVE-2021-41653)
 
-### CVE-2021-41728 (2021-10-28)
-
-<code>Cross Site Scripting (XSS) vulnerability exists in Sourcecodester News247 CMS 1.0 via the search function in articles.
-</code>
-
-- [whoissecure/CVE-2021-41728](https://github.com/whoissecure/CVE-2021-41728)
-
 ### CVE-2021-41730
 - [yezeting/CVE-2021-41730](https://github.com/yezeting/CVE-2021-41730)
 
@@ -18583,19 +18576,12 @@
 
 - [Skotizo/CVE-2021-43129](https://github.com/Skotizo/CVE-2021-43129)
 
-### CVE-2021-43140 (2021-11-03)
-
-<code>SQL Injection vulnerability exists in Sourcecodester. Simple Subscription Website 1.0. via the login.
-</code>
-
-- [whoissecure/CVE-2021-43140](https://github.com/whoissecure/CVE-2021-43140)
-
 ### CVE-2021-43141 (2021-11-03)
 
 <code>Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Simple Subscription Website 1.0 via the id parameter in plan_application.
 </code>
 
-- [whoissecure/CVE-2021-43141](https://github.com/whoissecure/CVE-2021-43141)
+- [Jeromeyoung/CVE-2021-43141](https://github.com/Jeromeyoung/CVE-2021-43141)
 
 ### CVE-2021-43150
 - [Zeyad-Azima/OpayForMe](https://github.com/Zeyad-Azima/OpayForMe)
