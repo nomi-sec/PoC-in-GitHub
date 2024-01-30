@@ -106,7 +106,11 @@
 ### CVE-2024-22889
 - [shenhav12/CVE-2024-22889-Plone-v6.0.9](https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9)
 
-### CVE-2024-22894
+### CVE-2024-22894 (-)
+
+<code>An issue in AIT-Deutschland Alpha Innotec Heatpumps wp2reg-V.3.88.0-9015 and Novelan Heatpumps wp2reg-V.3.88.0-9015, allows remote attackers to execute arbitrary code via the password component in the shadow file.
+</code>
+
 - [Jaarden/CVE-2024-22894](https://github.com/Jaarden/CVE-2024-22894)
 
 ### CVE-2024-22922 (-)
@@ -1274,6 +1278,9 @@
 
 ### CVE-2023-6663
 - [cli-ish/CVE-2023-6663](https://github.com/cli-ish/CVE-2023-6663)
+
+### CVE-2023-6700
+- [RandomRobbieBF/CVE-2023-6700](https://github.com/RandomRobbieBF/CVE-2023-6700)
 
 ### CVE-2023-6710 (2023-12-12)
 
@@ -4422,6 +4429,7 @@
 - [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
 - [ditekshen/ansible-cve-2023-36845](https://github.com/ditekshen/ansible-cve-2023-36845)
 - [Asbawy/Automation-for-Juniper-cve-2023-36845](https://github.com/Asbawy/Automation-for-Juniper-cve-2023-36845)
+- [jahithoque/Juniper-CVE-2023-36845-Mass-Hunting](https://github.com/jahithoque/Juniper-CVE-2023-36845-Mass-Hunting)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -4616,6 +4624,13 @@
 </code>
 
 - [Phamchie/CVE-2023-37786](https://github.com/Phamchie/CVE-2023-37786)
+
+### CVE-2023-37790 (2023-11-08)
+
+<code>Jaspersoft Clarity PPM version 14.3.0.298 was discovered to contain an arbitrary file upload vulnerability via the Profile Picture Upload function.
+</code>
+
+- [kaizensecurity/CVE-2023-37790](https://github.com/kaizensecurity/CVE-2023-37790)
 
 ### CVE-2023-37800
 - [TraiLeR2/CVE-2023-37800](https://github.com/TraiLeR2/CVE-2023-37800)
@@ -6772,6 +6787,7 @@
 - [Sonicrrrr/CVE-2023-51385](https://github.com/Sonicrrrr/CVE-2023-51385)
 - [farliy-hacker/CVE-2023-51385](https://github.com/farliy-hacker/CVE-2023-51385)
 - [farliy-hacker/CVE-2023-51385-save](https://github.com/farliy-hacker/CVE-2023-51385-save)
+- [2048JiaLi/CVE-2023-51385](https://github.com/2048JiaLi/CVE-2023-51385)
 
 ### CVE-2023-51467 (2023-12-26)
 
