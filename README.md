@@ -513,7 +513,6 @@
 - [insoxin/CVE-2023-2033](https://github.com/insoxin/CVE-2023-2033)
 - [sandumjacob/CVE-2023-2033-Analysis](https://github.com/sandumjacob/CVE-2023-2033-Analysis)
 - [gretchenfrage/CVE-2023-2033-analysis](https://github.com/gretchenfrage/CVE-2023-2033-analysis)
-- [WalccDev/CVE-2023-2033](https://github.com/WalccDev/CVE-2023-2033)
 - [mistymntncop/CVE-2023-2033](https://github.com/mistymntncop/CVE-2023-2033)
 - [tianstcht/CVE-2023-2033](https://github.com/tianstcht/CVE-2023-2033)
 
@@ -4422,6 +4421,7 @@
 - [simrotion13/CVE-2023-36845](https://github.com/simrotion13/CVE-2023-36845)
 - [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
 - [ditekshen/ansible-cve-2023-36845](https://github.com/ditekshen/ansible-cve-2023-36845)
+- [Asbawy/Automation-for-Juniper-cve-2023-36845](https://github.com/Asbawy/Automation-for-Juniper-cve-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -5228,6 +5228,7 @@
 
 - [zaenhaxor/CVE-2023-41892](https://github.com/zaenhaxor/CVE-2023-41892)
 - [Faelian/CraftCMS_CVE-2023-41892](https://github.com/Faelian/CraftCMS_CVE-2023-41892)
+- [diegaccio/Craft-CMS-Exploit](https://github.com/diegaccio/Craft-CMS-Exploit)
 
 ### CVE-2023-41991 (2023-09-21)
 
@@ -6468,7 +6469,11 @@
 
 - [actuator/com.simplemobiletools.dialer](https://github.com/actuator/com.simplemobiletools.dialer)
 
-### CVE-2023-49038
+### CVE-2023-49038 (-)
+
+<code>Command injection in the ping utility on Buffalo LS210D 1.78-0.03 allows a remote authenticated attacker to inject arbitrary commands onto the NAS as root.
+</code>
+
 - [christopher-pace/CVE-2023-49038](https://github.com/christopher-pace/CVE-2023-49038)
 
 ### CVE-2023-49052 (2023-11-30)
