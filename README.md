@@ -1281,6 +1281,13 @@
 
 - [Arszilla/CVE-2023-5808](https://github.com/Arszilla/CVE-2023-5808)
 
+### CVE-2023-5961 (2023-12-23)
+
+<code>A Cross-Site Request Forgery (CSRF) vulnerability has been identified in ioLogik E1200 Series firmware versions v3.3 and prior. An attacker can exploit this vulnerability to trick a client into making an unintentional request to the web server, which will be treated as an authentic request. This vulnerability may lead an attacker to perform operations on behalf of the victimized user.\n\n
+</code>
+
+- [HadessCS/CVE-2023-5961](https://github.com/HadessCS/CVE-2023-5961)
+
 ### CVE-2023-5965 (2023-11-30)
 
 <code>An authenticated privileged attacker could upload a specially crafted zip to the EspoCRM server in version 7.2.5, via the update form, which could lead to arbitrary PHP code execution.
@@ -1294,6 +1301,9 @@
 </code>
 
 - [pedrojosenavasperez/cve-2023-5966](https://github.com/pedrojosenavasperez/cve-2023-5966)
+
+### CVE-2023-6036
+- [pctripsesp/CVE-2023-6036](https://github.com/pctripsesp/CVE-2023-6036)
 
 ### CVE-2023-6063 (2023-12-04)
 
@@ -3964,6 +3974,13 @@
 </code>
 
 - [horizon3ai/CVE-2023-34051](https://github.com/horizon3ai/CVE-2023-34051)
+
+### CVE-2023-34092 (2023-06-01)
+
+<code>Vite provides frontend tooling. Prior to versions 2.9.16, 3.2.7, 4.0.5, 4.1.5, 4.2.3, and 4.3.9, Vite Server Options (`server.fs.deny`) can be bypassed using double forward-slash (//) allows any unauthenticated user to read file from the Vite root-path of the application including the default `fs.deny` settings (`['.env', '.env.*', '*.{crt,pem}']`). Only users explicitly exposing the Vite dev server to the network (using `--host` or `server.host` config option) are affected, and only files in the immediate Vite project root folder could be exposed. This issue is fixed in vite@4.3.9, vite@4.2.3, vite@4.1.5, vite@4.0.5, vite@3.2.7, and vite@2.9.16.
+</code>
+
+- [FlapyPan/test-cve-2023-34092](https://github.com/FlapyPan/test-cve-2023-34092)
 
 ### CVE-2023-34096 (2023-06-08)
 
