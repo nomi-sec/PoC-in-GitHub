@@ -174,7 +174,11 @@
 
 - [V3x0r/CVE-2024-23743](https://github.com/V3x0r/CVE-2024-23743)
 
-### CVE-2024-23745
+### CVE-2024-23745 (-)
+
+<code>In Notion Web Clipper 1.0.3(7), a .nib file is susceptible to the Dirty NIB attack. NIB files can be manipulated to execute arbitrary commands. Additionally, even if a NIB file is modified within an application, Gatekeeper may still permit the execution of the application, enabling the execution of arbitrary commands within the application's context.
+</code>
+
 - [louiselalanne/CVE-2024-23745](https://github.com/louiselalanne/CVE-2024-23745)
 
 ### CVE-2024-23746
@@ -16339,6 +16343,7 @@
 - [Phuong39/PoC-CVE-2021-30632](https://github.com/Phuong39/PoC-CVE-2021-30632)
 - [CrackerCat/CVE-2021-30632](https://github.com/CrackerCat/CVE-2021-30632)
 - [maldev866/ChExp_CVE-2021-30632](https://github.com/maldev866/ChExp_CVE-2021-30632)
+- [paulsery/CVE-2021-30632](https://github.com/paulsery/CVE-2021-30632)
 
 ### CVE-2021-30641 (2021-06-10)
 
