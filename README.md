@@ -106,12 +106,18 @@
 ### CVE-2024-22889
 - [shenhav12/CVE-2024-22889-Plone-v6.0.9](https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9)
 
+### CVE-2024-22890
+- [BurakSevben/CVE-2024-22890](https://github.com/BurakSevben/CVE-2024-22890)
+
 ### CVE-2024-22894 (2024-01-30)
 
 <code>An issue in AIT-Deutschland Alpha Innotec Heatpumps wp2reg-V.3.88.0-9015 and Novelan Heatpumps wp2reg-V.3.88.0-9015, allows remote attackers to execute arbitrary code via the password component in the shadow file.
 </code>
 
 - [Jaarden/CVE-2024-22894](https://github.com/Jaarden/CVE-2024-22894)
+
+### CVE-2024-22909
+- [BurakSevben/CVE-2024-22909](https://github.com/BurakSevben/CVE-2024-22909)
 
 ### CVE-2024-22922 (2024-01-25)
 
@@ -199,6 +205,57 @@
 - [raheel0x01/CVE-2024-23897](https://github.com/raheel0x01/CVE-2024-23897)
 - [viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897)
 - [jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897)
+
+### CVE-2024-24134 (2024-01-29)
+
+<code>Sourcecodester Online Food Menu 1.0 is vulnerable to Cross Site Scripting (XSS) via the 'Menu Name' and 'Description' fields in the Update Menu section.
+</code>
+
+- [BurakSevben/CVE-2024-24134](https://github.com/BurakSevben/CVE-2024-24134)
+
+### CVE-2024-24135 (2024-01-29)
+
+<code>Product Name and Product Code in the 'Add Product' section of Sourcecodester Product Inventory with Export to Excel 1.0 are vulnerable to XSS attacks.
+</code>
+
+- [BurakSevben/CVE-2024-24135](https://github.com/BurakSevben/CVE-2024-24135)
+
+### CVE-2024-24136 (2024-01-29)
+
+<code>The 'Your Name' field in the Submit Score section of Sourcecodester Math Game with Leaderboard v1.0 is vulnerable to Cross-Site Scripting (XSS) attacks.
+</code>
+
+- [BurakSevben/CVE-2024-24136](https://github.com/BurakSevben/CVE-2024-24136)
+
+### CVE-2024-24137
+- [BurakSevben/CVE-2024-24137](https://github.com/BurakSevben/CVE-2024-24137)
+
+### CVE-2024-24138
+- [BurakSevben/CVE-2024-24138](https://github.com/BurakSevben/CVE-2024-24138)
+
+### CVE-2024-24139 (2024-01-29)
+
+<code>Sourcecodester Login System with Email Verification 1.0 allows SQL Injection via the 'user' parameter.
+</code>
+
+- [BurakSevben/CVE-2024-24139](https://github.com/BurakSevben/CVE-2024-24139)
+
+### CVE-2024-24140 (2024-01-29)
+
+<code>Sourcecodester Daily Habit Tracker App 1.0 allows SQL Injection via the parameter 'tracker.'
+</code>
+
+- [BurakSevben/CVE-2024-24140](https://github.com/BurakSevben/CVE-2024-24140)
+
+### CVE-2024-24141 (2024-01-29)
+
+<code>Sourcecodester School Task Manager App 1.0 allows SQL Injection via the 'task' parameter.
+</code>
+
+- [BurakSevben/CVE-2024-24141](https://github.com/BurakSevben/CVE-2024-24141)
+
+### CVE-2024-24142
+- [BurakSevben/CVE-2024-24142](https://github.com/BurakSevben/CVE-2024-24142)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -5914,7 +5971,7 @@
 
 ### CVE-2023-45779 (2023-12-04)
 
-<code>In the APEX module framework of AOSP, there is a possible malicious update to platform components due to improperly used crypto. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. More details on this can be found in the links below:\n\n https://rtx.meta.security/exploitation/2024/01/30/Android-vendors-APEX-test-keys.html https://rtx.meta.security/exploitation/2024/01/30/Android-vendors-APEX-test-keys.html \n\n https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-wmcc-g67r-9962 https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-wmcc-g67r-9962 \n\n https://www.fairphone.com/en/2023/12/22/security-update-apex-modules-vulnerability-fixed https://www.fairphone.com/en/2023/12/22/security-update-apex-modules-vulnerability-fixed \n
+<code>In the APEX module framework of AOSP, there is a possible malicious update to platform components due to improperly used crypto. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. More details on this can be found in the links below:\nhttps://rtx.meta.security/exploitation/2024/01/30/Android-vendors-APEX-test-keys.html\nhttps://github.com/metaredteam/external-disclosures/security/advisories/GHSA-wmcc-g67r-9962
 </code>
 
 - [metaredteam/rtx-cve-2023-45779](https://github.com/metaredteam/rtx-cve-2023-45779)
