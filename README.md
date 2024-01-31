@@ -5115,6 +5115,13 @@
 
 - [biscuitehh/cve-2023-40429-ez-device-name](https://github.com/biscuitehh/cve-2023-40429-ez-device-name)
 
+### CVE-2023-40459 (2023-12-04)
+
+<code>\n\n\n\n\n\n\n\n\nThe\nACEManager component of ALEOS 4.16 and earlier does not adequately perform\ninput sanitization during authentication, which could potentially result in a\nDenial of Service (DoS) condition for ACEManager without impairing other router\nfunctions. ACEManager recovers from the DoS condition by restarting within ten\nseconds of becoming unavailable.\n\n\n\n\n\n\n
+</code>
+
+- [majidmc2/CVE-2023-40459](https://github.com/majidmc2/CVE-2023-40459)
+
 ### CVE-2023-40477
 - [winkler-winsen/Scan_WinRAR](https://github.com/winkler-winsen/Scan_WinRAR)
 - [wildptr-io/Winrar-CVE-2023-40477-POC](https://github.com/wildptr-io/Winrar-CVE-2023-40477-POC)
@@ -6642,6 +6649,9 @@
 
 ### CVE-2023-49548
 - [geraldoalcantara/CVE-2023-49548](https://github.com/geraldoalcantara/CVE-2023-49548)
+
+### CVE-2023-49950
+- [shrikeinfosec/cve-2023-49950](https://github.com/shrikeinfosec/cve-2023-49950)
 
 ### CVE-2023-49954 (2023-12-25)
 
