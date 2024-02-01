@@ -216,6 +216,7 @@
 - [raheel0x01/CVE-2024-23897](https://github.com/raheel0x01/CVE-2024-23897)
 - [viszsec/CVE-2024-23897](https://github.com/viszsec/CVE-2024-23897)
 - [jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897)
+- [AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897)
 
 ### CVE-2024-24134 (2024-01-29)
 
@@ -267,6 +268,9 @@
 
 ### CVE-2024-24142
 - [BurakSevben/CVE-2024-24142](https://github.com/BurakSevben/CVE-2024-24142)
+
+### CVE-2024-24488
+- [minj-ae/CVE-2024-24488](https://github.com/minj-ae/CVE-2024-24488)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -4515,6 +4519,7 @@
 - [ditekshen/ansible-cve-2023-36845](https://github.com/ditekshen/ansible-cve-2023-36845)
 - [Asbawy/Automation-for-Juniper-cve-2023-36845](https://github.com/Asbawy/Automation-for-Juniper-cve-2023-36845)
 - [jahithoque/Juniper-CVE-2023-36845-Mass-Hunting](https://github.com/jahithoque/Juniper-CVE-2023-36845-Mass-Hunting)
+- [cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845](https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -18238,7 +18243,6 @@
 - [LudovicPatho/CVE-2021-41773](https://github.com/LudovicPatho/CVE-2021-41773)
 - [lopqto/CVE-2021-41773_Honeypot](https://github.com/lopqto/CVE-2021-41773_Honeypot)
 - [zerodaywolf/CVE-2021-41773_42013](https://github.com/zerodaywolf/CVE-2021-41773_42013)
-- [qwutony/CVE-2021-41773](https://github.com/qwutony/CVE-2021-41773)
 - [LayarKacaSiber/CVE-2021-41773](https://github.com/LayarKacaSiber/CVE-2021-41773)
 - [BabyTeam1024/CVE-2021-41773](https://github.com/BabyTeam1024/CVE-2021-41773)
 - [walnutsecurity/cve-2021-41773](https://github.com/walnutsecurity/cve-2021-41773)
@@ -30143,6 +30147,7 @@
 - [0xConstant/CVE-2018-7600](https://github.com/0xConstant/CVE-2018-7600)
 - [anldori/CVE-2018-7600](https://github.com/anldori/CVE-2018-7600)
 - [r0lh/CVE-2018-7600](https://github.com/r0lh/CVE-2018-7600)
+- [killeveee/CVE-2018-7600](https://github.com/killeveee/CVE-2018-7600)
 
 ### CVE-2018-7602 (2018-07-19)
 
