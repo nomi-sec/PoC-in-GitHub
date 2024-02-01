@@ -61,6 +61,13 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
+### CVE-2024-21626 (-)
+
+<code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue. 
+</code>
+
+- [Wall1e/CVE-2024-21626-POC](https://github.com/Wall1e/CVE-2024-21626-POC)
+
 ### CVE-2024-21633 (2024-01-03)
 
 <code>Apktool is a tool for reverse engineering Android APK files. In versions 2.9.1 and prior, Apktool infers resource files' output path according to their resource names which can be manipulated by attacker to place files at desired location on the system Apktool runs on. Affected environments are those in which an attacker may write/overwrite any file that user has write access, and either user name is known or cwd is under user folder. Commit d348c43b24a9de350ff6e5bd610545a10c1fc712 contains a patch for this issue.
@@ -2054,7 +2061,7 @@
 </code>
 
 - [t3l3machus/CVE-2023-22960](https://github.com/t3l3machus/CVE-2023-22960)
-- [manas3c/CVE-2023-22960](https://github.com/manas3c/CVE-2023-22960)
+- [k0mi-tg/CVE-2023-22960](https://github.com/k0mi-tg/CVE-2023-22960)
 
 ### CVE-2023-22974 (2023-02-22)
 
@@ -3707,6 +3714,7 @@
 - [hau-zy/KeePass-dump-py](https://github.com/hau-zy/KeePass-dump-py)
 - [dawnl3ss/CVE-2023-32784](https://github.com/dawnl3ss/CVE-2023-32784)
 - [ValentinPundikov/poc-CVE-2023-32784](https://github.com/ValentinPundikov/poc-CVE-2023-32784)
+- [mister-turtle/cve-2023-32784](https://github.com/mister-turtle/cve-2023-32784)
 
 ### CVE-2023-32961 (2023-06-12)
 
@@ -4657,7 +4665,11 @@
 
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
 
-### CVE-2023-37621
+### CVE-2023-37621 (-)
+
+<code>An issue in Fronius Datalogger Web v.2.0.5-4, allows remote attackers to obtain sensitive information via a crafted request.
+</code>
+
 - [MY0723/CNVD-2022-27366__CVE-2023-37621](https://github.com/MY0723/CNVD-2022-27366__CVE-2023-37621)
 
 ### CVE-2023-37625 (2023-08-10)
@@ -5105,6 +5117,7 @@
 </code>
 
 - [hshivhare67/platform_frameworks_base_android-4.2.2_r1_CVE-2023-40140](https://github.com/hshivhare67/platform_frameworks_base_android-4.2.2_r1_CVE-2023-40140)
+- [hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140](https://github.com/hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140)
 
 ### CVE-2023-40294 (2023-08-13)
 
@@ -14515,7 +14528,7 @@
 - [ashutoshrohilla/CVE-2021-4034](https://github.com/ashutoshrohilla/CVE-2021-4034)
 - [nikip72/CVE-2021-4034](https://github.com/nikip72/CVE-2021-4034)
 - [NiS3x/CVE-2021-4034](https://github.com/NiS3x/CVE-2021-4034)
-- [itsmetraw/CVE-2021-4034](https://github.com/itsmetraw/CVE-2021-4034)
+- [thatstraw/CVE-2021-4034](https://github.com/thatstraw/CVE-2021-4034)
 - [luckythandel/CVE-2021-4034](https://github.com/luckythandel/CVE-2021-4034)
 - [Plethore/CVE-2021-4034](https://github.com/Plethore/CVE-2021-4034)
 - [evdenis/lsm_bpf_check_argc0](https://github.com/evdenis/lsm_bpf_check_argc0)
