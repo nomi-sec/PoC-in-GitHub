@@ -17,6 +17,13 @@
 
 - [ch4nui/CVE-2024-0402-RCE](https://github.com/ch4nui/CVE-2024-0402-RCE)
 
+### CVE-2024-0652 (2024-01-17)
+
+<code>Eine problematische Schwachstelle wurde in PHPGurukul Company Visitor Management System 1.0 ausgemacht. Betroffen davon ist ein unbekannter Prozess der Datei search-visitor.php. Mittels Manipulieren mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [White-Hat-HackerX/CVE-2024-0652](https://github.com/White-Hat-HackerX/CVE-2024-0652)
+
 ### CVE-2024-0679 (2024-01-20)
 
 <code>The ColorMag theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the plugin_action_callback() function in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to install and activate arbitrary plugins.
@@ -67,6 +74,7 @@
 </code>
 
 - [Wall1e/CVE-2024-21626-POC](https://github.com/Wall1e/CVE-2024-21626-POC)
+- [NitroCao/CVE-2024-21626](https://github.com/NitroCao/CVE-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -129,6 +137,9 @@
 </code>
 
 - [Jaarden/CVE-2024-22894](https://github.com/Jaarden/CVE-2024-22894)
+
+### CVE-2024-22899
+- [Chocapikk/CVE-2024-22899-to-22903-ExploitChain](https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain)
 
 ### CVE-2024-22909
 - [BurakSevben/CVE-2024-22909](https://github.com/BurakSevben/CVE-2024-22909)
