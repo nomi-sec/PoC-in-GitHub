@@ -151,7 +151,11 @@
 
 - [keru6k/CVE-2024-22922](https://github.com/keru6k/CVE-2024-22922)
 
-### CVE-2024-22939
+### CVE-2024-22939 (-)
+
+<code>Cross Site Request Forgery vulnerability in FlyCms v.1.0 allows a remote attacker to execute arbitrary code via the system/article/category_edit component.
+</code>
+
 - [NUDTTAN91/CVE-2024-22939](https://github.com/NUDTTAN91/CVE-2024-22939)
 
 ### CVE-2024-22983
@@ -6387,6 +6391,9 @@
 - [rainbowhatrkn/CVE-2023-47246](https://github.com/rainbowhatrkn/CVE-2023-47246)
 - [tucommenceapousser/CVE-2023-47246](https://github.com/tucommenceapousser/CVE-2023-47246)
 
+### CVE-2023-47355
+- [actuator/com.eypcnnapps.quickreboot](https://github.com/actuator/com.eypcnnapps.quickreboot)
+
 ### CVE-2023-47400
 - [LucasVanHaaren/CVE-2023-47400](https://github.com/LucasVanHaaren/CVE-2023-47400)
 
@@ -6459,6 +6466,9 @@
 </code>
 
 - [actuator/com.altamirano.fabricio.tvbrowser](https://github.com/actuator/com.altamirano.fabricio.tvbrowser)
+
+### CVE-2023-47889
+- [actuator/com.bdrm.superreboot](https://github.com/actuator/com.bdrm.superreboot)
 
 ### CVE-2023-48022 (2023-11-28)
 
@@ -24362,7 +24372,7 @@
 - [jet-pentest/CVE-2020-25749](https://github.com/jet-pentest/CVE-2020-25749)
 
 ### CVE-2020-25769
-- [lagartojuancho/CVE-2020-25769](https://github.com/lagartojuancho/CVE-2020-25769)
+- [defrancescojp/CVE-2020-25769](https://github.com/defrancescojp/CVE-2020-25769)
 
 ### CVE-2020-25782 (2021-01-27)
 
@@ -37879,7 +37889,7 @@
 <code>Integer overflow in IBM Notes 8.5.x before 8.5.3 FP4 Interim Fix 1 and 9.x before 9.0 Interim Fix 1 on Windows, and 8.5.x before 8.5.3 FP5 and 9.x before 9.0.1 on Linux, allows remote attackers to execute arbitrary code via a malformed PNG image in a previewed e-mail message, aka SPR NPEI96K82Q.
 </code>
 
-- [lagartojuancho/CVE-2013-2977](https://github.com/lagartojuancho/CVE-2013-2977)
+- [defrancescojp/CVE-2013-2977](https://github.com/defrancescojp/CVE-2013-2977)
 
 ### CVE-2013-3214 (2020-01-28)
 
@@ -37914,8 +37924,8 @@
 <code>Trimble SketchUp (formerly Google SketchUp) before 2013 (13.0.3689) allows remote attackers to execute arbitrary code via a crafted color palette table in a MAC Pict texture, which triggers an out-of-bounds stack write.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2013-3662.  NOTE: this issue was SPLIT due to different affected products and codebases (ADT1); CVE-2013-7388 has been assigned to the paintlib issue.
 </code>
 
-- [lagartojuancho/CVE-2013-3664_MAC](https://github.com/lagartojuancho/CVE-2013-3664_MAC)
-- [lagartojuancho/CVE-2013-3664_BMP](https://github.com/lagartojuancho/CVE-2013-3664_BMP)
+- [defrancescojp/CVE-2013-3664_MAC](https://github.com/defrancescojp/CVE-2013-3664_MAC)
+- [defrancescojp/CVE-2013-3664_BMP](https://github.com/defrancescojp/CVE-2013-3664_BMP)
 
 ### CVE-2013-3827 (2013-10-16)
 
