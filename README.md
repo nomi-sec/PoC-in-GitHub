@@ -22,7 +22,7 @@
 <code>Eine problematische Schwachstelle wurde in PHPGurukul Company Visitor Management System 1.0 ausgemacht. Betroffen davon ist ein unbekannter Prozess der Datei search-visitor.php. Mittels Manipulieren mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
-- [White-Hat-HackerX/CVE-2024-0652](https://github.com/White-Hat-HackerX/CVE-2024-0652)
+- [Agampreet-Singh/CVE-2024-0652](https://github.com/Agampreet-Singh/CVE-2024-0652)
 
 ### CVE-2024-0679 (2024-01-20)
 
@@ -61,6 +61,9 @@
 
 - [RomanRybachek/CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698)
 
+### CVE-2024-20931
+- [GlassyAmadeus/CVE-2024-20931](https://github.com/GlassyAmadeus/CVE-2024-20931)
+
 ### CVE-2024-21305 (2024-01-09)
 
 <code>Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability
@@ -73,8 +76,10 @@
 <code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue. 
 </code>
 
-- [Wall1e/CVE-2024-21626-POC](https://github.com/Wall1e/CVE-2024-21626-POC)
+- [zpxlz/CVE-2024-21626-POC](https://github.com/zpxlz/CVE-2024-21626-POC)
 - [NitroCao/CVE-2024-21626](https://github.com/NitroCao/CVE-2024-21626)
+- [Wall1e/CVE-2024-21626-POC](https://github.com/Wall1e/CVE-2024-21626-POC)
+- [cdxiaodong/CVE-2024-21626](https://github.com/cdxiaodong/CVE-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -138,7 +143,11 @@
 
 - [Jaarden/CVE-2024-22894](https://github.com/Jaarden/CVE-2024-22894)
 
-### CVE-2024-22899
+### CVE-2024-22899 (-)
+
+<code>Vinchin Backup &amp; Recovery v7.2 was discovered to contain an authenticated remote code execution (RCE) vulnerability via the syncNtpTime function.
+</code>
+
 - [Chocapikk/CVE-2024-22899-to-22903-ExploitChain](https://github.com/Chocapikk/CVE-2024-22899-to-22903-ExploitChain)
 
 ### CVE-2024-22909
@@ -210,7 +219,11 @@
 
 - [louiselalanne/CVE-2024-23745](https://github.com/louiselalanne/CVE-2024-23745)
 
-### CVE-2024-23746
+### CVE-2024-23746 (-)
+
+<code>Miro Desktop 0.8.18 on macOS allows Electron code injection.
+</code>
+
 - [louiselalanne/CVE-2024-23746](https://github.com/louiselalanne/CVE-2024-23746)
 
 ### CVE-2024-23747 (2024-01-29)
@@ -2006,6 +2019,7 @@
 - [Privia-Security/CVE-2023-22527](https://github.com/Privia-Security/CVE-2023-22527)
 - [MaanVader/CVE-2023-22527-POC](https://github.com/MaanVader/CVE-2023-22527-POC)
 - [adminlove520/CVE-2023-22527](https://github.com/adminlove520/CVE-2023-22527)
+- [YongYe-Security/CVE-2023-22527](https://github.com/YongYe-Security/CVE-2023-22527)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -5889,7 +5903,7 @@
 
 ### CVE-2023-44764 (2023-10-06)
 
-<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS v.9.2.1 allows an attacker to execute arbitrary code via a crafted script to the SITE parameter from installation or in the Settings.
+<code>A Cross Site Scripting (XSS) vulnerability in Concrete CMS before 9.2.3 exists via the Name parameter during installation (aka Site of Installation or Settings).
 </code>
 
 - [sromanhu/CVE-2023-44764_ConcreteCMS-Stored-XSS---Site_Installation](https://github.com/sromanhu/CVE-2023-44764_ConcreteCMS-Stored-XSS---Site_Installation)
@@ -6159,7 +6173,11 @@
 
 - [0x1717/ssrf-via-img](https://github.com/0x1717/ssrf-via-img)
 
-### CVE-2023-46344
+### CVE-2023-46344 (-)
+
+<code>A vulnerability in Solar-Log Base 15 Firmware 6.0.1 Build 161, and possibly other Solar-Log Base products, allows an attacker to escalate their privileges by exploiting a stored cross-site scripting (XSS) vulnerability in the switch group function under /#ilang=DE&amp;b=c_smartenergy_swgroups in the web portal. The vulnerability can be exploited to gain the rights of an installer or PM, which can then be used to gain administrative access to the web portal and execute further attacks.
+</code>
+
 - [vinnie1717/CVE-2023-46344](https://github.com/vinnie1717/CVE-2023-46344)
 
 ### CVE-2023-46404 (2023-11-03)
@@ -33338,6 +33356,7 @@
 - [fracergu/CVE-2017-7921](https://github.com/fracergu/CVE-2017-7921)
 - [AnonkiGroup/AnonHik](https://github.com/AnonkiGroup/AnonHik)
 - [b3pwn3d/CVE-2017-7921](https://github.com/b3pwn3d/CVE-2017-7921)
+- [yousouf-Tasfin/cve-2017-7921-Mass-Exploit](https://github.com/yousouf-Tasfin/cve-2017-7921-Mass-Exploit)
 
 ### CVE-2017-7998 (2018-01-08)
 
