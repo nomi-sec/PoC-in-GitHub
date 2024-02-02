@@ -41,7 +41,11 @@
 
 - [keru6k/Online-Admission-System-RCE-PoC](https://github.com/keru6k/Online-Admission-System-RCE-PoC)
 
-### CVE-2024-0844
+### CVE-2024-0844 (-)
+
+<code>The Popup More Popups, Lightboxes, and more popup modules plugin for WordPress is vulnerable to Local File Inclusion in version 2.1.6 via the ycfChangeElementData() function. This makes it possible for authenticated attackers, with administrator-level access and above, to include and execute arbitrary files ending with &quot;Form.php&quot; on the server , allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+</code>
+
 - [0x9567b/CVE-2024-0844](https://github.com/0x9567b/CVE-2024-0844)
 
 ### CVE-2024-0846
@@ -80,6 +84,8 @@
 - [NitroCao/CVE-2024-21626](https://github.com/NitroCao/CVE-2024-21626)
 - [Wall1e/CVE-2024-21626-POC](https://github.com/Wall1e/CVE-2024-21626-POC)
 - [cdxiaodong/CVE-2024-21626](https://github.com/cdxiaodong/CVE-2024-21626)
+- [zhangguanzhang/CVE-2024-21626](https://github.com/zhangguanzhang/CVE-2024-21626)
+- [laysakura/CVE-2024-21626-demo](https://github.com/laysakura/CVE-2024-21626-demo)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -245,7 +251,7 @@
 - [vmtyan/poc-cve-2024-23897](https://github.com/vmtyan/poc-cve-2024-23897)
 - [yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897)
 - [CKevens/CVE-2024-23897](https://github.com/CKevens/CVE-2024-23897)
-- [iota4/PoC-jenkins-rce_CVE-2024-23897](https://github.com/iota4/PoC-jenkins-rce_CVE-2024-23897)
+- [iota4/PoC-Fix-jenkins-rce_CVE-2024-23897](https://github.com/iota4/PoC-Fix-jenkins-rce_CVE-2024-23897)
 - [wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897)
 - [Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897)
 - [raheel0x01/CVE-2024-23897](https://github.com/raheel0x01/CVE-2024-23897)
@@ -11831,6 +11837,8 @@
 </code>
 
 - [xen0bit/CVE-2022-37434_poc](https://github.com/xen0bit/CVE-2022-37434_poc)
+- [Trinadh465/external_zlib_android-6.0.1_r22_CVE-2022-37434](https://github.com/Trinadh465/external_zlib_android-6.0.1_r22_CVE-2022-37434)
+- [Trinadh465/external_zlib_CVE-2022-37434](https://github.com/Trinadh465/external_zlib_CVE-2022-37434)
 
 ### CVE-2022-37703 (2022-09-13)
 
