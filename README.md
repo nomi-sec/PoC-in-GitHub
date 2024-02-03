@@ -115,6 +115,7 @@
 </code>
 
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
+- [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
 
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
@@ -1170,6 +1171,7 @@
 - [murphysecurity/libwebp-checker](https://github.com/murphysecurity/libwebp-checker)
 - [LiveOverflow/webp-CVE-2023-4863](https://github.com/LiveOverflow/webp-CVE-2023-4863)
 - [caoweiquan322/NotEnough](https://github.com/caoweiquan322/NotEnough)
+- [Microsvuln/CVE-2023-4863](https://github.com/Microsvuln/CVE-2023-4863)
 
 ### CVE-2023-4911 (2023-10-03)
 
@@ -6746,7 +6748,11 @@
 ### CVE-2023-49548
 - [geraldoalcantara/CVE-2023-49548](https://github.com/geraldoalcantara/CVE-2023-49548)
 
-### CVE-2023-49950
+### CVE-2023-49950 (-)
+
+<code>The Jinja templating in Logpoint SIEM 6.10.0 through 7.x before 7.3.0 does not correctly sanitize log data being displayed when using a custom Jinja template in the Alert view. A remote attacker can craft a cross-site scripting (XSS) payload and send it to any system or device that sends logs to the SIEM. If an alert is created, the payload will execute upon the alert data being viewed with that template, which can lead to sensitive data disclosure.
+</code>
+
 - [shrikeinfosec/cve-2023-49950](https://github.com/shrikeinfosec/cve-2023-49950)
 
 ### CVE-2023-49954 (2023-12-25)
