@@ -25592,6 +25592,13 @@
 
 - [Mayter/CVE-2019-1315](https://github.com/Mayter/CVE-2019-1315)
 
+### CVE-2019-1332 (2019-12-10)
+
+<code>A cross-site scripting (XSS) vulnerability exists when Microsoft SQL Server Reporting Services (SSRS) does not properly sanitize a specially-crafted web request to an affected SSRS server, aka 'Microsoft SQL Server Reporting Services XSS Vulnerability'.
+</code>
+
+- [mbadanoiu/CVE-2019-1332](https://github.com/mbadanoiu/CVE-2019-1332)
+
 ### CVE-2019-1351 (2020-01-24)
 
 <code>A tampering vulnerability exists when Git for Visual Studio improperly handles virtual drive paths, aka 'Git for Visual Studio Tampering Vulnerability'.
@@ -25771,6 +25778,7 @@
 - [enceka/cve-2019-2215-3.18](https://github.com/enceka/cve-2019-2215-3.18)
 - [elbiazo/CVE-2019-2215](https://github.com/elbiazo/CVE-2019-2215)
 - [jsirichai/CVE-2019-2215](https://github.com/jsirichai/CVE-2019-2215)
+- [willboka/CVE-2019-2215-HuaweiP20Lite](https://github.com/willboka/CVE-2019-2215-HuaweiP20Lite)
 
 ### CVE-2019-2525 (2019-01-16)
 
