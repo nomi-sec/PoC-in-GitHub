@@ -185,6 +185,13 @@
 ### CVE-2024-22983
 - [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
 
+### CVE-2024-23208 (2024-01-22)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.3, watchOS 10.3, tvOS 17.3, iOS 17.3 and iPadOS 17.3. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [hrtowii/CVE-2024-23208-test](https://github.com/hrtowii/CVE-2024-23208-test)
+
 ### CVE-2024-23738 (2024-01-27)
 
 <code>An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
@@ -4923,6 +4930,7 @@
 - [j0yb0y0h/CVE-2023-38646](https://github.com/j0yb0y0h/CVE-2023-38646)
 - [Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646)
 - [0utl4nder/Another-Metabase-RCE-CVE-2023-38646](https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646)
+- [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -7971,7 +7979,7 @@
 
 ### CVE-2022-4304 (2023-02-08)
 
-<code>A timing based side channel exists in the OpenSSL RSA Decryption implementation which could be sufficient to recover a plaintext across a network in a Bleichenbacher style attack. To achieve a successful decryption an attacker would have to be able to send a very large number of trial messages for decryption. The vulnerability affects all RSA padding modes: PKCS#1 v1.5, RSA-OEAP and RSASVE. For example, in a TLS connection, RSA is commonly used by a client to send an encrypted pre-master secret to the server. An attacker that had observed a genuine connection between a client and a server could use this flaw to send trial messages to the server and record the time taken to process them. After a sufficiently large number of messages the attacker could recover the pre-master secret used for the original connection and thus be able to decrypt the application data sent over that connection.
+<code>A timing based side channel exists in the OpenSSL RSA Decryption implementation\nwhich could be sufficient to recover a plaintext across a network in a\nBleichenbacher style attack. To achieve a successful decryption an attacker\nwould have to be able to send a very large number of trial messages for\ndecryption. The vulnerability affects all RSA padding modes: PKCS#1 v1.5,\nRSA-OEAP and RSASVE.\n\nFor example, in a TLS connection, RSA is commonly used by a client to send an\nencrypted pre-master secret to the server. An attacker that had observed a\ngenuine connection between a client and a server could use this flaw to send\ntrial messages to the server and record the time taken to process them. After a\nsufficiently large number of messages the attacker could recover the pre-master\nsecret used for the original connection and thus be able to decrypt the\napplication data sent over that connection.\n\n
 </code>
 
 - [Trinadh465/Openssl-1.1.1g_CVE-2022-4304](https://github.com/Trinadh465/Openssl-1.1.1g_CVE-2022-4304)
@@ -23384,6 +23392,7 @@
 - [nik0nz7/CVE-2020-14882](https://github.com/nik0nz7/CVE-2020-14882)
 - [Danny-LLi/CVE-2020-14882](https://github.com/Danny-LLi/CVE-2020-14882)
 - [LucasPDiniz/CVE-2020-14882](https://github.com/LucasPDiniz/CVE-2020-14882)
+- [xMr110/CVE-2020-14882](https://github.com/xMr110/CVE-2020-14882)
 
 ### CVE-2020-14883 (2020-10-21)
 
