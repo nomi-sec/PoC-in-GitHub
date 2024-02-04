@@ -9,6 +9,7 @@
 - [horizon3ai/CVE-2024-0204](https://github.com/horizon3ai/CVE-2024-0204)
 - [cbeek-r7/CVE-2024-0204](https://github.com/cbeek-r7/CVE-2024-0204)
 - [m-cetin/CVE-2024-0204](https://github.com/m-cetin/CVE-2024-0204)
+- [adminlove520/CVE-2024-0204](https://github.com/adminlove520/CVE-2024-0204)
 
 ### CVE-2024-0402 (2024-01-25)
 
@@ -267,6 +268,7 @@
 - [jopraveen/CVE-2024-23897](https://github.com/jopraveen/CVE-2024-23897)
 - [AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897)
 - [brijne/CVE-2024-23897-RCE](https://github.com/brijne/CVE-2024-23897-RCE)
+- [WLXQqwer/Jenkins-CVE-2024-23897-](https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-)
 
 ### CVE-2024-24134 (2024-01-29)
 
@@ -3640,6 +3642,7 @@
 - [PIDAN-HEIDASHUAI/CVE-2023-32233](https://github.com/PIDAN-HEIDASHUAI/CVE-2023-32233)
 - [Liuk3r/CVE-2023-32233](https://github.com/Liuk3r/CVE-2023-32233)
 - [oferchen/POC-CVE-2023-32233](https://github.com/oferchen/POC-CVE-2023-32233)
+- [RogelioPumajulca/TEST-CVE-2023-32233](https://github.com/RogelioPumajulca/TEST-CVE-2023-32233)
 
 ### CVE-2023-32235 (2023-05-05)
 
