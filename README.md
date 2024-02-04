@@ -8767,7 +8767,7 @@
 - [Jun-5heng/CVE-2022-22954](https://github.com/Jun-5heng/CVE-2022-22954)
 - [tunelko/CVE-2022-22954-PoC](https://github.com/tunelko/CVE-2022-22954-PoC)
 - [bewhale/CVE-2022-22954](https://github.com/bewhale/CVE-2022-22954)
-- [tyleraharrison/VMware-CVE-2022-22954-Command-Injector](https://github.com/tyleraharrison/VMware-CVE-2022-22954-Command-Injector)
+- [emilyastranova/VMware-CVE-2022-22954-Command-Injector](https://github.com/emilyastranova/VMware-CVE-2022-22954-Command-Injector)
 - [MLX15/CVE-2022-22954](https://github.com/MLX15/CVE-2022-22954)
 - [mhurts/CVE-2022-22954-POC](https://github.com/mhurts/CVE-2022-22954-POC)
 - [nguyenv1nK/CVE-2022-22954](https://github.com/nguyenv1nK/CVE-2022-22954)
