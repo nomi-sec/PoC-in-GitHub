@@ -255,6 +255,15 @@
 
 - [louiselalanne/CVE-2024-23747](https://github.com/louiselalanne/CVE-2024-23747)
 
+### CVE-2024-23772
+- [Verrideo/CVE-2024-23772](https://github.com/Verrideo/CVE-2024-23772)
+
+### CVE-2024-23773
+- [Verrideo/CVE-2024-23773](https://github.com/Verrideo/CVE-2024-23773)
+
+### CVE-2024-23774
+- [Verrideo/CVE-2024-23774](https://github.com/Verrideo/CVE-2024-23774)
+
 ### CVE-2024-23897 (2024-01-24)
 
 <code>Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system.
@@ -327,6 +336,15 @@
 
 ### CVE-2024-24142
 - [BurakSevben/CVE-2024-24142](https://github.com/BurakSevben/CVE-2024-24142)
+
+### CVE-2024-24396
+- [trustcves/CVE-2024-24396](https://github.com/trustcves/CVE-2024-24396)
+
+### CVE-2024-24397
+- [trustcves/CVE-2024-24397](https://github.com/trustcves/CVE-2024-24397)
+
+### CVE-2024-24398
+- [trustcves/CVE-2024-24398](https://github.com/trustcves/CVE-2024-24398)
 
 ### CVE-2024-24488
 - [minj-ae/CVE-2024-24488](https://github.com/minj-ae/CVE-2024-24488)
@@ -1439,6 +1457,7 @@
 
 - [UlyssesSaicha/CVE-2023-6875](https://github.com/UlyssesSaicha/CVE-2023-6875)
 - [gbrsh/CVE-2023-6875](https://github.com/gbrsh/CVE-2023-6875)
+- [hatlesswizard/CVE-2023-6875](https://github.com/hatlesswizard/CVE-2023-6875)
 
 ### CVE-2023-6895 (2023-12-17)
 
@@ -6492,6 +6511,13 @@
 
 - [RandomRobbieBF/CVE-2023-47529](https://github.com/RandomRobbieBF/CVE-2023-47529)
 
+### CVE-2023-47564 (-)
+
+<code>An incorrect permission assignment for critical resource vulnerability has been reported to affect Qsync Central. If exploited, the vulnerability could allow authenticated users to read or modify the resource via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQsync Central 4.4.0.15 ( 2024/01/04 ) and later\nQsync Central 4.3.0.11 ( 2024/01/11 ) and later\n
+</code>
+
+- [C411e/CVE-2023-47564](https://github.com/C411e/CVE-2023-47564)
+
 ### CVE-2023-47668 (2023-11-22)
 
 <code>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in StellarWP Membership Plugin – Restrict Content plugin &lt;= 3.2.7 versions.
@@ -7444,6 +7470,7 @@
 - [Keith-amateur/cve-2022-1040](https://github.com/Keith-amateur/cve-2022-1040)
 - [michealadams30/CVE-2022-1040](https://github.com/michealadams30/CVE-2022-1040)
 - [Cyb3rEnthusiast/CVE-2022-1040](https://github.com/Cyb3rEnthusiast/CVE-2022-1040)
+- [xMr110/CVE-2022-1040](https://github.com/xMr110/CVE-2022-1040)
 
 ### CVE-2022-1051 (2022-05-16)
 
@@ -7791,6 +7818,7 @@
 
 - [bb33bb/CVE-2022-2639-PipeVersion](https://github.com/bb33bb/CVE-2022-2639-PipeVersion)
 - [EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639](https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639)
+- [kakaroot1337/-2022-LOCALROOT-CVE-2022-2639](https://github.com/kakaroot1337/-2022-LOCALROOT-CVE-2022-2639)
 
 ### CVE-2022-2884 (2022-10-17)
 
@@ -15318,6 +15346,7 @@
 - [masjohncook/netsec-project](https://github.com/masjohncook/netsec-project)
 - [tukru/CVE-2021-22555](https://github.com/tukru/CVE-2021-22555)
 - [pashayogi/CVE-2021-22555](https://github.com/pashayogi/CVE-2021-22555)
+- [kakaroot1337/-2021-LOCALROOT-CVE-2021-22555](https://github.com/kakaroot1337/-2021-LOCALROOT-CVE-2021-22555)
 
 ### CVE-2021-22569 (2022-01-07)
 
