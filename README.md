@@ -52,6 +52,12 @@
 ### CVE-2024-0846
 - [0x9567b/CVE-2024-0846](https://github.com/0x9567b/CVE-2024-0846)
 
+### CVE-2024-1208
+- [karlemilnikka/CVE-2024-1208-and-CVE-2024-1210](https://github.com/karlemilnikka/CVE-2024-1208-and-CVE-2024-1210)
+
+### CVE-2024-1209
+- [karlemilnikka/CVE-2024-1209](https://github.com/karlemilnikka/CVE-2024-1209)
+
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -87,6 +93,7 @@
 - [cdxiaodong/CVE-2024-21626](https://github.com/cdxiaodong/CVE-2024-21626)
 - [zhangguanzhang/CVE-2024-21626](https://github.com/zhangguanzhang/CVE-2024-21626)
 - [laysakura/CVE-2024-21626-demo](https://github.com/laysakura/CVE-2024-21626-demo)
+- [V0WKeep3r/CVE-2024-21626-runcPOC](https://github.com/V0WKeep3r/CVE-2024-21626-runcPOC)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -285,6 +292,7 @@
 - [AbraXa5/Jenkins-CVE-2024-23897](https://github.com/AbraXa5/Jenkins-CVE-2024-23897)
 - [brijne/CVE-2024-23897-RCE](https://github.com/brijne/CVE-2024-23897-RCE)
 - [WLXQqwer/Jenkins-CVE-2024-23897-](https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-)
+- [kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897)
 
 ### CVE-2024-24134 (2024-01-29)
 
@@ -340,7 +348,11 @@
 ### CVE-2024-24396
 - [trustcves/CVE-2024-24396](https://github.com/trustcves/CVE-2024-24396)
 
-### CVE-2024-24397
+### CVE-2024-24397 (-)
+
+<code>Cross Site Scripting vulnerability in Stimulsoft GmbH Stimulsoft Dashboard.JS before v.2024.1.2 allows a remote attacker to execute arbitrary code via a crafted payload to the ReportName field.
+</code>
+
 - [trustcves/CVE-2024-24397](https://github.com/trustcves/CVE-2024-24397)
 
 ### CVE-2024-24398
@@ -6463,7 +6475,11 @@
 - [rainbowhatrkn/CVE-2023-47246](https://github.com/rainbowhatrkn/CVE-2023-47246)
 - [tucommenceapousser/CVE-2023-47246](https://github.com/tucommenceapousser/CVE-2023-47246)
 
-### CVE-2023-47355
+### CVE-2023-47355 (-)
+
+<code>The com.eypcnnapps.quickreboot (aka Eyuep Can Yilmaz {ROOT] Quick Reboot) application 1.0.8 for Android has exposed broadcast receivers for PowerOff, Reboot, and Recovery (e.g., com.eypcnnapps.quickreboot.widget.PowerOff) that are susceptible to unauthorized broadcasts because of missing input validation.
+</code>
+
 - [actuator/com.eypcnnapps.quickreboot](https://github.com/actuator/com.eypcnnapps.quickreboot)
 
 ### CVE-2023-47400
