@@ -3044,6 +3044,13 @@
 
 - [ohnonoyesyes/CVE-2023-29084](https://github.com/ohnonoyesyes/CVE-2023-29084)
 
+### CVE-2023-29199 (2023-04-14)
+
+<code>There exists a vulnerability in source code transformer (exception sanitization logic) of vm2 for versions up to 3.9.15, allowing attackers to bypass `handleException()` and leak unsanitized host exceptions which can be used to escape the sandbox and run arbitrary code in host context. A threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version `3.9.16` of `vm2`.\n
+</code>
+
+- [u-crew/vm2-test](https://github.com/u-crew/vm2-test)
+
 ### CVE-2023-29324 (2023-05-09)
 
 <code>Windows MSHTML Platform Security Feature Bypass Vulnerability
@@ -14704,6 +14711,7 @@
 - [Pol-Ruiz/CVE-2021-4034](https://github.com/Pol-Ruiz/CVE-2021-4034)
 - [cerodah/CVE-2021-4034](https://github.com/cerodah/CVE-2021-4034)
 - [FancySauce/PwnKit-CVE-2021-4034](https://github.com/FancySauce/PwnKit-CVE-2021-4034)
+- [wechicken456/CVE-2021-4034-writeup](https://github.com/wechicken456/CVE-2021-4034-writeup)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -37516,6 +37524,7 @@
 - [0xTabun/CVE-2014-6271](https://github.com/0xTabun/CVE-2014-6271)
 - [0xN7y/CVE-2014-6271](https://github.com/0xN7y/CVE-2014-6271)
 - [MY7H404/CVE-2014-6271-Shellshock](https://github.com/MY7H404/CVE-2014-6271-Shellshock)
+- [AlissoftCodes/Shellshock](https://github.com/AlissoftCodes/Shellshock)
 
 ### CVE-2014-6287 (2014-10-07)
 
