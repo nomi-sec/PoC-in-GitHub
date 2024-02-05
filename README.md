@@ -6994,7 +6994,11 @@
 - [vulncheck-oss/cve-2023-51467](https://github.com/vulncheck-oss/cve-2023-51467)
 - [Jake123otte1/BadBizness-CVE-2023-51467](https://github.com/Jake123otte1/BadBizness-CVE-2023-51467)
 
-### CVE-2023-51504
+### CVE-2023-51504 (-)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Dan Dulaney Dan's Embedder for Google Calendar allows Stored XSS.This issue affects Dan's Embedder for Google Calendar: from n/a through 1.2.\n\n
+</code>
+
 - [Sybelle03/CVE-2023-51504](https://github.com/Sybelle03/CVE-2023-51504)
 
 ### CVE-2023-51764 (2023-12-24)
