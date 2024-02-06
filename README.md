@@ -53,9 +53,6 @@
 
 - [0x9567b/CVE-2024-0844](https://github.com/0x9567b/CVE-2024-0844)
 
-### CVE-2024-0846
-- [0x9567b/CVE-2024-0846](https://github.com/0x9567b/CVE-2024-0846)
-
 ### CVE-2024-1208 (-)
 
 <code>The LearnDash LMS plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.10.2 via API. This makes it possible for unauthenticated attackers to obtain access to quiz questions.
@@ -88,6 +85,7 @@
 - [GlassyAmadeus/CVE-2024-20931](https://github.com/GlassyAmadeus/CVE-2024-20931)
 - [Leocodefocus/CVE-2024-20931-Poc](https://github.com/Leocodefocus/CVE-2024-20931-Poc)
 - [ATonysan/CVE-2024-20931_weblogic](https://github.com/ATonysan/CVE-2024-20931_weblogic)
+- [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
 
 ### CVE-2024-21305 (2024-01-09)
 
@@ -308,6 +306,9 @@
 - [WLXQqwer/Jenkins-CVE-2024-23897-](https://github.com/WLXQqwer/Jenkins-CVE-2024-23897-)
 - [kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897)
 
+### CVE-2024-24034
+- [ELIZEUOPAIN/CVE-2024-24034](https://github.com/ELIZEUOPAIN/CVE-2024-24034)
+
 ### CVE-2024-24134 (2024-01-29)
 
 <code>Sourcecodester Online Food Menu 1.0 is vulnerable to Cross Site Scripting (XSS) via the 'Menu Name' and 'Description' fields in the Update Menu section.
@@ -358,6 +359,12 @@
 
 ### CVE-2024-24142
 - [BurakSevben/CVE-2024-24142](https://github.com/BurakSevben/CVE-2024-24142)
+
+### CVE-2024-24336
+- [nitipoom-jar/CVE-2024-24336](https://github.com/nitipoom-jar/CVE-2024-24336)
+
+### CVE-2024-24337
+- [nitipoom-jar/CVE-2024-24337](https://github.com/nitipoom-jar/CVE-2024-24337)
 
 ### CVE-2024-24396 (-)
 
@@ -1998,6 +2005,7 @@
 - [kw3h4/CVE-2023-21839-metasploit-scanner](https://github.com/kw3h4/CVE-2023-21839-metasploit-scanner)
 - [MMarch7/weblogic_CVE-2023-21839_POC-EXP](https://github.com/MMarch7/weblogic_CVE-2023-21839_POC-EXP)
 - [Romanc9/Gui-poc-test](https://github.com/Romanc9/Gui-poc-test)
+- [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
 
 ### CVE-2023-21887 (2023-01-17)
 
@@ -2613,7 +2621,6 @@
 </code>
 
 - [horizon3ai/CVE-2023-26067](https://github.com/horizon3ai/CVE-2023-26067)
-- [RosePwns/Lexmark-RCE](https://github.com/RosePwns/Lexmark-RCE)
 
 ### CVE-2023-26136 (2023-07-01)
 
