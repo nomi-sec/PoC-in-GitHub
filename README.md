@@ -367,7 +367,11 @@
 
 - [trustcves/CVE-2024-24397](https://github.com/trustcves/CVE-2024-24397)
 
-### CVE-2024-24398
+### CVE-2024-24398 (-)
+
+<code>Directory Traversal vulnerability in Stimulsoft GmbH Stimulsoft Dashboard.JS before v.2024.1.2 allows a remote attacker to execute arbitrary code via a crafted payload to the fileName parameter of the Save function.
+</code>
+
 - [trustcves/CVE-2024-24398](https://github.com/trustcves/CVE-2024-24398)
 
 ### CVE-2024-24488
@@ -1116,6 +1120,13 @@
 - [passwa11/CVE-2023-4357-APT-Style-exploitation](https://github.com/passwa11/CVE-2023-4357-APT-Style-exploitation)
 - [sunu11/chrome-CVE-2023-4357](https://github.com/sunu11/chrome-CVE-2023-4357)
 - [WinnieZy/CVE-2023-4357](https://github.com/WinnieZy/CVE-2023-4357)
+
+### CVE-2023-4427 (2023-08-22)
+
+<code>Out of bounds memory access in V8 in Google Chrome prior to 116.0.5845.110 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [tianstcht/CVE-2023-4427](https://github.com/tianstcht/CVE-2023-4427)
 
 ### CVE-2023-4460 (2023-12-04)
 
@@ -6586,7 +6597,11 @@
 
 - [actuator/com.altamirano.fabricio.tvbrowser](https://github.com/actuator/com.altamirano.fabricio.tvbrowser)
 
-### CVE-2023-47889
+### CVE-2023-47889 (-)
+
+<code>The Android application BINHDRM26 com.bdrm.superreboot 1.0.3, exposes several critical actions through its exported broadcast receivers. These exposed actions can allow any app on the device to send unauthorized broadcasts, leading to unintended consequences. The vulnerability is particularly concerning because these actions include powering off, system reboot &amp; entering recovery mode.
+</code>
+
 - [actuator/com.bdrm.superreboot](https://github.com/actuator/com.bdrm.superreboot)
 
 ### CVE-2023-48022 (2023-11-28)
