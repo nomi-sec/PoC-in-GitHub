@@ -52,10 +52,18 @@
 ### CVE-2024-0846
 - [0x9567b/CVE-2024-0846](https://github.com/0x9567b/CVE-2024-0846)
 
-### CVE-2024-1208
+### CVE-2024-1208 (-)
+
+<code>The LearnDash LMS plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.10.2 via API. This makes it possible for unauthenticated attackers to obtain access to quiz questions.
+</code>
+
 - [karlemilnikka/CVE-2024-1208-and-CVE-2024-1210](https://github.com/karlemilnikka/CVE-2024-1208-and-CVE-2024-1210)
 
-### CVE-2024-1209
+### CVE-2024-1209 (-)
+
+<code>The LearnDash LMS plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.10.1 via direct file access due to insufficient protection of uploaded assignments. This makes it possible for unauthenticated attackers to obtain those uploads.
+</code>
+
 - [karlemilnikka/CVE-2024-1209](https://github.com/karlemilnikka/CVE-2024-1209)
 
 ### CVE-2024-20656 (2024-01-09)
@@ -345,7 +353,11 @@
 ### CVE-2024-24142
 - [BurakSevben/CVE-2024-24142](https://github.com/BurakSevben/CVE-2024-24142)
 
-### CVE-2024-24396
+### CVE-2024-24396 (-)
+
+<code>Cross Site Scripting vulnerability in Stimulsoft GmbH Stimulsoft Dashboard.JS before v.2024.1.2 allows a remote attacker to execute arbitrary code via a crafted payload to the search bar component.
+</code>
+
 - [trustcves/CVE-2024-24396](https://github.com/trustcves/CVE-2024-24396)
 
 ### CVE-2024-24397 (-)
@@ -1451,7 +1463,11 @@
 ### CVE-2023-6663
 - [cli-ish/CVE-2023-6663](https://github.com/cli-ish/CVE-2023-6663)
 
-### CVE-2023-6700
+### CVE-2023-6700 (-)
+
+<code>The Cookie Information | Free GDPR Consent Solution plugin for WordPress is vulnerable to arbitrary option updates due to a missing capability check on its AJAX request handler in versions up to, and including, 2.0.22. This makes it possible for authenticated attackers, with subscriber-level access or higher, to edit arbitrary site options which can be used to create administrator accounts.
+</code>
+
 - [RandomRobbieBF/CVE-2023-6700](https://github.com/RandomRobbieBF/CVE-2023-6700)
 
 ### CVE-2023-6710 (2023-12-12)
@@ -1478,10 +1494,18 @@
 
 - [FuBoLuSec/CVE-2023-6895](https://github.com/FuBoLuSec/CVE-2023-6895)
 
-### CVE-2023-6933
+### CVE-2023-6933 (-)
+
+<code>The Better Search Replace plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.4.4 via deserialization of untrusted input. This makes it possible for unauthenticated attackers to inject a PHP Object. No POP chain is present in the vulnerable plugin. If a POP chain is present via an additional plugin or theme installed on the target system, it could allow the attacker to delete arbitrary files, retrieve sensitive data, or execute code.
+</code>
+
 - [w2xim3/CVE-2023-6933](https://github.com/w2xim3/CVE-2023-6933)
 
-### CVE-2023-6985
+### CVE-2023-6985 (-)
+
+<code>The 10Web AI Assistant – AI content writing assistant plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the install_plugin AJAX action in all versions up to, and including, 1.0.18. This makes it possible for authenticated attackers, with subscriber-level access and above, to install arbitrary plugins that can be used to gain further access to a compromised site.
+</code>
+
 - [RandomRobbieBF/CVE-2023-6985](https://github.com/RandomRobbieBF/CVE-2023-6985)
 
 ### CVE-2023-7028 (2024-01-12)
