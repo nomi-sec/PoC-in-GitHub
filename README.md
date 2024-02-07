@@ -154,10 +154,18 @@
 
 - [mindstorm38/ensimag-secu3a-cve-2024-22416](https://github.com/mindstorm38/ensimag-secu3a-cve-2024-22416)
 
-### CVE-2024-22514
+### CVE-2024-22514 (-)
+
+<code>An issue discovered in iSpyConnect.com Agent DVR 5.1.6.0 allows attackers to run arbitrary files by restoring a crafted backup file.
+</code>
+
 - [Orange-418/CVE-2024-22514-Remote-Code-Execution](https://github.com/Orange-418/CVE-2024-22514-Remote-Code-Execution)
 
-### CVE-2024-22515
+### CVE-2024-22515 (-)
+
+<code>Unrestricted File Upload vulnerability in iSpyConnect.com Agent DVR 5.1.6.0 allows attackers to upload arbitrary files via the upload audio component.
+</code>
+
 - [Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution](https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution)
 - [Orange-418/CVE-2024-22515-File-Upload-Vulnerability](https://github.com/Orange-418/CVE-2024-22515-File-Upload-Vulnerability)
 
@@ -308,6 +316,9 @@
 
 ### CVE-2024-24034
 - [ELIZEUOPAIN/CVE-2024-24034](https://github.com/ELIZEUOPAIN/CVE-2024-24034)
+
+### CVE-2024-24035
+- [ELIZEUOPAIN/CVE-2024-24035](https://github.com/ELIZEUOPAIN/CVE-2024-24035)
 
 ### CVE-2024-24134 (2024-01-29)
 
