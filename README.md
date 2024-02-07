@@ -1152,6 +1152,13 @@
 
 - [tianstcht/CVE-2023-4427](https://github.com/tianstcht/CVE-2023-4427)
 
+### CVE-2023-4450 (2023-08-20)
+
+<code>In jeecgboot JimuReport bis 1.6.0 wurde eine kritische Schwachstelle ausgemacht. Das betrifft eine unbekannte Funktionalität der Komponente Template Handler. Durch Manipulation mit unbekannten Daten kann eine injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 1.6.1 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
+</code>
+
+- [ilikeoyt/CVE-2023-4450-Attack](https://github.com/ilikeoyt/CVE-2023-4450-Attack)
+
 ### CVE-2023-4460 (2023-12-04)
 
 <code>The Uploading SVG, WEBP and ICO files WordPress plugin through 1.2.1 does not sanitise uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads.
@@ -1334,6 +1341,13 @@
 </code>
 
 - [kuangxiaotu/CVE-H3C-Report](https://github.com/kuangxiaotu/CVE-H3C-Report)
+
+### CVE-2023-5178 (2023-11-01)
+
+<code>A use-after-free vulnerability was found in drivers/nvme/target/tcp.c` in `nvmet_tcp_free_crypto` due to a logical bug in the NVMe-oF/TCP subsystem in the Linux kernel. This issue may allow a malicious user to cause a use-after-free and double-free problem, which may permit remote code execution or lead to local privilege escalation problem.
+</code>
+
+- [rockrid3r/CVE-2023-5178](https://github.com/rockrid3r/CVE-2023-5178)
 
 ### CVE-2023-5217 (2023-09-28)
 
@@ -7897,7 +7911,7 @@
 
 - [bb33bb/CVE-2022-2639-PipeVersion](https://github.com/bb33bb/CVE-2022-2639-PipeVersion)
 - [EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639](https://github.com/EkamSinghWalia/Detection-and-Mitigation-for-CVE-2022-2639)
-- [kakaroot1337/-2022-LOCALROOT-CVE-2022-2639](https://github.com/kakaroot1337/-2022-LOCALROOT-CVE-2022-2639)
+- [letsr00t/-2022-LOCALROOT-CVE-2022-2639](https://github.com/letsr00t/-2022-LOCALROOT-CVE-2022-2639)
 
 ### CVE-2022-2884 (2022-10-17)
 
@@ -14823,7 +14837,7 @@
 - [Pol-Ruiz/CVE-2021-4034](https://github.com/Pol-Ruiz/CVE-2021-4034)
 - [cerodah/CVE-2021-4034](https://github.com/cerodah/CVE-2021-4034)
 - [FancySauce/PwnKit-CVE-2021-4034](https://github.com/FancySauce/PwnKit-CVE-2021-4034)
-- [wechicken456/CVE-2021-4034-writeup](https://github.com/wechicken456/CVE-2021-4034-writeup)
+- [wechicken456/CVE-2021-4034-CTF-writeup](https://github.com/wechicken456/CVE-2021-4034-CTF-writeup)
 
 ### CVE-2021-4043 (2022-02-04)
 
@@ -15426,7 +15440,7 @@
 - [masjohncook/netsec-project](https://github.com/masjohncook/netsec-project)
 - [tukru/CVE-2021-22555](https://github.com/tukru/CVE-2021-22555)
 - [pashayogi/CVE-2021-22555](https://github.com/pashayogi/CVE-2021-22555)
-- [kakaroot1337/-2021-LOCALROOT-CVE-2021-22555](https://github.com/kakaroot1337/-2021-LOCALROOT-CVE-2021-22555)
+- [letsr00t/-2021-LOCALROOT-CVE-2021-22555](https://github.com/letsr00t/-2021-LOCALROOT-CVE-2021-22555)
 
 ### CVE-2021-22569 (2022-01-07)
 
