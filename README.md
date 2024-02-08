@@ -316,7 +316,11 @@
 - [kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897)
 - [Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability](https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability)
 
-### CVE-2024-24034
+### CVE-2024-24034 (-)
+
+<code>Setor Informatica S.I.L version 3.0 is vulnerable to Open Redirect via the hprinter parameter, allows remote attackers to execute arbitrary code.
+</code>
+
 - [ELIZEUOPAIN/CVE-2024-24034](https://github.com/ELIZEUOPAIN/CVE-2024-24034)
 
 ### CVE-2024-24035
@@ -3441,6 +3445,7 @@
 </code>
 
 - [rvizx/CVE-2023-30547](https://github.com/rvizx/CVE-2023-30547)
+- [user0x1337/CVE-2023-30547](https://github.com/user0x1337/CVE-2023-30547)
 
 ### CVE-2023-30765 (2023-07-10)
 
