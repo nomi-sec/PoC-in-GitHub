@@ -14817,7 +14817,7 @@
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
 - [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
-- [azazelm3dj3d/CVE-2021-4034](https://github.com/azazelm3dj3d/CVE-2021-4034)
+- [OpenCVEs/CVE-2021-4034](https://github.com/OpenCVEs/CVE-2021-4034)
 - [TheJoyOfHacking/berdav-CVE-2021-4034](https://github.com/TheJoyOfHacking/berdav-CVE-2021-4034)
 - [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
@@ -18532,6 +18532,7 @@
 - [OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits](https://github.com/OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits)
 - [belajarqywok/CVE-2021-41773-MSF](https://github.com/belajarqywok/CVE-2021-41773-MSF)
 - [Iris288/CVE-2021-41773](https://github.com/Iris288/CVE-2021-41773)
+- [OpenCVEs/CVE-2021-41773](https://github.com/OpenCVEs/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -36121,6 +36122,7 @@
 
 - [artem-smotrakov/cve-2016-1000027-poc](https://github.com/artem-smotrakov/cve-2016-1000027-poc)
 - [tina94happy/Spring-Web-5xx-Mitigated-version](https://github.com/tina94happy/Spring-Web-5xx-Mitigated-version)
+- [yihtserns/spring-web-without-remoting](https://github.com/yihtserns/spring-web-without-remoting)
 
 
 ## 2015
