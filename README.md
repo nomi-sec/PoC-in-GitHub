@@ -400,7 +400,11 @@
 
 - [trustcves/CVE-2024-24398](https://github.com/trustcves/CVE-2024-24398)
 
-### CVE-2024-24488
+### CVE-2024-24488 (-)
+
+<code>An issue in Shenzen Tenda Technology CP3V2.0 V11.10.00.2311090948 allows a local attacker to obtain sensitive information via the password component.
+</code>
+
 - [minj-ae/CVE-2024-24488](https://github.com/minj-ae/CVE-2024-24488)
 
 ### CVE-2024-65230
@@ -1347,7 +1351,7 @@
 
 ### CVE-2023-5178 (2023-11-01)
 
-<code>A use-after-free vulnerability was found in drivers/nvme/target/tcp.c` in `nvmet_tcp_free_crypto` due to a logical bug in the NVMe-oF/TCP subsystem in the Linux kernel. This issue may allow a malicious user to cause a use-after-free and double-free problem, which may permit remote code execution or lead to local privilege escalation problem.
+<code>A use-after-free vulnerability was found in drivers/nvme/target/tcp.c` in `nvmet_tcp_free_crypto` due to a logical bug in the NVMe/TCP subsystem in the Linux kernel. This issue may allow a malicious user to cause a use-after-free and double-free problem, which may permit remote code execution or lead to local privilege escalation.
 </code>
 
 - [rockrid3r/CVE-2023-5178](https://github.com/rockrid3r/CVE-2023-5178)
