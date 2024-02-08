@@ -6755,7 +6755,11 @@
 
 - [nitipoom-jar/CVE-2023-48866](https://github.com/nitipoom-jar/CVE-2023-48866)
 
-### CVE-2023-48974
+### CVE-2023-48974 (-)
+
+<code>Cross Site Scripting vulnerability in Axigen WebMail v.10.5.7 and before allows a remote attacker to escalate privileges via a crafted script to the serverName_input parameter.
+</code>
+
 - [vinnie1717/CVE-2023-48974](https://github.com/vinnie1717/CVE-2023-48974)
 
 ### CVE-2023-48981
