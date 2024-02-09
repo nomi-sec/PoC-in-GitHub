@@ -12789,6 +12789,8 @@
 - [Sic4rio/CVE-2022-42889](https://github.com/Sic4rio/CVE-2022-42889)
 - [34006133/CVE-2022-42889](https://github.com/34006133/CVE-2022-42889)
 - [DimaMend/cve-2022-42889-text4shell](https://github.com/DimaMend/cve-2022-42889-text4shell)
+- [joshbnewton31080/cve-2022-42889-text4shell](https://github.com/joshbnewton31080/cve-2022-42889-text4shell)
+- [MendDemo-josh/cve-2022-42889-text4shell](https://github.com/MendDemo-josh/cve-2022-42889-text4shell)
 
 ### CVE-2022-42896 (2022-11-23)
 
@@ -16972,6 +16974,7 @@
 </code>
 
 - [and0x00/CVE-2021-32789](https://github.com/and0x00/CVE-2021-32789)
+- [DonVorrin/CVE-2021-32789](https://github.com/DonVorrin/CVE-2021-32789)
 
 ### CVE-2021-32804 (2021-08-03)
 
