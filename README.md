@@ -129,6 +129,7 @@
 - [seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan)
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
 - [tucommenceapousser/CVE-2024-21887](https://github.com/tucommenceapousser/CVE-2024-21887)
+- [imhunterand/CVE-2024-21887](https://github.com/imhunterand/CVE-2024-21887)
 
 ### CVE-2024-21893 (-)
 
@@ -137,6 +138,9 @@
 
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
+
+### CVE-2024-22024
+- [0dteam/CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024)
 
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
@@ -30949,6 +30953,8 @@
 - [ST0PL/DVRFaultNET](https://github.com/ST0PL/DVRFaultNET)
 - [K3ysTr0K3R/CVE-2018-9995-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2018-9995-EXPLOIT)
 - [Pab450/CVE-2018-9995](https://github.com/Pab450/CVE-2018-9995)
+- [arminarab1999/CVE-2018-9995](https://github.com/arminarab1999/CVE-2018-9995)
+- [DOCKTYPe19/CVE-2018-9995](https://github.com/DOCKTYPe19/CVE-2018-9995)
 
 ### CVE-2018-10097 (2018-04-13)
 
