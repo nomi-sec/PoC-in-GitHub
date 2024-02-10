@@ -141,6 +141,7 @@
 
 ### CVE-2024-22024
 - [0dteam/CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024)
+- [labesterOct/CVE-2024-22024](https://github.com/labesterOct/CVE-2024-22024)
 
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
