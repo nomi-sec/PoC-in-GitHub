@@ -416,6 +416,13 @@
 
 - [minj-ae/CVE-2024-24488](https://github.com/minj-ae/CVE-2024-24488)
 
+### CVE-2024-24816 (-)
+
+<code>CKEditor4 is an open source what-you-see-is-what-you-get HTML editor. A cross-site scripting vulnerability vulnerability has been discovered in versions prior to 4.24.0-lts in samples that use the `preview` feature. All integrators that use these samples in the production code can be affected. The vulnerability allows an attacker to execute JavaScript code by abusing the misconfigured preview feature. It affects all users using the CKEditor 4 at version &lt; 4.24.0-lts with affected samples used in a production environment. A fix is available in version 4.24.0-lts.
+</code>
+
+- [afine-com/CVE-2024-24816](https://github.com/afine-com/CVE-2024-24816)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
