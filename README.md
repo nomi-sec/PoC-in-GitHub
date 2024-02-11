@@ -37693,6 +37693,7 @@
 - [0xN7y/CVE-2014-6271](https://github.com/0xN7y/CVE-2014-6271)
 - [MY7H404/CVE-2014-6271-Shellshock](https://github.com/MY7H404/CVE-2014-6271-Shellshock)
 - [AlissoftCodes/Shellshock](https://github.com/AlissoftCodes/Shellshock)
+- [hackintoanetwork/shellshock](https://github.com/hackintoanetwork/shellshock)
 
 ### CVE-2014-6287 (2014-10-07)
 
@@ -38479,7 +38480,6 @@
 - [blu3ming/CVE-2012-2982](https://github.com/blu3ming/CVE-2012-2982)
 - [0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982)
 - [0xTas/CVE-2012-2982](https://github.com/0xTas/CVE-2012-2982)
-- [Dawnn3619/CVE-2012-2982](https://github.com/Dawnn3619/CVE-2012-2982)
 - [LeDucKhiem/CVE-2012-2982](https://github.com/LeDucKhiem/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
