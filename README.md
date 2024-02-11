@@ -178,6 +178,9 @@
 ### CVE-2024-22534
 - [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
 
+### CVE-2024-22867
+- [brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867)
+
 ### CVE-2024-22889
 - [shenhav12/CVE-2024-22889-Plone-v6.0.9](https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9)
 
@@ -4027,7 +4030,7 @@
 <code>Lost and Found Information System v1.0 was discovered to contain a SQL injection vulnerability via the component /php-lfis/admin/?page=system_info/contact_information.
 </code>
 
-- [0XRedRose/CVE-2023-33592](https://github.com/0XRedRose/CVE-2023-33592)
+- [FuckingHack3r/CVE-2023-33592](https://github.com/FuckingHack3r/CVE-2023-33592)
 
 ### CVE-2023-33617 (2023-05-23)
 
