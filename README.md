@@ -412,6 +412,9 @@
 
 - [trustcves/CVE-2024-24398](https://github.com/trustcves/CVE-2024-24398)
 
+### CVE-2024-24409
+- [passtheticket/CVE-2024-24409](https://github.com/passtheticket/CVE-2024-24409)
+
 ### CVE-2024-24488 (-)
 
 <code>An issue in Shenzen Tenda Technology CP3V2.0 V11.10.00.2311090948 allows a local attacker to obtain sensitive information via the password component.
@@ -2176,6 +2179,7 @@
 - [MaanVader/CVE-2023-22527-POC](https://github.com/MaanVader/CVE-2023-22527-POC)
 - [adminlove520/CVE-2023-22527](https://github.com/adminlove520/CVE-2023-22527)
 - [YongYe-Security/CVE-2023-22527](https://github.com/YongYe-Security/CVE-2023-22527)
+- [Boogipop/CVE-2023-22527-Godzilla-MEMSHELL](https://github.com/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -6465,6 +6469,7 @@
 - [y4v4z/CVE-2023-46747-POC](https://github.com/y4v4z/CVE-2023-46747-POC)
 - [nvansluis/test_cve-2023-46747](https://github.com/nvansluis/test_cve-2023-46747)
 - [sanjai-AK47/CVE-2023-46747](https://github.com/sanjai-AK47/CVE-2023-46747)
+- [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
 
 ### CVE-2023-46805 (2024-01-12)
 
