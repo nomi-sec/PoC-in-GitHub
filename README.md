@@ -29964,6 +29964,7 @@
 </code>
 
 - [embedi/ble_norton_core](https://github.com/embedi/ble_norton_core)
+- [saruman9/ble_connect_rust](https://github.com/saruman9/ble_connect_rust)
 
 ### CVE-2018-5333 (2018-01-11)
 
