@@ -8152,6 +8152,7 @@
 
 - [bjrjk/CVE-2022-4262](https://github.com/bjrjk/CVE-2022-4262)
 - [mistymntncop/CVE-2022-4262](https://github.com/mistymntncop/CVE-2022-4262)
+- [quangnh89/CVE-2022-4262](https://github.com/quangnh89/CVE-2022-4262)
 
 ### CVE-2022-4304 (2023-02-08)
 
@@ -27325,6 +27326,7 @@
 - [thewhiteh4t/cve-2019-11447](https://github.com/thewhiteh4t/cve-2019-11447)
 - [0xConstant/CVE-2019-11447](https://github.com/0xConstant/CVE-2019-11447)
 - [substing/CVE-2019-11447_reverse_shell_upload](https://github.com/substing/CVE-2019-11447_reverse_shell_upload)
+- [CRFSlick/CVE-2019-11447-POC](https://github.com/CRFSlick/CVE-2019-11447-POC)
 
 ### CVE-2019-11477 (2019-06-18)
 
