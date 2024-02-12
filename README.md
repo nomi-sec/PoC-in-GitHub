@@ -1500,7 +1500,11 @@
 
 - [pedrojosenavasperez/cve-2023-5966](https://github.com/pedrojosenavasperez/cve-2023-5966)
 
-### CVE-2023-6036
+### CVE-2023-6036 (-)
+
+<code>The Web3 WordPress plugin before 3.0.0 is vulnerable to an authentication bypass due to incorrect authentication checking in the login flow in functions 'handle_auth_request' and 'hadle_login_request'. This makes it possible for non authenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the username.
+</code>
+
 - [pctripsesp/CVE-2023-6036](https://github.com/pctripsesp/CVE-2023-6036)
 
 ### CVE-2023-6063 (2023-12-04)
@@ -14739,7 +14743,7 @@
 </code>
 
 - [ryaagard/CVE-2021-4034](https://github.com/ryaagard/CVE-2021-4034)
-- [0xbbjubjub/cve-2021-4034-playground](https://github.com/0xbbjubjub/cve-2021-4034-playground)
+- [bbjubjub2494/cve-2021-4034-playground](https://github.com/bbjubjub2494/cve-2021-4034-playground)
 - [berdav/CVE-2021-4034](https://github.com/berdav/CVE-2021-4034)
 - [clubby789/CVE-2021-4034](https://github.com/clubby789/CVE-2021-4034)
 - [gbrsh/CVE-2021-4034](https://github.com/gbrsh/CVE-2021-4034)
@@ -18655,7 +18659,6 @@
 - [birdlinux/CVE-2021-42013](https://github.com/birdlinux/CVE-2021-42013)
 - [Hamesawian/CVE-2021-42013](https://github.com/Hamesawian/CVE-2021-42013)
 - [K3ysTr0K3R/CVE-2021-42013-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-42013-EXPLOIT)
-- [Rubikcuv5/cve-2021-42013](https://github.com/Rubikcuv5/cve-2021-42013)
 - [imhunterand/CVE-2021-42013](https://github.com/imhunterand/CVE-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
