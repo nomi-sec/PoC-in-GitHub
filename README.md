@@ -6461,7 +6461,11 @@
 - [Mudoleto/Broker_ApacheMQ](https://github.com/Mudoleto/Broker_ApacheMQ)
 - [hh-hunter/cve-2023-46604](https://github.com/hh-hunter/cve-2023-46604)
 
-### CVE-2023-46615
+### CVE-2023-46615 (-)
+
+<code>Deserialization of Untrusted Data vulnerability in Kalli Dan. KD Coming Soon.This issue affects KD Coming Soon: from n/a through 1.7.\n\n
+</code>
+
 - [RandomRobbieBF/CVE-2023-46615](https://github.com/RandomRobbieBF/CVE-2023-46615)
 
 ### CVE-2023-46747 (2023-10-26)
@@ -14479,6 +14483,7 @@
 - [asepsaepdin/CVE-2021-3156](https://github.com/asepsaepdin/CVE-2021-3156)
 - [DDayLuong/CVE-2021-3156](https://github.com/DDayLuong/CVE-2021-3156)
 - [wurwur/CVE-2021-3156](https://github.com/wurwur/CVE-2021-3156)
+- [SamTruss/LMU-CVE-2021-3156](https://github.com/SamTruss/LMU-CVE-2021-3156)
 
 ### CVE-2021-3157
 - [CrackerCat/cve-2021-3157](https://github.com/CrackerCat/cve-2021-3157)
