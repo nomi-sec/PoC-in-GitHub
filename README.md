@@ -178,6 +178,13 @@
 ### CVE-2024-22534
 - [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
 
+### CVE-2024-22567 (-)
+
+<code>File Upload vulnerability in MCMS 5.3.5 allows attackers to upload arbitrary files via crafted POST request to /ms/file/upload.do.
+</code>
+
+- [labesterOct/CVE-2024-22567](https://github.com/labesterOct/CVE-2024-22567)
+
 ### CVE-2024-22867
 - [brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867)
 
