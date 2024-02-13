@@ -139,7 +139,11 @@
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
 
-### CVE-2024-22024
+### CVE-2024-22024 (-)
+
+<code>An XML external entity or XXE vulnerability in the SAML component of Ivanti Connect Secure (9.x, 22.x), Ivanti Policy Secure (9.x, 22.x) and ZTA gateways which allows an attacker to access certain restricted resources without authentication.
+</code>
+
 - [0dteam/CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024)
 - [labesterOct/CVE-2024-22024](https://github.com/labesterOct/CVE-2024-22024)
 
@@ -6907,7 +6911,11 @@
 
 - [louiselalanne/CVE-2023-49314](https://github.com/louiselalanne/CVE-2023-49314)
 
-### CVE-2023-49339
+### CVE-2023-49339 (-)
+
+<code>Ellucian Banner 9.17 allows Insecure Direct Object Reference (IDOR) via a modified bannerId to the /StudentSelfService/ssb/studentCard/retrieveData endpoint.
+</code>
+
 - [3zizme/CVE-2023-49339](https://github.com/3zizme/CVE-2023-49339)
 
 ### CVE-2023-49438 (2023-12-26)
@@ -14864,12 +14872,11 @@
 - [Squirre17/CVE-2021-4034](https://github.com/Squirre17/CVE-2021-4034)
 - [Jesrat/make_me_root](https://github.com/Jesrat/make_me_root)
 - [defhacks/cve-2021-4034](https://github.com/defhacks/cve-2021-4034)
-- [digiboxcc/CVE-2021-4034-bug-root](https://github.com/digiboxcc/CVE-2021-4034-bug-root)
 - [ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034](https://github.com/ITMarcin2211/Polkit-s-Pkexec-CVE-2021-4034)
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
 - [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
-- [OpenCVEs/CVE-2021-4034](https://github.com/OpenCVEs/CVE-2021-4034)
+- [azazelm3dj3d/CVE-2021-4034](https://github.com/azazelm3dj3d/CVE-2021-4034)
 - [TheJoyOfHacking/berdav-CVE-2021-4034](https://github.com/TheJoyOfHacking/berdav-CVE-2021-4034)
 - [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
@@ -18585,7 +18592,6 @@
 - [OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits](https://github.com/OfriOuzan/CVE-2021-41773_CVE-2021-42013_Exploits)
 - [belajarqywok/CVE-2021-41773-MSF](https://github.com/belajarqywok/CVE-2021-41773-MSF)
 - [Iris288/CVE-2021-41773](https://github.com/Iris288/CVE-2021-41773)
-- [OpenCVEs/CVE-2021-41773](https://github.com/OpenCVEs/CVE-2021-41773)
 
 ### CVE-2021-41784 (2022-08-29)
 
