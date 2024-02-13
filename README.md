@@ -395,7 +395,11 @@
 ### CVE-2024-24336
 - [nitipoom-jar/CVE-2024-24336](https://github.com/nitipoom-jar/CVE-2024-24336)
 
-### CVE-2024-24337
+### CVE-2024-24337 (-)
+
+<code>CSV Injection vulnerability in '/members/moremember.pl' and '/admin/aqbudgets.pl' endpoints in Koha Library Management System version 23.05.05 and earlier allows attackers to to inject DDE commands into csv exports via the 'Budget' and 'Patrons Member' components.
+</code>
+
 - [nitipoom-jar/CVE-2024-24337](https://github.com/nitipoom-jar/CVE-2024-24337)
 
 ### CVE-2024-24396 (-)
@@ -14162,6 +14166,8 @@
 - [jj4152/cve-2021-1675](https://github.com/jj4152/cve-2021-1675)
 - [r1skkam/PrintNightmare](https://github.com/r1skkam/PrintNightmare)
 - [peckre/PNCVE-Win10-20H2-Exploit](https://github.com/peckre/PNCVE-Win10-20H2-Exploit)
+- [whoami-chmod777/CVE-2021-1675-CVE-2021-34527](https://github.com/whoami-chmod777/CVE-2021-1675-CVE-2021-34527)
+- [whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-](https://github.com/whoami-chmod777/CVE-2021-1675---PrintNightmare-LPE-PowerShell-)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -32649,6 +32655,13 @@
 - [4B5F5F4B/HyperV](https://github.com/4B5F5F4B/HyperV)
 - [belyakovvitagmailt/4B5F5F4Bp](https://github.com/belyakovvitagmailt/4B5F5F4Bp)
 - [MarkusCarelli1/4B5F5F4Bp](https://github.com/MarkusCarelli1/4B5F5F4Bp)
+
+### CVE-2017-0089 (2017-03-16)
+
+<code>Uniscribe in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, and Windows 7 SP1 allows remote attackers to execute arbitrary code via a crafted web site, aka &quot;Uniscribe Remote Code Execution Vulnerability.&quot; This vulnerability is different from those described in CVE-2017-0072, CVE-2017-0083, CVE-2017-0084, CVE-2017-0086, CVE-2017-0087, CVE-2017-0088, and CVE-2017-0090.
+</code>
+
+- [rainhawk13/Added-Pentest-Ground-to-vulnerable-websites-for-training](https://github.com/rainhawk13/Added-Pentest-Ground-to-vulnerable-websites-for-training)
 
 ### CVE-2017-0100 (2017-03-16)
 
