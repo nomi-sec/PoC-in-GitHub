@@ -449,6 +449,9 @@
 
 - [afine-com/CVE-2024-24816](https://github.com/afine-com/CVE-2024-24816)
 
+### CVE-2024-25092
+- [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -20116,6 +20119,13 @@
 </code>
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2021-46143](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-46143)
+
+### CVE-2021-46362 (2022-02-11)
+
+<code>A Server-Side Template Injection (SSTI) vulnerability in the Registration and Forgotten Password forms of Magnolia v6.2.3 and below allows attackers to execute arbitrary code via a crafted payload entered into the fullname parameter.
+</code>
+
+- [mbadanoiu/CVE-2021-46362](https://github.com/mbadanoiu/CVE-2021-46362)
 
 ### CVE-2021-46363 (2022-02-11)
 
