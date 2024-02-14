@@ -323,7 +323,7 @@
 - [vmtyan/poc-cve-2024-23897](https://github.com/vmtyan/poc-cve-2024-23897)
 - [yoryio/CVE-2024-23897](https://github.com/yoryio/CVE-2024-23897)
 - [CKevens/CVE-2024-23897](https://github.com/CKevens/CVE-2024-23897)
-- [iota4/PoC-Fix-jenkins-rce_CVE-2024-23897](https://github.com/iota4/PoC-Fix-jenkins-rce_CVE-2024-23897)
+- [10T4/PoC-Fix-jenkins-rce_CVE-2024-23897](https://github.com/10T4/PoC-Fix-jenkins-rce_CVE-2024-23897)
 - [wjlin0/CVE-2024-23897](https://github.com/wjlin0/CVE-2024-23897)
 - [Vozec/CVE-2024-23897](https://github.com/Vozec/CVE-2024-23897)
 - [raheel0x01/CVE-2024-23897](https://github.com/raheel0x01/CVE-2024-23897)
@@ -410,6 +410,9 @@
 </code>
 
 - [nitipoom-jar/CVE-2024-24337](https://github.com/nitipoom-jar/CVE-2024-24337)
+
+### CVE-2024-24386
+- [erick-duarte/CVE-2024-24386](https://github.com/erick-duarte/CVE-2024-24386)
 
 ### CVE-2024-24396 (2024-02-05)
 
@@ -3492,6 +3495,7 @@
 
 - [rvizx/CVE-2023-30547](https://github.com/rvizx/CVE-2023-30547)
 - [user0x1337/CVE-2023-30547](https://github.com/user0x1337/CVE-2023-30547)
+- [Cur1iosity/CVE-2023-30547](https://github.com/Cur1iosity/CVE-2023-30547)
 
 ### CVE-2023-30765 (2023-07-10)
 
@@ -4770,6 +4774,7 @@
 - [CharonDefalt/Juniper-exploit-CVE-2023-36845](https://github.com/CharonDefalt/Juniper-exploit-CVE-2023-36845)
 - [iveresk/CVE-2023-36845-6-](https://github.com/iveresk/CVE-2023-36845-6-)
 - [ak1t4/CVE-2023-36845](https://github.com/ak1t4/CVE-2023-36845)
+- [0xNehru/CVE-2023-36845-Juniper-Vulnerability](https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -6658,6 +6663,13 @@
 </code>
 
 - [aleksey-vi/CVE-2023-47460](https://github.com/aleksey-vi/CVE-2023-47460)
+
+### CVE-2023-47464 (2023-11-29)
+
+<code>Insecure Permissions vulnerability in GL.iNet AX1800 version 4.0.0 before 4.5.0 allows a remote attacker to execute arbitrary code via the upload API function.
+</code>
+
+- [HadessCS/CVE-2023-47464](https://github.com/HadessCS/CVE-2023-47464)
 
 ### CVE-2023-47488 (2023-11-09)
 
@@ -9009,7 +9021,6 @@
 - [orwagodfather/CVE-2022-22954](https://github.com/orwagodfather/CVE-2022-22954)
 - [b4dboy17/CVE-2022-22954](https://github.com/b4dboy17/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
-- [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
 - [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
 - [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
