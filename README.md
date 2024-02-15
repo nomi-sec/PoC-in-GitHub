@@ -411,7 +411,11 @@
 
 - [nitipoom-jar/CVE-2024-24337](https://github.com/nitipoom-jar/CVE-2024-24337)
 
-### CVE-2024-24386
+### CVE-2024-24386 (-)
+
+<code>An issue in VitalPBX v.3.2.4-5 allows an attacker to execute arbitrary code via a crafted payload to the /var/lib/vitalpbx/scripts folder.
+</code>
+
 - [erick-duarte/CVE-2024-24386](https://github.com/erick-duarte/CVE-2024-24386)
 
 ### CVE-2024-24396 (2024-02-05)
@@ -454,6 +458,9 @@
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
+
+### CVE-2024-25466
+- [FixedOctocat/CVE-2024-25466](https://github.com/FixedOctocat/CVE-2024-25466)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
