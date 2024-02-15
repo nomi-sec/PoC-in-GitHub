@@ -6494,6 +6494,7 @@
 - [dcm2406/CVE-2023-46604](https://github.com/dcm2406/CVE-2023-46604)
 - [Mudoleto/Broker_ApacheMQ](https://github.com/Mudoleto/Broker_ApacheMQ)
 - [hh-hunter/cve-2023-46604](https://github.com/hh-hunter/cve-2023-46604)
+- [ST3G4N05/ExploitScript-CVE-2023-46604](https://github.com/ST3G4N05/ExploitScript-CVE-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -9577,7 +9578,6 @@
 
 - [JacobEbben/CVE-2022-24637](https://github.com/JacobEbben/CVE-2022-24637)
 - [Lay0us1/CVE-2022-24637](https://github.com/Lay0us1/CVE-2022-24637)
-- [garySec/CVE-2022-24637](https://github.com/garySec/CVE-2022-24637)
 - [hupe1980/CVE-2022-24637](https://github.com/hupe1980/CVE-2022-24637)
 - [icebreack/CVE-2022-24637](https://github.com/icebreack/CVE-2022-24637)
 - [Pflegusch/CVE-2022-24637](https://github.com/Pflegusch/CVE-2022-24637)
