@@ -350,6 +350,7 @@
 - [Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability](https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability)
 - [B4CK4TT4CK/CVE-2024-23897](https://github.com/B4CK4TT4CK/CVE-2024-23897)
 - [abdomagdy0/CVE-2024-23897-htb](https://github.com/abdomagdy0/CVE-2024-23897-htb)
+- [godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -474,7 +475,11 @@
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
 
-### CVE-2024-25466
+### CVE-2024-25466 (-)
+
+<code>Directory Traversal vulnerability in React Native Document Picker before v.9.1.1 and fixed in v.9.1.1 allows a local attacker to execute arbitrary code via a crafted script to the Android library component.
+</code>
+
 - [FixedOctocat/CVE-2024-25466](https://github.com/FixedOctocat/CVE-2024-25466)
 
 ### CVE-2024-65230
@@ -2636,6 +2641,12 @@
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 - [YongYe-Security/CVE-2023-25194](https://github.com/YongYe-Security/CVE-2023-25194)
+
+### CVE-2023-25202
+- [Trackflaw/CVE-2023-25202](https://github.com/Trackflaw/CVE-2023-25202)
+
+### CVE-2023-25203
+- [Trackflaw/CVE-2023-25203](https://github.com/Trackflaw/CVE-2023-25203)
 
 ### CVE-2023-25234 (2023-02-27)
 
@@ -8819,6 +8830,13 @@
 - [antx-code/CVE-2022-22536](https://github.com/antx-code/CVE-2022-22536)
 - [tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536](https://github.com/tess-ss/SAP-memory-pipes-desynchronization-vulnerability-MPI-CVE-2022-22536)
 
+### CVE-2022-22555 (2022-07-20)
+
+<code>Dell EMC PowerStore, contains an OS command injection Vulnerability. A locally authenticated attacker could potentially exploit this vulnerability, leading to the execution of arbitrary OS commands on the PowerStore underlying OS, with the privileges of the vulnerable application. Exploitation may lead to an elevation of privilege.
+</code>
+
+- [colaoo123/cve-2022-22555](https://github.com/colaoo123/cve-2022-22555)
+
 ### CVE-2022-22582 (2023-02-27)
 
 <code>A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks. This issue is fixed in Security Update 2022-003 Catalina, macOS Big Sur 11.6.5, macOS Monterey 12.3. A local user may be able to write arbitrary files.
@@ -13528,6 +13546,7 @@
 </code>
 
 - [zhuowei/MacDirtyCowDemo](https://github.com/zhuowei/MacDirtyCowDemo)
+- [ahkecha/McDirty](https://github.com/ahkecha/McDirty)
 - [straight-tamago/NoCameraSound](https://github.com/straight-tamago/NoCameraSound)
 - [ginsudev/WDBFontOverwrite](https://github.com/ginsudev/WDBFontOverwrite)
 - [mineek/FileManager](https://github.com/mineek/FileManager)
@@ -28320,7 +28339,6 @@
 - [gozn/detect-CVE-2019-15107-by-pyshark](https://github.com/gozn/detect-CVE-2019-15107-by-pyshark)
 - [h4ck0rman/CVE-2019-15107](https://github.com/h4ck0rman/CVE-2019-15107)
 - [olingo99/CVE-2019-15107](https://github.com/olingo99/CVE-2019-15107)
-- [aamfrk/Webmin-CVE-2019-15107](https://github.com/aamfrk/Webmin-CVE-2019-15107)
 - [0x4r2/Webmin-CVE-2019-15107](https://github.com/0x4r2/Webmin-CVE-2019-15107)
 
 ### CVE-2019-15112 (2019-08-21)
