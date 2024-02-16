@@ -102,6 +102,13 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
+### CVE-2024-21413 (-)
+
+<code>Microsoft Outlook Remote Code Execution Vulnerability
+</code>
+
+- [duy-31/CVE-2024-21413](https://github.com/duy-31/CVE-2024-21413)
+
 ### CVE-2024-21626 (2024-01-31)
 
 <code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue. 
@@ -4791,6 +4798,7 @@
 - [iveresk/CVE-2023-36845-6-](https://github.com/iveresk/CVE-2023-36845-6-)
 - [ak1t4/CVE-2023-36845](https://github.com/ak1t4/CVE-2023-36845)
 - [0xNehru/CVE-2023-36845-Juniper-Vulnerability](https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability)
+- [imhunterand/CVE-2023-36845](https://github.com/imhunterand/CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -5364,7 +5372,11 @@
 
 - [Trinadh465/platform_system_netd_AOSP10_r33_CVE-2023-40084](https://github.com/Trinadh465/platform_system_netd_AOSP10_r33_CVE-2023-40084)
 
-### CVE-2023-40109
+### CVE-2023-40109 (-)
+
+<code>In createFromParcel of UsbConfiguration.java, there is a possible background activity launch (BAL) due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
+</code>
+
 - [uthrasri/CVE-2023-40109](https://github.com/uthrasri/CVE-2023-40109)
 
 ### CVE-2023-40121 (2023-10-27)
