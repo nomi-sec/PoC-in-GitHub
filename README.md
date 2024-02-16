@@ -108,6 +108,7 @@
 </code>
 
 - [duy-31/CVE-2024-21413](https://github.com/duy-31/CVE-2024-21413)
+- [xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -5070,6 +5071,7 @@
 - [kali-mx/CVE-2023-38408](https://github.com/kali-mx/CVE-2023-38408)
 - [LucasPDiniz/CVE-2023-38408](https://github.com/LucasPDiniz/CVE-2023-38408)
 - [classic130/CVE-2023-38408](https://github.com/classic130/CVE-2023-38408)
+- [wxrdnx/CVE-2023-38408](https://github.com/wxrdnx/CVE-2023-38408)
 
 ### CVE-2023-38434 (2023-07-17)
 
