@@ -109,6 +109,7 @@
 
 - [duy-31/CVE-2024-21413](https://github.com/duy-31/CVE-2024-21413)
 - [xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
+- [r00tb1t/CVE-2024-21413-POC](https://github.com/r00tb1t/CVE-2024-21413-POC)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -352,6 +353,7 @@
 - [B4CK4TT4CK/CVE-2024-23897](https://github.com/B4CK4TT4CK/CVE-2024-23897)
 - [abdomagdy0/CVE-2024-23897-htb](https://github.com/abdomagdy0/CVE-2024-23897-htb)
 - [godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897)
+- [ifconfig-me/CVE-2024-23897](https://github.com/ifconfig-me/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -6852,6 +6854,9 @@
 </code>
 
 - [nitipoom-jar/CVE-2023-48200](https://github.com/nitipoom-jar/CVE-2023-48200)
+
+### CVE-2023-48777
+- [AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777](https://github.com/AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777)
 
 ### CVE-2023-48842 (2023-12-01)
 
@@ -19788,6 +19793,7 @@
 - [dcm2406/CVE-2021-44228](https://github.com/dcm2406/CVE-2021-44228)
 - [scabench/l4j-tp1](https://github.com/scabench/l4j-tp1)
 - [scabench/l4j-fp1](https://github.com/scabench/l4j-fp1)
+- [ItsCbass/CVE-2021-44228](https://github.com/ItsCbass/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
