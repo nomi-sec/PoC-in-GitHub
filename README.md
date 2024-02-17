@@ -122,6 +122,7 @@
 - [xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [r00tb1t/CVE-2024-21413-POC](https://github.com/r00tb1t/CVE-2024-21413-POC)
 - [labesterOct/CVE-2024-21413](https://github.com/labesterOct/CVE-2024-21413)
+- [CMNatic/CVE-2024-21413](https://github.com/CMNatic/CVE-2024-21413)
 
 ### CVE-2024-21626 (2024-01-31)
 
