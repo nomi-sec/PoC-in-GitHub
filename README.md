@@ -67,6 +67,13 @@
 
 - [karlemilnikka/CVE-2024-1209](https://github.com/karlemilnikka/CVE-2024-1209)
 
+### CVE-2024-1269 (2024-02-06)
+
+<code>In SourceCodester Product Management System 1.0 wurde eine problematische Schwachstelle gefunden. Betroffen ist eine unbekannte Verarbeitung der Datei /supplier.php. Dank Manipulation des Arguments supplier_name/supplier_contact mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [sajaljat/CVE-2024-1269](https://github.com/sajaljat/CVE-2024-1269)
+
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -114,6 +121,7 @@
 - [duy-31/CVE-2024-21413](https://github.com/duy-31/CVE-2024-21413)
 - [xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [r00tb1t/CVE-2024-21413-POC](https://github.com/r00tb1t/CVE-2024-21413-POC)
+- [labesterOct/CVE-2024-21413](https://github.com/labesterOct/CVE-2024-21413)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -482,12 +490,27 @@
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
 
+### CVE-2024-25278
+- [sajaljat/CVE-2024-25278](https://github.com/sajaljat/CVE-2024-25278)
+
+### CVE-2024-25279
+- [sajaljat/CVE-2024-25279](https://github.com/sajaljat/CVE-2024-25279)
+
+### CVE-2024-25280
+- [sajaljat/CVE-2024-25280](https://github.com/sajaljat/CVE-2024-25280)
+
+### CVE-2024-25281
+- [sajaljat/CVE-2024-25281](https://github.com/sajaljat/CVE-2024-25281)
+
 ### CVE-2024-25466 (-)
 
 <code>Directory Traversal vulnerability in React Native Document Picker before v.9.1.1 and fixed in v.9.1.1 allows a local attacker to execute arbitrary code via a crafted script to the Android library component.
 </code>
 
 - [FixedOctocat/CVE-2024-25466](https://github.com/FixedOctocat/CVE-2024-25466)
+
+### CVE-2024-25809
+- [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -4818,6 +4841,7 @@
 - [ak1t4/CVE-2023-36845](https://github.com/ak1t4/CVE-2023-36845)
 - [0xNehru/CVE-2023-36845-Juniper-Vulnerability](https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability)
 - [imhunterand/CVE-2023-36845](https://github.com/imhunterand/CVE-2023-36845)
+- [ifconfig-me/CVE-2023-36845](https://github.com/ifconfig-me/CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -11017,6 +11041,7 @@
 - [aminetitrofine/CVE-2022-30190](https://github.com/aminetitrofine/CVE-2022-30190)
 - [Muhammad-Ali007/Follina_MSDT_CVE-2022-30190](https://github.com/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190)
 - [Jump-Wang-111/AmzWord](https://github.com/Jump-Wang-111/AmzWord)
+- [shri142/ZipScan](https://github.com/shri142/ZipScan)
 
 ### CVE-2022-30206 (2022-07-12)
 
@@ -20196,6 +20221,13 @@
 </code>
 
 - [nanopathi/external_expat_AOSP10_r33_CVE-2021-46143](https://github.com/nanopathi/external_expat_AOSP10_r33_CVE-2021-46143)
+
+### CVE-2021-46361 (2022-02-11)
+
+<code>An issue in the Freemark Filter of Magnolia CMS v6.2.11 and below allows attackers to bypass security restrictions and execute arbitrary code via a crafted FreeMarker payload.
+</code>
+
+- [mbadanoiu/CVE-2021-46361](https://github.com/mbadanoiu/CVE-2021-46361)
 
 ### CVE-2021-46362 (2022-02-11)
 
