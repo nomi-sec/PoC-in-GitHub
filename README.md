@@ -4846,6 +4846,7 @@
 - [0xNehru/CVE-2023-36845-Juniper-Vulnerability](https://github.com/0xNehru/CVE-2023-36845-Juniper-Vulnerability)
 - [imhunterand/CVE-2023-36845](https://github.com/imhunterand/CVE-2023-36845)
 - [ifconfig-me/CVE-2023-36845](https://github.com/ifconfig-me/CVE-2023-36845)
+- [e11i0t4lders0n/CVE-2023-36845](https://github.com/e11i0t4lders0n/CVE-2023-36845)
 
 ### CVE-2023-36846 (2023-08-17)
 
@@ -31168,6 +31169,7 @@
 - [Pab450/CVE-2018-9995](https://github.com/Pab450/CVE-2018-9995)
 - [arminarab1999/CVE-2018-9995](https://github.com/arminarab1999/CVE-2018-9995)
 - [DOCKTYPe19/CVE-2018-9995](https://github.com/DOCKTYPe19/CVE-2018-9995)
+- [X3RX3SSec/DVR_Sploit](https://github.com/X3RX3SSec/DVR_Sploit)
 
 ### CVE-2018-10097 (2018-04-13)
 
