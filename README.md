@@ -19824,7 +19824,6 @@
 - [dcm2406/CVE-2021-44228](https://github.com/dcm2406/CVE-2021-44228)
 - [scabench/l4j-tp1](https://github.com/scabench/l4j-tp1)
 - [scabench/l4j-fp1](https://github.com/scabench/l4j-fp1)
-- [ItsCbass/CVE-2021-44228](https://github.com/ItsCbass/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
