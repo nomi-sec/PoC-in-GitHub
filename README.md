@@ -503,6 +503,9 @@
 ### CVE-2024-25281
 - [sajaljat/CVE-2024-25281](https://github.com/sajaljat/CVE-2024-25281)
 
+### CVE-2024-25423
+- [DriverUnload/cve-2024-25423](https://github.com/DriverUnload/cve-2024-25423)
+
 ### CVE-2024-25466 (-)
 
 <code>Directory Traversal vulnerability in React Native Document Picker before v.9.1.1 and fixed in v.9.1.1 allows a local attacker to execute arbitrary code via a crafted script to the Android library component.
@@ -5691,6 +5694,9 @@
 - [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
 - [hrtowii/cve-2023-41993-test](https://github.com/hrtowii/cve-2023-41993-test)
 - [Mangaia/cve-test](https://github.com/Mangaia/cve-test)
+
+### CVE-2023-42115
+- [cammclain/CVE-2023-42115](https://github.com/cammclain/CVE-2023-42115)
 
 ### CVE-2023-42222 (2023-09-27)
 
@@ -30613,6 +30619,7 @@
 - [happynote3966/CVE-2018-7602](https://github.com/happynote3966/CVE-2018-7602)
 - [kastellanos/CVE-2018-7602](https://github.com/kastellanos/CVE-2018-7602)
 - [cyberharsh/DrupalCVE-2018-7602](https://github.com/cyberharsh/DrupalCVE-2018-7602)
+- [132231g/CVE-2018-7602](https://github.com/132231g/CVE-2018-7602)
 
 ### CVE-2018-7669 (2018-04-27)
 
@@ -33686,7 +33693,7 @@
 - [Hansindu-M/CVE-2017-7494_IT19115344](https://github.com/Hansindu-M/CVE-2017-7494_IT19115344)
 - [0xm4ud/noSAMBAnoCRY-CVE-2017-7494](https://github.com/0xm4ud/noSAMBAnoCRY-CVE-2017-7494)
 - [I-Rinka/BIT-EternalBlue-for-macOS_Linux](https://github.com/I-Rinka/BIT-EternalBlue-for-macOS_Linux)
-- [yinyinmeimei/CVE-2017-7494-payload](https://github.com/yinyinmeimei/CVE-2017-7494-payload)
+- [yinyinnnnn/CVE-2017-7494-payload](https://github.com/yinyinnnnn/CVE-2017-7494-payload)
 - [adjaliya/-CVE-2017-7494-Samba-Exploit-POC](https://github.com/adjaliya/-CVE-2017-7494-Samba-Exploit-POC)
 - [00mjk/exploit-CVE-2017-7494](https://github.com/00mjk/exploit-CVE-2017-7494)
 - [d3fudd/CVE-2017-7494_SambaCry](https://github.com/d3fudd/CVE-2017-7494_SambaCry)
