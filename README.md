@@ -180,6 +180,9 @@
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
 
+### CVE-2024-22369
+- [oscerd/CVE-2024-22369](https://github.com/oscerd/CVE-2024-22369)
+
 ### CVE-2024-22411 (2024-01-16)
 
 <code>Avo is a framework to create admin panels for Ruby on Rails apps. In Avo 3 pre12, any HTML inside text that is passed to `error` or `succeed` in an `Avo::BaseAction` subclass will be rendered directly without sanitization in the toast/notification that appears in the UI on Action completion. A malicious user could exploit this vulnerability to trigger a cross site scripting attack on an unsuspecting user. This issue has been addressed in the 3.3.0 and 2.47.0 releases of Avo. Users are advised to upgrade.
@@ -520,6 +523,9 @@
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
+
+### CVE-2024-206565
+- [sk2wie/sumkalui](https://github.com/sk2wie/sumkalui)
 
 
 ## 2023
@@ -2506,6 +2512,7 @@
 - [gunzf0x/CVE-2023-23752](https://github.com/gunzf0x/CVE-2023-23752)
 - [TindalyTn/CVE-2023-23752](https://github.com/TindalyTn/CVE-2023-23752)
 - [shellvik/CVE-2023-23752](https://github.com/shellvik/CVE-2023-23752)
+- [Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -17013,6 +17020,7 @@
 <code>The fix issued for CVE-2020-17530 was incomplete. So from Apache Struts 2.0.0 to 2.5.29, still some of the tag’s attributes could perform a double evaluation if a developer applied forced OGNL evaluation by using the %{...} syntax. Using forced OGNL evaluation on untrusted user input can lead to a Remote Code Execution and security degradation.
 </code>
 
+- [pyroxenites/s2-062](https://github.com/pyroxenites/s2-062)
 - [Wrin9/CVE-2021-31805](https://github.com/Wrin9/CVE-2021-31805)
 - [Axx8/Struts2_S2-062_CVE-2021-31805](https://github.com/Axx8/Struts2_S2-062_CVE-2021-31805)
 - [jax7sec/S2-062](https://github.com/jax7sec/S2-062)
