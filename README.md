@@ -525,7 +525,7 @@
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
 ### CVE-2024-206565
-- [sk2wie/sumkalui](https://github.com/sk2wie/sumkalui)
+- [sk2wie/sumkaluissess](https://github.com/sk2wie/sumkaluissess)
 
 
 ## 2023
