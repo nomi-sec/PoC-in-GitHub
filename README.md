@@ -5239,7 +5239,7 @@
 - [MortySecurity/CVE-2023-38831-Exploit-and-Detection](https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection)
 - [nhman-python/CVE-2023-38831](https://github.com/nhman-python/CVE-2023-38831)
 - [z3r0sw0rd/CVE-2023-38831-PoC](https://github.com/z3r0sw0rd/CVE-2023-38831-PoC)
-- [BeniBeastt/CVE-2023-38831_ReverseShell_Winrar](https://github.com/BeniBeastt/CVE-2023-38831_ReverseShell_Winrar)
+- [BeniB3astt/CVE-2023-38831_ReverseShell_Winrar](https://github.com/BeniB3astt/CVE-2023-38831_ReverseShell_Winrar)
 - [MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC](https://github.com/MorDavid/CVE-2023-38831-Winrar-Exploit-Generator-POC)
 - [Mich-ele/CVE-2023-38831-winrar](https://github.com/Mich-ele/CVE-2023-38831-winrar)
 - [asepsaepdin/CVE-2023-38831](https://github.com/asepsaepdin/CVE-2023-38831)
@@ -7010,6 +7010,9 @@
 
 - [ambionics/owncloud-exploits](https://github.com/ambionics/owncloud-exploits)
 
+### CVE-2023-49209
+- [Kaue-Navarro/POC-CVE-2023-49209](https://github.com/Kaue-Navarro/POC-CVE-2023-49209)
+
 ### CVE-2023-49313 (2023-11-28)
 
 <code>A dylib injection vulnerability in XMachOViewer 0.04 allows attackers to compromise integrity. By exploiting this, unauthorized code can be injected into the product's processes, potentially leading to remote control and unauthorized access to sensitive user data.
@@ -7205,6 +7208,13 @@
 </code>
 
 - [febinrev/deepin-linux_reader_RCE-exploit](https://github.com/febinrev/deepin-linux_reader_RCE-exploit)
+
+### CVE-2023-50387 (-)
+
+<code>Certain DNSSEC aspects of the DNS protocol (in RFC 4033, 4034, 4035, 6840, and related RFCs) allow remote attackers to cause a denial of service (CPU consumption) via one or more DNSSEC responses, aka the &quot;KeyTrap&quot; issue. One of the concerns is that, when there is a zone with many DNSKEY and RRSIG records, the protocol specification implies that an algorithm must evaluate all combinations of DNSKEY and RRSIG records.
+</code>
+
+- [knqyf263/CVE-2023-50387](https://github.com/knqyf263/CVE-2023-50387)
 
 ### CVE-2023-50465 (2023-12-10)
 
@@ -31168,7 +31178,6 @@
 - [K3ysTr0K3R/CVE-2018-9995-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2018-9995-EXPLOIT)
 - [Pab450/CVE-2018-9995](https://github.com/Pab450/CVE-2018-9995)
 - [arminarab1999/CVE-2018-9995](https://github.com/arminarab1999/CVE-2018-9995)
-- [DOCKTYPe19/CVE-2018-9995](https://github.com/DOCKTYPe19/CVE-2018-9995)
 - [X3RX3SSec/DVR_Sploit](https://github.com/X3RX3SSec/DVR_Sploit)
 
 ### CVE-2018-10097 (2018-04-13)
