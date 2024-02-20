@@ -383,6 +383,30 @@
 ### CVE-2024-24035
 - [ELIZEUOPAIN/CVE-2024-24035](https://github.com/ELIZEUOPAIN/CVE-2024-24035)
 
+### CVE-2024-24092
+- [ASR511-OO7/CVE-2024-24092](https://github.com/ASR511-OO7/CVE-2024-24092)
+
+### CVE-2024-24093
+- [ASR511-OO7/CVE-2024-24093](https://github.com/ASR511-OO7/CVE-2024-24093)
+
+### CVE-2024-24094
+- [ASR511-OO7/CVE-2024-24094](https://github.com/ASR511-OO7/CVE-2024-24094)
+
+### CVE-2024-24097
+- [ASR511-OO7/CVE-2024-24097](https://github.com/ASR511-OO7/CVE-2024-24097)
+
+### CVE-2024-24098
+- [ASR511-OO7/CVE-2024-24098](https://github.com/ASR511-OO7/CVE-2024-24098)
+
+### CVE-2024-24101
+- [ASR511-OO7/CVE-2024-24101](https://github.com/ASR511-OO7/CVE-2024-24101)
+
+### CVE-2024-24102
+- [ASR511-OO7/CVE-2024-24102](https://github.com/ASR511-OO7/CVE-2024-24102)
+
+### CVE-2024-24103
+- [ASR511-OO7/CVE-2024-24103](https://github.com/ASR511-OO7/CVE-2024-24103)
+
 ### CVE-2024-24134 (2024-01-29)
 
 <code>Sourcecodester Online Food Menu 1.0 is vulnerable to Cross Site Scripting (XSS) via the 'Menu Name' and 'Description' fields in the Update Menu section.
@@ -496,6 +520,9 @@
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
 
+### CVE-2024-25251
+- [ASR511-OO7/CVE-2024-25251](https://github.com/ASR511-OO7/CVE-2024-25251)
+
 ### CVE-2024-25278
 - [sajaljat/CVE-2024-25278](https://github.com/sajaljat/CVE-2024-25278)
 
@@ -507,6 +534,9 @@
 
 ### CVE-2024-25281
 - [sajaljat/CVE-2024-25281](https://github.com/sajaljat/CVE-2024-25281)
+
+### CVE-2024-25381
+- [Ox130e07d/CVE-2024-25381](https://github.com/Ox130e07d/CVE-2024-25381)
 
 ### CVE-2024-25423
 - [DriverUnload/cve-2024-25423](https://github.com/DriverUnload/cve-2024-25423)
@@ -5609,6 +5639,21 @@
 
 - [JBalanza/CVE-2023-41474](https://github.com/JBalanza/CVE-2023-41474)
 
+### CVE-2023-41497
+- [ASR511-OO7/CVE-2023-41497](https://github.com/ASR511-OO7/CVE-2023-41497)
+
+### CVE-2023-41498
+- [ASR511-OO7/CVE-2023-41498](https://github.com/ASR511-OO7/CVE-2023-41498)
+
+### CVE-2023-41499
+- [ASR511-OO7/CVE-2023-41499](https://github.com/ASR511-OO7/CVE-2023-41499)
+
+### CVE-2023-41500
+- [ASR511-OO7/CVE-2023-41500](https://github.com/ASR511-OO7/CVE-2023-41500)
+
+### CVE-2023-41501
+- [ASR511-OO7/CVE-2023-41501](https://github.com/ASR511-OO7/CVE-2023-41501)
+
 ### CVE-2023-41507 (2023-09-05)
 
 <code>Super Store Finder v3.6 was discovered to contain multiple SQL injection vulnerabilities in the store locator component via the products, distance, lat, and lng parameters.
@@ -5729,6 +5774,12 @@
 </code>
 
 - [andreysanyuk/CVE-2023-42284](https://github.com/andreysanyuk/CVE-2023-42284)
+
+### CVE-2023-42307
+- [ASR511-OO7/CVE-2023-42307](https://github.com/ASR511-OO7/CVE-2023-42307)
+
+### CVE-2023-42308
+- [ASR511-OO7/CVE-2023-42308](https://github.com/ASR511-OO7/CVE-2023-42308)
 
 ### CVE-2023-42362 (2023-09-14)
 
@@ -5877,6 +5928,9 @@
 </code>
 
 - [MateusTesser/CVE-2023-43284](https://github.com/MateusTesser/CVE-2023-43284)
+
+### CVE-2023-43292
+- [ASR511-OO7/CVE-2023-43292](https://github.com/ASR511-OO7/CVE-2023-43292)
 
 ### CVE-2023-43317 (2024-01-24)
 
@@ -9209,7 +9263,6 @@
 - [snicoll-scratches/spring-boot-cve-2022-22965](https://github.com/snicoll-scratches/spring-boot-cve-2022-22965)
 - [nu0l/CVE-2022-22965](https://github.com/nu0l/CVE-2022-22965)
 - [tangxiaofeng7/CVE-2022-22965-Spring-Core-Rce](https://github.com/tangxiaofeng7/CVE-2022-22965-Spring-Core-Rce)
-- [whoami0622/CVE-2022-22965-POC](https://github.com/whoami0622/CVE-2022-22965-POC)
 - [helsecert/CVE-2022-22965](https://github.com/helsecert/CVE-2022-22965)
 - [lcarea/CVE-2022-22965](https://github.com/lcarea/CVE-2022-22965)
 - [Joe1sn/CVE-2022-22965](https://github.com/Joe1sn/CVE-2022-22965)
@@ -15047,7 +15100,6 @@
 - [supportingmx/cve-2021-4034](https://github.com/supportingmx/cve-2021-4034)
 - [A1vinSmith/CVE-2021-4034](https://github.com/A1vinSmith/CVE-2021-4034)
 - [HellGateCorp/pwnkit](https://github.com/HellGateCorp/pwnkit)
-- [0xNix/CVE-2021-4034](https://github.com/0xNix/CVE-2021-4034)
 - [Silencecyber/cve-2021-4034](https://github.com/Silencecyber/cve-2021-4034)
 - [Geni0r/cve-2021-4034-poc](https://github.com/Geni0r/cve-2021-4034-poc)
 - [zxc2007/CVE-2021-4034](https://github.com/zxc2007/CVE-2021-4034)
@@ -26863,13 +26915,6 @@
 - [wolf1892/CVE-2019-7609](https://github.com/wolf1892/CVE-2019-7609)
 - [Cr4ckC4t/cve-2019-7609](https://github.com/Cr4ckC4t/cve-2019-7609)
 - [OliveiraaX/CVE-2019-7609-KibanaRCE](https://github.com/OliveiraaX/CVE-2019-7609-KibanaRCE)
-
-### CVE-2019-7610 (2019-03-25)
-
-<code>Kibana versions before 6.6.1 contain an arbitrary code execution flaw in the security audit logger. If a Kibana instance has the setting xpack.security.audit.enabled set to true, an attacker could send a request that will attempt to execute javascript code. This could possibly lead to an attacker executing arbitrary commands with permissions of the Kibana process on the host system.
-</code>
-
-- [whoami0622/CVE-2019-7610](https://github.com/whoami0622/CVE-2019-7610)
 
 ### CVE-2019-7616 (2019-07-30)
 
