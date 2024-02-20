@@ -5204,6 +5204,7 @@
 - [Ego1stoo/CVE-2023-38646](https://github.com/Ego1stoo/CVE-2023-38646)
 - [0utl4nder/Another-Metabase-RCE-CVE-2023-38646](https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646)
 - [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
+- [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
 
 ### CVE-2023-38743 (2023-09-11)
 
@@ -17045,6 +17046,13 @@
 </code>
 
 - [RobertDra/CVE-2021-31862](https://github.com/RobertDra/CVE-2021-31862)
+
+### CVE-2021-31954 (2021-06-08)
+
+<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
+</code>
+
+- [MochiNishimiya/CVE-2021-31954](https://github.com/MochiNishimiya/CVE-2021-31954)
 
 ### CVE-2021-31955 (2021-06-08)
 
