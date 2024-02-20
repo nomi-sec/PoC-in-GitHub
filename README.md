@@ -124,6 +124,7 @@
 - [labesterOct/CVE-2024-21413](https://github.com/labesterOct/CVE-2024-21413)
 - [CMNatic/CVE-2024-21413](https://github.com/CMNatic/CVE-2024-21413)
 - [MSeymenD/CVE-2024-21413](https://github.com/MSeymenD/CVE-2024-21413)
+- [Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -180,7 +181,11 @@
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
 
-### CVE-2024-22369
+### CVE-2024-22369 (-)
+
+<code>Deserialization of Untrusted Data vulnerability in Apache Camel SQL ComponentThis issue affects Apache Camel: from 3.0.0 before 3.21.4, from 3.22.0 before 3.22.1, from 4.0.0 before 4.0.4, from 4.1.0 before 4.4.0.\n\nUsers are recommended to upgrade to version 4.4.0, which fixes the issue. If users are on the 4.0.x LTS releases stream, then they are suggested to upgrade to 4.0.4. If users are on 3.x, they are suggested to move to 3.21.4 or 3.22.1\n\n
+</code>
+
 - [oscerd/CVE-2024-22369](https://github.com/oscerd/CVE-2024-22369)
 
 ### CVE-2024-22411 (2024-01-16)
@@ -271,6 +276,13 @@
 </code>
 
 - [hrtowii/CVE-2024-23208-test](https://github.com/hrtowii/CVE-2024-23208-test)
+
+### CVE-2024-23222 (2024-01-22)
+
+<code>A type confusion issue was addressed with improved checks. This issue is fixed in tvOS 17.3, iOS 17.3 and iPadOS 17.3, macOS Sonoma 14.3, iOS 16.7.5 and iPadOS 16.7.5, Safari 17.3, macOS Ventura 13.6.4, macOS Monterey 12.7.3. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited.
+</code>
+
+- [supportmango/CVE-2024-23222-patch](https://github.com/supportmango/CVE-2024-23222-patch)
 
 ### CVE-2024-23738 (2024-01-27)
 
@@ -372,6 +384,7 @@
 - [godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897)
 - [ifconfig-me/CVE-2024-23897](https://github.com/ifconfig-me/CVE-2024-23897)
 - [ThatNotEasy/CVE-2024-23897](https://github.com/ThatNotEasy/CVE-2024-23897)
+- [pulentoski/CVE-2024-23897-Arbitrary-file-read](https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -519,6 +532,9 @@
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
+
+### CVE-2024-25202
+- [Agampreet-Singh/CVE-2024-25202](https://github.com/Agampreet-Singh/CVE-2024-25202)
 
 ### CVE-2024-25251
 - [ASR511-OO7/CVE-2024-25251](https://github.com/ASR511-OO7/CVE-2024-25251)
