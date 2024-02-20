@@ -7064,6 +7064,9 @@
 
 - [zunak/CVE-2023-49471](https://github.com/zunak/CVE-2023-49471)
 
+### CVE-2023-49496
+- [HuangYanQwQ/CVE-2023-49496](https://github.com/HuangYanQwQ/CVE-2023-49496)
+
 ### CVE-2023-49539
 - [geraldoalcantara/CVE-2023-49539](https://github.com/geraldoalcantara/CVE-2023-49539)
 
