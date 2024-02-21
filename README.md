@@ -1527,6 +1527,13 @@
 
 - [rockrid3r/CVE-2023-5178](https://github.com/rockrid3r/CVE-2023-5178)
 
+### CVE-2023-5204 (2023-10-19)
+
+<code>The ChatBot plugin for WordPress is vulnerable to SQL Injection via the $strid parameter in versions up to, and including, 4.8.9 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [RandomRobbieBF/CVE-2023-5204](https://github.com/RandomRobbieBF/CVE-2023-5204)
+
 ### CVE-2023-5217 (2023-09-28)
 
 <code>Heap buffer overflow in vp8 encoding in libvpx in Google Chrome prior to 117.0.5938.132 and libvpx 1.13.1 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
@@ -26108,7 +26115,6 @@
 - [sv3nbeast/CVE-2019-1388](https://github.com/sv3nbeast/CVE-2019-1388)
 - [nobodyatall648/CVE-2019-1388](https://github.com/nobodyatall648/CVE-2019-1388)
 - [suprise4u/CVE-2019-1388](https://github.com/suprise4u/CVE-2019-1388)
-- [sickthecat/CVE-2019-1388](https://github.com/sickthecat/CVE-2019-1388)
 
 ### CVE-2019-1402 (2019-11-12)
 
