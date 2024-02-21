@@ -536,6 +536,9 @@
 ### CVE-2024-25202
 - [Agampreet-Singh/CVE-2024-25202](https://github.com/Agampreet-Singh/CVE-2024-25202)
 
+### CVE-2024-25249
+- [intbjw/CVE-2024-25249](https://github.com/intbjw/CVE-2024-25249)
+
 ### CVE-2024-25251
 - [ASR511-OO7/CVE-2024-25251](https://github.com/ASR511-OO7/CVE-2024-25251)
 
@@ -9180,7 +9183,6 @@
 - [qq87234770/CVE-2022-22947](https://github.com/qq87234770/CVE-2022-22947)
 - [Zh0um1/CVE-2022-22947](https://github.com/Zh0um1/CVE-2022-22947)
 - [Le1a/CVE-2022-22947](https://github.com/Le1a/CVE-2022-22947)
-- [charonlight/SpringExploitGUI](https://github.com/charonlight/SpringExploitGUI)
 
 ### CVE-2022-22948 (2022-03-29)
 
