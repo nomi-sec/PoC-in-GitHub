@@ -113,6 +113,13 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
+### CVE-2024-21410 (-)
+
+<code>Microsoft Exchange Server Elevation of Privilege Vulnerability
+</code>
+
+- [sk2wie/CVE-2024-21410-CITRIX](https://github.com/sk2wie/CVE-2024-21410-CITRIX)
+
 ### CVE-2024-21413 (-)
 
 <code>Microsoft Outlook Remote Code Execution Vulnerability
@@ -276,13 +283,6 @@
 </code>
 
 - [hrtowii/CVE-2024-23208-test](https://github.com/hrtowii/CVE-2024-23208-test)
-
-### CVE-2024-23222 (2024-01-22)
-
-<code>A type confusion issue was addressed with improved checks. This issue is fixed in tvOS 17.3, iOS 17.3 and iPadOS 17.3, macOS Sonoma 14.3, iOS 16.7.5 and iPadOS 16.7.5, Safari 17.3, macOS Ventura 13.6.4, macOS Monterey 12.7.3. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited.
-</code>
-
-- [supportmango/CVE-2024-23222-patch](https://github.com/supportmango/CVE-2024-23222-patch)
 
 ### CVE-2024-23738 (2024-01-27)
 
@@ -563,6 +563,10 @@
 </code>
 
 - [FixedOctocat/CVE-2024-25466](https://github.com/FixedOctocat/CVE-2024-25466)
+
+### CVE-2024-25600
+- [Chocapikk/CVE-2024-25600](https://github.com/Chocapikk/CVE-2024-25600)
+- [Christbowel/CVE-2024-25600_Nuclei-Template](https://github.com/Christbowel/CVE-2024-25600_Nuclei-Template)
 
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
@@ -34649,6 +34653,7 @@
 - [giacomoferretti/janus-toolkit](https://github.com/giacomoferretti/janus-toolkit)
 - [tea9/CVE-2017-13156-Janus](https://github.com/tea9/CVE-2017-13156-Janus)
 - [M507/CVE-2017-13156](https://github.com/M507/CVE-2017-13156)
+- [nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit](https://github.com/nahid0x1/Janus-Vulnerability-CVE-2017-13156-Exploit)
 
 ### CVE-2017-13208 (2018-01-12)
 
@@ -39383,6 +39388,13 @@
 </code>
 
 - [xiaoxiaoleo/CVE-2009-2698](https://github.com/xiaoxiaoleo/CVE-2009-2698)
+
+### CVE-2009-3036 (2010-02-23)
+
+<code>Cross-site scripting (XSS) vulnerability in the console in Symantec IM Manager 8.3 and 8.4 before 8.4.13 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+</code>
+
+- [brinhosa/CVE-2009-3036](https://github.com/brinhosa/CVE-2009-3036)
 
 ### CVE-2009-3103 (2009-09-08)
 
