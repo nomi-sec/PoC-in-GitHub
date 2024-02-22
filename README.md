@@ -231,6 +231,9 @@
 - [Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution](https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution)
 - [Orange-418/CVE-2024-22515-File-Upload-Vulnerability](https://github.com/Orange-418/CVE-2024-22515-File-Upload-Vulnerability)
 
+### CVE-2024-22532
+- [pwndorei/CVE-2024-22532](https://github.com/pwndorei/CVE-2024-22532)
+
 ### CVE-2024-22534
 - [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
 
@@ -558,6 +561,9 @@
 
 - [ASR511-OO7/CVE-2024-25251](https://github.com/ASR511-OO7/CVE-2024-25251)
 
+### CVE-2024-25270
+- [fbkcs/CVE-2024-25270](https://github.com/fbkcs/CVE-2024-25270)
+
 ### CVE-2024-25278
 - [sajaljat/CVE-2024-25278](https://github.com/sajaljat/CVE-2024-25278)
 
@@ -594,6 +600,7 @@
 ### CVE-2024-25600
 - [Chocapikk/CVE-2024-25600](https://github.com/Chocapikk/CVE-2024-25600)
 - [Christbowel/CVE-2024-25600_Nuclei-Template](https://github.com/Christbowel/CVE-2024-25600_Nuclei-Template)
+- [Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
 
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
@@ -32790,6 +32797,7 @@
 - [LUCASRENAA/CVE-2018-25031](https://github.com/LUCASRENAA/CVE-2018-25031)
 - [hev0x/CVE-2018-25031-PoC](https://github.com/hev0x/CVE-2018-25031-PoC)
 - [ThiiagoEscobar/CVE-2018-25031](https://github.com/ThiiagoEscobar/CVE-2018-25031)
+- [johnlaurance/CVE-2018-25031-test2](https://github.com/johnlaurance/CVE-2018-25031-test2)
 
 ### CVE-2018-25032 (2022-03-25)
 
