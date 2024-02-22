@@ -120,13 +120,6 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
-### CVE-2024-21410 (-)
-
-<code>Microsoft Exchange Server Elevation of Privilege Vulnerability
-</code>
-
-- [sk2wie/CVE-2024-21410-CITRIX](https://github.com/sk2wie/CVE-2024-21410-CITRIX)
-
 ### CVE-2024-21413 (-)
 
 <code>Microsoft Outlook Remote Code Execution Vulnerability
@@ -609,7 +602,7 @@
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
 ### CVE-2024-206565
-- [sk2wie/sumkaluissess](https://github.com/sk2wie/sumkaluissess)
+- [sk2wie/sumkaluissessss](https://github.com/sk2wie/sumkaluissessss)
 
 
 ## 2023
@@ -1506,7 +1499,6 @@
 - [dinosn/citrix_cve-2023-4966](https://github.com/dinosn/citrix_cve-2023-4966)
 - [mlynchcogent/CVE-2023-4966-POC](https://github.com/mlynchcogent/CVE-2023-4966-POC)
 - [IceBreakerCode/CVE-2023-4966](https://github.com/IceBreakerCode/CVE-2023-4966)
-- [ditekshen/ansible-cve-2023-4966](https://github.com/ditekshen/ansible-cve-2023-4966)
 - [0xKayala/CVE-2023-4966](https://github.com/0xKayala/CVE-2023-4966)
 - [certat/citrix-logchecker](https://github.com/certat/citrix-logchecker)
 - [sanjai-AK47/CVE-2023-4966](https://github.com/sanjai-AK47/CVE-2023-4966)
@@ -1866,7 +1858,6 @@
 - [JoyGhoshs/CVE-2023-20198](https://github.com/JoyGhoshs/CVE-2023-20198)
 - [Tounsi007/CVE-2023-20198](https://github.com/Tounsi007/CVE-2023-20198)
 - [alekos3/CVE_2023_20198_Detector](https://github.com/alekos3/CVE_2023_20198_Detector)
-- [ditekshen/ansible-cve-2023-20198](https://github.com/ditekshen/ansible-cve-2023-20198)
 - [reket99/Cisco_CVE-2023-20198](https://github.com/reket99/Cisco_CVE-2023-20198)
 - [iveresk/cve-2023-20198](https://github.com/iveresk/cve-2023-20198)
 - [sohaibeb/CVE-2023-20198](https://github.com/sohaibeb/CVE-2023-20198)
@@ -2336,7 +2327,6 @@
 - [davidfortytwo/CVE-2023-22518](https://github.com/davidfortytwo/CVE-2023-22518)
 - [sanjai-AK47/CVE-2023-22518](https://github.com/sanjai-AK47/CVE-2023-22518)
 - [0x0d3ad/CVE-2023-22518](https://github.com/0x0d3ad/CVE-2023-22518)
-- [ditekshen/ansible-cve-2023-22518](https://github.com/ditekshen/ansible-cve-2023-22518)
 - [C1ph3rX13/CVE-2023-22518](https://github.com/C1ph3rX13/CVE-2023-22518)
 - [bibo318/CVE-2023-22518](https://github.com/bibo318/CVE-2023-22518)
 
@@ -4936,7 +4926,7 @@
 - [zaenhaxor/CVE-2023-36845](https://github.com/zaenhaxor/CVE-2023-36845)
 - [simrotion13/CVE-2023-36845](https://github.com/simrotion13/CVE-2023-36845)
 - [cyberh3als/CVE-2023-36845-POC](https://github.com/cyberh3als/CVE-2023-36845-POC)
-- [ditekshen/ansible-cve-2023-36845](https://github.com/ditekshen/ansible-cve-2023-36845)
+- [CKevens/ansible-cve-2023-36845](https://github.com/CKevens/ansible-cve-2023-36845)
 - [Asbawy/Automation-for-Juniper-cve-2023-36845](https://github.com/Asbawy/Automation-for-Juniper-cve-2023-36845)
 - [jahithoque/Juniper-CVE-2023-36845-Mass-Hunting](https://github.com/jahithoque/Juniper-CVE-2023-36845-Mass-Hunting)
 - [cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845](https://github.com/cyb3rzest/Juniper-Bug-Automation-CVE-2023-36845)
@@ -7132,7 +7122,6 @@
 </code>
 
 - [creacitysec/CVE-2023-49103](https://github.com/creacitysec/CVE-2023-49103)
-- [ditekshen/ansible-cve-2023-49103](https://github.com/ditekshen/ansible-cve-2023-49103)
 - [MixColumns/CVE-2023-49103](https://github.com/MixColumns/CVE-2023-49103)
 - [merlin-ke/OwnCloud-CVE-2023-49103](https://github.com/merlin-ke/OwnCloud-CVE-2023-49103)
 
@@ -7428,6 +7417,9 @@
 - [farliy-hacker/CVE-2023-51385](https://github.com/farliy-hacker/CVE-2023-51385)
 - [farliy-hacker/CVE-2023-51385-save](https://github.com/farliy-hacker/CVE-2023-51385-save)
 - [2048JiaLi/CVE-2023-51385](https://github.com/2048JiaLi/CVE-2023-51385)
+
+### CVE-2023-51409
+- [RandomRobbieBF/CVE-2023-51409](https://github.com/RandomRobbieBF/CVE-2023-51409)
 
 ### CVE-2023-51467 (2023-12-26)
 
@@ -11144,7 +11136,7 @@
 - [suenerve/CVE-2022-30190-Follina-Patch](https://github.com/suenerve/CVE-2022-30190-Follina-Patch)
 - [castlesmadeofsand/ms-msdt-vulnerability-pdq-package](https://github.com/castlesmadeofsand/ms-msdt-vulnerability-pdq-package)
 - [WesyHub/CVE-2022-30190---Follina---Poc-Exploit](https://github.com/WesyHub/CVE-2022-30190---Follina---Poc-Exploit)
-- [AchocolatechipPancake/MS-MSDT-Office-RCE-Follina](https://github.com/AchocolatechipPancake/MS-MSDT-Office-RCE-Follina)
+- [0xflagplz/MS-MSDT-Office-RCE-Follina](https://github.com/0xflagplz/MS-MSDT-Office-RCE-Follina)
 - [arozx/CVE-2022-30190](https://github.com/arozx/CVE-2022-30190)
 - [Noxtal/follina](https://github.com/Noxtal/follina)
 - [droidrzrlover/CVE-2022-30190](https://github.com/droidrzrlover/CVE-2022-30190)
@@ -11819,6 +11811,7 @@
 - [ps-interactive/lab_security_apache_spark_emulation_detection](https://github.com/ps-interactive/lab_security_apache_spark_emulation_detection)
 - [IMHarman/CVE-2022-33891](https://github.com/IMHarman/CVE-2022-33891)
 - [elsvital/cve-2022-33891-fix](https://github.com/elsvital/cve-2022-33891-fix)
+- [K3ysTr0K3R/CVE-2022-33891-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2022-33891-EXPLOIT)
 
 ### CVE-2022-33980 (2022-07-06)
 
