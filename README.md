@@ -551,7 +551,11 @@
 
 - [intbjw/CVE-2024-25249](https://github.com/intbjw/CVE-2024-25249)
 
-### CVE-2024-25251
+### CVE-2024-25251 (-)
+
+<code>code-projects Agro-School Management System 1.0 is suffers from Incorrect Access Control.
+</code>
+
 - [ASR511-OO7/CVE-2024-25251](https://github.com/ASR511-OO7/CVE-2024-25251)
 
 ### CVE-2024-25278
@@ -573,7 +577,11 @@
 
 - [Ox130e07d/CVE-2024-25381](https://github.com/Ox130e07d/CVE-2024-25381)
 
-### CVE-2024-25423
+### CVE-2024-25423 (-)
+
+<code>An issue in MAXON CINEMA 4D R2024.2.0 allows a local attacker to execute arbitrary code via a crafted c4d_base.xdl64 file.
+</code>
+
 - [DriverUnload/cve-2024-25423](https://github.com/DriverUnload/cve-2024-25423)
 
 ### CVE-2024-25466 (-)
@@ -5281,6 +5289,7 @@
 - [0utl4nder/Another-Metabase-RCE-CVE-2023-38646](https://github.com/0utl4nder/Another-Metabase-RCE-CVE-2023-38646)
 - [Shisones/MetabaseRCE_CVE-2023-38646](https://github.com/Shisones/MetabaseRCE_CVE-2023-38646)
 - [acesoyeo/METABASE-RCE-CVE-2023-38646-](https://github.com/acesoyeo/METABASE-RCE-CVE-2023-38646-)
+- [UserConnecting/Exploit-CVE-2023-38646-Metabase](https://github.com/UserConnecting/Exploit-CVE-2023-38646-Metabase)
 
 ### CVE-2023-38743 (2023-09-11)
 
