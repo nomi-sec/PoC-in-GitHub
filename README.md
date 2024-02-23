@@ -80,6 +80,7 @@
 </code>
 
 - [W01fh4cker/ScreenConnect-AuthBypass-RCE](https://github.com/W01fh4cker/ScreenConnect-AuthBypass-RCE)
+- [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
 
 ### CVE-2024-20656 (2024-01-09)
 
@@ -160,7 +161,6 @@
 </code>
 
 - [oways/ivanti-CVE-2024-21887](https://github.com/oways/ivanti-CVE-2024-21887)
-- [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
 - [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
 - [Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887)
 - [TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script)
@@ -6728,7 +6728,6 @@
 
 - [yoryio/CVE-2023-46805](https://github.com/yoryio/CVE-2023-46805)
 - [cbeek-r7/CVE-2023-46805](https://github.com/cbeek-r7/CVE-2023-46805)
-- [rxwx/pulse-meter](https://github.com/rxwx/pulse-meter)
 - [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
 - [TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script)
 - [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
@@ -7139,9 +7138,6 @@
 </code>
 
 - [ambionics/owncloud-exploits](https://github.com/ambionics/owncloud-exploits)
-
-### CVE-2023-49209
-- [Kaue-Navarro/POC-CVE-2023-49209](https://github.com/Kaue-Navarro/POC-CVE-2023-49209)
 
 ### CVE-2023-49313 (2023-11-28)
 
@@ -25648,6 +25644,13 @@
 </code>
 
 - [gmh5225/CVE-2020-36603](https://github.com/gmh5225/CVE-2020-36603)
+
+### CVE-2020-36730 (2023-06-06)
+
+<code>The CMP for WordPress is vulnerable to authorization bypass due to a missing capability check on the cmp_get_post_detail(), niteo_export_csv(), and cmp_disable_comingsoon_ajax() functions in versions up to, and including, 3.8.1. This makes it possible for unauthenticated attackers to read posts, export subscriber lists, and/or deactivate the plugin.
+</code>
+
+- [RandomRobbieBF/CVE-2020-36730](https://github.com/RandomRobbieBF/CVE-2020-36730)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
