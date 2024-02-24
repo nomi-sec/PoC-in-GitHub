@@ -577,6 +577,9 @@
 ### CVE-2024-25281
 - [sajaljat/CVE-2024-25281](https://github.com/sajaljat/CVE-2024-25281)
 
+### CVE-2024-25376
+- [ewilded/CVE-2024-25376-POC](https://github.com/ewilded/CVE-2024-25376-POC)
+
 ### CVE-2024-25381 (-)
 
 <code>There is a Stored XSS Vulnerability in Emlog Pro 2.2.8 Article Publishing, due to non-filtering of quoted content.
@@ -5419,6 +5422,13 @@
 </code>
 
 - [cduram/CVE-2023-39144](https://github.com/cduram/CVE-2023-39144)
+
+### CVE-2023-39320 (2023-09-08)
+
+<code>The go.mod toolchain directive, introduced in Go 1.21, can be leveraged to execute scripts and binaries relative to the root of the module when the &quot;go&quot; command was executed within the module. This applies to modules downloaded using the &quot;go&quot; command from the module proxy, as well as modules downloaded directly using VCS software.
+</code>
+
+- [ayrustogaru/cve-2023-39320](https://github.com/ayrustogaru/cve-2023-39320)
 
 ### CVE-2023-39362 (2023-09-05)
 
@@ -38244,7 +38254,6 @@
 <code>Git before 1.8.5.6, 1.9.x before 1.9.5, 2.0.x before 2.0.5, 2.1.x before 2.1.4, and 2.2.x before 2.2.1 on Windows and OS X; Mercurial before 3.2.3 on Windows and OS X; Apple Xcode before 6.2 beta 3; mine all versions before 08-12-2014; libgit2 all versions up to 0.21.2; Egit all versions before 08-12-2014; and JGit all versions before 08-12-2014 allow remote Git servers to execute arbitrary commands via a tree containing a crafted .git/config file with (1) an ignorable Unicode codepoint, (2) a git~1/config representation, or (3) mixed case that is improperly handled on a case-insensitive filesystem.
 </code>
 
-- [mdisec/CVE-2014-9390](https://github.com/mdisec/CVE-2014-9390)
 - [hakatashi/CVE-2014-9390](https://github.com/hakatashi/CVE-2014-9390)
 
 ### CVE-2014-9690 (2017-04-02)
