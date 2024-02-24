@@ -837,9 +837,6 @@
 - [Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln](https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln)
 - [shad0w0sec/CVE-2023-1454-EXP](https://github.com/shad0w0sec/CVE-2023-1454-EXP)
 
-### CVE-2023-1521
-- [rubbxalc/CVE-2023-1521](https://github.com/rubbxalc/CVE-2023-1521)
-
 ### CVE-2023-1665 (2023-03-27)
 
 <code>Improper Restriction of Excessive Authentication Attempts in GitHub repository linagora/twake prior to 0.0.0.
@@ -2328,6 +2325,7 @@
 - [edsonjt81/CVE-2023-22515-Scan.](https://github.com/edsonjt81/CVE-2023-22515-Scan.)
 - [INTfinityConsulting/cve-2023-22515](https://github.com/INTfinityConsulting/cve-2023-22515)
 - [CalegariMindSec/Exploit-CVE-2023-22515](https://github.com/CalegariMindSec/Exploit-CVE-2023-22515)
+- [rxerium/CVE-2023-22515](https://github.com/rxerium/CVE-2023-22515)
 
 ### CVE-2023-22518 (2023-10-31)
 
