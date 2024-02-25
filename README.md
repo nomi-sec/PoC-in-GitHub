@@ -21721,6 +21721,7 @@
 - [Aviksaikat/CVE-2020-3452](https://github.com/Aviksaikat/CVE-2020-3452)
 - [Veids/CVE-2020-3452_auto](https://github.com/Veids/CVE-2020-3452_auto)
 - [iveresk/cve-2020-3452](https://github.com/iveresk/cve-2020-3452)
+- [imhunterand/CVE-2020-3452](https://github.com/imhunterand/CVE-2020-3452)
 
 ### CVE-2020-3580 (2020-10-21)
 
@@ -22928,6 +22929,7 @@
 </code>
 
 - [zavke/CVE-2020-10189-ManageEngine](https://github.com/zavke/CVE-2020-10189-ManageEngine)
+- [BLACKpwn/Remote_Code_Execution-](https://github.com/BLACKpwn/Remote_Code_Execution-)
 
 ### CVE-2020-10199 (2020-04-01)
 
