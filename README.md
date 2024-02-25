@@ -67,6 +67,13 @@
 
 - [sajaljat/CVE-2024-1269](https://github.com/sajaljat/CVE-2024-1269)
 
+### CVE-2024-1346 (-)
+
+<code>Weak MySQL database root password in LaborOfficeFree affects version 19.10. This vulnerability allows an attacker to calculate the root password of the MySQL database used by LaborOfficeFree using two constants.
+</code>
+
+- [PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346)
+
 ### CVE-2024-1651 (-)
 
 <code>Torrentpier version 2.4.1 allows executing arbitrary commands on the server.\n\nThis is possible because the application is vulnerable to insecure deserialization.\n\n\n\n\n
@@ -271,6 +278,9 @@
 ### CVE-2024-22909
 - [BurakSevben/CVE-2024-22909](https://github.com/BurakSevben/CVE-2024-22909)
 
+### CVE-2024-22917
+- [ASR511-OO7/CVE-2024-22917](https://github.com/ASR511-OO7/CVE-2024-22917)
+
 ### CVE-2024-22922 (2024-01-25)
 
 <code>An issue in Projectworlds Vistor Management Systemin PHP v.1.0 allows a remtoe attacker to escalate privileges via a crafted script to the login page in the POST/index.php
@@ -417,11 +427,23 @@
 ### CVE-2024-24094
 - [ASR511-OO7/CVE-2024-24094](https://github.com/ASR511-OO7/CVE-2024-24094)
 
+### CVE-2024-24095
+- [ASR511-OO7/CVE-2024-24095](https://github.com/ASR511-OO7/CVE-2024-24095)
+
+### CVE-2024-24096
+- [ASR511-OO7/CVE-2024-24096](https://github.com/ASR511-OO7/CVE-2024-24096)
+
 ### CVE-2024-24097
 - [ASR511-OO7/CVE-2024-24097](https://github.com/ASR511-OO7/CVE-2024-24097)
 
 ### CVE-2024-24098
 - [ASR511-OO7/CVE-2024-24098](https://github.com/ASR511-OO7/CVE-2024-24098)
+
+### CVE-2024-24099
+- [ASR511-OO7/CVE-2024-24099](https://github.com/ASR511-OO7/CVE-2024-24099)
+
+### CVE-2024-24100
+- [ASR511-OO7/CVE-2024-24100](https://github.com/ASR511-OO7/CVE-2024-24100)
 
 ### CVE-2024-24101
 - [ASR511-OO7/CVE-2024-24101](https://github.com/ASR511-OO7/CVE-2024-24101)
@@ -544,6 +566,12 @@
 
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
+
+### CVE-2024-25169
+- [shenhav12/CVE-2024-25169-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0)
+
+### CVE-2024-25170
+- [shenhav12/CVE-2024-25170-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0)
 
 ### CVE-2024-25202
 - [Agampreet-Singh/CVE-2024-25202](https://github.com/Agampreet-Singh/CVE-2024-25202)
@@ -4257,6 +4285,12 @@
 
 - [lodi-g/CVE-2023-33668](https://github.com/lodi-g/CVE-2023-33668)
 
+### CVE-2023-33676
+- [ASR511-OO7/CVE-2023-33676](https://github.com/ASR511-OO7/CVE-2023-33676)
+
+### CVE-2023-33677
+- [ASR511-OO7/CVE-2023-33677](https://github.com/ASR511-OO7/CVE-2023-33677)
+
 ### CVE-2023-33730 (2023-05-31)
 
 <code>Privilege Escalation in the &quot;GetUserCurrentPwd&quot; function in Microworld Technologies eScan Management Console 14.0.1400.2281 allows any remote attacker to retrieve password of any admin or normal user in plain text format.
@@ -5031,7 +5065,7 @@
 <code>Unity Parsec has a TOCTOU race condition that permits local attackers to escalate privileges to SYSTEM if Parsec was installed in &quot;Per User&quot; mode. The application intentionally launches DLLs from a user-owned directory but intended to always perform integrity verification of those DLLs. This affects Parsec Loader versions through 8. Parsec Loader 9 is a fixed version.
 </code>
 
-- [ewilded/CVE-2023-37250](https://github.com/ewilded/CVE-2023-37250)
+- [ewilded/CVE-2023-37250-POC](https://github.com/ewilded/CVE-2023-37250-POC)
 
 ### CVE-2023-37474 (2023-07-14)
 
@@ -5185,6 +5219,13 @@
 - [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
 - [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
 - [mind2hex/MICS_Hunter](https://github.com/mind2hex/MICS_Hunter)
+
+### CVE-2023-38041 (2023-10-24)
+
+<code>A logged in user may elevate its permissions by abusing a Time-of-Check to Time-of-Use (TOCTOU) race condition. When a particular process flow is initiated, an attacker can exploit this condition to gain unauthorized elevated privileges on the affected system.
+</code>
+
+- [ewilded/CVE-2023-38041-POC](https://github.com/ewilded/CVE-2023-38041-POC)
 
 ### CVE-2023-38120
 - [warber0x/CVE-2023-38120](https://github.com/warber0x/CVE-2023-38120)
@@ -5650,6 +5691,12 @@
 
 - [Zone1-Z/CVE-2023-40989](https://github.com/Zone1-Z/CVE-2023-40989)
 
+### CVE-2023-41014
+- [ASR511-OO7/CVE-2023-41014](https://github.com/ASR511-OO7/CVE-2023-41014)
+
+### CVE-2023-41015
+- [ASR511-OO7/CVE-2023-41015](https://github.com/ASR511-OO7/CVE-2023-41015)
+
 ### CVE-2023-41064 (2023-09-07)
 
 <code>A buffer overflow issue was addressed with improved memory handling. This issue is fixed in iOS 16.6.1 and iPadOS 16.6.1, macOS Monterey 12.6.9, macOS Ventura 13.5.2, iOS 15.7.9 and iPadOS 15.7.9, macOS Big Sur 11.7.10. Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
@@ -5721,6 +5768,18 @@
 
 ### CVE-2023-41501
 - [ASR511-OO7/CVE-2023-41501](https://github.com/ASR511-OO7/CVE-2023-41501)
+
+### CVE-2023-41503
+- [ASR511-OO7/CVE-2023-41503](https://github.com/ASR511-OO7/CVE-2023-41503)
+
+### CVE-2023-41504
+- [ASR511-OO7/CVE-2023-41504](https://github.com/ASR511-OO7/CVE-2023-41504)
+
+### CVE-2023-41505
+- [ASR511-OO7/CVE-2023-41505](https://github.com/ASR511-OO7/CVE-2023-41505)
+
+### CVE-2023-41506
+- [ASR511-OO7/CVE-2023-41506](https://github.com/ASR511-OO7/CVE-2023-41506)
 
 ### CVE-2023-41507 (2023-09-05)
 
@@ -5911,6 +5970,7 @@
 - [H454NSec/CVE-2023-42793](https://github.com/H454NSec/CVE-2023-42793)
 - [Zenmovie/CVE-2023-42793](https://github.com/Zenmovie/CVE-2023-42793)
 - [johnossawy/CVE-2023-42793_POC](https://github.com/johnossawy/CVE-2023-42793_POC)
+- [StanleyJobsonAU/GhostTown](https://github.com/StanleyJobsonAU/GhostTown)
 
 ### CVE-2023-42819 (2023-09-26)
 
@@ -13611,6 +13671,15 @@
 
 - [G37SYS73M/CVE-2022-46087](https://github.com/G37SYS73M/CVE-2022-46087)
 
+### CVE-2022-46088
+- [ASR511-OO7/CVE-2022-46088](https://github.com/ASR511-OO7/CVE-2022-46088)
+
+### CVE-2022-46089
+- [ASR511-OO7/CVE-2022-46089](https://github.com/ASR511-OO7/CVE-2022-46089)
+
+### CVE-2022-46091
+- [ASR511-OO7/CVE-2022-46091](https://github.com/ASR511-OO7/CVE-2022-46091)
+
 ### CVE-2022-46104
 - [NurSec747/CVE-2022-46104---POC](https://github.com/NurSec747/CVE-2022-46104---POC)
 
@@ -13702,6 +13771,15 @@
 </code>
 
 - [WodenSec/CVE-2022-46485](https://github.com/WodenSec/CVE-2022-46485)
+
+### CVE-2022-46497
+- [ASR511-OO7/CVE-2022-46497](https://github.com/ASR511-OO7/CVE-2022-46497)
+
+### CVE-2022-46498
+- [ASR511-OO7/CVE-2022-46498](https://github.com/ASR511-OO7/CVE-2022-46498)
+
+### CVE-2022-46499
+- [ASR511-OO7/CVE-2022-46499](https://github.com/ASR511-OO7/CVE-2022-46499)
 
 ### CVE-2022-46505 (2023-01-18)
 
