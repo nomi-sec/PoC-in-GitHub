@@ -307,7 +307,7 @@
 
 ### CVE-2024-23738 (2024-01-27)
 
-<code>An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+<code>** DISPUTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;
 </code>
 
 - [giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738)
@@ -637,6 +637,9 @@
 
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
+
+### CVE-2024-26521
+- [hackervegas001/CVE-2024-26521](https://github.com/hackervegas001/CVE-2024-26521)
 
 ### CVE-2024-26534
 - [sajaljat/CVE-2024-26534](https://github.com/sajaljat/CVE-2024-26534)
@@ -5895,9 +5898,6 @@
 - [hrtowii/cve-2023-41993-test](https://github.com/hrtowii/cve-2023-41993-test)
 - [Mangaia/cve-test](https://github.com/Mangaia/cve-test)
 
-### CVE-2023-42115
-- [cammclain/CVE-2023-42115](https://github.com/cammclain/CVE-2023-42115)
-
 ### CVE-2023-42222 (2023-09-27)
 
 <code>WebCatalog before 49.0 is vulnerable to Incorrect Access Control. WebCatalog calls the Electron shell.openExternal function without verifying that the URL is for an http or https resource, in some circumstances.
@@ -7556,6 +7556,13 @@
 </code>
 
 - [Pastea/CVE-2023-51810](https://github.com/Pastea/CVE-2023-51810)
+
+### CVE-2023-52160 (-)
+
+<code>The implementation of PEAP in wpa_supplicant through 2.10 allows authentication bypass. For a successful attack, wpa_supplicant must be configured to not verify the network's TLS certificate during Phase 1 authentication, and an eap_peap_decrypt vulnerability can then be abused to skip Phase 2 authentication. The attack vector is sending an EAP-TLV Success packet instead of starting Phase 2. This allows an adversary to impersonate Enterprise Wi-Fi networks.
+</code>
+
+- [Helica-core/eap_pwn](https://github.com/Helica-core/eap_pwn)
 
 ### CVE-2023-52251 (2024-01-25)
 
