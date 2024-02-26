@@ -638,6 +638,15 @@
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
 
+### CVE-2024-26534
+- [sajaljat/CVE-2024-26534](https://github.com/sajaljat/CVE-2024-26534)
+
+### CVE-2024-26535
+- [sajaljat/CVE-2024-26535](https://github.com/sajaljat/CVE-2024-26535)
+
+### CVE-2024-26560
+- [sajaljat/CVE-2024-26560](https://github.com/sajaljat/CVE-2024-26560)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -3509,7 +3518,6 @@
 - [SynixCyberCrimeMy/CVE-2023-29489](https://github.com/SynixCyberCrimeMy/CVE-2023-29489)
 - [Makurorororororororo/Validate-CVE-2023-29489-scanner-](https://github.com/Makurorororororororo/Validate-CVE-2023-29489-scanner-)
 - [prasad-1808/tool-29489](https://github.com/prasad-1808/tool-29489)
-- [Praveenms13/CVE-2023-29489](https://github.com/Praveenms13/CVE-2023-29489)
 - [mdaseem03/cpanel_xss_2023](https://github.com/mdaseem03/cpanel_xss_2023)
 
 ### CVE-2023-29808 (2023-05-11)
@@ -17259,13 +17267,6 @@
 
 - [RobertDra/CVE-2021-31862](https://github.com/RobertDra/CVE-2021-31862)
 
-### CVE-2021-31954 (2021-06-08)
-
-<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
-</code>
-
-- [MochiNishimiya/CVE-2021-31954](https://github.com/MochiNishimiya/CVE-2021-31954)
-
 ### CVE-2021-31955 (2021-06-08)
 
 <code>Windows Kernel Information Disclosure Vulnerability
@@ -27747,7 +27748,7 @@
 <code>A buffer overflow in MailCarrier 2.51 allows remote attackers to execute arbitrary code via a long string, as demonstrated by SMTP RCPT TO, POP3 USER, POP3 LIST, POP3 TOP, or POP3 RETR.
 </code>
 
-- [redalien301090/CVE-2019-11395](https://github.com/redalien301090/CVE-2019-11395)
+- [RedAlien00/CVE-2019-11395](https://github.com/RedAlien00/CVE-2019-11395)
 
 ### CVE-2019-11408 (2019-06-17)
 
