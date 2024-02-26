@@ -407,6 +407,7 @@
 - [ThatNotEasy/CVE-2024-23897](https://github.com/ThatNotEasy/CVE-2024-23897)
 - [pulentoski/CVE-2024-23897-Arbitrary-file-read](https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read)
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
+- [Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -2399,6 +2400,7 @@
 - [adminlove520/CVE-2023-22527](https://github.com/adminlove520/CVE-2023-22527)
 - [YongYe-Security/CVE-2023-22527](https://github.com/YongYe-Security/CVE-2023-22527)
 - [Boogipop/CVE-2023-22527-Godzilla-MEMSHELL](https://github.com/Boogipop/CVE-2023-22527-Godzilla-MEMSHELL)
+- [M0untainShley/CVE-2023-22527-MEMSHELL](https://github.com/M0untainShley/CVE-2023-22527-MEMSHELL)
 
 ### CVE-2023-22551 (2023-01-01)
 
@@ -5383,7 +5385,7 @@
 - [knight0x07/WinRAR-Code-Execution-Vulnerability-CVE-2023-38831](https://github.com/knight0x07/WinRAR-Code-Execution-Vulnerability-CVE-2023-38831)
 - [akhomlyuk/cve-2023-38831](https://github.com/akhomlyuk/cve-2023-38831)
 - [PascalAsch/CVE-2023-38831-KQL](https://github.com/PascalAsch/CVE-2023-38831-KQL)
-- [my-elliot/CVE-2023-38831-winrar-expoit-simple-Poc](https://github.com/my-elliot/CVE-2023-38831-winrar-expoit-simple-Poc)
+- [ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc](https://github.com/ahmed-fa7im/CVE-2023-38831-winrar-expoit-simple-Poc)
 - [thegr1ffyn/CVE-2023-38831](https://github.com/thegr1ffyn/CVE-2023-38831)
 - [MortySecurity/CVE-2023-38831-Exploit-and-Detection](https://github.com/MortySecurity/CVE-2023-38831-Exploit-and-Detection)
 - [nhman-python/CVE-2023-38831](https://github.com/nhman-python/CVE-2023-38831)
@@ -38480,7 +38482,6 @@
 - [kitctf/nginxpwn](https://github.com/kitctf/nginxpwn)
 - [tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC](https://github.com/tachibana51/CVE-2013-2028-x64-bypass-ssp-and-pie-PoC)
 - [m4drat/CVE-2013-2028-Exploit](https://github.com/m4drat/CVE-2013-2028-Exploit)
-- [mambroziak/docker-cve-2013-2028](https://github.com/mambroziak/docker-cve-2013-2028)
 - [jptr218/nginxhack](https://github.com/jptr218/nginxhack)
 - [Sunqiz/CVE-2013-2028-reproduction](https://github.com/Sunqiz/CVE-2013-2028-reproduction)
 
