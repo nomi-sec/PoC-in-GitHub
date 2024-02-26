@@ -310,42 +310,42 @@
 <code>An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
-- [V3x0r/CVE-2024-23738](https://github.com/V3x0r/CVE-2024-23738)
+- [giovannipajeu1/CVE-2024-23738](https://github.com/giovannipajeu1/CVE-2024-23738)
 
 ### CVE-2024-23739 (2024-01-27)
 
 <code>An issue in Discord for macOS version 0.0.291 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
-- [V3x0r/CVE-2024-23739](https://github.com/V3x0r/CVE-2024-23739)
+- [giovannipajeu1/CVE-2024-23739](https://github.com/giovannipajeu1/CVE-2024-23739)
 
 ### CVE-2024-23740 (2024-01-27)
 
 <code>An issue in Kap for macOS version 3.6.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
-- [V3x0r/CVE-2024-23740](https://github.com/V3x0r/CVE-2024-23740)
+- [giovannipajeu1/CVE-2024-23740](https://github.com/giovannipajeu1/CVE-2024-23740)
 
 ### CVE-2024-23741 (2024-01-27)
 
 <code>An issue in Hyper on macOS version 3.4.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
-- [V3x0r/CVE-2024-23741](https://github.com/V3x0r/CVE-2024-23741)
+- [giovannipajeu1/CVE-2024-23741](https://github.com/giovannipajeu1/CVE-2024-23741)
 
 ### CVE-2024-23742 (2024-01-27)
 
 <code>An issue in Loom on macOS version 0.196.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
-- [V3x0r/CVE-2024-23742](https://github.com/V3x0r/CVE-2024-23742)
+- [giovannipajeu1/CVE-2024-23742](https://github.com/giovannipajeu1/CVE-2024-23742)
 
 ### CVE-2024-23743 (2024-01-27)
 
 <code>An issue in Notion for macOS version 3.1.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments components.
 </code>
 
-- [V3x0r/CVE-2024-23743](https://github.com/V3x0r/CVE-2024-23743)
+- [giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743)
 
 ### CVE-2024-23745 (2024-01-30)
 
@@ -3245,6 +3245,13 @@
 </code>
 
 - [acceleratortroll/acceleratortroll](https://github.com/acceleratortroll/acceleratortroll)
+
+### CVE-2023-28218 (2023-04-11)
+
+<code>Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+</code>
+
+- [h1bAna/CVE-2023-28218](https://github.com/h1bAna/CVE-2023-28218)
 
 ### CVE-2023-28229 (2023-04-11)
 
@@ -7428,7 +7435,7 @@
 <code>An issue in Evernote Evernote for MacOS v.10.68.2 allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments components.
 </code>
 
-- [V3x0r/CVE-2023-50643](https://github.com/V3x0r/CVE-2023-50643)
+- [giovannipajeu1/CVE-2023-50643](https://github.com/giovannipajeu1/CVE-2023-50643)
 
 ### CVE-2023-50917 (2023-12-15)
 
@@ -33518,6 +33525,7 @@
 - [Synacktiv-contrib/exploiting-cve-2017-5123](https://github.com/Synacktiv-contrib/exploiting-cve-2017-5123)
 - [teawater/CVE-2017-5123](https://github.com/teawater/CVE-2017-5123)
 - [c3r34lk1ll3r/CVE-2017-5123](https://github.com/c3r34lk1ll3r/CVE-2017-5123)
+- [h1bAna/CVE-2017-5123](https://github.com/h1bAna/CVE-2017-5123)
 
 ### CVE-2017-5124 (2018-02-07)
 
