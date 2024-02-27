@@ -548,6 +548,20 @@
 
 - [trustcves/CVE-2024-24398](https://github.com/trustcves/CVE-2024-24398)
 
+### CVE-2024-24401 (-)
+
+<code>SQL Injection vulnerability in Nagios XI 2024R1.01 allows a remote attacker to execute arbitrary code via a crafted payload to the monitoringwizard.php component.
+</code>
+
+- [MAWK0235/CVE-2024-24401](https://github.com/MAWK0235/CVE-2024-24401)
+
+### CVE-2024-24402 (-)
+
+<code>An issue in Nagios XI 2024R1.01 allows a remote attacker to escalate privileges via a crafted script to the /usr/local/nagios/bin/npcd component.
+</code>
+
+- [MAWK0235/CVE-2024-24402](https://github.com/MAWK0235/CVE-2024-24402)
+
 ### CVE-2024-24409
 - [passtheticket/CVE-2024-24409](https://github.com/passtheticket/CVE-2024-24409)
 
@@ -5881,6 +5895,7 @@
 - [zaenhaxor/CVE-2023-41892](https://github.com/zaenhaxor/CVE-2023-41892)
 - [Faelian/CraftCMS_CVE-2023-41892](https://github.com/Faelian/CraftCMS_CVE-2023-41892)
 - [diegaccio/Craft-CMS-Exploit](https://github.com/diegaccio/Craft-CMS-Exploit)
+- [acesoyeo/CVE-2023-41892](https://github.com/acesoyeo/CVE-2023-41892)
 
 ### CVE-2023-41991 (2023-09-21)
 
