@@ -278,7 +278,11 @@
 ### CVE-2024-22909
 - [BurakSevben/CVE-2024-22909](https://github.com/BurakSevben/CVE-2024-22909)
 
-### CVE-2024-22917
+### CVE-2024-22917 (-)
+
+<code>SQL injection vulnerability in Dynamic Lab Management System Project in PHP v.1.0 allows a remote attacker to execute arbitrary code via a crafted script.
+</code>
+
 - [ASR511-OO7/CVE-2024-22917](https://github.com/ASR511-OO7/CVE-2024-22917)
 
 ### CVE-2024-22922 (2024-01-25)
@@ -428,10 +432,18 @@
 ### CVE-2024-24094
 - [ASR511-OO7/CVE-2024-24094](https://github.com/ASR511-OO7/CVE-2024-24094)
 
-### CVE-2024-24095
+### CVE-2024-24095 (-)
+
+<code>Code-projects Simple Stock System 1.0 is vulnerable to SQL Injection.
+</code>
+
 - [ASR511-OO7/CVE-2024-24095](https://github.com/ASR511-OO7/CVE-2024-24095)
 
-### CVE-2024-24096
+### CVE-2024-24096 (-)
+
+<code>Code-projects Computer Book Store 1.0 is vulnerable to SQL Injection via BookSBIN.
+</code>
+
 - [ASR511-OO7/CVE-2024-24096](https://github.com/ASR511-OO7/CVE-2024-24096)
 
 ### CVE-2024-24097
@@ -440,10 +452,18 @@
 ### CVE-2024-24098
 - [ASR511-OO7/CVE-2024-24098](https://github.com/ASR511-OO7/CVE-2024-24098)
 
-### CVE-2024-24099
+### CVE-2024-24099 (-)
+
+<code>Code-projects Scholars Tracking System 1.0 is vulnerable to SQL Injection under Employment Status Information Update.
+</code>
+
 - [ASR511-OO7/CVE-2024-24099](https://github.com/ASR511-OO7/CVE-2024-24099)
 
-### CVE-2024-24100
+### CVE-2024-24100 (-)
+
+<code>Code-projects Computer Book Store 1.0 is vulnerable to SQL Injection via PublisherID.
+</code>
+
 - [ASR511-OO7/CVE-2024-24100](https://github.com/ASR511-OO7/CVE-2024-24100)
 
 ### CVE-2024-24101
@@ -2103,6 +2123,7 @@
 </code>
 
 - [Trinadh465/frameworks_native_AOSP-10_r33_CVE-2023-21118](https://github.com/Trinadh465/frameworks_native_AOSP-10_r33_CVE-2023-21118)
+- [Satheesh575555/frameworks_native_AOSP10_r33_CVE-2023-21118](https://github.com/Satheesh575555/frameworks_native_AOSP10_r33_CVE-2023-21118)
 
 ### CVE-2023-21144 (2023-06-15)
 
@@ -3439,13 +3460,6 @@
 </code>
 
 - [ohnonoyesyes/CVE-2023-29084](https://github.com/ohnonoyesyes/CVE-2023-29084)
-
-### CVE-2023-29199 (2023-04-14)
-
-<code>There exists a vulnerability in source code transformer (exception sanitization logic) of vm2 for versions up to 3.9.15, allowing attackers to bypass `handleException()` and leak unsanitized host exceptions which can be used to escape the sandbox and run arbitrary code in host context. A threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version `3.9.16` of `vm2`.\n
-</code>
-
-- [u-crew/vm2-test](https://github.com/u-crew/vm2-test)
 
 ### CVE-2023-29324 (2023-05-09)
 
@@ -5812,7 +5826,11 @@
 ### CVE-2023-41505
 - [ASR511-OO7/CVE-2023-41505](https://github.com/ASR511-OO7/CVE-2023-41505)
 
-### CVE-2023-41506
+### CVE-2023-41506 (-)
+
+<code>An arbitrary file upload vulnerability in the Update/Edit Student's Profile Picture function of Student Enrollment In PHP v1.0 allows attackers to execute arbitrary code via uploading a crafted PHP file.
+</code>
+
 - [ASR511-OO7/CVE-2023-41506](https://github.com/ASR511-OO7/CVE-2023-41506)
 
 ### CVE-2023-41507 (2023-09-05)
@@ -11402,6 +11420,7 @@
 - [furkanzengin/CVE-2022-30525](https://github.com/furkanzengin/CVE-2022-30525)
 - [ProngedFork/CVE-2022-30525](https://github.com/ProngedFork/CVE-2022-30525)
 - [cbk914/CVE-2022-30525_check](https://github.com/cbk914/CVE-2022-30525_check)
+- [arajsingh-infosec/CVE-2022-30525_Exploit](https://github.com/arajsingh-infosec/CVE-2022-30525_Exploit)
 
 ### CVE-2022-30526 (2022-07-19)
 
@@ -15916,6 +15935,7 @@
 - [tukru/CVE-2021-22555](https://github.com/tukru/CVE-2021-22555)
 - [pashayogi/CVE-2021-22555](https://github.com/pashayogi/CVE-2021-22555)
 - [letsr00t/-2021-LOCALROOT-CVE-2021-22555](https://github.com/letsr00t/-2021-LOCALROOT-CVE-2021-22555)
+- [letsr00t/CVE-2021-22555](https://github.com/letsr00t/CVE-2021-22555)
 
 ### CVE-2021-22569 (2022-01-07)
 
