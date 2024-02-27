@@ -46,6 +46,9 @@
 
 - [0x9567b/CVE-2024-0844](https://github.com/0x9567b/CVE-2024-0844)
 
+### CVE-2024-1071
+- [gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071)
+
 ### CVE-2024-1208 (2024-02-05)
 
 <code>The LearnDash LMS plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.10.2 via API. This makes it possible for unauthenticated attackers to obtain access to quiz questions.
@@ -1800,6 +1803,13 @@
 </code>
 
 - [mimiloveexe/CVE-2023-6567-poc](https://github.com/mimiloveexe/CVE-2023-6567-poc)
+
+### CVE-2023-6654 (2023-12-10)
+
+<code>In PHPEMS 6.x/7.x/8.x/9.0 wurde eine kritische Schwachstelle entdeckt. Betroffen ist eine unbekannte Verarbeitung in der Bibliothek lib/session.cls.php der Komponente Session Data Handler. Dank der Manipulation mit unbekannten Daten kann eine deserialization-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [qfmy1024/CVE-2023-6654](https://github.com/qfmy1024/CVE-2023-6654)
 
 ### CVE-2023-6661
 - [cli-ish/CVE-2023-6661](https://github.com/cli-ish/CVE-2023-6661)
@@ -8913,7 +8923,7 @@
 <code>Vulnerability in the Oracle JDeveloper product of Oracle Fusion Middleware (component: ADF Faces). Supported versions that are affected are 12.2.1.3.0 and 12.2.1.4.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle JDeveloper. Successful attacks of this vulnerability can result in takeover of Oracle JDeveloper. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
 </code>
 
-- [StevenMeow/CVE-2022-21445](https://github.com/StevenMeow/CVE-2022-21445)
+- [M0chae1/CVE-2022-21445](https://github.com/M0chae1/CVE-2022-21445)
 
 ### CVE-2022-21449 (2022-04-19)
 
