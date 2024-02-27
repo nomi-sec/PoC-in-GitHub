@@ -1,6 +1,13 @@
 # PoC in GitHub
 
 ## 2024
+### CVE-2024-0197 (2024-02-27)
+
+<code>A flaw in the installer for Thales SafeNet Sentinel HASP LDK prior to 9.16 on Windows allows an attacker to escalate their privilege level via local access.\n\n
+</code>
+
+- [ewilded/CVE-2024-0197-POC](https://github.com/ewilded/CVE-2024-0197-POC)
+
 ### CVE-2024-0204 (2024-01-22)
 
 <code>Authentication bypass in Fortra's GoAnywhere MFT prior to 7.4.1 allows an unauthorized user to create an admin user via the administration portal.
@@ -70,21 +77,21 @@
 
 - [sajaljat/CVE-2024-1269](https://github.com/sajaljat/CVE-2024-1269)
 
-### CVE-2024-1346 (-)
+### CVE-2024-1346 (2024-02-19)
 
 <code>Weak MySQL database root password in LaborOfficeFree affects version 19.10. This vulnerability allows an attacker to calculate the root password of the MySQL database used by LaborOfficeFree using two constants.
 </code>
 
 - [PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346)
 
-### CVE-2024-1651 (-)
+### CVE-2024-1651 (2024-02-19)
 
 <code>Torrentpier version 2.4.1 allows executing arbitrary commands on the server.\n\nThis is possible because the application is vulnerable to insecure deserialization.\n\n\n\n\n
 </code>
 
 - [sharpicx/CVE-2024-1651-PoC](https://github.com/sharpicx/CVE-2024-1651-PoC)
 
-### CVE-2024-1709 (-)
+### CVE-2024-1709 (2024-02-21)
 
 <code>ConnectWise ScreenConnect 23.9.7 and prior are affected by an Authentication Bypass Using an Alternate Path or Channel\n\n vulnerability, which may allow an attacker direct access to confidential information or \n\ncritical systems.\n\n
 </code>
@@ -113,7 +120,7 @@
 
 - [RomanRybachek/CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698)
 
-### CVE-2024-20931 (-)
+### CVE-2024-20931 (2024-02-16)
 
 <code>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).
 </code>
@@ -131,7 +138,7 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
-### CVE-2024-21413 (-)
+### CVE-2024-21413 (2024-02-13)
 
 <code>Microsoft Outlook Remote Code Execution Vulnerability
 </code>
@@ -199,14 +206,14 @@
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
 
-### CVE-2024-22243 (-)
+### CVE-2024-22243 (2024-02-23)
 
 <code>Applications that use UriComponentsBuilder to parse an externally provided URL (e.g. through a query parameter) AND perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html  attack or to a SSRF attack if the URL is used after passing validation checks.\n
 </code>
 
 - [shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234)
 
-### CVE-2024-22369 (-)
+### CVE-2024-22369 (2024-02-20)
 
 <code>Deserialization of Untrusted Data vulnerability in Apache Camel SQL ComponentThis issue affects Apache Camel: from 3.0.0 before 3.21.4, from 3.22.0 before 3.22.1, from 4.0.0 before 4.0.4, from 4.1.0 before 4.4.0.\n\nUsers are recommended to upgrade to version 4.4.0, which fixes the issue. If users are on the 4.0.x LTS releases stream, then they are suggested to upgrade to 4.0.4. If users are on 3.x, they are suggested to move to 3.21.4 or 3.22.1\n\n
 </code>
@@ -281,7 +288,7 @@
 ### CVE-2024-22909
 - [BurakSevben/CVE-2024-22909](https://github.com/BurakSevben/CVE-2024-22909)
 
-### CVE-2024-22917 (-)
+### CVE-2024-22917 (2024-02-26)
 
 <code>SQL injection vulnerability in Dynamic Lab Management System Project in PHP v.1.0 allows a remote attacker to execute arbitrary code via a crafted script.
 </code>
@@ -435,14 +442,14 @@
 ### CVE-2024-24094
 - [ASR511-OO7/CVE-2024-24094](https://github.com/ASR511-OO7/CVE-2024-24094)
 
-### CVE-2024-24095 (-)
+### CVE-2024-24095 (2024-02-26)
 
 <code>Code-projects Simple Stock System 1.0 is vulnerable to SQL Injection.
 </code>
 
 - [ASR511-OO7/CVE-2024-24095](https://github.com/ASR511-OO7/CVE-2024-24095)
 
-### CVE-2024-24096 (-)
+### CVE-2024-24096 (2024-02-26)
 
 <code>Code-projects Computer Book Store 1.0 is vulnerable to SQL Injection via BookSBIN.
 </code>
@@ -455,14 +462,14 @@
 ### CVE-2024-24098
 - [ASR511-OO7/CVE-2024-24098](https://github.com/ASR511-OO7/CVE-2024-24098)
 
-### CVE-2024-24099 (-)
+### CVE-2024-24099 (2024-02-26)
 
 <code>Code-projects Scholars Tracking System 1.0 is vulnerable to SQL Injection under Employment Status Information Update.
 </code>
 
 - [ASR511-OO7/CVE-2024-24099](https://github.com/ASR511-OO7/CVE-2024-24099)
 
-### CVE-2024-24100 (-)
+### CVE-2024-24100 (2024-02-26)
 
 <code>Code-projects Computer Book Store 1.0 is vulnerable to SQL Injection via PublisherID.
 </code>
@@ -526,7 +533,7 @@
 
 - [BurakSevben/CVE-2024-24141](https://github.com/BurakSevben/CVE-2024-24141)
 
-### CVE-2024-24142 (-)
+### CVE-2024-24142 (2024-02-13)
 
 <code>Sourcecodester School Task Manager 1.0 allows SQL Injection via the 'subject' parameter.
 </code>
@@ -543,7 +550,7 @@
 
 - [nitipoom-jar/CVE-2024-24337](https://github.com/nitipoom-jar/CVE-2024-24337)
 
-### CVE-2024-24386 (-)
+### CVE-2024-24386 (2024-02-15)
 
 <code>An issue in VitalPBX v.3.2.4-5 allows an attacker to execute arbitrary code via a crafted payload to the /var/lib/vitalpbx/scripts folder.
 </code>
@@ -571,14 +578,14 @@
 
 - [trustcves/CVE-2024-24398](https://github.com/trustcves/CVE-2024-24398)
 
-### CVE-2024-24401 (-)
+### CVE-2024-24401 (2024-02-26)
 
 <code>SQL Injection vulnerability in Nagios XI 2024R1.01 allows a remote attacker to execute arbitrary code via a crafted payload to the monitoringwizard.php component.
 </code>
 
 - [MAWK0235/CVE-2024-24401](https://github.com/MAWK0235/CVE-2024-24401)
 
-### CVE-2024-24402 (-)
+### CVE-2024-24402 (2024-02-26)
 
 <code>An issue in Nagios XI 2024R1.01 allows a remote attacker to escalate privileges via a crafted script to the /usr/local/nagios/bin/npcd component.
 </code>
@@ -614,14 +621,14 @@
 ### CVE-2024-25202
 - [Agampreet-Singh/CVE-2024-25202](https://github.com/Agampreet-Singh/CVE-2024-25202)
 
-### CVE-2024-25249 (-)
+### CVE-2024-25249 (2024-02-21)
 
 <code>An issue in He3 App for macOS version 2.0.17, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
 </code>
 
 - [intbjw/CVE-2024-25249](https://github.com/intbjw/CVE-2024-25249)
 
-### CVE-2024-25251 (-)
+### CVE-2024-25251 (2024-02-21)
 
 <code>code-projects Agro-School Management System 1.0 is suffers from Incorrect Access Control.
 </code>
@@ -646,21 +653,21 @@
 ### CVE-2024-25376
 - [ewilded/CVE-2024-25376-POC](https://github.com/ewilded/CVE-2024-25376-POC)
 
-### CVE-2024-25381 (-)
+### CVE-2024-25381 (2024-02-21)
 
 <code>There is a Stored XSS Vulnerability in Emlog Pro 2.2.8 Article Publishing, due to non-filtering of quoted content.
 </code>
 
 - [Ox130e07d/CVE-2024-25381](https://github.com/Ox130e07d/CVE-2024-25381)
 
-### CVE-2024-25423 (-)
+### CVE-2024-25423 (2024-02-21)
 
 <code>An issue in MAXON CINEMA 4D R2024.2.0 allows a local attacker to execute arbitrary code via a crafted c4d_base.xdl64 file.
 </code>
 
 - [DriverUnload/cve-2024-25423](https://github.com/DriverUnload/cve-2024-25423)
 
-### CVE-2024-25466 (-)
+### CVE-2024-25466 (2024-02-16)
 
 <code>Directory Traversal vulnerability in React Native Document Picker before v.9.1.1 and fixed in v.9.1.1 allows a local attacker to execute arbitrary code via a crafted script to the Android library component.
 </code>
@@ -1862,6 +1869,13 @@
 </code>
 
 - [RandomRobbieBF/CVE-2023-6985](https://github.com/RandomRobbieBF/CVE-2023-6985)
+
+### CVE-2023-7016 (2024-02-27)
+
+<code>A flaw in Thales SafeNet Authentication Client prior to 10.8 R10 on Windows allows an attacker to execute code at a SYSTEM level via local access.
+</code>
+
+- [ewilded/CVE-2023-7016-POC](https://github.com/ewilded/CVE-2023-7016-POC)
 
 ### CVE-2023-7028 (2024-01-12)
 
@@ -3811,7 +3825,7 @@
 
 - [whypet/CVE-2023-31320](https://github.com/whypet/CVE-2023-31320)
 
-### CVE-2023-31346 (-)
+### CVE-2023-31346 (2024-02-13)
 
 <code>Failure to initialize\nmemory in SEV Firmware may allow a privileged attacker to access stale data\nfrom other guests.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 </code>
@@ -5628,7 +5642,7 @@
 
 - [Trinadh465/platform_system_netd_AOSP10_r33_CVE-2023-40084](https://github.com/Trinadh465/platform_system_netd_AOSP10_r33_CVE-2023-40084)
 
-### CVE-2023-40109 (-)
+### CVE-2023-40109 (2024-02-15)
 
 <code>In createFromParcel of UsbConfiguration.java, there is a possible background activity launch (BAL) due to a permissions bypass. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.
 </code>
@@ -5836,7 +5850,7 @@
 ### CVE-2023-41505
 - [ASR511-OO7/CVE-2023-41505](https://github.com/ASR511-OO7/CVE-2023-41505)
 
-### CVE-2023-41506 (-)
+### CVE-2023-41506 (2024-02-26)
 
 <code>An arbitrary file upload vulnerability in the Update/Edit Student's Profile Picture function of Student Enrollment In PHP v1.0 allows attackers to execute arbitrary code via uploading a crafted PHP file.
 </code>
@@ -7466,7 +7480,7 @@
 
 - [febinrev/deepin-linux_reader_RCE-exploit](https://github.com/febinrev/deepin-linux_reader_RCE-exploit)
 
-### CVE-2023-50387 (-)
+### CVE-2023-50387 (2024-02-14)
 
 <code>Certain DNSSEC aspects of the DNS protocol (in RFC 4033, 4034, 4035, 6840, and related RFCs) allow remote attackers to cause a denial of service (CPU consumption) via one or more DNSSEC responses, aka the &quot;KeyTrap&quot; issue. One of the concerns is that, when there is a zone with many DNSKEY and RRSIG records, the protocol specification implies that an algorithm must evaluate all combinations of DNSKEY and RRSIG records.
 </code>
@@ -7600,7 +7614,7 @@
 
 - [Pastea/CVE-2023-51810](https://github.com/Pastea/CVE-2023-51810)
 
-### CVE-2023-52160 (-)
+### CVE-2023-52160 (2024-02-22)
 
 <code>The implementation of PEAP in wpa_supplicant through 2.10 allows authentication bypass. For a successful attack, wpa_supplicant must be configured to not verify the network's TLS certificate during Phase 1 authentication, and an eap_peap_decrypt vulnerability can then be abused to skip Phase 2 authentication. The attack vector is sending an EAP-TLV Success packet instead of starting Phase 2. This allows an adversary to impersonate Enterprise Wi-Fi networks.
 </code>
@@ -9582,7 +9596,7 @@
 - [hadrian3689/phpipam_1.4.4](https://github.com/hadrian3689/phpipam_1.4.4)
 - [bernauers/CVE-2022-23046](https://github.com/bernauers/CVE-2022-23046)
 
-### CVE-2022-23093 (-)
+### CVE-2022-23093 (2024-02-15)
 
 <code>ping reads raw IP packets from the network to process responses in the pr_pack() function.  As part of processing a response ping has to reconstruct the IP header, the ICMP header and if present a &quot;quoted packet,&quot; which represents the packet that generated an ICMP error.  The quoted packet again has an IP header and an ICMP header.\n\nThe pr_pack() copies received IP and ICMP headers into stack buffers for further processing.  In so doing, it fails to take into account the possible presence of IP option headers following the IP header in either the response or the quoted packet.  When IP options are present, pr_pack() overflows the destination buffer by up to 40 bytes.\n\nThe memory safety bugs described above can be triggered by a remote host, causing the ping program to crash.\n\nThe ping process runs in a capability mode sandbox on all affected versions of FreeBSD and is thus very constrained in how it can interact with the rest of the system at the point where the bug can occur.
 </code>
@@ -13524,6 +13538,7 @@
 - [RicYaben/CVE-2022-44877-LAB](https://github.com/RicYaben/CVE-2022-44877-LAB)
 - [dkstar11q/CVE-2022-44877](https://github.com/dkstar11q/CVE-2022-44877)
 - [rhymsc/CVE-2022-44877-RCE](https://github.com/rhymsc/CVE-2022-44877-RCE)
+- [G01d3nW01f/CVE-2022-44877](https://github.com/G01d3nW01f/CVE-2022-44877)
 
 ### CVE-2022-44900 (2022-12-06)
 
@@ -33454,6 +33469,13 @@
 </code>
 
 - [listenquiet/cve-2017-2824-reverse-shell](https://github.com/listenquiet/cve-2017-2824-reverse-shell)
+
+### CVE-2017-2903 (2018-04-24)
+
+<code>An exploitable integer overflow exists in the DPX loading functionality of the Blender open-source 3d creation suite version 2.78c. A specially crafted '.cin' file can cause an integer overflow resulting in a buffer overflow which can allow for code execution under the context of the application. An attacker can convince a user to use the file as an asset via the sequencer in order to trigger this vulnerability.
+</code>
+
+- [SpiralBL0CK/dpx_work_CVE-2017-2903](https://github.com/SpiralBL0CK/dpx_work_CVE-2017-2903)
 
 ### CVE-2017-3000 (2017-03-14)
 
