@@ -151,6 +151,7 @@
 - [MSeymenD/CVE-2024-21413](https://github.com/MSeymenD/CVE-2024-21413)
 - [Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
+- [DevAkabari/CVE-2024-21413](https://github.com/DevAkabari/CVE-2024-21413)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -2161,8 +2162,8 @@
 <code>In doInBackground of NotificationContentInflater.java, there is a possible temporary denial or service due to long running operations. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-11 Android-12 Android-12L Android-13Android ID: A-252766417
 </code>
 
+- [hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_old](https://github.com/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_old)
 - [hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144](https://github.com/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144)
-- [hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_new](https://github.com/hshivhare67/Framework_base_AOSP10_r33_CVE-2023-21144_new)
 
 ### CVE-2023-21238 (2023-07-12)
 
@@ -5961,6 +5962,7 @@
 - [po6ix/POC-for-CVE-2023-41993](https://github.com/po6ix/POC-for-CVE-2023-41993)
 - [hrtowii/cve-2023-41993-test](https://github.com/hrtowii/cve-2023-41993-test)
 - [Mangaia/cve-test](https://github.com/Mangaia/cve-test)
+- [J3Ss0u/CVE-2023-41993](https://github.com/J3Ss0u/CVE-2023-41993)
 
 ### CVE-2023-42222 (2023-09-27)
 
@@ -6012,7 +6014,7 @@
 </code>
 
 - [HolyGu/CVE-2023-42442](https://github.com/HolyGu/CVE-2023-42442)
-- [tarimoe/blackjump](https://github.com/tarimoe/blackjump)
+- [tarihub/blackjump](https://github.com/tarihub/blackjump)
 - [C1ph3rX13/CVE-2023-42442](https://github.com/C1ph3rX13/CVE-2023-42442)
 
 ### CVE-2023-42468 (2023-09-13)
@@ -6301,6 +6303,13 @@
 </code>
 
 - [OligoCyberSecurity/ShellTorchChecker](https://github.com/OligoCyberSecurity/ShellTorchChecker)
+
+### CVE-2023-43757 (2023-11-16)
+
+<code>Inadequate encryption strength vulnerability in multiple routers provided by ELECOM CO.,LTD. and LOGITEC CORPORATION allows a network-adjacent unauthenticated attacker to guess the encryption key used for wireless LAN communication and intercept the communication. As for the affected products/versions, see the information provided by the vendor under [References] section.
+</code>
+
+- [sharmashreejaa/CVE-2023-43757](https://github.com/sharmashreejaa/CVE-2023-43757)
 
 ### CVE-2023-43770 (2023-09-22)
 
