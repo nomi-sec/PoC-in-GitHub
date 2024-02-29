@@ -820,6 +820,7 @@
 - [sxlmnwb/CVE-2023-0386](https://github.com/sxlmnwb/CVE-2023-0386)
 - [Fanxiaoyao66/CVE-2023-0386](https://github.com/Fanxiaoyao66/CVE-2023-0386)
 - [puckiestyle/CVE-2023-0386](https://github.com/puckiestyle/CVE-2023-0386)
+- [letsr00t/CVE-2023-0386](https://github.com/letsr00t/CVE-2023-0386)
 
 ### CVE-2023-0461 (2023-02-28)
 
@@ -5006,6 +5007,13 @@
 
 - [Lowalu/CVE-2023-36319](https://github.com/Lowalu/CVE-2023-36319)
 
+### CVE-2023-36407 (2023-11-14)
+
+<code>Windows Hyper-V Elevation of Privilege Vulnerability
+</code>
+
+- [pwndorei/CVE-2023-36407](https://github.com/pwndorei/CVE-2023-36407)
+
 ### CVE-2023-36427 (2023-11-14)
 
 <code>Windows Hyper-V Elevation of Privilege Vulnerability
@@ -7646,13 +7654,25 @@
 - [d4op/CVE-2023-51764-POC](https://github.com/d4op/CVE-2023-51764-POC)
 - [Double-q1015/CVE-2023-51764](https://github.com/Double-q1015/CVE-2023-51764)
 
-### CVE-2023-51800
+### CVE-2023-51800 (-)
+
+<code>Cross Site Scripting (XSS) vulnerability in School Fees Management System v.1.0 allows a remote attacker to execute arbitrary code via a crafted payload to the main_settings component in the phone, address, bank, acc_name, acc_number parameters, new_class and cname parameter, add_new_parent function in the name email parameters, new_term function in the tname parameter, and the edit_student function in the name parameter.
+</code>
+
 - [geraldoalcantara/CVE-2023-51800](https://github.com/geraldoalcantara/CVE-2023-51800)
 
-### CVE-2023-51801
+### CVE-2023-51801 (-)
+
+<code>SQL Injection vulnerability in the Simple Student Attendance System v.1.0 allows a remote attacker to execute arbitrary code via a crafted payload to the id parameter in the student_form.php and the class_form.php pages.
+</code>
+
 - [geraldoalcantara/CVE-2023-51801](https://github.com/geraldoalcantara/CVE-2023-51801)
 
-### CVE-2023-51802
+### CVE-2023-51802 (-)
+
+<code>Cross Site Scripting (XSS) vulnerability in the Simple Student Attendance System v.1.0 allows a remote attacker to execute arbitrary code via a crafted payload to the page or class_month parameter in the /php-attendance/attendance_report component.
+</code>
+
 - [geraldoalcantara/CVE-2023-51802](https://github.com/geraldoalcantara/CVE-2023-51802)
 
 ### CVE-2023-51810 (2024-01-15)
@@ -13571,7 +13591,7 @@
 <code>KioWare through 8.33 on Windows sets KioScriptingUrlACL.AclActions.AllowHigh for the about:blank origin, which allows attackers to obtain SYSTEM access via KioUtils.Execute in JavaScript code.
 </code>
 
-- [c0d30d1n/CVE-2022-44875-Test](https://github.com/c0d30d1n/CVE-2022-44875-Test)
+- [AesirSec/CVE-2022-44875-Test](https://github.com/AesirSec/CVE-2022-44875-Test)
 
 ### CVE-2022-44877 (2023-01-05)
 
