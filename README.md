@@ -179,6 +179,7 @@
 </code>
 
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
+- [c0d3b3af/CVE-2024-21762-POC](https://github.com/c0d3b3af/CVE-2024-21762-POC)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -257,7 +258,11 @@
 - [Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution](https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution)
 - [Orange-418/CVE-2024-22515-File-Upload-Vulnerability](https://github.com/Orange-418/CVE-2024-22515-File-Upload-Vulnerability)
 
-### CVE-2024-22532
+### CVE-2024-22532 (-)
+
+<code>Buffer Overflow vulnerability in XNSoft NConvert 7.163 (for Windows x86) allows attackers to cause a denial of service via crafted xwd file.
+</code>
+
 - [pwndorei/CVE-2024-22532](https://github.com/pwndorei/CVE-2024-22532)
 
 ### CVE-2024-22534
@@ -317,7 +322,11 @@
 
 - [NUDTTAN91/CVE-2024-22939](https://github.com/NUDTTAN91/CVE-2024-22939)
 
-### CVE-2024-22983
+### CVE-2024-22983 (-)
+
+<code>SQL injection vulnerability in Projectworlds Visitor Management System in PHP v.1.0 allows a remote attacker to escalate privileges via the name parameter in the myform.php endpoint.
+</code>
+
 - [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
 
 ### CVE-2024-23208 (2024-01-22)
@@ -326,6 +335,13 @@
 </code>
 
 - [hrtowii/CVE-2024-23208-test](https://github.com/hrtowii/CVE-2024-23208-test)
+
+### CVE-2024-23334 (2024-01-29)
+
+<code>aiohttp is an asynchronous HTTP client/server framework for asyncio and Python. When using aiohttp as a web server and configuring static routes, it is necessary to specify the root path for static files. Additionally, the option 'follow_symlinks' can be used to determine whether to follow symbolic links outside the static root directory. When 'follow_symlinks' is set to True, there is no validation to check if reading a file is within the root directory. This can lead to directory traversal vulnerabilities, resulting in unauthorized access to arbitrary files on the system, even when symlinks are not present.  Disabling follow_symlinks and using a reverse proxy are encouraged mitigations.  Version 3.9.2 fixes this issue.
+</code>
+
+- [ox1111/CVE-2024-23334](https://github.com/ox1111/CVE-2024-23334)
 
 ### CVE-2024-23738 (2024-01-27)
 
@@ -620,13 +636,25 @@
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
 
-### CVE-2024-25169
+### CVE-2024-25169 (-)
+
+<code>An issue in Mezzanine v6.0.0 allows attackers to bypass access control mechanisms in the admin panel via a crafted request.
+</code>
+
 - [shenhav12/CVE-2024-25169-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0)
 
-### CVE-2024-25170
+### CVE-2024-25170 (-)
+
+<code>An issue in Mezzanine v6.0.0 allows attackers to bypass access controls via manipulating the Host header.
+</code>
+
 - [shenhav12/CVE-2024-25170-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0)
 
-### CVE-2024-25202
+### CVE-2024-25202 (-)
+
+<code>Cross Site Scripting vulnerability in Phpgurukul User Registration &amp; Login and User Management System 1.0 allows attackers to run arbitrary code via the search bar.
+</code>
+
 - [Agampreet-Singh/CVE-2024-25202](https://github.com/Agampreet-Singh/CVE-2024-25202)
 
 ### CVE-2024-25249 (2024-02-21)
@@ -5623,6 +5651,9 @@
 ### CVE-2023-39725
 - [anky-123/CVE-2023-39725](https://github.com/anky-123/CVE-2023-39725)
 
+### CVE-2023-40000
+- [rxerium/CVE-2023-40000](https://github.com/rxerium/CVE-2023-40000)
+
 ### CVE-2023-40031 (2023-08-25)
 
 <code>Notepad++ is a free and open-source source code editor. Versions 8.5.6 and prior are vulnerable to heap buffer write overflow in `Utf8_16_Read::convert`. This issue may lead to arbitrary code execution. As of time of publication, no known patches are available in existing versions of Notepad++.
@@ -7214,7 +7245,7 @@
 
 ### CVE-2023-48974 (2024-02-07)
 
-<code>Cross Site Scripting vulnerability in Axigen WebMail v.10.5.7 and before allows a remote attacker to escalate privileges via a crafted script to the serverName_input parameter.
+<code>Cross Site Scripting vulnerability in Axigen WebMail prior to 10.3.3.61 allows a remote attacker to escalate privileges via a crafted script to the serverName_input parameter.
 </code>
 
 - [vinnie1717/CVE-2023-48974](https://github.com/vinnie1717/CVE-2023-48974)
@@ -25684,6 +25715,7 @@
 - [dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489)
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
+- [thebunjo/CVE-2020-35489](https://github.com/thebunjo/CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
