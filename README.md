@@ -1148,6 +1148,7 @@
 - [luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS)
 - [g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629)
 - [vinetsuicide/CVE-2023-2640-CVE-2023-32629](https://github.com/vinetsuicide/CVE-2023-2640-CVE-2023-32629)
+- [SanjayRagavendar/UbuntuPrivilegeEscalationV1](https://github.com/SanjayRagavendar/UbuntuPrivilegeEscalationV1)
 
 ### CVE-2023-2650 (2023-05-30)
 
@@ -25743,7 +25744,6 @@
 - [dn9uy3n/Check-WP-CVE-2020-35489](https://github.com/dn9uy3n/Check-WP-CVE-2020-35489)
 - [X0UCYB3R/Check-WP-CVE-2020-35489](https://github.com/X0UCYB3R/Check-WP-CVE-2020-35489)
 - [reneoliveirajr/wp_CVE-2020-35489_checker](https://github.com/reneoliveirajr/wp_CVE-2020-35489_checker)
-- [thebunjo/CVE-2020-35489](https://github.com/thebunjo/CVE-2020-35489)
 
 ### CVE-2020-35498 (2021-02-11)
 
