@@ -152,6 +152,7 @@
 - [Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [DevAkabari/CVE-2024-21413](https://github.com/DevAkabari/CVE-2024-21413)
+- [dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -7535,6 +7536,13 @@
 </code>
 
 - [febinrev/deepin-linux_reader_RCE-exploit](https://github.com/febinrev/deepin-linux_reader_RCE-exploit)
+
+### CVE-2023-50386 (2024-02-09)
+
+<code>Improper Control of Dynamically-Managed Code Resources, Unrestricted Upload of File with Dangerous Type, Inclusion of Functionality from Untrusted Control Sphere vulnerability in Apache Solr.This issue affects Apache Solr: from 6.0.0 through 8.11.2, from 9.0.0 before 9.4.1.\n\nIn the affected versions, Solr ConfigSets accepted Java jar and class files to be uploaded through the ConfigSets API.\nWhen backing up Solr Collections, these configSet files would be saved to disk when using the LocalFileSystemRepository (the default for backups).\nIf the backup was saved to a directory that Solr uses in its ClassPath/ClassLoaders, then the jar and class files would be available to use with any ConfigSet, trusted or untrusted.\n\nWhen Solr is run in a secure way (Authorization enabled), as is strongly suggested, this vulnerability is limited to extending the Backup permissions with the ability to add libraries.\nUsers are recommended to upgrade to version 8.11.3 or 9.4.1, which fix the issue.\nIn these versions, the following protections have been added:\n\n  *  Users are no longer able to upload files to a configSet that could be executed via a Java ClassLoader.\n  *  The Backup API restricts saving backups to directories that are used in the ClassLoader.\n\n
+</code>
+
+- [vvmdx/Apache-Solr-RCE_CVE-2023-50386_POC](https://github.com/vvmdx/Apache-Solr-RCE_CVE-2023-50386_POC)
 
 ### CVE-2023-50387 (2024-02-14)
 
