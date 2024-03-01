@@ -90,6 +90,7 @@
 </code>
 
 - [sharpicx/CVE-2024-1651-PoC](https://github.com/sharpicx/CVE-2024-1651-PoC)
+- [hy011121/CVE-2024-1651-exploit-RCE](https://github.com/hy011121/CVE-2024-1651-exploit-RCE)
 
 ### CVE-2024-1709 (2024-02-21)
 
@@ -715,6 +716,7 @@
 - [Chocapikk/CVE-2024-25600](https://github.com/Chocapikk/CVE-2024-25600)
 - [Christbowel/CVE-2024-25600_Nuclei-Template](https://github.com/Christbowel/CVE-2024-25600_Nuclei-Template)
 - [Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
+- [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
@@ -15081,6 +15083,7 @@
 </code>
 
 - [MLGRadish/CVE-2021-3345](https://github.com/MLGRadish/CVE-2021-3345)
+- [SpiralBL0CK/CVE-2021-3345](https://github.com/SpiralBL0CK/CVE-2021-3345)
 
 ### CVE-2021-3347 (2021-01-29)
 
