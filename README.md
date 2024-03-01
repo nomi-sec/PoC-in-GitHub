@@ -925,7 +925,6 @@
 </code>
 
 - [Penkyzduyi/CVE-2023-1337](https://github.com/Penkyzduyi/CVE-2023-1337)
-- [DARKSECshell/CVE-2023-1337](https://github.com/DARKSECshell/CVE-2023-1337)
 
 ### CVE-2023-1389 (2023-03-15)
 
@@ -6461,13 +6460,6 @@
 
 - [soundarkutty/CVE-2023-44061](https://github.com/soundarkutty/CVE-2023-44061)
 
-### CVE-2023-44353 (2023-11-17)
-
-<code>Adobe ColdFusion versions 2023.5 (and earlier) and 2021.11 (and earlier) are affected by an Deserialization of Untrusted Data vulnerability that could result in Arbitrary code execution. Exploitation of this issue does not require user interaction.
-</code>
-
-- [JC175/CVE-2023-44353-Nuclei-Template](https://github.com/JC175/CVE-2023-44353-Nuclei-Template)
-
 ### CVE-2023-44451
 - [febinrev/slippy-book-exploit](https://github.com/febinrev/slippy-book-exploit)
 
@@ -7181,6 +7173,13 @@
 </code>
 
 - [aprkr/CVE-2023-48034](https://github.com/aprkr/CVE-2023-48034)
+
+### CVE-2023-48084 (2023-12-14)
+
+<code>Nagios XI before version 5.11.3 was discovered to contain a SQL injection vulnerability via the bulk modification tool.
+</code>
+
+- [Hamibubu/CVE-2023-48084](https://github.com/Hamibubu/CVE-2023-48084)
 
 ### CVE-2023-48104 (2024-01-15)
 
