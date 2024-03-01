@@ -84,6 +84,13 @@
 
 - [PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346)
 
+### CVE-2024-1512 (2024-02-17)
+
+<code>The MasterStudy LMS WordPress Plugin – for Online Courses and Education plugin for WordPress is vulnerable to union based SQL Injection via the 'user' parameter of the /lms/stm-lms/order/items REST route in all versions up to, and including, 3.2.5 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [rat-c/CVE-2024-1512](https://github.com/rat-c/CVE-2024-1512)
+
 ### CVE-2024-1651 (2024-02-19)
 
 <code>Torrentpier version 2.4.1 allows executing arbitrary commands on the server.\n\nThis is possible because the application is vulnerable to insecure deserialization.\n\n\n\n\n
@@ -167,6 +174,7 @@
 - [zhangguanzhang/CVE-2024-21626](https://github.com/zhangguanzhang/CVE-2024-21626)
 - [laysakura/CVE-2024-21626-demo](https://github.com/laysakura/CVE-2024-21626-demo)
 - [V0WKeep3r/CVE-2024-21626-runcPOC](https://github.com/V0WKeep3r/CVE-2024-21626-runcPOC)
+- [abian2/CVE-2024-21626](https://github.com/abian2/CVE-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -182,6 +190,7 @@
 
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [c0d3b3af/CVE-2024-21762-POC](https://github.com/c0d3b3af/CVE-2024-21762-POC)
+- [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -345,6 +354,13 @@
 
 - [ox1111/CVE-2024-23334](https://github.com/ox1111/CVE-2024-23334)
 
+### CVE-2024-23652 (2024-01-31)
+
+<code>BuildKit is a toolkit for converting source code to build artifacts in an efficient, expressive and repeatable manner. A malicious BuildKit frontend or Dockerfile using RUN --mount could trick the feature that removes empty files created for the mountpoints into removing a file outside the container, from the host system. The issue has been fixed in v0.12.5. Workarounds include avoiding using BuildKit frontends from an untrusted source or building an untrusted Dockerfile containing RUN --mount feature.
+</code>
+
+- [abian2/CVE-2024-23652](https://github.com/abian2/CVE-2024-23652)
+
 ### CVE-2024-23738 (2024-01-27)
 
 <code>** DISPUTED ** An issue in Postman version 10.22 and before on macOS allows a remote attacker to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor states &quot;we dispute the report's accuracy ... the configuration does not enable remote code execution..&quot;
@@ -375,7 +391,7 @@
 
 ### CVE-2024-23742 (2024-01-27)
 
-<code>An issue in Loom on macOS version 0.196.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.
+<code>** DISPUTED ** An issue in Loom on macOS version 0.196.1 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings. NOTE: the vendor disputes this because it requires local access to a victim's machine.
 </code>
 
 - [giovannipajeu1/CVE-2024-23742](https://github.com/giovannipajeu1/CVE-2024-23742)
@@ -717,6 +733,7 @@
 - [Christbowel/CVE-2024-25600_Nuclei-Template](https://github.com/Christbowel/CVE-2024-25600_Nuclei-Template)
 - [Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
+- [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
@@ -6192,6 +6209,9 @@
 </code>
 
 - [amjadali-110/CVE-2023-43317](https://github.com/amjadali-110/CVE-2023-43317)
+
+### CVE-2023-43318
+- [str2ver/CVE-2023-43318](https://github.com/str2ver/CVE-2023-43318)
 
 ### CVE-2023-43323 (2023-09-28)
 
