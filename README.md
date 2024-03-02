@@ -10056,7 +10056,7 @@
 <code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
 </code>
 
-- [robotMD5/CVE-2022-24481-POC](https://github.com/robotMD5/CVE-2022-24481-POC)
+- [fr4nkxixi/CVE-2022-24481-POC](https://github.com/fr4nkxixi/CVE-2022-24481-POC)
 
 ### CVE-2022-24483 (2022-04-15)
 
@@ -16811,7 +16811,7 @@
 <code>Windows WalletService Elevation of Privilege Vulnerability
 </code>
 
-- [robotMD5/CVE-2021-26871_POC](https://github.com/robotMD5/CVE-2021-26871_POC)
+- [fr4nkxixi/CVE-2021-26871_POC](https://github.com/fr4nkxixi/CVE-2021-26871_POC)
 
 ### CVE-2021-26882 (2021-03-11)
 
