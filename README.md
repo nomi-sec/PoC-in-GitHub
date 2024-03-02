@@ -113,6 +113,7 @@
 
 - [W01fh4cker/ScreenConnect-AuthBypass-RCE](https://github.com/W01fh4cker/ScreenConnect-AuthBypass-RCE)
 - [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
+- [tr1pl3ight/POCv2.0-for-CVE-2024-1709](https://github.com/tr1pl3ight/POCv2.0-for-CVE-2024-1709)
 
 ### CVE-2024-20656 (2024-01-09)
 
@@ -212,7 +213,6 @@
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [c0d3b3af/CVE-2024-21762-POC](https://github.com/c0d3b3af/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
-- [tr1pl3ight/CVE-2024-21762-POC](https://github.com/tr1pl3ight/CVE-2024-21762-POC)
 
 ### CVE-2024-21887 (2024-01-12)
 
