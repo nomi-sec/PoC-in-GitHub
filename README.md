@@ -53,6 +53,13 @@
 
 - [0x9567b/CVE-2024-0844](https://github.com/0x9567b/CVE-2024-0844)
 
+### CVE-2024-0967 (-)
+
+<code>A potential vulnerability has been identified in OpenText / Micro Focus ArcSight Enterprise Security Manager (ESM). The vulnerability could be remotely exploited.
+</code>
+
+- [Oxdestiny/CVE-2024-0967-exploit](https://github.com/Oxdestiny/CVE-2024-0967-exploit)
+
 ### CVE-2024-1071
 - [gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071)
 
@@ -146,6 +153,13 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
+### CVE-2024-21410 (2024-02-13)
+
+<code>Microsoft Exchange Server Elevation of Privilege Vulnerability
+</code>
+
+- [FreakyM0ndy/CVE-2024-21410-poc](https://github.com/FreakyM0ndy/CVE-2024-21410-poc)
+
 ### CVE-2024-21413 (2024-02-13)
 
 <code>Microsoft Outlook Remote Code Execution Vulnerability
@@ -183,6 +197,13 @@
 
 - [0x33c0unt/CVE-2024-21633](https://github.com/0x33c0unt/CVE-2024-21633)
 
+### CVE-2024-21672 (2024-01-16)
+
+<code>This High severity Remote Code Execution (RCE) vulnerability was introduced in version 2.1.0 of Confluence Data Center and Server.\n\nRemote Code Execution (RCE) vulnerability, with a CVSS Score of 8.3 and a CVSS Vector of CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H allows an unauthenticated attacker to remotely expose assets in your environment susceptible to exploitation which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires user interaction.\n\nAtlassian recommends that Confluence Data Center and Server customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions:\n\n* Confluence Data Center and Server 7.19: Upgrade to a release 7.19.18, or any higher 7.19.x release\n* Confluence Data Center and Server 8.5: Upgrade to a release 8.5.5 or any higher 8.5.x release\n* Confluence Data Center and Server 8.7: Upgrade to a release 8.7.2 or any higher release\n\nSee the release notes (https://confluence.atlassian.com/doc/confluence-release-notes-327.html ). You can download the latest version of Confluence Data Center and Server from the download center (https://www.atlassian.com/software/confluence/download-archives).
+</code>
+
+- [swagcrafted/CVE-2024-21672-POC](https://github.com/swagcrafted/CVE-2024-21672-POC)
+
 ### CVE-2024-21762 (2024-02-09)
 
 <code>A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
@@ -191,6 +212,7 @@
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [c0d3b3af/CVE-2024-21762-POC](https://github.com/c0d3b3af/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
+- [tr1pl3ight/CVE-2024-21762-POC](https://github.com/tr1pl3ight/CVE-2024-21762-POC)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -735,6 +757,9 @@
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 
+### CVE-2024-25731
+- [actuator/com.cn.dq.ipc](https://github.com/actuator/com.cn.dq.ipc)
+
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
 
@@ -1166,7 +1191,7 @@
 - [luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS)
 - [g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629)
 - [vinetsuicide/CVE-2023-2640-CVE-2023-32629](https://github.com/vinetsuicide/CVE-2023-2640-CVE-2023-32629)
-- [SanjayRagavendar/UbuntuPrivilegeEscalationV1](https://github.com/SanjayRagavendar/UbuntuPrivilegeEscalationV1)
+- [SanjayRagavendar/Ubuntu-GameOver-Lay](https://github.com/SanjayRagavendar/Ubuntu-GameOver-Lay)
 
 ### CVE-2023-2650 (2023-05-30)
 
@@ -7035,19 +7060,13 @@
 ### CVE-2023-47179
 - [RandomRobbieBF/CVE-2023-47179](https://github.com/RandomRobbieBF/CVE-2023-47179)
 
-### CVE-2023-47184 (2023-11-06)
-
-<code>Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Proper Fraction LLC. Admin Bar &amp; Dashboard Access Control plugin &lt;= 1.2.8 versions.
-</code>
-
-- [rach1tarora/CVE-2023-47184](https://github.com/rach1tarora/CVE-2023-47184)
-
 ### CVE-2023-47218 (2024-02-12)
 
 <code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.5.2645 build 20240116 and later\nQuTS hero h5.1.5.2647 build 20240118 and later\nQuTScloud c5.1.5.2651 and later\n
 </code>
 
 - [passwa11/CVE-2023-47218](https://github.com/passwa11/CVE-2023-47218)
+- [gogobuster/CVE-2023-47218-POC](https://github.com/gogobuster/CVE-2023-47218-POC)
 
 ### CVE-2023-47246 (2023-11-10)
 
@@ -7398,19 +7417,39 @@
 ### CVE-2023-49496
 - [HuangYanQwQ/CVE-2023-49496](https://github.com/HuangYanQwQ/CVE-2023-49496)
 
-### CVE-2023-49539
+### CVE-2023-49539 (-)
+
+<code>Book Store Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability in /bsms_ci/index.php/category. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the category parameter.
+</code>
+
 - [geraldoalcantara/CVE-2023-49539](https://github.com/geraldoalcantara/CVE-2023-49539)
 
-### CVE-2023-49540
+### CVE-2023-49540 (-)
+
+<code>Book Store Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability in /bsms_ci/index.php/history. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the history parameter.
+</code>
+
 - [geraldoalcantara/CVE-2023-49540](https://github.com/geraldoalcantara/CVE-2023-49540)
 
-### CVE-2023-49543
+### CVE-2023-49543 (-)
+
+<code>Incorrect access control in Book Store Management System v1 allows attackers to access unauthorized pages and execute administrative functions without authenticating.
+</code>
+
 - [geraldoalcantara/CVE-2023-49543](https://github.com/geraldoalcantara/CVE-2023-49543)
 
-### CVE-2023-49544
+### CVE-2023-49544 (-)
+
+<code>A local file inclusion (LFI) in Customer Support System v1 allows attackers to include internal PHP files and gain unauthorized acces via manipulation of the page= parameter at /customer_support/index.php.
+</code>
+
 - [geraldoalcantara/CVE-2023-49544](https://github.com/geraldoalcantara/CVE-2023-49544)
 
-### CVE-2023-49545
+### CVE-2023-49545 (-)
+
+<code>A directory listing vulnerability in Customer Support System v1 allows attackers to list directories and sensitive files within the application without requiring authorization.
+</code>
+
 - [geraldoalcantara/CVE-2023-49545](https://github.com/geraldoalcantara/CVE-2023-49545)
 
 ### CVE-2023-49546
