@@ -1893,6 +1893,13 @@
 
 - [mimiloveexe/CVE-2023-6567-poc](https://github.com/mimiloveexe/CVE-2023-6567-poc)
 
+### CVE-2023-6595 (2023-12-14)
+
+<code>\nIn WhatsUp Gold versions released before 2023.1, an API endpoint was found to be missing an authentication mechanism. It is possible for an unauthenticated attacker to enumerate ancillary credential information stored within WhatsUp Gold.\n\n
+</code>
+
+- [sharmashreejaa/CVE-2023-6595](https://github.com/sharmashreejaa/CVE-2023-6595)
+
 ### CVE-2023-6654 (2023-12-10)
 
 <code>In PHPEMS 6.x/7.x/8.x/9.0 wurde eine kritische Schwachstelle entdeckt. Betroffen ist eine unbekannte Verarbeitung in der Bibliothek lib/session.cls.php der Komponente Session Data Handler. Dank der Manipulation mit unbekannten Daten kann eine deserialization-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -26539,6 +26546,7 @@
 
 - [StealYourCode/CVE-2019-1663](https://github.com/StealYourCode/CVE-2019-1663)
 - [e180175/CVE-2019-1663-vuln](https://github.com/e180175/CVE-2019-1663-vuln)
+- [Oraxiage/CVE-2019-1663](https://github.com/Oraxiage/CVE-2019-1663)
 
 ### CVE-2019-1759 (2019-03-27)
 
