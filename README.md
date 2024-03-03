@@ -4766,6 +4766,13 @@
 
 - [rootd4ddy/CVE-2023-34843](https://github.com/rootd4ddy/CVE-2023-34843)
 
+### CVE-2023-34845 (2023-06-15)
+
+<code>** DISPUTED ** Bludit v3.14.1 was discovered to contain an arbitrary file upload vulnerability in the component /admin/new-content. This vulnerability allows attackers to execute arbitrary web scripts or HTML via uploading a crafted SVG file. NOTE: the product's security model is that users are trusted by the administrator to insert arbitrary content (users cannot create their own accounts through self-registration).
+</code>
+
+- [r4vanan/CVE-2023-34845](https://github.com/r4vanan/CVE-2023-34845)
+
 ### CVE-2023-34852 (2023-06-15)
 
 <code>PublicCMS &lt;=V4.0.202302 is vulnerable to Insecure Permissions.
