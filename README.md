@@ -115,6 +115,13 @@
 - [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
 - [tr1pl3ight/POCv2.0-for-CVE-2024-1709](https://github.com/tr1pl3ight/POCv2.0-for-CVE-2024-1709)
 
+### CVE-2024-20291 (-)
+
+<code>A vulnerability in the access control list (ACL) programming for port channel subinterfaces of Cisco Nexus 3000 and 9000 Series Switches in standalone NX-OS mode could allow an unauthenticated, remote attacker to send traffic that should be blocked through an affected device.\r\n\r This vulnerability is due to incorrect hardware programming that occurs when configuration changes are made to port channel member ports. An attacker could exploit this vulnerability by attempting to send traffic through an affected device. A successful exploit could allow the attacker to access network resources that should be protected by an ACL that was applied on port channel subinterfaces.
+</code>
+
+- [greandfather/CVE-2024-20291-POC](https://github.com/greandfather/CVE-2024-20291-POC)
+
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -420,7 +427,7 @@
 
 ### CVE-2024-23743 (2024-01-27)
 
-<code>An issue in Notion for macOS version 3.1.0 and before, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments components.
+<code>** DISPUTED ** Notion through 3.1.0 on macOS might allow code execution because of RunAsNode and enableNodeClilnspectArguments. NOTE: the vendor states &quot;the attacker must launch the Notion Desktop application with nonstandard flags that turn the Electron-based application into a Node.js execution environment.&quot;
 </code>
 
 - [giovannipajeu1/CVE-2024-23743](https://github.com/giovannipajeu1/CVE-2024-23743)
@@ -1131,6 +1138,13 @@
 
 - [elweth-sec/CVE-2023-2255](https://github.com/elweth-sec/CVE-2023-2255)
 - [Mathieuleto/CVE-2023-2255](https://github.com/Mathieuleto/CVE-2023-2255)
+
+### CVE-2023-2437 (2023-11-22)
+
+<code>The UserPro plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 5.1.1. This is due to insufficient verification on the user being supplied during a Facebook login through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email. An attacker can leverage CVE-2023-2448 and CVE-2023-2446 to get the user's email address to successfully exploit this vulnerability.
+</code>
+
+- [RxRCoder/CVE-2023-2437](https://github.com/RxRCoder/CVE-2023-2437)
 
 ### CVE-2023-2516 (2023-05-05)
 
