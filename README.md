@@ -72,6 +72,7 @@
 
 ### CVE-2024-1071
 - [gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071)
+- [Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker)
 
 ### CVE-2024-1208 (2024-02-05)
 
@@ -4470,6 +4471,27 @@
 
 - [wushigudan/CVE-2023-33517](https://github.com/wushigudan/CVE-2023-33517)
 
+### CVE-2023-33565 (2023-06-23)
+
+<code>ROS2 (Robot Operating System 2) Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 are vulnerable to Denial-of-Service (DoS) attacks. A malicious user potentially exploited the vulnerability remotely and crashed the ROS2 nodes.
+</code>
+
+- [yashpatelphd/CVE-2023-33565](https://github.com/yashpatelphd/CVE-2023-33565)
+
+### CVE-2023-33566 (2023-06-27)
+
+<code>An unauthorized node injection vulnerability has been identified in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could allow a malicious user to inject malicious ROS2 nodes into the system remotely. Once injected, these nodes could disrupt the normal operations of the system or cause other potentially harmful behavior.
+</code>
+
+- [yashpatelphd/CVE-2023-33566](https://github.com/yashpatelphd/CVE-2023-33566)
+
+### CVE-2023-33567 (2023-06-27)
+
+<code>An unauthorized access vulnerability has been discovered in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information.
+</code>
+
+- [yashpatelphd/CVE-2023-33567](https://github.com/yashpatelphd/CVE-2023-33567)
+
 ### CVE-2023-33592 (2023-06-28)
 
 <code>Lost and Found Information System v1.0 was discovered to contain a SQL injection vulnerability via the component /php-lfis/admin/?page=system_info/contact_information.
@@ -6800,6 +6822,7 @@
 - [pentestfunctions/BlueDucky](https://github.com/pentestfunctions/BlueDucky)
 - [Eason-zz/BluetoothDucky](https://github.com/Eason-zz/BluetoothDucky)
 - [jjjjjjjj987/cve-2023-45866-py](https://github.com/jjjjjjjj987/cve-2023-45866-py)
+- [R4HUL-INDIAN/Blue0DAY](https://github.com/R4HUL-INDIAN/Blue0DAY)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -7719,6 +7742,62 @@
 </code>
 
 - [risuxx/CVE-2023-51127](https://github.com/risuxx/CVE-2023-51127)
+
+### CVE-2023-51197 (2024-01-30)
+
+<code>An issue discovered in shell command execution in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows an attacker to run arbitrary commands and cause other impacts.
+</code>
+
+- [yashpatelphd/CVE-2023-51197](https://github.com/yashpatelphd/CVE-2023-51197)
+
+### CVE-2023-51198 (2024-01-30)
+
+<code>An issue in the permission and access control components within ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to gain escalate privileges.
+</code>
+
+- [yashpatelphd/CVE-2023-51198](https://github.com/yashpatelphd/CVE-2023-51198)
+
+### CVE-2023-51199 (2024-01-23)
+
+<code>Buffer Overflow vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code or cause a denial of service via improper handling of arrays or strings.
+</code>
+
+- [yashpatelphd/CVE-2023-51199](https://github.com/yashpatelphd/CVE-2023-51199)
+
+### CVE-2023-51200 (2024-01-23)
+
+<code>An issue in the default configurations of ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows unauthenticated attackers to authenticate using default credentials.
+</code>
+
+- [yashpatelphd/CVE-2023-51200](https://github.com/yashpatelphd/CVE-2023-51200)
+
+### CVE-2023-51201 (2024-01-23)
+
+<code>Cleartext Transmission issue in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to access sensitive information via a man-in-the-middle attack.
+</code>
+
+- [yashpatelphd/CVE-2023-51201](https://github.com/yashpatelphd/CVE-2023-51201)
+
+### CVE-2023-51202 (2024-01-30)
+
+<code>OS command injection vulnerability in command processing or system call componentsROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary commands.
+</code>
+
+- [yashpatelphd/CVE-2023-51202](https://github.com/yashpatelphd/CVE-2023-51202)
+
+### CVE-2023-51204 (2024-01-30)
+
+<code>Insecure deserialization in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to execute arbitrary code via a crafted input.
+</code>
+
+- [yashpatelphd/CVE-2023-51204](https://github.com/yashpatelphd/CVE-2023-51204)
+
+### CVE-2023-51208 (2024-01-23)
+
+<code>An Arbitrary File Upload vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code and cause other impacts via upload of crafted file.
+</code>
+
+- [yashpatelphd/CVE-2023-51208](https://github.com/yashpatelphd/CVE-2023-51208)
 
 ### CVE-2023-51214
 - [chandraprarikraj/CVE-2023-51214](https://github.com/chandraprarikraj/CVE-2023-51214)
@@ -21525,6 +21604,7 @@
 - [Ajomix/CVE-2020-0796](https://github.com/Ajomix/CVE-2020-0796)
 - [Vladshambaryan/https-github.com-jamf-CVE-2020-0796-RCE-POC](https://github.com/Vladshambaryan/https-github.com-jamf-CVE-2020-0796-RCE-POC)
 - [hungdnvp/POC-CVE-2020-0796](https://github.com/hungdnvp/POC-CVE-2020-0796)
+- [AdamSonov/smbGhostCVE-2020-0796](https://github.com/AdamSonov/smbGhostCVE-2020-0796)
 
 ### CVE-2020-0799 (2020-03-12)
 
@@ -22236,7 +22316,6 @@
 
 - [dead5nd/config-demo](https://github.com/dead5nd/config-demo)
 - [osamahamad/CVE-2020-5410-POC](https://github.com/osamahamad/CVE-2020-5410-POC)
-- [thelostworldFree/SpringCloud-Config-CVE-2020-5410](https://github.com/thelostworldFree/SpringCloud-Config-CVE-2020-5410)
 
 ### CVE-2020-5421 (2020-09-18)
 
