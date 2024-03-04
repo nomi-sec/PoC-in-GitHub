@@ -28,6 +28,13 @@
 
 - [ch4nui/CVE-2024-0402-RCE](https://github.com/ch4nui/CVE-2024-0402-RCE)
 
+### CVE-2024-0519 (2024-01-16)
+
+<code>Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
+</code>
+
+- [JohnHormond/CVE-2024-0519-Chrome-exploit](https://github.com/JohnHormond/CVE-2024-0519-Chrome-exploit)
+
 ### CVE-2024-0679 (2024-01-20)
 
 <code>The ColorMag theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the plugin_action_callback() function in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to install and activate arbitrary plugins.
@@ -1908,6 +1915,13 @@
 </code>
 
 - [Arszilla/CVE-2023-6538](https://github.com/Arszilla/CVE-2023-6538)
+
+### CVE-2023-6548 (2024-01-17)
+
+<code>Improper Control of Generation of Code ('Code Injection') in NetScaler ADC and NetScaler Gateway allows an attacker with access to NSIP, CLIP or SNIP with management interface to perform Authenticated (low privileged) remote code execution on Management Interface.
+</code>
+
+- [Roonye660/CVE-2023-6548-POC](https://github.com/Roonye660/CVE-2023-6548-POC)
 
 ### CVE-2023-6553 (2023-12-15)
 
