@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2024
+### CVE-2024-0001
+- [RobloxSecurityResearcher/RobloxVulnerabilityCVE-2024-0001](https://github.com/RobloxSecurityResearcher/RobloxVulnerabilityCVE-2024-0001)
+
 ### CVE-2024-0197 (2024-02-27)
 
 <code>A flaw in the installer for Thales SafeNet Sentinel HASP LDK prior to 9.16 on Windows allows an attacker to escalate their privilege level via local access.\n\n
@@ -114,6 +117,13 @@
 - [W01fh4cker/ScreenConnect-AuthBypass-RCE](https://github.com/W01fh4cker/ScreenConnect-AuthBypass-RCE)
 - [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
 - [tr1pl3ight/POCv2.0-for-CVE-2024-1709](https://github.com/tr1pl3ight/POCv2.0-for-CVE-2024-1709)
+
+### CVE-2024-2074 (-)
+
+<code>Eine kritische Schwachstelle wurde in Mini-Tmall bis 20231017 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei ?r=tmall/admin/user/1/1. Mit der Manipulation des Arguments orderBy mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [yuziiiiiiiiii/CVE-2024-2074](https://github.com/yuziiiiiiiiii/CVE-2024-2074)
 
 ### CVE-2024-20291 (-)
 
@@ -673,6 +683,13 @@
 </code>
 
 - [minj-ae/CVE-2024-24488](https://github.com/minj-ae/CVE-2024-24488)
+
+### CVE-2024-24760 (2024-02-02)
+
+<code>mailcow is a dockerized email package, with multiple containers linked in one bridged network. A security vulnerability has been identified in mailcow affecting versions &lt; 2024-01c. This vulnerability potentially allows attackers on the same subnet to connect to exposed ports of a Docker container, even when the port is bound to 127.0.0.1. The vulnerability has been addressed by implementing additional iptables/nftables rules. These rules drop packets for Docker containers on ports 3306, 6379, 8983, and 12345, where the input interface is not `br-mailcow` and the output interface is `br-mailcow`.
+</code>
+
+- [killerbees19/CVE-2024-24760](https://github.com/killerbees19/CVE-2024-24760)
 
 ### CVE-2024-24816 (2024-02-07)
 
