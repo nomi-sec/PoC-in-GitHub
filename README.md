@@ -790,7 +790,11 @@
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 
-### CVE-2024-25731
+### CVE-2024-25731 (-)
+
+<code>The Elink Smart eSmartCam (com.cn.dq.ipc) application 2.1.5 for Android contains hardcoded AES encryption keys that can be extracted from a binary file. Thus, encryption can be defeated by an attacker who can observe packet data (e.g., over Wi-Fi).
+</code>
+
 - [actuator/com.cn.dq.ipc](https://github.com/actuator/com.cn.dq.ipc)
 
 ### CVE-2024-25809
@@ -812,7 +816,7 @@
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
 ### CVE-2024-206565
-- [sk2wie/sumkaluissessss](https://github.com/sk2wie/sumkaluissessss)
+- [sanderswannalive/sumkaluissessss](https://github.com/sanderswannalive/sumkaluissessss)
 
 
 ## 2023
@@ -7535,13 +7539,25 @@
 
 - [geraldoalcantara/CVE-2023-49545](https://github.com/geraldoalcantara/CVE-2023-49545)
 
-### CVE-2023-49546
+### CVE-2023-49546 (-)
+
+<code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the email parameter at /customer_support/ajax.php.
+</code>
+
 - [geraldoalcantara/CVE-2023-49546](https://github.com/geraldoalcantara/CVE-2023-49546)
 
-### CVE-2023-49547
+### CVE-2023-49547 (-)
+
+<code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the username parameter at /customer_support/ajax.php?action=login.
+</code>
+
 - [geraldoalcantara/CVE-2023-49547](https://github.com/geraldoalcantara/CVE-2023-49547)
 
-### CVE-2023-49548
+### CVE-2023-49548 (-)
+
+<code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the lastname parameter at /customer_support/ajax.php?action=save_user.
+</code>
+
 - [geraldoalcantara/CVE-2023-49548](https://github.com/geraldoalcantara/CVE-2023-49548)
 
 ### CVE-2023-49950 (2024-02-03)
@@ -7568,13 +7584,25 @@
 ### CVE-2023-49965
 - [hackintoanetwork/SpaceX-Starlink-Router-Gen-2-XSS](https://github.com/hackintoanetwork/SpaceX-Starlink-Router-Gen-2-XSS)
 
-### CVE-2023-49968
+### CVE-2023-49968 (-)
+
+<code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the id parameter at /customer_support/manage_department.php.
+</code>
+
 - [geraldoalcantara/CVE-2023-49968](https://github.com/geraldoalcantara/CVE-2023-49968)
 
-### CVE-2023-49969
+### CVE-2023-49969 (-)
+
+<code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the id parameter at /customer_support/index.php?page=edit_customer.
+</code>
+
 - [geraldoalcantara/CVE-2023-49969](https://github.com/geraldoalcantara/CVE-2023-49969)
 
-### CVE-2023-49970
+### CVE-2023-49970 (-)
+
+<code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the subject parameter at /customer_support/ajax.php?action=save_ticket.
+</code>
+
 - [geraldoalcantara/CVE-2023-49970](https://github.com/geraldoalcantara/CVE-2023-49970)
 
 ### CVE-2023-49971
@@ -19890,6 +19918,7 @@
 - [katseyres2/CVE-2021-43798](https://github.com/katseyres2/CVE-2021-43798)
 - [Iris288/CVE-2021-43798](https://github.com/Iris288/CVE-2021-43798)
 - [wagneralves/CVE-2021-43798](https://github.com/wagneralves/CVE-2021-43798)
+- [K3ysTr0K3R/CVE-2021-43798-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-43798-EXPLOIT)
 
 ### CVE-2021-43799 (2022-01-25)
 
@@ -39774,6 +39803,13 @@
 </code>
 
 - [grzegorzblaszczyk/CVE-2010-4476-check](https://github.com/grzegorzblaszczyk/CVE-2010-4476-check)
+
+### CVE-2010-4669 (2011-01-07)
+
+<code>The Neighbor Discovery (ND) protocol implementation in the IPv6 stack in Microsoft Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7 allows remote attackers to cause a denial of service (CPU consumption and system hang) by sending many Router Advertisement (RA) messages with different source addresses, as demonstrated by the flood_router6 program in the thc-ipv6 package.
+</code>
+
+- [wrong-commit/CVE-2010-4669](https://github.com/wrong-commit/CVE-2010-4669)
 
 ### CVE-2010-4804 (2011-06-09)
 
