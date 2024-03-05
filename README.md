@@ -812,6 +812,14 @@
 ### CVE-2024-26560
 - [sajaljat/CVE-2024-26560](https://github.com/sajaljat/CVE-2024-26560)
 
+### CVE-2024-27198 (-)
+
+<code>In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
+</code>
+
+- [tucommenceapousser/CVE-2024-27198](https://github.com/tucommenceapousser/CVE-2024-27198)
+- [yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
