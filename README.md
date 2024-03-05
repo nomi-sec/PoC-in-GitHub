@@ -334,6 +334,9 @@
 
 - [labesterOct/CVE-2024-22567](https://github.com/labesterOct/CVE-2024-22567)
 
+### CVE-2024-22752
+- [hacker625/CVE-2024-22752](https://github.com/hacker625/CVE-2024-22752)
+
 ### CVE-2024-22867
 - [brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867)
 
@@ -819,6 +822,7 @@
 
 - [tucommenceapousser/CVE-2024-27198](https://github.com/tucommenceapousser/CVE-2024-27198)
 - [yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198)
+- [labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -7033,6 +7037,7 @@
 - [Mudoleto/Broker_ApacheMQ](https://github.com/Mudoleto/Broker_ApacheMQ)
 - [hh-hunter/cve-2023-46604](https://github.com/hh-hunter/cve-2023-46604)
 - [ST3G4N05/ExploitScript-CVE-2023-46604](https://github.com/ST3G4N05/ExploitScript-CVE-2023-46604)
+- [Arlenhiack/ActiveMQ-RCE-Exploit](https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -39568,6 +39573,7 @@
 - [vaishnavucv/CVE-2011-2523](https://github.com/vaishnavucv/CVE-2011-2523)
 - [chleba124/vsftpd-exploit](https://github.com/chleba124/vsftpd-exploit)
 - [4m3rr0r/CVE-2011-2523-poc](https://github.com/4m3rr0r/CVE-2011-2523-poc)
+- [Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523)
 
 ### CVE-2011-2894 (2011-10-04)
 
