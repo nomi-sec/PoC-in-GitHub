@@ -138,7 +138,7 @@
 <code>A vulnerability in the access control list (ACL) programming for port channel subinterfaces of Cisco Nexus 3000 and 9000 Series Switches in standalone NX-OS mode could allow an unauthenticated, remote attacker to send traffic that should be blocked through an affected device.\r\n\r This vulnerability is due to incorrect hardware programming that occurs when configuration changes are made to port channel member ports. An attacker could exploit this vulnerability by attempting to send traffic through an affected device. A successful exploit could allow the attacker to access network resources that should be protected by an ACL that was applied on port channel subinterfaces.
 </code>
 
-- [greandfather/CVE-2024-20291-POC](https://github.com/greandfather/CVE-2024-20291-POC)
+- [BetterCzz/CVE-2024-20291-POC](https://github.com/BetterCzz/CVE-2024-20291-POC)
 
 ### CVE-2024-20656 (2024-01-09)
 
@@ -178,6 +178,13 @@
 </code>
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
+
+### CVE-2024-21338 (2024-02-13)
+
+<code>Windows Kernel Elevation of Privilege Vulnerability
+</code>
+
+- [gogobuster/CVE-2024-21338-POC](https://github.com/gogobuster/CVE-2024-21338-POC)
 
 ### CVE-2024-21410 (2024-02-13)
 
@@ -552,7 +559,11 @@
 ### CVE-2024-24097
 - [ASR511-OO7/CVE-2024-24097](https://github.com/ASR511-OO7/CVE-2024-24097)
 
-### CVE-2024-24098
+### CVE-2024-24098 (-)
+
+<code>Code-projects Scholars Tracking System 1.0 is vulnerable to SQL Injection via the News Feed.
+</code>
+
 - [ASR511-OO7/CVE-2024-24098](https://github.com/ASR511-OO7/CVE-2024-24098)
 
 ### CVE-2024-24099 (2024-02-26)
@@ -823,6 +834,9 @@
 - [tucommenceapousser/CVE-2024-27198](https://github.com/tucommenceapousser/CVE-2024-27198)
 - [yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198)
 - [labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198)
+
+### CVE-2024-27619
+- [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -6838,7 +6852,6 @@
 - [pentestfunctions/BlueDucky](https://github.com/pentestfunctions/BlueDucky)
 - [Eason-zz/BluetoothDucky](https://github.com/Eason-zz/BluetoothDucky)
 - [jjjjjjjj987/cve-2023-45866-py](https://github.com/jjjjjjjj987/cve-2023-45866-py)
-- [R4HUL-INDIAN/Blue0DAY](https://github.com/R4HUL-INDIAN/Blue0DAY)
 
 ### CVE-2023-45966 (2023-10-23)
 
@@ -7721,6 +7734,13 @@
 </code>
 
 - [febinrev/deepin-linux_reader_RCE-exploit](https://github.com/febinrev/deepin-linux_reader_RCE-exploit)
+
+### CVE-2023-50358 (2024-02-12)
+
+<code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.5.2645 build 20240116 and later\nQTS 4.5.4.2627 build 20231225 and later\nQTS 4.3.6.2665 build 20240131 and later\nQTS 4.3.4.2675 build 20240131 and later\nQTS 4.3.3.2644 build 20240131 and later\nQTS 4.2.6 build 20240131 and later\nQuTS hero h5.1.5.2647 build 20240118 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\nQuTScloud c5.1.5.2651 and later\n
+</code>
+
+- [greandfather/CVE-2023-50358-POC](https://github.com/greandfather/CVE-2023-50358-POC)
 
 ### CVE-2023-50386 (2024-02-09)
 
@@ -14071,7 +14091,11 @@
 
 - [G37SYS73M/CVE-2022-46087](https://github.com/G37SYS73M/CVE-2022-46087)
 
-### CVE-2022-46088
+### CVE-2022-46088 (-)
+
+<code>Online Flight Booking Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the feedback form.
+</code>
+
 - [ASR511-OO7/CVE-2022-46088](https://github.com/ASR511-OO7/CVE-2022-46088)
 
 ### CVE-2022-46089
