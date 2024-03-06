@@ -92,12 +92,31 @@
 
 - [sajaljat/CVE-2024-1269](https://github.com/sajaljat/CVE-2024-1269)
 
+### CVE-2024-1301
+- [guillermogm4/CVE-2024-1301---Badgermeter-moni-tool-SQL-Injection](https://github.com/guillermogm4/CVE-2024-1301---Badgermeter-moni-tool-SQL-Injection)
+
+### CVE-2024-1302
+- [guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure](https://github.com/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure)
+
+### CVE-2024-1303
+- [guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal](https://github.com/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal)
+
+### CVE-2024-1304
+- [guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS](https://github.com/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS)
+
 ### CVE-2024-1346 (2024-02-19)
 
 <code>Weak MySQL database root password in LaborOfficeFree affects version 19.10. This vulnerability allows an attacker to calculate the root password of the MySQL database used by LaborOfficeFree using two constants.
 </code>
 
 - [PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346)
+
+### CVE-2024-1403 (-)
+
+<code>In OpenEdge Authentication Gateway and AdminServer prior to 11.7.19, 12.2.14, 12.8.1 on all platforms supported by the OpenEdge product, an authentication bypass vulnerability has been identified.  The\nvulnerability is a bypass to authentication based on a failure to properly\nhandle username and password.  Certain unexpected\ncontent passed into the credentials can lead to unauthorized access without proper\nauthentication.    \n\n\n\n\n\n\n
+</code>
+
+- [horizon3ai/CVE-2024-1403](https://github.com/horizon3ai/CVE-2024-1403)
 
 ### CVE-2024-1512 (2024-02-17)
 
@@ -1953,6 +1972,13 @@
 - [motikan2010/CVE-2023-6063-PoC](https://github.com/motikan2010/CVE-2023-6063-PoC)
 - [hackersroot/CVE-2023-6063-PoC](https://github.com/hackersroot/CVE-2023-6063-PoC)
 - [thesafdari/CVE-2023-6063](https://github.com/thesafdari/CVE-2023-6063)
+
+### CVE-2023-6246 (2024-01-31)
+
+<code>A heap-based buffer overflow was found in the __vsyslog_internal function of the glibc library. This function is called by the syslog and vsyslog functions. This issue occurs when the openlog function was not called, or called with the ident argument set to NULL, and the program name (the basename of argv[0]) is bigger than 1024 bytes, resulting in an application crash or local privilege escalation. This issue affects glibc 2.36 and newer.
+</code>
+
+- [elpe-pinillo/CVE-2023-6246](https://github.com/elpe-pinillo/CVE-2023-6246)
 
 ### CVE-2023-6289 (2023-12-18)
 
@@ -5213,7 +5239,7 @@
 
 - [jakabakos/CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
 - [winkler-winsen/Scan_GhostScript](https://github.com/winkler-winsen/Scan_GhostScript)
-- [JeanChpt/CVE-2023-36664](https://github.com/JeanChpt/CVE-2023-36664)
+- [jeanchpt/CVE-2023-36664](https://github.com/jeanchpt/CVE-2023-36664)
 
 ### CVE-2023-36723 (2023-10-10)
 
@@ -7695,28 +7721,60 @@
 
 - [geraldoalcantara/CVE-2023-49977](https://github.com/geraldoalcantara/CVE-2023-49977)
 
-### CVE-2023-49978
+### CVE-2023-49978 (-)
+
+<code>Incorrect access control in Customer Support System v1 allows non-administrator users to access administrative pages and execute actions reserved for administrators.
+</code>
+
 - [geraldoalcantara/CVE-2023-49978](https://github.com/geraldoalcantara/CVE-2023-49978)
 
-### CVE-2023-49979
+### CVE-2023-49979 (-)
+
+<code>A directory listing vulnerability in Customer Support System v1 allows attackers to list directories and sensitive files within the application without requiring authorization.
+</code>
+
 - [geraldoalcantara/CVE-2023-49979](https://github.com/geraldoalcantara/CVE-2023-49979)
 
-### CVE-2023-49980
+### CVE-2023-49980 (-)
+
+<code>A directory listing vulnerability in Best Student Result Management System v1.0 allows attackers to list directories and sensitive files within the application without requiring authorization.
+</code>
+
 - [geraldoalcantara/CVE-2023-49980](https://github.com/geraldoalcantara/CVE-2023-49980)
 
-### CVE-2023-49981
+### CVE-2023-49981 (-)
+
+<code>A directory listing vulnerability in School Fees Management System v1.0 allows attackers to list directories and sensitive files within the application without requiring authorization.
+</code>
+
 - [geraldoalcantara/CVE-2023-49981](https://github.com/geraldoalcantara/CVE-2023-49981)
 
-### CVE-2023-49982
+### CVE-2023-49982 (-)
+
+<code>Broken access control in the component /admin/management/users of School Fees Management System v1.0 allows attackers to escalate privileges and perform Administrative actions, including adding and deleting user accounts.
+</code>
+
 - [geraldoalcantara/CVE-2023-49982](https://github.com/geraldoalcantara/CVE-2023-49982)
 
-### CVE-2023-49983
+### CVE-2023-49983 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in the component /management/class of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
+</code>
+
 - [geraldoalcantara/CVE-2023-49983](https://github.com/geraldoalcantara/CVE-2023-49983)
 
-### CVE-2023-49984
+### CVE-2023-49984 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in the component /management/settings of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
+</code>
+
 - [geraldoalcantara/CVE-2023-49984](https://github.com/geraldoalcantara/CVE-2023-49984)
 
-### CVE-2023-49985
+### CVE-2023-49985 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in the component /management/class of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the cname parameter.
+</code>
+
 - [geraldoalcantara/CVE-2023-49985](https://github.com/geraldoalcantara/CVE-2023-49985)
 
 ### CVE-2023-49986
@@ -7946,7 +8004,7 @@
 <code>Cacti provides an operational monitoring and fault management framework. Version 1.2.25 has a Blind SQL Injection (SQLi) vulnerability within the SNMP Notification Receivers feature in the file `‘managers.php’`. An authenticated attacker with the “Settings/Utilities” permission can send a crafted HTTP GET request to the endpoint `‘/cacti/managers.php’` with an SQLi payload in the `‘selected_graphs_array’` HTTP GET parameter. As of time of publication, no patched versions exist.
 </code>
 
-- [jakabakos/CVE-2023-51448-cacti-command-injection-poc](https://github.com/jakabakos/CVE-2023-51448-cacti-command-injection-poc)
+- [jakabakos/CVE-2023-51448-cacti-sqli-poc](https://github.com/jakabakos/CVE-2023-51448-cacti-sqli-poc)
 
 ### CVE-2023-51467 (2023-12-26)
 
