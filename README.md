@@ -590,6 +590,15 @@
 ### CVE-2024-24103
 - [ASR511-OO7/CVE-2024-24103](https://github.com/ASR511-OO7/CVE-2024-24103)
 
+### CVE-2024-24104
+- [ASR511-OO7/CVE-2024-24104](https://github.com/ASR511-OO7/CVE-2024-24104)
+
+### CVE-2024-24105
+- [ASR511-OO7/CVE-2024-24105](https://github.com/ASR511-OO7/CVE-2024-24105)
+
+### CVE-2024-24108
+- [ASR511-OO7/CVE-2024-24108](https://github.com/ASR511-OO7/CVE-2024-24108)
+
 ### CVE-2024-24134 (2024-01-29)
 
 <code>Sourcecodester Online Food Menu 1.0 is vulnerable to Cross Site Scripting (XSS) via the 'Menu Name' and 'Description' fields in the Update Menu section.
@@ -751,6 +760,9 @@
 </code>
 
 - [intbjw/CVE-2024-25249](https://github.com/intbjw/CVE-2024-25249)
+
+### CVE-2024-25250
+- [ASR511-OO7/CVE-2024-25250.](https://github.com/ASR511-OO7/CVE-2024-25250.)
 
 ### CVE-2024-25251 (2024-02-21)
 
@@ -7928,6 +7940,13 @@
 
 ### CVE-2023-51409
 - [RandomRobbieBF/CVE-2023-51409](https://github.com/RandomRobbieBF/CVE-2023-51409)
+
+### CVE-2023-51448 (2023-12-22)
+
+<code>Cacti provides an operational monitoring and fault management framework. Version 1.2.25 has a Blind SQL Injection (SQLi) vulnerability within the SNMP Notification Receivers feature in the file `‘managers.php’`. An authenticated attacker with the “Settings/Utilities” permission can send a crafted HTTP GET request to the endpoint `‘/cacti/managers.php’` with an SQLi payload in the `‘selected_graphs_array’` HTTP GET parameter. As of time of publication, no patched versions exist.
+</code>
+
+- [jakabakos/CVE-2023-51448-cacti-command-injection-poc](https://github.com/jakabakos/CVE-2023-51448-cacti-command-injection-poc)
 
 ### CVE-2023-51467 (2023-12-26)
 
