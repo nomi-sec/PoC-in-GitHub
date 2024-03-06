@@ -1,9 +1,6 @@
 # PoC in GitHub
 
 ## 2024
-### CVE-2024-0001
-- [RobloxSecurityResearcher/RobloxVulnerabilityCVE-2024-0001](https://github.com/RobloxSecurityResearcher/RobloxVulnerabilityCVE-2024-0001)
-
 ### CVE-2024-0197 (2024-02-27)
 
 <code>A flaw in the installer for Thales SafeNet Sentinel HASP LDK prior to 9.16 on Windows allows an attacker to escalate their privilege level via local access.\n\n
@@ -818,6 +815,13 @@
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
 
+### CVE-2024-25832 (-)
+
+<code>F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.
+</code>
+
+- [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
+
 ### CVE-2024-26521
 - [hackervegas001/CVE-2024-26521](https://github.com/hackervegas001/CVE-2024-26521)
 
@@ -838,6 +842,7 @@
 - [Chocapikk/CVE-2024-27198](https://github.com/Chocapikk/CVE-2024-27198)
 - [yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198)
 - [labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198)
+- [W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE)
 
 ### CVE-2024-27619
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
@@ -4551,7 +4556,11 @@
 ### CVE-2023-33676
 - [ASR511-OO7/CVE-2023-33676](https://github.com/ASR511-OO7/CVE-2023-33676)
 
-### CVE-2023-33677
+### CVE-2023-33677 (-)
+
+<code>Sourcecodester Lost and Found Information System's Version 1.0 is vulnerable to unauthenticated SQL Injection at &quot;?page=items/view&amp;id=*&quot;.
+</code>
+
 - [ASR511-OO7/CVE-2023-33677](https://github.com/ASR511-OO7/CVE-2023-33677)
 
 ### CVE-2023-33730 (2023-05-31)
@@ -7639,19 +7648,39 @@
 
 - [geraldoalcantara/CVE-2023-49970](https://github.com/geraldoalcantara/CVE-2023-49970)
 
-### CVE-2023-49971
+### CVE-2023-49971 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the firstname parameter at /customer_support/index.php?page=customer_list.
+</code>
+
 - [geraldoalcantara/CVE-2023-49971](https://github.com/geraldoalcantara/CVE-2023-49971)
 
-### CVE-2023-49973
+### CVE-2023-49973 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the email parameter at /customer_support/index.php?page=customer_list.
+</code>
+
 - [geraldoalcantara/CVE-2023-49973](https://github.com/geraldoalcantara/CVE-2023-49973)
 
-### CVE-2023-49974
+### CVE-2023-49974 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the contact parameter at /customer_support/index.php?page=customer_list.
+</code>
+
 - [geraldoalcantara/CVE-2023-49974](https://github.com/geraldoalcantara/CVE-2023-49974)
 
-### CVE-2023-49976
+### CVE-2023-49976 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the subject parameter at /customer_support/index.php?page=new_ticket.
+</code>
+
 - [geraldoalcantara/CVE-2023-49976](https://github.com/geraldoalcantara/CVE-2023-49976)
 
-### CVE-2023-49977
+### CVE-2023-49977 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the address parameter at /customer_support/index.php?page=new_customer.
+</code>
+
 - [geraldoalcantara/CVE-2023-49977](https://github.com/geraldoalcantara/CVE-2023-49977)
 
 ### CVE-2023-49978
@@ -12694,7 +12723,7 @@
 - [kljunowsky/CVE-2022-36804-POC](https://github.com/kljunowsky/CVE-2022-36804-POC)
 - [Chocapikk/CVE-2022-36804-ReverseShell](https://github.com/Chocapikk/CVE-2022-36804-ReverseShell)
 - [khal4n1/CVE-2022-36804](https://github.com/khal4n1/CVE-2022-36804)
-- [vj4336/CVE-2022-36804-ReverseShell](https://github.com/vj4336/CVE-2022-36804-ReverseShell)
+- [0xEleven/CVE-2022-36804-ReverseShell](https://github.com/0xEleven/CVE-2022-36804-ReverseShell)
 - [tahtaciburak/cve-2022-36804](https://github.com/tahtaciburak/cve-2022-36804)
 - [Inplex-sys/CVE-2022-36804](https://github.com/Inplex-sys/CVE-2022-36804)
 - [ColdFusionX/CVE-2022-36804](https://github.com/ColdFusionX/CVE-2022-36804)
