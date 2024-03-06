@@ -347,7 +347,11 @@
 ### CVE-2024-22867
 - [brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867)
 
-### CVE-2024-22889
+### CVE-2024-22889 (-)
+
+<code>Due to incorrect access control in Plone version v6.0.9, remote attackers can view and list all files hosted on the website via sending a crafted request.
+</code>
+
 - [shenhav12/CVE-2024-22889-Plone-v6.0.9](https://github.com/shenhav12/CVE-2024-22889-Plone-v6.0.9)
 
 ### CVE-2024-22890
@@ -355,7 +359,7 @@
 
 ### CVE-2024-22894 (2024-01-30)
 
-<code>An issue in AIT-Deutschland Alpha Innotec Heatpumps wp2reg-V.3.88.0-9015 and Novelan Heatpumps wp2reg-V.3.88.0-9015, allows remote attackers to execute arbitrary code via the password component in the shadow file.
+<code>An issue fixed in AIT-Deutschland Alpha Innotec Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later and Novelan Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later, allows remote attackers to execute arbitrary code via the password component in the shadow file.
 </code>
 
 - [Jaarden/CVE-2024-22894](https://github.com/Jaarden/CVE-2024-22894)
@@ -831,7 +835,7 @@
 <code>In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
 </code>
 
-- [tucommenceapousser/CVE-2024-27198](https://github.com/tucommenceapousser/CVE-2024-27198)
+- [Chocapikk/CVE-2024-27198](https://github.com/Chocapikk/CVE-2024-27198)
 - [yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198)
 - [labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198)
 
@@ -6347,7 +6351,11 @@
 
 - [amjadali-110/CVE-2023-43317](https://github.com/amjadali-110/CVE-2023-43317)
 
-### CVE-2023-43318
+### CVE-2023-43318 (-)
+
+<code>TP-Link JetStream Smart Switch TL-SG2210P 5.0 Build 20211201 allows attackers to escalate privileges via modification of the 'tid' and 'usrlvl' values in GET requests.
+</code>
+
 - [str2ver/CVE-2023-43318](https://github.com/str2ver/CVE-2023-43318)
 
 ### CVE-2023-43323 (2023-09-28)
