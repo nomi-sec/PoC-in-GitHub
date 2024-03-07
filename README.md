@@ -342,7 +342,11 @@
 
 - [labesterOct/CVE-2024-22567](https://github.com/labesterOct/CVE-2024-22567)
 
-### CVE-2024-22752
+### CVE-2024-22752 (-)
+
+<code>Insecure permissions issue in EaseUS MobiMover 6.0.5 Build 21620 allows attackers to gain escalated privileges via use of crafted executable launched from the application installation directory.
+</code>
+
 - [hacker625/CVE-2024-22752](https://github.com/hacker625/CVE-2024-22752)
 
 ### CVE-2024-22867
@@ -859,9 +863,17 @@
 - [yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198)
 - [labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198)
 - [W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE)
+- [rampantspark/CVE-2024-27198](https://github.com/rampantspark/CVE-2024-27198)
 
 ### CVE-2024-27619
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
+
+### CVE-2024-28213 (-)
+
+<code>nGrinder before 3.5.9 allows to accept serialized Java objects from unauthenticated users, which could allow remote attacker to execute arbitrary code via unsafe Java objects deserialization.
+</code>
+
+- [0x1x02/CVE-2024-28213](https://github.com/0x1x02/CVE-2024-28213)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -1397,6 +1409,13 @@
 </code>
 
 - [mnqazi/CVE-2023-3009](https://github.com/mnqazi/CVE-2023-3009)
+
+### CVE-2023-3047 (2023-06-13)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in TMT Lockcell allows SQL Injection.This issue affects Lockcell: before 15.\n\n
+</code>
+
+- [Phamchie/CVE-2023-3047](https://github.com/Phamchie/CVE-2023-3047)
 
 ### CVE-2023-3076 (2023-07-10)
 
@@ -4582,7 +4601,11 @@
 
 - [lodi-g/CVE-2023-33668](https://github.com/lodi-g/CVE-2023-33668)
 
-### CVE-2023-33676
+### CVE-2023-33676 (-)
+
+<code>Sourcecodester Lost and Found Information System's Version 1.0 is vulnerable to unauthenticated SQL Injection at &quot;?page=items/view&amp;id=*&quot; which can be escalated to the remote command execution.
+</code>
+
 - [ASR511-OO7/CVE-2023-33676](https://github.com/ASR511-OO7/CVE-2023-33676)
 
 ### CVE-2023-33677 (-)
@@ -6010,10 +6033,18 @@
 
 - [Zone1-Z/CVE-2023-40989](https://github.com/Zone1-Z/CVE-2023-40989)
 
-### CVE-2023-41014
+### CVE-2023-41014 (-)
+
+<code>code-projects.org Online Job Portal 1.0 is vulnerable to SQL Injection via the Username parameter for &quot;Employer.&quot;
+</code>
+
 - [ASR511-OO7/CVE-2023-41014](https://github.com/ASR511-OO7/CVE-2023-41014)
 
-### CVE-2023-41015
+### CVE-2023-41015 (-)
+
+<code>code-projects.org Online Job Portal 1.0 is vulnerable to SQL Injection via /Employer/DeleteJob.php?JobId=1.
+</code>
+
 - [ASR511-OO7/CVE-2023-41015](https://github.com/ASR511-OO7/CVE-2023-41015)
 
 ### CVE-2023-41064 (2023-09-07)
@@ -6088,7 +6119,11 @@
 ### CVE-2023-41501
 - [ASR511-OO7/CVE-2023-41501](https://github.com/ASR511-OO7/CVE-2023-41501)
 
-### CVE-2023-41503
+### CVE-2023-41503 (-)
+
+<code>Student Enrollment In PHP v1.0 was discovered to contain a SQL injection vulnerability via the Login function.
+</code>
+
 - [ASR511-OO7/CVE-2023-41503](https://github.com/ASR511-OO7/CVE-2023-41503)
 
 ### CVE-2023-41504
@@ -7770,16 +7805,32 @@
 
 - [geraldoalcantara/CVE-2023-49985](https://github.com/geraldoalcantara/CVE-2023-49985)
 
-### CVE-2023-49986
+### CVE-2023-49986 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in the component /admin/parent of School Fees Management System 1.0 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
+</code>
+
 - [geraldoalcantara/CVE-2023-49986](https://github.com/geraldoalcantara/CVE-2023-49986)
 
-### CVE-2023-49987
+### CVE-2023-49987 (-)
+
+<code>A cross-site scripting (XSS) vulnerability in the component /management/term of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the tname parameter.
+</code>
+
 - [geraldoalcantara/CVE-2023-49987](https://github.com/geraldoalcantara/CVE-2023-49987)
 
-### CVE-2023-49988
+### CVE-2023-49988 (-)
+
+<code>Hotel Booking Management v1.0 was discovered to contain a SQL injection vulnerability via the npss parameter at rooms.php.
+</code>
+
 - [geraldoalcantara/CVE-2023-49988](https://github.com/geraldoalcantara/CVE-2023-49988)
 
-### CVE-2023-49989
+### CVE-2023-49989 (-)
+
+<code>Hotel Booking Management v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at update.php.
+</code>
+
 - [geraldoalcantara/CVE-2023-49989](https://github.com/geraldoalcantara/CVE-2023-49989)
 
 ### CVE-2023-50070 (2023-12-29)
@@ -7963,7 +8014,11 @@
 ### CVE-2023-51214
 - [chandraprarikraj/CVE-2023-51214](https://github.com/chandraprarikraj/CVE-2023-51214)
 
-### CVE-2023-51281
+### CVE-2023-51281 (-)
+
+<code>Cross Site Scripting vulnerability in Customer Support System v.1.0 allows a remote attacker to escalate privileges via a crafted script firstname, &quot;lastname&quot;, &quot;middlename&quot;, &quot;contact&quot; and address parameters.
+</code>
+
 - [geraldoalcantara/CVE-2023-51281](https://github.com/geraldoalcantara/CVE-2023-51281)
 
 ### CVE-2023-51385 (2023-12-18)
@@ -14206,10 +14261,18 @@
 
 - [ASR511-OO7/CVE-2022-46088](https://github.com/ASR511-OO7/CVE-2022-46088)
 
-### CVE-2022-46089
+### CVE-2022-46089 (-)
+
+<code>Cross Site Scripting (XSS) vulnerability in the add-airline form of Online Flight Booking Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the airline parameter.
+</code>
+
 - [ASR511-OO7/CVE-2022-46089](https://github.com/ASR511-OO7/CVE-2022-46089)
 
-### CVE-2022-46091
+### CVE-2022-46091 (-)
+
+<code>Cross Site Scripting (XSS) vulnerability in the feedback form of Online Flight Booking Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the airline parameter.
+</code>
+
 - [ASR511-OO7/CVE-2022-46091](https://github.com/ASR511-OO7/CVE-2022-46091)
 
 ### CVE-2022-46104
@@ -14304,13 +14367,25 @@
 
 - [WodenSec/CVE-2022-46485](https://github.com/WodenSec/CVE-2022-46485)
 
-### CVE-2022-46497
+### CVE-2022-46497 (-)
+
+<code>Hospital Management System 1.0 was discovered to contain a SQL injection vulnerability via the pat_number parameter at his_doc_view_single_patien.php.
+</code>
+
 - [ASR511-OO7/CVE-2022-46497](https://github.com/ASR511-OO7/CVE-2022-46497)
 
-### CVE-2022-46498
+### CVE-2022-46498 (-)
+
+<code>Hospital Management System 1.0 was discovered to contain a SQL injection vulnerability via the doc_number parameter at his_admin_view_single_employee.php.
+</code>
+
 - [ASR511-OO7/CVE-2022-46498](https://github.com/ASR511-OO7/CVE-2022-46498)
 
-### CVE-2022-46499
+### CVE-2022-46499 (-)
+
+<code>Hospital Management System 1.0 was discovered to contain a SQL injection vulnerability via the pat_number parameter at his_admin_view_single_patient.php.
+</code>
+
 - [ASR511-OO7/CVE-2022-46499](https://github.com/ASR511-OO7/CVE-2022-46499)
 
 ### CVE-2022-46505 (2023-01-18)
