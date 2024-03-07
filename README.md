@@ -194,13 +194,6 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
-### CVE-2024-21338 (2024-02-13)
-
-<code>Windows Kernel Elevation of Privilege Vulnerability
-</code>
-
-- [gogobuster/CVE-2024-21338-POC](https://github.com/gogobuster/CVE-2024-21338-POC)
-
 ### CVE-2024-21410 (2024-02-13)
 
 <code>Microsoft Exchange Server Elevation of Privilege Vulnerability
@@ -244,13 +237,6 @@
 </code>
 
 - [0x33c0unt/CVE-2024-21633](https://github.com/0x33c0unt/CVE-2024-21633)
-
-### CVE-2024-21672 (2024-01-16)
-
-<code>This High severity Remote Code Execution (RCE) vulnerability was introduced in version 2.1.0 of Confluence Data Center and Server.\n\nRemote Code Execution (RCE) vulnerability, with a CVSS Score of 8.3 and a CVSS Vector of CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H allows an unauthenticated attacker to remotely expose assets in your environment susceptible to exploitation which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires user interaction.\n\nAtlassian recommends that Confluence Data Center and Server customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions:\n\n* Confluence Data Center and Server 7.19: Upgrade to a release 7.19.18, or any higher 7.19.x release\n* Confluence Data Center and Server 8.5: Upgrade to a release 8.5.5 or any higher 8.5.x release\n* Confluence Data Center and Server 8.7: Upgrade to a release 8.7.2 or any higher release\n\nSee the release notes (https://confluence.atlassian.com/doc/confluence-release-notes-327.html ). You can download the latest version of Confluence Data Center and Server from the download center (https://www.atlassian.com/software/confluence/download-archives).
-</code>
-
-- [swagcrafted/CVE-2024-21672-POC](https://github.com/swagcrafted/CVE-2024-21672-POC)
 
 ### CVE-2024-21762 (2024-02-09)
 
@@ -3501,7 +3487,6 @@
 <code>A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and below and FortiProxy version 7.2.3 and below, version 7.0.9 and below, version 2.0.12 and below, version 1.2 all versions, version 1.1 all versions SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests.
 </code>
 
-- [Pik-sec/cve-2023-27997](https://github.com/Pik-sec/cve-2023-27997)
 - [rio128128/CVE-2023-27997-POC](https://github.com/rio128128/CVE-2023-27997-POC)
 - [BishopFox/CVE-2023-27997-check](https://github.com/BishopFox/CVE-2023-27997-check)
 - [imbas007/CVE-2023-27997-Check](https://github.com/imbas007/CVE-2023-27997-Check)
@@ -7050,6 +7035,9 @@
 
 - [sajaljat/CVE-2023-46451](https://github.com/sajaljat/CVE-2023-46451)
 
+### CVE-2023-46453
+- [0x1x02/GLiNet-Router-Auth-Bypass](https://github.com/0x1x02/GLiNet-Router-Auth-Bypass)
+
 ### CVE-2023-46454 (2023-12-12)
 
 <code>In GL.iNET GL-AR300M routers with firmware v4.3.7, it is possible to inject arbitrary shell commands through a crafted package name in the package information functionality.
@@ -7240,7 +7228,6 @@
 </code>
 
 - [passwa11/CVE-2023-47218](https://github.com/passwa11/CVE-2023-47218)
-- [gogobuster/CVE-2023-47218-POC](https://github.com/gogobuster/CVE-2023-47218-POC)
 
 ### CVE-2023-47246 (2023-11-10)
 
@@ -8599,6 +8586,7 @@
 - [im-hanzou/fubucker](https://github.com/im-hanzou/fubucker)
 - [zycoder0day/CVE-2022-1386-Mass_Vulnerability](https://github.com/zycoder0day/CVE-2022-1386-Mass_Vulnerability)
 - [imhunterand/CVE-2022-1386](https://github.com/imhunterand/CVE-2022-1386)
+- [satyasai1460/CVE-2022-1386](https://github.com/satyasai1460/CVE-2022-1386)
 
 ### CVE-2022-1388 (2022-05-05)
 
