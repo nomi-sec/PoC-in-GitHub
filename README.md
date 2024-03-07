@@ -2463,6 +2463,13 @@
 - [hacksysteam/CVE-2023-21608](https://github.com/hacksysteam/CVE-2023-21608)
 - [Malwareman007/CVE-2023-21608](https://github.com/Malwareman007/CVE-2023-21608)
 
+### CVE-2023-21674 (2023-01-10)
+
+<code>Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability
+</code>
+
+- [hd3s5aa/CVE-2023-21674](https://github.com/hd3s5aa/CVE-2023-21674)
+
 ### CVE-2023-21707 (2023-02-14)
 
 <code>Microsoft Exchange Server Remote Code Execution Vulnerability
