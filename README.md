@@ -140,7 +140,6 @@
 
 - [W01fh4cker/ScreenConnect-AuthBypass-RCE](https://github.com/W01fh4cker/ScreenConnect-AuthBypass-RCE)
 - [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
-- [tr1pl3ight/POCv2.0-for-CVE-2024-1709](https://github.com/tr1pl3ight/POCv2.0-for-CVE-2024-1709)
 
 ### CVE-2024-2074 (-)
 
@@ -259,9 +258,9 @@
 </code>
 
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
-- [c0d3b3af/CVE-2024-21762-POC](https://github.com/c0d3b3af/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
-- [tr1pl3ight/CVE-2024-21762-POC](https://github.com/tr1pl3ight/CVE-2024-21762-POC)
+- [redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC)
+- [c0d3b3af/CVE-2024-21762-Exploit](https://github.com/c0d3b3af/CVE-2024-21762-Exploit)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -35570,6 +35569,7 @@
 </code>
 
 - [ropbear/CVE-2017-16651](https://github.com/ropbear/CVE-2017-16651)
+- [sephiroth950911/CVE-2017-16651-Exploit](https://github.com/sephiroth950911/CVE-2017-16651-Exploit)
 
 ### CVE-2017-16720 (2018-01-05)
 
@@ -38701,6 +38701,7 @@
 - [hadrian3689/rejetto_hfs_rce](https://github.com/hadrian3689/rejetto_hfs_rce)
 - [randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution](https://github.com/randallbanner/Rejetto-HTTP-File-Server-HFS-2.3.x---Remote-Command-Execution)
 - [0xTabun/CVE-2014-6287](https://github.com/0xTabun/CVE-2014-6287)
+- [zhsh9/CVE-2014-6287](https://github.com/zhsh9/CVE-2014-6287)
 
 ### CVE-2014-6332 (2014-11-11)
 
