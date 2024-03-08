@@ -194,6 +194,13 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
+### CVE-2024-21338 (2024-02-13)
+
+<code>Windows Kernel Elevation of Privilege Vulnerability
+</code>
+
+- [crackmapEZec/CVE-2024-21338-POC](https://github.com/crackmapEZec/CVE-2024-21338-POC)
+
 ### CVE-2024-21410 (2024-02-13)
 
 <code>Microsoft Exchange Server Elevation of Privilege Vulnerability
@@ -247,6 +254,7 @@
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
 - [redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC)
 - [c0d3b3af/CVE-2024-21762-Exploit](https://github.com/c0d3b3af/CVE-2024-21762-Exploit)
+- [RequestXss/CVE-2024-21762-Exploit-POC](https://github.com/RequestXss/CVE-2024-21762-Exploit-POC)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -539,7 +547,11 @@
 
 - [ELIZEUOPAIN/CVE-2024-24034](https://github.com/ELIZEUOPAIN/CVE-2024-24034)
 
-### CVE-2024-24035
+### CVE-2024-24035 (-)
+
+<code>Cross Site Scripting (XSS) vulnerability in Setor Informatica SIL 3.1 allows attackers to run arbitrary code via the hmessage parameter.
+</code>
+
 - [ELIZEUOPAIN/CVE-2024-24035](https://github.com/ELIZEUOPAIN/CVE-2024-24035)
 
 ### CVE-2024-24092
@@ -22059,7 +22071,7 @@
 - [thatonesecguy/zerologon-CVE-2020-1472](https://github.com/thatonesecguy/zerologon-CVE-2020-1472)
 - [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
 - [jiushill/CVE-2020-1472](https://github.com/jiushill/CVE-2020-1472)
-- [scv-m/zabbix-template-CVE-2020-1472](https://github.com/scv-m/zabbix-template-CVE-2020-1472)
+- [okay-scam/zabbix-template-CVE-2020-1472](https://github.com/okay-scam/zabbix-template-CVE-2020-1472)
 - [mstxq17/cve-2020-1472](https://github.com/mstxq17/cve-2020-1472)
 - [Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472)
 - [Fa1c0n35/SecuraBV-CVE-2020-1472](https://github.com/Fa1c0n35/SecuraBV-CVE-2020-1472)
