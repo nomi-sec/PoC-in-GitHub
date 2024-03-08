@@ -413,6 +413,13 @@
 
 - [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
 
+### CVE-2024-23113 (2024-02-15)
+
+<code>A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
+</code>
+
+- [cvedayprotech/CVE-2024-23113](https://github.com/cvedayprotech/CVE-2024-23113)
+
 ### CVE-2024-23208 (2024-01-22)
 
 <code>The issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.3, watchOS 10.3, tvOS 17.3, iOS 17.3 and iPadOS 17.3. An app may be able to execute arbitrary code with kernel privileges.
@@ -485,7 +492,7 @@
 
 ### CVE-2024-23746 (2024-02-01)
 
-<code>Miro Desktop 0.8.18 on macOS allows code injection via a complex series of steps that might be usable in some environments (bypass a kTCCServiceSystemPolicyAppBundles requirement via a file copy, an app.app/Contents rename, an asar modification, and a rename back to app.app/Contents).
+<code>Miro Desktop 0.8.18 on macOS allows local Electron code injection via a complex series of steps that might be usable in some environments (bypass a kTCCServiceSystemPolicyAppBundles requirement via a file copy, an app.app/Contents rename, an asar modification, and a rename back to app.app/Contents).
 </code>
 
 - [louiselalanne/CVE-2024-23746](https://github.com/louiselalanne/CVE-2024-23746)
@@ -877,6 +884,7 @@
 - [labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198)
 - [W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE)
 - [rampantspark/CVE-2024-27198](https://github.com/rampantspark/CVE-2024-27198)
+- [passwa11/CVE-2024-27198-RCE](https://github.com/passwa11/CVE-2024-27198-RCE)
 
 ### CVE-2024-27619
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
@@ -1421,6 +1429,7 @@
 </code>
 
 - [Phamchie/CVE-2023-3047](https://github.com/Phamchie/CVE-2023-3047)
+- [Kimsovannareth/Phamchie](https://github.com/Kimsovannareth/Phamchie)
 
 ### CVE-2023-3076 (2023-07-10)
 
@@ -1930,6 +1939,13 @@
 </code>
 
 - [pog007/CVE-2023-5561-PoC](https://github.com/pog007/CVE-2023-5561-PoC)
+
+### CVE-2023-5631 (2023-10-18)
+
+<code>\nRoundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stored XSS via an HTML e-mail message with a crafted SVG document because of program/lib/Roundcube/rcube_washtml.php behavior. This could allow a remote attacker\n\nto load arbitrary JavaScript code.\n\n\n\n\n\n\n\n
+</code>
+
+- [greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-](https://github.com/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-)
 
 ### CVE-2023-5717 (2023-10-25)
 
@@ -2456,6 +2472,13 @@
 </code>
 
 - [Trinadh465/platform_frameworks_base_CVE-2023-21288](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-21288)
+
+### CVE-2023-21529 (2023-02-14)
+
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
+</code>
+
+- [tr1pl3ight/CVE-2023-21529-POC](https://github.com/tr1pl3ight/CVE-2023-21529-POC)
 
 ### CVE-2023-21554 (2023-04-11)
 
@@ -6027,7 +6050,7 @@
 
 ### CVE-2023-40930 (2023-09-20)
 
-<code>Skyworth 3.0 OS is vulnerable to Directory Traversal.
+<code>An issue in the directory /system/bin/blkid of Skyworth v3.0 allows attackers to perform a directory traversal via mounting the Udisk to /mnt/.
 </code>
 
 - [NSnidie/CVE-2023-40930](https://github.com/NSnidie/CVE-2023-40930)
@@ -14486,7 +14509,7 @@
 
 ### CVE-2022-47872 (2023-02-01)
 
-<code>maccms10 2021.1000.2000 is vulnerable to Server-side request forgery (SSRF).
+<code>A Server-Side Request Forgery (SSRF) in maccms10 v2021.1000.2000 allows attackers to force the application to make arbitrary requests via a crafted payload injected into the Name parameter under the Interface address module.
 </code>
 
 - [Cedric1314/CVE-2022-47872](https://github.com/Cedric1314/CVE-2022-47872)
