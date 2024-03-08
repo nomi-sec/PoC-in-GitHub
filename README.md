@@ -194,13 +194,6 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
-### CVE-2024-21338 (2024-02-13)
-
-<code>Windows Kernel Elevation of Privilege Vulnerability
-</code>
-
-- [crackmapEZec/CVE-2024-21338-POC](https://github.com/crackmapEZec/CVE-2024-21338-POC)
-
 ### CVE-2024-21410 (2024-02-13)
 
 <code>Microsoft Exchange Server Elevation of Privilege Vulnerability
@@ -252,9 +245,7 @@
 
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
-- [redCode001/CVE-2024-21762-POC](https://github.com/redCode001/CVE-2024-21762-POC)
 - [c0d3b3af/CVE-2024-21762-Exploit](https://github.com/c0d3b3af/CVE-2024-21762-Exploit)
-- [RequestXss/CVE-2024-21762-Exploit-POC](https://github.com/RequestXss/CVE-2024-21762-Exploit-POC)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -487,7 +478,7 @@
 
 ### CVE-2024-23746 (2024-02-01)
 
-<code>Miro Desktop 0.8.18 on macOS allows Electron code injection.
+<code>Miro Desktop 0.8.18 on macOS allows code injection via a complex series of steps that might be usable in some environments (bypass a kTCCServiceSystemPolicyAppBundles requirement via a file copy, an app.app/Contents rename, an asar modification, and a rename back to app.app/Contents).
 </code>
 
 - [louiselalanne/CVE-2024-23746](https://github.com/louiselalanne/CVE-2024-23746)
@@ -879,13 +870,6 @@
 
 ### CVE-2024-27619
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
-
-### CVE-2024-28213 (-)
-
-<code>nGrinder before 3.5.9 allows to accept serialized Java objects from unauthenticated users, which could allow remote attacker to execute arbitrary code via unsafe Java objects deserialization.
-</code>
-
-- [0x1x02/CVE-2024-28213](https://github.com/0x1x02/CVE-2024-28213)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -7081,9 +7065,6 @@
 </code>
 
 - [sajaljat/CVE-2023-46451](https://github.com/sajaljat/CVE-2023-46451)
-
-### CVE-2023-46453
-- [0x1x02/GLiNet-Router-Auth-Bypass](https://github.com/0x1x02/GLiNet-Router-Auth-Bypass)
 
 ### CVE-2023-46454 (2023-12-12)
 
@@ -29595,6 +29576,13 @@
 </code>
 
 - [h4ckologic/CVE-2019-17221](https://github.com/h4ckologic/CVE-2019-17221)
+
+### CVE-2019-17225 (2019-10-06)
+
+<code>Subrion 4.2.1 allows XSS via the panel/members/ Username, Full Name, or Email field, aka an &quot;Admin Member JSON Update&quot; issue.
+</code>
+
+- [hacker625/CVE-2019-17225](https://github.com/hacker625/CVE-2019-17225)
 
 ### CVE-2019-17234 (2019-11-12)
 
