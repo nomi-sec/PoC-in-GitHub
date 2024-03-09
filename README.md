@@ -295,13 +295,6 @@
 
 - [oscerd/CVE-2024-22369](https://github.com/oscerd/CVE-2024-22369)
 
-### CVE-2024-22393 (2024-02-22)
-
-<code>Unrestricted Upload of File with Dangerous Type vulnerability in Apache Answer.This issue affects Apache Answer: through 1.2.1.\n\nPixel Flood Attack by uploading large pixel files will cause server out of memory. A logged-in user can cause such an attack by uploading an image when posting content.\nUsers are recommended to upgrade to version [1.2.5], which fixes the issue.\n\n
-</code>
-
-- [omranisecurity/CVE-2024-22393](https://github.com/omranisecurity/CVE-2024-22393)
-
 ### CVE-2024-22411 (2024-01-16)
 
 <code>Avo is a framework to create admin panels for Ruby on Rails apps. In Avo 3 pre12, any HTML inside text that is passed to `error` or `succeed` in an `Avo::BaseAction` subclass will be rendered directly without sanitization in the toast/notification that appears in the UI on Action completion. A malicious user could exploit this vulnerability to trigger a cross site scripting attack on an unsuspecting user. This issue has been addressed in the 3.3.0 and 2.47.0 releases of Avo. Users are advised to upgrade.
@@ -418,7 +411,6 @@
 <code>A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
 </code>
 
-- [cvedayprotech/CVE-2024-23113](https://github.com/cvedayprotech/CVE-2024-23113)
 - [tr1pl3ight/CVE-2024-23113-POC](https://github.com/tr1pl3ight/CVE-2024-23113-POC)
 
 ### CVE-2024-23208 (2024-01-22)
@@ -1407,6 +1399,13 @@
 
 - [CN016/DedeCMS-getshell-CVE-2023-2928-](https://github.com/CN016/DedeCMS-getshell-CVE-2023-2928-)
 
+### CVE-2023-2951 (2023-05-28)
+
+<code>Es wurde eine kritische Schwachstelle in code-projects Bus Dispatch and Information System 1.0 entdeckt. Es geht dabei um eine nicht klar definierte Funktion der Datei delete_bus.php. Durch die Manipulation des Arguments busid mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Spr1te76/CVE-2023-2951](https://github.com/Spr1te76/CVE-2023-2951)
+
 ### CVE-2023-2982 (2023-06-28)
 
 <code>The WordPress Social Login and Register (Discord, Google, Twitter, LinkedIn) plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 7.6.4. This is due to insufficient encryption on the user being supplied during a login validated through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they know the email address associated with that user. This was partially patched in version 7.6.4 and fully patched in version 7.6.5.
@@ -1566,6 +1565,14 @@
 </code>
 
 - [vpxuser/CVE-2023-3712-POC](https://github.com/vpxuser/CVE-2023-3712-POC)
+
+### CVE-2023-3824 (2023-08-11)
+
+<code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. \n\n
+</code>
+
+- [NewLockBit/CVE-2023-3824-PHP-to-RCE-National-Crime-AgencyLEAK](https://github.com/NewLockBit/CVE-2023-3824-PHP-to-RCE-National-Crime-AgencyLEAK)
+- [NewLockBit/Research-of-CVE-2023-3824-NCA-Lockbit](https://github.com/NewLockBit/Research-of-CVE-2023-3824-NCA-Lockbit)
 
 ### CVE-2023-3836 (2023-07-22)
 
