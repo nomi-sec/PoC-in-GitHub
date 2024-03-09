@@ -419,6 +419,7 @@
 </code>
 
 - [cvedayprotech/CVE-2024-23113](https://github.com/cvedayprotech/CVE-2024-23113)
+- [tr1pl3ight/CVE-2024-23113-POC](https://github.com/tr1pl3ight/CVE-2024-23113-POC)
 
 ### CVE-2024-23208 (2024-01-22)
 
@@ -885,6 +886,7 @@
 - [W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE)
 - [rampantspark/CVE-2024-27198](https://github.com/rampantspark/CVE-2024-27198)
 - [passwa11/CVE-2024-27198-RCE](https://github.com/passwa11/CVE-2024-27198-RCE)
+- [CharonDefalt/CVE-2024-27198-RCE](https://github.com/CharonDefalt/CVE-2024-27198-RCE)
 
 ### CVE-2024-27619
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
@@ -1116,6 +1118,13 @@
 - [padbergpete47/CVE-2023-1454](https://github.com/padbergpete47/CVE-2023-1454)
 - [Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln](https://github.com/Sweelg/CVE-2023-1454-Jeecg-Boot-qurestSql-SQLvuln)
 - [shad0w0sec/CVE-2023-1454-EXP](https://github.com/shad0w0sec/CVE-2023-1454-EXP)
+
+### CVE-2023-1498 (2023-03-19)
+
+<code>Es wurde eine kritische Schwachstelle in code-projects Responsive Hotel Site 1.0 entdeckt. Dabei betrifft es einen unbekannter Codeteil der Datei messages.php der Komponente Newsletter Log Handler. Durch Beeinflussen des Arguments title mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Decemberus/BugHub](https://github.com/Decemberus/BugHub)
 
 ### CVE-2023-1665 (2023-03-27)
 
@@ -7628,6 +7637,9 @@
 </code>
 
 - [brandon-t-elliott/CVE-2023-49438](https://github.com/brandon-t-elliott/CVE-2023-49438)
+
+### CVE-2023-49453
+- [nitipoom-jar/CVE-2023-49453](https://github.com/nitipoom-jar/CVE-2023-49453)
 
 ### CVE-2023-49471 (2024-01-10)
 
