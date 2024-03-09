@@ -7918,6 +7918,7 @@
 </code>
 
 - [greandfather/CVE-2023-50358-POC](https://github.com/greandfather/CVE-2023-50358-POC)
+- [greandfather/CVE-2023-50358-POC-RCE](https://github.com/greandfather/CVE-2023-50358-POC-RCE)
 
 ### CVE-2023-50386 (2024-02-09)
 
