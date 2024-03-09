@@ -412,6 +412,7 @@
 </code>
 
 - [tr1pl3ight/CVE-2024-23113-POC](https://github.com/tr1pl3ight/CVE-2024-23113-POC)
+- [cvedayprotech3s/cve-2024-23113](https://github.com/cvedayprotech3s/cve-2024-23113)
 
 ### CVE-2024-23208 (2024-01-22)
 
