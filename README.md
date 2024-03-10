@@ -411,7 +411,6 @@
 <code>A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
 </code>
 
-- [tr1pl3ight/CVE-2024-23113-POC](https://github.com/tr1pl3ight/CVE-2024-23113-POC)
 - [cvedayprotech3s/cve-2024-23113](https://github.com/cvedayprotech3s/cve-2024-23113)
 
 ### CVE-2024-23208 (2024-01-22)
@@ -534,7 +533,6 @@
 - [kaanatmacaa/CVE-2024-23897](https://github.com/kaanatmacaa/CVE-2024-23897)
 - [Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability](https://github.com/Praison001/CVE-2024-23897-Jenkins-Arbitrary-Read-File-Vulnerability)
 - [B4CK4TT4CK/CVE-2024-23897](https://github.com/B4CK4TT4CK/CVE-2024-23897)
-- [abdomagdy0/CVE-2024-23897-htb](https://github.com/abdomagdy0/CVE-2024-23897-htb)
 - [godylockz/CVE-2024-23897](https://github.com/godylockz/CVE-2024-23897)
 - [ifconfig-me/CVE-2024-23897](https://github.com/ifconfig-me/CVE-2024-23897)
 - [ThatNotEasy/CVE-2024-23897](https://github.com/ThatNotEasy/CVE-2024-23897)
@@ -880,6 +878,7 @@
 - [rampantspark/CVE-2024-27198](https://github.com/rampantspark/CVE-2024-27198)
 - [passwa11/CVE-2024-27198-RCE](https://github.com/passwa11/CVE-2024-27198-RCE)
 - [CharonDefalt/CVE-2024-27198-RCE](https://github.com/CharonDefalt/CVE-2024-27198-RCE)
+- [K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT)
 
 ### CVE-2024-27619
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
@@ -2489,13 +2488,6 @@
 </code>
 
 - [Trinadh465/platform_frameworks_base_CVE-2023-21288](https://github.com/Trinadh465/platform_frameworks_base_CVE-2023-21288)
-
-### CVE-2023-21529 (2023-02-14)
-
-<code>Microsoft Exchange Server Remote Code Execution Vulnerability
-</code>
-
-- [tr1pl3ight/CVE-2023-21529-POC](https://github.com/tr1pl3ight/CVE-2023-21529-POC)
 
 ### CVE-2023-21554 (2023-04-11)
 
@@ -31299,7 +31291,7 @@
 - [MohamedTarekq/test-CVE-2018-6574-](https://github.com/MohamedTarekq/test-CVE-2018-6574-)
 - [OLAOLAOLA789/CVE-2018-6574](https://github.com/OLAOLAOLA789/CVE-2018-6574)
 - [repos13579/labCVE-2018-6574](https://github.com/repos13579/labCVE-2018-6574)
-- [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
+- [sec000/cve-2018-6574](https://github.com/sec000/cve-2018-6574)
 - [jaya522/CVE-2018-6574-go-get-RCE](https://github.com/jaya522/CVE-2018-6574-go-get-RCE)
 - [noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574)
 - [ErnestZiemkowski/cve-2018-6574](https://github.com/ErnestZiemkowski/cve-2018-6574)
@@ -32250,7 +32242,6 @@
 - [Yealid/CVE-2018-11235-Git-Submodule-RCE](https://github.com/Yealid/CVE-2018-11235-Git-Submodule-RCE)
 - [j4k0m/CVE-2018-11235](https://github.com/j4k0m/CVE-2018-11235)
 - [twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration](https://github.com/twseptian/cve-2018-11235-git-submodule-ce-and-docker-ngrok-configuration)
-- [SenSecurity/exploit](https://github.com/SenSecurity/exploit)
 - [EmaVirgRep/CVE-2018-11235](https://github.com/EmaVirgRep/CVE-2018-11235)
 - [theerachaich/lab](https://github.com/theerachaich/lab)
 
