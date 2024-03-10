@@ -2014,6 +2014,13 @@
 
 - [pedrojosenavasperez/cve-2023-5966](https://github.com/pedrojosenavasperez/cve-2023-5966)
 
+### CVE-2023-6000 (2024-01-01)
+
+<code>The Popup Builder WordPress plugin before 4.2.3 does not prevent simple visitors from updating existing popups, and injecting raw JavaScript in them, which could lead to Stored XSS attacks.
+</code>
+
+- [rxerium/CVE-2023-6000](https://github.com/rxerium/CVE-2023-6000)
+
 ### CVE-2023-6036 (2024-02-12)
 
 <code>The Web3 WordPress plugin before 3.0.0 is vulnerable to an authentication bypass due to incorrect authentication checking in the login flow in functions 'handle_auth_request' and 'hadle_login_request'. This makes it possible for non authenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the username.
@@ -4503,13 +4510,6 @@
 </code>
 
 - [LOURC0D3/CVE-2023-32961](https://github.com/LOURC0D3/CVE-2023-32961)
-
-### CVE-2023-33137 (2023-06-13)
-
-<code>Microsoft Excel Remote Code Execution Vulnerability
-</code>
-
-- [JaqueMalman/CVE-2023-33137](https://github.com/JaqueMalman/CVE-2023-33137)
 
 ### CVE-2023-33242 (2023-08-09)
 
@@ -35618,6 +35618,13 @@
 
 - [sudosammy/CVE-2017-15394](https://github.com/sudosammy/CVE-2017-15394)
 
+### CVE-2017-15428 (2019-01-09)
+
+<code>Insufficient data validation in V8 builtins string generator could lead to out of bounds read and write access in V8 in Google Chrome prior to 62.0.3202.94 and allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page.
+</code>
+
+- [Michelangelo-S/CVE-2017-15428](https://github.com/Michelangelo-S/CVE-2017-15428)
+
 ### CVE-2017-15708 (2017-12-11)
 
 <code>In Apache Synapse, by default no authentication is required for Java Remote Method Invocation (RMI). So Apache Synapse 3.0.1 or all previous releases (3.0.0, 2.1.0, 2.0.0, 1.2, 1.1.2, 1.1.1) allows remote code execution attacks that can be performed by injecting specially crafted serialized objects. And the presence of Apache Commons Collections 3.2.1 (commons-collections-3.2.1.jar) or previous versions in Synapse distribution makes this exploitable. To mitigate the issue, we need to limit RMI access to trusted users only. Further upgrading to 3.0.1 version will eliminate the risk of having said Commons Collection version. In Synapse 3.0.1, Commons Collection has been updated to 3.2.2 version.
@@ -36184,7 +36191,6 @@
 </code>
 
 - [jpiechowka/jenkins-cve-2016-0792](https://github.com/jpiechowka/jenkins-cve-2016-0792)
-- [R0B1NL1N/java-deserialization-exploits](https://github.com/R0B1NL1N/java-deserialization-exploits)
 - [Aviksaikat/CVE-2016-0792](https://github.com/Aviksaikat/CVE-2016-0792)
 
 ### CVE-2016-0793 (2016-04-01)
