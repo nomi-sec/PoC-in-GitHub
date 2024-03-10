@@ -155,6 +155,13 @@
 
 - [BetterCzz/CVE-2024-20291-POC](https://github.com/BetterCzz/CVE-2024-20291-POC)
 
+### CVE-2024-20337 (-)
+
+<code>A vulnerability in the SAML authentication process of Cisco Secure Client could allow an unauthenticated, remote attacker to conduct a carriage return line feed (CRLF) injection attack against a user. \r\n\r This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by persuading a user to click a crafted link while establishing a VPN session. A successful exploit could allow the attacker to execute arbitrary script code in the browser or access sensitive, browser-based information, including a valid SAML token. The attacker could then use the token to establish a remote access VPN session with the privileges of the affected user. Individual hosts and services behind the VPN headend would still need additional credentials for successful access.
+</code>
+
+- [swagcraftedd/CVE-2024-20337-POC](https://github.com/swagcraftedd/CVE-2024-20337-POC)
+
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -942,6 +949,13 @@
 
 - [twwd/CVE-2023-0264](https://github.com/twwd/CVE-2023-0264)
 
+### CVE-2023-0266 (2023-01-30)
+
+<code>A use after free vulnerability exists in the ALSA PCM package in the Linux Kernel. SNDRV_CTL_IOCTL_ELEM_{READ|WRITE}32 is missing locks that can be used in a use-after-free that can result in a priviledge escalation to gain ring0 access from the system user. We recommend upgrading past commit 56b88b50565cd8b946a2d00b0c83927b7ebb055e\n
+</code>
+
+- [SeanHeelan/claude_opus_cve_2023_0266](https://github.com/SeanHeelan/claude_opus_cve_2023_0266)
+
 ### CVE-2023-0297 (2023-01-13)
 
 <code>Code Injection in GitHub repository pyload/pyload prior to 0.5.0b3.dev31.
@@ -1571,7 +1585,7 @@
 <code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. \n\n
 </code>
 
-- [NewLockBit/CVE-2023-3824-PHP-to-RCE-National-Crime-AgencyLEAK](https://github.com/NewLockBit/CVE-2023-3824-PHP-to-RCE-National-Crime-AgencyLEAK)
+- [NewLockBit/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/NewLockBit/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
 - [NewLockBit/Research-of-CVE-2023-3824-NCA-Lockbit](https://github.com/NewLockBit/Research-of-CVE-2023-3824-NCA-Lockbit)
 
 ### CVE-2023-3836 (2023-07-22)
