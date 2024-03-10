@@ -419,6 +419,8 @@
 </code>
 
 - [cvedayprotech3s/cve-2024-23113](https://github.com/cvedayprotech3s/cve-2024-23113)
+- [foxymoxxy/CVE-2024-23113-POC](https://github.com/foxymoxxy/CVE-2024-23113-POC)
+- [labesterOct/CVE-2024-23113](https://github.com/labesterOct/CVE-2024-23113)
 
 ### CVE-2024-23208 (2024-01-22)
 
