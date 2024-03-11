@@ -155,13 +155,6 @@
 
 - [BetterCzz/CVE-2024-20291-POC](https://github.com/BetterCzz/CVE-2024-20291-POC)
 
-### CVE-2024-20337 (-)
-
-<code>A vulnerability in the SAML authentication process of Cisco Secure Client could allow an unauthenticated, remote attacker to conduct a carriage return line feed (CRLF) injection attack against a user. \r\n\r This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by persuading a user to click a crafted link while establishing a VPN session. A successful exploit could allow the attacker to execute arbitrary script code in the browser or access sensitive, browser-based information, including a valid SAML token. The attacker could then use the token to establish a remote access VPN session with the privileges of the affected user. Individual hosts and services behind the VPN headend would still need additional credentials for successful access.
-</code>
-
-- [swagcraftedd/CVE-2024-20337-POC](https://github.com/swagcraftedd/CVE-2024-20337-POC)
-
 ### CVE-2024-20656 (2024-01-09)
 
 <code>Visual Studio Elevation of Privilege Vulnerability
@@ -192,7 +185,6 @@
 - [Leocodefocus/CVE-2024-20931-Poc](https://github.com/Leocodefocus/CVE-2024-20931-Poc)
 - [ATonysan/CVE-2024-20931_weblogic](https://github.com/ATonysan/CVE-2024-20931_weblogic)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
-- [labesterOct/CVE-2024-20931](https://github.com/labesterOct/CVE-2024-20931)
 
 ### CVE-2024-21305 (2024-01-09)
 
@@ -216,7 +208,6 @@
 - [duy-31/CVE-2024-21413](https://github.com/duy-31/CVE-2024-21413)
 - [xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [r00tb1t/CVE-2024-21413-POC](https://github.com/r00tb1t/CVE-2024-21413-POC)
-- [labesterOct/CVE-2024-21413](https://github.com/labesterOct/CVE-2024-21413)
 - [CMNatic/CVE-2024-21413](https://github.com/CMNatic/CVE-2024-21413)
 - [MSeymenD/CVE-2024-21413](https://github.com/MSeymenD/CVE-2024-21413)
 - [Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/Mdusmandasthaheer/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
@@ -253,6 +244,7 @@
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
 - [c0d3b3af/CVE-2024-21762-Exploit](https://github.com/c0d3b3af/CVE-2024-21762-Exploit)
+- [t4ril/CVE-2024-21762-PoC](https://github.com/t4ril/CVE-2024-21762-PoC)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -283,7 +275,6 @@
 </code>
 
 - [0dteam/CVE-2024-22024](https://github.com/0dteam/CVE-2024-22024)
-- [labesterOct/CVE-2024-22024](https://github.com/labesterOct/CVE-2024-22024)
 
 ### CVE-2024-22145
 - [RandomRobbieBF/CVE-2024-22145](https://github.com/RandomRobbieBF/CVE-2024-22145)
@@ -340,13 +331,6 @@
 
 ### CVE-2024-22534
 - [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
-
-### CVE-2024-22567 (2024-02-05)
-
-<code>File Upload vulnerability in MCMS 5.3.5 allows attackers to upload arbitrary files via crafted POST request to /ms/file/upload.do.
-</code>
-
-- [labesterOct/CVE-2024-22567](https://github.com/labesterOct/CVE-2024-22567)
 
 ### CVE-2024-22752 (-)
 
@@ -419,8 +403,6 @@
 </code>
 
 - [cvedayprotech3s/cve-2024-23113](https://github.com/cvedayprotech3s/cve-2024-23113)
-- [foxymoxxy/CVE-2024-23113-POC](https://github.com/foxymoxxy/CVE-2024-23113-POC)
-- [labesterOct/CVE-2024-23113](https://github.com/labesterOct/CVE-2024-23113)
 
 ### CVE-2024-23208 (2024-01-22)
 
@@ -885,7 +867,6 @@
 
 - [Chocapikk/CVE-2024-27198](https://github.com/Chocapikk/CVE-2024-27198)
 - [yoryio/CVE-2024-27198](https://github.com/yoryio/CVE-2024-27198)
-- [labesterOct/CVE-2024-27198](https://github.com/labesterOct/CVE-2024-27198)
 - [W01fh4cker/CVE-2024-27198-RCE](https://github.com/W01fh4cker/CVE-2024-27198-RCE)
 - [rampantspark/CVE-2024-27198](https://github.com/rampantspark/CVE-2024-27198)
 - [passwa11/CVE-2024-27198-RCE](https://github.com/passwa11/CVE-2024-27198-RCE)
@@ -894,6 +875,12 @@
 
 ### CVE-2024-27619
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
+
+### CVE-2024-27665
+- [Thirukrishnan/CVE-2024-27665](https://github.com/Thirukrishnan/CVE-2024-27665)
+
+### CVE-2024-27697
+- [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -1974,13 +1961,6 @@
 </code>
 
 - [pog007/CVE-2023-5561-PoC](https://github.com/pog007/CVE-2023-5561-PoC)
-
-### CVE-2023-5631 (2023-10-18)
-
-<code>\nRoundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stored XSS via an HTML e-mail message with a crafted SVG document because of program/lib/Roundcube/rcube_washtml.php behavior. This could allow a remote attacker\n\nto load arbitrary JavaScript code.\n\n\n\n\n\n\n\n
-</code>
-
-- [greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-](https://github.com/greandfather/EXPLOIT-Roundcube-vulnerability-POC-CVE-2023-5631-)
 
 ### CVE-2023-5717 (2023-10-25)
 
@@ -7943,14 +7923,6 @@
 
 - [febinrev/deepin-linux_reader_RCE-exploit](https://github.com/febinrev/deepin-linux_reader_RCE-exploit)
 
-### CVE-2023-50358 (2024-02-12)
-
-<code>An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.5.2645 build 20240116 and later\nQTS 4.5.4.2627 build 20231225 and later\nQTS 4.3.6.2665 build 20240131 and later\nQTS 4.3.4.2675 build 20240131 and later\nQTS 4.3.3.2644 build 20240131 and later\nQTS 4.2.6 build 20240131 and later\nQuTS hero h5.1.5.2647 build 20240118 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\nQuTScloud c5.1.5.2651 and later\n
-</code>
-
-- [greandfather/CVE-2023-50358-POC](https://github.com/greandfather/CVE-2023-50358-POC)
-- [greandfather/CVE-2023-50358-POC-RCE](https://github.com/greandfather/CVE-2023-50358-POC-RCE)
-
 ### CVE-2023-50386 (2024-02-09)
 
 <code>Improper Control of Dynamically-Managed Code Resources, Unrestricted Upload of File with Dangerous Type, Inclusion of Functionality from Untrusted Control Sphere vulnerability in Apache Solr.This issue affects Apache Solr: from 6.0.0 through 8.11.2, from 9.0.0 before 9.4.1.\n\nIn the affected versions, Solr ConfigSets accepted Java jar and class files to be uploaded through the ConfigSets API.\nWhen backing up Solr Collections, these configSet files would be saved to disk when using the LocalFileSystemRepository (the default for backups).\nIf the backup was saved to a directory that Solr uses in its ClassPath/ClassLoaders, then the jar and class files would be available to use with any ConfigSet, trusted or untrusted.\n\nWhen Solr is run in a secure way (Authorization enabled), as is strongly suggested, this vulnerability is limited to extending the Backup permissions with the ability to add libraries.\nUsers are recommended to upgrade to version 8.11.3 or 9.4.1, which fix the issue.\nIn these versions, the following protections have been added:\n\n  *  Users are no longer able to upload files to a configSet that could be executed via a Java ClassLoader.\n  *  The Backup API restricts saving backups to directories that are used in the ClassLoader.\n\n
@@ -10950,7 +10922,7 @@
 - [hev0x/CVE-2022-26134](https://github.com/hev0x/CVE-2022-26134)
 - [archanchoudhury/Confluence-CVE-2022-26134](https://github.com/archanchoudhury/Confluence-CVE-2022-26134)
 - [SIFalcon/confluencePot](https://github.com/SIFalcon/confluencePot)
-- [PsykoDev/CVE-2022-26134](https://github.com/PsykoDev/CVE-2022-26134)
+- [CatAnnaDev/CVE-2022-26134](https://github.com/CatAnnaDev/CVE-2022-26134)
 - [vesperp/CVE-2022-26134-Confluence](https://github.com/vesperp/CVE-2022-26134-Confluence)
 - [li8u99/CVE-2022-26134](https://github.com/li8u99/CVE-2022-26134)
 - [reubensammut/cve-2022-26134](https://github.com/reubensammut/cve-2022-26134)
