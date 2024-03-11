@@ -863,6 +863,9 @@
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
 
+### CVE-2024-26475
+- [TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475)
+
 ### CVE-2024-26521
 - [hackervegas001/CVE-2024-26521](https://github.com/hackervegas001/CVE-2024-26521)
 
@@ -22110,7 +22113,6 @@
 - [bb00/zer0dump](https://github.com/bb00/zer0dump)
 - [0xkami/CVE-2020-1472](https://github.com/0xkami/CVE-2020-1472)
 - [NAXG/CVE-2020-1472](https://github.com/NAXG/CVE-2020-1472)
-- [R0B1NL1N/CVE-2020-1472](https://github.com/R0B1NL1N/CVE-2020-1472)
 - [thatonesecguy/zerologon-CVE-2020-1472](https://github.com/thatonesecguy/zerologon-CVE-2020-1472)
 - [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
 - [jiushill/CVE-2020-1472](https://github.com/jiushill/CVE-2020-1472)
@@ -30665,7 +30667,6 @@
 - [Shadowshusky/CVE-2018-2628all](https://github.com/Shadowshusky/CVE-2018-2628all)
 - [shaoshore/CVE-2018-2628](https://github.com/shaoshore/CVE-2018-2628)
 - [tdy218/ysoserial-cve-2018-2628](https://github.com/tdy218/ysoserial-cve-2018-2628)
-- [R0B1NL1N/CVE-2018-2628](https://github.com/R0B1NL1N/CVE-2018-2628)
 - [wrysunny/cve-2018-2628](https://github.com/wrysunny/cve-2018-2628)
 - [jas502n/CVE-2018-2628](https://github.com/jas502n/CVE-2018-2628)
 - [stevenlinfeng/CVE-2018-2628](https://github.com/stevenlinfeng/CVE-2018-2628)
@@ -35132,7 +35133,6 @@
 - [peterpeter228/Oracle-WebLogic-CVE-2017-10271](https://github.com/peterpeter228/Oracle-WebLogic-CVE-2017-10271)
 - [Cymmetria/weblogic_honeypot](https://github.com/Cymmetria/weblogic_honeypot)
 - [JackyTsuuuy/weblogic_wls_rce_poc-exp](https://github.com/JackyTsuuuy/weblogic_wls_rce_poc-exp)
-- [R0B1NL1N/Oracle-WebLogic-WLS-WSAT](https://github.com/R0B1NL1N/Oracle-WebLogic-WLS-WSAT)
 - [lonehand/Oracle-WebLogic-CVE-2017-10271-master](https://github.com/lonehand/Oracle-WebLogic-CVE-2017-10271-master)
 - [shack2/javaserializetools](https://github.com/shack2/javaserializetools)
 - [ETOCheney/JavaDeserialization](https://github.com/ETOCheney/JavaDeserialization)
