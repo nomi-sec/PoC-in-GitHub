@@ -244,7 +244,8 @@
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
 - [c0d3b3af/CVE-2024-21762-Exploit](https://github.com/c0d3b3af/CVE-2024-21762-Exploit)
-- [t4ril/CVE-2024-21762-PoC](https://github.com/t4ril/CVE-2024-21762-PoC)
+- [c0d3b3af/CVE-2024-21762-RCE-exploit](https://github.com/c0d3b3af/CVE-2024-21762-RCE-exploit)
+- [cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -396,13 +397,6 @@
 </code>
 
 - [keru6k/CVE-2024-22983](https://github.com/keru6k/CVE-2024-22983)
-
-### CVE-2024-23113 (2024-02-15)
-
-<code>A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
-</code>
-
-- [cvedayprotech3s/cve-2024-23113](https://github.com/cvedayprotech3s/cve-2024-23113)
 
 ### CVE-2024-23208 (2024-01-22)
 
@@ -5362,7 +5356,6 @@
 </code>
 
 - [Chocapikk/CVE-2023-36846](https://github.com/Chocapikk/CVE-2023-36846)
-- [Dreamy-elfland/CVE-2023-36846](https://github.com/Dreamy-elfland/CVE-2023-36846)
 
 ### CVE-2023-36874 (2023-07-11)
 
