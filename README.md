@@ -882,6 +882,9 @@
 
 - [c0d3b3af/CVE-2024-28222-NetBackup-RCE-exploit](https://github.com/c0d3b3af/CVE-2024-28222-NetBackup-RCE-exploit)
 
+### CVE-2024-28741
+- [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -14593,6 +14596,9 @@
 
 - [sapellaniz/CVE-2022-48474_CVE-2022-48475](https://github.com/sapellaniz/CVE-2022-48474_CVE-2022-48475)
 
+### CVE-2022-201145
+- [hienkiet/CVE-2022-201145-12.2.1.3.0-Weblogic](https://github.com/hienkiet/CVE-2022-201145-12.2.1.3.0-Weblogic)
+
 
 ## 2021
 ### CVE-2021-0302 (2021-02-10)
@@ -25593,6 +25599,13 @@
 - [Schira4396/CVE-2020-25540](https://github.com/Schira4396/CVE-2020-25540)
 - [Rajchowdhury420/ThinkAdmin-CVE-2020-25540](https://github.com/Rajchowdhury420/ThinkAdmin-CVE-2020-25540)
 - [lowkey0808/cve-2020-25540](https://github.com/lowkey0808/cve-2020-25540)
+
+### CVE-2020-25578 (2021-03-26)
+
+<code>In FreeBSD 12.2-STABLE before r368969, 11.4-STABLE before r369047, 12.2-RELEASE before p3, 12.1-RELEASE before p13 and 11.4-RELEASE before p7 several file systems were not properly initializing the d_off field of the dirent structures returned by VOP_READDIR. In particular, tmpfs(5), smbfs(5), autofs(5) and mqueuefs(5) were failing to do so. As a result, eight uninitialized kernel stack bytes may be leaked to userspace by these file systems.
+</code>
+
+- [farazsth98/freebsd-dirent-info-leak-bugs](https://github.com/farazsth98/freebsd-dirent-info-leak-bugs)
 
 ### CVE-2020-25613 (2020-10-06)
 
