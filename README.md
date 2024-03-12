@@ -176,6 +176,13 @@
 
 - [nnotwen/Script-For-CVE-2024-20666](https://github.com/nnotwen/Script-For-CVE-2024-20666)
 
+### CVE-2024-20696 (2024-01-09)
+
+<code>Windows Libarchive Remote Code Execution Vulnerability
+</code>
+
+- [clearbluejar/CVE-2024-20696](https://github.com/clearbluejar/CVE-2024-20696)
+
 ### CVE-2024-20698 (2024-01-09)
 
 <code>Windows Kernel Elevation of Privilege Vulnerability
@@ -199,6 +206,14 @@
 </code>
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
+
+### CVE-2024-21378 (2024-02-13)
+
+<code>Microsoft Outlook Remote Code Execution Vulnerability
+</code>
+
+- [d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378)
+- [JohnHormond/CVE-2024-21378](https://github.com/JohnHormond/CVE-2024-21378)
 
 ### CVE-2024-21410 (2024-02-13)
 
@@ -251,6 +266,7 @@
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
 - [cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker)
+- [JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK](https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -274,6 +290,13 @@
 
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
+
+### CVE-2024-21899 (-)
+
+<code>An improper authentication vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to compromise the security of the system via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.3.2578 build 20231110 and later\nQTS 4.5.4.2627 build 20231225 and later\nQuTS hero h5.1.3.2578 build 20231110 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\nQuTScloud c5.1.5.2651 and later\n
+</code>
+
+- [JohnHormond/CVE-2024-21899-RCE-exploit](https://github.com/JohnHormond/CVE-2024-21899-RCE-exploit)
 
 ### CVE-2024-22024 (2024-02-12)
 
@@ -6357,6 +6380,9 @@
 </code>
 
 - [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
+
+### CVE-2023-42789
+- [CrimBit/CVE-2023-42789-POC](https://github.com/CrimBit/CVE-2023-42789-POC)
 
 ### CVE-2023-42793 (2023-09-19)
 
@@ -29189,6 +29215,13 @@
 
 - [HE-Wenjian/iGPU-Leak](https://github.com/HE-Wenjian/iGPU-Leak)
 
+### CVE-2019-14678 (2019-11-14)
+
+<code>SAS XML Mapper 9.45 has an XML External Entity (XXE) vulnerability that can be leveraged by malicious attackers in multiple ways. Examples are Local File Reading, Out Of Band File Exfiltration, Server Side Request Forgery, and/or Potential Denial of Service attacks. This vulnerability also affects the XMLV2 LIBNAME engine when the AUTOMAP option is used.
+</code>
+
+- [mbadanoiu/CVE-2019-14678](https://github.com/mbadanoiu/CVE-2019-14678)
+
 ### CVE-2019-14745 (2019-08-07)
 
 <code>In radare2 before 3.7.0, a command injection vulnerability exists in bin_symbols() in libr/core/cbin.c. By using a crafted executable file, it's possible to execute arbitrary shell commands with the permissions of the victim. This vulnerability is due to improper handling of symbol names embedded in executables.
@@ -35586,7 +35619,6 @@
 
 - [lva/Infineon-CVE-2017-15361](https://github.com/lva/Infineon-CVE-2017-15361)
 - [titanous/rocacheck](https://github.com/titanous/rocacheck)
-- [jnpuskar/RocaCmTest](https://github.com/jnpuskar/RocaCmTest)
 - [nsacyber/Detect-CVE-2017-15361-TPM](https://github.com/nsacyber/Detect-CVE-2017-15361-TPM)
 - [0xxon/zeek-plugin-roca](https://github.com/0xxon/zeek-plugin-roca)
 - [0xxon/roca](https://github.com/0xxon/roca)
