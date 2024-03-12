@@ -46,6 +46,13 @@
 
 - [Valentin-Metz/writeup_split](https://github.com/Valentin-Metz/writeup_split)
 
+### CVE-2024-0713 (2024-01-19)
+
+<code>In Monitorr 1.7.6m wurde eine kritische Schwachstelle ausgemacht. Hierbei betrifft es unbekannten Programmcode der Datei /assets/php/upload.php der Komponente Services Configuration. Mit der Manipulation des Arguments fileToUpload mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [kitodd/CVE-2024-0713](https://github.com/kitodd/CVE-2024-0713)
+
 ### CVE-2024-0783 (2024-01-22)
 
 <code>Eine kritische Schwachstelle wurde in Project Worlds Online Admission System 1.0 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei documents.php. Durch Manipulieren mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -243,7 +250,6 @@
 
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
-- [c0d3b3af/CVE-2024-21762-RCE-exploit](https://github.com/c0d3b3af/CVE-2024-21762-RCE-exploit)
 - [cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker)
 
 ### CVE-2024-21887 (2024-01-12)
@@ -874,13 +880,6 @@
 
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
-
-### CVE-2024-28222 (-)
-
-<code>In Veritas NetBackup before 8.1.2 and NetBackup Appliance before 3.1.2, the BPCD process inadequately validates the file path, allowing an unauthenticated attacker to upload and execute a custom file.
-</code>
-
-- [c0d3b3af/CVE-2024-28222-NetBackup-RCE-exploit](https://github.com/c0d3b3af/CVE-2024-28222-NetBackup-RCE-exploit)
 
 ### CVE-2024-28741
 - [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
@@ -2975,6 +2974,7 @@
 - [TindalyTn/CVE-2023-23752](https://github.com/TindalyTn/CVE-2023-23752)
 - [shellvik/CVE-2023-23752](https://github.com/shellvik/CVE-2023-23752)
 - [Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752)
+- [JohnDoeAnonITA/CVE-2023-23752](https://github.com/JohnDoeAnonITA/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -8787,7 +8787,7 @@
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
-- [w4r3s/cve-2022-1609-exploit](https://github.com/w4r3s/cve-2022-1609-exploit)
+- [tuxsyscall/cve-2022-1609-exploit](https://github.com/tuxsyscall/cve-2022-1609-exploit)
 
 ### CVE-2022-1679 (2022-05-16)
 
@@ -18283,7 +18283,6 @@
 - [cyb3rpeace/CVE-2021-34527](https://github.com/cyb3rpeace/CVE-2021-34527)
 - [m8sec/CVE-2021-34527](https://github.com/m8sec/CVE-2021-34527)
 - [hackerhouse-opensource/cve-2021-34527](https://github.com/hackerhouse-opensource/cve-2021-34527)
-- [fardinbarashi/PsFix-CVE-2021-34527](https://github.com/fardinbarashi/PsFix-CVE-2021-34527)
 - [d0rb/CVE-2021-34527](https://github.com/d0rb/CVE-2021-34527)
 - [TieuLong21Prosper/detect_bruteforce](https://github.com/TieuLong21Prosper/detect_bruteforce)
 
