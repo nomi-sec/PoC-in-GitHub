@@ -200,6 +200,9 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
+### CVE-2024-21334
+- [bigbozzez/CVE-2024-21334-POC](https://github.com/bigbozzez/CVE-2024-21334-POC)
+
 ### CVE-2024-21378 (2024-02-13)
 
 <code>Microsoft Outlook Remote Code Execution Vulnerability
@@ -207,12 +210,18 @@
 
 - [d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378)
 
+### CVE-2024-21400
+- [MegaCorp001/CVE-2024-21400-POC](https://github.com/MegaCorp001/CVE-2024-21400-POC)
+
 ### CVE-2024-21410 (2024-02-13)
 
 <code>Microsoft Exchange Server Elevation of Privilege Vulnerability
 </code>
 
 - [FreakyM0ndy/CVE-2024-21410-poc](https://github.com/FreakyM0ndy/CVE-2024-21410-poc)
+
+### CVE-2024-21411
+- [rkraper339/CVE-2024-21411-POC](https://github.com/rkraper339/CVE-2024-21411-POC)
 
 ### CVE-2024-21413 (2024-02-13)
 
@@ -751,6 +760,9 @@
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
 
+### CVE-2024-25153
+- [nettitude/CVE-2024-25153](https://github.com/nettitude/CVE-2024-25153)
+
 ### CVE-2024-25169 (-)
 
 <code>An issue in Mezzanine v6.0.0 allows attackers to bypass access control mechanisms in the admin panel via a crafted request.
@@ -851,6 +863,9 @@
 </code>
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
+
+### CVE-2024-26198
+- [MrCyberSec/CVE-2024-26198-Exchange-RCE](https://github.com/MrCyberSec/CVE-2024-26198-Exchange-RCE)
 
 ### CVE-2024-26475
 - [TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475)
@@ -7510,6 +7525,9 @@
 
 ### CVE-2023-48777
 - [AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777](https://github.com/AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777)
+
+### CVE-2023-48788
+- [CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj](https://github.com/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj)
 
 ### CVE-2023-48842 (2023-12-01)
 
