@@ -258,6 +258,7 @@
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
 - [cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker)
+- [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -1717,7 +1718,6 @@
 </code>
 
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
-- [AlabamicHero/caldera_sandcat-usecase](https://github.com/AlabamicHero/caldera_sandcat-usecase)
 
 ### CVE-2023-4631 (2023-09-25)
 
@@ -8078,7 +8078,6 @@
 - [Le1a/CVE-2023-51385](https://github.com/Le1a/CVE-2023-51385)
 - [zls1793/CVE-2023-51385_test](https://github.com/zls1793/CVE-2023-51385_test)
 - [WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test)
-- [zhulin2/testCVE-2023-51385](https://github.com/zhulin2/testCVE-2023-51385)
 - [N0rther/CVE-2023-51385_TT](https://github.com/N0rther/CVE-2023-51385_TT)
 - [power1314520/CVE-2023-51385_test](https://github.com/power1314520/CVE-2023-51385_test)
 - [WOOOOONG/CVE-2023-51385](https://github.com/WOOOOONG/CVE-2023-51385)
@@ -33954,6 +33953,7 @@
 <code>A information disclosure vulnerability in the Android system (bluetooth). Product: Android. Versions: 4.4.4, 5.0.2, 5.1.1, 6.0, 6.0.1, 7.0, 7.1.1, 7.1.2, 8.0. Android ID: A-63146698.
 </code>
 
+- [ojasookert/CVE-2017-0785](https://github.com/ojasookert/CVE-2017-0785)
 - [aymankhalfatni/CVE-2017-0785](https://github.com/aymankhalfatni/CVE-2017-0785)
 - [Alfa100001/-CVE-2017-0785-BlueBorne-PoC](https://github.com/Alfa100001/-CVE-2017-0785-BlueBorne-PoC)
 - [Hackerscript/BlueBorne-CVE-2017-0785](https://github.com/Hackerscript/BlueBorne-CVE-2017-0785)
