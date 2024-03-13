@@ -25,13 +25,6 @@
 
 - [ch4nui/CVE-2024-0402-RCE](https://github.com/ch4nui/CVE-2024-0402-RCE)
 
-### CVE-2024-0519 (2024-01-16)
-
-<code>Out of bounds memory access in V8 in Google Chrome prior to 120.0.6099.224 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)
-</code>
-
-- [JohnHormond/CVE-2024-0519-Chrome-exploit](https://github.com/JohnHormond/CVE-2024-0519-Chrome-exploit)
-
 ### CVE-2024-0679 (2024-01-20)
 
 <code>The ColorMag theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the plugin_action_callback() function in all versions up to, and including, 3.1.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to install and activate arbitrary plugins.
@@ -213,7 +206,6 @@
 </code>
 
 - [d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378)
-- [JohnHormond/CVE-2024-21378](https://github.com/JohnHormond/CVE-2024-21378)
 
 ### CVE-2024-21410 (2024-02-13)
 
@@ -266,7 +258,6 @@
 - [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
 - [cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker)
-- [JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK](https://github.com/JohnHormond/CVE-2024-21762-Fortinet-RCE-WORK)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -290,13 +281,6 @@
 
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
-
-### CVE-2024-21899 (-)
-
-<code>An improper authentication vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow users to compromise the security of the system via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.3.2578 build 20231110 and later\nQTS 4.5.4.2627 build 20231225 and later\nQuTS hero h5.1.3.2578 build 20231110 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\nQuTScloud c5.1.5.2651 and later\n
-</code>
-
-- [JohnHormond/CVE-2024-21899-RCE-exploit](https://github.com/JohnHormond/CVE-2024-21899-RCE-exploit)
 
 ### CVE-2024-22024 (2024-02-12)
 
@@ -903,6 +887,9 @@
 
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
+
+### CVE-2024-28715
+- [Lq0ne/CVE-2024-28715](https://github.com/Lq0ne/CVE-2024-28715)
 
 ### CVE-2024-28741
 - [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
@@ -1730,6 +1717,7 @@
 </code>
 
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
+- [AlabamicHero/caldera_sandcat-usecase](https://github.com/AlabamicHero/caldera_sandcat-usecase)
 
 ### CVE-2023-4631 (2023-09-25)
 
