@@ -200,9 +200,6 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
-### CVE-2024-21334
-- [bigbozzez/CVE-2024-21334-POC](https://github.com/bigbozzez/CVE-2024-21334-POC)
-
 ### CVE-2024-21378 (2024-02-13)
 
 <code>Microsoft Outlook Remote Code Execution Vulnerability
@@ -210,18 +207,12 @@
 
 - [d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378)
 
-### CVE-2024-21400
-- [MegaCorp001/CVE-2024-21400-POC](https://github.com/MegaCorp001/CVE-2024-21400-POC)
-
 ### CVE-2024-21410 (2024-02-13)
 
 <code>Microsoft Exchange Server Elevation of Privilege Vulnerability
 </code>
 
 - [FreakyM0ndy/CVE-2024-21410-poc](https://github.com/FreakyM0ndy/CVE-2024-21410-poc)
-
-### CVE-2024-21411
-- [rkraper339/CVE-2024-21411-POC](https://github.com/rkraper339/CVE-2024-21411-POC)
 
 ### CVE-2024-21413 (2024-02-13)
 
@@ -869,9 +860,6 @@
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
 
-### CVE-2024-26198
-- [MrCyberSec/CVE-2024-26198-Exchange-RCE](https://github.com/MrCyberSec/CVE-2024-26198-Exchange-RCE)
-
 ### CVE-2024-26475
 - [TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475)
 
@@ -908,6 +896,13 @@
 
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
+
+### CVE-2024-28088 (-)
+
+<code>LangChain through 0.1.10 allows ../ directory traversal by an actor who is able to control the final part of the path parameter in a load_chain call. This bypasses the intended behavior of loading configurations only from the hwchase17/langchain-hub GitHub repository. The outcome can be disclosure of an API key for a large language model online service, or remote code execution.
+</code>
+
+- [levpachmanov/cve-2024-28088-poc](https://github.com/levpachmanov/cve-2024-28088-poc)
 
 ### CVE-2024-28715
 - [Lq0ne/CVE-2024-28715](https://github.com/Lq0ne/CVE-2024-28715)
@@ -7539,9 +7534,6 @@
 ### CVE-2023-48777
 - [AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777](https://github.com/AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777)
 
-### CVE-2023-48788
-- [CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj](https://github.com/CVETechnologic/CVE-2023-48788-Proof-of-concept-SQLinj)
-
 ### CVE-2023-48842 (2023-12-01)
 
 <code>D-Link Go-RT-AC750 revA_v101b03 was discovered to contain a command injection vulnerability via the service parameter at hedwig.cgi.
@@ -9769,7 +9761,7 @@
 
 - [kmeps4/CVE-2022-22620](https://github.com/kmeps4/CVE-2022-22620)
 - [springsec/CVE-2022-22620](https://github.com/springsec/CVE-2022-22620)
-- [dkjiayu/dkjiayu.github.io](https://github.com/dkjiayu/dkjiayu.github.io)
+- [bb33bb/dkjiayu.github.io](https://github.com/bb33bb/dkjiayu.github.io)
 
 ### CVE-2022-22629 (2022-09-23)
 
@@ -15531,7 +15523,6 @@
 - [q77190858/CVE-2021-3156](https://github.com/q77190858/CVE-2021-3156)
 - [arvindshima/CVE-2021-3156](https://github.com/arvindshima/CVE-2021-3156)
 - [Mhackiori/CVE-2021-3156](https://github.com/Mhackiori/CVE-2021-3156)
-- [baka9moe/CVE-2021-3156-TestReport](https://github.com/baka9moe/CVE-2021-3156-TestReport)
 - [PhuketIsland/CVE-2021-3156-centos7](https://github.com/PhuketIsland/CVE-2021-3156-centos7)
 - [0x4ndy/clif](https://github.com/0x4ndy/clif)
 - [meowhua15/CVE-2021-3156](https://github.com/meowhua15/CVE-2021-3156)
@@ -23059,6 +23050,7 @@
 - [Udyz/CVE-2020-7961-Mass](https://github.com/Udyz/CVE-2020-7961-Mass)
 - [ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961)
 - [pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass)
+- [manrop2702/CVE-2020-7961](https://github.com/manrop2702/CVE-2020-7961)
 
 ### CVE-2020-7980 (2020-01-25)
 
