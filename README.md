@@ -60,13 +60,6 @@
 
 - [0x9567b/CVE-2024-0844](https://github.com/0x9567b/CVE-2024-0844)
 
-### CVE-2024-0967 (-)
-
-<code>A potential vulnerability has been identified in OpenText / Micro Focus ArcSight Enterprise Security Manager (ESM). The vulnerability could be remotely exploited.
-</code>
-
-- [Oxdestiny/CVE-2024-0967-exploit](https://github.com/Oxdestiny/CVE-2024-0967-exploit)
-
 ### CVE-2024-1071
 - [gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071)
 - [Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker)
@@ -141,12 +134,22 @@
 - [W01fh4cker/ScreenConnect-AuthBypass-RCE](https://github.com/W01fh4cker/ScreenConnect-AuthBypass-RCE)
 - [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
 
+### CVE-2024-1781 (2024-02-22)
+
+<code>Eine Schwachstelle wurde in Totolink X6000R AX3000 9.4.0cu.852_20230719 ausgemacht. Sie wurde als kritisch eingestuft. Betroffen davon ist die Funktion setWizardCfg der Datei /cgi-bin/cstecgi.cgi der Komponente shttpd. Dank der Manipulation mit unbekannten Daten kann eine command injection-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [Icycu123/CVE-2024-1781](https://github.com/Icycu123/CVE-2024-1781)
+
 ### CVE-2024-2074 (-)
 
 <code>Eine kritische Schwachstelle wurde in Mini-Tmall bis 20231017 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei ?r=tmall/admin/user/1/1. Mit der Manipulation des Arguments orderBy mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
 
 - [yuziiiiiiiiii/CVE-2024-2074](https://github.com/yuziiiiiiiiii/CVE-2024-2074)
+
+### CVE-2024-2432
+- [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
 ### CVE-2024-20291 (-)
 
@@ -37128,7 +37131,7 @@
 <code>The register method in the UsersModelRegistration class in controllers/user.php in the Users component in Joomla! before 3.6.4 allows remote attackers to gain privileges by leveraging incorrect use of unfiltered data when registering on a site.
 </code>
 
-- [sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/sunsunza2009/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870)
+- [zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870](https://github.com/zugetor/Joomla-3.4.4-3.6.4_CVE-2016-8869_and_CVE-2016-8870)
 - [rustyJ4ck/JoomlaCVE20168869](https://github.com/rustyJ4ck/JoomlaCVE20168869)
 - [cved-sources/cve-2016-8869](https://github.com/cved-sources/cve-2016-8869)
 
