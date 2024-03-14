@@ -268,6 +268,7 @@
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
 - [cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker)
 - [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
+- [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -783,6 +784,10 @@
 </code>
 
 - [Agampreet-Singh/CVE-2024-25202](https://github.com/Agampreet-Singh/CVE-2024-25202)
+
+### CVE-2024-25227
+- [thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227)
+- [thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227)
 
 ### CVE-2024-25249 (2024-02-21)
 
@@ -18838,6 +18843,7 @@
 - [abousteif/cve-2021-38647](https://github.com/abousteif/cve-2021-38647)
 - [Vulnmachines/OMIGOD_cve-2021-38647](https://github.com/Vulnmachines/OMIGOD_cve-2021-38647)
 - [goofsec/omigod](https://github.com/goofsec/omigod)
+- [corelight/CVE-2021-38647-noimages](https://github.com/corelight/CVE-2021-38647-noimages)
 
 ### CVE-2021-38666 (2021-11-09)
 
