@@ -2209,6 +2209,13 @@
 
 - [lnversed/CVE-2023-20025](https://github.com/lnversed/CVE-2023-20025)
 
+### CVE-2023-20048 (2023-11-01)
+
+<code>A vulnerability in the web services interface of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to execute certain unauthorized configuration commands on a Firepower Threat Defense (FTD) device that is managed by the FMC Software. This vulnerability is due to insufficient authorization of configuration commands that are sent through the web service interface. An attacker could exploit this vulnerability by authenticating to the FMC web services interface and sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to execute certain configuration commands on the targeted FTD device. To successfully exploit this vulnerability, an attacker would need valid credentials on the FMC Software.
+</code>
+
+- [0zer0d4y/FuegoTest](https://github.com/0zer0d4y/FuegoTest)
+
 ### CVE-2023-20052 (2023-03-01)
 
 <code>On Feb 15, 2023, the following vulnerability in the ClamAV scanning library was disclosed:\r\n\r \r A vulnerability in the DMG file parser of ClamAV versions 1.0.0 and earlier, 0.105.1 and earlier, and 0.103.7 and earlier could allow an unauthenticated, remote attacker to access sensitive information on an affected device.\r\n\r \r This vulnerability is due to enabling XML entity substitution that may result in XML external entity injection. An attacker could exploit this vulnerability by submitting a crafted DMG file to be scanned by ClamAV on an affected device. A successful exploit could allow the attacker to leak bytes from any file that may be read by the ClamAV scanning process.
@@ -4558,6 +4565,7 @@
 - [vulncheck-oss/fetch-broker-conf](https://github.com/vulncheck-oss/fetch-broker-conf)
 - [0xKayala/CVE-2023-33246](https://github.com/0xKayala/CVE-2023-33246)
 - [MkJos/CVE-2023-33246_RocketMQ_RCE_EXP](https://github.com/MkJos/CVE-2023-33246_RocketMQ_RCE_EXP)
+- [hanch7274/CVE-2023-33246](https://github.com/hanch7274/CVE-2023-33246)
 
 ### CVE-2023-33253 (2023-06-12)
 
