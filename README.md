@@ -235,6 +235,9 @@
 - [DevAkabari/CVE-2024-21413](https://github.com/DevAkabari/CVE-2024-21413)
 - [dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413)
 
+### CVE-2024-21426
+- [CVE-searcher/CVE-2024-21426-SharePoint-RCE](https://github.com/CVE-searcher/CVE-2024-21426-SharePoint-RCE)
+
 ### CVE-2024-21626 (2024-01-31)
 
 <code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue. 
@@ -3823,8 +3826,8 @@
 - [Chocapikk/CVE-2023-29357](https://github.com/Chocapikk/CVE-2023-29357)
 - [LuemmelSec/CVE-2023-29357](https://github.com/LuemmelSec/CVE-2023-29357)
 - [KeyStrOke95/CVE-2023-29357-ExE](https://github.com/KeyStrOke95/CVE-2023-29357-ExE)
-- [Twil4/CVE-2023-29357-check](https://github.com/Twil4/CVE-2023-29357-check)
 - [Guillaume-Risch/cve-2023-29357-Sharepoint](https://github.com/Guillaume-Risch/cve-2023-29357-Sharepoint)
+- [Jev1337/CVE-2023-29357-Check](https://github.com/Jev1337/CVE-2023-29357-Check)
 
 ### CVE-2023-29360 (2023-06-13)
 
@@ -6475,6 +6478,13 @@
 </code>
 
 - [the-emmons/CVE-2023-43177](https://github.com/the-emmons/CVE-2023-43177)
+
+### CVE-2023-43208 (2023-10-26)
+
+<code>NextGen Healthcare Mirth Connect before version 4.4.1 is vulnerable to unauthenticated remote code execution. Note that this vulnerability is caused by the incomplete patch of CVE-2023-37679.
+</code>
+
+- [K3ysTr0K3R/CVE-2023-43208-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT)
 
 ### CVE-2023-43261 (2023-10-04)
 
