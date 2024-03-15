@@ -151,6 +151,9 @@
 ### CVE-2024-2432
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
+### CVE-2024-12883
+- [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
+
 ### CVE-2024-20291 (-)
 
 <code>A vulnerability in the access control list (ACL) programming for port channel subinterfaces of Cisco Nexus 3000 and 9000 Series Switches in standalone NX-OS mode could allow an unauthenticated, remote attacker to send traffic that should be blocked through an affected device.\r\n\r This vulnerability is due to incorrect hardware programming that occurs when configuration changes are made to port channel member ports. An attacker could exploit this vulnerability by attempting to send traffic through an affected device. A successful exploit could allow the attacker to access network resources that should be protected by an ACL that was applied on port channel subinterfaces.
