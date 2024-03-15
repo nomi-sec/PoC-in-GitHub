@@ -4722,6 +4722,7 @@
 </code>
 
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
+- [onion2203/CVE-2023-33733](https://github.com/onion2203/CVE-2023-33733)
 
 ### CVE-2023-33768 (2023-07-13)
 
@@ -7539,6 +7540,9 @@
 
 ### CVE-2023-48777
 - [AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777](https://github.com/AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777)
+
+### CVE-2023-48788
+- [k4rd3n/CVE-2023-48788-PoC](https://github.com/k4rd3n/CVE-2023-48788-PoC)
 
 ### CVE-2023-48842 (2023-12-01)
 
@@ -18558,7 +18562,6 @@
 - [dorkerdevil/CVE-2021-36749](https://github.com/dorkerdevil/CVE-2021-36749)
 - [zwlsix/apache_druid_CVE-2021-36749](https://github.com/zwlsix/apache_druid_CVE-2021-36749)
 - [Jun-5heng/CVE-2021-36749](https://github.com/Jun-5heng/CVE-2021-36749)
-- [hanch7274/CVE-2021-36749](https://github.com/hanch7274/CVE-2021-36749)
 
 ### CVE-2021-36782 (2022-09-07)
 
