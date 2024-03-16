@@ -259,6 +259,7 @@
 - [cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker)
 - [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
+- [vorotilovaawex/CVE-2024-21762_POC](https://github.com/vorotilovaawex/CVE-2024-21762_POC)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -7239,6 +7240,7 @@
 - [nvansluis/test_cve-2023-46747](https://github.com/nvansluis/test_cve-2023-46747)
 - [sanjai-AK47/CVE-2023-46747](https://github.com/sanjai-AK47/CVE-2023-46747)
 - [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
+- [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
 
 ### CVE-2023-46805 (2024-01-12)
 
@@ -8836,7 +8838,7 @@
 - [savior-only/CVE-2022-1609](https://github.com/savior-only/CVE-2022-1609)
 - [0xSojalSec/CVE-2022-1609](https://github.com/0xSojalSec/CVE-2022-1609)
 - [0xSojalSec/-CVE-2022-1609](https://github.com/0xSojalSec/-CVE-2022-1609)
-- [tuxsyscall/cve-2022-1609-exploit](https://github.com/tuxsyscall/cve-2022-1609-exploit)
+- [w4r3s/cve-2022-1609-exploit](https://github.com/w4r3s/cve-2022-1609-exploit)
 
 ### CVE-2022-1679 (2022-05-16)
 
@@ -20756,6 +20758,7 @@
 - [dcm2406/CVE-2021-44228](https://github.com/dcm2406/CVE-2021-44228)
 - [scabench/l4j-tp1](https://github.com/scabench/l4j-tp1)
 - [scabench/l4j-fp1](https://github.com/scabench/l4j-fp1)
+- [KtokKawu/l4s-vulnapp](https://github.com/KtokKawu/l4s-vulnapp)
 
 ### CVE-2021-44255 (2022-01-31)
 
