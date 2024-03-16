@@ -34400,7 +34400,7 @@
 
 - [Eugnis/spectre-attack](https://github.com/Eugnis/spectre-attack)
 - [EdwardOwusuAdjei/Spectre-PoC](https://github.com/EdwardOwusuAdjei/Spectre-PoC)
-- [poilynx/spectre-attack-example](https://github.com/poilynx/spectre-attack-example)
+- [00052/spectre-attack-example](https://github.com/00052/spectre-attack-example)
 - [pedrolucasoliva/spectre-attack-demo](https://github.com/pedrolucasoliva/spectre-attack-demo)
 - [ixtal23/spectreScope](https://github.com/ixtal23/spectreScope)
 - [albertleecn/cve-2017-5753](https://github.com/albertleecn/cve-2017-5753)
@@ -40198,6 +40198,7 @@
 </code>
 
 - [pagvac/pocs](https://github.com/pagvac/pocs)
+- [ItaIia/PhpMyAdmin](https://github.com/ItaIia/PhpMyAdmin)
 
 ### CVE-2009-1244 (2009-04-13)
 
