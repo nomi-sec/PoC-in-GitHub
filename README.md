@@ -206,9 +206,6 @@
 
 - [d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378)
 
-### CVE-2024-21407
-- [swagcrafte/CVE-2024-21407-POC](https://github.com/swagcrafte/CVE-2024-21407-POC)
-
 ### CVE-2024-21410 (2024-02-13)
 
 <code>Microsoft Exchange Server Elevation of Privilege Vulnerability
@@ -264,6 +261,7 @@
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [vorotilovaawex/CVE-2024-21762_POC](https://github.com/vorotilovaawex/CVE-2024-21762_POC)
 - [TheRedDevil1/CVE-2024-21762](https://github.com/TheRedDevil1/CVE-2024-21762)
+- [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -429,6 +427,7 @@
 </code>
 
 - [ox1111/CVE-2024-23334](https://github.com/ox1111/CVE-2024-23334)
+- [sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream](https://github.com/sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream)
 
 ### CVE-2024-23652 (2024-01-31)
 
@@ -738,6 +737,13 @@
 </code>
 
 - [minj-ae/CVE-2024-24488](https://github.com/minj-ae/CVE-2024-24488)
+
+### CVE-2024-24520 (-)
+
+<code>An issue in Lepton CMS v.7.0.0 allows a local attacker to execute arbitrary code via the upgrade.php file in the languages place.
+</code>
+
+- [xF-9979/CVE-2024-24520](https://github.com/xF-9979/CVE-2024-24520)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -5551,6 +5557,13 @@
 
 - [benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625)
 
+### CVE-2023-37679 (2023-08-02)
+
+<code>A remote command execution (RCE) vulnerability in NextGen Mirth Connect v4.3.0 allows attackers to execute arbitrary commands on the hosting server.
+</code>
+
+- [jakabakos/CVE-2023-37679-mirth-connect-rce-poc](https://github.com/jakabakos/CVE-2023-37679-mirth-connect-rce-poc)
+
 ### CVE-2023-37739 (2023-09-14)
 
 <code>i-doit Pro v25 and below was discovered to be vulnerable to path traversal.
@@ -8138,7 +8151,7 @@
 - [watarium/poc-cve-2023-51385](https://github.com/watarium/poc-cve-2023-51385)
 - [Tachanka-zz/CVE-2023-51385_test](https://github.com/Tachanka-zz/CVE-2023-51385_test)
 - [Le1a/CVE-2023-51385](https://github.com/Le1a/CVE-2023-51385)
-- [zls1793/CVE-2023-51385_test](https://github.com/zls1793/CVE-2023-51385_test)
+- [LtmThink/CVE-2023-51385_test](https://github.com/LtmThink/CVE-2023-51385_test)
 - [WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test)
 - [N0rther/CVE-2023-51385_TT](https://github.com/N0rther/CVE-2023-51385_TT)
 - [power1314520/CVE-2023-51385_test](https://github.com/power1314520/CVE-2023-51385_test)
@@ -20781,7 +20794,6 @@
 - [LucasPDiniz/CVE-2021-44228](https://github.com/LucasPDiniz/CVE-2021-44228)
 - [felixslama/log4shell-minecraft-demo](https://github.com/felixslama/log4shell-minecraft-demo)
 - [dcm2406/CVE-Lab](https://github.com/dcm2406/CVE-Lab)
-- [dcm2406/CVE-2021-44228](https://github.com/dcm2406/CVE-2021-44228)
 - [scabench/l4j-tp1](https://github.com/scabench/l4j-tp1)
 - [scabench/l4j-fp1](https://github.com/scabench/l4j-fp1)
 - [KtokKawu/l4s-vulnapp](https://github.com/KtokKawu/l4s-vulnapp)
