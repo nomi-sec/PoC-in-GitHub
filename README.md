@@ -206,6 +206,9 @@
 
 - [d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378)
 
+### CVE-2024-21407
+- [swagcrafte/CVE-2024-21407-POC](https://github.com/swagcrafte/CVE-2024-21407-POC)
+
 ### CVE-2024-21410 (2024-02-13)
 
 <code>Microsoft Exchange Server Elevation of Privilege Vulnerability
@@ -260,6 +263,7 @@
 - [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [vorotilovaawex/CVE-2024-21762_POC](https://github.com/vorotilovaawex/CVE-2024-21762_POC)
+- [TheRedDevil1/CVE-2024-21762](https://github.com/TheRedDevil1/CVE-2024-21762)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -1845,6 +1849,7 @@
 - [puckiestyle/CVE-2023-4911](https://github.com/puckiestyle/CVE-2023-4911)
 - [yanfernandess/Looney-Tunables-CVE-2023-4911](https://github.com/yanfernandess/Looney-Tunables-CVE-2023-4911)
 - [NishanthAnand21/CVE-2023-4911-PoC](https://github.com/NishanthAnand21/CVE-2023-4911-PoC)
+- [xem6/CVE-2023-4911](https://github.com/xem6/CVE-2023-4911)
 
 ### CVE-2023-4966 (2023-10-10)
 
@@ -8128,6 +8133,7 @@
 <code>In ssh in OpenSSH before 9.6, OS command injection might occur if a user name or host name has shell metacharacters, and this name is referenced by an expansion token in certain situations. For example, an untrusted Git repository can have a submodule with shell metacharacters in a user name or host name.
 </code>
 
+- [vin01/poc-proxycommand-vulnerable](https://github.com/vin01/poc-proxycommand-vulnerable)
 - [FeatherStark/CVE-2023-51385](https://github.com/FeatherStark/CVE-2023-51385)
 - [watarium/poc-cve-2023-51385](https://github.com/watarium/poc-cve-2023-51385)
 - [Tachanka-zz/CVE-2023-51385_test](https://github.com/Tachanka-zz/CVE-2023-51385_test)
@@ -9186,6 +9192,7 @@
 - [bjrjk/CVE-2022-4262](https://github.com/bjrjk/CVE-2022-4262)
 - [mistymntncop/CVE-2022-4262](https://github.com/mistymntncop/CVE-2022-4262)
 - [quangnh89/CVE-2022-4262](https://github.com/quangnh89/CVE-2022-4262)
+- [xem6/CVE-2022-4262](https://github.com/xem6/CVE-2022-4262)
 
 ### CVE-2022-4304 (2023-02-08)
 
