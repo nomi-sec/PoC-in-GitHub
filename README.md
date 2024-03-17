@@ -4732,6 +4732,13 @@
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
 - [onion2203/CVE-2023-33733](https://github.com/onion2203/CVE-2023-33733)
 
+### CVE-2023-33747 (2023-06-06)
+
+<code>CloudPanel v2.2.2 allows attackers to execute a path traversal.
+</code>
+
+- [0xWhoami35/CloudPanel-CVE-2023-33747](https://github.com/0xWhoami35/CloudPanel-CVE-2023-33747)
+
 ### CVE-2023-33768 (2023-07-13)
 
 <code>Incorrect signature verification of the firmware during the Device Firmware Update process of Belkin Wemo Smart Plug WSP080 v1.2 allows attackers to cause a Denial of Service (DoS) via a crafted firmware file.
@@ -38940,6 +38947,13 @@
 </code>
 
 - [KPN-CISO/DRA_writeup](https://github.com/KPN-CISO/DRA_writeup)
+
+### CVE-2014-6721 (2014-09-26)
+
+<code>The Pharmaguideline (aka com.pharmaguideline) application 1.2.0 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate.
+</code>
+
+- [sagisar1/CVE-2014-6721-exploit-Shellshock](https://github.com/sagisar1/CVE-2014-6721-exploit-Shellshock)
 
 ### CVE-2014-7169 (2014-09-24)
 
