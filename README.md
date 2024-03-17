@@ -40792,6 +40792,7 @@
 - [PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow](https://github.com/PercussiveElbow/CVE-2004-2271-MiniShare-1.4.1-Buffer-Overflow)
 - [war4uthor/CVE-2004-2271](https://github.com/war4uthor/CVE-2004-2271)
 - [pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF](https://github.com/pwncone/CVE-2004-2271-MiniShare-1.4.1-BOF)
+- [lautarolopez4/CVE-2004-2271](https://github.com/lautarolopez4/CVE-2004-2271)
 
 ### CVE-2004-2449 (2005-08-20)
 
