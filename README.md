@@ -56,6 +56,8 @@
 ### CVE-2024-1071
 - [gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071)
 - [Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker)
+- [Matrexdz/CVE-2024-1071](https://github.com/Matrexdz/CVE-2024-1071)
+- [Matrexdz/CVE-2024-1071-Docker](https://github.com/Matrexdz/CVE-2024-1071-Docker)
 
 ### CVE-2024-1208 (2024-02-05)
 
@@ -4727,6 +4729,7 @@
 </code>
 
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
+- [onion2203/Lab_Reportlab](https://github.com/onion2203/Lab_Reportlab)
 
 ### CVE-2023-33747 (2023-06-06)
 
@@ -5559,13 +5562,6 @@
 </code>
 
 - [benjaminpsinclair/Netbox-CVE-2023-37625](https://github.com/benjaminpsinclair/Netbox-CVE-2023-37625)
-
-### CVE-2023-37679 (2023-08-02)
-
-<code>A remote command execution (RCE) vulnerability in NextGen Mirth Connect v4.3.0 allows attackers to execute arbitrary commands on the hosting server.
-</code>
-
-- [jakabakos/CVE-2023-37679-mirth-connect-rce-poc](https://github.com/jakabakos/CVE-2023-37679-mirth-connect-rce-poc)
 
 ### CVE-2023-37739 (2023-09-14)
 
@@ -6518,6 +6514,7 @@
 </code>
 
 - [K3ysTr0K3R/CVE-2023-43208-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2023-43208-EXPLOIT)
+- [jakabakos/CVE-2023-43208-mirth-connect-rce-poc](https://github.com/jakabakos/CVE-2023-43208-mirth-connect-rce-poc)
 
 ### CVE-2023-43261 (2023-10-04)
 
@@ -31422,6 +31419,7 @@
 - [moTorky/CVE-2018-6574-POC](https://github.com/moTorky/CVE-2018-6574-POC)
 - [Ashved9/Orange](https://github.com/Ashved9/Orange)
 - [zerbaliy3v/cve-2018-6574-exploit](https://github.com/zerbaliy3v/cve-2018-6574-exploit)
+- [jftierno/-CVE-2018-6574](https://github.com/jftierno/-CVE-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -35468,6 +35466,7 @@
 - [w0x68y/CVE-2017-12615-EXP](https://github.com/w0x68y/CVE-2017-12615-EXP)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [xiaokp7/Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)
+- [K3ysTr0K3R/CVE-2017-12615-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-12615-EXPLOIT)
 
 ### CVE-2017-12617 (2017-10-03)
 
