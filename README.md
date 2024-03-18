@@ -241,6 +241,7 @@
 - [laysakura/CVE-2024-21626-demo](https://github.com/laysakura/CVE-2024-21626-demo)
 - [V0WKeep3r/CVE-2024-21626-runcPOC](https://github.com/V0WKeep3r/CVE-2024-21626-runcPOC)
 - [abian2/CVE-2024-21626](https://github.com/abian2/CVE-2024-21626)
+- [Sk3pper/CVE-2024-21626](https://github.com/Sk3pper/CVE-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -10451,6 +10452,7 @@
 - [akr3ch/CVE-2022-24086](https://github.com/akr3ch/CVE-2022-24086)
 - [pescepilota/CVE-2022-24086](https://github.com/pescepilota/CVE-2022-24086)
 - [BurpRoot/CVE-2022-24086](https://github.com/BurpRoot/CVE-2022-24086)
+- [rxerium/CVE-2022-24086](https://github.com/rxerium/CVE-2022-24086)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -13638,6 +13640,7 @@
 - [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
 - [lolminerxmrig/cve-2022-41352-zimbra-rce-1](https://github.com/lolminerxmrig/cve-2022-41352-zimbra-rce-1)
 - [qailanet/cve-2022-41352-zimbra-rce](https://github.com/qailanet/cve-2022-41352-zimbra-rce)
+- [rxerium/CVE-2022-41352](https://github.com/rxerium/CVE-2022-41352)
 
 ### CVE-2022-41358 (2022-10-19)
 
