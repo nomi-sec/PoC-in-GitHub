@@ -766,6 +766,7 @@
 
 ### CVE-2024-25153
 - [nettitude/CVE-2024-25153](https://github.com/nettitude/CVE-2024-25153)
+- [rainbowhatrkn/CVE-2024-25153](https://github.com/rainbowhatrkn/CVE-2024-25153)
 
 ### CVE-2024-25169 (-)
 
@@ -1622,6 +1623,7 @@
 
 - [NewLockBit/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/NewLockBit/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
 - [NewLockBit/Research-of-CVE-2023-3824-NCA-Lockbit](https://github.com/NewLockBit/Research-of-CVE-2023-3824-NCA-Lockbit)
+- [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 
 ### CVE-2023-3836 (2023-07-22)
 
@@ -2040,13 +2042,6 @@
 </code>
 
 - [pedrojosenavasperez/cve-2023-5966](https://github.com/pedrojosenavasperez/cve-2023-5966)
-
-### CVE-2023-6000 (2024-01-01)
-
-<code>The Popup Builder WordPress plugin before 4.2.3 does not prevent simple visitors from updating existing popups, and injecting raw JavaScript in them, which could lead to Stored XSS attacks.
-</code>
-
-- [rxerium/CVE-2023-6000](https://github.com/rxerium/CVE-2023-6000)
 
 ### CVE-2023-6036 (2024-02-12)
 
@@ -4732,7 +4727,6 @@
 </code>
 
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
-- [onion2203/CVE-2023-33733](https://github.com/onion2203/CVE-2023-33733)
 
 ### CVE-2023-33747 (2023-06-06)
 
@@ -7592,7 +7586,6 @@
 - [AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777](https://github.com/AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777)
 
 ### CVE-2023-48788
-- [k4rd3n/CVE-2023-48788-PoC](https://github.com/k4rd3n/CVE-2023-48788-PoC)
 - [TheRedDevil1/CVE-2023-48788](https://github.com/TheRedDevil1/CVE-2023-48788)
 
 ### CVE-2023-48842 (2023-12-01)
@@ -8459,6 +8452,7 @@
 - [0xUhaw/CVE-2022-0778](https://github.com/0xUhaw/CVE-2022-0778)
 - [Trinadh465/openssl-1.1.1g_CVE-2022-0778](https://github.com/Trinadh465/openssl-1.1.1g_CVE-2022-0778)
 - [jeongjunsoo/CVE-2022-0778](https://github.com/jeongjunsoo/CVE-2022-0778)
+- [hshivhare67/OpenSSL_1.0.1g_CVE-2022-0778](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2022-0778)
 
 ### CVE-2022-0811 (2022-03-16)
 
@@ -10454,7 +10448,6 @@
 - [akr3ch/CVE-2022-24086](https://github.com/akr3ch/CVE-2022-24086)
 - [pescepilota/CVE-2022-24086](https://github.com/pescepilota/CVE-2022-24086)
 - [BurpRoot/CVE-2022-24086](https://github.com/BurpRoot/CVE-2022-24086)
-- [rxerium/CVE-2022-24086](https://github.com/rxerium/CVE-2022-24086)
 
 ### CVE-2022-24087
 - [Neimar47574/CVE-2022-24087](https://github.com/Neimar47574/CVE-2022-24087)
@@ -13642,7 +13635,6 @@
 - [Cr4ckC4t/cve-2022-41352-zimbra-rce](https://github.com/Cr4ckC4t/cve-2022-41352-zimbra-rce)
 - [lolminerxmrig/cve-2022-41352-zimbra-rce-1](https://github.com/lolminerxmrig/cve-2022-41352-zimbra-rce-1)
 - [qailanet/cve-2022-41352-zimbra-rce](https://github.com/qailanet/cve-2022-41352-zimbra-rce)
-- [rxerium/CVE-2022-41352](https://github.com/rxerium/CVE-2022-41352)
 
 ### CVE-2022-41358 (2022-10-19)
 
@@ -38630,6 +38622,13 @@
 </code>
 
 - [azet/CVE-2014-3466_PoC](https://github.com/azet/CVE-2014-3466_PoC)
+
+### CVE-2014-3470 (2014-06-05)
+
+<code>The ssl3_send_client_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h, when an anonymous ECDH cipher suite is used, allows remote attackers to cause a denial of service (NULL pointer dereference and client crash) by triggering a NULL certificate value.
+</code>
+
+- [hshivhare67/OpenSSL_1.0.1g_CVE-2014-3470](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2014-3470)
 
 ### CVE-2014-3544 (2014-07-29)
 
