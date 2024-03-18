@@ -542,6 +542,7 @@
 - [pulentoski/CVE-2024-23897-Arbitrary-file-read](https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read)
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
 - [Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897)
+- [TheRedDevil1/CVE-2024-23897](https://github.com/TheRedDevil1/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -7592,6 +7593,7 @@
 
 ### CVE-2023-48788
 - [k4rd3n/CVE-2023-48788-PoC](https://github.com/k4rd3n/CVE-2023-48788-PoC)
+- [TheRedDevil1/CVE-2023-48788](https://github.com/TheRedDevil1/CVE-2023-48788)
 
 ### CVE-2023-48842 (2023-12-01)
 
@@ -22190,7 +22192,7 @@
 - [thatonesecguy/zerologon-CVE-2020-1472](https://github.com/thatonesecguy/zerologon-CVE-2020-1472)
 - [k8gege/CVE-2020-1472-EXP](https://github.com/k8gege/CVE-2020-1472-EXP)
 - [jiushill/CVE-2020-1472](https://github.com/jiushill/CVE-2020-1472)
-- [okay-scam/zabbix-template-CVE-2020-1472](https://github.com/okay-scam/zabbix-template-CVE-2020-1472)
+- [McKinnonIT/zabbix-template-CVE-2020-1472](https://github.com/McKinnonIT/zabbix-template-CVE-2020-1472)
 - [mstxq17/cve-2020-1472](https://github.com/mstxq17/cve-2020-1472)
 - [Fa1c0n35/CVE-2020-1472](https://github.com/Fa1c0n35/CVE-2020-1472)
 - [Fa1c0n35/SecuraBV-CVE-2020-1472](https://github.com/Fa1c0n35/SecuraBV-CVE-2020-1472)
@@ -28575,7 +28577,7 @@
 </code>
 
 - [vigneshsrao/CVE-2019-11707](https://github.com/vigneshsrao/CVE-2019-11707)
-- [tunnelshade/cve-2019-11707](https://github.com/tunnelshade/cve-2019-11707)
+- [flabbergastedbd/cve-2019-11707](https://github.com/flabbergastedbd/cve-2019-11707)
 
 ### CVE-2019-11708 (2019-07-23)
 
