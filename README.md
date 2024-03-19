@@ -431,6 +431,7 @@
 
 - [ox1111/CVE-2024-23334](https://github.com/ox1111/CVE-2024-23334)
 - [sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream](https://github.com/sxyrxyy/aiohttp-exploit-CVE-2024-23334-certstream)
+- [z3rObyte/CVE-2024-23334-PoC](https://github.com/z3rObyte/CVE-2024-23334-PoC)
 
 ### CVE-2024-23652 (2024-01-31)
 
@@ -31402,6 +31403,7 @@
 - [the-valluvarsploit/CVE-2018-6574](https://github.com/the-valluvarsploit/CVE-2018-6574)
 - [yavolo/CVE-2018-6574](https://github.com/yavolo/CVE-2018-6574)
 - [ThaFWord/pentesterlab](https://github.com/ThaFWord/pentesterlab)
+- [jftierno/CVE-2018-6574](https://github.com/jftierno/CVE-2018-6574)
 - [Cypheer/exploit_CVE-2018-6574](https://github.com/Cypheer/exploit_CVE-2018-6574)
 - [jftierno/CVE-2018-6574-2](https://github.com/jftierno/CVE-2018-6574-2)
 - [tjcim/cve-2018-6574](https://github.com/tjcim/cve-2018-6574)
@@ -35466,7 +35468,6 @@
 - [w0x68y/CVE-2017-12615-EXP](https://github.com/w0x68y/CVE-2017-12615-EXP)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
 - [xiaokp7/Tomcat_PUT_GUI_EXP](https://github.com/xiaokp7/Tomcat_PUT_GUI_EXP)
-- [K3ysTr0K3R/CVE-2017-12615-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-12615-EXPLOIT)
 
 ### CVE-2017-12617 (2017-10-03)
 
@@ -35480,6 +35481,7 @@
 - [tyranteye666/tomcat-cve-2017-12617](https://github.com/tyranteye666/tomcat-cve-2017-12617)
 - [jptr218/tc_hack](https://github.com/jptr218/tc_hack)
 - [LongWayHomie/CVE-2017-12617](https://github.com/LongWayHomie/CVE-2017-12617)
+- [K3ysTr0K3R/CVE-2017-12617-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-12617-EXPLOIT)
 
 ### CVE-2017-12624 (2017-11-14)
 
