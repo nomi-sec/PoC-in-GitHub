@@ -923,6 +923,9 @@
 
 - [levpachmanov/cve-2024-28088-poc](https://github.com/levpachmanov/cve-2024-28088-poc)
 
+### CVE-2024-28515
+- [heshi906/CVE-2024-28515](https://github.com/heshi906/CVE-2024-28515)
+
 ### CVE-2024-28715
 - [Lq0ne/CVE-2024-28715](https://github.com/Lq0ne/CVE-2024-28715)
 
@@ -21651,6 +21654,13 @@
 </code>
 
 - [nanopathi/system_core_AOSP10_r33_CVE-2020-0421](https://github.com/nanopathi/system_core_AOSP10_r33_CVE-2020-0421)
+
+### CVE-2020-0423 (2020-10-14)
+
+<code>In binder_release_work of binder.c, there is a possible use-after-free due to improper locking. This could lead to local escalation of privilege in the kernel with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-161151868References: N/A
+</code>
+
+- [sparrow-labz/CVE-2020-0423](https://github.com/sparrow-labz/CVE-2020-0423)
 
 ### CVE-2020-0439 (2020-11-10)
 
