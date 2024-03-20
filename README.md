@@ -80,6 +80,13 @@
 
 - [karlemilnikka/CVE-2024-1209](https://github.com/karlemilnikka/CVE-2024-1209)
 
+### CVE-2024-1212 (2024-02-21)
+
+<code>Unauthenticated remote attackers can access the system through the LoadMaster management interface, enabling arbitrary system command execution.\n\n\n
+</code>
+
+- [Chocapikk/CVE-2024-1212](https://github.com/Chocapikk/CVE-2024-1212)
+
 ### CVE-2024-1269 (2024-02-06)
 
 <code>In SourceCodester Product Management System 1.0 wurde eine problematische Schwachstelle gefunden. Betroffen ist eine unbekannte Verarbeitung der Datei /supplier.php. Dank Manipulation des Arguments supplier_name/supplier_contact mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
@@ -1377,6 +1384,7 @@
 - [g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629)
 - [vinetsuicide/CVE-2023-2640-CVE-2023-32629](https://github.com/vinetsuicide/CVE-2023-2640-CVE-2023-32629)
 - [SanjayRagavendar/Ubuntu-GameOver-Lay](https://github.com/SanjayRagavendar/Ubuntu-GameOver-Lay)
+- [Nkipohcs/CVE-2023-2640-CVE-2023-32629](https://github.com/Nkipohcs/CVE-2023-2640-CVE-2023-32629)
 
 ### CVE-2023-2650 (2023-05-30)
 
@@ -21998,7 +22006,6 @@
 - [OldDream666/cve-2020-0796](https://github.com/OldDream666/cve-2020-0796)
 - [heeloo123/CVE-2020-0796](https://github.com/heeloo123/CVE-2020-0796)
 - [Ajomix/CVE-2020-0796](https://github.com/Ajomix/CVE-2020-0796)
-- [Vladshambaryan/https-github.com-jamf-CVE-2020-0796-RCE-POC](https://github.com/Vladshambaryan/https-github.com-jamf-CVE-2020-0796-RCE-POC)
 - [hungdnvp/POC-CVE-2020-0796](https://github.com/hungdnvp/POC-CVE-2020-0796)
 - [AdamSonov/smbGhostCVE-2020-0796](https://github.com/AdamSonov/smbGhostCVE-2020-0796)
 
@@ -35023,7 +35030,6 @@
 - [bao7uo/dp_crypto](https://github.com/bao7uo/dp_crypto)
 - [capt-meelo/Telewreck](https://github.com/capt-meelo/Telewreck)
 - [ictnamanh/CVE-2017-9248](https://github.com/ictnamanh/CVE-2017-9248)
-- [ZhenwarX/Telerik-CVE-2017-9248-PoC](https://github.com/ZhenwarX/Telerik-CVE-2017-9248-PoC)
 - [oldboysonnt/dp](https://github.com/oldboysonnt/dp)
 - [blacklanternsecurity/dp_cryptomg](https://github.com/blacklanternsecurity/dp_cryptomg)
 - [cehamod/UI_CVE-2017-9248](https://github.com/cehamod/UI_CVE-2017-9248)
