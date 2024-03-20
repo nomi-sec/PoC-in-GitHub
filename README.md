@@ -931,6 +931,9 @@
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
 
+### CVE-2024-28085
+- [skyler-ferrante/CVE-2024-28085](https://github.com/skyler-ferrante/CVE-2024-28085)
+
 ### CVE-2024-28088 (-)
 
 <code>LangChain through 0.1.10 allows ../ directory traversal by an actor who is able to control the final part of the path parameter in a load_chain call. This bypasses the intended behavior of loading configurations only from the hwchase17/langchain-hub GitHub repository. The outcome can be disclosure of an API key for a large language model online service, or remote code execution.
@@ -38662,19 +38665,19 @@
 
 - [azet/CVE-2014-3466_PoC](https://github.com/azet/CVE-2014-3466_PoC)
 
-### CVE-2014-3470 (2014-06-05)
-
-<code>The ssl3_send_client_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8za, 1.0.0 before 1.0.0m, and 1.0.1 before 1.0.1h, when an anonymous ECDH cipher suite is used, allows remote attackers to cause a denial of service (NULL pointer dereference and client crash) by triggering a NULL certificate value.
-</code>
-
-- [hshivhare67/OpenSSL_1.0.1g_CVE-2014-3470](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2014-3470)
-
 ### CVE-2014-3507 (2014-08-13)
 
 <code>Memory leak in d1_both.c in the DTLS implementation in OpenSSL 0.9.8 before 0.9.8zb, 1.0.0 before 1.0.0n, and 1.0.1 before 1.0.1i allows remote attackers to cause a denial of service (memory consumption) via zero-length DTLS fragments that trigger improper handling of the return value of a certain insert function.
 </code>
 
 - [Satheesh575555/openSSL_1.0.1g_CVE-2014-3507](https://github.com/Satheesh575555/openSSL_1.0.1g_CVE-2014-3507)
+
+### CVE-2014-3508 (2014-08-13)
+
+<code>The OBJ_obj2txt function in crypto/objects/obj_dat.c in OpenSSL 0.9.8 before 0.9.8zb, 1.0.0 before 1.0.0n, and 1.0.1 before 1.0.1i, when pretty printing is used, does not ensure the presence of '\0' characters, which allows context-dependent attackers to obtain sensitive information from process stack memory by reading output from X509_name_oneline, X509_name_print_ex, and unspecified other functions.
+</code>
+
+- [hshivhare67/OpenSSL_1.0.1g_CVE-2014-3508](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2014-3508)
 
 ### CVE-2014-3544 (2014-07-29)
 
