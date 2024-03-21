@@ -20119,6 +20119,13 @@
 ### CVE-2021-43150
 - [Zeyad-Azima/OpayForMe](https://github.com/Zeyad-Azima/OpayForMe)
 
+### CVE-2021-43217 (2021-12-15)
+
+<code>Windows Encrypting File System (EFS) Remote Code Execution Vulnerability
+</code>
+
+- [JolynNgSC/EFS_CVE-2021-43217](https://github.com/JolynNgSC/EFS_CVE-2021-43217)
+
 ### CVE-2021-43224 (2021-12-15)
 
 <code>Windows Common Log File System Driver Information Disclosure Vulnerability
@@ -22289,6 +22296,7 @@
 - [botfather0x0/ZeroLogon-to-Shell](https://github.com/botfather0x0/ZeroLogon-to-Shell)
 - [logg-1/0logon](https://github.com/logg-1/0logon)
 - [whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC](https://github.com/whoami-chmod777/Zerologon-Attack-CVE-2020-1472-POC)
+- [JolynNgSC/Zerologon_CVE-2020-1472](https://github.com/JolynNgSC/Zerologon_CVE-2020-1472)
 
 ### CVE-2020-1493 (2020-08-17)
 
