@@ -229,13 +229,6 @@
 
 - [d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378)
 
-### CVE-2024-21410 (2024-02-13)
-
-<code>Microsoft Exchange Server Elevation of Privilege Vulnerability
-</code>
-
-- [FreakyM0ndy/CVE-2024-21410-poc](https://github.com/FreakyM0ndy/CVE-2024-21410-poc)
-
 ### CVE-2024-21413 (2024-02-13)
 
 <code>Microsoft Outlook Remote Code Execution Vulnerability
@@ -2780,6 +2773,7 @@
 - [0x0d3ad/CVE-2023-22518](https://github.com/0x0d3ad/CVE-2023-22518)
 - [C1ph3rX13/CVE-2023-22518](https://github.com/C1ph3rX13/CVE-2023-22518)
 - [bibo318/CVE-2023-22518](https://github.com/bibo318/CVE-2023-22518)
+- [Lilly-dox/Exploit-CVE-2023-22518](https://github.com/Lilly-dox/Exploit-CVE-2023-22518)
 
 ### CVE-2023-22524 (2023-12-06)
 
@@ -4165,6 +4159,7 @@
 
 - [d0rb/CVE-2023-30943](https://github.com/d0rb/CVE-2023-30943)
 - [Chocapikk/CVE-2023-30943](https://github.com/Chocapikk/CVE-2023-30943)
+- [RubyCat1337/CVE-2023-30943](https://github.com/RubyCat1337/CVE-2023-30943)
 
 ### CVE-2023-31070
 - [bugprove/cve-2023-31070](https://github.com/bugprove/cve-2023-31070)
@@ -7620,6 +7615,7 @@
 
 ### CVE-2023-48788
 - [TheRedDevil1/CVE-2023-48788](https://github.com/TheRedDevil1/CVE-2023-48788)
+- [horizon3ai/CVE-2023-48788](https://github.com/horizon3ai/CVE-2023-48788)
 
 ### CVE-2023-48842 (2023-12-01)
 
@@ -8362,7 +8358,6 @@
 </code>
 
 - [TcherB31/CVE-2022-0412_Exploit](https://github.com/TcherB31/CVE-2022-0412_Exploit)
-- [Vulnpire/CVE-2022-0412](https://github.com/Vulnpire/CVE-2022-0412)
 
 ### CVE-2022-0435 (2022-03-25)
 
@@ -24107,7 +24102,7 @@
 
 - [fanjq99/CVE-2020-11652](https://github.com/fanjq99/CVE-2020-11652)
 - [Al1ex/CVE-2020-11652](https://github.com/Al1ex/CVE-2020-11652)
-- [limon768/CVE-2020-11652-CVE-2020-11652-POC](https://github.com/limon768/CVE-2020-11652-CVE-2020-11652-POC)
+- [limon768/CVE-2020-11652-POC](https://github.com/limon768/CVE-2020-11652-POC)
 
 ### CVE-2020-11794
 - [w4cky/CVE-2020-11794](https://github.com/w4cky/CVE-2020-11794)
