@@ -229,6 +229,13 @@
 
 - [d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378)
 
+### CVE-2024-21412 (2024-02-13)
+
+<code>Internet Shortcut Files Security Feature Bypass Vulnerability
+</code>
+
+- [wr00t/CVE-2024-21412_Water-Hydra](https://github.com/wr00t/CVE-2024-21412_Water-Hydra)
+
 ### CVE-2024-21413 (2024-02-13)
 
 <code>Microsoft Outlook Remote Code Execution Vulnerability
@@ -946,6 +953,48 @@
 
 ### CVE-2024-28741
 - [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
+
+### CVE-2024-29439
+- [yashpatelphd/CVE-2024-29439](https://github.com/yashpatelphd/CVE-2024-29439)
+
+### CVE-2024-29440
+- [yashpatelphd/CVE-2024-29440](https://github.com/yashpatelphd/CVE-2024-29440)
+
+### CVE-2024-29441
+- [yashpatelphd/CVE-2024-29441](https://github.com/yashpatelphd/CVE-2024-29441)
+
+### CVE-2024-29442
+- [yashpatelphd/CVE-2024-29442](https://github.com/yashpatelphd/CVE-2024-29442)
+
+### CVE-2024-29443
+- [yashpatelphd/CVE-2024-29443](https://github.com/yashpatelphd/CVE-2024-29443)
+
+### CVE-2024-29444
+- [yashpatelphd/CVE-2024-29444](https://github.com/yashpatelphd/CVE-2024-29444)
+
+### CVE-2024-29445
+- [yashpatelphd/CVE-2024-29445](https://github.com/yashpatelphd/CVE-2024-29445)
+
+### CVE-2024-29447
+- [yashpatelphd/CVE-2024-29447](https://github.com/yashpatelphd/CVE-2024-29447)
+
+### CVE-2024-29448
+- [yashpatelphd/CVE-2024-29448](https://github.com/yashpatelphd/CVE-2024-29448)
+
+### CVE-2024-29449
+- [yashpatelphd/CVE-2024-29449](https://github.com/yashpatelphd/CVE-2024-29449)
+
+### CVE-2024-29450
+- [yashpatelphd/CVE-2024-29450](https://github.com/yashpatelphd/CVE-2024-29450)
+
+### CVE-2024-29452
+- [yashpatelphd/CVE-2024-29452](https://github.com/yashpatelphd/CVE-2024-29452)
+
+### CVE-2024-29454
+- [yashpatelphd/CVE-2024-29454](https://github.com/yashpatelphd/CVE-2024-29454)
+
+### CVE-2024-29455
+- [yashpatelphd/CVE-2024-29455](https://github.com/yashpatelphd/CVE-2024-29455)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -3963,9 +4012,6 @@
 - [1820112015/CVE-2023-29923](https://github.com/1820112015/CVE-2023-29923)
 - [CKevens/CVE-2023-29923-Scan](https://github.com/CKevens/CVE-2023-29923-Scan)
 - [Le1a/CVE-2023-29923](https://github.com/Le1a/CVE-2023-29923)
-
-### CVE-2023-29929
-- [YSaxon/CVE-2023-29929](https://github.com/YSaxon/CVE-2023-29929)
 
 ### CVE-2023-29930 (2023-05-10)
 
@@ -39779,6 +39825,7 @@
 - [0xF331-D3AD/CVE-2012-2982](https://github.com/0xF331-D3AD/CVE-2012-2982)
 - [0xTas/CVE-2012-2982](https://github.com/0xTas/CVE-2012-2982)
 - [LeDucKhiem/CVE-2012-2982](https://github.com/LeDucKhiem/CVE-2012-2982)
+- [CpyRe/CVE-2012-2982](https://github.com/CpyRe/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
 
