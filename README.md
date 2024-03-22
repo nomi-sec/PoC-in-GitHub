@@ -5407,6 +5407,13 @@
 
 - [pwndorei/CVE-2023-36407](https://github.com/pwndorei/CVE-2023-36407)
 
+### CVE-2023-36424 (2023-11-14)
+
+<code>Windows Common Log File System Driver Elevation of Privilege Vulnerability
+</code>
+
+- [Nassim-Asrir/CVE-2023-36424](https://github.com/Nassim-Asrir/CVE-2023-36424)
+
 ### CVE-2023-36427 (2023-11-14)
 
 <code>Windows Hyper-V Elevation of Privilege Vulnerability
@@ -5726,7 +5733,7 @@
 
 - [horizon3ai/CVE-2023-38035](https://github.com/horizon3ai/CVE-2023-38035)
 - [LeakIX/sentryexploit](https://github.com/LeakIX/sentryexploit)
-- [mind2hex/MICS_Hunter](https://github.com/mind2hex/MICS_Hunter)
+- [mind2hex/CVE-2023-38035](https://github.com/mind2hex/CVE-2023-38035)
 
 ### CVE-2023-38041 (2023-10-24)
 
@@ -13403,7 +13410,7 @@
 <code>A Command injection vulnerability in RaspAP 2.8.0 thru 2.8.7 allows unauthenticated attackers to execute arbitrary commands via the cfg_id parameter in /ajax/openvpn/activate_ovpncfg.php and /ajax/openvpn/del_ovpncfg.php.
 </code>
 
-- [mind2hex/RaspAP_Hunter](https://github.com/mind2hex/RaspAP_Hunter)
+- [mind2hex/CVE-2022-39986](https://github.com/mind2hex/CVE-2022-39986)
 - [tucommenceapousser/RaspAP-CVE-2022-39986-PoC](https://github.com/tucommenceapousser/RaspAP-CVE-2022-39986-PoC)
 
 ### CVE-2022-40032 (2023-02-17)
