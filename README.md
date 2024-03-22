@@ -945,6 +945,9 @@
 
 - [levpachmanov/cve-2024-28088-poc](https://github.com/levpachmanov/cve-2024-28088-poc)
 
+### CVE-2024-28397
+- [Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397)
+
 ### CVE-2024-28515
 - [heshi906/CVE-2024-28515](https://github.com/heshi906/CVE-2024-28515)
 
@@ -953,48 +956,6 @@
 
 ### CVE-2024-28741
 - [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
-
-### CVE-2024-29439
-- [yashpatelphd/CVE-2024-29439](https://github.com/yashpatelphd/CVE-2024-29439)
-
-### CVE-2024-29440
-- [yashpatelphd/CVE-2024-29440](https://github.com/yashpatelphd/CVE-2024-29440)
-
-### CVE-2024-29441
-- [yashpatelphd/CVE-2024-29441](https://github.com/yashpatelphd/CVE-2024-29441)
-
-### CVE-2024-29442
-- [yashpatelphd/CVE-2024-29442](https://github.com/yashpatelphd/CVE-2024-29442)
-
-### CVE-2024-29443
-- [yashpatelphd/CVE-2024-29443](https://github.com/yashpatelphd/CVE-2024-29443)
-
-### CVE-2024-29444
-- [yashpatelphd/CVE-2024-29444](https://github.com/yashpatelphd/CVE-2024-29444)
-
-### CVE-2024-29445
-- [yashpatelphd/CVE-2024-29445](https://github.com/yashpatelphd/CVE-2024-29445)
-
-### CVE-2024-29447
-- [yashpatelphd/CVE-2024-29447](https://github.com/yashpatelphd/CVE-2024-29447)
-
-### CVE-2024-29448
-- [yashpatelphd/CVE-2024-29448](https://github.com/yashpatelphd/CVE-2024-29448)
-
-### CVE-2024-29449
-- [yashpatelphd/CVE-2024-29449](https://github.com/yashpatelphd/CVE-2024-29449)
-
-### CVE-2024-29450
-- [yashpatelphd/CVE-2024-29450](https://github.com/yashpatelphd/CVE-2024-29450)
-
-### CVE-2024-29452
-- [yashpatelphd/CVE-2024-29452](https://github.com/yashpatelphd/CVE-2024-29452)
-
-### CVE-2024-29454
-- [yashpatelphd/CVE-2024-29454](https://github.com/yashpatelphd/CVE-2024-29454)
-
-### CVE-2024-29455
-- [yashpatelphd/CVE-2024-29455](https://github.com/yashpatelphd/CVE-2024-29455)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -4721,27 +4682,6 @@
 
 - [wushigudan/CVE-2023-33517](https://github.com/wushigudan/CVE-2023-33517)
 
-### CVE-2023-33565 (2023-06-23)
-
-<code>ROS2 (Robot Operating System 2) Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 are vulnerable to Denial-of-Service (DoS) attacks. A malicious user potentially exploited the vulnerability remotely and crashed the ROS2 nodes.
-</code>
-
-- [yashpatelphd/CVE-2023-33565](https://github.com/yashpatelphd/CVE-2023-33565)
-
-### CVE-2023-33566 (2023-06-27)
-
-<code>An unauthorized node injection vulnerability has been identified in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could allow a malicious user to inject malicious ROS2 nodes into the system remotely. Once injected, these nodes could disrupt the normal operations of the system or cause other potentially harmful behavior.
-</code>
-
-- [yashpatelphd/CVE-2023-33566](https://github.com/yashpatelphd/CVE-2023-33566)
-
-### CVE-2023-33567 (2023-06-27)
-
-<code>An unauthorized access vulnerability has been discovered in ROS2 Foxy Fitzroy versions where ROS_VERSION is 2 and ROS_PYTHON_VERSION is 3. This vulnerability could potentially allow a malicious user to gain unauthorized access to multiple ROS2 nodes remotely. Unauthorized access to these nodes could result in compromised system integrity, the execution of arbitrary commands, and disclosure of sensitive information.
-</code>
-
-- [yashpatelphd/CVE-2023-33567](https://github.com/yashpatelphd/CVE-2023-33567)
-
 ### CVE-2023-33592 (2023-06-28)
 
 <code>Lost and Found Information System v1.0 was discovered to contain a SQL injection vulnerability via the component /php-lfis/admin/?page=system_info/contact_information.
@@ -8160,62 +8100,6 @@
 
 - [risuxx/CVE-2023-51127](https://github.com/risuxx/CVE-2023-51127)
 
-### CVE-2023-51197 (2024-01-30)
-
-<code>An issue discovered in shell command execution in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows an attacker to run arbitrary commands and cause other impacts.
-</code>
-
-- [yashpatelphd/CVE-2023-51197](https://github.com/yashpatelphd/CVE-2023-51197)
-
-### CVE-2023-51198 (2024-01-30)
-
-<code>An issue in the permission and access control components within ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to gain escalate privileges.
-</code>
-
-- [yashpatelphd/CVE-2023-51198](https://github.com/yashpatelphd/CVE-2023-51198)
-
-### CVE-2023-51199 (2024-01-23)
-
-<code>Buffer Overflow vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code or cause a denial of service via improper handling of arrays or strings.
-</code>
-
-- [yashpatelphd/CVE-2023-51199](https://github.com/yashpatelphd/CVE-2023-51199)
-
-### CVE-2023-51200 (2024-01-23)
-
-<code>An issue in the default configurations of ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows unauthenticated attackers to authenticate using default credentials.
-</code>
-
-- [yashpatelphd/CVE-2023-51200](https://github.com/yashpatelphd/CVE-2023-51200)
-
-### CVE-2023-51201 (2024-01-23)
-
-<code>Cleartext Transmission issue in ROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to access sensitive information via a man-in-the-middle attack.
-</code>
-
-- [yashpatelphd/CVE-2023-51201](https://github.com/yashpatelphd/CVE-2023-51201)
-
-### CVE-2023-51202 (2024-01-30)
-
-<code>OS command injection vulnerability in command processing or system call componentsROS2 (Robot Operating System 2) Foxy Fitzroy, with ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary commands.
-</code>
-
-- [yashpatelphd/CVE-2023-51202](https://github.com/yashpatelphd/CVE-2023-51202)
-
-### CVE-2023-51204 (2024-01-30)
-
-<code>Insecure deserialization in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to execute arbitrary code via a crafted input.
-</code>
-
-- [yashpatelphd/CVE-2023-51204](https://github.com/yashpatelphd/CVE-2023-51204)
-
-### CVE-2023-51208 (2024-01-23)
-
-<code>An Arbitrary File Upload vulnerability in ROS2 Foxy Fitzroy ROS_VERSION=2 and ROS_PYTHON_VERSION=3 allows attackers to run arbitrary code and cause other impacts via upload of crafted file.
-</code>
-
-- [yashpatelphd/CVE-2023-51208](https://github.com/yashpatelphd/CVE-2023-51208)
-
 ### CVE-2023-51214
 - [chandraprarikraj/CVE-2023-51214](https://github.com/chandraprarikraj/CVE-2023-51214)
 
@@ -9643,6 +9527,7 @@
 </code>
 
 - [M0chae1/CVE-2022-21445](https://github.com/M0chae1/CVE-2022-21445)
+- [hienkiet/CVE-2022-21445-for-12.2.1.3.0-Weblogic](https://github.com/hienkiet/CVE-2022-21445-for-12.2.1.3.0-Weblogic)
 
 ### CVE-2022-21449 (2022-04-19)
 
@@ -14775,9 +14660,6 @@
 </code>
 
 - [sapellaniz/CVE-2022-48474_CVE-2022-48475](https://github.com/sapellaniz/CVE-2022-48474_CVE-2022-48475)
-
-### CVE-2022-201145
-- [hienkiet/CVE-2022-201145-12.2.1.3.0-Weblogic](https://github.com/hienkiet/CVE-2022-201145-12.2.1.3.0-Weblogic)
 
 
 ## 2021
@@ -40237,6 +40119,13 @@
 </code>
 
 - [Sunqiz/cve-2010-2553-reproduction](https://github.com/Sunqiz/cve-2010-2553-reproduction)
+
+### CVE-2010-3124 (2010-08-26)
+
+<code>Untrusted search path vulnerability in bin/winvlc.c in VLC Media Player 1.1.3 and earlier allows local users, and possibly remote attackers, to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse wintab32.dll that is located in the same folder as a .mp3 file.
+</code>
+
+- [Nhom6KTLT/CVE-2010-3124](https://github.com/Nhom6KTLT/CVE-2010-3124)
 
 ### CVE-2010-3332 (2010-09-22)
 
