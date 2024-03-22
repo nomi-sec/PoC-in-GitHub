@@ -807,6 +807,9 @@
 
 - [shenhav12/CVE-2024-25170-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0)
 
+### CVE-2024-25175
+- [jet-pentest/CVE-2024-25175](https://github.com/jet-pentest/CVE-2024-25175)
+
 ### CVE-2024-25202 (-)
 
 <code>Cross Site Scripting vulnerability in Phpgurukul User Registration &amp; Login and User Management System 1.0 allows attackers to run arbitrary code via the search bar.
@@ -10191,6 +10194,7 @@
 </code>
 
 - [Inplex-sys/CVE-2022-23093](https://github.com/Inplex-sys/CVE-2022-23093)
+- [Symbolexe/DrayTek-Exploit](https://github.com/Symbolexe/DrayTek-Exploit)
 
 ### CVE-2022-23131 (2022-01-13)
 
@@ -37888,6 +37892,13 @@
 </code>
 
 - [vincd/CVE-2015-4495](https://github.com/vincd/CVE-2015-4495)
+
+### CVE-2015-4843 (2015-10-21)
+
+<code>Unspecified vulnerability in Oracle Java SE 6u101, 7u85, and 8u60, and Java SE Embedded 8u51, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.
+</code>
+
+- [Soteria-Research/cve-2015-4843-type-confusion-phrack](https://github.com/Soteria-Research/cve-2015-4843-type-confusion-phrack)
 
 ### CVE-2015-4852 (2015-11-18)
 
