@@ -284,8 +284,6 @@
 - [cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker)
 - [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
-- [vorotilovaawex/CVE-2024-21762_POC](https://github.com/vorotilovaawex/CVE-2024-21762_POC)
-- [TheRedDevil1/CVE-2024-21762](https://github.com/TheRedDevil1/CVE-2024-21762)
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 
 ### CVE-2024-21887 (2024-01-12)
@@ -296,7 +294,6 @@
 - [oways/ivanti-CVE-2024-21887](https://github.com/oways/ivanti-CVE-2024-21887)
 - [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
 - [Chocapikk/CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21887)
-- [TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script)
 - [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
 - [seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan)
 - [mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped](https://github.com/mickdec/CVE-2023-46805_CVE-2024-21887_scan_grouped)
@@ -568,7 +565,6 @@
 - [pulentoski/CVE-2024-23897-Arbitrary-file-read](https://github.com/pulentoski/CVE-2024-23897-Arbitrary-file-read)
 - [Nebian/CVE-2024-23897](https://github.com/Nebian/CVE-2024-23897)
 - [Abo5/CVE-2024-23897](https://github.com/Abo5/CVE-2024-23897)
-- [TheRedDevil1/CVE-2024-23897](https://github.com/TheRedDevil1/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -2222,7 +2218,6 @@
 - [Vozec/CVE-2023-7028](https://github.com/Vozec/CVE-2023-7028)
 - [yoryio/CVE-2023-7028](https://github.com/yoryio/CVE-2023-7028)
 - [Esonhugh/gitlab_honeypot](https://github.com/Esonhugh/gitlab_honeypot)
-- [TheRedDevil1/CVE-2023-7028](https://github.com/TheRedDevil1/CVE-2023-7028)
 - [Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab](https://github.com/Shimon03/CVE-2023-7028-Account-Take-Over-Gitlab)
 - [thanhlam-attt/CVE-2023-7028](https://github.com/thanhlam-attt/CVE-2023-7028)
 - [Trackflaw/CVE-2023-7028-Docker](https://github.com/Trackflaw/CVE-2023-7028-Docker)
@@ -4685,6 +4680,13 @@
 </code>
 
 - [wushigudan/CVE-2023-33517](https://github.com/wushigudan/CVE-2023-33517)
+
+### CVE-2023-33580 (2023-06-26)
+
+<code>Phpgurukul Student Study Center Management System V1.0 is vulnerable to Cross Site Scripting (XSS) in the &quot;Admin Name&quot; field on Admin Profile page.
+</code>
+
+- [sudovivek/My-CVE](https://github.com/sudovivek/My-CVE)
 
 ### CVE-2023-33592 (2023-06-28)
 
@@ -7315,7 +7317,6 @@
 - [yoryio/CVE-2023-46805](https://github.com/yoryio/CVE-2023-46805)
 - [cbeek-r7/CVE-2023-46805](https://github.com/cbeek-r7/CVE-2023-46805)
 - [duy-31/CVE-2023-46805_CVE-2024-21887](https://github.com/duy-31/CVE-2023-46805_CVE-2024-21887)
-- [TheRedDevil1/Check-Vulns-Script](https://github.com/TheRedDevil1/Check-Vulns-Script)
 - [raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887](https://github.com/raminkarimkhani1996/CVE-2023-46805_CVE-2024-21887)
 - [seajaysec/Ivanti-Connect-Around-Scan](https://github.com/seajaysec/Ivanti-Connect-Around-Scan)
 - [Chocapikk/CVE-2023-46805](https://github.com/Chocapikk/CVE-2023-46805)
@@ -7613,9 +7614,7 @@
 - [AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777](https://github.com/AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777)
 
 ### CVE-2023-48788
-- [TheRedDevil1/CVE-2023-48788](https://github.com/TheRedDevil1/CVE-2023-48788)
 - [horizon3ai/CVE-2023-48788](https://github.com/horizon3ai/CVE-2023-48788)
-- [TheRedDevil1/CVE-2023-48788-exploit](https://github.com/TheRedDevil1/CVE-2023-48788-exploit)
 
 ### CVE-2023-48842 (2023-12-01)
 
