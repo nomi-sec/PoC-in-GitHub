@@ -7565,6 +7565,7 @@
 </code>
 
 - [Hamibubu/CVE-2023-48084](https://github.com/Hamibubu/CVE-2023-48084)
+- [bucketcat/CVE-2023-48084](https://github.com/bucketcat/CVE-2023-48084)
 
 ### CVE-2023-48104 (2024-01-15)
 
@@ -20792,6 +20793,7 @@
 - [scabench/l4j-tp1](https://github.com/scabench/l4j-tp1)
 - [scabench/l4j-fp1](https://github.com/scabench/l4j-fp1)
 - [KtokKawu/l4s-vulnapp](https://github.com/KtokKawu/l4s-vulnapp)
+- [sec13b/CVE-2021-44228-POC](https://github.com/sec13b/CVE-2021-44228-POC)
 
 ### CVE-2021-44255 (2022-01-31)
 
