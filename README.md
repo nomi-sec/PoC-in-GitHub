@@ -149,6 +149,7 @@
 
 - [W01fh4cker/ScreenConnect-AuthBypass-RCE](https://github.com/W01fh4cker/ScreenConnect-AuthBypass-RCE)
 - [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
+- [sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass](https://github.com/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass)
 
 ### CVE-2024-1781 (2024-02-22)
 
@@ -7613,6 +7614,7 @@
 ### CVE-2023-48788
 - [TheRedDevil1/CVE-2023-48788](https://github.com/TheRedDevil1/CVE-2023-48788)
 - [horizon3ai/CVE-2023-48788](https://github.com/horizon3ai/CVE-2023-48788)
+- [TheRedDevil1/CVE-2023-48788-exploit](https://github.com/TheRedDevil1/CVE-2023-48788-exploit)
 
 ### CVE-2023-48842 (2023-12-01)
 
