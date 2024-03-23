@@ -66,13 +66,6 @@
 - [Matrexdz/CVE-2024-1071](https://github.com/Matrexdz/CVE-2024-1071)
 - [Matrexdz/CVE-2024-1071-Docker](https://github.com/Matrexdz/CVE-2024-1071-Docker)
 
-### CVE-2024-1086 (2024-01-31)
-
-<code>A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.\n\n
-</code>
-
-- [Notselwyn/CVE-2024-1086](https://github.com/Notselwyn/CVE-2024-1086)
-
 ### CVE-2024-1208 (2024-02-05)
 
 <code>The LearnDash LMS plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.10.2 via API. This makes it possible for unauthenticated attackers to obtain access to quiz questions.
@@ -6007,6 +6000,13 @@
 
 ### CVE-2023-40000
 - [rxerium/CVE-2023-40000](https://github.com/rxerium/CVE-2023-40000)
+
+### CVE-2023-40028 (2023-08-15)
+
+<code>Ghost is an open source content management system. Versions prior to 5.59.1 are subject to a vulnerability which allows authenticated users to upload files that are symlinks. This can be exploited to perform an arbitrary file read of any file on the host operating system. Site administrators can check for exploitation of this issue by looking for unknown symlinks within Ghost's `content/` folder. Version 5.59.1 contains a fix for this issue. All users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [0xyassine/CVE-2023-40028](https://github.com/0xyassine/CVE-2023-40028)
 
 ### CVE-2023-40031 (2023-08-25)
 
@@ -36636,7 +36636,7 @@
 <code>LibUtils in Android 4.x before 4.4.4, 5.0.x before 5.0.2, 5.1.x before 5.1.1, 6.x before 2016-09-01, and 7.0 before 2016-09-01 mishandles conversions between Unicode character encodings with different encoding widths, which allows remote attackers to execute arbitrary code or cause a denial of service (heap-based buffer overflow) via a crafted file, aka internal bug 29250543.
 </code>
 
-- [zeroshotkevin/CVE-2016-3861](https://github.com/zeroshotkevin/CVE-2016-3861)
+- [zxkevn/CVE-2016-3861](https://github.com/zxkevn/CVE-2016-3861)
 
 ### CVE-2016-3955 (2016-07-03)
 
