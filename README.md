@@ -404,13 +404,6 @@
 ### CVE-2024-22909
 - [BurakSevben/CVE-2024-22909](https://github.com/BurakSevben/CVE-2024-22909)
 
-### CVE-2024-22917 (2024-02-26)
-
-<code>SQL injection vulnerability in Dynamic Lab Management System Project in PHP v.1.0 allows a remote attacker to execute arbitrary code via a crafted script.
-</code>
-
-- [ASR511-OO7/CVE-2024-22917](https://github.com/ASR511-OO7/CVE-2024-22917)
-
 ### CVE-2024-22922 (2024-01-25)
 
 <code>An issue in Projectworlds Vistor Management Systemin PHP v.1.0 allows a remtoe attacker to escalate privileges via a crafted script to the login page in the POST/index.php
@@ -455,6 +448,9 @@
 </code>
 
 - [abian2/CVE-2024-23652](https://github.com/abian2/CVE-2024-23652)
+
+### CVE-2024-23727
+- [actuator/yi](https://github.com/actuator/yi)
 
 ### CVE-2024-23738 (2024-01-27)
 
@@ -575,71 +571,6 @@
 </code>
 
 - [ELIZEUOPAIN/CVE-2024-24035](https://github.com/ELIZEUOPAIN/CVE-2024-24035)
-
-### CVE-2024-24092
-- [ASR511-OO7/CVE-2024-24092](https://github.com/ASR511-OO7/CVE-2024-24092)
-
-### CVE-2024-24093
-- [ASR511-OO7/CVE-2024-24093](https://github.com/ASR511-OO7/CVE-2024-24093)
-
-### CVE-2024-24094
-- [ASR511-OO7/CVE-2024-24094](https://github.com/ASR511-OO7/CVE-2024-24094)
-
-### CVE-2024-24095 (2024-02-26)
-
-<code>Code-projects Simple Stock System 1.0 is vulnerable to SQL Injection.
-</code>
-
-- [ASR511-OO7/CVE-2024-24095](https://github.com/ASR511-OO7/CVE-2024-24095)
-
-### CVE-2024-24096 (2024-02-26)
-
-<code>Code-projects Computer Book Store 1.0 is vulnerable to SQL Injection via BookSBIN.
-</code>
-
-- [ASR511-OO7/CVE-2024-24096](https://github.com/ASR511-OO7/CVE-2024-24096)
-
-### CVE-2024-24097
-- [ASR511-OO7/CVE-2024-24097](https://github.com/ASR511-OO7/CVE-2024-24097)
-
-### CVE-2024-24098 (-)
-
-<code>Code-projects Scholars Tracking System 1.0 is vulnerable to SQL Injection via the News Feed.
-</code>
-
-- [ASR511-OO7/CVE-2024-24098](https://github.com/ASR511-OO7/CVE-2024-24098)
-
-### CVE-2024-24099 (2024-02-26)
-
-<code>Code-projects Scholars Tracking System 1.0 is vulnerable to SQL Injection under Employment Status Information Update.
-</code>
-
-- [ASR511-OO7/CVE-2024-24099](https://github.com/ASR511-OO7/CVE-2024-24099)
-
-### CVE-2024-24100 (2024-02-26)
-
-<code>Code-projects Computer Book Store 1.0 is vulnerable to SQL Injection via PublisherID.
-</code>
-
-- [ASR511-OO7/CVE-2024-24100](https://github.com/ASR511-OO7/CVE-2024-24100)
-
-### CVE-2024-24101
-- [ASR511-OO7/CVE-2024-24101](https://github.com/ASR511-OO7/CVE-2024-24101)
-
-### CVE-2024-24102
-- [ASR511-OO7/CVE-2024-24102](https://github.com/ASR511-OO7/CVE-2024-24102)
-
-### CVE-2024-24103
-- [ASR511-OO7/CVE-2024-24103](https://github.com/ASR511-OO7/CVE-2024-24103)
-
-### CVE-2024-24104
-- [ASR511-OO7/CVE-2024-24104](https://github.com/ASR511-OO7/CVE-2024-24104)
-
-### CVE-2024-24105
-- [ASR511-OO7/CVE-2024-24105](https://github.com/ASR511-OO7/CVE-2024-24105)
-
-### CVE-2024-24108
-- [ASR511-OO7/CVE-2024-24108](https://github.com/ASR511-OO7/CVE-2024-24108)
 
 ### CVE-2024-24134 (2024-01-29)
 
@@ -821,16 +752,6 @@
 
 - [intbjw/CVE-2024-25249](https://github.com/intbjw/CVE-2024-25249)
 
-### CVE-2024-25250
-- [ASR511-OO7/CVE-2024-25250.](https://github.com/ASR511-OO7/CVE-2024-25250.)
-
-### CVE-2024-25251 (2024-02-21)
-
-<code>code-projects Agro-School Management System 1.0 is suffers from Incorrect Access Control.
-</code>
-
-- [ASR511-OO7/CVE-2024-25251](https://github.com/ASR511-OO7/CVE-2024-25251)
-
 ### CVE-2024-25270
 - [fbkcs/CVE-2024-25270](https://github.com/fbkcs/CVE-2024-25270)
 
@@ -940,6 +861,9 @@
 </code>
 
 - [levpachmanov/cve-2024-28088-poc](https://github.com/levpachmanov/cve-2024-28088-poc)
+
+### CVE-2024-28116
+- [akabe1/Graver](https://github.com/akabe1/Graver)
 
 ### CVE-2024-28397
 - [Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397)
@@ -4706,20 +4630,6 @@
 
 - [lodi-g/CVE-2023-33668](https://github.com/lodi-g/CVE-2023-33668)
 
-### CVE-2023-33676 (-)
-
-<code>Sourcecodester Lost and Found Information System's Version 1.0 is vulnerable to unauthenticated SQL Injection at &quot;?page=items/view&amp;id=*&quot; which can be escalated to the remote command execution.
-</code>
-
-- [ASR511-OO7/CVE-2023-33676](https://github.com/ASR511-OO7/CVE-2023-33676)
-
-### CVE-2023-33677 (-)
-
-<code>Sourcecodester Lost and Found Information System's Version 1.0 is vulnerable to unauthenticated SQL Injection at &quot;?page=items/view&amp;id=*&quot;.
-</code>
-
-- [ASR511-OO7/CVE-2023-33677](https://github.com/ASR511-OO7/CVE-2023-33677)
-
 ### CVE-2023-33730 (2023-05-31)
 
 <code>Privilege Escalation in the &quot;GetUserCurrentPwd&quot; function in Microworld Technologies eScan Management Console 14.0.1400.2281 allows any remote attacker to retrieve password of any admin or normal user in plain text format.
@@ -6178,20 +6088,6 @@
 
 - [Zone1-Z/CVE-2023-40989](https://github.com/Zone1-Z/CVE-2023-40989)
 
-### CVE-2023-41014 (-)
-
-<code>code-projects.org Online Job Portal 1.0 is vulnerable to SQL Injection via the Username parameter for &quot;Employer.&quot;
-</code>
-
-- [ASR511-OO7/CVE-2023-41014](https://github.com/ASR511-OO7/CVE-2023-41014)
-
-### CVE-2023-41015 (-)
-
-<code>code-projects.org Online Job Portal 1.0 is vulnerable to SQL Injection via /Employer/DeleteJob.php?JobId=1.
-</code>
-
-- [ASR511-OO7/CVE-2023-41015](https://github.com/ASR511-OO7/CVE-2023-41015)
-
 ### CVE-2023-41064 (2023-09-07)
 
 <code>A buffer overflow issue was addressed with improved memory handling. This issue is fixed in iOS 16.6.1 and iPadOS 16.6.1, macOS Monterey 12.6.9, macOS Ventura 13.5.2, iOS 15.7.9 and iPadOS 15.7.9, macOS Big Sur 11.7.10. Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.
@@ -6249,41 +6145,6 @@
 </code>
 
 - [JBalanza/CVE-2023-41474](https://github.com/JBalanza/CVE-2023-41474)
-
-### CVE-2023-41497
-- [ASR511-OO7/CVE-2023-41497](https://github.com/ASR511-OO7/CVE-2023-41497)
-
-### CVE-2023-41498
-- [ASR511-OO7/CVE-2023-41498](https://github.com/ASR511-OO7/CVE-2023-41498)
-
-### CVE-2023-41499
-- [ASR511-OO7/CVE-2023-41499](https://github.com/ASR511-OO7/CVE-2023-41499)
-
-### CVE-2023-41500
-- [ASR511-OO7/CVE-2023-41500](https://github.com/ASR511-OO7/CVE-2023-41500)
-
-### CVE-2023-41501
-- [ASR511-OO7/CVE-2023-41501](https://github.com/ASR511-OO7/CVE-2023-41501)
-
-### CVE-2023-41503 (-)
-
-<code>Student Enrollment In PHP v1.0 was discovered to contain a SQL injection vulnerability via the Login function.
-</code>
-
-- [ASR511-OO7/CVE-2023-41503](https://github.com/ASR511-OO7/CVE-2023-41503)
-
-### CVE-2023-41504
-- [ASR511-OO7/CVE-2023-41504](https://github.com/ASR511-OO7/CVE-2023-41504)
-
-### CVE-2023-41505
-- [ASR511-OO7/CVE-2023-41505](https://github.com/ASR511-OO7/CVE-2023-41505)
-
-### CVE-2023-41506 (2024-02-26)
-
-<code>An arbitrary file upload vulnerability in the Update/Edit Student's Profile Picture function of Student Enrollment In PHP v1.0 allows attackers to execute arbitrary code via uploading a crafted PHP file.
-</code>
-
-- [ASR511-OO7/CVE-2023-41506](https://github.com/ASR511-OO7/CVE-2023-41506)
 
 ### CVE-2023-41507 (2023-09-05)
 
@@ -6407,12 +6268,6 @@
 </code>
 
 - [andreysanyuk/CVE-2023-42284](https://github.com/andreysanyuk/CVE-2023-42284)
-
-### CVE-2023-42307
-- [ASR511-OO7/CVE-2023-42307](https://github.com/ASR511-OO7/CVE-2023-42307)
-
-### CVE-2023-42308
-- [ASR511-OO7/CVE-2023-42308](https://github.com/ASR511-OO7/CVE-2023-42308)
 
 ### CVE-2023-42362 (2023-09-14)
 
@@ -6573,9 +6428,6 @@
 </code>
 
 - [MateusTesser/CVE-2023-43284](https://github.com/MateusTesser/CVE-2023-43284)
-
-### CVE-2023-43292
-- [ASR511-OO7/CVE-2023-43292](https://github.com/ASR511-OO7/CVE-2023-43292)
 
 ### CVE-2023-43317 (2024-01-24)
 
@@ -10006,7 +9858,6 @@
 - [orwagodfather/CVE-2022-22954](https://github.com/orwagodfather/CVE-2022-22954)
 - [b4dboy17/CVE-2022-22954](https://github.com/b4dboy17/CVE-2022-22954)
 - [arzuozkan/CVE-2022-22954](https://github.com/arzuozkan/CVE-2022-22954)
-- [1SeaMy/CVE-2022-22954](https://github.com/1SeaMy/CVE-2022-22954)
 - [amit-pathak009/CVE-2022-22954](https://github.com/amit-pathak009/CVE-2022-22954)
 - [amit-pathak009/CVE-2022-22954-PoC](https://github.com/amit-pathak009/CVE-2022-22954-PoC)
 - [Schira4396/VcenterKiller](https://github.com/Schira4396/VcenterKiller)
@@ -14365,27 +14216,6 @@
 
 - [G37SYS73M/CVE-2022-46087](https://github.com/G37SYS73M/CVE-2022-46087)
 
-### CVE-2022-46088 (-)
-
-<code>Online Flight Booking Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the feedback form.
-</code>
-
-- [ASR511-OO7/CVE-2022-46088](https://github.com/ASR511-OO7/CVE-2022-46088)
-
-### CVE-2022-46089 (-)
-
-<code>Cross Site Scripting (XSS) vulnerability in the add-airline form of Online Flight Booking Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the airline parameter.
-</code>
-
-- [ASR511-OO7/CVE-2022-46089](https://github.com/ASR511-OO7/CVE-2022-46089)
-
-### CVE-2022-46091 (-)
-
-<code>Cross Site Scripting (XSS) vulnerability in the feedback form of Online Flight Booking Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the airline parameter.
-</code>
-
-- [ASR511-OO7/CVE-2022-46091](https://github.com/ASR511-OO7/CVE-2022-46091)
-
 ### CVE-2022-46104
 - [NurSec747/CVE-2022-46104---POC](https://github.com/NurSec747/CVE-2022-46104---POC)
 
@@ -14485,27 +14315,6 @@
 </code>
 
 - [WodenSec/CVE-2022-46485](https://github.com/WodenSec/CVE-2022-46485)
-
-### CVE-2022-46497 (-)
-
-<code>Hospital Management System 1.0 was discovered to contain a SQL injection vulnerability via the pat_number parameter at his_doc_view_single_patien.php.
-</code>
-
-- [ASR511-OO7/CVE-2022-46497](https://github.com/ASR511-OO7/CVE-2022-46497)
-
-### CVE-2022-46498 (-)
-
-<code>Hospital Management System 1.0 was discovered to contain a SQL injection vulnerability via the doc_number parameter at his_admin_view_single_employee.php.
-</code>
-
-- [ASR511-OO7/CVE-2022-46498](https://github.com/ASR511-OO7/CVE-2022-46498)
-
-### CVE-2022-46499 (-)
-
-<code>Hospital Management System 1.0 was discovered to contain a SQL injection vulnerability via the pat_number parameter at his_admin_view_single_patient.php.
-</code>
-
-- [ASR511-OO7/CVE-2022-46499](https://github.com/ASR511-OO7/CVE-2022-46499)
 
 ### CVE-2022-46505 (2023-01-18)
 
