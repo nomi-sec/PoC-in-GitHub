@@ -164,6 +164,9 @@
 ### CVE-2024-2432
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
+### CVE-2024-2856
+- [Schnaidr/CVE-2024-2856-Stack-overflow-EXP](https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -448,6 +451,9 @@
 </code>
 
 - [abian2/CVE-2024-23652](https://github.com/abian2/CVE-2024-23652)
+
+### CVE-2024-23722
+- [alexcote1/CVE-2024-23722-poc](https://github.com/alexcote1/CVE-2024-23722-poc)
 
 ### CVE-2024-23727
 - [actuator/yi](https://github.com/actuator/yi)
@@ -876,6 +882,9 @@
 
 ### CVE-2024-28741
 - [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
+
+### CVE-2024-29059
+- [codewhitesec/HttpRemotingObjRefLeak](https://github.com/codewhitesec/HttpRemotingObjRefLeak)
 
 ### CVE-2024-29194
 - [mansploit/CVE-2024-29194-POC](https://github.com/mansploit/CVE-2024-29194-POC)
@@ -5777,6 +5786,7 @@
 - [80r1ng/CVE-2023-38831-EXP](https://github.com/80r1ng/CVE-2023-38831-EXP)
 - [SpamixOfficial/CVE-2023-38831](https://github.com/SpamixOfficial/CVE-2023-38831)
 - [r1yaz/winDED](https://github.com/r1yaz/winDED)
+- [youmulijiang/evil-winrar](https://github.com/youmulijiang/evil-winrar)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -10028,6 +10038,7 @@
 - [umakant76705/CVE-2022-22978](https://github.com/umakant76705/CVE-2022-22978)
 - [Raghvendra1207/CVE-2022-22978](https://github.com/Raghvendra1207/CVE-2022-22978)
 - [mukeshkumar286/spring-security-CVE-2022-22978](https://github.com/mukeshkumar286/spring-security-CVE-2022-22978)
+- [mukeshkumar286/spring-security-CVE-2022-22978-Jar](https://github.com/mukeshkumar286/spring-security-CVE-2022-22978-Jar)
 
 ### CVE-2022-22980 (2022-06-22)
 
@@ -20614,6 +20625,7 @@
 - [Tai-e/CVE-2021-44228](https://github.com/Tai-e/CVE-2021-44228)
 - [LucasPDiniz/CVE-2021-44228](https://github.com/LucasPDiniz/CVE-2021-44228)
 - [felixslama/log4shell-minecraft-demo](https://github.com/felixslama/log4shell-minecraft-demo)
+- [ShlomiRex/log4shell_lab](https://github.com/ShlomiRex/log4shell_lab)
 - [dcm2406/CVE-Lab](https://github.com/dcm2406/CVE-Lab)
 - [scabench/l4j-tp1](https://github.com/scabench/l4j-tp1)
 - [scabench/l4j-fp1](https://github.com/scabench/l4j-fp1)
