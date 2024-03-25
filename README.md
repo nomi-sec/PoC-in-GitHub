@@ -877,6 +877,12 @@
 ### CVE-2024-28741
 - [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
 
+### CVE-2024-29194
+- [mansploit/CVE-2024-29194-POC](https://github.com/mansploit/CVE-2024-29194-POC)
+
+### CVE-2024-29197
+- [mansploit/CVE-2024-29197-exploit](https://github.com/mansploit/CVE-2024-29197-exploit)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -1573,8 +1579,6 @@
 <code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. \n\n
 </code>
 
-- [NewLockBit/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/NewLockBit/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
-- [NewLockBit/Research-of-CVE-2023-3824-NCA-Lockbit](https://github.com/NewLockBit/Research-of-CVE-2023-3824-NCA-Lockbit)
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 
 ### CVE-2023-3836 (2023-07-22)
@@ -6210,9 +6214,6 @@
 </code>
 
 - [federella/CVE-2023-41717](https://github.com/federella/CVE-2023-41717)
-
-### CVE-2023-41724
-- [russhackerr/CVE-2023-41724](https://github.com/russhackerr/CVE-2023-41724)
 
 ### CVE-2023-41772 (2023-10-10)
 
