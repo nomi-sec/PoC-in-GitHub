@@ -171,6 +171,9 @@
 ### CVE-2024-2432
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
+### CVE-2024-2865
+- [RobertSecurity/CVE-2024-2865-CRITICAL](https://github.com/RobertSecurity/CVE-2024-2865-CRITICAL)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -208,6 +211,10 @@
 </code>
 
 - [RomanRybachek/CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698)
+
+### CVE-2024-20767
+- [yoryio/CVE-2024-20767](https://github.com/yoryio/CVE-2024-20767)
+- [m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767)
 
 ### CVE-2024-20931 (2024-02-16)
 
@@ -6335,9 +6342,6 @@
 
 - [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
 
-### CVE-2023-42789
-- [CrimBit/CVE-2023-42789-POC](https://github.com/CrimBit/CVE-2023-42789-POC)
-
 ### CVE-2023-42793 (2023-09-19)
 
 <code>In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible
@@ -6362,6 +6366,9 @@
 
 - [C1ph3rX13/CVE-2023-42820](https://github.com/C1ph3rX13/CVE-2023-42820)
 - [Startr4ck/cve-2023-42820](https://github.com/Startr4ck/cve-2023-42820)
+
+### CVE-2023-42931
+- [d0rb/CVE-2023-42931](https://github.com/d0rb/CVE-2023-42931)
 
 ### CVE-2023-43115 (2023-09-18)
 
@@ -22952,6 +22959,7 @@
 - [ShutdownRepo/CVE-2020-7961](https://github.com/ShutdownRepo/CVE-2020-7961)
 - [pashayogi/CVE-2020-7961-Mass](https://github.com/pashayogi/CVE-2020-7961-Mass)
 - [manrop2702/CVE-2020-7961](https://github.com/manrop2702/CVE-2020-7961)
+- [NMinhTrung/LIFERAY-CVE-2020-7961](https://github.com/NMinhTrung/LIFERAY-CVE-2020-7961)
 
 ### CVE-2020-7980 (2020-01-25)
 
@@ -39891,6 +39899,13 @@
 </code>
 
 - [hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper)
+
+### CVE-2011-5325 (2017-08-07)
+
+<code>Directory traversal vulnerability in the BusyBox implementation of tar before 1.22.0 v5 allows remote attackers to point to files outside the current working directory via a symlink.
+</code>
+
+- [itwizardo/CVE-2011-5325](https://github.com/itwizardo/CVE-2011-5325)
 
 ### CVE-2011-5331 (2019-11-18)
 
