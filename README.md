@@ -892,6 +892,9 @@
 ### CVE-2024-29197
 - [mansploit/CVE-2024-29197-exploit](https://github.com/mansploit/CVE-2024-29197-exploit)
 
+### CVE-2024-29272
+- [awjkjflkwlekfdjs/CVE-2024-29272](https://github.com/awjkjflkwlekfdjs/CVE-2024-29272)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -7155,6 +7158,7 @@
 - [hh-hunter/cve-2023-46604](https://github.com/hh-hunter/cve-2023-46604)
 - [ST3G4N05/ExploitScript-CVE-2023-46604](https://github.com/ST3G4N05/ExploitScript-CVE-2023-46604)
 - [Arlenhiack/ActiveMQ-RCE-Exploit](https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit)
+- [ph-hitachi/CVE-2023-46604](https://github.com/ph-hitachi/CVE-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
@@ -10037,8 +10041,6 @@
 - [aeifkz/CVE-2022-22978](https://github.com/aeifkz/CVE-2022-22978)
 - [umakant76705/CVE-2022-22978](https://github.com/umakant76705/CVE-2022-22978)
 - [Raghvendra1207/CVE-2022-22978](https://github.com/Raghvendra1207/CVE-2022-22978)
-- [mukeshkumar286/spring-security-CVE-2022-22978](https://github.com/mukeshkumar286/spring-security-CVE-2022-22978)
-- [mukeshkumar286/spring-security-CVE-2022-22978-Jar](https://github.com/mukeshkumar286/spring-security-CVE-2022-22978-Jar)
 
 ### CVE-2022-22980 (2022-06-22)
 
@@ -12377,6 +12379,13 @@
 </code>
 
 - [ox1111/CVE-2022-32898](https://github.com/ox1111/CVE-2022-32898)
+
+### CVE-2022-32932 (2022-11-01)
+
+<code>The issue was addressed with improved memory handling. This issue is fixed in iOS 15.7.1 and iPadOS 15.7.1, iOS 16.1 and iPadOS 16, watchOS 9.1. An app may be able to execute arbitrary code with kernel privileges.
+</code>
+
+- [ox1111/CVE-2022-32932](https://github.com/ox1111/CVE-2022-32932)
 
 ### CVE-2022-32947 (2022-11-01)
 
