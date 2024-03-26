@@ -151,6 +151,13 @@
 
 - [Icycu123/CVE-2024-1781](https://github.com/Icycu123/CVE-2024-1781)
 
+### CVE-2024-2054 (-)
+
+<code>The Artica-Proxy administrative web application will deserialize arbitrary PHP objects supplied by unauthenticated users and subsequently enable code execution as the &quot;www-data&quot; user.
+</code>
+
+- [Madan301/CVE-2024-2054](https://github.com/Madan301/CVE-2024-2054)
+
 ### CVE-2024-2074 (-)
 
 <code>Eine kritische Schwachstelle wurde in Mini-Tmall bis 20231017 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei ?r=tmall/admin/user/1/1. Mit der Manipulation des Arguments orderBy mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -163,9 +170,6 @@
 
 ### CVE-2024-2432
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
-
-### CVE-2024-2856
-- [Schnaidr/CVE-2024-2856-Stack-overflow-EXP](https://github.com/Schnaidr/CVE-2024-2856-Stack-overflow-EXP)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -885,12 +889,6 @@
 
 ### CVE-2024-29059
 - [codewhitesec/HttpRemotingObjRefLeak](https://github.com/codewhitesec/HttpRemotingObjRefLeak)
-
-### CVE-2024-29194
-- [mansploit/CVE-2024-29194-POC](https://github.com/mansploit/CVE-2024-29194-POC)
-
-### CVE-2024-29197
-- [mansploit/CVE-2024-29197-exploit](https://github.com/mansploit/CVE-2024-29197-exploit)
 
 ### CVE-2024-29272
 - [awjkjflkwlekfdjs/CVE-2024-29272](https://github.com/awjkjflkwlekfdjs/CVE-2024-29272)
