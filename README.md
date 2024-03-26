@@ -66,6 +66,13 @@
 - [Matrexdz/CVE-2024-1071](https://github.com/Matrexdz/CVE-2024-1071)
 - [Matrexdz/CVE-2024-1071-Docker](https://github.com/Matrexdz/CVE-2024-1071-Docker)
 
+### CVE-2024-1086 (2024-01-31)
+
+<code>A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.\n\n
+</code>
+
+- [Notselwyn/CVE-2024-1086](https://github.com/Notselwyn/CVE-2024-1086)
+
 ### CVE-2024-1208 (2024-02-05)
 
 <code>The LearnDash LMS plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.10.2 via API. This makes it possible for unauthenticated attackers to obtain access to quiz questions.
@@ -113,7 +120,7 @@
 
 - [PeterGabaldon/CVE-2024-1346](https://github.com/PeterGabaldon/CVE-2024-1346)
 
-### CVE-2024-1403 (-)
+### CVE-2024-1403 (2024-02-27)
 
 <code>In OpenEdge Authentication Gateway and AdminServer prior to 11.7.19, 12.2.14, 12.8.1 on all platforms supported by the OpenEdge product, an authentication bypass vulnerability has been identified.  The\nvulnerability is a bypass to authentication based on a failure to properly\nhandle username and password.  Certain unexpected\ncontent passed into the credentials can lead to unauthorized access without proper\nauthentication.    \n\n\n\n\n\n\n
 </code>
@@ -151,14 +158,14 @@
 
 - [Icycu123/CVE-2024-1781](https://github.com/Icycu123/CVE-2024-1781)
 
-### CVE-2024-2054 (-)
+### CVE-2024-2054 (2024-03-05)
 
 <code>The Artica-Proxy administrative web application will deserialize arbitrary PHP objects supplied by unauthenticated users and subsequently enable code execution as the &quot;www-data&quot; user.
 </code>
 
 - [Madan301/CVE-2024-2054](https://github.com/Madan301/CVE-2024-2054)
 
-### CVE-2024-2074 (-)
+### CVE-2024-2074 (2024-03-01)
 
 <code>Eine kritische Schwachstelle wurde in Mini-Tmall bis 20231017 gefunden. Hierbei geht es um eine nicht exakt ausgemachte Funktion der Datei ?r=tmall/admin/user/1/1. Mit der Manipulation des Arguments orderBy mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
 </code>
@@ -177,7 +184,7 @@
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
-### CVE-2024-20291 (-)
+### CVE-2024-20291 (2024-02-28)
 
 <code>A vulnerability in the access control list (ACL) programming for port channel subinterfaces of Cisco Nexus 3000 and 9000 Series Switches in standalone NX-OS mode could allow an unauthenticated, remote attacker to send traffic that should be blocked through an affected device.\r\n\r This vulnerability is due to incorrect hardware programming that occurs when configuration changes are made to port channel member ports. An attacker could exploit this vulnerability by attempting to send traffic through an affected device. A successful exploit could allow the attacker to access network resources that should be protected by an ACL that was applied on port channel subinterfaces.
 </code>
@@ -371,7 +378,7 @@
 - [Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution](https://github.com/Orange-418/AgentDVR-5.1.6.0-File-Upload-and-Remote-Code-Execution)
 - [Orange-418/CVE-2024-22515-File-Upload-Vulnerability](https://github.com/Orange-418/CVE-2024-22515-File-Upload-Vulnerability)
 
-### CVE-2024-22532 (-)
+### CVE-2024-22532 (2024-02-28)
 
 <code>Buffer Overflow vulnerability in XNSoft NConvert 7.163 (for Windows x86) allows attackers to cause a denial of service via crafted xwd file.
 </code>
@@ -381,7 +388,7 @@
 ### CVE-2024-22534
 - [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
 
-### CVE-2024-22752 (-)
+### CVE-2024-22752 (2024-03-07)
 
 <code>Insecure permissions issue in EaseUS MobiMover 6.0.5 Build 21620 allows attackers to gain escalated privileges via use of crafted executable launched from the application installation directory.
 </code>
@@ -391,7 +398,7 @@
 ### CVE-2024-22867
 - [brandon-t-elliott/CVE-2024-22867](https://github.com/brandon-t-elliott/CVE-2024-22867)
 
-### CVE-2024-22889 (-)
+### CVE-2024-22889 (2024-03-05)
 
 <code>Due to incorrect access control in Plone version v6.0.9, remote attackers can view and list all files hosted on the website via sending a crafted request.
 </code>
@@ -432,7 +439,7 @@
 
 - [NUDTTAN91/CVE-2024-22939](https://github.com/NUDTTAN91/CVE-2024-22939)
 
-### CVE-2024-22983 (-)
+### CVE-2024-22983 (2024-02-28)
 
 <code>SQL injection vulnerability in Projectworlds Visitor Management System in PHP v.1.0 allows a remote attacker to escalate privileges via the name parameter in the myform.php endpoint.
 </code>
@@ -582,7 +589,7 @@
 
 - [ELIZEUOPAIN/CVE-2024-24034](https://github.com/ELIZEUOPAIN/CVE-2024-24034)
 
-### CVE-2024-24035 (-)
+### CVE-2024-24035 (2024-03-07)
 
 <code>Cross Site Scripting (XSS) vulnerability in Setor Informatica SIL 3.1 allows attackers to run arbitrary code via the hmessage parameter.
 </code>
@@ -706,7 +713,7 @@
 
 - [minj-ae/CVE-2024-24488](https://github.com/minj-ae/CVE-2024-24488)
 
-### CVE-2024-24520 (-)
+### CVE-2024-24520 (2024-02-29)
 
 <code>An issue in Lepton CMS v.7.0.0 allows a local attacker to execute arbitrary code via the upgrade.php file in the languages place.
 </code>
@@ -734,14 +741,14 @@
 - [nettitude/CVE-2024-25153](https://github.com/nettitude/CVE-2024-25153)
 - [rainbowhatrkn/CVE-2024-25153](https://github.com/rainbowhatrkn/CVE-2024-25153)
 
-### CVE-2024-25169 (-)
+### CVE-2024-25169 (2024-02-28)
 
 <code>An issue in Mezzanine v6.0.0 allows attackers to bypass access control mechanisms in the admin panel via a crafted request.
 </code>
 
 - [shenhav12/CVE-2024-25169-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25169-Mezzanine-v6.0.0)
 
-### CVE-2024-25170 (-)
+### CVE-2024-25170 (2024-02-28)
 
 <code>An issue in Mezzanine v6.0.0 allows attackers to bypass access controls via manipulating the Host header.
 </code>
@@ -751,7 +758,7 @@
 ### CVE-2024-25175
 - [jet-pentest/CVE-2024-25175](https://github.com/jet-pentest/CVE-2024-25175)
 
-### CVE-2024-25202 (-)
+### CVE-2024-25202 (2024-02-28)
 
 <code>Cross Site Scripting vulnerability in Phpgurukul User Registration &amp; Login and User Management System 1.0 allows attackers to run arbitrary code via the search bar.
 </code>
@@ -815,7 +822,7 @@
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 
-### CVE-2024-25731 (-)
+### CVE-2024-25731 (2024-03-04)
 
 <code>The Elink Smart eSmartCam (com.cn.dq.ipc) application 2.1.5 for Android contains hardcoded AES encryption keys that can be extracted from a binary file. Thus, encryption can be defeated by an attacker who can observe packet data (e.g., over Wi-Fi).
 </code>
@@ -825,7 +832,7 @@
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
 
-### CVE-2024-25832 (-)
+### CVE-2024-25832 (2024-02-28)
 
 <code>F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.
 </code>
@@ -850,7 +857,7 @@
 ### CVE-2024-26560
 - [sajaljat/CVE-2024-26560](https://github.com/sajaljat/CVE-2024-26560)
 
-### CVE-2024-27198 (-)
+### CVE-2024-27198 (2024-03-04)
 
 <code>In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
 </code>
@@ -872,7 +879,7 @@
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
 
-### CVE-2024-28088 (-)
+### CVE-2024-28088 (2024-03-03)
 
 <code>LangChain through 0.1.10 allows ../ directory traversal by an actor who is able to control the final part of the path parameter in a load_chain call. This bypasses the intended behavior of loading configurations only from the hwchase17/langchain-hub GitHub repository. The outcome can be disclosure of an API key for a large language model online service, or remote code execution.
 </code>
@@ -6455,7 +6462,7 @@
 
 - [amjadali-110/CVE-2023-43317](https://github.com/amjadali-110/CVE-2023-43317)
 
-### CVE-2023-43318 (-)
+### CVE-2023-43318 (2024-03-05)
 
 <code>TP-Link JetStream Smart Switch TL-SG2210P 5.0 Build 20211201 allows attackers to escalate privileges via modification of the 'tid' and 'usrlvl' values in GET requests.
 </code>
@@ -7649,56 +7656,56 @@
 ### CVE-2023-49496
 - [HuangYanQwQ/CVE-2023-49496](https://github.com/HuangYanQwQ/CVE-2023-49496)
 
-### CVE-2023-49539 (-)
+### CVE-2023-49539 (2024-03-01)
 
 <code>Book Store Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability in /bsms_ci/index.php/category. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the category parameter.
 </code>
 
 - [geraldoalcantara/CVE-2023-49539](https://github.com/geraldoalcantara/CVE-2023-49539)
 
-### CVE-2023-49540 (-)
+### CVE-2023-49540 (2024-03-01)
 
 <code>Book Store Management System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability in /bsms_ci/index.php/history. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the history parameter.
 </code>
 
 - [geraldoalcantara/CVE-2023-49540](https://github.com/geraldoalcantara/CVE-2023-49540)
 
-### CVE-2023-49543 (-)
+### CVE-2023-49543 (2024-03-01)
 
 <code>Incorrect access control in Book Store Management System v1 allows attackers to access unauthorized pages and execute administrative functions without authenticating.
 </code>
 
 - [geraldoalcantara/CVE-2023-49543](https://github.com/geraldoalcantara/CVE-2023-49543)
 
-### CVE-2023-49544 (-)
+### CVE-2023-49544 (2024-03-01)
 
 <code>A local file inclusion (LFI) in Customer Support System v1 allows attackers to include internal PHP files and gain unauthorized acces via manipulation of the page= parameter at /customer_support/index.php.
 </code>
 
 - [geraldoalcantara/CVE-2023-49544](https://github.com/geraldoalcantara/CVE-2023-49544)
 
-### CVE-2023-49545 (-)
+### CVE-2023-49545 (2024-03-01)
 
 <code>A directory listing vulnerability in Customer Support System v1 allows attackers to list directories and sensitive files within the application without requiring authorization.
 </code>
 
 - [geraldoalcantara/CVE-2023-49545](https://github.com/geraldoalcantara/CVE-2023-49545)
 
-### CVE-2023-49546 (-)
+### CVE-2023-49546 (2024-03-04)
 
 <code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the email parameter at /customer_support/ajax.php.
 </code>
 
 - [geraldoalcantara/CVE-2023-49546](https://github.com/geraldoalcantara/CVE-2023-49546)
 
-### CVE-2023-49547 (-)
+### CVE-2023-49547 (2024-03-04)
 
 <code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the username parameter at /customer_support/ajax.php?action=login.
 </code>
 
 - [geraldoalcantara/CVE-2023-49547](https://github.com/geraldoalcantara/CVE-2023-49547)
 
-### CVE-2023-49548 (-)
+### CVE-2023-49548 (2024-03-04)
 
 <code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the lastname parameter at /customer_support/ajax.php?action=save_user.
 </code>
@@ -7729,140 +7736,140 @@
 ### CVE-2023-49965
 - [hackintoanetwork/SpaceX-Starlink-Router-Gen-2-XSS](https://github.com/hackintoanetwork/SpaceX-Starlink-Router-Gen-2-XSS)
 
-### CVE-2023-49968 (-)
+### CVE-2023-49968 (2024-03-04)
 
 <code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the id parameter at /customer_support/manage_department.php.
 </code>
 
 - [geraldoalcantara/CVE-2023-49968](https://github.com/geraldoalcantara/CVE-2023-49968)
 
-### CVE-2023-49969 (-)
+### CVE-2023-49969 (2024-03-04)
 
 <code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the id parameter at /customer_support/index.php?page=edit_customer.
 </code>
 
 - [geraldoalcantara/CVE-2023-49969](https://github.com/geraldoalcantara/CVE-2023-49969)
 
-### CVE-2023-49970 (-)
+### CVE-2023-49970 (2024-03-04)
 
 <code>Customer Support System v1 was discovered to contain a SQL injection vulnerability via the subject parameter at /customer_support/ajax.php?action=save_ticket.
 </code>
 
 - [geraldoalcantara/CVE-2023-49970](https://github.com/geraldoalcantara/CVE-2023-49970)
 
-### CVE-2023-49971 (-)
+### CVE-2023-49971 (2024-03-05)
 
 <code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the firstname parameter at /customer_support/index.php?page=customer_list.
 </code>
 
 - [geraldoalcantara/CVE-2023-49971](https://github.com/geraldoalcantara/CVE-2023-49971)
 
-### CVE-2023-49973 (-)
+### CVE-2023-49973 (2024-03-05)
 
 <code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the email parameter at /customer_support/index.php?page=customer_list.
 </code>
 
 - [geraldoalcantara/CVE-2023-49973](https://github.com/geraldoalcantara/CVE-2023-49973)
 
-### CVE-2023-49974 (-)
+### CVE-2023-49974 (2024-03-05)
 
 <code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the contact parameter at /customer_support/index.php?page=customer_list.
 </code>
 
 - [geraldoalcantara/CVE-2023-49974](https://github.com/geraldoalcantara/CVE-2023-49974)
 
-### CVE-2023-49976 (-)
+### CVE-2023-49976 (2024-03-05)
 
 <code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the subject parameter at /customer_support/index.php?page=new_ticket.
 </code>
 
 - [geraldoalcantara/CVE-2023-49976](https://github.com/geraldoalcantara/CVE-2023-49976)
 
-### CVE-2023-49977 (-)
+### CVE-2023-49977 (2024-03-05)
 
 <code>A cross-site scripting (XSS) vulnerability in Customer Support System v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the address parameter at /customer_support/index.php?page=new_customer.
 </code>
 
 - [geraldoalcantara/CVE-2023-49977](https://github.com/geraldoalcantara/CVE-2023-49977)
 
-### CVE-2023-49978 (-)
+### CVE-2023-49978 (2024-03-06)
 
 <code>Incorrect access control in Customer Support System v1 allows non-administrator users to access administrative pages and execute actions reserved for administrators.
 </code>
 
 - [geraldoalcantara/CVE-2023-49978](https://github.com/geraldoalcantara/CVE-2023-49978)
 
-### CVE-2023-49979 (-)
+### CVE-2023-49979 (2024-03-06)
 
 <code>A directory listing vulnerability in Customer Support System v1 allows attackers to list directories and sensitive files within the application without requiring authorization.
 </code>
 
 - [geraldoalcantara/CVE-2023-49979](https://github.com/geraldoalcantara/CVE-2023-49979)
 
-### CVE-2023-49980 (-)
+### CVE-2023-49980 (2024-03-06)
 
 <code>A directory listing vulnerability in Best Student Result Management System v1.0 allows attackers to list directories and sensitive files within the application without requiring authorization.
 </code>
 
 - [geraldoalcantara/CVE-2023-49980](https://github.com/geraldoalcantara/CVE-2023-49980)
 
-### CVE-2023-49981 (-)
+### CVE-2023-49981 (2024-03-06)
 
 <code>A directory listing vulnerability in School Fees Management System v1.0 allows attackers to list directories and sensitive files within the application without requiring authorization.
 </code>
 
 - [geraldoalcantara/CVE-2023-49981](https://github.com/geraldoalcantara/CVE-2023-49981)
 
-### CVE-2023-49982 (-)
+### CVE-2023-49982 (2024-03-06)
 
 <code>Broken access control in the component /admin/management/users of School Fees Management System v1.0 allows attackers to escalate privileges and perform Administrative actions, including adding and deleting user accounts.
 </code>
 
 - [geraldoalcantara/CVE-2023-49982](https://github.com/geraldoalcantara/CVE-2023-49982)
 
-### CVE-2023-49983 (-)
+### CVE-2023-49983 (2024-03-06)
 
 <code>A cross-site scripting (XSS) vulnerability in the component /management/class of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
 </code>
 
 - [geraldoalcantara/CVE-2023-49983](https://github.com/geraldoalcantara/CVE-2023-49983)
 
-### CVE-2023-49984 (-)
+### CVE-2023-49984 (2024-03-06)
 
 <code>A cross-site scripting (XSS) vulnerability in the component /management/settings of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
 </code>
 
 - [geraldoalcantara/CVE-2023-49984](https://github.com/geraldoalcantara/CVE-2023-49984)
 
-### CVE-2023-49985 (-)
+### CVE-2023-49985 (2024-03-06)
 
 <code>A cross-site scripting (XSS) vulnerability in the component /management/class of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the cname parameter.
 </code>
 
 - [geraldoalcantara/CVE-2023-49985](https://github.com/geraldoalcantara/CVE-2023-49985)
 
-### CVE-2023-49986 (-)
+### CVE-2023-49986 (2024-03-06)
 
 <code>A cross-site scripting (XSS) vulnerability in the component /admin/parent of School Fees Management System 1.0 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the name parameter.
 </code>
 
 - [geraldoalcantara/CVE-2023-49986](https://github.com/geraldoalcantara/CVE-2023-49986)
 
-### CVE-2023-49987 (-)
+### CVE-2023-49987 (2024-03-06)
 
 <code>A cross-site scripting (XSS) vulnerability in the component /management/term of School Fees Management System v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the tname parameter.
 </code>
 
 - [geraldoalcantara/CVE-2023-49987](https://github.com/geraldoalcantara/CVE-2023-49987)
 
-### CVE-2023-49988 (-)
+### CVE-2023-49988 (2024-03-06)
 
 <code>Hotel Booking Management v1.0 was discovered to contain a SQL injection vulnerability via the npss parameter at rooms.php.
 </code>
 
 - [geraldoalcantara/CVE-2023-49988](https://github.com/geraldoalcantara/CVE-2023-49988)
 
-### CVE-2023-49989 (-)
+### CVE-2023-49989 (2024-03-06)
 
 <code>Hotel Booking Management v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at update.php.
 </code>
@@ -7987,7 +7994,7 @@
 ### CVE-2023-51214
 - [chandraprarikraj/CVE-2023-51214](https://github.com/chandraprarikraj/CVE-2023-51214)
 
-### CVE-2023-51281 (-)
+### CVE-2023-51281 (2024-03-06)
 
 <code>Cross Site Scripting vulnerability in Customer Support System v.1.0 allows a remote attacker to escalate privileges via a crafted script firstname, &quot;lastname&quot;, &quot;middlename&quot;, &quot;contact&quot; and address parameters.
 </code>
@@ -8058,21 +8065,21 @@
 - [d4op/CVE-2023-51764-POC](https://github.com/d4op/CVE-2023-51764-POC)
 - [Double-q1015/CVE-2023-51764](https://github.com/Double-q1015/CVE-2023-51764)
 
-### CVE-2023-51800 (-)
+### CVE-2023-51800 (2024-02-28)
 
 <code>Cross Site Scripting (XSS) vulnerability in School Fees Management System v.1.0 allows a remote attacker to execute arbitrary code via a crafted payload to the main_settings component in the phone, address, bank, acc_name, acc_number parameters, new_class and cname parameter, add_new_parent function in the name email parameters, new_term function in the tname parameter, and the edit_student function in the name parameter.
 </code>
 
 - [geraldoalcantara/CVE-2023-51800](https://github.com/geraldoalcantara/CVE-2023-51800)
 
-### CVE-2023-51801 (-)
+### CVE-2023-51801 (2024-02-28)
 
 <code>SQL Injection vulnerability in the Simple Student Attendance System v.1.0 allows a remote attacker to execute arbitrary code via a crafted payload to the id parameter in the student_form.php and the class_form.php pages.
 </code>
 
 - [geraldoalcantara/CVE-2023-51801](https://github.com/geraldoalcantara/CVE-2023-51801)
 
-### CVE-2023-51802 (-)
+### CVE-2023-51802 (2024-02-28)
 
 <code>Cross Site Scripting (XSS) vulnerability in the Simple Student Attendance System v.1.0 allows a remote attacker to execute arbitrary code via a crafted payload to the page or class_month parameter in the /php-attendance/attendance_report component.
 </code>
@@ -10911,6 +10918,7 @@
 - [acfirthh/CVE-2022-26134](https://github.com/acfirthh/CVE-2022-26134)
 - [yTxZx/CVE-2022-26134](https://github.com/yTxZx/CVE-2022-26134)
 - [DARKSTUFF-LAB/-CVE-2022-26134](https://github.com/DARKSTUFF-LAB/-CVE-2022-26134)
+- [404fu/CVE-2022-26134-POC](https://github.com/404fu/CVE-2022-26134-POC)
 
 ### CVE-2022-26135 (2022-06-30)
 
@@ -28638,6 +28646,13 @@
 
 - [tarantula-team/CVE-2019-12543](https://github.com/tarantula-team/CVE-2019-12543)
 
+### CVE-2019-12550 (2019-06-17)
+
+<code>WAGO 852-303 before FW06, 852-1305 before FW06, and 852-1505 before FW03 devices contain hardcoded users and passwords that can be used to login via SSH and TELNET.
+</code>
+
+- [itwizardo/CVE-2019-12550](https://github.com/itwizardo/CVE-2019-12550)
+
 ### CVE-2019-12562 (2019-09-26)
 
 <code>Stored Cross-Site Scripting in DotNetNuke (DNN) Version before 9.4.0 allows remote attackers to store and embed the malicious script into the admin notification page. The exploit could be used to perfom any action with admin privileges such as managing content, adding users, uploading backdoors to the server, etc. Successful exploitation occurs when an admin user visits a notification page with stored cross-site scripting.
@@ -39899,13 +39914,6 @@
 </code>
 
 - [hartwork/mpacktrafficripper](https://github.com/hartwork/mpacktrafficripper)
-
-### CVE-2011-5325 (2017-08-07)
-
-<code>Directory traversal vulnerability in the BusyBox implementation of tar before 1.22.0 v5 allows remote attackers to point to files outside the current working directory via a symlink.
-</code>
-
-- [itwizardo/CVE-2011-5325](https://github.com/itwizardo/CVE-2011-5325)
 
 ### CVE-2011-5331 (2019-11-18)
 
