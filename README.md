@@ -222,6 +222,7 @@
 ### CVE-2024-20767
 - [yoryio/CVE-2024-20767](https://github.com/yoryio/CVE-2024-20767)
 - [m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767)
+- [Chocapikk/CVE-2024-20767](https://github.com/Chocapikk/CVE-2024-20767)
 
 ### CVE-2024-20931 (2024-02-16)
 
@@ -302,6 +303,7 @@
 - [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
+- [S0SkiPlosK1/CVE-2024-21762-POC](https://github.com/S0SkiPlosK1/CVE-2024-21762-POC)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -20653,6 +20655,7 @@
 - [scabench/l4j-fp1](https://github.com/scabench/l4j-fp1)
 - [KtokKawu/l4s-vulnapp](https://github.com/KtokKawu/l4s-vulnapp)
 - [sec13b/CVE-2021-44228-POC](https://github.com/sec13b/CVE-2021-44228-POC)
+- [KirkDJohnson/Wireshark](https://github.com/KirkDJohnson/Wireshark)
 
 ### CVE-2021-44255 (2022-01-31)
 
