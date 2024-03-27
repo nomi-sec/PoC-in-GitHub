@@ -891,6 +891,9 @@
 ### CVE-2024-28116
 - [akabe1/Graver](https://github.com/akabe1/Graver)
 
+### CVE-2024-28288
+- [adminquit/CVE-2024-28288](https://github.com/adminquit/CVE-2024-28288)
+
 ### CVE-2024-28397
 - [Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397)
 
