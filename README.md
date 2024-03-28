@@ -13151,6 +13151,7 @@
 </code>
 
 - [user0x1337/CVE-2022-39227](https://github.com/user0x1337/CVE-2022-39227)
+- [NoSpaceAvailable/CVE-2022-39227](https://github.com/NoSpaceAvailable/CVE-2022-39227)
 
 ### CVE-2022-39253 (2022-10-19)
 
