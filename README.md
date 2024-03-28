@@ -1611,6 +1611,7 @@
 <code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. \n\n
 </code>
 
+- [StayBeautiful-collab/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/StayBeautiful-collab/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 
 ### CVE-2023-3836 (2023-07-22)
@@ -8521,9 +8522,9 @@
 </code>
 
 - [killvxk/CVE-2022-1040](https://github.com/killvxk/CVE-2022-1040)
-- [APTIRAN/CVE-2022-1040](https://github.com/APTIRAN/CVE-2022-1040)
 - [jam620/Sophos-Vulnerability](https://github.com/jam620/Sophos-Vulnerability)
 - [Keith-amateur/cve-2022-1040](https://github.com/Keith-amateur/cve-2022-1040)
+- [jackson5sec/CVE-2022-1040](https://github.com/jackson5sec/CVE-2022-1040)
 - [michealadams30/CVE-2022-1040](https://github.com/michealadams30/CVE-2022-1040)
 - [Cyb3rEnthusiast/CVE-2022-1040](https://github.com/Cyb3rEnthusiast/CVE-2022-1040)
 - [xMr110/CVE-2022-1040](https://github.com/xMr110/CVE-2022-1040)
@@ -9485,7 +9486,7 @@
 - [0x4E0x650x6F/Wordpress-cve-CVE-2022-21661](https://github.com/0x4E0x650x6F/Wordpress-cve-CVE-2022-21661)
 - [z92g/CVE-2022-21661](https://github.com/z92g/CVE-2022-21661)
 - [guestzz/CVE-2022-21661](https://github.com/guestzz/CVE-2022-21661)
-- [APTIRAN/CVE-2022-21661](https://github.com/APTIRAN/CVE-2022-21661)
+- [safe3s/CVE-2022-21661](https://github.com/safe3s/CVE-2022-21661)
 - [WellingtonEspindula/SSI-CVE-2022-21661](https://github.com/WellingtonEspindula/SSI-CVE-2022-21661)
 - [daniel616/CVE-2022-21661-Demo](https://github.com/daniel616/CVE-2022-21661-Demo)
 - [sealldeveloper/CVE-2022-21661-PoC](https://github.com/sealldeveloper/CVE-2022-21661-PoC)
@@ -20130,6 +20131,7 @@
 - [Iris288/CVE-2021-43798](https://github.com/Iris288/CVE-2021-43798)
 - [wagneralves/CVE-2021-43798](https://github.com/wagneralves/CVE-2021-43798)
 - [K3ysTr0K3R/CVE-2021-43798-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-43798-EXPLOIT)
+- [ticofookfook/CVE-2021-43798](https://github.com/ticofookfook/CVE-2021-43798)
 
 ### CVE-2021-43799 (2022-01-25)
 
