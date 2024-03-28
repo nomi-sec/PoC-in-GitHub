@@ -178,9 +178,6 @@
 ### CVE-2024-2432
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
-### CVE-2024-2865
-- [RobertSecurity/CVE-2024-2865-CRITICAL](https://github.com/RobertSecurity/CVE-2024-2865-CRITICAL)
-
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -303,7 +300,6 @@
 - [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
-- [S0SkiPlosK1/CVE-2024-21762-POC](https://github.com/S0SkiPlosK1/CVE-2024-21762-POC)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -1181,20 +1177,6 @@
 - [Chocapikk/CVE-2023-1698](https://github.com/Chocapikk/CVE-2023-1698)
 - [deIndra/CVE-2023-1698](https://github.com/deIndra/CVE-2023-1698)
 - [thedarknessdied/WAGO-CVE-2023-1698](https://github.com/thedarknessdied/WAGO-CVE-2023-1698)
-
-### CVE-2023-1713 (2023-11-01)
-
-<code>Insecure temporary file creation in bitrix/modules/crm/lib/order/import/instagram.php in Bitrix24 22.0.300 hosted on Apache HTTP Server allows remote authenticated attackers to execute arbitrary code via uploading a crafted &quot;.htaccess&quot; file.
-</code>
-
-- [ForceFledgling/CVE-2023-1713](https://github.com/ForceFledgling/CVE-2023-1713)
-
-### CVE-2023-1714 (2023-11-01)
-
-<code>Unsafe variable extraction in bitrix/modules/main/classes/general/user_options.php in Bitrix24 22.0.300 allows remote authenticated attackers to execute arbitrary code via (1) appending arbitrary content to existing PHP files or (2) PHAR deserialization.
-</code>
-
-- [ForceFledgling/CVE-2023-1714](https://github.com/ForceFledgling/CVE-2023-1714)
 
 ### CVE-2023-1718 (2023-11-01)
 
@@ -39019,13 +39001,6 @@
 </code>
 
 - [hakatashi/CVE-2014-9390](https://github.com/hakatashi/CVE-2014-9390)
-
-### CVE-2014-9690 (2017-04-02)
-
-<code>Huawei home gateways WS318 with software V100R001C01B022 and earlier versions are affected by the PIN offline brute force cracking vulnerability of the WPS protocol because the random number generator (RNG) used in the supplier's solution is not random enough. As a result, brute force cracking the PIN code is easier. After an attacker cracks the PIN, the attacker can access the Internet via the cracked device.
-</code>
-
-- [ForceFledgling/CVE-2014-9690](https://github.com/ForceFledgling/CVE-2014-9690)
 
 ### CVE-2014-10069 (2018-01-07)
 
