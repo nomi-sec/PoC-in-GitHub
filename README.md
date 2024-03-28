@@ -175,6 +175,9 @@
 ### CVE-2024-2169
 - [douglasbuzatto/G3-Loop-DoS](https://github.com/douglasbuzatto/G3-Loop-DoS)
 
+### CVE-2024-2193
+- [uthrasri/CVE-2024-2193](https://github.com/uthrasri/CVE-2024-2193)
+
 ### CVE-2024-2432
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
@@ -220,6 +223,7 @@
 - [yoryio/CVE-2024-20767](https://github.com/yoryio/CVE-2024-20767)
 - [m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767)
 - [Chocapikk/CVE-2024-20767](https://github.com/Chocapikk/CVE-2024-20767)
+- [huyqa/cve-2024-20767](https://github.com/huyqa/cve-2024-20767)
 
 ### CVE-2024-20931 (2024-02-16)
 
@@ -244,6 +248,13 @@
 </code>
 
 - [d0rb/CVE-2024-21378](https://github.com/d0rb/CVE-2024-21378)
+
+### CVE-2024-21388 (2024-01-30)
+
+<code>Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
+</code>
+
+- [d0rb/CVE-2024-21388](https://github.com/d0rb/CVE-2024-21388)
 
 ### CVE-2024-21412 (2024-02-13)
 
@@ -6339,6 +6350,9 @@
 </code>
 
 - [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
+
+### CVE-2023-42789
+- [jhonnybonny/CVE-2023-42789](https://github.com/jhonnybonny/CVE-2023-42789)
 
 ### CVE-2023-42793 (2023-09-19)
 
@@ -20464,7 +20478,6 @@
 - [gitlab-de/log4j-resources](https://github.com/gitlab-de/log4j-resources)
 - [redhuntlabs/Log4JHunt](https://github.com/redhuntlabs/Log4JHunt)
 - [mss/log4shell-hotfix-side-effect](https://github.com/mss/log4shell-hotfix-side-effect)
-- [111coding/log4j_temp_CVE-2021-44228](https://github.com/111coding/log4j_temp_CVE-2021-44228)
 - [MeterianHQ/log4j-vuln-coverage-check](https://github.com/MeterianHQ/log4j-vuln-coverage-check)
 - [sebiboga/jmeter-fix-cve-2021-44228-windows](https://github.com/sebiboga/jmeter-fix-cve-2021-44228-windows)
 - [mitiga/log4shell-cloud-scanner](https://github.com/mitiga/log4shell-cloud-scanner)
