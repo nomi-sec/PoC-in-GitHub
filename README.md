@@ -922,6 +922,9 @@
 ### CVE-2024-29272
 - [awjkjflkwlekfdjs/CVE-2024-29272](https://github.com/awjkjflkwlekfdjs/CVE-2024-29272)
 
+### CVE-2024-31025
+- [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
 
@@ -14315,6 +14318,7 @@
 - [0xZon/CVE-2022-46169-Exploit](https://github.com/0xZon/CVE-2022-46169-Exploit)
 - [copyleftdev/PricklyPwn](https://github.com/copyleftdev/PricklyPwn)
 - [0xN7y/CVE-2022-46169](https://github.com/0xN7y/CVE-2022-46169)
+- [mind2hex/CVE-2022-46169](https://github.com/mind2hex/CVE-2022-46169)
 
 ### CVE-2022-46175 (2022-12-23)
 
@@ -17767,6 +17771,7 @@
 
 - [hev0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/hev0x/CVE-2021-31630-OpenPLC_RCE)
 - [Hunt3r0x/CVE-2021-31630-HTB](https://github.com/Hunt3r0x/CVE-2021-31630-HTB)
+- [thewhiteh4t/cve-2021-31630](https://github.com/thewhiteh4t/cve-2021-31630)
 
 ### CVE-2021-31728 (2021-05-17)
 
@@ -20342,7 +20347,6 @@
 - [RK800-DEV/apache-log4j-poc](https://github.com/RK800-DEV/apache-log4j-poc)
 - [sud0x00/log4j-CVE-2021-44228](https://github.com/sud0x00/log4j-CVE-2021-44228)
 - [DiCanio/CVE-2021-44228-docker-example](https://github.com/DiCanio/CVE-2021-44228-docker-example)
-- [mute1997/CVE-2021-44228-research](https://github.com/mute1997/CVE-2021-44228-research)
 - [myyxl/cve-2021-44228-minecraft-poc](https://github.com/myyxl/cve-2021-44228-minecraft-poc)
 - [RrUZi/Awesome-CVE-2021-44228](https://github.com/RrUZi/Awesome-CVE-2021-44228)
 - [future-client/CVE-2021-44228](https://github.com/future-client/CVE-2021-44228)
@@ -26600,6 +26604,7 @@
 - [Ravaan21/Bluekeep-Hunter](https://github.com/Ravaan21/Bluekeep-Hunter)
 - [davidfortytwo/bluekeep](https://github.com/davidfortytwo/bluekeep)
 - [tranqtruong/Detect-BlueKeep](https://github.com/tranqtruong/Detect-BlueKeep)
+- [chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7)
 
 ### CVE-2019-0709 (2019-06-12)
 
@@ -29416,6 +29421,7 @@
 - [0xConstant/CVE-2019-16113](https://github.com/0xConstant/CVE-2019-16113)
 - [DXY0411/CVE-2019-16113](https://github.com/DXY0411/CVE-2019-16113)
 - [0xConstant/CVE-2019-16113_](https://github.com/0xConstant/CVE-2019-16113_)
+- [mind2hex/CVE-2019-16113](https://github.com/mind2hex/CVE-2019-16113)
 
 ### CVE-2019-16253 (2019-09-25)
 
@@ -29638,6 +29644,7 @@
 - [jayngng/bludit-CVE-2019-17240](https://github.com/jayngng/bludit-CVE-2019-17240)
 - [brunosergi/bloodit](https://github.com/brunosergi/bloodit)
 - [spyx/cve-2019-17240](https://github.com/spyx/cve-2019-17240)
+- [mind2hex/CVE-2019-17240](https://github.com/mind2hex/CVE-2019-17240)
 
 ### CVE-2019-17382 (2019-10-09)
 
@@ -33746,6 +33753,7 @@
 - [NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker)
 - [c0d3cr4f73r/MS17-010_CVE-2017-0143](https://github.com/c0d3cr4f73r/MS17-010_CVE-2017-0143)
 - [SampatDhakal/Metasploit-Attack-Report](https://github.com/SampatDhakal/Metasploit-Attack-Report)
+- [chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7)
 
 ### CVE-2017-0144 (2017-03-16)
 
@@ -37499,6 +37507,7 @@
 - [hfiref0x/CVE-2015-1701](https://github.com/hfiref0x/CVE-2015-1701)
 - [Anonymous-Family/CVE-2015-1701](https://github.com/Anonymous-Family/CVE-2015-1701)
 - [Anonymous-Family/CVE-2015-1701-download](https://github.com/Anonymous-Family/CVE-2015-1701-download)
+- [chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7)
 
 ### CVE-2015-1769 (2015-08-14)
 
@@ -38617,6 +38626,13 @@
 - [sam-b/CVE-2014-4113](https://github.com/sam-b/CVE-2014-4113)
 - [wikiZ/cve-2014-4113](https://github.com/wikiZ/cve-2014-4113)
 
+### CVE-2014-4114 (2014-10-15)
+
+<code>Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allow remote attackers to execute arbitrary code via a crafted OLE object in an Office document, as exploited in the wild with a &quot;Sandworm&quot; attack in June through October 2014, aka &quot;Windows OLE Remote Code Execution Vulnerability.&quot;
+</code>
+
+- [chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7)
+
 ### CVE-2014-4140 (2014-10-15)
 
 <code>Microsoft Internet Explorer 8 through 11 allows remote attackers to bypass the ASLR protection mechanism via a crafted web site, aka &quot;Internet Explorer ASLR Bypass Vulnerability.&quot;
@@ -39474,6 +39490,7 @@
 </code>
 
 - [k0keoyo/CVE-2012-0003_eXP](https://github.com/k0keoyo/CVE-2012-0003_eXP)
+- [chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7)
 
 ### CVE-2012-0056 (2012-01-27)
 
@@ -40032,6 +40049,7 @@
 
 - [whiteHat001/cve-2010-3333](https://github.com/whiteHat001/cve-2010-3333)
 - [Sunqiz/CVE-2010-3333-reproduction](https://github.com/Sunqiz/CVE-2010-3333-reproduction)
+- [chefphenix25/vuln-rabilit-windows7](https://github.com/chefphenix25/vuln-rabilit-windows7)
 
 ### CVE-2010-3490 (2010-09-28)
 
