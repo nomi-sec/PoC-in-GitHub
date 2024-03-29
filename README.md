@@ -929,6 +929,9 @@
 ### CVE-2024-29272
 - [awjkjflkwlekfdjs/CVE-2024-29272](https://github.com/awjkjflkwlekfdjs/CVE-2024-29272)
 
+### CVE-2024-29278
+- [QDming/cve](https://github.com/QDming/cve)
+
 ### CVE-2024-31025
 - [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
 
@@ -7434,6 +7437,7 @@
 </code>
 
 - [0x656565/CVE-2023-48022](https://github.com/0x656565/CVE-2023-48022)
+- [jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022](https://github.com/jakabakos/ShadowRay-RCE-PoC-CVE-2023-48022)
 
 ### CVE-2023-48028 (2023-11-17)
 
@@ -16524,7 +16528,6 @@
 - [ChrisPritchard/CVE-2021-22911-rust](https://github.com/ChrisPritchard/CVE-2021-22911-rust)
 - [MrDottt/CVE-2021-22911](https://github.com/MrDottt/CVE-2021-22911)
 - [overgrowncarrot1/CVE-2021-22911](https://github.com/overgrowncarrot1/CVE-2021-22911)
-- [vlrhsgody/CVE-2021-22911](https://github.com/vlrhsgody/CVE-2021-22911)
 
 ### CVE-2021-22924 (2021-08-05)
 
