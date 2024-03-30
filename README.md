@@ -208,7 +208,7 @@
 - [Fractal-Tess/CVE-2024-3094](https://github.com/Fractal-Tess/CVE-2024-3094)
 - [wgetnz/CVE-2024-3094-check](https://github.com/wgetnz/CVE-2024-3094-check)
 - [emirkmo/xz-backdoor-github](https://github.com/emirkmo/xz-backdoor-github)
-- [Jooose001/CVE-2024-3094-EXPLOIT](https://github.com/Jooose001/CVE-2024-3094-EXPLOIT)
+- [ashwani95/CVE-2024-3094](https://github.com/ashwani95/CVE-2024-3094)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -959,6 +959,9 @@
 
 ### CVE-2024-29278
 - [QDming/cve](https://github.com/QDming/cve)
+
+### CVE-2024-29375
+- [c0rvane/CVE-2024-29375](https://github.com/c0rvane/CVE-2024-29375)
 
 ### CVE-2024-31025
 - [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
@@ -1924,6 +1927,7 @@
 
 - [r0binak/CVE-2023-5044](https://github.com/r0binak/CVE-2023-5044)
 - [4ARMED/cve-2023-5044](https://github.com/4ARMED/cve-2023-5044)
+- [KubernetesBachelor/CVE-2023-5044](https://github.com/KubernetesBachelor/CVE-2023-5044)
 
 ### CVE-2023-5070 (2023-10-20)
 
@@ -17815,6 +17819,7 @@
 - [hev0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/hev0x/CVE-2021-31630-OpenPLC_RCE)
 - [Hunt3r0x/CVE-2021-31630-HTB](https://github.com/Hunt3r0x/CVE-2021-31630-HTB)
 - [thewhiteh4t/cve-2021-31630](https://github.com/thewhiteh4t/cve-2021-31630)
+- [UserB1ank/CVE-2021-31630](https://github.com/UserB1ank/CVE-2021-31630)
 
 ### CVE-2021-31728 (2021-05-17)
 
@@ -36800,6 +36805,7 @@
 - [LinuxKernelContent/DirtyCow](https://github.com/LinuxKernelContent/DirtyCow)
 - [NguyenCongHaiNam/Research-CVE-2016-5195](https://github.com/NguyenCongHaiNam/Research-CVE-2016-5195)
 - [EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master)
+- [sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB)
 
 ### CVE-2016-5345 (2018-01-22)
 
