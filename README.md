@@ -186,6 +186,9 @@
 
 - [yuziiiiiiiiii/CVE-2024-2074](https://github.com/yuziiiiiiiiii/CVE-2024-2074)
 
+### CVE-2024-2086
+- [MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE](https://github.com/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE)
+
 ### CVE-2024-2169
 - [douglasbuzatto/G3-Loop-DoS](https://github.com/douglasbuzatto/G3-Loop-DoS)
 
@@ -203,6 +206,9 @@
 - [bioless/xz_cve-2024-3094_detection](https://github.com/bioless/xz_cve-2024-3094_detection)
 - [Hacker-Hermanos/CVE-2024-3094_xz_check](https://github.com/Hacker-Hermanos/CVE-2024-3094_xz_check)
 - [Fractal-Tess/CVE-2024-3094](https://github.com/Fractal-Tess/CVE-2024-3094)
+- [wgetnz/CVE-2024-3094-check](https://github.com/wgetnz/CVE-2024-3094-check)
+- [emirkmo/xz-backdoor-github](https://github.com/emirkmo/xz-backdoor-github)
+- [Jooose001/CVE-2024-3094-EXPLOIT](https://github.com/Jooose001/CVE-2024-3094-EXPLOIT)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -335,7 +341,6 @@
 <code>A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
 </code>
 
-- [Gh71m/CVE-2024-21762-POC](https://github.com/Gh71m/CVE-2024-21762-POC)
 - [BishopFox/cve-2024-21762-check](https://github.com/BishopFox/cve-2024-21762-check)
 - [cleverg0d/CVE-2024-21762-Checker](https://github.com/cleverg0d/CVE-2024-21762-Checker)
 - [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
@@ -35011,6 +35016,13 @@
 </code>
 
 - [USSCltd/aaLogger](https://github.com/USSCltd/aaLogger)
+
+### CVE-2017-9757 (2017-06-19)
+
+<code>IPFire 2.19 has a Remote Command Injection vulnerability in ids.cgi via the OINKCODE parameter, which is mishandled by a shell. This can be exploited directly by authenticated users, or through CSRF.
+</code>
+
+- [peterleiva/CVE-2017-9757](https://github.com/peterleiva/CVE-2017-9757)
 
 ### CVE-2017-9769 (2017-08-02)
 
