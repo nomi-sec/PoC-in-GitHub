@@ -323,6 +323,13 @@
 
 - [0x33c0unt/CVE-2024-21633](https://github.com/0x33c0unt/CVE-2024-21633)
 
+### CVE-2024-21644 (2024-01-08)
+
+<code>pyLoad is the free and open-source Download Manager written in pure Python. Any unauthenticated user can browse to a specific URL to expose the Flask config, including the `SECRET_KEY` variable. This issue has been patched in version 0.5.0b3.dev77.
+</code>
+
+- [ltranquility/CVE-2024-21644-Poc](https://github.com/ltranquility/CVE-2024-21644-Poc)
+
 ### CVE-2024-21762 (2024-02-09)
 
 <code>A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests
@@ -3164,6 +3171,7 @@
 </code>
 
 - [former-farmer/CVE-2023-24955-PoC](https://github.com/former-farmer/CVE-2023-24955-PoC)
+- [AndreOve/CVE-2023-24955-real-RCE](https://github.com/AndreOve/CVE-2023-24955-real-RCE)
 
 ### CVE-2023-24998 (2023-02-20)
 
