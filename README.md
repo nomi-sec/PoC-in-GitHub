@@ -217,6 +217,10 @@
 - [lockness-Ko/xz-vulnerable-honeypot](https://github.com/lockness-Ko/xz-vulnerable-honeypot)
 - [brinhosa/CVE-2024-3094-One-Liner](https://github.com/brinhosa/CVE-2024-3094-One-Liner)
 - [isuruwa/CVE-2024-3094](https://github.com/isuruwa/CVE-2024-3094)
+- [k4t3pr0/Check-CVE-2024-3094](https://github.com/k4t3pr0/Check-CVE-2024-3094)
+- [Yuma-Tsushima07/CVE-2024-3094](https://github.com/Yuma-Tsushima07/CVE-2024-3094)
+- [jfrog/cve-2024-3094-tools](https://github.com/jfrog/cve-2024-3094-tools)
+- [krascovict/OSINT---CVE-2024-3094-](https://github.com/krascovict/OSINT---CVE-2024-3094-)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -298,7 +302,7 @@
 <code>Internet Shortcut Files Security Feature Bypass Vulnerability
 </code>
 
-- [wr00t/CVE-2024-21412_Water-Hydra](https://github.com/wr00t/CVE-2024-21412_Water-Hydra)
+- [lsr00ter/CVE-2024-21412_Water-Hydra](https://github.com/lsr00ter/CVE-2024-21412_Water-Hydra)
 
 ### CVE-2024-21413 (2024-02-13)
 
