@@ -186,9 +186,6 @@
 
 - [yuziiiiiiiiii/CVE-2024-2074](https://github.com/yuziiiiiiiiii/CVE-2024-2074)
 
-### CVE-2024-2086
-- [MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE](https://github.com/MrCyberSecs/CVE-2024-2086-GOOGLE-DRIVE)
-
 ### CVE-2024-2169
 - [douglasbuzatto/G3-Loop-DoS](https://github.com/douglasbuzatto/G3-Loop-DoS)
 
@@ -221,6 +218,8 @@
 - [Yuma-Tsushima07/CVE-2024-3094](https://github.com/Yuma-Tsushima07/CVE-2024-3094)
 - [jfrog/cve-2024-3094-tools](https://github.com/jfrog/cve-2024-3094-tools)
 - [krascovict/OSINT---CVE-2024-3094-](https://github.com/krascovict/OSINT---CVE-2024-3094-)
+- [Simplifi-ED/CVE-2024-3094-patcher](https://github.com/Simplifi-ED/CVE-2024-3094-patcher)
+- [gayatriracha/CVE-2024-3094-Nmap-NSE-script](https://github.com/gayatriracha/CVE-2024-3094-Nmap-NSE-script)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -947,6 +946,9 @@
 
 ### CVE-2024-28116
 - [akabe1/Graver](https://github.com/akabe1/Graver)
+
+### CVE-2024-28247
+- [T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read](https://github.com/T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read)
 
 ### CVE-2024-28288
 - [adminquit/CVE-2024-28288](https://github.com/adminquit/CVE-2024-28288)
@@ -34007,6 +34009,7 @@
 - [sh4rknado/BlueBorn](https://github.com/sh4rknado/BlueBorn)
 - [Joanmei/CVE-2017-0785](https://github.com/Joanmei/CVE-2017-0785)
 - [CyberKimathi/Py3-CVE-2017-0785](https://github.com/CyberKimathi/Py3-CVE-2017-0785)
+- [MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-](https://github.com/MasterCode112/Upgraded_BlueBourne-CVE-2017-0785-)
 
 ### CVE-2017-0806 (2017-10-03)
 
