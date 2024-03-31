@@ -216,6 +216,7 @@
 - [hazemkya/CVE-2024-3094-checker](https://github.com/hazemkya/CVE-2024-3094-checker)
 - [lockness-Ko/xz-vulnerable-honeypot](https://github.com/lockness-Ko/xz-vulnerable-honeypot)
 - [brinhosa/CVE-2024-3094-One-Liner](https://github.com/brinhosa/CVE-2024-3094-One-Liner)
+- [isuruwa/CVE-2024-3094](https://github.com/isuruwa/CVE-2024-3094)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -6677,6 +6678,13 @@
 </code>
 
 - [actuator/com.tcl.browser](https://github.com/actuator/com.tcl.browser)
+
+### CVE-2023-43482 (2024-02-06)
+
+<code>A command execution vulnerability exists in the guest resource functionality of Tp-Link ER7206 Omada Gigabit VPN Router 1.3.0 build 20230322 Rel.70591. A specially crafted HTTP request can lead to arbitrary command execution. An attacker can make an authenticated HTTP request to trigger this vulnerability.
+</code>
+
+- [Mr-xn/CVE-2023-43482](https://github.com/Mr-xn/CVE-2023-43482)
 
 ### CVE-2023-43654 (2023-09-28)
 
