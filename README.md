@@ -209,6 +209,13 @@
 - [wgetnz/CVE-2024-3094-check](https://github.com/wgetnz/CVE-2024-3094-check)
 - [emirkmo/xz-backdoor-github](https://github.com/emirkmo/xz-backdoor-github)
 - [ashwani95/CVE-2024-3094](https://github.com/ashwani95/CVE-2024-3094)
+- [harekrishnarai/xz-utils-vuln-checker](https://github.com/harekrishnarai/xz-utils-vuln-checker)
+- [teyhouse/CVE-2024-3094](https://github.com/teyhouse/CVE-2024-3094)
+- [alokemajumder/CVE-2024-3094-Vulnerability-Checker-Fixer](https://github.com/alokemajumder/CVE-2024-3094-Vulnerability-Checker-Fixer)
+- [Horizon-Software-Development/CVE-2024-3094](https://github.com/Horizon-Software-Development/CVE-2024-3094)
+- [hazemkya/CVE-2024-3094-checker](https://github.com/hazemkya/CVE-2024-3094-checker)
+- [lockness-Ko/xz-vulnerable-honeypot](https://github.com/lockness-Ko/xz-vulnerable-honeypot)
+- [brinhosa/CVE-2024-3094-One-Liner](https://github.com/brinhosa/CVE-2024-3094-One-Liner)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -1390,7 +1397,7 @@
 - [OllaPapito/gameoverlay](https://github.com/OllaPapito/gameoverlay)
 - [luanoliveira350/GameOverlayFS](https://github.com/luanoliveira350/GameOverlayFS)
 - [g1vi/CVE-2023-2640-CVE-2023-32629](https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629)
-- [vinetsuicide/CVE-2023-2640-CVE-2023-32629](https://github.com/vinetsuicide/CVE-2023-2640-CVE-2023-32629)
+- [musorblyat/CVE-2023-2640-CVE-2023-32629](https://github.com/musorblyat/CVE-2023-2640-CVE-2023-32629)
 - [SanjayRagavendar/Ubuntu-GameOver-Lay](https://github.com/SanjayRagavendar/Ubuntu-GameOver-Lay)
 - [Nkipohcs/CVE-2023-2640-CVE-2023-32629](https://github.com/Nkipohcs/CVE-2023-2640-CVE-2023-32629)
 
