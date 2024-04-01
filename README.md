@@ -224,6 +224,9 @@
 - [MrBUGLF/XZ-Utils_CVE-2024-3094](https://github.com/MrBUGLF/XZ-Utils_CVE-2024-3094)
 - [galacticquest/cve-2024-3094-detect](https://github.com/galacticquest/cve-2024-3094-detect)
 - [zgimszhd61/cve-2024-3094-detect-tool](https://github.com/zgimszhd61/cve-2024-3094-detect-tool)
+- [mightysai1997/CVE-2024-3094-info](https://github.com/mightysai1997/CVE-2024-3094-info)
+- [mightysai1997/CVE-2024-3094](https://github.com/mightysai1997/CVE-2024-3094)
+- [mesutgungor/xz-backdoor-vulnerability](https://github.com/mesutgungor/xz-backdoor-vulnerability)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -268,6 +271,7 @@
 - [m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767)
 - [Chocapikk/CVE-2024-20767](https://github.com/Chocapikk/CVE-2024-20767)
 - [huyqa/cve-2024-20767](https://github.com/huyqa/cve-2024-20767)
+- [Praison001/CVE-2024-20767-Adobe-ColdFusion](https://github.com/Praison001/CVE-2024-20767-Adobe-ColdFusion)
 
 ### CVE-2024-20931 (2024-02-16)
 
@@ -36219,6 +36223,13 @@
 
 - [Trinadh465/OpenSSL-1_0_1g_CVE-2016-0702](https://github.com/Trinadh465/OpenSSL-1_0_1g_CVE-2016-0702)
 
+### CVE-2016-0705 (2016-03-03)
+
+<code>Double free vulnerability in the dsa_priv_decode function in crypto/dsa/dsa_ameth.c in OpenSSL 1.0.1 before 1.0.1s and 1.0.2 before 1.0.2g allows remote attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a malformed DSA private key.
+</code>
+
+- [hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2016-0705)
+
 ### CVE-2016-0728 (2016-02-07)
 
 <code>The join_session_keyring function in security/keys/process_keys.c in the Linux kernel before 4.4.1 mishandles object references in a certain error case, which allows local users to gain privileges or cause a denial of service (integer overflow and use-after-free) via crafted keyctl commands.
@@ -38616,13 +38627,6 @@
 </code>
 
 - [Satheesh575555/openSSL_1.0.1g_CVE-2014-3507](https://github.com/Satheesh575555/openSSL_1.0.1g_CVE-2014-3507)
-
-### CVE-2014-3508 (2014-08-13)
-
-<code>The OBJ_obj2txt function in crypto/objects/obj_dat.c in OpenSSL 0.9.8 before 0.9.8zb, 1.0.0 before 1.0.0n, and 1.0.1 before 1.0.1i, when pretty printing is used, does not ensure the presence of '\0' characters, which allows context-dependent attackers to obtain sensitive information from process stack memory by reading output from X509_name_oneline, X509_name_print_ex, and unspecified other functions.
-</code>
-
-- [hshivhare67/OpenSSL_1.0.1g_CVE-2014-3508](https://github.com/hshivhare67/OpenSSL_1.0.1g_CVE-2014-3508)
 
 ### CVE-2014-3544 (2014-07-29)
 
