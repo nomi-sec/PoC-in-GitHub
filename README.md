@@ -227,6 +227,12 @@
 - [mightysai1997/CVE-2024-3094-info](https://github.com/mightysai1997/CVE-2024-3094-info)
 - [mightysai1997/CVE-2024-3094](https://github.com/mightysai1997/CVE-2024-3094)
 - [mesutgungor/xz-backdoor-vulnerability](https://github.com/mesutgungor/xz-backdoor-vulnerability)
+- [reuteras/CVE-2024-3094](https://github.com/reuteras/CVE-2024-3094)
+- [amlweems/xzbot](https://github.com/amlweems/xzbot)
+- [gustavorobertux/CVE-2024-3094](https://github.com/gustavorobertux/CVE-2024-3094)
+- [ackemed/detectar_cve-2024-3094](https://github.com/ackemed/detectar_cve-2024-3094)
+- [0xlane/xz-cve-2024-3094](https://github.com/0xlane/xz-cve-2024-3094)
+- [dah4k/CVE-2024-3094](https://github.com/dah4k/CVE-2024-3094)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -450,6 +456,12 @@
 
 ### CVE-2024-22534
 - [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
+
+### CVE-2024-22640
+- [zunak/CVE-2024-22640](https://github.com/zunak/CVE-2024-22640)
+
+### CVE-2024-22641
+- [zunak/CVE-2024-22641](https://github.com/zunak/CVE-2024-22641)
 
 ### CVE-2024-22752 (2024-03-07)
 
@@ -5877,6 +5889,7 @@
 - [SpamixOfficial/CVE-2023-38831](https://github.com/SpamixOfficial/CVE-2023-38831)
 - [r1yaz/winDED](https://github.com/r1yaz/winDED)
 - [youmulijiang/evil-winrar](https://github.com/youmulijiang/evil-winrar)
+- [solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC](https://github.com/solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -10644,6 +10657,13 @@
 </code>
 
 - [Acceis/exploit-CVE-2022-24780](https://github.com/Acceis/exploit-CVE-2022-24780)
+
+### CVE-2022-24818 (2022-04-13)
+
+<code>GeoTools is an open source Java library that provides tools for geospatial data. The GeoTools library has a number of data sources that can perform unchecked JNDI lookups, which in turn can be used to perform class deserialization and result in arbitrary code execution. Similar to the Log4J case, the vulnerability can be triggered if the JNDI names are user-provided, but requires admin-level login to be triggered. The lookups are now restricted in GeoTools 26.4, GeoTools 25.6, and GeoTools 24.6. Users unable to upgrade should ensure that any downstream application should not allow usage of remotely provided JNDI strings.
+</code>
+
+- [mbadanoiu/CVE-2022-24818](https://github.com/mbadanoiu/CVE-2022-24818)
 
 ### CVE-2022-24834 (2023-07-13)
 
@@ -32273,6 +32293,7 @@
 - [cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933)
 - [Rubikcuv5/CVE-2018-10933](https://github.com/Rubikcuv5/CVE-2018-10933)
 - [SilasSpringer/CVE-2018-10933](https://github.com/SilasSpringer/CVE-2018-10933)
+- [HSw109/CVE-2018-10933-PoC](https://github.com/HSw109/CVE-2018-10933-PoC)
 
 ### CVE-2018-10936 (2018-08-30)
 
