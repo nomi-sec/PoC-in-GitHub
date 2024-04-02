@@ -228,7 +228,11 @@
 
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
-### CVE-2024-3094
+### CVE-2024-3094 (-)
+
+<code>Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.
+</code>
+
 - [byinarie/CVE-2024-3094-info](https://github.com/byinarie/CVE-2024-3094-info)
 - [FabioBaroni/CVE-2024-3094-checker](https://github.com/FabioBaroni/CVE-2024-3094-checker)
 - [lypd0/CVE-2024-3094-Vulnerabity-Checker](https://github.com/lypd0/CVE-2024-3094-Vulnerabity-Checker)
@@ -586,10 +590,18 @@
 
 - [abian2/CVE-2024-23652](https://github.com/abian2/CVE-2024-23652)
 
-### CVE-2024-23722
+### CVE-2024-23722 (-)
+
+<code>In Fluent Bit 2.1.8 through 2.2.1, a NULL pointer dereference can be caused via an invalid HTTP payload with the content type of x-www-form-urlencoded. It crashes and does not restart. This could result in logs not being delivered properly.
+</code>
+
 - [alexcote1/CVE-2024-23722-poc](https://github.com/alexcote1/CVE-2024-23722-poc)
 
-### CVE-2024-23727
+### CVE-2024-23727 (-)
+
+<code>The YI Smart Kami Vision com.kamivision.yismart application through 1.0.0_20231219 for Android allows a remote attacker to execute arbitrary JavaScript code via an implicit intent to the com.ants360.yicamera.activity.WebViewActivity component.
+</code>
+
 - [actuator/yi](https://github.com/actuator/yi)
 
 ### CVE-2024-23738 (2024-01-27)
@@ -879,7 +891,11 @@
 
 - [shenhav12/CVE-2024-25170-Mezzanine-v6.0.0](https://github.com/shenhav12/CVE-2024-25170-Mezzanine-v6.0.0)
 
-### CVE-2024-25175
+### CVE-2024-25175 (2024-03-25)
+
+<code>An issue in Kickdler before v1.107.0 allows attackers to provide an XSS payload via a HTTP response splitting attack.
+</code>
+
 - [jet-pentest/CVE-2024-25175](https://github.com/jet-pentest/CVE-2024-25175)
 
 ### CVE-2024-25202 (2024-02-28)
@@ -1011,7 +1027,11 @@
 - [K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT)
 - [Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-)
 
-### CVE-2024-27619
+### CVE-2024-27619 (-)
+
+<code>Dlink Dir-3040us A1 1.20b03a hotfix is vulnerable to Buffer Overflow. Any user having read/write access to ftp server can write directly to ram causing buffer overflow if file or files uploaded are greater than available ram. Ftp server allows change of directory to root which is one level up than root of usb flash directory. During upload ram is getting filled and causing system resource exhaustion (no free memory) which causes system to crash and reboot.
+</code>
+
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
 
 ### CVE-2024-27665
@@ -1020,7 +1040,11 @@
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
 
-### CVE-2024-28085
+### CVE-2024-28085 (-)
+
+<code>wall in util-linux through 2.40, often installed with setgid tty permissions, allows escape sequences to be sent to other users' terminals through argv. (Specifically, escape sequences received from stdin are blocked, but escape sequences received from argv are not blocked.) There may be plausible scenarios where this leads to account takeover.
+</code>
+
 - [skyler-ferrante/CVE-2024-28085](https://github.com/skyler-ferrante/CVE-2024-28085)
 
 ### CVE-2024-28088 (2024-03-03)
@@ -1030,13 +1054,25 @@
 
 - [levpachmanov/cve-2024-28088-poc](https://github.com/levpachmanov/cve-2024-28088-poc)
 
-### CVE-2024-28116
+### CVE-2024-28116 (2024-03-21)
+
+<code>Grav is an open-source, flat-file content management system. Grav CMS prior to version 1.7.45 is vulnerable to a Server-Side Template Injection (SSTI), which allows any authenticated user (editor permissions are sufficient) to execute arbitrary code on the remote server bypassing the existing security sandbox. Version 1.7.45 contains a patch for this issue.
+</code>
+
 - [akabe1/Graver](https://github.com/akabe1/Graver)
 
-### CVE-2024-28247
+### CVE-2024-28247 (-)
+
+<code>The Pi-hole is a DNS sinkhole that protects your devices from unwanted content without installing any client-side software. A vulnerability has been discovered in Pihole that allows an authenticated user on the platform to read internal server files arbitrarily, and because the application runs from behind, reading files is done as a privileged user.If the URL that is in the list of &quot;Adslists&quot; begins with &quot;file*&quot; it is understood that it is updating from a local file, on the other hand if it does not begin with &quot;file*&quot; depending on the state of the response it does one thing or another. The problem resides in the update through local files. When updating from a file which contains non-domain lines, 5 of the non-domain lines are printed on the screen, so if you provide it with any file on the server which contains non-domain lines it will print them on the screen. This vulnerability is fixed by 5.18.
+</code>
+
 - [T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read](https://github.com/T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read)
 
-### CVE-2024-28288
+### CVE-2024-28288 (-)
+
+<code>Ruijie RG-NBR700GW 10.3(4b12) router lacks cookie verification when resetting the password, resulting in an administrator password reset vulnerability. An attacker can use this vulnerability to log in to the device and disrupt the business of the enterprise.
+</code>
+
 - [adminquit/CVE-2024-28288](https://github.com/adminquit/CVE-2024-28288)
 
 ### CVE-2024-28397
@@ -1055,13 +1091,25 @@
 ### CVE-2024-28741
 - [chebuya/CVE-2024-28741-northstar-agent-rce-poc](https://github.com/chebuya/CVE-2024-28741-northstar-agent-rce-poc)
 
-### CVE-2024-29059
+### CVE-2024-29059 (2024-03-22)
+
+<code>.NET Framework Information Disclosure Vulnerability
+</code>
+
 - [codewhitesec/HttpRemotingObjRefLeak](https://github.com/codewhitesec/HttpRemotingObjRefLeak)
 
-### CVE-2024-29272
+### CVE-2024-29272 (2024-03-22)
+
+<code>Arbitrary File Upload vulnerability in VvvebJs before version 1.7.5, allows unauthenticated remote attackers to execute arbitrary code and obtain sensitive information via the sanitizeFileName parameter in save.php.
+</code>
+
 - [awjkjflkwlekfdjs/CVE-2024-29272](https://github.com/awjkjflkwlekfdjs/CVE-2024-29272)
 
-### CVE-2024-29278
+### CVE-2024-29278 (-)
+
+<code>funboot v1.1 is vulnerable to Cross Site Scripting (XSS) via the title field in &quot;create a message .&quot;
+</code>
+
 - [QDming/cve](https://github.com/QDming/cve)
 
 ### CVE-2024-29375
@@ -1070,7 +1118,11 @@
 ### CVE-2024-31025
 - [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
 
-### CVE-2024-31033
+### CVE-2024-31033 (-)
+
+<code>JJWT (aka Java JWT) through 0.12.5 ignores certain characters and thus a user might falsely conclude that they have a strong key. The impacted code is the setSigningKey() method within the DefaultJwtParser class and the signWith() method within the DefaultJwtBuilder class.
+</code>
+
 - [2308652512/JJWT_BUG](https://github.com/2308652512/JJWT_BUG)
 
 ### CVE-2024-65230
@@ -4382,7 +4434,11 @@
 
 - [e23e/CVE-2023-31606](https://github.com/e23e/CVE-2023-31606)
 
-### CVE-2023-31634
+### CVE-2023-31634 (-)
+
+<code>In TeslaMate before 1.27.2, there is unauthorized access to port 4000 for remote viewing and operation of user data. After accessing the IP address for the TeslaMate instance, an attacker can switch the port to 3000 to enter Grafana for remote operations. At that time, the default username and password can be used to enter the Grafana management console without logging in, a related issue to CVE-2022-23126.
+</code>
+
 - [XC9409/CVE-2023-31634](https://github.com/XC9409/CVE-2023-31634)
 
 ### CVE-2023-31664 (2023-05-22)
@@ -5214,7 +5270,7 @@
 
 ### CVE-2023-35086 (2023-07-21)
 
-<code>\nIt is identified a format string vulnerability in ASUS RT-AX56U V2 &amp; RT-AC86U. This vulnerability is caused by directly using input as a format string when calling syslog in logmessage_normal function, in the do_detwan_cgi module of httpd. An unauthenticated remote attacker without privilege can exploit this vulnerability to perform remote arbitrary code execution, arbitrary system operation or disrupt service.\n\nThis issue affects RT-AX56U V2: 3.0.0.4.386_50460; RT-AC86U: 3.0.0.4_386_51529.\n\n
+<code>\nIt is identified a format string vulnerability in ASUS RT-AX56U V2 &amp; RT-AC86U. This vulnerability is caused by directly using input as a format string when calling syslog in logmessage_normal function, in the do_detwan_cgi module of httpd. A remote attacker with administrator privilege can exploit this vulnerability to perform remote arbitrary code execution, arbitrary system operation or disrupt service.\n\nThis issue affects RT-AX56U V2: 3.0.0.4.386_50460; RT-AC86U: 3.0.0.4_386_51529.\n\n
 </code>
 
 - [tin-z/CVE-2023-35086-POC](https://github.com/tin-z/CVE-2023-35086-POC)
@@ -5467,6 +5523,15 @@
 
 ### CVE-2023-36531
 - [RandomRobbieBF/CVE-2023-36531](https://github.com/RandomRobbieBF/CVE-2023-36531)
+
+### CVE-2023-36643
+- [caffeinated-labs/CVE-2023-36643](https://github.com/caffeinated-labs/CVE-2023-36643)
+
+### CVE-2023-36644
+- [caffeinated-labs/CVE-2023-36644](https://github.com/caffeinated-labs/CVE-2023-36644)
+
+### CVE-2023-36645
+- [caffeinated-labs/CVE-2023-36645](https://github.com/caffeinated-labs/CVE-2023-36645)
 
 ### CVE-2023-36664 (2023-06-25)
 
@@ -6554,6 +6619,7 @@
 - [Zenmovie/CVE-2023-42793](https://github.com/Zenmovie/CVE-2023-42793)
 - [johnossawy/CVE-2023-42793_POC](https://github.com/johnossawy/CVE-2023-42793_POC)
 - [StanleyJobsonAU/GhostTown](https://github.com/StanleyJobsonAU/GhostTown)
+- [St0rm-85/CVE-2023-42793](https://github.com/St0rm-85/CVE-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
@@ -6570,7 +6636,11 @@
 - [C1ph3rX13/CVE-2023-42820](https://github.com/C1ph3rX13/CVE-2023-42820)
 - [Startr4ck/cve-2023-42820](https://github.com/Startr4ck/cve-2023-42820)
 
-### CVE-2023-42931
+### CVE-2023-42931 (-)
+
+<code>The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.6.3, macOS Sonoma 14.2, macOS Monterey 12.7.2. A process may gain admin privileges without proper authentication.
+</code>
+
 - [d0rb/CVE-2023-42931](https://github.com/d0rb/CVE-2023-42931)
 
 ### CVE-2023-43115 (2023-09-18)
@@ -7699,7 +7769,11 @@
 
 - [nitipoom-jar/CVE-2023-48200](https://github.com/nitipoom-jar/CVE-2023-48200)
 
-### CVE-2023-48777
+### CVE-2023-48777 (-)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Elementor.Com Elementor Website Builder.This issue affects Elementor Website Builder: from 3.3.0 through 3.18.1.\n\n
+</code>
+
 - [AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777](https://github.com/AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777)
 
 ### CVE-2023-48788 (2024-03-12)
@@ -17787,7 +17861,6 @@
 </code>
 
 - [LioTree/CVE-2021-30128-EXP](https://github.com/LioTree/CVE-2021-30128-EXP)
-- [backlion/CVE-2021-30128](https://github.com/backlion/CVE-2021-30128)
 
 ### CVE-2021-30146 (2021-04-06)
 
@@ -19702,7 +19775,6 @@
 - [cgddgc/CVE-2021-41773-42013](https://github.com/cgddgc/CVE-2021-41773-42013)
 - [apapedulimu/Apachuk](https://github.com/apapedulimu/Apachuk)
 - [scarmandef/CVE-2021-41773](https://github.com/scarmandef/CVE-2021-41773)
-- [0xAlmighty/CVE-2021-41773-PoC](https://github.com/0xAlmighty/CVE-2021-41773-PoC)
 - [ksanchezcld/httpd-2.4.49](https://github.com/ksanchezcld/httpd-2.4.49)
 - [MrCl0wnLab/SimplesApachePathTraversal](https://github.com/MrCl0wnLab/SimplesApachePathTraversal)
 - [theLSA/apache-httpd-path-traversal-checker](https://github.com/theLSA/apache-httpd-path-traversal-checker)
@@ -20889,6 +20961,7 @@
 - [KtokKawu/l4s-vulnapp](https://github.com/KtokKawu/l4s-vulnapp)
 - [sec13b/CVE-2021-44228-POC](https://github.com/sec13b/CVE-2021-44228-POC)
 - [KirkDJohnson/Wireshark](https://github.com/KirkDJohnson/Wireshark)
+- [YangHyperData/LOGJ4_PocShell_CVE-2021-44228](https://github.com/YangHyperData/LOGJ4_PocShell_CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -26822,6 +26895,7 @@
 - [Ravaan21/Bluekeep-Hunter](https://github.com/Ravaan21/Bluekeep-Hunter)
 - [davidfortytwo/bluekeep](https://github.com/davidfortytwo/bluekeep)
 - [tranqtruong/Detect-BlueKeep](https://github.com/tranqtruong/Detect-BlueKeep)
+- [jdouglas12a/CVE-2019-0708](https://github.com/jdouglas12a/CVE-2019-0708)
 
 ### CVE-2019-0709 (2019-06-12)
 
