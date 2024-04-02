@@ -184,6 +184,7 @@
 - [W01fh4cker/ScreenConnect-AuthBypass-RCE](https://github.com/W01fh4cker/ScreenConnect-AuthBypass-RCE)
 - [HussainFathy/CVE-2024-1709](https://github.com/HussainFathy/CVE-2024-1709)
 - [sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass](https://github.com/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass)
+- [cjybao/CVE-2024-1709-and-CVE-2024-1708](https://github.com/cjybao/CVE-2024-1709-and-CVE-2024-1708)
 
 ### CVE-2024-1781 (2024-02-22)
 
@@ -265,6 +266,9 @@
 - [ackemed/detectar_cve-2024-3094](https://github.com/ackemed/detectar_cve-2024-3094)
 - [0xlane/xz-cve-2024-3094](https://github.com/0xlane/xz-cve-2024-3094)
 - [dah4k/CVE-2024-3094](https://github.com/dah4k/CVE-2024-3094)
+- [hackingetico21/revisaxzutils](https://github.com/hackingetico21/revisaxzutils)
+- [devjanger/CVE-2024-3094-XZ-Backdoor-Detector](https://github.com/devjanger/CVE-2024-3094-XZ-Backdoor-Detector)
+- [ScrimForever/CVE-2024-3094](https://github.com/ScrimForever/CVE-2024-3094)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
