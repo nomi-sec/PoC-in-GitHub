@@ -67,7 +67,11 @@
 
 - [0x9567b/CVE-2024-0844](https://github.com/0x9567b/CVE-2024-0844)
 
-### CVE-2024-1071
+### CVE-2024-1071 (2024-03-13)
+
+<code>The Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction &amp; Membership Plugin plugin for WordPress is vulnerable to SQL Injection via the 'sorting' parameter in versions 2.1.3 to 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
 - [gbrsh/CVE-2024-1071](https://github.com/gbrsh/CVE-2024-1071)
 - [Trackflaw/CVE-2024-1071-Docker](https://github.com/Trackflaw/CVE-2024-1071-Docker)
 - [Matrexdz/CVE-2024-1071](https://github.com/Matrexdz/CVE-2024-1071)
@@ -108,16 +112,32 @@
 
 - [sajaljat/CVE-2024-1269](https://github.com/sajaljat/CVE-2024-1269)
 
-### CVE-2024-1301
+### CVE-2024-1301 (2024-03-12)
+
+<code>SQL injection vulnerability in Badger Meter Monitool affecting versions 4.6.3 and earlier. A remote attacker could send a specially crafted SQL query to the server via the j_username parameter and retrieve the information stored in the database.
+</code>
+
 - [guillermogm4/CVE-2024-1301---Badgermeter-moni-tool-SQL-Injection](https://github.com/guillermogm4/CVE-2024-1301---Badgermeter-moni-tool-SQL-Injection)
 
-### CVE-2024-1302
+### CVE-2024-1302 (2024-03-12)
+
+<code>Information exposure vulnerability in Badger Meter Monitool affecting versions up to 4.6.3 and earlier. A local attacker could change the application's file parameter to a log file obtaining all sensitive information such as database credentials.
+</code>
+
 - [guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure](https://github.com/guillermogm4/CVE-2024-1302---Badgermeter-moni-tool-Sensitive-information-exposure)
 
-### CVE-2024-1303
+### CVE-2024-1303 (2024-03-12)
+
+<code>Incorrectly limiting the path to a restricted directory vulnerability in Badger Meter Monitool that affects versions up to 4.6.3 and earlier. This vulnerability allows an authenticated attacker to retrieve any file from the device using the download-file functionality.
+</code>
+
 - [guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal](https://github.com/guillermogm4/CVE-2024-1303---Badgermeter-moni-tool-Path-Traversal)
 
-### CVE-2024-1304
+### CVE-2024-1304 (2024-03-12)
+
+<code>Cross-site scripting vulnerability in Badger Meter Monitool that affects versions up to 4.6.3 and earlier. This vulnerability allows a remote attacker to send a specially crafted javascript payload to an authenticated user and partially hijack their browser session.
+</code>
+
 - [guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS](https://github.com/guillermogm4/CVE-2024-1304---Badgermeter-moni-tool-Reflected-Cross-Site-Scripting-XSS)
 
 ### CVE-2024-1346 (2024-02-19)
@@ -186,13 +206,25 @@
 
 - [yuziiiiiiiiii/CVE-2024-2074](https://github.com/yuziiiiiiiiii/CVE-2024-2074)
 
-### CVE-2024-2169
+### CVE-2024-2169 (2024-03-19)
+
+<code>Implementations of UDP application protocol are vulnerable to network loops.   An unauthenticated attacker can use maliciously-crafted packets against a vulnerable implementation that can lead to Denial of Service (DOS) and/or abuse of resources.
+</code>
+
 - [douglasbuzatto/G3-Loop-DoS](https://github.com/douglasbuzatto/G3-Loop-DoS)
 
-### CVE-2024-2193
+### CVE-2024-2193 (2024-03-15)
+
+<code>A Speculative Race Condition (SRC) vulnerability that impacts modern CPU architectures supporting speculative execution (related to Spectre V1) has been disclosed. An unauthenticated attacker can exploit this vulnerability to disclose arbitrary data from the CPU using race conditions to access the speculative executable code paths.
+</code>
+
 - [uthrasri/CVE-2024-2193](https://github.com/uthrasri/CVE-2024-2193)
 
-### CVE-2024-2432
+### CVE-2024-2432 (2024-03-13)
+
+<code>A privilege escalation (PE) vulnerability in the Palo Alto Networks GlobalProtect app on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.
+</code>
+
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
 ### CVE-2024-3094
@@ -272,7 +304,11 @@
 
 - [RomanRybachek/CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698)
 
-### CVE-2024-20767
+### CVE-2024-20767 (2024-03-18)
+
+<code>ColdFusion versions 2023.6, 2021.12 and earlier are affected by an Improper Access Control vulnerability that could lead to arbitrary file system read. An attacker could leverage this vulnerability to bypass security measures and gain unauthorized access to sensitive files and perform arbitrary file system write. Exploitation of this issue does not require user interaction.
+</code>
+
 - [yoryio/CVE-2024-20767](https://github.com/yoryio/CVE-2024-20767)
 - [m-cetin/CVE-2024-20767](https://github.com/m-cetin/CVE-2024-20767)
 - [Chocapikk/CVE-2024-20767](https://github.com/Chocapikk/CVE-2024-20767)
@@ -595,7 +631,7 @@
 
 ### CVE-2024-23745 (2024-01-30)
 
-<code>In Notion Web Clipper 1.0.3(7), a .nib file is susceptible to the Dirty NIB attack. NIB files can be manipulated to execute arbitrary commands. Additionally, even if a NIB file is modified within an application, Gatekeeper may still permit the execution of the application, enabling the execution of arbitrary commands within the application's context.
+<code>** DISPUTED ** In Notion Web Clipper 1.0.3(7), a .nib file is susceptible to the Dirty NIB attack. NIB files can be manipulated to execute arbitrary commands. Additionally, even if a NIB file is modified within an application, Gatekeeper may still permit the execution of the application, enabling the execution of arbitrary commands within the application's context. NOTE: the vendor's perspective is that this is simply an instance of CVE-2022-48505, cannot properly be categorized as a product-level vulnerability, and cannot have a product-level fix because it is about incorrect caching of file signatures on macOS.
 </code>
 
 - [louiselalanne/CVE-2024-23745](https://github.com/louiselalanne/CVE-2024-23745)
@@ -726,7 +762,11 @@
 
 - [BurakSevben/CVE-2024-24142](https://github.com/BurakSevben/CVE-2024-24142)
 
-### CVE-2024-24336
+### CVE-2024-24336 (2024-03-19)
+
+<code>A multiple Cross-site scripting (XSS) vulnerability in the '/members/moremember.pl', and ‘/members/members-home.pl’ endpoints within Koha Library Management System version 23.05.05 and earlier allows malicious staff users to carry out CSRF attacks, including unauthorized changes to usernames and passwords of users visiting the affected page, via the 'Circulation note' and ‘Patrons Restriction’ components.
+</code>
+
 - [nitipoom-jar/CVE-2024-24336](https://github.com/nitipoom-jar/CVE-2024-24336)
 
 ### CVE-2024-24337 (2024-02-12)
@@ -812,7 +852,11 @@
 ### CVE-2024-25092
 - [RandomRobbieBF/CVE-2024-25092](https://github.com/RandomRobbieBF/CVE-2024-25092)
 
-### CVE-2024-25153
+### CVE-2024-25153 (2024-03-13)
+
+<code>A directory traversal within the ‘ftpservlet’ of the FileCatalyst Workflow Web Portal allows files to be uploaded outside of the intended ‘uploadtemp’ directory with a specially crafted POST request. In situations where a file is successfully uploaded to web portal’s DocumentRoot, specially crafted JSP files could be used to execute code, including web shells.
+</code>
+
 - [nettitude/CVE-2024-25153](https://github.com/nettitude/CVE-2024-25153)
 - [rainbowhatrkn/CVE-2024-25153](https://github.com/rainbowhatrkn/CVE-2024-25153)
 
@@ -840,7 +884,11 @@
 
 - [Agampreet-Singh/CVE-2024-25202](https://github.com/Agampreet-Singh/CVE-2024-25202)
 
-### CVE-2024-25227
+### CVE-2024-25227 (2024-03-15)
+
+<code>SQL Injection vulnerability in ABO.CMS version 5.8, allows remote attackers to execute arbitrary code, cause a denial of service (DoS), escalate privileges, and obtain sensitive information via the tb_login parameter in admin login page.
+</code>
+
 - [thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-Login-SQLi-CVE-2024-25227)
 - [thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227](https://github.com/thetrueartist/ABO.CMS-EXPLOIT-Unauthenticated-Login-Bypass-CVE-2024-25227)
 
@@ -914,13 +962,25 @@
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
 
-### CVE-2024-26475
+### CVE-2024-26475 (2024-03-14)
+
+<code>An issue in radareorg radare2 v.0.9.7 through v.5.8.6 and fixed in v.5.8.8 allows a local attacker to cause a denial of service via the grub_sfs_read_extent function.
+</code>
+
 - [TronciuVlad/CVE-2024-26475](https://github.com/TronciuVlad/CVE-2024-26475)
 
-### CVE-2024-26503
+### CVE-2024-26503 (2024-03-14)
+
+<code>Unrestricted File Upload vulnerability in Greek Universities Network Open eClass v.3.15 and earlier allows attackers to run arbitrary code via upload of crafted file to certbadge.php endpoint.
+</code>
+
 - [RoboGR00t/Exploit-CVE-2024-26503](https://github.com/RoboGR00t/Exploit-CVE-2024-26503)
 
-### CVE-2024-26521
+### CVE-2024-26521 (2024-03-12)
+
+<code>HTML Injection vulnerability in CE Phoenix v1.0.8.20 and before allows a remote attacker to execute arbitrary code, escalate privileges, and obtain sensitive information via a crafted payload to the english.php component.
+</code>
+
 - [hackervegas001/CVE-2024-26521](https://github.com/hackervegas001/CVE-2024-26521)
 
 ### CVE-2024-26534
@@ -959,7 +1019,7 @@
 
 ### CVE-2024-28088 (2024-03-03)
 
-<code>LangChain through 0.1.10 allows ../ directory traversal by an actor who is able to control the final part of the path parameter in a load_chain call. This bypasses the intended behavior of loading configurations only from the hwchase17/langchain-hub GitHub repository. The outcome can be disclosure of an API key for a large language model online service, or remote code execution.
+<code>LangChain through 0.1.10 allows ../ directory traversal by an actor who is able to control the final part of the path parameter in a load_chain call. This bypasses the intended behavior of loading configurations only from the hwchase17/langchain-hub GitHub repository. The outcome can be disclosure of an API key for a large language model online service, or remote code execution. (A patch is available as of release 0.1.29 of langchain-core.)
 </code>
 
 - [levpachmanov/cve-2024-28088-poc](https://github.com/levpachmanov/cve-2024-28088-poc)
@@ -979,7 +1039,11 @@
 ### CVE-2024-28515
 - [heshi906/CVE-2024-28515](https://github.com/heshi906/CVE-2024-28515)
 
-### CVE-2024-28715
+### CVE-2024-28715 (2024-03-19)
+
+<code>Cross Site Scripting vulnerability in DOraCMS v.2.18 and before allows a remote attacker to execute arbitrary code via the markdown0 function in the /app/public/apidoc/oas3/wrap-components/markdown.jsx endpoint.
+</code>
+
 - [Lq0ne/CVE-2024-28715](https://github.com/Lq0ne/CVE-2024-28715)
 
 ### CVE-2024-28741
@@ -6089,22 +6153,46 @@
 - [hshivhare67/platform_frameworks_base_android-4.2.2_r1_CVE-2023-40140](https://github.com/hshivhare67/platform_frameworks_base_android-4.2.2_r1_CVE-2023-40140)
 - [hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140](https://github.com/hshivhare67/platform_frameworks_base_AOSP6_r22_CVE-2023-40140)
 
-### CVE-2023-40275
+### CVE-2023-40275 (2024-03-18)
+
+<code>An issue was discovered in OpenClinic GA 5.247.01. It allows retrieval of patient lists via queries such as findFirstname= to _common/search/searchByAjax/patientslistShow.jsp.
+</code>
+
 - [BugBountyHunterCVE/CVE-2023-40275](https://github.com/BugBountyHunterCVE/CVE-2023-40275)
 
-### CVE-2023-40276
+### CVE-2023-40276 (2024-03-18)
+
+<code>An issue was discovered in OpenClinic GA 5.247.01. An Unauthenticated File Download vulnerability has been discovered in pharmacy/exportFile.jsp.
+</code>
+
 - [BugBountyHunterCVE/CVE-2023-40276](https://github.com/BugBountyHunterCVE/CVE-2023-40276)
 
-### CVE-2023-40277
+### CVE-2023-40277 (2024-03-18)
+
+<code>An issue was discovered in OpenClinic GA 5.247.01. A Reflected Cross-Site Scripting (XSS) vulnerability has been discovered in the login.jsp message parameter.
+</code>
+
 - [BugBountyHunterCVE/CVE-2023-40277](https://github.com/BugBountyHunterCVE/CVE-2023-40277)
 
-### CVE-2023-40278
+### CVE-2023-40278 (2024-03-19)
+
+<code>An issue was discovered in OpenClinic GA 5.247.01. An Information Disclosure vulnerability has been identified in the printAppointmentPdf.jsp component of OpenClinic GA. By changing the AppointmentUid parameter, an attacker can determine whether a specific appointment exists based on the error message.
+</code>
+
 - [BugBountyHunterCVE/CVE-2023-40278](https://github.com/BugBountyHunterCVE/CVE-2023-40278)
 
-### CVE-2023-40279
+### CVE-2023-40279 (2024-03-19)
+
+<code>An issue was discovered in OpenClinic GA 5.247.01. An attacker can perform a directory path traversal via the Page parameter in a GET request to main.do.
+</code>
+
 - [BugBountyHunterCVE/CVE-2023-40279](https://github.com/BugBountyHunterCVE/CVE-2023-40279)
 
-### CVE-2023-40280
+### CVE-2023-40280 (2024-03-18)
+
+<code>An issue was discovered in OpenClinic GA 5.247.01. An attacker can perform a directory path traversal via the Page parameter in a GET request to popup.jsp.
+</code>
+
 - [BugBountyHunterCVE/CVE-2023-40280](https://github.com/BugBountyHunterCVE/CVE-2023-40280)
 
 ### CVE-2023-40294 (2023-08-13)
@@ -6437,7 +6525,11 @@
 
 - [actuator/wave.ai.browser](https://github.com/actuator/wave.ai.browser)
 
-### CVE-2023-42789
+### CVE-2023-42789 (2024-03-12)
+
+<code>A out-of-bounds write in Fortinet FortiOS 7.4.0 through 7.4.1, 7.2.0 through 7.2.5, 7.0.0 through 7.0.12, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, FortiProxy 7.4.0, 7.2.0 through 7.2.6, 7.0.0 through 7.0.12, 2.0.0 through 2.0.13 allows attacker to execute unauthorized code or commands via specially crafted HTTP requests.
+</code>
+
 - [jhonnybonny/CVE-2023-42789](https://github.com/jhonnybonny/CVE-2023-42789)
 
 ### CVE-2023-42793 (2023-09-19)
@@ -7597,7 +7689,11 @@
 ### CVE-2023-48777
 - [AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777](https://github.com/AkuCyberSec/Elementor-3.18.0-Upload-Path-Traversal-RCE-CVE-2023-48777)
 
-### CVE-2023-48788
+### CVE-2023-48788 (2024-03-12)
+
+<code>A improper neutralization of special elements used in an sql command ('sql injection') in Fortinet FortiClientEMS version 7.2.0 through 7.2.2, FortiClientEMS 7.0.1 through 7.0.10 allows attacker to execute unauthorized code or commands via specially crafted packets.
+</code>
+
 - [horizon3ai/CVE-2023-48788](https://github.com/horizon3ai/CVE-2023-48788)
 
 ### CVE-2023-48842 (2023-12-01)
@@ -7742,7 +7838,11 @@
 
 - [brandon-t-elliott/CVE-2023-49438](https://github.com/brandon-t-elliott/CVE-2023-49438)
 
-### CVE-2023-49453
+### CVE-2023-49453 (2024-03-12)
+
+<code>Reflected cross-site scripting (XSS) vulnerability in Racktables v0.22.0 and before, allows local attackers to execute arbitrary code and obtain sensitive information via the search component in index.php.
+</code>
+
 - [nitipoom-jar/CVE-2023-49453](https://github.com/nitipoom-jar/CVE-2023-49453)
 
 ### CVE-2023-49471 (2024-01-10)
