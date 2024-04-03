@@ -83,6 +83,7 @@
 </code>
 
 - [Notselwyn/CVE-2024-1086](https://github.com/Notselwyn/CVE-2024-1086)
+- [Alicey0719/docker-POC_CVE-2024-1086](https://github.com/Alicey0719/docker-POC_CVE-2024-1086)
 
 ### CVE-2024-1208 (2024-02-05)
 
@@ -279,6 +280,7 @@
 - [CyberGuard-Foundation/CVE-2024-3094](https://github.com/CyberGuard-Foundation/CVE-2024-3094)
 - [Security-Phoenix-demo/CVE-2024-3094-fix-exploits](https://github.com/Security-Phoenix-demo/CVE-2024-3094-fix-exploits)
 - [MagpieRYL/CVE-2024-3094-backdoor-env-container](https://github.com/MagpieRYL/CVE-2024-3094-backdoor-env-container)
+- [Bella-Bc/xz-backdoor-CVE-2024-3094-Check](https://github.com/Bella-Bc/xz-backdoor-CVE-2024-3094-Check)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -422,6 +424,7 @@
 - [h4x0r-dz/CVE-2024-21762](https://github.com/h4x0r-dz/CVE-2024-21762)
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
+- [lore-is-already-taken/multicheck_CVE-2024-21762](https://github.com/lore-is-already-taken/multicheck_CVE-2024-21762)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -996,6 +999,13 @@
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
 
+### CVE-2024-26198 (2024-03-12)
+
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
+</code>
+
+- [babywalkerenc/CVE-2024-26198-POC](https://github.com/babywalkerenc/CVE-2024-26198-POC)
+
 ### CVE-2024-26475 (2024-03-14)
 
 <code>An issue in radareorg radare2 v.0.9.7 through v.5.8.6 and fixed in v.5.8.8 allows a local attacker to cause a denial of service via the grub_sfs_read_extent function.
@@ -1040,6 +1050,9 @@
 - [K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT)
 - [Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-)
 
+### CVE-2024-27518
+- [secunnix/CVE-2024-27518](https://github.com/secunnix/CVE-2024-27518)
+
 ### CVE-2024-27619 (-)
 
 <code>Dlink Dir-3040us A1 1.20b03a hotfix is vulnerable to Buffer Overflow. Any user having read/write access to ftp server can write directly to ram causing buffer overflow if file or files uploaded are greater than available ram. Ftp server allows change of directory to root which is one level up than root of usb flash directory. During upload ram is getting filled and causing system resource exhaustion (no free memory) which causes system to crash and reboot.
@@ -1049,6 +1062,16 @@
 
 ### CVE-2024-27665
 - [Thirukrishnan/CVE-2024-27665](https://github.com/Thirukrishnan/CVE-2024-27665)
+
+### CVE-2024-27673
+- [Alaatk/CVE-2024-27673](https://github.com/Alaatk/CVE-2024-27673)
+
+### CVE-2024-27674 (-)
+
+<code>Macro Expert through 4.9.4 allows BUILTIN\Users:(OI)(CI)(M) access to the &quot;%PROGRAMFILES(X86)%\GrassSoft\Macro Expert&quot; folder and thus an unprivileged user can escalate to SYSTEM by replacing the MacroService.exe binary.
+</code>
+
+- [Alaatk/CVE-2024-27674](https://github.com/Alaatk/CVE-2024-27674)
 
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
@@ -1097,6 +1120,13 @@
 </code>
 
 - [heshi906/CVE-2024-28515](https://github.com/heshi906/CVE-2024-28515)
+
+### CVE-2024-28589 (-)
+
+<code>An issue was discovered in Axigen Mail Server for Windows versions 10.5.18 and before, allows local low-privileged attackers to execute arbitrary code and escalate privileges via insecure DLL loading from a world-writable directory during service initialization.
+</code>
+
+- [Alaatk/CVE-2024-28589](https://github.com/Alaatk/CVE-2024-28589)
 
 ### CVE-2024-28715 (2024-03-19)
 
@@ -7365,6 +7395,9 @@
 </code>
 
 - [0x1717/ssrf-via-img](https://github.com/0x1717/ssrf-via-img)
+
+### CVE-2023-46304
+- [jselliott/CVE-2023-46304](https://github.com/jselliott/CVE-2023-46304)
 
 ### CVE-2023-46344 (2024-02-01)
 
