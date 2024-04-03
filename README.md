@@ -277,6 +277,8 @@
 - [r0binak/xzk8s](https://github.com/r0binak/xzk8s)
 - [przemoc/xz-backdoor-links](https://github.com/przemoc/xz-backdoor-links)
 - [CyberGuard-Foundation/CVE-2024-3094](https://github.com/CyberGuard-Foundation/CVE-2024-3094)
+- [Security-Phoenix-demo/CVE-2024-3094-fix-exploits](https://github.com/Security-Phoenix-demo/CVE-2024-3094-fix-exploits)
+- [MagpieRYL/CVE-2024-3094-backdoor-env-container](https://github.com/MagpieRYL/CVE-2024-3094-backdoor-env-container)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -394,6 +396,7 @@
 - [V0WKeep3r/CVE-2024-21626-runcPOC](https://github.com/V0WKeep3r/CVE-2024-21626-runcPOC)
 - [abian2/CVE-2024-21626](https://github.com/abian2/CVE-2024-21626)
 - [Sk3pper/CVE-2024-21626](https://github.com/Sk3pper/CVE-2024-21626)
+- [KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -1088,7 +1091,11 @@
 ### CVE-2024-28397
 - [Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397)
 
-### CVE-2024-28515
+### CVE-2024-28515 (-)
+
+<code>Buffer Overflow vulnerability in CSAPP_Lab CSAPP Lab3 15-213 Fall 20xx allows a remote attacker to execute arbitrary code via the lab3 of csapp,lab3/buflab-update.pl component.
+</code>
+
 - [heshi906/CVE-2024-28515](https://github.com/heshi906/CVE-2024-28515)
 
 ### CVE-2024-28715 (2024-03-19)
@@ -1126,7 +1133,7 @@
 - [QDming/cve](https://github.com/QDming/cve)
 
 ### CVE-2024-29375
-- [c0rvane/CVE-2024-29375](https://github.com/c0rvane/CVE-2024-29375)
+- [ismailcemunver/CVE-2024-29375](https://github.com/ismailcemunver/CVE-2024-29375)
 
 ### CVE-2024-31025
 - [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
@@ -6235,6 +6242,13 @@
 
 - [hshivhare67/platform_framework_base_AOSP6_r22_CVE-2023-40121](https://github.com/hshivhare67/platform_framework_base_AOSP6_r22_CVE-2023-40121)
 - [hshivhare67/platform_framework_base_android-4.2.2_r1_CVE-2023-40121](https://github.com/hshivhare67/platform_framework_base_android-4.2.2_r1_CVE-2023-40121)
+
+### CVE-2023-40133 (2023-10-27)
+
+<code>In multiple locations of DialogFillUi.java, there is a possible way to view another user's images due to a confused deputy. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [uthrasri/frame_CVE-2023-40133_136_137](https://github.com/uthrasri/frame_CVE-2023-40133_136_137)
 
 ### CVE-2023-40140 (2023-10-27)
 
@@ -34067,6 +34081,7 @@
 - [kimocoder/eternalblue](https://github.com/kimocoder/eternalblue)
 - [EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution](https://github.com/EEsshq/CVE-2017-0144---EtneralBlue-MS17-010-Remote-Code-Execution)
 - [quynhold/Detect-CVE-2017-0144-attack](https://github.com/quynhold/Detect-CVE-2017-0144-attack)
+- [ducanh2oo3/Vulnerability-Research-CVE-2017-0144](https://github.com/ducanh2oo3/Vulnerability-Research-CVE-2017-0144)
 
 ### CVE-2017-0145 (2017-03-16)
 
