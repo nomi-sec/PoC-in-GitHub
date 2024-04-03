@@ -274,6 +274,9 @@
 - [devjanger/CVE-2024-3094-XZ-Backdoor-Detector](https://github.com/devjanger/CVE-2024-3094-XZ-Backdoor-Detector)
 - [ScrimForever/CVE-2024-3094](https://github.com/ScrimForever/CVE-2024-3094)
 - [pentestfunctions/CVE-2024-3094](https://github.com/pentestfunctions/CVE-2024-3094)
+- [r0binak/xzk8s](https://github.com/r0binak/xzk8s)
+- [przemoc/xz-backdoor-links](https://github.com/przemoc/xz-backdoor-links)
+- [CyberGuard-Foundation/CVE-2024-3094](https://github.com/CyberGuard-Foundation/CVE-2024-3094)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -965,6 +968,13 @@
 - [Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
+
+### CVE-2024-25723 (2024-02-27)
+
+<code>ZenML Server in the ZenML machine learning package before 0.46.7 for Python allows remote privilege escalation because the /api/v1/users/{user_name_or_id}/activate REST API endpoint allows access on the basis of a valid username along with a new password in the request body. These are also patched versions: 0.44.4, 0.43.1, and 0.42.2.
+</code>
+
+- [david-botelho-mariano/exploit-CVE-2024-25723](https://github.com/david-botelho-mariano/exploit-CVE-2024-25723)
 
 ### CVE-2024-25731 (2024-03-04)
 
@@ -2020,7 +2030,7 @@
 - [murphysecurity/libwebp-checker](https://github.com/murphysecurity/libwebp-checker)
 - [LiveOverflow/webp-CVE-2023-4863](https://github.com/LiveOverflow/webp-CVE-2023-4863)
 - [caoweiquan322/NotEnough](https://github.com/caoweiquan322/NotEnough)
-- [Microsvuln/CVE-2023-4863](https://github.com/Microsvuln/CVE-2023-4863)
+- [CrackerCat/CVE-2023-4863-](https://github.com/CrackerCat/CVE-2023-4863-)
 - [alsaeroth/CVE-2023-4863-POC](https://github.com/alsaeroth/CVE-2023-4863-POC)
 
 ### CVE-2023-4911 (2023-10-03)
