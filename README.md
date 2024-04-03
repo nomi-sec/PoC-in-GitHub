@@ -1108,6 +1108,9 @@
 
 - [codewhitesec/HttpRemotingObjRefLeak](https://github.com/codewhitesec/HttpRemotingObjRefLeak)
 
+### CVE-2024-29269
+- [wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269)
+
 ### CVE-2024-29272 (2024-03-22)
 
 <code>Arbitrary File Upload vulnerability in VvvebJs before version 1.7.5, allows unauthenticated remote attackers to execute arbitrary code and obtain sensitive information via the sanitizeFileName parameter in save.php.
@@ -1127,13 +1130,6 @@
 
 ### CVE-2024-31025
 - [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
-
-### CVE-2024-31033 (-)
-
-<code>JJWT (aka Java JWT) through 0.12.5 ignores certain characters and thus a user might falsely conclude that they have a strong key. The impacted code is the setSigningKey() method within the DefaultJwtParser class and the signWith() method within the DefaultJwtBuilder class.
-</code>
-
-- [2308652512/JJWT_BUG](https://github.com/2308652512/JJWT_BUG)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -3746,6 +3742,13 @@
 
 - [horizon3ai/CVE-2023-27532](https://github.com/horizon3ai/CVE-2023-27532)
 - [sfewer-r7/CVE-2023-27532](https://github.com/sfewer-r7/CVE-2023-27532)
+
+### CVE-2023-27564 (2023-05-10)
+
+<code>The n8n package 0.218.0 for Node.js allows Information Disclosure.
+</code>
+
+- [david-botelho-mariano/exploit-CVE-2023-27564](https://github.com/david-botelho-mariano/exploit-CVE-2023-27564)
 
 ### CVE-2023-27566 (2023-03-03)
 
@@ -18072,7 +18075,6 @@
 - [hev0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/hev0x/CVE-2021-31630-OpenPLC_RCE)
 - [Hunt3r0x/CVE-2021-31630-HTB](https://github.com/Hunt3r0x/CVE-2021-31630-HTB)
 - [thewhiteh4t/cve-2021-31630](https://github.com/thewhiteh4t/cve-2021-31630)
-- [UserB1ank/CVE-2021-31630](https://github.com/UserB1ank/CVE-2021-31630)
 
 ### CVE-2021-31728 (2021-05-17)
 
