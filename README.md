@@ -1001,13 +1001,6 @@
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
 
-### CVE-2024-26198 (2024-03-12)
-
-<code>Microsoft Exchange Server Remote Code Execution Vulnerability
-</code>
-
-- [babywalkerenc/CVE-2024-26198-POC](https://github.com/babywalkerenc/CVE-2024-26198-POC)
-
 ### CVE-2024-26475 (2024-03-14)
 
 <code>An issue in radareorg radare2 v.0.9.7 through v.5.8.6 and fixed in v.5.8.8 allows a local attacker to cause a denial of service via the grub_sfs_read_extent function.
@@ -19036,6 +19029,7 @@
 </code>
 
 - [gkrishnan724/CVE-2021-38297](https://github.com/gkrishnan724/CVE-2021-38297)
+- [paras98/CVE-2021-38297-Go-wasm-Replication](https://github.com/paras98/CVE-2021-38297-Go-wasm-Replication)
 
 ### CVE-2021-38314 (2021-09-02)
 
