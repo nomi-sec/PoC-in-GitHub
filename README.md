@@ -229,6 +229,13 @@
 
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
+### CVE-2024-2879 (-)
+
+<code>The LayerSlider plugin for WordPress is vulnerable to SQL Injection via the ls_get_popup_markup action in versions 7.9.11 and 7.10.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [JohnNetSouldRU/CVE-2024-2879-POC](https://github.com/JohnNetSouldRU/CVE-2024-2879-POC)
+
 ### CVE-2024-3094 (-)
 
 <code>Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.
@@ -283,6 +290,8 @@
 - [Bella-Bc/xz-backdoor-CVE-2024-3094-Check](https://github.com/Bella-Bc/xz-backdoor-CVE-2024-3094-Check)
 - [TheTorjanCaptain/CVE-2024-3094-Checker](https://github.com/TheTorjanCaptain/CVE-2024-3094-Checker)
 - [iheb2b/CVE-2024-3094-Checker](https://github.com/iheb2b/CVE-2024-3094-Checker)
+- [felipecosta09/cve-2024-3094](https://github.com/felipecosta09/cve-2024-3094)
+- [weltregie/liblzma-scan](https://github.com/weltregie/liblzma-scan)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -1098,13 +1107,6 @@
 </code>
 
 - [T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read](https://github.com/T0X1Cx/CVE-2024-28247-Pi-hole-Arbitrary-File-Read)
-
-### CVE-2024-28288 (-)
-
-<code>Ruijie RG-NBR700GW 10.3(4b12) router lacks cookie verification when resetting the password, resulting in an administrator password reset vulnerability. An attacker can use this vulnerability to log in to the device and disrupt the business of the enterprise.
-</code>
-
-- [adminquit/CVE-2024-28288](https://github.com/adminquit/CVE-2024-28288)
 
 ### CVE-2024-28397
 - [Marven11/CVE-2024-28397](https://github.com/Marven11/CVE-2024-28397)
@@ -21085,20 +21087,6 @@
 </code>
 
 - [pjlantz/optee-qemu](https://github.com/pjlantz/optee-qemu)
-
-### CVE-2021-44735 (2022-01-20)
-
-<code>Embedded web server command injection vulnerability in Lexmark devices through 2021-12-07.
-</code>
-
-- [defensor/CVE-2021-44735](https://github.com/defensor/CVE-2021-44735)
-
-### CVE-2021-44736 (2022-01-20)
-
-<code>The initial admin account setup wizard on Lexmark devices allow unauthenticated access to the “out of service erase” feature.
-</code>
-
-- [defensor/CVE-2021-44736](https://github.com/defensor/CVE-2021-44736)
 
 ### CVE-2021-44790 (2021-12-20)
 
