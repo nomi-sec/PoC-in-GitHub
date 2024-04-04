@@ -292,6 +292,8 @@
 - [iheb2b/CVE-2024-3094-Checker](https://github.com/iheb2b/CVE-2024-3094-Checker)
 - [felipecosta09/cve-2024-3094](https://github.com/felipecosta09/cve-2024-3094)
 - [weltregie/liblzma-scan](https://github.com/weltregie/liblzma-scan)
+- [crfearnworks/ansible-CVE-2024-3094](https://github.com/crfearnworks/ansible-CVE-2024-3094)
+- [robertdebock/ansible-playbook-cve-2024-3094](https://github.com/robertdebock/ansible-playbook-cve-2024-3094)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -1040,6 +1042,9 @@
 ### CVE-2024-26560
 - [sajaljat/CVE-2024-26560](https://github.com/sajaljat/CVE-2024-26560)
 
+### CVE-2024-26574
+- [Alaatk/CVE-2024-26574](https://github.com/Alaatk/CVE-2024-26574)
+
 ### CVE-2024-27198 (2024-03-04)
 
 <code>In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
@@ -1053,6 +1058,9 @@
 - [CharonDefalt/CVE-2024-27198-RCE](https://github.com/CharonDefalt/CVE-2024-27198-RCE)
 - [K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT)
 - [Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-)
+
+### CVE-2024-27474
+- [dead1nfluence/Leantime-POC](https://github.com/dead1nfluence/Leantime-POC)
 
 ### CVE-2024-27518
 - [secunnix/CVE-2024-27518](https://github.com/secunnix/CVE-2024-27518)
@@ -33373,7 +33381,7 @@
 <code>libcurl versions from 7.36.0 to before 7.64.0 is vulnerable to a heap buffer out-of-bounds read. The function handling incoming NTLM type-2 messages (`lib/vauth/ntlm.c:ntlm_decode_type2_target`) does not validate incoming data correctly and is subject to an integer overflow vulnerability. Using that overflow, a malicious or broken NTLM server could trick libcurl to accept a bad length + offset combination that would lead to a buffer read out-of-bounds.
 </code>
 
-- [zjw88282740/CVE-2018-16890](https://github.com/zjw88282740/CVE-2018-16890)
+- [michelleamesquita/CVE-2018-16890](https://github.com/michelleamesquita/CVE-2018-16890)
 
 ### CVE-2018-16987 (2018-09-13)
 
