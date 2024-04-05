@@ -1045,6 +1045,13 @@
 ### CVE-2024-26574
 - [Alaatk/CVE-2024-26574](https://github.com/Alaatk/CVE-2024-26574)
 
+### CVE-2024-27191 (-)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Inpersttion Slivery Extender allows Code Injection.This issue affects Slivery Extender: from n/a through 1.0.2.\n\n
+</code>
+
+- [somecodeinjection/CVE-2024-27191-POC](https://github.com/somecodeinjection/CVE-2024-27191-POC)
+
 ### CVE-2024-27198 (2024-03-04)
 
 <code>In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
@@ -1170,8 +1177,18 @@
 ### CVE-2024-29375
 - [ismailcemunver/CVE-2024-29375](https://github.com/ismailcemunver/CVE-2024-29375)
 
+### CVE-2024-30851
+- [chebuya/CVE-2024-30851-jasmin-ransomware-path-traversal-poc](https://github.com/chebuya/CVE-2024-30851-jasmin-ransomware-path-traversal-poc)
+
 ### CVE-2024-31025
 - [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
+
+### CVE-2024-31380 (-)
+
+<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Soflyy Oxygen Builder allows Code Injection.This issue affects Oxygen Builder: from n/a through 4.8.1.\n\n
+</code>
+
+- [Chokopik/CVE-2024-31380-POC](https://github.com/Chokopik/CVE-2024-31380-POC)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -33271,6 +33288,13 @@
 </code>
 
 - [snappyJack/CVE-2018-16373](https://github.com/snappyJack/CVE-2018-16373)
+
+### CVE-2018-16431 (2018-09-03)
+
+<code>admin/admin/adminsave.html in YFCMF v3.0 allows CSRF to add an administrator account.
+</code>
+
+- [RHYru9/CVE-2018-16431](https://github.com/RHYru9/CVE-2018-16431)
 
 ### CVE-2018-16492 (2019-02-01)
 
