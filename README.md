@@ -37144,6 +37144,7 @@
 - [NguyenCongHaiNam/Research-CVE-2016-5195](https://github.com/NguyenCongHaiNam/Research-CVE-2016-5195)
 - [EDLLT/CVE-2016-5195-master](https://github.com/EDLLT/CVE-2016-5195-master)
 - [sakilahamed/Linux-Kernel-Exploit-LAB](https://github.com/sakilahamed/Linux-Kernel-Exploit-LAB)
+- [ASUKA39/CVE-2016-5195](https://github.com/ASUKA39/CVE-2016-5195)
 
 ### CVE-2016-5345 (2018-01-22)
 
