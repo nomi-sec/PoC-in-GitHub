@@ -1187,6 +1187,9 @@
 ### CVE-2024-29375
 - [ismailcemunver/CVE-2024-29375](https://github.com/ismailcemunver/CVE-2024-29375)
 
+### CVE-2024-30614
+- [Lucky-lm/CVE-2024-30614](https://github.com/Lucky-lm/CVE-2024-30614)
+
 ### CVE-2024-30850
 - [chebuya/CVE-2024-30850-chaos-rat-rce-poc](https://github.com/chebuya/CVE-2024-30850-chaos-rat-rce-poc)
 
@@ -7299,6 +7302,9 @@
 
 - [afine-com/CVE-2023-45185](https://github.com/afine-com/CVE-2023-45185)
 
+### CVE-2023-45288
+- [0xCuteSocks/cve-2023-45288](https://github.com/0xCuteSocks/cve-2023-45288)
+
 ### CVE-2023-45471 (2023-10-19)
 
 <code>The QAD Search Server is vulnerable to Stored Cross-Site Scripting (XSS) in versions up to, and including, 1.0.0.315 due to insufficient checks on indexes. This makes it possible for unauthenticated attackers to create a new index and inject a malicious web script into its name, that will execute whenever a user accesses the search page.
@@ -8324,6 +8330,7 @@
 - [aaronm-sysdig/cve-2023-50164](https://github.com/aaronm-sysdig/cve-2023-50164)
 - [snyk-labs/CVE-2023-50164-POC](https://github.com/snyk-labs/CVE-2023-50164-POC)
 - [sunnyvale-it/CVE-2023-50164-PoC](https://github.com/sunnyvale-it/CVE-2023-50164-PoC)
+- [n-etupirka/CVE-2023-50164](https://github.com/n-etupirka/CVE-2023-50164)
 
 ### CVE-2023-50226
 - [kn32/parallels-file-move-privesc](https://github.com/kn32/parallels-file-move-privesc)
