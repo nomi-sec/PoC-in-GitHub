@@ -1048,13 +1048,6 @@
 ### CVE-2024-26574
 - [Alaatk/CVE-2024-26574](https://github.com/Alaatk/CVE-2024-26574)
 
-### CVE-2024-27191 (-)
-
-<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Inpersttion Slivery Extender allows Code Injection.This issue affects Slivery Extender: from n/a through 1.0.2.\n\n
-</code>
-
-- [somecodeinjection/CVE-2024-27191-POC](https://github.com/somecodeinjection/CVE-2024-27191-POC)
-
 ### CVE-2024-27198 (2024-03-04)
 
 <code>In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
@@ -1160,13 +1153,6 @@
 
 - [codewhitesec/HttpRemotingObjRefLeak](https://github.com/codewhitesec/HttpRemotingObjRefLeak)
 
-### CVE-2024-29201 (-)
-
-<code>JumpServer is an open source bastion host and an operation and maintenance security audit system. Attackers can bypass the input validation mechanism in JumpServer's Ansible to execute arbitrary code within the Celery container. Since the Celery container runs with root privileges and has database access, attackers could steal sensitive information from all hosts or manipulate the database. This vulnerability is fixed in v3.10.7.
-</code>
-
-- [chokopikk/CVE-2024-29201-POC](https://github.com/chokopikk/CVE-2024-29201-POC)
-
 ### CVE-2024-29269
 - [wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269)
 
@@ -1201,13 +1187,6 @@
 
 ### CVE-2024-31025
 - [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
-
-### CVE-2024-31380 (-)
-
-<code>Improper Control of Generation of Code ('Code Injection') vulnerability in Soflyy Oxygen Builder allows Code Injection.This issue affects Oxygen Builder: from n/a through 4.8.1.\n\n
-</code>
-
-- [Chokopik/CVE-2024-31380-POC](https://github.com/Chokopik/CVE-2024-31380-POC)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -6145,6 +6124,7 @@
 - [r1yaz/winDED](https://github.com/r1yaz/winDED)
 - [youmulijiang/evil-winrar](https://github.com/youmulijiang/evil-winrar)
 - [solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC](https://github.com/solomon12354/VolleyballSquid-----CVE-2023-38831-and-Bypass-UAC)
+- [RomainBayle08/CVE-2023-38831](https://github.com/RomainBayle08/CVE-2023-38831)
 
 ### CVE-2023-38836 (2023-08-21)
 
@@ -8330,7 +8310,6 @@
 - [aaronm-sysdig/cve-2023-50164](https://github.com/aaronm-sysdig/cve-2023-50164)
 - [snyk-labs/CVE-2023-50164-POC](https://github.com/snyk-labs/CVE-2023-50164-POC)
 - [sunnyvale-it/CVE-2023-50164-PoC](https://github.com/sunnyvale-it/CVE-2023-50164-PoC)
-- [n-etupirka/CVE-2023-50164](https://github.com/n-etupirka/CVE-2023-50164)
 
 ### CVE-2023-50226
 - [kn32/parallels-file-move-privesc](https://github.com/kn32/parallels-file-move-privesc)
@@ -28642,6 +28621,13 @@
 - [masahiro331/CVE-2019-10758](https://github.com/masahiro331/CVE-2019-10758)
 - [lp008/CVE-2019-10758](https://github.com/lp008/CVE-2019-10758)
 
+### CVE-2019-10760 (2019-10-15)
+
+<code>safer-eval before 1.3.2 are vulnerable to Arbitrary Code Execution. A payload using constructor properties can escape the sandbox and execute arbitrary code.
+</code>
+
+- [lirantal/safer-eval-cve-CVE-2019-10760](https://github.com/lirantal/safer-eval-cve-CVE-2019-10760)
+
 ### CVE-2019-10779 (2020-01-27)
 
 <code>All versions of stroom:stroom-app before 5.5.12 and all versions of the 6.0.0 branch before 6.0.25 are affected by Cross-site Scripting. An attacker website is able to load the Stroom UI into a hidden iframe. Using that iframe, the attacker site can issue commands to the Stroom UI via an XSS vulnerability to take full control of the Stroom UI on behalf of the logged-in user.
@@ -40517,7 +40503,7 @@
 <code>Multiple stack-based buffer overflows in the pr_netio_telnet_gets function in netio.c in ProFTPD before 1.3.3c allow remote attackers to execute arbitrary code via vectors involving a TELNET IAC escape character to a (1) FTP or (2) FTPS server.
 </code>
 
-- [M31MOTH/cve-2010-4221](https://github.com/M31MOTH/cve-2010-4221)
+- [M41doror/cve-2010-4221](https://github.com/M41doror/cve-2010-4221)
 
 ### CVE-2010-4231 (2010-11-16)
 
