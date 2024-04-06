@@ -32,6 +32,7 @@
 
 - [ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582)
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
+- [FoxyProxys/CVE-2024-0582](https://github.com/FoxyProxys/CVE-2024-0582)
 
 ### CVE-2024-0679 (2024-01-20)
 
@@ -1182,6 +1183,9 @@
 ### CVE-2024-29375
 - [ismailcemunver/CVE-2024-29375](https://github.com/ismailcemunver/CVE-2024-29375)
 
+### CVE-2024-30850
+- [chebuya/CVE-2024-30850-chaos-rat-rce-poc](https://github.com/chebuya/CVE-2024-30850-chaos-rat-rce-poc)
+
 ### CVE-2024-30851
 - [chebuya/CVE-2024-30851-jasmin-ransomware-path-traversal-poc](https://github.com/chebuya/CVE-2024-30851-jasmin-ransomware-path-traversal-poc)
 
@@ -2266,6 +2270,13 @@
 </code>
 
 - [pog007/CVE-2023-5561-PoC](https://github.com/pog007/CVE-2023-5561-PoC)
+
+### CVE-2023-5631 (2023-10-18)
+
+<code>\nRoundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stored XSS via an HTML e-mail message with a crafted SVG document because of program/lib/Roundcube/rcube_washtml.php behavior. This could allow a remote attacker\n\nto load arbitrary JavaScript code.\n\n\n\n\n\n\n\n
+</code>
+
+- [soreta2/CVE-2023-5631-POC](https://github.com/soreta2/CVE-2023-5631-POC)
 
 ### CVE-2023-5717 (2023-10-25)
 
