@@ -290,6 +290,7 @@
 - [crfearnworks/ansible-CVE-2024-3094](https://github.com/crfearnworks/ansible-CVE-2024-3094)
 - [robertdebock/ansible-playbook-cve-2024-3094](https://github.com/robertdebock/ansible-playbook-cve-2024-3094)
 - [badsectorlabs/ludus_xz_backdoor](https://github.com/badsectorlabs/ludus_xz_backdoor)
+- [Juul/xz-backdoor-scan](https://github.com/Juul/xz-backdoor-scan)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -456,6 +457,9 @@
 
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
+
+### CVE-2024-21894
+- [Ronoffer/CVE-2024-21894-Proof-of-concept](https://github.com/Ronoffer/CVE-2024-21894-Proof-of-concept)
 
 ### CVE-2024-22024 (2024-02-12)
 
