@@ -292,6 +292,9 @@
 - [badsectorlabs/ludus_xz_backdoor](https://github.com/badsectorlabs/ludus_xz_backdoor)
 - [Juul/xz-backdoor-scan](https://github.com/Juul/xz-backdoor-scan)
 
+### CVE-2024-3273
+- [Chocapikk/CVE-2024-3273](https://github.com/Chocapikk/CVE-2024-3273)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -2905,6 +2908,7 @@
 - [h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768)
 - [zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit)
 - [Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768)
+- [Ha0-Y/CVE-2023-21768](https://github.com/Ha0-Y/CVE-2023-21768)
 
 ### CVE-2023-21823 (2023-02-14)
 
