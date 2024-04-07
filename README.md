@@ -458,9 +458,6 @@
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
 
-### CVE-2024-21894
-- [Ronoffer/CVE-2024-21894-Proof-of-concept](https://github.com/Ronoffer/CVE-2024-21894-Proof-of-concept)
-
 ### CVE-2024-22024 (2024-02-12)
 
 <code>An XML external entity or XXE vulnerability in the SAML component of Ivanti Connect Secure (9.x, 22.x), Ivanti Policy Secure (9.x, 22.x) and ZTA gateways which allows an attacker to access certain restricted resources without authentication.
@@ -988,9 +985,6 @@
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 
-### CVE-2024-25693
-- [MrCyb3rSec/CVE-2024-25693-exploit](https://github.com/MrCyb3rSec/CVE-2024-25693-exploit)
-
 ### CVE-2024-25723 (2024-02-27)
 
 <code>ZenML Server in the ZenML machine learning package before 0.46.7 for Python allows remote privilege escalation because the /api/v1/users/{user_name_or_id}/activate REST API endpoint allows access on the basis of a valid username along with a new password in the request body. These are also patched versions: 0.44.4, 0.43.1, and 0.42.2.
@@ -1004,6 +998,9 @@
 </code>
 
 - [actuator/com.cn.dq.ipc](https://github.com/actuator/com.cn.dq.ipc)
+
+### CVE-2024-25733
+- [hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC](https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC)
 
 ### CVE-2024-25809
 - [sajaljat/CVE-2024-25809](https://github.com/sajaljat/CVE-2024-25809)
@@ -1074,6 +1071,15 @@
 </code>
 
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
+
+### CVE-2024-27630
+- [ally-petitt/CVE-2024-27630](https://github.com/ally-petitt/CVE-2024-27630)
+
+### CVE-2024-27631
+- [ally-petitt/CVE-2024-27631](https://github.com/ally-petitt/CVE-2024-27631)
+
+### CVE-2024-27632
+- [ally-petitt/CVE-2024-27632](https://github.com/ally-petitt/CVE-2024-27632)
 
 ### CVE-2024-27665
 - [Thirukrishnan/CVE-2024-27665](https://github.com/Thirukrishnan/CVE-2024-27665)
