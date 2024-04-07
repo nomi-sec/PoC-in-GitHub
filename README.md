@@ -292,8 +292,12 @@
 - [badsectorlabs/ludus_xz_backdoor](https://github.com/badsectorlabs/ludus_xz_backdoor)
 - [Juul/xz-backdoor-scan](https://github.com/Juul/xz-backdoor-scan)
 
+### CVE-2024-3116
+- [FoxyProxys/CVE-2024-3116](https://github.com/FoxyProxys/CVE-2024-3116)
+
 ### CVE-2024-3273
 - [Chocapikk/CVE-2024-3273](https://github.com/Chocapikk/CVE-2024-3273)
+- [adhikara13/CVE-2024-3273](https://github.com/adhikara13/CVE-2024-3273)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -477,6 +481,9 @@
 </code>
 
 - [shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234)
+
+### CVE-2024-22328
+- [RansomGroupCVE/CVE-2024-22328-POC](https://github.com/RansomGroupCVE/CVE-2024-22328-POC)
 
 ### CVE-2024-22369 (2024-02-20)
 
@@ -5607,6 +5614,7 @@
 <code>Windows Hyper-V Elevation of Privilege Vulnerability
 </code>
 
+- [zha0/CVE-2023-36407](https://github.com/zha0/CVE-2023-36407)
 - [pwndorei/CVE-2023-36407](https://github.com/pwndorei/CVE-2023-36407)
 
 ### CVE-2023-36424 (2023-11-14)
@@ -7291,9 +7299,6 @@
 </code>
 
 - [afine-com/CVE-2023-45185](https://github.com/afine-com/CVE-2023-45185)
-
-### CVE-2023-45288
-- [0xCuteSocks/cve-2023-45288](https://github.com/0xCuteSocks/cve-2023-45288)
 
 ### CVE-2023-45471 (2023-10-19)
 
@@ -20034,6 +20039,7 @@
 - [Hamesawian/CVE-2021-42013](https://github.com/Hamesawian/CVE-2021-42013)
 - [K3ysTr0K3R/CVE-2021-42013-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-42013-EXPLOIT)
 - [imhunterand/CVE-2021-42013](https://github.com/imhunterand/CVE-2021-42013)
+- [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
 
@@ -31253,7 +31259,7 @@
 </code>
 
 - [Jailbreaks/CVE-2018-4150](https://github.com/Jailbreaks/CVE-2018-4150)
-- [RPwnage/LovelySn0w](https://github.com/RPwnage/LovelySn0w)
+- [rpwnage/LovelySn0w](https://github.com/rpwnage/LovelySn0w)
 - [littlelailo/incomplete-exploit-for-CVE-2018-4150-bpf-filter-poc-](https://github.com/littlelailo/incomplete-exploit-for-CVE-2018-4150-bpf-filter-poc-)
 
 ### CVE-2018-4185 (2019-01-11)
