@@ -294,10 +294,12 @@
 
 ### CVE-2024-3116
 - [FoxyProxys/CVE-2024-3116](https://github.com/FoxyProxys/CVE-2024-3116)
+- [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
 
 ### CVE-2024-3273
 - [Chocapikk/CVE-2024-3273](https://github.com/Chocapikk/CVE-2024-3273)
 - [adhikara13/CVE-2024-3273](https://github.com/adhikara13/CVE-2024-3273)
+- [yarienkiva/honeypot-dlink-CVE-2024-3273](https://github.com/yarienkiva/honeypot-dlink-CVE-2024-3273)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -7233,6 +7235,9 @@
 </code>
 
 - [sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout](https://github.com/sromanhu/CVE-2023-44771_ZenarioCMS--Stored-XSS---Page-Layout)
+
+### CVE-2023-44792
+- [ally-petitt/CVE-2023-44792](https://github.com/ally-petitt/CVE-2023-44792)
 
 ### CVE-2023-44811 (2023-10-09)
 
