@@ -224,6 +224,9 @@
 
 - [uthrasri/CVE-2024-2193](https://github.com/uthrasri/CVE-2024-2193)
 
+### CVE-2024-2222
+- [JohnnyBradvo/CVE-2024-2222](https://github.com/JohnnyBradvo/CVE-2024-2222)
+
 ### CVE-2024-2432 (2024-03-13)
 
 <code>A privilege escalation (PE) vulnerability in the Palo Alto Networks GlobalProtect app on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.
@@ -300,6 +303,13 @@
 - [FoxyProxys/CVE-2024-3116](https://github.com/FoxyProxys/CVE-2024-3116)
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
 
+### CVE-2024-3272 (2024-04-04)
+
+<code>Eine Schwachstelle wurde in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L bis 20240403 entdeckt. Sie wurde als sehr kritisch eingestuft. Betroffen davon ist ein unbekannter Prozess der Datei /cgi-bin/nas_sharing.cgi der Komponente HTTP GET Request Handler. Mit der Manipulation des Arguments user mit der Eingabe messagebus mit unbekannten Daten kann eine hard-coded credentials-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [nickswink/D-Link-NAS-Devices-Unauthenticated-RCE](https://github.com/nickswink/D-Link-NAS-Devices-Unauthenticated-RCE)
+
 ### CVE-2024-3273 (2024-04-04)
 
 <code>Es wurde eine Schwachstelle in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L bis 20240403 gefunden. Sie wurde als kritisch eingestuft. Betroffen hiervon ist ein unbekannter Ablauf der Datei /cgi-bin/nas_sharing.cgi der Komponente HTTP GET Request Handler. Durch die Manipulation des Arguments system mit unbekannten Daten kann eine command injection-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -309,6 +319,18 @@
 - [adhikara13/CVE-2024-3273](https://github.com/adhikara13/CVE-2024-3273)
 - [yarienkiva/honeypot-dlink-CVE-2024-3273](https://github.com/yarienkiva/honeypot-dlink-CVE-2024-3273)
 
+### CVE-2024-3333
+- [JohnnyBradvo/CVE-2024-3333](https://github.com/JohnnyBradvo/CVE-2024-3333)
+
+### CVE-2024-4444
+- [JohnnyBradvo/CVE-2024-4444](https://github.com/JohnnyBradvo/CVE-2024-4444)
+
+### CVE-2024-5555
+- [JohnnyBradvo/CVE-2024-5555](https://github.com/JohnnyBradvo/CVE-2024-5555)
+
+### CVE-2024-6666
+- [JohnnyBradvo/CVE-2024-6666](https://github.com/JohnnyBradvo/CVE-2024-6666)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -317,7 +339,7 @@
 <code>A vulnerability in the access control list (ACL) programming for port channel subinterfaces of Cisco Nexus 3000 and 9000 Series Switches in standalone NX-OS mode could allow an unauthenticated, remote attacker to send traffic that should be blocked through an affected device.\r\n\r This vulnerability is due to incorrect hardware programming that occurs when configuration changes are made to port channel member ports. An attacker could exploit this vulnerability by attempting to send traffic through an affected device. A successful exploit could allow the attacker to access network resources that should be protected by an ACL that was applied on port channel subinterfaces.
 </code>
 
-- [BetterCzz/CVE-2024-20291-POC](https://github.com/BetterCzz/CVE-2024-20291-POC)
+- [Instructor-Team8/CVE-2024-20291-POC](https://github.com/Instructor-Team8/CVE-2024-20291-POC)
 
 ### CVE-2024-20656 (2024-01-09)
 
@@ -425,6 +447,13 @@
 - [DevAkabari/CVE-2024-21413](https://github.com/DevAkabari/CVE-2024-21413)
 - [dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413)
 
+### CVE-2024-21426 (2024-03-12)
+
+<code>Microsoft SharePoint Server Remote Code Execution Vulnerability
+</code>
+
+- [JohnnyBradvo/CVE-2024-21426-SharePoint-RCE](https://github.com/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE)
+
 ### CVE-2024-21626 (2024-01-31)
 
 <code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue. 
@@ -466,6 +495,7 @@
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762)
+- [AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -488,6 +518,13 @@
 
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
+
+### CVE-2024-21894 (2024-04-04)
+
+<code>A heap overflow vulnerability in IPSec component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure allows an unauthenticated malicious user to send specially crafted requests in-order-to crash the service thereby causing a DoS attack. In certain conditions this may lead to execution of arbitrary code 
+</code>
+
+- [RansomGroupCVE/CVE-2024-21894-POC](https://github.com/RansomGroupCVE/CVE-2024-21894-POC)
 
 ### CVE-2024-22024 (2024-02-13)
 
@@ -1231,6 +1268,9 @@
 
 ### CVE-2024-30614
 - [Lucky-lm/CVE-2024-30614](https://github.com/Lucky-lm/CVE-2024-30614)
+
+### CVE-2024-30656
+- [Yashodhanvivek/Firebolt-wristphone-vulnerability](https://github.com/Yashodhanvivek/Firebolt-wristphone-vulnerability)
 
 ### CVE-2024-30850
 - [chebuya/CVE-2024-30850-chaos-rat-rce-poc](https://github.com/chebuya/CVE-2024-30850-chaos-rat-rce-poc)
