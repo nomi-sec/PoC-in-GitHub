@@ -367,6 +367,13 @@
 
 - [tandasat/CVE-2024-21305](https://github.com/tandasat/CVE-2024-21305)
 
+### CVE-2024-21306 (2024-01-09)
+
+<code>Microsoft Bluetooth Driver Spoofing Vulnerability
+</code>
+
+- [d4rks1d33/C-PoC-for-CVE-2024-21306](https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306)
+
 ### CVE-2024-21378 (2024-02-13)
 
 <code>Microsoft Outlook Remote Code Execution Vulnerability
@@ -2274,13 +2281,6 @@
 </code>
 
 - [pog007/CVE-2023-5561-PoC](https://github.com/pog007/CVE-2023-5561-PoC)
-
-### CVE-2023-5631 (2023-10-18)
-
-<code>\nRoundcube before 1.4.15, 1.5.x before 1.5.5, and 1.6.x before 1.6.4 allows stored XSS via an HTML e-mail message with a crafted SVG document because of program/lib/Roundcube/rcube_washtml.php behavior. This could allow a remote attacker\n\nto load arbitrary JavaScript code.\n\n\n\n\n\n\n\n
-</code>
-
-- [soreta2/CVE-2023-5631-POC](https://github.com/soreta2/CVE-2023-5631-POC)
 
 ### CVE-2023-5717 (2023-10-25)
 
