@@ -376,6 +376,13 @@
 
 - [RomanRybachek/CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698)
 
+### CVE-2024-20720 (2024-02-15)
+
+<code>Adobe Commerce versions 2.4.6-p3, 2.4.5-p5, 2.4.4-p6 and earlier are affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could lead in arbitrary code execution by an attacker. Exploitation of this issue does not require user interaction.
+</code>
+
+- [xxDlib/CVE-2024-20720-PoC](https://github.com/xxDlib/CVE-2024-20720-PoC)
+
 ### CVE-2024-20767 (2024-03-18)
 
 <code>ColdFusion versions 2023.6, 2021.12 and earlier are affected by an Improper Access Control vulnerability that could lead to arbitrary file system read. An attacker could leverage this vulnerability to bypass security measures and gain unauthorized access to sensitive files and perform arbitrary file system write. Exploitation of this issue does not require user interaction.
@@ -424,13 +431,6 @@
 </code>
 
 - [d0rb/CVE-2024-21388](https://github.com/d0rb/CVE-2024-21388)
-
-### CVE-2024-21410 (2024-02-13)
-
-<code>Microsoft Exchange Server Elevation of Privilege Vulnerability
-</code>
-
-- [JohnBordon/CVE-2024-21410-poc](https://github.com/JohnBordon/CVE-2024-21410-poc)
 
 ### CVE-2024-21412 (2024-02-13)
 
@@ -1309,20 +1309,6 @@
 </code>
 
 - [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
-
-### CVE-2024-31286 (2024-04-07)
-
-<code>Unrestricted Upload of File with Dangerous Type vulnerability in J.N. Breetvelt a.K.A. OpaJaap WP Photo Album Plus.This issue affects WP Photo Album Plus: from n/a before 8.6.03.005.\n\n
-</code>
-
-- [Auggustino/CVE-2024-31286-Wordpress-Exploit](https://github.com/Auggustino/CVE-2024-31286-Wordpress-Exploit)
-
-### CVE-2024-31345 (2024-04-07)
-
-<code>Unrestricted Upload of File with Dangerous Type vulnerability in Sukhchain Singh Auto Poster.This issue affects Auto Poster: from n/a through 1.2.\n\n
-</code>
-
-- [Chokopikkk/CVE-2024-31345_exploit](https://github.com/Chokopikkk/CVE-2024-31345_exploit)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -6458,6 +6444,13 @@
 
 - [hshivhare67/platform_framework_base_AOSP6_r22_CVE-2023-40121](https://github.com/hshivhare67/platform_framework_base_AOSP6_r22_CVE-2023-40121)
 - [hshivhare67/platform_framework_base_android-4.2.2_r1_CVE-2023-40121](https://github.com/hshivhare67/platform_framework_base_android-4.2.2_r1_CVE-2023-40121)
+
+### CVE-2023-40127 (2023-10-27)
+
+<code>In multiple locations, there is a possible way to access screenshots due to a confused deputy. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [Trinadh465/platform_packages_providers_MediaProvider_CVE-2023-40127](https://github.com/Trinadh465/platform_packages_providers_MediaProvider_CVE-2023-40127)
 
 ### CVE-2023-40133 (2023-10-27)
 
