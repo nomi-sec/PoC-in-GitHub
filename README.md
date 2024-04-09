@@ -1303,6 +1303,13 @@
 ### CVE-2024-29399
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
 
+### CVE-2024-30255 (2024-04-04)
+
+<code>Envoy is a cloud-native, open source edge and service proxy. The HTTP/2 protocol stack in Envoy versions prior to 1.29.3, 1.28.2, 1.27.4, and 1.26.8 are vulnerable to CPU exhaustion due to flood of CONTINUATION frames. Envoy's HTTP/2 codec allows the client to send an unlimited number of CONTINUATION frames even after exceeding Envoy's header map limits. This allows an attacker to send a sequence of CONTINUATION frames without the END_HEADERS bit set causing CPU utilization, consuming approximately 1 core per 300Mbit/s of traffic and culminating in denial of service through CPU exhaustion. Users should upgrade to version 1.29.3, 1.28.2, 1.27.4, or 1.26.8 to mitigate the effects of the CONTINUATION flood. As a workaround, disable HTTP/2 protocol for downstream connections.
+</code>
+
+- [blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC](https://github.com/blackmagic2023/Envoy-CPU-Exhaustion-Vulnerability-PoC)
+
 ### CVE-2024-30614
 - [Lucky-lm/CVE-2024-30614](https://github.com/Lucky-lm/CVE-2024-30614)
 
@@ -11732,7 +11739,7 @@
 <code>Premature release of resource during expected lifetime in the Intel(R) SGX SDK software may allow a privileged user to potentially enable information disclosure via local access.
 </code>
 
-- [StanPlatinum/snapshot-demo](https://github.com/StanPlatinum/snapshot-demo)
+- [StanPlatinum/snapshot-attack-demo](https://github.com/StanPlatinum/snapshot-attack-demo)
 
 ### CVE-2022-27502 (2022-06-10)
 
@@ -32758,7 +32765,7 @@
 - [cyberharsh/Libssh-server-CVE-2018-10933](https://github.com/cyberharsh/Libssh-server-CVE-2018-10933)
 - [Rubikcuv5/CVE-2018-10933](https://github.com/Rubikcuv5/CVE-2018-10933)
 - [SilasSpringer/CVE-2018-10933](https://github.com/SilasSpringer/CVE-2018-10933)
-- [HSw109/CVE-2018-10933-PoC](https://github.com/HSw109/CVE-2018-10933-PoC)
+- [HSw109/CVE-2018-10933](https://github.com/HSw109/CVE-2018-10933)
 
 ### CVE-2018-10936 (2018-08-30)
 
