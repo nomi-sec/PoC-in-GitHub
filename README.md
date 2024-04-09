@@ -234,6 +234,13 @@
 
 - [Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP](https://github.com/Hagrid29/CVE-2024-2432-PaloAlto-GlobalProtect-EoP)
 
+### CVE-2024-2879 (2024-04-03)
+
+<code>The LayerSlider plugin for WordPress is vulnerable to SQL Injection via the ls_get_popup_markup action in versions 7.9.11 and 7.10.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [herculeszxc/CVE-2024-2879](https://github.com/herculeszxc/CVE-2024-2879)
+
 ### CVE-2024-3094 (2024-03-29)
 
 <code>Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.
@@ -1151,13 +1158,25 @@
 
 - [ioprojecton/dir-3040_dos](https://github.com/ioprojecton/dir-3040_dos)
 
-### CVE-2024-27630
+### CVE-2024-27630 (2024-04-08)
+
+<code>Insecure Direct Object Reference (IDOR) in GNU Savane v.3.12 and before allows a remote attacker to delete arbitrary files via crafted input to the trackers_data_delete_file function.
+</code>
+
 - [ally-petitt/CVE-2024-27630](https://github.com/ally-petitt/CVE-2024-27630)
 
-### CVE-2024-27631
+### CVE-2024-27631 (2024-04-08)
+
+<code>Cross Site Request Forgery vulnerability in GNU Savane v.3.12 and before allows a remote attacker to escalate privileges via siteadmin/usergroup.php
+</code>
+
 - [ally-petitt/CVE-2024-27631](https://github.com/ally-petitt/CVE-2024-27631)
 
-### CVE-2024-27632
+### CVE-2024-27632 (2024-04-08)
+
+<code>An issue in GNU Savane v.3.12 and before allows a remote attacker to escalate privileges via the form_id in the form_header() function.
+</code>
+
 - [ally-petitt/CVE-2024-27632](https://github.com/ally-petitt/CVE-2024-27632)
 
 ### CVE-2024-27665
@@ -1265,6 +1284,9 @@
 </code>
 
 - [ismailcemunver/CVE-2024-29375](https://github.com/ismailcemunver/CVE-2024-29375)
+
+### CVE-2024-29399
+- [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
 
 ### CVE-2024-30614
 - [Lucky-lm/CVE-2024-30614](https://github.com/Lucky-lm/CVE-2024-30614)
@@ -24603,6 +24625,13 @@
 </code>
 
 - [mkelepce/CVE-2020-12629](https://github.com/mkelepce/CVE-2020-12629)
+
+### CVE-2020-12641 (2020-05-04)
+
+<code>rcube_image.php in Roundcube Webmail before 1.4.4 allows attackers to execute arbitrary code via shell metacharacters in a configuration setting for im_convert_path or im_identify_path.
+</code>
+
+- [mbadanoiu/CVE-2020-12641](https://github.com/mbadanoiu/CVE-2020-12641)
 
 ### CVE-2020-12688
 - [TheCyberGeek/Centreon-20.04](https://github.com/TheCyberGeek/Centreon-20.04)
