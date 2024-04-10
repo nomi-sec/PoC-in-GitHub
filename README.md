@@ -48,6 +48,9 @@
 
 - [Valentin-Metz/writeup_split](https://github.com/Valentin-Metz/writeup_split)
 
+### CVE-2024-0710
+- [karlemilnikka/CVE-2024-0710](https://github.com/karlemilnikka/CVE-2024-0710)
+
 ### CVE-2024-0713 (2024-01-19)
 
 <code>In Monitorr 1.7.6m wurde eine kritische Schwachstelle ausgemacht. Hierbei betrifft es unbekannten Programmcode der Datei /assets/php/upload.php der Komponente Services Configuration. Mit der Manipulation des Arguments fileToUpload mit unbekannten Daten kann eine unrestricted upload-Schwachstelle ausgenutzt werden. Umgesetzt werden kann der Angriff über das Netzwerk. Der Exploit steht zur öffentlichen Verfügung.
@@ -482,6 +485,7 @@
 - [abian2/CVE-2024-21626](https://github.com/abian2/CVE-2024-21626)
 - [Sk3pper/CVE-2024-21626](https://github.com/Sk3pper/CVE-2024-21626)
 - [KubernetesBachelor/CVE-2024-21626](https://github.com/KubernetesBachelor/CVE-2024-21626)
+- [dorser/cve-2024-21626](https://github.com/dorser/cve-2024-21626)
 
 ### CVE-2024-21633 (2024-01-03)
 
@@ -958,6 +962,13 @@
 </code>
 
 - [xF-9979/CVE-2024-24520](https://github.com/xF-9979/CVE-2024-24520)
+
+### CVE-2024-24567 (2024-01-30)
+
+<code>Vyper is a pythonic Smart Contract Language for the ethereum virtual machine. Vyper compiler allows passing a value in builtin raw_call even if the call is a delegatecall or a staticcall. But in the context of delegatecall and staticcall the handling of value is not possible due to the semantics of the respective opcodes, and vyper will silently ignore the value= argument. If the semantics of the EVM are unknown to the developer, he could suspect that by specifying the `value` kwarg, exactly the given amount will be sent along to the target. This vulnerability affects 0.3.10 and earlier versions.
+</code>
+
+- [brains93/CVE-2024-24567-PoC-Python](https://github.com/brains93/CVE-2024-24567-PoC-Python)
 
 ### CVE-2024-24576 (2024-04-09)
 
@@ -2457,6 +2468,13 @@
 </code>
 
 - [pedrojosenavasperez/cve-2023-5966](https://github.com/pedrojosenavasperez/cve-2023-5966)
+
+### CVE-2023-6019 (2023-11-16)
+
+<code>A command injection existed in Ray's cpu_profile URL parameter allowing attackers to execute os commands on the system running the ray dashboard remotely without authentication. The issue is fixed in version 2.8.1+. Ray maintainers' response can be found here: https://www.anyscale.com/blog/update-on-ray-cves-cve-2023-6019-cve-2023-6020-cve-2023-6021-cve-2023-48022-cve-2023-48023
+</code>
+
+- [FireWolfWang/CVE-2023-6019](https://github.com/FireWolfWang/CVE-2023-6019)
 
 ### CVE-2023-6036 (2024-02-12)
 
