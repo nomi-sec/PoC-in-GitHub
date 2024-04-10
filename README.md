@@ -224,7 +224,11 @@
 
 - [uthrasri/CVE-2024-2193](https://github.com/uthrasri/CVE-2024-2193)
 
-### CVE-2024-2222
+### CVE-2024-2222 (2024-04-09)
+
+<code>The Advanced Classifieds &amp; Directory Pro plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the ajax_callback_delete_attachment function in all versions up to, and including, 3.0.0. This makes it possible for authenticated attackers, with subscriber access or higher, to delete arbitrary media uploads.
+</code>
+
 - [JohnnyBradvo/CVE-2024-2222](https://github.com/JohnnyBradvo/CVE-2024-2222)
 
 ### CVE-2024-2432 (2024-03-13)
@@ -326,6 +330,7 @@
 - [adhikara13/CVE-2024-3273](https://github.com/adhikara13/CVE-2024-3273)
 - [yarienkiva/honeypot-dlink-CVE-2024-3273](https://github.com/yarienkiva/honeypot-dlink-CVE-2024-3273)
 - [K3ysTr0K3R/CVE-2024-3273-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-3273-EXPLOIT)
+- [ThatNotEasy/CVE-2024-3273](https://github.com/ThatNotEasy/CVE-2024-3273)
 
 ### CVE-2024-3333
 - [JohnnyBradvo/CVE-2024-3333](https://github.com/JohnnyBradvo/CVE-2024-3333)
@@ -954,6 +959,13 @@
 
 - [xF-9979/CVE-2024-24520](https://github.com/xF-9979/CVE-2024-24520)
 
+### CVE-2024-24576 (2024-04-09)
+
+<code>Rust is a programming language. The Rust Security Response WG was notified that the Rust standard library prior to version 1.77.2 did not properly escape arguments when invoking batch files (with the `bat` and `cmd` extensions) on Windows using the `Command`. An attacker able to control the arguments passed to the spawned process could execute arbitrary shell commands by bypassing the escaping. The severity of this vulnerability is critical for those who invoke batch files on Windows with untrusted arguments. No other platform or use is affected.\n\nThe `Command::arg` and `Command::args` APIs state in their documentation that the arguments will be passed to the spawned process as-is, regardless of the content of the arguments, and will not be evaluated by a shell. This means it should be safe to pass untrusted input as an argument.\n\nOn Windows, the implementation of this is more complex than other platforms, because the Windows API only provides a single string containing all the arguments to the spawned process, and it's up to the spawned process to split them. Most programs use the standard C run-time argv, which in practice results in a mostly consistent way arguments are splitted.\n\nOne exception though is `cmd.exe` (used among other things to execute batch files), which has its own argument splitting logic. That forces the standard library to implement custom escaping for arguments passed to batch files. Unfortunately it was reported that our escaping logic was not thorough enough, and it was possible to pass malicious arguments that would result in arbitrary shell execution.\n\nDue to the complexity of `cmd.exe`, we didn't identify a solution that would correctly escape arguments in all cases. To maintain our API guarantees, we improved the robustness of the escaping code, and changed the `Command` API to return an [`InvalidInput`][4] error when it cannot safely escape an argument. This error will be emitted when spawning the process.\n\nThe fix is included in Rust 1.77.2. Note that the new escaping logic for batch files errs on the conservative side, and could reject valid arguments. Those who implement the escaping themselves or only handle trusted inputs on Windows can also use the `CommandExt::raw_arg` method to bypass the standard library's escaping logic. 
+</code>
+
+- [frostb1ten/CVE-2024-24576-PoC](https://github.com/frostb1ten/CVE-2024-24576-PoC)
+
 ### CVE-2024-24760 (2024-02-02)
 
 <code>mailcow is a dockerized email package, with multiple containers linked in one bridged network. A security vulnerability has been identified in mailcow affecting versions &lt; 2024-01c. This vulnerability potentially allows attackers on the same subnet to connect to exposed ports of a Docker container, even when the port is bound to 127.0.0.1. The vulnerability has been addressed by implementing additional iptables/nftables rules. These rules drop packets for Docker containers on ports 3306, 6379, 8983, and 12345, where the input interface is not `br-mailcow` and the output interface is `br-mailcow`.
@@ -1194,7 +1206,11 @@
 
 - [ally-petitt/CVE-2024-27632](https://github.com/ally-petitt/CVE-2024-27632)
 
-### CVE-2024-27665
+### CVE-2024-27665 (2024-04-09)
+
+<code>Unifiedtransform v2.X is vulnerable to Stored Cross-Site Scripting (XSS) via file upload feature in Syllabus module.
+</code>
+
 - [Thirukrishnan/CVE-2024-27665](https://github.com/Thirukrishnan/CVE-2024-27665)
 
 ### CVE-2024-27673
@@ -1293,6 +1309,9 @@
 
 - [QDming/cve](https://github.com/QDming/cve)
 
+### CVE-2024-29296
+- [ThaySolis/CVE-2024-29296](https://github.com/ThaySolis/CVE-2024-29296)
+
 ### CVE-2024-29375 (2024-04-04)
 
 <code>CSV Injection vulnerability in Addactis IBNRS v.3.10.3.107 allows a remote attacker to execute arbitrary code via a crafted .ibnrs file to the Project Description, Identifiers, Custom Triangle Name (inside Input Triangles) and Yield Curve Name parameters.
@@ -1331,6 +1350,9 @@
 </code>
 
 - [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
+
+### CVE-2024-31819
+- [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -5784,6 +5806,7 @@
 - [jakabakos/CVE-2023-36664-Ghostscript-command-injection](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection)
 - [winkler-winsen/Scan_GhostScript](https://github.com/winkler-winsen/Scan_GhostScript)
 - [jeanchpt/CVE-2023-36664](https://github.com/jeanchpt/CVE-2023-36664)
+- [churamanib/CVE-2023-36664-Ghostscript-command-injection](https://github.com/churamanib/CVE-2023-36664-Ghostscript-command-injection)
 
 ### CVE-2023-36723 (2023-10-10)
 
@@ -12405,6 +12428,7 @@
 - [Muhammad-Ali007/Follina_MSDT_CVE-2022-30190](https://github.com/Muhammad-Ali007/Follina_MSDT_CVE-2022-30190)
 - [Jump-Wang-111/AmzWord](https://github.com/Jump-Wang-111/AmzWord)
 - [shri142/ZipScan](https://github.com/shri142/ZipScan)
+- [alien-keric/CVE-2022-30190](https://github.com/alien-keric/CVE-2022-30190)
 
 ### CVE-2022-30206 (2022-07-12)
 
