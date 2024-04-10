@@ -227,13 +227,6 @@
 
 - [uthrasri/CVE-2024-2193](https://github.com/uthrasri/CVE-2024-2193)
 
-### CVE-2024-2222 (2024-04-09)
-
-<code>The Advanced Classifieds &amp; Directory Pro plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the ajax_callback_delete_attachment function in all versions up to, and including, 3.0.0. This makes it possible for authenticated attackers, with subscriber access or higher, to delete arbitrary media uploads.
-</code>
-
-- [JohnnyBradvo/CVE-2024-2222](https://github.com/JohnnyBradvo/CVE-2024-2222)
-
 ### CVE-2024-2432 (2024-03-13)
 
 <code>A privilege escalation (PE) vulnerability in the Palo Alto Networks GlobalProtect app on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.
@@ -308,6 +301,7 @@
 - [robertdebock/ansible-playbook-cve-2024-3094](https://github.com/robertdebock/ansible-playbook-cve-2024-3094)
 - [badsectorlabs/ludus_xz_backdoor](https://github.com/badsectorlabs/ludus_xz_backdoor)
 - [Juul/xz-backdoor-scan](https://github.com/Juul/xz-backdoor-scan)
+- [drdry2/CVE-2024-3094-EXPLOIT](https://github.com/drdry2/CVE-2024-3094-EXPLOIT)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -334,18 +328,6 @@
 - [yarienkiva/honeypot-dlink-CVE-2024-3273](https://github.com/yarienkiva/honeypot-dlink-CVE-2024-3273)
 - [K3ysTr0K3R/CVE-2024-3273-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-3273-EXPLOIT)
 - [ThatNotEasy/CVE-2024-3273](https://github.com/ThatNotEasy/CVE-2024-3273)
-
-### CVE-2024-3333
-- [JohnnyBradvo/CVE-2024-3333](https://github.com/JohnnyBradvo/CVE-2024-3333)
-
-### CVE-2024-4444
-- [JohnnyBradvo/CVE-2024-4444](https://github.com/JohnnyBradvo/CVE-2024-4444)
-
-### CVE-2024-5555
-- [JohnnyBradvo/CVE-2024-5555](https://github.com/JohnnyBradvo/CVE-2024-5555)
-
-### CVE-2024-6666
-- [JohnnyBradvo/CVE-2024-6666](https://github.com/JohnnyBradvo/CVE-2024-6666)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -462,13 +444,6 @@
 - [ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability](https://github.com/ahmetkarakayaoffical/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability)
 - [DevAkabari/CVE-2024-21413](https://github.com/DevAkabari/CVE-2024-21413)
 - [dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413)
-
-### CVE-2024-21426 (2024-03-12)
-
-<code>Microsoft SharePoint Server Remote Code Execution Vulnerability
-</code>
-
-- [JohnnyBradvo/CVE-2024-21426-SharePoint-RCE](https://github.com/JohnnyBradvo/CVE-2024-21426-SharePoint-RCE)
 
 ### CVE-2024-21626 (2024-01-31)
 
@@ -963,19 +938,14 @@
 
 - [xF-9979/CVE-2024-24520](https://github.com/xF-9979/CVE-2024-24520)
 
-### CVE-2024-24567 (2024-01-30)
-
-<code>Vyper is a pythonic Smart Contract Language for the ethereum virtual machine. Vyper compiler allows passing a value in builtin raw_call even if the call is a delegatecall or a staticcall. But in the context of delegatecall and staticcall the handling of value is not possible due to the semantics of the respective opcodes, and vyper will silently ignore the value= argument. If the semantics of the EVM are unknown to the developer, he could suspect that by specifying the `value` kwarg, exactly the given amount will be sent along to the target. This vulnerability affects 0.3.10 and earlier versions.
-</code>
-
-- [brains93/CVE-2024-24567-PoC-Python](https://github.com/brains93/CVE-2024-24567-PoC-Python)
-
 ### CVE-2024-24576 (2024-04-09)
 
 <code>Rust is a programming language. The Rust Security Response WG was notified that the Rust standard library prior to version 1.77.2 did not properly escape arguments when invoking batch files (with the `bat` and `cmd` extensions) on Windows using the `Command`. An attacker able to control the arguments passed to the spawned process could execute arbitrary shell commands by bypassing the escaping. The severity of this vulnerability is critical for those who invoke batch files on Windows with untrusted arguments. No other platform or use is affected.\n\nThe `Command::arg` and `Command::args` APIs state in their documentation that the arguments will be passed to the spawned process as-is, regardless of the content of the arguments, and will not be evaluated by a shell. This means it should be safe to pass untrusted input as an argument.\n\nOn Windows, the implementation of this is more complex than other platforms, because the Windows API only provides a single string containing all the arguments to the spawned process, and it's up to the spawned process to split them. Most programs use the standard C run-time argv, which in practice results in a mostly consistent way arguments are splitted.\n\nOne exception though is `cmd.exe` (used among other things to execute batch files), which has its own argument splitting logic. That forces the standard library to implement custom escaping for arguments passed to batch files. Unfortunately it was reported that our escaping logic was not thorough enough, and it was possible to pass malicious arguments that would result in arbitrary shell execution.\n\nDue to the complexity of `cmd.exe`, we didn't identify a solution that would correctly escape arguments in all cases. To maintain our API guarantees, we improved the robustness of the escaping code, and changed the `Command` API to return an [`InvalidInput`][4] error when it cannot safely escape an argument. This error will be emitted when spawning the process.\n\nThe fix is included in Rust 1.77.2. Note that the new escaping logic for batch files errs on the conservative side, and could reject valid arguments. Those who implement the escaping themselves or only handle trusted inputs on Windows can also use the `CommandExt::raw_arg` method to bypass the standard library's escaping logic. 
 </code>
 
 - [frostb1ten/CVE-2024-24576-PoC](https://github.com/frostb1ten/CVE-2024-24576-PoC)
+- [brains93/CVE-2024-24576-PoC-Python](https://github.com/brains93/CVE-2024-24576-PoC-Python)
+- [aydinnyunus/CVE-2024-24576-Exploit](https://github.com/aydinnyunus/CVE-2024-24576-Exploit)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -1183,7 +1153,11 @@
 
 - [lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316)
 
-### CVE-2024-27474
+### CVE-2024-27474 (2024-04-10)
+
+<code>Leantime 3.0.6 is vulnerable to Cross Site Request Forgery (CSRF). This vulnerability allows malicious actors to perform unauthorized actions on behalf of authenticated users, specifically administrators.
+</code>
+
 - [dead1nfluence/Leantime-POC](https://github.com/dead1nfluence/Leantime-POC)
 
 ### CVE-2024-27518
@@ -1320,7 +1294,11 @@
 
 - [QDming/cve](https://github.com/QDming/cve)
 
-### CVE-2024-29296
+### CVE-2024-29296 (2024-04-10)
+
+<code>A user enumeration vulnerability was found in Portainer CE 2.19.4. This issue occurs during user authentication process, where a difference in response time could allow a remote unauthenticated user to determine if a username is valid or not.
+</code>
+
 - [ThaySolis/CVE-2024-29296](https://github.com/ThaySolis/CVE-2024-29296)
 
 ### CVE-2024-29375 (2024-04-04)
@@ -1360,7 +1338,7 @@
 <code>SQL Injection vulnerability in ECshop 4.x allows an attacker to obtain sensitive information via the file/article.php component.
 </code>
 
-- [no3586/CVE-2024-31025](https://github.com/no3586/CVE-2024-31025)
+- [mortal-sec/CVE-2024-31025](https://github.com/mortal-sec/CVE-2024-31025)
 
 ### CVE-2024-31819
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
@@ -21408,6 +21386,13 @@
 - [febinrev/CVE-2021-45010-TinyFileManager-Exploit](https://github.com/febinrev/CVE-2021-45010-TinyFileManager-Exploit)
 - [BKreisel/CVE-2021-45010](https://github.com/BKreisel/CVE-2021-45010)
 - [Syd-SydneyJr/CVE-2021-45010](https://github.com/Syd-SydneyJr/CVE-2021-45010)
+
+### CVE-2021-45026 (2022-06-17)
+
+<code>ASG technologies ASG-Zena Cross Platform Server Enterprise Edition 4.2.1 is vulnerable to Cross Site Scripting (XSS).
+</code>
+
+- [JetP1ane/Zena-CVE-2021-45026](https://github.com/JetP1ane/Zena-CVE-2021-45026)
 
 ### CVE-2021-45041 (2021-12-19)
 
