@@ -1319,7 +1319,11 @@
 
 - [ismailcemunver/CVE-2024-29375](https://github.com/ismailcemunver/CVE-2024-29375)
 
-### CVE-2024-29399
+### CVE-2024-29399 (2024-04-11)
+
+<code>An issue was discovered in GNU Savane v.3.13 and before, allows a remote attacker to execute arbitrary code and escalate privileges via a crafted file to the upload.php component.
+</code>
+
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
 
 ### CVE-2024-30255 (2024-04-04)
