@@ -227,6 +227,13 @@
 
 - [uthrasri/CVE-2024-2193](https://github.com/uthrasri/CVE-2024-2193)
 
+### CVE-2024-2389 (2024-04-02)
+
+<code>In Flowmon versions prior to 11.1.14 and 12.3.5, an operating system command injection vulnerability has been identified.  An unauthenticated user can gain entry to the system via the Flowmon management interface, allowing for the execution of arbitrary system commands.\n\n
+</code>
+
+- [adhikara13/CVE-2024-2389](https://github.com/adhikara13/CVE-2024-2389)
+
 ### CVE-2024-2432 (2024-03-13)
 
 <code>A privilege escalation (PE) vulnerability in the Palo Alto Networks GlobalProtect app on Windows devices enables a local user to execute programs with elevated privileges. However, execution requires that the local user is able to successfully exploit a race condition.
@@ -373,13 +380,6 @@
 </code>
 
 - [RomanRybachek/CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698)
-
-### CVE-2024-20720 (2024-02-15)
-
-<code>Adobe Commerce versions 2.4.6-p3, 2.4.5-p5, 2.4.4-p6 and earlier are affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could lead in arbitrary code execution by an attacker. Exploitation of this issue does not require user interaction.
-</code>
-
-- [xxDlib/CVE-2024-20720-PoC](https://github.com/xxDlib/CVE-2024-20720-PoC)
 
 ### CVE-2024-20767 (2024-03-18)
 
@@ -1355,6 +1355,9 @@
 </code>
 
 - [mortal-sec/CVE-2024-31025](https://github.com/mortal-sec/CVE-2024-31025)
+
+### CVE-2024-31777
+- [FreySolarEye/CVE-2024-31777](https://github.com/FreySolarEye/CVE-2024-31777)
 
 ### CVE-2024-31819 (2024-04-10)
 
@@ -3460,6 +3463,7 @@
 - [shellvik/CVE-2023-23752](https://github.com/shellvik/CVE-2023-23752)
 - [Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752)
 - [JohnDoeAnonITA/CVE-2023-23752](https://github.com/JohnDoeAnonITA/CVE-2023-23752)
+- [0xWhoami35/CVE-2023-23752](https://github.com/0xWhoami35/CVE-2023-23752)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -18824,7 +18828,7 @@
 </code>
 
 - [DenizSe/CVE-2021-34527](https://github.com/DenizSe/CVE-2021-34527)
-- [glshnu/PrintNightmare](https://github.com/glshnu/PrintNightmare)
+- [thomas-lauer/PrintNightmare](https://github.com/thomas-lauer/PrintNightmare)
 - [JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527)
 - [nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527)
 - [CnOxx1/CVE-2021-34527-1675](https://github.com/CnOxx1/CVE-2021-34527-1675)
