@@ -241,6 +241,13 @@
 
 - [herculeszxc/CVE-2024-2879](https://github.com/herculeszxc/CVE-2024-2879)
 
+### CVE-2024-3000 (2024-03-27)
+
+<code>In code-projects Online Book System 1.0 wurde eine Schwachstelle entdeckt. Sie wurde als kritisch eingestuft. Betroffen ist eine unbekannte Verarbeitung der Datei /index.php. Durch Beeinflussen des Arguments username/password/login_username/login_password mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [FoxyProxys/CVE-2024-3000](https://github.com/FoxyProxys/CVE-2024-3000)
+
 ### CVE-2024-3094 (2024-03-29)
 
 <code>Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.
@@ -1277,7 +1284,11 @@
 
 - [codewhitesec/HttpRemotingObjRefLeak](https://github.com/codewhitesec/HttpRemotingObjRefLeak)
 
-### CVE-2024-29269
+### CVE-2024-29269 (2024-04-10)
+
+<code>An issue discovered in Telesquare TLR-2005Ksh 1.0.0 and 1.1.4 allows attackers to run arbitrary system commands via the Cmd parameter.
+</code>
+
 - [wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269)
 
 ### CVE-2024-29272 (2024-03-22)
@@ -1340,7 +1351,11 @@
 
 - [mortal-sec/CVE-2024-31025](https://github.com/mortal-sec/CVE-2024-31025)
 
-### CVE-2024-31819
+### CVE-2024-31819 (2024-04-10)
+
+<code>An issue in WWBN AVideo v.12.4 through v.14.2 allows a remote attacker to execute arbitrary code via the systemRootPath parameter of the submitIndex.php component.
+</code>
+
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
 
 ### CVE-2024-65230
@@ -31560,6 +31575,7 @@
 - [5431/CVE-2018-4407](https://github.com/5431/CVE-2018-4407)
 - [pwnhacker0x18/iOS-Kernel-Crash](https://github.com/pwnhacker0x18/iOS-Kernel-Crash)
 - [Fans0n-Fan/CVE-2018-4407](https://github.com/Fans0n-Fan/CVE-2018-4407)
+- [szabo-tibor/CVE-2018-4407](https://github.com/szabo-tibor/CVE-2018-4407)
 
 ### CVE-2018-4411 (2019-04-03)
 
