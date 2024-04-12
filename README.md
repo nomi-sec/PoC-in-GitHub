@@ -350,6 +350,14 @@
 - [K3ysTr0K3R/CVE-2024-3273-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-3273-EXPLOIT)
 - [ThatNotEasy/CVE-2024-3273](https://github.com/ThatNotEasy/CVE-2024-3273)
 
+### CVE-2024-3400 (2024-04-12)
+
+<code>A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall.\n\nFixes for PAN-OS 10.2, PAN-OS 11.0, and PAN-OS 11.1 are in development and are expected to be released by April 14, 2024. Cloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability. All other versions of PAN-OS are also not impacted.
+</code>
+
+- [DrewskyDev/CVE-2024-3400](https://github.com/DrewskyDev/CVE-2024-3400)
+- [bigsclowns/CVE-2024-3400-POC](https://github.com/bigsclowns/CVE-2024-3400-POC)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -8686,7 +8694,11 @@
 - [farliy-hacker/CVE-2023-51385-save](https://github.com/farliy-hacker/CVE-2023-51385-save)
 - [2048JiaLi/CVE-2023-51385](https://github.com/2048JiaLi/CVE-2023-51385)
 
-### CVE-2023-51409
+### CVE-2023-51409 (2024-04-12)
+
+<code>Unrestricted Upload of File with Dangerous Type vulnerability in Jordy Meow AI Engine: ChatGPT Chatbot.This issue affects AI Engine: ChatGPT Chatbot: from n/a through 1.9.98.\n\n
+</code>
+
 - [RandomRobbieBF/CVE-2023-51409](https://github.com/RandomRobbieBF/CVE-2023-51409)
 
 ### CVE-2023-51448 (2023-12-22)
