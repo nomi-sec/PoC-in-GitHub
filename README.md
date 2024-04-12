@@ -325,6 +325,13 @@
 - [FoxyProxys/CVE-2024-3116](https://github.com/FoxyProxys/CVE-2024-3116)
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
 
+### CVE-2024-3136 (2024-04-09)
+
+<code>The MasterStudy LMS plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 3.3.3 via the 'template' parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+</code>
+
+- [drdry2/CVE-2024-3136-Wordpress-RCE](https://github.com/drdry2/CVE-2024-3136-Wordpress-RCE)
+
 ### CVE-2024-3272 (2024-04-04)
 
 <code>Eine Schwachstelle wurde in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L bis 20240403 entdeckt. Sie wurde als sehr kritisch eingestuft. Betroffen davon ist ein unbekannter Prozess der Datei /cgi-bin/nas_sharing.cgi der Komponente HTTP GET Request Handler. Mit der Manipulation des Arguments user mit der Eingabe messagebus mit unbekannten Daten kann eine hard-coded credentials-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -452,6 +459,20 @@
 - [DevAkabari/CVE-2024-21413](https://github.com/DevAkabari/CVE-2024-21413)
 - [dshabani96/CVE-2024-21413](https://github.com/dshabani96/CVE-2024-21413)
 
+### CVE-2024-21426 (2024-03-12)
+
+<code>Microsoft SharePoint Server Remote Code Execution Vulnerability
+</code>
+
+- [Geniorio01/CVE-2024-21426-SharePoint-RCE](https://github.com/Geniorio01/CVE-2024-21426-SharePoint-RCE)
+
+### CVE-2024-21508 (2024-04-11)
+
+<code>Versions of the package mysql2 before 3.9.4 are vulnerable to Remote Code Execution (RCE) via the readCodeFor function due to improper validation of the supportBigNumbers and bigNumberStrings values.
+</code>
+
+- [Geniorio01/CVE-2024-21508-mysql2-RCE](https://github.com/Geniorio01/CVE-2024-21508-mysql2-RCE)
+
 ### CVE-2024-21626 (2024-01-31)
 
 <code>runc is a CLI tool for spawning and running containers on Linux according to the OCI specification. In runc 1.1.11 and earlier, due to an internal file descriptor leak, an attacker could cause a newly-spawned container process (from runc exec) to have a working directory in the host filesystem namespace, allowing for a container escape by giving access to the host filesystem (&quot;attack 2&quot;). The same attack could be used by a malicious image to allow a container process to gain access to the host filesystem through runc run (&quot;attack 1&quot;). Variants of attacks 1 and 2 could be also be used to overwrite semi-arbitrary host binaries, allowing for complete container escapes (&quot;attack 3a&quot; and &quot;attack 3b&quot;). runc 1.1.12 includes patches for this issue. 
@@ -524,6 +545,7 @@
 </code>
 
 - [RansomGroupCVE/CVE-2024-21894-POC](https://github.com/RansomGroupCVE/CVE-2024-21894-POC)
+- [AlexLondan/CVE-2024-21894-Proof-of-concept](https://github.com/AlexLondan/CVE-2024-21894-Proof-of-concept)
 
 ### CVE-2024-22024 (2024-02-13)
 
@@ -1073,6 +1095,13 @@
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 
+### CVE-2024-25693 (2024-04-04)
+
+<code>There is a path traversal in Esri Portal for ArcGIS versions &lt;= 11.2.  Successful exploitation may allow a remote, authenticated attacker to traverse the file system to access files or execute code outside of the intended directory. 
+</code>
+
+- [MrSecby/CVE-2024-25693-exploit](https://github.com/MrSecby/CVE-2024-25693-exploit)
+
 ### CVE-2024-25723 (2024-02-27)
 
 <code>ZenML Server in the ZenML machine learning package before 0.46.7 for Python allows remote privilege escalation because the /api/v1/users/{user_name_or_id}/activate REST API endpoint allows access on the basis of a valid username along with a new password in the request body. These are also patched versions: 0.44.4, 0.43.1, and 0.42.2.
@@ -1302,6 +1331,7 @@
 </code>
 
 - [wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269)
+- [YongYe-Security/CVE-2024-29269](https://github.com/YongYe-Security/CVE-2024-29269)
 
 ### CVE-2024-29272 (2024-03-22)
 
@@ -1337,6 +1367,13 @@
 </code>
 
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
+
+### CVE-2024-29988 (2024-04-09)
+
+<code>SmartScreen Prompt Security Feature Bypass Vulnerability
+</code>
+
+- [mrobsidian1/CVE-2024-29988-MS-Exchange-RCE](https://github.com/mrobsidian1/CVE-2024-29988-MS-Exchange-RCE)
 
 ### CVE-2024-30255 (2024-04-04)
 
@@ -1376,7 +1413,7 @@
 - [mortal-sec/CVE-2024-31025](https://github.com/mortal-sec/CVE-2024-31025)
 
 ### CVE-2024-31777
-- [FreySolarEye/CVE-2024-31777](https://github.com/FreySolarEye/CVE-2024-31777)
+- [FreySolarEye/Exploit-CVE-2024-31777](https://github.com/FreySolarEye/Exploit-CVE-2024-31777)
 
 ### CVE-2024-31819 (2024-04-10)
 
@@ -7503,6 +7540,13 @@
 
 - [afine-com/CVE-2023-45185](https://github.com/afine-com/CVE-2023-45185)
 
+### CVE-2023-45288 (2024-04-04)
+
+<code>An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+</code>
+
+- [hex0punk/cont-flood-poc](https://github.com/hex0punk/cont-flood-poc)
+
 ### CVE-2023-45471 (2023-10-20)
 
 <code>The QAD Search Server is vulnerable to Stored Cross-Site Scripting (XSS) in versions up to, and including, 1.0.0.315 due to insufficient checks on indexes. This makes it possible for unauthenticated attackers to create a new index and inject a malicious web script into its name, that will execute whenever a user accesses the search page.
@@ -11617,6 +11661,13 @@
 - [misterxid/watchguard_cve-2022-26318](https://github.com/misterxid/watchguard_cve-2022-26318)
 - [h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318](https://github.com/h3llk4t3/Watchguard-RCE-POC-CVE-2022-26318)
 - [BabyTeam1024/CVE-2022-26318](https://github.com/BabyTeam1024/CVE-2022-26318)
+
+### CVE-2022-26377 (2022-06-08)
+
+<code>Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') vulnerability in mod_proxy_ajp of Apache HTTP Server allows an attacker to smuggle requests to the AJP server it forwards requests to. This issue affects Apache HTTP Server Apache HTTP Server 2.4 version 2.4.53 and prior versions.
+</code>
+
+- [watchtowrlabs/ibm-qradar-ajp_smuggling_CVE-2022-26377_poc](https://github.com/watchtowrlabs/ibm-qradar-ajp_smuggling_CVE-2022-26377_poc)
 
 ### CVE-2022-26485 (2022-12-22)
 
