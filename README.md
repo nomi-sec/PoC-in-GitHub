@@ -349,6 +349,8 @@
 
 - [DrewskyDev/CVE-2024-3400](https://github.com/DrewskyDev/CVE-2024-3400)
 - [Yuvvi01/CVE-2024-3400](https://github.com/Yuvvi01/CVE-2024-3400)
+- [shamo0/CVE-2024-3400](https://github.com/shamo0/CVE-2024-3400)
+- [CerTusHack/CVE-2024-3400-PoC](https://github.com/CerTusHack/CVE-2024-3400-PoC)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -24455,6 +24457,7 @@
 
 - [Snorlyd/https-nj.gov---CVE-2020-11023](https://github.com/Snorlyd/https-nj.gov---CVE-2020-11023)
 - [Cybernegro/CVE-2020-11023](https://github.com/Cybernegro/CVE-2020-11023)
+- [andreassundstrom/cve-2020-11023-demonstration](https://github.com/andreassundstrom/cve-2020-11023-demonstration)
 
 ### CVE-2020-11060 (2020-05-12)
 
