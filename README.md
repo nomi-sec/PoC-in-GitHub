@@ -315,7 +315,6 @@
 - [robertdebock/ansible-playbook-cve-2024-3094](https://github.com/robertdebock/ansible-playbook-cve-2024-3094)
 - [badsectorlabs/ludus_xz_backdoor](https://github.com/badsectorlabs/ludus_xz_backdoor)
 - [Juul/xz-backdoor-scan](https://github.com/Juul/xz-backdoor-scan)
-- [drdry2/CVE-2024-3094-EXPLOIT](https://github.com/drdry2/CVE-2024-3094-EXPLOIT)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -324,13 +323,6 @@
 
 - [FoxyProxys/CVE-2024-3116](https://github.com/FoxyProxys/CVE-2024-3116)
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
-
-### CVE-2024-3136 (2024-04-09)
-
-<code>The MasterStudy LMS plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 3.3.3 via the 'template' parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
-</code>
-
-- [drdry2/CVE-2024-3136-Wordpress-RCE](https://github.com/drdry2/CVE-2024-3136-Wordpress-RCE)
 
 ### CVE-2024-3272 (2024-04-04)
 
@@ -356,7 +348,6 @@
 </code>
 
 - [DrewskyDev/CVE-2024-3400](https://github.com/DrewskyDev/CVE-2024-3400)
-- [bigsclowns/CVE-2024-3400-POC](https://github.com/bigsclowns/CVE-2024-3400-POC)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -984,6 +975,7 @@
 - [brains93/CVE-2024-24576-PoC-Python](https://github.com/brains93/CVE-2024-24576-PoC-Python)
 - [aydinnyunus/CVE-2024-24576-Exploit](https://github.com/aydinnyunus/CVE-2024-24576-Exploit)
 - [foxoman/CVE-2024-24576-PoC---Nim](https://github.com/foxoman/CVE-2024-24576-PoC---Nim)
+- [corysabol/batbadbut-demo](https://github.com/corysabol/batbadbut-demo)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -1103,13 +1095,6 @@
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 
-### CVE-2024-25693 (2024-04-04)
-
-<code>There is a path traversal in Esri Portal for ArcGIS versions &lt;= 11.2.  Successful exploitation may allow a remote, authenticated attacker to traverse the file system to access files or execute code outside of the intended directory. 
-</code>
-
-- [MrSecby/CVE-2024-25693-exploit](https://github.com/MrSecby/CVE-2024-25693-exploit)
-
 ### CVE-2024-25723 (2024-02-27)
 
 <code>ZenML Server in the ZenML machine learning package before 0.46.7 for Python allows remote privilege escalation because the /api/v1/users/{user_name_or_id}/activate REST API endpoint allows access on the basis of a valid username along with a new password in the request body. These are also patched versions: 0.44.4, 0.43.1, and 0.42.2.
@@ -1136,13 +1121,6 @@
 </code>
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
-
-### CVE-2024-26198 (2024-03-12)
-
-<code>Microsoft Exchange Server Remote Code Execution Vulnerability
-</code>
-
-- [MrSecby/CVE-2024-26198-Exchange-RCE](https://github.com/MrSecby/CVE-2024-26198-Exchange-RCE)
 
 ### CVE-2024-26475 (2024-03-14)
 
@@ -1369,19 +1347,15 @@
 
 - [ismailcemunver/CVE-2024-29375](https://github.com/ismailcemunver/CVE-2024-29375)
 
+### CVE-2024-29384
+- [randshell/CVE-2024-29384](https://github.com/randshell/CVE-2024-29384)
+
 ### CVE-2024-29399 (2024-04-11)
 
 <code>An issue was discovered in GNU Savane v.3.13 and before, allows a remote attacker to execute arbitrary code and escalate privileges via a crafted file to the upload.php component.
 </code>
 
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
-
-### CVE-2024-29988 (2024-04-09)
-
-<code>SmartScreen Prompt Security Feature Bypass Vulnerability
-</code>
-
-- [mrobsidian1/CVE-2024-29988-MS-Exchange-RCE](https://github.com/mrobsidian1/CVE-2024-29988-MS-Exchange-RCE)
 
 ### CVE-2024-30255 (2024-04-04)
 
@@ -8161,7 +8135,6 @@
 </code>
 
 - [horizon3ai/CVE-2023-48788](https://github.com/horizon3ai/CVE-2023-48788)
-- [mrobsidian1/CVE-2023-48788-Proof-of-concept-SQLinj](https://github.com/mrobsidian1/CVE-2023-48788-Proof-of-concept-SQLinj)
 
 ### CVE-2023-48842 (2023-12-01)
 
