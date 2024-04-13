@@ -315,6 +315,7 @@
 - [robertdebock/ansible-playbook-cve-2024-3094](https://github.com/robertdebock/ansible-playbook-cve-2024-3094)
 - [badsectorlabs/ludus_xz_backdoor](https://github.com/badsectorlabs/ludus_xz_backdoor)
 - [Juul/xz-backdoor-scan](https://github.com/Juul/xz-backdoor-scan)
+- [fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-](https://github.com/fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -347,10 +348,10 @@
 <code>A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall.\n\nFixes for PAN-OS 10.2, PAN-OS 11.0, and PAN-OS 11.1 are in development and are expected to be released by April 14, 2024. Cloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability. All other versions of PAN-OS are also not impacted.
 </code>
 
-- [DrewskyDev/CVE-2024-3400](https://github.com/DrewskyDev/CVE-2024-3400)
 - [Yuvvi01/CVE-2024-3400](https://github.com/Yuvvi01/CVE-2024-3400)
-- [shamo0/CVE-2024-3400](https://github.com/shamo0/CVE-2024-3400)
 - [CerTusHack/CVE-2024-3400-PoC](https://github.com/CerTusHack/CVE-2024-3400-PoC)
+- [0x0d3ad/CVE-2024-3400](https://github.com/0x0d3ad/CVE-2024-3400)
+- [FoxyProxys/CVE-2024-3400](https://github.com/FoxyProxys/CVE-2024-3400)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -4230,6 +4231,7 @@
 - [C1ph3rX13/CVE-2023-28432](https://github.com/C1ph3rX13/CVE-2023-28432)
 - [netuseradministrator/CVE-2023-28432](https://github.com/netuseradministrator/CVE-2023-28432)
 - [xk-mt/CVE-2023-28432](https://github.com/xk-mt/CVE-2023-28432)
+- [0xRulez/CVE-2023-28432](https://github.com/0xRulez/CVE-2023-28432)
 
 ### CVE-2023-28434 (2023-03-22)
 
@@ -24757,6 +24759,13 @@
 
 - [nasbench/CVE-2020-12593](https://github.com/nasbench/CVE-2020-12593)
 
+### CVE-2020-12625 (2020-05-04)
+
+<code>An issue was discovered in Roundcube Webmail before 1.4.4. There is a cross-site scripting (XSS) vulnerability in rcube_washtml.php because JavaScript code can occur in the CDATA of an HTML message.
+</code>
+
+- [mbadanoiu/CVE-2020-12625](https://github.com/mbadanoiu/CVE-2020-12625)
+
 ### CVE-2020-12629 (2020-05-04)
 
 <code>include/class.sla.php in osTicket before 1.14.2 allows XSS via the SLA Name.
@@ -24764,12 +24773,20 @@
 
 - [mkelepce/CVE-2020-12629](https://github.com/mkelepce/CVE-2020-12629)
 
+### CVE-2020-12640 (2020-05-04)
+
+<code>Roundcube Webmail before 1.4.4 allows attackers to include local files and execute code via directory traversal in a plugin name to rcube_plugin_api.php.
+</code>
+
+- [mbadanoiu/CVE-2020-12640](https://github.com/mbadanoiu/CVE-2020-12640)
+
 ### CVE-2020-12641 (2020-05-04)
 
 <code>rcube_image.php in Roundcube Webmail before 1.4.4 allows attackers to execute arbitrary code via shell metacharacters in a configuration setting for im_convert_path or im_identify_path.
 </code>
 
 - [mbadanoiu/CVE-2020-12641](https://github.com/mbadanoiu/CVE-2020-12641)
+- [mbadanoiu/MAL-004](https://github.com/mbadanoiu/MAL-004)
 
 ### CVE-2020-12688
 - [TheCyberGeek/Centreon-20.04](https://github.com/TheCyberGeek/Centreon-20.04)
@@ -25043,6 +25060,13 @@
 </code>
 
 - [s-index/CVE-2020-13957](https://github.com/s-index/CVE-2020-13957)
+
+### CVE-2020-13965 (2020-06-09)
+
+<code>An issue was discovered in Roundcube Webmail before 1.3.12 and 1.4.x before 1.4.5. There is XSS via a malicious XML attachment because text/xml is among the allowed types for a preview.
+</code>
+
+- [mbadanoiu/CVE-2020-13965](https://github.com/mbadanoiu/CVE-2020-13965)
 
 ### CVE-2020-13995 (2020-09-25)
 
