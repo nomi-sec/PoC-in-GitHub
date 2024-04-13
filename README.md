@@ -348,6 +348,7 @@
 </code>
 
 - [DrewskyDev/CVE-2024-3400](https://github.com/DrewskyDev/CVE-2024-3400)
+- [Yuvvi01/CVE-2024-3400](https://github.com/Yuvvi01/CVE-2024-3400)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -515,6 +516,7 @@
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762)
 - [AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK)
+- [zzcentury/FortiGate-CVE-2024-21762](https://github.com/zzcentury/FortiGate-CVE-2024-21762)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -1179,6 +1181,9 @@
 </code>
 
 - [lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316)
+
+### CVE-2024-27462
+- [Alaatk/CVE-2024-27462](https://github.com/Alaatk/CVE-2024-27462)
 
 ### CVE-2024-27474 (2024-04-10)
 
@@ -27272,7 +27277,6 @@
 - [Ravaan21/Bluekeep-Hunter](https://github.com/Ravaan21/Bluekeep-Hunter)
 - [davidfortytwo/bluekeep](https://github.com/davidfortytwo/bluekeep)
 - [tranqtruong/Detect-BlueKeep](https://github.com/tranqtruong/Detect-BlueKeep)
-- [jdouglas12a/CVE-2019-0708](https://github.com/jdouglas12a/CVE-2019-0708)
 
 ### CVE-2019-0709 (2019-06-12)
 
