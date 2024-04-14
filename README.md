@@ -352,6 +352,8 @@
 - [CerTusHack/CVE-2024-3400-PoC](https://github.com/CerTusHack/CVE-2024-3400-PoC)
 - [0x0d3ad/CVE-2024-3400](https://github.com/0x0d3ad/CVE-2024-3400)
 - [FoxyProxys/CVE-2024-3400](https://github.com/FoxyProxys/CVE-2024-3400)
+- [momika233/CVE-2024-3400](https://github.com/momika233/CVE-2024-3400)
+- [kerberoshacker/CVE-2024-3400-POC](https://github.com/kerberoshacker/CVE-2024-3400-POC)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
