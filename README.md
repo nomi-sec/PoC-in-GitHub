@@ -981,6 +981,8 @@
 - [aydinnyunus/CVE-2024-24576-Exploit](https://github.com/aydinnyunus/CVE-2024-24576-Exploit)
 - [foxoman/CVE-2024-24576-PoC---Nim](https://github.com/foxoman/CVE-2024-24576-PoC---Nim)
 - [corysabol/batbadbut-demo](https://github.com/corysabol/batbadbut-demo)
+- [mishalhossin/CVE-2024-24576-PoC-Python](https://github.com/mishalhossin/CVE-2024-24576-PoC-Python)
+- [lpn/CVE-2024-24576.jl](https://github.com/lpn/CVE-2024-24576.jl)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -13360,6 +13362,13 @@
 
 - [viniciuspereiras/CVE-2022-35405](https://github.com/viniciuspereiras/CVE-2022-35405)
 
+### CVE-2022-35411 (2022-07-08)
+
+<code>rpc.py through 0.6.0 allows Remote Code Execution because an unpickle occurs when the &quot;serializer: pickle&quot; HTTP header is sent. In other words, although JSON (not Pickle) is the default data format, an unauthenticated client can cause the data to be processed with unpickle.
+</code>
+
+- [fuzzlove/CVE-2022-35411](https://github.com/fuzzlove/CVE-2022-35411)
+
 ### CVE-2022-35416 (2022-07-11)
 
 <code>H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.
@@ -22902,6 +22911,7 @@
 - [einzbernnn/CVE-2020-1938Scan](https://github.com/einzbernnn/CVE-2020-1938Scan)
 - [YounesTasra-R4z3rSw0rd/CVE-2020-1938](https://github.com/YounesTasra-R4z3rSw0rd/CVE-2020-1938)
 - [tpt11fb/AttackTomcat](https://github.com/tpt11fb/AttackTomcat)
+- [Warelock/cve-2020-1938](https://github.com/Warelock/cve-2020-1938)
 
 ### CVE-2020-1947 (2020-03-11)
 
@@ -32210,6 +32220,13 @@
 - [0x00-0x00/CVE-2018-7422](https://github.com/0x00-0x00/CVE-2018-7422)
 - [jessisec/CVE-2018-7422](https://github.com/jessisec/CVE-2018-7422)
 - [JacobEbben/CVE-2018-7422](https://github.com/JacobEbben/CVE-2018-7422)
+
+### CVE-2018-7448 (2018-02-26)
+
+<code>Remote code execution vulnerability in /cmsms-2.1.6-install.php/index.php in CMS Made Simple version 2.1.6 allows remote attackers to inject arbitrary PHP code via the &quot;timezone&quot; parameter in step 4 of a fresh installation procedure.
+</code>
+
+- [b1d0ws/exploit-cve-2018-7448](https://github.com/b1d0ws/exploit-cve-2018-7448)
 
 ### CVE-2018-7449 (2018-03-04)
 
