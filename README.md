@@ -1166,6 +1166,13 @@
 
 - [Alaatk/CVE-2024-26574](https://github.com/Alaatk/CVE-2024-26574)
 
+### CVE-2024-26817 (2024-04-13)
+
+<code>In the Linux kernel, the following vulnerability has been resolved:\n\namdkfd: use calloc instead of kzalloc to avoid integer overflow\n\nThis uses calloc instead of doing the multiplication which might\noverflow.
+</code>
+
+- [MaherAzzouzi/CVE-2024-26817-amdkfd](https://github.com/MaherAzzouzi/CVE-2024-26817-amdkfd)
+
 ### CVE-2024-27198 (2024-03-04)
 
 <code>In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible
@@ -1247,6 +1254,13 @@
 
 ### CVE-2024-27697
 - [SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697](https://github.com/SanjinDedic/FuguHub-8.4-Authenticated-RCE-CVE-2024-27697)
+
+### CVE-2024-27983 (2024-04-09)
+
+<code>An attacker can make the Node.js HTTP/2 server completely unavailable by sending a small amount of HTTP/2 frames packets with a few HTTP/2 frames inside. It is possible to leave some data in nghttp2 memory after reset when headers with HTTP/2 CONTINUATION frame are sent to the server and then a TCP connection is abruptly closed by the client triggering the Http2Session destructor while header frames are still being processed (and stored in memory) causing a race condition.
+</code>
+
+- [lirantal/CVE-2024-27983-nodejs-http2](https://github.com/lirantal/CVE-2024-27983-nodejs-http2)
 
 ### CVE-2024-28085 (2024-03-27)
 
@@ -2117,6 +2131,15 @@
 ### CVE-2023-4128
 - [Trinadh465/linux-4.1.15_CVE-2023-4128](https://github.com/Trinadh465/linux-4.1.15_CVE-2023-4128)
 
+### CVE-2023-4145 (2023-08-03)
+
+<code>Cross-site Scripting (XSS) - Stored in GitHub repository pimcore/customer-data-framework prior to 3.4.2.
+</code>
+
+- [miguelc49/CVE-2023-4145-2](https://github.com/miguelc49/CVE-2023-4145-2)
+- [miguelc49/CVE-2023-4145-1](https://github.com/miguelc49/CVE-2023-4145-1)
+- [miguelc49/CVE-2023-4145-3](https://github.com/miguelc49/CVE-2023-4145-3)
+
 ### CVE-2023-4165 (2023-08-05)
 
 <code>Es wurde eine kritische Schwachstelle in Tongda OA gefunden. Hiervon betroffen ist ein unbekannter Codeblock der Datei general/system/seal_manage/iweboffice/delete_seal.php. Dank der Manipulation des Arguments DELETE_STR mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Exploit steht zur öffentlichen Verfügung. Ein Aktualisieren auf die Version 11.10 vermag dieses Problem zu lösen. Als bestmögliche Massnahme wird das Einspielen eines Upgrades empfohlen.
@@ -2535,6 +2558,7 @@
 - [FireWolfWang/CVE-2023-6019](https://github.com/FireWolfWang/CVE-2023-6019)
 - [miguelc49/CVE-2023-6019-2](https://github.com/miguelc49/CVE-2023-6019-2)
 - [miguelc49/CVE-2023-6019-1](https://github.com/miguelc49/CVE-2023-6019-1)
+- [miguelc49/CVE-2023-6019-3](https://github.com/miguelc49/CVE-2023-6019-3)
 
 ### CVE-2023-6036 (2024-02-12)
 
@@ -4415,6 +4439,7 @@
 - [Makurorororororororo/Validate-CVE-2023-29489-scanner-](https://github.com/Makurorororororororo/Validate-CVE-2023-29489-scanner-)
 - [prasad-1808/tool-29489](https://github.com/prasad-1808/tool-29489)
 - [mdaseem03/cpanel_xss_2023](https://github.com/mdaseem03/cpanel_xss_2023)
+- [some-man1/CVE-2023-29489](https://github.com/some-man1/CVE-2023-29489)
 
 ### CVE-2023-29808 (2023-05-12)
 
@@ -5117,6 +5142,15 @@
 
 - [Toxich4/CVE-2023-33253](https://github.com/Toxich4/CVE-2023-33253)
 
+### CVE-2023-33264 (2023-05-22)
+
+<code>In Hazelcast through 5.0.4, 5.1 through 5.1.6, and 5.2 through 5.2.3, configuration routines don't mask passwords in the member configuration properly. This allows Hazelcast Management Center users to view some of the secrets.
+</code>
+
+- [miguelc49/CVE-2023-33264-2](https://github.com/miguelc49/CVE-2023-33264-2)
+- [miguelc49/CVE-2023-33264-1](https://github.com/miguelc49/CVE-2023-33264-1)
+- [miguelc49/CVE-2023-33264-3](https://github.com/miguelc49/CVE-2023-33264-3)
+
 ### CVE-2023-33381 (2023-06-06)
 
 <code>A command injection vulnerability was found in the ping functionality of the MitraStar GPT-2741GNAC router (firmware version AR_g5.8_110WVN0b7_2). The vulnerability allows an authenticated user to execute arbitrary OS commands by sending specially crafted input to the router via the ping function.
@@ -5407,6 +5441,15 @@
 - [toorandom/moveit-payload-decrypt-CVE-2023-34362](https://github.com/toorandom/moveit-payload-decrypt-CVE-2023-34362)
 - [errorfiathck/MOVEit-Exploit](https://github.com/errorfiathck/MOVEit-Exploit)
 - [Chinyemba-ck/MOVEit-CVE-2023-34362](https://github.com/Chinyemba-ck/MOVEit-CVE-2023-34362)
+
+### CVE-2023-34458 (2023-07-13)
+
+<code>mx-chain-go is the official implementation of the MultiversX blockchain protocol, written in golang. When executing a relayed transaction, if the inner transaction failed, it would have increased the inner transaction's sender account nonce. This could have contributed to a limited DoS attack on a targeted account. The fix is a breaking change so a new flag `RelayedNonceFixEnableEpoch` was needed. This was a strict processing issue while validating blocks on a chain. This vulnerability has been patched in version 1.4.17.
+</code>
+
+- [miguelc49/CVE-2023-34458-2](https://github.com/miguelc49/CVE-2023-34458-2)
+- [miguelc49/CVE-2023-34458-1](https://github.com/miguelc49/CVE-2023-34458-1)
+- [miguelc49/CVE-2023-34458-3](https://github.com/miguelc49/CVE-2023-34458-3)
 
 ### CVE-2023-34468 (2023-06-12)
 
@@ -5824,6 +5867,8 @@
 </code>
 
 - [tagomaru/CVE-2023-36281](https://github.com/tagomaru/CVE-2023-36281)
+- [miguelc49/CVE-2023-36281-2](https://github.com/miguelc49/CVE-2023-36281-2)
+- [miguelc49/CVE-2023-36281-1](https://github.com/miguelc49/CVE-2023-36281-1)
 
 ### CVE-2023-36319 (2023-09-19)
 
@@ -7578,6 +7623,7 @@
 
 - [miguelc49/CVE-2023-45280-1](https://github.com/miguelc49/CVE-2023-45280-1)
 - [miguelc49/CVE-2023-45280-3](https://github.com/miguelc49/CVE-2023-45280-3)
+- [miguelc49/CVE-2023-45280-2](https://github.com/miguelc49/CVE-2023-45280-2)
 
 ### CVE-2023-45288 (2024-04-04)
 
@@ -10499,6 +10545,14 @@
 </code>
 
 - [Sant268/CVE-2022-22852](https://github.com/Sant268/CVE-2022-22852)
+
+### CVE-2022-22885 (2022-02-16)
+
+<code>Hutool v5.7.18's HttpRequest was discovered to ignore all TLS/SSL certificate validation.
+</code>
+
+- [miguelc49/CVE-2022-22885-2](https://github.com/miguelc49/CVE-2022-22885-2)
+- [miguelc49/CVE-2022-22885-1](https://github.com/miguelc49/CVE-2022-22885-1)
 
 ### CVE-2022-22909 (2022-03-02)
 
@@ -15180,6 +15234,14 @@
 
 - [sudoninja-noob/CVE-2022-47102](https://github.com/sudoninja-noob/CVE-2022-47102)
 
+### CVE-2022-47197 (2023-01-19)
+
+<code>An insecure default vulnerability exists in the Post Creation functionality of Ghost Foundation Ghost 5.9.4. Default installations of Ghost allow non-administrator users to inject arbitrary Javascript in posts, which allow privilege escalation to administrator via XSS. To trigger this vulnerability, an attacker can send an HTTP request to inject Javascript in a post to trick an administrator into visiting the post.A stored XSS vulnerability exists in the `codeinjection_foot` for a post.
+</code>
+
+- [miguelc49/CVE-2022-47197-2](https://github.com/miguelc49/CVE-2022-47197-2)
+- [miguelc49/CVE-2022-47197-1](https://github.com/miguelc49/CVE-2022-47197-1)
+
 ### CVE-2022-47373 (2023-02-15)
 
 <code>Reflected Cross Site Scripting in Search Functionality of Module Library in Pandora FMS Console v766 and lower. This vulnerability arises on the forget password functionality in which parameter username does not proper input validation/sanitization thus results in executing malicious JavaScript payload.
@@ -18189,6 +18251,13 @@
 ### CVE-2021-28750
 - [PfalzPrince/CVE-2021-28750-site](https://github.com/PfalzPrince/CVE-2021-28750-site)
 
+### CVE-2021-29002 (2021-03-24)
+
+<code>A stored cross-site scripting (XSS) vulnerability in Plone CMS 5.2.3 exists in site-controlpanel via the &quot;form.widgets.site_title&quot; parameter.
+</code>
+
+- [miguelc49/CVE-2021-29002-1](https://github.com/miguelc49/CVE-2021-29002-1)
+
 ### CVE-2021-29003 (2021-04-13)
 
 <code>Genexis PLATINUM 4410 2.1 P4410-V2-1.28 devices allow remote attackers to execute arbitrary code via shell metacharacters to sys_config_valid.xgi, as demonstrated by the sys_config_valid.xgi?exeshell=%60telnetd%20%26%60 URI.
@@ -19134,6 +19203,14 @@
 </code>
 
 - [tcbutler320/CVE-2021-35956](https://github.com/tcbutler320/CVE-2021-35956)
+
+### CVE-2021-35958 (2021-06-30)
+
+<code>TensorFlow through 2.5.0 allows attackers to overwrite arbitrary files via a crafted archive when tf.keras.utils.get_file is used with extract=True. NOTE: the vendor's position is that tf.keras.utils.get_file is not intended for untrusted archives
+</code>
+
+- [miguelc49/CVE-2021-35958-2](https://github.com/miguelc49/CVE-2021-35958-2)
+- [miguelc49/CVE-2021-35958-1](https://github.com/miguelc49/CVE-2021-35958-1)
 
 ### CVE-2021-35975 (2023-11-30)
 
@@ -21684,6 +21761,15 @@
 </code>
 
 - [nawed20002/CVE-2021-46005](https://github.com/nawed20002/CVE-2021-46005)
+
+### CVE-2021-46063 (2022-02-18)
+
+<code>MCMS v5.2.5 was discovered to contain a Server Side Template Injection (SSTI) vulnerability via the Template Management module.
+</code>
+
+- [miguelc49/CVE-2021-46063-2](https://github.com/miguelc49/CVE-2021-46063-2)
+- [miguelc49/CVE-2021-46063-1](https://github.com/miguelc49/CVE-2021-46063-1)
+- [miguelc49/CVE-2021-46063-3](https://github.com/miguelc49/CVE-2021-46063-3)
 
 ### CVE-2021-46067 (2022-01-06)
 
@@ -24410,6 +24496,14 @@
 - [LucidUnicorn/CVE-2020-10560-Key-Recovery](https://github.com/LucidUnicorn/CVE-2020-10560-Key-Recovery)
 - [kevthehermit/CVE-2020-10560](https://github.com/kevthehermit/CVE-2020-10560)
 
+### CVE-2020-10596 (2020-03-17)
+
+<code>OpenCart 3.0.3.2 allows remote authenticated users to conduct XSS attacks via a crafted filename in the users' image upload section.
+</code>
+
+- [miguelc49/CVE-2020-10596-2](https://github.com/miguelc49/CVE-2020-10596-2)
+- [miguelc49/CVE-2020-10596-1](https://github.com/miguelc49/CVE-2020-10596-1)
+
 ### CVE-2020-10663 (2020-04-28)
 
 <code>The JSON gem through 2.2.0 for Ruby, as used in Ruby 2.4 through 2.4.9, 2.5 through 2.5.7, and 2.6 through 2.6.5, has an Unsafe Object Creation Vulnerability. This is quite similar to CVE-2013-0269, but does not rely on poor garbage-collection behavior within Ruby. Specifically, use of JSON parsing methods can lead to creation of a malicious object within the interpreter, with adverse effects that are application-dependent.
@@ -27125,6 +27219,14 @@
 </code>
 
 - [RandomRobbieBF/CVE-2020-36730](https://github.com/RandomRobbieBF/CVE-2020-36730)
+
+### CVE-2020-36732 (2023-06-12)
+
+<code>The crypto-js package before 3.2.1 for Node.js generates random numbers by concatenating the string &quot;0.&quot; with an integer, which makes the output more predictable than necessary.
+</code>
+
+- [miguelc49/CVE-2020-36732-2](https://github.com/miguelc49/CVE-2020-36732-2)
+- [miguelc49/CVE-2020-36732-1](https://github.com/miguelc49/CVE-2020-36732-1)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -30612,6 +30714,7 @@
 - [aesophor/CVE-2019-18634](https://github.com/aesophor/CVE-2019-18634)
 - [TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634](https://github.com/TheJoyOfHacking/saleemrashid-sudo-cve-2019-18634)
 - [DDayLuong/CVE-2019-18634](https://github.com/DDayLuong/CVE-2019-18634)
+- [chanbakjsd/CVE-2019-18634](https://github.com/chanbakjsd/CVE-2019-18634)
 
 ### CVE-2019-18655 (2019-11-12)
 
