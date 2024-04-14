@@ -2488,6 +2488,15 @@
 
 - [uthrasri/CVE-2023-5717](https://github.com/uthrasri/CVE-2023-5717)
 
+### CVE-2023-5720 (2023-11-15)
+
+<code>A flaw was found in Quarkus, where it does not properly sanitize artifacts created using the Gradle plugin, allowing certain build system information to remain. This flaw allows an attacker to access potentially sensitive information from the build system within the application.
+</code>
+
+- [miguelc49/CVE-2023-5720-2](https://github.com/miguelc49/CVE-2023-5720-2)
+- [miguelc49/CVE-2023-5720-1](https://github.com/miguelc49/CVE-2023-5720-1)
+- [miguelc49/CVE-2023-5720-3](https://github.com/miguelc49/CVE-2023-5720-3)
+
 ### CVE-2023-5808 (2023-12-04)
 
 <code>SMU versions prior to 14.8.7825.01 are susceptible to unintended information disclosure, through URL manipulation. Authenticated users in a Storage administrative role are able to access HNAS configuration backup and diagnostic data, that would normally be barred to that specific administrative role.
@@ -2522,6 +2531,8 @@
 </code>
 
 - [FireWolfWang/CVE-2023-6019](https://github.com/FireWolfWang/CVE-2023-6019)
+- [miguelc49/CVE-2023-6019-2](https://github.com/miguelc49/CVE-2023-6019-2)
+- [miguelc49/CVE-2023-6019-1](https://github.com/miguelc49/CVE-2023-6019-1)
 
 ### CVE-2023-6036 (2024-02-12)
 
@@ -6227,6 +6238,15 @@
 
 - [lucas-cauhe/cargo-perm](https://github.com/lucas-cauhe/cargo-perm)
 
+### CVE-2023-38499 (2023-07-25)
+
+<code>TYPO3 is an open source PHP based web content management system. Starting in version 9.4.0 and prior to versions 9.5.42 ELTS, 10.4.39 ELTS, 11.5.30, and 12.4.4, in multi-site scenarios, enumerating the HTTP query parameters `id` and `L` allowed out-of-scope access to rendered content in the website frontend. For instance, this allowed visitors to access content of an internal site by adding handcrafted query parameters to the URL of a site that was publicly available. TYPO3 versions 9.5.42 ELTS, 10.4.39 ELTS, 11.5.30, 12.4.4 fix the problem.
+</code>
+
+- [miguelc49/CVE-2023-38499-2](https://github.com/miguelc49/CVE-2023-38499-2)
+- [miguelc49/CVE-2023-38499-1](https://github.com/miguelc49/CVE-2023-38499-1)
+- [miguelc49/CVE-2023-38499-3](https://github.com/miguelc49/CVE-2023-38499-3)
+
 ### CVE-2023-38545 (2023-10-18)
 
 <code>This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy\nhandshake.\n\nWhen curl is asked to pass along the host name to the SOCKS5 proxy to allow\nthat to resolve the address instead of it getting done by curl itself, the\nmaximum length that host name can be is 255 bytes.\n\nIf the host name is detected to be longer, curl switches to local name\nresolving and instead passes on the resolved address only. Due to this bug,\nthe local variable that means &quot;let the host resolve the name&quot; could get the\nwrong value during a slow SOCKS5 handshake, and contrary to the intention,\ncopy the too long host name to the target buffer instead of copying just the\nresolved address there.\n\nThe target buffer being a heap based buffer, and the host name coming from the\nURL that curl has been told to operate with.\n
@@ -6808,6 +6828,15 @@
 
 - [soundarkutty/Stored-xss](https://github.com/soundarkutty/Stored-xss)
 
+### CVE-2023-41592 (2023-09-14)
+
+<code>Froala Editor v4.0.1 to v4.1.1 was discovered to contain a cross-site scripting (XSS) vulnerability.
+</code>
+
+- [miguelc49/CVE-2023-41592-2](https://github.com/miguelc49/CVE-2023-41592-2)
+- [miguelc49/CVE-2023-41592-1](https://github.com/miguelc49/CVE-2023-41592-1)
+- [miguelc49/CVE-2023-41592-3](https://github.com/miguelc49/CVE-2023-41592-3)
+
 ### CVE-2023-41593 (2023-09-11)
 
 <code>Multiple cross-site scripting (XSS) vulnerabilities in Dairy Farm Shop Management System Using PHP and MySQL v1.1 allow attackers to execute arbitrary web scripts and HTML via a crafted payload injected into the Category and Category Field parameters.
@@ -7245,6 +7274,15 @@
 
 - [OligoCyberSecurity/ShellTorchChecker](https://github.com/OligoCyberSecurity/ShellTorchChecker)
 
+### CVE-2023-43667 (2023-10-16)
+
+<code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Apache InLong.This issue affects Apache InLong: from 1.4.0 through 1.8.0, the attacker can create misleading or false records, making it harder to audit\nand trace malicious activities. Users are advised to upgrade to Apache InLong's 1.8.0 or cherry-pick [1] to solve it.\n\n[1]  https://github.com/apache/inlong/pull/8628 \n\n
+</code>
+
+- [miguelc49/CVE-2023-43667-2](https://github.com/miguelc49/CVE-2023-43667-2)
+- [miguelc49/CVE-2023-43667-1](https://github.com/miguelc49/CVE-2023-43667-1)
+- [miguelc49/CVE-2023-43667-3](https://github.com/miguelc49/CVE-2023-43667-3)
+
 ### CVE-2023-43757 (2023-11-16)
 
 <code>Inadequate encryption strength vulnerability in multiple routers provided by ELECOM CO.,LTD. and LOGITEC CORPORATION allows a network-adjacent unauthenticated attacker to guess the encryption key used for wireless LAN communication and intercept the communication. As for the affected products/versions, see the information provided by the vendor under [References] section.
@@ -7530,6 +7568,14 @@
 </code>
 
 - [afine-com/CVE-2023-45185](https://github.com/afine-com/CVE-2023-45185)
+
+### CVE-2023-45280 (2023-10-19)
+
+<code>Yamcs 5.8.6 allows XSS (issue 2 of 2). It comes with a Bucket as its primary storage mechanism. Buckets allow for the upload of any file. There's a way to upload an HTML file containing arbitrary JavaScript and then navigate to it. Once the user opens the file, the browser will execute the arbitrary JavaScript.
+</code>
+
+- [miguelc49/CVE-2023-45280-1](https://github.com/miguelc49/CVE-2023-45280-1)
+- [miguelc49/CVE-2023-45280-3](https://github.com/miguelc49/CVE-2023-45280-3)
 
 ### CVE-2023-45288 (2024-04-04)
 
@@ -13897,6 +13943,15 @@
 
 - [mind2hex/CVE-2022-39986](https://github.com/mind2hex/CVE-2022-39986)
 - [tucommenceapousser/RaspAP-CVE-2022-39986-PoC](https://github.com/tucommenceapousser/RaspAP-CVE-2022-39986-PoC)
+
+### CVE-2022-39987 (2023-08-01)
+
+<code>A Command injection vulnerability in RaspAP 2.8.0 thru 2.9.2 allows an authenticated attacker to execute arbitrary OS commands as root via the &quot;entity&quot; POST parameters in /ajax/networking/get_wgkey.php.
+</code>
+
+- [miguelc49/CVE-2022-39987-2](https://github.com/miguelc49/CVE-2022-39987-2)
+- [miguelc49/CVE-2022-39987-1](https://github.com/miguelc49/CVE-2022-39987-1)
+- [miguelc49/CVE-2022-39987-3](https://github.com/miguelc49/CVE-2022-39987-3)
 
 ### CVE-2022-40032 (2023-02-17)
 
