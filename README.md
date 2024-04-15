@@ -316,6 +316,7 @@
 - [badsectorlabs/ludus_xz_backdoor](https://github.com/badsectorlabs/ludus_xz_backdoor)
 - [Juul/xz-backdoor-scan](https://github.com/Juul/xz-backdoor-scan)
 - [fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-](https://github.com/fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-)
+- [AlexDoe11/CVE-2024-3094-EXPLOIT](https://github.com/AlexDoe11/CVE-2024-3094-EXPLOIT)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -324,6 +325,13 @@
 
 - [FoxyProxys/CVE-2024-3116](https://github.com/FoxyProxys/CVE-2024-3116)
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
+
+### CVE-2024-3136 (2024-04-09)
+
+<code>The MasterStudy LMS plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 3.3.3 via the 'template' parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where images and other “safe” file types can be uploaded and included.
+</code>
+
+- [AlexDoe11/CVE-2024-3136-Wordpress-RCE](https://github.com/AlexDoe11/CVE-2024-3136-Wordpress-RCE)
 
 ### CVE-2024-3272 (2024-04-04)
 
@@ -1106,6 +1114,13 @@
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
 
+### CVE-2024-25693 (2024-04-04)
+
+<code>There is a path traversal in Esri Portal for ArcGIS versions &lt;= 11.2.  Successful exploitation may allow a remote, authenticated attacker to traverse the file system to access files or execute code outside of the intended directory. 
+</code>
+
+- [AlexDoe11/CVE-2024-25693-exploit](https://github.com/AlexDoe11/CVE-2024-25693-exploit)
+
 ### CVE-2024-25723 (2024-02-27)
 
 <code>ZenML Server in the ZenML machine learning package before 0.46.7 for Python allows remote privilege escalation because the /api/v1/users/{user_name_or_id}/activate REST API endpoint allows access on the basis of a valid username along with a new password in the request body. These are also patched versions: 0.44.4, 0.43.1, and 0.42.2.
@@ -1132,6 +1147,13 @@
 </code>
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
+
+### CVE-2024-26198 (2024-03-12)
+
+<code>Microsoft Exchange Server Remote Code Execution Vulnerability
+</code>
+
+- [AlexDoe11/CVE-2024-26198-Exchange-RCE](https://github.com/AlexDoe11/CVE-2024-26198-Exchange-RCE)
 
 ### CVE-2024-26475 (2024-03-14)
 
@@ -1385,6 +1407,13 @@
 
 - [ally-petitt/CVE-2024-29399](https://github.com/ally-petitt/CVE-2024-29399)
 
+### CVE-2024-29988 (2024-04-09)
+
+<code>SmartScreen Prompt Security Feature Bypass Vulnerability
+</code>
+
+- [AlexDoe11/CVE-2024-29988-MS-Exchange-RCE](https://github.com/AlexDoe11/CVE-2024-29988-MS-Exchange-RCE)
+
 ### CVE-2024-30255 (2024-04-04)
 
 <code>Envoy is a cloud-native, open source edge and service proxy. The HTTP/2 protocol stack in Envoy versions prior to 1.29.3, 1.28.2, 1.27.4, and 1.26.8 are vulnerable to CPU exhaustion due to flood of CONTINUATION frames. Envoy's HTTP/2 codec allows the client to send an unlimited number of CONTINUATION frames even after exceeding Envoy's header map limits. This allows an attacker to send a sequence of CONTINUATION frames without the END_HEADERS bit set causing CPU utilization, consuming approximately 1 core per 300Mbit/s of traffic and culminating in denial of service through CPU exhaustion. Users should upgrade to version 1.29.3, 1.28.2, 1.27.4, or 1.26.8 to mitigate the effects of the CONTINUATION flood. As a workaround, disable HTTP/2 protocol for downstream connections.
@@ -1424,6 +1453,9 @@
 
 ### CVE-2024-31719
 - [VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability](https://github.com/VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability)
+
+### CVE-2024-31734
+- [HBLocker/CVE-2024-31734](https://github.com/HBLocker/CVE-2024-31734)
 
 ### CVE-2024-31777
 - [FreySolarEye/Exploit-CVE-2024-31777](https://github.com/FreySolarEye/Exploit-CVE-2024-31777)
@@ -8245,6 +8277,7 @@
 </code>
 
 - [horizon3ai/CVE-2023-48788](https://github.com/horizon3ai/CVE-2023-48788)
+- [AlexDoe11/CVE-2023-48788-Proof-of-concept-SQLinj](https://github.com/AlexDoe11/CVE-2023-48788-Proof-of-concept-SQLinj)
 
 ### CVE-2023-48842 (2023-12-01)
 
@@ -27893,6 +27926,7 @@
 - [elbiazo/CVE-2019-2215](https://github.com/elbiazo/CVE-2019-2215)
 - [jsirichai/CVE-2019-2215](https://github.com/jsirichai/CVE-2019-2215)
 - [willboka/CVE-2019-2215-HuaweiP20Lite](https://github.com/willboka/CVE-2019-2215-HuaweiP20Lite)
+- [mutur4/CVE-2019-2215](https://github.com/mutur4/CVE-2019-2215)
 
 ### CVE-2019-2525 (2019-01-16)
 
