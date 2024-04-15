@@ -354,6 +354,7 @@
 - [FoxyProxys/CVE-2024-3400](https://github.com/FoxyProxys/CVE-2024-3400)
 - [momika233/CVE-2024-3400](https://github.com/momika233/CVE-2024-3400)
 - [kerberoshacker/CVE-2024-3400-POC](https://github.com/kerberoshacker/CVE-2024-3400-POC)
+- [MrR0b0t19/CVE-2024-3400](https://github.com/MrR0b0t19/CVE-2024-3400)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -16629,7 +16630,7 @@
 - [edsonjt81/CVE-2021-4034-Linux](https://github.com/edsonjt81/CVE-2021-4034-Linux)
 - [nel0x/pwnkit-vulnerability](https://github.com/nel0x/pwnkit-vulnerability)
 - [TomSgn/CVE-2021-4034](https://github.com/TomSgn/CVE-2021-4034)
-- [azazelm3dj3d/CVE-2021-4034](https://github.com/azazelm3dj3d/CVE-2021-4034)
+- [battleoverflow/CVE-2021-4034](https://github.com/battleoverflow/CVE-2021-4034)
 - [TheJoyOfHacking/berdav-CVE-2021-4034](https://github.com/TheJoyOfHacking/berdav-CVE-2021-4034)
 - [tzwlhack/CVE-2021-4034](https://github.com/tzwlhack/CVE-2021-4034)
 - [jcatala/f_poc_cve-2021-4034](https://github.com/jcatala/f_poc_cve-2021-4034)
@@ -25504,6 +25505,13 @@
 </code>
 
 - [g-rubert/CVE-2020-14965](https://github.com/g-rubert/CVE-2020-14965)
+
+### CVE-2020-14974 (2020-06-23)
+
+<code>The driver in IOBit Unlocker 1.1.2 allows a low-privileged user to unlock a file and kill processes (even ones running as SYSTEM) that hold a handle, via IOCTL code 0x222124.
+</code>
+
+- [Aterror2be/CVE-2020-14974](https://github.com/Aterror2be/CVE-2020-14974)
 
 ### CVE-2020-15002 (2020-10-23)
 
