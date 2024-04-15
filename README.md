@@ -32,7 +32,6 @@
 
 - [ysanatomic/io_uring_LPE-CVE-2024-0582](https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582)
 - [Forsaken0129/CVE-2024-0582](https://github.com/Forsaken0129/CVE-2024-0582)
-- [FoxyProxys/CVE-2024-0582](https://github.com/FoxyProxys/CVE-2024-0582)
 
 ### CVE-2024-0679 (2024-01-20)
 
@@ -248,13 +247,6 @@
 
 - [herculeszxc/CVE-2024-2879](https://github.com/herculeszxc/CVE-2024-2879)
 
-### CVE-2024-3000 (2024-03-27)
-
-<code>In code-projects Online Book System 1.0 wurde eine Schwachstelle entdeckt. Sie wurde als kritisch eingestuft. Betroffen ist eine unbekannte Verarbeitung der Datei /index.php. Durch Beeinflussen des Arguments username/password/login_username/login_password mit unbekannten Daten kann eine sql injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [FoxyProxys/CVE-2024-3000](https://github.com/FoxyProxys/CVE-2024-3000)
-
 ### CVE-2024-3094 (2024-03-29)
 
 <code>Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library.
@@ -323,7 +315,6 @@
 <code>pgAdmin &lt;= 8.4 is affected by a  Remote Code Execution (RCE) vulnerability through the validate binary path API. This vulnerability allows attackers to execute arbitrary code on the server hosting PGAdmin, posing a severe risk to the database management system's integrity and the security of the underlying data.\n
 </code>
 
-- [FoxyProxys/CVE-2024-3116](https://github.com/FoxyProxys/CVE-2024-3116)
 - [TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4](https://github.com/TechieNeurons/CVE-2024-3116_RCE_in_pgadmin_8.4)
 
 ### CVE-2024-3136 (2024-04-09)
@@ -361,9 +352,9 @@
 - [0x0d3ad/CVE-2024-3400](https://github.com/0x0d3ad/CVE-2024-3400)
 - [FoxyProxys/CVE-2024-3400](https://github.com/FoxyProxys/CVE-2024-3400)
 - [momika233/CVE-2024-3400](https://github.com/momika233/CVE-2024-3400)
-- [kerberoshacker/CVE-2024-3400-POC](https://github.com/kerberoshacker/CVE-2024-3400-POC)
 - [MrR0b0t19/CVE-2024-3400](https://github.com/MrR0b0t19/CVE-2024-3400)
 - [MurrayR0123/CVE-2024-3400-Compromise-Checker](https://github.com/MurrayR0123/CVE-2024-3400-Compromise-Checker)
+- [kerberoshacker2/CVE-2024-3400-POC](https://github.com/kerberoshacker2/CVE-2024-3400-POC)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -437,6 +428,13 @@
 </code>
 
 - [d4rks1d33/C-PoC-for-CVE-2024-21306](https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306)
+
+### CVE-2024-21338 (2024-02-13)
+
+<code>Windows Kernel Elevation of Privilege Vulnerability
+</code>
+
+- [hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338)
 
 ### CVE-2024-21378 (2024-02-13)
 
@@ -1472,6 +1470,9 @@
 
 ### CVE-2024-206565
 - [sanderswannalive/sumkaluissessss](https://github.com/sanderswannalive/sumkaluissessss)
+
+### CVE-2024-1642470
+- [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
 
 
 ## 2023
@@ -18621,6 +18622,7 @@
 - [hev0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/hev0x/CVE-2021-31630-OpenPLC_RCE)
 - [Hunt3r0x/CVE-2021-31630-HTB](https://github.com/Hunt3r0x/CVE-2021-31630-HTB)
 - [thewhiteh4t/cve-2021-31630](https://github.com/thewhiteh4t/cve-2021-31630)
+- [mind2hex/CVE-2021-31630](https://github.com/mind2hex/CVE-2021-31630)
 
 ### CVE-2021-31728 (2021-05-17)
 
