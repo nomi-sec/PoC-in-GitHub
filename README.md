@@ -71,6 +71,13 @@
 
 - [0x9567b/CVE-2024-0844](https://github.com/0x9567b/CVE-2024-0844)
 
+### CVE-2024-0986 (2024-01-28)
+
+<code>Eine Schwachstelle wurde in Issabel PBX 4.0.0 ausgemacht. Sie wurde als kritisch eingestuft. Es geht hierbei um eine nicht näher spezifizierte Funktion der Datei /index.php?menu=asterisk_cli der Komponente Asterisk-Cli. Durch Beeinflussen des Arguments Command mit unbekannten Daten kann eine os command injection-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk angegangen werden. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [gunzf0x/Issabel-PBX-4.0.0-RCE-Authenticated](https://github.com/gunzf0x/Issabel-PBX-4.0.0-RCE-Authenticated)
+
 ### CVE-2024-1071 (2024-03-13)
 
 <code>The Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction &amp; Membership Plugin plugin for WordPress is vulnerable to SQL Injection via the 'sorting' parameter in versions 2.1.3 to 2.8.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -354,7 +361,7 @@
 - [momika233/CVE-2024-3400](https://github.com/momika233/CVE-2024-3400)
 - [MrR0b0t19/CVE-2024-3400](https://github.com/MrR0b0t19/CVE-2024-3400)
 - [MurrayR0123/CVE-2024-3400-Compromise-Checker](https://github.com/MurrayR0123/CVE-2024-3400-Compromise-Checker)
-- [kerberoshacker2/CVE-2024-3400-POC](https://github.com/kerberoshacker2/CVE-2024-3400-POC)
+- [AdaniKamal/CVE-2024-3400](https://github.com/AdaniKamal/CVE-2024-3400)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -8818,6 +8825,7 @@
 - [farliy-hacker/CVE-2023-51385](https://github.com/farliy-hacker/CVE-2023-51385)
 - [farliy-hacker/CVE-2023-51385-save](https://github.com/farliy-hacker/CVE-2023-51385-save)
 - [2048JiaLi/CVE-2023-51385](https://github.com/2048JiaLi/CVE-2023-51385)
+- [thinkliving2020/CVE-2023-51385-](https://github.com/thinkliving2020/CVE-2023-51385-)
 
 ### CVE-2023-51409 (2024-04-12)
 
