@@ -371,6 +371,16 @@
 - [MurrayR0123/CVE-2024-3400-Compromise-Checker](https://github.com/MurrayR0123/CVE-2024-3400-Compromise-Checker)
 - [AdaniKamal/CVE-2024-3400](https://github.com/AdaniKamal/CVE-2024-3400)
 - [LoanVitor/CVE-2024-3400-](https://github.com/LoanVitor/CVE-2024-3400-)
+- [h4x0r-dz/CVE-2024-3400](https://github.com/h4x0r-dz/CVE-2024-3400)
+- [W01fh4cker/CVE-2024-3400](https://github.com/W01fh4cker/CVE-2024-3400)
+- [CONDITIONBLACK/CVE-2024-3400-POC](https://github.com/CONDITIONBLACK/CVE-2024-3400-POC)
+
+### CVE-2024-3867 (2024-04-16)
+
+<code>The archive-tainacan-collection theme for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in version 2.7.2. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
+</code>
+
+- [RansomGroupCVE/CVE-2024-3867-POC](https://github.com/RansomGroupCVE/CVE-2024-3867-POC)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -6192,11 +6202,7 @@
 
 - [sahiloj/CVE-2023-37599](https://github.com/sahiloj/CVE-2023-37599)
 
-### CVE-2023-37621 (2024-02-01)
-
-<code>An issue in Fronius Datalogger Web v.2.0.5-4, allows remote attackers to obtain sensitive information via a crafted request.
-</code>
-
+### CVE-2023-37621
 - [MY0723/CNVD-2022-27366__CVE-2023-37621](https://github.com/MY0723/CNVD-2022-27366__CVE-2023-37621)
 
 ### CVE-2023-37625 (2023-08-10)
@@ -6631,7 +6637,11 @@
 ### CVE-2023-39725
 - [anky-123/CVE-2023-39725](https://github.com/anky-123/CVE-2023-39725)
 
-### CVE-2023-40000
+### CVE-2023-40000 (2024-04-16)
+
+<code>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in LiteSpeed Technologies LiteSpeed Cache allows Stored XSS.This issue affects LiteSpeed Cache: from n/a through 5.7.\n\n
+</code>
+
 - [rxerium/CVE-2023-40000](https://github.com/rxerium/CVE-2023-40000)
 
 ### CVE-2023-40028 (2023-08-15)
@@ -8729,6 +8739,7 @@
 - [aaronm-sysdig/cve-2023-50164](https://github.com/aaronm-sysdig/cve-2023-50164)
 - [snyk-labs/CVE-2023-50164-POC](https://github.com/snyk-labs/CVE-2023-50164-POC)
 - [sunnyvale-it/CVE-2023-50164-PoC](https://github.com/sunnyvale-it/CVE-2023-50164-PoC)
+- [AsfandAliMemon25/CVE-2023-50164Analysis-](https://github.com/AsfandAliMemon25/CVE-2023-50164Analysis-)
 
 ### CVE-2023-50226
 - [kn32/parallels-file-move-privesc](https://github.com/kn32/parallels-file-move-privesc)
@@ -26779,6 +26790,7 @@
 - [kiks7/CVE-2020-27786-Kernel-Exploit](https://github.com/kiks7/CVE-2020-27786-Kernel-Exploit)
 - [elbiazo/CVE-2020-27786](https://github.com/elbiazo/CVE-2020-27786)
 - [Trinadh465/linux-4.19.72_CVE-2020-27786](https://github.com/Trinadh465/linux-4.19.72_CVE-2020-27786)
+- [ii4gsp/CVE-2020-27786](https://github.com/ii4gsp/CVE-2020-27786)
 
 ### CVE-2020-27815 (2021-05-26)
 
