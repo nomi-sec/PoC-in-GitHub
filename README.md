@@ -529,7 +529,6 @@
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762)
 - [AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK)
-- [zzcentury/FortiGate-CVE-2024-21762](https://github.com/zzcentury/FortiGate-CVE-2024-21762)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -1426,7 +1425,11 @@
 
 - [Lucky-lm/CVE-2024-30614](https://github.com/Lucky-lm/CVE-2024-30614)
 
-### CVE-2024-30656
+### CVE-2024-30656 (2024-04-15)
+
+<code>An issue in Fireboltt Dream Wristphone BSW202_FB_AAC_v2.0_20240110-20240110-1956 allows attackers to cause a Denial of Service (DoS) via a crafted deauth frame.
+</code>
+
 - [Yashodhanvivek/Firebolt-wristphone-vulnerability](https://github.com/Yashodhanvivek/Firebolt-wristphone-vulnerability)
 
 ### CVE-2024-30850 (2024-04-12)
@@ -3594,6 +3597,7 @@
 - [Rival420/CVE-2023-23752](https://github.com/Rival420/CVE-2023-23752)
 - [JohnDoeAnonITA/CVE-2023-23752](https://github.com/JohnDoeAnonITA/CVE-2023-23752)
 - [0xWhoami35/CVE-2023-23752](https://github.com/0xWhoami35/CVE-2023-23752)
+- [mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python)
 
 ### CVE-2023-23924 (2023-01-31)
 
@@ -7679,7 +7683,11 @@
 
 - [itsAptx/CVE-2023-45471](https://github.com/itsAptx/CVE-2023-45471)
 
-### CVE-2023-45503
+### CVE-2023-45503 (2024-04-15)
+
+<code>SQL Injection vulnerability in Macrob7 Macs CMS 1.1.4f, allows remote attackers to execute arbitrary code, cause a denial of service (DoS), escalate privileges, and obtain sensitive information via crafted payload to resetPassword, forgotPasswordProcess, saveUser, saveRole, deleteUser, deleteRole, deleteComment, deleteUser, allowComment, saveRole, forgotPasswordProcess, resetPassword, saveUser, addComment, saveRole, and saveUser endpoints.
+</code>
+
 - [ally-petitt/CVE-2023-45503](https://github.com/ally-petitt/CVE-2023-45503)
 
 ### CVE-2023-45540 (2023-10-16)
@@ -29588,13 +29596,6 @@
 </code>
 
 - [tarantula-team/CVE-2019-12543](https://github.com/tarantula-team/CVE-2019-12543)
-
-### CVE-2019-12550 (2019-06-17)
-
-<code>WAGO 852-303 before FW06, 852-1305 before FW06, and 852-1505 before FW03 devices contain hardcoded users and passwords that can be used to login via SSH and TELNET.
-</code>
-
-- [itwizardo/CVE-2019-12550](https://github.com/itwizardo/CVE-2019-12550)
 
 ### CVE-2019-12562 (2019-09-26)
 
