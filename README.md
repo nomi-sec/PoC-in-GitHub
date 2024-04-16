@@ -166,6 +166,13 @@
 
 - [horizon3ai/CVE-2024-1403](https://github.com/horizon3ai/CVE-2024-1403)
 
+### CVE-2024-1441 (2024-03-11)
+
+<code>An off-by-one error flaw was found in the udevListInterfacesByStatus() function in libvirt when the number of interfaces exceeds the size of the `names` array. This issue can be reproduced by sending specially crafted data to the libvirt daemon, allowing an unprivileged client to perform a denial of service attack by causing the libvirt daemon to crash.
+</code>
+
+- [almkuznetsov/CVE-2024-1441](https://github.com/almkuznetsov/CVE-2024-1441)
+
 ### CVE-2024-1512 (2024-02-17)
 
 <code>The MasterStudy LMS WordPress Plugin – for Online Courses and Education plugin for WordPress is vulnerable to union based SQL Injection via the 'user' parameter of the /lms/stm-lms/order/items REST route in all versions up to, and including, 3.2.5 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
@@ -348,6 +355,7 @@
 - [yarienkiva/honeypot-dlink-CVE-2024-3273](https://github.com/yarienkiva/honeypot-dlink-CVE-2024-3273)
 - [K3ysTr0K3R/CVE-2024-3273-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-3273-EXPLOIT)
 - [ThatNotEasy/CVE-2024-3273](https://github.com/ThatNotEasy/CVE-2024-3273)
+- [LeopoldSkell/CVE-2024-3273](https://github.com/LeopoldSkell/CVE-2024-3273)
 
 ### CVE-2024-3400 (2024-04-12)
 
@@ -362,6 +370,7 @@
 - [MrR0b0t19/CVE-2024-3400](https://github.com/MrR0b0t19/CVE-2024-3400)
 - [MurrayR0123/CVE-2024-3400-Compromise-Checker](https://github.com/MurrayR0123/CVE-2024-3400-Compromise-Checker)
 - [AdaniKamal/CVE-2024-3400](https://github.com/AdaniKamal/CVE-2024-3400)
+- [LoanVitor/CVE-2024-3400-](https://github.com/LoanVitor/CVE-2024-3400-)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -18012,7 +18021,7 @@
 - [kh4sh3i/ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
 - [byinarie/Zirconium](https://github.com/byinarie/Zirconium)
 - [ssrsec/Microsoft-Exchange-RCE](https://github.com/ssrsec/Microsoft-Exchange-RCE)
-- [iceberg-N/cve-2021-26855](https://github.com/iceberg-N/cve-2021-26855)
+- [MacAsure/cve-2021-26855](https://github.com/MacAsure/cve-2021-26855)
 - [timb-machine-mirrors/testanull-CVE-2021-26855_read_poc.txt](https://github.com/timb-machine-mirrors/testanull-CVE-2021-26855_read_poc.txt)
 
 ### CVE-2021-26856
