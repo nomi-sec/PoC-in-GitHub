@@ -380,6 +380,8 @@
 - [Chocapikk/CVE-2024-3400](https://github.com/Chocapikk/CVE-2024-3400)
 - [ihebski/CVE-2024-3400](https://github.com/ihebski/CVE-2024-3400)
 - [index2014/CVE-2024-3400-Checker](https://github.com/index2014/CVE-2024-3400-Checker)
+- [admi-n/CVE-2024-3400-RCE-copy](https://github.com/admi-n/CVE-2024-3400-RCE-copy)
+- [ZephrFish/CVE-2024-3400-Canary](https://github.com/ZephrFish/CVE-2024-3400-Canary)
 
 ### CVE-2024-3867 (2024-04-16)
 
@@ -474,6 +476,7 @@
 </code>
 
 - [hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338)
+- [UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338)
 
 ### CVE-2024-21378 (2024-02-13)
 
@@ -1498,6 +1501,7 @@
 </code>
 
 - [sh1k4ku/CVE-2024-31497](https://github.com/sh1k4ku/CVE-2024-31497)
+- [edutko/cve-2024-31497](https://github.com/edutko/cve-2024-31497)
 
 ### CVE-2024-31719
 - [VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability](https://github.com/VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability)
@@ -28048,7 +28052,6 @@
 - [ludy-dev/Oracle-WLS-Weblogic-RCE](https://github.com/ludy-dev/Oracle-WLS-Weblogic-RCE)
 - [1stPeak/CVE-2019-2725-environment](https://github.com/1stPeak/CVE-2019-2725-environment)
 - [CalegariMindSec/Exploit-CVE-2019-2725](https://github.com/CalegariMindSec/Exploit-CVE-2019-2725)
-- [Kamiya767/CVE-2019-2725](https://github.com/Kamiya767/CVE-2019-2725)
 
 ### CVE-2019-2729 (2019-06-19)
 
@@ -29766,7 +29769,7 @@
 <code>apps/gsudo.c in gsudo in ToaruOS through 1.10.9 has a buffer overflow allowing local privilege escalation to the root user via the DISPLAY environment variable.
 </code>
 
-- [AkashicYiTai/CVE-2019-12937-ToaruOS-](https://github.com/AkashicYiTai/CVE-2019-12937-ToaruOS-)
+- [AkashicYiTai/CVE-2019-12937-ToaruOS](https://github.com/AkashicYiTai/CVE-2019-12937-ToaruOS)
 
 ### CVE-2019-12949 (2019-06-25)
 
