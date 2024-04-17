@@ -341,6 +341,13 @@
 
 - [AlexDoe11/CVE-2024-3136-Wordpress-RCE](https://github.com/AlexDoe11/CVE-2024-3136-Wordpress-RCE)
 
+### CVE-2024-3217 (2024-04-05)
+
+<code>The WP Directory Kit plugin for WordPress is vulnerable to SQL Injection via the 'attribute_value' and 'attribute_id' parameters in all versions up to, and including, 1.3.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.
+</code>
+
+- [BassamAssiri/CVE-2024-3217-POC](https://github.com/BassamAssiri/CVE-2024-3217-POC)
+
 ### CVE-2024-3272 (2024-04-04)
 
 <code>Eine Schwachstelle wurde in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L bis 20240403 entdeckt. Sie wurde als sehr kritisch eingestuft. Betroffen davon ist ein unbekannter Prozess der Datei /cgi-bin/nas_sharing.cgi der Komponente HTTP GET Request Handler. Mit der Manipulation des Arguments user mit der Eingabe messagebus mit unbekannten Daten kann eine hard-coded credentials-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
@@ -382,6 +389,7 @@
 - [index2014/CVE-2024-3400-Checker](https://github.com/index2014/CVE-2024-3400-Checker)
 - [admi-n/CVE-2024-3400-RCE-copy](https://github.com/admi-n/CVE-2024-3400-RCE-copy)
 - [ZephrFish/CVE-2024-3400-Canary](https://github.com/ZephrFish/CVE-2024-3400-Canary)
+- [ak1t4/CVE-2024-3400](https://github.com/ak1t4/CVE-2024-3400)
 
 ### CVE-2024-3867 (2024-04-16)
 
@@ -1153,6 +1161,7 @@
 - [Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/Tornad0007/CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
 - [hy011121/CVE-2024-25600-wordpress-Exploit-RCE](https://github.com/hy011121/CVE-2024-25600-wordpress-Exploit-RCE)
 - [K3ysTr0K3R/CVE-2024-25600-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-25600-EXPLOIT)
+- [0bl1v10nf0rg0773n/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress](https://github.com/0bl1v10nf0rg0773n/0BL1V10N-CVE-2024-25600-Bricks-Builder-plugin-for-WordPress)
 
 ### CVE-2024-25693 (2024-04-04)
 
@@ -3822,6 +3831,7 @@
 
 - [ohnonoyesyes/CVE-2023-25194](https://github.com/ohnonoyesyes/CVE-2023-25194)
 - [YongYe-Security/CVE-2023-25194](https://github.com/YongYe-Security/CVE-2023-25194)
+- [vulncheck-oss/cve-2023-25194](https://github.com/vulncheck-oss/cve-2023-25194)
 
 ### CVE-2023-25202
 - [Trackflaw/CVE-2023-25202](https://github.com/Trackflaw/CVE-2023-25202)
@@ -7999,6 +8009,7 @@
 - [ST3G4N05/ExploitScript-CVE-2023-46604](https://github.com/ST3G4N05/ExploitScript-CVE-2023-46604)
 - [Arlenhiack/ActiveMQ-RCE-Exploit](https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit)
 - [ph-hitachi/CVE-2023-46604](https://github.com/ph-hitachi/CVE-2023-46604)
+- [vulncheck-oss/cve-2023-46604](https://github.com/vulncheck-oss/cve-2023-46604)
 
 ### CVE-2023-46615 (2024-02-12)
 
