@@ -374,6 +374,8 @@
 - [h4x0r-dz/CVE-2024-3400](https://github.com/h4x0r-dz/CVE-2024-3400)
 - [W01fh4cker/CVE-2024-3400](https://github.com/W01fh4cker/CVE-2024-3400)
 - [CONDITIONBLACK/CVE-2024-3400-POC](https://github.com/CONDITIONBLACK/CVE-2024-3400-POC)
+- [Chocapikk/CVE-2024-3400](https://github.com/Chocapikk/CVE-2024-3400)
+- [ihebski/CVE-2024-3400](https://github.com/ihebski/CVE-2024-3400)
 
 ### CVE-2024-3867 (2024-04-16)
 
@@ -555,6 +557,7 @@
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762)
 - [AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK)
+- [Codeb3af/Cve-2024-21762-](https://github.com/Codeb3af/Cve-2024-21762-)
 
 ### CVE-2024-21887 (2024-01-12)
 
