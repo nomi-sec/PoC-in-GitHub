@@ -212,6 +212,9 @@
 
 - [Icycu123/CVE-2024-1781](https://github.com/Icycu123/CVE-2024-1781)
 
+### CVE-2024-1874
+- [ox1111/-CVE-2024-1874-](https://github.com/ox1111/-CVE-2024-1874-)
+
 ### CVE-2024-2054 (2024-03-05)
 
 <code>The Artica-Proxy administrative web application will deserialize arbitrary PHP objects supplied by unauthenticated users and subsequently enable code execution as the &quot;www-data&quot; user.
@@ -372,10 +375,11 @@
 - [AdaniKamal/CVE-2024-3400](https://github.com/AdaniKamal/CVE-2024-3400)
 - [LoanVitor/CVE-2024-3400-](https://github.com/LoanVitor/CVE-2024-3400-)
 - [h4x0r-dz/CVE-2024-3400](https://github.com/h4x0r-dz/CVE-2024-3400)
-- [W01fh4cker/CVE-2024-3400](https://github.com/W01fh4cker/CVE-2024-3400)
+- [W01fh4cker/CVE-2024-3400-RCE](https://github.com/W01fh4cker/CVE-2024-3400-RCE)
 - [CONDITIONBLACK/CVE-2024-3400-POC](https://github.com/CONDITIONBLACK/CVE-2024-3400-POC)
 - [Chocapikk/CVE-2024-3400](https://github.com/Chocapikk/CVE-2024-3400)
 - [ihebski/CVE-2024-3400](https://github.com/ihebski/CVE-2024-3400)
+- [index2014/CVE-2024-3400-Checker](https://github.com/index2014/CVE-2024-3400-Checker)
 
 ### CVE-2024-3867 (2024-04-16)
 
@@ -442,6 +446,13 @@
 - [Leocodefocus/CVE-2024-20931-Poc](https://github.com/Leocodefocus/CVE-2024-20931-Poc)
 - [ATonysan/CVE-2024-20931_weblogic](https://github.com/ATonysan/CVE-2024-20931_weblogic)
 - [dinosn/CVE-2024-20931](https://github.com/dinosn/CVE-2024-20931)
+
+### CVE-2024-21107 (2024-04-16)
+
+<code>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.16. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. Note: This vulnerability applies to Windows hosts only. CVSS 3.1 Base Score 6.7 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [Alaatk/CVE-2024-21107](https://github.com/Alaatk/CVE-2024-21107)
 
 ### CVE-2024-21305 (2024-01-09)
 
@@ -1480,6 +1491,13 @@
 </code>
 
 - [mortal-sec/CVE-2024-31025](https://github.com/mortal-sec/CVE-2024-31025)
+
+### CVE-2024-31497 (2024-04-15)
+
+<code>In PuTTY 0.68 through 0.80 before 0.81, biased ECDSA nonce generation allows an attacker to recover a user's NIST P-521 secret key via a quick attack in approximately 60 signatures. This is especially important in a scenario where an adversary is able to read messages signed by PuTTY or Pageant. The required set of signed messages may be publicly readable because they are stored in a public Git service that supports use of SSH for commit signing, and the signatures were made by Pageant through an agent-forwarding mechanism. In other words, an adversary may already have enough signature information to compromise a victim's private key, even if there is no further use of vulnerable PuTTY versions. After a key compromise, an adversary may be able to conduct supply-chain attacks on software maintained in Git. A second, independent scenario is that the adversary is an operator of an SSH server to which the victim authenticates (for remote login or file copy), even though this server is not fully trusted by the victim, and the victim uses the same private key for SSH connections to other services operated by other entities. Here, the rogue server operator (who would otherwise have no way to determine the victim's private key) can derive the victim's private key, and then use it for unauthorized access to those other services. If the other services include Git services, then again it may be possible to conduct supply-chain attacks on software maintained in Git. This also affects, for example, FileZilla before 3.67.0, WinSCP before 6.3.3, TortoiseGit before 2.15.0.1, and TortoiseSVN through 1.14.6.
+</code>
+
+- [sh1k4ku/CVE-2024-31497](https://github.com/sh1k4ku/CVE-2024-31497)
 
 ### CVE-2024-31719
 - [VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability](https://github.com/VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability)
@@ -17451,6 +17469,13 @@
 
 - [HoangKien1020/CVE-2021-23132](https://github.com/HoangKien1020/CVE-2021-23132)
 
+### CVE-2021-23337 (2021-02-15)
+
+<code>Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.
+</code>
+
+- [ebickle/CVE-2021-23337-template](https://github.com/ebickle/CVE-2021-23337-template)
+
 ### CVE-2021-23358 (2021-03-29)
 
 <code>The package underscore from 1.13.0-0 and before 1.13.0-2, from 1.3.2 and before 1.12.1 are vulnerable to Arbitrary Code Injection via the template function, particularly when a variable property is passed as an argument as it is not sanitized.
@@ -29735,6 +29760,13 @@
 </code>
 
 - [EthicalHCOP/CVE-2019-12890_RedxploitHQ](https://github.com/EthicalHCOP/CVE-2019-12890_RedxploitHQ)
+
+### CVE-2019-12937 (2019-06-23)
+
+<code>apps/gsudo.c in gsudo in ToaruOS through 1.10.9 has a buffer overflow allowing local privilege escalation to the root user via the DISPLAY environment variable.
+</code>
+
+- [AkashicYiTai/CVE-2019-12937-ToaruOS-](https://github.com/AkashicYiTai/CVE-2019-12937-ToaruOS-)
 
 ### CVE-2019-12949 (2019-06-25)
 
