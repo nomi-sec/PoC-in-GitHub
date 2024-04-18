@@ -390,6 +390,8 @@
 - [admi-n/CVE-2024-3400-RCE-copy](https://github.com/admi-n/CVE-2024-3400-RCE-copy)
 - [ZephrFish/CVE-2024-3400-Canary](https://github.com/ZephrFish/CVE-2024-3400-Canary)
 - [ak1t4/CVE-2024-3400](https://github.com/ak1t4/CVE-2024-3400)
+- [phantomradar/cve-2024-3400-poc](https://github.com/phantomradar/cve-2024-3400-poc)
+- [retkoussa/CVE-2024-3400](https://github.com/retkoussa/CVE-2024-3400)
 
 ### CVE-2024-3867 (2024-04-16)
 
