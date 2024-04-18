@@ -399,6 +399,7 @@
 - [ak1t4/CVE-2024-3400](https://github.com/ak1t4/CVE-2024-3400)
 - [phantomradar/cve-2024-3400-poc](https://github.com/phantomradar/cve-2024-3400-poc)
 - [retkoussa/CVE-2024-3400](https://github.com/retkoussa/CVE-2024-3400)
+- [schooldropout1337/CVE-2024-3400](https://github.com/schooldropout1337/CVE-2024-3400)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
