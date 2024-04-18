@@ -25,6 +25,13 @@
 - [m-cetin/CVE-2024-0204](https://github.com/m-cetin/CVE-2024-0204)
 - [adminlove520/CVE-2024-0204](https://github.com/adminlove520/CVE-2024-0204)
 
+### CVE-2024-0305 (2024-01-08)
+
+<code>Eine Schwachstelle wurde in Guangzhou Yingke Electronic Technology Ncast bis 2017 gefunden. Sie wurde als problematisch eingestuft. Dies betrifft einen unbekannten Teil der Datei /manage/IPSetup.php der Komponente Guest Login. Durch das Manipulieren mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [jidle123/cve-2024-0305exp](https://github.com/jidle123/cve-2024-0305exp)
+
 ### CVE-2024-0582 (2024-01-16)
 
 <code>A memory leak flaw was found in the Linux kernel’s io_uring functionality in how a user registers a buffer ring with IORING_REGISTER_PBUF_RING, mmap() it, and then frees it. This flaw allows a local user to crash or potentially escalate their privileges on the system.
@@ -393,13 +400,6 @@
 - [phantomradar/cve-2024-3400-poc](https://github.com/phantomradar/cve-2024-3400-poc)
 - [retkoussa/CVE-2024-3400](https://github.com/retkoussa/CVE-2024-3400)
 
-### CVE-2024-3867 (2024-04-16)
-
-<code>The archive-tainacan-collection theme for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in version 2.7.2. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.
-</code>
-
-- [RansomGroupCVE/CVE-2024-3867-POC](https://github.com/RansomGroupCVE/CVE-2024-3867-POC)
-
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -581,7 +581,6 @@
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762)
 - [AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK)
-- [Codeb3af/Cve-2024-21762-](https://github.com/Codeb3af/Cve-2024-21762-)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -610,7 +609,6 @@
 <code>A heap overflow vulnerability in IPSec component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure allows an unauthenticated malicious user to send specially crafted requests in-order-to crash the service thereby causing a DoS attack. In certain conditions this may lead to execution of arbitrary code 
 </code>
 
-- [RansomGroupCVE/CVE-2024-21894-POC](https://github.com/RansomGroupCVE/CVE-2024-21894-POC)
 - [AlexLondan/CVE-2024-21894-Proof-of-concept](https://github.com/AlexLondan/CVE-2024-21894-Proof-of-concept)
 
 ### CVE-2024-22024 (2024-02-13)
@@ -629,13 +627,6 @@
 </code>
 
 - [shellfeel/CVE-2024-22243-CVE-2024-22234](https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234)
-
-### CVE-2024-22328 (2024-04-06)
-
-<code>IBM Maximo Application Suite 8.10 and 8.11 could allow a remote attacker to traverse directories on the system. An attacker could send a specially crafted URL request containing &quot;dot dot&quot; sequences (/../) to view arbitrary files on the system.  IBM X-Force ID:  279950.
-</code>
-
-- [RansomGroupCVE/CVE-2024-22328-POC](https://github.com/RansomGroupCVE/CVE-2024-22328-POC)
 
 ### CVE-2024-22369 (2024-02-20)
 
@@ -1270,6 +1261,7 @@
 </code>
 
 - [lockness-Ko/CVE-2024-27316](https://github.com/lockness-Ko/CVE-2024-27316)
+- [aeyesec/CVE-2024-27316_poc](https://github.com/aeyesec/CVE-2024-27316_poc)
 
 ### CVE-2024-27462
 - [Alaatk/CVE-2024-27462](https://github.com/Alaatk/CVE-2024-27462)
