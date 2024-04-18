@@ -333,6 +333,7 @@
 - [Juul/xz-backdoor-scan](https://github.com/Juul/xz-backdoor-scan)
 - [fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-](https://github.com/fevar54/Detectar-Backdoor-en-liblzma-de-XZ-utils-CVE-2024-3094-)
 - [AlexDoe11/CVE-2024-3094-EXPLOIT](https://github.com/AlexDoe11/CVE-2024-3094-EXPLOIT)
+- [neuralinhibitor/xzwhy](https://github.com/neuralinhibitor/xzwhy)
 
 ### CVE-2024-3116 (2024-04-04)
 
@@ -400,6 +401,9 @@
 - [phantomradar/cve-2024-3400-poc](https://github.com/phantomradar/cve-2024-3400-poc)
 - [retkoussa/CVE-2024-3400](https://github.com/retkoussa/CVE-2024-3400)
 - [schooldropout1337/CVE-2024-3400](https://github.com/schooldropout1337/CVE-2024-3400)
+- [hahasagined/CVE-2024-3400](https://github.com/hahasagined/CVE-2024-3400)
+- [codeblueprint/CVE-2024-3400](https://github.com/codeblueprint/CVE-2024-3400)
+- [swaybs/CVE-2024-3400](https://github.com/swaybs/CVE-2024-3400)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -410,6 +414,9 @@
 </code>
 
 - [Instructor-Team8/CVE-2024-20291-POC](https://github.com/Instructor-Team8/CVE-2024-20291-POC)
+
+### CVE-2024-20356
+- [nettitude/CVE-2024-20356](https://github.com/nettitude/CVE-2024-20356)
 
 ### CVE-2024-20656 (2024-01-09)
 
@@ -1522,6 +1529,9 @@
 </code>
 
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
+
+### CVE-2024-32258
+- [liyansong2018/CVE-2024-32258](https://github.com/liyansong2018/CVE-2024-32258)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -11336,7 +11346,6 @@
 - [icebreack/CVE-2022-24637](https://github.com/icebreack/CVE-2022-24637)
 - [Pflegusch/CVE-2022-24637](https://github.com/Pflegusch/CVE-2022-24637)
 - [0xM4hm0ud/CVE-2022-24637](https://github.com/0xM4hm0ud/CVE-2022-24637)
-- [c0derpwner/HTB-pwned](https://github.com/c0derpwner/HTB-pwned)
 - [0xRyuk/CVE-2022-24637](https://github.com/0xRyuk/CVE-2022-24637)
 
 ### CVE-2022-24644 (2022-03-07)
@@ -17878,6 +17887,7 @@
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
 - [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
+- [Marshall-Hallenbeck/CVE-2021-26084_Confluence_RCE](https://github.com/Marshall-Hallenbeck/CVE-2021-26084_Confluence_RCE)
 
 ### CVE-2021-26085 (2021-07-29)
 
@@ -33313,6 +33323,7 @@
 
 - [immunIT/CVE-2018-11759](https://github.com/immunIT/CVE-2018-11759)
 - [Jul10l1r4/Identificador-CVE-2018-11759](https://github.com/Jul10l1r4/Identificador-CVE-2018-11759)
+- [julioliraup/Identificador-CVE-2018-11759](https://github.com/julioliraup/Identificador-CVE-2018-11759)
 
 ### CVE-2018-11761 (2018-09-19)
 
@@ -38762,6 +38773,7 @@
 - [0xm4ud/ProFTPD_CVE-2015-3306](https://github.com/0xm4ud/ProFTPD_CVE-2015-3306)
 - [jptr218/proftpd_bypass](https://github.com/jptr218/proftpd_bypass)
 - [xchg-rax-rax/CVE-2015-3306-](https://github.com/xchg-rax-rax/CVE-2015-3306-)
+- [JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution](https://github.com/JoseLRC97/ProFTPd-1.3.5-mod_copy-Remote-Command-Execution)
 
 ### CVE-2015-3337 (2015-05-01)
 
