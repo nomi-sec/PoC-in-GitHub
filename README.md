@@ -4145,6 +4145,7 @@
 - [adhikara13/CVE-2023-27350](https://github.com/adhikara13/CVE-2023-27350)
 - [ThatNotEasy/CVE-2023-27350](https://github.com/ThatNotEasy/CVE-2023-27350)
 - [Jenderal92/CVE-2023-27350](https://github.com/Jenderal92/CVE-2023-27350)
+- [ASG-CASTLE/CVE-2023-27350](https://github.com/ASG-CASTLE/CVE-2023-27350)
 
 ### CVE-2023-27363
 - [qwqdanchun/CVE-2023-27363](https://github.com/qwqdanchun/CVE-2023-27363)
@@ -13064,7 +13065,7 @@
 
 - [amitlttwo/CVE-2022-31626](https://github.com/amitlttwo/CVE-2022-31626)
 
-### CVE-2022-31629 (2022-09-27)
+### CVE-2022-31629 (2022-09-28)
 
 <code>In PHP versions before 7.4.31, 8.0.24 and 8.1.11, the vulnerability enables network and same-site attackers to set a standard insecure cookie in the victim's browser which is treated as a `__Host-` or `__Secure-` cookie by PHP applications.
 </code>
@@ -16781,6 +16782,7 @@
 - [cerodah/CVE-2021-4034](https://github.com/cerodah/CVE-2021-4034)
 - [FancySauce/PwnKit-CVE-2021-4034](https://github.com/FancySauce/PwnKit-CVE-2021-4034)
 - [wechicken456/CVE-2021-4034-CTF-writeup](https://github.com/wechicken456/CVE-2021-4034-CTF-writeup)
+- [ASG-CASTLE/CVE-2021-4034](https://github.com/ASG-CASTLE/CVE-2021-4034)
 
 ### CVE-2021-4043 (2022-02-04)
 
