@@ -194,6 +194,7 @@
 
 - [sharpicx/CVE-2024-1651-PoC](https://github.com/sharpicx/CVE-2024-1651-PoC)
 - [hy011121/CVE-2024-1651-exploit-RCE](https://github.com/hy011121/CVE-2024-1651-exploit-RCE)
+- [Whiteh4tWolf/CVE-2024-1651-PoC](https://github.com/Whiteh4tWolf/CVE-2024-1651-PoC)
 
 ### CVE-2024-1698 (2024-02-27)
 
@@ -407,6 +408,7 @@
 - [sxyrxyy/CVE-2024-3400-Check](https://github.com/sxyrxyy/CVE-2024-3400-Check)
 - [Ravaan21/CVE-2024-3400](https://github.com/Ravaan21/CVE-2024-3400)
 - [pwnj0hn/CVE-2024-3400](https://github.com/pwnj0hn/CVE-2024-3400)
+- [HackingLZ/panrapidcheck](https://github.com/HackingLZ/panrapidcheck)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -591,7 +593,6 @@
 - [r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check](https://github.com/r4p3c4/CVE-2024-21762-Exploit-PoC-Fortinet-SSL-VPN-Check)
 - [d0rb/CVE-2024-21762](https://github.com/d0rb/CVE-2024-21762)
 - [lolminerxmrig/multicheck_CVE-2024-21762](https://github.com/lolminerxmrig/multicheck_CVE-2024-21762)
-- [AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK](https://github.com/AlexLondan/CVE-2024-21762-Fortinet-RCE-ALLWORK)
 
 ### CVE-2024-21887 (2024-01-12)
 
@@ -614,13 +615,6 @@
 
 - [h4x0r-dz/CVE-2024-21893.py](https://github.com/h4x0r-dz/CVE-2024-21893.py)
 - [Chocapikk/CVE-2024-21893-to-CVE-2024-21887](https://github.com/Chocapikk/CVE-2024-21893-to-CVE-2024-21887)
-
-### CVE-2024-21894 (2024-04-04)
-
-<code>A heap overflow vulnerability in IPSec component of Ivanti Connect Secure (9.x, 22.x) and Ivanti Policy Secure allows an unauthenticated malicious user to send specially crafted requests in-order-to crash the service thereby causing a DoS attack. In certain conditions this may lead to execution of arbitrary code 
-</code>
-
-- [AlexLondan/CVE-2024-21894-Proof-of-concept](https://github.com/AlexLondan/CVE-2024-21894-Proof-of-concept)
 
 ### CVE-2024-22024 (2024-02-13)
 
@@ -685,7 +679,11 @@
 ### CVE-2024-22534
 - [austino2000/CVE-2024-22534](https://github.com/austino2000/CVE-2024-22534)
 
-### CVE-2024-22640
+### CVE-2024-22640 (2024-04-19)
+
+<code>TCPDF version &lt;=6.6.5 is vulnerable to ReDoS (Regular Expression Denial of Service) if parsing an untrusted HTML page with a crafted color.
+</code>
+
 - [zunak/CVE-2024-22640](https://github.com/zunak/CVE-2024-22640)
 
 ### CVE-2024-22641
@@ -7155,7 +7153,6 @@
 - [Zenmovie/CVE-2023-42793](https://github.com/Zenmovie/CVE-2023-42793)
 - [johnossawy/CVE-2023-42793_POC](https://github.com/johnossawy/CVE-2023-42793_POC)
 - [StanleyJobsonAU/GhostTown](https://github.com/StanleyJobsonAU/GhostTown)
-- [St0rm-85/CVE-2023-42793](https://github.com/St0rm-85/CVE-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
@@ -29116,7 +29113,6 @@
 - [d3fudd/CVE-2019-9978_Exploit](https://github.com/d3fudd/CVE-2019-9978_Exploit)
 - [grimlockx/CVE-2019-9978](https://github.com/grimlockx/CVE-2019-9978)
 - [h8handles/CVE-2019-9978-Python3](https://github.com/h8handles/CVE-2019-9978-Python3)
-- [20dani09/CVE-2019-9978](https://github.com/20dani09/CVE-2019-9978)
 - [0xMoonrise/cve-2019-9978](https://github.com/0xMoonrise/cve-2019-9978)
 
 ### CVE-2019-10008 (2019-04-24)
