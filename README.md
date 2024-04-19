@@ -406,6 +406,7 @@
 - [swaybs/CVE-2024-3400](https://github.com/swaybs/CVE-2024-3400)
 - [sxyrxyy/CVE-2024-3400-Check](https://github.com/sxyrxyy/CVE-2024-3400-Check)
 - [Ravaan21/CVE-2024-3400](https://github.com/Ravaan21/CVE-2024-3400)
+- [pwnj0hn/CVE-2024-3400](https://github.com/pwnj0hn/CVE-2024-3400)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -8872,7 +8873,7 @@
 - [vin01/poc-proxycommand-vulnerable](https://github.com/vin01/poc-proxycommand-vulnerable)
 - [FeatherStark/CVE-2023-51385](https://github.com/FeatherStark/CVE-2023-51385)
 - [watarium/poc-cve-2023-51385](https://github.com/watarium/poc-cve-2023-51385)
-- [Tachanka-zz/CVE-2023-51385_test](https://github.com/Tachanka-zz/CVE-2023-51385_test)
+- [GoodPeople-ZhangSan/CVE-2023-51385_test](https://github.com/GoodPeople-ZhangSan/CVE-2023-51385_test)
 - [Le1a/CVE-2023-51385](https://github.com/Le1a/CVE-2023-51385)
 - [LtmThink/CVE-2023-51385_test](https://github.com/LtmThink/CVE-2023-51385_test)
 - [WLaoDuo/CVE-2023-51385_poc-test](https://github.com/WLaoDuo/CVE-2023-51385_poc-test)
@@ -31987,7 +31988,7 @@
 <code>Multiple memory corruption issues were addressed with improved memory handling. This issue affected versions prior to iOS 12.1, tvOS 12.1, watchOS 5.1, Safari 12.0.1, iTunes 12.9.1, iCloud for Windows 7.8.
 </code>
 
-- [erupmi/CVE-2018-4416](https://github.com/erupmi/CVE-2018-4416)
+- [erupmi/CVE-2018-4416-exploit](https://github.com/erupmi/CVE-2018-4416-exploit)
 
 ### CVE-2018-4431 (2019-04-03)
 
