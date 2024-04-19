@@ -377,7 +377,7 @@
 
 ### CVE-2024-3400 (2024-04-12)
 
-<code>A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall.\n\nCloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability.
+<code>A command injection as a result of arbitrary file creation vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall.\n\nCloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability.
 </code>
 
 - [Yuvvi01/CVE-2024-3400](https://github.com/Yuvvi01/CVE-2024-3400)
@@ -404,6 +404,8 @@
 - [hahasagined/CVE-2024-3400](https://github.com/hahasagined/CVE-2024-3400)
 - [codeblueprint/CVE-2024-3400](https://github.com/codeblueprint/CVE-2024-3400)
 - [swaybs/CVE-2024-3400](https://github.com/swaybs/CVE-2024-3400)
+- [sxyrxyy/CVE-2024-3400-Check](https://github.com/sxyrxyy/CVE-2024-3400-Check)
+- [Ravaan21/CVE-2024-3400](https://github.com/Ravaan21/CVE-2024-3400)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -4089,9 +4091,6 @@
 </code>
 
 - [fivex3/CVE-2023-27035](https://github.com/fivex3/CVE-2023-27035)
-
-### CVE-2023-27053
-- [d3fudd/CVE-2023-27053_XSS](https://github.com/d3fudd/CVE-2023-27053_XSS)
 
 ### CVE-2023-27100 (2023-03-22)
 
@@ -17488,13 +17487,6 @@
 
 - [HoangKien1020/CVE-2021-23132](https://github.com/HoangKien1020/CVE-2021-23132)
 
-### CVE-2021-23337 (2021-02-15)
-
-<code>Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.
-</code>
-
-- [ebickle/CVE-2021-23337-template](https://github.com/ebickle/CVE-2021-23337-template)
-
 ### CVE-2021-23358 (2021-03-29)
 
 <code>The package underscore from 1.13.0-0 and before 1.13.0-2, from 1.3.2 and before 1.12.1 are vulnerable to Arbitrary Code Injection via the template function, particularly when a variable property is passed as an argument as it is not sanitized.
@@ -17887,7 +17879,6 @@
 - [30579096/Confluence-CVE-2021-26084](https://github.com/30579096/Confluence-CVE-2021-26084)
 - [antx-code/CVE-2021-26084](https://github.com/antx-code/CVE-2021-26084)
 - [vpxuser/CVE-2021-26084-EXP](https://github.com/vpxuser/CVE-2021-26084-EXP)
-- [Marshall-Hallenbeck/CVE-2021-26084_Confluence_RCE](https://github.com/Marshall-Hallenbeck/CVE-2021-26084_Confluence_RCE)
 
 ### CVE-2021-26085 (2021-07-29)
 
@@ -37377,6 +37368,7 @@
 - [Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098)
 - [j4k0m/CVE-2016-2098](https://github.com/j4k0m/CVE-2016-2098)
 - [Shakun8/CVE-2016-2098](https://github.com/Shakun8/CVE-2016-2098)
+- [JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution](https://github.com/JoseLRC97/Ruby-on-Rails-ActionPack-Inline-ERB-Remote-Code-Execution)
 
 ### CVE-2016-2107 (2016-05-05)
 
@@ -41054,6 +41046,7 @@
 - [MFernstrom/OffensivePascal-CVE-2010-2075](https://github.com/MFernstrom/OffensivePascal-CVE-2010-2075)
 - [chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/chancej715/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution)
 - [FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1](https://github.com/FredBrave/CVE-2010-2075-UnrealIRCd-3.2.8.1)
+- [JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution](https://github.com/JoseLRC97/UnrealIRCd-3.2.8.1-Backdoor-Command-Execution)
 
 ### CVE-2010-2387 (2012-12-21)
 
