@@ -1046,6 +1046,8 @@
 - [corysabol/batbadbut-demo](https://github.com/corysabol/batbadbut-demo)
 - [mishalhossin/CVE-2024-24576-PoC-Python](https://github.com/mishalhossin/CVE-2024-24576-PoC-Python)
 - [lpn/CVE-2024-24576.jl](https://github.com/lpn/CVE-2024-24576.jl)
+- [p14t1num/cve-2024-24576-python](https://github.com/p14t1num/cve-2024-24576-python)
+- [Gaurav1020/CVE-2024-24576-PoC-Rust](https://github.com/Gaurav1020/CVE-2024-24576-PoC-Rust)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -1535,6 +1537,7 @@
 
 ### CVE-2024-32238
 - [asdfjkl11/CVE-2024-32238](https://github.com/asdfjkl11/CVE-2024-32238)
+- [FuBoLuSec/CVE-2024-32238](https://github.com/FuBoLuSec/CVE-2024-32238)
 
 ### CVE-2024-32258
 - [liyansong2018/CVE-2024-32258](https://github.com/liyansong2018/CVE-2024-32258)
@@ -32324,6 +32327,7 @@
 - [Ashved9/Orange](https://github.com/Ashved9/Orange)
 - [zerbaliy3v/cve-2018-6574-exploit](https://github.com/zerbaliy3v/cve-2018-6574-exploit)
 - [jftierno/-CVE-2018-6574](https://github.com/jftierno/-CVE-2018-6574)
+- [faiqu3/cve-2018-6574](https://github.com/faiqu3/cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
