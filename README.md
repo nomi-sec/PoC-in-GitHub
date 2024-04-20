@@ -1531,6 +1531,12 @@
 
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
 
+### CVE-2024-32205
+- [Lucky-lm/CVE-2024-32205](https://github.com/Lucky-lm/CVE-2024-32205)
+
+### CVE-2024-32238
+- [asdfjkl11/CVE-2024-32238](https://github.com/asdfjkl11/CVE-2024-32238)
+
 ### CVE-2024-32258
 - [liyansong2018/CVE-2024-32258](https://github.com/liyansong2018/CVE-2024-32258)
 
