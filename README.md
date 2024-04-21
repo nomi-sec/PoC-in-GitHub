@@ -410,6 +410,7 @@
 - [pwnj0hn/CVE-2024-3400](https://github.com/pwnj0hn/CVE-2024-3400)
 - [HackingLZ/panrapidcheck](https://github.com/HackingLZ/panrapidcheck)
 - [stronglier/CVE-2024-3400](https://github.com/stronglier/CVE-2024-3400)
+- [Kr0ff/cve-2024-3400](https://github.com/Kr0ff/cve-2024-3400)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -1048,6 +1049,7 @@
 - [lpn/CVE-2024-24576.jl](https://github.com/lpn/CVE-2024-24576.jl)
 - [p14t1num/cve-2024-24576-python](https://github.com/p14t1num/cve-2024-24576-python)
 - [Gaurav1020/CVE-2024-24576-PoC-Rust](https://github.com/Gaurav1020/CVE-2024-24576-PoC-Rust)
+- [SheL3G/CVE-2024-24576-PoC-BatBadBut](https://github.com/SheL3G/CVE-2024-24576-PoC-BatBadBut)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -2486,7 +2488,7 @@
 - [IceBreakerCode/CVE-2023-4966](https://github.com/IceBreakerCode/CVE-2023-4966)
 - [0xKayala/CVE-2023-4966](https://github.com/0xKayala/CVE-2023-4966)
 - [certat/citrix-logchecker](https://github.com/certat/citrix-logchecker)
-- [sanjai-AK47/CVE-2023-4966](https://github.com/sanjai-AK47/CVE-2023-4966)
+- [RevoltSecurities/CVE-2023-4966](https://github.com/RevoltSecurities/CVE-2023-4966)
 - [s-bt/CVE-2023-4966](https://github.com/s-bt/CVE-2023-4966)
 - [byte4RR4Y/CVE-2023-4966](https://github.com/byte4RR4Y/CVE-2023-4966)
 - [jmussmann/cve-2023-4966-iocs](https://github.com/jmussmann/cve-2023-4966-iocs)
@@ -2676,6 +2678,7 @@
 - [miguelc49/CVE-2023-6019-2](https://github.com/miguelc49/CVE-2023-6019-2)
 - [miguelc49/CVE-2023-6019-1](https://github.com/miguelc49/CVE-2023-6019-1)
 - [miguelc49/CVE-2023-6019-3](https://github.com/miguelc49/CVE-2023-6019-3)
+- [Clydeston/CVE-2023-6019](https://github.com/Clydeston/CVE-2023-6019)
 
 ### CVE-2023-6036 (2024-02-12)
 
@@ -2928,7 +2931,7 @@
 - [mr-r3b00t/CVE-2023-20198-IOS-XE-Scanner](https://github.com/mr-r3b00t/CVE-2023-20198-IOS-XE-Scanner)
 - [ohlawd/CVE-2023-20198](https://github.com/ohlawd/CVE-2023-20198)
 - [IceBreakerCode/CVE-2023-20198](https://github.com/IceBreakerCode/CVE-2023-20198)
-- [sanjai-AK47/CVE-2023-20198](https://github.com/sanjai-AK47/CVE-2023-20198)
+- [RevoltSecurities/CVE-2023-20198](https://github.com/RevoltSecurities/CVE-2023-20198)
 - [smokeintheshell/CVE-2023-20198](https://github.com/smokeintheshell/CVE-2023-20198)
 - [netbell/CVE-2023-20198-Fix](https://github.com/netbell/CVE-2023-20198-Fix)
 - [Vulnmachines/Cisco_CVE-2023-20198](https://github.com/Vulnmachines/Cisco_CVE-2023-20198)
@@ -3396,7 +3399,7 @@
 
 - [ForceFledgling/CVE-2023-22518](https://github.com/ForceFledgling/CVE-2023-22518)
 - [davidfortytwo/CVE-2023-22518](https://github.com/davidfortytwo/CVE-2023-22518)
-- [sanjai-AK47/CVE-2023-22518](https://github.com/sanjai-AK47/CVE-2023-22518)
+- [RevoltSecurities/CVE-2023-22518](https://github.com/RevoltSecurities/CVE-2023-22518)
 - [0x0d3ad/CVE-2023-22518](https://github.com/0x0d3ad/CVE-2023-22518)
 - [C1ph3rX13/CVE-2023-22518](https://github.com/C1ph3rX13/CVE-2023-22518)
 - [bibo318/CVE-2023-22518](https://github.com/bibo318/CVE-2023-22518)
@@ -3427,7 +3430,7 @@
 - [C1ph3rX13/CVE-2023-22527](https://github.com/C1ph3rX13/CVE-2023-22527)
 - [Niuwoo/CVE-2023-22527](https://github.com/Niuwoo/CVE-2023-22527)
 - [Chocapikk/CVE-2023-22527](https://github.com/Chocapikk/CVE-2023-22527)
-- [sanjai-AK47/CVE-2023-22527](https://github.com/sanjai-AK47/CVE-2023-22527)
+- [RevoltSecurities/CVE-2023-22527](https://github.com/RevoltSecurities/CVE-2023-22527)
 - [yoryio/CVE-2023-22527](https://github.com/yoryio/CVE-2023-22527)
 - [Privia-Security/CVE-2023-22527](https://github.com/Privia-Security/CVE-2023-22527)
 - [MaanVader/CVE-2023-22527-POC](https://github.com/MaanVader/CVE-2023-22527-POC)
@@ -3914,6 +3917,13 @@
 </code>
 
 - [sgwgsw/LAB-CVE-2023-25725](https://github.com/sgwgsw/LAB-CVE-2023-25725)
+
+### CVE-2023-25813 (2023-02-22)
+
+<code>Sequelize is a Node.js ORM tool. In versions prior to 6.19.1 a SQL injection exploit exists related to replacements. Parameters which are passed through replacements are not properly escaped which can lead to arbitrary SQL injection depending on the specific queries in use. The issue has been fixed in Sequelize 6.19.1. Users are advised to upgrade. Users unable to upgrade should not use the `replacements` and the `where` option in the same query.
+</code>
+
+- [bde574786/Sequelize-1day-CVE-2023-25813](https://github.com/bde574786/Sequelize-1day-CVE-2023-25813)
 
 ### CVE-2023-25950 (2023-04-11)
 
@@ -7162,6 +7172,7 @@
 - [Zenmovie/CVE-2023-42793](https://github.com/Zenmovie/CVE-2023-42793)
 - [johnossawy/CVE-2023-42793_POC](https://github.com/johnossawy/CVE-2023-42793_POC)
 - [StanleyJobsonAU/GhostTown](https://github.com/StanleyJobsonAU/GhostTown)
+- [hotplugin0x01/CVE-2023-42793](https://github.com/hotplugin0x01/CVE-2023-42793)
 
 ### CVE-2023-42819 (2023-09-26)
 
@@ -8041,7 +8052,7 @@
 - [maniak-academy/Mitigate-CVE-2023-46747](https://github.com/maniak-academy/Mitigate-CVE-2023-46747)
 - [y4v4z/CVE-2023-46747-POC](https://github.com/y4v4z/CVE-2023-46747-POC)
 - [nvansluis/test_cve-2023-46747](https://github.com/nvansluis/test_cve-2023-46747)
-- [sanjai-AK47/CVE-2023-46747](https://github.com/sanjai-AK47/CVE-2023-46747)
+- [RevoltSecurities/CVE-2023-46747](https://github.com/RevoltSecurities/CVE-2023-46747)
 - [vidura2/cve-2023-46747](https://github.com/vidura2/cve-2023-46747)
 - [rainbowhatrkn/CVE-2023-46747-RCE](https://github.com/rainbowhatrkn/CVE-2023-46747-RCE)
 
@@ -29365,6 +29376,7 @@
 </code>
 
 - [RedAlien00/CVE-2019-11395](https://github.com/RedAlien00/CVE-2019-11395)
+- [caioprince/CVE-2019-11395](https://github.com/caioprince/CVE-2019-11395)
 
 ### CVE-2019-11408 (2019-06-17)
 
