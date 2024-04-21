@@ -8846,6 +8846,9 @@
 
 - [christopher-pace/CVE-2023-51073](https://github.com/christopher-pace/CVE-2023-51073)
 
+### CVE-2023-51119
+- [OscarAkaElvis/CVE-2023-51119](https://github.com/OscarAkaElvis/CVE-2023-51119)
+
 ### CVE-2023-51126 (2024-01-10)
 
 <code>Command injection vulnerability in /usr/www/res.php in FLIR AX8 up to 1.46.16 allows attackers to run arbitrary commands via the value parameter.
@@ -32684,6 +32687,13 @@
 </code>
 
 - [otavioarj/SIOCtl](https://github.com/otavioarj/SIOCtl)
+
+### CVE-2018-8062 (2020-10-23)
+
+<code>A cross-site scripting (XSS) vulnerability on Comtrend AR-5387un devices with A731-410JAZ-C04_R02.A2pD035g.d23i firmware allows remote attackers to inject arbitrary web script or HTML via the Service Description parameter while creating a WAN service.
+</code>
+
+- [OscarAkaElvis/CVE-2018-8062](https://github.com/OscarAkaElvis/CVE-2018-8062)
 
 ### CVE-2018-8065 (2018-03-12)
 
