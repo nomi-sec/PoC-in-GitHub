@@ -4557,6 +4557,7 @@
 - [prasad-1808/tool-29489](https://github.com/prasad-1808/tool-29489)
 - [mdaseem03/cpanel_xss_2023](https://github.com/mdaseem03/cpanel_xss_2023)
 - [some-man1/CVE-2023-29489](https://github.com/some-man1/CVE-2023-29489)
+- [Cappricio-Securities/CVE-2023-29489](https://github.com/Cappricio-Securities/CVE-2023-29489)
 
 ### CVE-2023-29808 (2023-05-12)
 
