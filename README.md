@@ -396,7 +396,6 @@
 - [Chocapikk/CVE-2024-3400](https://github.com/Chocapikk/CVE-2024-3400)
 - [ihebski/CVE-2024-3400](https://github.com/ihebski/CVE-2024-3400)
 - [index2014/CVE-2024-3400-Checker](https://github.com/index2014/CVE-2024-3400-Checker)
-- [admi-n/CVE-2024-3400-RCE-copy](https://github.com/admi-n/CVE-2024-3400-RCE-copy)
 - [ZephrFish/CVE-2024-3400-Canary](https://github.com/ZephrFish/CVE-2024-3400-Canary)
 - [ak1t4/CVE-2024-3400](https://github.com/ak1t4/CVE-2024-3400)
 - [phantomradar/cve-2024-3400-poc](https://github.com/phantomradar/cve-2024-3400-poc)
@@ -1524,6 +1523,7 @@
 
 - [sh1k4ku/CVE-2024-31497](https://github.com/sh1k4ku/CVE-2024-31497)
 - [edutko/cve-2024-31497](https://github.com/edutko/cve-2024-31497)
+- [ViktorNaum/CVE-2024-31497-POC](https://github.com/ViktorNaum/CVE-2024-31497-POC)
 
 ### CVE-2024-31719
 - [VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability](https://github.com/VoltaireYoung/CVE-2024-31719----AMI-Aptio-5-Vulnerability)
@@ -1550,6 +1550,9 @@
 
 ### CVE-2024-32258
 - [liyansong2018/CVE-2024-32258](https://github.com/liyansong2018/CVE-2024-32258)
+
+### CVE-2024-32399
+- [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -33161,7 +33164,7 @@
 <code>An issue was discovered on Dasan GPON home routers. Command Injection can occur via the dest_host parameter in a diag_action=ping request to a GponForm/diag_Form URI. Because the router saves ping results in /tmp and transmits them to the user when the user revisits /diag.html, it's quite simple to execute commands and retrieve their output.
 </code>
 
-- [f3d0x0/GPON](https://github.com/f3d0x0/GPON)
+- [ExiaHan/GPON](https://github.com/ExiaHan/GPON)
 - [649/Pingpon-Exploit](https://github.com/649/Pingpon-Exploit)
 - [Choudai/GPON-LOADER](https://github.com/Choudai/GPON-LOADER)
 - [c0ld1/GPON_RCE](https://github.com/c0ld1/GPON_RCE)
