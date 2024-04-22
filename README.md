@@ -391,7 +391,7 @@
 - [AdaniKamal/CVE-2024-3400](https://github.com/AdaniKamal/CVE-2024-3400)
 - [LoanVitor/CVE-2024-3400-](https://github.com/LoanVitor/CVE-2024-3400-)
 - [h4x0r-dz/CVE-2024-3400](https://github.com/h4x0r-dz/CVE-2024-3400)
-- [W01fh4cker/CVE-2024-3400-RCE](https://github.com/W01fh4cker/CVE-2024-3400-RCE)
+- [W01fh4cker/CVE-2024-3400-RCE-Scan](https://github.com/W01fh4cker/CVE-2024-3400-RCE-Scan)
 - [CONDITIONBLACK/CVE-2024-3400-POC](https://github.com/CONDITIONBLACK/CVE-2024-3400-POC)
 - [Chocapikk/CVE-2024-3400](https://github.com/Chocapikk/CVE-2024-3400)
 - [ihebski/CVE-2024-3400](https://github.com/ihebski/CVE-2024-3400)
@@ -480,6 +480,13 @@
 </code>
 
 - [Alaatk/CVE-2024-21107](https://github.com/Alaatk/CVE-2024-21107)
+
+### CVE-2024-21111 (2024-04-16)
+
+<code>Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 7.0.16. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. Note: This vulnerability applies to Windows hosts only. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [mansk1es/CVE-2024-21111](https://github.com/mansk1es/CVE-2024-21111)
 
 ### CVE-2024-21305 (2024-01-09)
 
@@ -5399,6 +5406,7 @@
 
 - [c53elyas/CVE-2023-33733](https://github.com/c53elyas/CVE-2023-33733)
 - [onion2203/Lab_Reportlab](https://github.com/onion2203/Lab_Reportlab)
+- [buiduchoang24/CVE-2023-33733](https://github.com/buiduchoang24/CVE-2023-33733)
 
 ### CVE-2023-33747 (2023-06-06)
 
@@ -7593,6 +7601,7 @@
 - [nxenon/cve-2023-44487](https://github.com/nxenon/cve-2023-44487)
 - [terrorist/HTTP-2-Rapid-Reset-Client](https://github.com/terrorist/HTTP-2-Rapid-Reset-Client)
 - [sigridou/CVE-2023-44487-](https://github.com/sigridou/CVE-2023-44487-)
+- [TYuan0816/cve-2023-44487](https://github.com/TYuan0816/cve-2023-44487)
 
 ### CVE-2023-44758 (2023-10-06)
 
@@ -9107,6 +9116,7 @@
 </code>
 
 - [Acceis/exploit-CVE-2022-0482](https://github.com/Acceis/exploit-CVE-2022-0482)
+- [mija-pilkaite/CVE-2022-0482_exploit](https://github.com/mija-pilkaite/CVE-2022-0482_exploit)
 
 ### CVE-2022-0486 (2022-05-16)
 
