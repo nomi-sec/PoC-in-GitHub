@@ -375,6 +375,7 @@
 - [K3ysTr0K3R/CVE-2024-3273-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-3273-EXPLOIT)
 - [ThatNotEasy/CVE-2024-3273](https://github.com/ThatNotEasy/CVE-2024-3273)
 - [LeopoldSkell/CVE-2024-3273](https://github.com/LeopoldSkell/CVE-2024-3273)
+- [mrrobot0o/CVE-2024-3273-](https://github.com/mrrobot0o/CVE-2024-3273-)
 
 ### CVE-2024-3400 (2024-04-12)
 
@@ -1678,6 +1679,7 @@
 - [puckiestyle/CVE-2023-0386](https://github.com/puckiestyle/CVE-2023-0386)
 - [letsr00t/CVE-2023-0386](https://github.com/letsr00t/CVE-2023-0386)
 - [churamanib/CVE-2023-0386](https://github.com/churamanib/CVE-2023-0386)
+- [EstamelGG/CVE-2023-0386-libs](https://github.com/EstamelGG/CVE-2023-0386-libs)
 
 ### CVE-2023-0461 (2023-02-28)
 
@@ -40962,6 +40964,7 @@
 - [chleba124/vsftpd-exploit](https://github.com/chleba124/vsftpd-exploit)
 - [4m3rr0r/CVE-2011-2523-poc](https://github.com/4m3rr0r/CVE-2011-2523-poc)
 - [Shubham-2k1/Exploit-CVE-2011-2523](https://github.com/Shubham-2k1/Exploit-CVE-2011-2523)
+- [Tenor-Z/SmileySploit](https://github.com/Tenor-Z/SmileySploit)
 
 ### CVE-2011-2894 (2011-10-04)
 
