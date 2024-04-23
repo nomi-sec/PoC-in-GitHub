@@ -1247,13 +1247,7 @@
 - [CharonDefalt/CVE-2024-27198-RCE](https://github.com/CharonDefalt/CVE-2024-27198-RCE)
 - [K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT)
 - [Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-)
-
-### CVE-2024-27199 (2024-03-04)
-
-<code>In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions  was possible
-</code>
-
-- [Stuub/RCity-CVE-2024-27199](https://github.com/Stuub/RCity-CVE-2024-27199)
+- [Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198)
 
 ### CVE-2024-27316 (2024-04-04)
 
@@ -1523,7 +1517,11 @@
 - [asdfjkl11/CVE-2024-32238](https://github.com/asdfjkl11/CVE-2024-32238)
 - [FuBoLuSec/CVE-2024-32238](https://github.com/FuBoLuSec/CVE-2024-32238)
 
-### CVE-2024-32258
+### CVE-2024-32258 (2024-04-23)
+
+<code>The network server of fceux 2.7.0 has a path traversal vulnerability, allowing attackers to overwrite any files on the server without authentication by fake ROM.
+</code>
+
 - [liyansong2018/CVE-2024-32258](https://github.com/liyansong2018/CVE-2024-32258)
 
 ### CVE-2024-32399 (2024-04-22)
