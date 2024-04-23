@@ -411,6 +411,13 @@
 - [stronglier/CVE-2024-3400](https://github.com/stronglier/CVE-2024-3400)
 - [Kr0ff/cve-2024-3400](https://github.com/Kr0ff/cve-2024-3400)
 
+### CVE-2024-4040 (2024-04-22)
+
+<code>VFS Sandbox Escape in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows remote attackers with low privileges to read files from the filesystem outside of VFS Sandbox.\n
+</code>
+
+- [qt2a23/CVE-2024-4040](https://github.com/qt2a23/CVE-2024-4040)
+
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
 
@@ -1276,6 +1283,13 @@
 - [K3ysTr0K3R/CVE-2024-27198-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-27198-EXPLOIT)
 - [Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-](https://github.com/Shimon03/Explora-o-RCE-n-o-autenticado-JetBrains-TeamCity-CVE-2024-27198-)
 
+### CVE-2024-27199 (2024-03-04)
+
+<code>In JetBrains TeamCity before 2023.11.4 path traversal allowing to perform limited admin actions  was possible
+</code>
+
+- [Stuub/RCity-CVE-2024-27199](https://github.com/Stuub/RCity-CVE-2024-27199)
+
 ### CVE-2024-27316 (2024-04-04)
 
 <code>HTTP/2 incoming headers exceeding the limit are temporarily buffered in nghttp2 in order to generate an informative HTTP 413 response. If a client does not stop sending headers, this leads to memory exhaustion.
@@ -1544,14 +1558,22 @@
 ### CVE-2024-32205
 - [Lucky-lm/CVE-2024-32205](https://github.com/Lucky-lm/CVE-2024-32205)
 
-### CVE-2024-32238
+### CVE-2024-32238 (2024-04-22)
+
+<code>H3C ER8300G2-X is vulnerable to Incorrect Access Control. The password for the router's management system can be accessed via the management system page login interface.
+</code>
+
 - [asdfjkl11/CVE-2024-32238](https://github.com/asdfjkl11/CVE-2024-32238)
 - [FuBoLuSec/CVE-2024-32238](https://github.com/FuBoLuSec/CVE-2024-32238)
 
 ### CVE-2024-32258
 - [liyansong2018/CVE-2024-32258](https://github.com/liyansong2018/CVE-2024-32258)
 
-### CVE-2024-32399
+### CVE-2024-32399 (2024-04-22)
+
+<code>Directory Traversal vulnerability in RaidenMAILD Mail Server v.4.9.4 and before allows a remote attacker to obtain sensitive information via the /webeditor/ component.
+</code>
+
 - [NN0b0dy/CVE-2024-32399](https://github.com/NN0b0dy/CVE-2024-32399)
 
 ### CVE-2024-65230
@@ -21580,6 +21602,7 @@
 - [mr-vill4in/log4j-fuzzer](https://github.com/mr-vill4in/log4j-fuzzer)
 - [nix-xin/vuln4japi](https://github.com/nix-xin/vuln4japi)
 - [maximofernandezriera/CVE-2021-44228](https://github.com/maximofernandezriera/CVE-2021-44228)
+- [mebibite/log4jhound](https://github.com/mebibite/log4jhound)
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
 - [atlassion/log4j-exploit-builder](https://github.com/atlassion/log4j-exploit-builder)
@@ -33735,6 +33758,7 @@
 - [yukar1z0e/CVE-2018-14847](https://github.com/yukar1z0e/CVE-2018-14847)
 - [hacker30468/Mikrotik-router-hack](https://github.com/hacker30468/Mikrotik-router-hack)
 - [babyshen/routeros-CVE-2018-14847-bytheway](https://github.com/babyshen/routeros-CVE-2018-14847-bytheway)
+- [K3ysTr0K3R/CVE-2018-14847-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2018-14847-EXPLOIT)
 
 ### CVE-2018-14879 (2019-10-03)
 
